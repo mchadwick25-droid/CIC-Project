@@ -140,11 +140,29 @@ queue:
       Pars I and Pars II in one file, from an archive.org-hosted Google
       Books scan - a different, more complete source than the vol.-3.2-only
       item above; the exact archive.org item identifier was not stated when
-      supplied and is not guessed. Pars III (spuria/indices) still not
-      located - G1 stays open for that part only.
+      supplied and is not guessed. Pars III (spuria/indices) fulfilled
+      separately, 2026-09-08 - see the entry immediately below.
     url: null
     rights_basis: pd-us-by-date
     verified_by: "lpc build thread, direct file inspection (OCR-quality sampled across the full document), 2026-09-05"
+    status: downloaded
+
+  - title: "S. Thasci Caecili Cypriani opera spuria, cum Indicibus et Praefatione, Pars III (spuria, Vita Caecilii Cypriani, Acta Proconsularia)"
+    author: "Cyprian of Carthage (spuria); Pontius the Deacon (Vita, attributed)"
+    translator: "Wilhelm (Guilelmus) Hartel (ed.)"
+    year: 1871
+    world: lpc
+    why: >
+      Closes lpc's own G1 in full (Pars I-II, entry immediately above,
+      fulfilled 2026-09-05). With this build session's own network access
+      confirmed working for the first time, fetched and independently
+      verified directly rather than requiring Mark's own manual download -
+      title page, the Vita's own heading, and the bound-in CSEL 4 (Arnobius)
+      boundary all directly confirmed and the latter excised before
+      vendoring. Registry row 194.
+    url: "https://archive.org/details/corpusscriptorum03cypruoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, direct archive.org fetch and file inspection, 2026-09-08"
     status: downloaded
 
   - title: "Sancti Augustini Vita Scripta a Possidio Episcopo"
@@ -179,14 +197,47 @@ queue:
       here for Augustine's letters. Would also help settle the letter-
       numbering confusion row 46 (Clarke, in-copyright) exists to answer by
       hand. Narrowed 2026-09-05, after CSEL 57 (Pars IV) was supplied and
-      vendored (see the new entry immediately below) - this entry now
-      covers only the four still-unacquired volumes. Volume 58 was
-      identified this session at archive.org/details/corpusscriptorum58auguuoft;
-      34/1, 34/2, and 44 were not located at a specific URL.
+      vendored (see the entry below) - this entry then covered the four
+      still-unacquired volumes. Narrowed again 2026-09-08: 34/1, 34/2, and
+      44 are now also vendored (see the two new entries below) - this entry
+      now covers only CSEL 58 (praefatio and indices, no letter text of its
+      own). Volume 58 was identified 2026-09-01 at
+      archive.org/details/corpusscriptorum58auguuoft but not independently
+      opened or fetched.
     url: "https://archive.org/details/corpusscriptorum58auguuoft"
     rights_basis: pd-us-by-date
     verified_by: "lpc build thread, live web search, 2026-09-01 (vol. 58 only)"
     status: not-yet-downloaded
+
+  - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae, Pars I-II (Epistulae I-CXXIII), CSEL 34/1-2"
+    author: "Augustine of Hippo"
+    translator: "Alois Goldbacher (ed.)"
+    year: "1895 (34/1) / 1898 (34/2)"
+    world: lpc
+    why: >
+      Fulfills part of lpc's own G4 (see the entry above for the remaining
+      volume, CSEL 58). Fetched and independently verified directly this
+      session - both title pages, Epistle 1's own opening line, and Epistle
+      123's own closing apparatus all directly confirmed. Registry row 195.
+    url: "https://archive.org/details/sanctiaureliaugu34augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, direct archive.org fetch and file inspection, 2026-09-08"
+    status: downloaded
+
+  - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae, Pars III (Epistulae CXXIV-CLXXXIV A), CSEL 44"
+    author: "Augustine of Hippo"
+    translator: "Alois Goldbacher (ed.)"
+    year: 1904
+    world: lpc
+    why: >
+      Fulfills part of lpc's own G4 alongside the CSEL 34/1-2 entry
+      immediately above. Fetched and independently verified directly this
+      session - title page and Epistle 124's own opening line directly
+      confirmed, running through Epistle 184A. Registry row 196.
+    url: "https://archive.org/details/sanctiaureliaugu44augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, direct archive.org fetch and file inspection, 2026-09-08"
+    status: downloaded
 
   - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae, Pars IV (Epistulae CLXXXV-CCLXX), CSEL 57"
     author: "Augustine of Hippo"
@@ -221,7 +272,52 @@ queue:
     url: "https://archive.org/details/histoirelittra00moncuoft"
     rights_basis: pd-us-by-date
     verified_by: "lpc build thread, live web search, 2026-09-01 (vol. I via this URL; vol. III also confirmed at archive.org/details/histoirelitterai03monc_0; Gallica mirror at gallica.bnf.fr/ark:/12148/bpt6k141717k)"
-    status: not-yet-downloaded
+    status: superseded
+
+  - title: "Histoire litteraire de l'Afrique chretienne depuis les origines jusqu'a l'invasion arabe, Tome Premier: Tertullien et les origines"
+    author: "Paul Monceaux"
+    translator: null
+    year: 1901
+    world: lpc
+    why: >
+      Supersedes and corrects the vol.-I identification in the entry
+      immediately above: that entry's own URL, independently opened this
+      session, is in fact Tome Cinquieme (1920, already vendored on the
+      sibling Donatism branch), not Tome Premier. This is the actually-
+      verified Tome Premier. Registry row 206.
+    url: "https://archive.org/details/histoirelittra01moncuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, direct archive.org fetch and file inspection, 2026-09-08"
+    status: downloaded
+
+  - title: "Histoire litteraire de l'Afrique chretienne depuis les origines jusqu'a l'invasion arabe, Tome Deuxieme: Saint Cyprien et son temps"
+    author: "Paul Monceaux"
+    translator: null
+    year: 1902
+    world: lpc
+    why: >
+      The volume lpc's own G5 names as most directly relevant. Fetched and
+      independently verified directly this session, corroborated against
+      the BnF's own SRU catalogue record for the Gallica mirror named
+      above. Registry row 207.
+    url: "https://archive.org/details/histoirelittra02moncuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, direct archive.org fetch and file inspection, 2026-09-08"
+    status: downloaded
+
+  - title: "Histoire litteraire de l'Afrique chretienne depuis les origines jusqu'a l'invasion arabe, Tome Troisieme: Le IVe siecle, d'Arnobe a Victorin"
+    author: "Paul Monceaux"
+    translator: null
+    year: 1905
+    world: lpc
+    why: >
+      Closes lpc's own G5 in full (Tomes I and II, entries immediately
+      above). Fetched and independently verified directly this session.
+      Registry row 208.
+    url: "https://archive.org/details/histoirelitterai03monc_0"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, direct archive.org fetch and file inspection, 2026-09-08"
+    status: downloaded
 
   - title: "Die cyprianische Briefsammlung: Geschichte ihrer Entstehung und Ueberlieferung"
     author: "Hans von Soden"
@@ -238,8 +334,57 @@ queue:
       propagating across two documents and nine Doc_01 review rounds.
     url: "https://archive.org/details/diecyprianische00unkngoog"
     rights_basis: pd-us-by-date
-    verified_by: "lpc build thread, live web search (digitized from Harvard University Library's own copy), 2026-09-02"
-    status: not-yet-downloaded
+    verified_by: "lpc build thread, live web search (digitized from Harvard University Library's own copy), 2026-09-02; direct archive.org fetch and file inspection, 2026-09-08"
+    status: downloaded
+
+  - title: "Das Leben Cyprians von Pontius: Die erste christliche Biographie"
+    author: "Pontius the Deacon (Vita, attributed)"
+    translator: "Adolf Harnack (ed., trans.)"
+    year: 1913
+    world: lpc
+    why: >
+      Closes lpc's own G2 - no prior round had ever located an identifier
+      for this edition; Pellegrino's 1955 alternative is confirmed in
+      copyright. Fetched and independently verified directly this session,
+      sliced from the bound Texte und Untersuchungen 38-39 volume to
+      Harnack's own Heft 3 only. Registry row 205.
+    url: "https://archive.org/details/texteunduntersuc3839akad"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, direct archive.org fetch and file inspection, 2026-09-08"
+    status: downloaded
+
+  - title: "Sancti Aureli Augustini Retractationum Libri Duo, CSEL 36"
+    author: "Augustine of Hippo"
+    translator: "Pius Knoll (ed.)"
+    year: 1902
+    world: lpc
+    why: >
+      Closes lpc's own G6 - no prior round, across multiple search rounds,
+      had ever located this identifier; the Getty-hosted CSEL-Augustine
+      series carries no per-volume title/editor/year in its own archive.org
+      metadata (only series-level fields), which is why keyword search
+      alone had repeatedly failed. Found this session by opening candidate
+      volumes directly by number. Registry row 209.
+    url: "https://archive.org/details/sanctiaureliaugu36augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, direct archive.org fetch and file inspection, 2026-09-08"
+    status: downloaded
+
+  - title: "Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians (in: Quellen und Forschungen aus italienischen Archiven und Bibliotheken, Band XII, pp. 247-270)"
+    author: "Hans von Soden"
+    translator: null
+    year: 1909
+    world: lpc
+    why: >
+      Closes lpc's own G8 - no prior round had ever located an identifier
+      for this short, serial-bound article, discoverable only via the
+      journal's own title, not the article's. Fetched and independently
+      verified directly this session, sliced to the article's own page
+      range from the full serial volume. Registry row 211.
+    url: "https://archive.org/details/quellenundforsch12deutuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, direct archive.org fetch and file inspection, 2026-09-08"
+    status: downloaded
 
   - title: "Les Passions des martyrs et les genres litteraires"
     author: "Hippolyte Delehaye"
@@ -254,5 +399,5 @@ queue:
       scholarly account of the genre itself. Closes that gap.
     url: "https://archive.org/details/lespassionsdesm00dele"
     rights_basis: pd-us-by-date
-    verified_by: "lpc build thread, live web search, 2026-09-02"
-    status: not-yet-downloaded
+    verified_by: "lpc build thread, live web search, 2026-09-02; direct archive.org fetch and file inspection, 2026-09-08"
+    status: downloaded

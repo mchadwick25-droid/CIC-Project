@@ -1,0 +1,16 @@
+source_file: delehaye_passions-martyrs-genres-litteraires-fra_1921.txt
+
+assignments:
+  - work: "Les Passions des martyrs et les genres litteraires"
+    author: delehaye
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Modern (1921) French scholarship -- role context, not tradition.
+      The foundational study of what the passio/formation-biography genre
+      reliably preserves, licensed for Doc_02's own Author Gravity assessment of
+      Pontius's Life (Registry row 7). Closes Source_Acquisition_Manifest G9.
+      Consultation-only per cic/texts/INTAKE.md.

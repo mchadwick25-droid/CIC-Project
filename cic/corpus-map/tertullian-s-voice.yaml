@@ -20,6 +20,21 @@ works:
     wants both: the affinity claim is real scholarship, not a shelving convenience, and nothing
     in this note argues against it.'
   source_file: anf03_tertullian.xml
+- work: The Passion of the Holy Martyrs Perpetua and Felicitas
+  author: passion_of_perpetua
+  locus: pp. 60-95 of the printed volume
+  role: tradition
+  confidence: assigned
+  note: 'Latin/Greek second witness for the ALREADY-PRESENT English-language entry in tertullian-s-voice.yaml
+    (source_file anf09_gospel-of-peter-diatessaron-origen-commentaries.xml), per Mark''s own
+    2026-08-26 ruling assigning this work there rather than to any Latin-pastoral bucket.
+    This file does not reassign it -- mirrors the existing ruling exactly. (Contrary to this
+    file''s own accompanying task brief, which described Perpetua''s Passion as "not yet assigned
+    to any world''s corpus map" -- independently checked before writing this entry and found
+    already assigned, per the ruling cited above; corrected here rather than silently re-asserted.)
+
+    '
+  source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
 - work: A Treatise on the Soul (De Anima)
   author: tertullian
   locus: div2 4.11 under div1 'Apologetic.'

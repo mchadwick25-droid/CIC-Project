@@ -1046,3 +1046,193 @@
     unreadable rather than merely noisy. The running Latin letter text
     itself reads coherently throughout, including the collection's own
     final lines; apparatus-level claims need independent verification.
+
+- filename: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Hartel's CSEL 3 Pars III (1871): Cyprian's spuria, the Vita Caecilii Cypriani attributed to
+    Pontius, and the Acta Proconsularia. Closes Source_Acquisition_Manifest G1's own open Pars III
+    gap for latin-pastoral-congregational-christianity (Pars I-II already fulfilled 2026-09-05, row
+    191). Fetched directly via archive.org item corpusscriptorum03cypruoft, independently
+    re-verified against a sibling research session's earlier, separate vendoring pass rather than
+    adopted from it. The scanned volume is bound together with CSEL 4 (Arnobius); that unrelated
+    work was cut, not included -- see the file's own header for the exact cut point.
+- filename: augustine_epistulae-1-123-lat_goldbacher-csel34.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Goldbacher's CSEL 34/1-2 (1895/1898): Augustine's Epistulae 1-123. Partially closes
+    Source_Acquisition_Manifest G4 (CSEL 57 Pars IV already fulfilled 2026-09-05, row 193; CSEL 44
+    closed in the same pass as this entry, see the companion row; CSEL 58 remains open). Fetched
+    directly via archive.org item sanctiaureliaugu34augu.
+- filename: augustine_epistulae-124-184a-lat_goldbacher-csel44.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Goldbacher's CSEL 44 (1904): Augustine's Epistulae 124-184A, including Letter 185 (the
+    Correction of the Donatists, Registry row 12) at its Latin source. Partially closes
+    Source_Acquisition_Manifest G4 alongside the companion CSEL 34/1-2 entry; CSEL 58 remains open.
+    Fetched directly via archive.org item sanctiaureliaugu44augu.
+- filename: augustine_confessiones-lat_knoll-csel33.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Knoll's CSEL 33 (1896): Augustine's Confessions, complete, thirteen books. Not a Manifest
+    G-item; a new find closing a prior total absence of any original-language witness for this
+    world's own founding first-person Augustine text (Registry row 9, previously English-only via
+    NPNF1-01). Fetched directly via archive.org item sanctiaureliaugu33augu -- NOT item
+    sanctiaureliaugu0033augu, a 1962 Johnson Reprint facsimile, independently checked and excluded.
+- filename: augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Hoffmann's CSEL 40 Pars I (1899): De Civitate Dei, Books I-XIII. Companion file to
+    augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt (Books XIV-XXII). Not a Manifest G-item;
+    a new find for Registry row 24 (previously English-only via NPNF1-02). Fetched directly via
+    archive.org item sanctiaureliaugu401augu -- NOT items corpusscriptorum0040unse or
+    corpusscriptorum0040unse_o8i0, both 1962 Johnson Reprint facsimiles, independently checked and
+    excluded.
+- filename: augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Hoffmann's CSEL 40 Pars II (1900): De Civitate Dei, Books XIV-XXII, plus the work's own closing
+    indices. Companion file to augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt. Fetched
+    directly via archive.org item sanctiaureliaugu402augu -- same copyright-trap avoidance as the
+    companion Pars I file.
+- filename: augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Bruder's 1838 Tauchnitz edition (Maurist text, not a modern critical edition): De Doctrina
+    Christiana and the Enchiridion, two distinct works in one file (Registry rows 16 and 17,
+    previously English-only via NPNF1-02/03). Not a Manifest G-item. CRITICAL: the modern critical
+    edition, CSEL 80 (Green, 1963), is confirmed in copyright (verso: Hoelder-Pichler-Tempsky KG.,
+    Wien 1963) -- never vendor archive.org item sanctiaureliaugu0080augu or anything claiming to be
+    CSEL 80. The file's own header pins the exact internal boundary line between the two works,
+    independently located this session (no prior session had found it precisely).
+- filename: augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Migne's Patrologia Latina vols. 36-37 (1861 printing of the Maurist text, not a modern critical
+    edition), bound together in one archive.org scan: the complete Enarrationes in Psalmos, all 150
+    psalms independently confirmed present. Not a Manifest G-item. This world's single largest
+    vendored work (~695,000 words in English translation via NPNF1-08, Registry row 20), previously
+    held with zero original-language witness. Fetched directly via archive.org item
+    patrologiae_cursus_completus_lat_vol_036. One appendix (an alternate Ps. 14 exposition) is
+    flagged by the Maurist editors themselves as not Augustine's own.
+- filename: codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Bruns's 1839 edition, Pars Prior: the Codex Canonum Ecclesiae Africanae (Council of Carthage,
+    419, at pp. 155-202) plus several other 4th-5th c. councils bound in the same public-domain
+    volume. Not a Manifest G-item. Latin original for Registry row 26 (previously English-only via
+    NPNF2-14). Fetched directly via archive.org item canonesapostolo00brungoog -- confirmed distinct
+    from item canonesapostolo01brungoog (Pars Altera), which does NOT carry the African material.
+- filename: prosper_chronica-minora-1-lat_mommsen1892.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Mommsen's MGH Chronica Minora, Vol. I (1892): a multi-chronicle compilation whose target text
+    for this world is Prosper of Aquitaine's own Epitoma Chronicon (pp. 385-485), directly attesting
+    this world's own end-window (Augustine's death, 430; the Vandal capture of Carthage, 439). Not a
+    Manifest G-item; closes a prior total absence of a contemporary chronicle witness to this
+    world's own close. Fetched directly via archive.org item chronicaminorasa09momm -- the same item
+    a sibling Donatism-world build thread uses, under a different filename, for a different target
+    text in the same volume; also independently vendored by a sibling research session under the
+    filename chronica-minora-liber-genealogus_mommsen1892.txt, a name this file's own header flags
+    as misleading for this world's own target text (Prosper, not the Liber Genealogus) -- see this
+    file's own header for the full disambiguation.
+- filename: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Robinson's 1891 edition (Texts and Studies I.2, series statement unverifiable from this scan):
+    Latin/Greek text of both the Passio S. Perpetuae and, as its own stated Appendix, the Passio
+    Sanctorum Scillitanorum. Not a Manifest G-item. Second-witness original-language file for the
+    Scillitan Martyrs (already Excluded/Named Comparandum at Registry row 28, English-only via
+    ANF09) -- this file does not change that exclusion. The Passio S. Perpetuae is not yet assigned
+    to any world's own corpus map; flagged as a candidate, not assigned here. Fetched directly via
+    archive.org item MN5140ucmf_2.
+- filename: harnack_vita-cypriani-commentary-lat-deu_1913.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Harnack's 1913 edition (Texte und Untersuchungen 39.3): Hartel's own Latin text of the Vita
+    Cypriani with Harnack's noted deviations, German commentary, and (per Harnack's own preface) the
+    first published German translation of the work. Closes Source_Acquisition_Manifest G2 -- no
+    prior session had ever located an identifier; Pellegrino's 1955 alternative is confirmed in
+    copyright and was never a candidate. Fetched directly via archive.org item
+    texteunduntersuc3839akad, sliced from the bound TU 38-39 volume to Harnack's own Heft 3 only --
+    see the file's own header for the exact slice boundaries. Second-witness/consultation material;
+    mostly German commentary, not itself Cyprianic primary text.
+- filename: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Monceaux, Tome Premier (1901): Tertullien et les origines. Closes one-third of
+    Source_Acquisition_Manifest G5 (vols. I-III; vols. IV-VI already vendored on the sibling
+    Donatism branch under its own G6; vol. VII not requested). Fetched directly via archive.org item
+    histoirelittra01moncuoft. NOTE: the Manifest's own prior lead for vol. I, item
+    histoirelittra00moncuoft, is corrected here -- independently verified this session to actually
+    be Tome Cinquieme (1920), already vendored on the sibling branch, not Tome Premier.
+- filename: monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Monceaux, Tome Deuxieme (1902): Saint Cyprien et son temps -- the volume this world's own G5
+    request names as most directly relevant. Closes another third of Source_Acquisition_Manifest G5.
+    Fetched directly via archive.org item histoirelittra02moncuoft, independently corroborated
+    against the BnF's own SRU catalogue record for the Gallica scan the Manifest had already named
+    as a lead (ark:/12148/bpt6k141717k).
+- filename: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Monceaux, Tome Troisieme (1905 per the title page; the BnF's own catalogue gives 1906 for the
+    same volume, both pre-1930): Le IVe siecle, d'Arnobe a Victorin. Closes the final third of
+    Source_Acquisition_Manifest G5. Fetched directly via archive.org item histoirelitterai03monc_0.
+- filename: augustine_retractationes-lat_knoll-csel36.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Knoll's CSEL 36 (1902): Augustine's Retractationum Libri Duo, complete (Praefatio, both books,
+    closing indices). Closes Source_Acquisition_Manifest G6 -- no prior session, across multiple
+    search rounds, had ever located this identifier; archive.org's own metadata for this and sibling
+    Getty CSEL-Augustine volumes carries no per-volume title/editor/year, only series-level fields,
+    which is why keyword search alone had repeatedly failed. Fetched directly via archive.org item
+    sanctiaureliaugu36augu. Closes, at its own public-domain source, a citation Registry row 13
+    previously disclosed as held only at second hand via an NPNF editor's own quotation.
+- filename: vonsoden_cyprianische-briefsammlung-deu_1904.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Von Soden's 1904 monograph (Texte und Untersuchungen, NF 10.3 = XXV.3): the standard study of
+    the formation and transmission of Cyprian's own letter collection. Closes
+    Source_Acquisition_Manifest G7. Fetched directly via archive.org item diecyprianische00unkngoog.
+    Consultation-only German scholarship, directly on the same letter-numbering/transmission problem
+    that produced this build's own historical Ep. XL/Epistle XXXIX citation error (see
+    lpc_Decision_Log.md).
+- filename: vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Von Soden's 1909 article (Quellen und Forschungen aus italienischen Archiven und Bibliotheken,
+    Band XII, pp. 247-270): a prosopography of the African episcopate in Cyprian's own decade.
+    Closes Source_Acquisition_Manifest G8 -- no prior session had ever located an identifier for
+    this short serial-bound article. Fetched directly via archive.org item
+    quellenundforsch12deutuoft, sliced to the article's own page range. The same volume also carries
+    a related, unrequested von Soden article ('Der Ketzertaufstreit...', pp. 1-42) flagged in this
+    file's own header for a future round, not vendored here.
+- filename: delehaye_passions-martyrs-genres-litteraires-fra_1921.txt
+  supplied_by: Claude (at Mark's direction)
+  date_added: '2026-09-08'
+  notes: >-
+    Delehaye's 1921 monograph (Subsidia Hagiographica series -- the specific number unverifiable
+    from this scan itself): the foundational modern study of the passio/formation-biography genre.
+    Closes Source_Acquisition_Manifest G9. Fetched directly via archive.org item
+    lespassionsdesm00dele. Consultation-only French scholarship, licensed for Doc_02's own Author
+    Gravity assessment of Pontius's Life (Registry row 7).

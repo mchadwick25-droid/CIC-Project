@@ -1,0 +1,1455 @@
+Title: Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians (in: Quellen und Forschungen aus italienischen Archiven und Bibliotheken, Band XII, pp. 247-270)
+Creator: Hans von Soden
+Publisher: Rom, Verlag von Loescher & C. (W. Regenberg), for the Koeniglich Preussisches Historisches Institut in Rom
+Publication Date: 1909
+Rights: Public Domain (pre-1930 publication)
+Language: deu
+Source: archive.org item quellenundforsch12deutuoft (contributor: University of Toronto / Robarts Library; the full serial volume, Quellen und Forschungen aus italienischen Archiven und Bibliotheken, Band XII, 1909). Fetched and independently verified directly by this build thread 2026-09-08, closing this world's own Source_Acquisition_Manifest G8 request -- no prior session had ever located an identifier for this specific article, since it is a short piece (pp. 247-270) inside a periodical volume, discoverable only via the serial's own title, not the article's.
+Provenance note: Mechanically extracted as a page-range slice (pp. 247-270 of the printed volume) from the full serial volume's own djvu.txt -- the article's own heading ("DIE PROSOPOGRAPHIE DES AFRIKANISCHEN EPISKOPATS ZUR ZEIT CYPRIANS. VON HANS VON SODEN.") through its own closing paragraph, immediately before the next, unrelated article in the same volume ("Toscanische Studien," by Fedor Schneider) begins. Doubled inter-word spacing normalized to single spaces; nothing else altered, no OCR error corrected. Public domain by publication date (1909).
+Content note: German-language scholarly article, not a primary source -- consultation-only per cic/texts/INTAKE.md. A prosopography of the African episcopate specifically in Cyprian's own decade, naming and attempting to identify/date the 87 bishops of the Council of Carthage (256, September 1) and other African bishops named in Cyprian's own letter collection -- closing a gap this world's own Registry rows 4 and 42 name, which Mandouze's Prosopographie (Registry row 62, in copyright, consultation-only) cannot reach, since Mandouze's own range begins in 303. NOT YET VENDORED, flagged for a future round rather than acted on unilaterally: the same volume also carries a related, earlier von Soden article on the same general subject, "Der Ketzertaufstreit zwischen Stephanus von Rom und Cyprian von Karthago" (pp. 1-42) -- directly relevant to this world's own rebaptism-controversy material (Doc_01) but not itself requested by any numbered Manifest item, and not vendored here to keep this file scoped to the specific G8 request.
+
+______________________________________________________________________
+
+DIP^ PROSOPOGKAPHIE
+DES AFRIKANISCHEN EPISKOPATS
+
+ZUR ZEIT CYPRIANS.
+
+VON HANS VON SODEN i).
+
+
+Mit der Cyprianischen Briefsammlmig sind uns mehrere
+Listen von afrikanischen Bischöfen und dazu eine Eeihe ein-
+zehier Namen überliefert. Die umfangreichste Liste, die der
+87 Yotanten des Konzils von Karthago am 1. September 256,
+ist dadurch besonders wertvoll, dass den Namen der Gemein-
+deleiter die ihrer Sitze hinzugefügt sind. Dieser günstige Um-
+stand ermöglicht eine in weitem Umfang sichere Identifikation
+auch der dem älteren Brauche gemäss nur mit ihrem per-
+sönlichen Namen in den Adressen und gelegentlich im Text
+der Briefe auftretenden Bischöfe und behebt zum grossen Teil
+die mit der häufigen Wiederkehr gebräuchlicherer Namen ge-
+gebene Schwierigkeit. Andererseits führt die Kombination
+der Briefadressen mit der Liste der Sententiae verschiedent-
+lich zur Identifikation einiger nach ihrer Lage noch unbe-
+stimmbar gebliebenen Orte in der letzteren, sei es, dass man
+zwischen mehreren gleichnamigen Städten entscheiden, sei es,
+dass man wenigstens den Bezirk, zu dem die unbekannten
+
+•) Die folgende Zusammenstellung ist der verselbständigte dritte Teil
+(A-ppendix) meiner S. 1-42 begonnenen Arbeit über den Ketzertaufstreit
+und seine Dokumente. Der zweite, ihr Hauptteil, musste leider zurück-
+gestellt werden, da der Satz des Textes der Sententiae LXXXVII episoo-
+porum mit dem kritischen Apparat der italienischen Druckerei unüber-
+windliche Schwierigkeiten bot. Dank gütiger Vermittelung von Herrn
+Geheimrat Kehr wii'd er nun ebenfalls als selbständige Publikation in
+den Nachrichten der Kgl. Gesellschaft der Wissenschaften zu Göttingen
+erscheinen (Herbst 1909).
+
+
+248
+
+
+It. V. SODEN
+
+
+Gemeinden gehören, bestimmen kann. Aus den Fäden dieser
+zweifachen Dateiireihe lässt sich ein Gewebe herstellen, auf
+dem man ein verhältnismässig sehr zuverlässiges und voll-
+ständiges Bild der \'erl)reituiig des Cliristentums in Afrika
+um die Mitte des dritten Jahrhunderts und der äusseren Stärke
+und Organisation des afrikanischen Episkopats zur Zeit Cy-
+prians entwerfen kann. Diese Untersuchung ist um so loh-
+nender, als auch nur gleich gute Zeugnisse für keine andere
+Provinz des römischen Reiches zu unserer Zeit vorliegen ; sie
+hat so ein über ihren unmittelbaren Gegenstand hinausge-
+hendes allgemeines Interesse.
+
+1. Unseren Ausgang nehmen wir von der Liste der Sen-
+tentiae LXXXVII episcoporum, deren Ortsnamen zum
+grössten Teil sicher zu identifizieren sind und so die natür-
+liche Grundlage der gesamten Feststellungen bieten.
+
+Zur Erleichterung der Übersicht rücke ich die Liste der
+Votanten in meiner Rezension hier ein :
+
+
+L
+
+Caecilius a Biltlia.
+
+21,
+
+2.
+
+Priiuus a Misgirpa.
+
+22,
+
+3.
+
+Polycarpus ab Hadrumeto.
+
+23,
+
+4.
+
+Novatus a Thamogade.
+
+5.
+
+Nemesianus a Thubnnas.
+
+24.
+
+(i.
+
+lanuarius a Lambese.
+
+25,
+
+7.
+
+Lucius a Castra Galba.
+
+2G,
+
+8.
+
+Creseens a Cirta.
+
+27.
+
+!).
+
+Nicomedes a Segermis.
+
+28.
+
+10.
+
+Monnullus a (-firba.
+
+29.
+
+n.
+
+Secundinus a Cedias.
+
+30.
+
+12.
+
+Felix a Bagai.
+
+31.
+
+13.
+
+Polianus a Mileo.
+
+32.
+
+14.
+
+Theogenes ab Hij.pone Regio.
+
+33.
+
+15.
+
+Dativus a Badis.
+
+34.
+
+IG.
+
+Successus ab Abbir tierma-
+
+niciana.
+
+35.
+
+17.
+
+Fortunatus a Thuccabori.
+
+36.
+
+18.
+
+Sedatns a Thuburbo.
+
+37.
+
+19.
+
+Privatianus a Sufetnla.
+
+38.
+
+20.
+
+Privatus a Sufibiis.
+
+39.
+
+Hortensianus a Laribus.
+Caswius a Macomadibus.
+Alins lanuarius a Vico Cae-
+
+saris.
+Alius Secundiniis a Carj)os.
+Victoricus a Thabraca.
+Alius Felix ab Uthina.
+Quietus a Buruc.
+Castus a Sicca.
+Eucratius a Thenis.
+Libosus a Vaga.
+Leucius a Theveste.
+Eugenius ab Ammedera,
+Item alius Felix a Bamaccora.
+Item alius lanuarius Muzu-
+
+lensis.
+Adelphius a Thasualthe.
+Demetrius a Leptiminus.
+Vincentius a Thibari.
+Marcus a Maethari.
+Sattius a Sicilibba.
+
+
+DUO l'RUSoroGUAPHIE DES Al'RIKAX. EnSKOrATS Z. ZEIT CYPRIANS 249
+
+
+40. Victor a Gor. t)4.
+
+41. Aurelius ab Utica. 05.
+
+42. lambus a Germaniciana. 6(5.
+48. Lucilianus a Rucnina. (j7.
+
+44. Pelagianus a Luperciana. 68.
+
+45. lader a Midili. 6!>.
+
+46. Item alius Felix a Marazana. 7U.
+
+47. Paulus ab Obba. 71.
+
+48. Pomponius a Dionysiaua. 72.
+
+49. Yenantius a Thinisa. 73.
+
+50. Aljymmus ab Ausuagga. 74.
+
+51. Saturninus a Victoriana. 75.
+
+52. Alius Saturninus a Tucca. 76.
+
+53. Marcellus a Zinna. 77.
+
+54. Irenaeus ab Ululis. 78.
+
+55. Donatus a Cibaliana. 79,
+
+56. Zosimus a Tharassa. 80.
+
+57. lulianus a Thelepte. 81.
+
+58. Faustus a Thimida Regia.
+
+59. Geminus a Farnis. 82,
+
+60. Rogatianus a Nova. 83.
+
+61. Therapius a Bulla. 84.
+
+62. Item alius Lucius a Mem- 85.
+
+bressa. ^d.
+
+63. Item alius Felix aBustlacceni. 87.
+
+
+Alius Saturninus ab Avitinis.
+Quintus ab Acbia.
+Alius lulianus a Marcelliana.
+Tenax ab Horreis Caeliae.
+Alius Victor ab Assuras.
+Donatulus a Capse.
+A'erulus a Rusiccade.
+Pudentianus a Cuiculi.
+Petrus ab Hippone Diarrito.
+Item alius Lucius ab Ausafa.
+Item alius Felix a Gurgitibus.
+Pusillus a Lamasba.
+Salvianus a Gazaujjhalia.
+Honoratus a Thucca.
+Victor ab Octavu.
+Clarus a Mascula.
+Secundianus a Thambis.
+Item alius Aurelius a Chul-
+
+labi.
+Littaeus a Gemellis.
+Natalis ab Oea.
+Pompeius Sabrathensis.
+Dioga Leptimagnensis.
+lunius a Neapoli.
+Cyprianus a Carthagine ').
+
+
+') Die Liste ist gut überliefert, die Herstellung ebenso der Biscliofs-
+wie der Ortsnamen durch objektives Handsohriftenzeugnis völlig gesi-
+chert. Sehen wir von orthographischen Varianten ab, so begegnen in den
+sekundären Codices überhaupt nur folgende Abweichungen in den Per-
+sonennamen: Felix 1. Primus (2), freminius 1. Geminus (69), Lucianus ]. Lu-
+cilianus (43), Lucius 1. Leucius (31), Secundinus 1. Secundianus (80), 8il-
+vianus 1. Salvianus (76). Die von mir rezipierten Lesungen haben nicht
+nur (wie gesagt) die sonst bewährten Hss., sondern — ausschlaggebend —
+die Übereinstimmung mit den Namensformen in den Briefadressen für sich,
+wie wir sehen werden. (Vgl. im übrigen den Aufsatz in den Göttinger
+Nachrichten.)
+
+In einem alten Exemplar hatte ein Leser der Sententiae am Kande zu
+einem grossen Teil der Namen Tituli gloriae hinzugesetzt, die uns ein
+textlich sekundärer Zweig der Überlieferung bewahrt hat (Cod. Veronensis,
+verschollen, aber in Latinis von G. Meroati wiederentdeckter Original-
+kollation uns erhalten, = V. Soden 1, und Cod. Corbeiensis-Parisinus 12126
+— Hartel C = v. Soden 56, der letztere enthält nur die zweite Hälfte
+
+
+250 11. V. S(»1>KN
+
+Die kirchliche Einteilung Afrikas folgt der poli-
+tischen, nur dass mehrere politische Bezirke einen kirchlichen
+bilden. Dabei ist aber zu beachten, dass die kirchliche Ein-
+teilung zur Zeit Cyprians nicht ebenso fest ist wie die politi-
+
+von n. 40 au). Es erscheint das Prädikat /// pcue bei ii. 10. 1-i. 18. 21. 'JH.
+'25. 28. 29. 32. 34. 36. 40. 41. 43. 44. 46. 50. 51. 53. 56. 57. 59. 60. 63. 61.
+66. 67. 69. 71. 73. 74. 75. 77. 78, confessor bei n. 12. 13. 15. 17. 19. 24. 26.
+27. 33. 35. 37. 38. 42. 47. 48. 49. 52. 54. 55. 58. 61. 62. 68. 79. 82, marl?/r
+bei n. 39. 72. 76. 80. confessor et martijr l)ei n. 11. 16. 22. 30. 31. 45. 87,
+martyr et de schismaticis bei u. 70 : dazu begegnen noch folgende Notizen
+über die depositio : positus in TertuUi bei n. 16, In nocis areis poaitus bei
+n. 30. in Fannt! positus bei n. 31. — Da Cod. 56 den Drucken der Sententiae
+zu Grunde Hegt, bieten auch die Ausgaben die Tituli von 56, die älteren
+im Text, die späteren im Apparat; letztere notieren auch einige der im
+Veronensis hinzukommenden. Vollständig hat sie M er cati Alcuni nuovi
+sussidi per la critica del testo di S. Cipriano (Eoma 1899) p. 25-29 gesammelt.
+Dennoch fanden sie bei den Gelehrten merkwürdig wenig Beachtung. Mo n-
+oeaux und Leclercq tun derselben in ihren grossen Spezialwerkeu über
+das christliche Afrika überhaupt keine Erwähnung. Der Apparat ist oft
+das Grab der Hss. fast so gut wie die Bibliothek. Und dabei verdienen diese
+Tituli histori.sch natürlich alles Vertrauen, Wie sollten sie denn erfunden
+sein? Dass mit Hilfe der sonstigen martyrologischen Nachrichten nicht
+allzu viele von ihnen zu bestätigen sind, darf bei der spärlichen und un-
+reinen Überlieferung dieser Akten einerseits und der häufigen Wiederkehr
+gleicher Namen andererseits nicht daran irre machen. Vgl. immerhin
+ausser Cyprian selbst in den bekannten Quellen die Konfessorenliste der
+Adresse von ep. 76 (s. u.), weiter zu Libosus Mercati a. a. O. p. 27: ferner
+erscheinen bei den Monceaux p. 154 ff. 166 f. besprochenen afrikanischen
+Martyrien der Valerianischen Verfolgung ebenfalls mehrere in den Sen-
+teutiae-Tituli ausgezeichnete Namen. Es Hesse sich wohl noch mehr kom-
+binieren, doch kann ich hier nicht darauf eingehen. Über die Friedhöfe
+— sie liegen in Karthago — s. Mercati p. 28 A., Toulotte (Proconsulaii-e)
+p. 74. 78, Leclercq I 54-62 und die dort angegebene Literatur. — Die Ti-
+tuli sind demnach vermutlich in Karthago nach der Valerianischen Ver-
+folgung entstanden. Mindestens die grosse Mehrzahl der Teilnehmer des
+Konzils war damals schon verstorben. Die ohne Tituli gebliebenen (n. 1.
+2. 3. 4. 5. 6. 7. 8. 9. 20. 65. 80. 83. 84. 85. 86) — Cod. 421, Hartel Z, Paris
+1658 fügt zu n. 1 Caecilius a Biltha: confessor et martyr, wahrscheinlich
+rein konjektural durch Verwechslung mit Caecilius Cyprianns — waren viel-
+leicht auch nicht mehr am Leben, sondern der Verfasser der Tituli war
+nur über ihren Ausgang nicht positiv unterrichtet. Der Umstand, dass
+in pace nur allein und nicht neben anderen Titeln erscheint, macht wahr-
+scheinlich, dass es nicht allgemein den Tod, sondern den Tod im Frieden
+mit der Kirche bezeichnet; n. 70 mar</yr et de schismaticis (sc. Nova-
+tianer oder schon Donatisten) ist dazu der Gegensatz.
+
+
+DIE PROSOPOGRAPHIE DES AFRIKAN. EPISKOPATS Z. ZEIT CYPRIAKS 251
+
+sehe 1). Die Metropolitanverfassnng ist ja erst in der Ausbildung
+begriffen. Wie wir sehen werden, spielen die Bezirksgrenzen
+keine entscheidende Rolle; für die Zusammensetzung der
+Synoden sind nächst der Bedeutung des Anlasses die Entfer-
+nungen und die Verkehrsverhältnisse massgebend. Zur Zeit
+Cyprians wird kirchlich unterschieden: Afrika
+(im engeren Sinn, also die Proconsularis), Numi-
+dien und Mauretanien. So übereinstimmend die Ein-
+leitung der Sententiae : cum in unum Carthagini coiwenissent
+Jcctlendis Septembribus episcopi plurinii ex provincia Afvica, Nu-
+midia, Mauretania . . . und die berühmte Stelle ep. 48, 3 p. 607,
+10 f. : lathis fiisa est nostra provincia, liabet etiam Numidiam et
+Mauretaniam sihi cohaerentei^ (vgl. noch ep. 19, 2. 27, 3. 43, 3.
+45, 1. 55, 21. 59, 16. 71, 4. 72, 1. 73, 3). Cyprian braucht also
+die alten Landschaftsnamen, ohne in Afrika die Zeugitana und
+die Byzacene, in Numidien die Proconstdaris und die Regia,
+in Mauretanien die Caesareensis und die Sitifensis zu unter-
+scheiden, und auch Tripoletanien, das am 1. September 256
+vertreten war, rechnet er anscheinend zu Afrika. Dass die
+Namen aber nicht historisch zu deuten sind, sieht man daran,
+dass Numidia Proconsularis zu Numidien und nicht zu Afrika
+gehört, wie wir erkennen werden. Die eigentümliche Un-
+sicherheit erklärt sich aus dem damaligen Stand der Verfas-
+sungsbildung. So viel einstweilen nur zur Rechtfertigung der
+im folgenden vorgenommenen Verteilung der Episkopate, wo-
+bei ich die Grenzen nach den Karten des Corpus Inscriptio-
+num bestimme.
+
+Die meisten Orte der Sententiaeliste sind (wie gesagt) sicher
+identifiziert (55), von den übrigen noch 17 nach ihrer Pro-
+vinzzugehörigkeit bestimmt, bei 10 kann man zwischen ver-
+schiedenen Identifikationen scliwanken, nur 5 sind noch ganz
+unbekannt. Diese sind (in Klammern setze ich die Nummern
+des Protokolls) : Bustlaccem (63), Chidlabi (81), Luperciana (44),
+Marcelliana (66), ülulae {Ululi, JJlula, ab TJlidis 54)'^).
+
+
+^) Siehe die Literatur oben S. 2 und dazu Moni m sen, Römische Ge-
+schichte V 620 ff.
+
+^) Zu Ululae s. ausser Harnack 8. 251 noch Toulotte, Proc. S. 314; auch
+schon Pamelius koujizierte : Uzuiis. — TAami » erscheint bei Harnack a. a. O.
+
+
+252 H. V. SODEN
+
+Ich stelle n^^n eine Liste der Orte nach Provinzen auf und
+gebe immer zuerst die identifizierten, dann die nur ihrer Zu-
+gehörigkeit nach bestimmten ; die Nachweise aus Tissot s. bei
+Harnack, Toulotte ordnet alphabetisch.
+
+Africa Proconsularis Zeugita na: Acbia (65), Avi-
+tina (64), Carpos (24), Carthago (87), Furni (59), Gor (40), Hippo
+Diarritus (72), Memhressa (62), Segermis (9), Sicilihba (39), Thi-
+baris (37), Thimida Regia (58), Thinisa (49), Tlnicca (77), Thiic-
+cabor{il), Vaga (30), Utica (41), Uthina (26); Thubnrbo {18).
+
+Afr. Proc. Byzacene: Animedera (32), Aiisafa (73), 0er-
+maniciana (42), Hadrumeüim (3), Horrea Caeliae (67), Leptimi-
+mis (36), Mactharis (38), Marazana (46), Ä?(/'(>s (20), Sufetida (19),
+Thelepte (57), Thenae (29); Aiftir Germaniciana (16), i)io?i?/-
+smjia (48), Giirgites (74), T/mmi^ (80), Thasnalthe (35).
+
+Afr. Proc. Zeug, oder Byzac. : Aiisnagga (50), Biltha
+(1), 5zov<c (27), Cibalicma (55), Misgirpa (2), Muzida (34), i?«-
+cwma (43), zusammen 43 Orte.
+
+Tripoletana: öirfta (10), Leptimagmis (85), Oe« (83),
+Sabratha (84) — 4 Orte.
+
+Numidia Proconsularis: Assnras (68), Lares (21),
+Oft&a (47), >S2cm (28), Thabraca (25).
+
+Numidia: 5a(?a (15), ^a^rt/ (12), C^'fZms (11), CiVfa (8),
+(7?t2cuZ (71), Gazauphalia (76), i7ij?po Ee^^ts (14), Lamasba (75),
+Lambese (6), Mascula (79), MZeum (13), Biisiccade (70), TAa-
+wo.garZe (4), Theveste (31), Thubunas (5) ; Bamaccora (33), Casf)'«
+G^a/6a (7), Octot;?« (78), Tharassa (56), Victoriana (51), zusam-
+men 25 Orte.
+
+Bei Neapolis (86) kann man zwischen der Tripoletana und
+der Zeugitana, bei ^uWa (61), Capse (69), Macomades (22),. ilfi-
+d27t (45), A^oy« (60), T?<cca (52), Fic?<s Caesar«s (23), Zama (53)
+zwischen der Proconsularis und Numidien, bei Gemellae (82)
+zwischen diesen beiden und Mauretanien schwanken. Jedoch
+besteht m. E. die Möglichkeit, in einigen dieser
+Fälle zu einer Entscheidung zu kommen und zwar
+mit Hülfe, der zugehörigen Bischofsnamen. — Ein Bischof lu-
+nius zeichnet auch ep. 57 und 70 ; da zu diesen Konzilien ent-
+
+als uicht identifiziert. Doch ist es wohl iu der Byzacene zu suchen, s.
+Toulotte, Byz, S. 188.
+
+
+DIE PROSOPOGRAPHIE DES AFRIKAN. EPISKOPATS Z. ZEIT CYPRIANS 253
+
+ferntere Bischöfe nicht erschienen (s. u.), so ist an das Nea-
+pol IS in der Zeugitana zu denken, zumal da N. in Tripolis von
+anderen Schwierigkeiten belastet ist (Harnack S. 250). — Ein
+Bischof Therainus begegnet uns ep. 64, 1. Da der Name
+nicht ganz häufig ist, liegt die Identifikation beider Personen
+nahe; aber ob dann Bulla in Numidien oder in Afrika zu
+suchen ist, bleibt mit dem Sitz des Adressaten von ep. 64,
+Fidus, unsicher. Da das Konzil von ep. 64 von 66 Bischöfen,
+d. h. wohl auch aus Numidien beschickt war, spricht nichts
+gegen dieses. — Dagegen dürfte das Capse von n. 69 das der
+Byzacene sein. Denn unter den Adressaten von ep. 56 (die
+dorthin gerichtet ist) begegnet wohl nicht zufällig ein Dona-
+tulus. — Macoma des (22) suche ich ebenfalls in der Byzacene,
+da ein Casshis auch ep. 70 mit ausstellt, bei der es sich nicht
+um einen numidischen Bischof handeln kann. — Midili (45)
+fixiere ich in Numidien (Sigus), wo auch später ein Bistum
+dieses Namens bezeugt ist ; denn lade)- erscheint in dem nach
+Numidien gerichteten Trostschreibeu Cyprians ep. 76 und
+antwortet in ep. 79. — Wenn Nova mit Harnack (S. 250) in
+Numidien zu suchen ist, so ist sein Bischof Rogatianus nicht
+identisch mit dem, der auch ep. 57 und 70 zeichnet, dagegen
+vielleicht mit dem, der sich unter den Adressaten von ep. 70
+befindet. Für das erstere spricht aber, dass der Bogatianus
+der Sententiae auch ep. 67 zeichnet, zusammen mit ausschliess-
+lich nicht so weit von Karthago entfernten Bischöfen; also
+wird mit Toulotte (Proconsulaire S. 224) Nova in der Zeugitana
+anzunehmen sein. — Sahirniniis ist ein zur Zeit Cyprians viel-
+fach belegter Name; den von Tucca (52) in der Byzacene
+und nicht an der Grenze von Mauretanien residieren zu lassen,
+empfiehlt wiederum sein Erscheinen in ep. 67. Der andere
+Satiirnmus ebenda ist der von Avitina (Sent. 64), der eben-
+falls in der Adresse von ep. 67 begegnet, und beide sind wohl
+identisch mit zweien der drei Saturnini, die ep. 57 und 70
+zeichnen. — Ebenfalls beliebt ist der Name lanuarius ', von den
+drei Votanten dieses Namens der Sententiae gehört einer
+{Lambese, Sent. 6) nach Numidien, und dieser erscheint denn
+auch in der Adresse der dorthin gerichteten Briefe 62 und 70.
+Ein zweiter, Mnzulensis (Sent. 34), aus der Proconsularis,
+zeichnet ep. 67 und 70. Ein dritter begegnet als zweiter in
+
+
+254 II. V. SODEX
+
+ep. (i7 und als n, 23 in den Sententiae: a Vico Caesaris. Es
+ist auch hier gegeben, beide zu identifizieren und Vicus Cae-
+saris für Yiciis Äugusti in der Zeugitana und nicht für einen
+unbekannten Ort Numidiens zu halten (gegen Harnack S. 251). —
+Zama (Sent. 53) ist wold Z. Regia in der Numidia Procon-
+sularis (Harnack S, 251); der Bischof Marcellus zeichnet auch
+^p_ 67, __ Gemellae (Sent. 82) endlich ist wohl das numidi-
+sche ; denn ein Bischof Littaeus begegnet auch in der Adresse
+von ep. 76. — So sind also von den 10 eben besprochenen
+Orten mit grosser Wahrscheinlichkeit oder Sicherheit Nea-
+polis, Nova, Vicus Caesaris der Zeugitana, Capse, Macomades,
+Tuccä der Byzacene, MidiU und Gemellae dem westlichen, Zama
+und Bidla dem Proconsularischen Numidien zuzuweisen.
+
+Das bedeutsamste Ergebnis der vorstehenden Untersuchung
+ist, dass Mauretanien überhaupt mit keinem sich e-
+renPlatzbelegtist; von den unbekannten 5 Orten dürften
+also einige dort zu suchen sein. Die weite Entfernung ist
+nicht ausser Acht zu lassen; doch bestätigen auch die Sen-
+tentiae wie ep. 71. 73, dass in Mauretanien der Anhang Cy-
+prians nicht stark gewesen sein kann i).
+
+2. "Wir gehen nunmehr dazu über, die Liste der
+Sententiae mit denAdressenOyprianischerKon-
+zilsbriefe zu ve r gleichen 2).
+
+Die 37 Namen an der Spitze von ep. 67 erscheinen, wie
+oben S. 18 gesagt, sämtlich in den Sententiae; 27 davon kom-
+men nur einmal dort vor, sind also zweifellos zu identifizieren.
+Von diesen 27 sind 23 sicher in der Proconsularis {Cyprianiis
+a Cartliagine, Caeciliiis a Biltha, Primus a Misgirpa, Polycarptis
+ab Hadrumeto, Kicomedes a Segermis, Lucilianiis a Bucuma,
+Siiccessiis ab Äbbir Germaniciana, Sedahis a Thiibiirbo, Fortu-
+natiis a Thuccabori, Pomponius a Dionysiana, Eonoratus a
+
+') Benson (S. 607) verlegt Biiruc (Sent. 27) uud Xova (Sent. 60; nach
+Mauretanien, beide ohne genügenden G-runl. Zumal die von ihm vorge-
+schlagene Identifikation von Q?iie(us a B. mit Quintus, dem Adi'essaten
+von ep. 71, ist gegenüber der Wiederkehr des Namens Quietus in der
+Adresse von ep. 67 ganz unlialtbar.
+
+") Auch von den Adressen gebe ich meine die Hartelsche mehrfach
+berichtigende Rezension.
+
+
+DIE PROSOPOGRAPHIE DES AB^RIKAN. EPISKOPATS Z. ZEIT CYPRIANS 255
+
+Tlincca, Sattius a Sicüibba, Petrus ah Hippone Diarrito, Ve-
+ncmtins u Tlimisa, Qiiietns a Buruc^ Tenax ah Horreis Caeliae,
+Faustus a TJnmida Bec/ia, Qiäntus ah Acbia, Vincentius a Thi-
+hari, Lihosus a Vaga, Gemimis a Furnis, lamhus a Germani-
+ciaiia, Ädelphms a Thasiialthe), 3 in nächster Nachbarschaft,
+nämlich Numidia Proconsularis {Victoricus a T/iabraca, Paulus
+ah Ohha, MarceUus a Zama), und 1 wahrscheinlich in der Pro-
+consularis {Rogatianus a Nova) zu suchen (s. oben S. 253).
+Unter den 10 mehrfach vertretenen Namen kommen 2 la-
+nuarius auf 3 in den Sententiae, 2 Aurelius auf 2, 2 Saturnmus
+auf 3, 1 Victor auf 3, 1 Lucius auf 3, 1 Felix auf 6, 1 Ä-
+cundimis auf 2. Sicher ist demnach die Identifikation der
+beiden Aurelius^ von denen einer in Utica (Zeugitana), der
+andere im noch unbekannten Chidlahi residiert. Dass die bei-
+den lanuarius mit denen von Mnzula und Vicns Caesaris^ die
+beiden Saturninus mit denen von Avitina und Tucca zu ver-
+binden und also alle 4 auch in der Proconsularis zu lokali-
+sieren sind, habe ich oben S. 253 f. wahrscheinlich gemacht. Der
+eine Victor ist entweder (wahrscheinlicher) der von Oor in der
+Zeugitana oder der von Assuras in Numidia Proconsularis.
+In Lucius werden wir dann den von Metnhressa in der Zeu-
+gitana (denn Castra Galha liegt in Numidien und Ausafa in
+der Byzacene) und in Felix den von TJthina (denn von den
+5 anderen Episkopaten mit Felix gehören Bagai und Bamac-
+cora nach Numidien, Marazana liegt in der Byzacene, Gur-
+gites und Bustlacceni sind noch nicht aufgefunden, aber jeden-
+falls weiter entfernt als TJthina)^ endlich in Secundinus den
+von Carpos sehen, da Cedias im westlichen Numidien nicht
+in Betracht kommt. Ep. 67 ist also von den in grösserer
+Nähe von Karthago residierenden, entweder schon vor dem
+1. September oder noch nach der Abreise der übrigen an
+diesem Tage votierenden Bischöfe versammelten Kollegen ge-
+zeichnet, und so ist das unbekannte Chidlahi wohl auch in
+Afrika oder Numidia Proconsularis zu suchen i).
+
+Die Namen der 71 im Mai 256 tagenden Bischöfe sind
+nicht erhalten.
+
+1) Dagegen könnte man geltend machen, dass Aurelius a Chidlahi im
+Umfang seines Bibelkanons von Cyprian abweicht. S. oben S. 40 Anm. 2.
+
+
+256
+
+
+II. V. SODKN
+
+
+Ep. 7 0 warde im Mai 255 von 32 afrikanischen an 18 nu-
+midische Bischöfe gerichtet. Von den 32 Absendern fehlen
+in den Sententiae 8: Liheralis {ep. 70 n. 2), Caldonius (3), Mar-
+THtiiis (10), Lucianus (12), Herculanus (18), Tertullus (29), 1 Do-
+7iatiis (16 oder 26) und 1 Satiirnimis (22, 25 oder 31). Die
+übrigen sind wie folgt zu identifizieren :
+
+
+1 Cyprianus
+
+4 lunius
+
+5 Primus
+
+6 Caecilius
+
+7 Polycarpus
+
+8 Nicomedes
+
+9 Felix
+
+11 Successus
+
+13 Honoratus
+
+14 Fortunatus
+
+15 Victor
+
+IG (26) Donatus I
+17 Lucius
+
+19 Pomponius
+
+20 Demetrius
+
+21 Quintus
+
+22 (25, 31) Saturninus I
+
+23 lanuarius
+
+24 Marcus
+
+25 (22, 31) Saturninus II
+
+27 Rogatianus
+
+28 Sedatus
+
+30 Hortensianus
+32 Sattius
+
+
+C. a Carthagine Sent. 87.
+I. a Neapoli 8G ').
+P. a Misgirpa 2.
+
+C. a Biltha 1.
+
+P. ab Hadrumeto 3.
+
+N. a Segermis 9.
+
+F. ab Uthina 26 '').
+
+S. ab Abbir Germaiiiciana 16.
+
+H. a Thucca 77.
+
+F. a Thuccabori 17.
+
+V a Gor 40 »j.
+
+D. a Cibaliana 55.
+
+L. a Membressa 62 *).
+
+P. a Dion^'siana 48.
+
+D. a Leptiminus 36.
+
+Q. ab Acbia 65.
+
+S. ab Avitinis 64 '").
+: I. Muzulensis 34.
+: M. a Macthari 38.
+: S. a Tucca 52 ').
+: E. a Nova 60 ').
+: S. a Thuburbo 18,
+: H. a Laribus 21.
+: S. a Sicilibba 39.
+
+
+Wie man sieht, sind sämtliche Bischöfe aus Africa
+Proconsularis, Hortensianus allein (wenn die Identifikation
+
+
+•1) Siehe oben S. 252 f.
+
+2) Siehe oben S. 255.
+
+") Oder V. ah Assuras G8, siehe oben S. 255.
+
+*) Siehe oben S. 255.
+
+») Siehe oben S. 253 f. 255.
+
+«) Siehe oben S. 253 f. 255.
+
+') Siehe oben S. 253.
+
+
+DIE PROSOPOGRAPHIE DES AFRIKAN. EPISKOPATS Z. ZEIT CYPRIAXS 257
+
+richtig ist) aus Numidia Proconsularis, also aucli nicht weit
+davon.
+
+Die Adressaten von ep. 70 sind im westlichen Numi-
+dien zu suchen. Von ihren 18 Namen begegnen 12 nicht in den
+Sententiae : Maxinms (3), Proculus (7), Modianns (8), Citthms (9),
+Gargilius I (10), Eutychianus (11, identisch mit dem ep. 79
+genannten?), Gargilius II (12), Nampiihis (15), Ayitonianus
+(16), Rogatianus (17), Honoratus (18), dazu 1 Saturninus (2
+oder 13). Die übrigen sind:
+
+1 lanuarius = I. a Lambese 6.
+
+2 (13) Saturninus I = S. a Victoriana 51.
+
+4 Victor I = V. ab Assuras 68 ?
+
+5 Victor II = V. ab Octavu 78.
+
+6 Cassius = C. a Macomadibus 22 ').
+14 Xemesianus = N. a Thubunas.
+
+Victoriana und Octavu sind bisher nicht identifiziert. Die
+übrigen Orte liegen mit Ausnahme von Assuras alle weit im
+Westen von Numidien nach Mauretanien zu. Deshalb ist
+Victor I vielleicht besser nicht mit dem von Assuras zu ver-
+binden. Bei dieser Entfernung darf es auch nicht befremden,
+dass so wenige jener 18 Gesinnungsgenossen Cyprians das
+grosse Septemberkonzil besuchten. Ungerechnet etwa Ver-
+storbene, deren Nachfolger in den Sententiae erscheinen könn-
+ten, hat doch immerhin ungefähr ein Viertel den sehr weiten
+Weg nicht gescheut.
+
+Ep. 64 stammt wahrscheinlich von dem Frühjahrskonzil
+von 252. 66 Bischöfe haben sie gezeichnet, aber ihre Namen
+sind leider nicht erhalten.
+
+Das Osterkonzil von 251 richtete ep. 5 7 an Cornelius von
+Rom. Von den 42 Absendernamen begegnen 25 in den Sen-
+tentiae, wenn man nämlich 2 von 4 Saturninus^ 1 von 2 For-
+tunaius und 1 von 2 Donatus abzieht, weil die Sententiae nur
+2 Saturninus und nur je 1 Fortunatus und Donatus aus der
+Proconsularis kennen. Diese 25 sind dann alle aus Cyprians
+engerer Provinz {Cyprianus a Carthagijie, Nicomedes a Segermis,
+
+') Siehe oben 8. 253.
+
+
+258 H. V. SODEN
+
+Caecilius a Biltha, lunms a Neapoli, Felix ab Uthina, Successiis
+ab Abbir Germaniciana, Fortunatus a Thiiccabori, Victor a Gor^
+Saturninus ab Avitinis, Saturninns a Tucca, Rogatianus a Nova,
+Sattiiis a Sicilibba, Secundinus a Carpos, Aiirelius ab Utica,
+Qiäntus ab Acbia, Honoratus a Thiicca, lambus a Germaniciana,
+Donaius a Cibaliana, Pomponius a Dionysiana, Polycarpns ab
+Hadrumcto, Demetrius a Leptiminus, Privatianiis a Siifetula
+aus Africa Proconsularis, dazu 2 Bischöfe aus Numidia Pro-
+consularis, Hortensianus a Laribiis und Victoricns a Thabraca,
+und 1 aus Tripolis, Momudlns a Girba). Es ist bemerkenswert,
+dass 7 von den 17 in den Sententiae fehlenden Absendern von
+ep. 57 unter denen von ep. 70 erscheinen: Liberalis (derselbe
+auch ep. 48, 1 erwähnt), Caldonius, Tertidlus, Liicianus, Mar-
+riitius, ein zweiter Donatus und ein dritter Saturninns. Die
+10 anderen sind : Faiistinits, Eutyches, Am]jlus, Priscus, Hercn-
+lanens (doch vgl. auch Herculanus ep. 70), Manthaneus. Ye-
+rianns, Rogatiis, ein zweiter Fortunatus (vgl. ep. 5G) und ein
+vierter Saturninns. Nur diese letzten kommen also als zwi-
+schen 251 und 255 verstorben oder als Gegner Cyprians in
+der Ketzertauffrage in Betracht ; soweit das erstere zutrifft,
+befinden sich ihre Nachfolger gewiss unter den Votanten
+von 256.
+
+Leider gibt es keine Liste, die sicher später
+ist als die Sententiae. So lässt sich nicht feststellen,
+ob vielleicht einige der Bischöfe, die ep. 70 gezeichnet haben,
+aber in den Sententiae fehlen, noch nach dem 1. September 256
+im Amt waren, woraus sich ergeben würde, wie viel Episko-
+pate man den 87 der Sententiae mit Sicherheit hinzuzuzählen
+hätte. Einige werden gewiss verstorben, andere mögen ver-
+hindert gewesen, Abgefallene werden hier schwerlich anzu-
+nehmen sein.
+
+Von einer kleinen endemischen Synode von Karthago un-
+bestimmter Zeit (doch ist Cyprian anscheinend schon länger
+Bischof) stammt ep. 4, gerichtet von den Bischöfen Cyprianus,
+Caecilius, Victor, Sedatus, Tertidlus an den Kollegen Pompo-
+nius. Ein Tertidlus fehlt in den Sententiae, zeichnet aber
+ep. 70. Die übrigen mit Cyprianiis a Cartliagine, Caecilius a
+Biltha, Victor a Gor, Sedatus a Thuburbo, Pomponius a Diony-
+
+
+DIE PROSOPOGRAPHIE DES AFRIKAN. EPISKOPATS Z. ZEIT CYPRIANS 259
+
+siana zu identifizieren hindert nichts. Die Absender residieren
+dann in unmittelbarer Nähe der Hauptstadt, der Empfänger
+in der Byzacene.
+
+Während Cyprian in einem Versteck fern von Karthago
+das Nachlassen der Decianischen Verfolgung abwartete, sorgte
+eine Kommission von befreundeten und benachbarten Bischöfen
+in der durch Streit um die Behandlung der Lapsi verwirrten Ge-
+meinde des abwesenden Metropoliten für AViederherstellung von
+Zucht und Ordnung. Wir besitzen einen Brief Cyprians an
+diese Kommission (ep. 4 1) und ein Exkommunikationsdekret
+derselben (ep. 42). Cyprian nennt in der Adresse seines Schrei-
+bens nur Caldonius und Herculanus, das Dekret ist ausser von
+diesen beiden noch von Victor gezeichnet. Fraglos siud Cal-
+donius und Herculanus die auch in den Adressen von ep. 57
+und 70, bezw. 70 (s. oben S. 258) vertretenen Kollegen (Caldo-
+nius s. auch ep. 24. 25. 26. 27, 3. 44, 1. 45, 1. 45, 4. 48, 2.
+48, 4), Victor der wohl die ep. 4. 42. 57. 67. 70 ? (s. oben S. 256)
+mitausstellende Bischof von Gor.
+
+Ep. 5 6, der Vorbote von ep. 57, ist an 6 Bischöfe gerichtet,
+die anlässlich einer Ordination versammelt waren : Fortunatus,
+AhymmiiSj Optattis, Privatianus, Donatulus, Felix. Sie müssen
+wie auch der in c. 1 des Briefes eingeführte Kollege Supe-
+rius sämtlich aus der Umgegend von Capse sein. Denkt man
+an das Byzacenische Capse, da das Numidische ferner liegt,
+so könnte Privatianus wohl der von Sufetula (Sent. 19), Felix
+der von Marazana (Sent. 46) und Donatidus eben mit dem
+von Capse (Sent. 69) identisch sein (s. oben S. 253). Ausuagga,
+wo wir in den Sententiae einen Ahymmus (n. 50) finden, ist
+noch nicht identifiziert; wir werden es also unbedenklich
+in dieser Gegend suchen. Fortunatus ist dann freilich schwer-
+lich der des weit entlegenen Thuccahor (Sent. 17), aber der
+Name ist ja sehr häufig. Ein Optatus und Superius begegnen
+in den Sententiae nicht.
+
+Dass Therapius a Bulla (Sent. 61) der ep. 64, 1 erwähnte
+sein könnte, und Pompeius Sahrathensis (84) wahrscheinlich
+der Empfänger von ep. 74 ist, wurde schon gesagt. Successus
+ab Abhir Germaniciana (Sent. 16) ist vielleicht der Adressat
+von ep. 80. Vincentiiis a Thibari kann noch nicht lange Bi-
+
+
+. 2(iO II. V. SODKN
+
+schof sein, denn ep. 58, im Sommer 253 an die dortige Ge-
+meinde gerichtet, setzt daselbst Sedisvakanz voraus. Weiter
+kann man mutmassen, dass der mit Caldonins von Cyprian
+nach Rom gesandte Bischof Fortunatiis (ep. 44, 1. 45, 1. 4.
+48, 2. 4) unser F. a TJmccahori (Sent. 17, ep. 57 A. 67 A. 70 A.)
+und vielleicht zugleich der F. ist, dem Cyprian seine Spruch-
+sammlung de exhortatione martyrii widmete (denn wahrschein-
+lich war auch dieser F. Bischof, s. p. 317, 11), dass endlich
+GaecUius a Biltha (Sent. 1, ep. 4 A. 57 A. 67 A. 70 A.) auch zu-
+gleich der Empfänger von ep. 63, Encratms a Thenis (Sent. 29)
+der von ep. 2 und Rogatiamis a Nova (Sent. 60, ep. 57 A.
+67 A. 70 A., s. oben S. 253) der von ep. 3 ist. Polycarpus ab
+Hachmmeto wird auch ep. 48, 1. 2 genannt; die Identität steht
+hier ausser Zweifel ').
+
+Das ist alles, was sich zur Identifikation von
+Votanten aus derProconsularis sagen lässt. Über
+N um i dien dagegen haben wir ausser der schon (S. 257) be-
+sprochenen Adresse von ep. 70 noch wertvolle Nachrichten in
+zwei dorthin gerichteten Briefen Cyprians, ep. 62 und 76, sowie
+in den zu ep. 76 gehörigen Reskripten 77. 78. 79.
+
+Die 8 Adressaten von ep. 6 2 (lanuarms, Maximus, Pro-
+culus, Victor, Modianus, Nemesianus, Nampulus, Hoyioratus)
+kehren sämtlich in der Adresse von ep. 70 wieder und auch
+in derselben Ordnung, nur dass Victor in ep. 70 vor Proculus
+steht. Mag das nun Zufall oder mögen die beiden Träger
+des häufigen Namens Victor nicht identisch sein, jedenfalls
+herrscht in Numidien deutlich eine Ordnung, die wir in der
+Proconsularis vergeblich suchen werden. Die Ordnung ist,
+wie wir wissen, die der Anziennität des Lebensalters. Die
+Zeit von ep. 62 ist unbestimmbar.
+
+Die 9 Adressaten von ep. 7 6 (Ende 257) sind:
+
+
+*) Gemiiitis a Furtiis (Sent. 59) ist gewiss iiiclit der Geminius Victor
+in Ftirnl, dessen Testament in der dorthin gerichteten ep. 1 unsicheren
+Datums gerügt Avird. Obwohl dort gerade eine Sedisvakanz zu bestehen
+scheint, ist der Verstorbene wohl nicht Bischof gewesen, da es nicht aus-
+drücklich gesagt ist. Ferner ist Geniin ius (nicht Gemitius) sein Geschlechts-
+name und nicht sein Nomen.
+
+
+DIE PROSOPOGRAPHIE DES AFRIKAN. EPISKOPATS Z. ZEIT CVPRIANS 261
+
+1. Nemesianus = N. a Thubunas 5.
+
+2. Felix I = F. a Bagai 12.
+
+3. Lucius =r L, a Castra Galba 7.
+
+4. Felix II = F. a Bamaccora 33.
+
+5. Littaeus = L. a Gremellis 82 ').
+
+6. Polianus = P. a Mileo 13.
+
+7. Victor = V. ab Octavu 78.
+
+8. lader = I. a Midili 45 *).
+
+9. Dativus r= D. a Badis 15.
+
+Cyprian ordnet nictt nach Anziennität, denn in den Grup-
+pen, in denen die Numider antworten und in denen wir übri-
+gens Littaeus vermissen, erscheinen andere Folgen, und zwar
+ep. 77: Nemesianus, Dativus, Felix, Victor, 78: Lucius, 79:
+Felix, lacler, Polianus. — Von jenen 9 Orten sind 3 {Castra
+Galba, Bamaccora, Octavu] nicht identifiziert.
+
+Der numidische Bischof Antonianus, der sich unter den
+Adressaten von ep. 70 befindet, dürfte mit dem Empfänger
+von ep. 55 identisch sein, den man augenscheinlich nicht in
+der Nähe von Karthago zu suchen hat.
+
+3. Endlich haben wir noch die in den bespro-
+chenen Listen nicht vorkommenden Namen von
+Bischöfen aus der Cyprianischen Korrespondenz
+zusammenzustellen. Da sind zunächst die Adressaten
+von ep. 64 Ficlus, 69 Magnus, 71 Quintus (vgl. auch ep. 72,
+1. 73, 1), 73 luhaianus (vgl. auch Sent. praef. 8. 87). {Epictetus
+in Assuras, an den ep. 65 gerichtet ist, ist kaum für den
+Bischof von Assuras zu halten ; das müsste vielmehr aus-
+drücklich gesagt werden.) . Quintus ist sicher und luhaianus
+wahrscheinlich in Mauretanien heimisch (s. oben. S. 10. 11),
+die einzigen uns dort namentlich bekannten Gesinnungs-
+genossen Cyprians im Ketzertaufstreit. Der Sitz des Fidiis
+ist nicht näher bestimmbar (s. oben S. 253). Von Magnus lässt
+der Brief an ihn nur so viel urteilen, dass er kaum in der Um-
+
+
+') iSiehe obeu S. 254.
+') Siehe oben 8. 253.
+
+
+2P)2 H. V. so DEN
+
+gebniig Cyprians zu denken ist. Denn er bedarf, obwohl der
+Streit um die Ketzertaufe schon seinen Höhepunkt erreicht
+hat, noch grundlegender Orientierungen darüber; fällt doch
+ep. 69 höchster Wahrscheinlichkeit nach später als ep. 74
+(s. oben S. 25-29). — Aus ep. 59, 9 — 11 lernen wir eine ganze
+Reihe häretischer Bischöfe kennen: Felix^ Fortiinatiis, Maxi-
+miis, loviims, Privatus und Bepostus Sutnmircensis^ der letzte
+anscheinend ein gefallener katholischer Bischof. Fortunutus
+ist der karthagische Gegenbischof der in der Lapsifrage
+laxen Partei, Maxhniis das Haupt der karthagischen Nova-
+tianer. Privatus ist in der Colonia Lambesitana zu Hause.
+Die Städte der Übrigen Averden nicht genannt. — Ein ab-
+gesetzter katholischer Bischof, Fortnnatimms von Assuras,
+versuchte, seine Funktionen wieder aufzunehmen und ver-
+anlasste dadurch Cyprian zu ep. 65. — Endlich wird ep. 24
+von Caldonius ein Decimus erwähnt ; der Zusammenhang legt
+sehr nahe, ihn für einen Bischof und zwar den Vorgänger
+des Caldonius zu halten, dessen Sitz uns ja leider unbe-
+kannt ist ^).
+
+Ein afrikanischer, vielleicht mauretanischer Bischof der
+Zeit Cyprians, dessen Name und Heimat uns aber nicht über-
+liefert ist, hat die anticyprianische Streitschrift de rebaptis-
+mate verfasst (s. oben S. 29-33) ").
+
+
+') P. 537, 1 — 3: Felix, qui preshyterium subministrahat sab Decimo
+proxlntus mihi vinculis (jdenius cognovi eutidem FeJicem) ete. Es handelt
+sich um ein Mitglied der Gemeinde des Caldonius.
+
+^) Auf das reiche, aber noch immer ungezwungene Synodalleben
+Afrikas, über das die Cyprianische Korrespondenz natürlich eine Fülle von
+Nachrichten liefert, ist in diesem Zusammenhang nicht näher einzugehen.
+Eine jährliche Synode zu Karthago nach Ostern im Mai war bereits feste
+Gewohnheit geworden (vgl. ep. 53, 7. 5(5, 3). Von der Mai-S3'node des Jahi'es
+252 stammt ep. 64 (s. von Soden, Die Cypr. Briefsammlung S. 28, Harnaok,
+Chronol II 354), von 253 ep. 57, von 255 ep. 70; die Sj^node von 251 ist
+ep. 43, 7. 44, 1. 45, 4. 48, 2. 55, (i. 59, 9. 10. 13. 68, 2, die von 256 ep. 73. 1
+erwähnt. Dass wir von 254 nichts hören, ist Avohl nur Zufall; 249 fiel die
+Synode wegen der Verfolgung aus. Ausserordentliche Konzile kamen nach
+Bedürfnis hinzu (Sent., ep. 67). Daneben bestanden Konvente oder Konfe-
+renzen von benachbarten Bischöfen, die nach Gewohnheit oder Gelegenheit
+zusammentraten und bald Avenigo bald mehr Gemeinden umfasseu ('ep. 41. 42.
+
+
+DIE PROSOPOGRAPHIE DES AFRIKAS. EPISKOPATS Z. ZEIT CYPRIANS 263
+
+4. Sicheres Zeugnis für die Verbreitung des Christentums
+wären Ortsnamen, aber es sind nur sehr wenige, die wir aus
+den Briefen Cyprians und aus der vorcyprianischen Literatur
+der unvergleichlich kostbaren Liste der Sententiae hinzufügen
+können. Aus dieser werden (ausser Carthago) Assiiras (ep. 65),
+Capse (ep. 56), Furni (ep. 1), Hadriimetum (ep. 48), TJtica (ep. 81)
+und in Numidien Lamhese (ep. 86 und 59) nochmals erwähnt:
+
+
+56, 1. 59, 10. 62, 1. 70, 1); sie heisseu nicht concilium und lassen ihre Ent-
+scheidungen zuweilen von einem solchen bestätigen (ep. 56. 59, 10 etc.j.
+Aus dem oben durchgeführten Vergleich der Bischofslisten ergibt sich, dass
+der Besuch der S^-noden für niemand obligatorisch, für die Entfernteren,
+besonders die Xumider, nicht einmal die Eegel war. Die Teilnahme der
+letzteren pflegt ausdrücklich erwähnt zu werden (ei>. 71, 4. 73, 1. Sent.
+praef.). Die uns bekannten Frequeuzzahlen schwanken zwischen 32 und 85.
+Stimmabgabe in absentia ist gegen die Gewohnheit, kommt aber vor (Sent.
+84. 85, vgl. Eus. h. e. VI 43, 22). Leider ist die Reihenfolge der Abstim-
+mung, bezw. der Besohlusszeichnung, keinem Prinzip zu unterwerfen. Der
+Vorsitzende stimmt als letzter, zeichnet aber die Briefe als erster. Wäre die
+Ordnung im übrigen fest, so müsste ep. 67 mit den Sententiae überein-
+stimmen. Dort erscheinen aber die Votauten der Sententiae in folgender
+Ordnung: 87. 1. 2. 3. 9. 43. 16. 18. 17. 34 oder 23. 11. 48. 77. 40.41 oder
+81. 39. 72. 23 oder 34. 52 oder 64. 81 oder 41. 49. 27. 60. 67. 26. .58. 65. 64
+oder 52. 62. 36. 28. 59. 53. 42 35. 25. 47. Man vergleiche noch ep. 70 (ich
+deute durch doppelten Punkt an, dass Namen eingeschoben sind, die in den
+Sententiae fehlen): 87.. 86.. 2. 1. 3. 9. 26.. 16.. 77. 17. 40 oder 68. 55 oder..
+62. . 48. 3f). 65. 64 oder 52. 23 oder 34. 38. .52 oder 64. 55. 60. 18. . 21. . 39.
+Kollationiert man diese Xummernreiheu. so sind gewisse wiedei'kehrende
+Ofruppen mit oder ohne Inversionen nicht zu verkennen. Trägt man fer-
+ner die Nummern der Sententiae auf einer Karte ein, so beobachtet man,
+dass benachbarte oder durch den gleichen Reiseweg nach Karthago ver-
+bundene Bischöfe häufig nebeneinander kommen ('aber durchzuführen ist
+diese Beobachtung auch nicht), nur dass Afrikaner und Numider bunte
+Reihe machen. So formlos es also scheint, es dürften sich Bekannte ne-
+beneinander gesetzt haben. Nach Lage der Sache darf man aber auf die
+Reihenfolge in unseren Hss. überhaupt nicht zu viel Gewicht legen, über
+dem Text des Briefes blieb ein Raum für die eigenhändige Namenszeich-
+nung. Bald schrieb einer nun unter, bald neben den Vorgänger. Einer
+schrieb so gross, dass er zwei Zeilen oder Kolumnen füllte, der andere
+klemmte seinen Namen auf einen kleinen freigebliebenen Raum. Die Ab-
+schreiber konnten gar nicht anders als diese durcheinander geschriebenen
+Namen verschieden ordnen; noch unsere mehr oder weniger auf ein Exem-
+plar zurückgehenden Hss. weisen Varianten der Reihenfolge auf.
+
+
+264 II. V. SODEN
+
+vor Cyprian sind CartJiago, Hadriimetitm, TJthina^ Lambese
+(Harnack S. 245 f.) bekannt. Darnach stelle man sich vor,
+wie viel wir ohne die Sententiae von der Verbreitung des
+Christentums in Afrika um die Mitte des 3. Jahrhunderts
+wüssten! Aus der Erwähnung eines Caius Didensis (ep. 34, 1),
+wofür Cod. 421 Dianensis liest, kann man selbst bei (der
+m. E. nicht geratenen) Rezeption dieser Konjektur nicht auf
+eine Gemeinde in Diana in Numidien schliessen, da dieser
+Caius Didensis zweifellos ein Presbyter der Gemeinde von
+Carthago ist (gegen Harnack S. 248). Die Adressaten von
+ep. 76 leiden in den Bergwerken von Sigus. Aber ob dort
+eine Gemeinde besteht, erfahren wir nicht; die namentlich Auf-
+geführten sind nicht aus Sigus (s. oben S. 261). Die Existenz
+einer Gemeinde geht- auch für Ciiruhis aus der Yita und den
+Acta Cyprians nicht sicher hervor ^). Mit mehr Recht wird
+man aus dem Vorkommen eines gefallenen Bischofs Repostus
+Sutunnrcensis ep. 59, 10 (nicht identisch mit dem ep. 42 ge-
+nannten Verbannten) auf ein Episkopat in Sutunurca (Zeu-
+gitana) schliessen dürfen (Harnack S. 250) '^). Dazu kommen,
+noch vor Cyprian bezeugt (Harnack S. 245 f.^, Madaura und
+Scilium in Numidien, Tipasa in Mauretanien, TJiysdrus in der
+Byzacene. Im ganzen haben wir also den 87 Orten der Sen-
+tentiae nur 5 sicher hinzuzuzählen.
+
+5. Unter Berücksichtigung der vorstehenden Angaben
+kommt man in Afrika zur Zeit Cyprians auf mehr als 100
+Gemeinden, bezw. Episkopate (was hier dasselbe ist, s. Har-
+nack S. 240). Erwägt man aber, von welchen Zufälligkeiten
+positive Bezeugungen abhängig sind, so wird man die wirk-
+liche Zahl nicht (mit Harnack) auf höchstens, sondern auf
+mindestens 150 ansetzen. Denn 87 die Ketzertaufe verwer-
+fende Bischöfe erscheinen im September 256 zu Karthago.
+Nicht alle Gleichgesinnten kamen ; aus den entfernteren Ge-
+
+
+') -111 sind ßistüniei' in Diana, Sigus und (Juruhis bezeugt.
+-) Zu Sutunurca vgl. noch Toulotte, Byzacene S. 2()(i (Nachti'ag zu
+Pi-oronsulaire).
+
+
+I
+
+
+DIE l'ROSOPOGRAl'HIB DES AFKIKAX. EPISKUl'AT.S Z. ZEIT CYl'RIANS 265
+
+genden mag die Mehrzahl gefehlt haben. Damals bezahlte
+kein Kaiser die B-eise. Weiter fehlten sämtliche Gegner, deren
+Zahl nicht ganz gering gewesen sein kann, auch wenn sie in
+kleiner Minorität waren ^).
+
+Bemerkenswert ist, dass die Zahlen aus der Zeit Cyprians
+die aus der Generation vor ihm nicht sehr übertreffen. Sein
+Vorgänger Donatus versammelte 90 Bischöfe, Agrippinus um
+220 bereits 70, die die Ketzertaufe verwarfen. Sehr stark
+kann also die Zahl der Gemeinden zwischen Agrippinus und
+Cyprian nicht gewachsen sein. Nach dem Aufhören der Ver-
+folgungen muss ja eine Vergrösserung eingetreten sein. An
+Ortsnamen kommen bis 325 freilich nur 29 hinzu (Harnack
+S. 252 f.) ; davon sind (z. T. ohne bestimmte Identifikation) im
+eigentlichen Numidien 9, in Numidia Proconsularis 3, in der
+Byzacene 4, in der Zeugitana 1, in Mauretanien 7 zu suchen;
+5 sind noch ganz unbekannt. Die Zahlen sind beredt; ihre
+Masse trifft die entfernteren Landesteile, die im 3. Jahrhun-
+dert nur sporadisch christianisiert gewesen sein können. Im
+Zentrum Afrikas, der Zeugitana und Numidia Proconsularis,
+war nicht mehr so viel hinzuzufügen '^).
+
+
+') Mit Hülfe der Karte katiu man sich ein gewisse? Bild von dem
+Zahlenverhältnis der Freunde und Gegner Cyprians in der Ketzertauf-
+frage machen. In Afrika und Xumidia Proconsularis sind nämlich tast
+alle bedeutenden Plätze in den Sententiae vertreten und sehr viele im Ver-
+hältnis zur Entfernung und zur allgemeinen Bevölkerungs-, bezw. Chri-
+stenzahl im westlichen Numidien und in Tripoletanien. Die Uegner Cy-
+prians müssen hier überall tatsächlich in verschwindender Minorität ge-
+wesen sein. Anders eben nur im abgelegenen Mauretanien, wo man an
+dem Agrii^pinischen Konzilsbeschluss nicht Teil genommen hatte und ihn
+nicht befolgte Man sieht, wie stark der Einfluss des Bischofs von Kar-
+thago schon vor Cyprian überall gewesen sein muss, wo Verkehr und Ver-
+bindung mit Karthago bestand.
+
+^) Nach dem Konstantinischen Frieden stieg die Zahl der Bischöfe
+natürlich rasch. Schon 330 konnten sich 270 donatistische Bischöfe in Kar-
+thago versammeln. — Harnack schliesst S. 245 daraus, dass Optatus für
+das Jahr 303 gelegentlich 17 Städte nennt, von denen nur 8 bei Cyprian
+vorkommen, dass sieh die Städte mit Christen schon bis 303 gegen die
+Zeit Cyprians nahezu verdoppelt haben : das ist doch recht unsicher.
+
+
+266 H. V. soi)i:x
+
+Sehr viel stärker und stetiger als die Zahl der Gemeinden
+wird die der Glieder in ihnen gewachsen sein. Aber es feiden
+hier Notizen, die einen Vergleich ermöglichen ^).
+
+6. Folgende Liste mag den Personalbestand des afrikani-
+schen Episkopats zur Zeit Cyprians zusammenstellen und zu-
+gleich den vorstehenden Untersuchungen als Register dienen'-).
+Natürlich muss vorbehalten bleiben, dass einige Namen die
+Nachfolger von ebenfalls in der Liste erscheinenden Bischöfen
+bezeichnen. In Anbetracht der verhältnismässig kurzen Zeit,
+die die Cyprianischen Urkunden umspannen — ein knappes
+Jahrzehnt — werden diese Fälle indessen wenig zahlreich sein.
+
+A r= Adresse. Ich setze einen Stern vor den Namen, wenn
+die Identität nicht sicher ist.
+
+Adelphius a Tbasualthe Sent. 35, ep. 67 A.
+
+Ahj'mmus ab Ausuagga Sent. 50, ep. 5G A., s. S. 259.
+
+Amplus ep. 57 A.
+
+Anonymus incerti loci : liber de rebaptismate.
+
+* Antonianus ep. 55 A. 70 A., s. oben S. 26L
+
+Aurelius I ab Utica 8ent. 41, ep. 57 A. 67 A.. s. oben S. 255.
+
+Aurelius II a Chullabi Sent. 81, ep. 67 A., s. oben S. 255.
+
+
+') Über deu Umfang der Gemeinde von Karthago vgl. Harnack,
+Ö. 242 A. — Am Ende des 5. Jahrhunderts schätzt Victor von Vita den
+Klerus von Karthago auf nicht weniger als 500 Personen (Hist. pers. Vand.
+V Hl Der römische Klerus umfasste unter Cornelius 155 Personen (Euse-
+bius h. e. VI 48, 11): der karthagische muss damals doch kleiner gewesen
+sein (Cyprian ep. 52, 2 p, 618, 17). Über das Waohstuxn des Christentums
+von 250 — 500 geben die beiden Zahlen also ein gutes Bild.
+
+- ) Aus der Zeit vor Cyprian haben wir nur folgende Namen : Agrip-
+jjinus (Cyprian ep. 71, 4. 73, B, Äugustin de bapt. adv. Don. passim) und
+Donatus (Cj'prian ep. 59, 10), beide (Donatus der unmittelbare) Vorgänger
+Cyprians in Karthago. Dies ist wohl auch der Sitz des im Martyrium der
+Perpetua und . Felicitas (c 18) erwähnten Bischofs Optatus, der vor oder
+nach Afirippinus zu rangieren hätte. Vor Cyprian ist endlich vielleicht
+auch der von Possidius erwähnte Cjirus, Bischof von Karthago, unterzu-
+bringen (s. Toulotte, Proconsulaire p. 82), doch spricht manches dagegen.
+
+Über die Sprache der Personennamen zur Zeit Cyprians und die daran
+zu knüpfenden Folgerungen s. Harnack S. 288 Anm. 1.
+
+
+DIE PROSOPOGRAPHIE DES AFRIKAN. KlUSKüPATS Z. ZEIT CYPRIANS 267
+
+* Caecilius a Biltha Seut. 1, ep. 4 A. 57 A. 63 A. (!7 A. 7ü A., s. oben S. 2HU.
+Caldonius ep. 24 A. 25 A. 26. 27, 3. 41 A. 42 A. 44, 1. 45, 1. 48, 2.
+
+48, 4. 57 A. 70 A.
+Cassius a Macomadibus Sent. 22. e}). 70 A., s. oben S. 253.
+Castus a Sicca Sent. 28.
+Clarus a Mascula Sent. 79.
+Cittinus ep. 70 A.
+Crescens a Cirta Sent. 8.
+Cyprianus a Carthagine Sent. 87, etc. etc.
+Dativus a Badis Sent. 15, ep. 76 A. 77 A.
+Decimus? ep. 24. s. oben S. 262.
+Demetrius a Leptiminus Sent. 36, ep. 57 A, 70 A.
+Dioga Leptimagnensis Sent. 85.
+
+Donatulus a Capse Sent. 69, ep. 56 A., s. oben S. 253.
+Donatus I a Cibaliana Sent. 55, ep. 57 A. 70 A.
+Donatus II ep. 57 A. 70 A.
+
+Epictetus ab AssurasV ep. 65 A.. s. oben S. 261.
+" Eucratius a Theuis Sent. 29. ep. 2 A.
+Eugenius ab Ammedera Sent. 32.
+Eutyclies ep. 57 A.
+
+* Eutychianus ep. 70 A. 79.
+Faustinus ep. 57 A.
+
+Faustus a Tliimida Regia Sent. 58, ep. 67 A.
+
+Felix I a Bagai Sent. 12, ep. 76 A. 77 A.
+
+Felix II a Bamaccora Sent. 33, ep. 76 A. 79 A. 79.
+
+Felix III a Bustlacceni Sent. 63.
+
+Felix IV a Gurgitibus Sent. 74.
+
+Felix V a Marazana Sent. 46. ep. 56 A.. s. oben S. 259.
+
+Felix VI ab Uthina Sent. 26. ep. 57 A. 67 A. 70 A., s. oben S. 255. 256.
+
+Felix VII, häretischer Bischof, ep. 59, 10.
+
+Fidus ep. 64 A.
+
+Fortunatianus Assuritanus quondam episcopus ep. 65, 1 ').
+
+" Fortunatus I a Thuccabori Sent. 17, ep. 57 A. 67 A. 70 A.. ders.
+
+vielleicht ep. 44, 1. 45, 1, 4. 48, 2. 4 ad Fortunatum de exhor-
+
+tatione martyrii, s. oben S. 258. 259. 260.
+
+* Fortunatus II ep. 56 A. 57 A., s. oben S. 258. 259.
+Fortunatus III. liäretischer Bischof, ep. 59, 9. 10. 11.
+Gargilius I ep. 70 A.
+
+Gargilius II ep. 70 A.
+
+Vi Vorgänger von Victor, bezw. Epictetiin.
+
+
+•2HS II. V. SODKN
+
+Geminus a Furnis Seilt. 5!», eji. <)7A.. .s. uljeii 8. 2<)(J Ainu. I.
+
+Herculaneus ep. "jT A.
+
+Herculaiins e]i. 41 A. 42 A. TU A.
+
+Honuratiis I a Tliucca Sent. 77, eji. 57 A. <J7 A. 70 A.
+
+Honoratus II ep. G2 A. TU A.
+
+* Ilortensianus a Laribiis Sent. 21. ep. 57 A. 7UA., «. üben S. 25() f.
+
+lader a Midili Sent. 45, ep. 7(i A. 7!) A. 7i>, s. oben S. 253,
+
+lanibus a iTerinaniciana Sent. 42, ep. 57 A. G7 A.
+
+lanuarius I a Lanibese Sent. 6, ep. (52 A. 70 A., s. oben S. 253 f.
+
+lanuariiis II Muzulensis Sent. 34, ep. <J7 A. 7U A., s. oben S. 253 f. 255.
+
+lanuarius III a Vico Caesaris Sent. 23, ep. <)7 A.. s. oben S. 253 f. 255.
+
+Irenaeus ab Ululis Sent. 54.
+
+lovinus, häretischer Bischof, ep. 5ü. lU.
+
+lubaianus Sent. praef. 8. 87, ep. 73 A., s. üben S. 10. IJ. 2Gi.
+
+lulianus I a Thelepte Sent. 57.
+
+lulianus II a Marcelliana Sent. <)<i.
+
+lunius a Neapoli Sent. 8(j. ep. 57 A. 70 A., s. olien S. 252 f.
+
+Leucius a Theveste Sent. 31.
+
+Lil)eraiis ep. 48, 1. 57 A. 7Ü A.
+
+Libosus a Vaga Sent. 3U, ep. 67 A.
+
+Littaeus a CTemellis Sent. 82, ep. 7(5 A., s. oben S. 254.
+
+Lucianus ep. 57 A. 7U A.
+
+Lucilianus a Rucuma Sent. 43, ep. <J7 A.
+
+Lucius I ab Ausafa Sent. 73.
+
+Lucius II a Castra Galba Sent. 7, ep. 7G A. 78 A.
+
+Lucius III a Membressa Sent. 62, ep. 67 A. 7U A., s. oben S. 255.
+
+Magnus ep. 69 A.
+
+Manthaneus ep. 57 A.
+
+Marcellus a Zama Sent. 53, ej). ()7A., s. oben S. 254.
+
+Marcus a Macthari Sent. 38, ep. 7U A.
+
+Marrutius ep. 57 A. 70 A.
+
+Maximus I ep. 62 A. 7Ü A.
+
+Maximus II, häretischer Bischof, ep. 59. !(. 10.
+
+Modianus ep. 62 A. 7U A.
+
+Monnullus a Girba Sent. lU. ep. 57 A.
+
+Nampulus ep. 62 A. 7U A.
+
+Natalis ab Oea Sent. 83.
+
+Nemesianus a Thubunas Sent. 5, 62 A. 70 A. 76 A. 77 A.
+
+Xicomedes a Segermis Sent. 9, ep. 57 A. ()7 A. 70 A.
+
+Novatus a Thamogade Sent. 4.
+
+Optatus ep. 56 A.
+
+Paulus ab Obba Sent. 47. ep. (;7 A.
+
+
+DIE PROSOPOGRAPHIE DES AFRIKAN. EPISKOPATS Z. ZEIT CYPRIANS 269
+
+Pelagianus a Luperciana Sent. 44.
+
+Petrus ab Hippune Diairito Sent. 72. ep. <)7 A.
+
+Polianus a Mileo Sent. IB, ep. 76 A. 79, A. 79.
+
+Polycarpus ab Hadrumeto Sent. 3, ep. 48, 1. 2. 57 A. iu A. 70 A.
+
+Pumpeius Sabrathensis Sent. 84. ep. 74 A.
+
+Pomponius a Dionj^siana Sent. 48, ep. 4 A. 57 A. ()7 A. 70 A.
+
+Primus a Misgirpa Sent. 2, ep. 67 A. 70 A.
+
+Priscus ep. 57 A.
+
+Privatianus a Sufetula Sent. 19, ep. 56 A. 57 A.
+
+Privatus I a Sufibus Sent. 20.
+
+Privatus II, häretischer Bischof, ep. 59, 10.
+
+Proculus, ep. 62 A. 70 A.
+
+Pudentianus a Cuiculi Sent. 71.
+
+Pusillus a Lamasba Sent. 75.
+
+Quietus a Buruc Sent. 27, ep. 67 A., s. oben S. 254 Anni. 1.
+
+Quintus I ab Acbia Sent. <)5, ep. 57 A. 67 A. 70 A.
+
+Quintus II ep. 71 A. 72, 1. 78, 1. s. oben S. 10. 11. 261.
+
+Repostus Sutunurcensis, häretischer Bischof ep. 59, 10.
+
+* Rogatianus I a Nova Sent. 60, ep. 3 A. 57 A. 67 A. 70 A,, s. oben
+
+S. 253.
+
+* Rogatianus II, ep. 70 A,, s. oben S. 253.
+Rogatus ep. 57 A.
+
+Salvianus a Gazauphalia Sent. 76.
+
+Sattius a Sicilibba Sent. 39, ep. 57 A. (J7 A. 70 A.
+
+Saturninus I ab Avitinis Sent. 64, ep. 57 A, 67 A, 70 A., s. oI)en
+
+S. 253. 255.
+Saturninus II a Tucca Sent. 52, ep. 57 A. 67 A. 70 A., s. oben
+
+S. 253. 255.
+Saturninus III a Victoriana Sent. 51, ep. 70 A.
+Saturninus IV ep. 57 A. 70 A., s. oben S. 256.
+Saturninus V ep. 57 A,, s. oben S. 258.
+Saturninus VI ep. 70 A., s. oben S. 257.
+Secundianus a Thambis Sent. 80.
+
+Secundinus I a Carpos Sent. 24, ep. 57 A. 67 A., s. oben S. 255.
+Secundinus II a Cedias Sent. 11.
+Sedatus a Thuburbo Sent. 18, ep. 4 A. 67 A. 70 A.
+
+* Successus ab Abbir Germaniciana Sent 16, ep. 57 A. 67 A. 70 A.
+' 80 A., s. oben S. 259.
+
+Superius ep. 56, 1, s. oben S. 259.
+
+Tenax ab Horreis Caeliae Sent. 67, ep. 67 A.
+
+Tertullus ep. 4 A. 57 A. 70 A.
+
+Theogenes ab Hippone Regio Sent. 14.
+
+
+270 II. V. SODEN
+
+Therapius a Bulla Sent. <)1. ep. ()4. 1, s. oben S. 253.
+
+Venantius a Thinisa Sent. 19, ej). G7 A.
+
+\'erianus ej). ")7 A.
+
+Verulus a Rusiocade Sent. 70.
+
+* Victor I ab Assuras Sent. <;8, ep. 7(J A.?, .s. oben S. 255. 25(i. 257.
+
+* Victor II a Gor Sent. 40, ep. 4 A. 42 A. 57 A. Gl A. 70 A.V. s. ol)en
+
+S. 255. 25G.
+
+* Victor III al) Octavn Sent. 78, ep. 02 A. 70 A. 7G A. 77 A., s. oben
+
+S. 257. 260.
+Victor IV ep. 70 A., s. oben S. 257.
+Victoricus a Thabraca Sent. 25, ep. 57 A. (i7A.
+Vincentius a Thibari Sent. 37. ep. (i7 A.. s. ol>en S. 259 f.
+Zosimus a Tharassa Sent. 5().
+
+Ein alphabetisches Register der in der Cyprianischen Kor-
+respondenz vorkommenden afrikanischen Orte hat bereits Har-
+nack S. 246-251 zusammengestellt. Vgl. dazu oben S. 252-254.
+255. 259. 2G3 f.

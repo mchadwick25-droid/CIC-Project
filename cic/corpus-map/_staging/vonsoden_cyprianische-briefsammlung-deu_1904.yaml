@@ -1,0 +1,16 @@
+source_file: vonsoden_cyprianische-briefsammlung-deu_1904.txt
+
+assignments:
+  - work: "Die cyprianische Briefsammlung: Geschichte ihrer Entstehung und Ueberlieferung"
+    author: vonsoden
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Modern (1904) German scholarship -- role context, not tradition.
+      The standard study of how Cyprian's own letter collection was formed and
+      transmitted, directly on the same problem that produced this build's own
+      historical Ep. XL/Epistle XXXIX citation error (lpc_Decision_Log.md). Closes
+      Source_Acquisition_Manifest G7. Consultation-only per cic/texts/INTAKE.md.

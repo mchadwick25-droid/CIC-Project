@@ -74,6 +74,20 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- work: The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council
+    of Carthage, 419)
+  author: council-of-carthage-419
+  locus: pp. 155-202 of the printed volume
+  role: context
+  confidence: needs-ruling
+  note: 'Not a claim this staging entry is positioned to argue well -- flagged because the
+    Council of Carthage 419 sits inside the Donatist controversy''s own chronology (post-Conference-of-Carthage-411
+    settlement period) and that world''s own build thread has not been asked, from outside,
+    whether this text belongs there as context, antecedent, or something narrower. Named per
+    corpus-map''s own non-exclusivity principle rather than silently omitted.
+
+    '
+  source_file: codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt
 - work: The Code of Canons of the African Church (Council of Carthage, 419)
   author: council-of-carthage-419
   locus: div2 15.4
@@ -167,6 +181,19 @@ works:
 
     '
   source_file: optatus_against-the-donatists.txt
+- work: Prosper of Aquitaine's Epitoma Chronicon, with its African continuations
+  author: prosper
+  locus: pp. 385-485 of the printed volume
+  role: context
+  confidence: needs-ruling
+  note: 'Not a claim this staging entry is positioned to argue well -- flagged because the
+    same year-439 entry (the Vandal capture of Carthage) bears directly on that world''s own
+    closing chronology too, and that world''s own build thread has not been asked, from outside,
+    whether or how this text belongs there. Named per corpus-map''s own non-exclusivity principle
+    rather than silently omitted.
+
+    '
+  source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
 - work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
   author: theodosian-code-compilers
   locus: whole text

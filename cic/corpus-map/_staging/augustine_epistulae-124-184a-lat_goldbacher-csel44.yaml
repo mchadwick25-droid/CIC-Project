@@ -1,0 +1,15 @@
+source_file: augustine_epistulae-124-184a-lat_goldbacher-csel44.txt
+
+assignments:
+  - work: "Augustine's Epistulae 124-184A (Goldbacher's critical edition)"
+    author: augustine
+    locus: "whole file, Ep. CXXIV-CLXXXIV A, including Letter 185"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin critical-text original standing behind the already-vendored
+      NPNF1-04 English translation of Letter 185 (the Correction of the Donatists,
+      Registry row 12) and the general correspondence (rows 10-11). Vendored
+      2026-09-08, partially closing Source_Acquisition_Manifest G4.
