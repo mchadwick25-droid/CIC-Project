@@ -223,11 +223,11 @@ svg#world{display:block;overflow:visible}
 /* Documented stories: a movement's own real, sourced narrative episodes --
    distinct from the map's floating gap stories -- collapsed by default so
    the panel's own account of a movement isn't crowded by its detail. */
-#panel details.docstories{margin:.8rem 0 .3rem;border-top:1px solid var(--rule);
+#panel details.docstories,#panel details.sources-panel{margin:.8rem 0 .3rem;border-top:1px solid var(--rule);
   padding-top:.6rem}
-#panel details.docstories summary{cursor:pointer;font-family:"Alegreya Sans",sans-serif;
+#panel details.docstories summary,#panel details.sources-panel summary{cursor:pointer;font-family:"Alegreya Sans",sans-serif;
   font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-leaf)}
-#panel details.docstories summary:focus-visible{outline:2px solid var(--gold-leaf);
+#panel details.docstories summary:focus-visible,#panel details.sources-panel summary:focus-visible{outline:2px solid var(--gold-leaf);
   outline-offset:2px}
 #panel .docstory{margin:.7rem 0 1rem;padding-left:.6rem;border-left:2px solid var(--tyrian)}
 #panel .docstory h4{font-family:"Alegreya",serif;font-size:1rem;margin:0 0 .1rem}
@@ -1783,14 +1783,24 @@ const DATA = {
     {
      "work": "Justin Martyr, First Apology",
      "type": "primary",
-     "note": "Written from a rented room above a Roman bathhouse; contains the earliest detailed outside description of what a Christian Sunday gathering actually looked like.",
+     "note": "An open defense addressed to the Roman emperor and Senate; contains the earliest detailed outside description of what a Christian Sunday gathering actually looked like.",
      "url": "https://www.newadvent.org/fathers/0126.htm"
+    },
+    {
+     "work": "The Martyrdom of Justin and Companions",
+     "type": "tradition",
+     "note": "An anonymous trial transcript of Justin's interrogation before the Roman prefect Rusticus, in which he describes living and teaching above a public bath in Rome; ends in his execution, c. 165."
     },
     {
      "work": "Shepherd of Hermas",
      "type": "primary",
-     "note": "A vision-and-parable text widely read — and by some congregations nearly treated as Scripture — in the house churches of second-century Rome.",
+     "note": "A vision-and-parable text widely read — and by some congregations nearly treated as Scripture — in the Scattered Households of second-century Rome.",
      "url": "https://www.newadvent.org/fathers/0201.htm"
+    },
+    {
+     "work": "Pliny the Younger, Letters, Book 10.96",
+     "type": "primary",
+     "note": "A Roman governor's official report to the emperor Trajan on investigating Christians in Bithynia, including the torture of two enslaved women called ministrae — deaconesses."
     }
    ],
    "floorNote": "These communities lived two centuries before the Nicene Creed was written. What they confessed is part of the raw material the creed was later drawn from, not a departure from it.",
