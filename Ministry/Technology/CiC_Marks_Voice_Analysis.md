@@ -7,7 +7,7 @@
 
 **Corpus: 135 messages, 2,897 words.** Mean 21.5 words, **median 15 words**. Working file: `/tmp/claude-0/-home-user-CIC-Project/c7e518e4-741e-583a-8563-7b33adf43a08/scratchpad/marks_clean.txt`
 
-One provenance caveat, stated up front because it matters for how much weight to put on Section 4: two of the 135 messages (the long prose blocks at 18:21 and 19:54) are the **only** two containing em-dashes and the **only** two containing curly apostrophes, and they contain **zero** typos where 35% of his other messages contain at least one. They were composed somewhere other than the chat box — a word processor with autocorrect, or another tool. Their *content decisions* are all traceable to instructions he typed himself, so the substance is his; the surface polish is not from his keyboard. Both are flagged where they appear.
+One provenance correction, stated up front because it changes how Section 4 and 6 should be read: two of the 135 messages (the long prose blocks at 18:21 and 19:54) are the **only** two containing em-dashes and the **only** two containing curly apostrophes, and they contain **zero** typos where 35% of his other messages contain at least one — this document originally guessed "a word processor, or another tool." Mark has since confirmed directly: both blocks are **Gemini's** output, pasted in as a second AI's perspective, not his own writing at all. They are not evidence of his drafting voice. What they *are* evidence of: his subsequent corrections on top of them (`i like held together over bound`, `the term wrongdoing doesn't feel right`, `soften is by saying tradition has it`, etc.) are his own editorial judgment applied to another AI's draft — the same review act he performs on this assistant's drafts. Sections 4 and 6 are corrected below accordingly.
 
 ---
 
@@ -223,13 +223,13 @@ Ranked by confidence that this is unmediated keyboard-Mark.
 - **Zero rhetorical flourish. Not one instance.** No metaphor, no image, no aphorism, no reversal, no fragment-for-effect, no quotation, no rhetorical question. Nothing in his typed replacement text is doing anything other than stating a fact in the plainest available order. He also polices this in others: `no quotes or clever statements (not trying to be clever) not criptic or out of context imagry or sayings etc.`
 - **Where he does risk warmth, it's flat and unornamented** — `lets make it more human`, `beauty and distinction`, `faithful households`. `faithful` is close to the only evaluative adjective he adds anywhere.
 
-### Lower confidence (pasted from outside the chat — see caveat above)
+### Not his drafting at all — Gemini's, confirmed
 
-**(g) The full three-paragraph story rewrite** (231 words, 18:21:21) and **(h) the full three-paragraph legacy rewrite** (202 words, 19:54:44). Both are quoted in full in Section 5's companion cases below. These are the only two messages with em-dashes, the only two with curly apostrophes, and the only two with no typos.
+**(g) The full three-paragraph story rewrite** (231 words, 18:21:21) and **(h) the full three-paragraph legacy rewrite** (202 words, 19:54:44) are **Gemini's** output, pasted in by Mark as a second AI's take, not his own composition — confirmed directly by Mark, not inferred. Both are quoted in full in Section 6's companion cases below. These are the only two messages with em-dashes, the only two with curly apostrophes, and the only two with no typos, which is exactly what tipped this document off before the confirmation came in.
 
-The honest reading: the *editorial decisions* in them are his (every one traces to something he typed before or after — `held together`, `where they could`, `through use, not by ruling`, `the gospels and letters`, dropping the Didache). The *surface* is not. And the evidence that the surface is not his is that **he immediately started correcting his own paste** in the next several turns — `i like held together over bound` (his paste said "bound"), `soften is by saying tradition has it` (his paste said "Both men were executed"), `the term wrongdoing doesn't feel right` (his paste said "wrongdoing"), and eventually `held together by carried letters` (his paste said "courier letters and weary travelers"). He also later condemned in general the em-dash-and-fragment habit that his own paste used: `this uses dashes and not complete sentances`.
+**What this means: these two blocks are not evidence of Mark's drafting voice, and the claim below should be read as corrected.** What they remain excellent evidence of is his **review** act performed on a draft — any draft, regardless of source. He immediately started correcting Gemini's paste in the next several turns exactly as he corrects this assistant's drafts — `i like held together over bound` (Gemini's text said "bound"), `soften is by saying tradition has it` (Gemini's text said "Both men were executed"), `the term wrongdoing doesn't feel right` (Gemini's text said "wrongdoing"), and eventually `held together by carried letters` (Gemini's text said "courier letters and weary travelers"). He also later condemned in general the em-dash-and-fragment habit Gemini's paste used: `this uses dashes and not complete sentances`.
 
-**That is the single most useful fact in this whole analysis: his review instinct is sharper than his drafting instinct.** When he composes at length, some flourish creeps in — `weary travelers`, `periodic waves of official violence`, `refusing to abandon their Lord`. When he re-reads, he strips it. The voice that should be replicated is the voice of his *second* pass, not his first.
+**That is the single most useful fact in this whole analysis, now more cleanly stated: his review instinct catches the same defects regardless of which AI produced the draft.** Claude's drafts and Gemini's draft both accumulated the identical flourishes — `weary travelers`, `periodic waves of official violence`, an unhedged double execution — and his second pass stripped both the same way, with the same vocabulary (`clunky`, `ai tells`, `dramatic crap`). There is no clean evidence in this transcript of Mark's own long-form drafting voice — his unmediated writing, per Section 4a-f above, only ever appears in short, typo-intact fragments. **The voice worth replicating is not "how Mark drafts." It is "how Mark reviews" — and that process is model-agnostic.**
 
 ---
 
@@ -321,25 +321,23 @@ Compared against `/home/user/CIC-Project/cic-website/atlas-v3.html` (`post-apost
 
 **Change:** one typo fixed, one serial comma added, capitalized. **Nothing else.** This is the cleanest case in the session, and it is the sentence he wrote himself with the least assistance. It is also, tellingly, the sentence with the least in it: three plain nouns, one verb, no adjective doing any work.
 
-### Case 2 — `legacy`: his 202-word paste shipped character-for-character
+### Case 2 — `legacy`: Gemini's paste shipped almost character-for-character, Didache sentence cut after
 
-The shipped `legacy` field is **identical** to his 19:54:44 message. Not one word was added, removed, or reordered. Compare what the assistant had drafted immediately before:
+The shipped `legacy` field is **identical** to the 19:54:44 message — which is Gemini's draft, not Mark's own composition (see correction above). Not one word differs. Compare what the assistant had drafted immediately before, to see what Mark was choosing between:
 
-**Assistant's draft:**
+**Assistant's (Claude's) draft:**
 > "The basic shape of Christian worship — assembling on the first day of the week, reading the prophets and the apostles' own memoirs aloud, a shared meal — shows up earliest here. ... Reading the apostles' letters aloud in worship became a habit, and it's part of how those letters came to be treated as Scripture — through use, not by ruling. Cities stayed in touch through travelers and letters passed hand to hand. Clement, Ignatius, and Polycarp's own letters have been read ever since; the Didache was not so fortunate — lost for centuries, recovered from a single surviving manuscript only in the 1870s."
 
-**Mark's version (shipped):**
+**Gemini's version (pasted by Mark, shipped):**
 > "The basic rhythm of Christian worship—assembling on the first day of the week, reading aloud from the prophets and the apostles' memoirs, and sharing the bread and the cup, whether in a full communal meal or the bread and wine alone—shows up earliest in these spaces. ... it was through this regular use in worship—not by an early decree—that these writings came to be heard alongside the ancient Jewish Scriptures. Carried by travelers from city to city, these letters bound scattered households together, and writings like those of Clement, Ignatius, and Polycarp were preserved and read for generations to come."
 
-**What he changed:** `a shared meal` → the fully specified `sharing the bread and the cup, whether in a full communal meal or the bread and wine alone` (adding the alternative rather than choosing one); `shape` → `rhythm`; `here` → `in these spaces`; `a habit` → `an enduring habit`; and he **deleted the Didache sentence entirely** — the assistant's one flourish, complete with `was not so fortunate` and a dramatic dash. He then explained the deletion: `yes the didache own story isn't about legacy of influence`.
+**This case is NOT evidence of Mark's compositional voice — both paragraphs above are AI output (Claude's and Gemini's respectively).** What it IS evidence of: Mark's selection judgment between two AI drafts, and a real editorial act right after. The one thing he removed from Gemini's paste, in his own subsequent words, was the Didache sentence — the one place Gemini's draft reached for a flourish (`was not so fortunate`, a dramatic dash). His stated reason: `yes the didache own story isn't about legacy of influence`. **That single cut is the real data point here: given a fluent AI draft to approve, the one thing his ear caught and removed was the one sentence performing rather than stating.**
 
-**Direction of travel here: Mark made the prose longer and less punchy in order to make it more accurate, and cut the one sentence that was performing.** That is the opposite of the usual expectation.
+### Case 3 — `longDescription`: Gemini's paste, then Mark's own successive corrections
 
-### Case 3 — `longDescription`: his paste, then his own successive corrections
+Shipped `longDescription` is the 18:21 paste (Gemini's draft, per the correction above) with roughly six edits, and **every one of the six came from a subsequent instruction Mark typed himself** — this is genuine evidence of his review voice, applied to another AI's draft rather than his own composition:
 
-Shipped `longDescription` is his 18:21 paste with roughly six edits, and **every one of the six came from a subsequent instruction he typed himself**:
-
-| His paste said | Shipped says | His instruction |
+| Gemini's paste said | Shipped says | Mark's instruction |
 |---|---|---|
 | `no church buildings, no uniform clergy, and no settled list of Scriptures` | "no documented church buildings and no single leadership structure. They had the Old Testament. The gospels and letters of the apostles moved between communities..." | `i think no is also an overstatement... there were no documented church buildings, singlular leadership structure` + `we need to add what they did have` + `they had the old testament, gospels and letters of the apostles, though no fixed collection had been settled yet` |
 | `a network of faithful households, meeting wherever they could` | "a network of faithful households, scattered across Antioch, Asia Minor, and Rome, meeting wherever they could" | `the only thing missing is the sence of scattered households` then `trim the scatteed homes` |
@@ -349,7 +347,7 @@ Shipped `longDescription` is his 18:21 paste with roughly six edits, and **every
 | `What did a woman's life and leadership look like on the ground?` | "What did women's leadership look like?" | `was a womens life and leadership or is is it how are women in leadership` |
 | `Both men were executed for refusing to abandon their Lord.` | "Justin was executed for refusing to abandon his Lord; tradition has it that Ignatius met the same end." | `soften is by saying tradition has it or tells, putting it into the truthful context` |
 
-The assistant's contribution here was **verification**, not composition — it checked the ten-soldier guard and the bathhouse against primary text, and flagged that the Ignatius execution was asserted as certain. Mark then supplied the fix wording himself. Notice the net effect: `weary travelers` gone, `courier` gone, `on the ground` gone, `healed` gone, `waves of official violence` retained. **The removals are all ornament; the retained material is all fact.**
+The assistant's contribution here was **verification**, not composition — it checked the ten-soldier guard and the bathhouse against primary text, and flagged that the Ignatius execution was asserted as certain in Gemini's draft. Mark then supplied the fix wording himself, in his own typed words. Notice the net effect: `weary travelers` gone, `courier` gone, `on the ground` gone, `healed` gone, `waves of official violence` retained. **The removals are all ornament; the retained material is all fact — and every removal came from Mark's own typed instruction, applied to a draft that was not his.**
 
 ### Case 4 — `why`: the one place something was added that he did not ask for
 
@@ -365,7 +363,7 @@ The assistant's contribution here was **verification**, not composition — it c
 
 ### Is anything being systematically lost from his voice? — Yes, but not the thing you would expect
 
-**What is *not* being lost.** The assistant did not soften his blunt sentences into formal ones. In the four traceable cases, his own words survived at very high fidelity: one shipped verbatim, one shipped character-for-character, one shipped as his paste plus only his own corrections. The prose-level gap is much smaller than the exercise assumed.
+**What is *not* being lost.** The assistant did not soften his blunt sentences into formal ones. Of the four traceable cases, one (Case 1) is his own short sentence, shipped verbatim; two (Cases 2 and 3) are actually a different AI's (Gemini's) draft, which he selected, then corrected through his own typed instructions — those corrections are his, at very high fidelity, even though the base text they're applied to is not. The prose-level gap in his *own* compositional voice can't be measured directly from this transcript, because he essentially never drafted at length himself — his unmediated writing (Section 4a-f) stays in short fragments. What can be measured is his editorial voice, and it holds up consistently whether the draft under review is Claude's or Gemini's.
 
 **What *is* being lost, in order of size:**
 
@@ -377,7 +375,7 @@ The assistant's contribution here was **verification**, not composition — it c
 
 4. **His question form.** He asks questions without question marks (`have we completed chloe`). Nothing lost in the product here, but it explains why his corrections read as flat statements even when they are genuinely open questions — several of his "corrections" were actually him asking whether something was true, and it is worth not over-reading them as verdicts.
 
-**And one thing to be honest about in the other direction.** The two long blocks he composed himself (Section 4g/h) contain em-dashes, curly quotes, and a handful of the exact flourishes he elsewhere condemns. The failure mode is not only "the AI adds AI-tells to Mark's clean prose." It is also "any long-form drafting pass, including his own, accumulates them — and his review pass is what removes them." A tool built to replicate this quality needs the **review pass** more than it needs the drafting voice.
+**And one thing to be honest about in the other direction.** The two long blocks pasted at Section 4g/h are Gemini's, not Mark's (confirmed correction above) — but the pattern they demonstrate still holds and is arguably stronger for not being about him specifically: they contain em-dashes, curly quotes, and a handful of the exact flourishes he elsewhere condemns, and Mark caught and removed them the same way he catches this assistant's. The failure mode is not "the AI adds AI-tells to Mark's clean prose" specifically — it is "any AI's long-form drafting pass accumulates them, regardless of which model, and Mark's review pass is what removes them." A tool built to replicate this quality needs the **review pass** — proven here to work on at least two different models' drafts — more than it needs to imitate any one model's or person's drafting voice.
 
 ---
 
