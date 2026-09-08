@@ -1,0 +1,16 @@
+source_file: monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt
+
+assignments:
+  - work: "Histoire littéraire de l'Afrique chrétienne, Tome VI: La
+      Littérature Donatiste (au temps de saint Augustin)"
+    author: monceaux
+    locus: "whole volume"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: assigned
+    note: >
+      Monceaux's own study (1922, French) of Donatist-side literature in
+      Augustine's own generation — modern secondary scholarship, the volume
+      of this series covering the entry's own later, Augustine-contemporary
+      period. Pairs with Tomes IV and V (staged separately).
