@@ -21,7 +21,9 @@ sources:
 - source_id: alx.source.dionysius-extant-fragments
   locus: 'the same letter, in a different translation, in the collected fragments
     (corrected 2026-09-08, records/alx audit: not "the same text" - ANF06 Epistle
-    XII, lines 11396-11546, carries a differently worded translation of this
+    XII, lines 11396-11545 (corrected 2026-09-08, records/alx audit, round 2: end of range
+    was 11546, which is actually Epistle XIII''s own opening div; Epistle XII ends at 11545),
+    carries a differently worded translation of this
     passage, e.g. "Certainly very many of our brethren... did not spare
     themselves, but kept by each other, and visited the sick" vs. the npnf201
     wording quoted in text)'

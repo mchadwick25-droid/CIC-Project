@@ -23,7 +23,9 @@ sources:
   locus: passim
   license: public-domain
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: "VII.24 (Nepos's Refutation of Allegorists and Dionysius's three-day disputation at Arsinoe)"
+  locus: "VII.24 (Nepos's Refutation of Allegorists and Dionysius's three-day disputation at Arsinoe); VI.19
+    (Porphyry's own words against Origen's allegorical method, quoted by Eusebius -- restored 2026-09-08,
+    records/alx audit round 2, see body)"
   license: public-domain
 retrieval:
   tier: 1
@@ -58,7 +60,8 @@ quick_meaning: Reading Scripture for its deeper senses as well as the plain one.
 distortion_risk: high
 ---
 CONTEST (stated, per the lexicon discipline): contested from WITHIN
-Egyptian Christianity (alx.contested.allegory-from-within - Nepos).
+Egyptian Christianity (alx.contested.allegory-from-within - Nepos) and
+from outside (Porphyry, HE VI.19 - see corrected note below).
 Modern hearing: 'reading into the text.'
 World hearing: reading all the way down. Author-gravity: the
 systematized method is Origen-concentrated (the standing flag).
@@ -69,8 +72,19 @@ argument, not decree") was cited only to Philocalia I and Stromateis
 passim, neither of which carries this episode; it is Eusebius, HE
 VII.24, now added to sources at that locus - "sitting with them from
 morning till evening for three successive days, I endeavored to
-correct what was written in it." The closing note's "and from outside
-(Porphyry)" had no vendored source in this corpus discussing Porphyry's
-critique of allegorical reading (checked across cic/texts/*.xml and
-*.txt) and has been removed rather than left uncited. The Philocalia I
-claim itself was found clean and is unchanged.
+correct what was written in it." The Philocalia I claim itself was
+found clean and is unchanged.
+
+corrected 2026-09-08, records/alx audit, round 2: an intermediate fix
+removed "and from outside (Porphyry)" from the CONTEST line on a claim
+that no vendored source discusses Porphyry's critique of allegory. That
+was wrong - Eusebius, HE VI.19 (npnf201, div `iii.xi.xix`, lines
+34975-34985), quotes Porphyry by name attacking exactly this method:
+"Some persons, desiring to find a solution of the baseness of the
+Jewish Scriptures rather than abandon them, have had recourse to
+explanations inconsistent and incongruous with the words written...
+For they boast that the plain words of Moses are enigmas, and regard
+them as oracles full of hidden mysteries" - followed immediately by "I
+refer to Origen, who is highly honored by the teachers of these
+doctrines." The claim is restored, cited to HE VI.19, now added to
+sources alongside VII.24.

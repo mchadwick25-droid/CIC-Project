@@ -62,9 +62,12 @@ senses:
     carries real risk of over-reading his own sources; Clement and Gregory Thaumaturgus attest the
     teaching relationship itself, independent of any institutional claim. Didymus''s own place in the
     line is not attested in Eusebius''s vendored text itself (corrected 2026-09-08, records/alx audit -
-    every "Didymus" occurrence in the vendored npnf201 is either inside McGiffert''s own editorial note
-    apparatus, not ancient text, or refers to a different Didymus, the addressee of Dionysius''s letters
-    at HE VII.11/VII.20); Didymus is instead attested here by Socrates, HE IV.25, Palladius, Lausiac
+    every "Didymus" occurrence in the vendored npnf201 is either inside the volume''s editorial apparatus
+    (McGiffert''s own notes, or Jerome quoted within the Prolegomena''s testimonia section -- refined
+    2026-09-08, records/alx audit, round 2, since one occurrence, npnf201 line 5785, is Jerome''s own
+    words quoted there, not McGiffert''s commentary; either way it is front-matter apparatus, not
+    Eusebius''s own History text), not ancient History text itself, or refers to a different Didymus, the
+    addressee of Dionysius''s letters at HE VII.11/VII.20); Didymus is instead attested here by Socrates, HE IV.25, Palladius, Lausiac
     History ch. IV, and Jerome, De Viris Illustribus 109.'
   personal: A student who found a teacher whose formed wisdom they could see, and read Scripture beside
     them, was genuinely being taught - whatever the answer to the institutional question turns out to be.

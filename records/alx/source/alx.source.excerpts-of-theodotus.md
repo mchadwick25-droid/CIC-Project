@@ -26,7 +26,11 @@ sources: []
 author: "Uncertain. Traditionally bound as an appendix to Clement of Alexandria's works in this
   edition, but the ANF editor's own headnote judges the ascription to Clement doubtful: 'these
   excerpts... are alike corrupt or forged documents, for which Clement's name has been borrowed'; the
-  editor's own guess is a Montanist compiler, not Clement, and not Theodotus."
+  editor's own best guess is a Montanist compiler, not Clement -- though the editor does not rule out a
+  Theodotus, only rules out identifying which one: 'it is hard to say precisely who of three or four
+  named Theodotus (all heretics), may have made the compilation' (corrected 2026-09-08, records/alx
+  audit, round 2: this field previously stated flatly 'not Theodotus,' overstating the headnote's own
+  hedge)."
 work: "Eclogae Propheticae (Selections from the Prophetic Scriptures) - a set of notes on scriptural
   texts, printed in this edition under the running title 'Excerpts of Theodotus; or, Selections from
   the Prophetic Scriptures' and often cited as 'the Eclogues.' Corrected 2026-09-08, records/alx audit:

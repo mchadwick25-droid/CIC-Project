@@ -36,7 +36,7 @@ text: 'Palladius came to Alexandria late in the fourth century and visited Didym
   years. The teacher was old, and blind, and had been blind since he was four - too young ever to have
   learned letters. He had never seen a written word of the Scripture he taught. What others took in with
   their eyes he had taken in through his ears and held: the whole of Scripture
-  in memory, weighed and ordered. Jerome called him, in contrast to his blindness, the seer. He died at
+  in memory, weighed and ordered. Later tradition remembers Jerome calling him, in contrast to his blindness, the seer. He died at
   eighty-five. He told Palladius himself the age at which he was blinded.'
 absent_detail: 'What Didymus''s lessons were actually like - his classroom, his methods hour to hour -
   Palladius does not record; and Didymus''s own books, which survived him, are lost to us except in fragments
@@ -46,7 +46,11 @@ absent_detail: 'What Didymus''s lessons were actually like - his classroom, his 
   in npnf203''s Rufinus''s Apology, line ~48652, where Rufinus ventriloquizes Jerome, ''Didymus the seeing
   ... prophet, both of them my teachers'', with the NPNF editor''s own endnote, ''Jerome... delights in
   calling him, in contrast to his blindness, the Seer.'' This record no longer cites locus 109 for this
-  claim and states it unlocated within the sources block).'
+  claim and states it unlocated within the sources block. Corrected 2026-09-08, records/alx audit, round
+  2: the text field still flatly attributed the epithet to Jerome himself, resting on Rufinus''s later
+  ventriloquism of him plus an NPNF editor''s own endnote - neither is Jerome''s own primary text, the
+  same evidence class alx.figure.didymus treats as insufficient for a flat claim elsewhere in this
+  registry. The text field now attributes it to "later tradition," matching that standard.).'
 modern_contrast: >
   A modern reader may hear this as an 'overcoming disability' narrative - a
   blind man impressively compensating for a deficit. This world's own record

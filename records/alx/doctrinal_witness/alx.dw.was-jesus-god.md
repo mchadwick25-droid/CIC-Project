@@ -21,18 +21,31 @@ sources:
   license: public-domain
 - source_id: alx.source.origen-comm-john
   locus: >-
-    I-II ("God the Word" - re-scoped 2026-09-08, records/alx audit: this
+    I-II (the Origen half of "God the Word" - re-scoped 2026-09-08, records/alx audit: this
     locus was previously also implied to support the baptismal-formula
     claim below, which it does not contain; it does directly support
-    "Clement and Origen say 'God the Word' without embarrassment," e.g.
+    "God the Word," e.g.
     Book I line 20565, Book II lines 22572/23276)
+  license: public-domain
+- source_id: alx.source.clement-paidagogos
+  locus: >-
+    I (the Clement half of "God the Word" - added 2026-09-08, records/alx audit, round 2:
+    the claim named both Clement and Origen but only an Origen source was cited; Paed. I
+    reads "it has also called Him - God the Word - who became man for our sakes,
+    and who wished in all points to be made like to us" (anf02 line 19255))
   license: public-domain
 - source_id: alx.source.athanasius-ad-afros
   locus: >-
-    line ~60968 (the triadic baptismal confession - added 2026-09-08,
+    11 (the triadic baptismal confession - added 2026-09-08,
     records/alx audit: this claim was previously cited to de-decretis 19-21
     and origen-comm-john I-II, neither of which contains the baptismal
-    formula; ad-afros is the correct, newly-created source record for it)
+    formula; ad-afros is the correct, newly-created source record for it.
+    Corrected 2026-09-08, records/alx audit, round 2: locus tightened from
+    the vendored-file line number "line ~60968" to the work's own section
+    number, "11" - the passage falls under Ad Afros's own heading "11.
+    Godhead of the Spirit also involved in the Nicene Creed," npnf204 line
+    60954 - matching how every sibling source in this file is cited by the
+    work's own division, not the file's line number)
   license: public-domain
 retrieval:
   tier: 1

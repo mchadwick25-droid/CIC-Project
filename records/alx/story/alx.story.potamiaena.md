@@ -72,8 +72,9 @@ vendored source contradicts. The NPNF201 editorial note at the head of
 HE VI.5 (line ~32928) states: "Potamiæna... is made by Rufinus a disciple
 of Origen, but Eusebius does not say that she was, and indeed, in making
 Basilides the seventh of Origen's disciples to suffer, he evidently
-excludes Potamiæna from the number." The chapter text itself (line
-~32961) confirms it is Basilides, not Potamiaena, who is counted among
+excludes Potamiæna from the number." The chapter text itself (lines
+32953-32954, corrected 2026-09-08, records/alx audit, round 2, from an
+earlier "~32961") confirms it is Basilides, not Potamiaena, who is counted among
 Origen's disciples: "Basilides may be counted the seventh of these. He
 led to martyrdom the celebrated Potamiæna." The opening sentence is
 corrected to place only Basilides in Origen's circle, and to keep

@@ -20,6 +20,11 @@ sources:
 - source_id: alx.source.dionysius-extant-fragments
   locus: the letters to other sees
   license: public-domain
+- source_id: alx.source.clement-stromateis
+  locus: 'II.3-8 (added 2026-09-08, records/alx audit, round 2, for "Gnostic schools": Clement names
+    and answers "the followers of Basilides" and "the followers of Valentinus" by name repeatedly
+    through these chapters, e.g. anf02 lines 32104-32722)'
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
@@ -58,4 +63,13 @@ Manichaeans. A vendored mention of Manichaean presence in Egypt does exist
 (ANF06's Introductory Notice to Archelaus, line ~17696), but anf06's
 Archelaus material has no source record in this registry and was not what
 this file cited. "Gnostic schools" and "after 318 the Arian churches" are
-retained, both supported.
+retained.
+
+CORRECTED 2026-09-08, records/alx audit, round 2: the note above asserted
+"'Gnostic schools' ... retained, ... supported" without actually testing
+it - applying the same locus test used for "Manichaean missions," neither
+the Festal Letters nor Dionysius's fragments mentions Gnostics, Valentinus,
+or Marcion by name either. alx.source.clement-stromateis (II.3-8, where
+"the followers of Basilides" and "the followers of Valentinus" are named
+and answered repeatedly) is now added to sources above to actually support
+"Gnostic schools."

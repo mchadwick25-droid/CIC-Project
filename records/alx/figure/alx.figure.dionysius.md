@@ -41,8 +41,10 @@ by patient teaching) is the world's best story of disagreement handled
 inside the household - see alx.contested.allegory-from-within.
 
 corrected 2026-09-08, records/alx audit: line pointer previously read
-"~line 41290," which is the Nepos identification/introduction (Dionysius's
-Refutation of Allegorists is correctly placed at ~line 41293 elsewhere),
+"~line 41290," which is the Nepos identification/introduction (Nepos's
+Refutation of Allegorists is correctly placed at ~line 41293 elsewhere
+- corrected 2026-09-08, records/alx audit, round 2: this note itself had
+misattributed the book to Dionysius rather than Nepos, its actual author),
 not the conference narrative itself. The "three successive days" and
 Coracion material - the conference proper - runs at npnf201 lines
 41343-41382; the pointer now spans that range.

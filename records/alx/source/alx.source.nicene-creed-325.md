@@ -15,7 +15,7 @@ confidence:
 sources: []
 author: "The bishops assembled at the Council of Nicaea, 325 CE"
 work: "The Creed of Nicaea (325) - the original, pre-Constantinopolitan creed text (as distinct from the expanded Niceno-Constantinopolitan Creed of 381), preserved in the Acts of the Ecumenical Councils of Ephesus and Chalcedon, in the Epistle of Eusebius of Caesarea to his own Church, in the Epistle of Athanasius Ad Jovianum, and in the Ecclesiastical Histories of Theodoret and Socrates"
-edition: "trans. Henry R. Percival, Nicene and Post-Nicene Fathers ser. 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml - creed text at div id=\"vii.iii\" (\"The Nicene Creed\"), paragraph vii.iii-p7, lines 2408-2429; the \"of one substance (homoousion, consubstantialem) with the Father\" formula at line 2412"
+edition: "trans. Henry R. Percival, Nicene and Post-Nicene Fathers ser. 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml - creed text at div id=\"vii.iii\" (\"The Nicene Creed\"), paragraph vii.iii-p7, lines 2408-2429; the \"of one substance (homoousion, consubstantialem) with the Father\" formula spans lines 2412-2413 (corrected 2026-09-08, records/alx audit, round 2: previously given as line 2412 alone, which cuts the formula off at the open parenthesis)"
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "found by the records/alx audit, 2026-09-08: several term records quoted the phrase 'of one substance with the Father' from the Creed of Nicaea but had no dedicated source record for it, citing De Decretis (npnf204) instead, which does not contain this exact phrase"
@@ -29,20 +29,26 @@ WHAT THIS IS FOR. This record grounds the Nicene "of one substance"
 formula precisely, so that term records quoting it are not left citing
 De Decretis (alx.source.athanasius-de-decretis) or other later
 Athanasian works, which discuss and defend the term but do not
-reproduce the creed's own wording verbatim. The exact vendored text, at
-line 2412, reads: "not made, being of one substance (ὁμοούσιον,
-consubstantialem) with the Father." This is the phrase to cite for any
-claim quoting "of one substance with the Father" as the Nicene
-formula itself, rather than as later commentary on it.
+reproduce the creed's own wording verbatim. The exact vendored text,
+spanning lines 2412-2413, reads: "not made, being of one substance
+(ὁμοούσιον, consubstantialem) with the Father." This is the phrase to
+cite for any claim quoting "of one substance with the Father" as the
+Nicene formula itself, rather than as later commentary on it.
 
 VERSION CAUTION - 325, NOT 381. This is the original creed of the
 Council of Nicaea (325), not the later Niceno-Constantinopolitan Creed
-of 381. The two differ in several places. Notably, at line 2415, the
-vendored text itself brackets the words "[from heaven]" in "came down
-[from heaven] and was incarnate" - editorial brackets marking a phrase
-supplied from later tradition rather than present in the 325 text as
-such. (The fuller Constantinopolitan expansion, "who for us men and
-for our salvation came down from heaven, and was incarnate by the Holy
-Spirit of the Virgin Mary," is not this text.) Any claim that depends
-on wording specific to the 381 form should NOT be cited to this
-record.
+of 381. The two differ in several places, though less than this note
+previously suggested (corrected 2026-09-08, records/alx audit, round 2:
+see below). At line 2415, the vendored text brackets the words "[from
+heaven]" in "came down [from heaven] and was incarnate" - but this is
+the SAME kind of editorial bracket the edition uses twice more in the
+same sentence, at line 2417 ("[we believe] in the Holy Ghost") and line
+2419 ("of a different substance or essence [from the Father]") - all
+three are ordinary translator-supplied connective words, not a marker
+specific to later doctrinal tradition. The genuine, substantive
+difference from the 381 form is length and content, not this bracket:
+the fuller Constantinopolitan expansion, "who for us men and for our
+salvation came down from heaven, and was incarnate by the Holy Spirit
+of the Virgin Mary," with its additional clauses on the Spirit, is not
+in this text at all. Any claim that depends on wording specific to the
+381 form should NOT be cited to this record.
