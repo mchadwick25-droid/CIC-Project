@@ -3275,9 +3275,9 @@ per Mark's earlier instruction, the same "fuller, picture-and-story-
 driven explanation" treatment as Interview, rather than remaining
 link-only stubs from the homepage).
 
-**Not yet decided:** whether the nav's visible label for the timeline
-page reads "Timeline" (matching the new working name) or keeps
-"Map" as it reads live today - open, asked, not yet answered.
+**Decided:** the nav's visible label for the timeline page reads
+"Timeline," not "Map" - Mark's reasoning: it "captures the 2000 years
+and eras better."
 
 **Not yet built:** none of this is implemented in `cic-website/`
 yet - everything above exists only as reviewed HTML/CSS mockups in the
