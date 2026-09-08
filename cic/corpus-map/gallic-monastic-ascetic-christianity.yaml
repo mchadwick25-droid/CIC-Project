@@ -3,6 +3,69 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: gallic-monastic-ascetic-christianity
 works:
+- work: On Rebuke and Grace (De correptione et gratia)
+  author: augustine
+  locus: div1 20 — A Treatise on Rebuke and Grace
+  role: tradition
+  confidence: provisional
+  note: '426/427, addressed to Hadrumetum (North Africa), not to Gaul — the doubt is whether
+    the gallic-monastic-ascetic-christianity id should stand on addressee grounds alone; latin-pastoral-congregational-christianity
+    is not in doubt. Assigned here provisionally because this is the treatise whose circulation
+    provoked the Gallic monks'' own pastoral objections (reported to Augustine by Prosper
+    of Aquitaine and Hilary of Arles) that div1 21''s two treatises directly answer — the
+    opponent side of that world''s own Gravity Discovery (Doc_04) needs this as the provoking
+    text, not only the two replies. Re-pointed 2026-09-08 for the Gallic monastic-ascetic
+    entry (era 2, c. 360-450), added 2026-08-26.
+
+    '
+  source_file: npnf105_augustine-anti-pelagian-writings.xml
+- work: On the Gift of Perseverance (De dono perseverantiae)
+  author: augustine
+  locus: div1 21, div2 type=Book 'A Treatise on the Gift of Perseverance' (structure path
+    21.3)
+  role: tradition
+  confidence: assigned
+  note: '428/429, the companion and continuation of De praedestinatione sanctorum, transmitted
+    as a separate work; the div2 is itself titled ''A Treatise''. Second half of the div1
+    21 split. Re-pointed 2026-09-08 on the same basis as the Predestination treatise above
+    — addressed to the same Prosper/Hilary of Arles audience, same controversy.
+
+    '
+  source_file: npnf105_augustine-anti-pelagian-writings.xml
+- work: On the Predestination of the Saints (De praedestinatione sanctorum)
+  author: augustine
+  locus: div1 21, Book I (structure path 21.2) — under the volume heading 'A Treatise on the
+    Predestination of the Saints'
+  role: tradition
+  confidence: assigned
+  note: '428/429, to Prosper and Hilary against the objections of the Gallic monks. NPNF prints
+    two distinct treatises under one div1; this is the first. Split per the granularity rule
+    for headings holding several distinct works. Re-pointed 2026-09-08: directly addressed
+    to Prosper of Aquitaine and Hilary of Arles, Gallic monks of the Marseilles/Lérins circle
+    — the opponent''s-side documentation of the Gallic monastic-ascetic entry''s own controversy
+    over grace and predestination (era 2, c. 360-450, added to the census 2026-08-26).
+
+    '
+  source_file: npnf105_augustine-anti-pelagian-writings.xml
+- work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
+  author: cassian
+  locus: div2 4.7 — The Seven Books on the Incarnation
+  role: tradition
+  confidence: assigned
+  note: 'Audit finding F-24: vendored and read by no world, while desert answers every Christology
+    question from a single source. This is the desert tradition''s own author writing Christology
+    - assigned to desert to widen exactly that base - and it was commissioned in Rome by the
+    archdeacon Leo in 430 as part of the Western church''s response to Nestorius on the eve
+    of Ephesus, which is ijc''s world. Re-pointed 2026-09-08: same author-tradition basis
+    as the Institutes and Conferences rows above - Cassian''s own authored corpus, written
+    while he led the Marseilles houses, belongs to the Gallic monastic-ascetic entry (era
+    2, c. 360-450) even though its content is Christological rather than about Gallic monastic
+    life directly. The case document that surfaced the entry (CASE-gallic-monasticism.md)
+    counted this work in Cassian''s own 364,648-word figure but the corpus map had not yet
+    been re-pointed to match.
+
+    '
+  source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: The Conferences of John Cassian
   author: cassian
   locus: div2 4.4-4.6 — Conferences I-XXIV (three parts, one work)
@@ -87,6 +150,23 @@ works:
     doubt as the Life of St. Martin. Re-pointed 2026-08-26: the Gallic gap this flagged is
     closed - gallic-monastic-ascetic-christianity (era 2, c. 360-450) was added to the census
     on record, and this work now names it rather than the Merovingian entry it antedates.'
+  source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+- work: The Sacred History (Chronica)
+  author: sulpiciusseverus
+  locus: div2 2.6 — The Sacred History of Sulpitius Severus
+  role: tradition
+  confidence: assigned
+  note: 'World chronicle to c. 400 whose second book carries the fullest near-contemporary
+    narrative of the Priscillianist affair - the trial and execution at Trier under Maximus,
+    the first death sentence for heresy carried out by a Christian emperor. Church-and-state
+    material squarely inside the built ijc world''s window. Re-pointed 2026-09-08: also this
+    author''s own corpus for the Gallic monastic-ascetic entry (era 2, c. 360-450, added to
+    the census 2026-08-26) - same author-tradition basis already carrying his other three
+    works (Life of Martin, Dialogues, Doubtful Letters/Letters) into that bucket; the case
+    document that surfaced the entry (CASE-gallic-monasticism.md) counted this work in Sulpitius''
+    own 109,539-word figure but the corpus map had not yet been re-pointed to match.
+
+    '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: The Commonitory of Vincent of Lerins
   author: vincent_lerins

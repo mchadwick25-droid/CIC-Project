@@ -158,11 +158,21 @@ assignments:
     atlas_ids:
       - pelagianism
       - latin-pastoral-congregational-christianity
+      - gallic-monastic-ascetic-christianity
     role: tradition
-    confidence: assigned
+    confidence: provisional
     note: >
-      426/427, also to Hadrumetum, sequel to div1 19 on correction,
-      perseverance and predestination.
+      426/427, addressed to Hadrumetum (North Africa), not to Gaul — the
+      doubt is whether the gallic-monastic-ascetic-christianity id should
+      stand on addressee grounds alone; latin-pastoral-congregational-christianity
+      is not in doubt. Assigned here provisionally because this is the
+      treatise whose circulation provoked the Gallic monks' own pastoral
+      objections (reported to Augustine by Prosper of Aquitaine and Hilary
+      of Arles) that div1 21's two treatises directly answer — the opponent
+      side of that world's own Gravity Discovery (Doc_04) needs this as the
+      provoking text, not only the two replies. Re-pointed 2026-09-08 for
+      the Gallic monastic-ascetic entry (era 2, c. 360-450), added
+      2026-08-26.
 
   - work: "On the Predestination of the Saints (De praedestinatione sanctorum)"
     author: augustine
@@ -170,13 +180,18 @@ assignments:
     atlas_ids:
       - pelagianism
       - latin-pastoral-congregational-christianity
+      - gallic-monastic-ascetic-christianity
     role: tradition
     confidence: assigned
     note: >
       428/429, to Prosper and Hilary against the objections of the Gallic
       monks. NPNF prints two distinct treatises under one div1; this is the
       first. Split per the granularity rule for headings holding several
-      distinct works.
+      distinct works. Re-pointed 2026-09-08: directly addressed to Prosper
+      of Aquitaine and Hilary of Arles, Gallic monks of the
+      Marseilles/Lérins circle — the opponent's-side documentation of the
+      Gallic monastic-ascetic entry's own controversy over grace and
+      predestination (era 2, c. 360-450, added to the census 2026-08-26).
 
   - work: "On the Gift of Perseverance (De dono perseverantiae)"
     author: augustine
@@ -184,9 +199,13 @@ assignments:
     atlas_ids:
       - pelagianism
       - latin-pastoral-congregational-christianity
+      - gallic-monastic-ascetic-christianity
     role: tradition
     confidence: assigned
     note: >
       428/429, the companion and continuation of De praedestinatione
       sanctorum, transmitted as a separate work; the div2 is itself titled
-      'A Treatise'. Second half of the div1 21 split.
+      'A Treatise'. Second half of the div1 21 split. Re-pointed
+      2026-09-08 on the same basis as the Predestination treatise above —
+      addressed to the same Prosper/Hilary of Arles audience, same
+      controversy.
