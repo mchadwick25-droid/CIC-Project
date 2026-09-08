@@ -89,6 +89,25 @@ check at B-1b, not a blocker for Phase A. No source in this world's citable wind
 paywalled, physical-only, or otherwise genuinely inaccessible — nothing to escalate under V3's
 narrowed G1 exception.
 
+**Further leads located and rights-checked (sibling session, 2026-09-08), not yet vendored — ready
+for Doc_02's own intake pass, not chased mid-Doc_01-review:**
+
+| work | author | where | rights | note |
+|---|---|---|---|---|
+| *De Gratia* (2 books) | Faustus of Riez | archive.org `corpusscriptorum21fausuoft` (CSEL 21, Engelbrecht 1891) | public domain (`NOT_IN_COPYRIGHT`), independently re-verified by this build thread — see Doc_01 §2.4 | Latin only; second-witness rule applies |
+| *De Contemptu Mundi* | Eucherius of Lyon | `ccel.org/ccel/eucherius/contempt/contempt.i.html` (tr. Henry Vaughan, 1654) | public domain, CCEL's own page states so plainly | **English** — a genuine third Lérins-insider voice alongside Cassian and Vincent, different genre (epistolary renunciation essay); whether the CCEL page is complete or excerpted was not confirmed and should be checked at intake |
+| *De Laude Eremi* (to Hilary of Arles, c. 428) | Eucherius of Lyon | archive.org `patrologiae_cursus_completus_lat_vol_050` (Migne PL 50, 1846), line 57093 of the OCR text | public domain (CC Public Domain Mark, genuine Google Books scan, verified) | Latin only |
+| *Sermo de Vita Sancti Honorati* (Life of Honoratus, Lérins' founder) | Hilary of Arles | same Migne PL 50 volume, line 102068 (indexed at 101883) | same volume, same rights basis | Latin only; this world currently has **zero** Lérins-founding narrative in the primary corpus — this is the direct from-inside counterpart to Sulpitius's *Life of Martin*. Same volume carries further Hilary of Arles material near line 102186 worth mapping at intake |
+| *Carmen de Ingratis* | Prosper of Aquitaine | archive.org `sanctiprosperiaq00prosuoft` (*Opera omnia*, Venice 1744), lines ~13774–18246 | public domain (`NOT_IN_COPYRIGHT`, University of Toronto scan) | Latin only |
+| *Pro Augustino Responsiones* (= the *Responsiones ad Capitula* material later split by Migne) | Prosper of Aquitaine | same 1744 volume, lines ~19728–24516 and 87156 | same volume, same rights basis | Latin only; this older edition's internal division may not map one-to-one onto Migne's modern sub-titles — confirm at intake |
+
+Together with Faustus, these give this world's own predestination controversy a genuinely three-sided
+primary-source record once vendored: Augustine's treatises (outside rebuttal, already in hand),
+Faustus (the Gallic monks' own defense), and Prosper (the Gallic-born dissenter arguing *for*
+Augustine against his own milieu) — plus, independent of the controversy, Lérins' own founding
+narrative (Hilary of Arles on Honoratus) and a third insider ascetic voice (Eucherius). None of this
+is vendored yet. It is Doc_02's own intake queue, not this document's to execute mid-Doc_01-review.
+
 ---
 
 ## Part C — Corpus-map re-pointing done this session (2026-09-08)
