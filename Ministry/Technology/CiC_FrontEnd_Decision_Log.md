@@ -3176,3 +3176,120 @@ no console errors); link-checker clean.
 
 None from this thread on the homepage section titles. Support and
 About remain next once Mark is ready to write their own material.
+
+## 2026-09-08 (later still) — Homepage information architecture
+settled: five named platforms, each its own page; site nav expanded
+
+Starting point: Mark's own observation that the text-heavy homepage
+"doesn't engage," followed by an explicit standing instruction not to
+use the project's past decisions as justification for anything in this
+thread - "this is a new build built on research, that is the
+influencing factor." Everything below is grounded in Research/01,
+02, 03, 05, and a newly commissioned Research/06 (horizontal-scroll
+storytelling), not in prior rulings.
+
+**Research/06 commissioned and landed** (Fable, model-routing per
+prior briefs): does a horizontal-scroll or slideshow treatment work
+for the story? Finding: full-page horizontal "scrolljacking" fails
+usability testing consistently (Nielsen 2002 through a 2026
+peer-reviewed study, n=20, on accuracy and satisfaction) and the
+successes on record are cases where sideways motion *is* the content's
+meaning (a timeline, a distance) - not this site's case. A **contained
+gallery inside the normal vertical page** (visible prev/next, a
+peeking next panel, a count, no autoplay, no takeover) is a different
+and well-supported pattern: both Apple's HIG and Material 3 treat it
+as a standard component, WCAG permits it given real controls. Ruling:
+build the contained gallery, never a takeover. Filed at
+`Ministry/Features/Website-V2/Research/06-horizontal-scroll-storytelling.md`.
+
+**Five things, named for clarity** (Mark's own terms, working names -
+not necessarily final site copy):
+- **Interview platform** - the chairs/portraits grid; one voice, one
+  visitor; primary, cheapest to run (~$0.35/hr), closest to the
+  project's own name.
+- **Multi-voice conversation platform** ("the Table") - up to three
+  voices at once; secondary, costlier (~$0.75/hr); `table.html`
+  already exists.
+- **Scrolling timeline platform** ("the Atlas") - 290+ traditions,
+  free, no conversation; `atlas-v3.html` already exists, live in nav
+  today as "Map."
+- **The Story** - "The Unfolding Story," the ~300-word narrative;
+  homepage section only today, no standalone page.
+- **The Stripe ask** ("Contribution" / "Get Involved") -
+  `support.html` already exists and is already in nav.
+
+**Homepage shape settled**, built through iterative mockups reviewed
+directly by Mark (screenshots, not just described) rather than shipped
+blind:
+- Desktop: a three-column top band - multi-voice platform (left,
+  narrow) / the Story (center, dominant, carries the real hook line
+  and a horizontal image gallery per Research/06's contained-gallery
+  pattern) / scrolling timeline (right, narrow) - then the Interview
+  chairs full-width beneath (unchanged era-grouped, horizontally-
+  scrolling-per-era pattern), then the Stripe ask as the closing
+  section, matching Research/01's "ask last and small" finding
+  (charity: water's model).
+- Phone: single column, order **Story -> Interview -> multi-voice ->
+  scrolling timeline -> Stripe ask** (Mark's explicit ruling). This
+  independently satisfies Research/05's progressive-disclosure finding
+  (Interview, the cheap/primary mode, ranks above the costlier
+  multi-voice mode) even though the desktop band's left/right placement
+  doesn't strictly carry the same hierarchy - a known, accepted
+  trade-off, not an oversight, since Mark confirmed the wide-screen
+  layout is fine as shown.
+- One real, named tension surfaced and left to Mark to weigh (not
+  resolved by fiat): putting the multi-voice platform prominently
+  beside the Story at the top, while Interview sits below, inverts the
+  cost-based hierarchy Research/05 recommended (Interview first,
+  multi-voice as the subordinate "advanced mode"). This is mostly a
+  layout-fit artifact - the multi-voice platform's single-image "door"
+  card fits a narrow flanking column; the Interview grid's multiple
+  portraits, grouped by era, do not - not a deliberate re-ranking.
+  Mark accepted the desktop trade-off as shown.
+- The homepage's own long-text engagement problem (the original
+  question that started this whole thread) resolved as: keep full
+  prose text off the homepage entirely. A short lead-in plus the
+  Research/06 contained gallery carries the Story's presence there;
+  the complete "Unfolding Story," image-led, richly illustrated (real
+  sourced museum artifacts per Research/02 SS3.3, and/or commissioned
+  human illustration in a print idiom - Mark is open to either's
+  one-time cost), lives on the Story's own page instead. This also
+  independently fixes the "how many screens before the real
+  functionality" concern raised earlier in this thread, since a short
+  homepage lead-in is far shorter than the full illustrated essay
+  would have been if forced onto the homepage itself.
+
+**Site navigation settled:** Home - Story - Interview - Multi-voice -
+Scrolling timeline - Get Involved - About. "What's Next" is retired as
+its own nav destination; its content (new traditions added, features
+shipped) folds into a "Story updates" section on the Story page - the
+project's own growth treated as part of the unfolding story, not a
+separate changelog. "About" is kept as-is, unchanged.
+
+**Two new pages needed:** the Story (full text + real imagery + the
+folded-in updates section) and Interview (no standalone page exists
+today - launches go straight from a chair card into a conversation).
+Multi-voice and scrolling-timeline already have pages
+(`table.html`, `atlas-v3.html`) and mainly need a nav entry added (and,
+per Mark's earlier instruction, the same "fuller, picture-and-story-
+driven explanation" treatment as Interview, rather than remaining
+link-only stubs from the homepage).
+
+**Not yet decided:** whether the nav's visible label for the timeline
+page reads "Timeline" (matching the new working name) or keeps
+"Map" as it reads live today - open, asked, not yet answered.
+
+**Not yet built:** none of this is implemented in `cic-website/`
+yet - everything above exists only as reviewed HTML/CSS mockups in the
+session scratchpad (not committed to the repo) and this log entry.
+Actual implementation - the new homepage layout, the two new pages,
+the nav changes, real image sourcing or illustration commissioning -
+is still ahead once Mark confirms the nav-label question and gives the
+go-ahead to start building for real.
+
+### Next action
+
+Get the nav-label answer (Timeline vs. Map), then begin implementation
+- most likely the homepage restructure first, since its shape is the
+most fully settled, followed by the two new pages once Mark has
+written or approved their content.
