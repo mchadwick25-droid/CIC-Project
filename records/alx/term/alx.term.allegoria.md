@@ -79,12 +79,16 @@ corrected 2026-09-08, records/alx audit, round 2: an intermediate fix
 removed "and from outside (Porphyry)" from the CONTEST line on a claim
 that no vendored source discusses Porphyry's critique of allegory. That
 was wrong - Eusebius, HE VI.19 (npnf201, div `iii.xi.xix`, lines
-34975-34985), quotes Porphyry by name attacking exactly this method:
+34974-34987, corrected 2026-09-08, records/alx audit, round 3, from an
+earlier 34975-34985, which cut off before "Some persons, desiring" (line
+34974) and after "I refer to Origen" (line 34987)), quotes Porphyry by
+name attacking exactly this method:
 "Some persons, desiring to find a solution of the baseness of the
 Jewish Scriptures rather than abandon them, have had recourse to
 explanations inconsistent and incongruous with the words written...
 For they boast that the plain words of Moses are enigmas, and regard
-them as oracles full of hidden mysteries" - followed immediately by "I
+them as oracles full of hidden mysteries" - followed, after a short
+intervening editorial break ("Farther on he says:"), by "I
 refer to Origen, who is highly honored by the teachers of these
 doctrines." The claim is restored, cited to HE VI.19, now added to
 sources alongside VII.24.

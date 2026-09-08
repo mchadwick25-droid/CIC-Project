@@ -37,18 +37,32 @@ Nicene formula itself, rather than as later commentary on it.
 
 VERSION CAUTION - 325, NOT 381. This is the original creed of the
 Council of Nicaea (325), not the later Niceno-Constantinopolitan Creed
-of 381. The two differ in several places, though less than this note
-previously suggested (corrected 2026-09-08, records/alx audit, round 2:
-see below). At line 2415, the vendored text brackets the words "[from
-heaven]" in "came down [from heaven] and was incarnate" - but this is
-the SAME kind of editorial bracket the edition uses twice more in the
-same sentence, at line 2417 ("[we believe] in the Holy Ghost") and line
-2419 ("of a different substance or essence [from the Father]") - all
-three are ordinary translator-supplied connective words, not a marker
-specific to later doctrinal tradition. The genuine, substantive
-difference from the 381 form is length and content, not this bracket:
-the fuller Constantinopolitan expansion, "who for us men and for our
-salvation came down from heaven, and was incarnate by the Holy Spirit
-of the Virgin Mary," with its additional clauses on the Spirit, is not
-in this text at all. Any claim that depends on wording specific to the
-381 form should NOT be cited to this record.
+of 381. At line 2415, the vendored text brackets the words "[from
+heaven]" in "came down [from heaven] and was incarnate." This edition's
+own print of the 381 creed elsewhere in the same volume (npnf214 lines
+13380-13396) is useful comparison evidence, not proof of a single
+explanation: at that same clause, "came down from heaven" (line
+13386) is printed WITHOUT brackets, while "[we believe]" (lines
+13393 and 13396) KEEPS brackets there too - so this edition brackets
+"[from heaven]" only when printing the 325 text, never when printing
+the 381 text at the parallel clause, while it brackets "[we believe]"
+in both. That is a genuine, edition-internal distinction specific to
+"[from heaven]," worth flagging as a caution before any claim leans on
+this exact clause across the two creeds - but this record does not
+adjudicate why Percival bracketed it only here (translator smoothing,
+a manuscript question, or something else), only that he did, and that
+the fuller 381 wording ("who for us men and for our salvation came
+down from heaven, and was incarnate by the Holy Spirit of the Virgin
+Mary") is not in this 325 text regardless. The other two brackets in
+this passage - "[we believe]" (line 2418) and "[from the Father]"
+(lines 2423-2424, inside the anathema clause, a different part of the
+creed from the descent clause) - are not part of this caution; they
+are not shown by the 381 comparison to carry the same distinction.
+(Corrected 2026-09-08, records/alx audit, round 3: an intermediate
+version of this note claimed all three brackets were "the SAME kind of
+editorial bracket... ordinary translator-supplied connective words,"
+which both misstated two of the three line numbers - 2417 and 2419
+should have been 2418 and 2423-2424 - and asserted an interpretation
+the edition itself does not support once the 381 print is checked
+against it.) Any claim that depends on wording specific to the 381
+form should NOT be cited to this record.

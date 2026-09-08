@@ -59,7 +59,9 @@ if this followed from the three loci cited above - it does not. Palladius
 Lausiac IV calls him "the blind author" and describes four visits over ten
 years, with no school/tenure claim; Jerome De Viris 109 lists his works and
 his age ("has already passed his eighty-third year"), no school/tenure
-claim; Socrates HE IV.25 is a full chapter (npnf202 lines 13797-13845:
+claim; Socrates HE IV.25 is a full chapter (npnf202 lines 13797-13852, corrected 2026-09-08,
+records/alx audit, round 3, from an earlier end line of 13845, which stopped short of the
+chapter's actual close at "reasonings.":
 his blinding in childhood, his mastery of grammar, rhetoric, dialectics,
 arithmetic, and music, his three books on the Trinity, his commentaries
 on Origen's De Principiis, and Antony's "gnats and flies" saying to him)
