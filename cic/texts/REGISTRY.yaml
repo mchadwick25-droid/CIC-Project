@@ -948,3 +948,18 @@
     1904 transcription is born-digital, not OCR, and every one of its 27 books' chapter
     counts was checked against its independently known canonical count before this
     file was written.
+- filename: didymus-alexandria_de-trinitate-lat-grc_mingarelli1769.txt
+  supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), part of a
+    project-wide maturity-gap audit
+  date_added: '2026-09-08'
+  notes: >-
+    Mingarelli's 1769 editio princeps of Didymus of Alexandria's "De Trinitate,"
+    Greek text (from the sole surviving witness, the Passionei codex) with facing
+    Latin translation and critical notes. Verified directly: title page confirms
+    1769 publication (public domain, independent of scan source); "LIBER PRIMUS"
+    heading located and confirmed to carry real Greek/Latin bilingual text, not
+    only front-matter discussion. Closes a real gap in the Alexandria Catechetical
+    School world: Didymus is discussed at length in that world's Doc_02 Source
+    Ecology (§3.4) as a major figure but previously contributed zero primary text
+    to the vendored corpus. Greek OCR layer is disclosed as significantly garbled
+    in places; the Latin translation and notes OCR cleanly.

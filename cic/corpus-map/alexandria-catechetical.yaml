@@ -351,6 +351,22 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- work: De Trinitate (On the Trinity, Three Books)
+  author: didymus-alexandria
+  locus: Liber Primus onward, following Mingarelli's own Latin dissertation and prolegomena
+  role: tradition
+  confidence: assigned
+  note: 'Didymus''s own major surviving theological treatise, the sole witness to the Greek
+    text (Passionei codex), with Mingarelli''s own facing Latin translation — closes a real
+    gap this world''s own Doc_02 (§3.4) discloses: Didymus is discussed at length as a major
+    figure (head of the Alexandrian teaching tradition for roughly half a century) but previously
+    contributed zero primary text to this world''s vendored corpus. Mingarelli''s own critical
+    note at the Liber Primus opening independently cross-references Didymus''s other attested
+    work, "De Spiritu Sancto" (transmitted only via Jerome''s Latin translation, not itself
+    vendored here), as securely his own.
+
+    '
+  source_file: didymus-alexandria_de-trinitate-lat-grc_mingarelli1769.txt
 - work: Exegetical Fragments of Dionysius of Alexandria
   author: dionysius_gr
   locus: div2 4.4 - on Ecclesiastes, Luke, John; Of the One Substance; On the Reception of

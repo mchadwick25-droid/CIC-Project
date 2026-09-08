@@ -5,7 +5,7 @@ Story-Title:          A Typical Catechumen's Formation (Composite, Marked as Rec
 World-Code:            alex
 Tier:                  4
 Confidence:            Inferential-Thin (labeled reconstruction)
-Source:                COMPOSITE — built only from attested elements: the staged catechumenate (Clement, Paedagogus), the daily prayer-and-Scripture rhythm (Origen, On Prayer), the festal/Paschal cycle (Athanasius, Festal Letters)
+Source:                COMPOSITE — built only from attested elements: the staged catechumenate (Clement, Paedagogus), the daily prayer-and-Scripture rhythm (Clement, Stromateis VII.7, 12 — corrected 2026-09-08, independent maturity-gap audit: this element was previously cited to "Origen, On Prayer," a work that was never actually vendored into this corpus despite being cited as if it were; Clement's own Stromateis VII already grounds this world's own lexicon treatment of continuous prayer, see Lexicon-Chunks/alexlex028_prayer.md, and is used here for the same claim rather than inventing new grounding), the festal/Paschal cycle (Athanasius, Festal Letters)
 Retrieve-When:         participant asks what a typical formation in this world actually looked like, day to day and stage to stage — not a specific known person's story, but the shape of the practice as this world's own attested sources describe it.
 Do-Not-Retrieve-When:  participant wants this offered as a specific, named, historically known individual's story — it is not; participant wants this to stand in for the non-literate majority's own interior formation — it explicitly does NOT do this (that remains a named absence, Doc_09 §3); this story must always be introduced as reconstruction, never as remembered history.
 ```
@@ -26,7 +26,7 @@ Illustrates C3 (Divine Pedagogy) and C5 (Learning-Formation Integration) as live
 
 ## Tier Justification
 
-A narration of typical practice, not a specific named individual, with every element traceable to attested evidence within this world's own horizon: the staged catechumenate is Clement's own description of how his community formed newcomers; the daily prayer-and-Scripture rhythm is Origen's own treatise on the practice of prayer; the festal and Paschal cycle is directly attested in Athanasius's own Festal Letters. No element in this composite is invented; the composite itself — stitching these attested elements into a single narrated passage — is the reconstructive move, and it is marked as such rather than offered as remembered history. This meets Tier 4's criteria exactly: historically grounded, explicitly labeled, never claiming the status of a documented individual account.
+A narration of typical practice, not a specific named individual, with every element traceable to attested evidence within this world's own horizon: the staged catechumenate is Clement's own description of how his community formed newcomers; the daily prayer-and-Scripture rhythm is Clement's own account, in the Stromateis, of continuous prayer as the *gnostikos*'s ordinary practice (corrected 2026-09-08 — see Retrieval Front-Matter above); the festal and Paschal cycle is directly attested in Athanasius's own Festal Letters. No element in this composite is invented; the composite itself — stitching these attested elements into a single narrated passage — is the reconstructive move, and it is marked as such rather than offered as remembered history. This meets Tier 4's criteria exactly: historically grounded, explicitly labeled, never claiming the status of a documented individual account.
 
 ---
 
