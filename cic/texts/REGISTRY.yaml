@@ -1036,3 +1036,74 @@
     1327), and the Vandal capture of Carthage (a. 439, no. 1339) - fixing this world's own terminus
     with a second independent witness alongside Possidius's Vita Augustini. (For the Donatism
     world's own use of this same file, see that world's Registry row 21 - the Liber Genealogus.)
+- filename: augustine-confessiones-lat_knoll1896.txt
+  supplied_by: Fable research agent for sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Pius Knoll (ed.), S. Aureli Augustini Confessionum Libri XIII (CSEL 33, Vienna, 1896) - genuine
+    critical edition. Latin Pastoral-Congregational world's corpus map had assigned this from the
+    English NPNF101 translation only. Confirmed present: all 13 books by heading, opening line
+    ("Magnus es, domine, et laudabilis ualde"), Index Scriptorum.
+- filename: augustine-civitate-dei-1-lat_hoffmann1899.txt
+  supplied_by: Fable research agent for sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Emanuel Hoffmann (ed.), De Civitate Dei Libri XXII, Pars I: Libri I-XIII (CSEL 40.1, Vienna,
+    1899). Companion to augustine-civitate-dei-2-lat_hoffmann1900.txt. Corpus map had assigned from
+    NPNF102 English only. Confirmed present: Book I heading and opening line ("Gloriosissimam
+    ciuitatem Dei..."), Book XIII heading.
+- filename: augustine-civitate-dei-2-lat_hoffmann1900.txt
+  supplied_by: Fable research agent for sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Emanuel Hoffmann (ed.), De Civitate Dei Libri XXII, Pars II: Libri XIIII-XXII (CSEL 40.2, Vienna,
+    1900). Companion to Pars I. Confirmed present: Book XIIII heading and opening line, Book XXII
+    heading, Index Locorum.
+- filename: augustine-de-doctrina-christiana-lat_bruder1838.txt
+  supplied_by: Fable research agent for sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Carolus Hermannus Bruder (ed.), De Doctrina Christiana Libri Quatuor et Enchiridion ad
+    Laurentium (Tauchnitz, Leipzig, 1838) - the Maurist Benedictine text, NOT a modern critical
+    edition. IMPORTANT: CSEL 80 (Green, 1963) is the modern critical edition of this work and was
+    checked and confirmed IN COPYRIGHT ("(C) HOELDER-PICHLER-TEMPSKY KG., WIEN 1963") - must never be
+    vendored. Corpus map had assigned from NPNF102 English only. Confirmed present: title page, 1838
+    preface date, Book I argumentum, Book IV opening line. The Enchiridion ad Laurentium is a
+    separate work bound in the same file - internal boundary not yet marked precisely.
+- filename: augustine-enarrationes-in-psalmos-lat_migne1861.txt
+  supplied_by: Fable research agent for sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Migne (ed.), Enarrationes in Psalmos, complete (PL 36-37 bound in one scan, Paris, 1861 printing
+    of the 1681 Maurist text) - NOT a modern critical edition (CCSL 38-40 and CSEL 93-95 are, both in
+    copyright). Corpus map had assigned this ~695,000-word work (the largest single body in the
+    vendored corpus) from the English npnf108 translation only - no original-language witness
+    existed prior to this file. Confirmed present: both title pages (PL 36 and 37), Psalm 1's own
+    heading and opening line, Psalm 150's own heading and closing line.
+- filename: augustine-epistulae-1-lat_goldbacher1895-1898.txt
+  supplied_by: Fable research agent for sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Alois Goldbacher (ed.), S. Augustini Epistulae, Pars I (Ep. I-XXX, 1895) and Pars II (Ep.
+    XXXI-CXXIII, 1898), bound together (CSEL 34, Vienna). Companion to Pars III (CSEL 44) and Pars IV
+    (CSEL 57), vendored separately. Corpus map had split Augustine's letters (Jerome exchange vs.
+    general correspondence) using CSEL numbering as the reference scheme with no Latin text
+    previously vendored. Confirmed present: both title pages, Ep. 1's own heading/opening line, Ep.
+    123 with Jerome's own reply colophon.
+- filename: augustine-epistulae-3-lat_goldbacher1904.txt
+  supplied_by: Fable research agent for sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Alois Goldbacher (ed.), S. Augustini Epistulae, Pars III (Ep. CXXIV-CLXXXIVA, CSEL 44, Vienna,
+    1904). Companion to Pars I-II (CSEL 34) and Pars IV (CSEL 57). Confirmed present: title page, Ep.
+    124's own heading and opening line. Range includes Ep. 166-167 and 172, cited elsewhere in this
+    project's corpus map.
+- filename: augustine-epistulae-4-lat_goldbacher1911.txt
+  supplied_by: Fable research agent for sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Alois Goldbacher (ed.), S. Augustini Epistulae, Pars IV (Ep. CLXXXV-CCLXX, CSEL 57, Vienna,
+    1911). Companion to Pars I-II (CSEL 34) and Pars III (CSEL 44). Confirmed present: title page,
+    Ep. 185 (De Correctione Donatistarum, the same Correction of the Donatists already vendored in
+    English for the Donatism world) with its own opening line. Range includes Ep. 195 and 202, cited
+    elsewhere in this project's corpus map.
