@@ -59,7 +59,7 @@ Audited across all 292 entries in `atlas-v3.html`:
 | `voices` written as "Name — dash fragment" | **266 / 292** | The single most widespread pattern. Fixed only in pahc. |
 | Sentence-initial "And" used as a dramatic beat in Story/Legacy | **123** | The `And both were killed for it` shape. |
 | Verbless `Whether…`/`Who…`/`What…` fragment sentences in Story | **74** | The question-fragment list shape. |
-| Absolutes (`routinely`, `constant`, `always`, `never`, `only`) in Story/Legacy | **142** | Needs case-by-case evidence scoping, not blanket softening. |
+| Absolutes (`routinely`, `constant`, `always`, `never`, `only`) in Story/Legacy | **112** | Needs case-by-case evidence scoping, not blanket softening. |
 | `tile` on the "Place, dates — abstract descriptor" template | **6 of the 7 Built & Live** | Every Built & Live world except pahc. |
 | Triple-negation absolutes (`no X, no Y, and no Z`) | 6 | The opener shape that was fixed first. |
 | Stale `(disclosed on its tile)` pointer in `sourcing` | 2 (`syriac-edessa-nisibis`, `desert-monasticism`) | Same stale pointer removed from pahc in `35ab377a`. |
@@ -867,13 +867,22 @@ discretion)"):
 | Review + research | **Opus** | "Every adversarial review round (cross-model against BOTH other tiers — Opus reviews Sonnet's drafts and Fable's key components alike); blind battery grading; deep source research." |
 | Key components | **Fable** (subagent calls) | "Lexicon discovery and development…; story inventory + quote discovery and vetting (Doc_09, incl. the Absent Stories question) — **these demand the deepest, most inclusive searching and building, and discovery misses are invisible to every gate**; gravity discovery; forces synthesis; voice construction; Phase-D battery-fail diagnosis loops." |
 
-**Fable was adopted, not abandoned.** Three complete world builds ran on
-Fable branches and were merged: `origin/CiC-Fable-Cappadocian`,
-`origin/CiC-Fable-Desert`, `origin/CiC-Fable-EarlyCommunal` — full
-Doc_01→Doc_10 pipelines including Story Inventories with the Absent Stories
-question answered, Interpretive Lexicons, Forces Documents, and
-Representative Permanent Prompts. `origin/CiC-Fable-Experiment` carries a
-long validation-log sequence. That is a real track record on exactly this
+**Fable was adopted, not abandoned — but the branch evidence is thinner
+than a first pass suggested.** Three substantial world-build attempts exist
+on Fable branches — `origin/CiC-Fable-Cappadocian`, `origin/CiC-Fable-Desert`,
+`origin/CiC-Fable-EarlyCommunal` (68-72 commits each, last activity
+2026-07-03) — with real, substantial documents: Doc_01-06, Doc_09 (Desert's
+Story Inventory has an actual "Absent Stories" section), a Forces Document,
+a Voice Configuration / World Capsule Core, and a Representative Permanent
+Prompt, under filenames that don't follow a clean Doc_01→Doc_10 numbering
+(there is no Doc_07, Doc_08, or Doc_10 by that name on any of the three).
+**None of the three branches is merged into `main`**, and neither
+`World-Builds/Desert-Christianity/` nor `World-Builds/Early-Communal/`
+exists on `main` at all — the `desert` and `cappadocian` world-record sets
+that *are* live today under `records/` were not verified to have come from
+these specific branches. Treat these as real, substantial Fable output to
+learn from, not as shipped, adopted builds. `origin/CiC-Fable-Experiment`
+carries a long validation-log sequence. That is a real track record on exactly this
 project's material.
 
 **But the repo also records the criterion for when Fable does *not* pay**,
