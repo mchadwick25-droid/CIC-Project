@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources: []
 author: "Origen (c. 185-254 CE)"
-work: "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)"
+work: "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only (corrected 2026-09-08, records/alx audit, from this field's own 'books I-X' phrasing, which reads as a contiguous range and would license citing Books III, VII, VIII, or IX, none of which survive; the full commentary does not survive)"
 edition: "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
 rights_status: public-domain
 attribution_status: attributed
