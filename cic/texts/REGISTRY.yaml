@@ -984,3 +984,15 @@
     manuscript-history discussion and the Latin dialogue text itself ("Speratus dixit..."). This file
     also incidentally vendors Perpetua's own Latin and Greek Passion text, not itself requested for
     this world and not yet assigned in any corpus map.
+- filename: cyprian_vita-pontius-lat_hartel1871.txt
+  supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Guilelmus Hartel (ed.), S. Thasci Caecili Cypriani Opera Omnia, Vol. III Pars III: Opera Spuria
+    cum Indicibus et Praefatione (CSEL, Vindobonae, 1871). Target text is the Vita Caecilii Cypriani
+    (traditionally ascribed to Pontius the Deacon), already assigned in the Latin Pastoral-
+    Congregational corpus map from the English ANF05 translation only. Confirmed present this pass:
+    the Vita's own heading and opening line. Completes the CSEL 3 set alongside
+    cyprian_treatises-lat_hartel1868.txt (Pars I) and cyprian_epistulae-lat_hartel1871.txt (Pars II).
+    This volume also contains genuinely spurious/pseudo-Cyprianic works (the "Opera Spuria" proper)
+    and general indices for the whole edition - neither surveyed this pass.
