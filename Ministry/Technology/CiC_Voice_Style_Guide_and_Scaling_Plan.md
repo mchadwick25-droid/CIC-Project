@@ -8,6 +8,15 @@ Read this before touching any world's visitor-facing prose in
 and fixed in that pass, not from general advice about AI writing. Every
 anti-pattern carries the real before → after from the diff that fixed it.
 
+**Two companion documents this file draws on and points back to:**
+`CiC_Prose_Craft_Analysis.md` (a sentence-by-sentence measurement of the
+shipped Chloe text — sentence length, concreteness, term introduction,
+hedging, verb choice) and `CiC_Marks_Voice_Analysis.md` (Mark's own actual
+words extracted from the raw session transcript, not the polished output —
+his correction patterns, and a direct check of what survives from his
+input to shipped text). §1.1 below is this document's synthesis of both;
+read the originals for the full evidence.
+
 ---
 
 ## What this document governs, and what it does not
@@ -84,7 +93,138 @@ Two structural facts that shape everything in the Scaling section:
 
 # 1. Voice & Style Guide
 
-## 1.1 The exemplar, and the one test that generates the rest
+## 1.1 The generative target: Mark's review instinct, not an external standard
+
+Sections 1.2 onward are a diagnosed list of what got caught and fixed. This
+section is what you're actually generating toward — derived from two
+things, not from any outside comparison: a sentence-by-sentence
+measurement of the shipped Chloe text (`CiC_Prose_Craft_Analysis.md`), and
+a direct extraction of Mark's own words from this session's raw transcript,
+separate from anything polished (`CiC_Marks_Voice_Analysis.md`). Read both
+in full before drafting for a new world; what follows is their
+distillation, not a replacement for them.
+
+### The reframe that matters most
+
+The instinct is to ask "how do I make this sound like Mark." That's the
+wrong question. There is no clean evidence in this project's own
+transcript of Mark drafting long-form prose himself — his unmediated
+writing stays in short, typo-intact fragments throughout (4-24 words). The
+two paragraph-length "drafts" that looked at first like his own long-form
+writing turned out, on his own direct correction, to be **Gemini's**
+output, pasted in as a second AI's take. What they still prove, once
+correctly attributed, is more useful than what they seemed to prove at
+first: Mark caught and removed the exact same class of flourish from
+Gemini's draft that he catches from this assistant's — the same unhedged
+certainty, the same em-dash fragment habit, the same performing sentence
+(the Didache aside, cut with `yes the didache own story isn't about legacy
+of influence`) — using the same vocabulary (`clunky`, `ai tells`, `dramatic
+crap`) either time.
+
+**His drafting voice isn't the thing to replicate, because there's no
+clean sample of it at length. His review instinct is — and it's
+model-agnostic: it catches the same defects regardless of which AI
+produced the draft.**
+
+What actually survived from his raw input to shipped text at high
+fidelity, every time: his short sentences (one shipped with a single typo
+fix and nothing else), and his own typed corrections applied on top of
+someone else's draft — his or this assistant's. What got added and then
+removed, every time, was material that appeared during *expansion* —
+turning a 4-24 word instruction, or an AI's fluent paragraph, into a
+shipped field. That is where every AI-tell in this session actually
+originated.
+
+So the actual target is: **write the short, plain, true version of the
+idea first — expand it once, against the sources — then run the review
+pass below before it ships.** Every word beyond what the sources establish
+is a candidate for the exact defect this whole session existed to cut.
+
+### The five-question review pass, built from how Mark actually caught things
+
+The transcript shows a consistent shape to every correction he made
+(`CiC_Marks_Voice_Analysis.md` §3). Before shipping anything, run these
+five questions against it — they are not abstractions, they are literally
+the axis of his corrections, on Claude's drafts and Gemini's alike:
+
+1. **Is there a quantifier or modality word doing more work than the
+   sources support?** *Only, no, always, never, occasional, both were
+   executed.* This is the one class of problem he was always precise about
+   naming, because it's a truth error wearing a style problem's clothes.
+   ("held together *only* by" — the word is the whole defect. "*no* church
+   buildings" → "no *documented* church buildings.")
+2. **Did anything get added during expansion that isn't in the shortest
+   true version of this idea?** If you can't point to the source sentence
+   that put a given clause there, cut it. This is where "weary travelers,"
+   "was not so fortunate," and an unrequested "right now" in the `why`
+   field all came from. Highest-yield check available.
+3. **Is the closing sentence of this paragraph doing more than stating the
+   last fact?** The last sentence of a unit is the highest-risk position in
+   the whole text — it's where a drafting pass, from any source, reaches
+   for a beat, a flourish, a "gut-punch." Check it last, and check it
+   hardest.
+4. **Would this sentence survive being read back as a bare quotation?**
+   Mark's entire correction vocabulary for prose problems (as opposed to
+   truth problems) is one flat word applied to the quoted-back offending
+   text — *clunky, to wordy, doesn't flow, feels to formal, ai cliche*. He
+   never explains the mechanism for these; he reacts to the sentence in
+   isolation. Read every sentence alone, out of its paragraph, the way he
+   does, and ask if it survives.
+5. **Is this trying to be clever, cryptic, or quotable?** Not just imagery
+   — any sentence built to be striking rather than to state a fact. Real
+   vividness from an actual primary-source quotation stays (Ignatius's own
+   "wheat of God" line). Invented vividness goes, full stop, however good
+   it sounds. ("Chloe is seated. The chair beside her has been pulled out
+   the whole time" — cut for exactly this, in Mark's own words: "the ai
+   criptic speaking we are getting rid of.")
+
+### The mechanical shape that passes this review
+
+Once a draft would survive the five questions above, it tends to already
+have the measurable shape `CiC_Prose_Craft_Analysis.md` found in the
+shipped text — this is a description of what surviving the review looks
+like, not a separate style to aim for on top of it:
+
+- Median sentence length around 18 words; one long sentence per paragraph,
+  bought by a short one next to it.
+- Every abstraction cashed into a name, number, object, or action in the
+  same or next sentence — no floating claims.
+- Technical and ancient terms never defined, only put to work; the plain
+  word arrives first, the term attaches later to a person or action
+  already performing it. Where a plain object can carry the idea (a shared
+  table, the common loaf and cup), use it and skip the term.
+- Real disagreement stated in parallel grammar and left open — not
+  resolved, not smoothed — and the "both were real, and neither was
+  settled" formula spent once, not reused as a tic.
+- Documents as the grammatical subjects of active verbs (the letter
+  *admits*, *never claims*; *no record says whose*) instead of the
+  narrator hedging.
+- Hedges carried on one word wherever possible (*documented, periodic,
+  almost*); a whole clause only when a named source owns the uncertainty,
+  and then the source is the clause's subject.
+- Paragraphs open on an absence, a changed condition, or a named person —
+  never a thesis statement.
+- Repeat your own established phrases across the entry rather than
+  reaching for a synonym.
+
+Full detail and the evidence behind each of these: `CiC_Prose_Craft_Analysis.md` §1-9.
+
+### What the National Geographic / BBC / Bible Project comparison actually was, and wasn't
+
+Those names came up once as a reach for a register (accessible, honest
+about real complexity, modern language for old material), and they're not
+wrong as a description of the *effect*. But they are not the generative
+source, and citing them risks importing a house style that isn't Mark's.
+The actual mechanism that produces that effect — plain word before
+technical term, concreteness cashed immediately, tension held instead of
+resolved — is derived above directly from Mark's own catches and the
+shipped text's own measured shape. If the result reads like good
+documentary narration, that's confirmation the mechanics are right, not
+the goal itself.
+
+---
+
+## 1.2 The exemplar, and the one test that generates the rest
 
 Read the shipped pahc `longDescription`, `legacy`, `voices` and `tile`
 before editing anything. Its properties, as shipped:
@@ -116,7 +256,7 @@ overstated. Most of the fixes below are that test applied once.
 
 ---
 
-## 1.2 Dash-fragment constructions
+## 1.3 Dash-fragment constructions
 
 A name or noun, an em dash, then a descriptor phrase with no finite verb.
 It reads like a museum label written by someone who did not want to commit
@@ -156,7 +296,7 @@ Live tiles still use that template, e.g.
 
 ---
 
-## 1.3 Rule-of-three and triadic padding
+## 1.4 Rule-of-three and triadic padding
 
 Three items because three sounds complete, not because three real things
 exist. The tell is that the three items are not the same *kind* of thing,
@@ -195,7 +335,7 @@ alone.
 
 ---
 
-## 1.4 Unearned emotional and dramatic adjectives
+## 1.5 Unearned emotional and dramatic adjectives
 
 Words that ask the reader to feel something the source never established.
 
@@ -239,7 +379,7 @@ it yourself.**
 
 ---
 
-## 1.5 Hedge calibration: absolutes, and the difference between "no X" and "no documented X"
+## 1.6 Hedge calibration: absolutes, and the difference between "no X" and "no documented X"
 
 This is the highest-risk category for a religious-education product, and
 it cuts both ways. Under-hedging fabricates certainty; over-hedging turns
@@ -288,7 +428,7 @@ over statements about what happened or did not happen.**
 
 ---
 
-## 1.6 Anachronism
+## 1.7 Anachronism
 
 Two distinct failures, both fixed this session.
 
@@ -340,7 +480,7 @@ offered as *this world's own* material. Check each one; do not batch-delete.
 
 ---
 
-## 1.7 Contested and single-source claims stated as settled
+## 1.8 Contested and single-source claims stated as settled
 
 The project's records already hold these as first-class objects —
 `records/<code>/contested_claim/*.md`. When one exists, the prose must
@@ -392,7 +532,7 @@ when the honest claim is *this is where X was first worked out in practice*.
 
 ---
 
-## 1.8 Terminology drift within a single entry
+## 1.9 Terminology drift within a single entry
 
 Once a phrase is established, reuse it. Do not introduce a synonym to avoid
 repetition — in this genre, a fresh synonym reads as a fresh claim.
@@ -411,7 +551,7 @@ repetition — in this genre, a fresh synonym reads as a fresh claim.
   those are accurate general usage, not this tradition's name. A rename is
   a scoped operation, not a find-and-replace.
 
-## 1.9 Stale cross-references
+## 1.10 Stale cross-references
 
 `35ab377a` removed `"(disclosed on its tile)"` from pahc's `sourcing` field:
 the tile had been rewritten four times and no longer disclosed anything
@@ -424,7 +564,7 @@ went.
 `desert-monasticism`. Whenever you rewrite a `tile`, grep the entry's other
 fields for pointers into it.
 
-## 1.10 Register: status announcements vs. someone talking
+## 1.11 Register: status announcements vs. someone talking
 
 `68f67d2b` rewrote the `why` field template across all 7 Built & Live worlds:
 
@@ -447,7 +587,7 @@ Commit: *"too cryptic/writerly, matches the pattern of AI-sounding lines
 being cut sitewide."* Atmospheric second-person-adjacent lines that gesture
 at meaning without saying anything go.
 
-## 1.11 Questions must match what the source is actually about
+## 1.12 Questions must match what the source is actually about
 
 `49129e64`, on the tradition page's question list — this is the same
 accuracy discipline applied to interrogatives:
@@ -852,6 +992,16 @@ Concretely:
    summarized brief launders the main thread's blind spots into the
    component that exists to avoid them."*
 
+   **The verification subagent's brief should be §1.1's five-question
+   review pass, run explicitly, not "check this for quality."** That pass
+   is derived directly from what Mark's own corrections actually targeted
+   across this session (quantifier/modality overclaims, material added
+   during expansion, an over-performing closing sentence, a sentence that
+   wouldn't survive being read back alone, invented cleverness) — proven
+   to catch defects in both this assistant's drafts and a second model's
+   (Gemini's), which is why it's a stronger brief than a generic
+   quality check.
+
 ## 4.3 Which model drafts the prose — Fable, Sonnet, or Opus
 
 **There is a written, adopted verdict on Fable in this repo, and it is
@@ -1020,7 +1170,8 @@ INPUTS
 2 CONSISTENT Read tile, Story, Legacy, voices, floorNote, sourcing, sources,
              experienceToday, documentedStories TOGETHER. Cross-field contradictions
              and stale pointers are found only here.
-3 STYLE      §1.2-1.4, §1.8-1.11 against the pahc exemplar. Full sentences. Cut, don't
+3 STYLE      §1.1's five-question review pass, then §1.3-1.5, §1.9-1.12 against the
+             pahc exemplar. Full sentences. Cut, don't
              re-adjective. Reuse established terms.
 4 SOURCES    Every work named in prose has a row in `sources`. Add storySources /
              legacySources. Note anything cited on the tradition page but not here.
