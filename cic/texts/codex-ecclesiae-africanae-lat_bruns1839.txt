@@ -28,13 +28,28 @@
                   corpus prior to this file.
     Content note: Verified this pass: title page confirms 1839,
                   Bruns as editor; the editor's own preface states the
-                  African programme directly ("Concilia Carthaginensia
-                  I. II. III. IV. et Teleptense e collectione Hispana
-                  repeteremus, atque Breviarium Hipponense nec non
-                  Codicem ecclesiae Africanae integrum adjiceremus").
-                  The running page header "CODEX ECCLESIAE AFRICANAE"
-                  is confirmed present (pp. 156-202 per the OCR); the
-                  419 session opens with the Roman legates present
+                  African programme directly (quoted here in
+                  normalized spelling for readability -- the file's
+                  own raw OCR renders this passage with visible
+                  character substitutions, e.g. "ginensia" for
+                  "Carthaginensia" and "L. If. IIE. IV." for "I. II.
+                  III. IV.", not corrected in the vendored text
+                  itself): "Concilia Carthaginensia I. II. III. IV. et
+                  Teleptense e collectione Hispana repeteremus, atque
+                  Breviarium Hipponense nec non Codicem ecclesiae
+                  Africanae integrum adjiceremus". The running page
+                  header "CODEX ECCLESIAE AFRICANAE" is confirmed
+                  present. CORRECTION, 2026-09-08 (independent Opus
+                  adversarial review): an earlier version of this note
+                  gave a page range ("pp. 156-202") for this section,
+                  inferred from the running heads' own OCR'd page
+                  numbers -- those numbers are unreliable (independently
+                  re-checked and found to include outputs like "409"
+                  alongside plausible values), so the specific page
+                  range is RETRACTED as unverifiable from this scan;
+                  the header's own presence, not its page extent, is
+                  what this note actually confirms. The 419 session
+                  opens with the Roman legates present
                   ("Faustino ... residentibus CCXVII, nec non Philippo
                   et Asello presbyteris"; "Faustinus episcopus,
                   legatus ecclesiae Romanae, dixit ..."). The same

@@ -18,10 +18,18 @@
                   C. Geroldi Filium Bibliopolam Academiae, 1871.
           Rights: Public Domain
     Rights basis: 1871 publication date places this volume long out
-                  of US copyright; Google Books scan (via archive.org,
-                  item corpusscriptorum03cypruoft, from a Trinity
-                  College Toronto copy) carrying Google's own
-                  public-domain finding for the item.
+                  of US copyright -- the imprint date alone settles
+                  this regardless of scanning source. CORRECTION,
+                  2026-09-08 (independent Opus adversarial review): an
+                  earlier version of this line claimed "Google Books
+                  scan" carrying Google's own PD finding; the item's
+                  own archive.org metadata (scanningcenter=uoft,
+                  sponsor=MSN) shows this is a University of
+                  Toronto/Trinity College scan with no Google
+                  involvement -- that boilerplate phrasing was wrongly
+                  copied from a different file in the same vendoring
+                  batch that genuinely was a Google scan. The Public
+                  Domain conclusion is unaffected.
     Language: lat
         Supplied: pulled directly from archive.org by a sibling
                   research session with working network access
@@ -38,9 +46,12 @@
                   corpus prior to this file.
     Content note: Verified this pass: title page reads "VOL. III.
                   PARS III. APPENDIX" and "OPERA SPVRIA CVM INDICIBVS
-                  ET PRAEFATIONE"; the Vita's own heading "VITA
+                  ET PRAEFATIONE"; the Vita's own heading, quoted here
+                  in normalized spelling for readability (the file's
+                  own raw OCR reads "Pontio diacono iiiilgo adscripta,"
+                  not corrected in the vendored text itself) -- "VITA
                   CAECILII CYPRIANI (Pontio diacono uulgo adscripta)"
-                  is present and opens as expected ("Cyprianus
+                  -- is present and opens as expected ("Cyprianus
                   religiosus antistes ac testis Dei gloriosus..."). Its
                   own extent/ending was not located this pass. This
                   volume ALSO contains the genuinely spurious/

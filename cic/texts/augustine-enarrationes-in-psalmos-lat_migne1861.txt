@@ -40,13 +40,29 @@
                   numbers are the citation scheme this text uses and
                   the scheme the secondary literature will cite.
     Content note: Verified this pass: both title pages present and
-                  dated 1861; Psalm 1's own heading and opening line
-                  confirmed ("Beatus vir qui non abiit in consilio
-                  impiorum..."); Psalm 150's own heading and closing
-                  line confirmed ("Laudate Dominum in sanctis ejus...").
-                  OCR is comparatively clean for a Migne scan. No
-                  specific psalm's exposition beyond 1 and 150 has been
-                  read for a claim this pass.
+                  dated 1861; Psalm 1's own heading ("PSALMI PRIMI
+                  ENARRATIO") and opening line confirmed present
+                  ("Beatus vir qui non abiit in consilio impiorum...");
+                  Psalm 150's own heading and closing line confirmed
+                  ("Laudate Dominum in sanctis ejus..."). CORRECTION,
+                  2026-09-08 (independent Opus adversarial review): an
+                  earlier version of this note located the Psalm 1
+                  quotation at a different occurrence of the same
+                  Scripture verse quoted inside a later, unrelated
+                  psalm's own exposition -- Psalm 1's own actual
+                  enarratio, with this exact incipit, is the file's
+                  own heading "PSALMI PRIMI ENARRATIO," confirmed
+                  correctly located this pass. The underlying claim
+                  (the text is present) was true; the original check
+                  that produced it had matched the wrong location.
+                  Quotations throughout this header are given in
+                  normalized spelling for readability -- the file's
+                  own raw OCR renders some of these words with visible
+                  character substitutions (e.g. "Beatu*" for "Beatus"),
+                  not corrected in the vendored text itself, only in
+                  this header's own prose. OCR is comparatively clean
+                  for a Migne scan. No specific psalm's exposition
+                  beyond 1 and 150 has been read for a claim this pass.
 
 This  is  a reproduction  of  a library  book  that  was  digitized 
 by  Google  as  part  of  an  ongoing  effort  to  preserve  the 

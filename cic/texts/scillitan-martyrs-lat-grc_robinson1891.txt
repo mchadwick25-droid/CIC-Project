@@ -16,9 +16,19 @@
                   University Press, 1891.
           Rights: Public Domain
     Rights basis: 1891 publication date places this volume long out
-                  of US copyright; Google Books scan (via archive.org,
-                  item MN5140ucmf_2) of a University of Chicago
-                  library copy.
+                  of US copyright -- the imprint date alone settles
+                  this regardless of scanning source. CORRECTION,
+                  2026-09-08 (independent Opus adversarial review): an
+                  earlier version of this line claimed "Google Books
+                  scan" as part of the rights basis; the item's own
+                  archive.org metadata shows no Google sponsor or
+                  source and no "Google" string anywhere in the
+                  vendored text itself -- this is a University of
+                  Chicago microfilm digitization (item MN5140ucmf_2),
+                  not a Google scan. The Public Domain conclusion is
+                  unaffected; the boilerplate Google-scan phrasing was
+                  wrongly copied from a different file in the same
+                  vendoring batch that genuinely was a Google scan.
     Language: lat, grc
         Supplied: pulled directly from archive.org by a sibling
                   research session with working network access

@@ -1,41 +1,85 @@
      __________________________________________________________________
 
            Title: S. Thasci Caecili Cypriani Opera Omnia, Vol. III
-                  Pars II: Epistulae (the genuine letters, c. 249-258
-                  CE)
-      Creator(s): Cyprian of Carthage (Latin original, 3rd c. CE) --
-                  the corpus also embeds letters TO Cyprian and about
-                  him (Roman clergy, Cornelius, the confessors,
-                  Firmilian of Caesarea), per this corpus's own
-                  standard transmission
+                  Pars I (the genuine treatises: Ad Donatum, Quod
+                  Idola Dii Non Sint, Ad Quirinum, De Habitu
+                  Virginum, De Catholicae Ecclesiae Unitate, De
+                  Lapsis, De Dominica Oratione, De Mortalitate, Ad
+                  Fortunatum, Ad Demetrianum, De Opere et
+                  Eleemosynis, De Bono Patientiae, De Zelo et Livore,
+                  Sententiae Episcoporum) AND Pars II (Epistulae)
+                  BOUND TOGETHER IN THIS SINGLE SCAN
+      Creator(s): Cyprian of Carthage (Latin original, 3rd c. CE)
                   Guilelmus Hartel [Wilhelm Hartel] (Editor)
      Print Basis: Corpus Scriptorum Ecclesiasticorum Latinorum
-                  (CSEL), Vol. III Pars II. Vindobonae [Vienna]: Apud
-                  C. Geroldi Filium Bibliopolam Academiae, 1871.
+                  (CSEL), Vol. III Pars I (1868) and Pars II (1871).
+                  Vindobonae [Vienna]: Apud C. Geroldi Filium
+                  Bibliopolam Academiae.
           Rights: Public Domain
-    Rights basis: 1871 publication date places this volume long out
-                  of US copyright; Google Books scan (via archive.org,
-                  item corpusscriptor203cypruoft) carrying Google's own
-                  public-domain finding for the item.
+    Rights basis: 1868/1871 publication dates place this volume long
+                  out of US copyright; no ambiguity. CORRECTION,
+                  2026-09-08 (independent Opus adversarial review):
+                  this file's own scanning institution is the
+                  University of Toronto / Trinity College
+                  (scanningcenter=uoft, sponsor=MSN, no Google
+                  involvement) -- an earlier version of this header
+                  wrongly stated a Google Books public-domain finding
+                  as the rights basis, boilerplate copied from a
+                  different file in this same vendoring batch that
+                  genuinely was a Google scan. The rights conclusion
+                  (Public Domain) is unaffected -- it rests on the
+                  1868/1871 publication dates alone -- but the stated
+                  evidence for it was wrong and is corrected here.
     Language: lat
-        Supplied: pulled directly from archive.org by a sibling
-                  research session with working network access
+        Supplied: pulled directly from archive.org (item
+                  corpusscriptor203cypruoft) by a sibling research
+                  session with working network access
                   (session_01WLxhNbVhjkf1R2SAh8dxxT), 2026-09-08, for
                   the Latin Pastoral-Congregational Christianity world
-                  build (not yet begun as a formal construction
-                  thread) -- companion to
-                  cyprian_treatises-lat_hartel1868.txt (Pars I). This
-                  world's own corpus map had assigned Cyprian's
-                  Epistles from the English ANF05 translation only; no
-                  original-language witness existed in the vendored
-                  corpus prior to this file.
-    Content note: Verified this pass: title page reads "VOL. III.
-                  PARS II," heading "EPISTVLAE" present, and the word
-                  "epistula" occurs 78 times in the file, consistent
-                  with this corpus's own standard count of roughly 81
-                  letters. No specific letter's content has been read
-                  or checked against a claim this pass -- this is an
-                  identity/extent-level vendoring only.
+                  build.
+    Content note: MAJOR CORRECTION, 2026-09-08 (independent Opus
+                  adversarial review, not caught at intake time): this
+                  file was originally vendored under the name
+                  cyprian_epistulae-lat_hartel1871.txt with a header
+                  claiming it was Pars II (Epistulae) ONLY, verified
+                  by finding a "VOL. III. PARS II" title page. That
+                  title page is real but sits mid-file, at this file's
+                  own internal line ~21024 (before the header below was
+                  added) -- the ~21,000 lines before it are Pars I (the
+                  treatises), complete, opening with its own "VOL.
+                  III. PARS I" title page and "MDCCCLXVIII" (1868) at
+                  the very start of the scan. This file was therefore
+                  originally mis-described as covering only Pars II,
+                  when it actually contains both Parts. A SEPARATE
+                  file, cyprian_treatises-lat_hartel1868.txt (a
+                  different scan, Harvard/Google, of Pars I alone),
+                  was vendored alongside it under the mistaken belief
+                  that it supplied the missing Pars I -- it was in
+                  fact a pure duplicate of content already present in
+                  THIS file, and has been deleted rather than kept as
+                  a redundant second scan. This file has been renamed
+                  from cyprian_epistulae-lat_hartel1871.txt to its
+                  current name to reflect its actual, corrected scope.
+                  Verified this pass: Pars I title page and opening
+                  treatise (Ad Donatum) present at the file's own
+                  start; Pars II title page ("VOL. III. PARS II") and
+                  "EPISTVLAE" heading present partway through; Ep. 1
+                  through Ep. LXXXI (the collection's own end,
+                  confirmed via the sibling build thread's own
+                  independent intake of the same underlying edition --
+                  see cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+                  on branch claude/record-native-world-build-v2-yq11wl,
+                  confirmed by that Opus review to be the same
+                  edition via a different scan, ~6/20 sampled windows
+                  verbatim-matching). A previously-stated claim that
+                  "the word 'epistula' occurs 78 times in the file" is
+                  RETRACTED -- independently re-counted at 103
+                  exact-case whole-word occurrences (177
+                  case-insensitive), and was in any case a poor proxy
+                  for letter-count verification, not a real
+                  substitute for confirming the collection's own
+                  extent (Ep. I-LXXXI, confirmed above by comparison
+                  against the sibling build's own intake instead).
 
 hr,i 
 

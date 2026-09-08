@@ -41,16 +41,32 @@
                   here.
     Content note: Verified this pass: title page and preface date
                   (Feb. 1838) confirmed. Book I argumentum present;
-                  Book IV's own opening line confirmed ("Hoc opus
-                  nostrum, quod inscribitur de doctrina..."). The
-                  Enchiridion ad Laurentium begins partway through this
-                  same file (heading "ENCHIRIDION AD LAURENTIUM"
-                  confirmed) -- this is a second, distinct work bound
-                  in the same volume, not part of De Doctrina
-                  Christiana itself; a future citing session should
-                  note the internal boundary rather than treat the
-                  whole file as one work. OCR quality is mediocre
-                  (frequent u/n confusions).
+                  Book IV's own opening line confirmed (quoted here in
+                  normalized spelling -- the file's own raw OCR reads
+                  "JlIoc opus nostnim" for "Hoc opus nostrum," not
+                  corrected in the vendored text itself): "Hoc opus
+                  nostrum, quod inscribitur de doctrina...". PRECISE
+                  INTERNAL BOUNDARY, added 2026-09-08 (independent Opus
+                  adversarial review, closing a gap this header
+                  originally left only approximate): De Doctrina
+                  Christiana runs from this file's own line 71 (Book I
+                  heading at line 416, Book II from line 3084, Book III
+                  from line 5062, Book IV from line 6708) through line
+                  9006, ending "...tate, disserui." The Enchiridion ad
+                  Laurentium, a second, distinct work bound in the same
+                  volume -- NOT part of De Doctrina Christiana itself
+                  -- begins at line 9019 (its own title block, "S.
+                  AURELII AUGUSTINI"), with its own heading "ENCHIRIDION
+                  AD LAURENTIUM" at line 9023 and its first line of
+                  text ("C. 1. Uici non potest, dilectissime fili
+                  Laurenti...") at line 9032, running to its own final
+                  chapter (C. CXXII) around line 12812. A citing session
+                  should use these line numbers to quote from the
+                  correct work rather than treat the whole file as one
+                  undifferentiated text. OCR quality is mediocre
+                  (frequent u/n confusions, e.g. "Uici" for the
+                  drop-cap "D" opening the Enchiridion's own first
+                  word).
 
 \ 
 

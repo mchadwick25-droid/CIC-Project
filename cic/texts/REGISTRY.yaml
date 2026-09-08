@@ -948,30 +948,20 @@
     1904 transcription is born-digital, not OCR, and every one of its 27 books' chapter
     counts was checked against its independently known canonical count before this
     file was written.
-- filename: cyprian_treatises-lat_hartel1868.txt
+- filename: cyprian_opera-i-ii-lat_hartel1868-1871.txt
   supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
   date_added: '2026-09-08'
   notes: >-
-    Guilelmus Hartel (ed.), S. Thasci Caecili Cypriani Opera Omnia, Vol. III Pars I (CSEL,
-    Vindobonae: Apud C. Geroldi Filium Bibliopolam Academiae, 1868) - the critical Latin text of
-    Cyprian's genuine treatises (Ad Donatum, Quod Idola Dii Non Sint, Ad Quirinum, De Habitu
-    Virginum, De Catholicae Ecclesiae Unitate, De Lapsis, De Dominica Oratione, De Mortalitate, Ad
-    Fortunatum, Ad Demetrianum, De Opere et Eleemosynis, De Bono Patientiae, De Zelo et Livore,
-    Sententiae Episcoporum). Sourced for the Latin Pastoral-Congregational Christianity world
-    (corpus map: cic/corpus-map/latin-pastoral-congregational-christianity.yaml), whose Cyprian
-    material had only the English ANF05 translation, no original-language witness. Only the title
-    page and opening treatise (Ad Donatum) confirmed present this pass; the remaining twelve
-    treatises expected present per CSEL's own documented contents but not individually verified.
-- filename: cyprian_epistulae-lat_hartel1871.txt
-  supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
-  date_added: '2026-09-08'
-  notes: >-
-    Guilelmus Hartel (ed.), S. Thasci Caecili Cypriani Opera Omnia, Vol. III Pars II: Epistulae
-    (CSEL, Vindobonae, 1871) - companion volume to cyprian_treatises-lat_hartel1868.txt, the critical
-    Latin text of Cyprian's genuine letters. Same sourcing rationale (Latin Pastoral-Congregational
-    world, no prior original-language witness for Cyprian). Title page and "EPISTVLAE" heading
-    confirmed; word "epistula" occurs 78 times, consistent with the corpus's documented ~81 letters.
-    No specific letter's content read this pass.
+    Guilelmus Hartel (ed.), S. Thasci Caecili Cypriani Opera Omnia, Vol. III, Pars I (treatises,
+    1868) AND Pars II (Epistulae, 1871) bound together in one scan (CSEL, Vindobonae). CORRECTED
+    2026-09-08 (independent Opus adversarial review): this replaces two earlier, flawed entries -
+    cyprian_treatises-lat_hartel1868.txt (a different scan of Pars I, since discovered to be a pure
+    duplicate of content already present in this file, and deleted) and
+    cyprian_epistulae-lat_hartel1871.txt (this same file under its old name, originally mis-described
+    as Pars II only - it actually contains both Parts, confirmed by finding the Pars I title page at
+    the file's own start and the Pars II title page ~21,000 lines in). Sourced for the Latin
+    Pastoral-Congregational Christianity world, whose Cyprian material had only the English ANF05
+    translation, no original-language witness. See the file's own header for full correction detail.
 - filename: scillitan-martyrs-lat-grc_robinson1891.txt
   supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
   date_added: '2026-09-08'
