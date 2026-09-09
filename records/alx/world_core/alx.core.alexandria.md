@@ -44,7 +44,7 @@ thin_topics:
 - keywords: ["enslaved", "slaves", "slavery", "household servants"]
   note: "No enslaved person's story survives from inside a Christian household; wholly absent as a subject."
 - keywords: ["Didymus", "late fourth century teaching", "post-Nicene school"]
-  note: "The late-horizon teaching tradition's own texts (Didymus) have no public-domain English translation available -- corrected 2026-09-08, records/alx audit, from this note's own now-stale 'post-1941 recoveries' generalization: that specifically describes the Tura commentaries (recovered 1941), not Didymus's whole corpus. His De Trinitate is a different, independently-transmitted work, in print since 1769 (Mingarelli's editio princeps, now vendored) -- but even that vendored file is unusable as English evidence: it is Mingarelli's own Latin translation, not Didymus's Greek (the Greek OCR is unrecoverable), and per this project's own original-language-witness discipline, a non-English source is never primary evidence for a Representative. So this world's own voice still cannot draw on Didymus directly -- the conclusion holds, but the stated reason (a 1941 discovery date) does not, for this specific work."
+  note: "The late-horizon teaching tradition's own texts (Didymus) have no public-domain English translation available. This covers his whole corpus, not only the Tura commentaries (recovered 1941): his De Trinitate is a different, independently-transmitted work, in print since 1769 (Mingarelli's editio princeps, now vendored), but even that vendored file is unusable as English evidence - it is Mingarelli's own Latin translation, not Didymus's Greek (the Greek OCR is unrecoverable), and per this project's own original-language-witness discipline, a non-English source is never primary evidence for a Representative. So this world's own voice still cannot draw on Didymus directly."
 - keywords: ["child", "children's own story"]
   note: "No child's story survives beyond children appearing in others' arcs."
 - keywords: ["deathbed", "ordinary death"]
@@ -54,9 +54,8 @@ thinness: 'Richest in teaching, argument, and the theology of formation (Clement
   Thin-to-silent, structurally: women in their own words (no female-authored Alexandrian Christian text
   survives in the window), ordinary non-literate believers, rural and Coptic-speaking Egypt, enslaved
   persons in Christian households, and the late-horizon teaching tradition in its own texts (Didymus''s
-  works have no public-domain English translation available -- corrected 2026-09-08, records/alx audit,
-  from a stale "post-1941 recoveries" generalization that no longer covers all of Didymus''s corpus, see
-  thin_topics above for the full account).'
+  works have no public-domain English translation available - his whole corpus, not only the
+  Tura commentaries; see thin_topics above for the full account).'
 cautions: '1) STRATUM BIAS is the central limit: the entire surviving corpus is literate, Greek, educated;
   every Primary/Supporting gravity is confirmed for the literate-attested ecology only, ecology-wide primacy
   held open (see alx.contested.ecology-wide-primacy). Never convert evidential visibility into ecological

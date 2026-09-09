@@ -17,8 +17,7 @@ confidence:
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
   locus: 'VII.24 (npnf201 lines 41310-41318; Dionysius''s own book On the Promises, quoted
-    verbatim; corrected 2026-09-08, records/alx audit: locus range adjusted to
-    match the extended text field below)'
+    verbatim, matching the text field below)'
   license: public-domain
 retrieval:
   tier: 2

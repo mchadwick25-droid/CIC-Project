@@ -14,12 +14,9 @@ confidence:
   divergence_note: >-
     A SECOND WITNESS TO A TEXT THIS WORLD ALREADY HOLDS, AND IT IS SHORTER. The Syriac Life runs
     about 14,800 words against roughly 24,600 for the Life proper in the Greek-based English at
-    npnf204 (alx.source.athanasius-vita-antonii) - a like-for-like ratio of about 60%, not "about
-    half." Corrected 2026-09-08, records/alx audit: this note previously compared the Syriac
-    against npnf204's whole entry (~32,000 words), which bundles in Robertson's editorial
-    Prolegomena (~4,900 words) preceding the actual Life (div1 xvi = whole entry incl. Prolegomena
-    at div2 xvi.i; div2 xvi.ii = "Life of Antony proper," ~24,600 words) - comparing the Syriac Life
-    against that larger figure overstated the abridgement. It is still an abridgement, and no record
+    npnf204 (alx.source.athanasius-vita-antonii, div2 xvi.ii "Life of Antony proper" - distinct
+    from Robertson's editorial Prolegomena at div2 xvi.i, ~4,900 words, which precedes it) - a
+    like-for-like ratio of about 60%, not "about half." It is still an abridgement, and no record
     may cite it as though it were the same book at a different length: where the Syriac is silent
     that is a fact about the Syriac, not about Athanasius.
 sources: []

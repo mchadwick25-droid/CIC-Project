@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources: []
 author: "Origen (c. 185-254 CE)"
-work: "Commentary on the Gospel of Matthew, fragments of Books I and II, and Books X-XIV in full (the surviving translated material) - corrected 2026-09-08, records/alx audit: Books I and II in the vendored anf09 file are short fragments (162 and 564 words respectively), not full books, while X-XIV are full books (Book X alone is 15,432 words); the prior wording risked implying full books I and II"
+work: "Commentary on the Gospel of Matthew, fragments of Books I and II, and Books X-XIV in full (the surviving translated material). Books I and II in the vendored anf09 file are short fragments (162 and 564 words respectively), not full books; X-XIV are full books (Book X alone is 15,432 words)"
 edition: "trans. John Patrick, Ante-Nicene Fathers vol. 9 (1896, ed. Allan Menzies), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
 rights_status: public-domain
 attribution_status: attributed

@@ -33,9 +33,8 @@ dates:
     already passed his eighty-third year''; Palladius, Lausiac History IV, 85 at death)'
   died: 'c. 398 (Palladius: ''He was 85 years old when he died'')'
   floruit: 'active as a teacher and biblical interpreter in Alexandria until his death in 398, remembered
-    by later tradition as heading the catechetical school in its final line (not stated by the three
-    loci cited here - see corrected 2026-09-08 note below); blind from age four (''so he told me'' -
-    Palladius, eyewitness)'
+    by later tradition as heading the catechetical school in its final line (not itself stated by the
+    three loci cited here); blind from age four (''so he told me'' - Palladius, eyewitness)'
 narratable: true
 bridge_line: the blind teacher remembered by later tradition as heading the Alexandrian school in its
   final line, engaging Scripture through hearing and memory - the tradition's last great voice in this

@@ -41,16 +41,13 @@ text: 'Palladius came to Alexandria late in the fourth century and visited Didym
 absent_detail: 'What Didymus''s lessons were actually like - his classroom, his methods hour to hour -
   Palladius does not record; and Didymus''s own books, which survived him, are lost to us except in fragments
   recovered centuries later (the sharpest source absence in this world - see the search record). The ''seer''
-  epithet is not in Jerome''s own De Viris 109 (corrected 2026-09-08, records/alx audit - previously attributed
-  to that locus, which is only the works-list and the 83rd-year notice; the vendored ''seer'' wording is
-  in npnf203''s Rufinus''s Apology, line ~48652, where Rufinus ventriloquizes Jerome, ''Didymus the seeing
-  ... prophet, both of them my teachers'', with the NPNF editor''s own endnote, ''Jerome... delights in
-  calling him, in contrast to his blindness, the Seer.'' This record no longer cites locus 109 for this
-  claim and states it unlocated within the sources block. Corrected 2026-09-08, records/alx audit, round
-  2: the text field still flatly attributed the epithet to Jerome himself, resting on Rufinus''s later
-  ventriloquism of him plus an NPNF editor''s own endnote - neither is Jerome''s own primary text, the
-  same evidence class alx.figure.didymus treats as insufficient for a flat claim elsewhere in this
-  registry. The text field now attributes it to "later tradition," matching that standard.).'
+  epithet is not in Jerome''s own De Viris 109, which is only the works-list and the 83rd-year notice; the
+  vendored ''seer'' wording is in npnf203''s Rufinus''s Apology, line ~48652, where Rufinus ventriloquizes
+  Jerome, ''Didymus the seeing ... prophet, both of them my teachers'', with the NPNF editor''s own endnote,
+  ''Jerome... delights in calling him, in contrast to his blindness, the Seer.'' This record cites the
+  epithet to that Rufinus/endnote evidence, unlocated to De Viris 109, and attributes it in the text field
+  to "later tradition" rather than to Jerome''s own primary text - the same evidentiary standard
+  alx.figure.didymus holds elsewhere in this registry.'
 modern_contrast: >
   A modern reader may hear this as an 'overcoming disability' narrative - a
   blind man impressively compensating for a deficit. This world's own record

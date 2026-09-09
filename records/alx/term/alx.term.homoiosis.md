@@ -48,14 +48,12 @@ senses:
     conformity to God''s character through wisdom and love (Strom. II.22, "Plato''s Opinion, that the
     Chief Good Consists in Assimilation to God"; VII.3, "The Gnostic Aims at the Nearest Likeness
     Possible to God and His Son"). Origen names the likeness as the goal of the soul''s journey, the
-    image gradually restored toward it (source added 2026-09-08, records/alx audit - this claim
-    previously had no Origen source at all; De Principiis III.6, "On the End of the World," argues
-    Genesis 1:26-27 gives the image at creation but "reserved" the "perfection of his likeness... for
-    the consummation," to be "acquired" by "the exercise of his own diligence in the imitation of God").
+    image gradually restored toward it (De Principiis III.6, "On the End of the World," argues Genesis
+    1:26-27 gives the image at creation but "reserved" the "perfection of his likeness... for the
+    consummation," to be "acquired" by "the exercise of his own diligence in the imitation of God").
     Athanasius traces the same image''s damage and restoration from the Incarnation side (De Inc. 3, the
     "supra-natural gift of being in God''s Image"; 6-7, the image "being effaced" and humanity "restored
-    to the Grace of God''s Image") - wired into the prose here (corrected 2026-09-08, records/alx audit;
-    this source was previously cited but never referenced in the body).'
+    to the Grace of God''s Image").'
   personal: Two people can perform the same generous act - one who decided to, and one whose desire has
     been genuinely reordered by years of formation. Only the second is the likeness; the first is imitation.
   translational: '''Isn''t "becoming like God" just about copying good behavior?'' - the moral qualities

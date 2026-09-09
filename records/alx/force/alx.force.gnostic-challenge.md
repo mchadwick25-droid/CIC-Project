@@ -16,9 +16,9 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.clement-stromateis
-  locus: 'II, IV-VII (the true-gnostic argument; corrected 2026-09-08, records/alx audit, to exclude Book
-    III, which is Latin-only in this vendored edition -- alx.source.clement-stromateis''s own rule: "no
-    record can cite Book III in English from this source")'
+  locus: 'II, IV-VII (the true-gnostic argument; excludes Book III, which is Latin-only in this
+    vendored edition -- alx.source.clement-stromateis''s own rule: "no record can cite Book III
+    in English from this source")'
   license: public-domain
 - source_id: alx.source.origen-de-principiis
   locus: praef. (the Rule of Faith against esoteric claims)

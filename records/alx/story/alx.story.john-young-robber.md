@@ -47,10 +47,8 @@ text: 'Clement told this as a story handed down about John. In a city near Ephes
   had restored him to the church.'
 absent_detail: 'Clement does not name the city himself - he writes only ''one of the cities not far off''
   - but his own aside does not exclude a name: the vendored text continues ''(the name of which some give,''
-  with the ANF editor noting ''Said to be Smyrna'' (corrected 2026-09-08, records/alx audit: this field
-  previously stated flatly that the city is unnamed in the tradition, citing only ''a city not far off''
-  and omitting Clement''s own following clause, which acknowledges that some sources do give it a name -
-  traditionally Smyrna, per the editor''s note). The bishop and the young man remain unnamed. Whether the
+  with the ANF editor noting ''Said to be Smyrna'' (traditionally Smyrna, per the editor''s note, though
+  Clement himself does not commit to it). The bishop and the young man remain unnamed. Whether the
   events happened as told cannot be established - Clement''s own framing (''a true account... handed down'')
   is the tier''s basis, and the telling keeps his attribution rather than asserting more.'
 modern_contrast: >

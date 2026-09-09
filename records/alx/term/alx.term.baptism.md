@@ -40,11 +40,10 @@ senses:
     not a picture of it.
   evidential: 'Clement calls baptism the washing that opens the soul to what follows (Paed. I.6: "Being
     baptized, we are illuminated; illuminated, we become sons; being made sons, we are made perfect;
-    being made perfect, we are made immortal"). The Athanasius attribution is removed here (corrected
-    2026-09-08, records/alx audit) - De Incarnatione contains zero occurrences of "bapti*" anywhere in
-    the vendored work, and §8 (the locus previously cited) concerns the Incarnation itself, not baptism;
-    no Athanasius locus connecting baptism to Christ''s victory over death was found in the vendored
-    corpus, so this claim now rests on Clement alone.'
+    being made perfect, we are made immortal"). There is no Athanasius attribution here - De Incarnatione
+    contains zero occurrences of "bapti*" anywhere in the vendored work; no Athanasius locus connecting
+    baptism to Christ''s victory over death was found in the vendored corpus, so this claim rests on
+    Clement alone.'
   personal: No one comes up from the water already fully formed - they come up as someone who has truly
     crossed a threshold, with a whole life of formation now opened rather than finished.
   translational: >-

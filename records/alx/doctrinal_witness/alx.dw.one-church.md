@@ -21,9 +21,9 @@ sources:
   locus: the letters to other sees
   license: public-domain
 - source_id: alx.source.clement-stromateis
-  locus: 'II.3-8 (added 2026-09-08, records/alx audit, round 2, for "Gnostic schools": Clement names
-    and answers "the followers of Basilides" and "the followers of Valentinus" by name repeatedly
-    through these chapters, e.g. anf02 lines 32104-32722)'
+  locus: 'II.3-8 (for "Gnostic schools": Clement names and answers "the followers of Basilides" and
+    "the followers of Valentinus" by name repeatedly through these chapters, e.g. anf02 lines
+    32104-32722)'
   license: public-domain
 retrieval:
   tier: 1

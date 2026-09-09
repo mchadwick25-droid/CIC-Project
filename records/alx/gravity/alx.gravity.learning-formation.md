@@ -16,11 +16,10 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.gregory-address-to-origen
-  locus: 'VII-IX, XIII (corrected 2026-09-08, records/alx audit: XIII added - "theology"
-    in the manifestations list below is Argument XIII ("The Method Which Origen Used
-    in His Theological and Metaphysical Instructions," anf06 line 3661), outside the
-    VII-IX range as previously cited; VII=logic, VIII=physics/geometry/astronomy,
-    IX=ethics remain correctly inside VII-IX)'
+  locus: 'VII-IX, XIII ("theology" in the manifestations list below is Argument XIII
+    ("The Method Which Origen Used in His Theological and Metaphysical Instructions,"
+    anf06 line 3661), outside the VII-IX range; VII=logic, VIII=physics/geometry/astronomy,
+    IX=ethics)'
   license: public-domain
 - source_id: alx.source.clement-stromateis
   locus: I-II

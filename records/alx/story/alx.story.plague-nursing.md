@@ -16,10 +16,9 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: 'VII.22 (npnf201 lines 41084-41127; corrected 2026-09-08, records/alx audit: range extended
-    from 41084-41098, which did not reach two narrated elements this record includes - ''buried its dead
-    with open hands'' at line ~41112 (§9) and the pagan contrast, ''deserted those who began to be sick,
-    and fled from their dearest friends,'' at lines ~41120-41122 (§10))'
+  locus: 'VII.22 (npnf201 lines 41084-41127, reaching ''buried its dead with open hands'' at line ~41112
+    (§9) and the pagan contrast, ''deserted those who began to be sick, and fled from their dearest
+    friends,'' at lines ~41120-41122 (§10))'
   license: public-domain
 - source_id: alx.source.dionysius-extant-fragments
   locus: the plague letter

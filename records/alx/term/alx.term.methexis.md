@@ -44,12 +44,10 @@ senses:
     a soul merely near God across a gap that never closes, and a soul dissolved into God with nothing left
     to share.
   evidential: 'Athanasius''s formula, verbatim: "For He was made man that we might be made God" (De
-    Incarnatione 54; corrected 2026-09-08, records/alx audit - the "grace and participation, not by
-    nature" qualifier is not in De Inc 54 itself, which contains no occurrence of "grace" or
-    "participat*"; that language instead comes from Contra Arianos I.37-38, where sonship "by
-    participation" and "by grace" is contrasted with being a son "by nature") ties participation
-    directly to the Logos''s full divinity; without it, to participate in Christ would be to participate
-    in a mere creature.'
+    Incarnatione 54) ties participation directly to the Logos''s full divinity; without it, to
+    participate in Christ would be to participate in a mere creature. The "grace and participation, not
+    by nature" qualifier comes not from De Inc. 54 itself but from Contra Arianos I.37-38, where sonship
+    "by participation" and "by grace" is contrasted with being a son "by nature."'
   personal: Never solitary - the soul shares in Christ through the community, most bodily at the Eucharist,
     which enacts what participation names.
   translational: '''Isn''t that just closeness to God?'' - no; this world meant a branch drawing its life

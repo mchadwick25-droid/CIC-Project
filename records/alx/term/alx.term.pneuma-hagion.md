@@ -42,10 +42,9 @@ senses:
     ordinary, continuous work, not something the Spirit occasionally enhances from outside.
   evidential: Clement treats the Spirit as present throughout the community's ongoing formation life;
     Origen gives the fullest surviving account of the Spirit's role in Scripture's inspiration and
-    sanctification (narrowed 2026-09-08, records/alx audit - De Principiis I.3, "On the Holy Spirit,"
-    supports "Scripture" but contains zero occurrences of "pray*" or "illumin*"; the Spirit's role in
-    illumination and prayer specifically is not evidenced at this locus, since Origen's prayer-focused
-    treatise, On Prayer, is not vendored as an English text anywhere in this corpus).
+    sanctification (De Principiis I.3, "On the Holy Spirit," supports "Scripture" specifically; the
+    Spirit's role in illumination and prayer is not evidenced at this locus, since Origen's
+    prayer-focused treatise, On Prayer, is not vendored as an English text anywhere in this corpus).
   personal: Someone who perceives a familiar passage differently than before has not stumbled onto a
     new idea on their own - their capacity to perceive has itself been opened, which this world credits
     to the Spirit's ordinary work.

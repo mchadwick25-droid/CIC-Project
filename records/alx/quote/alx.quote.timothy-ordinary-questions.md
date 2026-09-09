@@ -15,10 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.alexandrian-canonical-answers
-  locus: 'Timothy of Alexandria, Canonical Answers, Questions I, VIII, X, XI (npnf214, line 44104;
-    corrected 2026-09-08, records/alx audit: "II" removed from this list - Question II ("If baptism
-    be desired for a catechumen that is possessed, what shall be done?") does not appear anywhere in
-    this record''s text field)'
+  locus: 'Timothy of Alexandria, Canonical Answers, Questions I, VIII, X, XI (npnf214, line 44104)'
   license: public-domain
 text: 'Question. If a lad of seven years old, or a man, being a catechumen, being present at the oblation,
   does eat of it through ignorance, what shall be done in this case? Answer. Let him be illuminated, i.e.

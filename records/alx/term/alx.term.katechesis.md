@@ -40,9 +40,9 @@ senses:
   evidential: 'Origen describes the staged, tested path into the community (Contra Celsum III.51):
     candidates are examined privately, sorted into those "receiving admission" who have "not yet obtained
     the mark of complete purification" and those further along, with appointed persons inquiring into
-    "the lives and behaviour of those who join them" before full admission. Clement''s Paedagogus is
-    corrected here (2026-09-08, records/alx audit): Paed. I actually addresses the already-baptized
-    ("Being baptized, we are illuminated; illuminated, we become sons" - I.6) and Paed. I.1 explicitly
+    "the lives and behaviour of those who join them" before full admission. Clement''s Paedagogus addresses
+    the already-baptized, not pre-baptismal catechesis ("Being baptized, we are illuminated; illuminated,
+    we become sons" - I.6), and Paed. I.1 explicitly
     disclaims a teaching office for the book ("The Instructor being practical, not theoretical... not to
     teach"), so it shows the shape of post-baptismal formation and training, not pre-baptismal
     catechesis; the book''s threefold Protrepticus/Paedagogus/Didaskalos scheme is a literary structure,

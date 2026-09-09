@@ -40,13 +40,12 @@ senses:
     turning to attend to an address that never stopped.
   evidential: 'Clement describes the one advanced in formation as praying always - by a steady orientation
     of the soul, not constant speech (Strom. VII.12: "His whole life is prayer and converse with God";
-    VII.7: "not in a specified place... but during his whole life"). The Origen attribution is dropped
-    here (corrected 2026-09-08, records/alx audit) - Comm. John I contains exactly one incidental mention
-    of "Pray," a chapter-heading ("Prayer for Aid to Understand the Mystical Sense of the Work in Hand"),
-    not actual content about prayer; Origen''s dedicated treatise On Prayer is not vendored anywhere in
-    this corpus (only a Greek-only text exists, not citable as English evidence). No genuinely supporting
-    Origen locus for this specific claim was found in the vendored Contra Celsum either, so this claim
-    now rests on Clement alone.'
+    VII.7: "not in a specified place... but during his whole life"). There is no Origen attribution here -
+    Comm. John I contains exactly one incidental mention of "Pray," a chapter-heading ("Prayer for Aid to
+    Understand the Mystical Sense of the Work in Hand"), not actual content about prayer; Origen''s
+    dedicated treatise On Prayer is not vendored anywhere in this corpus as English evidence. No
+    genuinely supporting Origen locus for this specific claim was found in the vendored Contra Celsum
+    either, so this claim rests on Clement alone.'
   personal: Someone new to prayer and someone who has prayed for decades are doing the same thing -
     turning to attend - but receiving at different depths as their formation deepens.
   translational: >-

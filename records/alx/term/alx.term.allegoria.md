@@ -24,8 +24,7 @@ sources:
   license: public-domain
 - source_id: alx.source.eusebius-historia-ecclesiastica
   locus: "VII.24 (Nepos's Refutation of Allegorists and Dionysius's three-day disputation at Arsinoe); VI.19
-    (Porphyry's own words against Origen's allegorical method, quoted by Eusebius -- restored 2026-09-08,
-    records/alx audit round 2, see body)"
+    (Porphyry's own words against Origen's allegorical method, quoted by Eusebius)"
   license: public-domain
 retrieval:
   tier: 1

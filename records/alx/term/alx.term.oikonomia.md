@@ -45,10 +45,9 @@ senses:
     the Logos was always carrying out.
   evidential: Clement treats this arrangement as unfolding through graduated divine teaching; Origen and
     Athanasius both locate the Incarnation as its central, pivotal act rather than an isolated event
-    (locus corrected 2026-09-08, records/alx audit - De Principiis I.6, "On the End or Consummation," is
-    eschatological restoration material with zero occurrences of "incarnat*" or "became flesh," and is
-    already quarantined at alx.term.apokatastasis; Origen's actual Incarnation chapter is De Principiis
-    II.6, "On the Incarnation of Christ," which is the locus now cited).
+    (Origen's Incarnation chapter is De Principiis II.6, "On the Incarnation of Christ" - not I.6, "On
+    the End or Consummation," which is eschatological restoration material quarantined at
+    alx.term.apokatastasis).
   personal: A person's own formation - reading Scripture, praying, gathering for the Eucharist - is not
     a private project running alongside God's plan. It is that plan, currently at work in one particular
     life.

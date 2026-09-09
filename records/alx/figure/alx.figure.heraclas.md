@@ -14,9 +14,8 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: 'VI.26 (line 36336: Demetrius was succeeded by Heraclas; corrected 2026-09-08,
-    records/alx audit: quotation marks removed from this paraphrase - the vendored
-    wording is "and Heraclas succeeded him," line 36339)'
+  locus: 'VI.26 (line 36336: Demetrius was succeeded by Heraclas; the vendored wording is
+    "and Heraclas succeeded him," line 36339)'
   license: public-domain
 names:
 - name: Heraclas

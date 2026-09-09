@@ -11,34 +11,28 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Contested
-  divergence_note: 'Corrected 2026-09-08, records/alx audit: this record previously identified the
-    vendored text as the Excerpta ex Theodoto (genuine Valentinian-source material excerpted by
-    Clement). It is not. The vendored div is titled "Excerpts of Theodotus; or, Selections from the
-    Prophetic Scriptures" and its content is the Eclogae Propheticae - Clement''s (or an unknown
-    compiler''s) own notes on scriptural texts, not a transcript of Theodotus. A full-text vocabulary
-    scan of the vendored body (7,335 words) found zero occurrences of "Pleroma", "Sophia", "Achamoth",
+  divergence_note: 'The vendored div is titled "Excerpts of Theodotus; or, Selections from the
+    Prophetic Scriptures," but its content is the Eclogae Propheticae - Clement''s (or an unknown
+    compiler''s) own notes on scriptural texts, not a transcript of Theodotus and not the genuine
+    Excerpta ex Theodoto (not vendored anywhere in cic/texts/). A full-text vocabulary scan of the
+    vendored body (7,335 words) found zero occurrences of "Pleroma", "Sophia", "Achamoth",
     "Demiurge", "Valentin*", "aeon", or "Ogdoad", and "Theodotus" occurs only in the editorial title -
-    none of the vocabulary a genuine Valentinian source would carry. The genuine Excerpta ex Theodoto
-    is not vendored anywhere in cic/texts/. Authorship of the vendored text is itself disputed by the
-    ANF editor''s own headnote (see below) - a second, independent uncertainty from the one this
-    record used to carry.'
+    none of the vocabulary a genuine Valentinian source would carry. Authorship of the vendored text
+    is itself disputed by the ANF editor''s own headnote (see below).'
 sources: []
 author: "Uncertain. Traditionally bound as an appendix to Clement of Alexandria's works in this
   edition, but the ANF editor's own headnote judges the ascription to Clement doubtful: 'these
   excerpts... are alike corrupt or forged documents, for which Clement's name has been borrowed'; the
   editor's own best guess is a Montanist compiler, not Clement -- though the editor does not rule out a
   Theodotus, only rules out identifying which one: 'it is hard to say precisely who of three or four
-  named Theodotus (all heretics), may have made the compilation' (corrected 2026-09-08, records/alx
-  audit, round 2: this field previously stated flatly 'not Theodotus,' overstating the headnote's own
-  hedge)."
+  named Theodotus (all heretics), may have made the compilation'."
 work: "Eclogae Propheticae (Selections from the Prophetic Scriptures) - a set of notes on scriptural
   texts, printed in this edition under the running title 'Excerpts of Theodotus; or, Selections from
-  the Prophetic Scriptures' and often cited as 'the Eclogues.' Corrected 2026-09-08, records/alx audit:
-  this is NOT the genuine Excerpta ex Theodoto (the real Valentinian-teaching notebook of that name,
-  which is not vendored in this corpus) - see divergence_note. Despite the shared title, the vendored
-  text carries no Valentinian technical vocabulary and does not present itself as a record of
-  Theodotus's teaching; 'our Pantænus' (one occurrence) is the only substantive link to Clement or to
-  Alexandria at all."
+  the Prophetic Scriptures' and often cited as 'the Eclogues.' This is NOT the genuine Excerpta ex
+  Theodoto (the real Valentinian-teaching notebook of that name, which is not vendored in this
+  corpus). Despite the shared title, the vendored text carries no Valentinian technical vocabulary
+  and does not present itself as a record of Theodotus's teaching; 'our Pantænus' (one occurrence) is
+  the only substantive link to Clement or to Alexandria at all."
 edition: "trans. Rev. William Wilson, M.A., Ante-Nicene Fathers vol. 8 (1886), vendored as cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml (div1 at line 3788)"
 rights_status: public-domain
 attribution_status: "disputed by the edition's own editor; not securely Clement's, not Theodotus's own words"

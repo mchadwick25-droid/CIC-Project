@@ -17,10 +17,9 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: 'VII.24 (npnf201 lines 41290-41382; corrected 2026-09-08, records/alx audit: range extended
-    from 41290-41320, which covered only Nepos''s identification and the Refutation of Allegorists material,
-    to include the conference narrative itself - ''three successive days'' at line 41358, Dionysius''s
-    own rejoicing at line 41361, and Coracion named at line 41375)'
+  locus: 'VII.24 (npnf201 lines 41290-41382, covering the conference narrative itself - ''three
+    successive days'' at line 41358, Dionysius''s own rejoicing at line 41361, and Coracion named at
+    line 41375)'
   license: public-domain
 - source_id: alx.source.dionysius-extant-fragments
   locus: On the Promises fragments
