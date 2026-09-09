@@ -13,27 +13,17 @@
 :root{
   --parchment:#F6F6F2; --vellum:#FFFFFF;
   --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
-  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:#E6DFD3;
-  --ground:var(--parchment); --surface:var(--vellum);
-  --text:var(--ink); --muted:var(--ink-faded);
-  --action:var(--madder); --action-hover:var(--madder-deep);
-  --lapis-text:#1E40AF;
-  --control:var(--graphite);
-  --btn-fill:var(--madder); --btn-text:var(--vellum); --btn-edge:var(--madder);
-  --tint:#2B5F8A;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --lapis-text:#9DB4F0;
+  --control:#A39B92;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --tint:#3B83BF;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
   --wide:64rem; --col:44rem; --measure:38rem;
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --ground:#17130F; --surface:#1E1913;
-    --text:#F1E9DD; --muted:#B8AEA1; --action:#E08C74; --action-hover:#F0A98F;
-    --lapis-text:#9DB4F0;
-    --control:#A39B92; --rule:rgba(241,233,221,.16);
-    --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
-    --tint:#3B83BF;
-  }
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
@@ -131,7 +121,7 @@ p{margin:0 0 1rem}
       <a href="../index.html">Home</a>
       <a href="../about.html">About</a>
       <a href="../whats-next.html">What's Next</a>
-      <a href="../atlas-v3.html">Map</a>
+      <a href="../atlas-v3.html">Timeline</a>
       <a href="../support.html">Get Involved</a>
       <a class="side-door" id="side-door" href="../talk.html" hidden><span class="sd-long">Been here before? </span>Go straight to a conversation →</a>
     </nav>
@@ -154,12 +144,12 @@ p{margin:0 0 1rem}
         <h1>Alexandrian Christianity</h1>
         <p class="formal">Alexandrian Catechetical Tradition</p>
         <p class="status">Open for conversation — you can sit down with this tradition now.</p>
-        <p class="tile">Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth.</p>
+        <p class="tile">In Alexandria, from about 150 to 400 CE, teachers led seekers through a shared life of reading Scripture. They believed its surface pointed toward a deeper meaning, one that opened onto the Logos himself. Some called it one continuous school; others say it was simply a series of private teachers, grouped together only in hindsight. Persecution reached even its own teachers—Origen's own father was martyred while Origen was still a boy.</p>
       </div>
       <aside class="plate" aria-label="Portrait">
         <figure>
           <img src="../assets/portraits/alexandria.png" alt="Theon: an older man with close-cropped grey hair in a plain white tunic, pointing to a line of Greek text on a papyrus scroll he holds, painted against a warm neutral ground." width="543" height="543">
-          <figcaption><b>Theon, Catechetical Teacher.</b> A representative voice for the teachers of Alexandria, the ancient world's city of libraries — who led seekers through Scripture's surface toward the depths of the Logos beneath it.</figcaption>
+          <figcaption><b>Theon, Catechetical Teacher.</b> A representative voice for the teachers of Alexandria, the ancient world's city of libraries — who read Scripture's surface as pointing toward the Logos himself.</figcaption>
         </figure>
       </aside>
     </div>
@@ -194,7 +184,7 @@ p{margin:0 0 1rem}
         <p class="eyebrow">Where we are quiet</p>
         <h2 id="quiet-title">The city itself</h2>
         <div class="reading">
-          <p>If you dug where we met, we could not tell you what you would find. Our own writings describe souls and books far more than rooms and walls. The city itself has kept little: it was rebuilt age after age, and much of the old shore now lies under the sea.</p>
+          <p>No trace of where we met survives today. Our own writings describe souls and books, not the rooms we gathered in. The city itself has been rebuilt again and again since then, and much of its ancient shoreline now lies under the sea.</p>
         </div>
       </section>
 
@@ -206,7 +196,7 @@ p{margin:0 0 1rem}
             <li><a href="../talk.html?worlds=alexandria-catechetical&amp;mode=interview&amp;from=traditions%2Falexandria-catechetical.html" data-ask>Who was Jesus, to you and your people?<span class="vh"> — ask Theon</span></a><span class="from">Clement, <i>Protrepticus</i> I; Athanasius, <i>De Incarnatione</i> 54.</span></li>
             <li><a href="../talk.html?worlds=alexandria-catechetical&amp;mode=interview&amp;from=traditions%2Falexandria-catechetical.html" data-ask>How did you come to believe in Jesus?<span class="vh"> — ask Theon</span></a><span class="from">Gregory Thaumaturgus, <i>Address to Origen</i> 6.</span></li>
             <li><a href="../talk.html?worlds=alexandria-catechetical&amp;mode=interview&amp;from=traditions%2Falexandria-catechetical.html" data-ask>What would your people have made of someone like me?<span class="vh"> — ask Theon</span></a><span class="from">The shared bread and cup, and a baptism that asked nothing of a person's letters.</span></li>
-            <li><a href="../talk.html?worlds=alexandria-catechetical&amp;mode=interview&amp;from=traditions%2Falexandria-catechetical.html" data-ask>What did a woman's life and role look like among your people?<span class="vh"> — ask Theon</span></a><span class="from">Eusebius, <i>Historia Ecclesiastica</i> VI.5 and VI.1–2.</span></li>
+            <li><a href="../talk.html?worlds=alexandria-catechetical&amp;mode=interview&amp;from=traditions%2Falexandria-catechetical.html" data-ask>What happened to the women in your community during persecution?<span class="vh"> — ask Theon</span></a><span class="from">Eusebius, <i>Historia Ecclesiastica</i> VI.5 and VI.1–2.</span></li>
           </ul>
         </div>
       </section>
@@ -217,7 +207,6 @@ p{margin:0 0 1rem}
 <section class="door" aria-labelledby="door-title">
   <p class="eyebrow">The Table</p>
   <h2 id="door-title">Come and join us at the Table</h2>
-  <p>Theon is seated. The chair beside him has been pulled out the whole time.</p>
   <div class="actions">
     <a class="btn" id="door-begin" href="../talk.html?worlds=alexandria-catechetical&amp;mode=interview&amp;from=traditions%2Falexandria-catechetical.html" data-ask>Begin a conversation with Theon</a>
     <a class="btn quiet" id="door-bring" href="../table.html?worlds=alexandria-catechetical">Bring Theon to the Table</a>

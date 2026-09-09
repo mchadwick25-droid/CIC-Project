@@ -14,29 +14,17 @@
 :root{
   --parchment:#F6F6F2; --vellum:#FFFFFF; --gold-wash:#FBF2E2;
   --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
-  --gold-leaf:#B45309; --tyrian:#6B3FA0; --lapis:#1E40AF; --graphite:#8A837C; --rule:#E6DFD3;
-  --ground:var(--parchment); --surface:var(--vellum);
-  --text:var(--ink); --muted:var(--ink-faded);
-  --action:var(--madder); --action-hover:var(--madder-deep);
-  --tyrian-text:var(--tyrian); --lapis-text:var(--lapis);
-  --control:var(--graphite);
-  --btn-fill:var(--madder); --btn-text:var(--vellum); --btn-edge:var(--madder);
-  --mark-ink:#2A2521; --mark-dot:#A13E2B;
+  --gold-leaf:#B45309; --tyrian:#6B3FA0; --lapis:#1E40AF; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1; --action:#E08C74; --action-hover:#F0A98F;
+  --tyrian-text:#C9A6E8; --lapis-text:#9DB4F0;
+  --control:#A39B92;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --mark-ink:#EDE5D6; --mark-dot:#CB6E52;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
   --wide:64rem; --col:44rem; --measure:38rem;
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --ground:#17130F; --surface:#1E1913;
-    --text:#F1E9DD; --muted:#B8AEA1; --action:#E08C74; --action-hover:#F0A98F;
-    --tyrian-text:#C9A6E8; --lapis-text:#9DB4F0;
-    --control:#A39B92; --rule:rgba(241,233,221,.16);
-    --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
-    --mark-ink:#EDE5D6; --mark-dot:#CB6E52;
-  }
-}
-*{box-sizing:border-box}
+}*{box-sizing:border-box}
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
 a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
 a:hover{color:var(--action-hover)}
@@ -178,7 +166,7 @@ p{margin:0 0 1rem}
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="whats-next.html">What's Next</a>
-      <a href="atlas-v3.html">Map</a>
+      <a href="atlas-v3.html">Timeline</a>
       <a href="support.html">Get Involved</a>
       <a class="side-door" id="side-door" href="talk.html" hidden><span class="sd-long">Been here before? </span>Go straight to a conversation →</a>
     </nav>
@@ -269,13 +257,13 @@ p{margin:0 0 1rem}
 (function(){
 "use strict";
 var WORLDS = [
-  { id:'post-apostolic-house-church', name:'Chloe', trad:'The House-Churches', img:'assets/portraits/house-churches.png', tint:'#7c3aed', desc:'Antioch, Asia Minor, and Rome, 70–200 CE — scattered gatherings held together by letters and a shared table.' },
-  { id:'alexandria-catechetical', name:'Theon', trad:'Alexandrian Christianity', img:'assets/portraits/alexandria.png', tint:'#2B5F8A', desc:'Alexandria, c. 150–400 CE — a community of readers led through Scripture’s surface toward its depths.' },
-  { id:'syriac-edessa-nisibis', name:'Mar Yausep', trad:'Syriac Christianity', img:'assets/portraits/syriac.png', tint:'#b45309', desc:'Edessa and Nisibis, 200–410 CE — a covenant people who held together under Persian rule.' },
-  { id:'imperial-juridical-christianity', name:'Marius', trad:'Church and Empire', img:'assets/portraits/empire.png', tint:'#7A2E2E', desc:'Rome, Constantinople, and Milan, c. 312–451 CE — the church’s first century beside a throne.' },
-  { id:'desert-monasticism', name:'Papnoute', trad:'Desert Fathers and Mothers', img:'assets/portraits/desert.png', tint:'#0f766e', desc:'The Nile Valley and the desert of Egypt, c. 320–430 CE — a lifelong combat with the thoughts within.' },
-  { id:'cappadocian-nicene-pastoral-monastic-tradition', name:'Chilo', trad:'The Cappadocian Churches', img:'assets/portraits/cappadocian.jpg', tint:'#A0522D', desc:'Cappadocia and Pontus, c. 325–394 CE — brotherhoods who fed the hungry and fought for one word.' },
-  { id:'hieronymian-ascetic-literary', name:'Albina', trad:'The Bethlehem Circle', img:'assets/portraits/bethlehem.png', tint:'#9d174d', desc:'Rome and Bethlehem, c. 382–420 CE — scholars and ascetics testing Scripture against its own Hebrew.' }
+  { id:'post-apostolic-house-church', name:'Chloe', trad:'The House-Churches', img:'assets/portraits/house-churches.png', tint:'#955FF0', desc:'Scattered households across Antioch, Asia Minor, and Rome, one body connected by letters and a shared table.' },
+  { id:'alexandria-catechetical', name:'Theon', trad:'Alexandrian Christianity', img:'assets/portraits/alexandria.png', tint:'#3B83BF', desc:'Alexandria, c. 150–400 CE — teachers leading seekers toward Scripture’s deeper meaning, and the Logos it opens onto.' },
+  { id:'syriac-edessa-nisibis', name:'Mar Yausep', trad:'Syriac Christianity', img:'assets/portraits/syriac.png', tint:'#CC5E0A', desc:'Edessa and Nisibis, 200–410 CE — a covenant people who sang their theology, and never settled who spoke for them.' },
+  { id:'imperial-juridical-christianity', name:'Marius', trad:'Church and Empire', img:'assets/portraits/empire.png', tint:'#C36060', desc:'Rome, Constantinople, and Milan, c. 312–451 CE — bishops beside a throne, arguing over who finally speaks for it.' },
+  { id:'desert-monasticism', name:'Papnoute', trad:'Desert Fathers and Mothers', img:'assets/portraits/desert.png', tint:'#128D84', desc:'The Nile Valley and the desert of Egypt, c. 320–430 CE — a lifelong combat within, and authority never settled between elder and rule.' },
+  { id:'cappadocian-nicene-pastoral-monastic-tradition', name:'Chilo', trad:'The Cappadocian Churches', img:'assets/portraits/cappadocian.jpg', tint:'#C46437', desc:'Cappadocia and Pontus, c. 325–394 CE — a radical ferment given a rule, a guest-door, and a martyr of its own.' },
+  { id:'hieronymian-ascetic-literary', name:'Albina', trad:'The Bethlehem Circle', img:'assets/portraits/bethlehem.png', tint:'#E23B7F', desc:'Rome and Bethlehem, c. 382–420 CE — women who funded and founded it, in a record almost entirely one man’s own hand.' }
 ];
 
 var roster = document.getElementById('roster');
