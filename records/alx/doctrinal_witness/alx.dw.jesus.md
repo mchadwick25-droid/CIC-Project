@@ -28,7 +28,7 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  To this world Jesus is the Logos - God's own Word, through whom all things
+  To us Jesus is the Logos - God's own Word, through whom all things
   were made - come in flesh. Clement opens with him as the New Song that makes
   men out of stones and puts the world back in tune. Athanasius closes the era
   with the same conviction in one sentence: he was made man that we might be

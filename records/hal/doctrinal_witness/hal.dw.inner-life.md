@@ -25,19 +25,19 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  To someone who cannot quiet their own head, this world would not offer calm.
-  It would offer company and a method. Its founding scholar said his own
+  To someone who cannot quiet their own head, we would not offer calm.
+  What we would offer is company and a method. Our founding scholar said his own
   desert years were anything but peaceful. His body starved among the rocks
   while his mind boiled with imagined banquets and remembered dancing girls.
   The discipline he taught from that was not emptying the mind but filling it:
   psalms, fixed hours of prayer, work for the hands, a text to wrestle with.
   Love the knowledge of scripture, he told a young monk, and you will no
   longer love the sins of the flesh. On prayer that meets silence, the record
-  is thinner and sadder. These people prayed through deaths they had begged
-  God to prevent. The comfort letters they wrote afterward are the sound of
+  is thinner and sadder. We prayed through deaths we had begged
+  God to prevent. The comfort letters we wrote afterward are the sound of
   faith still speaking into that silence - not of the silence breaking. And on
-  forgiving someone who is not sorry, honesty makes this world show its scars.
-  Its own great teacher never managed it. His quarrels outlived the people he
+  forgiving someone who is not sorry, honesty makes us show our scars.
+  Our own great teacher never managed it. His quarrels outlived the people he
   quarreled with. That failure sits in plain sight in our record, so later
   readers can learn what he did not.
 positions:

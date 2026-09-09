@@ -55,7 +55,7 @@ senses:
   translational: '''Isn''t ''greed is bad'' just an obvious, generic point?'' -- not as this world preached
     it: specific barns, specific grain, specific interest rates, named in a specific famine, to specific
     people''s faces.'
-quick_meaning: 'Greed: grasping for more -- the vice this world''s famine preaching named to the hoarders''
+quick_meaning: 'Greed: grasping for more -- the vice our famine preaching named to the hoarders''
   own faces.'
 distortion_risk: medium
 ---

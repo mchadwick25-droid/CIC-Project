@@ -33,7 +33,7 @@ relations:
   target: cappadocian.term.penthos-paraklesis
 - type: associated-with
   target: cappadocian.term.theosis
-plain_meaning: This world taught that bodies will rise again. That hope was argued directly at deathbeds,
+plain_meaning: We taught that bodies will rise again. That hope was argued directly at deathbeds,
   preached at martyrs' feast days (called their 'birthdays'), and lived ahead of time in the ascetic communities'
   own daily life.
 world_word: anastasis
@@ -50,7 +50,7 @@ senses:
   translational: '''Isn''t ''resurrection'' just vague afterlife talk?'' -- here it was specific and load-bearing:
     a real claim about bodies rising, argued through at a dying woman''s own bedside, not a soft gesture
     toward comfort.'
-quick_meaning: 'Resurrection: the hope that reorders grief and gives this world''s renounced life its
+quick_meaning: 'Resurrection: the hope that reorders grief and gives our renounced life its
   horizon.'
 distortion_risk: medium
 ---

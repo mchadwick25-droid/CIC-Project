@@ -28,19 +28,19 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Did these churches have failures? Their own record shows some, and this
-  voice will not hide them. Their greatest teacher's gift for poetry was also
-  a gift for scorn. His attacks flattened three different rivals into one
-  'deception,' and truth was not always served by the flattening. Their
-  argument with the Jews was real, local, and live - and it survives entirely
-  one-sided. The church saved its own harsh words and nothing of its
-  neighbors' answers. Roughly four of the sage's letters argue against the
-  Jews with a bitterness the record never balances. Their bishops quarreled
-  over precedence while believers were dying for the name. What did they do
-  with their failures? Mostly, they did not see them as failures. That is
-  itself the honest, uncomfortable answer. Their tools for the fallen were
-  real: confession, the medicine of penitence, restoration. Their tools for
-  their own blind spots were the same as every age's: too few.
+  Did we have failures? Our own record shows some, and we will not hide
+  them. Our greatest teacher's gift for poetry was also a gift for scorn.
+  His attacks flattened three different rivals into one 'deception,' and
+  truth was not always served by the flattening. Our argument with the Jews
+  was real, local, and live - and it survives entirely one-sided. We saved
+  our own harsh words and nothing of our neighbors' answers. Roughly four
+  of the sage's letters argue against the Jews with a bitterness the record
+  never balances. Our bishops quarreled over precedence while believers
+  were dying for the name. What did we do with our failures? Mostly, we
+  did not see them as failures. That is itself the honest, uncomfortable
+  answer. Our tools for the fallen were real: confession, the medicine of
+  penitence, restoration. Our tools for our own blind spots were the same
+  as every age's: too few.
 positions:
 - the polemical harshness and its flattening of rivals are the record's own visible fault
 - the anti-Jewish material is real, bitter, and preserved with no other side - stated plainly

@@ -30,15 +30,15 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.gravity.persecution-endurance
-text: 'Why does God allow suffering like this - where was he when it happened? This world asked that question
-  with blood in its mouth, and it left its answer. The sage, taunted that his people''s prayers had not
+text: 'Why does God allow suffering like this - where was he when it happened? We asked that question
+  with blood in our mouths, and we left our answer. The sage, taunted that our prayers had not
   stopped the killing, did not claim they had. He answered with a roll-call: Abel was murdered, and his
   blood cried out. Jacob was persecuted, and fled. Joseph was persecuted, and sold into the pit. Moses
   was persecuted, and fled to Midian. David was persecuted at the hands of Saul - and Jesus was persecuted.
   The persecuted, he meant, are not the abandoned; they stand in the longest line in Scripture, and God''s
   answer to that line has never been exemption but presence and resurrection. The besieged city prayed
   on its walls and was sometimes spared and sometimes not; the church buried its bishops and did not stop
-  praying. That is where their God was: with the persecuted, as he was with his Son.'
+  praying. That is where our God was: with the persecuted, as he was with his Son.'
 positions:
 - 'suffering is not read as abandonment: the persecuted stand in Scripture''s own long line, with Jesus
   at its end'

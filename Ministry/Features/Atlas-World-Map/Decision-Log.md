@@ -13,6 +13,133 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-31 (still later) — Founding principle stated: the base program is the whole ecology, not the built worlds
+
+**Origin.** After the storyboard's ten-scene revision, Mark stated the
+principle underneath it plainly: *"we are building for all the worlds, build
+and not, just the built worlds are marked so they can dive deeper. as we
+build more worlds we mark those and deepen their content as they come online,
+but the base program is about the entire ecology, not the build worlds."*
+
+**Decided.** The Atlas's scope is the full census (292 movements, all ten
+eras) as it stands today — not a map of the six built worlds with
+placeholders around them. "Built" is one honest attribute a movement can
+carry (it unlocks deeper content and a live conversation), never the
+organizing principle of what the map shows or how much of it is real. As more
+worlds are built, they get marked and deepened in place; the map's own scope
+does not grow to catch up with the build — it was already whole.
+
+**Applied immediately.** This ratifies, rather than changes, the same-day
+ten-scene restructuring: the earlier seven-scene draft implicitly organized
+around the six built worlds, and the fix already moved to organizing around
+the real ecology instead. Foregrounded as the storyboard's own leading thesis
+(REV 3, both the `.md` and the published artifact) and logged as a captured
+decision in `Design/CiC_Atlas_Reimagined_Divergent_Capture_V1_2026-08-31.md`
+§10.4, so the reasoning survives independent of this one document's own
+revisions.
+
+### Next action
+
+None yet — carries forward as a standing principle for any future work on
+this thread, including whichever tool or build eventually gets chosen.
+
+---
+
+## 2026-08-31 (later same day) — Divergent-phase interview, session 1: captured, paused at Mark's request
+
+**Origin.** Following the research thread below, Mark asked to work the same
+territory as a live interview instead — his framing, explicit: Sam Kaner's
+diamond (divergent → groan zone → convergent), currently in the **divergent**
+zone, Claude interviewing him rather than presenting findings. Also set two
+governing frames for this whole line of work: (1) sandbox only, the live
+system stays untouched until a full replacement exists and is judged clearly
+better; (2) this thread is the Atlas/map's own visual and engagement quality
+built on what's live — not the surrounding modules (sermon prep, a
+curriculum, direct interview/Table access, the separately-scoped
+living-movements-today program).
+
+**Output:** `Design/CiC_Atlas_Reimagined_Divergent_Capture_V1_2026-08-31.md`
+— a full, theme-organized capture of the session, produced at Mark's request
+to pause and hold what had accumulated before continuing. Covers: the felt
+qualities wanted (discovery energy, deep engagement, hardships held humbly
+not sensationally); organizing lenses (geography, tradition family,
+theological distinctives, practices); the core diagnosis (access is solved,
+the failure is overview-vs-detail — "a spreadsheet that doesn't fit on the
+page, but to get it on the page it's too small"); and an emerging core visual
+concept — **a living landscape of time × swim lanes, realized as rivers**
+(mapping cleanly onto the existing `formed`/`transmitted to`/`continuesAs`
+edges, resonant with this exact build's own internal "Ongoing Streams"
+design name), with interaction/tension carried by a small, quiet, scalable
+mark rather than a dramatic effect. Nothing in it is decided except three
+real rulings, also logged in `CiC_FrontEnd_Decision_Log.md`'s own
+2026-08-31 entry: the sandbox constraint, the Hosted Tour staying Phase 2
+("don't box the door shut"), and the thread-scope boundary above.
+
+**Heart of it, unchanged from the research thread:** the gap is comprehension
+at scale, not missing sourcing — confirmed directly by Mark this session,
+independently of the earlier document's own finding.
+
+### Next action
+
+None yet — divergent phase paused, not closed, at Mark's own request. Several
+open threads named in the capture's §11 (what a "headline" says, what
+"pictures" means in practice, the terrain around the rivers, which tool gets
+chosen) are explicitly left for a later continuation of this same interview,
+not for this thread to resolve alone.
+
+---
+
+## 2026-08-31 — Research/ideation thread: "Atlas reimagined" (game-grade visuals, linking, sourcing) — explores, does not build
+
+**Origin.** Mark's own words: *"the atlas/map we have is good, but i want to
+explore the idea of better graphics, linking and sourcing as a way to help
+people see the big picture and not get overwhelmed... i am thinking updated
+age of empire details, or even other games that have these interactive worlds
+that each have features and connect with eachother."* A pure research/ideation
+launch — no code changed, no census edited, nothing decided.
+
+**Output:** `Design/CiC_Atlas_Reimagined_Research_and_Ideas_V0_1_DRAFT.md`.
+Reads `atlas-v3.html`/`world-census.json` as they actually stand (already a
+sourced connection map with hover-trace lineage, typed/confidence-coded edges,
+and a full relational click-sheet — richer than the brief's framing implied),
+checks `records/alx/` and `records/pahc/` for real, sourced cross-world
+connections the current five edge types can't yet express (a shared source
+both worlds cite independently — Eusebius's *Historia Ecclesiastica*; a shared
+figure cited for unrelated reasons — Athanasius's Festal Letter 39 inside
+pahc's own canon record; a documented "adjacency without asserted contact" —
+`pahc.force.alexandria-emergence`), surveys strategy-game campaign maps
+(Crusader Kings III, Age of Empires IV, Civilization's tech tree, branching
+roguelike maps) and closer non-game analogues (Stanford ORBIS, Pelagios/
+Peripleo, museum interactive-timeline design, NYT/Pudding-style
+scrollytelling) for mechanism rather than aesthetics, and returns an idea
+portfolio organized whole-story → era → world → a world's own features
+(gravities/figures/sources/stories, the corpus's own ontology under
+`records/<world>/`).
+
+**Two things flagged for Mark's own read, not settled here:** (1) every idea
+is checked against the anti-ghost principle (scoped to figures, not map
+chrome) and the stillness/reduced-motion posture (motion rare and meaningful,
+never ambient) named in `CiC_Full_UX_Design_V1_0.md`, with any idea that would
+add real motion or bend either rule named explicitly rather than assumed
+clear; (2) the document is explicit that a "these worlds connect" map feature
+must never visually merge two different things this project already keeps
+distinct — a *sourced historical relationship* (the census edge) and the
+Facilitator's own *conversational-contrast* judgment for Table seating
+(`CiC_Table_Pairings_V1_2026-08-28.md`'s C6 record, whose own no-foreknowledge
+rule states historical acquaintance "no longer matters to the mechanics").
+
+**Heart of it:** the brief's own gap is comprehension at scale, not missing
+sourcing or missing connections — both already exist in more depth than the
+brief's framing assumed. "Game-grade" should buy a navigable hierarchy over
+what's already sourced, not more content or ambient visual motion.
+
+### Next action
+
+Mark's read of the document. Nothing here is authorized to build; any idea
+that moves forward needs its own launch thread.
+
+---
+
 ## 2026-08-27 (Pass 6) — census 274→292, added by the CORPUS rather than by a Step 0 gate; the pile bar, Mark's override of it, and the Lactantius split
 
 **This entry exists because eighteen movements entered the census without one

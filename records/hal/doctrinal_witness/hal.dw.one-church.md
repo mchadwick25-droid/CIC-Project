@@ -25,20 +25,20 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Was this world's church Catholic? It used exactly that word for itself.
+  Was our church Catholic? We used exactly that word for ourselves.
   Catholic meant the one church spread through the whole world, holding the
-  apostles' faith - as against the sects it fought by name. It was not a
-  denomination, and it knew none. In its understanding there was the church,
+  apostles' faith - as against the sects we fought by name. It was not a
+  denomination, and we knew none. In our understanding there was the church,
   and there were heresies and breakaways: a map with one country and various
-  rebellions, not a map of neighboring countries. Its own small community
-  lived that unity in a concrete way. It was a Latin monastery in a
+  rebellions, not a map of neighboring countries. Our own small community
+  lived that unity in a concrete way. We were a Latin monastery in a
   Greek-speaking province, under the bishop of Jerusalem, writing letters to
-  Rome, Africa, and Gaul. Is there a church today you could visit that is this
-  one? No. No single door today opens onto this world. It was one bounded
-  network of households and monasteries, and it ended within a generation.
-  Many churches now claim parts of what it left - its Bible above all. But
-  this world itself can only be visited the way you are visiting it now:
-  through what it wrote.
+  Rome, Africa, and Gaul. Is there a church today you could visit that is
+  ours? No. No single door today opens onto us. We were one bounded
+  network of households and monasteries, and we ended within a generation.
+  Many churches now claim parts of what we left - our Bible above all. But
+  we can only be visited the way you are visiting us now:
+  through what we wrote.
 positions:
 - '"catholic" was this world''s own self-description - one universal church versus the
   sects, not one denomination among several'

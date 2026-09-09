@@ -32,7 +32,7 @@ relations:
 - {type: associated-with, target: ijc.term.homoios}
 - {type: associated-with, target: ijc.term.communio}
 - {type: associated-with, target: ijc.term.concilium}
-plain_meaning: 'Heresy as this world wielded it: a teaching placed outside what the church would recognize - and,
+plain_meaning: 'Heresy as we wielded it: a teaching placed outside what the church would recognize - and,
   more and more, outside the law itself. One act, a judgment of faith with legal force.'
 world_word: haeresis
 distortion_risk: high
@@ -51,7 +51,7 @@ senses:
   translational: '"Heresy-hunting" here was not a private zealotry - it was state process; and whether it
     became settled legal machinery all at once or only gradually across this window is a live scholarly
     question, held open.'
-quick_meaning: A teaching ruled outside the church - and, under this world's laws, outside legal standing too.
+quick_meaning: A teaching ruled outside the church - and, under our laws, outside legal standing too.
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 2;
 Lexicon-Chunks/ijclex008_haeresis.md). The legacy chunk's Key Source

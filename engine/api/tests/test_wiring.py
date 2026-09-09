@@ -2,10 +2,38 @@
 translate a TurnResult into the right event-log/usage-log writes, in the
 right order, including the two branches run_turn() itself doesn't fully
 handle content for (crisis, unhandled routing)."""
+import uuid
+from pathlib import Path
+
 import pytest
 
 from engine.api import wiring
 from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety_response
+from engine.m2.compiler import compile_and_hash
+
+
+def _compile_fix_package(tmp_path: Path, package_id: str) -> tuple[str, str]:
+    """A real, freshly-compiled fix package written under tmp_path, distinct
+    from any other call by package_id alone (same records in, but package_id
+    is embedded in the manifest, so the hash differs even though every other
+    byte is identical - real repin behavior: content didn't change, the pin
+    did). Returns (location, manifest_hash); location is the tmp_path
+    directory's own absolute path, which _load_world's `REPO_ROOT /
+    location` resolves to unchanged (pathlib: an absolute right operand
+    wins), so this needs no repo-root-relative placement at all - fully
+    hermetic, no dependency on any package actually committed to the repo
+    (packages/README/.gitignore: compiled bytes are derived, never
+    committed - only manifest.json is, which is what caught the first
+    version of this test using real historical packages: it passed locally
+    off compiled bytes this session's own `build` calls had left on disk,
+    and failed on every clean checkout, CI included, 2026-09-04)."""
+    package, digest = compile_and_hash(world_key="fix", package_id=package_id, records_commit="TEST", compiler_version="TEST")
+    out_dir = tmp_path / package_id
+    for rel_path, content in package.items():
+        target = out_dir / rel_path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(content)
+    return str(out_dir), digest
 
 
 def test_create_session_opens_exactly_one_session_started(store, world_loader, registry):
@@ -23,6 +51,53 @@ def test_create_session_opens_exactly_one_session_started(store, world_loader, r
 def test_create_session_unknown_world_raises(store, world_loader, registry):
     with pytest.raises(wiring.UnknownWorldError):
         wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="does-not-exist")
+
+
+def test_a_repin_mid_session_does_not_refuse_the_in_flight_session(store, usage_store, world_loader, registry, tmp_path):
+    """Regression, 2026-09-04: a live bug Mark hit on turn 3 of a real
+    conversation, root-caused to _load_world() always resolving the package
+    DIRECTORY through the registry's CURRENT pointer rather than the one a
+    session actually verified against at open. A repin between session-open
+    and a later turn (exactly what happened live - a routine records/
+    worlds.yaml commit landing mid-conversation) made every later turn
+    refuse with PackageRefused -> 503, permanently, for that session.
+
+    Compiles two real fix packages of its own (see _compile_fix_package) -
+    proves the fix against real compile_world() output, not a synthetic
+    manifest, while staying hermetic against a clean checkout."""
+    old_location, old_hash = _compile_fix_package(tmp_path, "test-repin-old")
+    new_location, new_hash = _compile_fix_package(tmp_path, "test-repin-new")
+    registry["fix"]["package"]["location"] = old_location
+    registry["fix"]["package"]["manifest_hash"] = old_hash
+
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    started = store.read_events(session_id)[0]
+    assert started.payload["package_manifest_hash"] == old_hash
+    assert started.payload["package_location"] == old_location
+
+    # The repin: only the registry's pointer moves, same as a real
+    # records/worlds.yaml commit - old_location's bytes are untouched.
+    registry["fix"]["package"]["location"] = new_location
+    registry["fix"]["package"]["manifest_hash"] = new_hash
+
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"),
+        reader_response=reader_response(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    result = wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id, text="who was Jesus", client_msg_id="msg-1",
+    )
+    assert result.turn_no == 1  # did not raise PackageRefused
+
+    # And a brand-new session opened AFTER the repin correctly pins the NEW
+    # package - both stay independently correct in the same process/loader.
+    session_id_2, _code_2 = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    started_2 = store.read_events(session_id_2)[0]
+    assert started_2.payload["package_manifest_hash"] == new_hash
+    assert started_2.payload["package_location"] == new_location
 
 
 def test_ordinary_message_appends_events_in_order(store, usage_store, world_loader, registry):
@@ -416,6 +491,29 @@ def test_the_tenth_completed_turn_still_answers_and_the_eleventh_closes(store, u
         )
 
 
+def test_an_idle_closed_session_still_answers_a_resuming_participant(store, usage_store, world_loader, registry):
+    """engine.m4.idle_close's reporting-only contract, from the API side:
+    unlike the cap close proven above, an idle close never raises
+    SessionClosed - a participant coming back with their session code
+    gets a real answer, not a 409."""
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="session_closed", payload={"reason": "idle"})
+
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    result = wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id, text="still there?", client_msg_id="msg-after-idle",
+    )
+    assert result.voice is not None
+
+    state = wiring.get_transcript(store, session_id)
+    assert state.closed is False
+
+
 def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_loader, registry):
     worlds = wiring.list_worlds(world_loader=world_loader, registry=registry)
 
@@ -423,7 +521,7 @@ def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_l
     assert {w["world_key"] for w in worlds} == {k for k, v in registry.items() if v.get("kind") == "formation"}
 
     pahc = next(w for w in worlds if w["world_key"] == "pahc")
-    assert pahc["display_name"] == "Post-Apostolic House-Church Christianity"
+    assert pahc["display_name"] == "Post-Apostolic Household-Church Christianity"
     assert pahc["representative"] == {"name": "Chloe", "role_label": "Household Leader"}
     assert pahc["census_id"] == "post-apostolic-house-church"
     assert pahc["horizon"] and "Antioch" in pahc["horizon"]

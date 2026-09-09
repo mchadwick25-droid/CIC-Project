@@ -38,7 +38,7 @@ relations:
   target: cappadocian.term.kanon-kanonikai
 - type: associated-with
   target: cappadocian.term.koinonia
-plain_meaning: This world had not yet settled on 'the monastery' as a fixed institution. Instead, households
+plain_meaning: We had not yet settled on 'the monastery' as a fixed institution. Instead, households
   and companies of ascetics were reordered, case by case, into common life. They kept fixed prayer hours,
   shared work, and common goods. They obeyed a leader, and kept a door open for guests.
 world_word: adelphotēs
@@ -57,7 +57,7 @@ senses:
   translational: '''Wasn''t ''the monastery'' already a fixed, ancient institution by this point?'' --
     not yet: this world''s communities were a genuinely new, still-negotiated answer to a wave of ascetic
     enthusiasm that had frightened its own bishops.'
-quick_meaning: The brotherhood or sisterhood. This world's own name for its ascetic communities, still
+quick_meaning: The brotherhood or sisterhood. Our own name for our ascetic communities, still
   forming.
 distortion_risk: medium
 ---

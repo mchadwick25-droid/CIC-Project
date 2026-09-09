@@ -45,9 +45,9 @@ text: >-
   us, and then for a just decision to be passed from this place? He had not
   attended their council. He wrote as though his absence were their defect.
   And the letter survives only because Athanasius himself quoted it at length,
-  years later, while defending his own restored standing. It is this world's
+  years later, while defending his own restored standing. It is our
   earliest surviving example of the claim. (Rome had asserted its standing
-  before this - Victor around 190, Stephen in 256 - but outside this world's
+  before this - Victor around 190, Stephen in 256 - but outside our
   own years.) It was preserved not by Rome's own hand, but by the man Rome had
   helped.
 absent_detail: The Eusebian party's own letter to Julius (the anti-Nicene faction named for Eusebius of

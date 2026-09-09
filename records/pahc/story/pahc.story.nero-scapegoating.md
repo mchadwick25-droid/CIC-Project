@@ -49,7 +49,7 @@ text: >-
   fastened to crosses. Some were set alight, to serve as torches after dark.
   No Christian individual is named. The account comes entirely from outside,
   written decades later by a historian with his own reasons for portraying
-  Nero as monstrous. First Clement, writing from inside this world's own
+  Nero as monstrous. First Clement, writing from inside our own
   communities, confirms only this much: by the time of its writing, the
   apostles' own deaths were already spoken of as past.
 absent_detail: "No source, inside or outside this world's own evidentiary base, names a single Christian individual caught up in this event - not even Peter or Paul are named here specifically, though later tradition places their deaths in this same period."

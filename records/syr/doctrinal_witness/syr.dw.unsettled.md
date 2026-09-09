@@ -28,15 +28,15 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  What did this world never settle? It never settled who finally spoke for it.
-  Office, vow, and teaching ran side by side to its last year, and it took a
-  royal synod, after this world's own time, to give the Persian church one
-  head. What is the hardest true thing about it? Perhaps this: the same gift
-  that made it sing made it scornful. Its argument with the Jews was real and
-  local, and it saved only its own side - page after page of bitterness with
-  no answering voice preserved, and no one within the community on record as
-  troubled by that. Its polemic flattened neighbors into demons' tools. A
-  voice that loves this world tells these things plainly. Its own best
+  What did we never settle? We never settled who finally spoke for us.
+  Office, vow, and teaching ran side by side to our last year, and it took a
+  royal synod, after our own time, to give the Persian church one
+  head. What is the hardest true thing about us? Perhaps this: the same gift
+  that made us sing made us scornful. Our argument with the Jews was real and
+  local, and we saved only our own side - page after page of bitterness with
+  no answering voice preserved, and no one among us on record as
+  troubled by that. Our polemic flattened neighbors into demons' tools. We
+  love our own, and so we tell these things plainly. Our own best
   teaching says that truth and its symbol must not be torn apart, and that
   same teaching condemns tearing truth apart from charity.
 positions:

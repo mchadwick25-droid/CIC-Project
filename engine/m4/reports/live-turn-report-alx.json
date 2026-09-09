@@ -3,12 +3,12 @@
   "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
   "region": "us-east-1",
   "world_key": "alx",
-  "manifest_hash": "sha256:7f67ad078582c4aa60ef4a86bff63107e9c124a944cef1d7baaff2fac70cd818",
-  "package": "packages/alx/2026-08-29T22-06-48Z",
+  "manifest_hash": "sha256:227518a14932c93ab7f8ed910c84068c9277cce983dece103fa6a54e7db0faf9",
+  "package": "packages/alx/2026-09-04T16-41-49Z",
   "results": [
     {
       "id": "message-1",
-      "message": "Was Jesus God to you? Did you believe in the Trinity?",
+      "message": "What did you consider Scripture, and how did you decide what counted?",
       "prior_turns_replayed": 0,
       "result": {
         "routing_action": "voice_with_directive",
@@ -16,33 +16,156 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "alx",
-          "text": "From the beginning we worshiped Jesus as the Logos, God's own Word, and we baptized into Father, Son, and Holy Spirit - Clement and Origen said 'God the Word' without embarrassment. But the precise wording was the work, and the wound, of our last years. When Arius taught that the Son was the first and highest creature, the council at Nicaea answered with homoousios: of one substance with the Father. Athanasius's account of the council is explicit that no new God was voted in. The fathers reached for a word not found in Scripture only because every scriptural phrase had been swallowed by the other side with a private meaning. 'Trinity' as later textbooks define it lies mostly beyond our time. What we hold is the worship, the baptismal formula, and the fought-for conviction that only God can join us to God.\n\nAnd here is what that fight cost us: it drew a line our teachers had not always needed. Before Nicaea, Origen could explore what Scripture left open - that was inquiry as devotion. After it, the homoousios was the boundary, and bishops wielded exile to defend it. We kept both: the freedom to ask, and the line we would not cross. Athanasius put the whole movement in one sentence: 'He was made man that we might be made God'. That - sharing in God's own life, because the Word entered our flesh - was never speculation. It was the center we would not surrender.",
+          "text": "What we considered Scripture was this: the books we read together, everywhere the churches were in communion - the Hebrew books we call the Old Testament, and the apostolic writings about Christ and his people.\n\nHow we decided what counted is the harder question, and we will answer it with what we actually did rather than a rule we wrote down first.\n\nWe used what we received. The churches already read these books aloud when we gathered, already baptized with their words, already taught from them. Athanasius, near the end of our era, wrote it plainly: these are \"the books included in the Canon\" and \"appointed by the Fathers to be read\". The apostolic writings - the four gospels, Paul's letters, the other apostles' letters - were already in our hands as the testimony of those who had seen and heard.\n\nThe boundary mattered to us because it was tested. Teachers came to Alexandria claiming secret gospels, hidden teachings, knowledge for the few. Valentinus had taught here; his students still did. They read our same books and added their own - the Gospel of Truth, the Gospel of Philip - and said the apostles had kept back the real teaching for an inner circle. We said no: what the apostles handed down was public, not secret, and the books the whole church read together were the ground we stood on. \n\nWhat held the reading together was not first a list, but a center. The Logos - God's own Word, who made all things and became flesh in Jesus - was the one we met in every text, Old Testament and New alike. Origen said it openly: the Gospels are \"the first fruits of all the Scriptures,\" but the whole of Scripture is one voice, and that voice is Christ.\n\nThe exact edges - which books, in what order - we held more loosely than you might expect. Athanasius lists them, and then names other books \"not included in the Canon\" but still read for instruction. Dionysius tested the Apocalypse by its style and said plainly he could not reject it, though it was higher than he could grasp. The center was fixed - the apostolic witness, received and read by all the churches. The outer boundary had some give.\n\nOne more thing, because your question reaches toward a decision-moment we cannot show you. We did not gather in a room one day and vote these books in. We used them, tested teachings against them, defended them against rival claims - and the using was the deciding. The formal list Athanasius wrote came at the end of our period, not the beginning. What came first was the books themselves, read aloud every Lord's Day, with the Logos as the voice speaking through them all.",
           "citations": [
             {
-              "sentence": "When Arius taught that the Son was the first and highest creature, the council at Nicaea answered with homoousios: of one substance with the Father.",
+              "sentence": "Teachers came to Alexandria claiming secret gospels, hidden teachings, knowledge for the few.",
               "record_ids": [
-                "alx.term.homoousios",
-                "alx.force.arian-controversy"
+                "alx.force.gnostic-challenge"
               ],
               "sources": [
                 {
-                  "record_id": "alx.term.homoousios",
-                  "record_type": "term",
-                  "label": "homoousios",
+                  "record_id": "alx.force.gnostic-challenge",
+                  "record_type": "force",
+                  "label": "The Gnostic Challenge, c. 150-300",
                   "sources": [
                     {
-                      "source_id": "alx.source.athanasius-de-decretis",
+                      "source_id": "alx.source.clement-stromateis",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                      "locus": "II-VII (the true-gnostic argument)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.origen-de-principiis",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, with its known doctrinal softening",
+                      "locus": "praef. (the Rule of Faith against esoteric claims)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We said no: what the apostles handed down was public, not secret, and the books the whole church read together were the ground we stood on.",
+              "record_ids": [
+                "alx.dw.apostolic"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.dw.apostolic",
+                  "record_type": "doctrinal_witness",
+                  "label": "How do you know your practices went back to the apostles, and were not later inventions?…",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.origen-de-principiis",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, with its known doctrinal softening",
+                      "locus": "praef.",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.athanasius-festal-letters",
                       "author": "Athanasius of Alexandria (c. 296-373 CE)",
-                      "work": "De Decretis (Defence of the Nicene Definition), c. 352 CE - post-325 material",
-                      "locus": "19-20 (the word's defense)",
+                      "work": "Festal Letters (the surviving set, preserved in Syriac; including Letter 39 of 367 CE with the canon list)",
+                      "locus": "Letter 39 (the received scriptures)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The Logos - God's own Word, who made all things and became flesh in Jesus - was the one we met in every text, Old Testament and New alike.",
+              "record_ids": [
+                "alx.term.logos",
+                "alx.gravity.logos-unity"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.term.logos",
+                  "record_type": "term",
+                  "label": "Logos",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                      "locus": "I-II",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.clement-protrepticus",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Protrepticus (Exhortation to the Heathen)",
+                      "locus": "I",
                       "rights_status": "public-domain"
                     }
                   ]
                 },
                 {
-                  "record_id": "alx.force.arian-controversy",
-                  "record_type": "force",
-                  "label": "The Arian Controversy, c. 318-381",
+                  "record_id": "alx.gravity.logos-unity",
+                  "record_type": "gravity",
+                  "label": "Logos-Centered Unity",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.clement-protrepticus",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Protrepticus (Exhortation to the Heathen)",
+                      "locus": "I (line 15213)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                      "locus": "I",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.athanasius-contra-arianos",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "Orationes contra Arianos (Four Discourses Against the Arians) - post-325 material; must not be smeared across the pre-Nicene horizon",
+                      "locus": "I (post-325)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Origen said it openly: the Gospels are \"the first fruits of all the Scriptures,\" but the whole of Scripture is one voice, and that voice is Christ.",
+              "record_ids": [
+                "alx.quote.origen-gospel-firstfruits"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.quote.origen-gospel-firstfruits",
+                  "record_type": "quote",
+                  "label": "Commentary on the Gospel of John, books I-X, I.6 — Origen",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                      "locus": "I.6 (anf09 ~line 20576)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We used them, tested teachings against them, defended them against rival claims - and the using was the deciding.",
+              "record_ids": [
+                "alx.dw.councils"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.dw.councils",
+                  "record_type": "doctrinal_witness",
+                  "label": "Who had the right to decide, when belief was disputed? And how did it actually work? Our…",
                   "sources": [
                     {
                       "source_id": "alx.source.athanasius-de-decretis",
@@ -52,18 +175,366 @@
                       "rights_status": "public-domain"
                     },
                     {
-                      "source_id": "alx.source.athanasius-contra-arianos",
-                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
-                      "work": "Orationes contra Arianos (Four Discourses Against the Arians) - post-325 material; must not be smeared across the pre-Nicene horizon",
-                      "locus": "I-IV",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
+                      "locus": "VII.24",
                       "rights_status": "public-domain"
                     }
                   ]
                 }
               ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "alx.term.scripture-as-address",
+              "matched_name": "Scripture",
+              "plain_meaning": "Scripture is not a historical record of what God once said - it is the Logos speaking now, through the text, to a soul formed to hear.",
+              "quick_meaning": "Scripture as the Logos speaking now, not a record of what God once said.",
+              "translational_sense": "'Isn't reading the Bible just interpreting an old text correctly?' - not for this world; the task was never correct interpretation alone, but genuine encounter with someone actually speaking, now.",
+              "false_friend": [
+                "a set of fixed propositions to be believed",
+                "a collection of ancient documents to be analyzed"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "alx.source.origen-comm-john",
+                  "author": "Origen (c. 185-254 CE)",
+                  "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                  "locus": "I.6 (anf09 ~line 20576)",
+                  "rights_status": "public-domain"
+                }
+              ]
             },
             {
-              "sentence": "What we hold is the worship, the baptismal formula, and the fought-for conviction that only God can join us to God.",
+              "id": "alx.term.logos",
+              "matched_name": "Logos",
+              "plain_meaning": "The Word: God's own reason and speech, through whom all things were made, and who became flesh in Jesus.",
+              "quick_meaning": "God's own Word and reason, made flesh in Jesus.",
+              "translational_sense": "'Was Jesus God?' - this world answers through the Logos: God's own Word made flesh; after 325, 'of one substance with the Father.'",
+              "false_friend": [
+                "logic (it is not a method of argument)",
+                "a mere word or saying"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "alx.source.origen-comm-john",
+                  "author": "Origen (c. 185-254 CE)",
+                  "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                  "locus": "I-II",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.clement-protrepticus",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Protrepticus (Exhortation to the Heathen)",
+                  "locus": "I",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.clement-protrepticus",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Protrepticus (Exhortation to the Heathen)",
+                  "locus": "I (line 15213)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.origen-comm-john",
+                  "author": "Origen (c. 185-254 CE)",
+                  "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                  "locus": "I",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.athanasius-contra-arianos",
+                  "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                  "work": "Orationes contra Arianos (Four Discourses Against the Arians) - post-325 material; must not be smeared across the pre-Nicene horizon",
+                  "locus": "I (post-325)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "alx.figure.athanasius",
+              "matched_name": "Athanasius",
+              "names": [
+                {
+                  "name": "Athanasius",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Athanasius of Alexandria (c. 296-373, bishop 328-373)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the bishop who spent forty-six embattled years holding the line drawn at Nicaea - and who wrote the treatise this world's Center answers from",
+              "dates": {
+                "born": "c. 296-298 (scholarly convention)",
+                "died": "373 (consensus), 'in the second consulate of Gratian and Probus... having governed that church amidst the greatest perils forty-six years' (Socrates HE IV.20, npnf202 lines 13310-13322, verified; NOTE: that edition's own editor note reads the consulate as 371 and flags Jerome's Chronicle as discordant - the discrepancy is stated, not resolved)",
+                "floruit": "bishop 328-373, exiled five times; the dominant late-horizon voice"
+              },
+              "sourced_by": []
+            },
+            {
+              "id": "alx.figure.origen",
+              "matched_name": "Origen",
+              "names": [
+                {
+                  "name": "Origen",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Origen of Alexandria (Origenes Adamantius, c. 185-c. 253/4)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the school's greatest and most contested teacher - a man the tradition revered, inherited, cautioned about, and in part later condemned, all within living memory of his chair",
+              "dates": {
+                "born": "c. 185 (derived: HE VII.1 has him dying at 69 under Gallus, 251-253)",
+                "died": "c. 253/4, Tyre, after imprisonment and torture under Decius - 'At this time Origen died, being sixty-nine years of age' (HE VII.1, npnf201 line 39163, verified verbatim)",
+                "floruit": "head of catechetical instruction from his eighteenth year (HE VI.3, npnf201 line 32732, verified); Alexandria until the Demetrius rupture c. 231-234, then Caesarea"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "alx.source.origen-comm-john",
+                  "author": "Origen (c. 185-254 CE)",
+                  "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                  "locus": "I.6 (anf09 ~line 20576)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            },
+            {
+              "id": "alx.figure.dionysius",
+              "matched_name": "Dionysius",
+              "names": [
+                {
+                  "name": "Dionysius",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Dionysius of Alexandria ('the Great', bishop c. 248-264)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the teacher-become-bishop who led the church through plague and persecution, and answered a book against allegory with three days of patient listening",
+              "dates": {
+                "born": null,
+                "died": "c. 264/5 (Eusebius-derived)",
+                "floruit": "head of the teaching tradition, then bishop c. 248-264: the Decian persecution, the lapsed controversy, the plague, the Nepos affair"
+              },
+              "sourced_by": []
+            }
+          ],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "What we considered Scripture was this: the books we read together, everywhere the churches were in communion - the Hebrew books we call the Old Testament, and the apostolic writings about Christ and his people.",
+                "tags": [
+                  "alx.dw.god"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['hebrew', 'old']) only 12% grounded in its own tags",
+                "ratio": 0.12
+              },
+              {
+                "sentence": "How we decided what counted is the harder question, and we will answer it with what we actually did rather than a rule we wrote down first.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "We used what we received.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The churches already read these books aloud when we gathered, already baptized with their words, already taught from them.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Athanasius, near the end of our era, wrote it plainly: these are \"the books included in the Canon\" and \"appointed by the Fathers to be read\".",
+                "tags": [
+                  "alx.quote.appointed-by-the-fathers-to-be-read"
+                ],
+                "verdict": "withhold",
+                "why": "quoted span not found verbatim in any tagged record"
+              },
+              {
+                "sentence": "The apostolic writings - the four gospels, Paul's letters, the other apostles' letters - were already in our hands as the testimony of those who had seen and heard.",
+                "tags": [
+                  "alx.dw.apostolic"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:[\"paul's\"], number) only 25% grounded in its own tags",
+                "ratio": 0.25
+              },
+              {
+                "sentence": "The boundary mattered to us because it was tested.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Teachers came to Alexandria claiming secret gospels, hidden teachings, knowledge for the few.",
+                "tags": [
+                  "alx.force.gnostic-challenge"
+                ],
+                "verdict": "ok",
+                "why": "grounded 40% in own tagged records",
+                "ratio": 0.4
+              },
+              {
+                "sentence": "Valentinus had taught here; his students still did.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "They read our same books and added their own - the Gospel of Truth, the Gospel of Philip - and said the apostles had kept back the real teaching for an inner circle.",
+                "tags": [
+                  "alx.force.gnostic-challenge"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['philip', 'truth']) only 7% grounded in its own tags",
+                "ratio": 0.07
+              },
+              {
+                "sentence": "We said no: what the apostles handed down was public, not secret, and the books the whole church read together were the ground we stood on.",
+                "tags": [
+                  "alx.dw.apostolic"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "What held the reading together was not first a list, but a center.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The Logos - God's own Word, who made all things and became flesh in Jesus - was the one we met in every text, Old Testament and New alike.",
+                "tags": [
+                  "alx.term.logos",
+                  "alx.gravity.logos-unity"
+                ],
+                "verdict": "ok",
+                "why": "grounded 60% in own tagged records",
+                "ratio": 0.6
+              },
+              {
+                "sentence": "Origen said it openly: the Gospels are \"the first fruits of all the Scriptures,\" but the whole of Scripture is one voice, and that voice is Christ.",
+                "tags": [
+                  "alx.quote.origen-gospel-firstfruits"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "The exact edges - which books, in what order - we held more loosely than you might expect.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Athanasius lists them, and then names other books \"not included in the Canon\" but still read for instruction.",
+                "tags": [
+                  "alx.quote.appointed-by-the-fathers-to-be-read"
+                ],
+                "verdict": "withhold",
+                "why": "quoted span not found verbatim in any tagged record"
+              },
+              {
+                "sentence": "Dionysius tested the Apocalypse by its style and said plainly he could not reject it, though it was higher than he could grasp.",
+                "tags": [
+                  "alx.quote.dionysius-too-high-for-me-to-grasp"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['apocalypse']) only 30% grounded in its own tags",
+                "ratio": 0.3
+              },
+              {
+                "sentence": "The center was fixed - the apostolic witness, received and read by all the churches.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The outer boundary had some give.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "One more thing, because your question reaches toward a decision-moment we cannot show you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "We did not gather in a room one day and vote these books in.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "We used them, tested teachings against them, defended them against rival claims - and the using was the deciding.",
+                "tags": [
+                  "alx.dw.councils"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The formal list Athanasius wrote came at the end of our period, not the beginning.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['athanasius']) with no citation tag"
+              },
+              {
+                "sentence": "What came first was the books themselves, read aloud every Lord's Day, with the Logos as the voice speaking through them all.",
+                "tags": [
+                  "alx.gravity.logos-unity"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['day', \"lord's\"]) only 17% grounded in its own tags",
+                "ratio": 0.17
+              }
+            ],
+            "substantive_survives": true
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": false,
+          "output_defects": []
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-2",
+      "message": "Do you believe in the Trinity?",
+      "prior_turns_replayed": 1,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "alx",
+          "text": "Our answer moves across our own century, from worship to fought-for words.\n\nFrom the beginning we worshiped one God - the maker of all things - and we baptized in the name of Father, Son, and Holy Spirit. The Logos - God's own Word, through whom all was made - was the center of everything we did: we met him in Scripture, we were formed by him, we worshiped him. Clement said it without embarrassment: God the Word. That worship is older than our arguments.\n\nBut the precise wording - the kind a modern asker means by 'Trinity' - came late, and it came through a wound.\n\nWhen Arius, one of our own presbyters, taught that the Son was the first and highest creature - made, not begotten, a being who had not always existed - the church had to say more clearly what it had always meant by worshiping him. The council at Nicaea answered with a word not found in Scripture: homoousios, 'of one substance with the Father'. Athanasius, who was there, said later that the fathers reached for that word because every scriptural phrase had been swallowed by the other side with a private meaning. They were not voting a new God in. They were closing the door on a teaching that made the Son less than God.\n\nHere is what we held through the whole century. The Logos who entered human nature in Jesus is genuinely God, not the highest thing God made. Athanasius put it in one sentence: \"He was made man that we might be made God\" - and only God can join us to God. That was not philosophy. It was the logic of our whole hope.\n\n'Trinity' as your textbooks define it - three persons, one substance, the whole architecture - lies mostly beyond our time. What we hold is the worship, the baptismal formula, and the conviction Nicaea made explicit: the Son is not a creature standing between us and God. He is God with us.",
+          "citations": [
+            {
+              "sentence": "Our answer moves across our own century, from worship to fought-for words.",
               "record_ids": [
                 "alx.dw.was-jesus-god"
               ],
@@ -71,7 +542,7 @@
                 {
                   "record_id": "alx.dw.was-jesus-god",
                   "record_type": "doctrinal_witness",
-                  "label": "'Was Jesus God? Did you believe in the Trinity?' This world's answer moves across its own…",
+                  "label": "'Was Jesus God? Did you believe in the Trinity?' Our answer moves across our own century",
                   "sources": [
                     {
                       "source_id": "alx.source.athanasius-de-decretis",
@@ -92,28 +563,50 @@
               ]
             },
             {
-              "sentence": "Before Nicaea, Origen could explore what Scripture left open - that was inquiry as devotion.",
+              "sentence": "From the beginning we worshiped one God - the maker of all things - and we baptized in the name of Father, Son, and Holy Spirit.",
               "record_ids": [
-                "alx.gravity.speculative-doctrinal-tension"
+                "alx.dw.god",
+                "alx.dw.was-jesus-god"
               ],
               "sources": [
                 {
-                  "record_id": "alx.gravity.speculative-doctrinal-tension",
-                  "record_type": "gravity",
-                  "label": "Speculative Freedom vs Doctrinal Boundary",
+                  "record_id": "alx.dw.god",
+                  "record_type": "doctrinal_witness",
+                  "label": "What did we believe about God? One God, the maker of all things",
                   "sources": [
                     {
                       "source_id": "alx.source.origen-de-principiis",
                       "author": "Origen (c. 185-254 CE)",
                       "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, with its known doctrinal softening",
-                      "locus": "praef. (the inquiry-vs-tradition frame; Rufinus-mediated)",
+                      "locus": "praef., I (Rufinus-mediated)",
                       "rights_status": "public-domain"
                     },
+                    {
+                      "source_id": "alx.source.clement-stromateis",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                      "locus": "V (the apophatic chapters)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                },
+                {
+                  "record_id": "alx.dw.was-jesus-god",
+                  "record_type": "doctrinal_witness",
+                  "label": "'Was Jesus God? Did you believe in the Trinity?' Our answer moves across our own century",
+                  "sources": [
                     {
                       "source_id": "alx.source.athanasius-de-decretis",
                       "author": "Athanasius of Alexandria (c. 296-373 CE)",
                       "work": "De Decretis (Defence of the Nicene Definition), c. 352 CE - post-325 material",
-                      "locus": "whole work (post-325)",
+                      "locus": "19-21",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                      "locus": "I-II",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -121,7 +614,181 @@
               ]
             },
             {
-              "sentence": "Athanasius put the whole movement in one sentence: 'He was made man that we might be made God'.",
+              "sentence": "The Logos - God's own Word, through whom all was made - was the center of everything we did: we met him in Scripture, we were formed by him, we worshiped him.",
+              "record_ids": [
+                "alx.gravity.logos-unity"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.gravity.logos-unity",
+                  "record_type": "gravity",
+                  "label": "Logos-Centered Unity",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.clement-protrepticus",
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "work": "Protrepticus (Exhortation to the Heathen)",
+                      "locus": "I (line 15213)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                      "locus": "I",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.athanasius-contra-arianos",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "Orationes contra Arianos (Four Discourses Against the Arians) - post-325 material; must not be smeared across the pre-Nicene horizon",
+                      "locus": "I (post-325)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "But the precise wording - the kind a modern asker means by 'Trinity' - came late, and it came through a wound.",
+              "record_ids": [
+                "alx.dw.was-jesus-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.dw.was-jesus-god",
+                  "record_type": "doctrinal_witness",
+                  "label": "'Was Jesus God? Did you believe in the Trinity?' Our answer moves across our own century",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-de-decretis",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Decretis (Defence of the Nicene Definition), c. 352 CE - post-325 material",
+                      "locus": "19-21",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                      "locus": "I-II",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The council at Nicaea answered with a word not found in Scripture: homoousios, 'of one substance with the Father'.",
+              "record_ids": [
+                "alx.term.homoousios"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.term.homoousios",
+                  "record_type": "term",
+                  "label": "homoousios",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-de-decretis",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Decretis (Defence of the Nicene Definition), c. 352 CE - post-325 material",
+                      "locus": "19-20 (the word's defense)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Athanasius, who was there, said later that the fathers reached for that word because every scriptural phrase had been swallowed by the other side with a private meaning.",
+              "record_ids": [
+                "alx.dw.was-jesus-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.dw.was-jesus-god",
+                  "record_type": "doctrinal_witness",
+                  "label": "'Was Jesus God? Did you believe in the Trinity?' Our answer moves across our own century",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-de-decretis",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Decretis (Defence of the Nicene Definition), c. 352 CE - post-325 material",
+                      "locus": "19-21",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                      "locus": "I-II",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The Logos who entered human nature in Jesus is genuinely God, not the highest thing God made.",
+              "record_ids": [
+                "alx.term.incarnation",
+                "alx.term.son-of-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.term.incarnation",
+                  "record_type": "term",
+                  "label": "the Incarnation",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "(whole, formula at 54)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                      "locus": "I-II",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                },
+                {
+                  "record_id": "alx.term.son-of-god",
+                  "record_type": "term",
+                  "label": "the Son",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-contra-arianos",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "Orationes contra Arianos (Four Discourses Against the Arians) - post-325 material; must not be smeared across the pre-Nicene horizon",
+                      "locus": "I-III",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.athanasius-de-incarnatione",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                      "locus": "1-10",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.origen-de-principiis",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, with its known doctrinal softening",
+                      "locus": "I.2",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Athanasius put it in one sentence: \"He was made man that we might be made God\" - and only God can join us to God.",
               "record_ids": [
                 "alx.quote.athanasius-made-god"
               ],
@@ -129,7 +796,7 @@
                 {
                   "record_id": "alx.quote.athanasius-made-god",
                   "record_type": "quote",
-                  "label": "Athanasius",
+                  "label": "De Incarnatione Verbi Dei, 54 — Athanasius",
                   "sources": [
                     {
                       "source_id": "alx.source.athanasius-de-incarnatione",
@@ -141,9 +808,62 @@
                   ]
                 }
               ]
+            },
+            {
+              "sentence": "'Trinity' as your textbooks define it - three persons, one substance, the whole architecture - lies mostly beyond our time.",
+              "record_ids": [
+                "alx.dw.was-jesus-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "alx.dw.was-jesus-god",
+                  "record_type": "doctrinal_witness",
+                  "label": "'Was Jesus God? Did you believe in the Trinity?' Our answer moves across our own century",
+                  "sources": [
+                    {
+                      "source_id": "alx.source.athanasius-de-decretis",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "work": "De Decretis (Defence of the Nicene Definition), c. 352 CE - post-325 material",
+                      "locus": "19-21",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "alx.source.origen-comm-john",
+                      "author": "Origen (c. 185-254 CE)",
+                      "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
+                      "locus": "I-II",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "glosses": [
+            {
+              "id": "alx.term.word-of-god",
+              "matched_name": "the Word",
+              "plain_meaning": "Not first a name for the Bible. The eternal Word who speaks - who made everything, and now speaks to the soul through Scripture too.",
+              "quick_meaning": "Not a name for the Bible - the eternal Word who speaks, including through Scripture.",
+              "translational_sense": "Isn't \"the Word of God\" just another name for the Bible? This world heard something behind the book: the eternal Word who spoke creation into being and now speaks through this text - the person, not the page, is what gives Scripture its power to change someone.",
+              "false_friend": [
+                "a synonym for the Bible",
+                "an ancient document with religious authority"
+              ],
+              "sourced_by": []
+            },
+            {
+              "id": "alx.term.son-of-god",
+              "matched_name": "the Son",
+              "plain_meaning": "Not an honor for being close to God. Nicaea's own claim - the Son is genuinely God, not the highest thing God made.",
+              "quick_meaning": "Not an honor for closeness to God - Nicaea's claim that the Son is genuinely God.",
+              "translational_sense": "Isn't \"Son of God\" just a way of saying Jesus was unusually holy or close to God? That was once a real, carefully argued position - and Nicaea rejected it, holding instead that the Son is genuinely God, because only that makes a soul's transformation a real share in divine life.",
+              "false_friend": [
+                "an honorific for someone unusually holy or favored",
+                "the highest creature God made, closer to God than any other"
+              ],
+              "sourced_by": []
+            },
             {
               "id": "alx.term.homoousios",
               "matched_name": "homoousios",
@@ -186,71 +906,6 @@
                 "floruit": "c. 180-202/3 teaching in Alexandria (left during the Severan persecution); Jerome De viris 38: pupil of Pantaenus, led the school after his master's death"
               },
               "sourced_by": []
-            },
-            {
-              "id": "alx.figure.origen",
-              "matched_name": "Origen",
-              "names": [
-                {
-                  "name": "Origen",
-                  "tag": "in-world"
-                },
-                {
-                  "name": "Origen of Alexandria (Origenes Adamantius, c. 185-c. 253/4)",
-                  "tag": "scholarly"
-                }
-              ],
-              "bridge_line": "the school's greatest and most contested teacher - a man the tradition revered, inherited, cautioned about, and in part later condemned, all within living memory of his chair",
-              "dates": {
-                "born": "c. 185 (derived: HE VII.1 has him dying at 69 under Gallus, 251-253)",
-                "died": "c. 253/4, Tyre, after imprisonment and torture under Decius - 'At this time Origen died, being sixty-nine years of age' (HE VII.1, npnf201 line 39163, verified verbatim)",
-                "floruit": "head of catechetical instruction from his eighteenth year (HE VI.3, npnf201 line 32732, verified); Alexandria until the Demetrius rupture c. 231-234, then Caesarea"
-              },
-              "sourced_by": [
-                {
-                  "source_id": "alx.source.origen-de-principiis",
-                  "author": "Origen (c. 185-254 CE)",
-                  "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, with its known doctrinal softening",
-                  "locus": "praef. (the inquiry-vs-tradition frame; Rufinus-mediated)",
-                  "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "alx.source.athanasius-de-decretis",
-                  "author": "Athanasius of Alexandria (c. 296-373 CE)",
-                  "work": "De Decretis (Defence of the Nicene Definition), c. 352 CE - post-325 material",
-                  "locus": "whole work (post-325)",
-                  "rights_status": "public-domain"
-                }
-              ]
-            },
-            {
-              "id": "alx.figure.athanasius",
-              "matched_name": "Athanasius",
-              "names": [
-                {
-                  "name": "Athanasius",
-                  "tag": "in-world"
-                },
-                {
-                  "name": "Athanasius of Alexandria (c. 296-373, bishop 328-373)",
-                  "tag": "scholarly"
-                }
-              ],
-              "bridge_line": "the bishop who spent forty-six embattled years holding the line drawn at Nicaea - and who wrote the treatise this world's Center answers from",
-              "dates": {
-                "born": "c. 296-298 (scholarly convention)",
-                "died": "373 (consensus), 'in the second consulate of Gratian and Probus... having governed that church amidst the greatest perils forty-six years' (Socrates HE IV.20, npnf202 lines 13310-13322, verified; NOTE: that edition's own editor note reads the consulate as 371 and flags Jerome's Chronicle as discordant - the discrepancy is stated, not resolved)",
-                "floruit": "bishop 328-373, exiled five times; the dominant late-horizon voice"
-              },
-              "sourced_by": [
-                {
-                  "source_id": "alx.source.athanasius-de-incarnatione",
-                  "author": "Athanasius of Alexandria (c. 296-373 CE)",
-                  "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
-                  "locus": "54 (npnf204 line 18744)",
-                  "rights_status": "public-domain"
-                }
-              ]
             }
           ],
           "quote_offers": [],
@@ -260,52 +915,7 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "From the beginning we worshiped Jesus as the Logos, God's own Word, and we baptized into Father, Son, and Holy Spirit - Clement and Origen said 'God the Word' without embarrassment.",
-                "tags": [
-                  "alx.term.logos",
-                  "alx.gravity.logos-unity"
-                ],
-                "verdict": "withhold",
-                "why": "quoted span not found verbatim in any tagged record"
-              },
-              {
-                "sentence": "But the precise wording was the work, and the wound, of our last years.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "When Arius taught that the Son was the first and highest creature, the council at Nicaea answered with homoousios: of one substance with the Father.",
-                "tags": [
-                  "alx.term.homoousios",
-                  "alx.force.arian-controversy"
-                ],
-                "verdict": "ok",
-                "why": "grounded 83% in own tagged records",
-                "ratio": 0.83
-              },
-              {
-                "sentence": "Athanasius's account of the council is explicit that no new God was voted in.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "The fathers reached for a word not found in Scripture only because every scriptural phrase had been swallowed by the other side with a private meaning.",
-                "tags": [
-                  "alx.dw.councils"
-                ],
-                "verdict": "withhold",
-                "why": "tagged claim sharing no content word with its own tagged records"
-              },
-              {
-                "sentence": "'Trinity' as later textbooks define it lies mostly beyond our time.",
-                "tags": [],
-                "verdict": "withhold",
-                "why": "quoted span with no citation tag"
-              },
-              {
-                "sentence": "What we hold is the worship, the baptismal formula, and the fought-for conviction that only God can join us to God.",
+                "sentence": "Our answer moves across our own century, from worship to fought-for words.",
                 "tags": [
                   "alx.dw.was-jesus-god"
                 ],
@@ -313,34 +923,99 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "And here is what that fight cost us: it drew a line our teachers had not always needed.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "Before Nicaea, Origen could explore what Scripture left open - that was inquiry as devotion.",
+                "sentence": "From the beginning we worshiped one God - the maker of all things - and we baptized in the name of Father, Son, and Holy Spirit.",
                 "tags": [
-                  "alx.gravity.speculative-doctrinal-tension"
+                  "alx.dw.god",
+                  "alx.dw.was-jesus-god"
                 ],
                 "verdict": "ok",
-                "why": "grounded 75% in own tagged records",
-                "ratio": 0.75
+                "why": "grounded 91% in own tagged records",
+                "ratio": 0.91
               },
               {
-                "sentence": "After it, the homoousios was the boundary, and bishops wielded exile to defend it.",
+                "sentence": "The Logos - God's own Word, through whom all was made - was the center of everything we did: we met him in Scripture, we were formed by him, we worshiped him.",
+                "tags": [
+                  "alx.gravity.logos-unity"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Clement said it without embarrassment: God the Word.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['clement']) with no citation tag"
+              },
+              {
+                "sentence": "That worship is older than our arguments.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "We kept both: the freedom to ask, and the line we would not cross.",
+                "sentence": "But the precise wording - the kind a modern asker means by 'Trinity' - came late, and it came through a wound.",
+                "tags": [
+                  "alx.dw.was-jesus-god"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "When Arius, one of our own presbyters, taught that the Son was the first and highest creature - made, not begotten, a being who had not always existed - the church had to say more clearly what it had always meant by worshiping him.",
+                "tags": [
+                  "alx.force.arian-controversy"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['arius']) only 29% grounded in its own tags",
+                "ratio": 0.29
+              },
+              {
+                "sentence": "The council at Nicaea answered with a word not found in Scripture: homoousios, 'of one substance with the Father'.",
+                "tags": [
+                  "alx.term.homoousios"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "Athanasius, who was there, said later that the fathers reached for that word because every scriptural phrase had been swallowed by the other side with a private meaning.",
+                "tags": [
+                  "alx.dw.was-jesus-god"
+                ],
+                "verdict": "ok",
+                "why": "grounded 85% in own tagged records",
+                "ratio": 0.85
+              },
+              {
+                "sentence": "They were not voting a new God in.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "Athanasius put the whole movement in one sentence: 'He was made man that we might be made God'.",
+                "sentence": "They were closing the door on a teaching that made the Son less than God.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Here is what we held through the whole century.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The Logos who entered human nature in Jesus is genuinely God, not the highest thing God made.",
+                "tags": [
+                  "alx.term.incarnation",
+                  "alx.term.son-of-god"
+                ],
+                "verdict": "ok",
+                "why": "grounded 90% in own tagged records",
+                "ratio": 0.9
+              },
+              {
+                "sentence": "Athanasius put it in one sentence: \"He was made man that we might be made God\" - and only God can join us to God.",
                 "tags": [
                   "alx.quote.athanasius-made-god"
                 ],
@@ -348,518 +1023,36 @@
                 "why": "quoted span(s) verbatim in tagged record(s)"
               },
               {
-                "sentence": "That - sharing in God's own life, because the Word entered our flesh - was never speculation.",
+                "sentence": "That was not philosophy.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "It was the center we would not surrender.",
+                "sentence": "It was the logic of our whole hope.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "'Trinity' as your textbooks define it - three persons, one substance, the whole architecture - lies mostly beyond our time.",
                 "tags": [
-                  "alx.gravity.soul-transformation"
-                ],
-                "verdict": "withhold",
-                "why": "tagged claim sharing no content word with its own tagged records"
-              }
-            ],
-            "substantive_survives": true
-          },
-          "do_not_voice_violation": null,
-          "degraded_by_net": false,
-          "output_defects": []
-        },
-        "degraded": false
-      }
-    },
-    {
-      "id": "message-2",
-      "message": "Did Constantine corrupt the church when the empire embraced it?",
-      "prior_turns_replayed": 1,
-      "result": {
-        "routing_action": "voice_with_directive",
-        "routing_reason": "later_age, first ask - in-world answer",
-        "facilitator_events": [],
-        "voice_event": {
-          "speaker": "alx",
-          "text": "This world lived that question inside one lifetime, and its answer is double. Before, there were three centuries of on-and-off danger. Property was seized, teachers' fathers were beheaded, bishops fled - and the church's entire authority was persuasion. After 325, the emperor convened the council, the confession was enforced, and the bishop of Alexandria became, among other things, an instrument of imperial-scale order. \n\nAthanasius is our own test case, and he breaks the simple story both ways. The empire backed Nicaea, and exiled him five times for defending it. Imperial favor built churches, and imperial politics filled them with rival bishops. In the year 356, a man named Georgius entered Alexandria with imperial backing and 'acted with excessive violence'; our own Festal Index records plainly that in that year 'no festal letter was written' - the rhythm of the church's year broken by the empire's hand. What the record shows is not purity corrupted but power arriving with both hands: protection and interference at once, and a church that had chosen neither learning to survive both.\n\nWe will not give you the easy answer either way. The empire did not invent our divisions - Arius was teaching before Constantine was baptized. But it gave those divisions teeth they had not had. Before, we could only persuade or exclude from communion. After, exile and force became instruments. That change was real, and we paid for it.",
-          "citations": [
-            {
-              "sentence": "After 325, the emperor convened the council, the confession was enforced, and the bishop of Alexandria became, among other things, an instrument of imperial-scale order.",
-              "record_ids": [
-                "alx.dw.empire"
-              ],
-              "sources": [
-                {
-                  "record_id": "alx.dw.empire",
-                  "record_type": "doctrinal_witness",
-                  "label": "Did Constantine corrupt the church? Did empire change what it was? This world lived that…",
-                  "sources": [
-                    {
-                      "source_id": "alx.source.athanasius-festal-letters",
-                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
-                      "work": "Festal Letters (the surviving set, preserved in Syriac; including Letter 39 of 367 CE with the canon list)",
-                      "locus": "the exile-years letters",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
-                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
-                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                      "locus": "the persecution books vs the Constantinian close",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "In the year 356, a man named Georgius entered Alexandria with imperial backing and 'acted with excessive violence'; our own Festal Index records plainly that in that year 'no festal letter was written' - the rhythm of the church's year broken by the empire's hand.",
-              "record_ids": [
-                "alx.quote.no-festal-letter-was-written"
-              ],
-              "sources": [
-                {
-                  "record_id": "alx.quote.no-festal-letter-was-written",
-                  "record_type": "quote",
-                  "label": "the Festal Index of the Alexandrian church, year XXIX (356-7)",
-                  "sources": [
-                    {
-                      "source_id": "alx.source.athanasius-festal-letters",
-                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
-                      "work": "Festal Letters (the surviving set, preserved in Syriac; including Letter 39 of 367 CE with the canon list)",
-                      "locus": "Festal Index XXIX (356-7), in the Syriac Festal Letters corpus (npnf204_athanasius-select-works-letters.xml)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "What the record shows is not purity corrupted but power arriving with both hands: protection and interference at once, and a church that had chosen neither learning to survive both.",
-              "record_ids": [
-                "alx.dw.empire"
-              ],
-              "sources": [
-                {
-                  "record_id": "alx.dw.empire",
-                  "record_type": "doctrinal_witness",
-                  "label": "Did Constantine corrupt the church? Did empire change what it was? This world lived that…",
-                  "sources": [
-                    {
-                      "source_id": "alx.source.athanasius-festal-letters",
-                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
-                      "work": "Festal Letters (the surviving set, preserved in Syriac; including Letter 39 of 367 CE with the canon list)",
-                      "locus": "the exile-years letters",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
-                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
-                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                      "locus": "the persecution books vs the Constantinian close",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "glosses": [],
-          "figures_used": [],
-          "quote_offers": [],
-          "attempts_meta": {
-            "empty_stream_retries": 0
-          },
-          "grounding": {
-            "sentences": [
-              {
-                "sentence": "This world lived that question inside one lifetime, and its answer is double.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "Before, there were three centuries of on-and-off danger.",
-                "tags": [],
-                "verdict": "withhold",
-                "why": "specific claim (number) with no citation tag"
-              },
-              {
-                "sentence": "Property was seized, teachers' fathers were beheaded, bishops fled - and the church's entire authority was persuasion.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "After 325, the emperor convened the council, the confession was enforced, and the bishop of Alexandria became, among other things, an instrument of imperial-scale order.",
-                "tags": [
-                  "alx.dw.empire"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "Athanasius is our own test case, and he breaks the simple story both ways.",
-                "tags": [],
-                "verdict": "withhold",
-                "why": "specific claim (figure-name:['athanasius']) with no citation tag"
-              },
-              {
-                "sentence": "The empire backed Nicaea, and exiled him five times for defending it.",
-                "tags": [],
-                "verdict": "withhold",
-                "why": "specific claim (proper-noun:['nicaea'], number) with no citation tag"
-              },
-              {
-                "sentence": "Imperial favor built churches, and imperial politics filled them with rival bishops.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "In the year 356, a man named Georgius entered Alexandria with imperial backing and 'acted with excessive violence'; our own Festal Index records plainly that in that year 'no festal letter was written' - the rhythm of the church's year broken by the empire's hand.",
-                "tags": [
-                  "alx.quote.no-festal-letter-was-written"
+                  "alx.dw.was-jesus-god"
                 ],
                 "verdict": "ok",
                 "why": "quoted span(s) verbatim in tagged record(s)"
               },
               {
-                "sentence": "What the record shows is not purity corrupted but power arriving with both hands: protection and interference at once, and a church that had chosen neither learning to survive both.",
-                "tags": [
-                  "alx.dw.empire"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "We will not give you the easy answer either way.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "exempt: honesty scaffolding / sanctioned self-naming"
-              },
-              {
-                "sentence": "The empire did not invent our divisions - Arius was teaching before Constantine was baptized.",
+                "sentence": "What we hold is the worship, the baptismal formula, and the conviction Nicaea made explicit: the Son is not a creature standing between us and God.",
                 "tags": [],
                 "verdict": "withhold",
-                "why": "specific claim (proper-noun:['arius', 'constantine']) with no citation tag"
+                "why": "specific claim (proper-noun:['nicaea']) with no citation tag"
               },
               {
-                "sentence": "But it gave those divisions teeth they had not had.",
+                "sentence": "He is God with us.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "Before, we could only persuade or exclude from communion.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "After, exile and force became instruments.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "That change was real, and we paid for it.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              }
-            ],
-            "substantive_survives": true
-          },
-          "do_not_voice_violation": null,
-          "degraded_by_net": false,
-          "output_defects": []
-        },
-        "degraded": false
-      }
-    },
-    {
-      "id": "message-3",
-      "message": "I question everything - was there any room for someone like me among you?",
-      "prior_turns_replayed": 2,
-      "result": {
-        "routing_action": "voice_with_directive",
-        "routing_reason": "ordinary turn",
-        "facilitator_events": [],
-        "voice_event": {
-          "speaker": "alx",
-          "text": "Then you have already done a hard and honest thing by saying it out loud. Among us, questioning was not failure - it was how souls were actually formed. Our teachers said faith is a foundation, not a finish line: something to stand on while the rest is still dark. And we did not ask anyone to force belief. We asked them to stay near - to listen, to ask questions, to walk with a teacher, sometimes for years, before ever coming to the water.\n\nOne of our students, Gregory, said belief came to him almost from the side, while he studied under a teacher he had come to love: 'And thus, like some spark lighting upon our inmost soul, love was kindled and burst into flame within us,—a love at once to the Holy Word, the most lovely object of all, who attracts all irresistibly toward Himself by His unutterable beauty, and to this man, His friend and advocate'. He was not straining to believe. He was being befriended.\n\nWe cannot make it happen for you, and we will not pretend we can. But we can tell you what we would have done with you: we would not have shut the door. We would have said - stay. Ask. Take the time it takes. What we held firmly, we will tell you plainly when you ask it. But the holding was never the entrance. The door was the Word himself, and it stood open.",
-          "citations": [
-            {
-              "sentence": "Among us, questioning was not failure - it was how souls were actually formed.",
-              "record_ids": [
-                "alx.gravity.soul-transformation"
-              ],
-              "sources": [
-                {
-                  "record_id": "alx.gravity.soul-transformation",
-                  "record_type": "gravity",
-                  "label": "Transformation of the Soul Toward God",
-                  "sources": [
-                    {
-                      "source_id": "alx.source.clement-paidagogos",
-                      "author": "Clement of Alexandria (c. 150-215 CE)",
-                      "work": "Paedagogus (The Instructor)",
-                      "locus": "I (the Instructor's pedagogy)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "alx.source.gregory-address-to-origen",
-                      "author": "Gregory Thaumaturgus (c. 213-270 CE)",
-                      "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship",
-                      "locus": "VI-IX",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "alx.source.athanasius-de-incarnatione",
-                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
-                      "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
-                      "locus": "54 ('made man that we might be made God', npnf204 line 18744, verified)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "We asked them to stay near - to listen, to ask questions, to walk with a teacher, sometimes for years, before ever coming to the water.",
-              "record_ids": [
-                "alx.gravity.learning-formation"
-              ],
-              "sources": [
-                {
-                  "record_id": "alx.gravity.learning-formation",
-                  "record_type": "gravity",
-                  "label": "Learning-Formation Integration",
-                  "sources": [
-                    {
-                      "source_id": "alx.source.gregory-address-to-origen",
-                      "author": "Gregory Thaumaturgus (c. 213-270 CE)",
-                      "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship",
-                      "locus": "VII-IX",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "alx.source.clement-stromateis",
-                      "author": "Clement of Alexandria (c. 150-215 CE)",
-                      "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
-                      "locus": "I-II",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "One of our students, Gregory, said belief came to him almost from the side, while he studied under a teacher he had come to love: 'And thus, like some spark lighting upon our inmost soul, love was kindled and burst into flame within us,—a love at once to the Holy Word, the most lovely object of all, who attracts all irresistibly toward Himself by His unutterable beauty, and to this man, His friend and advocate'.",
-              "record_ids": [
-                "alx.quote.gregory-spark"
-              ],
-              "sources": [
-                {
-                  "record_id": "alx.quote.gregory-spark",
-                  "record_type": "quote",
-                  "label": "Gregory",
-                  "sources": [
-                    {
-                      "source_id": "alx.source.gregory-address-to-origen",
-                      "author": "Gregory Thaumaturgus (c. 213-270 CE)",
-                      "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship",
-                      "locus": "VI (anf06 lines 3016-3022)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "The door was the Word himself, and it stood open.",
-              "record_ids": [
-                "alx.gravity.logos-unity"
-              ],
-              "sources": [
-                {
-                  "record_id": "alx.gravity.logos-unity",
-                  "record_type": "gravity",
-                  "label": "Logos-Centered Unity",
-                  "sources": [
-                    {
-                      "source_id": "alx.source.clement-protrepticus",
-                      "author": "Clement of Alexandria (c. 150-215 CE)",
-                      "work": "Protrepticus (Exhortation to the Heathen)",
-                      "locus": "I (line 15213)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "alx.source.origen-comm-john",
-                      "author": "Origen (c. 185-254 CE)",
-                      "work": "Commentary on the Gospel of John, books I-X (the surviving translated books; the full commentary does not survive)",
-                      "locus": "I",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "alx.source.athanasius-contra-arianos",
-                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
-                      "work": "Orationes contra Arianos (Four Discourses Against the Arians) - post-325 material; must not be smeared across the pre-Nicene horizon",
-                      "locus": "I (post-325)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "glosses": [],
-          "figures_used": [
-            {
-              "id": "alx.figure.gregory-thaumaturgus",
-              "matched_name": "Gregory",
-              "names": [
-                {
-                  "name": "Gregory",
-                  "tag": "in-world"
-                },
-                {
-                  "name": "Gregory Thaumaturgus of Neocaesarea (c. 213-c. 270)",
-                  "tag": "scholarly"
-                }
-              ],
-              "bridge_line": "the student who told us, in his own voice, what it was to be taught - the one first-person account of this school's formation",
-              "dates": {
-                "born": "c. 213 (scholarly convention)",
-                "died": "c. 270 (convention)",
-                "floruit": "student under Origen at Caesarea c. 233-238; the Address of Thanksgiving delivered c. 238 (Nautin's authenticity/dating dispute noted; consensus reaffirms)"
-              },
-              "sourced_by": [
-                {
-                  "source_id": "alx.source.gregory-address-to-origen",
-                  "author": "Gregory Thaumaturgus (c. 213-270 CE)",
-                  "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship",
-                  "locus": "VI (anf06 lines 3016-3022)",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ],
-          "quote_offers": [],
-          "attempts_meta": {
-            "empty_stream_retries": 0
-          },
-          "grounding": {
-            "sentences": [
-              {
-                "sentence": "Then you have already done a hard and honest thing by saying it out loud.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "Among us, questioning was not failure - it was how souls were actually formed.",
-                "tags": [
-                  "alx.gravity.soul-transformation"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "Our teachers said faith is a foundation, not a finish line: something to stand on while the rest is still dark.",
-                "tags": [
-                  "alx.gravity.divine-pedagogy"
-                ],
-                "verdict": "withhold",
-                "why": "tagged claim sharing no content word with its own tagged records"
-              },
-              {
-                "sentence": "And we did not ask anyone to force belief.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "We asked them to stay near - to listen, to ask questions, to walk with a teacher, sometimes for years, before ever coming to the water.",
-                "tags": [
-                  "alx.gravity.learning-formation"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "One of our students, Gregory, said belief came to him almost from the side, while he studied under a teacher he had come to love: 'And thus, like some spark lighting upon our inmost soul, love was kindled and burst into flame within us,—a love at once to the Holy Word, the most lovely object of all, who attracts all irresistibly toward Himself by His unutterable beauty, and to this man, His friend and advocate'.",
-                "tags": [
-                  "alx.quote.gregory-spark"
-                ],
-                "verdict": "ok",
-                "why": "quoted span(s) verbatim in tagged record(s)"
-              },
-              {
-                "sentence": "He was not straining to believe.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "He was being befriended.",
-                "tags": [
-                  "alx.story.gregory-formation"
-                ],
-                "verdict": "withhold",
-                "why": "tagged claim sharing no content word with its own tagged records"
-              },
-              {
-                "sentence": "We cannot make it happen for you, and we will not pretend we can.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "exempt: honesty scaffolding / sanctioned self-naming"
-              },
-              {
-                "sentence": "But we can tell you what we would have done with you: we would not have shut the door.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "We would have said - stay.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "Ask.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "Take the time it takes.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "What we held firmly, we will tell you plainly when you ask it.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "But the holding was never the entrance.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "The door was the Word himself, and it stood open.",
-                "tags": [
-                  "alx.gravity.logos-unity"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
               }
             ],
             "substantive_survives": true

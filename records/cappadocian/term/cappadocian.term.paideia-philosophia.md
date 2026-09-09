@@ -31,8 +31,8 @@ relations:
   target: cappadocian.term.epinoia-energeia
 - type: associated-with
   target: cappadocian.term.philotimia
-plain_meaning: 'This world used Greek schooling the way a bee uses a flower: take the honey, leave the
-  poison. It also took the pagan schools'' proudest word, ''philosophy,'' and gave it to the ascetic Christian
+plain_meaning: 'We used Greek schooling the way a bee uses a flower: take the honey, leave the
+  poison. And the pagan schools'' proudest word, ''philosophy,'' we took and gave to the ascetic Christian
   life -- calling monastic renunciation ''the true philosophy.'''
 world_word: paideia / philosophia
 false_friend:

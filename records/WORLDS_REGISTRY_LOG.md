@@ -311,6 +311,25 @@ disclosure, same direction as alx): this world's Strand A content runs
 directly into the present-day papacy's own claimed lineage, Strand B's
 into Eastern Orthodoxy's self-understanding.
 
+**2026-09-09 post-admission source recompile (ijc only).** Two
+`search_record`s added to `records/ijc/` — `ijc.search.philostorgius-homoian-fit`
+and `ijc.search.opus-imperfectum-english` — recording two negative results
+from a post-admission source check, so both are visible in the record layer
+rather than only in the world-build folder. Neither creates a source record;
+no existing record was edited; Doc_04 is unchanged and the world's Homoian
+self-testimony gap remains open and remains disclosed in the
+`thinness_statement`. Recompiled from 184 records (was 182):
+`packages/ijc/2026-09-09T02-58-39Z`, manifest
+`sha256:4ca056f2…`, superseding `packages/ijc/2026-09-04T18-49-02Z` (kept on
+disk per this repo's manifest-only-tracked convention). **All 18 gates pass,
+0 findings; determinism check passed; fleet staleness sweep clean across all
+eight worlds.** Mark authorised the recompile in session, 2026-09-09, after
+being given the option to leave the findings in the world-build folder
+only — recorded here in this thread's own words rather than quoted, as an
+off-repository instruction. Full working and five rounds of independent
+adversarial review:
+`World-Builds/Imperial-Juridical-Christianity/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md`.
+
 Recompile history: **LEXICON LABEL PASS**, 2026-08-30: homoousios, homoios,
 concilium, primatus, Tomus labeled. **FIVE-WORLD TRANSPARENCY READ**,
 2026-08-30: tome-that-would-not-bend +C-T. **BAR SWEEP**, 2026-08-30, same

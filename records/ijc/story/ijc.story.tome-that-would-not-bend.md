@@ -40,7 +40,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): named d
   the Tome itself, the council''s session record of its reception, Canon 28''s text, the legates''
   recorded objection, and Leo''s own rejection letters. Among the best-attested sequences in the world''s
   whole record.'
-tellable_as: Leo's Tome at Chalcedon, and the canon he would not receive - the world's closing argument,
+tellable_as: Leo's Tome at Chalcedon, and the canon he would not receive - our closing argument,
   left open
 text: >-
   Leo did not go to Chalcedon; his letter went in his place. When the Tome was
@@ -59,7 +59,7 @@ text: >-
   claim an apostle's grave makes, and no vote can make the two the same. So
   the council that finally settled who Christ is left open the question it
   could not settle: where, on earth, the church's own final authority sits.
-  This world's record ends with both claims still held, unreconciled.
+  Our record ends with both claims still held, unreconciled.
 absent_detail: The Tome's reception was not unanimous joy - it was questioned in session and examined
   against Cyril before the acclamation carried, and Percival prints extracts, not the complete acts;
   the fuller debates (and the Egyptian bishops' resistance) are in the complete acts this build's base

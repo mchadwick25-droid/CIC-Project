@@ -53,7 +53,7 @@ relations:
 - type: associated-with
   target: cappadocian.term.homoousios
 plain_meaning: 'Ousia means what God is: one being. Hypostasis means who God is: Father, Son, and Holy
-  Spirit, each a real, distinct someone. Together the two words let this world confess one God in three,
+  Spirit, each a real, distinct someone. Together the two words let us confess one God in three,
   without three gods and without blurring the three into one costume.'
 world_word: ousia / hypostasis
 false_friend:
@@ -77,7 +77,7 @@ senses:
     the opposite: the words were forced into being to protect what the font and the doxology already confessed,
     and the same teachers who built this fence insisted the mystery inside it still exceeds every word
     ever said.'
-quick_meaning: 'Being and person: the two words this world used to say one God is three who are each fully
+quick_meaning: 'Being and person: the two words we used to say one God is three who are each fully
   God.'
 distortion_risk: high
 ---

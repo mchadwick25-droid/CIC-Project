@@ -28,8 +28,8 @@ relations:
   target: cappadocian.term.homoousios
 - type: associated-with
   target: cappadocian.term.paradosis
-plain_meaning: This world called its confession of faith 'the faith of the 318 fathers' -- the bishops
-  who signed the creed at Nicaea. It was the standard everything else in this world's arguments defended.
+plain_meaning: We called our confession of faith 'the faith of the 318 fathers' -- the bishops
+  who signed the creed at Nicaea. It was the standard everything else in our arguments defended.
 world_word: symbolon / hē pistis tōn 318
 false_friend:
 - creeds treated as optional summaries a believer can take or leave

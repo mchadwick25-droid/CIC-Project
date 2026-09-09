@@ -43,7 +43,7 @@ relations:
   target: cappadocian.term.theologia-oikonomia
 - type: associated-with
   target: cappadocian.term.theosis
-plain_meaning: 'This world''s defining fight began over one line of prayer. It praised the Father together
+plain_meaning: 'Our defining fight began over one line of prayer. It praised the Father together
   with the Son and the Holy Spirit, not merely through the Son in the Spirit. The claim: worship''s own
   words already taught what the church believed. Changing them meant changing the faith.'
 world_word: doxa / doxologia
@@ -65,7 +65,7 @@ senses:
   translational: '''Isn''t fighting over a preposition proof religion has lost perspective?'' -- this
     world would answer that the smallest word in prayer can be a confession or a betrayal, because what
     the church prays is what the church, over time, actually comes to believe.'
-quick_meaning: 'Glory, and the giving of glory: this world argued the words of worship are the faith itself.'
+quick_meaning: 'Glory, and the giving of glory: we argued the words of worship are the faith itself.'
 distortion_risk: high
 ---
 Built from Doc_06 entry 3 (Tier 1). Related-terms per Doc_06 Index E row 3 (all mutual).

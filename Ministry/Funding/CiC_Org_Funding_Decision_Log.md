@@ -304,3 +304,36 @@ current M8 engine declared its own turns-per-hour convention (`engine/m8/cost.py
 `TURNS_PER_HOUR_CONVENTION = 12`) independently of this workstream's unresolved 30/hr-vs-6/hr
 question — a third value, not a resolution of the other two. Still open, still this workstream's
 call to settle, now with one more value in play.
+
+---
+
+## 2026-09-03 — AWS credit application: real runway, not a fix to the math
+
+**Origin.** Mark, in the same conversation as the Phase 1 Launch readiness list (see
+`Ministry/Technology/CiC_FrontEnd_Decision_Log.md`'s 2026-09-03 entry, item 4): "i am applying
+for a 1000 dollar credit from amazon and have 80 left on the first signup."
+
+**What this actually changes, stated plainly so it isn't overclaimed.** The 2026-08-30 entry's
+finding stands: at a 2% donation-conversion benchmark, gifts cover the $225 fixed floor, not the
+~$0.35/conversation Bedrock marginal cost — more volume widens the dollar gap, not closes it. An
+AWS credit doesn't change that unit economics; it pays the Bedrock side of the bill directly, so
+it defers when the gap has to come out of pocket rather than closing it. Rough scale, working off
+the $0.35/interview-equivalent figure: $80 remaining ≈ 228 more conversations before that credit
+runs dry; a $1000 award (not yet confirmed) ≈ 2,857 more. Meaningful breathing room, not a
+solved problem. (Assumes Render hosting, the other half of the $225 fixed cost, is billed
+separately from AWS/Bedrock, per how the two are named distinctly in the 2026-08-30 entry — not
+independently re-verified here.)
+
+**Recommendation, tied to this log's own still-open ask.** The 2026-08-30 entry is explicitly
+waiting on real pilot conversion data before its 2%-benchmark projection can be replaced with a
+real number. Use whatever runway this credit buys as the deliberate window to gather that data —
+track actual Stripe conversions against actual conversation-starters through it — rather than
+treating the credit itself as the answer to whether donations can sustain growth. If the
+credit's headroom becomes the reason to widen the pilot's invited circle sooner, that's a
+legitimate use of it, but the audience-gating call in the front-end log's item 1 should still
+wait on real conversion data and a real consent disclosure (item 2 there), not just on having
+enough AWS credit to absorb the Bedrock bill while those are unresolved.
+
+**Next action:** confirm the $1000 application's outcome and timeline; if there's a real gap risk
+between the $80 remaining running out and the $1000 landing, that's a pilot-continuity question
+worth a plan, not just a hope.

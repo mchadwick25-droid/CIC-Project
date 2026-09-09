@@ -28,16 +28,16 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  How did this world know its practices went back to the apostles? Its own
+  How did we know our practices went back to the apostles? Our own
   answer was a story. Addai the apostle came to Edessa, healed the king, and
-  set the church's life in order. And that story, this voice must say
-  honestly, is the community's cherished legend - written down late, not a
+  set the church's life in order. And that story, we must say
+  honestly, is our cherished legend - written down late, not a
   document from the beginning. What the record actually shows is practice
   older than proof. When the sources begin, the practices are already there:
   assembly on the first day, fasting, the covenant already established enough
-  to need correcting, the one Gospel already the standard. The community lived
-  its inheritance as apostolic. The historian can trace it only to where the
-  records begin. Both of those things are true. And this world's own way of
+  to need correcting, the one Gospel already the standard. We lived
+  our inheritance as apostolic. The historian can trace it only to where the
+  records begin. Both of those things are true. And our own way of
   claiming the apostles was to tell the story, not to file the evidence.
 positions:
 - the apostolic-origin claim is carried by the Addai legend - told as the community's own story

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A conversation — Church in Conversation</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521;
+  --ink-faded:#6C6257;
+  --madder:#A13E2B;
+  --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD;
+  --muted:#B8AEA1;
+  --action:#E08C74;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+}*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--sans)}
+a{color:var(--action)}
+.bar{display:flex;align-items:center;gap:.9rem;padding:.6rem 1rem;border-bottom:1px solid var(--rule);background:var(--surface)}
+.bar a{display:inline-flex;align-items:center;min-height:36px;font-size:.9rem;font-weight:600;text-decoration:none}
+.bar a:hover,.bar a:focus-visible{text-decoration:underline}
+.wordmark{color:var(--muted);font-size:.85rem;margin-left:auto}
+.frame-wrap{height:calc(100vh - 49px)}
+iframe{display:block;width:100%;height:100%;border:0}
+.js-note{padding:2rem 1.25rem;max-width:34rem;margin:0 auto;text-align:center;font-family:var(--sans);color:var(--muted)}
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <a id="back-link" href="index.html#who">← Back</a>
+  <span class="wordmark">Church <em>in</em> Conversation</span>
+</div>
+
+<div class="frame-wrap">
+  <noscript><p class="js-note">This page needs JavaScript to open the conversation.</p></noscript>
+  <iframe id="talk-frame" title="Conversation" allow="clipboard-write"></iframe>
+</div>
+
+<script>
+(function(){
+"use strict";
+var params = new URLSearchParams(window.location.search);
+var worlds = params.get('worlds');
+var mode = params.get('mode') || 'interview';
+var from = params.get('from');
+
+if (from) {
+  document.getElementById('back-link').setAttribute('href', from);
+}
+
+var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1;
+var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
+
+var target = new URL(APP + '/');
+if (worlds) { target.searchParams.set('worlds', worlds); }
+target.searchParams.set('mode', mode);
+if (window.location.hash.indexOf('#q=') === 0) { target.hash = window.location.hash.slice(1); }
+
+var frame = document.getElementById('talk-frame');
+frame.src = target.toString();
+
+try { localStorage.setItem('cic-returning', '1'); } catch(e){}
+
+// The embedded app's own "Leave for now"/"Begin again" used to fall back
+// to its pre-redesign Launch screen when it had no idea it was inside an
+// iframe (2026-09-04 live bug, Mark hit it directly) - it now posts this
+// instead of navigating itself, and #back-link is already this page's own
+// real, styled answer to "where does leaving go." ev.source restricts to
+// exactly our own iframe - the only page that ever loads inside it is the
+// one this script just pointed at target above.
+window.addEventListener('message', function(ev) {
+  if (ev.source !== frame.contentWindow) return;
+  if (!ev.data || ev.data.type !== 'cic:leave') return;
+  window.location.href = document.getElementById('back-link').getAttribute('href');
+});
+})();
+</script>
+
+</body>
+</html>

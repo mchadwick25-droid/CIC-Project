@@ -367,6 +367,19 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.turn__avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 22%;
+  border: 1.5px solid currentColor;
+  flex: 0 0 auto;
 }
 
 .turn--participant .turn__speaker,
@@ -1237,6 +1250,42 @@ button {
   text-align: center;
   margin: var(--spacing-sm) auto;
   max-width: var(--max-width);
+}
+
+.typing-dots {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 3px;
+  margin-left: 4px;
+  vertical-align: baseline;
+}
+
+.typing-dots span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: currentColor;
+  animation: cic-typing 1.3s ease-in-out infinite;
+}
+
+.typing-dots span:nth-child(2) {
+  animation-delay: 0.16s;
+}
+
+.typing-dots span:nth-child(3) {
+  animation-delay: 0.32s;
+}
+
+@keyframes cic-typing {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.45; }
+  30% { transform: translateY(-3px); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .typing-dots span {
+    animation: none;
+    opacity: 0.7;
+  }
 }
 
 .error-restart {

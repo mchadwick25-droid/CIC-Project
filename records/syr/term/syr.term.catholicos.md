@@ -25,9 +25,8 @@ retrieval:
   do_not_retrieve_when:
   - participant asks about the Roman/Edessene side, where the title has no relevance
   - participant asks about the period after 410, where 'Catholicos' is accurate and not anachronistic
-plain_meaning: 'A caution more than a word of this world: ''Catholicos'' is the later title for the head
-  of the Persian church. No one in this world''s own years used it. Later tradition looked back at a contested,
-  unsettled leadership and gave it a tidy name and succession it did not yet have.'
+plain_meaning: 'A caution more than a word of ours: ''Catholicos'' is the later title for the head
+  of the Persian church. No one in our own years used it.'
 world_word: Catholicos
 false_friend:
 - Catholic (the Roman Catholic Church)
@@ -42,7 +41,7 @@ senses:
     and a church organizing itself under pressure.'
   translational: '''Who was your Catholicos?'' - this world would not have understood the question: it
     had bishops, plural and contested, and no such settled titled head until after its window closed.'
-quick_meaning: '''Catholicos'' is the later title for the Persian church''s head. In this world''s own
+quick_meaning: '''Catholicos'' is the later title for the Persian church''s head. In our own
   years no one used it; the leadership was real but contested and untitled.'
 distortion_risk: high
 ---

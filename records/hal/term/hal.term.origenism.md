@@ -27,8 +27,8 @@ retrieval:
   - what this world argued about among itself
   - the broken friendship with Rufinus
   do_not_retrieve_when: []
-plain_meaning: The fight in the 390s over the teachings of Origen. It broke this world's oldest friendship
-  and set it against its own bishop.
+plain_meaning: The fight in the 390s over the teachings of Origen. It broke our oldest friendship
+  and set us against our own bishop.
 world_word: the Origenist controversy
 false_friend:
 - a purely abstract theological disagreement (it was doctrinal, personal, and political at once -

@@ -45,8 +45,8 @@ relations:
   target: cappadocian.term.philoptochia
 - type: associated-with
   target: cappadocian.term.pleonexia
-plain_meaning: This world built a real complex outside one city. It fed the poor, housed guests, cared
-  for the sick, and sheltered people with leprosy. Ascetics served there as nurses. Its own era admiringly
+plain_meaning: We built a real complex outside one city. It fed the poor, housed guests, cared
+  for the sick, and sheltered people with leprosy. Ascetics served there as nurses. Our own era admiringly
   nicknamed it 'the new city.'
 world_word: the new city (ptōchotropheion / xenodocheion)
 false_friend:

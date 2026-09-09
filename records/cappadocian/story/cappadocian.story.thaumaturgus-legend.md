@@ -35,7 +35,7 @@ narrative_tier: 3
 narrative_tier_justification: "Tier 3: this is hagiography written a century after its subject's death, in the genre of miracle-cycle and founder-legend - not eyewitness or near-contemporary testimony. The specific numbers, the vision, and the mission narrative are Contested as history and traditional in character; what the story evidences, and what this world's own use of it demonstrates, is its function as a founding legend later generations appealed to as living authority."
 tellable_as: "A missionary finds a region with almost no Christians in it, receives the faith's own creed in a vision, and leaves it almost entirely converted."
 text: >-
-  In the third century, before this world's own living memory reached
+  In the third century, before our own living memory reached
   back, Gregory came to Pontus and Cappadocia as a young convert trained by
   Origen, to a region that, so the story tells it, held only seventeen
   Christians. By the time he died, so the same story tells it, only
@@ -51,7 +51,7 @@ text: >-
   continuing authority for the communities that trace themselves back to
   him, not to report checkable fact. Basil himself appealed to the
   Thaumaturgan inheritance as a living authority in his own day, which is
-  real evidence this world actually leaned on the legend, whatever its
+  real evidence we actually leaned on the legend, whatever its
   underlying facts.
 absent_detail: "Nothing survives in Gregory Thaumaturgus's own voice describing these events; the seventeen-to-seventeen figures are not census data and are not treated as such here."
 modern_contrast: >-

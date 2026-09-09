@@ -25,15 +25,15 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  How much of this world's account would hold up in a library? Its own books
-  are its answer. They survive, they are public, and they were public from the
+  How much of our account would hold up in a library? Our own books
+  are our answer. They survive, they are public, and they were public from the
   start. Origen answered Celsus by name, point by point, in the open. The
   scriptures were read aloud to anyone who came. The record is also honest
   about its own edges. The teachers marked the difference between eyewitness
   testimony and received tradition - Clement flags the John story as 'handed
   down.' Dionysius weighed the Apocalypse's authorship by its style, like a
   critic. Origen compared manuscript readings. But there are real thin places,
-  and this world names them. Much of what we know comes through one later
+  and we name them. Much of what survives comes through one later
   historian's selection. The majority who could not write left almost nothing.
   And some of the greatest teacher's works survive only in translations made
   by men with a stake in the outcome. What is claimed is claimed from named

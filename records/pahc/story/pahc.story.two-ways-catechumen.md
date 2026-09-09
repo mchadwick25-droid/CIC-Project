@@ -32,13 +32,13 @@ relations:
 narrative_tier: 4
 narrative_tier_justification: "No single named catechumen is attested anywhere in this world's evidence. This is a composite reconstruction of typical practice - teaching the Two Ways, then baptism with its water and fasting instructions - built entirely from the Didache's own sequential instructional text, which is itself Documented as a genuine catechetical/church-order document. Every element traces to a specific instruction in that text."
 tellable_as: >-
-  Before anything else, a person preparing for baptism in the community behind
-  the Didache is taught the Two Ways: a way of life and a way of death. Then
-  they are baptized, in running water where it can be found, with fasting
-  beforehand for both the baptizer and the one being baptized.
+  Before anything else, one of us preparing for baptism is taught the Two
+  Ways: a way of life and a way of death. Then we are baptized, in running
+  water where it can be found, with fasting beforehand for both the
+  baptizer and the one being baptized.
 text: >-
-  This is how it would have been, in the typical life of someone entering this
-  community through the path the Didache itself lays out. Before anything
+  This is how it would have been, in the typical life of one of us
+  entering through the path the Didache itself lays out. Before anything
   else, the one preparing for baptism would be taught the Two Ways: "There are
   two ways, one of life and one of death; but a great difference between the
   two ways" - the Way of Life beginning with love of God and neighbor, and the

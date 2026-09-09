@@ -28,7 +28,7 @@ relations:
   target: cappadocian.term.paideia-philosophia
 - type: associated-with
   target: cappadocian.term.parrhesia
-plain_meaning: This word named the drive to be honored and ranked above others. This world's own leaders
+plain_meaning: This word named the drive to be honored and ranked above others. Our own leaders
   named it as a real temptation among their own clergy, tired out by synod politics and status games inside
   the church itself.
 world_word: philotimia
@@ -44,7 +44,7 @@ senses:
   translational: '''Isn''t ambition basically healthy drive?'' -- this world''s own verdict was harsher:
     inside the church specifically, it named this the clergy''s own quiet disease, not a virtue to be
     encouraged.'
-quick_meaning: 'Love of honor: ambition -- named in this world as a disease specific to its own clergy.'
+quick_meaning: 'Love of honor: ambition -- named among us as a disease specific to our own clergy.'
 distortion_risk: high
 ---
 Built from Doc_06 entry 36 (Tier 3). One of the four Tier 3 entries Doc_06 added compact Related-Terms lines to this revision (Index E.3): hesychia, paideia-philosophia, parrhesia -- all reciprocated here.

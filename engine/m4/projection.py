@@ -32,6 +32,14 @@ class SessionState:
     frame: str | None = None
     code_hash: str | None = None
     package_manifest_hash: str | None = None
+    # The package DIRECTORY this session actually loaded from at open,
+    # alongside its hash (2026-09-04) - optional (older session_started
+    # events predate this field), so wiring.py falls back to the registry's
+    # current pointer when it's None, same as before this existed. See
+    # entrance.py's open_session docstring for why this matters: without
+    # it, a repin after session-open silently changes the directory a live
+    # session's every later turn resolves through.
+    package_location: str | None = None
     # Table mode (Artifact-7 SS1-2). world_keys/package_manifest_hashes are
     # the table's counterparts to the two singular fields above - exactly
     # one pair is ever set, per the event schema's mode-shape rule. The
@@ -41,6 +49,7 @@ class SessionState:
     # round (Artifact-7 SS6) - never held in memory between requests.
     world_keys: list[str] | None = None
     package_manifest_hashes: dict[str, str] | None = None
+    package_locations: dict[str, str] | None = None
     round_no: int = 0
     round_open: bool = False
     round_turns: int = 0
@@ -65,6 +74,21 @@ def _fold(session_id: str, events: list[StoredEvent]) -> SessionState:
     state.exists = True
     for event in events:
         payload = event.payload
+        if state.closed and state.close_reason == "idle" and event.event_type != "session_closed":
+            # An idle close is reporting-only, not a hard stop like the
+            # turn/round cap (Mark's call, 2026-09-06, after the pilot-
+            # summary endpoint surfaced that every real session showed
+            # "open" forever since nothing ever wrote session_closed's own
+            # declared "idle" reason) - engine.m4.idle_close only marks a
+            # session idle once it's gone quiet, and any real activity
+            # after that (a participant resuming with their session code)
+            # un-marks it here, rather than a resumed session sticking
+            # "idle" forever in the projection everything else reads
+            # (the API's own closed-session gate, the admin summary, the
+            # participant-facing transcript). A cap or participant close
+            # is never reopened this way - only "idle" is reversible.
+            state.closed = False
+            state.close_reason = None
         if event.event_type == "session_started":
             state.mode = payload["mode"]
             state.frame = payload["frame"]
@@ -72,9 +96,12 @@ def _fold(session_id: str, events: list[StoredEvent]) -> SessionState:
             if payload["mode"] == "table":
                 state.world_keys = list(payload["world_keys"])
                 state.package_manifest_hashes = dict(payload["package_manifest_hashes"])
+                if "package_locations" in payload:
+                    state.package_locations = dict(payload["package_locations"])
             else:
                 state.world_key = payload["world_key"]
                 state.package_manifest_hash = payload["package_manifest_hash"]
+                state.package_location = payload.get("package_location")
         elif event.event_type == "participant_message":
             state.transcript.append({"speaker": "participant", "text": payload["text"]})
             if state.mode == "table":
