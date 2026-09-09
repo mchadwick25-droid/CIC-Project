@@ -358,21 +358,22 @@ above just because the words came from a record rather than from your
 own drafting. Read every quoted or record-derived sentence the same way
 you'd read your own.
 
-**One live scope question this raises, not yet settled:** does "everything
-is reviewable and upgradable" extend to editing the canonical record
-files themselves (`records/<code>/*.md`), not just this website's use of
-them? Those files are the direct source for the Representative's live
-spoken conversation (a different register, governed by
+**Scope boundary, settled by Mark: website copy only.** "Everything is
+reviewable and upgradable" applies to this website's use of a record —
+a quote, a paraphrase, a "sourced so it's fine" pass-through — not to
+the canonical record files themselves (`records/<code>/*.md`). Those
+files are the direct source for the Representative's live spoken
+conversation (a different register, governed by
 `CiC_Register_Bar_2026-08-29.md` and gated by `engine/m1/gates.py`, not
 by this document — see "What this document governs, and what it does
-not" at the top). Editing website copy that quotes a record is squarely
-this document's scope and always was. Editing the record itself changes
-what the live Representative says in conversation, which is a bigger
-and different kind of action than a website-prose fix, with its own
-established review process (Doc_08 gates, probe batteries, the
-validation suite). Confirm with Mark, on a case-by-case basis, before
-editing a canonical record file itself rather than treating that
-authorization as automatically included here.
+not" at the top), with its own established review process (Doc_08
+gates, probe batteries, the validation suite). Mark's ruling, verbatim:
+"website copy only, don't touch the record files." Never edit a
+canonical record file under this document's authorization — truth-check
+against it, quote it, rewrite the website's rendering of it, but leave
+the file itself alone. If a record's own text is bad enough that fixing
+the website copy isn't enough, that's an escalation (§3.2), not a quiet
+edit.
 
 ---
 
