@@ -2,7 +2,7 @@
 
 **Alexandria (Catechetical-School) Formation World · finding document · 2026-09-09**
 
-**Version:** Round 5 draft (revised after four adversarial rounds). Revision log: **§11**.
+**Version:** Round 6 draft (revised after five adversarial rounds). Revision log: **§11**.
 
 - **Round 1** (`Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md`) — **SUBSTANTIAL
   REVISION REQUIRED**, 8 substantial + 8 cosmetic. Headline upheld.
@@ -18,14 +18,21 @@
   **Tensional** generation step — confessor/martyr authority vs episcopal authority, outside every
   prior round's frame — and found it fails too, and stated plainly that it **cannot find any route,
   inside or outside prior frames, to a Doc_04 classification change on this material.**
+- **Round 5** (`…_Round5_Review.md`) — **SUBSTANTIAL**, **1** + 19. Headline upheld a fifth time.
+  Round 3's four all **RESOLVED** — the first round with no partial and no fix-introduced
+  substantial error. Round 5 verified the Eusebius-independence claim at both ends rather than
+  accepting it, and ran two further routes (record-confidence; a second assigned Eusebius-independent
+  canonical text, Dionysius to Basilides at npnf214 `div2 17.5`) — both fail, and the second
+  **empirically confirms §7's root-cause thesis in a second volume**.
 
-All four are AI review, each marked in its own artifact *"Simulated review — informational only,
-not an Article 31 substitute"* (Article 31). **Round 5 review pending — this document is NOT
+All five are AI review, each marked in its own artifact *"Simulated review — informational only,
+not an Article 31 substitute"* (Article 31). **Round 6 review pending — this document is NOT
 cleared, and no disposition has been assigned to it.**
 
-*Trajectory, stated because it is the honest summary: 8 → 8 → 4 → 3 substantial findings, with the
-headline upheld at every round and each round **narrowing** the case under it rather than
-strengthening it.*
+*Trajectory, stated because it is the honest summary: **8 → 8 → 4 → 3 → 1** substantial findings,
+falling monotonically, with the headline upheld at every round and each round **narrowing** the
+case under it rather than strengthening it. Across all five rounds the defects have been
+overwhelmingly in this document's **self-description**, not in its evidence work.*
 
 **Status:** Verified finding, **escalated to the project lead — not self-disposed.** No
 **construction document** (Doc_01–Doc_09), no `records/alx/` record, no corpus-map entry and no
@@ -100,8 +107,10 @@ Everything below was read directly, not taken from the discovery pass's characte
 
 **3.1 The absence is real.** `records/alx/` contains **zero** figure records and **zero** source
 records for Peter of Alexandria, Theognostus, or Pierus, across all fourteen record types.
-(Control note: a bare grep for `peter` returns two Origen commentary records — the apostle and
-the *Gospel of Peter*, not the bishop. A grep for `peter of alexandria` returns nothing.)
+(Control note, corrected at Round 5: a bare grep for `peter` returns two Origen commentary
+records, but **neither mentions any Peter** — both matches are the *filename*
+`anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` inside an `edition:` field. A grep for
+`peter of alexandria` returns nothing.)
 
 **3.2 The assignment is real — and covers four Peter works across two volumes.**
 *Corrected at Round 1 review, which caught a factual error here: the first draft said all
@@ -345,14 +354,19 @@ The finding is that the record is *incomplete*, not that it is *wrong*:
 - **Canons I–V** — a graded penitential scale calibrated to how much torture preceded yielding.
 - **Canon XIV** — Peter cites letters he personally received from imprisoned martyrs ("as from
   their prison the thrice-blessed martyrs have written to me respecting those in Libya").
-- **Fragment I** — Meletius "has ordained in the prison several unto himself"; Peter interdicts
-  communion with him.
+- **Fragment I** — Meletius, "giving proof of his desire for pre-eminence, has ordained in the
+  prison several unto himself"; Peter interdicts communion with him. *Round 5 correction: earlier
+  drafts glossed this as confessor-prestige asserting ordaining authority against the office. That
+  is wrong. Meletius is a rival **bishop** (of Lycopolis) "invading my parish," the complaint is
+  jurisdictional — separating presbyters and deacons "from my authority" — and the letter of "the
+  most holy bishops and martyrs" is cited **on Peter's side**, as something Meletius is not
+  contented with. The prison setting is where he ordained, not the source of his claim.*
 
 Together: the Alexandrian church **deliberately de-absolutizing martyrdom-as-formation** —
 flight legitimate, bribery legitimate, self-offering discouraged from Christ's own example,
-lapse forgivable on a set scale, and the bishop rather than confessor-prestige deciding who
-counts as a confessor. Fragment I is confessor-prestige asserting ordaining authority against
-the office.
+lapse forgivable on a set scale, and, in Canon XIV, **the bishop deciding who is reckoned among
+the confessors**. That last point is what carries the T1×T4 argument below; it rests on the canons
+themselves, not on Fragment I.
 
 **A qualification that must travel with this, from ANF's own Elucidation II** (searched but not
 read in Round 1). The editor writes of Peter's canons that "Like the famous Canonical Epistles of
@@ -686,18 +700,19 @@ should not decide this.
 promised:
 
 1. this document (`Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md`);
-2. `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md`;
-3. `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round2_Review.md`;
-4. `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round3_Review.md`;
-5. `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round4_Review.md`;
-6. the **OG-6** entry appended to `Open_Gaps_Tracking.md`.
+2. **every** review round, as a file, at
+   `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round*_Review.md` — that glob is the
+   authoritative list. *Round 5 drift-proofing: this list previously enumerated the artifacts and
+   went stale in three of four rounds. A glob cannot go stale; a hand-maintained count can, and
+   did.*
+3. the **OG-6** entry appended to `Open_Gaps_Tracking.md`.
 
 *Disclosure, per Round 2 finding 1.* In the Round 2 draft this list asserted an
 `Open_Gaps_Tracking.md` entry that **did not exist at the time the claim was made** — the entry
 was intended and not yet written. Round 2 caught it by running `git show --stat` against both
 commits. It is the same defect class as the Round 1 header finding, and it is precisely the
 failure `cic-build-cycle` names ("content described as having been shown must actually be
-included"). The entry (OG-6) has since been written, and appending it is also why item 4 above
+included"). The entry (OG-6) has since been written, and appending it is also why item 3 above
 means `Open_Gaps_Tracking.md` **is** now modified — which the Status line at the head of this
 document accounts for by scoping its "no change" claim to world-build construction documents
 (Doc_01–Doc_09), `records/alx/`, the corpus map, and the compiled package.
@@ -706,7 +721,37 @@ document accounts for by scoping its "no change" claim to world-build constructi
 
 ## 11. Revision log
 
-### Round 4 → Round 5 (this revision)
+### Round 5 → Round 6 (this revision)
+
+Round 5 returned **SUBSTANTIAL REVISION REQUIRED** with **1 substantial** finding (19 cosmetic) and
+upheld the headline a fifth time. It found **all three** of Round 4's resolved — the first round
+with no partial and no fix-introduced substantial error — and it independently verified the
+Eusebius-independence claim at both ends rather than accepting it.
+
+1. **OG-6's closing "Reviews" paragraph had not been updated** — still naming three artifacts,
+   "All three upheld," and "a Round 4 review is pending," while four were on disk. **This is the
+   fourth consecutive round in which this document's self-description, not its evidence, was the
+   defect** (Round 1: header; Round 2: phantom ledger entry; Round 4: §10; now OG-6). Fixed — and
+   fixed *structurally* rather than a fourth time by hand: both the OG-6 reviews paragraph and
+   §10's file list now point at the `Round*_Review.md` glob instead of restating a count that goes
+   stale the moment another round lands.
+
+Two carried cosmetics that were **materially misleading** are also fixed, both four rounds old:
+
+- **§3.1's grep control note was false.** It claimed the two Origen records matching `peter` were
+  "the apostle and the *Gospel of Peter*." Neither mentions any Peter: both matches are the
+  *filename* `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` in an `edition:` field.
+- **§5.3's Fragment I gloss was wrong**, and it had been a supporting plank of the T1×T4 argument.
+  Meletius is a rival **bishop** "invading my parish"; the complaint is jurisdictional; and the
+  letter of "the most holy bishops and martyrs" is cited **on Peter's side**. The T1×T4 point
+  stands, but on **Canon XIV** — the bishop reckoning who is among the confessors — not on
+  Fragment I.
+
+Also: OG-6's heading demoted to `###` to match OG-1…OG-5; OG-6's generation-step summary
+disentangled (Round 3's penitential-reintegrative candidate and Round 4's Tensional candidate were
+conflated); stale "item 4" cross-reference fixed.
+
+### Round 4 → Round 5
 
 Round 4 returned **SUBSTANTIAL REVISION REQUIRED** (3 substantial, 15 cosmetic — 12 carried
 unrepaired from Round 3) and upheld the headline a fourth time, verifying Round 3's four against

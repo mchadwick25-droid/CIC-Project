@@ -244,7 +244,7 @@ Gravity discovery found that the six tests are structurally blind to the fact th
 
 ---
 
-## OG-6. Vendored-but-unused assigned corpus (anf06) — verified finding, escalated 2026-09-09
+### OG-6. Vendored-but-unused assigned corpus (anf06) — verified finding, escalated 2026-09-09
 
 A read-only discovery pass asked whether assigned-but-undrawn source material would be
 **structural** for Doc_04 (change a gravity's classification) rather than supplemental. It named
@@ -304,13 +304,22 @@ frozen** (Article 31/OG-4 outstanding), but the **S6.2 record-store and deployme
 
 **Routes tested and failed, so the negative result is on the record:** C3 Dependency, C4, C5
 Persistence, T1 pole separation, T2, T3, T4 confidence, the Article 21 Cross-Stratum Test, and —
-at Rounds 3 and 4, routes no earlier round had named — the **generation step**, i.e. whether this corpus
-should have produced a candidate Doc_04 §1 never generated. One is genuinely available
-(**penitential-reintegrative discipline**), and it fails the six tests on Doc_04's own Askesis and
-Participation↔Perception precedent. No remaining untested route is known.
+at Rounds 3–5, routes no earlier round had named — **the generation step**, i.e. whether this corpus
+should have produced a candidate Doc_04 §1 never generated. Two distinct candidates were raised and
+both fail: **penitential-reintegrative discipline** (Round 3 — Repetition passes, Persistence at
+best partial, and **Dependency fails decisively** on Doc_04 §2's Askesis and Participation↔Perception
+precedent) and a **Tensional** candidate, confessor/martyr authority vs episcopal authority (Round 4
+— fails on pole separation, Persistence and Dependency). Round 5 additionally ran the
+record-confidence route and found it terminates inside the remedy, not in a classification. No
+remaining untested route is known.
 
-Reviews: `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md` (SUBSTANTIAL, 8+8),
-`Round2_Review.md` (SUBSTANTIAL, 8+10) and `Round3_Review.md` (SUBSTANTIAL, 4+12) — all AI review,
-each marked "Simulated review — informational only, not an Article 31 substitute" per Article 31.
-All three upheld the "not structural" headline while **narrowing** the case under it. A Round 4
-review is pending; the finding document is **not cleared** and carries no disposition.
+**Reviews.** Every round is an artifact on disk at
+`Review-Artifacts/Unused_Assigned_Corpus_Finding_Round*_Review.md` — that glob, not a count
+restated here, is the authoritative list, because this entry and the finding document's own §10
+have drifted from disk state in four consecutive rounds and a count is the thing that keeps going
+stale. Each is AI review, marked "Simulated review — informational only, not an Article 31
+substitute" per Article 31. **Every round to date has returned SUBSTANTIAL REVISION REQUIRED and
+upheld the "not structural" headline**, each one *narrowing* the case under it rather than
+strengthening it; the substantial-finding count has fallen monotonically round on round. The
+finding document's header carries the current round and its status. **The finding document is NOT
+cleared and carries no disposition.**
