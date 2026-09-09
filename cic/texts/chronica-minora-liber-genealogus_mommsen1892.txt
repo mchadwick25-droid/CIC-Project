@@ -11,6 +11,7 @@
      Print Basis: Monumenta Germaniae Historica, Auctores Antiquissimi
                   IX. Berlin: Weidmann, 1892.
           Rights: Public Domain
+        Language: lat
     Rights basis: 1892 publication date places this volume long out of
                   US copyright; MGH volumes of this era are a standard,
                   uncontested public-domain category already relied on

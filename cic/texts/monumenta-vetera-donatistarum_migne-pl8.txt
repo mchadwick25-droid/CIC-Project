@@ -33,6 +33,7 @@
                   treating this as the right volume, not the printed
                   numeral alone.
           Rights: Public Domain
+        Language: lat
     Rights basis: 1844 compilation date places this volume enormously
                   out of copyright, consistent with how this entire
                   19th-century reference series is treated throughout

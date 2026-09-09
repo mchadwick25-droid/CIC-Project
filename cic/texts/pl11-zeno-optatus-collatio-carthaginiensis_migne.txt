@@ -23,6 +23,7 @@
                   unambiguous (title page: "ACCURANTE J.-P. MIGNE...
                   PATROLOGIAE TOMUS XI... PARISIIS, APUD VRAYET").
           Rights: Public Domain
+        Language: lat
     Rights basis: The Migne Patrologia Latina series as a whole was
                   compiled and printed in the 1840s-1850s, over 170
                   years before this session (2026) - the same PD-by-

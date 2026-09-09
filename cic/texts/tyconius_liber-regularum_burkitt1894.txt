@@ -13,6 +13,7 @@
                   Vol. III, No. 1. Cambridge: At the University Press,
                   1894.
           Rights: Public Domain
+        Language: lat (mixed: Tyconius's Latin text together with Burkitt's own English introduction and critical notes, roughly balanced by word count -- not a pure-Latin witness; see texts_registry.py's language_declared(), which reads this entire line as a single non-"en" value)
     Rights basis: Archive.org's own copyright-evidence record for this
                   item (bookofrulesoftyc00ticouoft): "Evidence reported
                   by Marlete Kurten for item bookofrulesoftyc00ticouoft
