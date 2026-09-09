@@ -334,6 +334,34 @@ epistula labeled. **FIVE-WORLD TRANSPARENCY READ**, 2026-08-30:
 ciceronian-dream +C-P, vulgata +C-E. **BAR SWEEP**, 2026-08-30, same
 standard as alx.
 
+**SUPPLEMENTAL SOURCE REVIEW, checked and closed with no action,
+2026-09-09.** A discovery pass flagged that the Syriac Palladius
+recension (`hal.source.palladius-paradise-syriac`) and Sulpitius
+Severus's Dialogues (`hal.source.sulpitius-dialogues`) never made it
+into the older `World-Builds/Hieronymian-Ascetic-Literary/Story-Chunks/`
+and `Lexicon-Chunks/` deployment layer. Verified before touching
+anything: that older layer predates this world's `records/hal/` regime
+and is not what ships - `records/worlds.yaml`'s hal entry pins
+`packages/hal/2026-09-04T16-41-54Z`, compiled by `engine/m2`'s
+`compile_world` exclusively from `records/hal/*` (confirmed directly in
+`engine/m1/loader.py`/`engine/m2/compiler.py` - neither reads
+`World-Builds/` at all), and this world's own registry entry above
+already states plainly that the new-regime records "supersede... the
+prior framework['s]" work. Checked the live layer itself, not just the
+premise: both sources are already thoroughly integrated there - each
+has its own `records/hal/source/*.md` record, and both are drawn on by
+multiple quote records (`hal.quote.paula-escaped-his-envy` and
+`hal.contested.paula-jerome-relationship` for the Syriac Palladius
+recension, with a full cross-recension divergence analysis against
+`hal.source.palladius-lausiac`'s Greek text already on record;
+`hal.quote.a-man-truly-catholic`, `hal.quote.always-at-his-books`, and
+`hal.contested.hebrew-fluency` for Sulpitius's Dialogues I.8-9, covering
+the full cited passage range). No unused corroborating material found
+sitting idle in either vendored text. **No records changed, no
+recompile needed** - the discovery pass's premise (a real gap in a
+deployment layer) did not survive contact with which layer actually
+ships. Logged here rather than left as a silent non-finding.
+
 ## syr (Syriac Christianity, Edessa/Nisibis)
 
 `doorway_place` responds to Mark's own screen read, 2026-08-28, which
