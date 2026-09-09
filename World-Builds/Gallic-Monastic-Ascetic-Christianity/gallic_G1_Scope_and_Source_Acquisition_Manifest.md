@@ -123,6 +123,17 @@ world's own window (Doc_01 §2) — that is a Doc_02-maintenance judgment call, 
 | *On the Government of God (De Gubernatione Dei)* | Salvian of Marseilles | archive.org `SalvianOfMarseille.OnTheGovernmentOfGod` (tr. Eva M. Sanford, 1930) | public domain (pd-us-by-date, "opensource" collection, no lending restriction) | **English.** Salvian was a presbyter of Marseilles, Cassian's own city, writing c. 440s — squarely inside this world's temporal and geographic window on paper, but his own subject (Roman moral decline under the Vandal-era crisis) is a different register from the grace controversy or the ascetic-formation material this world's ecology has centered so far. Boundary Check and Licensed-For scope not yet done — a Doc_02-maintenance item, not decided here |
 | *Vita Germani* (Life of Germanus of Auxerre) | Constantius of Lyon | archive.org `passionesvitaequesanctorum5` (MGH *Scriptores rerum Merovingicarum* VII, ed. Levison, 1920, pp. 225–283) | public domain ("Public Domain Mark 1.0") | Latin only — no public-domain English translation exists. The only English translation, F. R. Hoare's *The Western Fathers* (Sheed and Ward, 1954), is access-restricted (controlled digital lending) on every archive.org copy found and not confirmed public domain; a renewal check against Stanford's Copyright Renewal Database could not be completed this session (the host is blocked by this session's network egress proxy) — do not treat Hoare's translation as acquirable without that check actually being done. Germanus of Auxerre (not Provence/Lérins) is a looser geographic fit than Salvian's; Boundary Check not yet done |
 
+**Vendoring, 2026-09-09 (same pass):** all six texts in this addendum and the leads table above
+(Faustus, Eucherius ×2, Hilary of Arles, plus the two new leads Salvian and Germanus) fetched
+directly and vendored to `cic/texts/`, headers verified by `texts_registry.py`, zero problems.
+The four already-Native rows (Faustus, both Eucherius works, Hilary's Vita Honorati) are also
+now corpus-map assigned to this world (`cic/corpus-map/_staging/`, merged and validated) — see
+the Source Registry's own rows 24–27 for the per-row detail. **Salvian and Germanus are vendored
+but deliberately NOT corpus-map assigned** — their Boundary Check against this world's own
+window is still undecided, per the note above; assigning them to the census bucket now would
+settle that question by default rather than by an actual ecological judgment call. Both texts
+sit in `cic/texts/` unassigned until that call is made.
+
 ---
 
 ## Part C — Corpus-map re-pointing done this session (2026-09-08)

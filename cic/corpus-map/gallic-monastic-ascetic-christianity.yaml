@@ -108,6 +108,56 @@ works:
     (era 2, c. 360-450) was added to the census on record, and this work now names it rather
     than the Merovingian entry it antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+- work: De Contemptu Mundi ("The World Contemned"), an Epistle to His Kinsman Valerianus
+  author: eucherius-lyon
+  locus: full letter, tr. Henry Vaughan 1654 (CCEL PDF pp. 6-25)
+  role: tradition
+  confidence: assigned
+  note: 'Vendored 2026-09-09 per Source Registry row 25 (Native, Approved to Proceed via Doc_02).
+    A third Lerins-insider primary voice alongside Cassian and Vincent of Lerins, distinct
+    in genre (epistolary renunciation essay) -- English, via Henry Vaughan''s 1654 translation.
+
+    '
+  source_file: eucherius-lyon_de-contemptu-mundi_vaughan1654.txt
+- work: De Laude Eremi ad Hilarium Lirinensem Presbyterum (In Praise of the Desert, to Hilary
+    of Lerins)
+  author: eucherius-lyon
+  locus: full letter, Migne PL 50 (extracted excerpt, see file's own header for boundaries)
+  role: tradition
+  confidence: assigned
+  note: 'Vendored 2026-09-09 per Source Registry row 26 (Native, Approved to Proceed via Doc_02).
+    Latin only; no public-domain English translation identified. Addressed to Hilary, later
+    bishop of Arles, while Hilary was still a presbyter of Lerins.
+
+    '
+  source_file: eucherius-lyon_de-laude-eremi_migne-pl50.txt
+- work: De Gratia libri duo (Two Books on Grace)
+  author: faustus-riez
+  locus: the volume's own edition, pp. 1-98 (Prolegomena aside)
+  role: tradition
+  confidence: assigned
+  note: 'Faustus''s own direct theological defense of the Massilian position on grace and
+    free will against Augustine''s anti-Pelagian treatises (npnf105, already vendored and
+    assigned) -- the most direct surviving Massilian-side answer, per this world''s own Doc_02
+    Source Ecology §1.4 and Source Registry row 24. Latin only; no public-domain English translation
+    exists.
+
+    '
+  source_file: faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt
+- work: Sermo de Vita Sancti Honorati Episcopi Arelatensis (Sermon on the Life of St. Honoratus)
+  author: hilary-arles
+  locus: the sermon itself, Migne PL 50 (extracted excerpt, see file's own header for boundaries
+    -- the file also carries at least one further short genuine letter of Hilary's not separately
+    bounded here, see that header)
+  role: tradition
+  confidence: assigned
+  note: 'Vendored 2026-09-09 per Source Registry row 27 (Native, Approved to Proceed via Doc_02).
+    This world''s own founding narrative for Lerins, previously entirely absent from the vendored
+    library -- independently attested to exist by Gennadius''s own text (already vendored,
+    npnf203 ch. LXX). Latin only; no public-domain English translation identified.
+
+    '
+  source_file: hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt
 - work: Dialogues of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.4 — Dialogues of Sulpitius Severus

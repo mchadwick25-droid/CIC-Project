@@ -127,7 +127,7 @@ queue:
     url: "https://archive.org/details/SalvianOfMarseille.OnTheGovernmentOfGod"
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-09"
-    status: not-yet-downloaded
+    status: downloaded
 
   - title: "Vita Germani (Life of Germanus of Auxerre)"
     author: "Constantius of Lyon"
@@ -153,7 +153,7 @@ queue:
     url: "https://archive.org/details/passionesvitaequesanctorum5"
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-09"
-    status: not-yet-downloaded
+    status: downloaded
 
   - title: "De gratia libri duo"
     author: "Faustus of Riez"
@@ -173,7 +173,7 @@ queue:
     url: "https://archive.org/details/corpusscriptorum21fausuoft"
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-09 (previously sibling-flagged only)"
-    status: not-yet-downloaded
+    status: downloaded
 
   - title: "De Contemptu Mundi (\"The World Contemned\")"
     author: "Eucherius of Lyon"
@@ -183,14 +183,14 @@ queue:
     why: >
       Already logged as a located-but-not-vendored lead in this world's
       own Source Registry (row 25), sibling-flagged only — re-verified
-      this pass via direct search of CCEL's own hosted text (CCEL itself
-      is blocked by this session's network egress proxy, so the host
-      page could not be fetched directly; the 1654 publication date
-      alone is sufficient for pd-us-by-date regardless).
+      and vendored this pass. The bare `ccel.org` domain turned out to be
+      reachable through this session's network egress proxy (only
+      `www.ccel.org` is blocked); CCEL's own page states directly, "This
+      document is in the public domain."
     url: "https://ccel.org/ccel/e/eucherius/contempt/cache/contempt.pdf"
     rights_basis: pd-us-by-date
-    verified_by: "direct WebSearch verification of CCEL's own hosted text, 2026-09-09 (previously sibling-flagged only; direct WebFetch blocked)"
-    status: not-yet-downloaded
+    verified_by: "direct WebFetch verification, 2026-09-09 (previously sibling-flagged only)"
+    status: downloaded
 
   - title: "De Laude Eremi"
     author: "Eucherius of Lyon"
@@ -206,7 +206,7 @@ queue:
     url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_050"
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-09 (previously sibling-flagged only)"
-    status: not-yet-downloaded
+    status: downloaded
 
   - title: "Sermo de Vita Sancti Honorati"
     author: "Hilary of Arles"
@@ -222,4 +222,4 @@ queue:
     url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_050"
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-09 (previously sibling-flagged only)"
-    status: not-yet-downloaded
+    status: downloaded
