@@ -1,0 +1,1914 @@
+[
+  {
+    "id": "pahc-good-shepherd-statue-cma",
+    "title": "The Good Shepherd (marble statuette)",
+    "worldKeys": [
+      "pahc"
+    ],
+    "tags": [
+      "good-shepherd",
+      "sculpture",
+      "marble",
+      "anatolia",
+      "early-christian",
+      "roman-empire"
+    ],
+    "depictedPeriod": "280-290 CE",
+    "artworkDate": "280-290 CE",
+    "medium": "photo",
+    "description": "A late Roman/early Christian marble statuette from Anatolia of a youthful shepherd carrying a sheep on his shoulders, read by the Cleveland Museum of Art as a likely depiction of Christ as the Good Shepherd (John 10:11) — one of the visual images shared by pagan and Christian Romans alike in this period.",
+    "repository": "The Cleveland Museum of Art (Open Access, via Internet Archive mirror)",
+    "sourceUrl": "https://archive.org/details/clevelandart-1965.241-the-good-shepherd",
+    "directUrl": "https://archive.org/download/clevelandart-1965.241-the-good-shepherd/1965.241_full.jpg",
+    "license": "CC0",
+    "licenseNotes": "Verified directly: the archive.org item's own metadata record for this Cleveland Museum of Art Open Access object carries licenseurl https://creativecommons.org/publicdomain/zero/1.0/ (CC0), fetched and confirmed in this session.",
+    "localPath": "assets/library/pahc/pahc-good-shepherd-statue-cma.jpg",
+    "status": "approved",
+    "notes": "Depicted date (280-290 CE) runs a little later than this world's stated 70-200 CE window, but the object is squarely pre-Constantinian and the Met/Cleveland's own catalog text explicitly connects it to the Good Shepherd theme central to early house-church-era Christian self-understanding — picked as the strongest fully-verified, no-caveat candidate available for this world within this session's reach. Downloaded and resized for web use."
+  },
+  {
+    "id": "desert-anthony-paul-durer-cma",
+    "title": "The Visit of St. Anthony to St. Paul the Hermit",
+    "worldKeys": [
+      "desert"
+    ],
+    "tags": [
+      "anthony the great",
+      "paul the hermit",
+      "woodcut",
+      "durer",
+      "desert",
+      "elder-disciple"
+    ],
+    "depictedPeriod": "legendary episode set c. 4th century CE",
+    "artworkDate": "c. 1504 woodcut",
+    "medium": "engraving",
+    "description": "Albrecht Dürer's woodcut of Anthony the Great visiting the elder hermit Paul of Thebes in the wilderness, the two seated together at a simple table in conversation, with a raven bringing bread overhead.",
+    "repository": "The Cleveland Museum of Art (Open Access, via Internet Archive mirror)",
+    "sourceUrl": "https://archive.org/details/clevelandart-1945.111-the-visit-of-st-anth",
+    "directUrl": "https://archive.org/download/clevelandart-1945.111-the-visit-of-st-anth/1945.111_full.jpg",
+    "license": "CC0",
+    "licenseNotes": "Verified directly: the archive.org item's own metadata record for this Cleveland Museum of Art Open Access object carries licenseurl https://creativecommons.org/publicdomain/zero/1.0/ (CC0), fetched and confirmed in this session.",
+    "localPath": "assets/library/desert/desert-anthony-paul-durer-cma.jpg",
+    "status": "approved",
+    "notes": "Picked over the more common 'Temptation of St Anthony' engravings (demons swarming Anthony) because it matches this world's own tile copy better: authority 'earned through a lifetime of discipline under one elder' is exactly what this composition shows — an elder and a visiting monk in a real teaching relationship, not just a generic demon-temptation trope. Downloaded and resized for web use."
+  },
+  {
+    "id": "ijc-ambrose-goya-cma",
+    "title": "Saint Ambrose",
+    "worldKeys": [
+      "ijc"
+    ],
+    "tags": [
+      "ambrose",
+      "milan",
+      "bishop",
+      "painting",
+      "goya"
+    ],
+    "depictedPeriod": "Ambrose of Milan lived c. 340-397 CE",
+    "artworkDate": "c. 1796-1799 painting",
+    "medium": "painting",
+    "description": "Francisco de Goya's large oil painting of Ambrose, Bishop of Milan, shown writing while seated, part of a series Goya painted of Ambrose, Jerome, Augustine, and Gregory the Great — 'key figures of early Catholicism,' per the Cleveland Museum of Art's own catalog description, which also notes Ambrose 'resolved important theological conflicts within the church and worked effectively with advocates of Roman paganism.'",
+    "repository": "The Cleveland Museum of Art (Open Access, via Internet Archive mirror)",
+    "sourceUrl": "https://archive.org/details/clevelandart-1969.23-saint-ambrose",
+    "directUrl": "https://archive.org/download/clevelandart-1969.23-saint-ambrose/1969.23_full.jpg",
+    "license": "CC0",
+    "licenseNotes": "Verified directly: the archive.org item's own metadata record for this Cleveland Museum of Art Open Access object carries licenseurl https://creativecommons.org/publicdomain/zero/1.0/ (CC0), fetched and confirmed in this session.",
+    "localPath": "assets/library/ijc/ijc-ambrose-goya-cma.jpg",
+    "status": "approved",
+    "notes": "Ambrose is the figure behind this world's single most vivid tile-copy detail (the emperor's public penance after Thessalonica). A more narratively literal image exists — van Dyck's 'Ambrose Barring Theodosius from Milan Cathedral' (see candidate van-dyck-ambrose-theodosius in ijc.json) — but its Commons license could not be independently verified in this session, so this fully CC0-verified portrait of Ambrose alone was used for the approved download instead. A human reviewer may prefer to swap in the van Dyck once its license is confirmed. Downloaded and resized for web use."
+  },
+  {
+    "id": "hal-jerome-lievens-cma",
+    "title": "St. Jerome",
+    "worldKeys": [
+      "hal"
+    ],
+    "tags": [
+      "jerome",
+      "penitent",
+      "etching",
+      "lievens",
+      "cardinal's hat",
+      "study"
+    ],
+    "depictedPeriod": "iconic/legendary imagining of Jerome, not a specific historical moment",
+    "artworkDate": "1631 etching",
+    "medium": "engraving",
+    "description": "Jan Lievens's etching of Jerome as an aged, half-clothed penitent seated beside a stack of books, a cardinal's hat and a crucifix nearby, absorbed in contemplation with a hammer resting in his hands.",
+    "repository": "The Cleveland Museum of Art (Open Access, via Internet Archive mirror)",
+    "sourceUrl": "https://archive.org/details/clevelandart-1943.588-st-jerome",
+    "directUrl": "https://archive.org/download/clevelandart-1943.588-st-jerome/1943.588_full.jpg",
+    "license": "CC0",
+    "licenseNotes": "Verified directly: the archive.org item's own metadata record for this Cleveland Museum of Art Open Access object carries licenseurl https://creativecommons.org/publicdomain/zero/1.0/ (CC0), fetched and confirmed in this session.",
+    "localPath": "assets/library/hal/hal-jerome-lievens-cma.jpg",
+    "status": "approved",
+    "notes": "Jerome is the dominant figure of this world; this etching was chosen over the Dürer/Rembrandt 'Jerome in his study' Met candidates (also CC0 by the same Open Access logic, but unfetchable this session to grab the actual file) because it was fully downloadable and viewable end-to-end in this session. Downloaded and resized for web use."
+  },
+  {
+    "id": "atmosphere-orpheus-catacomb-schaff",
+    "title": "Christ under the Type of Orpheus (catacomb fresco engraving)",
+    "worldKeys": [],
+    "tags": [
+      "catacombs",
+      "orpheus",
+      "engraving",
+      "book-plate",
+      "early-christian-symbolism"
+    ],
+    "depictedPeriod": "fresco depicted is 2nd-4th century CE (Crypt of St. Domitilla, Rome)",
+    "artworkDate": "1910 book engraving (Philip Schaff, History of the Christian Church, Vol. II)",
+    "medium": "engraving",
+    "description": "A 19th/early-20th-century engraved reproduction of a catacomb ceiling fresco from the Crypt of St. Domitilla in Rome, showing Christ allegorically represented as Orpheus playing his lyre to the animals, surrounded by roundels of Lazarus, Daniel in the lions' den, Moses striking the rock, and other Old and New Testament scenes.",
+    "repository": "Internet Archive (scan of Philip Schaff, History of the Christian Church, Vol. II: Ante-Nicene Christianity, A.D. 100-325, 1910 printing)",
+    "sourceUrl": "https://archive.org/details/historyofchristi0002phil_k9s9",
+    "directUrl": "https://iiif.archive.org/image/iiif/3/historyofchristi0002phil_k9s9%2Fhistoryofchristi0002phil_k9s9_jp2.zip%2Fhistoryofchristi0002phil_k9s9_jp2%2Fhistoryofchristi0002phil_k9s9_0888.jp2/full/max/0/default.jpg",
+    "license": "Public Domain (pre-1929 publication)",
+    "licenseNotes": "Confirmed directly: this session fetched the actual archive.org item (published 1910; author Philip Schaff died 1893), located the plate via the item's own djvu.xml page index, and downloaded the page image directly from Internet Archive's IIIF image service — safely public domain in the US as a pre-1929 publication.",
+    "localPath": "assets/library/general/atmosphere-orpheus-catacomb-schaff.jpg",
+    "status": "approved",
+    "notes": "Located by searching the book's own 'Illustrations from the Catacombs' section (djvu text) and mapping the printed page number to the correct scanned leaf/canvas index via the item's djvu.xml and IIIF manifest. Image is the full book page (plate + printed caption); left uncropped since the caption is informative and the antiquarian-book look fits the site's tone. Downloaded and resized for web use."
+  },
+  {
+    "id": "atmosphere-good-shepherd-catacomb-schaff",
+    "title": "Christ as the Good Shepherd (catacomb fresco engraving)",
+    "worldKeys": [],
+    "tags": [
+      "catacombs",
+      "good-shepherd",
+      "engraving",
+      "book-plate",
+      "early-christian-symbolism"
+    ],
+    "depictedPeriod": "fresco depicted is 2nd-4th century CE (fresco ceiling 'from Bosio', Rome)",
+    "artworkDate": "1910 book engraving (Philip Schaff, History of the Christian Church, Vol. II)",
+    "medium": "engraving",
+    "description": "A 19th/early-20th-century engraved reproduction of a Roman catacomb ceiling fresco showing Christ as the Good Shepherd at the center of a roundel, surrounded by scenes including the healing of the paralytic, the raising of Lazarus, Daniel in the lions' den, Jonah, Moses striking the rock, and Noah and the dove.",
+    "repository": "Internet Archive (scan of Philip Schaff, History of the Christian Church, Vol. II: Ante-Nicene Christianity, A.D. 100-325, 1910 printing)",
+    "sourceUrl": "https://archive.org/details/historyofchristi0002phil_k9s9",
+    "directUrl": "https://iiif.archive.org/image/iiif/3/historyofchristi0002phil_k9s9%2Fhistoryofchristi0002phil_k9s9_jp2.zip%2Fhistoryofchristi0002phil_k9s9_jp2%2Fhistoryofchristi0002phil_k9s9_0887.jp2/full/max/0/default.jpg",
+    "license": "Public Domain (pre-1929 publication)",
+    "licenseNotes": "Confirmed directly: same source volume as atmosphere-orpheus-catacomb-schaff (published 1910; author died 1893) — safely public domain in the US as a pre-1929 publication. Page located and downloaded directly from Internet Archive's IIIF image service in this session.",
+    "localPath": "assets/library/general/atmosphere-good-shepherd-catacomb-schaff.jpg",
+    "status": "approved",
+    "notes": "Companion plate to the Orpheus engraving, immediately preceding it in the same book — the two make a natural pair of early Christian catacomb-symbolism atmosphere images. Downloaded and resized for web use."
+  },
+  {
+    "id": "dura-europos-good-shepherd",
+    "title": "Good Shepherd fresco, Dura-Europos house-church baptistery",
+    "worldKeys": [
+      "pahc"
+    ],
+    "tags": [
+      "house-church",
+      "domus-ecclesiae",
+      "baptistery",
+      "good-shepherd",
+      "fresco",
+      "syria"
+    ],
+    "depictedPeriod": "c. 232-256 CE",
+    "artworkDate": null,
+    "medium": "fresco",
+    "description": "Wall painting of Christ as the Good Shepherd above the baptismal font in the baptistery room of the Dura-Europos house-church, the earliest identified purpose-adapted Christian house-church.",
+    "repository": "Wikimedia Commons (object held at Yale University Art Gallery)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dura_Europos_Baptistry_Good_Shepherd.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch listing; Commons file page could not be fetched in this session (wikimedia.org blocked) to confirm the exact PD tag. As a c. 3rd-century archaeological fresco (removed to Yale University Art Gallery) it is almost certainly public domain by age, but the tag itself is unverified here.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Strongest single image for the 'house-church interior / domus ecclesiae' theme. Cross-check the physical object also at Yale University Art Gallery (search their collections site) for an institution-hosted alternative with clearer rights language."
+  },
+  {
+    "id": "dura-europos-christ-walking-water",
+    "title": "Christ Walking on Water, Dura-Europos baptistery wall painting",
+    "worldKeys": [
+      "pahc"
+    ],
+    "tags": [
+      "house-church",
+      "domus-ecclesiae",
+      "baptistery",
+      "fresco",
+      "syria",
+      "miracle-scene"
+    ],
+    "depictedPeriod": "c. 232-256 CE",
+    "artworkDate": null,
+    "medium": "fresco",
+    "description": "Fragmentary fresco from the same Dura-Europos house-church baptistery showing Christ walking on water toward Peter, one of the oldest surviving narrative Christian wall paintings.",
+    "repository": "Yale University Art Gallery",
+    "sourceUrl": "https://artgallery.yale.edu/collections/objects/34499",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Museum object page found via WebSearch; could not fetch the page directly in this session to confirm the Gallery's stated rights/license text for this specific image (Yale sometimes marks such archaeological finds public domain, but the exact wording was not confirmed here).",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Same building/room as the Good Shepherd image above (dura-europos-good-shepherd) — use together or pick one to avoid redundancy. Yale's own object page is a good place for a human reviewer to check exact rights language directly."
+  },
+  {
+    "id": "priscilla-fractio-panis",
+    "title": "Fractio Panis fresco, Catacomb of Priscilla",
+    "worldKeys": [
+      "pahc"
+    ],
+    "tags": [
+      "catacomb",
+      "agape-feast",
+      "shared-table",
+      "eucharist",
+      "fresco",
+      "rome"
+    ],
+    "depictedPeriod": "2nd-4th century CE (dating disputed among scholars)",
+    "artworkDate": null,
+    "medium": "fresco",
+    "description": "Fresco in the Greek Chapel (Capella Greca) of the Catacomb of Priscilla showing seven figures seated at a table with bread and fish, generally read as an agape-feast/eucharistic 'breaking of bread' scene.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catacombe_di_Priscilla,_Rome_-_Fresco_of_a_Christian_Agape_feast_-_Fractio_panis_-_Greek_chapel_-_2nd_-_4th_century.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch; Commons file page itself could not be fetched (wikimedia.org blocked in this sandbox) to read the exact license tag. As a 2nd-4th century in-situ catacomb fresco it is public domain as an artwork by age; only the specific photograph's licensing (photographer's release) is what needs confirming before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "One of the best-known 'shared table' images for this world's tile copy. Very widely reproduced — good chance a clean CC/PD-tagged copy exists on Commons; just needs a human to open the file page and confirm."
+  },
+  {
+    "id": "marcellinus-peter-agape-feast",
+    "title": "Agape feast fresco, Catacombs of Saints Marcellinus and Peter",
+    "worldKeys": [
+      "pahc"
+    ],
+    "tags": [
+      "catacomb",
+      "agape-feast",
+      "shared-table",
+      "banquet",
+      "fresco",
+      "rome"
+    ],
+    "depictedPeriod": "3rd-4th century CE",
+    "artworkDate": null,
+    "medium": "fresco",
+    "description": "Banquet fresco from the Catacomb of Saints Marcellinus and Peter on the Via Labicana, showing figures reclining at a table being served wine and bread — read either as a funerary agape meal or as symbolic of the heavenly banquet.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agape_feast_07.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch; could not fetch the Commons file page in this session to confirm the exact PD/CC tag. Underlying fresco is ancient and PD by age; the specific photo's license needs a human to confirm on the file page.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Numbered series ('Agape feast 0X.jpg') suggests multiple angles/details exist in this Commons category — worth a human browsing the full set for the clearest composition."
+  },
+  {
+    "id": "bazzani-vettii-lararium-1895",
+    "title": "Lararium, House of the Vettii, Pompeii (1895 watercolor)",
+    "worldKeys": [
+      "pahc"
+    ],
+    "tags": [
+      "roman-house",
+      "domus",
+      "lararium",
+      "household-shrine",
+      "pompeii",
+      "watercolor"
+    ],
+    "depictedPeriod": "c. 36-39 CE (structure/decoration depicted)",
+    "artworkDate": "1895 watercolor",
+    "medium": "painting",
+    "description": "Luigi Bazzani's 1895 watercolor of the household shrine (lararium) as found in situ after excavation in the House of the Vettii, Pompeii — useful reference for the kind of 1st-century Roman domestic space a house-church would have repurposed for gathering and worship.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lararium_of_a_family_altar,_seen_in_situ_after_excavation,_House_of_Aulus_Vettius,_Pompeii,_c36-39_CE,_1895_watercolor_by_Luigi_Bazzani.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch with exact file title confirmed; could not fetch the Commons file page in this session to confirm the exact PD tag. Bazzani died 1927, so his watercolors are approaching/likely already public domain by author death + term, but the precise tag should be confirmed by a human.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Not a Christian image itself — a domestic-architecture reference for 'what a Roman household space looked like' to help illustrate the house-church setting without depicting a specific (uncertain) Christian house. Good supporting/background image rather than a hero image."
+  },
+  {
+    "id": "rylands-p52-john-fragment",
+    "title": "Rylands Library Papyrus P52 (Gospel of John fragment)",
+    "worldKeys": [
+      "pahc"
+    ],
+    "tags": [
+      "papyrus",
+      "manuscript",
+      "letter",
+      "early-christian-writing",
+      "greek"
+    ],
+    "depictedPeriod": "c. 100-150 CE",
+    "artworkDate": null,
+    "medium": "photo",
+    "description": "Photograph of the Rylands Library Papyrus P52, a small papyrus fragment (John 18:31-38) generally dated to the first half of the 2nd century and often cited as the earliest surviving New Testament manuscript fragment — a strong visual stand-in for the 'letters connecting scattered households' theme even though it is Gospel text rather than an epistle.",
+    "repository": "John Rylands Library, Manchester (via Wikipedia/Wikimedia Commons)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rylands_Library_Papyrus_P52",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Wikipedia article confirms Commons-hosted images exist ('P52 recto', 'P52 verso') credited in some secondary sources as 'JRUL / Wikimedia Commons / Public Domain', but this session could not fetch the actual Commons file page (wikimedia.org blocked) to verify that tag first-hand. Treat as needing confirmation before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Depicts John's Gospel, not a letter — if the brief specifically wants an epistle, look instead for an Oxyrhynchus papyrus letter fragment (several exist per Wikipedia, e.g. P.Oxy. 210), but none had a confirmed image/license traceable in this session."
+  },
+  {
+    "id": "wierix-persecution-martyrdom-engraving",
+    "title": "Persecution of Christians with scenes of martyrdom behind (engraving)",
+    "worldKeys": [
+      "pahc"
+    ],
+    "tags": [
+      "persecution",
+      "martyrdom",
+      "engraving",
+      "roman-empire"
+    ],
+    "depictedPeriod": "generalized depiction of 1st-2nd century CE persecution",
+    "artworkDate": "engraving, artist J. Wierix after M. de Vos (Wellcome Collection copy digitized/catalogued as V0033268)",
+    "medium": "engraving",
+    "description": "Engraving showing the persecution of Christians in the foreground with further scenes of martyrdom depicted behind, from the Wellcome Collection's digitized print holdings.",
+    "repository": "Wellcome Collection (via Wikimedia Commons)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Persecution_of_Christians_with_scenes_of_martyrdom_behind._E_Wellcome_V0033268.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch; could not fetch the Commons file page in this session to confirm the exact license tag. Note for the human reviewer: Wellcome Collection's own digitized historical print collection is widely documented as released under CC-BY 4.0, which would likely apply here, but that is this agent's general knowledge, not a confirmed reading of this specific file's tag in this session — verify on the actual page before relying on it.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Best 'persecution' candidate found. As a period engraving (not a live-action photo) it directly illustrates the 'suspicion from neighbors, and even outright persecution' language in the site's tile copy."
+  },
+  {
+    "id": "withrow-1888-fig134-agape-fresco",
+    "title": "\"Fresco of Early Christian Agape\" (Fig. 134), from Withrow's Catacombs of Rome",
+    "worldKeys": [
+      "pahc"
+    ],
+    "tags": [
+      "catacomb",
+      "agape-feast",
+      "engraving",
+      "book-illustration",
+      "19th-century"
+    ],
+    "depictedPeriod": "2nd-3rd century CE (fresco depicted); reproduced 1888",
+    "artworkDate": "1888 book engraving/illustration",
+    "medium": "engraving",
+    "description": "19th-century engraved reproduction (Fig. 134, captioned 'Fresco of Early Christian Agape') of a Roman catacomb agape-feast fresco, from W. H. Withrow's 1888 book 'The Catacombs of Rome, and Their Testimony Relative to Primitive Christianity'.",
+    "repository": "Internet Archive / Project Gutenberg (scan of 1888 publication)",
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/47532/pg47532-images.html",
+    "directUrl": "https://www.gutenberg.org/cache/epub/47532/images/fig_134.jpg",
+    "license": "Public Domain (pre-1929 publication)",
+    "licenseNotes": "Book published 1888; scan/e-text distributed by Project Gutenberg (identifier 47532) and also present on Internet Archive (catacombsofromet00withuoft / catacombsofromeo0000unse). Pre-1929 publication date makes the original engraving safely public domain by age; this specific Gutenberg-hosted scan/reproduction should still be spot-checked by a human but carries no additional rights layer of concern.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Same book (Fig. 130, 'Chamber with Catechumens' Seats') also has a plausible image for the house-church/gathering-space theme at https://www.gutenberg.org/cache/epub/47532/images/fig_130.jpg — a second candidate from the same confirmed-PD source if more variety is wanted. Companion Internet Archive item: https://archive.org/details/catacombsofromet00withuoft"
+  },
+  {
+    "id": "clement-alexandrin-thevet-engraving",
+    "title": "Clement of Alexandria (imagined portrait engraving)",
+    "worldKeys": [
+      "alx"
+    ],
+    "tags": [
+      "clement of alexandria",
+      "catechetical school",
+      "portrait",
+      "engraving",
+      "teacher"
+    ],
+    "depictedPeriod": "Clement of Alexandria, c. 150-215 CE",
+    "artworkDate": "1584 engraving (posthumous, imagined likeness)",
+    "medium": "engraving",
+    "description": "An imagined portrait engraving of Clement of Alexandria, head of the Alexandrian catechetical school before Origen, from André Thevet's 16th-century collection of portraits of illustrious men.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clement_alexandrin.jpg",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Clement_alexandrin.jpg",
+    "license": "unverified",
+    "licenseNotes": "WebSearch snippet described the Commons file as tagged Creative Commons Public Domain Mark 1.0, from Thevet's 1584 'Les vrais pourtraits et vies des hommes illustres.' Could not fetch the Commons file page directly in this session to confirm the exact tag — verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "This is a 16th-century imagined likeness, not a contemporary portrait — no image of Clement exists from his own lifetime. Good for illustrating 'a teacher of the school' generically rather than a literal depiction."
+  },
+  {
+    "id": "origen-teaching-students-luyken",
+    "title": "Origen Teaching His Students",
+    "worldKeys": [
+      "alx"
+    ],
+    "tags": [
+      "origen",
+      "catechetical school",
+      "teaching",
+      "engraving",
+      "scripture"
+    ],
+    "depictedPeriod": "Origen's teaching in Alexandria, c. 203-231 CE",
+    "artworkDate": "c. 1700 engraving by Jan Luyken",
+    "medium": "engraving",
+    "description": "A Dutch engraving by Jan Luyken depicting Origen instructing a group of students, evoking the catechetical school setting central to this world.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:OrigenStudentsLuyken.jpg",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/OrigenStudentsLuyken.jpg",
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch (file exists on Commons under this exact name). Jan Luyken died in 1712, so the work itself is unquestionably public domain by age, but the exact Commons license tag was not fetched/confirmed in this session — verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Strong direct match for the 'teachers leading seekers through Scripture' imagery in the site's tile copy. Worth a close look as a hero/lead image for this world."
+  },
+  {
+    "id": "codex-alexandrinus-luke-folio",
+    "title": "Codex Alexandrinus, Gospel of Luke folio",
+    "worldKeys": [
+      "alx"
+    ],
+    "tags": [
+      "manuscript",
+      "scripture",
+      "codex alexandrinus",
+      "bible",
+      "greek new testament"
+    ],
+    "depictedPeriod": "Manuscript written c. 400-440 CE",
+    "artworkDate": null,
+    "medium": "photo",
+    "description": "A photographed folio (f41v) from the Codex Alexandrinus, a major 5th-century Greek biblical manuscript associated with Alexandria, showing text from the Gospel of Luke.",
+    "repository": "Wikimedia Commons / British Library",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Codex_Alexandrinus_f41v_-_Luke.jpg",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Alexandrinus_f41v_-_Luke.jpg",
+    "license": "unverified",
+    "licenseNotes": "WebSearch snippet claimed Commons tags this as Creative Commons Public Domain Mark 1.0 (manuscript is 5th century; held by the British Library). Not independently confirmed by fetching the file page in this session — verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Directly ties to the 'reading Scripture' / manuscript-culture theme, and the name itself is Alexandria's. Note the manuscript's exact connection to the city of Alexandria (vs. later ownership/naming) is debated by scholars — a reviewer may want to check the Wikipedia article on Codex Alexandrinus for nuance before using it as a strict depiction of 2nd-4th century Alexandria specifically, since the manuscript postdates Origen by roughly two centuries."
+  },
+  {
+    "id": "pharos-lighthouse-galle-1572",
+    "title": "Pharos, the Lighthouse of Alexandria (Galle after Heemskerck)",
+    "worldKeys": [
+      "alx"
+    ],
+    "tags": [
+      "pharos",
+      "lighthouse",
+      "alexandria",
+      "seven wonders",
+      "cityscape",
+      "engraving"
+    ],
+    "depictedPeriod": "Ancient Alexandria; Pharos lighthouse built c. 280 BCE, stood into the medieval period",
+    "artworkDate": "1572 engraving by Philip Galle after Maarten van Heemskerck",
+    "medium": "engraving",
+    "description": "A 1572 engraving imagining the Pharos lighthouse of Alexandria as one of the Seven Wonders of the World, part of Heemskerck's well-known wonders series.",
+    "repository": "Wikimedia Commons (also held by the National Gallery of Art)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Philip_Galle_-_Lighthouse_of_Alexandria_(Pharos_of_Alexandria)_-_1572.jpg",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Philip_Galle_-_Lighthouse_of_Alexandria_(Pharos_of_Alexandria)_-_1572.jpg",
+    "license": "Public Domain (PD-old-auto-expired / CC-PD-Mark per Commons category tags found via search; NGA lists this print's rights as CC0)",
+    "licenseNotes": "WebSearch results showed the Commons file carrying categories 'CC-PD-Mark', 'PD-old-100-expired', and 'PD-Art (PD-old-auto-expired)', and the National Gallery of Art's own object page (nga.gov/collection/art-object-page.156115.html) lists the rights designation as CC0. Not independently fetched/confirmed in this session, but corroborated by two independent search hits, so reasonably high confidence — still worth a quick visual check before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "A 16th-century imaginative reconstruction, not an eyewitness image — the real Pharos was already ruined by earthquake well before this was made. Good general 'ancient Alexandria' establishing image."
+  },
+  {
+    "id": "great-library-alexandria-corven",
+    "title": "The Great Library of Alexandria (imagined interior)",
+    "worldKeys": [
+      "alx"
+    ],
+    "tags": [
+      "library of alexandria",
+      "scholars",
+      "scrolls",
+      "reading room",
+      "engraving"
+    ],
+    "depictedPeriod": "Imagined interior of the Library of Alexandria, Ptolemaic-Roman era",
+    "artworkDate": "19th century engraving/illustration by O. Von Corven",
+    "medium": "engraving",
+    "description": "A 19th-century imaginative rendering of the interior of the Great Library of Alexandria, showing scholars among ranks of scrolls, based loosely on period archaeological knowledge.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancientlibraryalex.jpg",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ancientlibraryalex.jpg",
+    "license": "Public Domain (PD-old, life+70 or fewer)",
+    "licenseNotes": "WebSearch snippet quoted the Commons file's own license statement: 'in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 70 years or fewer,' uploaded/released by user Domitori on 26 June 2007. Not independently fetched in this session to visually confirm the tag box, but the license text was directly quoted in the search result.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Widely reproduced image (also appears as 'The Great Library of Alexandria, O. Von Corven, 19th century.jpg' and in colorized versions on Commons) — a reviewer should pick the exact variant/file wanted, since several near-duplicates exist under different filenames."
+  },
+  {
+    "id": "library-fire-goll-1876",
+    "title": "The Burning of the Library/Museum of Alexandria",
+    "worldKeys": [
+      "alx"
+    ],
+    "tags": [
+      "library of alexandria",
+      "destruction",
+      "fire",
+      "serapeum",
+      "woodcut"
+    ],
+    "depictedPeriod": "Imagined depiction of the destruction of Alexandria's library/museum (events variously dated 48 BCE or 391 CE are both associated with this trope)",
+    "artworkDate": "1876 woodcut by Hermann Göll, published in 'Die Weisen und Gelehrten des Alterthums,' 2nd ed., Leipzig, p. 359",
+    "medium": "engraving",
+    "description": "A 19th-century woodcut imagining flames engulfing the museum/library complex of Alexandria, one of the standard visual tropes for the city's intellectual destruction.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Incendie_Alexandrie_by_Hermann_Goll_1876.jpg",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Incendie_Alexandrie_by_Hermann_Goll_1876.jpg",
+    "license": "unverified",
+    "licenseNotes": "Not confirmed by fetching the Commons file page in this session. The underlying work is an 1876 published woodcut, so it is almost certainly public domain by age, but the exact Commons tag string was not seen directly — verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Use with care thematically: this world's tile copy emphasizes Christian teachers and persecution of Christians, not the (unrelated, much-debated) library-destruction narrative. Could work as general 'crisis/loss' atmosphere but a reviewer should decide if it fits the story being told or risks importing an unrelated controversy (the causes/date of any library destruction are disputed by historians)."
+  },
+  {
+    "id": "nuremberg-chronicle-alexandria-1493",
+    "title": "Alexandria, Egypt (Nuremberg Chronicle)",
+    "worldKeys": [
+      "alx"
+    ],
+    "tags": [
+      "alexandria",
+      "cityscape",
+      "woodcut",
+      "nuremberg chronicle",
+      "medieval"
+    ],
+    "depictedPeriod": "Generic/imagined city view, not historically accurate to ancient Alexandria's actual appearance",
+    "artworkDate": "1493 woodcut, Hartmann Schedel's Nuremberg Chronicle (Liber Chronicarum)",
+    "medium": "engraving",
+    "description": "A woodcut labeled 'Alexandria' from the 1493 Nuremberg Chronicle; per art-historical sources the same woodblock was reused for several unrelated cities and shows generic European-style architecture rather than an accurate view of Alexandria.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexandria_-_Schedell_Hartmann_-_1493.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Filename as reported in a WebSearch snippet ('Alexandria - Schedell Hartmann - 1493.jpg'); could not fetch the Commons page to confirm the exact filename spelling, exact license tag, or that the URL resolves. Nuremberg Chronicle woodcuts of this vintage (1493) are overwhelmingly public domain on Commons, but this specific entry needs verification before use — treat the sourceUrl as a lead to check, not a confirmed link.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Weakest candidate in this set on the traceability front — flagged as lower-confidence. Also note the image is NOT an accurate depiction of ancient Alexandria (reused generic city woodcut), so use only as 'how medieval Europe pictured a far-off city,' not as historical illustration."
+  },
+  {
+    "id": "oxyrhynchus-papyrus-1-gospel-thomas",
+    "title": "Papyrus Oxyrhynchus 1 (Gospel of Thomas fragment)",
+    "worldKeys": [
+      "alx"
+    ],
+    "tags": [
+      "papyrus",
+      "manuscript",
+      "roman egypt",
+      "gospel of thomas",
+      "scripture fragment"
+    ],
+    "depictedPeriod": "Early 3rd century CE, Roman Egypt",
+    "artworkDate": null,
+    "medium": "photo",
+    "description": "A photograph of Papyrus Oxyrhynchus 1, an early 3rd-century Greek fragment (part of the Gospel of Thomas) excavated at Oxyrhynchus in Roman Egypt, illustrating the manuscript culture of the region and period.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Papyrus_Oxyrhynchus_1",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Only the Commons category page was located via WebSearch (a specific file named 'P. Oxy. 1.jpg' was mentioned in a search snippet as being inside this category, but no direct file URL or license tag was confirmed). A human reviewer needs to open the category page to pick the exact file and check its license before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Oxyrhynchus is not Alexandria itself but is in Roman Egypt and gives good texture for 'manuscripts and scripture-reading in this world's setting.' Weaker traceability than the other candidates — included as a lead, not a confirmed source."
+  },
+  {
+    "id": "syr-ephrem-nea-moni-mosaic",
+    "title": "Ephrem the Syrian, mosaic at Nea Moni of Chios",
+    "worldKeys": [
+      "syr"
+    ],
+    "tags": [
+      "ephrem the syrian",
+      "hymnwriter",
+      "mosaic",
+      "byzantine",
+      "icon"
+    ],
+    "depictedPeriod": "Ephrem lived c. 306–373 CE; the mosaic is a much later devotional portrait, not a contemporary image",
+    "artworkDate": "11th century mosaic",
+    "medium": "mosaic",
+    "description": "Byzantine mosaic portrait of Ephrem the Syrian, the Nisibene/Edessene hymnwriter central to this world's 'faith taught in hymn' theme, in the monastery church of Nea Moni on Chios.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ephrem_the_Syrian_(mosaic_in_Nea_Moni).jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch listing; Commons file page is blocked in this sandbox so the exact license tag could not be confirmed. Verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Devotional image made ~700 years after Ephrem's death, not a period artifact — useful for illustrating his veneration/hymnwriter identity, not 4th-century material culture."
+  },
+  {
+    "id": "syr-rabbula-evangelist-portraits",
+    "title": "Canon tables with portraits of the Four Evangelists, Rabbula Gospels",
+    "worldKeys": [
+      "syr"
+    ],
+    "tags": [
+      "rabbula gospels",
+      "syriac manuscript",
+      "illumination",
+      "evangelists",
+      "canon tables"
+    ],
+    "depictedPeriod": "Manuscript completed 586 CE at the monastery of St. John in Beth Zagba (Syriac Christian milieu continuous with Edessa/Nisibis tradition)",
+    "artworkDate": "586 CE illumination",
+    "medium": "illumination",
+    "description": "Canon-table folios (9v and 10r) from the Rabbula Gospels showing portrait miniatures of the four evangelists — John, Matthew, Luke, and Mark — in a 6th-century illuminated Syriac-tradition Gospel book.",
+    "repository": "Wikimedia Commons (original: Biblioteca Medicea Laurenziana, Florence, Cod. Plut. I, 56)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rabbula_Gospels_(9v_&amp;_10r;_Four_Evangelists).jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "URL and title came from a WebSearch result listing; could not fetch the Commons file page itself in this session to confirm the exact license/PD tag. Verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Strong visual match for 'Scripture read as a world of types answering type' — canon tables are literally cross-reference apparatus. Manuscript postdates 410 CE but is squarely in the Syriac Christian tradition this world represents."
+  },
+  {
+    "id": "syr-rabbula-crucifixion",
+    "title": "Crucifixion miniature, Rabbula Gospels (fol. 13r)",
+    "worldKeys": [
+      "syr"
+    ],
+    "tags": [
+      "rabbula gospels",
+      "syriac manuscript",
+      "crucifixion",
+      "illumination",
+      "early christian art"
+    ],
+    "depictedPeriod": "Depicts the Crucifixion of Jesus; painted within the Syriac Christian manuscript tradition, 586 CE",
+    "artworkDate": "586 CE illumination",
+    "medium": "illumination",
+    "description": "Full-page miniature of the Crucifixion from the Rabbula Gospels, often cited as the earliest surviving crucifixion scene in an illuminated manuscript, produced in a Syriac-tradition scriptorium.",
+    "repository": "Wikimedia Commons (original: Biblioteca Medicea Laurenziana, Florence, Cod. Plut. I, 56, fol. 13r)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rabbula_Gospels",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Filename ('Vangeli di Rabbula, Biblioteca Medicea Laurenziana, Cod. Plut. I, 56, fol. 13r.jpg') was read off the live Wikipedia article via WebFetch, but its Commons file page could not be fetched directly in this session to confirm the license tag. A reviewer should search Wikimedia Commons for that exact filename to locate and verify the file page.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Powerful early Christian-art image; confirm the license tag and get the direct Commons URL before use."
+  },
+  {
+    "id": "syr-bible-of-paris-moses-pharaoh",
+    "title": "Moses before Pharaoh, Syriac Bible of Paris",
+    "worldKeys": [
+      "syr"
+    ],
+    "tags": [
+      "syriac manuscript",
+      "illumination",
+      "old testament",
+      "moses",
+      "mesopotamia"
+    ],
+    "depictedPeriod": "Manuscript made 6th–7th century CE, believed to originate in northern Mesopotamia (the Edessa/Nisibis region)",
+    "artworkDate": "6th–7th century illumination",
+    "medium": "illumination",
+    "description": "Miniature preceding the Book of Exodus in the Syriac Bible of Paris (Paris, Bibliothèque Nationale, MS syr. 341, fol. 8r), showing Moses and Aaron before Pharaoh.",
+    "repository": "Wikimedia Commons (original: Bibliothèque Nationale de France)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Syriac_Bible_of_Paris",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Filename and caption were read off the live Wikipedia article via WebFetch; the underlying Commons file page could not be fetched in this session to confirm the exact license tag. Verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "This manuscript is believed made in the same northern-Mesopotamian milieu as Edessa/Nisibis and is a rare surviving example of illustrated Syriac biblical art from close to this world's period. Good for the 'Scripture read as types' theme generally, though this particular miniature is a narrative scene rather than typological imagery."
+  },
+  {
+    "id": "syr-met-sasanian-royal-head",
+    "title": "Silver head of a Sasanian king (possibly Shapur II)",
+    "worldKeys": [
+      "syr"
+    ],
+    "tags": [
+      "sassanid",
+      "persia",
+      "shapur ii",
+      "sculpture",
+      "royal portrait"
+    ],
+    "depictedPeriod": "4th century CE — the era of Shapur II, the Persian king whose persecution took bishop Simeon bar Sabbae",
+    "artworkDate": "4th century CE (ancient silver repoussé head; date of the Met's photograph unknown)",
+    "medium": "photo",
+    "description": "Museum photograph of an ancient repoussé silver head of a Sasanian king, dated to the 4th century CE and sometimes associated with Shapur II, in the Metropolitan Museum of Art's collection.",
+    "repository": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/325717",
+    "directUrl": null,
+    "license": "CC0",
+    "licenseNotes": "The Met's Open Access program releases all public-domain-tagged collection objects and photography as CC0; this is a blanket institutional policy, not a per-file guess. Confirm on the object page that the specific image is marked public-domain/open access before use, since attribution of the sitter's identity to Shapur II specifically is not certain.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Directly illustrates the Sassanid king who persecuted Christians in this world's narrative. Identification as Shapur II specifically (rather than another Sasanian ruler) is uncertain — flag this in any caption."
+  },
+  {
+    "id": "syr-taq-e-bostan-shapur-relief",
+    "title": "Taq-e Bostan rock relief of Shapur II and Shapur III",
+    "worldKeys": [
+      "syr"
+    ],
+    "tags": [
+      "sassanid",
+      "persia",
+      "shapur ii",
+      "rock relief",
+      "investiture"
+    ],
+    "depictedPeriod": "Carved late 4th century CE, depicting Sasanian kings Shapur II and Shapur III",
+    "artworkDate": "Photograph is modern; the rock relief itself is late 4th century CE",
+    "medium": "photo",
+    "description": "Modern photograph of the ancient Sasanian high-relief carving at Taq-e Bostan (Iran) depicting kings Shapur II and Shapur III, the Persian dynasty responsible for the persecution described in this world's tile copy.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Shapur_II",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Filename ('Taq-e_Bostan_-_High-relief_Shapur_II_and_Shapur_III.jpg') was read off the live Wikipedia article via WebFetch; the Commons file page itself could not be fetched in this session to confirm the license tag. Modern travel/monument photos on Commons are frequently CC-BY-SA rather than PD — verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Strong Sassanid-empire imagery to visually anchor 'the Persian side of the frontier' language in the tile copy."
+  },
+  {
+    "id": "syr-urfa-hist-edessa-photo",
+    "title": "Urfa (historical Edessa), general view",
+    "worldKeys": [
+      "syr"
+    ],
+    "tags": [
+      "edessa",
+      "urfa",
+      "sanliurfa",
+      "mesopotamia",
+      "site photo"
+    ],
+    "depictedPeriod": "Modern photograph of the historical site of ancient Edessa",
+    "artworkDate": "Photograph date not confirmed (Flickr-sourced upload)",
+    "medium": "photo",
+    "description": "Photograph of Urfa, Turkey — the modern city occupying the site of ancient Edessa, one of this world's two defining cities.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urfa_(hist._Edessa)_(40443238091).jpg",
+    "directUrl": null,
+    "license": "CC-BY 2.0",
+    "licenseNotes": "A WebSearch result snippet explicitly stated this file is 'licensed under CC-BY-2.0... reviewed by FlickreviewR' (i.e., transferred from Flickr and license-reviewed onto Commons). Not independently confirmed by fetching the file page itself in this session — recommend a quick visual check before use, and attribution to the original Flickr photographer is required under CC-BY.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Modern site photo, not a historical artifact — useful as an establishing/location image for Edessa rather than as depicting antiquity itself."
+  },
+  {
+    "id": "syr-mar-jacob-church-nisibis",
+    "title": "Mar Jacob (St. Jacob) Church, Nisibis",
+    "worldKeys": [
+      "syr"
+    ],
+    "tags": [
+      "nisibis",
+      "nusaybin",
+      "church of saint jacob",
+      "mesopotamia",
+      "site photo"
+    ],
+    "depictedPeriod": "Structure originated as a 4th-century (359/360 CE) cathedral baptistery, within this world's exact time window",
+    "artworkDate": "Photograph taken 1999",
+    "medium": "photo",
+    "description": "Photograph of the Mar Jacob / Church of Saint Jacob at Nisibis (modern Nusaybin, Turkey), the only structure still standing from the 4th-century cathedral complex of ancient Nisibis, this world's second defining city.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mar_Jacob_Church,_Nisibis.jpg",
+    "directUrl": null,
+    "license": "GFDL / CC-BY-SA (multi-licensed)",
+    "licenseNotes": "A WebSearch result snippet explicitly stated the file is licensed under 'GFDL, CC-BY-SA-3.0-migrated, and CC-BY-SA-2.5,2.0,1.0, with the option to select the license of your choice.' Not independently confirmed by fetching the file page itself in this session — recommend a quick visual check before use; CC-BY-SA requires attribution and share-alike.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Excellent, directly on-topic candidate: this is the actual 4th-century baptistery-turned-church built in Nisibis within the 200–410 CE window this world covers, making it one of the strongest historically-grounded images in this set."
+  },
+  {
+    "id": "schongauer-temptation-anthony",
+    "title": "The Temptation of Saint Anthony",
+    "worldKeys": [
+      "desert"
+    ],
+    "tags": [
+      "anthony the great",
+      "temptation",
+      "demons",
+      "engraving",
+      "hermit"
+    ],
+    "depictedPeriod": "legendary episode set c. 4th century CE (Anthony's desert temptations)",
+    "artworkDate": "c. 1470-1475 engraving",
+    "medium": "engraving",
+    "description": "Anthony the Great is assailed and beaten by a swarm of grotesque demons in the desert, the classic 'temptation' subject.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martin_Schongauer_-_Temptation_of_St_Anthony_-_WGA21035.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Could not fetch the Commons file page in this session to read the exact license tag. Given as a c.1470s engraving by Martin Schongauer (d. 1491), it is almost certainly tagged PD-old-100 on Commons, but verify the tag on the page before use rather than trusting this inference.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "One of the most reproduced Desert Fathers images in Western art; very on-theme for 'inner combat against troubling thoughts' but note it's a Northern European (not Egyptian/Coptic) visual idiom - useful for the 'temptation' motif, less so for authentic setting."
+  },
+  {
+    "id": "callot-temptation-anthony",
+    "title": "The Temptation of Saint Anthony (Callot)",
+    "worldKeys": [
+      "desert"
+    ],
+    "tags": [
+      "anthony the great",
+      "temptation",
+      "demons",
+      "engraving",
+      "hermit"
+    ],
+    "depictedPeriod": "legendary episode set c. 4th century CE",
+    "artworkDate": "1635 engraving (Jacques Callot)",
+    "medium": "engraving",
+    "description": "A densely populated fantastical engraving by Jacques Callot showing Saint Anthony besieged by an army of demons and monstrous creatures in the wilderness.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Callot,_The_Temptation_of_Saint_Anthony.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch listing under Category:Works by Jacques Callot; could not fetch the actual file page in this session to confirm the exact license tag. As a 1635 print by an artist who died in 1635, it is almost certainly public domain by age, but verify the Commons tag before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Another strong 'temptation of the saint' candidate; very busy/dramatic composition, good for illustrating inner spiritual combat rather than literal setting."
+  },
+  {
+    "id": "met-fvb-anthony-tormented",
+    "title": "Saint Anthony Tormented by Demons",
+    "worldKeys": [
+      "desert"
+    ],
+    "tags": [
+      "anthony the great",
+      "temptation",
+      "demons",
+      "engraving",
+      "hermit"
+    ],
+    "depictedPeriod": "legendary episode set c. 4th century CE",
+    "artworkDate": "engraving, c. 1470-1500 (after Martin Schongauer's composition)",
+    "medium": "engraving",
+    "description": "Engraving by the Netherlandish 'Master FVB', after Martin Schongauer, showing Saint Anthony lifted and tormented in the air by demons.",
+    "repository": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/367078",
+    "directUrl": null,
+    "license": "CC0",
+    "licenseNotes": "Recorded as CC0 on the strength of the Met's Open Access program, which releases all public-domain-tagged objects in its online collection as CC0 — this is institutional policy, not a per-file guess. Could not fetch metmuseum.org directly in this session (egress blocked); confirm the object page still shows the open-access/CC0 marker before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Alternate engraved version of the same Schongauer 'Temptation' composition; Met object pages typically also offer a high-res direct-download image link once opened."
+  },
+  {
+    "id": "met-novelli-paul-anthony",
+    "title": "Saint Paul the Hermit and Saint Anthony Abbot Conversing in a Landscape",
+    "worldKeys": [
+      "desert"
+    ],
+    "tags": [
+      "anthony the great",
+      "paul the hermit",
+      "conversation",
+      "wilderness",
+      "print"
+    ],
+    "depictedPeriod": "legendary episode set c. late 3rd - 4th century CE",
+    "artworkDate": "print, after an original by Pietro Antonio Novelli (18th century), engraved by Francesco Novelli",
+    "medium": "engraving",
+    "description": "Two aged desert hermits, Paul of Thebes and Anthony the Great, seated together in conversation in a rocky wilderness landscape.",
+    "repository": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/698263",
+    "directUrl": null,
+    "license": "CC0",
+    "licenseNotes": "Recorded as CC0 on the strength of the Met's Open Access program (blanket institutional policy for public-domain-tagged collection objects). Could not fetch metmuseum.org directly in this session (egress blocked); confirm the open-access marker is still present on the object page before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Good, calmer alternative to the 'temptation' engravings — depicts the elder/disciple and hermit-to-hermit relationship rather than demonic combat; fits the 'earned under one elder' authority theme well."
+  },
+  {
+    "id": "commons-wadi-natrun-banner",
+    "title": "Wadi El Natrun Monasteries, Landscape View",
+    "worldKeys": [
+      "desert"
+    ],
+    "tags": [
+      "wadi el natrun",
+      "scetis",
+      "monastery",
+      "landscape",
+      "egypt",
+      "photo"
+    ],
+    "depictedPeriod": "modern photograph of a site continuously monastic since the 4th century",
+    "artworkDate": null,
+    "medium": "photo",
+    "description": "A modern photograph used as a banner image showing the monastic landscape of Wadi El Natrun (ancient Scetis), one of the core Desert Fathers settlement sites.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wadi_El_Natrun_Banner.jpg",
+    "directUrl": null,
+    "license": "CC BY 2.0",
+    "licenseNotes": "A WebSearch result snippet explicitly stated this file is 'licensed under the Creative Commons Attribution 2.0 Generic license.' Not independently confirmed by fetching the Commons page in this session (egress blocked) — recheck the file page before use, and note CC BY requires attribution, unlike a PD image.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Modern photo, not a historical artwork — useful for establishing the real geography of the world's setting rather than as a 'historical image' per se; clarify with Mark whether modern site photos are in scope alongside historical artworks."
+  },
+  {
+    "id": "commons-coptic-frescoes-wadi-natrun",
+    "title": "Coptic Frescoes from the Wadi Natrun Monastery",
+    "worldKeys": [
+      "desert"
+    ],
+    "tags": [
+      "wadi el natrun",
+      "coptic",
+      "fresco",
+      "monastery",
+      "egypt",
+      "photo"
+    ],
+    "depictedPeriod": "frescoes of varying historical date within a monastery founded in the 4th century",
+    "artworkDate": null,
+    "medium": "fresco",
+    "description": "Photograph of Coptic mural frescoes inside one of the Wadi Natrun monasteries.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coptic_Frescos_from_the_Wadi_Natrun_monastery.jpg",
+    "directUrl": null,
+    "license": "CC BY-SA 3.0",
+    "licenseNotes": "A WebSearch result snippet explicitly stated this file is 'licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.' Not independently confirmed by fetching the Commons page in this session (egress blocked) — recheck before use; CC BY-SA requires attribution AND share-alike on derivatives, which is more restrictive than PD/CC0.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Good for showing continuity of Coptic visual/liturgical culture at a Desert Fathers site, though the frescoes themselves may postdate the world's c.320-430 CE window considerably — check the actual fresco date before using it to depict the period itself."
+  },
+  {
+    "id": "commons-deir-as-suriani",
+    "title": "Deir as-Suriani (Syrian Monastery), Wadi El Natrun",
+    "worldKeys": [
+      "desert"
+    ],
+    "tags": [
+      "wadi el natrun",
+      "syrian monastery",
+      "coptic monastery",
+      "architecture",
+      "photo"
+    ],
+    "depictedPeriod": "modern photograph of a monastery with roots in the 4th-6th century Scetis settlements",
+    "artworkDate": null,
+    "medium": "photo",
+    "description": "Photograph of the Syrian Monastery (Deir al-Surian) in Wadi El Natrun, one of the surviving ancient monastic complexes of Scetis.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deir_as_Suriani.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch title match only; the search did not surface an explicit license string for this specific file, and the Commons page could not be fetched in this session (egress blocked). Verify the tag before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Strong candidate for 'Coptic monastery architecture' theme — exterior/complex view of a real, continuously-occupied Desert Fathers-era site."
+  },
+  {
+    "id": "archive-monasteries-wadi-natrun-1926",
+    "title": "The Monasteries of the Wâdi 'n Natrûn (Evelyn-White, 1926)",
+    "worldKeys": [
+      "desert"
+    ],
+    "tags": [
+      "wadi el natrun",
+      "scetis",
+      "nitria",
+      "archaeology",
+      "monastery",
+      "architecture",
+      "photo plates"
+    ],
+    "depictedPeriod": "archaeological documentation of monastic sites founded in the 4th-5th century",
+    "artworkDate": "1926-1933 publication (photographic plates, Metropolitan Museum of Art Egyptian Expedition)",
+    "medium": "photo",
+    "description": "A three-volume Metropolitan Museum of Art Egyptian Expedition publication (by Hugh G. Evelyn-White) containing early-20th-century photographic plates and architectural/archaeological documentation of the Nitria and Scetis monastery sites, plus Coptic texts from the Monastery of Saint Macarius.",
+    "repository": "Internet Archive",
+    "sourceUrl": "https://archive.org/details/monasteriesofwdi01evel",
+    "directUrl": null,
+    "license": "Public Domain (pre-1929 publication)",
+    "licenseNotes": "Volume confirmed via direct archive.org fetch as published 1926 by the Metropolitan Museum of Art — safely public domain in the US by publication-date rule. This entry represents the whole scanned volume, not one isolated image; the item's own downloadable JP2/PDF files contain the individual photographic plates.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Very high-value source for authentic early-20th-c. photographs of the actual Nitria/Scetis/Wadi Natrun monastic remains and Coptic manuscript material, but a human reviewer needs to open the PDF or JP2 set inside the archive.org reader to pick specific plate pages/figure numbers before any single image can be cataloged with its own directUrl — I could not identify individual plate filenames or page numbers in this session."
+  },
+  {
+    "id": "basil-caesarea-hagia-sophia-kyiv-fresco",
+    "title": "Fresco of Basil of Caesarea, Saint Sophia Cathedral, Kyiv",
+    "worldKeys": [
+      "cappadocian"
+    ],
+    "tags": [
+      "basil of caesarea",
+      "icon",
+      "fresco",
+      "byzantine",
+      "cappadocian fathers",
+      "portrait"
+    ],
+    "depictedPeriod": "Basil of Caesarea, 329-379 CE (subject); fresco itself painted 11th century",
+    "artworkDate": "11th century fresco",
+    "medium": "fresco",
+    "description": "An 11th-century Byzantine fresco portrait of Basil of Caesarea (Basil the Great) in Saint Sophia Cathedral, Kyiv, used as the lead image on Basil's English Wikipedia article.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basil_of_Caesarea.jpg",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Basil_of_Caesarea.jpg",
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch and confirmed as the image used on en.wikipedia.org/wiki/Basil_of_Caesarea; could not load the actual Commons file page in this session to read its license tag. As a photographic reproduction of an 11th-century fresco it is almost certainly PD-old/PD-Art on Commons, but that exact tag is unconfirmed here — verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Strong central portrait candidate for Basil of Caesarea, the world's founding figure. Confirm license tag and check image resolution on Commons before use."
+  },
+  {
+    "id": "gregory-nazianzus-chora-church-fresco",
+    "title": "Gregory of Nazianzus (the Theologian), fresco at the Chora Church, Istanbul",
+    "worldKeys": [
+      "cappadocian"
+    ],
+    "tags": [
+      "gregory of nazianzus",
+      "gregory the theologian",
+      "icon",
+      "fresco",
+      "byzantine",
+      "cappadocian fathers"
+    ],
+    "depictedPeriod": "Gregory of Nazianzus, c. 329-390 CE (subject)",
+    "artworkDate": "Byzantine-era fresco (Chora Church decoration is largely 14th century, with earlier phases)",
+    "medium": "fresco",
+    "description": "A Byzantine fresco portrait of Gregory of Nazianzus (\"the Theologian\") from the Chora Church (Kariye) in Istanbul, used as the illustration for Gregory on the Cappadocian Fathers Wikipedia article.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gregor-Chora_(cropped).jpg",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregor-Chora_(cropped).jpg",
+    "license": "unverified",
+    "licenseNotes": "Filename and caption ('Gregory the Theologian, Fresco from Chora Church, Istanbul') confirmed via WebFetch of en.wikipedia.org/wiki/Cappadocian_Fathers; the Commons file page itself was not reachable in this session to confirm the exact license tag. Photographic reproduction of an old Byzantine fresco — very likely PD-Art/PD-old on Commons, but unconfirmed.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Good portrait candidate for Gregory of Nazianzus. Note the filename is a cropped derivative — check the parent file too for a fuller image."
+  },
+  {
+    "id": "gregory-nyssa-chora-church-fresco",
+    "title": "Gregory of Nyssa, 14th-century fresco/icon at the Chora Church, Istanbul",
+    "worldKeys": [
+      "cappadocian"
+    ],
+    "tags": [
+      "gregory of nyssa",
+      "icon",
+      "fresco",
+      "byzantine",
+      "cappadocian fathers"
+    ],
+    "depictedPeriod": "Gregory of Nyssa, c. 335-394 CE (subject)",
+    "artworkDate": "14th century fresco",
+    "medium": "fresco",
+    "description": "A 14th-century Byzantine fresco/icon of Gregory of Nyssa from the Chora Church, Istanbul, used as the portrait image for Gregory of Nyssa in Wikipedia's Cappadocian Fathers article.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gregory_of_Nyssa.jpg",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregory_of_Nyssa.jpg",
+    "license": "unverified",
+    "licenseNotes": "Filename and caption confirmed via WebFetch of the Cappadocian Fathers Wikipedia article; Commons file page not reachable in this session to confirm exact license tag. Near-certainly PD as a reproduction of medieval fresco art, but unconfirmed here.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Completes the trio of Cappadocian Father portraits (with Basil and Gregory of Nazianzus) sourced from Byzantine church frescoes, useful for a consistent visual set if all three check out on Commons."
+  },
+  {
+    "id": "basil-great-ohrid-fresco",
+    "title": "Basil the Great, 11th-century fresco at the Cathedral of Ohrid",
+    "worldKeys": [
+      "cappadocian"
+    ],
+    "tags": [
+      "basil of caesarea",
+      "icon",
+      "fresco",
+      "byzantine",
+      "ohrid"
+    ],
+    "depictedPeriod": "Basil of Caesarea, 329-379 CE (subject)",
+    "artworkDate": "11th century fresco",
+    "medium": "fresco",
+    "description": "An 11th-century Byzantine fresco of Basil the Great from the Cathedral (Church of St Sophia) of Ohrid, cited as an alternate portrait image on Basil's Wikipedia article.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meister_der_Sophien-Kathedrale_von_Ohrid_001.jpg",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meister_der_Sophien-Kathedrale_von_Ohrid_001.jpg",
+    "license": "unverified",
+    "licenseNotes": "Filename confirmed via WebFetch of en.wikipedia.org/wiki/Basil_of_Caesarea; Commons file page not reachable in this session to confirm exact license tag. Reproduction of an 11th-century fresco — very likely PD-old on Commons, but unconfirmed.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Alternate Basil portrait if a different angle/style than the Kyiv fresco (basil-caesarea-hagia-sophia-kyiv-fresco) is wanted."
+  },
+  {
+    "id": "macrina-younger-hagia-sophia-kyiv-fresco",
+    "title": "Fresco of Macrina the Younger, Saint Sophia Cathedral, Kyiv",
+    "worldKeys": [
+      "cappadocian"
+    ],
+    "tags": [
+      "macrina the younger",
+      "icon",
+      "fresco",
+      "byzantine",
+      "women saints"
+    ],
+    "depictedPeriod": "Macrina the Younger, c. 327-379 CE (subject)",
+    "artworkDate": "11th century fresco",
+    "medium": "fresco",
+    "description": "An 11th-century Byzantine fresco of Macrina the Younger, sister of Basil of Caesarea and Gregory of Nyssa, in Saint Sophia Cathedral, Kyiv.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macrina_the_Younger.jpg",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Macrina_the_Younger.jpg",
+    "license": "unverified",
+    "licenseNotes": "Identified via WebSearch (an Alamy listing mirroring the Commons file description: 'St. Macrina the Younger, fresco in Saint Sophia Cathedral in Kiev, 11th century'); could not load the actual Commons file page in this session to confirm the exact license tag. Near-certainly PD-old as a reproduction of an 11th-century fresco, but unconfirmed here.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Important find because Macrina is rare in available Byzantine iconography compared to her brothers — worth prioritizing for verification since good images of her are scarce. A second, unrelated file, 'File:Saint Macrina.JPG' (a CC0 Alf van Beem photo of a Vatican colonnade statue), also turned up under this category but the subject match is uncertain — do not use it without confirming the statue is actually labeled as this Macrina."
+  },
+  {
+    "id": "cappadocia-fairy-chimneys-goreme-photo",
+    "title": "Fairy chimney rock formations near Göreme, Cappadocia",
+    "worldKeys": [
+      "cappadocian"
+    ],
+    "tags": [
+      "cappadocia",
+      "landscape",
+      "rock-cut",
+      "goreme",
+      "geology",
+      "photo"
+    ],
+    "depictedPeriod": "Landscape unchanged since antiquity; relevant to 4th-century Cappadocian setting generally",
+    "artworkDate": "Modern photograph (exact date not confirmed)",
+    "medium": "photo",
+    "description": "A modern photograph of the distinctive volcanic-tuff \"fairy chimney\" rock formations near Göreme in Cappadocia, the landscape into which cave churches and monastic cells were later cut.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cappadocia_Chimneys_Wikimedia_Commons.jpg",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cappadocia_Chimneys_Wikimedia_Commons.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseNotes": "WebSearch results explicitly stated this file, photographed by Benh Lieu Song, is licensed CC-BY-SA 3.0 (Creative Commons Attribution-Share Alike). Not independently verified by loading the Commons file page in this session — treat as high-confidence but still worth a final visual check before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Good generic landscape/establishing-shot candidate for the world tile or background — depicts terrain, not a specific historical event, so usable regardless of exact date. Requires attribution to Benh Lieu Song under CC BY-SA if used."
+  },
+  {
+    "id": "dark-church-goreme-fresco-interior-photo",
+    "title": "Fresco interior of the Dark Church (Karanlık Kilise), Göreme, Cappadocia",
+    "worldKeys": [
+      "cappadocian"
+    ],
+    "tags": [
+      "cappadocia",
+      "cave church",
+      "fresco",
+      "goreme",
+      "monastery",
+      "photo"
+    ],
+    "depictedPeriod": "Church cut and painted centuries after this world's 325-394 CE window (frescoes generally dated c. 11th century), but visually representative of Cappadocian cave-monastic architecture",
+    "artworkDate": "Modern photograph of an 11th-century fresco interior",
+    "medium": "photo",
+    "description": "A modern photograph of the well-preserved Byzantine frescoes inside the rock-cut Dark Church (Karanlık Kilise) in the Göreme valley, Cappadocia.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresco_at_the_Dark_Church,_in_Goreme_(6).JPG",
+    "directUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_at_the_Dark_Church,_in_Goreme_(6).JPG",
+    "license": "unverified",
+    "licenseNotes": "Filename found via WebSearch inside Commons' 'Category:Frescos in the Dark Church'; could not load the Commons file page itself in this session to read the license tag. Modern site photographs on Commons are usually self-published by the photographer under a CC-BY or CC-BY-SA license, but the exact terms for this specific file are unconfirmed — verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Anachronistic relative to the world's 325-394 CE core period (the Dark Church frescoes are medieval), but useful as an illustrative image of Cappadocian cave-church interiors and the region's monastic/ascetic character if captioned carefully as a later example of the same landscape and tradition."
+  },
+  {
+    "id": "texier-asie-mineure-1862-plates",
+    "title": "Plates from Charles Texier's \"Asie mineure,\" 1862 edition",
+    "worldKeys": [
+      "cappadocian"
+    ],
+    "tags": [
+      "cappadocia",
+      "asia minor",
+      "engraving",
+      "lithograph",
+      "19th century",
+      "archaeology",
+      "rock-cut"
+    ],
+    "depictedPeriod": "19th-century archaeological survey imagery of Asia Minor/Cappadocia sites with much older (ancient/Byzantine) subject matter",
+    "artworkDate": "1862 (Firmin-Didot frères edition; the original three-volume work was issued 1839-1849)",
+    "medium": "engraving",
+    "description": "A 19th-century French archaeological survey of Asia Minor (Chersonnèse d'Asie) by Charles Texier, containing 64 engraved/lithographed plates of the region's geography, ruins, and monuments, digitized in full on the Internet Archive.",
+    "repository": "Internet Archive",
+    "sourceUrl": "https://archive.org/details/asiemineuredesc00texigoog",
+    "directUrl": "https://archive.org/download/asiemineuredesc00texigoog/asiemineuredesc00texigoog.pdf",
+    "license": "Public Domain (pre-1929 publication)",
+    "licenseNotes": "Confirmed via archive.org item metadata: published 1862 by Didot frères, Paris, 757 pages with 64 plates. Well over a century old, safely public domain by age. However, this session could NOT confirm from the metadata alone which specific plate numbers depict Cappadocia's rock-cut churches/tombs specifically (vs. other Asia Minor sites covered in the broader survey) — a human reviewer needs to page through the PDF/plate list to pick the right plate(s).",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Texier is a well-documented 19th-century source for early illustrated surveys of Cappadocia's rock-cut churches (per secondary sources found in search), but this session could not open the actual scanned plates to identify page numbers. Treat as a promising lead requiring manual page-through rather than a confirmed image match."
+  },
+  {
+    "id": "san-vitale-justinian-mosaic",
+    "title": "Mosaic of Justinian I and His Retinue, San Vitale",
+    "worldKeys": [
+      "ijc"
+    ],
+    "tags": [
+      "justinian",
+      "byzantine",
+      "mosaic",
+      "ravenna",
+      "emperor",
+      "clergy",
+      "court"
+    ],
+    "depictedPeriod": "c. 547 CE (mosaic completed at consecration of San Vitale)",
+    "artworkDate": "547 CE mosaic",
+    "medium": "mosaic",
+    "description": "Emperor Justinian I stands flanked by clergy (including Bishop Maximian of Ravenna) and soldiers, bearing a paten, in the apse mosaic of the Basilica of San Vitale, Ravenna.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_(Ravenna).jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "WebSearch result summary described this file as CC-BY-SA-4.0, but I could not load the actual Commons file page in this session to confirm the exact license tag. Multiple alternate photos of the same mosaic exist on Commons under varying CC licenses (CC-BY-SA-4.0, CC-BY-2.0, CC-BY-SA-2.0) depending on photographer — verify the specific file's tag before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Extremely strong visual match for the 'bishops became office-holders beside a throne' theme — emperor and bishop shown together as a unified ceremonial image. Several alternate crops/angles of this same mosaic exist on Commons if this exact file doesn't check out; search 'Category:San Vitale (Ravenna) - Mosaic of Iustinianus I'."
+  },
+  {
+    "id": "san-vitale-theodora-mosaic",
+    "title": "Mosaic of Empress Theodora and Her Retinue, San Vitale",
+    "worldKeys": [
+      "ijc"
+    ],
+    "tags": [
+      "theodora",
+      "byzantine",
+      "mosaic",
+      "ravenna",
+      "empress",
+      "court"
+    ],
+    "depictedPeriod": "c. 547 CE",
+    "artworkDate": "547 CE mosaic",
+    "medium": "mosaic",
+    "description": "Empress Theodora, wife of Justinian, stands with attendants and clergy bearing a jeweled chalice, in the companion apse mosaic to Justinian's at San Vitale, Ravenna.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosaic_of_Theodora_-_Basilica_San_Vitale_(Ravenna).jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Search summary indicated CC-BY-SA-4.0 for files in this Commons category, but exact tag on this specific file page not independently confirmed in this session — verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Pairs naturally with the Justinian mosaic above to illustrate the imperial court's proximity to church ritual — useful for the 'nearness to the throne' framing (Constantinople's claim) even though geographically in Ravenna, not Constantinople itself."
+  },
+  {
+    "id": "nicaea-council-icon",
+    "title": "Icon of the First Council of Nicaea",
+    "worldKeys": [
+      "ijc"
+    ],
+    "tags": [
+      "nicaea",
+      "council",
+      "icon",
+      "creed",
+      "constantine",
+      "bishops"
+    ],
+    "depictedPeriod": "325 CE (council itself)",
+    "artworkDate": null,
+    "medium": "icon",
+    "description": "Traditional Eastern Orthodox icon depicting the assembled bishops of the First Council of Nicaea (325) holding the text of the Nicene Creed, with Constantine shown presiding.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nicaea_icon.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Could not fetch the Commons file page in this session to confirm the exact license tag (icons of this type are usually PD-old or CC-licensed photos of PD originals, but this must be checked on the actual page). Also visible via the Wikipedia mirror at https://en.wikipedia.org/wiki/File:Nicaea_icon.jpg.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Directly illustrates 'summoned to councils at the emperor's own expense' and Constantine's presiding role. This is a modern/traditional icon composition rather than a contemporary 4th-century artifact — captioning should make clear it's a later devotional depiction, not an eyewitness image."
+  },
+  {
+    "id": "chalcedon-council-surikov-1876",
+    "title": "The Fourth Ecumenical Council of Chalcedon",
+    "worldKeys": [
+      "ijc"
+    ],
+    "tags": [
+      "chalcedon",
+      "council",
+      "451",
+      "bishops",
+      "painting",
+      "surikov"
+    ],
+    "depictedPeriod": "451 CE (council itself)",
+    "artworkDate": "1876 oil painting",
+    "medium": "painting",
+    "description": "Vasily Surikov's 1876 history painting imagining the assembled bishops debating at the Council of Chalcedon (451), held in the Russian Museum, St. Petersburg.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fourth_ecumenical_council_of_chalcedon_-_1876.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Painting is from 1876 by Vasily Surikov (died 1916), so the underlying artwork is almost certainly public domain by age (well over 100 years, and the artist has been dead over 100 years too under most jurisdictions' terms). However, I could not fetch the actual Commons file page in this session to read its literal license template, so recording as 'unverified' per the honesty rule rather than assuming the exact tag text — a reviewer should confirm the tag reads something like PD-old-100 on the page itself.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Directly depicts the world's closing event (Chalcedon 451) — good bookend image. A third-party aggregator (Creazilla) independently lists this same image as 'public domain,' consistent with the age-based reasoning above."
+  },
+  {
+    "id": "van-dyck-ambrose-theodosius",
+    "title": "Saint Ambrose Barring Theodosius from Milan Cathedral",
+    "worldKeys": [
+      "ijc"
+    ],
+    "tags": [
+      "ambrose",
+      "theodosius",
+      "milan",
+      "penance",
+      "massacre",
+      "thessalonica",
+      "painting"
+    ],
+    "depictedPeriod": "c. 390 CE (aftermath of the Thessalonica massacre)",
+    "artworkDate": "c. 1619-1620 painting",
+    "medium": "painting",
+    "description": "Anthony van Dyck's painting shows Bishop Ambrose of Milan physically blocking Emperor Theodosius I from entering the cathedral after the Thessalonica massacre, forcing him to public penance.",
+    "repository": "Wikimedia Commons (also National Gallery, London)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anthony_van_Dyck_-_Emperor_Theodosius_Forbidden_by_St_Ambrose_To_Enter_Milan_Cathedral_-_WGA07437.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Painting itself (van Dyck, d. 1641) is unambiguously public domain by age, but the exact Commons license tag on this specific WGA-sourced file scan could not be confirmed without fetching the page in this session — set to unverified pending that check. Original is in the National Gallery, London (https://www.nationalgallery.org.uk/paintings/anthony-van-dyck-st-ambrose-barring-theodosius-from-milan-cathedral); the Web Gallery of Art record is at https://www.wga.hu/html/d/dyck_van/3other/emperor.html.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "This is THE image for the site's own tile copy line about 'an emperor's public penance for a massacre' — arguably the single most important candidate in this set. A related, larger 1615-16 version by Rubens exists at the Kunsthistorisches Museum, Vienna, as an alternate if this file's license doesn't check out. NOTE: for the 'approved' download slot for this world, a different, fully-verified CC0 Cleveland Museum of Art painting of Saint Ambrose (Goya, c.1796-99) was used instead — see the approved entry 'ijc-ambrose-goya-cma'. This van Dyck entry remains an excellent candidate for a future, more narratively specific replacement once its Commons license is confirmed."
+  },
+  {
+    "id": "raphael-school-vision-of-the-cross",
+    "title": "The Vision of the Cross",
+    "worldKeys": [
+      "ijc"
+    ],
+    "tags": [
+      "constantine",
+      "vision",
+      "milvian bridge",
+      "conversion",
+      "fresco",
+      "raphael"
+    ],
+    "depictedPeriod": "312 CE (eve of the Battle of the Milvian Bridge)",
+    "artworkDate": "1520-1524 fresco",
+    "medium": "fresco",
+    "description": "Fresco from the Sala di Costantino in the Vatican's Apostolic Palace (workshop of Raphael) showing Constantine's vision of a cross in the sky before the Battle of the Milvian Bridge, the event that precedes his toleration of the church.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:School_of_Raphael_-_Vision_of_the_Cross.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "16th-century fresco reproduction; artwork itself is centuries past public domain by age, but I could not fetch the Commons file page in this session to confirm the literal license tag on this specific photographic reproduction — mark unverified pending that check.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Good scene-setter for the opening of the era (Constantine's 312 turning point, immediately pre-dating the 313 Edict of Milan). Companion fresco 'The Battle of the Milvian Bridge' (also Sala di Costantino, by Giulio Romano) covers the same moment from the battle side but I could not locate a specific Commons file URL for it in this session to include as a separate candidate."
+  },
+  {
+    "id": "hagia-sophia-southwest-vestibule-mosaic",
+    "title": "Justinian and Constantine Offering Models to the Virgin, Hagia Sophia",
+    "worldKeys": [
+      "ijc"
+    ],
+    "tags": [
+      "hagia sophia",
+      "justinian",
+      "constantine",
+      "constantinople",
+      "mosaic",
+      "byzantine"
+    ],
+    "depictedPeriod": "depicts events of the 4th and 6th centuries; mosaic itself dates to c. 944 CE",
+    "artworkDate": "c. 944 CE mosaic",
+    "medium": "mosaic",
+    "description": "Lunette mosaic over the southwest entrance of Hagia Sophia showing Emperor Justinian (builder of Hagia Sophia) and Emperor Constantine (founder of Constantinople) each offering a model of their respective building/city to an enthroned Virgin and Child.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Southwestern_entrance_mosaics.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Could not fetch the Commons file page in this session to confirm the exact license tag — set to unverified pending that check. Background reading via Smarthistory: https://smarthistory.org/middle-byzantine-mosaics-hagia-sophia/",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Strong single image linking Constantine and Justinian, the two emperors who most define this world's Constantinople side of the story, directly to the church that embodies 'nearness to the throne.' Slightly later than the 312-451 window (mosaic itself is 10th century) but depicts figures and monuments squarely within it — flag for reviewer as an anachronistic-artwork-depicting-in-period-subject case, same category as the Council icons and later paintings above."
+  },
+  {
+    "id": "colossus-of-constantine-head",
+    "title": "Head of the Colossus of Constantine",
+    "worldKeys": [
+      "ijc"
+    ],
+    "tags": [
+      "constantine",
+      "statue",
+      "rome",
+      "capitoline",
+      "sculpture",
+      "photo"
+    ],
+    "depictedPeriod": "c. 312-315 CE (original statue)",
+    "artworkDate": "photo of ancient marble/bronze fragment; photo date unknown",
+    "medium": "photo",
+    "description": "Photograph of the colossal marble head from the statue of Constantine I that once occupied the Basilica of Maxentius in Rome, now displayed in the courtyard of the Capitoline Museums.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statua_colossale_di_Costantino_I.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Could not fetch the Commons file page in this session to confirm the exact license tag of this specific photograph — likely a modern CC-licensed photo of an ancient (public-domain-by-age) object, but the photographer's own license terms still need checking. Museum object page: https://www.museicapitolini.org/en/opera/statua-colossale-di-costantino-testa",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Useful as a 'Constantine himself, in stone' portrait image rather than a narrative scene — good for a Representative profile or intro card rather than an event illustration. Represents the emperor at the very start of the world's timeline (his toleration of the church, 312)."
+  },
+  {
+    "id": "hal-durer-jerome-study-engraving",
+    "title": "Saint Jerome in His Study",
+    "worldKeys": [
+      "hal"
+    ],
+    "tags": [
+      "jerome",
+      "study",
+      "scholar",
+      "lion",
+      "translation",
+      "engraving"
+    ],
+    "depictedPeriod": "iconic/legendary imagining of Jerome's scholarly life, not a specific historical moment",
+    "artworkDate": "1514 engraving",
+    "medium": "engraving",
+    "description": "Albrecht Dürer's engraving of Jerome seated at a slanted writing desk in his study, with his lion and a dog dozing in the foreground, symbolizing his scholarly translation work.",
+    "repository": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/336229",
+    "directUrl": null,
+    "license": "CC0",
+    "licenseNotes": "Met Open Access program: all public-domain-tagged objects in the Met's online collection are released under CC0. Object identified via WebSearch of the Met's collection pages; exact object page not independently re-fetched this session (metmuseum.org is blocked in this sandbox) — confirm the object's Open Access flag on the page before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "One of the most iconic Jerome-in-study images in Western art; useful as a general illustration of the circle's scholarly discipline, though it depicts Jerome alone, long after Bethlehem, in a Northern European visual idiom rather than 4th-century Palestine."
+  },
+  {
+    "id": "hal-rembrandt-jerome-dark-chamber",
+    "title": "St. Jerome in a Dark Chamber",
+    "worldKeys": [
+      "hal"
+    ],
+    "tags": [
+      "jerome",
+      "study",
+      "penitence",
+      "melancholy",
+      "etching"
+    ],
+    "depictedPeriod": "iconic/legendary imagining of Jerome, not a specific historical moment",
+    "artworkDate": "1642 etching, drypoint and engraving",
+    "medium": "engraving",
+    "description": "Rembrandt's etching of Jerome absorbed in study in a dim, shadow-filled interior, an atmospheric meditation on scholarly solitude and mortality.",
+    "repository": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/391693",
+    "directUrl": null,
+    "license": "CC0",
+    "licenseNotes": "Met Open Access program: all public-domain-tagged objects are released CC0. Found via WebSearch of the Met's collection pages; object page not independently re-fetched this session (metmuseum.org blocked) — confirm Open Access flag before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Good for a moodier, more interior illustration of scholarly asceticism; not a historical depiction of the actual 4th-century circle."
+  },
+  {
+    "id": "hal-bottani-paula-eustochium-departure",
+    "title": "The Departure of Saints Paula and Eustochium for the Holy Land",
+    "worldKeys": [
+      "hal"
+    ],
+    "tags": [
+      "paula",
+      "eustochium",
+      "departure",
+      "rome",
+      "pilgrimage",
+      "holy land"
+    ],
+    "depictedPeriod": "imagined depiction of Paula and Eustochium's 385 CE departure from Rome for the Holy Land",
+    "artworkDate": "18th century painting (Giuseppe Bottani, 1717-1784)",
+    "medium": "painting",
+    "description": "Giuseppe Bottani's painting depicting Paula and her daughter Eustochium leaving Rome to travel to the Holy Land, the journey that led to the founding of their monastic community in Bethlehem.",
+    "repository": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/435727",
+    "directUrl": null,
+    "license": "CC0",
+    "licenseNotes": "Met Open Access program: all public-domain-tagged objects are released CC0. Found via WebSearch of the Met's collection pages; object page not independently re-fetched this session (metmuseum.org blocked) — confirm Open Access flag before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Strongest direct-narrative fit in this set — this is literally the circle's departure from Rome for Bethlehem, the exact event the site copy references ('drive the whole circle out of the city'). Recommend prioritizing this one for review."
+  },
+  {
+    "id": "hal-botticelli-last-communion-jerome",
+    "title": "The Last Communion of Saint Jerome",
+    "worldKeys": [
+      "hal"
+    ],
+    "tags": [
+      "jerome",
+      "death",
+      "penitence",
+      "communion",
+      "renaissance"
+    ],
+    "depictedPeriod": "legendary depiction of Jerome's final days (traditionally set c. 420 CE)",
+    "artworkDate": "c. 1494-1495 painting (Sandro Botticelli)",
+    "medium": "painting",
+    "description": "Botticelli's tempera panel showing the aged, ascetic Jerome receiving his final communion, supported by companions in a rocky hermitage setting.",
+    "repository": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/435728",
+    "directUrl": null,
+    "license": "CC0",
+    "licenseNotes": "Met Open Access program: all public-domain-tagged objects are released CC0. Found via WebSearch of the Met's collection pages; object page not independently re-fetched this session (metmuseum.org blocked) — confirm Open Access flag before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Useful for the 'end of life / cost of the ascetic regimen' theme, though the setting shown is a wilderness hermitage rather than Bethlehem specifically, and the composition is a Renaissance workshop invention, not a historical record."
+  },
+  {
+    "id": "hal-rijksmuseum-jerome-candlelight",
+    "title": "Saint Jerome in his Study by Candlelight",
+    "worldKeys": [
+      "hal"
+    ],
+    "tags": [
+      "jerome",
+      "study",
+      "candlelight",
+      "skull",
+      "memento mori"
+    ],
+    "depictedPeriod": "iconic/legendary imagining of Jerome, not a specific historical moment",
+    "artworkDate": "c. 1520-1530 painting, Leiden school",
+    "medium": "painting",
+    "description": "A Leiden-school panel showing Jerome at his desk in candlelit half-darkness, resting his head on one hand and holding a skull in the other, an image of melancholy scholarly contemplation.",
+    "repository": "Rijksmuseum",
+    "sourceUrl": "https://www.rijksmuseum.nl/en/collection/object/Saint-Jerome-in-his-Study-by-Candlelight--3a0025612367d09d66720b2a2fb2de03?tab=catalogue",
+    "directUrl": null,
+    "license": "CC0",
+    "licenseNotes": "Rijksmuseum public domain / open data policy releases public-domain-tagged collection objects as CC0. Found via WebSearch of the Rijksmuseum's own collection page; page not independently re-fetched this session (rijksmuseum.nl blocked) — confirm the object's public-domain/CC0 flag before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Good candlelit, contemplative alternative to the Dürer/Rembrandt studies; anonymous/Leiden-school attribution, so treat artist name cautiously."
+  },
+  {
+    "id": "hal-hovaert-jerome-paula-eustochium",
+    "title": "St. Jerome together with his disciples St. Paula and St. Eustochium",
+    "worldKeys": [
+      "hal"
+    ],
+    "tags": [
+      "jerome",
+      "paula",
+      "eustochium",
+      "circle",
+      "group portrait"
+    ],
+    "depictedPeriod": "imagined group depiction of the Bethlehem circle",
+    "artworkDate": "unknown (artist: Jan Hovaert)",
+    "medium": "painting",
+    "description": "A painting grouping Jerome together with his two closest disciples in the Roman/Bethlehem circle, Paula and her daughter Eustochium.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jan_Hovaert_-_St._Jerome_together_with_his_disciples_St._Paula_and_St._Eustochium.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch (title, file dimensions ~392x541px, 86KB); could not fetch commons.wikimedia.org in this session to confirm the exact license/PD tag, artist dates, or painting date — verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Rare example of Jerome depicted together with BOTH Paula and Eustochium in one composition, which is exactly the trio this world centers on. Artist Jan Hovaert is minor/obscure — reviewer should double check attribution and image resolution/quality before relying on it."
+  },
+  {
+    "id": "hal-codex-amiatinus-folio5r",
+    "title": "Codex Amiatinus, folio 5r (Ezra the scribe)",
+    "worldKeys": [
+      "hal"
+    ],
+    "tags": [
+      "vulgate",
+      "manuscript",
+      "bible",
+      "scribe",
+      "text",
+      "illumination"
+    ],
+    "depictedPeriod": "text tradition originates 390-405 CE (Jerome's Vulgate translation); this specific manuscript copy is much later",
+    "artworkDate": "manuscript produced c. 700 CE at Monkwearmouth-Jarrow, Northumbria",
+    "medium": "illumination",
+    "description": "A full-page illumination of the scribe Ezra from the earliest surviving complete manuscript of Jerome's Vulgate, showing a robed scholar writing before an open bookcase.",
+    "repository": "Wikimedia Commons (original manuscript: Biblioteca Medicea Laurenziana, Florence)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CodxAmiatinusFolio5rEzra.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "A WebSearch snippet describing this Commons file page states the file is tagged 'Creative Commons Public Domain Mark 1.0,' but I could not fetch commons.wikimedia.org myself this session to independently confirm that tag on the actual page — verify directly before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "IMPORTANT CAVEAT: this manuscript was made c. 700 CE in Anglo-Saxon Northumbria, roughly 300 years after Jerome/the Bethlehem circle and far from Rome or Bethlehem — it illustrates the textual legacy of the Vulgate (the 'Latin Bible built word by word against the Hebrew'), not the circle itself or its era. Use only as a 'the text they produced' illustration, with a caption making the anachronism clear, and note the figure shown is traditionally identified as Ezra, not Jerome."
+  },
+  {
+    "id": "hal-bethlehem-grotto-nativity-loc",
+    "title": "Bethlehem and surroundings: Grotto of the Nativity",
+    "worldKeys": [
+      "hal"
+    ],
+    "tags": [
+      "bethlehem",
+      "grotto",
+      "nativity",
+      "church",
+      "photograph",
+      "palestine"
+    ],
+    "depictedPeriod": "site associated with the circle's Bethlehem monastery (Jerome and Paula settled and are traditionally buried near this grotto); photograph itself is early 20th century",
+    "artworkDate": "photograph c. 1900-1920 (American Colony/Matson Photograph Collection)",
+    "medium": "photo",
+    "description": "An early-20th-century photograph of the interior of the Grotto of the Nativity beneath Bethlehem's Church of the Nativity, the cave complex where Jerome, Paula, and Eustochium are traditionally said to be buried near where they lived and worked.",
+    "repository": "Library of Congress, G. Eric and Edith Matson Photograph Collection (American Colony Jerusalem Photo Dept.)",
+    "sourceUrl": "https://www.loc.gov/item/2019703794/",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "A WebSearch snippet describing this item states the LOC catalog record (reproduction no. LC-DIG-matpc-12321) carries 'no known restrictions on publication,' and a same-titled file also appears to exist on Wikimedia Commons — but loc.gov and commons.wikimedia.org are both blocked in this sandbox, so I could not personally load either page this session to confirm the rights statement or locate the exact Commons file URL. Verify directly before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Photograph shows the site associated with the world (the grotto beneath the Church of the Nativity where the circle's monastery stood), not the 4th-5th century circle itself — caption should make clear this is a modern-era photo of an ancient/medieval-rebuilt site, not a contemporary image."
+  },
+  {
+    "id": "catacomb-fractio-panis-priscilla",
+    "title": "Fractio Panis (Breaking of Bread) Fresco, Catacomb of Priscilla",
+    "worldKeys": [],
+    "tags": [
+      "catacombs",
+      "fresco",
+      "agape-feast",
+      "eucharist",
+      "rome",
+      "burial"
+    ],
+    "depictedPeriod": "c. 200-300 CE",
+    "artworkDate": "2nd-4th century fresco (photographed in modern era)",
+    "medium": "fresco",
+    "description": "A ceiling fresco in the Greek Chapel of the Catacomb of Priscilla in Rome showing a group meal scene traditionally interpreted as a Christian agape feast or eucharistic breaking of bread.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catacombe_di_Priscilla,_Rome_-_Fresco_of_a_Christian_Agape_feast_-_Fractio_panis_-_Greek_chapel_-_2nd_-_4th_century.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "A WebSearch snippet described this file as tagged 'Creative Commons Public Domain Mark 1.0' on Commons, but commons.wikimedia.org is blocked in this sandbox so the exact license tag could not be directly confirmed this session. Verify the tag on the file page before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "One of the best-known and most reproduced early Christian catacomb frescoes; strong fit for a catacombs/underground-church atmosphere image."
+  },
+  {
+    "id": "catacomb-good-shepherd-priscilla",
+    "title": "Good Shepherd Fresco, Catacomb of Priscilla",
+    "worldKeys": [],
+    "tags": [
+      "catacombs",
+      "fresco",
+      "good-shepherd",
+      "christ",
+      "symbolism",
+      "rome"
+    ],
+    "depictedPeriod": "c. 225-250 CE",
+    "artworkDate": "3rd century fresco (photographed in modern era)",
+    "medium": "fresco",
+    "description": "A fresco in the Catacomb of Priscilla depicting Christ as the Good Shepherd carrying a sheep, one of the earliest surviving depictions of Christ in Christian art.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Good_Shepherd_Catacomb_of_Priscilla.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch title/snippet only; commons.wikimedia.org could not be fetched in this session to confirm the exact license tag on the file page. Verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Iconic, widely reproduced image; good candidate for a symbolic/atmosphere image representing early Christian identity rather than any single tradition."
+  },
+  {
+    "id": "catacomb-orans-priscilla",
+    "title": "Orans (Praying Figure) Fresco, Catacomb of Priscilla",
+    "worldKeys": [],
+    "tags": [
+      "catacombs",
+      "fresco",
+      "orans",
+      "prayer",
+      "rome",
+      "burial"
+    ],
+    "depictedPeriod": "c. 250-300 CE",
+    "artworkDate": "3rd century fresco (photographed in modern era)",
+    "medium": "fresco",
+    "description": "A fresco of a robed, veiled woman with arms raised in the orans (praying) posture, a common Roman catacomb motif representing the soul of the deceased in prayer.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Consecrated_Virgin,_praying_with_Orans_position,_wearing_dalmatic,_tunic,_and_veil,_from_the_Catacomb_of_Priscilla,_3rd_century_AD_cropped.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch title/snippet only; could not fetch the Commons file page in this session to confirm the license tag. Verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Good option if the site wants a solitary prayer/devotion atmosphere image rather than a narrative or symbolic one."
+  },
+  {
+    "id": "roma-sotterranea-plates-1879",
+    "title": "Roma Sotterranea: Early Christian Art Plates",
+    "worldKeys": [],
+    "tags": [
+      "catacombs",
+      "engraving",
+      "chromolithograph",
+      "christian-symbolism",
+      "de-rossi",
+      "reference-plates"
+    ],
+    "depictedPeriod": "Documents catacomb art from c. 200-400 CE",
+    "artworkDate": "1879 (chromolithographic plates and wood engravings of the frescoes)",
+    "medium": "engraving",
+    "description": "Illustrated volume reproducing, via chromolithographic plates and wood engravings, the catacomb frescoes and Christian symbols (Good Shepherd, fish, monogram, etc.) documented by archaeologist Giovanni Battista de Rossi at the Cemetery of St. Callixtus in Rome.",
+    "repository": "Internet Archive",
+    "sourceUrl": "https://archive.org/details/RomaSotterraneaPart2Part3",
+    "directUrl": null,
+    "license": "Public Domain (pre-1929 publication)",
+    "licenseNotes": "Book published 1879 (Parts 2 & 3 of Roma Sotterranea, compiled by J. Spencer Northcote and W. R. Brownlow from the work of G. B. de Rossi); safely public domain by age. Individual plate pages would need to be pulled from the scan by a reviewer using the Internet Archive reader/book viewer, since no single direct plate-image URL was retrieved in this session.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Rich source of many individual catacomb-art engravings in one place; a reviewer could pull several distinct plates from this single volume for different uses across the site."
+  },
+  {
+    "id": "council-nicaea-nebbia-fresco",
+    "title": "Council of Nicaea Fresco, Vatican Sistine Salon (Nebbia)",
+    "worldKeys": [],
+    "tags": [
+      "council",
+      "nicaea",
+      "bishops",
+      "fresco",
+      "vatican",
+      "ecumenical-council"
+    ],
+    "depictedPeriod": "Depicts events of 325 CE",
+    "artworkDate": "c. 1560s-1580s fresco by Cesare Nebbia",
+    "medium": "fresco",
+    "description": "A Vatican fresco by Cesare Nebbia depicting Emperor Constantine presiding over the First Council of Nicaea, showing bishops gathered in assembly.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cesare_Nebbia_Concile_de_Nic%C3%A9e_(1560).jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "commons.wikimedia.org is blocked in this sandbox, so the exact license tag on the file page could not be confirmed. Given the depicted fresco dates to the 1560s-80s, a public-domain-by-age tag is likely, but this must be confirmed on the actual file page before use rather than assumed.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Good visual shorthand for 'church council' atmosphere; note this is a 16th-century artistic imagining of Nicaea, not a contemporary depiction, so it should be captioned carefully if used (it visually reads as a later, formal ecclesiastical council rather than the original 4th-century setting)."
+  },
+  {
+    "id": "dura-europos-good-shepherd-baptistery",
+    "title": "Dura-Europos Baptistery: Good Shepherd and Adam and Eve",
+    "worldKeys": [],
+    "tags": [
+      "house-church",
+      "baptistery",
+      "fresco",
+      "good-shepherd",
+      "syria",
+      "3rd-century"
+    ],
+    "depictedPeriod": "c. 240-256 CE",
+    "artworkDate": "3rd century wall painting",
+    "medium": "fresco",
+    "description": "Wall painting from the baptistery of the Dura-Europos house-church (the world's earliest known Christian building) in Roman Syria, showing Christ as the Good Shepherd above a faint image of Adam and Eve.",
+    "repository": "Yale University Art Gallery",
+    "sourceUrl": "https://artgallery.yale.edu/collections/objects/34493",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Yale University Art Gallery has a documented general open-access policy releasing images of public-domain works in its collection (per Yale's 'Open Access Images' and 'Using Images' pages), which would likely cover this ancient object, but artgallery.yale.edu could not be fetched in this session to confirm the specific object page carries a CC0/open-access designation. Verify the object page's rights statement before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Excavated 1928-37 by the Yale-French expedition; this is arguably the single best 'early basilica/house-church' atmosphere image available, since it is a genuine 3rd-century Christian worship space rather than a later artistic reconstruction."
+  },
+  {
+    "id": "dura-europos-procession-women-baptistery",
+    "title": "Dura-Europos Baptistery: Procession of Women",
+    "worldKeys": [],
+    "tags": [
+      "house-church",
+      "baptistery",
+      "fresco",
+      "procession",
+      "syria",
+      "3rd-century"
+    ],
+    "depictedPeriod": "c. 240-256 CE",
+    "artworkDate": "3rd century wall painting",
+    "medium": "fresco",
+    "description": "Wall painting from the Dura-Europos house-church baptistery showing a procession of women approaching, generally interpreted as the myrrh-bearing women at Christ's tomb.",
+    "repository": "Yale University Art Gallery",
+    "sourceUrl": "https://artgallery.yale.edu/collections/objects/34496",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Same caveat as the companion Dura-Europos entry: Yale's general open-access policy for public-domain collection works likely applies, but the specific object page's rights designation could not be fetched/confirmed in this session.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Pairs well with the Good Shepherd panel from the same room if the site wants a matched set from one real, excavated early-Christian worship space."
+  },
+  {
+    "id": "santa-sabina-nave-interior",
+    "title": "Santa Sabina Basilica Interior, Rome",
+    "worldKeys": [],
+    "tags": [
+      "basilica",
+      "interior",
+      "nave",
+      "architecture",
+      "rome",
+      "5th-century"
+    ],
+    "depictedPeriod": "Building consecrated c. 422-432 CE",
+    "artworkDate": "Modern photograph of a 5th-century building",
+    "medium": "photo",
+    "description": "Interior view of the nave of the Basilica of Santa Sabina on the Aventine Hill in Rome, a well-preserved 5th-century early Christian basilica with its original colonnade of reused Corinthian columns.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Sabina_(Roma)_-_Interior.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch snippet only; commons.wikimedia.org could not be fetched in this session to confirm the license tag (modern interior photographs on Commons are frequently 'own work' CC-BY-SA rather than public domain, so this needs checking, not assuming, before use).",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "Santa Sabina is one of the best-surviving unaltered early basilica interiors and a strong visual reference even if this exact file needs a license check or swap for another Commons photo in the same category."
+  },
+  {
+    "id": "david-roberts-st-catherine-sinai",
+    "title": "Convent of St. Catherine, Mount Sinai (David Roberts)",
+    "worldKeys": [],
+    "tags": [
+      "desert",
+      "monastery",
+      "sinai",
+      "lithograph",
+      "landscape"
+    ],
+    "depictedPeriod": "Depicts a monastery founded/expanded in the 6th century, set in ancient desert terrain",
+    "artworkDate": "Lithograph published 1842-1849",
+    "medium": "sketch",
+    "description": "A hand-tinted lithograph, based on David Roberts's 1839 on-site sketches, of the Convent of St. Catherine at the foot of Mount Sinai amid the surrounding desert mountains.",
+    "repository": "Internet Archive (Metropolitan Museum of Art scan)",
+    "sourceUrl": "https://archive.org/details/mma_the_holy_land_syria_idumea_arabia_egypt__nubia_591848",
+    "directUrl": null,
+    "license": "Public Domain (pre-1929 publication)",
+    "licenseNotes": "From 'The Holy Land, Syria, Idumea, Arabia, Egypt & Nubia' (London: F. G. Moon, 1842-1849), lithographed by Louis Haghe after David Roberts; safely public domain by age. This is the Met's own scan hosted on Internet Archive. The specific plate depicting the Convent of St. Catherine was referenced in secondary sources describing this book's contents but was not directly viewed page-by-page in this session — a reviewer should locate the exact plate/page in the Internet Archive reader before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "One of ~247 lithographs in this three-volume 1842-49 work; excellent desert/monastery atmosphere source, and the same volume set likely contains other usable desert and Holy Land scenes for this same catalog."
+  },
+  {
+    "id": "lewis-frank-encampment-sinai-desert",
+    "title": "A Frank Encampment in the Desert of Mount Sinai",
+    "worldKeys": [],
+    "tags": [
+      "desert",
+      "sinai",
+      "landscape",
+      "watercolor",
+      "monastery-in-distance"
+    ],
+    "depictedPeriod": "Contemporary 19th-century scene, desert setting associated with ancient monastic tradition",
+    "artworkDate": "1842 watercolor",
+    "medium": "painting",
+    "description": "A watercolor by John Frederick Lewis of a desert camp in the Sinai wilderness with the Convent of St. Catherine visible in the distance.",
+    "repository": "Yale Center for British Art",
+    "sourceUrl": "https://britishart.yale.edu/frank-encampment-desert-mount-sinai",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "The original 1842 watercolor is long out of copyright by age, and Yale Center for British Art has a general open-access image policy, but britishart.yale.edu could not be fetched in this session to confirm this specific object page's rights designation. Verify before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "More a 'desert landscape' mood piece than a strictly religious scene, but the distant monastery and desert light could work well as a section-break or hero background image."
+  },
+  {
+    "id": "eadwine-scribe-self-portrait",
+    "title": "Eadwine the Scribe at Work (Eadwine Psalter)",
+    "worldKeys": [],
+    "tags": [
+      "scriptorium",
+      "scribe",
+      "illumination",
+      "manuscript",
+      "monk-writing"
+    ],
+    "depictedPeriod": "Not 1st-5th century; medieval scribal-tradition atmosphere image only",
+    "artworkDate": "c. 1150-1170 illumination",
+    "medium": "illumination",
+    "description": "A full-page illuminated miniature, likely a self-portrait, of the monk Eadwine of Christ Church, Canterbury, shown seated and writing at his scriptorium desk.",
+    "repository": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Unknown-artist-eadwine-the-scribe-at-work-eadwine-psalter-christ-church-canterbury-england-uk-circa-1160-70.jpg",
+    "directUrl": null,
+    "license": "unverified",
+    "licenseNotes": "Found via WebSearch title/snippet only; commons.wikimedia.org could not be fetched in this session to confirm the exact license tag. As a 12th-century illumination it is almost certainly public domain by age, but the tag should be confirmed on the actual file page before use.",
+    "localPath": null,
+    "status": "candidate",
+    "notes": "This is a 12th-century (not 1st-5th century) manuscript, included here purely as a strong, real, well-documented 'scriptorium/manuscript' mood image per the brief's request for general atmosphere images rather than period-accurate ones — flag this dating gap for Mark's review."
+  }
+]
