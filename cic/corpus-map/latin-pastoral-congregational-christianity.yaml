@@ -1137,9 +1137,15 @@ works:
     not this tradition''s own voice. Source_Registry.md row 44 names the specific reason this
     world holds it: the underlying statute behind the Theodosian-law fine Augustine''s own
     Letter 185 SS25 cites (already role: tradition here, npnf101). Not currently drawn on
-    directly for a specific claim — the exact CTh provision behind that fine reference has
-    not been independently pinned down against this file''s own text this session, disclosed
-    rather than guessed. Provisional pending that check.
+    directly for a specific claim. UPDATED 2026-09-09 (lpc Round 28 fix pass): the provision
+    behind that fine reference is now identified, though not against THIS file. Letter 185
+    SS25 describes a law of Theodosius I fining heretical clergy ten pounds of GOLD; that
+    is CTh XVI.5.21 (392 Iun. 15), "denis libris auri viritim," read directly in the Mommsen-Meyer
+    1905 edition vendored on the sibling Donatism branch. It is NOT CTh XVI.5.52 (412), the
+    graduated Donatist fine schedule whose circumcellion clause is assessed in silver — an
+    equation lpc''s own Round 28 revision asserted and withdrew in the same round. Whether
+    this Latin Library file''s own text of XVI.5.21 matches has not been checked, so this
+    entry stays provisional; the identification rests on the Mommsen-Meyer file.
 
     '
   source_file: codex-theodosianus_latinlibrary.txt

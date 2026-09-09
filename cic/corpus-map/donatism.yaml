@@ -199,15 +199,21 @@ works:
   locus: whole text
   role: context
   confidence: needs-ruling
-  note: 'Not a claim this staging entry is positioned to argue well — flagged because Source_Registry.md
-    row 44 (lpc''s own Registry) records that the sibling Donatism build''s own Manifest carried
-    a live G3 request for exactly this edition (Mommsen-Meyer, referenced there but not acquired
-    after five attempts; that build settled for a substitute, Boyd''s 1905 translation of
-    the ecclesiastical edicts). Donatism''s own corpus-map bucket does not yet list this work
-    (checked before writing this entry). Whether it belongs there as context, antecedent,
-    or something narrower — CTh 16.5/16.6 carry the anti-Donatist and anti-heretic legislation
-    most likely relevant — is a call for that world''s own build thread, not asserted here
-    from outside.
+  note: 'Not a claim this staging entry is positioned to argue well — flagged for that world''s
+    own build thread to rule on. CORRECTED 2026-09-09 (lpc Round 28 fix pass, at the project
+    lead''s explicit direction): this note previously stated, on the authority of Source_Registry.md
+    row 44, that the Donatism build''s G3 request for the Mommsen-Meyer edition was "not acquired
+    after five attempts" and that "that build settled for a substitute, Boyd''s 1905 translation
+    of the ecclesiastical edicts." That is no longer true and the clause is withdrawn. Donatism''s
+    own Decision Log records G3 FULLY DISCHARGED on 2026-09-07: the correct text volume (Voluminis
+    I Pars Posterior, archive.org item theodosianilibr01sirmgoog) was located and vendored
+    on that branch as cic/texts/theodosianus-16_mommsen-meyer1905.txt. Boyd remains a valid
+    corroborating secondary source but is no longer that build''s sole primary-text route.
+    Donatism''s own corpus-map bucket did not list this work when this entry was first written;
+    that state has not been re-checked as of this correction. Whether it belongs there as
+    context, antecedent, or something narrower — CTh 16.5/16.6 carry the anti-Donatist and
+    anti-heretic legislation most likely relevant — is a call for that world''s own build
+    thread, not asserted here from outside.
 
     '
   source_file: codex-theodosianus_latinlibrary.txt
