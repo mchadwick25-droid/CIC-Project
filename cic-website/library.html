@@ -63,6 +63,9 @@ p{margin:0 0 1rem}
 .hero h1{font-size:clamp(1.6rem,3.4vw,2.2rem);margin:0 0 .6rem}
 .hero p{max-width:42rem;color:var(--muted)}
 .internal-note{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-size:.78rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--action);background:rgba(224,140,116,.12);border:1px solid rgba(224,140,116,.35);border-radius:999px;padding:.3rem .7rem;margin:0 0 1rem}
+.status-key{font-family:var(--sans);font-size:.82rem;color:var(--muted);max-width:44rem}
+.status-key strong{color:var(--text)}
+.status-key em{color:var(--text);font-style:normal;font-weight:600}
 
 .stats{display:flex;flex-wrap:wrap;gap:1.2rem;font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0 0 1.5rem}
 .stats strong{color:var(--text);font-weight:700}
@@ -86,6 +89,7 @@ p{margin:0 0 1rem}
 .thumb .no-thumb{font-family:var(--sans);font-size:.8rem;color:var(--muted);text-align:center;padding:1rem;display:flex;flex-direction:column;align-items:center;gap:.5rem}
 .thumb .no-thumb a{font-weight:600}
 .status-badge{position:absolute;top:.5rem;left:.5rem;font-family:var(--sans);font-size:.66rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:.2rem .55rem;border-radius:999px;border:1px solid}
+.status-downloaded{background:rgba(94,163,224,.16);color:#A8D2F0;border-color:rgba(168,210,240,.4)}
 .status-approved{background:rgba(52,168,110,.16);color:#8FE0B4;border-color:rgba(143,224,180,.4)}
 .status-candidate{background:rgba(224,140,116,.14);color:var(--action-hover);border-color:rgba(224,140,116,.35)}
 .status-in-use{background:rgba(155,120,224,.16);color:#C9A6E8;border-color:rgba(201,166,232,.4)}
@@ -139,6 +143,7 @@ p{margin:0 0 1rem}
       <p class="internal-note">Internal — prep work, not live</p>
       <h1>Image &amp; video resource library</h1>
       <p>A working catalog of public-domain historical images gathered for the site's seven built worlds, plus general atmosphere shots — tagged and sourced so they can be reviewed and eventually pulled into the site. Nothing here is wired into the live pages yet.</p>
+      <p class="status-key"><strong>Status key:</strong> <em>Candidate</em> — found and cataloged, not yet downloaded. <em>Downloaded</em> — the strongest license-clean pick per world was selected and pulled in by the research pass; nobody has reviewed it yet. <em>Approved</em> — Mark has actually looked at it and signed off. Nothing on this page is "approved" until Mark says so.</p>
     </section>
 
     <p class="stats" id="stats" aria-live="polite"></p>
@@ -219,11 +224,13 @@ function populateSelect(sel, values, labelFn) {
 
 function renderStats(records) {
   const approved = records.filter(r => r.status === 'approved').length;
+  const downloaded = records.filter(r => r.status === 'downloaded').length;
   const withImage = records.filter(r => r.localPath).length;
   document.getElementById('stats').innerHTML =
     `<span><strong>${records.length}</strong> total records</span>` +
-    `<span><strong>${approved}</strong> approved</span>` +
-    `<span><strong>${withImage}</strong> downloaded</span>`;
+    `<span><strong>${approved}</strong> approved by Mark</span>` +
+    `<span><strong>${downloaded}</strong> downloaded, awaiting review</span>` +
+    `<span><strong>${withImage}</strong> have a local thumbnail</span>`;
 }
 
 function cardHtml(r) {

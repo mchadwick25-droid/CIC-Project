@@ -23,7 +23,7 @@
     "license": "CC0",
     "licenseNotes": "Verified directly: the archive.org item's own metadata record for this Cleveland Museum of Art Open Access object carries licenseurl https://creativecommons.org/publicdomain/zero/1.0/ (CC0), fetched and confirmed in this session.",
     "localPath": "assets/library/pahc/pahc-good-shepherd-statue-cma.jpg",
-    "status": "approved",
+    "status": "downloaded",
     "notes": "Depicted date (280-290 CE) runs a little later than this world's stated 70-200 CE window, but the object is squarely pre-Constantinian and the Met/Cleveland's own catalog text explicitly connects it to the Good Shepherd theme central to early house-church-era Christian self-understanding — picked as the strongest fully-verified, no-caveat candidate available for this world within this session's reach. Downloaded and resized for web use."
   },
   {
@@ -50,7 +50,7 @@
     "license": "CC0",
     "licenseNotes": "Verified directly: the archive.org item's own metadata record for this Cleveland Museum of Art Open Access object carries licenseurl https://creativecommons.org/publicdomain/zero/1.0/ (CC0), fetched and confirmed in this session.",
     "localPath": "assets/library/desert/desert-anthony-paul-durer-cma.jpg",
-    "status": "approved",
+    "status": "downloaded",
     "notes": "Picked over the more common 'Temptation of St Anthony' engravings (demons swarming Anthony) because it matches this world's own tile copy better: authority 'earned through a lifetime of discipline under one elder' is exactly what this composition shows — an elder and a visiting monk in a real teaching relationship, not just a generic demon-temptation trope. Downloaded and resized for web use."
   },
   {
@@ -76,7 +76,7 @@
     "license": "CC0",
     "licenseNotes": "Verified directly: the archive.org item's own metadata record for this Cleveland Museum of Art Open Access object carries licenseurl https://creativecommons.org/publicdomain/zero/1.0/ (CC0), fetched and confirmed in this session.",
     "localPath": "assets/library/ijc/ijc-ambrose-goya-cma.jpg",
-    "status": "approved",
+    "status": "downloaded",
     "notes": "Ambrose is the figure behind this world's single most vivid tile-copy detail (the emperor's public penance after Thessalonica). A more narratively literal image exists — van Dyck's 'Ambrose Barring Theodosius from Milan Cathedral' (see candidate van-dyck-ambrose-theodosius in ijc.json) — but its Commons license could not be independently verified in this session, so this fully CC0-verified portrait of Ambrose alone was used for the approved download instead. A human reviewer may prefer to swap in the van Dyck once its license is confirmed. Downloaded and resized for web use."
   },
   {
@@ -103,7 +103,7 @@
     "license": "CC0",
     "licenseNotes": "Verified directly: the archive.org item's own metadata record for this Cleveland Museum of Art Open Access object carries licenseurl https://creativecommons.org/publicdomain/zero/1.0/ (CC0), fetched and confirmed in this session.",
     "localPath": "assets/library/hal/hal-jerome-lievens-cma.jpg",
-    "status": "approved",
+    "status": "downloaded",
     "notes": "Jerome is the dominant figure of this world; this etching was chosen over the Dürer/Rembrandt 'Jerome in his study' Met candidates (also CC0 by the same Open Access logic, but unfetchable this session to grab the actual file) because it was fully downloadable and viewable end-to-end in this session. Downloaded and resized for web use."
   },
   {
@@ -127,7 +127,7 @@
     "license": "Public Domain (pre-1929 publication)",
     "licenseNotes": "Confirmed directly: this session fetched the actual archive.org item (published 1910; author Philip Schaff died 1893), located the plate via the item's own djvu.xml page index, and downloaded the page image directly from Internet Archive's IIIF image service — safely public domain in the US as a pre-1929 publication.",
     "localPath": "assets/library/general/atmosphere-orpheus-catacomb-schaff.jpg",
-    "status": "approved",
+    "status": "downloaded",
     "notes": "Located by searching the book's own 'Illustrations from the Catacombs' section (djvu text) and mapping the printed page number to the correct scanned leaf/canvas index via the item's djvu.xml and IIIF manifest. Image is the full book page (plate + printed caption); left uncropped since the caption is informative and the antiquarian-book look fits the site's tone. Downloaded and resized for web use."
   },
   {
@@ -151,7 +151,7 @@
     "license": "Public Domain (pre-1929 publication)",
     "licenseNotes": "Confirmed directly: same source volume as atmosphere-orpheus-catacomb-schaff (published 1910; author died 1893) — safely public domain in the US as a pre-1929 publication. Page located and downloaded directly from Internet Archive's IIIF image service in this session.",
     "localPath": "assets/library/general/atmosphere-good-shepherd-catacomb-schaff.jpg",
-    "status": "approved",
+    "status": "downloaded",
     "notes": "Companion plate to the Orpheus engraving, immediately preceding it in the same book — the two make a natural pair of early Christian catacomb-symbolism atmosphere images. Downloaded and resized for web use."
   },
   {
@@ -1934,7 +1934,7 @@
     "license": "No known copyright restrictions",
     "licenseNotes": "Verified directly: the archive.org item's own metadata record links to the Brooklyn Museum's rights statement, which reads exactly 'No known copyright restrictions' — one of the license categories the sourcing brief explicitly names as acceptable. Fetched and confirmed in this session.",
     "localPath": "assets/library/alx/alx-fayum-portrait-brooklyn.jpg",
-    "status": "approved",
+    "status": "downloaded",
     "notes": "Two honest caveats: (1) this is a Fayum portrait — Fayum is a different region of Egypt from Alexandria itself, though part of the same Roman-Egyptian milieu and century; it depicts an anonymous private individual, not a named Christian teacher or a scene from the catechetical school. (2) Brooklyn's own scan is only 371x768px — no higher-resolution file exists in this item on Internet Archive, so it was NOT upscaled to the usual ~1600px target; it will look softer than the other approved images if used at large size. Chosen after an extensive second search (Cleveland + Brooklyn museum mirrors, ~15 additional query terms: origen, alexandria, logos, coptic, athanasius, clement, arius, serapis, papyrus, scroll, teacher+pupil, fayum, mummy portrait, roman egypt, encaustic) turned up nothing closer to a literal depiction of Alexandrian Christianity itself."
   },
   {
@@ -1960,7 +1960,35 @@
     "license": "CC0",
     "licenseNotes": "Verified directly: the archive.org item's own metadata record for this Cleveland Museum of Art Open Access object carries licenseurl https://creativecommons.org/publicdomain/zero/1.0/ (CC0), fetched and confirmed in this session.",
     "localPath": "assets/library/syr/syr-hormizd2-coin-cma.jpg",
-    "status": "approved",
+    "status": "downloaded",
     "notes": "Honest caveat: this coin depicts Hormizd II, not Shapur II himself (Cleveland's Sasanian numismatic holdings jump from Hormizd II straight to much later Byzantine emperors, with no Shapur II coin found) — but it is the same dynasty, one reign earlier, squarely within this world's persecution-era timeframe, and a genuine dateable 4th-century Sasanian royal portrait rather than a later artistic imagining. Chosen after an extensive second search across Cleveland + Brooklyn mirrors (ephrem, nestorius, sassanian, persian king, zoroastrian, shapur, sasanian king, drachm king, julian, valens — the last two tried because Cleveland's coin collection was the most promising lead) turned up no closer match; a portrait bust coin of Shapur II himself, or an image of Edessa/Nisibis directly, would be a stronger swap if a reviewer finds one with a normal, unrestricted connection."
+  },
+  {
+    "id": "cappadocian-goreme-cave-church-landscape",
+    "title": "Rock-cut cave churches, Göreme Open Air Museum",
+    "worldKeys": [
+      "cappadocian"
+    ],
+    "tags": [
+      "cappadocia",
+      "goreme",
+      "cave-church",
+      "rock-cut",
+      "monastery",
+      "landscape",
+      "photo"
+    ],
+    "depictedPeriod": "landscape and rock-cut monastic complex, occupied and carved mainly 4th-13th centuries CE",
+    "artworkDate": "photograph taken 2020-06-02",
+    "medium": "photo",
+    "description": "A daylight landscape photograph of the volcanic-tuff cliffs at the Göreme Open Air Museum in Cappadocia, showing the carved window and door openings of the rock-cut cave churches and monastic cells that riddle the rock face.",
+    "repository": "Internet Archive (uploaded by Ferah Kaya)",
+    "sourceUrl": "https://archive.org/details/20200513-140219-kopya-kopya",
+    "directUrl": "https://archive.org/download/20200513-140219-kopya-kopya/20200513_140219%20-%20Kopya%20-%20Kopya.jpg",
+    "license": "CC BY 4.0",
+    "licenseNotes": "Verified directly: the archive.org item's own metadata record carries licenseurl http://creativecommons.org/licenses/by/4.0/, fetched and confirmed in this session. Attribution required (photographer: Ferah Kaya) - unlike the CC0 picks used for the other worlds, any use of this image should credit the photographer.",
+    "localPath": "assets/library/cappadocian/cappadocian-goreme-cave-church-landscape.jpg",
+    "status": "downloaded",
+    "notes": "Approved by Mark as a deliberately looser-bar exception for this one world: after two exhaustive search passes (70+ query terms across the Cleveland and Brooklyn museum Open Access mirrors) found no image of Basil, the Gregorys, or Macrina in any CC0/unambiguous-PD collection reachable from this sandbox, Mark approved using a modern, attribution-required photo of Cappadocia's cave-monastery landscape instead of leaving this world's approved slot empty. This is a landscape/architecture photo, not a portrait of a named figure - it establishes the physical setting (rock-cut monastic cells and churches) rather than depicting Basil's brotherhoods directly. Cropped to remove a strip of modern cafeteria signage at the bottom edge of the original tourist photo; otherwise unedited. The original item contains 8 more photos from the same visit (interior shots, UNESCO plaques, museum signage) if a reviewer wants an alternate crop or angle."
   }
 ]
