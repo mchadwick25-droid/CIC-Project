@@ -326,6 +326,54 @@ sequentially, and ask what JOB each of Chloe's sentences is doing that
 the draft's corresponding field has no equivalent for. A missing job is
 a depth gap even when every sentence present is individually clean.
 
+### There is no canonical record for style purposes — everything gets reviewed, including quotes and record-verbatim text
+
+Alexandria's tradition page carried a "Where we are quiet" paragraph
+lifted verbatim from its own canonical honest_limit record
+(`alx.limit.material-remains.md`). It was waved through in every pass
+so far for exactly that reason — it's sourced, so it was assumed to be
+fine. It wasn't: "If you dug where we met, we could not tell you what
+you would find... Our own writings describe souls and books far more
+than rooms and walls... The city itself has kept little" is an indirect,
+hypothetical-address construction with a rhyme-y parallel built for
+effect ("souls and books... rooms and walls") — cryptic in exactly the
+way this whole guide exists to catch, sitting untouched inside a
+verbatim quotation. Compare Chloe's own equivalent section, which states
+the same *kind* of fact plainly: "So we can tell you they were here...
+What we cannot give you is a single word any of them chose to write."
+Same content, same source-based honesty, but one reads as trying to
+sound like something and the other just says the thing.
+
+**Mark's ruling on this, verbatim: "there is no canonical record, all
+text needs to be reviewed and updated to this standard not just problem
+texts... everything is reviewable and upgradable."** This closes a gap
+the process had been quietly leaving open: `records/<code>/*.md` files
+are the source of truth for FACTS (truth-check every claim against
+them, per §2.1) but they are not automatically the standard for STYLE —
+they were authored by an AI during the world-build process and have
+never been run through this review themselves. A quotation, a
+paraphrase, or a "this is sourced so it's fine" pass-through is not
+exempt from the five-question review (§1.1) or the depth-gap check
+above just because the words came from a record rather than from your
+own drafting. Read every quoted or record-derived sentence the same way
+you'd read your own.
+
+**One live scope question this raises, not yet settled:** does "everything
+is reviewable and upgradable" extend to editing the canonical record
+files themselves (`records/<code>/*.md`), not just this website's use of
+them? Those files are the direct source for the Representative's live
+spoken conversation (a different register, governed by
+`CiC_Register_Bar_2026-08-29.md` and gated by `engine/m1/gates.py`, not
+by this document — see "What this document governs, and what it does
+not" at the top). Editing website copy that quotes a record is squarely
+this document's scope and always was. Editing the record itself changes
+what the live Representative says in conversation, which is a bigger
+and different kind of action than a website-prose fix, with its own
+established review process (Doc_08 gates, probe batteries, the
+validation suite). Confirm with Mark, on a case-by-case basis, before
+editing a canonical record file itself rather than treating that
+authorization as automatically included here.
+
 ---
 
 ## 1.2 The exemplar, and the one test that generates the rest
