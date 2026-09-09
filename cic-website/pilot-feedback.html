@@ -13,20 +13,18 @@
 <style>
 form.feedback label{display:block;font-family:'Alegreya Sans',sans-serif;font-size:.98rem;font-weight:600;margin:1.3rem 0 .4rem}
 form.feedback label:first-of-type{margin-top:0}
-form.feedback .hint{font-family:'Alegreya Sans',sans-serif;font-size:.86rem;color:var(--muted);font-weight:400;display:block;margin-top:.15rem}
+form.feedback .hint{font-family:'Alegreya Sans',sans-serif;font-size:.86rem;color:#B8AEA1;font-weight:400;display:block;margin-top:.15rem}
 form.feedback input, form.feedback select, form.feedback textarea{
   width:100%;font-family:'Alegreya',Georgia,serif;font-size:1rem;padding:.7rem .8rem;
   border:1px solid var(--rule);border-radius:5px;background:var(--vellum);color:var(--iron-gall)}
 form.feedback textarea{min-height:5rem;resize:vertical}
 .optin{background:var(--vellum);border:1px solid var(--rule);border-left:3px solid var(--gold-leaf);
-  border-radius:0 6px 6px 0;padding:1.1rem 1.3rem;margin:0 0 1.8rem;font-size:.96rem;color:var(--muted)}
+  border-radius:0 6px 6px 0;padding:1.1rem 1.3rem;margin:0 0 1.8rem;font-size:.96rem;color:#B8AEA1}
 .submit-row{text-align:center;margin-top:1.8rem}
-.mailto-fallback{font-family:'Alegreya Sans',sans-serif;font-size:.86rem;color:var(--muted);margin-top:.8rem}
-/* --muted is never redefined for dark mode anywhere on this site (2026-08-25
-   full review finding) - .optin and .hint share the same latent contrast gap
-   this file's new .mailto-fallback would otherwise have introduced too, so
-   all three get the fix together rather than patching only the new one. */
-@media (prefers-color-scheme:dark){ .optin, form.feedback .hint, .mailto-fallback{color:#B8AEA1} }
+.mailto-fallback{font-family:'Alegreya Sans',sans-serif;font-size:.86rem;color:#B8AEA1;margin-top:.8rem}
+/* Dark is the default site-wide; .optin, .hint, and .mailto-fallback are
+   colored for that directly rather than through --muted, which still holds
+   its light-mode value everywhere on this site. */
 </style>
 </head>
 <body>

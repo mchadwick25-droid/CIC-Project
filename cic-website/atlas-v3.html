@@ -18,26 +18,21 @@
    real era bands (height by density, not the calendar); tradition families flow as
    winding, density-widened rivers left to right. Hover = short, click = full. */
 :root{
-  /* Light-mode ground re-picked 2026-09: parchment read as old-manuscript/
-     institutional for the audience this project wants to reach. Dark mode
-     (below) tested fine as-is and is untouched. #F6F6F2 is Mark's own pick
-     from a side-by-side comparison against these same ink/gold-leaf/river
-     colors -- a near-neutral warm-white with the yellow drained out, not a
-     derived value. --vellum keeps the same "panel sits a shade lighter than
-     the page" relationship the old parchment/vellum pair had. */
+  /* Dark is the site's default appearance (2026-09): prefers-color-scheme
+     can't tell "OS explicitly set to light" apart from "OS has never been
+     touched and defaults to light" -- both report the same media-query
+     match -- so gating the default on that query showed light to most
+     visitors instead of dark. Dark is unconditional here instead;
+     [data-theme="light"] below is inert unless something sets that
+     attribute (no control does today), kept as a future manual-toggle path. */
+  --parchment:#1d1811; --vellum:#262017; --iron-gall:#e9dfc7; --ink-faded:#a4967a;
+  --rule:#453a28; --madder:#cf7a5c; --gold-leaf:#cfa55c; --tyrian:#b9a3d6;
+  --tyrian-wash:#241d30; --graphite:#8f8266; --shadow:0 2px 14px rgba(0,0,0,.55);
+}
+:root[data-theme="light"]{
   --parchment:#F6F6F2; --vellum:#FBFBF9; --iron-gall:#2A2521; --ink-faded:#6C6257;
   --rule:#E6DFD3; --madder:#A13E2B; --gold-leaf:#B45309; --tyrian:#6B3FA0;
   --tyrian-wash:#F3EFFA; --graphite:#8A837C; --shadow:0 2px 10px rgba(42,37,33,.18);
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --parchment:#1d1811; --vellum:#262017; --iron-gall:#e9dfc7; --ink-faded:#a4967a;
-  --rule:#453a28; --madder:#cf7a5c; --gold-leaf:#cfa55c; --tyrian:#b9a3d6;
-  --tyrian-wash:#241d30; --graphite:#8f8266; --shadow:0 2px 14px rgba(0,0,0,.55);
-}}
-:root[data-theme="dark"]{
-  --parchment:#1d1811; --vellum:#262017; --iron-gall:#e9dfc7; --ink-faded:#a4967a;
-  --rule:#453a28; --madder:#cf7a5c; --gold-leaf:#cfa55c; --tyrian:#b9a3d6;
-  --tyrian-wash:#241d30; --graphite:#8f8266; --shadow:0 2px 14px rgba(0,0,0,.55);
 }
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -128,12 +123,10 @@ svg#world{display:block;overflow:visible}
    a light river color against an almost-black backdrop and crushed every
    river to that backdrop: invisible, not just at crossings, everywhere.
    "lighten" (per-channel max) is darken's mirror for a light-on-dark palette. */
-.river-calm{transition:opacity .35s ease;mix-blend-mode:darken}
-.river-organic{transition:opacity .35s ease;mix-blend-mode:darken}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .river-calm,
-  :root:not([data-theme="light"]) .river-organic{mix-blend-mode:lighten}}
-:root[data-theme="dark"] .river-calm,
-:root[data-theme="dark"] .river-organic{mix-blend-mode:lighten}
+.river-calm{transition:opacity .35s ease;mix-blend-mode:lighten}
+.river-organic{transition:opacity .35s ease;mix-blend-mode:lighten}
+:root[data-theme="light"] .river-calm,
+:root[data-theme="light"] .river-organic{mix-blend-mode:darken}
 .river-group{cursor:pointer}
 .river-group:focus-visible{outline:none}
 /* Nodes and edges each carry their own hover/focus indicator; a river had
@@ -40462,8 +40455,11 @@ const FAM=[
  {k:80, lbl:"Non-Nicene",  c:"#6369b2", cd:"#6c72bc"}
 ];
 function famOf(laneOrder){let best=FAM[0],bd=1e9;FAM.forEach(f=>{const d=Math.abs(f.k-laneOrder);if(d<bd){bd=d;best=f;}});return best;}
-const isDark=()=>document.documentElement.getAttribute('data-theme')==='dark'||
-  (matchMedia('(prefers-color-scheme: dark)').matches&&document.documentElement.getAttribute('data-theme')!=='light');
+// Dark is the default; prefers-color-scheme can't tell an explicit light
+// preference apart from an OS that has never been touched (both match
+// "light"), so this no longer checks it -- only an explicit data-theme
+// attribute (no control sets one today; a future toggle could) opts out.
+const isDark=()=>document.documentElement.getAttribute('data-theme')!=='light';
 const famColor=f=>isDark()?f.cd:f.c;
 
 // Pigment levels. Rivers stay solid at every zoom (opacity is not the honesty signal --
@@ -42068,9 +42064,6 @@ function positionScopeNote(){
 positionScopeNote();
 window.addEventListener('resize',positionScopeNote);
 window.addEventListener('resize',()=>{/* no auto-recenter -- resize is not a participant zoom action */});
-
-const mq=matchMedia('(prefers-color-scheme: dark)');
-mq.addEventListener('change',()=>{render(); buildLegend(); applyTransform(); applyDetail();});
 
 render();
 buildLegend();

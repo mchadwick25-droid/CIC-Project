@@ -15,24 +15,15 @@
   --parchment:#F6F6F2; --vellum:#FFFFFF;
   --ink:#2A2521; --ink-faded:#6C6257;
   --madder:#A13E2B; --madder-deep:#7E2F20;
-  --graphite:#8A837C; --rule:#E6DFD3;
-  --ground:var(--parchment); --surface:var(--vellum);
-  --text:var(--ink); --muted:var(--ink-faded);
-  --action:var(--madder); --action-hover:var(--madder-deep);
-  --control:var(--graphite);
+  --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --control:#A39B92;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
   --wide:64rem; --col:44rem; --measure:38rem;
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --ground:#17130F; --surface:#1E1913;
-    --text:#F1E9DD; --muted:#B8AEA1;
-    --action:#E08C74; --action-hover:#F0A98F;
-    --control:#A39B92; --rule:rgba(241,233,221,.16);
-  }
-}
-*{box-sizing:border-box}
+}*{box-sizing:border-box}
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
 a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
 a:hover{color:var(--action-hover)}

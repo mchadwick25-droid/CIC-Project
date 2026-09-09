@@ -17,29 +17,18 @@
   --madder:#A13E2B;
   --madder-deep:#7E2F20;
   --graphite:#8A837C;
-  --rule:#E6DFD3;
-  --ground:var(--parchment); --surface:var(--vellum);
-  --text:var(--ink); --muted:var(--ink-faded);
-  --action:var(--madder); --action-hover:var(--madder-deep);
-  --control:var(--graphite);
-  --mark-ink:#2A2521; --mark-dot:#A13E2B;
+  --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD;
+  --muted:#B8AEA1;
+  --action:#E08C74;
+  --action-hover:#F0A98F;
+  --control:#A39B92;
+  --mark-ink:#EDE5D6; --mark-dot:#CB6E52;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
   --wide:64rem; --col:44rem; --measure:38rem;
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --ground:#17130F; --surface:#1E1913;
-    --text:#F1E9DD;
-    --muted:#B8AEA1;
-    --action:#E08C74;
-    --action-hover:#F0A98F;
-    --control:#A39B92;
-    --rule:rgba(241,233,221,.16);
-    --mark-ink:#EDE5D6; --mark-dot:#CB6E52;
-  }
-}
-*{box-sizing:border-box}
+}*{box-sizing:border-box}
 html{scroll-padding-top:1rem}
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
 a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
@@ -131,8 +120,7 @@ p{margin:0 0 1rem}
 .era-head{display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline;font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.6rem;margin:0}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
 .chairs{list-style:none;margin:1.5rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout}
-.chair{--ring:var(--tint);flex:0 0 auto;width:232px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:1.15rem}
-@media (prefers-color-scheme:dark){ .chair{--ring:var(--tint-dark)} }
+.chair{--ring:var(--tint-dark);flex:0 0 auto;width:232px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:1.15rem}
 .chair .portrait{width:72px;height:72px;border-radius:50%;overflow:hidden;border:2px solid var(--ring);background:var(--ground);flex:0 0 auto}
 .chair .portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
 .chair h4{font-size:1.1rem;font-weight:700;margin:0}
