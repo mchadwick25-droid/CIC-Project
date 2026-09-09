@@ -367,6 +367,19 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.turn__avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 22%;
+  border: 1.5px solid currentColor;
+  flex: 0 0 auto;
 }
 
 .turn--participant .turn__speaker,
