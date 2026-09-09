@@ -2,7 +2,7 @@
 
 **Alexandria (Catechetical-School) Formation World · finding document · 2026-09-09**
 
-**Version:** Round 6 draft (revised after five adversarial rounds). Revision log: **§11**.
+**Version:** Round 7 draft (revised after six adversarial rounds). Revision log: **§11**.
 
 - **Round 1** (`Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md`) — **SUBSTANTIAL
   REVISION REQUIRED**, 8 substantial + 8 cosmetic. Headline upheld.
@@ -19,20 +19,30 @@
   prior round's frame — and found it fails too, and stated plainly that it **cannot find any route,
   inside or outside prior frames, to a Doc_04 classification change on this material.**
 - **Round 5** (`…_Round5_Review.md`) — **SUBSTANTIAL**, **1** + 19. Headline upheld a fifth time.
-  Round 3's four all **RESOLVED** — the first round with no partial and no fix-introduced
+  **Round 4's three** all **RESOLVED** — the first round with no partial and no fix-introduced
   substantial error. Round 5 verified the Eusebius-independence claim at both ends rather than
   accepting it, and ran two further routes (record-confidence; a second assigned Eusebius-independent
   canonical text, Dionysius to Basilides at npnf214 `div2 17.5`) — both fail, and the second
   **empirically confirms §7's root-cause thesis in a second volume**.
+- **Round 6** (`…_Round6_Review.md`) — **SUBSTANTIAL**, 2 + 16. Headline upheld a sixth time. Round
+  5's single finding **RESOLVED**, and both materially-misleading carried cosmetics fixed correctly.
+  Round 6 read Canon XIV with its commentaries and confirmed the **T1×T4 sub-finding survives
+  without Fragment I** — indeed is redundantly carried by Canons IX, X and XIII, with **Canon X**
+  the stronger anchor. Its two findings were again one-line self-description errors, one of them a
+  regression at the locus Round 4 had already graded substantial.
 
-All five are AI review, each marked in its own artifact *"Simulated review — informational only,
-not an Article 31 substitute"* (Article 31). **Round 6 review pending — this document is NOT
+All six are AI review, each marked in its own artifact *"Simulated review — informational only,
+not an Article 31 substitute"* (Article 31). **Round 7 review pending — this document is NOT
 cleared, and no disposition has been assigned to it.**
 
-*Trajectory, stated because it is the honest summary: **8 → 8 → 4 → 3 → 1** substantial findings,
-falling monotonically, with the headline upheld at every round and each round **narrowing** the
-case under it rather than strengthening it. Across all five rounds the defects have been
-overwhelmingly in this document's **self-description**, not in its evidence work.*
+*Trajectory, stated because it is the honest summary: **8 → 8 → 4 → 3 → 1 → 2** substantial
+findings, with the headline upheld at every one of six rounds and each round **narrowing** the case
+under it rather than strengthening it. The pattern across all six is sharp and worth stating
+plainly: **the evidence work has held, and this document's self-description has been the defect** —
+Round 1's header, Round 2's phantom ledger entry, Round 4's §10, Round 5's OG-6 paragraph, and
+Round 6's §10 status bullet plus a regression I introduced in the very bullet added to fix Round
+5's. Every hand-maintained restatement of the round count has now been removed; it lives in this
+header alone.*
 
 **Status:** Verified finding, **escalated to the project lead — not self-disposed.** No
 **construction document** (Doc_01–Doc_09), no `records/alx/` record, no corpus-map entry and no
@@ -691,9 +701,11 @@ should not decide this.
 - No recompile; no M3 run; `records/worlds.yaml` untouched.
 - **No §3.5 audit.** Alexander of Alexandria and the other unopened assigned works are named,
   not investigated.
-- **Not cleared.** Four adversarial rounds have each returned SUBSTANTIAL REVISION REQUIRED
-  (8 → 8 → 4 → 3), every one upholding the headline. This is the Round 5 draft; **no disposition
-  has been assigned to it**, by this thread or anyone else.
+- **Not cleared**, and **no disposition has been assigned to it** by this thread or anyone else.
+  *Round 6 drift-proofing: this bullet used to restate the round count and trajectory, and went
+  stale in the same commit that drift-proofed the file list six lines below — the fifth
+  consecutive round in which this document's self-description was the defect. The count now lives
+  in exactly one place, the header, and is deliberately not repeated here.*
 - No claim that any of this was seen or approved by the project lead.
 
 **Files this pass adds** — stated as of this revision, and verifiable on disk rather than
@@ -721,7 +733,32 @@ document accounts for by scoping its "no change" claim to world-build constructi
 
 ## 11. Revision log
 
-### Round 5 → Round 6 (this revision)
+### Round 6 → Round 7 (this revision)
+
+Round 6 returned **SUBSTANTIAL REVISION REQUIRED** with **2 substantial** findings (16 cosmetic) and
+upheld the headline a sixth time. It confirmed Round 5's single finding resolved, both
+materially-misleading cosmetics fixed correctly, and — importantly — read **Canon XIV with Balsamon
+and Zonaras** to confirm the **T1×T4 sub-finding survives the loss of Fragment I**, noting it is
+redundantly carried by Canons IX, X and XIII and that **Canon X** (permanent bar from office for
+clergy who volunteered and lapsed) is the cleaner anchor for episcopal authority running *against*
+confessor prestige. Both findings accepted.
+
+1. **§10's status bullet had gone stale in the same commit that drift-proofed the file list six
+   lines below it** — still "Four adversarial rounds… the Round 5 draft." Round 4 had already
+   graded this identical defect at this identical locus substantial. Fixed **structurally, not
+   again by hand**: the bullet no longer restates the round count at all. The count now has exactly
+   one home, the header.
+2. **A regression I introduced.** The header's new Round 5 bullet said "Round 3's four all
+   RESOLVED"; Round 5 verified **Round 4's three**. It contradicted a line eight rows above it and
+   §11 — and it was introduced *in the bullet added to close Round 5's finding*. Corrected.
+
+*Naming the pattern rather than repairing it a sixth time: five of six rounds found this document's
+self-description wrong while its evidence work held. The structural response has been to delete
+every duplicated, hand-maintained count — §10's file list (Round 5), OG-6's reviews paragraph
+(Round 5), and now §10's status bullet — leaving a single source of truth in the header and a
+`Round*_Review.md` glob that cannot go stale.*
+
+### Round 5 → Round 6
 
 Round 5 returned **SUBSTANTIAL REVISION REQUIRED** with **1 substantial** finding (19 cosmetic) and
 upheld the headline a fifth time. It found **all three** of Round 4's resolved — the first round
