@@ -2,16 +2,23 @@
 
 **Alexandria (Catechetical-School) Formation World · finding document · 2026-09-09**
 
-**Version:** Round 2 draft (Round 1 revised). **Round 1 review:**
-`Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md` — **SUBSTANTIAL REVISION
-REQUIRED**, 8 substantial + 8 cosmetic, headline conclusion upheld. All 8 substantial findings
-are addressed below and the revision log is §9. AI review, marked in its own artifact
-*"Simulated review — informational only, not an Article 31 substitute"* (Article 31).
-**Round 2 review pending — this document is not cleared.**
+**Version:** Round 3 draft (revised after two adversarial rounds). Revision log: **§11**.
+
+- **Round 1** (`Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md`) — **SUBSTANTIAL
+  REVISION REQUIRED**, 8 substantial + 8 cosmetic. Headline upheld.
+- **Round 2** (`…_Round2_Review.md`) — **SUBSTANTIAL REVISION REQUIRED**, 8 substantial + 10
+  cosmetic. Headline upheld again; Round 2 additionally ran the C4 route itself and found it also
+  fails. It resolved 4 of Round 1's 8, found 3 partially resolved (2 of those introducing new
+  errors), and 1 not resolved.
+
+Both are AI review, each marked in its own artifact *"Simulated review — informational only, not
+an Article 31 substitute"* (Article 31). **Round 3 review pending — this document is NOT
+cleared, and no disposition has been assigned to it.**
 
 **Status:** Verified finding, **escalated to the project lead — not self-disposed.** No
-world-build document, no `records/alx/` record, and no compiled package was changed by this
-pass. See §8.
+**construction document** (Doc_01–Doc_09), no `records/alx/` record, no corpus-map entry and no
+compiled package was changed by this pass. The only world-build file modified is
+`Open_Gaps_Tracking.md`, which gains the OG-6 ledger entry this finding requires. See §10.
 
 **Scope of this pass.** A read-only discovery pass earlier this week raised a question distinct
 from the citation-*accuracy* audit that closed with PR #133: not "are the existing citations
@@ -36,10 +43,12 @@ gravity. C1 and C2 remain Primary (literate-attested); C3, C4, C5 remain Support
 remain Tensional. The six-test verdicts survive intact, and so does the Article 21
 cross-stratum substitute (§6 — run explicitly, at Round 1 review's direction).
 
-**But it is not merely supplemental either.** Four verifiable defects surfaced, three of them
-**substantial by this project's own definition** (`cic-build-cycle`: a revision is substantial
-if it changes "a claim's substance, a confidence rating, a sourcing conclusion, or a scope
-boundary"). See §5.
+**But it is not merely supplemental either.** Five defects are recorded in §5, of which **three
+are produced by this unused corpus and are substantial** by this project's own definition
+(`cic-build-cycle`: a revision is substantial if it changes "a claim's substance, a confidence
+rating, a sourcing conclusion, or a scope boundary") — §5.1, §5.3 and §5.4. Two further items are
+recorded but are **not** produced by this corpus and are not counted toward the finding: §5.2 (a
+pre-existing contradiction between two live records) and §5.5 (a missing companion workbook).
 
 **The discovery pass's own load-bearing premise is wrong, and its wrongness protects Doc_04.**
 Its T1 case rested on Peter of Alexandria being a "unique teacher+bishop+martyr overlap." That
@@ -92,14 +101,22 @@ doctrinal *Fragments* (`div2 9.6`), Theognostus's *Hypotyposes* fragments (`div2
 flagged as **about** Peter, not **by** him).
 
 From **npnf214** (`npnf214_seven-ecumenical-councils.xml`), at `confidence: assigned`: **"The
-canons of Peter of Alexandria, from his Sermon on Penitence"** (`div2 17.6`, ~551 words) — a
-**second vendored witness to the same text**, split out on 2026-08-26 and carrying its own note
-that this duplicates the anf06 Canonical Epistle. Any remediation must handle both witnesses or
-explicitly decline one; §7's options are written accordingly.
+canons of Peter of Alexandria, from his Sermon on Penitence"** (`div2 17.6`, ~551 words in the
+corpus map's count; ~456 words of actual canon text) — a **second vendored witness to the same
+text**, split out on 2026-08-26 and carrying its own note that this duplicates the anf06
+Canonical Epistle. *Per Round 2: it is a brief epitome, not a parallel full translation* — useful
+as corroboration of the canons' reception into Eastern canon law (the Council in Trullo confirmed
+them), not as an independent text. Any remediation must handle both witnesses or explicitly
+decline one; §9's options are written accordingly.
 
 **3.3 The 254–296 interval is genuinely this world's thinnest.** Doc_04 §0 names it as an
-inter-phase interval "dominated by no single surviving major voice." Doc_02 Stream 5 rates the
-teaching tradition's institutional form **Contested**. Confirmed.
+inter-phase interval "dominated by no single surviving major voice." Confirmed.
+
+*Scope limit restored per Round 2, which caught a truncation here.* Doc_02 Stream 5's Contested
+rating is **not** open-ended: it applies to whether there was "a *formal institution with a
+continuous head-succession* **before c. 215–230**." It therefore does **not** cover Theognostus,
+Pierus or Peter, all of whom are later. The thinness of 254–296 is an *evidential* thinness in
+Doc_04's phase scheme, not an extension of Stream 5's institutional Contested rating.
 
 **3.4 The material is substantive, not scraps.** Peter's *Canonical Epistle* is documentary,
 first-person, and contemporaneous — written in 306, "since the fourth passover of the
@@ -177,14 +194,20 @@ weakened is narrower and should be stated as exactly that: **the headships of th
 particular men.** One is unattested (Peter), one is contradicted (Pierus), one is an inference
 from a single word (Theognostus).
 
-This lands on ground the record store already holds. `alx.contested.didaskaleion-institution`
-carries the institutional succession at **Contested**, and concedes precisely the right thing:
-*"A real tradition of learned Christian teaching in Alexandria across the whole horizon is not
-in doubt… What is contested is its INSTITUTIONAL form and continuity."* The three corpus-map
-notes calling these men "Head of the catechetical school" therefore do not merely overstate
-their own sources — **they contradict a record this world already holds**, and its stated voice
-consequence ("the Representative may speak of teachers and the teaching tradition freely, but
-never of 'the School' as a documented continuous institution").
+*Round 2 caught a truncation here that changed the meaning, and the claim is narrowed
+accordingly.* `alx.contested.didaskaleion-institution` concedes: *"A real tradition of learned
+Christian teaching in Alexandria across the whole horizon is not in doubt… What is contested is
+its INSTITUTIONAL form and continuity **before Origen's era**."* The first draft dropped those
+last three words. They matter: the record's Contested rating is **scoped to the pre-Origen
+period**, so it does **not** by itself rule on Theognostus, Pierus or Peter, all post-Origen.
+
+What survives, and is enough: the record's stated **voice consequence** is unscoped — "the
+Representative may speak of teachers and the teaching tradition freely, but never of 'the School'
+as a documented continuous institution." The three corpus-map notes calling these men "Head of
+the catechetical school" assert exactly the documented-continuous-institution framing that
+consequence forbids, and they do so on sources that (per §4.1–§4.3) do not carry it. That is the
+charge — an overstatement against their own sources, in tension with the record's voice rule —
+not the stronger "contradicts a Contested finding" claim the first draft made.
 
 ---
 
@@ -289,11 +312,18 @@ counts as a confessor. Fragment I is confessor-prestige asserting ordaining auth
 the office.
 
 **A qualification that must travel with this, from ANF's own Elucidation II** (searched but not
-read in Round 1): "Like the famous Canonical Epistles of St. Basil, however, these are
-**compilations of canons accepted by the churches of his jurisdiction**… not written in the
-form of personal letters, but after the manner of synodical decisions." So this is not one
-bishop's private opinion. That *strengthens* the ecclesial reading — it is the church's
-received discipline — while forbidding any framing of it as Peter's personal interior voice.
+read in Round 1). The editor writes of Peter's canons that "Like the famous Canonical Epistles of
+St. Basil, however, these are **compilations of canons accepted by the churches of his
+jurisdiction**," and then quotes Dupin *on Basil's* canons for the principle: they are "not to be
+considered as the particular opinions of St. Basil, but as the laws of the Church in his time…
+not written in the form of personal letters, but after the manner of synodical decisions."
+*(Attribution stated precisely per Round 2: the second clause is Dupin on Basil, applied by the
+editor to Peter by analogy — not a direct statement about Peter.)*
+
+So this is not one bishop's private opinion. That *strengthens* the ecclesial reading — it is the
+church's received discipline — while forbidding any framing of it as Peter's personal interior
+voice. It also slightly qualifies §3.4's "first-person": the canons speak in the first person
+("as I have heard," "have written to me"), but their standing is synodical.
 
 **Why this is worth recording though it changes no classification.** It sits at the **T1 × T4
 intersection** — T1's bishop-authority pole adjudicating T4's martyrdom pole — and Doc_04 §6's
@@ -315,15 +345,31 @@ which is well-attested and *independent of Eusebius*."
 Peter's **Fragment VI** ("Of the Soul and Body," headed in ANF *"From his demonstration that
 the soul was not pre-existent to the body"*) argues that man "was not formed by a conjunction of
 the body with a certain **pre-existent** type." That is Alexandrian episcopal
-boundary-maintenance against the central Origenian doctrine, **c. 300 — pre-Nicene,
-Eusebius-independent, and sitting inside the very interval Doc_04 calls thin.** T3's evidence is
-therefore not the "thin middle, strong late" shape Doc_04 describes.
+boundary-maintenance against a central Origenian doctrine, from a bishop of 300–311.
 
-This **strengthens T3's evidential base; it does not reclassify it.** T3 already PASSes and is
-already Tensional. Recorded because Doc_04 makes an explicit, checkable claim about *where* T3's
-confirmation rests, and that claim is incomplete against the world's own assigned corpus. Note
-also §3.5: Alexander of Alexandria's *Epistles on the Arian Heresy* — unopened — is the
-late-horizon end of this same evidential chain.
+**Two corrections from Round 2, both of which narrow this finding.**
+
+*(a) The date claim was wrong.* The first draft said this sits "inside the very interval Doc_04
+calls thin." It does not. Doc_04 §0's thin inter-phase interval is **254–296**; Peter's episcopate
+(300–311) falls in the **Late / post-Nicene phase (c. 296–400)**, which Doc_04 treats as
+well-attested. The accurate and narrower claim: Peter is **pre-Nicene and pre-homoousian**, so
+Fragment VI shows Alexandrian anti-Origenist boundary-drawing **roughly a quarter-century earlier
+than the evidence Doc_04 actually rests T3 on** ("the homoousian boundary, the Origenist
+controversy"). It moves the *start* of the late-horizon chain earlier; it does not fill the gap.
+
+*(b) The transmission was unscreened, which §5.1 makes mandatory.* ANF's own note gives Fragment
+VI as *"Ex Leontii et Joannis Rer. Sacr., lib. ii. Apud Mai"* — the *Sacra Parallela*, a
+**7th–8th-century florilegium**. Screened consistently with the Athanasius caveat applied to
+Theognostus in §5.1, this is late-mediated excerpted quotation, not a directly transmitted text,
+and cannot be carried at better than the confidence that transmission supports. Exempting this
+document's own best find from the discipline it demands of others would be exactly the failure
+mode it exists to catch.
+
+Net: this **modestly strengthens T3's evidential base; it does not reclassify it.** T3 already
+PASSes and is already Tensional. Recorded because Doc_04 makes an explicit, checkable claim about
+*where* T3's confirmation rests, and that claim is incomplete against the world's own assigned
+corpus. Note also §3.5: Alexander of Alexandria's *Epistles on the Arian Heresy* — unopened, and
+directly transmitted rather than florilegium-mediated — is the stronger end of this same chain.
 
 ### 5.5 [Separate pre-existing defect, flagged not fixed] `Gravity_Index.xlsx` is not in the repository
 
@@ -375,8 +421,33 @@ governs: "evidential visibility must not be silently converted into ecological v
 
 **Result: the Cross-Stratum Test outcome is unchanged. OG-4 stands exactly where it stood.**
 Recorded because a negative result on the highest-stakes open item is worth having on the
-record, and because §7's Option B would otherwise leave a reader wondering whether it was
+record, and because §9's Option B would otherwise leave a reader wondering whether it was
 checked.
+
+### 6.1 C4 Logos-Centered Unity — the last untested route
+
+*Added at Round 2's direction, which found this route asserted-by-omission rather than tested,
+and ran it independently.*
+
+Peter's doctrinal **Fragments II, III, IV and VIII** are a sustained Logos witness: "the Word was
+made flesh"; "God the Word is with thee"; "He was God by nature, and… man by nature." Doc_04 §3.4
+grounds C4's integrating-center function as **Widely Accepted** on "all three figures" (Clement,
+Origen, Athanasius). Peter would be a **fourth witness, episcopal, and independent of both Origen
+and Eusebius** — on its face the strongest corroboration in this corpus.
+
+**It still fails to move C4, and it fails on Doc_04's own stated criterion.** C4 is classified
+Supporting not for want of attestation — it already passes all six tests — but on the
+**practice-cluster criterion**: "the Logos produces **no distinct practice-cluster of its own** —
+it is the theological *centre* that makes the other gravities cohere." Peter's fragments are
+christological confession; they generate no practice-cluster. Adding a fourth witness to a
+function already rated Widely Accepted raises nothing and reclassifies nothing. **C4 remains
+Supporting (integrating centre).**
+
+*A half-route named and not run:* C3 Divine Pedagogy's Dependency verdict is corroborated by
+Theognostus frag. III (§5.2) but not independently re-tested here. C3 is Supporting on the same
+kind of criterion as C4 (explanatory framework, not independent organiser), and corroboration of
+a framework does not convert it into an organiser — but this is stated as reasoning, not as a
+test run.
 
 ---
 
@@ -401,10 +472,18 @@ world looks like from this observer's angle."*
 **That inference is backwards for this failure mode.** The more volumes a world opens, the more
 of its assigned works hide *inside* opened volumes, and the smaller its unopened-volume list
 becomes. Alexandria is the fleet's most-opened world, so it is the most exposed to a
-volume-granularity sweep and the least likely to look exposed. The partial compensation came
-from elsewhere: `alx.source.alexandrian-canonical-answers` was added the same day by a
-*different* instrument — the cross-world corpus assignment, which is work-granular and "observed
-no record here had opened the volume" for npnf214.
+volume-granularity sweep and the least likely to look exposed.
+
+*Round 2 correction, accepted.* The first draft contrasted this with the instrument that found
+`alx.source.alexandrian-canonical-answers` the same day, calling that one "work-granular." That
+was wrong: its own `discovery_channel` reads "observed no record here had **opened the volume**"
+— volume-granular too. npnf214 was caught not because the instrument was finer but because
+Alexandria had opened *no* record against that volume at all. Both instruments observe at volume
+level, which is why anf06 — opened for two works — was invisible to both.
+
+The remedy does not exist yet, and that is the point: **the corpus map is already work-granular
+data** (it assigns individual works, with `locus` and `confidence`), so a work-level diff is
+buildable from what is on disk. Nothing currently performs it.
 
 **This is the most portfolio-relevant thing in this document.** The remedy is a work-granularity
 check — diff the corpus map's assigned works for a world against the works its source records
@@ -422,9 +501,12 @@ No gravity moves between Primary, Supporting and Tensional; no test verdict flip
 unsupported (§4.1), its Pierus premise is contradicted (§4.2), and had its central premise been
 right it would have damaged T1 rather than supported it (§1).
 
-**Is it merely supplemental?** No. §5.1 is a false sourcing statement in a cleared document;
-§5.2 is a live contradiction between two record-store records on a scope boundary; §5.3 and
-§5.4 are evidential characterizations contradicted by the world's own assigned corpus. §7 is a
+**Is it merely supplemental?** No — but the count must be stated honestly, and Round 2 caught the
+first draft inflating it. **Three defects are actually produced by this unused corpus:** §5.1 (a
+false sourcing statement in a cleared document), §5.3 and §5.4 (evidential characterizations
+contradicted by the world's own assigned corpus). §5.2 and §5.5 are **pre-existing defects found
+along the way** — real, worth fixing, but they would be there whether or not this corpus were ever
+drawn on, and they are not evidence for the value of drawing on it. §7 is a separate
 methodological finding with fleet-wide reach.
 
 **Why this pass stopped rather than editing.** Four independent reasons, the third
@@ -509,16 +591,74 @@ should not decide this.
 - No recompile; no M3 run; `records/worlds.yaml` untouched.
 - **No §3.5 audit.** Alexander of Alexandria and the other unopened assigned works are named,
   not investigated.
-- **No Round 2 review yet.** This document is revised-after-Round-1 and **not cleared**.
+- **Not cleared.** Two adversarial rounds have both returned SUBSTANTIAL REVISION REQUIRED. This
+  is the Round 3 draft; **no disposition has been assigned to it**, by this thread or anyone else.
 - No claim that any of this was seen or approved by the project lead.
 
-Files added by this pass: this document, its Round 1 review artifact
-(`Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md`), and an
-`Open_Gaps_Tracking.md` entry.
+**Files this pass adds** — stated as of this revision, and verifiable on disk rather than
+promised:
+
+1. this document (`Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md`);
+2. `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md`;
+3. `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round2_Review.md`;
+4. the **OG-6** entry appended to `Open_Gaps_Tracking.md`.
+
+*Disclosure, per Round 2 finding 1.* In the Round 2 draft this list asserted an
+`Open_Gaps_Tracking.md` entry that **did not exist at the time the claim was made** — the entry
+was intended and not yet written. Round 2 caught it by running `git show --stat` against both
+commits. It is the same defect class as the Round 1 header finding, and it is precisely the
+failure `cic-build-cycle` names ("content described as having been shown must actually be
+included"). The entry (OG-6) has since been written, and appending it is also why item 4 above
+means `Open_Gaps_Tracking.md` **is** now modified — which the Status line at the head of this
+document accounts for by scoping its "no change" claim to world-build construction documents
+(Doc_01–Doc_09), `records/alx/`, the corpus map, and the compiled package.
 
 ---
 
-## 11. Revision log — Round 1 → Round 2
+## 11. Revision log
+
+### Round 2 → Round 3 (this revision)
+
+Round 2 returned **SUBSTANTIAL REVISION REQUIRED** (8 substantial, 10 cosmetic), upheld the
+headline, and independently ran the C4 route that this document had left untested. On Round 1's
+eight it found 4 resolved, 3 partially resolved (2 of those having introduced *new* errors), and
+1 not resolved. All eight new findings are accepted; none is disputed.
+
+1. **Phantom `Open_Gaps_Tracking.md` entry (the most serious).** §10 listed a ledger entry that
+   did not exist; Round 2 proved it with `git show --stat`. **The OG-6 entry has now been
+   written**, and §10 rewritten to state what is on disk and to disclose the original false claim
+   rather than quietly repair it.
+2. **§5.4 date error.** "Sitting inside the very interval Doc_04 calls thin" was false — Peter
+   (300–311) is in Doc_04's Late phase (c. 296–400), not the 254–296 inter-phase. Rewritten to the
+   narrower true claim (pre-Nicene, pre-homoousian, earlier than the evidence T3 rests on).
+3. **Two truncations at a scope limit.** §4.5 dropped "**before Origen's era**" from the
+   `contested_claim`'s `concedes` field — the limitation that exempts all three post-Origen men;
+   §3.3 dropped Doc_02 Stream 5's "**before c. 215–230**." Both restored, and both findings
+   narrowed to what survives.
+4. **C4 never tested.** New §6.1 runs it: Peter's Fragments II/III/IV/VIII are a fourth,
+   episcopal, Origen- and Eusebius-independent Logos witness, and C4 still does not move, on
+   Doc_04's own practice-cluster criterion. A half-route (C3 Dependency) is named as reasoned, not
+   tested.
+5. **§7's granularity contrast unsupported.** The instrument that found the npnf214 canons is
+   *also* volume-granular. Corrected; the recommendation now rests on the corpus map being
+   work-granular *data* from which no diff is currently run.
+6. **Fragment VI transmission unscreened.** ANF gives it via the *Sacra Parallela* (7th–8th c.
+   florilegium). Screened in §5.4 on the same discipline §5.1 demands of Theognostus.
+7. **§1 count stale.** Corrected, and sharpened: **three** defects are produced by this corpus
+   (§5.1, §5.3, §5.4); §5.2 and §5.5 are pre-existing and are no longer counted toward the finding.
+8. **§8 residue of Round 1's S-4.** §8 had continued to count §5.2 toward "not merely
+   supplemental." Fixed alongside 7.
+
+Cosmetics applied: header's cross-reference corrected (§9 → §11); Elucidation II's attribution
+shift stated precisely (editor-on-Peter, then Dupin-on-Basil by analogy); npnf214 `17.6` described
+as a ~456-word epitome rather than a parallel translation; Status line scoped to construction
+documents so it no longer conflicts with the OG-6 append; §7 cross-references corrected to §9.
+
+*Round 2 also noted that four Round 1 cosmetics were silently declined while §11 claimed
+"cosmetics applied." Recorded here rather than repaired by assertion: the Round 1 cosmetic list is
+in that artifact, and this log now states only what actually landed.*
+
+### Round 1 → Round 2
 
 Round 1 review returned **SUBSTANTIAL REVISION REQUIRED** (8 substantial, 8 cosmetic) while
 upholding the headline. All eight substantial findings are accepted; none is disputed.
