@@ -1020,7 +1020,7 @@
     "licenseNotes": "Found via WebSearch and confirmed as the image used on en.wikipedia.org/wiki/Basil_of_Caesarea; could not load the actual Commons file page in this session to read its license tag. As a photographic reproduction of an 11th-century fresco it is almost certainly PD-old/PD-Art on Commons, but that exact tag is unconfirmed here — verify before use.",
     "localPath": null,
     "status": "candidate",
-    "notes": "Strong central portrait candidate for Basil of Caesarea, the world's founding figure. Confirm license tag and check image resolution on Commons before use."
+    "notes": "Strong central portrait candidate for Basil of Caesarea, the world's founding figure. Confirm license tag and check image resolution on Commons before use. SECOND SEARCH PASS (later session): an additional ~35 query terms were tried against the Cleveland Museum of Art and Brooklyn Museum Open Access mirrors on Internet Archive (both fully reachable and CC0/rights-verifiable, unlike Commons) specifically hunting for Basil, the Gregorys, Macrina, or generic Cappadocian/Byzantine material - see cappadocia, nyssa, nazianzus, byzantine, cave+church, ascetic, reliquary, processional+cross, julian, valens, solidus, etc. Nothing relevant turned up (closest near-miss: a Cleveland reliquary of the True Cross, but it's c.1214 Latin-Kingdom-of-Jerusalem/Rhine-Meuse work, wrong period and region, not used). This world's Wikimedia Commons candidates below remain the best lead but still need a reviewer with normal web access to open the file pages and confirm the license tags directly."
   },
   {
     "id": "gregory-nazianzus-chora-church-fresco",
@@ -1910,5 +1910,57 @@
     "localPath": null,
     "status": "candidate",
     "notes": "This is a 12th-century (not 1st-5th century) manuscript, included here purely as a strong, real, well-documented 'scriptorium/manuscript' mood image per the brief's request for general atmosphere images rather than period-accurate ones — flag this dating gap for Mark's review."
+  },
+  {
+    "id": "alx-fayum-portrait-brooklyn",
+    "title": "Fayum Portrait of a Man",
+    "worldKeys": [
+      "alx"
+    ],
+    "tags": [
+      "fayum",
+      "roman-egypt",
+      "encaustic-painting",
+      "portrait",
+      "mummy-portrait"
+    ],
+    "depictedPeriod": "ca. 120-130 CE",
+    "artworkDate": "ca. 120-130 CE",
+    "medium": "painting",
+    "description": "A painted wood mummy portrait of a bearded man wearing a gold laurel wreath, from the Fayum region of Roman Egypt — the same broad Egyptian visual culture, in the same century, that produced Alexandria's teachers and seekers.",
+    "repository": "Brooklyn Museum (Open Collection, via Internet Archive mirror)",
+    "sourceUrl": "https://archive.org/details/brooklynmuseum-o50303-fayum-portrait-of-a-man",
+    "directUrl": "https://archive.org/download/brooklynmuseum-o50303-fayum-portrait-of-a-man/brooklynmuseum-o50303i000-40.386_SL1.jpg",
+    "license": "No known copyright restrictions",
+    "licenseNotes": "Verified directly: the archive.org item's own metadata record links to the Brooklyn Museum's rights statement, which reads exactly 'No known copyright restrictions' — one of the license categories the sourcing brief explicitly names as acceptable. Fetched and confirmed in this session.",
+    "localPath": "assets/library/alx/alx-fayum-portrait-brooklyn.jpg",
+    "status": "approved",
+    "notes": "Two honest caveats: (1) this is a Fayum portrait — Fayum is a different region of Egypt from Alexandria itself, though part of the same Roman-Egyptian milieu and century; it depicts an anonymous private individual, not a named Christian teacher or a scene from the catechetical school. (2) Brooklyn's own scan is only 371x768px — no higher-resolution file exists in this item on Internet Archive, so it was NOT upscaled to the usual ~1600px target; it will look softer than the other approved images if used at large size. Chosen after an extensive second search (Cleveland + Brooklyn museum mirrors, ~15 additional query terms: origen, alexandria, logos, coptic, athanasius, clement, arius, serapis, papyrus, scroll, teacher+pupil, fayum, mummy portrait, roman egypt, encaustic) turned up nothing closer to a literal depiction of Alexandrian Christianity itself."
+  },
+  {
+    "id": "syr-hormizd2-coin-cma",
+    "title": "Drachm: Bust of Hormizd II (obverse)",
+    "worldKeys": [
+      "syr"
+    ],
+    "tags": [
+      "sassanid",
+      "persia",
+      "coin",
+      "numismatic",
+      "royal-portrait"
+    ],
+    "depictedPeriod": "303-309 CE",
+    "artworkDate": "303-309 CE",
+    "medium": "photo",
+    "description": "Silver drachm bearing the crowned bust of Hormizd II, Sasanian king of Persia (r. 303-309 CE) — the immediate predecessor and father of Shapur II, whose later persecution took the bishop Simeon bar Sabbae and emptied the Persian church's chief see for twenty years.",
+    "repository": "The Cleveland Museum of Art (Open Access, via Internet Archive mirror)",
+    "sourceUrl": "https://archive.org/details/clevelandart-1966.738.a-drachm-bust-of-hormi",
+    "directUrl": "https://archive.org/download/clevelandart-1966.738.a-drachm-bust-of-hormi/1966.738.a_full.jpg",
+    "license": "CC0",
+    "licenseNotes": "Verified directly: the archive.org item's own metadata record for this Cleveland Museum of Art Open Access object carries licenseurl https://creativecommons.org/publicdomain/zero/1.0/ (CC0), fetched and confirmed in this session.",
+    "localPath": "assets/library/syr/syr-hormizd2-coin-cma.jpg",
+    "status": "approved",
+    "notes": "Honest caveat: this coin depicts Hormizd II, not Shapur II himself (Cleveland's Sasanian numismatic holdings jump from Hormizd II straight to much later Byzantine emperors, with no Shapur II coin found) — but it is the same dynasty, one reign earlier, squarely within this world's persecution-era timeframe, and a genuine dateable 4th-century Sasanian royal portrait rather than a later artistic imagining. Chosen after an extensive second search across Cleveland + Brooklyn mirrors (ephrem, nestorius, sassanian, persian king, zoroastrian, shapur, sasanian king, drachm king, julian, valens — the last two tried because Cleveland's coin collection was the most promising lead) turned up no closer match; a portrait bust coin of Shapur II himself, or an image of Edessa/Nisibis directly, would be a stronger swap if a reviewer finds one with a normal, unrestricted connection."
   }
 ]
