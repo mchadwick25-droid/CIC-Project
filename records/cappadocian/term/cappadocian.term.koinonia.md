@@ -49,7 +49,7 @@ relations:
   target: cappadocian.term.kanon-kanonikai
 - type: associated-with
   target: cappadocian.term.philoptochia
-plain_meaning: This world taught that people are made for life together, not for life alone. Even the
+plain_meaning: We taught that people are made for life together, not for life alone. Even the
   strictest renunciation of the world was ordered into community. Ascetics prayed together, worked together,
   and held goods in common. They kept a door open for guests.
 world_word: koinōnia
@@ -74,7 +74,7 @@ senses:
     another equally valid one?'' -- this world ranked them: the shared table, common goods, and a door
     for guests were the shape salvation itself was believed to take, not one lifestyle option next to
     another.'
-quick_meaning: Communion, or common life. The shared life this world believed every person is made for.
+quick_meaning: Communion, or common life. The shared life we believed every person is made for.
 distortion_risk: high
 ---
 Built from Doc_06 entry 6 (Tier 1). RECONCILIATION (this pass): the built deployment chunk cappadocianlex003_koinonia.md carries a stale Related-Terms line ('...hesychia, eusebeia') that Doc_06 itself flags as drifted from its own current entry (Master Index derivation note: 'lex003 has drifted... flagged for reconciliation at chunk production'). This record's relations[] are authored from Doc_06 Index E row 6's current, correct list -- adelphotes, askesis, philoptochia, hesychia, kanon-kanonikai (T3), eikon, Basileias -- not from the stale chunk.

@@ -27,8 +27,8 @@ retrieval:
   - who held authority in this world and how
   - how the scholarship and the monasteries were paid for
   do_not_retrieve_when: []
-plain_meaning: The voluntary, wealth-based bond by which a patron sustains a scholar's work. In this
-  world it stood where church office stands in others.
+plain_meaning: The voluntary, wealth-based bond by which a patron sustains a scholar's work. Among
+  us it stood where church office stands elsewhere.
 world_word: patrocinium
 false_friend:
 - a minor financial detail behind the "real" spiritual authority (patronage WAS the authority structure
@@ -46,7 +46,7 @@ senses:
   translational: '"Who held authority among you, and how did anyone come to have it?" - by demonstrated
     learning, voluntarily recognized, and by the wealth that chose to sustain it. Never by office
     or territory.'
-quick_meaning: The patron's funding bond. In this world it stood where church office stands in others.
+quick_meaning: The patron's funding bond. Among us it stood where church office stands elsewhere.
 distortion_risk: high
 relations:
 - type: associated-with

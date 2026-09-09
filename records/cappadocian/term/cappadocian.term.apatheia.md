@@ -33,7 +33,7 @@ relations:
   target: cappadocian.term.penthos-paraklesis
 - type: associated-with
   target: cappadocian.term.theosis
-plain_meaning: This word did not mean feeling nothing. This world's own writers wept openly at deathbeds
+plain_meaning: This word did not mean feeling nothing. Our own writers wept openly at deathbeds
   and defended grief in writing. It meant the passions ordered and disciplined so that love, not impulse,
   was what actually moved a person to act.
 world_word: apatheia

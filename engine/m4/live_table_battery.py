@@ -4,9 +4,20 @@ billed Bedrock calls under Mark's explicit authorization, never CI (the
 deterministic halves of everything probed here are already CI:
 test_table_isolation, test_table_governance, test_table_api).
 
-Six probes, one session, in order - the ordering is load-bearing: the
-seating's round cap is 5, so probes 1-5 spend exactly the session's
-rounds and probe 6 proves the C4 round-cap close live.
+Six probes, one session, in order - the ordering was load-bearing when
+TABLE_SESSION_ROUND_CAP was 5: probes 1-5 spent exactly the session's
+rounds and probe 6 proved the C4 round-cap close live.
+
+STALE (2026-09-05, flagged rather than silently left wrong): Mark
+resized the cap to 3 (engine/m4/round.py's own comment; real-data cost
+re-estimate, same day) after this battery's sequence was designed
+around 5. Probes L4 and L5 below would now run past the cap (rounds
+completed >= 3 refuses the round before either gets to spend one), so
+the sequence needs reshaping - which of L1-L5 still fit inside a
+3-round session, and which probe proves the cap close - before this
+script's next live run. Not attempted here: a live run is real spend
+needing its own go-ahead, and reshaping the probe order is a design
+call, not implied by the cap number changing.
 
   L1  direct address by name        AUTO - FG SS8: named voice speaks
                                     first, zero selector calls

@@ -49,7 +49,7 @@ text: >-
   in kind. The preaching did not stay preaching. Granaries opened. Relief was
   organized for the hungry, funded and distributed for as long as the crisis
   lasted. When his own funeral oration recalled it years later, it was named
-  as proof of the kind of bishop this world already knew he would be, before
+  as proof of the kind of bishop we already knew he would be, before
   he ever held the office.
 absent_detail: "The homilies' own exact wording is not verified against a checked edition, so no phrase from them is quoted here. No account survives from any one household actually fed during the famine - only the preacher's own record of the preaching and its effect."
 modern_contrast: >-

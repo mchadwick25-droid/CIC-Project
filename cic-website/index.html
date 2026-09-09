@@ -4,202 +4,336 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Church in Conversation: The First Centuries</title>
-<meta name="description" content="Twenty centuries of the Church's story, one era at a time. Six Christian traditions you can sit down with today, from the Early Church and Imperial Church eras. Come and join us at the Table.">
+<meta name="description" content="Twenty centuries of the Church's story, one era at a time. Christian traditions you can sit down with today, each with its own voice. Come and join us at the Table.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
-/* ===================================================================
-   Home — pilot-invitation rebuild, 2026-07-25. The Table (conversation
-   program) is primary; the Atlas is a supporting, secondary entry point
-   reachable from nav only, not embedded in the hero. Built one decision
-   at a time with Mark; see the Front-End Strategy thread's decision log.
-   =================================================================== */
-.pilot-note{font-family:'Alegreya Sans',sans-serif;font-size:.92rem;color:var(--muted);max-width:30rem;margin:1.6rem auto .5rem;text-align:center;text-wrap:balance}
-.pilot-caveat{font-family:'Alegreya Sans',sans-serif;font-style:italic;font-size:.86rem;color:var(--muted);max-width:28rem;margin:0 auto;text-align:center;text-wrap:balance}
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521;
+  --ink-faded:#6C6257;
+  --madder:#A13E2B;
+  --madder-deep:#7E2F20;
+  --graphite:#8A837C;
+  --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD;
+  --muted:#B8AEA1;
+  --action:#E08C74;
+  --action-hover:#F0A98F;
+  --control:#A39B92;
+  --mark-ink:#EDE5D6; --mark-dot:#CB6E52;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}*{box-sizing:border-box}
+html{scroll-padding-top:1rem}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0 0 1rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.sans{font-family:var(--sans)}
+.muted{color:var(--muted)}
+.wrap{max-width:var(--col);margin:0 auto;padding:0 1.25rem}
 
-.hero-actions-wrap{max-width:60rem;margin:0 auto;padding:2.6rem 1.5rem 4rem;text-align:center}
-.hero p.lede{margin:0 auto .75rem}
-
-.table-section{max-width:60rem;margin:0 auto;padding:0 0 4rem}
-.table-section .wrap-head{max-width:60rem;margin:0 auto;padding:0 1.5rem}
-.table-section .eyebrow{font-family:'Alegreya Sans',sans-serif;font-size:.85rem;letter-spacing:.13em;
-  text-transform:uppercase;color:var(--madder);font-weight:600;text-align:center;margin:0 0 .6rem}
-.table-section .scope{text-align:center;color:var(--muted);font-size:1.02rem;margin:0 auto 2.2rem;max-width:42rem;text-wrap:balance}
-
-/* Access ask, added 2026-08-25 (Public Pilot Access thread) — deliberately
-   quiet: below the primary hero actions, never in the hero, so it never
-   competes with "try a conversation" for a first-time visitor's attention.
-   Copy reviewed for tone/credibility by an Opus 5 pass before shipping,
-   same discipline as any other new participant-facing text on this site. */
-.access-note-wrap{max-width:60rem;margin:0 auto;padding:0 1.5rem 3rem;text-align:center}
-.access-note{font-family:'Alegreya Sans',sans-serif;font-size:.92rem;color:var(--muted);max-width:30rem;margin:0 auto;text-wrap:balance}
-.access-note a{color:var(--muted);text-decoration-color:var(--rule)}
-.access-note a:hover,.access-note a:focus-visible{color:inherit;text-decoration-color:currentColor}
-/* --muted itself is never redefined for dark mode anywhere on this site
-   (assets/style.css only re-tones specific SELECTORS, e.g. .hero p.lede,
-   to #B8AEA1 - a proven-compliant value already used site-wide), so this
-   local color:var(--muted) needs its own explicit dark-mode override or it
-   stays at its light-mode value against a near-black background: measured
-   ~3.2:1, below the 4.5:1 AA minimum for body text (2026-08-25 full-review
-   finding). Same #B8AEA1 the shared stylesheet already trusts elsewhere. */
-@media (prefers-color-scheme:dark){ .access-note{color:#B8AEA1} }
-
-/* Give buttons added 2026-08-26, at Mark's direction, once support.html's
-   own Stripe links were confirmed working: .btn.secondary (not .primary),
-   deliberately lighter-weight than the hero's "Come and join us at the
-   Table" button so this still doesn't compete with the primary path — the
-   original 2026-08-25 design brief's constraint, unchanged by adding real
-   checkout here. Same two hrefs as support.html's "Be Part of It" section;
-   that page's own header comment is the source of truth on which link is
-   which and why (domain name isn't a reliable signal - see there) — if
-   either link ever needs rotating, both places need the same edit, since
-   this is a plain multi-page static site with no shared-include mechanism. */
-.access-give-actions{margin:1.1rem 0}
-
-/* Representative carousel — chronological, era-tinted, click for the same
-   info the program's own world tile shows, then two hand-offs per Mark's
-   launch ruling (2026-08-28): the Interview link (instant) and the quiet
-   Bring-to-the-Table link (seats the app's Table field, never auto-starts).
-   Data comes from data/world-census.json at runtime, same single source of
-   truth the Atlas itself reads, so this never drifts out of sync with it. */
-.reps-carousel-wrap{position:relative;padding:0 1.5rem}
-.reps-carousel{display:flex;gap:1.1rem;overflow-x:auto;scroll-snap-type:x mandatory;
-  padding:.4rem .4rem 1.2rem;margin:0 -.4rem;scrollbar-width:thin}
-@media (prefers-reduced-motion:no-preference){ .reps-carousel{scroll-behavior:smooth} }
-.reps-era-divider{flex:0 0 auto;width:1px;align-self:stretch;background:var(--rule);position:relative;margin:0 .2rem}
-.reps-era-divider span{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(180deg);
-  writing-mode:vertical-rl;font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.08em;
-  text-transform:uppercase;color:var(--muted);background:var(--parchment);padding:.5rem .3rem;white-space:nowrap}
-.rep-card{flex:0 0 auto;scroll-snap-align:start;width:196px;text-align:center;cursor:pointer;
-  border:1px solid var(--rule);border-radius:12px;padding:1.1rem 1rem 1.3rem;background:var(--vellum);
-  font:inherit;color:#2A2521;box-shadow:0 1px 6px rgba(42,37,33,.08);transition:transform .15s ease,box-shadow .15s ease}
-.rep-card.era-1{background:#EFDDB3}
-.rep-card.era-2{background:#EDDEB9}
-@media (prefers-color-scheme:dark){
-  .rep-card.era-1{background:#332818}
-  .rep-card.era-2{background:#302617}
-}
-@media (prefers-reduced-motion:no-preference){ .rep-card:hover,.rep-card:focus-visible{transform:translateY(-2px)} }
-.rep-card:hover,.rep-card:focus-visible{box-shadow:0 4px 14px rgba(42,37,33,.14);outline:none}
-.rep-card:focus-visible{outline:2px solid var(--rep-color,var(--madder));outline-offset:2px}
-.rep-card .era-label{display:block;font-family:'Alegreya Sans',sans-serif;font-size:.76rem;letter-spacing:.08em;
-  text-transform:uppercase;color:var(--muted);margin:0 0 .6rem}
-.rep-card .portrait{width:100%;aspect-ratio:1/1;border-radius:50%;overflow:hidden;
-  border:2px solid var(--rep-color,var(--madder));background:var(--vellum);margin:0 0 .7rem}
-.rep-card img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
-.rep-card .name{font-weight:700;font-size:1.02rem;margin:0 0 .1rem;color:inherit}
-.rep-card .tradition{font-family:'Alegreya Sans',sans-serif;font-style:italic;font-size:.86rem;color:var(--rep-color,var(--madder));margin:0 0 .4rem}
-.rep-card .meta{font-family:'Alegreya Sans',sans-serif;font-size:.82rem;color:var(--muted);line-height:1.4}
-@media (prefers-color-scheme:dark){
-  .rep-card{color:#F1E9DD}
-  .rep-card .era-label,.rep-card .meta{color:#B8AEA1}
-}
-.reps-scroll-hint{font-family:'Alegreya Sans',sans-serif;font-size:.8rem;color:var(--muted);text-align:right;margin:0 1.5rem}
-
-/* Lightweight info sheet, opened on click */
-.reps-scrim{position:fixed;inset:0;background:rgba(30,24,18,.42);opacity:0;pointer-events:none;
-  transition:opacity .2s ease;z-index:30}
-.reps-scrim.open{opacity:1;pointer-events:auto}
-.reps-sheet{position:fixed;left:50%;bottom:0;transform:translate(-50%,100%);width:min(540px,100vw - 2rem);
-  max-height:min(78vh,620px);overflow-y:auto;background:var(--vellum);color:#2A2521;border:1px solid var(--rule);border-bottom:none;
-  border-radius:16px 16px 0 0;box-shadow:0 -6px 26px rgba(42,37,33,.2);transition:transform .28s cubic-bezier(.2,.8,.3,1);
-  z-index:31;padding:1.6rem 1.6rem 2rem}
-@media (min-width:640px){ .reps-sheet{border-radius:16px;border-bottom:1px solid var(--rule)} }
-.reps-sheet.open{transform:translate(-50%,0)}
-@media (min-width:640px){ .reps-sheet.open{transform:translate(-50%,-5vh)} }
-@media (prefers-reduced-motion:reduce){ .reps-sheet,.reps-scrim{transition:none} }
-.reps-sheet__close{position:absolute;top:.9rem;right:.9rem;width:32px;height:32px;border-radius:50%;
-  border:1px solid var(--rule);background:var(--parchment);color:var(--iron-gall);font-size:1.1rem;line-height:1;cursor:pointer}
-.reps-sheet__close:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
-.reps-sheet__top{display:flex;gap:1rem;align-items:flex-start;margin:0 0 1.1rem;padding-right:2rem}
-.reps-sheet__portrait{width:76px;height:76px;border-radius:50%;object-fit:cover;object-position:50% 22%;
-  border:2px solid var(--rep-color,var(--madder));flex-shrink:0}
-.reps-sheet__name{font-size:1.4rem;font-weight:700;margin:0 0 .1rem}
-.reps-sheet__title{font-family:'Alegreya Sans',sans-serif;color:var(--rep-color,var(--madder));font-size:.9rem;margin:0 0 .4rem}
-.reps-sheet__world{font-style:italic;font-size:.98rem;margin:0}
-.reps-sheet__meta{font-family:'Alegreya Sans',sans-serif;font-size:.85rem;color:var(--muted);margin:.2rem 0 0}
-.reps-sheet__body{font-size:.98rem;line-height:1.6;margin:0 0 1.4rem}
-.reps-sheet__actions{display:flex;flex-wrap:wrap;gap:.7rem 1.2rem;align-items:center;border-top:1px solid var(--rule);padding-top:1.1rem}
-.reps-sheet__secondary{font-family:'Alegreya Sans',sans-serif;font-size:.88rem}
-
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.7rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.25rem 1.5rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.site-nav{font-family:var(--sans);font-size:.95rem;display:flex;flex-wrap:wrap;align-items:center;gap:0 1.1rem}
+.site-nav a{color:var(--text);text-decoration:none;padding:.7rem .1rem;border-bottom:2px solid transparent;min-height:44px;display:inline-flex;align-items:center}
+.site-nav a:hover,.site-nav a:focus-visible{border-bottom-color:var(--action)}
+.site-nav a[aria-current="page"]{border-bottom-color:var(--action)}
+.site-nav a[hidden]{display:none}
+.site-nav .side-door{color:var(--muted);font-style:italic;gap:.3em}
+.site-nav .side-door:hover,.site-nav .side-door:focus-visible{color:var(--text)}
 @media (max-width:640px){
-  .rep-card{width:168px}
+  .site-nav .sd-long{display:none}
+  .site-nav{font-size:.9rem;gap:0 .85rem}
+  .site-header .row{gap:.1rem 1rem}
 }
+
+.hero{max-width:52rem;margin:0 auto;padding:2.75rem 1.25rem 1.25rem;text-align:center}
+.mark-line{display:flex;align-items:center;justify-content:center;margin:0 auto 1.75rem}
+.mark-line .arriving{width:52px;flex:0 0 52px;color:var(--mark-ink)}
+.mark-line svg{display:block;width:100%;height:auto}
+.arriving-ring{fill:none;stroke:currentColor;stroke-width:11;stroke-linecap:round;stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}
+.arriving-seat{fill:var(--mark-dot);transform-origin:88.5px 50px;transform:translate(0,0)}
+.arriving.pending .arriving-ring{stroke-dasharray:0 360;opacity:0}
+.arriving.pending .arriving-seat{transform:translate(0,-6px)}
+.arriving.play .arriving-ring{animation:cic-buildC 1300ms cubic-bezier(.4,0,.2,1) 800ms both}
+.arriving.play .arriving-seat{animation:cic-sitdown 600ms cubic-bezier(.3,0,.35,1.4) 2400ms both,cic-breath 5.5s ease-in-out 3750ms infinite}
+@keyframes cic-buildC{0%{stroke-dasharray:0 360;stroke-dashoffset:-50;opacity:0}4%{opacity:1}100%{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}}
+@keyframes cic-sitdown{0%{transform:translate(0,-6px)}62%{transform:translate(0,1px) scale(1.1,.86)}100%{transform:translate(0,0) scale(1,1)}}
+@keyframes cic-breath{0%,100%{opacity:1}50%{opacity:.76}}
+@media (prefers-reduced-motion:reduce){
+  .arriving.play .arriving-ring,.arriving.play .arriving-seat{animation:none}
+  .arriving.pending .arriving-ring{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}
+  .arriving.pending .arriving-seat{transform:translate(0,0)}
+}
+.hero h1{font-size:clamp(1.5rem,1.1rem + 1.75vw,2.125rem);font-weight:500;line-height:1.3;max-width:48rem;margin:0 auto 1rem}
+.welcome-back{font-family:var(--sans);font-size:.95rem;color:var(--muted);margin:1rem auto 0;max-width:30rem}
+.welcome-back a{color:var(--action)}
+.home-flow{max-width:var(--wide);margin:0 auto;padding:1.5rem 1.25rem 0;display:grid;gap:2rem;grid-template-columns:1fr;grid-template-areas:"story" "chairs" "table" "atlas"}
+@media (min-width:64rem){
+  .home-flow{grid-template-columns:.8fr 2fr .8fr;align-items:stretch;grid-template-areas:"table story atlas" "chairs chairs chairs"}
+  .chairs{justify-content:center}
+}
+.home-flow>*{min-width:0}
+.flow-story{grid-area:story;padding-top:.25rem}
+.flow-story h2{font-size:clamp(1.5rem,2.6vw,1.85rem);font-weight:500;line-height:1.35;margin:0 0 1rem}
+.flow-table{grid-area:table}
+.flow-atlas{grid-area:atlas}
+.flow-chairs{grid-area:chairs}
+.flow-card{display:flex;flex-direction:column;text-decoration:none;color:var(--text);background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.flow-card:hover,.flow-card:focus-visible{border-color:var(--action)}
+.flow-card img{width:100%;aspect-ratio:1200/655;object-fit:cover;display:block;background:var(--ground)}
+.flow-card .eyebrow{margin:1.1rem 1.2rem 0}
+.flow-card h2{font-size:1.2rem;margin:.5rem 1.2rem 0}
+.flow-card p{font-family:var(--sans);font-size:.9rem;color:var(--muted);line-height:1.55;margin:.5rem 1.2rem 0}
+.flow-card .cta-link{margin:.7rem 1.2rem 1.2rem;margin-top:auto}
+.cta-link{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-weight:600;color:var(--action);border-bottom:1px solid currentColor;padding-bottom:.15rem;text-decoration:none}
+.flow-card:hover .cta-link,.flow-card:focus-visible .cta-link{color:var(--action-hover)}
+.cta-link .arriving{width:20px;flex:0 0 20px;color:var(--mark-ink)}
+@media (max-width:640px){
+  .hero{padding:2rem 1.25rem .5rem}
+  .mark-line{margin-bottom:1.25rem}
+  .mark-line .arriving{width:44px;flex-basis:44px}
+}
+
+.ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 0 1.4rem}
+.how-line{font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:-.7rem 0 1.6rem}
+
+.who{padding:1.5rem 0 0}
+.who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .6rem;max-width:var(--measure)}
+.who .scope{color:var(--muted);max-width:var(--measure);margin:0 0 .6rem}
+.who-gallery{overflow-y:auto;overscroll-behavior-y:contain;padding-right:.3rem;margin:0 -.3rem 0 0}
+.era-group:not(:first-child){margin-top:1.8rem}
+.era-head{display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline;font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.6rem;margin:0}
+.era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
+.chairs{list-style:none;margin:1.5rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout}
+.chair{--ring:var(--tint-dark);flex:0 0 auto;width:232px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:1.15rem}
+.chair .portrait{width:72px;height:72px;border-radius:50%;overflow:hidden;border:2px solid var(--ring);background:var(--ground);flex:0 0 auto}
+.chair .portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.chair h4{font-size:1.1rem;font-weight:700;margin:0}
+.chair h4 .role{display:block;font-family:var(--sans);font-weight:400;font-size:.82rem;color:var(--muted);margin:.15rem 0 0}
+.chair .trad{font-style:italic;font-size:.95rem;margin:0}
+.chair .meta{font-family:var(--sans);font-size:.8rem;color:var(--muted);margin:0}
+.chair .tile{margin:0;font-size:.9rem;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.chair .acts{display:flex;flex-direction:column;align-items:flex-start;gap:.2rem;font-family:var(--sans);font-size:.9rem;margin-top:.1rem}
+.chair .acts a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
+.chair .acts a.record{font-weight:400;color:var(--muted)}
+.chair .acts a.record:hover,.chair .acts a.record:focus-visible{color:var(--action-hover)}
+.pilot-note,.pilot-caveat{font-family:var(--sans);color:var(--muted);max-width:var(--measure);margin:2rem 0 .4rem;line-height:1.45}
+.pilot-note{font-size:.95rem}
+.pilot-caveat{font-size:.9rem;font-style:italic;margin:0 0 1.4rem}
+
+.more-link{max-width:var(--wide);margin:0 auto;padding:1.1rem 1.25rem 0;font-family:var(--sans);font-size:.9rem}
+.more-link a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
+
+.support{max-width:var(--wide);margin:0 auto;padding:2rem 1.25rem 3rem;border-top:1px solid var(--rule)}
+.support-card{display:flex;gap:1.4rem;align-items:flex-start;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:1.6rem 1.75rem}
+.support-icon{width:34px;flex:0 0 34px;color:var(--action);margin-top:.2rem}
+.support-body{font-family:var(--sans);font-size:.95rem;color:var(--muted)}
+.support-body h2{font-family:var(--serif);font-size:1.25rem;color:var(--text);margin:0 0 .6rem}
+.support-body p{max-width:var(--measure);margin:0 0 .8rem}
+.support-links{display:flex;flex-wrap:wrap;gap:.7rem}
+.support-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 1.1rem;font-weight:600;color:var(--vellum);background:var(--madder);border-radius:6px;text-decoration:none}
+.support-btn:hover,.support-btn:focus-visible{background:var(--madder-deep);color:var(--vellum)}
+.support-more{font-size:.875rem}
+.support-more a{color:var(--action)}
+@media (max-width:640px){
+  .support-card{flex-direction:column;gap:.9rem;padding:1.3rem 1.4rem}
+  .support-icon{width:28px;flex-basis:28px}
+}
+
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
+.site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+@media print{ .site-header,.support,.skip-link{display:none} }
 </style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
-  <div class="wrap">
-    <a class="brand" href="index.html">
-      <span class="arriving-mark play" aria-hidden="true">
-        <svg viewBox="0 0 100 100">
-          <circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/>
-          <circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/>
-        </svg>
-      </span>
-      <span class="wordmark">Church in Conversation</span>
-    </a>
-    <nav class="site-nav">
+  <div class="row">
+    <a class="wordmark" href="index.html">Church <em>in</em> Conversation</a>
+    <nav class="site-nav" aria-label="Site">
       <a href="index.html" aria-current="page">Home</a>
       <a href="about.html">About</a>
       <a href="whats-next.html">What's Next</a>
-      <a href="atlas-v3.html">Map</a>
+      <a href="atlas-v3.html">Timeline</a>
       <a href="support.html">Get Involved</a>
+      <a class="side-door" id="side-door" href="talk.html" hidden><span class="sd-long">Been here before? </span>Go straight to a conversation →</a>
     </nav>
   </div>
 </header>
 
-<main id="main">
-  <section class="hero" style="padding-bottom:1rem;">
-    <h1>Twenty centuries of the Church. One table. A chair pulled out for you.</h1>
-    <p class="lede">Christian traditions, built from their own letters, sermons, and historical record.</p>
+<main id="main" tabindex="-1">
+
+  <section class="hero" aria-labelledby="hook">
+    <div class="mark-line">
+      <div class="arriving play" aria-hidden="true">
+        <svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg>
+      </div>
+    </div>
+    <h1 id="hook">Encounter representative voices and the two-thousand-year story, coming to life from the actual letters, sermons, and records of distinct Christian traditions.</h1>
+    <p class="welcome-back" id="welcome-back" hidden>Welcome back. <a href="talk.html">Go straight to a conversation →</a></p>
   </section>
 
-  <section class="table-section">
-    <div class="wrap-head">
-      <p class="eyebrow">Who's at the table</p>
-      <p class="scope">For this first pilot stage, we have six Christian traditions from the Early Church and Imperial Church eras. Click anyone to learn more, or begin a conversation.</p>
+  <div class="home-flow">
+    <div class="flow-story">
+      <p class="eyebrow">The Unfolding Story</p>
+      <h2 id="story-title">For two thousand years, people have followed Jesus across vastly different worlds and cultures.</h2>
+      <a class="cta-link" href="story.html">Read the full story →</a>
     </div>
-    <div class="reps-carousel-wrap">
-      <div class="reps-carousel" id="repsCarousel" tabindex="0" aria-label="Representatives, in chronological order"></div>
-    </div>
-    <p class="reps-scroll-hint">scroll &rarr;</p>
-    <p class="pilot-note">This is a pilot. We're intentionally looking for a limited number of participants across four perspectives &mdash; general, pastor or teacher, academic, and anyone re-examining their faith.</p>
-    <p class="pilot-caveat">Because of cost, we're asking each participant to keep to about five conversations for now &mdash; we can't enforce this yet, only ask.</p>
-  </section>
 
-  <section class="hero-actions-wrap">
-    <div class="hero-actions">
-      <a class="btn primary" id="launch-link" href="atlas-v3.html">Come and join us at the Table</a>
-      <a class="btn secondary" href="atlas-v3.html">Explore the Timeline</a>
-    </div>
-  </section>
+    <a class="flow-card flow-table" href="table.html">
+      <p class="eyebrow">The Table</p>
+      <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="lazy" decoding="async">
+      <h2>Set your own table</h2>
+      <p>Bring two or three of them to one table. No one seated there is the host — you're one of the four chairs. Choose who joins you, then start the conversation.</p>
+      <span class="cta-link"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Set your own table →</span>
+    </a>
 
-  <section class="access-note-wrap">
-    <p class="access-note">Running these conversations costs real money. If you'd like to help more people use them:</p>
-    <div class="hero-actions access-give-actions">
-      <a class="btn secondary" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Keeping the Door Open <span style="font-weight:400;opacity:.85">— give once</span></a>
-      <a class="btn secondary" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Open the Door Wider <span style="font-weight:400;opacity:.85">— give monthly</span></a>
+    <a class="flow-card flow-atlas" href="atlas-v3.html">
+      <p class="eyebrow">Twenty centuries on one map, free to explore</p>
+      <img src="assets/atlas-preview.jpg" alt="Colored rivers of Christian movements winding and branching across the centuries, grouped by era" loading="lazy" decoding="async">
+      <h2>Church in History</h2>
+      <p>Two hundred and some Christian movements across the whole of Church history are on record here — how they connect, where they diverged, and the stories that don't belong to just one of them. Hover for a glimpse, click for depth.</p>
+      <span class="cta-link">Open Church in History →</span>
+    </a>
+
+    <section class="who flow-chairs" id="who" aria-labelledby="who-title" tabindex="-1">
+    <p class="eyebrow">Who's at the table</p>
+    <h2 id="who-title">Who would you like to have a conversation with?</h2>
+    <p class="scope">Christian traditions from the Church's first four centuries, each with one voice that speaks for it. Ask any of them.</p>
+    <p class="ai-line">You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out.</p>
+    <p class="how-line">Start the conversation directly, or click anyone's picture first for more about them.</p>
+
+    <div class="who-gallery" id="who-gallery">
+    <div class="era-group" id="era-1">
+    <h3 class="era-head">The Early Church Era<span class="dates">70–312 CE</span></h3>
+    <ol class="chairs" id="era-1-chairs">
+      <li class="chair" style="--tint:#7c3aed;--tint-dark:#955FF0">
+        <div class="portrait"><a href="traditions/post-apostolic-house-church.html"><img src="assets/portraits/house-churches.png" alt="Chloe, Representative of The Scattered Households" width="72" height="72" loading="lazy" decoding="async"></a></div>
+        <div>
+          <h4>Chloe<span class="role">Household Leader</span></h4>
+          <p class="trad">The Scattered Households</p>
+          <p class="meta">70–200 CE · Antioch, Asia Minor, Rome</p>
+          <p class="tile">An uncommon faith in scattered households lived as one body, connected by letters and a shared table. Once the apostles were gone, some were led by a single bishop and elders, others by a council of elders. Following Jesus meant loss of status, suspicion from neighbors, and even outright persecution at times.</p>
+          <p class="acts"><a href="talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/post-apostolic-house-church.html">More information<span class="vh"> — The Scattered Households</span></a></p>
+        </div>
+      </li>
+      <li class="chair" style="--tint:#2B5F8A;--tint-dark:#3B83BF">
+        <div class="portrait"><a href="traditions/alexandria-catechetical.html"><img src="assets/portraits/alexandria.png" alt="Theon, Representative of Alexandrian Christianity" width="72" height="72" loading="lazy" decoding="async"></a></div>
+        <div>
+          <h4>Theon<span class="role">Catechetical Teacher</span></h4>
+          <p class="trad">Alexandrian Christianity</p>
+          <p class="meta">c. 150–400 CE · Alexandria, Egypt</p>
+          <p class="tile">In Alexandria, from about 150 to 400 CE, teachers led seekers through a shared life of reading Scripture. They believed its surface pointed toward a deeper meaning, one that opened onto the Logos himself. Some called it one continuous school; others say it was simply a series of private teachers, grouped together only in hindsight. Persecution reached even its own teachers—Origen's own father was martyred while Origen was still a boy.</p>
+          <p class="acts"><a href="talk.html?worlds=alexandria-catechetical&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/alexandria-catechetical.html">More information<span class="vh"> — Alexandrian Christianity</span></a></p>
+        </div>
+      </li>
+      <li class="chair" style="--tint:#b45309;--tint-dark:#CC5E0A">
+        <div class="portrait"><a href="traditions/syriac-edessa-nisibis.html"><img src="assets/portraits/syriac.png" alt="Mar Yausep, Representative of Syriac Christianity" width="72" height="72" loading="lazy" decoding="async"></a></div>
+        <div>
+          <h4>Mar Yausep<span class="role">Teacher of the Covenant Order</span></h4>
+          <p class="trad">Syriac Christianity</p>
+          <p class="meta">200–410 CE · Edessa &amp; Nisibis</p>
+          <p class="tile">In Edessa and Nisibis, from 200 to 410 CE, Christians taught their faith in hymn and read Scripture as a world of types answering type. At the community's ascetic core stood the covenant: men and women vowed to celibacy for life who served their own congregation instead of withdrawing to the desert. Whether authority rested more in that vow or in a bishop's office was never settled in their own record. On the Persian side of the frontier, the king's own persecution took the bishop Simeon bar Sabbae and left the church's chief seat empty for twenty years.</p>
+          <p class="acts"><a href="talk.html?worlds=syriac-edessa-nisibis&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/syriac-edessa-nisibis.html">More information<span class="vh"> — Syriac Christianity</span></a></p>
+        </div>
+      </li>
+    </ol>
     </div>
-    <p class="access-note">For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
+
+    <div class="era-group" id="era-2">
+    <h3 class="era-head">The Imperial Church Era<span class="dates">312–451 CE</span></h3>
+    <ol class="chairs" id="era-2-chairs">
+      <li class="chair" style="--tint:#7A2E2E;--tint-dark:#C36060">
+        <div class="portrait"><a href="traditions/imperial-juridical-christianity.html"><img src="assets/portraits/empire.png" alt="Marius, Representative of Church and Empire" width="72" height="72" loading="lazy" decoding="async"></a></div>
+        <div>
+          <h4>Marius<span class="role">Deacon of the Letters</span></h4>
+          <p class="trad">Church and Empire</p>
+          <p class="meta">c. 312-451 · Rome, Constantinople, Milan</p>
+          <p class="tile">In Rome, Constantinople, and Milan, from Constantine's toleration of the church in 312 to the Council of Chalcedon in 451, Christian bishops became office-holders beside a throne rather than outlaws beneath a sword — hearing lawsuits, administering imperial funds, summoned to councils at the emperor's own expense. Three claims to final authority over the church contested that whole century and a half — Rome's claim from Peter, Constantinople's claim from nearness to the throne, and a bishop's claim to stand in moral judgment over any ruler — and the window closed without settling which one was right. This world's own worst hours were not suffered but caused: a bloody contest over the bishopric of Rome, and a massacre an emperor ordered and then, at his own bishop's insistence, did public penance for.</p>
+          <p class="acts"><a href="talk.html?worlds=imperial-juridical-christianity&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/imperial-juridical-christianity.html">More information<span class="vh"> — Church and Empire</span></a></p>
+        </div>
+      </li>
+      <li class="chair" style="--tint:#0f766e;--tint-dark:#128D84">
+        <div class="portrait"><a href="traditions/desert-monasticism.html"><img src="assets/portraits/desert.png" alt="Papnoute, Representative of the Desert Fathers and Mothers" width="72" height="72" loading="lazy" decoding="async"></a></div>
+        <div>
+          <h4>Papnoute<span class="role">Abba (Elder)</span></h4>
+          <p class="trad">Desert Fathers and Mothers</p>
+          <p class="meta">c. 320–430 CE · Nile Valley &amp; Desert, Egypt</p>
+          <p class="tile">In the Nile Valley and the desert of Egypt, from about 320 to 430 CE, Christians left their villages to wage a lifelong combat against the thoughts that trouble a person from within. Authority came two ways at once, never resolved: earned through a lifetime of discipline under one elder, or conferred by a written rule and an appointed office. What withdrawal cost was everything ordinary life offered — land, family, the safety of a settled place — surrendered by stages and never reclaimed.</p>
+          <p class="acts"><a href="talk.html?worlds=desert-monasticism&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/desert-monasticism.html">More information<span class="vh"> — Desert Fathers and Mothers</span></a></p>
+        </div>
+      </li>
+      <li class="chair" style="--tint:#A0522D;--tint-dark:#C46437">
+        <div class="portrait"><a href="traditions/cappadocian-nicene-pastoral-monastic-tradition.html"><img src="assets/portraits/cappadocian.jpg" alt="Chilo, Representative of The Cappadocian Churches" width="72" height="72" loading="lazy" decoding="async"></a></div>
+        <div>
+          <h4>Chilo<span class="role">Elder of the Brotherhoods</span></h4>
+          <p class="trad">The Cappadocian Churches</p>
+          <p class="meta">c. 325-394 CE · Cappadocia / Anatolia</p>
+          <p class="tile">The Nicene-confessing churches of Cappadocia and Pontus, from about 325 to 394 CE, were carried by one family and one friendship: Basil of Caesarea, his sister Macrina, his brother Gregory of Nyssa, and Basil's friend Gregory of Nazianzus. A radical ascetic ferment had already dissolved households and turned slaves against masters before Basil built something else instead: brotherhoods bound by rule, obedience, and an open guest-door. Julian's brief pagan revival cost them a martyr at Caesarea in 362; the Homoian church that followed under Valens drove Gregory of Nyssa into exile, before this Nicene minority inherited the empire's favor in 381.</p>
+          <p class="acts"><a href="talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/cappadocian-nicene-pastoral-monastic-tradition.html">More information<span class="vh"> — The Cappadocian Churches</span></a></p>
+        </div>
+      </li>
+      <li class="chair" style="--tint:#9d174d;--tint-dark:#E23B7F">
+        <div class="portrait"><a href="traditions/hieronymian-ascetic-literary.html"><img src="assets/portraits/bethlehem.png" alt="Albina, Representative of The Bethlehem Circle" width="72" height="72" loading="lazy" decoding="async"></a></div>
+        <div>
+          <h4>Albina<span class="role">Widow of the Household</span></h4>
+          <p class="trad">The Bethlehem Circle</p>
+          <p class="meta">c. 382–420 CE · Rome &amp; Bethlehem</p>
+          <p class="tile">In Rome and then Bethlehem, from 382 to 420 CE, a circle of wealthy women and one scholar-priest practiced renunciation and scholarship as a single discipline — fortunes converted into text, hospitality, and care for the sick, a Latin Bible built word by word against the Hebrew it was first written in. The women funded it, founded it, and by Jerome's own account pressed him with scriptural questions for decades; but Jerome wrote nearly every surviving page himself, and how much independent authority his account of them actually reflects is a question this world's own record cannot settle. The cost was concrete: in 384 a daughter of the household died within four months of taking up Jerome's own fasting regime, and Rome's outrage over it helped drive the whole circle out of the city.</p>
+          <p class="acts"><a href="talk.html?worlds=hieronymian-ascetic-literary&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/hieronymian-ascetic-literary.html">More information<span class="vh"> — The Bethlehem Circle</span></a></p>
+        </div>
+      </li>
+    </ol>
+    </div>
+    </div>
+
+    <p class="pilot-note">This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith.</p>
+    <p class="pilot-caveat">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
+  </section>
+  </div>
+
+  <p class="more-link"><a href="whats-next.html">What's next →</a></p>
+
+  <section class="support" aria-labelledby="support-title">
+    <div class="support-card">
+      <svg class="support-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M18 8 L44 8 L44 56 L18 56 Z" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M18 8 L36 14 L36 50 L18 56 Z" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="30" cy="32" r="1.8" fill="currentColor"/></svg>
+      <div class="support-body">
+        <p class="eyebrow">Help keep the door open</p>
+        <h2 id="support-title">Running these conversations costs real money</h2>
+        <p>It's what limits how many people can use them right now. If you'd like to help:</p>
+        <p class="support-links">
+          <a class="support-btn" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Give once</a>
+          <a class="support-btn" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Give monthly</a>
+        </p>
+        <p class="support-more">For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
+      </div>
+    </div>
   </section>
 </main>
 
-<div class="reps-scrim" id="repsScrim"></div>
-<div class="reps-sheet" id="repsSheet" role="dialog" aria-modal="true" aria-labelledby="repsSheetName">
-  <button class="reps-sheet__close" id="repsSheetClose" aria-label="Close">&times;</button>
-  <div id="repsSheetContent"></div>
-</div>
-
 <footer class="site-footer">
-  <div class="wrap">
+  <div class="row">
     <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
-    <nav>
+    <nav aria-label="Footer">
       <a href="about.html">About</a>
       <a href="pilot-feedback.html">Feedback</a>
       <a href="privacy.html">Privacy</a>
@@ -211,127 +345,46 @@
 <script>
 (function(){
 "use strict";
-// Same LIVE_APP_URL pattern as atlas.html — honest about not
-// being wired up when hosting isn't ready, live locally during dev.
-// PHASE-1-LAUNCH.md Stage 6: points at cic-engine (the new surface,
-// engine/api + the rebuilt frontend), not the old cic-poc - Mark's ruling
-// 2026-08-24, "the site is not in use, so downtime during the transfer is
-// acceptable." Local dev port matches the new frontend's vite default
-// (cic-poc/frontend/vite.config.ts), not the old app's 8199.
-const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
-const LIVE_APP_URL = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
-if (LIVE_APP_URL) {
-  // The hero says "join us at the Table" - it lands on the app's Table
-  // field (mode=table opens the launch screen with the Table in focus),
-  // not an interview-first screen that contradicts the button (2026-08-28
-  // foundation audit; deep-link grammar per Mark's launch ruling).
-  document.getElementById('launch-link').href = LIVE_APP_URL + '/?mode=table';
+try {
+  if (localStorage.getItem('cic-returning') === '1') {
+    document.getElementById('welcome-back').hidden = false;
+    document.getElementById('side-door').hidden = false;
+  }
+} catch(e){}
+
+var gallery = document.getElementById('who-gallery');
+var eraGroups = Array.prototype.slice.call(document.querySelectorAll('.era-group'));
+function sizeGallery(){
+  if (eraGroups.length < 3) { gallery.style.maxHeight = ''; return; }
+  var second = eraGroups[1];
+  gallery.style.maxHeight = (second.offsetTop + second.offsetHeight - eraGroups[0].offsetTop) + 'px';
 }
-
-// Representative carousel — reads the same data/world-census.json the
-// Atlas itself reads, so it can never drift out of sync with it the way
-// two independently-maintained copies of this data have before on this site.
-const PORTRAIT_FILES = {
-  'post-apostolic-house-church': 'house-churches.png',
-  'alexandria-catechetical': 'alexandria.png',
-  'syriac-edessa-nisibis': 'syriac.png',
-  'imperial-juridical-christianity': 'empire.png',
-  'desert-monasticism': 'desert.png',
-  'hieronymian-ascetic-literary': 'bethlehem.png',
-  'cappadocian-nicene-pastoral-monastic-tradition': 'cappadocian.jpg',
-};
-
-fetch('data/world-census.json')
-  .then(r => r.json())
-  .then(data => {
-    const eraTitles = {};
-    data.eras.forEach(e => { eraTitles[e.num] = e.title; });
-
-    const live = data.movements
-      .filter(m => m.status === 'Built & Live')
-      .map(m => {
-        const id = m.id;
-        return { id, era: m.era, start: m.start, dates: m.dates, region: m.region, entry: m.entry };
-      })
-      .sort((a, b) => a.start - b.start);
-
-    const carousel = document.getElementById('repsCarousel');
-    let lastEra = null;
-    live.forEach(w => {
-      if (lastEra !== null && w.era !== lastEra) {
-        const div = document.createElement('div');
-        div.className = 'reps-era-divider';
-        div.innerHTML = `<span>${eraTitles[w.era]}</span>`;
-        carousel.appendChild(div);
-      }
-      lastEra = w.era;
-
-      const card = document.createElement('button');
-      card.className = `rep-card era-${w.era}`;
-      card.style.setProperty('--rep-color', w.entry.color);
-      card.innerHTML = `
-        <span class="era-label">${eraTitles[w.era]}</span>
-        <div class="portrait"><img src="assets/portraits/${PORTRAIT_FILES[w.id]}" alt="${w.entry.representativeName}, Representative of ${w.entry.worldName}"></div>
-        <p class="name">${w.entry.representativeName}</p>
-        <p class="tradition">${w.entry.worldName}</p>
-        <p class="meta">${w.dates}<br>${w.region}</p>
-      `;
-      card.addEventListener('click', () => openRepsSheet(w));
-      carousel.appendChild(card);
-    });
-  })
-  .catch(err => {
-    console.error('Failed to load the representative carousel:', err);
+if (gallery && eraGroups.length) {
+  sizeGallery();
+  var resizeTimer = null;
+  window.addEventListener('resize', function(){
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(sizeGallery, 150);
   });
-
-const repsScrim = document.getElementById('repsScrim');
-const repsSheet = document.getElementById('repsSheet');
-const repsSheetContent = document.getElementById('repsSheetContent');
-const repsSheetClose = document.getElementById('repsSheetClose');
-let repsLastFocused = null;
-
-function openRepsSheet(w) {
-  repsLastFocused = document.activeElement;
-  const e = w.entry;
-  // The full name, never split: "Mar Yausep" carries his honorific as part
-  // of the name itself (Mark's identity ruling, 2026-08-28) - .split(' ')
-  // .pop() would greet him as bare "Yausep" on the launch button.
-  const firstName = e.representativeName;
-  repsSheetContent.innerHTML = `
-    <div class="reps-sheet__top">
-      <img class="reps-sheet__portrait" src="assets/portraits/${PORTRAIT_FILES[w.id]}" alt="Portrait of ${e.representativeName}" style="--rep-color:${e.color}">
-      <div>
-        <h2 class="reps-sheet__name" id="repsSheetName">${e.representativeName}</h2>
-        <p class="reps-sheet__title" style="color:${e.color}">${e.representativeTitle}</p>
-        <p class="reps-sheet__world">${e.worldName}${e.subtitle ? ' &mdash; ' + e.subtitle : ''}</p>
-        <p class="reps-sheet__meta">${w.dates} &middot; ${w.region}</p>
-      </div>
-    </div>
-    <p class="reps-sheet__body">${e.tile}</p>
-    <div class="reps-sheet__actions">
-      <a class="btn primary" href="${LIVE_APP_URL}/?worlds=${w.id}&mode=interview" target="_blank" rel="noopener">Launch an Interview with ${firstName}</a>
-      <!-- The Table hand-off is deliberately the quiet second link (Mark's
-           launch ruling, 2026-08-28): mode=table lands on the app's Table
-           field with this seat chosen - never auto-starting a session -
-           where the participant completes the seating and convenes. -->
-      <a class="reps-sheet__secondary" href="${LIVE_APP_URL}/?worlds=${w.id}&mode=table" target="_blank" rel="noopener">Bring ${firstName} to the Table &rarr;</a>
-      <a class="reps-sheet__secondary" href="atlas-v3.html" target="_blank" rel="noopener">Read more in the Atlas &rarr;</a>
-    </div>
-  `;
-  repsScrim.classList.add('open');
-  repsSheet.classList.add('open');
-  repsSheetClose.focus();
-  document.addEventListener('keydown', onRepsKeydown);
 }
-function closeRepsSheet() {
-  repsScrim.classList.remove('open');
-  repsSheet.classList.remove('open');
-  document.removeEventListener('keydown', onRepsKeydown);
-  if (repsLastFocused) repsLastFocused.focus();
+
+var tableCue = document.getElementById('table-cue');
+if (tableCue) {
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduceMotion && 'IntersectionObserver' in window) {
+    tableCue.classList.add('pending');
+    var cueObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting) {
+          tableCue.classList.remove('pending');
+          tableCue.classList.add('play');
+          cueObserver.unobserve(tableCue);
+        }
+      });
+    }, { threshold: 0.6 });
+    cueObserver.observe(tableCue);
+  }
 }
-function onRepsKeydown(e) { if (e.key === 'Escape') closeRepsSheet(); }
-repsScrim.addEventListener('click', closeRepsSheet);
-repsSheetClose.addEventListener('click', closeRepsSheet);
 })();
 </script>
 </body>

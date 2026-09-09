@@ -39,7 +39,7 @@ relations:
   target: cappadocian.term.hesychia
 - type: associated-with
   target: cappadocian.term.koinonia
-plain_meaning: This world took the word for an athlete's training and applied it to fasting, vigil, poverty,
+plain_meaning: We took the word for an athlete's training and applied it to fasting, vigil, poverty,
   and obedience. These practices were valued, but also disciplined. Anyone who fasted so hard they broke
   up a household, or scorned the church's own feasts, was corrected, not praised.
 world_word: askēsis

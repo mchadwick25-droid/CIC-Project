@@ -41,7 +41,7 @@ from engine.m1.registry import REPO_ROOT, formation_world_keys, load_registry
 
 CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 APP_WORLDS_TS = REPO_ROOT / "cic-poc" / "frontend" / "src" / "data" / "worlds.ts"
-SITE_INDEX_HTML = REPO_ROOT / "cic-website" / "index.html"
+SITE_TRADITIONS_DIR = REPO_ROOT / "cic-website" / "traditions"
 
 DEFECT = "defect"
 OBSERVATION = "observation"
@@ -91,6 +91,29 @@ COVERAGE = {
     "npnf209": (310, 749), "npnf210": (339, 397), "npnf211": (360, 450), "npnf212": (400, 604),
     "npnf213": (300, 604), "npnf214": (325, 787), "optatus": (320, 400),
     "origen": (185, 254), "palladius": (320, 420),
+    # Added 2026-09-09. These eighteen files (fourteen keys) had NO entry, so
+    # corpus_tier() fell through to "4 - unclassified" and the generated report
+    # rendered them under a Tier 4 heading whose legend reads "no time overlap"
+    # - asserting a date judgement that had never been made. Philostorgius is
+    # the case that surfaced it: his History covers 300-425 against ijc's
+    # 312-451, a 113-year overlap, and it sat at the bottom rank of six worlds'
+    # worklists because nobody had ever entered its dates. Same first-pass
+    # standard as every row above: asserted for correction, and they RANK
+    # rather than exclude.
+    "anan-isho": (270, 650),          # Egyptian desert material, compiled by Ananisho c. 7th c.
+    "basil": (330, 379),              # Basil of Caesarea
+    "eunomius": (335, 393),           # Eunomius of Cyzicus
+    "evagrius": (345, 399),           # Evagrius Ponticus
+    "gregory-nazianzen": (329, 390),
+    "gregory-nyssa": (335, 395),
+    "julian": (331, 363),             # the emperor's own letters and apologia
+    "lucian": (125, 180),             # Lucian of Samosata
+    "macarius": (300, 400),           # Fifty Spiritual Homilies, late 4th c.
+    "morison": (330, 379),            # a 1912 study OF Basil - covers his period, not its own
+    "nestle1904": (30, 100),          # Greek New Testament
+    "pachomius": (292, 348),
+    "philostorgius": (300, 425),      # the History's own span, per the file's Quasten note
+    "tacitus": (64, 64),              # the vendored locus is Annals 15.44 alone: the persecution of 64
 }
 BY_DESIGN = {"webbe", "anf10"}
 
@@ -122,6 +145,22 @@ REGIONS = {
     "npnf109": {"syria", "constantinople"}, "npnf110": {"syria", "constantinople"},
     "npnf111": {"syria", "constantinople"}, "npnf112": {"syria", "constantinople"},
     "npnf113": {"syria", "constantinople"}, "npnf114": {"syria", "constantinople"},
+    # Added 2026-09-09 alongside the COVERAGE rows below - a key with coverage
+    # but no region lands in tier 3 ("same time, different region"), which
+    # understates rather than mislabels, but is still wrong where the region
+    # is known.
+    "anan-isho": {"egypt"}, "basil": {"asia-minor"},
+    "eunomius": {"asia-minor", "constantinople"}, "evagrius": {"egypt"},
+    "gregory-nazianzen": {"asia-minor"}, "gregory-nyssa": {"asia-minor"},
+    "julian": {"constantinople", "asia-minor", "gaul"},
+    "lucian": {"syria", "greece"}, "macarius": {"egypt", "syria"},
+    "morison": {"asia-minor"}, "nestle1904": {"ecumenical"},
+    "pachomius": {"egypt"},
+    # ecumenical for the same reason npnf202 (Socrates/Sozomen) is: a
+    # continuous ecclesiastical history of empire-wide councils and imperial
+    # religious policy, not a regional witness.
+    "philostorgius": {"ecumenical"},
+    "tacitus": {"rome"},
     "npnf201": {"palestine"},
     "npnf202": {"ecumenical"},
     "npnf203": {"syria", "palestine", "rome", "egypt"},
@@ -592,19 +631,30 @@ def check_app_world_assets(*, worlds, **_) -> list[Finding]:
 
 
 def check_site_portraits(*, registry, worlds, **_) -> list[Finding]:
-    """cic-website/index.html's carousel keys its portrait files by census id.
-    A world the census lists but this table does not renders a broken image
-    on the front page of the public site."""
+    """Each world's own cic-website/traditions/<census_id>.html page carries its
+    Representative's portrait directly - the site's entry pattern since the V2
+    homepage replaced the old carousel (which kept one shared PORTRAIT_FILES
+    lookup in index.html; this checks the same concern against where that
+    content actually lives now). A world with no tradition page, or whose
+    portrait file is missing on disk, renders a broken image on the public
+    site."""
     findings = []
-    if not SITE_INDEX_HTML.is_file():
-        return [_defect("site-portrait-file", "fleet", f"{SITE_INDEX_HTML} not found")]
-    text = SITE_INDEX_HTML.read_text(encoding="utf-8")
-    block = re.search(r"PORTRAIT_FILES\s*=\s*\{(.*?)\}", text, re.S)
-    mapped = set(re.findall(r"'([^']+)'\s*:", block.group(1))) if block else set()
     for w in worlds:
         cid = registry[w].get("census_id")
-        if cid and cid not in mapped:
-            findings.append(_defect("site-portrait", w, f"census_id {cid!r} has no PORTRAIT_FILES entry - the Atlas carousel renders a broken image for this world"))
+        if not cid:
+            continue
+        page = SITE_TRADITIONS_DIR / f"{cid}.html"
+        if not page.is_file():
+            findings.append(_defect("site-portrait", w, f"census_id {cid!r} has no cic-website/traditions/{cid}.html - the site has no page to carry this world's portrait"))
+            continue
+        text = page.read_text(encoding="utf-8")
+        img_match = re.search(r'<img\s+src="([^"]+)"', text)
+        if not img_match:
+            findings.append(_defect("site-portrait", w, f"traditions/{cid}.html has no portrait <img>"))
+            continue
+        img_path = (page.parent / img_match.group(1)).resolve()
+        if not img_path.is_file():
+            findings.append(_defect("site-portrait", w, f"traditions/{cid}.html's portrait image {img_match.group(1)!r} does not exist on disk"))
     return findings
 
 

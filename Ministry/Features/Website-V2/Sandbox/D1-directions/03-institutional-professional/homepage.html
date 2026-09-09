@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Church in Conversation: The First Centuries</title>
+<meta name="description" content="Seven Christian traditions of the Church's first four centuries, each rebuilt from its own letters, sermons, and historical record by a ten-step, review-gated method — with every claim labeled for how well the record supports it. Come and join us at the Table.">
+<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23F7F3EB'/><circle cx='47' cy='50' r='31' fill='none' stroke='%232A2521' stroke-width='14' stroke-linecap='round' pathLength='360' stroke-dasharray='260 100' stroke-dashoffset='-50'/><circle cx='85.5' cy='50' r='8' fill='%23A13E2B'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+SC:wght@400;500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   Website V2 · D1 direction 03 · INSTITUTIONAL-PROFESSIONAL / SCHOLARLY
+   AUTHORITY — homepage mockup. Sandbox artifact, not live, not final.
+
+   Posture: the site is a rigorous scholarly instrument you can trust.
+   The method (Steps 0–10) and the confidence apparatus (Constitution
+   Article 17) are the FIRST things on the page, not one click deep.
+   Typography carries the design; ornament is nearly absent; the only
+   motion on the page is the brand's own "Arriving" mark.
+
+   Everything below lives inside the locked brand system (manuscript
+   palette, Alegreya pairing, "Arriving" mark) — layout, pacing,
+   hierarchy and register are what this direction decides.
+
+   Contrast math for every pairing used here is in README.md §6.
+   Accessibility floor: WCAG 2.2 AA, with three AAA practices adopted
+   (7:1 body text, ≤80ch measure at ≥1.5 line-height, in-context link
+   purpose). See README.md.
+
+   Content provenance: strings from cic-website/data/world-census.json
+   (V0.20, generated 2026-08-02), the Construction Framework V7.4 step
+   headers (verbatim, via the 2026-07-25 sequencing audit), Constitution
+   Article 17's five confidence labels (verbatim), and the six protected
+   brand lines (verbatim). Prose drafted for this mockup is marked with
+   a visible "draft" tag — illustrative, not approved copy.
+   ===================================================================== */
+
+:root {
+  /* Manuscript palette — FINAL brand tokens (Full UX Design V1.0 §2.1) */
+  --parchment:   #F7F3EB;
+  --vellum:      #FEFCF8;
+  --ink:         #2A2521;   /* iron-gall */
+  --ink-faded:   #6C6257;
+  --rule:        #E6DFD3;
+  --rule-strong: rgba(42,37,33,.28);
+  --madder:      #A13E2B;   /* primary action accent */
+  --madder-deep: #7E2F20;
+  --on-madder:   #FEFCF8;
+  --gold:        #B45309;   /* the Representative voice — rules & large text only */
+  --gold-wash:   #FBF2E2;
+  --tyrian:      #6B3FA0;   /* the transparency / confidence apparatus */
+  --tyrian-wash: #F3EFFA;
+  --graphite:    #8A837C;   /* unpigmented — hairline marks only, never text */
+  --era-1:       #EFDDB3;
+  --era-2:       #E3E0CB;
+  --focus:       var(--madder);
+
+  --serif: 'Alegreya', 'Iowan Old Style', Georgia, serif;
+  --sc:    'Alegreya SC', 'Alegreya', Georgia, serif;
+  --sans:  'Alegreya Sans', 'Trebuchet MS', system-ui, sans-serif;
+
+  --measure: 66ch;
+  --page: 78rem;
+  --gutter: clamp(1rem, 4vw, 3rem);
+}
+
+/* Dark register — the brand's "old leather" tokens (Logo Usage Sheet:
+   #EDE5D6 / #CB6E52). Every value here was measured; see README §6. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --parchment:   #17130F;
+    --vellum:      #1E1913;
+    --ink:         #EDE5D6;
+    --ink-faded:   #B8AEA1;
+    --rule:        #3A322B;
+    --rule-strong: rgba(237,229,214,.30);
+    --madder:      #CB6E52;
+    --madder-deep: #E08C74;
+    --on-madder:   #17130F;
+    --gold:        #E0A458;
+    --gold-wash:   #2A2116;
+    --tyrian:      #C4B0EA;
+    --tyrian-wash: #241F2E;
+    --graphite:    #A29A91;
+    --era-1:       #241A0C;
+    --era-2:       #1E1C16;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  margin: 0;
+  background: var(--parchment);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  font-feature-settings: "onum" 1, "kern" 1;   /* old-style figures throughout */
+}
+
+a { color: var(--madder); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .14em; }
+a:hover { color: var(--madder-deep); text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 2px; }
+
+h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.15; margin: 0; text-wrap: balance; }
+p { margin: 0 0 1rem; max-width: var(--measure); }
+p:last-child { margin-bottom: 0; }
+
+.sc { font-family: var(--sc); font-weight: 500; letter-spacing: .06em; text-transform: lowercase; }
+.eyebrow { font-family: var(--sans); font-size: .8125rem; letter-spacing: .14em; text-transform: uppercase; color: var(--tyrian); font-weight: 600; margin: 0 0 .5rem; }
+.eyebrow--madder { color: var(--madder); }
+
+/* The "draft" tag — visible marker for prose drafted for this mockup.
+   Verbatim material (protected lines, census strings, framework step
+   titles, Article 17 labels) carries no tag. */
+.draft {
+  font-family: var(--sans); font-size: .6875rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--tyrian); background: var(--tyrian-wash); border: 1px solid var(--tyrian);
+  border-radius: 2px; padding: .05em .4em; margin-left: .4em; vertical-align: .12em; white-space: nowrap;
+}
+
+.page { max-width: var(--page); margin: 0 auto; padding: 0 var(--gutter); }
+
+.skip-link { position: absolute; left: -999px; top: auto; background: var(--ink); color: var(--parchment); padding: .6rem 1rem; z-index: 100; font-family: var(--sans); }
+.skip-link:focus { position: fixed; left: 1rem; top: 1rem; }
+
+/* Sandbox banner — mockup provenance, not part of the design */
+.sandbox-note { background: var(--tyrian-wash); color: var(--ink); border-bottom: 1px solid var(--tyrian); font-family: var(--sans); font-size: .8125rem; }
+.sandbox-note .page { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; padding-top: .45rem; padding-bottom: .45rem; }
+.sandbox-note strong { color: var(--tyrian); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; font-size: .75rem; }
+
+/* ---------- Masthead ---------- */
+.masthead { background: var(--vellum); border-bottom: 1px solid var(--rule-strong); }
+.masthead__inner { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding-top: .9rem; padding-bottom: .9rem; }
+.brand { display: flex; align-items: center; gap: .7rem; text-decoration: none; color: var(--ink); flex-shrink: 0; }
+.brand .wordmark { font-family: var(--serif); font-weight: 700; font-size: 1.25rem; letter-spacing: .01em; }
+.brand .wordmark em { font-style: italic; font-weight: 400; }
+.masthead__right { display: flex; align-items: center; gap: 1.75rem; min-width: 0; }
+nav.nav { font-family: var(--sans); font-size: .95rem; display: flex; gap: 1.4rem; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+nav.nav::-webkit-scrollbar { display: none; }
+nav.nav a { color: var(--ink); text-decoration: none; padding: .55rem .1rem; border-bottom: 2px solid transparent; white-space: nowrap; }
+nav.nav a:hover, nav.nav a[aria-current="page"] { border-bottom-color: var(--madder); }
+nav.nav a:hover { color: var(--ink); }
+
+/* "Arriving" mark motion — carried from the live site (Logo & Motion
+   Brief V1.0): plays once per page arrival, then the breath continues;
+   the dot never enters the ring; no interaction reacts to the cursor;
+   reduced-motion receives the completed still mark. */
+.arriving-mark svg { display: block; width: 34px; height: 34px; }
+.arriving-mark .arriving-ring { fill: none; stroke: currentColor; stroke-width: 11; stroke-linecap: round; stroke-dasharray: 0 360; stroke-dashoffset: -50; opacity: 0; }
+.arriving-mark .arriving-seat { fill: var(--madder); transform-origin: 88.5px 50px; transform: translate(0,-6px); }
+.arriving-mark.play .arriving-ring { animation: cic-buildC 1300ms cubic-bezier(.4,0,.2,1) 800ms both; }
+.arriving-mark.play .arriving-seat { animation: cic-sitdown 600ms cubic-bezier(.3,0,.35,1.4) 2400ms both, cic-breath 5.5s ease-in-out 3750ms infinite; }
+@keyframes cic-buildC { 0% { stroke-dasharray: 0 360; stroke-dashoffset: -50; opacity: 0; } 4% { opacity: 1; } 100% { stroke-dasharray: 260 100; stroke-dashoffset: -50; opacity: 1; } }
+@keyframes cic-sitdown { 0% { transform: translate(0,-6px); } 62% { transform: translate(0,1px) scale(1.1,.86); } 100% { transform: translate(0,0) scale(1,1); } }
+@keyframes cic-breath { 0%, 100% { opacity: 1; } 50% { opacity: .76; } }
+@media (prefers-reduced-motion: reduce) {
+  .arriving-mark.play .arriving-ring, .arriving-mark.play .arriving-seat { animation: none; }
+  .arriving-mark .arriving-ring { stroke-dasharray: 260 100; stroke-dashoffset: -50; opacity: 1; }
+  .arriving-mark .arriving-seat { transform: translate(0,0); }
+}
+/* The still mark (no motion) — used wherever the mark appears a second time */
+.still-mark svg { display: block; }
+.still-mark .ring { fill: none; stroke: currentColor; stroke-width: 11; stroke-linecap: round; stroke-dasharray: 260 100; stroke-dashoffset: -50; }
+.still-mark .seat { fill: var(--madder); }
+
+.btn { display: inline-block; font-family: var(--sans); font-weight: 600; font-size: .95rem; line-height: 1.2; padding: .8rem 1.4rem; border-radius: 3px; text-decoration: none; border: 1.5px solid var(--madder); min-height: 44px; }
+.btn.primary { background: var(--madder); color: var(--on-madder); }
+.btn.primary:hover { background: var(--madder-deep); border-color: var(--madder-deep); color: var(--on-madder); }
+.btn.secondary { background: transparent; color: var(--madder); }
+.btn.secondary:hover { background: color-mix(in srgb, var(--madder) 8%, transparent); color: var(--madder-deep); }
+.btn.small { font-size: .875rem; padding: .55rem 1rem; min-height: 40px; }
+
+/* ---------- Status band: the record's own colophon, at first glance ---------- */
+.status-band { border-bottom: 1px solid var(--rule); background: var(--parchment); font-family: var(--sans); font-size: .8125rem; color: var(--ink-faded); }
+.status-band dl { display: flex; flex-wrap: wrap; gap: .35rem 0; margin: 0; padding: .55rem 0; }
+.status-band div { display: flex; gap: .4em; align-items: baseline; padding-right: 1.4rem; margin-right: 1.4rem; border-right: 1px solid var(--rule); }
+.status-band div:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+.status-band dt { letter-spacing: .08em; text-transform: uppercase; font-size: .6875rem; margin: 0; }
+.status-band dd { margin: 0; color: var(--ink); font-weight: 600; }
+
+/* ---------- Hero ---------- */
+.hero { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(2rem, 5vw, 5rem); padding: clamp(2.5rem, 6vw, 4.5rem) 0 clamp(2rem, 5vw, 3.5rem); align-items: start; }
+.hero h1 { font-size: clamp(2.1rem, 4.6vw, 3.4rem); font-weight: 500; line-height: 1.1; margin: .3rem 0 1.2rem; letter-spacing: -.005em; }
+.hero .lede { font-size: 1.3rem; line-height: 1.45; color: var(--ink); margin-bottom: 1.1rem; }
+.hero .body { color: var(--ink-faded); font-size: 1.0625rem; }
+.hero__actions { display: flex; flex-wrap: wrap; gap: .8rem 1rem; margin-top: 1.6rem; align-items: center; }
+.hero__quiet { font-family: var(--sans); font-size: .9rem; }
+
+/* Frontispiece: the mark, its one public sentence, and the state of the record */
+.frontispiece { background: var(--vellum); border: 1px solid var(--rule-strong); padding: 1.5rem 1.6rem 1.4rem; }
+.frontispiece__mark { display: flex; align-items: center; gap: 1rem; padding-bottom: 1.1rem; border-bottom: 1px solid var(--rule); margin-bottom: 1.1rem; }
+.frontispiece__mark .still-mark svg { width: 56px; height: 56px; }
+.frontispiece__sentence { font-style: italic; font-size: 1rem; line-height: 1.4; margin: 0; color: var(--ink); }
+.frontispiece h2 { font-family: var(--sans); font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--tyrian); font-weight: 600; margin: 0 0 .6rem; }
+.record-status { margin: 0; display: grid; grid-template-columns: 1fr auto; row-gap: .3rem; column-gap: 1rem; font-size: .95rem; }
+.record-status dt { color: var(--ink-faded); font-family: var(--sans); }
+.record-status dd { margin: 0; text-align: right; font-variant-numeric: oldstyle-nums; font-weight: 500; }
+.record-status dd.pending { color: var(--ink-faded); font-style: italic; font-weight: 400; }
+.frontispiece__note { font-family: var(--sans); font-size: .75rem; color: var(--ink-faded); margin: .9rem 0 0; line-height: 1.4; }
+
+/* ---------- Section grammar: marginal label column + content column ---------- */
+.section { border-top: 1px solid var(--rule-strong); padding: clamp(2.25rem, 5vw, 3.75rem) 0; scroll-margin-top: 1rem; }
+.section__grid { display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: 1.5rem clamp(2rem, 4vw, 4rem); }
+.section__grid > *, .hero > *, .twocol > * { min-width: 0; }   /* grid children may shrink; wide tables scroll inside their own wrappers */
+.span-all { grid-column: 1 / -1; }
+.marginal { position: sticky; top: 1rem; align-self: start; }
+.marginal .num { font-family: var(--sc); font-size: 2.6rem; line-height: 1; color: var(--ink); font-weight: 400; display: block; margin-bottom: .35rem; }
+.marginal .eyebrow { margin-bottom: .8rem; }
+.marginal p { font-family: var(--sans); font-size: .8125rem; color: var(--ink-faded); line-height: 1.5; margin-bottom: .7rem; }
+.marginal a { color: var(--madder); }
+.section h2 { font-size: clamp(1.6rem, 2.6vw, 2.15rem); margin-bottom: .9rem; }
+.section .intro { font-size: 1.15rem; line-height: 1.5; margin-bottom: 1.5rem; }
+
+/* ---------- Method: Step 0 gate + Steps 1–10 ---------- */
+.gate { border: 1px solid var(--rule-strong); border-left: 4px solid var(--ink); background: var(--vellum); padding: 1rem 1.2rem; margin: 0 0 1.25rem; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 1rem; align-items: baseline; }
+.gate .step__num { font-size: 1.5rem; }
+.gate h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: .2rem; }
+.gate p { font-size: .95rem; color: var(--ink-faded); margin: 0; max-width: none; }
+
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); counter-reset: step; }
+.step { background: var(--vellum); padding: 1rem .95rem 1.1rem; display: flex; flex-direction: column; gap: .4rem; min-height: 11.5rem; position: relative; }
+.step__num { font-family: var(--sc); font-size: 1.35rem; line-height: 1; color: var(--ink); font-weight: 500; font-variant-numeric: lining-nums; }
+.step h3 { font-size: .98rem; font-weight: 700; line-height: 1.25; margin: .15rem 0 .1rem; }
+.step p { font-family: var(--sans); font-size: .84rem; line-height: 1.45; color: var(--ink-faded); margin: 0; max-width: none; }
+.step--last { background: var(--gold-wash); }
+.step--last::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--gold); }
+.step--last h3 { padding-left: .1rem; }
+.firewall { margin: 1.25rem 0 0; border-left: 3px solid var(--gold); padding: .2rem 0 .2rem 1.1rem; max-width: var(--measure); }
+.firewall blockquote { margin: 0; font-size: 1.05rem; font-style: italic; line-height: 1.45; }
+.firewall cite { display: block; font-style: normal; font-family: var(--sans); font-size: .8rem; color: var(--ink-faded); margin-top: .4rem; }
+.method-status { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); margin-top: 1.5rem; }
+.method-status div { background: var(--parchment); padding: .9rem 1rem; }
+.method-status dt { font-family: var(--sans); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-faded); margin: 0 0 .3rem; }
+.method-status dd { margin: 0; font-size: .98rem; line-height: 1.4; }
+.method-status .pending { color: var(--madder); font-weight: 500; }
+
+/* ---------- Confidence scale ---------- */
+.scale { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--rule-strong); border-bottom: 1px solid var(--rule-strong); }
+.scale__level { padding: 1.1rem .9rem 1.2rem .95rem; border-right: 1px solid var(--rule); display: flex; flex-direction: column; gap: .45rem; }
+.scale__level:last-child { border-right: none; }
+.scale__glyph { width: 22px; height: 22px; color: var(--tyrian); }
+.scale__label { font-family: var(--sc); font-size: 1.02rem; letter-spacing: .04em; color: var(--tyrian); font-weight: 700; line-height: 1.2; }
+.scale__gloss { font-family: var(--sans); font-size: .84rem; line-height: 1.45; color: var(--ink-faded); }
+.scale__ends { display: flex; justify-content: space-between; font-family: var(--sans); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-faded); margin: .5rem 0 0; }
+.silence { margin: 1.6rem 0 0; padding: 1.1rem 1.3rem; background: var(--vellum); border: 1px solid var(--rule-strong); max-width: var(--measure); }
+.silence p { font-size: 1.15rem; font-style: italic; margin: 0; }
+.silence cite { display: block; font-style: normal; font-family: var(--sans); font-size: .78rem; color: var(--ink-faded); margin-top: .35rem; }
+
+/* The in-conversation grammar, shown once (no popover mocked — static) */
+.grammar { margin: 1.5rem 0 0; font-size: 1.02rem; max-width: var(--measure); }
+.lex { color: var(--tyrian); text-decoration: underline dotted; text-decoration-thickness: 1.5px; text-underline-offset: .18em; }
+.cite { color: var(--tyrian); text-decoration: none; font-size: .9em; margin-left: .15em; }
+.grammar .how { font-family: var(--sans); font-size: .84rem; color: var(--ink-faded); margin-top: .5rem; }
+
+/* ---------- The Register (catalogue table) ---------- */
+.register-wrap { overflow-x: auto; border: 1px solid var(--rule-strong); background: var(--vellum); }
+table.register { border-collapse: collapse; width: 100%; min-width: 64rem; font-size: .95rem; }
+.register caption { text-align: left; font-family: var(--sans); font-size: .8125rem; color: var(--ink-faded); padding: .7rem 1rem; caption-side: top; border-bottom: 1px solid var(--rule); }
+.register thead th { font-family: var(--sans); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-faded); font-weight: 600; text-align: left; padding: .7rem .8rem; border-bottom: 1px solid var(--rule-strong); background: var(--vellum); white-space: nowrap; }
+.register tbody th, .register tbody td { padding: .85rem .8rem; border-bottom: 1px solid var(--rule); vertical-align: top; text-align: left; font-weight: 400; }
+.register tbody tr:last-child th, .register tbody tr:last-child td { border-bottom: none; }
+.register .era-row th { background: var(--parchment); font-family: var(--sc); font-size: 1rem; letter-spacing: .05em; color: var(--ink); padding: .55rem .8rem; border-top: 1px solid var(--rule-strong); border-bottom: 1px solid var(--rule-strong); }
+.register .era-row span { font-family: var(--sans); font-size: .8rem; letter-spacing: .04em; color: var(--ink-faded); margin-left: .8rem; text-transform: none; }
+.register .no { font-family: var(--sc); font-variant-numeric: lining-nums; white-space: nowrap; color: var(--ink); }
+.register .emblem-cell { width: 3.6rem; padding-right: 0; }
+.emblem { width: 48px; height: 48px; border-radius: 50%; background: var(--gold-wash); border: 1px solid var(--rule-strong); overflow: hidden; display: block; }
+.emblem svg { width: 100%; height: 100%; display: block; }
+.emblem--none { border-style: dashed; display: grid; place-items: center; font-family: var(--sc); font-size: 1.1rem; color: var(--ink-faded); }
+.register .name { font-weight: 700; font-size: 1.02rem; line-height: 1.25; }
+.register .name a { color: var(--ink); text-decoration-color: var(--rule-strong); }
+.register .name a:hover { text-decoration-color: var(--madder); color: var(--madder-deep); }
+.register .sub { display: block; font-family: var(--sans); font-size: .8rem; color: var(--ink-faded); margin-top: .15rem; font-style: italic; }
+.register .rep { font-weight: 500; }
+.register .rep small { display: block; font-family: var(--sans); font-size: .8rem; color: var(--ink-faded); font-weight: 400; }
+.register .src { font-family: var(--sans); font-size: .84rem; line-height: 1.45; color: var(--ink); max-width: 22rem; min-width: 14rem; }
+.register .meta { font-family: var(--sans); font-size: .84rem; color: var(--ink-faded); white-space: nowrap; }
+.register .acts { white-space: nowrap; font-family: var(--sans); font-size: .875rem; }
+.register .acts a { display: block; padding: .2rem 0; min-height: 28px; }
+.register .acts .quiet { color: var(--ink-faded); text-decoration-color: var(--rule-strong); }
+.register .acts .quiet:hover { color: var(--madder-deep); }
+.register tr[data-color] th:first-child { box-shadow: inset 4px 0 0 var(--row-color); }
+.register-notes { font-family: var(--sans); font-size: .8125rem; color: var(--ink-faded); margin: .8rem 0 0; line-height: 1.5; max-width: var(--measure); }
+.register-notes p { margin-bottom: .35rem; max-width: none; }
+
+/* ---------- Two-column prose blocks ---------- */
+.twocol { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 3rem; }
+.twocol h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: .5rem; }
+.twocol ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+.twocol li { margin-bottom: .35rem; }
+.plain { font-size: 1.15rem; line-height: 1.5; }
+.unfinished { border: 1px solid var(--rule-strong); background: var(--vellum); padding: 1rem 1.2rem; }
+.unfinished h3 { color: var(--madder); }
+
+/* ---------- The Table (CTA) ---------- */
+.table-cta { text-align: center; padding: clamp(2.5rem, 6vw, 4.5rem) var(--gutter); border-top: 1px solid var(--rule-strong); background: var(--vellum); }
+.table-cta h2 { font-size: clamp(1.7rem, 3vw, 2.4rem); margin-bottom: .9rem; }
+.table-cta p { margin-left: auto; margin-right: auto; }
+.table-cta .pilot { font-family: var(--sans); font-size: .92rem; color: var(--ink-faded); max-width: 34rem; text-wrap: balance; }
+.table-cta .actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; margin: 1.4rem 0 1.2rem; }
+
+/* ---------- Support slot ---------- */
+.slot { border: 1px dashed var(--rule-strong); padding: 1.1rem 1.3rem; max-width: var(--measure); }
+.slot .label { font-family: var(--sans); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: .5rem; }
+.entity { font-family: var(--sans); font-size: .92rem; color: var(--ink-faded); }
+
+/* ---------- Footer / colophon ---------- */
+.colophon { border-top: 1px solid var(--rule-strong); background: var(--vellum); font-family: var(--sans); font-size: .875rem; color: var(--ink-faded); }
+.colophon .page { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 1.5rem 3rem; padding-top: 2rem; padding-bottom: 2.25rem; }
+.colophon nav { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; }
+.colophon a { color: var(--ink-faded); }
+.colophon a:hover { color: var(--madder-deep); }
+.colophon p { max-width: none; margin-bottom: .5rem; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1100px) {
+  .steps { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .step { min-height: 13rem; }
+}
+@media (max-width: 900px) {
+  .hero { grid-template-columns: minmax(0, 1fr); }
+  .section__grid { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .marginal { position: static; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: .2rem 1rem; align-items: baseline; }
+  .marginal .num { font-size: 2rem; margin: 0; }
+  .marginal p { grid-column: 2; margin-bottom: .3rem; }
+  .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .step { min-height: 0; }
+  .scale { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .twocol { grid-template-columns: minmax(0, 1fr); }
+  .method-status { grid-template-columns: minmax(0, 1fr); }
+  .colophon .page { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 640px) {
+  .masthead__inner { gap: .75rem; }
+  .masthead__cta { display: none; }   /* the Table remains one tap away in the hero and the register */
+  .brand .wordmark { font-size: 1.05rem; }
+  /* Phone: the four load-bearing facts, two-up; the three descriptive rows drop so the hook stays near the fold */
+  .status-band dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .45rem 1rem; }
+  .status-band div { border-right: none; margin-right: 0; padding-right: 0; display: block; }
+  .status-band div.opt { display: none; }
+  .status-band dt { display: block; margin-bottom: .05rem; }
+  .steps { grid-template-columns: minmax(0, 1fr); }
+  .scale { grid-template-columns: minmax(0, 1fr); border-left: 1px solid var(--rule-strong); }
+  .scale__level { border-right: none; border-bottom: 1px solid var(--rule); flex-direction: row; align-items: flex-start; flex-wrap: wrap; }
+  .scale__level:last-child { border-bottom: none; }
+  .scale__gloss { flex-basis: 100%; }
+  .gate { grid-template-columns: minmax(0, 1fr); gap: .3rem; }
+  .register-wrap { margin: 0 calc(-1 * var(--gutter)); border-left: none; border-right: none; }
+}
+
+@media print {
+  .sandbox-note, .masthead__cta, .hero__actions, .table-cta .actions, .register .acts { display: none; }
+  body { font-size: 11pt; }
+  .section { break-inside: avoid; }
+  a { color: inherit; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="sandbox-note" role="note">
+  <div class="page">
+    <span><strong>Sandbox mockup</strong> Website V2 · D1 direction 03 · Institutional-Professional / Scholarly Authority</span>
+    <span>Not live. Not final. Prose tagged <mark class="draft" style="margin-left:0">draft</mark> is illustrative; untagged strings are verbatim from the record or the brand.</span>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="page masthead__inner">
+    <a class="brand" href="homepage.html" aria-label="Church in Conversation — home">
+      <span class="arriving-mark play" aria-hidden="true">
+        <svg viewBox="0 0 100 100">
+          <circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/>
+          <circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/>
+        </svg>
+      </span>
+      <span class="wordmark">Church <em>in</em> Conversation</span>
+    </a>
+    <div class="masthead__right">
+      <nav class="nav" aria-label="Site">
+        <a href="homepage.html" aria-current="page">Home</a>
+        <a href="#register">Traditions</a>
+        <a href="#method">Method</a>
+        <a href="../../../../../../cic-website/atlas-v3.html">Church in History</a>
+        <a href="#review">Review</a>
+        <a href="../../../../../../cic-website/about.html">About</a>
+        <a href="../../../../../../cic-website/support.html">Get Involved</a>
+      </nav>
+      <a class="btn primary small masthead__cta" href="https://cic-engine.onrender.com/?mode=table">Begin a conversation</a>
+    </div>
+  </div>
+</header>
+
+<!-- The record's own colophon, before anything else: the state of the instrument at a glance.
+     Counts read from cic-website/data/world-census.json (meta + eras); verify with Mark before print. -->
+<div class="status-band" aria-label="State of the record">
+  <div class="page">
+    <dl>
+      <div class="opt"><dt>Series</dt><dd>The First Centuries</dd></div>
+      <div><dt>Traditions open for conversation</dt><dd>7</dd></div>
+      <div><dt>Movements surveyed</dt><dd>292, across 10 eras</dd></div>
+      <div class="opt"><dt>Build method</dt><dd>10 steps, review-gated</dd></div>
+      <div><dt>Confidence scale</dt><dd>5 levels, visible in every conversation</dd></div>
+      <div><dt>External academic review</dt><dd>not yet begun</dd></div>
+      <div class="opt"><dt>Census</dt><dd>2026-08-02</dd></div>
+    </dl>
+  </div>
+</div>
+
+<main id="main" class="page">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div>
+      <p class="eyebrow eyebrow--madder">A doorway to sit with the Christian movements of history</p>
+      <h1 id="hero-title">Twenty centuries of the Church. One table. A chair pulled out for you.</h1>
+      <p class="lede">Christian traditions, built from their own letters, sermons, and historical record.</p>
+      <p class="body">Every tradition at this table was rebuilt by the same ten-step, review-gated method, from its own sources, with every claim labeled for how well the record supports it. The method is on this page. The record is open. The chair is yours.<mark class="draft">draft</mark></p>
+      <div class="hero__actions">
+        <a class="btn primary" href="https://cic-engine.onrender.com/?mode=table">Come and join us at the Table</a>
+        <a class="btn secondary" href="#method">Read how a tradition is built</a>
+      </div>
+    </div>
+
+    <aside class="frontispiece" aria-labelledby="record-status-title">
+      <div class="frontispiece__mark">
+        <span class="still-mark" aria-hidden="true">
+          <svg viewBox="0 0 100 100"><circle class="ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="seat" cx="88.5" cy="50" r="6.5"/></svg>
+        </span>
+        <p class="frontispiece__sentence">The mark is a table; the opening is the way in — and it never closes.</p>
+      </div>
+      <h2 id="record-status-title">State of the record</h2>
+      <dl class="record-status">
+        <dt>Traditions open for conversation</dt><dd>7</dd>
+        <dt>Traditions selected, not yet built</dt><dd>2</dd>
+        <dt>Movements surveyed for the Atlas</dt><dd>292</dd>
+        <dt>Eras with the Step 0 survey complete</dt><dd>10 of 10</dd>
+        <dt>Confidence vocabulary</dt><dd>5 levels</dd>
+        <dt>Internal review</dt><dd>every step, gated</dd>
+        <dt>External academic review</dt><dd class="pending">not yet begun</dd>
+        <dt>Representative Modes</dt><dd class="pending">not yet shipped</dd>
+      </dl>
+      <p class="frontispiece__note">Counts are read from the same census the Atlas reads (world-census.json, V0.20, generated 2026-08-02). Nothing here is an engagement number; these describe the record, not its readers.</p>
+    </aside>
+  </section>
+
+  <!-- ===================== § 1 · METHOD ===================== -->
+  <section class="section" id="method" aria-labelledby="method-title">
+    <div class="section__grid">
+      <div class="marginal">
+        <span class="num" aria-hidden="true">1</span>
+        <p class="eyebrow">Method</p>
+        <p>Step titles are verbatim from the Formation World Construction Framework, V7.4, Part VII. The one-line glosses beneath them are draft.</p>
+        <p>The workflow is not strictly linear; later discoveries may require revisiting earlier steps. Revision is expected.</p>
+        <p><a href="../../../../../../cic-website/about.html#how-it-works">The full statement, on the About page →</a></p>
+      </div>
+      <div>
+        <h2 id="method-title">How a tradition is built before anyone speaks for it</h2>
+        <p class="intro">Each Christian tradition is built by going through a disciplined ten-step process. We gather and weigh its own letters, sermons, records, and validated sources. We research its own vocabulary, and the internal and external forces that shaped its beliefs and convictions. Every claim is checked against those sources directly and labeled for how well it's attested. Only then, last, is a representative voice created out of that finished, self-contained record.</p>
+
+        <div class="gate">
+          <span class="step__num" aria-hidden="true">0</span>
+          <div>
+            <h3>Step 0 — Movement-Scope Eligibility and Seed Identification</h3>
+            <p>The gate before the build. Is this a Christian movement within the project's own stated sense of one, and where does it begin? The answer, and the reasons, go on record either way — a tradition set aside is named and explained, never silently dropped.<mark class="draft">draft</mark></p>
+          </div>
+        </div>
+
+        <ol class="steps" aria-label="The ten build steps, in order">
+          <li class="step"><span class="step__num" aria-hidden="true">1</span><h3>World Identification, Boundaries, and Orientation</h3><p>Where and when the tradition lived, where its edges are, and a first sight of the forces that shaped it.</p></li>
+          <li class="step"><span class="step__num" aria-hidden="true">2</span><h3>Source Ecology and Source Registry</h3><p>Every source it left, weighed for reliability and for the pull of its own author.</p></li>
+          <li class="step"><span class="step__num" aria-hidden="true">3</span><h3>Lexicon Candidate List</h3><p>The words the tradition used for itself, gathered before any of them is defined.</p></li>
+          <li class="step"><span class="step__num" aria-hidden="true">4</span><h3>Gravity Discovery</h3><p>What organized this tradition. Each candidate is tested six ways and classed Primary, Supporting, or Tensional — or declined, on record.</p></li>
+          <li class="step"><span class="step__num" aria-hidden="true">5</span><h3>Ecological Reconstruction</h3><p>The tradition's daily life reassembled from what the sources allow — and the silence kept where they don't.</p></li>
+          <li class="step"><span class="step__num" aria-hidden="true">6</span><h3>Full Lexicon Development</h3><p>Each term defined from the sources and labeled with its confidence level.</p></li>
+          <li class="step"><span class="step__num" aria-hidden="true">7</span><h3>Integrated Ecology Analysis</h3><p>The tradition checked against itself, for coherence and for contradiction.</p></li>
+          <li class="step"><span class="step__num" aria-hidden="true">8</span><h3>Forces Document</h3><p>The initiating, ongoing, and ending forces — from inside and out — that moved it.</p></li>
+          <li class="step"><span class="step__num" aria-hidden="true">9</span><h3>Story Inventory, World Profile, and Validation</h3><p>Its stories, tiered by evidence; its profile; its declared limits; the tests it must pass.</p></li>
+          <li class="step step--last"><span class="step__num" aria-hidden="true">10</span><h3>Representative Emergence</h3><p>Only now, a voice — built from the frozen record and nothing else. It speaks only from the tradition's own letters, sermons, and primary sources.</p></li>
+        </ol>
+        <p class="register-notes" style="margin-top:.6rem"><span>Glosses on Steps 1–10 are draft; titles are verbatim.</span></p>
+
+        <figure class="firewall">
+          <blockquote>The Representative emerges last, built only from the completed and frozen world's ecology — never from invented biography. It influences nothing above it.</blockquote>
+          <cite>Formation World Construction Framework V7.4, Part VII, on Step 10 (Change Order CO-003). Quoted as recorded in the 2026-07-25 build-sequencing audit.</cite>
+        </figure>
+
+        <dl class="method-status" aria-label="Review status of the method">
+          <div><dt>Internal review</dt><dd>Each step is reviewed before the next begins. Revision is expected, and recorded.</dd></div>
+          <div><dt>Validation before admission</dt><dd>The most recent tradition admitted (Cappadocian, 2026-08-31) carries 259 individually sourced, gate-checked records and a live admission battery of 28 sealed probes, 28 passed.</dd></div>
+          <div><dt>External academic review</dt><dd><span class="pending">Not yet begun.</span> It is the standard we're building toward for every tradition — not yet complete, since it isn't funded yet.</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== § 2 · CONFIDENCE ===================== -->
+  <section class="section" id="confidence" aria-labelledby="confidence-title">
+    <div class="section__grid">
+      <div class="marginal">
+        <span class="num" aria-hidden="true">2</span>
+        <p class="eyebrow">Confidence</p>
+        <p>The five labels are the Constitution's own (Article 17), verbatim, strongest to weakest. The glosses are draft.</p>
+        <p>Purple is reserved, across the site and inside every conversation, for this apparatus alone.</p>
+      </div>
+      <div>
+        <h2 id="confidence-title">Every claim carries a label for how well the record supports it</h2>
+        <p class="intro">You will meet these five words inside every conversation, on every term in a tradition's vocabulary, and on every story a Representative tells. They are never adjusted for who is asking.<mark class="draft">draft</mark></p>
+
+        <ol class="scale" aria-label="The five confidence levels, strongest to weakest">
+          <li class="scale__level">
+            <svg class="scale__glyph" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor"/></svg>
+            <span class="scale__label">Documented</span>
+            <span class="scale__gloss">Stated directly in the tradition's own surviving sources.</span>
+          </li>
+          <li class="scale__level">
+            <svg class="scale__glyph" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3 A9 9 0 1 1 3 12 L12 12 Z" fill="currentColor"/></svg>
+            <span class="scale__label">Widely Accepted</span>
+            <span class="scale__gloss">Not stated outright, but the settled reading across the field.</span>
+          </li>
+          <li class="scale__level">
+            <svg class="scale__glyph" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/></svg>
+            <span class="scale__label">Dominant Modern Reconstruction</span>
+            <span class="scale__gloss">The leading scholarly account — a reconstruction, and named as one.</span>
+          </li>
+          <li class="scale__level">
+            <svg class="scale__glyph" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3 A9 9 0 0 1 21 12 L12 12 Z" fill="currentColor"/></svg>
+            <span class="scale__label">Contested</span>
+            <span class="scale__gloss">The record supports more than one reading. The disagreement is carried, not resolved.</span>
+          </li>
+          <li class="scale__level">
+            <svg class="scale__glyph" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="3 2.5"/></svg>
+            <span class="scale__label">Inferential / Thin</span>
+            <span class="scale__gloss">Drawn from little evidence, and said only with that thinness disclosed.</span>
+          </li>
+        </ol>
+        <p class="scale__ends" aria-hidden="true"><span>Strongest</span><span>Weakest</span></p>
+
+        <div class="silence">
+          <p>Where the historical record is thin, we let the silence stand.</p>
+          <cite>One of the project's six standing lines. It is a rule of construction, not a slogan: a Representative is built to say "I don't know that" where its tradition left no trace.<mark class="draft">draft</mark></cite>
+        </div>
+
+        <div class="grammar">
+          <p>In a conversation, a term from the tradition's own vocabulary — <span class="lex">ekklesia</span>, say — is underlined the first time it appears. A claim that rests on a source carries a small mark at the end of the turn.<a class="cite" href="#confidence" aria-label="Example of the citation mark">✲</a></p>
+          <p class="how">Hover for the short entry; click for the full one, with sources and confidence — down to the footnote. On a phone: tap, then "Full entry". This is the same grammar the conversation itself uses; the site does not invent a second one.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== § 3 · THE REGISTER ===================== -->
+  <section class="section" id="register" aria-labelledby="register-title">
+    <div class="section__grid">
+      <div class="marginal">
+        <span class="num" aria-hidden="true">3</span>
+        <p class="eyebrow">Register</p>
+        <p>Seven traditions, in chronological order, grouped by era. Every string in this table is read verbatim from the census the Atlas itself reads.</p>
+        <p>"Evidentiary base" is the record's own one-line assessment of its sources — including where it is thin.</p>
+        <p><a href="../../../../../../cic-website/atlas-v3.html">All 292 surveyed movements, in Church in History →</a></p>
+      </div>
+      <div>
+        <h2 id="register-title">Seven traditions open for conversation</h2>
+        <p class="intro">Each entry is a completed record with a Representative who speaks only from it. Open the record before you sit down, or sit down first — the record stays open either way.<mark class="draft">draft</mark></p>
+      </div>
+
+      <!-- The register spans the full page width beneath its marginal notes, like a plate. -->
+      <div class="span-all">
+        <div class="register-wrap">
+          <table class="register">
+            <caption>Church in Conversation: The First Centuries — traditions built and live, from world-census.json (V0.20, 2026-08-02). In production this table is generated from that file at runtime, as the current site's carousel is.</caption>
+            <thead>
+              <tr>
+                <th scope="col">No.</th>
+                <th scope="col"><span class="visually-hidden">Emblem</span></th>
+                <th scope="col">Tradition</th>
+                <th scope="col">Dates · Region</th>
+                <th scope="col">Representative</th>
+                <th scope="col">Evidentiary base</th>
+                <th scope="col">Actions</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr class="era-row"><th scope="rowgroup" colspan="7">Era I · The Early Church Era <span>The Ante-Nicene Period · 70–312 CE</span></th></tr>
+
+              <tr data-color style="--row-color:#7c3aed">
+                <th scope="row" class="no">I.1</th>
+                <td class="emblem-cell"><span class="emblem" role="img" aria-label="Emblem of the House-Churches: a veiled householder with a shared cup">
+                  <svg viewBox="-15 15 150 150"><path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#B87A50" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/><path d="M42 150 Q44 102 60 94 Q76 102 78 150 Z" fill="#D9CDB2" stroke="#2A2521" stroke-width="2.2" stroke-linejoin="round"/><path d="M50 100 Q60 108 70 100" fill="none" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/><path d="M44 46 Q60 34 76 46 Q86 62 78 82 Q60 74 42 82 Q34 62 44 46 Z" fill="#F1E7D0" stroke="#2A2521" stroke-width="2.2"/><path d="M46 58 Q46 82 60 84 Q74 82 74 58" fill="#D8B184" stroke="#2A2521" stroke-width="2"/><path d="M46 58 Q60 57 74 58" fill="none" stroke="#2A2521" stroke-width="1.4" stroke-linecap="round"/><ellipse cx="52.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/><ellipse cx="67.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/><path d="M60 66 v6" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/><path d="M55 76 q5 1.5 10 0" stroke="#2A2521" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M50 132 h20 v6 a10 6 0 0 1 -20 0 z" fill="#2A2521"/><path d="M60 144 v4" stroke="#2A2521" stroke-width="2.4"/></svg></span></td>
+                <td><span class="name"><a href="tradition.html">The House-Churches</a></span><span class="sub">Post-Apostolic House-Church Christianity</span></td>
+                <td class="meta">70–200 CE<br>Antioch, Asia Minor, Rome</td>
+                <td class="rep">Chloe<small>Household Leader</small></td>
+                <td class="src">Moderate; communal voice rich, individual interior voice thin (disclosed on its tile)</td>
+                <td class="acts"><a href="tradition.html">Read the record →</a><a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview">Begin with Chloe ↗</a><a class="quiet" href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=table">Bring Chloe to the Table</a></td>
+              </tr>
+
+              <tr data-color style="--row-color:#2B5F8A">
+                <th scope="row" class="no">I.2</th>
+                <td class="emblem-cell"><span class="emblem" role="img" aria-label="Emblem of Alexandrian Christianity: a teacher holding an opened scroll outward">
+                  <svg viewBox="-15 15 150 150"><path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#EDE4CE" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/><path d="M42 124 L78 124 L78 140 L42 140 Z" fill="#EEE2C4" stroke="#2A2521" stroke-width="1.8" stroke-linejoin="round"/><path d="M47 129 h26" stroke="#2A2521" stroke-width="1.1" stroke-linecap="round"/><path d="M47 133 h26" stroke="#2A2521" stroke-width="1.1" stroke-linecap="round"/><path d="M47 137 h20" stroke="#2A2521" stroke-width="1.1" stroke-linecap="round"/><rect x="37" y="120" width="6" height="26" rx="3" fill="#9A7248" stroke="#2A2521" stroke-width="1.4"/><rect x="77" y="120" width="6" height="26" rx="3" fill="#9A7248" stroke="#2A2521" stroke-width="1.4"/><circle cx="40" cy="120" r="3.4" fill="#7E5A34" stroke="#2A2521" stroke-width="1.2"/><circle cx="40" cy="146" r="3.4" fill="#7E5A34" stroke="#2A2521" stroke-width="1.2"/><circle cx="80" cy="120" r="3.4" fill="#7E5A34" stroke="#2A2521" stroke-width="1.2"/><circle cx="80" cy="146" r="3.4" fill="#7E5A34" stroke="#2A2521" stroke-width="1.2"/><path d="M46 54 Q46 43 60 41 Q74 43 74 54 Q74 82 60 84 Q46 82 46 54 Z" fill="#CDA478" stroke="#2A2521" stroke-width="2"/><path d="M47 46 Q60 40 73 46 Q73 43 60 39 Q47 43 47 46 Z" fill="#C7BFAE" stroke="#2A2521" stroke-width="1.2" stroke-linejoin="round"/><ellipse cx="52.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/><ellipse cx="67.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/><path d="M60 66 v6" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/><path d="M55 76 q5 1.5 10 0" stroke="#2A2521" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg></span></td>
+                <td><span class="name"><a href="#register" title="Record page not mocked in this direction">Alexandrian Christianity</a></span><span class="sub">Alexandrian Catechetical Tradition</span></td>
+                <td class="meta">c. 150–400 CE<br>Alexandria, Egypt</td>
+                <td class="rep">Theon<small>Catechetical Teacher</small></td>
+                <td class="src">Rich (Clement, Origen); school-institution question is live scholarship</td>
+                <td class="acts"><a href="#register" title="Record page not mocked in this direction">Read the record →</a><a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview">Begin with Theon ↗</a><a class="quiet" href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=table">Bring Theon to the Table</a></td>
+              </tr>
+
+              <tr data-color style="--row-color:#b45309">
+                <th scope="row" class="no">I.7</th>
+                <td class="emblem-cell"><span class="emblem" role="img" aria-label="Emblem of Syriac Christianity: a covenant-teacher holding the one Gospel">
+                  <svg viewBox="-15 15 150 150"><path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#9C6350" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/><path d="M46 54 Q46 43 60 41 Q74 43 74 54 Q74 82 60 84 Q46 82 46 54 Z" fill="#B58A5A" stroke="#2A2521" stroke-width="2"/><path d="M47 46 Q60 40 73 46 Q73 43 60 39 Q47 43 47 46 Z" fill="#3A2E22" stroke="#2A2521" stroke-width="1.2" stroke-linejoin="round"/><ellipse cx="52.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/><ellipse cx="67.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/><path d="M60 66 v6" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/><path d="M56.5 76 q3.5 1 7 0" fill="none" stroke="#2A2521" stroke-width="1.5" stroke-linecap="round"/><path d="M46 69 Q44 98 60 114 Q76 98 74 69 Q68 82 60 81 Q52 82 46 69 Z" fill="#3A2E22" stroke="#2A2521" stroke-width="1.6" stroke-linejoin="round"/><rect x="52" y="119" width="20" height="27" rx="1.5" fill="#E8DCBF" stroke="#2A2521" stroke-width="1.3"/><rect x="49" y="116" width="20" height="27" rx="2" fill="#6E4A2E" stroke="#2A2521" stroke-width="1.8"/><path d="M53 117 v25" stroke="#3A2718" stroke-width="1.3" stroke-linecap="round"/><rect x="56" y="121" width="9" height="17" rx="1" fill="none" stroke="#2A2521" stroke-width="0.9" stroke-opacity="0.45"/></svg></span></td>
+                <td><span class="name"><a href="#register" title="Record page not mocked in this direction">Syriac Christianity</a></span><span class="sub">Syriac Christianity (Edessa/Nisibis) · a living inheritance</span></td>
+                <td class="meta">200–410 CE<br>Edessa &amp; Nisibis</td>
+                <td class="rep">Mar Yausep<small>Teacher of the Covenant Order</small></td>
+                <td class="src">Rich formal/doctrinal, thinner personal texture (disclosed on its tile)</td>
+                <td class="acts"><a href="#register" title="Record page not mocked in this direction">Read the record →</a><a href="https://cic-engine.onrender.com/?worlds=syriac-edessa-nisibis&amp;mode=interview">Begin with Mar Yausep ↗</a><a class="quiet" href="https://cic-engine.onrender.com/?worlds=syriac-edessa-nisibis&amp;mode=table">Bring Mar Yausep to the Table</a></td>
+              </tr>
+            </tbody>
+
+            <tbody>
+              <tr class="era-row"><th scope="rowgroup" colspan="7">Era II · The Imperial Church Era <span>The Constantinian/Nicene Era · 312–451 CE</span></th></tr>
+
+              <tr data-color style="--row-color:#7A2E2E">
+                <th scope="row" class="no">I.6</th>
+                <td class="emblem-cell"><span class="emblem" role="img" aria-label="Emblem of Church and Empire: a deacon carrying a strapped scroll-case">
+                  <svg viewBox="-15 15 150 150"><path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#7A2E2E" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/><path d="M46 54 Q46 43 60 41 Q74 43 74 54 Q74 82 60 84 Q46 82 46 54 Z" fill="#D6B48A" stroke="#2A2521" stroke-width="2"/><path d="M47 46 Q60 40 73 46 Q73 43 60 39 Q47 43 47 46 Z" fill="#3A2E22" stroke="#2A2521" stroke-width="1.2" stroke-linejoin="round"/><ellipse cx="52.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/><ellipse cx="67.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/><path d="M60 66 v6" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/><path d="M55 76 q5 1.5 10 0" stroke="#2A2521" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M33 88 Q56 112 78 136" fill="none" stroke="#2A2521" stroke-width="9" stroke-linecap="butt"/><path d="M33 88 Q56 112 78 136" fill="none" stroke="#E8DCBF" stroke-width="6.5" stroke-linecap="butt"/><path d="M34 140 Q58 105 84 88" fill="none" stroke="#2A2521" stroke-width="6.5" stroke-linecap="round"/><path d="M34 140 Q58 105 84 88" fill="none" stroke="#5A3D24" stroke-width="4.5" stroke-linecap="round"/><ellipse cx="60" cy="112" rx="7" ry="3" fill="#7E5A34" stroke="#2A2521" stroke-width="1.4"/><rect x="53" y="112" width="14" height="34" rx="6" fill="#6E4A2E" stroke="#2A2521" stroke-width="1.8"/><path d="M53 122 q-5 3 0 7" fill="none" stroke="#2A2521" stroke-width="1.3" stroke-linecap="round"/></svg></span></td>
+                <td><span class="name"><a href="#register" title="Record page not mocked in this direction">Church and Empire</a></span><span class="sub">Imperial and Juridical Christianity</span></td>
+                <td class="meta">c. 312–451<br>Rome, Constantinople, Milan</td>
+                <td class="rep">Marius<small>Deacon of the Letters</small></td>
+                <td class="src">Rich institutional (Eusebius, Ambrose, Leo)</td>
+                <td class="acts"><a href="#register" title="Record page not mocked in this direction">Read the record →</a><a href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=interview">Begin with Marius ↗</a><a class="quiet" href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=table">Bring Marius to the Table</a></td>
+              </tr>
+
+              <tr data-color style="--row-color:#0f766e">
+                <th scope="row" class="no">I.3</th>
+                <td class="emblem-cell"><span class="emblem" role="img" aria-label="Emblem of the Desert Fathers and Mothers: a hooded elder with a cracked jug">
+                  <svg viewBox="-15 15 150 150"><path d="M18 150 Q14 98 34 86 Q28 56 42 44 Q52 31 60 30 Q68 31 78 44 Q92 56 86 86 Q106 98 102 150 Z" fill="#756950" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/><path d="M46 58 Q46 82 60 84 Q74 82 74 58" fill="#A97B4A" stroke="#2A2521" stroke-width="2"/><path d="M46 58 Q60 57 74 58" fill="none" stroke="#2A2521" stroke-width="1.4" stroke-linecap="round"/><ellipse cx="52.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/><ellipse cx="67.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/><path d="M60 66 v6" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/><path d="M56.5 77 q3.5 1 7 0" fill="none" stroke="#2A2521" stroke-width="1.5" stroke-linecap="round"/><path d="M45 68 Q42 102 60 122 Q78 102 75 68 Q68 83 60 82 Q52 83 45 68 Z" fill="#D9D2C4" stroke="#2A2521" stroke-width="1.6" stroke-linejoin="round"/><path d="M51 135 Q50 148 60 150 Q70 148 69 135 Q69 129 63 127 L57 127 Q51 129 51 135 Z" fill="#BC8A5E" stroke="#2A2521" stroke-width="2.2" stroke-linejoin="round"/><path d="M57 127 Q56.5 124 57.5 123 L62.5 123 Q63.5 124 63 127" fill="#BC8A5E" stroke="#2A2521" stroke-width="1.8" stroke-linejoin="round"/><path d="M56 123 Q60 121.5 64 123" fill="none" stroke="#2A2521" stroke-width="1.5" stroke-linecap="round"/><path d="M63 128 q6 1 5 7" fill="none" stroke="#2A2521" stroke-width="2" stroke-linecap="round"/><path d="M55 137 l3 2.5 l-2 3" fill="none" stroke="#2A2521" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></td>
+                <td><span class="name"><a href="#register" title="Record page not mocked in this direction">Desert Fathers and Mothers</a></span><span class="sub">Desert Monasticism · a living inheritance</span></td>
+                <td class="meta">c. 320–430 CE<br>Nile Valley &amp; Desert, Egypt</td>
+                <td class="rep">Papnoute<small>Abba (Elder)</small></td>
+                <td class="src">Small corpus, deep on inner combat (disclosed on its tile)</td>
+                <td class="acts"><a href="#register" title="Record page not mocked in this direction">Read the record →</a><a href="https://cic-engine.onrender.com/?worlds=desert-monasticism&amp;mode=interview">Begin with Papnoute ↗</a><a class="quiet" href="https://cic-engine.onrender.com/?worlds=desert-monasticism&amp;mode=table">Bring Papnoute to the Table</a></td>
+              </tr>
+
+              <tr data-color style="--row-color:#A0522D">
+                <th scope="row" class="no">I.5</th>
+                <td class="emblem-cell"><span class="emblem emblem--none" role="img" aria-label="No emblem yet drawn for the Cappadocian Churches">C</span></td>
+                <td><span class="name"><a href="#register" title="Record page not mocked in this direction">The Cappadocian Churches</a></span><span class="sub">Cappadocian Pastoral-Monastic and Trinitarian Tradition · a living inheritance</span></td>
+                <td class="meta">c. 325–394 CE<br>Cappadocia / Anatolia</td>
+                <td class="rep">Chilo<small>Elder of the Brotherhoods</small></td>
+                <td class="src">Rich (Basil, the Gregories, and — rare for a defeated opponent — Eunomius' own surviving Apology); several flagship attributions (Epistle 38) contested</td>
+                <td class="acts"><a href="#register" title="Record page not mocked in this direction">Read the record →</a><a href="https://cic-engine.onrender.com/?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview">Begin with Chilo ↗</a><a class="quiet" href="https://cic-engine.onrender.com/?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=table">Bring Chilo to the Table</a></td>
+              </tr>
+
+              <tr data-color style="--row-color:#9d174d">
+                <th scope="row" class="no">I.9</th>
+                <td class="emblem-cell"><span class="emblem" role="img" aria-label="Emblem of the Bethlehem Circle: a widow-patron with a wax tablet and stylus">
+                  <svg viewBox="-15 15 150 150"><path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#A99B7E" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/><path d="M42 150 Q44 102 60 94 Q76 102 78 150 Z" fill="#D9CDB2" stroke="#2A2521" stroke-width="2.2" stroke-linejoin="round"/><path d="M50 100 Q60 108 70 100" fill="none" stroke="#8F805E" stroke-width="1.8" stroke-linecap="round"/><path d="M46 54 Q46 43 60 41 Q74 43 74 54 Q74 82 60 84 Q46 82 46 54 Z" fill="#E5C6A0" stroke="#2A2521" stroke-width="2"/><path d="M46 51 Q47 54 51 52 Q56 47 58 47 Q66 58 74 50 Q75 44 66 41 Q58 40 52 41 Q47 42 46 51 Z" fill="#C4BCA8" stroke="#2A2521" stroke-width="1.2" stroke-linejoin="round"/><path d="M54 42 q2 2 1 4" fill="none" stroke="#2A2521" stroke-width="1" stroke-opacity="0.5" stroke-linecap="round"/><ellipse cx="52.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/><ellipse cx="67.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/><path d="M60 66 v6" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/><path d="M55 76 q5 1.5 10 0" stroke="#2A2521" stroke-width="1.8" fill="none" stroke-linecap="round"/><rect x="48" y="127" width="24" height="19" rx="2" fill="#9A7248" stroke="#2A2521" stroke-width="1.8"/><rect x="51" y="130" width="18" height="13" rx="1" fill="#4A3B2A" stroke="#2A2521" stroke-width="1.2"/><path d="M54 134 h12" stroke="#B6A784" stroke-width="0.9" stroke-opacity="0.7" stroke-linecap="round"/><path d="M54 138 h9" stroke="#B6A784" stroke-width="0.9" stroke-opacity="0.7" stroke-linecap="round"/><path d="M76 120 L66 134" stroke="#7A6544" stroke-width="2.4" stroke-linecap="round"/><circle cx="76.5" cy="119.5" r="2.1" fill="#7A6544" stroke="#2A2521" stroke-width="1"/></svg></span></td>
+                <td><span class="name"><a href="#register" title="Record page not mocked in this direction">The Bethlehem Circle</a></span><span class="sub">Hieronymian Ascetic-Literary Christianity</span></td>
+                <td class="meta">c. 382–420 CE<br>Rome &amp; Bethlehem</td>
+                <td class="rep">Albina<small>Widow of the Household</small></td>
+                <td class="src">Richest written record of the four built worlds - mostly via one prolific pen (disclosed)</td>
+                <td class="acts"><a href="#register" title="Record page not mocked in this direction">Read the record →</a><a href="https://cic-engine.onrender.com/?worlds=hieronymian-ascetic-literary&amp;mode=interview">Begin with Albina ↗</a><a class="quiet" href="https://cic-engine.onrender.com/?worlds=hieronymian-ascetic-literary&amp;mode=table">Bring Albina to the Table</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="register-notes">
+          <p>Numbers are the Atlas identifiers, not a ranking. "A living inheritance" marks a tradition with direct descendants worshipping today, per the census.</p>
+          <p>The Cappadocian Churches carry a locked portrait but no line emblem yet — the emblem set predates that tradition's admission. Shown as the record stands.</p>
+          <p>The Bethlehem Circle's evidentiary line still says "four built worlds"; the census string predates the fifth, sixth, and seventh. Reproduced verbatim, flagged for the census maintainers.</p>
+          <p>"Bring to the Table" seats a Representative in the app's Table field and never starts a session on its own. Whether that entry point stays beside the free interview is an open question on the V1 record; this mockup mirrors the live site and assumes nothing either way.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== § 4 · THE AI QUESTION, RAISED FIRST ===================== -->
+  <section class="section" id="ai" aria-labelledby="ai-title">
+    <div class="section__grid">
+      <div class="marginal">
+        <span class="num" aria-hidden="true">4</span>
+        <p class="eyebrow">Disclosure</p>
+        <p>Raised here by us, before anyone has to ask. The work is shown before the caveat; the caveat is still shown.</p>
+      </div>
+      <div>
+        <h2 id="ai-title">This is an AI system. Here is what holds it to the record, and what is still unfinished.</h2>
+        <div class="twocol">
+          <div>
+            <h3>What holds it</h3>
+            <ul>
+              <li><strong>Locked to sources.</strong> A Representative is built from a completed, frozen record and speaks only from the tradition's own letters, sermons, and primary sources.</li>
+              <li><strong>Shows its confidence.</strong> The five-level scale above is carried into every conversation and never adjusted for the person asking.</li>
+              <li><strong>Tested before admission.</strong> Each tradition passes a sealed probe battery before it is seated; the most recent passed 28 of 28.</li>
+              <li><strong>Watched while it speaks.</strong> Every conversation is watched in real time for a softened truth, an invented detail, or knowledge the voice shouldn't have — and corrected before it reaches you.</li>
+              <li><strong>Never a person.</strong> A Representative is a voice of its tradition — real conversation, never a pretense of being human, and it will never try to convert you.</li>
+            </ul>
+            <p class="register-notes" style="margin:0"><span>Bullets are draft, assembled from the About page and the census record.</span><mark class="draft">draft</mark></p>
+          </div>
+          <div class="unfinished">
+            <h3>What is unfinished, said plainly</h3>
+            <ul>
+              <li><strong>External academic review has not begun.</strong> An advisory board to facilitate independent review of each tradition is being formed; it needs funding and volunteers.</li>
+              <li><strong>Representative Modes have not shipped.</strong> Every conversation runs on the plain, single-mode Representative today.</li>
+              <li><strong>Later centuries are planned, not built.</strong> What is live is the first chapter — the Church's own first four hundred years. Each later era is its own careful, review-gated build, not a shortcut on top of the first.</li>
+              <li><strong>If a conversation touches real distress,</strong> a separate, clearly-labeled voice steps in to direct you toward real human support.</li>
+            </ul>
+          </div>
+        </div>
+        <p class="plain" style="margin-top:1.5rem">We are committed to representing each Christian movement in full — its testimony, beautiful and hard alike.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== § 5 · REVIEW ===================== -->
+  <section class="section" id="review" aria-labelledby="review-title">
+    <div class="section__grid">
+      <div class="marginal">
+        <span class="num" aria-hidden="true">5</span>
+        <p class="eyebrow">Review</p>
+        <p>Where external review stands, and what a reviewer receives.</p>
+      </div>
+      <div>
+        <h2 id="review-title">Independent review is the standard. It has not yet begun.</h2>
+        <p class="intro">We measure whether each Christian movement is represented in an engaging and accurate way. What it means for you is yours to own and share.</p>
+        <p>A reviewer's brief exists for the first tradition built — a ten-minute orientation distilled from the record itself, with the full apparatus behind it: world identification, source ecology, lexicon, gravity discovery, ecological reconstruction, forces analysis, story inventory with tier justifications, and validation testing. It ends with the four questions we would most want a scholar of the period to press on. If that is your field, we would welcome your eye: <a href="mailto:info@churchinconversation.com?subject=Academic%20review">info@churchinconversation.com</a>.<mark class="draft">draft</mark></p>
+        <p>Other ways to help that cost nothing: introduce us to a seminary, professor, or scholar who might serve as an external reviewer; or simply ask us questions — the sharpest ones make the work better.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== THE TABLE ===================== -->
+<section class="table-cta" aria-labelledby="table-title">
+  <div class="page">
+    <p class="eyebrow eyebrow--madder">The Table</p>
+    <h2 id="table-title">Come and join us at the Table</h2>
+    <p class="pilot">This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith. Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
+    <div class="actions">
+      <a class="btn primary" href="https://cic-engine.onrender.com/?mode=table">Come and join us at the Table</a>
+      <a class="btn secondary" href="#register">Choose a tradition first</a>
+    </div>
+    <p class="pilot">No account. Nothing is gated behind a gift. The record stays open whether or not you ever sit down.<mark class="draft">draft</mark></p>
+  </div>
+</section>
+
+<section class="section" id="involved" aria-labelledby="involved-title" style="border-top:none">
+  <div class="page">
+    <div class="section__grid">
+      <div class="marginal">
+        <span class="num" aria-hidden="true">6</span>
+        <p class="eyebrow">Get Involved</p>
+        <p>A content slot, by design: the cost and giving copy has been rewritten six times in one week on the live site. The entity line is fixed; the rest is laid out to change.</p>
+      </div>
+      <div>
+        <h2 id="involved-title">Running these conversations costs real money</h2>
+        <div class="slot">
+          <p class="label">Volatile copy slot — current live text, draft-and-approve governed</p>
+          <p>Every conversation has a real cost, turn by turn. We've worked diligently to bring what we can down, so the door can stay open to as many people as possible. Keeping it that way is where we need your help. <a href="../../../../../../cic-website/support.html">What it costs, what we're doing about it, and how to give →</a></p>
+        </div>
+        <p class="entity" style="margin-top:1rem">Church in Conversation is part of Faithways Studio, Inc., a Colorado Public Benefit Corporation — not a nonprofit. Contributions are not tax-deductible.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="colophon">
+  <div class="page">
+    <div>
+      <p>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</p>
+      <p>Set in Alegreya, Alegreya SC, and Alegreya Sans. Census V0.20+era10-frozen, generated 2026-08-02. Confidence vocabulary: Constitution V2.2, Article 17. Build method: Formation World Construction Framework V7.4.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="../../../../../../cic-website/about.html">About</a>
+      <a href="../../../../../../cic-website/whats-next.html">What's Next</a>
+      <a href="../../../../../../cic-website/pilot-feedback.html">Feedback</a>
+      <a href="../../../../../../cic-website/privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<style>
+/* utility, kept at the end so it wins */
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+</style>
+</body>
+</html>

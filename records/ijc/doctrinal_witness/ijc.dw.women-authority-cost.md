@@ -37,7 +37,7 @@ text: >-
   Could a woman carry real authority among us, and what did it cost her? Yes,
   twice on the record's own terms, and both times the cost was steep. Justina
   was the mother of a young emperor and the dominant influence over him; no
-  formal regency is on record. This world's own transmission names her as the
+  formal regency is on record. What came down to us names her as the
   one who turned the machinery of the state against Ambrose when he refused to
   surrender a basilica. The penalties were real: the city's merchants were
   ordered to pay two hundred pounds of gold within three days, innocent people
@@ -49,7 +49,7 @@ text: >-
   The basilica was never surrendered, and everything the record says about her
   part reaches us through the account of the bishop who defeated her.
   Pulcheria carried authority long enough to help convene the council that
-  closed this world's era. Leo himself records that she commanded the council
+  closed our era. Leo himself records that she commanded the council
   to be held. She refused his request to hold it in Italy, and he answered by
   sending his legates without protest. He also wrote congratulating her on a
   synod already held, and none of this was mere courtesy. Her cost was

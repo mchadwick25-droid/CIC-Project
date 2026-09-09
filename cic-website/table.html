@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8">
+<script>document.documentElement.className='js'</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Set Your Own Table — Church in Conversation</title>
+<meta name="description" content="Bring up to three Christian traditions to one table — choose who joins you, or let the Facilitator set the table for you.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF; --gold-wash:#FBF2E2;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --gold-leaf:#B45309; --tyrian:#6B3FA0; --lapis:#1E40AF; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1; --action:#E08C74; --action-hover:#F0A98F;
+  --tyrian-text:#C9A6E8; --lapis-text:#9DB4F0;
+  --control:#A39B92;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --mark-ink:#EDE5D6; --mark-dot:#CB6E52;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0 0 1rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.sans{font-family:var(--sans)}
+.muted{color:var(--muted)}
+
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.7rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.25rem 1.5rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.site-nav{font-family:var(--sans);font-size:.95rem;display:flex;flex-wrap:wrap;align-items:center;gap:0 1.1rem}
+.site-nav a{color:var(--text);text-decoration:none;padding:.7rem .1rem;border-bottom:2px solid transparent;min-height:44px;display:inline-flex;align-items:center}
+.site-nav a:hover,.site-nav a:focus-visible{border-bottom-color:var(--action)}
+.site-nav a[hidden]{display:none}
+.site-nav .side-door{color:var(--muted);font-style:italic;gap:.3em}
+.site-nav .side-door:hover,.site-nav .side-door:focus-visible{color:var(--text)}
+@media (max-width:640px){
+  .site-nav .sd-long{display:none}
+  .site-nav{font-size:.9rem;gap:0 .85rem}
+  .site-header .row{gap:.1rem 1rem}
+}
+
+.page{max-width:var(--col);margin:0 auto;padding:0 1.25rem}
+.crumbs{font-family:var(--sans);font-size:.875rem;color:var(--muted);padding:1rem 0 0}
+.crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem .5rem}
+.crumbs li+li::before{content:"›";margin-right:.5rem}
+.crumbs a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+
+.hero{text-align:center;padding:2rem 1.25rem 1rem}
+.hero h1{font-size:clamp(2rem,4.5vw,2.75rem);margin:0 0 .75rem}
+.hero .lede{font-size:1.15rem;max-width:32rem;margin:0 auto 1.75rem;text-wrap:balance;color:var(--text)}
+
+.table-graphic{position:relative;width:280px;height:280px;margin:0 auto 2rem}
+.table-graphic svg{position:absolute;inset:0;width:100%;height:100%;color:var(--mark-ink)}
+.ring{fill:none;stroke:currentColor;stroke-width:8;stroke-linecap:round;stroke-dasharray:0 400;opacity:0}
+.table-graphic.play .ring{animation:table-draw 1100ms cubic-bezier(.4,0,.2,1) 300ms both}
+@keyframes table-draw{0%{stroke-dasharray:0 400;opacity:0}4%{opacity:1}100%{stroke-dasharray:329.9 400;opacity:1}}
+.seat{position:absolute;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-align:center}
+.seat-you{background:var(--surface);border:2px solid var(--mark-dot);font-family:var(--sans);font-size:.75rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--mark-dot);left:218px;top:112px;opacity:0}
+.table-graphic.play .seat-you{animation:seat-in 500ms cubic-bezier(.3,0,.35,1.4) 1300ms both}
+@keyframes seat-in{0%{opacity:0;transform:scale(.4)}100%{opacity:1;transform:scale(1)}}
+.seat-open{background:none;border:1.5px dashed var(--control);cursor:pointer;font-family:var(--sans);font-size:.7rem;color:var(--muted);padding:.2rem;line-height:1.2}
+.seat-open:hover,.seat-open:focus-visible{border-color:var(--action);color:var(--action)}
+.seat-open.filled{border-style:solid;border-color:var(--seat-tint,var(--control));background:var(--surface);color:var(--text);font-family:var(--sans);font-weight:600;font-size:.75rem;padding:.3rem;overflow:hidden}
+.seat-open.filled img{width:100%;height:100%;object-fit:cover;border-radius:50%;position:absolute;inset:0}
+.seat-open.filled span{position:relative;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;line-height:1.2;padding:.1rem .3rem;border-radius:2px}
+.seat-1{left:112px;top:218px}
+.seat-2{left:6px;top:112px}
+.seat-3{left:112px;top:6px}
+@media (prefers-reduced-motion:reduce){
+  .table-graphic.play .ring,.table-graphic.play .seat-you{animation:none}
+  .ring{stroke-dasharray:329.9 400;opacity:1}
+  .seat-you{opacity:1;transform:none}
+}
+
+.ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 auto 1.75rem;max-width:var(--measure);text-align:left}
+
+.launch-action{text-align:center;padding:0 1.25rem;margin:0 0 .5rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:600;font-size:1rem;line-height:1.2;padding:.75rem 1.5rem;min-height:44px;border-radius:3px;text-decoration:none;cursor:pointer;border:1.5px solid var(--btn-edge);background:var(--btn-fill);color:var(--btn-text)}
+.btn:hover,.btn:focus-visible{background:var(--madder-deep);color:var(--btn-text)}
+
+.choose-table{text-align:center;padding:0 1.25rem 1.5rem}
+.choose-heading{font-family:var(--sans);font-size:.9375rem;color:var(--text);font-weight:600;margin:0 0 1.25rem}
+.roster-label{font-family:var(--sans);font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 .8rem}
+.roster{list-style:none;margin:0 auto 1.75rem;padding:0;max-width:34rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem .9rem}
+.roster li{display:flex;flex-direction:column;align-items:center;gap:.35rem;width:64px}
+.roster img{width:38px;height:38px;border-radius:50%;object-fit:cover;object-position:50% 22%;border:2px solid var(--tint,var(--control))}
+.roster span{font-family:var(--sans);font-size:.7rem;line-height:1.2;color:var(--muted);text-align:center}
+.count{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:.75rem 0 0}
+.caveat{font-family:var(--sans);font-size:.9rem;color:var(--muted);max-width:var(--measure);margin:1.5rem auto 0;text-align:center}
+.noscript-note{font-family:var(--sans);font-size:.9rem;color:var(--muted);max-width:var(--measure);margin:1rem auto;text-align:center;border:1px solid var(--rule);padding:.9rem 1.1rem;border-radius:3px}
+
+.panel{position:fixed;top:0;right:0;height:100vh;width:min(420px,100vw);background:var(--surface);border-left:1px solid var(--rule);padding:1.6rem 1.6rem 2rem;overflow-y:auto;z-index:30;visibility:hidden}
+.panel.open{visibility:visible}
+@media (max-width:640px){ .panel{top:auto;bottom:0;height:auto;max-height:70vh;width:100vw;border-left:0;border-top:1px solid var(--rule);border-radius:12px 12px 0 0} }
+.panel .kicker{font-family:var(--sans);font-size:.8125rem;letter-spacing:.14em;text-transform:uppercase;color:var(--tyrian-text);font-weight:600;margin:0 0 .8rem}
+.panel .close{position:absolute;top:.8rem;right:.8rem;width:44px;height:44px;border-radius:50%;border:1px solid var(--control);background:var(--ground);color:var(--text);font-size:1.2rem;line-height:1;cursor:pointer;font-family:var(--sans)}
+.panel .remove{display:flex;width:100%;align-items:center;gap:.3rem;font:inherit;font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--action);background:none;border:0;border-bottom:1px solid var(--rule);padding:.8rem .1rem;margin:0 0 .5rem;cursor:pointer;min-height:44px;text-align:left}
+.panel .remove[hidden]{display:none}
+.panel .remove:hover,.panel .remove:focus-visible{color:var(--action-hover)}
+.choices{list-style:none;margin:0;padding:0}
+.choices li{border-bottom:1px solid var(--rule)}
+.choices button{display:flex;align-items:center;gap:.8rem;width:100%;font:inherit;background:none;border:0;padding:.7rem .1rem;cursor:pointer;text-align:left;min-height:56px}
+.choices button:disabled{cursor:default;opacity:.45}
+.choices button:not(:disabled):hover,.choices button:not(:disabled):focus-visible{background:var(--ground)}
+.choices .portrait{width:44px;height:44px;border-radius:50%;overflow:hidden;flex:0 0 auto;border:2px solid var(--tint,var(--control))}
+.choices .portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.choices .name{font-family:var(--serif);font-weight:700;font-size:1rem;color:var(--text)}
+.choices .trad{font-family:var(--sans);font-size:.8125rem;color:var(--muted)}
+.choices .ctx{font-family:var(--sans);font-size:.75rem;color:var(--muted)}
+.choices .taken{font-family:var(--sans);font-size:.75rem;color:var(--muted);margin-left:auto}
+.tile-tip{position:fixed;z-index:40;max-width:280px;background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:.6rem .8rem;box-shadow:0 6px 20px rgba(0,0,0,.2);pointer-events:none}
+.tile-tip[hidden]{display:none}
+.tile-tip .tip-name{font-family:var(--serif);font-weight:700;font-size:.95rem;color:var(--text)}
+.tile-tip .tip-trad{font-family:var(--sans);font-size:.75rem;color:var(--muted);margin:0 0 .3rem}
+.tile-tip .tip-desc{font-family:var(--sans);font-size:.8125rem;line-height:1.4;color:var(--text)}
+.info{display:flex;flex-direction:column}
+.info[hidden]{display:none}
+.info .back{display:flex;width:100%;align-items:center;gap:.3rem;font:inherit;font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--action);background:none;border:0;padding:.8rem .1rem;margin:0 0 1rem;cursor:pointer;min-height:44px;text-align:left}
+.info .back:hover,.info .back:focus-visible{color:var(--action-hover)}
+.info-portrait{width:96px;height:96px;border-radius:50%;overflow:hidden;border:2px solid var(--tint,var(--control));margin:0 0 .9rem}
+.info-portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.info-name{font-family:var(--serif);font-weight:700;font-size:1.3rem;color:var(--text);margin:0 0 .2rem}
+.info-trad{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0 0 .9rem}
+.info-desc{font-family:var(--sans);font-size:.9375rem;color:var(--text);line-height:1.5;margin:0 0 1.4rem}
+.info .btn{width:100%}
+
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
+.site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+
+@media (max-width:480px){
+    .table-graphic{width:240px;height:240px}
+  .seat{width:48px;height:48px}
+  .seat-you{left:186.9px;top:96px}
+  .seat-1{left:96px;top:186.9px}
+  .seat-2{left:5.1px;top:96px}
+  .seat-3{left:96px;top:5.1px}
+}
+@media print{ .site-header,.panel,.skip-link{display:none} }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="row">
+    <a class="wordmark" href="index.html">Church <em>in</em> Conversation</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="whats-next.html">What's Next</a>
+      <a href="atlas-v3.html">Timeline</a>
+      <a href="support.html">Get Involved</a>
+      <a class="side-door" id="side-door" href="talk.html" hidden><span class="sd-long">Been here before? </span>Go straight to a conversation →</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="page">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li aria-current="page">Set your own table</li>
+      </ol>
+    </nav>
+
+    <section class="hero" aria-labelledby="hook">
+      <p class="eyebrow">The Table</p>
+      <h1 id="hook">Set your own table</h1>
+      <p class="lede">Up to three traditions join you at once — each speaks from its own record, in its own voice. No one at this table is the host.</p>
+    </section>
+
+    <section class="choose-table" aria-labelledby="chooseHeading">
+      <p class="choose-heading" id="chooseHeading">Click an open seat below to choose who joins you</p>
+
+      <div class="table-graphic play" id="tableGraphic" aria-hidden="true">
+        <svg viewBox="0 0 280 280">
+          <path class="ring" d="M189.5,189.5 A70,70 0 1 1 189.5,90.5"/>
+        </svg>
+        <div class="seat seat-you">You</div>
+        <button type="button" class="seat seat-open seat-1" id="seatBtn1" aria-describedby="seat-1-status">
+          <span class="vh" id="seat-1-status">Open seat. Choose a tradition.</span>
+          <span class="seat-label" aria-hidden="true">Open seat</span>
+        </button>
+        <button type="button" class="seat seat-open seat-2" id="seatBtn2" aria-describedby="seat-2-status">
+          <span class="vh" id="seat-2-status">Open seat. Choose a tradition.</span>
+          <span class="seat-label" aria-hidden="true">Open seat</span>
+        </button>
+        <button type="button" class="seat seat-open seat-3" id="seatBtn3" aria-describedby="seat-3-status">
+          <span class="vh" id="seat-3-status">Open seat. Choose a tradition.</span>
+          <span class="seat-label" aria-hidden="true">Open seat</span>
+        </button>
+      </div>
+
+      <p class="roster-label">Who's available</p>
+      <ul class="roster" id="roster"></ul>
+
+      <p class="ai-line">Each voice you seat is a representative voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out.</p>
+      <p class="count" id="convene-count" aria-live="polite">0 of 3 seats filled.</p>
+      <noscript><p class="noscript-note">Choosing seats here needs JavaScript. You can still <a href="https://cic-engine.onrender.com/?mode=table">open an empty table and choose there →</a></p></noscript>
+    </section>
+
+    <div class="launch-action">
+      <a class="btn" id="convene-link" href="talk.html?mode=table&amp;from=table.html">Have the Facilitator set the table →</a>
+    </div>
+
+    <p class="caveat">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
+  </div>
+</main>
+
+<aside class="panel" id="choosePanel" aria-labelledby="choosePanelTitle" tabindex="-1">
+  <button class="close" id="choosePanelClose" type="button" aria-label="Close">&times;</button>
+  <p class="kicker" id="choosePanelTitle">Choose who joins you</p>
+  <button type="button" class="remove" id="removeSeat" hidden>← Leave this seat open</button>
+  <ul class="choices" id="choicesList"></ul>
+  <div class="info" id="infoView" hidden>
+    <button type="button" class="back" id="infoBack">← Back to the list</button>
+    <div class="info-portrait" id="infoPortrait"></div>
+    <h3 class="info-name" id="infoName"></h3>
+    <p class="info-trad" id="infoTrad"></p>
+    <p class="info-desc" id="infoDesc"></p>
+    <button type="button" class="btn" id="infoJoin">Join the table</button>
+  </div>
+</aside>
+
+<footer class="site-footer">
+  <div class="row">
+    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav aria-label="Footer">
+      <a href="about.html">About</a>
+      <a href="pilot-feedback.html">Feedback</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+var WORLDS = [
+  { id:'post-apostolic-house-church', name:'Chloe', trad:'The Scattered Households', img:'assets/portraits/house-churches.png', tint:'#955FF0', desc:'Scattered households across Antioch, Asia Minor, and Rome, one body connected by letters and a shared table.' },
+  { id:'alexandria-catechetical', name:'Theon', trad:'Alexandrian Christianity', img:'assets/portraits/alexandria.png', tint:'#3B83BF', desc:'Alexandria, c. 150–400 CE — teachers leading seekers toward Scripture’s deeper meaning, and the Logos it opens onto.' },
+  { id:'syriac-edessa-nisibis', name:'Mar Yausep', trad:'Syriac Christianity', img:'assets/portraits/syriac.png', tint:'#CC5E0A', desc:'Edessa and Nisibis, 200–410 CE — a covenant people who sang their theology, and never settled who spoke for them.' },
+  { id:'imperial-juridical-christianity', name:'Marius', trad:'Church and Empire', img:'assets/portraits/empire.png', tint:'#C36060', desc:'Rome, Constantinople, and Milan, c. 312–451 CE — bishops beside a throne, arguing over who finally speaks for it.' },
+  { id:'desert-monasticism', name:'Papnoute', trad:'Desert Fathers and Mothers', img:'assets/portraits/desert.png', tint:'#128D84', desc:'The Nile Valley and the desert of Egypt, c. 320–430 CE — a lifelong combat within, and authority never settled between elder and rule.' },
+  { id:'cappadocian-nicene-pastoral-monastic-tradition', name:'Chilo', trad:'The Cappadocian Churches', img:'assets/portraits/cappadocian.jpg', tint:'#C46437', desc:'Cappadocia and Pontus, c. 325–394 CE — a radical ferment given a rule, a guest-door, and a martyr of its own.' },
+  { id:'hieronymian-ascetic-literary', name:'Albina', trad:'The Bethlehem Circle', img:'assets/portraits/bethlehem.png', tint:'#E23B7F', desc:'Rome and Bethlehem, c. 382–420 CE — women who funded and founded it, in a record almost entirely one man’s own hand.' }
+];
+
+var roster = document.getElementById('roster');
+WORLDS.forEach(function(w){
+  var li = document.createElement('li');
+  li.innerHTML = '<img src="' + w.img + '" alt="" loading="lazy" decoding="async" style="--tint:' + w.tint + '"><span>' + w.name + '</span>';
+  roster.appendChild(li);
+});
+
+var tileTip = document.createElement('div');
+tileTip.className = 'tile-tip';
+tileTip.setAttribute('role', 'tooltip');
+tileTip.hidden = true;
+document.body.appendChild(tileTip);
+
+function showTileTip(target, w){
+  tileTip.innerHTML = '<div class="tip-name">' + w.name + '</div><div class="tip-trad">' + w.trad + '</div><div class="tip-desc">' + w.desc + '</div>';
+  tileTip.hidden = false;
+  var r = target.getBoundingClientRect();
+  var th = tileTip.offsetHeight;
+  var top = r.bottom + 6;
+  if (top + th > window.innerHeight - 8) top = r.top - th - 6;
+  if (top < 8) top = 8;
+  tileTip.style.left = Math.max(8, r.left) + 'px';
+  tileTip.style.top = top + 'px';
+}
+function hideTileTip(){ tileTip.hidden = true; }
+
+var seated = [null, null, null];
+var params = new URLSearchParams(window.location.search);
+var preseat = params.get('worlds');
+if (preseat) {
+  var ids = preseat.split(',').map(function(s){ return s.trim(); }).filter(Boolean).slice(0,3);
+  for (var p = 0; p < ids.length; p++) seated[p] = ids[p];
+}
+
+var seatButtons = [document.getElementById('seatBtn1'), document.getElementById('seatBtn2'), document.getElementById('seatBtn3')];
+var panel = document.getElementById('choosePanel');
+var closeBtn = document.getElementById('choosePanelClose');
+var removeBtn = document.getElementById('removeSeat');
+var choicesList = document.getElementById('choicesList');
+var infoView = document.getElementById('infoView');
+var infoBack = document.getElementById('infoBack');
+var infoPortrait = document.getElementById('infoPortrait');
+var infoName = document.getElementById('infoName');
+var infoTrad = document.getElementById('infoTrad');
+var infoDesc = document.getElementById('infoDesc');
+var infoJoin = document.getElementById('infoJoin');
+var conveneLink = document.getElementById('convene-link');
+var conveneCount = document.getElementById('convene-count');
+var activeSeat = null;
+var viewedWorld = null;
+
+function worldById(id){ for (var i = 0; i < WORLDS.length; i++) if (WORLDS[i].id === id) return WORLDS[i]; return null; }
+
+function renderSeat(i){
+  var btn = seatButtons[i];
+  var id = seated[i];
+  btn.innerHTML = '';
+  if (id) {
+    var w = worldById(id);
+    btn.classList.add('filled');
+    btn.style.setProperty('--seat-tint', w.tint);
+    var img = document.createElement('img');
+    img.src = w.img; img.alt = ''; img.loading = 'lazy'; img.decoding = 'async';
+    var label = document.createElement('span');
+    label.textContent = w.name;
+    var vh = document.createElement('span');
+    vh.className = 'vh'; vh.id = 'seat-' + (i+1) + '-status';
+    vh.textContent = w.name + ', ' + w.trad + '. Seated. Choose to change or leave this seat open.';
+    btn.appendChild(img); btn.appendChild(label); btn.appendChild(vh);
+    btn.setAttribute('aria-describedby', vh.id);
+  } else {
+    btn.classList.remove('filled');
+    btn.style.removeProperty('--seat-tint');
+    var openLabel = document.createElement('span');
+    openLabel.setAttribute('aria-hidden','true'); openLabel.textContent = 'Open seat';
+    var vh2 = document.createElement('span');
+    vh2.className = 'vh'; vh2.id = 'seat-' + (i+1) + '-status';
+    vh2.textContent = 'Open seat. Choose a tradition.';
+    btn.appendChild(openLabel); btn.appendChild(vh2);
+    btn.setAttribute('aria-describedby', vh2.id);
+  }
+}
+
+function renderAll(){
+  for (var i = 0; i < 3; i++) renderSeat(i);
+  var chosen = seated.filter(Boolean);
+  conveneCount.textContent = chosen.length + ' of 3 seats filled.';
+  var launchWorlds = chosen.length ? chosen : randomTrio();
+  conveneLink.href = 'talk.html?worlds=' + launchWorlds.join(',') + '&mode=table&from=table.html';
+  conveneLink.textContent = chosen.length ? 'Launch the Table →' : 'Have the Facilitator set the table →';
+}
+
+function randomTrio(){
+  var pool = WORLDS.map(function(w){ return w.id; });
+  var picks = [];
+  while (picks.length < 3 && pool.length) {
+    picks.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+  }
+  return picks;
+}
+
+function showList(){
+  viewedWorld = null;
+  infoView.hidden = true;
+  choicesList.hidden = false;
+  removeBtn.hidden = !seated[activeSeat];
+  closeBtn.focus();
+}
+function showInfo(w){
+  viewedWorld = w;
+  infoView.style.setProperty('--tint', w.tint);
+  infoPortrait.innerHTML = '<img src="' + w.img + '" alt="" loading="lazy" decoding="async">';
+  infoName.textContent = w.name;
+  infoTrad.textContent = w.trad;
+  infoDesc.textContent = w.desc;
+  choicesList.hidden = true;
+  removeBtn.hidden = true;
+  infoView.hidden = false;
+  infoBack.focus();
+}
+function openChooser(seatIndex){
+  activeSeat = seatIndex;
+  var currentId = seated[seatIndex];
+  removeBtn.hidden = !currentId;
+  choicesList.hidden = false;
+  infoView.hidden = true;
+  choicesList.innerHTML = '';
+  WORLDS.forEach(function(w){
+    var takenElsewhere = seated.indexOf(w.id) !== -1 && seated[seatIndex] !== w.id;
+    var li = document.createElement('li');
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.disabled = takenElsewhere;
+    btn.style.setProperty('--tint', w.tint);
+    var ctx = w.desc.split('—')[0].trim();
+    btn.innerHTML = '<span class="portrait"><img src="' + w.img + '" alt="" loading="lazy" decoding="async"></span>' +
+      '<span><span class="name">' + w.name + '</span><br><span class="trad">' + w.trad + '</span><br><span class="ctx">' + ctx + '</span></span>' +
+      (takenElsewhere ? '<span class="taken">Already seated</span>' : '');
+    if (!takenElsewhere) {
+      btn.addEventListener('click', function(w){ return function(){ hideTileTip(); showInfo(w); }; }(w));
+      btn.addEventListener('mouseenter', function(w){ return function(e){ showTileTip(e.currentTarget, w); }; }(w));
+      btn.addEventListener('mouseleave', hideTileTip);
+      btn.addEventListener('focus', function(w){ return function(e){ showTileTip(e.currentTarget, w); }; }(w));
+      btn.addEventListener('blur', hideTileTip);
+    }
+    li.appendChild(btn);
+    choicesList.appendChild(li);
+  });
+  panel.classList.add('open');
+  closeBtn.focus();
+  document.addEventListener('keydown', onPanelKey);
+}
+function closeChooser(){
+  panel.classList.remove('open');
+  document.removeEventListener('keydown', onPanelKey);
+  if (activeSeat !== null) seatButtons[activeSeat].focus();
+  activeSeat = null;
+  viewedWorld = null;
+  hideTileTip();
+}
+function onPanelKey(e){ if (e.key === 'Escape') closeChooser(); }
+closeBtn.addEventListener('click', closeChooser);
+removeBtn.addEventListener('click', function(){ seated[activeSeat] = null; closeChooser(); renderAll(); });
+infoBack.addEventListener('click', showList);
+infoJoin.addEventListener('click', function(){ seated[activeSeat] = viewedWorld.id; closeChooser(); renderAll(); });
+seatButtons.forEach(function(btn, i){ btn.addEventListener('click', function(){ openChooser(i); }); });
+
+try { if (localStorage.getItem('cic-returning') === '1') document.getElementById('side-door').hidden = false; } catch(e){}
+
+renderAll();
+})();
+</script>
+</body>
+</html>

@@ -40,7 +40,7 @@ text: >-
   sing true teaching in the same sweet forms. The very music that had carried
   error became the carrier of the faith. And his teaching reached the whole
   city, women and men alike, through the women's voices. That is the later
-  tradition's telling. What this world's own years attest is this much: the
+  tradition's telling. What our own years attest is this much: the
   daughters of the covenant did sing the madrashe in the churches. Whether
   Ephrem himself founded and led their choirs, only the later memory says.
 absent_detail: 'The two evidentiary layers must never be blended: in-window fact (the choirs performed

@@ -28,7 +28,7 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  To this world, Jesus is the Only-Begotten of God - the Ihidaya, its own name
+  To us, Jesus is the Only-Begotten of God - the Ihidaya, our own name
   for him. He left his place with God and made his home in the Virgin, and by
   being born as we are born, he became the brother of many. In him the words
   of the prophets, kings, and priests came true - the Nativity hymns sing of

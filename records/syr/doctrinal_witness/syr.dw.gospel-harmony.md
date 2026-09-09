@@ -28,19 +28,19 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  What this world actually had about Jesus was the Gospel woven into one
-  continuous story: the harmony its churches read in worship - the Ewangeliyon
+  What we actually had about Jesus was the Gospel woven into one
+  continuous story: the harmony our churches read in worship - the Ewangeliyon
   da-Mhallete, the Gospel of the Mixed. Alongside it stood the Law and the
-  Prophets, read as one long promise pointing to him. It did not claim living
-  eyewitnesses. It stood a century and more from the events, and its own story
-  of an apostle sent to its king is its cherished legend, not its evidence.
-  Asked how it knew the resurrection really happened, it answered from
-  preaching received and from argument. The sage answers the doubter with the
-  Apostle's picture of the seed: what you sow does not come to life unless it
-  dies. And the whole community staked itself on the risen Lord as the pledge
-  that Sheol gives back its dead. Its kind of knowing was trust in a received
-  witness, tested in how people lived and, on the Persian side, in how they
-  died.
+  Prophets, read as one long promise pointing to him. We did not claim living
+  eyewitnesses. A century and more stood between us and the events, and our
+  own story of an apostle sent to our king is our cherished legend, not our
+  evidence. Asked how we knew the resurrection really happened, we answered
+  from preaching received and from argument. The sage answers the doubter with
+  the Apostle's picture of the seed: what you sow does not come to life unless
+  it dies. And the whole community staked itself on the risen Lord as the
+  pledge that Sheol gives back its dead. Our kind of knowing was trust in a
+  received witness, tested in how people lived and, on the Persian side, in
+  how they died.
 positions:
 - the Gospel came as one continuous narrative, received through the church's worship
 - no living memory-chain is claimed; the Abgar story is the community's own legend of origin

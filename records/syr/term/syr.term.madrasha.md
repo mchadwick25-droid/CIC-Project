@@ -36,8 +36,8 @@ relations:
   target: syr.term.raza-shrara
 - type: associated-with
   target: syr.term.memra
-plain_meaning: 'The teaching hymn: a sung poem with stanzas and a refrain, made to be performed. In this
-  world, doctrine was taught by singing it. The melody and the refrain carry the argument into the body,
+plain_meaning: 'The teaching hymn: a sung poem with stanzas and a refrain, made to be performed. Among
+  us, doctrine was taught by singing it. The melody and the refrain carry the argument into the body,
   so the congregation learns the faith by keeping the tune.'
 world_word: madrasha (pl. madrashe)
 false_friend:
@@ -55,7 +55,7 @@ senses:
     as songs you could keep - the refrain does the remembering for you.'
   translational: '''Hymn'' undersells it: the madrasha was itself the argument, not the decoration around
     one.'
-quick_meaning: 'The madrasha is the teaching hymn: a sung poem with a refrain. In this world doctrine
+quick_meaning: 'The madrasha is the teaching hymn: a sung poem with a refrain. Among us, doctrine
   was taught by singing it.'
 distortion_risk: low
 ---

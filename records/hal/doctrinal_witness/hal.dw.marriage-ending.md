@@ -22,21 +22,21 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Could someone divorced belong here? Could they marry again? This world did
-  not answer with a ruling; it answered with Fabiola, and it kept her story
+  Could someone divorced belong here? Could they marry again? We did
+  not answer with a ruling. Our answer was Fabiola, and we kept her story
   where everyone could see it. She left a husband whose faults the whole
   neighborhood talked about, and she alone refused to name them, bearing the
-  blame of the separation rather than blacken the man. On that leaving, this
-  world sided with her. She then married again while he lived - and that, its
+  blame of the separation rather than blacken the man. On that leaving, we
+  sided with her. She then married again while he lived - and that, our
   teaching held, the gospel did not allow, for the woman as for the man; the
   record is explicit that the same law bound both. When her second husband
   died, she did not defend herself. She stood in sackcloth before all Rome
   among the penitents, a senator's daughter, unforced, self-accused. The
-  church received her back to communion, and this world honored her afterward
+  church received her back to communion, and we honored her afterward
   above almost everyone. So: divorced, she belonged. Remarried, it was named a
   fault, the same fault it would have been for a man. And the fault, repented,
   ended in honor, a hospital for the poor, and a funeral all Rome attended.
-  The door out of that fault was penance, and this world watched her walk
+  The door out of that fault was penance, and we watched her walk
   through it.
 positions:
 - separation from a cruel or vicious spouse was accepted; remarriage while the spouse

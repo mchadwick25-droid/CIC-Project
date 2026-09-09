@@ -25,18 +25,18 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  How did this world know the resurrection happened? It pointed first to what
-  it could see: lives. Origen answered the pagan critic Celsus point by point,
+  How did we know the resurrection happened? We pointed first to what
+  we could see: lives. Origen answered the pagan critic Celsus point by point,
   and he pointed to the disciples themselves. Men who ran away at the arrest
   went to their deaths proclaiming what they said they saw, and gained nothing
   on earth by it. No made-up story produces that change - that was Origen's
   argument. Athanasius, a century later, added the argument of present power:
   the dead do not inspire the living to die without fear. The martyrs'
   contempt for death was, to him, the risen Christ's continuing signature.
-  This world did not have modern history-writing, and it did not pretend to.
-  Its ground was testimony it judged trustworthy - sealed by the witnesses'
-  blood (martys, its own word for martyr, means witness first), and by what it
-  believed the risen one was still doing in its own streets.
+  We did not have modern history-writing, and we did not pretend to.
+  Our ground was testimony we judged trustworthy - sealed by the witnesses'
+  blood (martys, our own word for martyr, means witness first), and by what we
+  believed the risen one was still doing in our own streets.
 positions:
 - the apostolic testimony is eyewitness testimony, and its bearers died for it without profit
 - the church's own fearlessness before death is treated as ongoing evidence

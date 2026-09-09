@@ -258,54 +258,81 @@ def _gate_decision_payload(*, safety_outcome: CallOutcome, reader_outcome: CallO
     }
 
 
-def _build_turn_directive(directive: Directive | None, figures_already_named: list[str] | None = None) -> str | None:
+def _build_turn_directive(
+    directive: Directive | None,
+    figures_already_named: list[str] | None = None,
+    table_engagement: str | None = None,
+) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
     stays byte-identical across a session and the cache prefix actually
     holds (see stream_voice_turn's docstring). This text changes every
     turn, so it must never be concatenated onto the cached half.
 
-    Returns None when there is no directive (the crisis path), which leaves
-    the call with the world prompt alone - exactly what it sent before."""
-    if directive is None:
+    table_engagement (bug fix, 2026-09-05, Mark's report: "Table mode gives
+    independent monologues instead of cross-voice engagement on broad
+    questions"): the Table's per-turn behavioral rule - engage what another
+    voice just said, stay in your own witness, keep it compact - belongs
+    HERE, not in the user-message context_prefix it used to live in
+    entirely. That was the actual bug: the ambiguity_options note below
+    already proved this channel wins over a competing pressure sitting in
+    the user turn ("it sits after register statement 1 in the prompt, so it
+    won"); the Table's engagement instruction was sitting in the weaker
+    channel the whole time, ahead of a per-question evidence block that
+    scales with how broad the question is and right before the bare
+    participant message itself - exactly the position the ambiguity_options
+    finding already showed losing. None on every interview call and on a
+    table call's true opening turn (nothing said yet to engage), so both
+    paths are unchanged there. table_wiring.py still builds the pending
+    speech itself into context_prefix (real conversational content, not an
+    instruction) - only the behavioral rule about it moved.
+
+    Returns None when there is no directive and no table_engagement (the
+    crisis path), which leaves the call with the world prompt alone -
+    exactly what it sent before."""
+    if directive is None and not table_engagement:
         return None
-    asks_text = "; ".join(a["text"] for a in directive.asks) if directive.asks else "(none extracted)"
     # The leading newline is kept from when this text was concatenated onto
     # the world prompt: system blocks are joined with no separator of their
     # own, so dropping it would run the heading onto the prompt's last line.
     # The model must see exactly the bytes it saw before this split.
-    parts = [f"\n## This turn's private directive (never shown to the participant)\nAsks, in order: {asks_text}"]
-    if directive.register_note:
-        parts.append(f"Register note: {directive.register_note}")
-    if directive.suspend_register_statement_1:
-        parts.append("Register statement 1 is suspended this turn (witness-before-answer licensed).")
-    if directive.ambiguity_options:
-        # NOT "options to offer". That wording instructed the voice to
-        # present a menu, and it sits after register statement 1 in the
-        # prompt, so it won: measured over five questions the first
-        # sentence answered the ask on 2 of 5 turns, and the participant
-        # was handed "I hear two ways to take your question" instead of an
-        # answer. Removing the instruction entirely took that to 5 of 5.
-        # This keeps the reading available to the voice as information and
-        # restates statement 1 rather than overriding it.
-        parts.append(
-            f"The ask could be read these ways: {'; '.join(directive.ambiguity_options)}. "
-            "Answer the most likely reading first, in your opening sentence; then, only if the others "
-            "would change the answer, say briefly what they would change. Never open by listing the readings."
-        )
-    if figures_already_named:
-        # The directive channel is the one measured to win over other
-        # pressures (see the ambiguity_options note above). Three live
-        # probes showed the evidence block's own already-introduced
-        # header losing to a ground record's first-mention opening
-        # ("One of us, Ignatius" reproduced verbatim on turn two) - the
-        # signal belongs here, where the voice actually shapes the turn.
-        parts.append(
-            f"Already introduced in this conversation: {', '.join(figures_already_named)}. "
-            "The participant has met these names. A ground record that presents one of them afresh is "
-            "written for a first mention; this turn is not one - carry the name as someone already "
-            "known ('Ignatius also said...' is the shape), never re-introduced as if new."
-        )
+    parts = ["\n## This turn's private directive (never shown to the participant)"]
+    if directive is not None:
+        asks_text = "; ".join(a["text"] for a in directive.asks) if directive.asks else "(none extracted)"
+        parts.append(f"Asks, in order: {asks_text}")
+        if directive.register_note:
+            parts.append(f"Register note: {directive.register_note}")
+        if directive.suspend_register_statement_1:
+            parts.append("Register statement 1 is suspended this turn (witness-before-answer licensed).")
+        if directive.ambiguity_options:
+            # NOT "options to offer". That wording instructed the voice to
+            # present a menu, and it sits after register statement 1 in the
+            # prompt, so it won: measured over five questions the first
+            # sentence answered the ask on 2 of 5 turns, and the participant
+            # was handed "I hear two ways to take your question" instead of an
+            # answer. Removing the instruction entirely took that to 5 of 5.
+            # This keeps the reading available to the voice as information and
+            # restates statement 1 rather than overriding it.
+            parts.append(
+                f"The ask could be read these ways: {'; '.join(directive.ambiguity_options)}. "
+                "Answer the most likely reading first, in your opening sentence; then, only if the others "
+                "would change the answer, say briefly what they would change. Never open by listing the readings."
+            )
+        if figures_already_named:
+            # The directive channel is the one measured to win over other
+            # pressures (see the ambiguity_options note above). Three live
+            # probes showed the evidence block's own already-introduced
+            # header losing to a ground record's first-mention opening
+            # ("One of us, Ignatius" reproduced verbatim on turn two) - the
+            # signal belongs here, where the voice actually shapes the turn.
+            parts.append(
+                f"Already introduced in this conversation: {', '.join(figures_already_named)}. "
+                "The participant has met these names. A ground record that presents one of them afresh is "
+                "written for a first mention; this turn is not one - carry the name as someone already "
+                "known ('Ignatius also said...' is the shape), never re-introduced as if new."
+            )
+    if table_engagement:
+        parts.append(table_engagement)
     return "\n".join(parts)
 
 
@@ -367,16 +394,21 @@ def _run_ordinary_voice_turn(
     already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
     context_prefix: str | None = None,
+    table_engagement: str | None = None,
     usage_world_key: str | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
-    """context_prefix and usage_world_key are the table's two additions
-    (Artifact-7 SS3-4, SS7), both None on every interview call so that path
-    is byte-identical to before they existed. context_prefix carries the
-    attributed at-the-Table speech since this voice's last turn - it rides
-    in the per-turn user message only (never the cached system prefix, same
-    cache discipline as the evidence block) and is deliberately NOT part of
-    the message evidence assembly matches against: retrieval stays focused
-    on the participant's own ask, not on what another voice said.
+    """context_prefix, table_engagement, and usage_world_key are the table's
+    additions (Artifact-7 SS3-4, SS7), all None on every interview call so
+    that path is byte-identical to before they existed. context_prefix
+    carries the attributed at-the-Table speech since this voice's last
+    turn - it rides in the per-turn user message only (never the cached
+    system prefix, same cache discipline as the evidence block) and is
+    deliberately NOT part of the message evidence assembly matches against:
+    retrieval stays focused on the participant's own ask, not on what
+    another voice said. table_engagement carries the behavioral rule about
+    that speech (engage it, stay compact, no foreknowledge) into
+    _build_turn_directive's channel instead - see that function's own note
+    on why the instruction and the content it's about now ride separately.
     usage_world_key tags this call's UsageRecord with the speaking world."""
     usage_records = []
     repository_records = evidence.repository_records_by_id(world.repository)
@@ -422,7 +454,8 @@ def _run_ordinary_voice_turn(
 
     stream_outcome = stream_voice_turn(
         voice_client, voice_model_id, system_prompt=world.prompt_text,
-        turn_directive=_build_turn_directive(directive, figures_already_named), message=user_message, history=history,
+        turn_directive=_build_turn_directive(directive, figures_already_named, table_engagement),
+        message=user_message, history=history,
     )
     if stream_outcome.status != "ok":
         raise RuntimeError(f"voice generation call failed: {stream_outcome.status} {stream_outcome.value}")

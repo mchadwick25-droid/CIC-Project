@@ -32,7 +32,7 @@ relations:
   target: cappadocian.term.ousia-hypostasis
 - type: associated-with
   target: cappadocian.term.symbolon
-plain_meaning: This world did not invent the word homoousios -- it inherited it from the Council of Nicaea
+plain_meaning: We did not invent the word homoousios -- we inherited it from the Council of Nicaea
   and treated it as a banner to defend. It meant the Son is fully, exactly what the Father is, not merely
   similar to him.
 world_word: homoousios

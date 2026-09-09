@@ -31,13 +31,13 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  If archaeologists dug where this world worshipped, what would they find? At
+  If archaeologists dug where we worshipped, what would they find? At
   Nisibis, they already have. A baptistery still stands there, securely dated
   by its own inscription to the very years of the bishop and the siege. It is
-  the one piece of this world's stone that survives from its own time. At
+  the only stone of ours that survives from our own years. At
   Edessa, almost nothing: the modern city sits directly on the ancient one,
   and the church the flood destroyed lives only in a chronicler's line. How do
-  historians know about a world like this at all? From letters that date
+  historians know about us at all? From letters that date
   themselves to the year. From hymns copied by later hands into books that
   still exist. From a short city chronicle drawn out of real archives. And
   from carefully sorting legend from record. What survives is narrow - and it

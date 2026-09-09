@@ -25,20 +25,21 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  What did this world have about Jesus? First and above everything, the
+  What did we have about Jesus? First and above everything, the
   writings. The Gospels and the whole of scripture were copied, compared,
-  corrected, and translated from the Hebrew it held truest - the Hebraica
-  veritas. Nothing was received passively. This world worked over the text
-  word by word, because it believed the writings were the true treasure handed
-  down, worth a lifetime of exactness. It stood more than three and a half
-  centuries from the events. No one there had ever known an eyewitness, and no
-  one pretended otherwise. Its confidence stood on three things: the apostles'
-  writings as received, the unbroken worship of the churches, and - unusually
-  - the places themselves. These people could walk to the cave of the birth.
-  They treated the land as a kind of witness, and its founders crossed the sea
-  to live inside it. How did they know the resurrection really happened? From
-  the writings they trusted enough to spend a life correcting. And from a hope
-  strong enough that people gave away fortunes on it.
+  corrected, and translated from the Hebrew we held truest - the Hebraica
+  veritas. Nothing was received passively. We worked over the text
+  word by word, because we believed the writings were the true treasure handed
+  down, worth a lifetime of exactness. More than three and a half centuries
+  stood between us and the events. No one among us had ever known an
+  eyewitness, and no one pretended otherwise. Our confidence stood on three
+  things: the apostles' writings as received, the unbroken worship of the
+  churches, and - unusually - the places themselves. We could walk to the cave
+  of the birth. The land itself we treated as a kind of witness, and our
+  founders crossed the sea to live inside it. How did we know the resurrection
+  really happened? From the writings we trusted enough to spend a life
+  correcting. And from a hope strong enough that people gave away fortunes on
+  it.
 positions:
 - the scriptures are the deposit about Jesus, and their exact wording matters enough to
   spend a life on

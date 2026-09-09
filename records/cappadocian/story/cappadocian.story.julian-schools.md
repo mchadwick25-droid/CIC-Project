@@ -40,7 +40,7 @@ relations:
   target: cappadocian.gravity.contested-church
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: both the imperial legislation and Gregory's invectives are named, dated, contemporary or near-contemporary documents, in each side's own words - an unusually rare configuration in this world's evidentiary base, where most conflicts survive from only one side. The two measures against Christian teachers (the general school law and the specific rescript) are genuinely two distinct legal texts whose exact relationship is debated, and Julian's specific measures against Caesarea itself rest on weaker attestation than the school legislation proper."
-tellable_as: "An emperor once schooled in Cappadocia forbids Christians to teach the classics his own faith once forced on him, and dies before the world's fury at him has even finished being written."
+tellable_as: "An emperor once schooled in Cappadocia forbids Christians to teach the classics his own faith once forced on him, and dies before our fury at him has even finished being written."
 text: >-
   Julian, who would become emperor, spent part of his own boyhood at
   Macellum, a Cappadocian estate, kept there under enforced Christian
@@ -54,7 +54,7 @@ text: >-
   or stop teaching them, since a Christian teacher explaining stories he
   professed not to believe was, in Julian's own reasoning, dishonest at the
   very foundation of his craft. The measure struck directly at the paideia
-  this world's own leaders had spent their lives mastering and defending
+  our own leaders had spent their lives mastering and defending
   as compatible with their faith. Julian is also remembered as taking
   direct measures against Caesarea itself, in the very region where he
   himself had once been schooled, in retaliation for its Christian
@@ -62,9 +62,9 @@ text: >-
   Julian's death on campaign in Persia in 363, Gregory wrote a pair of
   invectives against him, ferocious even by the standards of the genre,
   refusing him any of the honor a dead emperor might otherwise expect.
-  This is one of the rare episodes in this world's own record where both
+  This is one of the rare episodes in our own record where both
   sides survive in their own words - the emperor's own edict and letters,
-  and the Christian world's own furious reply - rather than one side
+  and our own furious reply - rather than one side
   reconstructed only through the other's report.
 absent_detail: "No record survives of how an ordinary Christian schoolteacher, forced out of a livelihood by this measure, actually experienced or responded to it; what survives is the emperor's own legal reasoning and this world's own leadership's furious retrospective reply."
 modern_contrast: >-

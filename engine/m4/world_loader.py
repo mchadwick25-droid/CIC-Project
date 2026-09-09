@@ -47,14 +47,38 @@ class LazyWorldLoader:
     already-resident world is a cache hit, not a second disk read/verify."""
 
     def __init__(self):
-        self._resident: dict[str, LoadedWorld] = {}
+        # Keyed by (world_key, expected_manifest_hash), not world_key alone -
+        # found live (2026-09-04): a bare world_key key means a resident
+        # world is returned on ANY later load() for that key regardless of
+        # the hash asked for, so a repin lands one of two ways depending on
+        # accident of timing - a process that never restarts keeps serving
+        # the pre-repin bytes to every session including brand-new ones
+        # (silently, since a cache hit skipped verify_package_dict
+        # entirely), while a process that does restart between turns loses
+        # the cache and reloads against the registry's now-current (post-
+        # repin) location/hash, which then refuses every in-flight session
+        # still expecting the old hash (PackageRefused -> 503, "world
+        # temporarily unavailable"). Neither is what Artifact-2's own
+        # promise describes ("open worlds swap by registry pointer, old
+        # package retained for rollback"): that promise means the OLD and
+        # NEW manifest hashes are both valid, concurrently, for as long as
+        # any session is still pinned to the old one - which requires both
+        # to be independently resident and independently verified, not one
+        # cache slot per world_key. Paired with wiring.py's package_dir
+        # override (session-pinned, not registry-current) so an old
+        # in-flight session's load() call asks for its own hash against its
+        # own still-on-disk directory (old packages are never deleted - see
+        # Artifact-2 SS2) and a new session's load() call asks for the
+        # current one; both cache under their own key.
+        self._resident: dict[tuple[str, str], LoadedWorld] = {}
 
     def is_resident(self, world_key: str) -> bool:
-        return world_key in self._resident
+        return any(k[0] == world_key for k in self._resident)
 
     def load(self, world_key: str, *, package_dir: Path, expected_manifest_hash: str) -> tuple[LoadedWorld, LoadTiming]:
         start = time.perf_counter()
-        cached = self._resident.get(world_key)
+        cache_key = (world_key, expected_manifest_hash)
+        cached = self._resident.get(cache_key)
         if cached is not None:
             return cached, LoadTiming(world_key=world_key, cache_hit=True, seconds=time.perf_counter() - start)
 
@@ -81,10 +105,13 @@ class LazyWorldLoader:
             coverage=json.loads(package["compiled/coverage.json"]),
             frame=json.loads(package["compiled/frame.json"]),
         )
-        self._resident[world_key] = world
+        self._resident[cache_key] = world
         return world, LoadTiming(world_key=world_key, cache_hit=False, seconds=time.perf_counter() - start)
 
     def unload(self, world_key: str) -> LoadTiming:
+        # Evicts every hash-variant resident for this world_key - callers
+        # unload by world identity, not by a specific pin.
         start = time.perf_counter()
-        self._resident.pop(world_key, None)
+        for key in [k for k in self._resident if k[0] == world_key]:
+            del self._resident[key]
         return LoadTiming(world_key=world_key, cache_hit=False, seconds=time.perf_counter() - start)

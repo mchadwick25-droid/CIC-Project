@@ -21,7 +21,7 @@ sources:
   locus: the corpus's silence
   license: public-domain
 statement: You ask what it was to be enslaved among us. Our record holds no answer at all. No enslaved
-  person of this world left a word that was kept, and our writers did not describe their lives. We know
+  person among us left a word that was kept, and our writers did not describe their lives. We know
   the empire around us held slaves. Of their days inside our own churches we can tell you nothing true.
 why_sources_cannot_answer: No dedicated treatment, surviving voice, or even incidental description of
   enslaved persons in this world's Christian communities was located - an unfilled gap in the record,

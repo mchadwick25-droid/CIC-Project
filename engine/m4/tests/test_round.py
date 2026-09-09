@@ -69,16 +69,78 @@ def _open(gate_run, *, rounds_completed=0, track_a_last=None, anachronistic_term
 
 def test_round_config_defaults_and_bounds():
     config = RoundConfig()
-    assert (config.floor, config.cap) == (3, 4)
-    assert not config.close_allowed(2)
-    assert config.close_allowed(3)
-    assert not config.cap_reached(3)
-    assert config.cap_reached(4)
-    RoundConfig(floor=3, cap=6)  # the re-tested ceiling is legal
+    assert config.floor_for(2) == 3 and config.floor_for(3) == 5
+    assert not config.close_allowed(2, num_seats=2)
+    assert config.close_allowed(3, num_seats=2)
+    assert not config.close_allowed(4, num_seats=3)
+    assert config.close_allowed(5, num_seats=3)
+    RoundConfig(cap_by_seats=((2, 5), (3, 6)))  # the re-tested ceiling is legal
     with pytest.raises(ValueError):
-        RoundConfig(floor=3, cap=7)  # beyond the re-tested ceiling
+        RoundConfig(cap_by_seats=((2, 5), (3, 7)))  # beyond the re-tested ceiling
     with pytest.raises(ValueError):
-        RoundConfig(floor=5, cap=4)  # floor above cap
+        RoundConfig(floor_by_seats=((2, 6),), cap_by_seats=((2, 5),))  # floor above a configured cap
+    with pytest.raises(ValueError):
+        RoundConfig(default_cap=7)  # the fallback is bound by the same ceiling
+
+
+def test_round_config_is_genuinely_immutable():
+    """Independent review, 2026-09-05: a mutable dict field on a frozen
+    dataclass used to defeat `frozen` twice over - unhashable, and mutable
+    out from under it with no error. cap_by_seats is a tuple now."""
+    config = RoundConfig()
+    hash(config)  # does not raise
+    with pytest.raises(AttributeError):
+        config.cap_by_seats = ((2, 99),)
+
+
+def test_round_config_seat_scaled_cap():
+    """Mark's ruling, 2026-09-05: 'for 2 voices and a participant, the max
+    turns should be 5... for 3 voices the cap is 6' - applied to every
+    round, not gated behind any 'is this broad' judgment (his own explicit
+    scoping, superseding this thread's first pass at a broad-only 5/6
+    minimum)."""
+    config = RoundConfig()
+    assert config.cap_for(2) == 5
+    assert config.cap_for(3) == 6
+    assert not config.cap_reached(4, num_seats=2)
+    assert config.cap_reached(5, num_seats=2)
+    assert not config.cap_reached(5, num_seats=3)
+    assert config.cap_reached(6, num_seats=3)
+    # a table this project never seats (Artifact-7 SS1: world_keys 2-3)
+    # falls back to the pre-existing default rather than raising
+    assert config.cap_for(1) == config.default_cap == 4
+
+
+def test_round_config_seat_scaled_floor():
+    """Mark's ruling, 2026-09-05, later the same day, reversing the "soft
+    target only" call for the floor specifically: investigated (root-
+    caused from real selector_reason data, not guessed) why 3-seat rounds
+    consistently closed right after the first pass while 2-seat rounds
+    reliably reached a real second pass. The mechanism: the OLD flat floor
+    of 3 happens to land past first-pass completion at 2 seats (forcing
+    one bridging turn) but exactly at first-pass completion at 3 seats (no
+    forced bridge). The first fix, "raise the floor to 4", restored that
+    bridge - but a live round then closed AT that new floor too, on a
+    full-table synthesis, and a structural fix for the synthesis itself
+    (engine.m4.turn_selector.Selection.engages,
+    engine.api.table_wiring._scoped_pending) proved on a live re-run that
+    content quality and round length are independent: the returning turn
+    engaged one voice genuinely, and the round still closed at 4 anyway.
+    Only then, on that isolated evidence, did Mark rule "raise the floor
+    to 5" - his own original "ultimate zone" target for a 3-seat table.
+    The 2-seat floor (3) is untouched - it was never observed closing
+    early relative to its own cap."""
+    config = RoundConfig()
+    assert config.floor_for(2) == 3
+    assert config.floor_for(3) == 5
+    # 3 seats: close is not legal until turn 5 - the round's only possible
+    # close points are now 5 or 6, matching "5-6 interactions."
+    assert not config.close_allowed(4, num_seats=3)
+    assert config.close_allowed(5, num_seats=3)
+    # 2 seats: unchanged - already forces a bridging turn past first pass
+    # (turn 2) because the floor (3) was always one more than that.
+    assert not config.close_allowed(2, num_seats=2)
+    assert config.close_allowed(3, num_seats=2)
 
 
 # --- round-level routing ---

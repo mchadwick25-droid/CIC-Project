@@ -44,7 +44,7 @@ relations:
   target: cappadocian.term.paradosis
 plain_meaning: The last Christians killed for their faith were only one generation back. This was grandparents'
   memory, not ancient history. Above all, the Forty Soldiers of Sebaste, frozen to death for their faith,
-  were preached at their own shrine as this world's own family dead.
+  were preached at their own shrine as our own family dead.
 world_word: martys / martyrion
 false_friend:
 - general suspicion of relics as superstitious
@@ -64,7 +64,7 @@ senses:
   translational: '''Isn''t this just relic superstition?'' -- inside this world it read differently: honoring
     witnesses whose courage was inside one generation''s own memory, the way a family tells and retells
     the story of someone they actually knew.'
-quick_meaning: The witness, and the shrine. This world's own recent martyrs, honored within living family
+quick_meaning: The witness, and the shrine. Our own recent martyrs, honored within living family
   memory.
 distortion_risk: high
 ---

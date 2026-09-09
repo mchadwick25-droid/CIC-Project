@@ -42,9 +42,9 @@ relations:
   target: cappadocian.term.philotimia
 - type: associated-with
   target: cappadocian.term.theosis
-plain_meaning: This world's own greatest figures loved a retreat where prayer, work, and reading Scripture
+plain_meaning: Our own greatest figures loved a retreat where prayer, work, and reading Scripture
   ordered a whole quiet day. But the same men were pulled, again and again, from that quiet into ordination
-  and public office. This world never let stillness become the whole goal of a Christian life.
+  and public office. We never let stillness become the whole goal of a Christian life.
 world_word: hēsychia
 false_friend:
 - modern self-care or retreat culture

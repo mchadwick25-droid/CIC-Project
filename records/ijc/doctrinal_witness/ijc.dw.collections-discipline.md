@@ -22,7 +22,7 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Did we tithe, and how did we decide what to give? This world had a real
+  Did we tithe, and how did we decide what to give? We had a real
   giving discipline. It was preached at least twice in the sermons that
   survive, tied to a yearly day Leo calls only 'the day of Apostolic
   institution.' That day, he says, had been cleansed of wicked superstitions

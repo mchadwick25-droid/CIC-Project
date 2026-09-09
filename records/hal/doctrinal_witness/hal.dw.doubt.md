@@ -29,14 +29,14 @@ text: >-
   hard. The most learned woman in Rome made a habit of refusing to accept the
   great scholar's answers until she had argued them through. He wrote about it
   afterward with admiration, not annoyance. She objected, he said, not to
-  argue but to learn what could be said against every answer. That is how this
-  world studied. What its record shows less of is the darker kind of doubt -
-  the kind that cannot believe. The nearest thing it has is grief. A mother so
+  argue but to learn what could be said against every answer. That is how we
+  studied. What our record shows less of is the darker kind of doubt -
+  the kind that cannot believe. The nearest thing we have is grief. A mother so
   broken at her daughter's funeral that she fainted in the procession. A
-  letter to her - an epistula, the form this world's teaching traveled in -
+  letter to her - an epistula, the form our teaching traveled in -
   that does not scold the grief, but wrestles with it, hour by hour, toward
-  hope. This world did not write a defense of doubters. It wrote answers to
-  questioners, and comfort to the grieving, and it kept both.
+  hope. We did not write a defense of doubters. What we wrote were answers to
+  questioners, and comfort to the grieving, and we kept both.
 positions:
 - rigorous questioning of teachers was honored practice, not sin
 - grief that staggered faith was met with accompaniment and argument toward hope, not

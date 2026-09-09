@@ -25,17 +25,17 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Are people born already guilty? This world believed something real went
+  Are people born already guilty? We believed something real went
   wrong at the root of humanity. Adam's fall casts its shadow over every soul.
   Death and disorder are inherited, and no one reaches God unwounded. But the
   later Western teaching a modern asker usually means - guilt at birth,
-  condemnation at birth - is not how this world put it. Its teachers spoke of
+  condemnation at birth - is not how we put it. Our teachers spoke of
   inherited death and weakness, and of a fall that each soul also signs onto
   in its own living. Infant baptism they received as custom, and they
   discussed its reason rather than defining it. Origen wondered about the
   soul's own descent, but as open inquiry, not doctrine. What stays constant
   is the direction. The wound is real, universal, and inherited in its
-  effects. The guilt language of later centuries is not here yet, and the
+  effects. That guilt language is not here, and the
   doctor's imagery outweighs the courtroom's.
 positions:
 - 'a real, universal fall: inherited mortality and disorder'

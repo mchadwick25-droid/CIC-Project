@@ -36,7 +36,7 @@ tellable_as: >-
   honored afterward with a yearly gathering at the place his bones were kept.
 text: >-
   This is how the tradition remembers Polycarp. It is what the community that
-  had known him believed a life fully given to this world's formation could
+  had known him believed a life fully given to our formation could
   become, even at its very end. The church at Smyrna tells of Polycarp, an
   aged bishop, urged by his own community to go into hiding. He withdrew
   briefly at their urging, and was then betrayed by someone in his own

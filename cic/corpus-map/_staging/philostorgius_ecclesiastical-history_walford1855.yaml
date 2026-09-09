@@ -31,3 +31,38 @@ assignments:
     Cappadocian Fathers lived through and wrote against - a
     contemporary opponent's view (role: context per SS4/SS6.1b's
     four-way definition), not the Cappadocian world's own voice.
+- work: Ecclesiastical History (surviving only as Photius' Epitome)
+  author: philostorgius
+  locus: whole file - esp. Books IV-V (Rimini/Seleucia 359, Constantinople 360, the depositions under Constantius II)
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: assigned
+  note: >
+    Added 2026-09-09 on Mark's ruling, after a post-admission source
+    check found this volume had never been considered for ijc at all
+    (records/ijc had zero mentions of it). A non-Nicene narrative of
+    exactly ijc's own contested imperial-doctrinal decades: Books IV-V
+    carry Rimini and Seleucia, the coerced subscriptions at
+    Constantinople in 360, and bishops deposed and restored at the
+    emperor's will - ijc's central question stated from outside the
+    tradition that won it. The nearest precedent is Athanasius'
+    Historia Arianorum, assigned to ijc "because its central question
+    ('what has the emperor to do with the church?') is the ijc world's
+    own problem stated by its sharpest opponent."
+
+    ROLE IS A JUDGMENT CALL, recorded as one rather than asserted. That
+    Athanasius row carries role: tradition for ijc, and this one does
+    not follow it: Athanasius is arguably native to ijc's own story,
+    while Philostorgius plainly is not - he is Eunomian, and ijc is the
+    Nicene-imperial establishment. Calling him this world's own voice
+    would repeat the exact conflation the finding behind this row
+    argues against. context per SS4/SS6.1b's four-way definition, same
+    reading as the cappadocian row above.
+
+    DOES NOT close ijc's named Homoian self-testimony thinness
+    (Doc_02 sec 7), and must not be used as if it did - Anomoean is not
+    Homoian, a distinction this repo already ruled on 2026-08-26, and
+    at IV.12 Philostorgius' own party is coerced into subscribing the
+    Homoian formula. Full reasoning at
+    records/ijc/search_record/ijc.search.philostorgius-homoian-fit.md.

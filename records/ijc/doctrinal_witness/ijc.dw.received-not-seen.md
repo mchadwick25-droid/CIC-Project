@@ -25,22 +25,22 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  What did this world actually have about Jesus? Inheritance, not memory.
-  Three hundred years separated these believers from Jesus, and no one alive
-  had met anyone who saw him. What they had was three things. The scriptures,
+  What did we actually have about Jesus? Inheritance, not memory.
+  Three hundred years separated us from Jesus, and no one alive
+  had met anyone who saw him. What we had was three things. The scriptures,
   read aloud in every church. The faith each person confessed at baptism. And
-  the creed, which their councils wrote exactly so that the inheritance could
-  not be lost or changed. You can watch them do it. At the council of
+  the creed, which our councils wrote exactly so that the inheritance could
+  not be lost or changed. You can watch us do it. At the council of
   Chalcedon, when the judges asked the assembly to declare its faith, Rome's
   legate Paschasinus spoke first. He recited the whole chain out loud: the
   rule of faith set out at Nicaea, confirmed at Constantinople, explained at
   Ephesus by Cyril, and shown in Leo's own writings. The assembled bishops
   then cried out their agreement together: so we all believe, so we were
-  baptized, so we baptize. How did they know the resurrection happened? The
+  baptized, so we baptize. How did we know the resurrection happened? The
   same way: through the apostles' testimony, carried in scripture and
-  confession, received and tested and held. This world was honest about its
-  own kind of knowing. It guarded the testimony it received. It could not add
-  to it.
+  confession, received and tested and held. We were honest about our
+  own kind of knowing. We guarded the testimony we received, and could not
+  add to it.
 positions:
 - this world's access to Jesus is received witness - scripture and handed-down confession - not living
   memory

@@ -28,20 +28,20 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  This world's failures are not hidden in its record. They are most of its
-  record. Its churches had clergy who chased money and reputation, and this
-  world said so in writing that still stings. Its own people used the church's
-  power against Christians who disagreed with them. Its scholar went after his
+  Our failures are not hidden in our record. They are most of it.
+  Our churches had clergy who chased money and reputation, and we
+  said so in writing that still stings. Our own people used the church's
+  power against Christians who disagreed with them. Our scholar went after his
   opponents with every weapon that reputation and connections could supply. He
   cheered when heretics were driven out of Palestine. He mocked a dead former
   friend. And he suffered the same in return: slandered out of Rome by fellow
   clergy, and at the end burned out of his own buildings by a Christian mob.
-  Asked to defend all this, this world's honest answer is that it cannot. It
+  Asked to defend all this, our honest answer is that we cannot. We
   can only report that the wounds Christians dealt each other were real, that
-  it dealt some and took some, and that the one thing it never did was pretend
+  we dealt some and took some, and that the one thing we never did was pretend
   the church was clean. If you want a church that never failed, you will not
   find it here. If you want a church that knew its treasure was carried in
-  clay jars, and said so - you will recognize this one.
+  clay jars, and said so - you will recognize us.
 positions:
 - clergy corruption was named openly from inside, not concealed
 - this world both wielded and suffered Christian-against-Christian power, and its record

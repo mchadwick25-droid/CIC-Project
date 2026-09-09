@@ -10,6 +10,8 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
+from engine.prose import quote_aware_sentences
+
 from . import canon
 from .fk import fk_grade
 from .schemas import RELATION_INVERSE, build_schema
@@ -511,6 +513,157 @@ def gate_no_build_attribution(records, fleet, registry) -> list[str]:
     return findings
 
 
+# Voice-reproduced fields only - proven this session (not assumed) by
+# reading engine/m2/builders.py's own _chunk_text()/build_prompt() directly:
+# exactly these fields become the Representative's own speech.
+# world_core.* is deliberately NOT here - every built world's own
+# world_core record states "No Representative content appears in this
+# record" in its own body, and is authored in a third-person analytical
+# register on purpose (background the model reads about the world, not
+# something the voice ever says). voice_craft.* is standing instruction,
+# already first-person we-voice by construction (build_prompt()'s own
+# instruct() vs emit() split - see its comment above). Full trace:
+# CiC_Cross_System_Analysis_Tracking.md, 2026-09-04 entry.
+_PERSPECTIVE_FIELDS = {
+    "term": ["plain_meaning", "quick_meaning"],
+    "story": ["tellable_as", "text"],
+    "ambient": ["detail"],
+    "doctrinal_witness": ["text"],
+    "honest_limit": ["statement"],
+}
+
+# Form 1: the builder's-eye phrase itself - "this world[,'s]" - a name for
+# a world from outside it, never an inhabitant's own way of naming their
+# own. Measured 2026-09-04: 250 genuine instances / 166 fields across all
+# 8 built worlds (cappadocian alone: 73, concentrated in
+# term.plain_meaning/quick_meaning - a systematic lexicon-authoring
+# pattern, not scattered error), 99.2% precision once the two exceptions
+# below are excluded - a full hand check of every non-lexicon hit, plus
+# two independent keyword sweeps for the exception shapes, found no others.
+_THIS_WORLD = re.compile(r"\bthis world\b'?s?", re.IGNORECASE)
+
+# Form 3 (narrower than the full form measured in the tracking doc's
+# census): "the world's own/last/closing/..." - the same self-referential
+# possessive shape as Form 1, missing only the word "this". A blind "the
+# world" search is dominated by the ordinary cosmological/generic sense
+# (20 of 25 candidates fleet-wide - "entered the world", "across the
+# world", direct scriptural quotation); restricting to the possessive form
+# cuts that false-positive flood but is still imperfect (5 genuine of 7
+# candidates in the same hand check, ~70% precision) - a finding here is
+# worth a human's eyes before treating it as confirmed, same standing as
+# gate_no_build_attribution's own "ruled by" pattern below.
+_THE_WORLDS_POSSESSIVE = re.compile(r"\bthe world's\b", re.IGNORECASE)
+
+# Proven exceptions to Form 1/3 - not assumed, and deliberately not a
+# growing banned/allowed-word list (the Register Bar's own standing
+# objection to that shape of rule applies here too; this is two fixed,
+# named theological idioms, not a word list that accretes). Both name the
+# created/temporal order itself - a cosmological claim - not the speaker's
+# own community:
+#   - anti-Marcionite cosmology, "the Maker of this world" (syr.dw.god,
+#     refuting Marcion's demiurge)
+#   - the ordinary "my kingdom is not of this world" sense (John 18:36),
+#     here as a close paraphrase of Hegesippus verified against the
+#     vendored source (pahc.story.grandsons-before-domitian, anf08 line
+#     71558)
+# Found by hand-checking every Form-1/3 hit fleet-wide 2026-09-04; no
+# others turned up under two independent keyword sweeps for cosmological
+# vocabulary (maker, ruler, prince, wisdom, kingdom, depart, foundation).
+_MAKER_OF_THIS_WORLD = re.compile(r"\bmaker of this world\b", re.IGNORECASE)
+_NOT_OF_THIS_WORLD = re.compile(r"\bnot of this world\b", re.IGNORECASE)
+
+
+def _perspective_exception(sentence: str) -> bool:
+    return bool(_MAKER_OF_THIS_WORLD.search(sentence) or _NOT_OF_THIS_WORLD.search(sentence))
+
+
+def _it_chain_hits(sentences: list[str]) -> list[str]:
+    """Form 2, gated floor only (see the tracking doc for the fuller
+    estimate this deliberately does not chase): sentence-initial "It"/
+    "Its" immediately following a sentence whose own subject is literally
+    "this world"/"the world" - a mechanically checkable anaphora chain,
+    spot-checked fleet-wide at effectively 100% precision (e.g.
+    alx.dw.church-failure: "This world's record leaves its wounds
+    visible. Its greatest teacher was..."). The broader same-field
+    co-occurrence form (every "it"/"its" anywhere in a field that also
+    contains a Form-1/3 hit) measured only ~37% precision on a 40-sentence
+    random sample fleet-wide and is deliberately NOT gated here - it would
+    drown real findings in noise, the same reasoning gate_no_build_
+    attribution's own field-scoping comment gives for staying narrow."""
+    hits = []
+    for i in range(1, len(sentences)):
+        prev = sentences[i - 1].strip()
+        cur = sentences[i].strip()
+        if re.match(r"^(this world|the world)\b", prev, re.IGNORECASE) and re.match(
+            r"^(it|its)\b", cur, re.IGNORECASE
+        ):
+            hits.append(cur)
+    return hits
+
+
+def gate_voice_perspective(records, fleet, registry) -> list[str]:
+    """The Representative speaking about its own world from outside - "this
+    world taught...", "the world's own record...", a third-person "it"/
+    "its" chain describing the community as an object - rather than from
+    inside it, in the we-voice the corpus's own approved exemplar
+    (records/syr/demonstration/syr.demo.room-for-doubt.md, the Register
+    Bar's own named standard) already models correctly throughout. Not a
+    grammar nicety: a builder names a world from outside it ("this
+    world"); an inhabitant of it does not, any more than a person says
+    "this country" about their own.
+
+    Root cause (full trace in CiC_Cross_System_Analysis_Tracking.md,
+    2026-09-04 entry): the approved exemplar is already followed correctly
+    everywhere it is actually checked against, but the Register Bar's own
+    documented properties never named perspective as one of them - only
+    readability (word choice, sentence length, FK/FRE via M7). This gate
+    is the missing mechanical check; CiC_Register_Bar_2026-08-29.md and
+    the Record-Native Build Process's Phase-B birth conditions were
+    updated the same day to name perspective as a bar property going
+    forward, so new records are born past this, not swept afterward.
+
+    Scoped to exactly the fields build_prompt()/_chunk_text() turn into
+    the voice's own speech - see _PERSPECTIVE_FIELDS above for what that
+    excludes and why. The "the world's..." and it/its-chain findings are
+    lower-precision than the literal "this world" ones (documented at each
+    pattern above) and are worth a human's eyes before treating as
+    confirmed - same standing several other gates in this battery already
+    have."""
+    findings = []
+    for rid, rec in records.items():
+        rt = rec.get("record_type")
+        texts = [(f, rec.get(f)) for f in _PERSPECTIVE_FIELDS.get(rt, [])]
+        if rt == "demonstration":
+            for i, turn in enumerate(rec.get("exchange") or []):
+                if turn.get("speaker") == "representative":
+                    texts.append((f"exchange[{i}].text", turn.get("text")))
+        for field, text in texts:
+            if not isinstance(text, str) or not text.strip():
+                continue
+            sents = quote_aware_sentences(text)
+            for sent in sents:
+                if _perspective_exception(sent):
+                    continue
+                if _THIS_WORLD.search(sent):
+                    findings.append(
+                        f'{rid}.{field}: speaks of "this world" from outside rather than as '
+                        f"\"we\"/\"our\" - {sent[:150]!r}"
+                    )
+                elif _THE_WORLDS_POSSESSIVE.search(sent):
+                    findings.append(
+                        f"{rid}.{field}: \"the world's...\" - possibly the same outside-vantage "
+                        f'pattern as "this world\'s..." without the word "this"; this form runs '
+                        f"~70% precision, not exact, so worth a human read - {sent[:150]!r}"
+                    )
+            for hit in _it_chain_hits(sents):
+                findings.append(
+                    f"{rid}.{field}: the sentence right after \"this/the world...\" opens with "
+                    f'"{hit.split()[0]}", continuing the third-person description instead of '
+                    f"switching to \"we\" - {hit[:150]!r}"
+                )
+    return findings
+
+
 # Record types whose id legitimately carries a canon-cell code. Only
 # search_record does: a negative sweep IS defined by the cell it swept, and
 # ijc holds seven that would collapse to one id without it. These records are
@@ -586,6 +739,7 @@ GATES = {
     "readability": gate_readability,
     "canon-coverage": gate_canon_coverage,
     "no-build-attribution": gate_no_build_attribution,
+    "voice-perspective": gate_voice_perspective,
     "id-convention": gate_id_convention,
 }
 

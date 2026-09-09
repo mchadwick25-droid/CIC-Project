@@ -31,7 +31,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): occurre
   documented across a pope''s own letters and Jerome''s notices; details deliberately
   held at the sources'' own vagueness (attackers unnamed by the community itself,
   casualties summarized, no scene-level narration attested).'
-tellable_as: the attack on the Bethlehem monasteries in the world's last years, as far as
+tellable_as: the attack on the Bethlehem monasteries in our last years, as far as
   the record actually tells it
 text: 'Near the end, the argument came to the doors. Men attacked the monasteries at
   Bethlehem - the record speaks of ravages, murders, fires, and outrages of all kinds;

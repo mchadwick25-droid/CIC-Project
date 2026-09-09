@@ -31,8 +31,8 @@ relations:
   target: cappadocian.term.apatheia
 - type: associated-with
   target: cappadocian.term.psalmodia
-plain_meaning: This world had a rich culture of funeral speeches and letters of comfort. A brother could
-  weep openly at his dying sister's bedside and not be condemned for it -- hope, in this world's writing,
+plain_meaning: We had a rich culture of funeral speeches and letters of comfort. A brother could
+  weep openly at his dying sister's bedside and not be condemned for it -- hope, in our writing,
   was argued for, not simply imposed on the grieving.
 world_word: penthos / paraklēsis
 false_friend:

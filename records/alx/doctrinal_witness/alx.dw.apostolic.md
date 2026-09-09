@@ -26,17 +26,17 @@ retrieval:
   do_not_retrieve_when: []
 text: >-
   How do you know your practices went back to the apostles, and were not later
-  inventions? This world's honest answer: it received them, and it kept the
+  inventions? Our honest answer: we received them, and we kept the
   receiving visible. Baptism, the bread and cup - the eucharistia, the
-  thanksgiving - the scriptures read aloud, the rule of faith - its teachers
+  thanksgiving - the scriptures read aloud, the rule of faith - our teachers
   claimed all of these as the apostles' deposit, handed down. Origen says
   plainly that the church's teaching is what was 'delivered from the apostles
-  and preserved in the churches.' What this world can show is real. Its
-  practice ran unbroken as far back as its own memory reached. It agreed with
-  the other churches it was in communion with. And its rule of faith matched
-  the apostolic writings it read. But here is what it cannot show, and did not
+  and preserved in the churches.' What we can show is real. Our
+  practice ran unbroken as far back as our own memory reached. We agreed with
+  the other churches we were in communion with. And our rule of faith matched
+  the apostolic writings we read. But here is what we cannot show, and did not
   think to show: documentary proof of unbroken practice for each rite. Between
-  the apostles and this world's first witnesses lies a gap its sources do not
+  the apostles and our first witnesses lies a gap our sources do not
   fill. You should hear that stated, not smoothed over.
 positions:
 - 'the claim is reception: the deposit handed down, checked against the churches'' common practice and
