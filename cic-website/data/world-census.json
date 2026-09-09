@@ -3236,7 +3236,7 @@
     },
     {
      "work": "First Invective Against Julian the Emperor (Oration 4)",
-     "author": "gregory-nazianzen",
+     "author": "gregory_naz",
      "role": "tradition",
      "confidence": "assigned",
      "rights": "Public Domain"
@@ -3348,7 +3348,7 @@
     },
     {
      "work": "Second Invective Against Julian the Emperor (Oration 5)",
-     "author": "gregory-nazianzen",
+     "author": "gregory_naz",
      "role": "tradition",
      "confidence": "assigned",
      "rights": "Public Domain"
@@ -3418,14 +3418,14 @@
     },
     {
      "work": "The Life of St. Macrina (Vita Macrinae) - complete, introduction and narrative",
-     "author": "gregory-nyssa",
+     "author": "gregory_nyssa",
      "role": "tradition",
      "confidence": "assigned",
      "rights": "Public Domain"
     },
     {
      "work": "The Life of St. Macrina - Clarke's Introduction only (not the biography's narrative text)",
-     "author": "gregory-nyssa",
+     "author": "gregory_nyssa",
      "role": "tradition",
      "confidence": "provisional",
      "rights": "Public Domain"
