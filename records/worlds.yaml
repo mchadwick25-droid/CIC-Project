@@ -70,7 +70,7 @@ worlds:
   pahc:
     kind: formation
     world_id: post-apostolic-house-church
-    display_name: "Post-Apostolic House-Church Christianity"
+    display_name: "Post-Apostolic Household-Church Christianity"
     time_window: {start: 70, end: 200}
     place: "Antioch/Syria, Asia Minor, Rome"
     doorway_place: "Antioch, the cities of Asia Minor, and Rome"
@@ -83,7 +83,7 @@ worlds:
       Corinth. There were no church buildings yet, no finished New Testament,
       no safety in the law. There were only communities working out, generation
       by generation, what it meant to stay one church across an empire.
-    card_name: "The House-Churches"
+    card_name: "The Scattered Households"
     representative: {name: Chloe, role_label: "Household Leader"}
     state: admitted
     census_id: "post-apostolic-house-church"
