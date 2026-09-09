@@ -109,6 +109,20 @@ Augustine against his own milieu) — plus, independent of the controversy, Lér
 narrative (Hilary of Arles on Honoratus) and a third insider ascetic voice (Eucherius). None of this
 is vendored yet. It is Doc_02's own intake queue, not this document's to execute mid-Doc_01-review.
 
+**2026-09-09 addendum: the four rows above independently re-verified, plus two genuinely new leads
+found.** A scheduled source-readiness routine flagged Salvian of Marseilles and Constantius of Lyon's
+*Vita Germani* as unconfirmed candidates outside this table; both chased down directly this session
+(URLs and rights bases verified against the actual host, not guessed), and added to the cross-world
+`download-queue-seed.yaml` alongside the four rows above, which were themselves upgraded there from
+sibling-flagged to directly re-verified (see that file and the Source Registry's own rows 24–27 for
+the dated corrections). **Neither of the two new leads below has been boundary-checked against this
+world's own window (Doc_01 §2) — that is a Doc_02-maintenance judgment call, not settled here.**
+
+| work | author | where | rights | note |
+|---|---|---|---|---|
+| *On the Government of God (De Gubernatione Dei)* | Salvian of Marseilles | archive.org `SalvianOfMarseille.OnTheGovernmentOfGod` (tr. Eva M. Sanford, 1930) | public domain (pd-us-by-date, "opensource" collection, no lending restriction) | **English.** Salvian was a presbyter of Marseilles, Cassian's own city, writing c. 440s — squarely inside this world's temporal and geographic window on paper, but his own subject (Roman moral decline under the Vandal-era crisis) is a different register from the grace controversy or the ascetic-formation material this world's ecology has centered so far. Boundary Check and Licensed-For scope not yet done — a Doc_02-maintenance item, not decided here |
+| *Vita Germani* (Life of Germanus of Auxerre) | Constantius of Lyon | archive.org `passionesvitaequesanctorum5` (MGH *Scriptores rerum Merovingicarum* VII, ed. Levison, 1920, pp. 225–283) | public domain ("Public Domain Mark 1.0") | Latin only — no public-domain English translation exists. The only English translation, F. R. Hoare's *The Western Fathers* (Sheed and Ward, 1954), is access-restricted (controlled digital lending) on every archive.org copy found and not confirmed public domain; a renewal check against Stanford's Copyright Renewal Database could not be completed this session (the host is blocked by this session's network egress proxy) — do not treat Hoare's translation as acquirable without that check actually being done. Germanus of Auxerre (not Provence/Lérins) is a looser geographic fit than Salvian's; Boundary Check not yet done |
+
 ---
 
 ## Part C — Corpus-map re-pointing done this session (2026-09-08)
