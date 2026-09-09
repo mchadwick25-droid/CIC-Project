@@ -1,0 +1,29 @@
+source_file: cil8-supplementum-numidiae_cagnat-schmidt1894.txt
+
+authors_ruled:
+  cil8-numidia:
+    kind: anonymous
+    evidence: >
+      A collective epigraphic corpus (inscriptions from many hands across
+      centuries), not a work with a single author — the editors (Cagnat,
+      Schmidt, Dessau) compiled and annotated it but did not write the
+      inscriptions themselves. A collective work-entity per brief 6.4, not
+      an author.
+
+assignments:
+  - work: "Corpus Inscriptionum Latinarum VIII, Supplementum: Inscriptiones
+      Provinciae Numidiae"
+    author: cil8-numidia
+    locus: "whole volume"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: provisional
+    note: >
+      Latin epigraphic corpus for Numidia, this world's own Donatist
+      heartland province — material-culture/epigraphic evidence, not a
+      documented voice from either side. Provisional: no specific
+      inscription has yet been checked against a claim this world's
+      construction actually makes; per this corpus's own standing rule, a
+      raw epigraphic corpus supports nothing on its own until a specific
+      inscription is located and read.
