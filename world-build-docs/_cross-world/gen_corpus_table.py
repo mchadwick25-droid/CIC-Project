@@ -273,7 +273,9 @@ def main() -> None:
     out.append("| **1 — named, never opened** | this world's records already name the author and have never opened their works. Derived, not asserted. |")
     out.append("| **2 — same time and place** | coverage overlaps the window *and* the region (or the volume is ecumenical). |")
     out.append("| **3 — same time, different region** | in the window, outside the world's own geography. Rank low; do not drop. |")
-    out.append("| **4 — outside this window** | no time overlap. Lowest rank. |")
+    out.append("| **4 — outside this window** | coverage checked, no time overlap. Lowest rank. |")
+    out.append("| **4 — unclassified** | no COVERAGE entry for the volume, so no date judgement has been made. "
+               "NOT a finding of no overlap — these need dates entered in `engine/m1/cross_world.py`. |")
     out.append("")
 
     tiers = ("1 - named, never opened", "2 - same time and place",
@@ -289,14 +291,15 @@ def main() -> None:
             buckets[corpus_tier(filename, w, win, named=filename in named)].append(filename)
         per_world[w] = buckets
 
-    out.append("| world | window | sourced | tier 1 | tier 2 | tier 3 | tier 4 |")
-    out.append("|---|---|---|---|---|---|---|")
+    out.append("| world | window | sourced | tier 1 | tier 2 | tier 3 | tier 4 | unclassified |")
+    out.append("|---|---|---|---|---|---|---|---|")
     for w in W:
         b = per_world[w]
         sourced = sum(1 for f in files if counts.get(f, {}).get(w))
-        t4 = len(b.get("4 - outside this window", [])) + len(b.get("4 - unclassified", []))
+        t4 = len(b.get("4 - outside this window", []))
+        t4u = len(b.get("4 - unclassified", []))
         out.append(f"| `{w}` | {reg[w]['time_window']['start']}–{reg[w]['time_window']['end']} | {sourced} | "
-                   f"**{len(b.get(tiers[0], []))}** | {len(b.get(tiers[1], []))} | {len(b.get(tiers[2], []))} | {t4} |")
+                   f"**{len(b.get(tiers[0], []))}** | {len(b.get(tiers[1], []))} | {len(b.get(tiers[2], []))} | {t4} | {t4u} |")
 
     for w in W:
         b = per_world[w]
@@ -311,9 +314,14 @@ def main() -> None:
                 span = f"({lo}–{hi}) " if lo else ""
                 out.append(f"- `{filename}` {span}— {subject_for(filename)}")
             out.append("")
-        rest = sorted(b.get(tiers[3], []) + b.get(tiers[4], []))
-        if rest:
-            out.append(f"Tier 4 — {len(rest)}: " + ", ".join(f"`{key_for(f)}`" for f in rest) + "\n")
+        outside = sorted(b.get(tiers[3], []))
+        if outside:
+            out.append(f"Tier 4, outside this window — {len(outside)}: "
+                       + ", ".join(f"`{key_for(f)}`" for f in outside) + "\n")
+        uncl = sorted(b.get(tiers[4], []))
+        if uncl:
+            out.append(f"Tier 4, unclassified (no COVERAGE entry — no date judgement made) — {len(uncl)}: "
+                       + ", ".join(f"`{key_for(f)}`" for f in uncl) + "\n")
 
     target = Path(__file__).resolve().parent / "CORPUS-USE.md"
     target.write_text("\n".join(out) + "\n")
