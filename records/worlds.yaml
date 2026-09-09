@@ -63,8 +63,8 @@ worlds:
     state: admitted
     census_id: "desert-monasticism"
     package:
-      manifest_hash: "sha256:f963a69df2c2ac038818ab6dd6baac4545bf989062889196dfb8c305e905eb02"
-      location: "packages/desert/2026-09-04T16-41-52Z"
+      manifest_hash: "sha256:9a79a0a3208631344881e77709e066df3341b8cc7e361c7004f6eb8f18ca4cf4"
+      location: "packages/desert/2026-09-09T03-17-52Z"
     thinness_statement: "Richest in the Apophthegmata's own elder-and-disciple sayings tradition and Antony's own Vita; thinner on ordinary participants outside the collected-sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus)."
     living_tradition_flag: true
   pahc:
