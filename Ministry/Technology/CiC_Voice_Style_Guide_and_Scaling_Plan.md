@@ -260,6 +260,72 @@ watch list explicitly:
   sentence from the imagery discipline — check what you just wrote with
   the same suspicion you'd apply to someone else's draft.
 
+### The depth gap: passing the sentence-level bar is not the same as matching Chloe's
+
+A second full round on Alexandria (after the self-contradiction fixes
+above) still left it short of Chloe's own bar, even with every sentence
+individually clean. A direct side-by-side comparison — read both
+entries' corresponding fields together, not one after the other from
+memory — found three specific structural shortfalls, none of them a
+sentence-level tell. **Run this comparison, field by field against
+Chloe's shipped entry, as its own explicit step, separate from and after
+the five-question pass.** A world can pass every sentence-level check
+and still be a shallower first draft than Chloe's, because Chloe's own
+fields were shaped by dozens of rounds of Mark's own direct correction
+and a new world's have not been.
+
+The three specific gaps found, each now fixed as the standing bar:
+
+1. **Story and Legacy rendering as a single undivided block instead of
+   multiple paragraphs.** The render code splits both fields on `\n\n`
+   generically — Chloe's Story is 3 paragraphs and Legacy is 3
+   paragraphs; Alexandria's were each one dense block. Check: does the
+   field actually contain `\n\n`, and does the panel show visible
+   paragraph breaks? If a field is more than ~120 words and has none,
+   that's a miss, not a stylistic choice — find the natural thematic
+   seams (a new named figure, a shift from practice to tension, a shift
+   from one legacy-dimension to another) and split there. No content
+   change required, just structure.
+
+2. **The tile doing two jobs where Chloe's does three.** Chloe's tile
+   always covers: (a) the practice/identity — what this community
+   actually did, in concrete terms; (b) a structural tension held open,
+   not resolved (the bishop/elders split, an institution-vs-informal
+   question, a contested title); (c) the cost of it — persecution,
+   suspicion, loss of status, whatever this world's own record actually
+   attests. Alexandria's tile originally had (a) and a version of (b)
+   folded into it (the interpretive method) but no (b)-as-tension and no
+   (c) at all, despite both existing elsewhere in the very same entry
+   (the institution question in Story, real persecution in the
+   documented stories and figure records). **Before shipping a tile,
+   check it covers a genuine tension and a genuine cost, sourced from
+   material already in the entry — don't invent new claims to fill the
+   slots, surface what's already there.**
+
+3. **Voices with no hedge and no absence.** Two of Chloe's five voices
+   demonstrate holding a tension without resolving it (Ignatius's
+   contested death, Polycarp's disputed title), and her fifth voice
+   plays a specific structural role: every other entry puts a name in
+   the subject position, and the fifth puts an *absence* there ("Most of
+   these communities' hosts and householders are never named"). Check
+   every world's `voices` array for both: at least one entry that hedges
+   a claim by naming what a later or dissenting source actually says
+   (not just a flat biographical fact), and one entry — it can be an
+   addition, `voices` isn't fixed at five — that states a structural
+   absence the world's own `world_core` thin_topics or ABSENT STORIES
+   section already names. Alexandria's fix added exactly this: Pantaenus's
+   entry now notes that Clement's famous teacher-tribute never actually
+   names its subject (the identification is Eusebius's, not Clement's),
+   and a sixth voice states that no ordinary believer's own words
+   survive — both drawn from material already in `records/alx/`, not
+   invented.
+
+**The general form of the check, for any new world:** read the shipped
+Chloe entry and the draft entry's corresponding field side by side, not
+sequentially, and ask what JOB each of Chloe's sentences is doing that
+the draft's corresponding field has no equivalent for. A missing job is
+a depth gap even when every sentence present is individually clean.
+
 ---
 
 ## 1.2 The exemplar, and the one test that generates the rest
@@ -1225,6 +1291,22 @@ INPUTS
              floorNote whose own first sentence said "nothing diverges"
              and second sentence said "formally condemned" - this class of
              error will not show up if you check sentences one at a time).
+3.5 DEPTH GAP  Read §1.1's "depth gap" subsection, then put this world's
+             tile, Story, Legacy, and voices side by side with Chloe's
+             corresponding fields - not sequentially, side by side. Ask
+             what job each of Chloe's sentences does that this world's
+             field has no equivalent for. Specifically check: (a) does
+             Story/Legacy actually contain \n\n and render as multiple
+             paragraphs, not one block; (b) does the tile cover a
+             practice, a held-open structural tension, AND a real cost
+             (persecution/suspicion/loss of status), not just one or two
+             of the three; (c) does at least one voices entry hedge a
+             claim the way Ignatius's or Polycarp's does, and does one
+             entry (voices isn't fixed at five - add one if needed) state
+             a structural absence this world's own world_core/thin_topics
+             already names. A world that passes every sentence-level
+             check in step 3 can still fail this step - Alexandria did,
+             twice, before this check existed as its own step.
 4 SOURCES    Every work named in prose has a row in `sources`. Add storySources /
              legacySources. Note anything cited on the tradition page but not here.
 5 SYNC       atlas-v3.html + data/world-census.json + index.html + table.html +
