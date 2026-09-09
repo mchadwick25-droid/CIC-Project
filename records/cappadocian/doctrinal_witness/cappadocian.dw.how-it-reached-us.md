@@ -55,6 +55,9 @@ positions:
 tensions:
 - we cannot claim any living chain back to an eyewitness of Jesus; three centuries and more separate our
   own span from his own life, and we do not pretend otherwise
+relations:
+- type: associated-with
+  target: cappadocian.quote.macrina-the-elder-taught-me
 ---
 Closes C-E. Grounded in four already-registered term records rather than
 any new claim: cappadocian.term.paradosis (unwritten custom carrying
