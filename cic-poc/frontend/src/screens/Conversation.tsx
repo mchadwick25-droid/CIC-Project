@@ -79,7 +79,14 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
       </div>
 
       {isLoading && !closed && (
-        <p className="waiting-note sans">{world.representativeName} is considering…</p>
+        <p className="waiting-note sans">
+          {world.representativeName} is considering
+          <span className="typing-dots" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </p>
       )}
       {error && (
         <div className="conversation__error">
