@@ -269,8 +269,38 @@ above (2026-09-01 schema-gap recompile) and in
 source count 1→3; byte-identical re-generation confirmed, isolated: 0,
 non-reciprocal: 0). **Disposition: Approved to proceed** (build-thread
 self-disposition per CO-022/CO-024b; no escalation category applies).
-Package recompiled same date (see package-history entry below); M3 rerun
-not warranted - see that entry for the reasoning.
+
+**Recompile, 2026-09-09** (commit `fa07b2e`): `python -m engine.m2.cli
+build pahc` -> `packages/pahc/2026-09-09T02-57-17Z`, manifest_hash
+`sha256:915b959ef22a3e0b30fb3c13d4dec0c402ccb3c536a627c0f223a264ec365f34`.
+Determinism-check passed (byte-identical on a second compile).
+Manifest-level diff against the prior pin (`2026-09-04T16-41-56Z`)
+confirmed the changed/added file set is exactly what this pass touched
+(the two new quote records; the edited gravity and source records; their
+legitimate downstream ripple - `compiled/quotes.json`, `coverage.json`,
+`indexes/canon-map.json`, the rebuilt FAISS indexes, `validation/*` -
+plus provenance-only hash churn in files that merely embed
+`records_commit`, e.g. `compiled/frame.json`, `compiled/media/
+portrait.svg`). `records/worlds.yaml`'s pahc package pin updated to this
+new location/hash; the superseded pin (`2026-09-04T16-41-56Z`) kept on
+disk, not deleted, per this repo's own convention.
+
+**M3 admission: rerun warranted, not run here.** pahc's registry
+`state` is `admitted` (a live 28-probe sealed-battery certificate
+already exists from an earlier content state - the most recent M3
+report mentioning pahc predates this world's 2026-08-30 BAR SWEEP/
+CENTER-CELL passes, let alone this one). This pass adds two new,
+real quote records (not a mechanical/metadata-only recompile like the
+2026-09-01 schema-gap pass, which was proven byte-identical in content
+and explicitly did not need a fresh M3 run) - the same shape of change
+Cappadocian's own precedent (`CAPPADOCIAN_BUILD_LEDGER.md` lines 767,
+787: "this run re-certifies that the added quote material didn't
+introduce any new grounding, isolation, or register failure") treats as
+warranting a fresh live run. M3 admission requires real AWS Bedrock
+spend and Mark's own explicit per-run authorization
+(`engine/m3/live_admission_run.py`'s own docstring; every fleet
+precedent) - not something a build thread runs on its own judgment.
+Flagged here for Mark's decision, not executed.
 
 ## hal (Hieronymian Ascetic-Literary Christianity)
 
