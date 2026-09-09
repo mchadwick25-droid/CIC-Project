@@ -253,8 +253,7 @@ Peter of Alexandria, and Theognostus/Pierus. Verified from primary sources; full
 
 **Finding: NOT structural.** No gravity moves between Primary/Supporting/Tensional; no six-test
 verdict flips; the Article 21 cross-stratum substitute is unchanged (OG-4 stands exactly where it
-stood). Routes tested and failed: C5 Persistence, T1 pole separation, T3, T4 confidence, C4, and
-the Cross-Stratum Test.
+stood). Every route anyone named was run and failed — the full list, with results, is below.
 
 **The discovery pass overstated its case**, and its wrongness *protects* Doc_04. Its premise —
 Peter as a unique teacher+bishop+martyr overlap — is **unattested** in the vendored material (the
@@ -316,10 +315,12 @@ remaining untested route is known.
 **Reviews.** Every round is an artifact on disk at
 `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round*_Review.md` — that glob, not a count
 restated here, is the authoritative list, because this entry and the finding document's own §10
-have drifted from disk state in four consecutive rounds and a count is the thing that keeps going
+drifted from disk state in five of the seven rounds, and a count is the thing that keeps going
 stale. Each is AI review, marked "Simulated review — informational only, not an Article 31
-substitute" per Article 31. **Every round to date has returned SUBSTANTIAL REVISION REQUIRED and
-upheld the "not structural" headline**, each one *narrowing* the case under it rather than
-strengthening it; the substantial-finding count has fallen monotonically round on round. The
-finding document's header carries the current round and its status. **The finding document is NOT
-cleared and carries no disposition.**
+substitute" per Article 31. **Every round upheld the "not structural" headline**, each one
+*narrowing* the case under it rather than strengthening it. The finding document's header carries
+the current round, the per-round verdicts and counts, and the current status — deliberately not
+restated here, because hand-maintained characterisations drift exactly as hand-maintained counts
+do, as five of the seven rounds demonstrated. **The finding document has CLEARED review. It carries
+NO disposition, and this entry remains OPEN for the project lead** — clearing the document is not
+disposing of the finding.

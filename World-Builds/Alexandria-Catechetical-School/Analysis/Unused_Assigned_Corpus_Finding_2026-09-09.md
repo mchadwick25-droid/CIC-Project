@@ -2,7 +2,7 @@
 
 **Alexandria (Catechetical-School) Formation World · finding document · 2026-09-09**
 
-**Version:** Round 7 draft (revised after six adversarial rounds). Revision log: **§11**.
+**Version:** Final (cleared at Round 7, after six revising rounds). Revision log: **§11**.
 
 - **Round 1** (`Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md`) — **SUBSTANTIAL
   REVISION REQUIRED**, 8 substantial + 8 cosmetic. Headline upheld.
@@ -31,18 +31,25 @@
   the stronger anchor. Its two findings were again one-line self-description errors, one of them a
   regression at the locus Round 4 had already graded substantial.
 
-All six are AI review, each marked in its own artifact *"Simulated review — informational only,
-not an Article 31 substitute"* (Article 31). **Round 7 review pending — this document is NOT
-cleared, and no disposition has been assigned to it.**
+- **Round 7** (`…_Round7_Review.md`) — **CLEARED**, 0 substantial (19 cosmetic). Round 6's two
+  RESOLVED, the structural fix verified to hold, and the headline independently re-verified from
+  primary sources a seventh time rather than inherited.
 
-*Trajectory, stated because it is the honest summary: **8 → 8 → 4 → 3 → 1 → 2** substantial
-findings, with the headline upheld at every one of six rounds and each round **narrowing** the case
-under it rather than strengthening it. The pattern across all six is sharp and worth stating
-plainly: **the evidence work has held, and this document's self-description has been the defect** —
-Round 1's header, Round 2's phantom ledger entry, Round 4's §10, Round 5's OG-6 paragraph, and
-Round 6's §10 status bullet plus a regression I introduced in the very bullet added to fix Round
-5's. Every hand-maintained restatement of the round count has now been removed; it lives in this
-header alone.*
+All seven are AI review, each marked in its own artifact *"Simulated review — informational only,
+not an Article 31 substitute"* (Article 31). **Status: CLEARED REVIEW** — the document has passed
+independent review with no substantial revision called for. It is **not** "Approved to proceed" and
+**not** "Frozen": under `cic-build-cycle` those are dispositions, escalation categories 4 and 2
+apply here, and **no disposition has been assigned to it** by this thread or anyone else. Clearing
+this document does not dispose of the finding; **OG-6 remains OPEN for the project lead** (§9).
+
+*Trajectory, stated because it is the honest summary: **8 → 8 → 4 → 3 → 1 → 2 → 0** substantial
+findings, with the headline upheld at every one of seven rounds and each round **narrowing** the
+case under it rather than strengthening it. The pattern is sharp and worth stating plainly: **the
+evidence work held, and this document's self-description was the defect** — Round 1's header,
+Round 2's phantom ledger entry, Round 4's §10, Round 5's OG-6 paragraph, and Round 6's §10 status
+bullet plus a regression introduced in the very bullet added to fix Round 5's: five occurrences
+across seven rounds, none of them in the argument. Every hand-maintained restatement of the round
+count has been removed; it lives in this header alone.*
 
 **Status:** Verified finding, **escalated to the project lead — not self-disposed.** No
 **construction document** (Doc_01–Doc_09), no `records/alx/` record, no corpus-map entry and no
@@ -339,7 +346,9 @@ this world at `Documented` / `verified-direct` / citation-specificity A. (Manife
    a confessor. That is a different evidential kind, and it is absent.
 2. *No witness outside Eusebius's selection.* `alx.source.dionysius-extant-fragments` concedes in
    its own `work` field that the letters survive "mostly through **Eusebius's quotation** and later
-   catenae: **doubly mediated** (his selection, then his quoters')." So **every** manifestation on
+   catenae: **doubly mediated** (his selection, then his quoters')." The warrant is not only that
+   hedge: ANF's headnotes give the persecution letters individually as *HE* vii.11; vi.41, 42, 44;
+   vi.46; vi.40 with vii.11; and vii.1, 10, 23. So **every** manifestation on
    T4's martyr pole passes through Eusebius — whom Doc_04 §0 screens at **HIGH risk** and §3.6
    applies by name to T1 and T3. Peter's canons reach us through an **entirely independent
    channel**: the Byzantine canonical tradition (Balsamon and Zonaras) and the canon law the
@@ -374,9 +383,13 @@ The finding is that the record is *incomplete*, not that it is *wrong*:
 
 Together: the Alexandrian church **deliberately de-absolutizing martyrdom-as-formation** —
 flight legitimate, bribery legitimate, self-offering discouraged from Christ's own example,
-lapse forgivable on a set scale, and, in Canon XIV, **the bishop deciding who is reckoned among
-the confessors**. That last point is what carries the T1×T4 argument below; it rests on the canons
-themselves, not on Fragment I.
+lapse forgivable on a set scale, and the bishop — not confessor prestige — setting the terms. That
+last point carries the T1×T4 argument below, and it rests on the canons themselves, not on Fragment
+I. **Canon X is the cleanest anchor** (adopting Round 6's observation): clergy who volunteered for
+martyrdom and lapsed are permanently barred from office, episcopal authority overriding confessor
+standing outright. Canon XIV is the complement — the bishop *ratifying* who is "reckoned amongst
+the confessors," which Balsamon glosses as a decree that "they should each in his own degree be
+ranked amongst the confessors." Canons IX and XIII carry it too.
 
 **A qualification that must travel with this, from ANF's own Elucidation II** (searched but not
 read in Round 1). The editor writes of Peter's canons that "Like the famous Canonical Epistles of
@@ -680,7 +693,8 @@ martyr pole (§5.3) in place, and produces the bolt-on failure mode above.
 
 **Option C — log and defer.** This document stands as the durable record. Defensible if Article
 31 external review (OG-4) is near, since a qualified reviewer would see these same texts. Not
-recommended: §5.1 is a plain factual error and cheap to fix.
+recommended: §5.1 is a sourcing error that is cheap to fix, and it will otherwise sit
+uncorrected in a cleared document.
 
 **Separate decision, genuinely portfolio-level (§7).** Whether to build and run the
 work-granularity corpus-map-vs-records diff across all worlds. This document recommends it and
@@ -701,10 +715,14 @@ should not decide this.
 - No recompile; no M3 run; `records/worlds.yaml` untouched.
 - **No §3.5 audit.** Alexander of Alexandria and the other unopened assigned works are named,
   not investigated.
-- **Not cleared**, and **no disposition has been assigned to it** by this thread or anyone else.
+- **Cleared review, and NOT disposed.** These are different things under `cic-build-cycle`, and the
+  difference is the whole point of this document: it has passed independent review with no
+  substantial revision called for, and **no disposition** — not "Approved to proceed," not
+  "Frozen" — has been assigned to it by this thread or anyone else. The finding it carries (OG-6)
+  remains **OPEN** for the project lead.
   *Round 6 drift-proofing: this bullet used to restate the round count and trajectory, and went
-  stale in the same commit that drift-proofed the file list six lines below — the fifth
-  consecutive round in which this document's self-description was the defect. The count now lives
+  stale in the same commit that drift-proofed the file list six lines below — one of **five of
+  six rounds** in which this document's self-description was the defect. The count now lives
   in exactly one place, the header, and is deliberately not repeated here.*
 - No claim that any of this was seen or approved by the project lead.
 
@@ -733,7 +751,39 @@ document accounts for by scoping its "no change" claim to world-build constructi
 
 ## 11. Revision log
 
-### Round 6 → Round 7 (this revision)
+### Round 7 — CLEARED (this revision)
+
+Round 7 returned **CLEARED**, 0 substantial (19 cosmetic), and upheld the headline a seventh time,
+re-verifying it from primary sources rather than inheriting it. Round 6's two findings were
+confirmed resolved, and the structural drift-proofing confirmed to hold within the finding
+document. Applied with this clearance:
+
+1. **The status turnover Round 6 predicted and Round 7 required (c-21).** OG-6's "Every round to
+   date has returned SUBSTANTIAL REVISION REQUIRED" and "NOT cleared" became false the moment the
+   Round 7 artifact landed. OG-6, the header, and §10 now all read **CLEARED review, no
+   disposition, OG-6 still OPEN** — a distinction `cic-build-cycle` draws and this document turns on.
+2. **The last hand-maintained characterisation deleted (c-25).** OG-6 claimed the substantial count
+   "has fallen monotonically round on round." False at Round 6 (1 → 2). Deleted rather than
+   re-characterised, on the lesson of five rounds: hand-maintained *characterisations* drift
+   exactly as hand-maintained *counts* do.
+3. **"Consecutive" corrected (c-24).** The self-description defects fell in Rounds 1, 2, 4, 5 and 6
+   — five occurrences across seven rounds, not consecutive.
+4. **§9 Option C's "plain factual error" softened (c-11)**, six rounds old: Doc_04 §0's sentence is
+   a hedged collective ("reaching us *largely* through Eusebius," of Dionysius, Heraclas and
+   Theognostus together), which §5.1's own body concedes by writing "False for Theognostus."
+5. **§5.3's Eusebius claim put beyond a hedge (c-20)** — the one carried cosmetic touching a
+   load-bearing sentence. It now cites ANF's per-epistle headnotes (*HE* vii.11; vi.41, 42, 44;
+   vi.46; vi.40 with vii.11; vii.1, 10, 23), not only the Dionysius record's "mostly."
+6. **Canon X adopted as the T1×T4 anchor (c-22)**, Round 6's strengthening: X has the bishop
+   overriding confessor standing outright, where XIV has him ratifying on martyr testimony.
+7. **OG-6's stale duplicate route list removed (c-15)** — a lead reading top-down met the
+   pre-Round-3 short list before the complete one.
+
+*Remaining cosmetics are recorded in the Round 7 artifact and are not repaired here; none affects
+a finding, a conclusion, a scope boundary, or the document's status. Disclosed rather than left
+implied, per the practice this log set for itself at Round 2 → 3.*
+
+### Round 6 → Round 7
 
 Round 6 returned **SUBSTANTIAL REVISION REQUIRED** with **2 substantial** findings (16 cosmetic) and
 upheld the headline a sixth time. It confirmed Round 5's single finding resolved, both
