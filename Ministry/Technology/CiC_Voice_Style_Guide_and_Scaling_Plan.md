@@ -375,6 +375,76 @@ the file itself alone. If a record's own text is bad enough that fixing
 the website copy isn't enough, that's an escalation (§3.2), not a quiet
 edit.
 
+### Checks a single-world pass misses that only a same-day, side-by-side comparison against Chloe/Alexandria catches
+
+Running the review process well on one world in isolation is not the same
+guarantee as comparing its shipped output field-by-field against the
+exemplars on the same day. Two worlds shipped by a separate thread working
+through the remaining timeline (Syriac Edessa/Nisibis and Desert
+Monasticism) each individually passed the sentence-level vocabulary scan —
+no AI-tell vocabulary, no dash-fragments, real hedges, real absence-voices —
+and still carried four defects a side-by-side comparison caught immediately:
+
+1. **A previously-deleted pattern came back, identically worded, in both
+   worlds.** Chloe's tradition page originally had a door-section teaser
+   line under the final "Come and join us" heading; Mark had it cut
+   sitewide as "exactly the ai criptic speaking we are getting rid of."
+   Both Syriac's and Desert's door sections shipped with the identical
+   sentence template restored (only the Representative's name changed:
+   "[Name] is seated. The chair beside him has been pulled out the whole
+   time."). A single-world review has no fixed reference point to catch a
+   regression like this — only a check against the current state of the
+   shipped exemplar does. **The door section is a heading and two action
+   buttons, nothing else, permanently — check this explicitly, every
+   world, don't rely on remembering it from an earlier fix.**
+
+2. **The hypothetical-address construction recurs as a distinct
+   cryptic-speak variant.** Alexandria's original "If you dug where we
+   met, we could not tell you what you would find" was flagged as cryptic
+   for addressing a hypothetical questioner rather than stating the fact
+   plainly. Syriac's "Where we are quiet" section opened with "You ask
+   what the women among us said of their own lives" — a different
+   sentence, the same underlying move (a "you ask / if you..." framing
+   device standing in for a direct statement). Add this as its own check:
+   does any "Where we are quiet" or similar reflective section open by
+   addressing a hypothetical visitor instead of stating the fact? If so,
+   cut the framing and lead with the fact, the way Chloe's own version
+   does ("Enslaved people were among us...").
+
+3. **Phrase-level reuse across different fields of the same entry.**
+   Syriac's `voices` entry for Jacob repeated an entire clause from
+   `longDescription` almost verbatim ("...the record itself never closes
+   the question"), and its `relationsSummary` repeated a full clause from
+   `legacy` almost verbatim ("the channel through which Greek philosophy
+   and medicine... into Arabic... back to Europe"). Compare this against
+   Chloe's own exemplar: her `voices` entry for Ignatius covers the same
+   underlying facts as her `longDescription` (marched to Rome under
+   guard, died) but in different words, and adds something the other
+   field doesn't have. Every field should do its own job in its own
+   words — restating the same fact is fine; copying the sentence that
+   states it is not. Check every entry's fields against each other, not
+   just against the exemplar, for exact or near-exact phrase reuse.
+
+4. **A wrong character can hide inside otherwise-clean prose.** Both
+   worlds' "Where we are quiet" sections used a plain hyphen (` - `) for
+   a mid-sentence aside where the rest of each page — and every other
+   field in the same entry — uses an em dash (` — `). A vocabulary or
+   AI-tell scan won't catch this; only a direct check of the actual
+   character used will. Grep the finished page for ` - ` (hyphen with
+   spaces) as a mechanical step before shipping.
+
+None of these four are things the six-step process or the five-question
+review would catch if run only against the world being drafted, in
+isolation, from memory of what "good" looks like. They are things a fresh
+read of the *current* shipped exemplar — not a summary of it, not a
+memory of an earlier fix — catches immediately. **Before shipping a
+world, re-read Chloe's and Alexandria's current shipped pages in full,
+same day, and diff your draft against them field by field**, the way this
+comparison was done for these two worlds after the fact. Don't rely on a
+guide section describing a past fix to carry the fix forward — the guide
+can drift out of sync with what's actually still true of the shipped
+exemplars if a later, unrelated change touches them.
+
 ---
 
 ## 1.2 The exemplar, and the one test that generates the rest
