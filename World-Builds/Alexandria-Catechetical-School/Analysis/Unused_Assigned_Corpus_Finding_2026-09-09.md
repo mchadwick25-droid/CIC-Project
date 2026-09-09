@@ -2,7 +2,7 @@
 
 **Alexandria (Catechetical-School) Formation World · finding document · 2026-09-09**
 
-**Version:** Round 4 draft (revised after three adversarial rounds). Revision log: **§11**.
+**Version:** Round 5 draft (revised after four adversarial rounds). Revision log: **§11**.
 
 - **Round 1** (`Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md`) — **SUBSTANTIAL
   REVISION REQUIRED**, 8 substantial + 8 cosmetic. Headline upheld.
@@ -13,12 +13,17 @@
   Round 2's 8: **7 resolved**, 1 partial (its fix having introduced a new error). Round 3 ran C3
   Dependency and T2 itself, and additionally ran the **generation step** — a route no prior round
   had named — and found that too fails.
+- **Round 4** (`…_Round4_Review.md`) — **SUBSTANTIAL**, 3 + 15. Headline upheld a fourth time. Of
+  Round 3's 4: **3 resolved**, 1 partial (its fix having introduced a new error). Round 4 ran the
+  **Tensional** generation step — confessor/martyr authority vs episcopal authority, outside every
+  prior round's frame — and found it fails too, and stated plainly that it **cannot find any route,
+  inside or outside prior frames, to a Doc_04 classification change on this material.**
 
-All three are AI review, each marked in its own artifact *"Simulated review — informational only,
-not an Article 31 substitute"* (Article 31). **Round 4 review pending — this document is NOT
+All four are AI review, each marked in its own artifact *"Simulated review — informational only,
+not an Article 31 substitute"* (Article 31). **Round 5 review pending — this document is NOT
 cleared, and no disposition has been assigned to it.**
 
-*Trajectory, stated because it is the honest summary: 8 → 8 → 4 substantial findings, with the
+*Trajectory, stated because it is the honest summary: 8 → 8 → 4 → 3 substantial findings, with the
 headline upheld at every round and each round **narrowing** the case under it rather than
 strengthening it.*
 
@@ -288,7 +293,7 @@ Athanasius mediation caveat in §5.1, the corroboration frag. III offers C3 is c
 than the first draft implied: an Origen disciple, quoted selectively by Athanasius in post-Nicene
 polemic. It corroborates C3 and reclassifies nothing (§6.2).
 
-### 5.3 [SUBSTANTIAL — omission] T4 carries no documentary witness among its manifestations
+### 5.3 [SUBSTANTIAL — omission] T4's manifestations carry no witness outside Eusebius's selection
 
 `alx.gravity.martyrdom-contemplative-tension` states the martyr pole's "interior is preserved in
 **hagiography and martyrology only** (Inferential-Thin)"; Doc_04 §3.6 T4 says the same. *Round 1
@@ -301,10 +306,28 @@ in hagiography and martyrology only"), and this document concedes that the inter
 stands. So the wording is **not contradicted** — Peter's canons supply no martyr's interior, and
 nothing here licenses filling that silence.
 
-What survives is an **omission**, and it is still substantial: T4's `manifestations` list contains
-**no documentary witness at all**, only narrated and hagiographic material, while a documentary
-one sits vendored, assigned, and unused. The finding is that the record is *incomplete*, not that
-it is *wrong*:
+*Round 4 correction — the replacement claim was itself false, and this is the fourth consecutive
+round to narrow this finding.* The Round 3 draft said T4's `manifestations` carry "no documentary
+witness at all." They do: manifestation 3 is **"Dionysius's persecution letters — flight,
+confession, the lapsed"** — first-person episcopal correspondence on the identical subject, held by
+this world at `Documented` / `verified-direct` / citation-specificity A. (Manifestation 4,
+*Stromateis* / the *Address*, is likewise neither narrated nor hagiographic.)
+
+**Two narrower claims survive, and either carries the finding. The second is the stronger.**
+
+1. *No juridical witness.* Dionysius's letters are pastoral correspondence; Peter's canons are
+   **legislation** — graded penalties, deposition from office, a bishop's ruling on who counts as
+   a confessor. That is a different evidential kind, and it is absent.
+2. *No witness outside Eusebius's selection.* `alx.source.dionysius-extant-fragments` concedes in
+   its own `work` field that the letters survive "mostly through **Eusebius's quotation** and later
+   catenae: **doubly mediated** (his selection, then his quoters')." So **every** manifestation on
+   T4's martyr pole passes through Eusebius — whom Doc_04 §0 screens at **HIGH risk** and §3.6
+   applies by name to T1 and T3. Peter's canons reach us through an **entirely independent
+   channel**: the Byzantine canonical tradition (Balsamon and Zonaras) and the canon law the
+   Council in Trullo confirmed. For a gravity whose evidence is otherwise wholly Eusebius-selected,
+   an independently-transmitted witness is the thing most worth having, and it is unused.
+
+The finding is that the record is *incomplete*, not that it is *wrong*:
 
 - **Canon IX** — *the strongest datum in the epistle, and missed in Round 1* (a regex silently
   dropped it; recovered from line 27036 only because Round 1 review's canon-count finding forced
@@ -498,10 +521,13 @@ contradicted by this document's own closing paragraph. Recorded as results, not 
   **generated a candidate Doc_04 §1 never generated?** It should have been asked, and the answer
   is that one is genuinely available — **penitential-reintegrative discipline** (Doc_02 Streams 3,
   7 and 8; a real chain from Dionysius through Peter to Timothy and Theophilus; and, unusually for
-  this world, a genuine practice-cluster). Tested against the six tests it **fails**: Persistence
-  fails in the early phase, and Dependency fails decisively on Doc_04's own precedent for Askesis
-  and the Participation↔Perception dynamic — it is what the ecology *does under persecution*, not
-  an independent organiser. **Not a gravity; Supporting at most; nothing existing moves.**
+  this world, a genuine practice-cluster). Tested against the six tests: **Repetition PASSES**;
+  **Persistence is at best PARTIAL** (it is invisible in the early phase — the same partial result
+  Doc_04 records for C5, which is a *Supporting gravity*, so this alone decides nothing); and
+  **Dependency FAILS decisively**, on Doc_04 §2's own precedent for Askesis and the
+  Participation↔Perception dynamic — it is what the ecology *does under persecution*, not an
+  independent organiser. **Dependency is the deciding test**, and on it this does not reach gravity
+  status. Nothing existing moves.
 
 With the generation step run and failing, this document knows of **no remaining untested route**
 to a Doc_04 classification change.
@@ -560,8 +586,8 @@ right it would have damaged T1 rather than supported it (§1).
 
 **Is it merely supplemental?** No — but the count must be stated honestly, and Round 2 caught the
 first draft inflating it. **Three defects are actually produced by this unused corpus:** §5.1 (a
-false sourcing statement in a cleared document), §5.3 (a documentary witness omitted from T4's
-manifestations) and §5.4 (T3's evidence base incomplete against the world's own assigned corpus). §5.2 and §5.5 are **pre-existing defects found
+false sourcing statement in a cleared document), §5.3 (T4's manifestations carry no witness
+independent of Eusebius's selection) and §5.4 (T3's evidence base incomplete against the world's own assigned corpus). §5.2 and §5.5 are **pre-existing defects found
 along the way** — real, worth fixing, but they would be there whether or not this corpus were ever
 drawn on, and they are not evidence for the value of drawing on it. §7 is a separate
 methodological finding with fleet-wide reach.
@@ -595,7 +621,7 @@ added 2026-08-27 — after the 2026-07-28 baseline freeze — by exactly this di
 post-freeze *additive source records* are established practice, and a Peter source record alone
 falls inside it. What has no precedent is correcting sourcing and scope statements *inside* a
 thrice-reviewed Doc_04 and across two live gravity/figure records. Those travel together: adding
-Peter while leaving T4's manifestations without the documentary witness (§5.3) would be the "bolting new
+Peter while leaving T4's manifestations wholly Eusebius-selected (§5.3) would be the "bolting new
 citations underneath an unchanged conclusion" failure mode the brief named as the thing to avoid.
 
 ---
@@ -609,7 +635,8 @@ through the normal revision → independent review → disposition cycle:
 
 - **Doc_04:** correct §0's Theognostus/Eusebius attribution (§5.1); reconcile the C5 date
   boundary against `alx.figure.didymus` (§5.2); add Peter's canons to T4's `manifestations` as its
-  only documentary witness, leaving the Inferential-Thin interior verdict untouched (§5.3); note
+  only witness independent of Eusebius's selection, leaving the Inferential-Thin interior verdict
+  untouched (§5.3); note
   Peter Fragment VI, screened for its florilegium transmission, in T3's evidence base (§5.4); add
   the T1↔T4 interaction cell.
 - **Records:** add Peter as `figure` + `source`, **handling both vendored witnesses** (anf06
@@ -624,8 +651,8 @@ through the normal revision → independent review → disposition cycle:
 Small in content, non-trivial in process — the process is the point.
 
 **Option A — records only, no Doc_04 change.** Cheapest; has the 2026-08-27 precedent. Not
-recommended: leaves a false sourcing statement (§5.1) and T4's documentary omission
-(§5.3) in place, and produces the bolt-on failure mode above.
+recommended: leaves a false sourcing statement (§5.1) and T4's Eusebius-only
+martyr pole (§5.3) in place, and produces the bolt-on failure mode above.
 
 **Option C — log and defer.** This document stands as the durable record. Defensible if Article
 31 external review (OG-4) is near, since a qualified reviewer would see these same texts. Not
@@ -650,8 +677,9 @@ should not decide this.
 - No recompile; no M3 run; `records/worlds.yaml` untouched.
 - **No §3.5 audit.** Alexander of Alexandria and the other unopened assigned works are named,
   not investigated.
-- **Not cleared.** Two adversarial rounds have both returned SUBSTANTIAL REVISION REQUIRED. This
-  is the Round 3 draft; **no disposition has been assigned to it**, by this thread or anyone else.
+- **Not cleared.** Four adversarial rounds have each returned SUBSTANTIAL REVISION REQUIRED
+  (8 → 8 → 4 → 3), every one upholding the headline. This is the Round 5 draft; **no disposition
+  has been assigned to it**, by this thread or anyone else.
 - No claim that any of this was seen or approved by the project lead.
 
 **Files this pass adds** — stated as of this revision, and verifiable on disk rather than
@@ -660,7 +688,9 @@ promised:
 1. this document (`Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md`);
 2. `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md`;
 3. `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round2_Review.md`;
-4. the **OG-6** entry appended to `Open_Gaps_Tracking.md`.
+4. `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round3_Review.md`;
+5. `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round4_Review.md`;
+6. the **OG-6** entry appended to `Open_Gaps_Tracking.md`.
 
 *Disclosure, per Round 2 finding 1.* In the Round 2 draft this list asserted an
 `Open_Gaps_Tracking.md` entry that **did not exist at the time the claim was made** — the entry
@@ -676,7 +706,37 @@ document accounts for by scoping its "no change" claim to world-build constructi
 
 ## 11. Revision log
 
-### Round 3 → Round 4 (this revision)
+### Round 4 → Round 5 (this revision)
+
+Round 4 returned **SUBSTANTIAL REVISION REQUIRED** (3 substantial, 15 cosmetic — 12 carried
+unrepaired from Round 3) and upheld the headline a fourth time, verifying Round 3's four against
+`git diff 09c23d6..a44648c`: **3 resolved**, 1 partial. All three new findings accepted.
+
+1. **The §5.3 replacement claim was itself false** — the fourth consecutive round to narrow this
+   finding. "T4's manifestations carry no documentary witness" is wrong: manifestation 3 is
+   *Dionysius's persecution letters — flight, confession, the lapsed*, first-person episcopal
+   correspondence on the identical subject, held at `Documented` / `verified-direct` / A. Recast to
+   the two claims that survive, the stronger being that **every** manifestation on T4's martyr pole
+   passes through **Eusebius's selection** (the Dionysius record concedes "doubly mediated" in its
+   own `work` field), while Peter's canons come through an independent channel — the Byzantine
+   canonical tradition and Trullo-confirmed canon law. Propagated to the heading, §1, §8, §9's
+   Options A and B, and OG-6.
+2. **§10 had not been updated at all** — still "Two adversarial rounds… the Round 3 draft," and its
+   file list, whose own stated standard is "verifiable on disk rather than promised," omitted the
+   Round 3 artifact committed alongside it. **Third occurrence of this defect class** (Round 1's
+   header, Round 2's phantom OG entry, now this). Fixed, and named as a pattern rather than a
+   one-off: this document's self-description has been its weakest part in every round.
+3. **§6.2 over-reported the generation-step result.** Persistence was graded "at best PARTIAL," not
+   "fails" — and C5 is a *Supporting gravity* carrying exactly that partial, so it decides nothing;
+   Repetition PASSES and went unreported; and "Not a gravity; Supporting at most" is
+   self-contradicting, since Supporting **is** a Doc_04 gravity class. Restated with Dependency
+   named as the deciding test. The outcome is unchanged.
+
+*Round 4 also confirmed the §5.3 scope concession was fully propagated, that §6.1's four fragment
+provenances are verbatim to ANF, that "one saying in three witnesses" is right, and that the
+Theognostus correction's consequence was drawn correctly.*
+
+### Round 3 → Round 4
 
 Round 3 returned **SUBSTANTIAL REVISION REQUIRED** (4 substantial, 12 cosmetic) and upheld the
 headline a third time. It verified Round 2's eight against the patch (`git diff 48ca471..09c23d6`)

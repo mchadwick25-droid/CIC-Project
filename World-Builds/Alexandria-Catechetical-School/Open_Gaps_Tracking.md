@@ -267,8 +267,10 @@ would have been evidence *against* T1, which requires poles not "within one pers
 (`cic-build-cycle` categories 4 and 2) — the §-numbers are the finding document's:
 1. **§5.1** Doc_04 §0 attributes Theognostus to Eusebius. He appears **0 times** in the vendored
    Eusebius; all three fragments come via Athanasius (*De Decretis* 25; *Ad Serap.* 4.11).
-2. **§5.3** T4's `manifestations` carry **no documentary witness** — only narrated and hagiographic
-   material — while Peter's *Canonical Epistle* (306) sits assigned and unused: the church
+2. **§5.3** **Every** manifestation on T4's martyr pole passes through **Eusebius's selection**
+   (the Dionysius letters are "doubly mediated" by that record's own `work` field), while Peter's
+   *Canonical Epistle* (306) — reaching us independently, through the Byzantine canonical tradition
+   and Trullo-confirmed canon law — sits assigned and unused: the church
    de-absolutizing martyrdom, Canon IX ("they will deliver you up, and **not, ye shall deliver up
    yourselves**"), X, XII, XIII. *(T4's Inferential-Thin verdict on the martyr's **interior** is
    correct and stands — this is an omission, not a contradiction.)* Its sub-finding: Doc_04 §6's
@@ -302,7 +304,7 @@ frozen** (Article 31/OG-4 outstanding), but the **S6.2 record-store and deployme
 
 **Routes tested and failed, so the negative result is on the record:** C3 Dependency, C4, C5
 Persistence, T1 pole separation, T2, T3, T4 confidence, the Article 21 Cross-Stratum Test, and —
-at Round 3, a route no earlier round had named — the **generation step**, i.e. whether this corpus
+at Rounds 3 and 4, routes no earlier round had named — the **generation step**, i.e. whether this corpus
 should have produced a candidate Doc_04 §1 never generated. One is genuinely available
 (**penitential-reintegrative discipline**), and it fails the six tests on Doc_04's own Askesis and
 Participation↔Perception precedent. No remaining untested route is known.
