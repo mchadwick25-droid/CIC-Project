@@ -102,9 +102,9 @@
     "directUrl": "https://archive.org/download/clevelandart-1943.588-st-jerome/1943.588_full.jpg",
     "license": "CC0",
     "licenseNotes": "Verified directly: the archive.org item's own metadata record for this Cleveland Museum of Art Open Access object carries licenseurl https://creativecommons.org/publicdomain/zero/1.0/ (CC0), fetched and confirmed in this session.",
-    "localPath": "assets/library/hal/hal-jerome-lievens-cma.jpg",
-    "status": "downloaded",
-    "notes": "Jerome is the dominant figure of this world; this etching was chosen over the Dürer/Rembrandt 'Jerome in his study' Met candidates (also CC0 by the same Open Access logic, but unfetchable this session to grab the actual file) because it was fully downloadable and viewable end-to-end in this session. Downloaded and resized for web use."
+    "localPath": null,
+    "status": "rejected",
+    "notes": "Jerome is the dominant figure of this world; this etching was chosen over the Dürer/Rembrandt 'Jerome in his study' Met candidates (also CC0 by the same Open Access logic, but unfetchable this session to grab the actual file) because it was fully downloadable and viewable end-to-end in this session. Downloaded and resized for web use. REJECTED on second review pass (Opus): a naked, solitary starving male hermit is close to the inverse of this world's actual story (a funded, communal, scholarly, women-led household) - and is a particularly bad choice for the one world whose stated cost is a young woman's death from extreme fasting. Replaced by hal-bottani-paula-eustochium-departure."
   },
   {
     "id": "atmosphere-orpheus-catacomb-schaff",
@@ -1481,33 +1481,6 @@
     "notes": "Good for a moodier, more interior illustration of scholarly asceticism; not a historical depiction of the actual 4th-century circle."
   },
   {
-    "id": "hal-bottani-paula-eustochium-departure",
-    "title": "The Departure of Saints Paula and Eustochium for the Holy Land",
-    "worldKeys": [
-      "hal"
-    ],
-    "tags": [
-      "paula",
-      "eustochium",
-      "departure",
-      "rome",
-      "pilgrimage",
-      "holy land"
-    ],
-    "depictedPeriod": "imagined depiction of Paula and Eustochium's 385 CE departure from Rome for the Holy Land",
-    "artworkDate": "18th century painting (Giuseppe Bottani, 1717-1784)",
-    "medium": "painting",
-    "description": "Giuseppe Bottani's painting depicting Paula and her daughter Eustochium leaving Rome to travel to the Holy Land, the journey that led to the founding of their monastic community in Bethlehem.",
-    "repository": "The Metropolitan Museum of Art",
-    "sourceUrl": "https://www.metmuseum.org/art/collection/search/435727",
-    "directUrl": null,
-    "license": "CC0",
-    "licenseNotes": "Met Open Access program: all public-domain-tagged objects are released CC0. Found via WebSearch of the Met's collection pages; object page not independently re-fetched this session (metmuseum.org blocked) — confirm Open Access flag before use.",
-    "localPath": null,
-    "status": "candidate",
-    "notes": "Strongest direct-narrative fit in this set — this is literally the circle's departure from Rome for Bethlehem, the exact event the site copy references ('drive the whole circle out of the city'). Recommend prioritizing this one for review."
-  },
-  {
     "id": "hal-botticelli-last-communion-jerome",
     "title": "The Last Communion of Saint Jerome",
     "worldKeys": [
@@ -2017,5 +1990,34 @@
     "localPath": "assets/library/syr/syr-mar-shimoun-patriarch-badger1852.jpg",
     "status": "downloaded",
     "notes": "Replaces the rejected Hormizd II coin after a second review pass. This is NOT a 4th-5th century image - it is an 1852 portrait of the Patriarch of the same church (the 'Church of the East'/'Nestorian' church) many centuries later, the closest verifiable link to this world's actual institution (the tile's own question of whether authority rested more in the covenant-vow or 'in a bishop's office' is literally what the crosier signifies). No image from the world's own 200-410 CE window survives or was found in any collection reachable this session. Caption should say plainly: this is the same church's Patriarch, photographed/drawn 1400+ years later, not a contemporary image. Located by tracing the book's own preface ('the two views of an old Nestorian church contained in the second volume') to volume II, where the portrait appears as an early plate; the book also depicts other regional religious leaders (a Yezidi sheikh appears in volume I) so any further plates pulled from this source should be double-checked for which community they actually depict before use."
+  },
+  {
+    "id": "hal-bottani-paula-eustochium-departure",
+    "title": "The Departure of Saints Paula and Eustochium for the Holy Land (preparatory drawing)",
+    "worldKeys": [
+      "hal"
+    ],
+    "tags": [
+      "paula",
+      "eustochium",
+      "departure",
+      "rome",
+      "pilgrimage",
+      "holy land",
+      "drawing",
+      "communal"
+    ],
+    "depictedPeriod": "imagined depiction of Paula and Eustochium's 385 CE departure from Rome for the Holy Land",
+    "artworkDate": "18th century red-chalk drawing, squared for transfer, by Giuseppe Bottani (1717-1784) — the artist's own inscription notes it was made as a study for an altarpiece for S. Damiano alla Scala, Milan",
+    "medium": "sketch",
+    "description": "A squared preparatory red-chalk drawing by Giuseppe Bottani showing Paula, her daughter Eustochium, and a crowd of grieving family and companions at the moment of departure from Rome for the Holy Land, with a ship's rigging visible at right and a heavenly vision of angels above blessing the journey.",
+    "repository": "The Metropolitan Museum of Art (via Internet Archive mirror)",
+    "sourceUrl": "https://archive.org/details/mma_the_departure_of_saint_paula_and_saint_eustochium_for_the_holy_land_338247",
+    "directUrl": "https://archive.org/download/mma_the_departure_of_saint_paula_and_saint_eustochium_for_the_holy_land_338247/338247.jpg",
+    "license": "CC0 (Met Open Access — see licenseNotes for the verification gap)",
+    "licenseNotes": "NOT independently confirmed on metmuseum.org itself (blocked from this sandbox). The archive.org mirror's own rights field points only to the Met's general Terms and Conditions page, not an explicit CC0 grant — this mirror appears to predate the Met's 2017 Open Access rollout and does not carry that field for any item sampled. Used anyway on Mark's explicit instruction, trusting the Met's well-documented blanket policy that all public-domain-tagged works (an 18th-century drawing is unambiguously PD) are released CC0 museum-wide. Recommend a human spot-check metmuseum.org's own object page for this drawing when convenient.",
+    "localPath": "assets/library/hal/hal-bottani-paula-eustochium-departure.jpg",
+    "status": "downloaded",
+    "notes": "This is the single strongest content match found across the entire research pass for any world: it depicts, directly and communally, the exact event this world's tile copy leads with (\"Rome's outrage... helped drive the whole circle out of the city\") - multiple women, a household in farewell, not a solitary figure. It is a preparatory drawing (squared for transfer to a now-untraced altarpiece), not the finished painting - captioned as such. Replaces the rejected Lievens Jerome etching."
   }
 ]
