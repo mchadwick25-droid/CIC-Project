@@ -15,13 +15,14 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.clement-stromateis
-  locus: IV.4 (anf02 lines 37817-37828)
+  locus: 'IV.4 (anf02 lines 37819-37827, matching the text field below)'
   license: public-domain
 text: Now we, too, say that those who have rushed on death (for there are some, not belonging to us, but
   sharing the name merely, who are in haste to give themselves up, the poor wretches dying through hatred
   to the Creator)—these, we say, banish themselves without being martyrs, even though they are punished
   publicly. For they do not preserve the characteristic mark of believing martyrdom, inasmuch as they
-  have not known the only true God, but give themselves up to a vain death.
+  have not known the only true God, but give themselves up to a vain death,
+  as the Gymnosophists of the Indians to useless fire.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >
@@ -39,3 +40,14 @@ its greatest teacher CENSURED rushing on death - witness is not
 volunteering to die, and the tradition itself drew that line. The
 parenthesis targets rigorist/heterodox groups; the polemical edge is
 part of the record, not smoothed. Verified verbatim.
+
+corrected 2026-09-08, records/alx audit: text previously truncated the
+sentence at "...give themselves up to a vain death." with a period
+substituted for the vendored comma, presenting a truncated clause as if
+it were the complete sentence with no ellipsis to signal the cut. The
+vendored text (anf02 line 37827) continues: "...but give themselves up to
+a vain death, as the Gymnosophists of the Indians to useless fire." The
+text field is extended to the full sentence verbatim. (The word
+"Demiurgus" attached mid-sentence to "the Creator" is a separate editor's
+footnote, not primary text, and was already correctly excluded before
+this correction - it stays excluded.)

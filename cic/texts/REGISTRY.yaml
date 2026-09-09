@@ -948,3 +948,54 @@
     1904 transcription is born-digital, not OCR, and every one of its 27 books' chapter
     counts was checked against its independently known canonical count before this
     file was written.
+- filename: didymus-alexandria_de-trinitate-lat-grc_mingarelli1769.txt
+  supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), part of a
+    project-wide maturity-gap audit
+  date_added: '2026-09-08'
+  notes: >-
+    Mingarelli's 1769 editio princeps of Didymus of Alexandria's "De Trinitate."
+    Title page confirms 1769 publication (public domain, independent of scan
+    source). There are two "LIBER PRIMUS" headings in this file: line 435 is
+    Mingarelli's own Latin prolegomena, not Didymus's text; Didymus's actual Book I
+    begins at line 7019 (corrected 2026-09-08, Round 2 Opus review, from a stale line reference the Round 1 header fix itself invalidated by adding 17 lines to the file). Corrected 2026-09-08, Round 1 Opus review, from this
+    note's own original claim (checked and found false): a full Unicode census
+    found ZERO Greek characters anywhere in the file's 3.29 MB body (corrected
+    2026-09-08, Round 3 Opus review, from this entry's own stale "3.24 MB" figure,
+    which had been fixed everywhere else but here) -- the Greek
+    layer is not "garbled in places," it is wholly unrecoverable as Greek text
+    throughout, OCR'd entirely into Latin-script noise. The Latin translation and
+    notes do not "OCR cleanly" either (~12.7% of tokens symbol/digit-contaminated;
+    long-s systematically misread as "f"), though they are usable by a Latinist.
+    What this file actually vendors is a degraded-but-legible OCR of Mingarelli's
+    18th-century LATIN translation and apparatus, not Didymus's Greek -- still
+    this world's first primary-text contribution from Didymus himself, closing a
+    real (if narrower-than-first-claimed) gap in the Alexandria Catechetical
+    School world's Doc_02 Source Ecology (§3.4).
+- filename: origen_de-oratione-grc_koetschau1899.txt
+  supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), in response to an
+    adversarial-review finding on the Alexandria Catechetical School build
+  date_added: '2026-09-08'
+  notes: >-
+    Origen's "De Oratione" (Περὶ εὐχῆς, On Prayer) in the original Greek, Paul Koetschau's
+    critical edition, "Origenes Werke, Zweiter Band" = GCS 3 (Leipzig: Hinrichs, 1899), pp.
+    295-403 ONLY - the De Oratione portion of a volume that also holds Contra Celsum V-VIII
+    and the Register, neither vendored. ORIGINAL-LANGUAGE WITNESS, NOT ENGLISH EVIDENCE (Greek
+    text, German critical apparatus; Language: grc, deu). RIGHTS: 1899 on the scan's own title
+    page and contents page, verified directly - public domain by date, independent of the
+    archive.org Public Domain Mark the item also carries. SOURCE: archive.org item
+    origenes-werke.-bd-2-1899, OCR text layer, lines 19036-26243 copied verbatim; four other
+    archive.org scans of the same volume were downloaded and measured on the same span first,
+    and this one chosen on the numbers (fewest junk lines, lowest Latin-lookalike rate in Greek
+    lines). COMPLETENESS CHECKED: all 34 chapters located (33 by numeral - several with an
+    OCR-dropped stroke, listed in the file's own header - and ch. XIII by content), and every
+    legible running-head page number 298-403 checked against the OCR line count between them
+    (50-85 lines per page throughout, so no scan page missing or duplicated). OCR QUALITY
+    MEASURED, not assumed: 0.45% of ~31,700 Greek tokens fail a word-shape test, 1.8% of lines
+    are stray-mark junk; readable and searchable for locating a passage, with the usual
+    Latin-lookalike substitutions ("xal" for καὶ) - eye-check any verbatim Greek quotation
+    against the page image. WHY: an adversarial review found the Alexandria build had struck
+    its De Oratione citations as unvendorable ("no pre-1929 English edition") while vendoring
+    Mingarelli's Didymus by the identical original-language route in the same commit; this
+    file takes that route. Migne PG 11 (archive.org patrologiae_cursus_completus_gr_vol_011,
+    De Oratione at cols. 411-562, OCR lines ~31467-43018) was examined first and rejected: its
+    OCR renders the Latin column as pseudo-Greek and merges it line-by-line into the Greek.

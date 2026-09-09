@@ -5,6 +5,18 @@
 # pages, introductory notices, elucidations, indexes) is skipped throughout.
 source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 authors_ruled:
+  excerpts-of-theodotus:
+    kind: pseudonymous
+    evidence: 'div2 4.3, titled "Excerpts of Theodotus" and DC.Creator-listed under theodotus,
+      but corrected 2026-09-08 (records/alx audit; see alx.source.excerpts-of-theodotus.md):
+      the vendored text is the Eclogae Propheticae, not the genuine Excerpta ex Theodoto - a
+      full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad, and
+      the ANF editor''s own headnote disowns the Clement/Theodotus attribution ("corrupt or forged
+      documents, for which Clement''s name has been borrowed"), guessing an unknown Montanist
+      compiler instead. Ruled pseudonymous rather than reused as `theodotus`, which would keep
+      asserting the disproven attribution.
+
+      '
   testaments-twelve-patriarchs:
     kind: pseudonymous
     evidence: 'div1 3 "The Testaments of the Twelve Patriarchs": twelve first-person deathbed
@@ -305,17 +317,40 @@ assignments:
     voice is the separate question the ebionite-nazoraean-current assignment carries, and
     that one stays `tradition`.'
 - work: Excerpts of Theodotus
-  author: theodotus
+  author: excerpts-of-theodotus
   locus: div2 4.3
   atlas_ids:
-  - valentinian-and-other-gnostic-christianities
   - alexandria-catechetical
   role: tradition
   confidence: assigned
-  note: 'Excerpts from Theodotus of the Eastern Valentinian school, preserved with Clement
-    of Alexandria''s interlaced comments: actual Valentinian voice for the doctrinal-floor
-    entry (a built world may draw it only as etic), and a document of Clement''s working method
-    for Alexandria.
+  note: 'Corrected 2026-09-08, records/alx audit (see alx.source.excerpts-of-theodotus.md): despite
+    its title, this vendored text is the Eclogae Propheticae (Selections from the Prophetic
+    Scriptures), NOT the genuine Excerpta ex Theodoto. It carries no Valentinian technical
+    vocabulary (a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/
+    Ogdoad, and "Theodotus" only in the editorial title), and the ANF editor''s own headnote
+    disowns the Clement attribution ("corrupt or forged documents, for which Clement''s name has
+    been borrowed"), guessing an unknown Montanist compiler instead. It is NOT a Valentinian voice
+    and must not be cited as one; the genuine Excerpta ex Theodoto is not vendored anywhere in this
+    corpus.
+
+    '
+- work: Excerpts of Theodotus
+  author: excerpts-of-theodotus
+  locus: div2 4.3
+  atlas_ids:
+  - valentinian-and-other-gnostic-christianities
+  role: context
+  confidence: needs-ruling
+  note: 'Corrected 2026-09-08, records/alx audit (see alx.source.excerpts-of-theodotus.md): this
+    row previously carried this text here as "actual Valentinian voice"; that is disproven. Despite
+    its ANF title, the text is the Eclogae Propheticae, not the genuine Excerpta ex Theodoto - a
+    full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad, and
+    "Theodotus" appears only in the editorial title, which the ANF editor''s own headnote disowns
+    ("corrupt or forged documents, for which Clement''s name has been borrowed"), guessing an
+    unknown Montanist compiler instead. Downgraded to needs-ruling: whether this text belongs in
+    this entry at all, now that its Valentinian content is disproven, is a question for Mark - held
+    here rather than dropped per the no-atlas_ids convention above. Do not cite this as a
+    Valentinian source; the genuine Excerpta ex Theodoto is not vendored anywhere in this corpus.
 
     '
 - work: Two Epistles Concerning Virginity

@@ -17,7 +17,9 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: VII.24 (npnf201 lines 41290-41320)
+  locus: 'VII.24 (npnf201 lines 41290-41382, covering the conference narrative itself - ''three
+    successive days'' at line 41358, Dionysius''s own rejoicing at line 41361, and Coracion named at
+    line 41375)'
   license: public-domain
 - source_id: alx.source.dionysius-extant-fragments
   locus: On the Promises fragments
@@ -48,10 +50,13 @@ text: >-
   any of the people who wished to come, and sat with them for three days,
   morning to evening, examining the book argument by argument. He wrote
   afterward that he loved Nepos - his faith, his hard work in the Scriptures,
-  his psalms - 'but the truth should be loved and honored most of all.' The
-  leader of the other side, Coracion, was persuaded, and said so in front of
-  everyone. Dionysius wrote that this is what he rejoiced in most: it ended
-  not in a split, but in agreement reached in the open.
+  his psalms - 'but the truth should be loved and honored most of all.' He
+  wrote that he rejoiced in the brethren's constancy, sincerity, and
+  willingness to reconsider, as they weighed the arguments together, point
+  by point. The leader of the other side, Coracion, was persuaded, and said
+  so in front of everyone. Some of the other brethren, the account says,
+  were glad at the spirit of agreement all had shown: it ended not in a
+  split, but in agreement reached in the open.
 absent_detail: The arguments exchanged across the three days are summarized by Dionysius, not transcribed;
   the villagers' own voices survive only in his report of their patience and honesty. Nepos's book itself
   is lost - it is known only through the man who refuted it, and a telling should say so.
@@ -71,3 +76,25 @@ troubled them, handled inside the household). Companion records:
 alx.quote.dionysius-nepos, alx.contested.allegory-from-within.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+
+corrected 2026-09-08, records/alx audit, two findings: (1) the sources
+locus (VII.24, npnf201 lines 41290-41320) under-covered this record's own
+subject - that range reaches only Nepos's identification and the
+Refutation of Allegorists material, not the conference narrative itself
+("three successive days," line 41358; Dionysius's rejoicing, line 41361;
+Coracion named, line 41375). Extended to 41290-41382. (2) The closing
+sentence previously had Dionysius saying "this is what he rejoiced in
+most" about the final outcome - agreement reached in the open. The
+vendored HE VII.24.8-9 has Dionysius's own stated rejoicing (§8) directed
+at "the constancy, sincerity, docility, and intelligence of the
+brethren... as we considered in order and with moderation the questions
+and the difficulties and the points of agreement" - i.e. over the manner
+of the three days' arguing, which comes before Coracion's recantation,
+not after. The satisfaction at the harmonious final outcome ("the spirit
+of conciliation and harmony which all had manifested") is attributed in
+§9 to "some of the other brethren," not claimed by Dionysius for
+himself, and the added superlative "what he rejoiced in most" is not in
+the text. Rewritten so Dionysius's own rejoicing is over the brethren's
+manner during the examining, placed before Coracion's recantation, and
+the satisfaction at the outcome is attributed to "some of the other
+brethren" per the vendored text.

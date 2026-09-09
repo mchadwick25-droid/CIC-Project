@@ -36,7 +36,10 @@ description: 'Antonine, Severan, Decian (249-251), and Diocletianic (303-311) pe
 manifestations:
 - Leonides's martyrdom (HE VI.1-2)
 - Dionysius's Decian-era letters - flight, confession, the lapsed and their return
-- the Era of the Martyrs anchoring Coptic identity (from Diocletian's accession, 284)
+- 'the Era of the Martyrs anchoring Coptic identity (from Diocletian''s accession, 284) -- a
+  general-history claim with no vendored source in this world''s corpus; neither source above covers
+  it (HE VI.1-2/39-42 narrates the persecution itself, not the Anno Martyrum reckoning, and
+  Dionysius''s letters don''t mention it either), so it is carried here without a source of its own'
 matrix_cell: "2A"
 ---
 Cell 2A. Intensifies the martyrdom pole of the

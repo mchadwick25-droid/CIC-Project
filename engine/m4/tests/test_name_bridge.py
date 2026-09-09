@@ -126,8 +126,9 @@ def test_attach_cited_sources_finds_the_source_behind_what_the_figure_is_saying(
     """Mark's own correction: not just who Origen is, but what he's
     saying here and what backs it. "Origen taught us..." names Origen and
     is tagged with alx.term.allegoria, whose own sources are Origen's
-    Philocalia and Clement's Stromateis - real citable texts, not the
-    figure record's own (unrelated) sources."""
+    Philocalia, Clement's Stromateis, and Eusebius's Historia
+    Ecclesiastica - real citable texts, not the figure record's own
+    (unrelated) sources."""
     repo = _real_repository("alx")
     figures = _real_figures("alx")
     text = "Origen taught us to read Scripture at more than one level."
@@ -138,7 +139,11 @@ def test_attach_cited_sources_finds_the_source_behind_what_the_figure_is_saying(
     attached = attach_cited_sources(figures_used, citations)
     assert attached[0]["id"] == "alx.figure.origen"
     source_ids = {s["source_id"] for s in attached[0]["sourced_by"]}
-    assert source_ids == {"alx.source.origen-philocalia", "alx.source.clement-stromateis"}
+    assert source_ids == {
+        "alx.source.origen-philocalia",
+        "alx.source.clement-stromateis",
+        "alx.source.eusebius-historia-ecclesiastica",
+    }
 
 
 def test_attach_cited_sources_is_honest_when_nothing_was_cited():

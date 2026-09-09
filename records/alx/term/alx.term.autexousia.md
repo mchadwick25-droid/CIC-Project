@@ -15,8 +15,8 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: null
 sources:
-- source_id: alx.source.clement-stromateis
-  locus: II.15, IV.24
+- source_id: alx.source.clement-quis-dives
+  locus: X (the soul's self-determination and "God compels not")
   license: public-domain
 - source_id: alx.source.origen-de-principiis
   locus: III.1
@@ -43,9 +43,11 @@ senses:
   informational: God forms through the soul's freedom, not over it - divine pedagogy is patient because
     genuine reception is required, and a change imposed without the soul's own turning would not be
     formation at all, only replacement.
-  evidential: Clement ties genuine freedom to genuine virtue - virtue that is compelled is not virtue;
-    Origen's On First Principles III.1 is the fullest systematic account of self-determination as both
-    moral ground and the condition of formation.
+  evidential: 'Clement ties genuine freedom to the soul''s own self-determination: choice depends on the
+    man as being free, "for God compels not (for compulsion is repugnant to God)," and it is exactly
+    that freedom from compulsion that lets salvation become the soul''s own; Origen''s On First Principles
+    III.1 is the fullest systematic account of self-determination as both moral ground and the condition
+    of formation.'
   personal: The soul that turns away from God is not thereby more free - the addict giving full rein to
     a compulsion is less free, not more, than the person who has learned to want what is good.
   translational: >-
@@ -57,3 +59,14 @@ distortion_risk: high
 ---
 Imported from the old system's richer lexicon (alexlex013, "Freedom / Autexousia") at Mark's direction,
 as a draft, not a final version.
+
+corrected 2026-09-08, records/alx audit: the evidential claim "Clement
+ties genuine freedom to genuine virtue - virtue that is compelled is
+not virtue" was cited to Stromateis II.15 and IV.24, neither of which
+says this (II.15 classifies sin/mistake/crime; IV.24 concerns divine
+punishment as remedial). The genuinely supporting vendored text is
+Quis Dives Salvetur ch. X (anf02, line 56381-56385): "the
+self-determination of the soul... For choice depended on the man as
+being free... For God compels not (for compulsion is repugnant to
+God)." Sources and the evidential wording were corrected to cite
+alx.source.clement-quis-dives at that locus instead.
