@@ -28,7 +28,7 @@ confidence:
     that reason: the vendored file was opened and read directly, but what it
     carries is the NPNF editor's own selection and epitome, which is the same
     condition this world already corrected cappadocian.quote.basil-against-delaying-baptism
-    for (ledger SS47). Usable as evidence
+    for. Usable as evidence
     that a sample of his own voice exists and what its argument was; not usable to
     characterize his theology, his pastoral practice, or his canon in detail.
 sources: []

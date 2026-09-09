@@ -26,7 +26,7 @@ rights_status: >-
 attribution_status: attributed
 discovery_channel: >-
   builder-prior-knowledge; Source Registry row 11. Reopened and rechecked directly
-  2026-09-09: both cited letters were located in the vendored file and read in full at the Macrina
+  2026-09-09: all three cited letters were located in the vendored file and read in full at the Macrina
   passages, which is why this row now carries verified-direct rather than the verified-via-authority
   it previously held.
 external_ids:
