@@ -20,7 +20,7 @@ work: The imperial communion law of 381 (Codex Theodosianus 16.1.3, 30 July 381)
 edition: The Pharr 1952 English translation is copyrighted and excluded (row 80); the Mommsen-Meyer Latin
   text is public domain and was acquired 2026-09-09 via cic/texts/theodosianus-16_mommsen-meyer1905.txt
   (the source-library-integration merge) -- confirmed present at Book 16, Title 1, Law 3, textually matching
-  this row's own named bishops. Corpus-map staging entry: cic/corpus-map/_staging/theodosianus-16_mommsen-meyer1905.yaml.
+  this row's own named bishops. Corpus-map staging entry at cic/corpus-map/_staging/theodosianus-16_mommsen-meyer1905.yaml.
 rights_status: acquired 2026-09-09; not independently re-verified beyond the textual match noted above -- the
   named bishops still rest primarily on Van Dam (row 95) and secondary literature per row 79, not solely on
   this text.

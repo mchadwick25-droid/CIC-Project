@@ -20,7 +20,7 @@ edition: The Mommsen-Meyer Latin text is public domain per Doc_02 SS2, and was a
   cic/texts/theodosianus-16_mommsen-meyer1905.txt (the source-library-integration merge) -- confirmed
   present at Book 13, Title 3, Law 5, textually matching this row's own citation ("Magistros studiorum
   doctoresque excellere oportet moribus primum, deinde facundia...", dated in the file 362 Iun. 17).
-  Corpus-map staging entry: cic/corpus-map/_staging/theodosianus-16_mommsen-meyer1905.yaml.
+  Corpus-map staging entry at cic/corpus-map/_staging/theodosianus-16_mommsen-meyer1905.yaml.
 rights_status: acquired 2026-09-09; not independently re-verified beyond the textual match noted above.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 73; a specific named source (author, translator,
