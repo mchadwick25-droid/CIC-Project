@@ -216,6 +216,62 @@ grandsons-before-domitian +C-E, didache-eucharist +C-I, eucharistia +C-I,
 pliny-interrogation +C-T; C-P deliberately left empty (nothing genuinely
 belongs). **BAR SWEEP**, 2026-08-30, same standard as alx.
 
+**G05 SUPPLEMENTAL SOURCE INTEGRATION**, 2026-09-09 (read-only discovery
+pass flagged G05/boundary-drawing as resting on Ignatius alone despite two
+already-vendored, already-compiled sources - `pahc.source.second-third-
+century-remains` [Melito of Sardis] and `pahc.source.anti-montanist-
+fragments` - never having been checked against it). Verified both directly
+against the vendored texts before touching anything. Added both as
+`sources[]` on `pahc.gravity.boundary-drawing.md` with two new illustrating
+quote records: `pahc.quote.melito-no-phantom` (Melito's Fragment VII, "On
+the Nature of Christ" - makes the same anti-docetic argument as Ignatius,
+but flagged rather than counted as resolving Repetition, since it survives
+only via Anastasius of Sinai, 7th c., not Eusebius as most of this
+fragment collection does) and `pahc.quote.asia-rejected-new-prophecy`
+(the anti-Montanist fragment's account of Asia's bishops synodically
+rejecting the New Prophecy - a genuine independent primary-voice witness
+to a *different* named contemporary rival, corroborating the gravity's
+broader title-level claim without touching the anti-docetic-specific
+Repetition score). Classification unchanged (Tensional); Doc_04's own
+six-test findings not re-argued, only added to, per this project's own
+build-cycle discipline. No escalation category applied (not an identity
+decision, not portfolio-level, not governance, no unresolved
+cross-review tension) - disposed of by the build thread itself.
+
+Independent adversarial review (`Review-Artifacts-Records-Build/
+Step5_G05_Supplemental_Source_Review_Round1.md`): SUBSTANTIAL REVISION
+REQUIRED, narrow - two locus/line-number errors (Melito's cited range
+covered only half the quotation; the anti-Montanist locus was off by
+three lines) and one silently-altered punctuation mark (a colon typed as
+a dash inside a `verified-direct` quote - traced to a YAML plain-scalar
+constraint, not a deliberate change) - all landed at round 2, self-
+verified directly against the vendored files (this project's own Step 5
+precedent for narrow, mechanical fixes). A further available-but-unused
+witness (Apollonius's own anti-Montanist fragments, same source record)
+was disclosed in that source record's own "NOT DRAWN ON" list rather
+than built out, to keep this pass narrow, per the reviewer's own
+recommendation. Two cosmetic findings landed (rounding fixes); two
+logged and deliberately deferred, not dropped: the anti-Montanist
+fragments have no corpus-map row in `post-apostolic-house-church.yaml`
+(their only corpus-map presence is in the unrelated `montanism-the-new-
+prophecy.yaml`) - confirmed non-blocking (outside the compile path, not
+a `gates.run_all` gate) but a real bookkeeping gap for a future pass;
+and a one-clause "primary-in-content vs. direct-in-transmission" gloss
+for the anti-Montanist quote's `modern_lens_note`, left at the drafter's
+discretion.
+
+Full `engine.m1.gates.run_all` battery clean both before and after the
+round-2 fixes, aside from the two pre-existing, deliberately-untouched
+`enslaved-voices`/`womens-own-words` reciprocity findings documented
+above (2026-09-01 schema-gap recompile) and in
+`World-Builds/Cappadocian/CAPPADOCIAN_BUILD_LEDGER.md`.
+`world-build-docs/pahc/GRAVITY-INDEX.md` regenerated (boundary-drawing's
+source count 1→3; byte-identical re-generation confirmed, isolated: 0,
+non-reciprocal: 0). **Disposition: Approved to proceed** (build-thread
+self-disposition per CO-022/CO-024b; no escalation category applies).
+Package recompiled same date (see package-history entry below); M3 rerun
+not warranted - see that entry for the reasoning.
+
 ## hal (Hieronymian Ascetic-Literary Christianity)
 
 `census_id`: the census entry's own `id` field is what the Atlas deep link

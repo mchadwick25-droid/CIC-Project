@@ -23,18 +23,18 @@ confidence:
     weight this quote is and is not given."
 sources:
 - source_id: pahc.source.second-third-century-remains
-  locus: "Melito of Sardis, Fragment VII, 'On the Nature of Christ' (anf08 line 71176-71195), citing
+  locus: "Melito of Sardis, Fragment VII, 'On the Nature of Christ' (anf08 lines 71176-71206), citing
     Anastasius of Sinai, The Guide, ch. 13"
   license: public-domain
-text: For there is no need, to persons of intelligence, to attempt to prove, from the deeds of Christ
+text: "For there is no need, to persons of intelligence, to attempt to prove, from the deeds of Christ
   subsequent to His baptism, that His soul and His body, His human nature like ours, were real, and no
   phantom of the imagination. For the deeds done by Christ after His baptism, and especially His
   miracles, gave indication and assurance to the world of the Deity hidden in His flesh. For, being at
-  once both God and perfect man likewise, He gave us sure indications of His two natures - of His
+  once both God and perfect man likewise, He gave us sure indications of His two natures: of His
   Deity, by His miracles during the three years that elapsed after His baptism; of His humanity,
   during the thirty similar periods which preceded His baptism, in which, by reason of His low estate
   as regards the flesh, He concealed the signs of His Deity, although He was the true God existing
-  before all ages.
+  before all ages."
 modern_rendering: >-
   There's no need for a long proof here. Just look at what Christ did
   after he was baptized. His body and soul were real. He was a real human
@@ -69,9 +69,16 @@ inside pahc.source.second-third-century-remains, a source record already
 compiled for this world (registered for its Polycrates/translocal-network
 material) but never checked for content relevant to boundary-drawing (G05).
 Text verified directly against cic/texts/anf08_twelve-patriarchs-clementina-
-apocrypha-edessa-syriac.xml at line 71176, no elisions. THE CAVEAT THAT
-MATTERS MOST: this fragment's own transmission note (anf08's endnote 3635)
-names its source as Anastasius of Sinai, not Eusebius - a full four
+apocrypha-edessa-syriac.xml at lines 71176-71206 (the full fragment, title
+through closing sentence), no elisions. ROUND-2 CORRECTION (2026-09-09,
+self-verified against an independent adversarial review): the locus
+originally cited only the fragment's opening (through line 71195, mid-
+sentence) and one internal punctuation mark was silently changed - the
+vendored text's own colon after "two natures" (line 71198) had been typed
+here as a dash. Both fixed; re-diffed character-by-character against the
+vendored file to confirm no other divergence. THE CAVEAT THAT MATTERS MOST
+still stands: this fragment's own transmission note (anf08's endnote 3635)
+names its source as Anastasius of Sinai, not Eusebius - nearly four
 centuries later than the Eusebian chain behind this same source record's
 Polycrates material, and roughly five centuries after Melito's own death.
 This world's own standing discipline (Ignatius's three-way dating dispute,

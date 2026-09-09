@@ -20,7 +20,7 @@ confidence:
 sources:
 - source_id: pahc.source.anti-montanist-fragments
   locus: "Book I, from the Anonymous's own account of the Asia-wide synodical response to the New
-    Prophecy (anf07 line 11305), the same passage preserved at Eusebius HE V.16.10"
+    Prophecy (anf07 line 11308), the same passage preserved at Eusebius HE V.16.10"
   license: public-domain
 text: For when the faithful throughout Asia met together often and in many places of Asia for
   deliberation on this subject, and subjected those novel doctrines to examination, and declared them
@@ -37,8 +37,8 @@ speaker_or_author: "The Anonymous anti-Montanist writer (c. 192-193 CE), address
   attribution here"
 license: verbatim
 modern_lens_note: >-
-  This is not Ignatius, and it is not about docetism - it is a separate Asia Minor voice, about two
-  generations after Ignatius, describing a different contemporary rival (the New Prophecy /
+  This is not Ignatius, and it is not about docetism - it is a separate Asia Minor voice, roughly
+  three generations after Ignatius, describing a different contemporary rival (the New Prophecy /
   Montanism) being examined and rejected by gathered bishops rather than by one man's letters. It
   corroborates that this world's boundary-drawing against contemporary rivals was a real, live,
   multi-voiced pattern - not that this specific gravity's anti-docetic claim has a second voice.
@@ -56,7 +56,14 @@ Discovered 2026-09-09 in a supplemental source review: pahc.source.anti-
 montanist-fragments was registered at this build's Step 2 to answer Doc_01
 SS8.3's Montanism disclosure obligation, but no quote or gravity record had
 drawn on it since. Text verified directly against cic/texts/anf07_lactantius
--apostolic-constitutions-didache-liturgies.xml at line 11305, no elisions.
+-apostolic-constitutions-didache-liturgies.xml at line 11308, no elisions.
+ROUND-2 CORRECTION (2026-09-09, self-verified against an independent
+adversarial review): the locus originally cited line 11305, three lines
+short of the actual sentence (11305 falls inside an unrelated footnote);
+corrected here and in this record's own sources[] entry above. The quoted
+text itself was independently re-diffed against the vendored file and
+confirmed byte-for-byte accurate throughout - only the line pointer was
+wrong.
 
 WHAT THIS DOES AND DOES NOT DO FOR G05. pahc.gravity.boundary-drawing's own
 record states plainly that Doc_01's naming of Marcion, Valentinian teaching,

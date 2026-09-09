@@ -18,11 +18,11 @@ sources:
   locus: "the anti-docetic argument, present across several letters (e.g. Trallians 9, Smyrnaeans 1-7)"
   license: public-domain
 - source_id: pahc.source.second-third-century-remains
-  locus: "Melito of Sardis, Fragment VII, 'On the Nature of Christ' (anf08 line 71176) - a candidate
-    second anti-docetic voice, flagged rather than counted; see this record's own trailing note"
+  locus: "Melito of Sardis, Fragment VII, 'On the Nature of Christ' (anf08 lines 71176-71206) - a
+    candidate second anti-docetic voice, flagged rather than counted; see this record's own trailing note"
   license: public-domain
 - source_id: pahc.source.anti-montanist-fragments
-  locus: "Book I, the Asia-wide synodical rejection of the New Prophecy (anf07 line 11305) - a
+  locus: "Book I, the Asia-wide synodical rejection of the New Prophecy (anf07 line 11308) - a
     primary-voice witness to a different named contemporary rival; see this record's own trailing note"
   license: public-domain
 relations:
