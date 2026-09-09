@@ -47,7 +47,7 @@ A complete, functioning, self-governing rival church order — its own primate, 
 
 ## Key Sources
 
-Doc_01 §2's own record of the 411 Conference of Carthage (284 Donatist against 286 Catholic bishops seated). The Cebarsussi (393) and Bagai (394) council sentences, quoted directly in Augustine's *On Baptism, Against the Donatists* and *Answer to the Letters of Petilian* — the Maximianist clergy's reception without repeated ordination or baptism stated in Augustine's own words: "Felicianus... was not held by the Donatists themselves to have lost either the sacrament of baptism or the sacrament of conferring baptism."
+Doc_01 §2's own record of the 411 Conference of Carthage (279 Donatist against 286 Catholic bishops seated — corrected 2026-09-09 from an earlier, unverified 284 figure; see Doc_02 §1 for the primary-source citation). The Cebarsussi (393) and Bagai (394) council sentences, quoted directly in Augustine's *On Baptism, Against the Donatists* and *Answer to the Letters of Petilian* — the Maximianist clergy's reception without repeated ordination or baptism stated in Augustine's own words: "Felicianus... was not held by the Donatists themselves to have lost either the sacrament of baptism or the sacrament of conferring baptism."
 
 Note: the bare institutional fact of the parallel hierarchy is undisputed even by hostile sources reporting it; individual bishops' own conduct and motives beyond that bare fact reach this document substantially through Optatus's and Augustine's own hostile characterization (Doc_04 §5).
 

@@ -118,7 +118,7 @@ The canonical gravity record for this world, per Doc_04 §4's own Classification
 
 **Cross-strand status:** World is strand-singular. Ecology-wide, attested even in hostile sources' own unchallenged factual reporting.
 
-**Brief description:** The institutional structure within which G1, G2, and G3 operate, not an independent source of formative content itself — two rival bishoprics from the outset, the contest replicated town-for-town. Explains the precise mechanics of the Maximianist affair (rival councils, rival consecrations) and the exact bishop-count precision of the 411 Conference (284 against 286) as two whole churches meeting, not one church and its dissidents.
+**Brief description:** The institutional structure within which G1, G2, and G3 operate, not an independent source of formative content itself — two rival bishoprics from the outset, the contest replicated town-for-town. Explains the precise mechanics of the Maximianist affair (rival councils, rival consecrations) and the exact bishop-count precision of the 411 Conference (279 against 286 — corrected 2026-09-09 from an earlier, unverified 284 figure; see Doc_02 §1 for the primary-source citation) as two whole churches meeting, not one church and its dissidents.
 
 **Grounding:** Doc_01 §2, §3, §4; Doc_02 §1, §2; Doc_03 Cluster 4, Tier 1; Doc_04 §3.4 passes all six tests, Dependency reveals Supporting; Doc_07 §2F; Doc_08 Force 1B-2, 2B-4, 3A-1, 3A-2, 3B-1.
 
@@ -218,7 +218,7 @@ This world is not doctrinally thin in a simple sense — it is doctrinally *conc
 
 A complete, functioning, self-governing parallel society — not a protest current on the margins of the mainstream church, but its own full institutional mirror: two bishops for every see, a primate at Carthage (Donatus, then Parmenian, then Primian), and a conciliar machinery capable of disciplining its own dissidents, as the Maximianist affair shows directly. Authority is transmitted through consecration within the parallel line and exercised or renewed through councils (Cebarsussi, Bagai).
 
-Socially, this world was not, for substantial periods and regions, a minority sect but the numerically dominant church — concentrated heavily in Numidia's own countryside, against a more urban rival strength centered on Carthage and Proconsular Africa. Within Numidia sits the Circumcellion/*agonistici* phenomenon (D-A, Supporting only regionally). It is precisely this world's own institutional totality — bishop for bishop, see for see — that makes the 411 Conference's own even bishop count (284 against 286) legible as two whole churches meeting, not one church and its dissidents.
+Socially, this world was not, for substantial periods and regions, a minority sect but the numerically dominant church — concentrated heavily in Numidia's own countryside, against a more urban rival strength centered on Carthage and Proconsular Africa. Within Numidia sits the Circumcellion/*agonistici* phenomenon (D-A, Supporting only regionally). It is precisely this world's own institutional totality — bishop for bishop, see for see — that makes the 411 Conference's own near-even bishop count (279 against 286 — corrected 2026-09-09 from an earlier, unverified 284 figure; see Doc_02 §1 for the primary-source citation) legible as two whole churches meeting, not one church and its dissidents.
 
 ### 4D — Boundary Structures *(Doc_07 §2H, CiC addition)*
 
