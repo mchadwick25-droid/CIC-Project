@@ -37,7 +37,7 @@ canonical letters, junior circle member) whose own works remain, as a corpus, wi
 edition to verify against (row 65).
 
 CORRECTED 2026-09-09. This row previously said no open English edition of any of his own work had
-been located "this session or previously." That was false at the time it was written: a roughly
+been located "this session or previously." That was false at the time it was written: an
 extract of his own argument to Seleucus on the canon of Scripture -- about 90 rendered words,
 in the NPNF editor's prose epitome rather than as verse -- sits in the already-vendored
 cic/texts/npnf214_seven-ecumenical-councils.xml at div2 17.23, and the shared corpus map had carried a

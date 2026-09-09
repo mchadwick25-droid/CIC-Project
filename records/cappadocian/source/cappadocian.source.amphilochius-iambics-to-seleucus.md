@@ -13,10 +13,12 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     What is held here is much smaller than the div2 section's own length suggests,
-    and the difference matters. The ~242-word figure the corpus map
-    records covers the whole div2 section: 59 words of editor's heading and method
-    note, the 129-word extract body, and a ~54-word closing editorial "Note." on the
-    four scriptural canons. Within the body, 39 words are the editor's bracketed
+    and the difference matters. The corpus map records ~242 words for this
+    section; a direct measurement of the same div2 gives 279 -- 63 words of numeral,
+    heading and the editor's method note, the 129-word extract body, and 87 words of
+    closing editorial "Note." The two do not reconcile, they use different counting
+    conventions, and this record does not pretend otherwise. What is measured and
+    load-bearing is the body: of its 129 words, 39 are the editor's bracketed
     summary standing in for text he did not translate. What is actually rendered from Amphilochius
     is about 90 words. The two stretches the editor replaced are precisely the
     enumerated book-lists -- the substance of a canon-list poem -- so this build
@@ -24,8 +26,8 @@ confidence:
     Verification state is verified-via-authority rather than verified-direct for
     that reason: the vendored file was opened and read directly, but what it
     carries is the NPNF editor's own selection and epitome, which is the same
-    condition this world already corrected cappadocian.source.basil-against-eunomius
-    and cappadocian.quote.basil-against-delaying-baptism for. Usable as evidence
+    condition this world already corrected cappadocian.quote.basil-against-delaying-baptism
+    for (ledger SS47). Usable as evidence
     that a sample of his own voice exists and what its argument was; not usable to
     characterize his theology, his pastoral practice, or his canon in detail.
 sources: []
