@@ -185,6 +185,17 @@ authors:
     kind: metadata-omission
     evidence: div2 10.4 'Aristo of Pella' names the author; DC.Creator omits him.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  bar-hebraeus:
+    kind: metadata-omission
+    evidence: 'This is this corpus''s first plain-text-vendored (non-CCEL) named author, so
+      cic/texts/AUTHORS.md - which is generated only from CCEL-XML files'' own <DC.Creator>
+      markup - has no way to have seen it yet. The author is real, well-attested, and not
+      anonymous or pseudonymous: Bar Hebraeus (Gregory Abu''l-Faraj, 1226-1286), author of
+      the Chronicon Ecclesiasticum (Abbeloos-Lamy edition, Louvain 1872-1877). This is a mechanical
+      index-coverage gap, not an attribution dispute.
+
+      '
+    from_file: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt
   bardesan:
     kind: metadata-omission
     evidence: 'div2 9.16 "Bardesan. The Book of the Laws of Divers Countries" — the section
@@ -676,6 +687,16 @@ authors:
 
       '
     from_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+  odes-of-solomon:
+    kind: anonymous
+    evidence: 'The Odes'' own authorship is anonymous - see syr.source.odes-of-solomon''s
+      own attribution_status. The slug is not in cic/texts/AUTHORS.md for the same mechanical
+      reason as the Bar Hebraeus ruling above: this file is plain-text-vendored, not CCEL-XML,
+      so the auto-generated index has never seen it. This is a work-entity slug for a genuinely
+      anonymous work, not an attribution dispute.
+
+      '
+    from_file: harris_odes-and-psalms-of-solomon_harris1911.txt
   pantaenus:
     kind: metadata-omission
     evidence: div2 10.15 'Pantaenus, the Alexandrian Philosopher'.
