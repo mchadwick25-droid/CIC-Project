@@ -26,7 +26,6 @@ sources:
 - source_id: pahc.source.didache
   locus: "the manuscript transmission itself: disappeared from active circulation for roughly eighteen centuries, per this row's own transmission note"
   license: public-domain
-relations: []
 name: "Transmission at the Ending - Selective Canonization [3B - ending/internal]"
 matrix_cell: 3B
 kind: ending
