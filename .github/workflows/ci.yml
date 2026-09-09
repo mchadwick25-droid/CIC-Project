@@ -13,6 +13,35 @@ on:
   pull_request:
 
 jobs:
+  # 2026-09-09: Mark hit his account's monthly GitHub Actions minutes cap.
+  # Every one of the twelve pytest jobs below plus the Docker build ran on
+  # EVERY push to EVERY PR, regardless of what actually changed - a pure
+  # cic-website/cic-poc copy edit still paid for the full engine suite and a
+  # container build. This `changes` job diffs the push/PR once and every
+  # engine-touching job below gates on its `engine` output; validate-census
+  # stays unconditional since it's Node-only, fast, and specifically guards
+  # the file website work touches most. Paths: engine/ and records/ are the
+  # actual inputs the compiler and test suites read; packages/**/manifest.json
+  # is the one tracked byte of a compiled package (see .gitignore's own
+  # comment on that exception) and a repin should re-verify it; this
+  # workflow file is included so a CI change always re-validates itself.
+  changes:
+    name: Detect changed paths
+    runs-on: ubuntu-latest
+    outputs:
+      engine: ${{ steps.filter.outputs.engine }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            engine:
+              - 'engine/**'
+              - 'records/**'
+              - 'packages/**/manifest.json'
+              - '.github/workflows/ci.yml'
+
   # Two jobs were removed 2026-08-24: "Repository views current (all six
   # worlds)" (cic-poc/backend) and "Frontend build (tsc + vite build)"
   # (cic-poc/frontend). Not dead weight that crept in - they guarded the
@@ -52,12 +81,16 @@ jobs:
     # purpose (no textstat/nltk network fetch - see engine/m1/fk.py) so this
     # job needs no secrets and can't flake on an external resource.
     name: M1 gate battery selftest (fixture world)
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: engine/m1/requirements.txt
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/m1/tests -q
 
@@ -70,12 +103,16 @@ jobs:
     # Needs m1's requirements because one test loads all six worlds to hold
     # the no-abbreviation-in-prose-fields invariant.
     name: Prose primitives (shared measurement)
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: engine/m1/requirements.txt
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/tests -q
 
@@ -90,12 +127,16 @@ jobs:
     # plaintext stays isolated from every world-build code path, enforced
     # here rather than trusted.
     name: Canon v1 + sealed probe isolation
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: engine/m1/requirements.txt
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/canon/tests -q
       - run: python -m engine.canon.check_seal_isolation
@@ -113,12 +154,18 @@ jobs:
     # requirements (same reasoning as the m4-event-log job below), not
     # m1's alone, or test collection fails with ModuleNotFoundError.
     name: M3 admission harness (mock, fixture world)
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            engine/m4/requirements.txt
+            engine/m1/requirements.txt
       - run: pip install -r engine/m4/requirements.txt
       # Compiled packages are derived and not in git (see .gitignore); rebuild
       # the pinned ones from records before any job that reads package bytes.
@@ -141,12 +188,18 @@ jobs:
     # run; the real calls themselves are by-hand evidence runs
     # (engine/m4/live_turn_run.py, engine/m4/lazy_load_measure.py), never CI.
     name: M4 event log, projection, entrance seal, resume, turn loop
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            engine/m4/requirements.txt
+            engine/m1/requirements.txt
       # engine/m4/requirements.txt (not m1's) since test_turn.py imports
       # engine.m4.turn -> engine.m5.live_calls -> anthropic transitively -
       # m1's requirements.txt has no reason to know that and shouldn't.
@@ -166,12 +219,16 @@ jobs:
     # live model call, unlike the classification calls themselves (blocked
     # on Bedrock access, see Redesign-Spec/BUILD-HANDOFF.md).
     name: M5 Facilitator gate routing + failure semantics
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: engine/m1/requirements.txt
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/m5/tests -q
 
@@ -183,12 +240,16 @@ jobs:
     # doesn't have. The preflight is a by-hand, one-time-per-provider check
     # (spec SS7), not a CI job.
     name: Provider seam unit tests (mocked, no live AWS call)
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: engine/provider/requirements.txt
       - run: pip install -r engine/provider/requirements.txt
       - run: python -m pytest engine/provider/tests -q
 
@@ -203,12 +264,16 @@ jobs:
     # by-hand evidence runs (engine/m8/cache_economics_measure.py), same
     # discipline as the safety script and the preflight.
     name: M8 cost & observability unit tests (mocked, no live AWS call)
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: engine/m8/requirements.txt
       - run: pip install -r engine/m8/requirements.txt
       - run: python -m pytest engine/m8/tests -q
 
@@ -220,12 +285,16 @@ jobs:
     # package to recompile against, so it's the separate job below rather
     # than folded in here.
     name: M2 compiler checks (determinism, stub loader)
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: engine/m1/requirements.txt
       - run: pip install -r engine/m1/requirements.txt
       # Compiled packages are derived and not in git (see .gitignore); rebuild
       # the pinned ones from records before any job that reads package bytes.
@@ -245,12 +314,16 @@ jobs:
     # nobody ever notices. engine/m2/reports/staleness-report.json is the
     # committed evidence that it found a real world to check, not zero.
     name: M2 staleness sweep (built/admitted/open worlds)
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: engine/m1/requirements.txt
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m engine.m2.cli staleness-check
 
@@ -263,12 +336,18 @@ jobs:
     # m4's) since this job also needs fastapi/uvicorn/httpx on top of
     # everything engine.m4.turn already pulls in transitively.
     name: engine/api tests (mocked Bedrock, fixture world)
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            engine/api/requirements.txt
+            engine/m1/requirements.txt
       - run: pip install -r engine/api/requirements.txt
       # Compiled packages are derived and not in git (see .gitignore); rebuild
       # the pinned ones from records before any job that reads package bytes.
@@ -297,6 +376,8 @@ jobs:
     # test_health (TestClient + fake deps) - that is the right layer for
     # HTTP behavior; this job's job is only "does the image assemble."
     name: Docker build (engine/Dockerfile)
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
