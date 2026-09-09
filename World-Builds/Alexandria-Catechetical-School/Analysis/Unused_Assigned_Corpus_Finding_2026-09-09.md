@@ -2,18 +2,25 @@
 
 **Alexandria (Catechetical-School) Formation World · finding document · 2026-09-09**
 
-**Version:** Round 3 draft (revised after two adversarial rounds). Revision log: **§11**.
+**Version:** Round 4 draft (revised after three adversarial rounds). Revision log: **§11**.
 
 - **Round 1** (`Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md`) — **SUBSTANTIAL
   REVISION REQUIRED**, 8 substantial + 8 cosmetic. Headline upheld.
-- **Round 2** (`…_Round2_Review.md`) — **SUBSTANTIAL REVISION REQUIRED**, 8 substantial + 10
-  cosmetic. Headline upheld again; Round 2 additionally ran the C4 route itself and found it also
-  fails. It resolved 4 of Round 1's 8, found 3 partially resolved (2 of those introducing new
-  errors), and 1 not resolved.
+- **Round 2** (`…_Round2_Review.md`) — **SUBSTANTIAL**, 8 + 10. Headline upheld; Round 2 ran the C4
+  route itself and found it also fails. Of Round 1's 8: 4 resolved, 3 partial (2 introducing new
+  errors), 1 not resolved.
+- **Round 3** (`…_Round3_Review.md`) — **SUBSTANTIAL**, 4 + 12. Headline upheld a third time. Of
+  Round 2's 8: **7 resolved**, 1 partial (its fix having introduced a new error). Round 3 ran C3
+  Dependency and T2 itself, and additionally ran the **generation step** — a route no prior round
+  had named — and found that too fails.
 
-Both are AI review, each marked in its own artifact *"Simulated review — informational only, not
-an Article 31 substitute"* (Article 31). **Round 3 review pending — this document is NOT
+All three are AI review, each marked in its own artifact *"Simulated review — informational only,
+not an Article 31 substitute"* (Article 31). **Round 4 review pending — this document is NOT
 cleared, and no disposition has been assigned to it.**
+
+*Trajectory, stated because it is the honest summary: 8 → 8 → 4 substantial findings, with the
+headline upheld at every round and each round **narrowing** the case under it rather than
+strengthening it.*
 
 **Status:** Verified finding, **escalated to the project lead — not self-disposed.** No
 **construction document** (Doc_01–Doc_09), no `records/alx/` record, no corpus-map entry and no
@@ -271,20 +278,33 @@ date-boundary wording across two records — which is a scope boundary, hence su
 Theognostus frag. III is a pedagogical passage — "the Saviour converses with those not yet able
 to receive what is perfect, condescending to their littleness, while the Holy Spirit communes
 with the perfected… the Son condescends to the imperfect, while the Spirit is the seal of the
-perfected." That is C3 Divine Pedagogy vocabulary in a non-Origen voice from the gap interval.
-It corroborates C3; subject to the Athanasius caveat in §5.1, it reclassifies nothing.
+perfected." That is C3 Divine Pedagogy vocabulary from inside the gap interval.
 
-### 5.3 [SUBSTANTIAL — evidential characterization] T4's evidence base is described as narrower than it is
+*Round 3 correction, and it matters.* The first draft called this "a **non-Origen** voice." It is
+not. ANF's own notice states: *"That he was a disciple of Origen, or at least a devoted student of
+his works, is clear from Photius."* Theognostus is therefore **inside** the Origen SYSTEMIC screen
+(Doc_04 §0, Discipline One), not independent of it, and **cannot lift it**. Combined with the
+Athanasius mediation caveat in §5.1, the corroboration frag. III offers C3 is considerably weaker
+than the first draft implied: an Origen disciple, quoted selectively by Athanasius in post-Nicene
+polemic. It corroborates C3 and reclassifies nothing (§6.2).
+
+### 5.3 [SUBSTANTIAL — omission] T4 carries no documentary witness among its manifestations
 
 `alx.gravity.martyrdom-contemplative-tension` states the martyr pole's "interior is preserved in
 **hagiography and martyrology only** (Inferential-Thin)"; Doc_04 §3.6 T4 says the same. *Round 1
 correction accepted:* three of that record's four `manifestations` are Eusebius/Dionysius-derived,
 not all four — the fourth is the contemplative pole (*Stromateis* / the *Address*).
 
-The **Inferential-Thin verdict on the martyr's interior is correct and stands.** Peter's canons
-give no martyr's inner experience, and nothing here licenses filling that silence. But
-"hagiography and martyrology only," as a description of *the evidence this world holds on the
-martyrdom pole*, is contradicted by its own assigned corpus:
+*Round 3 correction — the charge is narrowed from "contradiction" to "omission," and it was right
+to insist.* Both loci scope the claim to the martyr's **interior** ("**its interior** is preserved
+in hagiography and martyrology only"), and this document concedes that the interior verdict
+stands. So the wording is **not contradicted** — Peter's canons supply no martyr's interior, and
+nothing here licenses filling that silence.
+
+What survives is an **omission**, and it is still substantial: T4's `manifestations` list contains
+**no documentary witness at all**, only narrated and hagiographic material, while a documentary
+one sits vendored, assigned, and unused. The finding is that the record is *incomplete*, not that
+it is *wrong*:
 
 - **Canon IX** — *the strongest datum in the epistle, and missed in Round 1* (a regex silently
   dropped it; recovered from line 27036 only because Round 1 review's canon-count finding forced
@@ -424,16 +444,34 @@ Recorded because a negative result on the highest-stakes open item is worth havi
 record, and because §9's Option B would otherwise leave a reader wondering whether it was
 checked.
 
-### 6.1 C4 Logos-Centered Unity — the last untested route
+### 6.1 C4 Logos-Centered Unity
 
 *Added at Round 2's direction, which found this route asserted-by-omission rather than tested,
 and ran it independently.*
 
-Peter's doctrinal **Fragments II, III, IV and VIII** are a sustained Logos witness: "the Word was
-made flesh"; "God the Word is with thee"; "He was God by nature, and… man by nature." Doc_04 §3.4
+Peter's doctrinal **Fragments II, III, IV and VIII** are a Logos witness: "the Word was made
+flesh"; "God the Word is with thee"; "He was God by nature, and… man by nature." Doc_04 §3.4
 grounds C4's integrating-center function as **Widely Accepted** on "all three figures" (Clement,
 Origen, Athanasius). Peter would be a **fourth witness, episcopal, and independent of both Origen
 and Eusebius** — on its face the strongest corroboration in this corpus.
+
+**Two corrections from Round 3, which found this section had repaired one defect while committing
+another.**
+
+*(a) It is one saying, not four fragments.* Fragments III, IV and VIII carry the **same sentence**
+in three witnesses — III: "Both things therefore are demonstrated, that He was God by nature, and
+that He was man by nature"; IV: "Both therefore is proved, that he was God by nature, and was made
+man by nature"; VIII: "both things therefore are together proved, that He was God by nature, and
+was made man by nature." Counting them as three independent attestations inflates the evidence.
+
+*(b) The transmission is late-polemical throughout, and §5.1's screen was not applied here.* Per
+ANF's own provenance notes: **II** = the *Acts of the Council of Ephesus* (431); **III** = Leontius
+of Byzantium, *contra Nestorianos et Eutychianos*; **IV** = Leontius of Jerusalem, *contra
+Monophysitas*; **VIII** = the Emperor Justinian's treatise against the Monophysites. Every one is a
+**5th–6th-century christological-controversy excerpt**, quoted because it was useful against
+Nestorius, Eutyches or the Monophysites. That is heavier selection pressure than either the
+Eusebius or the Athanasius mediation screened elsewhere in this document, and it must be applied
+here on the same terms.
 
 **It still fails to move C4, and it fails on Doc_04's own stated criterion.** C4 is classified
 Supporting not for want of attestation — it already passes all six tests — but on the
@@ -443,11 +481,30 @@ christological confession; they generate no practice-cluster. Adding a fourth wi
 function already rated Widely Accepted raises nothing and reclassifies nothing. **C4 remains
 Supporting (integrating centre).**
 
-*A half-route named and not run:* C3 Divine Pedagogy's Dependency verdict is corroborated by
-Theognostus frag. III (§5.2) but not independently re-tested here. C3 is Supporting on the same
-kind of criterion as C4 (explanatory framework, not independent organiser), and corroboration of
-a framework does not convert it into an organiser — but this is stated as reasoning, not as a
-test run.
+### 6.2 The remaining routes — C3, T2, and the generation step
+
+*Run at Round 3, which correctly objected that §6.1's "last untested route" framing was
+contradicted by this document's own closing paragraph. Recorded as results, not as reasoning.*
+
+- **C3 Divine Pedagogy — Dependency re-run. Unchanged; C3 confirmed Supporting.** Theognostus
+  frag. III generates no practice. The only real practice-cluster in this corpus is Peter's
+  penitential canons, and those ground themselves on **episcopal authority and Scripture**, not on
+  divine pedagogy — remove C3 and they stand intact. The new material *confirms* the existing
+  classification.
+- **T2 Learning–Community — fails** on the same reasoning as §6: a bishop legislating for the
+  whole church attests the community pole's *conditions*, not its formation logic.
+- **The generation step — a route no round had named.** The prior rounds all asked whether this
+  corpus moves an *existing* candidate. Round 3 asked the prior question: should it have
+  **generated a candidate Doc_04 §1 never generated?** It should have been asked, and the answer
+  is that one is genuinely available — **penitential-reintegrative discipline** (Doc_02 Streams 3,
+  7 and 8; a real chain from Dionysius through Peter to Timothy and Theophilus; and, unusually for
+  this world, a genuine practice-cluster). Tested against the six tests it **fails**: Persistence
+  fails in the early phase, and Dependency fails decisively on Doc_04's own precedent for Askesis
+  and the Participation↔Perception dynamic — it is what the ecology *does under persecution*, not
+  an independent organiser. **Not a gravity; Supporting at most; nothing existing moves.**
+
+With the generation step run and failing, this document knows of **no remaining untested route**
+to a Doc_04 classification change.
 
 ---
 
@@ -503,8 +560,8 @@ right it would have damaged T1 rather than supported it (§1).
 
 **Is it merely supplemental?** No — but the count must be stated honestly, and Round 2 caught the
 first draft inflating it. **Three defects are actually produced by this unused corpus:** §5.1 (a
-false sourcing statement in a cleared document), §5.3 and §5.4 (evidential characterizations
-contradicted by the world's own assigned corpus). §5.2 and §5.5 are **pre-existing defects found
+false sourcing statement in a cleared document), §5.3 (a documentary witness omitted from T4's
+manifestations) and §5.4 (T3's evidence base incomplete against the world's own assigned corpus). §5.2 and §5.5 are **pre-existing defects found
 along the way** — real, worth fixing, but they would be there whether or not this corpus were ever
 drawn on, and they are not evidence for the value of drawing on it. §7 is a separate
 methodological finding with fleet-wide reach.
@@ -538,7 +595,7 @@ added 2026-08-27 — after the 2026-07-28 baseline freeze — by exactly this di
 post-freeze *additive source records* are established practice, and a Peter source record alone
 falls inside it. What has no precedent is correcting sourcing and scope statements *inside* a
 thrice-reviewed Doc_04 and across two live gravity/figure records. Those travel together: adding
-Peter while leaving §5.3's "hagiography and martyrology only" standing would be the "bolting new
+Peter while leaving T4's manifestations without the documentary witness (§5.3) would be the "bolting new
 citations underneath an unchanged conclusion" failure mode the brief named as the thing to avoid.
 
 ---
@@ -551,8 +608,10 @@ Grounded options, per `cic-build-cycle`.
 through the normal revision → independent review → disposition cycle:
 
 - **Doc_04:** correct §0's Theognostus/Eusebius attribution (§5.1); reconcile the C5 date
-  boundary against `alx.figure.didymus` (§5.2); correct T4's "hagiography and martyrology only"
-  (§5.3); note Peter Fragment VI in T3's evidence base (§5.4); add the T1↔T4 interaction cell.
+  boundary against `alx.figure.didymus` (§5.2); add Peter's canons to T4's `manifestations` as its
+  only documentary witness, leaving the Inferential-Thin interior verdict untouched (§5.3); note
+  Peter Fragment VI, screened for its florilegium transmission, in T3's evidence base (§5.4); add
+  the T1↔T4 interaction cell.
 - **Records:** add Peter as `figure` + `source`, **handling both vendored witnesses** (anf06
   `div2 9.4`/`9.6` and npnf214 `div2 17.6`) or explicitly declining one; add Theognostus and
   Pierus as `source`, with school-headship recorded at the confidence §4 supports and **not** as
@@ -565,7 +624,7 @@ through the normal revision → independent review → disposition cycle:
 Small in content, non-trivial in process — the process is the point.
 
 **Option A — records only, no Doc_04 change.** Cheapest; has the 2026-08-27 precedent. Not
-recommended: leaves a false sourcing statement (§5.1) and a contradicted characterization
+recommended: leaves a false sourcing statement (§5.1) and T4's documentary omission
 (§5.3) in place, and produces the bolt-on failure mode above.
 
 **Option C — log and defer.** This document stands as the durable record. Defensible if Article
@@ -617,7 +676,38 @@ document accounts for by scoping its "no change" claim to world-build constructi
 
 ## 11. Revision log
 
-### Round 2 → Round 3 (this revision)
+### Round 3 → Round 4 (this revision)
+
+Round 3 returned **SUBSTANTIAL REVISION REQUIRED** (4 substantial, 12 cosmetic) and upheld the
+headline a third time. It verified Round 2's eight against the patch (`git diff 48ca471..09c23d6`)
+rather than against §11, finding **7 resolved** and 1 partially resolved whose fix introduced a new
+error. It also ran C3 Dependency, T2, and the generation step itself. All four new findings are
+accepted; none is disputed.
+
+1. **§6.1's C4 section repaired one defect and committed another.** Peter's Fragments III, IV and
+   VIII are **one saying in three witnesses**, not three attestations; and their transmission —
+   II via the *Acts of Ephesus* (431), III via Leontius of Byzantium, IV via Leontius of Jerusalem,
+   VIII via Justinian — is **5th–6th-c. christological polemic**, unscreened, in the very section
+   added to fix Round 2's transmission finding. Both corrected in §6.1.
+2. **"Non-Origen voice" was wrong.** ANF states Theognostus "was a disciple of Origen, or at least
+   a devoted student of his works." He is **inside** the Origen SYSTEMIC screen and cannot lift it.
+   §5.2's corroboration claim is weakened accordingly.
+3. **§5.3's "contradicted" misread scope.** Both loci scope the claim to the martyr's **interior**,
+   and this document concedes that verdict stands. Recast as an **omission** finding (T4's
+   `manifestations` hold no documentary witness), retitled, and propagated to §1, §8 and §9's
+   Option B wording.
+4. **"The last untested route" was self-contradicting.** Removed; the remaining routes are now run
+   and reported in a new **§6.2** (C3 Dependency, T2, and the generation step).
+
+Also corrected: **OG-6's own defect list**, which Round 3 found listed the T1↔T4 cell as a
+free-standing defect while omitting §5.4, yet recommended reopening "§5.1–§5.4." It now matches
+the document's three-produced / two-pre-existing structure exactly, and carries the negative
+route-test results.
+
+*Round 3 confirmed §11 did not overstate the previous round — all 8 items and all 5 claimed
+cosmetics had landed on disk. This entry is written to the same standard.*
+
+### Round 2 → Round 3
 
 Round 2 returned **SUBSTANTIAL REVISION REQUIRED** (8 substantial, 10 cosmetic), upheld the
 headline, and independently ran the C4 route that this document had left untested. On Round 1's

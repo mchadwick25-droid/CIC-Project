@@ -263,21 +263,28 @@ Philip of Side, not vendored). The parallel Pierus claim is **contradicted** by 
 vendored Eusebius (*HE* VII.32: **Achillas** was principal). And had the premise been right it
 would have been evidence *against* T1, which requires poles not "within one person."
 
-**Four real defects, escalated rather than self-disposed** (`cic-build-cycle` categories 4 and 2):
-1. Doc_04 §0 attributes Theognostus to Eusebius. He appears **0 times** in the vendored Eusebius;
-   all three fragments come via Athanasius (*De Decretis* 25; *Ad Serap.* 4.11).
-2. `alx.gravity.learning-formation` ("c. 150–254") and `alx.figure.didymus` ("to 398") contradict
-   each other on the school's duration — **pre-existing, not caused by this corpus**, and Didymus
-   is also the disproof of a C5 Persistence flip.
-3. T4's "hagiography and martyrology only" is contradicted by Peter's *Canonical Epistle* (306):
-   documentary, first-person, the church de-absolutizing martyrdom — Canon IX ("they will deliver
-   you up, and **not, ye shall deliver up yourselves**"), X, XII, XIII.
-4. Doc_04 §6's Interaction Matrix has no **T1↔T4** cell, which Peter's canons demonstrate.
+**Three defects produced by this corpus, escalated rather than self-disposed**
+(`cic-build-cycle` categories 4 and 2) — the §-numbers are the finding document's:
+1. **§5.1** Doc_04 §0 attributes Theognostus to Eusebius. He appears **0 times** in the vendored
+   Eusebius; all three fragments come via Athanasius (*De Decretis* 25; *Ad Serap.* 4.11).
+2. **§5.3** T4's `manifestations` carry **no documentary witness** — only narrated and hagiographic
+   material — while Peter's *Canonical Epistle* (306) sits assigned and unused: the church
+   de-absolutizing martyrdom, Canon IX ("they will deliver you up, and **not, ye shall deliver up
+   yourselves**"), X, XII, XIII. *(T4's Inferential-Thin verdict on the martyr's **interior** is
+   correct and stands — this is an omission, not a contradiction.)* Its sub-finding: Doc_04 §6's
+   Interaction Matrix has no **T1↔T4** cell, which those canons demonstrate.
+3. **§5.4** T3's evidence base is incomplete: Peter's Fragment VI rejects the soul's pre-existence
+   — pre-Nicene and pre-homoousian, earlier than the evidence Doc_04 rests T3 on — though it
+   reaches us via the *Sacra Parallela*, a 7th–8th-c. florilegium, and is screened accordingly.
 
-**Also found:** `Gravity_Index.xlsx`, cited throughout Doc_04, **is not in the repository**
-(flagged, not investigated). And the gap is wider than reported — **14 anf06 works assigned, only
-2 opened**; Alexander of Alexandria's *Epistles on the Arian Heresy* is `assigned` with zero
-records and is named but not pursued.
+**Two further defects found along the way, pre-existing and NOT produced by this corpus:**
+**§5.2** `alx.gravity.learning-formation` ("c. 150–254") and `alx.figure.didymus` ("to 398")
+contradict each other on the school's duration — and Didymus is also the disproof of a C5
+Persistence flip. **§5.5** `Gravity_Index.xlsx`, cited throughout Doc_04, is not in the repository.
+
+**Also found:** the gap is wider than reported — **14 anf06 works assigned, only 2 opened**;
+Alexander of Alexandria's *Epistles on the Arian Heresy* is `assigned` with zero records, and is
+named but not pursued.
 
 **Root cause (portfolio-level).** `alx.search.unopened-volume-sweep` ran, but queries *volumes*
 whose author is named while never opened. Alexandria already opens anf06, so twelve assigned works
@@ -293,7 +300,15 @@ recompile, `records/worlds.yaml` untouched. Note the two freezes are distinct �
 frozen** (Article 31/OG-4 outstanding), but the **S6.2 record-store and deployment baseline is**
 (2026-07-28), and that is what a record change would disturb.
 
-Reviews: `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md` (SUBSTANTIAL, 8+8) and
-`Round2_Review.md` (SUBSTANTIAL, 8 new) — both AI review, marked "Simulated review — informational
-only, not an Article 31 substitute" per Article 31. Both rounds upheld the "not structural"
-headline while correcting the reasoning under it.
+**Routes tested and failed, so the negative result is on the record:** C3 Dependency, C4, C5
+Persistence, T1 pole separation, T2, T3, T4 confidence, the Article 21 Cross-Stratum Test, and —
+at Round 3, a route no earlier round had named — the **generation step**, i.e. whether this corpus
+should have produced a candidate Doc_04 §1 never generated. One is genuinely available
+(**penitential-reintegrative discipline**), and it fails the six tests on Doc_04's own Askesis and
+Participation↔Perception precedent. No remaining untested route is known.
+
+Reviews: `Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md` (SUBSTANTIAL, 8+8),
+`Round2_Review.md` (SUBSTANTIAL, 8+10) and `Round3_Review.md` (SUBSTANTIAL, 4+12) — all AI review,
+each marked "Simulated review — informational only, not an Article 31 substitute" per Article 31.
+All three upheld the "not structural" headline while **narrowing** the case under it. A Round 4
+review is pending; the finding document is **not cleared** and carries no disposition.
