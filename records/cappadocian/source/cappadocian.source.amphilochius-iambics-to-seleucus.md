@@ -13,10 +13,11 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     What is held here is much smaller than the div2 section's own length suggests,
-    and the difference matters. The section runs to roughly 240 words, but that
-    figure counts the editor's heading and his note on his own method. The extract
-    body is 129 words, and 39 of those are the editor's bracketed summary standing
-    in for text he did not translate. What is actually rendered from Amphilochius
+    and the difference matters. The ~242-word figure the corpus map
+    records covers the whole div2 section: 59 words of editor's heading and method
+    note, the 129-word extract body, and a ~54-word closing editorial "Note." on the
+    four scriptural canons. Within the body, 39 words are the editor's bracketed
+    summary standing in for text he did not translate. What is actually rendered from Amphilochius
     is about 90 words. The two stretches the editor replaced are precisely the
     enumerated book-lists -- the substance of a canon-list poem -- so this build
     holds the frame of the argument and not the list it was written to deliver.

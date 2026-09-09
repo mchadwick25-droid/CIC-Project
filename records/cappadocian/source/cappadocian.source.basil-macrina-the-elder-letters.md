@@ -16,8 +16,8 @@ sources: []
 relations: []
 author: Basil of Caesarea
 work: >-
-  Basil, Epistles 204 and 223, with Epistle 210 as a thinner third witness (Macrina the Elder,
-  transmission of Gregory Thaumaturgus' own teaching)
+  Basil, Epistles 204, 210 and 223 (Macrina the Elder, transmission of Gregory Thaumaturgus' own
+  teaching). Epistle 204 alone joins the two; 210 carries each separately; 223 corroborates
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff,
   vendored as cic/texts/npnf208_basil-letters-select-works.xml'
 rights_status: >-
@@ -51,8 +51,8 @@ letter's own prefatory note) - a translation fact, not an authenticity one, sinc
 printed here and is Basil's.
 
 A THIRD PASSAGE THIS ROW DID NOT NAME, and it is stronger than a first reading suggested. Epistle 210
-(id ix.ccxi, "To the notables of Neocaesarea") carries both halves of the datum, separately. Its section
-2 has the upbringing - "here I was brought up by my grandmother," with the volume's own endnote
+(id ix.ccxi, "To the notables of Neocaesarea") carries both halves of the datum, separately. Its unnumbered opening section
+has the upbringing - "here I was brought up by my grandmother," with the volume's own endnote
 supplying "Macrina, at her residence at Annesi." Its section 3 independently carries the Thaumaturgan
 transmission, and states it as sharply as anywhere in the corpus: the movement at Neocaesarea is
 disloyal "to the tradition of Gregory the truly great, and of his successors up to the blessed

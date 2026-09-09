@@ -17,7 +17,8 @@ relations: []
 author: Amphilochius of Iconium
 work: Amphilochius of Iconium's own works (canonical letters, etc.)
 edition: No open English edition of his works as a corpus has been located. One short extract of
-  his own verse -- the canon-list passage from the Iambics to Seleucus -- is vendored and is recorded
+  his own argument -- the canon-list passage from the Iambics to Seleucus, about 90 rendered words in
+  the editor's prose epitome, not verse -- is vendored and is recorded
   separately at cappadocian.source.amphilochius-iambics-to-seleucus; this row covers the rest, which
   remains unlocated
 rights_status: not applicable in the ordinary sense -- no single specific text has been identified for
@@ -37,7 +38,8 @@ edition to verify against (row 65).
 
 CORRECTED 2026-09-09. This row previously said no open English edition of any of his own work had
 been located "this session or previously." That was false at the time it was written: a roughly
-240-word extract of his own verse to Seleucus, on the canon of Scripture, sits in the already-vendored
+extract of his own argument to Seleucus on the canon of Scripture -- about 90 rendered words,
+in the NPNF editor's prose epitome rather than as verse -- sits in the already-vendored
 cic/texts/npnf214_seven-ecumenical-councils.xml at div2 17.23, and the shared corpus map had carried a
 row for it since 2026-08-26. It is recorded now at cappadocian.source.amphilochius-iambics-to-seleucus.
 The judgment this row exists to carry is unchanged -- one canon-list extract is not an edition, and

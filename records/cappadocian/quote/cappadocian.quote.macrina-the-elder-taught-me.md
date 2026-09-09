@@ -72,8 +72,8 @@ modern_rendering: >-
   far as memory had carried them down to her own day. She shaped and formed me
   while I was still a child, in the teachings of true religion. Later, when I
   came of age and could reason for myself, I travelled over much sea and land.
-  Wherever I found someone walking by the rule of godliness handed down to us,
-  I took that man for a father.
+  Wherever I found people walking by the rule of godliness that had been
+  handed down, those I took for my fathers.
 ---
 Verified verbatim 2026-09-09 directly against the vendored
 npnf208_basil-letters-select-works.xml. The letter is headed "Letter CCIV." with
