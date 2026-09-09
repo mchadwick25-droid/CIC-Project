@@ -128,6 +128,28 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- work: Epistle LXXIV (ANF/older numbering) / LXXV (modern CSEL-Hartel numbering) - Firmilian,
+    Bishop of Caesarea in Cappadocia, to Cyprian, Against the Letter of Stephen. A.D. 256
+  author: cyprian
+  locus: div3 "Epistle LXXIV" (id iv.iv.lxxiv), inside the div2 4.4 Epistles-of-Cyprian body
+  role: tradition
+  confidence: provisional
+  note: 'No `firmilian` author slug exists in AUTHORS.md, so this row is filed under `cyprian`
+    (the corpus author of record for div2 4.4) rather than left unattributed; the letter is
+    Firmilian''s own, embedded in Cyprian''s corpus, exactly as the shared Epistles-of-Cyprian
+    row above already discloses ("the corpus embeds letters by others... under Cyprian''s
+    name"). `confidence: provisional`, not `assigned`, for the same reason as the Thaumaturgus
+    rows in this file and in npnf214/anf06: third-century, a century before this entry''s
+    360-380s census range, and no census entry for 3rd-c. Cappadocia/Pontus itself. Split
+    2026-09-09 on Mark''s ruling (`cappadocian_Unused_Source_Verification_2026-09-09.md` §2.2),
+    following the 2026-08-26 npnf214 per-father split precedent below (`Split 2026-08-26 on
+    Mark''s ruling`) for the same reason that split gave: one work by one author, distinguishable
+    from its shared-corpus row, is worth a row of its own rather than an added atlas_id, since
+    the shared Epistles-of-Cyprian row is `confidence: assigned` and this assignment is not.
+    Doc_02 §1.6 cites this letter under both numberings ("Epistle 74 in the ANF/older numbering,
+    Epistle 75 in the modern CSEL/Hartel numbering; cite both forms") - both carried in `work:`
+    above so a reader searching either number finds this row.'
+  source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: The First Apology (Liber Apologeticus)
   author: eunomius
   locus: whole file - chapters I-XXVIII plus 23 footnotes

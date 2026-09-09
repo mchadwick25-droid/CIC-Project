@@ -199,5 +199,5 @@ worlds:
     living_tradition_flag: true
     state: admitted
     package:
-      manifest_hash: "sha256:65dd314c2b97fdb1acf5171021167be000d0374ce3bf1ddca531ffd772ab9435"
-      location: "packages/cappadocian/2026-09-04T16-41-51Z"
+      manifest_hash: "sha256:4ab15694946d987276e4ab186d91ec9e8ef077c06bd75e180c645ed81c460e6d"
+      location: "packages/cappadocian/2026-09-09T11-47-03Z"
