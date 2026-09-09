@@ -431,6 +431,19 @@ authors:
 
       '
     from_file: pachomius_rules-ethiopic_schodde1885.txt
+  excerpts-of-theodotus:
+    kind: pseudonymous
+    evidence: 'div2 4.3, titled "Excerpts of Theodotus" and DC.Creator-listed under theodotus,
+      but corrected 2026-09-08 (records/alx audit; see alx.source.excerpts-of-theodotus.md):
+      the vendored text is the Eclogae Propheticae, not the genuine Excerpta ex Theodoto -
+      a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad,
+      and the ANF editor''s own headnote disowns the Clement/Theodotus attribution ("corrupt
+      or forged documents, for which Clement''s name has been borrowed"), guessing an unknown
+      Montanist compiler instead. Ruled pseudonymous rather than reused as `theodotus`, which
+      would keep asserting the disproven attribution.
+
+      '
+    from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
   falling-asleep-of-mary:
     kind: pseudonymous
     evidence: 'div2 7.42 "The Book of John Concerning the Falling Asleep of Mary" — Dormition

@@ -426,6 +426,23 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- work: Excerpts of Theodotus
+  author: excerpts-of-theodotus
+  locus: div2 4.3
+  role: tradition
+  confidence: assigned
+  note: 'Corrected 2026-09-08, records/alx audit (see alx.source.excerpts-of-theodotus.md):
+    despite its title, this vendored text is the Eclogae Propheticae (Selections from the
+    Prophetic Scriptures), NOT the genuine Excerpta ex Theodoto. It carries no Valentinian
+    technical vocabulary (a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/
+    Ogdoad, and "Theodotus" only in the editorial title), and the ANF editor''s own headnote
+    disowns the Clement attribution ("corrupt or forged documents, for which Clement''s name
+    has been borrowed"), guessing an unknown Montanist compiler instead. It is NOT a Valentinian
+    voice and must not be cited as one; the genuine Excerpta ex Theodoto is not vendored anywhere
+    in this corpus.
+
+    '
+  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Oration and Panegyric Addressed to Origen
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
@@ -760,23 +777,6 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Excerpts of Theodotus
-  author: uncertain
-  locus: div2 4.3
-  role: tradition
-  confidence: assigned
-  note: 'Corrected 2026-09-08, records/alx audit (see alx.source.excerpts-of-theodotus.md): despite
-    its title, this vendored text is the Eclogae Propheticae (Selections from the Prophetic
-    Scriptures), NOT the genuine Excerpta ex Theodoto. It carries no Valentinian technical
-    vocabulary (a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/
-    Ogdoad, and "Theodotus" only in the editorial title), and the ANF editor''s own headnote
-    disowns the Clement attribution ("corrupt or forged documents, for which Clement''s name has
-    been borrowed"), guessing an unknown Montanist compiler instead. It is NOT a Valentinian voice
-    and must not be cited as one; the genuine Excerpta ex Theodoto is not vendored anywhere in this
-    corpus.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Fragments of Theognostus of Alexandria (from the Hypotyposes)
   author: theognostus
   locus: div2 6.5
