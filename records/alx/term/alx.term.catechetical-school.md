@@ -66,7 +66,7 @@ senses:
     within the Prolegomena''s testimonia section - npnf201 line 5785 is Jerome''s own words quoted there,
     not McGiffert''s commentary, but either way it is front-matter apparatus, not Eusebius''s own History
     text), not ancient History text itself, or refers to a different Didymus, the addressee of
-    Dionysius''s letters at HE VII.11/VII.20); Didymus is instead attested here by Socrates, HE IV.25,
+    Dionysius''s letters at HE VII.11/VII.20; Didymus is instead attested here by Socrates, HE IV.25,
     Palladius, Lausiac History ch. IV, and Jerome, De Viris Illustribus 109.'
   personal: A student who found a teacher whose formed wisdom they could see, and read Scripture beside
     them, was genuinely being taught - whatever the answer to the institutional question turns out to be.
