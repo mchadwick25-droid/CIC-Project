@@ -39,14 +39,13 @@ senses:
   informational: The Logos entered human nature - flesh, suffering, mortality itself - and began turning
     it back from within. What was dying starts to live, because Life has entered it.
   evidential: Athanasius reads the resurrection as the Logos's reversal of the soul's drift toward non-being,
-    with the body sharing fully (De Incarnatione 8-10, 20-32, which the audit found sound). The Clement
-    side of this claim is dropped (corrected 2026-09-08, records/alx audit) - Stromateis IV.26 ("How the
-    Perfect Man Treats the Body and the Things of the World"), the locus previously cited here, contains
-    no occurrence of "resurrect*" and actually argues the soul "sojourning in the body" is "willing rather
-    to be absent from the body, and present with God," which runs toward this very record's own
-    false_friend rather than against it. No genuine Clement locus for "resurrection as formation's
-    completion" was found in the vendored Stromateis; this claim is now sourced to Athanasius alone,
-    and the Clement side is left thin/unsupported rather than asserted.
+    with the body sharing fully (De Incarnatione 8-10, 20-32). There is no Clement side to this claim -
+    Stromateis Book IV, "Chapter XXIII.—The Same Subject Continued" (anf02 lines 40208-40684; the
+    relevant lines are 40553 and 40578), contains no occurrence of "resurrect*" and actually argues the
+    soul "sojourning in the body" is "willing rather to be absent from the body, and present with God,"
+    which runs toward this very record's own false_friend rather than against it. No genuine Clement
+    locus for "resurrection as formation's completion" was found in the vendored Stromateis; this claim
+    is sourced to Athanasius alone, and the Clement side is left thin/unsupported rather than asserted.
   personal: The one growing in prayer, community, and the Eucharist is already living in a resurrection
     at work now, not only a hope held for later.
   translational: >-
