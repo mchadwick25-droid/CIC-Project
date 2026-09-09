@@ -1,0 +1,338 @@
+<!--
+  Internal image/video resource library — prep work for the site's future
+  visual layer. Reads data/image-library.json. Not linked from site nav;
+  reachable only by direct URL, same treatment as tour.html. Nothing here
+  is wired into the live pages — this is a cataloging/review tool for Mark.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Image Library — Church in Conversation</title>
+<meta name="description" content="Internal catalog of public-domain historical images gathered for the site's seven built worlds, pending review.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521;
+  --madder:#A13E2B;
+  --madder-deep:#7E2F20;
+  --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913; --surface-raised:#241E17;
+  --text:#F1E9DD;
+  --muted:#B8AEA1;
+  --action:#E08C74;
+  --action-hover:#F0A98F;
+  --control:#A39B92;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:76rem; --col:44rem;
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:1rem}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.6}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0 0 1rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.sans{font-family:var(--sans)}
+.muted{color:var(--muted)}
+
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.7rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.25rem 1.5rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.site-nav{font-family:var(--sans);font-size:.95rem;display:flex;flex-wrap:wrap;align-items:center;gap:0 1.1rem}
+.site-nav a{color:var(--text);text-decoration:none;padding:.7rem .1rem;border-bottom:2px solid transparent;min-height:44px;display:inline-flex;align-items:center}
+.site-nav a:hover,.site-nav a:focus-visible{border-bottom-color:var(--action)}
+@media (max-width:640px){ .site-nav{font-size:.9rem;gap:0 .85rem} .site-header .row{gap:.1rem 1rem} }
+
+.page{max-width:var(--wide);margin:0 auto;padding:0 1.25rem}
+.hero{padding:2.2rem 0 1.4rem}
+.hero h1{font-size:clamp(1.6rem,3.4vw,2.2rem);margin:0 0 .6rem}
+.hero p{max-width:42rem;color:var(--muted)}
+.internal-note{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-size:.78rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--action);background:rgba(224,140,116,.12);border:1px solid rgba(224,140,116,.35);border-radius:999px;padding:.3rem .7rem;margin:0 0 1rem}
+
+.stats{display:flex;flex-wrap:wrap;gap:1.2rem;font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0 0 1.5rem}
+.stats strong{color:var(--text);font-weight:700}
+
+.controls{display:flex;flex-wrap:wrap;gap:1rem 1.4rem;align-items:flex-end;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:1.1rem 1.3rem;margin:0 0 1.5rem}
+.field{display:flex;flex-direction:column;gap:.35rem;font-family:var(--sans)}
+.field label{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.field select,.field input{font:inherit;font-family:var(--sans);font-size:.9rem;background:var(--ground);color:var(--text);border:1px solid var(--rule);border-radius:5px;padding:.5rem .6rem;min-height:40px}
+.field select{min-width:11rem}
+.field input[type="search"]{min-width:14rem}
+.field.grow{flex:1 1 14rem}
+.reset-btn{font:inherit;font-family:var(--sans);font-size:.85rem;font-weight:600;color:var(--action);background:none;border:1px solid var(--rule);border-radius:5px;padding:.55rem .9rem;min-height:40px;cursor:pointer}
+.reset-btn:hover,.reset-btn:focus-visible{color:var(--action-hover);border-color:var(--action)}
+
+.results-count{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0 0 1rem}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.1rem;padding:0 0 3rem}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden;display:flex;flex-direction:column}
+.thumb{aspect-ratio:4/3;background:var(--ground);display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.thumb .no-thumb{font-family:var(--sans);font-size:.8rem;color:var(--muted);text-align:center;padding:1rem;display:flex;flex-direction:column;align-items:center;gap:.5rem}
+.thumb .no-thumb a{font-weight:600}
+.status-badge{position:absolute;top:.5rem;left:.5rem;font-family:var(--sans);font-size:.66rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:.2rem .55rem;border-radius:999px;border:1px solid}
+.status-approved{background:rgba(52,168,110,.16);color:#8FE0B4;border-color:rgba(143,224,180,.4)}
+.status-candidate{background:rgba(224,140,116,.14);color:var(--action-hover);border-color:rgba(224,140,116,.35)}
+.status-in-use{background:rgba(155,120,224,.16);color:#C9A6E8;border-color:rgba(201,166,232,.4)}
+.status-rejected{background:rgba(184,174,161,.14);color:var(--muted);border-color:var(--rule)}
+
+.card-body{padding:.9rem 1rem 1.1rem;display:flex;flex-direction:column;gap:.5rem;flex:1}
+.card-title{font-size:1.02rem;font-weight:700;line-height:1.3}
+.card-world{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.03em;color:var(--ground);background:var(--wtint,var(--control));border-radius:999px;padding:.15rem .6rem;width:fit-content}
+.card-desc{font-family:var(--sans);font-size:.85rem;color:var(--text);line-height:1.5;margin:0}
+.card-meta{font-family:var(--sans);font-size:.78rem;color:var(--muted);display:flex;flex-direction:column;gap:.2rem;margin-top:auto}
+.card-meta .row2{display:flex;justify-content:space-between;gap:.5rem}
+.tags{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.2rem}
+.tag{font-family:var(--sans);font-size:.68rem;color:var(--muted);background:var(--ground);border:1px solid var(--rule);border-radius:4px;padding:.12rem .45rem}
+.card-links{display:flex;flex-wrap:wrap;gap:.8rem;font-family:var(--sans);font-size:.8rem;font-weight:600;margin-top:.3rem}
+.license-line{font-family:var(--sans);font-size:.76rem;color:var(--muted)}
+.license-line strong{color:var(--text)}
+.details{margin-top:.3rem}
+.details summary{cursor:pointer;font-family:var(--sans);font-size:.78rem;color:var(--action);font-weight:600;list-style:none}
+.details summary::-webkit-details-marker{display:none}
+.details summary::before{content:"+ ";}
+.details[open] summary::before{content:"– ";}
+.details-body{font-family:var(--sans);font-size:.78rem;color:var(--muted);line-height:1.5;margin-top:.5rem;display:flex;flex-direction:column;gap:.35rem}
+.details-body b{color:var(--text)}
+
+.empty-state{font-family:var(--sans);color:var(--muted);text-align:center;padding:3rem 1rem}
+
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted)}
+.site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.5rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.6rem 1.5rem}
+@media print{ .site-header,.controls,.skip-link{display:none} }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="row">
+    <a class="wordmark" href="index.html">Church <em>in</em> Conversation</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="whats-next.html">What's Next</a>
+      <a href="atlas-v3.html">Timeline</a>
+      <a href="support.html">Get Involved</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="page">
+    <section class="hero">
+      <p class="internal-note">Internal — prep work, not live</p>
+      <h1>Image &amp; video resource library</h1>
+      <p>A working catalog of public-domain historical images gathered for the site's seven built worlds, plus general atmosphere shots — tagged and sourced so they can be reviewed and eventually pulled into the site. Nothing here is wired into the live pages yet.</p>
+    </section>
+
+    <p class="stats" id="stats" aria-live="polite"></p>
+
+    <form class="controls" id="controls">
+      <div class="field">
+        <label for="fWorld">World</label>
+        <select id="fWorld"><option value="">All worlds</option></select>
+      </div>
+      <div class="field">
+        <label for="fTag">Tag</label>
+        <select id="fTag"><option value="">All tags</option></select>
+      </div>
+      <div class="field">
+        <label for="fStatus">Status</label>
+        <select id="fStatus"><option value="">All statuses</option></select>
+      </div>
+      <div class="field">
+        <label for="fMedium">Medium</label>
+        <select id="fMedium"><option value="">All media</option></select>
+      </div>
+      <div class="field grow">
+        <label for="fSearch">Search title / description</label>
+        <input type="search" id="fSearch" placeholder="e.g. Jerome, catacomb, council…">
+      </div>
+      <button type="button" class="reset-btn" id="fReset">Reset filters</button>
+    </form>
+
+    <p class="results-count" id="resultsCount" aria-live="polite"></p>
+
+    <div class="grid" id="grid"></div>
+    <p class="empty-state" id="emptyState" hidden>No images match these filters.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="row">
+    <span>&copy; Church in Conversation</span>
+    <span>Sources: Wikimedia Commons · Internet Archive · The Met Open Access · Rijksmuseum · Library of Congress · NYPL · British Library</span>
+  </div>
+</footer>
+
+<script>
+const WORLD_META = {
+  pahc:        { name: 'The Scattered Households',  tint: '#955FF0' },
+  alx:         { name: 'Alexandrian Christianity',  tint: '#3B83BF' },
+  syr:         { name: 'Syriac Christianity',       tint: '#CC5E0A' },
+  desert:      { name: 'Desert Fathers and Mothers',tint: '#128D84' },
+  cappadocian: { name: 'The Cappadocian Churches',  tint: '#C46437' },
+  ijc:         { name: 'Church and Empire',         tint: '#C36060' },
+  hal:         { name: 'The Bethlehem Circle',      tint: '#E23B7F' }
+};
+const GENERAL_META = { name: 'General / Atmosphere', tint: '#8A837C' };
+
+function worldBadge(key) {
+  const m = WORLD_META[key];
+  return m ? { key, name: m.name, tint: m.tint } : null;
+}
+
+function escapeHtml(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+let ALL = [];
+
+function uniqueSorted(arr) {
+  return [...new Set(arr)].filter(Boolean).sort((a, b) => a.localeCompare(b));
+}
+
+function populateSelect(sel, values, labelFn) {
+  values.forEach(v => {
+    const opt = document.createElement('option');
+    opt.value = v;
+    opt.textContent = labelFn ? labelFn(v) : v;
+    sel.appendChild(opt);
+  });
+}
+
+function renderStats(records) {
+  const approved = records.filter(r => r.status === 'approved').length;
+  const withImage = records.filter(r => r.localPath).length;
+  document.getElementById('stats').innerHTML =
+    `<span><strong>${records.length}</strong> total records</span>` +
+    `<span><strong>${approved}</strong> approved</span>` +
+    `<span><strong>${withImage}</strong> downloaded</span>`;
+}
+
+function cardHtml(r) {
+  const badges = (r.worldKeys && r.worldKeys.length ? r.worldKeys.map(worldBadge).filter(Boolean) : [GENERAL_META].map(m => ({ name: m.name, tint: m.tint })));
+  const badgeHtml = badges.map(b => `<span class="card-world" style="--wtint:${b.tint}">${escapeHtml(b.name)}</span>`).join(' ');
+  const statusClass = 'status-' + (r.status || 'candidate').replace(/\s+/g, '-');
+  const thumb = r.localPath
+    ? `<img src="${escapeHtml(r.localPath)}" alt="${escapeHtml(r.title)}" loading="lazy">`
+    : `<div class="no-thumb"><span>Not yet downloaded</span><a href="${escapeHtml(r.sourceUrl)}" target="_blank" rel="noopener">View at source →</a></div>`;
+  const tagsHtml = (r.tags || []).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('');
+  return `
+  <article class="card" data-id="${escapeHtml(r.id)}">
+    <div class="thumb">
+      <span class="status-badge ${statusClass}">${escapeHtml(r.status || 'candidate')}</span>
+      ${thumb}
+    </div>
+    <div class="card-body">
+      ${badgeHtml}
+      <h2 class="card-title">${escapeHtml(r.title)}</h2>
+      <p class="card-desc">${escapeHtml(r.description)}</p>
+      <div class="tags">${tagsHtml}</div>
+      <p class="license-line"><strong>${escapeHtml(r.license || 'unverified')}</strong> · ${escapeHtml(r.repository || '')}</p>
+      <div class="card-links">
+        <a href="${escapeHtml(r.sourceUrl)}" target="_blank" rel="noopener">Source page →</a>
+        ${r.directUrl ? `<a href="${escapeHtml(r.directUrl)}" target="_blank" rel="noopener">Direct file →</a>` : ''}
+      </div>
+      <details class="details">
+        <summary>Full metadata</summary>
+        <div class="details-body">
+          <div><b>ID:</b> ${escapeHtml(r.id)}</div>
+          <div><b>Medium:</b> ${escapeHtml(r.medium || '—')}</div>
+          <div><b>Depicted period:</b> ${escapeHtml(r.depictedPeriod || '—')}</div>
+          <div><b>Artwork date:</b> ${escapeHtml(r.artworkDate || '—')}</div>
+          <div><b>License notes:</b> ${escapeHtml(r.licenseNotes || '—')}</div>
+          <div><b>Local path:</b> ${escapeHtml(r.localPath || '—')}</div>
+          <div><b>Notes:</b> ${escapeHtml(r.notes || '—')}</div>
+        </div>
+      </details>
+    </div>
+  </article>`;
+}
+
+function applyFilters() {
+  const world = document.getElementById('fWorld').value;
+  const tag = document.getElementById('fTag').value;
+  const status = document.getElementById('fStatus').value;
+  const medium = document.getElementById('fMedium').value;
+  const q = document.getElementById('fSearch').value.trim().toLowerCase();
+
+  const filtered = ALL.filter(r => {
+    if (world) {
+      if (world === '__general__') {
+        if (r.worldKeys && r.worldKeys.length) return false;
+      } else if (!(r.worldKeys || []).includes(world)) {
+        return false;
+      }
+    }
+    if (tag && !(r.tags || []).includes(tag)) return false;
+    if (status && r.status !== status) return false;
+    if (medium && r.medium !== medium) return false;
+    if (q) {
+      const hay = (r.title + ' ' + r.description + ' ' + (r.notes || '')).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  const grid = document.getElementById('grid');
+  grid.innerHTML = filtered.map(cardHtml).join('');
+  document.getElementById('emptyState').hidden = filtered.length !== 0;
+  document.getElementById('resultsCount').textContent =
+    `Showing ${filtered.length} of ${ALL.length} records`;
+}
+
+async function init() {
+  const res = await fetch('data/image-library.json');
+  ALL = await res.json();
+
+  const worldSel = document.getElementById('fWorld');
+  const usedWorldKeys = uniqueSorted(ALL.flatMap(r => r.worldKeys || []));
+  usedWorldKeys.forEach(k => {
+    const opt = document.createElement('option');
+    opt.value = k;
+    opt.textContent = (WORLD_META[k] && WORLD_META[k].name) || k;
+    worldSel.appendChild(opt);
+  });
+  if (ALL.some(r => !(r.worldKeys && r.worldKeys.length))) {
+    const opt = document.createElement('option');
+    opt.value = '__general__';
+    opt.textContent = 'General / Atmosphere';
+    worldSel.appendChild(opt);
+  }
+
+  populateSelect(document.getElementById('fTag'), uniqueSorted(ALL.flatMap(r => r.tags || [])));
+  populateSelect(document.getElementById('fStatus'), uniqueSorted(ALL.map(r => r.status)));
+  populateSelect(document.getElementById('fMedium'), uniqueSorted(ALL.map(r => r.medium)));
+
+  renderStats(ALL);
+  applyFilters();
+
+  document.getElementById('controls').addEventListener('input', applyFilters);
+  document.getElementById('controls').addEventListener('change', applyFilters);
+  document.getElementById('fReset').addEventListener('click', () => {
+    document.getElementById('controls').reset();
+    applyFilters();
+  });
+}
+
+init();
+</script>
+</body>
+</html>
