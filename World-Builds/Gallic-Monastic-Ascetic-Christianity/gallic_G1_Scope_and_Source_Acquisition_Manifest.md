@@ -128,11 +128,22 @@ world's own window (Doc_01 §2) — that is a Doc_02-maintenance judgment call, 
 directly and vendored to `cic/texts/`, headers verified by `texts_registry.py`, zero problems.
 The four already-Native rows (Faustus, both Eucherius works, Hilary's Vita Honorati) are also
 now corpus-map assigned to this world (`cic/corpus-map/_staging/`, merged and validated) — see
-the Source Registry's own rows 24–27 for the per-row detail. **Salvian and Germanus are vendored
-but deliberately NOT corpus-map assigned** — their Boundary Check against this world's own
-window is still undecided, per the note above; assigning them to the census bucket now would
-settle that question by default rather than by an actual ecological judgment call. Both texts
-sit in `cic/texts/` unassigned until that call is made.
+the Source Registry's own rows 24–27 for the per-row detail.
+
+**Boundary Check, same day:** Salvian and Constantius's *Vita Germani* both received their
+Boundary Check against Doc_01's own window (Doc_02 §13A, Source Registry rows 43–44), by
+reading the vendored primary texts directly rather than reasoning from the geographic/temporal
+coincidence alone. **Salvian: Native, Documented and corpus-map assigned** — Hilary of Arles's
+own funeral sermon for Honoratus, already vendored in this world's own library, names Salvian
+directly as one of Honoratus's own circle at Lérins, independently corroborated by Gennadius
+(already vendored, row 30). **Constantius's *Vita Germani*: Excluded, Named Comparandum, not
+corpus-map assigned** — no documented connection to Lérins, Honoratus, Cassian, or Vincent was
+found in the text itself (Levison's own Prolegomena plus the edited work); the only real link
+is literary (Constantius modelling his prose on Sulpitius Severus's *Life of Martin*), the same
+kind of borrowed-form relationship this world's own Registry already treats as Excluded (row
+34). The era-and-theme overlap with the grace controversy (Germanus fought Pelagianism in
+Britain) is exactly the kind of plausible-seeming trap the Named Comparandum category exists
+to flag, not evidence he belongs to this world.
 
 ---
 
