@@ -24,8 +24,11 @@ found_sources:
 note: >-
   FOUND AND VENDORED: Bar Hebraeus's Chronicon Ecclesiasticum, Abbeloos-Lamy edition (Louvain:
   Peeters, 1872-1877), Latin translation of the Syriac, all three volumes on archive.org
-  (BarHebraeusChroniconEcclesiasticumVol.1/2/3), each carrying the item's own "Public Domain Mark
-  1.0" licenseurl, uploaded by Roger Pearse 2011-06-11. Volume III (the Eastern Church/Nestorian
+  (BarHebraeusChroniconEcclesiasticumVol.1/2/3), all public domain but not under a single uniform
+  marker: Vol. 2 and Vol. 3 each carry the item's own "Public Domain Mark 1.0" licenseurl
+  (creativecommons.org/publicdomain/mark/1.0/); Vol. 1 carries the older "creativecommons.org
+  /licenses/publicdomain/" declaration instead - still public domain, a different specific
+  license marker. Uploaded by Roger Pearse 2011-06-11. Volume III (the Eastern Church/Nestorian
   Catholicoi section, exactly the material this world's own succession problem needs) vendored as
   cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt. Volumes I-II
   (Western/Antiochene Patriarchs) confirmed equally findable and PD but NOT vendored - outside this

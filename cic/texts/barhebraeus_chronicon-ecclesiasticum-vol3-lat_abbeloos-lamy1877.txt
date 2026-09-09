@@ -1,8 +1,6 @@
      __________________________________________________________________
 
-           Title: Chronicon Ecclesiasticum, Volume III (of 3) - the
-                  Eastern Church section (Nestorian Catholicoi and
-                  Jacobite Maphrians)
+           Title: Chronicon Ecclesiasticum, Volume III (of 3) - the Eastern Church section (Nestorian Catholicoi and Jacobite Maphrians)
       Creator(s): Bar Hebraeus / Gregory Abu'l-Faraj (1226-1286), author
                   Abbeloos, Jean-Baptiste (1836-1906), editor and Latin
                   translator
@@ -18,16 +16,17 @@
                   not independently isolated from the set's range - not
                   guessed as a single year).
           Rights: Public Domain
-    Rights basis: Google Books scan of a library copy, published 1872-
-                  1877 - long out of US copyright by date. The Internet
-                  Archive item's own rights field states "Public Domain
-                  Mark 1.0" (licenseurl: creativecommons.org/publicdomain
-                  /mark/1.0/), read directly from that item's metadata
-                  2026-09-09. This file's own leading Google-Books
-                  boilerplate (retained below, not stripped) independently
-                  states the same: "It has survived long enough for the
-                  copyright to expire and the book to enter the public
-                  domain."
+    Rights basis: published 1872-1877 - long out of US copyright by date.
+                  The Internet Archive item's own rights field states
+                  "Public Domain Mark 1.0" (licenseurl: creativecommons.org
+                  /publicdomain/mark/1.0/), read directly from that item's
+                  metadata 2026-09-09. The item's own metadata carries no
+                  scanner/source/sponsor field confirming a Google Books
+                  origin for this specific scan; the "Google Books scan of
+                  a library copy" description appearing in secondary
+                  discussion of Pearse's archive.org uploads (e.g. his own
+                  blog) is not itself a read fact from this item's metadata
+                  and is not asserted here.
               Source: archive.org/details/BarHebraeusChroniconEcclesiasticumVol.3,
                   uploaded by Roger Pearse (roger.pearse@googlemail.com),
                   2011-06-11; the item's own ABBYY FineReader 8.0 OCR text
@@ -55,11 +54,10 @@
                   quote drawn from a footnote as lower-confidence than one
                   drawn from the main narrative, and verify it against a
                   second source before treating it as settled wording.
-              Provenance note: mechanical extraction only - the file's own
-                  leading Google-Books/Internet-Archive boilerplate is
-                  retained unedited immediately below this header; no
-                  wording in the OCR text itself has been touched, cleaned,
-                  or corrected.
+              Provenance note: mechanical extraction only - the item's own
+                  ABBYY FineReader OCR text layer follows immediately below
+                  this header unedited; no wording in the OCR text itself
+                  has been touched, cleaned, or corrected.
      __________________________________________________________________
 •A 
 

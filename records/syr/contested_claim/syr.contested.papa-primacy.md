@@ -62,3 +62,18 @@ touch the claim's own substance or the Simeon bar Sabbae redating
 dispute, which the newly vendored chronicle cannot itself adjudicate.
 See syr.source.bar-hebraeus-chronicon-ecclesiasticum's own trailing
 note for exactly what was and was not verified.
+
+DIRECT PRIMARY-TEXT SUPPORT for this claim's own `held_against` line
+"Papa's claim to primacy... was fiercely contested in his own
+lifetime": the newly vendored chronicle itself, not only the modern
+secondary literature, corroborates this - entry 11 states of Simeon
+bar Sabbae "Ferunt hunc Simeonem, Papa adhuc vivente, ab episcopis qui
+ab isto recesserant ordinatum fuisse" ("They say this Simeon, while
+Papa was still alive, was ordained by bishops who had withdrawn from
+him") - file line 2062, Latin, per
+syr.source.bar-hebraeus-chronicon-ecclesiasticum. A rival ordination
+proceeding against a sitting primate, while he still lived, is direct
+primary-text evidence of contest in Papa's own lifetime, independent
+of the Miles-of-Susa/Aqib-Alaha synod tradition already cited. Does
+not itself date the episode or resolve the Simeon bar Sabbae redating
+dispute.

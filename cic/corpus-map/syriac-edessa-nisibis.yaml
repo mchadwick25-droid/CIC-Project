@@ -140,6 +140,25 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+- work: Chronicon Ecclesiasticum, Volume III (the Eastern Church / Nestorian Catholicoi section)
+  author: bar-hebraeus
+  locus: Sectio II (npnf-style locus not applicable - vendored as its own file), the Nestorian
+    Catholicoi entries for Papa bar Aggai through Simeon bar Sabbae's martyrdom (file lines
+    ~1670-2250)
+  role: tradition
+  confidence: assigned
+  note: This world's own Persian episcopal-succession dating problem (Doc_02 SS11) previously
+    rested only on Fiey's modern secondary reconstruction of the Chronicle of Seert/Bar Hebraeus
+    tradition, with no directly vendored primary text. Verified findable and public domain
+    (Abbeloos-Lamy, Louvain 1872-1877, archive.org) and vendored. Latin translation of a Syriac
+    original - a second-witness, original-language-adjacent source, never primary evidence
+    for a Representative on its own (this project's evidence language is English). Does NOT
+    resolve the Simeon bar Sabbae dating dispute (341 vs. c. 344) - that rests on modern external
+    argument (regnal-year/astronomical reasoning) the chronicle itself cannot adjudicate;
+    it does let syr.contested.papa-primacy cite the actual primary succession list directly
+    rather than only a secondary encyclopedia. Volumes I-II (Western/Antiochene Patriarchs)
+    not vendored - out of this world's own scope.
+  source_file: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt
 - work: 'Bardesan: The Book of the Laws of Divers Countries'
   author: bardesan
   locus: div2 9.16
@@ -383,6 +402,21 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: The Odes and Psalms of Solomon, published from the Syriac Version (Harris, 2nd ed.
+    1911)
+  author: odes-of-solomon
+  locus: the English translation-with-commentary section, file lines 6520 onward
+  role: tradition
+  confidence: assigned
+  note: 'Closes this world''s own long-open acquisition request (syr.search.odes-of-solomon-pd):
+    syr.source.odes-of-solomon already named this exact edition (Harris, 1909/1911) as its
+    expected public-domain English text; verified findable on archive.org (cu31924029308677,
+    Cornell University Library scan, "no known copyright restrictions") and vendored. Native/Contested
+    per the cleared Doc_02 - nothing load-bearing rests on the Odes. A verified quote record
+    was NOT produced this session - the English section''s OCR needs verse-by-verse reconstruction
+    before any specific wording should be treated as verified-direct; flagged as real follow-up
+    work in syr.source.odes-of-solomon''s own trailing note.'
+  source_file: harris_odes-and-psalms-of-solomon_harris1911.txt
 - work: The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)
   author: palladius
   locus: Chapter lviij - the angelic roll, the famine relief, and the vine growing from his
@@ -529,48 +563,3 @@ works:
     was a region-and-era guess rather than demonstrated Edessene provenance. Custody is the
     honest claim.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Chronicon Ecclesiasticum, Volume III (the Eastern Church / Nestorian Catholicoi section)
-  author: bar-hebraeus
-  locus: "Sectio II (npnf-style locus not applicable - vendored as its own file), the Nestorian
-    Catholicoi entries for Papa bar Aggai through Simeon bar Sabbae's martyrdom (file lines
-    ~1670-2250)"
-  role: tradition
-  confidence: needs-ruling
-  note: 'NEEDS-RULING REASON (not a guess, per this map''s own checker instruction): the author
-    slug ''bar-hebraeus'' is not yet in cic/texts/AUTHORS.md, which is generated only from
-    CCEL-XML files'' own <DC.Creator> markup - this is this corpus''s first plain-text-vendored
-    (non-CCEL) named author, so the automatic index has no way to have seen it yet. The author
-    is real, well-attested, and not anonymous or pseudonymous (Bar Hebraeus / Gregory Abu''l-
-    Faraj, 1226-1286); this is a mechanical index-coverage gap, not an attribution dispute -
-    flagged rather than silently marked ''assigned'' against a check this file cannot pass by
-    construction. Acquired 2026-09-09 to answer a genuine open acquisition question: this world''s own
-    Persian episcopal-succession dating problem (Doc_02 SS11) previously rested only on Fiey''s
-    modern secondary reconstruction of the Chronicle of Seert/Bar Hebraeus tradition, with no
-    directly vendored primary text. Verified findable and public domain (Abbeloos-Lamy, Louvain
-    1872-1877, archive.org, licenseurl public-domain-mark) and vendored. Latin translation of a
-    Syriac original - a second-witness, original-language-adjacent source, never primary evidence
-    for a Representative on its own (this project''s evidence language is English). Does NOT
-    resolve the Simeon bar Sabbae dating dispute (341 vs. c. 344) - that rests on modern external
-    argument (regnal-year/astronomical reasoning) the chronicle itself cannot adjudicate; it does
-    let syr.contested.papa-primacy cite the actual primary succession list directly rather than
-    only a secondary encyclopedia. Volumes I-II (Western/Antiochene Patriarchs) not vendored - out
-    of this world''s own scope.'
-  source_file: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt
-- work: The Odes and Psalms of Solomon, published from the Syriac Version (Harris, 2nd ed. 1911)
-  author: odes-of-solomon
-  locus: "the English translation-with-commentary section, file lines 6520 onward"
-  role: tradition
-  confidence: needs-ruling
-  note: 'NEEDS-RULING REASON: author slug ''odes-of-solomon'' (the Odes'' own authorship is
-    anonymous/disputed - see syr.source.odes-of-solomon''s own attribution_status) is not in
-    cic/texts/AUTHORS.md for the same mechanical reason as the Bar Hebraeus row above - this file
-    is plain-text-vendored, not CCEL-XML, so the auto-generated index has never seen it. Acquired
-    2026-09-09, closing this world''s own long-open acquisition request (syr.search.odes-of-
-    solomon-pd): syr.source.odes-of-solomon already named this exact edition (Harris, 1909/1911)
-    as its expected public-domain English text; verified findable on archive.org
-    (cu31924029308677, Cornell University Library scan, "no known copyright restrictions") and
-    vendored. Native/Contested per the cleared Doc_02 - nothing load-bearing rests on the Odes.
-    A verified quote record was NOT produced this session - the English section''s OCR needs
-    verse-by-verse reconstruction before any specific wording should be treated as verified-direct;
-    flagged as real follow-up work in syr.source.odes-of-solomon''s own trailing note.'
-  source_file: harris_odes-and-psalms-of-solomon_harris1911.txt

@@ -141,8 +141,8 @@ worlds:
     state: admitted
     census_id: "syriac-edessa-nisibis"
     package:
-      manifest_hash: "sha256:025cb1817ca5aea6bdf4b81c5d3e029806dbb516d7a82579f51a690cd4348f16"
-      location: "packages/syr/2026-09-04T18-49-01Z"
+      manifest_hash: "sha256:41741382dcf0a02ee347bc0f6f03c959c32a0884738edb8fc82793188948e44e"
+      location: "packages/syr/2026-09-09T13-03-03Z"
     thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
     living_tradition_flag: true
   ijc:

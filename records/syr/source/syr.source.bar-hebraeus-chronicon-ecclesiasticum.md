@@ -81,6 +81,26 @@ individually verified against the Latin locus by locus; a future pass
 citing those later entries should re-verify each against this file
 directly rather than assuming the pattern holds.
 
+RAW OCR, DISCLOSED PLAINLY (matching the same scrupulousness this
+commit applies to the Odes of Solomon's OCR disclosure): the three
+Latin fragments quoted above are silently normalized from the file's
+own visible OCR text, which carries recognizable errors. As they
+actually appear at the cited lines: "Post Papam Simeon Barsabob...
+ejus discipulus" is OCR'd at file line 2059-2060 as "11 .Po5i Fapam
+Simeon Barsabob 9 , * / ejus discipulus." ("Po5i" for "Post," "Fapam"
+for "Papam," a stray "9" and "*"). "Officio functus est Simeon
+tredecim annos" is OCR'd at line 2183 essentially as printed, only
+split across the page's own line-wrap ("Officio functus est Simeon
+tredecim / annos"). "Episcopi quatuor ac nonaginta novem presbyteri,
+diaconi et fideles" is OCR'd at lines 2166-2167 as "copi quatuor 1 ac
+nonaginta novem / presbyteri, diaconi et fideles" - the leading
+"epis-" is lost across a page/column break (with a stray footnote
+marker "1" inserted) and has been silently restored here from the
+word's own unambiguous continuation; no other correction was made.
+None of this changes the substance of what any fragment says; it is
+disclosed so a future verification pass checks the file's own OCR
+directly rather than trusting this record's normalized wording.
+
 WHAT THIS DOES NOT DO. Bar Hebraeus writes nine centuries after these
 events, compiling earlier (largely lost) sources; nothing here upgrades
 this succession from "chronicle-derived and hagiographically inflected"
