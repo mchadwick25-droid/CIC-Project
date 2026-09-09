@@ -413,6 +413,23 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- work: Canonical Epistle
+  author: gregory_thau
+  locus: div3 under 3.3 'Acknowledged Writings'
+  role: tradition
+  confidence: provisional
+  note: 'Added 2026-09-09. A second row rather than an extra atlas_id on the row above, matching
+    the shape this file already uses for The Oration and Panegyric Addressed to Origen: the
+    two assignments carry different confidences and a single row cannot. Provisional for the
+    same reason both sibling Thaumaturgus rows give - he predates the Cappadocian entry''s
+    360-380s range by a century, and there is no census entry for 3rd-c. Pontus itself. The
+    Cappadocians inherited these penitential canons as their own regional disciplinary practice:
+    this world''s Doc_02 SS1.6 names the Canonical Epistle as Documented and its Source Registry
+    row 66 already carries it, and Basil appeals to the Thaumaturgan inheritance explicitly.
+    This world already holds the volume''s two other Thaumaturgus works; this one was the
+    gap. Kept alongside the anatolian-church-third-century row, not moved - non-exclusive
+    by default per the corpus-map README. '
+  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: The Oration and Panegyric Addressed to Origen
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'

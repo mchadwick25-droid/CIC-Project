@@ -50,9 +50,17 @@ than the NPNF translator's own ("the passages in brackets are Newman's version,"
 letter's own prefatory note) - a translation fact, not an authenticity one, since the whole letter is
 printed here and is Basil's.
 
-A THIRD PASSAGE THIS ROW DID NOT NAME. Epistle 210 (id ix.ccxi, "To the notables of Neocaesarea") also
-says "here I was brought up by my grandmother," and the volume's own biographical prolegomena cites
-Epp. 204 and 210 together for Basil's upbringing under her. Doc_02 SS1.4 names only 204 and 223. The
-third passage is thinner than either - it establishes the upbringing but not the transmission of
-Thaumaturgus' teaching, which is the part that makes this datum load-bearing - so the row's citation is
-extended to name it rather than rewritten around it.
+A THIRD PASSAGE THIS ROW DID NOT NAME, and it is stronger than a first reading suggested. Epistle 210
+(id ix.ccxi, "To the notables of Neocaesarea") carries both halves of the datum, separately. Its section
+2 has the upbringing - "here I was brought up by my grandmother," with the volume's own endnote
+supplying "Macrina, at her residence at Annesi." Its section 3 independently carries the Thaumaturgan
+transmission, and states it as sharply as anywhere in the corpus: the movement at Neocaesarea is
+disloyal "to the tradition of Gregory the truly great, and of his successors up to the blessed
+Musonius, whose teaching is still ringing in your ears" (the volume's endnotes identify Gregory as
+Thaumaturgus and Musonius as the bishop of Neocaesarea who died in 368), followed by a discussion of
+Gregory's own statement of faith that cross-refers to Epistle 204 itself. What Epistle 210 does NOT do
+is join the two: Macrina is not named as the link in the chain there. That join is what makes the datum
+load-bearing, and it is Epistle 204's alone - so the row's citation is extended to name 210 as a real
+third witness on both axes rather than dismissed as merely thinner. The volume's biographical
+prolegomena (endnote 21) cites three letters together for Basil's upbringing under her, not two:
+"Epp. cciv., ccx., ccxxiii." 

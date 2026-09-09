@@ -25,16 +25,27 @@ confidence:
 sources: []
 relations: []
 author: The Roman imperial chancery under Theodosius I (collective/anonymous legal act)
-work: The imperial communion law of 381 (Codex Theodosianus 16.1.3, 30 July 381), naming Helladius, Otreius,
-  Gregory of Nyssa, and Amphilochius
+work: >-
+  The imperial communion law of 381 (Codex Theodosianus 16.1.3, 30 July 381), naming eleven eastern
+  bishops whose communion is the test of catholicity -- among them four of this world's own circle
+  (Amphilochius of Iconium; Helladius of Caesarea, Otreius of Melitene, Gregory of Nyssa)
 edition: >-
-  The Pharr 1952 English translation is copyrighted and excluded (row 80). The Latin text is
-  public domain and was read directly 2026-09-09 in two independent witnesses -- Mommsen-Meyer 1905
-  (Theodosiani libri XVI, book 16, at "XVI, 1, 3 (381 Iul. 30)", with its apparatus) and the Latin
-  Library's plain text of the Code (at the label "CTh.16.1.3"). Both carry the identical clause and the
-  identical bishop list. Neither file is in cic/texts/ on this repository's default branch: both exist
-  only on the unmerged branch donatism-lpc-integration, vendored there for other worlds, which is where
-  they were read from
+  The Pharr 1952 English translation is copyrighted and excluded (row 80). The Latin text is public
+  domain and was read directly 2026-09-09 in two witnesses -- Mommsen-Meyer 1905 (Theodosiani libri XVI,
+  Weidmann, scanned; book 16 at the rubric "XVI, 1, 3 (381 Iul. 30)", with its apparatus) and The Latin
+  Library's plain text of the Code (at the label "CTh.16.1.3"). They agree on every substantive word and
+  on all eleven names, and Boyd 1905 (p. 46 n. 1) lists the same eleven independently in English.
+  THREE CAVEATS ON THOSE WITNESSES, since neither file's own vendoring note is flattering. The Latin
+  Library file's header states that its edition is "NOT STATED by the source site," that its wording
+  "should be treated as Confidence C pending independent line-level comparison against the Mommsen/Meyer
+  edition," and that one should "not rely on this file alone for a claim that turns on a constitution's
+  exact wording, date, or textual variant." The Mommsen-Meyer file is a scan whose OCR is poor in this
+  passage (it prints "sanctom", "&cientes", "conunemoratio", "pxaecepti"), so its critical apparatus in
+  particular is not reliably legible, though the constitution's own text is. And they may not be fully
+  independent: the Latin Library file's own note observes that its embedded cross-references suggest
+  descent from an edition using Mommsen's numbering. What this supports is therefore the clause's
+  substance and its bishop list, which three witnesses agree on; it is not a basis for any claim turning
+  on an exact variant reading
 rights_status: >-
   public-domain (the Latin text; the Pharr English translation is separately in-copyright
   and excluded, row 80). Independently verified 2026-09-09 by direct reading, but STILL NOT ACQUIRED
@@ -49,7 +60,7 @@ discovery_channel: >-
   content 2026-09-09, in the two Latin witnesses named under edition, as part of a verification pass on a
   discovery-sweep finding that proposed this law as possible structural evidence for Doc_04. The law's
   text was read in full before that structural question was answered; see this world's own build ledger
-  for the answer (supplemental, not structural) and its reasoning.
+  for the answer and its reasoning, including the downgrade question the first draft failed to ask.
 external_ids:
   cappadocian_source_registry_row: 79
 ---
@@ -70,7 +81,18 @@ WHY THIS IS CORROBORATION AND NOT NEW STRUCTURAL EVIDENCE. This law was never un
 already carried at Doc_01 SS4a, Doc_02 SS2/SS7/SS9, Source Registry row 79, and Doc_04's own forces
 notation for the situational gravity (the settlement that wins the fight and thereby ends the world's
 militancy). Reading the Latin makes the citation firmer; it does not introduce a force the build had not
-seen. The one genuinely new evidential use is narrower and belongs elsewhere: because the list is an
-imperial chancery document rather than a text this world's own circle wrote, it is external, non-circle
-attestation that two of this world's primary voices held recognized authority -- which bears on Doc_04's
-standing Open Item 2 (the circle-versus-world exposure), not on Gravity 3's classification.
+seen. There is one genuinely new evidential fact, and it is worth stating carefully because an earlier
+draft of this record overclaimed it. Because the list is an imperial chancery document rather than a
+text this world's own circle wrote, it is external, non-circle attestation that four of this world's own
+men -- two of them primary voices -- held publicly recognized authority in their own lifetimes.
+
+WHAT THAT IS NOT. It is not progress against Doc_04's standing Open Item 2, the circle-versus-world
+exposure, and this record no longer claims that it is. That exposure is a REPRESENTATIVENESS problem --
+whether the circle's surviving record stands for the world beyond the circle -- and an imperial list
+naming four circle members confirms only that the circle was prominent, which the exposure already
+presupposes. If anything it tightens the exposure rather than relieving it: a group written into the
+empire's own communion test is exactly the kind of unusually well-placed group whose surviving record is
+least likely to be representative of the plateau. Open Item 2 also names Gravities 6 and 8 as where the
+exposure bites hardest, and this law bears on neither. What the attestation is genuinely good for is
+narrower and still worth having: external confirmation of the circle's public standing, from outside the
+circle's own record.
