@@ -499,6 +499,23 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- work: S. Aureli Augustini Epistulae, Pars IV (Epistulae CLXXXV-CCLXX)
+  author: augustine
+  locus: whole text; Goldbacher's own EPISTVLA numbering runs continuously CLXXXV-CCLXX
+  role: tradition
+  confidence: assigned
+  note: 'The Latin original of the same letters already assigned to lpc from the vendored
+    NPNF translation (npnf101), covering letters 185-270 - including Letter 185 itself (Registry
+    row 12, "The Correction of the Donatists"), the very first letter in this file''s own
+    range. Only Pars IV of Goldbacher''s five-part edition; CSEL 34/1, 34/2, 44, and 58 remain
+    unacquired. Second-witness caveat applies per cic/texts/INTAKE.md: never primary evidence
+    for a Representative on its own, only for cross-checking a specific reading against the
+    vendored NPNF translation. OCR quality uneven - see the file''s own header for a quantified
+    apparatus-corruption assessment; apparatus- level claims specifically need independent
+    verification.
+
+    '
+  source_file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
 - work: Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)
   author: augustine
   locus: div1 7 — Sermons on Selected Lessons of the New Testament; a series of ~97 sermons
@@ -717,6 +734,25 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: S. Thasci Caecili Cypriani Opera omnia (Hartel's critical edition, CSEL 3, Pars I-II)
+  author: cyprian
+  locus: whole text; Pars I ends at the Sententiae Episcoporum, Pars II runs Epistulae I-LXXXI
+    - see the file's own title-page and EPISTVLA headers for addressing a specific treatise
+    or letter
+  role: tradition
+  confidence: assigned
+  note: 'The Latin original behind the already-vendored ANF05 English translation''s own Cyprian
+    works (rows 1-7 and others in this bucket, all sourced from anf05_hippolytus-cyprian-caius-novatian.xml)
+    - not a new voice, the same tradition''s own words in the language Cyprian actually wrote
+    them in. ANF05 itself follows Migne''s text, not Hartel''s, so this is also an independent
+    critical check on that translation''s own base text, not merely a duplicate. Does not
+    cover CSEL 3 Pars III (spuria/indices) - not yet acquired. Second-witness caveat applies
+    per cic/texts/INTAKE.md: legitimate for cross-checking a specific reading against the
+    vendored English translation a world''s own source record actually cites, never primary
+    evidence for a Representative on its own.
+
+    '
+  source_file: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
 - work: The Epistles of Cyprian
   author: cyprian
   locus: 'div2 4.4 - 82 epistles, assigned as one body (includes letters TO Cyprian: Roman
@@ -813,3 +849,35 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: Sancti Augustini Vita (Life of Augustine)
+  author: possidius
+  locus: whole text -- Weiskotten's own chapter numbering (i-xxxi) runs through both the Latin
+    and the facing English translation
+  role: tradition
+  confidence: assigned
+  note: 'Augustine''s own companion for decades, and the Augustine-side counterpart to Pontius''s
+    already-vendored Life of Cyprian (this same bucket, anf05) -- closes the one-sided formation-narrative
+    gap this world''s own Doc_02 names, and is the underlying source, via NPNF''s own editorial
+    apparatus, for the Megalius/primate-of-Numidia identification Doc_01 discloses as resting
+    on an unvendored work until now. Bilingual edition; the English translation is primary
+    evidence in the ordinary sense, the accompanying Latin text and apparatus are useful for
+    checking a specific reading against it.
+
+    '
+  source_file: possidius_vita-augustini_weiskotten1919.txt
+- work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
+  author: theodosian-code-compilers
+  locus: whole text; not divided by book/title in this entry — see the file's own CTh.<book>.<title>.<law>
+    headings for addressing a specific constitution
+  role: context
+  confidence: provisional
+  note: 'The imperial legal apparatus this tradition''s own pastoral life operated under,
+    not this tradition''s own voice. Source_Registry.md row 44 names the specific reason this
+    world holds it: the underlying statute behind the Theodosian-law fine Augustine''s own
+    Letter 185 SS25 cites (already role: tradition here, npnf101). Not currently drawn on
+    directly for a specific claim — the exact CTh provision behind that fine reference has
+    not been independently pinned down against this file''s own text this session, disclosed
+    rather than guessed. Provisional pending that check.
+
+    '
+  source_file: codex-theodosianus_latinlibrary.txt
