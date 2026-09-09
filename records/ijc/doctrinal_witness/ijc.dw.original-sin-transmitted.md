@@ -17,10 +17,6 @@ sources:
 - source_id: ijc.source.leo-letters
   locus: Ep. LIX.4 (to the clergy and people of Constantinople)
   license: public-domain
-retrieval:
-  tier: 1
-  retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   You ask whether we thought people were born already guilty. Yes - and our
   own record says so in plain words, in a letter written against a different

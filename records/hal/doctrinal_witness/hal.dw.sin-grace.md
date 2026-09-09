@@ -20,10 +20,6 @@ sources:
 - source_id: hal.source.jerome-ep107
   locus: secs. 4-7 (a child raised toward baptism and consecration)
   license: public-domain
-retrieval:
-  tier: 1
-  retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Were people born already guilty? Our last great argument came close
   to that ground. Against those who taught that a person can live without sin,
