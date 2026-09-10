@@ -53,6 +53,17 @@ Notes, decision logs, audit trails, adversarial-review rounds, status reports, a
 - Every known gap, open question, or review outcome belongs in that world's `Open_Gaps_Tracking.md` — never left to live only in a conversation thread. Entries are append-only and numbered; a merged entry's number never changes, and cross-references cite subject + date, not a bare number.
 - Every known fleet-level defect that isn't being fixed right now must be registered as an `ACCEPTED_OPEN` waiver with its owning finding. An unlisted defect is new drift and fails the run; a stale waiver for something already fixed also fails — remove it.
 
+## Scaling the build — many worlds, mostly autonomous
+
+The build-cycle discipline already self-governs: escalation is limited to four categories (Representative identity/title decisions, portfolio-level/cross-world decisions, governance/methodology changes, and unresolved tensions the pipeline can't close on its own) plus never self-assigning Frozen status. Use that as designed, instead of re-approving every document by hand:
+
+- Kick off a build end-to-end per world — "build [World] end-to-end per cic-build-cycle discipline; self-govern per its own rules; stop only for an escalation category or a missing input" — rather than one document at a time. Most of a world's build should run without a reply from the project lead at all.
+- Run multiple worlds concurrently as separate sessions, each kicked off the same way, rather than serially in one thread. This is parallel human-supervised sessions, not automated multi-agent orchestration — scale the number running at once up as it proves out.
+- Generate a world's `Source_Acquisition_Manifest.md` as the first step, ideally for a batch of upcoming worlds at once, so source downloads happen in one bulk pass instead of interrupting a build mid-stream. (The sandbox currently blocks the patristic text hosts outright — regardless of whether a given text is actually scarce — so nearly every world hits this at Doc_02; widening that network policy is a live open item.)
+- Representative identity and image are decided together, once, as a single packaged choice among 2–4 named candidates with trade-offs (per `Representative_Construction_Notes_Template.md`) — never open-ended, never split across two separate interruptions.
+- Doc_02 (Source Ecology) and Doc_04 (Gravity Discovery) are this project's clearest instances of the "complex design and research" framing work described under Fable, above — the strategic classification the rest of a world's build depends on.
+- Track fleet-wide build status in `Ministry/Operations/World_Build_Queue.md` (queued / drafting / blocked-source / blocked-identity / blocked-escalation / complete) — separate from `records/worlds.yaml`'s own governed admission ledger, which only reflects a world after it's already built.
+
 ## Usage/credit discipline
 
 Weekly usage credits keep running out. To fix that without losing quality (and without touching anything above this line). This is a Max-200 plan; context-window management matters at least as much as model choice — a bloated context costs more than a clean one regardless of tier:
