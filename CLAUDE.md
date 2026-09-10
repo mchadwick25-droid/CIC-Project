@@ -57,6 +57,7 @@ Notes, decision logs, audit trails, adversarial-review rounds, status reports, a
 
 Weekly usage credits keep running out. To fix that without losing quality (and without touching anything above this line):
 
+- Fable is reserved for complex design and research — the strategic thinking that sets the frame for everything downstream (system/front-end redesign proposals, comparative source-ecology and world-strategy research, org/funding strategy). Use it where getting the frame right the first time avoids many cheaper rounds of rework later, not for routine drafting or anything that repeats.
 - Opus is for the final adversarial-review gate only. Draft and do intermediate revision rounds with Sonnet.
 - From round 2 onward, do a targeted recheck (only what changed, against prior findings) instead of a full re-review from scratch.
 - Push mechanical work — package rebuilds, citation/log fixes, formatting, indexing — to Haiku.
