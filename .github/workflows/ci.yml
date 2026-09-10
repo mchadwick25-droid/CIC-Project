@@ -37,6 +37,17 @@ jobs:
   # commits outside every filtered path (docs, decision logs, worksheet
   # updates, cic-website copy that isn't the census file) skip the suite
   # entirely now.
+  #
+  # Every filter below also matches .github/workflows/** - deliberately: a
+  # change to this file that touched only the workflow itself would
+  # otherwise satisfy none of the path categories below and skip every
+  # downstream job, which is wrong twice over. First, a workflow-file
+  # change is exactly the kind of change that most needs the suite it
+  # edits to actually run, to prove the edit didn't break anything.
+  # Second, main is branch-protected (discovered 2026-09-10, not set by
+  # this change) requiring "11 of 11" status checks before merge - a PR
+  # that could only ever produce skipped checks for its own file would be
+  # permanently unmergeable, which is worse than merely wasteful.
   changes:
     name: Detect changed paths
     runs-on: ubuntu-latest
@@ -55,11 +66,14 @@ jobs:
               - 'records/**'
               - 'packages/**'
               - 'fixtures/**'
+              - '.github/workflows/**'
             frontend:
               - 'cic-poc/frontend/**'
+              - '.github/workflows/**'
             census:
               - 'cic-website/data/world-census.json'
               - 'Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs'
+              - '.github/workflows/**'
 
   # Two jobs were removed 2026-08-24: "Repository views current (all six
   # worlds)" (cic-poc/backend) and "Frontend build (tsc + vite build)"
