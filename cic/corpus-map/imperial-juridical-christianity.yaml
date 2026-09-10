@@ -502,6 +502,35 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- work: Ecclesiastical History (surviving only as Photius' Epitome)
+  author: philostorgius
+  locus: whole file - esp. Books IV-V (Rimini/Seleucia 359, Constantinople 360, the depositions
+    under Constantius II)
+  role: context
+  confidence: assigned
+  note: 'Added 2026-09-09 on Mark''s ruling, after a post-admission source check found this
+    volume had never been considered for ijc at all (records/ijc had zero mentions of it).
+    A non-Nicene narrative of exactly ijc''s own contested imperial-doctrinal decades: Books
+    IV-V carry Rimini and Seleucia, the coerced subscriptions at Constantinople in 360, and
+    bishops deposed and restored at the emperor''s will - ijc''s central question stated from
+    outside the tradition that won it. The nearest precedent is Athanasius'' Historia Arianorum,
+    assigned to ijc "because its central question (''what has the emperor to do with the church?'')
+    is the ijc world''s own problem stated by its sharpest opponent."
+
+    ROLE IS A JUDGMENT CALL, recorded as one rather than asserted. That Athanasius row carries
+    role: tradition for ijc, and this one does not follow it: Athanasius is arguably native
+    to ijc''s own story, while Philostorgius plainly is not - he is Eunomian, and ijc is the
+    Nicene-imperial establishment. Calling him this world''s own voice would repeat the exact
+    conflation the finding behind this row argues against. context per SS4/SS6.1b''s four-way
+    definition, same reading as the cappadocian row above.
+
+    DOES NOT close ijc''s named Homoian self-testimony thinness (Doc_02 sec 7), and must not
+    be used as if it did - Anomoean is not Homoian, a distinction this repo already ruled
+    on 2026-08-26, and at IV.12 Philostorgius'' own party is coerced into subscribing the
+    Homoian formula. Full reasoning at records/ijc/search_record/ijc.search.philostorgius-homoian-fit.md.
+
+    '
+  source_file: philostorgius_ecclesiastical-history_walford1855.txt
 - work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — Books I-VII, 305-439
@@ -590,3 +619,31 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- work: Theodosiani Libri XVI (Book 16, critical Latin text)
+  author: theodosian-code
+  locus: as above
+  role: tradition
+  confidence: provisional
+  note: 'Same dual-assignment logic already applied to the Optatus Appendix of Documents for
+    this pair of entries: imperial legislation on the church is imperial-juridical-christianity''s
+    own subject matter, so tradition rather than context there. Provisional pending that entry''s
+    own confirmation, the same caveat the Appendix entry already carries.
+
+    '
+  source_file: theodosianus-16_mommsen-meyer1905.txt
+- work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
+  author: theodosian-code-compilers
+  locus: whole text
+  role: context
+  confidence: needs-ruling
+  note: 'Named on fit alone, not evidence — this world''s own name and evident subject (imperial
+    law and Christianity) make it an obvious candidate, but this staging entry was written
+    from lpc''s own build thread, which has not read that world''s own Doc_01/Doc_02 boundary
+    and cannot argue whether CTh is that entry''s own `context` (external legal apparatus
+    acting on a tradition) or `tradition` (the entry''s own native voice, if the entry''s
+    own subject IS the imperial legal apparatus itself). Flagged per corpus-map''s own non-exclusivity
+    principle — better named and left for a ruling than silently omitted because the assigning
+    thread lacked standing to decide it.
+
+    '
+  source_file: codex-theodosianus_latinlibrary.txt

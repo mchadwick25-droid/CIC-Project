@@ -60,6 +60,16 @@ function consumeDeepLink() {
   if (window.location.search) window.history.replaceState({}, '', window.location.pathname);
 }
 
+/** Order-insensitive set equality for comparing a Table deep link's seats
+ * against what's stored - reseating the same participants isn't a new
+ * request, but a different lineup is. */
+function sameSeats(a: string[], b: string[]): boolean {
+  if (a.length !== b.length) return false;
+  const sortedA = [...a].sort();
+  const sortedB = [...b].sort();
+  return sortedA.every((key, i) => key === sortedB[i]);
+}
+
 function App() {
   const conversation = useConversation();
   const table = useTable();
@@ -86,6 +96,10 @@ function App() {
     deepLinkFired.current = true;
     const stored = readStored();
     const deepLink = parseDeepLink();
+    const linked = deepLink.censusIds
+      .map((id) => findWorldByCensusId(worlds, id))
+      .filter((w): w is NonNullable<typeof w> => w !== undefined)
+      .map((w) => w.worldKey);
     // A fresh deep link explicitly asking for a DIFFERENT mode than
     // whatever's left over in this tab's storage is the participant
     // choosing to start something new (2026-09-05 live bug, Mark hit it
@@ -100,7 +114,21 @@ function App() {
     // conflicting params and resumes exactly as before.
     const hasExplicitDeepLink = deepLink.censusIds.length > 0 || new URLSearchParams(window.location.search).has('mode');
     const storedModeConflicts = hasExplicitDeepLink && stored !== null && deepLink.mode !== stored.mode;
-    const resume = storedModeConflicts
+    // A SAME-mode deep link naming a different world (interview) or a
+    // different lineup (table) than what's stored is just as much a fresh
+    // request as a mode switch - the check above only ever looked at mode
+    // (2026-09-09 live bug, Mark hit it directly: back out of an interview
+    // with one voice, click a different voice - both land on mode:
+    // 'interview', so nothing noticed the world itself had changed, and the
+    // OLD interview resumed instead of the newly-picked one starting).
+    const storedWorldConflicts =
+      !storedModeConflicts &&
+      hasExplicitDeepLink &&
+      stored !== null &&
+      deepLink.mode === stored.mode &&
+      linked.length > 0 &&
+      (stored.mode === 'table' ? !sameSeats(linked.slice(0, 3), stored.worldKeys ?? []) : linked[0] !== stored.worldKey);
+    const resume = storedModeConflicts || storedWorldConflicts
       ? Promise.resolve(null)
       : stored?.mode === 'table'
         ? table.rehydrate().then((keys) => (keys ? 'table' : null))
@@ -117,10 +145,6 @@ function App() {
         return;
       }
       const { censusIds, mode } = deepLink;
-      const linked = censusIds
-        .map((id) => findWorldByCensusId(worlds, id))
-        .filter((w): w is NonNullable<typeof w> => w !== undefined)
-        .map((w) => w.worldKey);
       if (mode === 'table') {
         const uniqueLinked = [...new Set(linked)].slice(0, 3);
         if (uniqueLinked.length >= 2) {

@@ -18,7 +18,15 @@ sources:
   locus: whole work
   license: public-domain
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: VII.24
+  locus: >-
+    VI.8 (Demetrius condemning Origen's ordination - "Demetrius... wrote of his deed as most
+    foolish to the bishops throughout the world" and later "accused him bitterly" over the
+    ordination)
+  license: public-domain
+- source_id: alx.source.eusebius-historia-ecclesiastica
+  locus: >-
+    VII.24 (Nepos and the Arsinoite dispute; this file's own text separately cites Dionysius
+    settling the Arsinoite dispute)
   license: public-domain
 retrieval:
   tier: 1

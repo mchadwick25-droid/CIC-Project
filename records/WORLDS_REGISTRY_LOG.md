@@ -216,6 +216,92 @@ grandsons-before-domitian +C-E, didache-eucharist +C-I, eucharistia +C-I,
 pliny-interrogation +C-T; C-P deliberately left empty (nothing genuinely
 belongs). **BAR SWEEP**, 2026-08-30, same standard as alx.
 
+**G05 SUPPLEMENTAL SOURCE INTEGRATION**, 2026-09-09 (read-only discovery
+pass flagged G05/boundary-drawing as resting on Ignatius alone despite two
+already-vendored, already-compiled sources - `pahc.source.second-third-
+century-remains` [Melito of Sardis] and `pahc.source.anti-montanist-
+fragments` - never having been checked against it). Verified both directly
+against the vendored texts before touching anything. Added both as
+`sources[]` on `pahc.gravity.boundary-drawing.md` with two new illustrating
+quote records: `pahc.quote.melito-no-phantom` (Melito's Fragment VII, "On
+the Nature of Christ" - makes the same anti-docetic argument as Ignatius,
+but flagged rather than counted as resolving Repetition, since it survives
+only via Anastasius of Sinai, 7th c., not Eusebius as most of this
+fragment collection does) and `pahc.quote.asia-rejected-new-prophecy`
+(the anti-Montanist fragment's account of Asia's bishops synodically
+rejecting the New Prophecy - a genuine independent primary-voice witness
+to a *different* named contemporary rival, corroborating the gravity's
+broader title-level claim without touching the anti-docetic-specific
+Repetition score). Classification unchanged (Tensional); Doc_04's own
+six-test findings not re-argued, only added to, per this project's own
+build-cycle discipline. No escalation category applied (not an identity
+decision, not portfolio-level, not governance, no unresolved
+cross-review tension) - disposed of by the build thread itself.
+
+Independent adversarial review (`Review-Artifacts-Records-Build/
+Step5_G05_Supplemental_Source_Review_Round1.md`): SUBSTANTIAL REVISION
+REQUIRED, narrow - two locus/line-number errors (Melito's cited range
+covered only half the quotation; the anti-Montanist locus was off by
+three lines) and one silently-altered punctuation mark (a colon typed as
+a dash inside a `verified-direct` quote - traced to a YAML plain-scalar
+constraint, not a deliberate change) - all landed at round 2, self-
+verified directly against the vendored files (this project's own Step 5
+precedent for narrow, mechanical fixes). A further available-but-unused
+witness (Apollonius's own anti-Montanist fragments, same source record)
+was disclosed in that source record's own "NOT DRAWN ON" list rather
+than built out, to keep this pass narrow, per the reviewer's own
+recommendation. Two cosmetic findings landed (rounding fixes); two
+logged and deliberately deferred, not dropped: the anti-Montanist
+fragments have no corpus-map row in `post-apostolic-house-church.yaml`
+(their only corpus-map presence is in the unrelated `montanism-the-new-
+prophecy.yaml`) - confirmed non-blocking (outside the compile path, not
+a `gates.run_all` gate) but a real bookkeeping gap for a future pass;
+and a one-clause "primary-in-content vs. direct-in-transmission" gloss
+for the anti-Montanist quote's `modern_lens_note`, left at the drafter's
+discretion.
+
+Full `engine.m1.gates.run_all` battery clean both before and after the
+round-2 fixes, aside from the two pre-existing, deliberately-untouched
+`enslaved-voices`/`womens-own-words` reciprocity findings documented
+above (2026-09-01 schema-gap recompile) and in
+`World-Builds/Cappadocian/CAPPADOCIAN_BUILD_LEDGER.md`.
+`world-build-docs/pahc/GRAVITY-INDEX.md` regenerated (boundary-drawing's
+source count 1→3; byte-identical re-generation confirmed, isolated: 0,
+non-reciprocal: 0). **Disposition: Approved to proceed** (build-thread
+self-disposition per CO-022/CO-024b; no escalation category applies).
+
+**Recompile, 2026-09-09** (commit `fa07b2e`): `python -m engine.m2.cli
+build pahc` -> `packages/pahc/2026-09-09T02-57-17Z`, manifest_hash
+`sha256:915b959ef22a3e0b30fb3c13d4dec0c402ccb3c536a627c0f223a264ec365f34`.
+Determinism-check passed (byte-identical on a second compile).
+Manifest-level diff against the prior pin (`2026-09-04T16-41-56Z`)
+confirmed the changed/added file set is exactly what this pass touched
+(the two new quote records; the edited gravity and source records; their
+legitimate downstream ripple - `compiled/quotes.json`, `coverage.json`,
+`indexes/canon-map.json`, the rebuilt FAISS indexes, `validation/*` -
+plus provenance-only hash churn in files that merely embed
+`records_commit`, e.g. `compiled/frame.json`, `compiled/media/
+portrait.svg`). `records/worlds.yaml`'s pahc package pin updated to this
+new location/hash; the superseded pin (`2026-09-04T16-41-56Z`) kept on
+disk, not deleted, per this repo's own convention.
+
+**M3 admission: rerun warranted, not run here.** pahc's registry
+`state` is `admitted` (a live 28-probe sealed-battery certificate
+already exists from an earlier content state - the most recent M3
+report mentioning pahc predates this world's 2026-08-30 BAR SWEEP/
+CENTER-CELL passes, let alone this one). This pass adds two new,
+real quote records (not a mechanical/metadata-only recompile like the
+2026-09-01 schema-gap pass, which was proven byte-identical in content
+and explicitly did not need a fresh M3 run) - the same shape of change
+Cappadocian's own precedent (`CAPPADOCIAN_BUILD_LEDGER.md` lines 767,
+787: "this run re-certifies that the added quote material didn't
+introduce any new grounding, isolation, or register failure") treats as
+warranting a fresh live run. M3 admission requires real AWS Bedrock
+spend and Mark's own explicit per-run authorization
+(`engine/m3/live_admission_run.py`'s own docstring; every fleet
+precedent) - not something a build thread runs on its own judgment.
+Flagged here for Mark's decision, not executed.
+
 ## hal (Hieronymian Ascetic-Literary Christianity)
 
 `census_id`: the census entry's own `id` field is what the Atlas deep link
@@ -247,6 +333,34 @@ labor (Vulgata), Hebraica veritas, vidua, monasterium, renuntiatio,
 epistula labeled. **FIVE-WORLD TRANSPARENCY READ**, 2026-08-30:
 ciceronian-dream +C-P, vulgata +C-E. **BAR SWEEP**, 2026-08-30, same
 standard as alx.
+
+**SUPPLEMENTAL SOURCE REVIEW, checked and closed with no action,
+2026-09-09.** A discovery pass flagged that the Syriac Palladius
+recension (`hal.source.palladius-paradise-syriac`) and Sulpitius
+Severus's Dialogues (`hal.source.sulpitius-dialogues`) never made it
+into the older `World-Builds/Hieronymian-Ascetic-Literary/Story-Chunks/`
+and `Lexicon-Chunks/` deployment layer. Verified before touching
+anything: that older layer predates this world's `records/hal/` regime
+and is not what ships - `records/worlds.yaml`'s hal entry pins
+`packages/hal/2026-09-04T16-41-54Z`, compiled by `engine/m2`'s
+`compile_world` exclusively from `records/hal/*` (confirmed directly in
+`engine/m1/loader.py`/`engine/m2/compiler.py` - neither reads
+`World-Builds/` at all), and this world's own registry entry above
+already states plainly that the new-regime records "supersede... the
+prior framework['s]" work. Checked the live layer itself, not just the
+premise: both sources are already thoroughly integrated there - each
+has its own `records/hal/source/*.md` record, and both are drawn on by
+multiple quote records (`hal.quote.paula-escaped-his-envy` and
+`hal.contested.paula-jerome-relationship` for the Syriac Palladius
+recension, with a full cross-recension divergence analysis against
+`hal.source.palladius-lausiac`'s Greek text already on record;
+`hal.quote.a-man-truly-catholic`, `hal.quote.always-at-his-books`, and
+`hal.contested.hebrew-fluency` for Sulpitius's Dialogues I.8-9, covering
+the full cited passage range). No unused corroborating material found
+sitting idle in either vendored text. **No records changed, no
+recompile needed** - the discovery pass's premise (a real gap in a
+deployment layer) did not survive contact with which layer actually
+ships. Logged here rather than left as a silent non-finding.
 
 ## syr (Syriac Christianity, Edessa/Nisibis)
 
@@ -310,6 +424,25 @@ true meanwhile so the doorway carries the distinction (fail toward
 disclosure, same direction as alx): this world's Strand A content runs
 directly into the present-day papacy's own claimed lineage, Strand B's
 into Eastern Orthodoxy's self-understanding.
+
+**2026-09-09 post-admission source recompile (ijc only).** Two
+`search_record`s added to `records/ijc/` — `ijc.search.philostorgius-homoian-fit`
+and `ijc.search.opus-imperfectum-english` — recording two negative results
+from a post-admission source check, so both are visible in the record layer
+rather than only in the world-build folder. Neither creates a source record;
+no existing record was edited; Doc_04 is unchanged and the world's Homoian
+self-testimony gap remains open and remains disclosed in the
+`thinness_statement`. Recompiled from 184 records (was 182):
+`packages/ijc/2026-09-09T02-58-39Z`, manifest
+`sha256:4ca056f2…`, superseding `packages/ijc/2026-09-04T18-49-02Z` (kept on
+disk per this repo's manifest-only-tracked convention). **All 18 gates pass,
+0 findings; determinism check passed; fleet staleness sweep clean across all
+eight worlds.** Mark authorised the recompile in session, 2026-09-09, after
+being given the option to leave the findings in the world-build folder
+only — recorded here in this thread's own words rather than quoted, as an
+off-repository instruction. Full working and five rounds of independent
+adversarial review:
+`World-Builds/Imperial-Juridical-Christianity/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md`.
 
 Recompile history: **LEXICON LABEL PASS**, 2026-08-30: homoousios, homoios,
 concilium, primatus, Tomus labeled. **FIVE-WORLD TRANSPARENCY READ**,

@@ -53,8 +53,9 @@ description: 'Formation as genuine reorientation of the whole person toward part
   ecology only; ecology-wide primacy held open.'
 manifestations:
 - the staged catechumenate as a path of becoming (Paedagogus)
-- prayer and fasting as formation instruments (Festal Letters; On Prayer excluded from the vendorable
-  base - G5 accepted absence)
+- prayer and fasting as formation instruments (Festal Letters; On Prayer's English translation excluded
+  from the vendorable base - G5 accepted absence; its Greek original is separately vendored as an
+  original-language witness only, not English evidence)
 - the purification-illumination-union progression in the school tradition (Stromateis)
 - Gregory's first-person account of being re-formed by teaching (Address, Arguments VI-IX)
 classification: primary

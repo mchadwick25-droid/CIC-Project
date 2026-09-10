@@ -333,25 +333,23 @@ footer.site-footer a { color: var(--muted); }
 footer.site-footer nav { display: flex; gap: 1.2rem; }
 footer.site-footer nav a { display: inline-block; padding: 0.5rem 0.1rem; }
 
-@media (prefers-color-scheme: dark) {
-  body { background: #17130F; color: #F1E9DD; }
-  header.site-header, footer.site-footer, .world-card, .callout { background: #1E1913; }
-  .brand { color: #F1E9DD; }
-  nav.site-nav a { color: #F1E9DD; }
-  .hero p.lede, .page-section p, footer.site-footer, footer.site-footer a { color: #B8AEA1; }
-  :root { --rule: rgba(241,233,221,0.16); }
-  /* --madder/--gold-leaf stay unchanged (button fills need the darker value for
-     contrast against light text) - these overrides lighten the SAME hues only
-     where they're used as text/border color on the near-black background. */
-  a, .hero .eyebrow, .page-section .eyebrow, .btn.secondary,
-  ol.convictions li::before, .world-card .name { color: #E08C74; }
-  a:hover { color: #F0A98F; }
-  nav.site-nav a:hover, nav.site-nav a[aria-current="page"] { border-bottom-color: #E08C74; }
-  .btn.secondary { border-color: #E08C74; }
-  .btn.secondary:hover { background: rgba(224,140,116,0.12); }
-  ol.convictions li::before { border-color: #E08C74; }
-  .callout .label { color: #E0A458; }
-}
+body { background: #17130F; color: #F1E9DD; }
+header.site-header, footer.site-footer, .world-card, .callout { background: #1E1913; }
+.brand { color: #F1E9DD; }
+nav.site-nav a { color: #F1E9DD; }
+.hero p.lede, .page-section p, footer.site-footer, footer.site-footer a { color: #B8AEA1; }
+:root { --rule: rgba(241,233,221,0.16); }
+/* --madder/--gold-leaf stay unchanged (button fills need the darker value for
+   contrast against light text) - these overrides lighten the SAME hues only
+   where they're used as text/border color on the near-black background. */
+a, .hero .eyebrow, .page-section .eyebrow, .btn.secondary,
+ol.convictions li::before, .world-card .name { color: #E08C74; }
+a:hover { color: #F0A98F; }
+nav.site-nav a:hover, nav.site-nav a[aria-current="page"] { border-bottom-color: #E08C74; }
+.btn.secondary { border-color: #E08C74; }
+.btn.secondary:hover { background: rgba(224,140,116,0.12); }
+ol.convictions li::before { border-color: #E08C74; }
+.callout .label { color: #E0A458; }
 
 @media (max-width: 640px) {
   /* Six nav links plus the wordmark don't fit a phone width no matter how far

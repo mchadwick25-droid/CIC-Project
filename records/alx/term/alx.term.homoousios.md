@@ -18,6 +18,12 @@ sources:
 - source_id: alx.source.athanasius-de-decretis
   locus: 19-20 (the word's defense)
   license: public-domain
+- source_id: alx.source.nicene-creed-325
+  locus: line 2412 (the creed's own "of one substance" wording, for plain_meaning)
+  license: public-domain
+- source_id: alx.source.socrates-historia-ecclesiastica
+  locus: IV.20 (the forty-six-year episcopate figure, for the informational sub-claim)
+  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
@@ -51,3 +57,15 @@ CONTEST (stated): contested in its own century precisely for being
 non-scriptural - the objection is part of the record, and the term is
 STRICTLY post-325 (never retrojected). Modern hearing: philosophical
 jargon. World hearing: the line that kept the gospel the gospel.
+
+corrected 2026-09-08, records/alx audit: plain_meaning's "'Of one
+substance'" was cited only to De Decretis 19-20, which defends the
+term but never uses that literal phrase; the vendored wording is in
+the Creed of Nicaea itself (npnf214, line 2412: "being of one
+substance...with the Father"), now cited via
+alx.source.nicene-creed-325. The informational sense's "Athanasius
+spent forty-six years defending it" was likewise uncited in this
+file; the figure is Socrates HE IV.20 ("having governed that church
+amidst the greatest perils forty-six years"), now cited via
+alx.source.socrates-historia-ecclesiastica. The De Decretis 19-20
+claim itself was found clean and is unchanged.

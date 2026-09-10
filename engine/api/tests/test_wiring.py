@@ -521,7 +521,7 @@ def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_l
     assert {w["world_key"] for w in worlds} == {k for k, v in registry.items() if v.get("kind") == "formation"}
 
     pahc = next(w for w in worlds if w["world_key"] == "pahc")
-    assert pahc["display_name"] == "Post-Apostolic House-Church Christianity"
+    assert pahc["display_name"] == "Post-Apostolic Household-Church Christianity"
     assert pahc["representative"] == {"name": "Chloe", "role_label": "Household Leader"}
     assert pahc["census_id"] == "post-apostolic-house-church"
     assert pahc["horizon"] and "Antioch" in pahc["horizon"]

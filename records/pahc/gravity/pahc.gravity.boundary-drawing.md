@@ -17,6 +17,14 @@ sources:
 - source_id: pahc.source.ignatius-letters
   locus: "the anti-docetic argument, present across several letters (e.g. Trallians 9, Smyrnaeans 1-7)"
   license: public-domain
+- source_id: pahc.source.second-third-century-remains
+  locus: "Melito of Sardis, Fragment VII, 'On the Nature of Christ' (anf08 lines 71176-71206) - a
+    candidate second anti-docetic voice, flagged rather than counted; see this record's own trailing note"
+  license: public-domain
+- source_id: pahc.source.anti-montanist-fragments
+  locus: "Book I, the Asia-wide synodical rejection of the New Prophecy (anf07 line 11308) - a
+    primary-voice witness to a different named contemporary rival; see this record's own trailing note"
+  license: public-domain
 relations:
 - type: associated-with
   target: pahc.gravity.authority-consolidation
@@ -32,6 +40,10 @@ relations:
   target: pahc.story.ignatius-guarded-journey
 - type: associated-with
   target: pahc.story.one-eucharist-under-bishop
+- type: illustrated-by
+  target: pahc.quote.melito-no-phantom
+- type: illustrated-by
+  target: pahc.quote.asia-rejected-new-prophecy
 name: "Boundary-Drawing Against Contemporary Rival Movements - anti-docetic polemic [TENSIONAL, Strand A only]"
 classification: tensional
 description: "Refusing those who say the Lord's flesh was only appearance. The refusal is urgent, and
@@ -63,7 +75,23 @@ description: "Refusing those who say the Lord's flesh was only appearance. The r
   martyrdom-meaning, all three resting on Ignatius as Asia Minor's only evidentiary voice, not merely
   'Strand A' in the abstract): a confirmed independent third Asia Minor profile is exactly the kind of
   new evidence that could strengthen this gravity's currently-failing Repetition and Persistence scores;
-  carried unresolved, never manufactured. CONFIDENCE/GRAVITY CROSS-CHECK: thin, single-voice
+  carried unresolved, never manufactured. SUPPLEMENTAL SOURCE REVIEW (2026-09-09, this build's own new
+  addition, not a Doc_04 finding): two already-vendored candidates were checked directly against this
+  open item. Melito of Sardis's Fragment VII ('On the Nature of Christ') makes substantively the same
+  anti-docetic argument as Ignatius's own - but it survives only via Anastasius of Sinai, a seventh-
+  century citation, not via Eusebius as most of this world's other fragment-based sources do; a
+  transmission gap of roughly five centuries from Melito's own death, materially weaker than this
+  gravity's existing Ignatius corpus. Named as a flagged candidate second voice (pahc.quote.melito-no-
+  phantom), not counted as the confirmed third-Asia-Minor-profile item this open item calls for -
+  Repetition stays essentially one voice on secured attribution. Separately, the anti-Montanist
+  fragments (pahc.source.anti-montanist-fragments; pahc.quote.asia-rejected-new-prophecy) ARE a
+  vendored, independent, primary-voice stream - not Doc_01's own comparative synthesis - attesting
+  that Asia's bishops synodically examined and rejected the New Prophecy in real time. That resolves
+  Doc_01 SS8.3's disclosure obligation, for the New Prophecy specifically, from contextual analysis to
+  a primary witness, and corroborates this gravity's own title-level claim that boundary-drawing
+  against contemporary rivals was live and multi-voiced in this world - but its content (prophetic
+  authority, not christology) does not touch the anti-docetic claim's own Repetition score, which
+  stands as Doc_04 found it. Classification unchanged: Tensional. CONFIDENCE/GRAVITY CROSS-CHECK: thin, single-voice
   evidence prevents Primary or confident Supporting classification at any grain; the underlying
   phenomenon - a real, live, unsettled boundary against contemporary rivals - is exactly what a
   Tensional gravity is for: a persistent, unresolved pressure that keeps this world's ecology from
@@ -91,3 +119,13 @@ contemporary, geographically overlapping neighbors in this same window,
 not later or settled heresies - this gravity is the internal boundary
 this world drew against them in real time, and the boundary itself was
 not yet secured.
+
+SUPPLEMENTAL SOURCE REVIEW (2026-09-09, this build's own new addition):
+two new sources and two new illustrating quote records added -
+pahc.source.second-third-century-remains (Melito of Sardis's Fragment
+VII) and pahc.source.anti-montanist-fragments - both already vendored
+and compiled for this world but never previously checked against this
+gravity's own open items. See the description's own SUPPLEMENTAL SOURCE
+REVIEW paragraph for what each does and does not resolve. Neither
+changes this gravity's classification (Tensional) or its underlying
+Repetition finding for the anti-docetic claim itself.

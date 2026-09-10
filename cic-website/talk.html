@@ -12,22 +12,13 @@
   --ink:#2A2521;
   --ink-faded:#6C6257;
   --madder:#A13E2B;
-  --rule:#E6DFD3;
-  --ground:var(--parchment); --surface:var(--vellum);
-  --text:var(--ink); --muted:var(--ink-faded);
-  --action:var(--madder);
+  --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD;
+  --muted:#B8AEA1;
+  --action:#E08C74;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --ground:#17130F; --surface:#1E1913;
-    --text:#F1E9DD;
-    --muted:#B8AEA1;
-    --action:#E08C74;
-    --rule:rgba(241,233,221,.16);
-  }
-}
-*{box-sizing:border-box}
+}*{box-sizing:border-box}
 html,body{height:100%}
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--sans)}
 a{color:var(--action)}

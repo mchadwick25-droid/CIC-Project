@@ -13,27 +13,17 @@
 :root{
   --parchment:#F6F6F2; --vellum:#FFFFFF;
   --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
-  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:#E6DFD3;
-  --ground:var(--parchment); --surface:var(--vellum);
-  --text:var(--ink); --muted:var(--ink-faded);
-  --action:var(--madder); --action-hover:var(--madder-deep);
-  --lapis-text:#1E40AF;
-  --control:var(--graphite);
-  --btn-fill:var(--madder); --btn-text:var(--vellum); --btn-edge:var(--madder);
-  --tint:#0f766e;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --lapis-text:#9DB4F0;
+  --control:#A39B92;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --tint:#128D84;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
   --wide:64rem; --col:44rem; --measure:38rem;
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --ground:#17130F; --surface:#1E1913;
-    --text:#F1E9DD; --muted:#B8AEA1; --action:#E08C74; --action-hover:#F0A98F;
-    --lapis-text:#9DB4F0;
-    --control:#A39B92; --rule:rgba(241,233,221,.16);
-    --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
-    --tint:#128D84;
-  }
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
@@ -131,7 +121,7 @@ p{margin:0 0 1rem}
       <a href="../index.html">Home</a>
       <a href="../about.html">About</a>
       <a href="../whats-next.html">What's Next</a>
-      <a href="../atlas-v3.html">Map</a>
+      <a href="../atlas-v3.html">Timeline</a>
       <a href="../support.html">Get Involved</a>
       <a class="side-door" id="side-door" href="../talk.html" hidden><span class="sd-long">Been here before? </span>Go straight to a conversation →</a>
     </nav>
@@ -154,7 +144,7 @@ p{margin:0 0 1rem}
         <h1>Desert Fathers and Mothers</h1>
         <p class="formal">Desert Monasticism</p>
         <p class="status">Open for conversation — you can sit down with this tradition now.</p>
-        <p class="tile">The Nile Valley and the desert of Egypt, c. 320 to 430 CE — communities who left settled village life to wage a lifelong combat against the thoughts that trouble a person from within.</p>
+        <p class="tile">In the Nile Valley and the desert of Egypt, from about 320 to 430 CE, Christians left their villages to wage a lifelong combat against the thoughts that trouble a person from within. Authority came two ways at once, never resolved: earned through a lifetime of discipline under one elder, or conferred by a written rule and an appointed office. What withdrawal cost was everything ordinary life offered — land, family, the safety of a settled place — surrendered by stages and never reclaimed.</p>
       </div>
       <aside class="plate" aria-label="Portrait">
         <figure>
@@ -185,7 +175,7 @@ p{margin:0 0 1rem}
         <p class="eyebrow">Who is speaking</p>
         <h2 id="who-speaks-title">A representative voice, speaking for a whole people</h2>
         <div class="reading">
-          <p>Papnoute is a voice, not a person who lived — this tradition's own surviving voices (Antony the Great, Pachomius, Amma Syncletica, Evagrius Ponticus, John Cassian) given one voice, speaking the way a people speaks of itself: <em>we</em>, <em>our</em>, <em>among us</em>.</p>
+          <p>Papnoute is a voice, not a person who lived — this tradition's own surviving voices (Antony, Pachomius, Sarah, Evagrius Ponticus, John Cassian) given one voice, speaking the way a people speaks of itself: <em>we</em>, <em>our</em>, <em>among us</em>.</p>
           <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
         </div>
       </section>
@@ -194,7 +184,7 @@ p{margin:0 0 1rem}
         <p class="eyebrow">Where we are quiet</p>
         <h2 id="quiet-title">The wrong we never repaired</h2>
         <div class="reading">
-          <p>We have stories of a man's own past received without judgment - Moses came to us known as a robber, and was not turned away. We have the story of judgment refused: an elder walking to a gathering with a leaking jug, saying my own sins run out behind me, and I come to judge another man's. What we do not have is the other story - the one where the wrong was ours. No account survives, told in full, of a community of ours that harmed someone and then made it right. Perhaps it happened and no one wrote it. Perhaps it did not happen. Our record cannot say, and we will not invent the story we wish we had.</p>
+          <p>We have stories of a man's own past received without judgment — Moses came to us known as a robber, and was not turned away. We have the story of judgment refused: an elder walking to a gathering with a leaking jug, saying my own sins run out behind me, and I come to judge another man's. What we do not have is the other story — the one where the wrong was ours. No account survives, told in full, of a community of ours that harmed someone and then made it right. Perhaps it happened and no one wrote it. Perhaps it did not happen. Our record cannot say, and we will not invent the story we wish we had.</p>
         </div>
       </section>
 
@@ -217,7 +207,6 @@ p{margin:0 0 1rem}
 <section class="door" aria-labelledby="door-title">
   <p class="eyebrow">The Table</p>
   <h2 id="door-title">Come and join us at the Table</h2>
-  <p>Papnoute is seated. The chair beside him has been pulled out the whole time.</p>
   <div class="actions">
     <a class="btn" id="door-begin" href="../talk.html?worlds=desert-monasticism&amp;mode=interview&amp;from=traditions%2Fdesert-monasticism.html" data-ask>Begin a conversation with Papnoute</a>
     <a class="btn quiet" id="door-bring" href="../table.html?worlds=desert-monasticism">Bring Papnoute to the Table</a>
