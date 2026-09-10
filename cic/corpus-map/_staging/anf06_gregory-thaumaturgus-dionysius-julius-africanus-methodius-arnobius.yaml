@@ -90,6 +90,25 @@ assignments:
     was added on record, and it is the entry this note was asking for - the gap is regional,
     not per-author. post-apostolic-house-church ends at 200 and nothing catholic covers Asia
     Minor between there and Nicaea.'
+- work: Canonical Epistle
+  author: gregory_thau
+  locus: div3 under 3.3 'Acknowledged Writings'
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: provisional
+  note: 'Added 2026-09-09. A second row rather than an extra atlas_id on the row above, matching
+    the shape this file already uses for The Oration and Panegyric Addressed to Origen: the two
+    assignments carry different confidences and a single row cannot. Provisional for the same
+    reason both sibling Thaumaturgus rows give - he predates the Cappadocian entry''s 360-380s
+    range by a century, and there is no census entry for 3rd-c. Pontus itself. The Cappadocians
+    inherited these penitential canons as their own regional disciplinary practice: this world''s
+    Doc_02 SS1.6 names the Canonical Epistle as Documented and its Source Registry row 66 already
+    carries it, and Basil appeals to the Thaumaturgan inheritance explicitly. This world already
+    holds the volume''s two other Thaumaturgus works; this one was the gap. Kept alongside the
+    anatolian-church-third-century row, not moved - non-exclusive by default per the corpus-map
+    README.
+'
 - work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
     On the Trinity; Twelve Topics on the Faith; On the Subject of the Soul; Four Homilies;
     On All the Saints; On the Gospel According to Matthew)
