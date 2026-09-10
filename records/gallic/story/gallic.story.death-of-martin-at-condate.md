@@ -49,6 +49,12 @@ relations:
   target: gallic.figure.martin
 - type: associated-with
   target: gallic.figure.sulpitius
+- type: illustrates
+  target: gallic.gravity.named-example
+- type: associated-with
+  target: gallic.gravity.soldier-of-christ
+- type: associated-with
+  target: gallic.gravity.virtus
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - with caveats stated in the source's own words. Direct
@@ -156,5 +162,7 @@ living saint's power to a relic's and a psalm's" (Doc_08 Force 3B-1; Doc_07 §3A
 The sackcloth deathbed is the northern half of the one documented cross-node divergence in practice
 (gallic.term.sackcloth-and-ashes; Doc_04 §6 point 3).
 
-TO BE CONVERTED AT B-5: illustrates <G5 formation by named example>; associated-with <G8 soldier of
-Christ>; associated-with <G6 virtus> - with reciprocal back-edges on each gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.named-example;
+associated-with gallic.gravity.soldier-of-christ, gallic.gravity.virtus - each connection named
+above, with the reciprocal back-edge (illustrated-by / associated-with) declared on every one of
+those gravity records.

@@ -47,6 +47,12 @@ retrieval:
 relations:
 - type: associated-with
   target: gallic.figure.cassian
+- type: illustrates
+  target: gallic.gravity.received-not-invented
+- type: associated-with
+  target: gallic.gravity.interior-road
+- type: associated-with
+  target: gallic.gravity.egypt-as-measure
 narrative_tier: 2
 narrative_tier_justification: >-
   Tier 2 - Collected and Traditional Material. The governing framework requires material transmitted in
@@ -129,5 +135,7 @@ interior road's temporal skeleton (gallic.term.unceasing-prayer; Doc_05 §3's fi
 organizes sleep, labour, penance, fasting, the week, authority, and the day's memory); and the first of
 Doc_07 §3A's inherited, received memories. G2 - Egypt as the measure is the reception frame itself.
 
-TO BE CONVERTED AT B-5: illustrates <G4 received, not invented>; associated-with <G7 the interior
-road>; associated-with <G2 Egypt as the measure> - with reciprocal back-edges on each gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+gallic.gravity.received-not-invented; associated-with gallic.gravity.interior-road,
+gallic.gravity.egypt-as-measure - each connection named above, with the reciprocal back-edge
+(illustrated-by / associated-with) declared on every one of those gravity records.

@@ -45,6 +45,12 @@ relations:
   target: gallic.figure.sulpitius
 - type: associated-with
   target: gallic.story.paphnutius-and-the-hidden-book
+- type: illustrates
+  target: gallic.gravity.virtus
+- type: associated-with
+  target: gallic.gravity.monk-bishop
+- type: associated-with
+  target: gallic.gravity.authority-ambivalence
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - with caveats. Direct attestation within the horizon: the
@@ -135,5 +141,7 @@ person - Vita ch. XXVI's bishop who "allowed himself to be wronged by the lowest
 (Doc_05 §4.2, "episcopal authority exercised, from within, as the refusal to use it"); and Doc_08 Cell
 2A-5's one place the barbarian force enters a Martin-formed cleric's own household.
 
-TO BE CONVERTED AT B-5: illustrates <G6 virtus>; associated-with <G1 the monk-bishop>; associated-with
-<G9 ambivalence toward authority> - with reciprocal back-edges on each gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.virtus;
+associated-with gallic.gravity.monk-bishop, gallic.gravity.authority-ambivalence - each connection
+named above, with the reciprocal back-edge (illustrated-by / associated-with) declared on every one
+of those gravity records.

@@ -44,6 +44,14 @@ bridge_line: >-
 relations:
 - type: associated-with
   target: gallic.figure.honoratus
+- type: associated-with
+  target: gallic.gravity.received-not-invented
+- type: associated-with
+  target: gallic.gravity.authority-ambivalence
+- type: associated-with
+  target: gallic.gravity.grace-and-effort
+- type: associated-with
+  target: gallic.gravity.judgment-imminent-present
 ---
 NO-STORY BOUNDARY FIGURE, declared rather than omitted, and the one figure in this set carried as
 narratable: false - argued, not defaulted. Vincent is this world's only Lerins voice read in full and
@@ -74,5 +82,9 @@ its southern, opposed valence (Tensional; councils as guarantors against "the ra
 a few," Doc_04 G9); G3 - the grace-and-effort argument at Contested strength (whether he held the
 Massilian position; Chadwick vs. Casiday); and G10 - judgment, imminent and present (Supporting,
 provisional, weakest - "a certain awful expectation of the approach of the divine judgment," the
-southern locus Doc_09 §9 item 6 records as unbuilt). TO BE CONVERTED AT B-5: associated-with each of
-those four gravity records, with reciprocal back-edges.
+southern locus Doc_09 §9 item 6 records as unbuilt).
+
+CONVERTED AT B-5: real relations[] entries added above - associated-with
+gallic.gravity.received-not-invented, gallic.gravity.authority-ambivalence,
+gallic.gravity.grace-and-effort, gallic.gravity.judgment-imminent-present - each named above, with
+the reciprocal associated-with back-edge declared on every one of those gravity records.

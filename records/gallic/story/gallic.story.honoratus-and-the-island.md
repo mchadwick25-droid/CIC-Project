@@ -48,6 +48,12 @@ relations:
   target: gallic.story.election-at-tours
 - type: associated-with
   target: gallic.story.bishop-archebius
+- type: illustrates
+  target: gallic.gravity.monk-bishop
+- type: associated-with
+  target: gallic.gravity.egypt-as-measure
+- type: associated-with
+  target: gallic.gravity.virtus
 narrative_tier: 3
 narrative_tier_justification: >-
   Tier 3 - Attributed Tradition - by the governing framework's own description: hagiographic narrative
@@ -153,5 +159,7 @@ counted inter miracula ac merita, which with Eucherius's admiration of the Egypt
 signs" (row 26, Doc_04 G6) shows the competition is Cassian-versus-Sulpitius, not south-versus-north
 wholesale.
 
-TO BE CONVERTED AT B-5: illustrates <G1 the monk-bishop>; associated-with <G2 Egypt as the measure>;
-associated-with <G6 virtus> - with reciprocal back-edges on each gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.monk-bishop;
+associated-with gallic.gravity.egypt-as-measure, gallic.gravity.virtus - each connection named
+above, with the reciprocal back-edge (illustrated-by / associated-with) declared on every one of
+those gravity records.

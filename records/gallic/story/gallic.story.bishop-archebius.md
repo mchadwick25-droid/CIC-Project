@@ -51,6 +51,12 @@ relations:
   target: gallic.story.election-at-tours
 - type: associated-with
   target: gallic.story.honoratus-and-the-island
+- type: illustrates
+  target: gallic.gravity.monk-bishop
+- type: illustrates
+  target: gallic.gravity.authority-ambivalence
+- type: associated-with
+  target: gallic.gravity.named-example
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - argued rather than assumed, because this is the first of
@@ -132,6 +138,7 @@ conviction's own Egyptian witness; G9 - ambivalence toward episcopal authority (
 Egyptian valence - the office as expulsion "from the monastic system"; and G5 - formation by named
 example - the old men whose "mere sight ... will give a great lesson."
 
-TO BE CONVERTED AT B-5: illustrates <G1 the monk-bishop>; illustrates <G9 ambivalence toward
-authority>; associated-with <G5 formation by named example> - with reciprocal back-edges on each
-gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.monk-bishop and
+illustrates gallic.gravity.authority-ambivalence; associated-with gallic.gravity.named-example -
+each connection named above, with the reciprocal back-edge (illustrated-by / associated-with)
+declared on every one of those gravity records.

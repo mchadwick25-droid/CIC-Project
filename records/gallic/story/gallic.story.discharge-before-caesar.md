@@ -48,6 +48,12 @@ relations:
   target: gallic.figure.sulpitius
 - type: associated-with
   target: gallic.story.the-cloak-at-amiens
+- type: illustrates
+  target: gallic.gravity.soldier-of-christ
+- type: associated-with
+  target: gallic.gravity.monk-bishop
+- type: associated-with
+  target: gallic.gravity.virtus
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - with its caveats stated. Direct textual attestation within
@@ -121,5 +127,7 @@ Force 1A-2 finds "a man who changes service does not leave the service; he can b
 virtus (Tensional, northern) named as weaponry - "the sign of the cross, and not by shield or helmet"
 (Doc_04 §4, G6xG8). Doc_07 §2C calls the scene "the biography's hinge."
 
-TO BE CONVERTED AT B-5: illustrates <G8 soldier of Christ>; associated-with <G1 the monk-bishop>;
-associated-with <G6 virtus> - with reciprocal back-edges on each gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+gallic.gravity.soldier-of-christ; associated-with gallic.gravity.monk-bishop, gallic.gravity.virtus
+- each connection named above, with the reciprocal back-edge (illustrated-by / associated-with)
+declared on every one of those gravity records.

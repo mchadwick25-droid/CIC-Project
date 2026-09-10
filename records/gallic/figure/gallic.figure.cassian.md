@@ -70,6 +70,18 @@ relations:
   target: gallic.story.germanus-scruple-at-morning-service
 - type: associated-with
   target: gallic.figure.honoratus
+- type: associated-with
+  target: gallic.gravity.interior-road
+- type: associated-with
+  target: gallic.gravity.grace-and-effort
+- type: associated-with
+  target: gallic.gravity.egypt-as-measure
+- type: associated-with
+  target: gallic.gravity.received-not-invented
+- type: associated-with
+  target: gallic.gravity.monk-bishop
+- type: associated-with
+  target: gallic.gravity.virtus
 ---
 The Marseilles node's founder and the transmitter of all six of its stories - and the protagonist, with
 Germanus, of the two of them that are his own first-person encounters (Archebius; the scruple at
@@ -98,5 +110,12 @@ for G7 - the interior road (Supporting, node-bound southern; the Author Gravity 
 single-voice within Native voices), G2 - Egypt as the measure (Primary, receptive mode), G4 - received,
 not invented (Primary; "not giving my own opinion, but that of the elders"), and G1 - the monk-bishop
 (Primary; every book addressed to a bishop or a man about to be one). His refusal of wonder-stories is
-the southern side of G6 - virtus's Tensional split. TO BE CONVERTED AT B-5: associated-with each of
-those gravity records, with reciprocal back-edges.
+the southern side of G6 - virtus's Tensional split.
+
+CONVERTED AT B-5: real relations[] entries added above - associated-with
+gallic.gravity.interior-road, gallic.gravity.grace-and-effort, gallic.gravity.egypt-as-measure,
+gallic.gravity.received-not-invented, gallic.gravity.monk-bishop, gallic.gravity.virtus - each named
+above, with the reciprocal associated-with back-edge declared on every one of those gravity records.
+G6 (gallic.gravity.virtus) is included on the reading that 'each of those gravity records' covers
+every gravity this note names, his refusal of wonder-stories being the southern side of G6's
+Tensional split as stated above; the reading is flagged as a judgment call in the B-5 step report.

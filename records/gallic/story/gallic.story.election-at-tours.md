@@ -50,6 +50,12 @@ relations:
   target: gallic.story.bishop-archebius
 - type: associated-with
   target: gallic.story.honoratus-and-the-island
+- type: illustrates
+  target: gallic.gravity.monk-bishop
+- type: illustrates
+  target: gallic.gravity.authority-ambivalence
+- type: associated-with
+  target: gallic.gravity.virtus
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - with the appropriate caveats. Direct textual attestation
@@ -132,5 +138,7 @@ moment of origin - the monk-bishop made against bishops; and G6 - virtus applied
 opened at random (Doc_05 §6C mode 6: "Scripture as oracle - G6's logic applied to a book"). The story
 layer reconciles what the gravity layer holds as a competition (G1 x G9, Doc_04 §4).
 
-TO BE CONVERTED AT B-5: illustrates <G1 the monk-bishop>; illustrates <G9 ambivalence toward
-authority>; associated-with <G6 virtus> - with reciprocal back-edges on each gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.monk-bishop and
+illustrates gallic.gravity.authority-ambivalence; associated-with gallic.gravity.virtus - each
+connection named above, with the reciprocal back-edge (illustrated-by / associated-with) declared on
+every one of those gravity records.

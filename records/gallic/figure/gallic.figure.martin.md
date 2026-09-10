@@ -68,6 +68,16 @@ relations:
   target: gallic.story.death-of-martin-at-condate
 - type: associated-with
   target: gallic.figure.sulpitius
+- type: associated-with
+  target: gallic.gravity.monk-bishop
+- type: associated-with
+  target: gallic.gravity.virtus
+- type: associated-with
+  target: gallic.gravity.soldier-of-christ
+- type: associated-with
+  target: gallic.gravity.named-example
+- type: associated-with
+  target: gallic.gravity.authority-ambivalence
 ---
 The Tours node's founder and the subject of all seven of its stories - the one man this world's
 northern literature is about. Narratable: true, argued - he is the protagonist of five Tier 1
@@ -93,5 +103,9 @@ world's distinct-world criterion, Doc_01 §1), G6 - virtus (Tensional, northern 
 flag on Sulpitius caps it, Doc_04 §5), G8 - the soldier of Christ (Supporting; literalized in him), G5 -
 formation by named example (Supporting; "I have sinned if I leave you a different example"), and G9 -
 ambivalence toward episcopal, synodal, and imperial authority (Tensional, northern valence - the bishop
-who shunned synods). TO BE CONVERTED AT B-5: associated-with each of those five gravity records, with
-reciprocal back-edges.
+who shunned synods).
+
+CONVERTED AT B-5: real relations[] entries added above - associated-with gallic.gravity.monk-bishop,
+gallic.gravity.virtus, gallic.gravity.soldier-of-christ, gallic.gravity.named-example,
+gallic.gravity.authority-ambivalence - each named above, with the reciprocal associated-with back-
+edge declared on every one of those gravity records.

@@ -52,6 +52,14 @@ relations:
   target: gallic.figure.martin
 - type: associated-with
   target: gallic.figure.sulpitius
+- type: illustrates
+  target: gallic.gravity.authority-ambivalence
+- type: associated-with
+  target: gallic.gravity.virtus
+- type: associated-with
+  target: gallic.gravity.received-not-invented
+- type: associated-with
+  target: gallic.gravity.monk-bishop
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - with its caveats. Direct textual attestation within the
@@ -155,6 +163,8 @@ the one place G6 - virtus is shown diminished by a communion (Doc_04 G6); the on
 instance of compunction (Doc_07 §2B, against the south's compunction-that-rises-with-purity); and G1 -
 the monk-bishop reshaped into a bishop who shunned his colleagues (Doc_05 §2.5(d)).
 
-TO BE CONVERTED AT B-5: illustrates <G9 ambivalence toward authority>; associated-with <G6 virtus>;
-associated-with <G4 received, not invented>; associated-with <G1 the monk-bishop> - with reciprocal
-back-edges on each gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+gallic.gravity.authority-ambivalence; associated-with gallic.gravity.virtus,
+gallic.gravity.received-not-invented, gallic.gravity.monk-bishop - each connection named above, with
+the reciprocal back-edge (illustrated-by / associated-with) declared on every one of those gravity
+records.

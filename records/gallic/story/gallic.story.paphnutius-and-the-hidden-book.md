@@ -45,6 +45,10 @@ relations:
   target: gallic.figure.cassian
 - type: associated-with
   target: gallic.story.brictio-in-the-courtyard
+- type: illustrates
+  target: gallic.gravity.interior-road
+- type: associated-with
+  target: gallic.gravity.virtus
 narrative_tier: 2
 narrative_tier_justification: >-
   Tier 2 - Collected and Traditional Material - and the case is worth stating, since this story comes
@@ -134,5 +138,6 @@ the mistress of all virtues," Conf. XV.7, Doc_04 G6), first among the south's ex
 exactly as Conf. XV.7 allows - not the good monk's boast but the vindication God reserves, the
 counter-teaching to G6 - virtus stated as story.
 
-TO BE CONVERTED AT B-5: illustrates <G7 the interior road>; associated-with <G6 virtus> (as the
-southern counter-teaching, not an instance) - with reciprocal back-edges on each gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.interior-road;
+associated-with gallic.gravity.virtus - each connection named above, with the reciprocal back-edge
+(illustrated-by / associated-with) declared on every one of those gravity records.

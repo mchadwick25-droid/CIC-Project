@@ -42,6 +42,10 @@ retrieval:
 relations:
 - type: associated-with
   target: gallic.figure.cassian
+- type: illustrates
+  target: gallic.gravity.interior-road
+- type: associated-with
+  target: gallic.gravity.received-not-invented
 narrative_tier: 2
 narrative_tier_justification: >-
   Tier 2 - Collected and Traditional Material. Cassian transmits this "as an example" of a custom he
@@ -113,5 +117,7 @@ use for the south's communal expectation of consecrated property, and Doc_07 §2
 miniature; and it touches G4 - received, not invented, the discipline kept as what the fathers of the
 East hand on rather than a Gallic house's own rule.
 
-TO BE CONVERTED AT B-5: illustrates <G7 the interior road>; associated-with <G4 received, not
-invented> - with reciprocal back-edges on each gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.interior-road;
+associated-with gallic.gravity.received-not-invented - each connection named above, with the
+reciprocal back-edge (illustrated-by / associated-with) declared on every one of those gravity
+records.

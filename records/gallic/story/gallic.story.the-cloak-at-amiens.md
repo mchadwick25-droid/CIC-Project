@@ -46,6 +46,12 @@ relations:
   target: gallic.figure.sulpitius
 - type: associated-with
   target: gallic.story.discharge-before-caesar
+- type: illustrates
+  target: gallic.gravity.soldier-of-christ
+- type: associated-with
+  target: gallic.gravity.named-example
+- type: associated-with
+  target: gallic.gravity.virtus
 narrative_tier: 3
 narrative_tier_justification: >-
   Tier 3 - Attributed Tradition - even though the author is the same named, socially located, datable
@@ -129,6 +135,7 @@ inside the story; and G6 - virtus (Tensional, northern) in its gentlest form, Ch
 of the man rather than power exercised by him. Doc_08 Force 1A-2 names the army as "the 'before' of
 every founding biography."
 
-TO BE CONVERTED AT B-5: add relations[] - illustrates <gallic.gravity for G8 soldier of Christ>;
-associated-with <G5 formation by named example>; associated-with <G6 virtus> - with reciprocal
-back-edges on each gravity record once those records exist.
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+gallic.gravity.soldier-of-christ; associated-with gallic.gravity.named-example,
+gallic.gravity.virtus - each connection named above, with the reciprocal back-edge (illustrated-by /
+associated-with) declared on every one of those gravity records.

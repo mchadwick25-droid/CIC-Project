@@ -45,6 +45,12 @@ relations:
   target: gallic.figure.martin
 - type: associated-with
   target: gallic.figure.sulpitius
+- type: illustrates
+  target: gallic.gravity.virtus
+- type: associated-with
+  target: gallic.gravity.named-example
+- type: associated-with
+  target: gallic.gravity.monk-bishop
 narrative_tier: 3
 narrative_tier_justification: >-
   Tier 3 - Attributed Tradition - by genre analysis, not by author alone. Sulpitius is the same named,
@@ -124,5 +130,7 @@ by named example (Supporting) in the medium Tours used, the disciple formed by h
 done to him and becoming its "witness"; and G1 - the monk-bishop (Primary) anticipated - the man
 becomes "deemed powerful and truly apostolical," the reputation that makes the election possible.
 
-TO BE CONVERTED AT B-5: illustrates <G6 virtus>; associated-with <G5 formation by named example>;
-associated-with <G1 the monk-bishop> - with reciprocal back-edges on each gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.virtus;
+associated-with gallic.gravity.named-example, gallic.gravity.monk-bishop - each connection named
+above, with the reciprocal back-edge (illustrated-by / associated-with) declared on every one of
+those gravity records.

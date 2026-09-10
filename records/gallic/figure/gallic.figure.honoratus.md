@@ -59,6 +59,12 @@ relations:
   target: gallic.figure.cassian
 - type: associated-with
   target: gallic.figure.vincent
+- type: associated-with
+  target: gallic.gravity.monk-bishop
+- type: associated-with
+  target: gallic.gravity.egypt-as-measure
+- type: associated-with
+  target: gallic.gravity.virtus
 ---
 The Lerins node's founder, protagonist of its one story, and the addressee - twice, under two titles -
 of the part of Cassian's Conferences that opens with Archebius. Narratable: true, argued with the limit
@@ -85,5 +91,8 @@ his own sermon is the least-read text in this build.
 FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): load-bearing
 for G1 - the monk-bishop (Primary; the Lerins node's own statement of it), G2 - Egypt as the measure in
 the Lerins mode (Primary, split-mode - the "desert" that is an island "near this city"), and G6 -
-virtus admitted inside the south (Tensional - the serpents counted inter miracula ac merita). TO BE
-CONVERTED AT B-5: associated-with each of those three gravity records, with reciprocal back-edges.
+virtus admitted inside the south (Tensional - the serpents counted inter miracula ac merita).
+
+CONVERTED AT B-5: real relations[] entries added above - associated-with gallic.gravity.monk-bishop,
+gallic.gravity.egypt-as-measure, gallic.gravity.virtus - each named above, with the reciprocal
+associated-with back-edge declared on every one of those gravity records.

@@ -40,6 +40,10 @@ retrieval:
 relations:
 - type: associated-with
   target: gallic.figure.cassian
+- type: illustrates
+  target: gallic.gravity.interior-road
+- type: associated-with
+  target: gallic.gravity.named-example
 narrative_tier: 2
 narrative_tier_justification: >-
   Tier 2 - Collected and Traditional Material. Cassian transmits this as one of a series of examples of
@@ -99,5 +103,6 @@ virtue; Sulpitius's display a power"); and G5 - formation by named example in it
 named elders remembered for one saying each, received on the page (Doc_07 §5's "read" half of the
 seen/read axis).
 
-TO BE CONVERTED AT B-5: illustrates <G7 the interior road>; associated-with <G5 formation by named
-example> - with reciprocal back-edges on each gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.interior-road;
+associated-with gallic.gravity.named-example - each connection named above, with the reciprocal
+back-edge (illustrated-by / associated-with) declared on every one of those gravity records.

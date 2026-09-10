@@ -52,6 +52,14 @@ retrieval:
 relations:
 - type: associated-with
   target: gallic.figure.cassian
+- type: illustrates
+  target: gallic.gravity.grace-and-effort
+- type: associated-with
+  target: gallic.gravity.interior-road
+- type: associated-with
+  target: gallic.gravity.received-not-invented
+- type: associated-with
+  target: gallic.gravity.named-example
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - stated with care, because this is the story on which the
@@ -147,6 +155,8 @@ within, an argument about whether the practices ... accomplish anything," and Do
 invented in the form the argument would always take ("all the Catholic fathers," XIII.18); and G5 in
 its southern medium, a reported conference resting on the fact that Cassian heard Chaeremon.
 
-TO BE CONVERTED AT B-5: illustrates <G3 the grace-and-effort argument>; associated-with <G7 the
-interior road>; associated-with <G4 received, not invented>; associated-with <G5 formation by named
-example> - with reciprocal back-edges on each gravity record.
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+gallic.gravity.grace-and-effort; associated-with gallic.gravity.interior-road,
+gallic.gravity.received-not-invented, gallic.gravity.named-example - each connection named above,
+with the reciprocal back-edge (illustrated-by / associated-with) declared on every one of those
+gravity records.

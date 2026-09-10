@@ -68,6 +68,10 @@ relations:
   target: gallic.story.death-of-martin-at-condate
 - type: associated-with
   target: gallic.figure.martin
+- type: associated-with
+  target: gallic.gravity.virtus
+- type: associated-with
+  target: gallic.gravity.named-example
 ---
 BOUNDARY FIGURE - the Tours node's own author, and a named actor inside his own narrative frame at
 points. Narratable: true, but bounded, and the bound is the whole point of the record. He is not the
@@ -96,5 +100,8 @@ Contested standing, and is not connected to G3: Tours "has no doctrine of grace,
 FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): load-bearing
 for G6 - virtus (Tensional, northern; the Author Gravity flag is his) and G5 - formation by named
 example (Supporting; the eyewitness principle stated in his own preface, Vita ch. I and XXV); the
-Tours evidence for G1, G8, and G9 is his corpus. TO BE CONVERTED AT B-5: associated-with <G6 virtus>
-and <G5 formation by named example>, with reciprocal back-edges.
+Tours evidence for G1, G8, and G9 is his corpus.
+
+CONVERTED AT B-5: real relations[] entries added above - associated-with gallic.gravity.virtus,
+gallic.gravity.named-example - each named above, with the reciprocal associated-with back-edge
+declared on every one of those gravity records.
