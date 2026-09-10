@@ -36,5 +36,7 @@ relations:
   target: don.story.tyconius-condemnation
 - type: associated-with
   target: don.figure.parmenian
+- type: associated-with
+  target: don.limit.theology-beyond-tyconius
 ---
 Doc_04's own D-B gravity candidate ('Tyconius's universalist hermeneutics/ecclesiology') is tested and not advanced specifically because his own party's council condemned him and no following continued his approach -- this record and don.story.tyconius-condemnation together supply the concrete narrative that finding rests on. His own formal standing within the Donatist communion after the condemnation is deliberately left open by Doc_01 SS4, not resolved here.

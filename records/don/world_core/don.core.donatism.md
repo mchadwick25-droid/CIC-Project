@@ -137,7 +137,20 @@ cautions: '1) AUTHOR GRAVITY: nearly the entire vendored record passes through t
   185) with no Registry row of their own, plus Possidius''s own Vita Augustini, whose vendored text names
   Donatist 64 times and Circumcellion 12 times despite carrying neither a Registry row nor a corpus-map
   entry -- treat Source_Registry.md as a lower bound on this world''s own vendored evidence, not a complete
-  index of it, and check cic/texts/ directly before asserting a claim has no available primary support.'
+  index of it, and check cic/texts/ directly before asserting a claim has no available primary support.
+  12) RELATIONAL SAFETY / PERSECUTION-SHAPE FACILITATOR CAUTION: Representative Construction Phase Five
+  independently re-disposed Probe 11 (Relational Safety) from "not scored" to a system-level FAIL --
+  full in-world consolation offered in place of, rather than alongside, a redirect toward human support
+  -- and this has never been retested against the corrected Permanent Prompt and Capsule (don_Decision_Log.md,
+  Phase Five Round 1; Representative/don_Rep_Phase7_Encounter_Ecology_Mapping.md front matter: "the
+  never-retested Relational Safety system-level FAIL"). Separately, Phase Six''s own independent review
+  found (Finding 12, SS8.4) that silencing Fidelis under the portfolio''s own fixed Facilitator-only
+  handoff on acute distress may re-enact this world''s own defining historical injury -- an external
+  power silencing the true church''s voice -- rather than avoid a collision with it; answered as a
+  standing Facilitator-awareness caution, not argued away, since the routing itself is fixed at the
+  portfolio level regardless of this world''s own material (don_Decision_Log.md, Phase Six Round 2).
+  Neither is resolved by anything in this record; both are live, already-adjudicated standing risks for
+  any live or simulated encounter with this world, not a background caveat.'
 thin_topics:
 - keywords:
   - ordinary believer

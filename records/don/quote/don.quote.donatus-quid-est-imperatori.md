@@ -32,6 +32,8 @@ relations:
   target: don.figure.donatus
 - type: associated-with
   target: don.figure.optatus
+- type: associated-with
+  target: don.witness.refusal-and-recourse
 text: '"Quid est imperatori cum ecclesia?" ("What has the Emperor to do with the Church?")'
 speaker_or_author: don.figure.donatus
 license: verbatim

@@ -6,7 +6,9 @@ schema_version: 2
 status: draft
 register: emic
 canon_cells: []
-relations: []
+relations:
+- type: associated-with
+  target: don.witness.boundary-is-doctrine
 confidence:
   citation_specificity: C
   verification_state: named-not-rechecked

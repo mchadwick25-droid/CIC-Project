@@ -30,6 +30,8 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
+  target: don.witness.boundary-is-doctrine
+- type: associated-with
   target: don.gravity.ministerial-purity
 - type: associated-with
   target: don.gravity.rebaptism-boundary-marking

@@ -28,6 +28,8 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
+  target: don.witness.refusal-and-recourse
+- type: associated-with
   target: don.gravity.refusal-of-imperial-legitimacy
 - type: associated-with
   target: don.force.felix-accusation-majorinus-consecration

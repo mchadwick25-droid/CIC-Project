@@ -39,6 +39,8 @@ relations:
 - type: associated-with
   target: don.story.gesta-apud-zenophilum
 - type: associated-with
+  target: don.limit.womens-own-voice
+- type: associated-with
   target: don.figure.majorinus
 ---
 One of only two named women anywhere in this world's own vendored corpus (Doc_01 SS7 item 1), and one of the very few figures with a named-and-corroborated presence across two separate stories, seven years apart (the 311/312 consecration; the 320 inquiry). Optatus's own hostile characterization of her motive as personal spite is carried in don.story.lucilla-consecration-dispute's own text as his framing, not adopted as fact here.

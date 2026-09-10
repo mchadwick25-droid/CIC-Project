@@ -36,6 +36,8 @@ relations:
 - type: illustrated-by
   target: don.demo.undiscovered-traditor
 - type: associated-with
+  target: don.witness.one-formation-aim
+- type: associated-with
   target: don.gravity.rebaptism-boundary-marking
 - type: associated-with
   target: don.gravity.martyr-cult-identity

@@ -34,6 +34,8 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
+  target: don.witness.one-formation-aim
+- type: associated-with
   target: don.gravity.ministerial-purity
 - type: associated-with
   target: don.gravity.parallel-institutional-hierarchy
