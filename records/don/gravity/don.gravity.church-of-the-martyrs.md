@@ -57,6 +57,8 @@ relations:
   target: don.force.martyr-cult-commemoration
 - type: associated-with
   target: don.force.caecilianist-victory-selects-survivors
+- type: associated-with
+  target: don.contested.church-of-the-martyrs
 name: Martyr-cult identity - the Church of the Martyrs [PRIMARY]
 classification: primary
 description: >-

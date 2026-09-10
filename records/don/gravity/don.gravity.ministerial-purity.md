@@ -61,6 +61,8 @@ relations:
   target: don.force.sustained-purity-and-rebaptism
 - type: associated-with
   target: don.force.maximianist-fracture
+- type: associated-with
+  target: don.contested.ministerial-purity
 name: Ministerial purity and traditor-free sacramental validity [PRIMARY]
 classification: primary
 description: >-

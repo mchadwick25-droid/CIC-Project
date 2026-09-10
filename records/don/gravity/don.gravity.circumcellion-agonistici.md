@@ -53,6 +53,8 @@ relations:
   target: don.force.oscillating-imperial-policy
 - type: associated-with
   target: don.force.maximianist-fracture
+- type: associated-with
+  target: don.contested.circumcellion-agonistici
 name: Circumcellion / agonistici [SUPPORTING - scope-qualified to the Numidian regional sub-ecology]
 classification: supporting
 description: >-

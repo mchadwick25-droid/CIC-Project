@@ -57,6 +57,8 @@ relations:
   target: don.force.vandal-capture-of-carthage
 - type: associated-with
   target: don.force.institutional-attrition
+- type: associated-with
+  target: don.contested.parallel-hierarchy
 name: The parallel institutional hierarchy [SUPPORTING - integrating/institutional center]
 classification: supporting
 description: >-

@@ -41,6 +41,8 @@ relations:
   target: don.force.oscillating-imperial-policy
 - type: associated-with
   target: don.force.maximianist-fracture
+- type: associated-with
+  target: don.contested.refusal-against-recourse
 name: Principled refusal against pragmatic recourse to imperial power [TENSIONAL]
 classification: tensional
 description: >-

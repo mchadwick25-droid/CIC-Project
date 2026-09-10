@@ -43,6 +43,8 @@ relations:
   target: don.gravity.circumcellion-agonistici
 - type: enabled-by
   target: don.force.maximianist-fracture
+- type: associated-with
+  target: don.contested.rigor-against-reception
 name: Purity-rigor against institutional reception - the Maximianist precedent [TENSIONAL]
 classification: tensional
 description: >-

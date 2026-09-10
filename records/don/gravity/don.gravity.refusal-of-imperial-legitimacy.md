@@ -56,6 +56,8 @@ relations:
   target: don.force.conference-of-411-verdict
 - type: associated-with
   target: don.force.vandal-capture-of-carthage
+- type: associated-with
+  target: don.contested.refusal-of-imperial-legitimacy
 name: Refusal of imperial and state religious legitimacy [PRIMARY]
 classification: primary
 description: >-

@@ -56,6 +56,8 @@ relations:
   target: don.force.oscillating-imperial-policy
 - type: associated-with
   target: don.force.sustained-purity-and-rebaptism
+- type: associated-with
+  target: don.contested.rebaptism-boundary
 name: Rebaptism as boundary-marking practice [PRIMARY]
 classification: primary
 description: >-
