@@ -129,7 +129,15 @@ cautions: '1) AUTHOR GRAVITY: nearly the entire vendored record passes through t
   item 4). 10) TRANSLATOR/EDITOR APPARATUS MISTAKEN FOR PRIMARY CONTENT: a recurring, tracked failure
   mode across this world''s own build -- a footnote or endnote''s own gloss mistaken for the primary text''s
   own content or citation chain (three confirmed instances; Doc_09 Section 9 item 5) -- check a claim
-  against the vendored primary text itself, not only against an apparatus describing it.'
+  against the vendored primary text itself, not only against an apparatus describing it. 11) VENDORED-BUT-UNROWED
+  CONTENT: this world''s own Source Registry has repeatedly lagged behind what cic/texts/ actually holds
+  -- Contra Gaudentium (row 56) sat unnoticed inside an already-vendored file for months before a later
+  sweep found it, and a subsequent discovery sweep found two further vendored Latin critical editions
+  (of Cyprian''s own corpus and of Augustine''s own letters, the latter directly overlapping row 5''s Letter
+  185) with no Registry row of their own, plus Possidius''s own Vita Augustini, whose vendored text names
+  Donatist 64 times and Circumcellion 12 times despite carrying neither a Registry row nor a corpus-map
+  entry -- treat Source_Registry.md as a lower bound on this world''s own vendored evidence, not a complete
+  index of it, and check cic/texts/ directly before asserting a claim has no available primary support.'
 thin_topics:
 - keywords:
   - ordinary believer
