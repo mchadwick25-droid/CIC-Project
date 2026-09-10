@@ -16,11 +16,12 @@ sources: []
 relations: []
 author: The Roman imperial chancery under Julian (collective/anonymous legal act)
 work: The general school law of June 362 (Codex Theodosianus 13.3.5)
-edition: The Mommsen-Meyer Latin text is public domain per Doc_02 SS2, but not acquired into cic/texts/
-  this session
-rights_status: not independently verified this session; row not yet acquired as an open text -- named
-  for completeness per the Source Registry's own checkpoint rule (every source a Doc_02 claim rests on
-  gets a row, acquired or not).
+edition: The Mommsen-Meyer Latin text is public domain per Doc_02 SS2, and was acquired 2026-09-09 via
+  cic/texts/theodosianus-16_mommsen-meyer1905.txt (the source-library-integration merge) -- confirmed
+  present at Book 13, Title 3, Law 5, textually matching this row's own citation ("Magistros studiorum
+  doctoresque excellere oportet moribus primum, deinde facundia...", dated in the file 362 Iun. 17).
+  Corpus-map staging entry at cic/corpus-map/_staging/theodosianus-16_mommsen-meyer1905.yaml.
+rights_status: acquired 2026-09-09; not independently re-verified beyond the textual match noted above.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 73; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

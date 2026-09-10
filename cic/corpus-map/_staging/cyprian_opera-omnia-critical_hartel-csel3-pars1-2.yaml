@@ -1,0 +1,34 @@
+# Hartel's critical Latin edition of Cyprian's own corpus (CSEL 3, Pars I-II:
+# treatises + Epistulae I-LXXXI), vendored 2026-09-05 for the Latin
+# Pastoral-Congregational Christianity world-build (Source_Registry.md row
+# 39/new row, fulfilling most of Source_Acquisition_Manifest G1). This is the
+# Latin original of works already assigned to lpc's own Atlas entry, one work
+# at a time, from anf05_hippolytus-cyprian-caius-novatian.xml (the vendored
+# 19th-century English translation, following Migne's text, not Hartel's).
+# Treated here as one combined work rather than replicating ANF05's ~20-work
+# breakdown, per this map's own granularity rule (large multi-part bodies get
+# one entry, not one per internal division) -- a future need to cite a
+# specific treatise/letter's own Latin locus can split this further then.
+source_file: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+
+assignments:
+  - work: "S. Thasci Caecili Cypriani Opera omnia (Hartel's critical edition, CSEL 3, Pars I-II)"
+    author: cyprian
+    locus: "whole text; Pars I ends at the Sententiae Episcoporum, Pars II runs Epistulae I-LXXXI - see the file's own title-page and EPISTVLA headers for addressing a specific treatise or letter"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The Latin original behind the already-vendored ANF05 English
+      translation's own Cyprian works (rows 1-7 and others in this bucket,
+      all sourced from anf05_hippolytus-cyprian-caius-novatian.xml) - not a
+      new voice, the same tradition's own words in the language Cyprian
+      actually wrote them in. ANF05 itself follows Migne's text, not
+      Hartel's, so this is also an independent critical check on that
+      translation's own base text, not merely a duplicate. Does not cover
+      CSEL 3 Pars III (spuria/indices) - not yet acquired. Second-witness
+      caveat applies per cic/texts/INTAKE.md: legitimate for cross-checking
+      a specific reading against the vendored English translation a
+      world's own source record actually cites, never primary evidence for
+      a Representative on its own.

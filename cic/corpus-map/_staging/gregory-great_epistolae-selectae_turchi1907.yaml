@@ -1,0 +1,18 @@
+source_file: gregory-great_epistolae-selectae_turchi1907.txt
+
+assignments:
+  - work: "Epistolae Selectae (selected letters concerning the African
+      Donatist remnant)"
+    author: gregory-great
+    locus: "selection within this Turchi 1907 edition"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: provisional
+    note: >
+      Gregory the Great's own correspondence addressing the surviving
+      Donatist communities in Africa a century and a half after Augustine —
+      late, outside, administrative description of the movement's long
+      tail, not a Donatist or contemporary-Catholic voice. Provisional
+      pending confirmation of exactly which letters in this selection touch
+      Donatism specifically, and how many.
