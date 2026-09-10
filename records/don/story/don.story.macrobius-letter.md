@@ -71,9 +71,12 @@ text: >-
   He was beaten with leaded whips, then with rods. Isaac, whose very name
   the letter reads as a sign - a victim's name, given to a victim - was
   flogged alongside him, and in the middle of it called out to the men
-  doing the flogging, naming them traditores and telling them to come and
-  see what the madness of their so-called unity had brought them to. He
-  did not survive the beating.
+  doing the flogging, naming them traditores and crying, in the letter's
+  own Latin, "come, heal your madness of 'unity'" - a direct, defiant
+  address to his own persecutors, not a description of what their
+  unity had cost them (one manuscript witness reads "satisfy your
+  madness of cruelty" instead of "unity," a real transmission variant,
+  not a translation choice). He did not survive the beating.
 
   Maximianus, still living, had his own vision that night: he saw himself
   in combat, first against the emperor's ministers and then against the
