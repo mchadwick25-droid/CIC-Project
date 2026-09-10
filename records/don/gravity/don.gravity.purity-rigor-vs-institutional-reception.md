@@ -35,6 +35,8 @@ relations:
   target: don.gravity.circumcellion-agonistici
 - type: associated-with
   target: don.force.maximianist-fracture
+- type: associated-with
+  target: don.contested.maximianist-reception
 name: Purity-Rigor vs. Institutional Reception (the Maximianist precedent) [TENSIONAL]
 description: 'Doc_04 SS3.6: TENSIONAL. Two genuinely distinct poles with real institutional separation:
   (a) the stated, absolute logic that schismatic or invalidly-ordained clergy require rebaptism and reordination

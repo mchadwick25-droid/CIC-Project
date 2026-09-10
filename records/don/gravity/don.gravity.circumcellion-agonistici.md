@@ -37,6 +37,8 @@ relations:
   target: don.force.oscillating-imperial-policy
 - type: associated-with
   target: don.force.maximianist-fracture
+- type: associated-with
+  target: don.contested.circumcellion-character
 name: Circumcellion / *Agonistici* Character and Scale [SUPPORTING, scope-qualified -- Numidian regional
   sub-ecology only]
 description: 'Doc_04 SS3.5: SUPPORTING, scope-qualified to the Numidian regional sub-ecology -- confirmed

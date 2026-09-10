@@ -47,6 +47,8 @@ relations:
   target: don.force.vandal-capture-of-carthage
 - type: associated-with
   target: don.force.institutional-attrition
+- type: associated-with
+  target: don.contested.bishop-count-411-conference
 name: Parallel Institutional Hierarchy [SUPPORTING -- integrating/institutional center]
 description: 'Doc_04 SS3.4: SUPPORTING (integrating/institutional center), 6/6 tests PASS -- **the Dependency
   test is specifically what reveals Supporting rather than Primary status, not the Formation test** (verified

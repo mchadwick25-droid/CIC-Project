@@ -48,6 +48,8 @@ relations:
   target: don.force.oscillating-imperial-policy
 - type: associated-with
   target: don.force.sustained-purity-rebaptism-practice
+- type: associated-with
+  target: don.contested.maximianist-reception
 name: Rebaptism as Boundary-Marking Practice [PRIMARY]
 description: 'Doc_04 SS3.2: PRIMARY, 6/6 tests PASS (strong). Repetition: Doc_02 SS1 (On Baptism, Answer
   to the Letters of Petilian, both substantially devoted to this practice); Doc_01 SS1/SS3 ("rebaptism

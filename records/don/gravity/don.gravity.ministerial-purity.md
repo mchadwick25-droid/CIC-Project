@@ -51,6 +51,10 @@ relations:
   target: don.force.sustained-purity-rebaptism-practice
 - type: associated-with
   target: don.force.maximianist-fracture
+- type: associated-with
+  target: don.contested.maximianist-reception
+- type: associated-with
+  target: don.contested.cirta-reserved-to-the-lord
 name: Ministerial Purity / Traditor-Free Sacramental Validity [PRIMARY]
 description: 'Doc_04 SS3.1: PRIMARY, 6/6 tests PASS (strong). Repetition: recurs across Doc_01 SS1/SS5,
   Doc_02 SS1 (the founding accusation against Felix of Aptungi; Augustine''s On Baptism devoting seven
