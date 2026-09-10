@@ -32,9 +32,13 @@ sources:
 - source_id: don.source.codex-theodosianus-book-16
   locus: 16.5.52, the law naming the group
   license: public-domain
-- source_id: don.source.augustine-contra-gaudentium
-  locus: Augustine's report of the group's self-designation and conduct
-  license: public-domain
+- source_id: don.source.monceaux-histoire-litteraire-tome4
+  locus: 'row 52''s own footnote, quoting Augustine, Enarr. in Ps. 132.6 verbatim: "Milites
+    Christi Agonistici appellantur." Not Contra Gaudentium (an earlier draft''s citation, unlocated
+    and corrected here) -- the self-designation reaches this record only through Monceaux''s own
+    quotation of the Latin; the vendored NPNF English of the Enarrationes (npnf108) does not carry
+    the term at all, checked directly.'
+  license: in-copyright-consultation
 - source_id: don.source.shaw-sacred-violence
   locus: the standard corrective reading of the hostile portrait
   license: in-copyright-consultation
