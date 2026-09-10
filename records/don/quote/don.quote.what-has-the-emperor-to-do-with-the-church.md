@@ -67,7 +67,9 @@ modern_rendering: >-
   What has the emperor got to do with the church?
 ---
 Verified verbatim against the vendored `optatus_against-the-donatists.txt`
-(Edwards' English translation, Registry row 2 lineage), Book III.3, where
+(Vassall-Phillips' 1917 English translation, Registry row 1 - not Edwards'
+1997 translation, Registry row 45, which is in-copyright and not vendored;
+corrected here, an earlier draft's misattribution), Book III.3, where
 the printed line reads exactly: "'What has the Emperor to do with the
 Church?'" No wording added, dropped, or reordered. The surrounding
 narrative - Constans sending Paul and Macarius, Donatus's reported fury,

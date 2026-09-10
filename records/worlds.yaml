@@ -231,5 +231,5 @@ worlds:
     living_tradition_flag: false
     state: built
     package:
-      manifest_hash: "sha256:21005c01a2eabd46f28dad302f27fb8f7fb85cd0e78f1b2126183e38ca7fbd1a"
-      location: "packages/don/2026-09-10T17-56-17Z"
+      manifest_hash: "sha256:836a8e641dab13a088a077511003b6257d61b9aff37c7d0a1d4ad6c627ec1322"
+      location: "packages/don/2026-09-10T18-49-44Z"
