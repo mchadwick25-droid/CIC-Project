@@ -32,6 +32,13 @@ jobs:
       engine: ${{ steps.filter.outputs.engine }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          # dorny/paths-filter needs real history to diff against the base
+          # ref once a local checkout exists; actions/checkout@v4 defaults
+          # to a shallow (depth-1) clone, which only contains this commit
+          # and makes that diff fail. Full history costs little here since
+          # this job does nothing else.
+          fetch-depth: 0
       - uses: dorny/paths-filter@v3
         id: filter
         with:
