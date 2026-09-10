@@ -28,16 +28,27 @@ jobs:
   changes:
     name: Detect changed paths
     runs-on: ubuntu-latest
+    # Real root cause of this job's own first failure (2026-09-10): on
+    # pull_request events, dorny/paths-filter calls the GitHub API's
+    # listFiles rather than diffing locally, and errored "Resource not
+    # accessible by integration" - this workflow had no `permissions:`
+    # block anywhere, so the default GITHUB_TOKEN carries no
+    # `pull-requests: read`. An explicit job-level `permissions:` block
+    # replaces the default entirely, so contents:read (needed by
+    # checkout) has to be restated here too, not just the new scope.
+    permissions:
+      contents: read
+      pull-requests: read
     outputs:
       engine: ${{ steps.filter.outputs.engine }}
     steps:
       - uses: actions/checkout@v4
         with:
-          # dorny/paths-filter needs real history to diff against the base
-          # ref once a local checkout exists; actions/checkout@v4 defaults
-          # to a shallow (depth-1) clone, which only contains this commit
-          # and makes that diff fail. Full history costs little here since
-          # this job does nothing else.
+          # Kept even though the pull_request path above uses the API,
+          # not a local diff: this workflow also runs on `push` to main,
+          # where paths-filter's default `base` does need real history -
+          # actions/checkout@v4's shallow (depth-1) default wouldn't
+          # contain it. This job does nothing else, so the cost is small.
           fetch-depth: 0
       - uses: dorny/paths-filter@v3
         id: filter
