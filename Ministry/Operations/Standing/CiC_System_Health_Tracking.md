@@ -340,3 +340,44 @@ one-hour check-in trigger, both no longer needed once merged.
 *and merge* its own PRs for mechanical/non-judgmental fixes, once all required status
 checks are green and there's no merge conflict — no per-PR check-in with Mark needed
 for that merge step going forward.
+
+---
+
+## 2026-09-10 — Same paths-filter permissions bug recurred on PR #155; two competing
+## fixes for the Actions-minutes problem now open in parallel
+
+**PR #144** (`claude/website-v2-sandbox`, Mark's own branch, still open) was this
+thread's earlier fix for the Actions-minutes-exhaustion problem: a single `changes`
+gating job using `dorny/paths-filter@v3`, skipping 12 engine-touching jobs + Docker
+build on non-engine changes. Root cause of that job's own first failure — missing
+`pull-requests: read` (the default `GITHUB_TOKEN` only grants
+`contents`/`metadata`/`packages: read`, and `dorny/paths-filter@v3` calls the GitHub
+API's `listFiles` on `pull_request` events, not a local diff) — diagnosed and fixed
+2026-09-09 (commit `d683c9ae`), confirmed working.
+
+**This sweep found PR #155** (`claude/ci-minutes-path-filter`, also Mark's own
+account), opened independently overnight to fix the *same* Actions-minutes problem
+with a *different* architecture: per-job path filters on all 13 existing jobs directly
+(via the same `changes` output job), rather than one shared gate. Its own `changes`
+job failed on its first CI run with the identical signature: `##[error]Resource not
+accessible by integration` from the same `listFiles` call, same missing scope — no
+`permissions:` block at all on that job. Confirmed via job logs before touching
+anything (`GITHUB_TOKEN Permissions: Contents: read / Metadata: read / Packages:
+read`, then the same error immediately after the `listFiles` invocation) — not
+assumed from the title match alone.
+
+**Fixed directly**, same pattern as #144: added an explicit `permissions: {contents:
+read, pull-requests: read}` block to the `changes` job (an explicit block replaces the
+default grant entirely, so `contents: read` — needed by `actions/checkout` — has to be
+restated, not just the new scope). Pushed to `claude/ci-minutes-path-filter`, commit
+`bf422313`. Mechanical, non-judgmental, matches the established fix for an
+already-diagnosed bug — no reason to withhold it pending Mark's read on the point
+below.
+
+**Flagging to Mark, not resolving myself:** #144 and #155 are now two independent,
+unmerged PRs solving the same problem with two different architectures (one shared
+gating job vs. per-job filters), both touching `.github/workflows/ci.yml`, both now
+CI-green at the infra level. Merging both would conflict; only one should land. Which
+one to keep — and whether to close or rebase the other — is a project-lead call, not
+this thread's to make unilaterally. Surfaced directly to Mark in-session rather than
+guessing.
