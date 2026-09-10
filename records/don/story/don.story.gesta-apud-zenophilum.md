@@ -5,7 +5,9 @@ record_type: story
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F3-P
+- F6-P
 confidence:
   citation_specificity: A
   verification_state: verified-direct

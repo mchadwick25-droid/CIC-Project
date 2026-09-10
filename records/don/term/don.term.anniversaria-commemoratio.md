@@ -5,7 +5,9 @@ record_type: term
 schema_version: 2
 status: draft
 register: emic-unavailable
-canon_cells: []
+canon_cells:
+- F3-I
+- F2-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
