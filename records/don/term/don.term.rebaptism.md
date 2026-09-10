@@ -5,7 +5,8 @@ record_type: term
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F4-I
 relations:
 - type: associated-with
   target: don.term.church-ecclesia

@@ -5,7 +5,8 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F3-E
 confidence:
   citation_specificity: A
   verification_state: verified-direct
