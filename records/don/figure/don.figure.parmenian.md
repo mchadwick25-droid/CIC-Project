@@ -24,9 +24,8 @@ names:
 - name: Parmenian (primate of Carthage after Donatus, d. by 393)
   tag: scholarly
 dates:
-  floruit: succeeded Donatus as primate of Carthage (don_World_Profile.md line 219); wrote to rebuke Tyconius
-    directly, warning him not to preach a worldwide-church argument again, c. 380 (Doc_02 SS4, Doc_04
-    SS2); no longer primate by 393, when Primian held the see
+  floruit: succeeded Donatus as primate of Carthage; wrote to rebuke Tyconius directly, warning him not to
+    preach a worldwide-church argument again, c. 380; no longer primate by 393, when Primian held the see
 narratable: true
 bridge_line: the primate who wrote to Tyconius directly, warning him not to preach it again
 relations:

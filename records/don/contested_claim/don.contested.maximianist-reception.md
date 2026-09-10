@@ -41,8 +41,8 @@ relations:
   target: don.gravity.rebaptism-boundary-marking
 claim: The mainstream (Primianist) Donatist party's own reception of returning Maximianist clergy without
   repeating either ordination or baptism is decisive evidence that the two Donatist bodies shared one
-  formation pattern all along -- proof against Maximianist strand status (Doc_01 SS4), not merely a rhetorical
-  embarrassment Augustine happened to exploit.
+  formation pattern all along -- proof the two bodies were never truly distinct communions, not merely a
+  rhetorical embarrassment Augustine happened to exploit.
 held_against:
 - A later Donatist apologetic account, reported in a scholarly summary of Augustine's *Contra Cresconium*
   (Doc_02 SS1, Registry rows 17, 31), held that the reception rested on a specific, bounded synodal dispensation

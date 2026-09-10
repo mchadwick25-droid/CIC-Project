@@ -29,8 +29,8 @@ names:
   tag: scholarly
 dates:
   floruit: rebuked by Caecilian, before he became bishop, for kissing a not-yet-recognized martyr's bone;
-    her own money (four hundred pieces of silver) funded Majorinus's rival consecration, 311/312 (don.story.lucilla-consecration-dispute);
-    the same money was the subject of a formal judicial inquiry in 320 (don.story.gesta-apud-zenophilum)
+    her own money (four hundred pieces of silver) funded Majorinus's rival consecration, 311/312; the same
+    money was the subject of a formal judicial inquiry in 320
 narratable: true
 bridge_line: the wealthy laywoman rebuked in public for kissing a martyr's bone before this movement had
   a name

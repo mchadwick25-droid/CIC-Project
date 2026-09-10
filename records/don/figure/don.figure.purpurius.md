@@ -24,9 +24,8 @@ names:
   tag: scholarly
 dates:
   floruit: present at the Council of Cirta, c. 305, where he turned the traditor question back on the
-    presiding bishop Secundus of Tigisis (don.story.council-of-cirta); present at Caecilian's own contested
-    election assembly, 311/312, where he mocked Caecilian openly rather than answer his demand for a plain
-    accusation (don.story.lucilla-consecration-dispute)
+    presiding bishop Secundus of Tigisis; present at Caecilian's own contested election assembly, 311/312,
+    where he mocked Caecilian openly rather than answer his demand for a plain accusation
 narratable: true
 bridge_line: the bishop who mocked Caecilian to his face at the assembly - and who had himself, years
   earlier, deflected the very traditor question back onto the man who first raised it

@@ -26,7 +26,7 @@ names:
   tag: scholarly
 dates:
   floruit: seized at Vegesela during the Macarian persecution; flogged and paraded through Numidian towns;
-    held four days at the cliff of Novapetra; thrown from the cliff before dawn, 347/348 (don.story.passio-marculi)
+    held four days at the cliff of Novapetra; thrown from the cliff before dawn, 347/348
 narratable: true
 bridge_line: the bishop thrown from a cliff at Novapetra, remembered as shown, in advance, exactly what
   his own death would look like

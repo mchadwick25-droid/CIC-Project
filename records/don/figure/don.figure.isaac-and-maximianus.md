@@ -27,7 +27,7 @@ names:
   tag: scholarly
 dates:
   floruit: 347/348, tortured and killed under the Macarian persecution, their bodies thrown into the sea
-    and recovered after six days (don.story.macrobius-letter-isaac-maximianus)
+    and recovered after six days
 narratable: true
 bridge_line: two of our own dead, remembered together the way Macrobius's own letter names them together
   - a name given like a sign, and a soldier who saw the fight before he fought it

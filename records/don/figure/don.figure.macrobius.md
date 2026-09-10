@@ -24,9 +24,8 @@ names:
   tag: scholarly
 dates:
   floruit: bishop, wrote to his own Carthage congregation in the aftermath of the 347-348 Macarian persecution,
-    naming himself and his own office directly (don.story.macrobius-letter-isaac-maximianus); named elsewhere
-    in this world's own vendored corpus as 'the Donatists' own hidden bishop in the city of Rome' (Source_Registry.md
-    row 20)
+    naming himself and his own office directly; named elsewhere in this world's own vendored corpus as 'the
+    Donatists' own hidden bishop in the city of Rome'
 narratable: true
 bridge_line: the bishop who wrote to his own Carthage congregation with the news of two more of our own
   dead

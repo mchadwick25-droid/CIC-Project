@@ -25,7 +25,7 @@ names:
 dates:
   floruit: bishop of Aptungi; consecrated Caecilian as bishop of Carthage, 311/312; accused of traditio,
     the accusation this world's whole founding dispute rests on; investigated and vindicated by Constantine's
-    own ordered inquiry, 314/315 (don.story.acta-purgationis-felicis)
+    own ordered inquiry, 314/315
 narratable: true
 bridge_line: the bishop whose own hand consecrated Caecilian - and whose standing to do that is the accusation
   this movement's whole founding dispute turns on

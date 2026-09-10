@@ -26,9 +26,8 @@ names:
 - name: Donatus the Great / Donatus of Carthage (primate c. 313-347)
   tag: scholarly
 dates:
-  floruit: succeeded Majorinus as primate of Carthage from c. 313 (Doc_01 SS2); primate of the party from
-    313-347 per Monceaux's own dating discussion (Doc_02 SS4); the movement's own name derives from him
-    (world_core, Doc_01 SS2)
+  floruit: succeeded Majorinus as primate of Carthage from c. 313; primate of the party from 313-347 per
+    Monceaux's own dating discussion; the movement's own name derives from him
   died: not established in this world's own vendored corpus beyond the 313-347 primacy window
 narratable: true
 bridge_line: 'the second primate of Carthage, from whom this movement''s own name comes, remembered for

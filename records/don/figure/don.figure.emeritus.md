@@ -32,11 +32,11 @@ names:
 - name: Emeritus of Caesarea (Donatist bishop, fl. 394-418)
   tag: scholarly
 dates:
-  floruit: drafted the sentence of the Council of Bagai, 394 (Monceaux, Doc_02 SS3, implying established
-    authority within the party by that date); at the height of his reputation at the 411 Conference of
-    Carthage, where he is independently confirmed speaking in at least ten separate numbered acts; older
-    and embittered by 418, at a further, separate dialogue with Augustine, Gesta cum Emerito (not itself
-    vendored or checked this session)
+  floruit: drafted the sentence of the Council of Bagai, 394, implying established authority within the
+    party by that date; at the height of his reputation at the 411 Conference of Carthage, where he is
+    independently confirmed speaking in at least ten separate numbered acts; older and embittered by 418,
+    at a further, separate dialogue with Augustine, Gesta cum Emerito (not itself vendored or checked this
+    session)
 narratable: true
 bridge_line: the bishop of Caesarea who stood, with Petilian, as this movement's own two champions before
   the tribunal at Carthage in 411

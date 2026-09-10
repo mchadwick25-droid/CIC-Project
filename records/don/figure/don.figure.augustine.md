@@ -32,7 +32,7 @@ dates:
   born: 354, Thagaste
   floruit: bishop of Hippo from 395/396; wrote the bulk of his anti-Donatist corpus c. 400-420, from On
     Baptism and Answer to the Letters of Petilian (c. 400-403) through Contra Gaudentium (c. 420), his
-    own last anti-Donatist work (don.source.augustine-contra-gaudentium)
+    own last anti-Donatist work
 narratable: true
 bridge_line: the bishop of Hippo who answered us longer and more relentlessly than anyone else, and through
   whose own hostile quotation most of what survives of our own arguments comes down to us

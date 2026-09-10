@@ -26,9 +26,9 @@ names:
 - name: Tyconius (Donatist exegete, condemned c. 380)
   tag: scholarly
 dates:
-  floruit: wrote the Liber Regularum, this movement's own strongest surviving theological writing (don.source.tyconius-liber-regularum);
-    rebuked by Parmenian for arguing the church extended across the whole world; condemned by a council
-    of his own communion, c. 380, per Augustine's own report (don.story.tyconius-condemnation)
+  floruit: wrote the Liber Regularum, this movement's own strongest surviving theological writing; rebuked
+    by Parmenian for arguing the church extended across the whole world; condemned by a council of his own
+    communion, c. 380, per Augustine's own report
 narratable: true
 bridge_line: the one among us whose argument from Scripture was too well-supported to simply dismiss -
   and who was cut off for making it anyway

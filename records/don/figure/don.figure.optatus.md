@@ -26,8 +26,8 @@ names:
 - name: Optatus of Milevis (Catholic bishop, fl. c. 366-393)
   tag: scholarly
 dates:
-  floruit: wrote Against the Donatists in a first edition c. 366-367, revised c. 385 (don.source.optatus-against-donatists);
-    this movement's own earliest substantial narrative source, hostile and external but contemporary
+  floruit: wrote Against the Donatists in a first edition c. 366-367, revised c. 385; this movement's own
+    earliest substantial narrative source, hostile and external but contemporary
 narratable: true
 bridge_line: our own later opponent, whose account is where most of what survives of our own early history
   actually comes from

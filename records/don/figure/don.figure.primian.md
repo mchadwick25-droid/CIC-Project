@@ -28,7 +28,7 @@ names:
 dates:
   floruit: sitting Donatist primate of Carthage in 393, when the deacon Maximian was elected a rival primate
     at Cebarsussi in defiance of his own office; presided over the mainstream response, the 394 Council
-    of Bagai's own condemnation and subsequent reception of the Maximianist bishops (don.story.bagai-reconciliation)
+    of Bagai's own condemnation and subsequent reception of the Maximianist bishops
 narratable: true
 bridge_line: the sitting primate at Carthage when a deacon named Maximian set himself up as a rival bishop
 relations:

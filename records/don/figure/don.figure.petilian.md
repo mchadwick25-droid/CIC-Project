@@ -33,7 +33,7 @@ names:
 dates:
   floruit: bishop of Constantina/Cirta; his own letters answered by Augustine in three books, c. 400-403;
     named by Monceaux, alongside Emeritus, as one of the two principal Donatist champions at the 411 Conference
-    of Carthage (Doc_02 SS3)
+    of Carthage
 narratable: true
 bridge_line: this world's own fullest surviving voice, known to us only through the words our own opponent
   chose to answer

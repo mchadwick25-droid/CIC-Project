@@ -25,7 +25,7 @@ names:
   tag: scholarly
 dates:
   floruit: consecrated as the first rival bishop of Carthage, 311/312, succeeding Caecilian's contested
-    election; succeeded himself, from c. 313, by Donatus (Doc_01 SS2, don.story.lucilla-consecration-dispute)
+    election; succeeded himself, from c. 313, by Donatus
 narratable: true
 bridge_line: the first rival bishop set up against Caecilian - a member of Lucilla's own household, the
   record's hostile telling says, raised by her bribes
