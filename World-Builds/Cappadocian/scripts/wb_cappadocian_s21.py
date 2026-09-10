@@ -1083,7 +1083,9 @@ def build_sources() -> dict[str, str]:
         79, "imperial-communion-law-of-381", "The Roman imperial chancery under Theodosius I "
         "(collective/anonymous legal act)",
         "The imperial communion law of 381 (Codex Theodosianus 16.1.3, 30 July 381), naming "
-        "Helladius, Otreius, Gregory of Nyssa, and Amphilochius",
+        "eleven eastern bishops whose communion is the test of catholicity -- among them four "
+        "of this world's own circle (Amphilochius of Iconium; Helladius of Caesarea, Otreius "
+        "of Melitene, Gregory of Nyssa)",
         "The Pharr 1952 English translation is copyrighted and excluded (row 80); the "
         "Mommsen-Meyer Latin text is public domain but not acquired into cic/texts/ this "
         "session", "na", "attributed",
