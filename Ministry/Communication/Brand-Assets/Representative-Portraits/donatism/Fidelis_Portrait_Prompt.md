@@ -1,18 +1,21 @@
 # Fidelis Portrait — Research Brief and Generation Prompt
 ## Donatism (`don`) — Bishop of the Donatist Communion
 
-**Status:** DRAFT — research and prompt-drafting only. No image has been generated. This document is the
-research brief and the finished Gemini prompt text, produced the same way the six already-approved
-portraits were (`Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`, 2026-07-24 entries): historical
-grounding first, prompt built from that grounding second.
+**Status:** APPROVED (2026-09-10). The generated portrait matching Part Three's prompt is in place at
+`donatism/Fidelis_Portrait.png` (cropped to a centered square and resized to 748px to match the other six
+deployed assets — see the Decision Log entry below for why). This document is the research brief and the
+prompt that produced it, built the same way the six already-approved portraits were
+(`Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`, 2026-07-24 entries): historical grounding first,
+prompt built from that grounding second. Full disposition and correction history:
+`Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`, 2026-09-10 entry.
 
-**Disposition (2026-09-10):** Mark approved proceeding with the no-object recommendation below ("lets try
-it if we need to change we can, no object"), with one further framing instruction: the portrait should face
-straight on toward the viewer, squared to the point of perspective, not turned at an angle. Part Three is
-updated accordingly. A first hand-gesture draft — both hands raised, open palms flat toward the viewer — was
-corrected on Mark's own direct read that it looked like a "stop" or "hold up" gesture rather than a rite
-being administered; replaced with hands cupped inward and angled slightly downward, cradling and pouring
-rather than raised flat outward.
+**Disposition history (2026-09-10):** Mark approved proceeding with the no-object recommendation below ("lets
+try it if we need to change we can, no object"), with one further framing instruction: the portrait should
+face straight on toward the viewer, squared to the point of perspective, not turned at an angle. A first
+hand-gesture draft — both hands raised, open palms flat toward the viewer — was corrected on Mark's own
+direct read that it looked like a "stop" or "hold up" gesture rather than a rite being administered; replaced
+with hands cupped inward and angled slightly downward, cradling and pouring rather than raised flat outward.
+The resulting image was generated, reviewed, and approved.
 
 **Revision note (2026-09-10):** Part One (appearance research) is unchanged and stands as approved research.
 Part Two (the held object) has been fully re-derived and its disposition replaced. The prior pick —
@@ -27,11 +30,10 @@ disposition below replaces candidate (b) with the outcome of a fresh search acro
 gravity set (not only G2/G3), its tensional gravities, and its material-culture record. Part Three is revised
 accordingly; Part One's appearance clauses are carried forward unchanged.
 
-**Proposed future asset path, per `Representative-Portraits/README.md`'s own per-world folder
-convention:** `donatism/Fidelis_Portrait.png`. This document is the first Donatism-folder deliverable; once
-a portrait is actually generated and approved, the README's own table should gain a
-`donatism/` → Fidelis → Donatism row alongside the other six, and its "Status as of" note should be updated
-to say seven Representatives, not six, have approved portraits.
+**Asset path, per `Representative-Portraits/README.md`'s own per-world folder convention:**
+`donatism/Fidelis_Portrait.png` — in place. The README's table now carries the `donatism/` → Fidelis →
+Donatism row alongside the other six, and its "Status as of" note says seven Representatives, not six, have
+approved portraits.
 
 **Governing style lock (2026-07-24, "Style locked"):** painterly/fine-art oil portrait — visible canvas
 texture and cracquelure, not photorealistic; warm, in-dialogue expression, not stern and not mid-speech;
