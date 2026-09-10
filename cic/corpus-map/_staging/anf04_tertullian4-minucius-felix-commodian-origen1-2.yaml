@@ -24,7 +24,7 @@ assignments:
   author: tertullian
   locus: div2 3.2 - On the Pallium
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Short personal apologia for adopting the philosopher''s cloak; Carthage. No Montanist
@@ -35,7 +35,7 @@ assignments:
   author: tertullian
   locus: div2 3.3 - On the Apparel of Women
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Disciplinary treatise on dress and adornment; no New Prophecy markers in the text.
@@ -45,7 +45,7 @@ assignments:
   author: tertullian
   locus: div2 3.4 - On the Veiling of Virgins
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   - montanism-the-new-prophecy
   role: tradition
   confidence: provisional
@@ -58,7 +58,7 @@ assignments:
   author: tertullian
   locus: div2 3.5 - To His Wife
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Two books to his wife on remarriage; earlier, pre-Montanist discipline. No New Prophecy
@@ -69,7 +69,7 @@ assignments:
   author: tertullian
   locus: div2 3.6 - On Exhortation to Chastity
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   - montanism-the-new-prophecy
   role: tradition
   confidence: provisional
@@ -82,7 +82,7 @@ assignments:
   author: tertullian
   locus: div2 3.7 - On Monogamy
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   - montanism-the-new-prophecy
   role: tradition
   confidence: assigned
@@ -95,7 +95,7 @@ assignments:
   author: tertullian
   locus: div2 3.8 - On Modesty
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   - montanism-the-new-prophecy
   role: tradition
   confidence: assigned
@@ -108,7 +108,7 @@ assignments:
   author: tertullian
   locus: div2 3.9 - On Fasting
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   - montanism-the-new-prophecy
   role: tradition
   confidence: assigned
@@ -120,7 +120,7 @@ assignments:
   author: tertullian
   locus: div2 3.10 - De Fuga in Persecutione
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   - montanism-the-new-prophecy
   role: tradition
   confidence: provisional
@@ -134,7 +134,7 @@ assignments:
   author: tertullian
   locus: div2 3.11 - Appendix (five verse pieces, div3s)
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   - apocryphal-and-pseudepigraphal-literature
   role: tradition
   confidence: assigned
