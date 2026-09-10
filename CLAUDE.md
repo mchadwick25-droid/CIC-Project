@@ -55,8 +55,11 @@ Notes, decision logs, audit trails, adversarial-review rounds, status reports, a
 
 ## Usage/credit discipline
 
-Weekly usage credits keep running out. To fix that without losing quality (and without touching anything above this line):
+Weekly usage credits keep running out. To fix that without losing quality (and without touching anything above this line). This is a Max-200 plan; context-window management matters at least as much as model choice — a bloated context costs more than a clean one regardless of tier:
 
+- Manage context actively: `/compact` or `/clear` between unrelated pieces of work, and delegate research/investigation to subagents so exploration doesn't bloat the main thread. Reach for these before reaching for a cheaper model.
+- Use Plan Mode before committing to implementation on anything with uncertain scope — explore read-only first rather than burning implementation-priced turns on discovery.
+- When a path turns out wrong, back out of it with a checkpoint/`/rewind` instead of patching over it — this is "no fix on a fix" (above), enforced mechanically.
 - Fable is reserved for complex design and research — the strategic thinking that sets the frame for everything downstream (system/front-end redesign proposals, comparative source-ecology and world-strategy research, org/funding strategy). Use it where getting the frame right the first time avoids many cheaper rounds of rework later, not for routine drafting or anything that repeats.
 - Opus is for the final adversarial-review gate only. Draft and do intermediate revision rounds with Sonnet.
 - From round 2 onward, do a targeted recheck (only what changed, against prior findings) instead of a full re-review from scratch.
@@ -65,3 +68,5 @@ Weekly usage credits keep running out. To fix that without losing quality (and w
 - Spread heavy build/review days across the week instead of bursting most of a week's work into 1–2 days.
 - Use event-driven waits (PR/CI subscriptions) instead of manual polling loops.
 - Check `/usage` periodically to catch a runaway pattern before it costs the rest of the week.
+- Max-200 draws Claude chat, Claude Code, and Cowork from one shared usage pool — if more than one surface is in use, watch total burn across all of them, not just this session.
+- If the ceiling still gets hit, Max-200 allows purchasing extra usage (billed at API rates) with a spending cap set in Settings → Usage — a planned fallback for a genuinely heavy week, not a substitute for the discipline above.
