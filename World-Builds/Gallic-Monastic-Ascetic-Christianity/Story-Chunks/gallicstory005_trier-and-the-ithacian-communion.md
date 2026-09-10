@@ -7,24 +7,34 @@ World-Code:     gallic
 
 Tier:           1
 
-Confidence:     Widely Accepted at the narrative level (the Trier
-                affair is told twice in this world's own corpus, in the
-                Dialogues as Gallus's report and independently in the
-                Sacred History in Sulpitius's own voice — two works, one
-                author); Contested for the angel's speech and for the
-                diminution of power, which are Martin's own reported
-                experience as Sulpitius transmits it, and are carried as
-                such.
+Confidence:     Widely Accepted at the narrative level (one named,
+                socially located author, in two of his own works —
+                corrected, Round 1 review finding M13: the prior draft
+                called this "told twice... independently... converging,"
+                overstating what the two texts actually share; *Sacred
+                History* II.50 narrates an earlier phase, Martin's plea
+                at Trier *before* Priscillian's execution, while
+                *Dialogues* III.11–13 narrates a later visit *after* the
+                execution, with the coerced communion, Felix's
+                ordination, and the angel — the two accounts share an
+                author, a setting, and a principle, not one converging
+                narrative of one event); Contested for the angel's
+                speech and for the diminution of power, which are
+                Martin's own reported experience as Sulpitius transmits
+                it, and are carried as such.
 
 Source:         Sulpitius Severus, Dialogues III.11–13 (npnf211, divs
                 ii.iv.iii.xi–xiii; flattened working copy lines
                 4577–4719), tr. Alexander Roberts — Source Registry row 3
-                (Native, Confidence A); corroborated for the Trier
-                setting, Martin's plea, and his principle by Sulpitius's
-                own Sacred History II.50 (div ii.vi.ii.l; lines
-                10932–10970) — row 6 (Native, Confidence B; the narrative
-                text re-read directly at Doc_09). Roberts's note on the
-                corrupt text at "Andethanna" is editorial, row 17.
+                (Native, Confidence A); the same author's earlier-phase
+                account of the same affair, at Sacred History II.50 (div
+                ii.vi.ii.l; lines 10932–10970) — row 6 (Native,
+                Confidence B; the narrative text re-read directly at
+                Doc_09) — is a related but distinct episode, not
+                independent corroboration of this chunk's own narrated
+                events (corrected, Round 1 review finding M13). Roberts's
+                note on the corrupt text at "Andethanna" is editorial,
+                row 17.
 
 Retrieve-When:  Participant asks why Martin avoided bishops or synods,
                 what he thought of the state judging heresy, or about
@@ -47,15 +57,15 @@ Do-Not-Retrieve-When: Participant is asking about Priscillianism as a
                 loss (retrieve gallicstory003 or lexicon 010).
 ```
 
-*Node note:* Tours (the northern node), the event at Trier under the emperor Maximus, after Priscillian's execution — the text gives no year, and says only that Martin "lived sixteen years after this." Told in the *Dialogues* by Gallus, "a disciple of Martin's," within Sulpitius's frame. Written in close third person from inside the world, in Tier 1 register.
+*Node note:* Tours (the northern node), the event at Treves (corrected, Round 1 review finding L2 — the prior draft used the modernized "Trier"; the vendored volume's own English translation writes "Treves") under the emperor Maximus, after Priscillian's execution — the text gives no year, and says only that Martin "lived sixteen years after this." Told in the *Dialogues* by Gallus, "a disciple of Martin's," within Sulpitius's frame. Written in close third person from inside the world, in Tier 1 register.
 
 ---
 
 ## Story Text
 
-In his *Dialogues*, Sulpitius Severus has Gallus — one of Martin's own disciples — tell "an event which he always concealed, owing to the character of the times, but which he could not conceal from us." Sulpitius tells the outer shape of the same affair in his own voice in the *Sacred History*.
+In his *Dialogues*, Sulpitius Severus has Gallus — one of Martin's own disciples — tell "an event which he always concealed, owing to the character of the times, but which he could not conceal from us." Sulpitius's *Sacred History* narrates an earlier phase of the same affair, in his own voice (corrected, Round 1 review finding M13 — not "the same affair... in his own voice," which overstated the overlap; see the Confidence field above).
 
-After Priscillian had been put to death, the emperor Maximus "protected by his royal power Ithacius the bishop, who had been the accuser of Priscillian." The bishops gathered at Trier were "daily communicating with Ithacius" and "had made common cause with him." Martin was on his way to the court "constrained … by many serious causes of people involved in suffering" — and among the things being prepared there was an order "to send some tribunes armed with absolute power into the two Spains, to search out heretics, and, when found, to deprive them of their life or goods," a hunt in which, Gallus says, "one was deemed a heretic rather on his turning pale from fear, or wearing a particular garment, than by the faith which he professed."
+After Priscillian had been put to death, the emperor Maximus "protected by his royal power Ithacius the bishop, who had been the accuser of Priscillian." The bishops gathered at Treves were "daily communicating with Ithacius" and "had made common cause with him." Martin was on his way to the court "constrained … by many serious causes of people involved in suffering" — and among the things being prepared there was an order "to send some tribunes armed with absolute power into the two Spains, to search out heretics, and, when found, to deprive them of their life or goods," a hunt in which, Gallus says, "one was deemed a heretic rather on his turning pale from fear, or wearing a particular garment, than by the faith which he professed."
 
 The bishops, "conscious of evil as they were," feared that Martin would refuse them communion and that others would follow him. They had the emperor's officials meet him on the road and forbid him the city unless he would "maintain peace with the bishops who were living there." He answered "that he would come among them with the peace of Christ," entered at night, prayed, and next day went to the palace. His chief request was "that tribunes, with the power of life and death, should not be sent into the Spains" — "not only to save from danger the true Christians in these regions … but to protect even heretics themselves." In the *Sacred History* Sulpitius states the principle in his own words: Martin "maintained that it was quite sufficient punishment that, having been declared heretics by a sentence of the bishops, they should have been expelled from the churches; and that it was, besides, a foul and unheard-of indignity, that a secular ruler should be judge in an ecclesiastical cause."
 
@@ -77,7 +87,7 @@ What this story does that no gravity entry can: it shows the world's own account
 
 ## Tier Justification
 
-Tier 1 — Documented Historical Narrative — with its caveats. Direct textual attestation within the world's horizon: the *Dialogues* (c. 404–406), by a named, socially located author, told through the mouth of a named disciple who was Martin's companion; and the same affair set out independently in Sulpitius's own *Sacred History* II.50 in the author's own voice — two works of one author converging on the setting (Trier, Maximus, Ithacius), Martin's plea, and his principle. Datable with reasonable confidence by the text's own internal anchors — Maximus's reign, "after Priscillian had been put to death," and within the last sixteen years of Martin's life (Gallus's own figure, carried as the text gives it, not converted to a year). The narrative claim — a bishop interceding at a usurper's court against the execution of heretics and the dispatch of tribunes, forced into one communion, and withdrawing from synods thereafter — is historically credible, is not itself miraculous, and is the kind of public event a contemporary Gallic aristocrat could know. Within this world's own Native corpus it is the best-corroborated Martin narrative there is.
+Tier 1 — Documented Historical Narrative — with its caveats. Direct textual attestation within the world's horizon: the *Dialogues* (c. 404–406), by a named, socially located author, told through the mouth of a named disciple who was Martin's companion; and an earlier phase of the same affair set out in Sulpitius's own *Sacred History* II.50, in his own voice, sharing the setting (Treves, Maximus, Ithacius) and Martin's principle without narrating the same events (corrected, Round 1 review finding M13 — the prior draft called this "the same affair set out independently... converging," overstating the overlap between two accounts of two different phases). Datable with reasonable confidence by the text's own internal anchors — Maximus's reign, "after Priscillian had been put to death," and within the last sixteen years of Martin's life (Gallus's own figure, carried as the text gives it, not converted to a year). The narrative claim — a bishop interceding at a usurper's court against the execution of heretics and the dispatch of tribunes, forced into one communion, and withdrawing from synods thereafter — is historically credible, is not itself miraculous, and is the kind of public event a contemporary Gallic aristocrat could know.
 
 The caveats Tier 1 requires: Gallus's account is framed as the disclosure of something Martin "always concealed," i.e. it rests on Martin's own report to his household; the angel's speech and the "diminution of his power" are Martin's own reported experience ("he at once confessed to us with tears"), transmitted by a hagiographer whose corpus is organized by *virtus* (Doc_04 G6) — carried here at Contested strength as the world's own self-understanding, per this build's Reported-Experience discipline, not as historical fact; and Sulpitius's hostility to Ithacius ("no worth or holiness about him," *SH* II.50) is his own perspective. The bare sequence (the plea, the coerced communion, the withdrawal from synods) is carried at narrative-level confidence. This is the same split Donatism's donstory003 applied to Macrobius's omen and vision: a Tier 1 story may carry its author's supernatural framing at lower confidence without dropping to Tier 3, so long as the framing is named as such. Widely Accepted rather than Documented because two works by one author are not "multiple independent sources."
 

@@ -11,10 +11,14 @@ Tier:           1
 Confidence:     Widely Accepted at the narrative level (one named
                 ancient author, through a named disciple-narrator, of an
                 event inside the household the narrator belonged to,
-                with a named living subject — Brictio — who was still a
-                presbyter of Tours when the Dialogues were written);
-                Contested for the two demons on the rock, which are
-                Martin's own reported perception as Gallus transmits it.
+                with a named living subject, Brictio, whom Martin "could
+                not be induced to remove... from the presbyterate" —
+                corrected, Round 1 review finding L6: the prior draft
+                additionally claimed Brictio "was still a presbyter of
+                Tours when the Dialogues were written," which nothing at
+                this locus states); Contested for the two demons on the
+                rock, which are Martin's own reported perception as
+                Gallus transmits it.
 
 Source:         Sulpitius Severus, Dialogues III.15 (npnf211, div
                 ii.iv.iii.xv; flattened working copy lines 4778–4830),
@@ -46,13 +50,13 @@ Do-Not-Retrieve-When: Participant wants the general teaching on
                 doctrine of demons (retrieve lexicon 050).
 ```
 
-*Node note:* Tours (the northern node), at Marmoutier. Told by Gallus within Sulpitius's frame. Written in close third person from inside the world, in Tier 1 register.
+*Node note:* Tours (the northern node), at Martin's own dwelling (corrected, Round 1 review finding H2 — *Dial.* III.15 does not itself name Marmoutier; see the Story Text's own correction note). Told by Gallus within Sulpitius's frame. Written in close third person from inside the world, in Tier 1 register.
 
 ---
 
 ## Story Text
 
-In the *Dialogues*, Sulpitius Severus has Gallus tell what happened one day at Marmoutier, "after he had sat down on that wooden seat of his (which you all know), placed in the small open court which surrounded his abode."
+In the *Dialogues*, Sulpitius Severus has Gallus tell what happened one day at Martin's own dwelling (corrected, Round 1 review finding H2 — the prior draft named "Marmoutier"; *Dial.* III.15 itself names no location beyond "the small open court which surrounded his abode," and "Marmoutier" occurs in this world's vendored volume only in Gibson's editorial prolegomena to Cassian, never in Sulpitius's own text), "after he had sat down on that wooden seat of his (which you all know), placed in the small open court which surrounded his abode."
 
 Martin, Gallus says, "perceived two demons sitting on the lofty rock which overhangs the monastery," and heard them calling, "in eager and gladsome tones," *Come hither, Brictio, come hither, Brictio.* And Brictio came — "rushes in in absolute fury; and there, full of madness, he vomits forth a thousand reproaches against Martin."
 

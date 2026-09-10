@@ -19,8 +19,13 @@ Confidence:     Widely Accepted at the narrative level (Cassian's own
                 [CT] at lexicon 008/009), which this story does not
                 resolve.
 
-Source:         John Cassian, Conferences XIII.1–3 — the Second
-                Conference of Abbot Chæremon (npnf211, divs iv.v.iv.i–iii;
+Source:         John Cassian, Conferences XIII.1–3 — the Third
+                Conference of Abbot Chæremon (corrected, Round 1 review
+                finding M5 — the prior draft called this "the Second
+                Conference"; the text's own heading names it the Third,
+                and the Second is Conf. XII, "On Chastity. Not
+                translated" — the very absence this chunk's own argument
+                depends on) (npnf211, divs iv.v.iv.i–iii;
                 flattened working copy lines 35628–35728), with the
                 Conference's own later statements at XIII.13 (line 36435)
                 and XIII.18 (line 36894), tr. Edgar C. S. Gibson — Source
@@ -62,7 +67,7 @@ Do-Not-Retrieve-When: Participant wants the doctrine itself at depth
 
 ## Story Text
 
-At the opening of his Thirteenth Conference, Cassian records how the question of grace and effort came up — not in a school, but between two friends at the hour of prayer.
+At the opening of his Thirteenth Conference, Cassian records how the question of grace and effort came up in Egypt — not in a school, but between two friends at the hour of prayer, at the cell of an Egyptian elder near Panephysis, written down afterward in Gaul for the brothers at Lérins (corrected, Round 1 review finding H3 — the prior draft's Story Text did not itself disclose the setting, though the front-matter did).
 
 They had spent the previous evening, he and Germanus, hearing the old man Chæremon speak on chastity — a discourse "the force of which had inspired us with the utmost longing for this chastity which was till now unknown to us." Then, "when after a short sleep we returned for morning service and were waiting for the old man, Abbot Germanus was troubled by great scruples." The trouble was one sentence. In the night's teaching "the blessed old man had by the addition of a single sentence broken down the claims of man's exertions, adding that man even though he strive with all his might for a good result, yet cannot become master of what is good unless he has acquired it simply by the gift of Divine bounty and not by the efforts of his own toil."
 
@@ -78,7 +83,7 @@ That morning's answer grew into the whole Conference. Later in it Chæremon woul
 
 ## Formation Ecology Connection
 
-This is **G3 — the grace-and-effort argument** (Supporting at world level; Primary within the southern node; node-bound) at the moment the world's own text says it began: as a formation question, at morning service, between two monks who had just been told that the chastity they were straining for could not be earned. Doc_05 §2.4(v) makes this the load-bearing finding for Doc_04 §10 item 2 — "the argument this world became known for is, from within, an argument about *whether the practices of §2.2 accomplish anything*" — and Doc_08 Force 2B-1 builds its Layer 1 on it: the position "sits as a remedy for pride at the summit of the manual" before any outside report made it "the Massilian position." It is **G7 — the interior road** (Supporting) meeting its own limit — Germanus's scruple is *about* purity — and **G4 — received, not invented** in the form the argument would always take in this world ("all the Catholic fathers," XIII.18; "not giving my own opinion, but that of the elders," *Inst.* XII.14). It is also **G5** in its southern medium: a reported conference, its authority resting on the fact that Cassian heard Chæremon (Doc_04 G5's forces notation: "Prosper attacks 'a man of priestly rank' without naming him").
+This is **G3 — the grace-and-effort argument** (Supporting at world level; Primary within the southern node; node-bound) at the moment the world's own text says it began: as a formation question, in Egypt, at morning service, between two monks who had just been told that the chastity they were straining for could not be earned — the argument's own origin is received Egyptian experience, not a Gallic house's invention (Doc_04 §7; Doc_05 §7.2; Doc_06 §4(a); corrected, Round 1 review finding H3). Doc_05 §2.4(v) makes this the load-bearing finding for Doc_04 §10 item 2 — "the argument this world became known for is, from within, an argument about *whether the practices of §2.2 accomplish anything*" — and Doc_08 Force 2B-1 builds its Layer 1 on it: the position "sits as a remedy for pride at the summit of the manual" before any outside report made it "the Massilian position." It is **G7 — the interior road** (Supporting) meeting its own limit — Germanus's scruple is *about* purity — and **G4 — received, not invented** in the form the argument would always take in this world ("all the Catholic fathers," XIII.18; "not giving my own opinion, but that of the elders," *Inst.* XII.14). It is also **G5** in its southern medium: a reported conference, its authority resting on the fact that Cassian heard Chæremon (Doc_04 G5's forces notation: "Prosper attacks 'a man of priestly rank' without naming him").
 
 What the story does that lexicon 008 and 009 cannot: it lets a participant see the argument's *shape from inside* — a man worried, at prayer, that his effort might count for nothing; an elder who shortens the office to answer him; a farmer's field — before any label ("Massilian," "semi-Pelagian," "predestination") is applied to it. Doc_07 §4 found that G3 is, under forces, "partly an artifact of how it was reported"; this is what was reported.
 
