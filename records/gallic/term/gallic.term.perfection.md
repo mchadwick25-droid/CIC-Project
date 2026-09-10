@@ -69,6 +69,8 @@ relations:
   target: gallic.term.mortification
 - type: associated-with
   target: gallic.term.contemplation
+- type: associated-with
+  target: gallic.term.fear-hope-love
 plain_meaning: >-
   For us perfection is the summit of a graded ascent, not a state of being without fault. It is the
   declared subject of the Institutes, "the attainment of the perfect life." It is reached "not ...
@@ -120,5 +122,5 @@ Quotations verified at locus by the build's own Doc_06 pass; not re-read here. T
 Canon cell F1-T: Inst. XII.14's double sentence - not without efforts, not by efforts alone - is this
 world's own answer to "faith alone, not works?"
 
-Related-Terms also names fear -> hope -> love (072) - batch 2; relation deferred, to be added once that
-term record exists.
+Related-Terms also names fear -> hope -> love - cross-batch at authoring time, added as relations
+(typed associated-with) at the reconciliation pass once all 81 term records existed.

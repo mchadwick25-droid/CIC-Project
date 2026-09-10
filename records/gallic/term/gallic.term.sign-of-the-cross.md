@@ -45,6 +45,20 @@ relations:
   target: gallic.term.soldier-of-christ
 - type: associated-with
   target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.blessing
+- type: associated-with
+  target: gallic.term.heathen-rustics
+- type: associated-with
+  target: gallic.term.possessed-exorcism
+- type: associated-with
+  target: gallic.term.the-devil-demons
+- type: associated-with
+  target: gallic.term.illusion
+- type: associated-with
+  target: gallic.term.angels
+- type: associated-with
+  target: gallic.term.the-monks-dress
 plain_meaning: >-
   For us the sign of the cross is a gesture with real force. It is the thing Martin will go into
   battle "protected by ... and not by shield or helmet." It halts a funeral crowd in its tracks and
@@ -90,6 +104,6 @@ emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read h
 a gesture with visible effect is this world's own material on God's power being experienced, not only
 believed.
 
-Related-Terms also names the devil / demons (050), blessing (049), the possessed / exorcism (051),
-heathen / rustics (053), illusion (052), angels (075) and the monk's dress (066) - all batch 2;
-relations deferred, to be added once those term records exist.
+Related-Terms also names the devil / demons, blessing, the possessed / exorcism, heathen / rustics,
+illusion, angels and the monk's dress - cross-batch at authoring time, added as relations (typed
+associated-with) at the reconciliation pass once all 81 term records existed.

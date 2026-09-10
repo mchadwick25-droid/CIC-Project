@@ -64,6 +64,24 @@ relations:
   target: gallic.term.elder-senior-abbot
 - type: associated-with
   target: gallic.term.junior-novice
+- type: associated-with
+  target: gallic.term.apostolic-authority
+- type: associated-with
+  target: gallic.term.brethren
+- type: associated-with
+  target: gallic.term.communion
+- type: associated-with
+  target: gallic.term.gaul
+- type: associated-with
+  target: gallic.term.heathen-rustics
+- type: associated-with
+  target: gallic.term.sarabaite
+- type: associated-with
+  target: gallic.term.virgin-virginity
+- type: associated-with
+  target: gallic.term.penance-satisfaction
+- type: associated-with
+  target: gallic.term.the-religious
 plain_meaning: >-
   A monastery, for us, is simply the place where monks dwell. Martin's wooden cell and the caves
   around it; a bishop's "new monastery" in a province without one; a house "for women" at Marseilles.
@@ -111,5 +129,6 @@ Built from Doc_06 entry 014 (Tier 2; chunk galliclex014_monastery-coenobium.md; 
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cells left
 empty: the term describes the house, not any canon question's substance.
 
-Related-Terms also names Sarabaite (069), brethren (070), virgin / virginity (064) and Gaul (068) -
-all batch 2; relations deferred, to be added once those term records exist.
+Related-Terms also names Sarabaite, brethren, virgin / virginity and Gaul - cross-batch at authoring
+time, added as relations (typed associated-with) at the reconciliation pass once all 81 term records
+existed.

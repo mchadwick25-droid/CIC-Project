@@ -51,6 +51,18 @@ relations:
   target: gallic.term.merit
 - type: associated-with
   target: gallic.term.pelagians-as-foil
+- type: associated-with
+  target: gallic.term.humility
+- type: associated-with
+  target: gallic.term.combat-athlete
+- type: associated-with
+  target: gallic.term.unceasing-prayer
+- type: associated-with
+  target: gallic.term.purity-of-heart
+- type: presupposes
+  target: gallic.term.grace
+- type: presupposes
+  target: gallic.term.free-will
 plain_meaning: >-
   Our own verb for how grace meets effort. God's grace works with our will - it goes before,
   helps, and crowns it. Yet it asks real effort of us, so as not to give gifts to one asleep.
@@ -94,5 +106,8 @@ false_friend and distortion_risk: high. Doc_03 5.6's flag that Doc_01 section 7 
 analytically is honoured: the record's own vocabulary is "co-operate," never "synergy."
 
 Related-Terms also names grace (of God), free will, humility, combat / athlete, unceasing prayer /
-the canonical system, and purity of heart (batch 1 / not built) - relations deferred, to be added
-once those term records exist.
+the canonical system, and purity of heart - cross-batch at authoring time, added as relations (typed
+associated-with except as stated here) at the reconciliation pass once all 81 term records existed.
+Relation typing: `presupposes` gallic.term.grace and gallic.term.free-will - the chunk's Ecological
+Function makes this term "the operative verb of the grace teaching": grace "always co-operates with
+our will", so there is no co-operation without both.

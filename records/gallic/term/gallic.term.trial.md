@@ -50,6 +50,18 @@ relations:
   target: gallic.term.heretic-heresy
 - type: associated-with
   target: gallic.term.doctor-expositor
+- type: associated-with
+  target: gallic.term.combat-athlete
+- type: associated-with
+  target: gallic.term.the-rule
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.free-will
+- type: associated-with
+  target: gallic.term.grace
+- type: associated-with
+  target: gallic.term.virtus
 plain_meaning: >-
   God's proving of love - "the Lord your God trieth you, to know whether you love Him." A whole
   Church is tried by a learned teacher's novelty; a single will by a permitted assault.
@@ -95,8 +107,8 @@ one-proof-text-two-ecologies finding (Doc_05 section 6C mode 5) is carried in di
 canon_cells left empty: the term informs no canon question directly enough to claim one.
 
 Related-Terms also names the rule, novelty vs. antiquity, free will, grace (of God), combat /
-athlete, the devil / demons, virtus / power, and Catholic - of which the rule, novelty vs.
-antiquity, free will, grace, combat / athlete, and virtus / power are batch 1 / not built
-(relations deferred, to be added once those term records exist), and the devil / demons and
-Catholic are in-batch but not made relations here, since the chunk's Ecological Function states
-no dependency on them.
+athlete, the devil / demons, virtus / power, and Catholic. The rule, novelty vs. antiquity, free
+will, grace, combat / athlete, and virtus / power were batch 1 / not built when this record was
+authored and were added as associated-with relations at the cross-batch reconciliation pass once all
+81 term records existed; the devil / demons and Catholic are in-batch but not made relations here,
+since the chunk's Ecological Function states no dependency on them.

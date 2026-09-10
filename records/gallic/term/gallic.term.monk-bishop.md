@@ -87,6 +87,36 @@ relations:
   target: gallic.term.lukewarmness
 - type: associated-with
   target: gallic.term.eight-principal-faults
+- type: associated-with
+  target: gallic.term.anathema
+- type: associated-with
+  target: gallic.term.apostolic-authority
+- type: associated-with
+  target: gallic.term.apostolic-see-pope
+- type: associated-with
+  target: gallic.term.blessing
+- type: associated-with
+  target: gallic.term.catechumen
+- type: associated-with
+  target: gallic.term.communion
+- type: associated-with
+  target: gallic.term.council-synod
+- type: associated-with
+  target: gallic.term.gaul
+- type: associated-with
+  target: gallic.term.grace-as-charism
+- type: associated-with
+  target: gallic.term.heathen-rustics
+- type: associated-with
+  target: gallic.term.heretic-heresy
+- type: associated-with
+  target: gallic.term.merit
+- type: associated-with
+  target: gallic.term.pelagians-as-foil
+- type: associated-with
+  target: gallic.term.possessed-exorcism
+- type: associated-with
+  target: gallic.term.virgin-virginity
 plain_meaning: >-
   The office our monks keep being taken into. A monk "carried off," "escorted under guard," "bound to
   the long-avoided office," who then keeps "the objects and virtues of a monk" in a see. And at the
@@ -147,6 +177,6 @@ footnotes (summus sacerdos, papa) are not counted as voices, matching the chunk.
 this world's own material for "your church used power against dissenters") and F6-I (the office as
 temptation and destination is a thing we never settled).
 
-Related-Terms also names Apostolic See / Pope (062), council / synod (059), communion (061), apostolic
-authority (063), heretic / heresy (060) and Gaul (068) - all batch 2; relations deferred, to be added
-once those term records exist.
+Related-Terms also names Apostolic See / Pope, council / synod, communion, apostolic authority,
+heretic / heresy and Gaul - cross-batch at authoring time, added as relations (typed
+associated-with) at the reconciliation pass once all 81 term records existed.

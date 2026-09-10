@@ -53,6 +53,22 @@ retrieval:
   - the Reformed doctrine of "the perseverance of the saints" as such - a modern-hearing gap, not our vocabulary
   - any attempt to source it from Salvian
 relations:
+- type: associated-with
+  target: gallic.term.conversion
+- type: associated-with
+  target: gallic.term.free-will
+- type: associated-with
+  target: gallic.term.grace
+- type: associated-with
+  target: gallic.term.lukewarmness
+- type: associated-with
+  target: gallic.term.junior-novice
+- type: associated-with
+  target: gallic.term.profession
+- type: associated-with
+  target: gallic.term.humility
+- type: associated-with
+  target: gallic.term.monk-solitary
 - type: presupposes
   target: gallic.term.beginning-of-a-good-will
 - type: associated-with
@@ -110,5 +126,5 @@ first, so this record `presupposes` gallic.term.beginning-of-a-good-will (the ch
 "the end of the grace argument as 042 is its start").
 
 Related-Terms also names grace (of God), free will, lukewarmness, junior / novice, profession,
-humility, and monk / solitary (batch 1 / not built) - relations deferred, to be added once those
-term records exist.
+humility, and monk / solitary - cross-batch at authoring time, added as relations (typed
+associated-with) at the reconciliation pass once all 81 term records existed.

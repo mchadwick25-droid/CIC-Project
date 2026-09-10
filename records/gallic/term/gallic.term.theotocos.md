@@ -38,6 +38,10 @@ retrieval:
   - the participant wants the content of Cassian's De Incarnatione - unread by this build; state the limit
   - later Marian doctrine
 relations:
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.the-rule
 - type: illustrates
   target: gallic.term.progress-vs-alteration
 - type: associated-with
@@ -81,6 +85,7 @@ related to Christ's divinity.
 Relation typing: `illustrates` gallic.term.progress-vs-alteration (one of the "new names" that
 passage has in view).
 
-Related-Terms also names novelty vs. antiquity and the rule (batch 1 / not built) - relations
-deferred, to be added once those term records exist. The chunk also names heretic / heresy,
-Catholic, and the deposit (in-batch); not made relations, since no dependency is stated.
+Related-Terms also names novelty vs. antiquity and the rule - cross-batch at authoring time, added
+as relations (typed associated-with) at the reconciliation pass once all 81 term records existed.
+The chunk also names heretic / heresy, Catholic, and the deposit (in-batch); not made relations,
+since no dependency is stated.

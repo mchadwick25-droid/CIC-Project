@@ -73,6 +73,18 @@ relations:
   target: gallic.term.thoughts
 - type: associated-with
   target: gallic.term.contemplation
+- type: associated-with
+  target: gallic.term.angels
+- type: associated-with
+  target: gallic.term.co-operation
+- type: associated-with
+  target: gallic.term.communion
+- type: associated-with
+  target: gallic.term.gaul
+- type: associated-with
+  target: gallic.term.penance-satisfaction
+- type: associated-with
+  target: gallic.term.the-monks-dress
 plain_meaning: >-
   Two things at once. At Marseilles, a fixed "canonical system" of psalms and prayers at set hours,
   received from Egypt as "brought down from heaven to the fathers by the ministry of an angel." At
@@ -131,6 +143,6 @@ chunk requires; the Benedictine footnote at Inst. II.5 is not cited, matching th
 Canon cells F4-I and F4-P assigned: this is the term that answers "why and how did you pray?" directly,
 and the anvil / continual-prayer aim is substantive for "someone who struggled to quiet their mind."
 
-Related-Terms also names penance / satisfaction (batch 2, 067), communion (batch 2, 061), the monk's
-dress (batch 2, 066) and Gaul (batch 2, 068) - relations deferred, to be added once those term records
-exist.
+Related-Terms also names penance / satisfaction, communion, the monk's dress and Gaul - cross-batch
+at authoring time, added as relations (typed associated-with) at the reconciliation pass once all 81
+term records existed.

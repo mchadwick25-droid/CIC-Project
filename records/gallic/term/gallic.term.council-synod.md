@@ -58,6 +58,14 @@ relations:
   target: gallic.term.angels
 - type: associated-with
   target: gallic.term.theotocos
+- type: associated-with
+  target: gallic.term.monk-bishop
+- type: associated-with
+  target: gallic.term.the-rule
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.the-fathers-elders
 plain_meaning: >-
   Two things at once. At Lerins, the ancients' decree that guards the faith, legitimate because it
   innovates nothing. At Tours, the assembly of bishops that handed heretics to the sword, and
@@ -107,6 +115,6 @@ bishops did ("innovated nothing") is this world's own answer to how a council re
 faith; F3-P because Trier and the sword are the north's own record of bishops using state power
 against Christians who disagreed, and Martin's refusal is its judgment on that.
 
-Related-Terms also names bishop / the monk-bishop, the rule, novelty vs. antiquity, and the
-Fathers / elders (batch 1 / not built) - relations deferred, to be added once those term records
-exist.
+Related-Terms also names bishop / the monk-bishop, the rule, novelty vs. antiquity, and the Fathers
+/ elders - cross-batch at authoring time, added as relations (typed associated-with) at the
+reconciliation pass once all 81 term records existed.

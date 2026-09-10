@@ -63,6 +63,14 @@ relations:
   target: gallic.term.accidie
 - type: associated-with
   target: gallic.term.contemplation
+- type: associated-with
+  target: gallic.term.angels
+- type: associated-with
+  target: gallic.term.the-devil-demons
+- type: associated-with
+  target: gallic.term.illusion
+- type: associated-with
+  target: gallic.term.kingdom-within
 plain_meaning: >-
   The monk's own dwelling, and the place where everything happens to him. There Martin prays,
   receives saints, and is tempted by a purple-robed devil behind a closed door. There Cassian's junior
@@ -111,5 +119,6 @@ galliclex016_cell.md; Doc_03 1.5). Register emic. Quotations verified at locus b
 Doc_06 pass; not re-read here. Canon cell F4-P: the cell as harbour and anchor for "the wanderings of
 the heart" is this world's own substantive answer to someone who struggles to quiet their mind.
 
-Related-Terms also names the devil / demons (050), illusion (052) and angels (075) - all batch 2;
-relations deferred, to be added once those term records exist.
+Related-Terms also names the devil / demons, illusion and angels - cross-batch at authoring time,
+added as relations (typed associated-with) at the reconciliation pass once all 81 term records
+existed.

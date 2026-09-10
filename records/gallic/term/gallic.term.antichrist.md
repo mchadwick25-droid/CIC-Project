@@ -45,6 +45,10 @@ retrieval:
   - the question is about the devil's false appearances (retrieve illusion)
   - later apocalyptic systems
 relations:
+- type: associated-with
+  target: gallic.term.the-world-secular
+- type: associated-with
+  target: gallic.term.bloodless-martyrdom-confessor
 - type: tension-with
   target: gallic.term.government-of-god
 - type: associated-with
@@ -90,6 +94,6 @@ Kept thin at the Tier-3 floor; the DR tag carried as distortion_risk: medium. G1
 Relation typing: `tension-with` gallic.term.government-of-god - judgment-soon against Salvian's
 judgment-now, the chunk's "counterpart, not the twin."
 
-Related-Terms also names the world / secular (batch 1 / not built) - relation deferred, to be
-added once that term record exists. The chunk also names heretic / heresy and trial (in-batch);
-not made relations, since no dependency is stated.
+Related-Terms also names the world / secular - cross-batch at authoring time, added as relations
+(typed associated-with) at the reconciliation pass once all 81 term records existed. The chunk also
+names heretic / heresy and trial (in-batch); not made relations, since no dependency is stated.

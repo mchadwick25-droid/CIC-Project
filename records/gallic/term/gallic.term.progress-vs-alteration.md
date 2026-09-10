@@ -48,6 +48,12 @@ retrieval:
   - the question is about the test (retrieve the rule)
   - Newman's theory of development as such - that is this term's afterlife, not its world meaning
 relations:
+- type: associated-with
+  target: gallic.term.the-rule
+- type: associated-with
+  target: gallic.term.tradition
+- type: associated-with
+  target: gallic.term.the-fathers-elders
 - type: presupposes
   target: gallic.term.the-deposit
 - type: illustrated-by
@@ -56,6 +62,8 @@ relations:
   target: gallic.term.council-synod
 - type: associated-with
   target: gallic.term.doctor-expositor
+- type: presupposes
+  target: gallic.term.novelty-antiquity
 plain_meaning: >-
   Vincent's answer to "Shall there be no progress in the Church?" All possible progress - but real
   progress, not alteration. The grown man has the same joints he had as a child.
@@ -106,7 +114,10 @@ Relation typing: `presupposes` gallic.term.the-deposit (growth-form of the depos
 `illustrated-by` gallic.term.theotocos (one of the "new names" the passage has in view, per the
 chunk's Ecological Function).
 
-Related-Terms also names the rule, novelty vs. antiquity, tradition, and the Fathers / elders
-(batch 1 / not built) - relations deferred, to be added once those term records exist. The chunk
-also names Catholic and heretic / heresy (in-batch); not made relations, since no dependency is
-stated.
+Related-Terms also names the rule, novelty vs. antiquity, tradition, and the Fathers / elders -
+cross-batch at authoring time, added as relations (typed associated-with except as stated here) at
+the reconciliation pass once all 81 term records existed. Relation typing: `presupposes`
+gallic.term.novelty-antiquity follows the chunk's own "the positive face of novelty vs. antiquity
+(012)" - the same shape as the rule's presupposes toward the axis (011: the procedure presupposes
+the value it runs on). The chunk also names Catholic and heretic / heresy (in-batch); not made
+relations, since no dependency is stated.

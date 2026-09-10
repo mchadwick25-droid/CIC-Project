@@ -51,6 +51,14 @@ retrieval:
   - the question is about grace and free will - Salvian's text is not licensed for that argument and this term never touches it
   - the question is about "government" as politics or the state
 relations:
+- type: associated-with
+  target: gallic.term.the-world-secular
+- type: associated-with
+  target: gallic.term.lukewarmness
+- type: associated-with
+  target: gallic.term.conversion
+- type: associated-with
+  target: gallic.term.monk-solitary
 - type: tension-with
   target: gallic.term.antichrist
 - type: associated-with
@@ -108,7 +116,7 @@ Key Sources names them; they attest the absence of this sense, not its presence.
 Relation typing: `tension-with` gallic.term.antichrist follows the chunk's own "the counterpart,
 not the twin" - judgment-now against the founding voices' judgment-soon.
 
-Related-Terms also names the world / secular, lukewarmness, conversion, and monk / solitary
-(batch 1 / not built) - relations deferred, to be added once those term records exist. The chunk
-also names trial and heretic / heresy (in-batch); not made relations, since no dependency is
-stated.
+Related-Terms also names the world / secular, lukewarmness, conversion, and monk / solitary -
+cross-batch at authoring time, added as relations (typed associated-with) at the reconciliation pass
+once all 81 term records existed. The chunk also names trial and heretic / heresy (in-batch); not
+made relations, since no dependency is stated.

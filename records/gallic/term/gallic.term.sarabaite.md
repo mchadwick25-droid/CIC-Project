@@ -30,7 +30,27 @@ retrieval:
   - the question is about monks in general (retrieve monk / solitary)
   - the question is about the house as such (retrieve monastery / coenobium)
   - Tours, where the word is not used
-relations: []
+relations:
+- type: associated-with
+  target: gallic.term.anchorite-hermit
+- type: associated-with
+  target: gallic.term.customs-of-the-monasteries
+- type: associated-with
+  target: gallic.term.lukewarmness
+- type: associated-with
+  target: gallic.term.monastery-coenobium
+- type: associated-with
+  target: gallic.term.monk-solitary
+- type: associated-with
+  target: gallic.term.profession
+- type: associated-with
+  target: gallic.term.renunciation
+- type: associated-with
+  target: gallic.term.elder-senior-abbot
+- type: associated-with
+  target: gallic.term.tradition
+- type: associated-with
+  target: gallic.term.bloodless-martyrdom-confessor
 plain_meaning: >-
   Egypt's name, kept by Cassian, for the false third kind of monk. He renounces the world only
   before men's eyes, lives two or three together, and stays his own master under no elder.
@@ -62,8 +82,8 @@ intentionally thin at the Tier-3 floor: the chunk's own Distortion Risk section 
 mild "recognized order / Benedictine-era judgment" hearing, so false_friend is [] and
 distortion_risk: low.
 
-relations: [] is a decision, not an oversight - every one of the chunk's Related-Terms (monk /
-solitary, monastery / coenobium, anchorite / hermit, renunciation, profession, lukewarmness,
-elder / senior / abbot, tradition, the customs of the monasteries / Institutes, bloodless
-martyrdom / confessor) is batch 1 / not built; relations deferred, to be added once those term
-records exist.
+Every one of the chunk's Related-Terms (monk / solitary, monastery / coenobium, anchorite / hermit,
+renunciation, profession, lukewarmness, elder / senior / abbot, tradition, the customs of the
+monasteries / Institutes, bloodless martyrdom / confessor) was batch 1 / not built when this record
+was authored, so relations[] was left empty by decision; all ten were added as associated-with
+relations at the cross-batch reconciliation pass once all 81 term records existed.

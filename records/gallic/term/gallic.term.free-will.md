@@ -72,8 +72,24 @@ relations:
   target: gallic.term.thoughts
 - type: associated-with
   target: gallic.term.eight-principal-faults
+- type: associated-with
+  target: gallic.term.merit
+- type: associated-with
+  target: gallic.term.perseverance
+- type: associated-with
+  target: gallic.term.predestination
+- type: associated-with
+  target: gallic.term.pelagians-as-foil
+- type: associated-with
+  target: gallic.term.massilians
+- type: associated-with
+  target: gallic.term.trial
 - type: presupposes
   target: gallic.term.grace
+- type: presupposed-by
+  target: gallic.term.beginning-of-a-good-will
+- type: presupposed-by
+  target: gallic.term.co-operation
 plain_meaning: >-
   In Cassian's Marseilles, the power that "always remains free in man" to "neglect or delight in the
   grace of God." Real enough that a monk's fasting, watching and labour are truly his and truly
@@ -128,6 +144,9 @@ Doc_03 5.2). Register emic. Quotations verified at locus by the build's own Doc_
 presupposes, per the chunk's own Do-Not-Retrieve note ("this one presupposes that one"). Salvian and
 Augustine beyond rows 14-16 not cited, per licence.
 
-Related-Terms also names beginning of a good will (042), co-operation (045), merit (046), perseverance
-(043), predestination (044), Pelagians as foil (047) and Massilians (074) - all batch 2; relations
-deferred, to be added once those term records exist.
+Related-Terms also names beginning of a good will, co-operation, merit, perseverance,
+predestination, Pelagians as foil and Massilians - cross-batch at authoring time, added as relations
+(typed associated-with except as stated here) at the reconciliation pass once all 81 term records
+existed. Inverse typing carried here: beginning of a good will and co-operation each `presuppose`
+this term (the crux asked between grace and free will; grace "co-operates with our will"), so this
+record carries `presupposed-by` for both.

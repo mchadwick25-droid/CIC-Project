@@ -47,6 +47,16 @@ retrieval:
   - later rites of exorcism
   - whether a given exorcism "really happened" (virtus / power carries the Reported-Experience Status)
 relations:
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.sign-of-the-cross
+- type: associated-with
+  target: gallic.term.humility
+- type: associated-with
+  target: gallic.term.monk-bishop
+- type: associated-with
+  target: gallic.term.the-world-secular
 - type: presupposes
   target: gallic.term.the-devil-demons
 - type: associated-with
@@ -104,6 +114,6 @@ carried in divergence_note and senses.evidential.
 
 Relation typing: `presupposes` gallic.term.the-devil-demons (no exorcism without the adversary).
 
-Related-Terms also names virtus / power, sign of the cross, humility, bishop / the monk-bishop,
-and the world / secular (batch 1 / not built) - relations deferred, to be added once those term
-records exist.
+Related-Terms also names virtus / power, sign of the cross, humility, bishop / the monk-bishop, and
+the world / secular - cross-batch at authoring time, added as relations (typed associated-with) at
+the reconciliation pass once all 81 term records existed.

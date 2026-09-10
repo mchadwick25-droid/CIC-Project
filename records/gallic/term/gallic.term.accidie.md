@@ -56,6 +56,8 @@ relations:
   target: gallic.term.eight-principal-faults
 - type: associated-with
   target: gallic.term.contemplation
+- type: associated-with
+  target: gallic.term.the-devil-demons
 plain_meaning: >-
   In Cassian's Marseilles, the sixth fault, "which we may term weariness or distress of heart,"
   "especially trying to solitaries." The noon assault that "produces dislike of the place, disgust

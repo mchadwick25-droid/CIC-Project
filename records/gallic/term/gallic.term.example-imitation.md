@@ -76,6 +76,14 @@ relations:
   target: gallic.term.humility
 - type: associated-with
   target: gallic.term.perfection
+- type: associated-with
+  target: gallic.term.apostolic-authority
+- type: associated-with
+  target: gallic.term.blessing
+- type: associated-with
+  target: gallic.term.commonitory-peregrinus
+- type: associated-with
+  target: gallic.term.sackcloth-and-ashes
 plain_meaning: >-
   How formation passes from one person to another among us. A disciple is made by watching - and,
   later, by reading - a named man whose life is held up as the thing to copy. Our books exist to be
@@ -127,5 +135,5 @@ term's own content (eyewitness Lives written to be examples) is what a participa
 needs; F2-I because formation by watching a person is this world's own answer to how one received
 without reading.
 
-Related-Terms also names Commonitory / Peregrinus (batch 2, 079) - relation deferred, to be added once
-that term record exists.
+Related-Terms also names Commonitory / Peregrinus - cross-batch at authoring time, added as
+relations (typed associated-with) at the reconciliation pass once all 81 term records existed.

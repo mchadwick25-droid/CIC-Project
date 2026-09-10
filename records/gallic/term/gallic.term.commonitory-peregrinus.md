@@ -40,6 +40,18 @@ relations:
   target: gallic.term.doctor-expositor
 - type: associated-with
   target: gallic.term.the-religious
+- type: associated-with
+  target: gallic.term.the-rule
+- type: associated-with
+  target: gallic.term.the-fathers-elders
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.tradition
+- type: associated-with
+  target: gallic.term.example-imitation
+- type: associated-with
+  target: gallic.term.conference
 plain_meaning: >-
   Vincent's book. By its own name it is an aid to memory, against his own forgetting. He signs it
   "Peregrinus, the least of all the servants of God" - a teller, not an author.
@@ -74,6 +86,6 @@ Built from Doc_06 entry 079 (`galliclex079_commonitory-peregrinus.md`, Tier 3, t
 Doc_03 7.13). Kept thin at the Tier-3 floor; the memory content is carried by the rule and the
 deposit (Doc_06 section 2.5).
 
-Related-Terms also names the rule, the Fathers / elders, novelty vs. antiquity, tradition,
-example / imitation, and conference (batch 1 / not built) - relations deferred, to be added once
-those term records exist.
+Related-Terms also names the rule, the Fathers / elders, novelty vs. antiquity, tradition, example /
+imitation, and conference - cross-batch at authoring time, added as relations (typed
+associated-with) at the reconciliation pass once all 81 term records existed.

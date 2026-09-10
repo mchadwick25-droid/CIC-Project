@@ -39,6 +39,20 @@ relations:
   target: gallic.term.brethren
 - type: associated-with
   target: gallic.term.commonitory-peregrinus
+- type: associated-with
+  target: gallic.term.conversion
+- type: associated-with
+  target: gallic.term.monk-solitary
+- type: associated-with
+  target: gallic.term.renunciation
+- type: associated-with
+  target: gallic.term.lukewarmness
+- type: associated-with
+  target: gallic.term.the-world-secular
+- type: associated-with
+  target: gallic.term.monastery-coenobium
+- type: associated-with
+  target: gallic.term.humility
 plain_meaning: >-
   Salvian's plain name for those who have taken our way of life. A class of people, seen from the
   city, who chose to be lowly and poor.
@@ -76,5 +90,5 @@ description - unesteemed, fleeing honours, delighting in poverty - is the one ou
 of what belonging cost in standing.
 
 Related-Terms also names monk / solitary, conversion, lukewarmness, the world / secular,
-renunciation, monastery / coenobium, and humility (batch 1 / not built) - relations deferred, to
-be added once those term records exist.
+renunciation, monastery / coenobium, and humility - cross-batch at authoring time, added as
+relations (typed associated-with) at the reconciliation pass once all 81 term records existed.

@@ -36,6 +36,20 @@ retrieval:
 relations:
 - type: associated-with
   target: gallic.term.antichrist
+- type: associated-with
+  target: gallic.term.compunction
+- type: associated-with
+  target: gallic.term.perfection
+- type: associated-with
+  target: gallic.term.purity-of-heart
+- type: associated-with
+  target: gallic.term.humility
+- type: associated-with
+  target: gallic.term.contemplation
+- type: associated-with
+  target: gallic.term.lukewarmness
+- type: associated-with
+  target: gallic.term.grace
 plain_meaning: >-
   Chaeremon's ladder of three restraints - fear of hell, hope of the kingdom, love of goodness
   itself - slave, hireling, son. The monk is to climb from fear to hope to love.
@@ -68,5 +82,5 @@ Kept thin at the Tier-3 floor; the chunk's Distortion Risk (fear read as the who
 piety, or dismissed) is answered by the translational sense, so false_friend is [].
 
 Related-Terms also names perfection, purity of heart, compunction, humility, contemplation,
-lukewarmness, and grace (of God) (batch 1 / not built) - relations deferred, to be added once
-those term records exist.
+lukewarmness, and grace (of God) - cross-batch at authoring time, added as relations (typed
+associated-with) at the reconciliation pass once all 81 term records existed.

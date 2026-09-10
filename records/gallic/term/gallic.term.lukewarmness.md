@@ -67,6 +67,20 @@ relations:
   target: gallic.term.accidie
 - type: associated-with
   target: gallic.term.compunction
+- type: associated-with
+  target: gallic.term.fear-hope-love
+- type: associated-with
+  target: gallic.term.gaul
+- type: associated-with
+  target: gallic.term.government-of-god
+- type: associated-with
+  target: gallic.term.sarabaite
+- type: associated-with
+  target: gallic.term.penance-satisfaction
+- type: associated-with
+  target: gallic.term.perseverance
+- type: associated-with
+  target: gallic.term.the-religious
 plain_meaning: >-
   For us the typical failure of a monk is not apostasy but cooling. The novice who "grow[s] cold in
   regard to the rule." The renunciant "turned out a deserter or lukewarm." The elders who "pass their
@@ -115,5 +129,5 @@ Quotations verified at locus by the build's own Doc_06 pass; not re-read here. C
 Gaul" is deliberately not cited as evidence, matching the chunk. Canon cell F6-P: cooling and desertion
 are this world's own vocabulary for wanting to leave.
 
-Related-Terms also names Sarabaite (069) and Gaul (068) - both batch 2; relations deferred, to be
-added once those term records exist.
+Related-Terms also names Sarabaite and Gaul - cross-batch at authoring time, added as relations
+(typed associated-with) at the reconciliation pass once all 81 term records existed.

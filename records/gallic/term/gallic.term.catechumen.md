@@ -39,6 +39,16 @@ relations:
   target: gallic.term.possessed-exorcism
 - type: associated-with
   target: gallic.term.heathen-rustics
+- type: associated-with
+  target: gallic.term.conversion
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.monk-bishop
+- type: associated-with
+  target: gallic.term.soldier-of-christ
+- type: associated-with
+  target: gallic.term.monk-solitary
 plain_meaning: >-
   One enrolled but not yet baptized. Martin was one for years, as a boy and a soldier; Christ
   named him so in the cloak vision; a whole heathen crowd was made catechumens by his one hand.
@@ -70,6 +80,6 @@ Built from Doc_06 entry 081 (`galliclex081_catechumen.md`, Tier 3, tags SC TC RT
 Kept thin at the Tier-3 floor.
 
 Related-Terms also names conversion, virtus / power, bishop / the monk-bishop, soldier of Christ,
-and monk / solitary (batch 1 / not built) - relations deferred, to be added once those term
-records exist. The chunk also names blessing (in-batch); not made a relation, since no
-dependency is stated.
+and monk / solitary - cross-batch at authoring time, added as relations (typed associated-with) at
+the reconciliation pass once all 81 term records existed. The chunk also names blessing (in-batch);
+not made a relation, since no dependency is stated.

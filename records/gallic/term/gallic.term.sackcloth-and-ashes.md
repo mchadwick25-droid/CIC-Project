@@ -52,6 +52,22 @@ relations:
   target: gallic.term.possessed-exorcism
 - type: associated-with
   target: gallic.term.the-monks-dress
+- type: associated-with
+  target: gallic.term.bloodless-martyrdom-confessor
+- type: associated-with
+  target: gallic.term.customs-of-the-monasteries
+- type: associated-with
+  target: gallic.term.mortification
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.example-imitation
+- type: associated-with
+  target: gallic.term.humility
+- type: associated-with
+  target: gallic.term.soldier-of-christ
 plain_meaning: >-
   At Tours, Martin's "well-known weapons" - worn before an emperor, to cast out demons, and to
   die in. At Marseilles, a showy robe our Egyptian fathers refused as vanity.
@@ -99,7 +115,7 @@ sense; the Round-1 C2 wording ("Tours's weapon and Marseilles's vanity") is kept
 any analyst's-frame word. canon_cells left empty: the divergence is between two texts that never
 argue with each other, so it does not answer "what did you argue about among yourselves."
 
-Related-Terms also names virtus / power, bloodless martyrdom / confessor, mortification, novelty
-vs. antiquity, the customs of the monasteries / Institutes, example / imitation, humility, and
-soldier of Christ (batch 1 / not built) - relations deferred, to be added once those term records
-exist.
+Related-Terms also names virtus / power, bloodless martyrdom / confessor, mortification, novelty vs.
+antiquity, the customs of the monasteries / Institutes, example / imitation, humility, and soldier
+of Christ - cross-batch at authoring time, added as relations (typed associated-with) at the
+reconciliation pass once all 81 term records existed.

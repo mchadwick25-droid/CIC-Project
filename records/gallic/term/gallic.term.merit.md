@@ -55,6 +55,16 @@ relations:
   target: gallic.term.pelagians-as-foil
 - type: associated-with
   target: gallic.term.blessing
+- type: associated-with
+  target: gallic.term.free-will
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.monk-bishop
+- type: associated-with
+  target: gallic.term.humility
+- type: tension-with
+  target: gallic.term.grace
 plain_meaning: >-
   A word we speak in two rooms. At Marseilles, it is what our effort cannot claim against grace.
   At Tours, it is the saint's standing before God, by which a miracle is asked.
@@ -97,6 +107,9 @@ two referents are kept apart in every field, per the chunk's own voice note. CT 
 (Doc_06 section 3).
 
 Related-Terms also names grace (of God), free will, virtus / power, bishop / the monk-bishop, and
-humility (batch 1 / not built) - relations deferred, to be added once those term records exist.
-The chunk also names perseverance (in-batch); not made a relation here, since the chunk's own
-Ecological Function states no dependency on it beyond cluster adjacency.
+humility - cross-batch at authoring time, added as relations (typed associated-with except as stated
+here) at the reconciliation pass once all 81 term records existed. Relation typing: `tension-with`
+gallic.term.grace follows the chunk's own "the counter-term of grace (008) in the south's argument"
+- what is refused to effort (no antecedent merits) and yet kept for the saints, held against grace
+rather than inside it. The chunk also names perseverance (in-batch); not made a relation here, since
+the chunk's own Ecological Function states no dependency on it beyond cluster adjacency.

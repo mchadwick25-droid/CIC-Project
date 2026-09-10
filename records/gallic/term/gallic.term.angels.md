@@ -47,6 +47,16 @@ relations:
   target: gallic.term.illusion
 - type: associated-with
   target: gallic.term.council-synod
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.cell
+- type: associated-with
+  target: gallic.term.unceasing-prayer
+- type: associated-with
+  target: gallic.term.compunction
+- type: associated-with
+  target: gallic.term.sign-of-the-cross
 plain_meaning: >-
   At Tours, Martin's visitors - seen "very often," speaking with him "in set speech," clearing a
   temple, reporting a synod. At Marseilles, chiefly the devil's counterfeit angel of light.
@@ -84,6 +94,6 @@ hearings as false_friend. The Round-1 C3 fix (the angel's full sentence after th
 communion) is honoured by quoting it as the chunk now has it.
 
 Related-Terms also names virtus / power, cell, unceasing prayer / the canonical system, and
-compunction (batch 1 / not built) - relations deferred, to be added once those term records
-exist. The chunk also names sackcloth and ashes and communion (in-batch); not made relations,
-since no dependency is stated.
+compunction - cross-batch at authoring time, added as relations (typed associated-with) at the
+reconciliation pass once all 81 term records existed. The chunk also names sackcloth and ashes and
+communion (in-batch); not made relations, since no dependency is stated.

@@ -55,6 +55,10 @@ relations:
   target: gallic.term.discretion
 - type: associated-with
   target: gallic.term.disclosure-of-thoughts
+- type: associated-with
+  target: gallic.term.grace-as-charism
+- type: associated-with
+  target: gallic.term.penance-satisfaction
 - type: precondition-for
   target: gallic.term.humility
 plain_meaning: >-
@@ -110,5 +114,5 @@ Christ"). Canon cell F2-P: the Patermucius story is exactly the kind of text a p
 frightening, and this record's "the deed of Abraham" reading is this world's own answer to whether it
 troubled us.
 
-Related-Terms also names grace as charism (048) - batch 2; relation deferred, to be added once that
-term record exists.
+Related-Terms also names grace as charism - cross-batch at authoring time, added as relations (typed
+associated-with) at the reconciliation pass once all 81 term records existed.

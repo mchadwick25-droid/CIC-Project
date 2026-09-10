@@ -63,6 +63,10 @@ relations:
   target: gallic.term.disclosure-of-thoughts
 - type: associated-with
   target: gallic.term.thoughts
+- type: associated-with
+  target: gallic.term.brethren
+- type: associated-with
+  target: gallic.term.commonitory-peregrinus
 plain_meaning: >-
   For us a conference is an elder's discourse drawn out by disciples' questions. It is the after-supper
   talk of an Egyptian cell that Cassian writes down so that our monks may receive the fathers "into

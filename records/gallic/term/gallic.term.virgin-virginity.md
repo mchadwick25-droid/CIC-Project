@@ -63,6 +63,18 @@ relations:
   target: gallic.term.blessing
 - type: associated-with
   target: gallic.term.anathema
+- type: associated-with
+  target: gallic.term.monastery-coenobium
+- type: associated-with
+  target: gallic.term.monk-bishop
+- type: associated-with
+  target: gallic.term.purity-of-heart
+- type: associated-with
+  target: gallic.term.mortification
+- type: associated-with
+  target: gallic.term.eight-principal-faults
+- type: associated-with
+  target: gallic.term.renunciation
 plain_meaning: >-
   A consecrated state with its own dress and its own "glory." Marriage may be excused; virginity
   points to glory. Its completed victory is not to be seen.
@@ -111,6 +123,7 @@ the sources let none of them be heard. canon_cells: F5-T because the meadow para
 world's own ranking of marriage.
 
 Related-Terms also names bishop / the monk-bishop, monastery / coenobium, purity of heart,
-mortification, the eight principal faults, and renunciation (batch 1 / not built) - relations
-deferred, to be added once those term records exist. The chunk also names illusion, sackcloth and
-ashes, and catechumen (in-batch); not made relations, since no dependency is stated.
+mortification, the eight principal faults, and renunciation - cross-batch at authoring time, added
+as relations (typed associated-with) at the reconciliation pass once all 81 term records existed.
+The chunk also names illusion, sackcloth and ashes, and catechumen (in-batch); not made relations,
+since no dependency is stated.

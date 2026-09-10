@@ -67,6 +67,18 @@ relations:
   target: gallic.term.accidie
 - type: associated-with
   target: gallic.term.compunction
+- type: associated-with
+  target: gallic.term.antichrist
+- type: associated-with
+  target: gallic.term.gaul
+- type: associated-with
+  target: gallic.term.government-of-god
+- type: associated-with
+  target: gallic.term.heathen-rustics
+- type: associated-with
+  target: gallic.term.possessed-exorcism
+- type: associated-with
+  target: gallic.term.the-religious
 plain_meaning: >-
   For us "the world" is what a monk has left - kin, property, honours, delights, "secular business."
   We name it from the far side of the renunciation, as a warfare one has been discharged from and a
@@ -115,6 +127,6 @@ cited here since the chunk carries his material at the government of God (batch 
 kin, fatherland and property named as what was left is this world's own account of what belonging
 cost.
 
-Related-Terms also names the religious / servants of God (071), the government of God (054), Gaul
-(068) and heathen / rustics (053) - all batch 2; relations deferred, to be added once those term
-records exist.
+Related-Terms also names the religious / servants of God, the government of God, Gaul and heathen /
+rustics - cross-batch at authoring time, added as relations (typed associated-with) at the
+reconciliation pass once all 81 term records existed.

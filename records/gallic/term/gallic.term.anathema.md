@@ -34,6 +34,12 @@ retrieval:
   - the withholding of fellowship as such (retrieve communion)
   - later canonical procedure
 relations:
+- type: associated-with
+  target: gallic.term.the-rule
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.monk-bishop
 - type: presupposes
   target: gallic.term.heretic-heresy
 - type: associated-with
@@ -75,6 +81,7 @@ thin at the Tier-3 floor.
 Relation typing: `presupposes` gallic.term.heretic-heresy (the sanction presupposes the
 category it falls on).
 
-Related-Terms also names the rule, novelty vs. antiquity, and bishop / the monk-bishop (batch 1 /
-not built) - relations deferred, to be added once those term records exist. The chunk also names
-council / synod (in-batch); not made a relation, since no dependency is stated.
+Related-Terms also names the rule, novelty vs. antiquity, and bishop / the monk-bishop - cross-batch
+at authoring time, added as relations (typed associated-with) at the reconciliation pass once all 81
+term records existed. The chunk also names council / synod (in-batch); not made a relation, since no
+dependency is stated.

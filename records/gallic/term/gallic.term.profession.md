@@ -65,6 +65,12 @@ relations:
   target: gallic.term.goal-and-end
 - type: associated-with
   target: gallic.term.accidie
+- type: associated-with
+  target: gallic.term.perseverance
+- type: associated-with
+  target: gallic.term.sarabaite
+- type: associated-with
+  target: gallic.term.the-monks-dress
 plain_meaning: >-
   For us the profession is the monastic undertaking as a binding public commitment, with its own "goal
   and end." A soldier makes it when he "professed himself a monk." A false monk assumes it "under the
@@ -109,5 +115,6 @@ distortion_risk: medium
 Built from Doc_06 entry 019 (Tier 2; chunk galliclex019_profession.md; Doc_03 1.9). Register emic.
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here.
 
-Related-Terms also names Sarabaite (069), perseverance (043) and the monk's dress (066) - all batch 2;
-relations deferred, to be added once those term records exist.
+Related-Terms also names Sarabaite, perseverance and the monk's dress - cross-batch at authoring
+time, added as relations (typed associated-with) at the reconciliation pass once all 81 term records
+existed.

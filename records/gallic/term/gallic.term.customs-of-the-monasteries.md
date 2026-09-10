@@ -72,6 +72,18 @@ relations:
   target: gallic.term.conference
 - type: associated-with
   target: gallic.term.obedience
+- type: associated-with
+  target: gallic.term.apostolic-see-pope
+- type: associated-with
+  target: gallic.term.catholic
+- type: associated-with
+  target: gallic.term.gaul
+- type: associated-with
+  target: gallic.term.the-monks-dress
+- type: associated-with
+  target: gallic.term.sarabaite
+- type: associated-with
+  target: gallic.term.sackcloth-and-ashes
 plain_meaning: >-
   What Cassian carried from Egypt and Palestine to a Gallic bishop's "new monastery." Not a written
   Rule of his own. Rather, "the customs of the monasteries which we have seen observed" there, "as
@@ -129,6 +141,6 @@ adaptation as ours. Canon cell F4-E assigned because the term's own content is t
 "were your practices apostolic or later inventions?" - received from Egypt's Fathers, with the
 inventions of "any one who has founded a monastery" named as the thing to be corrected.
 
-Related-Terms also names Gaul (batch 2, 068), the monk's dress (batch 2, 066), Sarabaite (batch 2,
-069) and sackcloth and ashes (batch 2, 065) - relations deferred, to be added once those term records
-exist.
+Related-Terms also names Gaul, the monk's dress, Sarabaite and sackcloth and ashes - cross-batch at
+authoring time, added as relations (typed associated-with) at the reconciliation pass once all 81
+term records existed.

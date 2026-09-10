@@ -49,6 +49,12 @@ relations:
   target: gallic.term.pelagians-as-foil
 - type: associated-with
   target: gallic.term.apostolic-see-pope
+- type: associated-with
+  target: gallic.term.free-will
+- type: associated-with
+  target: gallic.term.grace
+- type: associated-with
+  target: gallic.term.monk-solitary
 plain_meaning: >-
   What a hostile outsider called the monks and clergy of Marseilles who held that grace and
   effort work together. Never a name we used of ourselves.
@@ -94,6 +100,6 @@ stays first-person), but the term itself is not the world's own, which is what t
 marks. citation_specificity: B because the word's only ancient locus is a chapter heading, the
 rest editorial.
 
-Related-Terms also names grace (of God), free will, and monk / solitary (batch 1 / not built) -
-relations deferred, to be added once those term records exist. The chunk also names Gaul
-(in-batch); not made a relation, since no dependency is stated.
+Related-Terms also names grace (of God), free will, and monk / solitary - cross-batch at authoring
+time, added as relations (typed associated-with) at the reconciliation pass once all 81 term records
+existed. The chunk also names Gaul (in-batch); not made a relation, since no dependency is stated.

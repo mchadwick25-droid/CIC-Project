@@ -54,6 +54,18 @@ retrieval:
   - the question is about the Roman see (retrieve Apostolic See / Pope)
   - later confessional identity, which we do not have
 relations:
+- type: associated-with
+  target: gallic.term.the-rule
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.the-fathers-elders
+- type: associated-with
+  target: gallic.term.tradition
+- type: associated-with
+  target: gallic.term.grace
+- type: associated-with
+  target: gallic.term.customs-of-the-monasteries
 - type: tension-with
   target: gallic.term.heretic-heresy
 - type: associated-with
@@ -109,8 +121,8 @@ not as a CT (Doc_06 section 3).
 
 Relation typing: `tension-with` gallic.term.heretic-heresy (its opposite, per the chunk).
 
-Related-Terms also names the rule, novelty vs. antiquity, the Fathers / elders, tradition, grace
-(of God), and the customs of the monasteries / Institutes (batch 1 / not built) - relations
-deferred, to be added once those term records exist. The chunk also names Pelagians as foil
-(in-batch); not made a relation, since no dependency is stated beyond the Pelagians' address "to
-Catholics."
+Related-Terms also names the rule, novelty vs. antiquity, the Fathers / elders, tradition, grace (of
+God), and the customs of the monasteries / Institutes - cross-batch at authoring time, added as
+relations (typed associated-with) at the reconciliation pass once all 81 term records existed. The
+chunk also names Pelagians as foil (in-batch); not made a relation, since no dependency is stated
+beyond the Pelagians' address "to Catholics."

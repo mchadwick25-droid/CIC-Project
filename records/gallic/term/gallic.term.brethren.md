@@ -48,6 +48,20 @@ relations:
   target: gallic.term.penance-satisfaction
 - type: associated-with
   target: gallic.term.the-religious
+- type: associated-with
+  target: gallic.term.monk-solitary
+- type: associated-with
+  target: gallic.term.monastery-coenobium
+- type: associated-with
+  target: gallic.term.junior-novice
+- type: associated-with
+  target: gallic.term.elder-senior-abbot
+- type: associated-with
+  target: gallic.term.humility
+- type: associated-with
+  target: gallic.term.conference
+- type: associated-with
+  target: gallic.term.disciple-master
 plain_meaning: >-
   The monks of a house or circle as one body, and the address between named friends - "holy
   brother Helladius."
@@ -79,6 +93,6 @@ Built from Doc_06 entry 070 (`galliclex070_brethren.md`, Tier 3, tags SC RT; Doc
 thin at the Tier-3 floor; the chunk's only Distortion Risk is "generic churchy address," which
 the translational sense already answers, so false_friend is [].
 
-Related-Terms also names monk / solitary, monastery / coenobium, junior / novice, elder / senior
-/ abbot, humility, and conference (batch 1 / not built) - relations deferred, to be added once
-those term records exist.
+Related-Terms also names monk / solitary, monastery / coenobium, junior / novice, elder / senior /
+abbot, humility, and conference - cross-batch at authoring time, added as relations (typed
+associated-with) at the reconciliation pass once all 81 term records existed.

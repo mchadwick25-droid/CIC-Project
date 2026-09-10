@@ -37,6 +37,20 @@ retrieval:
 relations:
 - type: associated-with
   target: gallic.term.the-devil-demons
+- type: associated-with
+  target: gallic.term.contemplation
+- type: associated-with
+  target: gallic.term.goal-and-end
+- type: associated-with
+  target: gallic.term.purity-of-heart
+- type: associated-with
+  target: gallic.term.thoughts
+- type: associated-with
+  target: gallic.term.cell
+- type: associated-with
+  target: gallic.term.anchorite-hermit
+- type: associated-with
+  target: gallic.term.humility
 plain_meaning: >-
   Abbot Moses's reading of "the kingdom of God is within you." The heart is a land under one of
   two kings, and no cell wall or desert can guard it for us.
@@ -71,5 +85,5 @@ Kept thin at the Tier-3 floor. canon_cells: F4-P because Piamun's "no one is mor
 my own heart" is a direct answer to someone who cannot quiet their own mind.
 
 Related-Terms also names goal and end, purity of heart, thoughts, cell, anchorite / hermit,
-contemplation, and humility (batch 1 / not built) - relations deferred, to be added once those
-term records exist.
+contemplation, and humility - cross-batch at authoring time, added as relations (typed
+associated-with) at the reconciliation pass once all 81 term records existed.

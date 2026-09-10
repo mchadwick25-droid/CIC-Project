@@ -68,6 +68,12 @@ relations:
   target: gallic.term.obedience
 - type: associated-with
   target: gallic.term.humility
+- type: associated-with
+  target: gallic.term.brethren
+- type: associated-with
+  target: gallic.term.penance-satisfaction
+- type: associated-with
+  target: gallic.term.sarabaite
 plain_meaning: >-
   The man whose judgment stands in for the junior's own - the senior to whom every thought is laid
   bare, and by whose "examination" a thing is "good or bad." "Abbot" is the title of every Egyptian
@@ -117,5 +123,5 @@ galliclex017_elder-senior-abbot.md; Doc_03 1.7). Register emic. Quotations verif
 build's own Doc_06 pass; not re-read here. The Benedictine back-projection named at Doc_06 §4(b) runs
 straight through this term, so distortion_risk is high despite the shared function.
 
-Related-Terms also names penance / satisfaction (067) - batch 2; relation deferred, to be added once
-that term record exists.
+Related-Terms also names penance / satisfaction - cross-batch at authoring time, added as relations
+(typed associated-with) at the reconciliation pass once all 81 term records existed.

@@ -56,6 +56,24 @@ relations:
   target: gallic.term.government-of-god
 - type: associated-with
   target: gallic.term.the-monks-dress
+- type: associated-with
+  target: gallic.term.customs-of-the-monasteries
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.unceasing-prayer
+- type: associated-with
+  target: gallic.term.junior-novice
+- type: associated-with
+  target: gallic.term.monk-bishop
+- type: associated-with
+  target: gallic.term.the-world-secular
+- type: associated-with
+  target: gallic.term.monk-solitary
+- type: associated-with
+  target: gallic.term.lukewarmness
+- type: associated-with
+  target: gallic.term.monastery-coenobium
 plain_meaning: >-
   Where we are, named in two registers. For Cassian, the cold, late province that falls short of
   Egypt. For Sulpitius, a self-mocking "We are Gauls" - and the boast that Europe has Martin.
@@ -106,6 +124,6 @@ comparative north) are Doc_04 G2's split-mode finding, kept in divergence_note. 
 empty: the term is a self-location, not an answer to any canon question.
 
 Related-Terms also names the customs of the monasteries / Institutes, virtus / power, unceasing
-prayer / the canonical system, junior / novice, bishop / the monk-bishop, the world / secular,
-monk / solitary, lukewarmness, and monastery / coenobium (batch 1 / not built) - relations
-deferred, to be added once those term records exist.
+prayer / the canonical system, junior / novice, bishop / the monk-bishop, the world / secular, monk
+/ solitary, lukewarmness, and monastery / coenobium - cross-batch at authoring time, added as
+relations (typed associated-with) at the reconciliation pass once all 81 term records existed.

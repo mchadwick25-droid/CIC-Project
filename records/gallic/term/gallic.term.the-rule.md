@@ -58,6 +58,32 @@ relations:
   target: gallic.term.customs-of-the-monasteries
 - type: associated-with
   target: gallic.term.tradition
+- type: associated-with
+  target: gallic.term.anathema
+- type: associated-with
+  target: gallic.term.apostolic-authority
+- type: associated-with
+  target: gallic.term.apostolic-see-pope
+- type: associated-with
+  target: gallic.term.catholic
+- type: associated-with
+  target: gallic.term.commonitory-peregrinus
+- type: associated-with
+  target: gallic.term.council-synod
+- type: associated-with
+  target: gallic.term.doctor-expositor
+- type: associated-with
+  target: gallic.term.heretic-heresy
+- type: associated-with
+  target: gallic.term.pelagians-as-foil
+- type: associated-with
+  target: gallic.term.progress-vs-alteration
+- type: associated-with
+  target: gallic.term.the-deposit
+- type: associated-with
+  target: gallic.term.trial
+- type: associated-with
+  target: gallic.term.theotocos
 - type: presupposes
   target: gallic.term.novelty-antiquity
 plain_meaning: >-
@@ -119,7 +145,7 @@ novelty vs. antiquity is typed presupposes: the rule is the procedure, the axis 
 on. Canon cells F2-T (the rule is this world's own answer to "was the Bible the only authority?") and
 F3-T ("Catholic" is defined by this rule).
 
-Related-Terms also names Catholic (055), the deposit (056), progress vs. alteration (057), council /
-synod (059), heretic / heresy (060), Apostolic See / Pope (062), Commonitory / Peregrinus (079),
-Doctor / Expositor (077) and trial (058) - all batch 2; relations deferred, to be added once those
-term records exist.
+Related-Terms also names Catholic, the deposit, progress vs. alteration, council / synod, heretic /
+heresy, Apostolic See / Pope, Commonitory / Peregrinus, Doctor / Expositor and trial - cross-batch
+at authoring time, added as relations (typed associated-with) at the reconciliation pass once all 81
+term records existed.

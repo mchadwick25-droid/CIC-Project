@@ -81,6 +81,28 @@ relations:
   target: gallic.term.mortification
 - type: associated-with
   target: gallic.term.compunction
+- type: associated-with
+  target: gallic.term.brethren
+- type: associated-with
+  target: gallic.term.co-operation
+- type: associated-with
+  target: gallic.term.fear-hope-love
+- type: associated-with
+  target: gallic.term.grace-as-charism
+- type: associated-with
+  target: gallic.term.kingdom-within
+- type: associated-with
+  target: gallic.term.merit
+- type: associated-with
+  target: gallic.term.penance-satisfaction
+- type: associated-with
+  target: gallic.term.perseverance
+- type: associated-with
+  target: gallic.term.possessed-exorcism
+- type: associated-with
+  target: gallic.term.sackcloth-and-ashes
+- type: associated-with
+  target: gallic.term.the-religious
 - type: tension-with
   target: gallic.term.virtus
 - type: precondition-for

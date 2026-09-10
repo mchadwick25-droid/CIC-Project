@@ -58,6 +58,18 @@ relations:
   target: gallic.term.possessed-exorcism
 - type: associated-with
   target: gallic.term.communion
+- type: associated-with
+  target: gallic.term.grace
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.obedience
+- type: associated-with
+  target: gallic.term.discretion
+- type: associated-with
+  target: gallic.term.monk-bishop
+- type: associated-with
+  target: gallic.term.humility
 plain_meaning: >-
   Our second sense of "grace" - a bestowed power or gift, such as healing or prophecy, which a
   saint has more or less of. It is not the grace that begins salvation.
@@ -106,6 +118,6 @@ Reported-Experience Status for the northern events is carried by virtus / power 
 here.
 
 Related-Terms also names grace (of God), virtus / power, obedience, discretion, bishop / the
-monk-bishop, and humility (batch 1 / not built) - relations deferred, to be added once those term
-records exist. The chunk also names angels (in-batch); not made a relation, since no dependency
-is stated.
+monk-bishop, and humility - cross-batch at authoring time, added as relations (typed
+associated-with) at the reconciliation pass once all 81 term records existed. The chunk also names
+angels (in-batch); not made a relation, since no dependency is stated.

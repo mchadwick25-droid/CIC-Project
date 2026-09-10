@@ -46,6 +46,14 @@ retrieval:
   - Priscillianism's own content - another world's territory
   - the excommunication formula (retrieve anathema)
 relations:
+- type: associated-with
+  target: gallic.term.bloodless-martyrdom-confessor
+- type: associated-with
+  target: gallic.term.the-rule
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.monk-bishop
 - type: tension-with
   target: gallic.term.catholic
 - type: illustrated-by
@@ -112,7 +120,7 @@ Relation typing: `tension-with` gallic.term.catholic (its opposite); `illustrate
 gallic.term.pelagians-as-foil (the one heresy named in the grace argument); `presupposed-by`
 gallic.term.anathema (the sanction presupposes the category).
 
-Related-Terms also names the rule, novelty vs. antiquity, and bishop / the monk-bishop (batch 1 /
-not built) - relations deferred, to be added once those term records exist. The chunk also names
-Apostolic See / Pope and the devil / demons (in-batch); not made relations, since no dependency is
-stated.
+Related-Terms also names the rule, novelty vs. antiquity, and bishop / the monk-bishop - cross-batch
+at authoring time, added as relations (typed associated-with) at the reconciliation pass once all 81
+term records existed. The chunk also names Apostolic See / Pope and the devil / demons (in-batch);
+not made relations, since no dependency is stated.

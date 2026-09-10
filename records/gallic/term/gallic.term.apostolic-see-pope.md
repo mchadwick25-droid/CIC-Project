@@ -60,6 +60,18 @@ relations:
   target: gallic.term.apostolic-authority
 - type: associated-with
   target: gallic.term.massilians
+- type: associated-with
+  target: gallic.term.monk-bishop
+- type: associated-with
+  target: gallic.term.the-rule
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.the-fathers-elders
+- type: associated-with
+  target: gallic.term.grace
+- type: associated-with
+  target: gallic.term.customs-of-the-monasteries
 plain_meaning: >-
   "Pope" is a title of honour we give to bishops we revere - Cassian's Pope Castor of Apta Julia.
   "The Apostolic See" is Vincent's Rome, foremost in refusing novelty. Not the same relation.
@@ -106,6 +118,7 @@ canon_cells: F3-T because "did you recognize the Pope?" is the form the "is ther
 that's yours?" question takes for this world.
 
 Related-Terms also names bishop / the monk-bishop, the rule, novelty vs. antiquity, the Fathers /
-elders, grace (of God), and the customs of the monasteries / Institutes (batch 1 / not built) -
-relations deferred, to be added once those term records exist. The chunk also names heretic /
-heresy (in-batch); not made a relation, since no dependency is stated.
+elders, grace (of God), and the customs of the monasteries / Institutes - cross-batch at authoring
+time, added as relations (typed associated-with) at the reconciliation pass once all 81 term records
+existed. The chunk also names heretic / heresy (in-batch); not made a relation, since no dependency
+is stated.

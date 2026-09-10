@@ -72,6 +72,14 @@ relations:
   target: gallic.term.eight-principal-faults
 - type: associated-with
   target: gallic.term.accidie
+- type: associated-with
+  target: gallic.term.catechumen
+- type: associated-with
+  target: gallic.term.sackcloth-and-ashes
+- type: associated-with
+  target: gallic.term.the-monks-dress
+- type: associated-with
+  target: gallic.term.the-devil-demons
 plain_meaning: >-
   The picture that governs a monk's life among us. A man has changed service - from Caesar's army, or
   from a worldly career - to Christ's. He now stands girded, under oath, in daily combat against the
@@ -121,5 +129,6 @@ emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read b
 Canon cell F2-P assigned because the term's own content - a discharge that forbids fighting - is the
 substantive answer to a participant frightened by the warfare language.
 
-Related-Terms also names the monk's dress (batch 2, 066) and the devil / demons (batch 2, 050) -
-relations deferred, to be added once those term records exist.
+Related-Terms also names the monk's dress and the devil / demons - cross-batch at authoring time,
+added as relations (typed associated-with) at the reconciliation pass once all 81 term records
+existed.

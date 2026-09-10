@@ -54,6 +54,28 @@ retrieval:
   - the question is about the devil's false appearances as such (retrieve illusion)
   - the devil as a metaphor for psychology - that is the hearing this entry exists to correct
 relations:
+- type: associated-with
+  target: gallic.term.anchorite-hermit
+- type: associated-with
+  target: gallic.term.cell
+- type: associated-with
+  target: gallic.term.combat-athlete
+- type: associated-with
+  target: gallic.term.disclosure-of-thoughts
+- type: associated-with
+  target: gallic.term.discretion
+- type: associated-with
+  target: gallic.term.eight-principal-faults
+- type: associated-with
+  target: gallic.term.sign-of-the-cross
+- type: associated-with
+  target: gallic.term.soldier-of-christ
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.thoughts
+- type: associated-with
+  target: gallic.term.accidie
 - type: presupposed-by
   target: gallic.term.possessed-exorcism
 - type: presupposed-by
@@ -117,6 +139,6 @@ presupposes a demon; an illusion presupposes a deceiver), so this record carries
 `presupposed-by` inverses. canon_cells: F4-P is assigned because the triage of thoughts by shame,
 under an elder, is the south's own answer to a mind one cannot quiet.
 
-Related-Terms also names soldier of Christ, virtus / power, sign of the cross, thoughts,
-discretion, disclosure of thoughts, cell, accidie, and combat / athlete (batch 1 / not built) -
-relations deferred, to be added once those term records exist.
+Related-Terms also names soldier of Christ, virtus / power, sign of the cross, thoughts, discretion,
+disclosure of thoughts, cell, accidie, and combat / athlete - cross-batch at authoring time, added
+as relations (typed associated-with) at the reconciliation pass once all 81 term records existed.

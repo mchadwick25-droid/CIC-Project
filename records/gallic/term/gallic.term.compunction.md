@@ -59,6 +59,16 @@ relations:
   target: gallic.term.thoughts
 - type: associated-with
   target: gallic.term.mortification
+- type: associated-with
+  target: gallic.term.angels
+- type: associated-with
+  target: gallic.term.beginning-of-a-good-will
+- type: associated-with
+  target: gallic.term.communion
+- type: associated-with
+  target: gallic.term.fear-hope-love
+- type: associated-with
+  target: gallic.term.penance-satisfaction
 plain_meaning: >-
   For us compunction is the salutary pricking of heart from which the monastic life springs and by
   which it advances. "From the fear of the Lord arises salutary compunction. From compunction of heart
@@ -106,5 +116,6 @@ Built from Doc_06 entry 040 (Tier 2, promoted from Doc_03's Tier 3 on Doc_05 §8
 galliclex040_compunction.md; Doc_03 4.8). Register emic. Quotations verified at locus by the build's
 own Doc_06 pass; not re-read here. Row 25 is cited only as a stated coverage limit, labeled so.
 
-Related-Terms also names fear -> hope -> love (072), penance / satisfaction (067) and communion (061)
-- all batch 2; relations deferred, to be added once those term records exist.
+Related-Terms also names fear -> hope -> love, penance / satisfaction and communion - cross-batch at
+authoring time, added as relations (typed associated-with) at the reconciliation pass once all 81
+term records existed.

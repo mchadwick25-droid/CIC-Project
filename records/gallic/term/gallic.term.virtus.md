@@ -70,6 +70,36 @@ relations:
   target: gallic.term.bloodless-martyrdom-confessor
 - type: associated-with
   target: gallic.term.disciple-master
+- type: associated-with
+  target: gallic.term.angels
+- type: associated-with
+  target: gallic.term.apostolic-authority
+- type: associated-with
+  target: gallic.term.blessing
+- type: associated-with
+  target: gallic.term.catechumen
+- type: associated-with
+  target: gallic.term.communion
+- type: associated-with
+  target: gallic.term.gaul
+- type: associated-with
+  target: gallic.term.grace-as-charism
+- type: associated-with
+  target: gallic.term.heathen-rustics
+- type: associated-with
+  target: gallic.term.illusion
+- type: associated-with
+  target: gallic.term.merit
+- type: associated-with
+  target: gallic.term.penance-satisfaction
+- type: associated-with
+  target: gallic.term.possessed-exorcism
+- type: associated-with
+  target: gallic.term.sackcloth-and-ashes
+- type: associated-with
+  target: gallic.term.the-devil-demons
+- type: associated-with
+  target: gallic.term.trial
 - type: tension-with
   target: gallic.term.humility
 plain_meaning: >-
@@ -134,6 +164,6 @@ field for it. The tension-with relation to humility encodes the G6 x G7 tension 
 F2-E: the term is this world's own account of God's power being felt, and of eyewitness claims a
 participant may hear as legend.
 
-Related-Terms also names blessing (049), the possessed / exorcism (051), grace as charism (048), the
-devil / demons (050), apostolic authority (063), communion (061), illusion (052), angels (075) and
-Gaul (068) - all batch 2; relations deferred, to be added once those term records exist.
+Related-Terms also names blessing, the possessed / exorcism, grace as charism, the devil / demons,
+apostolic authority, communion, illusion, angels and Gaul - cross-batch at authoring time, added as
+relations (typed associated-with) at the reconciliation pass once all 81 term records existed.

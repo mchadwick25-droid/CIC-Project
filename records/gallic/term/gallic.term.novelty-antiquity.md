@@ -59,8 +59,38 @@ relations:
   target: gallic.term.tradition
 - type: associated-with
   target: gallic.term.discretion
+- type: associated-with
+  target: gallic.term.anathema
+- type: associated-with
+  target: gallic.term.apostolic-see-pope
+- type: associated-with
+  target: gallic.term.catholic
+- type: associated-with
+  target: gallic.term.commonitory-peregrinus
+- type: associated-with
+  target: gallic.term.council-synod
+- type: associated-with
+  target: gallic.term.doctor-expositor
+- type: associated-with
+  target: gallic.term.heretic-heresy
+- type: associated-with
+  target: gallic.term.illusion
+- type: associated-with
+  target: gallic.term.the-deposit
+- type: associated-with
+  target: gallic.term.the-monks-dress
+- type: associated-with
+  target: gallic.term.pelagians-as-foil
+- type: associated-with
+  target: gallic.term.sackcloth-and-ashes
+- type: associated-with
+  target: gallic.term.theotocos
+- type: associated-with
+  target: gallic.term.trial
 - type: presupposed-by
   target: gallic.term.the-rule
+- type: presupposed-by
+  target: gallic.term.progress-vs-alteration
 plain_meaning: >-
   The axis on which all three of our founding voices judge what is legitimate. Whatever is new - a
   doctrine, a monastic custom, a fashion of dress, a cult, an opinion of one's own - is suspect for
@@ -113,6 +143,9 @@ and rejected demoting this to a satellite of the rule; the record keeps it disti
 axis, with the rule declaring presupposes toward it. Canon cell F4-E: the axis is this world's own
 answer to whether its practices were apostolic or later inventions.
 
-Related-Terms also names the deposit (056), progress vs. alteration (057), heretic / heresy (060),
-Catholic (055), council / synod (059) and the monk's dress (066) - all batch 2; relations deferred,
-to be added once those term records exist.
+Related-Terms also names the deposit, progress vs. alteration, heretic / heresy, Catholic, council /
+synod and the monk's dress - cross-batch at authoring time, added as relations (typed
+associated-with except as stated here) at the reconciliation pass once all 81 term records existed.
+Inverse typing carried here: progress vs. alteration `presupposes` this term (057's own "positive
+face of novelty vs. antiquity"), so this record carries `presupposed-by`, as it already does for the
+rule.

@@ -53,6 +53,18 @@ relations:
   target: gallic.term.gaul
 - type: associated-with
   target: gallic.term.catechumen
+- type: associated-with
+  target: gallic.term.conversion
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.sign-of-the-cross
+- type: associated-with
+  target: gallic.term.monk-bishop
+- type: associated-with
+  target: gallic.term.monastery-coenobium
+- type: associated-with
+  target: gallic.term.the-world-secular
 plain_meaning: >-
   At Tours, the unconverted countryside of Gaul. It was Martin's mission field. There he halted the
   veiled idols, burned temples, felled a sacred pine, and built churches where they fell.
@@ -98,6 +110,6 @@ chunk's voice note requires. canon_cells: F3-I because the spread of the name of
 the countryside around Tours is this term's own subject.
 
 Related-Terms also names virtus / power, sign of the cross, bishop / the monk-bishop, conversion,
-monastery / coenobium, and the world / secular (batch 1 / not built) - relations deferred, to be
-added once those term records exist. The chunk also names blessing (in-batch); not made a
-relation, since no dependency is stated.
+monastery / coenobium, and the world / secular - cross-batch at authoring time, added as relations
+(typed associated-with) at the reconciliation pass once all 81 term records existed. The chunk also
+names blessing (in-batch); not made a relation, since no dependency is stated.

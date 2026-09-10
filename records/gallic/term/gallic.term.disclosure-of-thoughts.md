@@ -55,6 +55,12 @@ relations:
   target: gallic.term.thoughts
 - type: associated-with
   target: gallic.term.compunction
+- type: associated-with
+  target: gallic.term.the-devil-demons
+- type: associated-with
+  target: gallic.term.penance-satisfaction
+- type: associated-with
+  target: gallic.term.illusion
 - type: precondition-for
   target: gallic.term.discretion
 plain_meaning: >-
@@ -108,5 +114,6 @@ elders"). The Benedictine/sacramental back-projection (Doc_06 §4(b)) runs direc
 Canon cell F4-P: "enfeebled at the moment that it is discovered" is this world's own answer to
 someone struggling with their own mind.
 
-Related-Terms also names the devil / demons (050), penance / satisfaction (067) and illusion (052) -
-all batch 2; relations deferred, to be added once those term records exist.
+Related-Terms also names the devil / demons, penance / satisfaction and illusion - cross-batch at
+authoring time, added as relations (typed associated-with) at the reconciliation pass once all 81
+term records existed.

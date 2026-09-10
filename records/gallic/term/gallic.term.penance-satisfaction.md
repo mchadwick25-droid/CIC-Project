@@ -51,6 +51,26 @@ relations:
   target: gallic.term.communion
 - type: associated-with
   target: gallic.term.brethren
+- type: associated-with
+  target: gallic.term.compunction
+- type: associated-with
+  target: gallic.term.disclosure-of-thoughts
+- type: associated-with
+  target: gallic.term.elder-senior-abbot
+- type: associated-with
+  target: gallic.term.unceasing-prayer
+- type: associated-with
+  target: gallic.term.obedience
+- type: associated-with
+  target: gallic.term.humility
+- type: associated-with
+  target: gallic.term.monastery-coenobium
+- type: associated-with
+  target: gallic.term.junior-novice
+- type: associated-with
+  target: gallic.term.lukewarmness
+- type: associated-with
+  target: gallic.term.virtus
 plain_meaning: >-
   The public discipline of our house. For a fault, a monk lies on the ground until the Abbot bids
   him rise, or is barred from prayer with the brethren. No priest is needed to restore him.
@@ -100,5 +120,5 @@ The Conf. XX coverage limit is stated in divergence_note and senses.evidential, 
 
 Related-Terms also names disclosure of thoughts, elder / senior / abbot, unceasing prayer / the
 canonical system, compunction, obedience, humility, monastery / coenobium, junior / novice,
-lukewarmness, and virtus / power (batch 1 / not built) - relations deferred, to be added once
-those term records exist.
+lukewarmness, and virtus / power - cross-batch at authoring time, added as relations (typed
+associated-with) at the reconciliation pass once all 81 term records existed.

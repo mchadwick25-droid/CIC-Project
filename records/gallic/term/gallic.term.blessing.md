@@ -57,6 +57,14 @@ relations:
   target: gallic.term.virgin-virginity
 - type: associated-with
   target: gallic.term.sackcloth-and-ashes
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.sign-of-the-cross
+- type: associated-with
+  target: gallic.term.monk-bishop
+- type: associated-with
+  target: gallic.term.example-imitation
 plain_meaning: >-
   At Tours, a power that passes from the saint into things - his touch, his word, the oil he
   blesses, threads from his robe, the straw he lay on - and heals.
@@ -99,7 +107,8 @@ Single-voice (Sulpitius) for the power sense, stated in divergence_note and sens
 rather than smoothed; the south is named only to say the sense is absent there, as the chunk's
 voice note requires.
 
-Related-Terms also names virtus / power, sign of the cross, bishop / the monk-bishop, and
-example / imitation (batch 1 / not built) - relations deferred, to be added once those term
-records exist. The chunk also names the devil / demons and angels (in-batch); not made relations,
-since the chunk's Ecological Function states no dependency on them.
+Related-Terms also names virtus / power, sign of the cross, bishop / the monk-bishop, and example /
+imitation - cross-batch at authoring time, added as relations (typed associated-with) at the
+reconciliation pass once all 81 term records existed. The chunk also names the devil / demons and
+angels (in-batch); not made relations, since the chunk's Ecological Function states no dependency on
+them.

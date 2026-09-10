@@ -88,8 +88,32 @@ relations:
   target: gallic.term.perfection
 - type: associated-with
   target: gallic.term.compunction
+- type: associated-with
+  target: gallic.term.apostolic-see-pope
+- type: associated-with
+  target: gallic.term.catholic
+- type: associated-with
+  target: gallic.term.fear-hope-love
+- type: associated-with
+  target: gallic.term.grace-as-charism
+- type: associated-with
+  target: gallic.term.perseverance
+- type: associated-with
+  target: gallic.term.predestination
+- type: associated-with
+  target: gallic.term.pelagians-as-foil
+- type: associated-with
+  target: gallic.term.massilians
+- type: associated-with
+  target: gallic.term.trial
 - type: presupposed-by
   target: gallic.term.free-will
+- type: presupposed-by
+  target: gallic.term.beginning-of-a-good-will
+- type: presupposed-by
+  target: gallic.term.co-operation
+- type: tension-with
+  target: gallic.term.merit
 plain_meaning: >-
   In Cassian's Marseilles, the help of God without which no effort reaches its goal. Grace "always
   co-operates with our will"; it goes before the will and follows it; it inspires the first desire and
@@ -152,7 +176,10 @@ locus. Salvian (row 43) and Augustine beyond rows 14-16 are not cited, per licen
 and F1-I: this is the term that carries the "faith alone versus works" question and the world's own
 internal argument.
 
-Related-Terms also names beginning of a good will (042), co-operation (045), perseverance (043), merit
-(046), predestination (044), grace as charism (048), Pelagians as foil (047) and Massilians (074) - all
-batch 2; relations deferred, to be added once those term records exist (batch 2 may declare the
-inverse first; the relation here should then be added to match).
+Related-Terms also names beginning of a good will, co-operation, perseverance, merit,
+predestination, grace as charism, Pelagians as foil and Massilians - cross-batch at authoring time,
+added as relations (typed associated-with except as stated here) at the reconciliation pass once all
+81 term records existed. Inverse typing carried here: beginning of a good will and co-operation each
+`presuppose` this term (the crux asked between grace and free will; the verb of the grace teaching),
+so this record carries `presupposed-by` for both; merit is `tension-with` per 046's own
+"counter-term of grace".

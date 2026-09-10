@@ -52,6 +52,16 @@ retrieval:
 relations:
 - type: associated-with
   target: gallic.term.beginning-of-a-good-will
+- type: associated-with
+  target: gallic.term.free-will
+- type: associated-with
+  target: gallic.term.grace
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.the-rule
+- type: associated-with
+  target: gallic.term.monk-bishop
 - type: tension-with
   target: gallic.term.predestination
 - type: associated-with
@@ -111,5 +121,5 @@ name in the grace argument - an instance of the category); `tension-with`
 gallic.term.predestination (the two poles of one boundary, per the chunk's Ecological Function).
 
 Related-Terms also names grace (of God), free will, novelty vs. antiquity, the rule, and bishop /
-the monk-bishop (batch 1 / not built) - relations deferred, to be added once those term records
-exist.
+the monk-bishop - cross-batch at authoring time, added as relations (typed associated-with) at the
+reconciliation pass once all 81 term records existed.

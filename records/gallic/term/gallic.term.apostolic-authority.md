@@ -53,6 +53,20 @@ retrieval:
 relations:
 - type: associated-with
   target: gallic.term.apostolic-see-pope
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.monk-bishop
+- type: associated-with
+  target: gallic.term.purity-of-heart
+- type: associated-with
+  target: gallic.term.monastery-coenobium
+- type: associated-with
+  target: gallic.term.the-fathers-elders
+- type: associated-with
+  target: gallic.term.example-imitation
+- type: associated-with
+  target: gallic.term.the-rule
 plain_meaning: >-
   At Tours, the highest thing said of Martin - having the apostles' power over death, demons, and
   emperors. At Marseilles, the perfection of love, and the first Church's common life.
@@ -97,6 +111,7 @@ canon_cells: F4-E because Piamun's tracing of the common life to "the days of th
 the Apostles" is this world's own claim that its practice goes back to the apostles.
 
 Related-Terms also names virtus / power, bishop / the monk-bishop, purity of heart, monastery /
-coenobium, the Fathers / elders, example / imitation, and the rule (batch 1 / not built) -
-relations deferred, to be added once those term records exist. The chunk also names the possessed
-/ exorcism and communion (in-batch); not made relations, since no dependency is stated.
+coenobium, the Fathers / elders, example / imitation, and the rule - cross-batch at authoring time,
+added as relations (typed associated-with) at the reconciliation pass once all 81 term records
+existed. The chunk also names the possessed / exorcism and communion (in-batch); not made relations,
+since no dependency is stated.

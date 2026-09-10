@@ -60,6 +60,10 @@ relations:
   target: gallic.term.thoughts
 - type: associated-with
   target: gallic.term.accidie
+- type: associated-with
+  target: gallic.term.kingdom-within
+- type: associated-with
+  target: gallic.term.fear-hope-love
 - type: enabled-by
   target: gallic.term.purity-of-heart
 - type: enabled-by
@@ -118,5 +122,5 @@ translator's supply. The two enabled-by relations (purity of heart; the eight pr
 Nesteros's fixed order at Conf. XIV.1-2. Canon cell F4-P: "the one thing" reached by a purged heart is
 this world's own answer to someone who struggles to quiet their mind.
 
-Related-Terms also names the kingdom within (073) - batch 2; relation deferred, to be added once that
-term record exists.
+Related-Terms also names the kingdom within - cross-batch at authoring time, added as relations
+(typed associated-with) at the reconciliation pass once all 81 term records existed.

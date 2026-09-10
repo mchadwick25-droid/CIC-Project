@@ -63,6 +63,12 @@ relations:
   target: gallic.term.accidie
 - type: associated-with
   target: gallic.term.mortification
+- type: associated-with
+  target: gallic.term.the-devil-demons
+- type: associated-with
+  target: gallic.term.illusion
+- type: associated-with
+  target: gallic.term.virgin-virginity
 - type: precondition-for
   target: gallic.term.contemplation
 plain_meaning: >-
@@ -112,5 +118,5 @@ precondition-for relation to contemplation encodes Nesteros's order at Conf. XIV
 knowledge - the faults and their cure - before theoretical). Canon cells left empty: the list
 organizes the southern program but does not itself answer a canon question's substance.
 
-Related-Terms also names the devil / demons (050) - batch 2; relation deferred, to be added once that
-term record exists.
+Related-Terms also names the devil / demons - cross-batch at authoring time, added as relations
+(typed associated-with) at the reconciliation pass once all 81 term records existed.

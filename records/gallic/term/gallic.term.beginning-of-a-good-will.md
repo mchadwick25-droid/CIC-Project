@@ -55,6 +55,12 @@ retrieval:
   - the participant means the beginning of the monastic life (retrieve conversion)
   - any attempt to source this term from Salvian - his text is not licensed for the grace question
 relations:
+- type: associated-with
+  target: gallic.term.thoughts
+- type: associated-with
+  target: gallic.term.compunction
+- type: associated-with
+  target: gallic.term.purity-of-heart
 - type: presupposed-by
   target: gallic.term.perseverance
 - type: associated-with
@@ -67,6 +73,10 @@ relations:
   target: gallic.term.pelagians-as-foil
 - type: associated-with
   target: gallic.term.massilians
+- type: presupposes
+  target: gallic.term.grace
+- type: presupposes
+  target: gallic.term.free-will
 plain_meaning: >-
   The one question our whole argument about grace turns on. Does God have mercy on us because we
   first showed a good will? Or does our good will begin because God first had mercy?
@@ -121,5 +131,9 @@ Representative's first-person "we" per the record-native brief, keeping the Mars
 explicit ("at Marseilles our teacher Chaeremon") so that the southern, Cassian-only origin is not
 smoothed into a whole-world claim.
 
-Related-Terms also names grace (of God), free will, thoughts, compunction, and purity of heart
-(batch 1 / not built) - relations deferred, to be added once those term records exist.
+Related-Terms also names grace (of God), free will, thoughts, compunction, and purity of heart -
+cross-batch at authoring time, added as relations (typed associated-with except as stated here) at
+the reconciliation pass once all 81 term records existed. Relation typing: `presupposes`
+gallic.term.grace and gallic.term.free-will - the chunk's Ecological Function makes this term "the
+crux of G3 ... the point at issue between grace (008) and free will (009)", a question that
+presupposes the two terms it is asked between.

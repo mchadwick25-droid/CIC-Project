@@ -62,6 +62,16 @@ relations:
   target: gallic.term.brethren
 - type: associated-with
   target: gallic.term.anathema
+- type: associated-with
+  target: gallic.term.monk-bishop
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.unceasing-prayer
+- type: associated-with
+  target: gallic.term.compunction
+- type: associated-with
+  target: gallic.term.monastery-coenobium
 plain_meaning: >-
   Chiefly the bond of fellowship. To withhold it is the Church's sharpest sanction; to extend it
   wrongly defiles. Martin's one forced communion cost him power. A monk at fault loses his place
@@ -109,6 +119,6 @@ Inst. VI) is carried in divergence_note and senses.evidential, not smoothed. can
 because the Saragossa decree and the Ithacian communion are this world's own record of communion
 used as a sanction among bishops.
 
-Related-Terms also names bishop / the monk-bishop, virtus / power, unceasing prayer / the
-canonical system, compunction, and monastery / coenobium (batch 1 / not built) - relations
-deferred, to be added once those term records exist.
+Related-Terms also names bishop / the monk-bishop, virtus / power, unceasing prayer / the canonical
+system, compunction, and monastery / coenobium - cross-batch at authoring time, added as relations
+(typed associated-with) at the reconciliation pass once all 81 term records existed.

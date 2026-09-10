@@ -58,6 +58,12 @@ relations:
   target: gallic.term.eight-principal-faults
 - type: associated-with
   target: gallic.term.compunction
+- type: associated-with
+  target: gallic.term.the-monks-dress
+- type: associated-with
+  target: gallic.term.sackcloth-and-ashes
+- type: associated-with
+  target: gallic.term.virgin-virginity
 plain_meaning: >-
   In Cassian's Marseilles, mortification is the state of being dead to the world and its desires,
   figured as crucifixion. "As then one who is crucified no longer has the power of moving or turning
@@ -108,5 +114,6 @@ emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read h
 empty: F6-E (martyrdom as death wish) is carried by bloodless martyrdom / confessor, whose content is
 the substantive answer.
 
-Related-Terms also names the monk's dress (066) and sackcloth and ashes (065) - both batch 2;
-relations deferred, to be added once those term records exist.
+Related-Terms also names the monk's dress and sackcloth and ashes - cross-batch at authoring time,
+added as relations (typed associated-with) at the reconciliation pass once all 81 term records
+existed.

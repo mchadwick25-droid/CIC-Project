@@ -68,6 +68,12 @@ relations:
   target: gallic.term.compunction
 - type: associated-with
   target: gallic.term.contemplation
+- type: associated-with
+  target: gallic.term.sarabaite
+- type: associated-with
+  target: gallic.term.the-religious
+- type: associated-with
+  target: gallic.term.virgin-virginity
 - type: precondition-for
   target: gallic.term.monk-solitary
 plain_meaning: >-
@@ -122,5 +128,6 @@ chunk's own "the act that makes a monk" and 001's "known by what he gives up." C
 three renunciations - country, kinsfolk, father's house - are this world's own account of what
 belonging cost.
 
-Related-Terms also names Sarabaite (069) and the religious / servants of God (071) - both batch 2;
-relations deferred, to be added once those term records exist.
+Related-Terms also names Sarabaite and the religious / servants of God - cross-batch at authoring
+time, added as relations (typed associated-with) at the reconciliation pass once all 81 term records
+existed.

@@ -60,6 +60,14 @@ relations:
   target: gallic.term.compunction
 - type: associated-with
   target: gallic.term.contemplation
+- type: associated-with
+  target: gallic.term.beginning-of-a-good-will
+- type: associated-with
+  target: gallic.term.illusion
+- type: associated-with
+  target: gallic.term.kingdom-within
+- type: associated-with
+  target: gallic.term.the-devil-demons
 plain_meaning: >-
   In Cassian's Marseilles, thoughts are the raw material of the interior struggle. "It is impossible
   for the mind not to be approached by thoughts, but it is in the power of every earnest man either to
@@ -109,5 +117,6 @@ Quotations verified at locus by the build's own Doc_06 pass; not re-read here. C
 mill-wheel and "in our own power to admit or reject" are this world's own substantive answer to
 someone who struggles to quiet their mind.
 
-Related-Terms also names the devil / demons (050), illusion (052) and the kingdom within (073) - all
-batch 2; relations deferred, to be added once those term records exist.
+Related-Terms also names the devil / demons, illusion and the kingdom within - cross-batch at
+authoring time, added as relations (typed associated-with) at the reconciliation pass once all 81
+term records existed.

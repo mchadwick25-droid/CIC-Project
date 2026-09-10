@@ -71,6 +71,12 @@ relations:
   target: gallic.term.thoughts
 - type: associated-with
   target: gallic.term.eight-principal-faults
+- type: associated-with
+  target: gallic.term.illusion
+- type: associated-with
+  target: gallic.term.the-devil-demons
+- type: associated-with
+  target: gallic.term.grace-as-charism
 - type: enabled-by
   target: gallic.term.disclosure-of-thoughts
 - type: enabled-by
@@ -130,5 +136,5 @@ the scrutiny of the elders." The Faustus file is cited only as a grep-presence w
 Canon cell F4-P: the royal road and "extremes meet" are this world's own substantive answer to someone
 struggling with their own mind.
 
-Related-Terms also names illusion (052) and the devil / demons (050) - both batch 2; relations
-deferred, to be added once those term records exist.
+Related-Terms also names illusion and the devil / demons - cross-batch at authoring time, added as
+relations (typed associated-with) at the reconciliation pass once all 81 term records existed.

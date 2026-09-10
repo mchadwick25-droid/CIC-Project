@@ -45,6 +45,16 @@ relations:
   target: gallic.term.heretic-heresy
 - type: associated-with
   target: gallic.term.commonitory-peregrinus
+- type: associated-with
+  target: gallic.term.bloodless-martyrdom-confessor
+- type: associated-with
+  target: gallic.term.disciple-master
+- type: associated-with
+  target: gallic.term.the-fathers-elders
+- type: associated-with
+  target: gallic.term.the-rule
+- type: associated-with
+  target: gallic.term.novelty-antiquity
 plain_meaning: >-
   Vincent's word for an authorized teacher in the Church. What binds is the consent of such
   teachers; one teacher's own view, "be he a bishop, be he a Confessor, be he a martyr," is "a
@@ -79,6 +89,6 @@ Built from Doc_06 entry 077 (`galliclex077_doctor-expositor.md`, Tier 3, tags SC
 7.7). Kept thin at the Tier-3 floor.
 
 Related-Terms also names the Fathers / elders, the rule, disciple / master, bloodless martyrdom /
-confessor, and novelty vs. antiquity (batch 1 / not built) - relations deferred, to be added once
-those term records exist. The chunk also names council / synod (in-batch); not made a relation,
-since no dependency is stated.
+confessor, and novelty vs. antiquity - cross-batch at authoring time, added as relations (typed
+associated-with) at the reconciliation pass once all 81 term records existed. The chunk also names
+council / synod (in-batch); not made a relation, since no dependency is stated.

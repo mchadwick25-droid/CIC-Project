@@ -87,6 +87,18 @@ relations:
   target: gallic.term.mortification
 - type: associated-with
   target: gallic.term.compunction
+- type: associated-with
+  target: gallic.term.apostolic-authority
+- type: associated-with
+  target: gallic.term.beginning-of-a-good-will
+- type: associated-with
+  target: gallic.term.co-operation
+- type: associated-with
+  target: gallic.term.fear-hope-love
+- type: associated-with
+  target: gallic.term.kingdom-within
+- type: associated-with
+  target: gallic.term.virgin-virginity
 - type: presupposes
   target: gallic.term.goal-and-end
 - type: precondition-for

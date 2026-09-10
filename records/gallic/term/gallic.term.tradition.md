@@ -62,6 +62,16 @@ relations:
   target: gallic.term.discretion
 - type: associated-with
   target: gallic.term.eight-principal-faults
+- type: associated-with
+  target: gallic.term.catholic
+- type: associated-with
+  target: gallic.term.commonitory-peregrinus
+- type: associated-with
+  target: gallic.term.progress-vs-alteration
+- type: associated-with
+  target: gallic.term.sarabaite
+- type: associated-with
+  target: gallic.term.the-deposit
 plain_meaning: >-
   For us tradition is what has been received from predecessors and must be passed on unchanged.
   Vincent's second criterion of truth after Scripture, "the Tradition of the Catholic Church." Pope
@@ -111,5 +121,6 @@ Quotations verified at locus by the build's own Doc_06 pass; not re-read here. C
 F4-E: Vincent's two-way guard and the traced-to-antiquity test are this world's own material on
 whether the Bible was the only authority and whether its practices were later inventions.
 
-Related-Terms also names the deposit (056), Catholic (055) and progress vs. alteration (057) - all
-batch 2; relations deferred, to be added once those term records exist.
+Related-Terms also names the deposit, Catholic and progress vs. alteration - cross-batch at
+authoring time, added as relations (typed associated-with) at the reconciliation pass once all 81
+term records existed.

@@ -73,6 +73,22 @@ relations:
   target: gallic.term.discretion
 - type: associated-with
   target: gallic.term.disclosure-of-thoughts
+- type: associated-with
+  target: gallic.term.apostolic-authority
+- type: associated-with
+  target: gallic.term.apostolic-see-pope
+- type: associated-with
+  target: gallic.term.catholic
+- type: associated-with
+  target: gallic.term.commonitory-peregrinus
+- type: associated-with
+  target: gallic.term.council-synod
+- type: associated-with
+  target: gallic.term.doctor-expositor
+- type: associated-with
+  target: gallic.term.progress-vs-alteration
+- type: associated-with
+  target: gallic.term.the-deposit
 plain_meaning: >-
   The prior generations from whom everything legitimate among us is received and never invented. For
   Cassian, the Egyptian old men he sat with. For Vincent, the doctors whose collated writings form "a
@@ -123,5 +139,6 @@ emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read h
 Conferences II.10 caveat (Doc_04 §9: not separately verified) is carried in divergence_note and the
 sources cite II.13 only, matching the chunk.
 
-Related-Terms also names Doctor / Expositor (batch 2, 077) and council / synod (batch 2, 059) -
-relations deferred, to be added once those term records exist.
+Related-Terms also names Doctor / Expositor and council / synod - cross-batch at authoring time,
+added as relations (typed associated-with) at the reconciliation pass once all 81 term records
+existed.

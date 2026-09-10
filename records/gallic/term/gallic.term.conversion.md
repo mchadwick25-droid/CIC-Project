@@ -54,6 +54,16 @@ relations:
   target: gallic.term.the-world-secular
 - type: associated-with
   target: gallic.term.lukewarmness
+- type: associated-with
+  target: gallic.term.catechumen
+- type: associated-with
+  target: gallic.term.heathen-rustics
+- type: associated-with
+  target: gallic.term.the-religious
+- type: associated-with
+  target: gallic.term.perseverance
+- type: associated-with
+  target: gallic.term.government-of-god
 plain_meaning: >-
   In Cassian's Marseilles, "conversion" is not a change of religion. It is the act of turning to the
   monastic life: "the early days of their conversion were so bright"; a murderer's "compulsory
@@ -100,6 +110,6 @@ Built from Doc_06 entry 020 (Tier 2; chunk galliclex020_conversion.md; Doc_03 1.
 Doc_06 pass; not re-read here. Salvian is cited within his Licensed For (lexicon; nothing
 grace-related).
 
-Related-Terms also names heathen / rustics (053), catechumen (081), the religious / servants of God
-(071) and perseverance (043) - all batch 2; relations deferred, to be added once those term records
-exist.
+Related-Terms also names heathen / rustics, catechumen, the religious / servants of God and
+perseverance - cross-batch at authoring time, added as relations (typed associated-with) at the
+reconciliation pass once all 81 term records existed.

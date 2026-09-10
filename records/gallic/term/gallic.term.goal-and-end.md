@@ -54,6 +54,8 @@ relations:
   target: gallic.term.mortification
 - type: associated-with
   target: gallic.term.contemplation
+- type: associated-with
+  target: gallic.term.kingdom-within
 - type: presupposed-by
   target: gallic.term.purity-of-heart
 plain_meaning: >-
@@ -103,5 +105,5 @@ Built from Doc_06 entry 034 (Tier 2; chunk galliclex034_goal-and-end.md; Doc_03 
 Quotations verified at locus by the build's own Doc_06 pass; not re-read here. purity of heart declares
 presupposes toward this record (the goal is defined inside the pair); this record carries the inverse.
 
-Related-Terms also names the kingdom within (073) - batch 2; relation deferred, to be added once that
-term record exists.
+Related-Terms also names the kingdom within - cross-batch at authoring time, added as relations
+(typed associated-with) at the reconciliation pass once all 81 term records existed.

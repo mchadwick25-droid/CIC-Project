@@ -45,6 +45,24 @@ relations:
   target: gallic.term.sackcloth-and-ashes
 - type: associated-with
   target: gallic.term.gaul
+- type: associated-with
+  target: gallic.term.customs-of-the-monasteries
+- type: associated-with
+  target: gallic.term.junior-novice
+- type: associated-with
+  target: gallic.term.mortification
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.profession
+- type: associated-with
+  target: gallic.term.sign-of-the-cross
+- type: associated-with
+  target: gallic.term.soldier-of-christ
+- type: associated-with
+  target: gallic.term.unceasing-prayer
+- type: associated-with
+  target: gallic.term.monk-solitary
 plain_meaning: >-
   In Cassian's book, each garment is a "mystery" of the inner life - the girdle, the hood, the
   tunic, the staff - refitted for Gaul's winter. At Marmoutier, camel's hair, and softness a
@@ -93,6 +111,6 @@ few places the world's own voice is heard inside received content (Doc_05 sectio
 record's senses.informational quotes it in our own first person.
 
 Related-Terms also names soldier of Christ, mortification, the customs of the monasteries /
-Institutes, novelty vs. antiquity, junior / novice, profession, sign of the cross, unceasing
-prayer / the canonical system, and monk / solitary (batch 1 / not built) - relations deferred, to
-be added once those term records exist.
+Institutes, novelty vs. antiquity, junior / novice, profession, sign of the cross, unceasing prayer
+/ the canonical system, and monk / solitary - cross-batch at authoring time, added as relations
+(typed associated-with) at the reconciliation pass once all 81 term records existed.

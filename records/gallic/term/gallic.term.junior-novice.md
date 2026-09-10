@@ -67,6 +67,16 @@ relations:
   target: gallic.term.lukewarmness
 - type: associated-with
   target: gallic.term.perfection
+- type: associated-with
+  target: gallic.term.brethren
+- type: associated-with
+  target: gallic.term.gaul
+- type: associated-with
+  target: gallic.term.the-monks-dress
+- type: associated-with
+  target: gallic.term.penance-satisfaction
+- type: associated-with
+  target: gallic.term.perseverance
 plain_meaning: >-
   In Cassian's Marseilles, the newly received monk as Egypt receives him. Ten days or more at the door
   "of set purpose repelled and scorned," searched for a hidden coin, stripped and reclothed "by the
@@ -118,5 +128,5 @@ own Doc_06 pass; not re-read here. formation_confidence is Documented for the te
 Cassian's text; the non-observance in Gaul, which Cassian himself states, is carried in divergence_note
 and in every sense rather than lowered into a different confidence label.
 
-Related-Terms also names the monk's dress (066) - batch 2; relation deferred, to be added once that
-term record exists.
+Related-Terms also names the monk's dress - cross-batch at authoring time, added as relations (typed
+associated-with) at the reconciliation pass once all 81 term records existed.

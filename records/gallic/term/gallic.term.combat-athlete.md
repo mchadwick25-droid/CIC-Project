@@ -60,6 +60,12 @@ relations:
   target: gallic.term.accidie
 - type: associated-with
   target: gallic.term.mortification
+- type: associated-with
+  target: gallic.term.co-operation
+- type: associated-with
+  target: gallic.term.the-devil-demons
+- type: associated-with
+  target: gallic.term.trial
 plain_meaning: >-
   For us the monk's interior life is a sequence of single combats - "our first conflict ... against
   gluttony," "our sixth combat ... accidie" - fought in a fixed order. They are the trials of "the
@@ -109,5 +115,5 @@ Inst. X.1 is transliterated (akedia) in senses.informational rather than reprodu
 Canon cells left empty: F2-P (frightening violence) is already carried by soldier of Christ, whose
 discharge-that-forbids-fighting is the substantive answer; this term adds the order, not the answer.
 
-Related-Terms also names the devil / demons (050) and trial (058) - both batch 2; relations deferred,
-to be added once those term records exist.
+Related-Terms also names the devil / demons and trial - cross-batch at authoring time, added as
+relations (typed associated-with) at the reconciliation pass once all 81 term records existed.

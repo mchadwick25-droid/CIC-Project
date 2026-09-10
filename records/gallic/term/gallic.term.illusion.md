@@ -53,6 +53,22 @@ retrieval:
   - the question is about the devil in general (retrieve the devil / demons)
   - the content of Conf. XXII - absent from our English text; state the absence, do not fill it
 relations:
+- type: associated-with
+  target: gallic.term.cell
+- type: associated-with
+  target: gallic.term.disclosure-of-thoughts
+- type: associated-with
+  target: gallic.term.discretion
+- type: associated-with
+  target: gallic.term.thoughts
+- type: associated-with
+  target: gallic.term.virtus
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.eight-principal-faults
+- type: associated-with
+  target: gallic.term.sign-of-the-cross
 - type: presupposes
   target: gallic.term.the-devil-demons
 - type: associated-with
@@ -108,6 +124,6 @@ entry pointing at the absence record, per the chunk's Key Sources.
 
 Relation typing: `presupposes` gallic.term.the-devil-demons (an illusion is the deceiver's work).
 
-Related-Terms also names discretion, thoughts, virtus / power, disclosure of thoughts, cell,
-novelty vs. antiquity, and the eight principal faults (batch 1 / not built) - relations deferred,
-to be added once those term records exist.
+Related-Terms also names discretion, thoughts, virtus / power, disclosure of thoughts, cell, novelty
+vs. antiquity, and the eight principal faults - cross-batch at authoring time, added as relations
+(typed associated-with) at the reconciliation pass once all 81 term records existed.

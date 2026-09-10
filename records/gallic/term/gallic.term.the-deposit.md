@@ -38,6 +38,16 @@ retrieval:
   - the question is about legitimate growth (retrieve progress vs. alteration)
   - the later dogmatic phrase "deposit of faith" as a technical term of a living tradition - outside our window
 relations:
+- type: associated-with
+  target: gallic.term.novelty-antiquity
+- type: associated-with
+  target: gallic.term.the-rule
+- type: associated-with
+  target: gallic.term.tradition
+- type: associated-with
+  target: gallic.term.the-fathers-elders
+- type: associated-with
+  target: gallic.term.disciple-master
 - type: presupposed-by
   target: gallic.term.progress-vs-alteration
 - type: associated-with
@@ -91,6 +101,6 @@ Relation typing: `presupposed-by` gallic.term.progress-vs-alteration (growth is 
 own enlargement; progress presupposes something kept).
 
 Related-Terms also names the rule, tradition, novelty vs. antiquity, the Fathers / elders, and
-disciple / master (batch 1 / not built) - relations deferred, to be added once those term records
-exist. The chunk also names heretic / heresy (in-batch); not made a relation, since no dependency
-is stated.
+disciple / master - cross-batch at authoring time, added as relations (typed associated-with) at the
+reconciliation pass once all 81 term records existed. The chunk also names heretic / heresy
+(in-batch); not made a relation, since no dependency is stated.

@@ -54,6 +54,10 @@ relations:
   target: gallic.term.beginning-of-a-good-will
 - type: associated-with
   target: gallic.term.perseverance
+- type: associated-with
+  target: gallic.term.free-will
+- type: associated-with
+  target: gallic.term.grace
 - type: tension-with
   target: gallic.term.pelagians-as-foil
 - type: associated-with
@@ -108,8 +112,8 @@ the label is wholly external and the register is set to etic.
 Relation typing: `tension-with` gallic.term.pelagians-as-foil follows the chunk's own "the other
 side of the same boundary" - the two poles we drew, one by name and one without naming anyone.
 
-Related-Terms also names grace (of God) and free will (batch 1 / not built) - relations deferred,
-to be added once those term records exist. The chunk's Related-Terms also names heretic / heresy
-and co-operation and merit (in-batch); those are not made relations here because the chunk's own
-Ecological Function does not state a dependency on them, only adjacency within the grace cluster
-already carried by the other relations.
+Related-Terms also names grace (of God) and free will - cross-batch at authoring time, added as
+relations (typed associated-with) at the reconciliation pass once all 81 term records existed. The
+chunk's Related-Terms also names heretic / heresy and co-operation and merit (in-batch); those are
+not made relations here because the chunk's own Ecological Function does not state a dependency on
+them, only adjacency within the grace cluster already carried by the other relations.

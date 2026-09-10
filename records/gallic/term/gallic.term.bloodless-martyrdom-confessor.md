@@ -54,6 +54,16 @@ relations:
   target: gallic.term.perfection
 - type: associated-with
   target: gallic.term.mortification
+- type: associated-with
+  target: gallic.term.sackcloth-and-ashes
+- type: associated-with
+  target: gallic.term.doctor-expositor
+- type: associated-with
+  target: gallic.term.heretic-heresy
+- type: associated-with
+  target: gallic.term.antichrist
+- type: associated-with
+  target: gallic.term.sarabaite
 plain_meaning: >-
   For us a man denied a persecutor's age can still be a martyr. Martin "fully attained to the honor of
   martyrdom without shedding his blood," being "both by vow and virtues ... alike able and willing to
@@ -100,5 +110,6 @@ Built from Doc_06 entry 025 (Tier 2; chunk galliclex025_bloodless-martyrdom-conf
 Canon cell F6-E: this term is this world's own answer to whether wanting martyrdom is a death wish -
 the martyrdom claimed for Martin is the one he did not die of.
 
-Related-Terms also names sackcloth and ashes (065), Doctor / Expositor (077), heretic / heresy (060)
-and Antichrist (076) - all batch 2; relations deferred, to be added once those term records exist.
+Related-Terms also names sackcloth and ashes, Doctor / Expositor, heretic / heresy and Antichrist -
+cross-batch at authoring time, added as relations (typed associated-with) at the reconciliation pass
+once all 81 term records existed.

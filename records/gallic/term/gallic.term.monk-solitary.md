@@ -74,6 +74,24 @@ relations:
   target: gallic.term.the-world-secular
 - type: associated-with
   target: gallic.term.bloodless-martyrdom-confessor
+- type: associated-with
+  target: gallic.term.brethren
+- type: associated-with
+  target: gallic.term.catechumen
+- type: associated-with
+  target: gallic.term.gaul
+- type: associated-with
+  target: gallic.term.government-of-god
+- type: associated-with
+  target: gallic.term.massilians
+- type: associated-with
+  target: gallic.term.sarabaite
+- type: associated-with
+  target: gallic.term.the-religious
+- type: associated-with
+  target: gallic.term.perseverance
+- type: associated-with
+  target: gallic.term.the-monks-dress
 - type: enabled-by
   target: gallic.term.renunciation
 plain_meaning: >-
@@ -128,6 +146,7 @@ framing; the record follows the fleet's we-voice. Quotations were verified at th
 own Doc_06 pass and two review rounds; this conversion pass did not re-read the vendored text and
 carries the chunk's citations as given.
 
-Related-Terms also names Sarabaite (batch 2, 069) and the religious / servants of God (batch 2, 071) -
-relations deferred, to be added once those term records exist. The chunk lists "the religious" as an
-alias here per Doc_06 §2.5; it is carried in senses.informational rather than as a relation.
+Related-Terms also names Sarabaite and the religious / servants of God - cross-batch at authoring
+time, added as relations (typed associated-with) at the reconciliation pass once all 81 term records
+existed. The chunk lists "the religious" as an alias here per Doc_06 §2.5; it is carried in
+senses.informational rather than as a relation.

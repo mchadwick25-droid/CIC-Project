@@ -69,6 +69,12 @@ relations:
   target: gallic.term.conference
 - type: associated-with
   target: gallic.term.obedience
+- type: associated-with
+  target: gallic.term.brethren
+- type: associated-with
+  target: gallic.term.doctor-expositor
+- type: associated-with
+  target: gallic.term.the-deposit
 plain_meaning: >-
   Our formative bond is a named man and those formed by watching him. Martin's "eighty disciples, who
   were being disciplined after the example of the saintly master"; Clarus, "a disciple of Martin's";
@@ -114,5 +120,5 @@ Built from Doc_06 entry 026 (Tier 2; chunk galliclex026_disciple-master.md; Doc_
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Canon cell F2-I:
 formation by watching a named man is this world's own answer to how someone received without reading.
 
-Related-Terms also names brethren (070) and Doctor / Expositor (077) - both batch 2; relations
-deferred, to be added once those term records exist.
+Related-Terms also names brethren and Doctor / Expositor - cross-batch at authoring time, added as
+relations (typed associated-with) at the reconciliation pass once all 81 term records existed.

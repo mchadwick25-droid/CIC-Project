@@ -60,6 +60,12 @@ relations:
   target: gallic.term.accidie
 - type: associated-with
   target: gallic.term.contemplation
+- type: associated-with
+  target: gallic.term.sarabaite
+- type: associated-with
+  target: gallic.term.the-devil-demons
+- type: associated-with
+  target: gallic.term.kingdom-within
 plain_meaning: >-
   For us an anchorite is the monk who, "first trained in the Coenobium," withdraws to the desert "to
   fight with the devils in open conflict." No Gallic voice claims the grade for himself. The boy Martin
@@ -106,5 +112,5 @@ Built from Doc_06 entry 015 (Tier 2; chunk galliclex015_anchorite-hermit.md; Doc
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Row 4 (Dialogue
 I) is named only as excluded and is not cited.
 
-Related-Terms also names Sarabaite (069) and the devil / demons (050) - both batch 2; relations
-deferred, to be added once those term records exist.
+Related-Terms also names Sarabaite and the devil / demons - cross-batch at authoring time, added as
+relations (typed associated-with) at the reconciliation pass once all 81 term records existed.
