@@ -1,0 +1,20 @@
+# A bound Columbia Studies volume carrying three unrelated works; only
+# Boyd's own study (item 2 of 3) is in scope for this world.
+source_file: boyd_ecclesiastical-edicts-theodosian-code_1905.txt
+
+assignments:
+  - work: "The Ecclesiastical Edicts of the Theodosian Code"
+    author: boyd
+    locus: "study 2 of 3 in this bound volume"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: assigned
+    note: >
+      Boyd's 1905 English monograph on the Theodosian Code's church-related
+      legislation, including translated text of edicts naming the
+      Donatists directly. Context: a modern scholar's organized English
+      access to imperial legislation, not a Donatist or Catholic voice —
+      pairs with the Latin critical text (theodosianus-16_mommsen-meyer1905,
+      staged separately) as an English-language route into the same
+      material.

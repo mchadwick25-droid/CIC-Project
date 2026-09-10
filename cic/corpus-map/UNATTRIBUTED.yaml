@@ -247,6 +247,15 @@ authors:
 
       '
     from_file: tacitus_annals-15-44_church-brodribb1876.txt
+  cil8-numidia:
+    kind: anonymous
+    evidence: 'A collective epigraphic corpus (inscriptions from many hands across centuries),
+      not a work with a single author — the editors (Cagnat, Schmidt, Dessau) compiled and
+      annotated it but did not write the inscriptions themselves. A collective work-entity
+      per brief 6.4, not an author.
+
+      '
+    from_file: cil8-supplementum-numidiae_cagnat-schmidt1894.txt
   claudius-apollinaris:
     kind: metadata-omission
     evidence: div2 10.10 'Claudius Apollinaris, Bishop of Hierapolis, and Apologist'.
@@ -259,6 +268,15 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
+  collatio-carthaginiensis:
+    kind: anonymous
+    evidence: 'The official notarial acts of the 411 conference, recorded by the proceeding''s
+      own appointed notaries rather than composed by a named author — a collective proceedings-record
+      entity, the same shape as the already-ruled anti-donatist-dossier (court/council acts
+      and imperial correspondence).
+
+      '
+    from_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
   constantine:
     kind: metadata-omission
     evidence: 'div2 4.7 heading reads "The Oration of the Emperor Constantine, which he addressed
@@ -410,6 +428,23 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  donatist-anonymous:
+    kind: anonymous
+    evidence: 'Item 1''s own manuscript title ("De passione sanctorum Donati et Advocati")
+      and Mabillon''s own dating analysis, reproduced in this volume, name no individual author
+      for this sermon — a Donatist preacher''s own work, but not one Mabillon or this volume
+      attributes to anyone by name.
+
+      '
+    from_file: monumenta-vetera-donatistarum_migne-pl8.txt
+  donatist-anonymous-passio-authors:
+    kind: anonymous
+    evidence: 'Items 2 and 3 are anonymous Donatist martyr-narratives per Mabillon''s own
+      analysis, reproduced in this volume, dating and situating them inside the Donatist commemorative
+      tradition rather than attributing them to a named author.
+
+      '
+    from_file: monumenta-vetera-donatistarum_migne-pl8.txt
   edessene-martyr-acts:
     kind: anonymous
     evidence: 'div2 9.9 (Acts of Sharbil), 9.11 (Martyrdom of Habib the Deacon), 9.12 (Martyrdom
@@ -592,6 +627,13 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  liber-genealogus:
+    kind: anonymous
+    evidence: 'An anonymous North African compilation per Mommsen''s own editorial discussion
+      in this volume — no individual compiler is named or identifiable from the text itself.
+
+      '
+    from_file: chronica-minora-liber-genealogus_mommsen1892.txt
   liturgy-of-addai-and-mari:
     kind: pseudonymous
     evidence: 'div2 12.4 "The Liturgy of the Blessed Apostles", heading "Composed by St. Adaeus
@@ -897,6 +939,30 @@ authors:
 
       '
     from_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+  theodosian-code:
+    kind: anonymous
+    evidence: 'Imperial legislation compiled by an appointed commission under Theodosius II
+      (438 CE) from earlier rescripts of multiple emperors — a collective legislative-compilation
+      entity, not a work with a single author; Mommsen and Meyer are its modern editors, not
+      its authors.
+
+      '
+    from_file: theodosianus-16_mommsen-meyer1905.txt
+  theodosian-code-compilers:
+    kind: anonymous
+    evidence: 'A compiled imperial law code spanning Constantine (312) through Theodosius
+      II (437), issued in Theodosius II''s own name (438) but authored, in the sense a corpus-map
+      author field means, by no single person — each constitution is its own emperor''s own
+      act, redacted into one code by the compiling commission Theodosius II convened (Nov.
+      Theod. 1, itself not part of this vendored file). "The Roman imperial chancery" is the
+      same collective/anonymous-act treatment already used for the one other legal-compilation
+      author-entity this corpus map has ruled on (a Julianic school law, Cappadocian''s own
+      cappadocian.source.codex-theodosianus-13-3-5-school-law.md record, independently — that
+      record cites the same work by content, not this vendored file, and needed no ruling
+      here).
+
+      '
+    from_file: codex-theodosianus_latinlibrary.txt
   theophilus-of-caesarea:
     kind: metadata-omission
     evidence: 'div2 10.12 ''Theophilus, Bishop of Caesarea in Palestine''. Kept distinct from

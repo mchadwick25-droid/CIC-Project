@@ -1,0 +1,28 @@
+# Weiskotten's 1919 bilingual (Latin + English) critical edition of
+# Possidius's Life of Augustine, vendored 2026-09-05 for the Latin
+# Pastoral-Congregational Christianity world-build (Source_Registry.md row
+# 45, fulfilling Source_Acquisition_Manifest G3, this world's own
+# highest-priority open request). Unlike codex-theodosianus and the Hartel
+# Cyprian file, this is NOT registered as a Latin-only original-language
+# witness -- the complete English translation present throughout makes it
+# ordinary English-language primary-evidence material.
+source_file: possidius_vita-augustini_weiskotten1919.txt
+
+assignments:
+  - work: "Sancti Augustini Vita (Life of Augustine)"
+    author: possidius
+    locus: "whole text -- Weiskotten's own chapter numbering (i-xxxi) runs through both the Latin and the facing English translation"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Augustine's own companion for decades, and the Augustine-side
+      counterpart to Pontius's already-vendored Life of Cyprian (this same
+      bucket, anf05) -- closes the one-sided formation-narrative gap this
+      world's own Doc_02 names, and is the underlying source, via NPNF's
+      own editorial apparatus, for the Megalius/primate-of-Numidia
+      identification Doc_01 discloses as resting on an unvendored work
+      until now. Bilingual edition; the English translation is primary
+      evidence in the ordinary sense, the accompanying Latin text and
+      apparatus are useful for checking a specific reading against it.

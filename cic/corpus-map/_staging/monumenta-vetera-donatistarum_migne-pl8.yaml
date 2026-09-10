@@ -1,0 +1,67 @@
+# Mabillon's "Monumenta Vetera ad Donatistarum Historiam Pertinentia,"
+# reprinted in Migne PL 8 — three items in sequence, all Donatist-authored
+# or Donatist-tradition material, none vendored anywhere else in this
+# corpus in any language.
+source_file: monumenta-vetera-donatistarum_migne-pl8.txt
+
+authors_ruled:
+  donatist-anonymous-passio-authors:
+    kind: anonymous
+    evidence: >
+      Items 2 and 3 are anonymous Donatist martyr-narratives per Mabillon's
+      own analysis, reproduced in this volume, dating and situating them
+      inside the Donatist commemorative tradition rather than attributing
+      them to a named author.
+  donatist-anonymous:
+    kind: anonymous
+    evidence: >
+      Item 1's own manuscript title ("De passione sanctorum Donati et
+      Advocati") and Mabillon's own dating analysis, reproduced in this
+      volume, name no individual author for this sermon — a Donatist
+      preacher's own work, but not one Mabillon or this volume attributes
+      to anyone by name.
+
+assignments:
+  - work: "Sermo Donatistae cujusdam de vexatione Donatistarum temporibus
+      Leontii et Ursatii (MS title: De passione sanctorum Donati et
+      Advocati)"
+    author: donatist-anonymous
+    locus: "item 1 of 3"
+    atlas_ids:
+      - donatism
+    role: tradition
+    confidence: assigned
+    note: >
+      A Donatist-authored sermon on the persecution of Donatists under
+      Leontius and Ursatius, c. 340 CE per Mabillon's own dating analysis
+      reproduced in the file. This is a genuine Donatist own-voice primary
+      text — not a hostile quotation preserved inside a Catholic reply, the
+      rarest category this entry has and one this construction should
+      weigh heavily precisely because it is so scarce.
+
+  - work: "Passio Benedicti Martyris Marculi"
+    author: donatist-anonymous-passio-authors
+    locus: "item 2 of 3"
+    atlas_ids:
+      - donatism
+    role: tradition
+    confidence: assigned
+    note: >
+      Donatist martyr-passion narrative (348 CE), the movement's own
+      commemorative literature for one of its own martyrs — tradition, the
+      community's own hagiographic voice, distinct in kind from the
+      documentary/legal material already mapped from the Optatus appendix.
+
+  - work: "Passio SS. Martyrum Isaac et Maximiani, cum epistula Macrobii ad
+      ecclesiam Carthaginiensem"
+    author: donatist-anonymous-passio-authors
+    locus: "item 3 of 3, with the appended letter of the martyr Macrobius"
+    atlas_ids:
+      - donatism
+    role: tradition
+    confidence: assigned
+    note: >
+      A second Donatist martyr-passion (348 CE) with an appended first-
+      person letter from the martyr Macrobius himself to the church at
+      Carthage — a documented instance of direct Donatist epistolary voice,
+      not only narrative about a martyr.
