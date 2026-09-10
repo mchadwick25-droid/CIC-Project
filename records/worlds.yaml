@@ -228,7 +228,7 @@ worlds:
     state: built
     census_id: "donatist-north-africa"
     package:
-      manifest_hash: "sha256:af45b22f05416550438785ba450813d78ca20c063ae71c8e49b97da61d88c3e2"
-      location: "packages/don/2026-09-10T03-41-39Z"
+      manifest_hash: "sha256:d90acbbc1a5d048de0f4da695fed87ea7c124a95de779e3072a0b9970c40b2c7"
+      location: "packages/don/2026-09-10T03-45-40Z"
     thinness_statement: "Richest in the hostile-but-primary narrative of Optatus and the vast anti-Donatist corpus of Augustine, in the Codex Theodosianus's own imperial legislation, and in this world's own small set of surviving self-authored texts (Tyconius's Liber Regularum, two martyr Passiones, a fragmentary letter of the martyr Macrobius, and the newly recovered Gesta Collationis Carthaginiensis court transcript); thinner on the ordinary Numidian believer's own words despite being, for long stretches, the numerically dominant church, on the Circumcellions'/agonistici's own typical conduct beyond their bare legislative attestation, on any woman's own voice beyond Lucilla's and one unnamed parallel (both named only inside hostile or incidental narration), and on this world's own account of specific violent episodes its opponents allege against it."
     living_tradition_flag: false
