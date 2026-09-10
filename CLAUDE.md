@@ -67,7 +67,7 @@ The build-cycle discipline already self-governs: escalation is limited to four c
 
 ## Usage/credit discipline
 
-Weekly usage credits keep running out. To fix that without losing quality (and without touching anything above this line). This is a Max-200 plan; context-window management matters at least as much as model choice — a bloated context costs more than a clean one regardless of tier:
+Weekly usage credits keep running out. To fix that without losing quality (and without touching anything above this line). This is a Max-200 plan on a genuinely tight budget — $200/month is a real financial stretch, not a comfortable ceiling with room to spend past. Treat it as a hard cap: the goal is to get everything possible out of the flat fee, not to fall back on paid overage. Context-window management matters at least as much as model choice — a bloated context costs more than a clean one regardless of tier:
 
 - Manage context actively: `/compact` or `/clear` between unrelated pieces of work, and delegate research/investigation to subagents so exploration doesn't bloat the main thread. Reach for these before reaching for a cheaper model.
 - Use Plan Mode before committing to implementation on anything with uncertain scope — explore read-only first rather than burning implementation-priced turns on discovery.
@@ -81,4 +81,4 @@ Weekly usage credits keep running out. To fix that without losing quality (and w
 - Use event-driven waits (PR/CI subscriptions) instead of manual polling loops.
 - Check `/usage` periodically to catch a runaway pattern before it costs the rest of the week.
 - Max-200 draws Claude chat, Claude Code, and Cowork from one shared usage pool — if more than one surface is in use, watch total burn across all of them, not just this session.
-- If the ceiling still gets hit, Max-200 allows purchasing extra usage (billed at API rates) with a spending cap set in Settings → Usage — a planned fallback for a genuinely heavy week, not a substitute for the discipline above.
+- Confirm "extra usage" is OFF in Settings → Usage (or capped at $0). On a tight budget, hitting the weekly ceiling is a signal to spend less via the discipline above, not a cue to let paid overage kick in — don't leave it toggled on "just in case." A session's own internal cost telemetry (what work would have cost at raw API rates) is not a bill by itself; only actual overage usage is. If overage is ever needed for something genuinely unavoidable, turn it on deliberately, do the one thing, and turn it back off.
