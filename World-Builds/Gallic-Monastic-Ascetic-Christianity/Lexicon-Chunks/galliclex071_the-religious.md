@@ -48,6 +48,14 @@ Salvian, a presbyter addressing Romans who go to the games, calls the people of 
 
 ---
 
+## Distortion Risk
+
+**Modern Hearing:** "religious" heard as an adjective describing personal piety or devoutness in general.
+
+**World Hearing:** at Marseilles it is Salvian's class-noun for a whole social category, spoken from outside by a non-monk addressing lapsed Romans — his ordinary word for "the monks," not a compliment about inner devotion, and available to describe the lapsed as readily as the faithful ("the religious who have gained some reputation by a general repentance").
+
+---
+
 ## Key Sources
 
 - Salvian, *On the Government of God* I.2 (Sanford pp. 42–43: "those who live and act according to their own determination and vows"; "Religious men are lowly ..."; "they rejoice in weakness"; "toil, fasting, poverty, humility and weakness are not burdensome"; "the religious are happier than all others"); V.10 (p. 153: "the religious who have gained some reputation by a general repentance"; "repent of their conversion"); VIII.4 (p. 230: "the hatred of the Africans for the monks — that is, for the servants of God") — Registry row 43, within its Licensed For; Sanford's footnotes (Seneca parallels) are editorial and unrowed (Doc_03 §10 item 8).
@@ -57,4 +65,4 @@ Salvian, a presbyter addressing Romans who go to the games, calls the people of 
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3). CT tag not applied. Reported-Experience Status not applicable.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3); Distortion Risk added, corrected Round 1 review S1 -- the Framework requires it at all tiers. Key Sources retained at Tier 3 as a short citation list per this pass's own brief, disclosed here rather than silently kept against the Template's own omit-at-Tier-3 instruction. CT tag not applied. Reported-Experience Status not applicable.

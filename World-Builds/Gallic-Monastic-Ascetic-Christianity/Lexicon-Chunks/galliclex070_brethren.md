@@ -48,6 +48,14 @@ At Marmoutier "many also of the brethren had, in the same manner, fashioned retr
 
 ---
 
+## Distortion Risk
+
+**Modern Hearing:** generic churchy address, interchangeable across any speaker or body of believers.
+
+**World Hearing:** it names a specific bond — the monastic body at Tours or at Marseilles — distinct from Vincent's one use of "the holy brethren" for the faithful at large. The same word names two different bodies, and this world does not treat them as one.
+
+---
+
 ## Key Sources
 
 - Sulpitius Severus, *Life of St. Martin* ch. X (`ii.ii.xi`: "Many also of the brethren"; "the brethren of younger years"); ch. XXI (`ii.ii.xxii`: "Martin assembled the brethren") — Registry row 1.
@@ -59,4 +67,4 @@ At Marmoutier "many also of the brethren had, in the same manner, fashioned retr
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3). CT tag not applied. Reported-Experience Status not applicable.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3); Distortion Risk added, corrected Round 1 review S1 -- the Framework requires it at all tiers. Key Sources retained at Tier 3 as a short citation list per this pass's own brief, disclosed here rather than silently kept against the Template's own omit-at-Tier-3 instruction. CT tag not applied. Reported-Experience Status not applicable.

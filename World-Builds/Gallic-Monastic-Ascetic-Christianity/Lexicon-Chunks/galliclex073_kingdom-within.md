@@ -44,6 +44,14 @@ The end of the profession is the kingdom; Moses shows the two Gauls where it is.
 
 ---
 
+## Distortion Risk
+
+**Modern Hearing:** "the kingdom of God is within you" heard as a comforting interiority platitude, a general truism about spirituality residing inside a person.
+
+**World Hearing:** the heart is read as contested territory, actively ruled by one of two kings; and (Piamun) the verse is turned into a warning that a cell's walls or the desert's distance cannot themselves secure a heart that remains its own worst enemy.
+
+---
+
 ## Key Sources
 
 - John Cassian, *Conferences* I.13 (`iv.iv.ii.xiii`: "the kingdom of God is within you"; "knowledge or ignorance of truth, and delight either in vice or in virtue"; "a kingdom for the devil or for Christ in our heart") — Registry row 8. *Conferences* XVIII.16 (`iv.vi.ii.xvi`: "the doors of our cell or the recesses of the desert"; "the kingdom of God is within you"; "no one is more my enemy than my own heart") — row 10. Received (Moses, Piamun).
@@ -52,4 +60,4 @@ The end of the profession is the kingdom; Moses shows the two Gauls where it is.
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3). CT tag not applied. Reported-Experience Status not applicable.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3); Distortion Risk added, corrected Round 1 review S1 -- the Framework requires it at all tiers. Key Sources retained at Tier 3 as a short citation list per this pass's own brief, disclosed here rather than silently kept against the Template's own omit-at-Tier-3 instruction. CT tag not applied. Reported-Experience Status not applicable.

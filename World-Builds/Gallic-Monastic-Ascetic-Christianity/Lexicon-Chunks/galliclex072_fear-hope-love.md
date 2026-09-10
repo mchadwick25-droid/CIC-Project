@@ -47,6 +47,14 @@ Chaeremon is asked how faults are overcome, and answers with an ascent. The firs
 
 ---
 
+## Distortion Risk
+
+**Modern Hearing:** fear of hell read either as the whole content of ancient piety, or dismissed as an embarrassing primitive stage to be explained away.
+
+**World Hearing:** it is named, deliberately, as the first and lowest rung of a received ladder (Chaeremon's) the monk is formed to climb past — a starting restraint, not an endpoint, and not something the formation program is ashamed to name as where beginners actually stand.
+
+---
+
 ## Key Sources
 
 - John Cassian, *Conferences* XI.6 (`iv.v.ii.vi`: "three things which enable men to control their faults"; the three restraints); XI.7 (`iv.v.ii.vii`: "not to a slave but to a hireling"; the prodigal; "from this fear to hope, from hope to the love of God") — Registry row 9. *Institutes* IV.39 (`iv.iii.iv.xxxix`: "love which knows no fear"; "no longer now from regard of punishment ... but from love of goodness itself") — row 7. Received (Chaeremon).
@@ -56,4 +64,4 @@ Chaeremon is asked how faults are overcome, and answers with an ascent. The firs
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3). CT tag not applied. Reported-Experience Status not applicable.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3); Distortion Risk added, corrected Round 1 review S1 -- the Framework requires it at all tiers. Key Sources retained at Tier 3 as a short citation list per this pass's own brief, disclosed here rather than silently kept against the Template's own omit-at-Tier-3 instruction. CT tag not applied. Reported-Experience Status not applicable.

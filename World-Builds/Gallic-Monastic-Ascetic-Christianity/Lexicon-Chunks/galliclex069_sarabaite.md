@@ -45,6 +45,14 @@ The Sarabaite is what the world calls a monk without a boundary. He has withdraw
 
 ---
 
+## Distortion Risk
+
+**Modern Hearing:** a technical term for a recognized monastic order or rule, or a later judgment that any monk living outside a large communal house was doing it wrong by Benedictine-era standards.
+
+**World Hearing:** Egypt's own name — used inside the world, not imposed on it later — for a specific and already-recognized failure: renunciation performed publicly but never submitted to an elder's tradition. The category exists to be avoided, not classified.
+
+---
+
 ## Key Sources
 
 - John Cassian, *Conferences* XVIII.4, 7 (`iv.vi.ii.iv`, `vii`: "the reprehensible"; "rightly named in the Egyptian language Sarabaites"; "renunciation only as a public profession"; "their own masters"; "two or three together"; "the lukewarmness of their purpose"; "flourishes"); XVIII.8 (`iv.vi.ii.viii`: the fourth kind) — Registry row 10. Gibson's footnote on the name's etymology is editorial (row 17).
@@ -54,4 +62,4 @@ The Sarabaite is what the world calls a monk without a boundary. He has withdraw
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3). CT tag not applied. Reported-Experience Status not applicable.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3); Distortion Risk added, corrected Round 1 review S1 -- the Framework requires it at all tiers. Key Sources retained at Tier 3 as a short citation list per this pass's own brief, disclosed here rather than silently kept against the Template's own omit-at-Tier-3 instruction. CT tag not applied. Reported-Experience Status not applicable.

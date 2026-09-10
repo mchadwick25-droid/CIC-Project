@@ -48,6 +48,14 @@ Martin reads the times. From the young man in Spain who claimed to be Elias and 
 
 ---
 
+## Distortion Risk
+
+**Modern Hearing:** apocalyptic expectation assumed to be fringe, purely metaphorical, or a vague background mood of the period rather than a stated, present conviction.
+
+**World Hearing:** Martin gives a precisely dated near-term calculation ("this is the eighth year since we heard these words from his lips"), not a loose sentiment; Vincent states the same expectation as his own book's stated occasion for writing, and Salvian treats the judgment as already begun, not merely awaited.
+
+---
+
 ## Key Sources
 
 - Sulpitius Severus, *Life of St. Martin* ch. XXIV (`ii.ii.xxv`: "the coming of Antichrist is at hand"); ch. XXII (`ii.ii.xxiii`: "when the day of judgment is at hand") — Registry row 1. *Letters* II (`ii.iii.ii`: "a terror of judgment, a fear of punishment") — row 2. *Dialogues* II.14 (`ii.iv.ii.xiv`: "Nero and Antichrist have first to come"; "already born ... reached the years of boyhood"; "this is the eighth year") — row 3.
@@ -59,4 +67,4 @@ Martin reads the times. From the young man in Spain who claimed to be Elias and 
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3). CT tag not applied. Reported-Experience Status not applicable.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3); Distortion Risk added, corrected Round 1 review S1 -- the Framework requires it at all tiers. Key Sources retained at Tier 3 as a short citation list per this pass's own brief, disclosed here rather than silently kept against the Template's own omit-at-Tier-3 instruction. CT tag not applied. Reported-Experience Status not applicable.

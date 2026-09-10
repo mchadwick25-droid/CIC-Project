@@ -48,6 +48,14 @@ Nestorius "maintains that Saint Mary ought to be called, not Theotocos (the moth
 
 ---
 
+## Distortion Risk
+
+**Modern Hearing:** the Theotocos title assumed to belong to later Marian devotion and doctrine, or assumed to be as central to this world's own formation life as it is to the wider theological age.
+
+**World Hearing:** Vincent uses it as one dated, worked example of the antiquity-and-consent test succeeding — Ephesus's bishops, on his own account, "innovated nothing" — a doctrinal proof-case for his method, not itself a concern this world's formation literature otherwise dwells on (Doc_05 §9A.7).
+
+---
+
 ## Key Sources
 
 - Vincent of Lérins, *Commonitory* ch. 12 [32] (`iii.xiii`: "not Theotocos (the mother of God), but Christotocos (the mother of Christ)"); ch. 13 [35] (`iii.xiv`: "In God there is one substance, but three Persons; in Christ two substances, but one Person"); ch. 15 [40] (`iii.xvi`: "most truly and most blessedly—The mother of God 'Theotocos'") — Registry row 13. Heurtley's Athanasian-Creed parallels are editorial (row 17).
@@ -58,4 +66,4 @@ Nestorius "maintains that Saint Mary ought to be called, not Theotocos (the moth
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3). CT tag not applied. Reported-Experience Status not applicable. The *De Incarnatione* coverage limit is stated in Key Sources rather than filled.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3); Distortion Risk added, corrected Round 1 review S1 -- the Framework requires it at all tiers. Key Sources retained at Tier 3 as a short citation list per this pass's own brief, disclosed here rather than silently kept against the Template's own omit-at-Tier-3 instruction. CT tag not applied. Reported-Experience Status not applicable. The *De Incarnatione* coverage limit is stated in Key Sources rather than filled.

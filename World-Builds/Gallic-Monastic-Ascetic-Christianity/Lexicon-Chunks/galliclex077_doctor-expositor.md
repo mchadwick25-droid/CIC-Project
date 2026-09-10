@@ -49,6 +49,14 @@ Vincent's whole apparatus of authority is built on teachers who agree. God "plac
 
 ---
 
+## Distortion Risk
+
+**Modern Hearing:** "Doctor of the Church" heard as a later, formal honorific bestowed by canonization on a small fixed list of named saints.
+
+**World Hearing:** at Lérins it names anyone recognized as an authorized teacher; what binds is not office, personal sanctity, or even martyrdom, but *consent* among such teachers — a solitary Doctor's own singular opinion, "be he a bishop, be he a Confessor, be he a martyr," is "a private fancy of his own."
+
+---
+
 ## Key Sources
 
 - Vincent of Lérins, *Commonitory* ch. 10 [28] (`iii.xi`: "a Doctor in the Church, who is believed by his disciples or auditors to teach by revelation"); ch. 22 [53] (`iii.xxiii`: "O Timothy! O Priest! O Expositor! O Doctor!"); ch. 28 [72–74] (`iii.xxix`: "a private fancy of his own"; "be he a bishop, be he a Confessor, be he a martyr"; "doctors, who are now called Homilists, Expositors" — Heurtley's "*Tractatores*" is the translator's Latin; "a master in spiritual matters"; "a consentient council of doctors" — read at Doc_05 §6B) — Registry row 13.
@@ -59,4 +67,4 @@ Vincent's whole apparatus of authority is built on teachers who agree. God "plac
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3). CT tag not applied. Reported-Experience Status not applicable.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3); Distortion Risk added, corrected Round 1 review S1 -- the Framework requires it at all tiers. Key Sources retained at Tier 3 as a short citation list per this pass's own brief, disclosed here rather than silently kept against the Template's own omit-at-Tier-3 instruction. CT tag not applied. Reported-Experience Status not applicable.

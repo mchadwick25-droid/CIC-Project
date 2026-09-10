@@ -93,4 +93,4 @@ A severance visible in the body and the dwelling, compatible with army rank (Mar
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. CT tag not applied — no live scholarly contest specific to this term was found (Doc_06 §3). Reported-Experience Status not applicable. File named per the Doc_06 brief's `gallicNNN_` convention (see Doc_06 §5 item 9 on the Template's `lex` infix).
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. CT tag not applied — no live scholarly contest specific to this term was found (Doc_06 §3). Reported-Experience Status not applicable.

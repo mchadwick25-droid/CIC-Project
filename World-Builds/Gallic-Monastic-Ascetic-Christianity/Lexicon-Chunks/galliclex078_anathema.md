@@ -45,6 +45,14 @@ Vincent lingers on the apostle's "though we, or an angel from heaven": "Tremendo
 
 ---
 
+## Distortion Risk
+
+**Modern Hearing:** "anathema" heard as a loose, general-purpose synonym for strong disapproval or condemnation.
+
+**World Hearing:** it is a specific, permanent formula of exclusion, bound to Galatians 1:8's own severity and applied even against an apostle or an angel who preaches otherwise — and, at Tours, its one appearance shows the sanction turned wrongly, in a bad priest's mouth, against a virgin who had done nothing but keep herself apart.
+
+---
+
 ## Key Sources
 
 - Vincent of Lérins, *Commonitory* ch. 8 [22–23] (`iii.ix`: "Tremendous severity!"; "separated, segregated, excluded, lest the dire contagion of a single sheep"); ch. 9 [25] (`iii.x`: "to anathematize those who preach anything other than what has once been received, always was a duty"); ch. 16 [41] (`iii.xvii`: "Accursed then be Photinus") — Registry row 13.
@@ -55,4 +63,4 @@ Vincent lingers on the apostle's "though we, or an angel from heaven": "Tremendo
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3). CT tag not applied. Reported-Experience Status not applicable.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3); Distortion Risk added, corrected Round 1 review S1 -- the Framework requires it at all tiers. Key Sources retained at Tier 3 as a short citation list per this pass's own brief, disclosed here rather than silently kept against the Template's own omit-at-Tier-3 instruction. CT tag not applied. Reported-Experience Status not applicable.

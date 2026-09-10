@@ -44,7 +44,15 @@ At Tours angels are Martin's visitors — "very often seen by him, so that they 
 
 ## World Meaning
 
-"It is also well known that angels were very often seen by him, so that they spoke in turns with him in set speech." When the rustics stop him from destroying a temple, "two angels, with spears and shields after the manner of heavenly warriors, suddenly presented themselves to him," and the work is done. At sea, an angel tells him what a synod at Nemausus has decided. Behind a closed door Sulpitius and Gallus hear voices, and Martin admits, "Agnes, Thecla, and Mary were there with me"; Peter and Paul, too. After the coerced communion, "suddenly, an angel stood by him and said, 'Justly, O Martin, do you feel compunction.'" The angels are part of what the disciple sees, and part of what Brictio sneers at. At Marseilles Cassian's fathers speak of the two angels "attached to each one of us" in the *Shepherd*, and of the angel of Satan Heron obeyed into the well.
+"It is also well known that angels were very often seen by him, so that they spoke in turns with him in set speech." When the rustics stop him from destroying a temple, "two angels, with spears and shields after the manner of heavenly warriors, suddenly presented themselves to him," and the work is done. At sea, an angel tells him what a synod at Nemausus has decided. Behind a closed door Sulpitius and Gallus hear voices, and Martin admits, "Agnes, Thecla, and Mary were there with me"; Peter and Paul, too. After the coerced communion, "suddenly, an angel stood by him and said, 'Justly, O Martin, do you feel compunction, but you could not otherwise get out of your difficulty. Renew your virtue, resume your courage, lest you not only now expose your fame, but your very salvation, to danger.'" The angels are part of what the disciple sees, and part of what Brictio sneers at. At Marseilles Cassian's fathers speak of the two angels "attached to each one of us" in the *Shepherd*, and of the angel of Satan Heron obeyed into the well.
+
+---
+
+## Distortion Risk
+
+**Modern Hearing:** angelic visitation assumed to be generic pious legend, or expected to appear symmetrically across both nodes as a shared convention.
+
+**World Hearing:** at Tours it is part of Martin's own evidentiary idiom — reported in the register of eyewitness testimony, alongside his power more broadly — while at Marseilles the same category is invoked chiefly as the shape of a counterfeit (the devil's own angel of light) the monk must learn to distinguish from the true.
 
 ---
 
@@ -57,4 +65,4 @@ At Tours angels are Martin's visitors — "very often seen by him, so that they 
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3). CT tag not applied. Reported-Experience Status not applicable here — carried by 010 for the historical-event layer.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. Ecological Function omitted (Tier 3); Distortion Risk added, corrected Round 1 review S1 -- the Framework requires it at all tiers. Key Sources retained at Tier 3 as a short citation list per this pass's own brief, disclosed here rather than silently kept against the Template's own omit-at-Tier-3 instruction. CT tag not applied. Reported-Experience Status not applicable here — carried by 010 for the historical-event layer.
