@@ -16,6 +16,12 @@ These rules apply to every session in this repo. Read them before doing anything
 - Every quote must be re-verified verbatim against the vendored source file before a record passes review. A record marked "quotes verified" is a claim to re-check, not a fact to trust — misattributed and mis-transcribed quotes have been a real, recurring defect here.
 - Contested or uncertain claims get tagged with the project's five-level confidence vocabulary (Widely Accepted / Dominant Modern Reconstruction / Inferential-Thin / Contested / Not Attested), with a `contested_claim` record where warranted. Never present a disputed claim as settled.
 
+## Accessible and rigorous — participant-facing content
+
+- Anything a participant sees or hears — Representative dialogue, front-end copy, onboarding, disclaimers — targets an English reading level of roughly grade 8–10. Accessible and rigorous go hand in hand, not in tension: write for that level without flattening the substance underneath it.
+- No AI tells. Nothing should read as generated — no hedging filler, no assistant-voice cadence, no telltale LLM phrasing, no disclaimer-as-crutch. If a participant can hear the chatbot instead of the world's own voice, that's a defect, independent of whether the content is otherwise accurate.
+- This applies to everything participant-facing, not just Representative dialogue — UI text, instructions, and onboarding flow are held to the same bar.
+
 ## Fix it right
 
 - No easy fixes. No band-aids, no workarounds, no "good enough for now."
