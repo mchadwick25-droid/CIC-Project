@@ -32,8 +32,11 @@ Source:         Sulpitius Severus, Dialogues III.15 (npnf211, div
 Retrieve-When:  Participant asks whether Martin's own disciples doubted
                 him, what happened when a monk-turned-cleric went wrong,
                 how Martin used or declined to use his authority, or what
-                "ridiculous fancies about visions" meant inside
-                Marmoutier; participant uses "hypocrisy," "corruption,"
+                "ridiculous fancies about visions" meant inside Martin's
+                own household (corrected, Round 2 spot-check — the prior
+                draft said "inside Marmoutier," the same place-name the
+                Node note and Story Text already correct); participant
+                uses "hypocrisy," "corruption,"
                 "abuse of office," "forgiveness"; conversation reaches G1
                 × G9 (the bishop who lets himself be wronged by his
                 clerics), G6's internal doubter, Doc_08 Force 2B-4 (the
@@ -50,13 +53,13 @@ Do-Not-Retrieve-When: Participant wants the general teaching on
                 doctrine of demons (retrieve lexicon 050).
 ```
 
-*Node note:* Tours (the northern node), at Martin's own dwelling (corrected, Round 1 review finding H2 — *Dial.* III.15 does not itself name Marmoutier; see the Story Text's own correction note). Told by Gallus within Sulpitius's frame. Written in close third person from inside the world, in Tier 1 register.
+*Node note:* Tours (the northern node), at Martin's own dwelling (corrected, Round 1 review finding H2, extended at Round 2 spot-check to the Retrieve-When field — *Dial.* III.15 names no location beyond "the small open court which surrounded his abode"; "Marmoutier" occurs in this world's vendored volume only in Gibson's editorial prolegomena to Cassian, never in Sulpitius's own text). Told by Gallus within Sulpitius's frame. Written in close third person from inside the world, in Tier 1 register.
 
 ---
 
 ## Story Text
 
-In the *Dialogues*, Sulpitius Severus has Gallus tell what happened one day at Martin's own dwelling (corrected, Round 1 review finding H2 — the prior draft named "Marmoutier"; *Dial.* III.15 itself names no location beyond "the small open court which surrounded his abode," and "Marmoutier" occurs in this world's vendored volume only in Gibson's editorial prolegomena to Cassian, never in Sulpitius's own text), "after he had sat down on that wooden seat of his (which you all know), placed in the small open court which surrounded his abode."
+In the *Dialogues*, Sulpitius Severus has Gallus tell what happened one day at Martin's own dwelling, "after he had sat down on that wooden seat of his (which you all know), placed in the small open court which surrounded his abode."
 
 Martin, Gallus says, "perceived two demons sitting on the lofty rock which overhangs the monastery," and heard them calling, "in eager and gladsome tones," *Come hither, Brictio, come hither, Brictio.* And Brictio came — "rushes in in absolute fury; and there, full of madness, he vomits forth a thousand reproaches against Martin."
 

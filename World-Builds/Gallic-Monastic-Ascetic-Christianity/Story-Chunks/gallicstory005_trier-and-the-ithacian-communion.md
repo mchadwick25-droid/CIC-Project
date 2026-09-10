@@ -1,7 +1,13 @@
 ## Retrieval Front-Matter
 
 ```
-Story-Title:    Trier and the Ithacian Communion — the one synod too many
+Story-Title:    Treves and the Ithacian Communion — the one synod too
+                many (corrected, Round 2 spot-check — the prior title
+                used the modernized "Trier"; the vendored volume's own
+                translation writes "Treves," see the Node note. The
+                filename slug "gallicstory005_trier-…" is left as a
+                stable technical identifier and is not this world's own
+                usage.)
 
 World-Code:     gallic
 
@@ -13,7 +19,7 @@ Confidence:     Widely Accepted at the narrative level (one named,
                 called this "told twice... independently... converging,"
                 overstating what the two texts actually share; *Sacred
                 History* II.50 narrates an earlier phase, Martin's plea
-                at Trier *before* Priscillian's execution, while
+                at Treves *before* Priscillian's execution, while
                 *Dialogues* III.11–13 narrates a later visit *after* the
                 execution, with the coerced communion, Felix's
                 ordination, and the angel — the two accounts share an
@@ -44,7 +50,7 @@ Retrieve-When:  Participant asks why Martin avoided bishops or synods,
                 episcopal, synodal, and imperial authority) in its
                 northern valence, G6 (power diminished by a bad
                 communion), or Doc_08 Force 2A-3 (the imperial court at
-                Trier).
+                Treves).
 
 Do-Not-Retrieve-When: Participant is asking about Priscillianism as a
                 movement — that is another world's territory (Doc_01
@@ -57,13 +63,15 @@ Do-Not-Retrieve-When: Participant is asking about Priscillianism as a
                 loss (retrieve gallicstory003 or lexicon 010).
 ```
 
-*Node note:* Tours (the northern node), the event at Treves (corrected, Round 1 review finding L2 — the prior draft used the modernized "Trier"; the vendored volume's own English translation writes "Treves") under the emperor Maximus, after Priscillian's execution — the text gives no year, and says only that Martin "lived sixteen years after this." Told in the *Dialogues* by Gallus, "a disciple of Martin's," within Sulpitius's frame. Written in close third person from inside the world, in Tier 1 register.
+*Node note:* Tours (the northern node), the event at Treves (corrected, Round 1 review finding L2, extended at Round 2 spot-check to the Story-Title, Confidence, Retrieve-When, and Usage Guidance fields, all of which had also used the modernized "Trier" — the vendored volume's own English translation writes "Treves" throughout) under the emperor Maximus, after Priscillian's execution — the text gives no year, and says only that Martin "lived sixteen years after this." Told in the *Dialogues* by Gallus, "a disciple of Martin's," within Sulpitius's frame. Written in close third person from inside the world, in Tier 1 register.
+
+*Correction (Round 1 review, moved here from Story Text at Round 2 spot-check):* the Story Text does not claim *Sacred History* II.50 and *Dialogues* III.11–13 as one converging account; they narrate different phases of the same affair, sharing an author, a setting, and a principle (M13; see the Confidence field above).
 
 ---
 
 ## Story Text
 
-In his *Dialogues*, Sulpitius Severus has Gallus — one of Martin's own disciples — tell "an event which he always concealed, owing to the character of the times, but which he could not conceal from us." Sulpitius's *Sacred History* narrates an earlier phase of the same affair, in his own voice (corrected, Round 1 review finding M13 — not "the same affair... in his own voice," which overstated the overlap; see the Confidence field above).
+In his *Dialogues*, Sulpitius Severus has Gallus — one of Martin's own disciples — tell "an event which he always concealed, owing to the character of the times, but which he could not conceal from us." Sulpitius's *Sacred History* narrates an earlier phase of the same underlying affair, in his own voice.
 
 After Priscillian had been put to death, the emperor Maximus "protected by his royal power Ithacius the bishop, who had been the accuser of Priscillian." The bishops gathered at Treves were "daily communicating with Ithacius" and "had made common cause with him." Martin was on his way to the court "constrained … by many serious causes of people involved in suffering" — and among the things being prepared there was an order "to send some tribunes armed with absolute power into the two Spains, to search out heretics, and, when found, to deprive them of their life or goods," a hunt in which, Gallus says, "one was deemed a heretic rather on his turning pale from fear, or wearing a particular garment, than by the faith which he professed."
 
@@ -95,7 +103,7 @@ The caveats Tier 1 requires: Gallus's account is framed as the disclosure of som
 
 ## Usage Guidance
 
-The Representative may draw on this story as remembered history, with Sulpitius and his narrator named: "In the *Dialogues*, Gallus — a disciple of Martin's — tells that …" and "Sulpitius himself, in his *Sacred History*, says that Martin held …" The sequence of events may be offered with confidence as this world's own memory of Trier; the angel's words and the loss of power should be presented as what Martin "confessed to us" and what the tradition reports, not as the Representative's own claim about what happened in the woods near Andethanna.
+The Representative may draw on this story as remembered history, with Sulpitius and his narrator named: "In the *Dialogues*, Gallus — a disciple of Martin's — tells that …" and "Sulpitius himself, in his *Sacred History*, says that Martin held …" The sequence of events may be offered with confidence as this world's own memory of Treves; the angel's words and the loss of power should be presented as what Martin "confessed to us" and what the tradition reports, not as the Representative's own claim about what happened in the woods near Andethanna.
 
 Additional guidance specific to this story: the Priscillianists themselves are not this world's subject, and the Representative must not build a picture of the movement from Sulpitius's hostile summary (*SH* II.50's charges against Priscillian are Sulpitius's report of the trial, not this world's knowledge); the point of the story inside this world is what Martin did and what it cost him. If a participant asks whether the south shared this suspicion of synods, the honest answer is that it did not, in one voice: Vincent at Lérins prefers "the decrees, if such there be, of an ancient General Council to the rashness and ignorance of a few" (*Comm.* ch. 3 [8], Doc_04 G9) — the opposed valence Doc_04 names as the finding — while Cassian's Egyptian fathers held the office itself in suspicion. The two nodes never argued this with each other.
 
@@ -103,4 +111,4 @@ Additional guidance specific to this story: the Priscillianists themselves are n
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Story_Repository_Chunk_Template.md` v1.0. No brackets or builder notes remain. Story Text read against its tier register: it names the author, the narrator, and the second corroborating work in the telling. Tier 1 ↔ Confidence (Widely Accepted; Contested for the angel and the diminution) confirmed. Every quoted phrase re-read at npnf211 divs ii.iv.iii.xi–xiii (flattened lines 4577–4719) and ii.vi.ii.l (lines 10932–10970) at Doc_09 construction. Source Identification section omitted (Tier 1). Absent Story Note omitted (not applicable).
+Completed per `L4-Templates/Story_Repository_Chunk_Template.md` v1.0. No brackets or builder notes remain. Story Text read against its tier register: it names the author, the narrator, and the *Sacred History*'s own earlier-phase account of the same affair — not as corroboration, but as a related, distinct telling (M13) — in the telling. Tier 1 ↔ Confidence (Widely Accepted; Contested for the angel and the diminution) confirmed. Every quoted phrase re-read at npnf211 divs ii.iv.iii.xi–xiii (flattened lines 4577–4719) and ii.vi.ii.l (lines 10932–10970) at Doc_09 construction. Source Identification section omitted (Tier 1). Absent Story Note omitted (not applicable).

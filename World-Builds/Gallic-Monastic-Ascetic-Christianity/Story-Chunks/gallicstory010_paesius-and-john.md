@@ -47,11 +47,13 @@ Do-Not-Retrieve-When: Participant is asking about Martin's fasting or
 
 *Node note:* Marseilles (the southern node). **Received Egyptian material**, transmitted by Cassian for Gaul. Written in close third person from inside the world, in Tier 2 register.
 
+*Correction (Round 1 review, annotation moved here from Story Text and Formation Ecology Connection at Round 2 spot-check; the substantive disclosure itself stays in both, as H3 required):* the prior draft's Story Text did not itself disclose the Egyptian origin, though the front-matter and Tier Justification did; both loci now carry the disclosure directly (H3).
+
 ---
 
 ## Story Text
 
-Among the examples of the Egyptian fathers that Cassian set down for the monks of Gaul is this one, of two old men and forty years — received into Gallic cells as Egypt's own saying, not this world's own invention (corrected, Round 1 review finding H3 — the prior draft's Story Text did not itself disclose the origin, though the front-matter and Tier Justification did).
+Among the examples of the Egyptian fathers that Cassian set down for the monks of Gaul is this one, of two old men and forty years — received into Gallic cells as Egypt's own saying, not this world's own invention.
 
 "When the aged John, who was superior of a large monastery and of a quantity of brethren, had come to visit the aged Pæsius, who was living in a vast desert, and had been asked of him as of a very old friend, what he had done in all the forty years in which he had been separated from him and had scarcely ever been disturbed in his solitude by the brethren: 'Never,' said he, 'has the sun seen me eating,' 'nor me angry,' said the other."
 
@@ -61,7 +63,7 @@ That is the whole of it as the tradition keeps it: the abbot of the many, asked 
 
 ## Formation Ecology Connection
 
-This is **G7 — the interior road** (Supporting, node-bound southern) compressed into one exchange — the tradition's own way of saying what Cassian's Abbot Moses states as doctrine, that "fastings, vigils, meditation on the Scriptures, self-denial, and the abnegation of all possessions are not perfection, but aids to perfection" (*Conf.* I.7, Doc_04 G7). Doc_05 §6A places it among the south's *exempla* — "Cassian's stories teach a virtue; Sulpitius's display a power" — and cites it directly; Doc_05 §8's finding that anger is weighted as "the soul's food" (*Inst.* V.21) is what the second answer is about. It also carries **G5 — formation by named example** in its southern medium: two named elders, remembered for one saying each, received on the page (Doc_07 §5's "read" half of the seen/read axis) — Egypt's own exchange, transmitted, not Gaul's own invention (Doc_04 §7; Doc_05 §7.2; Doc_06 §4(a); corrected, Round 1 review finding H3).
+This is **G7 — the interior road** (Supporting, node-bound southern) compressed into one exchange — the tradition's own way of saying what Cassian's Abbot Moses states as doctrine, that "fastings, vigils, meditation on the Scriptures, self-denial, and the abnegation of all possessions are not perfection, but aids to perfection" (*Conf.* I.7, Doc_04 G7). Doc_05 §6A places it among the south's *exempla* — "Cassian's stories teach a virtue; Sulpitius's display a power" — and cites it directly; Doc_05 §8's finding that anger is weighted as "the soul's food" (*Inst.* V.21) is what the second answer is about. It also carries **G5 — formation by named example** in its southern medium: two named elders, remembered for one saying each, received on the page (Doc_07 §5's "read" half of the seen/read axis) — Egypt's own exchange, transmitted, not Gaul's own invention (Doc_04 §7; Doc_05 §7.2; Doc_06 §4(a)).
 
 What the story does that the lexicon cannot: it is the shortest formation instrument in this repository — a Representative can offer it whole in a single breath, and it delivers the south's ranking of the outer discipline against the inner state without a word of analysis.
 
