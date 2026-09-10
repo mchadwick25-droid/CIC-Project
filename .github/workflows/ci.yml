@@ -8,9 +8,25 @@ name: CI
 # is Wave 3's Playwright-in-CI item (P1-8), not this workflow's job.
 
 on:
+  # paths-ignore added 2026-09-10: Mark's GitHub Actions minutes were fully
+  # exhausted 10 days into a 30-day billing cycle (3,000/3,000 used, real
+  # overage already billed) - none of the 13 jobs below read anything under
+  # Ministry/ or engine/*/reports/ (verified: no test_*.py imports from a
+  # reports/ path), and no job depends on markdown content, so a commit
+  # limited to those paths was paying for a full 13-job run, Docker build
+  # included, for zero additional coverage. Confirmed several of that day's
+  # own commits (the M8 reconciliation worksheet, both decision logs) were
+  # exactly this case. A commit that touches BOTH a doc path and a real code
+  # path still runs the full suite - paths-ignore only skips when every
+  # changed file matches.
   push:
     branches: [main]
+    paths-ignore: &docs-only
+      - 'Ministry/**'
+      - '**/reports/**'
+      - '**.md'
   pull_request:
+    paths-ignore: *docs-only
 
 jobs:
   # Two jobs were removed 2026-08-24: "Repository views current (all six
