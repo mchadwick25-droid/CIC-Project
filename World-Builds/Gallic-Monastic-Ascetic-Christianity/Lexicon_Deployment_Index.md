@@ -1,8 +1,8 @@
 # Lexicon Deployment Index — Gallic Monastic-Ascetic Christianity
 
-**Status:** DRAFT — co-produced with `gallic_Doc06_Full_Lexicon_Development.md` and the 81 `Lexicon-Chunks/` files as one Step 6 output set; awaiting a bounded spot-check of the Round 1 fix round, together with them. Not self-certified. Not Frozen.
+**Status:** Approved to proceed (self-dispositioned per CO-022, together with `gallic_Doc06_Full_Lexicon_Development.md` and the 81 `Lexicon-Chunks/` files as one Step 6 output set) — Round 1 review and fix round complete, Round 2 bounded spot-check complete, its residual findings (a malformed §5b table; an under-captured Key-Source Registry Rows column, worst at 015) fixed and this index regenerated from the corrected chunk data. Not Frozen.
 **World file-code:** `gallic`
-**Built from the 81 chunk files' own front-matter, mechanically extracted, not separately maintained** — per `cic-lexicon-index`'s own instruction that a master index must derive from the chunks themselves. Every count and reciprocity claim below was computed by direct parsing of the 81 chunk files and of Doc_06 §2.7's own table, not asserted; the extraction script's own output is the basis for every number in this document. **Round 1 review (2026-09-10) found three defects in this index's own first draft — a mis-scoped reciprocity diagnosis (§6), a Registry Cross-Reference column that reported Excluded/disclaimed rows as sources (§1), and an Author-Gravity-Risk column that measured node-exclusivity rather than author gravity (§1) — and this version corrects all three, recomputed from the chunks directly rather than patched.**
+**Built from the 81 chunk files' own front-matter, mechanically extracted, not separately maintained** — per `cic-lexicon-index`'s own instruction that a master index must derive from the chunks themselves. Every count and reciprocity claim below was computed by direct parsing of the 81 chunk files and of Doc_06 §2.7's own table, not asserted; the extraction script's own output is the basis for every number in this document. **Round 1 review (2026-09-10) found three defects in this index's own first draft — a mis-scoped reciprocity diagnosis (§6), a Registry Cross-Reference column that reported Excluded/disclaimed rows as sources (§1), and an Author-Gravity-Risk column that measured node-exclusivity rather than author gravity (§1). A Round 2 bounded spot-check of the fix for those three then found a fourth defect introduced by the fix itself (§5b's check-sheet table missing its Tier column) and a residue in the first defect's own repair (the Key-Source Registry Rows column under-captured multi-row and range mentions, e.g. at 015). This version corrects all four, recomputed from the chunks directly rather than patched.**
 
 ---
 
@@ -11,20 +11,20 @@
 | # | Term | Tier | AS | SC | DR | TC | RT | PV | CT | Aliases | Related-Terms | Key-Source Registry Rows | Excluded/Disclaimed Rows Named | Author-Gravity-Risk |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 001 | monk / solitary | 1 | – | Y | Y | – | Y | – | – | monk, monks, solitary, solitaries, "monk and bishop," the religious (Salvian's class term), servant(s) of God, the brethren (as a body), coenobite, anchorite / hermit / eremite (as kinds of monk), ... | bishop / the monk-bishop, renunciation, monastery / coenobium, anchorite / hermit, Sarabaite, soldier of Christ, profession, the religious / servants of God, the world / secular, cell, the customs of the monasteries /... | Row 1, Row 3, Row 7, Row 10, Row 13, Row 17, Row 27, Row 30, Row 43 | Row 42 | No |
-| 002 | soldier of Christ | 1 | – | Y | Y | – | Y | – | – | to become a soldier to God, to serve as a soldier to God, Christ's service, "the oath of allegiance to Christ," heavenly warfare, the camp (of men), the girdle / girded loins, the athlete, combat /... | monk / solitary, combat / athlete, sign of the cross, the monk's dress, accidie, the devil / demons, renunciation, the world / secular, virtus / power, bloodless martyrdom / confessor, the eight principal faults, grac... | Row 1, Row 2, Row 3, Row 7, Row 9, Row 13, Row 17 | — | No |
+| 002 | soldier of Christ | 1 | – | Y | Y | – | Y | – | – | to become a soldier to God, to serve as a soldier to God, Christ's service, "the oath of allegiance to Christ," heavenly warfare, the camp (of men), the girdle / girded loins, the athlete, combat /... | monk / solitary, combat / athlete, sign of the cross, the monk's dress, accidie, the devil / demons, renunciation, the world / secular, virtus / power, bloodless martyrdom / confessor, the eight principal faults, grac... | Row 1, Row 2, Row 3, Row 7, Row 9, Row 13, Row 17, Row 26, Row 27 | — | No |
 | 003 | example / imitation | 1 | – | Y | Y | – | Y | – | – | example, examples, model, pattern, exemplar, imitation, "the object of our imitation," "after the example of," "plants" (of a master's example), witness / eyewitness ("I myself am a witness"), "one... | disciple / master, the Fathers / elders, bishop / the monk-bishop, virtus / power, conference, tradition, humility, obedience, Commonitory / Peregrinus, elder / senior / abbot, junior / novice | Row 1, Row 2, Row 3, Row 7, Row 9, Row 13, Row 17, Row 18, Row 27, Row 30 | — | No |
 | 004 | the Fathers / elders | 1 | – | Y | Y | Y | Y | – | – | the Fathers, the holy Fathers, the fathers of Egypt, the ancient fathers, the elders, the seniors, the senior, "our forefathers," our predecessors, the ancients, the ancient masters, "the approved ... | tradition, novelty vs. antiquity, the rule, example / imitation, elder / senior / abbot, disclosure of thoughts, discretion, conference, the customs of the monasteries / Institutes, Doctor / Expositor, council / synod... | Row 1, Row 7, Row 8, Row 9, Row 13, Row 27 | — | No |
 | 005 | the customs of the monasteries / Institutes | 1 | – | Y | Y | Y | Y | – | – | the institutes, the Institutes (Cassian's twelve books), the institutions of the East / of Egypt, "the customs and rules of the monasteries," the rule of the Egyptians, the rule of the monastery, "... | the Fathers / elders, Gaul, novelty vs. antiquity, the rule, monastery / coenobium, anchorite / hermit, the monk's dress, unceasing prayer / the canonical system, conference, junior / novice, Sarabaite, monk / solitar... | Row 1, Row 7, Row 9, Row 10, Row 17, Row 30 | Row 36 | Yes — single-voice |
-| 006 | purity of heart | 1 | – | Y | Y | Y | Y | – | – | purity of heart, the goal / the aim / the mark (scopos), "the immediate aim or goal," "sanctification" (Cassian's Pauline gloss), perfection of heart, charity (as its content), "a perpetual purity,... | goal and end, perfection, discretion, thoughts, the eight principal faults, contemplation, unceasing prayer / the canonical system, grace (of God), mortification, renunciation, humility, accidie, the customs of the mo... | Row 1, Row 7, Row 8, Row 9, Row 11, Row 24, Row 27, Row 30 | — | Yes — single-voice |
+| 006 | purity of heart | 1 | – | Y | Y | Y | Y | – | – | purity of heart, the goal / the aim / the mark (scopos), "the immediate aim or goal," "sanctification" (Cassian's Pauline gloss), perfection of heart, charity (as its content), "a perpetual purity,... | goal and end, perfection, discretion, thoughts, the eight principal faults, contemplation, unceasing prayer / the canonical system, grace (of God), mortification, renunciation, humility, accidie, the customs of the mo... | Row 1, Row 7, Row 8, Row 9, Row 11, Row 24, Row 26, Row 27, Row 30 | — | Yes — single-voice |
 | 007 | unceasing prayer / the canonical system | 1 | – | Y | Y | Y | Y | – | – | the office, the canonical prayers, "the canonical system," the hours, the appointed times, Nocturns, Mattins, Tierce, Sext, None, Vespers, the twelve psalms, the vigil, the synaxis (Greek, supplied... | purity of heart, cell, the customs of the monasteries / Institutes, the Fathers / elders, penance / satisfaction, communion, the monk's dress, Gaul, humility, novelty vs. antiquity, soldier of Christ, grace (of God) | Row 1, Row 2, Row 3, Row 7, Row 8, Row 30 | Row 17 | Yes — single-voice |
-| 008 | grace (of God) | 1 | – | Y | Y | Y | Y | – | Y | the grace of God, the grace of Christ, divine grace, God's mercy, the Lord's assistance / help / co-operation, the inspiration of the Lord, "the Divine gift," "Not I, but the grace of God with me,"... | free will, beginning of a good will, co-operation, perseverance, merit, predestination, grace as charism, Pelagians as foil, Massilians, purity of heart, humility, the Fathers / elders, novelty vs. antiquity, soldier ... | Row 1, Row 3, Row 7, Row 8, Row 9, Row 13, Row 15, Row 17, Row 24, Row 30, Row 32 | Row 35, Row 43, Row 44 | No |
-| 009 | free will | 1 | – | Y | Y | Y | Y | – | Y | the freedom of the will, free choice, "the will always remains free in man," "the weakness of free will," man's will, our efforts / human efforts, our exertions, "seeds of goodness," "the choice of... | grace (of God), beginning of a good will, co-operation, merit, perseverance, predestination, Pelagians as foil, Massilians, purity of heart, thoughts, obedience, humility, the eight principal faults | Row 7, Row 8, Row 9, Row 13, Row 15, Row 17, Row 24, Row 30 | Row 35, Row 43 | Weighted |
+| 008 | grace (of God) | 1 | – | Y | Y | Y | Y | – | Y | the grace of God, the grace of Christ, divine grace, God's mercy, the Lord's assistance / help / co-operation, the inspiration of the Lord, "the Divine gift," "Not I, but the grace of God with me,"... | free will, beginning of a good will, co-operation, perseverance, merit, predestination, grace as charism, Pelagians as foil, Massilians, purity of heart, humility, the Fathers / elders, novelty vs. antiquity, soldier ... | Row 1, Row 3, Row 7, Row 8, Row 9, Row 13, Row 15, Row 17, Row 24, Row 26, Row 27, Row 30, Row 32 | Row 14, Row 16, Row 35, Row 43, Row 44 | No |
+| 009 | free will | 1 | – | Y | Y | Y | Y | – | Y | the freedom of the will, free choice, "the will always remains free in man," "the weakness of free will," man's will, our efforts / human efforts, our exertions, "seeds of goodness," "the choice of... | grace (of God), beginning of a good will, co-operation, merit, perseverance, predestination, Pelagians as foil, Massilians, purity of heart, thoughts, obedience, humility, the eight principal faults | Row 7, Row 8, Row 9, Row 13, Row 15, Row 17, Row 24, Row 30 | Row 14, Row 16, Row 35, Row 43 | Weighted |
 | 010 | virtus / power | 1 | – | Y | Y | Y | Y | Y | – | power, powers, "the virtues of Martin," virtue(s) (in the northern sense), miracles, signs and wonders, mighty works, "the power present" (adesse virtutem), "an abundance of power" (virtutum gratia... | blessing, the possessed / exorcism, sign of the cross, grace as charism, the devil / demons, apostolic (authority), example / imitation, humility, bishop / the monk-bishop, communion, illusion, angels, bloodless marty... | Row 1, Row 2, Row 3, Row 7, Row 9, Row 10, Row 18, Row 26, Row 27, Row 30, Row 42 | Row 34 | Yes — single-voice |
 | 011 | the rule | 1 | Y | – | Y | Y | Y | – | Y | "everywhere, always, by all," quod ubique, quod semper, quod ab omnibus (the Latin tag is Doc_01 §5's, from general knowledge — Vincent's own Latin for "rule" is not given in the vendored translati... | Catholic, novelty vs. antiquity, the Fathers / elders, tradition, the deposit, progress vs. alteration, council / synod, heretic / heresy, Apostolic See / Pope, the customs of the monasteries / Institutes, Commonitory... | Row 1, Row 7, Row 13, Row 17, Row 30 | — | Yes — single-voice |
-| 012 | novelty vs. antiquity | 1 | – | Y | Y | Y | Y | – | – | novelty, novelties, "profane novelties," innovation, "our own inventions," "some conceit of novelty," new opinions / new heretics, "anything novel"; antiquity, the ancient(s), "what has been handed... | the rule, the Fathers / elders, tradition, the deposit, progress vs. alteration, the customs of the monasteries / Institutes, heretic / heresy, Catholic, council / synod, the monk's dress, discretion, unceasing prayer... | Row 1, Row 7, Row 8, Row 10, Row 13, Row 27 | — | No |
+| 012 | novelty vs. antiquity | 1 | – | Y | Y | Y | Y | – | – | novelty, novelties, "profane novelties," innovation, "our own inventions," "some conceit of novelty," new opinions / new heretics, "anything novel"; antiquity, the ancient(s), "what has been handed... | the rule, the Fathers / elders, tradition, the deposit, progress vs. alteration, the customs of the monasteries / Institutes, heretic / heresy, Catholic, council / synod, the monk's dress, discretion, unceasing prayer... | Row 1, Row 7, Row 8, Row 10, Row 13, Row 26, Row 27 | — | No |
 | 013 | bishop / the monk-bishop | 1 | – | Y | Y | Y | Y | Y | – | bishop, the episcopate, chief priest (summus sacerdos — Roberts's footnote at Vita ch. XXVI, editorial), priest / sacerdos (often = bishop in this world's translators), "monk and bishop," "Pope" (p... | monk / solitary, Apostolic See / Pope, council / synod, communion, apostolic (authority), virtus / power, humility, the Fathers / elders, example / imitation, heretic / heresy, lukewarmness, renunciation, the eight pr... | Row 1, Row 3, Row 6, Row 7, Row 8, Row 9, Row 10, Row 13, Row 17, Row 20, Row 27, Row 30 | Row 42 | No |
 | 014 | monastery / coenobium | 2 | – | Y | – | Y | Y | – | – | monastery, monasteries, coenobium / cœnobium, coenobia, coenobite(s), "the congregation," "your new monastery," "the house," nunnery / "the monastery of the young women" (a women's house), "the mon... | monk / solitary, anchorite / hermit, Sarabaite, cell, elder / senior / abbot, junior / novice, brethren, the customs of the monasteries / Institutes, bishop / the monk-bishop, virgin / virginity, Gaul | Row 1, Row 3, Row 7, Row 10, Row 17, Row 30, Row 43 | — | Yes — single-voice |
-| 015 | anchorite / hermit | 2 | – | Y | – | Y | – | – | – | anchorite(s), hermit, eremite(s), "withdrawers," solitary (in the desert sense), "the recesses of the desert," "the life of a hermit," "the solitude of a hermit," "the rule of anchorites," anachore... | monk / solitary, monastery / coenobium, cell, Sarabaite, the customs of the monasteries / Institutes, the devil / demons, combat / athlete, contemplation, accidie, the world / secular | Row 1, Row 3 | Row 4 | Yes — single-voice |
+| 015 | anchorite / hermit | 2 | – | Y | – | Y | – | – | – | anchorite(s), hermit, eremite(s), "withdrawers," solitary (in the desert sense), "the recesses of the desert," "the life of a hermit," "the solitude of a hermit," "the rule of anchorites," anachore... | monk / solitary, monastery / coenobium, cell, Sarabaite, the customs of the monasteries / Institutes, the devil / demons, combat / athlete, contemplation, accidie, the world / secular | Row 1, Row 3, Row 8, Row 10, Row 26, Row 27 | Row 4 | Yes — single-voice |
 | 016 | cell | 2 | – | Y | – | – | Y | – | – | cell, cells, "a cell constructed of wood," the caves / "retreats" (Marmoutier), "the recesses of the desert," cellula, "the place of prayer" (the north's one worship-locus, held apart), "some perfe... | monastery / coenobium, monk / solitary, anchorite / hermit, accidie, unceasing prayer / the canonical system, obedience, junior / novice, the devil / demons, illusion, thoughts, angels, the customs of the monasteries ... | Row 1, Row 2, Row 3, Row 7, Row 10, Row 39 | — | No |
 | 017 | elder / senior / abbot | 2 | – | Y | Y | Y | Y | – | – | elder, elders, senior, seniors, "the old man," Abbot (of an Egyptian father: Abbot Moses, Abbot Piamun), the superior, "the saintly master" (Tours), "presiding over a large monastery" (the Gallic h... | the Fathers / elders, junior / novice, disclosure of thoughts, discretion, obedience, disciple / master, example / imitation, monastery / coenobium, humility, conference, bishop / the monk-bishop, penance / satisfaction | Row 1, Row 7, Row 8, Row 9, Row 30, Row 42 | — | No |
 | 018 | junior / novice | 2 | – | Y | – | Y | – | – | – | junior, juniors, novice, "the newly-received," "one who renounces this world," "the younger," "the brethren of younger years" (Tours, a different grade), "received as a novice," the year in the gue... | elder / senior / abbot, disclosure of thoughts, obedience, renunciation, profession, humility, monastery / coenobium, the customs of the monasteries / Institutes, disciple / master, example / imitation, lukewarmness, ... | Row 1, Row 7, Row 17 | — | Yes — single-voice |
@@ -47,23 +47,23 @@
 | 035 | perfection | 2 | – | Y | Y | Y | – | – | – | perfection, perfect, "the perfect life," "the attainment of the perfect life," "the way of perfection," "these lofty heights of perfection," "the lists of perfection," "aids to perfection," "practi... | purity of heart, goal and end, contemplation, fear → hope → love, renunciation, humility, grace (of God), free will, combat / athlete, the eight principal faults, example / imitation, junior / novice | Row 7, Row 8, Row 9, Row 11 | — | Weighted |
 | 036 | thoughts | 2 | – | Y | – | Y | – | – | – | thoughts, "itching thoughts," "the first rise of thoughts," "the dominion of secret thoughts," "three origins of our thoughts," "from God, from the devil, and from ourselves," "this threefold order... | discretion, disclosure of thoughts, the devil / demons, illusion, purity of heart, the eight principal faults, cell, elder / senior / abbot, unceasing prayer / the canonical system, free will, the kingdom within | Row 7, Row 8 | — | Yes — single-voice |
 | 037 | the eight principal faults | 2 | – | Y | Y | Y | – | – | – | the eight principal faults, "the eight principal sins," the faults, "the spirit of gluttony / fornication / covetousness / anger / dejection / accidie / vainglory / pride," "of which they reckon ei... | combat / athlete, accidie, soldier of Christ, purity of heart, thoughts, discretion, mortification, humility, perfection, the devil / demons, bishop / the monk-bishop, tradition, free will | Row 7, Row 17, Row 30 | — | Yes — single-voice |
-| 038 | accidie | 2 | – | Y | Y | Y | Y | – | – | accidie, acedia, "weariness or distress of heart," "the midday demon," "our sixth combat," "dislike of the place, disgust with the cell," "as if it was too slow in setting," "a kind of unreasonable... | the eight principal faults, cell, combat / athlete, soldier of Christ, lukewarmness, the world / secular, profession, contemplation, thoughts, discretion, purity of heart | Row 7 | — | Yes — single-voice |
+| 038 | accidie | 2 | – | Y | Y | Y | Y | – | – | accidie, acedia, "weariness or distress of heart," "the midday demon," "our sixth combat," "dislike of the place, disgust with the cell," "as if it was too slow in setting," "a kind of unreasonable... | the eight principal faults, cell, combat / athlete, soldier of Christ, lukewarmness, the world / secular, profession, contemplation, thoughts, discretion, purity of heart | Row 7, Row 17 | — | Yes — single-voice |
 | 039 | mortification | 2 | – | Y | Y | Y | – | – | – | mortification, mortified, "dead to this world and its deeds and desires," "the image of the Crucified," "the fear of the Lord is our cross," "crucified to this world," "dead to all earthly conversa... | renunciation, the monk's dress, humility, soldier of Christ, combat / athlete, purity of heart, perfection, the eight principal faults, sackcloth and ashes, compunction, bloodless martyrdom / confessor | Row 2, Row 7, Row 30 | — | Weighted |
 | 040 | compunction | 2 | – | Y | – | Y | – | – | – | compunction, "salutary compunction," "most salutary compunction," "a healthy compunction," "compunction of heart," "my heart's compunction increased," "Justly, O Martin, do you feel compunction" (T... | renunciation, thoughts, disclosure of thoughts, humility, purity of heart, fear → hope → love, penance / satisfaction, communion, lukewarmness, grace (of God), the world / secular | Row 3, Row 7, Row 8, Row 25 | — | Weighted |
 | 041 | contemplation | 2 | – | Y | Y | Y | – | – | – | contemplation, "divine contemplation," "the contemplation of God," "the contemplation of things Divine," "the chief good," meditation (in Cassian's sense), "the one thing needful," Mary's "good par... | purity of heart, goal and end, perfection, unceasing prayer / the canonical system, anchorite / hermit, accidie, the eight principal faults, renunciation, thoughts, the kingdom within, cell | Row 3, Row 7, Row 8, Row 9, Row 17 | — | Yes — single-voice |
-| 042 | beginning of a good will | 2 | – | Y | Y | Y | – | – | Y | the beginning of a good will, "first beginnings of a good will," "the very smallest spark of good will," "the beginning of our good will," "the beginning of free will," "the initiative ... of good ... | grace (of God), free will, co-operation, perseverance, merit, predestination, Pelagians as foil, Massilians, thoughts, compunction, purity of heart | Row 8, Row 9, Row 15, Row 16, Row 17, Row 24, Row 32 | Row 35, Row 43 | No |
+| 042 | beginning of a good will | 2 | – | Y | Y | Y | – | – | Y | the beginning of a good will, "first beginnings of a good will," "the very smallest spark of good will," "the beginning of our good will," "the beginning of free will," "the initiative ... of good ... | grace (of God), free will, co-operation, perseverance, merit, predestination, Pelagians as foil, Massilians, thoughts, compunction, purity of heart | Row 8, Row 9, Row 15, Row 16, Row 17, Row 24, Row 32 | Row 14, Row 35, Row 43 | No |
 | 043 | perseverance | 2 | – | Y | Y | Y | – | – | – | perseverance, persevere, "endures in them to the end," "an evidence of his perseverance and desire," "the persistence of the goodness already acquired," "the third stage," "perseverance in the line... | grace (of God), free will, beginning of a good will, co-operation, predestination, lukewarmness, junior / novice, profession, humility, Massilians, monk / solitary | Row 1, Row 5, Row 7, Row 9, Row 14, Row 16, Row 17, Row 24, Row 31 | Row 43 | No |
-| 044 | predestination | 2 | – | Y | Y | Y | – | – | Y | predestination, "the predestination of the saints," predestined, election, "in darkness on the question concerning the predestination of the saints" (Augustine's description of the brethren), "only... | grace (of God), free will, beginning of a good will, perseverance, Pelagians as foil, Massilians, co-operation, merit, heretic / heresy | Row 9, Row 15, Row 16, Row 17, Row 24, Row 30 | Row 35, Row 43 | No |
-| 045 | co-operation | 2 | – | Y | Y | Y | – | – | – | co-operation, co-operate, cooperates, "the co-operation of the Lord," "the grace of God always co-operates with our will," "the Lord's assistance," "the assistance and grace of God," God as "Protec... | grace (of God), free will, beginning of a good will, perseverance, merit, Pelagians as foil, humility, combat / athlete, unceasing prayer / the canonical system, purity of heart | Row 7, Row 8, Row 9, Row 24 | Row 35, Row 43 | Yes — single-voice |
-| 046 | merit | 2 | – | Y | Y | Y | – | – | – | merit, merits, "from no antecedent merits of ours," "the merit of our own works," "the merits of the saints," "the desert of each man," desert; and, at Tours, a saint's merita — "by his pious merit... | grace (of God), free will, beginning of a good will, co-operation, Pelagians as foil, virtus / power, blessing, bishop / the monk-bishop, humility, perseverance | Row 3, Row 8, Row 9, Row 27, Row 30 | Row 35, Row 43 | No |
-| 047 | Pelagians as foil | 2 | – | Y | – | Y | Y | – | – | Pelagians, Pelagius, "an ephemeral, moribund set of frogs, fleas, and flies," "attributed so much antecedent strength to Free-will, as to deny the necessity of God's grace," "the profane notion of ... | grace (of God), free will, beginning of a good will, merit, predestination, Massilians, heretic / heresy, novelty vs. antiquity, the rule, co-operation, bishop / the monk-bishop | Row 9, Row 13, Row 15, Row 17, Row 30 | Row 35, Row 43, Row 44 | No |
+| 044 | predestination | 2 | – | Y | Y | Y | – | – | Y | predestination, "the predestination of the saints," predestined, election, "in darkness on the question concerning the predestination of the saints" (Augustine's description of the brethren), "only... | grace (of God), free will, beginning of a good will, perseverance, Pelagians as foil, Massilians, co-operation, merit, heretic / heresy | Row 9, Row 15, Row 16, Row 17, Row 24, Row 30 | Row 14, Row 35, Row 43 | No |
+| 045 | co-operation | 2 | – | Y | Y | Y | – | – | – | co-operation, co-operate, cooperates, "the co-operation of the Lord," "the grace of God always co-operates with our will," "the Lord's assistance," "the assistance and grace of God," God as "Protec... | grace (of God), free will, beginning of a good will, perseverance, merit, Pelagians as foil, humility, combat / athlete, unceasing prayer / the canonical system, purity of heart | Row 7, Row 8, Row 9, Row 24 | Row 14, Row 15, Row 16, Row 35, Row 43 | Yes — single-voice |
+| 046 | merit | 2 | – | Y | Y | Y | – | – | – | merit, merits, "from no antecedent merits of ours," "the merit of our own works," "the merits of the saints," "the desert of each man," desert; and, at Tours, a saint's merita — "by his pious merit... | grace (of God), free will, beginning of a good will, co-operation, Pelagians as foil, virtus / power, blessing, bishop / the monk-bishop, humility, perseverance | Row 3, Row 8, Row 9, Row 14, Row 15, Row 16, Row 27, Row 30 | Row 35, Row 43 | No |
+| 047 | Pelagians as foil | 2 | – | Y | – | Y | Y | – | – | Pelagians, Pelagius, "an ephemeral, moribund set of frogs, fleas, and flies," "attributed so much antecedent strength to Free-will, as to deny the necessity of God's grace," "the profane notion of ... | grace (of God), free will, beginning of a good will, merit, predestination, Massilians, heretic / heresy, novelty vs. antiquity, the rule, co-operation, bishop / the monk-bishop | Row 9, Row 13, Row 15, Row 17, Row 30 | Row 14, Row 16, Row 35, Row 43, Row 44 | No |
 | 048 | grace as charism | 2 | – | Y | Y | Y | – | – | – | "the gift of accomplishing cures," "the gifts of various graces," "his grace, which had been diminished," "an abundance of power" (eam virtutum gratiam — Roberts's Latin), "special grace" (of the P... | grace (of God), virtus / power, blessing, the possessed / exorcism, obedience, discretion, bishop / the monk-bishop, communion, humility, angels | Row 1, Row 3, Row 7, Row 8, Row 9, Row 10, Row 17 | — | No |
 | 049 | blessing | 2 | – | Y | Y | – | Y | – | – | blessing, to bless, "his blessing according to custom," blessed oil, "such is the custom," threads "from Martin's garment," straw "on which he had lain," "a letter of Martin" (in the girl's bosom),... | virtus / power, grace as charism, sign of the cross, the possessed / exorcism, sackcloth and ashes, virgin / virginity, bishop / the monk-bishop, example / imitation, the devil / demons, angels | Row 1, Row 2, Row 3 | — | Yes — single-voice |
 | 050 | the devil / demons | 2 | – | Y | Y | – | Y | – | – | the devil, demons, "our cunning adversary," "the subtle serpent," "a filthy Ethiopian," "an angel of Satan as an angel of light," "the members of the Devil," "thou bloody monster," "the spirit of w... | soldier of Christ, virtus / power, the possessed / exorcism, illusion, sign of the cross, thoughts, discretion, disclosure of thoughts, cell, accidie, angels, heathen / rustics, Antichrist, combat / athlete | Row 1, Row 2, Row 3, Row 7, Row 8, Row 10, Row 13, Row 17 | — | No |
 | 051 | the possessed / exorcism | 2 | – | Y | – | Y | Y | – | – | the possessed, energumen(s), "laid hold of by a demon," "the possessed roaring through the whole church," exorcism, "the formula of exorcism," exorcist (the office Hilary gave Martin), "to cast out... | virtus / power, the devil / demons, blessing, sign of the cross, grace as charism, sackcloth and ashes, humility, bishop / the monk-bishop, heathen / rustics, catechumen, the world / secular | Row 1, Row 3, Row 9, Row 10 | — | Weighted |
 | 052 | illusion | 2 | – | Y | Y | Y | – | – | – | illusion, "an illusion of the devil," deception, "the devil could no longer dissemble," "an angel of Satan as an angel of light," a robe "from heaven" (Anatolius), the purple-robed "Christ," "ridic... | discretion, the devil / demons, thoughts, virtus / power, angels, disclosure of thoughts, cell, novelty vs. antiquity, trial, Antichrist, the eight principal faults | Row 1, Row 3, Row 7, Row 8, Row 11 | — | No |
 | 053 | heathen / rustics | 2 | – | Y | Y | – | Y | – | – | heathen, heathens, heathenism, "the Gallic rustics in their wretched folly," rustics, pagans, "images of demons veiled with a white covering," temples, idols, altars, "the chief priest of that plac... | virtus / power, sign of the cross, the possessed / exorcism, bishop / the monk-bishop, catechumen, conversion, the devil / demons, monastery / coenobium, Gaul, blessing, the world / secular | Row 1, Row 3, Row 9, Row 10 | — | Yes — single-voice |
-| 054 | the government of God | 2 | – | Y | Y | Y | – | – | – | the government of God, "On the Government of God," "On the present judgment" (Gennadius's title), "the ever-present judgment of God," "the present judgment of God was clearly shown," the helmsman w... | Antichrist, the world / secular, Gaul, the religious / servants of God, lukewarmness, conversion, monk / solitary, trial, heretic / heresy | Row 9, Row 13, Row 30, Row 42, Row 43 | — | Yes — single-voice |
+| 054 | the government of God | 2 | – | Y | Y | Y | – | – | – | the government of God, "On the Government of God," "On the present judgment" (Gennadius's title), "the ever-present judgment of God," "the present judgment of God was clearly shown," the helmsman w... | Antichrist, the world / secular, Gaul, the religious / servants of God, lukewarmness, conversion, monk / solitary, trial, heretic / heresy | Row 1, Row 2, Row 9, Row 13, Row 30, Row 42, Row 43 | — | Yes — single-voice |
 | 055 | Catholic | 2 | – | Y | Y | Y | Y | – | – | Catholic, "the Catholic faith," "the Catholic Church," "the true and genuine Catholic," "comprehends all universally," "the approved Catholic fathers," "all the Catholic fathers," "the Catholic rul... | the rule, novelty vs. antiquity, the Fathers / elders, tradition, heretic / heresy, council / synod, communion, the deposit, Apostolic See / Pope, grace (of God), the customs of the monasteries / Institutes, Pelagians... | Row 6, Row 7, Row 8, Row 9, Row 10, Row 13 | — | No |
 | 056 | the deposit | 2 | Y | – | – | Y | – | – | – | the deposit, "keep the deposit," "O Timothy, keep the deposit," "that which has been intrusted to thee," "a matter brought to thee, not put forth by thee," "not an author but a keeper," "Thou hast ... | the rule, tradition, novelty vs. antiquity, progress vs. alteration, the Fathers / elders, Doctor / Expositor, Catholic, disciple / master, Commonitory / Peregrinus, heretic / heresy | Row 8, Row 13 | — | Yes — single-voice |
 | 057 | progress vs. alteration | 2 | Y | – | Y | Y | – | – | Y | progress, "real progress, not alteration," alteration, change, "enlarged in itself" / "transformed into something else," "the same number of joints," the infant and the grown man, "in the same doct... | the deposit, the rule, novelty vs. antiquity, tradition, council / synod, Catholic, the Fathers / elders, Doctor / Expositor, heretic / heresy, Theotocos | Row 1, Row 7, Row 13, Row 17 | — | Yes — single-voice |
@@ -147,89 +147,89 @@ The Lexicon Framework requires a Distortion Risk section — "at minimum a singl
 
 | # | Term | Tier | Distortion Risk pairing present? | Carries [DR] tag? |
 |---|---|---|---|---|
-| 001 | monk / solitary | Yes | Yes |
-| 002 | soldier of Christ | Yes | Yes |
-| 003 | example / imitation | Yes | Yes |
-| 004 | the Fathers / elders | Yes | Yes |
-| 005 | the customs of the monasteries / Institutes | Yes | Yes |
-| 006 | purity of heart | Yes | Yes |
-| 007 | unceasing prayer / the canonical system | Yes | Yes |
-| 008 | grace (of God) | Yes | Yes |
-| 009 | free will | Yes | Yes |
-| 010 | virtus / power | Yes | Yes |
-| 011 | the rule | Yes | Yes |
-| 012 | novelty vs. antiquity | Yes | Yes |
-| 013 | bishop / the monk-bishop | Yes | Yes |
-| 014 | monastery / coenobium | Yes | – |
-| 015 | anchorite / hermit | Yes | – |
-| 016 | cell | Yes | – |
-| 017 | elder / senior / abbot | Yes | Yes |
-| 018 | junior / novice | Yes | – |
-| 019 | profession | Yes | – |
-| 020 | conversion | Yes | Yes |
-| 021 | renunciation | Yes | Yes |
-| 022 | the world / secular | Yes | Yes |
-| 023 | combat / athlete | Yes | – |
-| 024 | sign of the cross | Yes | Yes |
-| 025 | bloodless martyrdom / confessor | Yes | Yes |
-| 026 | disciple / master | Yes | – |
-| 027 | tradition | Yes | – |
-| 028 | conference | Yes | – |
-| 029 | discretion | Yes | Yes |
-| 030 | disclosure of thoughts | Yes | Yes |
-| 031 | obedience | Yes | Yes |
-| 032 | humility | Yes | – |
-| 033 | lukewarmness | Yes | Yes |
-| 034 | goal and end | Yes | – |
-| 035 | perfection | Yes | Yes |
-| 036 | thoughts | Yes | – |
-| 037 | the eight principal faults | Yes | Yes |
-| 038 | accidie | Yes | Yes |
-| 039 | mortification | Yes | Yes |
-| 040 | compunction | Yes | – |
-| 041 | contemplation | Yes | Yes |
-| 042 | beginning of a good will | Yes | Yes |
-| 043 | perseverance | Yes | Yes |
-| 044 | predestination | Yes | Yes |
-| 045 | co-operation | Yes | Yes |
-| 046 | merit | Yes | Yes |
-| 047 | Pelagians as foil | Yes | – |
-| 048 | grace as charism | Yes | Yes |
-| 049 | blessing | Yes | Yes |
-| 050 | the devil / demons | Yes | Yes |
-| 051 | the possessed / exorcism | Yes | – |
-| 052 | illusion | Yes | Yes |
-| 053 | heathen / rustics | Yes | Yes |
-| 054 | the government of God | Yes | Yes |
-| 055 | Catholic | Yes | Yes |
-| 056 | the deposit | Yes | – |
-| 057 | progress vs. alteration | Yes | Yes |
-| 058 | trial | Yes | Yes |
-| 059 | council / synod | Yes | – |
-| 060 | heretic / heresy | Yes | Yes |
-| 061 | communion | Yes | Yes |
-| 062 | Apostolic See / Pope | Yes | Yes |
-| 063 | apostolic (authority) | Yes | Yes |
-| 064 | virgin / virginity | Yes | Yes |
-| 065 | sackcloth and ashes | Yes | Yes |
-| 066 | the monk's dress | Yes | Yes |
-| 067 | penance / satisfaction | Yes | Yes |
-| 068 | Gaul | Yes | Yes |
-| 069 | Sarabaite | Yes | – |
-| 070 | brethren | Yes | – |
-| 071 | the religious / servants of God | Yes | Yes |
-| 072 | fear → hope → love | Yes | – |
-| 073 | the kingdom within | Yes | – |
-| 074 | Massilians | Yes | Yes |
-| 075 | angels | Yes | Yes |
-| 076 | Antichrist | Yes | Yes |
-| 077 | Doctor / Expositor | Yes | – |
-| 078 | anathema | Yes | – |
-| 079 | Commonitory / Peregrinus | Yes | – |
-| 080 | Theotocos | Yes | – |
-| 081 | catechumen | Yes | – |
+| 001 | monk / solitary | 1 | Yes | Yes |
+| 002 | soldier of Christ | 1 | Yes | Yes |
+| 003 | example / imitation | 1 | Yes | Yes |
+| 004 | the Fathers / elders | 1 | Yes | Yes |
+| 005 | the customs of the monasteries / Institutes | 1 | Yes | Yes |
+| 006 | purity of heart | 1 | Yes | Yes |
+| 007 | unceasing prayer / the canonical system | 1 | Yes | Yes |
+| 008 | grace (of God) | 1 | Yes | Yes |
+| 009 | free will | 1 | Yes | Yes |
+| 010 | virtus / power | 1 | Yes | Yes |
+| 011 | the rule | 1 | Yes | Yes |
+| 012 | novelty vs. antiquity | 1 | Yes | Yes |
+| 013 | bishop / the monk-bishop | 1 | Yes | Yes |
+| 014 | monastery / coenobium | 2 | Yes | – |
+| 015 | anchorite / hermit | 2 | Yes | – |
+| 016 | cell | 2 | Yes | – |
+| 017 | elder / senior / abbot | 2 | Yes | Yes |
+| 018 | junior / novice | 2 | Yes | – |
+| 019 | profession | 2 | Yes | – |
+| 020 | conversion | 2 | Yes | Yes |
+| 021 | renunciation | 2 | Yes | Yes |
+| 022 | the world / secular | 2 | Yes | Yes |
+| 023 | combat / athlete | 2 | Yes | – |
+| 024 | sign of the cross | 2 | Yes | Yes |
+| 025 | bloodless martyrdom / confessor | 2 | Yes | Yes |
+| 026 | disciple / master | 2 | Yes | – |
+| 027 | tradition | 2 | Yes | – |
+| 028 | conference | 2 | Yes | – |
+| 029 | discretion | 2 | Yes | Yes |
+| 030 | disclosure of thoughts | 2 | Yes | Yes |
+| 031 | obedience | 2 | Yes | Yes |
+| 032 | humility | 2 | Yes | – |
+| 033 | lukewarmness | 2 | Yes | Yes |
+| 034 | goal and end | 2 | Yes | – |
+| 035 | perfection | 2 | Yes | Yes |
+| 036 | thoughts | 2 | Yes | – |
+| 037 | the eight principal faults | 2 | Yes | Yes |
+| 038 | accidie | 2 | Yes | Yes |
+| 039 | mortification | 2 | Yes | Yes |
+| 040 | compunction | 2 | Yes | – |
+| 041 | contemplation | 2 | Yes | Yes |
+| 042 | beginning of a good will | 2 | Yes | Yes |
+| 043 | perseverance | 2 | Yes | Yes |
+| 044 | predestination | 2 | Yes | Yes |
+| 045 | co-operation | 2 | Yes | Yes |
+| 046 | merit | 2 | Yes | Yes |
+| 047 | Pelagians as foil | 2 | Yes | – |
+| 048 | grace as charism | 2 | Yes | Yes |
+| 049 | blessing | 2 | Yes | Yes |
+| 050 | the devil / demons | 2 | Yes | Yes |
+| 051 | the possessed / exorcism | 2 | Yes | – |
+| 052 | illusion | 2 | Yes | Yes |
+| 053 | heathen / rustics | 2 | Yes | Yes |
+| 054 | the government of God | 2 | Yes | Yes |
+| 055 | Catholic | 2 | Yes | Yes |
+| 056 | the deposit | 2 | Yes | – |
+| 057 | progress vs. alteration | 2 | Yes | Yes |
+| 058 | trial | 2 | Yes | Yes |
+| 059 | council / synod | 2 | Yes | – |
+| 060 | heretic / heresy | 2 | Yes | Yes |
+| 061 | communion | 2 | Yes | Yes |
+| 062 | Apostolic See / Pope | 2 | Yes | Yes |
+| 063 | apostolic (authority) | 2 | Yes | Yes |
+| 064 | virgin / virginity | 2 | Yes | Yes |
+| 065 | sackcloth and ashes | 2 | Yes | Yes |
+| 066 | the monk's dress | 2 | Yes | Yes |
+| 067 | penance / satisfaction | 2 | Yes | Yes |
+| 068 | Gaul | 2 | Yes | Yes |
+| 069 | Sarabaite | 3 | Yes | – |
+| 070 | brethren | 3 | Yes | – |
+| 071 | the religious / servants of God | 3 | Yes | Yes |
+| 072 | fear → hope → love | 3 | Yes | – |
+| 073 | the kingdom within | 3 | Yes | – |
+| 074 | Massilians | 3 | Yes | Yes |
+| 075 | angels | 3 | Yes | Yes |
+| 076 | Antichrist | 3 | Yes | Yes |
+| 077 | Doctor / Expositor | 3 | Yes | – |
+| 078 | anathema | 3 | Yes | – |
+| 079 | Commonitory / Peregrinus | 3 | Yes | – |
+| 080 | Theotocos | 3 | Yes | – |
+| 081 | catechumen | 3 | Yes | – |
 
-**0 of 81 chunks missing a Distortion Risk pairing** (mechanically checked for a `## Distortion Risk` heading whose body contains both "Modern Hearing" and "World Hearing"): none — all 81 chunks carry the required pairing.
+**All 81 of 81 chunks carry a Distortion Risk pairing** (mechanically checked for a `## Distortion Risk` heading whose body contains both "Modern Hearing" and "World Hearing").
 
 ---
 
@@ -496,4 +496,4 @@ Per Doc_06 §4's own distortion-risk naming and §5's open items: the cross-worl
 
 ## Disposition
 
-DRAFT — awaiting a bounded spot-check of this fix round, together with `gallic_Doc06_Full_Lexicon_Development.md` and the 81 `Lexicon-Chunks/` files, per Round 1 review's own recommendation. This index's own escalation-category self-assessment: it does not decide a new portfolio-level or cross-world question (§7 restates Doc_04/Doc_05's own items, deciding nothing for another world's maintainer); it derives directly from the chunk files and Doc_06 §2.7's own table, computed mechanically rather than asserted; it does not touch Representative identity; the Related-Terms reciprocity gap (§6) is disclosed with a corrected diagnosis, not smoothed over.
+**Approved to proceed** (self-dispositioned per CO-022, together with `gallic_Doc06_Full_Lexicon_Development.md`, whose §6 carries the full Round 1 review, Round 1 fix round, and Round 2 spot-check log for this index as for the rest of Step 6). This index's own escalation-category self-assessment: it does not decide a new portfolio-level or cross-world question (§7 restates Doc_04/Doc_05's own items, deciding nothing for another world's maintainer); it derives directly from the chunk files and Doc_06 §2.7's own table, computed mechanically rather than asserted; it does not touch Representative identity; the Related-Terms reciprocity gap (§6) is disclosed with a corrected diagnosis, not smoothed over.
