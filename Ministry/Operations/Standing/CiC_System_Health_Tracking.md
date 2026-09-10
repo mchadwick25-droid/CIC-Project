@@ -381,3 +381,13 @@ CI-green at the infra level. Merging both would conflict; only one should land. 
 one to keep — and whether to close or rebase the other — is a project-lead call, not
 this thread's to make unilaterally. Surfaced directly to Mark in-session rather than
 guessing.
+
+**Resolved same session.** Mark closed #144 without merging and merged #155 himself
+(`bc908d16`) — #155's per-job architecture is the one kept. Also explains the
+"Workers Builds: cic-project" check that failed on #155's own commit and that this
+thread flagged as undiagnosable without dashboard access: Mark had suspended the
+Cloudflare Workers Build integration directly, not a real build defect. **Standing
+note:** this thread does not call Cloudflare directly — its check-runs and
+deploy-preview comments arrive from Cloudflare's own GitHub App integration — but per
+Mark's direction, treat that integration as suspended: don't chase a red or missing
+Cloudflare Workers Build check as a finding in any sweep until Mark says otherwise.
