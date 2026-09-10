@@ -2,8 +2,7 @@
 
 **Status:** Cleared review (Round 3, CLEARED) — Approved to proceed, self-disposed by this build thread together with `Doc_06_Full_Lexicon_Development.md` and the twelve `Lexicon-Chunks/` files as co-produced Step 6 outputs, reviewed and disposed of together per `cic-build-cycle`. See `Doc_06_Full_Lexicon_Development.md`'s own Disposition for the shared record and `Review-Artifacts/Doc06_Round1_Review.md` / `Round2_Review.md` / `Round3_Review.md` for the shared review artifacts. Not self-certified. Not Frozen.
 **World file-code:** `ijc`
-**Amended 2026-09-10 — thirteenth entry added.** `apocrisiarius` (Open_Gaps item 15, flagged at Doc_06 closure as not yet done). This is new construction work post-Doc_06, not a typo fix: the entry and this index's amendments are DRAFT and carry no disposition until an independent adversarial review has run, per that item's own instruction and `cic-build-cycle`. The original twelve entries and their Doc_06 disposition are unchanged.
-**Built alongside the chunk files in `Lexicon-Chunks/`, not after** — the original twelve at Doc_06, and `apocrisiarius` added 2026-09-10 in the same pass as its own chunk, **never as a separately-maintained list — per `anthropic-skills:cic-lexicon-index`'s own instruction that a master index must be derived from the same chunk files, not a separately-maintained list.**
+**Built alongside the twelve chunk files in `Lexicon-Chunks/`, not after — per `anthropic-skills:cic-lexicon-index`'s own instruction that a master index must be derived from the same chunk files, not a separately-maintained list.**
 
 ---
 
@@ -23,13 +22,12 @@
 | *Nea Rhōmē* | 2 | Y | – | – | Y | Y | Y | – | New Rome | presbeia, primatus | Rows 10–11 | No |
 | *basilica* (contested space) | 3 | – | Y | – | – | Y | Y | – | church building | Imperator..., communio | Rows 7–8, 38 | No |
 | *martyrium* | 3 | – | Y | – | – | Y | Y | – | martyr shrine | primatus | Row 14 | No |
-| *apocrisiarius* | 3 | – | – | Y | Y | Y | – | – | apocrisiary, responsalis, Deacon of the Letters, resident representative | communio, primatus, Tomus, concilium | **None** — the term itself is unattested in this world's in-window sources (see chunk's Attestation Note) | **Yes, in the strongest form** — no in-window source at all; the function rests on Rows 12–13 (Leo's letters/legates), the title on none |
 
 ## 2. By Tier
 
 **Tier 1 (5):** *primatus*/*sedes apostolica*, *presbeia*, *homoios*, *communio*, "*Imperator intra Ecclesiam...*"
 **Tier 2 (5):** *homoousios*, *concilium*/*synodos*, *haeresis*, *Tomus*, *Nea Rhōmē*
-**Tier 3 (3):** *basilica*, *martyrium*, *apocrisiarius*
+**Tier 3 (2):** *basilica*, *martyrium*
 
 Reasoning for this distribution against Doc_03's own ten-of-twelve provisional Tier 1 flagging is recorded in full in `Doc_06_Full_Lexicon_Development.md` §2 — not repeated here.
 
@@ -37,10 +35,10 @@ Reasoning for this distribution against Doc_03's own ten-of-twelve provisional T
 
 - **AS (Signature Vocabulary):** *primatus*, *presbeia*, *homoios*, *communio*, "*Imperator...*", *Tomus*, *Nea Rhōmē*
 - **SC (Shared Vocabulary):** *communio*, *homoousios*, *concilium*, *haeresis*, *basilica*, *martyrium*
-- **DR (High Distortion Risk):** *primatus*, *presbeia*, *homoios*, *communio*, "*Imperator...*", *haeresis*, *apocrisiarius*
-- **TC (Technical Concept):** eleven of thirteen terms — every term except *basilica* and *martyrium*. **A departure from the previous pattern, flagged not smoothed:** those two were the only Tier 3 entries and the earlier wording tied the absent tag to their tier. *apocrisiarius* is Tier 3 and does carry TC, because it names an office rather than an ordinary word — the tag tracks technicality, not tier, and the previous coincidence of the two is not a rule. Open to reviewer challenge, whose own chunks and this index's own master table both correctly withhold the tag, consistent with their narrower, non-technical function (Doc_06 §2).
-- **RT (Likely Runtime Term):** all thirteen — every term was generated specifically because it is expected to arise in encounter (Doc_03's own candidate-generation method).
-- **PV (Plural Voices):** *primatus* (Strand A voice), *presbeia* (Strand B voice), "*Imperator...*" (Strand C voice), *Nea Rhōmē* (Strand B voice), *basilica* (Strand C voice), *martyrium* (Strand A voice) — six of thirteen terms are strand-specific rather than world-general, directly reflecting Doc_01's three-strand finding at the vocabulary level.
+- **DR (High Distortion Risk):** *primatus*, *presbeia*, *homoios*, *communio*, "*Imperator...*", *haeresis*
+- **TC (Technical Concept):** ten of twelve terms — every term except the two Tier 3 entries (*basilica*, *martyrium*), whose own chunks and this index's own master table both correctly withhold the tag, consistent with their narrower, non-technical function (Doc_06 §2).
+- **RT (Likely Runtime Term):** all twelve — every term was generated specifically because it is expected to arise in encounter (Doc_03's own candidate-generation method).
+- **PV (Plural Voices):** *primatus* (Strand A voice), *presbeia* (Strand B voice), "*Imperator...*" (Strand C voice), *Nea Rhōmē* (Strand B voice), *basilica* (Strand C voice), *martyrium* (Strand A voice) — six of twelve terms are strand-specific rather than world-general, directly reflecting Doc_01's three-strand finding at the vocabulary level.
 - **CT (Contested Tradition):** *primatus*, *homoousios*, *haeresis*, *presbeia* — four terms, each with its own Contest Type specified in Doc_06 §3, not left as template filler.
 
 ## 4. CT Contest Type Check Sheet
@@ -58,16 +56,7 @@ No CT-tagged term is left with an incomplete Contest Type section — the specif
 
 ## 5. Related-Terms Reciprocity Check
 
-**Status: reciprocity holds across the original twelve; the thirteenth entry is one-directional, and that is flagged here rather than left for a reader to discover.**
-
-The twelve Doc_06 chunks remain fully reciprocal — every Related-Terms link among them has a matching reverse link, verified by direct enumeration at Doc_06 Round 3 and unchanged since.
-
-`apocrisiarius` lists **communio, primatus, Tomus, concilium**. None of those four lists it back. Closing that would mean editing four chunks that were reviewed and disposed of as part of Doc_06, which is not a silent propagation fix — it changes cleared documents. **Named as an open asymmetry, not repaired unilaterally**, per `cic-lexicon-index`'s own instruction that a mismatch is worth flagging rather than silently leaving one-directional. Two defensible closures, for whoever disposes of this entry:
-
-1. Add `apocrisiarius` to those four chunks' Related-Terms and restore full reciprocity across thirteen.
-2. Accept the asymmetry deliberately, on the ground that a Tier 3 term whose own title is unattested should point outward to the load-bearing terms without those terms pointing back at it — and record that as the reason.
-
-This build thread does not choose between them here.
+**Status: full reciprocity, verified by direct enumeration, not asserted without checking.** Every Related-Terms link across the twelve chunk files has a matching reverse link (see §1's own Related-Terms column for each term's current list; e.g. *homoousios* and *primatus*/*presbeia* list each other, as do *concilium* and *primatus*/*presbeia*/*Tomus*, and *basilica* and *communio*). The total across all twelve chunks' current Related-Terms fields is **42 directed edges (21 reciprocal pairs)** — every one confirmed to have a matching reverse edge by explicit enumeration of all twelve lists, not a partial count presented as complete.
 
 ## 6. Cross-Build Sheet
 
