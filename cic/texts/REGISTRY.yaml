@@ -1528,3 +1528,87 @@
     (superscript verse numbers and a few words garbled, e.g. "g^idging" for "grudging") before any
     specific wording should be treated as verified-direct - flagged as real follow-up work, not
     done in this acquisition pass, rather than rushed.
+- filename: salvian_on-the-government-of-god_sanford1930.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-09'
+  notes: >-
+    Salvian of Marseilles, De Gubernatione Dei, tr. Eva M. Sanford (Columbia University Press,
+    "Records of Civilization" no. 12, 1930). Surfaced by a scheduled source-readiness routine
+    2026-09-08 as a new candidate, verified and vendored 2026-09-09. Vendored from archive.org
+    item `ongovernmentofgo0000salv` after a first candidate copy (`SalvianOfMarseille.OnTheGovernmentOfGod`)
+    was found to have a genuine OCR/scan gap - its djvu.txt jumps directly from the end of the
+    Preface to "THE SECOND BOOK", with "THE FIRST BOOK" (pp. 39-65) entirely absent. This file's
+    source copy was checked to carry all eight books in sequence before vendoring. **Update,
+    same day:** Boundary-Checked Native, Documented (Doc_02 §13A, Source Registry row 43) and
+    corpus-map assigned - Hilary of Arles's own sermon on Honoratus, already vendored, names
+    Salvian directly as one of Honoratus's own circle at Lerins.
+- filename: faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-09'
+  notes: >-
+    Faustus, bishop of Riez, and Ruricius of Limoges, collected Latin works, ed. Engelbrecht
+    (CSEL vol. XXI, 1891) - De Gratia libri II, De Spiritu Sancto libri II, Epistulae, Sermones,
+    De Ratione Fidei, plus Ruricius's own Epistulae. Latin only; no public-domain English
+    translation exists (the only English translation, Guido Stucco, Brepols 2023, is recent
+    and in copyright). Vendored from archive.org item `corpusscriptorum21fausuoft`, previously
+    located and sibling-flagged in this world's own G1 manifest and Source Registry (row 24)
+    but never independently re-verified or vendored before this pass. Corpus-map assigned
+    same day (De Gratia libri II only) - see gallic_Source_Registry.md row 24.
+- filename: eucherius-lyon_de-contemptu-mundi_vaughan1654.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from ccel.org
+  date_added: '2026-09-09'
+  notes: >-
+    Eucherius of Lyon, De Contemptu Mundi ("The World Contemned"), tr. Henry Vaughan the
+    Silurist (1654). CCEL's own page states directly, "This document is in the public domain."
+    Fetched as a PDF from `ccel.org` (note: the bare domain is reachable through this session's
+    network egress proxy; `www.ccel.org` is blocked), text extracted via pdfminer.six. Previously
+    located and sibling-flagged in this world's own Source Registry (row 25) but never
+    independently re-verified or vendored before this pass. Corpus-map assigned same day.
+- filename: eucherius-lyon_de-laude-eremi_migne-pl50.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-09'
+  notes: >-
+    Eucherius of Lyon, De Laude Eremi ad Hilarium Lirinensem Presbyterum, Latin text, Migne
+    Patrologia Latina vol. 50 (1846). Extracted from the full PL 50 volume (archive.org item
+    `patrologiae_cursus_completus_lat_vol_050`, ~112,000 OCR lines spanning many authors -
+    vendoring the whole volume was judged disproportionate; only this one work's own bounded
+    section was extracted, see the file's own header for exact boundaries). Latin only - no
+    public-domain English translation identified. Previously located and sibling-flagged in
+    this world's own Source Registry (row 26) but never independently re-verified or vendored
+    before this pass. Corpus-map assigned same day.
+- filename: hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-09'
+  notes: >-
+    Hilary of Arles, Sermo de Vita Sancti Honorati, plus the remaining works Migne's own
+    apparatus classifies as genuine (non-disputed) under "Opuscula Genuina" - Patrologia Latina
+    vol. 50 (1846), extracted the same way and from the same archive.org volume as the
+    companion Eucherius De Laude Eremi file (see that entry). The section as extracted includes
+    at least one further short genuine letter after the Vita Honorati sermon itself, not
+    separately titled or bounded this pass - flagged in the file's own header for whoever next
+    cites it as a distinct work to give it its own boundary. The disputed "Opuscula Dubia"
+    material that follows in the same volume (Sermo de Miraculo S. Genesii, etc.) was
+    deliberately excluded. Previously located and sibling-flagged in this world's own Source
+    Registry (row 27) but never independently re-verified or vendored before this pass.
+    Corpus-map assigned same day.
+- filename: constantius-lyon_vita-germani_levison1920.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-09'
+  notes: >-
+    Constantius of Lyon, Vita Germani Episcopi Autissiodorensis, Latin critical text ed.
+    Levison, MGH Scriptores rerum Merovingicarum VII (1920), pp. 225-283. Extracted from the
+    full MGH volume (archive.org item `passionesvitaequesanctorum5`, a 942-page collection of
+    many saints' lives - vendoring the whole volume was judged disproportionate). Latin only;
+    no public-domain English translation exists (the only English translation, F. R. Hoare's
+    "The Western Fathers," 1954, is access-restricted on every archive.org copy checked and
+    not confirmed public domain - a renewal check against Stanford's Copyright Renewal Database
+    could not be completed, that host being blocked by this session's network egress proxy).
+    OCR quality is the roughest of the six files vendored this session (MGH's own apparatus
+    criticus is heavily garbled) - flagged in the file's own header as needing the most caution
+    before quoting specific wording. Surfaced by a scheduled source-readiness routine 2026-09-08
+    as a new candidate, not previously in this world's acquisition record. **Update, same day:**
+    Boundary-Checked Excluded, Named Comparandum (Doc_02 §13A, Source Registry row 44) - no
+    documented connection to Lerins, Honoratus, Cassian, or Vincent found in the text itself;
+    the only real link is literary (Constantius modeled his prose on Sulpitius Severus's Life
+    of Martin), the same kind of borrowed-form relationship already treated as Excluded
+    elsewhere in this Registry (row 34). Deliberately not corpus-map assigned to this world.
