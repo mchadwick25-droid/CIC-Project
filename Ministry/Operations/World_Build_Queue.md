@@ -6,20 +6,22 @@ Statuses: `queued` · `drafting` · `blocked-source` · `blocked-identity` · `b
 
 Update this file as part of any session that changes a world's status — it's a status board, not a replacement for that world's own `Open_Gaps_Tracking.md` or `Decision_Log.md`.
 
-| World | Status | Current stage | Blocked on | Notes |
-|---|---|---|---|---|
-| Fixture World (fix) | complete | — | — | synthetic, in `worlds.yaml` |
-| Alexandrian Christianity (alx) | complete | — | — | admitted, in `worlds.yaml` |
-| Desert Monasticism (desert) | complete | — | — | admitted, in `worlds.yaml` |
-| Post-Apostolic Household-Church (pahc) | complete | — | — | admitted, in `worlds.yaml` |
-| Hieronymian Ascetic-Literary (hal) | complete | — | — | admitted, in `worlds.yaml` |
-| Syriac Christianity (syr) | complete | — | — | admitted, in `worlds.yaml` |
-| Imperial and Juridical Christianity (ijc) | complete | — | — | admitted, in `worlds.yaml` |
-| Cappadocian Christianity (cappadocian) | complete | — | — | admitted, in `worlds.yaml` |
-| Donatism (don) | complete | — | — | built, in `worlds.yaml` |
-| Second-Century Greek Apologists | drafting | Step-0 merged (candidate) | — | status needs confirming against current `World-Builds/` contents before resuming |
-| Latin Apologists | drafting | Step-0 merged (candidate) | — | status needs confirming against current `World-Builds/` contents before resuming |
-| Latin Pastoral-Congregational Christianity | queued | not yet started | — | folder exists under `World-Builds/`; confirm actual progress before assuming "queued" |
-| Gallic Monastic-Ascetic Christianity | queued | not yet started | — | folder exists under `World-Builds/`; confirm actual progress before assuming "queued" |
+**Cost column**: API-rate-equivalent value from that world's build session(s) (via session lookup), not an actual charge — useful for comparing worlds' relative cost and, over time, for measuring whether process changes are actually reducing per-world cost. Fill in when known; leave blank otherwise rather than guessing.
 
-Add a row per new world as it's queued. The four rows above with "status needs confirming" weren't independently re-verified stage-by-stage when this file was created — check each world's own folder before trusting the row.
+| World | Status | Current stage | Blocked on | Known cost (API-equiv) | Notes |
+|---|---|---|---|---|---|
+| Fixture World (fix) | complete | — | — | — | synthetic, in `worlds.yaml` |
+| Alexandrian Christianity (alx) | complete | — | — | — | admitted, in `worlds.yaml` |
+| Desert Monasticism (desert) | complete | — | — | — | admitted, in `worlds.yaml` |
+| Post-Apostolic Household-Church (pahc) | complete | — | — | — | admitted, in `worlds.yaml` |
+| Hieronymian Ascetic-Literary (hal) | complete | — | — | — | admitted, in `worlds.yaml` |
+| Syriac Christianity (syr) | complete | — | — | — | admitted, in `worlds.yaml` |
+| Imperial and Juridical Christianity (ijc) | complete | — | — | — | admitted, in `worlds.yaml` |
+| Cappadocian Christianity (cappadocian) | complete | — | — | — | admitted, in `worlds.yaml` |
+| Donatism (don) | complete | — | — | ~$603 (2 sessions) | built, in `worlds.yaml` |
+| Second-Century Greek Apologists | drafting | Step-0 merged (candidate) | — | — | status needs confirming against current `World-Builds/` contents before resuming |
+| Latin Apologists | drafting | Step-0 merged (candidate) | — | — | status needs confirming against current `World-Builds/` contents before resuming |
+| Latin Pastoral-Congregational Christianity | drafting | not yet in `worlds.yaml`; last build session updated 2026-09-10 | — | ~$825 (2 sessions) | corrected 2026-09-10: was wrongly marked "queued, not started" — real build sessions already exist |
+| Gallic Monastic-Ascetic Christianity | drafting | not yet in `worlds.yaml`; last build session updated 2026-09-10 | — | ~$689 (1 session) | corrected 2026-09-10: was wrongly marked "queued, not started" — real build session already exists |
+
+Add a row per new world as it's queued. The two "Apologists" rows still weren't independently re-verified stage-by-stage — check each world's own folder before trusting the row.
