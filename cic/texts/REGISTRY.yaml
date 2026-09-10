@@ -1481,3 +1481,50 @@
     unreadable rather than merely noisy. The running Latin letter text
     itself reads coherently throughout, including the collection's own
     final lines; apparatus-level claims need independent verification.
+- filename: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt
+  supplied_by: 'this build session (2026-09-09) - NOT Mark, a deviation from this project''s
+    normal intake path worth stating plainly: this session had live WebSearch/WebFetch
+    access unusual for a build thread, used to answer a genuine open acquisition question
+    (syr world, Persian episcopal-succession dating) rather than to originate content.
+    Fetched directly from archive.org (details/BarHebraeusChroniconEcclesiasticumVol.3),
+    the item uploaded by Roger Pearse (roger.pearse@googlemail.com), 2011-06-11. The
+    item''s own metadata carries no scanner/source/sponsor field confirming a Google
+    Books origin for this specific scan; that description appears only in secondary
+    discussion of Pearse''s archive.org uploads, not read directly from this item.'
+  date_added: '2026-09-09'
+  notes: >-
+    Gregorii Barhebraei Chronicon Ecclesiasticum, Volume III of 3 (Abbeloos-Lamy edition,
+    Louvain: Peeters, 1872-1877) - the Eastern Church section (Nestorian Catholicoi,
+    Papa bar Aggai through Isaac, and the Jacobite Maphrians). Public domain by date;
+    archive.org's own item metadata states licenseurl "creativecommons.org/publicdomain
+    /mark/1.0/", read directly 2026-09-09. Volumes I-II (the Western/Antiochene
+    Patriarchs) were NOT vendored - not needed for this world's own citations. Latin
+    translation of a Syriac original; the OCR renders the Latin usably but the Syriac
+    as unreadable noise throughout - Latin only, never Syriac, from this file. A
+    second-witness, original-language-adjacent source per this project's own
+    original-language-sourcing rule (INTAKE.md SS"Two shapes of source") - descriptive/
+    paraphrase use in English-facing records, never a verbatim English "quote" record,
+    since the source itself is not English. Registered to let syr.contested.papa-primacy
+    cite the actual primary chronicle directly, alongside its existing in-copyright-
+    consultation-only GEDSH source - it does not resolve the Simeon bar Sabbae dating
+    dispute (341 vs. c. 344), which rests on modern external argument the chronicle
+    itself cannot adjudicate.
+- filename: harris_odes-and-psalms-of-solomon_harris1911.txt
+  supplied_by: 'this build session (2026-09-09) - NOT Mark, same disclosed deviation as this
+    session''s Bar Hebraeus acquisition. Fetched directly from archive.org
+    (details/cu31924029308677, Cornell University Library scan, uploaded 2009-11-03).'
+  date_added: '2026-09-09'
+  notes: >-
+    J. Rendel Harris, The Odes and Psalms of Solomon, published from the Syriac Version, 2nd ed.
+    (Cambridge University Press, 1911) - the exact edition syr.source.odes-of-solomon already named
+    as its expected public-domain English text, with an OPEN acquisition request (syr.search.odes-
+    of-solomon-pd) until this session. Public domain by date; the file's own front matter (Cornell
+    University Library) states directly "There are no known copyright restrictions in the United
+    States on the use of the text." FULL VOLUME - introduction, a critical Syriac text edition
+    (unreadable OCR), a Pistis Sophia comparison appendix (Latin retroversion, not English), and a
+    separate running English translation-with-commentary section (headed "THE ODES OF SOLOMON,"
+    beginning after file line 6520) - only that section carries citable English wording. Not yet
+    drawn into a quote record: the English section's OCR needs verse-by-verse reconstruction
+    (superscript verse numbers and a few words garbled, e.g. "g^idging" for "grudging") before any
+    specific wording should be treated as verified-direct - flagged as real follow-up work, not
+    done in this acquisition pass, rather than rushed.

@@ -63,8 +63,8 @@ worlds:
     state: admitted
     census_id: "desert-monasticism"
     package:
-      manifest_hash: "sha256:f963a69df2c2ac038818ab6dd6baac4545bf989062889196dfb8c305e905eb02"
-      location: "packages/desert/2026-09-04T16-41-52Z"
+      manifest_hash: "sha256:9a79a0a3208631344881e77709e066df3341b8cc7e361c7004f6eb8f18ca4cf4"
+      location: "packages/desert/2026-09-09T03-17-52Z"
     thinness_statement: "Richest in the Apophthegmata's own elder-and-disciple sayings tradition and Antony's own Vita; thinner on ordinary participants outside the collected-sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus)."
     living_tradition_flag: true
   pahc:
@@ -88,8 +88,8 @@ worlds:
     state: admitted
     census_id: "post-apostolic-house-church"
     package:
-      manifest_hash: "sha256:2262007c9569ecda55c65b95316e3d6f1307b3f797a6d6b326da4cbd87068beb"
-      location: "packages/pahc/2026-09-09T23-14-44Z"
+      manifest_hash: "sha256:7d3ecf6e6ce3a9ae510d7b0612aca50fb0d68636ab5980584b214a8077393547"
+      location: "packages/pahc/2026-09-10T00-12-56Z"
     thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
     living_tradition_flag: true
   hal:
@@ -141,8 +141,8 @@ worlds:
     state: admitted
     census_id: "syriac-edessa-nisibis"
     package:
-      manifest_hash: "sha256:dff11344f8943d9527389d0ed0d4dcf3ca85daaa1a94498f7f794a24de6172c8"
-      location: "packages/syr/2026-09-09T23-14-45Z"
+      manifest_hash: "sha256:eecd2703568c7dd77696feac78cc5b26e94dbb96cb2c379a8bd746e5e9d61df4"
+      location: "packages/syr/2026-09-10T00-12-57Z"
     thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
     living_tradition_flag: true
   ijc:
