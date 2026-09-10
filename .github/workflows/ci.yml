@@ -51,6 +51,17 @@ jobs:
   changes:
     name: Detect changed paths
     runs-on: ubuntu-latest
+    # dorny/paths-filter@v3 calls the GitHub API's listFiles on pull_request
+    # events (not a local git diff), which needs pull-requests: read. An
+    # explicit permissions: block REPLACES the default token grant entirely,
+    # so contents: read (needed by actions/checkout below) must be restated
+    # here too, not just the new scope. Diagnosed 2026-09-10 against the
+    # identical failure this workflow's own earlier paths-filter attempt hit
+    # on PR #144 (commit d683c9ae): "Resource not accessible by integration"
+    # from this same API call, same missing scope.
+    permissions:
+      contents: read
+      pull-requests: read
     outputs:
       engine: ${{ steps.filter.outputs.engine }}
       frontend: ${{ steps.filter.outputs.frontend }}
