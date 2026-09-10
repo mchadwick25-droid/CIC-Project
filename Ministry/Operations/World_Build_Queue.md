@@ -18,10 +18,10 @@ Update this file as part of any session that changes a world's status — it's a
 | Syriac Christianity (syr) | complete | — | — | — | admitted, in `worlds.yaml` |
 | Imperial and Juridical Christianity (ijc) | complete | — | — | — | admitted, in `worlds.yaml` |
 | Cappadocian Christianity (cappadocian) | complete | — | — | — | admitted, in `worlds.yaml` |
-| Donatism (don) | complete | — | — | ~$603 (2 sessions) | built, in `worlds.yaml` |
+| Donatism (don) | complete | — | — | ~$603 (2 sessions) — **not a clean-build figure**, inflated by mid-build library-integration rework | built, in `worlds.yaml` |
 | Second-Century Greek Apologists | drafting | Step-0 merged (candidate) | — | — | status needs confirming against current `World-Builds/` contents before resuming |
 | Latin Apologists | drafting | Step-0 merged (candidate) | — | — | status needs confirming against current `World-Builds/` contents before resuming |
-| Latin Pastoral-Congregational Christianity | drafting | not yet in `worlds.yaml`; last build session updated 2026-09-10 | — | ~$825 (2 sessions) | corrected 2026-09-10: was wrongly marked "queued, not started" — real build sessions already exist |
-| Gallic Monastic-Ascetic Christianity | drafting | not yet in `worlds.yaml`; last build session updated 2026-09-10 | — | ~$689 (1 session) | corrected 2026-09-10: was wrongly marked "queued, not started" — real build session already exists |
+| Latin Pastoral-Congregational Christianity | drafting | not yet in `worlds.yaml`; last build session updated 2026-09-10 | — | ~$825 (2 sessions) — **not a clean-build figure**, inflated by mid-build library-integration rework | corrected 2026-09-10: was wrongly marked "queued, not started" — real build sessions already exist |
+| Gallic Monastic-Ascetic Christianity | drafting | not yet in `worlds.yaml`; last build session updated 2026-09-10 | — | ~$689 (1 session) — **the cleanest example so far**, not disrupted by mid-build library integration | corrected 2026-09-10: was wrongly marked "queued, not started" — real build session already exists. Best current baseline for per-world cost until a build runs under the fully-updated process (proactive sourcing + end-to-end kickoff). |
 
-Add a row per new world as it's queued. The two "Apologists" rows still weren't independently re-verified stage-by-stage — check each world's own folder before trusting the row.
+Add a row per new world as it's queued. The two "Apologists" rows still weren't independently re-verified stage-by-stage — check each world's own folder before trusting the row. Don and Latin Pastoral-Congregational's costs are not comparable to Gallic's — they were interrupted mid-build to retrofit the new library/source system, which is real, necessary work but not representative of ongoing per-world cost.
