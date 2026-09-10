@@ -20,6 +20,18 @@ works:
 
     '
   source_file: optatus_against-the-donatists.txt
+- work: Decem Monumenta Vetera ad Donatistarum Historiam Pertinentia (Ziwsa's own appendix)
+  author: anti-donatist-dossier
+  locus: appendix following the seven books
+  role: context
+  confidence: provisional
+  note: 'Ziwsa''s own ten-document appendix — related in kind to, but not confirmed identical
+    in content with, the sixteen-item Appendix already mapped from the English Optatus volume
+    (optatus_against-the- donatists.txt). Provisional until the two document sets are actually
+    compared and their overlap/difference stated, rather than assumed either way.
+
+    '
+  source_file: optatus_libri-vii-critical_ziwsa1893.txt
 - work: Answer to the Letters of Petilian, the Donatist
   author: augustine
   locus: div2 5.5 — Answer to the Letters of Petilian (3 books, ~102k words)
@@ -32,6 +44,64 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- work: Contra (Adversus) Fulgentium Donatistam
+  author: augustine
+  locus: Pars III, short item
+  role: tradition
+  confidence: provisional
+  note: 'A short, otherwise-unvendored reply to a Donatist named Fulgentius about whom little
+    else survives in this corpus — provisional pending a check on how substantial and independently
+    attested this exchange actually is before it supports a specific claim.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- work: Contra Cresconium (libri quattuor)
+  author: augustine
+  locus: Pars III, following Pars I without a second title page in this scan
+  role: tradition
+  confidence: assigned
+  note: 'No English translation vendored anywhere in this corpus — primary content, not a
+    second witness. Augustine''s reply to the Donatist grammarian Cresconius, who had himself
+    answered Contra Epistulam Parmeniani; a documented three-way exchange (Parmenian to Tyconius/
+    Petilian''s circle, Cresconius''s reply, Augustine''s counter-reply) this entry can now
+    trace more of than before.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- work: Contra Epistulam Parmeniani (libri tres)
+  author: augustine
+  locus: Pars I
+  role: tradition
+  confidence: assigned
+  note: 'Latin critical text (CSEL 51) of Augustine''s reply to Parmenian''s own letter —
+    no English translation vendored elsewhere in this corpus, so this is primary content on
+    the "no English rendering exists" limb of the second-witness rule, not merely a check
+    on an existing one.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- work: De Baptismo (libri septem)
+  author: augustine
+  locus: Pars I
+  role: tradition
+  confidence: assigned
+  note: 'Latin critical text (CSEL 51) of the same work already vendored in English as "On
+    Baptism, Against the Donatists" (npnf104). Second witness for cross-checking specific
+    renderings.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- work: De Unico Baptismo contra Petilianum
+  author: augustine
+  locus: Pars III
+  role: tradition
+  confidence: assigned
+  note: 'No English translation vendored anywhere in this corpus. Companion to the already-vendored
+    "Answer to the Letters of Petilian" (npnf104) — a further, shorter round in the same Augustine-Petilian
+    exchange.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
 - work: 'Letters of St. Augustin: the Donatist correspondence'
   author: augustine
   locus: div3 letters XXIII, XLIII, XLIV, LIII, LXXVI, LXXXVII, LXXXVIII, LXXXIX, XCIII, CXXXIX,
@@ -63,6 +133,19 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- work: Psalmus contra Partem Donati
+  author: augustine
+  locus: Pars I, opening item
+  role: tradition
+  confidence: assigned
+  note: 'Augustine''s own abecedarian song against the Donatists, written for ordinary Catholic
+    congregations to sing/recite — his most directly popular-register anti-Donatist composition,
+    no English translation vendored elsewhere in this corpus. Tradition per this entry''s
+    own standing rule for Augustine''s anti-Donatist corpus: preserves and answers Donatist
+    argument directly, the nearest thing to a documented exchange this entry has.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
 - work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
   author: augustine
   locus: div2 5.6 — The Correction of the Donatists
@@ -74,6 +157,47 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- work: The Ecclesiastical Edicts of the Theodosian Code
+  author: boyd
+  locus: study 2 of 3 in this bound volume
+  role: context
+  confidence: assigned
+  note: 'Boyd''s 1905 English monograph on the Theodosian Code''s church-related legislation,
+    including translated text of edicts naming the Donatists directly. Context: a modern scholar''s
+    organized English access to imperial legislation, not a Donatist or Catholic voice — pairs
+    with the Latin critical text (theodosianus-16_mommsen-meyer1905, staged separately) as
+    an English-language route into the same material.
+
+    '
+  source_file: boyd_ecclesiastical-edicts-theodosian-code_1905.txt
+- work: 'Corpus Inscriptionum Latinarum VIII, Supplementum: Inscriptiones Provinciae Numidiae'
+  author: cil8-numidia
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Latin epigraphic corpus for Numidia, this world''s own Donatist heartland province
+    — material-culture/epigraphic evidence, not a documented voice from either side. Provisional:
+    no specific inscription has yet been checked against a claim this world''s construction
+    actually makes; per this corpus''s own standing rule, a raw epigraphic corpus supports
+    nothing on its own until a specific inscription is located and read.
+
+    '
+  source_file: cil8-supplementum-numidiae_cagnat-schmidt1894.txt
+- work: Gesta Collationis Carthaginiensis (Acts of the 411 Conference of Carthage)
+  author: collatio-carthaginiensis
+  locus: the Collatio cluster, from col. 759 on
+  role: context
+  confidence: provisional
+  note: 'The official acts of the imperially-convened 411 conference between Catholic and
+    Donatist bishops — the single largest documentary record of the two sides in direct confrontation,
+    previously entirely absent from this corpus in any language. Marked context (an official
+    proceeding record, not either side''s own composed voice) consistent with how this entry
+    already treats the Optatus appendix and Council acts; provisional because the Donatist
+    bishops'' own recorded speech inside these acts may deserve separate tradition-role consideration
+    once actually read, which this entry has not yet done.
+
+    '
+  source_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
 - work: The Code of Canons of the African Church (Council of Carthage, 419)
   author: council-of-carthage-419
   locus: div2 15.4
@@ -154,6 +278,105 @@ works:
     text. Measured here rather than asserted - Augustine''s On Baptism, Against the Donatists
     names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: 'Sermo Donatistae cujusdam de vexatione Donatistarum temporibus Leontii et Ursatii
+    (MS title: De passione sanctorum Donati et Advocati)'
+  author: donatist-anonymous
+  locus: item 1 of 3
+  role: tradition
+  confidence: assigned
+  note: 'A Donatist-authored sermon on the persecution of Donatists under Leontius and Ursatius,
+    c. 340 CE per Mabillon''s own dating analysis reproduced in the file. This is a genuine
+    Donatist own-voice primary text — not a hostile quotation preserved inside a Catholic
+    reply, the rarest category this entry has and one this construction should weigh heavily
+    precisely because it is so scarce.
+
+    '
+  source_file: monumenta-vetera-donatistarum_migne-pl8.txt
+- work: Passio Benedicti Martyris Marculi
+  author: donatist-anonymous-passio-authors
+  locus: item 2 of 3
+  role: tradition
+  confidence: assigned
+  note: 'Donatist martyr-passion narrative (348 CE), the movement''s own commemorative literature
+    for one of its own martyrs — tradition, the community''s own hagiographic voice, distinct
+    in kind from the documentary/legal material already mapped from the Optatus appendix.
+
+    '
+  source_file: monumenta-vetera-donatistarum_migne-pl8.txt
+- work: Passio SS. Martyrum Isaac et Maximiani, cum epistula Macrobii ad ecclesiam Carthaginiensem
+  author: donatist-anonymous-passio-authors
+  locus: item 3 of 3, with the appended letter of the martyr Macrobius
+  role: tradition
+  confidence: assigned
+  note: 'A second Donatist martyr-passion (348 CE) with an appended first- person letter from
+    the martyr Macrobius himself to the church at Carthage — a documented instance of direct
+    Donatist epistolary voice, not only narrative about a martyr.
+
+    '
+  source_file: monumenta-vetera-donatistarum_migne-pl8.txt
+- work: Epistolae Selectae (selected letters concerning the African Donatist remnant)
+  author: gregory-great
+  locus: selection within this Turchi 1907 edition
+  role: context
+  confidence: provisional
+  note: 'Gregory the Great''s own correspondence addressing the surviving Donatist communities
+    in Africa a century and a half after Augustine — late, outside, administrative description
+    of the movement''s long tail, not a Donatist or contemporary-Catholic voice. Provisional
+    pending confirmation of exactly which letters in this selection touch Donatism specifically,
+    and how many.
+
+    '
+  source_file: gregory-great_epistolae-selectae_turchi1907.txt
+- work: Liber Genealogus
+  author: liber-genealogus
+  locus: Additamentum II to the Chronographus Anni CCCLIIII
+  role: tradition
+  confidence: provisional
+  note: 'Anonymous North African chronicle of biblical genealogies with a African-regional
+    continuation; scholarship since Monceaux has read it as Donatist-affiliated on internal
+    grounds (its own regnal/ persecution notices favor the Donatist reading of events), but
+    this entry has not independently verified that affiliation against the text itself — provisional
+    on that basis, not on public-domain status (settled) or on the text''s own existence in
+    this corpus (settled).
+
+    '
+  source_file: chronica-minora-liber-genealogus_mommsen1892.txt
+- work: 'Histoire littéraire de l''Afrique chrétienne, Tome IV: Le Donatisme'
+  author: monceaux
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'Monceaux''s own volume-length scholarly history of Donatism (1912, French) — modern
+    secondary scholarship, not a primary voice on either side. The standard literary-historical
+    survey of the movement, pairing with Tomes V and VI (staged separately) as a three-volume
+    secondary-scholarship spine for this world.
+
+    '
+  source_file: monceaux_histoire-litteraire-afrique-chretienne-tome4_1912.txt
+- work: 'Histoire littéraire de l''Afrique chrétienne, Tome V: Saint Optat et les premiers
+    écrivains donatistes'
+  author: monceaux
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'Monceaux''s own study (1920, French) of Optatus and the earliest Donatist-side writers
+    specifically — modern secondary scholarship, the volume of this series most directly on
+    this entry''s own early- period figures. Pairs with Tomes IV and VI (staged separately).
+
+    '
+  source_file: monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt
+- work: 'Histoire littéraire de l''Afrique chrétienne, Tome VI: La Littérature Donatiste (au
+    temps de saint Augustin)'
+  author: monceaux
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'Monceaux''s own study (1922, French) of Donatist-side literature in Augustine''s
+    own generation — modern secondary scholarship, the volume of this series covering the
+    entry''s own later, Augustine-contemporary period. Pairs with Tomes IV and V (staged separately).
+
+    '
+  source_file: monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt
 - work: Against the Donatists (De Schismate Donatistarum, Books I-VII)
   author: optatus
   locus: as above
@@ -167,3 +390,60 @@ works:
 
     '
   source_file: optatus_against-the-donatists.txt
+- work: S. Optati Milevitani Libri VII (critical Latin edition)
+  author: optatus
+  locus: the seven books
+  role: context
+  confidence: assigned
+  note: 'CSEL 26 (Ziwsa, 1893), the critical Latin edition of the same work already vendored
+    in English translation (optatus_against-the- donatists.txt) — second witness for cross-checking
+    a specific rendering, same context role as its English counterpart, per the standing rule
+    that Optatus describes the Donatists rather than speaking as one.
+
+    '
+  source_file: optatus_libri-vii-critical_ziwsa1893.txt
+- work: Theodosiani Libri XVI (Book 16, critical Latin text)
+  author: theodosian-code
+  locus: Book 16
+  role: context
+  confidence: assigned
+  note: 'Mommsen-Meyer''s standard critical edition (1905) of the actual imperial legislation
+    naming and regulating the Donatists directly — the authoritative Latin text behind Boyd''s
+    English study (staged separately). Context: imperial legislation describing/regulating
+    the movement from outside, same footing as the Council acts and Appendix of Documents
+    already mapped for this entry.
+
+    '
+  source_file: theodosianus-16_mommsen-meyer1905.txt
+- work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
+  author: theodosian-code-compilers
+  locus: whole text
+  role: context
+  confidence: needs-ruling
+  note: 'Not a claim this staging entry is positioned to argue well — flagged because Source_Registry.md
+    row 44 (lpc''s own Registry) records that the sibling Donatism build''s own Manifest carried
+    a live G3 request for exactly this edition (Mommsen-Meyer, referenced there but not acquired
+    after five attempts; that build settled for a substitute, Boyd''s 1905 translation of
+    the ecclesiastical edicts). Donatism''s own corpus-map bucket does not yet list this work
+    (checked before writing this entry). Whether it belongs there as context, antecedent,
+    or something narrower — CTh 16.5/16.6 carry the anti-Donatist and anti-heretic legislation
+    most likely relevant — is a call for that world''s own build thread, not asserted here
+    from outside.
+
+    '
+  source_file: codex-theodosianus_latinlibrary.txt
+- work: The Book of Rules (Liber Regularum)
+  author: tyconius
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: 'Tyconius''s own hermeneutical treatise — a major, independently influential work
+    (Augustine himself drew on it) by a figure of the Donatist milieu, condemned by Parmenian
+    and a Donatist council for his own dissenting positions but never joining the Catholic
+    church (Doc_01 §4 deliberately leaves his formal communion status open rather than assuming
+    it). This is this entry''s own strongest surviving theological writing in the movement''s
+    own intellectual orbit, not a hostile quotation or an outside description — weigh accordingly
+    against the corpus''s otherwise heavily documentary/hostile-quotation skew.
+
+    '
+  source_file: tyconius_liber-regularum_burkitt1894.txt

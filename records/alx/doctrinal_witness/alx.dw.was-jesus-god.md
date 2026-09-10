@@ -15,10 +15,26 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.athanasius-de-decretis
-  locus: 19-21
+  locus: >-
+    19-21 (every scriptural phrase had been swallowed by the other side with
+    a private meaning of its own)
   license: public-domain
 - source_id: alx.source.origen-comm-john
-  locus: I-II
+  locus: >-
+    I-II (the Origen half of "God the Word"; directly supports it, e.g. Book I line 20565,
+    Book II lines 22572/23276 - does not itself contain the baptismal formula, see the
+    ad-afros row below for that claim)
+  license: public-domain
+- source_id: alx.source.clement-paidagogos
+  locus: >-
+    I (the Clement half of "God the Word"; Paed. I reads "it has also called Him - God the
+    Word - who became man for our sakes, and who wished in all points to be made like to us"
+    (anf02 line 19255))
+  license: public-domain
+- source_id: alx.source.athanasius-ad-afros
+  locus: >-
+    11 (the triadic baptismal confession; the passage falls under Ad Afros's own heading
+    "11. Godhead of the Spirit also involved in the Nicene Creed," npnf204 line 60954)
   license: public-domain
 retrieval:
   tier: 1
@@ -57,3 +73,14 @@ honest and the homoousios term record alongside.
 REGISTER TRANSLATION (2026-08-29, the alx pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+
+CORRECTED 2026-09-08, records/alx audit: "we baptized into Father, Son, and
+Holy Spirit" was cited to athanasius-de-decretis (19-21) and origen-comm-
+john (I-II); neither locus contains the triadic baptismal formula. The
+actual vendored support is Athanasius's Ad Afros Epistola Synodica (Letter
+to the Bishops of Africa), npnf204 line ~60968 - a work with no prior
+source record in this registry, now created as
+alx.source.athanasius-ad-afros. de-decretis 19-21 is correctly kept for
+this file's separate "swallowed by the other side" claim; origen-comm-john
+I-II is correctly kept, re-scoped to the "God the Word" claim it actually
+supports.

@@ -20,13 +20,12 @@
 | `syr.source.chronicle-of-edessa` | `chronicle-of-edessa_cowper.txt` | |
 | `syr.source.eusebius-…` · `theodoret-…` · `sozomen-…` · `socrates-…` · `jerome-de-viris` | `npnf201/202/203_…xml` | Syriac-relevant loci verified by direct grep 2026-08-21 |
 
-## 2. Deferred — future work (not blocking; Mark could not locate either as of 2026-08-22)
+## 2. Deferred — future work (not blocking; Mark could not locate as of 2026-08-22)
 
-### 2.1 Odes of Solomon — **P2 · DEFERRED**
+### 2.1 Odes of Solomon — **CLOSED 2026-09-09, by direct acquisition**
 - **Wanted:** J. Rendel Harris, *The Odes and Psalms of Solomon* — the 1909 editio princeps or the 1911 second edition (an archive.org scan of the printed volume preferred, so the file carries its own title page and date).
-- **Expected rights:** public domain (1909/1911). Verified only when the supplied file's own header is read.
-- **Why P2, not P1:** Step 0 names the Odes in this world's ecology, but the approved Doc_02 carries them as Native/**Contested** (Edessene provenance is one proposal among several; dating and language disputed) at Confidence D — nothing load-bearing rests on them. Until supplied: `syr.source.odes-of-solomon` stands at rights `pending-verification`, and **no verbatim quoting** from the Odes is licensed (search: `syr.search.odes-of-solomon-pd`).
 - **Status (2026-08-22):** Mark could not locate a copy on hand. Logged as future work — pick up whenever a copy surfaces; not required for this world to proceed through step 6/7/8 later, since nothing here is load-bearing on the Odes.
+- **Status (2026-09-09): CLOSED, not by Mark.** A build session with unusual live WebSearch/WebFetch access found and vendored the exact named edition directly (Harris, 2nd ed. 1911, Cornell University Library scan, archive.org `cu31924029308677`, "no known copyright restrictions") — see `cic/texts/harris_odes-and-psalms-of-solomon_harris1911.txt`, `cic/texts/REGISTRY.yaml`, and `records/syr/search_record/syr.search.odes-of-solomon-pd.md` (result: found). `syr.source.odes-of-solomon` now stands at rights `public-domain`, not `pending-verification`; verbatim quoting is licensed subject to that record's own OCR-quality caveat (the English translation-with-commentary section needs verse-by-verse reconstruction before any specific wording is certified `verified-direct` at the quote level — real follow-up work, not yet done).
 
 ### 2.2 Synodicon Orientale (the 410 Synod acts) — **P3 · DEFERRED, bounded**
 - **Wanted:** J.-B. Chabot, *Synodicon Orientale* (Paris, 1902) — public-domain in principle, but **French**; no PD English exists (search: `syr.search.synod-410-acts-english`).
@@ -46,4 +45,4 @@ Registered as `source` records with rights `in-copyright (consultation-only)`, c
 
 ## 5. Decisions for Mark
 
-Both §2.1 and §2.2 are logged as **future work**, not open decisions — Mark confirmed (2026-08-22) neither is on hand right now, and neither blocks this world's progress. Revisit opportunistically; nothing else in this world's record set is blocked on acquisition.
+§2.2 remains logged as **future work**, not an open decision — Mark confirmed (2026-08-22) it is not on hand right now, and it does not block this world's progress. §2.1 (Odes of Solomon) is no longer future work: it closed 2026-09-09 by direct acquisition (see §2.1 above), not by Mark supplying a copy. Revisit §2.2 opportunistically; nothing else in this world's record set is blocked on acquisition.

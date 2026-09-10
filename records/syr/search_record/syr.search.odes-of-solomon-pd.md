@@ -19,8 +19,14 @@ channel: approved legacy Doc_02 Source Ecology (two review rounds, approved 2026
 result: found
 found_sources:
 - syr.source.odes-of-solomon
-note: Public-domain editions exist but are NOT in the vendored corpus - acquisition request OPEN with
-  Mark (SOURCE-REQUEST-MANIFEST). Until a file with its own provenance header is supplied, the rights
-  gate fails closed and no verbatim quoting from the Odes is licensed.
+note: >-
+  CLOSED 2026-09-09. Public-domain edition located and vendored directly (this build session had
+  live WebSearch/WebFetch access, atypical for a build thread - genuine acquisition research, not
+  assumed): Harris's own 2nd ed. (1911), Cornell University Library scan via archive.org
+  (cu31924029308677), vendored as cic/texts/harris_odes-and-psalms-of-solomon_harris1911.txt. The
+  rights gate is open. Verbatim quoting is still NOT yet licensed at the quote-record level pending
+  a careful verse-by-verse OCR reconstruction of a specific passage (syr.source.odes-of-solomon's
+  own trailing note names this as real follow-up work, not done in this pass) - the gate that
+  reopened is rights, not citation-readiness.
 ---
 

@@ -69,6 +69,7 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
           return (
             <div key={i} className="turn turn--voice">
               <div className="turn__speaker sans" style={{ color: world.accentColor }}>
+                <img className="turn__avatar" src={world.portraitImage} alt="" />
                 {world.representativeName} · {world.cardName}
               </div>
               <VoiceTurnBody text={turn.text} citations={turn.citations ?? []} figuresUsed={turn.figuresUsed ?? []} glosses={turn.glosses ?? []} />
@@ -78,7 +79,14 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
       </div>
 
       {isLoading && !closed && (
-        <p className="waiting-note sans">{world.representativeName} is considering…</p>
+        <p className="waiting-note sans">
+          {world.representativeName} is considering
+          <span className="typing-dots" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </p>
       )}
       {error && (
         <div className="conversation__error">

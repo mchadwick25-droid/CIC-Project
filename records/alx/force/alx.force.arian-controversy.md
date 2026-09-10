@@ -19,7 +19,10 @@ sources:
   locus: whole work
   license: public-domain
 - source_id: alx.source.athanasius-contra-arianos
-  locus: I-IV
+  locus: 'I-III (Discourse IV is not treated as equal-weight Athanasian defense here: the vendored
+    edition''s own apparatus, npnf204''s "Excursus C," states Discourse IV "stands on a footing of
+    its own... it is not quoted in antiquity, as the first three are, as part of the work of Ath.
+    against the Arians" and casts doubt on its inclusion in the Pentabiblus)'
   license: public-domain
 relations:
 - type: associated-with

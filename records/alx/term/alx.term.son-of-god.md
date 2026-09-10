@@ -24,6 +24,9 @@ sources:
 - source_id: alx.source.origen-de-principiis
   locus: I.2
   license: public-domain
+- source_id: alx.source.nicene-creed-325
+  locus: line 2412 (the "of one substance with the Father" wording, for the informational sense)
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when:
@@ -63,3 +66,10 @@ Imported from the old system's richer lexicon (alexlex023, "Son of God") at Mark
 draft, not a final version. The old record also carried the Homoousios contest (already governed at
 alx.term.homoousios), which is not repeated here to avoid duplicating a contest already stated at its
 governing record.
+
+corrected 2026-09-08, records/alx audit: the informational sense's
+"confessed the Son as of one substance with the Father" was not
+present in any of this file's cited sources; the wording is the
+Creed of Nicaea's own (npnf214, line 2412: "being of one substance
+(ὁμοούσιον, consubstantialem) with the Father"), now cited via
+alx.source.nicene-creed-325.

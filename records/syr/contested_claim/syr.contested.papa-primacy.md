@@ -17,6 +17,10 @@ sources:
 - source_id: syr.source.gedsh
   locus: s.v. Papa bar Aggai
   license: in-copyright-consultation
+- source_id: syr.source.bar-hebraeus-chronicon-ecclesiasticum
+  locus: "entries 10-11 (Papa bar Aggai, Simeon bar Sabbae), file lines 1670-2189 - the primary
+    chronicle text itself, acquired 2026-09-09, standing alongside GEDSH's secondary consultation"
+  license: public-domain
 relations:
 - type: associated-with
   target: syr.figure.papa-bar-aggai
@@ -45,3 +49,31 @@ corrected in Round 3) and Doc_02 SS11's fuller succession
 development with both caveats (Simeon redating; Catholicos
 anachronism). Grounds the F3-I answer's honesty and the tensional
 gravity's Persian-side pole.
+
+ACQUISITION UPDATE (2026-09-09): a public-domain primary edition of Bar
+Hebraeus's Chronicon Ecclesiasticum (Abbeloos-Lamy, 1872-1877) was
+located and vendored this session, letting this claim's `held_against`
+line - "the succession narratives are chronicle-derived... (Chronicle
+of Seert, Bar Hebraeus tradition), not contemporary attestation" - cite
+that tradition's own primary text directly rather than only Doc_02
+SS11's secondary (Fiey-mediated) account and GEDSH's in-copyright
+encyclopedia entry. This strengthens citation directness; it does not
+touch the claim's own substance or the Simeon bar Sabbae redating
+dispute, which the newly vendored chronicle cannot itself adjudicate.
+See syr.source.bar-hebraeus-chronicon-ecclesiasticum's own trailing
+note for exactly what was and was not verified.
+
+DIRECT PRIMARY-TEXT SUPPORT for this claim's own `held_against` line
+"Papa's claim to primacy... was fiercely contested in his own
+lifetime": the newly vendored chronicle itself, not only the modern
+secondary literature, corroborates this - entry 11 states of Simeon
+bar Sabbae "Ferunt hunc Simeonem, Papa adhuc vivente, ab episcopis qui
+ab isto recesserant ordinatum fuisse" ("They say this Simeon, while
+Papa was still alive, was ordained by bishops who had withdrawn from
+him") - file line 2062, Latin, per
+syr.source.bar-hebraeus-chronicon-ecclesiasticum. A rival ordination
+proceeding against a sitting primate, while he still lived, is direct
+primary-text evidence of contest in Papa's own lifetime, independent
+of the Miles-of-Susa/Aqib-Alaha synod tradition already cited. Does
+not itself date the episode or resolve the Simeon bar Sabbae redating
+dispute.

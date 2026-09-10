@@ -17,29 +17,18 @@
   --madder:#A13E2B;
   --madder-deep:#7E2F20;
   --graphite:#8A837C;
-  --rule:#E6DFD3;
-  --ground:var(--parchment); --surface:var(--vellum);
-  --text:var(--ink); --muted:var(--ink-faded);
-  --action:var(--madder); --action-hover:var(--madder-deep);
-  --control:var(--graphite);
-  --mark-ink:#2A2521; --mark-dot:#A13E2B;
+  --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD;
+  --muted:#B8AEA1;
+  --action:#E08C74;
+  --action-hover:#F0A98F;
+  --control:#A39B92;
+  --mark-ink:#EDE5D6; --mark-dot:#CB6E52;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
   --wide:64rem; --col:44rem; --measure:38rem;
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --ground:#17130F; --surface:#1E1913;
-    --text:#F1E9DD;
-    --muted:#B8AEA1;
-    --action:#E08C74;
-    --action-hover:#F0A98F;
-    --control:#A39B92;
-    --rule:rgba(241,233,221,.16);
-    --mark-ink:#EDE5D6; --mark-dot:#CB6E52;
-  }
-}
-*{box-sizing:border-box}
+}*{box-sizing:border-box}
 html{scroll-padding-top:1rem}
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
 a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
@@ -73,7 +62,7 @@ p{margin:0 0 1rem}
   .site-header .row{gap:.1rem 1rem}
 }
 
-.hero{max-width:var(--col);margin:0 auto;padding:2.75rem 1.25rem 1.25rem;text-align:center}
+.hero{max-width:52rem;margin:0 auto;padding:2.75rem 1.25rem 1.25rem;text-align:center}
 .mark-line{display:flex;align-items:center;justify-content:center;margin:0 auto 1.75rem}
 .mark-line .arriving{width:52px;flex:0 0 52px;color:var(--mark-ink)}
 .mark-line svg{display:block;width:100%;height:auto}
@@ -91,15 +80,30 @@ p{margin:0 0 1rem}
   .arriving.pending .arriving-ring{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}
   .arriving.pending .arriving-seat{transform:translate(0,0)}
 }
-.hero h1{font-size:clamp(1.5rem,1.1rem + 1.75vw,2.125rem);font-weight:500;line-height:1.3;max-width:var(--measure);margin:0 auto 1rem}
+.hero h1{font-size:clamp(1.5rem,1.1rem + 1.75vw,2.125rem);font-weight:500;line-height:1.3;max-width:48rem;margin:0 auto 1rem}
 .welcome-back{font-family:var(--sans);font-size:.95rem;color:var(--muted);margin:1rem auto 0;max-width:30rem}
 .welcome-back a{color:var(--action)}
-.whats-new-banner{max-width:var(--wide);margin:1.5rem auto 0;padding:1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;font-family:var(--sans)}
-.whats-new-banner .eyebrow{margin:0 0 .3rem}
-.whats-new-banner p:last-child{margin:0;font-size:.95rem;color:var(--text)}
-
-.story{max-width:var(--measure);margin:0 auto;padding:1.5rem 1.25rem 3rem}
-.story h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 1.3rem}
+.home-flow{max-width:var(--wide);margin:0 auto;padding:1.5rem 1.25rem 0;display:grid;gap:2rem;grid-template-columns:1fr;grid-template-areas:"story" "chairs" "table" "atlas"}
+@media (min-width:64rem){
+  .home-flow{grid-template-columns:.8fr 2fr .8fr;align-items:stretch;grid-template-areas:"table story atlas" "chairs chairs chairs"}
+  .chairs{justify-content:center}
+}
+.home-flow>*{min-width:0}
+.flow-story{grid-area:story;padding-top:.25rem}
+.flow-story h2{font-size:clamp(1.5rem,2.6vw,1.85rem);font-weight:500;line-height:1.35;margin:0 0 1rem}
+.flow-table{grid-area:table}
+.flow-atlas{grid-area:atlas}
+.flow-chairs{grid-area:chairs}
+.flow-card{display:flex;flex-direction:column;text-decoration:none;color:var(--text);background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.flow-card:hover,.flow-card:focus-visible{border-color:var(--action)}
+.flow-card img{width:100%;aspect-ratio:1200/655;object-fit:cover;display:block;background:var(--ground)}
+.flow-card .eyebrow{margin:1.1rem 1.2rem 0}
+.flow-card h2{font-size:1.2rem;margin:.5rem 1.2rem 0}
+.flow-card p{font-family:var(--sans);font-size:.9rem;color:var(--muted);line-height:1.55;margin:.5rem 1.2rem 0}
+.flow-card .cta-link{margin:.7rem 1.2rem 1.2rem;margin-top:auto}
+.cta-link{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-weight:600;color:var(--action);border-bottom:1px solid currentColor;padding-bottom:.15rem;text-decoration:none}
+.flow-card:hover .cta-link,.flow-card:focus-visible .cta-link{color:var(--action-hover)}
+.cta-link .arriving{width:20px;flex:0 0 20px;color:var(--mark-ink)}
 @media (max-width:640px){
   .hero{padding:2rem 1.25rem .5rem}
   .mark-line{margin-bottom:1.25rem}
@@ -109,7 +113,7 @@ p{margin:0 0 1rem}
 .ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 0 1.4rem}
 .how-line{font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:-.7rem 0 1.6rem}
 
-.who{max-width:var(--wide);margin:0 auto;padding:1.5rem 1.25rem 2rem}
+.who{padding:1.5rem 0 0}
 .who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .6rem;max-width:var(--measure)}
 .who .scope{color:var(--muted);max-width:var(--measure);margin:0 0 .6rem}
 .who-gallery{overflow-y:auto;overscroll-behavior-y:contain;padding-right:.3rem;margin:0 -.3rem 0 0}
@@ -117,8 +121,7 @@ p{margin:0 0 1rem}
 .era-head{display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline;font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.6rem;margin:0}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
 .chairs{list-style:none;margin:1.5rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout}
-.chair{--ring:var(--tint);flex:0 0 auto;width:232px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:1.15rem}
-@media (prefers-color-scheme:dark){ .chair{--ring:var(--tint-dark)} }
+.chair{--ring:var(--tint-dark);flex:0 0 auto;width:232px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:1.15rem}
 .chair .portrait{width:72px;height:72px;border-radius:50%;overflow:hidden;border:2px solid var(--ring);background:var(--ground);flex:0 0 auto}
 .chair .portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
 .chair h4{font-size:1.1rem;font-weight:700;margin:0}
@@ -134,17 +137,6 @@ p{margin:0 0 1rem}
 .pilot-note{font-size:.95rem}
 .pilot-caveat{font-size:.9rem;font-style:italic;margin:0 0 1.4rem}
 
-.portals{max-width:var(--wide);margin:0 auto;padding:2.2rem 1.25rem 0;border-top:1px solid var(--rule);display:grid;gap:2.5rem;grid-template-columns:1fr}
-.portal{display:flex;flex-direction:column;text-decoration:none;color:var(--text);background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
-.portal:hover,.portal:focus-visible{border-color:var(--action)}
-.portal img{width:100%;aspect-ratio:1200/655;object-fit:cover;display:block;background:var(--ground)}
-.portal-body{padding:1.3rem 1.4rem 1.5rem}
-.portal-body .eyebrow{margin:0 0 .4rem}
-.portal-title{font-size:1.35rem;margin:0 0 .5rem}
-.portal-text{font-family:var(--sans);font-size:.95rem;color:var(--muted);line-height:1.55;margin:0 0 .9rem}
-.portal-cta{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-weight:600;color:var(--action);border-bottom:1px solid currentColor;padding-bottom:.15rem}
-.portal:hover .portal-cta,.portal:focus-visible .portal-cta{color:var(--action-hover)}
-.portal-cta .arriving{width:20px;flex:0 0 20px;color:var(--mark-ink)}
 .more-link{max-width:var(--wide);margin:0 auto;padding:1.1rem 1.25rem 0;font-family:var(--sans);font-size:.9rem}
 .more-link a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
 
@@ -155,8 +147,8 @@ p{margin:0 0 1rem}
 .support-body h2{font-family:var(--serif);font-size:1.25rem;color:var(--text);margin:0 0 .6rem}
 .support-body p{max-width:var(--measure);margin:0 0 .8rem}
 .support-links{display:flex;flex-wrap:wrap;gap:.7rem}
-.support-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 1.1rem;font-weight:600;color:var(--surface);background:var(--action);border-radius:6px;text-decoration:none}
-.support-btn:hover,.support-btn:focus-visible{background:var(--action-hover);color:var(--surface)}
+.support-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 1.1rem;font-weight:600;color:var(--vellum);background:var(--madder);border-radius:6px;text-decoration:none}
+.support-btn:hover,.support-btn:focus-visible{background:var(--madder-deep);color:var(--vellum)}
 .support-more{font-size:.875rem}
 .support-more a{color:var(--action)}
 @media (max-width:640px){
@@ -181,7 +173,7 @@ p{margin:0 0 1rem}
       <a href="index.html" aria-current="page">Home</a>
       <a href="about.html">About</a>
       <a href="whats-next.html">What's Next</a>
-      <a href="atlas-v3.html">Map</a>
+      <a href="atlas-v3.html">Timeline</a>
       <a href="support.html">Get Involved</a>
       <a class="side-door" id="side-door" href="talk.html" hidden><span class="sd-long">Been here before? </span>Go straight to a conversation →</a>
     </nav>
@@ -200,20 +192,30 @@ p{margin:0 0 1rem}
     <p class="welcome-back" id="welcome-back" hidden>Welcome back. <a href="talk.html">Go straight to a conversation →</a></p>
   </section>
 
-  <section class="story" aria-labelledby="story-title">
-    <h2 id="story-title">The Unfolding Story</h2>
-    <p>For two thousand years, people have followed Jesus across vastly different worlds and cultures.</p>
-    <p>They gathered in modest homes and workshops, navigating the suspicion of their neighbors and the pressure of hostile rulers. They followed Him into mountain monasteries and remote deserts, along ancient trade routes across Asia, and into the cathedrals and university halls of Europe. They stood at the stake in Reformation squares, sang through forced labor in colonial fields, knelt in Latin American village chapels, and gathered inside modern churches across the world.</p>
-    <p>Like the ancient story of Israel, the story of the Church calls for honesty. It is not a tale of heroes who marched in lockstep and got everything right. It is a historically grounded record of real people: wrestling with political power, arguing over hard questions, fracturing, and failing often—proving at every turn that humanity cannot fix itself. Yet God never worked from a safe distance, nor did He wait for people to become perfect before meeting them. He stepped directly into their everyday lives, languages, and cultures, guiding them by His Spirit, shaping their human gifts for His purposes, and using their human hands to heal the fractured and restore His creation.</p>
-    <p>Through all those scattered eras and divergent paths, each community discovered distinct perspectives of who Jesus is and how to follow Him. You are invited to explore these stories. Trace forgotten routes across a living atlas, uncover the stories that shaped the Church, and pull up a chair with representative voices from across these traditions. In conversation with them, you can hear where they stand in deep agreement, listen as they wrestle with where they see things differently, and discover where your own story connects with theirs.</p>
-  </section>
+  <div class="home-flow">
+    <div class="flow-story">
+      <p class="eyebrow">The Unfolding Story</p>
+      <h2 id="story-title">For two thousand years, people have followed Jesus across vastly different worlds and cultures.</h2>
+      <a class="cta-link" href="story.html">Read the full story →</a>
+    </div>
 
-  <div class="whats-new-banner">
-    <p class="eyebrow">What's new</p>
-    <p>The Cappadocian tradition has joined the table, and Church in History has been completely rebuilt.</p>
-  </div>
+    <a class="flow-card flow-table" href="table.html">
+      <p class="eyebrow">The Table</p>
+      <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="lazy" decoding="async">
+      <h2>Set your own table</h2>
+      <p>Bring two or three of them to one table. No one seated there is the host — you're one of the four chairs. Choose who joins you, then start the conversation.</p>
+      <span class="cta-link"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Set your own table →</span>
+    </a>
 
-  <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
+    <a class="flow-card flow-atlas" href="atlas-v3.html">
+      <p class="eyebrow">Twenty centuries on one map, free to explore</p>
+      <img src="assets/atlas-preview.jpg" alt="Colored rivers of Christian movements winding and branching across the centuries, grouped by era" loading="lazy" decoding="async">
+      <h2>Church in History</h2>
+      <p>Two hundred and some Christian movements across the whole of Church history are on record here — how they connect, where they diverged, and the stories that don't belong to just one of them. Hover for a glimpse, click for depth.</p>
+      <span class="cta-link">Open Church in History →</span>
+    </a>
+
+    <section class="who flow-chairs" id="who" aria-labelledby="who-title" tabindex="-1">
     <p class="eyebrow">Who's at the table</p>
     <h2 id="who-title">Who would you like to have a conversation with?</h2>
     <p class="scope">Christian traditions from the Church's first four centuries, each with one voice that speaks for it. Ask any of them.</p>
@@ -225,13 +227,13 @@ p{margin:0 0 1rem}
     <h3 class="era-head">The Early Church Era<span class="dates">70–312 CE</span></h3>
     <ol class="chairs" id="era-1-chairs">
       <li class="chair" style="--tint:#7c3aed;--tint-dark:#955FF0">
-        <div class="portrait"><a href="traditions/post-apostolic-house-church.html"><img src="assets/portraits/house-churches.png" alt="Chloe, Representative of The House-Churches" width="72" height="72" loading="lazy" decoding="async"></a></div>
+        <div class="portrait"><a href="traditions/post-apostolic-house-church.html"><img src="assets/portraits/house-churches.png" alt="Chloe, Representative of The Scattered Households" width="72" height="72" loading="lazy" decoding="async"></a></div>
         <div>
           <h4>Chloe<span class="role">Household Leader</span></h4>
-          <p class="trad">The House-Churches</p>
+          <p class="trad">The Scattered Households</p>
           <p class="meta">70–200 CE · Antioch, Asia Minor, Rome</p>
-          <p class="tile">The house-churches of Antioch, Asia Minor, and Rome, 70 to 200 CE — the scattered gatherings that held together after the apostles were gone, connected by letters, formed around the table, still discerning who should lead and what the body's suffering truly means.</p>
-          <p class="acts"><a href="talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/post-apostolic-house-church.html">More information<span class="vh"> — The House-Churches</span></a></p>
+          <p class="tile">An uncommon faith in scattered households lived as one body, connected by letters and a shared table. Once the apostles were gone, some were led by a single bishop and elders, others by a council of elders. Following Jesus meant loss of status, suspicion from neighbors, and even outright persecution at times.</p>
+          <p class="acts"><a href="talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/post-apostolic-house-church.html">More information<span class="vh"> — The Scattered Households</span></a></p>
         </div>
       </li>
       <li class="chair" style="--tint:#2B5F8A;--tint-dark:#3B83BF">
@@ -240,7 +242,7 @@ p{margin:0 0 1rem}
           <h4>Theon<span class="role">Catechetical Teacher</span></h4>
           <p class="trad">Alexandrian Christianity</p>
           <p class="meta">c. 150–400 CE · Alexandria, Egypt</p>
-          <p class="tile">Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth.</p>
+          <p class="tile">In Alexandria, from about 150 to 400 CE, teachers led seekers through a shared life of reading Scripture. They believed its surface pointed toward a deeper meaning, one that opened onto the Logos himself. Some called it one continuous school; others say it was simply a series of private teachers, grouped together only in hindsight. Persecution reached even its own teachers—Origen's own father was martyred while Origen was still a boy.</p>
           <p class="acts"><a href="talk.html?worlds=alexandria-catechetical&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/alexandria-catechetical.html">More information<span class="vh"> — Alexandrian Christianity</span></a></p>
         </div>
       </li>
@@ -250,7 +252,7 @@ p{margin:0 0 1rem}
           <h4>Mar Yausep<span class="role">Teacher of the Covenant Order</span></h4>
           <p class="trad">Syriac Christianity</p>
           <p class="meta">200–410 CE · Edessa &amp; Nisibis</p>
-          <p class="tile">Edessa and Nisibis, 200 to 410 CE — in what is now southeastern Turkey — a community shaped by persecution under Persian rule, holding together through covenant vows and typological reading of Scripture.</p>
+          <p class="tile">In Edessa and Nisibis, from 200 to 410 CE, Christians taught their faith in hymn and read Scripture as a world of types answering type. At the community's ascetic core stood the covenant: men and women vowed to celibacy for life who served their own congregation instead of withdrawing to the desert. Whether authority rested more in that vow or in a bishop's office was never settled in their own record. On the Persian side of the frontier, the king's own persecution took the bishop Simeon bar Sabbae and left the church's chief seat empty for twenty years.</p>
           <p class="acts"><a href="talk.html?worlds=syriac-edessa-nisibis&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/syriac-edessa-nisibis.html">More information<span class="vh"> — Syriac Christianity</span></a></p>
         </div>
       </li>
@@ -266,7 +268,7 @@ p{margin:0 0 1rem}
           <h4>Marius<span class="role">Deacon of the Letters</span></h4>
           <p class="trad">Church and Empire</p>
           <p class="meta">c. 312-451 · Rome, Constantinople, Milan</p>
-          <p class="tile">Rome, Constantinople, and Milan, c. 312 to 451 CE — the church's first century beside a throne rather than beneath a sword, working out what the emperor's favor bought and what it could still take away.</p>
+          <p class="tile">In Rome, Constantinople, and Milan, from Constantine's toleration of the church in 312 to the Council of Chalcedon in 451, Christian bishops became office-holders beside a throne rather than outlaws beneath a sword — hearing lawsuits, administering imperial funds, summoned to councils at the emperor's own expense. Three claims to final authority over the church contested that whole century and a half — Rome's claim from Peter, Constantinople's claim from nearness to the throne, and a bishop's claim to stand in moral judgment over any ruler — and the window closed without settling which one was right. This world's own worst hours were not suffered but caused: a bloody contest over the bishopric of Rome, and a massacre an emperor ordered and then, at his own bishop's insistence, did public penance for.</p>
           <p class="acts"><a href="talk.html?worlds=imperial-juridical-christianity&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/imperial-juridical-christianity.html">More information<span class="vh"> — Church and Empire</span></a></p>
         </div>
       </li>
@@ -276,7 +278,7 @@ p{margin:0 0 1rem}
           <h4>Papnoute<span class="role">Abba (Elder)</span></h4>
           <p class="trad">Desert Fathers and Mothers</p>
           <p class="meta">c. 320–430 CE · Nile Valley &amp; Desert, Egypt</p>
-          <p class="tile">The Nile Valley and the desert of Egypt, c. 320 to 430 CE — communities who left settled village life to wage a lifelong combat against the thoughts that trouble a person from within.</p>
+          <p class="tile">In the Nile Valley and the desert of Egypt, from about 320 to 430 CE, Christians left their villages to wage a lifelong combat against the thoughts that trouble a person from within. Authority came two ways at once, never resolved: earned through a lifetime of discipline under one elder, or conferred by a written rule and an appointed office. What withdrawal cost was everything ordinary life offered — land, family, the safety of a settled place — surrendered by stages and never reclaimed.</p>
           <p class="acts"><a href="talk.html?worlds=desert-monasticism&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/desert-monasticism.html">More information<span class="vh"> — Desert Fathers and Mothers</span></a></p>
         </div>
       </li>
@@ -286,7 +288,7 @@ p{margin:0 0 1rem}
           <h4>Chilo<span class="role">Elder of the Brotherhoods</span></h4>
           <p class="trad">The Cappadocian Churches</p>
           <p class="meta">c. 325-394 CE · Cappadocia / Anatolia</p>
-          <p class="tile">The Nicene-confessing churches of Cappadocia and Pontus, c. 325 to 394 CE — the households and brotherhoods around Basil of Caesarea, Gregory of Nazianzus, Gregory of Nyssa, and Macrina, who held, defended, and inherited the imperial establishment of the Nicene confession while feeding the hungry through famine and burying their own martyr.</p>
+          <p class="tile">The Nicene-confessing churches of Cappadocia and Pontus, from about 325 to 394 CE, were carried by one family and one friendship: Basil of Caesarea, his sister Macrina, his brother Gregory of Nyssa, and Basil's friend Gregory of Nazianzus. A radical ascetic ferment had already dissolved households and turned slaves against masters before Basil built something else instead: brotherhoods bound by rule, obedience, and an open guest-door. Julian's brief pagan revival cost them a martyr at Caesarea in 362; the Homoian church that followed under Valens drove Gregory of Nyssa into exile, before this Nicene minority inherited the empire's favor in 381.</p>
           <p class="acts"><a href="talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/cappadocian-nicene-pastoral-monastic-tradition.html">More information<span class="vh"> — The Cappadocian Churches</span></a></p>
         </div>
       </li>
@@ -296,7 +298,7 @@ p{margin:0 0 1rem}
           <h4>Albina<span class="role">Widow of the Household</span></h4>
           <p class="trad">The Bethlehem Circle</p>
           <p class="meta">c. 382–420 CE · Rome &amp; Bethlehem</p>
-          <p class="tile">Rome and Bethlehem, c. 382 to 420 CE — a circle of scholars and ascetics who gave up wealth and rank to test Scripture's Latin translation against the Hebrew it was first given in.</p>
+          <p class="tile">In Rome and then Bethlehem, from 382 to 420 CE, a circle of wealthy women and one scholar-priest practiced renunciation and scholarship as a single discipline — fortunes converted into text, hospitality, and care for the sick, a Latin Bible built word by word against the Hebrew it was first written in. The women funded it, founded it, and by Jerome's own account pressed him with scriptural questions for decades; but Jerome wrote nearly every surviving page himself, and how much independent authority his account of them actually reflects is a question this world's own record cannot settle. The cost was concrete: in 384 a daughter of the household died within four months of taking up Jerome's own fasting regime, and Rome's outrage over it helped drive the whole circle out of the city.</p>
           <p class="acts"><a href="talk.html?worlds=hieronymian-ascetic-literary&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a><a class="record" href="traditions/hieronymian-ascetic-literary.html">More information<span class="vh"> — The Bethlehem Circle</span></a></p>
         </div>
       </li>
@@ -307,27 +309,8 @@ p{margin:0 0 1rem}
     <p class="pilot-note">This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith.</p>
     <p class="pilot-caveat">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
   </section>
+  </div>
 
-  <section class="portals" aria-label="More ways in">
-    <a class="portal" href="table.html">
-      <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="lazy" decoding="async">
-      <div class="portal-body">
-        <p class="eyebrow">The Table</p>
-        <h2 class="portal-title">Set your own table</h2>
-        <p class="portal-text">Bring two or three of them to one table. No one seated there is the host — you're one of the four chairs. Choose who joins you, then start the conversation.</p>
-        <span class="portal-cta"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Set your own table →</span>
-      </div>
-    </a>
-    <a class="portal" href="atlas-v3.html">
-      <img src="assets/atlas-preview.jpg" alt="Colored rivers of Christian movements winding and branching across the centuries, grouped by era" loading="lazy" decoding="async">
-      <div class="portal-body">
-        <p class="eyebrow">Twenty centuries on one map, free to explore</p>
-        <h2 class="portal-title">Church in History</h2>
-        <p class="portal-text">Two hundred and some Christian movements across the whole of Church history are on record here — how they connect, where they diverged, and the stories that don't belong to just one of them. Hover for a glimpse, click for depth.</p>
-        <span class="portal-cta">Open Church in History →</span>
-      </div>
-    </a>
-  </section>
   <p class="more-link"><a href="whats-next.html">What's next →</a></p>
 
   <section class="support" aria-labelledby="support-title">

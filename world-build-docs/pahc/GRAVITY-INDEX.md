@@ -7,7 +7,7 @@
 | id | classification | canon_cells | formation_confidence | cross-check flag | Author Gravity risk (Doc_04) | source count |
 |---|---|---|---|---|---|---|
 | pahc.gravity.authority-consolidation | SUPPORTING | F3-I | Contested | Yes | Yes (flagged at generation) - the Strand A/monarchical resolution rests overwhelmingly on Ignatius alone | 4 |
-| pahc.gravity.boundary-drawing | TENSIONAL | F3-T | Inferential-Thin | Yes | High (flagged at generation) - substantively developed by exactly one voice | 1 |
+| pahc.gravity.boundary-drawing | TENSIONAL | F3-T | Inferential-Thin | Yes | High (flagged at generation) - substantively developed by exactly one voice | 3 |
 | pahc.gravity.liturgical-practice | PRIMARY | F4-I | Widely Accepted | Yes | Moderate - three independent voices, though Justin's fuller account carries its own over-generalization risk | 3 |
 | pahc.gravity.martyrdom-meaning | SUPPORTING | F6-E | Contested | Yes | High (flagged at generation) - exactly two data points, both Strand A | 2 |
 | pahc.gravity.state-pressure | SUPPORTING | F3-I | Contested | Yes | Moderate - Pliny is the clearest single direct description, but Tacitus/Suetonius/Ignatius corroborate independently | 5 |
