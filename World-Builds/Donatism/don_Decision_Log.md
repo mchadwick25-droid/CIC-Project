@@ -751,6 +751,31 @@ The project lead, presented with the Phase Eight blocker above, ruled directly: 
 
 ---
 
+## Representative Construction, Phase Eight: Table Readiness Round — run for real, PASS on all three axes
+
+The project lead authorized real, billed model-call spend for Phase Eight directly: "Yes, run Phase Eight against one of the existing worlds." Run per Framework V3.2 Part Nine's own text (quoted and re-verified against the docx in this Decision Log's own Phase Eight entry above).
+
+**Partner selected: `ijc` (Imperial and Juridical Christianity, Representative Marius).** Checked against all 8 of don's own gravity/contested_claim records first: don's G1 (Ministerial Purity, PRIMARY) and G5 (Refusal of Imperial/State Religious Legitimacy, PRIMARY) are directly, checkably opposed by ijc's own `church-state-alliance` (cross-strand PRIMARY) and `sacramental-institutional-tension` gravities — real North African history's own other side, not a divergence pressed into looking real. `cappadocian` was the reasoned second choice, rejected because its own divergence axis with don (Trinitarian precision) is a different question, not the same one.
+
+**Two real infrastructure findings, both routed (a) — runtime/tooling, neither a `don` record defect:**
+1. `engine/m4/live_table_battery.py`'s own L1-L6 sequence is stale against the current `TABLE_SESSION_ROUND_CAP=3` (resized from 5 on 2026-09-05) — L4/L5 would silently session-cap before spending a call. Not fixed here (`engine/` untouched, per this run's own constraint); the run used the same real primitives through a separate driver script, reshaped to 3 content rounds covering all three required axes plus one cap-confirmation message. A shared-harness issue affecting every world's own Table Readiness Round, not don-specific, and already self-flagged by the script in question — open, not blocking.
+2. No other world's compiled package existed on disk in this checkout (`packages/` is gitignored, derived-only) — resolved via the already-existing `python -m engine.m2.cli restore ijc`, a deterministic recompile from ijc's own unmodified records reproducing its exact pinned manifest hash. No `records/` file for any world was touched.
+
+**Grading, against the real transcript (`Ministry/Technology/Pass2/trr/S6.2_DON_TRR_ijc.jsonl`):**
+1. **Cross-world vocabulary borrowing: CLEAN.** No entrainment either direction; the one shared word ("unresolved") names a concept already structurally present in don's own T1 gravity record, explicitly marked as borrowed by Fidelis rather than adopted unmarked.
+2. **Anachronistic reach under multi-voice pressure: CLEAN — genuinely new evidence.** A "modern idea" framing was pressed directly at both voices with the second voice already twice on the record — the specific untested condition this run existed to check, since the ten-round Anachronism-hardening campaign (above) closed this failure mode only under single-voice pressure. Both voices refused the modern frame explicitly; no modern political-theory vocabulary appears anywhere in the transcript.
+3. **Held-position vs. convergence: CLEAN.** Fidelis held don's own actual recorded position throughout, never conceding ijc's opposing line; a real, independent automated convergence-check (Haiku tool call against the full transcript) returned `drift: false`. don's own record (Tyconius/Parmenian, the three imperial turns, Donatus's own quoted line) was drawn on accurately, not invented for the moment.
+
+**Post-run deterministic sweeps:** zero isolation violations; no dominance signal on any round (don's word share 0.58-0.69, under the 0.70 threshold, attributed to answering first/more often under the selector's own judgment, not crowding-out); cost well under $1 in token terms (no reconciled invoice figure yet, per this project's own spec discipline against stating an unreconciled dollar amount).
+
+**Findings and routing, per Part Nine's own required close-out:** two (a) items (both above, neither blocking); **no (b) — no `don` record defect found**; **no (c) — no framework/template change indicated.** Both (a) items are pre-existing, shared-harness/environment matters outside this world's own build scope, named rather than fixed here.
+
+**Escalation-category assessment:** none of the four applies to this run's own execution or findings — no Representative-identity decision, no portfolio-level decision this run made unilaterally (the shared-harness staleness finding is reported, not resolved, and is exactly the kind of cross-world infrastructure fact that would need the project lead's own attention if anyone acts on it), no governance/methodology change, no unresolved tension this run's own findings create. Both reserved items (Article 29 Limb 2; the Axido/Fasir Article 23 question) are untouched by anything in this run.
+
+**Disposition: Donatism's Table Readiness Round is complete, PASS on all three required axes.** No (b) or (c) items are open against don. This closes the last named precondition Phase Eight itself required; Phase Seven and Phase Eight are both now complete for this world. What remains outstanding for this world's own eventual freeze (M3, the project lead's own act) is unchanged by this entry: Phase Five's Relational Safety system-level FAIL (never retested), the Scholarly-Framework retest regression (Phase Five Round 2, still open), and both reserved questions (Article 29 Limb 2; Axido/Fasir).
+
+---
+
 ## Representative Construction, Phase Seven: Encounter Ecology Mapping — drafted, seven independent review rounds, disposed Approved to proceed
 
 **Document:** `Representative/don_Rep_Phase7_Encounter_Ecology_Mapping.md`. Drafted as a retrospective audit — Phases One through Six are already complete, so this document is necessarily produced after the fact rather than before construction as Part Nine's own text technically specifies, following the identical resolution this project already used for World #7 (Syriac)'s own Phase Seven document and for this world's own Doc_09/Validation Layer re-sequencing: name the inversion explicitly, state plainly what a retrospective audit can and cannot establish, and do not reopen any Phase One-Six determination — only ask, of each, whether it happened to land on this world's own encounter-generating dimensions or shows drift toward content-volume/doctrinal-coverage framing.
