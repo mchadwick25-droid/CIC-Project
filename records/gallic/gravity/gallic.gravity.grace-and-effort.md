@@ -90,6 +90,10 @@ relations:
   target: gallic.figure.cassian
 - type: associated-with
   target: gallic.figure.vincent
+- type: associated-with
+  target: gallic.contested.beginning-of-good-will
+- type: associated-with
+  target: gallic.contested.massilian-label
 name: "The grace-and-effort argument [SUPPORTING - provisional; Primary within the southern node]"
 classification: supporting
 description: >-

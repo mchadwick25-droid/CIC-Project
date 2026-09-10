@@ -84,6 +84,8 @@ relations:
   target: gallic.figure.cassian
 - type: associated-with
   target: gallic.figure.honoratus
+- type: associated-with
+  target: gallic.contested.egypt-two-measures
 name: "Egypt as the measure - one reference point, two modes [PRIMARY]"
 classification: primary
 description: >-

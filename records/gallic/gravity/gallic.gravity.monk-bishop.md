@@ -97,6 +97,8 @@ relations:
   target: gallic.figure.honoratus
 - type: associated-with
   target: gallic.figure.martin
+- type: associated-with
+  target: gallic.contested.election-as-capture
 name: "The monk-bishop: renunciation that does not leave the Church [PRIMARY]"
 classification: primary
 description: >-

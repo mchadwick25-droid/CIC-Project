@@ -89,6 +89,8 @@ relations:
   target: gallic.figure.cassian
 - type: associated-with
   target: gallic.figure.vincent
+- type: associated-with
+  target: gallic.contested.who-holds-antiquity
 name: "Received, not invented: antiquity, the Fathers, and consent against novelty [PRIMARY]"
 classification: primary
 description: >-
