@@ -37,7 +37,7 @@ This program succeeds or fails on exactly two things: scholarly rigor and clear,
 ## Governance vocabulary and closure
 
 - "Approved to proceed" — not "finalized." That word is retired; don't use it.
-- Nothing closes until both Phase Five boundary testing and full-system review are complete.
+- Nothing closes until both Phase Five boundary testing and full-system review are complete — this is the whole-system/portfolio closure gate, a different and much rarer scope than a single document's own "Approved to proceed" under the build-cycle's per-document self-governance ("Scaling the build," below). One document proceeding doesn't mean anything has closed.
 - A blocking review finding can't be dismissed by self-certification — it needs independent re-confirmation.
 - Truncation checks use two independent methods, not one.
 
