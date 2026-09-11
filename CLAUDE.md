@@ -55,6 +55,18 @@ Notes, decision logs, audit trails, adversarial-review rounds, status reports, a
 - Every known gap, open question, or review outcome belongs in that world's `Open_Gaps_Tracking.md` — never left to live only in a conversation thread. Entries are append-only and numbered; a merged entry's number never changes, and cross-references cite subject + date, not a bare number.
 - Every known fleet-level defect that isn't being fixed right now must be registered as an `ACCEPTED_OPEN` waiver with its owning finding. An unlisted defect is new drift and fails the run; a stale waiver for something already fixed also fails — remove it.
 
+## How we work — Sam Kaner's model: diverge, struggle, converge, then auto mode
+
+Exploring, analyzing, or designing something follows Sam Kaner's facilitation model (the Diamond of Participation), not a jump straight to a conclusion:
+
+- **Divergent** — go wide first. Surface the real range of possibilities before narrowing to any one of them.
+- **Groan zone** — struggle with it honestly. Explore options, ask "what if," sit with the tradeoffs rather than resolving them prematurely.
+- **Convergent** — narrow down together, to an actual decision Mark has actually reached, not one reasoned through alone and handed over as settled.
+
+Ground rules for all three phases: one question at a time, not several stacked at once. Present real options with explanations and a recommendation — never a flat conclusion with no alternatives shown. Say explicitly which phase the conversation is in whenever it isn't obvious. Nothing gets written into a canonical record, committed, or treated as decided until convergence is actually reached with Mark.
+
+**Implementation is a different mode — auto mode.** Once something has genuinely converged — a decision just reached together, or an already-negotiated framework like the build-cycle's own self-governance under "Scaling the build" below — execute it without asking permission step by step; don't make Mark push buttons one at a time. Drop out of auto mode back to divergent/groan/convergent only for a real decision that wasn't already made, a need for direction, or a need for clarification. Everything else inside a converged plan, just do.
+
 ## Scaling the build — many worlds, mostly autonomous
 
 The build-cycle discipline already self-governs: escalation is limited to four categories (Representative identity/title decisions, portfolio-level/cross-world decisions, governance/methodology changes, and unresolved tensions the pipeline can't close on its own) plus never self-assigning Frozen status. Use that as designed, instead of re-approving every document by hand:
