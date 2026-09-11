@@ -65,6 +65,8 @@ Exploring, analyzing, or designing something follows Sam Kaner's facilitation mo
 
 Ground rules for all three phases: one question at a time, not several stacked at once. Present real options with explanations and a recommendation — never a flat conclusion with no alternatives shown. Say explicitly which phase the conversation is in whenever it isn't obvious. Nothing gets written into a canonical record, committed, or treated as decided until convergence is actually reached with Mark.
 
+Anything for Mark to review or approve — options to choose between, a draft to react to, a comparison — renders in the right panel as an Artifact, never as a file written into the repo that then has to be saved, tracked, and cleaned up. A file gets written only once it's the actual converged-on output, not as a vehicle for getting there. This doesn't apply to the project's own permanent review artifacts (adversarial-review rounds, decision logs, `Open_Gaps_Tracking.md`) — those are intentional, lasting audit trail, not scratch material for one conversation's approval step.
+
 **Implementation is a different mode — auto mode.** Once something has genuinely converged — a decision just reached together, or an already-negotiated framework like the build-cycle's own self-governance under "Scaling the build" below — execute it without asking permission step by step; don't make Mark push buttons one at a time. Drop out of auto mode back to divergent/groan/convergent only for a real decision that wasn't already made, a need for direction, or a need for clarification. Everything else inside a converged plan, just do.
 
 ## Scaling the build — many worlds, mostly autonomous
