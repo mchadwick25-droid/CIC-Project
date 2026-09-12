@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.clement-paidagogos
-  locus: II.2 (the eucharistic discussion)
+  locus: "I.6 (the bread: \"the bread which I will give is My flesh\") and II.2 (the cup)"
   license: public-domain
 retrieval:
   tier: 1
@@ -44,3 +44,12 @@ distortion_risk: medium
 Modern hearing: denominational dispute vocabulary. World hearing: the
 meal that made the community one body. The whole-community formation
 channel's center - the practice that reached past literacy.
+
+corrected 2026-09-08, records/alx audit: plain_meaning and
+informational say "bread and cup", but the sole cited locus, Paedagogus
+II.2 ("On Drinking"), is about the cup only ("blood" appears ~11
+times, "bread" only once incidentally). A genuine bread locus exists
+earlier in the same work: Paedagogus I.6 ("the bread which I will
+give is My flesh... the bread of heaven absorbs the blood," anf02
+lines 19760-19777). Added I.6 alongside II.2 in sources so "bread and
+cup" is fully supported by both loci.

@@ -1,0 +1,33 @@
+source_file: optatus_libri-vii-critical_ziwsa1893.txt
+
+assignments:
+  - work: "S. Optati Milevitani Libri VII (critical Latin edition)"
+    author: optatus
+    locus: "the seven books"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: assigned
+    note: >
+      CSEL 26 (Ziwsa, 1893), the critical Latin edition of the same work
+      already vendored in English translation (optatus_against-the-
+      donatists.txt) — second witness for cross-checking a specific
+      rendering, same context role as its English counterpart, per the
+      standing rule that Optatus describes the Donatists rather than
+      speaking as one.
+
+  - work: "Decem Monumenta Vetera ad Donatistarum Historiam Pertinentia
+      (Ziwsa's own appendix)"
+    author: anti-donatist-dossier
+    locus: "appendix following the seven books"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: provisional
+    note: >
+      Ziwsa's own ten-document appendix — related in kind to, but not
+      confirmed identical in content with, the sixteen-item Appendix
+      already mapped from the English Optatus volume (optatus_against-the-
+      donatists.txt). Provisional until the two document sets are actually
+      compared and their overlap/difference stated, rather than assumed
+      either way.

@@ -39,9 +39,9 @@ senses:
   informational: The Logos did not visit humanity the way a guest visits a house. The Logos became
     genuinely human, took on real mortality, and reversed what was dying from inside the very nature that
     was dying - not by giving instructions from outside it.
-  evidential: Athanasius states the aim directly - God became human so that humanity might become god;
-    Origen reads the Logos's entry into flesh as the ground of the soul's genuine participation in divine
-    life.
+  evidential: 'Athanasius states the aim directly, verbatim: "For He was made man that we might be made
+    God" (verbatim - see alx.quote.athanasius-made-god); Origen reads the Logos''s entry into flesh as
+    the ground of the soul''s genuine participation in divine life.'
   personal: A teacher or example reaches a person from outside; what this world claims happened reaches
     from inside the very condition being healed - which is why formation can claim more than imitation
     can give.

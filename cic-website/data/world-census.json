@@ -9,13 +9,13 @@
   "statusCounts": {
    "Built & Live": 7,
    "Selected - Not Yet Built": 2,
-   "Possible Future World (on record)": 19,
+   "Possible Future World (on record)": 18,
    "Excluded - Doctrinal Floor (C1)": 4,
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
    "Pre-Survey Candidate": 215,
    "Floor Question (register)": 28,
-   "Within Another World (A5)": 5,
+   "Within Another World (A5)": 6,
    "Outside Article 4 Scope": 1,
    "Label - Assessed Per Body (A3)": 1
   },
@@ -1335,10 +1335,10 @@
    "name": "The Latin Apologists",
    "shortName": "Latin Apologists",
    "informalName": "The Case Made in Latin",
-   "dates": "c. 200-320",
-   "start": 200,
+   "dates": "c. 197-320",
+   "start": 197,
    "end": 320,
-   "region": "Rome and Ostia; Sicca in Numidia; Nicomedia and Trier",
+   "region": "Carthage; Rome and Ostia; Sicca in Numidia; Nicomedia and Trier",
    "regions": [
     "Mediterranean",
     "Africa",
@@ -1356,21 +1356,21 @@
    "living": false,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Substantial, and larger than the flag count suggested. Minucius Felix's Octavius (about twenty-four thousand words), Commodian's Instructiones (fifteen thousand) and Arnobius' seven books Against the Heathen (a hundred and forty thousand) are all vendored whole, and on Mark's ruling of 2026-08-27 so is Lactantius: the Divine Institutes alone runs to two hundred and forty thousand words, with the Anger of God, the Workmanship of God and the fragments beside it. Just under half a million words in all, which is a larger corpus than most entries in the census can call on. Two of the four authors are barely datable: Minucius Felix within a century, Commodian within three.",
-   "floorNote": "Not in question",
-   "relationsSummary": "The Latin counterpart to greek-apologists-second-century, a generation later and never as coherent a body. It touches tertullian-s-voice, which begins the enterprise and is kept separate because a voice that distinct is its own entry, and latin-pastoral-congregational-christianity, which is where three of these works had been parked for want of anywhere better. Its live relation is to imperial-juridical-christianity, and it runs through one man: Lactantius wrote his defence during the persecution and then tutored the son of the emperor who ended it. His De Mortibus Persecutorum stays with that entry rather than this one, because the unit of assignment is the work.",
-   "why": "Not a Step 0 verdict. Added on record in 2026 at Mark's direction, and the least thin of the five gaps he ruled on — it looked thin only because most of its material had been parked as PROVISIONAL rather than flagged. Two works were flagged with the note that no census entry fits early Latin apologetics; a third, Arnobius' hundred and forty thousand words, was sitting quietly on the Carthaginian congregational entry with the wrong genre and the wrong province, and has been moved here. THE PRECEDENT IS I.35: the Greek apologists were registered in 2026 on exactly this reasoning, and the same argument in Latin had simply never been made. Lactantius was held back at that ruling and settled here on 2026-08-27, which quadrupled the entry's corpus. The honest objection is unchanged and is the same one I.35 carries — that apologetic is a genre and not a community — and it is stronger here, because these men are not one another's contemporaries and the one teacher-pupil link between them, Arnobius to Lactantius, rests on a line in Jerome. It is registered because the material is real, large, and had nowhere accurate to sit.",
+   "sourcing": "Substantial before the merger, and far larger after it. Minucius Felix's Octavius (about twenty-four thousand words), Commodian's Instructiones (about fifteen thousand) and Arnobius' seven books Against the Heathen (a hundred and forty thousand) are all vendored whole, and on Mark's ruling of 2026-08-27 so is Lactantius: the Divine Institutes alone runs to two hundred and forty thousand words, with the Anger of God, the Workmanship of God and the fragments beside it - just under half a million words on its own. On Mark's further ruling of 2026-09-10, merging in the formerly separate tertullian-s-voice entry, this candidate now also holds the whole of Tertullian's own thirty-two-work corpus - the Apology, the five books Against Marcion (his longest single work, about a hundred and eighty-four thousand words on its own), Against Praxeas, the Prescription Against Heretics, and the rest - plus the Passion of Perpetua and Felicitas, transmitted with his corpus. Something over a million and a quarter words in all: two and a half times the size it was before the merger. Three of the five authors are barely datable: Minucius Felix within a century, Commodian within three; Tertullian's own dates (c. 197-220) are the best-anchored in the set.",
+   "floorNote": "Not in question for the corpus as a whole. Tertullian's own later years aligned with the New Prophecy (Montanism) out of Phrygia - a real, disclosed complication, but not a floor question: the census's own Montanism entry states plainly that the New Prophecy \"held the same doctrine as the churches that condemned it,\" the dispute being one of authority and discipline, not of the Creed's own commitments.",
+   "relationsSummary": "The Latin counterpart to greek-apologists-second-century, a generation later and never as coherent a body. Absorbs tertullian-s-voice (I.17), merged 2026-09-10 on Mark's ruling - the voice that begins the whole enterprise now belongs inside this entry, not beside it. Still touches latin-pastoral-congregational-christianity, where three of these works had been parked for want of anywhere better. Its live relation is to imperial-juridical-christianity, and it runs through one man: Lactantius wrote his defence during the persecution and then tutored the son of the emperor who ended it. His De Mortibus Persecutorum stays with that entry rather than this one, because the unit of assignment is the work.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 at Mark's direction, and the least thin of the five gaps he ruled on - it looked thin only because most of its material had been parked as PROVISIONAL rather than flagged. Two works were flagged with the note that no census entry fits early Latin apologetics; a third, Arnobius' hundred and forty thousand words, was sitting quietly on the Carthaginian congregational entry with the wrong genre and the wrong province, and has been moved here. THE PRECEDENT IS I.35: the Greek apologists were registered in 2026 on exactly this reasoning, and the same argument in Latin had simply never been made. Lactantius was held back at that ruling and settled here on 2026-08-27, which quadrupled the entry's corpus. On 2026-09-10, Mark ruled a second time: tertullian-s-voice (I.17) - kept separate at first because \"a voice that distinct is its own entry\" - merges into this one. A stand-alone world of one man, with (on that entry's own account) no community descending from him, is thinner than a world he anchors. The honest objection the entry has always carried is unchanged, and is sharper now that Tertullian is inside it rather than beside it: these authors are not one another's contemporaries, Tertullian least of all - his own Apology closes a full generation before Minucius Felix's own disputed dates even plausibly open the rest - and the one direct teacher-pupil link among them, Arnobius to Lactantius, still rests on a single line in Jerome. It is registered, and now merged, because the material is real, large, and had nowhere more accurate to sit than together.",
    "entry": null,
-   "longDescription": "Around the turn of the third century a Roman advocate named Minucius Felix wrote a dialogue set on the beach at Ostia. A pagan friend puts the case against Christianity. It is a religion of the ignorant, he says; its god was a criminal; its rites are obscene; and Rome's greatness is proof enough that Rome's own gods work. A Christian answers him, and by the end the pagan is convinced. The odd thing is that the author gave the other side the better speech. Caecilius' half is the fullest surviving statement of the educated pagan objection, and a Christian wrote it, because he wanted to answer it properly.\n\nA century later an African rhetorician at Sicca called Arnobius wrote seven furious books against the gods. Jerome says he did it to persuade his own bishop that his conversion was genuine. Along the way he produced the most detailed account of Roman religious practice any Christian left, because he had to describe what he was attacking.\n\nBetween the two sits Commodian, and nobody can date him within three centuries. He wrote eighty short poems in acrostic verse that does not scan by the old rules, the first letters of each one spelling out its own title. They were aimed at ordinary people. They are half catechism and half warning, and they end with the end of the world.\n\nLast comes Lactantius, whom Jerome makes Arnobius' pupil. He was a professor of Latin rhetoric, summoned to Diocletian's new capital at Nicomedia, and he lost the post when the persecution began. He wrote the Divine Institutes in the middle of it: seven books arguing that the whole of pagan learning had been reaching for something it could not name, addressed to the educated men who were watching Christians die. He was old by the time it ended. Constantine brought him to Trier to teach his son.\n\nThese four shared no city and no generation. What they shared was the job of making the argument in Latin, in a vocabulary that had not been built to carry it.",
-   "teaser": "Four men argued the Christian case in Latin before the language had words for it. They never met: two cannot be dated within a century, and the one link between them is a single line in Jerome. Lactantius wrote his defence after losing his chair, while the persecution was still on.",
+   "longDescription": "Carthage, 197 CE. A convert trained as a rhetorician sat down to answer the slanders against his new faith, and found that Latin had no words yet for most of what he needed to say - so he made them. Trinitas, persona, substantia, sacramentum: the technical vocabulary Western Christians still use for the Trinity and the sacraments came substantially off Tertullian's own pen, in the Apology and in the string of treatises that followed it - Against Praxeas arguing that Father and Son are genuinely distinct, the Prescription Against Heretics contending that Scripture belongs to the churches that received it, five long books Against Marcion answering the one rival he judged most dangerous. In his later years he grew steadily more rigorist and aligned himself with the New Prophecy out of Phrygia, which is one reason the Latin church quoted him endlessly and never made him a saint. Roughly a generation on and in a very different key, a Roman advocate named Minucius Felix wrote a dialogue set on the beach at Ostia, in which a pagan friend states the case against Christianity - it is a religion of the ignorant, its god was a criminal, Rome's greatness is proof enough that Rome's gods work - and is answered and convinced. What makes the Octavius unusual is that its author gives the other side the better speech: Caecilius' half is the fullest surviving statement of the educated pagan objection to Christianity. A century later and in a different register again, an African rhetorician at Sicca called Arnobius wrote seven furious books Against the Heathen - to persuade his own bishop that his conversion was genuine, if Jerome is to be believed - and produced along the way the most detailed account of Roman religious practice that any Christian left, because he had to describe what he was attacking. Between them, and impossible to date within three centuries, sits Commodian: eighty short poems in acrostic verse that does not scan by the old rules, aimed at ordinary people, half catechism and half warning. And at the end of the line stands Lactantius, whom Jerome makes Arnobius' pupil: a professor of Latin rhetoric summoned to Diocletian's new capital at Nicomedia, who lost the post when the persecution began and wrote the Divine Institutes in the middle of it, and who was old by the time it was over, when Constantine brought him to Trier to teach his son. What these five share is not a place or a generation. It is that each had to make the argument in Latin, in a vocabulary that had not been built to carry it - Tertullian first and most consequentially, the others after him.",
+   "teaser": "A Carthaginian lawyer invented the Latin words for the Trinity while defending Christians against Roman slander - and the argument he opened ran a further century, through Rome, Numidia, and the emperor's own new capitals.",
    "voices": [
-    "Minucius Felix was a Roman advocate who cast his defence of Christianity as a dialogue. No one has been able to fix his date within a century.",
-    "Arnobius of Sicca taught rhetoric at a provincial town in Africa. Jerome is the only source for the story about his bishop, and the only source making Lactantius his pupil.",
-    "Commodianus is the only one of these writers who worked in verse. Scholars have placed him anywhere between the third century and the fifth.",
-    "Lactantius was Arnobius' pupil, on Jerome's account. His Divine Institutes is by a wide margin the longest of these works, and he wrote it as a man who had just lost his own post.",
-    "Tertullian's Apology of 197 begins the whole enterprise in Latin. He has an entry of his own rather than a place in this one."
+    "Tertullian of Carthage - a convert and trained rhetorician who opened the whole enterprise in 197, forged most of the Latin vocabulary of Christian argument, and grew more rigorist and Montanist-aligned in his later years",
+    "Minucius Felix - a Roman advocate whose dialogue gives the pagan side the better speech, and whose own date nobody can fix within a century",
+    "Arnobius of Sicca - a teacher of rhetoric who wrote seven books against the gods, by one account to convince his bishop that he meant it",
+    "Commodianus - who wrote catechism in acrostic verse that does not scan, and whom scholars have placed anywhere between the third century and the fifth",
+    "Lactantius - Arnobius' pupil on Jerome's account, who wrote the fullest of the Latin defences while the persecution was still running and afterwards tutored the son of the emperor who ended it"
    ],
-   "legacy": "The Latin vocabulary of Christian argument was largely made here, and in Tertullian's hands at the same time. Someone had to decide which Latin words would carry the Greek theological and philosophical freight. A good deal of what these writers chose stuck.\n\nMinucius Felix gave the West its model for the apologetic dialogue. He also preserved, without meaning to, the fullest record of what educated Romans actually said against the church. Arnobius is read now mostly by historians of Roman religion, who need him because he described in detail the thing he was trying to demolish.\n\nLactantius' Latin was good enough that the Renaissance called him the Christian Cicero. It printed him before it printed most of the Fathers: the Divine Institutes was among the first books off a press in Italy, in 1465."
+   "legacy": "The Latin vocabulary of Christian argument was made here. Tertullian coined most of the technical words Western Christians still use for the Trinity and the sacraments, and left lines that entered common Christian speech, most famously that the blood of Christians is seed; the Western habit of thinking about God, the church, and the sacraments in legal and forensic categories owes a great deal to a man trained as an advocate. Minucius Felix gave the West its model for the apologetic dialogue and preserved, inadvertently, the most complete record of what educated Romans actually said against the church. Arnobius is now read mostly by historians of Roman religion, who need him precisely because he described in detail the thing he was trying to demolish. And Lactantius' Latin was good enough that the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers - the Divine Institutes was among the first books off a press in Italy, in 1465."
   },
   {
    "id": "apocryphal-and-pseudepigraphal-literature",
@@ -2340,18 +2340,18 @@
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
    "beyondFloor": false,
-   "status": "Possible Future World (on record)",
-   "chip": "def",
-   "glyph": "pfw",
-   "statusWord": "Possible future tradition — on record",
-   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
    "living": false,
    "overlayCurrent": false,
    "c2": null,
    "sourcing": "Rich corpus, one man",
-   "floorNote": "Later alignment with the New Prophecy noted",
-   "relationsSummary": "Forged much of the Latin theological vocabulary; no clear home since the Cyprian/Jerome tradition-split",
-   "why": "A dropped voice, not a dropped tradition — on record as such. Where he belongs is an open question for a future pass.",
+   "floorNote": "Later Montanist alignment noted",
+   "relationsSummary": "Merged into latin-apologists (I.43), 2026-09-10 - the voice that begins that entry's whole enterprise now belongs inside it, not beside it.",
+   "why": "Not a candidate tradition on its own any longer. This entry once asked where a voice this distinct belongs, since it clearly outgrew any of the built worlds that cite him; Mark's answer, 2026-09-10, is that a stand-alone world of one man with no community of his own is thinner than a world he anchors, and the Latin apologetic tradition he opens is exactly that world. \"No followers\" was always true of this entry, not of the man himself - Cyprian read him daily and called him 'the master.'",
    "entry": null,
    "teaser": "The first major Christian writer in Latin had to invent half his vocabulary, and the West has argued in his words ever since. He turned rigorist in later life and threw in with a prophetic movement out of Phrygia. The church quoted him for centuries, never canonised him, and no community carries his name.",
    "longDescription": "Tertullian was the first major Christian author to write in Latin rather than Greek. A great deal of what he wanted to say had no words yet, so he made them. Trinitas, persona, substantia, sacramentum: the technical vocabulary Western Christians still use came substantially off his pen, and his formula of one substance in three persons became the standard Latin way of stating the doctrine of God.\n\nHe wrote like the advocate he was trained to be. The Apology dismantles Roman slanders against Christians. Against Praxeas argues that Father and Son are genuinely distinct. On the Prescription of Heretics contends that heretics have no standing even to cite Scripture, since the Scriptures belong to the churches that received them.\n\nIn his later years he grew steadily more rigorist — against remarriage, against flight in persecution, against what he saw as a church going soft. He also aligned himself with the New Prophecy out of Phrygia. That is one reason the Latin church went on quoting him and never made him a saint.",
@@ -3109,10 +3109,10 @@
    "name": "Donatism",
    "shortName": "Donatism",
    "informalName": "The Donatist Church",
-   "dates": "c. 312-430s",
-   "start": 312,
-   "end": 430,
-   "region": "North Africa (Carthage)",
+   "dates": "c. 311-439 CE",
+   "start": 311,
+   "end": 439,
+   "region": "Roman North Africa (Carthage and Numidia)",
    "regions": [
     "Africa",
     "Mediterranean"
@@ -3125,32 +3125,64 @@
    "chip": "sel",
    "glyph": "sel",
    "statusWord": "Chosen — not yet built",
-   "statusDescription": "One of the traditions chosen for its era after a completed survey. Construction has not begun.",
+   "statusDescription": "Not yet open for conversation — this world's own safety validation is not complete.",
    "living": false,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Substantial but heavily via opponents (Augustine) - a named challenge",
-   "floorNote": "Donatism held the same Nicene doctrine as its rivals — the dispute was about who could validly serve as clergy after the persecution, not about the Trinity, Christ's divinity, or any point of creedal belief.",
-   "relationsSummary": "Rival-sibling of the Latin pastoral tradition; martyr-memory identity",
-   "why": "This tradition has already been chosen — and it may surprise you that it's here: the churches of Roman North Africa that broke communion with their neighbors over what faithfulness under persecution required, kept their own bishops for a century, and built their identity on the memory of the martyrs. History mostly remembers them through their opponents — Augustine wrote against them, and the label \"Donatist\" was never their own name for themselves. That is exactly why this project chose them: a whole communion of real Christians, serious about holiness, known mainly through hostile pens, deserves to speak as itself. Construction has not yet begun.",
+   "sourcing": "Substantial but heavily via opponents (Augustine, Optatus) — a named challenge, with four texts that speak as Donatists rather than being spoken about: the Passio Donati sermon, the Passio Marculi, Macrobius’ own letter, and Tyconius’ Book of Rules.",
+   "floorNote": "This communion held the same Nicene doctrine as the rival church it split from. What was contested was never the Trinity, Christ's divinity, or any point of creedal belief, but a narrower and sharper question: whether a bishop's own past under persecution could void what his hand later gave.",
+   "relationsSummary": "Rival-sibling of the Latin pastoral congregational tradition it split from over the same persecution; its refusal of any imperial standing to judge the church is the mirror image of Imperial and Juridical Christianity's own church-state alliance, and its once-for-all rebaptism is the opposite answer Cappadocian Christianity gave to the same question of how someone from the other side comes back in.",
+   "why": "This tradition's construction is substantially complete — its records, sources, and a Representative named Fidelis have all been built — and it may surprise you that it's here at all: the churches of Roman North Africa that broke communion with their neighbors over what faithfulness under persecution required, kept their own bishops for a century, and built their identity on the memory of the martyrs. History mostly remembers them through their opponents — Augustine wrote against them, and the label \"Donatist\" was never their own name for themselves. That is exactly why this project chose them: a whole communion of real Christians, serious about holiness, known mainly through hostile pens, deserves to speak as itself. This world has not yet cleared this project's own safety validation gate, so it is not yet open for conversation the way the other Built & Live worlds are.",
    "entry": null,
-   "longDescription": "When Rome's persecution of Christians ended in 313, the churches of North Africa split over what happened next: could bishops who had handed over Scriptures to be burned, or otherwise compromised under threat of death, still validly ordain and consecrate? The Donatists said no — only those untainted by that betrayal could carry on the church's ministry. And for roughly a century they were the majority church across much of Roman Africa, with their own bishops, their own martyrs, and a fierce insistence that holiness, not political favor, marked the true church. Their most famous opponent was Augustine of Hippo, whose writings against them are almost all that survives of their story — the Donatists rarely got to speak in their own words, and even their name was one their rivals gave them. Imperial pressure and, eventually, the Vandal invasions wore the movement down, but for a long stretch of the fourth and fifth centuries, this was simply what Christianity looked like across much of North Africa.",
-   "teaser": "Roman North Africa, c. 312 to 430s CE — a church of martyrs' descendants who refused to let those who had betrayed the faith under persecution lead it again, known to history mostly through the words of their fiercest opponent.",
+   "longDescription": "In 311 or 312 — the sources support both years and this record does not choose between them — Caecilian was elected bishop of Carthage and consecrated by Felix of Aptungi, a man accused of surrendering the Scriptures to be burned under the recent persecution. A rival party would not accept a bishop ordained by a traditor's hand: they consecrated Majorinus beside him instead, not in his place, and from Majorinus's successor Donatus the movement took its name. The doctrine at stake was narrow and absolute: a sacrament's validity rises and falls on the giver's own unbroken purity, so a tainted ordination gives nothing, and everyone it touches must be washed again by a hand that can be trusted. This was never a dispute over the Trinity or Christ's divinity — both parties held the same Nicene faith — but over who could validly give what the church gives, and for a century, across much of Roman Africa, this was simply the larger of the two churches, with its own bishops, its own basilicas, and its own councils contesting the same towns as its rival.\n\nThe empire did not stay neutral. In 347, imperial commissioners sent to force the two churches into one communion met resistance in Numidia; a bishop named Marculus was seized, paraded through several towns, and thrown from a cliff called Novapetra, and this communion has kept his name, and the names of others killed with him, read aloud at their graves every year since. A rural movement called the circumcellions is attested in this same period by an imperial fine — a real, legally distinct group — though almost everything claimed about what they actually did survives only in the writing of opponents who had reason to make them look like a mob. What the record will support is existence and a name; what it will not support, cleanly, is character.\n\nThe same communion that refused any emperor's standing to say which church was the true one turned to imperial power three times when it served the case — appealing to Constantine in 313, to Julian in 361, and, in the 390s, to the same machinery it condemned everywhere else, against its own breakaway Maximianist bishops. In 411 the emperor finally ordered the whole dispute settled at law: two hundred and seventy-nine of this communion's bishops met roughly two hundred and eighty-six of the rival church's before an imperial judge at Carthage, refused the chairs he offered them, and argued for three days. The verdict went against them, and the laws that followed took their churches by name. The communion survived under Vandal and then Byzantine rule for a further century and a half, still contested and still legislated against — the last word any surviving record has on it is a set of letters Pope Gregory the Great wrote in the 590s, pressing for an inquiry into Donatist rebaptism in Numidia.",
+   "teaser": "Roman North Africa, c. 311 to 439 CE — a whole parallel church built on one conviction, that a tainted hand gives nothing, known to history mostly through the words of the bishop who argued against it the longest.",
    "sources": [
     {
      "work": "Augustine, On Baptism, Against the Donatists",
      "type": "primary",
-     "note": "The fullest surviving account of Donatist belief and practice is in the writings of their chief opponent.",
+     "note": "Seven books answering the doctrine at its most systematic — the fullest surviving reconstruction of Donatist sacramental logic, built in order to refute it.",
      "url": "https://www.newadvent.org/fathers/1408.htm"
+    },
+    {
+     "work": "Optatus of Milevis, Against the Donatists",
+     "type": "primary",
+     "note": "The earliest sustained Catholic answer to the schism, written roughly five decades after the founding events it narrates; its own appended dossier of documents is this world's single richest source."
+    },
+    {
+     "work": "Augustine, Answer to the Letters of Petilian",
+     "type": "primary",
+     "note": "Three books quoting a Donatist bishop's own letters clause by clause in order to answer them — the fullest surviving Donatist voice, reaching us because it was chosen for answerability."
+    },
+    {
+     "work": "Tyconius, The Book of Rules",
+     "type": "primary",
+     "note": "The one Donatist theological work that survives entire, by a writer this communion's own council condemned — and the book outlived the party that expelled him."
+    },
+    {
+     "work": "The Passion of Marculus",
+     "type": "tradition",
+     "note": "A hagiographic account of the death of Marculus in the Macarian persecution of 347–348; the visionary and miraculous details are carried as this tradition's own testimony, not as verified events."
+    },
+    {
+     "work": "Gesta Collationis Carthaginiensis anno 411 (Acts of the Conference of Carthage)",
+     "type": "primary",
+     "note": "The transcript of the great trial at Carthage, taken down by imperial notaries — the one place in this world's whole record where its bishops argue their own standing in their own recorded words."
+    },
+    {
+     "work": "Codex Theodosianus, Book 16",
+     "type": "primary",
+     "note": "The imperial legal record, including the 412 fine naming the circumcellions by name and the 405 Edict of Unity that outlawed this communion's own rebaptism."
     }
    ],
    "voices": [
-    "Donatus Magnus — the movement's founding bishop and namesake",
-    "Petilian of Cirta — a Donatist bishop whose own writings, now lost, survive only in Augustine's quotations of them",
-    "Tyconius — a Donatist theologian whose ideas on the church shaped Augustine's own thinking even as his own party distanced itself from him",
-    "Augustine of Hippo — the tradition's most consequential opponent, whose polemics are the main surviving record of their arguments"
+    "Donatus succeeded Majorinus as bishop of Carthage around 313 and led this communion for over three decades, long enough that it took his name. Almost nothing he wrote survives; his one famous line — what has the emperor to do with the church? — reaches us only because the bishop who opposed him quoted it in order to answer it.",
+    "Petilian, bishop of Constantina from the 390s, is this communion's fullest surviving voice, and its most mediated one: his letters exist only as clauses Augustine quoted in order to refute them. At the Conference of Carthage in 411 he spoke on an open transcript instead, refusing the judge's offered chair because Christ himself had stood before a governor.",
+    "Emeritus, bishop of Caesarea, argued this communion's case at Carthage for three days, matching Augustine's own scriptural argument verse for verse and signing the record of his own words with his appeal reserved. His is the one substantial voice here that reaches us without an opponent choosing what of it to keep.",
+    "Tyconius wrote the one theological work of this communion that survives whole, was rebuked by his own bishop, and was condemned by a council around 380 for arguing the church was spread through the whole earth. He never went over to the other side — and his book outlived the party that expelled him, read for centuries by the Catholic bishop who taught from it.",
+    "Lucilla, a wealthy laywoman of Carthage, was publicly rebuked for kissing a martyr's bone before communion; money traced to her, years later in a courtroom, helped found the rival altar against Caecilian. She left no words of her own — everything known of her comes from the hostile account written to blame her for the schism.",
+    "No ordinary believer's fear or doubt survives in this communion's own words, though for long stretches it was the larger church in Africa, not a minority within it. What is known of it comes almost entirely through the men who argued against it — except for two words cut in stone at a shrine, Deo laudes, praise to God, never written down by anyone at all."
    ],
-   "legacy": "Donatism left no continuing church of its own — its last communities disappeared under the Arab conquest of North Africa in the seventh century. But arguing against it, Augustine worked out that the church is a mixed body of saints and sinners rather than a pure remnant, and that a sacrament's validity doesn't depend on the minister's own holiness. Both became foundational, lasting Western Christian doctrine. Excavated basilica ruins from Donatist-era Timgad, one of their strongholds in Roman Numidia, still stand in Algeria today. A physical trace of a communion that otherwise left no institution behind.",
+   "legacy": "Donatism left no continuing communion of its own. Its two-party contest with the rival Catholic church did not end with the Roman empire that had tried to settle it: Vandal and then Byzantine rulers inherited the same divided towns for another century and a half, the dispute still live enough that a sixth-century pope found it worth four letters of his own.\n\nWhat arguing against this communion produced outlasted it. Answering the claim that a sacrament's worth depends on the minister's own purity, Augustine reasoned his way to the claim that stuck: the church is a mixed field of wheat and weeds until harvest, not a pure remnant, and what a sacrament gives does not depend on the purity of the hand that gives it. Both became foundational Western doctrine, worked out against this communion's own most absolute conviction. Tyconius, condemned by his own church around 380, fared stranger still: his one surviving book crossed over to the side that had expelled him and shaped how Augustine himself, and centuries of readers after him, learned to read Scripture.\n\nExcavated basilica ruins from Donatist-era Numidia, at Timgad in modern Algeria, still stand — a physical trace of a communion that otherwise left no institution behind, its own history readable mostly in the words of the church that outlasted it.",
    "experienceToday": [
     {
      "text": "Timgad, Algeria — UNESCO World Heritage Roman ruins including a Donatist-era basilica",

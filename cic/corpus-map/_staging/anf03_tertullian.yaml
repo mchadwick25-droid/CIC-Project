@@ -24,10 +24,12 @@ assignments:
   author: tertullian
   locus: div2 4.3 under div1 'Apologetic.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
-  note: 'Carthage, 197 - the opening date of the tertullian-s-voice entry.
+  note: 'Carthage, 197 - the opening date of this candidate''s own corpus, and of the whole
+    Latin apologetic enterprise (previously the opening date of the separate tertullian-s-voice
+    entry, I.17, merged into this candidate on Mark''s 2026-09-10 ruling).
 
     '
 - work: Apology (Apologeticus)
@@ -39,14 +41,16 @@ assignments:
   confidence: provisional
   note: 'pahc already cites this work (pahc.source.tertullian-apologeticus) as an out-of-window,
     out-of-region witness with a stated use discipline. Provisional: the assignment records
-    that existing use; Mark may prefer pahc to reach it through tertullian-s-voice instead.
+    that existing use; Mark may prefer pahc to reach it through latin-apologists instead
+    (the id tertullian-s-voice itself pointed to is retired, merged into latin-apologists,
+    2026-09-10).
 
     '
 - work: On Idolatry
   author: tertullian
   locus: div2 4.4 under div1 'Apologetic.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Practical treatise on Christians amid pagan civic life, Carthage.
@@ -56,7 +60,7 @@ assignments:
   author: tertullian
   locus: div2 4.5 under div1 'Apologetic.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Companion piece to On Idolatry on the games and theatre.
@@ -66,7 +70,7 @@ assignments:
   author: tertullian
   locus: div2 4.6 under div1 'Apologetic.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'On the soldier''s crown and military service; within the entry''s window.
@@ -76,7 +80,7 @@ assignments:
   author: tertullian
   locus: div2 4.7 under div1 'Apologetic.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Open letter to the proconsul of Africa, 212.
@@ -86,7 +90,7 @@ assignments:
   author: tertullian
   locus: div2 4.8 under div1 'Apologetic.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Earlier draft-sibling of the Apology, addressed to the pagan nations.
@@ -96,7 +100,7 @@ assignments:
   author: tertullian
   locus: div2 4.9 under div1 'Apologetic.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Adversus Judaeos literature aimed at Jews, not Jewish Christians - so no ebionite-nazoraean-current
@@ -107,7 +111,7 @@ assignments:
   author: tertullian
   locus: div2 4.10 under div1 'Apologetic.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Short apologetic argument from the soul''s spontaneous speech.
@@ -117,7 +121,7 @@ assignments:
   author: tertullian
   locus: div2 4.11 under div1 'Apologetic.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'His longest philosophical work, against the philosophers and gnostic psychologies.
@@ -127,7 +131,7 @@ assignments:
   author: tertullian
   locus: div2 5.3 under div1 'Anti-Marcion.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'The rule-of-faith argument against heresy as such. Its heresiological face is carried
@@ -152,7 +156,7 @@ assignments:
   author: tertullian
   locus: div2 5.4 under div1 'Anti-Marcion.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'His largest surviving work, 187k words here. The anti-Marcionite face is a separate
@@ -188,7 +192,7 @@ assignments:
   author: tertullian
   locus: div2 5.5 under div1 'Anti-Marcion.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Against Hermogenes'' doctrine of eternal matter. Hermogenes was a Carthaginian painter-philosopher,
@@ -200,7 +204,7 @@ assignments:
   author: tertullian
   locus: div2 5.6 under div1 'Anti-Marcion.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Satirical exposure of the Valentinian system, largely following Irenaeus. Context
@@ -222,7 +226,7 @@ assignments:
   author: tertullian
   locus: div2 5.7 under div1 'Anti-Marcion.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Defense of Christ''s real flesh against docetic readings.
@@ -245,7 +249,7 @@ assignments:
   author: tertullian
   locus: div2 5.8 under div1 'Anti-Marcion.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Companion to On the Flesh of Christ against gnostic denial of bodily resurrection;
@@ -256,7 +260,7 @@ assignments:
   author: tertullian
   locus: div2 5.9 under div1 'Anti-Marcion.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'The trinitarian treatise against Praxeas'' monarchianism. The census has no entry
@@ -294,7 +298,7 @@ assignments:
   author: tertullian
   locus: div2 5.10 under div1 'Anti-Marcion.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: '"Antidote for the scorpion''s sting" - against gnostic evasion of martyrdom.
@@ -347,7 +351,7 @@ assignments:
   author: tertullian
   locus: div2 6.2 under div1 'Ethical.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Pre-Montanist treatise on penitence and the second repentance.
@@ -357,7 +361,7 @@ assignments:
   author: tertullian
   locus: div2 6.3 under div1 'Ethical.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'The earliest surviving treatise devoted to baptism.
@@ -367,7 +371,7 @@ assignments:
   author: tertullian
   locus: div2 6.4 under div1 'Ethical.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Exposition of the Lord''s Prayer and prayer practice.
@@ -377,7 +381,7 @@ assignments:
   author: tertullian
   locus: div2 6.5 under div1 'Ethical.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Exhortation to imprisoned confessors, Carthage, c. 197.
@@ -387,25 +391,28 @@ assignments:
   author: passion_of_perpetua
   locus: div2 6.6 under div1 'Ethical.' (printed as an Appendix)
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
-  note: 'Carthage, 203 - inside tertullian-s-voice''s window and city, transmitted with his
+  note: 'Carthage, 203 - inside this candidate''s own window and city, transmitted with his
     corpus, and the volume''s editor thinks him its editor but not author. Its New Prophecy
     affinities are long argued. Best guesses only: a first-person martyr diary by a woman
     is precious enough that where it lives should be Mark''s call, not a worker''s. RULED
-    BY MARK, 2026-08-26: tertullian-s-voice. The two ids were offered as alternatives - Carthage
-    203, inside that entry''s window and city, transmitted with Tertullian''s corpus and edited
-    by him on the volume''s own reading, against the long-argued New Prophecy affinities -
-    and the ruling picked one, so the montanism-the-new-prophecy guess is dropped rather than
-    left standing as a second best-guess Mark did not choose. Restoring it is one id if he
-    wants both: the affinity claim is real scholarship, not a shelving convenience, and nothing
-    in this note argues against it.'
+    BY MARK, 2026-08-26: tertullian-s-voice (Carthage 203, inside that entry''s window and
+    city, transmitted with Tertullian''s corpus and edited by him on the volume''s own reading,
+    against the long-argued New Prophecy affinities) over montanism-the-new-prophecy, so the
+    latter guess was dropped rather than left standing as a second best-guess Mark did not
+    choose. Restoring it is one id if he wants both: the affinity claim is real scholarship,
+    not a shelving convenience, and nothing in this note argues against it. SUPERSEDED IN PART
+    BY MARK''S FURTHER RULING, 2026-09-10: tertullian-s-voice itself (I.17) is merged into
+    latin-apologists (I.43), so the 2026-08-26 ruling now resolves here rather than to a
+    separate entry - the choice it made (Carthage/Tertullian''s corpus over the New Prophecy
+    guess) is unaffected and still stands.'
 - work: On Patience
   author: tertullian
   locus: div2 6.7 under div1 'Ethical.'
   atlas_ids:
-  - tertullian-s-voice
+  - latin-apologists
   role: tradition
   confidence: assigned
   note: 'Moral treatise; closes the Ethical part.
