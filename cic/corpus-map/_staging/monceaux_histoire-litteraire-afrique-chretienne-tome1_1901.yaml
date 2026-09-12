@@ -1,0 +1,16 @@
+source_file: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt
+
+assignments:
+  - work: "Histoire litteraire de l'Afrique chretienne, Tome Premier: Tertullien et les origines"
+    author: monceaux
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Modern (1901) French literary-historical scholarship -- role
+      context, not tradition. Closes one-third of Source_Acquisition_Manifest G5.
+      Consultation-only per cic/texts/INTAKE.md; covers Tertullian and the origins
+      of African Christian literature, background to this world's own Cyprian
+      phase rather than this world's own voice.

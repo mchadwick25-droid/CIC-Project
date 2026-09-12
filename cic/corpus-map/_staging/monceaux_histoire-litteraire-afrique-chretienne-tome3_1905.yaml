@@ -1,0 +1,15 @@
+source_file: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
+
+assignments:
+  - work: "Histoire litteraire de l'Afrique chretienne, Tome Troisieme: Le IVe siecle, d'Arnobe a Victorin"
+    author: monceaux
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Modern (1905) French literary-historical scholarship -- role
+      context, not tradition. Closes the final third of Source_Acquisition_Manifest
+      G5. Consultation-only per cic/texts/INTAKE.md; covers fourth-century African
+      literature outside this world's own core Cyprian/Augustine focus.

@@ -1,0 +1,15 @@
+source_file: augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt
+
+assignments:
+  - work: "Augustine's City of God, Books I-XIII (Hoffmann's critical edition, CSEL 40 Pars I)"
+    author: augustine
+    locus: "whole file, Libri I-XIII"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin critical-text original standing behind the already-vendored
+      NPNF1-02 English translation of City of God (Registry row 24). Companion
+      file: augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt (Books
+      XIV-XXII). Vendored 2026-09-08; not a Manifest G-item.

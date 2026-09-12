@@ -1,0 +1,16 @@
+source_file: monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt
+
+assignments:
+  - work: "Histoire litteraire de l'Afrique chretienne, Tome Deuxieme: Saint Cyprien et son temps"
+    author: monceaux
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Modern (1902) French literary-historical scholarship -- role
+      context, not tradition. The volume this world's own G5 request names as
+      most directly relevant, bearing directly on the Cyprian phase. Closes
+      another third of Source_Acquisition_Manifest G5. Consultation-only per
+      cic/texts/INTAKE.md.
