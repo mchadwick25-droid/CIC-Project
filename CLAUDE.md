@@ -79,6 +79,23 @@ Anything for Mark to review or approve — options to choose between, a draft to
 
 **Implementation is a different mode — auto mode.** Once something has genuinely converged — a decision just reached together, or an already-negotiated framework like the build-cycle's own self-governance under "Scaling the build" below — execute it without asking permission step by step; don't make Mark push buttons one at a time. A converged plan isn't a license to drift from it, though: once something is frozen or otherwise settled, a real change to it is a **change order** — named and reasoned, the way Website V2's own post-freeze changes were — never a quiet edit that erodes what was actually agreed. Drop out of auto mode back to divergent/groan/convergent only for a real decision that wasn't already made, a need for direction, or a need for clarification. Everything else inside a converged plan, just do.
 
+### Convergence signal and default actions
+
+**The literal trigger.** "Converged, auto mode" — or an unambiguous equivalent Mark states directly — means the decision is final. A thread that hears it executes the full scope without re-asking. Absent that phrase, keep checking. This doesn't replace divergent/groan-zone/convergent above; it's the signal that closes it.
+
+**Default actions**, so a thread checks this instead of guessing under uncertainty:
+
+| Action | Default |
+|---|---|
+| CI/infra mechanical fix (config, workflow YAML, build script) | Just do it |
+| Package rebuild after a `records/` edit | Just do it |
+| Doc-hygiene fix on content that isn't your own thread's | Flag it, don't touch it |
+| Representative identity, title, or voice decision | Always ask |
+| Cross-world or portfolio-level decision | Always ask |
+| Governance or methodology change | Always ask |
+
+Starts here, grows only when a real new case shows up — not speculatively.
+
 ## Scaling the build — many worlds, mostly autonomous
 
 The build-cycle discipline already self-governs: escalation is limited to four categories (Representative identity/title decisions, portfolio-level/cross-world decisions, governance/methodology changes, and unresolved tensions the pipeline can't close on its own) plus never self-assigning Frozen status. Use that as designed, instead of re-approving every document by hand:
