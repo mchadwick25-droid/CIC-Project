@@ -231,12 +231,12 @@ worlds:
     package:
       manifest_hash: "sha256:9a1dd6d23305d2fc3790ae3bc7e9cfac7ccd640536c44a26049a5617b14f2632"
       location: "packages/gallic/2026-09-12T23-30-51Z"
-    # G4 (Constitution Article 29 living-tradition determination) is NOT yet
-    # confirmed for this world - gallic_Representative_Construction_Notes_Renatus.md's
-    # own "Living Tradition Status Confirmation" section is logged PENDING,
-    # outstanding project-lead confirmation. living_tradition_flag here is
-    # the plain factual data point (this world's monastic tradition
-    # genuinely continues in living communities today), not a claim that
-    # the Article 29 divergence-comparison record is confirmed. This
-    # Representative is not freeze-eligible (G5) until that confirmation
-    # happens - a real stop, separate from this B-8 registration/compile.
+    # G4 (Constitution Article 29 living-tradition determination): CONFIRMED,
+    # 2026-09-12 - Mark's own word, "Confirm as drafted," recorded in
+    # gallic_Representative_Construction_Notes_Renatus.md Section 6 and its
+    # Document Log. This Representative is now freeze-eligible on the
+    # Article 29 gate. living_tradition_flag here is the plain factual data
+    # point (this world's monastic tradition genuinely continues in living
+    # communities today) that the now-confirmed determination itself relies
+    # on. The world remains not freeze-eligible (G5) for the separate,
+    # unrelated reason that M3 sealed-probe admission has not yet run.
