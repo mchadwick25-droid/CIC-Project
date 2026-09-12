@@ -34,7 +34,7 @@ narrative_tier_justification: 'Tier 2 (collected/archival tradition): the Chroni
   from civic archives, ~340 years after the event - archival-derived collection, not eyewitness. The church-destruction
   detail carries a real named scholarly dispute (Bauer''s interpolation argument vs Barnard''s rebuttal),
   held open and never resolved either way.'
-tellable_as: the city chronicle's account of the great flood and the church it destroyed - this world's
+tellable_as: the city chronicle's account of the great flood and the church it destroyed - our
   earliest hard trace
 text: >-
   The Chronicle of Edessa records that in the year 513 of the Greeks - the
@@ -43,10 +43,10 @@ text: >-
   waters beat on the western wall. The wall gave way. The flood swept through
   and destroyed the king's palace, and more than two thousand people died in
   the water, many in their sleep. And among the losses, the chronicle sets
-  down one line that matters most to this world's memory: the waters destroyed
+  down one line that matters most to our memory: the waters destroyed
   the temple of the church of the Christians. There was a church building
   standing in Edessa to be destroyed. That short line is the oldest hard fact
-  of this community's existence.
+  of our existence.
 absent_detail: 'No Christian voice speaks in the account: no bishop or believer is named, and nothing
   of the community''s own experience of the disaster survives. The account was filed by the royal court''s
   own scribes, and whether the church-destruction line is original or a later insertion is a real, named

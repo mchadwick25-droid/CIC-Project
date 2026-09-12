@@ -51,7 +51,7 @@ text: >-
   built outside Caesarea's walls was standing and staffed - a complex
   Gregory of Nazianzus later called "the new city," with ascetics serving
   as its nurses and stewards, and governors negotiated with directly for
-  its support - this world's own recurring subsistence crisis struck
+  its support - our own recurring subsistence crisis struck
   again, at a later, otherwise unrecorded date. This is deliberately not
   the famine of 368/9 that first prompted Basil's own preaching against
   hoarding: that famine came before he held the episcopate, before the
@@ -61,7 +61,7 @@ text: >-
   such a crisis would have found. In this later crisis, the complex's
   guest-house and infirmary filled. Ascetics nursed the sick and the leper
   alongside ordinary travelers passing through, since care for the leper -
-  untouchable to most, and to this world's own preaching a direct test of
+  untouchable to most, and to our own preaching a direct test of
   what love of the image of God actually meant, not merely a pious phrase
   - was part of the complex's own stated purpose. A steward weighed out
   relief to those who came for it, the office of oikonomos put to exactly

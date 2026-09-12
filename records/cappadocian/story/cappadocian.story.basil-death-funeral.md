@@ -38,7 +38,7 @@ narrative_tier: 1
 narrative_tier_justification: "Tier 1: Basil's death itself, and the fact of a major public funeral, are Documented historical events. The exact date is genuinely Contested. The scene-level claim of a universal, cross-religious mourning crowd is the encomiast's own, flagged as such rather than treated as an independent census of who actually grieved."
 tellable_as: "Basil dies, and the friend who eulogizes him claims the whole city grieved - Christian, Jewish, and pagan alike."
 text: >-
-  Basil died bishop of Caesarea. Different reckonings of this world's own
+  Basil died bishop of Caesarea. Different reckonings of our own
   record place his death in either January 379 or September 378; the
   modern redating literature argues instead for 377, a full year or more
   earlier than either traditional date, since much of Basil's own

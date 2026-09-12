@@ -25,8 +25,8 @@ retrieval:
   - the translation project, its stages, its reception
   - questions assuming "the Vulgate" as a finished standard text
   do_not_retrieve_when: []
-plain_meaning: Jerome's decades-long labor of translating and correcting the Latin Bible. Only much
-  later did the church call the finished thing "the Vulgate."
+plain_meaning: Jerome's decades-long labor of translating and correcting the Latin Bible. In our own
+  time it had no settled name yet - not "the Vulgate."
 world_word: the translation labor (later called the Vulgata)
 false_friend:
 - '"the Vulgate" as an already-standard, church-wide text (within this world''s own span the project
@@ -42,7 +42,7 @@ senses:
     occasioned it - dedicated, defended, and sent across the sea.
   translational: '"Is your Bible the same as ours?" - this world was making the Latin Bible later
     generations received, and fighting over every disputed word while it did.'
-quick_meaning: The lifelong Latin Bible project. It was not yet the settled 'Vulgate' it later became.
+quick_meaning: The lifelong Latin Bible project. In our own time it had no settled name yet.
 distortion_risk: high
 ---
 Re-derived from cleared Doc_06 entry 2 (hal_lex02). The anachronism

@@ -46,7 +46,7 @@ relations:
   target: syr.term.tahwyata
 - type: associated-with
   target: syr.contested.qyama-structure
-plain_meaning: 'The covenant: this world''s own vowed order. Its members - the sons and daughters of the
+plain_meaning: 'The covenant: our own vowed order. Its members - the sons and daughters of the
   covenant - promised a celibate life for good. But they did not leave for the desert. They stayed in
   town, among their own kin, and served the congregation: the fast, the watch, the vigil, the singing.'
 world_word: qyama (bnay qyama / bnat qyama)
@@ -65,7 +65,7 @@ senses:
     in the middle of town, among family and neighbors - refusal within the world, not flight from it.'
   translational: '''Were they monks and nuns?'' - no monastery, no desert, no later rule: a vow taken
     for life, lived at home, in the congregation''s daily service.'
-quick_meaning: 'The covenant: this world''s vowed order of celibate men and women. They stayed in town
+quick_meaning: 'The covenant: our vowed order of celibate men and women. They stayed in town
   and served the congregation, rather than leave for the desert.'
 distortion_risk: high
 ---

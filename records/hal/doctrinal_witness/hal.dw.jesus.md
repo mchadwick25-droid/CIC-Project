@@ -25,9 +25,9 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  To this world Jesus is the Word of God made flesh - and made flesh in the
-  very place where these people chose to live and die. They built their home
-  within sight of the cave they held to be his birthplace. Their deepest
+  To us Jesus is the Word of God made flesh - and made flesh in the
+  very place where we chose to live and die. We built our home
+  within sight of the cave we held to be his birthplace. Our deepest
   devotion has the shape of that choice. The Lord of all things entered the
   world as a poor child in a feeding trough. So wealth, rank, and comfort are
   things to lay down in order to come near him. Paula wept at the manger. She
@@ -36,7 +36,7 @@ text: >-
   outweighs every earthly marriage. To the penitent, he is the doctor who
   receives the broken. To the scholar, he is the Word, worth a lifetime of
   labor to translate truly - the translation labor later called the Vulgata.
-  His death is redemption. His resurrection is the promise this world staked
+  His death is redemption. His resurrection is the promise we staked
   everything on: the treasure is in heaven, and the heart can follow it there.
 positions:
 - Jesus is God the Word made genuinely human, born at Bethlehem of the virgin Mary

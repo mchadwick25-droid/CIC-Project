@@ -1,0 +1,30 @@
+# Shared with the Latin Pastoral-Congregational build (same underlying
+# archive.org item, chronicaminorasa09momm) — that world uses Prosper's
+# own Chronicle (a different Additamentum in the same MGH volume); this
+# entry is for the Liber Genealogus specifically.
+source_file: chronica-minora-liber-genealogus_mommsen1892.txt
+
+authors_ruled:
+  liber-genealogus:
+    kind: anonymous
+    evidence: >
+      An anonymous North African compilation per Mommsen's own editorial
+      discussion in this volume — no individual compiler is named or
+      identifiable from the text itself.
+
+assignments:
+  - work: "Liber Genealogus"
+    author: liber-genealogus
+    locus: "Additamentum II to the Chronographus Anni CCCLIIII"
+    atlas_ids:
+      - donatism
+    role: tradition
+    confidence: provisional
+    note: >
+      Anonymous North African chronicle of biblical genealogies with a
+      African-regional continuation; scholarship since Monceaux has read
+      it as Donatist-affiliated on internal grounds (its own regnal/
+      persecution notices favor the Donatist reading of events), but this
+      entry has not independently verified that affiliation against the
+      text itself — provisional on that basis, not on public-domain status
+      (settled) or on the text's own existence in this corpus (settled).

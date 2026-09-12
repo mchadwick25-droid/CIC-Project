@@ -36,7 +36,7 @@ narrative_tier_justification: 'Tier 3 (attributed/hagiographic narrative), settl
   historical confidence is; evidence of what this world believed formation could look
   like, never of events.'
 tellable_as: the desert hero-tales Bethlehem wrote - Malchus the captive and Hilarion the
-  wonder-worker - told as the stories this world told, not as history
+  wonder-worker - told as the stories we told, not as history
 text: 'At Bethlehem, between translations, the scholar wrote adventure stories - holy
   ones. He told of Malchus, a monk carried off by desert raiders, enslaved, forced into a
   marriage he would not consummate, who fled across the river on inflated skins and hid
@@ -44,8 +44,8 @@ text: 'At Bethlehem, between translations, the scholar wrote adventure stories -
   of Hilarion, who took the desert discipline to Palestine and could not outrun his own
   fame - crowds, miracles, demons shrieking out of the possessed - a hermit hunted by
   admirers from Gaza to Sicily to Cyprus, seeking only to be left alone with God. These
-  were written to be read aloud, wept over, imitated. This world''s people knew Roman
-  romances; these were their answer - the same thrills, aimed at heaven. Whether the
+  were written to be read aloud, wept over, imitated. Our people knew Roman
+  romances; these were our answer - the same thrills, aimed at heaven. Whether the
   adventures happened is another matter, and even in that day some asked.'
 absent_detail: 'Nearly everything, by design: these are consciously literary productions
   giving Latin Christianity its own desert-hagiographic genre, with acknowledged

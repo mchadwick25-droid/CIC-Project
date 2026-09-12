@@ -1,11 +1,10 @@
 """Hermetic (no live model call) tests for engine.m4.turn.run_turn's
 dispatch: does the right routing action reach the right generation path,
-and - the one that matters most - does a GENUINELY empty stream (a fake
-client returning zero text_stream chunks, not the force_empty_stream test
-hook) still produce a crisis-resources append. force_empty_stream exists
-for evidence scripts where forcing it is cheaper than trying to provoke a
-real model into silence; this file proves the real code path handles a
-real empty stream identically, via the fake client's stream_chunks=().
+and - the one that matters most - that the ACUTE_DISTRESS crisis path
+never calls the voice at all (portfolio decision 2026-09-08,
+CiC_System_Hub_Decision_Log.md), and its crisis-resources append fires
+unconditionally regardless of what the fake client is configured to
+stream.
 """
 from types import SimpleNamespace
 
@@ -85,7 +84,14 @@ def _world():
     )
 
 
-def test_acute_distress_with_real_stream_text_appends_resources_not_empty():
+def test_acute_distress_never_calls_the_voice_even_when_a_stream_is_configured():
+    """Portfolio decision 2026-09-08 (CiC_System_Hub_Decision_Log.md):
+    the Representative never steps out of its world once ACUTE_DISTRESS
+    fires - not "speaks alongside the Facilitator" (the prior behavior),
+    strict decoupling, matching engine.m4.round's own table-crisis branch
+    (Artifact-7 SS2). The fake client is configured to stream real text
+    precisely so this proves the voice is never even called, not merely
+    that its output is discarded."""
     client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS", acute_level="a1"), reader_response=_reader(), stream_chunks=["I hear you. ", "That sounds heavy."])
     result = run_turn(
         session_id="test-session",
@@ -94,16 +100,18 @@ def test_acute_distress_with_real_stream_text_appends_resources_not_empty():
     )
     assert result.routing_action == "safety_turn"
     assert result.facilitator_events[0]["resources_appended"] is True
-    assert result.facilitator_events[0]["empty_stream"] is False
+    assert result.facilitator_events[0]["empty_stream"] is True
     assert "not Vera" in result.facilitator_events[0]["text"]  # names the Representative from world.frame, not a placeholder
-    assert result.voice_event is not None
-    assert result.voice_event["text"] == "I hear you. That sounds heavy."
+    assert result.voice_event is None
+    assert client.messages.captured_stream_calls == []  # no Sonnet call spent on a crisis turn at all
 
 
 def test_acute_distress_with_genuinely_empty_stream_still_appends_resources():
-    """The real code path, not the force_empty_stream hook: the fake
-    client's stream yields zero chunks, exactly like a real model call that
-    completes but produces no tokens."""
+    """A pre-fix regression guard, kept in its genuinely-empty-stream shape:
+    whatever the fake client is configured to produce, the crisis path
+    never touches it - the append is unconditioned on the stream, exactly
+    as crisis_resources.append_crisis_resources_turn's own docstring
+    requires."""
     client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS", acute_level="a1"), reader_response=_reader(), stream_chunks=[])
     result = run_turn(
         session_id="test-session",
@@ -113,18 +121,6 @@ def test_acute_distress_with_genuinely_empty_stream_still_appends_resources():
     assert result.facilitator_events[0]["resources_appended"] is True
     assert result.facilitator_events[0]["empty_stream"] is True
     assert result.voice_event is None  # nothing worth showing as a voice turn - the append still happened
-
-
-def test_force_empty_stream_hook_matches_the_real_empty_case():
-    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS", acute_level="a1"), reader_response=_reader(), stream_chunks=["would never be seen"])
-    result = run_turn(
-        session_id="test-session",
-        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
-        world=_world(), participant_message="msg", pressed={}, anachronistic_term_ids=set(), force_empty_stream=True,
-    )
-    assert result.facilitator_events[0]["resources_appended"] is True
-    assert result.facilitator_events[0]["empty_stream"] is True
-    assert result.voice_event is None
 
 
 def test_acute_distress_a2_escalation_gets_the_more_direct_script():
@@ -241,7 +237,8 @@ def test_every_real_call_this_turn_makes_is_attributed_to_the_session():
 def test_crisis_turn_usage_records_are_also_attributed():
     client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS"), reader_response=_reader(), stream_chunks=["I hear you."])
     result = run_turn(session_id="crisis-session-1", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="I don't want to be here anymore.", pressed={}, anachronistic_term_ids=set())
-    assert len(result.usage_records) == 3  # safety, reader, voice_generation_crisis - no citations call on the crisis path
+    assert len(result.usage_records) == 2  # safety, reader - no voice call at all on the crisis path
+    assert {r.call_kind for r in result.usage_records} == {"safety_call", "reader_call"}
     assert all(r.session_id == "crisis-session-1" for r in result.usage_records)
 
 
@@ -746,20 +743,17 @@ def test_already_bridged_figure_ids_suppresses_a_repeat_within_run_turn():
     assert result.voice_event["figures_used"] == []
 
 
-def test_crisis_path_voice_event_still_carries_the_required_figures_used_key():
-    """The crisis-turn voice_event is hand-built, not run through
-    find_figures_used (no detection on that path, by design) - but the
-    key still has to exist, or events.validate rejects the payload now
-    that voice_turn requires it."""
+def test_crisis_path_never_produces_a_voice_event_even_with_a_figure_in_scope():
+    """Superseded by the portfolio decision (2026-09-08): the crisis path
+    used to hand-build a voice_event and this test guarded its shape
+    (figures_used present but empty, since find_figures_used never runs on
+    that path). Now there is no voice_event on the crisis path at all."""
     client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS", acute_level="a1"), reader_response=_reader(), stream_chunks=["I hear you. ", "That sounds heavy."])
     result = run_turn(
         session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
         world=_world_with_figure(), participant_message="I don't want to be here anymore.", pressed={}, anachronistic_term_ids=set(),
     )
-    from engine.m4 import events
-
-    events.validate("voice_turn", result.voice_event)
-    assert result.voice_event["figures_used"] == []
+    assert result.voice_event is None
 
 
 def _world_with_term():

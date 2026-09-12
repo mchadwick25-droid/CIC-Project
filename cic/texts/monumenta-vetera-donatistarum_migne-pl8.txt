@@ -1,0 +1,2610 @@
+     __________________________________________________________________
+
+           Title: Patrologiae Cursus Completus, Series Latina
+                  (Migne), Vol. 8 -- EXCERPT ONLY: Mabillon's
+                  "Monumenta Vetera ad Donatistarum Historiam
+                  Pertinentia" (three items, in sequence):
+                    1. Sermo Donatistae cujusdam de vexatione
+                       Donatistarum temporibus Leontii et Ursatii
+                       (manuscript title: "De passione sanctorum
+                       Donati et Advocati") -- a DONATIST-AUTHORED
+                       primary voice, per Mabillon's own dating
+                       analysis (reproduced here) c. 340 CE
+                    2. Passio Benedicti Martyris Marculi (348 CE)
+                    3. Passio SS. Martyrum Isaac et Maximiani (348
+                       CE), with the appended epistle of the martyr
+                       Macrobius to the church at Carthage
+      Creator(s): Anonymous Donatist author (item 1); anonymous
+                  Donatist hagiographer(s) (items 2-3)
+                  Jean Mabillon (17th-c. editor/annotator, whose own
+                  Analecta introduction and notes are reproduced
+                  alongside the texts)
+                  J.-P. Migne (compiler of the printed volume)
+     Print Basis: Patrologiae Cursus Completus, Series Latina, Vol. 8
+                  (Paris: J.-P. Migne / Vrayet de Surcy, compiled
+                  1844). This volume's own title page reads "TOMUS
+                  VI" where the archive.org item and this world-
+                  build's Source_Acquisition_Manifest.md both cite
+                  it as "vol. 8" -- not reconciled here (likely an
+                  OCR-dropped numeral, "VIII" misread as "VI", or a
+                  reissue's differing tome/volume labeling); content
+                  identity (the two specifically-targeted texts, both
+                  present and correctly headed) is the basis for
+                  treating this as the right volume, not the printed
+                  numeral alone.
+          Rights: Public Domain
+        Language: lat
+    Rights basis: 1844 compilation date places this volume enormously
+                  out of copyright, consistent with how this entire
+                  19th-century reference series is treated throughout
+                  this project's vendored corpus.
+Source Collection: Internet Archive / Google Books scan, item
+                  patrologiae_cursus_completus_lat_vol_008. Supplied
+                  2026-09-01 as a DOCX file attachment (the full
+                  volume, ~4.3M characters), converted mechanically
+                  via a zip/XML text extraction (paragraph boundaries
+                  preserved from </w:p> splits) - no content passed
+                  through model-generated output.
+   EXCERPT NOTE: Only the "Monumenta Vetera" block above was vendored,
+                  not the full volume (which covers unrelated material
+                  -- Constantine, Nazarius, several early popes,
+                  Hosius of Cordoba, Victorinus, Candidus the Arian,
+                  Liberius, Potamius -- across roughly 30x the length
+                  of this excerpt). The boundary was drawn at the
+                  volume's own editorial headings: this excerpt opens
+                  at the "ANNO DOMINI 340." heading (immediately after
+                  an unrelated cross-reference note) and closes at
+                  "Deo gratias, amen." (immediately before an
+                  unrelated new work, "ANNO DOMINI 333. ANONYMI
+                  ITINERARIUM..." begins) -- both are the volume's own
+                  dated section markers, not a boundary chosen by
+                  content judgment. This project's Source_Acquisition_
+                  Manifest.md §1 (G4) specifically requested items 2
+                  and 3 above (Registry rows 19-20); item 1 (the
+                  Donatist-authored sermon) is an incidental find in
+                  the same contiguous block, not part of the original
+                  request -- flagged in Source_Registry.md as a new
+                  row requiring its own future evaluation, not yet
+                  analyzed against Doc_02's Formation Narrative or
+                  Source Asymmetries sections.
+     Columns: The Manifest's own prior research (via WebSearch, not
+                  confirmed from this file directly) placed the Passio
+                  Marculi specifically at PL 8, columns 760-766; no
+                  inline Migne column-number marker was found in this
+                  OCR to independently confirm that number from the
+                  file itself -- treat the column citation as carried
+                  over from that prior research, not re-verified here.
+     OCR quality: Raw, uncorrected OCR of a dense Latin patristic
+                  reference text with frequent apparatus/footnote
+                  material and a two-column page layout typical of
+                  Migne's series. Expect the same range of OCR
+                  artifacts as elsewhere in this corpus (letter
+                  substitution, garbled proper nouns, interleaved
+                  footnote text). Treat any specific quotation pulled
+                  from this file as needing visual cross-check against
+                  its own surrounding context before being relied on
+                  for a verbatim claim.
+     __________________________________________________________________
+
+ANNO DOMINI 340. 
+DONATISTJE CUJUSDAM SERMO 
+
+
+DE VEXATIONE DOXATISTARUM TEMPORIBUS LEONTII 
+ET URSATII. 
+
+
+Nunc primum editus ez Codice ms. Bibliotheca Illus- 
+tris. el Reverend. episcopi Catalaunensis, quingento- 
+rum circiter aunorum, opus vetusti admodum auc- 
+
+
+toris. 
+IN REQUENTEM SERMONEM ADMONITIO. 
+Eti subsequens instrumentum, quod nondum cdi- 
+
+
+(!) Die 40 novem. anni 316. 
+
+
+154 
+
+
+MONUMENTA VETERA 
+
+
+δὲ 
+
+
+tum fuerat, non paucas iu Catholicos calumnias con- Α christinianitas late vexata . sacra stuprata. virginitas, 
+
+
+tineat, haud debuit tamen a nobis omitti; cum magnam 
+lucem tum Optati dictis, tum Donatistarum bistoriz 
+sfferat. Sermo est habitus 4 Idus Martii in solemni 
+et anniversaria commemoratione quorumdam Dona- 
+türtarum qui apud suos pro martyribus babebantur. 
+Inscribitur in manuscripto : De passione sanctorum 
+Donati εἰ Advocati. At in ipso sermone neutrius no- 
+men habetur : fit tantuin ibi mentio Ilonorati episcopi 
+Scilibensis aut potius Sicilibensis in provincia pro- 
+consulari , qui ex Abvocatensi oppido Carthaginem 
+venerat. Unde non Donati, neque Advocati, sed Ho- 
+norati potius Passio dici deberet. Describitur autem 
+illic militaris executio adversus aliquot Donatisias 
+Carthagini gesta : in qua erepta est eis basilica. De 
+
+
+proséripli dicites, spoliati pauperes, ablate basilice, 
+aique acti in fugam profugi sacerdotes, quibus consi- 
+miles sunt eze calumuice que in praesenti recitantur 
+iustrumento. De Marcellino irihuno in Africa nibil 
+babemus : nam is profecto diversus est ab eo qui col- 
+lationi Carthaginensi przfuit. Constat euim hæc con. 
+üjgisse Constantis imperatoris tempore, ctiam ante- 
+quam Paulua et Macarius in A(ricam mitterentur. 
+
+
+Quippe in omnibus locis modo citatis Leontius et 
+
+
+Ursatius Macario οἱ Paulo ac Taurino przmittuntur: 
+et aperte Optatus Ursatium aliis priorem fuisse osten- 
+dit : Leontium vero qui semper Macario praeponitur, 
+ejusdem aatis cum Ursatio fuisse constat ex præ- 
+senti instrumento, in quo eodem tempore Leontius 
+
+
+tempore nihil constat ; nisi quod dicitur ibi, Ceciliano B comes, et Ursatius dux faisse perhibentur. Ursatium 
+
+
+Kudinepiso (tnc instante res gesta, assentiente Leontio, 
+
+
+Duce Ursatio, Marcellino iunc. Tribuno. Ccilianus . 
+
+
+Eudinepisus pon alius est a Carthaginensi Episcopo. 
+Nam et postea persecutio ista vocatur Cxcilianensis, 
+erectique dicuntur in memoriam martyrum tituli, ne 
+alios quandoque postmodum episcopatus nomine gesta 
+rei expertes deceperit parricida. Quibus verbis Cæci- 
+Iianum Carthaginensem designari perspieuum est. 
+Cum ergo is Sardicensis concilii tempore, hoc est 
+anno 347, e vivis sublatus fuerit, et Gratus cjus suc- 
+cessor huic Concilio interfuerit, necesse cst ea quæ 
+hic narrantur, ante huuc annum contigisse. Leontii 
+et Ursatii velut operariorum unitatis in Donatistas 
+sxvientium non uno in loco fit mentio. Apud Optatum 
+
+
+autem jam a temporibus Silvani Cirtensis et Zeno- 
+phili pro Catholica pugnasse constat. Qui Zenophilus, 
+anno $20, de causa Silvani cognovit, ut constat ex 
+actis supra rolatis, Videntur itaque, qua hic refe- 
+runtur contigisse circa annum $40, aut paulo post, 
+certe antequam Macarius mitterctur in Africam circa 
+annum 348. Donatus autem ille, cujus fit mentio in 
+tulo, videtur esse idem cum Donato Bagaiensi qui 
+cum Mareulo passus est; de quo Optatus lib. ni, $ 4, 
+p. 65, cnjus etiam imontio fit martyrologio in Usuardi 
+nd díem 4 Martii, ubi dicitnr passus sub Ursatio duco 
+€t Marcellino tribuno, quod cum actis nostris con- 
+Cinit. Sed Donatus ille ex Augustino, Homilia x1 in 
+Joannem, in puteum missus dicitur, quod nulli e 
+
+
+nostrum libro m £. 4, p. 5U et 51: Ab operariis wuni- C martyribuscujus fit hic mentio, convenire potest : eum 
+
+
+latis multa quidem aspere gesta. sunt, sed. ea quid im- 
+putatis Leoniio, Macario, vel Taurino? et eodem in 
+libro αὶ x, p. 66 et 67 : Displicent vobis tempora, nes- 
+cio cujus, Leontii, Ursatii, Macarii el ceeterorum..... 
+Fuit yrimo tempestas aub Ursatio..... secuta est plusia 
+sub Gregorio... post. pluviam secuti sunt lapides sub 
+Operariis unitatis, Cresconius apud Augustinum dicit 
+Silvanum Cirtensem communicare noluisse Ursaiio 
+et Zenophilo perscquentibus, et ideo actum esse in 
+exilium. Petilianus quoque Donatista commeinorans 
+eos comites qui Donatistis iafensi fuerant, Ursatium 
+inter eos commemorat: Periit, inquit, Macarius : 
+periit Ursatius, cunctique. comites vestri, Dei. pariter 
+vindicta perierun!, Ursaium. numque barbarica pugna 
+
+
+omnes in basilica a militibus cesi fuerint. Ergo alie- 
+nus est titulus ab ipso sermone, uti jam observatum 
+est. Ceterum opus istud est Afri cujusdam scriptoris 
+non infantis, et licet in Ecclesiam catliolicam egregie 
+maledici, attamen liaud indocti et imperiti : imo bomi- 
+nis cst in sacris litteris et in christian: doetrinæ prae- 
+ceptis non mediocriter versati, qui multa praeclara pro- 
+fert,utinam in meliori causa. Antiquum esse scriptorem 
+stylus aperte convincit, patetque, sermonem labitum 
+eo tempore quo Donatistarum secia vigebat in Africa. 
+Nomen scriptoris ignotum. 
+
+
+4. Idus Martii Serme de Passione SS. Donati et 
+Advocaii. 
+
+
+prostratum sevis unguibus alites, canumque avidi dentes D — 1. Si. manifesta persecutionum gesta non otiose 
+
+
+morsibus discerpserunt. In Actis Collationis Carthagi- 
+nensis diei $, cap. 258, refertur epistola Januariani 
+aliorumque episcoporum Donatistarum, in qua per- 
+secutores Donatistarum ita enumerant : Nam ut omit- 
+tamus quantus sanguis christianus effusus sit, per Leün- 
+tium, Ursatium ,| Macarium , Paulum , Tawrinum , 
+Romanum, ceterosque. execulores, quos in sanctorum 
+necem a principibus seculi meruerunt ; quaudo plurimi 
+venerabiles sacerdotes. occisi, alii in exilium relegati, 
+
+
+conscripta sint, nec inconsulte in honorem martyrum 
+et vdificationem credentium anniversaria solemnitate 
+leguntur : cur non magis subdolæ fraudes et blande 
+deceptionis insidi conscribantur pariter et legantur, 
+qua sub obtentu religionis animas fraudulenta cir- 
+Cumveiiione subvertunt. Magis enim necessaria in- 
+structio illic est , ubi professa hostilitas non est, quia 
+hostilis societas ad decipiendum facilis et proxima 
+est, el inimici, inquit, hominis domestici ejus (Math. x, 
+
+
+VALESII NOTAE. 
+
+
+[.— Subdola [raudes et blande deceptionis insidias. 
+Fatewr ergo hic roi ad persecutionem in Donatis- 
+tas uon fuisse similem persecutioni ethnicorum in 
+
+
+Christianos. Hujus acta manifesta esse dicit : illius 
+vero obscura et minus nola. De utriusque discrimine 
+
+
+lege Optatum lib. ui, $ 8, p. 64. 
+
+
+155 
+
+
+AD DONATISTARUM HISTORIAM PERTINENTIA, 
+
+
+754 
+
+
+56). Ideo alienum ab officio religionis et pictatis erit A visus. Imo securior modo cum qnasi episcopi vel 
+
+
+non solum martyrum glorias invida quodammodo ta- 
+Citurnitate comprimere , scd eo patrocinante silentio 
+deceptoria subtilitate celare quod salutare est. Quid 
+enim tam periculose tacetur a prudentibus, quam inu- 
+üiliter a simplicibus ignoratur.Quoniam quidem, ut fa- 
+€ile est, incautos appellatione nominis Christia fallaci- 
+bus decipi, ita necesse est fugere hoc nomen minisiros 
+Antichristi. Proditione ergo luporum latentium sub 
+vestitu ovium aut liberabuntur instructi, qui imperitia 
+fallebantur, sut contumaces vitio suo perient sine 
+culpa et periculo predicantium Christianorum ergo 
+€2usa repetendi qux gesta sunt, et utilitatis et justi- 
+tis plena sunt, quia fideles commemorando corrobo- 
+rantur, et rudes quosque ad tolerantiam tentationum 
+
+
+Christiani dicuntur, quam tunc cum nominis nega- 
+tione ruerunt : tantum inimicos habens ibi nomine 
+nuncupari suos, dummodo tali fraude tutius, ut jam 
+diximus, teneat, quos falsa appellatione ludificat : non 
+solum obleciansjnani gloria miseros, sed ct regali ami- 
+eitia muneribusque terrenis circumscribens avaros. 
+
+III. Tamen insatiabilis predo moleste ferens quod 
+non omnes bac arte possederit, subtilius argumentum 
+ad violandum fldei sinceritatem invenit salutis inimi- 
+cus. Christus, inquit, amator unitatis est, unitas igi - 
+tur fiat : ante plebem nimis sibi semper obsecutam, 
+ideoque ἃ Deo descriam, Catholicam vocans ut de 
+prajudicio nominis, qui communicare noluerunt, 
+heretici dicerentur. Mittit pecunias quibus vel fidem 
+
+
+instigant, et inimicos detegendo condemnant. Pr»- p caperet, vel professione legis.occasiouem faceret ava- 
+
+
+dicet ergo patientissimam filiorum suorum fldem pia 
+mater Ecclesia. Recognoscat et fructum operis sui 
+latronum crudelissimorum spelunca. Ergo jam ve- 
+niamus ad causas. 
+
+Il. Res apud Carthaginem gesta est Czeciliano Eu- 
+dinepiso tunc instante, assentiente Leontio comite, 
+duce Ursatio; Marcellino tunc tribuno, Diabolo tamen 
+omnium istorum consiliatore existente. Primo et. 
+enim ut inveterato draconi mos est insitus, quasi non 
+ipse jamdudum persecutione manifesta christiani no- 
+minis impugnator exstiterit, eos quos aperia perse- 
+eutione superare non potuit, callida fraude circeum- 
+venire molitus est, ut eo facilius deceptio proderet, 
+qno deceptionis auctor latuisset, Sed quibus przecepta 
+
+
+riti. Sed cum his omnibus illecebrantibus tenta- 
+mentis rigidus atque inflexibilis tenor justiti:s devo- 
+tius obsisteret, jubentur intervenire judices, coguntur 
+Ut cogant sæculi potestates, circumdantur vexillatio- 
+nibus dumus,proscriptionum minæ protenduntur divi- 
+libus, profanantur sacramenta, superinducta gentilita - 
+lis caterva, conventicula sacra fiunt, luculenta convivia. 
+
+IV. Jam qua dicta vel gesta sunt, illic inter epu- 
+las lascivientium juvenum et ubi presto fuerint as- 
+pernamenta feminarum scelus est edicere (idelissimi 
+fratres. Quanta repente rerum mutatio! Basilica in 
+popinam, ne turpius dicam, cunversa ost. Qui dolor 
+videre in domo Dei tantum piaculum, locum illuin 
+castis precibus et votis assuetum, incestis operibus, 
+
+
+divina semper sunt arma victricia, tam blandientis C et spuriis vocibus profanari ! Quis, oro, liominum cu- 
+
+
+Intellexerunt insidias quam minis scvientis tunc ter- 
+riti non sunt. At ubi ergo non blandiendo cautos vi- 
+gilantesque fefellit, sciens invidus artifex illos quos 
+jamdudum publica strage dejecerat, ad eum quem ne- 
+gaverunt reverti per poenitentiam posse, ipsumque 
+Dominum ad suscipiendam dolentium exomologesim 
+promptum utpote non volenteia mortem morientis, 
+quantum ut revertatur et vivat, mentes quas in præ- 
+Hio tormentorum metu subegit, blandimentis adversus 
+tempora pacis erexit, ablata humilitate, qua sola pos- 
+set ira Dei indignantis mitigari, insinua at que super- 
+bia qua certissime scivit Deum gravius offendi, posse 
+lenere lapsos illicite rursus ecclesiasticos honores 
+insinuans, quos tunc tenuerant. sacramentorum cœ- 
+
+
+juslibet extrem: conditionis intra suos parictes id 
+fleri pateretur? Nemo hoc vellet, nisi qui et facere 
+posset. Quis talia vel filiis diaboli auctoribus gesta 
+negat, vel facti auctores. christianos appellat, nisi qui 
+aut ipsum diabolum excusatum velit, aut de Christo 
+Domino aliter sentit? Quanta serpentis industria ! 
+Quanta his malis expediendis incubuit, ut tam sua fa- 
+milia divino nomine titulata se celaret ex nomine, 
+quam nomon suis operibus infamaret! O veneranda 
+divine patienti virtus! qux tantum se extendente 
+mali nequitia sustinens patitur, ut facta subdoli hostis 
+Sibi vel suo nomini reputet. Ne quisquam zstimet 
+leve, quid accidere quotiens schismata et h:ereses 
+oriuntur, quarum utique ministerio profano et opere 
+
+
+lestium desertores. Tantamdem horum falsa prodi- Ὁ adulterino Deum et Christum infamat Satanae trans» 
+
+
+tione nunc letus, quam imbecillitate fidei nuper ga- 
+
+
+figuratio. 
+
+
+VALESII NOTE. 
+
+
+II.—Ceciliano. Cæcilianus is est proculdubio Cartha- 
+ginensis; nam postea Czecilianensis — ists perse- 
+€utio, et ejus auctor episcopus. Contigerunt ergo hzec 
+tempore C:eciliani episcopi, qui bosilicám quam Do- 
+nslistm obtinebant, Ursatii opera recuperare cona- 
+tus est. 
+
+Eudinepiso. Videtur istud fuisse Creciliani cogno- 
+men 
+
+
+Aene persecutione, Etbnicorum scilicet in Chris- 
+tianos, 
+
+—— — illicite dps ecclesiasticos hono- 
+
+ske discesserant ab Ecclesia sub hoc ob- 
+
+lenio, i catholic traditionis οἱ idololatris reos ai 
+
+
+episcopatum provexissent, aut in episcopatu reliquis- 
+
+
+sent. 
+
+Ill. — Unitas igitur fiat. Hinc dicebanturoperarii uui- 
+tatis Leontius, Ürsatius, Paulus et Macarius, da Do- 
+patistas invitos ad unitatem Ecclesixte compellebant. 
+
+Catholicam vocans. Diffieri non. potest scriptor 
+ille, quin eatholica diceretur Ecclesia qua Caciliano 
+communicabat. 
+
+Mittit — Imperator Constans non miserat 
+primitus Paulum et Macarium ad faciendum unitatem, 
+&ed cum eieemosynis, ut testatur Optatus, lib. im, $ 5. 
+p. ὅδ, idem de Leontio οἱ Ursatio docet htjus scr mi 
+
+ictor. 
+
+
+755 
+
+
+MONUMENTA VETERA 
+
+
+7396 
+
+
+V. Sed ne a propositis longius evagemur, sacrarum A Christi Ecclesiam manifestavit : quia nec alius osten- 
+
+
+virginum stupra prztereamus, &b illis sacerdotum Dei 
+dissimulo eædes, contumelias, prædas et spolia (aceo, 
+ut etiain ipsl intelligant pauca nos de multo consulto 
+decerpere, et ea breviter ac verecunde proferre, ui- 
+pote qui non vindictam de inimicis studeamus exi- 
+gere, sed miserorum aniinas de lupi rapacis faucibus 
+οἱ de ipso jam pene draconis ore liberare. Poterat 
+igitur disciplinze salutaris eversor casiitatem fidel 
+unitatis vocabulo violare, id est, unitatem ipsam sibi 
+non Deo cogere. Quod neque rectores hujus muudi, 
+et harum teuebrarum fleri praccipiebant, ut id quod 
+jubebatur quale fuisset persona pr:ecipientis indicaret. 
+Quae et quanta inter lizc edita Ecclesize Dei et Christi 
+gloriosa exempla? qux Christian: professionis sigua? 
+
+
+delatur Christi Domini servus, quam ille qai hze 
+eadem patiebatur, quz et ipse passus est Dominus : 
+Non est, inquit, servus major domino suo; εἰ me per- 
+seculi sunt, et vos persequeutur (Joan. xv, 90). Quare 
+casi hi servi Dei sunt qui a saeculo diliguntur, osten. 
+dant ipsum Dominem ἃ sceculo fuisse dilectum. Si au- 
+tem seculum nonnisi eos qui sui sunt diligit, necesse 
+est eos odio habeat quos de szculo Dominus Jesus 
+elegit. Si de seculo essetis, inquit, sacculum quod suum 
+esset, amaret; sed. quia de seculo non. estis, sed. ego 
+elegi vos de seculo, propterea odit vos seculum (Ibid. 
+1v, 19). 
+
+VIII. Denique hujus odii semper oxitus effusione 
+sanguinis signatus est sicut et nunc pacturh conven- 
+
+
+exilia quz: verz fidei et integra: devotiouis indicia B tionemque. seeleris uon aliter quam consignatione 
+
+
+publicata, quibus palam factis nullum potuit veritas 
+
+latuisse, nisi qui contra suam conscientiam-secundum 
+
+Prophet sententiam, spein suam in mendacio ponere 
+' destinasset. 
+
+VI. Ad ultima veniamus illa quz deficientibus fal- 
+
+laciis ct fatigatis insidiarum machinamenus iu aper- 
+tas minas, manifestasque furias eruperunt. Erat tunc 
+videre militum manus traditorum furiis ministrantes, 
+qua ad perpetrandum tanti facinoris opus memora- 
+torum mercede conductze sunt : circumstabant deni- 
+.que diligentissima curiositate, inspicientes ue quid 
+illic mitius gerere crudelitati mercenariz liculsset, 
+qui illam tam curiosi spectaculi intentiouem non 
+lain defeusio pravae assertionis, quam exactionem lo- 
+cati sanguinis profitebatur. At vero populus Dei aute, 
+licet opinionem futura cadis et audierit et ex ipsa 
+dispositione cognoverit, non solum fugatus non est 
+imminentis exitiose mortis metu, quin potius ad ora- 
+tionis domun voto passionis animosius convolavit, 
+ubi cum fides sacrís lectionibus pascitur et imperata 
+jejunia continuis precibus saginantur, cumque ipsa 
+prece in manu Dei commendantur anima iniquorum 
+mauibus propinatz, ex castris ecce ad instar domi- 
+nicz passionis cohors militum progreditur ad Chris- 
+tianorumn necem a Pharisxis neotericis procurata. 
+Mauus contra innocuas ad Dominum extensas arman- 
+tur fustibus dexterz, quasi minus martyrium dice- 
+rent, qui non gladiis, sed impia czde fustibus truci- 
+dabantur. 
+
+VM. Quamquam Honoratum sanctissimi Scilibensis 
+episcopi jugulum tribuni gladius elsi non penetravit, 
+tamen compunxit, atque ita et illic tam ininistros 
+diaboli furor detexit, quam gloriosi antistitis patientia 
+
+
+sanguinis transegerunt, cum omnis alas et sexu$ 
+clausis admodum oculis czsa in. media basilica ne- 
+caretur. Basilica, inquam, intra cujus parietes et 
+occisa et sepulta suni corpora nuierosa, et illic ex 
+Vitulationibus nominum persecutionis etiam Czcilia- 
+nensis usque in finem memoria prorogatur : ne alios 
+quandoque post modum Episcopatus nomine gestm 
+rei expertes deceperit parricida. 
+
+IX. Nam et anniversalis dies religiosa devotione 
+non immerito celebratur : est euim honorandus dies 
+iste, in quo et omnis Ecclesia Dei confessa, et post 
+ejus Christi Domini zeterni judicis dextera coronata 
+est. Viderit enim cur non omnes permiserit summa 
+pietas trucidari, tamen corda conspiciens omnium 
+marlyrum premio muneravit, quos tota devotione 
+pati voluisse prospexit qui non sanguinem sed fid-m 
+credentium querit, Illum autem sanguinis omnium 
+necesse est teneri reum quem totam interficiendam 
+locasse plebeia non cst incertum. 
+
+X. Adliuc autem quod dementiz majoris fuit, etiam 
+post tam nefarium factum eamdem basilicam possi- 
+dendam homicida putavit, quasi amore loci succum- 
+beret, Ceteri qui evaserunt Christiani a quibus vide- 
+bat vitam ipsam seculi presentis contemni, illis 
+opinor se placiturum putavit post. sanguinis macu- 
+lam, quorum sanguinem appetivit, post traditionis rui- 
+nam, quos ideo persequebatur, quia communionis 
+ejus contagium declinabant, ipsos communicaturos 
+sibi post perpeiratum homicidium promittebat. O 
+imprudentia vanitati dementieque permixta! qua 
+obeæcaius latro deterrimus, id consilium statuendum 
+putaret quo sua ipsa dispositione nescius impediretur. 
+
+XI. Jam violentiam ipsius potestatis ante oculos 
+
+
+VARIORUM NOTAE. 
+
+
+VIl.—Honoratum. Nomen esl proprium episcopi sa- 
+tis commune apud Afros. Male ergo inseribuntur liec 
+acta Donati et Advocati passio, cum potius dici debe- 
+rent llonorati Sicilibensis episcopi. 
+
+Scilibensiá. Legendum  Sicilibensis. In concilio 
+Cart'iaginensi sub S. Cypriano sententiam dixit Satius 
+& Siciliba. Concilio Carthaginensi anni 419, adest P^re- 
+lextutus Sicilib.nsis unus ex episcopis provinci:e pro- 
+eensularis. Et collat. Carth. interfuit episcopus Sici- 
+libensis. Quadratianus nomine. Nota urbé ex lüinerario 
+
+
+Antonini, ubi dicitur Sicilibra : apud Anonymum R«4- 
+vennatem Siciliba. Hæe sita erat in provincia procon- 
+sulari et utrumque Tuburbum oblique respiciebat a 
+majori M. passuum 18 distans. 
+
+VIll.— Titwlationibus. De hujusmodi titulis sepulc- 
+rorum sn un consule qux: dixinus in. nota 78, ad 
+lib. in, p. 61. 
+
+IX. Anniversalis dies religiosa. Festnm agebant diem 
+Donastite in conimmemorationem eorum qui intérfecti 
+aut male inuictat fuerant in illa occasione. 
+
+
+151 
+
+
+AD DONATISTARUM HISTORIAM PERTINENTIA. 
+
+
+158 
+
+
+proponendam quod tunc visum cst, nunc animo re- A distant vie mee a viis vestris, ei cogitationes vestre a 
+
+
+volvendum. Cum Dei sacerdos ante aram sacri no- 
+minis tactaretur, cum catechamenus puer expers 
+discipline sacramentorum pene ezanimis gratiam la- 
+vacri salutaris sitientissime postularet : Subvenite, ait, 
+eatechumeno milii : anima Jam Deo scilicet proxima, 
+hoc sibl magnum voluisse contingere ultima voce 
+signabat, si ad instar dominice passionis aqua san- 
+guini juhgeretur. 
+
+XII. At vero memoratus episcopus ex Abvocatensi 
+oppido Carthaginem hospes adveniens tanta catholicz 
+istius humanitate liospitalitatis exceptus est, ut non 
+ante post itineris tanti laborem vel aquæ modicum 
+sumeret, quam sui sanguinis poculo traditorum fau- 
+ces avidissimas satiasset, Unde quaerendum puto 
+
+
+sensu. meo (Is. 1v, 9). In acie denique nationum ad- 
+versarium interfecisse victoria est: in nostro certa- 
+mine occidi ab inimico triumphus est. Valde enim 
+misere vincit, qui homicida post victoriam vivit. 
+Gaude et exulta pia mater Ecclesia, quz disciplinis 
+erudita celestibus, inaccusabili atque illibata conflic- 
+tatione luctaris. Si enim resistendum est, mente non 
+armis resistis, si uon manu sed fide congrederis. 
+Hac te pugnarum diversitas probat in szculo, coro- 
+nat in colo, commendat Domino Christo. Sic vincit 
+qui post victoriam vinci nescit : sic triumphat cujus 
+non finitur triumphus. Tibi soli licet pie congredi, 
+beneficium alieno maleficio consequi, pura et virgino 
+conscientia coronari per Christum cui est. gloria et 
+
+
+qualis esse possit apostasia, si digne talis appellatur p imperium in ssecula &nculorum. Ameu. 
+
+
+catholica. Nam et hoc ad injuriam magnopere procu- 
+ravit nominis inimicus, ut eam vulgo dici fecisset 
+catholicain, ubi impune comuittitur quicquid publico 
+jure damnatur. 
+
+XH. Interea cum traditorum votis tribunus obse- 
+qui paravisset, cumque ardorem δου ἰδ sanguinis 
+copia satiasset, basilicam rursus aliqui (ratres ingressi 
+qualia pro tempore poterant obsequia martyribus ex- 
+hibebant. Quae tunc animorum perturbatio! qui pro- 
+fluvii lacrymarum ! qui lamentationum gemitus ! qua 
+inter cadavera trucidatorum discurrens pietas unius- 
+cujusque jacemis faciem dignoscere proporavit! Ubi 
+cum filii parentum, filiorum parentes prostraia cor- 
+pora reperirent, videres alios suorum amplexibus in- 
+
+
+ANNO DOMiN) $48. 
+PASSIO MARCULI SACERDOTIS DONATISTAE, 
+
+
+QUI SUB MACARIO INTEAFECTUS A DONATISTIS PRO MAR- 
+TIRE HABEBATUR. 
+
+(Ex Analectorum. Mabillonii tom. 1V, p. 105, Collaia 
+ad codicem ms. Corbeiensem quingentorum circiter 
+annorum). 
+
+Annolatio Mobillonii in passionem Márculi. 
+
+Ut suos Ecclesia catholicá martyres, sic Donatist;o 
+€t suos se habere gloriabantur. Hos inter insigniores 
+fuerunt Donatus Bagaiensis episcopus, et Marculus 
+presbyter, quein ἃ Macarianis, seu traditoribus (sic 
+
+
+herentes, alios repentino visu percussos consedisse (^ illi catholicos appellabant) ex abrupti montis. super- 
+
+
+semianimes, nonnullos colligendis corporibus pias 
+manus accommodantes; dum diversi sexus corpora 
+aliter quam decebat jacentia, contegunt, dum mem- 
+bra sevis ictibus comminuta, etiamsi non officiis, 
+locis tamen suis reddunt. Vespertinum jamjamque 
+tempus diei illius lucem tentabat excludere, atque ita 
+€ diversis locis corpora numerosa statim festinanter- 
+Que gesta sunt, ita tamen religiose laborantes ditabat 
+Spiritus, ut ubi pastor percussus jacebat, illo et 
+ovium grex de passione colligeretur, quod divinitus 
+facium ipsa res protestata est; ut qui Deo sacrificium 
+semet obtulerant aram Dei circum per ambitum co- 
+ronent, ut Episcopus cui obsequia exlhibebantur a po- 
+pulo sacerdotium administranti, etiam martyrio pro- 
+
+
+cilio actum in praeceps, necatumque jactabant, ltes 
+ita se habet. Constans imperator super deploratis- 
+simo Africanzx ecclesie statu ἃ Grato Carthagineusi 
+episcopo pulsatus , Paulum et Macarium primitus 
+mon ad faciendam wnitatem mis t, teste. Optato Mi- 
+levitauo lib. 1t, sed cum eleemosynis, quibus sublevata 
+per ecclesias singulas possel respirare, vestiri, pasci, 
+gaudere paupertas. Hi duo dum munere suo egregio 
+fungereutur, et pauperes ubique. dispuugerent, et ad 
+wnitatem singulos hortarentur : restitere in primis Do- 
+nati duo, alter Carthaginensis, Bagaiensis alter, Do- 
+natistarum factionis anlistites. Et ille quidem ipsi 
+imperatori contumelias ingessit; hie Agonisticos 
+(quos vocabat) seu Circumcelliones adversus Paulum 
+
+
+motus comitatu et obsequio suorum commartyrum 1) et Macarium armavit. Legati vero a Taurino comite 
+
+
+frueretur. 
+
+XIV. O vere divinum et longe diversum a sapien- 
+tia bumana, sicut ipse Dominus ait per prophetam : 
+Non sunt, inquit, cogitationes mec sicul vesirc, neque 
+vesira sicul mem : sicul enim distal celum a terra, ita 
+
+
+militem armatum, qui eorum furorem compriincret, 
+impetrarunt. Occisi plurimi, detruncati multi, quos pro 
+martyribus Douatista. habuerunt. Ex his unus est 
+Marculus, de quo Dativus episcopus Novapetreusis 
+Donatista in collatione Carthagiuensi, cap. 188: Ad- 
+
+
+VAIUORUM NOTAE. 
+
+
+ΧΙ. — Subvenite ait, etc. Egregia sententia, si pro 
+bona causa proferretur. 
+
+.— Memoraius episcopus. Honoratus scilicet epi- 
+scopus Sicilibensis : quud auiem dicitur advenisse Car- 
+thaginem ex. Abvocstensi oppido, intelligendum non 
+de urbe cujus erat episcopus; nam nulla est urbs hu- 
+jus nominis episcopalis in Africa, sed de aliquo op- 
+pido vicino unde Carthaginem profectus fuerat. 
+
+
+Ubi impune committitur quicquid publico jure 
+damnatur. Sarcasmus est et lusus in voce Catholici, 
+qua ren universalem significat. Ecclesia dicitur ca- 
+tholica quia universalis : at catholicw Ecclesiz illudens 
+iste scriptor, alio vocem istam toruuet, ut dicatur ca- 
+ibolica, quia impune illic committitur, quod jure pu- 
+Pin n: communi damnatur. Allusio sane frigida et 
+ridicula. 
+
+
+159 
+
+
+MONUMENTA VETERA 
+
+
+100 
+
+
+wersarium non habeo, inquit, quia illic est dominus A kal. decembris lis verbis : In. Nicomedia beati Mer- 
+
+
+Marculus, cujus sanguinem Deus exiget in" die judicii. 
+
+Catholici apud Augustinum sub finem tractatus «t 
+in Joannem negant Marculum a se pr:ecipitatum, sed 
+se ipsum przcipitem egisse dicunt : « Proferunt Do- 
+natistz: nobis nescio quos in persecutione suos mar- 
+tyres. Ecce Marculus de petra preecipitatus est : ecce 
+Donatus Bagaiensis in puteum missus est. Quando 
+potestates Roman: talia supplicia decreverunt, ut 
+przcipitarentur homines? Quid autem respondent 
+nostri? Quid gestum sit nescio. Tamen quid tradunt 
+nostri? Quia ipsi se pracipitaverunt, et potestates 
+infamaveruut..... Sed illi qui se mortuos coli volue- 
+runt, famosiorem mortem non invencrunt. » Optatus 
+inlib. sm, id ipsum significare videtur his verbis : 
+« Sic invenit Donatus Bagalensis unde contra Maca- 
+rium furiosam couducerct turbam : ex ipso genere 
+fuerunt qui sibi percussores sub cupiditate falsi mar- 
+τὴ! iu suam perniciem conducebant. Inde etiam illi, 
+qui ex altorum montium cacuminibus viles animas 
+projicientes, se. praecipites dabant: » quibus verbis 
+Marculum indicare videtur Optatus. Attamen in con- 
+sequentibus idem auctor, non inficiatur, Marculum et 
+Donatum a militibus Mocarianis occisos. « Invitus 
+cogor hoc loco etiam illorum, quorum nolo, homi- 
+num facere mentionem, quos vos inter martyres po- 
+nitis: per quos, tamquam per unicam religionem, 
+vestra communionis homines jurant: quos quidem 
+vellem silentio proiterire, sed ratio veritatis se si- 
+leri non patitur. Et ex ipsis nominibus contra unita- 
+
+
+tem inconsiderate latrat invidia , et aspernantes ali- C 
+
+
+qui accusandam aut fugiendam zstimant unitatem, 
+quod Marculus et Donatus dicantur occisi et mortui. 
+Quasi omnino in vindictam Dei nullus mereatur oc- 
+cidi, etc. » Denique idem martyris titulum przdictis 
+abrogat, quod Christianornm nullum senserint bellum : 
+quod non amaverint pacein, ín qua prima sunt funda- 
+menta martyrii : quod. nullam habucrint. charitatem, 
+sine qua inane est martyrium. 
+
+Nibilominus cum hzc acta in bibliotheca sancti 
+Galli reperissemus, ea in lucem dare amicorum con- 
+silio statuimus ad illustrandam antiquitatem. Alium 
+codicem, in quo eadem acta continentur, nobis pro 
+sua beuevolentia utendum commodavit vir doctrina 
+et eruditione clarus, idemque antiquitatis ecclesias- 
+tice, maxime Africaue, studiosissimus Antonius 
+Faurus, doctor Sorbonicus : qui codex ab Adelelino 
+episcopo Ecclesia: Laudunensi concessus est anno 
+921. In eodein codice exstat Macrobii epistol:e frag- 
+mentum de Isaac et Maximiano martyribus Donatis- 
+tis, his: actis mox subjiciendum. Ceterum. Marculi 
+acta legerat Rabanus, qui Martyrologio suu. eum ad- 
+scribit ad diem 7 kal. decembris cum horum acto- 
+ruin brevi compendio. Variat dies in codicibus mss. 
+Sancti Gallensis habet 5 kal. Laudunensis 8 kal. ejus- 
+dem mensis. Annum 348 his Macarianis turbis Ba- 
+ronius assignat. 
+
+In additionibus Molani ad Usuardum ex notho Bod» 
+Martyrologio, fit mentio de quodam Marculo ad 6 
+
+
+culi sacerdotis οἱ martyris, qui temporibus Constantis 
+tyranni persecutiones maximas pertulit: ad. extremum 
+ab ala rupe pracipitatws est. Idem auctor in appen- 
+dice Usuardi secundo editi suspicatur, hunc esse 
+Marculum pseudomartyrem Donatistam. Baronius id 
+negat in notis δὰ martyrologium Romanum, in quo 
+ad eumdem diem hzc leguntur. Nicomedig sancti 
+Marcelli presbyteri, qui Constantii tempore ab Arianis 
+e rupe precipitatus marlyr occubuit. Quidaw vir doc- 
+tus Molani conjecture faveus opinatur, pro Nicome- 
+die legendum, in Numidia ; deinde Mareuli nomen 
+retinendum : et pro ab Arianis , scribendum , a Ma- 
+carianis, quod veri simillimum est. Attamen in addi- 
+tionibus ad Bedæ Martyrologium apud Bollandi socios, 
+
+
+B fit mentio non semel de Marcello martyre in Nicome- 
+
+
+dia ad 5 kal. decembris. Primum quidem ex duobus 
+€odicibus in lic verba : 4n Nicomedia Marcelli, Pe- 
+tri, Serene, Victorini. Deinde ex duobus aliis, Níco- 
+media natale sanctorum Petri, Marcelli, et Sereui, quo- 
+rum alter. pro fide Christi crucifixus, alter [uil capite 
+plexus : ubi in uno e duobus mss. deest Marcelli no- 
+men. Αἱ in duobus aliüs tres omnino leguntur his 
+verhis : Nicomedia Petri, Marcellini et Sereni. Verisi- 
+mile est, Marcellum quemdam Nicomedis passum 
+esse. Sed cum Marculum Donatistun eodem fere die 
+necatum quidam legerent, eumdem cum Marcello 
+esse putaverunt : adeoque Marcuii genus mortis Mar- 
+cello tribuerunt. 
+
+
+INCIPIT PASSIO BENEDICTI MARTYRIS MARCULI. 
+8 (al. die 5) kal. decembris. 
+
+
+Quoniam multorum martyrum passiones et glorim 
+in sublimem memoriam eximio olim sermone digestae 
+ad magnam utilitatem proficiunt populorum, dum ad 
+incentivum virtutis et laudis Ecclesi: semper auri- 
+bus recitantur; idcirco me quoque et honor martyris 
+tanti, et communis omnium devotionis profectus 
+accendit, ut passionem MancuLt gloriosi, sacerdotali 
+etiam honore fulgentem (al. fulgentis), traditorum nu- 
+per scelere consummatam (in Corb. consummatum), 
+indigna (in Corb. indiga) licet, sed plena amoris ora- 
+tione decurrerem. Justum enim acsotísdignum est,ut 
+antiquorum testium laudibus recentium (inCorb, prx - 
+cedentium) quoque inartyrum virtus adjuncta gluline - 
+tir. Sicut enim (Deest in Corb. enim) illos gentilis svi- 
+tia diabolo pareus destinavit ad regnum ; sic et hos tra- 
+ditorum rabies Anticliristo serviens misit ad eœlum. Et 
+quia pr:etermittendus non est superioris vitae memo- 
+rabilis cursus ; de virtutibus Marculi gloriosi (a/. glo- 
+riosis), etsi; propter multitudinem nequcuut omnia, 
+propter testimonium! tamen vel pauca dicenda sunt. 
+
+llle namque olim przelectus et. prz:destinatus a 
+Doinino, mox ubi primum beate fidei rudimenta sus- 
+Cepit, statim mundanas literas respuens, forense 
+exercitium οἱ falsam szcularis scientiz dignitatem 
+suspensa ad ccluin mente calcavit, et ἃ calumniosis 
+tribunalium septis ad sanctissimam Ecclesie trans- 
+iens. scholam", dum verum imagistrum elegit Chris- 
+
+
+7061 
+
+
+AD DONATISTARUM IIISTORIAM PERTINENTIA. 
+
+
+762 
+
+
+tum , sic inter principales Christi discipulos meruit A vinculis brachiorum et digitorum nodis instrinxit, 
+
+
+honorari. Qus vero in illo fuerit probitas conscien- 
+lim , quse illustrium morum innata verecundia , quæ 
+gratia spiritalis in vultu ; non arbitror diu multumque 
+laborandum, cum superiorem ejus vitam illa res 
+probet, quod (in Corb. qux ) meruit sacerdotium. 
+Sacerdotium vero qualiter gesserit inde (lt (in Corb. 
+sit) clarum, eui pro premio Dominus dignatus est 
+prestare martyrium. 
+
+Igitur dum in his officiis coelestium przceptorum 
+laudabiliter conversatur (in Corb., conversatus), dum 
+summus pontifex coustitutus cum czeteris sanctis bono 
+et sacerdotio suo fruitur; cece subito de Constantis 
+regis tyraunica domo ct de palatii ejus arce pollutum 
+Macarianæ persecutionis murmur increpuit : et. dua- 
+
+
+ut euni inde nulla valeret poena divellere, nulla pos- 
+set crudelitas separare. Quo facto intelligere potuit 
+persecutor, Dei servum pro ejus nomine exoptare 
+potius quam timere tormenta ; nec dolorem corporis 
+posse sentire quorum Spiritus complectitur Christum, 
+et spes jam possidet regnum. 
+
+Seviebat itaque contra unum multiplex carnificum 
+numerus, et saeratos conficiens (1) artus dura fus- 
+tium pena laniahat, sc reciprocante torinento, in 
+quantum supplícii ictus infligebat a tergo, in tantum 
+pectus eolumnz duritia retundebat. Pulsabat corpus 
+ex omni parte crudelitas, nec quicquam , nisi Dei 
+laudem, illustris lingua proferebat. Anhelabat rabies : 
+jam lassitudine tortorum , et perseverantia patientis 
+
+
+bus bestiis ad Africam missis, codem (deest. in Corb. B feritas victa languebat. Tale denique illic tunc mi- 
+
+
+eodem ) scilicet Macario et Paulo, execrandum pror- 
+805 ac dirum Ecclesi» certamen indictum est; ut po- 
+pulus christianus ad unionem (in Corb. unitatem ) 
+cum traditoribus faciendam nudatis militum gladiis, 
+οἱ draconum praesentibus signis, et turbarum vocibus 
+cogeretur. Sed Macarius qui ex his duabus bestiis 
+tetrior fuit, cum hoc ncgotium sanguinis in reliquis 
+provinciis per subtilitatem diu attentasset. (ἐπ Corb. 
+jam tentasset), in Numidia tamen, et erga Marculum 
+gloriosum aperta crudelitatis barbare et inaudiiæ 
+feritaus indicia publicavit. Nam cum ad eum antiquis- 
+simorum patruim sanclissimus chorus, οἱ adunatum 
+eoncilium sacerdotum decem e numero suo 'probatos 
+Episcopos legationis causa misisset (in Corb. misis- 
+
+
+raculum Christus martyris sui membris indutus os- 
+tendit, ut ad eum non solum dolorem adire non si- 
+neret; verum etiam ab ejus corpore universas ezevitize 
+notas atque omnia carnifcing signa detergeret. Quo 
+przelio victus ac subactus inimicus, nulla jam poenarum 
+erudelitate(al. carnificii)contentus, atrocissim:e,quan- 
+tum sibi videbatur, sehientize et passioni eum mani- 
+festissimss destinavit, Tunc eum secum per ali- 
+quas Numidie civitates quasi quoddam (2) crude- 
+litatis suze spectaculum. ducens, nesciens feritas et 
+gentilibus (al. gentibus) stuporem, et Christi. hosti- 
+bus confusionem , et fidelibus Dei servis incentivum 
+gloriosi certaminis exbibebat. 
+
+At vero postquam oxquisitum atque truculentum 
+
+
+sent), qui eum salutaribus monitis aut a tanto scelere C genus mortis invenit, statim eum secum ad castellum 
+
+
+revocarent, aut certe ( quod contigit ) priores ipsi ad 
+devotissimi certaminis campum et ad fldei aciem pro- 
+&ilirent ; sic divinitus gubernata est nobilium cura pas- 
+torum, ut quacumque (in Corb., quocumque) illa erat 
+erudelitas qui ovibus impendebat, ante ipsorum 
+membra laniaret. 
+
+Inter hos igituret sanctissimus Marculus venit : qui 
+enm cum in quadam possessione reperissent, cui 
+Vegesclzs nomen est, statim hac ejus qui sacrilega 
+unitati przeerat humanitate suacepti sunt, uLad colum- 
+was singulas vincti, nudatis publice sacerdotalibus 
+membris, acerbis fustiam(al.fanium) ictibus eæderen- 
+tor.Hic jam constantiam Marculi gloriosi quis enarraro 
+sufficiat? quis eloquentiae viribus explicare preva- 
+
+
+Novz-Petrz, quod ardui montis przecipitio ei nomine 
+et vicinitate conjunctum est, sub arctissima militum 
+prosecutione perduxit. Quo in loco tantam martyri 
+suo Dominus letitiam praestitit, tautum gaudium do 
+vicina passione concessit, ut quatriduum illud , quo 
+illic a corona impendente dilatus cst, Jam non inter 
+mrumnas secularium pressurarum, sed inter trium- 
+phos regnorum celestium debeat numerari. Quantum 
+enim exultare poterat , qui post laboriosam peregri- 
+nationem carnis et mundi ad videndum Deum et 
+Christum completo itinere festinabat, qui proficis- 
+cens ad angelorum consortium , sanctorum quoque 
+complexum pene jam paradisi limen intrabat? 
+
+Erat illi assidua ac jugis oratio, erat contiuus de de- 
+
+
+lest, aut inauditam persecutoris insaniam, aut Christi y) votione meditatio ; habebatin sermone Evangelium, in 
+
+
+Domini cirea martyrem suum præsentem stupendam- 
+que tutelam ? Iude enim contra eum acriori szvitia 
+Immitis feritas concitata est, quod et diabolum futuri 
+jum martyris invidia stimularet, et Spiritum sanctum 
+preeursoris Anticbristi nequitia non lateret. Qui cum 
+animum divina constantia roboratum sustinere non 
+posset, fragilitati corporis certamen doloris indixit. 
+Cireumdant igitur Chris fortissimum bellatorem 
+erueuta latronum manus, et barbarz militum classes 
+Ia caruifüces repente mutata. Cumque eum ad co- 
+Iumoam duris nexibus conarentur astringere ; prompte 
+Me continuo occasionem tantam ostentandee Dei vir- 
+!wiis arripult : nam in columnam ipsam ila ultco 
+
+
+cogitatione (af. contradictione) martyrium; et tam voce 
+quam seusu divinis virtutibus deditus, hoc proferebat 
+ore quod inclusum gestabat in pectore, Adhuc etiam 
+spiritalem justitiam sitieus, et promcrendo Deo totus 
+inserviens, ultimum quatridui illius diem jejunio ter- 
+minavit, scilicet ut illucescente Dominico, in quo 
+erai et ipsius passio consummanda, ad offerendum 
+geminum sacfificium acceptior Deo fleret devota ani- 
+ma sacerdotis : ut summus Pontifex non solum ab 
+illecebris szculi , verum etiam ἃ eibis ejus alienus, 
+
+
+4) Jta emendatum ez cod. Corb. al. confitentis, male 
+ᾧ Derei in Corb. quoddam. 
+
+
+765 
+
+
+MONUMENTA VETERA 
+
+
+164 
+
+
+ad impouendas Christi altaribus hostias tam purus Α modum omnia )etiam ipse vidisset. Cum nocturna, in- 
+
+
+accederet, ut (leri pro Cliristo hostia ipse mereretur. 
+Denique tantum apud Dominum illo jejunio potuit,tan- 
+tum purificatione illa Christi in se przssentiam provoca- 
+vit(1), ut ei revelatione ccelesti ante passionem suam 
+premium fuerit passionis ostensum. Nam ubi majora 
+noctis spatia exacta sunt, et vicinum luci tempus advc- 
+nit, cujus opportunitas inde semper orationihus atque 
+omnibus divinis rebus accepta est, quod (in Corb., 
+quo) jam et nascenti adscribitur diei, tamen 
+adhuc humana opera et negotia conquiescunt. In hoc 
+igitor temporead celebranda sacramenta sacerdos ex- 
+surgens, won tam (2) a somno expergefaetus, quam (in 
+Corb. est ) ad orandum Deui gaudio recentis visionis 
+incensus, prius tamen quam ad ipsa mysteria veni- 
+
+
+quit , quietedetinerer, videbam subito apparuisse te 
+mihi durissimis veluti nexibus vinctum , ac gravibus 
+omnino (i Corb. admodum) vinculis oneratom, 
+alque eadem postmodum vincula mea manu esse re- 
+soluta , propter quod spera veniam et indulgentiam 
+secuturam. Non incongrua igitur visione absurdum 
+somnium quod caruifex vidit, nec sine causa utique 
+quod viderat retulit, Caiphze scilicet sacrilegi secutus 
+exemplum; ut qui ipse initerfecturus fucrst Domi- 
+num, ipse de ejus passione prophetaret. Nam alliga- 
+tum recte viderat martyrem eum, qui adhuc in habita- 
+tione corporea constitutus, et gemino carcere mundi 
+et carnis inclusus, temporalis vitze angustiis stringe- 
+batur. Ille enim corporis vinculum , ille mundi car- 
+
+
+retur, quid ei divinitus esset ostensum , In gaudium B cerem sentit, qui ejus tentationibus agitatur. Reso- 
+
+
+praesentium fratrum fideli sermone patefecit. Vidc- 
+bam, inquit,tria li:ec mihi munera de zeternis thesauris 
+Domini largientis oblata, ex nitidissimo argento pocu- 
+lum factum, et. coronam auro rutilo refulgentem, et 
+sublimissimam palmam, quæ plena Izetitia anteceden- 
+tium numerum triumphorum (in Corb.munerum trium- 
+phos) expleret. Magnam, fratres, martyri suo Dominus 
+imminentis gloriz üduciam prestitit, magnam verita- 
+tem futur: circa ipsum sus dignationis expressit. 
+Neque enim aliquid est quod obscurum, aut anibi- 
+guum in hac revelatione videatur, in qua accepit 
+calicem , quem fuerat in passione bibiturus; in qua 
+suinpsit coronam, quz ei peracto martyrio debebatur; 
+in qua meruit οἱ palmam, per quain victoriam $pe- 
+rans, esset jam de cougressione securus. 
+
+Post hæc peractis ex more solemnuiis, dum adhuc 
+aliqua noctis momenta (in Corb. somnia) superessent, 
+subito cum Macarii feralibus jussis pervigil ( ita in 
+Corb. al. pervigilis) nequit: nuntius supervenit, qui 
+crudelissim:x mortis manifestam sententiam gestans, 
+et innumeras martyris glorias, et execrandum per- 
+secutorum facinus consummaret. Cui cum clausas 
+adliuc fores custodum cura rescrasset, agnovisset- 
+que quid ejus tam immaturus pertulisset adventus, 
+continuo in planctum eorum corda conversa sunt. 
+O quanta. fuit illius viri gratia! quam generalis cir- 
+ca ipsum amor omnium! quam commune deside- 
+rium, ut in passione ejus ad pias lacrymas etiam 
+custodum immanitas οἱ militaris duritia flecteretur. 
+
+
+lutum quoque a se esse non irrationabiliter somuia- 
+verat, cnjus crudelibus manibus oportebat eum in- 
+terventu. mortis a corpore separar! ; qui ei post gra- 
+vissimos nexus szcularium pressurarum ad regno- 
+rum coelestium libertatem iter fuerat in passione 
+facturus. Magnis enim nos vinculis relaxari, cum 
+liberati de hoc mundo ad Dominum properamus, 
+Apostolus probat dicens : Dissolvi et cum Christo esse 
+
+
+multo. melius est. Quod simili ratione etiam Süncon 
+
+
+ille justissimus demonstravit, qni securitate vicinz 
+mortis accensus, evasurum se vite hujus molestias 
+lætabatur: Nunc dinitiis, inquit, Domine, sere txum 
+ín pace, quoniam viderunt oculi mei salutare tuum. Qai 
+numquam utique dimittendum se cum omni gaudio 
+
+
+C testaretur, nisi qui (in Corb. quia) conditione corpo- 
+
+
+ris, quasi quibusdam vinculis tenebatur. 
+
+Nulla denique mora, nullum spatium temporis in- 
+tercessit , quin statim crudelissimus carnifex ante- 
+lucano latrocinio aggrederetur implere quod viderat. 
+Nam continuo infestus urgobat, ut productus de 
+custodia Dei estis, ad prruptam naturalis petro 
+celsitudinem atque asperrim:e rupis pracipitiuin 
+duceretur. Hoc enim immitissimum genus mortis ele- 
+gerat et cruentus ac barbarus profanz unitatis exac- 
+tor, et detestanda omnibus szculis vitia tradito- 
+rum. Egrediebatur itaque de domo Marculus glorio- 
+$us, custodum excubiis ac militum classe circumda- 
+lus, atque ab ipsis persequentibus lionoratus. Egro- 
+diebatur constantia christiani vigoris erectus, bospiuia 
+
+
+In quo quidem fletu ac perturbatione cunctorum 1) jam humana derelinquens, et ad mansiones prope- 
+
+
+solus ipse perseverabat intrepidus, qui consumma- 
+tionis sux horam appropinquasse gaudebat. Neque 
+enim vel conturbatus poterat esse vel tristis, quem 
+gaudentem fides, et pacalum fecerat divina revelatio. 
+
+Illic tunc unus ex ipsorum militum numero teter- 
+rimus carnifex et qui timentibus cæteris ad perli- 
+ciendam illustris viri mortem solus esset a diabolo 
+preparatus, factum snum sermone pr:ecurrens, enar- 
+rare martyrium audientibus cunctis (in Corb. omni- 
+bus) ccepit, cujusmodi somnium (in Corb. quemad- 
+
+
+(4) In Corb. purificationem Christi in se prxseutia 
+provocavit. 
+(2) Deest ín Corb, tam. 
+
+
+rans angelorum. Egrediebatur vultu lætus, festinus 
+incessu, non tam prasentem peeuam , quam futuram 
+cogitans gloriam. Iter quoque ipsum quo ad suppli- 
+cium ducebatur, tale illi fuerat procuratum, ut ex- 
+tructis undique versum terr:ze molibus, ae paulatim 
+in altum aggeribus elevatis, ad passionis sux: insigno 
+fastigium perveniret, ipsa montis famulante natura : 
+ut primo humilia collis juga, dehine arduos vertices 
+calcans velut per gradus quosdam in sublime cons- 
+cendens , etiam cum ipso corpore celo ac sideribus 
+propinquaret : ut adhuc in mundo positus esset. ccl. 
+sior muudo; et quicquid pretiosum, quicquid elatum 
+videtur in &xculo, sub planus sujs jacere gauderet. 
+
+
+165 
+
+
+AD DONATISTARUM HISTORIAM PERTINENTIA. 
+
+
+166 
+
+
+Mox ubi vero ad ipsum petro culmen ascensum est, A virtus ) οἱ eœlestia signa prodidissent, Nam ubi pri- 
+
+
+inde universi milites partim metu, partim dolore se- 
+cedentes. tam inauito facinori etsi conscientia inter- 
+erant, vel opere interesse noluerunt. 
+
+Tunc immanissinus carnifex qui duplici crudeli- 
+tate, et przecipitio armatus et ferro, geminam mor- 
+lem gestabat in manihus, crudeli dexiera iu przceps 
+impulit martyrem, et eum in tetrum chaos demer- 
+sisse credidit, cui celorum sublimitas debebatur. 
+Sed enim sacrosanctum corpus terrz soliditate sub- 
+Qucia a celsitudine ad ima (1) descendens, per vacua 
+liquidi aeris spatia ferebatur, neque quicquam oſſeu- 
+sionis in illa inanitate reperiens, velocitatem sui cursus 
+ipso impetu duplicabat. Qua pernicitate itineris spatio 
+vertigo nutrita est inter conunoti aéris concitos stro- 
+
+
+mum diei albescentis ingressus pallorem globi noctis 
+infudit, et discolorem coeli faciem. tenebrarum ac 
+lucis discordia variavit, continuo sub ejusdem montis 
+gremio splendida nubes apparuit , qu:e interdum ful- 
+gore ( Πα in Corb. In al. fulgure) promicante con- 
+sciam (in Corb. eontestanteun) se de martyris corpore 
+blando lumine testabatur. Neque enim illa matutinis 
+roribus gravida fuseo tegmine vividos ( al. subitos) 
+obumbraverat colles ; sed candido vellere tota præ- 
+fulgens sic membra felicia contegebat, ut cessantibus 
+paulisper humanis officiis amictum quodammodo 
+sepulture ipsa interim exhibere videretur ; quz» ad 
+boc (in Corb. huc) interdum tremulo ( al. timulo ) 
+line discissa, per flexuosos hiatus corusco igne vi- 
+
+
+pitus tanta divinitus moderatio procurata est, ut immu- B brabat, tt aut tant:e passionis ignaros stnpendis ina- 
+
+
+nia (in Corb. innnunita) cunctis asperitati;us membra 
+&upra ipsam saxorum duritiam, velut super mollissiinos 
+thorus (in Corb, mollissimun stratum) ac sinus plaeidis- 
+Simos ponerentur. Tunc victrix anima naturali cursu 
+velocius ccelum | petit, quam. descenderat Corpus ad 
+lerram; ut scilicet passione perfecta utraque substantia 
+antiquissimis originis suæ principiis redderetur om- 
+nipotentis Dei manibus, circa totum martyrem suum 
+elementer operantibus : qui et spiritum ejus adju- 
+vontibus Angelis ad zternas sedes jussit imponi, 
+el corpus intactum auris blandientibus cinctum, 
+ἃ famulantibus veutis leniter supportatum , in media 
+petrarum crepidine collocari. 
+
+Coufusa sunt igitur virtutibus Christi persecutorum 
+
+
+gualibus adinoneret , aut quia adhuc crat aliqua de 
+vicinitate noctis obscuritas, inveniendi corporis viam 
+devote quzrentibus demonstraret. 
+
+llis igitur admirabilibus Dei admonitus fraternita- 
+tis fervor ( al. ardor ) exarsit, totusque. ille subito 
+locus exultanti clamore completus est , ac religioso 
+discursu vota invicem communia nuntiaverunt. Tuuc 
+derelictis domibus raptim omnis sexus atque :etas 
+egressa ad montem pariter ac nubem desiderio mar- 
+tyris convolabat : nec ullam illic animum poterat aut 
+scuectutis debilitas, aut pueritia infinnitas, aut sexus 
+fragilitas retardare. Omnes enim unius fldei ardor 
+accenderat. Cum vero ad illa loca quæ præcipitio 
+subjacebant , festinans turba venisset ; quos conglo- 
+
+
+exquisita ingenia, et traditorum iniqua consilia, qui C batos fecerat. intentio una currendi ; mox per totum 
+
+
+ad hoc tale supplicium cogitaverant, ne unquam in 
+testimonium eoruin a populis Dei memoria martyris 
+posset honorari. [ Putaverant enim in illo præcipitio 
+corpus per frustra discerpi, et acutis cautibus laniari, 
+ut eui ademerant vitam, uec sepultura superesset] (2). 
+Putaverant. nihil pervenire usque ad terram posse, 
+quod collectum pia fraternitas sepeliret. Cum per illa 
+montis ardui confragosa singula rupes singula sibi 
+Wembra tenuissent, vcl certe cum semel integrum 
+corpus inter flssuias petrarum aut rimosas latebras 
+seopulorum hiatu aliquo fuisset absorptum : ecce con- 
+secratis artubus dura saxa et rupes aspero peperce- 
+runt; et. quem traditores occidere non timuerunt, 
+montes edere timuerunt. Exceptis enim ipsis, Crea- 
+lorem suum omnis creatura veneratur; nec in fiae 
+causa ad promerendum Deum deesse poterat mouti- 
+bus sensus, quibus ad ejus laudem eliain vocem serip- 
+lura concessit. 
+
+Interea Marculum gloriosum beatam certaminis 
+sui perfeeisge victoriam intra solas militum conscien- 
+tias celabatur. Iia enim nocturno silentio furtivum 
+consummaverant scelus, ut nec vel (in Corb. id ) in 
+eatiello, in quo fuerat asservatus , tam de extraneis 
+Quam de fratribus sciri (in Corb. nemo scire) potuis- 
+56, isi rem. gesiam diviu:e virtutes (in Corb. divina 
+
+
+Ἧ Iia enendatumez cod. Corb. Male alma. 
+3) Hec desunt ín cod. Corb. 
+
+
+montem quierendi corporis cura. dispersit. Erat. illic 
+cernere divisa per singulos οἱ οἷα pietatis. Alii eniin 
+Condensos duris stirpibus sentes manu celeri per- 
+iractabant , alii tortuosis petrarum dehiscentium fo- 
+veis testes oculos inserebant : alii , ne forte festinatio 
+esset illusa , sollicitis luminibus ctiam quæ jam res- 
+pexerant saxa lustrabant. Postremo, quia et hoc sine 
+Domino esse. non poterat , desideratum ab omnibus 
+locuin quæ ad hoc missa fuerant fulgura prodiderunt, 
+et exoptatum fratribus corpus index nubis candor 
+ostendit. Qui tunc illic fuit omnium mixtus cum gau- 
+diis fletns, qui cirea illustria membra complexus ? 
+Vix denique à cunctis satietate percepta, suprema 
+ingenti obsequia fratrum letitia celebrata sunt , ct 
+religiosus (al. gloriosus) sepulture honor cum trium- 
+phis maximis restitutus est. Totum enim in gloriam 
+nominis sui reprzsentaverat Dominus , quidquid 
+fraudare tentaverat. inimicus. Ὁ memorabile beati 
+Marculi atque insigne martyrium ! ὁ appetendum 
+devotis omnibus inconcuss: virlutis exemplum ! o 
+necessarium universis ecclesiasticis gradibus docu- 
+mentum , quo ejus laudabilis vite. meritum pervenit 
+ad palmam, in primordiis fidei renuntians muudo, in 
+tirociniis dignam se exhibens sacerdotio, in sacerdo- 
+tio munera honorata mariyrii, in martyrio divinarum 
+virtutum. testimonium ! Cui est honor et gloria οἱ 
+imperium in sxcula seculorum. Amet. Explicit. 
+
+
+761 
+
+
+MONUMENTA VETERA 
+
+
+PASSIO MAXIMIANI ET ISAAC DONATiSTARUM AUCTORE À longioris temporis cessatione nutriret pejores insi- 
+
+
+MACROBIO. 
+
+
+Cujus pars edila fuerat a. Reverendo admodum Paire 
+Joanne Mabillonio Analectotum tome1V, p. 149, 
+mxno autem iniegra prodit et emendatior ex codice 
+ms. Corbeiensi. 
+
+
+Incipit Passio SS, Martyrum Isaac et Maximiani, 
+quie est 7 kal. septembris. 
+
+
+Opportunus me , fratres , et lætus scribendi ad vos 
+gloriosa exlortationis ardor accendit , οἱ illustris 
+occasio , quoniam testium Christi testis. indignus 
+has litteras feci , ut qui minus idoneus sum Domino 
+perhibere martyrium, vel martyribus ejus admitterer 
+dicere testimonium, Et hoc quoque prorsus ad tales 
+
+
+dias , et ubique hoste grassante , hic solum tacebast 
+formidines otque terrores, ut nihil jam moturas ipsas 
+sxmculi diceres potestates. Nulli jam prima terribiles 
+&ures et pectora quatiebat, sola de vobis martyribus 
+infinitis Numidiz opinionis consolatio fratrum animos 
+exigebat, frequentabatur apud omnes gloriarum ves- 
+trarum velut. propria gratulatio, sicat οἱ vos hodie 
+colletamini quasi de vestro martyrio , cum repente 
+diabolus iterum fremens sopitas furoris flammas ia 
+penis accendit, et insana, su» grassalionis arma 
+commovit.Quibus idcirco reor diutius illum cessasse, 
+quia cunctos exercitus Christi putaverat sibi manci- 
+passe. At ubi cognovit Ecclesiam Domini fortioribus 
+cunctis quotidiana exercitatione valere, sensit proti- 
+
+
+extremum | scripto proferre de talibus non auderem, B nus spei sus se fraudibus Irridere , et atrocioribus 
+
+
+nisi per alium vobis talia nuntiarem, zemulatione 
+ineulpabili devoti pectoris inviderem. Scio enim 
+quicquam plenius aliquem referre non posse, nisi 
+qui potuit pati οἱ ipse vel facere. Is vero qui neu- 
+trum meruit, solam culpam non congrue referendo 
+comnisit : sed aliam et non sopius revelat causam, 
+nisi quod impune gerunt quicquid ad laudes Christi 
+audacter gesserint gaudia. Congruit igitur, fratres , 
+credo vobis procuratum repentin:e virtutis exemplum, 
+ut geminos martyres Ecclesie Carthagine Isaac et 
+Maximianum , seu Maximinianum pariter et Isaac 
+Dominus rapuisset ad colum, quorum triumphos 
+exsequi quemquam per ordinem posse tam credo 
+difficile, quam quicquid fecerit Christus , non modo 
+
+
+stimulis concitatus requirebat cujus aptum sibi dili- 
+geret judicis pectus , sed nec segnior et Proconsule 
+desideriis ejus parem se ipse subjecit, et feralis edic- 
+tis proposito sacrilegæ unitstis iterum fedus cele- 
+brari constitutis cruciatibus imperavit, legem scilicet 
+addens insuper traditorum, ut perenni quos Christus 
+pro se mandat recipi ab omnibus pellerentur, nec 
+quasi contra unitatis fcedera molirentur, nec moras 
+proinde triumphorum suorum sustinens Christus , 
+segnes dividero hoste provocante proprios non per- 
+misit exercitus. Sed elegit statim robustum de viris 
+fortibus militem Maximianum, quem de tali certamine 
+faceret gloriosum. Non quod eæteri impares essent ; 
+sed ut de uno totum bellum singulari dimicatione 
+
+
+terrena preconia, verum eiiam coelestia non valent C prosterneretur, quem jam bene sciens de prima con- 
+
+
+numerare. Quippo cur sic raptum subito totius ago- 
+Dis percurrerint gesta , ut. nesciam quz sint prima 
+vel sccunda , seu tertia , et sic imniensam semel om- 
+nes glorias proepropera celeritate confuderint , ut 
+ante compleverint pene quam coperint , aut , ut ve- 
+rius dixerim , semel utrumque in illis innati sint. 
+Unde igitur incipiam, unde limen tante laudis ingre- 
+diar , unde rursum cjusdem liminis exitum claudam. 
+Aperire conturbor, et claudere fatigor. Si vit:e to- 
+tius meinorare snores incipiam , revertenti martyrio 
+facere videbor injuriam ; si ad prædicationem mar- 
+tyrii dirigam gressas, tantze viiæ contemptor tenebor 
+astrictus. Premor cuncta percurrere, et scio mo 
+cuncta nequire. Undique mibi onus devoti laboris 
+
+
+fessione magnanimum , cumulata virtute. produxit 
+armatum, ut non esset illud vacuum vel inane, quod 
+illi dignatus est Dominus ante diem passionis osten- 
+dere. Nam fuerat ei pridie cum quibusdam frauibus 
+in domo laudabilis viri de sobrietate Christiana con- 
+viviui , qui cum calicem potaturus acciperet , nec- 
+non subinde miscuisset, ecce protinus se corona de- 
+scendens intra calicis oras infudit , et intus inclusa 
+cohzrens utrobique lateribus mixta et ipsum con- 
+clusit , sic splendido sanguincoque colore diffulgens, 
+ut instar passionis in sanguine et splendore pariter 
+futurz in ccelo proderet dignitatis. Hoc illi miraculum 
+gaudebundus cunctis praesentibus demonstrabat , et 
+omnes ut secum exinde coimputassent dilectionis 
+
+
+accedit, sed contra unum levamen sententia Evange- D animo conrogabat, et volebat esse commune quod- 
+
+
+lii recordata succurrit , ut martyrii securus jam mo- 
+numento conetur exponere quando Dominuin Jesum 
+Christum finem vitz cernerit laudasse. Siluerat hic 
+apud Carihsginem persecutionis immanitas, ut 
+
+
+cumque contigerat. Αἱ postquam et ipse caepit ebibere, 
+nullo modo coron: ambitus rumpebatur, sed com- 
+mixti modo semetipsa sensim subtrahendo debre- 
+vians, immo vel colligens , cum potus quantitate 
+
+
+VARIORUM NOTAE. 
+
+
+Incipit passio. Hujus auctor Macrobius Donatista 
+et suorum in urbe Roma occultus Episcopus , de quo 
+Gennadius in lib. de Scriptoribus Eccl. c. 5. Cresco- 
+nius objiciohat catholicis tres alios prxter Mareulum 
+a Macarianis occisos. llli sunt procul dubio duo isti 
+martyres Maximianus et Isaac, cui tertius adjungen- 
+dus est Donatus. Verba Augustini hac suut, l. ni, 
+contra Cresc., c. 49: De altis. autem tribus quorum 
+tortes variter obiecieti quid vel quomodo factum ab eis 
+
+
+quos nosse. existimo, fateor, non ,quasivi. Tres istos 
+objecerat Cresconius, quoniam eorum passionis acta 
+circumferebautur. Scripserat autem Macrobius banc 
+epistolam ad plebem Cartliaginis , ut ex fine hujus 
+iustrumenti constat. 
+
+Siluerai hic apud Carthagimem. persecutionis imma- 
+nitas. Optaus etiara 1. 31, δ 4, observat in provin- 
+cia proconsulari neminem armatum esse visum. 
+
+
+"69 
+
+
+AD DONATISTARUM HISTORIAM PERTINENTIA. 
+
+
+110 
+
+
+subducte bibi nitebatur, ut interius ad quem venerat A super ( in Corb. per) illos monifestus posset ( in 
+
+
+animum faceret coronatum. Denique ille continuo de 
+tali securitate jam fretus in posterum diem ebrietatem 
+pridiani calicis cructabat , et intra medullas inclusa 
+magnanimitato fecundi pectorig , videbatur sporare 
+victoriam. Sed quid pluribus callida mentis celeritate 
+nec pedum protinus fore certamen ultro provocaturus 
+ascendit, et funestos apices tamquam diaboli ibi 
+membra discerperct , manu rapida dissipavit. Inde 
+confestim raptus ad tribunal, in fundum sine ulla 
+dilatatione Proconsulis jussu vallatus est et fera ca- 
+terva tortorum. Ex hinc igitur referre quis possit 
+Christi virtutem, aut laniantiurn feritatem, carniflcum 
+pornos, aut Christi victorias ; diuturnam furoris insa- 
+niam, aut Christian: tolerantiz pertinaciam ? Surge- 
+
+
+Corb. possit ) impleri. Continuo judex vchemeuter 
+incensus, remoto illo, quem paulo onte torquebat , 
+in hunc contorsit acrius quod furebat : quasi. qui 
+unam necdum digesserat , et alieram conciperet ira- 
+cundiam. Repetebant iterum furiariam defatigati 
+tortores , quorum lassa jam brachia faciebat sola 
+crudelitas fortiora. Liciebat idemtidem classis illa 
+carnivorum violentiam plambatorum , et totas vires 
+imponderans egestis nisibus gementi rabie grassaba- 
+tur, quasi ipsa quod irrogaverat pateretur. Qualis 
+fuerat sustinentia patlentis , ubi. gemebat grassatio 
+szvientis ! Sed ncc in secundo permissus est diabo- 
+lus superare, quia victoriam Christi qux fervebat 
+[8 non erat in aliquo posse succumbere. Denique 
+
+
+bant in ictus expressos plumbatorum vim suis cona- B sic rursus postquam plumbatis nihil valuere tor- 
+
+
+tibus geminantes tortores horrendi , et iram judicig 
+gestantes in mauibus decertabant sxviendo , quis 
+possit fortior inveniri ? Sed contra aderat Christus , 
+qui militis sui membris indutus retundebat deintus 
+quidquid impendebat foris carnifex furiosus. Agebant 
+iMi acriori pene tormenta, indignantes frusira se 
+tantam irrogasse szvitiam, necnon reparatam fortius 
+ↄugebat et Dominus sua fortitudine sustinentiam. 
+Mutabant illi recentiores insaniæ crudeliores se car- 
+nifices, et 3d unum de innocente homicidium facien- 
+dum tot demutat:e parum fuerunt classes immites , 
+nec ex alia parte Dominus desinebat perseverantia 
+δύ: in inelius demutaro constantiam. Non deficeret 
+vis ponderosi supplicii , nisi virgarum juberetur et 
+
+
+menta, similiter virgas admovit immanitas furipsa , 
+ut in nullo dispari genere tolerantie discreparent 
+coelestes armigeri , et in nullo videretur hostis le- 
+niori supplicio mitigari. 
+
+Laniabatur 1saac, nomen scilicet victimse , virgis 
+rumpentibus, patientiam sui nominis imitatus, et cze- 
+soribus iterum atque iterum repetitis , inconcussa 
+permanebat devotio confitentis. Patuerant omnes 
+compagines ruptis conjunctionibus madidatz ; et 
+quasi per tot vulnera exitum reperiret, vox illa vide- 
+batur confessionis praeconia resonare. Nemo enim 
+putet pro levi castigatione plagas tunc fuisse virga- 
+rum , qu: pro certo lanienam vicerant ungalarum : 
+adeo ab ipso judice ungul:e fastidii». sunt. Jam non 
+
+
+posunodum laniatione disrumpi , ut quod vehemens C crant vulnera, sed secreta corporis denudata ; nec ab 
+
+
+illa contusio iniserat in tumorem , posteriores plagæ 
+discissis artubus aperirent : qux» sic totum corpus 
+fecerant laniatum , ut unum vulnus fecissent tola 
+Janiamenta membroruin. Nec his tamen cessit , qui 
+velut alienus aui corporis de omnibus triumphavit. 
+Sic illic bellum gestum est inter corpus et pxenas, 
+inter sacrilegos et devotum , inter animi vires et Ja- 
+niantes, inter militem Christi et milites diaboli, inter 
+patientem et judicem , et unus sufficit afflictus con- 
+wa tantam dimicare suppliciorum hostiumque glo- 
+riosius multitudinem, ut in uno certamine non unam 
+victoriam reportasset. Poaset illic adipisci snpremi 
+cruciatus examen ( in Corb. examine) qui cum trium- 
+pho mittit (in Corb. mitteretur ) ad. mortem , sed 
+
+
+ullo dici poterat czesus, qui madentihus frustis fue- 
+rat enervatus. Jam virgarum cesserant fasces, ob- 
+tunderentur pene si tantos comminuerent bipennes 
+aut falces. Jam truces ministri mgris iciibus victae 
+feritatis hiatus languidos anhelabant, ct adhuc esu- 
+rientia membra mandendis ac devorandis peenis om- 
+nibus inhiabant. Tunc illic insultavit cruciatibus cor- 
+pus, niens leta. szvientibus tot torquentibus unus ct 
+tortus ac judici judicatus nulla protinus mora sen- 
+tentiam retardavit, sed ambos judex pari sorte con- 
+jungens ad exilium religavit : quibus in carcerem 
+trusis, 1522c statim martyrii consummavit effectum ; 
+et, quod plus est, semel omnes carceres et corpus 
+dimisit et mundum, ne in aliquo visionis ejus revela- 
+
+
+oportebat ut interim retardasset ad eum quem Chris- D tio falleretur. Sic enim cuncta per ordinem percur- 
+
+
+tus illi delegarat comitem. Nam tunc illic illustris 
+Isaac de luctamine sui socii non retinens gaudium, 
+inter fraternos populos publica exultatione sancti 
+Spiritus ferebatur, qui plenus colesti constaniia libe- 
+rius proclamabat : Traditores (in Corb. traditoribus), 
+venite , salvate vestram unitatis insaniam ( in Corb. 
+satiate vestra, crudelitatis insaniam). Cujus ad vocem 
+Proconsul furibundus auctorem clamoris instanter 
+officium conturbabat inquirere. 
+
+Sed non deerant. traditores qui milites praxcessis- 
+sent : ex quibus statim ministri ipsi sacrilegi de uno 
+minime satiati , et alterum tradiderunt propriis ma- 
+nibus similiter victimari ; ut patrum illorum mensura 
+
+
+rit (in Corb. precueurrit), ut et in ipsa revelatione 
+propemodum quod passus ejus (in Corb. passurus) 
+fuerat ante jam passus sit. Nam cum quietis sopore 
+paululum teneretur, videbatur sibimet cum ministris 
+Imperatoris habere certamen, non aliunde scilicet , 
+quam unde sustinuit passionem. Et hoc plane non 
+fuerat aliud nisi devotionis indicium, ut quod vigi- 
+lans desiderio retractabat etiam dormiens pateretur : 
+ut quod Propheta de se professus est in eodem com- 
+pleretur. £go, inquit, dormio, et cor meum vigilat. 
+Vigilabat ergo devotio illa jam conamina virtutis 
+exercens, οἱ ministros (in Corb. conamine virtutes 
+exercens , et ministris, etc.) uequitie cum jussioni- 
+
+
+Tli 
+
+
+MONUMENTA VETERA 
+
+
+Th 
+
+
+hus regis constantius repellobat audacius repugnan- A silio credo fuisse dispositum, quia claruit superna 
+
+
+(68. Quos cum diuturno certamine superaret, ipsum 
+quoque imperatorem respexit subito venientem : qui 
+cum ad complendam jussionem ab eodem cogeretur, 
+fortior refutabat saerilegze jussionis imperium, et mi- 
+nantis (in Corb. minauti) seva supplicia. Ipse quoque 
+oculum se illi pariter eruturum frequenti eommina⸗ 
+tione terribilis promittebat. Cum his diu certationi- 
+bus inter semetipsos ferocius dimicarent, non passus 
+est Lintum se differri victorem : sed injecta fortiter 
+manu moram auæ comminationis irrupit, et oculum 
+violenter eliciens, viduata facie (in Corb. facies) se- 
+dem luminis evacuavit. De cujus victoria protinus 
+Juvenis mirze elaritudinis visus est triumpbaré, et 
+coronam subinde radistma capiti ejus imponere : 
+
+
+dignatione! provisum. Ad hoc enim sic voluit eos Do- 
+
+
+minus sibimet unius diel dilatione concludi, ut secun- 
+dum visum martyris sui faceret populorum exeuha- 
+tionibus honorari, nam consummato lsaac perfecti 
+martyrii notius cunctorum aures impleverat. Ad cujus 
+corpus universa continuo fraternitas Leiis cursibes 
+properaverat , quibus cum sepultura corporis a car- 
+nilicibus negaretur, excubias omnes, ne inhumatam 
+corpus abjiceretur, cum magna exultatione tenue- 
+runt, illic tota die cum nocte populi triumphantes, 
+psalmis, hymmis, canticis in testimonium cunctis 
+gloriose decantabant : et omnis zetas àc sexus inter- 
+esse tantis gratulationibus ardenti cupiditate gaw- 
+debat. Quale fuit illud, fratres, quod Dominus suis 
+
+
+quibus radiis mult» fratrum atque sororum facies B martyribus ad bonorem dignatus est procurare, ut 
+
+
+ejus videbantur infixze, quam cum illi pro premio 
+waderet (im Corb. iradere) gaudens, adversarium 
+quoque magnis exprobrationibus ludificabat irridens. 
+Tunc hostis vehementi dolore compulsus jussit eum 
+penis savientibus lanlari, ut quasi poeuam suam 
+posset ulcisci. Sed ille jam victor cernebat se gestan- 
+tium manibus ad superiora subduci, et volantem ce- 
+lerius ad coelorum sublimia sublevari : quo cum lzetus 
+ascenderet, senis cujusdam vociferantis audiebat vo- 
+cem desuper dicentem : Vae tibiszeculum quia peristi. 
+Hioc clamore ter iterato, visionis pervenit ad metam, 
+et iteravit posumodum faciendo quod viderat. 
+
+Quid igitur hac visione monifestius? quid agi per 
+diem posset expressius , quando in actibus digestus 
+
+
+xvin kal. Sept. die sabbato ad instar Paschae per- 
+mitteretur populus vigilias celebrare. Sic ergo per- 
+actus est dies , οἱ nox ita consumpta est. Mox ubi 
+dies alter exortus est, et exspectabatur proconsul 
+qui de corporis humatione jussisset , quid forsitan 
+concederet miser, quod negasse nec homicidis nec 
+adulteris ullus judicum solet, nisi 6 contra uradite- 
+rum szva pernicies ad crudelitatis capienda consilia 
+vigilaret ! quorum suggestione proconsul tunc coac- 
+tus populos (1) a carcere jussit expelli, et vivum pa- 
+riter cum defuncto, marinis fluctibus mergi, ne quasi 
+permitteret eos dignitatem martyrum venerari. 
+Quam stulta crudelitas, qu» corpora voluit nostris 
+manibus abnegare, quasi venerationem nobis de 
+
+
+cst visus? Nunc oppugnasse se contra ministros regis C mente posset auferro : aut si illi non sepelireatur in 
+
+
+slc in nocte sibi soli conspexit, sicut per diem nobis 
+postmodum demonstravit : sic lumen imperatori 
+eruisse, sic eum habebat vincendo eæcasse, sic præ- 
+mia coronz sortitus est, sic et publice coronatus est; 
+8ic coronz radiis plurimos inhbsrere viderat vultus, 
+sicut passioni ejus universus populus fuerat excuba- 
+turus : sic volavit ad coelum, sicut propere meruit 
+adipisci martyriam. Hoc solum plane de dictis ejus 
+adhuc usque restitisse cognoscitur, quod mundo pro- 
+plietavit interitum, quod cum, omnes siquidem sci- 
+imus non fuisse mentitum, aliquis fortasse de fratri- 
+bus expavescat, et Maximianum imparem dicat , quia 
+prior confessus, superstes est modice tempore reser- 
+vatus. Absit fratres ut. dividantur, quia zquali præ- 
+
+
+terra, non possent aliter regna intrare celestia? Sed 
+accessit illis ad felicitatis argumentum, ut et defuncti 
+post terrena supplicia pro Christo marinis quoque 
+vexationibus quaterentur, ne ullus locus remaneret 
+in mundo, ubi non irriserant inimicum. Hoe illis ad 
+cumulos triumphorum providerat Dominus, ut et in 
+majori odio szculi laborassent, et in defunctis cor- 
+poribus posset sicut et in vivis exhibere virtutem. 
+Vcniunt ergo ad carcerem milites et triarii fostibus 
+onerati, et via eædis populos repellentes , cunctos 
+pene fecerant vulneratos. Tantum enim debuit mar- 
+tyrum dignitati concedi, ut pro sepultura eorum me- 
+rerentur et alteri confiteri. Postea quam vix valuerunt 
+universos excludere defunctum pariter et supersti- 
+
+
+lio pugnaverunt ; nam si per diversas horas venientes Ὦ tei, ex utroque latere non par militum numerus de- 
+
+
+ad vineam Dominus de pacto mercedis sequavit, quo- 
+modo dispares judicat quos uno tempore laborantes 
+invenit? Sed quod Isaac prior videtur excedere, inde 
+magis eos dico Dominum comparasse : ut sicut ille 
+huic confessionis incitamentum suggesserat, sic eum 
+et hic provocaret pariter ad coronam. Ambos voluit 
+Dominus sibimetipsos esse doctores, ut de vicissitu- 
+dine documenti fecisset æquales; ne unus in omni- 
+bus antecederet, et unus in omnibus videretur se 
+ipse sequentem. Nunc vero ambo se invicem prz- 
+cesserunt, et ambo se invicem consecuti sunt. 
+
+Sed reclusis interim custodia carceris, μανία scili- 
+Cel ad exilium praeparatur : quod non humano con- 
+
+
+ducebat. Delusit se nesciens immanitas vana , ut ipsa 
+illis prebuisset obsequia, quibus negavit aliena. Jam 
+littus accesserant maris, jam navis acceptos martyres 
+vehebat ut mergeret. Ast ubi profundi sequoris alti- 
+tndinem permiciter introivit, non seguius satellites 
+Satanæ celerabant jussa complere , devinctos scilicet 
+funibus, et binas orcas arena confertas singulorum 
+cervicibus pedibusque nectentes, intervallo non mo- 
+dico ab invicem separatos demergente pondere di- 
+miserunt (in Corb. demerserunt). Quos sinu (in Corb. 
+ut in se) pelagus projectos ut agnovit, continuo quasi 
+iM lta emendatum ez cod. Corb. Male in editis pro- 
+
+
+ΤΙ 
+
+
+flammis totum ecelestibus urerctur, saerasanetos ar- 
+tus tenere non potuit : sed convolutis deorsum desu- 
+per fluctibus, ad ejieienda corpora detrusas arenas 
+fanditus abradebat , et ab imo fundo ad superiora 
+terga subvertens undis resilientibus removebat. Mer- 
+gebantur scruiantes fluctus de summis cumulis ad 
+inferiora rapieuda vasto impetu descendentes ad fun- 
+dum, et tempestivuin mare de inferioribus repulsum 
+egesto potiori iterum citabatur parturiens membra 
+sanciorum, donec impulsibus rapidis undarum turbo 
+depressos artus excussit, et immensum pondus eli- 
+eiens, corporibus raptis victor tandem fluctus eva- 
+εἶς. Erigebaniur proinde violentius cumuli solidatis 
+aquarum montibus elevati, ut congeries conglobata 
+securius onerosa membra subveheret, ne victa iterum 
+laborassent, et sub adunatis undique molibus pelagi 
+facts testudine pugnabat unda cum. pondere, ne oncri 
+violento valida maris terram contingeret aperire (1). 
+
+Sed adhuc restabat alterius laboris opus scilicet et 
+conamen, ut intervallo inGnito discretos, in unum co- 
+leri congregatione colligeret, ne alienum sacrilegium 
+
+.cjus negligentize remaneret. Ducebant binc aqux, 
+hinc gemiuis cornibus volumina sinuantia, et pari si- 
+binmet cuitione (in Corb. cohibitione), subvecta cor- 
+pora cominus inhiabat (in Corb. communis Inibat ). 
+Jam venientis occursus ex utraque cornuum breviare 
+caperat inedium, et utraque per partes propinquante, 
+conventu de intervalli longitudo decrescens venerat 
+in angustum : cum semel utrique plenis spatiis 
+exeinptis (oia intercapedo consumpta esi, et redactis 
+omnibus simul et undarum corporumque celebrata 
+concordia est. Obsidebantur hzc igitur a fratribus 
+littora , quasi jam certius adventantes martyres ulla 
+pr:ecederet fama, et diebus noctibusque sollicite per 
+momenta , defixis obtutibus sperabatur quod crede- 
+bant quandoque de Dei solita virtute venturum. Cum 
+subito post bis ternos dies templa Christi venire gau- 
+debant, ct occurrentes cuncti, quomodo poterant , 
+oculis exsultante alacritate pendebant (in Corb. pan- 
+debant) : quorum extensis manibus optata membra 
+cum tropzis suis unda festinans velut in gaudium 
+resonsns tradidit , et compoti desiderio devota ſra- 
+ternitas cum arplexibus lætis accepit. 
+
+Sic beati martyres sepulturam debitam recepe- 
+runt, et optatum reddiderunt fratribus obsequium, 
+et frustraia Christus exhibuit consilia traditorum, ne 
+aut insepulta tantorum corpora remanere permitte- 
+ret, aut devotionem populi ex parte ulla fraudasset, 
+aut nefandos vota crudelitatis implere (im Corb. ne- 
+fandorum crudelitatem impleri) cum blasphemia sui 
+nominis immotus aspiceret. 
+
+Lugeat nunc demensa (2) sevitia perfidorum, qux» 
+dominiecarum noluit recordari virtutum : non timuit 
+eum posse de mari corpora liberare, quem novit ab 
+inferis etiam animas posse (5) eruerc : aut si nibil 
+aliud vel nec cetus qui evomisset acciperet, perdidit 
+
+
+1) Ita emendatum ez cod. Corb. 
+4) Deest in Corb. 
+
+
+Deest in Corb. 
+
+
+AD DONATISTARUM IIISTORIAM PÉRTINENTIA. 
+
+
+7h 
+
+
+Α misera erudelitas quo eredehbat magnum se compc- 
+risse consilium , cui nec mare voluit ferre con- 
+rensum. Male. commendavit desideria sua , quio 
+Contra creatorem suum pelagus negare non potuit. 
+Quid agit humana (in Corb. humiliando) jam rabies, 
+ubi mare non persequitur martyres ? quid agit scele- 
+ratorum feritas, δον ubi maria revocant ad sepul- 
+turam ? aut quales ἃ persecutoribus judicantur, quos 
+et ipsa elementa violare timuerunt? O beatse passio- 
+nis memorabilis gloria, in qua dignatus est Christus 
+tot exhibere magnalia! O felix exitus, qui talibus 
+contigit, quem pro illorum meritis tantis virtutibus 
+decoravit ! in devotione constantia, in passione tole- 
+rantia, in morte victoria, miraculum (1) in sepultura. 
+
+Ad vos nunc, fratres, cuncta. jam redcunt , que 
+
+B vos ad regna coelestia deduxerunt. Vos exempla ista 
+compellunt, quz illos primo per vos ad has glorias 
+compulerunt. Magistros vos illis confessionum fre- 
+quentia crebris opinionibus fecerat , et ipsi nunc vo- 
+bis de martyrio suggerunt. Similiter documenta ves- 
+tra vos adhortantur quz alios adhortata sunt. 
+Tendunt ad vos e celo jam brachia , opperientes 
+tempus quo vobis occurrant. Properate graviter, 
+concurrite pertinaciter , exspectant vobiscum simul 
+eapere dignitatem. Eis agite, fratres, accelerate quan- 
+tocius, ut et de vobis non aliter gaudeamus. Inveniat 
+apud vos reditus noster unde glorietur, sicut et de his 
+secessio nostra sortita est gaudia gloriarum, Sed enn- 
+tes ad tropza vestra veniamus : ut sicut vobis horum 
+victorias nuntiavimus, sic postmodum vestras huc ad 
+
+C Carthaginem secuturis ezteris nontiemas. 
+
+Explicit (8) epistola beatissimi martyris Macrobi ad 
+plebem. Karthaginis de passione martyrum Isaac. et 
+Mazimiani. Deo gratias, amen. 
+
+
+ANNO ΒΟΜΙΝῚ 348 avt 249. 
+EX CONCILIO CARTHAGINENSI. 
+
+
+Cum Gratus episcopus Carthaginensis in concilio 
+unà cum collegis suis consedisset, οἱ qui ex diversis 
+provinciis Africanis convenerunt... ldem Gratus 
+episcopus dixit : Gratias Deo omnipotenti et Christo 
+Jesu, qui dedit malis schismatibus finem, ct respexit 
+Ecclesiam suam, ut in ejus gremium erigeret universa 
+membra dispersa, qui imperavit religiosissimó Con- 
+
+p stauti (5) Imperatori, ut votum gereret unitatis, et 
+mitteret ministros sancti operis famulos Dei Paulum 
+et Macarium. 
+
+Ex Concilio Carthaginensi 1 (4). 
+
+Gratus episcopus dixit : Gratias Deo omnipotenti οἱ 
+Christo Jesu, qui dedit malis schismatibus finem, et 
+respexit Ecclesiam suam, ut in ejus gremium erigercet 
+universa membra dispersa : qui imperavit religiosis - 
+simo Constanti imperatori, ut votum gereret unitatis, 
+et mitteret ministros sancti operis famulos Dei Pau- 
+]um et Macarium. 
+
+
+In Corb. mirabilis ; in editis magoalibus. 
+(lera desunt in ma. Corb. 
+
+
+1 
+
+C 
+5 
+4 
+
+
+In editis Constantino. 
+Anno Chrisu 348, vel circiter. 
+
+
+T15 MONUMENTA VETERA. TIG 
+Ejusdem concilii sunt. c3nones contra Donatisias A Constantini, quia non de Ceciliano aliquid judicotum 
+duo : I, ut baptisma in Trinitato susceptum non itc- — est, sed. furori suo ipsi permissi eunt. Ibid., c. 552: 
+retur; ll, de martyrum sepulcris et honorifcentia. — Donatistm petunt ut judex (Marcellinus) de permissa 
+; : ᾿ Sata sibi a Constantino arbitrii libertate pronuntiet. Augusti- 
+—— diii EO canone πα in lib. post Collat., n. 56, testatar has ad Vale- 
+Ι. rium seu Verinum vicarium de illorum exsilio soluto, 
+
+Ergo, si vobis placet, consideremus primum titu- 61 eorum furore Deo vindici dimittendo litteras datas 
+lum rebaptizationis. Unde sanctitatem vesiram pos- Crispo et Constantino iterum consulibus, tertio nonas 
+tulo, ut mentis vestra placita producatis ad descen- — maias, id est, post quartum annum et mensem fere 
+dentem in aquam, et interrogatum in Trinitate secun- — etum, elapsum a tempore rescripti Eumalio directi. 
+
+
+dum Evangelii fidem et Apostolorum doctrinam, el 
+confessum bonam conscientiam in Deum, de resur- 
+rectione Jesu Christi, si liceat iterum interrogari iu 
+eadem fide, et in aqua iterum intingi. Universi epi- 
+
+topi dixerunt. Absit, absit. Illicitas esse sancimus 
+rebaptizationes, et satis esse alienum a sincera fide 
+et catholica disciplina. Gratus episcopus dixit; Magna 
+beatitudo a Deo patre per Dominum Christum con- 
+cesea est tempore nostro, ut liceat religiosis mentibus 
+insinuare ecclesiasticam disciplinam, ut auditores 
+percipientes regulam rectam et Deo placentem, præ- 
+mia meritorum bonorum percipiant, ut in ipsis Deus 
+in omnibus et pro omnibus honoretur. Discussus est 
+titulus necessarius rebaptizationis, in quo plus schis- 
+matis rabies delitescebat, et habita moderatione, legis 
+vigor et auctoritas fidei custodita est. lllud sane 
+sapientissimis vestris sensibus insinuare contendo, 
+licet vestra prudentia sit instructa et a Deo docta, et 
+mereatur in pace et unitate consequi desuper munera 
+Jarga ; tamen et ego unus ex vobis, et qui parem vo- 
+biscum sollicitudinem gero, propter Ecclesiasticum 
+ordinem illud insinuare curabo. 
+
+
+il. 
+
+Martyrum dignitatem nemo profanus infamet, ne- 
+que ad (1) passiva corpora, qux sepulture tantuin 
+propter misericordiam ecclesiasticam, commendari 
+mandatum est, redigat, ut aut iusania przcipitatos, 
+aut aliquo tali pacto, aut alia ratione peccati disjunc- 
+tos, non ratione vel tempore competenti, quo mar- 
+tyria celebrentur, martyrum nomine appellet. Αἱ si 
+quis ad injuriam martyrum, claritati eorum adjungat 
+jafamiam, placet cos, si laici sint, ad penitentiam 
+redigi : si autem suni clerici, post commonitionem, 
+et post cognitionem, honore privari, Universi dixe- 
+
+
+runt : Recte statuit sanctitas vestra. Hoc et singulis y 
+
+
+conciliis statutum est. 
+
+
+De indulgentia et arbitrii liberlate Donatistis concessa a 
+Constantino (3). 
+
+
+In indiceCollat. 5, cap. 544, legitur : Prosecutio Do- 
+nalistarum, qua principi Constantino libellum. asserunt 
+proprios dedisse majores, et eo principem motum agendi 
+eis dedisse licemiam. Ibid., c. 549 : Recitatur epistola 
+Constantini ad vicarium Verinum destinata, qua liberta- 
+tem agendi tribuit Donatistis. lbid., e. 550 : Prosecutio 
+catholicorum, qua dicit pro se magis epistolam facere 
+
+
+1) Ad deest in qq. vise. 
+d Δῆμο TM — 
+
+
+Confer Breviculum Coliat. 8, n. 40, et epist. 14], 
+n. 9. 
+
+
+De Pauli et Macarii perseculione quam injusta Donatis- 
+tarum expostulaiio (1). 
+
+Ab operariis unitatis multa quidem asperc gesta 
+tunt: sed ea quid imputatis Leontio, Macario, vel 
+Taurino? Imputate majoribus vestris, etc., illis primo 
+qui populum Dei diviserunt, ct basilicas fecerunt non 
+necessarias. Deinde, Donato Carthaginis, qui provo- 
+cavit ut unitas proximo tempore fleri tentaretur. Ter- 
+tio, Donato Bagaiensi, qui insanam collegerat mulü- 
+tudinem, a qua ne Macarius violentiam pateretur, ad 
+se et ad ea qua ferebat tutanda, armati militis pos- 
+lulavit auxilium. Venerunt tunc cum pharetris armi- 
+geri; repleta est unaquaque civitas vociferantium : 
+nuntiata unitate fugistis omnes, etc. Fugerunt igitur 
+omnes episcopi cum clericis suis, aliqui sunt mortui : 
+qui fortiores erant, capti et longe relegati eunt. Et 
+tamen horum omnium nihil actum est cum voto nos- 
+tro, niliil cum consilio, nibil cum conscientia, nibil 
+cum opere, etc. 
+
+Quis negare potest rem, cui tota Carthago principa- 
+liter testis est, imperatorem Constantem Paulum et 
+Macarium primitus non ad faciendam unitatem mi- 
+sisse, sed cum eleemosynis, quibus sublevata per 
+Ecclesias singulas posset respirare, vestiri, pasci, 
+gaudere paupertas (2) ?* Qui cum ad Donatum patrem 
+tuum venirent, et quare venerant indicarent, ille so- 
+lito furoresuccensus in hxc verba prorupit : Quid est 
+imperatori cum. Ecclesia? Et de fonte levitatis suæ 
+multa maledicta effudit : non minus quam et in Gre- 
+gorium aliquando, ad quem sic scribere minime du- 
+bitavit, Gregori, macula senatus, dedecus pra[ectorum, 
+et c:etera talia. Cui Donato Praefectus patientia. epi- 
+scopali rescripsit, etc. Miserat enim (Imperator) or- 
+namenta domibus Dei, miserat pauperibus eleemo- 
+synam, nihil Donato. Cur ergo insanivit? cur iratus 
+est? cur quod missum fuerat repudiavit? Et cum illi 
+qui missi fuerant dicerent se ire per provincias sin- 
+gulas, et accipere volentibus se daturos; ille dixit, 
+ubique se litteras prsemisisse, ne id quod allatum 
+fuerat, pauperibus alicubi dispensaretur, etc. 
+
+Veniebant Paulus et Macarius, qui pauperes ubique 
+dispungerent, et ad unitatem singulos hortarentur. 
+
+
+M Ex Optato, lib. m. 
+
+4) Constans ab anno Christi 337, quo pater ipsius 
+
+Constantinus obiit, Italixe, Afric et aliquot aliis iu- 
+
+n partibus pra» uit ad annom 350. Factum de quo 
+ic agitur refertur ad aunum $47, vel circiter. 
+
+
+"1 
+
+
+AD DONATISTARUM RISTORIAM PERTINENTIA. 
+
+
+718 
+
+
+Et eum ad Bagaiensem civitatem proximarent, tuuc A Ursacio injuriatos esse quam plurimos, sub Paulo οἱ 
+
+
+alter Donatus, ut supra diximus, ejusdem civitatis 
+episcopus, impedimentum unitati et obicem venien- 
+tibus supra memoratis opponere cupiens, præcones 
+per vicina loca et per omnes nundinas misit, Circum- 
+celliones Agonesticos nuncupans, ad praedictum lo- 
+€um ut concurrerent invitavit. Et eorum illo temporc 
+concursus est flagitatus, quorum dementia paulo ante 
+ab ipsis episcopis impie videbatur csse succensa. Nam 
+cum hujusmodi hominum genus ante unitatem per 
+loca singula vagaretur, cum Maxido et Fasir, ab ip- 
+ais insanientibus (1) sauctorum duces appellarentur, 
+nulli licuit securum esse in possessionibus suis : do- 
+bitorum chirographa amiserant vircs, nullus creditor 
+illo tempore exigendi babuit potestatem. Terrebantur 
+
+
+Macario aliquos necatos, a sequentibus eorum nescio 
+quos ad tempus esse proseriptos. Quid hoc ad nos? 
+quid ad Ecclesiam catholicam? Quidquid objicitis, 
+vos fecistis, qui pacem a Deo commendatam noluistis 
+libenter excipere, etc. Aliqui accusandam aut fugien- 
+dam æstimant unitatem, quod Marculus οἱ Donatus 
+dicantur occisi vel mortui : quasi omnino in vindicta 
+Dei nullus mereatur occidi, etc. Legimus enim in 
+Ezechiele propheta parietem dcalbatum, cui Deus 
+comminatus est tempestatem, pluviam, ct lapides 
+petrobulos, et accusationes (Ezech. xmi, 42), etc. Et 
+iste quatuor res non poterant uno temporc fleri. Fuit 
+primo tempestas sub Ursacio (1) : agitatus est paries, 
+sed non cecidit, ut haberct pluvia ubi operaretur. 
+
+
+omnes litteris eorum, qui se sanclorum duces fuisse B Secula est pluvia sub Gregorio : udatus est paries, 
+
+
+jactitabant, etc. Unde. eum a (2) vestrae partis epi- 
+seopis invidia tunc fieret, Tauriuo illo tempore comiti 
+seripsisse dicuntur, hujusmodi homines in Ecclesia 
+eorrigi non posse mandaverunt, ut a supra memorato 
+comite acciperent disciplina. Tunc Taurinus ad eo- 
+rum epistolas ire militem jussit armatum per nun- 
+dinas, ubi Circumcellionum furor vagari consueve- 
+rat. In loco Octavensi (5) occisi sunt plurimi, detrun- 
+cati sunt multi. Quorum corpora usque in hodiernum 
+per dealbatas aras aut mensas potuerunt numerari. 
+Ex quorum numero cum aliqui in basilicis sepeliri 
+coepissent, Clarius presbyter in loco Subbulensi (4) 
+&b episcopo $uo coactus est ut insepultam faceret se- 
+pulturam. Unde proditum est, mandatum fuisse fleri 
+quod factum est, quando nec sepultura in domo Dei 
+exhiberi concessa est. Eorum postea convaluerat 
+multitudo. Sic invenit Donátus Bagaiensis unde con- 
+tra Macarium furiosam conduceret turbam. Ex ipso 
+genere fuerunt, qui sibi percussores sub cupiditate 
+falsi martyrii in suam perniciem conducebant : inde 
+etiam illi qui ex aliorum montium cacuminibus viles 
+animas projicientes se przcipites dabant. Ecce quali 
+ex numero sibi episcopus alter Donatus cohortes ef- 
+fecerat. Hoc metu deterriti illi.qui thesauros fere- 
+bant, quos pauperibus erogarent, invenerunt in tanta 
+necessitate consilium, ut a Silvestro (5) comite arma- 
+tum militem postularent; non per quem vim alicui 
+facerent, sed ut vim a Donato supra memornto epi- 
+scopo dispositam probiberent, etc. 
+
+
+sed non maduit, ut haberent lapides ubi operarentur. 
+Post pluviam secuti sunt lapides sub operariis (2) 
+unitatis : dispersus est paries, sed fundamentis suis 
+86 iterum reparavit. Jam tria peracta sunt, etc. 
+FRAGMENTUM EPISTOL.E MACROBII DONATISTEE, 
+
+
+De passione Mazimiani et Isaac. Donastitarum, ad ple- 
+᾿ bem Carthaginensem. 
+
+
+(Ex Mabillon., Vetera Analecta, p. 185.) 
+
+
+bus triumphavit. Sic illic bellum gestum est inter 
+corpus et posuas, inter sacrilegos et devotum, inter 
+animi vires et laniantes, inter militem Christi et 
+militem diaboli, inter patientem ct judicem, οἱ unus 
+
+
+C sufficit afflictus contra tantam dimicare suppliciorum 
+
+
+hostiumque gloriosius multitudinem, ut in uno cer- 
+lamine non unam victoriam  reportasset. Posset 
+illic adipisci supremi cruciatus examen qui cum 
+triumpho mittit ad mortem, sed oportebat ut inte- 
+rim retardasset ad eum quem Christus illi delegarat 
+comitem. Nam unc illic illustris Isaac. de lucta- 
+mine sui socii non retinens gaudium, inter fraternos 
+populos publica exultatione sancti Spiritus fereba- 
+tur, qui plenus celesti constantia liberius proclama- 
+bat : Traditores, Venite, salvate vestro unitatis 
+insaniam. Cujus ad vocem Proconsul furibundus auc- 
+torem clamoris instanter Officium conturbabat in- 
+quirere. AE 
+Sed non decrant Traditores qui milites præcessis- 
+
+
+Querclam per ordinem deponitis, sub Leontio, sub D sent : ex quibus statim ministri ipsi sacrilegi de uno 
+
+
+(1) Germanensis Ms., cum Axido εἰ Fasirab, ipsis 
+insauientibus. 
+
+(3) Ex Germ. codice addidimus particulam, a, quia 
+de ea dicit invidia quam episcopi Dunatisto Paulo et 
+Macario faciebant. 
+
+(3) Idem Ms., Octaviensi. 
+4) Hem Ms., Clarus presbyter in loco Subbulensi, 
+5) In Germanensi codice Silvestre, Quem Tauri- 
+pum antea, nunc Silvestrem comitem vocat, forte ut 
+bacco interpretatione molliat verbum convicii. Nam 
+Leontius, Ursacius, Taurinus, nomina videntur, iis 
+ni Douatistas emendarunt judicibus?vel ducibua af- 
+a, bn suas illi pcenas compararent 46 mAP INS 
+secutiones, « quarum prima, » inquit Optatus in 
+—* libro tertio, « fuit ut leo, secunda ut ursus, » 
+PATROL. VIII. 
+
+
+minime satiati, et alterum tradiderunt propriis ma- 
+nibus similiter victimari ; ut Patrum illorum men- 
+sura super illos manifestius posset impleri. Conti- 
+nuo judex vehementer incensus, remoto illo, quem 
+
+
+(ἢ Germanensis codicis auctoritate restituimus hic, 
+sub Ursacio ; et infra, sub Gregorio : item paulo post, 
+sub Operariis unitatis : quæ omnino desiderantur in 
+excusis. Tres Optatus recenset ex ordine, quas quæ- 
+rebantur illi persecutiones : primam Ursacii, de qua 
+etiam lib. ut contra Cresconium, n. 34; secundam 
+Gregorii præſecti, qui. supra laudatur; tertiam vero 
+Pauli et Macarii. Preterit hic Leontium quem | initio 
+libri tertii junxit Macario,.ac postea ipsi junxit aut 
+przmisit Ursacio. 
+(3) Paulo et Macario. 
+
+
+179 
+
+
+MONUMENTA VETEIA 
+
+
+780 
+
+
+paulo ante torquebat, in hunc eontorsit acrius quod A fortior refutabat saerilegæ jussionis imperium, οἱ 
+
+
+furehat, quasi qui unam. necdum digesserat, ct alte- 
+ram conciperet iracundiam. Repetebant iterum fu- 
+riariam defatigati tortores , quorum lassa. jam bra- 
+chia faciebat sola crudelitas fortiora. Liciebat idem- 
+tidem classis illa. carnivorum violentiam plumbata- 
+rum , οἱ totus vires imponderans cgestis nisibus ge- 
+menti rabie grassabatur, quasi ipsa quod inrogave- 
+rat pateretur. Qualis fucrat sustinentia patientis, 
+vbi gemebat grassatio sxvientis! Sed nec in secundo 
+permissus est. diabolus superare, quia victoriam 
+Christi quæ fervebat. fas. non crat in aliquo posse 
+succumbere. Denique sic rursus postquam plumbatis 
+nihil valuere, tormenta similiter admovit iminanitas 
+furiosa, ut in uullo dispari gencre tolerantix discre- 
+
+
+minantis sva supplicia. fpse quoque oculum se illi 
+pariter eruturum frequenti comminatione terribilis 
+promittebat. Cum hiis diu ceriationibus inter semet- 
+ipsos ferocius dimicarent, non pas:us est tantum se 
+differri victorem : sed injecta fortiter manu moram 
+su comiminationis irrupit, οἱ oculum violenter eli- 
+ciens, viduata facic sedem luminis evacuavit. De 
+Cujus vicloria protinus juvenis miræ claritudinis vi- 
+sus est triumphare, et coronam subinde radiatam 
+Capiti ejus imponere : quibus radiis multx fratrum 
+atque. sororum facies ejus videbantur inſixæ, quam 
+cum illi pro przemio traderet. gaudens , adversarium 
+quoque magnis exprobrationibus ludificabat irridens. 
+Tunc hostis vehementi dolore compulsus jussit eum 
+
+
+poreut coelestes armigeri, et in nullo videretur hostis B peuis sevientibus ianiari, ut qu:si poenam susm 
+
+
+leniori supplicio mitigari. 
+
+Laniabatur [saae, nomen scillcet victimm, virgis 
+rumpentibus, patientiam sui nominis imitatus, et cv- 
+soribus iterum atque ilerum repetitis, inconcussa 
+permanebat devotio confitentis. Patucrant omnes 
+compagines ruptis conjunctionibus inadidatz ; οἱ 
+quasi per tot vulnera exitum reperiret, vox illa. vi- 
+debatur confessionis præconia resonare. Nemo enim 
+putet pro levi castigatione plagas tunc fuisse virga- 
+rum, qua pro certo lanienam viccrant augularum. 
+adeo ab ipso judice unguke fastidite sunt. Jam 
+won erant vulnera, sed. secreta corporis denudala ; 
+nec ab ullo dici poterat cæsus, qui madentibus frustis 
+fuerat enervatus. Jam virgarum cesserant fasces, 
+
+
+obtunderentur pene si tantos. comminuerent bipen- C 
+
+
+nes aut falces. Jam truces ministri wgris. ductibus 
+victze feritatis hiatus languidos anhelabaut, οἱ adiiuc 
+esurientia membra mandendis ac. devoraudis poenis 
+omnibus inhiabant. 'Tunc illic insultavit cruciatibus 
+corpus, mens lta sevientibus tot torquentibus 
+unus et torius ac judici judicatus nulla protinus 
+mora sententiam retardavit, sed ambos judex. pari 
+sorte conjungeus ad exilium relig.vit: quibus in carce- 
+rem trusis, Isaac statim martyrii consummavit effec- 
+tum ; et, quod plus est, semel omnes carceres et 
+corpus dimisit et mundum, nc in aliquo visionis ejus 
+revelatio falleretur. Sie enim cuncta. per ordinem 
+pei cueurrit, uL etin ipsa revelatione propemodum quod 
+passus ejus fuerat. onte jam passus sit. Nam cum 
+
+
+posset ulcisci. Sed ille jam victor cernebat se gestan- 
+tium manibus ad superiora subduci, et volantem 
+celerius ad coelorum sublimia suhlevari : quo cum 
+letus ascenderet, senis cujusdam vociferantis audie- 
+bat vocem desuper dicentem : γι tibi, sæcule, quia 
+peristi. Hoc clamore ter iterato, visionis pervenit ad 
+metn, et iteravit postmodum faciendo quod viderat. 
+
+Quid igitur hac visione mamfestius? quid agi per 
+dies posset expressius, quando in actibus digestus 
+est visus? Nunc oppugnas e sc cootra miuistros 
+Regis sic in nocte sibi soli conspexit, sicut per dien 
+nobis postmodum demonstravit : sic lumen impera- 
+toris eruisse, sic cum habebat vincendo c:zecasse, sic 
+praemia corona sortitus est, sic et publice coronatus 
+est; sic corcnz radiis plurimos inharere videri 
+vultus, sicul passioni ejus universus populus faerat 
+excubaturus : sic volavit ad celum, sicut propere 
+meruit adipisci ma;tyrium. lloc solum plane de 
+dictis ejus adhuc usque restitisse cognoscitur, quod 
+mundo prophetavit interitum, quod eum, omnes 
+siquidem scimus non fuisse mentitum, aliquis for- 
+tasse de fratribus expavescat, et MaxiunNox impa- 
+rem dicat, quia prior confessus, superstes est mo- 
+dico tempore reservatus. Absit fratres videantur, 
+quia zequali praelio pugnaverunt, nam si per diver- 
+815 horas venientes ad vineam Dominus de pacto 
+mercedis zquavit, quomodo dispares judicat quas 
+uno tempore laborantes invenit. Sed quod Isaac prior 
+videtur excedere, inde magis cos dico Dominum 
+
+
+quietis sopore paululum teneretur, videbatur sibi- f) comparasse : ut sicut ille huic confessionis incita- 
+
+
+wet cum ininistris imperatoris liabere certamen , 
+nou aliuude scilicet, quam unde sustinuit passiunem. 
+E: hioc plane non. fuerat aliud nisi devotionis indi- 
+cium , ut quod vigilans desiderio rectratabat etiam 
+dormiens pateretur, ut quod propheta de se prefes- 
+$us est in eodem compleretur. Ego, inquit, dorinio , 
+el cor meum vigilat. 
+
+Vigilabat ergo devotio illa jam conamina virtutis 
+exercens, ministros nequitiæ cum jussiouibus regis 
+constantius. repcllebat. audacius repugnantes. Quos 
+cum d uturno. certamine superaret, ipsum quoquo 
+imperatorem respexit subito venientem : qui cum 
+ud complendam jussionem ab eodem cogeretur, 
+
+
+mento suggesseral, sic eum οἱ hic provocaret pa- 
+riter ad coronam. Ambos voluit Dominus sibimet- 
+ipsos esse Doctores, ut de vicissitudine documenti 
+fecisset :»e quales; ne unus in omnibus anutecederet, 
+et unus in omnibus videretur se ipse sequentem. 
+Nunc vero ambo se invicem praecesserunt, et ambo 
+$c invicem consecuti sunt. 
+
+Sed reclusis interim custodiis carceris, navis sci- 
+liect ad exilium. przeparatur, quod non humano con- 
+Silio credo fuisse dispositum, quia claruit superoa 
+dignatione provisum. Ad hoc enim si voluil eos 
+Dowinos sibimet unius diei dilatione concludi, ut 
+secundum visum martyris sui faceret populorum 
+
+
+781 
+
+
+AD DONATISTARUM HISTORIAM PERTINENTIA. 
+
+
+782 
+
+
+exculationibus honorari, non consummato Isaacper A fluctus de summis cumulis ad inferiora rapienda vasto 
+
+
+fecii martyrii nuntius cunctorum aures impleverat. 
+Ad cujus corpus universa continuo [rateruitas lætis 
+cursibus properaverat, quibus cum sepultura corpo- 
+ris a carnificibus negaretur, excubias omues, ne 
+irbum»tum corpus abjiceretur, cun 1magna exulta- 
+tione tenuerunt, illic tota die cum nocle populi 
+lriumphanies, psalinis, hymnis, canticis in testimo- 
+nium cunctis glori: Domini decantalant : et omuis 
+qas 3c sexus inleresse tantis gratulatiunibus ar- 
+denti cupiditate gaudebant. Quale fuit istud, fra- 
+tres, quod Dominus suis martyribus ad honorem 
+diguatus est procurare, ut. xvii Kalend. Septembris 
+die sabbato δὰ iustar Paschae permitteretur popu:us 
+vigilias celebrare. Sic ergo peractus est dies, el nox 
+ita consumpta est. Mox ubi dics alter exortus cst, 
+exspectabatur proconsul quid de corporis humatione 
+jussisset, quid forsitan concederet miser, quod ne- 
+gasse nec homicidis nec adulteris. ullus judicum so- 
+let, nisi e coutra traditorum s:cva pernicics ad 
+crudelitatis capienda consilia vigilarent 1 quorum 
+suggestione proconsul tunc coactus protinus a car- 
+cere jussit expelli vivum pariter cum defuncto, ct 
+marinis fluctibus mergi, ne quasi permitteret eos di- 
+guitatem Martyrum venerari. 
+
+Quam stulta crudelitas, qux» corpora voivit no- 
+stris manibus abnegare, quasi venerationem nobis 
+de mente posset auferre : aut si illi non sepelirentur 
+iu terra, non possent aliter regna intrare coelestia ? 
+Sed accessit illis ad felicitatis augmentum, ut et de- 
+
+
+impetu descendentes ad fundum , el tempestivum 
+mare de inferioribus repulsum egesto potiori iterum 
+citabatur parturiens membra sauctorum, donec im- 
+pulsibus rapidis undarum turbo depressos artus ex- 
+cussit, εἰ immensum pondus cliciens, corporibus 
+raptis victor tandem fluctus evasit. Erigebantur 
+proinde violentius cumuli selidatis aquarum. monti- 
+bus elevati, ut congeries conglobata securius onerosa 
+meuibra subvelieret , nc vicia iterum laborassent , et 
+sub adunatis undique molibus pelagi facta testudine 
+pugnabat unda cuni pondere ; ne oneri violento va- 
+lida maris terga contigere aperiret. 
+
+Sed adhuc restabat alterius laboris opus scilicet ct 
+couamen, ut intervallo infinito discretos, in quo 
+
+
+B quinquies unum celeri congregatione colligeret, ne 
+
+
+alienum sacrilegium ejus negligentix remaneret. Du- 
+cebant liinc aque, hinc geminis cornibus volumiua 
+sinuantia , οἱ pari sibimet coitione subvecta corpora 
+quominus inhiabaL Jam venientis occursus ex utra- 
+que cornuum brevi equiperant medium , et utraque 
+per partes propinquaute conventu intervalli longitudo 
+decrescens venerat iu angustum : cum semel utrique 
+plenus spatiis exemptis tota intercapedo consumpta 
+est, et redactis omnibus simul et undarum corpo- 
+rumque celebrata concordia est. Obsidebantur hzc 
+igitur a fratribus littora, quasi jam certius adveutan- 
+tes Martyres ulla procederet fama, et diebus uocti- 
+busque solíicite praemonita , de(ixis oppantibus spe- 
+rabatur quod credebant quandoque de Dei solita vir- 
+
+
+functi post terrena supplicia pro Christo marinis quo- C tute venturum. Cum subito post bis ternos dies ad 
+
+
+que vexationibus quaterentur , ne ullus locus rema- 
+neret in. mundo, ubi non irriscrant inimicum. lloc 
+illis ad cumulos triumphorum providerat Dominus , 
+ut οἱ in m»jori odio szculi laborassent , et in defün- 
+elis corporibus posset sieut et in vivis exhibere 
+virtutem. Venerant ergo ad carcerem militum cuucti 
+el trivarii fustibus onerati, et vía caedis populos re- 
+yellentes, cunctos pene fecerant vulneratos. Tantum 
+enim debuit Martyrum dignitati concedi , ut pro se- 
+pultura eorum mererentur et alteri confiteri. Postea 
+quia vix valuerunt. universos excludere defunctum 
+pariter et superstitem , ex utroque latere non. paris 
+militum numerus deducebat. Delusit se nescius im- 
+manitas vana , ut ipsa illis prebuisset obsequia , qui- 
+
+
+exemplum umero scilicet geminatum tenipla Christi 
+venire gaudebant, ct occurrentes cuncti, quo- 
+niodo poterant, oculis exsultante alacritate pende- 
+bant : quorum extensis manibus optata membra cum 
+lrop:is suis unda festinans velut in gaudium reso- 
+nans tradidit , et compoti desiderio devota fraternitas 
+cum amplexibus lætis accepit. 
+
+Sic beati Martyres sepulturam debitam receperunt, 
+el optatum reddideruut fratribus obsequium, et frus- 
+irala Christus exbibuit consilia Traditorum , ne aut 
+insepulia tantorum corpora remanere permitte- 
+ret, aut devotionem populi ex parte ulla fraudasset , 
+aut nefandos vota crudelitatis implere cum blasphe- 
+inia sui nominis immolus aspiceret. 
+
+
+bus negavit aliena. Jam littus accesserat maris, jam J) — Lugeat nunc demensa szevitia perſidorum, qua Do- 
+
+
+navis acceptos martyres vehelat ut morgeret. Ast ubi 
+profundi zequoris altitudinem perniciter introivit , 
+non seguius satellites Salanæ celerabant jussa com. 
+plere, devinctos scilicet funibus, e binas orcas arena 
+Conteelas singulorum cervicibus pedibusque necten- 
+les, intervallo non modico ab invicem separatos dc - 
+mergeute pondere dimiserunt. Quos sinu pelagus 
+projeclos ut. agnovit , continuo quasi flammis totuin 
+eœlestihus ureretur, sacrosanctos artus tenere non 
+potuit : «ed convolutis deorsum desuper fluctibus, ad 
+€jiciend corpora detrusas arenas funditus abradcbat, 
+εἰ ab imo fundo ad superiora terga subverieus undis 
+reslientibus  rcumovebat. Mergebantur  scrutantes 
+
+
+minicarum noluit recordari virtutum : non timuit eum 
+posse de mare corpora liberare, quem uovit ab inferis 
+eiiam animas posseerueroe: autsi nihil aliud vel necce- 
+tus qui se vomisset acciperet, perdidit misera crudelitas 
+quo credebat maguum se comperisse consilium , eui 
+nec mare voluit ferre cousensum. Male commenda- 
+vit desideria sua, qua contra creatorem suum pe- 
+lagus uegare non. potuit. Quid agit humana jam ra- 
+lies, ubi mare non persequitur mortes? Quid agit 
+sceleratorum ferias, seva ubi maria revocaut ad 
+sepulturam ? aut quales a persecutoribus Judicantur, 
+quos et ipsa elementa violare timuerunt 3.0 beatze 
+paussienis memorabilis gloria, in qua diguatus est 
+
+
+185 
+
+
+ITINERANIUM 
+
+
+T8À 
+
+
+Christus tot exbibere magnalia ! o felix exitus, qui A vobis ocenrrant. Properate naviter, coneurrite perti- 
+
+
+'alibus contigit, quem pro illorum meritis tantis vir- 
+tutibus decoravit! In devotione constantia, in passione 
+tolerantia, in morte victoria, magnalibus in sepultura. 
+
+Ad vos nunc, fratres, cuncta jam redeunt , quæ 
+vos ad regna cœlestia deduxcrunt. Vos exempla ista 
+compellunt , qux illos primo per vos ad has glorias 
+compulerunt. Magistros vos illis confessionum fre- 
+quentia crebris opinionibus fecerat , et ipsi nunc vo- 
+bis de martyrio suggerunt. Similiter documenta vestra 
+vos adhortantur qux alios adhortata sunt. Tendunt 
+ad vos e coelo jam bracchia, operientes tempus quo 
+
+
+tinaciter : exspectant vobiscum simul] capere digni- 
+tatem. Eia, agite, fratres , accelerate quantocius, ut 
+ct de vobis non aliter gaudeamus. Inveniat apud vos 
+rcditus uoster unde glorietur, sicut et de his sceessio 
+nostra sortita est gaudia gloriarum. Sed euntes ad 
+iropwa vestra veniamus : ut sicut. vobis horum vic- 
+torias nuntiavimus , sic postmodum vestras buc ad 
+Carthaginem seculturis ezeteris nuntiemus. 
+
+Eaplicit epistola beatissimi Martyris Macrobi ad ple- 
+bem Carthaginis de passione Mariyrum Isaac et Maxi- 
+miani. Deo gratias , amen. 

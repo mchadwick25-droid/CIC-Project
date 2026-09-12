@@ -36,18 +36,18 @@ tellable_as: >-
   prison gates, officials are bribed for access, and visitors travel from
   distant cities at communal expense.
 text: >-
-  This is how it would have been, in the life of a member of this community
-  imprisoned under threat of execution - though no one narrates this member by
+  This is how it would have been, in the life of one of us imprisoned
+  under threat of execution - though no one narrates this member by
   name. An outside observer preserves the picture, almost despite himself. He
   was hostile, mocking, writing to satirize a man he considered a fraud who
-  had once attached himself to this community. And yet his account shows what
+  had once attached himself to us. And yet his account shows what
   happened around such an imprisonment. Widows and orphans waited at the
   prison gates from early morning. Officials were bribed so visitors could get
   inside. People traveled from the cities of Asia, sent by their own
   communities, to comfort and support the one held. Sacred books were read
   aloud to him inside the prison, and gifts of money were brought. A separate,
   later witness describes the standing practice behind such moments. Writing
-  to defend this world's communities before a hostile Roman audience, he tells
+  to defend our communities before a hostile Roman audience, he tells
   of a voluntary monthly contribution, given only by those willing and able.
   The money was not spent 'on feasts, and drinking-bouts, and eating-houses,
   but to support and bury poor people, to supply the wants of boys and girls
@@ -56,7 +56,7 @@ text: >-
   to the islands, or shut up in the prisons, for nothing but their fidelity to
   the cause of God's Church.' Together, these two outside accounts - one
   mocking, one defending - describe the same pattern from opposite directions.
-  This community organized real material and personal help around a member
+  We organized real material and personal help around one of our own
   facing exactly this kind of threat.
 absent_detail: "No account survives from the imprisoned member's own side - not even a name. What is reconstructed here is entirely the pattern of support around such a person, never that person's own experience of it."
 modern_contrast: >

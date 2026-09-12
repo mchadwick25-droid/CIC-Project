@@ -60,7 +60,7 @@ text: >-
   psalms after the manner of the Eastern churches, so the waiting did not have
   to be endured in silence. That custom, he wrote, was kept from then till
   now, and imitated by nearly all congregations across the world. In the
-  middle of it, Ambrose preached the sentence this world kept: the emperor is
+  middle of it, Ambrose preached the sentence we kept: the emperor is
   within the Church, not above it. The court did not take the building.
 absent_detail: 'No unnamed congregant''s own account survives - the vigil''s interior reaches the record
   only through Augustine''s memory and Ambrose''s own interested telling; Justina''s court''s side of the

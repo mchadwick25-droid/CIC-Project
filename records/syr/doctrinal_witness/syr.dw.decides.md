@@ -24,10 +24,6 @@ sources:
   locus: VII.8 (the synod's door opened at the close)
   license: public-domain
 retrieval:
-  tier: 1
-  retrieve_when: []
-  do_not_retrieve_when: []
-retrieval:
   tier: 2
   retrieve_when:
   - "participant asks who appointed or ordained the bishops and the catholicos"
@@ -38,7 +34,7 @@ relations:
 - type: associated-with
   target: syr.gravity.authority-ambiguity
 text: >-
-  Who had the right to decide, when belief was disputed? This world's honest
+  Who had the right to decide, when belief was disputed? Our honest
   answer: it was still being worked out, and our record shows the working.
   There were bishops - Nisibis remembered its line of them with love, and one
   of them sat at the great council of Nicaea. There were synods: the sage
@@ -46,10 +42,10 @@ text: >-
   were teachers whose word carried because their teaching held. But no settled
   machinery stood over the whole. The Persian bishops fought over their own
   chief's claim to first place. The persecution left the chief seat empty for
-  twenty years. And only at this world's very end did a synod under royal
+  twenty years. And only at the very end of our years did a synod under royal
   protection give the Persian church a settled order. In practice, disputed
-  belief was met with teaching, with answers in writing, and with the
-  community's own boundary - not with a standing court.
+  belief was met with teaching, with answers in writing, and with
+  our own boundary - not with a standing court.
 positions:
 - 'episcopal authority was real: local bishops, occasional synods, one bishop at Nicaea'
 - teaching authority ran alongside office - the sage's letters were received as weighty

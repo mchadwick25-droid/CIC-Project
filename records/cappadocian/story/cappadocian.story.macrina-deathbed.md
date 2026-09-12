@@ -35,7 +35,7 @@ narrative_tier_justification: "Tier 1, with a literary frame that must travel wi
 tellable_as: "A brother finds his dying sister lying on bare boards, and their last conversation becomes a philosophical dialogue on the soul and the resurrection."
 text: >-
   In 379, Gregory of Nyssa traveled to see his sister Macrina - the eldest
-  of his siblings, whom this world called simply the Teacher, hē
+  of his siblings, whom we called simply the Teacher, hē
   didaskalos - and found her already dying. She lay not on a couch but on a
   plank set on the ground, wrapped in a rough garment, with no possessions
   around her. As she was dying, brother and sister talked - about the soul,

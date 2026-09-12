@@ -65,7 +65,7 @@ text: >-
   bare word unsaid, for the sake of the church's peace, while more urgent
   voices wanted the plain word spoken and his own friends defended his
   restraint. The doxology held. Years later, when the bishops gathered again,
-  the faith was written the way this world had already been singing it: the
+  the faith was written the way we had already been singing it: the
   Spirit, who together with the Father and the Son is worshipped and
   glorified.
 absent_detail: "No record survives of how the worshippers who first objected understood what was at stake for themselves - only Basil's own account of the challenge and his own argument in reply."

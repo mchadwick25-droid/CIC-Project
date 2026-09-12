@@ -1,0 +1,115 @@
+{
+  "three_seats": {
+    "world_keys": [
+      "cappadocian",
+      "pahc",
+      "syr"
+    ],
+    "question": "Who is Jesus, and how did you understand Him?",
+    "turns": [
+      {
+        "speaker": "cappadocian",
+        "position": 1,
+        "pass": "FIRST PASS",
+        "selector_reason": "Opening question posed directly to the full Table. Chilo's Cappadocian tradition has sustained the most developed theological reflection on Christology by this period (Gregory of Nyssa's deep trinitarian and incarnational work); beginning there grounds the conversation in formal theological witness, after which the other traditions can respond with their own distinct understandings.",
+        "text": "Jesus is the Son of God, fully what the Father is — not a likeness, not a lesser copy. We confessed him one being with the Father, homoousios, of the same substance — the word we inherited from Nicaea and defended across two generations.\n\nBut ask us how we understood him, and the deepest answer runs through what he does, not only what he is. Salvation among us meant becoming god by grace — theōsis, our boldest word — the creature growing endlessly into God's own likeness, the gap between maker and creature never closing, and the reaching itself never finished. That is why the fight over the Son's standing mattered so much to us: if the Son makes gods of us, the Son cannot be a creature, because no creature makes gods. Only God does that.\n\nAnd we met him first not in a treatise but at the font. We were baptized into his Name with the Father and the Spirit, and the words said over us — Father, Son, and Holy Spirit — were our charter before we could weigh them. Believe as you were baptized, we said, because the formula spoken over you already carries the whole confession.\n\nHow we understood him was also built on one honest limit we never softened. We taught that no mind grasps God completely. Basil said it plainly against a rival who claimed otherwise: anyone who says he can fully discover how things really are, reaching up to what is beyond all understanding, is claiming something we cannot claim. Every word for God reaches him truly and captures nothing complete.\n\nSo Jesus among us was the Son, fully God, who makes gods by grace — fought for in the words precision required, sung at the evening lamps either way, and confessed at the edge of what any mind can hold.",
+        "cited_record_ids": [
+          "cappadocian.dw.want-to-believe",
+          "cappadocian.dw.who-was-jesus",
+          "cappadocian.quote.basil-against-eunomius-ant"
+        ],
+        "round_open_after": true
+      },
+      {
+        "speaker": "pahc",
+        "position": 2,
+        "pass": "FIRST PASS",
+        "selector_reason": "Chloe from the Post-Apostolic House-Church world has not yet spoken this round, and the participant asked an open question to the whole Table. Beginning to gather the different formation worlds' responses to this foundational question will let the participant witness how genuinely different understandings of Jesus took shape. Chloe's household-centered world offers a distinct vantage from Chilo's theological precision.",
+        "text": "He was a real man, not an idea. Ignatius wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David. He truly ate and drank. He was truly brought before Pilate, truly nailed to the cross, and truly died — not in appearance only, the way those Ignatius wrote against claimed. And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father.\n\nWhen we give thanks over the cup — the eucharistia, our own word for that thanksgiving — we call it the vine of David his servant, made known to us through Jesus. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.\n\nIgnatius calls Jesus Christ our God again and again — in how he opens his letters and in how he closes them. It is not one passing phrase; he reaches for it often. But it is worship, not an argument worked out. How calling Jesus God fits together with calling the Father God — with there being one God — none of us whose writing survives ever wrote out.\n\nChilo says the Son is fully what the Father is, of the same substance. That language is not ours yet. How that difference stands — whether his is one thing becoming clearer, or something else — we know only what we have heard at this Table.",
+        "cited_record_ids": [
+          "pahc.witness.jesus-as-god",
+          "pahc.witness.who-was-jesus"
+        ],
+        "round_open_after": true
+      },
+      {
+        "speaker": "syr",
+        "position": 3,
+        "pass": "FIRST PASS",
+        "selector_reason": "Cappadocian and Post-Apostolic House-Church voices have both spoken. The participant's original question was open to the whole Table. Mar Yausep (Syriac Christianity) has not yet answered and represents a genuinely different formation world—the Covenant Order of Edessa/Nisibis would have its own distinctive understanding of Jesus shaped by its own practices and theological inheritance. This is the moment to hear how this third voice received the same question.",
+        "text": "To us, Jesus is the Only-Begotten of God — the Ihidaya, our own name for him. He left his place with God and made his home in the Virgin, and by being born as we are born, he became the brother of many. That was the shape of it for us — not a title first, a kinship first.\n\nOur own sage calls it a sure thing: Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light — a chain of Scripture's own names rather than a philosopher's definition. And our hymns confess the Only-Begotten who was with Deity and came to dwell among us. We stood with the great council's faith — our own bishop of Nisibis sat at Nicaea — but our native tongue for that faith was praise.\n\nHow we understood him ran through what he rescued us from. His death and rising are one rescue. He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom. Our hymns sing Death himself trembling, because Jesus had plundered his house. His own resurrection is the promise that he will bring us out after him.\n\nAnd what it meant to those who followed him was healing. We called him the Physician, and his coming was medicine for a wounded people.\n\nWe sang him more than we defined him. That was ours.",
+        "cited_record_ids": [
+          "syr.dw.jesus",
+          "syr.dw.was-jesus-god",
+          "syr.quote.aphrahat-sure-thing",
+          "syr.quote.ephrem-only-begotten-dwelling",
+          "syr.quote.ephrem-resurrection-pledge"
+        ],
+        "round_open_after": true
+      },
+      {
+        "closed": true
+      }
+    ]
+  },
+  "two_seats": {
+    "world_keys": [
+      "alx",
+      "desert"
+    ],
+    "question": "Who is Jesus, and how did you understand Him?",
+    "turns": [
+      {
+        "speaker": "alx",
+        "position": 1,
+        "pass": "FIRST PASS",
+        "selector_reason": "This is the opening question to the Table, foundational and open to all voices. Theon, as Catechetical Teacher of Alexandrian Christianity, is the natural first voice—his tradition was built on systematic instruction in who Jesus is, with developed theological frameworks. Starting with his formation creates a clear foundation that Desert monasticism can then respond to or deepen from lived experience.",
+        "text": "To us Jesus is the Logos - God's own Word, through whom all things were made - come in flesh. That is the heart of it, and everything we held grew from that center.\n\nClement, one of our earliest teachers, opened his whole work with Jesus as the New Song: 'Behold the might of the new song! It has made men out of stones, men out of beasts'. He meant that the one who first brought order to the world had entered it, to reorder us - not by force, but by beauty that pulls the soul back into tune. Near the end of our era, Athanasius put the whole hope in one sentence: 'He was made man that we might be made God'. Not that we become gods ourselves, but that his own life is opened to us and shared - what we called methexis, participation.\n\nBetween those two witnesses lies the same conviction spoken different ways. Jesus is not a messenger bringing news about God from outside. He is God's own self-expression - the eternal Word who was with God and was God - entering what he made in order to remake it. His death is the doctor entering the sickness, from inside. His resurrection - the anastasis - is unbreakable life let loose in human nature. And what it meant for the people who followed him was nothing less than a shared life: God's own, held out to creatures who had turned away.\n\nWe read Scripture always in relation to him. Every page, at every level - plain and deeper both - we heard as the Logos speaking. The law was his paideia, his patient raising of a people. The prophets were his voice before the flesh. The gospels Origen called 'the firstfruits of all the Scriptures' - because there the Word speaks in a human mouth, and we can hear both at once.\n\nAnd this is how we understood him: not only as the one who taught rightly about God, but as the one whose entering changed what it means to be human. The incarnation was not a visit. It was a healing from within - the Logos taking on the whole weight of human nature, death and disorder included, and carrying it back toward God. Athanasius said bluntly that if death is trampled down, it is because the deathless one walked into it and broke it. That confidence - that resurrection is not a report but a present power - ran through everything we did.",
+        "cited_record_ids": [
+          "alx.dw.jesus",
+          "alx.quote.athanasius-made-god",
+          "alx.quote.clement-new-song",
+          "alx.term.christological-reading",
+          "alx.term.incarnation",
+          "alx.term.methexis"
+        ],
+        "round_open_after": true
+      },
+      {
+        "speaker": "desert",
+        "position": 2,
+        "pass": "FIRST PASS",
+        "selector_reason": "only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+        "text": "We do not argue about him for a living the way Theon's own people did. We were formed to see him. But when it mattered, we said plainly what we held.\n\nThree things. The first reordered our lives. One command, heard as though it were spoken straight to you: sell what you have, give it to the poor, and follow me. Not a saying to be studied - an order to be obeyed. One of us walked into church and heard those words read. He took it as though it had been said to him alone. Before the day was over he had given away the land he had inherited. Not long after, hearing it again, he gave away the rest, placed his sister with women he trusted, and began the discipline. That is what following Jesus looked like for us: total, immediate, and done.\n\nThe second we argued for, when we were pressed to. The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature. We held this as Theon's people did - one of us was called down from his own mountain to answer the Arians in public, and the words we gave were these: the Son of God is not some lesser, created thing, but the Eternal Word of the Father's own being, always with him. That much we share.\n\nThe third is what we thought his cross had already done. Death stopped being the thing that could make a person do anything. When the empire stopped killing Christians for the name, we understood the same fight to have moved inward - against our own thoughts rather than against the sword. And the enemy we fought there was one Christ had already beaten. We said it to the devil's own face: his coming has made you weak, cast you down, and stripped you.\n\nWhere Theon speaks of the Logos as the Word bringing order, we agree - but we speak less of order restored and more of an enemy already defeated. His resurrection, to us, was not an idea to teach but a strength we carried into the fight. We are not the doers of healings, one of us said. It is Christ who works them, by means of those who believe in him.",
+        "cited_record_ids": [
+          "desert.dw.god",
+          "desert.dw.jesus",
+          "desert.quote.antony-nicene-formula",
+          "desert.quote.christ-worketh-them-not-we",
+          "desert.quote.the-coming-of-christ-made-thee-weak",
+          "desert.story.antony-call"
+        ],
+        "round_open_after": true
+      },
+      {
+        "speaker": "alx",
+        "position": 3,
+        "pass": "SECOND PASS",
+        "selector_reason": "only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+        "text": "We speak the same confession Papnoute does - the Word made flesh, not changed but taking on human nature to heal it from within. Where we part is not in what we confess, but in how we came to it and what we did with it after.\n\nPapnoute's voice heard one command and obeyed it totally - that is their witness, and we honor it. Ours heard the same Word and spent lifetimes reading him at depth, teaching others to read, arguing about what the reading opened. Origen said the gospels are 'the firstfruits of all the Scriptures' - he meant they hold the center, and every other text is read in their light. That work - the patient, layered reading - was how we met the Logos speaking. Not once, in a command that reordered everything in a day, but daily, in a school where souls were formed over years by attending to his voice through the text.\n\nAnd where Papnoute says the resurrection was a strength carried into a fight already won, we said something close but turned a different way. Athanasius wrote that death is trampled down - you can see it, he said, in the martyrs' fearlessness. That much we share. But we also said the resurrection opened a life to be participated in, not only a victory to stand behind. The soul is being transformed toward God - metanoia, real turning, the whole person reordered over time. That transformation was what we devoted ourselves to: not the single obedience that breaks the old life in a day, but the long formation that carries a person, step by step, into the new one.\n\nWe do not say one road is truer than the other. We say ours was the road of the teacher and the student, the liturgy and the opened text, the slow work of a soul learning to see.",
+        "cited_record_ids": [
+          "alx.dw.jesus",
+          "alx.gravity.learning-formation",
+          "alx.gravity.scripture-formative",
+          "alx.gravity.soul-transformation",
+          "alx.term.metanoia",
+          "alx.term.methexis"
+        ],
+        "round_open_after": true
+      },
+      {
+        "closed": true
+      }
+    ]
+  }
+}

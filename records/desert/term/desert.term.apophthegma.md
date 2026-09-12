@@ -33,7 +33,7 @@ relations:
   target: desert.term.diakrisis
 - type: associated-with
   target: desert.gravity.scriptural-engagement
-plain_meaning: "The saying: a short word from an elder, given to one person for one moment of need. It was this world's main way of teaching."
+plain_meaning: "The saying: a short word from an elder, given to one person for one moment of need. It was our main way of teaching."
 world_word: apophthegma
 false_friend:
 - a quotable aphorism

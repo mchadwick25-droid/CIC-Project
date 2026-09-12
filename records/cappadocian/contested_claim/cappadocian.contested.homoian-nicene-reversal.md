@@ -19,10 +19,10 @@ sources:
     narrative per Doc_02 §1.6, never as the world's own voice"
   license: public-domain
 - source_id: cappadocian.source.imperial-communion-law-of-381
-  locus: "the settlement naming Helladius, Otreius, Gregory of Nyssa, and Amphilochius among the East's
-    touchstone bishops - not independently acquired this session, per this source's own rights_status;
-    the named bishops are independently attested via Van Dam and the wider secondary literature, not
-    resting solely on this unacquired primary text"
+  locus: "the settlement naming eleven eastern bishops whose communion is the test of catholicity, four
+    of them this world's own (Amphilochius of Iconium; Helladius of Caesarea, Otreius of Melitene,
+    Gregory of Nyssa) - Latin verified directly 2026-09-09, though the text is still not vendored into
+    this repository's own cic/texts/ on the default branch, per that source record's own rights_status"
 - source_id: cappadocian.source.gregory-nazianzus-invectives-against-julian
   locus: "Orations 4 and 5 - one of the only episodes in this whole reversal where both sides' own
     words survive (Julian's own edict and letters alongside Gregory's reply)"

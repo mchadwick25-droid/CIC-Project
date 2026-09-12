@@ -24,7 +24,7 @@ retrieval:
   - envy as a specifically named vice in this world's preaching
   do_not_retrieve_when: []
 relations: []
-plain_meaning: This world preached a whole sermon against envy by name. They named it a sin that comes
+plain_meaning: We preached a whole sermon against envy by name. Envy, we said, is a sin that comes
   from the devil. It is the vice of a heart that cannot bear someone else's good fortune.
 world_word: phthonos
 false_friend: []
@@ -38,7 +38,7 @@ senses:
     fit for a world that made shared life its central good.
   translational: This maps reasonably well onto the modern idea of envy, without much distortion risk
     -- the gap here is textual access, not meaning.
-quick_meaning: 'Envy: named in this world''s own moral preaching as a diabolical sin.'
+quick_meaning: 'Envy: named in our own moral preaching as a diabolical sin.'
 distortion_risk: low
 ---
 Built from Doc_06 entry 35 (Tier 3). Doc_06 declares no Related-Terms for this entry in either direction (Index E.3) -- relations: [], a decision, not an oversight.

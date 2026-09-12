@@ -30,7 +30,7 @@ retrieval:
 relations:
 - {type: associated-with, target: ijc.term.imperator-intra-ecclesiam}
 - {type: associated-with, target: ijc.term.communio}
-plain_meaning: 'A basilica: the great hall-style church this world built once emperors began funding churches. At
+plain_meaning: 'A basilica: the great hall-style church we built once emperors began funding churches. At
   Milan in 386, one such building became the prize in the fight over who commands the church''s space.'
 world_word: basilica
 distortion_risk: low
@@ -47,7 +47,7 @@ senses:
     stone but ground held.
   translational: Not "basilica" in the modern honorific sense of a papally-designated church - here it
     is the ordinary word for the great hall where the church actually met.
-quick_meaning: The great hall-style church building of this world - and sometimes the prize fought over.
+quick_meaning: Our great hall-style church building - and sometimes the prize fought over.
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 3;
 Lexicon-Chunks/ijclex011_basilica.md), widened per this build's step-4

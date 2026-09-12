@@ -416,3 +416,116 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "lpc build thread, live web search, 2026-09-02; direct archive.org fetch and file inspection, 2026-09-08"
     status: downloaded
+  - title: "On the Government of God (De Gubernatione Dei)"
+    author: "Salvian of Marseilles"
+    translator: "Eva M. Sanford"
+    year: 1930
+    world: gallic
+    why: >
+      Surfaced by a scheduled source-readiness routine for
+      gallic-monastic-ascetic-christianity as a "plausible PD English
+      edition, unconfirmed" — directly verified this pass. Sanford's
+      translation is hosted in archive.org's "opensource" collection
+      (fully downloadable, no lending restriction); 1930 publication is
+      now more than 95 years old (the same pd-us-by-date basis already
+      used for this queue's 1928 Vita Ambrosii row), independent of
+      renewal status.
+    url: "https://archive.org/details/SalvianOfMarseille.OnTheGovernmentOfGod"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification, 2026-09-09"
+    status: downloaded
+
+  - title: "Vita Germani (Life of Germanus of Auxerre)"
+    author: "Constantius of Lyon"
+    translator: "(Latin only — ed. Wilhelm Levison)"
+    year: 1920
+    world: gallic
+    why: >
+      Surfaced by the same source-readiness routine as a load-bearing
+      gap. No public-domain English translation exists: the only
+      English translation (F. R. Hoare, "The Western Fathers," Sheed and
+      Ward, 1954) is marked access-restricted / printdisabled on every
+      archive.org copy found, and a renewal check against Stanford's
+      Copyright Renewal Database could not be completed this session
+      (exhibits.stanford.edu and tertullian.org are both blocked by this
+      session's network egress proxy) — treat Hoare's translation as
+      NOT confirmed public domain, not as a acquirable candidate, until
+      that check is actually done. Levison's critical Latin edition (MGH
+      Scriptores rerum Merovingicarum VII, pp. 225-283) is confirmed
+      public domain instead, the same Latin-acquisition path already
+      used for Faustus of Riez and Eucherius of Lyon below. A translation
+      effort (not a rights problem) is what stands between this text and
+      use, same as Faustus's De gratia.
+    url: "https://archive.org/details/passionesvitaequesanctorum5"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification, 2026-09-09"
+    status: downloaded
+
+  - title: "De gratia libri duo"
+    author: "Faustus of Riez"
+    translator: "(Latin only — ed. August Engelbrecht, CSEL 21)"
+    year: 1891
+    world: gallic
+    why: >
+      Already logged as a located-but-not-vendored lead in this world's
+      own G1 Source Acquisition Manifest and Source Registry (row 24),
+      but only sibling-flagged there, never independently re-verified or
+      added to this cross-world queue — fixed on both counts this pass.
+      Directly re-verified against archive.org: "NOT_IN_COPYRIGHT,"
+      fully open. The only English translation (Guido Stucco, Brepols
+      "Library of Christian Sources," 2023) is recent and in copyright;
+      no public-domain English translation exists, so this Latin CSEL
+      text is the real acquisition target, pending a translation effort.
+    url: "https://archive.org/details/corpusscriptorum21fausuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification, 2026-09-09 (previously sibling-flagged only)"
+    status: downloaded
+
+  - title: "De Contemptu Mundi (\"The World Contemned\")"
+    author: "Eucherius of Lyon"
+    translator: "Henry Vaughan"
+    year: 1654
+    world: gallic
+    why: >
+      Already logged as a located-but-not-vendored lead in this world's
+      own Source Registry (row 25), sibling-flagged only — re-verified
+      and vendored this pass. The bare `ccel.org` domain turned out to be
+      reachable through this session's network egress proxy (only
+      `www.ccel.org` is blocked); CCEL's own page states directly, "This
+      document is in the public domain."
+    url: "https://ccel.org/ccel/e/eucherius/contempt/cache/contempt.pdf"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification, 2026-09-09 (previously sibling-flagged only)"
+    status: downloaded
+
+  - title: "De Laude Eremi"
+    author: "Eucherius of Lyon"
+    translator: "(Latin only — ed. J.-P. Migne, Patrologia Latina 50)"
+    year: 1846
+    world: gallic
+    why: >
+      Already logged as a located-but-not-vendored lead in this world's
+      own Source Registry (row 26), sibling-flagged only — directly
+      re-verified this pass. Migne PL 50 (archive.org) confirmed public
+      domain ("Public Domain Mark 1.0"); also contains Vincent of Lérins
+      and Hilary of Arles's own works in the same volume (see next row).
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_050"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification, 2026-09-09 (previously sibling-flagged only)"
+    status: downloaded
+
+  - title: "Sermo de Vita Sancti Honorati"
+    author: "Hilary of Arles"
+    translator: "(Latin only — Patrologia Latina 50)"
+    year: 1846
+    world: gallic
+    why: >
+      This world's own founding narrative for Lérins, currently absent
+      from the vendored library (Source Registry row 27, sibling-flagged
+      only) — directly re-verified this pass in the same Migne PL 50
+      volume as the row above. Independently attested to exist by
+      Gennadius's own text (already vendored, npnf203 ch. LXX).
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_050"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification, 2026-09-09 (previously sibling-flagged only)"
+    status: downloaded

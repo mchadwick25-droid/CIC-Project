@@ -25,9 +25,9 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  How much of this world's story would hold up in a library? More than most
-  ancient worlds, and the places where it would not are known by name. Its
-  spine is documents: council acts with dates and signatures, church canons,
+  How much of our story would hold up in a library? More than most
+  ancient worlds, and the places where it would not are known by name. The
+  spine of it is documents: council acts with dates and signatures, church canons,
   imperial laws, and letters between named men about named disputes. A
   historian can cross-check those instruments, and historians do. That is the
   strong half. The honest other half is that nearly all of it was kept by the
@@ -37,8 +37,8 @@ text: >-
   real from forged is still scholars' work. Some founding stories are attested
   twice and disagree: the emperor's vision and the emperor's dream are both on
   record, and they are not the same story. So the events and instruments are
-  solid, the coverage is narrow, and the framing is interested. This world can
-  show its receipts, and its receipts show who kept the books.
+  solid, the coverage is narrow, and the framing is interested. We can
+  show our receipts, and our receipts show who kept the books.
 positions:
 - the documentary core (councils, canons, laws, letters) is unusually strong and checkable
 - the record's gaps are structural and nameable - the losing side, the ordinary believer, the forged

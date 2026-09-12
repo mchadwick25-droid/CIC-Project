@@ -4,7 +4,7 @@ world_id: _fleet
 record_type: canon_question
 schema_version: 2
 cell: F2-E
-text: How much of what you've told me would hold up in a university library?
+text: How would a historian evaluate what you've told me?
 source:
 - corpus
 canon_status: seed

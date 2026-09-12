@@ -49,7 +49,7 @@ relations:
   target: cappadocian.term.hesychia
 - type: associated-with
   target: cappadocian.term.philanthropia
-plain_meaning: This world taught that salvation means becoming god by grace. A person grows endlessly
+plain_meaning: We taught that salvation means becoming god by grace. A person grows endlessly
   into likeness with a God no mind can measure. Becoming god by grace never meant becoming equal to God.
   The creature never crosses the gap that separates it from its maker.
 world_word: theōsis
@@ -72,7 +72,7 @@ senses:
     -- this world insisted the opposite: the gap is never crossed from below; deification means participation,
     kinship deepening without the difference ever closing, which is exactly why the smallest demotion
     of the Son or the Spirit was worth fighting a generation over.'
-quick_meaning: Deification, or becoming god by grace. This world's boldest word for what salvation finally
+quick_meaning: Deification, or becoming god by grace. Our boldest word for what salvation finally
   is.
 distortion_risk: high
 ---

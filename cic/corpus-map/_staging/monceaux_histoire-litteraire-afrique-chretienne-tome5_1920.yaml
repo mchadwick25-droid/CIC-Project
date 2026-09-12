@@ -1,0 +1,16 @@
+source_file: monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt
+
+assignments:
+  - work: "Histoire littéraire de l'Afrique chrétienne, Tome V: Saint Optat
+      et les premiers écrivains donatistes"
+    author: monceaux
+    locus: "whole volume"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: assigned
+    note: >
+      Monceaux's own study (1920, French) of Optatus and the earliest
+      Donatist-side writers specifically — modern secondary scholarship,
+      the volume of this series most directly on this entry's own early-
+      period figures. Pairs with Tomes IV and VI (staged separately).

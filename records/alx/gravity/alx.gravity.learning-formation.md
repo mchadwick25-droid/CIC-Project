@@ -16,7 +16,10 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.gregory-address-to-origen
-  locus: VII-IX
+  locus: 'VII-IX, XIII ("theology" in the manifestations list below is Argument XIII
+    ("The Method Which Origen Used in His Theological and Metaphysical Instructions,"
+    anf06 line 3661), outside the VII-IX range; VII=logic, VIII=physics/geometry/astronomy,
+    IX=ethics)'
   license: public-domain
 - source_id: alx.source.clement-stromateis
   locus: I-II
@@ -47,7 +50,8 @@ description: 'In the school tradition, learning IS formation - study, inquiry, a
   own basis): after the Origen rupture and under the post-Nicene authority shift, formation''s center
   of gravity moves toward the episcopal-doctrinal channel.'
 manifestations:
-- the curriculum Gregory describes (logic, physics, geometry, astronomy, ethics, theology - Address VII-IX)
+- the curriculum Gregory describes (logic, physics, geometry, astronomy, ethics - Address VII-IX; theology
+  - Address XIII)
 - Clement's faith-knowledge-wisdom progression (Stromateis)
 - the teacher-student succession itself (Pantaenus to Clement to Origen) as formation's chief channel
 classification: supporting

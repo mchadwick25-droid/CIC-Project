@@ -31,8 +31,8 @@ relations:
   target: cappadocian.term.paradosis
 - type: associated-with
   target: cappadocian.term.symbolon
-plain_meaning: Baptism used the words 'Father, Son, and Holy Spirit.' This world argued that those words
-  themselves are the faith's own deposit. You must believe as you were baptized, they said, because the
+plain_meaning: Baptism used the words 'Father, Son, and Holy Spirit.' We argued that those words
+  themselves are the faith's own deposit. You must believe as you were baptized, we said, because the
   formula said over you already carries the whole confession.
 world_word: baptisma / phōtisma
 false_friend:
@@ -49,7 +49,7 @@ senses:
   translational: '''Isn''t this just an old ritual formality?'' -- this world treated the formula as load-bearing:
     getting the Threefold Name wrong in baptism, or repeating it under a Eunomian rite, was treated as
     a real break in what someone actually belonged to.'
-quick_meaning: Baptism, or illumination. Being immersed into the Threefold Name, given as this world's
+quick_meaning: Baptism, or illumination. Being immersed into the Threefold Name, given as our
   own charter.
 distortion_risk: medium
 ---

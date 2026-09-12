@@ -28,17 +28,17 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Did this world have denominations? Not as the word is now meant. But its
+  Did we have denominations? Not as the word is now meant. But our
   streets held rival communities who all invoked Christ. Marcion's people had
   their smaller Bible and their stranger God. Bardaisan's circle had their
   songs. Later came Mani's missionaries. How did the church handle them? Not
-  with councils or force, in these years, but by keeping the line clear. It
-  would not share their communion. It answered their teaching by name, in
-  prose and in song. And it held to the wholeness it had received: one God,
-  the whole of Scripture, the body's resurrection. What it would have wanted
-  said of itself is the line its own era kept: wherever they are, Christians
-  are all called after the one name of Christ. It knew itself as part of that
-  one people, across two empires and beyond.
+  with councils or force, in these years, but by keeping the line clear. We
+  would not share their communion. Their teaching we answered by name, in
+  prose and in song. And we held to the wholeness we had received: one God,
+  the whole of Scripture, the body's resurrection. What we would have wanted
+  said of us is the line our own era kept: wherever they are, Christians
+  are all called after the one name of Christ. We knew ourselves as part of
+  that one people, across two empires and beyond.
 positions:
 - rival Christ-invoking communities were near neighbors, not distant abstractions
 - the church's response in-window was refutation and boundary, not coercion

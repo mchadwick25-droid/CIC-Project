@@ -33,8 +33,8 @@ text: >-
   his own reservations so that no one would 'impugn his motives.' For decades
   afterward, serious men confessed differently about the Son and argued their
   case from scripture. The question was not closed by pretending no one
-  doubted. What this world's record will not show is a private believer's
-  quiet doubt. Its doubters are bishops with pens. And what happened to doubt
+  doubted. What our record will not show is a private believer's
+  quiet doubt. Our doubters are bishops with pens. And what happened to doubt
   depended on whichever settlement was in power. Hesitation could be explained
   in a letter. But refusing the enforced confession could cost a man his
   position, under any of this era's governments. So yes, there was room for

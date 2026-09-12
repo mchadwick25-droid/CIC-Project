@@ -13,8 +13,8 @@ worlds:
     state: built
     census_id: null
     package:
-      manifest_hash: "sha256:e27e46abe8e11edf25375e64829d7e4ef9b47812aee8ac5d96a917e27452de0d"
-      location: "packages/fix/2026-09-03T14-57-38Z"
+      manifest_hash: "sha256:7bfd5e711f12f20b745305d7cbd85f4063323a7a9acb0015fa80998acfbb4928"
+      location: "packages/fix/2026-09-04T16-41-58Z"
     thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
     living_tradition_flag: false
   alx:
@@ -37,8 +37,8 @@ worlds:
     state: admitted
     census_id: "alexandria-catechetical"
     package:
-      manifest_hash: "sha256:1a168f8f615ee200928e0e81269b7be2f13b31a749f9202a10036bc430f57df0"
-      location: "packages/alx/2026-09-03T14-57-38Z"
+      manifest_hash: "sha256:708d240fa5820099e054be11db8b4769e5b38d8a022493a2d213e78f743e916f"
+      location: "packages/alx/2026-09-09T23-12-35Z"
     thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
     living_tradition_flag: true
   desert:
@@ -63,14 +63,14 @@ worlds:
     state: admitted
     census_id: "desert-monasticism"
     package:
-      manifest_hash: "sha256:36ebeabc050d371d20d71bcbe8de36c393f904ecba18c087837f4813743e87dc"
-      location: "packages/desert/2026-09-03T14-57-39Z"
+      manifest_hash: "sha256:9a79a0a3208631344881e77709e066df3341b8cc7e361c7004f6eb8f18ca4cf4"
+      location: "packages/desert/2026-09-09T03-17-52Z"
     thinness_statement: "Richest in the Apophthegmata's own elder-and-disciple sayings tradition and Antony's own Vita; thinner on ordinary participants outside the collected-sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus)."
     living_tradition_flag: true
   pahc:
     kind: formation
     world_id: post-apostolic-house-church
-    display_name: "Post-Apostolic House-Church Christianity"
+    display_name: "Post-Apostolic Household-Church Christianity"
     time_window: {start: 70, end: 200}
     place: "Antioch/Syria, Asia Minor, Rome"
     doorway_place: "Antioch, the cities of Asia Minor, and Rome"
@@ -83,13 +83,13 @@ worlds:
       Corinth. There were no church buildings yet, no finished New Testament,
       no safety in the law. There were only communities working out, generation
       by generation, what it meant to stay one church across an empire.
-    card_name: "The House-Churches"
+    card_name: "The Scattered Households"
     representative: {name: Chloe, role_label: "Household Leader"}
     state: admitted
     census_id: "post-apostolic-house-church"
     package:
-      manifest_hash: "sha256:4812eb54bc712c82a7bedd456f8983b43c8db2218373f08de3b51f19be2dc876"
-      location: "packages/pahc/2026-09-03T14-57-40Z"
+      manifest_hash: "sha256:ae504b13b2ce19ddc0949bc8be1010132d172ddf4203d9d335b551c2a1d79800"
+      location: "packages/pahc/2026-09-10T09-40-33Z"
     thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
     living_tradition_flag: true
   hal:
@@ -113,8 +113,8 @@ worlds:
     state: admitted
     census_id: "hieronymian-ascetic-literary"
     package:
-      manifest_hash: "sha256:242679f272ffb633545f3dd6661141abdb7315c4bce88ada38c742c935d05b36"
-      location: "packages/hal/2026-09-03T14-57-41Z"
+      manifest_hash: "sha256:88dffc65eb5ea4321d5fc9de7c6125fbaefb2346df6f99ce76314faeeb5dacc8"
+      location: "packages/hal/2026-09-09T23-14-42Z"
     thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
     living_tradition_flag: true
   syr:
@@ -141,8 +141,8 @@ worlds:
     state: admitted
     census_id: "syriac-edessa-nisibis"
     package:
-      manifest_hash: "sha256:05ee65e41339ea7a4477284ddc70b518ccfa8563325c7f70a9f8a43128fb4b40"
-      location: "packages/syr/2026-09-03T14-57-42Z"
+      manifest_hash: "sha256:eecd2703568c7dd77696feac78cc5b26e94dbb96cb2c379a8bd746e5e9d61df4"
+      location: "packages/syr/2026-09-10T00-12-57Z"
     thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
     living_tradition_flag: true
   ijc:
@@ -166,8 +166,8 @@ worlds:
     state: admitted
     census_id: "imperial-juridical-christianity"
     package:
-      manifest_hash: "sha256:2cee10b0d8d2690b2190c3bad94afbc6f502e76b3808d3a28492d24a6f0344e6"
-      location: "packages/ijc/2026-09-03T14-57-41Z"
+      manifest_hash: "sha256:0073a22c17559bc5d0cd639e77a264c0613c3610d6cfbc6b653faea10967fcca"
+      location: "packages/ijc/2026-09-10T00-31-01Z"
     thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
     living_tradition_flag: true
   cappadocian:
@@ -199,5 +199,37 @@ worlds:
     living_tradition_flag: true
     state: admitted
     package:
-      manifest_hash: "sha256:e56a3be2f27a17c713e2d22c444d8d7a9364272bbd46138611da7fdc2bb04668"
-      location: "packages/cappadocian/2026-09-03T14-57-43Z"
+      manifest_hash: "sha256:68a2bac341da5e873cc197543cc72935be8189baee971c2b2d91c89ad23d75c9"
+      location: "packages/cappadocian/2026-09-10T00-10-21Z"
+  don:
+    kind: formation
+    world_id: donatism
+    display_name: "Donatism"
+    time_window: {start: 311, end: 439}
+    place: "Roman North Africa - Carthage, Numidia, Africa Proconsularis, Byzacena, Mauretania"
+    doorway_place: "Carthage and the towns of Numidia"
+    doorway_description: >-
+      In 311 or 312, a bishop of Carthage accused of surrendering the
+      scriptures under persecution was consecrated anyway - and a rival
+      was consecrated beside him because of it, not in his place. From
+      that day the same see held two bishops at once, two parallel
+      hierarchies contesting town after town across Roman North Africa,
+      each holding its own basilicas and its own unbroken line of
+      ordination. This is the rigorist alternative communion that grew
+      from that refusal: not a doctrinal heresy - its confession is
+      standard North African Latin Trinitarian and Christological
+      orthodoxy - but a communion built on one unyielding conviction,
+      that a tainted hand cannot give what it claims to give, lived out
+      through rebaptism, the martyrs' graves read aloud once a year, and
+      a refusal of the Christian emperor's own standing to judge the
+      church. It closes in 439, when a Vandal army took Carthage and
+      removed the Roman state this whole refusal was defined against.
+    card_name: "The Church of the Martyrs"
+    representative: {name: Fidelis, role_label: "Bishop of the Unbroken Line"}
+    census_id: "donatism"
+    thinness_statement: "Richest in the purity doctrine and its rebaptism consequence, the legal and institutional shape of the schism, the conciliar and imperial documentary record, and the martyr narratives; nearly the whole textual record passes through the hands of Catholic opponents (Optatus, Augustine) before reaching us, its central evidentiary problem. Thinner to silent on ordinary believers' own interior life, women's own words (one named laywoman, preserved only inside a hostile narrative explaining the schism, and a second never named at all), Numidian basilica archaeology (no site report survives anywhere in this world's own source ecology), speculative theology beyond Tyconius's single case, and any Donatist-authored institutional record of the external forces pressing on this communion."
+    living_tradition_flag: false
+    state: built
+    package:
+      manifest_hash: "sha256:836a8e641dab13a088a077511003b6257d61b9aff37c7d0a1d4ad6c627ec1322"
+      location: "packages/don/2026-09-10T18-49-44Z"

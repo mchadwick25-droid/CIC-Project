@@ -39,7 +39,7 @@ senses:
     the place had held - at the manger most of all.
   translational: This world's pilgrimage was elite and individual - a far cry from mass pilgrimage;
     its distinctive move was not visiting the holy places but STAYING.
-quick_meaning: Pilgrimage - devotional travel to the holy places, and for this world, the choice
+quick_meaning: Pilgrimage - devotional travel to the holy places, and for us, the choice
   to stay.
 distortion_risk: medium
 ---

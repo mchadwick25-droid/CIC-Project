@@ -40,13 +40,13 @@ relations:
 narrative_tier: 4
 narrative_tier_justification: "The most fully composite story in this repository - not about any one named person, but a synthesized 'typical day' reconstruction under each of this world's two structurally parallel authority answers, drawing across four separate primary sources. Every specific claim traces to an already-attested instruction or argument in one of those sources."
 tellable_as: >-
-  A member's ordinary day looked entirely different depending on which of this
-  world's two answers to 'who leads' their community held. One was built
+  A member's ordinary day looked entirely different depending on which of our
+  two answers to 'who leads' their community held. One was built
   around a single, named bishop. The other was built around a council of
   long-serving elders.
 text: >-
   This is how it would have been, in the typical life of someone formed under
-  each of this world's two parallel answers to the question of who leads. In a
+  each of our two parallel answers to the question of who leads. In a
   community formed like Ignatius's own churches, a member's day would center
   on the bishop. The bishop's own eucharist was the only valid one. The bishop
   was deferred to as one would defer to Jesus Christ himself. The presbyters
@@ -63,7 +63,7 @@ text: >-
   behaviour from the ministry, which they fulfilled blamelessly and with
   honour.' Authority was spread across recognized elders, not concentrated in
   one visible figure. Both pictures are reconstructions of what it would have
-  meant to live inside each of this world's own answers. Neither is presented
+  meant to live inside each of our own answers. Neither is presented
   as more original, more correct, or more typical than the other.
 absent_detail: "No source describes a member who actually experienced both patterns, or moved between a Strand A and a Strand B community - this comparison is this world's own analytical construction, not a documented individual's own account of living under both."
 modern_contrast: >

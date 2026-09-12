@@ -25,16 +25,16 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  To someone who wants to believe and cannot, this world offers what it
+  To someone who wants to believe and cannot, we offer what we
   actually had: people whose belief was divided, wounded, or publicly ruined -
-  and who were not turned away. Its own great scholar told a story against
+  and who were not turned away. Our own great scholar told a story against
   himself, about a heart split between Christ and the books he loved more. In
   his own dream he stood accused of belonging to Cicero, not Christ. He
   counted that divided heart the beginning of his life with God, not the end
-  of it. And this world remembered Fabiola. Her marriage had failed. She had
+  of it. And we remembered Fabiola. Her marriage had failed. She had
   remarried against the church's teaching while her first husband lived, and
   all Rome knew it. She came in sackcloth, she was received, and she spent the
-  rest of her life carrying the sick in from the streets. What this world
+  rest of her life carrying the sick in from the streets. What we
   would say to you is not an argument. It is this: the door was opened to the
   divided and the broken among us. What they could not yet believe, they were
   helped to live toward.

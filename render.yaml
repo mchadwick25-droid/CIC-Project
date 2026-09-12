@@ -92,3 +92,10 @@ services:
         sync: false
       - key: AWS_SECRET_ACCESS_KEY
         sync: false
+      # /api/admin/pilot-summary (2026-09-05): a real, random Bearer token
+      # Mark sets in the dashboard, never committed - same sync: false
+      # pattern as the AWS keys above. Left unset, the route 404s outright
+      # (engine.api.app._authenticate_admin); there is no code default to
+      # accidentally ship a guessable one.
+      - key: CIC_API_ADMIN_TOKEN
+        sync: false

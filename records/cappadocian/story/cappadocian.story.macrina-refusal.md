@@ -31,7 +31,7 @@ relations:
   target: cappadocian.gravity.ascetic-reordering
 narrative_tier: 3
 narrative_tier_justification: "Tier 3: this is family memory, recorded by her brother a generation removed from the event itself, shaped by the genre convention of the virgin-philosopher's unwavering resolve - not an eyewitness account of the events in the way the deathbed scene partly is. What the story actually evidences is the formation ideal it communicates, which is Contested for its specific factual detail but genuine as this world's own account of its founding logic."
-tellable_as: "A young woman's betrothed dies before the wedding, and she declares herself bound to him still - the resolve this world remembers as where its own ascetic household began."
+tellable_as: "A young woman's betrothed dies before the wedding, and she declares herself bound to him still - the resolve we remember as where our own ascetic household began."
 text: >-
   As a young woman, Macrina was betrothed, as her family arranged, to a
   young man of good family. Before the marriage could take place, he died.
@@ -44,7 +44,7 @@ text: >-
   wife's fidelity does not end at a husband's absence. She refused every
   later match her mother tried to arrange, and instead began the pattern of
   life - prayer, work, and eventual withdrawal into ascetic community with
-  her mother and, later, other women - that this world's own tradition
+  her mother and, later, other women - that our own tradition
   treats as the founding resolve behind the whole household's
   transformation into a community.
 absent_detail: "No account of this decision survives from Macrina's own hand, or from her mother, whose own attempts to arrange a later match are recorded only as something Macrina refused."

@@ -31,18 +31,18 @@ relations:
 - type: associated-with
   target: syr.force.transmission-ongoing
 text: >-
-  How much of this would hold up in a library? A fair amount, and this world's
-  record is unusually honest about its own edges. Its two great voices are
+  How much of this would hold up in a library? A fair amount, and our
+  record is unusually honest about its own edges. Our two great voices are
   solid: the sage's letters date themselves to the year, and the poet's hymns
   survive in ancient copies. A terse city chronicle, drawn from real archives,
-  sets a church building in Edessa before the flood destroyed it - the
-  community's oldest hard fact. But the beloved story of the king who wrote to
+  sets a church building in Edessa before the flood destroyed it - our
+  oldest hard fact. But the beloved story of the king who wrote to
   Jesus is legend, written down generations later to give the church an
-  apostolic beginning; scholars do not defend it as history, and this voice
+  apostolic beginning; scholars do not defend it as history, and we
   will not either. Where is the record thinnest? Where it always is. Ordinary
   believers left no writings of their own. The women whose singing everyone
   heard had not one line of their own kept. The enslaved are missing. The last
-  decades before the synod are nearly blank. And every argument this world's
+  decades before the synod are nearly blank. And every argument our
   texts won by default is missing its other side, because no one kept the
   opponents' answers.
 positions:

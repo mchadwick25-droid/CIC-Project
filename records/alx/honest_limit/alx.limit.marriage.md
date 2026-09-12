@@ -18,10 +18,10 @@ sources:
   locus: III exists in the vendored volume in Latin only - the file's own header states the Latin sections
   license: public-domain
 statement: 'What marriage meant among us is a thing our fullest treatment of it cannot say to you in your
-  tongue. Clement wrote a whole book defending marriage against those who despised it - and that book
-  has come down in Latin, not in the English we can honestly give you. We can tell you the heart of it:
-  marriage was honored, the body was not despised, and the home was a place of formation. The detail we
-  must leave in the sources.'
+  tongue. Clement wrote a whole book defending marriage against those who despised it - it survives in
+  the Greek he wrote it in, but no one has yet given us an English rendering we can honestly offer you.
+  We can tell you the heart of it: marriage was honored, the body was not despised, and the home was a
+  place of formation. The detail we must leave in the sources.'
 why_sources_cannot_answer: Stromateis III - the corpus's most direct treatment of marriage, sexuality,
   and the body - has no public-domain English translation (ANF left it in Latin; the modern translations
   are in copyright). Mark's ruling of 2026-08-21 accepts this absence for now, with translate-from-Greek
@@ -36,3 +36,12 @@ data, in voice, FK-checked. The cell is substantively covered for its
 money/poverty questions (clement-possessions); this limit answers the
 marriage question inside it. Also nearest material for the F6
 identity-collision divorce cells at step 5.
+
+Corrected 2026-09-08, records/alx audit: the `statement` field
+previously told participants the book "has come down in Latin," which
+reads as a transmission/manuscript-loss story. The true story is a
+translation-policy gap: Stromateis III survives in Clement's own Greek
+(the `why_sources_cannot_answer` field already said this correctly --
+"ANF left it in Latin"); no one has translated it into public-domain
+English. Reworded the in-voice statement to match the analytical field
+instead of contradicting it.

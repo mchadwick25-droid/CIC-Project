@@ -28,18 +28,18 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  To this world, Jesus was the one the whole argument was about, and the
-  argument itself was their devotion. Who was he? The creed answers: very God
+  To us, Jesus was the one the whole argument was about, and the
+  argument itself was our devotion. Who was he? The creed answers: very God
   of very God, of one being with the Father, who for us and for our salvation
   came down, was made man, suffered, and rose on the third day. A century of
   councils spent itself making those words exact, because everything hung on
   them. If the Son is not truly God, then what he gives is not truly God's to
   give. Leo's letter explains why the exactness mattered: true God and true
   man, each nature doing what belongs to it in one person, so that the death
-  could be ours and the victory could be God's. This world did not write
-  devotional memoirs about Jesus. It wrote definitions, and it wrote them the
-  way people write what they are prepared to be exiled over. In the language
-  this world actually had, the definitions were the devotion.
+  could be ours and the victory could be God's. We did not write
+  devotional memoirs about Jesus. What we wrote were definitions, and we wrote
+  them the way people write what they are prepared to be exiled over. In the
+  language we actually had, the definitions were the devotion.
 positions:
 - Jesus is truly God - of one and the same being with the Father, not a lesser or later being
 - he is truly man - born, suffering, dying; the manhood not swallowed by the Godhead

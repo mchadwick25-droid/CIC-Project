@@ -21,6 +21,9 @@ sources:
 - source_id: alx.source.clement-protrepticus
   locus: I
   license: public-domain
+- source_id: alx.source.nicene-creed-325
+  locus: line 2412 (the "of one substance with the Father" wording, for the translational sense)
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when:
@@ -49,3 +52,10 @@ The id matches the Artifact-1 SS1 example (alx.term.logos). Modern
 hearing: 'logos' as rhetoric/logic jargon. World hearing: the living
 center of everything. Author-gravity: attested across all three major
 figures - low single-source risk.
+
+corrected 2026-09-08, records/alx audit: the translational sense's
+"after 325, 'of one substance with the Father'" was vendored wording
+but not present in this file's cited sources; the phrase is in the
+Creed of Nicaea itself (npnf214, line 2412: "being of one substance
+(ὁμοούσιον, consubstantialem) with the Father"), now cited via
+alx.source.nicene-creed-325.

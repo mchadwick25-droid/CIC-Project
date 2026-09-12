@@ -10,19 +10,36 @@ import { TableRoom } from './screens/TableRoom';
 
 type Screen = 'launch' | 'conversation' | 'table';
 
+// Safe cross-origin (a reference comparison, never a property read) - the
+// standard "am I inside an iframe" check. Real today: cic-website/talk.html
+// embeds this app in a themed <iframe>, and this app had zero awareness of
+// that (2026-09-04 live bug, Mark hit it directly) - "Leave for now" fell
+// back to this app's own pre-redesign Launch screen, which used to just
+// read as the app's own homepage when reached in its own tab, but reads as
+// "the site broke and reverted to the old design" rendered inside a themed
+// iframe dressed up to look like part of the new site.
+const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
+
 /**
  * The deep-link grammar - the ONE contract between the discovery surfaces
  * (cic-website's world cards, the Atlas) and this app (Mark's launch
- * ruling, 2026-08-28):
+ * ruling, 2026-08-28; Table mode's auto-start reversal, 2026-09-06):
  *
- *   ?worlds=<id>&mode=interview   -> straight into the conversation, no
- *                                    waiting place (arrival happens inside
- *                                    the room)
- *   ?worlds=a,b[,c]&mode=table    -> the launch screen's Table field with
- *                                    those seats chosen - a Table is
- *                                    CONVENED, never auto-started
- *   ?mode=table                   -> the Table field, empty
- *   /                             -> the launch screen (the world cards)
+ *   ?worlds=<id>&mode=interview      -> straight into the conversation, no
+ *                                       waiting place (arrival happens
+ *                                       inside the room)
+ *   ?worlds=a,b[,c]&mode=table       -> straight into the table
+ *                                       conversation, same as interview -
+ *                                       2 or 3 named seats is enough to
+ *                                       convene on arrival (2026-09-06:
+ *                                       Mark reversed the original "a
+ *                                       Table is CONVENED, never
+ *                                       auto-started" rule - "it should go
+ *                                       straight to the conversation")
+ *   ?worlds=<one id>&mode=table,       -> too few seats to convene - the
+ *   ?mode=table                          launch screen's Table field, with
+ *                                        that one seat (or none) chosen
+ *   /                                 -> the launch screen (the world cards)
  *
  * Interview mode with several ids honors the first (one voice per
  * interview, spec O9). Ids are census_ids - the same ids worlds.yaml and
@@ -43,6 +60,16 @@ function consumeDeepLink() {
   if (window.location.search) window.history.replaceState({}, '', window.location.pathname);
 }
 
+/** Order-insensitive set equality for comparing a Table deep link's seats
+ * against what's stored - reseating the same participants isn't a new
+ * request, but a different lineup is. */
+function sameSeats(a: string[], b: string[]): boolean {
+  if (a.length !== b.length) return false;
+  const sortedA = [...a].sort();
+  const sortedB = [...b].sort();
+  return sortedA.every((key, i) => key === sortedB[i]);
+}
+
 function App() {
   const conversation = useConversation();
   const table = useTable();
@@ -59,13 +86,53 @@ function App() {
   // Waits for the world list before deciding the first screen - a ?worlds=
   // deep link can't be matched against an empty list. Resuming a session
   // already open in this tab takes priority (interview or table, decided
-  // by the stored mode); only when there's nothing to resume does the deep
-  // link get its one chance to fire.
+  // by the stored mode) UNLESS the incoming URL explicitly asks for the
+  // OTHER mode - a fresh, different request always wins over a stale
+  // leftover session (see the conflict check just inside the effect).
+  // Only when there's nothing to resume, or nothing to conflict with,
+  // does the deep link get its one chance to fire.
   useEffect(() => {
     if (worldsLoading || deepLinkFired.current) return;
     deepLinkFired.current = true;
     const stored = readStored();
-    const resume = stored?.mode === 'table' ? table.rehydrate().then((keys) => (keys ? 'table' : null)) : conversation.rehydrate().then((key) => (key ? 'interview' : null));
+    const deepLink = parseDeepLink();
+    const linked = deepLink.censusIds
+      .map((id) => findWorldByCensusId(worlds, id))
+      .filter((w): w is NonNullable<typeof w> => w !== undefined)
+      .map((w) => w.worldKey);
+    // A fresh deep link explicitly asking for a DIFFERENT mode than
+    // whatever's left over in this tab's storage is the participant
+    // choosing to start something new (2026-09-05 live bug, Mark hit it
+    // directly: an earlier interview left mode:'interview' in storage,
+    // and a subsequent Table deep link - a genuinely different request -
+    // never got its one chance to fire, because resuming the stale
+    // interview always ran first and always succeeded, since that old
+    // session was still open server-side; parseDeepLink was only ever
+    // reached once resume came back empty). Only resume when the
+    // incoming request agrees with (or says nothing explicit about) what
+    // is stored - a bare reload of an already-open room still carries no
+    // conflicting params and resumes exactly as before.
+    const hasExplicitDeepLink = deepLink.censusIds.length > 0 || new URLSearchParams(window.location.search).has('mode');
+    const storedModeConflicts = hasExplicitDeepLink && stored !== null && deepLink.mode !== stored.mode;
+    // A SAME-mode deep link naming a different world (interview) or a
+    // different lineup (table) than what's stored is just as much a fresh
+    // request as a mode switch - the check above only ever looked at mode
+    // (2026-09-09 live bug, Mark hit it directly: back out of an interview
+    // with one voice, click a different voice - both land on mode:
+    // 'interview', so nothing noticed the world itself had changed, and the
+    // OLD interview resumed instead of the newly-picked one starting).
+    const storedWorldConflicts =
+      !storedModeConflicts &&
+      hasExplicitDeepLink &&
+      stored !== null &&
+      deepLink.mode === stored.mode &&
+      linked.length > 0 &&
+      (stored.mode === 'table' ? !sameSeats(linked.slice(0, 3), stored.worldKeys ?? []) : linked[0] !== stored.worldKey);
+    const resume = storedModeConflicts || storedWorldConflicts
+      ? Promise.resolve(null)
+      : stored?.mode === 'table'
+        ? table.rehydrate().then((keys) => (keys ? 'table' : null))
+        : conversation.rehydrate().then((key) => (key ? 'interview' : null));
     resume.then((resumed) => {
       if (resumed === 'table') {
         setScreen('table');
@@ -77,15 +144,29 @@ function App() {
         setScreen('conversation');
         return;
       }
-      const { censusIds, mode } = parseDeepLink();
-      const linked = censusIds
-        .map((id) => findWorldByCensusId(worlds, id))
-        .filter((w): w is NonNullable<typeof w> => w !== undefined)
-        .map((w) => w.worldKey);
+      const { censusIds, mode } = deepLink;
       if (mode === 'table') {
-        // Intentional by design: the link chooses seats, the participant
-        // convenes. Never auto-creates a session.
-        setSeated([...new Set(linked)].slice(0, 3));
+        const uniqueLinked = [...new Set(linked)].slice(0, 3);
+        if (uniqueLinked.length >= 2) {
+          // 2026-09-06: auto-convene, same as interview's frictionless
+          // arrival - Mark's reversal of the original "never auto-creates
+          // a session" rule. Falling back to the seat-and-focus path below
+          // if convene() itself fails keeps a broken table from stranding
+          // the participant with nothing on screen.
+          consumeDeepLink();
+          table.convene(uniqueLinked).then((sessionId) => {
+            if (sessionId) {
+              setScreen('table');
+              return;
+            }
+            setSeated(uniqueLinked);
+            setTableFocus(true);
+          });
+          return;
+        }
+        // Too few named seats to convene - land on the Table field with
+        // what we have (0 or 1 seat), awaiting the rest.
+        setSeated(uniqueLinked);
         setTableFocus(true);
         consumeDeepLink();
         return;
@@ -129,6 +210,15 @@ function App() {
     setSeated([]);
     setTableFocus(false);
     setLaunchNotice(null);
+    if (isEmbedded) {
+      // Tell the parent page to navigate itself, rather than falling back
+      // to this app's own Launch screen inside the iframe (see isEmbedded's
+      // own comment). talk.html owns where "leave" actually goes - its own
+      // #back-link, already real and already styled - this app has no
+      // business re-deciding that destination.
+      window.parent.postMessage({ type: 'cic:leave' }, '*');
+      return;
+    }
     setScreen('launch');
   };
 

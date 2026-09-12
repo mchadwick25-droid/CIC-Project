@@ -24,7 +24,7 @@ retrieval:
   - anger as a specifically named and disciplined vice
   do_not_retrieve_when: []
 relations: []
-plain_meaning: This world preached against anger directly. They treated it as a passion that dresses itself
+plain_meaning: We preached against anger directly. Anger, we said, is a passion that dresses itself
   up as justice, while it does real harm.
 world_word: orgē
 false_friend: []
@@ -38,7 +38,7 @@ senses:
     rather than simple loss of control.
   translational: This maps reasonably well onto the modern idea of anger, without much distortion risk
     -- again, the real gap is textual access to the sermons themselves, not a difference in meaning.
-quick_meaning: Anger. A passion this world's own preaching named and disciplined.
+quick_meaning: Anger. A passion our own preaching named and disciplined.
 distortion_risk: low
 ---
 Built from Doc_06 entry 37 (Tier 3). Doc_06 declares no Related-Terms for this entry in either direction (Index E.3) -- relations: [], a decision, not an oversight.

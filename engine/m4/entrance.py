@@ -64,15 +64,31 @@ def open_session(
     code_hash: str,
     world_key: str | None = None,
     package_manifest_hash: str | None = None,
+    package_location: str | None = None,
     world_keys: list[str] | None = None,
     package_manifest_hashes: dict[str, str] | None = None,
+    package_locations: dict[str, str] | None = None,
 ) -> int:
     """One sealed writer, two mode shapes (Artifact-7 SS1): an interview
     passes world_key/package_manifest_hash, a table passes world_keys/
     package_manifest_hashes. The payload carries only the caller's shape -
     Nones are never written - and events.validate() is what enforces that
     the shape matches the mode, so this function stays a writer, not a
-    second validator."""
+    second validator.
+
+    package_location(s) (2026-09-04) pins the package DIRECTORY this
+    session actually loaded from, alongside the hash it already pinned -
+    optional, not part of events.validate()'s required floor, so old
+    session_started events written before this field existed still fold
+    fine (projection.py falls back to the registry's current pointer when
+    it's absent). Without it, a repin after session-open changes
+    records/worlds.yaml's location for this world_key, and every later
+    handle_message() call resolves the package DIRECTORY through today's
+    registry rather than the one this session actually verified against -
+    the wrong directory almost always carries the wrong hash too, so a
+    live in-flight conversation refuses (PackageRefused -> 503) on the
+    very next turn. Old packages are never deleted (Artifact-2 SS2), so
+    pinning the directory here is sufficient - it will still be there."""
     existing = store.read_events(session_id)
     if any(e.event_type == SESSION_STARTED_EVENT_TYPE for e in existing):
         raise SecondWriterError(
@@ -84,10 +100,14 @@ def open_session(
         payload["world_key"] = world_key
     if package_manifest_hash is not None:
         payload["package_manifest_hash"] = package_manifest_hash
+    if package_location is not None:
+        payload["package_location"] = package_location
     if world_keys is not None:
         payload["world_keys"] = world_keys
     if package_manifest_hashes is not None:
         payload["package_manifest_hashes"] = package_manifest_hashes
+    if package_locations is not None:
+        payload["package_locations"] = package_locations
     events.validate(SESSION_STARTED_EVENT_TYPE, payload)
     return store.append(
         session_id=session_id, event_uuid=event_uuid, event_type=SESSION_STARTED_EVENT_TYPE, payload=payload

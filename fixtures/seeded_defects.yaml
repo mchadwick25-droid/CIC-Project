@@ -148,6 +148,14 @@ defects:
     mutation: {op: set_field, path: identity, value: "Vera, Witness - a synthetic composite voice speaking for the fixture world's two short sources (RULED by Mark, 2026-08-21: name and role are the only sanctioned fabrications)."}
     expected_failure: "voice_craft.identity carries an ISO-format date and a 'ruled by' attribution - build-process language leaked into a field build_prompt() compiles into the live model's own Identity section"
 
+  - id: voice-perspective-third-person-self-reference
+    gate: voice-perspective
+    layer: M1
+    note: "mirrors the real defect this gate exists to catch (measured fleet-wide 2026-09-04: 250 genuine instances across all 8 built worlds' doctrinal_witness/term/story/honest_limit/ambient/demonstration fields - see CiC_Cross_System_Analysis_Tracking.md) - the Representative's voice describing its own world from outside, the way a builder names a world, never the way an inhabitant of it would. Single mutation exercises both the literal-phrase check and the it/its-chain check together, the same shape gate_no_build_attribution's own seeded defect uses to hit two of its patterns at once."
+    target_record: records/fix/doctrinal_witness/fix.witness.who-is-jesus.md
+    mutation: {op: set_field, path: text, value: "This world did not claim to have seen him. Its record says only that the ones who told it could not be talked out of what they had seen, and that it was worth this world's own lives changing because of it."}
+    expected_failure: "doctrinal_witness.text speaks of \"this world\" and a following \"Its\" from outside, in the third person, instead of the we-voice register the approved sample already models"
+
   - id: sentinel-string-in-retrieval-block
     gate: schema-validation
     layer: M1

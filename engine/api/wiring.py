@@ -19,6 +19,7 @@ from engine.m4.turn import TurnResult, UnhandledRoutingAction, run_turn
 from engine.m4.world_loader import LazyWorldLoader, LoadedWorld
 from engine.m5.anachronism import anachronistic_term_ids as compute_anachronistic_term_ids
 from engine.m5.routing import PRESSABLE_CLASSES
+from engine.m7.session_reader import read_session
 from engine.m8.log_store import UsageLogStore
 
 class UnknownWorldError(Exception):
@@ -81,11 +82,27 @@ class MessageResult:
     voice: dict | None
 
 
-def _load_world(world_loader: LazyWorldLoader, registry: dict, world_key: str, *, expected_manifest_hash: str | None = None) -> LoadedWorld:
+def _load_world(
+    world_loader: LazyWorldLoader,
+    registry: dict,
+    world_key: str,
+    *,
+    expected_manifest_hash: str | None = None,
+    package_location_override: str | None = None,
+) -> LoadedWorld:
     entry = registry.get(world_key)
     if entry is None:
         raise UnknownWorldError(world_key)
-    package_dir = REPO_ROOT / entry["package"]["location"]
+    # package_location_override (2026-09-04): an in-flight session's own
+    # pinned directory, when it has one (see entrance.py's open_session
+    # docstring) - never the registry's CURRENT pointer for that call, since
+    # a repin between this session's open and this turn would otherwise
+    # resolve a directory this session never verified against. Old packages
+    # are never deleted, so the pinned directory is still there to read.
+    # Falls back to today's registry pointer for callers with no pin of
+    # their own (list_worlds, a fresh create_session/create_table_session)
+    # and for sessions opened before this field existed.
+    package_dir = REPO_ROOT / (package_location_override or entry["package"]["location"])
     world, _timing = world_loader.load(
         world_key, package_dir=package_dir, expected_manifest_hash=expected_manifest_hash or entry["package"]["manifest_hash"]
     )
@@ -112,6 +129,12 @@ def create_session(*, store: Store, world_loader: LazyWorldLoader, registry: dic
         frame=None,
         code_hash=session_code.hash_code(raw_code),
         package_manifest_hash=world.manifest_hash,
+        # The directory this world actually loaded from, pinned alongside
+        # its hash - registry[world_key] re-read here rather than reusing
+        # any value from _load_world above, since that call's own default
+        # (no override) resolved through today's registry, which is
+        # exactly the value this session needs to remember (see entrance.py).
+        package_location=str(registry[world_key]["package"]["location"]),
     )
 
     # The conversation's first-ever line, Program-Spec SS71 ("visible at
@@ -194,6 +217,84 @@ def get_transcript(store: Store, session_id: str) -> SessionState:
     if not state.exists:
         raise SessionNotFound(session_id)
     return state
+
+
+@dataclass(frozen=True)
+class PilotSummary:
+    """Aggregate, participant-content-free counts over the whole session
+    log (2026-09-05: "how many pilot id/transcripts have been generated"
+    had no answer from outside the service itself - no admin surface
+    existed at all, only per-session lookups gated by that session's own
+    auth code). Never carries transcript text, citation content, or a
+    session_id list - just enough to answer "how many" and "is the table
+    round cap firing where it should," the two questions that prompted
+    this."""
+
+    total_sessions: int
+    by_mode: dict[str, int]
+    open_sessions: int
+    closed_by_reason: dict[str, int]
+    # round count -> how many table sessions closed there via the session
+    # round cap (session_closed reason "cap", table mode only) - a direct
+    # check on TABLE_SESSION_ROUND_CAP actually firing at the configured
+    # number in real use, not just in a fake-backed test. Keys are strings
+    # (JSON object keys, not a list) since the round count itself carries
+    # the finding: unexpected keys mean the cap fired somewhere it
+    # shouldn't have.
+    table_round_counts_on_cap: dict[str, int]
+    earliest_session_at: str | None
+    latest_session_at: str | None
+
+
+def get_pilot_summary(store: Store, *, since: str | None = None) -> PilotSummary:
+    """Reuses engine.m7.session_reader (the M7 audit's own reader) rather
+    than re-deriving the event fold a second way - this only tallies what
+    that reader already exposes per session, never re-reads raw events
+    itself. `since` passes straight through to Store.list_session_ids,
+    the same M7-sweep filter."""
+    session_ids = store.list_session_ids(since=since)
+    by_mode: dict[str, int] = {}
+    closed_by_reason: dict[str, int] = {}
+    table_round_counts_on_cap: dict[str, int] = {}
+    open_sessions = 0
+    earliest: str | None = None
+    latest: str | None = None
+
+    for session_id in session_ids:
+        session = read_session(store, session_id)
+        if session is None:
+            continue
+        by_mode[session.mode] = by_mode.get(session.mode, 0) + 1
+        if session.first_at and (earliest is None or session.first_at < earliest):
+            earliest = session.first_at
+        if session.last_at and (latest is None or session.last_at > latest):
+            latest = session.last_at
+        if not session.closed:
+            open_sessions += 1
+            continue
+        reason = session.close_reason or "unknown"
+        closed_by_reason[reason] = closed_by_reason.get(reason, 0) + 1
+        if session.mode == "table" and reason == "cap":
+            # table_wiring.handle_table_message's session_capped branch
+            # always appends its OWN zero-turn round_closed (+
+            # turn_committed) as the cap's own close, on top of however
+            # many real rounds preceded it (the same event pair every
+            # real round gets - table_wiring._close_round's own
+            # docstring) - so the round count the cap actually fired AT
+            # (what TABLE_SESSION_ROUND_CAP compares rounds_completed
+            # against) is one fewer than the raw event count.
+            round_no = str(len(session.rounds_closed) - 1)
+            table_round_counts_on_cap[round_no] = table_round_counts_on_cap.get(round_no, 0) + 1
+
+    return PilotSummary(
+        total_sessions=len(session_ids),
+        by_mode=by_mode,
+        open_sessions=open_sessions,
+        closed_by_reason=closed_by_reason,
+        table_round_counts_on_cap=table_round_counts_on_cap,
+        earliest_session_at=earliest,
+        latest_session_at=latest,
+    )
 
 
 
@@ -334,14 +435,31 @@ def handle_message(
     state = project_fresh(session_id, store)
     if not state.exists:
         raise SessionNotFound(session_id)
-    if state.closed:
+    # An idle close (engine.m4.idle_close) is reporting-only - a
+    # participant resuming with their session code is never refused for
+    # it, unlike a real (cap/participant) close. project_fresh's own fold
+    # already reopens state.closed once this message lands, so this is
+    # the one place that still needs to look past it before that happens.
+    if state.closed and state.close_reason != "idle":
         raise SessionClosed(session_id)
 
     # The world pinned at session creation, not the registry's current value -
     # a mid-session recompile can't silently swap what serves an in-flight
-    # session. A hash mismatch surfaces as PackageRefused (engine.m2.loader_stub),
-    # left uncaught here so the caller (app.py) maps it to a 503.
-    world = _load_world(world_loader, registry, state.world_key, expected_manifest_hash=state.package_manifest_hash)
+    # session. Both the hash AND the directory are pinned (package_location,
+    # 2026-09-04): a repin changes both in the registry, and resolving only
+    # the hash pin against today's (post-repin) directory reliably refuses,
+    # since the two no longer describe the same package - see entrance.py's
+    # open_session docstring. A hash mismatch (still possible: a session
+    # opened before package_location existed has no pin to fall back on)
+    # surfaces as PackageRefused (engine.m2.loader_stub), left uncaught here
+    # so the caller (app.py) maps it to a 503.
+    world = _load_world(
+        world_loader,
+        registry,
+        state.world_key,
+        expected_manifest_hash=state.package_manifest_hash,
+        package_location_override=state.package_location,
+    )
 
     msg_uuid = client_msg_id or str(uuid.uuid4())
     # Idempotency, ENFORCED (2026-08-28 foundation audit: client_msg_id was

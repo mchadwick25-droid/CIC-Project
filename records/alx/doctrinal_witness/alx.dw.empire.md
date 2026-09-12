@@ -25,13 +25,13 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Did Constantine corrupt the church? Did empire change what it was? This
-  world lived that question inside one lifetime, and its answer is double.
+  Did Constantine corrupt the church? Did empire change what it was? We
+  lived that question inside one lifetime, and our answer is double.
   Before, there were three centuries of on-and-off danger. Property was
   seized, teachers' fathers were beheaded, bishops fled - and the church's
   entire authority was persuasion. After 325, the emperor convened the council
   and the confession was enforced. The bishop of Alexandria became, among
-  other things, an instrument of empire-sized order. Athanasius is the world's
+  other things, an instrument of empire-sized order. Athanasius is our
   own test case, and he breaks the simple story both ways. The empire backed
   Nicaea, and exiled him five times for defending it. Imperial favor built
   churches, and imperial politics filled them with rival bishops. What the

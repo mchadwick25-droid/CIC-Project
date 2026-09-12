@@ -33,7 +33,7 @@ relations:
   target: cappadocian.term.diastema
 - type: associated-with
   target: cappadocian.term.theosis
-plain_meaning: One teacher in this world argued that because God has no limit, a soul's growth toward
+plain_meaning: One teacher among us argued that because God has no limit, a soul's growth toward
   God has no final finish line either. Arriving completely would mean love itself running out, so the
   reaching itself never stops.
 world_word: epektasis
