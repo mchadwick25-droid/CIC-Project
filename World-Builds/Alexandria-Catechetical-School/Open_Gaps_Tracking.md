@@ -241,3 +241,86 @@ At the System Hub's direction: Doc_09 was split into deployable Story-Chunks (a 
 Gravity discovery found that the six tests are structurally blind to the fact that the entire surviving corpus is literate, Greek-speaking, and educated. The two Primary gravities are therefore confirmed **only for the literate-attested ecology**; whether the Alexandrian *majority* (non-literate, Coptic-speaking, rural) organized around the same gravities is **unconfirmable on available evidence** and is **held open, deferred to Article 31 external scholarly review** (a qualified subject-matter reviewer is the only accountable test). Doc_05 must reconstruct the majority's formation as a **named gap**, not fill it. This is a correctly-handled confidence limitation, not a defect — surfaced here because it flows into Doc_05/Doc_08/Doc_09/World Profile and because arranging Article 31 review is a project-lead act (like OG-1).
 
 **Network note (2026-07-17):** a transient internet outage killed one in-flight Doc_02 Round 1 review subagent (API ENOTFOUND) before it wrote its artifact; it was re-dispatched and completed cleanly once connectivity returned. No document content was affected.
+
+---
+
+### OG-6. Vendored-but-unused assigned corpus (anf06) — verified finding, escalated 2026-09-09
+
+A read-only discovery pass asked whether assigned-but-undrawn source material would be
+**structural** for Doc_04 (change a gravity's classification) rather than supplemental. It named
+Peter of Alexandria, and Theognostus/Pierus. Verified from primary sources; full document:
+`Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md`.
+
+**Finding: NOT structural.** No gravity moves between Primary/Supporting/Tensional; no six-test
+verdict flips; the Article 21 cross-stratum substitute is unchanged (OG-4 stands exactly where it
+stood). Every route anyone named was run and failed — the full list, with results, is below.
+
+**The discovery pass overstated its case**, and its wrongness *protects* Doc_04. Its premise —
+Peter as a unique teacher+bishop+martyr overlap — is **unattested** in the vendored material (the
+whole `anf06 div1 ix` division nowhere links Peter to the school; the tradition descends from
+Philip of Side, not vendored). The parallel Pierus claim is **contradicted** by this world's own
+vendored Eusebius (*HE* VII.32: **Achillas** was principal). And had the premise been right it
+would have been evidence *against* T1, which requires poles not "within one person."
+
+**Three defects produced by this corpus, escalated rather than self-disposed**
+(`cic-build-cycle` categories 4 and 2) — the §-numbers are the finding document's:
+1. **§5.1** Doc_04 §0 attributes Theognostus to Eusebius. He appears **0 times** in the vendored
+   Eusebius; all three fragments come via Athanasius (*De Decretis* 25; *Ad Serap.* 4.11).
+2. **§5.3** **Every** manifestation on T4's martyr pole passes through **Eusebius's selection**
+   (the Dionysius letters are "doubly mediated" by that record's own `work` field), while Peter's
+   *Canonical Epistle* (306) — reaching us independently, through the Byzantine canonical tradition
+   and Trullo-confirmed canon law — sits assigned and unused: the church
+   de-absolutizing martyrdom, Canon IX ("they will deliver you up, and **not, ye shall deliver up
+   yourselves**"), X, XII, XIII. *(T4's Inferential-Thin verdict on the martyr's **interior** is
+   correct and stands — this is an omission, not a contradiction.)* Its sub-finding: Doc_04 §6's
+   Interaction Matrix has no **T1↔T4** cell, which those canons demonstrate.
+3. **§5.4** T3's evidence base is incomplete: Peter's Fragment VI rejects the soul's pre-existence
+   — pre-Nicene and pre-homoousian, earlier than the evidence Doc_04 rests T3 on — though it
+   reaches us via the *Sacra Parallela*, a 7th–8th-c. florilegium, and is screened accordingly.
+
+**Two further defects found along the way, pre-existing and NOT produced by this corpus:**
+**§5.2** `alx.gravity.learning-formation` ("c. 150–254") and `alx.figure.didymus` ("to 398")
+contradict each other on the school's duration — and Didymus is also the disproof of a C5
+Persistence flip. **§5.5** `Gravity_Index.xlsx`, cited throughout Doc_04, is not in the repository.
+
+**Also found:** the gap is wider than reported — **14 anf06 works assigned, only 2 opened**;
+Alexander of Alexandria's *Epistles on the Arian Heresy* is `assigned` with zero records, and is
+named but not pursued.
+
+**Root cause (portfolio-level).** `alx.search.unopened-volume-sweep` ran, but queries *volumes*
+whose author is named while never opened. Alexandria already opens anf06, so twelve assigned works
+*inside* it were invisible. The sweep reads its short result as a sign of health; that inference is
+backwards for this failure mode — the most-opened world is the most exposed. Remedy is mechanical:
+diff the corpus map's assigned works against the works source records actually open. Recommended
+fleet-wide; **not run** — portfolio-level decisions are the project lead's.
+
+**Status: OPEN — awaiting project-lead disposition.** Three grounded options in §9 of the finding
+document (recommended: scoped reopen of Doc_04 §5.1–§5.4 plus records, then recompile and re-run
+M3). **Nothing was changed**: no Doc_01–09 file, no `records/alx/` record, no corpus-map edit, no
+recompile, `records/worlds.yaml` untouched. Note the two freezes are distinct — the **world is NOT
+frozen** (Article 31/OG-4 outstanding), but the **S6.2 record-store and deployment baseline is**
+(2026-07-28), and that is what a record change would disturb.
+
+**Routes tested and failed, so the negative result is on the record:** C3 Dependency, C4, C5
+Persistence, T1 pole separation, T2, T3, T4 confidence, the Article 21 Cross-Stratum Test, and —
+at Rounds 3–5, routes no earlier round had named — **the generation step**, i.e. whether this corpus
+should have produced a candidate Doc_04 §1 never generated. Two distinct candidates were raised and
+both fail: **penitential-reintegrative discipline** (Round 3 — Repetition passes, Persistence at
+best partial, and **Dependency fails decisively** on Doc_04 §2's Askesis and Participation↔Perception
+precedent) and a **Tensional** candidate, confessor/martyr authority vs episcopal authority (Round 4
+— fails on pole separation, Persistence and Dependency). Round 5 additionally ran the
+record-confidence route and found it terminates inside the remedy, not in a classification. No
+remaining untested route is known.
+
+**Reviews.** Every round is an artifact on disk at
+`Review-Artifacts/Unused_Assigned_Corpus_Finding_Round*_Review.md` — that glob, not a count
+restated here, is the authoritative list, because this entry and the finding document's own §10
+drifted from disk state in five of the seven rounds, and a count is the thing that keeps going
+stale. Each is AI review, marked "Simulated review — informational only, not an Article 31
+substitute" per Article 31. **Every round upheld the "not structural" headline**, each one
+*narrowing* the case under it rather than strengthening it. The finding document's header carries
+the current round, the per-round verdicts and counts, and the current status — deliberately not
+restated here, because hand-maintained characterisations drift exactly as hand-maintained counts
+do, as five of the seven rounds demonstrated. **The finding document has CLEARED review. It carries
+NO disposition, and this entry remains OPEN for the project lead** — clearing the document is not
+disposing of the finding.
