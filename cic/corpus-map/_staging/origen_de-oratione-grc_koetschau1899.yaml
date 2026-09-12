@@ -1,0 +1,38 @@
+source_file: origen_de-oratione-grc_koetschau1899.txt
+
+assignments:
+  - work: "De Oratione (Περὶ εὐχῆς, On Prayer)"
+    author: origen
+    locus: >
+      whole work, Koetschau's 34 chapters (GCS 3 pp. 295-403, the only part
+      of the volume vendored): ch. I opens directly under the file's OCR'd
+      title lines "2PITENOYZ / UEPIEYXH2." ("Τὰ διὰ τὸ εἶναι μέγιστα ...");
+      ch. XXXIV closes at p. 403 ("... Ἀμβρόσιε καὶ Τατιανή ... ἐντεύξεσθε"),
+      immediately before the Register's "VORBEMERKUNGEN". Chapter heads carry
+      Roman numerals, several with an OCR-dropped stroke (III reads "II 1.",
+      VIII "VII 1.", XVIII "XVII 1.", XXII "XXI 1.", XXVII and XXVIII both
+      "XXVI 1.", XXXII "XXXI.") — locate by opening words, not numeral alone.
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      ORIGINAL-LANGUAGE WITNESS (Greek, with Koetschau's German critical
+      apparatus), NOT ENGLISH EVIDENCE — per cic/texts/INTAKE.md this is a
+      second witness for cross-checking, or, as here, the only rights-clean
+      text of a work with no public-domain English translation (the English
+      translations located, O'Meara 1954 and Greer 1979, are in copyright).
+      Any world `source` record that cites it must carry this same USE
+      DISCIPLINE: English wording drawn from it is a session's own rendering
+      and must be labelled as such, never presented as a Representative's
+      English evidence. Origen's own text throughout, addressed to Ambrose
+      and Tatiana (ch. II, XXXIV); tradition for the world whose
+      catechetical school he led. Vendored 2026-09-08 after an adversarial
+      review found this world's build had struck its De Oratione citations
+      as "never vendored — no pre-1929 English edition exists" while the
+      same commit vendored an original-language Didymus edition by the
+      identical route. Whether any of the struck claims (alexlex028_prayer,
+      alexlex027_fasting, alexlex044_holy-spirit, alexlex007_participation,
+      alexlex002_divine-pedagogy, alexstory010, Doc_02 §3.6, Doc_04 C2,
+      Doc_05) can be re-grounded on this Greek text is a build-thread
+      judgment, not made here (assignment is not interpretation).

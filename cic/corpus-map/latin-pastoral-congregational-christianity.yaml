@@ -296,8 +296,22 @@ works:
   author: augustine
   locus: div1 20 — A Treatise on Rebuke and Grace
   role: tradition
-  confidence: assigned
-  note: '426/427, also to Hadrumetum, sequel to div1 19 on correction, perseverance and predestination.
+  confidence: provisional
+  note: '426/427, addressed to Hadrumetum (North Africa), not to Gaul — the doubt is whether
+    the gallic-monastic-ascetic-christianity id should stand on addressee grounds alone; latin-pastoral-congregational-christianity
+    is not in doubt. Assigned here provisionally because this is the treatise whose circulation
+    provoked the Gallic monks'' own pastoral objections (reported to Augustine by Prosper
+    of Aquitaine and a correspondent named Hilary) that div1 21''s two treatises directly
+    answer — the opponent side of that world''s own Gravity Discovery (Doc_04) needs this
+    as the provoking text, not only the two replies. Re-pointed 2026-09-08 for the Gallic
+    monastic-ascetic entry (era 2, c. 360-450), added 2026-08-26. **Corrected 2026-09-08**
+    (Doc_02 review Round 1, finding S25): this Hilary''s identity is Contested, not Hilary
+    of Arles — this world''s own vendored Commonitory introduction (npnf211) places Hilary
+    of Arles among the Massilian party being reported on, not among the reporters, and npnf105''s
+    own apparatus proposes "Hilary of Sicily" as its own best identification (see gallic_Doc02_Source_Ecology.md
+    §1.4). The prior correction (Doc_01 Round 2 finding N6a) was applied to this world''s
+    own corpus-map bucket but not propagated back to this staging file, the actual source
+    of the generated bucket — fixed here at the root.
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
@@ -338,7 +352,10 @@ works:
   confidence: assigned
   note: '428/429, the companion and continuation of De praedestinatione sanctorum, transmitted
     as a separate work; the div2 is itself titled ''A Treatise''. Second half of the div1
-    21 split.
+    21 split. Re-pointed 2026-09-08 on the same basis as the Predestination treatise above
+    — addressed to the same Prosper/Hilary audience, same controversy. **Corrected 2026-09-08**
+    (Doc_02 Round 1, S25): same Hilary-identity correction as the two rows above — Contested,
+    not "of Arles."
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
@@ -426,9 +443,16 @@ works:
     Predestination of the Saints'
   role: tradition
   confidence: assigned
-  note: '428/429, to Prosper and Hilary against the objections of the Gallic monks. NPNF prints
-    two distinct treatises under one div1; this is the first. Split per the granularity rule
-    for headings holding several distinct works.
+  note: '428/429, to Prosper and a correspondent named Hilary, against the objections of the
+    Gallic monks. NPNF prints two distinct treatises under one div1; this is the first. Split
+    per the granularity rule for headings holding several distinct works. Re-pointed 2026-09-08:
+    directly addressed to Prosper of Aquitaine and Hilary — the opponent''s-side documentation
+    of the Gallic monastic-ascetic entry''s own controversy over grace and predestination
+    (era 2, c. 360-450, added to the census 2026-08-26). **Corrected 2026-09-08** (Doc_02
+    Round 1, S25): "Hilary of Arles" was wrong and is removed — see the correction note on
+    the Rebuke and Grace row above. This Hilary''s identity is Contested; npnf105''s own apparatus
+    favors "Hilary of Sicily," a genuine rival to this world''s own preferred Gallic-lay-monk
+    reading (Doc_01 §10), not a confirmation of it.
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
@@ -499,6 +523,23 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- work: S. Aureli Augustini Epistulae, Pars IV (Epistulae CLXXXV-CCLXX)
+  author: augustine
+  locus: whole text; Goldbacher's own EPISTVLA numbering runs continuously CLXXXV-CCLXX
+  role: tradition
+  confidence: assigned
+  note: 'The Latin original of the same letters already assigned to lpc from the vendored
+    NPNF translation (npnf101), covering letters 185-270 - including Letter 185 itself (Registry
+    row 12, "The Correction of the Donatists"), the very first letter in this file''s own
+    range. Only Pars IV of Goldbacher''s five-part edition; CSEL 34/1, 34/2, 44, and 58 remain
+    unacquired. Second-witness caveat applies per cic/texts/INTAKE.md: never primary evidence
+    for a Representative on its own, only for cross-checking a specific reading against the
+    vendored NPNF translation. OCR quality uneven - see the file''s own header for a quantified
+    apparatus-corruption assessment; apparatus- level claims specifically need independent
+    verification.
+
+    '
+  source_file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
 - work: Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)
   author: augustine
   locus: div1 7 — Sermons on Selected Lessons of the New Testament; a series of ~97 sermons
@@ -717,6 +758,25 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: S. Thasci Caecili Cypriani Opera omnia (Hartel's critical edition, CSEL 3, Pars I-II)
+  author: cyprian
+  locus: whole text; Pars I ends at the Sententiae Episcoporum, Pars II runs Epistulae I-LXXXI
+    - see the file's own title-page and EPISTVLA headers for addressing a specific treatise
+    or letter
+  role: tradition
+  confidence: assigned
+  note: 'The Latin original behind the already-vendored ANF05 English translation''s own Cyprian
+    works (rows 1-7 and others in this bucket, all sourced from anf05_hippolytus-cyprian-caius-novatian.xml)
+    - not a new voice, the same tradition''s own words in the language Cyprian actually wrote
+    them in. ANF05 itself follows Migne''s text, not Hartel''s, so this is also an independent
+    critical check on that translation''s own base text, not merely a duplicate. Does not
+    cover CSEL 3 Pars III (spuria/indices) - not yet acquired. Second-witness caveat applies
+    per cic/texts/INTAKE.md: legitimate for cross-checking a specific reading against the
+    vendored English translation a world''s own source record actually cites, never primary
+    evidence for a Representative on its own.
+
+    '
+  source_file: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
 - work: The Epistles of Cyprian
   author: cyprian
   locus: 'div2 4.4 - 82 epistles, assigned as one body (includes letters TO Cyprian: Roman
@@ -813,3 +873,35 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: Sancti Augustini Vita (Life of Augustine)
+  author: possidius
+  locus: whole text -- Weiskotten's own chapter numbering (i-xxxi) runs through both the Latin
+    and the facing English translation
+  role: tradition
+  confidence: assigned
+  note: 'Augustine''s own companion for decades, and the Augustine-side counterpart to Pontius''s
+    already-vendored Life of Cyprian (this same bucket, anf05) -- closes the one-sided formation-narrative
+    gap this world''s own Doc_02 names, and is the underlying source, via NPNF''s own editorial
+    apparatus, for the Megalius/primate-of-Numidia identification Doc_01 discloses as resting
+    on an unvendored work until now. Bilingual edition; the English translation is primary
+    evidence in the ordinary sense, the accompanying Latin text and apparatus are useful for
+    checking a specific reading against it.
+
+    '
+  source_file: possidius_vita-augustini_weiskotten1919.txt
+- work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
+  author: theodosian-code-compilers
+  locus: whole text; not divided by book/title in this entry — see the file's own CTh.<book>.<title>.<law>
+    headings for addressing a specific constitution
+  role: context
+  confidence: provisional
+  note: 'The imperial legal apparatus this tradition''s own pastoral life operated under,
+    not this tradition''s own voice. Source_Registry.md row 44 names the specific reason this
+    world holds it: the underlying statute behind the Theodosian-law fine Augustine''s own
+    Letter 185 SS25 cites (already role: tradition here, npnf101). Not currently drawn on
+    directly for a specific claim — the exact CTh provision behind that fine reference has
+    not been independently pinned down against this file''s own text this session, disclosed
+    rather than guessed. Provisional pending that check.
+
+    '
+  source_file: codex-theodosianus_latinlibrary.txt

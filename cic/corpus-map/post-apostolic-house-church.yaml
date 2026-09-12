@@ -719,7 +719,8 @@ works:
   confidence: provisional
   note: 'pahc already cites this work (pahc.source.tertullian-apologeticus) as an out-of-window,
     out-of-region witness with a stated use discipline. Provisional: the assignment records
-    that existing use; Mark may prefer pahc to reach it through tertullian-s-voice instead.
+    that existing use; Mark may prefer pahc to reach it through latin-apologists instead (the
+    id tertullian-s-voice itself pointed to is retired, merged into latin-apologists, 2026-09-10).
 
     '
   source_file: anf03_tertullian.xml

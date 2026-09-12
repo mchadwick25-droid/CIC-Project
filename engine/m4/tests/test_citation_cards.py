@@ -18,15 +18,19 @@ def _real_repository(world_key: str) -> dict[str, dict]:
 
 
 def test_resolves_a_real_term_to_its_real_underlying_source():
-    """alx.term.allegoria cites Origen's Philocalia and Clement's
-    Stromateis - real, public-domain, vendored primary texts, not
-    placeholders."""
+    """alx.term.allegoria cites Origen's Philocalia, Clement's
+    Stromateis, and Eusebius's Historia Ecclesiastica - real,
+    public-domain, vendored primary texts, not placeholders."""
     repo = _real_repository("alx")
     card = resolve_source_card("alx.term.allegoria", repo)
     assert card["record_type"] == "term"
     assert card["label"] == "allegoria (the spiritual sense)"
     source_ids = {s["source_id"] for s in card["sources"]}
-    assert source_ids == {"alx.source.origen-philocalia", "alx.source.clement-stromateis"}
+    assert source_ids == {
+        "alx.source.origen-philocalia",
+        "alx.source.clement-stromateis",
+        "alx.source.eusebius-historia-ecclesiastica",
+    }
     philocalia = next(s for s in card["sources"] if s["source_id"] == "alx.source.origen-philocalia")
     assert philocalia["author"].startswith("Origen")
     assert philocalia["work"]

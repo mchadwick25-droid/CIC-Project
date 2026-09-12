@@ -29,10 +29,6 @@ sources:
 - source_id: syr.source.aphrahat-select-demonstrations
   locus: VI (the second birth and the receiving of the Spirit)
   license: public-domain
-retrieval:
-  tier: 1
-  retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Was Jesus God? We said yes, in our own way of speaking. The sage
   calls it a sure thing: Jesus our Lord is God, the Son of God, the King, the

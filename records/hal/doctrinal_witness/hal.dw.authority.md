@@ -20,10 +20,6 @@ sources:
 - source_id: hal.source.rufinus-apology
   locus: whole work (the other side's appeal to the same authorities)
   license: public-domain
-retrieval:
-  tier: 1
-  retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   When belief was disputed among us, no single court decided it. The
   record shows exactly how messy that was. In our great internal fight, both

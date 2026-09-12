@@ -40,3 +40,17 @@ against Marcion "among every nation" (1 Apol 26, 58) is inside
 testimony that the rivals were live and undefeated. His generous line
 about those before Christ who lived with the Logos (1 Apol 46) is his
 own, not necessarily the whole world's.
+
+CROSS-BUILD FLAG (2026-09-10, Mark's ruling): Justin belongs at least
+as much to the Second-Century Greek Apologists world (Atlas I.35, a
+planned future build, on record but not yet built) as to this world,
+and the attribution is held open - the Antony model, not a hierarchy.
+In THIS world he appears through what his own writing incidentally
+supplies to an outward-facing audience: the worship-practice
+description, the inside testimony against Marcion, the Trypho
+scripture-reading material. His own philosophical argument, his
+address to Roman power as argument in its own right, and the
+Dialogue's sustained persuasive structure belong to that world's own
+reconstruction when it is built. This is co-ownership, not asymmetric
+citation - this record's own register, narratable status, and
+load-bearing weight are unchanged by the flag.

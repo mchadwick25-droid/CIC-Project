@@ -92,7 +92,7 @@
 
 **Distortion Risk — Modern Hearing:** philanthropy as optional generosity of the rich; "charity" versus "justice" as rivals; social program versus spirituality. **World Hearing:** justice and liturgy in one act; the poor man as Christ's own claim; a virtue you can be damned for lacking, preached to your face in a famine.
 
-**Key Texts:** Basil, the famine and wealth homilies (on the rich fool's barns; in time of famine and drought; against usury); Gregory of Nazianzus, On the Love of the Poor; Gregory of Nyssa, On the Love of the Poor / on the lepers. **Key Sources:** the Basileias correspondence (work level). **Related Terms:** philanthrōpia, eikōn, pleonexia, koinōnia, Basileias (T2), eusebeia.
+**Key Texts:** Basil, the famine and wealth homilies (on the rich fool's barns; in time of famine and drought; against usury — **not vendored**, `cappadocian_Source_Registry.md` row 16); Gregory of Nazianzus, On the Love of the Poor (**not vendored**, row 32); Gregory of Nyssa, On the Love of the Poor / on the lepers (**not vendored**, row 55, corrected 2026-09-08, Round 4 Opus review). **Key Sources:** the Basileias correspondence (work level). **Related Terms:** philanthrōpia, eikōn, pleonexia, koinōnia, Basileias (T2), eusebeia.
 
 ## 8. eikōn (tou Theou) — Tags: [SC][DR][RT] — Tier 1
 
@@ -128,7 +128,7 @@
 
 **Distortion Risk — Modern Hearing:** "self-care," retreat-culture, work-life balance; or later Byzantine hesychasm's technical senses read back. **World Hearing:** a real and holy hunger for the quiet where God is sought without distraction — and the discovery, made repeatedly and grievously, that love may command you back down the mountain; the unresolved pull a formed person carries, not a schedule.
 
-**Key Texts:** Basil's early letters on the Pontus retreat and the ordered day; Gregory of Nazianzus, Oration 2 (the apology for flight), De vita sua, the Sasima poems and letters; the Asketikon's subordination of the solitary. **Key Sources:** as above. **Related Terms:** koinōnia, askēsis, philotimia (T3), parrhēsia (T2), theōsis.
+**Key Texts:** Basil's early letters on the Pontus retreat and the ordered day; Gregory of Nazianzus, Oration 2 (the apology for flight, vendored), De vita sua and the Sasima poems (**not vendored**, row 36), the Sasima letters (vendored, row 40); the Asketikon's subordination of the solitary. **Key Sources:** as above. **Related Terms:** koinōnia, askēsis, philotimia (T3), parrhēsia (T2), theōsis.
 
 ---
 

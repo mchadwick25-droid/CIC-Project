@@ -1,0 +1,28 @@
+source_file: faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt
+
+# Vendored 2026-09-09 for gallic-monastic-ascetic-christianity, per Source
+# Registry row 24 (Native, Approved to Proceed via Doc_02). Only De Gratia
+# libri II is assigned here -- that is the specific work the Registry row
+# covers and Doc_02's own ecology work assessed. The rest of this volume
+# (De Spiritu Sancto, Epistulae, Sermones, De Ratione Fidei, and Ruricius
+# of Limoges's own Epistulae) has not been reviewed against any world's
+# own boundary and is deliberately left unassigned here rather than
+# guessed -- a later pass may find some of it Native to this world too,
+# or to others (Ruricius in particular is a correspondent of Sidonius
+# Apollinaris and may belong to a different world entirely).
+
+assignments:
+  - work: "De Gratia libri duo (Two Books on Grace)"
+    author: faustus-riez
+    locus: "the volume's own edition, pp. 1-98 (Prolegomena aside)"
+    atlas_ids:
+      - gallic-monastic-ascetic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Faustus's own direct theological defense of the Massilian position on
+      grace and free will against Augustine's anti-Pelagian treatises
+      (npnf105, already vendored and assigned) -- the most direct surviving
+      Massilian-side answer, per this world's own Doc_02 Source Ecology
+      §1.4 and Source Registry row 24. Latin only; no public-domain English
+      translation exists.

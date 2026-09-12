@@ -1,0 +1,22 @@
+source_file: salvian_on-the-government-of-god_sanford1930.txt
+
+assignments:
+  - work: "On the Government of God (De Gubernatione Dei)"
+    author: salvian
+    locus: "full work, tr. Sanford 1930 (all eight books, plus the dedicatory Preface)"
+    atlas_ids:
+      - gallic-monastic-ascetic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Boundary-Checked 2026-09-09 (Doc_02 §13A, Source Registry row 43): Native,
+      Documented. Salvian personally taught at Lerins alongside Vincent of Lerins
+      (already vendored, npnf211) -- attested directly by Hilary of Arles's own
+      funeral sermon for Honoratus (already vendored,
+      hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt), which names
+      Salvian as "charorum suorum unus" (one of Honoratus's own dear associates)
+      and quotes his own (otherwise lost) writing, and independently corroborated
+      by Gennadius (npnf203, this world's own row 30). Licensed for Doc_04 gravity
+      discovery, Doc_06 lexicon, and the Forces dimension -- NOT for the grace/
+      free-will controversy specifically, which this work does not engage with
+      the way Faustus or Prosper do.

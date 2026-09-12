@@ -185,6 +185,17 @@ authors:
     kind: metadata-omission
     evidence: div2 10.4 'Aristo of Pella' names the author; DC.Creator omits him.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  bar-hebraeus:
+    kind: metadata-omission
+    evidence: 'This is this corpus''s first plain-text-vendored (non-CCEL) named author, so
+      cic/texts/AUTHORS.md - which is generated only from CCEL-XML files'' own <DC.Creator>
+      markup - has no way to have seen it yet. The author is real, well-attested, and not
+      anonymous or pseudonymous: Bar Hebraeus (Gregory Abu''l-Faraj, 1226-1286), author of
+      the Chronicon Ecclesiasticum (Abbeloos-Lamy edition, Louvain 1872-1877). This is a mechanical
+      index-coverage gap, not an attribution dispute.
+
+      '
+    from_file: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt
   bardesan:
     kind: metadata-omission
     evidence: 'div2 9.16 "Bardesan. The Book of the Laws of Divers Countries" — the section
@@ -247,6 +258,15 @@ authors:
 
       '
     from_file: tacitus_annals-15-44_church-brodribb1876.txt
+  cil8-numidia:
+    kind: anonymous
+    evidence: 'A collective epigraphic corpus (inscriptions from many hands across centuries),
+      not a work with a single author — the editors (Cagnat, Schmidt, Dessau) compiled and
+      annotated it but did not write the inscriptions themselves. A collective work-entity
+      per brief 6.4, not an author.
+
+      '
+    from_file: cil8-supplementum-numidiae_cagnat-schmidt1894.txt
   claudius-apollinaris:
     kind: metadata-omission
     evidence: div2 10.10 'Claudius Apollinaris, Bishop of Hierapolis, and Apologist'.
@@ -259,6 +279,15 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
+  collatio-carthaginiensis:
+    kind: anonymous
+    evidence: 'The official notarial acts of the 411 conference, recorded by the proceeding''s
+      own appointed notaries rather than composed by a named author — a collective proceedings-record
+      entity, the same shape as the already-ruled anti-donatist-dossier (court/council acts
+      and imperial correspondence).
+
+      '
+    from_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
   constantine:
     kind: metadata-omission
     evidence: 'div2 4.7 heading reads "The Oration of the Emperor Constantine, which he addressed
@@ -410,6 +439,23 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  donatist-anonymous:
+    kind: anonymous
+    evidence: 'Item 1''s own manuscript title ("De passione sanctorum Donati et Advocati")
+      and Mabillon''s own dating analysis, reproduced in this volume, name no individual author
+      for this sermon — a Donatist preacher''s own work, but not one Mabillon or this volume
+      attributes to anyone by name.
+
+      '
+    from_file: monumenta-vetera-donatistarum_migne-pl8.txt
+  donatist-anonymous-passio-authors:
+    kind: anonymous
+    evidence: 'Items 2 and 3 are anonymous Donatist martyr-narratives per Mabillon''s own
+      analysis, reproduced in this volume, dating and situating them inside the Donatist commemorative
+      tradition rather than attributing them to a named author.
+
+      '
+    from_file: monumenta-vetera-donatistarum_migne-pl8.txt
   edessene-martyr-acts:
     kind: anonymous
     evidence: 'div2 9.9 (Acts of Sharbil), 9.11 (Martyrdom of Habib the Deacon), 9.12 (Martyrdom
@@ -431,6 +477,19 @@ authors:
 
       '
     from_file: pachomius_rules-ethiopic_schodde1885.txt
+  excerpts-of-theodotus:
+    kind: pseudonymous
+    evidence: 'div2 4.3, titled "Excerpts of Theodotus" and DC.Creator-listed under theodotus,
+      but corrected 2026-09-08 (records/alx audit; see alx.source.excerpts-of-theodotus.md):
+      the vendored text is the Eclogae Propheticae, not the genuine Excerpta ex Theodoto -
+      a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad,
+      and the ANF editor''s own headnote disowns the Clement/Theodotus attribution ("corrupt
+      or forged documents, for which Clement''s name has been borrowed"), guessing an unknown
+      Montanist compiler instead. Ruled pseudonymous rather than reused as `theodotus`, which
+      would keep asserting the disproven attribution.
+
+      '
+    from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
   falling-asleep-of-mary:
     kind: pseudonymous
     evidence: 'div2 7.42 "The Book of John Concerning the Falling Asleep of Mary" — Dormition
@@ -579,6 +638,13 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  liber-genealogus:
+    kind: anonymous
+    evidence: 'An anonymous North African compilation per Mommsen''s own editorial discussion
+      in this volume — no individual compiler is named or identifiable from the text itself.
+
+      '
+    from_file: chronica-minora-liber-genealogus_mommsen1892.txt
   liturgy-of-addai-and-mari:
     kind: pseudonymous
     evidence: 'div2 12.4 "The Liturgy of the Blessed Apostles", heading "Composed by St. Adaeus
@@ -676,6 +742,16 @@ authors:
 
       '
     from_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+  odes-of-solomon:
+    kind: anonymous
+    evidence: 'The Odes'' own authorship is anonymous - see syr.source.odes-of-solomon''s
+      own attribution_status. The slug is not in cic/texts/AUTHORS.md for the same mechanical
+      reason as the Bar Hebraeus ruling above: this file is plain-text-vendored, not CCEL-XML,
+      so the auto-generated index has never seen it. This is a work-entity slug for a genuinely
+      anonymous work, not an attribution dispute.
+
+      '
+    from_file: harris_odes-and-psalms-of-solomon_harris1911.txt
   pantaenus:
     kind: metadata-omission
     evidence: div2 10.15 'Pantaenus, the Alexandrian Philosopher'.
@@ -884,6 +960,30 @@ authors:
 
       '
     from_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+  theodosian-code:
+    kind: anonymous
+    evidence: 'Imperial legislation compiled by an appointed commission under Theodosius II
+      (438 CE) from earlier rescripts of multiple emperors — a collective legislative-compilation
+      entity, not a work with a single author; Mommsen and Meyer are its modern editors, not
+      its authors.
+
+      '
+    from_file: theodosianus-16_mommsen-meyer1905.txt
+  theodosian-code-compilers:
+    kind: anonymous
+    evidence: 'A compiled imperial law code spanning Constantine (312) through Theodosius
+      II (437), issued in Theodosius II''s own name (438) but authored, in the sense a corpus-map
+      author field means, by no single person — each constitution is its own emperor''s own
+      act, redacted into one code by the compiling commission Theodosius II convened (Nov.
+      Theod. 1, itself not part of this vendored file). "The Roman imperial chancery" is the
+      same collective/anonymous-act treatment already used for the one other legal-compilation
+      author-entity this corpus map has ruled on (a Julianic school law, Cappadocian''s own
+      cappadocian.source.codex-theodosianus-13-3-5-school-law.md record, independently — that
+      record cites the same work by content, not this vendored file, and needed no ruling
+      here).
+
+      '
+    from_file: codex-theodosianus_latinlibrary.txt
   theophilus-of-caesarea:
     kind: metadata-omission
     evidence: 'div2 10.12 ''Theophilus, Bishop of Caesarea in Palestine''. Kept distinct from

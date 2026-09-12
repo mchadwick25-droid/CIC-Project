@@ -19,7 +19,10 @@ sources:
   locus: 1-10, 54
   license: public-domain
 - source_id: alx.source.clement-stromateis
-  locus: III, VII
+  locus: VII
+  license: public-domain
+- source_id: alx.source.athanasius-contra-arianos
+  locus: I.37-38
   license: public-domain
 retrieval:
   tier: 1
@@ -40,9 +43,11 @@ senses:
   informational: The soul genuinely shares in God's life, placed carefully between two refused errors -
     a soul merely near God across a gap that never closes, and a soul dissolved into God with nothing left
     to share.
-  evidential: Athanasius's formula - God became human so that the human might become god, by grace and
-    participation, not by nature - ties participation directly to the Logos's full divinity; without it,
-    to participate in Christ would be to participate in a mere creature.
+  evidential: 'Athanasius''s formula, verbatim: "For He was made man that we might be made God" (De
+    Incarnatione 54) ties participation directly to the Logos''s full divinity; without it, to
+    participate in Christ would be to participate in a mere creature. The "grace and participation, not
+    by nature" qualifier comes not from De Inc. 54 itself but from Contra Arianos I.37-38, where sonship
+    "by participation" and "by grace" is contrasted with being a son "by nature."'
   personal: Never solitary - the soul shares in Christ through the community, most bodily at the Eucharist,
     which enacts what participation names.
   translational: '''Isn''t that just closeness to God?'' - no; this world meant a branch drawing its life

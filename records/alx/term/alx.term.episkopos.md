@@ -53,9 +53,10 @@ senses:
     formation rhythm; his De Decretis shows the same office guarding the Nicene confession against the
     Arian alternative; Clement treats the bishop as a human participant in the community's divine
     governance.
-  personal: The bishop's authority does not depend on being the community's best interpreter of
-    Scripture - it rests on an office that outlasts any one person's gifts, so the community's formation
-    is not left to depend on one person's abilities.
+  personal: 'Clement''s Alexandrian voice grounds the office in the life, not the title: one is "not
+    regarded righteous because a presbyter, but enrolled in the presbyterate because righteous" - the
+    office does not confer the standing on its own; the person''s own righteousness is what the office
+    recognizes.'
   translational: >-
     Isn't a bishop just a church administrator, the executive of a diocese? This world located the
     office somewhere else - the governor of the community's formation life, not a manager of an
@@ -66,3 +67,16 @@ distortion_risk: high
 Imported from the old system's richer lexicon (alexlex030, "Bishop / Episkopos") at Mark's direction,
 as a draft, not a final version. The old record's citation of Ignatius of Antioch's Letters is omitted
 here since no corresponding source record exists yet in the new registry.
+
+corrected 2026-09-08, records/alx audit: the personal sense said the
+bishop's authority "rests on an office that outlasts any one person's
+gifts," cited to Stromateis VI.13 - but VI.13 argues the opposite:
+"Such an one is in reality a presbyter of the Church... not as being
+ordained by men, nor regarded righteous because a presbyter, but
+enrolled in the presbyterate because righteous" (anf02, Book VI ch.
+XIII, lines 47856-47867) - the office is grounded IN the person's own
+righteousness, not in something that outlasts it. The personal sense
+is rewritten to match what VI.13 actually argues; the associated
+evidential claim about "the grades here in the Church" (matching
+alx.quote.the-grades-here-in-the-church) was found clean and is
+unchanged.

@@ -61,3 +61,15 @@ two works still flagged `needs-ruling` in the corpus map; Pantaenus
 the Letter of the Churches of Lyons and Vienne, which the corpus map
 carries as `provisional` on the attribution and which deserves its own
 record rather than a mention here.
+
+ALSO NOT YET DRAWN ON (flagged 2026-09-09, supplemental review, not
+acted on): Apollonius's own fragments against Montanism (anf08 lines
+72746-72790, c. 211 CE) - a further independent primary-voice witness
+to the New Prophecy controversy, distinct from the Anonymous/"Asterius
+Urbanus" material already drawn on at pahc.quote.asia-rejected-new-
+prophecy. Available at zero further acquisition cost if a future pass
+wants a second anti-Montanist voice; not built out here to keep this
+integration pass narrow. Claudius Apollinaris, the other Montanism-
+adjacent name in this section's author list, is a false lead on
+inspection - his own preserved fragments here concern the Thundering
+Legion and the Quartodeciman dispute, not Montanism.

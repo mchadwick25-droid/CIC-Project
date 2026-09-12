@@ -948,3 +948,667 @@
     1904 transcription is born-digital, not OCR, and every one of its 27 books' chapter
     counts was checked against its independently known canonical count before this
     file was written.
+- filename: didymus-alexandria_de-trinitate-lat-grc_mingarelli1769.txt
+  supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), part of a
+    project-wide maturity-gap audit
+  date_added: '2026-09-08'
+  notes: >-
+    Mingarelli's 1769 editio princeps of Didymus of Alexandria's "De Trinitate."
+    Title page confirms 1769 publication (public domain, independent of scan
+    source). There are two "LIBER PRIMUS" headings in this file: line 435 is
+    Mingarelli's own Latin prolegomena, not Didymus's text; Didymus's actual Book I
+    begins at line 7019 (corrected 2026-09-08, Round 2 Opus review, from a stale line reference the Round 1 header fix itself invalidated by adding 17 lines to the file). Corrected 2026-09-08, Round 1 Opus review, from this
+    note's own original claim (checked and found false): a full Unicode census
+    found ZERO Greek characters anywhere in the file's 3.29 MB body (corrected
+    2026-09-08, Round 3 Opus review, from this entry's own stale "3.24 MB" figure,
+    which had been fixed everywhere else but here) -- the Greek
+    layer is not "garbled in places," it is wholly unrecoverable as Greek text
+    throughout, OCR'd entirely into Latin-script noise. The Latin translation and
+    notes do not "OCR cleanly" either (~12.7% of tokens symbol/digit-contaminated;
+    long-s systematically misread as "f"), though they are usable by a Latinist.
+    What this file actually vendors is a degraded-but-legible OCR of Mingarelli's
+    18th-century LATIN translation and apparatus, not Didymus's Greek -- still
+    this world's first primary-text contribution from Didymus himself, closing a
+    real (if narrower-than-first-claimed) gap in the Alexandria Catechetical
+    School world's Doc_02 Source Ecology (§3.4).
+- filename: origen_de-oratione-grc_koetschau1899.txt
+  supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), in response to an
+    adversarial-review finding on the Alexandria Catechetical School build
+  date_added: '2026-09-08'
+  notes: >-
+    Origen's "De Oratione" (Περὶ εὐχῆς, On Prayer) in the original Greek, Paul Koetschau's
+    critical edition, "Origenes Werke, Zweiter Band" = GCS 3 (Leipzig: Hinrichs, 1899), pp.
+    295-403 ONLY - the De Oratione portion of a volume that also holds Contra Celsum V-VIII
+    and the Register, neither vendored. ORIGINAL-LANGUAGE WITNESS, NOT ENGLISH EVIDENCE (Greek
+    text, German critical apparatus; Language: grc, deu). RIGHTS: 1899 on the scan's own title
+    page and contents page, verified directly - public domain by date, independent of the
+    archive.org Public Domain Mark the item also carries. SOURCE: archive.org item
+    origenes-werke.-bd-2-1899, OCR text layer, lines 19036-26243 copied verbatim; four other
+    archive.org scans of the same volume were downloaded and measured on the same span first,
+    and this one chosen on the numbers (fewest junk lines, lowest Latin-lookalike rate in Greek
+    lines). COMPLETENESS CHECKED: all 34 chapters located (33 by numeral - several with an
+    OCR-dropped stroke, listed in the file's own header - and ch. XIII by content), and every
+    legible running-head page number 298-403 checked against the OCR line count between them
+    (50-85 lines per page throughout, so no scan page missing or duplicated). OCR QUALITY
+    MEASURED, not assumed: 0.45% of ~31,700 Greek tokens fail a word-shape test, 1.8% of lines
+    are stray-mark junk; readable and searchable for locating a passage, with the usual
+    Latin-lookalike substitutions ("xal" for καὶ) - eye-check any verbatim Greek quotation
+    against the page image. WHY: an adversarial review found the Alexandria build had struck
+    its De Oratione citations as unvendorable ("no pre-1929 English edition") while vendoring
+    Mingarelli's Didymus by the identical original-language route in the same commit; this
+    file takes that route. Migne PG 11 (archive.org patrologiae_cursus_completus_gr_vol_011,
+    De Oratione at cols. 411-562, OCR lines ~31467-43018) was examined first and rejected: its
+    OCR renders the Latin column as pseudo-Greek and merges it line-by-line into the Greek.
+- filename: tyconius_liber-regularum_burkitt1894.txt
+  supplied_by: Mark
+  date_added: '2026-09-01'
+  notes: >-
+    F. C. Burkitt (ed.), The Book of Rules of Tyconius, Newly Edited from the MSS. (Texts and
+    Studies III/I, Cambridge University Press, 1894) - the public-domain critical Latin edition of
+    Tyconius's Liber Regularum, Donatism world-build Source_Acquisition_Manifest.md §1 request G1
+    (Source_Registry.md rows 15 and 41). Manually downloaded by Mark from archive.org (item
+    bookofrulesoftyc00ticouoft, FULL TEXT/OCR format) per the G1 acquisition-gate decision,
+    2026-09-01, and supplied as a DOCX file attachment - this world-build's own network egress is
+    blocked for every patristic text host including archive.org, so this is the acquisition channel
+    for all of G1-G7. Converted mechanically via a zip/XML text extraction (paragraph boundaries
+    preserved from </w:p> splits) - no content passed through model-generated output. The
+    archive.org website's own page-navigation chrome (16 lines: site header/ menu links, the 'Full
+    text of ...' banner, the 'See other formats' link) was stripped at vendoring by matching the
+    literal 'See other formats' marker line; everything from that point on, including OCR errors and
+    the Internet Archive's own inserted 'Digitized by the Internet Archive' scan stamp, is unedited
+    raw OCR output - no archive.org metadata footer block followed the scanned text in this DOCX.
+    RIGHTS: no 'Rights:' line of its own (the OCR carries no bibliographic apparatus at all), so a
+    header was prepended per the palladius/npnf205/webbe convention, citing archive.org's own
+    separately-supplied copyright-evidence record for this item (no visible notice of copyright;
+    stated date 1894) plus the independent 1894-publication-date grounds. OCR QUALITY: raw and
+    uncorrected, with visible Greek-letter substitution into Latin words and garbled proper nouns
+    throughout - flagged in the file's own header; any specific quotation drawn from it needs visual
+    cross-check against its own surrounding text before being relied on for a verbatim claim.
+- filename: optatus_libri-vii-critical_ziwsa1893.txt
+  supplied_by: Mark
+  date_added: '2026-09-01'
+  notes: >-
+    Karl Ziwsa (ed.), S. Optati Milevitani libri VII, accedunt decem monumenta vetera ad
+    Donatistarum historiam pertinentia, CSEL 26 (Prague/Vienna/Leipzig: F. Tempsky / G. Freytag,
+    1893) - the public-domain critical Latin edition of Optatus's own work, Donatism world-build
+    Source_Acquisition_Manifest.md §1 request G2 (Source_Registry.md row 38; the critical-Latin
+    counterpart to the already-vendored 1917 Vassall-Phillips English translation at
+    optatus_against-the-donatists.txt, row 1). Manually downloaded by Mark from archive.org per the
+    G1 acquisition-gate decision's continuing channel, 2026-09-01, and supplied as a DOCX file
+    attachment - the same network-egress-blocked acquisition channel used for G1. Converted
+    mechanically via a zip/XML text extraction (paragraph boundaries preserved from </w:p> splits) -
+    no content passed through model-generated output. The archive.org website's own page-navigation
+    chrome (16 lines: site header/menu links, the 'Full text of ...' banner, the 'See other formats'
+    link) was stripped at vendoring by matching the literal 'See other formats' marker line;
+    everything from that point on is unedited raw OCR output, including a Google Books scanner
+    disclaimer page (this item is a Google Books scan hosted on archive.org, not a native Internet
+    Archive scan) and the library's own due-date slip at the very end. RIGHTS: the Google Books
+    disclaimer page carries an explicit public-domain finding in its own words ('It has survived
+    long enough for the copyright to expire and the book to enter the public domain'), which is what
+    the prepended header's Rights basis cites, alongside the independent 1893-publication-date
+    grounds. Confirmed this session as the genuine CSEL 26 edition: the title page (CORPUS
+    SCRIPTORUM ECCLESIASTICORUM LATINORUM, VOL. XXVI, EX RECOGNITIONE CAROLI ZIWSA, MDCCCLXXXXIII)
+    and the Gesta Purgationis Felicis appendix document are both present and correctly identified.
+    OCR QUALITY: raw and uncorrected, with a systematic 'e'->'c' OCR misread visible even in the
+    scanner's own disclaimer page, and a dense sigla-heavy Latin apparatus criticus that OCR handles
+    worse than running prose - flagged in the file's own header; any specific quotation drawn from
+    it needs visual cross-check against its own surrounding text before being relied on for a
+    verbatim claim.
+- filename: boyd_ecclesiastical-edicts-theodosian-code_1905.txt
+  supplied_by: Mark
+  date_added: '2026-09-01'
+  notes: >-
+    William K. Boyd, 'The Ecclesiastical Edicts of the Theodosian Code' (Studies in History,
+    Economics and Public Law, Columbia University, Vol. XXIV, New York: Columbia University Press /
+    Macmillan, 1905) - a substitute lead for Donatism world-build Source_Acquisition_Manifest.md §1
+    request G3 (Source_Registry.md row 16), found after five separate attempts at the Mommsen/Meyer
+    critical edition itself (item theodosianilibri02code on archive.org) all turned out to be the
+    wrong part of that edition (the Prolegomena, not Book 16's own text) and one further attempt was
+    rejected outright on source-integrity grounds (see the don_Decision_Log.md entries for both).
+    This is a bound volume of three unrelated Columbia University studies; only the second, Boyd's,
+    is of interest here - the other two (Thorndike on magic, Hishida on Japan) are incidental to the
+    scan and not cited by anything in this world's build. Manually downloaded by Mark from
+    archive.org (item ecclesiasticaled00boydrich, FULL TEXT/OCR format) and supplied as a DOCX file
+    attachment, the same acquisition channel used for G1/G2. Converted mechanically via a zip/XML
+    text extraction (paragraph boundaries preserved from </w:p> splits) - no content passed through
+    model-generated output. This paste carried only the archive.org page-title metadata ('Full text
+    of ...' / 'See other formats' - 2 lines, no fuller site-navigation chrome) which was stripped at
+    vendoring; everything after it is unedited raw OCR, including the Internet Archive's own
+    digitization stamp and, at the very end, a University of California, Berkeley library due-date
+    stamp. RIGHTS: no 'Rights:' line of its own, so a header was prepended citing the independent
+    1905-publication-date grounds (both identifiable authors long deceased). CONTENT CONFIRMED THIS
+    SESSION: Boyd's essay (roughly the first 45% of the file, title page at 'WILLIAM K. BOYD,
+    Ph.D.') gives an extensive narrative history of Donatist-targeted legislation in C. Th. Book 16
+    Title 5, naming the Circumcellions directly and quoting several individual laws verbatim in
+    Latin (e.g. xvi.5.28, xvi.5.41, both naming the Donatists by name), citing the chain xvi.5.3
+    through xvi.5.58 including the 405 edict (xvi.5.38-39) that Doc_02's own 'Edict of Unity'
+    material rests on. NOTE: xvi.5.52 specifically (the source_registry row-16
+    circumcelliones/agonistici citation) is not quoted verbatim anywhere in this file - Boyd's own
+    citation chain runs '...51, 54, 55...' past it without quoting it directly; this file
+    corroborates the surrounding legislative sequence and the Donatist material generally but does
+    not itself supply that one specific law's own wording. The term 'agonistici' (the group's own
+    self-designation) does not appear anywhere in this file; Boyd uses only 'Circumcellions'
+    throughout, consistent with early-20th-century scholarly usage. OCR QUALITY: generally cleaner
+    than the raw 19th-century critical-edition scans elsewhere in this corpus, but still carries
+    scattered letter-substitution errors; any specific quotation drawn from it needs visual
+    cross-check against its own surrounding context before being relied on for a verbatim claim.
+- filename: monumenta-vetera-donatistarum_migne-pl8.txt
+  supplied_by: Mark
+  date_added: '2026-09-01'
+  notes: >-
+    Excerpt from J.-P. Migne (ed.), Patrologiae Cursus Completus, Series Latina, Vol. 8 (Paris,
+    compiled 1844) - Jean Mabillon's 'Monumenta Vetera ad Donatistarum historiam pertinentia' block,
+    three items: (1) an anonymous Donatist-authored sermon (manuscript title 'De passione sanctorum
+    Donati et Advocati', Mabillon's own dated heading 'ANNO DOMINI 340'), (2) Passio Benedicti
+    Martyris Marculi (348), (3) Passio SS. Martyrum Isaac et Maximiani (348) with the appended
+    epistle of the martyr Macrobius. Donatism world-build Source_Acquisition_Manifest.md §1 request
+    G4 (Source_Registry.md rows 19-20) specifically requested items 2-3; item 1 is an incidental
+    find in the same contiguous block, flagged as new Registry row 50 rather than silently absorbed
+    - a rare genuine Donatist-authored primary voice, which Doc_02 §6 names as this world's own
+    scarcest category. Manually downloaded by Mark from archive.org (item
+    patrologiae_cursus_completus_lat_vol_008, a Google Books scan, FULL TEXT/OCR format) and
+    supplied as a DOCX file attachment - the same acquisition channel used for G1-G3. Converted
+    mechanically via a zip/XML text extraction of the full ~4.3M-character volume, then sliced to
+    this specific excerpt using explicit, manually-verified 1-indexed line boundaries (lines
+    66075-68596 of the full extraction) anchored to the volume's own editorial section headings
+    ('ANNO DOMINI 340.' opening; 'Deo gratias, amen.' closing, immediately before an unrelated work,
+    the Bordeaux Itinerary, begins) - not a boundary chosen by content judgment. No content passed
+    through model-generated output at either the extraction or the slicing step. The full,
+    unexcerpted volume was not vendored - it covers unrelated material (Constantine, Nazarius,
+    several early popes, Hosius of Cordoba, Victorinus, Candidus the Arian, Liberius, Potamius)
+    across roughly 30x the length of this excerpt. RIGHTS: 1844 compilation date alone, consistent
+    with how this entire reference series is treated elsewhere in this project. VOLUME NUMBERING
+    NOTE: this scan's own title page reads 'TOMUS VI' where the archive.org item and the Manifest
+    both cite 'vol. 8' - not reconciled (likely an OCR-dropped numeral or a reissue's differing
+    labeling); content identity (both specifically-targeted texts present and correctly headed) is
+    the basis for treating this as the right volume. COLUMN NUMBERS: the Manifest's own prior
+    WebSearch-sourced claim that the Passio Marculi sits at PL 8, columns 760-766 is not
+    independently re-confirmed here - no inline Migne column-number marker was found in this OCR.
+    OCR QUALITY: raw and uncorrected, dense two-column patristic reference text with frequent
+    apparatus/footnote interleaving; any specific quotation drawn from it needs visual cross-check
+    against its own surrounding text before being relied on for a verbatim claim.
+- filename: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+  supplied_by: Mark
+  date_added: '2026-09-01'
+  notes: >-
+    Michael Petschenig (ed.), Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51 and 53
+    (Vienna: Tempsky / Leipzig: Freytag, 1908 and 1910) - Donatism world-build
+    Source_Acquisition_Manifest.md §1 request G5 (Source_Registry.md rows 17, 18, 39). Manually
+    downloaded by Mark from archive.org and supplied as a DOCX file attachment - the same
+    acquisition channel used for G1-G4. Converted mechanically via a zip/XML text extraction
+    (paragraph boundaries preserved from </w:p> splits) - no content passed through model-generated
+    output. VOLUME IDENTITY, A REAL FINDING: this scan's own single surviving title page identifies
+    itself only as 'Pars I' (CSEL 51: Psalmus contra partem Donati, Contra epistulam Parmeniani, De
+    baptismo), but the OCR text continues well past that title page's own stated contents into
+    further distinct works confirmed by their own internal Explicit/Incipit markers - Contra
+    Cresconium (four books, explicitly named in the text), De unico baptismo, and the short Contra
+    Fulgentium Donatistam - with no second title page captured in this OCR to announce them.
+    UPDATE 2026-09-08 (sibling research session, session_01WLxhNbVhjkf1R2SAh8dxxT): this file
+    ALSO contains the complete text of Augustine's Contra Gaudentium Donatistarum Episcopum,
+    Libri II (c. 420) - both books, running roughly 12,000 lines - previously unnoticed and
+    unregistered in Source_Registry.md. This is Augustine's last anti-Donatist work, against
+    Gaudentius, the Donatist bishop of Thamugada; its own opening states Augustine's method of
+    quoting Gaudentius's own two letters verbatim throughout ("quando ponimus uerba Gaudentii...
+    'uerba epistulae'"), making it a further significant repository of preserved Donatist voice
+    alongside the Petilian material already relied on at rows 4/12. See Source_Registry.md row 56
+    for the specific citation. The
+    consolidated errata section at the very end resolves this: it explicitly corrects both 'VOL. LI'
+    and 'VOL. LIII' by name (CSEL's own numbers for Pars I and Pars III), confirming this is a
+    library binding of Pars I AND Pars III together - Pars III's own title page evidently did not
+    survive this scan's OCR. Pars II (CSEL 52, Contra litteras Petiliani) is confirmed absent -
+    checked directly, found only as a cross-reference abbreviation ('Petil. = Contra litteras
+    Petiliani'), never as body text. This directly satisfies G5's actual purpose: both Contra
+    Cresconium (row 17) and Contra epistulam Parmeniani (row 18) are present in this single file,
+    corrected from this build thread's own earlier (mistaken) guidance to Mark that these two works
+    sat in different, separately-acquired CSEL volumes. RIGHTS: 1908-1910 publication dates alone.
+    OCR QUALITY: raw and uncorrected, dense Latin critical-edition apparatus criticus; any specific
+    quotation drawn from it needs visual cross-check against its own surrounding text before being
+    relied on for a verbatim claim.
+- filename: monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt
+  supplied_by: Mark
+  date_added: '2026-09-01'
+  notes: >-
+    Paul Monceaux, Histoire litteraire de l'Afrique chretienne depuis les origines jusqu'a
+    l'invasion arabe, Tome V: Saint Optat et les premiers ecrivains donatistes (Paris: Ernest
+    Leroux, 1920) - Donatism world-build Source_Acquisition_Manifest.md §1 request G6
+    (Source_Registry.md row 40; the Manifest's own target range was vols. IV-VI, this file is Tome V
+    specifically). French-language; no public-domain English translation exists for this
+    field-standard older literary history. Manually downloaded by Mark from archive.org and supplied
+    as a DOCX file attachment - the same acquisition channel used for G1-G5. Converted mechanically
+    via a zip/XML text extraction (paragraph boundaries preserved from </w:p> splits) - no content
+    passed through model-generated output. This paste's own leading archive.org chrome was minimal
+    ('Full text of ...' / 'See other formats' - 2 lines, stripped at vendoring); everything after
+    that is unedited raw OCR. RIGHTS: 1920 publication date and the author's 1941 death, both
+    placing this volume long out of US copyright. CONTENT CONFIRMED THIS SESSION: covers Optatus,
+    the earliest Donatist polemical writings, an extensive dedicated chapter headed 'TYCONIUS,' and
+    substantial treatment of the Macarian-persecution martyr narratives - both the Passio Marculi
+    and the Passio Maximiani et Isaac are discussed at length, with Migne column citations ('Passio
+    Marculi, p. 762 Migne' / 'p. 766 Migne') that corroborate this world-build's own
+    Source_Acquisition_Manifest.md citation of PL 8, columns 760-766 - directly confirming the
+    Manifest's own description of this work as 'a second, independent public-domain route to the
+    Passiones' (G4). Macrobius's letter is likewise discussed. OCR QUALITY: raw and uncorrected,
+    dense French scholarly prose with extensive footnotes and frequently misread accented
+    characters; any specific quotation drawn from it needs visual cross-check against its own
+    surrounding text before being relied on for a verbatim claim.
+- filename: cil8-supplementum-numidiae_cagnat-schmidt1894.txt
+  supplied_by: Mark
+  date_added: '2026-09-01'
+  notes: >-
+    Corpus Inscriptionum Latinarum, Volumen Octavum, Supplementum, Pars II: Inscriptionum Provinciae
+    Numidiae Latinarum Supplementum, ed. Rene Cagnat and Johannes Schmidt, commentary by Johannes
+    Schmidt and Hermann Dessau (Berlin: Reimer, 1894) - Donatism world-build
+    Source_Acquisition_Manifest.md §1 request G7 (Source_Registry.md row 48; the Numidia supplement
+    specifically, not the 1881 main CIL VIII volume - Numidia is this world's own Donatist heartland
+    province). Manually downloaded by Mark from archive.org (a Google Books scan) and supplied as a
+    DOCX file attachment - the same acquisition channel used for G1-G6. Converted mechanically via a
+    zip/XML text extraction (paragraph boundaries preserved from </w:p> splits) - no content passed
+    through model-generated output. This paste's own leading archive.org chrome was minimal ('Full
+    text of ...' / 'See other formats' - 2 lines, stripped at vendoring); everything after that is
+    unedited raw OCR. RIGHTS: 1894 publication date; the scan's own front matter states this is a
+    1991 University of Minnesota preservation facsimile of the deteriorated original, not a new
+    copyrighted edition. MAJOR FIND THIS SESSION: Source_Registry.md row 27 (the 'Deo laudes'
+    acclamation) had stood at Confidence C since this Registry's first draft - a recognized field
+    category with no specific catalogued inscription. This volume's own editorial apparatus resolves
+    that directly: inscription no. 20482 ('DEO LAVDES SVPER AQVAS...', a fragment found near
+    Constantine) carries the editors' own note, 'Deo laudes (de hoc signo Donatistarum cf. supra ad
+    n. 17732)' - the editors themselves identify 'Deo laudes' as the Donatists' own sign, as opposed
+    to the Catholic 'Deo gratias.' A second passage (this volume's own index/commentary, near
+    inscription 2292) makes the same identification in fuller form, naming Bagai and Thamugadi as
+    the Donatists' primary seats. The cross-referenced inscription 17732 itself was not found in
+    this specific volume - likely in a different CIL VIII fascicle not vendored here. OCR QUALITY:
+    raw and uncorrected, dense 19th-century epigraphic apparatus abbreviation that this OCR handles
+    worse than narrative prose - expect substantial garbling; any specific inscription number or
+    reading needs visual cross-check against its own surrounding context, ideally against a standard
+    CIL concordance, before being relied on for a verbatim claim.
+- filename: theodosianus-16_mommsen-meyer1905.txt
+  supplied_by: Claude (direct network fetch)
+  date_added: '2026-09-07'
+  notes: >-
+    Th. Mommsen and Paul M. Meyer (eds.), 'Theodosiani Libri XVI cum Constitutionibus Sirmondianis et
+    Leges Novellae ad Theodosianum Pertinentes,' Voluminis I Pars Posterior: Textus cum Apparatu
+    (Berlin: Weidmann, 1905) - the Donatism world-build's Manifest §1 request G3, the Mommsen &
+    Meyer critical edition itself. Five prior attempts (2026-09-01, by Mark's manual download/DOCX
+    channel) all returned a DIFFERENT archive.org item (theodosianilibri02code /
+    theodosianilibri00codeuoft), confirmed to be Mommsen's Prolegomena in Theodosianum (Vol. I Pars
+    Prior, the manuscript-tradition apparatus), not this text volume - see don_Decision_Log.md's
+    2026-09-01 G3 entries. This session had direct outbound network access (confirmed working before
+    any other action) and fetched the correct item, theodosianilibr01sirmgoog, directly from
+    archive.org's own download endpoint (no DOCX intermediate). RIGHTS: this is a Google Books scan
+    (via Internet Archive); its own inserted disclaimer page states Google's own public-domain
+    finding for this item directly, and the 1905 publication date alone independently confirms it.
+    CONTENT CONFIRMED THIS SESSION: all 16 Books present; Book XVI (LIBER DECIMVS SEXTVS) located.
+    Law XVI.5.52 (dated '412 Ian. 30' in its own heading) located and confirmed to contain the exact
+    phrase 'circumcelliones argenti pondo decem' - a graduated fine schedule by social rank for
+    Donatists refusing to return to the Catholic church, with Circumcellions assessed a silver
+    (not gold) fine - closing the gap Source_Acquisition_Manifest.md and Doc_02 §9 both flagged (the
+    16.5.52 citation previously unheld in any vendored text). This supplements, not replaces, the
+    Boyd 1905 substitute source already vendored for G3 (boyd_ecclesiastical-edicts-theodosian-code_1905.txt),
+    since Boyd's own essay does not quote 16.5.52 verbatim. The term 'agonistici' does NOT appear
+    anywhere in this file (checked directly, zero matches) - confirmed NOT to be Theodosian Code
+    vocabulary; its likely source is Augustine's own polemic, unverified this session and named as a
+    separate, smaller open item. OCR QUALITY: raw, uncorrected 1905 Latin critical-edition scan with
+    a dense apparatus; expect the same 'e'/'c' OCR-confusion pattern seen elsewhere in this corpus's
+    Google Books scans. Any specific quotation needs visual cross-check against its own surrounding
+    context before being relied on for a verbatim claim.
+- filename: monceaux_histoire-litteraire-afrique-chretienne-tome4_1912.txt
+  supplied_by: Claude (direct network fetch)
+  date_added: '2026-09-07'
+  notes: >-
+    Paul Monceaux (1859-1941), 'Histoire litteraire de l'Afrique chretienne depuis les origines
+    jusqu'a l'invasion arabe,' Tome Quatrieme: Le Donatisme (Paris: Ernest Leroux, 1912) - the
+    Donatism world-build's Manifest §1 request G6's remainder. Only Tome V (Saint Optat et les
+    premiers ecrivains donatistes, 1920, already vendored as
+    monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt) was previously acquired
+    (2026-09-01); this Tome IV is Monceaux's own first dedicated Donatism volume (Livre Huitieme,
+    'Le Donatisme, Documents sur l'histoire du schisme,' opens this tome) - more directly on-topic
+    than Tome V's own earlier-period focus. This session had direct outbound network access
+    (confirmed working before any other action) and fetched the item, histoirelitterai04monc,
+    directly from archive.org's own download endpoint (no DOCX intermediate). TITLE PAGE DATE
+    CAVEAT: archive.org's own catalog metadata field wrongly shows '1901' (the series' own
+    start year, misapplied uniformly to every tome); the volume's own title page states '1912'
+    directly and is the basis for this file's own date, per this session's direct inspection.
+    RIGHTS: pre-1929 publication (1912) alone places this well out of US copyright; independently,
+    the author's own death date (1941, stated on this item's own catalog record) is more than 95
+    years before this session (2026). French-language secondary scholarship (Type S), no
+    public-domain English translation exists - same situation already established for Tome V.
+    OCR QUALITY: raw, uncorrected OCR of a 1912 French text with extensive diacritics; expect
+    scattered character-substitution errors. Any specific quotation needs visual cross-check
+    against its own surrounding context before being relied on for a verbatim claim.
+- filename: monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt
+  supplied_by: Claude (direct network fetch)
+  date_added: '2026-09-07'
+  notes: >-
+    Paul Monceaux (1859-1941), 'Histoire litteraire de l'Afrique chretienne depuis les origines
+    jusqu'a l'invasion arabe,' Tome Sixieme: La Litterature Donatiste (au temps de saint Augustin)
+    (Paris: Editions Ernest Leroux, 1922) - the Donatism world-build's Manifest §1 request G6's
+    remainder, companion to Tome IV (vendored alongside this file, same session - see that file's
+    own entry above for the fuller acquisition account). This tome covers the Donatist literature
+    contemporary with Augustine's own anti-Donatist campaign, later chronologically than Tome IV's
+    own material. Fetched directly from archive.org's own download endpoint (item
+    histoirelitterai06monc, no DOCX intermediate), this session's direct network access. TITLE PAGE
+    DATE CAVEAT: archive.org's own catalog metadata field wrongly shows '1901' (the series' own
+    start year, misapplied uniformly to every tome, same caveat as Tome IV above); the volume's own
+    title page states '1922' directly. RIGHTS: pre-1929 publication (1922) alone places this well
+    out of US copyright; independently, the author's own death date (1941) is more than 95 years
+    before this session (2026). French-language secondary scholarship (Type S), no public-domain
+    English translation exists - same situation already established for Tome V. OCR QUALITY: raw,
+    uncorrected OCR of a 1922 French text with extensive diacritics; expect scattered
+    character-substitution errors. Any specific quotation needs visual cross-check against its own
+    surrounding context before being relied on for a verbatim claim.
+- filename: gregory-great_epistolae-selectae_turchi1907.txt
+  supplied_by: Claude (direct network fetch)
+  date_added: '2026-09-07'
+  notes: >-
+    'Bibliotheca Sanctorum Patrum et Scriptorum Ecclesiasticorum, Series VII (Scriptores Medii Aevi),
+    Voluminis I Pars I: Sancti Gregorii Magni Epistolae Selectae,' curante Sac. Nicola Turchi (Rome:
+    Apud Directionem Bibliothecae Ss. Patrum, 1907) - a themed selection of Gregory the Great's
+    letters, addressing the Donatism world-build's own Registry row 32 open item (Gregory's Register
+    as the terminus of attestation for this world, Doc_02 Section 9). Two prior sessions searched
+    archive.org exhaustively for Mark's own target edition (Ewald and Hartmann, MGH Epistolae I-II,
+    Tomus I: Libri I-VII, Berlin 1891) without finding it; this session, with direct network access
+    confirmed working, found this different but directly useful edition instead via a Google Books
+    search. NOT the Ewald-Hartmann edition itself (that remains unvendored) - but its own front
+    matter states directly that its text and notes are taken FROM the Ewald-Hartmann edition, and
+    every included letter carries an explicit editorial concordance to that edition's own book/
+    epistle numbering. Fetched as a PDF directly from Google's own download endpoint (volume ID
+    KCRJAQAAMAAJ, confirmed via Google Books API metadata as public-domain/open-access/full-view),
+    converted to plain text via pdftotext -layout (reading the PDF's own embedded OCR text layer,
+    no re-OCR, no model-generated content). RIGHTS: 1907 publication date alone. CONTENT CONFIRMED
+    THIS SESSION: searched the whole file directly (not page-by-page) for 'Donatist' and its Latin
+    case forms. Four genuine Donatist-subject letters found, each independently verified in context
+    and each carrying the edition's own explicit Ewald/Hartmann concordance: this edition's Ep.
+    LXXXII = Ewald lib. II, ep. 46 (to Columbus of Numidia, re: Maximianus of Pudentiana corrupted
+    by the Donatists, 592 Jul); Ep. LXXXIV = Ewald lib. IV, ep. 32 (to Pantaleon, praetorian prefect
+    of Africa, urging suppression of the Donatists, 594 Jul); Ep. LXXXVI = Ewald lib. IV, ep. 35 (to
+    Victor and Columbus, bishops of Africa, urging a council against the Donatists, 594 Jul); Ep.
+    LXXXVII = Hartmann lib. V, ep. 3 (to Dominicus of Carthage, on heretic-coercion and a 594 council
+    at Carthage against the Donatists per a quoted Dudden 1905 footnote, 594 Sept). These are IN
+    ADDITION TO letters I.72 and I.75, already confirmed genuine elsewhere in this world's own build
+    record by a prior session's independent check; this file's own selection does not draw from Book
+    I at all, so it neither confirms nor contradicts those two. No letter numbered I.73 was found in
+    this selection. IMPORTANT CAVEAT: this is a SELECTION ('Epistolae Selectae'), not the complete
+    Register - its own title page states 'Pars I' and its own back matter confirms a Pars II exists,
+    not located or vendored this session. OCR QUALITY: Google's own embedded OCR layer, reasonably
+    clean, with occasional footnote-column/main-text bleed from the two-column apparatus layout (one
+    English-language Dudden footnote appears interleaved mid-paragraph near Ep. LXXXVI/LXXXVII).
+    Any specific quotation needs visual cross-check against its own surrounding context before being
+    relied on for a verbatim claim.
+- filename: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
+  supplied_by: Claude (direct network fetch)
+  date_added: '2026-09-07'
+  notes: >-
+    J.-P. Migne (ed.), Patrologiae Cursus Completus, Series Latina, Tomus XI (Paris) - a bundled
+    volume containing Zeno of Verona's own works (cols. 9-751ish, not Donatism-related) followed by a
+    substantial Optatus/Donatism-material cluster from col. 759 on: Dupin's preface and testimonia on
+    Optatus, a 'Historia Donatistarum' (col. 771, not yet read), a SECOND edition of Optatus's own
+    Seven Books distinct from the two already-vendored editions (col. 883, not yet read or compared),
+    a 'Monumenta vetera ad Historiam Donatistarum pertinentia' section (col. 1170 - same title as the
+    already-vendored monumenta-vetera-donatistarum_migne-pl8.txt, NOT reconciled against it this
+    session, flagged as an open item), and the Gesta Collationis Carthaginensis itself (col. 1223,
+    the 411 Conference acts) followed by Balduin's own Historia Collationis and indices. THIS CLOSES
+    (OR SUBSTANTIALLY CLOSES) SOURCE_REGISTRY.MD ROW 14: that row had recorded the Gesta as
+    'confirmed unavailable in the public domain, recorded not requested' since 2026-09-01 - a
+    determination made via builder-prior-knowledge/WebSearch WITHOUT working network access to
+    actually check. This session had working direct network access (confirmed as its own first
+    action) and found this volume directly on archive.org. Fetched directly from archive.org's
+    download endpoint (item patrologiaecur11mign), no DOCX intermediate. CONTENT CONFIRMED THIS
+    SESSION: real, numbered conference acts are present in the Gesta section (e.g. '268. Emeritus
+    episcopus dixit... 269. Alypius episcopus Ecclesiae catholicae dixit... 270. Adeodatus episcopus
+    dixit'), with Marcellinus named throughout as the presiding imperial tribunus et notarius.
+    'Emeritus' (of Caesarea, this world's own most-desired Donatist voice at this event) occurs at
+    least 28 times, directly confirmed by search - genuine substantive content, not a table of
+    contents. RIGHTS: Migne's Patrologia Latina series was compiled and printed in the 1840s-1850s,
+    the same PD-by-date basis already accepted for the sibling PL vol. 8 file in this corpus; this
+    specific volume's own scan did not carry a clearly OCR-legible year, but its identity as a
+    standard Migne PL volume (title page: 'ACCURANTE J.-P. MIGNE... PATROLOGIAE TOMUS XI...
+    PARISIIS, APUD VRAYET') is unambiguous. NOT YET DONE: precise column-boundary excerpting of just
+    the Gesta from the rest of this 5MB volume (this scan's OCR'd column markers are not reliably
+    sequential enough for confident automated boundary-finding in the time available this session);
+    reading the Historia Donatistarum or the second Optatus edition for content; reconciling the
+    'Monumenta vetera' title-duplication against the already-vendored PL8 file. All are real open
+    items for a future Doc_02/Doc_04/Doc_09 revision pass. OCR QUALITY: notably poor even by this
+    corpus's own standards for 19th-century Migne scans - dense character-substitution noise
+    throughout; any quotation needs careful visual cross-check before being relied on for a verbatim
+    claim - a numbered Act's own short 'dixit' lines were the most reliably legible passages found.
+- filename: chronica-minora-liber-genealogus_mommsen1892.txt
+  supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Theodor Mommsen (ed.), Chronica Minora Saec. IV-VII, Volumen I (MGH Auctores Antiquissimi IX,
+    Berlin: Weidmann, 1892), containing the Liber Genealogus as Additamentum II to the Chronographus
+    Anni CCCLIIII - Donatism world-build Source_Registry.md row 21, flagged since 2026-09-01 as "not
+    yet inventoried in the vendored corpus." Mommsen's own editorial introduction dates the
+    genealogies' composition to the start of the fifth century in Africa, with surviving manuscript
+    recensions internally dated to 427, 438, and (via a Geiseric regnal-year reference) 455 - within
+    or adjacent to this world's own 311-439 window. Only the Liber Genealogus heading and Mommsen's
+    own dating discussion have been read; the genealogical content itself and the rest of this
+    multi-text volume have not been surveyed for Donatism-specific claims.
+- filename: codex-theodosianus_latinlibrary.txt
+  supplied_by: Mark
+  date_added: '2026-09-02'
+  notes: >-
+    The Codex Theodosianus, all 16 books, downloaded book by book from The Latin
+    Library (thelatinlibrary.com/theodosius.html) and compiled into one document --
+    supplied for the Latin Pastoral-Congregational Christianity world-build's own
+    Registry row 44, after that row's own account of the CC-BY-NC-SA-licensed
+    Oxford Text Archive item 0329 (Mommsen and Meyer's critical edition, referenced
+    but not vendored) left this world without a vendored copy of the text at all.
+    The Latin Library states site-wide that it has "taken every reasonable
+    precaution to ensure that the Latin texts presented here are in the Public
+    Domain," which is the rights basis here, but does not name the critical edition
+    any given transcription follows and states explicitly that its texts are "not
+    intended for research purposes nor as substitutes for critical editions" -- a
+    real gap for a legal corpus where a constitution's exact wording is the whole
+    point, disclosed in this file's own header rather than absorbed into an
+    unqualified public-domain claim. Converted mechanically from a DOCX file
+    (paragraph boundaries preserved from </w:p> splits, the same method used for
+    origen_philocalia_lewis1911.txt) -- no content passed through model-generated
+    output. A converter bug (three <w:tab/> runs mis-rendered on the first
+    extraction pass) was caught and fixed before this file was committed; see the
+    file's own header for the full note. Original-language witness (Latin) --
+    second-witness caveat applies per cic/texts/INTAKE.md: never primary evidence
+    for a Representative on its own, only for cross-checking a specific reading
+    against whatever English-language source a world's own records actually cite.
+- filename: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+  supplied_by: Mark
+  date_added: '2026-09-05'
+  notes: >-
+    Hartel's critical edition of Cyprian's own corpus, CSEL 3 Pars I (treatises,
+    1868) and Pars II (Epistulae I-LXXXI, 1871) -- supplied for the Latin
+    Pastoral-Congregational Christianity world-build's own Registry row 39,
+    fulfilling most of that world's Source_Acquisition_Manifest G1 request. Pars
+    III (spuria and indices) is not included and remains unacquired; G1 stays
+    open for that part only. Public domain by date (1868/1871, both far past the
+    ~95-year US threshold); the 1965 Johnson Reprint Corporation printing this
+    scan derives from is a photomechanical reprint of the same public-domain
+    text, no new claim over it. Mechanically extracted from a docx Mark compiled
+    from an archive.org "Full text" view of a Google Books scan (exact item
+    identifier not stated when supplied, not guessed -- see the file's own
+    header); site-navigation chrome and Google's own standard PD usage notice
+    stripped, doubled inter-word spacing normalized, nothing else altered.
+    OCR quality is uneven: the running Latin text reads cleanly throughout
+    (including right at the end, where Epistle 81 closes with no truncation),
+    but the apparatus criticus carries real, localized OCR noise -- garbled
+    manuscript sigla, stray characters -- disclosed in the file's own header
+    rather than treated as pristine. Original-language witness (Latin) --
+    second-witness caveat applies per cic/texts/INTAKE.md: never primary
+    evidence for a Representative on its own.
+- filename: possidius_vita-augustini_weiskotten1919.txt
+  supplied_by: Mark
+  date_added: '2026-09-05'
+  notes: >-
+    Weiskotten's 1919 Princeton dissertation edition of Possidius's Life of
+    Augustine -- supplied for the Latin Pastoral-Congregational Christianity
+    world-build's own Registry row 45, fulfilling Source_Acquisition_Manifest
+    G3, this world's own highest-priority open request. A genuinely bilingual
+    critical edition: Weiskotten's revised Latin text with apparatus and
+    introduction, together with his complete English translation, notes, and
+    an index. Because the full English translation is present, this is
+    ordinary English-language primary-evidence material, not a second-witness
+    original-language file. Public domain by date (1919). Mechanically
+    extracted from a docx Mark compiled from an archive.org "Full text" view
+    of a Google Books scan of the University of California, Berkeley's own
+    copy (exact item identifier not stated when supplied, not guessed);
+    site-navigation chrome, Google's PD usage notice, and a scanned UC
+    Berkeley circulation due-date slip bound into the back of the physical
+    volume were all stripped as scanning artifacts, doubled inter-word
+    spacing normalized, nothing else altered. OCR quality: the English
+    translation reads cleanly throughout, including its own closing lines;
+    the Latin apparatus and manuscript-collation tables carry more noise,
+    disclosed in the file's own header rather than treated as pristine.
+- filename: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
+  supplied_by: Mark
+  date_added: '2026-09-05'
+  notes: >-
+    Goldbacher's critical edition of Augustine's letters, CSEL 57, Pars IV
+    only (Epistulae 185-270) -- supplied for the Latin Pastoral-Congregational
+    Christianity world-build's own Registry row 61, partially fulfilling
+    Source_Acquisition_Manifest G4. The remaining Goldbacher volumes (CSEL
+    34/1, 34/2, 44, 58) are not included and stay open. Public domain by
+    date (1911). Mechanically extracted from a docx Mark compiled from an
+    archive.org "Full text" view of a Google Books scan (exact item
+    identifier not stated when supplied, not guessed, though very likely
+    the same item already noted in the shared download-queue-seed.yaml as
+    archive.org/details/CSEL57 -- not independently confirmed against this
+    specific file); site-navigation chrome and Google's PD usage notice
+    stripped, doubled inter-word spacing normalized, nothing else altered.
+    Latin-only, no facing translation -- original-language witness,
+    second-witness caveat applies per cic/texts/INTAKE.md. OCR quality
+    measurably worse than this project's other recent Latin intakes: a
+    direct paragraph-level scan found ~2.6% of paragraphs (636 of 24,350)
+    with heavy garbage-symbol corruption, concentrated in the apparatus
+    criticus -- at least one specific editorial note is essentially
+    unreadable rather than merely noisy. The running Latin letter text
+    itself reads coherently throughout, including the collection's own
+    final lines; apparatus-level claims need independent verification.
+- filename: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt
+  supplied_by: 'this build session (2026-09-09) - NOT Mark, a deviation from this project''s
+    normal intake path worth stating plainly: this session had live WebSearch/WebFetch
+    access unusual for a build thread, used to answer a genuine open acquisition question
+    (syr world, Persian episcopal-succession dating) rather than to originate content.
+    Fetched directly from archive.org (details/BarHebraeusChroniconEcclesiasticumVol.3),
+    the item uploaded by Roger Pearse (roger.pearse@googlemail.com), 2011-06-11. The
+    item''s own metadata carries no scanner/source/sponsor field confirming a Google
+    Books origin for this specific scan; that description appears only in secondary
+    discussion of Pearse''s archive.org uploads, not read directly from this item.'
+  date_added: '2026-09-09'
+  notes: >-
+    Gregorii Barhebraei Chronicon Ecclesiasticum, Volume III of 3 (Abbeloos-Lamy edition,
+    Louvain: Peeters, 1872-1877) - the Eastern Church section (Nestorian Catholicoi,
+    Papa bar Aggai through Isaac, and the Jacobite Maphrians). Public domain by date;
+    archive.org's own item metadata states licenseurl "creativecommons.org/publicdomain
+    /mark/1.0/", read directly 2026-09-09. Volumes I-II (the Western/Antiochene
+    Patriarchs) were NOT vendored - not needed for this world's own citations. Latin
+    translation of a Syriac original; the OCR renders the Latin usably but the Syriac
+    as unreadable noise throughout - Latin only, never Syriac, from this file. A
+    second-witness, original-language-adjacent source per this project's own
+    original-language-sourcing rule (INTAKE.md SS"Two shapes of source") - descriptive/
+    paraphrase use in English-facing records, never a verbatim English "quote" record,
+    since the source itself is not English. Registered to let syr.contested.papa-primacy
+    cite the actual primary chronicle directly, alongside its existing in-copyright-
+    consultation-only GEDSH source - it does not resolve the Simeon bar Sabbae dating
+    dispute (341 vs. c. 344), which rests on modern external argument the chronicle
+    itself cannot adjudicate.
+- filename: harris_odes-and-psalms-of-solomon_harris1911.txt
+  supplied_by: 'this build session (2026-09-09) - NOT Mark, same disclosed deviation as this
+    session''s Bar Hebraeus acquisition. Fetched directly from archive.org
+    (details/cu31924029308677, Cornell University Library scan, uploaded 2009-11-03).'
+  date_added: '2026-09-09'
+  notes: >-
+    J. Rendel Harris, The Odes and Psalms of Solomon, published from the Syriac Version, 2nd ed.
+    (Cambridge University Press, 1911) - the exact edition syr.source.odes-of-solomon already named
+    as its expected public-domain English text, with an OPEN acquisition request (syr.search.odes-
+    of-solomon-pd) until this session. Public domain by date; the file's own front matter (Cornell
+    University Library) states directly "There are no known copyright restrictions in the United
+    States on the use of the text." FULL VOLUME - introduction, a critical Syriac text edition
+    (unreadable OCR), a Pistis Sophia comparison appendix (Latin retroversion, not English), and a
+    separate running English translation-with-commentary section (headed "THE ODES OF SOLOMON,"
+    beginning after file line 6520) - only that section carries citable English wording. Not yet
+    drawn into a quote record: the English section's OCR needs verse-by-verse reconstruction
+    (superscript verse numbers and a few words garbled, e.g. "g^idging" for "grudging") before any
+    specific wording should be treated as verified-direct - flagged as real follow-up work, not
+    done in this acquisition pass, rather than rushed.
+- filename: salvian_on-the-government-of-god_sanford1930.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-09'
+  notes: >-
+    Salvian of Marseilles, De Gubernatione Dei, tr. Eva M. Sanford (Columbia University Press,
+    "Records of Civilization" no. 12, 1930). Surfaced by a scheduled source-readiness routine
+    2026-09-08 as a new candidate, verified and vendored 2026-09-09. Vendored from archive.org
+    item `ongovernmentofgo0000salv` after a first candidate copy (`SalvianOfMarseille.OnTheGovernmentOfGod`)
+    was found to have a genuine OCR/scan gap - its djvu.txt jumps directly from the end of the
+    Preface to "THE SECOND BOOK", with "THE FIRST BOOK" (pp. 39-65) entirely absent. This file's
+    source copy was checked to carry all eight books in sequence before vendoring. **Update,
+    same day:** Boundary-Checked Native, Documented (Doc_02 §13A, Source Registry row 43) and
+    corpus-map assigned - Hilary of Arles's own sermon on Honoratus, already vendored, names
+    Salvian directly as one of Honoratus's own circle at Lerins.
+- filename: faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-09'
+  notes: >-
+    Faustus, bishop of Riez, and Ruricius of Limoges, collected Latin works, ed. Engelbrecht
+    (CSEL vol. XXI, 1891) - De Gratia libri II, De Spiritu Sancto libri II, Epistulae, Sermones,
+    De Ratione Fidei, plus Ruricius's own Epistulae. Latin only; no public-domain English
+    translation exists (the only English translation, Guido Stucco, Brepols 2023, is recent
+    and in copyright). Vendored from archive.org item `corpusscriptorum21fausuoft`, previously
+    located and sibling-flagged in this world's own G1 manifest and Source Registry (row 24)
+    but never independently re-verified or vendored before this pass. Corpus-map assigned
+    same day (De Gratia libri II only) - see gallic_Source_Registry.md row 24.
+- filename: eucherius-lyon_de-contemptu-mundi_vaughan1654.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from ccel.org
+  date_added: '2026-09-09'
+  notes: >-
+    Eucherius of Lyon, De Contemptu Mundi ("The World Contemned"), tr. Henry Vaughan the
+    Silurist (1654). CCEL's own page states directly, "This document is in the public domain."
+    Fetched as a PDF from `ccel.org` (note: the bare domain is reachable through this session's
+    network egress proxy; `www.ccel.org` is blocked), text extracted via pdfminer.six. Previously
+    located and sibling-flagged in this world's own Source Registry (row 25) but never
+    independently re-verified or vendored before this pass. Corpus-map assigned same day.
+- filename: eucherius-lyon_de-laude-eremi_migne-pl50.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-09'
+  notes: >-
+    Eucherius of Lyon, De Laude Eremi ad Hilarium Lirinensem Presbyterum, Latin text, Migne
+    Patrologia Latina vol. 50 (1846). Extracted from the full PL 50 volume (archive.org item
+    `patrologiae_cursus_completus_lat_vol_050`, ~112,000 OCR lines spanning many authors -
+    vendoring the whole volume was judged disproportionate; only this one work's own bounded
+    section was extracted, see the file's own header for exact boundaries). Latin only - no
+    public-domain English translation identified. Previously located and sibling-flagged in
+    this world's own Source Registry (row 26) but never independently re-verified or vendored
+    before this pass. Corpus-map assigned same day.
+- filename: hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-09'
+  notes: >-
+    Hilary of Arles, Sermo de Vita Sancti Honorati, plus the remaining works Migne's own
+    apparatus classifies as genuine (non-disputed) under "Opuscula Genuina" - Patrologia Latina
+    vol. 50 (1846), extracted the same way and from the same archive.org volume as the
+    companion Eucherius De Laude Eremi file (see that entry). The section as extracted includes
+    at least one further short genuine letter after the Vita Honorati sermon itself, not
+    separately titled or bounded this pass - flagged in the file's own header for whoever next
+    cites it as a distinct work to give it its own boundary. The disputed "Opuscula Dubia"
+    material that follows in the same volume (Sermo de Miraculo S. Genesii, etc.) was
+    deliberately excluded. Previously located and sibling-flagged in this world's own Source
+    Registry (row 27) but never independently re-verified or vendored before this pass.
+    Corpus-map assigned same day.
+- filename: constantius-lyon_vita-germani_levison1920.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-09'
+  notes: >-
+    Constantius of Lyon, Vita Germani Episcopi Autissiodorensis, Latin critical text ed.
+    Levison, MGH Scriptores rerum Merovingicarum VII (1920), pp. 225-283. Extracted from the
+    full MGH volume (archive.org item `passionesvitaequesanctorum5`, a 942-page collection of
+    many saints' lives - vendoring the whole volume was judged disproportionate). Latin only;
+    no public-domain English translation exists (the only English translation, F. R. Hoare's
+    "The Western Fathers," 1954, is access-restricted on every archive.org copy checked and
+    not confirmed public domain - a renewal check against Stanford's Copyright Renewal Database
+    could not be completed, that host being blocked by this session's network egress proxy).
+    OCR quality is the roughest of the six files vendored this session (MGH's own apparatus
+    criticus is heavily garbled) - flagged in the file's own header as needing the most caution
+    before quoting specific wording. Surfaced by a scheduled source-readiness routine 2026-09-08
+    as a new candidate, not previously in this world's acquisition record. **Update, same day:**
+    Boundary-Checked Excluded, Named Comparandum (Doc_02 §13A, Source Registry row 44) - no
+    documented connection to Lerins, Honoratus, Cassian, or Vincent found in the text itself;
+    the only real link is literary (Constantius modeled his prose on Sulpitius Severus's Life
+    of Martin), the same kind of borrowed-form relationship already treated as Excluded
+    elsewhere in this Registry (row 34). Deliberately not corpus-map assigned to this world.
