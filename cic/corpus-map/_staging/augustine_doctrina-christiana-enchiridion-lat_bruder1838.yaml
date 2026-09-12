@@ -1,0 +1,30 @@
+# Bruder's 1838 Tauchnitz edition (Maurist text): De Doctrina Christiana and
+# the Enchiridion, two distinct works in one file. Vendored 2026-09-08.
+source_file: augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt
+
+assignments:
+  - work: "On Christian Doctrine (De Doctrina Christiana), Books I-IV"
+    author: augustine
+    locus: "opening of file through Book IV c. XXXI's own close (this file's own header pins the exact boundary line before the Enchiridion begins)"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original standing behind the already-vendored NPNF1-02 English
+      translation (Registry row 16). NOT a modern critical edition (Bruder's
+      own Maurist-text reprint, not CSEL 80) -- disclosed in the file's own
+      header along with a standing warning that CSEL 80 itself is confirmed
+      in copyright and must never be vendored.
+
+  - work: "The Enchiridion (On Faith, Hope, and Love)"
+    author: augustine
+    locus: "from the Enchiridion's own title page ('S. AURELII AUGUSTINI ENCHIRIDION AD LAURENTIUM...') to its own close"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original standing behind the already-vendored NPNF1-03 English
+      translation (Registry row 17). Same Maurist-text caveat as the
+      companion De Doctrina Christiana entry above.

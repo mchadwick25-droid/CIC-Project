@@ -159,8 +159,8 @@ class LiveModelAnswerer:
     .answer() does, and only when a caller with real-spend authorization
     invokes it (the same discipline this project has held everywhere else
     a live model call is one function call away: crisis_resources' own
-    "delivered by code" precedent, engine.m4.turn's own force_empty_stream
-    test-hook warning, Build-Blueprint.md SS4's spend-authority split)."""
+    "delivered by code" precedent, engine.m4.turn's own sealed-safety-call
+    discipline, Build-Blueprint.md SS4's spend-authority split)."""
 
     def __init__(self, *, world: LoadedWorld, canon_questions: dict[str, dict], client, model_id: str):
         self.world = world

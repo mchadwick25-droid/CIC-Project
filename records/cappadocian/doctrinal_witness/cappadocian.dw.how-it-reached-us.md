@@ -55,6 +55,14 @@ positions:
 tensions:
 - we cannot claim any living chain back to an eyewitness of Jesus; three centuries and more separate our
   own span from his own life, and we do not pretend otherwise
+- the deposit and the search sit together in our own record without being reconciled - our own great
+  bishop, in one sentence, both names his grandmother as the one who handed him the faith and describes
+  travelling over much sea and land afterward to choose for himself whom he would call fathers; the
+  position that what reached us was never "a personally gathered testimony" is true of the deposit and
+  not of every one of us who received it
+relations:
+- type: associated-with
+  target: cappadocian.quote.macrina-the-elder-taught-me
 ---
 Closes C-E. Grounded in four already-registered term records rather than
 any new claim: cappadocian.term.paradosis (unwritten custom carrying
@@ -67,3 +75,13 @@ known) and this world's own record genuinely cannot supply: this world is
 temporally and evidentially distant from Jesus's own life in a way its own
 demonstration turns (C-I, C-T) do not need to dwell on but this cell,
 asking specifically "how did it reach you," must name honestly.
+
+The third tension was added 2026-09-09, when cappadocian.quote.macrina-the-elder-taught-me
+was authored against this cell. Basil's Epistle 204 §6 names a real chain of memory
+(his grandmother Macrina the Elder, carrying Gregory Thaumaturgus' own teaching) and,
+two clauses later in the same sentence, describes searching out teachers of his own.
+The second half cuts against this record's own unqualified `positions` line, "not a
+personally gathered testimony." Rather than truncate the quotation before the
+difficulty, the quote runs to its full stop and this record names the tension - which
+is what the tensions field is for, and what the positions line, stated flatly, could
+not hold on its own.

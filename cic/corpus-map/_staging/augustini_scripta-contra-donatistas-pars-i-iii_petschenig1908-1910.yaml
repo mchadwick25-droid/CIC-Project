@@ -1,0 +1,88 @@
+# CSEL 51 (Pars I) + CSEL 53 (Pars III) bound together, Petschenig's critical
+# Latin edition. Five distinct works confirmed by their own internal
+# Explicit/Incipit markers (see file header); Pars II (CSEL 52, Contra
+# litteras Petiliani) is not present in this scan.
+source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+
+assignments:
+  - work: "Psalmus contra Partem Donati"
+    author: augustine
+    locus: "Pars I, opening item"
+    atlas_ids:
+      - donatism
+    role: tradition
+    confidence: assigned
+    note: >
+      Augustine's own abecedarian song against the Donatists, written for
+      ordinary Catholic congregations to sing/recite — his most directly
+      popular-register anti-Donatist composition, no English translation
+      vendored elsewhere in this corpus. Tradition per this entry's own
+      standing rule for Augustine's anti-Donatist corpus: preserves and
+      answers Donatist argument directly, the nearest thing to a documented
+      exchange this entry has.
+
+  - work: "Contra Epistulam Parmeniani (libri tres)"
+    author: augustine
+    locus: "Pars I"
+    atlas_ids:
+      - donatism
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin critical text (CSEL 51) of Augustine's reply to Parmenian's own
+      letter — no English translation vendored elsewhere in this corpus, so
+      this is primary content on the "no English rendering exists" limb of
+      the second-witness rule, not merely a check on an existing one.
+
+  - work: "De Baptismo (libri septem)"
+    author: augustine
+    locus: "Pars I"
+    atlas_ids:
+      - donatism
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin critical text (CSEL 51) of the same work already vendored in
+      English as "On Baptism, Against the Donatists" (npnf104). Second
+      witness for cross-checking specific renderings.
+
+  - work: "Contra Cresconium (libri quattuor)"
+    author: augustine
+    locus: "Pars III, following Pars I without a second title page in this
+      scan"
+    atlas_ids:
+      - donatism
+    role: tradition
+    confidence: assigned
+    note: >
+      No English translation vendored anywhere in this corpus — primary
+      content, not a second witness. Augustine's reply to the Donatist
+      grammarian Cresconius, who had himself answered Contra Epistulam
+      Parmeniani; a documented three-way exchange (Parmenian to Tyconius/
+      Petilian's circle, Cresconius's reply, Augustine's counter-reply) this
+      entry can now trace more of than before.
+
+  - work: "De Unico Baptismo contra Petilianum"
+    author: augustine
+    locus: "Pars III"
+    atlas_ids:
+      - donatism
+    role: tradition
+    confidence: assigned
+    note: >
+      No English translation vendored anywhere in this corpus. Companion to
+      the already-vendored "Answer to the Letters of Petilian" (npnf104) —
+      a further, shorter round in the same Augustine-Petilian exchange.
+
+  - work: "Contra (Adversus) Fulgentium Donatistam"
+    author: augustine
+    locus: "Pars III, short item"
+    atlas_ids:
+      - donatism
+    role: tradition
+    confidence: provisional
+    note: >
+      A short, otherwise-unvendored reply to a Donatist named Fulgentius
+      about whom little else survives in this corpus — provisional pending
+      a check on how substantial and independently attested this exchange
+      actually is before it supports a specific claim.

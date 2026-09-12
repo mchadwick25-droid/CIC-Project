@@ -37,8 +37,8 @@ worlds:
     state: admitted
     census_id: "alexandria-catechetical"
     package:
-      manifest_hash: "sha256:227518a14932c93ab7f8ed910c84068c9277cce983dece103fa6a54e7db0faf9"
-      location: "packages/alx/2026-09-04T16-41-49Z"
+      manifest_hash: "sha256:708d240fa5820099e054be11db8b4769e5b38d8a022493a2d213e78f743e916f"
+      location: "packages/alx/2026-09-09T23-12-35Z"
     thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
     living_tradition_flag: true
   desert:
@@ -63,8 +63,8 @@ worlds:
     state: admitted
     census_id: "desert-monasticism"
     package:
-      manifest_hash: "sha256:f963a69df2c2ac038818ab6dd6baac4545bf989062889196dfb8c305e905eb02"
-      location: "packages/desert/2026-09-04T16-41-52Z"
+      manifest_hash: "sha256:9a79a0a3208631344881e77709e066df3341b8cc7e361c7004f6eb8f18ca4cf4"
+      location: "packages/desert/2026-09-09T03-17-52Z"
     thinness_statement: "Richest in the Apophthegmata's own elder-and-disciple sayings tradition and Antony's own Vita; thinner on ordinary participants outside the collected-sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus)."
     living_tradition_flag: true
   pahc:
@@ -88,8 +88,8 @@ worlds:
     state: admitted
     census_id: "post-apostolic-house-church"
     package:
-      manifest_hash: "sha256:a1b8d8027d2d0a24f426e5733f7460817010cf99e410c50e02e50e7d3761f2f5"
-      location: "packages/pahc/2026-09-09T14-12-40Z"
+      manifest_hash: "sha256:ae504b13b2ce19ddc0949bc8be1010132d172ddf4203d9d335b551c2a1d79800"
+      location: "packages/pahc/2026-09-10T09-40-33Z"
     thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
     living_tradition_flag: true
   hal:
@@ -113,8 +113,8 @@ worlds:
     state: admitted
     census_id: "hieronymian-ascetic-literary"
     package:
-      manifest_hash: "sha256:9d0ad7a8f3942a30ebb91e4c6bc54b826fe1a147a951ad2614c814da543adedf"
-      location: "packages/hal/2026-09-04T16-41-54Z"
+      manifest_hash: "sha256:88dffc65eb5ea4321d5fc9de7c6125fbaefb2346df6f99ce76314faeeb5dacc8"
+      location: "packages/hal/2026-09-09T23-14-42Z"
     thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
     living_tradition_flag: true
   syr:
@@ -141,8 +141,8 @@ worlds:
     state: admitted
     census_id: "syriac-edessa-nisibis"
     package:
-      manifest_hash: "sha256:025cb1817ca5aea6bdf4b81c5d3e029806dbb516d7a82579f51a690cd4348f16"
-      location: "packages/syr/2026-09-04T18-49-01Z"
+      manifest_hash: "sha256:eecd2703568c7dd77696feac78cc5b26e94dbb96cb2c379a8bd746e5e9d61df4"
+      location: "packages/syr/2026-09-10T00-12-57Z"
     thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
     living_tradition_flag: true
   ijc:
@@ -166,8 +166,8 @@ worlds:
     state: admitted
     census_id: "imperial-juridical-christianity"
     package:
-      manifest_hash: "sha256:4ca056f273f14247fffb9833a9d3c1d5a24da894bf82c594e3e24293100606dc"
-      location: "packages/ijc/2026-09-09T02-58-39Z"
+      manifest_hash: "sha256:0073a22c17559bc5d0cd639e77a264c0613c3610d6cfbc6b653faea10967fcca"
+      location: "packages/ijc/2026-09-10T00-31-01Z"
     thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
     living_tradition_flag: true
   cappadocian:
@@ -199,5 +199,37 @@ worlds:
     living_tradition_flag: true
     state: admitted
     package:
-      manifest_hash: "sha256:65dd314c2b97fdb1acf5171021167be000d0374ce3bf1ddca531ffd772ab9435"
-      location: "packages/cappadocian/2026-09-04T16-41-51Z"
+      manifest_hash: "sha256:68a2bac341da5e873cc197543cc72935be8189baee971c2b2d91c89ad23d75c9"
+      location: "packages/cappadocian/2026-09-10T00-10-21Z"
+  don:
+    kind: formation
+    world_id: donatism
+    display_name: "Donatism"
+    time_window: {start: 311, end: 439}
+    place: "Roman North Africa - Carthage, Numidia, Africa Proconsularis, Byzacena, Mauretania"
+    doorway_place: "Carthage and the towns of Numidia"
+    doorway_description: >-
+      In 311 or 312, a bishop of Carthage accused of surrendering the
+      scriptures under persecution was consecrated anyway - and a rival
+      was consecrated beside him because of it, not in his place. From
+      that day the same see held two bishops at once, two parallel
+      hierarchies contesting town after town across Roman North Africa,
+      each holding its own basilicas and its own unbroken line of
+      ordination. This is the rigorist alternative communion that grew
+      from that refusal: not a doctrinal heresy - its confession is
+      standard North African Latin Trinitarian and Christological
+      orthodoxy - but a communion built on one unyielding conviction,
+      that a tainted hand cannot give what it claims to give, lived out
+      through rebaptism, the martyrs' graves read aloud once a year, and
+      a refusal of the Christian emperor's own standing to judge the
+      church. It closes in 439, when a Vandal army took Carthage and
+      removed the Roman state this whole refusal was defined against.
+    card_name: "The Church of the Martyrs"
+    representative: {name: Fidelis, role_label: "Bishop of the Unbroken Line"}
+    census_id: "donatism"
+    thinness_statement: "Richest in the purity doctrine and its rebaptism consequence, the legal and institutional shape of the schism, the conciliar and imperial documentary record, and the martyr narratives; nearly the whole textual record passes through the hands of Catholic opponents (Optatus, Augustine) before reaching us, its central evidentiary problem. Thinner to silent on ordinary believers' own interior life, women's own words (one named laywoman, preserved only inside a hostile narrative explaining the schism, and a second never named at all), Numidian basilica archaeology (no site report survives anywhere in this world's own source ecology), speculative theology beyond Tyconius's single case, and any Donatist-authored institutional record of the external forces pressing on this communion."
+    living_tradition_flag: false
+    state: built
+    package:
+      manifest_hash: "sha256:836a8e641dab13a088a077511003b6257d61b9aff37c7d0a1d4ad6c627ec1322"
+      location: "packages/don/2026-09-10T18-49-44Z"

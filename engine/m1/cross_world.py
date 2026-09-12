@@ -67,6 +67,10 @@ ACCEPTED_OPEN: dict[str, str] = {
     "figure-dates-keys/cappadocian": "F-04-analogue - all 15 cappadocian figure records key figure.dates as `display` (one-sentence prose covering contested/multi-clause dating - e.g. Basil's own death 'traditionally placed at January 379 or September 378, though the modern redating literature argues for 377 instead' - that doesn't reduce cleanly to born/died/floruit without losing the contested-date nuance itself). Found 2026-09-01 while wiring the Representative portrait; same disclosed-not-fixed disposition as pahc's own instance, not a mass rewrite improvised under this step - belongs to a cappadocian build thread.",
     "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches both the Level-3 card and the compiled prompt's quote index",
     "ui-field-leak/desert": "F-10 - desert.figure.evagrius names a record id (desert.source.evagrius-praktikos) and a build document (Doc_01) inside figure.dates, and desert.figure.pachomius says 'not independently adjudicated by this build' - all three printed verbatim by the doorway's Level-3 panel",
+    "figure-dates-keys/don": "F-04-analogue - all 24 don figure records key figure.dates as `display`, the same pattern and the same reason as figure-dates-keys/cappadocian above: this world's own dating is pervasively contested or multi-clause (two Marcellinuses roughly a century apart, three Felixes, disputed Passio dating with two vendored authorities disagreeing by over two decades) and does not reduce to born/died/floruit without losing the disclosed uncertainty itself. Same disclosed-not-fixed disposition, found compiling the world rather than wiring a portrait - belongs to a don build thread, not a mass rewrite improvised here.",
+    "app-world-assets/don": "Record-native compilation, 2026-09-10: Phase C deployment wiring (app/world_manifest.py, WORLD_ASSETS, frontend hand-sync points) was never in scope for the record-native compile (Phase B) this entry covers - it is the next, separate phase per Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md SS4, and belongs to whoever picks up Donatism's own go-live work.",
+    "app-world-order/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
+    "site-portrait/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - the traditions/donatism.html portrait page is deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
 }
 
 
@@ -114,6 +118,79 @@ COVERAGE = {
     "pachomius": (292, 348),
     "philostorgius": (300, 425),      # the History's own span, per the file's Quasten note
     "tacitus": (64, 64),              # the vendored locus is Annals 15.44 alone: the persecution of 64
+    # Added 2026-09-09, source-library-integration merge. 14 more keys (17
+    # vendored files - 2 for the 3 Monceaux tomes sharing one key, - 1 because
+    # `optatus_libri-vii-critical_ziwsa1893.txt` shares the pre-existing
+    # `optatus` key and needs no new entry) with no COVERAGE entry - the same
+    # defect this file's own 2026-09-09 fix above closed for 14 other keys,
+    # reopened by this merge if left unfilled. Same first-pass standard:
+    # asserted for correction, rank rather than exclude.
+    #
+    # The Theodosian Code entries need particular care rather than a single
+    # "5th century" guess: it is a compilation, issued 438, of constitutions
+    # spanning Constantine's accession (312) through Theodosius II - both
+    # endpoints load-bearing, not the compilation date alone. Same range for
+    # `theodosianus-16` (Mommsen-Meyer, all 16 books, despite its own staging
+    # note's "Book 16" title - see the corpus-map commit) and
+    # `codex-theodosianus` (Latin Library transcription, same full text), and
+    # for `boyd` (a modern study of the same code's ecclesiastical edicts,
+    # covering the code's own span rather than its 1905 publication date -
+    # the same "study covers its subject's period" logic already applied to
+    # `morison` above).
+    "theodosianus-16": (312, 437),    # Constantine's accession through Theodosius II; a compilation, not one date
+    "codex-theodosianus": (312, 437), # same text, different vendored transcription - see theodosianus-16
+    "boyd": (312, 437),               # 1905 study OF the same code's ecclesiastical edicts, not this study's own date
+    # Cyprian: his own episcopate and writing career (elected bishop c. 248,
+    # martyred 258), not anf05's broader (170, 258) which also covers
+    # Hippolytus and Novatian.
+    "cyprian": (248, 258),
+    # Augustine's own Latin corpus (Goldbacher's CSEL57 letters; Petschenig's
+    # CSEL51/53 anti-Donatist treatises) - his own lifespan, same convention
+    # already used for the English NPNF101-108 volumes of the same works.
+    "augustine": (354, 430), "augustini": (354, 430),
+    # Possidius: Augustine's own companion; the Vita narrates Augustine's full
+    # life (354-430) and was itself composed shortly after his death, c. 432.
+    "possidius": (354, 432),
+    # Tyconius: floruit, not attested birth/death. Liber Regularum was written
+    # before 383 per Augustine's own reference to it (Doc_01 SS4 of this
+    # entry's own build thread leaves his formal communion status open).
+    "tyconius": (370, 400),
+    # Gregory the Great's own pontificate (590-604) - the Epistolae Selectae
+    # are his own correspondence written during it, addressing the surviving
+    # African Donatist remnant from Rome. Matches npnf212/213's own treatment
+    # of Gregory the Great (upper bound 604).
+    "gregory-great": (590, 604),
+    # Liber Genealogus: an anonymous North African chronicle whose own
+    # regnal/persecution notices read (per Monceaux) as Donatist-affiliated.
+    # 303 is the Diocletianic persecution that starts the traditores dispute
+    # at the schism's own origin; 427 is the Mommsen-catalogued A recension's
+    # own compilation date - the latest point this specific vendored text
+    # itself can be dated to.
+    "chronica-minora-liber-genealogus": (303, 427),
+    # CIL VIII Numidia: a collective epigraphic corpus, "inscriptions from
+    # many hands across centuries" per this file's own authors_ruled entry -
+    # broad range reflects that collective, multi-century nature honestly
+    # rather than picking one date for a corpus that spans many.
+    "cil8-supplementum-numidiae": (100, 700),
+    # Monceaux (1912/1920/1922): modern secondary scholarship, its three
+    # vendored tomes covering the Donatist movement's own historical span
+    # (Tome IV, the movement as a whole; Tome V, Optatus and the earliest
+    # Donatist writers; Tome VI, Donatist literature "in Augustine's own
+    # generation") - not this study's own early-20th-century publication
+    # dates. Same "study covers its subject's period" logic as `morison` and
+    # `boyd` above.
+    "monceaux": (303, 430),
+    # Monumenta Vetera ad Donatistarum Historiam Pertinentia (Mabillon, in
+    # Migne PL8): dated directly from this file's own staging entry - item 1
+    # c. 340 (persecution under Leontius and Ursatius), items 2-3 both 348
+    # (the Passio Marculi and the Passio Isaac et Maximiani).
+    "monumenta-vetera-donatistarum": (340, 348),
+    # PL11's Optatus/Donatism cluster: only the Collatio Carthaginiensis (the
+    # 411 Conference of Carthage's own acts) is in scope for this vendored
+    # file's assignment - Zeno of Verona's own works, cols 9-751ish, are this
+    # same volume's unrelated majority and are explicitly out of scope per
+    # this file's own staging note. One year, same convention as `tacitus`.
+    "pl11-zeno-optatus-collatio-carthaginiensis": (411, 411),
 }
 BY_DESIGN = {"webbe", "anf10"}
 
@@ -161,6 +238,24 @@ REGIONS = {
     # religious policy, not a regional witness.
     "philostorgius": {"ecumenical"},
     "tacitus": {"rome"},
+    # Added 2026-09-09, source-library-integration merge, alongside the
+    # COVERAGE rows above. Imperial law is ecumenical (empire-wide, not
+    # regional); everything else here is Donatist-controversy North African
+    # material, per this same file's own atlas_ids assignment to `donatism`
+    # in the corpus-map staging commit - except `gregory-great`, whose own
+    # letters were written from Rome (matching npnf212/npnf213's existing
+    # region for the same author), even though their subject is the African
+    # remnant.
+    "theodosianus-16": {"ecumenical"}, "codex-theodosianus": {"ecumenical"},
+    "boyd": {"ecumenical"},
+    "cyprian": {"north-africa"}, "augustine": {"north-africa"},
+    "augustini": {"north-africa"}, "possidius": {"north-africa"},
+    "tyconius": {"north-africa"}, "gregory-great": {"rome"},
+    "chronica-minora-liber-genealogus": {"north-africa"},
+    "cil8-supplementum-numidiae": {"north-africa"},
+    "monceaux": {"north-africa"},
+    "monumenta-vetera-donatistarum": {"north-africa"},
+    "pl11-zeno-optatus-collatio-carthaginiensis": {"north-africa"},
     "npnf201": {"palestine"},
     "npnf202": {"ecumenical"},
     "npnf203": {"syria", "palestine", "rome", "egypt"},

@@ -1,0 +1,792 @@
+Title: De Laude Eremi ad Hilarium Lirinensem Presbyterum (In Praise of the Desert, to Hilary, Presbyter of Lerins)
+Creator: Eucherius, bishop of Lyon (c. 380 - c. 449) -- Latin text, ed. J.-P. Migne
+Publisher: Patrologia Latina, vol. 50 (Paris: Migne, 1846) -- cols. approx. 701-711 (this volume's own running heads carry the column numbers; the exact column boundary is not independently re-confirmed against page images this pass, only against the OCR text's own section titles -- verify at intake if precise column citation is needed)
+Publication Date: 1846
+Rights: Public Domain
+Rights basis: "Public Domain Mark 1.0" per archive.org; 1846 publication, long out of US copyright.
+Source: archive.org item `patrologiae_cursus_completus_lat_vol_050`, OCR text (DjVuTXT), downloaded directly 2026-09-09. Extracted from the full volume, which spans many authors (Cassian, Vigilius, Fastidius, Possidius, Coelestinus I, Vincent of Lerins, Eucherius, Hilary of Arles, and others) -- vendoring the whole ~4.5MB/112,000-line volume was judged disproportionate to what this world's Registry actually needs (contrast Faustus/Ruricius, CSEL 21, a two-author volume vendored whole); this file carries only the one work.
+Language: lat
+Provenance note: this header was prepended by the build thread. Boundaries: extracted from the incipit "SANCTI EUCHERII LUGDUNENSII EPISCOPI DE LAUDE EREMI AD HILARIUM LIRINENSEM PRESBYTERUM EPISTOLA SEU LIBELLUS" through its own closing "Vale in Christo Jesu Domino nostro," immediately before the next work's own heading ("Epistola Paraenetica ad Valerianum Cognatum de Contemptu Mundi," Eucherius's other famous work, already held in this world's library in English via Henry Vaughan's 1654 translation -- see the Registry's row 25 -- and NOT re-extracted here in Latin, since no second-witness need was identified for it). Not otherwise re-transcribed or corrected -- OCR of Migne's two-column page layout is rougher than the CSEL volume above (columns sometimes interleave, diacritics and ligatures frequently misread); preserved as scanned per this project's standing practice.
+Content note: Eucherius's letter to Hilary (later bishop of Arles) commending the eremitical life at Lerins -- a third Lerins-insider primary voice alongside Cassian and Vincent of Lerins, distinct in genre (epistolary renunciation essay) from either. Vendored for Gallic Monastic-Ascetic Christianity (era 2, c. 360-450) -- see gallic_Source_Registry.md row 26 and gallic_G1_Scope_and_Source_Acquisition_Manifest.md.
+
+---
+
+Austrize ex collegio Regio, Anno a nato Jesu, 1550, 
+mense Decembri. 
+
+
+SANCTI EUCHERII 
+LUGDUNENSIS EPISCOPI 
+DE LAUDE EREMI 
+AD HILARIUM LIRINENSEM PRESBYTERUM 
+EPISTOLA SEU LIBELLUS. 
+
+
+Demino sancto, οἱ meritis. beatissimo, εἰ ἐπ Christo (Σ est ? Servasti, ergo charitatis ordinem. lege praescri«. 
+
+
+gloriosiasimo Hin Anio. EUCHERIUS. 
+
+4. Magno tu quidem animo egressus dudum de 
+domo tua, et de cognatione toa, usque in mare ma- 
+gnum recedentia eremi secreta penetraveras ; majore 
+tamen virlute repetita est a te eremus quam petita. 
+Siquidem cum hane primum hospes ingressus es, 
+habuisti ducem et velut itineris tui previum, quem 
+deinde militi: ccelestis magistrum; eumque tunc 
+secutus, et parentes relinquens, parentem tamen 
+sequebaris. Nunc vero cum eumdem ascitum ad pon- 
+tificale fastigium prosequendum putaveris, ad fami- 
+liare secretum eremi te amor retulit. Ergo nunc es 
+nobilior et major exemplo. Prius enim cum deser- 
+tum peteres, comitatus fratrem videbaris; nunc cum 
+
+
+ptum, primo Deum tuum, exin proximum diligendg. 
+
+2. Quem tamen ego sola profectus tui contemplac 
+tione (ut animo conjicio) nec adversatum. itineri 
+consilioque tuo existimo, sed. inusitato intez devin- 
+cts sibi personas modo, dimittere. te ille (αἱ, puto) 
+non minus voluit, quam tu discedere. Diligit enim 
+te et ille multum vicissim, in amore tamem tuo 
+Commodum tuum consuluit; cumque affluentissima 
+ejus et summa in te sit charitas, fastigium tamen 
+iMius tendit usque ad utilitatem. 
+
+$. Et tu licet omnem jamdudum censum.in Christi 
+pauperes Christo dives effuderis, tum e£ praferas 
+licet annis juvenem , moribus, senem, sis etiam 
+ingenio clarus, clarus eloquio; nihil in te tamen 
+
+
+desertum  repetieris, etiam patrem reliquisti. At D primore loco magis suspexerim dilexerimque, quam 
+
+
+qualem iilum, quantumque? quanto tibi semper dile- 
+etionis cultu observatum ? quam singulari tibi affe- 
+ctione devinctum? ut cujus charitai preferre nihil 
+posses, nisi forte solam eremi charitatem : quam 
+cum illi justo przponis examine, approbasti diligere 
+te non illum parum, sed hanc amplius aliquid. Osten- 
+disti etiam ille in te secreti amor quam magnus 
+esset , eui etiam maximus cederet. Qui quidem 
+eremi amor, quid in te nisi Dei amor appellandus 
+
+
+quod solitudinis sedem sic concupisti. Unde, quia me 
+respondere copiosius spatiosissimis ac. facundissimis 
+litteris tuis sepe postulas, sufferas paulisper ne- 
+cesse est, cum sis ipse sapiens, insipientiam meum, 
+dum recolo multimodam Domini gratiam erga, hane 
+jpsam eremum dilectam tuam. 
+
+Eremum ergo recte incircumseriptum Dei nosiri 
+templum dixerim ; etenim quem certum. est, habitare 
+in silentio, credendum est gaudere secreto. Sepius 
+
+
+tos 
+
+
+S. EUCHERII EPISCOPI LUGDUNENSIS 
+
+
+"0$ 
+
+
+se illic videndum sanctis suis praebuit, et conciliante A et operibus absolvenda terrenis , numquid non avia 
+
+
+loco, congressum non est aspernatus humanum. In 
+
+
+deserto quippe Moyses glorificato Deum vultu con- 
+
+
+spicit (Exod. 1m) : in deserto Elias vullum pavens 
+ne Deum conspiciat, obvolvit (IIl Reg. xix, 13). Et 
+quamvis omnia ipse tamquam sua revisitet, neque 
+uspiam desit; tamen (ut zstimare licet) peculiarius 
+visitationem dignatur eremi, et cceli secretum, 
+
+4. Ferunt quemdam alii querenti quali inesse 
+loco Deum crederet, respondisse ut quo se duceret 
+impiger sequeretur. Tum comitante eodem , ad late 
+patentis eremi secreta venisse. Et ostendens solitu- 
+dinis vaste recessum, En, inquit, ubi Deus est. Nec 
+immerito ibi esse promptius creditur, ubi facilius 
+invenitur. 
+
+
+petiit, ad solitudinesque confugit (Exod. xi)? ap- 
+propinquatura in eremo utique Deo, a quo fuerat 
+exempta servitio. Tendebat igitur ad desertum longa 
+vastitate terribile, Moyse duce. Quam magna multi- 
+tudo dulcedinis tue, Domine! Eremum ingre:sus 
+Moyses, Deum viderat. En redit rursus ut videat. 
+Ipse plane dux itineris populum suum Dominus ad 
+deserta ducebat; in usum utriusque temporis trahens 
+viantibus columnam, nunc rubentem flamma, nunc 
+nube candentem. Dabat ita promerentibus e ccelo 
+signum, quod lactea mole porrectum alternis irra- 
+diabat ardoribus. Intento Israel lumine sequebatur 
+radium, corusco eminus igne rutilantem, ut in eremi 
+secreta tendentibus digne Dominus, cum iter osten- 
+
+
+5. Nam et in primordiis rerum, cum omnia Deus B deret , lumen praferret. 
+
+
+in sapientia faceret, et singula qu:eque futuris usibus 
+apta distingueret, non ulique hanc terre partem 
+inutilem et inhonoratam dimisit; sed cuncia non 
+magis przsenti magnificentia, quam futuri przscien- 
+tia creans, venturis (ut arbitror) eremum sanctis 
+paravit. Credo his illam locupletem in fructibus 
+voluit, et pro indulgentioris naturz vice hanc san- 
+ctorum dare fecundam, ut sic pinguescerent fines 
+deserti, et cum rigaret de superioribus suis montes, 
+abundarent quoque multiplicata fruge convalles ; 
+locorumque damna suppleret, cum habitationem 
+sterilem habitatore ditaret. 
+
+6. Possessor paradisi et transgressor precepti, 
+eum locum voluptatis habitaret , fixam sibi a Deo 
+
+
+legem servare non potuit. Quanto enim jueundior C 
+
+
+ille amcenitatibus locus, tanto huic in lapsum pro- 
+nior fuit. Unde non solum hunc legibus suis subdi- 
+dit, sed etiam in nos usque suum illum stimulum 
+mors tetendit. Proinde eremum colat, qui vitam 
+cupit; quia amceni incola mortem paravit. Sed jam 
+ad posteriora eremi Deo semper accepi exempla 
+veniamus. 
+
+7. Moyses cum egisset pecus ad interiora deserti 
+tunc resplendentem eminus Deum igne vidit inno- 
+cuo; nec solum vidit, verum etiam audivit loquen- 
+tem. Nempe tune Dominus cum abjici pedum vin- 
+cula commoneret, sanctam eremi terram pronun- 
+tiavit, dicens : Locus in quo tu stas, terra sancia est 
+(Exod. m, 5) ; manifesto tunc judicio meritum oc- 
+culti honoris expressit. Confirmata quippe est a 
+Deo sanctitas loci, sanctitate testimonii; in quo (ut 
+reor) etiam illud pariter et latenter enuntiat, ut 
+accedens ad eremum pristinis curarum obligationi - 
+bus vitae se absolvat, et anterioribus vinculis expe- 
+ditus incedat, ne locum polluat. lbi primum Moyses 
+divini colloquii familiaris adhibetur interpres; ac- 
+cipit verba, ac vicissim refert; dicenda agendave et 
+percunetatur pariter et docetur, ac mutuo confabu- 
+lationis usitatoque commercio cum coli Domino 
+sermocinatur. Ibi virgam resumit in opera signorum 
+potentem, ingressusque eremum pastor ovium, pastor 
+ab eremo revertitur populorum. 
+
+8. Quid deinde plebs Dei ab Agypto liberanda, 
+
+
+9. Huic identidem populo nonne ad deserta ten- 
+denti objecta invii maris claustra patuerunt (Exod. 
+xiv, 22)? Cum inter praruptos gurgites iter carpens, 
+pulverulento vestigiis agmine Rubris littoribus in- 
+cessit; exstantesque undarum pendentium montes 
+de profunda valle suspiciens , sic custos gentis freti 
+stagna transmisit. 
+
+40. Neque in hoctantum divini operis virtus stetit : 
+nudata namque rursum refluo :quore operiens, iter 
+eorum cum hoste delevit, totumque in sedibus suis 
+mare (credo ne ab eremo lsrael reverteretur) oppo- 
+suit. Aperuit inter aquas viam, et circumfusis deinde 
+aquis texit, ut desertum expetentibus patefaceret 
+itum, clauderet reditum (Exod. xiv, 27). 
+
+11. Hac ergo gratize virtute donata gens illa, cum 
+ad solitudinem tenderet, plura iamen promeruit cum 
+possideret. Illic namque eamdem insperato Dominus 
+miraculo refecit, cum percussa silice exundantes 
+aquas sitientibus prebuit, et abhorrentibus saxis 
+rivos nativo fonte depromens, occulta manus impo- 
+suit subitam latentibus venis naturam (Ezod. xvi, 6). 
+Nec solum illic ingesto flumine viscera sicce rupis 
+infudit, verum etiam dulcedine superindita amaros 
+tristibus aquis haustus repressit (Ezod. xv, 25). Illas 
+elicuit, has placavit : nec majore miraculo e saxis 
+aquas quam ex aquis alias aquas reddidit. Obstupuit 
+plebs cuncta, ccelestis illic auxilii opem sentiens, 
+non minus in his aquis quz erant quam in illis que 
+nondum fuerant. 
+
+19. Illic etiam idem populus demissum coelitus 
+cibum albenti solo legit, cum e nubibus Dominus 
+panem pluvium sicco imbre dejecit (Exod. xvi, 14). 
+In tabernacula et in circumjecta castrorum manna 
+ninguido aere illapsum cecidit, ubi panem angelorum 
+manducavit hoino. Et quía sufficit diei malitia sua, 
+quotidianum divina indulgentia victum contulit, jam 
+tunc lege praemissa, nein crastinum cogitaret. Sic 
+quondam in eremo constitutis, quia przestare victum 
+terrena non poterat, celum ministrabat. 
+
+15. Legem etiam et celestia edicta Hebrseus idem 
+numquid non eremi inhabitator accepit, tum cum 
+proprius admotus , inspicere divino digito impressa 
+tabulis signa meruit (Exod. xx)? educius castris in 
+
+
+T05 
+
+
+EPISTOLA DE LAUDE EREMI. - 
+
+
+᾿ 106 
+
+
+occursum Domini, ad radicem montis obvius institit? A opere inclaruit, quem insignem nunc scissus torrens, 
+
+
+Vidit equidem pavore perculsus illum Sinai verticem, 
+quem terrore multo conspicua majestas insederat. 
+
+
+fumantem; quem deinde totum late nubes densis- 
+sima obteetum operiebat, Expavit hine micantia ex- 
+pressis ignibus fulgura, et tonitrua crebris fragoribus 
+mixto buccinarum clangore reboantia , ita filii Israel 
+dum in solitudinibus degerent, Dei sedem videre, 
+vocem audire meruerunt. ᾿ 
+
+14. Talibus olim similibusque usa est ac sustentata 
+miraculis natio illa (Deut. xxix, 5), cum deserti in- 
+cola fuit, cum eam inusitatus cibus repentinus potus, 
+inconsummabilisque vestitus aleret, cum etiam illa 
+quz extrinsecus corpus ambiebant, infatigabili babitu 
+
+
+nunc innatans ferrum, nunc redivivi, nunc olei in- 
+
+
+' erementa fecerunt; quique postremo post alia quam- 
+Aspexit attonitus montem procul interfluenti igne ἡ 
+
+
+plurima duplicatam in se virtutem magistri hocetiam 
+comprobavit, quod ille superstes defunctum, hic de- 
+functum exsuscitavit jam defunctus (V Reg. u, 4, 6). 
+
+20. Filii quoque prophetarum relictis urbibus ex- 
+petebantgemino defluentem fonte Jordanem, exstrue- 
+bantque in abditis tabernacula remoto juncta torrenti. 
+Excubabat cohors sancta secreti fluminis ripis, velut 
+quibusdam sparsa tentoriis , et habitationibus con- 
+gruis egregia indoles spiritum custodiebat paternum 
+(IV. Reg. vi). 
+
+21. Quid ille quo major inter natos mulierum non 
+surrexit (Matt. 1); nonne in deserto clamans, in 
+
+
+permanerent. Quidquid eorum necessitati locorum B deserto vivebat? In. deserto ab hoc baptismus tradi- 
+
+
+ingenium non attulerat, manifesta Dei magnificentia 
+suggerebat. Vix in hzc coelestis grati: dona perve- 
+nit sanctorum unus, qui de hoc populo ait : Non 
+fecit. taliter. omni nationi (Ps. cxtvu, 20). Specialia 
+
+- contulit, inaudita concessit, cum divinis muneribus 
+populum refecit in eremo. 
+
+45. Et hzc quamvis in figuram nostri facta tra- 
+dantur, et facies illa rerum mysteriis floreat occultis, 
+omnesque in Moyse baptizati, in nube, et in mari 
+escam spiritalem manducasse, potum spiritalem bi- 
+bisse referantur (I Cor. x , 2) ; tamen omnia hzc ita 
+futurorum continent fidem, ut gestorum custodiant 
+veritatem. Quamquam nec sic quidem eremi minor 
+laus est, etiamsi ea quz illic gesta sunt, in sacra- 
+
+
+tur, in deserto poenitentia predicatur, in deserto 
+primum mentio regni ccelestis infertur. Ibi hze ille 
+audientibus primus ingessit, ubi hec citius ambiens 
+quisque promeruit. Nec immerito futurus hic arduus 
+deserti habitator, ante faciem Domini angelus mit- 
+titur, viam reserat in cceleste regnum, et przcursor 
+
+
+'et testis dignus qui Patrem e coelo loquentem audi- 
+
+
+ret, Filium baptizando contingeret. Spiritum san- 
+etum descendentem videret. 
+
+22. Ipse quoque Dominus ac Salvator noster bap- 
+tizatus confestim (ut Scriptura ait [Matt. 1v, 1]) a 
+Spiritu in desertum ducitur. Quis hic igitur est. Spi- 
+ritus? Cunctatio nulla subest , quin Sanctus. Quod 
+deinde Spiritus sanctus pertrahit in desertum , ni- 
+
+
+mentorum sint altitudinem referenda. Nihil ergo C mirum istud ille dictat, istud ille tacitus inspirat, 
+
+
+gratie derogatur, etiamsi ille tunc status corporis, 
+et vestimentorum non consecuta corruptio , ventura 
+vitae specimen detulerunt. Magna namque loci gra- 
+tia est, si quales illos beatissimi sceculi felicitas ha- 
+bebit, tales in hoc jam istos eremus habeat. 
+
+16. Quid , quod fllii Israel ad illam desiderabilem 
+terram non nisi habitatione eremi pervenerunt? Et 
+ut gens eadem possideret postea illam lacte et melle 
+manantem, prius hanc aridam incultamque possedit. 
+Totum semper ad veram patriam eremi mansionibus 
+iter panditur. Habitet inhabitabilem terram, qui vult 
+videre bona Domini in terra viventium; sit hospes 
+hujus, qui civis esse contendit illius. 
+
+17. Sed ut hzc relinquam , David ipse insidias 
+
+
+regis infesti non nisi cum desertum expeteret evasit D 
+
+
+(I Reg. xxin) : qui in Idumzze ariditatibus commo- 
+ratus, toto Dominum corde sitiebat , ut sitiens in 
+deserto et in invio et inaquoso , tum demum appa- 
+reret Deo in sancto, ac deinceps Dei virtutem pariter 
+et gloriam sanctus videret. 
+
+18. Elias vero, maximus secretorum colonus; 
+eclum imbribus clausit, ignibus reseravit, ministra 
+alite cibum sumpsit, flxa mortis jura revocavit, 
+Jordanem dividuum interrupto amue transivit ccelum 
+ardenti curru raptus ascendit (II Reg. xvn, 18; 
+IV Reg. n). 
+
+19. Quid deinde Eliszus, consectator vitze hujus 
+atque virtutis? nonne perinde divino miraculorum 
+
+
+fitque eremus Spiritui sancto suggerenii digna sug- 
+gestio. Mystico ergo flumine infusus, uihil sibi prius 
+agendum putat, quam ut ad secreta contendat. Et 
+tamen ille sanctificantes semper aquas tunc sanctifi- 
+Caverat, nec peccati hominem purgatus abluerat ; 
+peccatum enim ille neque fecerat, neque metuebat; 
+et eremi tamen amore flagrabat, atque in omnibus 
+salutaris auctor exempli, hanc non dignam uobis 
+desiderabat. Quz si votiva Deo ab erroribus libero , 
+quanto magis necessaria homini erroribus obnoxiot 
+Si petita. non delinquenti, quanto magis exoptanda 
+peccanti. 
+
+22. Ibi etiam in famulatum Domini, remotis cir- 
+cumstrepentibus turbis, tacita divini vigoris ministe- 
+ria succedunt, et in eremo constitutus, tamquam 
+jam in colum revectus, occurrentium excipitur offi- 
+ciis angelorum (Matt. iv, 11). Ibi tunc tentantem 
+notz artis insidiis hostem illum antiqui temporis 
+confutavit, supplantatoremque veteris Adam novus 
+Adam repulit. O laus magna deserti , ut diabolus qui 
+vicerat in paradiso, in eremo vinceretur! 
+
+24. Desertus etiam locus ille erat in quo Salvator 
+noster quinque virorum millia panibus quinque et 
+piscibus tantum duobus pavit, satiavit, explevit 
+(Marc. vii). Semper in deserto, pane Jesus suos 
+pascit. Suis przetulerat olim manra divini muneris 
+fidem, nunc fragmina retulerunt : eodemque mira- 
+culo vietus ut tunc esurientibus decidit, ita nunc 
+
+
+707 
+
+
+S. KECHERII EPISCOPI. LUÜGDUNENSIS 
+
+
+708 
+
+
+vescentibus crevit. Cunctis dono suo epulze auctiori- A. dam , sed et nunc elit; et illos quadraginta annis, 
+
+
+bus majores fuerunt cibis, quam fuerant illatze con-. 
+viviis. Desertis, inquam, desertis tantorum nunc si- 
+guorum causas demus, nec virlus potentiam decla- 
+rasset si habuissel locus copiam. 
+
+25. Et tunc Dominus Jesus ad excelsi montis 
+remotiora secessit, cum Iribus tantum sibi adhibitis 
+electis insolita claritate vultus effulsit ; qui cum as- 
+sumptuni palam hominem prafferret, declarandze ma- 
+jes'atis indicium secretis credidit. Ibi tunc ille aposto- 
+lorum maximus : Bonum erat , inquit, nos hic esse 
+(Matt. xvii, 4) ; adamans scilicet inagnitudinem si- 
+gni, in remotione deserti. 
+
+26. Idem quoque Dominus Jesus (ut scribitur) in 
+desertum locum ibat, ibique orabat (Luc. v, 16)? 
+Locus ergo ille jam vocetur orationis locns, quem 
+exorando Deum, idoneum Deus auctor osiendit, do- 
+cuitque unde facilius nubes humiliantis se oratio 
+»penetraret, adjuta loco, quia honorata secreto : atque 
+3pse illic orando cum peteret, demoustravit ubi orare 
+"nos vellet, cum peteretur. 
+
+27. Quid nunc ergo Joannem , Macariumque com- 
+"memorem, aliosque complures , quorum conversatio 
+dum in desertis est, in ccelis faeta est? Appropin- 
+«quaverunt illi tantum Domino quantum appropin- 
+quare Deo hominem fas sinebat, admissique sunt 
+In divinarum opera rerum quantum carne circum- 
+datos licebat admitti. Fixam in superna mentem cee- 
+lestibus inseruerunt secretis, hic comitantem gratiam 
+aut revelationibus tacitis, aut clamantibus signis 
+
+
+protulerunt , et suffragante secreto usque in id pro- C 
+
+
+vecti sunt, ut terram tunc quidem corpore coniin- 
+gerent, coelum vero spiritu jam possiderent. 
+
+48. Hoc igitur eremi habitaculum dicam non im- 
+merito quamdam fidei sedem , virtutis arcam, chari- 
+tatis sacrarium, pietatis thesaurum , jusiitis prom- 
+ptuarium. Nam sicut in magna domo pretiosa quae- 
+que claustris obsignata in reinotis habentur, ita ma- 
+gnificentia illa sanctorum abditorum eremo , quam 
+difficultatibus suis natura obseravit, deponitur intra 
+quoddam conclave deserti , ne conversationis huma- 
+nx usu abolescat. Apteque a mundi Domino hzc 
+pretiosa divitiarum supellex, in illa mundane domus 
+parte non solum conditur, verum eliam, eum usus 
+est, ex reconditis promitur. 
+
+29. Fuit olim erga eremum cura divinz Providen- 
+tie summa et maxima, Sed ne nunc quidem parva 
+est. Nam et nunc cum eremi incolis victus divinitus 
+insperata supervenit largitate, quid aliud quam e 
+colo lapsus defluit? Habent et isti in. bac inunifi- 
+centia suum manna, nec minus his Dominus brachii 
+sui opere secreto alimoniam spargit ex abdito. Et 
+cum silicibus perfossis tandem divino munere re- 
+spondentes e saxis aqu: profluunt, quid aliud quam 
+velut Moysi virgz iclu percussa rupe emergunt? 
+Vestunentorum perinde babitus in eremi vastitate de- 
+gentibus, nunc quoque ecce non deficit, qui dum ju- 
+giter gratuito divina provisione succedit , utique suc- 
+cedendo manet. Aluit Dominus in deserto $u06 quou- 
+
+
+hos vero quousque anni erunt. 
+
+30. Merito hanc Sanctus divino igne succensus , 
+felicla sede propria, sedem legal : merito propin- 
+quis, filiis parentibusque .praponat, suorumque om- 
+nium commercio emat. Merito haec genitalem dese- 
+rentibus patriam temporariz patriz nomen obtineat, 
+ἃ quà non metus, non desiderium, non gaudium, 
+non moror revocet, Merito plane universorum affe- 
+C(uum sola sit pretium. 
+
+$1. Quis enim enumerare beneficia eremi digne 
+queat, virlutisque commoda habitanium iu ea? In 
+mundo positi, quodam modo extra mundum rece- 
+dunt, iu solitudénibus (ut ait. Apostolus) errantes, in 
+montibus , et speluncis, et in cavernis terr ( liebr. 
+
+
+Bxi,28). Nec immerito dignum talibus Apostolus 
+
+
+negat esse mundum, qui alieni sunt ab illo reipu- 
+blice human: tumultu, .sepositi, quieti, silentes ; 
+nec magis absunt a voluntate.peccaadi quam a fa- 
+cultate. 
+
+32. Clari apud veteres szculi hujus viri, defati- 
+gati laboribus negotiorum suorum, in philosophism 
+86 tamquam in donmm suam recipiebant. Quanto 
+pulchrius ad hiec manifestssim:e sepiehti2 stwdia 
+divertunt, magnilicentiusque ad solitudinem liber- 
+tatem et desertorum secreta secedunt, ut philoso- 
+phiz tantum vacantes, in illius eremi.deambulacris 
+[Vulg. vastitate], tamquam in sais gymnasiis, exer- 
+ceantur ? Ubi, quzeso, liberius, quam ip deserti babi- 
+tatione servetur Paecha ? Sed virtutibus et continen- 
+tia : continentia, inquam, quie velut alia qusedam est 
+cordis eremus. Nam et Moyses quadraginta conti- 
+nuos se in eremo dies (Exod. xxiv, 48), totidemque 
+postse illic Elias (I1 Reg. xix, 8) jejunio dedit : et 
+uterque ibi inediam ultra humani effectus vires ex- 
+tendit. Deinde et Domiaus , idem, sed in deserto 
+abstinentie tempus exegit (Matth. 1v, 2). Nec pre- 
+terea usquam legimus spatia eadem exacta jejunio: 
+ut putandum sit, aliquem tribui per Dominum locis 
+illis etiam vigorem. 
+
+$5. Ubi, quzso, magis vacare, et quam dulcis sit 
+Dominus, videre contingit? Ubi promptior ad per- 
+fectionem tendentibus via panditur? Ubi major vir- 
+tutibus campus aperitur? Ubi facilius mentis , ut 
+possit circunispicere, custodia? Ubi liberior cordis, 
+ut Deo inbserere certet, intentio, quam illis utique 
+secretis, in quibus Deum non solum invenire prom- 
+ptum est, verum etiam custodire ? 
+
+54. Et quamvis sepe in eremo tenuis soli pulvis 
+occurrat, nüsquam tamen firmius Evangelic:e illius 
+domus fundamenta jaciuntur (Matth. vn, 94). In illis 
+licet aliquis consistere arenis velit, nequaquam ta- 
+men super.aremas domum construit : nusquam ma- 
+gis quam illic supra petram praedictum illud zdifi- 
+cium collocatur, quod immobili stabilitate fundatum, 
+ineoncusea:mole durabit: ut tempore ingrüentium 
+procellarum, non flantibus ventis, non immissis tor- 
+rentibus subroetur. itaque hibitatores deserti talia 
+sibi sdificia, sod in cordibus fal;riean|: ΠῈ qui sum- 
+
+
+700 
+
+
+EPISTOLA DE LAUDE EREMI. 
+
+
+744 
+
+
+μιὰ imis appetunt, qui excelsa. humilitate sectantur, À chorus, et per illam Jacob scalam cbtmeantes, ere- 
+
+
+desides atque immemores terrenorum, ob spem vo- 
+tumque calestium. Qui abjiciunt, dum egere malunt, 
+divitias, egere festinant , dum esse divites concue 
+piscunt ; die ac noote labore vigiliisque decertant, 
+ut apprehendant vitz illius principium , eujus non 
+invenient extremum. Sic materno eremus sinu con- 
+tinet illos weternitatis rectissime avaros, bene pro- 
+digos brevitatis ; incuriosos przsentis temporis certos 
+futuri : et per hoc assequuntur ut ijo quos &zcu- 
+lorum fines decurrerunt, his sxcula sine fine con- 
+lingant. 
+
+55. Fervent ibi conscriptz interioris hominis salu- 
+briter leges, et terni szculi jura subtilius. Non illic 
+humana criminum facinorumque prescripta vim 
+
+
+mum frequentia abdiWe visitatienis illustrant (Gen. 
+xxvini, 12); ac ne in vanum vigilent quí cussodiunt 
+civitatem, peculiarius Cliriste propugnatore muui- 
+iur, qui tamquam tmeurorum objecte, ita eremi am- 
+bitu hostes 6805 submovet, ut adoptiva Deo gens 
+quantum secreli spatiis exposita , tantem hostibus 
+$9uis clausa sit. In illo quoque meridie sponsus re- 
+ceubm : habHatoresque deserti, charitate vulnerati 
+contemplantur eum dicentes : Znvenimus quem diligit 
+«nima nosire : enebimus eum et non dimittemus (Cant. 
+m, &). 
+
+$9. Non est infructuosum (ut creditur), non est 
+illud sterile eremi solum, nec infecunda arentis saxa 
+deserti. lllic multiplex germen, et centenos accola 
+
+
+suam resonant, nec se ultricia capitalium delictorum B fructus recondit. Non facile illic jacta semina secus 
+
+
+jura exerunt. Cor nisi purissimum indigenz leges 
+faciunt reum ; atque ipse omni studio, mentis motus 
+interior, intra justi: terminos coercetur: eodem- 
+que se judice vel levium cogitationum principia 
+plectuntur. Apud alios. malum sit malum fecisse, 
+apud hos vero malum est bonum non fecisse. 
+
+. $6. Sed quomodo ego possim commemoratione 
+digna interiora eremi instituta venerari? Nunc vero 
+illud tacitus przeterire non possum quod in habita- 
+toribus ejus vis illa virtutis quam abscondita cunctis, 
+pene tam nota est. Nam cum se utique in remota 
+abigunt, mundum, humagumque consortium repu- 
+diantes, occuli quidem gestiunt, meritum tamen oc- 
+culere non possunt. Quantum se eorum introrsus 
+
+
+agit vita, tautum se foras proripit gloria; Deo (ut C 
+
+
+arbitror) ita inter utrumque moderante, ut incola 
+eremi sus lateat sxculo, et non lateat exemplo. 
+Hac lucerna est, qux: universtm resplendet orbem, 
+supra eremi candelabrum locata: hinc se flagran- 
+tissimum lumen per tenebrosa mundi inembra dilIun- 
+dit. τες est civitas que abscondi non potest in de- 
+serli monte constructa, quz imagime sua celestem 
+Jerusalem terris dedit. Proinde si quis in tenebris 
+est, liuic lumini apprepinquet, u& videal: si quis dis- 
+crimini patet, ad hanc civitatem tendat , ut tutus sit. 
+
+$7. Ὁ quam jocundz sunt sitientibus Deum, etiam 
+deviz illis saltibus solitudines! quam amena sunt 
+quzxrentibus Christum illa secreta, qux longe late- 
+que natura excubante porrecta sunt! Silent omuia. 
+Tunc in Deum suum leta mens quibusdam silentii 
+stimulis excitatur, tunc ineffabilibus vegetatur ex- 
+cessibus. Nullus interstrepens illic sonus , nulla nisi 
+forte cum Deo vox est. Solus ille adinodum suavis 
+sonitus silentium secretz stationis intervenit, inter- 
+pellaque illum placide quietis statum strepitus 
+quiete dulcior, et sanctus modestissimz conversa- 
+tionis tumultus. Tunc lhymuis suave resonantibus 
+excelsa ipsa ferventes chori pulsant, atque in coelum 
+non minus pene vocibus quam oraüonibus perve- 
+nitur. 
+
+$8. Fremit frustra tunc. circumveniens adversa- 
+rius, tamquam intra caulas ovibus seplis lupus. In - 
+visit sane spatiosa deserti leiantium angelorum 
+
+
+viam decidunt, que volucres absumant: nec in pe- 
+troea facile dilabuntur, qus non habentia ahitudi- 
+mem terrse, sstuent, et arescant : neque in spineta 
+(acile fugiant, quse jam adoltis sentibms obraantur. 
+Uberi illic messem proventu colonus melet : produ- 
+citur in his saxis seges illa, per quam etiam ossa 'pin- 
+guescunt. Invenitur etiam illic panis vivus, qui de 
+calo descendit. Erempunt in ilis rupibes fontes ir« 
+rigui, et aquae vivie, quz non satiandis solam, verum 
+etiam possunt sufücere salvandis. Hic interioris ho- 
+minis pratum [Vulg. pastus] et voluptas, hic incul- 
+tum desertum, illic mira amoenitate jucandum est; 
+eademque corporis ect eremus, anima: paradisus. 
+
+40. Nulla jam-quamvis fertilis tellus, terrx eremi 
+8e comparatione jactaverit. Est erra aliqua frugibus 
+ditis? in bac maxime nascitur frumentum |; illud , 
+quod esurientes edipe suo satiat. Est alia gravidis 
+lota vinetis ? 16 hsc maxime profertur vinum illud, 
+quod bene lmtificat cor hominis. Est alia pascuis 
+prostans? in hac. saluberrime pascunt oves illz, de 
+quibus dicitur, Pasce Oves mets (Joan. xxi, 17). Est 
+alia flofibue picta &edhahtib&s ? lih hac maxime ve- 
+rus ille flos campi et lilium convallium refulget. 
+Postrenro ala est speciosins exsultans metallis, alia 
+vero auro suo fulva est? in hac varii lapidum micaut 
+vibrante luce fulgores. lta terra "hzc singulis terris 
+major ad singula, omnes longe precedit bonis om- 
+nibus. 
+
+44. Recte ergo tu verenda tellus Sanctis aut in 
+te positis, aut non procul a te remotis, aut babita- 
+bilis dudum, aut desiderabilis exstitisti : quia pro 
+universis bonis illius es fertitis in qua habentur uni- 
+versa. Tu cultorem hune, qui suam terram non qui 
+tuam excolat, requiris. Tu inbabitantium te vitiis 
+sterilis, tu fecunda virtutibus. Tusm quicomque 
+sanctorum familiaritatem qusesivit, Deutn reperit: 
+Christum in te, quisquis te coluit, invenit. Ipse qui 
+habitat, Domino habitatore letatur. Idem ipse est, 
+et possessor tuos, et divina possessio. Toum qui 
+non refugit habitaculum, factus est jpse Dei tem- 
+plum. 
+
+42. Equidem cunctis eremi locis qute plorum illu- 
+minantur secessu, reverentiam debeo, precipuo ta- 
+
+
+7 
+
+
+S. EUCHERII EPISCOPI LUGDUNENSIS 
+
+
+1 
+
+
+men Lirinum [Vulg. Lerinam] meam honore com- A eum, tantum quem solum desiderantes concupiscunt. 
+
+
+plectens, quie. procellosi naufragiis mundi effusos, 
+piissimis ulnis receptat venientes : ab illo szculi 
+flagrantes zstu, blande introducit sub umbras suas, 
+ut illic spiritum sub illa interiore Domini umbra 
+anheli resumant. Aquis scatens, herbis virens, viti- 
+hus renitens, visibus odoribusque jucunda, paradi- 
+sum possidentibus se exhibet. Digna quz coblestibus 
+disciplinis Bonorato auctore fundata sit, quae tantis 
+institutis tantum nacta sit Patrem, apostolici spiritus 
+vigore et vultus honore radiantem. Digna quz illum 
+suscipiens, ita emitteret [Port. cod. eniteret]: digna 
+qus prostantissimos alat monachos, et ambiendos 
+proferat sacerdotes. Hzec nunc successorem ejus te- 
+net, Maximum nomine; clarum, quia post ipsum 
+
+
+Dum beatam quxrunt vitam, beatam agunt; eamque 
+et dum adhuc ambiunt, jam consequuntur. ltaque 
+optant a peccatoribus segregari? jam segregati sunt. 
+Castam possidere vitam volunt ? possident. Omne in 
+Dei laudibus tempus habere ambiunt ? habent. Desi- 
+derant gaudere sanctorum cctibus? gaudent. Chri- 
+sto frui cupiunt? Christo fruuntur. Vitam eremi adi- 
+pisci gestiunt? corde adipiscuntur. lta per largissi- 
+mam gratiam Christi, multa ex his quz in futurum 
+exoptant, in przsentiarum merentur. Rem porro 
+jam capiunt, dum spem sequuntur. Habent non par- 
+vum, etiam labore ipso premium laboris, quia pene 
+jam in opere est, quod merces erit. 
+
+44. Horum tu, mi Hilari charissime, redditus in- 
+
+
+meruit adsciri. flzc reverendi nominis Lupum, qui B sertusque consortio, plurimum tibi, plurimum etiam 
+
+
+nobis illum ex tribu Benjamin lupum retulit. Hzc 
+babuit germanum ejus Vincentium, iaterno gemmam 
+splendore perspicuam. Hzc possidet venerabilem 
+gravitate Caprasium, veteribus sanctis parem. Hzc 
+nunc habet sanctos senes illos, qui divisis cellulis 
+A&gyptios Patres Gallis nostris intulerunt. 
+
+A3. Quos ego illic, Jesu bone, eanctorum coetus , 
+
+
+conventusque vidi ! Pretiosa in his suavi unguedine ' 
+
+
+alabastrum fragrabant: spirabat passim odor vitz. 
+Interioris hominis faciem, exterioris habitu przfe- 
+rebant : constricti charitate, humilitate dejecti, mol- 
+lissimi pietate, firmissimi in spe, incessu modesti, 
+obedientia citi, occursu taciti, vultu sereni; prorsus 
+ipsa protinus contemplatione angelicz quietis agmen 
+
+
+illis contulisti, qui nunc pro reditu tuo alacri exsul- 
+tatione lxtantur. Cum his, obsecro, peccatorum 
+meorum, intercessionisque memoriam ne oblittera- 
+veris; cum his, inquama, quibus nescio an ipse gau- 
+dii plus attuleris, an majus inveneris. Tu nunc ve- 
+rior Israel, qui corde Deum conspicari, ab £gyptiis 
+szculi tenebris dudum expeditus, salutiferas aquas 
+submerso hoste transgressus, in deserto accensum 
+fidei ignem secutus, amara quondam, per lignum 
+crucis dulcia nunc experiris: salientes in vitam 
+seternam aquas a Christo trahis, internum bominem 
+superno pane pascis ; in Evangelio throni tui divi- 
+nam accipis vocem (Matth. xix, 28). Qui cum Israel 
+in eremo commoraris, cum Jesu terram repromis- 
+

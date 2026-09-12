@@ -12,44 +12,72 @@ on:
     branches: [main]
   pull_request:
 
+# Added 2026-09-10 alongside the path-filter and caching changes below, same
+# minutes-exhaustion root cause: without this, a PR pushed to twice in quick
+# succession runs both CI attempts to completion and pays for both, even
+# though only the second push's result ever matters for merge. Scoped to
+# workflow+ref so pushes to main (which don't share a PR) still each get
+# their own group and never cancel a sibling branch's run.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  # 2026-09-09: Mark hit his account's monthly GitHub Actions minutes cap.
-  # Every one of the twelve pytest jobs below plus the Docker build ran on
-  # EVERY push to EVERY PR, regardless of what actually changed - a pure
-  # cic-website/cic-poc copy edit still paid for the full engine suite and a
-  # container build. This `changes` job diffs the push/PR once and every
-  # engine-touching job below gates on its `engine` output; validate-census
-  # stays unconditional since it's Node-only, fast, and specifically guards
-  # the file website work touches most. Paths: engine/ and records/ are the
-  # actual inputs the compiler and test suites read; packages/**/manifest.json
-  # is the one tracked byte of a compiled package (see .gitignore's own
-  # comment on that exception) and a repin should re-verify it; this
-  # workflow file is included so a CI change always re-validates itself.
+  # Per-job path filtering added 2026-09-10, replacing an earlier
+  # workflow-level paths-ignore from the same day. Origin: Mark's GitHub
+  # Actions minutes were fully exhausted 10 days into a 30-day billing
+  # cycle (3,000/3,000 used, real overage already billed). The first pass
+  # (paths-ignore on Ministry/**, **/reports/**, **.md) helped but had two
+  # real gaps: (1) it blanket-skipped ALL of Ministry/**, including
+  # validate-census's own dependency
+  # (Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs) -
+  # a change to the validator itself would have silently never run the
+  # job that exists to catch it; (2) it did nothing for cic-website/-only
+  # commits (e.g. support.html copy edits, same day) - none of the 13 jobs
+  # below read anything under cic-website/ except validate-census (one
+  # file: cic-website/data/world-census.json) and docker-build (which
+  # bundles cic-poc/frontend, a different tree entirely), so those commits
+  # still paid for the full suite for zero coverage.
+  #
+  # This replaces the blanket ignore with per-job filters scoped to what
+  # each job's own steps actually read (pip installs, pytest paths, the M2
+  # restore/staleness targets, the Docker COPY sources) - verified against
+  # every job's own steps and its explanatory comment below, not guessed.
+  # A commit touching real code still runs everything it should; only
+  # commits outside every filtered path (docs, decision logs, worksheet
+  # updates, cic-website copy that isn't the census file) skip the suite
+  # entirely now.
+  #
+  # Every filter below also matches .github/workflows/** - deliberately: a
+  # change to this file that touched only the workflow itself would
+  # otherwise satisfy none of the path categories below and skip every
+  # downstream job, which is wrong twice over. First, a workflow-file
+  # change is exactly the kind of change that most needs the suite it
+  # edits to actually run, to prove the edit didn't break anything.
+  # Second, main is branch-protected (discovered 2026-09-10, not set by
+  # this change) requiring "11 of 11" status checks before merge - a PR
+  # that could only ever produce skipped checks for its own file would be
+  # permanently unmergeable, which is worse than merely wasteful.
   changes:
     name: Detect changed paths
     runs-on: ubuntu-latest
-    # Real root cause of this job's own first failure (2026-09-10): on
-    # pull_request events, dorny/paths-filter calls the GitHub API's
-    # listFiles rather than diffing locally, and errored "Resource not
-    # accessible by integration" - this workflow had no `permissions:`
-    # block anywhere, so the default GITHUB_TOKEN carries no
-    # `pull-requests: read`. An explicit job-level `permissions:` block
-    # replaces the default entirely, so contents:read (needed by
-    # checkout) has to be restated here too, not just the new scope.
+    # dorny/paths-filter@v3 calls the GitHub API's listFiles on pull_request
+    # events (not a local git diff), which needs pull-requests: read. An
+    # explicit permissions: block REPLACES the default token grant entirely,
+    # so contents: read (needed by actions/checkout below) must be restated
+    # here too, not just the new scope. Diagnosed 2026-09-10 against the
+    # identical failure this workflow's own earlier paths-filter attempt hit
+    # on PR #144 (commit d683c9ae): "Resource not accessible by integration"
+    # from this same API call, same missing scope.
     permissions:
       contents: read
       pull-requests: read
     outputs:
       engine: ${{ steps.filter.outputs.engine }}
+      frontend: ${{ steps.filter.outputs.frontend }}
+      census: ${{ steps.filter.outputs.census }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          # Kept even though the pull_request path above uses the API,
-          # not a local diff: this workflow also runs on `push` to main,
-          # where paths-filter's default `base` does need real history -
-          # actions/checkout@v4's shallow (depth-1) default wouldn't
-          # contain it. This job does nothing else, so the cost is small.
-          fetch-depth: 0
       - uses: dorny/paths-filter@v3
         id: filter
         with:
@@ -57,8 +85,16 @@ jobs:
             engine:
               - 'engine/**'
               - 'records/**'
-              - 'packages/**/manifest.json'
-              - '.github/workflows/ci.yml'
+              - 'packages/**'
+              - 'fixtures/**'
+              - '.github/workflows/**'
+            frontend:
+              - 'cic-poc/frontend/**'
+              - '.github/workflows/**'
+            census:
+              - 'cic-website/data/world-census.json'
+              - 'Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs'
+              - '.github/workflows/**'
 
   # Two jobs were removed 2026-08-24: "Repository views current (all six
   # worlds)" (cic-poc/backend) and "Frontend build (tsc + vite build)"
@@ -81,6 +117,8 @@ jobs:
   # render.yaml repoint and the surface build, in one move, made by whoever
   # builds the replacement.
   validate-census:
+    needs: changes
+    if: needs.changes.outputs.census == 'true'
     name: Validate world-census.json
     runs-on: ubuntu-latest
     steps:
@@ -91,6 +129,8 @@ jobs:
       - run: node Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs cic-website/data/world-census.json
 
   m1-gates-selftest:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     # Added stage 1 of the redesign build (Build-Blueprint.md, branch
     # build/phase-1). The stage-1 gate is exactly this: the gate battery
     # passes the clean fixture world and fails every seeded-defect fixture
@@ -99,8 +139,6 @@ jobs:
     # purpose (no textstat/nltk network fetch - see engine/m1/fk.py) so this
     # job needs no secrets and can't flake on an external resource.
     name: M1 gate battery selftest (fixture world)
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -113,6 +151,8 @@ jobs:
       - run: python -m pytest engine/m1/tests -q
 
   prose-primitives:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     # engine/prose.py sits under five production modules - the cell keyword
     # corpus, compile-time demonstration tagging, Stage A/B retrieval
     # scoring, and every per-sentence grounding verdict - and until now had
@@ -121,8 +161,6 @@ jobs:
     # Needs m1's requirements because one test loads all six worlds to hold
     # the no-abbreviation-in-prose-fields invariant.
     name: Prose primitives (shared measurement)
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -135,6 +173,8 @@ jobs:
       - run: python -m pytest engine/tests -q
 
   stage3-canon-v1:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     # Added stage 3 (Canon v1 as records + sealed held-out admission
     # paraphrases). Named stage3- (not m3-) deliberately: "M3" is the
     # admission-harness MODULE (built at stage 4, its own job below) -
@@ -145,8 +185,6 @@ jobs:
     # plaintext stays isolated from every world-build code path, enforced
     # here rather than trusted.
     name: Canon v1 + sealed probe isolation
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -160,6 +198,8 @@ jobs:
       - run: python -m engine.canon.check_seal_isolation
 
   m3-admission-harness:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     # Added stage 4 (M3 admission harness, Artifact-2 §1's validation/
     # admission/). The stage-4 gate: catches a seeded register defect and a
     # seeded fabrication on the fixture world - the two M3-layer entries in
@@ -172,8 +212,6 @@ jobs:
     # requirements (same reasoning as the m4-event-log job below), not
     # m1's alone, or test collection fails with ModuleNotFoundError.
     name: M3 admission harness (mock, fixture world)
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -194,6 +232,8 @@ jobs:
       - run: python -m pytest engine/m3/tests -q
 
   m4-event-log:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     # Started stage 5 non-model half (Artifact-3's event log/store, session
     # projection, session codes, entrance seal - "resume across two
     # processes incl. accumulator" and "entrance-seal test"). SQLite-backed
@@ -206,8 +246,6 @@ jobs:
     # run; the real calls themselves are by-hand evidence runs
     # (engine/m4/live_turn_run.py, engine/m4/lazy_load_measure.py), never CI.
     name: M4 event log, projection, entrance seal, resume, turn loop
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -231,14 +269,14 @@ jobs:
       - run: python -m pytest engine/m4/tests -q
 
   m5-gate-routing:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     # Added stage 5 (partial). The Facilitator gate's deterministic routing
     # merge and failure/fail-open semantics (Artifact-4 SS3-4) are pure code
     # over already-classified safety/reader outputs - testable without a
     # live model call, unlike the classification calls themselves (blocked
     # on Bedrock access, see Redesign-Spec/BUILD-HANDOFF.md).
     name: M5 Facilitator gate routing + failure semantics
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -251,6 +289,8 @@ jobs:
       - run: python -m pytest engine/m5/tests -q
 
   provider-seam-unit-tests:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     # Added stage 5 (the model-provider seam, spec principle 16c). CI runs
     # ONLY the mocked unit tests (model-id resolution, usage normalization)
     # - never engine/provider/preflight.py, which makes a real, billed
@@ -258,8 +298,6 @@ jobs:
     # doesn't have. The preflight is a by-hand, one-time-per-provider check
     # (spec SS7), not a CI job.
     name: Provider seam unit tests (mocked, no live AWS call)
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -272,6 +310,8 @@ jobs:
       - run: python -m pytest engine/provider/tests -q
 
   m8-cost-observability:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     # Added stage 6 (M8: usage attribution, parity, cost unit - CiC-
     # Program-Spec.md M8, stage-6 gate: "parity against raw usage shapes;
     # zero unattributed calls; cache economics re-measured and recorded
@@ -282,8 +322,6 @@ jobs:
     # by-hand evidence runs (engine/m8/cache_economics_measure.py), same
     # discipline as the safety script and the preflight.
     name: M8 cost & observability unit tests (mocked, no live AWS call)
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -296,6 +334,8 @@ jobs:
       - run: python -m pytest engine/m8/tests -q
 
   m2-compiler-checks:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     # Added stage 2 (M2 compiler, Artifact-2). Covers two of the stage-2
     # gate's three legs directly: "determinism twice (byte-identical)" and
     # "manifest hash verified by a stub loader" (engine/m2/tests/
@@ -303,8 +343,6 @@ jobs:
     # package to recompile against, so it's the separate job below rather
     # than folded in here.
     name: M2 compiler checks (determinism, stub loader)
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -321,6 +359,8 @@ jobs:
       - run: python -m pytest engine/m2/tests -q
 
   m2-staleness-check:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     # The third stage-2 gate leg: recompile every built/admitted/open world
     # from its stored records_commit and check it still produces the package
     # worlds.yaml is pinned to. Needs NO restore step: it compares against
@@ -332,8 +372,6 @@ jobs:
     # nobody ever notices. engine/m2/reports/staleness-report.json is the
     # committed evidence that it found a real world to check, not zero.
     name: M2 staleness sweep (built/admitted/open worlds)
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -346,6 +384,8 @@ jobs:
       - run: python -m engine.m2.cli staleness-check
 
   api-tests:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
     # Added: engine/api/ (minimal test backend over the M4/M5 turn loop -
     # HTTP shape only, no new pipeline logic; see
     # /root/.claude/plans/linear-popping-dawn.md). Same discipline as every
@@ -354,8 +394,6 @@ jobs:
     # m4's) since this job also needs fastapi/uvicorn/httpx on top of
     # everything engine.m4.turn already pulls in transitively.
     name: engine/api tests (mocked Bedrock, fixture world)
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -376,6 +414,8 @@ jobs:
       - run: python -m pytest engine/api/tests -q
 
   docker-build:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true' || needs.changes.outputs.frontend == 'true'
     # Added: engine/Dockerfile (PHASE-1-LAUNCH.md Stage 3 - "the container
     # builds"). GitHub Actions runners carry a real Docker daemon; the
     # sandbox this Dockerfile was originally written and verified in does
@@ -394,10 +434,22 @@ jobs:
     # test_health (TestClient + fake deps) - that is the right layer for
     # HTTP behavior; this job's job is only "does the image assemble."
     name: Docker build (engine/Dockerfile)
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: docker build -f engine/Dockerfile -t cic-engine .
-
+      - uses: docker/setup-buildx-action@v3
+      # Was a plain `docker build`, rebuilding every layer from scratch on
+      # every run. Switched to buildx with the GitHub Actions cache backend
+      # (2026-09-10, same minutes-exhaustion cleanup as the path filters and
+      # pip caching above) so a run where the Dockerfile and its COPY
+      # sources haven't changed reuses cached layers instead of reinstalling
+      # everything. Still build-only (push: false) - same "does the image
+      # assemble" scope as before, no behavior change.
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: engine/Dockerfile
+          tags: cic-engine:latest
+          push: false
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

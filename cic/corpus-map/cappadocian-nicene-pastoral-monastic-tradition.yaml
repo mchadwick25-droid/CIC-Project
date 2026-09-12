@@ -128,6 +128,28 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- work: Epistle LXXIV (ANF/older numbering) / LXXV (modern CSEL-Hartel numbering) - Firmilian,
+    Bishop of Caesarea in Cappadocia, to Cyprian, Against the Letter of Stephen. A.D. 256
+  author: cyprian
+  locus: div3 "Epistle LXXIV" (id iv.iv.lxxiv), inside the div2 4.4 Epistles-of-Cyprian body
+  role: tradition
+  confidence: provisional
+  note: 'No `firmilian` author slug exists in AUTHORS.md, so this row is filed under `cyprian`
+    (the corpus author of record for div2 4.4) rather than left unattributed; the letter is
+    Firmilian''s own, embedded in Cyprian''s corpus, exactly as the shared Epistles-of-Cyprian
+    row above already discloses ("the corpus embeds letters by others... under Cyprian''s
+    name"). `confidence: provisional`, not `assigned`, for the same reason as the Thaumaturgus
+    rows in this file and in npnf214/anf06: third-century, a century before this entry''s
+    360-380s census range, and no census entry for 3rd-c. Cappadocia/Pontus itself. Split
+    2026-09-09 on Mark''s ruling (`cappadocian_Unused_Source_Verification_2026-09-09.md` §2.2),
+    following the 2026-08-26 npnf214 per-father split precedent below (`Split 2026-08-26 on
+    Mark''s ruling`) for the same reason that split gave: one work by one author, distinguishable
+    from its shared-corpus row, is worth a row of its own rather than an added atlas_id, since
+    the shared Epistles-of-Cyprian row is `confidence: assigned` and this assignment is not.
+    Doc_02 §1.6 cites this letter under both numberings ("Epistle 74 in the ANF/older numbering,
+    Epistle 75 in the modern CSEL/Hartel numbering; cite both forms") - both carried in `work:`
+    above so a reader searching either number finds this row.'
+  source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: The First Apology (Liber Apologeticus)
   author: eunomius
   locus: whole file - chapters I-XXVIII plus 23 footnotes
@@ -413,6 +435,23 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- work: Canonical Epistle
+  author: gregory_thau
+  locus: div3 under 3.3 'Acknowledged Writings'
+  role: tradition
+  confidence: provisional
+  note: 'Added 2026-09-09. A second row rather than an extra atlas_id on the row above, matching
+    the shape this file already uses for The Oration and Panegyric Addressed to Origen: the
+    two assignments carry different confidences and a single row cannot. Provisional for the
+    same reason both sibling Thaumaturgus rows give - he predates the Cappadocian entry''s
+    360-380s range by a century, and there is no census entry for 3rd-c. Pontus itself. The
+    Cappadocians inherited these penitential canons as their own regional disciplinary practice:
+    this world''s Doc_02 SS1.6 names the Canonical Epistle as Documented and its Source Registry
+    row 66 already carries it, and Basil appeals to the Thaumaturgan inheritance explicitly.
+    This world already holds the volume''s two other Thaumaturgus works; this one was the
+    gap. Kept alongside the anatolian-church-third-century row, not moved - non-exclusive
+    by default per the corpus-map README. '
+  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: The Oration and Panegyric Addressed to Origen
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
@@ -466,3 +505,55 @@ works:
 
     '
   source_file: philostorgius_ecclesiastical-history_walford1855.txt
+- work: The general school law of June 362 (CTh 13.3.5)
+  author: theodosian-code
+  locus: Book 13, Title 3, Law 5 ("Magistros studiorum doctoresque excellere oportet moribus
+    primum, deinde facundia...")
+  role: context
+  confidence: assigned
+  note: 'Closes the same kind of gap as the CTh 16.1.3 entry above, found while verifying
+    that one: this vendored file is not Book 16 alone despite its own staging note above —
+    it is the full "Theodosiani Libri XVI" (confirmed by LIBER headers running Primus through
+    Decimus Sextus), and Book 13''s Title 3 Law 5 is present in full, textually confirmed
+    against Source Registry row 73''s own citation ("Magistros studiorum doctoresque excellere
+    oportet moribus primum, deinde facundia", dated in the file "362 Iun. 17", i.e. 17 June
+    362, matching row 73''s "general school law of June 362" exactly). Row 73 and its companion
+    record (records/cappadocian/source/cappadocian.source.codex- theodosianus-13-3-5-school-law.md)
+    both record this same "public domain... but not acquired into cic/texts/ this session"
+    staleness. Context, not tradition, per row 73''s own reasoning ("Julian''s school legislation
+    as external-force evidence," Doc_01 SS4/Doc_02 SS2) and per this same document''s existing
+    CTh 16.1.3/13.3.5 role assignments elsewhere. Assigned, not provisional, on the same basis
+    as the 16.1.3 entry above: row 73 already treats the law''s date, text, and non-naming
+    of Christians as settled; vendoring only removes the acquisition caveat. Row 72''s Rescript
+    on Christian Teachers (Ep. 36) remains the separate, already-vendored measure that does
+    the actual discriminatory work — this entry does not merge the two, per row 73''s and
+    Doc_02''s own explicit warning against treating them as one document.
+
+    '
+  source_file: theodosianus-16_mommsen-meyer1905.txt
+- work: The imperial communion law of 381 (CTh 16.1.3, 30 July 381), naming Helladius, Otreius,
+    Gregory of Nyssa, and Amphilochius
+  author: theodosian-code
+  locus: Book 16, Title 1, Law 3
+  role: context
+  confidence: assigned
+  note: 'Closes a specific, named gap: Source Registry row 79 and Doc_02 (councils-and-canons
+    paragraph) both cite this exact law as the 381 ecological break''s authority-change evidence
+    (Doc_01 SS4a) — naming, among the East''s touchstone bishops, Helladius of Caesarea, Otreius
+    of Melitene, Gregory of Nyssa in the Pontic diocese, and Amphilochius of Iconium in the
+    Asian diocese — but row 79 and the companion record (records/cappadocian/source/cappadocian.source.
+    imperial-communion-law-of-381.md) both record the Mommsen-Meyer Latin text as "public
+    domain but not acquired into cic/texts/ this session." That text is exactly what this
+    file now is. Context, not tradition: this is imperial legislation acting on the world
+    from outside, the same footing row 73''s CTh 13.3.5 (Julian''s school law) already gets
+    in this same document as "external-force evidence," not this world''s own voice. Assigned
+    rather than provisional because row 79 already treats the law''s existence, date, and
+    named bishops as settled (citation_specificity B, formation_confidence Widely Accepted,
+    evidentiary_weight load-bearing in the companion record) — vendoring the text does not
+    newly unsettle any of that, it only removes the "not acquired" caveat. The specific bishops
+    named remain independently attested via Van Dam (row 95) and the secondary literature
+    per Doc_02, not resting solely on this text; that caveat in row 79 and the record stands
+    unchanged by this entry.
+
+    '
+  source_file: theodosianus-16_mommsen-meyer1905.txt

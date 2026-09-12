@@ -21,6 +21,9 @@ sources:
 - source_id: alx.source.athanasius-de-incarnatione
   locus: 3-8
   license: public-domain
+- source_id: alx.source.origen-de-principiis
+  locus: III.6
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when:
@@ -41,9 +44,16 @@ false_friend:
 senses:
   informational: Genesis 1:26 uses two words, not one - eikon (image, given) and homoiosis (likeness,
     grown). The image is already here, damaged but present; the likeness is where the image is going.
-  evidential: Clement reads the likeness as what formation produces in the mature Christian - visible
-    conformity to God's character through wisdom and love; Origen names the likeness as the goal of the
-    soul's journey, the image gradually restored toward it.
+  evidential: 'Clement reads the likeness as what formation produces in the mature Christian - visible
+    conformity to God''s character through wisdom and love (Strom. II.22, "Plato''s Opinion, that the
+    Chief Good Consists in Assimilation to God"; VII.3, "The Gnostic Aims at the Nearest Likeness
+    Possible to God and His Son"). Origen names the likeness as the goal of the soul''s journey, the
+    image gradually restored toward it (De Principiis III.6, "On the End of the World," argues Genesis
+    1:26-27 gives the image at creation but "reserved" the "perfection of his likeness... for the
+    consummation," to be "acquired" by "the exercise of his own diligence in the imitation of God").
+    Athanasius traces the same image''s damage and restoration from the Incarnation side (De Inc. 3, the
+    "supra-natural gift of being in God''s Image"; 6-7, the image "being effaced" and humanity "restored
+    to the Grace of God''s Image").'
   personal: Two people can perform the same generous act - one who decided to, and one whose desire has
     been genuinely reordered by years of formation. Only the second is the likeness; the first is imitation.
   translational: '''Isn''t "becoming like God" just about copying good behavior?'' - the moral qualities

@@ -91,6 +91,93 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- work: Augustine's City of God, Books I-XIII (Hoffmann's critical edition, CSEL 40 Pars I)
+  author: augustine
+  locus: whole file, Libri I-XIII
+  role: tradition
+  confidence: assigned
+  note: 'Latin critical-text original standing behind the already-vendored NPNF1-02 English
+    translation of City of God (Registry row 24). Companion file: augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt
+    (Books XIV-XXII). Vendored 2026-09-08; not a Manifest G-item.
+
+    '
+  source_file: augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt
+- work: Augustine's City of God, Books XIV-XXII (Hoffmann's critical edition, CSEL 40 Pars
+    II)
+  author: augustine
+  locus: whole file, Libri XIIII-XXII, plus the work's own closing indices
+  role: tradition
+  confidence: assigned
+  note: 'Latin critical-text original standing behind the already-vendored NPNF1-02 English
+    translation of City of God (Registry row 24). Companion file: augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt
+    (Books I-XIII). Vendored 2026-09-08; not a Manifest G-item.
+
+    '
+  source_file: augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt
+- work: Augustine's Confessions (Knoll's critical edition, CSEL 33)
+  author: augustine
+  locus: whole file, Libri I-XIII
+  role: tradition
+  confidence: assigned
+  note: 'Latin critical-text original standing behind the already-vendored NPNF1-01 English
+    translation (Registry row 9) -- this world''s own founding first-person document of Augustine''s
+    conversion narrative. Vendored 2026-09-08; not a Manifest G-item, a new find closing a
+    prior total absence of an original-language witness for this text.
+
+    '
+  source_file: augustine_confessiones-lat_knoll-csel33.txt
+- work: Augustine's Epistulae 1-123 (Goldbacher's critical edition)
+  author: augustine
+  locus: whole file, Ep. I-CXXIII
+  role: tradition
+  confidence: assigned
+  note: 'Latin critical-text original standing behind the already-vendored NPNF1-01 English
+    translation of Augustine''s Letters (Registry rows 10-11). Vendored 2026-09-08, partially
+    closing Source_Acquisition_Manifest G4.
+
+    '
+  source_file: augustine_epistulae-1-123-lat_goldbacher-csel34.txt
+- work: Augustine's Epistulae 124-184A (Goldbacher's critical edition)
+  author: augustine
+  locus: whole file, Ep. CXXIV-CLXXXIV A
+  role: tradition
+  confidence: assigned
+  note: 'Latin critical-text original standing behind the already-vendored NPNF1-04 English
+    translation of the general correspondence (rows 10-11). Corrected here (independent review,
+    Round 16): this file does NOT include Letter 185 (the Correction of the Donatists, Registry
+    row 12) -- an earlier draft of this note wrongly claimed it did. Letter 185 is at its
+    own Latin source in the CSEL 57 Pars IV file instead (augustine_epistulae-critical_goldbacher-csel57-pars4.txt).
+    Vendored 2026-09-08, partially closing Source_Acquisition_Manifest G4.
+
+    '
+  source_file: augustine_epistulae-124-184a-lat_goldbacher-csel44.txt
+- work: Augustine's Expositions on the Psalms (Enarrationes in Psalmos), complete, Psalms
+    1-150
+  author: augustine
+  locus: whole file; Migne PL 36 (Psalms 1-79) and PL 37 (Psalms 80-150) bound in one scan
+  role: tradition
+  confidence: assigned
+  note: 'Latin original (Migne''s 1861 Maurist-text printing, not a modern critical edition)
+    standing behind the already-vendored NPNF1-08 English translation (Registry row 20) --
+    this world''s single largest vendored work. Vendored 2026-09-08; not a Manifest G-item,
+    closing a prior total absence of an original-language witness. One appendix (an alternate
+    Psalm 14 exposition) is flagged by the Maurist editors themselves as not Augustine''s
+    own -- see this file''s own header.
+
+    '
+  source_file: augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt
+- work: Augustine's Retractationum Libri Duo (Knoll's critical edition, CSEL 36)
+  author: augustine
+  locus: whole file (Praefatio, both Books, closing indices)
+  role: tradition
+  confidence: assigned
+  note: 'Latin critical-text source for a citation Registry row 13 previously disclosed as
+    held only at second hand, via an NPNF editor''s own quotation of Retractationes II.18
+    -- the Retractationes are not otherwise vendored in English translation in this corpus.
+    Closes Source_Acquisition_Manifest G6.
+
+    '
+  source_file: augustine_retractationes-lat_knoll-csel36.txt
 - work: City of God
   author: augustine
   locus: div1 4 — City of God (Books I-XXII)
@@ -222,6 +309,19 @@ works:
 
     '
   source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
+- work: On Christian Doctrine (De Doctrina Christiana), Books I-IV
+  author: augustine
+  locus: opening of file through Book IV c. XXXI's own close (this file's own header pins
+    the exact boundary line before the Enchiridion begins)
+  role: tradition
+  confidence: assigned
+  note: 'Latin original standing behind the already-vendored NPNF1-02 English translation
+    (Registry row 16). NOT a modern critical edition (Bruder''s own Maurist-text reprint,
+    not CSEL 80) -- disclosed in the file''s own header along with a standing warning that
+    CSEL 80 itself is confirmed in copyright and must never be vendored.
+
+    '
+  source_file: augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt
 - work: On Continence
   author: augustine
   locus: div2 5.1 — On Continence
@@ -296,8 +396,22 @@ works:
   author: augustine
   locus: div1 20 — A Treatise on Rebuke and Grace
   role: tradition
-  confidence: assigned
-  note: '426/427, also to Hadrumetum, sequel to div1 19 on correction, perseverance and predestination.
+  confidence: provisional
+  note: '426/427, addressed to Hadrumetum (North Africa), not to Gaul — the doubt is whether
+    the gallic-monastic-ascetic-christianity id should stand on addressee grounds alone; latin-pastoral-congregational-christianity
+    is not in doubt. Assigned here provisionally because this is the treatise whose circulation
+    provoked the Gallic monks'' own pastoral objections (reported to Augustine by Prosper
+    of Aquitaine and a correspondent named Hilary) that div1 21''s two treatises directly
+    answer — the opponent side of that world''s own Gravity Discovery (Doc_04) needs this
+    as the provoking text, not only the two replies. Re-pointed 2026-09-08 for the Gallic
+    monastic-ascetic entry (era 2, c. 360-450), added 2026-08-26. **Corrected 2026-09-08**
+    (Doc_02 review Round 1, finding S25): this Hilary''s identity is Contested, not Hilary
+    of Arles — this world''s own vendored Commonitory introduction (npnf211) places Hilary
+    of Arles among the Massilian party being reported on, not among the reporters, and npnf105''s
+    own apparatus proposes "Hilary of Sicily" as its own best identification (see gallic_Doc02_Source_Ecology.md
+    §1.4). The prior correction (Doc_01 Round 2 finding N6a) was applied to this world''s
+    own corpus-map bucket but not propagated back to this staging file, the actual source
+    of the generated bucket — fixed here at the root.
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
@@ -338,7 +452,10 @@ works:
   confidence: assigned
   note: '428/429, the companion and continuation of De praedestinatione sanctorum, transmitted
     as a separate work; the div2 is itself titled ''A Treatise''. Second half of the div1
-    21 split.
+    21 split. Re-pointed 2026-09-08 on the same basis as the Predestination treatise above
+    — addressed to the same Prosper/Hilary audience, same controversy. **Corrected 2026-09-08**
+    (Doc_02 Round 1, S25): same Hilary-identity correction as the two rows above — Contested,
+    not "of Arles."
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
@@ -426,9 +543,16 @@ works:
     Predestination of the Saints'
   role: tradition
   confidence: assigned
-  note: '428/429, to Prosper and Hilary against the objections of the Gallic monks. NPNF prints
-    two distinct treatises under one div1; this is the first. Split per the granularity rule
-    for headings holding several distinct works.
+  note: '428/429, to Prosper and a correspondent named Hilary, against the objections of the
+    Gallic monks. NPNF prints two distinct treatises under one div1; this is the first. Split
+    per the granularity rule for headings holding several distinct works. Re-pointed 2026-09-08:
+    directly addressed to Prosper of Aquitaine and Hilary — the opponent''s-side documentation
+    of the Gallic monastic-ascetic entry''s own controversy over grace and predestination
+    (era 2, c. 360-450, added to the census 2026-08-26). **Corrected 2026-09-08** (Doc_02
+    Round 1, S25): "Hilary of Arles" was wrong and is removed — see the correction note on
+    the Rebuke and Grace row above. This Hilary''s identity is Contested; npnf105''s own apparatus
+    favors "Hilary of Sicily," a genuine rival to this world''s own preferred Gallic-lay-monk
+    reading (Doc_01 §10), not a confirmation of it.
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
@@ -499,6 +623,25 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- work: S. Aureli Augustini Epistulae, Pars IV (Epistulae CLXXXV-CCLXX)
+  author: augustine
+  locus: whole text; Goldbacher's own EPISTVLA numbering runs continuously CLXXXV-CCLXX
+  role: tradition
+  confidence: assigned
+  note: 'The Latin original of the same letters already assigned to lpc from the vendored
+    NPNF translation (npnf101), covering letters 185-270 - including Letter 185 itself (Registry
+    row 12, "The Correction of the Donatists"), the very first letter in this file''s own
+    range. Only Pars IV of Goldbacher''s five-part edition; CSEL 34/1, 34/2, 44, and 58 remain
+    unacquired. Second-witness caveat applies per cic/texts/INTAKE.md: never primary evidence
+    for a Representative on its own, only for cross-checking a specific reading against the
+    vendored NPNF translation. OCR quality uneven - see the file''s own header for a quantified
+    apparatus-corruption assessment; apparatus-level claims specifically need independent
+    verification (corrected here, independent review Round 25''s own C1 full-corpus sweep,
+    from an earlier draft''s own line fold, which split "apparatus-level" into "apparatus-
+    level" with an inserted space).
+
+    '
+  source_file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
 - work: Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)
   author: augustine
   locus: div1 7 — Sermons on Selected Lessons of the New Testament; a series of ~97 sermons
@@ -560,6 +703,18 @@ works:
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
 - work: The Enchiridion (On Faith, Hope, and Love)
   author: augustine
+  locus: from the Enchiridion's own title page ('S. AURELII AUGUSTINI ENCHIRIDION AD LAURENTIUM...')
+    to its own close
+  role: tradition
+  confidence: assigned
+  note: 'Latin original standing behind the already-vendored NPNF1-03 English translation
+    (Registry row 17). Same Maurist-text caveat as the companion De Doctrina Christiana entry
+    above.
+
+    '
+  source_file: augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt
+- work: The Enchiridion (On Faith, Hope, and Love)
+  author: augustine
   locus: div2 4.2 — The Enchiridion
   role: tradition
   confidence: assigned
@@ -591,6 +746,21 @@ works:
 
     '
   source_file: npnf107_augustine-homilies-john-soliloquies.xml
+- work: The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council
+    of Carthage, 419)
+  author: council-of-carthage-419
+  locus: pp. 155-202 of the printed volume (this file's own header gives the exact line range);
+    the surrounding conciliar material in the same scanned volume (Carthage I-IV, the Breviarium
+    Hipponense, a Toledo conciliar collection) is present in the file but not separately catalogued
+    as distinct census works, per this Registry's own large-multi-part-body convention
+  role: tradition
+  confidence: assigned
+  note: 'Latin original standing behind the already-vendored NPNF2-14 English translation
+    (Registry row 26) -- this world''s own institutional skeleton for its conciliar life,
+    including the Apiarius affair.
+
+    '
+  source_file: codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt
 - work: The Code of Canons of the African Church (Council of Carthage, 419)
   author: council-of-carthage-419
   locus: div2 15.4 — The Canons of the CCXVII Blessed Fathers who assembled at Carthage
@@ -613,6 +783,17 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- work: Acta Proconsularia Sancti Cypriani (Cyprian's own trial and martyrdom record)
+  author: cyprian
+  locus: pp. CX-CXIV of the printed volume, immediately following the Vita
+  role: tradition
+  confidence: provisional
+  note: 'Not previously vendored in any form (Source_Registry.md row 41 named this as "not
+    independently located at a separately citable URL" -- now closed by this same file). Cyprian''s
+    own martyrdom record, in Latin.
+
+    '
+  source_file: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
 - work: An Address to Demetrianus (Ad Demetrianum)
   author: cyprian
   locus: div3 under 4.5 - Treatise V
@@ -623,6 +804,20 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: Cyprian's Opera Spuria (works transmitted under Cyprian's name, of disputed authenticity)
+  author: cyprian
+  locus: opening of file through the Vita's own preceding material; kept under Cyprian's name
+    per the corpus map's own 2026-08-26 ruling (transmitted-author shelf, not re-attributed),
+    the same treatment Registry row 6 already establishes for the English-language pseudo-Cyprianic
+    body
+  role: tradition
+  confidence: provisional
+  note: 'Latin second witness for a corpus this world holds only as Confidence-C, not-currently-licensed
+    material (Source_Registry.md row 6). Provisional, matching that row''s own confidence,
+    not upgraded by this vendoring alone.
+
+    '
+  source_file: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
 - work: Exhortation to Martyrdom, Addressed to Fortunatus (Ad Fortunatum)
   author: cyprian
   locus: div3 under 4.5 - Treatise XI
@@ -717,6 +912,25 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: S. Thasci Caecili Cypriani Opera omnia (Hartel's critical edition, CSEL 3, Pars I-II)
+  author: cyprian
+  locus: whole text; Pars I ends at the Sententiae Episcoporum, Pars II runs Epistulae I-LXXXI
+    - see the file's own title-page and EPISTVLA headers for addressing a specific treatise
+    or letter
+  role: tradition
+  confidence: assigned
+  note: 'The Latin original behind the already-vendored ANF05 English translation''s own Cyprian
+    works (rows 1-7 and others in this bucket, all sourced from anf05_hippolytus-cyprian-caius-novatian.xml)
+    - not a new voice, the same tradition''s own words in the language Cyprian actually wrote
+    them in. ANF05 itself follows Migne''s text, not Hartel''s, so this is also an independent
+    critical check on that translation''s own base text, not merely a duplicate. Does not
+    cover CSEL 3 Pars III (spuria/indices) - not yet acquired. Second-witness caveat applies
+    per cic/texts/INTAKE.md: legitimate for cross-checking a specific reading against the
+    vendored English translation a world''s own source record actually cites, never primary
+    evidence for a Representative on its own.
+
+    '
+  source_file: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
 - work: The Epistles of Cyprian
   author: cyprian
   locus: 'div2 4.4 - 82 epistles, assigned as one body (includes letters TO Cyprian: Roman
@@ -774,6 +988,72 @@ works:
     without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
     corpora detached from their attributed authors instead.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: Les Passions des martyrs et les genres litteraires
+  author: delehaye
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'Modern (1921) French scholarship -- role context, not tradition. The foundational
+    study of what the passio/formation-biography genre reliably preserves, licensed for Doc_02''s
+    own Author Gravity assessment of Pontius''s Life (Registry row 7). Closes Source_Acquisition_Manifest
+    G9. Consultation-only per cic/texts/INTAKE.md.
+
+    '
+  source_file: delehaye_passions-martyrs-genres-litteraires-fra_1921.txt
+- work: 'Das Leben Cyprians von Pontius: Die erste christliche Biographie, untersucht von
+    Adolf Harnack'
+  author: harnack
+  locus: whole file (Latin text of the Vita with Harnack's own critical notes, German commentary,
+    and German translation)
+  role: context
+  confidence: assigned
+  note: 'Modern (1913) critical study and German translation of Pontius''s Vita Cypriani,
+    built on Hartel''s own Latin text (already separately catalogued under author: pontius,
+    in cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.yaml) -- role context, not
+    tradition, since the bulk of this file''s own content is Harnack''s modern scholarly apparatus,
+    not the ancient work itself. Closes Source_Acquisition_Manifest G2. Consultation-only
+    per cic/texts/INTAKE.md.
+
+    '
+  source_file: harnack_vita-cypriani-commentary-lat-deu_1913.txt
+- work: 'Histoire litteraire de l''Afrique chretienne, Tome Deuxieme: Saint Cyprien et son
+    temps'
+  author: monceaux
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'Modern (1902) French literary-historical scholarship -- role context, not tradition.
+    The volume this world''s own G5 request names as most directly relevant, bearing directly
+    on the Cyprian phase. Closes another third of Source_Acquisition_Manifest G5. Consultation-only
+    per cic/texts/INTAKE.md.
+
+    '
+  source_file: monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt
+- work: 'Histoire litteraire de l''Afrique chretienne, Tome Premier: Tertullien et les origines'
+  author: monceaux
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'Modern (1901) French literary-historical scholarship -- role context, not tradition.
+    Closes one-third of Source_Acquisition_Manifest G5. Consultation-only per cic/texts/INTAKE.md;
+    covers Tertullian and the origins of African Christian literature, background to this
+    world''s own Cyprian phase rather than this world''s own voice.
+
+    '
+  source_file: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt
+- work: 'Histoire litteraire de l''Afrique chretienne, Tome Troisieme: Le IVe siecle, d''Arnobe
+    a Victorin'
+  author: monceaux
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'Modern (1905) French literary-historical scholarship -- role context, not tradition.
+    Closes the final third of Source_Acquisition_Manifest G5. Consultation-only per cic/texts/INTAKE.md;
+    covers fourth-century African literature outside this world''s own core Cyprian/Augustine
+    focus.
+
+    '
+  source_file: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
 - work: Against the Donatists (De Schismate Donatistarum, Books I-VII)
   author: optatus
   locus: 'headings "BOOK THE FIRST" through "BOOK THE SEVENTH", incl. "APPENDIX TO BOOK III"
@@ -802,6 +1082,21 @@ works:
 
     '
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+- work: The Passion of the Scillitan Martyrs
+  author: passion-of-scillitan-martyrs
+  locus: pp. 112-117 of the printed volume (the Appendix), plus two later Latin recensions
+    at pp. 118-121
+  role: tradition
+  confidence: provisional
+  note: 'Latin/Greek second witness for the ALREADY-PRESENT English-language entry in this
+    same corpus-map bucket (source_file anf09_gospel-of-peter-diatessaron-origen-commentaries.xml),
+    which Source_Registry.md row 28 holds Excluded/Named Comparandum (predates this world''s
+    own c. 246 boundary by 66 years). This second-witness file does not change that disposition
+    -- mirrors the existing entry''s own role and confidence exactly, rather than asserting
+    a new one.
+
+    '
+  source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
 - work: The Life and Passion of Cyprian, Bishop and Martyr
   author: pontius
   locus: div2 4.3
@@ -813,3 +1108,93 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: Vita Caecilii Cypriani (attributed to Pontius the deacon)
+  author: pontius
+  locus: pp. XC-CIX of the printed volume (this file's own header gives the exact line range)
+  role: tradition
+  confidence: assigned
+  note: 'Latin original standing behind the already-vendored ANF05 English translation of
+    Pontius''s Life (Registry row 7, Confidence A). Cyprian''s own election and the Curubis
+    exile passage this world''s own Doc_01 draws on directly are both in this Latin text.
+
+    '
+  source_file: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
+- work: Sancti Augustini Vita (Life of Augustine)
+  author: possidius
+  locus: whole text -- Weiskotten's own chapter numbering (i-xxxi) runs through both the Latin
+    and the facing English translation
+  role: tradition
+  confidence: assigned
+  note: 'Augustine''s own companion for decades, and the Augustine-side counterpart to Pontius''s
+    already-vendored Life of Cyprian (this same bucket, anf05) -- closes the one-sided formation-narrative
+    gap this world''s own Doc_02 names, and is the underlying source, via NPNF''s own editorial
+    apparatus, for the Megalius/primate-of-Numidia identification Doc_01 discloses as resting
+    on an unvendored work until now. Bilingual edition; the English translation is primary
+    evidence in the ordinary sense, the accompanying Latin text and apparatus are useful for
+    checking a specific reading against it.
+
+    '
+  source_file: possidius_vita-augustini_weiskotten1919.txt
+- work: Prosper of Aquitaine's Epitoma Chronicon, with its African continuations (Additamenta
+    Africana, Epitome Carthaginiensis)
+  author: prosper
+  locus: pp. 385-485 of the printed volume (Mommsen's own preface to it at pp. 341-384; the
+    Additamenta Africana and Epitome Carthaginiensis at pp. 486-497); this file's own header
+    gives the exact line ranges
+  role: context
+  confidence: assigned
+  note: 'A contemporary external chronicle, not this tradition''s own voice -- role context,
+    not tradition. Directly attests this world''s own Doc_01-stated end-window: Augustine''s
+    death (year 430 entry) and the Vandal capture of Carthage (year 439 entry), both independently
+    located and quoted in this file''s own header. Closes a prior total absence of a contemporary
+    chronicle witness to this world''s own close.
+
+    '
+  source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
+- work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
+  author: theodosian-code-compilers
+  locus: whole text; not divided by book/title in this entry — see the file's own CTh.<book>.<title>.<law>
+    headings for addressing a specific constitution
+  role: context
+  confidence: provisional
+  note: 'The imperial legal apparatus this tradition''s own pastoral life operated under,
+    not this tradition''s own voice. Source_Registry.md row 44 names the specific reason this
+    world holds it: the underlying statute behind the Theodosian-law fine Augustine''s own
+    Letter 185 SS25 cites (already role: tradition here, npnf101). Not currently drawn on
+    directly for a specific claim. UPDATED 2026-09-09 (lpc Round 28 fix pass): the provision
+    behind that fine reference is now identified, though not against THIS file. Letter 185
+    SS25 describes a law of Theodosius I fining heretical clergy ten pounds of GOLD; that
+    is CTh XVI.5.21 (392 Iun. 15), "denis libris auri viritim," read directly in the Mommsen-Meyer
+    1905 edition vendored on the sibling Donatism branch. It is NOT CTh XVI.5.52 (412), the
+    graduated Donatist fine schedule whose circumcellion clause is assessed in silver — an
+    equation lpc''s own Round 28 revision asserted and withdrew in the same round. Whether
+    this Latin Library file''s own text of XVI.5.21 matches has not been checked, so this
+    entry stays provisional; the identification rests on the Mommsen-Meyer file.
+
+    '
+  source_file: codex-theodosianus_latinlibrary.txt
+- work: Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians
+  author: vonsoden
+  locus: whole file (pp. 247-270 of Quellen und Forschungen aus italienischen Archiven und
+    Bibliotheken, Band XII)
+  role: context
+  confidence: assigned
+  note: 'Modern (1909) German scholarship -- role context, not tradition. A prosopography
+    of the African episcopate in Cyprian''s own decade, closing a gap Registry rows 4 and
+    42 name and Mandouze''s Prosopographie (row 62) cannot reach. Closes Source_Acquisition_Manifest
+    G8. Consultation-only per cic/texts/INTAKE.md.
+
+    '
+  source_file: vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt
+- work: 'Die cyprianische Briefsammlung: Geschichte ihrer Entstehung und Ueberlieferung'
+  author: vonsoden
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'Modern (1904) German scholarship -- role context, not tradition. The standard study
+    of how Cyprian''s own letter collection was formed and transmitted, directly on the same
+    problem that produced this build''s own historical Ep. XL/Epistle XXXIX citation error
+    (lpc_Decision_Log.md). Closes Source_Acquisition_Manifest G7. Consultation-only per cic/texts/INTAKE.md.
+
+    '
+  source_file: vonsoden_cyprianische-briefsammlung-deu_1904.txt
