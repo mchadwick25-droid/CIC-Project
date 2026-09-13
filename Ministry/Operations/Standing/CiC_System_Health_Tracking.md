@@ -391,3 +391,67 @@ note:** this thread does not call Cloudflare directly — its check-runs and
 deploy-preview comments arrive from Cloudflare's own GitHub App integration — but per
 Mark's direction, treat that integration as suspended: don't chase a red or missing
 Cloudflare Workers Build check as a finding in any sweep until Mark says otherwise.
+
+---
+
+## 2026-09-13 — Full sweep on request: every build/live/run file, not just the diff
+## since last sweep
+
+**Mark asked directly** for a full corruption/notes/comments/cost/complexity sweep of
+all active files, not the routine incremental-since-last-sweep check this thread
+normally runs. Scoped to four parallel read-only audits: `engine/` + `cic/engine/`
+(the running Python backend), `cic-poc/frontend/` + `cic-website/` (the live UI and
+site), `records/` + `canon/` + `cic/corpus-map/` (structural/parse integrity only, no
+content judgment), and `World-Builds/` + `world-build-docs/` final deliverables
+(document-hygiene watch, full file set this time instead of just the delta). Findings
+compiled into an Artifact ("Sweep Ledger") and put to Mark directly rather than acted
+on unilaterally, since most of what came back needs either his judgment call or
+belongs to another thread's own domain.
+
+**Clean, confirmed not assumed:** `engine/`+`cic/engine/` (271 files) and
+`cic-poc/frontend/`+`cic-website/` — zero corruption, zero stray debug/TODO/LLM-tell
+content in either. `records/`+`canon/`+`cic/corpus-map/` (1,853 files) — 0 YAML/JSON
+parse failures, 0 merge-conflict markers, 0 duplicate record IDs or keys, every
+worlds.yaml package pin and census_id resolves. `.github/workflows/ci.yml`,
+`engine/Dockerfile`, `render.yaml`, `wrangler.jsonc` — dense with commentary but
+every line explains a real constraint, nothing stray.
+
+**Found, not yet acted on (Mark's call, per the Ledger):**
+1. **134 of 143 tracked `packages/**/manifest.json` files are orphaned** (only 9 are
+   pinned by worlds.yaml) — the exact accumulation pattern the repo's own .gitignore
+   already documents and tells sweeps to clean up. Orphan list computed and verified.
+   Tried `git rm` on all 134 — **blocked by this session's own auto-mode classifier**
+   ("Irreversible Local Destruction"), not by anything about the change itself.
+   Recoverable from git history regardless; not routing around the gate. Needs Mark's
+   explicit go-ahead or his own `git rm` to actually clear.
+2. **~50 files across Alexandria, Syriac, Donatism, and Cappadocian's Doc_01–09
+   deliverables carry embedded review/revision-log narrative** — a real violation of
+   CLAUDE.md's "keep the canonical surfaces clean" rule, but substantive prose in
+   documents this thread didn't write and doesn't have standing to silently edit.
+   Recommended routing to each world's own build-cycle thread rather than a unilateral
+   strip pass.
+3. **One truncated file**:
+   `World-Builds/01-Post-Apostolic-House-Church/Doc09_Story_Chunks/pahcstory009_two-ways-catechumen.md`
+   cuts off mid-word at EOF. This thread has no access to the real ending — flagged to
+   the pahc world thread to restore, not something to guess at.
+4. **cic-website/ cost/complexity bundle**: ~2MB of dead JSON data (project's own
+   decision log already admits `world-census.json` isn't rendered anywhere),
+   `tour.html` unreachable from site nav (confirmed, not guessed), ~3.4MB of
+   byte-identical portrait images duplicated across `cic-poc/frontend/` and
+   `cic-website/`, one 1.1MB image rendered at 72×72px, movement/census data
+   triplicated with a documented manual-sync requirement, and shared CSS tokens
+   redeclared inline on ~14 of ~20 pages instead of using the one stylesheet that
+   already exists. The dead data, the unreachable page, and one duplicate helper
+   function are zero-risk deletes; the image sizing, CSS architecture, and data-sync
+   questions are real design calls that belong with the frontend/product thread, not
+   this one.
+5. **`cic/corpus-map/cyrilline-miaphysite-egyptian-christianity.yaml` vs.
+   `...-tradition.yaml`** — two buckets for what the data's own note calls a
+   near-duplicate census id, self-flagged as needing "a single ruling on which of the
+   two carries corpus." Routed to the Library Build Engine thread, which owns
+   `cic/corpus-map/`.
+
+**Next action:** none from this thread until Mark responds to the five decisions in
+the Ledger. Nothing was edited in `records/`, `canon/`, `World-Builds/`,
+`world-build-docs/`, `cic-website/`, or `cic-poc/frontend/` this sweep — every finding
+above is reported, not applied.
