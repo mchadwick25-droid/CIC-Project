@@ -557,6 +557,25 @@ ENTRIES: tuple[TextEntry, ...] = (
               "distribution carries no 'Rights:' line of its own and its prose declaration sits far "
               "past the 100-line read window - but written as an XML COMMENT rather than plain text, "
               "so the file stays valid XML for ElementTree."),
+    TextEntry("bell_jews-christians-egypt-meletian-papyri_1924.txt", "Claude (fleet cross-world research "
+              "thread identified the item; this build thread fetched, verified, and vendored it)",
+              "2026-09-13",
+              "H. Idris Bell, Jews and Christians in Egypt (British Museum, 1924) - identified by a "
+              "fleet-wide research pass checking this world's own in-copyright 'purchasable' source "
+              "list for public-domain alternatives, triggered by Mark asking the same question. "
+              "desert.source.nepheros-archive's own body already named a second, earlier Melitian "
+              "dossier distinct from the 1987 Kramer and Shelton edition - the Pageus/Paieous "
+              "correspondence (monastery of Hathor, 330s-340s), citing P.Lond. VI, ed. Bell (1924) - "
+              "but that edition was not in hand. It is now: fetched directly from archive.org "
+              "(identifier jewschristiansin0000bell) and independently verified against the raw OCR "
+              "text (not the research note's own account) via the item's own full-text search API and "
+              "a direct download, confirming Part II ('The Meletian Schism,' pp. 38-99) carries "
+              "real papyri and commentary naming Aurelius Pageus, the monastery of Hathor, and a dated "
+              "(334 CE) legal contract of his own appointing a deputy before departing for a council "
+              "at Caesarea - directly relevant primary material this world's build has not yet drawn "
+              "on. Not yet cited by any source/quote/story/doctrinal_witness record - registered as "
+              "desert.source.bell-jews-christians-egypt, the opportunity flagged there for a future "
+              "step, not built out in this same pass."),
 )
 
 
