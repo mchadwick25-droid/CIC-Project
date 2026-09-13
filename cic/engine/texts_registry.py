@@ -557,6 +557,29 @@ ENTRIES: tuple[TextEntry, ...] = (
               "distribution carries no 'Rights:' line of its own and its prose declaration sits far "
               "past the 100-line read window - but written as an XML COMMENT rather than plain text, "
               "so the file stays valid XML for ElementTree."),
+    TextEntry("suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt",
+              "Claude (fleet cross-world research handoff, at Mark's standing acquisition discipline)",
+              "2026-09-13",
+              "The Translation of Alexander Thomson, M.D., revised and corrected by T. Forester, "
+              "Esq., A.M. (Bohn's Classical Library; London: George Bell & Sons, 1909) - closes "
+              "pahc's own two-year-open acquisition item for Claudius 25.4 (the 'Chrestus' expulsion "
+              "notice) and Nero 16.2 (Christians punished), previously paraphrase-only per "
+              "pahc.search.roman-historians-english-pd (2026-08-21, not_found - external text hosts "
+              "were blocked from that session's own sandbox). Surfaced by a fleet cross-world "
+              "research thread's resource handoff (2026-09-13); re-verified independently before "
+              "vendoring rather than trusted from the handoff's own claim - fetched directly and "
+              "cross-checked against two independent public-domain digitizations of the identical "
+              "1909 printing: Project Gutenberg eBook #6400 (the transcription actually vendored - a "
+              "clean text, license/donation boilerplate stripped from both ends, body otherwise "
+              "unaltered) and an archive.org scan (identifier livesoftwelvecae0000suet_o9f1, "
+              "confirmed not access-restricted via the Internet Archive metadata API). Both cited "
+              "passages checked against each other and found to agree exactly, including the "
+              "discovery that the fire-to-Christians link this world's own records have always "
+              "carried as Inferential-Thin is this edition's own 1909 editorial footnote to ch. 39, "
+              "never inside Suetonius's own ch. 16 text - a caution this build had previously taken "
+              "on secondary description, now directly confirmed in the vendored file itself. A "
+              "short bibliographic header (matching the addai/palladius plain-text convention) was "
+              "prepended, since the Gutenberg transcription carried no such header of its own."),
 )
 
 
