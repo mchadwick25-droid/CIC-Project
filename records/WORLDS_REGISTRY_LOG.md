@@ -478,3 +478,50 @@ entries already reference by exact string, and every sibling world's own
 is `imperial-juridical`). The entry's own participant-facing `name`/
 `informalName` fields were updated to drop "Nicene"; only the internal
 `id` string stays as first assigned.
+
+## gallic (Gallic Monastic-Ascetic Christianity)
+
+Everything about this world's own build is tracked in
+`World-Builds/Gallic-Monastic-Ascetic-Christianity/` (Doc_01-Doc_10, the
+Source Registry, the Representative Construction Notes, and this world's
+own B-9 and Phase C scoping notes) - those documents are the record of
+truth for this world; nothing further is duplicated here except the facts
+a registry reader needs quickly:
+
+- **G4 (Article 29 living-tradition determination): CONFIRMED, 2026-09-12**
+  - Mark, in session, in direct response to the drafted presentation:
+    "Confirm as drafted." Recorded in full in
+    `gallic_Representative_Construction_Notes_Renatus.md` Section 6 and its
+    Document Log. `living_tradition_flag: true` is the plain factual data
+    point (this world's monastic tradition genuinely continues in living
+    communities today) the confirmed determination itself relies on.
+  - Five documented divergences from present-day living tradition; YES,
+    moderately broad correspondence (later Western monasticism generally,
+    the Roman Catholic cult of Martin of Tours, the Lerins-Marseilles
+    line's continuation into the Merovingian church, the Vincentian
+    canon's afterlife).
+- **B-8 (2026-09-12):** first-ever compile, `state: built`. `census_id` is
+  deliberately `null` - Atlas/census linking is real, later, post-admission
+  work (per Cappadocian's own precedent, above), not yet done.
+- **B-9 (2026-09-12):** scoped and disposed - contributes nothing beyond
+  B-8, for a first-ever build with no prior hand-authored deployment to
+  swap away from. Full reasoning:
+  `gallic_B9_Scoping_Note.md`.
+- **Phase C (2026-09-13):** scoped, not completed. The governing process
+  document's own Phase C checklist describes deleted infrastructure (the
+  same class of finding B-6/B-7a/B-8/B-9 each already made). The real
+  remaining wiring (frontend `worlds.ts` registration, the site's portrait
+  page, census linking) is confirmed structurally deferred to post-M3
+  admission by direct fleet precedent, and is additionally blocked by the
+  Representative portrait, which does not exist yet (a separately-deferred
+  identity decision, not decided here). Full reasoning:
+  `gallic_PhaseC_Scoping_Note.md`.
+- **M3 admission run (2026-09-13):** 28/28 sealed probes passed, real live
+  Bedrock generation (`LiveModelAnswerer`, not the fixture stand-in), one
+  per fleet canon cell. Report:
+  `engine/m3/reports/live-admission-report-gallic-2026-09-13.json`. Zero
+  failing probes, so no raw generated answer text was preserved to
+  hand-read (the script's own by-design behavior) - a real, honestly-named
+  limit on this step's own verification depth, not fixed after the fact.
+- **ADMITTED, 2026-09-13.** Mark's own word, in session, in direct response
+  to the M3 report above: "yes, admit it."
