@@ -514,6 +514,25 @@ queue:
     verified_by: "direct WebFetch verification, 2026-09-09 (previously sibling-flagged only)"
     status: downloaded
 
+  - title: "The Pilgrimage of Etheria (Peregrinatio Aetheriae / Egeria)"
+    author: "Egeria (Aetheria/Silvia)"
+    translator: "M. L. McClure and C. L. Feltoe"
+    year: 1919
+    world: jerusalem-liturgical-pilgrimage-christianity
+    why: >
+      Surfaced by a source-research pass on Jerusalem Liturgical-Pilgrimage
+      Christianity's (I.15) sourcing gaps, 2026-09-13. Egeria's own diary of
+      her pilgrimage to Jerusalem and the Holy Land, including the fullest
+      surviving eyewitness account of that church's fourth-century liturgical
+      year - the load-bearing gap next to the already-vendored Cyril of
+      Jerusalem Catechetical Lectures (npnf207). Widely cited for this world
+      but not currently vendored; this SPCK "Translations of Christian
+      Literature" edition is a confirmed pre-1929 rendering.
+    url: "https://archive.org/details/pilgrimageofethe00mccliala"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, editors, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
+    status: not-yet-downloaded
+
   - title: "Sermo de Vita Sancti Honorati"
     author: "Hilary of Arles"
     translator: "(Latin only — Patrologia Latina 50)"
