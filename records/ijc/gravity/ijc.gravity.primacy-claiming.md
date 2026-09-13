@@ -33,6 +33,7 @@ relations:
 - {type: illustrated-by, target: ijc.quote.julius-custom}
 - {type: illustrated-by, target: ijc.quote.canon3-new-rome}
 - {type: illustrated-by, target: ijc.quote.leo-rome-apostles}
+- {type: illustrated-by, target: ijc.quote.ammianus-roman-luxury}
 - {type: enabled-by, target: ijc.gravity.church-state-alliance}
 - {type: associated-with, target: ijc.gravity.orthodoxy-enforcement}
 - {type: associated-with, target: ijc.gravity.episcopal-independence}
@@ -76,3 +77,9 @@ have it) and F1-E (when belief was disputed, who had the right to
 decide) - both read directly against the canon question texts; the
 gravity is the answer's organizing spine, with ijc.term.primatus and
 ijc.term.presbeia carrying the vocabulary.
+
+Added 2026-09-13: ijc.quote.ammianus-roman-luxury, newly vendored, gives
+this gravity its one outside, non-Christian assessment of what the
+Roman see's rank was actually worth fighting for - wealth and
+ostentation, on a hostile pagan witness's own telling, not a case this
+gravity's other (self-)sources make from inside the claim.
