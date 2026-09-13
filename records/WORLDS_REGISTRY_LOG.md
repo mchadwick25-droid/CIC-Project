@@ -525,3 +525,20 @@ a registry reader needs quickly:
   limit on this step's own verification depth, not fixed after the fact.
 - **ADMITTED, 2026-09-13.** Mark's own word, in session, in direct response
   to the M3 report above: "yes, admit it."
+- **Phase D live Deep Interview (2026-09-13):** a real, threaded,
+  six-question conversation against the admitted package (matching
+  Cappadocian's own SS38 precedent) found a genuine register defect - the
+  voice broke strict we-voice under direct "which one are you - Martin or
+  Cassian?" pressure. Full account:
+  `gallic_PhaseD_LiveDeepInterview_2026-09-13.md`.
+- **Self-reference base fix (2026-09-13), package re-pinned.** Per Mark's
+  own instruction on receiving that finding ("the representative should
+  not have insight to anything outside their world and all fixes should
+  be base fixes not fix on fix"), `gallic.voice.craft.md`'s
+  "self-reference" flavor_note was rewritten wholesale three times (never
+  a bullet appended beside a prior one), each pass re-verified with a real
+  recompile and live conversation. Full account, including where the
+  first two passes fell short before the third held clean:
+  `gallic_SelfReference_BaseFix_2026-09-13.md`. Current pin:
+  `manifest_hash sha256:53b4750e53ca7f2fe0299cc5fece66b7b06c53d3a9a5a4d51ef676ddf3106f96`,
+  `packages/gallic/2026-09-13T16-06-19Z`.
