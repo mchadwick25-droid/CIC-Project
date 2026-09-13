@@ -74,15 +74,14 @@ ACCEPTED_OPEN: dict[str, str] = {
     # its M3 admission and cic-website/cic-poc wiring that this in-between
     # window was never actually exercised against these four checks before.
     # Real, disclosed, structurally expected for a world awaiting M3
-    # admission - NOT a build-thread task to close now: census linking and
-    # frontend registration are real, later, post-admission work per
-    # Cappadocian's own precedent (CAPPADOCIAN_BUILD_LEDGER.md SS30), and
-    # the frontend entries additionally need a Representative portrait,
-    # which does not exist yet (a separately-deferred identity decision).
-    "registry-null-field/gallic.census_id": "gallic is `built`, not yet `admitted`+census-linked - Atlas/census linking is real, later, post-admission work (see Cappadocian precedent), not part of this world's own registration",
+    # admission - NOT a build-thread task to close now: census linking is
+    # real, later, post-admission work per Cappadocian's own precedent
+    # (CAPPADOCIAN_BUILD_LEDGER.md SS30). The frontend portrait-wiring pair
+    # (app-world-assets/gallic, app-world-order/gallic) closed 2026-09-13
+    # once Renatus's portrait was locked and cic-poc/frontend/src/data/
+    # worlds.ts was updated - removed from this dict, not left stale.
+    "registry-null-field/gallic.census_id": "gallic reached `admitted` 2026-09-13 but is not yet census-linked - Atlas/census linking is real, later, distinct work (see Cappadocian precedent SS31), not part of this world's own admission",
     "census-id/gallic": "as registry-null-field/gallic.census_id - the Atlas deep link cannot exist until this world is census-linked, which is post-admission work",
-    "app-world-assets/gallic": "cic-poc/frontend/src/data/worlds.ts wiring needs a Representative portrait image, which does not exist yet for Renatus (a separately-deferred second identity decision, per this world's own build record) - not a build-thread task to close by inventing a placeholder",
-    "app-world-order/gallic": "as app-world-assets/gallic - both frontend entries are wired together once the portrait exists",
 }
 
 

@@ -542,3 +542,38 @@ a registry reader needs quickly:
   `gallic_SelfReference_BaseFix_2026-09-13.md`. Current pin:
   `manifest_hash sha256:53b4750e53ca7f2fe0299cc5fece66b7b06c53d3a9a5a4d51ef676ddf3106f96`,
   `packages/gallic/2026-09-13T16-06-19Z`.
+- **Phase D round 2, fresh questions (2026-09-13):** an independent
+  re-verification against the re-pinned package - six entirely new
+  questions, none reused from round 1. Zero pronoun-family output_defects
+  across all four turns that reached the voice, including a fresh
+  phrasing of the exact identity-collision risk the base fix targeted.
+  One separate, unrelated, unfixed finding named (a markdown-heading
+  formatting artifact, generic fleet infrastructure, confirmed unrelated
+  to the self-reference fix by its own inconsistent appear/disappear
+  pattern across every fix pass). Full account:
+  `gallic_PhaseD_LiveDeepInterview_Round2_2026-09-13.md`.
+- **Representative portrait locked and wired, 2026-09-13.** Mark's own
+  word, in session: "yes, lock it in." A grounding brief
+  (`gallic_Representative_Portrait_Grounding_Brief.md`, Cappadocian SS35
+  format) was drafted, reviewed against a candidate image for
+  authenticity and connection, and corrected in place once (an "undyed"
+  tunic claim was checked against the source record and found to be this
+  brief's own inference, not a source word - corrected, disclosed
+  in-line, not silently rewritten). Two further revisions corrected the
+  art directly against all seven other live portraits' own image files
+  (not just their text descriptions) after a genuine distinctness risk
+  was found against Chilo (Cappadocian) - hair recolored white/silver,
+  belt changed to a plain rope, both confirmed against the actual image
+  files. Final portrait wired to both live-serving locations
+  (`cic-website/assets/portraits/gallic.jpg`,
+  `cic-poc/frontend/public/images/portraits/gallic.jpg`, 720x720
+  quality-85 JPEG, same pipeline as every prior world's own portrait) and
+  registered in `cic-poc/frontend/src/data/worlds.ts`
+  (`WORLD_ORDER`/`WORLD_ASSETS`, accent `#5A6B74`). The
+  `app-world-assets/gallic`/`app-world-order/gallic` accepted-open
+  disclosures in `engine/m1/cross_world.py` closed accordingly (removed,
+  not left stale). The fuller Atlas/census content upgrade
+  (`cic-website/data/world-census.json`'s `entry` block, status flip) is
+  separate, later, not-yet-started work, matching Cappadocian's own
+  distinct SS31/SS36 sequence - `census-id/gallic` and
+  `registry-null-field/gallic.census_id` remain open for that reason.
