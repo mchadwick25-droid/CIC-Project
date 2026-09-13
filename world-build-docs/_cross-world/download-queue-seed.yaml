@@ -39,7 +39,7 @@ queue:
     author: "Paulinus of Milan"
     translator: "Sr. Mary Simplicia Kaniecka"
     year: 1928
-    world: ijc
+    world: "ijc / ambrosian-milan-standalone"
     why: >
       Independently located by both an Opus adversarial review and a
       Fable research pass, 2026-09-02, while sorting WANTS-REGISTER.md's
@@ -47,6 +47,12 @@ queue:
       CUA Patristic Studies edition (Latin text with English translation)
       was originally misfiled as "needs a research pass"; both independent
       checks found it already exists and is already public domain.
+
+      Also flagged for ambrosian-milan-standalone by a source-research
+      pass on that world's (I.16) sourcing gaps, 2026-09-13: Ambrose's own
+      secretary and biographer is at least as natural a home for this
+      Life as ijc, if not more so - once vendored, both worlds' corpus-map
+      buckets should carry it.
     url: "https://archive.org/details/vitasanctiambros00paul"
     rights_basis: pd-us-by-date
     verified_by: "Opus adversarial review + Fable research pass, 2026-09-02 (independent, cross-confirmed)"
