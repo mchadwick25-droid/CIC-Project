@@ -65,8 +65,24 @@ ACCEPTED_OPEN: dict[str, str] = {
     "id-type-token/voice_craft": "F-03 - pahc uses `pahc.craft.chloe-voice` where the other five use `<world>.voice.craft`",
     "figure-dates-keys/pahc": "F-04 - pahc keys figure.dates as display/note where the other five use born/died/floruit, and the frontend prints the key verbatim, so pahc participants read 'display:' and 'note:' in the UI",
     "figure-dates-keys/cappadocian": "F-04-analogue - all 15 cappadocian figure records key figure.dates as `display` (one-sentence prose covering contested/multi-clause dating - e.g. Basil's own death 'traditionally placed at January 379 or September 378, though the modern redating literature argues for 377 instead' - that doesn't reduce cleanly to born/died/floruit without losing the contested-date nuance itself). Found 2026-09-01 while wiring the Representative portrait; same disclosed-not-fixed disposition as pahc's own instance, not a mass rewrite improvised under this step - belongs to a cappadocian build thread.",
+    "figure-dates-keys/gallic": "F-04-analogue - all 5 gallic figure records key figure.dates as `display` (one-sentence prose covering contested/hedged dating this world's own sources leave open - e.g. Martin's own dates rest on 'lived sixteen years after the Treves affair by Gallus's own reckoning' and an undated election; Vincent's entry to Lerins is 'undated (c. 425 is a floating convention, Inferential-Thin)' - none of the five reduce cleanly to born/died/floruit without losing the hedge itself). Found 2026-09-13 during Phase C recon; same disclosed-not-fixed disposition as pahc's and cappadocian's own instances, not a mass rewrite improvised under this step - belongs to a gallic build thread.",
     "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches both the Level-3 card and the compiled prompt's quote index",
     "ui-field-leak/desert": "F-10 - desert.figure.evagrius names a record id (desert.source.evagrius-praktikos) and a build document (Doc_01) inside figure.dates, and desert.figure.pachomius says 'not independently adjudicated by this build' - all three printed verbatim by the doorway's Level-3 panel",
+    # gallic is the fleet's first world registered (B-8, 2026-09-12) at
+    # state: built without also being census-linked and frontend-wired in
+    # the same pass - every prior world's own B-8 happened close enough to
+    # its M3 admission and cic-website/cic-poc wiring that this in-between
+    # window was never actually exercised against these four checks before.
+    # Real, disclosed, structurally expected for a world awaiting M3
+    # admission - NOT a build-thread task to close now: census linking and
+    # frontend registration are real, later, post-admission work per
+    # Cappadocian's own precedent (CAPPADOCIAN_BUILD_LEDGER.md SS30), and
+    # the frontend entries additionally need a Representative portrait,
+    # which does not exist yet (a separately-deferred identity decision).
+    "registry-null-field/gallic.census_id": "gallic is `built`, not yet `admitted`+census-linked - Atlas/census linking is real, later, post-admission work (see Cappadocian precedent), not part of this world's own registration",
+    "census-id/gallic": "as registry-null-field/gallic.census_id - the Atlas deep link cannot exist until this world is census-linked, which is post-admission work",
+    "app-world-assets/gallic": "cic-poc/frontend/src/data/worlds.ts wiring needs a Representative portrait image, which does not exist yet for Renatus (a separately-deferred second identity decision, per this world's own build record) - not a build-thread task to close by inventing a placeholder",
+    "app-world-order/gallic": "as app-world-assets/gallic - both frontend entries are wired together once the portrait exists",
 }
 
 
