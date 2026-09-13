@@ -533,6 +533,28 @@ queue:
     verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, editors, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
     status: not-yet-downloaded
 
+  - title: "The Dialogue of Palladius Concerning the Life of Chrysostom"
+    author: "Palladius, Bishop of Aspuna"
+    translator: "Herbert Moore"
+    year: 1921
+    world: antiochene-exegetical-christianity-chrysostom-ce
+    why: >
+      Surfaced by a cross-link check on Antiochene Exegetical Christianity's
+      (I.13) Chrysostom-centered corpus, 2026-09-13: every existing mention
+      of Chrysostom/Antioch across the corpus-map's other staging files was
+      checked and found already linked or correctly excluded elsewhere - no
+      unlinked cross-link opportunity remained, unlike Aquileia's Jerome
+      letters. This is a genuine acquisition gap instead: a contemporary,
+      sympathetic eyewitness account of Chrysostom's fall and exile, the
+      same shape of gap Possidius' Life of Augustine closes for lpc. Not
+      currently vendored - only Palladius' separate Lausiac History is.
+      SPCK "Translations of Christian Literature" edition, the standard PD
+      English translation.
+    url: "https://archive.org/details/thedialogueofpal00mooruoft"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, translator, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
+    status: not-yet-downloaded
+
   - title: "Sermo de Vita Sancti Honorati"
     author: "Hilary of Arles"
     translator: "(Latin only — Patrologia Latina 50)"
