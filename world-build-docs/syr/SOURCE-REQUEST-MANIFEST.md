@@ -22,11 +22,12 @@
 
 ## 2. Deferred — future work (not blocking; Mark could not locate either as of 2026-08-22)
 
-### 2.1 Odes of Solomon — **P2 · DEFERRED**
+### 2.1 Odes of Solomon — **P2 · CLOSED 2026-09-13** (was DEFERRED)
 - **Wanted:** J. Rendel Harris, *The Odes and Psalms of Solomon* — the 1909 editio princeps or the 1911 second edition (an archive.org scan of the printed volume preferred, so the file carries its own title page and date).
 - **Expected rights:** public domain (1909/1911). Verified only when the supplied file's own header is read.
-- **Why P2, not P1:** Step 0 names the Odes in this world's ecology, but the approved Doc_02 carries them as Native/**Contested** (Edessene provenance is one proposal among several; dating and language disputed) at Confidence D — nothing load-bearing rests on them. Until supplied: `syr.source.odes-of-solomon` stands at rights `pending-verification`, and **no verbatim quoting** from the Odes is licensed (search: `syr.search.odes-of-solomon-pd`).
+- **Why P2, not P1:** Step 0 names the Odes in this world's ecology, but the approved Doc_02 carries them as Native/**Contested** (Edessene provenance is one proposal among several; dating and language disputed) at Confidence D — nothing load-bearing rests on them.
 - **Status (2026-08-22):** Mark could not locate a copy on hand. Logged as future work — pick up whenever a copy surfaces; not required for this world to proceed through step 6/7/8 later, since nothing here is load-bearing on the Odes.
+- **Closed (2026-09-13):** not the exact 1909/1911 volume requested above, which remains unlocated, but the fleet's own cross-world research thread found and this build thread independently verified and vendored Harris & Mingana's 1920 re-edition (Vol. II: The Translation, John Rylands Library) instead — `cic/texts/odes-of-solomon_harris-mingana1920.txt`, public domain by publication date. `syr.source.odes-of-solomon` now stands at rights `verified public-domain` for this 1920 text; the rights gate is open for verbatim quoting from it (search: `syr.search.odes-of-solomon-pd`, updated). No quote or doctrinal_witness record has yet been drawn from it — that remains separate, future content work, distinct from this acquisition closure.
 
 ### 2.2 Synodicon Orientale (the 410 Synod acts) — **P3 · DEFERRED, bounded**
 - **Wanted:** J.-B. Chabot, *Synodicon Orientale* (Paris, 1902) — public-domain in principle, but **French**; no PD English exists (search: `syr.search.synod-410-acts-english`).

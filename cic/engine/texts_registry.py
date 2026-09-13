@@ -557,6 +557,33 @@ ENTRIES: tuple[TextEntry, ...] = (
               "distribution carries no 'Rights:' line of its own and its prose declaration sits far "
               "past the 100-line read window - but written as an XML COMMENT rather than plain text, "
               "so the file stays valid XML for ElementTree."),
+    TextEntry("odes-of-solomon_harris-mingana1920.txt", "Claude (fleet cross-world research thread finding, vendored by the syr build thread at Mark's standing direction)",
+              "2026-09-13",
+              "The Odes and Psalms of Solomon, Vol. II: The Translation, ed./trans. J. Rendel Harris "
+              "and Alphonse Mingana (Manchester University Press, for the John Rylands Library, "
+              "1920). Closes syr.search.odes-of-solomon-pd - syr.source.odes-of-solomon had named "
+              "Harris's 1909/1911 editio princeps as the expected public-domain English but never had "
+              "a vendored file, and the rights gate had failed closed (no verbatim quoting from the "
+              "Odes licensed) since that source record was first written. The fleet's own cross-world "
+              "research thread located this 1920 re-edition on the Internet Archive "
+              "(archive.org/details/odespsalmsofsolo02harruoft) and confirmed it fetchable from this "
+              "sandbox; the syr build thread independently re-fetched and verified it before vendoring "
+              "(HTTP 200, ~1MB OCR text, title page confirms Rylands imprint/Harris & Mingana/1920, "
+              "whole-file grep for 'copyright' returns nothing, all 42 Odes present and individually "
+              "addressable by their own ODE I-XLII headings). "
+              "RIGHTS: public domain BY DATE - a 1920 volume, clearing the 'to ~1929' rule this "
+              "corpus otherwise holds to outright, the same basis as chronicle-of-edessa_cowper.txt "
+              "and NOT the weaker transcriber-declaration basis "
+              "aphrahat_demonstrations-2-7_hallock1932.txt rests on. A bibliographic header (title/"
+              "creator/print-basis/rights/rights-basis/source-collection, matching this corpus's own "
+              "established convention) was prepended - the archive.org OCR derivative carries no "
+              "'Rights:' line of its own. "
+              "NOT YET DONE, left as separate future work: no quote or doctrinal_witness record has "
+              "been authored against this file yet, and syr.source.odes-of-solomon's own Native/"
+              "Contested framing (\"nothing load-bearing rests on the Odes\") is unchanged by this "
+              "vendoring - only the acquisition gap itself is closed. Whether and how to draw specific "
+              "content from the Odes into syr's canon is a content decision for the build thread to "
+              "make separately, not something this housekeeping commit decides."),
 )
 
 
