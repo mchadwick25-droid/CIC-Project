@@ -576,3 +576,22 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-09 (previously sibling-flagged only)"
     status: downloaded
+
+  - title: "The Apostolic Tradition of Hippolytus"
+    author: "attrib. Hippolytus of Rome"
+    translator: "Burton Scott Easton"
+    year: 1934
+    world: roman-church-third-century
+    why: >
+      Surfaced by a source-research pass on Roman Church Third Century's
+      (I.33) sourcing gaps, 2026-09-13. A genuine, unfilled gap, not a
+      cross-linking oversight: ANF05's Hippolytus material (1885) predates
+      the 1910s Schwartz/Connolly identification of the Apostolic
+      Tradition as his, so it was never in scope for that volume and
+      nothing else in the corpus carries it. Easton's translation (orig.
+      Cambridge University Press, 1934) is the confirmed public-domain
+      alternative to Dix's still-copyrighted 1937 edition.
+    url: "https://www.gutenberg.org/ebooks/61614"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification, 2026-09-13 (Project Gutenberg's own \"Public domain in the USA\" tag, translator, and full-text downloadability all confirmed against the host directly)"
+    status: not-yet-downloaded
