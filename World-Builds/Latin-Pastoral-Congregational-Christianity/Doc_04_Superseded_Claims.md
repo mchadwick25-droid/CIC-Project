@@ -1,6 +1,6 @@
 # Doc_04 — Superseded Claims
 
-Companion to `Doc_04_Gravity_Discovery.md`. It holds every claim that document has made and withdrawn, so the document itself can state current claims only.
+Companion to `Doc_04_Gravity_Discovery.md`. It holds the claims that document has withdrawn that a reader of the current text might otherwise expect to find in it, so the document itself can state current claims only.
 
 Entries record what was claimed, what is wrong with it, and which review round established that. They are not an account of any pass's work.
 
