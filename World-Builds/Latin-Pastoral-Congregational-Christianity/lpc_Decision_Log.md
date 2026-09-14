@@ -659,6 +659,8 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 
 **Escalation check.** Representative-identity: does not apply. Portfolio-level/cross-world: does not apply. Governance/methodology: no new rule proposed; the derived-rather-than-inherited destination set is a condition of this document's own passes, following Round 4's own recommendation against escalating it. **Unresolved tensions: closed** — the single live escalation is resolved by the ruling above.
 
+
+**[CORRECTION, 2026-09-14, Round 7's own H9 — added in place rather than left standing.]** Every *Gesta* finding this entry asserts as fact is **withdrawn**. Both source reads were audited and withdrawn — `Doc04_Round5_Review.md` found the first overstated, `Doc04_Round6_Review.md` found the second unsound — and nothing in `Doc_04_Gravity_Discovery.md` now rests on either. Read this entry as the record of what was believed and acted on at the time, not as findings.
 ### 2026-09-14 (later) — The *Gesta* read rewritten after audit, Doc_04's contradictions fixed, Supporting reaffirmed — and Doc_01 §5's strand finding formally reopened under its own item 10
 
 **Direction.** Project lead, directly in session, 2026-09-14, after `Doc04_Round5_Review.md` found the first source read overstated: keep Supporting, fix the contradictions, redo the *Gesta* read.
@@ -687,6 +689,8 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 
 **Escalation check.** Representative-identity, portfolio-level, governance: do not apply. **Unresolved tensions: one raised, not closed** — the formal reopening of Doc_01 §5's finding under item 10 is a change in a cleared companion document's status, made by this document under a mandate Doc_01 itself granted. It is disclosed here for the project lead rather than treated as routine.
 
+
+**[CORRECTION, 2026-09-14, Round 7's own H9 — added in place rather than left standing.]** Every *Gesta* finding this entry asserts as fact is **withdrawn**. Both source reads were audited and withdrawn — `Doc04_Round5_Review.md` found the first overstated, `Doc04_Round6_Review.md` found the second unsound — and nothing in `Doc_04_Gravity_Discovery.md` now rests on either. Read this entry as the record of what was believed and acted on at the time, not as findings.
 ### 2026-09-14 (third) — All 411 Conference evidence withdrawn from Doc_04. Supporting stands on the ruling; the source question is reopened for a different thread
 
 **Direction.** Project lead, directly in session, 2026-09-14, after `Doc04_Round6_Review.md` found the **rewritten** *Gesta* read **unsound**: withdraw the material rather than have this thread write a third version.
@@ -715,3 +719,26 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 **Disposition.** **None.** CO-022's precondition is not met and no disposition is self-applied.
 
 **Escalation check.** Representative-identity, portfolio-level, governance: do not apply. **Unresolved tensions: one open** — the evidentiary question at Open Item 6, which this thread has twice failed to answer and should not attempt again.
+
+### 2026-09-14 (fourth) — Candidate 5's classification stated as resting on the ruling; the seven sites Round 7 found still carrying the withdrawn basis are fixed
+
+**Direction.** Project lead, directly in session, 2026-09-14: state that it rests on the ruling, and fix the seven sites.
+
+**Round 7's two findings that made this necessary.** `Doc04_Round7_Review.md` — SUBSTANTIAL REVISION REQUIRED, 10 HIGH, 12 MEDIUM, 8 LOW, 3 COSMETIC.
+
+1. **The withdrawal was incomplete at seven sites.** §4's verdict cell still read "Passes Repetition and Persistence" and its classification cell still read "on the 411 Conference evidence" — **both byte-identical to `27ed339a`, unreverted** — and so contradicted the §3 bullets the same pass had reverted. Also unreverted: the Dependency bullet, a §5 survival bullet, Open Item 7, and two §8 entries. **The withdrawal pass's checks asked whether the withdrawn citations were absent and the pre-read bullets present. They never asked whether what was restored agreed with what was kept** — a subtractive check cannot see a wrongly-retained presence.
+2. **Supporting's stated basis was unsound.** The withdrawal pass argued the classification from what it called the Framework's "third clause." **Re-extracted before acting:** CF V7.4 reads *"Supporting Gravities organize significant portions of the ecology but function within the context established by primary gravities. They pass multiple gravity tests but may not demonstrate the same breadth of dependency or persistence."* That is two sentences, not three clauses. The second sentence's concession covers lesser **breadth** of dependency or persistence, is attached to a requirement to *pass* multiple tests rather than licensing a test that does not pass, and says nothing about Formation. **And the gating clause — organizing significant portions of the ecology — is denied by Doc_04 §3's own Confidence/Gravity Cross-Check**, which records the candidate's organizing breadth as "not supported at the same level… narrow at best."
+
+**What is now stated, at every site.** **Candidate 5 is Supporting on the project lead's ruling of 2026-09-14, and this document's own six-test profile does not independently establish that classification.** Asserted at §3's Classification paragraph, §4's classification cell, §5's survival bullet, §7 Open Item 2, the Status line, the escalation self-assessment and the Disposition. The concession argument is withdrawn in place rather than deleted.
+
+**Why that formulation and not a better-sounding one.** It is a **negative** claim about what the document establishes, not a positive claim about the world. Round 7's closing prediction was that the next pass would select a proposition that fits, propagate it consistently, pass its own check, and leave the document *uniformly wrong* — because a consistency check is defined relative to the proposition and cannot test it. A negative claim is the one shape that prediction does not reach: it concedes rather than asserts, and it cannot be made uniformly wrong by being propagated.
+
+**The remedy the seven rounds argue for, applied for the first time in the right order.** The proposition was **verified against the whole governing Framework sentence before being propagated**, not after — the definition re-extracted from `word/document.xml`, both sentences read, and the candidate's profile tested against the gating clause and the concession separately. That is Open Item 6's recommendation generalised, and it is the only remedy in seven rounds that acts before the propagation rather than auditing it afterwards.
+
+**Also fixed.** Open Item 2's downstream instruction — deleted by the withdrawal pass, leaving the item three later documents inherit ending in a dangling colon — is restored, and now tells Doc_05/Doc_07/Doc_08 what to do and what not to assume. The restored Repetition bullet's "at least fourteen numbered acts" is qualified, since the one survival of the withdrawn reads shows act 158 to be Augustine's subscription rather than a speech. **Three certifications reading "nothing in this document relies on either read" were false and are corrected**: one narrow survival *is* relied on, and is now named, with its use disclosed as withholding a characterisation rather than supporting one. The two earlier 2026-09-14 entries above carry in-place correction notices.
+
+**Verification.** Domain stated as all 242 lines, nothing excluded. Twenty checks in three groups: **agreement** between the restored §3 bullets and every other site — the check the withdrawal pass omitted and Round 7 found it needed; **propagation** of the proposition at each of seven sites; and **closure** of each defect Round 7 named. All pass. Structure re-verified: tables uniform, nesting balanced, all 28 matrix pairs symmetric.
+
+**Disposition.** **None.** Rounds 5, 6 and 7 are outstanding. **No count is asserted** — six consecutive passes asserted one and six were wrong.
+
+**Escalation check.** Representative-identity, portfolio-level, governance: do not apply. **Unresolved tensions: one open** — the evidentiary question at Open Item 6, which this thread has twice failed and should not attempt again.
