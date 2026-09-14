@@ -660,7 +660,7 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 **Escalation check.** Representative-identity: does not apply. Portfolio-level/cross-world: does not apply. Governance/methodology: no new rule proposed; the derived-rather-than-inherited destination set is a condition of this document's own passes, following Round 4's own recommendation against escalating it. **Unresolved tensions: closed** — the single live escalation is resolved by the ruling above.
 
 
-**[CORRECTION, 2026-09-14, Round 7's own H9 — added in place rather than left standing.]** Every *Gesta* finding this entry asserts as fact is **withdrawn**. Both source reads were audited and withdrawn — `Doc04_Round5_Review.md` found the first overstated, `Doc04_Round6_Review.md` found the second unsound — and nothing in `Doc_04_Gravity_Discovery.md` now rests on either. Read this entry as the record of what was believed and acted on at the time, not as findings.
+**[CORRECTION, 2026-09-14, Round 7's own H9 — added in place rather than left standing.]** Every *Gesta* finding this entry asserts as fact is **withdrawn**. Both source reads were audited and withdrawn — `Doc04_Round5_Review.md` found the first overstated, `Doc04_Round6_Review.md` found the second unsound — and no *conclusion* of either is relied on in `Doc_04_Gravity_Discovery.md`; one narrow factual survival is relied on and is named at §7 Open Item 6. Read this entry as the record of what was believed and acted on at the time, not as findings.
 ### 2026-09-14 (later) — The *Gesta* read rewritten after audit, Doc_04's contradictions fixed, Supporting reaffirmed — and Doc_01 §5's strand finding formally reopened under its own item 10
 
 **Direction.** Project lead, directly in session, 2026-09-14, after `Doc04_Round5_Review.md` found the first source read overstated: keep Supporting, fix the contradictions, redo the *Gesta* read.
@@ -690,8 +690,10 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 **Escalation check.** Representative-identity, portfolio-level, governance: do not apply. **Unresolved tensions: one raised, not closed** — the formal reopening of Doc_01 §5's finding under item 10 is a change in a cleared companion document's status, made by this document under a mandate Doc_01 itself granted. It is disclosed here for the project lead rather than treated as routine.
 
 
-**[CORRECTION, 2026-09-14, Round 7's own H9 — added in place rather than left standing.]** Every *Gesta* finding this entry asserts as fact is **withdrawn**. Both source reads were audited and withdrawn — `Doc04_Round5_Review.md` found the first overstated, `Doc04_Round6_Review.md` found the second unsound — and nothing in `Doc_04_Gravity_Discovery.md` now rests on either. Read this entry as the record of what was believed and acted on at the time, not as findings.
+**[CORRECTION, 2026-09-14, Round 7's own H9 — added in place rather than left standing.]** Every *Gesta* finding this entry asserts as fact is **withdrawn**. Both source reads were audited and withdrawn — `Doc04_Round5_Review.md` found the first overstated, `Doc04_Round6_Review.md` found the second unsound — and no *conclusion* of either is relied on in `Doc_04_Gravity_Discovery.md`; one narrow factual survival is relied on and is named at §7 Open Item 6. Read this entry as the record of what was believed and acted on at the time, not as findings.
 ### 2026-09-14 (third) — All 411 Conference evidence withdrawn from Doc_04. Supporting stands on the ruling; the source question is reopened for a different thread
+
+**[CORRECTION, 2026-09-14, Round 8's own H5.]** This entry states Supporting as resting on CF V7.4's "third clause." **That basis is withdrawn** — the definition is two sentences, not three clauses, and its concession neither licenses a failing test nor speaks to Formation. The basis that replaced it (that §3's Cross-Check *denies* the gating clause) is **also withdrawn**, as an invalid inference. Candidate 5 is classified **Supporting, provisionally**, under the Framework's ambiguous-results provision; see the fifth entry below. This entry's claim that the evidence was withdrawn "from every site" is also false — Round 7 found seven sites unreverted, and Round 8 found a further one.
 
 **Direction.** Project lead, directly in session, 2026-09-14, after `Doc04_Round6_Review.md` found the **rewritten** *Gesta* read **unsound**: withdraw the material rather than have this thread write a third version.
 
@@ -722,6 +724,8 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 
 ### 2026-09-14 (fourth) — Candidate 5's classification stated as resting on the ruling; the seven sites Round 7 found still carrying the withdrawn basis are fixed
 
+**[CORRECTION, 2026-09-14, Round 8.]** The proposition this entry records propagating — that the gating clause is *denied* by §3's own Cross-Check — is **false and withdrawn**. The Cross-Check speaks to evidential confidence, which CF V7.4 distinguishes from gravity strength in terms; the denial was reached by an ellipsis that moved "narrow at best" off the six-test profile and onto organizing breadth. This entry's defence of the negative-claim formulation does not hold either: a negative is false when too weak, and what was propagated was a negative welded to a positive assertoric ground. Six of the seven sites were fixed, not seven.
+
 **Direction.** Project lead, directly in session, 2026-09-14: state that it rests on the ruling, and fix the seven sites.
 
 **Round 7's two findings that made this necessary.** `Doc04_Round7_Review.md` — SUBSTANTIAL REVISION REQUIRED, 10 HIGH, 12 MEDIUM, 8 LOW, 3 COSMETIC.
@@ -742,3 +746,29 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 **Disposition.** **None.** Rounds 5, 6 and 7 are outstanding. **No count is asserted** — six consecutive passes asserted one and six were wrong.
 
 **Escalation check.** Representative-identity, portfolio-level, governance: do not apply. **Unresolved tensions: one open** — the evidentiary question at Open Item 6, which this thread has twice failed and should not attempt again.
+
+### 2026-09-14 (fifth) — Candidate 5 classified Supporting *provisionally*, under the Framework provision no pass had read; the gating-clause denial withdrawn as an invalid inference
+
+**Direction.** Project lead, directly in session, 2026-09-14: apply Round 8's finding.
+
+**What Round 8 found, verified at source before acting.** `Doc04_Round8_Review.md` — 9 HIGH, 12 MEDIUM, 8 LOW, 3 COSMETIC. Its central finding is that the proposition the previous pass propagated across seven sites is **false**, and the mechanism is a quotation ellipsis in this document set's own text:
+
+- §3's Cross-Check reads: *"their organizing breadth is not supported at the same level, **this candidate's own six-test profile above being narrow at best**."*
+- §3's Classification, one line later, quoted it as: *"is not supported at the same level**…** narrow at best," which is the opposite of organizing significant portions of the ecology.*
+- The ellipsis deletes seven words and **moves "narrow at best" off the six-test profile and onto organizing breadth**, converting a statement about **evidential confidence** into a **substantive denial**.
+
+**CF V7.4 forbids exactly that collapse, in a sentence no pass in eight rounds had ever quoted.** Immediately after the Cross-Check rule: *"This cross-check exists because gravity strength and evidential confidence are distinct properties that can diverge."* Verified: **zero occurrences across this entire world folder** before Round 8's review. Four separate passes quoted from that paragraph and none read the next sentence.
+
+**And the provision that actually governs this case had also never been cited.** *"Where gravity tests yield ambiguous results, developers should: acknowledge the ambiguity · classify provisionally · revisit classification as ecological reconstruction progresses · accept that some candidates may resist clean classification."*
+
+**What is now stated.** Candidate 5's six-test profile is **ambiguous** — four narrow passes, Formation not clearly passing, Persistence not passing at world level. It does not meet Primary. Against Supporting, the second sentence of the definition fits, and whether it *"organize[s] significant portions of the ecology"* is **genuinely unresolved on this document's evidence — neither established nor refuted.** That is the ambiguity the Framework anticipates, so: the ambiguity is acknowledged, the classification is **Supporting held provisionally** on the project lead's ruling, and it is **flagged for revisit at Doc_05**.
+
+**This is the first classification statement in eight rounds that is neither an over-claim nor an under-claim.** The sequence was: a non-Framework fourth label (unearned) → Tensional (quoted, never argued) → Supporting on the concession clause (a concession read as a licence) → Supporting with the gating clause denied (an invalid inference from a mis-ellipsed quotation of the document's own sentence) → **Supporting held provisionally, on the provision written for candidates whose tests come out ambiguous.** Every earlier basis is withdrawn in place rather than deleted.
+
+**Enumeration by subject, over the record.** Round 8 predicted that a propagation check enumerating *affirmative* destinations is structurally blind to sites asserting the contrary in a **superseded vocabulary**, and that such sites would survive in three places: bare provisional-classification lines, open items written in an earlier round's vocabulary, and companion records outside the file. **All three were present and all three are fixed here:** line 101's bare *"Provisional classification: Supporting."* — form-identical to seven lines that mean something quite different, now distinguished; §7 Open Item 3's *"once all three clauses… are actually run against it"*; and three HIGH findings sitting in this log, outside the previous pass's declared domain. Sites were therefore enumerated **by subject — every sentence about Candidate 5's classification or its basis, read by hand — across `Doc_04_Gravity_Discovery.md` and this log together**, not by matching the new proposition's terms.
+
+**Also fixed.** The seventh of Round 7's seven sites (§8's targeted-read entry, still asserting both withdrawn conclusions as fact) is marked. The two in-place corrections the previous pass *created* each repeated the certification it had just corrected as false three times over — that "nothing rests on either read" — and are now accurate, naming the one survival that is relied on. The third and fourth 2026-09-14 entries above carry corrections.
+
+**Disposition.** **None.** Rounds 5, 6, 7 and 8 are outstanding. **No count asserted** — seven consecutive passes asserted one and seven were wrong.
+
+**Escalation check.** Representative-identity, portfolio-level: do not apply. **Governance/methodology: Round 8 recommends opening this, for the third time of asking, on two items** — the read/apply separation, and its new **record-boundary** finding, that a pass declaring one file as its domain leaves findings in the companion record it is judged against. Both are recorded here for the project lead rather than decided by this thread. **Unresolved tensions: one open** — the evidentiary question at Open Item 6.
