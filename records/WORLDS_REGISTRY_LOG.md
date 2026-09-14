@@ -609,3 +609,31 @@ a registry reader needs quickly:
   `entry` block) is deliberately not done here, matching Cappadocian's
   own distinct SS30-SS32 sequence - held for Mark's own explicit word,
   not self-disposed.
+- **Status flip: "Built & Live," 2026-09-13.** Mark's own word, in
+  session: "yes, flip it." `cic-website/data/world-census.json`'s gallic
+  entry: `status` -> `"Built & Live"`, `chip` -> `"live"`, `glyph` ->
+  `null`, `statusWord` -> `"Open for conversation"`, `statusDescription`
+  -> `"A completed formation world, admitted to the fleet and open for
+  conversation."`, `living` -> `true` (matching registry
+  `living_tradition_flag: true`), and the `entry` block populated
+  (`representativeId: "renatus"`, `representativeName: "Renatus"`,
+  `representativeTitle: "Bishop"`, `worldName: "The Monk-Bishops of
+  Gaul"` matching registry `card_name`, `subtitle` matching registry
+  `display_name`, `color: "#8FA3AC"` - the brighter on-dark variant of
+  the accent already fixed for the portrait/frontend, matching how every
+  prior world's own `entry.color` uses its dark-ground tint rather than
+  its base hex, `tile` matching the registry's own `doorway_description`
+  verbatim, `icon: "assets/portraits/gallic.jpg"`). Verified with a
+  targeted line-level edit (not a full JSON round-trip), diff confirmed
+  scoped to only this one movement entry, 23 lines. Full gate battery,
+  `engine.m1.cross_world`, and `engine.m2.cli staleness-check` all
+  re-run clean: 0 new defects, `census-id/gallic` closed (confirmed live
+  against the real registry+census files, not assumed), all 10
+  `test_cross_world.py` tests pass including the two that had been
+  disclosed-open since Phase C. The now-fully-closed four-entry
+  `ACCEPTED_OPEN` block for gallic (`registry-null-field/
+  gallic.census_id`, `census-id/gallic`, `app-world-assets/gallic`,
+  `app-world-order/gallic`) is gone from `engine/m1/cross_world.py`
+  entirely, not left stale - the world is now fully wired end to end:
+  registry, package, portrait, census, tradition page, homepage card,
+  all agreeing.

@@ -74,19 +74,19 @@ ACCEPTED_OPEN: dict[str, str] = {
     # its M3 admission and cic-website/cic-poc wiring that this in-between
     # window was never actually exercised against these four checks before.
     # Real, disclosed, structurally expected for a world awaiting M3
-    # admission - NOT a build-thread task to close now. The frontend
-    # portrait-wiring pair (app-world-assets/gallic, app-world-order/gallic)
-    # closed 2026-09-13 once Renatus's portrait was locked and
-    # cic-poc/frontend/src/data/worlds.ts was updated; the census link
-    # itself (records/worlds.yaml census_id, world-census.json content
+    # admission - NOT a build-thread task to close now, and now fully
+    # closed: the frontend portrait-wiring pair (app-world-assets/gallic,
+    # app-world-order/gallic) closed 2026-09-13 once Renatus's portrait was
+    # locked and cic-poc/frontend/src/data/worlds.ts was updated; the
+    # census link (records/worlds.yaml census_id, world-census.json content
     # accuracy, the traditions page, the index.html homepage card) closed
-    # the same day too - removed from this dict, not left stale. One real
-    # step remains, deliberately held for Mark's own word rather than
-    # flipped here (Cappadocian precedent, CAPPADOCIAN_BUILD_LEDGER.md
-    # SS30-SS32): world-census.json's own `status` field for this entry is
-    # still "Possible Future World (on record)", not "Built & Live", so the
-    # entries below stay open until that word is given.
-    "census-id/gallic": "census_id is set and the census entry is linked (2026-09-13), but world-census.json's own `status` for gallic-monastic-ascetic-christianity is not yet 'Built & Live' - the Atlas deep link this check tests cannot resolve until that field is flipped, which this build thread is deliberately not doing unilaterally. cic-website/index.html's own new homepage card for Renatus, and the new traditions/gallic-monastic-ascetic-christianity.html page, both link to this same not-yet-resolving deep link for the same reason - staged, not yet load-bearing, until the status flip.",
+    # the same day; and the status flip itself (world-census.json's
+    # `status` -> "Built & Live", `entry` block populated) closed 2026-09-13
+    # too, on Mark's own explicit word ("yes, flip it") after the frontend
+    # card was confirmed to link to a deep link that could not yet resolve
+    # without it - matching Cappadocian's own distinct SS30-SS32 sequence.
+    # All four gallic entries this dict once carried are gone, not left
+    # stale.
 }
 
 
