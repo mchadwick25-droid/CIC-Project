@@ -9,13 +9,13 @@
 
 **Sources re-extracted and re-read directly this round:**
 
-- `L1-Foundation/CiC_L1_Constitution_V2_2.docx` — `word/document.xml` unzipped and stripped; Articles 20, 21, 22, 29 read in full
-- `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Blueprint_V7.3.docx` — §17 Living Tradition Differentiation, full confirmation procedure
-- `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` — Part I (Distinct World Criteria, Temporal Scope, Geographic/Cultural Scope, World Separation Criteria)
-- `L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1` — Sections 2 (cell definitions, Transmission dimension), 4 (Step 1 entry), 5 (Principle 5)
-- `CiC_Step0_Conclusion_FINAL_v2.docx` — extracted and searched in full (3,581 words)
+- `reference/L1-Foundation/CiC_L1_Constitution_V2_2.docx` — `word/document.xml` unzipped and stripped; Articles 20, 21, 22, 29 read in full
+- `reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Blueprint_V7.3.docx` — §17 Living Tradition Differentiation, full confirmation procedure
+- `reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` — Part I (Distinct World Criteria, Temporal Scope, Geographic/Cultural Scope, World Separation Criteria)
+- `reference/L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1` — Sections 2 (cell definitions, Transmission dimension), 4 (Step 1 entry), 5 (Principle 5)
+- `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` — extracted and searched in full (3,581 words)
 - `World-Builds/Donatism/Step0_Movement_Scope_Confirmation.md` (v3, Approved to proceed) — §0–§6 read in full
-- `Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md` — read in full
+- `Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md` — read in full
 - `World-Builds/Imperial-Juridical-Christianity/Doc_01_World_Identification_Boundaries_Orientation.md` — §1, §4 (Strand C), §6
 - `cic/corpus-map/donatism.yaml` — full file
 - `cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml` — `div2` title inventory of the anti-Donatist volume
@@ -67,7 +67,7 @@ Both defects are closed, and both halves were verified independently this round.
 
 **(a) The quotation is now character-exact and the content is now the source's own.** `Step0_Movement_Scope_Confirmation.md` §1 reads: "it is still a live problem in Gregory the Great's Register in the 590s." v3 quotes "still a live problem in Gregory the Great's Register in the 590s" — exact substring, with the subject supplied outside the quotation marks. The rebaptism specificity is no longer attributed to Step 0: it is attributed to Gregory's *Register* itself, explicitly flagged **"not yet vendored,"** and its evidentiary use is made conditional on acquisition. That is Round 2's first fix option, taken.
 
-**(b) The two documents are now correctly distinguished, and the disclaimer is true.** v3 identifies §1 as "this per-world document's own phase-scope disclosure" — which is exactly how Step 0 §1 labels it ("Phase-scope disclosure (new in v2 — Round 1 M7)"). The parenthetical claim that the portfolio-level Step 0 Conclusion "contains no Gregory material" was verified by extracting `CiC_Step0_Conclusion_FINAL_v2.docx` and searching it directly: no hit for "rebapti*", none for "590", and the only "Gregory" hits are Gregory of Nyssa and Gregory of Nazianzus in the World #5 entry. There is no Gregory-the-Great material and no rebaptism material in that document. Verified, not accepted.
+**(b) The two documents are now correctly distinguished, and the disclaimer is true.** v3 identifies §1 as "this per-world document's own phase-scope disclosure" — which is exactly how Step 0 §1 labels it ("Phase-scope disclosure (new in v2 — Round 1 M7)"). The parenthetical claim that the portfolio-level Step 0 Conclusion "contains no Gregory material" was verified by extracting `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` and searching it directly: no hit for "rebapti*", none for "590", and the only "Gregory" hits are Gregory of Nyssa and Gregory of Nazianzus in the World #5 entry. There is no Gregory-the-Great material and no rebaptism material in that document. Verified, not accepted.
 
 **Read end to end, the reworded ending-point paragraph is coherent.** The chain now runs: the contest does not end in 439 → Step 0 records it live in the 590s (cited to what Step 0 actually says) → Gregory's own correspondence would sharpen that, when acquired → what 439 *does* remove is the Roman imperial state as the Catholic-aligned adjudicating and coercing power → that is the rupture the boundary marks → the two boundaries must not be conflated. Nothing in the chain now depends on an uncheckable citation. One phrasing residue: "which — if and when that material is acquired — would be that same contest continuing" makes the historical fact conditional on acquisition rather than its *citability here* conditional on acquisition. Not graded; the meaning is recoverable and no reader would be misled.
 
@@ -119,7 +119,7 @@ v3 §6, first bullet, now quotes the passage in full and marks it as a quotation
 
 > *"#8's Cyprian is defined by crisis pastoral management within one unified communion under external persecution; #4 is defined by permanent schism into two rival hierarchies over a different, later crisis (the Diocletian-era traditor controversy), with enduring martyr-cult identity as the organizing content. External-management-within-unity versus internal-schism-into-division — different gravity, not just different century."*
 
-**Checked character-by-character against `Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md`.** Exact, including the parenthetical, the em-dash, and the sentence break. The clause Round 2 found silently dropped ("over a different, later crisis (the Diocletian-era traditor controversy), with enduring martyr-cult identity as the organizing content") is restored. The substitution of "#4" for "this world" is gone — the quotation now reproduces Coach3's own numbering rather than paraphrasing it inside quotation marks. The quotation begins at a clean clause boundary after Coach3's own colon, so no opening ellipsis is needed. No elision remains, so nothing needs marking.
+**Checked character-by-character against `Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md`.** Exact, including the parenthetical, the em-dash, and the sentence break. The clause Round 2 found silently dropped ("over a different, later crisis (the Diocletian-era traditor controversy), with enduring martyr-cult identity as the organizing content") is restored. The substitution of "#4" for "this world" is gone — the quotation now reproduces Coach3's own numbering rather than paraphrasing it inside quotation marks. The quotation begins at a clean clause boundary after Coach3's own colon, so no opening ellipsis is needed. No elision remains, so nothing needs marking.
 
 The second bullet's Coach3 quotation was re-checked too and is exact against the source ("two sides of the same imperial-religious question: #6 is the church that aligns with and juridically consolidates around state power; #4 is the church that permanently splits from the mainstream specifically in refusal of that same power."). Both bullets now handle the same source the same way — the internal inconsistency N6 named is resolved.
 
@@ -211,7 +211,7 @@ The paraphrase's "only as learned in the scriptures" is nonetheless under-inclus
 
 ### R5. (Cosmetic) The N6 fix left §6's first bullet a sentence fragment and removed the document's own-voice statement of the axis
 
-**v3 §6:** "That axis, quoted directly from Coach3's own critique (`Syriac-Build/…`): *"#8's Cyprian is defined by…"*"
+**v3 §6:** "That axis, quoted directly from Coach3's own critique (`Archive/Syriac-Build-2026-07/…`): *"#8's Cyprian is defined by…"*"
 
 Two small consequences of an otherwise correct fix. The copula is gone — v2 read "That axis… **is** external-management-within-unity versus internal-schism-into-division: …" — leaving a noun phrase, a colon, and a quotation with no main verb. And the quotation now runs to three sentences of which the axis is one, so "That axis, quoted directly from…" announces less than what follows.
 

@@ -27,7 +27,7 @@ Construction Framework discipline as every other CiC world (`cic-build-cycle`).
 ## Governing documents confirmed for this build (2026-07-17)
 
 - Vision: `Ministry/Communication/Vision, Mission, Convictions, and Foundational Commitments V1.1.docx` (read).
-- Constitution: `L1-Foundation/CiC_L1_Constitution_V2_2.docx` (read). Relevant articles for
+- Constitution: `reference/L1-Foundation/CiC_L1_Constitution_V2_2.docx` (read). Relevant articles for
   this thread: 3 (Formation-World Principle; Representative last; **No Forward-Projected
   Specificity**), 17 (five-level confidence vocabulary), 18 (Historical Locality /
   Situated Knowledge), 19 (Story/Memory; no free invention), 20 (Marginalized-voices
@@ -36,8 +36,8 @@ Construction Framework discipline as every other CiC world (`cic-build-cycle`).
   Tradition Status — **freeze-eligibility gate**), 31 (External Scholarly Review — freeze
   gate; **all AI review is "Simulated review — informational only, not an Article 31
   substitute"**), 36 (Sole-builder; deferrals documented).
-- Methodology (binding): `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.3.docx`
-  and `CiC_L3B_Formation_World_Blueprint_V7.3.docx`; `L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx`.
+- Methodology (binding): `reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.3.docx`
+  and `CiC_L3B_Formation_World_Blueprint_V7.3.docx`; `reference/L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx`.
 - Rigor/format model followed: `World-Builds/Syriac-Christianity-Edessa-Nisibis/`.
 
 **Current step sequence (Framework V7.3, Part VII), confirmed against the Framework text

@@ -68,7 +68,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches both the Level-3 card and the compiled prompt's quote index",
     "ui-field-leak/desert": "F-10 - desert.figure.evagrius names a record id (desert.source.evagrius-praktikos) and a build document (Doc_01) inside figure.dates, and desert.figure.pachomius says 'not independently adjudicated by this build' - all three printed verbatim by the doorway's Level-3 panel",
     "figure-dates-keys/don": "F-04-analogue - all 24 don figure records key figure.dates as `display`, the same pattern and the same reason as figure-dates-keys/cappadocian above: this world's own dating is pervasively contested or multi-clause (two Marcellinuses roughly a century apart, three Felixes, disputed Passio dating with two vendored authorities disagreeing by over two decades) and does not reduce to born/died/floruit without losing the disclosed uncertainty itself. Same disclosed-not-fixed disposition, found compiling the world rather than wiring a portrait - belongs to a don build thread, not a mass rewrite improvised here.",
-    "app-world-assets/don": "Record-native compilation, 2026-09-10: Phase C deployment wiring (app/world_manifest.py, WORLD_ASSETS, frontend hand-sync points) was never in scope for the record-native compile (Phase B) this entry covers - it is the next, separate phase per Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md SS4, and belongs to whoever picks up Donatism's own go-live work.",
+    "app-world-assets/don": "Record-native compilation, 2026-09-10: Phase C deployment wiring (app/world_manifest.py, WORLD_ASSETS, frontend hand-sync points) was never in scope for the record-native compile (Phase B) this entry covers - it is the next, separate phase per reference/method/CiC_Record_Native_World_Build_Process_V1_3.md SS4, and belongs to whoever picks up Donatism's own go-live work.",
     "app-world-order/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
     "site-portrait/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - the traditions/donatism.html portrait page is deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
 }
@@ -457,11 +457,15 @@ def check_package_pinned(*, registry, worlds, **_) -> list[Finding]:
 # stage 2: the registry against the Atlas census (the other surface)
 # --------------------------------------------------------------------------
 
-def _census_live_entries() -> dict[str, dict]:
+def _census_entries() -> dict[str, dict]:
     if not CENSUS_PATH.is_file():
         return {}
     census = json.loads(CENSUS_PATH.read_text(encoding="utf-8"))
-    return {m["id"]: m for m in census.get("movements", []) if m.get("status") == "Built & Live"}
+    return {m["id"]: m for m in census.get("movements", [])}
+
+
+def _census_live_entries() -> dict[str, dict]:
+    return {k: m for k, m in _census_entries().items() if m.get("status") == "Built & Live"}
 
 
 def check_census_link(*, registry, worlds, **_) -> list[Finding]:
@@ -472,15 +476,22 @@ def check_census_link(*, registry, worlds, **_) -> list[Finding]:
     entry is a deep link that can never match - the participant lands on the
     world list instead of the world they clicked."""
     findings = []
+    entries = _census_entries()
     live = _census_live_entries()
     if not live:
         return [_defect("census-file", "fleet", f"no Built & Live entries readable at {CENSUS_PATH}")]
     for w in worlds:
         cid = registry[w].get("census_id")
+        # The app lists admitted/open worlds only (Settings.enforce_admission), so only
+        # those need a live card today; a built-not-admitted world needs its entry to
+        # exist so the link matches the day admission flips the card.
+        listed = registry[w].get("state") in ("admitted", "open")
         if not cid:
             findings.append(_defect("census-id", w, "census_id is unset - the Atlas deep link for this world can never match, and it falls through to the world list"))
-        elif cid not in live:
+        elif listed and cid not in live:
             findings.append(_defect("census-id", w, f"census_id {cid!r} is not a 'Built & Live' entry in world-census.json"))
+        elif not listed and cid not in entries:
+            findings.append(_defect("census-id", w, f"census_id {cid!r} has no entry in world-census.json - the deep link cannot match at admission"))
     claimed = {registry[w].get("census_id") for w in worlds}
     for cid in sorted(set(live) - claimed):
         findings.append(_defect("census-orphan", cid, "census entry is marked 'Built & Live' but no registry world claims it"))

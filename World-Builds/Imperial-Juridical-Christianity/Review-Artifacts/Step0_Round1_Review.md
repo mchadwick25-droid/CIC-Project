@@ -30,7 +30,7 @@ The original Finding 1 claimed Section A gives no instruction for telling apart 
 
 ### 4. [MODERATE] World #5 adjacency presented as "identified fresh" when a specific prior treatment already exists, uncited
 
-`Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md` (filed 2026-07-06, roughly two weeks before this draft, tracked in this repository's git index — independently re-verified to exist and to contain the quoted passage before accepting this finding) already ran this exact pairwise comparison and reached a sharper, specific conclusion. Both analyses agree on the bottom line (distinct), so the outcome doesn't change, but "identified fresh" overstated the novelty and the citation should have existed.
+`Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md` (filed 2026-07-06, roughly two weeks before this draft, tracked in this repository's git index — independently re-verified to exist and to contain the quoted passage before accepting this finding) already ran this exact pairwise comparison and reached a sharper, specific conclusion. Both analyses agree on the bottom line (distinct), so the outcome doesn't change, but "identified fresh" overstated the novelty and the citation should have existed.
 
 **Status: FIXED.** §3/§4 now cite and quote the actual source, crediting it rather than re-deriving a thinner version.
 

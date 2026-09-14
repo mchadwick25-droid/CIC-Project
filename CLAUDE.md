@@ -20,7 +20,7 @@ This program succeeds or fails on exactly two things: scholarly rigor and clear,
 
 ## Accessible and rigorous — participant-facing content
 
-- The target, as a principle to write toward — not a script this file runs: **CEFR B2 / Flesch-Kincaid grade 8–10, Flesch Reading Ease ≥ 60**, in the register of BBC News or National Geographic — serious, adult, vivid, clear, readable by a non-native speaker without simplifying the substance. Treat grade 8 as a floor worth staying above, not a target to hit exactly — too-simple isn't the risk this guards against; flattening the world's own voice is. The actual per-turn scoring and hard-fail enforcement of this live in the engineering (`phase2_checkpoint.py`, the NorthStar decision) — full detail in `Ministry/Technology/Pass2/decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md` and `VR_1A_Writing_Standard_2026-08-09.md`.
+- The target, as a principle to write toward — not a script this file runs: **CEFR B2 / Flesch-Kincaid grade 8–10, Flesch Reading Ease ≥ 60**, in the register of BBC News or National Geographic — serious, adult, vivid, clear, readable by a non-native speaker without simplifying the substance. Treat grade 8 as a floor worth staying above, not a target to hit exactly — too-simple isn't the risk this guards against; flattening the world's own voice is. The actual per-turn scoring and hard-fail enforcement of this live in the engineering (`phase2_checkpoint.py`, the NorthStar decision) — full detail in `reference/method/Pass2-decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md` and `VR_1A_Writing_Standard_2026-08-09.md`.
 - Three things have to hold together, never traded against each other: **accessible** (the reading-level target above), **distinctive** (the world's own imagery, convictions, and flavor survive — clear but generic has failed differently, not better), and **held** (zero fabrication, doesn't cave or go hollow under real pushback).
 - Practical shape: short sentences (roughly 12–20 words average), one idea per paragraph (1–4 sentences), technical terms introduced before they're used naturally, active voice and concrete verbs over passive and nominalizations, no unnecessary Greek/Latin, nothing nested or running past ~25 words. Uncertainty is stated plainly rather than hedged into vagueness, and evidence is shown naturally ("we believe this because...") rather than argued at length. Precise language beats impressive language — say the complex idea plainly rather than trading it for a simpler one. Not simplifying the scholarship; lowering the barrier to entering it.
 - A Representative's hedge language is emic, not etic — a world's own way of naming its own uncertainty, not the generic academic phrasing ("historians disagree") that a Facilitator, speaking from outside every world, may use directly.
@@ -45,13 +45,16 @@ This program succeeds or fails on exactly two things: scholarly rigor and clear,
 
 The following are **live and used by the program, or are canonical build output**. They contain only what runs the program or constitutes the finished record — no notes, commentary, change history, review discussion, or process narration embedded in them:
 
-- `engine/`, `cic/engine/` — the core engine
-- `records/`, `packages/`, `canon/`, `cic/corpus-map/`, `cic/texts/` — structured world data and compiled build output
-- `world-build-docs/` — the canonical construction documents (Doc_01–Doc_09 per world) once approved to proceed
+- `engine/`, `cic/engine/` — the core engine and the corpus tools
+- `records/`, `packages/`, `canon/`, `fixtures/` — structured world data, compiled build output, sealed probes, the fixture world
+- `cic/texts/`, `cic/corpus-map/` — the Library: vendored source editions and the map of which works belong to which tradition
+- `cic-poc/frontend/`, `cic-website/` — the participant-facing app and the public site; what Render and Cloudflare serve
+- `World-Builds/` — the canonical construction documents (Doc_01–Doc_09 per world, their reviews, chunks and Representative) once approved to proceed; `world-build-docs/` — each world's indexes, build log and source manifests, and the fleet-level `_cross-world/` documents. (These two merge into `worlds/<code>/` in the cleanup's phase 2.)
+- `reference/` — the method and spec library: the Level documents, the Redesign-Spec, the current-era method documents, the fleet-voice exemplar. Read constantly, edited rarely; a template exists once, here.
 
-Notes, decision logs, audit trails, adversarial-review rounds, status reports, and strategy discussion belong in `Ministry/` (e.g. `Ministry/Operations/Audits/`, the various `*_Decision_Log.md` files) — never inline in the files listed above. If you find commentary, changelog cruft, or leftover process notes in a live/canonical file, treat that as corruption: remove it, don't add to it.
+Notes, decision logs, audit trails, adversarial-review rounds, status reports, and strategy discussion belong in `Ministry/` (e.g. `Ministry/Operations/Audits/`, the various `*_Decision_Log.md` files) — never inline in the files listed above. If you find commentary, changelog cruft, or leftover process notes in a live/canonical file, treat that as corruption: remove it, don't add to it. Superseded material goes to `Archive/`; nothing is deleted without instruction.
 
-(This categorization is inferred from the repo layout — correct it if something's miscategorized.)
+The root `README.md` is the map of the whole tree — every top-level entry, its kind, and what reads it. This list follows the map; if they disagree, fix the map first (and log it in `Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`), then this list.
 
 ## Track gaps and exceptions explicitly — don't let them go quiet
 

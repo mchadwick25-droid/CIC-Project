@@ -32,8 +32,8 @@ Separately, the document does not run two of Part I's own required criterion set
 
 Nothing was taken on the document's own word. Every claim below was re-derived from primary artifacts in this session:
 
-- **Governing text, re-extracted from `.docx` directly:** `L1-Foundation/CiC_L1_Constitution_V2_2.docx` (Articles 3, 4, 15, 20, 21, 22, 23, 29 read in full from the extracted XML) and `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` (Part I criterion sets and the Step 1 entry read in full). `Archive/Superseded-Housekeeping/Forces_Framework_v1.docx` Section 4 Step 1 entry and the Layer 1–3 definitions.
-- **The live `cic-build-cycle` (CO-022) skill**, extracted from `cic_build_cycle_co022.skill`.
+- **Governing text, re-extracted from `.docx` directly:** `reference/L1-Foundation/CiC_L1_Constitution_V2_2.docx` (Articles 3, 4, 15, 20, 21, 22, 23, 29 read in full from the extracted XML) and `reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` (Part I criterion sets and the Step 1 entry read in full). `Archive/Superseded-Housekeeping/Forces_Framework_v1.docx` Section 4 Step 1 entry and the Layer 1–3 definitions.
+- **The live `cic-build-cycle` (CO-022) skill**, extracted from `Archive/Superseded-Housekeeping/cic_build_cycle_co022.skill`.
 - **This world's own Step 0** in full, and all of its §4 carry-forward items 1–8 traced individually against Doc_01.
 - **`World-Builds/Imperial-Juridical-Christianity/Doc_01_...md`** in full (its §4 strand reasoning, its §6, and its §8 disposition), plus **IJC's Step 0 §4 item 3** and **IJC's `Open_Gaps_Tracking.md` item 16** read at source.
 - **`World-Builds/Hieronymian-Ascetic-Literary/hal_Doc_01_...md`** in full, §8.1 and §0 in particular.

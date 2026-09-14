@@ -18,7 +18,7 @@ This is not a preference call. It is the exact discipline the project's own anti
 
 ### 1. The governing template requires this, explicitly
 
-`L4-Templates/Deployment_Lexicon_Chunk_Template.md`, Key Sources section (line 160–162), the instruction every world's lexicon chunks are built against:
+`reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md`, Key Sources section (line 160–162), the instruction every world's lexicon chunks are built against:
 
 > *"If a source carries Author Gravity risk — if it dominates the evidence for this term — note it: 'Note: \[source] dominates the surviving evidence for this term's usage; see Author Gravity Assessment in Doc_01.'"*
 

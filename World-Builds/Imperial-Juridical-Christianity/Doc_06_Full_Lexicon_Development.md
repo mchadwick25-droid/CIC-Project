@@ -3,7 +3,7 @@
 **Status:** Cleared review (Round 3, CLEARED) — Approved to proceed, self-disposed by this build thread per `cic-build-cycle` (no escalation category applies beyond the disclosed Open Item 4; see Disposition). Not Frozen — Frozen requires the project lead's own considered review and is never self-assigned by a build thread.
 **World file-code:** `ijc` — formally assigned here, at Step 6, per this project's own established convention (see `World-Builds/Syriac-Christianity-Edessa-Nisibis/Open_Gaps_Tracking.md` item 4: the code is assigned at Doc_06, not retroactively claimed at Step 1, where it was used only provisionally throughout this build's own earlier documents).
 **Date drafted:** 2026-07-20
-**Governed by:** Construction Framework V7.4 DRAFT Part III Lexicon Development section; Interpretive Lexicon Development Framework V2.0/2.1; `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0; Constitution V2.3 Articles 26, 30.
+**Governed by:** Construction Framework V7.4 DRAFT Part III Lexicon Development section; Interpretive Lexicon Development Framework V2.0/2.1; `reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0; Constitution V2.3 Articles 26, 30.
 **Companion outputs:** `Lexicon-Chunks/` (twelve per-term deployment chunk files, one per Doc_03 candidate, following the L4 Chunk Template exactly) and `Lexicon_Deployment_Index.md` (the master index, built alongside the chunks per `anthropic-skills:cic-lexicon-index`).
 
 ---
