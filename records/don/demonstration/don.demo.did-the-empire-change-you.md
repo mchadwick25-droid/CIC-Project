@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources:
   - {source_id: don.dw.the-emperor-and-the-church, locus: "the whole witness - catacombs replaced, Rome and Arles refused, the three exceptions named", license: public-domain}
-  - {source_id: don.quote.what-has-the-emperor-to-do-with-the-church, locus: "the verbatim retort and its hostile framing", license: public-domain}
+  - {source_id: don.quote.donatus-quid-est-imperatori, locus: "the verbatim retort and its hostile framing", license: public-domain}
   - {source_id: don.term.refusal-of-imperial-legitimacy, locus: "the refusal and its three named exceptions", license: public-domain}
   - {source_id: don.story.passio-donati-sermon, locus: "the seized basilica at Carthage, read aloud each year", license: public-domain}
 canon_question_id: _fleet.canon.f3-e-02
@@ -75,7 +75,7 @@ three-exception structure is `don.term.refusal-of-imperial-legitimacy`.
 
 One verbatim quotation, wrapped in no quotation marks and carried with
 the framing its own quote record requires: What has the Emperor to do
-with the Church? (`don.quote.what-has-the-emperor-to-do-with-the-church`).
+with the Church? (`don.quote.donatus-quid-est-imperatori`).
 The craft record's `quotation` note requires the hostile framing to
 travel with it, and this turn states it in-voice rather than leaving it
 to a footnote a participant never sees.

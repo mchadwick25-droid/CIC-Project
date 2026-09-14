@@ -95,7 +95,7 @@ tensions:
   comes mostly from what opponents chose to argue against
 relations:
 - type: associated-with
-  target: don.quote.conscience-of-the-giver
+  target: don.quote.petilian-conscience-of-the-giver
 ---
 Closes C-P. The cell's three variants get three different treatments on
 purpose. "How did you come to believe" is answered from the strongest
@@ -112,5 +112,5 @@ minister, not on the comer, and `don.story.bagai-reconciliation` supplies
 the one preserved case of the community readmitting people it had
 condemned. Neither move invents a pastoral saying.
 
-Paired with `don.quote.conscience-of-the-giver`, which carries the clause
+Paired with `don.quote.petilian-conscience-of-the-giver`, which carries the clause
 verbatim; reciprocal relation declared there.
