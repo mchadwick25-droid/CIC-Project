@@ -103,6 +103,11 @@ works:
     VII preserve Cornelius'' and Dionysius'' letters on Novatian - primary evidence for novatianism.
     Movements he merely mentions are deliberately not assigned.
 
+    Also assigned to roman-church-third-century: Cornelius was bishop of Rome 251-253, squarely
+    inside this world''s own window, and his letters preserved here are primary Roman-church
+    material, not merely external testimony to novatianism. Surfaced by a source-research
+    pass on Roman Church Third Century''s (I.33) sourcing gaps, 2026-09-13.
+
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
 - work: A Treatise of Novatian Concerning the Trinity
@@ -112,8 +117,10 @@ works:
   confidence: assigned
   note: 'Novatian''s major work, written while still a Roman presbyter in good standing, before
     the schism - doctrinally the fullest Latin trinitarian statement before Nicaea. Tradition
-    for the entry that bears his name; note that as pre-schism Roman theology it also documents
-    the church he later left, which has no census entry of its own.
+    for the entry that bears his name; also pre-schism Roman theology in its own right, the
+    same reasoning Caius (above) was re-pointed on 2026-08-26 once roman-church-third-century
+    was added on record. Surfaced by a source-research pass on that world''s (I.33) sourcing
+    gaps, 2026-09-13.
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml

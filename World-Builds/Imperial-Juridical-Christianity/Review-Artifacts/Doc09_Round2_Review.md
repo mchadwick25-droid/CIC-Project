@@ -129,7 +129,7 @@ This exact inline pattern — a correction parenthetical citing `Open_Gaps_Track
 
 **Validation Layer §2's parenthetical list of six document-specific errors**, independently checked against each document's own Disposition/revision history: Doc_01's "chronology error" (the 451-vs-476 arithmetic error), Doc_02's "source-provenance error" (the *Dissertatio Maximini* misidentification), Doc_04's "misapplied methodology test" (the Interaction Test inversion), Doc_05's "factual overstatements," Doc_07's "factual overstatements," and Doc_08's "misattached quotation" (the Force 3A-1/3B-1 quote) all match their respective documents' own disclosed revision histories exactly.
 
-**Validation Layer §4 Differentiation Testing's `Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md` attribution**, re-checked against Doc_01's own Open Gaps entry — matches exactly for both the World #5 and World #4 comparisons.
+**Validation Layer §4 Differentiation Testing's `Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md` attribution**, re-checked against Doc_01's own Open Gaps entry — matches exactly for both the World #5 and World #4 comparisons.
 
 **Story Inventory §4's Registry-row Native-status claim** (Rows 2, 3, 4, 7, 8, 11, 12, 13, 22), re-checked row by row directly against `Source_Registry.md` — every one of the nine rows is independently confirmed Boundary Status "Native."
 

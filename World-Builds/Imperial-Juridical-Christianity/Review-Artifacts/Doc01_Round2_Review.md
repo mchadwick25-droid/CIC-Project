@@ -12,7 +12,7 @@ Marking per Constitution Article 31: Simulated review — informational only, no
 
 1. **Strand Determination rebuild — FIXED, and sound.** The Step 0 three-strand hypothesis is now quoted and engaged directly (verified verbatim against `Step0_Movement_Scope_Confirmation.md`). Eusebius's *Life of Constantine* 4.24 "bishop of those outside" claim is historically accurate and appropriately hedged (Documented as text, Contested as to meaning) — one soft observation noted (the quote concerns the emperor's own hybrid authority, not directly a bishop's rank-by-proximity, making the "theological seed" connection to Strand B a slightly loose bridge, not a factual error). Ambrose's authority grounding (sacramental/moral leverage, not Petrine succession, "emperor within the Church, not over it" paraphrasing *Sermo contra Auxentium*) is historically accurate and correctly left unquoted. Strand C's non-persistence to 451 is honestly stated and defensible against Article 21's actual text (tests for a meaningfully distinct pattern, not persistence through the full span).
 2. **Arithmetic fix — FIXED.** 410 < 451 < 476 now holds without a false specific-year claim.
-3. **Donatism sourcing — FIXED.** Quote verified verbatim against `Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md` directly.
+3. **Donatism sourcing — FIXED.** Quote verified verbatim against `Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md` directly.
 4. **Canon 3 quotation — FIXED.** No longer presented as verbatim; Percival/NPNF "prerogative of honor" rendering independently confirmed accurate.
 5. **§1/§6 tension — FIXED.** Claim narrowed, explicit cross-reference added, no remaining contradiction.
 

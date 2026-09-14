@@ -7,11 +7,11 @@
 
 - `World-Builds/Donatism/Step0_Movement_Scope_Confirmation.md` (v3, Approved to proceed)
 - `World-Builds/Imperial-Juridical-Christianity/Doc_01_World_Identification_Boundaries_Orientation.md` (cleared, Approved to proceed)
-- `Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md`
-- `CiC_Step0_Conclusion_FINAL_v2.docx` (extracted from `word/document.xml`)
-- `L1-Foundation/CiC_L1_Constitution_V2_2.docx`, Articles 3, 20, 21, 22, 23, 29 (extracted from `word/document.xml`)
-- `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` (Part I, Step 0, Step 1, Freeze Criteria)
-- `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Blueprint_V7.3.docx` (Living Tradition Status; §17)
+- `Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md`
+- `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` (extracted from `word/document.xml`)
+- `reference/L1-Foundation/CiC_L1_Constitution_V2_2.docx`, Articles 3, 20, 21, 22, 23, 29 (extracted from `word/document.xml`)
+- `reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` (Part I, Step 0, Step 1, Freeze Criteria)
+- `reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Blueprint_V7.3.docx` (Living Tradition Status; §17)
 - `CiC_L3A_Forces_Framework_V1.1` (Sections 2, 3, 4, 5)
 - `World-Builds/Donatism/Review-Artifacts/Step0_Round2_Review.md`, `Step0_Round3_Review.md`
 - `World-Builds/Syriac-Christianity-Edessa-Nisibis/Open_Gaps_Tracking.md` (item 10)
@@ -97,7 +97,7 @@ Worse, **"independently attested" is a term of art in this build.** Step 0 §2 A
 
 **Two separate defects.**
 
-**(a) "G4 in this build's own launch process" does not exist.** There is no "launch process" with numbered gates anywhere in this project's governing documents. Construction Framework V7.4's Freeze Criteria name their gates descriptively, not numerically — "Living Tradition Status confirmed where applicable (Article 29 — freeze-eligibility gate)", "(Record Integrity Principle — freeze-eligibility gate, new in V7.4)", "(Source Registry Template — freeze-eligibility gate, new in V7.4)". In this repository, `G1`–`G6` are **gravity identifiers** inside Doc_04 (`records/hal/gravity/…`, `Ministry/Technology/Pass2/…`) and **item identifiers** inside per-world `SOURCE-REQUEST-MANIFEST.md` files (`alx` G1, `desert` G1). Nothing numbers a gate.
+**(a) "G4 in this build's own launch process" does not exist.** There is no "launch process" with numbered gates anywhere in this project's governing documents. Construction Framework V7.4's Freeze Criteria name their gates descriptively, not numerically — "Living Tradition Status confirmed where applicable (Article 29 — freeze-eligibility gate)", "(Record Integrity Principle — freeze-eligibility gate, new in V7.4)", "(Source Registry Template — freeze-eligibility gate, new in V7.4)". In this repository, `G1`–`G6` are **gravity identifiers** inside Doc_04 (`records/hal/gravity/…`, `Archive/Technology-Pass2-2026-08/Pass2/…`) and **item identifiers** inside per-world `SOURCE-REQUEST-MANIFEST.md` files (`alx` G1, `desert` G1). Nothing numbers a gate.
 
 This is the **same finding, in the same build, one document earlier**. Step 0 Round 2 N3 flagged "an invented definition of a repository term attributed to 'the launch process'"; Step 0 v3 withdrew it; Step 0 Round 3 independently re-verified the negative and recorded it explicitly: *"Framework V7.4's named gates are all freeze-eligibility gates (Article 29 Living Tradition, Record Integrity, Source Registry) — there is no gate called G1 anywhere."* Reintroducing the same invented artefact with a different number, in the next document of the same build, after that verification, is a worse instance than the original.
 
@@ -353,7 +353,7 @@ Stated plainly, because it is most of the document.
 - IJC Doc_01 §6 does credit Coach3 for this pairing, exactly as §6 claims.
 - Step 0 §4 items 1, 2, 3, 5 and the acquisition note are carried accurately into §7 items 1, 2, 3, 4 and 6, including the three named acquisition targets.
 - The phase-scope disclosure (Step 0 §1) is accurately represented and, importantly, is **not** strengthened: §2's insistence that the world's window and the movement's actual persistence "are distinct and must not be conflated" is exactly what Step 0 asked Doc_01 to do.
-- The Article 3 standing question is represented as unresolved and is quoted accurately in substance — re-verified against `CiC_Step0_Conclusion_FINAL_v2.docx` directly, which reads: "Article 3 (Formation-World Principle) requires 'sufficient historical coherence' but does not define whether a formation-type may recur across a temporal gap with a rival claimant contesting the interval (Cyprian/Augustine, with Donatism in between)... Logged as a standing interpretive question, likely to recur." (H4 concerns where the draft routes it, not how it states it.)
+- The Article 3 standing question is represented as unresolved and is quoted accurately in substance — re-verified against `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` directly, which reads: "Article 3 (Formation-World Principle) requires 'sufficient historical coherence' but does not define whether a formation-type may recur across a temporal gap with a rival claimant contesting the interval (Cyprian/Augustine, with Donatism in between)... Logged as a standing interpretive question, likely to recur." (H4 concerns where the draft routes it, not how it states it.)
 - No claim attributed to Step 0 was found paraphrased into something stronger or different, and nothing Step 0 settled is reopened. §1 and §6 adopt the World #6 finding rather than re-deriving it, which is precisely what Step 0's own H3 correction demanded.
 
 **Window consistency:** checked section by section. Nothing in §§1–8 slips back into treating 451, or "the movement's full history," as this world's own boundary. §2's Historical Pressures and Catalysts stay inside 312–439; §4's strand material is in-window; §5's Cell 3B explicitly excludes post-439 production; §1's 590s and 698 references are framed as beyond the window (M6 concerns the 698 claim's evidentiary basis, not a boundary slip). This was a real risk and the draft handles it.

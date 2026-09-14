@@ -6,7 +6,7 @@
 **Build track:** Recovered from `origin/CiC-Fable-Cappadocian` (2026-08-30), revised in place under CF V7.4 after independent adversarial review found the original (built under V7.3, single autonomous Fable run) had fifteen blocking defects. This revision keeps everything the review did not challenge and rewrites what it did; see `CAPPADOCIAN_BUILD_LEDGER.md` §5 for the review record.
 **Step:** 1 of 10 (Construction Framework V7.4, Part VII)
 **Governed by:** Construction Framework Parts I–II; Forces Framework; Constitution Articles 20, 21, 22.
-**Step 0 seed:** this world is seed #5 of the Step-0 portfolio (`CiC_Step0_Conclusion_FINAL_v2.docx`), selected 2026-08-30 for recovery-and-audit per the Record-Native World Build Process V1.2's own instruction (a substantially built orphan takes priority over an unbuilt candidate).
+**Step 0 seed:** this world is seed #5 of the Step-0 portfolio (`reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx`), selected 2026-08-30 for recovery-and-audit per the Record-Native World Build Process V1.2's own instruction (a substantially built orphan takes priority over an unbuilt candidate).
 **Status:** Revised, one independent review round complete on the prior version; this revision itself awaits its own review round before Doc_01 can be treated as cleared. All citations remain unverified against acquired primary texts — see `cappadocian_G1_Scope_and_Source_Acquisition_Manifest.md` for acquisition status. Historical corrections below rest on the reviewing and revising models' own training knowledge, not on checked editions; several are flagged for confirmation once the manifest's texts are downloaded.
 
 ---

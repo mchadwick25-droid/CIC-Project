@@ -340,3 +340,118 @@ one-hour check-in trigger, both no longer needed once merged.
 *and merge* its own PRs for mechanical/non-judgmental fixes, once all required status
 checks are green and there's no merge conflict — no per-PR check-in with Mark needed
 for that merge step going forward.
+
+---
+
+## 2026-09-10 — Same paths-filter permissions bug recurred on PR #155; two competing
+## fixes for the Actions-minutes problem now open in parallel
+
+**PR #144** (`claude/website-v2-sandbox`, Mark's own branch, still open) was this
+thread's earlier fix for the Actions-minutes-exhaustion problem: a single `changes`
+gating job using `dorny/paths-filter@v3`, skipping 12 engine-touching jobs + Docker
+build on non-engine changes. Root cause of that job's own first failure — missing
+`pull-requests: read` (the default `GITHUB_TOKEN` only grants
+`contents`/`metadata`/`packages: read`, and `dorny/paths-filter@v3` calls the GitHub
+API's `listFiles` on `pull_request` events, not a local diff) — diagnosed and fixed
+2026-09-09 (commit `d683c9ae`), confirmed working.
+
+**This sweep found PR #155** (`claude/ci-minutes-path-filter`, also Mark's own
+account), opened independently overnight to fix the *same* Actions-minutes problem
+with a *different* architecture: per-job path filters on all 13 existing jobs directly
+(via the same `changes` output job), rather than one shared gate. Its own `changes`
+job failed on its first CI run with the identical signature: `##[error]Resource not
+accessible by integration` from the same `listFiles` call, same missing scope — no
+`permissions:` block at all on that job. Confirmed via job logs before touching
+anything (`GITHUB_TOKEN Permissions: Contents: read / Metadata: read / Packages:
+read`, then the same error immediately after the `listFiles` invocation) — not
+assumed from the title match alone.
+
+**Fixed directly**, same pattern as #144: added an explicit `permissions: {contents:
+read, pull-requests: read}` block to the `changes` job (an explicit block replaces the
+default grant entirely, so `contents: read` — needed by `actions/checkout` — has to be
+restated, not just the new scope). Pushed to `claude/ci-minutes-path-filter`, commit
+`bf422313`. Mechanical, non-judgmental, matches the established fix for an
+already-diagnosed bug — no reason to withhold it pending Mark's read on the point
+below.
+
+**Flagging to Mark, not resolving myself:** #144 and #155 are now two independent,
+unmerged PRs solving the same problem with two different architectures (one shared
+gating job vs. per-job filters), both touching `.github/workflows/ci.yml`, both now
+CI-green at the infra level. Merging both would conflict; only one should land. Which
+one to keep — and whether to close or rebase the other — is a project-lead call, not
+this thread's to make unilaterally. Surfaced directly to Mark in-session rather than
+guessing.
+
+**Resolved same session.** Mark closed #144 without merging and merged #155 himself
+(`bc908d16`) — #155's per-job architecture is the one kept. Also explains the
+"Workers Builds: cic-project" check that failed on #155's own commit and that this
+thread flagged as undiagnosable without dashboard access: Mark had suspended the
+Cloudflare Workers Build integration directly, not a real build defect. **Standing
+note:** this thread does not call Cloudflare directly — its check-runs and
+deploy-preview comments arrive from Cloudflare's own GitHub App integration — but per
+Mark's direction, treat that integration as suspended: don't chase a red or missing
+Cloudflare Workers Build check as a finding in any sweep until Mark says otherwise.
+
+---
+
+## 2026-09-13 — Full sweep on request: every build/live/run file, not just the diff
+## since last sweep
+
+**Mark asked directly** for a full corruption/notes/comments/cost/complexity sweep of
+all active files, not the routine incremental-since-last-sweep check this thread
+normally runs. Scoped to four parallel read-only audits: `engine/` + `cic/engine/`
+(the running Python backend), `cic-poc/frontend/` + `cic-website/` (the live UI and
+site), `records/` + `canon/` + `cic/corpus-map/` (structural/parse integrity only, no
+content judgment), and `World-Builds/` + `world-build-docs/` final deliverables
+(document-hygiene watch, full file set this time instead of just the delta). Findings
+compiled into an Artifact ("Sweep Ledger") and put to Mark directly rather than acted
+on unilaterally, since most of what came back needs either his judgment call or
+belongs to another thread's own domain.
+
+**Clean, confirmed not assumed:** `engine/`+`cic/engine/` (271 files) and
+`cic-poc/frontend/`+`cic-website/` — zero corruption, zero stray debug/TODO/LLM-tell
+content in either. `records/`+`canon/`+`cic/corpus-map/` (1,853 files) — 0 YAML/JSON
+parse failures, 0 merge-conflict markers, 0 duplicate record IDs or keys, every
+worlds.yaml package pin and census_id resolves. `.github/workflows/ci.yml`,
+`engine/Dockerfile`, `render.yaml`, `wrangler.jsonc` — dense with commentary but
+every line explains a real constraint, nothing stray.
+
+**Found, not yet acted on (Mark's call, per the Ledger):**
+1. **134 of 143 tracked `packages/**/manifest.json` files are orphaned** (only 9 are
+   pinned by worlds.yaml) — the exact accumulation pattern the repo's own .gitignore
+   already documents and tells sweeps to clean up. Orphan list computed and verified.
+   Tried `git rm` on all 134 — **blocked by this session's own auto-mode classifier**
+   ("Irreversible Local Destruction"), not by anything about the change itself.
+   Recoverable from git history regardless; not routing around the gate. Needs Mark's
+   explicit go-ahead or his own `git rm` to actually clear.
+2. **~50 files across Alexandria, Syriac, Donatism, and Cappadocian's Doc_01–09
+   deliverables carry embedded review/revision-log narrative** — a real violation of
+   CLAUDE.md's "keep the canonical surfaces clean" rule, but substantive prose in
+   documents this thread didn't write and doesn't have standing to silently edit.
+   Recommended routing to each world's own build-cycle thread rather than a unilateral
+   strip pass.
+3. **One truncated file**:
+   `World-Builds/01-Post-Apostolic-House-Church/Doc09_Story_Chunks/pahcstory009_two-ways-catechumen.md`
+   cuts off mid-word at EOF. This thread has no access to the real ending — flagged to
+   the pahc world thread to restore, not something to guess at.
+4. **cic-website/ cost/complexity bundle**: ~2MB of dead JSON data (project's own
+   decision log already admits `world-census.json` isn't rendered anywhere),
+   `tour.html` unreachable from site nav (confirmed, not guessed), ~3.4MB of
+   byte-identical portrait images duplicated across `cic-poc/frontend/` and
+   `cic-website/`, one 1.1MB image rendered at 72×72px, movement/census data
+   triplicated with a documented manual-sync requirement, and shared CSS tokens
+   redeclared inline on ~14 of ~20 pages instead of using the one stylesheet that
+   already exists. The dead data, the unreachable page, and one duplicate helper
+   function are zero-risk deletes; the image sizing, CSS architecture, and data-sync
+   questions are real design calls that belong with the frontend/product thread, not
+   this one.
+5. **`cic/corpus-map/cyrilline-miaphysite-egyptian-christianity.yaml` vs.
+   `...-tradition.yaml`** — two buckets for what the data's own note calls a
+   near-duplicate census id, self-flagged as needing "a single ruling on which of the
+   two carries corpus." Routed to the Library Build Engine thread, which owns
+   `cic/corpus-map/`.
+
+**Next action:** none from this thread until Mark responds to the five decisions in
+the Ledger. Nothing was edited in `records/`, `canon/`, `World-Builds/`,
+`world-build-docs/`, `cic-website/`, or `cic-poc/frontend/` this sweep — every finding
+above is reported, not applied.

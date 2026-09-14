@@ -29,6 +29,14 @@
  * sense where they're placed"):
  *   - story/quote sources get their own inline mark (StoryMark), right
  *     where the generic citation mark used to sit.
+ *   - doctrinal_witness sources get their own inline mark too
+ *     (WitnessMark, added 2026-09-09) - same reasoning, different copy: a
+ *     witness sentence is the build's own reviewed synthesis of real
+ *     sources, not a story or a verbatim quote, and reads as freely
+ *     generated when its sourcing only shows up in the collapsed
+ *     end-of-turn list (Mark's own live catch - a load-bearing synthesis
+ *     line he'd approved on review read, months later, as an ungrounded
+ *     AI tell, because nothing inline said otherwise).
  *   - a term/figure source already carrying a word-level mark ANYWHERE
  *     EARLIER IN THIS TURN is not marked again - the word itself is the
  *     mark, so a General-Reference entry for the same id later in the
@@ -37,19 +45,20 @@
  *     already accumulates into - not a second, segment-scoped set, which
  *     is exactly what let this duplication back in the first pass).
  *   - everything else (a term/figure cited without its own word actually
- *     said, or a gravity/force/contested_claim/doctrinal_witness record)
- *     has no word or story to attach to, and moves to the General
- *     References list at the end of the turn instead of marking the
- *     running text at all. This includes any citation whose own sentence
- *     didn't survive verbatim in the finished text (splitIntoSegments'
- *     own `orphaned` list) - its sources still deserve disclosure, just
- *     not an inline position to anchor a mark to.
+ *     said, or a gravity/force/contested_claim record) has no word or
+ *     story to attach to, and moves to the General References list at
+ *     the end of the turn instead of marking the running text at all.
+ *     This includes any citation whose own sentence didn't survive
+ *     verbatim in the finished text (splitIntoSegments' own `orphaned`
+ *     list) - its sources still deserve disclosure, just not an inline
+ *     position to anchor a mark to.
  */
 import type { Citation, FigureUsed, GlossUsed, SourceCard } from '../types/conversation';
 import { FigureBridgeMark } from './FigureBridgeMark';
 import { GeneralReferences } from './GeneralReferences';
 import { GlossMark } from './GlossMark';
 import { StoryMark } from './StoryMark';
+import { WitnessMark } from './WitnessMark';
 
 interface VoiceTurnBodyProps {
   text: string;
@@ -66,6 +75,7 @@ interface Segment {
 type Mark = { start: number; end: number; matchedName: string; kind: 'figure'; figure: FigureUsed } | { start: number; end: number; matchedName: string; kind: 'gloss'; gloss: GlossUsed };
 
 const STORY_RECORD_TYPES = new Set(['story', 'quote']);
+const WITNESS_RECORD_TYPES = new Set(['doctrinal_witness']);
 
 function splitIntoSegments(text: string, citations: Citation[]): { segments: Segment[]; orphaned: Citation[] } {
   const segments: Segment[] = [];
@@ -145,13 +155,16 @@ function renderSegmentText(segmentText: string, figures: FigureUsed[], glosses: 
   return nodes;
 }
 
-function splitCitationSources(sources: SourceCard[]): { storySources: SourceCard[]; otherSources: SourceCard[] } {
+function splitCitationSources(sources: SourceCard[]): { storySources: SourceCard[]; witnessSources: SourceCard[]; otherSources: SourceCard[] } {
   const storySources: SourceCard[] = [];
+  const witnessSources: SourceCard[] = [];
   const otherSources: SourceCard[] = [];
   for (const card of sources) {
-    (STORY_RECORD_TYPES.has(card.record_type) ? storySources : otherSources).push(card);
+    if (STORY_RECORD_TYPES.has(card.record_type)) storySources.push(card);
+    else if (WITNESS_RECORD_TYPES.has(card.record_type)) witnessSources.push(card);
+    else otherSources.push(card);
   }
-  return { storySources, otherSources };
+  return { storySources, witnessSources, otherSources };
 }
 
 export function VoiceTurnBody({ text, citations, figuresUsed = [], glosses = [] }: VoiceTurnBodyProps) {
@@ -185,31 +198,48 @@ export function VoiceTurnBody({ text, citations, figuresUsed = [], glosses = [] 
   const segmentStoryCards = segments.map((segment) =>
     segment.citation ? splitCitationSources(segment.citation.sources).storySources : []
   );
+  const segmentWitnessCards = segments.map((segment) =>
+    segment.citation ? splitCitationSources(segment.citation.sources).witnessSources : []
+  );
   const renderedStoryIds = new Set<string>();
+  const renderedWitnessIds = new Set<string>();
 
   const rendered = segments.map((segment, i) => {
     const nodes = renderSegmentText(segment.text, figuresUsed, glosses, usedIds, `seg${i}`);
 
-    let trailingMark: React.ReactNode = null;
+    const marks: React.ReactNode[] = [];
     if (segment.citation) {
       const { otherSources } = splitCitationSources(segment.citation.sources);
-      const nextIds = new Set((segmentStoryCards[i + 1] ?? []).map((c) => c.record_id));
-      const finishingCards = segmentStoryCards[i].filter((card) => {
+
+      const nextStoryIds = new Set((segmentStoryCards[i + 1] ?? []).map((c) => c.record_id));
+      const finishingStoryCards = segmentStoryCards[i].filter((card) => {
         if (renderedStoryIds.has(card.record_id)) return false;
-        if (nextIds.has(card.record_id)) return false; // still being told - mark where the telling ends
+        if (nextStoryIds.has(card.record_id)) return false; // still being told - mark where the telling ends
         return true;
       });
-      if (finishingCards.length) {
-        finishingCards.forEach((card) => renderedStoryIds.add(card.record_id));
-        trailingMark = <StoryMark sources={finishingCards} />;
+      if (finishingStoryCards.length) {
+        finishingStoryCards.forEach((card) => renderedStoryIds.add(card.record_id));
+        marks.push(<StoryMark key="story" sources={finishingStoryCards} />);
       }
+
+      const nextWitnessIds = new Set((segmentWitnessCards[i + 1] ?? []).map((c) => c.record_id));
+      const finishingWitnessCards = segmentWitnessCards[i].filter((card) => {
+        if (renderedWitnessIds.has(card.record_id)) return false;
+        if (nextWitnessIds.has(card.record_id)) return false; // same run still citing it - mark where the run ends
+        return true;
+      });
+      if (finishingWitnessCards.length) {
+        finishingWitnessCards.forEach((card) => renderedWitnessIds.add(card.record_id));
+        marks.push(<WitnessMark key="witness" sources={finishingWitnessCards} />);
+      }
+
       otherSources.forEach(addReference);
     }
 
     return (
       <span key={i}>
         {nodes}
-        {trailingMark}
+        {marks}
       </span>
     );
   });

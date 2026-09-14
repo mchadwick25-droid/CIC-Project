@@ -48,4 +48,4 @@ Additional guidance specific to this story: pairs naturally with `ijcstory002_a-
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Story_Repository_Chunk_Template.md` V1.0. No brackets or builder notes remain. Tier/Confidence alignment confirmed (Tier 1 → Documented at the narrative-existence level).
+Completed per `reference/L4-Templates/Story_Repository_Chunk_Template.md` V1.0. No brackets or builder notes remain. Tier/Confidence alignment confirmed (Tier 1 → Documented at the narrative-existence level).

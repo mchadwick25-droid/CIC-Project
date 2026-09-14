@@ -1,0 +1,43 @@
+# Hartel's CSEL 3 Pars III (1871): Cyprian's spuria, the Vita Caecilii Cypriani
+# attributed to Pontius, and the Acta Proconsularia. Latin source vendored
+# 2026-09-08, closing Source_Acquisition_Manifest G1's own Pars III gap.
+source_file: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
+
+assignments:
+  - work: "Cyprian's Opera Spuria (works transmitted under Cyprian's name, of disputed authenticity)"
+    author: cyprian
+    locus: "opening of file through the Vita's own preceding material; kept under Cyprian's name per the corpus map's own 2026-08-26 ruling (transmitted-author shelf, not re-attributed), the same treatment Registry row 6 already establishes for the English-language pseudo-Cyprianic body"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin second witness for a corpus this world holds only as
+      Confidence-C, not-currently-licensed material (Source_Registry.md row
+      6). Provisional, matching that row's own confidence, not upgraded by
+      this vendoring alone.
+
+  - work: "Vita Caecilii Cypriani (attributed to Pontius the deacon)"
+    author: pontius
+    locus: "pp. XC-CIX of the printed volume (this file's own header gives the exact line range)"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original standing behind the already-vendored ANF05 English
+      translation of Pontius's Life (Registry row 7, Confidence A). Cyprian's
+      own election and the Curubis exile passage this world's own Doc_01
+      draws on directly are both in this Latin text.
+
+  - work: "Acta Proconsularia Sancti Cypriani (Cyprian's own trial and martyrdom record)"
+    author: cyprian
+    locus: "pp. CX-CXIV of the printed volume, immediately following the Vita"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Not previously vendored in any form (Source_Registry.md row 41 named
+      this as "not independently located at a separately citable URL" -- now
+      closed by this same file). Cyprian's own martyrdom record, in Latin.

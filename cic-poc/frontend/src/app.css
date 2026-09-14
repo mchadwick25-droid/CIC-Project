@@ -511,6 +511,24 @@ button {
   font-size: 0.88rem;
 }
 
+/* WitnessMark's Level-2/Level-3 content (VoiceTurnBody.tsx) - identical
+   treatment to .story-mark__* above, under its own selector rather than a
+   shared one: same visual grammar, different record_type, kept separable
+   in case the two tracks' copy or spacing ever need to diverge. */
+.witness-mark__entry + .witness-mark__entry {
+  margin-top: 8px;
+}
+
+.witness-mark__title {
+  font-weight: 700;
+}
+
+.witness-mark__source {
+  margin-top: 2px !important;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
 /* General References (GeneralReferences.tsx) - the fourth track,
    deliberately NOT the InlineBridge grammar: Mark's own correction
    (2026-08-25) that a reference belongs at the end of the answer, never

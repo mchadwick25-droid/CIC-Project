@@ -1,0 +1,16 @@
+source_file: vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt
+
+assignments:
+  - work: "Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians"
+    author: vonsoden
+    locus: "whole file (pp. 247-270 of Quellen und Forschungen aus italienischen Archiven und Bibliotheken, Band XII)"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Modern (1909) German scholarship -- role context, not tradition.
+      A prosopography of the African episcopate in Cyprian's own decade, closing a
+      gap Registry rows 4 and 42 name and Mandouze's Prosopographie (row 62)
+      cannot reach. Closes Source_Acquisition_Manifest G8. Consultation-only per
+      cic/texts/INTAKE.md.

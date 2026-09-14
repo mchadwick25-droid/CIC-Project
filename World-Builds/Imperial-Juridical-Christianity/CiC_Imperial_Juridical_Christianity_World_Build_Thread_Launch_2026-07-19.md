@@ -34,7 +34,7 @@ thread's job is done; report back and wait.
 ## This world is not a blank slate — it's already confirmed, with real decided content
 
 Unlike a from-scratch candidate, this world was already screened and selected through a
-full Step 0 portfolio review — `CiC_Step0_Conclusion_FINAL_v2.docx` (repo root). Read that
+full Step 0 portfolio review — `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` (repo root). Read that
 document in full before drafting Doc_01. It is **supporting evidence and required
 grounding for this build's own Step 0 pass, not a substitute for running Step 0
 formally** — Construction Framework V7.4 DRAFT's own Step 0 stub is new, and this is its
@@ -91,21 +91,21 @@ current-cycle discipline.
 
 1. **`Ministry/Communication/Vision, Mission, Convictions, and Foundational
    Commitments V1.1.docx`** — same as every thread.
-2. **`L1-Foundation/CiC_L1_Constitution_V2_2.docx`** — content is now V2.3 (filename
+2. **`reference/L1-Foundation/CiC_L1_Constitution_V2_2.docx`** — content is now V2.3 (filename
    lags, per this project's own established disclosure convention — check the internal
    header, not the filename). Includes the new Article 4 Movement-Scope Principle and the
    Article 31 Source Registry amendment.
-3. **`L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4_DRAFT.docx`**
+3. **`reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4_DRAFT.docx`**
    — the current binding methodology, not V7.3 (still present alongside it; V7.4_DRAFT is
    the one to build against). New Step 0 stub before Part I; reworked Step 2 (Source
    Ecology + Source Registry as co-equal outputs).
-4. **`L3B-World-Build-Methodology/CiC_L3B_Step0_Movement_Scope_Methodology_V1.0.docx`** —
+4. **`reference/L3B-World-Build-Methodology/CiC_L3B_Step0_Movement_Scope_Methodology_V1.0.docx`** —
    the actual Step 0 procedure (Section A's five subtests, Section B's five criteria).
-5. **`L3B-World-Build-Methodology/Source_Registry_Template.md`** — new at Step 2; produces
+5. **`reference/L3B-World-Build-Methodology/Source_Registry_Template.md`** — new at Step 2; produces
    a co-equal output alongside the Source Ecology narrative.
-6. **`L3B-World-Build-Methodology/CiC_L3B_Formation_World_Blueprint_V7.3.docx`** — current;
+6. **`reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Blueprint_V7.3.docx`** — current;
    already carries the Source Registry section.
-7. **`CiC_Step0_Conclusion_FINAL_v2.docx`** (repo root) — this world's own confirmed scope,
+7. **`reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx`** (repo root) — this world's own confirmed scope,
    as quoted above. Read in full, not just this launch prompt's excerpt.
 8. **A live world's actual build folder as a working reference for rigor and format** —
    `World-Builds/Syriac-Christianity-Edessa-Nisibis/` remains the most fully-documented

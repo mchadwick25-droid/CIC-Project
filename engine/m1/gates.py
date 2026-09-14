@@ -44,7 +44,7 @@ COMPLETION_REQUIRED = {
     "world_core": ["time_window", "horizon", "formation_logic", "thinness", "cautions"],
     "source": ["author", "work", "edition", "rights_status", "attribution_status", "discovery_channel"],
     # distortion_risk added 2026-08-22: the glossary/story/quote modern-
-    # vs-world contrast retrofit (Redesign-Spec/Glossary-Story-Quote-
+    # vs-world contrast retrofit (reference/Redesign-Spec/Glossary-Story-Quote-
     # Template.md) - the retrofit's own trigger, per that doc's own words
     # ("Mark flips that switch when the retrofit task is actually sent to
     # all six threads"). false_friend and senses.translational are ALSO
@@ -166,7 +166,7 @@ def gate_narratability(records, fleet, registry) -> list[str]:
 
 def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
     """The two glossary/story/quote retrofit fields COMPLETION_REQUIRED's
-    flat per-type list can't express correctly (Redesign-Spec/Glossary-
+    flat per-type list can't express correctly (reference/Redesign-Spec/Glossary-
     Story-Quote-Template.md SS1) - same discipline as gate_narratability's
     own dedicated nested checks for story, applied here to term:
 

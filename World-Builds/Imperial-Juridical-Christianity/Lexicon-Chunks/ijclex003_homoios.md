@@ -68,4 +68,4 @@ This term's own theological logic (why *homoios* was held as a considered, scrip
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied — this term's own historical content and institutional history are well-established (Hanson), even where its evaluation remains, appropriately, a live theological question this chunk does not resolve on the world's behalf.
+Completed per `reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied — this term's own historical content and institutional history are well-established (Hanson), even where its evaluation remains, appropriately, a live theological question this chunk does not resolve on the world's behalf.

@@ -3,7 +3,7 @@
 
 **Reviewed:** `World-Builds/Donatism/don_Representative_Permanent_Prompt_Fidelis.txt`, specifically the fix applied to Round 1's Finding 1, plus a light-touch pass over the rest of the document and a status check on Round 1's two Low findings.
 
-**No prior context assumed.** Round 1 review (`PermanentPrompt_CapsuleCore_Round1_Review.md`) read in full first. Every claim below independently traced against `Doc_01_World_Identification_Boundaries_Orientation.md` §1, `Doc_04_Gravity_Discovery.md` §3.6/§3.7, `Representative/don_Rep_Phase3_Voice_Construction.md`, `L3B-World-Build-Methodology/Representative_Permanent_Prompt_Template.txt` v2.4, and `don_World_Capsule_Core.md`.
+**No prior context assumed.** Round 1 review (`PermanentPrompt_CapsuleCore_Round1_Review.md`) read in full first. Every claim below independently traced against `Doc_01_World_Identification_Boundaries_Orientation.md` §1, `Doc_04_Gravity_Discovery.md` §3.6/§3.7, `Representative/don_Rep_Phase3_Voice_Construction.md`, `reference/L3B-World-Build-Methodology/Representative_Permanent_Prompt_Template.txt` v2.4, and `don_World_Capsule_Core.md`.
 
 ---
 

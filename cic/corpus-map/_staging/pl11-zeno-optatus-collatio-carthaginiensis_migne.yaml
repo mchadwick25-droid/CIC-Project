@@ -21,6 +21,7 @@ assignments:
     locus: "the Collatio cluster, from col. 759 on"
     atlas_ids:
       - donatism
+      - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
     note: >
@@ -32,4 +33,10 @@ assignments:
       with how this entry already treats the Optatus appendix and Council
       acts; provisional because the Donatist bishops' own recorded speech
       inside these acts may deserve separate tradition-role consideration
-      once actually read, which this entry has not yet done.
+      once actually read, which this entry has not yet done. Also assigned
+      to latin-pastoral-congregational-christianity (Source_Registry.md
+      row 65, per the project lead's 2026-09-13 decision on that row's own
+      flagged cross-world resource question): Augustine speaks in his own
+      words in at least fourteen numbered acts of these proceedings, a
+      live primary-voice route this world's own Registry names but does
+      not yet use.

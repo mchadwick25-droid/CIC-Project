@@ -60,4 +60,4 @@ The Acts and Canons of Nicaea (325); Leo I's Tome to Flavian, which assumes and 
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain; CT Contest Type completed per Doc_06 §3.
+Completed per `reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain; CT Contest Type completed per Doc_06 §3.

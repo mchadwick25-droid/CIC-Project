@@ -1,0 +1,38 @@
+# Mommsen's MGH Chronica Minora, Vol. I (1892): a multi-chronicle
+# compilation whose target text for this world is Prosper of Aquitaine's own
+# Epitoma Chronicon. Vendored 2026-09-08. NOTE: the same archive.org item is
+# also used, under a different filename, by a sibling Donatism-world build
+# thread for a different target text in the same volume -- see both worlds'
+# own Decision Logs.
+source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
+
+assignments:
+  - work: "Prosper of Aquitaine's Epitoma Chronicon, with its African continuations (Additamenta Africana, Epitome Carthaginiensis)"
+    author: prosper
+    locus: "pp. 385-485 of the printed volume (Mommsen's own preface to it at pp. 341-384; the Additamenta Africana and Epitome Carthaginiensis at pp. 486-497); this file's own header gives the exact line ranges"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: assigned
+    note: >
+      A contemporary external chronicle, not this tradition's own voice --
+      role context, not tradition. Directly attests this world's own
+      Doc_01-stated end-window: Augustine's death (year 430 entry) and the
+      Vandal capture of Carthage (year 439 entry), both independently
+      located and quoted in this file's own header. Closes a prior total
+      absence of a contemporary chronicle witness to this world's own close.
+
+  - work: "Prosper of Aquitaine's Epitoma Chronicon, with its African continuations"
+    author: prosper
+    locus: "pp. 385-485 of the printed volume"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: needs-ruling
+    note: >
+      Not a claim this staging entry is positioned to argue well -- flagged
+      because the same year-439 entry (the Vandal capture of Carthage) bears
+      directly on that world's own closing chronology too, and that world's
+      own build thread has not been asked, from outside, whether or how this
+      text belongs there. Named per corpus-map's own non-exclusivity
+      principle rather than silently omitted.

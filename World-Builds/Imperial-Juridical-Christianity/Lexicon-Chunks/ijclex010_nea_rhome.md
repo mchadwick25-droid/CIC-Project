@@ -54,4 +54,4 @@ Canon 3 of Constantinople (381); Canon 28 of Chalcedon (451).
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied at the entry level — the underlying "New Rome" reasoning's contested status is carried by the linked *presbeia* entry, which carries the CT tag directly.
+Completed per `reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied at the entry level — the underlying "New Rome" reasoning's contested status is carried by the linked *presbeia* entry, which carries the CT tag directly.

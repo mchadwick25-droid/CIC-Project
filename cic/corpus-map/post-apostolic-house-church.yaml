@@ -258,6 +258,11 @@ works:
     VII preserve Cornelius'' and Dionysius'' letters on Novatian - primary evidence for novatianism.
     Movements he merely mentions are deliberately not assigned.
 
+    Also assigned to roman-church-third-century: Cornelius was bishop of Rome 251-253, squarely
+    inside this world''s own window, and his letters preserved here are primary Roman-church
+    material, not merely external testimony to novatianism. Surfaced by a source-research
+    pass on Roman Church Third Century''s (I.33) sourcing gaps, 2026-09-13.
+
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
 - work: Notes Explanatory of Allusions to Persons, &c. (1905)
@@ -719,7 +724,8 @@ works:
   confidence: provisional
   note: 'pahc already cites this work (pahc.source.tertullian-apologeticus) as an out-of-window,
     out-of-region witness with a stated use discipline. Provisional: the assignment records
-    that existing use; Mark may prefer pahc to reach it through tertullian-s-voice instead.
+    that existing use; Mark may prefer pahc to reach it through latin-apologists instead (the
+    id tertullian-s-voice itself pointed to is retired, merged into latin-apologists, 2026-09-10).
 
     '
   source_file: anf03_tertullian.xml

@@ -46,4 +46,4 @@ The Representative may offer this story as the tradition's own account of what a
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Story_Repository_Chunk_Template.md` V1.0. No brackets or builder notes remain. Tier/Confidence alignment confirmed (Tier 3 → Contested for portrait, Inferential/Thin for the specific event).
+Completed per `reference/L4-Templates/Story_Repository_Chunk_Template.md` V1.0. No brackets or builder notes remain. Tier/Confidence alignment confirmed (Tier 3 → Contested for portrait, Inferential/Thin for the specific event).
