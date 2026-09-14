@@ -306,9 +306,10 @@ directory moves, so `git mv` nested `L3B-World-Build-Methodology/` and
 `L3D-Encounter-Methodology/` inside the `reference/` directories the file moves had just
 created. Caught by the binary-citation scan, not by the path check — because the baseline
 had been regenerated after the move and absorbed the breakage. Flattened; the baseline was
-then rebuilt as a diff against the pre-move tree (269 → 331: the additions are the 75
-`records/` citations deferred by design and the remainder reference-internal or record-set
-citations of the same kind, listed per file). Lesson recorded for phase 2: order moves
+then rebuilt as a diff against the pre-move tree (269 → 280: every addition is either a
+`records/` citation deferred by design, a pre-existing break whose citing file moved, or a
+prose token such as "reference/analytical" that only reads as a path now that `reference/`
+is a root directory; listed per file in `tools/check_paths_baseline.txt`). Lesson recorded for phase 2: order moves
 directory-first, and never regenerate a baseline without diffing it.
 
 **Root now:** `README.md` (the map) `CLAUDE.md` `.gitignore` `render.yaml` `wrangler.jsonc`
