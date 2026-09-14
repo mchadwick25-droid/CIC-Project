@@ -8,7 +8,8 @@ the repository, not assumed to transfer from Cappadocian's precedent.
 
 ## What B-9 is, as the governing process document currently states it
 
-`Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md`, row B-9
+`reference/method/CiC_Record_Native_World_Build_Process_V1_3.md` (moved
+there by the later repo reorganization; path corrected 2026-09-14), row B-9
 (S2.9): "Change-order decisions + chunk swap. The swap makes the record store
 drive this world's production. Post-swap: render identity, full production
 eval metric-identical, baseline saved. Prompt guards added ONLY
@@ -28,7 +29,8 @@ identically in both versions.
 ## Independent verification (not assumed from Cappadocian's own finding)
 
 1. **Confirmed the "chunk swap" concept still means what Cappadocian's own
-   recon found it means.** Read `Ministry/Technology/Pass2/gates/S6.2_HAL_s29_decisions.md`
+   recon found it means.** Read `Archive/Technology-Pass2-2026-08/Pass2/gates/S6.2_HAL_s29_decisions.md`
+   (moved there by the later repo reorganization; path corrected 2026-09-14)
    directly (not merely cited): Decision HAL-1 swaps "27 staged views... into
    `data/hieronymian_world/{lexicon,story}_chunks/`" and verifies "render
    parity vs the swapped deployed" and "retrieval eval vs B-RETR-POST-P3

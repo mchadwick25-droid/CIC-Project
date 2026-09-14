@@ -9,7 +9,8 @@ surfaced and disclosed, not silently patched.
 
 ## What the governing process document says, and why it doesn't apply as written
 
-`Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md` §4
+`reference/method/CiC_Record_Native_World_Build_Process_V1_3.md` (moved
+there by the later repo reorganization; path corrected 2026-09-14) §4
 ("Phase C — Deployment wiring") describes: an `app/world_manifest.py` entry,
 two hand-synced frontend points (`SpeakerName` union, `MessageBubble.tsx`
 `REPRESENTATIVE_NAMES`), vector indices built at Docker build time,

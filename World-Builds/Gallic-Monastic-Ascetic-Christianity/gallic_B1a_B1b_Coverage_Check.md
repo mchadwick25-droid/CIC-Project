@@ -4,7 +4,8 @@
 the 36 source records + 1 world_core record B-1 authored at
 `records/gallic/source/*.md` and `records/gallic/world_core/*.md`, following
 the same discipline the S6.2/HAL precedent
-(`Ministry/Technology/Pass2/reviews/S6.2_HAL_s21b_coverage.md`) and the
+(`Archive/Technology-Pass2-2026-08/Pass2/reviews/S6.2_HAL_s21b_coverage.md`,
+moved there by the later repo reorganization; path corrected 2026-09-14) and the
 Cappadocian build's own `cappadocian_B1a_B1b_Coverage_Check.md` established.
 No Registry row or source record is edited here — findings route to the
 pre-freeze re-sweep, or are simply named for the build thread's own
