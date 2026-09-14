@@ -1922,3 +1922,28 @@
     previously taken on secondary description, now directly confirmed in the vendored file
     itself. A short bibliographic header (matching the addai/palladius plain-text convention)
     was prepended, since the Gutenberg transcription carried no such header of its own.
+- filename: odes-of-solomon_harris-mingana1920.txt
+  supplied_by: Claude (fleet cross-world research thread finding, vendored by the syr build thread at Mark's standing direction)
+  date_added: '2026-09-13'
+  notes: >-
+    The Odes and Psalms of Solomon, Vol. II: The Translation, ed./trans. J. Rendel Harris and
+    Alphonse Mingana (Manchester University Press, for the John Rylands Library, 1920) - a
+    later, distinct re-edition of the same work as harris_odes-and-psalms-of-solomon_harris1911.txt
+    (Harris's own 1911 2nd edition, Cambridge), not a replacement for it.
+    syr.source.odes-of-solomon.md cites the 1911 edition as its vendored source (acquired and
+    verified 2026-09-09) and is unchanged by this addition. This 1920 re-edition was located
+    independently by a parallel research thread that had not yet learned of the 2026-09-09
+    acquisition; added here as a second library resource rather than discarded, since both are
+    legitimate public-domain editions and a future pass may want to compare their OCR quality
+    before writing any quote record (neither edition has one yet - the source record's own
+    Native/Contested framing, "nothing load-bearing rests on the Odes," is unchanged by
+    either vendoring). Independently re-verified before vendoring: fetched directly from
+    archive.org (archive.org/details/odespsalmsofsolo02harruoft, HTTP 200, ~1MB OCR text),
+    title page confirms Rylands imprint/Harris & Mingana/1920, whole-file grep for "copyright"
+    returns nothing, all 42 Odes present and individually addressable by their own ODE I-XLII
+    headings. RIGHTS: public domain by date - a 1920 volume, clearing this corpus's "to ~1929"
+    rule outright, the same basis as chronicle-of-edessa_cowper.txt and not the weaker
+    transcriber-declaration basis aphrahat_demonstrations-2-7_hallock1932.txt rests on. A
+    bibliographic header (title/creator/print-basis/rights/rights-basis/source-collection,
+    matching this corpus's own established convention) was prepended - the archive.org OCR
+    derivative carries no "Rights:" line of its own.
