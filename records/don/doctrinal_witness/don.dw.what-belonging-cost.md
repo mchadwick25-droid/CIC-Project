@@ -19,7 +19,12 @@ confidence:
     actually asks about - family, friends, standing in a household - are not documented anywhere, and
     the record says so instead of transposing the legal record into a personal one. What held us together
     across distance is inferred from three documented practices (councils, letters between bishops, fixed
-    commemorative days) rather than from any statement of ours about connection.
+    commemorative days) rather than from any statement of ours about connection. Corrected 2026-09-14: this
+    record previously said nobody among us wrote the personal cost down at all. That overstated the gap.
+    Our own commemorative sermon, read every twelfth of March, does describe kin searching the dead for
+    each other after the Carthage massacre - not a household split by the schism, which remains genuinely
+    undocumented, but real family-level grief this world's own voice does record. The correction is narrow
+    and does not restore the broader claim the original text refused.
 sources:
 - source_id: don.source.codex-theodosianus-book-16
   locus: the 405 Edict of Unity, and the graded fines of the later suppression legislation
@@ -37,6 +42,10 @@ sources:
 - source_id: don.source.optatus-appendix-of-documents
   locus: the letters between our own bishops read into the Zenophilum record - a working correspondence
     across Numidia
+  license: public-domain
+- source_id: don.source.passio-donati-sermon
+  locus: chapter XIII - kin searching among the corpses of the slain for their own dead, after the
+    Carthage basilica massacre
   license: public-domain
 retrieval:
   tier: 2
@@ -64,11 +73,23 @@ text: >-
   that what happened to those two might yet be asked of any of them.
 
 
-  What we cannot give you is the smaller ledger, and it is the one you
-  asked about. Whether a man lost his brother over which font he walked
-  to. Whether a household split. Whether the neighbours stopped speaking.
-  Nobody among us wrote that down, and the people who kept our records
-  were arguing with us and had no reason to.
+  What we cannot give you is the smaller ledger, and it is most of the
+  one you asked about. Whether a man lost his brother over which font he
+  walked to. Whether a household split. Whether the neighbours stopped
+  speaking. That much nobody among us wrote down, and the people who kept
+  our records were arguing with us and had no reason to.
+
+
+  One piece of it we can give you, because we wrote it ourselves and
+  still read it aloud. After soldiers took a basilica at Carthage and
+  killed people at prayer inside it, our own sermon does not stop at the
+  killing. It says that afterward, running among the bodies of the slain,
+  love hastened to make out each dead face - and that children found
+  their parents lying there, and parents their children. Nobody is named.
+  We do not know how many, or which families, or what became of them
+  after that day. But that is not the same gap as the one above: this
+  is family grief we set down in our own voice and kept reading every
+  year, not silence.
 
 
   What held us together across distance was ordinary and physical. We
@@ -88,14 +109,22 @@ positions:
   edict of unity, and fines graded by rank, with our own country members assessed at ten pounds of silver'
 - at intervals the cost was death, and our own bishop's letter about it closes by telling the congregation
   the same may be asked of any of them
+- our own commemorative sermon records family-level grief directly - kin searching the dead for each
+  other after the Carthage massacre - though it names no one and gives no number
 - what held us together across distance was ordinary and physical - large councils, working correspondence
   between bishops, and fixed commemorative dates observed simultaneously in towns with no other contact
 tensions:
-- the personal cost the question asks about - family, friendship, standing in a household - is nowhere
-  recorded, and the legal record cannot be transposed into a personal one
+- most of the personal cost the question asks about - a household split, a brother lost over which font
+  he walked to, neighbours who stopped speaking - is still nowhere recorded, and the legal record still
+  cannot be transposed into a personal one
+- the one piece of family-level cost that is recorded comes from a sermon whose own author and date are
+  disputed by this world's own vendored authorities, and reaches only as far as grief after violence,
+  not the different question of a household divided by the schism itself
 - what held us together is inferred from three documented practices rather than from any statement of
   ours about what connection felt like
-relations: []
+relations:
+- type: associated-with
+  target: don.story.passio-donati-sermon
 ---
 Closes F5-P. The cell's first variant is answered from unusually clean
 evidence for this world: imperial legislation is non-adversarial in the

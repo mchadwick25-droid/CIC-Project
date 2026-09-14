@@ -46,6 +46,8 @@ relations:
   target: don.figure.caecilian
 - type: associated-with
   target: don.figure.donatus
+- type: associated-with
+  target: don.dw.what-belonging-cost
 narrative_tier: 3
 narrative_tier_justification: 'Tier 3, and the tier was argued rather than assumed. Tier 1 is ruled out
   because it requires a named author with an identifiable social location and a date held with reasonable
@@ -131,3 +133,12 @@ Marcellinus standing beside imperial coercion of this communion, which
 is exactly the shape of confusion don.core.donatism's cautions item 7
 already warns about for the two Maximians and the two Optatuses. See
 don.figure.marcellinus, which carries the distinction.
+
+**Reciprocal edge added 2026-09-14** (`donatism-ordinary-believer` build
+thread): `don.dw.what-belonging-cost` now cites this sermon's chapter XIII
+(the kin-searching-the-dead scene, past this record's own quoted material,
+which stops at the Advocata bishop's death) for F5-P's family-cost
+question. Confirmed directly against `cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt`
+lines 653-700 (a column-interleaved, difficult scan); not otherwise
+integrated into this record's own `text` field, which is left as previously
+reviewed and disposed.

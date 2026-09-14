@@ -19,13 +19,33 @@ confidence:
     anecdote about a woman and a chalice, prayer through one account of a gathering being broken up, and
     fasting through a single martyr's fast before execution, which is not evidence of a communal rule.
     No liturgical text of ours survives, and no account of what undergoing the washing was like survives
-    from anyone who underwent it.
+    from anyone who underwent it. Added 2026-09-14: whether entry was ever compelled rather than chosen
+    rests on the same kind of ground `don.limit.bagai-violence-no-account` already names for this world's
+    hardest charges - specific, dated, hostile-only allegations this record cannot confirm, deny, or
+    contextualize from our own side, and does not try to. One piece is not hostile-only: a Donatist bishop's
+    own recorded words at the 411 Conference, read for what they say and not resolved beyond that - the
+    transcript does not settle whether he meant a boast or an admission, and neither does this record.
 sources:
 - source_id: don.source.augustine-answer-to-petilian
   locus: Book II, ch. 3 - what we look to is the conscience of the giver, to cleanse that of the recipient
   license: public-domain
+- source_id: don.source.augustine-answer-to-petilian
+  locus: Book II, ch. 84, SS184 - Crispinus of Calama and the farm near Hippo
+  license: public-domain
 - source_id: don.source.augustine-on-baptism-against-the-donatists
   locus: seven books on the washing, and the Bagai reception of Felicianus and Praetextatus
+  license: public-domain
+- source_id: don.source.augustine-on-baptism-against-the-donatists
+  locus: Book I, ch. 5, SS6 - Donatist laity's own reluctance to be rebaptized, and secret efforts to
+    be spared it
+  license: public-domain
+- source_id: don.source.petschenig-scripta-contra-donatistas-csel51-53
+  locus: Sermo ad Caesarienses ecclesiae plebem, SS8 - Petilian's forced rebaptism and ordination of a
+    Catholic catechumen at Constantina
+  license: public-domain
+- source_id: don.source.migne-pl11-collatio-carthaginiensis
+  locus: first cognitio, act 154 - the Donatist bishop Adeodatus, asked at Carthage in 411 whether his
+    own see still had a bishop in it
   license: public-domain
 - source_id: don.source.lucilla-and-the-second-unnamed-woman
   locus: Optatus I.16 - kissing a martyr's bone before receiving the chalice, and the rebuke for it
@@ -43,6 +63,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - participant asks how a person actually became one of us, step by step
+  - participant asks whether joining us was ever forced rather than chosen
   - participant asks how wrongdoing in the community was handled and whether someone could come back
   - participant asks about our prayer, our fasting, or the meal we shared
   do_not_retrieve_when: []
@@ -63,6 +84,34 @@ text: >-
   which tells you how public it was: washing a Catholic again was the
   plainest possible refusal of the settlement the state was trying to
   impose.
+
+
+  Not every hand that went under our water chose to be there, and we
+  will not pretend otherwise. One of our opponents describes a landholder
+  of ours, Crispinus, buying a farm near Hippo and forcing eighty of its
+  tenants into that water in a single day, "murmuring with miserable
+  groans under the sole influence of terror." We cannot confirm that
+  number or deny it. No page survives from our own side answering the
+  charge, and we will not invent one. The same opponent brings the
+  identical charge the other way: that a bishop of ours, Petilian, seized
+  a young Catholic still under instruction at Constantina and put him
+  through the water and into office against his will. We cannot settle
+  that one either.
+
+
+  What we can tell you, because it sits inside the same hostile argument
+  rather than coming from a friendly witness, is that many of our own
+  people did not want the water repeated. Augustine's own case against us
+  concedes it: that most of our laity, in his words, confess this one
+  point in our system displeases them, and that some who wished to join
+  us for reasons that had nothing to do with conviction worked in secret
+  to be spared a second baptism altogether. And when one of our own
+  bishops, Adeodatus, was asked at Carthage in 411 whether his own see
+  still had a bishop in it, his answer went on the record: "through
+  terror of me, all who were established in that place gave way." Whether
+  he meant that as a boast of his own standing or as an admission that
+  fear, not conviction, had done the work, the transcript does not say.
+  Neither will we.
 
 
   Now the harder one - what happened when someone wronged us, and whether
@@ -97,6 +146,13 @@ positions:
   was not the question being asked
 - the rite was necessarily public and was named specifically in imperial legislation, because washing
   a Catholic again was the plainest refusal of the settlement being imposed
+- entry was not always chosen - a hostile source names a landholder forcing eighty tenants into the water
+  in a day, and the identical charge is made against us in the other direction against a bishop of ours;
+  neither charge can be confirmed or denied from our own side
+- our own laity's own reluctance to rebaptize, and one of our own bishops' own words admitting his
+  congregation gave way "through terror of me," are the closest this record comes to hearing what the
+  choice actually felt like from inside, and even those are read through an opponent's argument or a
+  hostile courtroom
 - 'our handling of wrongdoing does not resolve into a rule: one council left an unanswerable charge to God,
   another condemned a party and then received two of its bishops back with nothing repeated, and a dissenting
   interpreter was cut off permanently'
@@ -105,11 +161,18 @@ tensions:
   fragments and not as practices we described
 - the one glimpse of the chalice comes from an opponent's story about a woman he was blaming for the schism
 - no account survives of what the washing felt like to undergo, from anyone who underwent it
+- the two forced-rebaptism charges (Crispinus's tenants; Petilian's Catholic catechumen) are each attested
+  only by the side that suffered the other's version of the same act, and neither can be checked against
+  an account from the side accused
+- Adeodatus's own words at the 411 Conference are genuine self-testimony, not hostile report, but their
+  own tone - boast or admission - is not settled by the transcript and this record does not settle it either
 - no rule of ours survives explaining why one condemned party was received back and one condemned man
   never was
 relations:
 - type: associated-with
   target: don.quote.petilian-conscience-of-the-giver
+- type: associated-with
+  target: don.limit.bagai-violence-no-account
 ---
 Closes F4-I. Two of the cell's five variants (how a person became one of
 us; how wrongdoing was handled and whether someone could return) are
@@ -127,3 +190,44 @@ principled exception."
 
 Paired with `don.quote.petilian-conscience-of-the-giver` (which also pairs with
 `don.dw.walking-to-one-font`); reciprocal relations declared on the quote.
+
+**Revised 2026-09-14, `donatism-ordinary-believer` build thread.** A fleet-wide
+source-fidelity audit found this record answered F4-I's "how did a person
+become one of us" entirely as a chosen rite, with no place in the corpus
+answering "was I even asked." Added, with quotes independently re-verified
+against the vendored files (not trusted from the audit's own transcription):
+Crispinus of Calama's forced mass rebaptism of eighty tenants (Augustine,
+*Answer to Petilian* II.84.184, `cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml`
+line 17447); the mirror charge against our own bishop Petilian forcing a
+Catholic catechumen (Augustine, *Sermo ad Caesarienses ecclesiae plebem* SS8,
+`cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt`
+lines 71988-71994, OCR clean, translated here directly - no established
+English edition was consulted); Donatist laity's own reluctance to rebaptize
+(Augustine, *On Baptism* I.5.6, same npnf104 file, line 12744); and a
+Donatist bishop's own words at the 411 Conference (`don.source.migne-pl11-collatio-carthaginiensis`,
+first cognitio act 154, lines 121373-121387 - a difficult scan, read
+carefully but not visually cross-checked against a page image).
+
+Deliberately follows the same restraint `don.limit.bagai-violence-no-account`
+and `don.dw.what-we-did-with-the-power-we-had` already established for this
+world's hardest, hostile-only material: name the charge, do not confirm it,
+do not deny it, do not invent a defense that does not survive. The Crispinus
+and Petilian charges are treated identically for exactly that reason -
+this world's own discipline does not get to believe the charge against an
+opponent's bishop more readily than the charge against its own. The Adeodatus
+quotation is the one exception handled differently, because it is this
+world's own bishop's own recorded words, not an opponent's characterization
+- and even there, the record refuses to resolve its own ambiguity of tone
+rather than read it as a clean confession.
+
+Left deliberately unused: Letter 66 to the Mappalians (the same Crispinus
+episode, richer social detail - "peasantry," "serfs," a named village, and
+Augustine's own proposal to let the tenants decide free of pressure) has no
+existing source record in `records/don/source/` and was not added here, to
+avoid opening new source-record surface area for detail the Answer to
+Petilian citation does not need. A further roll-call exchange at the same
+411 Conference (Severianus vs. Adeodatus, immediately preceding the quoted
+act) and material from `Contra Cresconium` and `Contra Petilianum` on
+congregations changing sides under fear of Gildo's soldiers were identified
+by this pass's own research but not drawn in, as adding more than the
+identified gap requires.
