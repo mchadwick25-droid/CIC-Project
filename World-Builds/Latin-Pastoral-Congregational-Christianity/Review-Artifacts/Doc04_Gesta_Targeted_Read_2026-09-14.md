@@ -1,56 +1,62 @@
 # Targeted source read — the *Gesta Collationis Carthaginiensis* against Candidate 5's Persistence test
 
-**Date:** 2026-09-14
-**Run by:** the lpc build thread, on the project lead's own direction of 2026-09-14 ("read the gesta first"), before any ruling on Candidate 5's escalated classification.
-**Source read:** `cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt` (144,733 lines), the Migne *Patrologia Latina* XI printing recorded at `Source_Registry.md` row 65's Verification Note. Vendored in the shared corpus and assigned to this world's own corpus-map entry 2026-09-13 (`role: context`, `confidence: provisional`).
-**Not a review round.** This is a source read commissioned to supply evidence to a decision the build thread does not make. It reaches no classification and proposes no disposition.
+**Date:** 2026-09-14. **Superseded and rewritten the same day**, on the project lead's direction, after `Doc04_Round5_Review.md` audited the first version and found it **overstated**. This file replaces that version entirely. What the first version got wrong is recorded in full at the end, because three of its errors were the build's own documented failure mode and the record is worth more than the tidiness.
 
-## Quotation discipline, applied throughout
+**Source:** `cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt` (144,733 lines), the Migne *PL* XI printing recorded at `Source_Registry.md` row 65's Verification Note.
+**Not a review round.** A source read, supplying evidence to a decision the build thread does not make. It reaches no classification.
 
-This scan's OCR is poor and its own provenance header warns against verbatim reliance without visual cross-check. **Every reading below is given as a normalization, not a quotation**, per Registry row 65's own standing rule. Every claim is cited **by file line**, because the *Gesta*'s act numbering is not unique across this volume — act 158 sits several thousand lines before act 50, and act numbers recur in the *capitula* (summary of contents) and again in the acts proper. Two regions (roughly 128470–128500) carry two-column bleed severe enough that nothing is drawn from them.
+## Quotation discipline
 
-## What the test says, and what was checked
+The scan's OCR is poor and its own provenance header warns against verbatim reliance. **Every reading below is a normalization, not a quotation.** Every claim is cited **by file line**, because act numbering is not unique across this volume.
 
-Doc_04's Candidate 5 Persistence bullet reads: *"Does not pass at the world level... No evidence that either bishop's own theory was independently visible outside the one locus each is drawn from, or that it was operative or contested among ordinary clergy — only between two specific bishops at two specific moments separated by over a century."* Round 2's H6 found that absence claim undisclosed as bounded; Round 3 carried the bound as Open Item 6 and named a targeted read as the evidence most likely to settle the test. This is that read.
+## Structural finding, and the reason the first read went wrong
 
-## Finding 1 — the *mandatum* is an inter-episcopal authority instrument, operative and contested, and it is the conference's opening dispute
+**The acts proper occupy lines 116000–118499 and 125500–130999. The band between them, 118500–125499, is Migne's own prosopographical footnote apparatus** — the editor's notes identifying bishops by the councils they attended. Measured by footnote-marker density per 500 lines, the apparatus band runs 9–27 markers with almost no numbered speeches, while the acts bands run 5–35 numbered speeches with almost none. **The first version of this read took its episcopal census from 118400–123000, which is substantially apparatus, not conference record.**
 
-The seven *actores* on each side (roster heading at line **113068**; Augustine's own entry at **113076**, printing `Augustinus Uipporegiensis`, normalized *Augustinus Hipporegiensis*) did not act in their own right. They acted under a **mandate** from the wider episcopal body, and that mandate's scope, validity and examinability is litigated on the record.
+## Finding 1 — conciliar authority is invoked on the record, by bishops other than Augustine
 
-The term appears **58 times** across the acts span (lines 113000–131000). The *capitula* record the dispute in sequence:
+An OCR-tolerant `concili-` sweep restricted to the acts proper returns a small, clean set. These are the on-axis passages:
 
-- **Line 114365** — the Donatists argue the Catholics must submit to the loss either of their own mandate or of the imperial precept.
-- **Line 114369** — the Catholics' reply: that their mandate contains everything (*quod mandatum suum universa contineat*).
-- **Line 113800** — an *interlocutio* on the mandate and the Donatists' subscriptions.
-- **Line 114810** — an *interlocutio* ruling that the Catholics' mandate ought not to be examined (*mandatum Catholicorum non debere disquiri*), and that the Donatists should instead declare whether they wish the charges of *traditio* shown or the cause of the faith and of the Church treated.
+- **Aurelius of Carthage, act 40, line 117492** — normalized: *Nec enim egredi possumus limitem istius mandati, quod nobis patres vel fratres nostri universalis concilii Ecclesiae catholicae, hic apud Carthaginem constituti, mandarunt.* He cannot go beyond the limit of the mandate which the fathers and brothers of the **universal council of the catholic Church**, constituted at Carthage, gave.
+- **Line 118113** — the delegates describe themselves as *certi numero adsumus electi ab universali catholico concilio*: a fixed number, **elected by the universal catholic council**.
+- **Line 127075** — *nostri, quibus universale concilium mandavit* — those to whom the **universal council** gave mandate. Possidius speaks immediately after.
+- **Petilianus, act 9, line 116941** — on who may approach *illum tranquillissimum concilii locum* beyond the prescribed number: the council's own constitution as a procedural question, argued by the Donatist side.
+- **Augustine, act 158, line 121764** — not a debate speech but **his own subscription to the mandate**: *mandatum suscepi et subscripsi*, at Carthage, before Marcellinus. This is why act 158 carries none of the speech formula the other acts share, which Registry row 65 had already flagged as anomalous without identifying the cause.
 
-The mandate is twice read into the record by the office (lines 118124, 122189). A legal argument is made about whether the mandate of the remainder is superfluous where one holds it (line 117505).
+**So the delegation is not self-authorizing.** It is elected by, mandated by, and bound to the limit of a *universale concilium* — stated by Aurelius in his own voice, restated collectively twice, and subscribed by Augustine personally.
 
-## Finding 2 — Augustine's own act 50 is a claim about the scope of a collective episcopal mandate
+## Finding 2 — and it is genuinely contested, on the axis, between the two sides
 
-At **line 126796**, normalized: *Augustinus episcopus Ecclesiae catholicae dixit. Legatur mandatum nostrum, et intellegent quam cuncta contineat.* — "Let our mandate be read, and they will understand how much it contains."
+**Emeritus of Caesarea, line 117497** — normalized: *Fidei causa est, quae et sine mandato ipso iure agi potest... Quid est quod de mandato, vel de obligatione mandati, de subscriptione, de modo, de formulis, quaeritur?* — it is a cause of faith, which can be pursued by right **even without a mandate**; why is there all this questioning about the mandate, its obligation, subscription, manner and formulae? He continues (117505): *superfluumque sit ceterorum mandatum, cum in uno consistat Ecclesiae tota persona* — the mandate of the rest is superfluous, since the whole person of the Church subsists in one.
 
-The surrounding exchange is the point. Immediately before (line 126791), Emeritus argues for the forfeiture or cession of the mandate so that the parties may come to the cause. Immediately after (lines 126798–126799), Petilianus, Donatist bishop of Constantine, answers. At **line 126804** the imperial *cognitor* Marcellinus adjudicates, in act 51, reasoning expressly from the series of the mandate and the present profession (*ex mandati serie et ex praesenti professione*), and noting that the emperor prescribed no form for the conference but only that it should take place.
+**That is the disagreement, and it is precisely Candidate 5's axis.** The Catholic side grounds its standing in a universal council's mandate; the Donatist side answers that conciliar mandate is a formality irrelevant to the cause, since the Church's whole person subsists in one. Two rival theories of where authority above the individual bishop resides, argued on the record, by bishops who are neither Cyprian nor Augustine.
 
-This is Augustine speaking not as a theorist of conciliar authority in a treatise, but as one of seven delegates defending the scope of a collective episcopal authorization, against two named opposing bishops, before a state-appointed judge.
+**The first version of this read cited line 117505 neutrally, as "a legal argument about whether the mandate of the remainder is superfluous," losing both the speaker and the polarity** — and so missed that the strongest evidence for the axis being *contested* was sitting in the sentence it had already found.
 
-## Finding 3 — the participants are overwhelmingly clergy other than the two anchor figures
+## Finding 3 — the scale, stated honestly
 
-The subscription region (lines 118400–123000) carries **250 `episcop-` tokens** and **47 distinct `<Name> episcopus` forms** (some are OCR variants of one name — `Petilianus`/`Pelilianus`/`Peliliauus`; `Optatus`/`Oplalus`; `Severianus`/`Sevcrianus` — so the count of distinct persons is lower than 47, and no precise figure is asserted here). Named bishops subscribing include Assellicus of Tusuros (line 118422) and Constantinus (line 119042), among many others. The disputants named above — Emeritus of Caesarea, Petilianus of Constantine, Primianus of Carthage, Aurelius, Alypius — are all bishops other than Cyprian and Augustine.
+Within the acts proper there are **180 numbered speeches** across **93 raw speaker-tokens**, which collapse under OCR variation to roughly a dozen real persons: Marcellinus the *cognitor* (32 speeches), Petilianus (~20), Emeritus (9), Augustine (17, see below), Alypius (4), Aurelius (3), Fortunatianus (3), with Adeodatus and Possidius also speaking. **This is a small cast, not dozens of disputants** — the first version's "250 `episcop-` tokens across dozens of named bishops" counted Migne's footnotes and is withdrawn.
 
-## What this does to the test, stated without reaching the classification
+**Augustine speaks in 17 numbered acts, not fourteen.** Registry row 65 lists 50, 53, 98, 158, 160, 162, 187, 189, 201, 206, 257, 265, 267, 272; to these add **14** (line 125505, `Angustinus`), **230** (129294, `Autjuslinus`) and **252** (129318, `AM(jus!i?iMS`). All seventeen confirmed at their own lines. Row 65's instruction that any restatement carry the floor rather than assert fourteen flat is vindicated twice over.
 
-Candidate 5's Persistence bullet rests on an absence claim with two limbs. **Both are falsified by this read.**
+**`mandat-` in the acts proper: 35 strict, 64 OCR-tolerant** (`mandalo`, `mandalum`, `mandali`, `mandaium`). The first version reported 58 across a span mixing acts and apparatus, using the strict pattern only.
 
-- *"Independently visible outside the one locus each is drawn from"* — Augustine's position on the scope of collective episcopal authority is attested here in a second, independent, non-treatise locus, in his own recorded voice, decades after *On Baptism*.
-- *"Operative or contested among ordinary clergy — only between two specific bishops at two specific moments"* — inter-episcopal authority structure is here **operative** (a mandate delegating authority from the wider body to seven named delegates, read into the record) and **contested** (its scope, its forfeiture, and whether it may be examined at all, argued between named bishops on both sides and ruled on by the *cognitor*), among dozens of named clergy who are neither Cyprian nor Augustine.
+## What this supports, and what it does not
 
-**This read does not reclassify Candidate 5 and does not resolve the escalation.** Whether a strengthened Persistence result, together with a second independent Repetition locus, moves the candidate to Supporting, leaves it Tensional, or changes nothing, is the question escalated to the project lead on 2026-09-13 and is not decided here. What this record establishes is that the classification no longer needs to be argued against a disclosed evidentiary gap — the gap is closed, and the evidence runs against the test's current verdict.
+**Supports:** the axis is attested in a second, independent, non-treatise setting; it is invoked by named bishops other than the two anchor figures (Aurelius, Petilianus); and it is genuinely *contested* between the two sides as a question about where authority above the individual bishop lies.
 
-## Two corrections to the record, found in the course of this read
+**Does not support:** a claim that conciliar authority theory was operative among *ordinary clergy* or shaped ordinary formation. The cast is a dozen delegates and a judge. Candidate 5's Formation test is untouched by this evidence and still does not pass.
 
-**1. The floor of fourteen acts is genuinely a floor — there is at least a fifteenth.** Registry row 65 lists acts 50, 53, 98, 158, 160, 162, 187, 189, 201, 206, 257, 265, 267, 272. All fourteen are confirmed present at file lines 126796, 126874, 127458, 121764, 128393, 128450, 128716, 128731, 129009, 129060, 129393, 130240, 130313, 130298 respectively. **Act 14, at line 125505, printing `Angustinus episcopus` (n for u), is a fifteenth and is not on that list.** Row 65's own instruction that any restatement carry the floor rather than assert fourteen flat is vindicated.
+**Does not support either:** the first version's framing of the *mandatum* as in itself an inter-episcopal authority instrument. In Roman procedure a *mandatum* is a procuratorial instrument — a power to act for a party — and much of the litigation about it at 411 is exactly that. **What is on-axis is not the mandate as such but its stated source: a universal council, which elects the delegates and binds their limit, and whose standing the other side denies.**
 
-**2. The roster locators in Registry row 65 are one line low, for a reason already on the record — and are deliberately not corrected here.** Row 65 cites the `ACTORES VII` heading at 113067 and Augustine's entry at 113075; both sit at 113068 and 113076 in the file as it now stands. This is the same one-line drift `Doc02_Round30_Review.md` identified and root-caused: a single `Language: lat` header line inserted near the top of the file by the still-open fleet-wide language-header task. Round 30 deliberately declined to hand-patch the affected locators, on the ground that doing so would go stale again the moment that fleet-wide fix lands and touches the file. **That reasoning holds and is followed here**: this record cites the current lines and names the drift, and row 65 is left alone. The content each locator points at is confirmed correct either way.
+## What the first version of this read got wrong
 
-**3. This read reproduced its own documented failure mode twice, and the disclosure is the point.** A first scan for line-initial Augustine acts used a pattern requiring the letters `ust` and returned **seven** of the fourteen. A second, looser pattern returned **eight**. The seven missing acts were present the whole time, printed `Auguslinus`, `Augusiinus` and `Augutlimu` — `l` and `i` for `t`. Only a third pass, checking each named act number directly rather than trusting the scan, found them. **This is the same mechanism this build has recorded across five review rounds: a search too strict for the text it was run against, then trusted because it returned something.** It is recorded here because the Registry's count would have been wrongly contradicted on the strength of it, and because the discipline that caught it — go to each named instance rather than trust an aggregate search — is the same one the Round 3 and Round 4 reviews recommend for the document's own fix passes.
+Recorded rather than quietly replaced, because the pattern matters more than the corrections.
+
+1. **It never searched `concili-`** — roughly 100 hits in its own declared span — in a read commissioned to test a candidate named *Conciliar Authority Theory*. It searched `mandat`, `plenari`, `auctoritat` and `primat`. The single most obvious term went unrun, and with it the Aurelius sentence that is the best evidence in the file.
+2. **It reversed a passage's polarity.** Line 117505 is Emeritus arguing the mandate is beside the point; the read paraphrased it as neutral legal argument and used it to support the opposite conclusion.
+3. **It counted editorial apparatus as conference record.** "Constantinus, line 119042" is a bishop subscribing at the **Lateran Council of 649** under Pope Martin, named in Migne's footnote (72) to gloss a place-name. He was cited as a 411 subscriber.
+4. **Its `mandat` count was ~45% low**, excluding OCR variants — in the artifact that names too-strict searching as this build's documented failure mode.
+5. **It missed two of Augustine's acts** (230, 252) and misdescribed a third (158 is a subscription, not a speech).
+
+All five are the same mechanism in different clothes: **a check that proves something adjacent to the claim, then trusted because it returned something.** The correction that mattered was not a better pattern but a different move — enumerate the population and look at it, rather than pattern-match against it.
