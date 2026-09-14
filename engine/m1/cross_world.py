@@ -74,14 +74,19 @@ ACCEPTED_OPEN: dict[str, str] = {
     # its M3 admission and cic-website/cic-poc wiring that this in-between
     # window was never actually exercised against these four checks before.
     # Real, disclosed, structurally expected for a world awaiting M3
-    # admission - NOT a build-thread task to close now: census linking is
-    # real, later, post-admission work per Cappadocian's own precedent
-    # (CAPPADOCIAN_BUILD_LEDGER.md SS30). The frontend portrait-wiring pair
-    # (app-world-assets/gallic, app-world-order/gallic) closed 2026-09-13
-    # once Renatus's portrait was locked and cic-poc/frontend/src/data/
-    # worlds.ts was updated - removed from this dict, not left stale.
-    "registry-null-field/gallic.census_id": "gallic reached `admitted` 2026-09-13 but is not yet census-linked - Atlas/census linking is real, later, distinct work (see Cappadocian precedent SS31), not part of this world's own admission",
-    "census-id/gallic": "as registry-null-field/gallic.census_id - the Atlas deep link cannot exist until this world is census-linked, which is post-admission work",
+    # admission - NOT a build-thread task to close now. The frontend
+    # portrait-wiring pair (app-world-assets/gallic, app-world-order/gallic)
+    # closed 2026-09-13 once Renatus's portrait was locked and
+    # cic-poc/frontend/src/data/worlds.ts was updated; the census link
+    # itself (records/worlds.yaml census_id, world-census.json content
+    # accuracy, the traditions page, the index.html homepage card) closed
+    # the same day too - removed from this dict, not left stale. One real
+    # step remains, deliberately held for Mark's own word rather than
+    # flipped here (Cappadocian precedent, CAPPADOCIAN_BUILD_LEDGER.md
+    # SS30-SS32): world-census.json's own `status` field for this entry is
+    # still "Possible Future World (on record)", not "Built & Live", so the
+    # entries below stay open until that word is given.
+    "census-id/gallic": "census_id is set and the census entry is linked (2026-09-13), but world-census.json's own `status` for gallic-monastic-ascetic-christianity is not yet 'Built & Live' - the Atlas deep link this check tests cannot resolve until that field is flipped, which this build thread is deliberately not doing unilaterally. cic-website/index.html's own new homepage card for Renatus, and the new traditions/gallic-monastic-ascetic-christianity.html page, both link to this same not-yet-resolving deep link for the same reason - staged, not yet load-bearing, until the status flip.",
 }
 
 

@@ -572,8 +572,40 @@ a registry reader needs quickly:
   (`WORLD_ORDER`/`WORLD_ASSETS`, accent `#5A6B74`). The
   `app-world-assets/gallic`/`app-world-order/gallic` accepted-open
   disclosures in `engine/m1/cross_world.py` closed accordingly (removed,
-  not left stale). The fuller Atlas/census content upgrade
-  (`cic-website/data/world-census.json`'s `entry` block, status flip) is
-  separate, later, not-yet-started work, matching Cappadocian's own
-  distinct SS31/SS36 sequence - `census-id/gallic` and
-  `registry-null-field/gallic.census_id` remain open for that reason.
+  not left stale).
+- **Census link, content upgrade, tradition page, homepage card
+  (2026-09-13).** Mark: "yes, start on 1-4." `records/worlds.yaml`'s
+  `census_id` set to the census's own existing entry id
+  (`gallic-monastic-ascetic-christianity`, already on record from the
+  2026-08-26 G0 case, not newly authored). `cic-website/data/
+  world-census.json`'s `sourcing` and `why` fields upgraded against this
+  build's actual findings, same discipline as Cappadocian's own SS31: the
+  case document's own word-count arithmetic error corrected (502,441
+  words excluding Hilary of Poitiers, not the 366,371 first reported -
+  that smaller figure was actually the total with Cassian excluded
+  instead, per `gallic_Doc01_World_Identification.md`'s own correction),
+  the strand-singular finding folded in, construction-complete status
+  named. New page `cic-website/traditions/
+  gallic-monastic-ascetic-christianity.html` built to the fleet's own
+  template, its four sample questions and both honest-limits paragraphs
+  grounded directly in this build's own records (`gallic.gravity.
+  soldier-of-christ`, `gallic.gravity.grace-and-effort`, `gallic.story.
+  election-at-tours`, `gallic.limit.only-on-paper`), not invented copy.
+  Homepage card added to `cic-website/index.html`'s era-2 group.
+  **Found, not assumed:** `cic-website/index.html` is static markup, not
+  driven by `world-census.json` at request time - adding the homepage
+  card makes Renatus visibly clickable on the live production homepage
+  the moment this is pushed and deployed, regardless of the census
+  entry's own `status` field. `engine/m1/cross_world.py`'s own
+  `check_census_link` (exercised directly, not assumed) confirms the
+  `talk.html?worlds=gallic-monastic-ascetic-christianity` deep link both
+  the new card and the new tradition page use cannot actually resolve
+  until `world-census.json`'s `status` for this entry reads `"Built &
+  Live"` - so the card and page are staged, not yet load-bearing.
+  `census-id/gallic`'s accepted-open text was rewritten to name this
+  precisely (not deleted - the underlying condition changed but is still
+  real); `registry-null-field/gallic.census_id` closed outright, since
+  `census_id` is no longer null. The status flip itself (`status`,
+  `entry` block) is deliberately not done here, matching Cappadocian's
+  own distinct SS30-SS32 sequence - held for Mark's own explicit word,
+  not self-disposed.
