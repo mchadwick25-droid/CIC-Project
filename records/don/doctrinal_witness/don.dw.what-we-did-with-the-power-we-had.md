@@ -19,11 +19,11 @@ confidence:
     who enforced it repeatedly, because both damaged us. Neither is a hostile characterisation that could
     be discounted; both are documents. What is NOT documented is the reasoning on our side for any of
     it, and the record says so. The temples question is refused: we never held that kind of power, and
-    nothing in this compilation records what we did where we were locally dominant. Added 2026-09-14: two
-    further specific, named allegations - a bread boycott reaching an ordinary tradesman's own hands, and
-    a hostile narrative portrait of our own country members reversing master and slave on the road - are
-    each single-sourced from an opponent and held to the same standard as the Circumcellion paragraph
-    already below: named and not denied, not repeated as a police report either.
+    nothing in this compilation records what we did where we were locally dominant. Added 2026-09-14: one
+    further specific, named allegation - a bread boycott reaching an ordinary tradesman's own hands - is
+    single-sourced from an opponent and held to the same standard as the Circumcellion paragraph already
+    below: named and not denied, not repeated as a police report either. A second candidate addition, fuller
+    hostile detail on Circumcellion conduct, was drafted and withdrawn - see the body note below.
 sources:
 - source_id: don.source.optatus-appendix-of-documents
   locus: the Gesta apud Zenophilum (320) - Purpurius's, Fortis's and Sabinus's letters, each closing with
@@ -46,9 +46,6 @@ sources:
 - source_id: don.source.augustine-answer-to-petilian
   locus: Book II, ch. 84, SS184 - our leader Faustinus's bread boycott at Hippo, and the baker who carried
     it out against his own landlord
-  license: public-domain
-- source_id: don.source.optatus-against-the-donatists
-  locus: Book III, ch. 4 - creditors and debts, and masters run in servile fashion before their own slaves
   license: public-domain
 retrieval:
   tier: 1
@@ -109,16 +106,7 @@ text: >-
   against we know from imperial law. What they actually did comes almost
   entirely from people writing to make them look like a mob, and we will
   not repeat that portrait as though it were a police report, or deny it
-  as though we had a better one. One of the fuller versions of that
-  portrait describes them making debts uncollectable - creditors "hemmed
-  in with perils" until they begged the very people who owed them - and,
-  on the road, masters thrown from their own chariots and made to run in
-  front of their own slaves, riding where the master had ridden. "The
-  condition of masters and slaves was completely reversed," the same
-  account says. We were not there and cannot confirm it happened as
-  described, in that manner or that often; we also will not wave it away
-  as invention, because the same account is the one imperial law eventually
-  moved against, for reasons of its own.
+  as though we had a better one.
 
 
   The temples, and what became of the old gods once Christians had the
@@ -137,8 +125,6 @@ positions:
   doctrine at its most absolute'
 - a bread boycott ordered by a leader of ours reached an ordinary baker and, through him, a Catholic
   deacon's own household - the fight was not only fought by bishops and generals
-- a fuller hostile portrait of our own country members describes debt made uncollectable and masters run
-  in servile fashion before their own slaves; we can neither confirm nor dismiss it
 - we never held the kind of power the question about the temples assumes, and nothing survives of what
   we did about the old religion where we were locally dominant
 tensions:
@@ -184,7 +170,24 @@ The audit's own original framing of the boycott episode had the baker as
 its victim; re-reading the passage directly shows the opposite - the baker
 carries out his own leader's order against his landlord, a Catholic deacon,
 who is the one "cut off... in his own house." The text as added here follows
-the passage's actual grammar, not the audit's first pass at it. Both
-additions are written to the identical discipline the existing Circumcellion
-paragraph already used: name the specific, hostile-sourced charge, neither
-repeat it as confirmed fact nor deny it for lack of a counter-account.
+the passage's actual grammar, not the audit's first pass at it. That
+addition is kept.
+
+**The Circumcellion addition was drafted, then withdrawn after independent
+review.** The Optatus III.4 passage this pass quoted is the immediate
+continuation of the Axido/Fasir material - the same "Captains of the
+Saints" episode `Doc_09_Story_Inventory.md` SS6 examined and explicitly
+declined to build into any story chunk, naming it "a genuinely live Article
+23 question this document's own scope should not resolve casually" and
+reserving its disposition to the project lead; `don_Decision_Log.md`
+(line 564 as of this pass) still lists that question open. Building the
+same material into a Tier-1, retrieval-enabled doctrinal_witness record
+would have resolved that reservation in passing, without naming it. Review
+also caught the added closing clause using the Theodosian legislation to
+corroborate Optatus's own characterisation of the Circumcellions - exactly
+the merger `don.core.donatism` caution 4 forbids, and factually wrong besides
+(the officer who acted, per Optatus's own text, was Taurinus on the
+Donatist bishops' own letter, not the later imperial anti-Circumcellion
+law). Both the text and the `don.source.optatus-against-the-donatists`
+citation have been removed. The material - and the standing Article 23
+question it runs into - is left for the project lead, not resolved here.

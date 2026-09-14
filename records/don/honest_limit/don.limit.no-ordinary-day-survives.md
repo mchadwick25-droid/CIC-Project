@@ -40,6 +40,7 @@ sources:
   license: public-domain
 - source_id: don.source.lucilla-and-the-second-unnamed-woman
   locus: Optatus I.16 and Augustine Letter XLIII SS26 - the whole of what survives on women among us
+    in their own names
   license: public-domain
 - source_id: don.source.passio-donati-sermon
   locus: the one day of the year that is described - the account read aloud at the grave on the twelfth

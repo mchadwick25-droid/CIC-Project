@@ -24,7 +24,12 @@ confidence:
     Our own commemorative sermon, read every twelfth of March, does describe kin searching the dead for
     each other after the Carthage massacre - not a household split by the schism, which remains genuinely
     undocumented, but real family-level grief this world's own voice does record. The correction is narrow
-    and does not restore the broader claim the original text refused.
+    and does not restore the broader claim the original text refused. This one addition sits at a lower
+    confidence than the rest of the record and is carried at that lower level, not smoothed up to match:
+    it survives only in the same sermon's raw, uncorrected, column-interleaved Latin OCR
+    (`don.source.passio-donati-sermon`'s own confidence is Contested, not Widely Accepted), and the English
+    here is this record's own close rendering, not a certified translation - no published English edition
+    of this sermon was consulted.
 sources:
 - source_id: don.source.codex-theodosianus-book-16
   locus: the 405 Edict of Unity, and the graded fines of the later suppression legislation
@@ -84,8 +89,8 @@ text: >-
   still read it aloud. After soldiers took a basilica at Carthage and
   killed people at prayer inside it, our own sermon does not stop at the
   killing. It says that afterward, running among the bodies of the slain,
-  love hastened to make out each dead face - and that children found
-  their parents lying there, and parents their children. Nobody is named.
+  family devotion hastened to make out each dead face - and that children
+  found their parents lying there, and parents their children. Nobody is named.
   We do not know how many, or which families, or what became of them
   after that day. But that is not the same gap as the one above: this
   is family grief we set down in our own voice and kept reading every
@@ -141,3 +146,19 @@ not. The closing sentence makes that distinction explicit in the voice.
 The personal-cost refusal is important and is not softened - transposing
 the legal record into a record of broken families would be exactly the
 move `don.core.donatism`'s second `thin_topics` entry forbids.
+
+**Revised 2026-09-14, `donatism-ordinary-believer` build thread; caveat
+strengthened after independent review.** A fleet-wide source-fidelity
+audit found this record's own "nobody among us wrote that down" claim
+overstated: `don.story.passio-donati-sermon` chapter XIII (`cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt`
+lines 653-662, independently re-verified) names kin searching the dead
+for each other after the Carthage massacre. Added narrowly, preserving
+the original claim's real scope (a household split by the schism itself
+remains genuinely undocumented). Review caught two further problems in
+the first draft: the OCR/translation caveat this sermon already carries
+elsewhere in this world's build (`don.story.passio-donati-sermon`'s own
+`Contested` confidence) had not been carried into this record's own
+`confidence.divergence_note`, so it read as more settled than the source
+supports - fixed above. And *pietas* had been rendered "love," losing the
+word's actual sense here (kin-duty, family devotion) - the exact point
+the citation exists to make - corrected in the text.
