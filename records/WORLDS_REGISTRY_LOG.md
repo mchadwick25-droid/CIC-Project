@@ -683,3 +683,17 @@ a registry reader needs quickly:
   addition of this kind, which is real billed spend - held for the
   project lead's own word before spending rather than run
   unilaterally.
+- **Re-admission after the Salvian expansion: 28/28, 2026-09-14.** Mark's
+  own word, in session: "yes, run it." Preflight confirmed against
+  `us.anthropic.claude-sonnet-4-5-20250929-v1:0` (us-east-1) before
+  spending - cache engaged on both the non-streaming and streaming
+  paths, matching spec SS7. Live sealed-probe battery re-run against
+  the re-pinned package (`sha256:9f7211822ac9771b1b22175d492675973
+  d954a36f15f297daec54d9f06b6c8f8`, `packages/gallic/2026-09-14T15-25-
+  13Z`, the package carrying the three new Salvian records): 28/28
+  passed, 0 failing probes. Report:
+  `engine/m3/reports/live-admission-report-gallic-2026-09-14.json`.
+  Real token counts recorded (13,770 input / 15,221 output / 35,797
+  cache-write / 966,519 cache-read); no $/token or $/turn figure
+  quoted, per spec principle 13, until reconciled against a real AWS
+  invoice.
