@@ -289,5 +289,57 @@ changelog; `SHELF.md` is generated and carries no notes.
 5. Root manifest and CLAUDE.md correction.
 6. Freeze window and execution phases; Opus gate; promotion mechanics for D3.
 
-**Status:** divergent round 2 closed on D1–D3. Nothing moved, deleted, or committed. This
-file is on branch `claude/repo-structure-cleanup`, uncommitted, pending Mark's go.
+---
+
+## 2026-09-14 — Phase 1 executed on `claude/repo-structure-cleanup`
+
+**Commit `5aedf3df`** (517 renames, 161 rewritten files, 6 additions, 2 deletions), after
+Gate A. Nothing Render, Cloudflare or the engine reads moved. Executed exactly per the frozen
+tree with CO-1 and CO-2; verified before commit: no double prefixes; `ci.yml` census paths
+updated; both `generate_voice_index.py` generators rewritten; Pass3 scripts resolve their
+data at the new depth; every changed `.py` compiles; the Pass2 gate scripts still find the
+repo root. `tools/check_paths.py --baseline tools/check_paths_baseline.txt`: 0 new
+unresolved citations, 0 retired paths present, 332 accepted.
+
+**Correction, same day, next commit:** the move script ran single-file moves before
+directory moves, so `git mv` nested `L3B-World-Build-Methodology/` and
+`L3D-Encounter-Methodology/` inside the `reference/` directories the file moves had just
+created. Caught by the binary-citation scan, not by the path check — because the baseline
+had been regenerated after the move and absorbed the breakage. Flattened; the baseline was
+then rebuilt as a diff against the pre-move tree (269 → 331: the additions are the 75
+`records/` citations deferred by design and the remainder reference-internal or record-set
+citations of the same kind, listed per file). Lesson recorded for phase 2: order moves
+directory-first, and never regenerate a baseline without diffing it.
+
+**Root now:** `README.md` (the map) `CLAUDE.md` `.gitignore` `render.yaml` `wrangler.jsonc`
+`.github/` · `engine/` `records/` `packages/` `canon/` `fixtures/` `cic/` `cic-poc/`
+`cic-website/` · `World-Builds/` `world-build-docs/` `tools/` · `reference/` · `Ministry/` ·
+`Archive/` · and one file waiting for phase 2, `CiC_W1_Phase5_RelationalSafety_Retest_
+Against_Proposed_Mechanism_DRAFT.md` → `worlds/pahc/`.
+
+**Supplemental record:** `Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md`
+— every old → new path, the commit, the binaries that embed old paths and cannot be
+rewritten, and what was not rewritten by design.
+
+**Flagged to owning threads (in the accepted baseline, not touched here):**
+- `records/` — 75 citations of moved paths, mostly the Register Bar; fix at each world's
+  next recompile and repin (Package rebuild after a records/ edit: just do it).
+- 126 citations of the retired `cic-poc/backend` across World-Builds and Ministry current
+  documents; 23 citations of `Ministry/Technology/…` paths that moved in the July reorg;
+  `World-Builds/Nicene-Cappadocian` (renamed to `Cappadocian`); `…Framework_V7.4_DRAFT.docx`
+  (the DRAFT became V7.4). Per-file list: `tools/check_paths_baseline.txt`.
+- CLAUDE.md line 23 cites `phase2_checkpoint.py`, which exists nowhere in the repo.
+
+**Mark's actions, in order:**
+1. Review and merge the PR for this branch. Merging to `main` deploys (D3's staging/prod
+   split is phase 3), but no deploy-read path changed; CI's docker-build job is the proof.
+2. Add the new `check-paths` job to `main`'s required status checks (branch protection
+   currently requires "11 of 11"); until then the job runs but does not gate.
+3. Declare the phase-2 freeze window for the world trees (Gate B), naming the branches to
+   land first: LPC, Gallic, PAHC, IJC, Syriac, Donatism, Desert, apologists.
+4. Confirm the Render staging-service cost for D3 (render.com is egress-blocked from the
+   sandbox; the Blueprint's per-service branch field could not be verified from here).
+5. Register codes for the four candidate worlds (P6): `gallic`, `lpc`, and two to name.
+
+**Status:** phase 1 done, pending merge. Phase 2 waits for Gate B. Phase 3 (promotion
+model, optional renames) and WO-1…5 are handed off as work orders above.
