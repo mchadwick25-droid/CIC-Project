@@ -4,17 +4,17 @@ Companion to `Doc_04_Gravity_Discovery.md`. It holds every claim that document h
 
 Entries record what was claimed, what is wrong with it, and which review round established that. They are not an account of any pass's work.
 
-Nothing here is a live claim. Nothing in `Doc_04_Gravity_Discovery.md` relies on anything in this file.
+Nothing here is a live claim. **One narrow finding recorded at §2 is relied on by `Doc_04_Gravity_Discovery.md` and is named there: that act 158 is Augustine's subscription to the delegation's mandate.** This file records the withdrawn claims its sections cover; it is not an exhaustive index of every claim the document has ever revised, and §4 in particular is a selection.
 
 ---
 
-## 1. Candidate 5's classification — five successive bases, four withdrawn
+## 1. Candidate 5's classification — five successive bases, all five superseded
 
 **1.1 "Did-not-reach-gravity-status."** A fourth label taken from `Doc_04_Gravity_Discovery_Template_V1.0.md` §4, which Construction Framework V7.4 Part III does not contain. Withdrawn: Round 1 H4 found it reached past Supporting and Tensional without either being run against the candidate. A supporting claim that Imperial-Juridical-Christianity's Doc_04 provided "a second independent world's own use of the same label" was also false — IJC used it once, withdrew it on review, and recorded the reach as an instance of the Template's own warned-against risk.
 
 **1.2 Tensional.** Withdrawn: Round 2 H5 found the definition quoted and never argued. Its operative limb — *"prevent the ecology from being reducible to its primary forces"* — was never run, and the candidate's own results run against it: nothing depends on it, it moves under no named external force, and all three of its demonstrated relations in §6 are *reinforcing*, with no competing or reshaping relation anywhere in the matrix. The analogy to Candidate 8 failed on exactly the property Tensional names: Candidate 8 *competes* with Candidate 2.
 
-**1.3 Supporting, on the Framework's "third clause."** Withdrawn: Round 8 found CF V7.4's Supporting definition is **two sentences, not three clauses**. What was counted as a third clause — *"may not demonstrate the same breadth of dependency or persistence"* — is a concession attached to a requirement to *pass* multiple tests. It concedes lesser breadth, does not license a test that does not pass, and says nothing about Formation.
+**1.3 Supporting, on the Framework's "third clause."** Withdrawn: **Round 7's H8** found CF V7.4's Supporting definition is **two sentences, not three clauses**. What was counted as a third clause — *"may not demonstrate the same breadth of dependency or persistence"* — is a concession attached to a requirement to *pass* multiple tests. It concedes lesser breadth, does not license a test that does not pass, and says nothing about Formation.
 
 **1.4 Supporting, with the gating clause denied.** Withdrawn: Round 8 H1 found the denial an **invalid inference**. §3's Confidence/Gravity Cross-Check reads *"their organizing breadth is not supported at the same level, this candidate's own six-test profile above being narrow at best."* §3's Classification quoted it as *"is not supported at the same level… narrow at best,"* concluding *"which is the opposite of organizing significant portions of the ecology."* The ellipsis deletes seven words and moves *"narrow at best"* off the **six-test profile** and onto **organizing breadth**, converting a statement about evidential confidence into a substantive denial. CF V7.4 forbids that collapse in terms: *"This cross-check exists because gravity strength and evidential confidence are distinct properties that can diverge."*
 
@@ -43,6 +43,8 @@ Doc_04 §5 at one point held that Doc_01 §8 item 10's reopening trigger was **m
 ---
 
 ## 4. Citation and attribution claims withdrawn
+
+A selection, not an index. Where a round is not named against an entry, the finding's origin is not recorded here and the `Review-Artifacts/` files are the source.
 
 - **"Doc_02 §10's own Article 3 coherence argument"** (Candidates 2 and 3) — Doc_02 contains no Article 3 argument. Round 1 H1. Repointed to Doc_01 §5; Round 2 H2 then found the *claim* false of §5 as well, and it is now stated as this document's own reading.
 - **The Letter 185 §25 fine** — *CTh* XVI.5.52's circumcellion fine (silver, 412) was asserted as the provision behind §25 (gold). The correcting sentence then quoted §25 with a passage from *Answer to the Letters of Petilian* II. Both withdrawn; the provision is *CTh* XVI.5.21.
