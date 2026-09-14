@@ -387,3 +387,52 @@ correction.
 **Status:** waiting on `claude/gallic-monastic-world-build` and `donatism-lpc-integration`
 to merge. Phase 3 (promotion model, optional renames) and WO-1…5 remain handed off as work
 orders above.
+
+---
+
+## 2026-09-14 — `donatism-lpc-integration`: main merged in; real content reconciliation surfaced, handed to the Donatism thread
+
+Mark asked directly: "merge main into donatism-lpc-integration and resolve conflicts." Two
+Donatism worlds turned out to exist — not a stale branch behind a clean trunk, but two
+independent full authoring passes from the same day (2026-09-10), diverged since. Pushed as
+`1fd6696fd` on `donatism-lpc-integration` (merge commit, no history rewritten); full reasoning
+in the commit message. Summary:
+
+**Resolved (Mark's ruling, first pass):** for every file where both sides authored the same
+record, main's version wins — fuller in source (55/41), figure (24/16), and (found only
+after this ruling) doctrinal_witness (25/3), contested_claim (8/4), demonstration (9/3);
+`census_id: "donatism"` resolves against `world-census.json`, the branch's
+`"donatist-north-africa"` does not; main's package is the one currently live/pinned.
+Representative title → main's "Bishop of the Unbroken Line"; the Fidelis portrait prompt's
+one reference corrected to match (image unaffected). The Phase Six coordination and
+facilitation-brief conflicts in `World-Builds/Donatism/` resolved the same way — main's are
+later revisions (Round 4 vs Round 1) of the same documents, independently reviewed and
+disposed by the project lead.
+
+**Correction, same pass:** my first read ("main is simply fuller") was wrong and I said so
+before committing anything. The real per-type picture is not a superset relationship —
+after taking main's side of every conflict, the merge still pulled in every file that exists
+on only ONE side (git's normal non-conflicting-add behavior), and that surfaced real gaps in
+both directions.
+
+**Not resolved — handed to this world's own build thread, per Mark's decision to route this
+rather than have this thread (or me) decide it:**
+- **Duplicate `voice_craft`.** `don.voice.craft.md` (main's, fleet-standard naming) and
+  `don.craft.fidelis-voice.md` (the branch's, the same non-standard pattern already accepted
+  as a defect for pahc) both now exist. A world should have exactly one.
+- **Record categories present on the branch, thin or absent on main:** `ambient` (3, zero on
+  main), `search_record` (9 vs 1), `honest_limit` (12 vs 3) — real research currently
+  invisible to the live, registered build.
+- **`term` (21/21) and `quote` (4/4) tie in count but differ in content and IDs** on each
+  side — independently authored, not additive; likely near-duplicates needing a real compare.
+- **Flagged, not touched:** a pre-existing `Fidelis_Portrait.png.jpg` sits at
+  `Representative-Portraits/` root (every other world's portrait lives in its own subfolder,
+  including this one's own `donatism/`) — looks like a stale artifact predating the approved
+  workflow.
+
+**Verification before push:** `engine.m1.loader.load_world_records` parses the merged tree
+without error (4,624 records, no schema-parse failure). No gate battery or admission run —
+that's this world's own thread's step once the reconciliation above is settled.
+
+**Status:** merged and pushed. Content reconciliation is `donatism-lpc-integration`'s own
+next step, not this thread's.
