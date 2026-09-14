@@ -29,12 +29,16 @@ modern_lens_note: >-
   modern administrative title.
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
+- {type: associated-with, target: ijc.quote.ammianus-sicininus-massacre}
 ---
 Text verified verbatim against the vendored file 2026-08-21. The hard
 F6 fact in a church historian's own words: Damasus's episcopate - the
 one that built the martyr-verse program - began amid partisan violence
 over nothing "but simply as to who should be bishop." The pagan
-historian's fuller account (Ammianus 27.3, with its casualty figure)
-is not vendorable this session (ijc.search.ammianus-english) and is
-referenced only. This world tells this against itself, as its own
-sources do.
+historian's fuller account (Ammianus 27.3, with its casualty figure) is
+now vendored and quoted directly - see ijc.quote.ammianus-sicininus-
+massacre, added 2026-09-13 once a copy of Ammianus's own text was
+located and verified (previously referenced only, per
+ijc.search.ammianus-english). This world tells this against itself, as
+its own sources do - now corroborated by an outside, non-Christian
+witness as well.
