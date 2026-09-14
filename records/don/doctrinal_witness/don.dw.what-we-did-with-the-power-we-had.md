@@ -19,7 +19,11 @@ confidence:
     who enforced it repeatedly, because both damaged us. Neither is a hostile characterisation that could
     be discounted; both are documents. What is NOT documented is the reasoning on our side for any of
     it, and the record says so. The temples question is refused: we never held that kind of power, and
-    nothing in this compilation records what we did where we were locally dominant.
+    nothing in this compilation records what we did where we were locally dominant. Added 2026-09-14: one
+    further specific, named allegation - a bread boycott reaching an ordinary tradesman's own hands - is
+    single-sourced from an opponent and held to the same standard as the Circumcellion paragraph already
+    below: named and not denied, not repeated as a police report either. A second candidate addition, fuller
+    hostile detail on Circumcellion conduct, was drafted and withdrawn - see the body note below.
 sources:
 - source_id: don.source.optatus-appendix-of-documents
   locus: the Gesta apud Zenophilum (320) - Purpurius's, Fortis's and Sabinus's letters, each closing with
@@ -38,6 +42,10 @@ sources:
 - source_id: don.core.donatism
   locus: 'cautions 4 and 8: the Circumcellion characterisation is shaped by polemic; the refusal is dominant,
     not absolute'
+  license: public-domain
+- source_id: don.source.augustine-answer-to-petilian
+  locus: Book II, ch. 84, SS184 - our leader Faustinus's bread boycott at Hippo, and the baker who carried
+    it out against his own landlord
   license: public-domain
 retrieval:
   tier: 1
@@ -78,6 +86,21 @@ text: >-
   record, in the same documents where our doctrine is at its hardest.
 
 
+  It reached further down than councils and generals, too. The same
+  opponent who lists our worst episodes names a leader of ours, Faustinus,
+  who at Hippo ordered that no one should bake bread for Catholics, "in
+  consequence of the scanty numbers of the Catholics in the place." A
+  baker - an ordinary man, the tenant of one of the other side's own
+  deacons - did as he was told and threw away his own landlord's bread
+  unbaked, and that deacon was, in the telling, cut off from what he
+  needed "not only in a Roman state, but even in his own country, and not
+  only in his own country, but in his own house." We do not know the
+  baker's name, his reasons, or what became of him afterward, and we will
+  not supply them. What the story shows, if it is true as told, is that
+  this fight reached into an actual bakehouse and an actual household,
+  carried out by someone with no office at all.
+
+
   Our country members are said to have attacked the other side's clergy
   and forced washings on people. That they existed and were legislated
   against we know from imperial law. What they actually did comes almost
@@ -100,6 +123,8 @@ positions:
   defence of that from our own side survives
 - 'none of this was concealed: it stands in our own conciliar record and in the same texts that state our
   doctrine at its most absolute'
+- a bread boycott ordered by a leader of ours reached an ordinary baker and, through him, a Catholic
+  deacon's own household - the fight was not only fought by bishops and generals
 - we never held the kind of power the question about the temples assumes, and nothing survives of what
   we did about the old religion where we were locally dominant
 tensions:
@@ -107,6 +132,8 @@ tensions:
   and we will not supply one
 - the conduct of our own country members is known through the polemic of people who needed them to look
   dangerous; their existence is independently established and their character is not
+- the baker's own name, motive, and fate are not recorded, and neither is the boycott's own justification
+  from our side; only its effect on the deacon's household survives
 - everything hardest to admit here survives precisely because an opponent found it useful, so the record
   of our failures is better preserved than the record of anything else about us
 relations: []
@@ -127,3 +154,40 @@ direction.
 This is one of only two cells (with F6-I) where the strongest available
 material is the material that damages this world, and the record is
 written so that the damage is not softened on the way through.
+
+**Revised 2026-09-14, `donatism-ordinary-believer` build thread.** A
+fleet-wide source-fidelity audit named two specific allegations, single-sourced
+from Augustine and Optatus respectively, that were not yet in this record:
+a bread boycott at Hippo reaching a named-office-holder's own household
+through an unnamed baker (Augustine, *Answer to Petilian* II.84.184,
+`cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml` lines
+17440-17444, re-verified directly), and a fuller hostile narrative of
+Circumcellion conduct - uncollectable debts and masters made to run before
+their own slaves (Optatus, *Against the Donatists* III.4,
+`cic/texts/optatus_against-the-donatists.txt` line 2004, re-verified directly).
+
+The audit's own original framing of the boycott episode had the baker as
+its victim; re-reading the passage directly shows the opposite - the baker
+carries out his own leader's order against his landlord, a Catholic deacon,
+who is the one "cut off... in his own house." The text as added here follows
+the passage's actual grammar, not the audit's first pass at it. That
+addition is kept.
+
+**The Circumcellion addition was drafted, then withdrawn after independent
+review.** The Optatus III.4 passage this pass quoted is the immediate
+continuation of the Axido/Fasir material - the same "Captains of the
+Saints" episode `Doc_09_Story_Inventory.md` SS6 examined and explicitly
+declined to build into any story chunk, naming it "a genuinely live Article
+23 question this document's own scope should not resolve casually" and
+reserving its disposition to the project lead; `don_Decision_Log.md`
+(line 564 as of this pass) still lists that question open. Building the
+same material into a Tier-1, retrieval-enabled doctrinal_witness record
+would have resolved that reservation in passing, without naming it. Review
+also caught the added closing clause using the Theodosian legislation to
+corroborate Optatus's own characterisation of the Circumcellions - exactly
+the merger `don.core.donatism` caution 4 forbids, and factually wrong besides
+(the officer who acted, per Optatus's own text, was Taurinus on the
+Donatist bishops' own letter, not the later imperial anti-Circumcellion
+law). Both the text and the `don.source.optatus-against-the-donatists`
+citation have been removed. The material - and the standing Article 23
+question it runs into - is left for the project lead, not resolved here.

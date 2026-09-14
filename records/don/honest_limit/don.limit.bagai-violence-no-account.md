@@ -21,6 +21,8 @@ sources:
 relations:
 - type: associated-with
   target: don.gravity.circumcellion-agonistici
+- type: associated-with
+  target: don.dw.becoming-one-of-us
 statement: 'You ask whether we ever failed to hold our own people accountable for real harm. There are
   specific, named charges against us: a bishop beaten and nearly killed at Bagai; a converted presbyter
   dragged from his house and beaten; men said to have been forced back to our own washing against their
@@ -43,3 +45,5 @@ nearest_material:
 - don.contested.circumcellion-character
 ---
 Celled to F3-P ('Did your churches ever fail to hold their own people accountable for real harm -- and if so, what happened?') -- a direct match for exactly the shape of question this world's own record cannot answer from the inside. Distinguished from don.contested.circumcellion-character (a genuine, already-built scholarly contest over the group's typical CHARACTER and SCALE, register etic) -- this record's own limit is narrower and different in kind: not whether the hostile portrait is overstated, but whether THIS WORLD'S OWN RECORD can speak, in its own voice, to these SPECIFIC, dated, named episodes at all. It cannot, on either question. Per Doc_09 SS8 item 3's own discipline (quoted above), this record's own statement does not itself narrate the specific allegations' content in a way that could be mistaken for this world confirming, denying, or minimizing them -- it names the limit, once, at the level of generality Doc_09 itself uses. relations[] carries one edge, to don.gravity.circumcellion-agonistici (the D-A gravity this limit's own subject matter falls under) -- reciprocal edge added directly to that file after this script runs. No relations[] edge to don.contested.circumcellion-character specifically (a different claim, sourced and reasoned differently); nearest_material lists it instead, per that field's own job.
+
+**Reciprocal edge added 2026-09-14** (`donatism-ordinary-believer` build thread): `don.dw.becoming-one-of-us` now cross-references the Mappalian/Crispinus charge this record already names. Its first drafted revision claimed to follow "the identical discipline" while actually narrating that charge's own particulars in full -- a real break from the discipline this record set, caught by independent review and corrected before this note was written. The corrected version of `don.dw.becoming-one-of-us` names only that such a charge exists and points here for it, which is what "identical discipline" should have meant the first time. This record's own text is unchanged.
