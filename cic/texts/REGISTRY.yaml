@@ -1899,3 +1899,39 @@
     formal Doc_02 §13A-style Boundary Check performed beyond the corpus-map note's own
     reasoning; no WRS record cites this file yet; building lexicon/story content from it
     (especially the named-teacher passage) is a separate decision, not made here.
+- filename: paulinus-milan_vita-ambrosii_kaniecka1928.txt
+  supplied_by: Claude (fleet cross-world research thread found and verified the edition on
+    archive.org; the ijc thread fetched, normalized, and vendored it)
+  date_added: '2026-09-13'
+  notes: >-
+    Paulinus of Milan, Vita Ambrosii, trans. Sister Mary Simplicia Kaniecka (Catholic
+    University of America, 1928) - closes ijc.source.paulinus-vita-ambrosii's own
+    'unvendored, fails closed for quotation' state (see ijc.search.paulinus-vita-english).
+    This source's edition was correctly identified from bibliographic listings during
+    ijc's step 2 (2026-08-21), but no patristic-text host this build's sandbox could reach
+    at that time carried a copy. Found on the Internet Archive (identifier
+    vitasanctiambros0000paul, not access-restricted) and fetched directly this session -
+    archive.org is reachable from this sandbox even where ccel.org/newadvent.org/
+    tertullian.org are not. Raw djvu OCR text; runs of 2+ spaces (a scan-layout artifact)
+    collapsed to one throughout, no wording changed - see the file's own prepended note.
+    The bee-swarm infancy legend (ch. II) this build's ijc.story.bees-of-milan already
+    cites via bibliographic reference is directly present and verified in this file; that
+    story's own Tier 3 'told without verbatim quotation' choice stays in force by design
+    (hagiographic legend, not documented biography), now for that reason alone rather than
+    unavailability as well.
+- filename: ammianus-marcellinus_roman-history_yonge1862.txt
+  supplied_by: Claude (fleet cross-world research thread found and verified the edition on
+    archive.org; the ijc thread fetched, normalized, and vendored it)
+  date_added: '2026-09-13'
+  notes: >-
+    Ammianus Marcellinus, Res Gestae (Roman History), trans. Charles Duke Yonge (Bohn's
+    Standard Library, 1862) - closes ijc.source.ammianus-marcellinus's own 'fails closed
+    for quotation' state (see ijc.search.ammianus-english). Book XXVII.3.12-13, the 366
+    Damasus/Ursinus election riot at the Basilica of Sicininus with its 137-dead casualty
+    figure, was previously reachable in this build only at second hand, via npnf202's own
+    editorial endnote quoting Ammianus rather than Ammianus's own prose. Found on the
+    Internet Archive (identifier romanhistoryofam00ammiiala, not access-restricted) and
+    fetched directly this session, on the same basis as the Paulinus entry immediately
+    above. Raw djvu OCR text, same whitespace-only normalization applied, no wording
+    changed. Book XXVII.3.12-13 verified directly against this file and now carries its
+    own verbatim quote record, ijc.quote.ammianus-sicininus-massacre.

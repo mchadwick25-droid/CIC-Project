@@ -25,6 +25,8 @@ sources:
 relations:
 - {type: illustrated-by, target: ijc.quote.socrates-damasus-election}
 - {type: illustrated-by, target: ijc.quote.jerome-damasus-verses}
+- {type: illustrated-by, target: ijc.quote.ammianus-sicininus-massacre}
+- {type: illustrated-by, target: ijc.quote.ammianus-roman-luxury}
 names:
 - name: Damasus
   tag: in-world
@@ -46,13 +48,13 @@ his and Ursinus's parties, not merely the disputed election's chapter
 heading ("Sedition and Loss of Life"), corrected at review (Opus
 historical-accuracy pass, 2026-08-21) from a prior draft that quoted
 the heading as if it were Socrates's own sentence. Ammianus's own fuller
-pagan account (27.3) is not vendorable this session
-(ijc.search.ammianus-english) and is not quoted; but the vendored
-npnf202 file's own editorial endnote to this chapter quotes Ammianus's
-casualty figure directly - 137 citizens killed in a single day - a fact
-this build carries from the vendored file itself, not from outside
-scholarship. This world tells that fact rather
-than hiding it; it is F6 material. Source discipline: his genuine
+pagan account (27.3) is now vendored and quoted directly
+(ijc.quote.ammianus-sicininus-massacre, ijc.quote.ammianus-roman-luxury;
+added 2026-09-13) - the casualty figure, 137 citizens killed in a single
+day, now stands on Ammianus's own words rather than the vendored npnf202
+file's own editorial endnote quoting him, which is where this build
+carried the figure from before that date. This world tells that fact
+rather than hiding it; it is F6 material. Source discipline: his genuine
 synodical letters (embedded in Theodoret) and the epigraphic program
 (witnessed by Jerome, his own sometime secretary) carry his record; the
 decretal corpus under his name stays unused

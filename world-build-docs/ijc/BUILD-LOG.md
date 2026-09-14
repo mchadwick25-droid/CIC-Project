@@ -227,7 +227,7 @@ at `records/ijc/voice_craft/ijc.voice.craft.md`'s trailing body and in `records/
 comment.
 
 **Step 5 build.** One `voice_craft` record (`ijc.voice.craft`) and eight `demonstration` records, drafted
-on Sonnet against `alx.voice.craft`/`alx`'s six demonstration records and `reference/fleet-voice/EXEMPLAR-TRANSCRIPT.md`
+on Sonnet against `alx.voice.craft`/`alx`'s six demonstration records and `fleet-voice/EXEMPLAR-TRANSCRIPT.md`
 (`world/alexandria`) as the worked model — `records/pahc/` and a `world/syr` branch, named in the
 handoff as the intended models, do not exist anywhere in this repository under the current record
 schema (only a legacy `cic-poc/` proof-of-concept structure predates this rebuild's schema); this was
@@ -347,7 +347,7 @@ No fix in this section reopened Step 0, Doc_01, or the answer canon's settled gr
 
 ## 11. Glossary/story/quote modern-vs-world contrast retrofit (2026-08-22)
 
-Populated the five fields the cross-thread retrofit (`reference/Redesign-Spec/Glossary-Story-Quote-Template.md`,
+Populated the five fields the cross-thread retrofit (`Redesign-Spec/Glossary-Story-Quote-Template.md`,
 switch flipped on `build/phase-1` after all seven worlds cleared their content canon) added to
 `COMPLETION_REQUIRED`/`gate_glossary_retrofit_complete`: `term.distortion_risk` (12 records),
 `story.modern_contrast` (9 records), `quote.modern_lens_note` (22 records), `gravity.classification`
@@ -398,3 +398,49 @@ new records).
 
 No fix in this section reopened Step 0, Doc_01, the answer canon, or the step-5 voice build's settled
 ground.
+
+## 12. Two P3 source acquisitions closed by vendoring (2026-09-13)
+
+A scheduled check-in delivered a resource-research handoff from the fleet's own cross-world research
+thread: two of this world's open P3 acquisitions (`world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md`
+§2) - Paulinus of Milan's *Vita Ambrosii* (Kaniecka, 1928) and Ammianus Marcellinus's *Res Gestae*
+(Yonge, 1862) - had been independently found and verified present on the Internet Archive, reachable
+from this sandbox even where ccel.org/newadvent.org/tertullian.org are not. This was a heads-up, not a
+change made to any file; before acting on it, both leads were independently re-verified in this
+session (not merely trusted): both files were fetched directly, and the specific passages the handoff
+named (the bee-swarm infancy legend; Book XXVII.3's Damasus/Ursinus election riot at the Basilica of
+Sicininus) were confirmed present by direct grep and read against the fetched text.
+
+Both texts vendored into `cic/texts/` with their own provenance headers, registered in
+`cic/engine/texts_registry.py`'s ENTRIES (which regenerates `cic/texts/README.md`), and confirmed
+clean against the registry's own live check (`registry_problems_live()` / "gate_texts_registry").
+Raw djvu OCR text; runs of 2+ spaces (a scan-layout artifact) collapsed to single spaces throughout,
+no wording altered - disclosed in each file's own prepended note. Two OCR character-misreads
+(paragraph numbers split by a stray space; a capital "I" read as the numeral "1") were caught by eye
+against the scan and corrected only in the quote records' own transcriptions, never in the vendored
+file itself.
+
+**Paulinus (`ijc.source.paulinus-vita-ambrosii`):** confidence upgraded (verified-direct, citation
+specificity A); `ijc.search.paulinus-vita-english` and `ijc.story.bees-of-milan` updated to match.
+No new verbatim quote created - that story's own "told without verbatim quotation... at arm's length
+by design" choice was always about hagiographic-legend genre, not availability, and stays in force
+for that reason alone now that availability is no longer the constraint.
+
+**Ammianus (`ijc.source.ammianus-marcellinus`):** confidence upgraded to load-bearing/Documented,
+moving this source off "fails closed for quotation." Two new verbatim quote records added: `ijc.quote
+.ammianus-sicininus-massacre` (XXVII.3.12-13, the casualty figure) and `ijc.quote.ammianus-roman-
+luxury` (XXVII.3.14-15, Ammianus's own outsider verdict on what was actually at stake - wealth and
+ostentation, not doctrine). The 137-casualty figure this build previously carried only at second hand
+(npnf202's own editorial endnote quoting Ammianus, not Ammianus's own prose) is now backed by
+Ammianus's own vendored text directly; `ijc.figure.damasus`, `ijc.quote.socrates-damasus-election`,
+and `ijc.gravity.primacy-claiming` updated accordingly, with reciprocal relations added throughout.
+
+`world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md` updated: both P3 items closed, moved from "OPEN
+requests" to "SUPPLIED."
+
+**Gates:** 14/14 clean, re-verified against the full 156-record set. **Record count:** 154 -> 156 (2
+new: both quote). **Compiled:** ijc recompiled (package `2026-09-13T01-44-51Z`, manifest hash
+`a6282d1a...`), determinism-check byte-identical, registry updated.
+
+No fix in this section reopened Step 0, Doc_01, the answer canon, the step-5 voice build, or the
+retrofit's own settled ground.
