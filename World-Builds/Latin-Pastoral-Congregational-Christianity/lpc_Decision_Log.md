@@ -772,3 +772,19 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 **Disposition.** **None.** Rounds 5, 6, 7 and 8 are outstanding. **No count asserted** — seven consecutive passes asserted one and seven were wrong.
 
 **Escalation check.** Representative-identity, portfolio-level: do not apply. **Governance/methodology: Round 8 recommends opening this, for the third time of asking, on two items** — the read/apply separation, and its new **record-boundary** finding, that a pass declaring one file as its domain leaves findings in the companion record it is judged against. Both are recorded here for the project lead rather than decided by this thread. **Unresolved tensions: one open** — the evidentiary question at Open Item 6.
+
+### 2026-09-14 (sixth) — Correction history moved out of Doc_04 into `Doc_04_Superseded_Claims.md`
+
+**Direction.** Project lead, 2026-09-14, adopting the third of `Doc04_Round9_Review.md`'s three closing actions.
+
+**The measurement that prompted it.** 42% of `Doc_04_Gravity_Discovery.md` by byte count sat on lines carrying correction apparatus — "an earlier version," supersession notices, withdrawn-claim narration. Round 9 recorded §8 at 15.8% of the document and Candidate 5's §3 entry at 17.2%, and found seven of its ten HIGH findings to be defects in that apparatus rather than in the gravity discovery.
+
+**What changed.** `Doc_04_Superseded_Claims.md` now holds every claim the document has made and withdrawn: Candidate 5's five successive classification bases, the two withdrawn *Gesta* reads, the asserted-and-withdrawn reopening of Doc_01 §5's strand finding, and seven citation or attribution claims. `Doc_04_Gravity_Discovery.md` states current claims and points to it. §8 is now a table of rounds, dates, artifacts and verdicts. Doc_04: 93,503 → 66,394 bytes; apparatus 42% → under 5%.
+
+**Also recorded there**, per CO-022's requirement that conflicting review positions be logged rather than quietly resolved: Rounds 5 through 8 each held that Doc_04's attribution of the incomplete-ecology rule to Forces Framework V1.1 §4 (Step 4) was wrong. It is correct — the rule stands at paragraph 200, directly beneath "Step 4 — Gravity Discovery" within "Section 4," verified at source. The document declined the change four times and did not log the disagreement.
+
+**Round 9's other two closing actions are not taken here.** Its first — that the project lead answer the question Round 8 put, which four passes have guessed at — and its second — that the *Gesta* read be commissioned from an independent thread — are both outside this thread's competence to perform. §7 Open Item 6 carries the second.
+
+**Round 9's own finding that a determinate Framework classification is reachable from this document's premises is unaddressed**, and is carried at §7 Open Item 8 rather than acted on.
+
+**Disposition.** None. Findings from Rounds 5 through 9 are outstanding; `Review-Artifacts/` is the record.
