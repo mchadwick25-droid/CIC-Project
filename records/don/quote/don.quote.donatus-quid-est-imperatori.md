@@ -12,10 +12,20 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: 'The Latin clause quoted in `text` was re-located this session to `cic/texts/optatus_libri-vii-critical_ziwsa1893.txt`,
+    line 6557 (the Ziwsa critical edition), NOT to the `optatus-against-donatists` locus originally cited
+    -- that file''s line 1904 carries only the Vassall-Phillips English translation. The Ziwsa file''s own
+    OCR is rough at this line (''qnid est imperatori cuni ecelesia?'' for ''quid est imperatori cum ecclesia?''),
+    a known artifact of that scan rather than a textual variant; the Latin above is given in its standard,
+    corrected orthography, not the raw OCR string.'
 sources:
 - source_id: don.source.optatus-against-donatists
-  locus: Book III; cic/texts/optatus_against-the-donatists.txt, line 1904
+  locus: Book III -- the Vassall-Phillips English translation; cic/texts/optatus_against-the-donatists.txt,
+    line 1904
+  license: public-domain
+- source_id: don.source.ziwsa-critical-edition-optatus
+  locus: 'Book III -- the Latin original, corrupted by OCR at this line (''qnid est imperatori cuni ecelesia?'');
+    cic/texts/optatus_libri-vii-critical_ziwsa1893.txt, line 6557'
   license: public-domain
 retrieval:
   tier: 1
@@ -35,6 +45,8 @@ relations:
   target: don.figure.optatus
 - type: associated-with
   target: don.witness.refusal-and-recourse
+- type: associated-with
+  target: don.dw.the-emperor-and-the-church
 text: '"Quid est imperatori cum ecclesia?" ("What has the Emperor to do with the Church?")'
 speaker_or_author: don.figure.donatus
 license: verbatim

@@ -82,7 +82,7 @@ description: 'Doc_04 SS3.3: PRIMARY, 6/6 tests PASS (strong to very strong) -- t
   dimension, tied to 3B-2 -- this gravity''s own textual survival IS substantially this world''s own surviving
   voice, per Doc_01 SS5''s own "small independently-surviving remainder" finding.'
 manifestations:
-- the Deo laudes / Bagai acclamation, "Praise to God" (don.quote.deo-laudes-acclamation; CIL VIII 17732,
+- the Deo laudes / Bagai acclamation, "Praise to God" (don.quote.deo-laudes; CIL VIII 17732,
   epigraphic, no manuscript mediation)
 - Marculus's cliff-top vision of a cup, a crown, and a palm before his death at Novapetra (don.story.passio-marculi)
 - the annual reading, every twelfth of March, of the Passio Donati at the martyrs' own grave (don.story.passio-donati-sermon)

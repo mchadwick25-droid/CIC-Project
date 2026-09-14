@@ -34,6 +34,10 @@ relations:
   target: don.figure.petilian
 - type: associated-with
   target: don.figure.augustine
+- type: associated-with
+  target: don.dw.becoming-one-of-us
+- type: associated-with
+  target: don.dw.walking-to-one-font
 text: '"Conscientia namque (sancte) dantis attenditur, quae (qui) abluat accipientis." "Nam qui fidem
   (sciens) a perfido sumpserit, non fidem percipit, sed reatum." "What we look for is the conscience of
   the giver (him who gives in holiness), to cleanse that of the recipient." "For he who (wittingly) receives
