@@ -384,9 +384,12 @@ back once the two named branches merge, then executes directory-first, files sec
 rewrite third, diffed baseline fourth — the phase-1 ordering lesson from CO's flatten
 correction.
 
-**Status:** waiting on `claude/gallic-monastic-world-build` and `donatism-lpc-integration`
-to merge. Phase 3 (promotion model, optional renames) and WO-1…5 remain handed off as work
-orders above.
+**Status, updated 2026-09-14:** `claude/gallic-monastic-world-build` merged to `main` (PR
+#184). Still waiting on Donatism's own reconciliation branch — renamed from
+`donatism-lpc-integration` to **`donatism-main-integration`** the same day, to stop
+colliding on sight with the unrelated Latin Pastoral Congregational Christianity world's own
+`lpc-*` branches (`lpc-doc04-round2` etc.) — same commits, same content, name only. Phase 3
+(promotion model, optional renames) and WO-1…5 remain handed off as work orders above.
 
 ---
 
