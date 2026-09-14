@@ -637,3 +637,49 @@ a registry reader needs quickly:
   entirely, not left stale - the world is now fully wired end to end:
   registry, package, portrait, census, tradition page, homepage card,
   all agreeing.
+- **Salvian material expanded: three new records, 2026-09-14.** Prompted
+  by the project lead's own observation, in session, that Doc_05's own
+  §10A Proportionality Assessment rates "ordinary believers / rustics"
+  **under** relative to probable ecology, and that this world's one real
+  lead for thickening it without inventing anything - Salvian of
+  Marseilles, "the one Native voice whose whole work is addressed
+  outward to the lapsed layperson rather than inward to the monk"
+  (Doc_05 §5) - was under-used (licensed narrowly, cited only in brief
+  single lines inside `gallic.force.barbarian-fiscal-ruin`). This build
+  thread read Gov. V.4-6, VI.5-7, and VI.13/15 directly and in full
+  (fresh reads, not secondhand from the existing force record's own
+  citations) and authored three new records, none part of the original
+  Doc_06/Doc_09 batches:
+  - `gallic.term.bagaudae` - ordinary rural Gallic Christians' own
+    experience of tax exaction, corrupt officials, and flight to or
+    revolt with the barbarians; the one place in this world's whole
+    record where the rural poor appear as a subject, not a mission
+    field (contrast `gallic.term.heathen-rustics`).
+  - `gallic.term.church-or-circus` - Salvian's charge that ordinary lay
+    Christians in the cities deserted church services mid-service for
+    public games; the one description in this world's record of
+    ordinary lay worship attendance, as distinct from a monk's own
+    interior "lukewarmness."
+  - `gallic.story.circuses-amid-the-ruins` - Salvian's own eyewitness
+    account ("a sight that I myself endured") of Trier's repeated sack
+    and the city's surviving notables petitioning the emperors for
+    circus games afterward. A genuine internal inconsistency in
+    Salvian's own text (three vs. four sacks) is disclosed rather than
+    resolved; the story's own actors are named as the city's elite, kept
+    distinct from `church-or-circus`'s broader lay-population claim
+    rather than conflated with it.
+
+  Licensing checked against `gallic.source.salvian-on-the-government-of-
+  god`'s own restriction (not licensed for the grace/free-will
+  controversy) - all three draw on unrelated material, on the same basis
+  the existing `government-of-god` and `lukewarmness` terms already used
+  his text. Recompiled clean (`sha256:9f7211822ac9771b1b22175d492675973
+  d954a36f15f297daec54d9f06b6c8f8`, `packages/gallic/2026-09-14T15-25-
+  13Z`), determinism-check and staleness-check pass, `engine.m1.cross_
+  world` 0 new defects (retrieval-hint-coverage now 105/105, up from
+  102/102), full `pytest` suite (34 tests) green. Package re-pinned in
+  `records/worlds.yaml`. **Not yet re-admitted**: Cappadocian's own
+  precedent re-ran the live M3 sealed-probe battery after a content
+  addition of this kind, which is real billed spend - held for the
+  project lead's own word before spending rather than run
+  unilaterally.
