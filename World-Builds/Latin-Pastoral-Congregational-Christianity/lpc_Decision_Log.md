@@ -686,3 +686,32 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 **Disposition.** **None.** Round 5's remaining findings are unaddressed, this pass is unreviewed, and CO-022's precondition is not met.
 
 **Escalation check.** Representative-identity, portfolio-level, governance: do not apply. **Unresolved tensions: one raised, not closed** — the formal reopening of Doc_01 §5's finding under item 10 is a change in a cleared companion document's status, made by this document under a mandate Doc_01 itself granted. It is disclosed here for the project lead rather than treated as routine.
+
+### 2026-09-14 (third) — All 411 Conference evidence withdrawn from Doc_04. Supporting stands on the ruling; the source question is reopened for a different thread
+
+**Direction.** Project lead, directly in session, 2026-09-14, after `Doc04_Round6_Review.md` found the **rewritten** *Gesta* read **unsound**: withdraw the material rather than have this thread write a third version.
+
+**Why the withdrawal, and not a third attempt.** This build thread read the *Gesta* twice. Round 5 found the first read **overstated**. Round 6 found the second **unsound**, which is worse — and the two failures are the same failure:
+
+- Version 1 never searched `concili-` in a read commissioned to test a candidate named *Conciliar Authority Theory*, reversed the polarity of Emeritus's speech, counted Migne's editorial apparatus as conference record (including a bishop subscribing at the Lateran Council of **649**), undercounted `mandat` by ~45%, and missed two of Augustine's acts.
+- Version 2, written to correct all of that, asserted that lines 118500–125499 are footnote apparatus **on a density measurement, without opening the band** — which in fact holds 40 numbered act headers, 138 `mandav*` subscription formulae and 401 `episcop-` tokens, and is the mandate-subscription roll-call. It then attributed a phrase from the **right-hand column** of a two-column line to a speaker in the left, **the same misassignment class version 1 committed** — while deleting version 1's own two-column-bleed disclosure.
+
+**That is the finding worth keeping from all of this.** The mechanism — *a check that proves something adjacent to the claim, then trusted because it returned something* — **survived being named, documented, and deliberately guarded against by its own author.** Version 2 was written by a thread that had just finished writing the account of version 1's errors, and it reproduced the central one. No further instrument this thread designs for itself is likely to close that, because every instrument it has designed so far has operated inside a frame it chose and never checked: version 2 chose its domain by a density number and never opened what it excluded.
+
+**What was withdrawn.** All 411 Conference evidence, from every site in `Doc_04_Gravity_Discovery.md`. Candidate 5's Repetition and Persistence bullets are returned to their pre-read text — narrow/local Repetition, Persistence not passing at world level — with the search bound **disclosed and undischarged** rather than falsely discharged. The §5 reopening is withdrawn and **item 10's trigger is recorded as not met**, because this document now surfaces no evidence Doc_01 has not weighed. The Classification paragraph no longer cites any 411 material.
+
+**What Supporting now rests on, stated exactly.** The project lead's ruling of 2026-09-14, reaffirmed after the audit, **plus** the candidate's profile fit against CF V7.4's Supporting definition — specifically its third clause, *"they pass multiple gravity tests but may not demonstrate the same breadth of dependency or persistence,"* which expressly contemplates a gravity whose dependency and persistence are weaker than a Primary's. That clause fits this candidate's profile, Persistence included, **without needing the 411 evidence at all** — which is why the classification survives the withdrawal intact rather than being propped up by it.
+
+**The two survivals, kept because they are narrow and independently confirmed at Round 6.** Augustine subscribes the delegation's mandate in his own name (file line 121764, *mandatum suscepi et subscripsi*) — which diagnoses the act-158 anomaly Registry row 65 has recorded since Round 28 without explaining. And the Aurelius sentence at 117492 exists, with the right speaker, on-axis. **Neither is relied on by Doc_04.**
+
+**The artifact is kept, not deleted.** `Doc04_Gesta_Targeted_Read_2026-09-14.md` now opens with a withdrawal notice recording both versions and what each got wrong. Review artifacts in this world are immutable history, and this one documents a mechanism defeating its own author's guard against it — the most useful thing in the folder.
+
+**Open Item 6 is reopened, unprejudiced, with a recommendation.** The *Gesta* may strengthen Candidate 5's Repetition and Persistence, may leave them, or may bear on item 10's trigger. **The read should be commissioned from a thread that wrote neither withdrawn version, and its findings applied by a thread other than the one that reads.** Separating the reading from the applying is the one structural change the six rounds actually argue for.
+
+**Registry row 65 is now accurate again and is not touched.** Its record that the *Gesta* is "available to Doc_04, and not yet drawn on by it" is true: Doc_04 does not draw on it. Doc_04's header claim that row 65's correction was "engaged" is corrected to match.
+
+**No count of outstanding findings is asserted.** `Doc04_Round5_Review.md` and `Doc04_Round6_Review.md` are outstanding apart from what the withdrawal moots. **Five consecutive passes asserted such a count and five were wrong**; this one points at the artifacts instead.
+
+**Disposition.** **None.** CO-022's precondition is not met and no disposition is self-applied.
+
+**Escalation check.** Representative-identity, portfolio-level, governance: do not apply. **Unresolved tensions: one open** — the evidentiary question at Open Item 6, which this thread has twice failed to answer and should not attempt again.

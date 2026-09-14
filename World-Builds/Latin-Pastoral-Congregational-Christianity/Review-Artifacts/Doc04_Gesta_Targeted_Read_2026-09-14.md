@@ -1,3 +1,18 @@
+# WITHDRAWN — both versions of this source read are withdrawn in full
+
+**Withdrawn 2026-09-14, on the project lead's direction.** Neither version of this read may be cited, and nothing in `Doc_04_Gravity_Discovery.md` relies on either.
+
+- **Version 1** was audited by `Doc04_Round5_Review.md` and found **OVERSTATED**: it never searched `concili-` in a read testing a candidate named *Conciliar Authority Theory*; it reversed the polarity of Emeritus's speech at line 117505; it counted Migne's editorial apparatus as conference record, including a bishop who subscribes at the Lateran Council of **649**; its `mandat` count was ~45% low; and it missed two of Augustine's acts.
+- **Version 2** — the rewrite below, which corrected several of those — was audited by `Doc04_Round6_Review.md` and found **UNSOUND**, which is worse. It asserted that lines 118500–125499 are Migne's footnote apparatus, having measured footnote-marker density **without opening the band**; the band in fact holds 40 numbered act headers, 138 `mandav*` subscription formulae and 401 `episcop-` tokens, and is the mandate-subscription roll-call. It attributed *illum tranquillissimum concilii locum* to Petilianus's act 9, when that phrase sits in the **right-hand column** of a two-column line and belongs to an edict about who may enter the venue — the same speaker-misassignment class version 1 committed, in the artifact written to correct version 1, with version 1's own two-column-bleed disclosure deleted.
+
+**Two findings survive the withdrawal**, both independently confirmed at Round 6 and kept because they are checkable and narrow: Augustine subscribes the delegation's mandate in his own name at file line 121764 (normalized *mandatum suscepi et subscripsi*), which diagnoses the act-158 anomaly Registry row 65 records without explaining; and the Aurelius sentence at line 117492 exists, with the right speaker, on-axis. **Neither is relied on by Doc_04**, which now carries the whole question open at §7 Open Item 6.
+
+**Why this file is kept rather than deleted.** Review artifacts in this world are immutable history. The two failures share one mechanism — *a check that proves something adjacent to the claim, then trusted because it returned something* — and version 2 demonstrates that the mechanism survives being named, documented, and deliberately guarded against by its own author. That is the most useful thing in this folder, and deleting it would destroy it.
+
+**Recommended:** any future read of this source should be commissioned from a thread that wrote neither version, with its findings applied by a thread other than the one that reads.
+
+---
+
 # Targeted source read — the *Gesta Collationis Carthaginiensis* against Candidate 5's Persistence test
 
 **Date:** 2026-09-14. **Superseded and rewritten the same day**, on the project lead's direction, after `Doc04_Round5_Review.md` audited the first version and found it **overstated**. This file replaces that version entirely. What the first version got wrong is recorded in full at the end, because three of its errors were the build's own documented failure mode and the record is worth more than the tidiness.
