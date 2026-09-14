@@ -83,7 +83,15 @@ World-Builds/Donatism/Review-Artifacts/Doc02_Round3_Review.md: cic/texts/npnf102
 World-Builds/Donatism/Review-Artifacts/Doc05_Round1_Review.md: Ministry/Formation
 World-Builds/Donatism/Review-Artifacts/Doc07_Round1_Review.md: Ministry/Technology/CiC_World_Build_Completion_Standard_V1.2.md
 World-Builds/Donatism/Review-Artifacts/Doc07_Round2_Review.md: Ministry/Technology/CiC_World_Build_Completion_Standard_V1.2.md
+World-Builds/Donatism/Review-Artifacts/Phase5_Probe11_Retest_Round1_Review.md: Ministry/Technology/Pass2/FLAGS.md
+World-Builds/Donatism/Review-Artifacts/Phase5_Probe11_Retest_Round1_Review.md: cic-poc/backend/app/graph/nodes.py
+World-Builds/Donatism/Review-Artifacts/Phase5_Probe11_Retest_Round2_Review.md: Ministry/Technology/Pass2/FLAGS.md
+World-Builds/Donatism/Review-Artifacts/Phase5_Probe11_Retest_Round2_Review.md: engine/api/wiring.handle_message
+World-Builds/Donatism/don_Decision_Log.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md
 World-Builds/Donatism/don_Decision_Log.md: Ministry/Technology/CiC_World_Build_Completion_Standard_V1.2.md
+World-Builds/Donatism/don_Decision_Log.md: Ministry/Technology/Pass2/FLAGS.md
+World-Builds/Donatism/don_Decision_Log.md: Ministry/Technology/Pass2/trr/S6.2_DON_TRR_ijc.jsonl
+World-Builds/Donatism/don_Decision_Log.md: cic-poc/backend/wrs
 World-Builds/Gallic-Monastic-Ascetic-Christianity/gallic_B9_Scoping_Note.md: cic-poc/backend
 World-Builds/Gallic-Monastic-Ascetic-Christianity/gallic_PhaseC_Scoping_Note.md: cic-poc/backend
 World-Builds/Hieronymian-Ascetic-Literary/hal_Phase6_Facilitation_Brief_DRAFT.md: cic-poc/backend/app/graph/nodes.py
@@ -181,6 +189,10 @@ records/desert/quote/desert.quote.piamon-judge-of-the-earth.md: Ministry/Technol
 records/desert/quote/desert.quote.sin-and-grace-in-one-soul.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
 records/desert/quote/desert.quote.the-heart-is-a-deep-gulf.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
 records/desert/search_record/desert.search.unopened-volume-sweep.md: cic/texts/anf04_....xml
+records/don/search_record/don.search.don-source-discovery-saturation.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md
+records/don/search_record/don.search.don-source-discovery-saturation.md: Ministry/Technology/Pass2
+records/don/search_record/don.search.don-source-discovery-saturation.md: Ministry/Technology/Pass2/reviews
+records/don/search_record/don.search.don-source-discovery-saturation.md: cic-poc/backend
 records/hal/doctrinal_witness/hal.dw.apostolic.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
 records/hal/doctrinal_witness/hal.dw.authority.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
 records/hal/doctrinal_witness/hal.dw.believe.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md

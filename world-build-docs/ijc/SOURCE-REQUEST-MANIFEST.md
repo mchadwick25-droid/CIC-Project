@@ -22,11 +22,15 @@
 | Councils: Nicaea creed+canons; Constantinople 381 canons (Canon 3); Chalcedon Definition+canons (Canon 28)+act extracts | `npnf214` | `ijc.source.canons-nicaea`, `ijc.source.canons-constantinople-381`, `ijc.source.chalcedon-acts` |
 | Hilary, De Synodis (the Homoian-era creed formulae in a contemporary's quotation) — **registry append**, this build's own step-2 ecology work | `npnf209` | `ijc.source.hilary-de-synodis` |
 | Augustine, Confessions 9.7 only (386 eyewitness) | `npnf101` | `ijc.source.augustine-confessions` (narrow license) |
+| Paulinus of Milan, *Vita Ambrosii*, trans. M. S. Kaniecka (1928) — **RESOLVED 2026-09-13**, see below | `paulinus-milan_vita-ambrosii_kaniecka1928.txt` | `ijc.source.paulinus-vita-ambrosii` |
+| Ammianus Marcellinus, *Res Gestae*, trans. C. D. Yonge (1862) — **RESOLVED 2026-09-13**, see below | `ammianus-marcellinus_roman-history_yonge1862.txt` | `ijc.source.ammianus-marcellinus` |
 
 ## 2. OPEN requests (none blocking)
 
-1. **Paulinus of Milan, *Vita Ambrosii*, trans. M. S. Kaniecka (Catholic University of America, 1928) — P3.** 1928 US publication, public domain in the US; an archive.org scan preferred. Until vendored, `ijc.source.paulinus-vita-ambrosii` fails closed for quotation and everything from the Vita stays Tier-3, told without verbatim text. (`ijc.search.paulinus-vita-english`)
-2. **Ammianus Marcellinus, *Res Gestae*, trans. C. D. Yonge (1862) — P3.** Public domain; wanted for the outsider's account of the Damasus–Ursinus election violence (27.3). Until then Socrates HE IV.29 is the vendored witness and Ammianus is referenced-only. (`ijc.search.ammianus-english`)
+Both P3 items formerly listed here were closed 2026-09-13: a fleet cross-world research thread found both editions reachable on the Internet Archive (an archive.org scan was this manifest's own preferred route for the Paulinus item) and handed the leads to this thread, which fetched, independently verified, and vendored both directly rather than acting on the tip alone. Neither request remains open.
+
+- ~~**Paulinus of Milan, *Vita Ambrosii*, trans. M. S. Kaniecka (Catholic University of America, 1928) — P3.**~~ Vendored 2026-09-13 (identifier `vitasanctiambros0000paul`); the bee-swarm infancy legend confirmed present and checked. `ijc.story.bees-of-milan`'s own choice to narrate rather than quote it stands unchanged, now for design reasons (hagiographic legend) alone. (`ijc.search.paulinus-vita-english`)
+- ~~**Ammianus Marcellinus, *Res Gestae*, trans. C. D. Yonge (1862) — P3.**~~ Vendored 2026-09-13 (identifier `romanhistoryofam00ammiiala`); Book XXVII.3.12-15 (the 366 election's casualty figure and Ammianus's own remark on what was actually at stake) confirmed present, checked, and now carries its own verbatim quote records (`ijc.quote.ammianus-sicininus-massacre`, `ijc.quote.ammianus-roman-luxury`), superseding the prior second-hand route via npnf202's own editorial endnote. (`ijc.search.ammianus-english`)
 
 ## 3. Confirmed unavailable in public domain (recorded, not requested)
 
