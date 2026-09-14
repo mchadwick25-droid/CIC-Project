@@ -73,7 +73,7 @@ both folders above leave a real gap.
 
 1. **`Ministry/Communication/Vision, Mission, Convictions, and Foundational
    Commitments V1.1.docx`** — same as every thread.
-2. **`L1-Foundation/CiC_L1_Constitution_V2_2.docx`** — the standing constitutional
+2. **`reference/L1-Foundation/CiC_L1_Constitution_V2_2.docx`** — the standing constitutional
    floor every world build answers to, including Article 29 (Living Tradition
    confirmation) and Article 31 (external scholarly review) — note per the archived
    `CiC_Phase_Status_V7_r1.md`, a prior track recorded Article 29 as CLEARED for
@@ -82,7 +82,7 @@ both folders above leave a real gap.
    confirmed it and whether it survives under the current methodology** — a Living
    Tradition Status confirmation is a project-lead act tied to a specific build, not a
    fact that carries automatically across a methodology change.
-3. **`L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.3.docx`**
+3. **`reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.3.docx`**
    and **`CiC_L3B_Formation_World_Blueprint_V7.3.docx`** — the current, binding
    methodology. Build against these, not against whatever the archived documents
    originally followed.

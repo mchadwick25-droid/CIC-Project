@@ -4,7 +4,7 @@
 
 **Status:** APPROVED TO PROCEED — signed off by the project lead (Mark) on 2026-07-07, via explicit confirmation in this build's conversation record. Corrected a missed Ignatius *Smyrnaeans* 8 love-feast citation and an adjacent Philadelphians/Smyrnaeans misattribution in Section 4; two Registry rows added (S56, S57) and propagated to all derived views. Cleared 2 fresh cold-independent-review rounds (both saved as standalone files) on top of the prior 5-round history. This document's APPROVED TO PROCEED status reflects the project lead's own explicit sign-off, not a self-declaration by this build thread.
 
-**Governed by:** Formation World Construction Framework V7.4 (DRAFT), Part II, Step 2; Constitution Articles 16, 17, 20, 26; the Source Registry Template (L3B-World-Build-Methodology); the `cic-source-registry` skill.
+**Governed by:** Formation World Construction Framework V7.4 (DRAFT), Part II, Step 2; Constitution Articles 16, 17, 20, 26; the Source Registry Template (reference/L3B-World-Build-Methodology); the `cic-source-registry` skill.
 
 **Built from:** Doc_01 (finalized) for this world's own boundaries and open items; a five-angle deep-research pass covering manuscript transmission histories, primary liturgical evidence, material culture/archaeology, the secondary scholarship landscape, and source asymmetry/outside witnesses. The companion Source Registry (separate workbook) is developed from the same evidentiary work as this document, per Step 2's requirement that both be produced together in one pass.
 

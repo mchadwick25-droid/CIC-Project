@@ -42,7 +42,7 @@ I did not read §11 as evidence of anything. Each row below was checked against 
 ### S-2 — **RESOLVED, and every element re-verified.**
 §8 reason 3 (lines 440–448) now splits the two freezes. Both halves check:
 - **World NOT frozen.** `Open_Gaps_Tracking.md` line 145: *"Because this is unresolved, the world is NOT frozen"* — verbatim; also lines 78, 140, 160. `Doc_04` line 10 ends *"not 'Frozen.'"* — verbatim.
-- **S6.2 baseline IS frozen, 2026-07-28.** `Ministry/Technology/Pass2/gates/S6.2_ALX_FREEZE_DECLARATION.md` line 3: `**Date:** 2026-07-28.` Lines 58–61: *"The Alexandria record store (156 in-world records), the deployed chunks generated from it, the deployed Theon Permanent Prompt (as amended by the two fix sessions), and the validated behaviors above are FROZEN as the S6.2 per-world baseline."* The document's ellipsis is fair.
+- **S6.2 baseline IS frozen, 2026-07-28.** `Archive/Technology-Pass2-2026-08/Pass2/gates/S6.2_ALX_FREEZE_DECLARATION.md` line 3: `**Date:** 2026-07-28.` Lines 58–61: *"The Alexandria record store (156 in-world records), the deployed chunks generated from it, the deployed Theon Permanent Prompt (as amended by the two fix sessions), and the validated behaviors above are FROZEN as the S6.2 per-world baseline."* The document's ellipsis is fair.
 - The added parenthetical **"(not 2026-08-01, which was the last world's)"** is correct and better than Round 1's own C-4 gloss: `S6.2_IJC_FREEZE_DECLARATION.md` is dated 2026-08-01 and is headed *"World 6 of 6."*
 The path placeholder Round 1 flagged is gone; §2's table and §8 both cite the real `S6.2_ALX_FREEZE_DECLARATION.md`.
 

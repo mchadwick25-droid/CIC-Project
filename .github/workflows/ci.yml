@@ -30,7 +30,7 @@ jobs:
   # (paths-ignore on Ministry/**, **/reports/**, **.md) helped but had two
   # real gaps: (1) it blanket-skipped ALL of Ministry/**, including
   # validate-census's own dependency
-  # (Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs) -
+  # (tools/validate-census.mjs) -
   # a change to the validator itself would have silently never run the
   # job that exists to catch it; (2) it did nothing for cic-website/-only
   # commits (e.g. support.html copy edits, same day) - none of the 13 jobs
@@ -93,7 +93,7 @@ jobs:
               - '.github/workflows/**'
             census:
               - 'cic-website/data/world-census.json'
-              - 'Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs'
+              - 'tools/validate-census.mjs'
               - '.github/workflows/**'
 
   # Two jobs were removed 2026-08-24: "Repository views current (all six
@@ -126,7 +126,28 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: node Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs cic-website/data/world-census.json
+      - run: node tools/validate-census.mjs cic-website/data/world-census.json
+
+  # Added by the Repo Structure Cleanup thread (Ministry/Operations/Standing/
+  # CiC_Repo_Structure_Tracking.md, 2026-09-14). Fails when a repo-relative path
+  # cited in a current Markdown document no longer resolves, or when a
+  # directory retired by the reorganization reappears (tools/retired_paths.txt)
+  # - a branch that merely adds a file under an old path merges without
+  # conflict and silently resurrects it. Pre-existing breaks are accepted in
+  # tools/check_paths_baseline.txt and burned down by their owning threads; a
+  # baseline entry that starts resolving is reported so it can be removed.
+  # Not gated on the `changes` filter on purpose: it reads only .md files,
+  # needs no dependencies, and costs seconds - and a docs-only commit is
+  # exactly the kind that breaks a path.
+  check-paths:
+    name: Cited paths resolve; retired paths absent
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python tools/check_paths.py --baseline tools/check_paths_baseline.txt
 
   m1-gates-selftest:
     needs: changes
@@ -275,7 +296,7 @@ jobs:
     # merge and failure/fail-open semantics (Artifact-4 SS3-4) are pure code
     # over already-classified safety/reader outputs - testable without a
     # live model call, unlike the classification calls themselves (blocked
-    # on Bedrock access, see Redesign-Spec/BUILD-HANDOFF.md).
+    # on Bedrock access, see reference/Redesign-Spec/BUILD-HANDOFF.md).
     name: M5 Facilitator gate routing + failure semantics
     runs-on: ubuntu-latest
     steps:

@@ -227,7 +227,7 @@ at `records/ijc/voice_craft/ijc.voice.craft.md`'s trailing body and in `records/
 comment.
 
 **Step 5 build.** One `voice_craft` record (`ijc.voice.craft`) and eight `demonstration` records, drafted
-on Sonnet against `alx.voice.craft`/`alx`'s six demonstration records and `fleet-voice/EXEMPLAR-TRANSCRIPT.md`
+on Sonnet against `alx.voice.craft`/`alx`'s six demonstration records and `reference/fleet-voice/EXEMPLAR-TRANSCRIPT.md`
 (`world/alexandria`) as the worked model — `records/pahc/` and a `world/syr` branch, named in the
 handoff as the intended models, do not exist anywhere in this repository under the current record
 schema (only a legacy `cic-poc/` proof-of-concept structure predates this rebuild's schema); this was
@@ -347,7 +347,7 @@ No fix in this section reopened Step 0, Doc_01, or the answer canon's settled gr
 
 ## 11. Glossary/story/quote modern-vs-world contrast retrofit (2026-08-22)
 
-Populated the five fields the cross-thread retrofit (`Redesign-Spec/Glossary-Story-Quote-Template.md`,
+Populated the five fields the cross-thread retrofit (`reference/Redesign-Spec/Glossary-Story-Quote-Template.md`,
 switch flipped on `build/phase-1` after all seven worlds cleared their content canon) added to
 `COMPLETION_REQUIRED`/`gate_glossary_retrofit_complete`: `term.distortion_risk` (12 records),
 `story.modern_contrast` (9 records), `quote.modern_lens_note` (22 records), `gravity.classification`

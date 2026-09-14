@@ -54,4 +54,4 @@ The Acts and Canons of Nicaea, Constantinople (381), and Chalcedon (451).
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied.
+Completed per `reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied.

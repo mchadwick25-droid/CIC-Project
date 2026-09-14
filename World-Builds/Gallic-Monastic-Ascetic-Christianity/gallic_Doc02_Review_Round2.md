@@ -8,7 +8,7 @@
 
 **Reviewer:** independent adversarial reviewer, cold — no drafting context, no involvement in the Round 1 review either. This is a follow-up check: every Round 1 finding was checked for whether the fix is *correct*, not merely present, and every claim and quotation the revision introduces was re-verified against the primary source, on the same discipline Round 1 applied.
 
-**Also read for this review:** `gallic_Doc02_Review_Round1.md` (in full); `gallic_Doc01_World_Identification.md`; `gallic_G1_Scope_and_Source_Acquisition_Manifest.md`; `L3B-World-Build-Methodology/Source_Registry_Template.md` V1.0; the pre-revision Registry (`git show 458b5d6`); the corpus-map fix commit `188ebba`.
+**Also read for this review:** `gallic_Doc02_Review_Round1.md` (in full); `gallic_Doc01_World_Identification.md`; `gallic_G1_Scope_and_Source_Acquisition_Manifest.md`; `reference/L3B-World-Build-Methodology/Source_Registry_Template.md` V1.0; the pre-revision Registry (`git show 458b5d6`); the corpus-map fix commit `188ebba`.
 
 **Primary evidence independently re-consulted (not taken from the revision's own quotations):** `cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml` (Gennadius chapters XIX, LXII, LXIV, LXV, LXX, LXXXV, LXXXVI, XCV, read in full **with their endnotes**); `cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml`; `cic/texts/npnf105_augustine-anti-pelagian-writings.xml`; `cic/texts/npnf101_augustine-confessions-letters.xml` (letter sequence **and its own Prefatory Note**); `cic/corpus-map/_staging/npnf105_augustine-anti-pelagian-writings.yaml` and `cic/corpus-map/gallic-monastic-ascetic-christianity.yaml`; `cic/texts/REGISTRY.yaml`, `AUTHORS.md`, `STRUCTURE.md`.
 

@@ -116,7 +116,7 @@ Everything below was read directly, not taken from the discovery pass's characte
 | Pierus — 2 fragments + notice | `anf06…xml` div2 `vi.vi` (lines 15957–16119) |
 | Eusebius control checks | `npnf201_eusebius-church-history-life-of-constantine.xml` |
 | Record absence + record-store cross-checks | `grep -ri` over all of `records/alx/`; `alx.figure.didymus`, `alx.figure.heraclas`, `alx.contested.didaskaleion-institution`, `alx.search.unopened-volume-sweep`, `alx.source.alexandrian-canonical-answers` read in full |
-| Freeze status | `Open_Gaps_Tracking.md`; `Ministry/Technology/Pass2/gates/S6.2_ALX_FREEZE_DECLARATION.md` |
+| Freeze status | `Open_Gaps_Tracking.md`; `Archive/Technology-Pass2-2026-08/Pass2/gates/S6.2_ALX_FREEZE_DECLARATION.md` |
 
 ---
 

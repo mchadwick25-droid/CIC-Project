@@ -1,0 +1,23 @@
+# Paths retired by the Repo Structure Cleanup (phase 1, 2026-09-14). They must stay
+# absent: a branch that merely adds a file under one of them merges without conflict
+# and silently resurrects the directory. tools/check_paths.py fails CI if any exists.
+# New home for each is in Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md.
+L0-Reference
+L1-Foundation
+L2A-System-Architecture
+L2B-System-Entry
+L2C-System-Status
+L2D-System-Operations
+L3A-Shared-Methodology
+L3B-World-Build-Methodology
+L3C-Representative-Methodology
+L3D-Encounter-Methodology
+L4-Templates
+Redesign-Spec
+Project-Reference
+fleet-voice
+Syriac-Build
+Ministry/Technology/Pass2
+Ministry/Technology/Pass3
+Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs
+Ministry/Operations/Standing/lexicon_compliance_checker.py

@@ -3,7 +3,7 @@
 
 **Document under review:** `World-Builds/Donatism/Representative/don_Rep_Phase7_Encounter_Ecology_Mapping.md` (DRAFT, first draft, 2026-09-09)
 **Branch:** `donatism-lpc-integration`
-**Reviewer context:** cold — no drafting rationale, summary, or hand-off notes seen. Every citation below was opened and read directly in the cited file; no claim is accepted on the draft's own quotation or paraphrase. The Framework text was re-extracted from `L3C-Representative-Methodology/CiC_L3C_Representative_Construction_Framework_V3.2.docx` (`word/document.xml`, `<w:t>` runs per `<w:p>`) rather than taken from the draft's reproduction of it.
+**Reviewer context:** cold — no drafting rationale, summary, or hand-off notes seen. Every citation below was opened and read directly in the cited file; no claim is accepted on the draft's own quotation or paraphrase. The Framework text was re-extracted from `reference/L3C-Representative-Methodology/CiC_L3C_Representative_Construction_Framework_V3.2.docx` (`word/document.xml`, `<w:t>` runs per `<w:p>`) rather than taken from the draft's reproduction of it.
 
 ---
 

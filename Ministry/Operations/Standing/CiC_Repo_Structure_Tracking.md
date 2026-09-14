@@ -85,8 +85,10 @@ has never heard of `engine/`; CLAUDE.md omits `World-Builds/`, `cic-poc/`, `cic-
 - A world: loads lazily, isolated per turn by tests not by a boundary; `unload()` has no
   production caller so idle worlds never leave memory; every world is baked into one image;
   no object-storage fetch path exists although Artifact-2 §5 specifies one.
-- Fleet-shared (`records/_fleet/`, `fleet-voice/`, `canon/`): read live every turn through a
-  global cache; the one thing every world legitimately shares; undeclared as a module.
+- Fleet-shared: `records/_fleet/` is read live every turn through a global cache and `canon/`
+  at admission; `fleet-voice/EXEMPLAR-TRANSCRIPT.md` is cited by 17 records and build docs
+  but read by no code (Gate A correction). The one thing every world legitimately shares;
+  undeclared as a module.
 - Interview vs Table: separate files (`wiring.py`/`table_wiring.py`, `turn.py`/`round.py`)
   but Table imports Interview privates, both share `turn.py`, one store, one FastAPI app.
 - Atlas: no engine module at all — static HTML in `cic-website/`, a hand-kept census, a
@@ -186,6 +188,72 @@ build-thread work. Draft target tree amended accordingly ("Two worlds, one file"
   Opus adversarial gate (Gate A) → phase 1 cold zone in auto mode → phase 2 worlds merge only
   inside a freeze window Mark declares (Gate B) → phase 3 promotion infrastructure and the two
   optional renames. Model routing from here: Sonnet for execution; the gate runs on Opus.
+
+### Gate A — Opus adversarial review of the frozen plan (2026-09-14)
+
+Verdict: NO-GO as written; GO with fixes. All three blockers resolved before execution:
+- **B1** The repo-wide citation rewrite would have edited 79 `records/` files; a record is
+  copied byte-for-byte into its package and hashed by the manifest, so one changed byte
+  fails `engine.m2.cli restore` inside `engine/Dockerfile` — the image would not build.
+  Fix applied: `records/`, `packages/`, `canon/`, `fixtures/`, `cic/texts/` and `Archive/`
+  are never rewritten; their citations enter the baseline for the owning threads.
+- **B2** ~900 cited paths are already unresolved at HEAD; a strict path check could never
+  go green. Fix applied: `tools/check_paths.py` holds only current documents to the tree,
+  accepts a committed baseline (`tools/check_paths_baseline.txt`), and fails only on new
+  breakage. **Mark's action:** `main` requires "11 of 11" status checks — the new
+  `check-paths` job must be added to branch protection by hand or it never gates.
+- **B3** `Ministry/Technology/Pass3/provider_repricing.py` and `cost_floor_model.py` open
+  `Pass2/baselines/…` by path; every `Pass2/gates/*.py` finds the repo root by directory
+  depth (`parents[4]`). Fix applied: Pass2/ and Pass3/ keep their names and depth under
+  `Archive/Technology-Pass2-2026-08/`; the two `os.path.join` literals edited by hand; the
+  single-string literal in `S6.2_length_ceiling_observability_gate.py` rewritten by script.
+Risks acted on: two generators (`world-build-docs/pahc|desert/generate_voice_index.py`) emit
+a `Redesign-Spec/` path — rewritten in the .py as well as the .md; 23 `.docx`/`.xlsx` embed
+old paths and cannot be rewritten — listed in the move ledger as known-stale; the tracking
+doc's own claim that `fleet-voice/` is read at runtime was wrong — corrected. Branches:
+`donatism-lpc-integration` adds files under `Ministry/Technology/Pass2/trr/` and
+`claude/facilitator-placeholder-text-jaim31` adds `Redesign-Spec/ADMISSION-GAP-STATUS…` —
+both would merge without conflict and silently resurrect a retired directory; `tools/
+retired_paths.txt` + the check-paths job now fail CI if a retired path reappears, and the
+rebase note below says where those files go. `claude/usage-credits-optimization-m9ji3d`
+carries its own CLAUDE.md (add/add conflict already, independent of this plan) with the
+stale Pass2 path and the uncorrected live list — resolve toward this branch's CLAUDE.md.
+Flagged, not touched: CLAUDE.md line 23 cites `phase2_checkpoint.py`, which exists nowhere
+in the repo (pre-existing).
+
+**Rebase note for open branches after phase 1 merges:** files added under
+`Ministry/Technology/Pass2/**` belong in `Archive/Technology-Pass2-2026-08/Pass2/**` (or,
+if they are decisions, `reference/method/Pass2-decisions/`); files added under
+`Redesign-Spec/` belong in `reference/Redesign-Spec/`; under any `L*-*/`, `Project-Reference/`,
+`fleet-voice/` → the same name under `reference/`; under `Syriac-Build/` →
+`Archive/Syriac-Build-2026-07/`. Run `python tools/check_paths.py --baseline
+tools/check_paths_baseline.txt` before pushing.
+
+### Change orders against the frozen plan
+
+- **CO-1 (2026-09-14, this thread, pre-execution).** The plan placed all three
+  `CiC_Step0_Conclusion_FINAL*.docx` in `Archive/Superseded-Housekeeping/`. Wrong premise:
+  `CiC_Step0_Conclusion_FINAL_v2.docx` is the closed, merged *Phase One World Selection* — the
+  portfolio-level document every new world's Step-0 cites as the registry of Worlds #1–#N
+  (68 citations; 23 from LPC alone). It is live reference, not history. Corrected: v2 →
+  `reference/L3B-World-Build-Methodology/`; `FINAL.docx` (v1, superseded by v2's merge) and
+  the `Syriac-Build/` copy → Archive as planned.
+- **CO-2 (2026-09-14, this thread, pre-execution).** CLAUDE.md cites
+  `Ministry/Technology/Pass2/decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md` and
+  `VR_1A_Writing_Standard_2026-08-09.md` as the governing readability decisions. A governing
+  decision is reference, not closed evidence. Corrected: `Pass2/decisions/` (22 files) →
+  `reference/method/Pass2-decisions/`; the rest of Pass2 (baselines, batteries, gates, TRRs,
+  reviews) and Pass3 → `Archive/Technology-Pass2-2026-08/` as planned.
+- **Execution details settled within P9/P11 (no change to the plan):** the citation rewrite
+  and the path check share one scope — current documents only. Dated Ministry history (audits,
+  decision logs, launch prompts, dated files) is not rewritten; it describes the tree as it
+  was, and the move ledger maps old to new. `records/` is not rewritten in phase 1: editing a
+  record changes its compiled package and stales the pinned manifest (M2 staleness job), and
+  repinning touches `worlds.yaml`, the file the active world branches conflict on. Record
+  citations of moved paths (79 files, mostly the Register Bar) enter the baseline for each
+  world's thread to fix at its next recompile. Pre-existing unresolved citations measured
+  before any move: 284 in current documents (126 to the retired `cic-poc/backend`) — recorded
+  as the accepted baseline, flagged to owning threads, never touched by this thread.
 
 **Standing rule for execution (Mark, 2026-09-14):** notes of changes or directions never go
 into a working file — a supplemental file holds the record. Applied here as P11 of the draft

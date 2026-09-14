@@ -39,7 +39,7 @@ Marking per Constitution Article 31: Simulated review — informational only, no
 
 - Historical accuracy otherwise excellent — Eusebius's hedged Nicene subscription, the Crispus/Fausta omission, Julius I's 341 letter (Apologia contra Arianos 21–35), Ambrose's Ep. 51 and the Callinicum affair, the Sermo contra Auxentium's exact Latin phrase, Confessions 9.7, the Damasan/ICUR inscriptions, CTh 16.1.2 (Cunctos populos), the Homoian establishment under Constantius II and Valens, Paulinus's bee-swarm topos, Lactantius vs. Eusebius on the conversion, the chi-rho coinage, Justina, Pulcheria, Leo's Tome and rejection letters — all confirmed accurate.
 - No fabricated sources; all nine secondary monographs are real and correctly titled.
-- The Wessel entry's own hedging (§3, Registry row 30) checked out as appropriately cautious, not overclaiming — verified directly against `Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md`.
+- The Wessel entry's own hedging (§3, Registry row 30) checked out as appropriately cautious, not overclaiming — verified directly against `Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md`.
 - The source-to-Registry checkpoint genuinely holds — spot-checked ~14 specific claims, all trace to a matching row.
 - The rows 4/8/24–26 Native-vs-Excluded-Comparandum mechanism is a legitimate, defensible application of the Template's "Native does not mean exclusive" rule.
 - Primary-voice Author Gravity (Eusebius, Ambrose, Leo, Damasus) applied all five dimensions and was genuinely critical, not descriptive.

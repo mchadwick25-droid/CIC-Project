@@ -60,4 +60,4 @@ The Theodosian Code, Book 16 (its legal use of this category); the conciliar can
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain; CT Contest Type completed per Doc_06 §3.
+Completed per `reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain; CT Contest Type completed per Doc_06 §3.

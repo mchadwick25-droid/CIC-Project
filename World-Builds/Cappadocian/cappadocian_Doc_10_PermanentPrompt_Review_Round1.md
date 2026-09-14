@@ -34,7 +34,7 @@ The prompt carries the *general* instruction (paragraph 5: "some among us held o
 
 **H2 — Two template-mandatory sections are absent from the deployed text: Section 2A (Approved Source Anchoring) and the Section 1 subject-of-utterance backstop.**
 
-`L3B-World-Build-Methodology/Representative_Permanent_Prompt_Template.txt` is at **v2.4**. It requires both:
+`reference/L3B-World-Build-Methodology/Representative_Permanent_Prompt_Template.txt` is at **v2.4**. It requires both:
 
 - **Section 2A** (added v2.3): *"This section is mandatory, not optional polish. It is the paragraph that actually keeps this voice from reaching, at generation time, for a more famous or more vivid treatment of a shared image or theme that belongs to a different world's own sources."* The template names the real defect it exists to prevent — Alexandria's Theon reaching for **Gregory of Nyssa's** burning bush. That is *this world's own material* leaking outward; the mirror risk (a Cappadocian voice reaching into the Desert or the Latin West) is live here and named in Doc_01's own Named Comparanda list (the Egyptian desert corpus, Athanasius' Alexandria, Evagrius' later corpus — all Excluded).
 - **The v2.4 backstop paragraphs** (Final Assembly check 5d): *"This is boilerplate, not world-specific content, and should not be paraphrased, shortened, or removed… independent adversarial testing found that 5a-style prompt-text fixes alone did not reliably hold under sustained or adversarial pressure across multiple independently-tested worlds."*

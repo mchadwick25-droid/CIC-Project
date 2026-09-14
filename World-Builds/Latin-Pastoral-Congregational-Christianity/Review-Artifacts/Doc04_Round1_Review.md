@@ -7,9 +7,9 @@
 - `Doc_02_Source_Ecology.md` — read in full (§§1–10), with §1, §2 (all four Author Gravity assessments), §4, §5, §6, §8, §9 item 7, §10 checked against every Doc_04 "*Generated from:*" line; grepped directly for "Article 3", "plenary", "lay-confessor"
 - `Source_Registry.md` (212 rows) — rows 1, 2, 3, 4, 5, 6, 7, 11, 12, 13, 15, 18, 19, 21, 22, 23, 43 parsed cell-by-cell from the raw table; Licensed-For, Confidence and Verification Note columns read in full
 - `Doc_03_Lexicon_Candidate_List.md` — read in full; every frequency figure, tag assignment, Registry-source list and quoted phrase Doc_04 cites checked against the cell it is drawn from
-- `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` — extracted verbatim (zipfile + regex on `word/document.xml`); Part III read in full (Core Historical Gravity Discovery, Candidate Gravity Generation, the six tests, Gravity Classification, Confidence/Gravity Cross-Check), Step 4's own activity list read verbatim
-- `L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx` — same extraction; Section 2 (Six-Cell Matrix, both axes, all six cells) and Section 4's Step 4 entry read verbatim
-- `L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md` — read in full (located during this review; see M4)
+- `reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` — extracted verbatim (zipfile + regex on `word/document.xml`); Part III read in full (Core Historical Gravity Discovery, Candidate Gravity Generation, the six tests, Gravity Classification, Confidence/Gravity Cross-Check), Step 4's own activity list read verbatim
+- `reference/L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx` — same extraction; Section 2 (Six-Cell Matrix, both axes, all six cells) and Section 4's Step 4 entry read verbatim
+- `reference/L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md` — read in full (located during this review; see M4)
 - `World-Builds/Imperial-Juridical-Christianity/Doc_04_Gravity_Discovery.md` — read in full as peer precedent, including its §2, its Candidates 3/4/5, its Open Items 3–5, and its Disposition/revision history
 - `Review-Artifacts/Doc03_Round1_Review.md`, `Doc03_Round2_Review.md` — read as this folder's format reference
 
@@ -163,7 +163,7 @@ Doc_01 §8 item 6: *"The Antiochene primary-gravity contrast (§7 above; Step 0 
 
 ### M4 — The governing L4 template is never named, and the fourth label is therefore reported as an unsourced Framework gap when it is a Framework/Template mismatch
 
-`L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md` exists in this working tree. It is the structural governance IJC's own Doc_04 cites in its "Governed by" line, and it is what makes the "did-not-reach-gravity-status" label available at all — §4 of it: *"Required section stating each candidate's final classification (**Primary/Supporting/Tensional/did-not-reach-gravity-status**)."*
+`reference/L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md` exists in this working tree. It is the structural governance IJC's own Doc_04 cites in its "Governed by" line, and it is what makes the "did-not-reach-gravity-status" label available at all — §4 of it: *"Required section stating each candidate's final classification (**Primary/Supporting/Tensional/did-not-reach-gravity-status**)."*
 
 Doc_04's "Governed by" line omits it, and `grep -c "Template"` returns **0** — yet Doc_04 uses the Template's own apparatus throughout, and in two places uses its own words while crediting them elsewhere: line 8's *"this document's own **required index table** (§4) and Interaction Matrix (§6)"* is Template §4's phrase, and §6's "every tested candidate" rule (line 191) is attributed to IJC's Doc_04, which itself attributes it to *"the Template's own 'every tested candidate' requirement."*
 
