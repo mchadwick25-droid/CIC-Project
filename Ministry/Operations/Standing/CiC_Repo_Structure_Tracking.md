@@ -436,3 +436,47 @@ that's this world's own thread's step once the reconciliation above is settled.
 
 **Status:** merged and pushed. Content reconciliation is `donatism-lpc-integration`'s own
 next step, not this thread's.
+
+---
+
+## 2026-09-14 — `lpc-round26-rows-65-44` merged into `lpc-doc04-round2`
+
+Mark: "merge lpc-doc04-round2 and lpc-round26-rows-65-44." Unlike Donatism, this was not two
+rival authorings — both branches continued the same sequential document set
+(`Doc_02_Source_Ecology.md`, `Source_Registry.md`, `lpc_Decision_Log.md`) from the same
+2026-09-08/09 ancestor, and `lpc-doc04-round2` is later in that same history throughout.
+Pushed as `361074e35` on `lpc-doc04-round2` (merge commit; no history rewritten).
+
+**Resolved by taking `lpc-doc04-round2`'s side, each verified before resolving, not
+assumed:** Status lines — its own text states main was self-disposed on Round 30's clearing
+verdict (2026-09-12), superseding round26's "REOPENED... SUBSTANTIAL REVISION REQUIRED"
+account (2026-09-09). Registry rows 44 and 65 — round26 claims the Codex Theodosianus and
+Gesta Collationis Carthaginiensis texts are "not present on this world's own branch, not on
+main"; verified directly that both files exist in `cic/texts/` and the Gesta file is
+assigned in this world's own corpus-map bucket — doc04-round2's claim is correct, round26's
+is stale. Two small Decision Log conflicts — doc04-round2's account explicitly names and
+corrects a "wrong-tree fork": round26 forked one commit before Round 27's fix landed and
+never saw it, so it wrongly reports those findings as still unfixed.
+
+**One conflict needed real reconciliation, not a pick.** round26 carries a real disposition
+event — via the project lead's relay channel, with three named trigger IDs, exactly the
+verifiable-record provenance CO-022 requires — that doc04-round2's own line of history never
+learned about (its fork point predated it). doc04-round2's own "2026-09-10 Reconciliation"
+entry states both lines of work "are genuine, do not conflict with each other, and are both
+carried forward together," and this decision log is append-only, correct-in-place,
+never-delete-the-record, by its own repeatedly-stated convention. Inserted round26's entry
+verbatim in its correct chronological slot (between Round 29 and doc04-round2's own 2026-09-10
+Reconciliation entry) rather than silently discarding real provenance data. Verified after:
+no conflict markers remain; the two auto-merged corpus-map YAML files still parse; dated
+entries run in chronological order with no duplication.
+
+**Push required one extra step.** A live thread pushed a new commit
+(`b2e93cacd`, "targeted read of the Gesta against Candidate 5's Persistence test") to
+`lpc-doc04-round2` between my fetch and my first push attempt — caught by a rejected
+non-fast-forward push, not silently overwritten. `git fetch` kept returning a stale cached
+tip; `git ls-remote` (bypasses cache) showed the real one. Verified zero file overlap with my
+merge, merged it in (a second merge commit, never a rebase on a branch I don't own), then
+pushed clean.
+
+**Status:** merged and pushed. Real content work (Doc_04 completion, Candidate 5's
+escalated classification) remains this world's own thread's to continue.
