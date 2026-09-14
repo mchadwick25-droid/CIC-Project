@@ -1,6 +1,6 @@
 ---
 id: don.quote.petilian-conscience-of-the-giver
-world_id: don
+world_id: donatism
 record_type: quote
 schema_version: 2
 status: draft

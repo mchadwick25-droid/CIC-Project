@@ -1,6 +1,6 @@
 ---
 id: don.source.cil8-numidia-supplement
-world_id: don
+world_id: donatism
 record_type: source
 schema_version: 2
 status: draft

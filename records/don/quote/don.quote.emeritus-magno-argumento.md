@@ -1,6 +1,6 @@
 ---
 id: don.quote.emeritus-magno-argumento
-world_id: don
+world_id: donatism
 record_type: quote
 schema_version: 2
 status: draft

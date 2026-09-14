@@ -1,6 +1,6 @@
 ---
 id: don.demo.baptism-threshold
-world_id: don
+world_id: donatism
 record_type: demonstration
 schema_version: 2
 status: draft

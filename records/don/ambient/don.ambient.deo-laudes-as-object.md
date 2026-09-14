@@ -1,6 +1,6 @@
 ---
 id: don.ambient.deo-laudes-as-object
-world_id: don
+world_id: donatism
 record_type: ambient
 schema_version: 2
 status: draft

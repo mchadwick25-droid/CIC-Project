@@ -1,6 +1,6 @@
 ---
 id: don.force.martyr-cult-confessor-memory
-world_id: don
+world_id: donatism
 record_type: force
 schema_version: 2
 status: draft

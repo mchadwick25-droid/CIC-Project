@@ -1,6 +1,6 @@
 ---
 id: don.story.lucilla-consecration-dispute
-world_id: don
+world_id: donatism
 record_type: story
 schema_version: 2
 status: draft

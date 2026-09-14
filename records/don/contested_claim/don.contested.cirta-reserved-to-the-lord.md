@@ -1,6 +1,6 @@
 ---
 id: don.contested.cirta-reserved-to-the-lord
-world_id: don
+world_id: donatism
 record_type: contested_claim
 schema_version: 2
 status: draft

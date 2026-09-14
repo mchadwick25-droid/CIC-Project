@@ -1,6 +1,6 @@
 ---
 id: don.source.gesta-collationis-carthaginiensis
-world_id: don
+world_id: donatism
 record_type: source
 schema_version: 2
 status: draft

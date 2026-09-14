@@ -1,6 +1,6 @@
 ---
 id: don.witness.boundary-is-doctrine
-world_id: don
+world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
 status: draft

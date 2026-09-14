@@ -1,6 +1,6 @@
 ---
 id: don.search.liber-genealogus
-world_id: don
+world_id: donatism
 record_type: search_record
 schema_version: 2
 status: draft

@@ -1,6 +1,6 @@
 ---
 id: don.gravity.martyr-cult-identity
-world_id: don
+world_id: donatism
 record_type: gravity
 schema_version: 2
 status: draft

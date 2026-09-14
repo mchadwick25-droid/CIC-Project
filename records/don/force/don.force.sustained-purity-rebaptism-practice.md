@@ -1,6 +1,6 @@
 ---
 id: don.force.sustained-purity-rebaptism-practice
-world_id: don
+world_id: donatism
 record_type: force
 schema_version: 2
 status: draft

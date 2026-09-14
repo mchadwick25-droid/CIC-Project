@@ -1,6 +1,6 @@
 ---
 id: don.limit.shared-christology
-world_id: don
+world_id: donatism
 record_type: honest_limit
 schema_version: 2
 status: draft

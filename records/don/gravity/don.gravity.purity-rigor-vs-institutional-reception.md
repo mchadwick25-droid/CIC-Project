@@ -1,6 +1,6 @@
 ---
 id: don.gravity.purity-rigor-vs-institutional-reception
-world_id: don
+world_id: donatism
 record_type: gravity
 schema_version: 2
 status: draft

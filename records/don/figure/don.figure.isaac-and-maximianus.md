@@ -1,6 +1,6 @@
 ---
 id: don.figure.isaac-and-maximianus
-world_id: don
+world_id: donatism
 record_type: figure
 schema_version: 2
 status: draft

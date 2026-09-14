@@ -1,6 +1,6 @@
 ---
 id: don.source.acts-of-council-of-carthage-under-cyprian
-world_id: don
+world_id: donatism
 record_type: source
 schema_version: 2
 status: draft
