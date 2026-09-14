@@ -109,7 +109,7 @@ tensions:
   never was
 relations:
 - type: associated-with
-  target: don.quote.conscience-of-the-giver
+  target: don.quote.petilian-conscience-of-the-giver
 ---
 Closes F4-I. Two of the cell's five variants (how a person became one of
 us; how wrongdoing was handled and whether someone could return) are
@@ -125,5 +125,5 @@ any form," and that "treating that as settled hypocrisy imports a
 conclusion the evidence does not supply; so does treating it as a
 principled exception."
 
-Paired with `don.quote.conscience-of-the-giver` (which also pairs with
+Paired with `don.quote.petilian-conscience-of-the-giver` (which also pairs with
 `don.dw.walking-to-one-font`); reciprocal relations declared on the quote.
