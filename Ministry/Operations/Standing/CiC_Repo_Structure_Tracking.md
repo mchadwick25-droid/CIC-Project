@@ -354,5 +354,132 @@ rewritten, and what was not rewritten by design.
    sandbox; the Blueprint's per-service branch field could not be verified from here).
 5. Register codes for the four candidate worlds (P6): `gallic`, `lpc`, and two to name.
 
-**Status:** phase 1 done, pending merge. Phase 2 waits for Gate B. Phase 3 (promotion
-model, optional renames) and WO-1…5 are handed off as work orders above.
+**Status:** phase 1 merged to `main` (`620b5b14b`, includes CO-3).
+
+---
+
+## 2026-09-14 — Gate B open; phase 2 sequencing
+
+**Gate B declared (Mark, 2026-09-14): "open the freeze window for phase 2."** Manifest
+staged (`tools/moves-phase2.tsv`): 12 `World-Builds/<Long-Name>/` → `worlds/<code>/`
+(candidate codes `gallic`, `lpc`, `latap` = Latin Apologists, `grkap` = Second-Century Greek
+Apologists — P6, Mark 2026-09-14), 6 `world-build-docs/<code>/` → `worlds/<code>/build/`,
+`world-build-docs/_cross-world/` → `worlds/_cross-world/`, the W1 draft → `worlds/pahc/`.
+`tools/gen_shelf.py` staged to generate each world's `SHELF.md` from its corpus-map bucket
+via `census_id` (registry worlds) or the stated candidate mapping (the four codes above, not
+yet registered).
+
+**10 branches still unmerged, still touching the world trees, checked against the new
+main (`620b5b14b`):** `lpc-round26-rows-65-44` (7 files), `lpc-doc04-round2` (6),
+`claude/ijc-world-build-b9p7hr` (2), `claude/desert-admission-fix` (2),
+`claude/gallic-monastic-world-build` (**127**), `claude/syr-odes-of-solomon-e5pyh5` (1),
+`claude/pahc-world-build-2oq764` (1), `donatism-lpc-integration` (**44**),
+`merge-source-library-integration-into-main` (3), `claude/record-native-world-build-v2-
+e2s0dt` (23).
+
+**Sequencing decision (Mark, 2026-09-14):** land `claude/gallic-monastic-world-build` and
+`donatism-lpc-integration` first — the two whose rebase would be painful. The other 8 (1–23
+files each) rebase after the move using the ledger's old→new mapping. This thread checks
+back once the two named branches merge, then executes directory-first, files second,
+rewrite third, diffed baseline fourth — the phase-1 ordering lesson from CO's flatten
+correction.
+
+**Status, updated 2026-09-14:** `claude/gallic-monastic-world-build` merged to `main` (PR
+#184). Still waiting on Donatism's own reconciliation branch — renamed from
+`donatism-lpc-integration` to **`donatism-main-integration`** the same day, to stop
+colliding on sight with the unrelated Latin Pastoral Congregational Christianity world's own
+`lpc-*` branches (`lpc-doc04-round2` etc.) — same commits, same content, name only. Phase 3
+(promotion model, optional renames) and WO-1…5 remain handed off as work orders above.
+
+---
+
+## 2026-09-14 — `donatism-lpc-integration`: main merged in; real content reconciliation surfaced, handed to the Donatism thread
+
+Mark asked directly: "merge main into donatism-lpc-integration and resolve conflicts." Two
+Donatism worlds turned out to exist — not a stale branch behind a clean trunk, but two
+independent full authoring passes from the same day (2026-09-10), diverged since. Pushed as
+`1fd6696fd` on `donatism-lpc-integration` (merge commit, no history rewritten); full reasoning
+in the commit message. Summary:
+
+**Resolved (Mark's ruling, first pass):** for every file where both sides authored the same
+record, main's version wins — fuller in source (55/41), figure (24/16), and (found only
+after this ruling) doctrinal_witness (25/3), contested_claim (8/4), demonstration (9/3);
+`census_id: "donatism"` resolves against `world-census.json`, the branch's
+`"donatist-north-africa"` does not; main's package is the one currently live/pinned.
+Representative title → main's "Bishop of the Unbroken Line"; the Fidelis portrait prompt's
+one reference corrected to match (image unaffected). The Phase Six coordination and
+facilitation-brief conflicts in `World-Builds/Donatism/` resolved the same way — main's are
+later revisions (Round 4 vs Round 1) of the same documents, independently reviewed and
+disposed by the project lead.
+
+**Correction, same pass:** my first read ("main is simply fuller") was wrong and I said so
+before committing anything. The real per-type picture is not a superset relationship —
+after taking main's side of every conflict, the merge still pulled in every file that exists
+on only ONE side (git's normal non-conflicting-add behavior), and that surfaced real gaps in
+both directions.
+
+**Not resolved — handed to this world's own build thread, per Mark's decision to route this
+rather than have this thread (or me) decide it:**
+- **Duplicate `voice_craft`.** `don.voice.craft.md` (main's, fleet-standard naming) and
+  `don.craft.fidelis-voice.md` (the branch's, the same non-standard pattern already accepted
+  as a defect for pahc) both now exist. A world should have exactly one.
+- **Record categories present on the branch, thin or absent on main:** `ambient` (3, zero on
+  main), `search_record` (9 vs 1), `honest_limit` (12 vs 3) — real research currently
+  invisible to the live, registered build.
+- **`term` (21/21) and `quote` (4/4) tie in count but differ in content and IDs** on each
+  side — independently authored, not additive; likely near-duplicates needing a real compare.
+- **Flagged, not touched:** a pre-existing `Fidelis_Portrait.png.jpg` sits at
+  `Representative-Portraits/` root (every other world's portrait lives in its own subfolder,
+  including this one's own `donatism/`) — looks like a stale artifact predating the approved
+  workflow.
+
+**Verification before push:** `engine.m1.loader.load_world_records` parses the merged tree
+without error (4,624 records, no schema-parse failure). No gate battery or admission run —
+that's this world's own thread's step once the reconciliation above is settled.
+
+**Status:** merged and pushed. Content reconciliation is `donatism-lpc-integration`'s own
+next step, not this thread's.
+
+---
+
+## 2026-09-14 — `lpc-round26-rows-65-44` merged into `lpc-doc04-round2`
+
+Mark: "merge lpc-doc04-round2 and lpc-round26-rows-65-44." Unlike Donatism, this was not two
+rival authorings — both branches continued the same sequential document set
+(`Doc_02_Source_Ecology.md`, `Source_Registry.md`, `lpc_Decision_Log.md`) from the same
+2026-09-08/09 ancestor, and `lpc-doc04-round2` is later in that same history throughout.
+Pushed as `361074e35` on `lpc-doc04-round2` (merge commit; no history rewritten).
+
+**Resolved by taking `lpc-doc04-round2`'s side, each verified before resolving, not
+assumed:** Status lines — its own text states main was self-disposed on Round 30's clearing
+verdict (2026-09-12), superseding round26's "REOPENED... SUBSTANTIAL REVISION REQUIRED"
+account (2026-09-09). Registry rows 44 and 65 — round26 claims the Codex Theodosianus and
+Gesta Collationis Carthaginiensis texts are "not present on this world's own branch, not on
+main"; verified directly that both files exist in `cic/texts/` and the Gesta file is
+assigned in this world's own corpus-map bucket — doc04-round2's claim is correct, round26's
+is stale. Two small Decision Log conflicts — doc04-round2's account explicitly names and
+corrects a "wrong-tree fork": round26 forked one commit before Round 27's fix landed and
+never saw it, so it wrongly reports those findings as still unfixed.
+
+**One conflict needed real reconciliation, not a pick.** round26 carries a real disposition
+event — via the project lead's relay channel, with three named trigger IDs, exactly the
+verifiable-record provenance CO-022 requires — that doc04-round2's own line of history never
+learned about (its fork point predated it). doc04-round2's own "2026-09-10 Reconciliation"
+entry states both lines of work "are genuine, do not conflict with each other, and are both
+carried forward together," and this decision log is append-only, correct-in-place,
+never-delete-the-record, by its own repeatedly-stated convention. Inserted round26's entry
+verbatim in its correct chronological slot (between Round 29 and doc04-round2's own 2026-09-10
+Reconciliation entry) rather than silently discarding real provenance data. Verified after:
+no conflict markers remain; the two auto-merged corpus-map YAML files still parse; dated
+entries run in chronological order with no duplication.
+
+**Push required one extra step.** A live thread pushed a new commit
+(`b2e93cacd`, "targeted read of the Gesta against Candidate 5's Persistence test") to
+`lpc-doc04-round2` between my fetch and my first push attempt — caught by a rejected
+non-fast-forward push, not silently overwritten. `git fetch` kept returning a stale cached
+tip; `git ls-remote` (bypasses cache) showed the real one. Verified zero file overlap with my
+merge, merged it in (a second merge commit, never a rebase on a branch I don't own), then
+pushed clean.
+
+**Status:** merged and pushed. Real content work (Doc_04 completion, Candidate 5's
+escalated classification) remains this world's own thread's to continue.
