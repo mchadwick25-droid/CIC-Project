@@ -87,6 +87,10 @@ jobs:
               - 'records/**'
               - 'packages/**'
               - 'fixtures/**'
+              # engine/m1/cross_world.py reads the census (check_census_link); a
+              # census-only change reverted Donatism's card on 2026-09-12 and
+              # turned main's M1 selftest red without this job ever running.
+              - 'cic-website/data/world-census.json'
               - '.github/workflows/**'
             frontend:
               - 'cic-poc/frontend/**'

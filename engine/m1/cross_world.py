@@ -457,11 +457,15 @@ def check_package_pinned(*, registry, worlds, **_) -> list[Finding]:
 # stage 2: the registry against the Atlas census (the other surface)
 # --------------------------------------------------------------------------
 
-def _census_live_entries() -> dict[str, dict]:
+def _census_entries() -> dict[str, dict]:
     if not CENSUS_PATH.is_file():
         return {}
     census = json.loads(CENSUS_PATH.read_text(encoding="utf-8"))
-    return {m["id"]: m for m in census.get("movements", []) if m.get("status") == "Built & Live"}
+    return {m["id"]: m for m in census.get("movements", [])}
+
+
+def _census_live_entries() -> dict[str, dict]:
+    return {k: m for k, m in _census_entries().items() if m.get("status") == "Built & Live"}
 
 
 def check_census_link(*, registry, worlds, **_) -> list[Finding]:
@@ -472,15 +476,22 @@ def check_census_link(*, registry, worlds, **_) -> list[Finding]:
     entry is a deep link that can never match - the participant lands on the
     world list instead of the world they clicked."""
     findings = []
+    entries = _census_entries()
     live = _census_live_entries()
     if not live:
         return [_defect("census-file", "fleet", f"no Built & Live entries readable at {CENSUS_PATH}")]
     for w in worlds:
         cid = registry[w].get("census_id")
+        # The app lists admitted/open worlds only (Settings.enforce_admission), so only
+        # those need a live card today; a built-not-admitted world needs its entry to
+        # exist so the link matches the day admission flips the card.
+        listed = registry[w].get("state") in ("admitted", "open")
         if not cid:
             findings.append(_defect("census-id", w, "census_id is unset - the Atlas deep link for this world can never match, and it falls through to the world list"))
-        elif cid not in live:
+        elif listed and cid not in live:
             findings.append(_defect("census-id", w, f"census_id {cid!r} is not a 'Built & Live' entry in world-census.json"))
+        elif not listed and cid not in entries:
+            findings.append(_defect("census-id", w, f"census_id {cid!r} has no entry in world-census.json - the deep link cannot match at admission"))
     claimed = {registry[w].get("census_id") for w in worlds}
     for cid in sorted(set(live) - claimed):
         findings.append(_defect("census-orphan", cid, "census entry is marked 'Built & Live' but no registry world claims it"))

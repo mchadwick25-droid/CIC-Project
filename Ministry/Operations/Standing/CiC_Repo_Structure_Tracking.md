@@ -244,6 +244,18 @@ tools/check_paths_baseline.txt` before pushing.
   decision is reference, not closed evidence. Corrected: `Pass2/decisions/` (22 files) →
   `reference/method/Pass2-decisions/`; the rest of Pass2 (baselines, batteries, gates, TRRs,
   reviews) and Pass3 → `Archive/Technology-Pass2-2026-08/` as planned.
+- **CO-3 (2026-09-14, PR #183 blocked).** `main` has been red on the required M1 selftest
+  since `7c22635a3` (2026-09-12): Donatism's Atlas card was reverted to "Selected - Not Yet
+  Built" (correct — `state: built`, not admitted, so the app does not list it), but
+  `engine/m1/cross_world.py check_census_link` demanded a "Built & Live" card for every world
+  with a `census_id`, state-blind; and the census file was not in the M1 job's path filter,
+  so the census-only PR never ran the job. Docs-only PRs merged past it; phase 1 touched
+  `engine/` comments, so the job ran and exposed it. Fix (this PR, engine change, Mark's
+  acceptance): the check requires a live card only for admitted/open worlds and an existing
+  entry for built ones; `cic-website/data/world-census.json` added to the `engine` filter.
+  10/10 M1 tests pass; `cross_world` exits 0; no waiver added. Alternative rejected: an
+  `ACCEPTED_OPEN` waiver cannot satisfy `test_the_desert_deep_link_defect_is_caught`, which
+  asserts the raw check is clean.
 - **Execution details settled within P9/P11 (no change to the plan):** the citation rewrite
   and the path check share one scope — current documents only. Dated Ministry history (audits,
   decision logs, launch prompts, dated files) is not rewritten; it describes the tree as it
