@@ -130,6 +130,23 @@ Before that, **BAR SWEEP**, 2026-08-30 (Mark: "much better thats the bar" -
 field swept to the approved sample - short sentences, everyday words;
 quotes character-exact; renderings at the bar.
 
+**Census content enriched, 2026-09-14.** Following the Gallic Salvian
+expansion's own precedent, Mark asked for the same treatment across the
+other live worlds. A research-only subagent read `records/alx/` in full
+against the live census entry and proposed sourced additions; every
+proposed claim was independently re-verified against its own cited
+record (quote text, figure dates, confidence tier) before being applied.
+Six fields changed: `sourcing` (the untranslated Stromateis III gap),
+`floorNote` (a real correction - the in-lifetime Demetrius/Origen rupture
+was over his ordination, not the doctrines later condemned in 553, which
+the prior text had conflated), `longDescription` (Clement never
+describing a formal school he headed; the Nepos/Dionysius allegory
+dispute), and `voices` (Dionysius's own plague-nursing quote; Didymus's
+Tura-papyri absence and the unattested "headed the school" claim
+softened to "later tradition"; Potamiaena named as the concrete instance
+behind "no woman's own words"). Diff scoped and verified with
+`node tools/validate-census.mjs` (0 errors).
+
 ## desert (Desert Monasticism)
 
 `doorway_place` is Mark's plain-English doorway direction (2026-08-28);
@@ -182,6 +199,20 @@ Recompile history before the schema-gap pass: **LEXICON LABEL PASS**,
 labeled. **FIVE-WORLD TRANSPARENCY READ**, 2026-08-30: antony-call +C-P;
 `demo.center-coming-to-belief` opening speaks the plain name (Moses).
 **BAR SWEEP**, 2026-08-30, same standard as alx.
+
+**Census content enriched, 2026-09-14.** Same pass as alx's own entry
+above. Five fields changed: `sourcing` (this world's own fleet-largest
+quote shelf, 59 records, directly counted against every sibling world
+before being stated); `longDescription` (a real correction - Kellia's
+own commercial center, showing the settlements' real economic ties to
+nearby villages; the popular Byzantine-Hesychast conflation named and
+distinguished, citing the term's own `false_friend` field); `legacy`
+(the same hesychia correction restated where a reader would meet the
+later tradition); `voices[1]` (Pachomius's own sister's house across the
+river, its rule against the two communities ever seeing each other's
+faces, and the burial exception - her own name withheld, per the
+source record's own explicit instruction that the tradition's later
+name for her is not attested in this text). Verified clean.
 
 ## pahc (Post-Apostolic House-Church Christianity)
 
@@ -302,6 +333,16 @@ spend and Mark's own explicit per-run authorization
 precedent) - not something a build thread runs on its own judgment.
 Flagged here for Mark's decision, not executed.
 
+**Census content enriched, 2026-09-14.** Same pass as alx's own entry
+above. Two fields changed: `voices` (the two enslaved deaconesses,
+named only by Pliny's own word for their office, tortured c. 112 to
+learn what Christians did - the earliest outside evidence women held a
+formal title here at all); `longDescription` (a real correction - "a
+ten-soldier guard" read Ignatius's own metaphor, "ten leopards," as a
+literal headcount; corrected against the vendored source directly, plus
+the Pliny/Trajan material newly surfaced as the movement's one outside,
+non-Christian witness). Verified clean.
+
 ## hal (Hieronymian Ascetic-Literary Christianity)
 
 `census_id`: the census entry's own `id` field is what the Atlas deep link
@@ -362,6 +403,20 @@ recompile needed** - the discovery pass's premise (a real gap in a
 deployment layer) did not survive contact with which layer actually
 ships. Logged here rather than left as a silent non-finding.
 
+**Census content enriched, 2026-09-14.** Same pass as alx's own entry
+above. Four fields changed: `sourcing` (a real correction - Palladius's
+Greek reporting Jerome's own jealousy toward Paula hardens, in the
+Syriac recension of the same passage, into a flat claim she died to
+escape it; the two witnesses' own disagreement, not either one's
+account, is what the field now states); `longDescription` and `legacy`
+(Augustine's own Oea congregation nearly rioting over one changed word
+in Jonah; Augustine's own final, published non-acceptance of the
+Vulgate, quoted verbatim); `voices` (Fabiola added as a sixth voice -
+her divorce/remarriage/public penance held to the same standard the
+teaching applied to men, and the "first hospital" claim attributed to
+Jerome's own single, uncorroborated letter rather than stated as fact).
+Verified clean.
+
 ## syr (Syriac Christianity, Edessa/Nisibis)
 
 `doorway_place` responds to Mark's own screen read, 2026-08-28, which
@@ -396,6 +451,18 @@ qyama, raza+shrara, tahwyata, Ewangeliyon da-Mhallete labeled.
 **FIVE-WORLD TRANSPARENCY READ**, 2026-08-30: abgar-addai-legend +C-E,
 jacob-nicaea +C-T, ihidaya +C-I, raza-shrara +C-T. **BAR SWEEP**,
 2026-08-30, same standard as alx.
+
+**Census content enriched, 2026-09-14.** Same pass as alx's own entry
+above. Three fields changed: `sourcing` (the registry's own thinness
+finding stated specifically rather than generically); `longDescription`
+(the two conflicting primary witnesses on Jacob of Nisibis's death year
+named directly, the dispute itself left open; Yazdegerd I named as the
+Persian king whose favor enabled the 410 synod); `legacy` (the
+Diatessaron's own displacement by the Peshitta under Rabbula, with his
+personal causation stated as the historians' own live dispute, not
+settled); `voices` (Simeon bar Sabbae added as a seventh voice - tax
+refusal, martyrdom, the disputed year of his death named as disputed).
+Verified clean.
 
 ## ijc (Imperial and Juridical Christianity)
 
@@ -448,6 +515,28 @@ Recompile history: **LEXICON LABEL PASS**, 2026-08-30: homoousios, homoios,
 concilium, primatus, Tomus labeled. **FIVE-WORLD TRANSPARENCY READ**,
 2026-08-30: tome-that-would-not-bend +C-T. **BAR SWEEP**, 2026-08-30, same
 standard as alx.
+
+**Census content enriched, 2026-09-14.** Same pass as alx's own entry
+above. Added a `teaser` field (absent before this pass, matching the
+fleet convention only Cappadocian and Gallic had carried). Four other
+fields changed: `sourcing` (women's own absence named alongside the
+ordinary-believer and Homoian silences, matching the registry's own
+`thinness_statement`); `longDescription` (a real correction - the
+world's own signature line, "the emperor is within the Church, not
+above it," is Ambrose's own words from the 386 basilica standoff, not
+the 390 Thessalonica penance the prior text attributed it to; both real
+events are now named, in their real order); `legacy` (the same 386
+vigil's own lasting liturgical legacy, Augustine's own eyewitness quote
+on congregational hymn-singing); `voices` (Justina's own coercive
+measures named with the source's own stated ambiguity over whether
+Ambrose's letter or the record's chronology is the more reliable
+witness to her role; the anonymous Homoian fragment's likely author
+named, on the dominant scholarly identification, as Mercurinus
+Auxentius). One internal date inconsistency found and left unresolved
+rather than guessed at: `longDescription` gives Constantine's toleration
+as 313, `entry.tile` and the registry's own `time_window` give 312; no
+ijc record disambiguates which specific act each date names. Verified
+clean.
 
 ## cappadocian (Cappadocian Christianity)
 
