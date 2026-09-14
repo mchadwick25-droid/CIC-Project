@@ -138,6 +138,7 @@ World-Builds/Latin-Pastoral-Congregational-Christianity/Step0_Movement_Scope_Con
 World-Builds/Latin-Pastoral-Congregational-Christianity/Step0_Movement_Scope_Confirmation.md: records/ijc/quote/ijc.quote.i-scorned-to-be-a-little-one.md
 World-Builds/Latin-Pastoral-Congregational-Christianity/Step0_Movement_Scope_Confirmation.md: records/ijc/quote/ijc.quote.take-up-and-read.md
 World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md: Archive/Microsoft
+World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md: Ministry/Formation
 World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md: cic/corpus-map/tertullian-s-voice.yaml
 World-Builds/Second-Century-Greek-Apologists/Review-Artifacts/Step0_Round1_Review.md: cic/corpus-map/tertullian-s-voice.yaml
 World-Builds/Second-Century-Greek-Apologists/Review-Artifacts/Step0_Round1_Review.md: records/lpc
