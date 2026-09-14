@@ -100,37 +100,70 @@
 
 ## 4. Liturgical Evidence
 
-Unchanged.
+Cassian's *Institutes* Books II and III are themselves substantially a liturgical source — a description of the monastic office, canonical hours, and the practice of psalmody, presented as Cassian's own account of Egyptian custom adapted for Gaul. Doc_01 §5's worship-question answer already carries the editorial note on psalms-and-prayers transmission "perhaps introduced into the West by Cassian... widely adopted both in Gaul and in Spain" (hedge preserved per Doc_01's own N8 correction). This document adds nothing beyond what Doc_01 already carries here, and does not re-hedge what Doc_01 already hedged correctly.
+
+**(Content restored here for self-containment — this section was carried forward through Round 1–3 as "Unchanged," which left the live document's own text unreadable without git history; restored verbatim from the original draft, no substantive change.)**
 
 ---
 
 ## 5. Material Evidence
 
-Unchanged; see §9.
+**None independently vendored.** No archaeological report, papyrological find, or material-culture study specific to Ligugé, Marmoutier, Lérins, or the Marseilles houses is in this project's library. This is named as a real evidentiary gap, not smoothed over: everything in §3 above rests on textual description alone. A future field-bibliography sweep (§14 below) should treat material/archaeological literature on these specific sites as a priority search target, not assume none exists simply because none is yet vendored. See also §9 below.
+
+**(Content restored here for self-containment, same disclosure as §4 above; the forward cross-reference is corrected from the original draft's "§9 below" to "§14 below," matching this document's current section numbering.)**
 
 ---
 
 ## 6. Ordinary Participant Evidence
 
-Unchanged from the prior revision (Claudia, corrected to two-plus letters, elite/likely-ascetic, not ordinary — S19, confirmed sound on independent re-review).
+**Corrected in three respects (Round 1 finding S19).** The prior draft offered Claudia, Sulpitius's sister, as "the one concrete trace" of ordinary, non-elite, non-monastic participation, on the strength of one letter. Checked again directly this revision:
+
+1. **There are at least two letters to Claudia, not one** — Letter I ("Concerning the Last Judgment") and **Letter II, "Concerning Virginity"** (`npnf211`, Doubtful Letters), both read directly. Gennadius (ch. XIX) independently states Sulpitius "wrote to his sister **many** Letters."
+2. **Claudia is not evidence of non-elite participation.** Sulpitius himself "belonged to an illustrious family" (`npnf211` line 366); his sister is a member of the same family. She is this world's own literate provincial aristocracy, not a counterexample to it.
+3. **"Non-monastic" is not supported and is likely wrong.** Letter II, read directly this revision, opens with a treatise-length meditation on the special sanctity of consecrated virginity — "those who are virgins possess something above the rest, since ... they are chosen by the Holy Spirit, and are presented by the bishop ... at the altar of God, as if being more holy and pure sacrifices." A letter in this specific genre, addressed to a named woman, is the standard form for correspondence with a woman already under, or being urged toward, a vow of virginity — not neutral family correspondence to a laywoman outside any ascetic commitment.
+
+**Corrected finding:** Claudia is real, textually present, and worth keeping in view — but as a second data point on this world's own elite, and very possibly ascetically-committed, women (alongside the Saint-Sauveur community, Doc_01 §4), not as this library's one thread to ordinary, non-elite, non-monastic life. **That thread remains genuinely absent**, and §10 below restates the Missing Voices finding accordingly, without Claudia doing work she cannot do.
+
+**(Content restored here for self-containment, same disclosure as §4 above; confirmed sound on independent re-review, Round 2 finding S19 residue check — no substantive change.)**
 
 ---
 
 ## 7. Secondary Scholarship Assessment
 
-Unchanged from the prior revision (six works including Weaver 1996, added S24/PRESS-3, confirmed sound). The relationship-to-synthesis-scholarship gap remains named, not filled.
+Five works, named in Doc_01 §10 and carried forward here with the same confidence discipline: their existence, general thesis, and bibliographic details have been independently verified via live research this build has conducted (across Doc_01's drafting and this document's own pass); **none has been read in full this session**, and this document does not claim otherwise.
+
+- **Clare Stancliffe, *St. Martin and His Hagiographer: History and Miracle in Sulpicius Severus*** (Oxford: Clarendon Press, 1983) — the standard critical study of Sulpitius's reliability specifically. Directly relevant to §1.1's Author Gravity limitations above and to Doc_09's eventual tier discipline for Martin material.
+- **Conrad Leyser, *Authority and Asceticism from Augustine to Gregory the Great*** (Oxford: Clarendon Press, 2000) — treats Cassian's "language of moral authority" and his Roman connection through Leo (Doc_01 §10, C7-corrected).
+- **Ralph W. Mathisen, *Ecclesiastical Factionalism and Religious Controversy in Fifth-Century Gaul*** (Washington, DC: Catholic University of America Press, 1989) — the standard study of the Lérins circle's ecclesiastical-political dimension, load-bearing for Doc_01 §2.4's closing-boundary argument.
+- **Owen Chadwick, *John Cassian*** (1950; 2nd ed. 1968) and **Augustine Casiday, *Tradition and Theology in St John Cassian*** (Oxford University Press, 2007) — the two poles of the Contested Conference XIII/Augustine chronology debate (Doc_01 §7).
+- **Rebecca Harden Weaver, *Divine Grace and Human Agency: A Study of the Semi-Pelagian Controversy*** (Patristic Monograph Series 15, Mercer University Press, 1996) — added, Round 1 finding S24/PRESS-3 (Source Registry row 23) — the standard English monograph on the controversy itself, covering Cassian's *Conf.* XIII, Prosper, the Gallic response, and Faustus's *De gratia* in one work; closes the largest single gap the five works above left (none of them treats this world's own central argument directly).
+
+**Confidence for all six: Type S, Boundary Native (their subject is this world), Citation Reliability B** (specific work named, existence and general thesis independently checked, full text not read this session). Doc_09 and later steps needing granular claims from any of these six should read the work directly before citing it for a specific, vivid claim — this document licenses them for general thesis-level reference only. **The relationship-to-synthesis-scholarship gap Round 2 named remains open:** interpretive commitments, period, and method are still unremarked for all six (Chadwick 1950 vs. Casiday 2007 as two generations of method is itself unaddressed) — named as a gap, not filled.
+
+**(Content restored here for self-containment, same disclosure as §4 above; Weaver's own addition integrated directly into the list rather than left as a separate pointer.)**
 
 ---
 
 ## 8. Formation Narrative Sources
 
-Unchanged, plus the Postumianus/Gallus naming note now correctly attributed to Gennadius's own text (§3 above) rather than left ambiguous.
+Sulpitius's *Vita Martini*, *Dialogues*, and *Letters* are this world's own formation-narrative sources in the Framework's specific sense (§1.1 above covers authorship, proximity, and genre in full). One further note the Framework requires here specifically: **what formation ecology the narrative reveals.** Read together, Sulpitius's corpus reveals a formation pattern organized around direct, personally-witnessed contact with a single exemplary figure (Sulpitius insists throughout on his own acquaintance with Martin, and the *Dialogues*' frame narrative — a Gallic friend "who had been one of [Martin's] disciples," reunited with the returning traveller Postumianus — stages eyewitness testimony as a structural device, not incidental color) rather than through a written rule or codified curriculum. This is the same "named, direct testimony as the guarantee of a text's authority" pattern Doc_01 §6 flags as a candidate cross-node gravity for Doc_04 to test — this document supplies the Tours-side textual grounding for that candidate more fully than Doc_01 had space to.
+
+**(Content restored here for self-containment, same disclosure as §4 above.) The Postumianus/Gallus naming — the frame narrative's own two figures — is now correctly attributed to Gennadius's own text (§3 above, "a Conference between Postumianus and Gallus") rather than left ambiguous; that attribution fix lives in §3, not as new content here.**
 
 ---
 
 ## 9. Material Culture, Daily Life, and Surrounding Environment
 
-Unchanged from the prior revision (all four Framework categories addressed; Institutes I.10 citation correct).
+**Restructured to address all four Framework categories, not two (Round 1 finding S22 — the prior draft's §5 and §9 said the same thing twice and left two required categories entirely unaddressed):**
+
+1. **Documentary/material evidence:** none vendored. Honestly acknowledged, not treated as absence of such conditions in fact (Framework's own instruction, already correctly followed).
+2. **Archaeological evidence:** none vendored. Same.
+3. **Social-historical background** (household economics, social stratification, literacy, urban/rural distribution, relationship to surrounding life) — **addressed for the first time this revision.** Mathisen's own thesis (Registry row 19), thesis-level only, already licenses a load-bearing claim here: fifth-century Gaul's ecclesiastical world was factionalized, with the Lérins circle constituting a genuine social and political "power elite" whose members moved between monastic, episcopal, and secular aristocratic status. Sulpitius's own family background (§6 above, "illustrious family") and the Cassian corpus's own repeated address to named bishops and provincial elites (Doc_01 §4) both corroborate, from the primary texts, that this world's own literate stratum was drawn from, and continuously interacted with, a narrow provincial aristocracy — not a socially representative cross-section. This is Inferential/Thin as a general social-historical claim (it rests on convergent primary-text incidental detail plus one secondary work's thesis, not a dedicated social history), and is labeled as such.
+4. **Surrounding cultural and religious environment** (rival movements, civic religious practice) — **addressed for the first time this revision, at the same Inferential/Thin strength.** The Priscillianist affair (Doc_01 §8.4, via Sulpitius's own *Sacred History*) is this world's one concrete, textually-grounded window onto a genuinely rival religious movement operating in the same region and period; the Trier trial and execution it describes are a documented instance of the wider late-Roman civic-religious environment pressing directly into this world's own textual record (Book II of the *Sacred History*, read in framing only, not narrative detail, this session).
+
+**Institutes I, chapter X — corrected citation** (Round 1 finding S21): the passage on monastic dress adapted "to the humble character of our profession and the nature of the climate" is **Institutes I.10**, not I.11 as the prior draft gave it; its own editorial footnote records "this and the following chapter are altogether omitted in the edition of Gazæus" — a second attested instance of selective transmission in this same book (§1.2 above), not previously connected to the Transmission History discussion.
+
+**(Content restored here for self-containment, same disclosure as §4 above.)**
 
 ---
 
@@ -211,3 +244,4 @@ Unchanged in method from the prior revision. **One addition (Round 2 finding N7)
 - **Disagreement log:** none across all three rounds to date.
 - **Escalation check:** no Representative identity decision; no portfolio-level decision; no governance/methodology change. **This build's own recurring "a fix asserted is not a fix applied" pattern (five instances across Doc_01 and Doc_02 to date: Doc_01 N6, Doc_02 S25's G1 half, Doc_02 Round 2's S11/Boundary-Status non-fix, Doc_02 Round 3's N6 repeat, and N12's inverted landing) is named again as a standing pattern for the fleet's own coach-thread attention — not resolved by this build thread writing more carefully, since the pattern recurred a second and third time inside passes specifically trying to avoid it. This pass closed by grepping the live file content against each claim before writing it here, not by asserting the fix was made.**
 - **Disposition: APPROVED TO PROCEED (self-dispositioned).** All three review rounds' findings are closed (19/21 Round 3 checklist items PASS on first read; the two FAILs and six minor issues fixed and verified this pass). None of the four standing escalation categories applies. Per CO-022, this build thread applies "Approved to proceed" itself; it is not a claim that the document is complete, correct, or closed, and remains open to reopening if world-level or system-level testing later requires it.
+- **Self-containment restoration (2026-09-10, no review round — a purely technical correction, not a substantive one).** While drafting Doc_07, this build thread found that §4, §5, §6, §7, §8, and §9 of the live file each carried only the word "Unchanged" (or a one-line pointer) with no restated content — a legitimate diff-against-the-prior-revision convention through three review rounds, but one that left the document not self-contained: a reader of the current file alone, without git history, could not see what those sections actually say. Doc_07 had to consult an earlier git commit directly to ground its Material lens, and disclosed doing so in its own text rather than silently. This is corrected here: the actual content for all six sections (confirmed, via git history, unchanged in substance since the commit where each was last written in full — 458b5d6 for §4/§5/§7/§8, 0855837 for §6/§9) is restored inline, with a disclosure note at the end of each section. No claim, finding, confidence rating, or conclusion is changed by this restoration — §7's list additionally now states Weaver 1996's full citation inline (previously only in the Registry and review artifacts) rather than as a bare status note. This falls within this build thread's own editing authority over its own world's build folder (`cic-build-cycle`); it does not touch Representative identity, portfolio-level decisions, or governance/methodology, so no escalation applies.

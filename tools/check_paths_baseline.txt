@@ -84,6 +84,8 @@ World-Builds/Donatism/Review-Artifacts/Doc05_Round1_Review.md: Ministry/Formatio
 World-Builds/Donatism/Review-Artifacts/Doc07_Round1_Review.md: Ministry/Technology/CiC_World_Build_Completion_Standard_V1.2.md
 World-Builds/Donatism/Review-Artifacts/Doc07_Round2_Review.md: Ministry/Technology/CiC_World_Build_Completion_Standard_V1.2.md
 World-Builds/Donatism/don_Decision_Log.md: Ministry/Technology/CiC_World_Build_Completion_Standard_V1.2.md
+World-Builds/Gallic-Monastic-Ascetic-Christianity/gallic_B9_Scoping_Note.md: cic-poc/backend
+World-Builds/Gallic-Monastic-Ascetic-Christianity/gallic_PhaseC_Scoping_Note.md: cic-poc/backend
 World-Builds/Hieronymian-Ascetic-Literary/hal_Phase6_Facilitation_Brief_DRAFT.md: cic-poc/backend/app/graph/nodes.py
 World-Builds/Imperial-Juridical-Christianity/CiC_Imperial_Juridical_Christianity_World_Build_Thread_Launch_2026-07-19.md: reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4_DRAFT.docx
 World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md: cic-poc/backend/app/world_manifest.py

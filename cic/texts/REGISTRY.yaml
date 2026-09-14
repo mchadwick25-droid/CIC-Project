@@ -1845,3 +1845,57 @@
     the only real link is literary (Constantius modeled his prose on Sulpitius Severus's Life
     of Martin), the same kind of borrowed-form relationship already treated as Excluded
     elsewhere in this Registry (row 34). Deliberately not corpus-map assigned to this world.
+- filename: cassian_institutes-and-contra-nestorium_petschenig1888.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-13'
+  notes: >-
+    John Cassian, complete Latin critical text ed. Petschenig, CSEL vol. XVII, Pars I (1888) -
+    Prolegomena, Institutionum libri XII (all twelve books of the Institutes), Contra Nestorium
+    libri VII, Indices. Vendored specifically because it contains the complete text of
+    Institutes Book VI ("De spiritu fornicationis"), which Gibson's NPNF II.11 translation
+    (already vendored, npnf211) omits entirely - independently confirmed present in this file
+    (not merely titled) by direct grep for "LIBER SEXTVS"/"fornicationis", locating both the
+    "Incipit de spiritu fornicationis... liber sextus" heading and a full run of chapter
+    capitula and body text following it, ending where Book VII's own incipit begins. Closes
+    the specific gap gallic.core.gallic's own .thinness field names ("Three whole texts on
+    the sexual body and its discipline (Conferences XII and XXII, and the Institutes' sixth
+    book) were removed by a nineteenth-century translator... an edition's absence, not our
+    own silence"). Latin only; no public-domain English translation of Book VI exists. Surfaced
+    by a scheduled source-research routine (2026-09-13) as a resource-research handoff for two
+    of Doc_05's own flagged gaps; independently re-verified and vendored by the build thread
+    the same day, not taken on the routine's word alone. Corpus-map assigned same day (Native,
+    tradition role) - see gallic_Source_Registry.md row 45. No WRS record cites this file yet;
+    building lexicon/story content from it is a separate decision, not made here.
+- filename: eucherius-lyon_formulae-and-instructiones_wotke1894.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-13'
+  notes: >-
+    Eucherius of Lyon, Formulae Spiritalis Intelligentiae and Instructionum libri duo, Latin
+    critical text ed. Wotke, CSEL vol. XXXI, pars 1 (1894). Two further genuine Eucherius
+    works, distinct from the two already vendored (eucherius-lyon_de-contemptu-mundi_vaughan1654.txt,
+    eucherius-lyon_de-laude-eremi_migne-pl50.txt). Surfaced by the same 2026-09-13 source-research
+    routine while chasing a manuscript-catalogued "epistula Eucherii ad Salonium" (a short
+    prefatory letter listed in this edition's own manuscript-contents apparatus, p. VIII-VIIII);
+    this build thread's own direct read of the file confirms that specific short letter is NOT
+    separately printed or edited anywhere in this volume, only catalogued as existing in one
+    manuscript - what IS genuinely present and newly vendored are the two full works above
+    (Formulae addressed to Veranus, Instructiones addressed to Salonius). Latin only; no
+    public-domain English translation of either work was found. **A significant find beyond
+    what was searched for:** Instructionum liber I's own praefatio ad Salonium directly names
+    Honoratus as "primo insularum postea etiam ecclesiarum magistro," Hilary of Arles as the
+    island's own teacher ("beatissimi Hilarii tunc insulani tironis sed iam nunc summi
+    pontificis"), and Salvian and Vincent of Lerins together as those who "consummantibus...
+    eloquentia pariter scientiaque praeeminentibus" completed Salonius's formation - the Latin
+    original, independently vendored for the first time, of the Salvian/Vincent co-teacher
+    testimony gallic_Source_Registry.md row 43 already flags as "quoted in translation by
+    Sanford but not yet independently vendored in Latin." The same volume's own appendix also
+    carries a real letter from Salvian to Eucherius ("Domino et dulci suo Eucherio episcopo
+    Saluianus"), praising the Instructiones on receipt - a direct primary attestation of the
+    Salvian-Eucherius relationship, not previously in this world's vendored library. This
+    material is squarely Native (the Lerins teaching-circle's own composition), not merely
+    tangential exegesis. Formulae's own content (an allegorical-interpretation glossary
+    addressed to Veranus) remains the more tangential of the two works, genre-wise. Corpus-map
+    assigned same day (Native, tradition role) - see gallic_Source_Registry.md row 46. No
+    formal Doc_02 §13A-style Boundary Check performed beyond the corpus-map note's own
+    reasoning; no WRS record cites this file yet; building lexicon/story content from it
+    (especially the named-teacher passage) is a separate decision, not made here.

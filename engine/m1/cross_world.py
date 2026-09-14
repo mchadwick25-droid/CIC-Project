@@ -65,8 +65,28 @@ ACCEPTED_OPEN: dict[str, str] = {
     "id-type-token/voice_craft": "F-03 - pahc uses `pahc.craft.chloe-voice` where the other five use `<world>.voice.craft`",
     "figure-dates-keys/pahc": "F-04 - pahc keys figure.dates as display/note where the other five use born/died/floruit, and the frontend prints the key verbatim, so pahc participants read 'display:' and 'note:' in the UI",
     "figure-dates-keys/cappadocian": "F-04-analogue - all 15 cappadocian figure records key figure.dates as `display` (one-sentence prose covering contested/multi-clause dating - e.g. Basil's own death 'traditionally placed at January 379 or September 378, though the modern redating literature argues for 377 instead' - that doesn't reduce cleanly to born/died/floruit without losing the contested-date nuance itself). Found 2026-09-01 while wiring the Representative portrait; same disclosed-not-fixed disposition as pahc's own instance, not a mass rewrite improvised under this step - belongs to a cappadocian build thread.",
+    "figure-dates-keys/gallic": "F-04-analogue - all 5 gallic figure records key figure.dates as `display` (one-sentence prose covering contested/hedged dating this world's own sources leave open - e.g. Martin's own dates rest on 'lived sixteen years after the Treves affair by Gallus's own reckoning' and an undated election; Vincent's entry to Lerins is 'undated (c. 425 is a floating convention, Inferential-Thin)' - none of the five reduce cleanly to born/died/floruit without losing the hedge itself). Found 2026-09-13 during Phase C recon; same disclosed-not-fixed disposition as pahc's and cappadocian's own instances, not a mass rewrite improvised under this step - belongs to a gallic build thread.",
     "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches both the Level-3 card and the compiled prompt's quote index",
     "ui-field-leak/desert": "F-10 - desert.figure.evagrius names a record id (desert.source.evagrius-praktikos) and a build document (Doc_01) inside figure.dates, and desert.figure.pachomius says 'not independently adjudicated by this build' - all three printed verbatim by the doorway's Level-3 panel",
+    # gallic is the fleet's first world registered (B-8, 2026-09-12) at
+    # state: built without also being census-linked and frontend-wired in
+    # the same pass - every prior world's own B-8 happened close enough to
+    # its M3 admission and cic-website/cic-poc wiring that this in-between
+    # window was never actually exercised against these four checks before.
+    # Real, disclosed, structurally expected for a world awaiting M3
+    # admission - NOT a build-thread task to close now, and now fully
+    # closed: the frontend portrait-wiring pair (app-world-assets/gallic,
+    # app-world-order/gallic) closed 2026-09-13 once Renatus's portrait was
+    # locked and cic-poc/frontend/src/data/worlds.ts was updated; the
+    # census link (records/worlds.yaml census_id, world-census.json content
+    # accuracy, the traditions page, the index.html homepage card) closed
+    # the same day; and the status flip itself (world-census.json's
+    # `status` -> "Built & Live", `entry` block populated) closed 2026-09-13
+    # too, on Mark's own explicit word ("yes, flip it") after the frontend
+    # card was confirmed to link to a deep link that could not yet resolve
+    # without it - matching Cappadocian's own distinct SS30-SS32 sequence.
+    # All four gallic entries this dict once carried are gone, not left
+    # stale.
     "figure-dates-keys/don": "F-04-analogue - all 24 don figure records key figure.dates as `display`, the same pattern and the same reason as figure-dates-keys/cappadocian above: this world's own dating is pervasively contested or multi-clause (two Marcellinuses roughly a century apart, three Felixes, disputed Passio dating with two vendored authorities disagreeing by over two decades) and does not reduce to born/died/floruit without losing the disclosed uncertainty itself. Same disclosed-not-fixed disposition, found compiling the world rather than wiring a portrait - belongs to a don build thread, not a mass rewrite improvised here.",
     "app-world-assets/don": "Record-native compilation, 2026-09-10: Phase C deployment wiring (app/world_manifest.py, WORLD_ASSETS, frontend hand-sync points) was never in scope for the record-native compile (Phase B) this entry covers - it is the next, separate phase per reference/method/CiC_Record_Native_World_Build_Process_V1_3.md SS4, and belongs to whoever picks up Donatism's own go-live work.",
     "app-world-order/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
