@@ -204,8 +204,9 @@ Petilian II.84.184) says only "eighty souls"; "young" was an invented age
 for the Petilian catechumen; and calling the charge against Petilian "the
 identical charge the other way" was simply wrong - Crispinus and Petilian
 were both Donatist bishops accused by the same opponent, not opposing
-sides. The review is quoted in `Review-Artifacts/` findings F-3 through F-7
-for the full detail. This revision reverts to naming the charges' existence
+sides. The review is quoted in full in
+`Review-Artifacts/OrdinaryBeliever_Round1_Review.md`, findings F-3 through
+F-7. This revision reverts to naming the charges' existence
 only, cross-referencing `don.limit.bagai-violence-no-account` rather than
 repeating its content, which is both more accurate and more consistent
 with this world's own established discipline.
