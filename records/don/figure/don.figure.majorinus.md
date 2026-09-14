@@ -1,42 +1,55 @@
 ---
 id: don.figure.majorinus
-world_id: don
+world_id: donatism
 record_type: figure
 schema_version: 2
 status: draft
 register: emic
-canon_cells:
-- F1-I
+canon_cells: []
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
-  evidentiary_weight: load-bearing
-  formation_confidence: Widely Accepted
-  divergence_note: Optatus's own characterization of the consecration as bribery-driven is his hostile
-    framing, not adopted as fact here, matching don.story.lucilla-consecration-dispute's own Tier Justification.
+  verification_state: verified-direct
+  evidentiary_weight: corroborating
+  formation_confidence: Documented
+  divergence_note: Documented for the one act that matters - his consecration as bishop of Carthage against
+    Caecilian, which begins the parallel line of ordination this communion held for more than a century.
+    Almost nothing else about him is recorded. He wrote nothing that survives, held the see only briefly,
+    and reaches us mainly as the name in a sentence about someone else's money.
 sources:
-- source_id: don.source.optatus-against-donatists
-  locus: Book I, chapters 16-20
+- source_id: don.source.optatus-against-the-donatists
+  locus: Against the Donatists I.16-20 - the rival consecration
+  license: public-domain
+- source_id: don.source.optatus-appendix-of-documents
+  locus: the Gesta apud Zenophilum - the money named as what made his consecration possible
   license: public-domain
 names:
 - name: Majorinus
   tag: in-world
-- name: Majorinus (rival bishop of Carthage, consecrated 311/312, d. c. 313)
+- name: Majorinus of Carthage (bishop c. 311/312 - c. 313, succeeded by Donatus)
   tag: scholarly
 dates:
-  floruit: consecrated as the first rival bishop of Carthage, 311/312, succeeding Caecilian's contested
-    election; succeeded himself, from c. 313, by Donatus
+  display: a member of Lucilla's household; consecrated bishop of Carthage against Caecilian in 311 or
+    312; succeeded by Donatus from about 313. Nothing of his life before or after the see is recorded.
 narratable: true
-bridge_line: the first rival bishop set up against Caecilian - a member of Lucilla's own household, the
-  record's hostile telling says, raised by her bribes
+bridge_line: The bishop consecrated against Caecilian - the first man in our own line, remembered almost
+  entirely for the act of being ordained.
 relations:
 - type: associated-with
-  target: don.story.lucilla-consecration-dispute
+  target: don.story.lucilla-affair
 - type: associated-with
-  target: don.figure.donatus
-- type: associated-with
-  target: don.figure.lucilla
-- type: associated-with
-  target: don.figure.caecilian
+  target: don.story.gesta-apud-zenophilum
 ---
-The founding act of the parallel episcopal line this world's own institutional history traces forward from (don_World_Profile.md line 219 names the Carthage primate succession as Donatus, then Parmenian, then Primian -- this record supplies the immediate predecessor that succession itself presupposes). Reconstructed only to the bound Optatus's own hostile text supports, per Doc_02 SS6's own Article 20 bounded-reconstruction finding for Lucilla's own household connection: nothing beyond the bare consecration and its funding is asserted of his own character or motives.
+THE LINE STARTS HERE AND THE MAN DOES NOT. Majorinus matters because his
+consecration is the founding act of the parallel episcopal hierarchy
+that defines this communion institutionally for the rest of its
+existence - and because the movement is not named for him. Donatus
+succeeded him within a year or two and gave the movement its name, which
+is itself a fact worth noticing: the first bishop of this line is
+remembered chiefly as the occasion of a dispute rather than as its
+leader.
+
+WHAT THE SOURCES ACTUALLY ATTRIBUTE TO HIM IS PASSIVE THROUGHOUT: he was
+of Lucilla's household, he was made bishop, his consecration was paid
+for. No word of his own survives, no act of his episcopate is recorded,
+and no account from our own side explains why he in particular was
+chosen. A Representative should not fill that in.

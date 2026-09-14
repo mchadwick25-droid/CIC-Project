@@ -1,6 +1,6 @@
 ---
 id: don.source.cyprian-epistles
-world_id: don
+world_id: donatism
 record_type: source
 schema_version: 2
 status: draft
@@ -8,25 +8,26 @@ register: etic
 canon_cells: []
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
-  evidentiary_weight: corroborating
+  verification_state: named-not-rechecked
+  evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: null
+  divergence_note: 'Vendored and rights-confirmed, but the Registry''s own note hedges the citation itself
+    -- ''not independently re-collated this session'' -- so this record does not claim verification via
+    authority for a specific locus it cannot name. Antecedent, not native: Cyprian sits inside not-yet-built
+    World #8 on the Step 0 Conclusion''s own placement, and this world''s reliance on him is an inheritance
+    from a shared root rather than a claim on him (Doc_01 SS6).'
 sources: []
 relations: []
 author: Cyprian of Carthage
 work: Epistles
-edition: Ante-Nicene Fathers, vol. 5 (Hippolytus, Cyprian, Caius, Novatian, Appendix), ed. Roberts & Donaldson,
-  vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
-rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
-  directly checked the vendored file's own provenance header for every file cited below (grep for 'public
-  domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC
-  BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows
-  cite -- not assumed from the Registry's or corpus map's own prose alone.
+edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
+rights_status: public-domain; vendored in cic/texts/ as part of the shared patristic library since an
+  earlier session, rights basis established there (the file's own provenance header states Public Domain)
+  and not re-checked by this compilation pass.
 attribution_status: attributed
-discovery_channel: 'Source Registry row 7; corpus map / cic/corpus-map/donatism.yaml, role: antecedent,
-  ruled 2026-08-26'
+discovery_channel: corpus map / cic/corpus-map/donatism.yaml / 2026-09-01; corpus map role `antecedent`,
+  ruled 2026-08-26. Registry row 7. Not independently re-collated.
 external_ids:
   don_source_registry_row: 7
 ---
-Antecedent, not tradition (corpus map role: antecedent, ruled 2026-08-26): Cyprian died fifty years before the schism and was never a Donatist, but both sides argued from his own rebaptism practice and purity ecclesiology -- grounds the A1/A2 continuity reasoning (Step0 SS2) and the rebaptism-theology origin (Doc_01 SS5). Not independently re-collated this session.
+Load-bearing for this world's own formation logic, not merely background: Doc_01 SS5 and SS6 make the Cyprianic rigorist tradition -- rebaptism theology, ministerial-purity concerns -- this world's direct doctrinal and institutional inheritance, not an invention at 311/312. Licensed for the A1/A2 continuity reasoning (Step0 SS2) and the rebaptism-theology origin (Doc_01 SS5).

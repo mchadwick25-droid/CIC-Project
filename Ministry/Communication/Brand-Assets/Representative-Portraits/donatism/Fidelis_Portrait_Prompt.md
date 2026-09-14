@@ -1,5 +1,5 @@
 # Fidelis Portrait — Research Brief and Generation Prompt
-## Donatism (`don`) — Bishop of the Donatist Communion
+## Donatism (`don`) — Bishop of the Unbroken Line
 
 **Status:** APPROVED (2026-09-10). The generated portrait matching Part Three's prompt is in place at
 `donatism/Fidelis_Portrait.png` (cropped to a centered square and resized to 748px to match the other six

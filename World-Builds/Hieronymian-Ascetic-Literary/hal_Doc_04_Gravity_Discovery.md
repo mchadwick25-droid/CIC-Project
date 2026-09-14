@@ -4,7 +4,7 @@
 **World-code:** `hal`
 **Status:** Approved to proceed (see §7 — Rounds 1–2 review complete, no escalation triggered).
 **Governed by:** CiC_L3B_Formation_World_Construction_Framework_V7.3, Part III and Part VII Step 4; Forces Framework; Constitution Articles 21, 22.
-**Builds on:** Docs 01–03 (all Approved to proceed). No dedicated Doc_04 template exists in L4-Templates (per Framework, this step has no L4 template — the least structurally supported step in the pipeline); this document follows the Framework's Part III text directly.
+**Builds on:** Docs 01–03 (all Approved to proceed). No dedicated Doc_04 template exists in reference/L4-Templates (per Framework, this step has no L4 template — the least structurally supported step in the pipeline); this document follows the Framework's Part III text directly.
 **Strand note:** World #9 is strand-singular (Doc_01 §4), with a provisional, reopenable tension around Marcella's authority texture (Doc_01 Open Issue #7). Per Doc_01 §4's substitute discipline, cross-strand testing (Article 21) is replaced here by a **bipolar-geography test**: does each candidate gravity hold across both Rome and Bethlehem, or only at one pole? A gravity visible at only one pole raises the same "artificially unified ecology" concern cross-strand testing exists to catch.
 
 ---

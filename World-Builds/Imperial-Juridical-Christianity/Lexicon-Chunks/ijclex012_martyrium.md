@@ -42,4 +42,4 @@ See Quick Meaning above. This world's own use of the term is narrower than a ful
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0 (Tier 3: World Meaning brief, Ecological Function and Key Sources omitted per Template instruction). No brackets or builder notes remain. CT tag not applied.
+Completed per `reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0 (Tier 3: World Meaning brief, Ecological Function and Key Sources omitted per Template instruction). No brackets or builder notes remain. CT tag not applied.

@@ -1,6 +1,6 @@
 ---
 id: don.figure.parmenian
-world_id: don
+world_id: donatism
 record_type: figure
 schema_version: 2
 status: draft
@@ -8,34 +8,51 @@ register: emic
 canon_cells: []
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Widely Accepted
-  divergence_note: The rebuke itself is Documented via Augustine's direct report; Parmenian's own further
-    career beyond this episode and his own succession by Primian rests on don_World_Profile.md's own primate-succession
-    statement, not independently re-verified against a primary text this session.
+  formation_confidence: Documented
+  divergence_note: Documented for the office and for the rebuke of Tyconius, which Augustine states without
+    a hedge. Parmenian's own writings do not survive independently; they are known through the two hostile
+    works written against them, and the letter to Tyconius itself survives only as Augustine's report of
+    it. What Parmenian actually argued, in his own order and his own words, is Inferential-Thin.
 sources:
-- source_id: don.source.petschenig-scripta-contra-donatistas
-  locus: Contra Epistulam Parmeniani I.1, Augustine's report of the rebuke
+- source_id: don.source.augustine-contra-epistulam-parmeniani
+  locus: Contra Epistulam Parmeniani I.1 - the letter to Tyconius and its warning
+  license: public-domain
+- source_id: don.source.optatus-against-the-donatists
+  locus: the seven books, written in answer to Parmenian
   license: public-domain
 names:
-- name: Parmenian
+- name: Parmenian, our bishop at Carthage
   tag: in-world
-- name: Parmenian (primate of Carthage after Donatus, d. by 393)
+- name: Parmenian, Donatist bishop of Carthage (c. 355 - c. 391/392), successor of Donatus
   tag: scholarly
 dates:
-  floruit: succeeded Donatus as primate of Carthage; wrote to rebuke Tyconius directly, warning him not to
-    preach a worldwide-church argument again, c. 380; no longer primate by 393, when Primian held the see
+  display: primate of this communion at Carthage from about 355, succeeding Donatus after his death in
+    exile, until about 391 or 392, when Primian followed him; the interlocutor Optatus wrote his seven
+    books against, and the recipient of a further refutation by Augustine a decade after his death
 narratable: true
-bridge_line: the primate who wrote to Tyconius directly, warning him not to preach it again
+bridge_line: The bishop of Carthage whose writings we lost and whose opponents' answers to them survive
+  - and who told the best exegete on our side never to preach that argument again.
 relations:
 - type: associated-with
   target: don.story.tyconius-condemnation
-- type: associated-with
-  target: don.figure.donatus
-- type: associated-with
-  target: don.figure.primian
-- type: associated-with
-  target: don.figure.tyconius
 ---
-The middle figure in the G4 primate-succession backbone don_World_Profile.md line 219 names (Donatus, then Parmenian, then Primian) -- load-bearing for that institutional spine even though, unlike Majorinus and Primian, he has his own dedicated story (don.story.tyconius-condemnation), which is why this record is built per the launch brief's own instruction to name gravity-central figures whether or not they already have one.
+THE CLEAREST SINGLE ILLUSTRATION OF THIS WORLD'S CENTRAL EVIDENTIARY
+PROBLEM. Parmenian led this communion for roughly thirty-five years and
+wrote enough to provoke two full-scale refutations - Optatus's seven
+books and Augustine's three. Both refutations survive. Nothing of
+Parmenian's own does. What he thought is legible only in the shape of
+the holes his opponents wrote around.
+
+THE REBUKE OF TYCONIUS IS HIS BEST-ATTESTED ACT and it is not a
+flattering one: he wrote to the most capable interpreter of Scripture
+his own party produced, told him not to dare preach again that the
+church extends across the whole earth, and - it is reported - saw him
+condemned when he would not stop. See don.story.tyconius-condemnation,
+which keeps Augustine's own hedge on the conciliar mechanism intact.
+
+A REPRESENTATIVE SHOULD NOT FILL IN HIS ARGUMENT. The temptation with a
+lost voice is to reconstruct it from the refutation, and the refutation
+was built to be answerable. What the record supports is that he led,
+that he wrote, and that he drew a boundary at Tyconius.

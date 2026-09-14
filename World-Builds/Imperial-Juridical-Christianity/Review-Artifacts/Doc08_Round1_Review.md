@@ -10,7 +10,7 @@ Marking per Constitution Article 31: Simulated review — informational only, no
 
 **The document's central process finding was false: a real Doc_08 L4 template exists at `L4-Templates\[world-code]_Forces_Document.md` (a literal-bracket filename, easy to miss on a name search), committed roughly two weeks before this draft, already followed by a sibling world's own Doc_08.** The first-drafted document claimed three times, "checked directly," that no such template exists, and built its own ad hoc structure on that false premise, generating a moot System Hub recommendation to produce one.
 
-**Status: FIXED.** The independent-review claim was itself independently re-verified by this build thread before acting on it (`ls L4-Templates/` confirmed the file). The document was rebuilt in full against the real template's nine sections (World Identification; Preliminary Forces Identification; Six-Cell Matrix; Cross-Cell Connections; Forces-and-Gravities Synthesis; Transmission Synthesis; Confidence Assessment; Governing Principles Applied; Completion Certification), with the false claim disclosed in the document's own header rather than silently removed.
+**Status: FIXED.** The independent-review claim was itself independently re-verified by this build thread before acting on it (`ls reference/L4-Templates/` confirmed the file). The document was rebuilt in full against the real template's nine sections (World Identification; Preliminary Forces Identification; Six-Cell Matrix; Cross-Cell Connections; Forces-and-Gravities Synthesis; Transmission Synthesis; Confidence Assessment; Governing Principles Applied; Completion Certification), with the false claim disclosed in the document's own header rather than silently removed.
 
 ## MEDIUM
 

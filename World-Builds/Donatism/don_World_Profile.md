@@ -5,7 +5,7 @@
 **Produced at:** Construction Step 9 (Framework V7.4 Part V/VI — Step 9 bundles the Story Inventory, the World Profile, and Validation and Testing; this document is the World Profile only, per this world's own established one-document-at-a-time discipline)
 **Required inputs:** Doc_01 through Doc_08 (all Approved to proceed), Doc_09 (Approved to proceed)
 **Feeds:** World Capsule Core, Representative Emergence (RCF v2.0 Phase One). The template's own "Produced at: Construction Step 8... Feeds: ...Doc_09 Story Inventory" framing reflects a superseded sequencing assumption: Doc_09's own masthead confirms "Step 9 of the Framework bundles three deliverables — the Story Inventory, the World Profile, and Validation and Testing," and this world's own Doc_09 is already built and disposed. This document is produced after Doc_09 in this world's own actual sequence, not before it.
-**Governing methodology:** `L4-Templates/World_Profile_Template.md` V1.1; Construction Framework V7.4 Step 9; Representative Construction Framework V2.0 Phase One; Constitution V2.3 Articles 20, 23, 29, 31
+**Governing methodology:** `reference/L4-Templates/World_Profile_Template.md` V1.1; Construction Framework V7.4 Step 9; Representative Construction Framework V2.0 Phase One; Constitution V2.3 Articles 20, 23, 29, 31
 **Status:** Approved to proceed, self-disposed by this build thread per `cic-build-cycle` (the one escalation-category finding, Section 4's own scope, was put to and resolved by the project lead directly). Cleared independent adversarial review, Round 1 (1 High resolved by escalation, 5 Medium/5 Low fixed directly). Review history and disposition log: `don_Decision_Log.md`; review artifact: `Review-Artifacts/WorldProfile_Round1_Review.md`.
 
 ---

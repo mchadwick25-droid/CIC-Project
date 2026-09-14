@@ -1,6 +1,6 @@
 ---
 id: don.source.augustine-contra-epistulam-parmeniani
-world_id: don
+world_id: donatism
 record_type: source
 schema_version: 2
 status: draft
@@ -9,24 +9,26 @@ canon_cells: []
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
-  evidentiary_weight: load-bearing
+  evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: null
+  divergence_note: Identity confirmed by the work's own closing formula ('Explicit liber tertius sci augustini
+    epi. contra parmeniani epistolam'), but the specific Cebarsussi and Bagai sentence quotations this
+    row is licensed for have NOT been read; confidence stays at B until they are. The same Maximian/Maximian
+    homonym flagged at Registry row 17 applies here.
 sources: []
 relations: []
 author: Augustine of Hippo
-work: Contra epistulam Parmeniani (3 books, c. 400)
-edition: 'Michael Petschenig (ed.), Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51 and 53
-  (Vienna: Tempsky / Leipzig: Freytag, 1908 and 1910), vendored as cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt'
-rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
-  directly checked the vendored file's own provenance header for every file cited below (grep for 'public
-  domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC
-  BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows
-  cite -- not assumed from the Registry's or corpus map's own prose alone.
+work: Contra epistulam Parmeniani, 3 books (c. 400)
+edition: Michael Petschenig (ed.), CSEL 51/53 (Registry row 39), vendored as cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
+  by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
+  vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by
+  this compilation pass.
 attribution_status: attributed
-discovery_channel: Source Registry row 18; builder-prior-knowledge (Doc_01 SS4 binding), 2026-09-01; file
-  presence and identity confirmed via direct file check, 2026-09-01
+discovery_channel: builder-prior-knowledge (Doc_01 SS4 binding) / field knowledge / 2026-09-01; file presence
+  and identity confirmed by direct file check against cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt.
+  Registry row 18; Source_Acquisition_Manifest.md SS1 G5 discharged.
 external_ids:
   don_source_registry_row: 18
 ---
-The Maximianist schism's own Cebarsussi/Bagai sentences, quoted, and Parmenian's own position -- confirmed present this session by its own closing formula ('Explicit liber tertius sci augustini epi. contra parmeniani epistolam'). The specific Cebarsussi/Bagai sentence quotations this row's Licensed-For names are available in the vendored text but have not themselves been read this session. The same Maximian/Maximian homonym flagged at row 17 applies here.
+Licensed for the Maximianist schism's own conciliar sentences as Augustine quotes them, and for Parmenian's own position -- Parmenian being the Donatist bishop of Carthage whose letter this answers, and Optatus of Milevis's own opposing subject (Doc_01 SS2).

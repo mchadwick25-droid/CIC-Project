@@ -1,43 +1,70 @@
 ---
 id: don.figure.tyconius
-world_id: don
+world_id: donatism
 record_type: figure
 schema_version: 2
 status: draft
 register: emic
-canon_cells:
-- F2-I
+canon_cells: []
 confidence:
-  citation_specificity: B
-  verification_state: verified-via-authority
+  citation_specificity: A
+  verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Widely Accepted
-  divergence_note: The Liber Regularum's own existence and identity (Burkitt's 1894 edition) is independently
-    confirmed; the condemnation's own specific mechanism carries Augustine's own explicit reporting hedge,
-    per don.story.tyconius-condemnation's own Tier Justification, and is not claimed here as more settled
-    than that story states.
+  formation_confidence: Documented
+  divergence_note: 'Documented for the man, the work, the rebuke and the fact of a subsequent condemnation.
+    Two hedges are kept rather than smoothed. The mechanism of the condemnation - a conciliar sentence
+    rather than some other exclusion - carries Augustine''s own "perhibent," it is reported. And Tyconius''s
+    own formal standing within this communion is deliberately left open: he was tested against the bar
+    for a distinct strand and rejected on the record, as a condemned individual voice with no attested
+    following and no distinct communal practice, which is a different finding from settling what his membership
+    status actually was.'
 sources:
 - source_id: don.source.tyconius-liber-regularum
-  locus: the whole work
+  locus: the Book of Rules entire - the one substantial interpretive text of ours that survives on its
+    own terms
+  license: public-domain
+- source_id: don.source.augustine-contra-epistulam-parmeniani
+  locus: Contra Epistulam Parmeniani I.1 - the argument, the rebuke, and the reported condemnation
+  license: public-domain
+- source_id: don.source.augustine-de-doctrina-christiana-iii
+  locus: the later Catholic reception of the seven Rules
   license: public-domain
 names:
 - name: Tyconius
   tag: in-world
-- name: Tyconius (Donatist exegete, condemned c. 380)
+- name: Tyconius (fl. c. 370-390; author of the Liber Regularum; condemned c. 380)
   tag: scholarly
 dates:
-  floruit: wrote the Liber Regularum, this movement's own strongest surviving theological writing; rebuked
-    by Parmenian for arguing the church extended across the whole world; condemned by a council of his own
-    communion, c. 380, per Augustine's own report
+  display: active as a writer and preacher within this communion in the 370s and 380s; rebuked by Parmenian
+    and, it is reported, condemned by a council around 380; the Liber Regularum written in the same period
+    and never suppressed
 narratable: true
-bridge_line: the one among us whose argument from Scripture was too well-supported to simply dismiss -
-  and who was cut off for making it anyway
+bridge_line: The one theologian among us whose own book survives entire - who argued the church was spread
+  through the whole earth, was told to stop, would not, and was cut off without ever going over to the
+  other side.
 relations:
 - type: associated-with
   target: don.story.tyconius-condemnation
-- type: associated-with
-  target: don.figure.parmenian
-- type: associated-with
-  target: don.limit.theology-beyond-tyconius
 ---
-Doc_04's own D-B gravity candidate ('Tyconius's universalist hermeneutics/ecclesiology') is tested and not advanced specifically because his own party's council condemned him and no following continued his approach -- this record and don.story.tyconius-condemnation together supply the concrete narrative that finding rests on. His own formal standing within the Donatist communion after the condemnation is deliberately left open by Doc_01 SS4, not resolved here.
+THE SINGLE EXCEPTION TO THIS WORLD'S OWN THINNESS IN THEOLOGY, AND A
+BOUNDED ONE. This communion argues one question - sacramental validity -
+with real rigour and almost nothing else; speculative and hermeneutical
+theology beyond Tyconius is a genuine disclosed absence, independently
+confirmed across four of this world's construction documents. His Book
+of Rules is the substantial exception, and even its own seven rules have
+not been read into this build, so a participant asking what the rules
+actually say should be told that plainly rather than given a summary
+this record cannot support.
+
+HIS STANDING IS OPEN ON PURPOSE. Whether he is best described as a
+Donatist theologian, a Donatist who was expelled, or something the
+categories do not fit, is not resolved anywhere in these records, and
+resolving it here would overwrite a decision this world's own documents
+deliberately left open.
+
+THE STRANGE PART IS THE SURVIVAL. The party that condemned him lost, and
+its literature went with it; his book did not. It reached the other side
+of the argument and shaped how a Catholic bishop taught the reading of
+Scripture for centuries. Nothing in this world's own record explains how
+that happened, and this world's own forces analysis states outright that
+it does not know the mechanism. That gap should be named, not filled.

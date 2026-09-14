@@ -8,7 +8,7 @@
 
 **Companion workbook located:** `CiC_W1_Gravity_Index_FINAL.xlsx` (note: filename differs slightly from the `CiC_W1_Gravity_Index.xlsx` named in the task brief, but it is the only Gravity Index workbook in the World #1 folder, contains exactly the five sheets Doc_04's text describes -- Gravity Index, Interaction Matrix, By Classification, By Cross-Check Flag, Cross-Build Dependencies -- and is dated same-day as the FINAL docx. Treated as the intended companion.)
 
-**Context documents used:** `CiC_W1_Doc01_World_Identification_FINAL.docx`, `CiC_W1_Doc02_Source_Ecology_FINAL_v2.docx` + `CiC_W1_Source_Registry_FINAL_v2.xlsx`, `CiC_W1_Doc03_Lexicon_Candidate_List_FINAL_v2.docx`, `CiC_L3B_Formation_World_Construction_Framework_V7.3.docx` (canonical, non-worktree copy) and `CiC_L3B_Formation_World_Construction_Framework_V7.4_DRAFT.docx` (worktree copy -- the version Doc_04 actually cites), `CiC_L3A_Forces_Framework_V1.1.docx`, and the `L4-Templates/` directory.
+**Context documents used:** `CiC_W1_Doc01_World_Identification_FINAL.docx`, `CiC_W1_Doc02_Source_Ecology_FINAL_v2.docx` + `CiC_W1_Source_Registry_FINAL_v2.xlsx`, `CiC_W1_Doc03_Lexicon_Candidate_List_FINAL_v2.docx`, `CiC_L3B_Formation_World_Construction_Framework_V7.3.docx` (canonical, non-worktree copy) and `CiC_L3B_Formation_World_Construction_Framework_V7.4_DRAFT.docx` (worktree copy -- the version Doc_04 actually cites), `CiC_L3A_Forces_Framework_V1.1.docx`, and the `reference/L4-Templates/` directory.
 
 ---
 
@@ -34,7 +34,7 @@ Both findings 1 and 2 are narrow (single-cell) but substantive: each directly co
 
 ### Finding 3 (COSMETIC) -- Doc_04 cites a non-canonical DRAFT framework version
 
-Doc_04's governance line cites "Formation World Construction Framework **V7.4 (DRAFT)**." The canonical, non-worktree copy of the Construction Framework in the main project tree (`/CiC-Project/L3B-World-Build-Methodology/`) is **V7.3**; V7.4_DRAFT exists only inside `.worktrees/` branches and the separate Syriac-Build copy, not as an adopted top-level document. Direct comparison of the Step 4 (Gravity Discovery) sections of V7.3 and V7.4_DRAFT shows they are **word-for-word identical** -- so this citation choice has no substantive effect on Doc_04's content or governing rules. Flagged as cosmetic/process hygiene: a document that has "cleared review" should cite the adopted governing version, not a draft-branch copy, even when (as here) it happens not to matter.
+Doc_04's governance line cites "Formation World Construction Framework **V7.4 (DRAFT)**." The canonical, non-worktree copy of the Construction Framework in the main project tree (`/CiC-Project/L3B-World-Build-Methodology/`) is **V7.3**; V7.4_DRAFT exists only inside `.worktrees/` branches and the separate Archive/Syriac-Build-2026-07 copy, not as an adopted top-level document. Direct comparison of the Step 4 (Gravity Discovery) sections of V7.3 and V7.4_DRAFT shows they are **word-for-word identical** -- so this citation choice has no substantive effect on Doc_04's content or governing rules. Flagged as cosmetic/process hygiene: a document that has "cleared review" should cite the adopted governing version, not a draft-branch copy, even when (as here) it happens not to matter.
 
 ### Finding 4 (VERIFIED, no issue) -- "No L4 template" claim holds up
 

@@ -33,6 +33,7 @@ assignments:
   - alexandria-catechetical
   - montanism-the-new-prophecy
   - novatianism
+  - roman-church-third-century
   role: context
   confidence: assigned
   note: 'Same work, context row (Mark''s ruling, brief §11a): Eusebius describes these movements
@@ -44,6 +45,11 @@ assignments:
     Apollonius) on which that Contested-Evidentiary entry largely rests. Books VI.43-45 and
     VII preserve Cornelius'' and Dionysius'' letters on Novatian - primary evidence for novatianism.
     Movements he merely mentions are deliberately not assigned.
+
+    Also assigned to roman-church-third-century: Cornelius was bishop of Rome 251-253, squarely
+    inside this world''s own window, and his letters preserved here are primary Roman-church
+    material, not merely external testimony to novatianism. Surfaced by a source-research
+    pass on Roman Church Third Century''s (I.33) sourcing gaps, 2026-09-13.
 
     '
 - work: Martyrs of Palestine

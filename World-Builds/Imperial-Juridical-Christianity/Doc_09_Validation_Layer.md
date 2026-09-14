@@ -26,7 +26,7 @@ The Framework's own Part VI names fifteen validation categories (Historical Plau
 
 ## 4. Differentiation Testing
 
-This world's own distinctness from adjacent worlds was tested, not assumed, at multiple steps: from World #8 (Latin Pastoral-Congregational) at Step 0 and Doc_01; from World #5 (Cappadocian) at Doc_01, using a real prior source (`Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md`) found only at independent review and then properly credited; from World #4 (Donatism) at Doc_01, same source, same discipline. **PASS**, with the caveat that this world's own boundary-work depends on World #8 not yet being built — the boundary is confirmed from this world's own side only, and should be re-confirmed once World #8's own Doc_01 exists (an open item, not a defect).
+This world's own distinctness from adjacent worlds was tested, not assumed, at multiple steps: from World #8 (Latin Pastoral-Congregational) at Step 0 and Doc_01; from World #5 (Cappadocian) at Doc_01, using a real prior source (`Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md`) found only at independent review and then properly credited; from World #4 (Donatism) at Doc_01, same source, same discipline. **PASS**, with the caveat that this world's own boundary-work depends on World #8 not yet being built — the boundary is confirmed from this world's own side only, and should be re-confirmed once World #8's own Doc_01 exists (an open item, not a defect).
 
 ## 5. Author Dominance Testing
 

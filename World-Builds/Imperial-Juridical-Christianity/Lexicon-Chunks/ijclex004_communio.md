@@ -58,4 +58,4 @@ Leo I's own letters, both his Tome and his rejection of Canon 28, use communion-
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied — this term's own function in this world is well-attested and not, on this document's own review, subject to the specific kind of live scholarly contest Article 26 §B requires for the tag.
+Completed per `reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied — this term's own function in this world is well-attested and not, on this document's own review, subject to the specific kind of live scholarly contest Article 26 §B requires for the tag.

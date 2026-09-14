@@ -15,7 +15,7 @@ Marking per Constitution Article 31: Simulated review — informational only, no
 3. **§6 disposition inconsistency —**
    - (a) §1/§6 naming-note consistency: **FIXED.**
    - (b) "Reported, not enacted" / enactment claim: **NOT resolved by the first revision — only asserted, and in direct tension with §5 Finding 1's own wording in the same document** ("this build's own reading, not a rule the text states directly" vs. §6's "direct application... rather than a novel methodology interpretation"). Round 1's underlying concern was still live after the first revision.
-4. **World #5 citation — FIXED.** Verified verbatim against `Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md` directly.
+4. **World #5 citation — FIXED.** Verified verbatim against `Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md` directly.
 5. **Damasus/Ambrose historical correction — FIXED,** and independently confirmed accurate (Damasus 366–384 under Valentinian I/Gratian, secure Nicene West; Valens 364–378, Homoian pressure concentrated in the East; Ambrose's actual basilica standoff against Justina/Valentinian II, 385–386).
 6. **"Exercising" quote fix — FIXED,** verified against the Step 0 Conclusion docx directly.
 7. **Truncated quote restored — FIXED,** verified in full against the Step 0 Conclusion docx directly.

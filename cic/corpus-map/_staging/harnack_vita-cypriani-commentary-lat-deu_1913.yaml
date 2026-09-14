@@ -1,0 +1,18 @@
+source_file: harnack_vita-cypriani-commentary-lat-deu_1913.txt
+
+assignments:
+  - work: "Das Leben Cyprians von Pontius: Die erste christliche Biographie, untersucht von Adolf Harnack"
+    author: harnack
+    locus: "whole file (Latin text of the Vita with Harnack's own critical notes, German commentary, and German translation)"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Modern (1913) critical study and German translation of Pontius's
+      Vita Cypriani, built on Hartel's own Latin text (already separately
+      catalogued under author: pontius, in
+      cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.yaml) -- role
+      context, not tradition, since the bulk of this file's own content is
+      Harnack's modern scholarly apparatus, not the ancient work itself. Closes
+      Source_Acquisition_Manifest G2. Consultation-only per cic/texts/INTAKE.md.

@@ -1,82 +1,87 @@
 ---
 id: don.term.refusal-of-imperial-legitimacy
-world_id: don
+world_id: donatism
 record_type: term
 schema_version: 2
 status: draft
 register: emic
 canon_cells:
 - F3-E
-relations:
-- type: associated-with
-  target: don.term.agonistici
-- type: associated-with
-  target: don.term.martyr-martyrdom
-- type: associated-with
-  target: don.term.persecution
+- F3-P
 confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: The three qualifying episodes and Donatus's own quoted retort are independently Documented
-    and directly verified. That they together constitute ONE principled refusal, rather than isolated
-    grievances, is this record's own synthesis of Doc_01's own account (Doc_06's own Key Sources note
-    names this distinction directly), not a claim resting on one stated authority.
+  divergence_note: 'Doc_04 SS3.7 splits this the same way SS3.1 splits the purity doctrine, and the split is kept.
+    The recurring episodes -- the 313/314 rulings and their rejection, the Macarian repression, the 405 Edict
+    of Unity, the 411 Conference -- are Documented and cross-corroborated even by hostile sources reporting their
+    own side''s actions. Donatus''s retort ''Quid est imperatori cum ecclesia?'' was verified this build against
+    `optatus_against-the-donatists.txt`, Book III, line 1904. What is partly the build''s own synthesis is the
+    interpretive frame: that these episodes together constitute a PRINCIPLED refusal rather than an unconnected
+    series of grievances. Doc_03 SS1 placed this term at Tier 2; Doc_04 SS7 and Doc_05 SS11 both forwarded a reconsideration
+    and Doc_06 SS1 promoted it to Tier 1 -- the roster''s one tier change.'
 sources:
-- source_id: don.source.optatus-against-donatists
-  locus: Book III, line 1904 -- Donatus's own retort, 'Quid est imperatori cum ecclesia?', in the context
-    of the Macarian mission
+- source_id: don.source.optatus-against-the-donatists
+  locus: Book III, line 1904 -- Donatus's reported 'Quid est imperatori cum ecclesia?'
   license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
-  locus: Anulinus's own 313 relatio to Constantine
+  locus: Anulinus's 313 relatio to Constantine
+  license: public-domain
+- source_id: don.source.codex-theodosianus-book-16
+  locus: the 405 Edict of Unity and the later penal legislation
+  license: public-domain
+- source_id: don.source.gesta-collationis-carthaginiensis-411
+  locus: the Conference verdict this refusal is pressed hardest against
+  license: public-domain
+- source_id: don.source.augustine-contra-cresconium
+  locus: the 390s invocation of anti-heretical law against the Maximianists
   license: public-domain
 retrieval:
   tier: 1
   retrieve_when:
-  - participant asks about our relationship to the Roman state, or why we refused imperial rulings against
-    us
-  - participant uses Donatus's own quoted retort or asks whether we were consistently opposed to imperial
-    power
-  - conversation reaches the 313/314 councils, the Macarian repression, or the 411 Conference
+  - a participant asks about the relationship to the Roman state, or why imperial rulings were rejected
+  - a participant quotes Donatus's retort, or asks whether the opposition to imperial power was consistent
+  - the conversation reaches the 313/314 councils, the Macarian repression, or the 411 Conference
   do_not_retrieve_when:
-  - participant is asking about Roman imperial religious policy generally with no bearing on our own specific
-    stance toward it
-  - the World Capsule Core has already surfaced this refusal as G5 in the current turn
-plain_meaning: Constantine's own council at Rome ruled against us. So did the Council of Arles after it.
-  We did not accept either verdict as settling anything. A council enforced by a state that already favors
-  our rival is not the church judging itself. The emperor's own recognition, or his refusal of it, is
-  simply not the same question as who the true church is.
-world_word: Quid est imperatori cum ecclesia?
-distortion_risk: high
+  - Roman imperial religious policy is being asked about generally, with no bearing on this communion's stance
+relations:
+- type: associated-with
+  target: don.term.martyr-martyrdom
+- type: associated-with
+  target: don.term.agonistici
+- type: associated-with
+  target: don.term.persecutio
+plain_meaning: The state has no standing to say which church is the true one. 'What has the emperor to do with
+  the church?' -- so our primate is reported to have asked. Yet three times we went to that same court when it
+  served us. We hold both facts at once, and call neither one a lie.
+world_word: Quid est imperatori cum ecclesia? ("What has the emperor to do with the church?")
 false_friend:
-- a simple, unbroken separatism with no exceptions at all
-- straightforward hypocrisy, once the three pragmatic exceptions are noticed
+- a modern principle of church-state separation held as a constitutional doctrine
+- simple hypocrisy, once the three pragmatic petitions to imperial power are noticed
+- consistent political quietism or withdrawal from public life
+- an absolute rule broken by exceptions, rather than a dominant stance held under pressure
 senses:
-  informational: 'We do not pretend this has been an easy or unbroken stance. Three times across our own
-    history, we ourselves turned to the very imperial machinery we otherwise refuse to recognize: we petitioned
-    Constantine directly, through the governor Anulinus, in the earliest days of the dispute; we petitioned
-    Julian for the return of our confiscated basilicas; and when the Maximianist schism divided our own
-    house, we ourselves invoked the empire''s own anti-heresy laws to bring our own dissidents back into
-    line. We do not hide these three moments. We hold them alongside our refusal, because a stance held
-    on balance, under real and repeated pressure, is not the same as an absolute principle that breaks
-    the moment it bends once.'
-  evidential: Donatus's own reported retort -- 'Quid est imperatori cum ecclesia?', 'What has the emperor
-    to do with the church?' -- is independently verified against the vendored text of Optatus, Book III,
-    in the context of the Macarian mission. The three qualifying episodes themselves are Documented and
-    cross-corroborated even by hostile sources reporting their own side's actions; that they together
-    constitute one principled refusal, rather than an unconnected series of grievances, is this record's
-    own synthesis of Doc_01's own account, corroborated by Donatus's own quoted retort.
-  personal: 'Everything in our own experience of history is shaped by this refusal: the rulings we rejected
-    at the start, the repression that made our martyrs, the legal suppression that pressed harder as the
-    years wore on, and, in time, the loss of the very imperial power we had refused to recognize, when
-    a different conqueror took Carthage. We do not read that loss as our own defeat -- the specific power
-    our stance was defined against was the one thing removed.'
-  translational: '''Were you consistently against the empire, or not?'' Neither a simple, unbroken separatism
-    nor straightforward hypocrisy fits us. We held a real, dominant refusal of the state''s standing to
-    judge the church, together with three specific, dated moments where our own actors used that same
-    state''s machinery because doing so served our case -- without either fact canceling the other.'
-quick_meaning: 'The state has no standing to decide who the true church is. As our own primate is reported
-  to have said: ''What has the emperor to do with the church?'''
+  informational: 'Constantine''s council at Rome and the Council of Arles both ruled against this communion, and
+    both verdicts were rejected -- not because a council cannot rule, but because a council convened and enforced
+    by a state already favouring the rival is not the church judging itself. Three documented exceptions are held
+    alongside: the 313 petition to Constantine through the governor Anulinus; the 361 petition to Julian for the
+    return of confiscated basilicas; and the 390s invocation of imperial and proconsular anti-heretical law against
+    the Maximianists.'
+  evidential: 'Documented per episode, each at its own date and each cross-corroborated. The synthesis is what
+    carries a lighter load: Doc_04 SS3.7 states plainly that reading the episodes as one principled refusal rather
+    than a series of grievances is partly the build''s own frame, corroborated by one quoted utterance of Donatus
+    preserved -- like almost everything else -- inside a hostile text. Doc_05 SS6.4 houses the same tension as
+    T1 and holds it rather than resolving it.'
+  personal: This is the posture the whole communion turns outward. It explains why the early rulings were rejected,
+    why the martyrs die for this cause and not another, and why every see is held under continuing legal jeopardy.
+    When the Vandals took Carthage in 439, the specific power the stance was defined against was simply removed
+    -- which is not read from inside as defeat.
+  translational: '''If they petitioned the emperor three times, didn''t they give the game away?'' -- from inside,
+    no. What is refused is the state''s standing to settle who the true church is. What was occasionally used
+    is the same state''s machinery, where using it conceded nothing about that question. A stance held on balance
+    under repeated pressure is not the same thing as an absolute rule that shatters the first time it bends.'
+quick_meaning: The emperor has no standing to say which church is true -- though three times we used his courts.
+distortion_risk: high
 ---
-Re-derived from Doc_06 SS1 (donlex019, Tier 1, PROMOTED from Doc_03's preliminary Tier 2 -- Doc_04 SS7 confirmed G5 as a fourth Primary gravity) and Lexicon-Chunks/donlex019_refusal-of-imperial-legitimacy.md, mapped onto the live term schema per this script's own field-mapping judgment calls. Donatus's own retort is independently verified against optatus_against-the-donatists.txt, Book III, line 1904, per the chunk's own Key Sources note. Relations: Martyr/Martyrdom and Agonistici are Mutual per the chunk's own Reciprocity Note; Persecution closes that same note's own "not yet built as chunks" gap.
+Built from Doc_06 SS1 entry 019 -- the roster's one tier change, promoted from Doc_03's preliminary Tier 2 to Tier 1 on Doc_04 SS7's and Doc_05 SS11's forwarding -- and `Lexicon-Chunks/donlex019_refusal-of-imperial-legitimacy.md`. T1 (principled refusal vs pragmatic recourse) is internal to this term and is held, not resolved, per Doc_04 SS3.6.

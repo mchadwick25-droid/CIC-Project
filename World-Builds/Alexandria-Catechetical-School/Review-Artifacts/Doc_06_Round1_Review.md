@@ -67,7 +67,7 @@ Actual workbook sheets: `Lexicon, By Tier, By Tag, CT Contest-Type Check, Relate
 ## COSMETIC FINDINGS
 
 ### [COSMETIC] C1 — Template version-label mismatch
-`L4-Templates/Deployment_Lexicon_Chunk_Template.md` header reads "Version 1.0" though its own Version History includes v1.1 and Doc_06 cites "V1.1." Header should read V1.1. (Template file, not a chunk.)
+`reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md` header reads "Version 1.0" though its own Version History includes v1.1 and Doc_06 cites "V1.1." Header should read V1.1. (Template file, not a chunk.)
 
 ### [COSMETIC] C2 — Theosis World Meaning provenance aside
 `alexlex008_theosis.md` World Meaning ¶1: "It was not Athanasius's coinage — Clement already speaks of the *gnostikos* 'becoming god,' and Origen of the soul's ascent." Not on the forbidden-marker list, but the provenance/authorship aside verges on analytical distance; consider recasting as the tradition's own memory rather than a claim about coinage.

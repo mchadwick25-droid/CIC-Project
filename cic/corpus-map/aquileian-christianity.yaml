@@ -3,6 +3,25 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: aquileian-christianity
 works:
+- work: Letters VII-X (to Chromatius, Jovinus, and Eusebius; to Niceas; to Chrysogonus; to
+    Paul of Concordia)
+  author: jerome
+  locus: div2 5.7-5.10 - 'To Chromatius, Jovinus, and Eusebius' (n=VII, ~1,732 words), 'To
+    Niceas' (n=VIII, ~415 words), 'To Chrysogonus' (n=IX, ~350 words), 'To Paul' (n=X, ~1,012
+    words); ~3,509 words total
+  role: tradition
+  confidence: assigned
+  note: 'Jerome''s early letters to the Aquileian ascetic circle he belonged to before leaving
+    for the East c. 373 - addressed to Chromatius (the future bishop of Aquileia), the sub-deacon
+    Niceas, the monk Chrysogonus, and an old man of nearby Concordia. Split out from the Letters
+    body for the second home: this church''s own vendored corpus otherwise runs to one work
+    (Rufinus'' Commentary on the Apostles'' Creed), and these four short letters are primary-voice
+    correspondence naming Aquileian and Concordian figures by name and role, not about the
+    church from outside it. Surfaced by a source-research pass on Aquileian Christianity''s
+    (I.41) sourcing gaps, 2026-09-13.
+
+    '
+  source_file: npnf206_jerome-principal-works.xml
 - work: A Commentary on the Apostles' Creed (Rufinus)
   author: rufinus
   locus: div2 5.13

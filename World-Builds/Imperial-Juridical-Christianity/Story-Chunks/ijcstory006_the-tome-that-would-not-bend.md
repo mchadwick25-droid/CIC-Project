@@ -50,4 +50,4 @@ Additional guidance specific to this story: a strong candidate for always-presen
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Story_Repository_Chunk_Template.md` V1.0. No brackets or builder notes remain. Tier/Confidence alignment confirmed.
+Completed per `reference/L4-Templates/Story_Repository_Chunk_Template.md` V1.0. No brackets or builder notes remain. Tier/Confidence alignment confirmed.

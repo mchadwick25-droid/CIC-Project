@@ -1,6 +1,6 @@
 ---
 id: don.source.augustine-psalmus-contra-partem-donati
-world_id: don
+world_id: donatism
 record_type: source
 schema_version: 2
 status: draft
@@ -9,24 +9,32 @@ canon_cells: []
 confidence:
   citation_specificity: A
   verification_state: verified-direct
-  evidentiary_weight: load-bearing
-  formation_confidence: Documented
-  divergence_note: null
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+  divergence_note: 'Confidence A reflects the poem''s own CONFIRMED PRESENCE AND IDENTITY -- the heading
+    ''PSALMUS CONTRA PARTEM DONATI'', the ''A'' stanza opening ''Abundantia peccatorum...'', the full
+    critical apparatus, and the closing ''EXPLICIT ABECEDARIUM AVGUSTINI... Amen'' at verse 288 -- NOT
+    a re-verification of the claims drawn from it. Specifically NOT yet checked: whether the poem contains,
+    verbatim, the Maximianist-restoration rhetorical question Doc_02 SS1 quotes via the NPNF Prolegomena
+    (Registry row 31). A targeted search found extensive rebaptism-rhetoric verses (e.g. ''ex quibus si
+    erat Macarius, nos quid uis rebaptizare?'', naming Macarius rather than the Maximianists) but did
+    not locate that exact question; Doc_02''s citation of it continues to rest on row 31.'
 sources: []
 relations: []
 author: Augustine of Hippo
-work: Psalmus contra Partem Donati (Abecedarian psalm; dated only to Augustine's presbyterate)
-edition: 'Michael Petschenig (ed.), Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51 and 53
-  (Vienna: Tempsky / Leipzig: Freytag, 1908 and 1910), vendored as cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt'
-rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
-  directly checked the vendored file's own provenance header for every file cited below (grep for 'public
-  domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC
-  BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows
-  cite -- not assumed from the Registry's or corpus map's own prose alone.
-attribution_status: attributed
-discovery_channel: Source Registry row 37; direct text search / grep and read against the vendored file,
-  2026-09-02
+work: Psalmus contra Partem Donati -- an abecedarian psalm, dated only to Augustine's presbyterate on
+  the NPNF Prolegomena's own chronological arrangement
+edition: Michael Petschenig (ed.), CSEL 51/53, vendored as cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
+  by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
+  vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by
+  this compilation pass.
+attribution_status: attributed. The poem's own Retractationes entry, reproduced separately in the same
+  file, describes it as running the alphabet through V with an epilogue in place of the final three letters
+  -- matching the vendored text.
+discovery_channel: direct text search and read against cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+  / 2026-09-02, during a Registry-reconciliation pass. Registry row 37.
 external_ids:
   don_source_registry_row: 37
 ---
-Augustine's own most directly popular-register anti-Donatist composition, and the earliest attested rhetorical use of the Maximianist-reception argument, pre-dating Contra Cresconium (Doc_02 SS1) -- the poem's own full Latin text (not merely row 31's Prolegomena summary of it) was found, unregistered, inside row 17/18's own file and confirmed this session from its own heading through its own closing marker at verse 288. The exact Maximianist-restoration rhetorical question Doc_02 SS1 quotes via row 31 was not itself located in a targeted search this session, though extensive rebaptism-rhetoric verses were found.
+Found UNREGISTERED inside a file already vendored for three other rows, because that file's contents had been checked against two specific Explicit/Incipit markers rather than searched end to end -- a real acquisition finding, recorded as such. Licensed for the earliest attested use of the Maximianist-reception argument in rhetorical form, pre-dating Contra Cresconium (Doc_02 SS1), and for its own rebaptism polemic generally.

@@ -5,7 +5,7 @@
 
 > **Amendment A (2026-07-16).** After this draft was first written, the map was
 > reframed as a **pre-Step-0 instrument**, and the Phase One Step 0 Conclusion
-> (`CiC_Step0_Conclusion_FINAL_v2.docx`) and Step 0 Methodology V1.0 were read
+> (`reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx`) and Step 0 Methodology V1.0 were read
 > directly. Three corrections follow: (1) Phase One's window is **70–451 CE**
 > (Chalcedon), not 70–430; (2) Step 0 selected **nine worlds** — four are built,
 > and **five are Selected-Not-Yet-Built** (Alexandrian Catechetical, Donatism,

@@ -1,48 +1,78 @@
 ---
 id: don.term.reception-without-reordination
-world_id: don
+world_id: donatism
 record_type: term
 schema_version: 2
 status: draft
-register: emic
+register: emic-unavailable
 canon_cells:
-- F4-I
 - F6-I
-relations:
-- type: associated-with
-  target: don.term.rebaptism
-- type: associated-with
-  target: don.term.traditor-traditio
+- F4-I
 confidence:
-  citation_specificity: C
-  verification_state: named-not-rechecked
-  evidentiary_weight: corroborating
-  formation_confidence: Widely Accepted
-  divergence_note: Doc_06 SS1 confirms this term's tier but states no term-specific confidence beyond
-    that confirmation -- this record is authored at Tier-3-minimum depth (quick_meaning + sources) directly
-    from Doc_03's own one-line candidate-list meaning, per this script's own judgment call to give every
-    Doc_03 candidate an explicit disposition (see script docstring). A named gap, not a silently invented
-    confidence rating.
+  citation_specificity: A
+  verification_state: verified-direct
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+  divergence_note: 'Doc_04 SS3.6 calls T2 ''the most rigorously and repeatedly directly-quoted internal tension
+    in this world''s entire vendored corpus'' (Registry rows 3, 4, 47), verified extensively against On Baptism
+    and the Answer to Petilian. The divergence is not about whether the reception happened but about whose account
+    of it survives: it reaches this record because Augustine made it his single central argument against the rebaptism
+    logic. No Donatist statement of why the Bagai council decided as it did survives at all, so the practice is
+    Documented while its own reasoning is not. register is emic-unavailable, not emic: this is a describing label,
+    and no Donatist word for the practice is preserved.'
 sources:
-- source_id: don.source.augustine-letter-51-to-crispinus
-  locus: '''you restored some of them without re-ordination'' (Letter LI to Crispinus)'
+- source_id: don.source.augustine-on-baptism-against-the-donatists
+  locus: the Maximianist reception turned into the central argument
+  license: public-domain
+- source_id: don.source.augustine-answer-to-petilian
+  locus: Felicianus 'not held by the Donatists themselves to have lost either sacrament'
+  license: public-domain
+- source_id: don.source.augustine-contra-cresconium
+  locus: the Cebarsussi and Bagai sentences quoted against the Donatist case
   license: public-domain
 retrieval:
   tier: 2
-  retrieve_when: []
-  do_not_retrieve_when: []
-plain_meaning: The Maximianist clergy had broken from us. When they returned, our councils restored them
-  to office. We did not repeat their ordination. We did not repeat their baptism. Augustine turns this
-  fact against our own rebaptism doctrine. If their orders were never lost, he asks, why insist a rival's
-  are?
-world_word: reception without reordination
-distortion_risk: low
-false_friend: []
+  retrieve_when:
+  - a participant asks whether the purity doctrine was ever applied inconsistently
+  - a participant asks about the Maximianist schism and how it ended
+  - the conversation reaches the strongest objection the opposing side actually made
+  do_not_retrieve_when:
+  - the question is about rebaptism as a practice generally, without reaching the internal exception
+relations:
+- type: tension-with
+  target: don.term.rebaptism
+- type: tension-with
+  target: don.term.purity-ministerial
+- type: associated-with
+  target: don.term.traditor-traditio
+- type: enabled-by
+  target: don.term.concilium
+plain_meaning: Our own council at Bagai took the Maximianist clergy back. It did not baptize them again. It did
+  not ordain them again. We hold to a hard rule against our rival, and here we did not apply it to our own. We
+  do not hide the fact.
+world_word: reception without reordination (a describing label; no word of our own for it survives)
+false_friend:
+- proof that the rebaptism doctrine was never seriously held
+- a formal doctrinal exception written into the rule, rather than one bounded historical decision
+- modern ecumenical recognition of another church's orders
 senses:
-  translational: '''So you never actually required rebaptism?'' The Maximianist clergy are the one exception
-    on our own record -- received back without a second baptism or ordination, a fact we do not hide even
-    though it sits uneasily beside how strictly we hold the same standard against our outside rival.'
-quick_meaning: We took the Maximianist clergy back into full office. We did not re-ordain them. We did
-  not re-baptize them.
+  informational: 'The deacon Maximian broke from Primian, the primate at Carthage; a council of his supporters
+    at Cebarsussi (393) elected him a rival primate; the much larger mainstream council at Bagai (394) condemned
+    that election and suppressed the group. When the Maximianist clergy were later restored to office and communion,
+    neither their ordination nor their baptism was repeated. Augustine quotes this repeatedly and builds his central
+    case on it: if a schismatic''s orders survive here, why not the Caecilianists''?'
+  evidential: Documented, and unusually so -- this is the most directly and repeatedly quoted internal tension
+    in the vendored corpus. But every quotation of it is Augustine's, deployed for his own argument. The Donatist
+    side's own account of the decision -- how it squared Bagai with the rule it otherwise enforced -- does not
+    survive in any form. So the fact is secure and the reasoning behind it is a genuine blank.
+  personal: This is the point where the community's own machinery drew the boundary differently against its own
+    than against its rival. Doc_05 SS2 and SS4 both hold it as a lived inconsistency rather than resolving it
+    into either 'the doctrine wasn't really absolute' or 'the reception was a lapse'.
+  translational: '''So they didn''t really believe their own rule?'' -- the honest answer is that the record shows
+    the rule enforced hard outward and suspended once inward, and does not preserve anyone explaining why. Treating
+    that as settled hypocrisy imports a conclusion the evidence does not supply; so does treating it as a principled
+    exception.'
+quick_meaning: Bagai took our own dissidents back without baptizing or ordaining them again.
+distortion_risk: low
 ---
-Re-derived from Doc_03 Cluster 1 (candidate roster) and Doc_06 SS1 (donlex003, Tier 2 confirmed, no promotion forwarded) -- no Lexicon-Chunks deployment file exists for this term; Doc_06 SS3 names its chunk production as disclosed deferred work. Authored directly from Doc_03's own one-line meaning at Tier-3-minimum depth, per this script's own judgment call (see docstring). Sourced to Letter LI to Crispinus, the same passage donlex001/002's own chunks cite for this practice. Relations: associated-with Traditor/Traditio and Rebaptism close the back-edges those two Tier-1 chunks' own Related-Terms fields already declare toward this term.
+Built from Doc_06 SS1 entry 003 (Tier 2, no promotion forwarded) with content from Doc_04 SS3.6 (T2) and Doc_05 SS2/SS4. No deployment chunk was built for this term this cycle (Doc_06 SS3, disclosed deferral). register is emic-unavailable: the term is a describing label, not an attested Donatist word.
