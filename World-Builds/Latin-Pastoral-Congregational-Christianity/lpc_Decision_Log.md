@@ -806,3 +806,25 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 **Disposition.** None.
 
 **Escalation check.** Representative-identity, portfolio-level: do not apply. **Governance/methodology: open**, now with three items on the record — separating the thread that reads a source from the thread that applies it; the record-boundary question; and Round 10's addition, that extraction is itself a defect surface. **Unresolved tensions: two open** — the evidentiary question at §7 Open Item 6, and the row 65 / act 158 conflict above.
+
+### 2026-09-14 (eighth) — Round 11's H1 fixed, and the phase-binding asymmetry explained rather than equalised
+
+**Direction.** Project lead, 2026-09-14.
+
+**H1.** Adding Round 10 to the §8 table falsified the Status line ("Review rounds 1–9") and the Disposition ("through `Doc04_Round9_Review.md`") in the same commit, so the document recorded nowhere that Round 10's findings existed. Both ranges now run to Round 11, and §8 logs Round 11, the blind read, and this pass.
+
+**The phase-binding finding, and why the obvious fix would have been wrong.** A blind read of §4, §5 and §6 — performed by a reader given those three sections alone, with §3 withheld, per `Doc04_Round10_Review.md`'s closing test — found that §5's Article 21 substitute discipline flags Candidates 2, 7 and 8 as phase-bound and omits Candidate 5, although §4 records Candidate 7 as "Persistence fails at world level" and Candidate 5 as "does not pass Persistence at world level." Two identical-looking results, treated differently, with no stated reason.
+
+**Checked at both Persistence bullets before acting. The asymmetry is correct.** Candidate 7 fails Persistence *because it is confined to one phase* — "no Cyprian-phase evidence identified in this world's own Native corpus" — which is what phase-boundedness means. Candidate 5 fails Persistence *while appearing in both phases*, at one locus each, "between two bishops at two moments separated by over a century." It is **thin across the span, not bounded within it**, and the phase-bound flag would have misdescribed it. **Equalising the two treatments, which is what the finding appears on its face to ask for, would have introduced an error.** The defect was explanatory, and it is fixed by stating the distinction at §5's rule and in §4's cross-strand cell.
+
+**What the blind read demonstrates.** Eleven full-document adversarial rounds did not find this. A reader given three sections and no prior knowledge of the answer found it immediately, because they had to *derive* Candidate 5's status from the text rather than check it against a classification they already knew. That is a difference in the reader's position, not in their diligence, and it is the first structural finding in this build that bears on the gravity discovery rather than on the correction apparatus.
+
+**The blind read also reported that §4 and §5 agree word for word** on Candidate 5's label and six-test profile, and that §6 omits rather than contradicts — which closes the adequacy blocker `Doc04_Round10_Review.md` named.
+
+**An error in this pass's own verification, recorded because it nearly stood.** The structural check reported eight asymmetric matrix pairs. The matrix is symmetric; the check was wrong — it had been rewritten with a classifier whose first test, `'—' in s`, matches any cell containing an em dash. Re-run with the original order-sensitive form, all 28 pairs are symmetric. **A verification script is not evidence merely because it is a script**, and a failing check needs the same scrutiny as a passing one.
+
+**Not addressed.** Round 11's H2, H3 and H4 — all record corrections outside `Doc_04_Gravity_Discovery.md` — and the outstanding findings of Rounds 5 through 11. `Review-Artifacts/` is the record.
+
+**Adequacy.** `Doc04_Round11_Review.md` judges the document adequate to proceed to Doc_05 on its substance and would not hold Doc_05 for a twelfth round. That is the reviewer's judgement, recorded here; the decision is the project lead's.
+
+**Escalation check.** Representative-identity, portfolio-level: do not apply. **Governance/methodology: open**, three items on the record. **Unresolved tensions: one open** — the evidentiary question at §7 Open Item 6. The row 65 / act 158 conflict carried by the previous entry is **withdrawn**: `Doc04_Round11_Review.md` adjudicated it at source and this thread verified the adjudication independently — act 158 truncates at "Augustinus episcop" and is followed by the subscription formula, which Vincentius's subscription on the same page carries clause for clause. Doc_04's diagnosis and row 65's observation are the same fact from two sides. There was never a conflict, and the previous entry asserted one without opening the file.
