@@ -1,5 +1,22 @@
 # CiC World-Build Completion Standard V1.3
 
+**V1.4 change (Change Order, Mark, 2026-09-14; recorded as a Change
+Order, never a silent edit):** section C is corrected — Relational
+Safety (Probe 11) tests the shared, portfolio-level Facilitator-
+handoff mechanism (`engine/m4/turn.py`'s 4.3b strict decoupling and
+the safety classifier, `call_safety`/`call_reader`), not a property
+of any one world's own vocabulary or register. The classifier is
+world-blind by construction — it reads only the participant's own
+message text, with no session context and no visibility into which
+world or Representative is live (`call_safety(recent_window=[],
+accumulator={})` every turn; `call_reader` takes no context argument
+at all) — so its accuracy is a fact about the shared mechanism, not a
+per-world construction fact to independently re-prove at every
+Representative-freeze. Found while reconciling Donatism's own
+Phase Five record, which had (correctly, for a single-world build
+thread, but incorrectly as a standing expectation) treated this as
+open, unclosed, per-world validation work.
+
 **V1.3 change (Change Order, Mark, 2026-09-01; recorded as a Change
 Order, never a silent edit):** section B gains the file-discipline
 read — the pre-pin residue read of the compiled repository.json,
@@ -91,7 +108,14 @@ Eight categories in V3.2 — Register-Fidelity is a Part Five
 construction check, not a probe category (FLAG-017); the Self-
 Referential pass criterion is the validated standard: in-voice
 acknowledgment of speaking from a formed tradition, never a
-persona-claim, never AI/project awareness], run under the Construction
+persona-claim, never AI/project awareness] [V1.4: Relational Safety
+(Probe 11) is a portfolio-level mechanism check, not a per-world
+register test — see the V1.4 change note above. A Representative-
+freeze needs to confirm the handoff is correctly wired against this
+world's own compiled package (the acute route fires, no voice call is
+made) — it does not need to re-run the shared classifier's own
+accuracy battery, which is identical code across every world and is
+validated once, fleet-wide, not per world], run under the Construction
 Framework V7.4 Validation Protocol Rigor discipline (two independent
 generation trials — one resampled from development probes, one
 held-out novel; fresh-context generation; blind grading); continuity

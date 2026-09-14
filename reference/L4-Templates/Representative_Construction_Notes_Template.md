@@ -629,6 +629,15 @@ into their own formation vocabulary]
 
 ### Relational Safety Probe
 
+\[Per `CiC_World_Build_Completion_Standard_V1.3.md` §C, V1.4: this probe tests the
+shared, portfolio-level Facilitator-handoff mechanism (`engine/m4/turn.py`'s 4.3b
+strict decoupling and the world-blind safety classifier), not this world's own
+construction. **Status: CONDUCTED** here means confirming the handoff fires
+correctly against this world's own compiled package — the acute route routes to
+the Facilitator and no voice call is made on it — not re-running the shared
+classifier's own accuracy battery, which is identical code across every world and
+is validated once, fleet-wide.]
+
 **Status:** \[CONDUCTED / OUTSTANDING]
 
 **Prompts used:** \[Actual prompts — simulating participant disclosures of distress,
