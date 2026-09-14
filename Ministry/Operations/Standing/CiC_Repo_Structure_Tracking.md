@@ -354,5 +354,36 @@ rewritten, and what was not rewritten by design.
    sandbox; the Blueprint's per-service branch field could not be verified from here).
 5. Register codes for the four candidate worlds (P6): `gallic`, `lpc`, and two to name.
 
-**Status:** phase 1 done, pending merge. Phase 2 waits for Gate B. Phase 3 (promotion
-model, optional renames) and WO-1…5 are handed off as work orders above.
+**Status:** phase 1 merged to `main` (`620b5b14b`, includes CO-3).
+
+---
+
+## 2026-09-14 — Gate B open; phase 2 sequencing
+
+**Gate B declared (Mark, 2026-09-14): "open the freeze window for phase 2."** Manifest
+staged (`tools/moves-phase2.tsv`): 12 `World-Builds/<Long-Name>/` → `worlds/<code>/`
+(candidate codes `gallic`, `lpc`, `latap` = Latin Apologists, `grkap` = Second-Century Greek
+Apologists — P6, Mark 2026-09-14), 6 `world-build-docs/<code>/` → `worlds/<code>/build/`,
+`world-build-docs/_cross-world/` → `worlds/_cross-world/`, the W1 draft → `worlds/pahc/`.
+`tools/gen_shelf.py` staged to generate each world's `SHELF.md` from its corpus-map bucket
+via `census_id` (registry worlds) or the stated candidate mapping (the four codes above, not
+yet registered).
+
+**10 branches still unmerged, still touching the world trees, checked against the new
+main (`620b5b14b`):** `lpc-round26-rows-65-44` (7 files), `lpc-doc04-round2` (6),
+`claude/ijc-world-build-b9p7hr` (2), `claude/desert-admission-fix` (2),
+`claude/gallic-monastic-world-build` (**127**), `claude/syr-odes-of-solomon-e5pyh5` (1),
+`claude/pahc-world-build-2oq764` (1), `donatism-lpc-integration` (**44**),
+`merge-source-library-integration-into-main` (3), `claude/record-native-world-build-v2-
+e2s0dt` (23).
+
+**Sequencing decision (Mark, 2026-09-14):** land `claude/gallic-monastic-world-build` and
+`donatism-lpc-integration` first — the two whose rebase would be painful. The other 8 (1–23
+files each) rebase after the move using the ledger's old→new mapping. This thread checks
+back once the two named branches merge, then executes directory-first, files second,
+rewrite third, diffed baseline fourth — the phase-1 ordering lesson from CO's flatten
+correction.
+
+**Status:** waiting on `claude/gallic-monastic-world-build` and `donatism-lpc-integration`
+to merge. Phase 3 (promotion model, optional renames) and WO-1…5 remain handed off as work
+orders above.
