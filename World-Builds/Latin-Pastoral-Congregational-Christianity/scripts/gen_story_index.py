@@ -193,7 +193,37 @@ for p in sorted(CHUNKS.glob("lpcstory*.md")):
 if not stories:
     sys.exit("FATAL: no story chunks found. Refusing to emit.")
 
+def parent_disposition(t, label):
+    """An index cannot state its own disposition: it inherits its parent's.
+
+    Hard-coding it is how a Status line and a Disposition section drift apart,
+    so both are read from the parent here and a disagreement halts the run.
+    """
+    m = re.search(r"^\*\*Status:\s*\*{0,2}(.*)$", t, re.M)
+    if not m:
+        sys.exit(f"FATAL: {label} carries no '**Status:' line, so this index "
+                 "cannot derive its own disposition. Refusing to emit.")
+    d = re.search(r"^#{2,3}\s*(?:\d+\.\s*)?Disposition\s*$", t, re.M)
+    if not d:
+        sys.exit(f"FATAL: {label} carries no Disposition section, so this index "
+                 "cannot derive its own disposition. Refusing to emit.")
+    tail = t[d.end():]
+    nxt = re.search(r"^#{2,3}\s", tail, re.M)
+    section = tail[:nxt.start()] if nxt else tail
+    APP = re.compile(r"approved to proceed", re.I)
+    s_ok, d_ok = bool(APP.search(m.group(1))), bool(APP.search(section))
+    if s_ok != d_ok:
+        sys.exit(f"FATAL: {label}'s Status line says "
+                 f"{'Approved to proceed' if s_ok else 'NOT approved'} while its "
+                 f"Disposition section says "
+                 f"{'Approved to proceed' if d_ok else 'NOT approved'}. A "
+                 "disposition stated in two places has gone stale in one. "
+                 "Refusing to emit.")
+    return s_ok
+
+
 doc = DOC.read_text(encoding="utf-8")
+DISPOSED = parent_disposition(doc, "Doc_09_Story_Inventory.md")
 assert_no_notices(doc, DOC.name)
 doc_live = doc
 
@@ -359,9 +389,13 @@ FIXED = _fixed[-1] if _fixed else 0
 # typed literal and will go stale again if this ever reaches thirteen rounds.
 _NW = {0: "No", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six",
        7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten", 11: "Eleven", 12: "Twelve"}
-w(f"**Status:** " + ("**DRAFT — not reviewed, not self-disposed.**" if not NR else
+w(f"**Status:** " + ("**Approved to proceed**, inherited from `Doc_09_Story_Inventory.md`'s own "
+   f"Disposition, which governs this line; the Round {FIXED} fix pass is itself unreviewed."
+   if DISPOSED and FIXED else
+   "**Approved to proceed**, inherited from `Doc_09_Story_Inventory.md`'s own Disposition, which governs this line."
+   if DISPOSED else
    f"**REVISED after Round {FIXED} — the revision is unreviewed, and not self-disposed.**"
-   if FIXED else "**DRAFT — not reviewed, not self-disposed.**") +
+   if NR and FIXED else "**DRAFT — not reviewed, not self-disposed.**") +
   " Co-output of Construction Step 9 with `Doc_09_Story_Inventory.md` and `Story-Chunks/`; reviewed and disposed of together.")
 w(f"**Review history, counted from `Review-Artifacts/` rather than typed:** "
   + (f"{_NW.get(NR, NR)} round(s) — " + ", ".join(f"Round {r}" for r in _rounds) if NR else "none run")
@@ -403,6 +437,9 @@ GUARD_LABELS = (
     "a chunk missing a required section",
     "a Source clause that claims both use and non-use of the same row",
     "a build-process notice anywhere in a deliverable",
+    "a parent document with no Status line to inherit a disposition from",
+    "a parent document with no Disposition section to inherit one from",
+    "a parent whose Status line and Disposition section state different dispositions",
     "this list itself falling out of step with the script's halting-site count",
 )
 if len(GUARD_LABELS) != _NHALT:
@@ -538,7 +575,9 @@ w("---")
 w("")
 w("## Disposition")
 w("")
-w("**Not disposed.** Reviewed and disposed of together with `Doc_09_Story_Inventory.md` and the chunks in `Story-Chunks/`. "
+w(("**Approved to proceed, 2026-09-15**, together with `Doc_09_Story_Inventory.md` and the chunks in `Story-Chunks/`, which are reviewed and disposed of with it. "
+   if DISPOSED else
+   "**Not disposed.** Reviewed and disposed of together with `Doc_09_Story_Inventory.md` and the chunks in `Story-Chunks/`. ")
   + (f"**{_NW.get(NR, NR)} independent review round(s) have been run**, the most recent `Review-Artifacts/Doc09_Round{LATEST}_Review.md`; this file is regenerated from the Round {FIXED} fix pass and is **unreviewed**."
      if FIXED >= LATEST else
      f"**{_NW.get(NR, NR)} independent review round(s) have been run**, the most recent `Review-Artifacts/Doc09_Round{LATEST}_Review.md`; **no fix pass has been recorded against it in Doc_09's Document Log**, so this file still reflects the Round {FIXED} pass."

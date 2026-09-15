@@ -1,6 +1,6 @@
 # Lexicon Deployment Index — Latin Pastoral-Congregational Christianity
 
-**Status:** **REVISED after Rounds 1, 2 and 3 — not self-disposed.** Co-output of Construction Step 6 with `Doc_06_Full_Lexicon_Development.md` and the nineteen `Lexicon-Chunks/` files; the three are reviewed and disposed of together. See Doc_06's own Disposition.
+**Status:** **Approved to proceed** (2026-09-15, with `Doc_06_Full_Lexicon_Development.md`). Co-output of Construction Step 6 with `Doc_06_Full_Lexicon_Development.md` and the nineteen `Lexicon-Chunks/` files; the three are reviewed and disposed of together. See Doc_06's own Disposition, which governs this line.
 **World file-code:** `lpc`
 **Date drafted:** 2026-09-14 · **Revised:** 2026-09-15 (Round 1, Round 2 and Round 3 fix passes)
 **Generated from the chunk files, not maintained alongside them.** Every row below is parsed directly out of `Lexicon-Chunks/lpclex*.md` — Tier, all seven tag columns, Aliases, Related-Terms, the Registry rows cited anywhere in the chunk, and the CT, Reported-Experience and Author-Gravity flags. **Re-deriving it is the check:** regenerate and diff.
@@ -166,4 +166,4 @@
 
 ## Disposition
 
-**Not disposed.** Reviewed and disposed of together with `Doc_06_Full_Lexicon_Development.md` and the nineteen chunk files as co-produced Step 6 outputs. Round 1 returned REVISION REQUIRED (3H 3M 2L); Round 2, REVISION REQUIRED (1H 4M 4L 1C); Round 3, REVISION REQUIRED (1H 4M 5L 2C) while judging the deliverable **adequate to proceed to Doc_07**. **This latest fix pass has not itself been independently reviewed and does not claim to have been.** Not self-certified. Not Frozen.
+**Approved to proceed, 2026-09-15**, together with `Doc_06_Full_Lexicon_Development.md` and the nineteen chunk files, which are reviewed and disposed of as co-produced Step 6 outputs. Round 1 returned REVISION REQUIRED (3H 3M 2L); Round 2, REVISION REQUIRED (1H 4M 4L 1C); Round 3, REVISION REQUIRED (1H 4M 5L 2C) while judging the deliverable **adequate to proceed to Doc_07**. **This latest fix pass has not itself been independently reviewed and does not claim to have been.** Not self-certified. Not Frozen.
