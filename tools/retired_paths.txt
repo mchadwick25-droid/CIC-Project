@@ -21,3 +21,8 @@ Ministry/Technology/Pass2
 Ministry/Technology/Pass3
 Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs
 Ministry/Operations/Standing/lexicon_compliance_checker.py
+# Library Access Gate increment 9 (2026-09-15): tools/gen_shelf.py retired in favor
+# of `python -m engine.m9.cli shelf <world> --stdout` (engine/m9/cli.py), the real
+# shelf renderer - gen_shelf.py's own line-regex bucket reader and CANDIDATES dict
+# are gone with it.
+tools/gen_shelf.py
