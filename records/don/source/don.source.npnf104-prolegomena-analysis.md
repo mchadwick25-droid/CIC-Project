@@ -19,6 +19,7 @@ work: '"Chapter II. -- An Analysis of Augustin''s Writings Against the Donatists
   Series I, vol. IV'
 edition: 'Nicene and Post-Nicene Fathers, 1st series, vol. 4 (Augustine: Anti-Manichaean, Anti-Donatist
   Writings), ed. Schaff, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
   directly checked the vendored file's own provenance header for every file cited below (grep for 'public
   domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC

@@ -18,6 +18,7 @@ author: Cyprian of Carthage
 work: On the Unity of the Church (De Unitate)
 edition: Ante-Nicene Fathers, vol. 5 (Hippolytus, Cyprian, Caius, Novatian, Appendix), ed. Roberts & Donaldson,
   vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
   directly checked the vendored file's own provenance header for every file cited below (grep for 'public
   domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC

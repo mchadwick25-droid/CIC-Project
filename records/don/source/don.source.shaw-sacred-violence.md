@@ -22,6 +22,7 @@ author: Brent Shaw
 work: 'Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge, 2011)'
 edition: Cambridge University Press, 2011 -- consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3)
+kind: unvendored
 rights_status: in-copyright modern scholarship; consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3). Cited and paraphrased by this build, never quoted as licensed vendored material. Bibliographic
   record only -- the volume itself was not opened by this compilation pass.

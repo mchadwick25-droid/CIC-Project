@@ -16,6 +16,7 @@ sources: []
 author: "Leo I, bishop of Rome (440-461)"
 work: "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons"
 edition: "trans. Charles Lett Feltoe, Nicene and Post-Nicene Fathers series 2 vol. 12 (1895), vendored as cic/texts/npnf212_leo-great-gregory-great.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf212-leo); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"

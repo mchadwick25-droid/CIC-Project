@@ -17,6 +17,7 @@ relations: []
 author: Lewis Ayres
 work: Nicaea and Its Legacy; 'On Not Three People' (in Coakley, ed., row 112)
 edition: In-copyright modern scholarship, not vendored
+kind: unvendored
 rights_status: in-copyright modern scholarship or translation; deliberately excluded from the vendoring
   manifest on rights grounds, not merely unacquired (Source Registry Part F note) -- not independently
   verified this session.

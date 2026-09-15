@@ -21,6 +21,7 @@ work: On Baptism, Against the Donatists (De baptismo contra Donatistas), 7 books
 edition: Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml;
   the critical Latin text (De baptismo libri septem) also stands in the Petschenig CSEL volume, Registry
   row 39
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ as part of the shared patristic library since an
   earlier session, rights basis established there (the file's own provenance header states Public Domain)
   and not re-checked by this compilation pass.

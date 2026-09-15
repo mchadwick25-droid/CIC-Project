@@ -16,6 +16,7 @@ sources: []
 author: "Leo I, bishop of Rome (440-461)"
 work: "Sermons - esp. Sermon 3 (on the anniversary of his elevation: Peter speaking in his successors) and Sermon 82 (on the feast of Peter and Paul: Rome re-founded on the apostles); the surviving preached corpus of the Petrine claim; also Sermons IX-X (this edition's numbering; \"Upon/On the Collections, IV-V\") on almsgiving discipline tied to the annual collection on the octave of SS. Peter and Paul (early July) - added at review to license the corpus's own genuine giving-discipline content; also Sermon XLII (\"On Lent, IV\"), section VI, on the fair treatment of slaves - added at a second follow-up confirmation review (2026-08-22)"
 edition: "trans. Charles Lett Feltoe, Nicene and Post-Nicene Fathers series 2 vol. 12 (1895), vendored as cic/texts/npnf212_leo-great-gregory-great.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf212-leo); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
