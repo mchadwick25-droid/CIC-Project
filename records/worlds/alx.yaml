@@ -1,0 +1,23 @@
+kind: formation
+world_id: alexandria-catechetical
+display_name: "Alexandrian Christianity"
+time_window: {start: 150, end: 400}
+place: "Alexandria and Egypt"
+doorway_place: "Alexandria and Egypt"
+doorway_description: >-
+  Alexandria was the Roman world's great city of learning. Its church made
+  teaching the heart of the faith. New believers were formed by years of
+  staged instruction before baptism. Teachers like Clement and Origen read
+  Scripture in layers: the plain story, and the deeper meaning inside it.
+  They were confident that Greek learning could serve Christ rather than
+  threaten him. In this world, faith grows the way understanding grows - by
+  study, questions, and a teacher's patient guidance.
+card_name: "Alexandrian Christianity"
+representative: {name: Theon, role_label: "Catechetical Teacher"}
+state: admitted
+census_id: "alexandria-catechetical"
+package:
+  manifest_hash: "sha256:708d240fa5820099e054be11db8b4769e5b38d8a022493a2d213e78f743e916f"
+  location: "packages/alx/2026-09-09T23-12-35Z"
+thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
+living_tradition_flag: true

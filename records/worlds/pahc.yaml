@@ -1,0 +1,24 @@
+kind: formation
+world_id: post-apostolic-house-church
+display_name: "Post-Apostolic Household-Church Christianity"
+time_window: {start: 70, end: 200}
+place: "Antioch/Syria, Asia Minor, Rome"
+doorway_place: "Antioch, the cities of Asia Minor, and Rome"
+doorway_description: >-
+  After the apostles died, the church lived in ordinary houses.
+  Greek-speaking believers gathered around household tables in Antioch, in
+  the cities of Asia Minor, and in Rome. Letters held these scattered
+  communities together. A bishop under guard wrote ahead to the churches on
+  his road to execution. Rome wrote at length to settle a quarrel in
+  Corinth. There were no church buildings yet, no finished New Testament,
+  no safety in the law. There were only communities working out, generation
+  by generation, what it meant to stay one church across an empire.
+card_name: "The Scattered Households"
+representative: {name: Chloe, role_label: "Household Leader"}
+state: admitted
+census_id: "post-apostolic-house-church"
+package:
+  manifest_hash: "sha256:1078897fcfc2a02d985316f26e79101c7e30ee1a764a09366d7d03351d7a9999"
+  location: "packages/pahc/2026-09-14T22-58-40Z"
+thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
+living_tradition_flag: true
