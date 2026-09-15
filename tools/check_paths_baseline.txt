@@ -163,6 +163,8 @@ World-Builds/Latin-Apologists/Review-Artifacts/Step0_Round4_Review.md: records/l
 World-Builds/Latin-Apologists/Review-Artifacts/Step0_Round5_Review.md: records/lpc
 World-Builds/Latin-Apologists/Step0_Movement_Scope_Confirmation.md: cic/corpus-map/tertullian-s-voice.yaml
 World-Builds/Latin-Apologists/Step0_Movement_Scope_Confirmation.md: records/lpc
+World-Builds/Latin-Pastoral-Congregational-Christianity/Datus_Portrait_Prompt.md: Ministry/Communication/Brand-Assets/Representative-Portraits/Latin
+World-Builds/Latin-Pastoral-Congregational-Christianity/Datus_Portrait_Prompt.md: records/worlds.yaml
 World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_01_World_Identification_Boundaries_Orientation.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Doc01_Round1_Review.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Doc01_Round1_Review.md: World-Builds/Hieronymian-Ascetic-Literary/hal_Doc_01_...md
@@ -177,6 +179,8 @@ World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Doc02_R
 World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Doc02_Round22_Review.md: Archive/MSN
 World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Doc02_Round24_Review.md: cic/corpus-map/tertullian-s-voice.yaml
 World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Doc02_Round25_Review.md: cic/corpus-map/tertullian-s-voice.yaml
+World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Doc08_Round6_Review.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md
+World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Doc08_Round6_Review.md: Ministry/Technology/CiC_World_Build_Completion_Standard_V1.3.md
 World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Step0_Round2_Review.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Step0_Round2_Review.md: records/ijc/quote/ijc.quote.i-scorned-to-be-a-little-one.md
 World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Step0_Round2_Review.md: records/ijc/quote/ijc.quote.take-up-and-read.md
@@ -190,8 +194,10 @@ World-Builds/Latin-Pastoral-Congregational-Christianity/Step0_Movement_Scope_Con
 World-Builds/Latin-Pastoral-Congregational-Christianity/Step0_Movement_Scope_Confirmation.md: records/ijc/quote/ijc.quote.i-scorned-to-be-a-little-one.md
 World-Builds/Latin-Pastoral-Congregational-Christianity/Step0_Movement_Scope_Confirmation.md: records/ijc/quote/ijc.quote.take-up-and-read.md
 World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md: Archive/Microsoft
+World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md: Ministry/Communication/Brand-Assets/Representative-Portraits/Datus_Portrait.png
 World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md: Ministry/Formation
 World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md: cic/corpus-map/tertullian-s-voice.yaml
+World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md: records/worlds.yaml
 World-Builds/Second-Century-Greek-Apologists/Review-Artifacts/Step0_Round1_Review.md: cic/corpus-map/tertullian-s-voice.yaml
 World-Builds/Second-Century-Greek-Apologists/Review-Artifacts/Step0_Round1_Review.md: records/lpc
 World-Builds/Second-Century-Greek-Apologists/Review-Artifacts/Step0_Round2_Review.md: cic/corpus-map/tertullian-s-voice.yaml
