@@ -4,7 +4,7 @@
 **Date:** 2026-07-16
 **Thread:** Hosted Tour Experience (Chloe demonstration tour)
 **Status:** Design note for the demonstration deliverable. Nothing here modifies `cic-poc`, the map demo, or any governing document.
-**Governed by:** Vision V1.1 (Conviction 4, Historical Responsibility); the Tours decision of 2026-07-07 (`CiC_FrontEnd_Decision_Log.md` — "only what the evidence actually supports is shown, played, or offered; where evidence runs out, the system says so plainly"); the No-Tier-5 rule (Construction Framework V7.3); Chloe's world's own construction record (`World-Builds/01-Post-Apostolic-House-Church/`, esp. Doc_09 Story Inventory) and deployment data (`cic-poc/backend/data/pahc_world/`, read-only).
+**Governed by:** Vision V1.1 (Conviction 4, Historical Responsibility); the Tours decision of 2026-07-07 (`CiC_FrontEnd_Decision_Log.md` — "only what the evidence actually supports is shown, played, or offered; where evidence runs out, the system says so plainly"); the No-Tier-5 rule (Construction Framework V7.3); Chloe's world's own construction record (`worlds/pahc/`, esp. Doc_09 Story Inventory) and deployment data (`cic-poc/backend/data/pahc_world/`, read-only).
 **Conventions adopted from the map thread** (per `CiC_World_Orientation_Map_Decision_Log.md`, twenty-fourth pass): parchment/ink/gold tokens with Cinzel + Georgia, self-contained single-file HTML, caption strip docked BELOW the screen, tour engine (skippable, `?tour=1`, `?pose=N`, reduced-motion), PD-art-with-credits discipline, hover-for-short/click-for-full sourcing grammar, 10th-grade participant-facing copy.
 
 ---

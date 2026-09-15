@@ -41,7 +41,7 @@ the voice's own speech — `term.plain_meaning`/`quick_meaning`,
 `honest_limit.statement` — plus the `demonstration` record's
 `exchange[].text` where `speaker: representative`, which `gate_voice_perspective`
 itself scopes to alongside that dict. Pulled from the real, built
-`records/<world>/` YAML frontmatter (not `World-Builds/`, which holds
+`records/<world>/` YAML frontmatter (not `worlds/`, which holds
 construction documents, not the compiled records) — 4,524 sentences across the
 9 worlds (`engine.prose.quote_aware_sentences`, the same splitter
 `grounding_net.py` uses).

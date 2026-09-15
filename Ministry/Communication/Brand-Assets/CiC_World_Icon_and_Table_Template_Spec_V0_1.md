@@ -312,7 +312,7 @@ as its own decision under the two hard rules (genuine source-credited art, never
 "a face from this world").
 
 **Note — "Theon" (UPDATED 2026-07-18):** Theon is now a **live world** — the
-Representative of the **Alexandria Catechetical School** (`World-Builds/
+Representative of the **Alexandria Catechetical School** (`worlds/
 Alexandria-Catechetical-School`, `alex_Representative_Permanent_Prompt_Theon.txt`).
 This supersedes the earlier note that Theon was only Mark's example. The live set is
 now **five**: Chloe (House-Churches), Papnoute (Desert), **Theon (Alexandria)**, Mar

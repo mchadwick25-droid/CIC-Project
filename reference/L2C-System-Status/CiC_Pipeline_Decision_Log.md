@@ -226,7 +226,7 @@ Plus two additional findings from full reading: (A) no formal Change Order exist
 - Section 5 (Cross-Build Constraint Status): the known high-blur pairings table (alex+desert, alex+cappadocian, desert+cappadocian, naming Origen, theosis, apatheia, Nicene confession, ascetic vocabulary, Basil's Rule) cleared to "None tracked — pending Step 0's seed list," along with the standalone "Alex-Desert cross-build provisional constraint: Active" line.
 - All surrounding narrative notes updated to match — no residual references to Alexandria, desert, or cappadocian remain in this document.
 
-**Not destroyed:** Alexandria's actual build content, gate history, and cross-build analysis are not deleted from the project — they live on `main` and other branches where World-Builds content still exists; this branch never had that content in the first place (removed when `CiC-L1L3-Foundation` was created). This is a display/tracking-scope decision for a fresh-start branch, not a loss of the underlying work.
+**Not destroyed:** Alexandria's actual build content, gate history, and cross-build analysis are not deleted from the project — they live on `main` and other branches where worlds content still exists; this branch never had that content in the first place (removed when `CiC-L1L3-Foundation` was created). This is a display/tracking-scope decision for a fresh-start branch, not a loss of the underlying work.
 
 **Status:** applied on the project lead's direct instruction. No Change Order filed.
 

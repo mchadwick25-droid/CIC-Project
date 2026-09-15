@@ -1,6 +1,6 @@
 # Step 0 — Movement-Scope Confirmation: The Tridentine Church
 
-**Status:** DRAFT, Revision 1. Prepared at the project lead's direct request (2026-09-15), one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`world-build-docs/_cross-world/dossiers/the-tridentine-church_Source_Readiness_Dossier.md`). **This document has not been independently reviewed.** **Not self-disposed. Not Approved to proceed.** Advisory work product for Mark's own consideration; no build thread has been opened under `cic-build-cycle`.
+**Status:** DRAFT, Revision 1. Prepared at the project lead's direct request (2026-09-15), one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`worlds/_cross-world/dossiers/the-tridentine-church_Source_Readiness_Dossier.md`). **This document has not been independently reviewed.** **Not self-disposed. Not Approved to proceed.** Advisory work product for Mark's own consideration; no build thread has been opened under `cic-build-cycle`.
 **World file-code:** none assigned — not yet selected.
 **Census reference:** Atlas ID VI.22, `cic-website/data/world-census.json`, status "Pre-Survey Candidate," continues as `catholic-church-ancien-regime`.
 **Date drafted:** 2026-09-15.

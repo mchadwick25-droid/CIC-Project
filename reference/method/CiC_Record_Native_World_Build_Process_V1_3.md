@@ -106,13 +106,13 @@ option grounded in the world's own methodology facts, with named
 trade-offs) and for NAME (scored on ecological resonance, authenticity,
 collision-with-a-real-figure risk, gender clarity, memorability), plus ONE
 recommendation for each. Saved as
-`World-Builds/<World>/<code>_Representative_Identity_Options.md`. The
+`worlds/<World>/<code>_Representative_Identity_Options.md`. The
 thread STOPS and presents the table to Mark. Precedent to imitate: both
 prior executions of this pattern —
-`World-Builds/Alexandria-Catechetical-School/Representative/alex_Representative_Identity_Options.md`
+`worlds/alx/Representative/alex_Representative_Identity_Options.md`
 (Mark rejected both recommendations and chose "Theon," with reasoning
 recorded) and
-`World-Builds/Hieronymian-Ascetic-Literary/hal_Representative_Identity_Preliminary_Decision.md`
+`worlds/hal/hal_Representative_Identity_Preliminary_Decision.md`
 (Mark adopted a fifth option not among the four presented — the *vidua*
 Albina, with the naming-collision risk disclosed and accepted on the
 record). The lesson from both: Mark's answer is frequently NOT the
@@ -193,14 +193,14 @@ order:
    corpus-map assignments, each with a canonical address
    (`cic:<file>:<locus>`) ready to paste into a source row's own locus.
 3. **For anything genuinely not yet vendored**, run
-   `world-build-docs/_cross-world/discovery_helper.py` on a machine
+   `worlds/_cross-world/discovery_helper.py` on a machine
    with real network (never inside a build thread's own sandbox — every
    patristic text host is blocked there) to find real candidates before
    falling back to open-ended web search. It prints a paste-ready,
    UNVERIFIED stub — never add it to the Manifest without independently
    confirming the URL and rights basis yourself.
 4. **A confirmed candidate goes into
-   `world-build-docs/_cross-world/download-queue-seed.yaml`**, not only
+   `worlds/_cross-world/download-queue-seed.yaml`**, not only
    this world's own Manifest — the same edition may close a gap for a
    later world too, and a source found once should never need finding
    twice.
@@ -541,7 +541,7 @@ discretion):**
 
 **The brief discipline that makes the routing safe:** a Fable subagent's
 brief is POINTERS, NOT SUMMARIES — the file paths and the specific
-question; the subagent reads the actual World-Builds documents and records
+question; the subagent reads the actual worlds documents and records
 itself. An under-briefed subagent wastes the tier; a summarized brief
 launders the main thread's blind spots into the component that exists to
 avoid them.

@@ -2,7 +2,7 @@
 
 **Layer:** Figure/text/event layer (L0 Doc_00 §3).
 **Status:** DRAFT — no review round run. Not approved, not frozen. This file makes a *recommendation* on disposition; it does not enact one.
-**Governed by:** `reference/L0-Reference/L0_Doc_00_Boundaries_and_Standards.md` (temporal scope §1, geographic scope §2, layer definition §3, sourcing standard §4, two-axis tagging §5, Article 31 caveat §6); Constitution Articles 4 (A2 continuity test), 17 (fixed confidence vocabulary), 20, 31; the template set by `World-Builds/Syriac-Christianity-Edessa-Nisibis/Doc_01_World_Identification_Boundaries_Orientation.md` §5 (Bardaisan) and `.../Doc_02_Source_Ecology.md` §8 (Boundary Cases).
+**Governed by:** `reference/L0-Reference/L0_Doc_00_Boundaries_and_Standards.md` (temporal scope §1, geographic scope §2, layer definition §3, sourcing standard §4, two-axis tagging §5, Article 31 caveat §6); Constitution Articles 4 (A2 continuity test), 17 (fixed confidence vocabulary), 20, 31; the template set by `worlds/syr/Doc_01_World_Identification_Boundaries_Orientation.md` §5 (Bardaisan) and `.../Doc_02_Source_Ecology.md` §8 (Boundary Cases).
 **Research date:** 2026-07-29. All specific claims below were checked against a source located and read during this pass; none is asserted from unverified background impression. Where a check failed, §11 says so rather than filling the gap.
 **Article 31 caveat:** carried from Doc_00 §6. This entry is not Article 31-validated and does not claim to be.
 
@@ -176,7 +176,7 @@ This is the question that actually decides the disposition, and it needs to be a
 
 Six worlds are built: `01-Post-Apostolic-House-Church`, `Alexandria-Catechetical-School`, `Desert-Monasticism`, `Hieronymian-Ascetic-Literary`, `Imperial-Juridical-Christianity`, `Syriac-Christianity-Edessa-Nisibis`.
 
-**Textual scan.** "Samosata" across all of `World-Builds/` returns three hits, all **Lucian** of Samosata (the satirist, a registered source in World #1's Doc_02 §6 and Doc_09 for *The Passing of Peregrinus*) — a different man, and a namesake trap worth flagging in its own right for anyone grepping. A wider scan across the whole repository returned 21 hits, every one of them Lucian, in the same World #1 files and their duplicates in git worktrees and `cic-poc/backend/data/pahc_world/`. **Paul of Samosata appears nowhere in any built world's documents or record store.** This independently reproduces l0fig001's grep finding by a different route.
+**Textual scan.** "Samosata" across all of `worlds/` returns three hits, all **Lucian** of Samosata (the satirist, a registered source in World #1's Doc_02 §6 and Doc_09 for *The Passing of Peregrinus*) — a different man, and a namesake trap worth flagging in its own right for anyone grepping. A wider scan across the whole repository returned 21 hits, every one of them Lucian, in the same World #1 files and their duplicates in git worktrees and `cic-poc/backend/data/pahc_world/`. **Paul of Samosata appears nowhere in any built world's documents or record store.** This independently reproduces l0fig001's grep finding by a different route.
 
 **But absence from the files is not absence from the milieu, and one world's own Native primary voice is documentedly in this story.** This is where this entry parts company with l0fig001.
 
@@ -289,4 +289,4 @@ Sources located and read during this pass: Eusebius *HE* 7.27, 7.28, 7.29, 7.30 
 
 Internal documents read: `reference/L0-Reference/L0_Doc_00_Boundaries_and_Standards.md`; `reference/L0-Reference/figures/l0fig001_paul_of_samosata.md` and `l0fig001_Review_Round1.md`; Syriac `Doc_01` (full) and `Doc_02` §8 and heading structure; Alexandria `Doc_01` §§1–3 and `Doc_02` §§3.6, 4 and heading structure; World #1 `Doc_01` §§2–3 (Antioch/temporal scope, to rule it out); repository-wide scan for "Samosata."
 
-**Files created: this one. Files modified: none.** Nothing under `World-Builds/`, `cic-poc/`, or `wrs/` was edited, and `figures/l0fig001_paul_of_samosata.md` was read but deliberately not updated — the `homoousios` provenance upgrade at §6.4 is *recorded* here for reconciliation, not applied there.
+**Files created: this one. Files modified: none.** Nothing under `worlds/`, `cic-poc/`, or `wrs/` was edited, and `figures/l0fig001_paul_of_samosata.md` was read but deliberately not updated — the `homoousios` provenance upgrade at §6.4 is *recorded* here for reconciliation, not applied there.

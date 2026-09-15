@@ -416,8 +416,7 @@ something.
 An independent reviewer with no drafting involvement in the manifest — the same
 standing discipline as every other construction-document review in this project
 (the "independent isolated agent, no drafting involvement, first-principles skeptical
-read" pattern, most recently documented in `World-Builds/Imperial-Juridical-
-Christianity/Review-Artifacts/Doc09_Round1_Review.md`). The reviewer must have direct
+read" pattern, most recently documented in `worlds/ijc/Review-Artifacts/Doc09_Round1_Review.md`). The reviewer must have direct
 read access to:
 
 - the anchor world's own approved Doc_09 chunk(s), including Source Identification

@@ -427,7 +427,7 @@ next.
 (branch `world/alexandria`, a sibling session) handed off Alexandria's
 build to this thread once its own steps 1-5(a-d) closed (source ecology,
 ecology reconstruction, canon answered 28/28, voice-craft foundation).
-Full detail lives on that branch, not here - see `world-build-docs/alx/
+Full detail lives on that branch, not here - see `worlds/alx/build/
 HANDOFF-TO-BUILD-THREAD.md` (the authoritative handoff doc, still
 accurate for steps 1-5(a-d) and Mark's four recorded rulings) and this
 thread's own follow-on commits on `world/alexandria`: `6d9ce55`

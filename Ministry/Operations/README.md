@@ -14,4 +14,4 @@ space, not owned by any one thread.
 
 Feature-thread launch prompts and world-build launch prompts do **not** live here —
 they sit with their actual deliverables in `Ministry/Features/<name>/` or
-`World-Builds/<world>/`.
+`worlds/<world>/`.
