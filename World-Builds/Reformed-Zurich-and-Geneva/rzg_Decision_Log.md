@@ -46,6 +46,18 @@ Prepared by the project's source-research thread, 2026-09-15, alongside five sib
 - **Escalation check:** none of the four categories apply at any round. The one new acquisition (the Consensus Tigurinus) closes an already-disclosed Doc_01 gap; the declined acquisition (the 1977 archive.org item, correctly not treated as PD despite its own applied "Public Domain Mark") is ordinary sourcing-discipline judgment; nothing here decides Representative identity, changes governance, or reopens Doc_01's own confirmed findings.
 - **Disposition: Approved to proceed**, for all three documents together. Self-applied by this build thread per `cic-build-cycle` — cleared three independent review rounds (two substantial-but-bounded, one CLEARED), no escalation category live. **Not Frozen.** Doc_03 (Lexicon Candidate List) begins next.
 
+### 2026-09-15 — Source-access audit (parent source-research thread check-in)
+
+A scheduled check-in from the parent source-research thread (trigger `trig_01NWeDA7hbtuz5ude78gGyXL`, fired 2026-09-15T22:18:38Z) requested a plain factual report on source access, ahead of continuing Doc_03 review/Doc_04. Not a review round or a new document; recorded here per this project's own "checkable record over conversational claim" discipline. Full answer given in-session; summarized findings:
+
+- All 7 originally-vendored files (Institutes vols 1–3, Geneva Catechism, both Zwingli volumes, the Schaff Second Helvetic Confession/Heidelberg Catechism extract) have been directly opened and read this build, evidenced by `Source_Registry.md` rows 1–4, 6–10's own Verification Notes (whole-file or specific-locus checks) — none cited from the dossier's or corpus-map's own descriptive notes only. Two files (Zwingli's *Selected Works* and *Latin Works* Vol. I) carry an already-disclosed limitation: read at whole-file level but not itemized against every individual work inside the compilation (Registry rows 7–8 Comparandum Notes, "collective bucket... do not cite as though every named component were independently checked"). The Schaff file's own engagement was targeted — two specific sections plus a keyword re-grep for "Dort" (Doc_02 Round 2) — not a declared cover-to-cover read.
+- The 8th corpus-map work-row for this world (the Consensus Tigurinus) was newly acquired and vendored this session (Registry row 5), closing the single acquisition gap Doc_01 named as most significant.
+- Citations in Doc_01/Doc_02 were checked against actual vendored text, not carried over from descriptions — with two real, caught counterexamples on record proving the check is live rather than rubber-stamped: the fabricated Gordon *Swiss Reformation* citation (Doc_02 Round 1, removed) and the Dort/Schaff keyword undercount (Doc_02 Round 2, corrected to the real 4-occurrence/3-genuine finding). Rows 11–12 (Gordon's *Calvin*, Manetsch) are explicitly disclosed as named-from-census-field-only, not checked against the actual books, and not cited for any specific claim.
+- Doc_03's 18 candidate terms were drawn from Registry Native rows already verified in Doc_02, but each term's specific textual appearance has **not** yet been independently re-verified line-by-line by this build thread — that is exactly what the just-launched Doc03 Round 1 independent review (`Review-Artifacts/Doc03_Round1_Review.md`, in progress) is checking; findings will be applied before Doc_03 self-disposes.
+- Calvin's Letters and the CTS commentary series remain unvendored and have not been needed for any claim in Doc_01/Doc_02/Doc_03/Registry/Manifest so far.
+
+No escalation category applies; not a disposition event.
+
 ---
 
 ## Standing exceptions, confirmations, and open items (summary, full detail in `Open_Gaps_Tracking.md`)
