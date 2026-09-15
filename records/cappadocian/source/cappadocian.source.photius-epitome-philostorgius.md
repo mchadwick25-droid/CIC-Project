@@ -21,6 +21,7 @@ author: Photius of Constantinople (epitomizing Philostorgius' Ecclesiastical His
 work: Photius' Epitome of Philostorgius' Ecclesiastical History -- the one surviving Eunomian narrative
   frame
 edition: Walford's 1855 translation, vendored as cic/texts/philostorgius_ecclesiastical-history_walford1855.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and independently verified (identity, completeness,
   provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: attributed to Philostorgius, filtered through Photius' own hostile epitome -- carry

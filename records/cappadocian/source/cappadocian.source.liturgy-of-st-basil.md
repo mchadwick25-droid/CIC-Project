@@ -17,6 +17,7 @@ relations: []
 author: Attributed to Basil of Caesarea (split attribution; see attribution_status)
 work: The 'Liturgy of St Basil' (transmitted anaphora)
 edition: No vendored or independently locatable edition this session
+kind: unvendored
 rights_status: not applicable in the ordinary sense -- no single specific text has been identified for
   this row; it names a person, general pattern, or unlocated corpus rather than a held text. Not independently
   verified this session.

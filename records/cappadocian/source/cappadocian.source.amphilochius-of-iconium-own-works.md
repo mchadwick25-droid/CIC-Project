@@ -21,6 +21,7 @@ edition: No open English edition of his works as a corpus has been located. One 
   the editor's prose epitome, not verse -- is vendored and is recorded
   separately at cappadocian.source.amphilochius-iambics-to-seleucus; this row covers the rest, which
   remains unlocated
+kind: unvendored
 rights_status: not applicable in the ordinary sense -- no single specific text has been identified for
   this row; it names a person, general pattern, or unlocated corpus rather than a held text. Not independently
   verified this session.

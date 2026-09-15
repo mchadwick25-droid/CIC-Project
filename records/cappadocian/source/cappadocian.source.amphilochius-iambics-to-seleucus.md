@@ -46,6 +46,7 @@ edition: >-
   section itself -- "I have substituted my own Epitome, in the room of Johnson's,
   translating the original as it is found in Beveridge's Synodicon, Tom. II., p. 179" --
   and notes the passage is also in Aristenus' Epitome, with no Balsamon scholion on it.
+kind: vendored
 rights_status: >-
   public-domain; vendored in cic/texts/, present in the shared library since 2026-08-15.
   The extract's own presence, heading, locus and full wording were read directly out of

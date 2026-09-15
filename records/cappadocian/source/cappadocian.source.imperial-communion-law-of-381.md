@@ -46,6 +46,7 @@ edition: >-
   descent from an edition using Mommsen's numbering. What this supports is therefore the clause's
   substance and its bishop list, which three witnesses agree on; it is not a basis for any claim turning
   on an exact variant reading
+kind: unvendored
 rights_status: >-
   public-domain (the Latin text; the Pharr English translation is separately in-copyright and excluded,
   row 80). Independently verified 2026-09-09 by direct reading of both Latin witnesses, and both are now

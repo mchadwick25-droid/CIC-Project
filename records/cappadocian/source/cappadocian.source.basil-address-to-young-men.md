@@ -20,6 +20,7 @@ relations: []
 author: Basil of Caesarea
 work: Basil, Address to Young Men on the Right Use of Greek Literature
 edition: Padelford's 1902 translation, vendored as cic/texts/basil_address-to-young-men_padelford1902.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and independently verified (identity, completeness,
   provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: attributed
