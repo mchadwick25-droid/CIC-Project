@@ -87,14 +87,19 @@ works:
     '
   source_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
 - work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical
-    marriage; the Acts of the First and Second Zurich Disputations; and other shorter writings)
+    marriage; the Acts of the First and Second Zurich Disputations; the 1527 Refutation of
+    the Tricks of the Baptists; and other shorter writings)
   author: zwingli
   locus: whole file except the Sixty-Seven Articles (see row above)
   role: tradition
   confidence: assigned
   note: 'The volume''s remaining shorter selections, kept as one collective row rather than
     individually itemized - letters, petitions, and disputation records documenting Zwingli''s
-    own early Zurich reform, 1522-1523.
+    own Zurich reform, 1522-1527 (updated 2026-09-15, Doc_04 Round 1 review: this row''s own
+    contents extend past the originally-stated 1522-1523 range - the volume also contains
+    Zwingli''s 1527 anti-Anabaptist polemic, "Refutation of the Tricks of the Baptists,"
+    including a sustained "On Election" exposition independently verified against the file
+    directly).
 
     '
   source_file: zwingli_selected-works_jackson1901.txt

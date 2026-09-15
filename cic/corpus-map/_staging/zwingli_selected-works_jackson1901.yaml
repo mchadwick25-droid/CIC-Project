@@ -20,7 +20,8 @@ assignments:
 
   - work: "Selected Works (letter to Erasmus; the petition to the Bishop
       of Constance on clerical marriage; the Acts of the First and Second
-      Zurich Disputations; and other shorter writings)"
+      Zurich Disputations; the 1527 Refutation of the Tricks of the
+      Baptists; and other shorter writings)"
     author: zwingli
     locus: "whole file except the Sixty-Seven Articles (see row above)"
     atlas_ids:
@@ -30,5 +31,10 @@ assignments:
     note: >
       The volume's remaining shorter selections, kept as one collective
       row rather than individually itemized - letters, petitions, and
-      disputation records documenting Zwingli's own early Zurich reform,
-      1522-1523.
+      disputation records documenting Zwingli's own Zurich reform,
+      1522-1527 (updated 2026-09-15, Doc_04 Round 1 review: this row's
+      own contents extend past the originally-stated 1522-1523 range -
+      the volume also contains Zwingli's 1527 anti-Anabaptist polemic,
+      "Refutation of the Tricks of the Baptists," including a sustained
+      "On Election" exposition independently verified against the file
+      directly).
