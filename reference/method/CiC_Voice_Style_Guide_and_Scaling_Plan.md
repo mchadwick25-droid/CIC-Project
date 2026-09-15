@@ -501,9 +501,23 @@ that is what exposed the accuracy problems in the same field (see 1.7).
 The dash was doing work — it was letting two unrelated claims sit next to
 each other without either being tested.
 
-**Still open across the Atlas:** `alexandria-catechetical`,
-`syriac-edessa-nisibis` and 264 others. Example of what is still shipped:
+**Still open across the Atlas (re-measured 2026-09-15): 251 entries, 1,235
+fragments.** Eras 1 and 2 are now clear of it in every unbuilt entry — the
+Era 2 pass rewrote 69 of these as sentences across 16 entries, which is what
+the count above already reflects. What remains is Eras 3 to 10, plus four
+built worlds whose prose is out of scope for an editorial pass
+(`cappadocian-nicene-pastoral-monastic-tradition`, `imperial-juridical-christianity`,
+`hieronymian-ascetic-literary`, and one in Era 1). Example of what is still
+shipped:
 `"Bardaisan of Edessa — philosopher, astrologer and hymn-writer at the Edessan court, whose cosmological teaching the later Syriac tradition rejected while keeping his poetic form"`.
+
+Two things the Era 2 pass added to what §1.3 already knew. First, the rewrite
+is not only a grammar repair: a voice broken into real sentences has room for
+the evidential hedge the field exists to carry, and most of them acquired one
+— who reports this person, and what reaches us only through an opponent.
+Second, the same pass is where the `voices` field earns its keep as the place
+that names an absence: *"Most of these communities' hosts and householders are
+never named in the record."*
 
 The same shape appears in `tile`. **Fixed in `dc1646a7`:**
 
@@ -832,6 +846,57 @@ instructing widows and orphans — not general 'life.'"* This tracks
 *"deliberately narrower than 'women are thin here': presence, office, and
 memory are attested substance; the limit is authorship alone."* A question
 must not be broader than its citation.
+
+---
+
+## 1.13 A length range in a drafting brief, where this document holds none
+
+This document deliberately states no word counts. §1.2 holds the exemplar and
+one test; the Register Bar holds the no-rules-ledger clause that says why. The
+Era 2 pass is what happens when a drafting brief derived from it adds numbers
+back.
+
+The brief handed to the drafters said the teaser was *"3 sentences, 55–70
+words"*. A mechanical gate on the same pass allowed a wider 50–75 and never
+once fired. The teasers came out:
+
+`62, 62, 66, 68, 68, 68, 68, 69, 69, 69, 69, 69, 70, 70, 70, 70, 70`
+
+Twelve of seventeen at 68–70, five at exactly 70. **The prose obeyed the
+brief, not the material.** Measured against the other fields in the same
+pass, where the brief gave a job rather than a number, nothing crowded its
+bound at all: voices came out 35–66 words inside a 32–68 gate (median 45),
+stories 170–284 inside 165–285 (median 191), doctrine details 14–45 inside
+12–45 (median 25).
+
+What is *not* wrong with it: the teasers read well, and none is padded or
+chopped, because the number sat above what the material needed. The defect is
+uniformity. A thin entry's teaser should be shorter than a rich one's, and
+only one of the seventeen varies downward. This is the same failure the `tile`
+template in §1.3 was fixed for — *"a uniform templated shape shared across
+every chair bio"* — arriving by a different route, and CLAUDE.md names the
+general case: *"a uniformly polished 'generic AI voice' is itself a
+fabrication risk."*
+
+**The rule this yields, and the reason it belongs in this file rather than in
+a brief:**
+
+> A bound measured off finished work behaves like pressure. A bound imported
+> from elsewhere behaves like a cap.
+
+Mark's own ruling of 2026-08-29, made about interview turns, is the same
+thing: *"not a cap, pressure"*. A brief should give the field its job — the
+teaser's three, in order: the practice or person in concrete terms, the
+tension held open or what it argued against, then the cost or the limit of
+what can be known — and send the drafter to the exemplar for the shape.
+
+**Worked instance of the rule applied correctly, same pass.** The story
+discipline "no sentence over 40 words" was nearly carried into the legacy
+sweep. Measuring the 21 finished Era 1 legacies first showed five of them
+exceed 40, up to 52 — so a long sentence there is inside the finished band,
+not a defect. It was demoted to a warning and each case read on its own, which
+is why the legacies kept their long sentences where the long sentence was
+right. The check that would have "fixed" them was the one that was wrong.
 
 ---
 
