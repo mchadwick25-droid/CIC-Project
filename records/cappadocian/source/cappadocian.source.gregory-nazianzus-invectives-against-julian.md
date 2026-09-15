@@ -18,6 +18,7 @@ author: Gregory of Nazianzus
 work: Gregory of Nazianzus, Orations 4 and 5 (First and Second Invectives Against Julian)
 edition: King's 1888 translation, transcribed by Roger Pearse, vendored as cic/texts/gregory-nazianzen_first-invective-against-julian_king1888.txt
   and cic/texts/gregory-nazianzen_second-invective-against-julian_king1888.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and independently verified (identity, completeness,
   provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: attributed

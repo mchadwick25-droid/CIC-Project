@@ -21,6 +21,7 @@ relations: []
 author: Tyconius
 work: Liber Regularum (The Book of Rules)
 edition: F.C. Burkitt's 1894 critical edition (Registry row 41), vendored as cic/texts/tyconius_liber-regularum_burkitt1894.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
   by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
   vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by

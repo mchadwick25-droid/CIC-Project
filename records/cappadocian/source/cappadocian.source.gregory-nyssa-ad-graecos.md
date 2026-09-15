@@ -18,6 +18,7 @@ author: Gregory of Nyssa
 work: Gregory of Nyssa, Ad Graecos ex communibus notionibus
 edition: Confirmed absent from the vendored npnf205 per row 41's own note; Doc_02 SS1.3's own correction
   states plainly it 'remains ungrounded and belongs in the manifest's gap list'
+kind: unvendored
 rights_status: not independently verified this session; row not yet acquired as an open text -- named
   for completeness per the Source Registry's own checkpoint rule (every source a Doc_02 claim rests on
   gets a row, acquired or not).

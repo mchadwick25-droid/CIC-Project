@@ -19,6 +19,7 @@ work: The martyrium/shrine panegyris pattern of rural Anatolia (feast-day festiv
   market, and crowd) -- text-attested, not excavated
 edition: Attested collectively via the homilies naming festival crowds (rows 16, 20, 53, and 115); no
   independent material-culture edition of its own
+kind: unvendored
 rights_status: not applicable in the ordinary sense -- no single specific text has been identified for
   this row; it names a person, general pattern, or unlocated corpus rather than a held text. Not independently
   verified this session.

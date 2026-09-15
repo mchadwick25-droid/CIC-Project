@@ -20,6 +20,7 @@ work: Lucilla's own role at the schism's founding, and a second, unnamed woman b
   passages
 edition: optatus_against-the-donatists.txt (row 1's file) and npnf101_augustine-confessions-letters.xml
   (row 6's file)
+kind: unvendored
 rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
   directly checked the vendored file's own provenance header for every file cited below (grep for 'public
   domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC

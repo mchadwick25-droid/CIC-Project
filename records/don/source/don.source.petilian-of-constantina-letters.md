@@ -22,6 +22,7 @@ work: Petilian's letters, surviving only as quoted -- clause by clause -- inside
   the Letters of Petilian (Registry row 4)
 edition: No independent edition exists. Held within cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
   inside its refutation.
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ as part of the shared patristic library since an
   earlier session, rights basis established there (the file's own provenance header states Public Domain)
   and not re-checked by this compilation pass.

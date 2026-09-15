@@ -19,6 +19,7 @@ work: Libanius' genuine relevance as an external witness to the paideia network,
   Basil correspondence (row 12)
 edition: No independently vendored Libanius text; his relevance rests on his general historical role,
   per Doc_02 SS1.6
+kind: unvendored
 rights_status: not applicable in the ordinary sense -- no single specific text has been identified for
   this row; it names a person, general pattern, or unlocated corpus rather than a held text. Not independently
   verified this session.

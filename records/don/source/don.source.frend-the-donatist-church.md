@@ -22,6 +22,7 @@ relations: []
 author: W.H.C. Frend
 work: 'The Donatist Church: A Movement of Protest in Roman North Africa (Oxford, 1952)'
 edition: Oxford, 1952 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)
+kind: unvendored
 rights_status: in-copyright modern scholarship; consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3). Cited and paraphrased by this build, never quoted as licensed vendored material. Bibliographic
   record only -- the volume itself was not opened by this compilation pass.

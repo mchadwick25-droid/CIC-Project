@@ -24,6 +24,7 @@ relations: []
 author: Augustine of Hippo
 work: Contra Cresconium, 4 books (c. 406; some scholarship as late as 409)
 edition: Michael Petschenig (ed.), CSEL 51/53 (Registry row 39), vendored as cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
   by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
   vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by

@@ -89,15 +89,18 @@ class Waiver:
 # being fixed right now gets a dated waiver, not a free pass by omission.
 # Waived here on that basis, each owned by its own world's build thread.
 ACCEPTED_OPEN: dict[str, Waiver] = {
-    "m9:source-kind/cappadocian": Waiver(count=111, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any cappadocian source record"),
-    "m9:source-kind/desert": Waiver(count=29, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any desert source record"),
-    "m9:source-kind/don": Waiver(count=76, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any don source record"),
-    "m9:source-kind/gallic": Waiver(count=2, deadline="2026-12-14", owner="the two gallic.*-absence records - kind: absence + real absence_probes still need an editorial pass (increment 7's own remaining item); gallic's build thread"),
     "m9:shelf-row/alx": Waiver(count=25, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:source-kind/desert": Waiver(count=29, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any desert source record"),
+    "m9:source-kind/gallic": Waiver(count=2, deadline="2026-12-14", owner="the two gallic.*-absence records - kind: absence + real absence_probes still need an editorial pass (increment 7's own remaining item); gallic's build thread"),
+    "m9:shelf-row/don": Waiver(count=60, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:emic-vendored-only/don": Waiver(count=20, deadline="2026-12-14", owner="don's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
     "m9:shelf-row/gallic": Waiver(count=21, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/gallic": Waiver(count=10, deadline="2026-12-14", owner="gallic's own build thread - each emic force/term/limit record needs re-grounding in a vendored primary source or its citation removed"),
+    "m9:shelf-row/cappadocian": Waiver(count=54, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:emic-vendored-only/cappadocian": Waiver(count=62, deadline="2026-12-14", owner="cappadocian's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
     "m9:source-kind/hal": Waiver(count=28, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any hal source record"),
-    "m9:source-kind/ijc": Waiver(count=30, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any ijc source record"),
+    "m9:shelf-row/ijc": Waiver(count=29, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:emic-vendored-only/ijc": Waiver(count=2, deadline="2026-12-14", owner="ijc's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
     "m9:source-kind/pahc": Waiver(count=23, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any pahc source record"),
     "m9:source-kind/syr": Waiver(count=40, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any syr source record"),
     "m9:verbatim-in-shelf/don": Waiver(count=1, deadline="2026-12-14", owner="don.quote.emeritus-magno-argumento - OCR-defeated against the Migne Collatio; needs a re-scan or second witness (D3 SS9)"),
