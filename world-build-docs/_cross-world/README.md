@@ -40,7 +40,24 @@ these existing for it first.
 |---|---|
 | `SOURCE-READINESS.md` | The gate itself — why it exists, what a dossier must cover, who writes one and when. Start here. |
 | `dossiers/_TEMPLATE_Source_Readiness_Dossier.md` | Copy this per world; don't restructure it. |
-| `dossiers/<world-slug>_Source_Readiness_Dossier.md` | One per world, written before that world's build starts. Hand-written, not generated. |
+| `dossiers/<world-slug>_Source_Readiness_Dossier.md` | One per candidate world, independent of whether a build is scheduled. Hand-written, not generated. |
+
+**13 written as of 2026-09-15**, covering every Era 1/Era 2 "Possible Future
+World" or "Selected - Not Yet Built" candidate this session had grounded
+research for: `roman-church-third-century`, `ambrosian-milan-standalone`,
+`aquileian-christianity`, `antiochene-exegetical-christianity-chrysostom-ce`,
+`jerusalem-liturgical-pilgrimage-christianity`, `anatolian-church-third-century`,
+`antiochene-church-third-century`, `apocryphal-and-pseudepigraphal-literature`,
+`gallic-nicene-episcopate`, `priscillianist-asceticism`, `pelagianism`,
+`danubian-latin-christianity` (flagged, needs re-verification — see its own
+dossier), `palestinian-church-pre-constantinian` (same flag).
+
+**Backlog — not yet written:** `greek-apologists-second-century` (I.35) and
+`latin-apologists` (I.43), both Tier 1 with a Step 0 already on file but no
+dossier yet; `palestinian-ascetic-monasticism-early` (I.34), not yet
+researched at all. `donatism` (I.4) and `gallic-monastic-ascetic-christianity`
+(I.27) are far enough into their own builds that a retroactive dossier is
+lower priority than closing the backlog above.
 
 ## Regenerating
 
