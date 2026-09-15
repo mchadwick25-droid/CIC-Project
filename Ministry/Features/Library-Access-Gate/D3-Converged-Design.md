@@ -119,7 +119,13 @@ The `Shelf` value is:
 ```
 Shelf
   world_key, census_id
-  rows: {row_id: {source_file, work, author, role, confidence, locus, locus_ids|None, voice_of|None}}
+  rows: {row_id: {source_file, work, author, role, confidence, locus, locus_ids|None, voice_of|None, documented_exchange|None}}
+  # documented_exchange added here on build (increment 3): CM-8 (Mark's
+  # R-1/R-2/R-3 ruling) landed in SS1.4's voicing-pair check and SS3's CM-8
+  # dependency spec during the RF-fix pass, but this literal field listing
+  # was missed then - a mechanical gap, not a design change; the field's
+  # existence and meaning were already decided everywhere else in this
+  # document.
   files: {source_file: [row_id, ...]}
   units: {source_file: [{locus, text_normalized}, ...]}     # in memory only, never serialized
   pairs: {frozenset({a, b}): {relation, direction|None, confidence}}
