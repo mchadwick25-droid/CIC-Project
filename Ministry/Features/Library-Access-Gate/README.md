@@ -48,9 +48,11 @@ picks → D3 **CONVERGE** (frozen design doc) → D4 **BUILD** (increments,
 each read by Mark before merge — same discipline as every other build
 this session, never self-merged).
 
-**Status (2026-09-15): D0–D3 complete and frozen; D4 in progress, 5 of
+**Status (2026-09-15): D0–D3 complete and frozen; D4 in progress, 7 of
 10 increments merged (registry split, schema+fixture, `engine/m9`
-core, enforcement, auto-repin+library filter).** The converged design
+core, enforcement, auto-repin+library filter, increment 7's kind-only
+half for all nine real worlds, increment 9's `tools/gen_shelf.py`
+retirement).** The converged design
 is `D3-Converged-Design.md` (moved out of `Sandbox/` on freeze, per
 Website V2's own pattern — `Sandbox/` stays the divergent/struggle
 workshop, the frozen deliverable lives at the workstream's top level).
