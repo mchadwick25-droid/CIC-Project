@@ -2075,3 +2075,74 @@
     Allen Mulvey and David Widger. RIGHTS: public domain by date, standard Gutenberg
     hosting of a historical confessional text. Gutenberg boilerplate stripped mechanically
     at its own START/END markers; body text otherwise unaltered.
+- filename: luther_hymns_bacon-allen.txt
+  supplied_by: Claude (Lutheran Wittenberg build thread, G1 Source Acquisition Manifest pass)
+  date_added: '2026-09-15'
+  notes: >-
+    Dr. Martin Luther's Deutsche Geistliche Lieder (The Hymns of Martin Luther, Set to
+    Their Original Melodies, With an English Version), ed. Leonard Woolsey Bacon,
+    assisted by Nathan H. Allen. Bilingual German/English hymnal, including Luther's own
+    1543 Preface to all good Hymn Books. RIGHTS FLAGGED: the original print edition's
+    exact year is not independently confirmed by this project (editor dates bound it to
+    the 19th/early 20th century); rights basis therefore rests on Project Gutenberg's own
+    public-domain determination for its library, not this project's own by-date rule -
+    recorded explicitly so a later session does not treat this as a confirmed by-date
+    entry. Fetched directly (curl, raw bytes) from Project Gutenberg eBook #417
+    (www.gutenberg.org/ebooks/417), released 1996-02-01, most recently updated
+    2015-04-01. Gutenberg boilerplate stripped mechanically at its own START/END markers
+    (plus one stray editorial version marker immediately following the START marker);
+    body text otherwise unaltered.
+- filename: luther_table-talk_bell1886.txt
+  supplied_by: Claude (Lutheran Wittenberg build thread, G1 Source Acquisition Manifest pass)
+  date_added: '2026-09-15'
+  notes: >-
+    Selections from the Table Talk of Martin Luther, trans. Captain Henry Bell (1646),
+    this edition ed. Henry Morley, Cassell's National Library (Cassell & Company,
+    Limited: London, Paris, New York & Melbourne, 1886). A SELECTION, not the complete
+    Table Talk - stated in the work's own title. Fetched directly (curl, raw bytes) from
+    Project Gutenberg eBook #9841 (www.gutenberg.org/ebooks/9841), released 2006-02-01,
+    most recently updated 2014-08-10, prepared by Les Bowler. RIGHTS: public domain by
+    date, an 1886 publication. Gutenberg boilerplate stripped mechanically at its own
+    START/END markers; body text otherwise unaltered.
+- filename: luther_works-v3-selected_various1930.txt
+  supplied_by: Claude (Lutheran Wittenberg build thread, G1 Source Acquisition Manifest pass)
+  date_added: '2026-09-15'
+  notes: >-
+    Works of Martin Luther, with Introductions and Notes - The Philadelphia Edition,
+    Volume Three (Muhlenberg Press / Board of Publication, United Lutheran Church in
+    America, 1930), various translators (Jacobs, Steinhaeuser, Steimle, Lambert,
+    Schindel) by individual work - see this file's own Contents. CORRECTS an assumption
+    carried from this world's own Step 0 dossier that the Philadelphia Edition's later
+    volumes carry the A. J. Holman Company imprint throughout: this volume's own title
+    page instead names Muhlenberg Press / the United Lutheran Church's own Board of
+    Publication - checked directly against the file, not assumed. RIGHTS: public domain
+    by date, a 1930 publication (the file's own copyright page states "Copyright, 1930,
+    by Board of Publication, United Lutheran Church in America"). OCR QUALITY FLAG: the
+    main treatise body reads cleanly on spot-check; the Contents page and some
+    back-matter are significantly OCR-degraded - any quotation must be independently
+    re-verified character-by-character against this file before use, more so than this
+    world's other vendored Philadelphia Edition volumes (I, II). Fetched directly (curl,
+    raw bytes) from Internet Archive item worksofmartinlut03luth
+    (archive.org/details/worksofmartinlut03luth); pre-title-page cover/spine OCR noise
+    stripped, body text otherwise unaltered including its own OCR errors.
+- filename: luther_bondage-of-the-will_cole1823.txt
+  supplied_by: Claude (Lutheran Wittenberg build thread, G1 Source Acquisition Manifest pass)
+  date_added: '2026-09-15'
+  notes: >-
+    Martin Luther on the Bondage of the Will: Written in Answer to the Diatribe of
+    Erasmus on Free-Will, trans. Rev. Henry Cole (London: T. Bensley for W. Simpkin and
+    R. Marshall, 1823). RESOLVES (for this one identifier) this world's own previously
+    disclosed acquisition discrepancy (Doc_01 §10; Step 0's own dossier named three
+    archive.org identifiers with conflicting accounts of which had been tried). RIGHTS:
+    public domain by date, an 1823 publication, independently corroborated by the
+    Internet Archive item's own catalog metadata (possible-copyright-status:
+    NOT_IN_COPYRIGHT). OCR QUALITY FLAG, disclosed plainly: this is a Google Books scan
+    with a materially higher character-level OCR error rate than any other file in this
+    world's own library - genuinely readable with effort, but every quotation must be
+    independently re-checked character-by-character before use, more so than this
+    project's usual standard. Fetched directly (curl, raw bytes) from Internet Archive
+    item martinlutheronb00colegoog (archive.org/details/martinlutheronb00colegoog);
+    Google Books' own standard rights/usage-guidelines front matter stripped, body text
+    otherwise unaltered including its own OCR errors. The other two identifiers this
+    world's own dossier named (bondagewill00colegoog, bondageofwill00mart) were not
+    independently checked this pass and remain open if a cleaner scan is ever wanted.

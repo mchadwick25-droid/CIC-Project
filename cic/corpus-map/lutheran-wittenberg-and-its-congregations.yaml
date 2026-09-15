@@ -101,6 +101,32 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
+- work: An Argument in Defense of All the Articles of Dr. Martin Luther Wrongly Condemned
+    in the Roman Bull
+  author: luther
+  locus: see file's own Contents page (OCR-degraded, verify against section headings)
+  role: tradition
+  confidence: provisional
+  note: '1521. Confidence held at provisional rather than assigned because the file''s own
+    OCR-degraded Contents page has not yet been cross-checked section-by-section against the
+    body text to confirm exact locus boundaries for each of this volume''s several works -
+    a Doc_02 task.
+
+    '
+  source_file: luther_works-v3-selected_various1930.txt
+- work: An Earnest Exhortation for All Christians, Warning Them Against Insurrection
+  author: luther
+  locus: see file's own Contents page (OCR-degraded, verify against section headings)
+  role: tradition
+  confidence: provisional
+  note: '1522, trans. W. A. Lambert. Directly relevant to this world''s own Peasants'' War
+    disclosure obligation (Step 0 §4 item 2; Doc_01 §2.3, §8.2) as an earlier, distinct statement
+    on insurrection - NOT the 1525 "Against the Murderous, Thieving Hordes of Peasants" tract
+    itself, which remains unvendored (see this world''s own G1 manifest). Should not be conflated
+    with that later, harsher text.
+
+    '
+  source_file: luther_works-v3-selected_various1930.txt
 - work: An Open Letter to the Christian Nobility of the German Nation, Concerning the Reform
     of the Christian Estate
   author: luther
@@ -113,6 +139,74 @@ works:
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
+- work: Dr. Martin Luther's Deutsche Geistliche Lieder (The Hymns of Martin Luther)
+  author: luther
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'Bilingual German/English hymnal, including Luther''s own 1543 Preface to all good
+    Hymn Books. Directly fills the gap Doc_01 named as this world''s own most consequential
+    missing register for worship-as-lived practice (Augsburg Confession Article XXIV describes
+    German hymns "interspersed" into the Mass "to teach the people"; this file is the hymns
+    themselves, not only the confessional description of the practice). RIGHTS FLAG carried
+    from REGISTRY.yaml: original print edition''s exact year not independently confirmed -
+    rights basis rests on Project Gutenberg''s own PD determination, not this project''s own
+    by-date rule.
+
+    '
+  source_file: luther_hymns_bacon-allen.txt
+- work: Martin Luther on the Bondage of the Will
+  author: luther
+  locus: whole file
+  role: tradition
+  confidence: provisional
+  note: '1525, Luther''s own full-length answer to Erasmus''s Diatribe on Free-Will, trans.
+    Henry Cole (1823). Central to this world''s own candidate gravity of grace/justification
+    (Doc_01 §1) and a genuinely different register from the shorter 1520 treatises already
+    vendored - a sustained, single-opponent theological argument. Confidence held at provisional,
+    not assigned, because this file''s own OCR quality (see REGISTRY.yaml note) has not yet
+    been spot-checked at the specific passages Doc_02/Doc_04 would actually cite - each citation
+    needs its own character-by-character re-verification before use, not a one-time general
+    clearance.
+
+    '
+  source_file: luther_bondage-of-the-will_cole1823.txt
+- work: Reply to the Answer of the Leipzig Goat (Answer to the Superchristian, Superspiritual,
+    and Superlearned Book of Goat Emser)
+  author: luther
+  locus: see file's own Contents page (OCR-degraded, verify against section headings)
+  role: tradition
+  confidence: provisional
+  note: 'Polemical exchange with Jerome Emser (trans. A. Steimle) - part of this world''s
+    own sharper anti-Catholic-polemic register (cf. "The Papacy at Rome," already vendored
+    in Volume I).
+
+    '
+  source_file: luther_works-v3-selected_various1930.txt
+- work: 'Secular Authority: To What Extent It Should Be Obeyed'
+  author: luther
+  locus: see file's own Contents page (OCR-degraded, verify against section headings)
+  role: tradition
+  confidence: provisional
+  note: '1523, trans. C. J. Schindel. Directly bears on this world''s own territorial-authority
+    settlement (Doc_01 §3, §5).
+
+    '
+  source_file: luther_works-v3-selected_various1930.txt
+- work: Selections from the Table Talk of Martin Luther
+  author: luther
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'Trans. Captain Henry Bell (1646), this edition ed. Henry Morley (Cassell, 1886).
+    Luther''s own informal, conversational register - distinct from the treatise, catechetical,
+    and confessional voices already vendored, and directly useful for Doc_02''s own founder/
+    congregation register work and for Doc_10 Representative voice construction later in the
+    build. A SELECTION, not the complete Table Talk - stated in the work''s own title; this
+    file should not be cited as though it were exhaustive of Luther''s recorded table conversation.
+
+    '
+  source_file: luther_table-talk_bell1886.txt
 - work: The Eight Wittenberg Sermons
   author: luther
   locus: lines ~14403-end
@@ -172,6 +266,15 @@ works:
 
     '
   source_file: luther_small-catechism_smith1994.txt
+- work: To the Knights of the Teutonic Order
+  author: luther
+  locus: see file's own Contents page (OCR-degraded, verify against section headings)
+  role: tradition
+  confidence: provisional
+  note: '1523, trans. W. A. Lambert.
+
+    '
+  source_file: luther_works-v3-selected_various1930.txt
 - work: To the Papacy at Rome, an Answer to the Celebrated Romanist at Leipzig
   author: luther
   locus: lines ~12211-end
