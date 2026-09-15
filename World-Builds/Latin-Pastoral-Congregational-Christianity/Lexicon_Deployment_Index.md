@@ -126,7 +126,7 @@
 | "compel them to come in" — Augustine's coercion doctrine | **Yes** | known only through Augustine's own advocacy, in his own defence |
 | "certificates" — the martyrs' and confessors' letters of peace | **Yes** | the confessors' own certificates do not survive; Cyprian quotes and objects to them |
 
-**8 of 19 entries carry an Author Gravity note.** The column is derived from the presence of that note in each chunk, so it cannot disagree with the chunk. **Round 1 verified 7 Yes / 11 No across eighteen entries; Round 2 and Round 3 each re-verified all 19.** **[CORRECTED, 2026-09-15 — Round 3's M-R1:** this previously said *"Round 1 verified every Yes and every No,"* above a table Round 1 never saw in full.**]**
+**8 of 19 entries carry an Author Gravity note.** The column is derived from the presence of that note in each chunk, so it cannot disagree with the chunk. **Round 1 verified 7 Yes / 11 No across eighteen entries; Round 2 and Round 3 each re-verified all 19.**
 
 ---
 
