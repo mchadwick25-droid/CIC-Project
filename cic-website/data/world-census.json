@@ -789,6 +789,24 @@
     "icon": "assets/world-icons/house-churches.svg"
    },
    "longDescription": "In the generations following the apostles, the earliest Christian movement had no documented church buildings and no single leadership structure. They had the Old Testament. The gospels and letters of the apostles moved between communities as copies were made and passed along, though no fixed collection had been settled yet. It was a network of faithful households, scattered across Antioch, Asia Minor, and Rome, meeting wherever they could. New believers were taught the Two Ways on the road to baptism; only then were they brought into the fellowship to share the weekly breaking of bread and prayer. Across long distances, these household communities were held together by carried letters.\n\nSome communities were guided by a single bishop alongside elders and deacons, others by a circle of elders alone—both forms were real, and neither was settled. The questions they wrestled with had no easy answers: How do we make room for genuine doubt? How should conflict within the community be resolved? What did women's leadership look like? Following Jesus routinely meant loss of social standing, suspicion from neighbors, and periodic waves of official violence.\n\nIn his surviving letters, Ignatius of Antioch describes writing to sister churches while being marched toward Rome under a ten-soldier guard. Justin, who told his imperial interrogator that he taught above a public bathhouse in Rome, wrote down the earliest record of what their Sunday actually looked like—the reading of the memoirs, the common loaf and cup, and the collection gathered for orphans, widows, and travelers. Justin was executed for refusing to abandon his Lord; tradition has it that Ignatius met the same end.",
+   "doctrine": [
+    {
+     "title": "Letters are what held the churches together",
+     "detail": "Scattered households were bound into one body by correspondence carried between cities. The network, rather than any centre, is what made them a movement."
+    },
+    {
+     "title": "The breaking of bread is the gathering",
+     "detail": "Weekly assembly around the loaf and the cup is the practice the earliest records describe, and the point where local variation and common pattern meet."
+    },
+    {
+     "title": "Who leads, and on what footing",
+     "detail": "Some communities were guided by a single bishop alongside elders and deacons, others by a circle of elders alone. Both forms were real, and neither was settled."
+    },
+    {
+     "title": "Dying well was formation, not only loss",
+     "detail": "Martyrdom was received as a meaning-response rather than an accident, and it shaped how these communities understood what following Jesus cost."
+    }
+   ],
    "voices": [
     "Ignatius, bishop of Antioch, wrote seven letters to congregations while he was marched toward Rome under armed guard, c. 107-117. Polycarp's own letter later speaks of him as already dead, though it admits not knowing the details of what happened.",
     "Clement of Rome wrote on behalf of the Roman church to the Corinthians around the year 96, addressing a dispute over deposed leaders. The letter is the earliest Christian writing outside the New Testament to survive.",
@@ -1451,6 +1469,24 @@
     "icon": "assets/world-icons/alexandria.svg"
    },
    "longDescription": "Alexandria was the ancient world's great city of libraries and lecture halls, and Christianity there took the same shape: a school. Teachers received enquirers, catechumens preparing for baptism, and educated pagans curious about this new philosophy, and walked them through Scripture as a text with a surface and a depth: the letter first, then the moral sense, then the spiritual meaning that opens onto the Logos himself.\n\nClement wrote for cultivated Greeks who wanted to know whether a Christian could keep his learning. Origen, who succeeded him, wrote commentaries across most of Scripture and produced the Hexapla, a six-column parallel edition of the Old Testament assembled to see what the Hebrew actually said — before falling out with his bishop and moving his teaching to Caesarea around 231. Historians still argue about how formal the whole thing was — whether Alexandria had one continuous institution with a succession of appointed heads, as Eusebius later described it, or a looser sequence of private Christian schools whose teachers happened to be remembered together.",
+   "doctrine": [
+    {
+     "title": "Scripture is a reality to be formed by, not a text to master",
+     "detail": "The deepest formative pressure in this world is Scripture itself — read, expounded and lived with, rather than studied at arm's length."
+    },
+    {
+     "title": "The soul is being transformed toward God",
+     "detail": "Formation is understood as an actual movement of the person toward God, not as the acquisition of doctrine."
+    },
+    {
+     "title": "God teaches by stages",
+     "detail": "A divine pedagogy: the learner is led on by what they are ready for, and the teaching is pitched to the stage they have reached."
+    },
+    {
+     "title": "The Logos is what holds it together",
+     "detail": "The Word is the integrating centre through which Scripture, teaching and the soul's ascent are all understood as one thing."
+    }
+   ],
    "voices": [
     "Pantaenus was the earliest teacher named in the tradition, remembered as a philosopher who had converted from Stoicism. Clement later paid tribute to a beloved teacher as 'the true, the Sicilian bee,' though Clement himself never names him, and the identification with Pantaenus comes only from Eusebius.",
     "Clement of Alexandria wrote for educated Greeks, arguing that philosophy had been a tutor leading them toward Christ.",
@@ -1960,6 +1996,24 @@
     "icon": "assets/world-icons/syriac.svg"
    },
    "longDescription": "The first hard evidence of a Christian community at Edessa is a flood: a church building destroyed when the river overran its banks in 201, recorded in the city's own chronicle. Edessa's Christians told an older story about their beginning too—that King Abgar himself had written to Jesus and been answered—but no text earlier than the fourth century attests it, and it is best heard as the community's own cherished memory, not as history. What the record actually shows is plainer. They were a Christian people who spoke Syriac, close to the language Jesus himself spoke, and who read Scripture as a web of symbols answering each other: Eden answering the cross, the Jordan answering the font. They met the Gospel as one continuous story rather than four separate books, in a harmony a Greek-trained convert named Tatian had woven a generation earlier; Aphrahat quoted it and Ephrem preached from it for as long as this world lasted.\n\nAt the community's ascetic heart stood the covenant: men and women who vowed themselves to lifelong celibacy while remaining inside their own congregation instead of leaving for the desert, keeping the fast and the vigil and singing what the community believed. Office and vow ran side by side for this whole world's life, and who finally spoke for it was never settled. Aphrahat, remembered simply as the Persian sage, once drafted a synodal letter in the name of a council of bishops, yet whether he held that office himself, no one now can say. Persia's own bishops fought the same question in the open: Papa of Seleucia-Ctesiphon claimed to lead them all, and was contested by his own colleagues in his own lifetime. The community also knew its faith by naming what it was not, answering by name the teachings of the philosopher Bardaisan, of Marcion, and of Mani, all preached in the same cities in the same tongue.\n\nIn 338, Shapur II of Persia besieged Nisibis; Ephrem, the city's own hymnwriter, remembered its deliverance as an act of God worked through ordinary defenders, while a later account added a swarm of gnats to the story. Bishop Jacob led that defense. Tradition places his death the same year, though another source has him defending the city again in 350, and the record itself never closes the question. Nisibis held until 363, when the Roman emperor Jovian ceded it to Persia and Ephrem moved west to Edessa, where he spent his last year running famine relief before he died. On the Persian side, the persecution already underway since the 340s took bishop Simeon bar Sabbae and his clergy, and left the church's chief seat empty for twenty years, since filling it meant near-certain death. Not until 410, when the Roman bishop Marutha brokered a synod with the Persian king's favor, did the Persian church finally receive a single settled order—the last thing this world's own record has to say.",
+   "doctrine": [
+    {
+     "title": "Truth is carried in symbol",
+     "detail": "A symbolic and typological method — raza, the mystery, and shrara, the truth — in which the figure is how the thing is known, not an ornament laid over an argument."
+    },
+    {
+     "title": "A covenanted ascetic life, inside the congregation",
+     "detail": "The qyama: the bnay and bnat qyama, sons and daughters of the covenant, and the ihidaya — ascetics living under vow within the ordinary church rather than withdrawn from it."
+    },
+    {
+     "title": "One harmonised gospel",
+     "detail": "The Diatessaron, a single woven gospel, served as the normative scriptural text of this world rather than four separate accounts."
+    },
+    {
+     "title": "Defined against named rivals",
+     "detail": "This world knew itself partly by what it refused: Bardaisan, Marcion and Mani are named opponents, and the refusal does real organising work."
+    }
+   ],
    "voices": [
     "Ephrem was a deacon, first at Nisibis and then, after 363, at Edessa, and this tradition's most prolific poet: hundreds of hymns carried its doctrine in verse a congregation could sing. He spent his last year running famine relief in the city and died within the month the crisis ended.",
     "Aphrahat, remembered simply as 'the Persian sage,' wrote twenty-three dated letters from inside the Persian empire between 336 and 345, the last of them composed deep inside Shapur's persecution. He once drafted a circular letter in a synod of bishops' own name, yet whether he held that office himself is a question his own tradition never answers.",
@@ -2533,6 +2587,24 @@
    "entry": null,
    "teaser": "A prophet who wrote his own scriptures instead of leaving them to disciples, intending a faith that would absorb every other. His followers split into a strict inner order and the ordinary believers who fed them; Augustine spent nine years in the second rank. He died in a Persian prison, the West hunted the religion to extinction, and most scholars no longer count it Christian at all.",
    "longDescription": "Mani was born in Mesopotamia in 216 and raised in a Jewish-Christian baptizing sect. He broke with it after what he described as revelations from his heavenly twin. He taught that reality is the battleground of two co-eternal principles, Light and Darkness. Particles of light are trapped in the material world, and a strict ascetic discipline sets them free.\n\nAlmost uniquely among founders of his era, he wrote his own scriptures and had them translated on purpose. He meant to found a faith that could absorb and supersede Christianity, Zoroastrianism and Buddhism at once. It spread from Persia across the Roman Empire, and eastward along the Silk Road into Central Asia and China.\n\nHis followers divided into two ranks. The Elect kept the full discipline; the Hearers supported them and lived ordinary lives. Augustine of Hippo was a Hearer for roughly nine years before his conversion, and spent much of his later career arguing against the teachers he had once sat under. Mani himself died in custody under the Persian king Bahram I in the 270s.",
+   "doctrine": [
+    {
+     "title": "Two co-eternal principles",
+     "detail": "Reality is the battleground of Light and Darkness, neither of them derived from the other."
+    },
+    {
+     "title": "Light trapped in matter",
+     "detail": "Particles of light are trapped in the material world, and a strict ascetic discipline is what sets them free."
+    },
+    {
+     "title": "Scripture written by the founder, not remembered by disciples",
+     "detail": "Almost uniquely among founders of his era, Mani wrote his own scriptures and had them translated on purpose."
+    },
+    {
+     "title": "Two ranks, one discipline",
+     "detail": "The Elect kept the full discipline; the Hearers supported them and lived ordinary lives."
+    }
+   ],
    "voices": [
     "Mani composed his own scriptures rather than leaving that to his disciples. He traced his commission to a heavenly twin who, he said, revealed it to him.",
     "Faustus of Milevis was a Manichaean bishop. Almost everything known about what he taught comes from the book Augustine wrote against him.",
@@ -2579,6 +2651,20 @@
    "entry": null,
    "teaser": "Jewish followers of Jesus who never stopped keeping Torah, circumcision and the Sabbath. Everything we know comes from writers hunting heresy, and they contradict one another. Scholars still argue whether the two names they use mean two groups, one group, or a filing category. Not a word of their own has come down, and by the fifth century they are gone.",
    "longDescription": "The first Christians were Jews. In Palestine and Syria, some communities of Jewish believers went on as they had begun. They kept the Law, the circumcision and the Sabbath long after the wider church had let them go.\n\nLater heresy-hunting writers describe them under two names — Irenaeus, Origen, Eusebius, Epiphanius and Jerome all take a turn. 'Ebionites' comes from the Hebrew for the poor; 'Nazoraeans' is the other. These writers report that the communities used their own gospel, in Hebrew or Aramaic. They honoured James, the brother of Jesus, and treated Paul as a man who had abandoned the Law.\n\nThose writers disagree with one another. They wrote from outside, often centuries later, and had every reason to sharpen the picture. The fullest account of all, Epiphanius's Panarion, is now widely judged unreliable in its details. Not one text these communities wrote about themselves survives intact, only fragments quoted by the people refuting them. Modern scholars still disagree about whether 'Ebionite' and 'Nazoraean' name two distinct groups, one group under two labels, or largely a category the heresy-hunters assembled.",
+   "doctrine": [
+    {
+     "title": "The Law still binds",
+     "detail": "Their opponents report communities that kept the Law, the circumcision and the Sabbath long after the wider church had let them go."
+    },
+    {
+     "title": "James, not Paul",
+     "detail": "The same writers report that they honoured James, the brother of Jesus, and treated Paul as a man who had abandoned the Law."
+    },
+    {
+     "title": "A gospel of their own",
+     "detail": "They are said to have used their own gospel, in Hebrew or Aramaic. Not one text these communities wrote about themselves survives intact."
+    }
+   ],
    "voices": [
     "No leader of these communities is named in any source they produced themselves. The heresy-hunters offer only 'Ebion', a founder most scholars now think never existed. He was invented to explain a group name that simply meant 'the poor'."
    ],
@@ -2617,6 +2703,24 @@
    "entry": null,
    "teaser": "A movement certain the Spirit promised by Jesus was speaking again, through one man and two women. What it actually asked for was stricter fasting, no second marriages, and a willingness to be martyred; the quarrel was never about doctrine but about who may authorise a new voice. Synods condemned it, emperors outlawed it, and its writings did not survive.",
    "longDescription": "In a Phrygian village in the middle of the second century a man named Montanus began to prophesy in ecstatic speech. Two women, Priscilla and Maximilla, prophesied alongside him. They did not call themselves Montanists; that was their opponents' label. They called it the New Prophecy, and their claim was that the Paraclete whom Jesus had promised was speaking now, through them.\n\nWhat followed was plainer than the label suggests: stricter fasting, a refusal of second marriages, a readiness to face death rather than flee it. They also expected the New Jerusalem to come down at Pepuza in Phrygia. It spread well beyond Asia Minor; Tertullian of Carthage took its side. Synods in Asia condemned it, and later the emperors outlawed it, but its communities lasted for centuries.\n\nPepuza and its neighbour Tymion were lost for well over a thousand years. Archaeologists located them in inland Turkey only in 2000.",
+   "doctrine": [
+    {
+     "title": "The Spirit is speaking now",
+     "detail": "Their claim was that the Paraclete whom Jesus had promised was speaking in the present, through Montanus and through Priscilla and Maximilla."
+    },
+    {
+     "title": "A stricter rule of life",
+     "detail": "Stricter fasting, a refusal of second marriages, and a readiness to face death rather than flee it."
+    },
+    {
+     "title": "The New Jerusalem, at Pepuza",
+     "detail": "They expected it to come down at Pepuza in Phrygia — a named village, not a figure of speech."
+    },
+    {
+     "title": "The quarrel was not about the Creed",
+     "detail": "What the New Prophecy confessed about God, Christ and the Spirit is not what its opponents objected to. The dispute was about authority and discipline: whether new prophecy could bind the church, and how strict its common life should be."
+    }
+   ],
    "voices": [
     "Montanus gave the movement the name its opponents used for it. Almost nothing is known about him beyond the oracles quoted against him.",
     "Priscilla and Maximilla were the movement's other two named prophets. Their quoted oracles are among the very few first-person words from inside the movement that survive at all.",
@@ -2658,6 +2762,20 @@
    "entry": null,
    "teaser": "A rival church that broke away over one question: could those who denied Christ under threat ever be taken back? Almost nothing else divided them — their bishop sat at Nicaea and signed its creed — and they called themselves simply the pure. They lasted four centuries, and the record on whether their founder died a martyr is not firm.",
    "longDescription": "When the emperor Decius ordered every subject of the empire to sacrifice in 250, a great many Christians complied. Once the pressure lifted they wanted to come back. Novatian was the most learned theologian in the Roman church, and the first there to write substantial theology in Latin. He held that the church had no authority to receive them. God might forgive apostasy; the church could not presume to.\n\nCornelius took the lenient view, and was elected bishop of Rome in 251. Novatian's supporters had him consecrated as a rival bishop, one of the earliest such consecrations the city had seen. His congregations called themselves the Katharoi, the pure. They spread across the empire and lasted for centuries; at the end of the fourth century they still held several churches in Constantinople and more across Phrygia and Bithynia.\n\nVery little separated the two sides in doctrine. Their bishop attended the Council of Nicaea in 325 and accepted its creed, and the council's eighth canon set out terms for receiving Novatianist clergy — terms they largely declined. Later tradition remembers Novatian himself as a martyr, though the record on that is not firm.",
+   "doctrine": [
+    {
+     "title": "The church cannot readmit those who denied the faith",
+     "detail": "God might forgive apostasy; the church could not presume to. That was Novatian's whole objection."
+    },
+    {
+     "title": "A church of the pure",
+     "detail": "His congregations called themselves the Katharoi, the pure, and kept that standing for centuries after the crisis that made it."
+    },
+    {
+     "title": "Doctrine was never the quarrel",
+     "detail": "Novatian's own On the Trinity is a careful and orthodox statement of Christian doctrine, and the Novatianist bishop at Nicaea accepted the council's creed. The break was over discipline, not belief."
+    }
+   ],
    "voices": [
     "Novatian was a Roman presbyter and theologian, and wrote On the Trinity. In 251 he was consecrated as bishop of Rome against Cornelius.",
     "Cornelius held that the church could receive the lapsed back. Novatian's whole objection was to that.",
@@ -2921,6 +3039,24 @@
     "icon": "assets/world-icons/desert.svg"
    },
    "longDescription": "By the early fourth century the last empire-wide persecution had ended, and Constantine's toleration closed off a path that had once been open to any Christian: dying for the faith. Antony, a young Egyptian landowner, gave away his family's land after hearing one Gospel reading in church — \"if thou wouldest be perfect, go and sell that thou hast\" — and withdrew by stages: the village's edge, an abandoned fort, then the desert's inner reaches, for the rest of his life. What his biographer Athanasius describes there is not escape but combat: the war once waged against a persecutor from outside, now fought against demons and the thoughts they whispered, from within. Teaching passed mostly in a single exchange — a younger monk asked an elder for \"a word,\" and the elder answered in one sentence, no more. Generations later, those sentences were gathered into what other Christians would call the Sayings of the Desert Fathers and Mothers, arranged by the name of the elder who spoke them, not necessarily as anyone first heard them said.\n\nNot everyone lived Antony's way. Around 320, a man named Pachomius founded the desert's first rule-governed community at Tabennesi in the Thebaid; by his death in 346 it had grown into a federation of nine houses for men and two for women, bound by a written rule and appointed offices rather than one elder's own example. Between the two lay a third pattern: loose settlements at Nitria, Kellia, and Scetis, where ascetics lived mostly alone but gathered weekly for worship and correction. Which of these actually held authority — a life earned through discipline, or an office conferred by a rule — was never settled. Even Pachomius, the rule's own founder, was remembered afterward less as an officeholder than as a father whose own example, not his rule alone, had formed his community.\n\nWhat kept any of this from tipping into excess was discernment: the skill, prized above all others, of judging how much fasting, how much solitude, a particular person could actually bear. The tradition's most common story shape is an eager newcomer asking for an extreme practice and being redirected toward something more moderate. Evagrius, the most formally educated man the desert produced, tried to systematize the struggle into a scheme of his own: eight named categories of tempting thought, and a ladder rising from practice through passionlessness to contemplation. He died at Kellia in January 399, months before a controversy his own learned circle could not survive — a bishop's letter on how literally to picture God split simple monks from learned ones, and by the year's end Evagrius's circle had been driven out of Egypt. His writings survived anyway, part of them transmitted for centuries under another name.",
+   "doctrine": [
+    {
+     "title": "Withdrawal",
+     "detail": "Anachoresis: going out from the inhabited world is the founding act, and everything else in this world is arranged downstream of it."
+    },
+    {
+     "title": "Combat with the thoughts",
+     "detail": "Spiritual combat against demonic thoughts, in its general form rather than any systematised scheme, is the daily work of the life."
+    },
+    {
+     "title": "The elder's word, spoken rather than written",
+     "detail": "Authority is mediated by an elder and carried orally — a word given to this disciple, in this situation, rather than a rule published for all."
+    },
+    {
+     "title": "Discernment as the master virtue",
+     "detail": "Diakrisis: the capacity to tell which thought, which impulse and which counsel is to be trusted, on which the rest of the discipline depends."
+    }
+   ],
    "voices": [
     "Antony gave away his family's land after hearing one Gospel reading in church and took it as addressed to himself, then withdrew by stages — the village's edge, an abandoned fort, the inner mountain — for the rest of his life. His hagiographer says he could not endure to learn letters as a boy; a handful of letters that may genuinely be his own suggest a man trained in the philosophy that same biographer denies him, and the two portraits have never been reconciled.",
     "Pachomius founded the desert's first rule-governed community at Tabennesi around 320; by his death in 346 it had grown to nine houses of men and two of women, bound by a common rule and appointed offices. Even so, those who remembered him afterward described a father whose own example formed the community, not an officeholder alone.",
@@ -3278,6 +3414,24 @@
    },
    "longDescription": "In Cappadocia and neighboring Pontus, from the years after the last empire-wide persecutions to the death of the last of a remarkable generation, one extended family and the friends around it did more than most to settle the words Christians still use about God — how settled that settlement really was is itself now a live scholarly question. Basil of Caesarea, his younger brother Gregory of Nyssa, their elder sister Macrina, and Basil's friend Gregory of Nazianzus argued the hardest question of the century — whether the Son and the Spirit are God in the same sense the Father is — while running dioceses, burying relatives, and feeding the hungry through famine.\n\nBasil's own preaching indicted the region's grain-hoarders by name and built a hospital, hostel, and workhouse complex outside Caesarea after the famine of 368 — a genuine, near-unprecedented undertaking, though not, as later legend sometimes claims, the first of its kind anywhere. Before that, he had already spent years answering a more radical ascetic ferment loose in the region — households dissolved, slaves urged to leave their masters, fasts kept against the church's own feasts — not by condemning the impulse but by giving it a rule, an obedience, and an open door for guests instead. Macrina turned the family estate into an ascetic household of her own and, in her brother's account of her last days, taught him theology from her deathbed — the only record of her that survives; no words of her own reach us independently of his telling.\n\nGregory of Nazianzus carried the argument to Constantinople, where the creed most Christians still recite took its final shape in 381. The years were not peaceful throughout: this world buried its own martyr, Eupsychius of Caesarea, executed under Julian in 362, and endured a hostile imperial church under Valens that drove Gregory of Nyssa briefly into exile. Even the letter usually cited as proof the three men agreed on the technical vocabulary — Epistle 38 — is itself contested between Basil and Gregory of Nyssa in modern scholarship.",
    "teaser": "Cappadocia and Pontus, c. 325 to 394 CE — a people who fought a generation over a single word in their worship, kept a door open for the poor, and buried a martyr of their own along the way.",
+   "doctrine": [
+    {
+     "title": "The Triune God, confessed at the edge of what can be known",
+     "detail": "The akataleptos God — incomprehensible, and rightly glorified rather than defined. Right doxa is held against those who would pin God down and those who would empty the confession out."
+    },
+    {
+     "title": "Renunciation ordered into common life",
+     "detail": "The ascetic reordering of life toward koinonia and the poor: household into sisterhood and brotherhood into poorhouse, with a guest-door kept open rather than a wall built."
+    },
+    {
+     "title": "Greek learning repossessed for Christ",
+     "detail": "Paideia converted: Athens used rather than refused, the classics taken as bee-flowers, rhetoric carried into the pulpit — against Julian's edict from outside and suspicion from within."
+    },
+    {
+     "title": "The bishop as public patron",
+     "detail": "Under famine and empire: grain, tax appeals, the poorhouse, the prefect's bench, and the governor's mercy sought on behalf of people with no other advocate."
+    }
+   ],
    "voices": [
     "Basil, bishop of Caesarea, preached during the famine of 368 that the bread being held back belonged to the hungry and the coat in the closet belonged to the naked — then built a hospital, hostel, and workhouse complex outside the city to outlast the crisis that occasioned it. The ascetic brotherhoods he organized answered a wilder, older impulse already loose in the region, households breaking apart and the enslaved leaving their masters, by giving it walls and a rule instead of condemning it.",
     "Macrina turned the family estate at Annisa into a community where former slaves and their one-time owners prayed and worked side by side. When her brother Gregory of Nyssa found her dying, she lay not on a bed but on planks on the ground, and owned no burial clothes of her own; what she said to him in those last hours reaches us only through the book he wrote about her afterward.",
@@ -3607,6 +3761,20 @@
     "icon": "assets/world-icons/empire.svg"
    },
    "longDescription": "For nearly three centuries the church had been an illegal association. Then, between Constantine's toleration in 313 and Theodosius's legislation at the century's end, it became first protected, then privileged, then the empire's official religion — and had to work out, very fast, what to do with that. Bishops found themselves hearing civil lawsuits, administering public building funds, and travelling to councils at imperial expense; emperors found themselves summoning those councils and expecting the results to hold.\n\nThree answers competed for where final authority over the church now actually lay, and this world's own window closes without settling which was right. Rome traced its authority to Peter; Constantinople claimed rank because it sat beside the throne — a claim the Council of Chalcedon extended in 451 over the protest of Rome's own delegates, at the same council that received, as the last word on Christ's two natures, a letter Leo of Rome had written two years before. Ambrose of Milan staked a third claim entirely: that the emperor stood inside the church, not over it, and proved it in 390 by refusing Theodosius the sacrament until he did public penance for a massacre at Thessalonica.\n\nThe hardest evidence against this world is not what was done to it, but what it did. In 366, a disputed election to the bishopric of Rome left the city so violent that a hundred and thirty-seven people were killed in a single day — the same Damasus whose reign then built the city's great martyr shrines. The same sacramental refusal that later humbled an emperor over Thessalonica had already been used once before, two years earlier, for the opposite end: protecting a bishop who had incited a mob to burn a synagogue at Callinicum from having to pay for it, and leaving the burned community no recourse at all.",
+   "doctrine": [
+    {
+     "title": "A juridical claim to primacy",
+     "detail": "The claim that authority in the church is a matter of jurisdiction, exercised and defended in legal terms."
+    },
+    {
+     "title": "Alliance with the state, and its limits",
+     "detail": "The church's relation to imperial power is a working alliance — and the question of where that alliance stops is live throughout."
+    },
+    {
+     "title": "Orthodoxy enforced through imperial power",
+     "detail": "Right belief is something the state can be asked to enforce, and repeatedly is."
+    }
+   ],
    "voices": [
     "Constantine was the first emperor to protect and endow the church, and the first to summon a general council of its bishops. Why he did it is not settled: Lactantius, writing within a few years, has him dreaming the night before his decisive battle; Eusebius, writing after his death, has him and his whole army seeing a cross of light at midday — the two accounts do not agree, and this world's own sources never resolve which is true.",
     "Eusebius of Caesarea wrote the first history of the church and the most admiring surviving account of Constantine's reign, once quoting the emperor calling himself a bishop of those outside the church — words no one now can be sure Constantine actually meant as a claim of office. He was his patron's panegyrist as much as his historian, and this world reads him knowing both.",
@@ -3983,6 +4151,24 @@
     "icon": "assets/world-icons/bethlehem.svg"
    },
    "longDescription": "In the early 380s, Jerome arrived in Rome and joined a circle of ascetic, scripturally serious women already meeting around the widow Marcella on the Aventine. Paula, another widow, and her daughters Blaesilla and Eustochium belonged to the same circle, and all of them took Jerome as their teacher — a caustic, brilliant scholar with a gift for making enemies. In 384 Blaesilla took up the severe fasting Jerome taught and was dead within four months; at her funeral a Roman crowd shouted for the monks to be thrown in the Tiber, and Jerome's own consolation letter to the grieving Paula admits he wept writing it.\n\nWithin the year Pope Damasus, Jerome's protector, was also dead, and his position in Rome had become impossible. Paula and Eustochium sold their estates, sailed east, and founded monasteries at Bethlehem — a house for men, houses for women, a hostel for pilgrims — with Jerome installed alongside to work. What came out of it was the Vulgate: a Latin Bible rendered book by book from the Hebrew rather than the Greek everyone was used to, against fierce criticism.\n\nNot one word any of these women wrote in her own hand has survived; what is known of them comes only through Jerome's letters, or through others describing letters now lost. In the community's last years, an attack tied to the Pelagian dispute set fire to the Bethlehem monasteries. Eustochium sent Rome a full account of it, and the pope who answered her praised the community for one thing above all — that they had never named the man behind it.",
+   "doctrine": [
+    {
+     "title": "Hebraica veritas",
+     "detail": "The Hebrew text is the truth of the Old Testament, and a translation must answer to it rather than to the Greek the church had been using."
+    },
+    {
+     "title": "Ascetic self-impoverishment",
+     "detail": "Wealth given away and a life deliberately stripped down — the commitment with the strongest formation result in this world's own testing."
+    },
+    {
+     "title": "Patronage as the authority structure",
+     "detail": "This world runs on patronage: who supports whom, and on what terms, is how authority is actually held and exercised in it."
+    },
+    {
+     "title": "The letter as the medium",
+     "detail": "The letter is not incidental packaging but the form the teaching takes, and the form in which it was meant to travel."
+    }
+   ],
    "voices": [
     "Jerome was the scholar and translator at the center of it all, and his Latin Bible became the West's standard text for a thousand years. The letters, the memorials, the record of what the women around him said and did — all of it passed through his own hand before it reached us.",
     "Paula was a Roman widow who sold her fortune to fund the move to Bethlehem and then built and governed its monasteries and pilgrim hostel for nineteen years, until her death. The one independent witness to describe her partnership with Jerome, the historian Palladius, says the opposite of Jerome's own account: that Jerome held her back out of jealousy rather than let her surpass him.",
