@@ -1,0 +1,18 @@
+# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
+# the Lutheran Wittenberg build (Atlas VI.1), per this world's own
+# Source Readiness Dossier.
+source_file: luther_large-catechism_bente-dau1921.txt
+
+assignments:
+  - work: The Large Catechism of Martin Luther
+    author: luther
+    locus: "whole file"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: assigned
+    note: >
+      1529, written for pastors and preachers rather than the household
+      audience of the companion Small Catechism - the movement's own fuller
+      doctrinal-catechetical voice, alongside the Augsburg Confession and its
+      Apology this project's central confessional register for this world.
