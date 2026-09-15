@@ -16,6 +16,7 @@ sources: []
 author: "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)"
 work: "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)"
 edition: "Ante-Nicene Fathers vol. 1 (1885), trans. Roberts-Donaldson, vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 ii, chapters I-LIX of its own numbering); completed text incl. the portion recovered from Codex Hierosolymitanus in Ante-Nicene Fathers vol. 9 (1896), 'The Epistles of Clement... completed and revised from a manuscript discovered after the publication of that volume,' Rev. John Keith, vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml (div1 xii)"
+kind: vendored
 rights_status: public-domain
 attribution_status: traditionally-attributed
 discovery_channel: "prior-build Source Registry row P02 (Doc_02, approved 2026-07-07), re-registered against the vendored corpus; work presence verified at anf01 div1 ii and anf09 div1 xii (the anf09 title page's own completion note read directly)"

@@ -20,6 +20,7 @@ sources: []
 author: "Anonymous, writing under apostolic names"
 work: "The Protevangelium of James; the Infancy Gospel of Thomas (three forms); the Acts of Paul and Thecla - the earliest stratum of Christian apocryphal narrative, and the part of it that plausibly belongs to this world's own generations"
 edition: "trans. Alexander Walker, from Tischendorf's critical edition, Ante-Nicene Fathers vol. 8 (1886), vendored as cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml - div1 'Apocrypha of the New Testament' at line 35806; Protevangelium div2 7.4, Infancy Thomas 7.8-7.10, Paul and Thecla 7.26"
+kind: vendored
 rights_status: public-domain
 attribution_status: pseudonymous
 discovery_channel: "assigned to this world by the cross-world corpus assignment; imported at Mark's direction 2026-08-27"

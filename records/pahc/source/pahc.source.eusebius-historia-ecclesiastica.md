@@ -16,6 +16,7 @@ sources: []
 author: "Eusebius of Caesarea (c. 260-339 CE - writing well over a century after this world's close)"
 work: "Historia Ecclesiastica; a LATER WITNESS, not a voice of this world: quotes and preserves earlier documents (Polycarp's Philippians ch. 13 in Greek at HE III.36.13-15; the Lyons/Vienne martyrs' letter at V.1; the anonymous anti-Montanist at V.16-17; Hegesippus and Papias fragments) while imposing its own tidy-succession framing on the period"
 edition: "Nicene and Post-Nicene Fathers series 2, vol. 1 (1890), trans. Arthur Cushman McGiffert, vendored as cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml (the Church History portion; the volume's two works have different translators, checked per-work)"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior-build Source Registry row P14 (added at Doc_02's round-1 fix pass), re-registered against the vendored corpus; what is new at this build's step 2 is only the consolidated screen below, which the prior build applied piecemeal rather than stating once on the row itself. Work presence verified in the vendored volume"

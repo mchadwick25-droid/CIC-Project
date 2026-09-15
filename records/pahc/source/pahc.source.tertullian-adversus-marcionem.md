@@ -16,6 +16,7 @@ sources: []
 author: "Tertullian of Carthage (hostile witness to Marcion, writing c. 207-208 CE - after this world's close)"
 work: "Adversus Marcionem (Against Marcion), five books - the principal surviving account of Marcion's teaching and churches, written by an opponent a generation after Marcion's Roman career; 1.19 carries the conventional c. 144 CE date for the break with the Roman church (Moll argues this may mark Marcion's arrival rather than expulsion)"
 edition: "Ante-Nicene Fathers vol. 3 (1885), trans. Peter Holmes, vendored as cic/texts/anf03_tertullian.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "registered at this build's step 2 to give the Marcion disclosure obligation (Doc_01 SS8.3) a vendored primary witness; work presence verified in the vendored volume"
