@@ -59,6 +59,22 @@ works:
 
     '
   source_file: calvin_geneva-catechism_waterman1815.txt
+- work: Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)
+  author: calvin-zurich-pastors
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'The formal 1549 doctrinal agreement between Bullinger''s Zurich and Calvin''s Geneva
+    on the Lord''s Supper, published 1554 - genuinely the single document this world''s own
+    Strand Determination (Doc_01 Sec5) names as most directly evidencing the Zurich/Geneva
+    bridge. Its own acquisition was flagged as genuinely open in the Source Readiness Dossier
+    and carried as a binding item through Doc_01''s own review rounds; this file closes that
+    gap. Contains Calvin''s prefatory letter to the Zurich pastors, the Zurich pastors'' own
+    reply, the 26 "Heads of Agreement" themselves, and Calvin''s own appended exposition -
+    the Consensus proper, per the file''s own intake header.
+
+    '
+  source_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
 - work: The Heidelberg Catechism (1563)
   author: ursinus-olevianus
   locus: Sec. 69 of the source volume (original pp. 529-554)

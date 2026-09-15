@@ -233,6 +233,18 @@ authors:
 
       '
     from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+  calvin-zurich-pastors:
+    kind: metadata-omission
+    evidence: 'Not CCEL-derived markup (a plain-text archive.org extract), so no automatic
+      author slug exists. The file''s own title page reads "Mutual Consent in Regard to the
+      Sacraments... Between the Ministers of the Church of Zurich and John Calvin, Minister
+      of the Church of Geneva" - a genuinely joint document, drafted substantively by Calvin
+      but negotiated and issued together with the Zurich pastors (chiefly Bullinger) until
+      agreement, published under both parties'' names. A joint-author slug, the same pattern
+      this corpus already uses for other two-party single works (ursinus-olevianus).
+
+      '
+    from_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
   canonical-epistles-fathers:
     kind: anonymous
     evidence: 'div1 17 gathers, per its title, "Canons and Rulings not having Conciliar Origin
