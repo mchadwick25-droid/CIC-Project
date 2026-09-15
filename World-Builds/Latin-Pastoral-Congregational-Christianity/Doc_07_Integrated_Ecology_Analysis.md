@@ -1,0 +1,264 @@
+# Doc_07 — Integrated Ecology Analysis
+## Latin Pastoral-Congregational Christianity
+
+**World file-code:** `lpc`
+**Produced at:** Construction Step 7 (Construction Framework V7.4 Part III; the **M4 lens-spine adoption of 2026-07-27** — see §1's note on lens structure)
+**Date drafted:** 2026-09-15
+**Required before:** Doc_08 (Forces Document and Forces-and-Gravities Synthesis), the World Profile, and Representative emergence
+**Voice:** analytical throughout. This is a construction record, not a runtime document; the inhabited prose of this world lives in `Doc_05_Ecological_Reconstruction.md` and in the nineteen `Lexicon-Chunks/` files.
+
+**Governed by:** Construction Framework V7.4 Step 7; `Ministry/Technology/CiC_World_Build_Completion_Standard_V1.3.md` §F (the M4 lens-spine change order); **Forces Framework V1.1 Step 7** (forces as a named integration lens); Constitution Articles 17 (confidence), 20 (Affirmative Duty), 22 (Forces Principle), 23 (Writing-From-Inside).
+
+---
+
+## 1. Document Identity and Confirmed Inputs
+
+**World name:** Latin Pastoral-Congregational Christianity. **World code:** `lpc`.
+
+| Document | Status |
+|---|---|
+| Doc_01 — World Identification, Boundaries, Orientation | COMPLETE — **Approved to proceed** |
+| Doc_02 — Source Ecology + `Source_Registry.md` | COMPLETE — **Approved to proceed** (the Registry itself **returned to independent review 2026-09-13**) |
+| Doc_03 — Lexicon Candidate List | COMPLETE — **Approved to proceed**, 2026-09-09 |
+| Doc_04 — Gravity Discovery | **REVISED, not self-disposed** — findings from Rounds 5–11 outstanding |
+| Doc_05 — Ecological Reconstruction | **REVISED after Rounds 1–2, not self-disposed** — Round 2 returned 0 High and judged it adequate to proceed |
+| Doc_06 — Full Lexicon Development (7 Tier 1 entries at depth) + 19 chunks + index | **REVISED after Rounds 1–3, not self-disposed** — Round 3 judged it adequate to proceed to Doc_07 |
+
+**Gate confirmation: NO — and this document does not pretend otherwise.** The L4 template asks whether all six inputs were confirmed complete before lens work began. **Three of the six are not disposed.** Not one of the three is *incomplete*: each has been drafted, independently reviewed across multiple rounds, and revised against those reviews. What none of them has is a disposition, because **CO-022 provides that a document against which any escalation category applies is not self-disposable by the build thread**, and three categories are open across them — three portfolio-level items, four governance/methodology items, and one unresolved tension. This document is built on the project lead's direct direction of 2026-09-15 to proceed to Doc_07.
+
+**What that means concretely for the lens work below, stated so a reviewer can check it rather than take it on trust.** The gravity spine has been stable since Doc_04's Round 2. Every Doc_05 finding this document leans on survived two review rounds. Doc_06's seven Tier 1 entries reached genuine depth, which CF V7.4 names as the specific precondition for the lenses that draw on the lexicon — the affective and conceptual ones — and Round 3 confirmed it. **No open finding against any of the three bears on a claim made here**, and §8 lists what is open rather than leaving the reader to reconstruct it.
+
+**A note on lens structure, before lens work begins.** Construction Framework V7.4's Step 7 text requires that a builder *"[A]sk all of Smart’s seven dimensions as the fixed lens spine — always asked, for every world (M4, adopted 2026-07-27),"* with the ethical/legal lens required, Material Culture promoted from optional to required, and *"Boundary Structures and Formation Logic remain CiC's own two additions, named as additions."* `CiC_World_Build_Completion_Standard_V1.3.md` §F states the same substance independently. **The `L4-Templates/Integrated_Ecology_Analysis_Template.md` on disk still documents the older pre-M4 structure** (Emotional Ecology, Philosophical Ecology, Authority Structures, Boundary Structures, Formation Logic). This is a known, already-surfaced inconsistency rather than a new discovery: the sibling Donatism build hit it, put it to the project lead, and **was directed to build on the M4 spine as the Framework's own current and most specifically-dated governing text**, naming the template's staleness for census-level correction rather than correcting it unilaterally. This document follows that direction and that reasoning. **It is the fourth instance of the same family of Framework/template divergence this world has now met** — after the Doc_04 Template's fourth classification label, the *Boundary Structures* / *Boundary Ecology* split, and the Key Texts / Key Sources mismatch — and §8 carries it with them.
+
+---
+
+## 2. Integration Lenses
+
+Smart's seven dimensions as the fixed spine, asked of every world regardless of yield, **with a thin dimension stated as a finding rather than smoothed over** — the same discipline Gravity Discovery applies to a candidate not advanced — plus CiC's own two standing additions.
+
+**The gravity spine referenced throughout:** Primary — **G1** Pastoral Office as Territorial Flock-Keeping, **G2** Penitential Discipline, **G3** Collegial Communion Preserved Despite Disagreement, **G6** Sacramental and Ordination Validity Across the Boundary. Supporting — **G4** Preaching and Catechesis, **G5** Conciliar Authority Theory, **G7** Grace and Human Incapacity. Tensional — **G8** Confessor-Authority vs. Episcopal-Regulated Peace.
+
+### 2A. Ritual/Practical
+
+**What this lens reveals for this world:** that its two defining crises are not doctrinal disputes with liturgical consequences but **rite disputes argued in doctrinal terms** — and that this inverts the usual relation between practice and belief.
+
+The rebaptism controversy is a dispute over the valid administration of baptism. The lapsed controversy is a dispute over the rite of penitential reconciliation. Doc_05 §3.1 states the structural consequence plainly and it is the finding this lens exists to surface: **three of the four Primary gravities (G2, G3, G6) *are* disputes about rites, and the fourth (G1) is the office that administers them.** Worship here is not a dimension the gravities act upon; it is where they are contested.
+
+The practical sequence an ordinary member actually moves through is catechesis, then the creed said back, then baptism, then weekly preaching, and — if they fail seriously — a public, graded penitential road and a formal readmission. Two documentary practices sit inside that sequence and are material acts in their own right (§2G): the *libellus* that made a person lapsed, and the confessors' certificate asking that a named person be received back.
+
+**Gravities most visible:** G2 (the penitential rite), G6 (the baptismal-validity question), G4 (catechesis and preaching as the repeated practice), G1 (the office administering all of it).
+
+**What this reveals that Doc_05 alone did not show:** held together with §2D below, the ritual life of this world is the *generator* of its theology rather than its expression. Cyprian's ecclesiology is worked out because converts arrive from outside and someone must decide what to do with them at the font; Augustine's is worked out because a rival communion's clergy must be received or re-ordained. **The sharpest theological arguments this world produced are arguments about who may perform an act, on whom, and after what.**
+
+---
+
+### 2B. Experiential/Emotional
+
+**What this lens reveals for this world:** an emotional record that is unusually rich and unusually one-sided, and **one-sided in the opposite direction from this project's other North African world**.
+
+The dominant attested affect is a bishop's grief that refuses distance from the people it grieves over. *De Lapsis* does not describe the congregation's failure from above: *it is the shepherd that is chiefly wounded in the wound of his flock*, and *I wail with the wailing, I weep with the weeping*. That is not rhetorical decoration — it is **G1's emotional content**: if a man is personally answerable for a bounded flock, its failure is his injury. A second register is attested at Hippo and is a different emotion entirely: the low-grade anxiety of competition, a preacher who knows the public shows have emptied part of his church and asks those who came to be anxious for those who did not. A third, in Cyprian's letters, is the exhaustion of a bishop kept from his own people by a presbyteral faction's *ancient venom*.
+
+**The asymmetry is the finding, and it is worth stating against the sibling case.** Donatism's Doc_07 records an emotional record accessible precisely where it is *least* mediated by a hostile hand — the martyr texts — and inaccessible wherever it would have had to survive inside an opponent's framing. **This world's asymmetry is not hostile mediation at all.** Both anchor voices are the tradition's own, speaking in the first person, at enormous length. What is missing is not the un-hostile record but **the non-episcopal one**: the interior life of any ordinary believer in this world is Inferential/Thin and is narrated nowhere in this build. So this world's emotional evidence is *full* and *single-angled* at once — a different problem from thin evidence, and one a Representative will feel directly.
+
+**Gravities most visible:** G1 (answerability as an emotional fact), G2 (grief over the failed), G8 (the confessors' conviction, which is earnest on both sides).
+
+**What this reveals that Doc_05 alone did not show:** the one emotional state this world documents best — a pastor's grief that will not stand apart from the people it grieves over — is *structurally* produced by its central gravity rather than being a personal trait of two unusually warm men. Change the office and the emotion goes.
+
+---
+
+### 2C. Narrative/Mythic
+
+**What this lens reveals for this world: very little, and the thinness is the result, not a coverage failure.**
+
+This world has no founding narrative, no origin myth, and no story it tells about how it came to be. It has two pastoral biographies — Pontius's *Life of Cyprian*, the first surviving Latin account of its kind, and Possidius's *Vita Augustini*, which is vendored (Registry row 192) and **has not been read in this build beyond a single identification**. It has one attested homiletic commemoration: Augustine preached on Perpetua and Felicitas by name (row 122, Confidence C, not independently re-read here). Against that sit roughly 308,000 words of sermons and a vast treatise corpus.
+
+**The ratio is the finding.** This world remembers itself overwhelmingly through **what it taught** rather than through **what it narrated about itself** — and the reason is not evidentiary accident. A community that understands itself as the ordinary church, doing the ordinary work of pastoring the people in front of it, has no founding rupture to narrate and does not experience itself as needing one. Compare the sibling case directly: Donatism's narrative/mythic dimension is among its richest, because a movement constituted by a founding accusation and sustained by named martyrs *must* narrate itself to exist. **This world's mythic thinness is a positive fact about its self-understanding, not a gap in its record.**
+
+**Gravities most visible:** none strongly. G1 is visible in the two biographies insofar as both are organized around the holding of office.
+
+**What this reveals that Doc_05 alone did not show:** a Representative of this world should be expected to reach for a text, a ruling or a pastoral case rather than a story — and that expectation should be built in rather than discovered later as a deficiency.
+
+---
+
+### 2D. Doctrinal/Philosophical
+
+**What this lens reveals for this world:** doctrine generated by pastoral pressure, and a single recurring move underneath otherwise unrelated positions.
+
+Three doctrinal bodies dominate. **Sacramental validity across the church's boundary (G6)** is argued at book length by both anchor figures, to opposite conclusions, with the question persisting while the answer reverses. **Grace and human incapacity (G7)** is the densest textual object in the world — 1,798 raw occurrences across thirteen dedicated works, the highest count on Doc_03's entire list — and is Augustine-phase-bound and evidentially freestanding: Doc_04 finds nothing else in the ecology depends on it resolving either way. **Conciliar authority (G5)** is two incompatible formulas exchanged across a century.
+
+**The recurring move is the finding: this world characteristically refuses to let a single factor be decisive.** Cyprian refuses to let one act under persecution permanently determine membership. Augustine refuses to let a minister's purity determine a sacrament's validity, and refuses to let a believer's unaided will determine their standing before God. Doc_01 §6 noticed this resonance and proposed it as a possible fifth gravity; **Doc_04 §2 tested it and declined to advance it**, finding it is not one candidate but three distinct evidentiary bases wearing one label. This document therefore names it as **a shape this world's reasoning repeatedly takes, and explicitly not as an organizing force** — the distinction Doc_04 drew, and which this document is bound by rather than free to soften.
+
+**Gravities most visible:** G6, G7, G5.
+
+**What this reveals that Doc_05 alone did not show:** the refusal-of-the-single-test shape and the rite-generates-doctrine finding of §2A are the same phenomenon seen from two sides. A world whose theology is produced at the font and the penitential bench will keep meeting cases where one clean criterion would settle everything and the pastoral cost of applying it is unacceptable.
+
+---
+
+### 2E. Ethical/Legal
+
+**What this lens reveals for this world:** that its penitential discipline is not a devotional practice but a **functioning legal system**, and that this world is a significant site of actual law-making.
+
+Penitential discipline (G2) has every feature of a juridical order: an examined entry, graded severity keyed to the gravity of the offence, a defined duration, a competent authority, a formal act of restoration, and contested jurisdiction — the confessors' rival claim (G8) is precisely a jurisdictional dispute about who may grant peace. Conciliar rulings (G5, G6) are legislation: the 256 Council rules on rebaptism; the councils of Carthage that Augustine's generation continued to hold include **the 419 council that codified the African church's own canon law**, in the context of the Apiarius appeal to Rome — a jurisdictional dispute Doc_01 §2 names rather than smooths.
+
+**The coercion question belongs here and must be stated at Doc_01's own precision.** Augustine's relationship to state power develops across **three** phases, not two: an early opinion, by his own retrospective account, against any coercion; a real but narrow solicitation of legal protection, argued and in the event not granted; and, later, a sustained defence of broader compulsion after an argued change of position. **Cyprian never solicits state power at all.** The doctrine is known in this world's corpus only through Augustine's own advocacy, in his own defence, **with no Donatist first-person answer surviving** — and Doc_02 §6's routing note places the characterization of this world's opponents with Article 23 and this world's eventual Representative, not with this document.
+
+**Gravities most visible:** G2 (the disciplinary order), G8 (the jurisdictional contest), G5 and G6 (the legislative acts).
+
+**What this reveals that Doc_05 alone did not show:** Doc_01 defines this world against Imperial-Juridical Christianity by calling its formation logic *"pastoral and sacramental before it is juridical."* **That contrast survives this lens but needs restating more precisely than a contrast between a legal world and a non-legal one.** This world is thoroughly juridical — it runs a disciplinary system and writes canon law. The difference is *what the law is for*: here legal machinery exists to regulate the readmission of failed members of a bounded local community, where in World #6 it exists to order the relations of sees and the church's standing with the state. **Same instrument, different object** — and that is a sharper boundary claim than the one Doc_01 made, reached by asking the ethical/legal question M4 requires and the older template did not.
+
+---
+
+### 2F. Social/Institutional
+
+**What this lens reveals for this world:** an institutional order whose authority runs in two directions at once, and whose most visible non-episcopal actors are visible precisely because they contested it.
+
+The structure: a bishop personally answerable for a bounded territorial flock, in a city, with presbyters and deacons; two such cities, in **two different ecclesiastical provinces** (Carthage, metropolitan in Africa Proconsularis; Hippo, Numidian) — so this world's second anchor is a provincial bishop answerable within a different provincial structure than the primatial see whose wider African councils he nonetheless attended. Beneath the clergy, the baptized; alongside them, catechumens; and in Cyprian's phase only, **confessors as a quasi-order** with a claimed power over reconciliation.
+
+**Authority runs upward as well as downward, and the evidence for that is unusually good.** Congregational demand overrides a reluctant convert's preference at the point of entry into clerical office — at the episcopate for Cyprian (*your suffrage and God's judgment*), at the presbyterate for Augustine, **not at the same office for both**, which Doc_03 insists on and this document keeps. And the congregation can act: the best-documented congregational disturbance in this world's record is the Hippo crowd of 411 demanding Pinianus's ordination, clamouring, abusing a visiting bishop, and refusing to disperse. **The limit is equally attested: they did not get him.** This world's congregational authority is real, loud, and bounded by the bishop's refusal — and the best-documented instance of it is an instance of it failing.
+
+**Gravities most visible:** G1, G8, and G3 (the collegial relation between bishops is itself an institutional fact).
+
+**What this reveals that Doc_05 alone did not show:** the presbyters appear in this record almost exclusively as *faction* — five in recorded opposition to Cyprian's election, an Epistle addressed to the people *concerning five schismatic presbyters*. That is a real distortion in the institutional picture: the ordinary, non-factional work of a presbyter in this world is essentially unattested, and a Representative should not be built as though the presbyterate were inherently oppositional.
+
+---
+
+### 2G. Material
+
+**What this lens reveals for this world:** almost nothing from archaeology, and **more than expected from the texts** — which is itself the finding.
+
+**The negative first, and it is real.** No site report, inscription catalogue or excavation record has been independently verified in this build (Doc_02 §5, §9 items 2–3). Registry row 38 (basilica archaeology) stands at Confidence D; rows 63 (Marec, Hippo) and 82 (Ennabli, Carthage) now name a specific excavation for each city but **neither has been re-read here**. This world has **no distinctive liturgical epigraphic marker** of the kind the sibling Donatism build can point to in *Deo laudes* attested on stone — and none is asserted without evidence.
+
+**The positive is textual, and it is genuine material evidence.** Letter CXXVI describes the interior of the basilica at Hippo in the course of narrating the 411 disturbance: the bishop withdrawing to his own seat (*ad nostra subsellia*), *"the more venerable and aged men who had come up to me in the apse,"* and the crowd *"gathered in front of the steps."* That is an apse, a raised clergy seating area, steps, and a congregational floor — **architectural evidence recovered from a pastoral letter rather than a trench.** Alongside it sit two documentary artefacts that were physically real and administratively consequential: the *libellus* certifying compliance with the Decian edict, and the confessors' certificate naming a person to be received back, issued in what Cyprian calls *thousands*.
+
+**Gravities most visible:** G1 (the bishop's seat is the office made architectural), G2 (the certificates are the discipline made documentary).
+
+**What this reveals that Doc_05 alone did not show:** this world's material dimension is **document-borne rather than excavated**, and that is consistent with everything else about it — a world whose surviving record is the correspondence and preaching of two bishops leaves its physical traces inside that correspondence. **A future acquisition pass should not treat §2G as empty; it should treat it as unexcavated**, which is a different instruction.
+
+---
+
+### 2H. Boundary Structures *(CiC addition, named as an addition)*
+
+**What this lens reveals for this world:** a boundary drawn at the sacrament, drawn twice, oppositely, by the two anchor figures — and an internal rule that keeps disagreement from becoming separation.
+
+The external boundary is **G6**. Cyprian: what is given outside is not given; bring them to the water. Augustine: what is given outside is truly given and does them no good where they stand; bring them in, and what they carry will begin to work. The question persists across the century-gap while the answer reverses, which Doc_04 reads as evidence of the question's centrality rather than of instability.
+
+The internal rule is **G3**, and it is this world's most characteristic structure: *judging no man, nor rejecting any one from the right of communion, if he should think differently from us*, said aloud by the man presiding over the council that will decide the sharpest question in the room. A century and a third later, Augustine argues at book length that that man's ruling was wrong — and never places him outside. **Disagreement is expected; separation is the thing this world organizes itself to avoid.**
+
+**Forces integration, required here by Forces Framework V1.1 Step 7 and given in its own three movements.** *What the world was responding to:* in Cyprian's phase, individual converts arriving from schismatic and heretical groups, and a rupture with Rome over how to receive them; in Augustine's, an organized parallel hierarchy holding the same towns. *What pressed from outside:* persecution, which made the boundary a question about survivors; then, after the gap, a rival communion with its own bishops, and an imperial power that could be asked to act against it. *What fractured from within:* the Felicissimus schism opening during Cyprian's own absence in hiding, and the roughly contemporaneous Novatianist rival consecration at Rome — **both boundary failures of exactly the kind G3 exists to prevent, and both inside Cyprian's own phase.** G3 is not a description of a world that never fractured; it is the rule that world adopted *because* it had.
+
+**Gravities most visible:** G6, G3, G2.
+
+---
+
+### 2I. Formation Logic *(CiC addition, applied after all other lenses)*
+
+**What this lens reveals for this world:** what a person is actually being formed *into* — a member of a body that can hold them through their own failure.
+
+Every other lens converges here. The ritual sequence (§2A) ends in a rite of restoration. The emotional register (§2B) is a pastor's refusal to stand apart from those who failed. The doctrinal move (§2D) is the refusal of any single decisive test. The legal order (§2E) is a graded road back rather than a verdict. The institutional fact (§2F) is that one named man is answerable for these particular people. The boundary rule (§2H) is that disagreement does not sever.
+
+**Doc_01 §1 names this formation logic as "pastoral and sacramental before it is juridical," and the lens work above both confirms and sharpens it** (§2E). The formation logic is not the absence of law but the subordination of law to the recovery of the particular person the law is about.
+
+**Gravities most visible:** all four Primary, which is what makes this the convergence lens rather than a further dimension.
+
+---
+
+## 3. Additional Lenses (Where Evidence Supports)
+
+### 3A. Memory Structures — **applied**
+
+This world's memory is pastoral biography and conciliar record, and both are thin relative to what it taught (§2C). **The structurally interesting fact is how its second phase remembers its first: not through an institutional chain of transmission but through texts read later.** Augustine reads Cyprian's conciliar acts, prompted by the Donatists citing them against him, and argues with him. Doc_01 §6 places that engagement as an internal force with an external prompt and flags the placement as a judgement rather than a clean case; it is carried that way here. **The 133-year documentary silence is therefore not only an evidentiary gap but a feature of the world's own memory structure** — continuity across it is textual, not successive.
+
+### 3B. Interpretive Ecology — **applied**
+
+Scripture is read toward pastoral application; the characteristic interpretive act is a bishop applying a text to a decision his congregation is waiting on. **The distinctive object is this world's own conciliar past**, and G5 is where it bites: Augustine's own principle is that plenary councils *"are often corrected by those which follow them, when, by some actual experiment, things are brought to light which were before concealed."* **This is an interpretive ecology in which the tradition's prior rulings are authoritative and revisable at once** — and it is stated by the man who needs both halves, since he intends to honour a predecessor while overturning what that predecessor decided.
+
+### 3C. Representative Theological Patterns — **applied**
+
+Four patterns recur strongly enough to make a Representative recognizable: argument from pastoral consequence; refusal of the single determining factor; disagreement conducted inside communion; and answerability as the ground of office.
+
+**One pattern is deliberately excluded and the exclusion is a finding, not an omission.** Neither conciliar formula (G5) is a Representative theological pattern on this document's evidence, because Doc_04 finds **no evidence that ordinary believers, catechumens or most clergy in either phase were formed by, or aware of, the question**. Per Doc_04 §7 item 2 this is **not** a suppression of G5: it remains a named Supporting gravity with both formulas' existence Documented, and §2D above treats it. A pattern list answers a different question — what a Representative would be recognizable by — and the two must not be conflated.
+
+---
+
+## 4. Forces as Integration Lens
+
+**Forces documentation status at time of writing: Doc_08 NOT YET COMPILED.** This section synthesizes the forces threads already running through prior steps, as Forces Framework V1.1 Step 7 requires — *"synthesize the forces threads that have been running through prior steps rather than introducing forces analysis for the first time at this stage"* — drawing on Doc_01 §6's preliminary six-cell sketch, Doc_02 §6's source-ecology forces lens, Doc_04's per-candidate forces-connection notation, and Doc_05's per-lens forces integration. **It does not pre-empt Doc_08's formal compilation.**
+
+**Forces most visible in the ritual and legal dimensions (§2A, §2E).** The Decian edict is not background to this world's formation; it *created* the category the entire penitential system exists to process. There were no lapsed before there was a certificate to obtain, and no confessors with a claim on anything before there was an interrogation to survive. **A single imperial administrative demand produced, in one year, two new classes of person inside one congregation — and G2 and G8 are the community's response to having both in the room at once.**
+
+**Forces most visible in the boundary structures (§2H).** The Donatist schism is the force that makes G6 institutionally consequential rather than a question about individual converts — and the specific mechanism is worth naming because it is unusually direct: **the Donatists appealed to Cyprian's own authority for their rebaptism doctrine**, which is what obliged Augustine to argue against a predecessor he could not disown. An external force reached into this world's interpretive ecology (§3B) and set its agenda.
+
+**Forces most visible in the emotional texture (§2B).** Persecution and plague press on the same congregation within a few years of each other, and the second is the one no discipline can sort. *De Mortalitate* exists because a bishop had to say something to people dying of something that was not a test of faith.
+
+**Where forces and ecology are most tightly coherent.** G1 and the whole sequence of external pressures. This world's central gravity is a bishop's personal answerability for a bounded flock, and **every force that presses on it presses through that bond**: the edict tests whether the flock holds, the plague tests whether the bishop stays, the rival communion tests whether the flock can be taken away, and the Vandal army arrives while he is still in his see. The gravity and the forces are not separable statements.
+
+**Where forces analysis complicates the ecology analysis.** G5. Read from inside the ecology alone, the conciliar-authority axis looks like a live theoretical disagreement. Read through forces, it is visibly **an artefact of the century-gap itself** — two men in incompatible political situations, answering a question neither posed to the other, whose disagreement becomes consequential only because a third party cited the first against the second. Doc_04 records that this candidate exhibits the Forces Framework's own *"incomplete ecology"* shape — a gravity whose connection to the forces acting on the world is partial — and this lens confirms that reading rather than resolving it.
+
+**The single most important thing the forces lens reveals:** this world's formation ecology is **built to metabolize crisis into teaching**. Every external pressure on record arrives at an ordinary believer transformed into a sermon, a catechesis, or a decision about the table. The persecution produces *De Lapsis* and a penitential order; the plague produces *De Mortalitate*; the rival communion produces a book-length argument about baptism; Pelagian anthropology produces thirteen works. **That conversion mechanism is the reason this world's gravities can be described as stable under forces that would have reorganized a differently-built ecology.**
+
+---
+
+## 5. Cross-Lens Synthesis
+
+**The central coherence.** This is a world of bounded, territorial, congregational life under a personally answerable bishop, whose theology is generated at the font and the penitential bench, whose law exists to bring failed members back, and whose defining rule is that disagreement — however sharp — does not sever communion.
+
+**What this world's distinctiveness consists of, against its neighbours.** Against **World #6 (Imperial and Juridical Christianity)**: both worlds are thoroughly juridical, and §2E sharpens the boundary — the difference is the law's *object*, the readmission of a failed local member versus the ordering of sees and the church's standing with the state. Against **World #4 (Donatism)**: the sharpest contrast this project has, because the two worlds share a corpus, a province and a century, and answer the same question oppositely — when a bishop disagrees irreconcilably, does he preserve communion or build a rival hierarchy? **G3 is precisely the axis on which they diverge**, and this world is the one that keeps both parties. Against **World #9 (Hieronymian ascetic-literary)** and **World #2 (Alexandria)**: this world's formation happens in a congregation on a Sunday, not in a study or a school.
+
+**The most significant cross-lens insight.** The rite-generates-doctrine finding (§2A), the refusal-of-the-single-test shape (§2D), and the law-serves-recovery finding (§2E) are **three descriptions of one mechanism.** A world whose theology is produced by deciding actual cases about actual people will keep encountering situations where one clean criterion would settle the matter and the cost of applying it is a person. Its doctrine, its law and its ritual all bend the same way because they are all downstream of the same pressure. **That is this world's integrative structure, and no single Doc_05 lens shows it** — each shows one face.
+
+**What this synthesis gives a future Representative.** A voice that reaches for a case rather than a story (§2C), that argues from pastoral consequence, that can hold a sharp disagreement without treating the other party as outside, and that will not let one test decide a person. It also gives a clear negative: **this Representative should not be built to speak for ordinary believers' interior experience**, which this world's record does not carry (§2B), nor to characterize this world's opponents, which Article 23 reserves.
+
+---
+
+## 6. Integrative Observation
+
+To be formed in this world was to be somebody's — and to discover that this was a stronger fact about you than your own failure was. The conviction underneath everything else here is not that the church is pure, nor that it is right, but that it is **answerable**: a named man is answerable for you, the community is answerable for what it does with you when you fail, and the road back is walked where people can see it because the people who watched you fall are the ones who have to receive you. This world argues ferociously — about water, about councils, about grace — and it argues *inside* a bond it will not break, because the bond is the thing it actually believes in. Its two great crises are both, at bottom, the same question asked twice: **what do you owe someone who is yours and has failed?**
+
+---
+
+## 7. Gaps and Limits
+
+**Where required lenses produced thin analysis, stated as results.** **Narrative/Mythic (§2C)** is genuinely thin, and §2C argues that the thinness is a positive fact about a world that understands itself as the ordinary church rather than a movement with a founding rupture. **Material (§2G)** is thin on archaeology — nothing independently verified in this build — and unexpectedly productive on document-borne evidence; the correct instruction to a future pass is *unexcavated*, not *empty*.
+
+**Optional lenses: all three applied.** Memory Structures, Interpretive Ecology and Representative Theological Patterns each carry content this world's evidence specifically supports (§3). None was applied for coverage.
+
+**What the gaps mean for the Representative.** Rich on pastoral reasoning, on the mechanics of failure and restoration, on sacramental argument, and on the texture of a bishop's answerability. **Naturally and unfixably thin** on: any ordinary believer's interior life; rural and Punic- or Berber-speaking congregational life, which is wholly unreconstructed (Doc_05 §6.9); the physical setting of worship; and the 133-year interval, which is a genuine silence in *this world's* record and must never be filled from the neighbouring world whose sources do cover it.
+
+**One evidentiary question remains open and this document relies on nothing from it.** The Migne printing of the *Gesta Collationis Carthaginiensis* — the record of the 411 Conference, the most obvious place in this corpus where inter-episcopal authority structure would be visible among clergy other than the two anchor figures — **has not been validly read**; two attempts were withdrawn. It bears on G5's Repetition and Persistence. **No lens above draws on it.**
+
+---
+
+## 8. Open Items and Handoff
+
+**For Doc_08 (Forces Document), which this document exists partly to feed:**
+
+1. **§4 is a synthesis, not a compilation.** Doc_08 owes the full six-cell matrix at three layers, Transmission as a named force dimension in cells 2B and 3B, and the Forces-and-Gravities Synthesis. §4's four named force-clusters — the Decian administrative demand, the Donatist appeal to Cyprian's authority, the plague, and the metabolize-crisis-into-teaching mechanism — are the threads to compile, not the compilation.
+2. **G5's incomplete-ecology shape must be carried, not resolved.** Doc_04 records that this candidate exhibits the shape the Forces Framework names for a gravity that cannot be fully connected to the forces acting on the world. §4 confirms rather than closes it. **Doc_08 should not tidy it away.**
+3. **Transmission is unusually load-bearing in this world** and §3A gives Doc_08 its starting point: continuity across the 133-year gap is textual rather than successive.
+
+**Carried from upstream, unresolved:**
+
+4. **Three documents remain not self-disposed** — Doc_04, Doc_05, Doc_06 — with **three portfolio-level items** (the corpus-wide editorial-apparatus question; the *Boundary Structures* / *Boundary Ecology* internal inconsistency in the two L3 files; the Key Texts / Key Sources template mismatch), **four governance/methodology items** (Doc_04's three, plus the translated-corpus discovery-method finding), and **one unresolved tension** (item 6 below). All require the project lead.
+5. **A fourth Framework/template divergence, added here.** `L4-Templates/Integrated_Ecology_Analysis_Template.md` documents the pre-M4 lens structure while the Framework and the Completion Standard both require the M4 spine (§1). **Named for census-level correction, not corrected from here** — the L4 templates are coach-thread files.
+6. **The 411 *Gesta* remains unread**, with no owner and no acceptance criterion. Doc_04 §7 Open Item 6.
+7. **Possidius's *Vita Augustini* (row 192) remains unread beyond one identification**, and it is the natural source for §2C's thinnest corner.
+8. **The liturgical material has still never been read *as* liturgical evidence** (Doc_02 §9 item 9). Given §2A's finding that this world's crises *are* rite disputes, this is the highest-value unblocked task in the build — and Doc_06 §5 item 3 notes it would likely surface at least one further lexicon term.
+9. **This world still has no `Open_Gaps_Tracking.md`**, which `CLAUDE.md` requires of every world and which only three of twelve worlds have. Fleet-level; the project lead's.
+
+---
+
+## Document Log
+
+| Date | Event | Artifact | Result |
+|---|---|---|---|
+| 2026-09-15 | Initial draft | — | Step 7 deliverable produced |
+
+---
+
+## Disposition
+
+**Not disposed.** No review round has been run against this document. A build thread does not score its own work as passing.
+
+**Escalation-category assessment (CO-022).** *Representative identity, title, or voice:* **does not apply** — §3C and §5 describe theological *patterns* and what a Representative would be recognizable by, which CF V7.4 Step 7 requires; no identity, title or voice decision is made or implied. *Portfolio-level or cross-world:* **four items, none decided here** — the three inherited, plus the M4/template divergence at §8 item 5. *Governance or methodology:* **open, unchanged** — four items; this document adds none. *Unresolved tensions:* **one open** — the 411 *Gesta*, and no lens above draws on it.
+
+**The build-cycle departure, stated plainly rather than worked around.** `cic-build-cycle` provides that a document must reach at least *Approved to proceed* before the next begins. **Three have not**, because escalation categories are open against each and CO-022 forbids a build thread from self-disposing in that condition. This document was drafted on the project lead's direct direction of 2026-09-15. **Four documents in this world are now complete, independently reviewed, and awaiting a disposition only the project lead can give.**
