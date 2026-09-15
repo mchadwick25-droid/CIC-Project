@@ -29,6 +29,29 @@ The split cannot be read off the records mechanically, so this script reports
 what it can measure and marks the rest `unclassified` for a human. It does not
 guess which bucket a source belongs in.
 
+SECOND HALF, added 2026-09-15: the Atlas's documented stories.
+
+The register was generated from records/ alone, and so could not see the
+largest single block of citations in the project. The 545 `documentedStories`
+in cic-website/atlas-v3.html carry 1,111 primary-source citations, and the
+field exists only in that file - world-census.json holds none of it. A
+verification audit that month (Ministry/Operations/Audits/
+CiC_Atlas_Documented_Stories_Verification_Audit_2026-09-15.md) found 490 of
+the 545 stories declaring "primary text not yet read", 177 of those carrying
+369 quoted spans, and - reading the one story whose source was vendored
+completely enough to audit - four real corrections. The instrument meant to
+surface exactly that condition was blind to it.
+
+The same discipline applies here as above: a work is a want because the data
+says so in its own words, never because this script inferred it. A story's
+`verification` field states whether its primary text was read; that is the
+signal used, and nothing is concluded from a work's title. In particular this
+half does NOT try to decide whether a cited work is vendored: matching a
+citation string to a file under cic/texts/ proved unreliable in the audit
+(Gregory the Great's Register of Epistles passing for his Dialogues, Gregory
+of Nyssa for Gregory of Nazianzus), and a check that quietly mismatches is
+worse than one that abstains.
+
     python world-build-docs/_cross-world/gen_wants_register.py
 """
 import re
@@ -116,6 +139,102 @@ def gather_rows() -> tuple[list, list]:
     return rows, worlds
 
 
+ATLAS = ROOT / "cic-website" / "atlas-v3.html"
+_UNREAD = "primary text not yet read"
+# The stories quote with curly single quotes and contain no double quotes at
+# all - a detail worth keeping in code, because searching for the wrong mark
+# is what first reported this corpus as carrying zero quotations.
+_QUOTE = re.compile(r"\u2018[^\u2018\u2019]{8,400}\u2019")
+
+
+def _atlas_stories() -> list[dict]:
+    """Every documentedStory in atlas-v3.html, with its owning entry id.
+
+    The file is a web page with the census inlined, not a data file, so each
+    record is located by its own `"id": "..."` and decoded from there.
+    """
+    import json
+    text = ATLAS.read_text(encoding="utf-8")
+    dec = json.JSONDecoder()
+    out = []
+    for wid in dict.fromkeys(re.findall(r'"id": "([a-z0-9\-]+)"', text)):
+        i = text.find('"id": "%s"' % wid)
+        start = text.rfind("{", 0, i)
+        try:
+            obj, _end = dec.raw_decode(text, start)
+        except ValueError:
+            continue
+        if obj.get("id") != wid:
+            continue
+        for story in obj.get("documentedStories") or []:
+            out.append({"world": wid, **story})
+    return out
+
+
+def gather_atlas_rows() -> tuple[list, int, int]:
+    """Primary sources the Atlas's stories cite without having read, grouped by
+    the citation's leading name. Returns (rows, story_count, entry_count).
+
+    Grouped by name, not by work, because ranking individual works produced
+    nothing usable: 1,885 distinct works, almost every one cited exactly once,
+    so the "ranking" came out alphabetical. Acquisition works by author and
+    volume anyway - obtaining Eusebius answers eleven stories at once, which
+    is the number worth printing.
+
+    Value is the number of citing stories that actually quote. A quotation is
+    the sharpest thing that can rest on a source nobody has opened, and the one
+    the 2026-09-15 audit found real errors in. Counts are per story and are
+    never divided among the works a story cites - which quotation came from
+    which of its four sources is not in the data, and apportioning it would be
+    invention.
+    """
+    stories = _atlas_stories()
+    agg: dict[str, dict] = {}
+    for s in stories:
+        if _UNREAD not in str(s.get("verification") or ""):
+            continue
+        quoting = bool(_QUOTE.search(s.get("text") or "") or _QUOTE.search(s.get("teaser") or ""))
+        for ref in s.get("sources") or []:
+            if str(ref.get("type") or "") != "primary":
+                continue
+            work = str(ref.get("work") or "").strip()
+            # The leading name: an author where there is one, the work's own
+            # title where there is not ("Russian Primary Chronicle").
+            cited = re.split(r"[,(]", work)[0].strip()[:52]
+            if len(cited) < 3:
+                continue
+            row = agg.setdefault(cited, {
+                "cited": cited, "stories": 0, "quoting": 0,
+                "entries": set(), "works": set(),
+            })
+            row["stories"] += 1
+            row["quoting"] += int(quoting)
+            row["entries"].add(s["world"])
+            row["works"].add(work[:70])
+    rows = []
+    for row in agg.values():
+        row["entries"] = len(row["entries"])
+        row["works"] = len(row["works"])
+        rows.append(row)
+    rows.sort(key=lambda r: (-r["quoting"], -r["stories"], r["cited"]))
+    return rows, len(stories), len({s["world"] for s in stories})
+
+
+def atlas_totals(stories: list[dict]) -> dict:
+    """The counts the Atlas section quotes about itself, measured not assumed."""
+    unread = [s for s in stories if _UNREAD in str(s.get("verification") or "")]
+    quoting = [s for s in unread
+               if _QUOTE.search(s.get("text") or "") or _QUOTE.search(s.get("teaser") or "")]
+    spans = sum(len(_QUOTE.findall(s.get("text") or "")) + len(_QUOTE.findall(s.get("teaser") or ""))
+                for s in quoting)
+    refs = {str(r.get("work") or "")[:96] for s in stories for r in (s.get("sources") or [])
+            if str(r.get("type") or "") == "reference"}
+    cites = sum(1 for s in stories for r in (s.get("sources") or [])
+                if str(r.get("type") or "") == "primary")
+    return {"unread": len(unread), "quoting": len(quoting), "spans": spans,
+            "refs": len(refs), "cites": cites}
+
+
 def main() -> None:
     rows, worlds = gather_rows()
     by_kind: dict[str, list] = defaultdict(list)
@@ -182,6 +301,57 @@ def main() -> None:
         for row in group:
             value = f"**{row['depends']}**" if row["depends"] >= 5 else str(row["depends"])
             out.append(f"| {value} | `{row['world']}` | {row['author'] or '—'} | {row['work']} |")
+
+    # ---- second half: the Atlas's documented stories -----------------------
+    arows, nstories, nentries = gather_atlas_rows()
+    tot = atlas_totals(_atlas_stories())
+    out.append("\n---\n")
+    out.append("# The Atlas's documented stories\n")
+    out.append(
+        f"{nstories} `documentedStories` across {nentries} Atlas entries, carrying "
+        f"**{tot['cites']} primary-source citations**. The field lives only in "
+        "`cic-website/atlas-v3.html` — `world-census.json` holds none of it — which is why this "
+        "register could not see any of it before 2026-09-15.\n"
+    )
+    out.append(
+        f"**{tot['unread']} of those stories say their primary text was not read**, and "
+        f"{tot['quoting']} of those put {tot['spans']} quoted spans into a historical figure's "
+        "mouth. That is the condition this register exists to surface, and the table below is "
+        "what it costs.\n"
+    )
+    out.append(
+        "**Grouped by the citation's leading name, not by work.** Ranking works produced "
+        "nothing usable — 1,885 distinct works, almost every one cited once — and acquisition "
+        "works by author and volume anyway. **Value is citing stories that quote**, counted per "
+        "story and never divided among the works a story cites; which quotation came from which "
+        "of its sources is not in the data.\n"
+    )
+    out.append(
+        "**This half does not say whether a work is vendored.** Matching a citation to a file "
+        "under `cic/texts/` proved unreliable in the audit — Gregory the Great's *Register of "
+        "Epistles* passed for his *Dialogues*, Gregory of Nyssa for Gregory of Nazianzus — and a "
+        "check that quietly mismatches is worse than one that abstains. Settling it takes the "
+        "audit's method: find the cited passage and read it.\n"
+    )
+    head = [r for r in arows if r["stories"] >= 2]
+    tail = len(arows) - len(head)
+    out.append(f"\n## Cited but not read — {len(arows)} names\n")
+    out.append("| quoting | stories | entries | works | cited |")
+    out.append("|---:|---:|---:|---:|---|")
+    for row in head:
+        q = f"**{row['quoting']}**" if row["quoting"] >= 3 else str(row["quoting"])
+        out.append(f"| {q} | {row['stories']} | {row['entries']} | {row['works']} | {row['cited']} |")
+    out.append(
+        f"\nBelow this, **{tail} names are cited by a single story each** — the long tail of a "
+        "corpus that spans ten eras, and not a ranking. They are in the data, not in this table, "
+        "because a table of one-apiece rows sorted alphabetically is not a priority list.\n"
+    )
+    out.append(
+        f"\n{tot['refs']} distinct **reference works** are also cited. They are modern secondary "
+        "literature, mostly in copyright and not vendorable, and they are what the stories were "
+        "actually written from — so they are counted here but not listed: nothing about them is "
+        "acquirable in the sense this register means.\n"
+    )
 
     out.append("\n---\n")
     out.append(
