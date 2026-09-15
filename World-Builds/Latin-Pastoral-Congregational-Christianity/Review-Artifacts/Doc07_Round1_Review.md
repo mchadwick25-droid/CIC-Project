@@ -10,7 +10,7 @@
 **Read as governing standard, not reviewed:**
 - `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx`, `word/document.xml` extracted and tag-stripped in full (Part VII Step 7 text and Part III located and quoted at source below).
 - `L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx`, same treatment (Step 7 entry located and quoted).
-- `Ministry/Technology/CiC_World_Build_Completion_Standard_V1.3.md` §F.
+- `reference/method/CiC_World_Build_Completion_Standard_V1.3.md` §F.
 - `L4-Templates/Integrated_Ecology_Analysis_Template.md`, full text, including its Version History and its Section 1 / Section 7 checklists.
 - `L1-Foundation/CiC_L1_Constitution_V2_2.docx`, `word/document.xml` extracted and tag-stripped in full; Articles 17, 19, 20, 22, 23 located by text search (headings are not numbered in the docx's own paragraph styling, so Article text was matched by content, not by a heading grep — noted because it means a numbering error in the source docx itself would not necessarily surface this way).
 - `Doc_01`, `Doc_02`, `Doc_04`, `Doc_05` (full), `Doc_06` plus its own Round 1 review (for house form and for what is already independently settled), `lpc_Decision_Log.md` (tail, the four 2026-09-15 entries covering Doc_06 Rounds 2–3 and the Doc_07 drafting entry), `Source_Registry.md` (row lookups only).

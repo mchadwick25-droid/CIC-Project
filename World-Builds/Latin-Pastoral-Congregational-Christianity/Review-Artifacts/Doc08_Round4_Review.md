@@ -46,7 +46,7 @@ The distance to clearance is short. Four edits close every HIGH: strip correctio
 9. **Coverage measurement of the §6 control** over the live document's Layer-3 prose, printing every gravity-naming sentence the control examines, every one `DISCLAIM` suppresses, and every one that carries no `CONNECT` verb.
 10. **Counts:** `git show` of the Status line and the Disposition's closing sentence at all four commits; `git diff --word-diff` of the Round 3 fix pass across both deliverables; correction-notice counts in both files; Layer 2 character lengths by the generator's own measure.
 
-**Verification sources opened:** `Doc_01` §6 (the preliminary six-cell sketch), `Doc_02` §1 and §2, `Doc_05` §2.3 and §11, `Doc_06` §5, `Doc_07` §2G, `Lexicon_Deployment_Index.md` §6 and §7, `Source_Registry.md` rows 203 and 209, `cic/texts/INTAKE.md`, `Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md`, `World-Builds/Donatism/Doc_08_Forces_Document.md` §8 and §9, `World-Builds/Alexandria-Catechetical-School/Doc_08_Forces_Document.md` 3A-2.
+**Verification sources opened:** `Doc_01` §6 (the preliminary six-cell sketch), `Doc_02` §1 and §2, `Doc_05` §2.3 and §11, `Doc_06` §5, `Doc_07` §2G, `Lexicon_Deployment_Index.md` §6 and §7, `Source_Registry.md` rows 203 and 209, `cic/texts/INTAKE.md`, `reference/method/CiC_Record_Native_World_Build_Process_V1_3.md`, `World-Builds/Donatism/Doc_08_Forces_Document.md` §8 and §9, `World-Builds/Alexandria-Catechetical-School/Doc_08_Forces_Document.md` 3A-2.
 
 ---
 

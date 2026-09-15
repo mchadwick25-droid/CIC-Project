@@ -28,7 +28,7 @@
 
 **Every quotation re-verified with the mechanical `<note>` remedy applied.** `cic/texts/npnf101_augustine-confessions-letters.xml` and `npnf104_augustine-anti-manichaean-anti-donatist.xml` were read with `<note>…</note>` spans **marked before tags were stripped** (`re.sub(r'<note\b[^>]*>(.*?)</note>', '⟦NOTE:…⟧', x, flags=re.S)`, then tag-strip, then `html.unescape`), so that editorial matter is visibly separated from the source's own voice. This found one instance — see NEW-L4.
 
-**Governing documents read as standard:** `L4-Templates/Integrated_Ecology_Analysis_Template.md` (full, including Section 6's four required sub-elements and its Target length line); `Ministry/Technology/CiC_World_Build_Completion_Standard_V1.3.md` §F (quoted at source); `CLAUDE.md`.
+**Governing documents read as standard:** `L4-Templates/Integrated_Ecology_Analysis_Template.md` (full, including Section 6's four required sub-elements and its Target length line); `reference/method/CiC_World_Build_Completion_Standard_V1.3.md` §F (quoted at source); `CLAUDE.md`.
 
 **House-form controls, opened directly rather than assumed:** `Doc_05` and `Doc_06` Document Logs and Dispositions in this world; `World-Builds/Donatism/Doc_07_Integrated_Ecology_Analysis.md` §7 and section map.
 
