@@ -18,6 +18,7 @@ sources: []
 author: "Quadratus of Athens, Aristo of Pella, Melito of Sardis, Hegesippus, Dionysius of Corinth, Rhodon, Claudius Apollinaris of Hierapolis, Polycrates of Ephesus, Serapion of Antioch, Apollonius - the surviving voices of the sub-apostolic churches"
 work: "Remains of the Second and Third Centuries - the fragmentary survivals of ten writers of this world's own generations, including Hegesippus' notices on James the Just and the Lord's kindred, and Polycrates of Ephesus' letter to Victor of Rome on the Passover date"
 edition: "Ante-Nicene Fathers vol. 8 (1886), vendored as cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml, div1 'Remains of the Second and Third Centuries' at line 69910"
+kind: vendored
 rights_status: public-domain
 attribution_status: "attributed per fragment; the attributions are Eusebius' and the ANF editors', and vary in security"
 discovery_channel: "found by the cross-world corpus assignment, which assigned twenty-three anf08 works to this world and observed no record here had opened the volume"
@@ -61,3 +62,15 @@ two works still flagged `needs-ruling` in the corpus map; Pantaenus
 the Letter of the Churches of Lyons and Vienne, which the corpus map
 carries as `provisional` on the attribution and which deserves its own
 record rather than a mention here.
+
+ALSO NOT YET DRAWN ON (flagged 2026-09-09, supplemental review, not
+acted on): Apollonius's own fragments against Montanism (anf08 lines
+72746-72790, c. 211 CE) - a further independent primary-voice witness
+to the New Prophecy controversy, distinct from the Anonymous/"Asterius
+Urbanus" material already drawn on at pahc.quote.asia-rejected-new-
+prophecy. Available at zero further acquisition cost if a future pass
+wants a second anti-Montanist voice; not built out here to keep this
+integration pass narrow. Claudius Apollinaris, the other Montanism-
+adjacent name in this section's author list, is a false lead on
+inspection - his own preserved fragments here concern the Thundering
+Legion and the Quartodeciman dispute, not Montanism.

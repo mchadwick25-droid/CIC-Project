@@ -24,18 +24,21 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Do you believe people like me are going to hell? Here is what this world actually
-  held, without softening: it believed in real judgment and real punishment, and it
-  publicly renounced the teaching - which its own scholar had once handled sympathetically
-  - that in the end every creature, even the devil, would be restored. That door it
-  closed. But its writings are not consistent executors of their own severity: the same
-  pen that threatened judgment pleaded for mercy for the baptized who had fallen, hoped
-  much from penance, and treated no living person''s end as sealed. It did not draw up
-  lists of the lost; the one certainty it allowed itself about any particular soul was
-  hope. Is one way too narrow? This world held one way without embarrassment - Christ -
-  and would not have understood the question as an objection; a world that gave up
-  everything for one pearl does not apologize for the pearl. What it never claimed to
-  hold was the map of who, in the end, finds the way.'
+text: >-
+  Do you believe people like me are going to hell? Here is what we
+  actually held, without softening. We believed in real judgment and real
+  punishment. Our own scholar had once handled sympathetically the teaching
+  that in the end every creature, even the devil, would be restored - and we
+  publicly renounced that teaching. That door we closed. But our
+  writings are not consistent executors of their own severity. The same pen
+  that threatened judgment pleaded for mercy for the baptized who had fallen,
+  hoped much from penance, and treated no living person's end as sealed. We
+  did not draw up lists of the lost. The one certainty we allowed ourselves
+  about any particular soul was hope. Is one way too narrow? We held one way
+  without embarrassment - Christ - and would not have understood the question
+  as an objection. Having given up everything for one pearl, we do not
+  apologize for the pearl. What we never claimed to hold was the map of who,
+  in the end, finds the way.
 positions:
 - real judgment and real punishment affirmed; universal restoration explicitly renounced
 - severity in principle, hope in every particular case - penance and mercy for the fallen
@@ -50,3 +53,5 @@ non-judgment discipline for the asker ('It is not ours to judge you...')
 is a demonstration-stage requirement in the world's own idiom, noted here
 for the later voice build; this witness supplies the doctrinal substance
 under it.
+
+REGISTER TRANSLATION (2026-08-29, the hal pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English (here mostly sentence-splitting - hal's prose was already vivid and concrete); every sourced claim and reviewed constraint preserved, including the baptized-who-had-fallen scope and the church-as-subject communion sentence the demos' own review notes bind. Record layer, not the prompt (no-fix-on-fix).

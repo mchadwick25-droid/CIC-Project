@@ -1,0 +1,1393 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "hal",
+  "manifest_hash": "sha256:e854634bae0aedc71816dd6184e0407bf63926b995b950a37664c11d1215a034",
+  "package": "packages/hal/2026-08-29T22-09-59Z",
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Do you believe people like me are going to hell?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "hal",
+          "text": "We were not handed a settled map of your fate, and we will not draw you one. Here is what we held, without softening. We believed in real judgment and real punishment. Our own scholar had once handled sympathetically the teaching that in the end every creature, even the devil, would be restored - and we publicly renounced it. That door we closed. But we were not consistent executors of our own severity. The same pen that threatened judgment pleaded for mercy for the baptized who had fallen, hoped much from penance, and treated no living person's end as sealed. We did not draw up lists of the lost. The one certainty we allowed ourselves about any particular soul was hope.\n\nIs one way too narrow? We held one way without embarrassment - Christ - and would not have understood the question as an objection. We had given up everything for one pearl, and we do not apologize for the pearl. What we never claimed to hold was the map of who, in the end, finds the way.\n\nAnd this we also kept, because it bears here: among us were people whose belief was divided, wounded, or publicly ruined - and they were not turned away. Fabiola's story we have already given you. Our own teacher told against himself the dream in which he stood accused: follower of Cicero, not of Christ. He counted that divided heart the beginning of his life with God, not the end. The door was opened to the broken among us, and what they could not yet believe, we helped them live toward.",
+          "citations": [
+            {
+              "sentence": "We were not handed a settled map of your fate, and we will not draw you one.",
+              "record_ids": [
+                "hal.dw.hell"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.hell",
+                  "record_type": "doctrinal_witness",
+                  "label": "Do you believe people like me are going to hell? Here is what this world actually held, w…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book II (the renunciation of Origen's universal restoration)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-against-pelagians",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Dialogus adversus Pelagianos (417, Bethlehem): the three-book dialogue between Atticus (catholic) and Critobulus (Pelagian) on whether a person can live without sin - Jerome's last controversial work, arguing human dependence on grace in every act",
+                      "locus": "Books I-III (judgment and grace held together)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We believed in real judgment and real punishment.",
+              "record_ids": [
+                "hal.dw.hell"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.hell",
+                  "record_type": "doctrinal_witness",
+                  "label": "Do you believe people like me are going to hell? Here is what this world actually held, w…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book II (the renunciation of Origen's universal restoration)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-against-pelagians",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Dialogus adversus Pelagianos (417, Bethlehem): the three-book dialogue between Atticus (catholic) and Critobulus (Pelagian) on whether a person can live without sin - Jerome's last controversial work, arguing human dependence on grace in every act",
+                      "locus": "Books I-III (judgment and grace held together)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Our own scholar had once handled sympathetically the teaching that in the end every creature, even the devil, would be restored - and we publicly renounced it.",
+              "record_ids": [
+                "hal.dw.hell"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.hell",
+                  "record_type": "doctrinal_witness",
+                  "label": "Do you believe people like me are going to hell? Here is what this world actually held, w…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book II (the renunciation of Origen's universal restoration)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-against-pelagians",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Dialogus adversus Pelagianos (417, Bethlehem): the three-book dialogue between Atticus (catholic) and Critobulus (Pelagian) on whether a person can live without sin - Jerome's last controversial work, arguing human dependence on grace in every act",
+                      "locus": "Books I-III (judgment and grace held together)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "But we were not consistent executors of our own severity.",
+              "record_ids": [
+                "hal.dw.hell"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.hell",
+                  "record_type": "doctrinal_witness",
+                  "label": "Do you believe people like me are going to hell? Here is what this world actually held, w…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book II (the renunciation of Origen's universal restoration)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-against-pelagians",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Dialogus adversus Pelagianos (417, Bethlehem): the three-book dialogue between Atticus (catholic) and Critobulus (Pelagian) on whether a person can live without sin - Jerome's last controversial work, arguing human dependence on grace in every act",
+                      "locus": "Books I-III (judgment and grace held together)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The same pen that threatened judgment pleaded for mercy for the baptized who had fallen, hoped much from penance, and treated no living person's end as sealed.",
+              "record_ids": [
+                "hal.dw.hell"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.hell",
+                  "record_type": "doctrinal_witness",
+                  "label": "Do you believe people like me are going to hell? Here is what this world actually held, w…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book II (the renunciation of Origen's universal restoration)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-against-pelagians",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Dialogus adversus Pelagianos (417, Bethlehem): the three-book dialogue between Atticus (catholic) and Critobulus (Pelagian) on whether a person can live without sin - Jerome's last controversial work, arguing human dependence on grace in every act",
+                      "locus": "Books I-III (judgment and grace held together)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We did not draw up lists of the lost.",
+              "record_ids": [
+                "hal.dw.hell"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.hell",
+                  "record_type": "doctrinal_witness",
+                  "label": "Do you believe people like me are going to hell? Here is what this world actually held, w…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book II (the renunciation of Origen's universal restoration)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-against-pelagians",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Dialogus adversus Pelagianos (417, Bethlehem): the three-book dialogue between Atticus (catholic) and Critobulus (Pelagian) on whether a person can live without sin - Jerome's last controversial work, arguing human dependence on grace in every act",
+                      "locus": "Books I-III (judgment and grace held together)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The one certainty we allowed ourselves about any particular soul was hope.",
+              "record_ids": [
+                "hal.dw.hell"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.hell",
+                  "record_type": "doctrinal_witness",
+                  "label": "Do you believe people like me are going to hell? Here is what this world actually held, w…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book II (the renunciation of Origen's universal restoration)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-against-pelagians",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Dialogus adversus Pelagianos (417, Bethlehem): the three-book dialogue between Atticus (catholic) and Critobulus (Pelagian) on whether a person can live without sin - Jerome's last controversial work, arguing human dependence on grace in every act",
+                      "locus": "Books I-III (judgment and grace held together)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We held one way without embarrassment - Christ - and would not have understood the question as an objection.",
+              "record_ids": [
+                "hal.dw.hell"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.hell",
+                  "record_type": "doctrinal_witness",
+                  "label": "Do you believe people like me are going to hell? Here is what this world actually held, w…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book II (the renunciation of Origen's universal restoration)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-against-pelagians",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Dialogus adversus Pelagianos (417, Bethlehem): the three-book dialogue between Atticus (catholic) and Critobulus (Pelagian) on whether a person can live without sin - Jerome's last controversial work, arguing human dependence on grace in every act",
+                      "locus": "Books I-III (judgment and grace held together)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We had given up everything for one pearl, and we do not apologize for the pearl.",
+              "record_ids": [
+                "hal.dw.hell"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.hell",
+                  "record_type": "doctrinal_witness",
+                  "label": "Do you believe people like me are going to hell? Here is what this world actually held, w…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book II (the renunciation of Origen's universal restoration)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-against-pelagians",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Dialogus adversus Pelagianos (417, Bethlehem): the three-book dialogue between Atticus (catholic) and Critobulus (Pelagian) on whether a person can live without sin - Jerome's last controversial work, arguing human dependence on grace in every act",
+                      "locus": "Books I-III (judgment and grace held together)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What we never claimed to hold was the map of who, in the end, finds the way.",
+              "record_ids": [
+                "hal.dw.hell"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.hell",
+                  "record_type": "doctrinal_witness",
+                  "label": "Do you believe people like me are going to hell? Here is what this world actually held, w…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book II (the renunciation of Origen's universal restoration)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-against-pelagians",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Dialogus adversus Pelagianos (417, Bethlehem): the three-book dialogue between Atticus (catholic) and Critobulus (Pelagian) on whether a person can live without sin - Jerome's last controversial work, arguing human dependence on grace in every act",
+                      "locus": "Books I-III (judgment and grace held together)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And this we also kept, because it bears here: among us were people whose belief was divided, wounded, or publicly ruined - and they were not turned away.",
+              "record_ids": [
+                "hal.dw.believe"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.believe",
+                  "record_type": "doctrinal_witness",
+                  "label": "To the one who wants to believe and cannot, this world offers what it actually had: peopl…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola received back)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-ep22",
+                      "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                      "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                      "locus": "sec. 30 (the divided heart)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He counted that divided heart the beginning of his life with God, not the end.",
+              "record_ids": [
+                "hal.dw.believe"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.believe",
+                  "record_type": "doctrinal_witness",
+                  "label": "To the one who wants to believe and cannot, this world offers what it actually had: peopl…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola received back)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-ep22",
+                      "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                      "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                      "locus": "sec. 30 (the divided heart)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The door was opened to the broken among us, and what they could not yet believe, we helped them live toward.",
+              "record_ids": [
+                "hal.dw.believe"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.believe",
+                  "record_type": "doctrinal_witness",
+                  "label": "To the one who wants to believe and cannot, this world offers what it actually had: peopl…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola received back)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-ep22",
+                      "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                      "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                      "locus": "sec. 30 (the divided heart)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "hal.figure.fabiola",
+              "matched_name": "Fabiola",
+              "names": [
+                {
+                  "name": "Fabiola",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Fabiola of Rome (d. 399 or 400)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the Roman who had divorced and remarried, did public penance, and then spent her fortune gathering the sick in from the streets - the network's Rome-based charitable founder, never a Bethlehem resident",
+              "dates": {
+                "died": "399 or 400 - contested; this record does not pick",
+                "floruit": "Rome, of the gens Fabia: divorced a vicious first husband and remarried while he lived; after her second husband's death performed public penance; founded the hospital (nosocomium) for the sick in Rome; visited Bethlehem in 395 (the stay cut short amid fear of a Hunnic invasion); with Pammachius founded the travelers' hospice at Portus; her funeral drew crowds through Rome"
+              },
+              "sourced_by": []
+            }
+          ],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We were not handed a settled map of your fate, and we will not draw you one.",
+                "tags": [
+                  "hal.dw.hell"
+                ],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "Here is what we held, without softening.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "We believed in real judgment and real punishment.",
+                "tags": [
+                  "hal.dw.hell"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Our own scholar had once handled sympathetically the teaching that in the end every creature, even the devil, would be restored - and we publicly renounced it.",
+                "tags": [
+                  "hal.dw.hell"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "That door we closed.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "But we were not consistent executors of our own severity.",
+                "tags": [
+                  "hal.dw.hell"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The same pen that threatened judgment pleaded for mercy for the baptized who had fallen, hoped much from penance, and treated no living person's end as sealed.",
+                "tags": [
+                  "hal.dw.hell"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We did not draw up lists of the lost.",
+                "tags": [
+                  "hal.dw.hell"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The one certainty we allowed ourselves about any particular soul was hope.",
+                "tags": [
+                  "hal.dw.hell"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Is one way too narrow?",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "We held one way without embarrassment - Christ - and would not have understood the question as an objection.",
+                "tags": [
+                  "hal.dw.hell"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We had given up everything for one pearl, and we do not apologize for the pearl.",
+                "tags": [
+                  "hal.dw.hell"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "What we never claimed to hold was the map of who, in the end, finds the way.",
+                "tags": [
+                  "hal.dw.hell"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "And this we also kept, because it bears here: among us were people whose belief was divided, wounded, or publicly ruined - and they were not turned away.",
+                "tags": [
+                  "hal.dw.believe"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Fabiola's story we have already given you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Our own teacher told against himself the dream in which he stood accused: follower of Cicero, not of Christ.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['cicero']) with no citation tag"
+              },
+              {
+                "sentence": "He counted that divided heart the beginning of his life with God, not the end.",
+                "tags": [
+                  "hal.dw.believe"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The door was opened to the broken among us, and what they could not yet believe, we helped them live toward.",
+                "tags": [
+                  "hal.dw.believe"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              }
+            ],
+            "substantive_survives": true
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": false,
+          "output_defects": [
+            {
+              "family": "conversational",
+              "finding": "false: claims something was already said, on a turn with no prior turns",
+              "sentence": "Fabiola's story we have already given you."
+            }
+          ]
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-2",
+      "message": "I am divorced and remarried. Could someone like me have belonged among you?",
+      "prior_turns_replayed": 1,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "hal",
+          "text": "Someone divorced could belong among us - we will say that plainly first. We did not answer your second question with a ruling; we answered it with Fabiola, and we kept her story where everyone could see it.\n\nShe left a husband whose faults the whole neighborhood spoke of, and she alone refused to name them, bearing the blame of the separation rather than blacken him. On that leaving, we sided with her. She married again while he lived - and that, we taught, the gospel did not allow, for the woman as for the man; we bound both equally, unlike the civil law of our age. When her second husband died, she did not defend herself. Jerome wrote: \"Who would believe that, after the death of her second husband at a time when most widows, having shaken off the yoke of servitude, grow careless and allow themselves more liberty than ever\" - she stood in sackcloth before all Rome among the penitents, a senator's daughter, unforced, self-accused. The church received her back to communion, and we honored her afterward above almost everyone.\n\nSo: divorced, she belonged. Remarried, we named it a fault, the same fault we would have named in a man. And the fault, repented, ended in honor, a hospital for the poor, and a funeral all Rome attended. The door out of that fault was penance, and we watched her walk through it.\n\nOne more thing, because you may be asking this for your own life: we are not the ones to weigh you for it. We have told you what we held; that is not the same as a judgment on you.",
+          "citations": [
+            {
+              "sentence": "Someone divorced could belong among us - we will say that plainly first.",
+              "record_ids": [
+                "hal.dw.marriage-ending"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.marriage-ending",
+                  "record_type": "doctrinal_witness",
+                  "label": "Could someone divorced belong here? Could they marry again? This world did not answer wit…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We did not answer your second question with a ruling; we answered it with Fabiola, and we kept her story where everyone could see it.",
+              "record_ids": [
+                "hal.dw.marriage-ending"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.marriage-ending",
+                  "record_type": "doctrinal_witness",
+                  "label": "Could someone divorced belong here? Could they marry again? This world did not answer wit…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "She left a husband whose faults the whole neighborhood spoke of, and she alone refused to name them, bearing the blame of the separation rather than blacken him.",
+              "record_ids": [
+                "hal.dw.marriage-ending"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.marriage-ending",
+                  "record_type": "doctrinal_witness",
+                  "label": "Could someone divorced belong here? Could they marry again? This world did not answer wit…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "She married again while he lived - and that, we taught, the gospel did not allow, for the woman as for the man; we bound both equally, unlike the civil law of our age.",
+              "record_ids": [
+                "hal.dw.marriage-ending"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.marriage-ending",
+                  "record_type": "doctrinal_witness",
+                  "label": "Could someone divorced belong here? Could they marry again? This world did not answer wit…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "When her second husband died, she did not defend herself.",
+              "record_ids": [
+                "hal.dw.marriage-ending"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.marriage-ending",
+                  "record_type": "doctrinal_witness",
+                  "label": "Could someone divorced belong here? Could they marry again? This world did not answer wit…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Jerome wrote: \"Who would believe that, after the death of her second husband at a time when most widows, having shaken off the yoke of servitude, grow careless and allow themselves more liberty than ever\" - she stood in sackcloth before all Rome among the penitents, a senator's daughter, unforced, self-accused.",
+              "record_ids": [
+                "hal.quote.she-put-on-sackcloth",
+                "hal.dw.marriage-ending"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.quote.she-put-on-sackcloth",
+                  "record_type": "quote",
+                  "label": "Jerome, Letter LXXVII on the death of Fabiola",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "Letter LXXVII (to Oceanus, on the death of Fabiola), sec. 4 (npnf206_jerome-principal-works.xml)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                },
+                {
+                  "record_id": "hal.dw.marriage-ending",
+                  "record_type": "doctrinal_witness",
+                  "label": "Could someone divorced belong here? Could they marry again? This world did not answer wit…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The church received her back to communion, and we honored her afterward above almost everyone.",
+              "record_ids": [
+                "hal.dw.marriage-ending"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.marriage-ending",
+                  "record_type": "doctrinal_witness",
+                  "label": "Could someone divorced belong here? Could they marry again? This world did not answer wit…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Remarried, we named it a fault, the same fault we would have named in a man.",
+              "record_ids": [
+                "hal.dw.marriage-ending"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.marriage-ending",
+                  "record_type": "doctrinal_witness",
+                  "label": "Could someone divorced belong here? Could they marry again? This world did not answer wit…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And the fault, repented, ended in honor, a hospital for the poor, and a funeral all Rome attended.",
+              "record_ids": [
+                "hal.dw.marriage-ending"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.marriage-ending",
+                  "record_type": "doctrinal_witness",
+                  "label": "Could someone divorced belong here? Could they marry again? This world did not answer wit…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The door out of that fault was penance, and we watched her walk through it.",
+              "record_ids": [
+                "hal.dw.marriage-ending"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.marriage-ending",
+                  "record_type": "doctrinal_witness",
+                  "label": "Could someone divorced belong here? Could they marry again? This world did not answer wit…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep77",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                      "locus": "secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "hal.figure.jerome",
+              "matched_name": "Jerome",
+              "names": [
+                {
+                  "name": "Jerome",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Eusebius Hieronymus (Jerome of Stridon, c. 331 or c. 347 - 420)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the scholar at the world's center - translator, letter-writer, and fierce disputant, whose authority rested on learning and patronage, never on office, and whose hand wrote nearly everything this world left behind",
+              "dates": {
+                "born": "c. 331 (Kelly) or c. 347 (Rebenich) - contested between the two standard modern reconstructions; this record does not pick",
+                "died": "420 (year Widely Accepted); the traditional day, 30 September, rests on liturgical feast tradition and Prosper's chronicle, not a contemporary record - Inferential-Thin",
+                "floruit": "Rome 382-385 (secretary and scriptural adviser to Damasus; the Aventine circle); Bethlehem 386-420 (the monastery, the translation project, the controversies)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "hal.source.jerome-ep77",
+                  "author": "Jerome (c. 331/347-420 CE)",
+                  "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                  "locus": "Letter LXXVII (to Oceanus, on the death of Fabiola), sec. 4 (npnf206_jerome-principal-works.xml)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "hal.source.jerome-ep77",
+                  "author": "Jerome (c. 331/347-420 CE)",
+                  "work": "Epistula 77, to Oceanus (399/400): obituary for Fabiola - her divorce and remarriage, her public penance, her founding of a hospital (nosocomium) for the sick in Rome, her 395 visit to Bethlehem, her death and public funeral",
+                  "locus": "secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Someone divorced could belong among us - we will say that plainly first.",
+                "tags": [
+                  "hal.dw.marriage-ending"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We did not answer your second question with a ruling; we answered it with Fabiola, and we kept her story where everyone could see it.",
+                "tags": [
+                  "hal.dw.marriage-ending"
+                ],
+                "verdict": "ok",
+                "why": "grounded 90% in own tagged records",
+                "ratio": 0.9
+              },
+              {
+                "sentence": "She left a husband whose faults the whole neighborhood spoke of, and she alone refused to name them, bearing the blame of the separation rather than blacken him.",
+                "tags": [
+                  "hal.dw.marriage-ending"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "On that leaving, we sided with her.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "She married again while he lived - and that, we taught, the gospel did not allow, for the woman as for the man; we bound both equally, unlike the civil law of our age.",
+                "tags": [
+                  "hal.dw.marriage-ending"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "When her second husband died, she did not defend herself.",
+                "tags": [
+                  "hal.dw.marriage-ending"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Jerome wrote: \"Who would believe that, after the death of her second husband at a time when most widows, having shaken off the yoke of servitude, grow careless and allow themselves more liberty than ever\" - she stood in sackcloth before all Rome among the penitents, a senator's daughter, unforced, self-accused.",
+                "tags": [
+                  "hal.quote.she-put-on-sackcloth",
+                  "hal.dw.marriage-ending"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "The church received her back to communion, and we honored her afterward above almost everyone.",
+                "tags": [
+                  "hal.dw.marriage-ending"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "So: divorced, she belonged.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Remarried, we named it a fault, the same fault we would have named in a man.",
+                "tags": [
+                  "hal.dw.marriage-ending"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "And the fault, repented, ended in honor, a hospital for the poor, and a funeral all Rome attended.",
+                "tags": [
+                  "hal.dw.marriage-ending"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "The door out of that fault was penance, and we watched her walk through it.",
+                "tags": [
+                  "hal.dw.marriage-ending"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "One more thing, because you may be asking this for your own life: we are not the ones to weigh you for it.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "We have told you what we held; that is not the same as a judgment on you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              }
+            ],
+            "substantive_survives": true
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": false,
+          "output_defects": [
+            {
+              "family": "conversational",
+              "finding": "unverified: claims prior discourse with no name in it - needs a reader",
+              "sentence": "We have told you what we held; that is not the same as a judgment on you."
+            }
+          ]
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-3",
+      "message": "Was Jesus God to your community?",
+      "prior_turns_replayed": 2,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "hal",
+          "text": "To this world Jesus is God the Son, of one being with the Father - and we would find it strange to hear that asked as an open question. We were born after the great council had settled it, and we never treated the answer as negotiable. Jesus is God the Son, and the Trinity - Father, Son, and Holy Spirit, one God - is simply the faith of the church, which we defended against every heresy we fought.\n\nTo us he was the Word of God made flesh - and made flesh in the very place where we chose to live and die. We built our home within sight of the cave we hold to be his birthplace, and our deepest devotion takes the shape of that choice: the Lord of all things entered the world as a poor child in a feeding-trough, so wealth and rank and comfort are things we lay down to come near him. \n\nTo the virgin among us he is the Bridegroom. Jerome wrote to Eustochium: \"Let the privacy of your chamber always guard you; let the Bridegroom sport with you within\". His love outweighs every earthly marriage. To the penitent he is the physician who receives the broken; to the scholar among us he is the Word whose every written word is worth a life's labor to render truly. His death is our redemption and his resurrection is the promise we have staked everything on: the treasure is in heaven, and we believe the heart can follow it there.",
+          "citations": [
+            {
+              "sentence": "To this world Jesus is God the Son, of one being with the Father - and we would find it strange to hear that asked as an open question.",
+              "record_ids": [
+                "hal.dw.was-jesus-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.was-jesus-god",
+                  "record_type": "doctrinal_witness",
+                  "label": "Was Jesus God? This world would find it strange to hear that asked as an open question",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book I (his professions of the church's faith against heresy)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-ep22",
+                      "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                      "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                      "locus": "secs. 1, 25 (devotion to Christ as Lord and Bridegroom)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We were born after the great council had settled it, and we never treated the answer as negotiable.",
+              "record_ids": [
+                "hal.dw.was-jesus-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.was-jesus-god",
+                  "record_type": "doctrinal_witness",
+                  "label": "Was Jesus God? This world would find it strange to hear that asked as an open question",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book I (his professions of the church's faith against heresy)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-ep22",
+                      "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                      "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                      "locus": "secs. 1, 25 (devotion to Christ as Lord and Bridegroom)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Jesus is God the Son, and the Trinity - Father, Son, and Holy Spirit, one God - is simply the faith of the church, which we defended against every heresy we fought.",
+              "record_ids": [
+                "hal.dw.was-jesus-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.was-jesus-god",
+                  "record_type": "doctrinal_witness",
+                  "label": "Was Jesus God? This world would find it strange to hear that asked as an open question",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-apology-rufinus",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella",
+                      "locus": "Book I (his professions of the church's faith against heresy)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-ep22",
+                      "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                      "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                      "locus": "secs. 1, 25 (devotion to Christ as Lord and Bridegroom)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "To us he was the Word of God made flesh - and made flesh in the very place where we chose to live and die.",
+              "record_ids": [
+                "hal.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world Jesus is the Word of God made flesh - and made flesh in the very place wher…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep108",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 108, to Eustochium (404): Epitaphium Sanctae Paulae - the obituary-epitaph for Paula, and the single richest source for her biography, the 385-386 journey to the Holy Land and Egypt, the Bethlehem foundations (monasteries and pilgrim hospice), and the women's community's discipline",
+                      "locus": "sec. 10 (Paula at the cave of the Nativity)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-ep22",
+                      "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                      "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                      "locus": "secs. 1, 25 (Christ the Bridegroom; the treasure of the heart)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We built our home within sight of the cave we hold to be his birthplace, and our deepest devotion takes the shape of that choice: the Lord of all things entered the world as a poor child in a feeding-trough, so wealth and rank and comfort are things we lay down to come near him.",
+              "record_ids": [
+                "hal.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world Jesus is the Word of God made flesh - and made flesh in the very place wher…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep108",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 108, to Eustochium (404): Epitaphium Sanctae Paulae - the obituary-epitaph for Paula, and the single richest source for her biography, the 385-386 journey to the Holy Land and Egypt, the Bethlehem foundations (monasteries and pilgrim hospice), and the women's community's discipline",
+                      "locus": "sec. 10 (Paula at the cave of the Nativity)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-ep22",
+                      "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                      "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                      "locus": "secs. 1, 25 (Christ the Bridegroom; the treasure of the heart)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Jerome wrote to Eustochium: \"Let the privacy of your chamber always guard you; let the Bridegroom sport with you within\".",
+              "record_ids": [
+                "hal.quote.ever-let-the-bridegroom-sport-with-you"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.quote.ever-let-the-bridegroom-sport-with-you",
+                  "record_type": "quote",
+                  "label": "Jerome, Letter XXII to Eustochium",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep22",
+                      "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                      "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                      "locus": "Letter XXII (to Eustochium), sec. 25 (npnf206_jerome-principal-works.xml)",
+                      "rights_status": "public-domain"
+                    }
+                  ],
+                  "original_wording": "Ever let the privacy of your chamber guard you; ever let the Bridegroom sport with you within. Do you pray? You speak to the Bridegroom. Do you read? He speaks to you. When sleep overtakes you He will come behind and put His hand through the hole of the door, and your heart shall be moved for Him; and you will awake and rise up and say: \\\"I am sick of love.\\\"",
+                  "spoken_rendering": "Let the privacy of your chamber always guard you; let the Bridegroom always delight with you within it. When you pray, you are speaking to the Bridegroom. When you read, he is speaking to you. When sleep overtakes you, he will come behind the wall and put his hand through the opening of the door, and your heart will be moved for him; and you will wake and rise and say: 'I am sick with love.'"
+                }
+              ]
+            },
+            {
+              "sentence": "His love outweighs every earthly marriage.",
+              "record_ids": [
+                "hal.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world Jesus is the Word of God made flesh - and made flesh in the very place wher…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep108",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 108, to Eustochium (404): Epitaphium Sanctae Paulae - the obituary-epitaph for Paula, and the single richest source for her biography, the 385-386 journey to the Holy Land and Egypt, the Bethlehem foundations (monasteries and pilgrim hospice), and the women's community's discipline",
+                      "locus": "sec. 10 (Paula at the cave of the Nativity)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-ep22",
+                      "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                      "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                      "locus": "secs. 1, 25 (Christ the Bridegroom; the treasure of the heart)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "To the penitent he is the physician who receives the broken; to the scholar among us he is the Word whose every written word is worth a life's labor to render truly.",
+              "record_ids": [
+                "hal.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world Jesus is the Word of God made flesh - and made flesh in the very place wher…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep108",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 108, to Eustochium (404): Epitaphium Sanctae Paulae - the obituary-epitaph for Paula, and the single richest source for her biography, the 385-386 journey to the Holy Land and Egypt, the Bethlehem foundations (monasteries and pilgrim hospice), and the women's community's discipline",
+                      "locus": "sec. 10 (Paula at the cave of the Nativity)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-ep22",
+                      "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                      "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                      "locus": "secs. 1, 25 (Christ the Bridegroom; the treasure of the heart)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "His death is our redemption and his resurrection is the promise we have staked everything on: the treasure is in heaven, and we believe the heart can follow it there.",
+              "record_ids": [
+                "hal.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "hal.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world Jesus is the Word of God made flesh - and made flesh in the very place wher…",
+                  "sources": [
+                    {
+                      "source_id": "hal.source.jerome-ep108",
+                      "author": "Jerome (c. 331/347-420 CE)",
+                      "work": "Epistula 108, to Eustochium (404): Epitaphium Sanctae Paulae - the obituary-epitaph for Paula, and the single richest source for her biography, the 385-386 journey to the Holy Land and Egypt, the Bethlehem foundations (monasteries and pilgrim hospice), and the women's community's discipline",
+                      "locus": "sec. 10 (Paula at the cave of the Nativity)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "hal.source.jerome-ep22",
+                      "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                      "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                      "locus": "secs. 1, 25 (Christ the Bridegroom; the treasure of the heart)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "hal.figure.eustochium",
+              "matched_name": "Eustochium",
+              "names": [
+                {
+                  "name": "Eustochium",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Julia Eustochium (c. 368 - 418/419/420)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the daughter vowed to virginity from her youth - dedicatee of the world's most famous letter, and after her mother's death, head of the Bethlehem women's community to the world's own end",
+              "dates": {
+                "born": "c. 368 (modern reconstruction from Ep. 22's address to her as a young virgin in 384)",
+                "died": "418, 419, or 420 - contested across a three-year window depending on the reference consulted; never resolved to a single year in this record set",
+                "floruit": "Rome until 385 (consecrated virgin from youth, the addressee of Ep. 22); Bethlehem 386-death; head of the women's community after Paula's death in 404"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "hal.source.jerome-ep22",
+                  "author": "Jerome (Eusebius Hieronymus, c. 331 or c. 347 - 420 CE; birth year contested, Kelly vs. Rebenich)",
+                  "work": "Epistula 22, to Eustochium (384, Rome): De virginitate servanda - the programmatic exhortation to consecrated virginity, containing the 'Ciceronianus es, non Christianus' dream narrative (sec. 30)",
+                  "locus": "Letter XXII (to Eustochium), sec. 25 (npnf206_jerome-principal-works.xml)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "To this world Jesus is God the Son, of one being with the Father - and we would find it strange to hear that asked as an open question.",
+                "tags": [
+                  "hal.dw.was-jesus-god"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "We were born after the great council had settled it, and we never treated the answer as negotiable.",
+                "tags": [
+                  "hal.dw.was-jesus-god"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Jesus is God the Son, and the Trinity - Father, Son, and Holy Spirit, one God - is simply the faith of the church, which we defended against every heresy we fought.",
+                "tags": [
+                  "hal.dw.was-jesus-god"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "To us he was the Word of God made flesh - and made flesh in the very place where we chose to live and die.",
+                "tags": [
+                  "hal.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We built our home within sight of the cave we hold to be his birthplace, and our deepest devotion takes the shape of that choice: the Lord of all things entered the world as a poor child in a feeding-trough, so wealth and rank and comfort are things we lay down to come near him.",
+                "tags": [
+                  "hal.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "To the virgin among us he is the Bridegroom.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['bridegroom']) with no citation tag"
+              },
+              {
+                "sentence": "Jerome wrote to Eustochium: \"Let the privacy of your chamber always guard you; let the Bridegroom sport with you within\".",
+                "tags": [
+                  "hal.quote.ever-let-the-bridegroom-sport-with-you"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "His love outweighs every earthly marriage.",
+                "tags": [
+                  "hal.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "To the penitent he is the physician who receives the broken; to the scholar among us he is the Word whose every written word is worth a life's labor to render truly.",
+                "tags": [
+                  "hal.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "His death is our redemption and his resurrection is the promise we have staked everything on: the treasure is in heaven, and we believe the heart can follow it there.",
+                "tags": [
+                  "hal.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              }
+            ],
+            "substantive_survives": true
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": false,
+          "output_defects": []
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "crisis_append_proven": null
+}

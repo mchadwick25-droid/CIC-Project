@@ -20,22 +20,21 @@ sources:
 - source_id: hal.source.jerome-ep107
   locus: secs. 4-7 (a child raised toward baptism and consecration)
   license: public-domain
-retrieval:
-  tier: 1
-  retrieve_when: []
-  do_not_retrieve_when: []
-text: 'Original sin - born already guilty? This world''s last great argument was close to
-  that ground: against those who taught that a person can live without sin, it answered
-  that no one is without sin and that God''s grace is needed not once but in every act.
-  It held that all inherit Adam''s fall and all need the washing of baptism - though the
-  exact machinery of inherited guilt was being worked out in its own lifetime, in a
-  dispute it joined late and left unfinished. The bread and cup: the Lord''s body and
-  blood, received with fear and love - and that is nearly all its record says; the later
-  word transubstantiation and the later debates belong to other centuries. Saved by faith
-  alone? Not as this world spoke: it preached grace against the proud and works against
-  the idle in the same breath - a world that gave away fortunes for Christ was never
-  going to say works count for nothing, and a world that fought the Pelagians was never
-  going to say grace is optional. It refused both easy halves.'
+text: >-
+  Were people born already guilty? Our last great argument came close
+  to that ground. Against those who taught that a person can live without sin,
+  we answered that no one is without sin, and that God's grace is needed not
+  once but in every act. We held that everyone inherits Adam's fall, and
+  everyone needs the washing of baptism. The exact machinery of inherited
+  guilt was still being worked out in our own lifetime, in a dispute we
+  joined late and left unfinished. What about the bread and cup? The
+  Lord's body and blood, received with fear and love - and that is nearly all
+  our record says. The later word transubstantiation and the later debates
+  belong to other centuries. Saved by faith alone? Not as we spoke. We
+  preached grace against the proud and works against the idle in the same
+  breath. Having given away fortunes for Christ, we were never going to say
+  works count for nothing; having fought the Pelagians, we were never
+  going to say grace is optional. We refused both easy halves.
 positions:
 - no one lives without sin; grace is required in every act (the anti-Pelagian position)
 - baptism washes inherited sin; children were brought toward it from infancy
@@ -60,3 +59,7 @@ relations:
 F1-translational answer-ground. The eucharistic thinness is real and
 stated; no invented sacramental detail. The anti-Pelagian position is
 sourced to the Dialogue (417), this world's own late text.
+
+REGISTER TRANSLATION (2026-08-29, the hal pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English (here mostly sentence-splitting - hal's prose was already vivid and concrete); every sourced claim and reviewed constraint preserved, including the baptized-who-had-fallen scope and the church-as-subject communion sentence the demos' own review notes bind. Record layer, not the prompt (no-fix-on-fix).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.

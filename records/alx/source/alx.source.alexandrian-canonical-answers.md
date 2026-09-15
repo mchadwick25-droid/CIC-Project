@@ -16,6 +16,7 @@ sources: []
 author: "Bishops of Alexandria ruling on practice - Dionysius (d. 264), Timothy (d. 385), Theophilus (bp. 385-412)"
 work: "The Alexandrian canonical epistles: the Letter of Dionysius to Basilides; the Canonical Answers of Timothy of Alexandria (questions put to him on what ordinary people may and may not do); the Prosphonesus of Theophilus. Received into the canon law of the East and printed among the fathers whose canons the Council in Trullo confirmed"
 edition: "trans. Henry R. Percival, Nicene and Post-Nicene Fathers ser. 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml - Dionysius at line 43097, Timothy at 44104, Theophilus at 44202"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "found by the cross-world corpus assignment (cic/corpus-map/alexandria-catechetical.yaml), which assigned six npnf214 works to this world and observed no record here had opened the volume"
@@ -27,7 +28,9 @@ Domain). Loci verified directly at the lines given.
 WHAT IT ANSWERS IN THIS WORLD'S OWN THINNESS STATEMENT. This world's
 registry entry says it is "richest in teaching, argument, and the
 theology of formation; thinner on women's own words, ordinary
-believers, and rural Coptic Egypt." Its twenty sources are Clement,
+believers, and rural Coptic Egypt." Its 25 sources (corrected 2026-09-08,
+records/alx audit: was stated as "twenty," a stale count - the actual
+current count is the number of files in records/alx/source/) are Clement,
 Origen, Athanasius, and the historians who wrote about them - a corpus
 of teaching and controversy. These canons are the only documents in it
 where the Alexandrian church says what an ordinary person should

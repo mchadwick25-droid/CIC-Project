@@ -39,34 +39,32 @@ relations:
   target: pahc.gravity.translocal-network
 narrative_tier: 4
 narrative_tier_justification: "The most fully composite story in this repository - not about any one named person, but a synthesized 'typical day' reconstruction under each of this world's two structurally parallel authority answers, drawing across four separate primary sources. Every specific claim traces to an already-attested instruction or argument in one of those sources."
-tellable_as: "A member's ordinary day looks entirely different depending on which of this world's two answers to 'who leads' their own community holds - one built around a single, named bishop, the other around a council of long-serving presbyters."
-text: >
-  This is how it would have been, in the typical life of someone
-  formed under each of this world's two structurally parallel answers
-  to the question of who leads.
-
-  In a community formed like Ignatius's own churches, a member's day
-  would orient around the bishop: attendance at the bishop's own
-  eucharist as the only valid one, deference to the bishop as one
-  would to Jesus Christ himself, presbyters honored as "the assembly
-  of the apostles" and deacons entrusted with "the ministry of Jesus
-  Christ" - every significant act of communal life, from baptism to
-  the love-feast, checked against a single, named, visible authority
-  whose approval made it secure and valid.
-
-  In a community formed like Rome's own - the Rome that produced 1
-  Clement, that Hermas addresses through named figures like Clement
-  and Grapte rather than a single bishop - a member's day would orient
-  differently: toward presbyters holding office by appointment and
-  long, blameless service, removable only for genuine cause, as 1
-  Clement's own argument insists ("we see that ye have removed some
-  men of excellent behaviour from the ministry, which they fulfilled
-  blamelessly and with honour"), with authority distributed across
-  recognized elders rather than concentrated in one visible figure.
-
-  Both are reconstructions of what it would have meant to live inside
-  each of this world's own answers - neither is presented as more
-  original, more correct, or more typical than the other.
+tellable_as: >-
+  A member's ordinary day looked entirely different depending on which of our
+  two answers to 'who leads' their community held. One was built
+  around a single, named bishop. The other was built around a council of
+  long-serving elders.
+text: >-
+  This is how it would have been, in the typical life of someone formed under
+  each of our two parallel answers to the question of who leads. In a
+  community formed like Ignatius's own churches, a member's day would center
+  on the bishop. The bishop's own eucharist was the only valid one. The bishop
+  was deferred to as one would defer to Jesus Christ himself. The presbyters
+  were honored as 'the assembly of the apostles,' and the deacons were
+  entrusted with 'the ministry of Jesus Christ.' Every significant act of
+  communal life, from baptism to the love-feast, was checked against a single,
+  named, visible authority. His approval made it secure and valid. In a
+  community formed like Rome's own, a member's day would center differently.
+  (This is the Rome that produced 1 Clement - the Rome that Hermas addresses
+  through named figures like Clement and Grapte, rather than a single bishop.)
+  Authority sat with presbyters who held office by appointment and long,
+  blameless service, removable only for genuine cause. As 1 Clement's own
+  argument insists: 'we see that ye have removed some men of excellent
+  behaviour from the ministry, which they fulfilled blamelessly and with
+  honour.' Authority was spread across recognized elders, not concentrated in
+  one visible figure. Both pictures are reconstructions of what it would have
+  meant to live inside each of our own answers. Neither is presented
+  as more original, more correct, or more typical than the other.
 absent_detail: "No source describes a member who actually experienced both patterns, or moved between a Strand A and a Strand B community - this comparison is this world's own analytical construction, not a documented individual's own account of living under both."
 modern_contrast: >
   A modern reader often hears "bishop" versus "council of presbyters" as a
@@ -93,3 +91,5 @@ specific claim to it, and this record does not manufacture a locus
 that source doesn't carry. Built under the same Writing-From-Inside
 discipline Doc_09 itself names (Constitution Article 23), carried into
 this schema's own emic register.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

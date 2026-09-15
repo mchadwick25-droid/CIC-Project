@@ -27,13 +27,17 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'To the one who wants to believe and cannot, or who fears Jesus would want nothing to do with them,
-  this world answers with its favorite name for him: the Physician. A physician is not scandalized by
-  wounds; he exists for them. The sage taught that of all who ever put on a body, only One was without
-  wound, and that he does not reject the penitent - the shame that hides a wound is the only thing that
-  keeps it from healing. And this world loved to preach the woman who came to Jesus in tears past every
-  watching eye: it told her story again and again because in her it saw the door standing open. Whoever
-  comes is received; that was this world''s experience of him, sung in its hymns and taught in its letters.'
+text: >-
+  To the one who wants to believe and cannot, or who fears Jesus would want
+  nothing to do with them, we answer with our favorite name for him:
+  the Physician. A physician is not scandalized by wounds. He exists for them.
+  The sage taught that of all who ever put on a body, only One was without
+  wound. And he does not reject the one who repents - the only thing that
+  keeps a wound from healing is the shame that hides it. We also loved
+  to preach about the woman who came to Jesus in tears, past every watching
+  eye. Her story was told among us again and again, because in her we saw the
+  door standing open. Whoever comes is received. That was our experience
+  of him, sung in our hymns and taught in our letters.
 positions:
 - Jesus is the Physician; wounds are the reason for his coming, not an obstacle to it
 - God does not reject the penitent - concealment, not sin, is what blocks healing
@@ -46,3 +50,5 @@ Personal-register Center cell. The physician/penitence material
 verified verbatim in Hallock's Dem VII; the Sinful Woman homily is
 the narrative anchor (its expansions beyond Luke 7 are the
 preacher's dramatization - flagged in the source record).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

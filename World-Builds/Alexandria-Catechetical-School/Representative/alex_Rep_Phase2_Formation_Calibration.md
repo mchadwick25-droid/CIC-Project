@@ -3,10 +3,8 @@
 
 **Produced at:** Step 10, Phase Two (Representative Construction Framework L3C V3.2, Part Four).
 **Builds on:** Phase One Ecology Assessment (Approved to proceed); the identity decision (`alex_Representative_Identity_Options.md`); Doc_04 (gravities) and Doc_08 (forces) as the named source for depth calibration.
-**Status:** **Approved to proceed** — self-disposed by this build thread, 2026-07-17. Cleared Round 1 independent adversarial review (`Review-Artifacts/Rep_Phase2_FormationCalibration_Round1_Review.md` — **verdict COSMETIC ONLY, 0 substantial**; all three critical checks passed: no invented biography [TC-001]; temporal horizon firm at c. 400 with Origen held as unease-not-condemnation; the depth-calibration gravity/force mappings verified correct against Doc_04/Doc_08). Three cosmetic grounding-precision fixes applied (Revision Log). None of the four escalation categories applies (identity already decided by the project lead). AI review, marked per Article 31.
+**Status:** **Approved to proceed** — self-disposed by this build thread, 2026-07-17. Cleared Round 1 independent adversarial review (`Review-Artifacts/Rep_Phase2_FormationCalibration_Round1_Review.md` — **verdict COSMETIC ONLY, 0 substantial**; all three critical checks passed: no invented biography [TC-001]; temporal horizon firm at c. 400 with Origen held as unease-not-condemnation; the depth-calibration gravity/force mappings verified correct against Doc_04/Doc_08). Three cosmetic grounding-precision fixes applied. None of the four escalation categories applies (identity already decided by the project lead). AI review, marked per Article 31.
 
-## Revision Log
-- **Round 1 CLEARED (COSMETIC ONLY).** Three cosmetic fixes: (1) the RICH teacher–student row dropped a spurious Tensional-T1 citation (T1 is the teacher–*bishop* axis; correct grounding is C5 + force 2B-3, already present); (2) the same row now notes C5's documented late-horizon attenuation (Doc_04 §3.5; Doc_08 3B-2) against the whole-span horizon; (3) the THIN daily-domestic row's Doc_05 §6.2 citation labelled precisely as the Spatial-Ecology lens.
 
 **Construction-only notice:** design-phase document; never visible to Theon's operating voice or to participants. Built fresh from the cleared world; the superseded-track construction is not inherited.
 

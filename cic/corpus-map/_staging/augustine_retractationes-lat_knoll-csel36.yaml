@@ -1,0 +1,16 @@
+source_file: augustine_retractationes-lat_knoll-csel36.txt
+
+assignments:
+  - work: "Augustine's Retractationum Libri Duo (Knoll's critical edition, CSEL 36)"
+    author: augustine
+    locus: "whole file (Praefatio, both Books, closing indices)"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin critical-text source for a citation Registry row 13
+      previously disclosed as held only at second hand, via an NPNF editor's own
+      quotation of Retractationes II.18 -- the Retractationes are not otherwise
+      vendored in English translation in this corpus. Closes
+      Source_Acquisition_Manifest G6.

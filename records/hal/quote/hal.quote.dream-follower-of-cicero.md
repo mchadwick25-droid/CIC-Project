@@ -20,6 +20,9 @@ sources:
   license: public-domain
 text: 'Thou liest, thou art a follower of Cicero and not of Christ. For ''where thy
   treasure is, there will thy heart be also.'''
+modern_rendering: >-
+  You lie. You are a follower of Cicero, and not of Christ. For where your
+  treasure is, there will your heart be also.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Where thy treasure is, there will thy heart be also" is a direct scriptural citation (Matt. 6:21) placed in the Judge''s mouth, not the dream-vision''s own coinage - a modern reader unfamiliar with the verse may hear it as invented rhetoric.'
@@ -41,3 +44,5 @@ Thee') is likewise verified and may be quoted with this record's same
 caveats. Serves F2-P (the confused-bored-by-the-Bible cell: the dream
 turns exactly on loving polished prose more than scripture's plainness)
 and F1-P (doubt and the divided heart).
+
+MODERN RENDERING AUTHORED (2026-08-29, hal register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).

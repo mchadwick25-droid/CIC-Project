@@ -87,10 +87,39 @@ def _quote_speaker_label(record: dict, repository_records: dict) -> str | None:
     return raw
 
 
+def _short_head(text: str) -> str:
+    """The title of a work/locus string before its scholarly apparatus.
+    The corpus writes both fields title-first, apparatus after: work as
+    "The Didache (The Teaching of the Twelve Apostles); final form c.
+    80-120 CE per Niederwimmer..." and locus as "Trallians 9 (the 'truly
+    born...truly raised' chain)". The full strings stay in the card's
+    sources[] untouched - this only builds the headline."""
+    return (text or "").split(";")[0].split(" (")[0].strip()
+
+
+def _quote_label(record: dict, repository_records: dict) -> str | None:
+    """Source first, person as attribution (Mark's pilot read, 2026-08-30:
+    "the links are to ignatious, not the source" - the quote card's
+    headline was the speaker, with the work below it in small text; the
+    same correction he already made once for the figure bridge, "the
+    point is not just who Origen is, but the reference of what he is
+    saying"). A quote with no sources[] still labels by its speaker -
+    honest attribution beats a blank."""
+    speaker = _quote_speaker_label(record, repository_records)
+    entry = next(iter(record.get("sources") or []), {})
+    source_record = repository_records.get(entry.get("source_id")) or {}
+    work = _short_head(source_record.get("work") or "")
+    locus = _short_head(entry.get("locus") or "")
+    head = ", ".join(part for part in (work, locus) if part)
+    if head and speaker:
+        return f"{head} — {speaker}"
+    return head or speaker
+
+
 _LABEL_FIELDS = {
     "term": lambda r, _repo: r.get("world_word") or r.get("term"),
     "story": lambda r, _repo: r.get("tellable_as"),
-    "quote": _quote_speaker_label,
+    "quote": _quote_label,
     "figure": lambda r, _repo: _figure_label(r),
     "gravity": lambda r, _repo: _short_name(r) or r.get("description"),
     "force": lambda r, _repo: _short_name(r) or r.get("description"),
@@ -126,19 +155,25 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
                 "rights_status": source_record.get("rights_status"),
             }
         )
-    return {
+    card = {
         "record_id": record_id,
         "record_type": record.get("record_type"),
         "label": _label(record, repository_records),
         "sources": sources,
     }
+    if record.get("record_type") == "quote" and record.get("modern_rendering"):
+        # Mark's ruling (2026-08-28): a quote spoken in its build-authored
+        # modern rendering carries its original wording on the click page.
+        card["original_wording"] = record.get("text")
+        card["spoken_rendering"] = record.get("modern_rendering")
+    return card
 
 
 def resolve_citation_sources(citations: list[dict], repository_records: dict[str, dict]) -> list[dict]:
     """citations, unchanged, with one new key per entry: `sources`, the
     resolved cards for every record_id that sentence cited. Never mutates
     the sentence/record_ids the citation-verification net already
-    produced - additive only, same principle _apply_net itself follows
+    produced - additive only, same principle apply_net itself follows
     ("the checks gate decoration, never the text")."""
     out = []
     for citation in citations:

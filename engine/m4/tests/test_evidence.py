@@ -247,7 +247,7 @@ def test_assemble_evidence_no_cell_still_returns_empty_but_valid_shape():
     evidence = assemble_evidence(
         message="What's the weather like?", asks=None, canon_questions=CANON_QUESTIONS, coverage=COVERAGE, repository_records=REPOSITORY
     )
-    assert evidence == {"cells": [], "candidates": [], "thin_ground": []}
+    assert evidence == {"cells": [], "candidates": [], "thin_ground": [], "figures_already_named": []}
 
 
 def test_assemble_evidence_wires_thin_ground_end_to_end():
@@ -319,6 +319,36 @@ def test_render_evidence_block_includes_thin_ground_line():
     block = render_evidence_block(evidence)
     assert "THIN GROUND" in block
     assert "ethnicity" in block
+
+
+def test_render_evidence_block_names_figures_already_introduced():
+    """Mark's pilot read (2026-08-30): both Chloe turns opened "One of us,
+    Ignatius" - the session's already_bridged_figure_ids suppressed the
+    UI's second underline but never reached the voice. The evidence block
+    is where the voice learns session state (same channel Stage E's
+    already-told annotation uses), so the caller-resolved names render
+    there; no names, no line."""
+    evidence = assemble_evidence(
+        message="What does your community remember of Jesus?",
+        asks=None,
+        canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE,
+        repository_records=REPOSITORY,
+        figures_already_named=["Ignatius", "Justin"],
+    )
+    assert evidence["figures_already_named"] == ["Ignatius", "Justin"]
+    block = render_evidence_block(evidence)
+    assert "## Already introduced: Ignatius, Justin." in block
+
+    bare = assemble_evidence(
+        message="What does your community remember of Jesus?",
+        asks=None,
+        canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE,
+        repository_records=REPOSITORY,
+    )
+    assert bare["figures_already_named"] == []
+    assert "Already introduced" not in render_evidence_block(bare)
 
 
 def test_a_morphological_variant_reaches_the_cell_its_root_defines():
@@ -724,3 +754,48 @@ def test_a_first_turn_has_no_history_to_inherit_from():
         message="Why did that matter?", asks=None, canon_questions=CANON_QUESTIONS,
         coverage=COVERAGE, repository_records=REPOSITORY, history=[])
     assert not any(c.get("inherited_from_prior_turn") for c in out["cells"])
+
+
+def test_diverse_take_breadth_first_by_source():
+    """Mark's ruling (2026-08-29): source breadth is a system function of
+    selection, never a per-record hand-fix. Same slot count; composition
+    prefers one-per-source-family before seconds from the same family."""
+    from engine.m4.evidence import _diverse_take, _source_key
+    repo = {
+        "w.quote.a1": {"id": "w.quote.a1", "sources": [{"source_id": "w.source.ignatius"}]},
+        "w.quote.a2": {"id": "w.quote.a2", "sources": [{"source_id": "w.source.ignatius"}]},
+        "w.quote.b1": {"id": "w.quote.b1", "sources": [{"source_id": "w.source.pliny"}]},
+    }
+    scored = [("w.quote.a1", 0.9), ("w.quote.a2", 0.8), ("w.quote.b1", 0.5)]
+    # floor 2: best ignatius + best pliny, not two ignatius
+    assert _diverse_take(scored, repo, 2) == [("w.quote.a1", 0.9), ("w.quote.b1", 0.5)]
+    # floor 3: the second ignatius comes back in the fill pass
+    assert _diverse_take(scored, repo, 3) == [("w.quote.a1", 0.9), ("w.quote.b1", 0.5), ("w.quote.a2", 0.8)]
+    # single-family cell: identical to plain top-N
+    mono = [("w.quote.a1", 0.9), ("w.quote.a2", 0.8)]
+    assert _diverse_take(mono, repo, 2) == mono
+    # sourceless record is its own family, never crowded out
+    assert _source_key({"id": "w.limit.x", "sources": []}) == "w.limit.x"
+
+
+def test_diverse_take_downgrades_session_used_families():
+    """Mark's ruling (2026-08-29): a reference already drawn on this session
+    is looked to LAST, never banned - Ignatius yields the first slot to a
+    fresh family once he has spoken, and still fills slots nothing else can."""
+    from engine.m4.evidence import _diverse_take
+    repo = {
+        "w.quote.ign1": {"id": "w.quote.ign1", "sources": [{"source_id": "w.source.ignatius"}]},
+        "w.quote.ign2": {"id": "w.quote.ign2", "sources": [{"source_id": "w.source.ignatius"}]},
+        "w.quote.pliny": {"id": "w.quote.pliny", "sources": [{"source_id": "w.source.pliny"}]},
+        "w.quote.justin": {"id": "w.quote.justin", "sources": [{"source_id": "w.source.justin"}]},
+    }
+    scored = [("w.quote.ign1", 0.9), ("w.quote.pliny", 0.6), ("w.quote.justin", 0.5), ("w.quote.ign2", 0.4)]
+    # nothing used yet: breadth-first as before, Ignatius leads on score
+    assert _diverse_take(scored, repo, 2) == [("w.quote.ign1", 0.9), ("w.quote.pliny", 0.6)]
+    # Ignatius already drawn on this session: fresh families first, Ignatius after
+    used = {"w.source.ignatius"}
+    assert _diverse_take(scored, repo, 3, used) == [
+        ("w.quote.pliny", 0.6), ("w.quote.justin", 0.5), ("w.quote.ign1", 0.9)]
+    # when only Ignatius qualifies, he still fills the slots - downgraded, not banned
+    only_ign = [("w.quote.ign1", 0.9), ("w.quote.ign2", 0.4)]
+    assert _diverse_take(only_ign, repo, 2, used) == only_ign

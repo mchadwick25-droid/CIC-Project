@@ -27,7 +27,7 @@ retrieval:
   - marriage, celibacy, and what this world held highest for women
   - Eustochium's vocation
   do_not_retrieve_when: []
-plain_meaning: Lifelong consecrated virginity. This world held it as the highest form of Christian
+plain_meaning: Lifelong consecrated virginity. We held it as the highest form of Christian
   life open to a woman.
 world_word: virginitas
 false_friend:
@@ -46,7 +46,7 @@ senses:
   translational: '"What did marriage mean to your people?" - marriage was honored as good and virginity
     as better, in an explicit ranking this world argued for publicly and was criticized for, then
     and since.'
-quick_meaning: Lifelong consecrated virginity. This world held it as a woman's highest calling.
+quick_meaning: Lifelong consecrated virginity. We held it as the highest calling for a woman.
 distortion_risk: high
 ---
 Re-derived from cleared Doc_06 entry 4 (hal_lex04), with the

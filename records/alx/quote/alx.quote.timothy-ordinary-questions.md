@@ -15,14 +15,23 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.alexandrian-canonical-answers
-  locus: 'Timothy of Alexandria, Canonical Answers, Questions I, II, VIII, X, XI (npnf214, line 44104)'
+  locus: 'Timothy of Alexandria, Canonical Answers, Questions I, VIII, X, XI (npnf214, line 44104)'
   license: public-domain
 text: 'Question. If a lad of seven years old, or a man, being a catechumen, being present at the oblation,
-  does eat of it through ignorance, what shall be done in this case? Answer. Let him be illuminated,
-  that is, baptized, for he is called by God. Question. Ought a woman in child-bed to keep the Paschal
+  does eat of it through ignorance, what shall be done in this case? Answer. Let him be illuminated, i.e.
+  baptized, for he is called by God. Question. Ought a woman in child-bed to keep the Paschal
   fast? Answer. No. Question. Is a sick man obliged to keep the Paschal fast? Answer. No. Question. If
   a clergyman be called to celebrate a marriage, and have heard that it is incestuous; ought he to comply,
   and perform the oblation? Answer. No; he must not be partaker of other men''s sins.'
+modern_rendering: >-
+  Question: If a boy of seven, or a grown man who is still a catechumen, is
+  present at the offering and eats of it without knowing better, what should
+  be done? Answer: Let him be illuminated - that is, baptized - for he has
+  been called by God. Question: Should a woman who has just given birth keep
+  the Paschal fast? Answer: No. Question: Is a sick man required to keep the
+  Paschal fast? Answer: No. Question: If a clergyman is called to celebrate a
+  marriage and hears that it is incestuous, should he comply and perform the
+  offering? Answer: No; he must not share in other men's sins.
 speaker_or_author: Timothy, bishop of Alexandria (d. 385), answering questions put to him
 license: verbatim
 modern_lens_note: >-
@@ -64,3 +73,14 @@ historians - teaching, argument, and the ascent of the soul. The world's
 own registry entry admits it is "thinner on ordinary believers." This is
 the Alexandrian church at a desk, answering what a person should
 actually do.
+
+MODERN RENDERING AUTHORED (2026-08-29, alx register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+
+corrected 2026-09-08, records/alx audit: (1) the text field's rendering of
+Question I's answer had silently expanded "i.e." to "that is" on this
+license: verbatim record; restored to "Let him be illuminated, i.e.
+baptized, for he is called by God," matching npnf214 line 44104 exactly.
+(2) the sources locus listed "Questions I, II, VIII, X, XI" though Question
+II never appears in the text field (the body note above and the DISCLOSED
+paragraph both already correctly said "I, VIII, X and XI" - only the
+sources locus was out of step); "II" is removed from that locus list.

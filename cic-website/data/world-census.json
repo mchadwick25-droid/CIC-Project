@@ -5,17 +5,17 @@
   "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "generated": "2026-08-02",
   "totalEntries": 292,
-  "liveCount": 6,
+  "liveCount": 8,
   "statusCounts": {
-   "Built & Live": 6,
-   "Selected - Not Yet Built": 3,
-   "Possible Future World (on record)": 19,
+   "Built & Live": 8,
+   "Selected - Not Yet Built": 2,
+   "Possible Future World (on record)": 17,
    "Excluded - Doctrinal Floor (C1)": 4,
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
    "Pre-Survey Candidate": 215,
    "Floor Question (register)": 28,
-   "Within Another World (A5)": 5,
+   "Within Another World (A5)": 6,
    "Outside Article 4 Scope": 1,
    "Label - Assessed Per Body (A3)": 1
   },
@@ -758,9 +758,9 @@
    "id": "post-apostolic-house-church",
    "atlasId": "I.1",
    "era": 1,
-   "name": "Post-Apostolic House-Church Christianity",
-   "shortName": "House-Churches",
-   "informalName": "The House-Churches",
+   "name": "Post-Apostolic Household-Church Christianity",
+   "shortName": "Scattered Households",
+   "informalName": "The Scattered Households",
    "dates": "70–200 CE",
    "start": 70,
    "end": 200,
@@ -781,37 +781,506 @@
    "living": false,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Moderate; communal voice rich, individual interior voice thin (disclosed on its tile)",
+   "sourcing": "Moderate to rich for communal life — letters, church order, worship — but its most vivid material leans on one contested corpus: Ignatius's seven letters, whose authorship and dating (c. 107–117 CE traditionally; rival readings place them decades later, even as later composition) remain a genuine, unresolved scholarly dispute. Individual, first-person voice stays thin throughout: no woman, no enslaved member, and no non-literate believer — the majority of this movement — speaks to us in words of their own.",
    "floorNote": "These communities lived two centuries before the Nicene Creed was written. What they confessed is part of the raw material the creed was later drawn from, not a departure from it.",
    "relationsSummary": "Parent of nearly everything on the map",
-   "why": "It is — open for conversation now (Representative: Chloe).",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Chloe, a household leader, right now.",
    "entry": {
     "representativeId": "chloe",
     "representativeName": "Chloe",
-    "representativeTitle": "Host of the Assembly",
-    "worldName": "The House-Churches",
-    "subtitle": "Post-Apostolic House-Church Christianity",
-    "color": "#7c3aed",
-    "tile": "The house-churches of Antioch, Asia Minor, and Rome, 70 to 200 CE — the scattered gatherings that held together after the apostles were gone, connected by letters, formed around the table, still discerning who should lead and what the body's suffering truly means.",
+    "representativeTitle": "Household Leader",
+    "worldName": "The Scattered Households",
+    "subtitle": "Post-Apostolic Household-Church Christianity",
+    "color": "#955FF0",
+    "tile": "An uncommon faith in scattered households lived as one body, connected by letters and a shared table. Once the apostles were gone, some were led by a single bishop and elders, others by a council of elders. Following Jesus meant loss of status, suspicion from neighbors, and even outright persecution at times.",
     "icon": "assets/world-icons/house-churches.svg"
    },
-   "longDescription": "After the apostles died, Christianity had no buildings of its own, no clergy in any later sense, and no agreed list of Scriptures — it had houses. Believers gathered in a member's dining room or the back of a workshop, ate a meal together, read aloud whatever apostolic letters had reached them, and stayed connected to distant congregations by hand-carried correspondence and travelling teachers. Across these decades the shape of the church slowly emerged in practice rather than by decree. Who should preside, how to receive people through baptism, what to do when a member handed in his neighbours under interrogation, what to make of the fact that faithfulness kept costing people their lives. Ignatius of Antioch wrote to churches along his route while under armed guard on the way to his own execution in Rome; Justin Martyr, teaching in a rented room above a bathhouse in the same city, wrote down what a Sunday gathering actually looked like. And both were killed for it.",
+   "longDescription": "In the generations following the apostles, the earliest Christian movement had no documented church buildings and no single leadership structure. They had the Old Testament. The gospels and letters of the apostles moved between communities as copies were made and passed along, though no fixed collection had been settled yet. It was a network of faithful households, scattered across Antioch, Asia Minor, and Rome, meeting wherever they could. New believers were taught the Two Ways on the road to baptism; only then were they brought into the fellowship to share the weekly breaking of bread and prayer. Across long distances, these household communities were held together by carried letters.\n\nSome communities were guided by a single bishop alongside elders and deacons, others by a circle of elders alone—both forms were real, and neither was settled. The questions they wrestled with had no easy answers: How do we make room for genuine doubt? How should conflict within the community be resolved? What did women's leadership look like? Following Jesus routinely meant loss of social standing, suspicion from neighbors, and periodic waves of official violence.\n\nIn his surviving letters, Ignatius of Antioch describes writing to sister churches while being marched toward Rome under armed guard — soldiers he called 'ten leopards,' who, in his own words, 'show themselves all the worse' the more kindly he treats them. Justin, who told his imperial interrogator that he taught above a public bathhouse in Rome, wrote down the earliest record of what their Sunday actually looked like—the reading of the memoirs, the common loaf and cup, and the collection gathered for orphans, widows, and travelers. Justin was executed for refusing to abandon his Lord; tradition has it that Ignatius met the same end.\n\nThe earliest outside account of these communities comes from Roman authority, not from inside the movement. Around 112 CE, the governor Pliny the Younger wrote to the emperor Trajan describing an investigation: believers who had recanted told him, under threat of ordinary punishment, that these communities met before dawn to sing a hymn to Christ 'as God,' bound themselves by oath against theft and adultery, then met again later for a meal they called 'common yet harmless.' Still unsatisfied, Pliny had two enslaved women who held office among them — titled ministrae, deacons — questioned under torture. He learned, he wrote, only 'a superstition depraved and immoderate.' Their names do not survive; his letter is the earliest outside evidence that women held a formal title here at all.",
    "voices": [
-    "Ignatius of Antioch — bishop who wrote seven letters to congregations while being marched to his execution in Rome, c. 107-117",
-    "Clement of Rome — wrote from the Roman church to the Corinthians around 96 to settle a dispute over deposed leaders, the earliest Christian letter outside the New Testament",
-    "Polycarp of Smyrna — bishop who had known the apostolic generation, put to death at Smyrna around 155, his death recorded by his own congregation",
-    "Justin Martyr — a philosopher who kept teaching Christianity as a school in Rome and left the earliest detailed description of Christian Sunday worship",
-    "Most of these communities' hosts and householders are unnamed in the record — the gatherings met in the homes of people history did not bother to write down"
+    "Ignatius, bishop of Antioch, wrote seven letters to congregations while he was marched toward Rome under armed guard, c. 107-117. Polycarp's own letter later speaks of him as already dead, though it admits not knowing the details of what happened.",
+    "Clement of Rome wrote on behalf of the Roman church to the Corinthians around the year 96, addressing a dispute over deposed leaders. The letter is the earliest Christian writing outside the New Testament to survive.",
+    "Polycarp of Smyrna was addressed as bishop by Ignatius, though his own letter never claims the title, opening only as 'Polycarp, and the presbyters with him.' He was put to death at Smyrna around 155; his own congregation recorded his death.",
+    "Justin Martyr was a philosopher who kept teaching Christianity as a school in Rome. He left the earliest detailed description of what their Sunday actually looked like.",
+    "Most of these communities' hosts and householders are never named in the record. The gatherings met in their homes, but no record says whose.",
+    "Two enslaved women who served among these communities, called ministrae, are named only by their Roman interrogator's own word for their office — never by their own names. A governor had them tortured around the year 112 to learn what Christians did; it is the earliest outside evidence that women here held a formal title at all."
    ],
-   "legacy": "Almost everything on this map descends from these gatherings. The basic shape of Christian worship — assembling on the first day of the week, reading Scripture aloud, a shared table — was set here, along with the offices of bishop, presbyter and deacon, and the habit of reading apostolic letters in public until they became Scripture by use rather than by ruling. Their networks of hospitality between cities became the nervous system of the ancient church, and their correspondence — Clement, Ignatius, Polycarp — has been read ever since. The Didache, by contrast, was lost for centuries and recovered from a single surviving manuscript only in the 1870s.",
-   "experienceToday": [
+   "legacy": "Almost every Christian tradition descends from these early gatherings. The basic rhythm of Christian worship—assembling on the first day of the week, reading aloud from the prophets and the apostles' memoirs, and sharing the bread and the cup, whether in a full communal meal or the bread and wine alone—shows up earliest in these spaces.\n\nWith the apostles no longer there to consult, these communities had to work out how to live together: how to treat one another, how to pray, and how to forgive and restore those who fell into sin or caused division. The roles of bishop, presbyter, and deacon were already named in the apostolic writings, but trying to live out those instructions under local pressures gave the offices more concrete form.\n\nThe apostolic texts themselves gained authority in much the same way. Reading the apostles' letters aloud week after week became an enduring habit, and it was through this regular use in worship—not by an early decree—that these writings came to be heard alongside the ancient Jewish Scriptures. Carried by travelers from city to city, these letters bound scattered households together, and writings like those of Clement, Ignatius, and Polycarp were preserved and read for generations to come.",
+   "sources": [
     {
-     "text": "The Dura-Europos house-church, Syria — an ordinary home converted for worship between about 233 and 256, the earliest identified Christian church building, preserved because a Roman defensive rampart buried it",
-     "url": "https://en.wikipedia.org/wiki/Dura-Europos_church"
+     "work": "A Plea for the Christians",
+     "author": "athenagoras",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
     },
     {
-     "text": "Yale University Art Gallery, New Haven — the Dura-Europos baptistery wall paintings, probably the oldest surviving Christian paintings anywhere, are on display",
-     "url": "https://artgallery.yale.edu/collections/objects/34496"
+     "work": "Acts and Martyrdom of the Holy Apostle Andrew",
+     "author": "acts-of-andrew",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of Andrew and Matthias",
+     "author": "acts-of-andrew-and-matthias",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of Paul and Thecla",
+     "author": "acts-of-paul-and-thecla",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of Peter and Andrew",
+     "author": "acts-of-peter-and-andrew",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of the Holy Apostle and Evangelist John the Theologian",
+     "author": "acts-of-john-the-theologian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of the Holy Apostles Peter and Paul",
+     "author": "acts-of-peter-and-paul",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Address to the Greeks",
+     "author": "tatian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Heresies (Books I-V)",
+     "author": "irenaeus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Apology (Apologeticus)",
+     "author": "tertullian",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Dialogue with Trypho",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Epistle to Diognetus",
+     "author": "mathetes",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Epistle to the Philippians (Polycarp)",
+     "author": "polycarp",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Epistles of Ignatius (seven epistles; shorter, longer and Syriac recensions)",
+     "author": "ignatius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Eulogy on S. Ignatius",
+     "author": "chrysostom",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "First Epistle to the Corinthians (1 Clement)",
+     "author": "clement_rome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragment of Theophilus of Caesarea",
+     "author": "theophilus-of-caesarea",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments (Tatian)",
+     "author": "tatian",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments from the Lost Writings of Irenaeus",
+     "author": "irenaeus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Apollonius",
+     "author": "apollonius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Aristo of Pella",
+     "author": "aristo-of-pella",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Claudius Apollinaris",
+     "author": "claudius-apollinaris",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Dionysius of Corinth",
+     "author": "dionysius-of-corinth",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Hegesippus",
+     "author": "hegesippus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Melito of Sardis",
+     "author": "melito-of-sardis",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Papias",
+     "author": "papias",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Polycrates of Ephesus",
+     "author": "polycrates-of-ephesus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Quadratus",
+     "author": "quadratus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Rhodon",
+     "author": "rhodon",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Serapion of Antioch",
+     "author": "serapion-of-antioch",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Hortatory Address to the Greeks",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Resurrection (fragments)",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Sole Government of God",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Other Fragments from the Lost Writings of Justin",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Spurious Epistles of Ignatius",
+     "author": "pseudo_ignatius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Acts of Philip",
+     "author": "acts-of-philip",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Acts of Xanthippe and Polyxena",
+     "author": "acts-of-xanthippe-and-polyxena",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Apocalypse of Peter",
+     "author": "apocalypse-of-peter",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Apology of Aristides the Philosopher",
+     "author": "aristides",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Discourse to the Greeks",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Epistle of Barnabas",
+     "author": "barnabas",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The First Apology",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The First Epistle of Clement to the Corinthians",
+     "author": "clement_rome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Five Books Against Marcion",
+     "author": "tertullian",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Gospel of Peter",
+     "author": "gospel-of-peter",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Infancy Gospel of Thomas (three forms)",
+     "author": "infancy-gospel-of-thomas",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Letter of the Churches of Lyons and Vienne (Pseud-Irenaeus)",
+     "author": "letter-churches-lyons-vienne",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Martyrdom of Ignatius",
+     "author": "martyrdom_of_ignatius",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Martyrdom of Justin Martyr",
+     "author": "martyrdom_of_justin",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Martyrdom of Polycarp",
+     "author": "martyrdom_of_polycarp",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Passion of St. Symphorosa and Her Seven Sons",
+     "author": "juliusafricanus",
+     "role": "tradition",
+     "confidence": "needs-ruling",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Pastor of Hermas",
+     "author": "hermas",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Protevangelium of James",
+     "author": "protevangelium-of-james",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Resurrection of the Dead",
+     "author": "athenagoras",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Second Apology",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Second Epistle of Clement (an ancient homily)",
+     "author": "second-clement",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Second Epistle of Clement (an ancient homily)",
+     "author": "second-clement",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Teaching of the Twelve Apostles (Didache)",
+     "author": "didache",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Theophilus to Autolycus",
+     "author": "theophilus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Notes Explanatory of Allusions to Persons, &c. (1905)",
+     "author": "fowler_brothers",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Annals, Book 15, chapter 44 (the Great Fire and Nero's punishment of the Christians)",
+     "author": "tacitus",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Church History of Eusebius (Historia Ecclesiastica)",
+     "author": "eusebius",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Death of Peregrine (De Morte Peregrini)",
+     "author": "lucian",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Works of Lucian of Samosata, Volume IV: the other seventeen pieces",
+     "author": "lucian",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Festal Letter XXXIX (367) - the canon list and the books appointed to be read",
+     "author": "athanasius",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Revelation of Moses",
+     "author": "revelation-of-moses",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Narrative of Zosimus",
+     "author": "narrative-of-zosimus",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Testaments of the Twelve Patriarchs",
+     "author": "testaments-twelve-patriarchs",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
     }
    ]
   },
@@ -867,10 +1336,10 @@
    "name": "The Latin Apologists",
    "shortName": "Latin Apologists",
    "informalName": "The Case Made in Latin",
-   "dates": "c. 200-320",
-   "start": 200,
+   "dates": "c. 197-320",
+   "start": 197,
    "end": 320,
-   "region": "Rome and Ostia; Sicca in Numidia; Nicomedia and Trier",
+   "region": "Carthage; Rome and Ostia; Sicca in Numidia; Nicomedia and Trier",
    "regions": [
     "Mediterranean",
     "Africa",
@@ -888,21 +1357,21 @@
    "living": false,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Substantial, and larger than the flag count suggested. Minucius Felix's Octavius (about twenty-four thousand words), Commodian's Instructiones (fifteen thousand) and Arnobius' seven books Against the Heathen (a hundred and forty thousand) are all vendored whole, and on Mark's ruling of 2026-08-27 so is Lactantius: the Divine Institutes alone runs to two hundred and forty thousand words, with the Anger of God, the Workmanship of God and the fragments beside it. Just under half a million words in all, which is a larger corpus than most entries in the census can call on. Two of the four authors are barely datable: Minucius Felix within a century, Commodian within three.",
-   "floorNote": "Not in question",
-   "relationsSummary": "The Latin counterpart to greek-apologists-second-century, a generation later and never as coherent a body. It touches tertullian-s-voice, which begins the enterprise and is kept separate because a voice that distinct is its own entry, and latin-pastoral-congregational-christianity, which is where three of these works had been parked for want of anywhere better. Its live relation is to imperial-juridical-christianity, and it runs through one man: Lactantius wrote his defence during the persecution and then tutored the son of the emperor who ended it. His De Mortibus Persecutorum stays with that entry rather than this one, because the unit of assignment is the work.",
-   "why": "Not a Step 0 verdict. Added on record in 2026 at Mark's direction, and the least thin of the five gaps he ruled on - it looked thin only because most of its material had been parked as PROVISIONAL rather than flagged. Two works were flagged with the note that no census entry fits early Latin apologetics; a third, Arnobius' hundred and forty thousand words, was sitting quietly on the Carthaginian congregational entry with the wrong genre and the wrong province, and has been moved here. THE PRECEDENT IS I.35: the Greek apologists were registered in 2026 on exactly this reasoning, and the same argument in Latin had simply never been made. Lactantius was held back at that ruling and settled here on 2026-08-27, which quadrupled the entry's corpus. The honest objection is unchanged and is the same one I.35 carries - that apologetic is a genre and not a community - and it is stronger here, because these men are not one another's contemporaries and the one teacher-pupil link between them, Arnobius to Lactantius, rests on a line in Jerome. It is registered because the material is real, large, and had nowhere accurate to sit.",
+   "sourcing": "Substantial before the merger, and far larger after it. Minucius Felix's Octavius (about twenty-four thousand words), Commodian's Instructiones (about fifteen thousand) and Arnobius' seven books Against the Heathen (a hundred and forty thousand) are all vendored whole, and on Mark's ruling of 2026-08-27 so is Lactantius: the Divine Institutes alone runs to two hundred and forty thousand words, with the Anger of God, the Workmanship of God and the fragments beside it - just under half a million words on its own. On Mark's further ruling of 2026-09-10, merging in the formerly separate tertullian-s-voice entry, this candidate now also holds the whole of Tertullian's own thirty-two-work corpus - the Apology, the five books Against Marcion (his longest single work, about a hundred and eighty-four thousand words on its own), Against Praxeas, the Prescription Against Heretics, and the rest - plus the Passion of Perpetua and Felicitas, transmitted with his corpus. Something over a million and a quarter words in all: two and a half times the size it was before the merger. Three of the five authors are barely datable: Minucius Felix within a century, Commodian within three; Tertullian's own dates (c. 197-220) are the best-anchored in the set.",
+   "floorNote": "Not in question for the corpus as a whole. Tertullian's own later years aligned with the New Prophecy (Montanism) out of Phrygia - a real, disclosed complication, but not a floor question: the census's own Montanism entry states plainly that the New Prophecy \"held the same doctrine as the churches that condemned it,\" the dispute being one of authority and discipline, not of the Creed's own commitments.",
+   "relationsSummary": "The Latin counterpart to greek-apologists-second-century, a generation later and never as coherent a body. Absorbs tertullian-s-voice (I.17), merged 2026-09-10 on Mark's ruling - the voice that begins the whole enterprise now belongs inside this entry, not beside it. Still touches latin-pastoral-congregational-christianity, where three of these works had been parked for want of anywhere better. Its live relation is to imperial-juridical-christianity, and it runs through one man: Lactantius wrote his defence during the persecution and then tutored the son of the emperor who ended it. His De Mortibus Persecutorum stays with that entry rather than this one, because the unit of assignment is the work.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 at Mark's direction, and the least thin of the five gaps he ruled on - it looked thin only because most of its material had been parked as PROVISIONAL rather than flagged. Two works were flagged with the note that no census entry fits early Latin apologetics; a third, Arnobius' hundred and forty thousand words, was sitting quietly on the Carthaginian congregational entry with the wrong genre and the wrong province, and has been moved here. THE PRECEDENT IS I.35: the Greek apologists were registered in 2026 on exactly this reasoning, and the same argument in Latin had simply never been made. Lactantius was held back at that ruling and settled here on 2026-08-27, which quadrupled the entry's corpus. On 2026-09-10, Mark ruled a second time: tertullian-s-voice (I.17) - kept separate at first because \"a voice that distinct is its own entry\" - merges into this one. A stand-alone world of one man, with (on that entry's own account) no community descending from him, is thinner than a world he anchors. The honest objection the entry has always carried is unchanged, and is sharper now that Tertullian is inside it rather than beside it: these authors are not one another's contemporaries, Tertullian least of all - his own Apology closes a full generation before Minucius Felix's own disputed dates even plausibly open the rest - and the one direct teacher-pupil link among them, Arnobius to Lactantius, still rests on a single line in Jerome. It is registered, and now merged, because the material is real, large, and had nowhere more accurate to sit than together.",
    "entry": null,
-   "longDescription": "Around the turn of the third century a Roman advocate named Minucius Felix wrote a dialogue set on the beach at Ostia. A pagan friend states the case against Christianity - it is a religion of the ignorant, its god was a criminal, its rites are obscene, and in any case Rome's greatness is proof enough that Rome's gods work - and a Christian answers him, and the pagan is convinced. What makes the Octavius unusual is that its author gives the other side the better speech: Caecilius' half is the fullest surviving statement of the educated pagan objection to Christianity, and it was written by a Christian who wanted to answer it properly. A century later and in a different register, an African rhetorician at Sicca called Arnobius wrote seven furious books Against the Heathen - to persuade his own bishop that his conversion was genuine, if Jerome is to be believed - and produced along the way the most detailed account of Roman religious practice that any Christian left, because he had to describe what he was attacking. Between them, and impossible to date within three centuries, sits Commodian: eighty short poems in acrostic verse that does not scan by the old rules, the initial letters spelling out their own titles, aimed at ordinary people, half catechism and half warning, ending with the end of the world. And at the end of the line stands Lactantius, whom Jerome makes Arnobius' pupil: a professor of Latin rhetoric summoned to Diocletian's new capital at Nicomedia, who lost the post when the persecution began and wrote the Divine Institutes in the middle of it - seven books arguing that the whole of pagan learning had been reaching for something it could not name, addressed to the educated men who were watching Christians die. He was old by the time it was over, and Constantine brought him to Trier to teach his son. What these men share is not a place or a generation. It is that each had to make the argument in Latin, in a vocabulary that had not been built to carry it.",
-   "teaser": "A Roman lawyer wrote the best surviving statement of the pagan case against Christianity - and he wrote it in order to refute it.",
+   "longDescription": "Carthage, 197 CE. A convert trained as a rhetorician sat down to answer the slanders against his new faith, and found that Latin had no words yet for most of what he needed to say - so he made them. Trinitas, persona, substantia, sacramentum: the technical vocabulary Western Christians still use for the Trinity and the sacraments came substantially off Tertullian's own pen, in the Apology and in the string of treatises that followed it - Against Praxeas arguing that Father and Son are genuinely distinct, the Prescription Against Heretics contending that Scripture belongs to the churches that received it, five long books Against Marcion answering the one rival he judged most dangerous. In his later years he grew steadily more rigorist and aligned himself with the New Prophecy out of Phrygia, which is one reason the Latin church quoted him endlessly and never made him a saint. Roughly a generation on and in a very different key, a Roman advocate named Minucius Felix wrote a dialogue set on the beach at Ostia, in which a pagan friend states the case against Christianity - it is a religion of the ignorant, its god was a criminal, Rome's greatness is proof enough that Rome's gods work - and is answered and convinced. What makes the Octavius unusual is that its author gives the other side the better speech: Caecilius' half is the fullest surviving statement of the educated pagan objection to Christianity. A century later and in a different register again, an African rhetorician at Sicca called Arnobius wrote seven furious books Against the Heathen - to persuade his own bishop that his conversion was genuine, if Jerome is to be believed - and produced along the way the most detailed account of Roman religious practice that any Christian left, because he had to describe what he was attacking. Between them, and impossible to date within three centuries, sits Commodian: eighty short poems in acrostic verse that does not scan by the old rules, aimed at ordinary people, half catechism and half warning. And at the end of the line stands Lactantius, whom Jerome makes Arnobius' pupil: a professor of Latin rhetoric summoned to Diocletian's new capital at Nicomedia, who lost the post when the persecution began and wrote the Divine Institutes in the middle of it, and who was old by the time it was over, when Constantine brought him to Trier to teach his son. What these five share is not a place or a generation. It is that each had to make the argument in Latin, in a vocabulary that had not been built to carry it - Tertullian first and most consequentially, the others after him.",
+   "teaser": "A Carthaginian lawyer invented the Latin words for the Trinity while defending Christians against Roman slander - and the argument he opened ran a further century, through Rome, Numidia, and the emperor's own new capitals.",
    "voices": [
+    "Tertullian of Carthage - a convert and trained rhetorician who opened the whole enterprise in 197, forged most of the Latin vocabulary of Christian argument, and grew more rigorist and Montanist-aligned in his later years",
     "Minucius Felix - a Roman advocate whose dialogue gives the pagan side the better speech, and whose own date nobody can fix within a century",
     "Arnobius of Sicca - a teacher of rhetoric who wrote seven books against the gods, by one account to convince his bishop that he meant it",
     "Commodianus - who wrote catechism in acrostic verse that does not scan, and whom scholars have placed anywhere between the third century and the fifth",
-    "Lactantius - Arnobius' pupil on Jerome's account, who wrote the fullest of the Latin defences while the persecution was still running and afterwards tutored the son of the emperor who ended it",
-    "Tertullian - whose Apology of 197 begins the whole enterprise, and who has an entry of his own rather than a place in this one"
+    "Lactantius - Arnobius' pupil on Jerome's account, who wrote the fullest of the Latin defences while the persecution was still running and afterwards tutored the son of the emperor who ended it"
    ],
-   "legacy": "The Latin vocabulary of Christian argument was largely made here, and in Tertullian's hands at the same time: these are the writers who had to decide which Latin words would carry Greek theological and philosophical freight, and a good deal of what they chose stuck. Minucius Felix gave the West its model for the apologetic dialogue and preserved, inadvertently, the most complete record of what educated Romans actually said against the church. Arnobius is now read mostly by historians of Roman religion, who need him precisely because he described in detail the thing he was trying to demolish. And Lactantius' Latin was good enough that the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers - the Divine Institutes was among the first books off a press in Italy, in 1465."
+   "legacy": "The Latin vocabulary of Christian argument was made here. Tertullian coined most of the technical words Western Christians still use for the Trinity and the sacraments, and left lines that entered common Christian speech, most famously that the blood of Christians is seed; the Western habit of thinking about God, the church, and the sacraments in legal and forensic categories owes a great deal to a man trained as an advocate. Minucius Felix gave the West its model for the apologetic dialogue and preserved, inadvertently, the most complete record of what educated Romans actually said against the church. Arnobius is now read mostly by historians of Roman religion, who need him precisely because he described in detail the thing he was trying to demolish. And Lactantius' Latin was good enough that the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers - the Divine Institutes was among the first books off a press in Italy, in 1465."
   },
   {
    "id": "apocryphal-and-pseudepigraphal-literature",
@@ -975,29 +1444,487 @@
    "living": false,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Rich (Clement, Origen); school-institution question is live scholarship",
-   "floorNote": "Nothing in this tradition's confession diverges from the doctrine the Nicene Creed later stated. Some of Origen's more speculative proposals — about the pre-existence of souls and the final restoration of all things — were disputed in his own lifetime and formally condemned by a church council three centuries after his death.",
-   "relationsSummary": "Parent of Desert Monasticism; scholarship parent of the Bethlehem Circle",
-   "why": "It is — open for conversation now (Representative: Theon).",
+   "sourcing": "Rich (Clement, Origen); school-institution question is live scholarship. One real gap: Clement's fullest surviving treatment of marriage and the body exists only in his own Greek — no public-domain English translation has ever been made of it.",
+   "floorNote": "This tradition's core confession does not diverge from the doctrine the Nicene Creed later stated — though one of its own greatest figures held things more loosely. Origen speculated boldly toward the soul's pre-existence and the final restoration of all things. The rupture of his own lifetime was not over these ideas: his bishop condemned his ordination, not his doctrine. The dispute over the doctrines themselves broke into open controversy only around 399–400, nearly a century and a half after his death, and a church council formally condemned them three centuries after that.",
+   "relationsSummary": "A contested influence on Desert Monasticism, real at one disputed point and denied as a general continuation; scholarship parent of the Bethlehem Circle",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Theon, a catechetical teacher, right now.",
    "entry": {
     "representativeId": "theon",
     "representativeName": "Theon",
     "representativeTitle": "Catechetical Teacher",
     "worldName": "Alexandrian Christianity",
     "subtitle": "Alexandrian Catechetical Tradition",
-    "color": "#2B5F8A",
-    "tile": "Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth.",
+    "color": "#3B83BF",
+    "tile": "In Alexandria, from about 150 to 400 CE, teachers led seekers through a shared life of reading Scripture. They believed its surface pointed toward a deeper meaning, one that opened onto the Logos himself. Some called it one continuous school; others say it was simply a series of private teachers, grouped together only in hindsight. Persecution reached even its own teachers—Origen's own father was martyred while Origen was still a boy.",
     "icon": "assets/world-icons/alexandria.svg"
    },
-   "longDescription": "Alexandria was the ancient world's great city of libraries and lecture halls, and Christianity there took the shape the city gave everything else — a school. Teachers received enquirers, catechumens preparing for baptism, and educated pagans curious about this new philosophy, and walked them through Scripture as a text with a surface and a depth: the letter first, then the moral sense, then the spiritual meaning that opens onto the Logos himself. Clement wrote for cultivated Greeks who wanted to know whether a Christian could keep his learning. Origen, who succeeded him, produced a staggering body of commentary and the Hexapla, a six-column parallel edition of the Old Testament assembled to see what the Hebrew actually said — before falling out with his bishop and moving his teaching to Caesarea around 231. Historians still argue about how formal the whole thing was. Whether Alexandria really had one continuous institution with a succession of appointed heads, as Eusebius later described it, or a looser sequence of private Christian schools whose teachers happened to be remembered together.",
+   "longDescription": "Alexandria was the ancient world's great city of libraries and lecture halls, and Christianity there took the same shape: a school. Teachers received enquirers, catechumens preparing for baptism, and educated pagans curious about this new philosophy, and walked them through Scripture as a text with a surface and a depth: the letter first, then the moral sense, then the spiritual meaning that opens onto the Logos himself.\n\nClement wrote for cultivated Greeks who wanted to know whether a Christian could keep his learning. Origen, who succeeded him, wrote commentaries across most of Scripture and produced the Hexapla, a six-column parallel edition of the Old Testament assembled to see what the Hebrew actually said — before falling out with his bishop and moving his teaching to Caesarea around 231. Historians still argue about how formal the whole thing was — whether Alexandria had one continuous institution with a succession of appointed heads, as Eusebius later described it, or a looser sequence of private Christian schools whose teachers happened to be remembered together. That tidy succession comes almost entirely from Eusebius: Clement's own writings never once describe a formal school that he headed.\n\nThe allegorical way of reading Scripture is this tradition's best-known signature, but it was never uncontested even at home. Nepos, a bishop out in the Egyptian countryside at Arsinoe, wrote a book refuting the allegorists and won real support for a plainer, literal reading — until Dionysius, by then bishop of Alexandria, spent three days in patient public conversation with Nepos's own community and brought them back around.",
    "voices": [
-    "Pantaenus — the earliest teacher named in the tradition, remembered as a converted Stoic philosopher",
-    "Clement of Alexandria — wrote for educated Greeks, arguing that philosophy had been a tutor leading toward Christ",
-    "Origen — the tradition's towering figure: commentator, textual scholar, and the first Christian to attempt a systematic account of the faith",
-    "Dionysius of Alexandria — Origen's student, later bishop, who steered the Egyptian church through persecution and plague",
-    "Didymus the Blind — blind from early childhood, taught in Alexandria for decades and was consulted by Jerome and Rufinus"
+    "Pantaenus was the earliest teacher named in the tradition, remembered as a philosopher who had converted from Stoicism. Clement later paid tribute to a beloved teacher as 'the true, the Sicilian bee,' though Clement himself never names him, and the identification with Pantaenus comes only from Eusebius.",
+    "Clement of Alexandria wrote for educated Greeks, arguing that philosophy had been a tutor leading them toward Christ.",
+    "Origen dominates the surviving record here: a commentator, a textual scholar, and the first Christian to attempt a systematic account of the faith.",
+    "Dionysius of Alexandria studied under Origen and later became bishop, steering the Egyptian church through persecution and plague. Of Christians who nursed the dying while an epidemic emptied the city, he wrote: they 'held fast to each other and visited the sick fearlessly... and died with them most joyfully, taking the affliction of others, and drawing the sickness from their neighbors to themselves.'",
+    "Didymus the Blind lost his sight at four, yet taught in Alexandria for decades — later tradition remembers him as heading the school in its final generation, though no surviving primary account actually says so. Jerome studied under him. Didymus's own books vanished for over fifteen centuries, until a cache of them turned up by chance in the Egyptian sand near Tura in 1941; none has yet been translated into English, so his voice here comes only through his students.",
+    "Most of the ordinary people who filled these classrooms and congregations left no words of their own. Potamiaena, a young woman the church remembered by name for her courage under execution, is typical of what survives: her story, never her own words. Everything that survives here was written by the literate few — teachers, bishops, and their own students."
    ],
-   "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became the dominant Christian approach for over a millennium, in the East and West alike. Origen's textual scholarship set the standard for taking the original languages seriously; Basil of Caesarea and Gregory of Nazianzus compiled an anthology of his writings, and Ambrose and Jerome read him closely even when they were careful about saying so. The tradition also fed directly into Egyptian monasticism, giving the desert its intellectual vocabulary."
+   "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen's textual scholarship set the standard for taking the original languages seriously; Basil of Caesarea and Gregory of Nazianzus compiled an anthology of his writings, and Ambrose and Jerome read him closely even when they were careful about saying so.\n\nThe tradition also fed directly into Egyptian monasticism, giving the desert its intellectual vocabulary.",
+   "sources": [
+    {
+     "work": "A Letter from Origen to Africanus",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "A Letter from Origen to Gregory",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "A Letter to Origen from Africanus About the History of Susanna",
+     "author": "juliusafricanus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against the Heathen (Contra Gentes)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Apology to the Emperor (Apologia ad Constantium)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Arian History (Historia Arianorum ad Monachos)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "De Principiis (On First Principles)",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Defence Against the Arians (Apologia Contra Arianos)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Defence of Dionysius (De Sententia Dionysii)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Defence of His Flight (Apologia de Fuga)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Defence of the Nicene Definition (De Decretis)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Deposition of Arius (Depositio Arii, with Alexander's Encyclical)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Encyclical Letter (Epistola Encyclica)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Epistles on the Arian Heresy and the Deposition of Arius",
+     "author": "alexander_alexandria",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Excerpts of Theodotus",
+     "author": "theodotus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Exegetical Fragments of Dionysius of Alexandria",
+     "author": "dionysius_gr",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Exhortation to the Heathen (Protrepticus)",
+     "author": "clement_alex",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Extant Fragments of Dionysius of Alexandria (works and epistles)",
+     "author": "dionysius_gr",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Four Discourses Against the Arians (Orationes contra Arianos IV)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments from the Writings of Peter of Alexandria (On the Godhead, On the Advent, On the Soul, and the Paschal fragments)",
+     "author": "peter_alexandria",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Pamphilus (exposition on the Acts of the Apostles)",
+     "author": "pamphilus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Pantaenus",
+     "author": "pantaenus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Phileas (Epistle to the People of Thmuis; on the martyrs of Alexandria)",
+     "author": "phileas",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Pierus of Alexandria",
+     "author": "pierus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Theognostus of Alexandria (from the Hypotyposes)",
+     "author": "theognostus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "From the Discourse on the Resurrection",
+     "author": "methodius",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter of Origen to Gregory",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On Luke x. 22 (In Illud Omnia Mihi Tradita Sunt)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Councils of Ariminum and Seleucia (De Synodis)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Incarnation of the Word (De Incarnatione)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Origen Against Celsus (Contra Celsum)",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Origen's Commentary on the Gospel of John",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Origen's Commentary on the Gospel of Matthew",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Personal Letters of Athanasius",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Prologue of Rufinus (to De Principiis)",
+     "author": "rufinus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Statement of Faith (Expositio Fidei)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Synodal Letter to the Bishops of Africa (Ad Afros Epistola Synodica)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Synodal Letter to the People of Antioch (Tomus ad Antiochenos)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Apocalypse of Peter",
+     "author": "apocalypse-of-peter",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canonical Answers of Timothy of Alexandria",
+     "author": "timothy_alexandria",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canonical Epistle of Peter of Alexandria",
+     "author": "peter_alexandria",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Divine Liturgy of Mark",
+     "author": "liturgy-of-st-mark",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Epistle of Theonas to Lucianus",
+     "author": "theonas",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Festal Letters (with the Festal Index)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Genuine Acts of Peter of Alexandria",
+     "author": "peter_alexandria",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Historia Acephala",
+     "author": "historia_acephala",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Instructor (Paedagogus)",
+     "author": "clement_alex",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of Saint Anthony by Athanasius (Syriac recension)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Oration and Panegyric Addressed to Origen",
+     "author": "gregory_thau",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Paschal Canon of Anatolius of Alexandria, with fragments of the Books on Arithmetic",
+     "author": "anatolius",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Philocalia of Origen",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Stromata, or Miscellanies",
+     "author": "clement_alex",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The canonical epistles of Athanasius (to Ammus; from the XXXIX Festal Epistle; to Ruffinian)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The canonical letter of Dionysius of Alexandria to Basilides",
+     "author": "dionysius_gr",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The canons of Peter of Alexandria, from his Sermon on Penitence",
+     "author": "peter_alexandria",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The canons of Theophilus of Alexandria (Prosphonesus; Commonitory; to Agatho; to Menas; on the Cathari)",
+     "author": "theophilus_alexandria",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "To the Bishops of Egypt (Ad Episcopos Aegypti et Libyae)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Vita Antonii (Life of Antony)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Who is the Rich Man that shall be saved?",
+     "author": "clement_alex",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Jerome's Apology for Himself Against the Books of Rufinus",
+     "author": "jerome",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter of Anastasius to John of Jerusalem concerning Rufinus",
+     "author": "anastasius_rome",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione Librorum Origenis)",
+     "author": "rufinus",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Rufinus' Translation Prefaces and Perorations (Recognitions of Clement; Origen on Psalms 36-38; Origen on Romans)",
+     "author": "rufinus",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Church History of Eusebius (Historia Ecclesiastica)",
+     "author": "eusebius",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula, Anathemas Against Origen",
+     "author": "council-of-constantinople-553",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    }
+   ]
   },
   {
    "id": "syriac-edessa-nisibis",
@@ -1026,32 +1953,324 @@
    "living": true,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Rich formal/doctrinal, thinner personal texture (disclosed on its tile)",
+   "sourcing": "Rich in hymns and doctrinal teaching (Ephrem, Aphrahat's twenty-three Demonstrations); thin on ordinary believers, the daughters of the covenant's own words, and the years after Ephrem's death in 373.",
    "floorNote": "This tradition holds the doctrine the Nicene Creed states. One figure inside it, the philosopher-poet Bardaisan, taught cosmological ideas his own later tradition repudiated; exactly where he stands relative to that doctrine remains an open question.",
-   "relationsSummary": "Parent of the Church of the East and Syriac Orthodox lines",
-   "why": "It is — open for conversation now (Representative: Mar Yausep).",
+   "relationsSummary": "Parent of the Church of the East and the Syriac Orthodox Church; the channel through which Greek philosophy and medicine passed into Arabic and back to Europe.",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Mar Yausep, a teacher of the covenant order, right now.",
    "entry": {
     "representativeId": "mar-yausep",
     "representativeName": "Mar Yausep",
     "representativeTitle": "Teacher of the Covenant Order",
     "worldName": "Syriac Christianity",
-    "subtitle": null,
-    "color": "#b45309",
-    "tile": "Edessa and Nisibis, 200 to 410 CE — in what is now southeastern Turkey — a community shaped by persecution under Persian rule, holding together through covenant vows and typological reading of Scripture.",
+    "subtitle": "Syriac Christianity of Edessa and Nisibis",
+    "color": "#CC5E0A",
+    "tile": "In Edessa and Nisibis, from 200 to 410 CE, Christians taught their faith in hymn and read Scripture as a world of types answering type. At the community's ascetic core stood the covenant: men and women vowed to celibacy for life who served their own congregation instead of withdrawing to the desert. Whether authority rested more in that vow or in a bishop's office was never settled in their own record. On the Persian side of the frontier, the king's own persecution took the bishop Simeon bar Sabbae and left the church's chief seat empty for twenty years.",
     "icon": "assets/world-icons/syriac.svg"
    },
-   "longDescription": "East of the Roman frontier, in the border cities of Edessa and Nisibis, Christianity grew up speaking Syriac — a form of Aramaic close to the language Jesus himself spoke. And it developed a character of its own before Greek theology reached it. It taught in poetry rather than philosophical prose, reading the Scriptures typologically, as a world of symbols answering one another. Ephrem the Syrian wrote hundreds of hymns that carried doctrine in metre so a congregation could sing what it believed. Its ascetics were not desert hermits but the sons and daughters of the covenant, consecrated men and women who took vows of celibacy and stayed inside the ordinary congregation, serving it. And it lived on a fault line. When the Roman emperor Jovian surrendered Nisibis to Persia in 363, Ephrem and much of the Christian community moved west to Edessa, and the churches left behind under Persian rule faced waves of persecution as a suspected foreign fifth column.",
+   "longDescription": "The first hard evidence of a Christian community at Edessa is a flood: a church building destroyed when the river overran its banks in 201, recorded in the city's own chronicle. Edessa's Christians told an older story about their beginning too—that King Abgar himself had written to Jesus and been answered—but no text earlier than the fourth century attests it, and it is best heard as the community's own cherished memory, not as history. What the record actually shows is plainer. They were a Christian people who spoke Syriac, close to the language Jesus himself spoke, and who read Scripture as a web of symbols answering each other: Eden answering the cross, the Jordan answering the font. They met the Gospel as one continuous story rather than four separate books, in a harmony a Greek-trained convert named Tatian had woven a generation earlier; Aphrahat quoted it and Ephrem preached from it for as long as this world lasted.\n\nAt the community's ascetic heart stood the covenant: men and women who vowed themselves to lifelong celibacy while remaining inside their own congregation instead of leaving for the desert, keeping the fast and the vigil and singing what the community believed. Office and vow ran side by side for this whole world's life, and who finally spoke for it was never settled. Aphrahat, remembered simply as the Persian sage, once drafted a synodal letter in the name of a council of bishops, yet whether he held that office himself, no one now can say. Persia's own bishops fought the same question in the open: Papa of Seleucia-Ctesiphon claimed to lead them all, and was contested by his own colleagues in his own lifetime. The community also knew its faith by naming what it was not, answering by name the teachings of the philosopher Bardaisan, of Marcion, and of Mani, all preached in the same cities in the same tongue.\n\nIn 338, Shapur II of Persia besieged Nisibis; Ephrem, the city's own hymnwriter, remembered its deliverance as an act of God worked through ordinary defenders, while a later account added a swarm of gnats to the story. Bishop Jacob led that defense. The Chronicle of Edessa places his death that same year; Theodoret's own church history instead has him defending the city again in 350, and the record itself never closes the question. Nisibis held until 363, when the Roman emperor Jovian ceded it to Persia and Ephrem moved west to Edessa, where he spent his last year running famine relief before he died. On the Persian side, the persecution already underway since the 340s took bishop Simeon bar Sabbae and his clergy, and left the church's chief seat empty for twenty years, since filling it meant near-certain death. Not until 410, when the Roman bishop Marutha brokered a synod with the favor of Yazdegerd I, the Persian king, did the Persian church finally receive a single settled order—the last thing this world's own record has to say.",
    "voices": [
-    "Tatian — compiled the Diatessaron, a single continuous gospel woven from the four, which Syriac churches used as their standard gospel text for centuries",
-    "Bardaisan of Edessa — philosopher, astrologer and hymn-writer at the Edessan court, whose cosmological teaching the later Syriac tradition rejected while keeping his poetic form",
-    "Jacob of Nisibis — bishop of Nisibis until 338, remembered as the city's protector during Persian siege",
-    "Ephrem the Syrian — deacon, teacher and the tradition's greatest poet, who moved from Nisibis to Edessa in 363 and died caring for famine victims there"
+    "Ephrem was a deacon, first at Nisibis and then, after 363, at Edessa, and this tradition's most prolific poet: hundreds of hymns carried its doctrine in verse a congregation could sing. He spent his last year running famine relief in the city and died within the month the crisis ended.",
+    "Aphrahat, remembered simply as 'the Persian sage,' wrote twenty-three dated letters from inside the Persian empire between 336 and 345, the last of them composed deep inside Shapur's persecution. He once drafted a circular letter in a synod of bishops' own name, yet whether he held that office himself is a question his own tradition never answers.",
+    "Tatian wove the four Gospels into one continuous story a generation before this world's own window opens, and these Syriac communities read his harmony as their standard Gospel text for two centuries afterward. Greek church history also remembers him breaking with Rome and founding a rigorist sect of his own—a controversy that belongs to his life outside this Syriac world, not inside it.",
+    "Bardaisan was a philosopher and poet at the court of King Abgar the Great. His one surviving dialogue argues that free will, not the stars, decides how people live—Christians the world over follow one law, whatever horoscope they were born under. His own later tradition rejected him over a separate question, whether the body itself is raised, and exactly where he stood on it is a question the record leaves open.",
+    "Jacob, bishop of Nisibis from about 309 and a signatory at the Council of Nicaea in 325, was remembered as the city's protector through Persian siege — though even his own people could not agree on when he died: one chronicle places it in 338, the year of the first siege, another has him still at his post in 350.",
+    "The daughters of the covenant sang this tradition's hymns in every church that had them. Not one line composed by one of them survives; everything known of their voices—their vows, their singing, their service—was written by men.",
+    "Simeon bar Sabbae, bishop of Seleucia-Ctesiphon, was ordered to collect a crushing new tax on Persia's Christians and refused. Arrested and brought before Shapur II, tradition says he was offered gifts, then threatened, and each time refused to worship the sun. He was executed with his own clergy — tradition remembers him as the first of the persecution's bishops to die for his faith. His death opened the twenty-year vacancy the Persian church endured. The year itself is disputed: 341 by the traditional count, with some historians arguing for 344 instead."
    ],
-   "legacy": "This is a living inheritance, not a closed chapter. The Syriac churches that descend from it — the Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in communion with Rome — still worship in Syriac and still sing Ephrem's hymns. Syriac Christianity carried the faith east along the trade routes into Persia, to India, and as far as Tang-dynasty China, and Syriac translators later became the channel through which Greek philosophy and medicine passed into Arabic and eventually back to Europe. The School of Nisibis became one of the ancient world's most important centres of theological education.",
+   "legacy": "The Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in communion with Rome all descend from this tradition, still worship in Syriac, and still sing Ephrem's hymns in their own liturgies.\n\nWithin a generation of this world's own close, the Gospel harmony these communities had read for two centuries gave way to a new translation, the Peshitta, and churches began reading the four Gospels separately again. Tradition credits Bishop Rabbula of Edessa (411–435) with the change; historians dispute whether he caused it or only presided over a shift already under way.\n\nMissionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China. Centuries later, Syriac translators became the channel through which Greek philosophy and medicine reached the Arabic-speaking world, and from there passed back into Europe.\n\nA separate school of formal theological training later grew up at Nisibis—founded around 490, two generations after this world's own record closes—and became one of the ancient world's most important centres of Christian education, distinct from the teaching Jacob and Ephrem had given the same city a century earlier.",
    "experienceToday": [
     {
      "text": "Mor Gabriel Monastery, Tur Abdin, southeastern Turkey — founded in 397 and still a working monastery and the seat of the metropolitan of Tur Abdin, one of the oldest continuously inhabited Christian monasteries on earth",
      "url": "https://en.wikipedia.org/wiki/Mor_Gabriel_Monastery"
+    }
+   ],
+   "sources": [
+    {
+     "work": "A Canticle of Mar Jacob the Teacher on Edessa",
+     "author": "jacob-of-sarug",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Abgar documents (Story concerning the King of Edessa; extracts concerning Abgar and Addaeus)",
+     "author": "abgar-edessa-documents",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of Sharbil",
+     "author": "edessene-martyr-acts",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of Thomas (with the Consummation of Thomas)",
+     "author": "acts-of-thomas",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of the Holy Apostle Thaddaeus",
+     "author": "acts-of-thaddaeus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Address to the Greeks",
+     "author": "tatian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Bardaisan (A Discourse Against Bardaisan)",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Bardaisan's 'Domnus'",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Mani",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Marcion (Discourses I-III)",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Bardesan: The Book of the Laws of Divers Countries",
+     "author": "bardesan",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Demonstration II: On Love",
+     "author": "aphrahat",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Demonstration VII: On Penitents",
+     "author": "aphrahat",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Discourses to Hypatius (Five Discourses Against the False Teachings)",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fifteen Hymns for the Feast of the Epiphany",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments (Tatian)",
+     "author": "tatian",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Martyrdom of Habib the Deacon",
+     "author": "edessene-martyr-acts",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Martyrdom of Shamuna, Guria, and Habib (from Simeon Metaphrastes)",
+     "author": "edessene-martyr-acts",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Moses of Chorene: History of Armenia (extract)",
+     "author": "moses-of-chorene",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Nineteen Hymns on the Nativity of Christ in the Flesh",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On Virginity (A Discourse of S. Ephraim on Virginity)",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Select Demonstrations of Aphrahat",
+     "author": "aphrahat",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Diatessaron of Tatian",
+     "author": "tatian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Doctrine of Addai",
+     "author": "addai",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Liturgy of the Blessed Apostles (Adaeus and Maris)",
+     "author": "liturgy-of-addai-and-mari",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Nisibene Hymns",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)",
+     "author": "palladius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Pearl: Seven Hymns on the Faith",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Teaching of Addaeus the Apostle",
+     "author": "addai",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Teaching of Simon Cephas in the City of Rome",
+     "author": "teaching-of-simon-cephas",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Teaching of the Apostles (Syriac)",
+     "author": "teaching-of-the-apostles-syriac",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Three Homilies (On Our Lord; On Admonition and Repentance; On the Sinful Woman)",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "A Letter of Mara, Son of Serapion",
+     "author": "mara-bar-serapion",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Chronicle of Edessa",
+     "author": "chronicle-of-edessa",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ecclesiastical History of Sozomen",
+     "author": "sozomen",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Hexaemeron, Homily II (on Genesis 1:2)",
+     "author": "basil",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Ambrose: a memorial (hypomnemata) addressed to the Greeks",
+     "author": "ambrose-hypomnemata",
+     "role": "transmission",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Clementine Homilies",
+     "author": "pseudo-clement",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt",
+     "author": "anan-isho",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Recognitions of Clement",
+     "author": "pseudo-clement",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Two Epistles Concerning Virginity",
+     "author": "two-epistles-on-virginity",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
     }
    ]
   },
@@ -1122,18 +2341,18 @@
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
    "beyondFloor": false,
-   "status": "Possible Future World (on record)",
-   "chip": "def",
-   "glyph": "pfw",
-   "statusWord": "Possible future tradition — on record",
-   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
    "living": false,
    "overlayCurrent": false,
    "c2": null,
    "sourcing": "Rich corpus, one man",
    "floorNote": "Later Montanist alignment noted",
-   "relationsSummary": "Forged much of the Latin theological vocabulary; no clear home since the Cyprian/Jerome tradition-split",
-   "why": "A dropped voice, not a dropped tradition - on record as such. Where he belongs is an open question for a future pass.",
+   "relationsSummary": "Merged into latin-apologists (I.43), 2026-09-10 - the voice that begins that entry's whole enterprise now belongs inside it, not beside it.",
+   "why": "Not a candidate tradition on its own any longer. This entry once asked where a voice this distinct belongs, since it clearly outgrew any of the built worlds that cite him; Mark's answer, 2026-09-10, is that a stand-alone world of one man with no community of his own is thinner than a world he anchors, and the Latin apologetic tradition he opens is exactly that world. \"No followers\" was always true of this entry, not of the man himself - Cyprian read him daily and called him 'the master.'",
    "entry": null,
    "teaser": "Carthage, c. 197 to 220 CE — a trained rhetorician's mind turned loose on the Christian faith, forced to invent the Latin words the West has argued in ever since.",
    "longDescription": "Tertullian was the first major Christian author to write in Latin rather than Greek, which meant that a great deal of what he wanted to say had no words yet — so he made them. Trinitas, persona, substantia, sacramentum: the technical vocabulary Western Christians still use came substantially off his pen, and his formula of one substance in three persons became the standard Latin way of stating the doctrine of God. He wrote like the advocate he was trained to be: the Apology dismantling Roman slanders against Christians, Against Praxeas arguing that Father and Son are genuinely distinct, and On the Prescription of Heretics contending that heretics have no standing even to cite Scripture, since the Scriptures belong to the churches that received them. In his later years he grew steadily more rigorist — against remarriage, against flight in persecution, against what he saw as a church going soft. And aligned himself with the New Prophecy out of Phrygia, which is one reason the Latin church quoted him endlessly and never made him a saint.",
@@ -1637,33 +2856,204 @@
    "living": true,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Small corpus, deep on inner combat (disclosed on its tile)",
-   "floorNote": "The desert communities held the same Nicene faith as the churches they came out of — what set them apart was a way of life, not a different doctrine.",
-   "relationsSummary": "Child of Alexandria's milieu; parent of all later monasticism",
-   "why": "It is — open for conversation now (Representative: Papnoute).",
+   "sourcing": "Rich and specific — Antony's own Vita and the Apophthegmata's elder-and-disciple sayings anchor the fleet's largest shelf of verbatim quotations (59 records, well ahead of the next richest built world's 37); thinner on ordinary participants outside the sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus).",
+   "floorNote": "The desert communities held the Nicene faith of the churches they came out of — what set them apart was a way of life, not a different doctrine. One figure inside this world, Evagrius, worked that faith into the most systematic scheme the desert ever produced; parts of it were formally condemned over a century after this world's own window closes, and the controversy that first exposed the fault line broke out within it, scattering his own circle before his ideas were ever formally judged.",
+   "relationsSummary": "A distinct formation world from Alexandria's own, not its continuation — though one disputed reading of its founder's letters leaves the question of contact open; parent of monastic life across the wider Christian world.",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Papnoute, an abba, right now.",
    "entry": {
     "representativeId": "papnoute",
     "representativeName": "Papnoute",
-    "representativeTitle": "Elder of the Desert",
+    "representativeTitle": "Abba (Elder)",
     "worldName": "Desert Fathers and Mothers",
     "subtitle": "Desert Monasticism",
-    "color": "#0f766e",
-    "tile": "The Nile Valley and the desert of Egypt, c. 320 to 430 CE — communities who left settled village life to wage a lifelong combat against the thoughts that trouble a person from within.",
+    "color": "#128D84",
+    "tile": "In the Nile Valley and the desert of Egypt, from about 320 to 430 CE, Christians left their villages to wage a lifelong combat against the thoughts that trouble a person from within. Authority came two ways at once, never resolved: earned through a lifetime of discipline under one elder, or conferred by a written rule and an appointed office. What withdrawal cost was everything ordinary life offered — land, family, the safety of a settled place — surrendered by stages and never reclaimed.",
     "icon": "assets/world-icons/desert.svg"
    },
-   "longDescription": "Beginning in the late third century, Egyptian Christians started walking out of their villages into the desert — first alone, into caves and abandoned forts, then into loose settlements, and finally into organized communities with shared meals, shared work, and a written rule. What drew them was not escape but combat: the conviction that the real battlefield of a Christian life is inward, among the thoughts and appetites that trouble a person from within, and that learning to fight there takes a lifetime of silence, manual labour, and blunt honesty with an elder. Their teaching passed mostly in short exchanges — a younger monk asking an elder for \"a word,\" the elder answering in a sentence — later gathered into the collections we call the Sayings of the Desert Fathers and Mothers. By the fifth century visitors from Rome, Gaul, and Palestine were coming to watch and take notes, and what they carried home became the seed of monastic life across the whole Christian world.",
+   "longDescription": "By the early fourth century the last empire-wide persecution had ended, and Constantine's toleration closed off a path that had once been open to any Christian: dying for the faith. Antony, a young Egyptian landowner, gave away his family's land after hearing one Gospel reading in church — \"if thou wouldest be perfect, go and sell that thou hast\" — and withdrew by stages: the village's edge, an abandoned fort, then the desert's inner reaches, for the rest of his life. What his biographer Athanasius describes there is not escape but combat: the war once waged against a persecutor from outside, now fought against demons and the thoughts they whispered, from within. Teaching passed mostly in a single exchange — a younger monk asked an elder for \"a word,\" and the elder answered in one sentence, no more. Generations later, those sentences were gathered into what other Christians would call the Sayings of the Desert Fathers and Mothers, arranged by the name of the elder who spoke them, not necessarily as anyone first heard them said.\n\nNot everyone lived Antony's way. Around 320, a man named Pachomius founded the desert's first rule-governed community at Tabennesi in the Thebaid; by his death in 346 it had grown into a federation of nine houses for men and two for women, bound by a written rule and appointed offices rather than one elder's own example. Between the two lay a third pattern: loose settlements at Nitria, Kellia, and Scetis, where ascetics lived mostly alone but gathered weekly for worship and correction. These settlements sat closer to ordinary life than their own rhetoric of total withdrawal suggests: excavation at Kellia has uncovered at least one commercial center operating alongside the ascetic cells, real evidence of trade with the surrounding villages. Which of these actually held authority — a life earned through discipline, or an office conferred by a rule — was never settled. Even Pachomius, the rule's own founder, was remembered afterward less as an officeholder than as a father whose own example, not his rule alone, had formed his community.\n\nWhat kept any of this from tipping into excess was discernment: the skill, prized above all others, of judging how much fasting, how much solitude, a particular person could actually bear. The tradition's most common story shape is an eager newcomer asking for an extreme practice and being redirected toward something more moderate. Evagrius, the most formally educated man the desert produced, tried to systematize the struggle into a scheme of his own: eight named categories of tempting thought, and a ladder rising from practice through passionlessness to contemplation. He died at Kellia in January 399, months before a controversy his own learned circle could not survive — a bishop's letter on how literally to picture God split simple monks from learned ones, and by the year's end Evagrius's circle had been driven out of Egypt. His writings survived anyway, part of them transmitted for centuries under another name.",
    "voices": [
-    "Antony the Great — the hermit whose withdrawal into the Egyptian desert, and the biography Athanasius wrote about him, made the movement famous across the empire",
-    "Pachomius — a former soldier who gathered scattered hermits into organized communities under a common rule, and so invented communal monasticism",
-    "Amma Syncletica — one of the desert mothers, remembered for sayings on the ascetic struggle preserved alongside the men's",
-    "Evagrius Ponticus — a scholar turned monk who mapped the inner life, naming the eight troubling thoughts that became the West's seven deadly sins",
-    "John Cassian — a visitor who spent years among the Egyptian monks and carried their teaching west in Latin, where Benedict later read him"
+    "Antony gave away his family's land after hearing one Gospel reading in church and took it as addressed to himself, then withdrew by stages — the village's edge, an abandoned fort, the inner mountain — for the rest of his life. His hagiographer says he could not endure to learn letters as a boy; a handful of letters that may genuinely be his own suggest a man trained in the philosophy that same biographer denies him, and the two portraits have never been reconciled.",
+    "Pachomius founded the desert's first rule-governed community at Tabennesi around 320; by his death in 346 it had grown to nine houses of men and two of women, bound by a common rule and appointed offices. Even so, those who remembered him afterward described a father whose own example formed the community, not an officeholder alone. One of those women's houses stood a mile across the river, founded for his own sister; the rule kept the two communities from ever seeing each other's faces or hearing each other's voices in life — but required the men to carry a woman's body across the river for burial among their own when she died.",
+    "Sarah was one of a small number of women remembered by name in the desert's own teaching tradition; six of her sayings survive. When monks came to test her, she told them plainly that she was the man among them, and they were the women.",
+    "Evagrius was the most formally educated man the desert produced, ordained reader by Basil of Caesarea and deacon by Gregory of Nazianzus before he withdrew to Kellia. He organized the desert's raw, occasion-bound wisdom about tempting thoughts into the most complete scheme it ever produced, and died in January 399, months before the controversy his own circle could not survive.",
+    "John Cassian spent years among the Egyptian monks before carrying their teaching west into Latin, where the monk Benedict later read him. He also preserves the desert's own fullest answer to a hard question, worked out at length in one Conference: that the greater share of anyone's salvation belongs to grace, not to human effort — a position Western theology would later judge too generous to effort, and condemn within a generation.",
+    "Women's sayings survive by name, Sarah among them, and so do about fifteen narrated lives of named women, several with their own words reported inside the telling. What does not survive from anyone is a woman's own extended account, written in her own person and at her own length, the way this world's paradigmatic solitary figure has one."
    ],
-   "legacy": "Almost every later form of Christian monastic life descends from here. Benedict's Rule sends its readers to John Cassian's reports from Egypt, and the monasteries of Sinai, Athos, and the wider East trace their practice to the same source. The sayings are still read as spiritual reading in Orthodox, Catholic, and Protestant circles alike, and Evagrius's list of the eight troubling thoughts became, by way of Gregory the Great, the seven deadly sins of Western moral teaching. Some of the houses founded in that first Egyptian generation are still living communities — the Coptic monasteries of St Antony and St Paul near the Red Sea, and the cluster at Wadi al-Natrun, are inhabited by monks today.",
+   "legacy": "Almost every later form of Christian monastic life descends from here. Benedict's own Rule for Western monks sends its readers directly to John Cassian's reports from Egypt, and the monasteries of Sinai and Mount Athos trace their own practice back to the same desert source.\n\nThe sayings themselves are still read as spiritual reading across Orthodox, Catholic, and Protestant traditions alike. Evagrius's eight named categories of tempting thought traveled west through Cassian and, by way of Gregory the Great two centuries later, narrowed into the seven deadly sins of Western moral teaching. One popular link doesn't actually hold: the desert's own word for the stillness they sought, hesychia, is often assumed to be the same practice as the later Byzantine Hesychast tradition and its Jesus Prayer technique — that systematized method belongs to a separate, later world and isn't part of this one's own record.\n\nSome of the houses founded in that first Egyptian generation are still living communities. The Coptic monasteries of St Antony and St Paul near the Red Sea, and the cluster of monasteries at Wadi al-Natrun, are inhabited by monks today, on or near the same ground this world's own record describes.",
    "experienceToday": [
     {
      "text": "The Monastery of Saint Anthony, Eastern Desert, Egypt — a Coptic Orthodox monastery grown up around Antony's own cave, still inhabited and open to visitors",
      "url": "https://en.wikipedia.org/wiki/Monastery_of_Saint_Anthony"
+    }
+   ],
+   "sources": [
+    {
+     "work": "Dialogues of Sulpitius Severus",
+     "author": "sulpiciusseverus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fifty Spiritual Homilies of St. Macarius the Egyptian",
+     "author": "macarius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Lausiac History",
+     "author": "palladius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter XXII (To Eustochium, on virginity)",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Incarnation of the Lord, Against Nestorius (De Incarnatione)",
+     "author": "cassian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Personal Letters of Athanasius",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Conferences of John Cassian",
+     "author": "cassian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of Paulus the First Hermit",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of Saint Anthony by Athanasius (Syriac recension)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Paradise of Palladius, Book I (Syriac recension)",
+     "author": "palladius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt",
+     "author": "anan-isho",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Praktikos",
+     "author": "evagrius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "CC BY 4.0 (Creative Commons Attribution 4.0 International) -- NOT public domain; attribution to Luke Dysinger and the Guide to Evagrius Ponticus must travel with any quotation."
+    },
+    {
+     "work": "The Rules of Pachomius, Part I (the angel's ordinance)",
+     "author": "pachomius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Rules of Pachomius, Part II (the second word of the holy Pachomius)",
+     "author": "pachomius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Rules of Pachomius, Part III (the symbolical homily on the ten associations)",
+     "author": "ethiopic_homily_on_the_ten_associations",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Twelve Books on the Institutes of the Coenobia",
+     "author": "cassian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Vita Antonii (Life of Antony)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Budge's Preface and Introduction to the Paradise (1907)",
+     "author": "budge",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "De Principiis (On First Principles), in Rufinus' Latin",
+     "author": "origen",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Schodde's introduction to the Rules (1885)",
+     "author": "schodde",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ecclesiastical History of Socrates Scholasticus",
+     "author": "socrates",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ecclesiastical History of Sozomen",
+     "author": "sozomen",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Philocalia of Origen",
+     "author": "origen",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Commentary on the Gospel of Matthew, Books I-II and X-XIV",
+     "author": "origen",
+     "role": "antecedent",
+     "confidence": "assigned",
+     "rights": "Public Domain"
     }
    ]
   },
@@ -1716,10 +3106,10 @@
    "name": "Donatism",
    "shortName": "Donatism",
    "informalName": "The Donatist Church",
-   "dates": "c. 312-430s",
-   "start": 312,
-   "end": 430,
-   "region": "North Africa (Carthage)",
+   "dates": "c. 311-439 CE",
+   "start": 311,
+   "end": 439,
+   "region": "Roman North Africa (Carthage and Numidia)",
    "regions": [
     "Africa",
     "Mediterranean"
@@ -1732,32 +3122,64 @@
    "chip": "sel",
    "glyph": "sel",
    "statusWord": "Chosen — not yet built",
-   "statusDescription": "One of the traditions chosen for its era after a completed survey. Construction has not begun.",
+   "statusDescription": "Not yet open for conversation — this world's own safety validation is not complete.",
    "living": false,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Substantial but heavily via opponents (Augustine) - a named challenge",
-   "floorNote": "Donatism held the same Nicene doctrine as its rivals — the dispute was about who could validly serve as clergy after the persecution, not about the Trinity, Christ's divinity, or any point of creedal belief.",
-   "relationsSummary": "Rival-sibling of the Latin pastoral tradition; martyr-memory identity",
-   "why": "This tradition has already been chosen — and it may surprise you that it's here: the churches of Roman North Africa that broke communion with their neighbors over what faithfulness under persecution required, kept their own bishops for a century, and built their identity on the memory of the martyrs. History mostly remembers them through their opponents — Augustine wrote against them, and the label \"Donatist\" was never their own name for themselves. That is exactly why this project chose them: a whole communion of real Christians, serious about holiness, known mainly through hostile pens, deserves to speak as itself. Construction has not yet begun.",
+   "sourcing": "Substantial but heavily via opponents (Augustine, Optatus) — a named challenge, with four texts that speak as Donatists rather than being spoken about: the Passio Donati sermon, the Passio Marculi, Macrobius’ own letter, and Tyconius’ Book of Rules.",
+   "floorNote": "This communion held the same Nicene doctrine as the rival church it split from. What was contested was never the Trinity, Christ's divinity, or any point of creedal belief, but a narrower and sharper question: whether a bishop's own past under persecution could void what his hand later gave.",
+   "relationsSummary": "Rival-sibling of the Latin pastoral congregational tradition it split from over the same persecution; its refusal of any imperial standing to judge the church is the mirror image of Imperial and Juridical Christianity's own church-state alliance, and its once-for-all rebaptism is the opposite answer Cappadocian Christianity gave to the same question of how someone from the other side comes back in.",
+   "why": "This tradition's construction is substantially complete — its records, sources, and a Representative named Fidelis have all been built — and it may surprise you that it's here at all: the churches of Roman North Africa that broke communion with their neighbors over what faithfulness under persecution required, kept their own bishops for a century, and built their identity on the memory of the martyrs. History mostly remembers them through their opponents — Augustine wrote against them, and the label \"Donatist\" was never their own name for themselves. That is exactly why this project chose them: a whole communion of real Christians, serious about holiness, known mainly through hostile pens, deserves to speak as itself. This world has not yet cleared this project's own safety validation gate, so it is not yet open for conversation the way the other Built & Live worlds are.",
    "entry": null,
-   "longDescription": "When Rome's persecution of Christians ended in 313, the churches of North Africa split over what happened next: could bishops who had handed over Scriptures to be burned, or otherwise compromised under threat of death, still validly ordain and consecrate? The Donatists said no — only those untainted by that betrayal could carry on the church's ministry. And for roughly a century they were the majority church across much of Roman Africa, with their own bishops, their own martyrs, and a fierce insistence that holiness, not political favor, marked the true church. Their most famous opponent was Augustine of Hippo, whose writings against them are almost all that survives of their story — the Donatists rarely got to speak in their own words, and even their name was one their rivals gave them. Imperial pressure and, eventually, the Vandal invasions wore the movement down, but for a long stretch of the fourth and fifth centuries, this was simply what Christianity looked like across much of North Africa.",
-   "teaser": "Roman North Africa, c. 312 to 430s CE — a church of martyrs' descendants who refused to let those who had betrayed the faith under persecution lead it again, known to history mostly through the words of their fiercest opponent.",
+   "longDescription": "In 311 or 312 — the sources support both years and this record does not choose between them — Caecilian was elected bishop of Carthage and consecrated by Felix of Aptungi, a man accused of surrendering the Scriptures to be burned under the recent persecution. A rival party would not accept a bishop ordained by a traditor's hand: they consecrated Majorinus beside him instead, not in his place, and from Majorinus's successor Donatus the movement took its name. The doctrine at stake was narrow and absolute: a sacrament's validity rises and falls on the giver's own unbroken purity, so a tainted ordination gives nothing, and everyone it touches must be washed again by a hand that can be trusted. This was never a dispute over the Trinity or Christ's divinity — both parties held the same Nicene faith — but over who could validly give what the church gives, and for a century, across much of Roman Africa, this was simply the larger of the two churches, with its own bishops, its own basilicas, and its own councils contesting the same towns as its rival.\n\nThe empire did not stay neutral. In 347, imperial commissioners sent to force the two churches into one communion met resistance in Numidia; a bishop named Marculus was seized, paraded through several towns, and thrown from a cliff called Novapetra, and this communion has kept his name, and the names of others killed with him, read aloud at their graves every year since. A rural movement called the circumcellions is attested in this same period by an imperial fine — a real, legally distinct group — though almost everything claimed about what they actually did survives only in the writing of opponents who had reason to make them look like a mob. What the record will support is existence and a name; what it will not support, cleanly, is character.\n\nThe same communion that refused any emperor's standing to say which church was the true one turned to imperial power three times when it served the case — appealing to Constantine in 313, to Julian in 361, and, in the 390s, to the same machinery it condemned everywhere else, against its own breakaway Maximianist bishops. In 411 the emperor finally ordered the whole dispute settled at law: two hundred and seventy-nine of this communion's bishops met roughly two hundred and eighty-six of the rival church's before an imperial judge at Carthage, refused the chairs he offered them, and argued for three days. The verdict went against them, and the laws that followed took their churches by name. The communion survived under Vandal and then Byzantine rule for a further century and a half, still contested and still legislated against — the last word any surviving record has on it is a set of letters Pope Gregory the Great wrote in the 590s, pressing for an inquiry into Donatist rebaptism in Numidia.",
+   "teaser": "Roman North Africa, c. 311 to 439 CE — a whole parallel church built on one conviction, that a tainted hand gives nothing, known to history mostly through the words of the bishop who argued against it the longest.",
    "sources": [
     {
      "work": "Augustine, On Baptism, Against the Donatists",
      "type": "primary",
-     "note": "The fullest surviving account of Donatist belief and practice is in the writings of their chief opponent.",
+     "note": "Seven books answering the doctrine at its most systematic — the fullest surviving reconstruction of Donatist sacramental logic, built in order to refute it.",
      "url": "https://www.newadvent.org/fathers/1408.htm"
+    },
+    {
+     "work": "Optatus of Milevis, Against the Donatists",
+     "type": "primary",
+     "note": "The earliest sustained Catholic answer to the schism, written roughly five decades after the founding events it narrates; its own appended dossier of documents is this world's single richest source."
+    },
+    {
+     "work": "Augustine, Answer to the Letters of Petilian",
+     "type": "primary",
+     "note": "Three books quoting a Donatist bishop's own letters clause by clause in order to answer them — the fullest surviving Donatist voice, reaching us because it was chosen for answerability."
+    },
+    {
+     "work": "Tyconius, The Book of Rules",
+     "type": "primary",
+     "note": "The one Donatist theological work that survives entire, by a writer this communion's own council condemned — and the book outlived the party that expelled him."
+    },
+    {
+     "work": "The Passion of Marculus",
+     "type": "tradition",
+     "note": "A hagiographic account of the death of Marculus in the Macarian persecution of 347–348; the visionary and miraculous details are carried as this tradition's own testimony, not as verified events."
+    },
+    {
+     "work": "Gesta Collationis Carthaginiensis anno 411 (Acts of the Conference of Carthage)",
+     "type": "primary",
+     "note": "The transcript of the great trial at Carthage, taken down by imperial notaries — the one place in this world's whole record where its bishops argue their own standing in their own recorded words."
+    },
+    {
+     "work": "Codex Theodosianus, Book 16",
+     "type": "primary",
+     "note": "The imperial legal record, including the 412 fine naming the circumcellions by name and the 405 Edict of Unity that outlawed this communion's own rebaptism."
     }
    ],
    "voices": [
-    "Donatus Magnus — the movement's founding bishop and namesake",
-    "Petilian of Cirta — a Donatist bishop whose own writings, now lost, survive only in Augustine's quotations of them",
-    "Tyconius — a Donatist theologian whose ideas on the church shaped Augustine's own thinking even as his own party distanced itself from him",
-    "Augustine of Hippo — the tradition's most consequential opponent, whose polemics are the main surviving record of their arguments"
+    "Donatus succeeded Majorinus as bishop of Carthage around 313 and led this communion for over three decades, long enough that it took his name. Almost nothing he wrote survives; his one famous line — what has the emperor to do with the church? — reaches us only because the bishop who opposed him quoted it in order to answer it.",
+    "Petilian, bishop of Constantina from the 390s, is this communion's fullest surviving voice, and its most mediated one: his letters exist only as clauses Augustine quoted in order to refute them. At the Conference of Carthage in 411 he spoke on an open transcript instead, refusing the judge's offered chair because Christ himself had stood before a governor.",
+    "Emeritus, bishop of Caesarea, argued this communion's case at Carthage for three days, matching Augustine's own scriptural argument verse for verse and signing the record of his own words with his appeal reserved. His is the one substantial voice here that reaches us without an opponent choosing what of it to keep.",
+    "Tyconius wrote the one theological work of this communion that survives whole, was rebuked by his own bishop, and was condemned by a council around 380 for arguing the church was spread through the whole earth. He never went over to the other side — and his book outlived the party that expelled him, read for centuries by the Catholic bishop who taught from it.",
+    "Lucilla, a wealthy laywoman of Carthage, was publicly rebuked for kissing a martyr's bone before communion; money traced to her, years later in a courtroom, helped found the rival altar against Caecilian. She left no words of her own — everything known of her comes from the hostile account written to blame her for the schism.",
+    "No ordinary believer's fear or doubt survives in this communion's own words, though for long stretches it was the larger church in Africa, not a minority within it. What is known of it comes almost entirely through the men who argued against it — except for two words cut in stone at a shrine, Deo laudes, praise to God, never written down by anyone at all."
    ],
-   "legacy": "Donatism left no continuing church of its own — its last communities disappeared under the Arab conquest of North Africa in the seventh century. But arguing against it, Augustine worked out that the church is a mixed body of saints and sinners rather than a pure remnant, and that a sacrament's validity doesn't depend on the minister's own holiness. Both became foundational, lasting Western Christian doctrine. Excavated basilica ruins from Donatist-era Timgad, one of their strongholds in Roman Numidia, still stand in Algeria today. A physical trace of a communion that otherwise left no institution behind.",
+   "legacy": "Donatism left no continuing communion of its own. Its two-party contest with the rival Catholic church did not end with the Roman empire that had tried to settle it: Vandal and then Byzantine rulers inherited the same divided towns for another century and a half, the dispute still live enough that a sixth-century pope found it worth four letters of his own.\n\nWhat arguing against this communion produced outlasted it. Answering the claim that a sacrament's worth depends on the minister's own purity, Augustine reasoned his way to the claim that stuck: the church is a mixed field of wheat and weeds until harvest, not a pure remnant, and what a sacrament gives does not depend on the purity of the hand that gives it. Both became foundational Western doctrine, worked out against this communion's own most absolute conviction. Tyconius, condemned by his own church around 380, fared stranger still: his one surviving book crossed over to the side that had expelled him and shaped how Augustine himself, and centuries of readers after him, learned to read Scripture.\n\nExcavated basilica ruins from Donatist-era Numidia, at Timgad in modern Algeria, still stand — a physical trace of a communion that otherwise left no institution behind, its own history readable mostly in the words of the church that outlasted it.",
    "experienceToday": [
     {
      "text": "Timgad, Algeria — UNESCO World Heritage Roman ruins including a Donatist-era basilica",
@@ -1769,12 +3191,12 @@
    "id": "cappadocian-nicene-pastoral-monastic-tradition",
    "atlasId": "I.5",
    "era": 2,
-   "name": "Cappadocian Nicene Pastoral-Monastic Tradition",
+   "name": "Cappadocian Christianity",
    "shortName": "Cappadocians",
-   "informalName": "The Cappadocian Tradition",
-   "dates": "c. 360-380s",
-   "start": 360,
-   "end": 380,
+   "informalName": "Cappadocian Christianity",
+   "dates": "c. 325-394 CE",
+   "start": 325,
+   "end": 394,
    "region": "Cappadocia / Anatolia",
    "regions": [
     "Asia Minor"
@@ -1783,29 +3205,315 @@
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
    "beyondFloor": false,
-   "status": "Selected - Not Yet Built",
-   "chip": "sel",
-   "glyph": "sel",
-   "statusWord": "Chosen — not yet built",
-   "statusDescription": "One of the traditions chosen for its era after a completed survey. Construction has not begun.",
-   "living": false,
+   "status": "Built & Live",
+   "chip": "live",
+   "statusWord": "Open for conversation",
+   "statusDescription": "You can sit down with this tradition now.",
+   "living": true,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Rich (Basil, the Gregories, Macrina; letters, rules, sermons)",
-   "floorNote": "These are among the people who wrote the creed. The language it uses for Father, Son, and Spirit is substantially theirs.",
-   "relationsSummary": "Trinitarian theology + charitable-ascetic pastoral practice; Jerome heard Gregory teach",
-   "why": "This tradition has already been chosen — one of the nine selected for this era: the communities around Basil of Caesarea, Gregory of Nazianzus, Gregory of Nyssa, and Macrina, where the words Christians still confess about the Trinity were being forged in real congregations, real letters, real grief. Nothing about it was judged too hard or too thin — it was selected on the strength of its sources; construction simply has not begun.",
-   "entry": null,
-   "longDescription": "In the highland province of Cappadocia, through the 360s and 370s, one extended family and the friends around it did more than anyone else to settle the words Christians still use about God. Basil of Caesarea, his younger brother Gregory of Nyssa, their elder sister Macrina, and Basil's friend Gregory of Nazianzus argued their way through the hardest question of the century — whether the Son and the Spirit are God in the same sense the Father is. And did it not in the abstract but while running dioceses, burying relatives, quarrelling with each other, and feeding the hungry. Macrina turned the family estate into an ascetic household and, in her brother Gregory's account of her last days, taught him theology from her deathbed. Basil built a hospital, hostel, and workhouse complex outside Caesarea after the famine of 368, and wrote rules for communal ascetic life that still govern Eastern monasticism. Gregory of Nazianzus carried the argument in public, preaching it to the churches of Constantinople, and the creed most Christians still recite on a Sunday took its final shape at the council held there in 381, in the settlement their work made possible.",
-   "teaser": "Cappadocia, in the highlands of what is now central Turkey, c. 360 to 380s — one family and their friends hammering out the words Christians still say about God, in the middle of famine relief, funerals, and quarrels with each other.",
+   "sourcing": "Rich (Basil, the Gregories, and — rare for a defeated opponent — Eunomius' own surviving Apology); several flagship attributions (Epistle 38) contested",
+   "floorNote": "These are among the people who wrote the creed. The language it uses for Father, Son, and Spirit is substantially theirs — though which of them wrote which formulation is not always as settled as the textbook story suggests.",
+   "relationsSummary": "Trinitarian and pneumatological theology paired with charitable-ascetic practice; Jerome heard Gregory of Nazianzus teach, and this world argued directly, by name, against the Eunomians and the deniers of the Spirit's divinity.",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Chilo, an elder of the ascetic brotherhoods who keeps the guest-door, right now.",
+   "entry": {
+    "representativeId": "chilo",
+    "representativeName": "Chilo",
+    "representativeTitle": "Elder of the Brotherhoods",
+    "worldName": "The Cappadocian Churches",
+    "subtitle": "Cappadocian Pastoral-Monastic and Trinitarian Tradition",
+    "color": "#C46437",
+    "tile": "The Nicene-confessing churches of Cappadocia and Pontus, from about 325 to 394 CE, were carried by one family and one friendship: Basil of Caesarea, his sister Macrina, his brother Gregory of Nyssa, and Basil's friend Gregory of Nazianzus. A radical ascetic ferment had already dissolved households and turned slaves against masters before Basil built something else instead: brotherhoods bound by rule, obedience, and an open guest-door. Julian's brief pagan revival cost them a martyr at Caesarea in 362; the Homoian church that followed under Valens drove Gregory of Nyssa into exile, before this Nicene minority inherited the empire's favor in 381.",
+    "icon": "assets/portraits/cappadocian.jpg"
+   },
+   "longDescription": "In Cappadocia and neighboring Pontus, from the years after the last empire-wide persecutions to the death of the last of a remarkable generation, one extended family and the friends around it did more than most to settle the words Christians still use about God — how settled that settlement really was is itself now a live scholarly question. Basil of Caesarea, his younger brother Gregory of Nyssa, their elder sister Macrina, and Basil's friend Gregory of Nazianzus argued the hardest question of the century — whether the Son and the Spirit are God in the same sense the Father is — while running dioceses, burying relatives, and feeding the hungry through famine.\n\nBasil's own preaching indicted the region's grain-hoarders by name and built a hospital, hostel, and workhouse complex outside Caesarea after the famine of 368 — a genuine, near-unprecedented undertaking, though not, as later legend sometimes claims, the first of its kind anywhere. Before that, he had already spent years answering a more radical ascetic ferment loose in the region — households dissolved, slaves urged to leave their masters, fasts kept against the church's own feasts — not by condemning the impulse but by giving it a rule, an obedience, and an open door for guests instead. Macrina turned the family estate into an ascetic household of her own and, in her brother's account of her last days, taught him theology from her deathbed — the only record of her that survives; no words of her own reach us independently of his telling.\n\nGregory of Nazianzus carried the argument to Constantinople, where the creed most Christians still recite took its final shape in 381. The years were not peaceful throughout: this world buried its own martyr, Eupsychius of Caesarea, executed under Julian in 362, and endured a hostile imperial church under Valens that drove Gregory of Nyssa briefly into exile. Even the letter usually cited as proof the three men agreed on the technical vocabulary — Epistle 38 — is itself contested between Basil and Gregory of Nyssa in modern scholarship.",
+   "teaser": "Cappadocia and Pontus, c. 325 to 394 CE — a people who fought a generation over a single word in their worship, kept a door open for the poor, and buried a martyr of their own along the way.",
    "voices": [
-    "Basil of Caesarea — bishop, monastic legislator, and builder of the great hospital and poorhouse complex outside his city",
-    "Macrina the Younger — their elder sister, who turned the family estate into an ascetic community, and whose teaching Gregory of Nyssa recorded as hers rather than his own",
-    "Gregory of Nazianzus — the reluctant preacher whose sermons on the Trinity at Constantinople carried the argument in public",
-    "Gregory of Nyssa — Basil's younger brother, the most speculative of them, who wrote on the soul, the resurrection, and the soul's endless ascent into God",
-    "Emmelia — mother of Basil, Macrina, and Gregory, who ran the household this whole tradition grew out of"
+    "Basil, bishop of Caesarea, preached during the famine of 368 that the bread being held back belonged to the hungry and the coat in the closet belonged to the naked — then built a hospital, hostel, and workhouse complex outside the city to outlast the crisis that occasioned it. The ascetic brotherhoods he organized answered a wilder, older impulse already loose in the region, households breaking apart and the enslaved leaving their masters, by giving it walls and a rule instead of condemning it.",
+    "Macrina turned the family estate at Annisa into a community where former slaves and their one-time owners prayed and worked side by side. When her brother Gregory of Nyssa found her dying, she lay not on a bed but on planks on the ground, and owned no burial clothes of her own; what she said to him in those last hours reaches us only through the book he wrote about her afterward.",
+    "Gregory of Nazianzus wanted nothing but a quiet life of study and prayer; his friend Basil pressed him into a bishopric at a dusty road junction anyway, and he never forgave him for it, in verse and in letters both. He still carried the Trinitarian argument to Constantinople in 380, where his sermons helped give the creed its final shape.",
+    "Gregory of Nyssa, Basil's younger brother, was the most speculative of the three, writing on the soul's nature and its endless ascent into God. Exiled under Valens for years, he outlived his siblings and completed the refutation of Eunomius that Basil had left unfinished at his death.",
+    "Emmelia was mother to Basil, Macrina, and Gregory of Nyssa, and to the household this whole tradition grew from. She is credited with acquiring and enshrining relics of the Forty Martyrs of Sebaste at the family's own estate chapel — the one specific act of hers to survive, and even that only in her son's telling, not her own words.",
+    "Eupsychius of Caesarea was executed under Julian in 362 — this world's own martyr, from the last years persecution was still possible. He is remembered every year at an annual feast in Caesarea; no homily on him is attested from anyone, only the feast itself.",
+    "Eustathius, bishop of Sebaste, was Basil's own ascetic mentor before their friendship broke over the Spirit's honor — Basil came to suspect him of denying the Spirit's full divinity, and said so in writing. No work of Eustathius's own survives; his side of the rupture is not tellable, only the wound as Basil recorded it.",
+    "The plateau villages beyond these cities appear in the record only as crowds fed in famine or crowds at a festival, never speaking for themselves. No woman of this world left a line in her own hand, and the losing side of every dispute here — the radical ascetics censured at Gangra, the Homoian church, Eustathius himself — survives only inside the winning side's own case against it."
    ],
-   "legacy": "Their settlement of the language — one being, three persons — became the standard grammar of Christian talk about God in East and West alike, and stands behind the creed recited in most churches on Sunday. Basil's rules for communal ascetic life remain the foundation of Eastern Orthodox monasticism, and his hospital-and-hostel complex for the sick and destitute is regularly named among the ancestors of the Christian hospital. All four are venerated as saints across the Orthodox, Catholic, Anglican, and Lutheran calendars, and Gregory of Nazianzus is one of only three figures the Eastern church calls simply \"the Theologian.\""
+   "legacy": "Their labor on the language — one being, three persons — became the standard grammar of Christian talk about God in East and West alike and stands behind the creed recited in most churches on Sunday, though the tidy story of a fully agreed \"Cappadocian settlement\" is itself contested by modern scholars, who read more real variation between the three than the textbook version allows.\n\nBasil's rules for communal ascetic life remain foundational for Eastern Orthodox monasticism, and his hospital-and-hostel complex for the sick and destitute is often named among the ancestors of the Christian hospital, though no physical trace of the complex itself has ever been securely identified.\n\nAll four are venerated as saints across the Orthodox, Catholic, Anglican, and Lutheran calendars, and Gregory of Nazianzus is one of only three figures the Eastern church calls simply \"the Theologian.\"",
+   "sources": [
+    {
+     "work": "A Declaration of Faith",
+     "author": "gregory_thau",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Address to Young Men on the Right Use of Greek Literature",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book)",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "De Spiritu Sancto (On the Holy Spirit)",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "First Invective Against Julian the Emperor (Oration 4)",
+     "author": "gregory_naz",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "From the Iambics of Amphilochius to Seleucus, on the canon of Scripture",
+     "author": "amphilochius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "From the metrical poems of Gregory Theologus, on the canon of Scripture",
+     "author": "gregory_naz",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Funeral Oration on Meletius",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Introduction/Proem to the Longer Rules and to the Shorter Rules (Appendices A and B of Morison's book - Basil's own words, translated in full, not Morison's paraphrase)",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On \"Not Three Gods\" (To Ablabius)",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On Infants' Early Deaths",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On Pilgrimages",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On Virginity",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Baptism of Christ",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Faith (To Simplicius)",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Holy Spirit (Against the Followers of Macedonius)",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Making of Man",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Soul and the Resurrection",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Second Invective Against Julian the Emperor (Oration 5)",
+     "author": "gregory_naz",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Select Letters of Saint Gregory Nazianzen",
+     "author": "gregory_naz",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Select Orations of Saint Gregory Nazianzen",
+     "author": "gregory_naz",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ascetic Works of Saint Basil (the Great Asketikon - Longer Rules and Shorter Rules, plus the Moralia and shorter ascetic treatises)",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canonical Epistle of Gregory of Nyssa to Letoius of Melitene",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The First Council of Constantinople (381): Creed, Canons, Synodical Letter",
+     "author": "council-of-constantinople-381",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Five Theological Orations (Orations 27-31)",
+     "author": "gregory_naz",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Great Catechism",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Hexaemeron",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Letters",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of St. Macrina (Vita Macrinae) - complete, introduction and narrative",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of St. Macrina - Clarke's Introduction only (not the biography's narrative text)",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Oration and Panegyric Addressed to Origen",
+     "author": "gregory_thau",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Philocalia of Origen",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The canonical epistles of Basil to Amphilochius and others",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Ecclesiastical History (surviving only as Photius' Epitome)",
+     "author": "philostorgius",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)",
+     "author": "julian",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Council of Gangra",
+     "author": "council-of-gangra",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The First Apology (Liber Apologeticus)",
+     "author": "eunomius",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    }
+   ]
   },
   {
    "id": "imperial-juridical-christianity",
@@ -1834,33 +3542,354 @@
    "living": false,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Rich institutional (Eusebius, Ambrose, Leo)",
+   "sourcing": "Rich institutional (Eusebius, Ambrose, Leo); thin to silent on ordinary believers, women's own words, and the Homoian establishment's own voice",
    "floorNote": "This is the tradition that convened Nicaea and eventually made its creed imperial law, so its standing on the Creed is not in doubt. It is worth saying plainly, though, that this was never obvious to the people living through it: for long stretches of the fourth century the emperor's own church was Homoian rather than Nicene. The hard questions here are about power, not about doctrine.",
-   "relationsSummary": "Three causally-linked phases merged into one tradition (on record); must depict Homoian rivals plainly",
-   "why": "It is — open for conversation now (Representative: Marius).",
+   "relationsSummary": "Damasus's own secretary was Jerome, who carried Rome's claims into the next generation's ascetic-literary circles; the Nicene settlement received at Chalcedon in 451 is the same creed the Cappadocian churches had helped work out a generation earlier.",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Marius, a deacon of the letters, right now.",
    "entry": {
     "representativeId": "marius",
     "representativeName": "Marius",
-    "representativeTitle": "Apocrisiarius — Deacon of the Letters",
+    "representativeTitle": "Deacon of the Letters",
     "worldName": "Church and Empire",
     "subtitle": "Imperial and Juridical Christianity",
-    "color": "#7A2E2E",
-    "tile": "Rome, Constantinople, and Milan, c. 312 to 451 CE — the church's first century beside a throne rather than beneath a sword, working out what the emperor's favor bought and what it could still take away.",
+    "color": "#C36060",
+    "tile": "In Rome, Constantinople, and Milan, from Constantine's toleration of the church in 312 to the Council of Chalcedon in 451, Christian bishops became office-holders beside a throne rather than outlaws beneath a sword — hearing lawsuits, administering imperial funds, summoned to councils at the emperor's own expense. Three claims to final authority over the church contested that whole century and a half — Rome's claim from Peter, Constantinople's claim from nearness to the throne, and a bishop's claim to stand in moral judgment over any ruler — and the window closed without settling which one was right. This world's own worst hours were not suffered but caused: a bloody contest over the bishopric of Rome, and a massacre an emperor ordered and then, at his own bishop's insistence, did public penance for.",
     "icon": "assets/world-icons/empire.svg"
    },
-   "longDescription": "For nearly three centuries the church had been an illegal association. Then, between Constantine's grant of toleration in 313 and Theodosius's legislation at the end of the century, it became first protected, then privileged, then the empire's official religion. And had to work out, very fast, what to do with that. Bishops found themselves hearing civil lawsuits, administering public building funds, and travelling to councils at imperial expense; emperors found themselves summoning those councils and expecting the results to hold. The terms of that unplanned bargain were tested constantly — Ambrose of Milan made Theodosius do public penance after the massacre at Thessalonica in 390, and a doctrinal letter Leo of Rome had written two years earlier to the bishop of Constantinople was read out at Chalcedon in 451 and received as settling the matter. And what the arrangement produced, canon law, church courts, a hierarchy mapped onto imperial administration, and a permanent argument about where a ruler's authority ends, outlasted the western empire itself.",
+   "longDescription": "For nearly three centuries the church had been an illegal association. Then, between Constantine's toleration in 313 and Theodosius's legislation at the century's end, it became first protected, then privileged, then the empire's official religion — and had to work out, very fast, what to do with that. Bishops found themselves hearing civil lawsuits, administering public building funds, and travelling to councils at imperial expense; emperors found themselves summoning those councils and expecting the results to hold.\n\nThree answers competed for where final authority over the church now actually lay, and this world's own window closes without settling which was right. Rome traced its authority to Peter; Constantinople claimed rank because it sat beside the throne — a claim the Council of Chalcedon extended in 451 over the protest of Rome's own delegates, at the same council that received, as the last word on Christ's two natures, a letter Leo of Rome had written two years before. Ambrose of Milan staked a third claim entirely: that the emperor stood inside the church, not over it. He said those exact words from inside his own basilica in 386, besieged by the soldiers of a Homoian imperial court that wanted the building for its own worship. He would not give it up, and his congregation stayed inside with him — prepared, an eyewitness later wrote, to die with their bishop. It was there, waiting through the night, that Milan's people first sang hymns the way the Eastern churches did, a custom that, by that eyewitness's account, never stopped and spread to churches across the world. Four years later Ambrose proved the same claim again, against Theodosius himself, refusing the emperor the sacrament until he did public penance for a massacre at Thessalonica.\n\nThe hardest evidence against this world is not what was done to it, but what it did. In 366, a disputed election to the bishopric of Rome left the city so violent that a hundred and thirty-seven people were killed in a single day — the same Damasus whose reign then built the city's great martyr shrines. The same sacramental refusal that later humbled an emperor over Thessalonica had already been used once before, two years earlier, for the opposite end: protecting a bishop who had incited a mob to burn a synagogue at Callinicum from having to pay for it, and leaving the burned community no recourse at all.",
+   "teaser": "Rome, Constantinople, and Milan, 312 to 451 CE — a hunted church became the empire's own law, a bishop held his basilica against imperial soldiers until his people learned to sing through the night, and a disputed election in Rome left a hundred and thirty-seven dead in a single day.",
    "voices": [
-    "Constantine — the first emperor to protect and endow the church, and the first to summon a general council of its bishops",
-    "Eusebius of Caesarea — bishop and historian, who wrote the first church history and the most admiring account of Constantine's reign",
-    "Theodosius I — whose laws made Nicene Christianity the empire's official religion, and who did public penance at Ambrose's insistence",
-    "Ambrose of Milan — the bishop who set the precedent that an emperor stands inside the church rather than above it",
-    "Leo I of Rome — whose letter to the bishop of Constantinople, written in 449 and read aloud at Chalcedon in 451, was received as settling the question of Christ's two natures"
+    "Constantine was the first emperor to protect and endow the church, and the first to summon a general council of its bishops. Why he did it is not settled: Lactantius, writing within a few years, has him dreaming the night before his decisive battle; Eusebius, writing after his death, has him and his whole army seeing a cross of light at midday — the two accounts do not agree, and this world's own sources never resolve which is true.",
+    "Eusebius of Caesarea wrote the first history of the church and the most admiring surviving account of Constantine's reign, once quoting the emperor calling himself a bishop of those outside the church — words no one now can be sure Constantine actually meant as a claim of office. He was his patron's panegyrist as much as his historian, and this world reads him knowing both.",
+    "Theodosius I's laws made Nicene Christianity the empire's official religion. When his soldiers massacred a crowd at Thessalonica in 390 — seven thousand dead, one historian says — his own bishop closed the altar to him and would not open it again until he had shown repentance.",
+    "Ambrose of Milan refused Theodosius the sacrament in 390 until the emperor did public penance for ordering the massacre at Thessalonica — the precedent that an emperor stands inside the church, not over it. Two years before, the same bishop had called the burning of a rival Christian sect's meeting-house at Callinicum worse than heathen, and used his standing with the emperor to spare the men who set a synagogue on fire from ever paying to rebuild it.",
+    "Leo of Rome wrote a letter on the two natures of Christ that was read aloud at Chalcedon in 451 and received as settling the question — at the same council that extended Constantinople's rank over the protest of his own delegates.",
+    "Justina, mother and dominant influence over the young emperor Valentinian II, held the Homoian faith herself and used her son's court to demand a basilica for it at Milan — backed, when Ambrose refused, by a fine of two hundred pounds of gold on the city's merchants and the imprisonment of tradespeople during Lent. Ambrose's own letter names the emperor as the one who ordered this; the record's own chronology names Justina as its real author. She survives in this world's record only through the hostile account of the bishop who refused her.",
+    "Pulcheria, empress from 414, was one of the two people whose convening power actually brought the Council of Chalcedon about in 451. Leo's own letters address her as a real principal, not a courtesy — yet nothing of her own words, on her own terms, survives.",
+    "Ordinary believers appear in this record only when they filled a basilica or a riot; not one of their own testimonies survives from this whole century and a half. Nor does the establishment they mostly lived under for decades: the Homoian church held the imperial throne itself under Constantius and Valens, yet almost nothing of its own theology survives except one battered fragment, copied by a fellow believer and partly erased as heresy before it reached us. Its likely author has a name in this record: on the dominant scholarly identification, he is Mercurinus Auxentius — the same Homoian bishop Ambrose's own sermon at the 386 basilica standoff was preached against, arguing his church's case under his predecessor's own name."
    ],
-   "legacy": "This is where most of what people mean by \"the institutional church\" was built: canon law, church courts, dioceses drawn along the empire's own administrative lines, and the assumption that a general council can settle a disputed doctrine for everybody. The argument it started — where a ruler's authority over the church ends and the church's over the ruler begins — runs on through the medieval investiture disputes, the Reformation's territorial settlements, and every later fight about established churches and their disestablishment. Its physical inheritance is still standing. The basilica, a Roman public hall rather than a temple, was the form the emperors paid for, and it remains the basic shape of church buildings across Europe.",
+   "legacy": "This is where most of what people mean by \"the institutional church\" was built: canon law, church courts, dioceses drawn along the empire's own administrative lines, and the assumption that a general council can settle a disputed doctrine for everybody.\n\nThe argument it started — where a ruler's authority over the church ends and the church's over the ruler begins — runs on through the medieval investiture disputes, the Reformation's territorial settlements, and every later fight about established churches and their disestablishment.\n\nIts physical inheritance is still standing. The basilica, a Roman public hall rather than a temple, was the form the emperors paid for, and it remains the basic shape of church buildings across Europe. A quieter inheritance survives from the same crisis. Waiting through the siege night in 386, Ambrose's besieged congregation began singing psalms 'after the manner of the Eastern Church' — and Augustine, who was there, says the custom was 'retained from then till now' and copied by 'almost all' congregations 'throughout the rest of the world.'",
    "experienceToday": [
     {
      "text": "The Archbasilica of St John Lateran, Rome — founded under Constantine in the 320s and still the cathedral church of the bishop of Rome",
      "url": "https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran"
+    }
+   ],
+   "sources": [
+    {
+     "work": "Apology to the Emperor (Apologia ad Constantium)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)",
+     "author": "anti-donatist-dossier",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Arian History (Historia Arianorum ad Monachos)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "City of God",
+     "author": "augustine",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Exposition of the Christian Faith (De Fide)",
+     "author": "ambrose",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Homilies on the Epistle to the Romans, Homily XXIII (on Romans 13:1)",
+     "author": "chrysostom",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters of Innocent of Rome concerning Chrysostom",
+     "author": "innocent_rome",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters of St. Chrysostom to Innocent, Bishop of Rome",
+     "author": "chrysostom",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters of St. Chrysostom to Olympias (with letter to the presbyters of Antioch)",
+     "author": "chrysostom",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Of the Manner in Which the Persecutors Died",
+     "author": "lactantius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Incarnation of the Lord, Against Nestorius (De Incarnatione)",
+     "author": "cassian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Selections from the Letters of St. Ambrose (with the Sermon Against Auxentius)",
+     "author": "ambrose",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Apostolical Canons",
+     "author": "apostolic-canons",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canonical Epistles of the Fathers received by Trullo Canon II",
+     "author": "canonical-epistles-fathers",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Council of Ancyra",
+     "author": "council-of-ancyra",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Council of Constantinople under Nectarius (394)",
+     "author": "council-of-constantinople-394",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Council of Gangra",
+     "author": "council-of-gangra",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Council of Neocaesarea",
+     "author": "council-of-neocaesarea",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Council of Sardica",
+     "author": "council-of-sardica",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Synod of Antioch in Encaeniis",
+     "author": "synod-of-antioch-in-encaeniis",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Synod of Laodicea",
+     "author": "synod-of-laodicea",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Church History of Eusebius (Historia Ecclesiastica)",
+     "author": "eusebius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Correction of the Donatists (De Correctione Donatistarum, Letter 185)",
+     "author": "augustine",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons",
+     "author": "council-of-chalcedon-451",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Council of Ephesus (431): Extracts from the Acts, Decree, Canons",
+     "author": "council-of-ephesus-431",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ecclesiastical History of Socrates Scholasticus",
+     "author": "socrates",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ecclesiastical History of Sozomen",
+     "author": "sozomen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII Anathematisms, and the Letter to John of Antioch)",
+     "author": "cyril_alexandria",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The First Council of Constantinople (381): Creed, Canons, Synodical Letter",
+     "author": "council-of-constantinople-381",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The First Council of Nicaea (325): Creed, Canons, Synodal Letter",
+     "author": "council-of-nicaea-325",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Homilies on the Statues to the People of Antioch",
+     "author": "chrysostom",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Letters of Leo the Great",
+     "author": "leo",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of Constantine (Vita Constantini)",
+     "author": "eusebius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Nicene Creed",
+     "author": "nicene-creed",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Oration of Constantine to the Assembly of the Saints",
+     "author": "constantine",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Oration of Eusebius (In Praise of Constantine, De Laudibus Constantini)",
+     "author": "eusebius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Sacred History (Chronica)",
+     "author": "sulpiciusseverus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Sermons of Leo the Great",
+     "author": "leo",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Tome of St. Leo (Letter XXVIII)",
+     "author": "leo",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Two Homilies on Eutropius",
+     "author": "chrysostom",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter of Eusebius of Caesarea to his flock (Epistola Eusebii)",
+     "author": "eusebius",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter to the Athenians (Letter to the Senate and People of Athens)",
+     "author": "julian",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)",
+     "author": "julian",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Memorial (Relatio) of Symmachus, Prefect of the City",
+     "author": "symmachus",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ecclesiastical History of Theodoret",
+     "author": "theodoret",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
     }
    ]
   },
@@ -1890,33 +3919,212 @@
    "living": false,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Richest written record of the four built worlds - mostly via one prolific pen (disclosed)",
+   "sourcing": "Richest written record among the Built & Live worlds — but nearly all of it is one man's own hand. Even the one independent witness against him doesn't agree with itself: the same report of Jerome holding Paula back survives in two languages, and they diverge — a single guarded line in the Greek hardens, in a later Syriac translation, into a flat claim that she died young to escape his 'envy and evil-eyedness.'",
    "floorNote": "Nothing here is in question on the Creed. Jerome was a combative defender of Nicene orthodoxy, and the circle's controversies were about asceticism, Origen's legacy, and the right basis for translating Scripture.",
-   "relationsSummary": "Built around the women's ascetic-patronage network (Paula, Marcella, Eustochium)",
-   "why": "It is — open for conversation now (Representative: Albina).",
+   "relationsSummary": "Descends scripturally from Alexandria's Origen, the same legacy this circle later fractured over with Rufinus; Jerome served as Damasus of Rome's own secretary before Bethlehem began.",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Albina, a widow of the household, right now.",
    "entry": {
     "representativeId": "albina",
     "representativeName": "Albina",
     "representativeTitle": "Widow of the Household",
     "worldName": "The Bethlehem Circle",
     "subtitle": "Hieronymian Ascetic-Literary Christianity",
-    "color": "#9d174d",
-    "tile": "Rome and Bethlehem, c. 382 to 420 CE — a circle of scholars and ascetics who gave up wealth and rank to test Scripture's Latin translation against the Hebrew it was first given in.",
+    "color": "#E23B7F",
+    "tile": "In Rome and then Bethlehem, from 382 to 420 CE, a circle of wealthy women and one scholar-priest practiced renunciation and scholarship as a single discipline — fortunes converted into text, hospitality, and care for the sick, a Latin Bible built word by word against the Hebrew it was first written in. The women funded it, founded it, and by Jerome's own account pressed him with scriptural questions for decades; but Jerome wrote nearly every surviving page himself, and how much independent authority his account of them actually reflects is a question this world's own record cannot settle. The cost was concrete: in 384 a daughter of the household died within four months of taking up Jerome's own fasting regime, and Rome's outrage over it helped drive the whole circle out of the city.",
     "icon": "assets/world-icons/bethlehem.svg"
    },
-   "longDescription": "In the early 380s a circle of wealthy Roman women — Marcella on the Aventine, and the widow Paula with her daughter Eustochium — began meeting to study Scripture and to live an ascetic life in the middle of the city, taking as their teacher a caustic, brilliant scholar named Jerome. Roman society found the whole arrangement scandalous: senatorial fortunes given away, aristocratic daughters refusing marriage, a priest shut up with widows over Hebrew grammar. When Jerome's protector Pope Damasus died in 384 and the hostility became unbearable, Paula and Eustochium sold their estates, sailed east, and founded monasteries at Bethlehem — a house for men, houses for women, and a hostel for pilgrims — with Jerome installed alongside to work. What came out of that arrangement was the Vulgate: a Latin Bible built book by book, against fierce criticism — the Old Testament rendered not from the Greek everyone was used to but from the Hebrew it had first been written in — and a body of letters in which the women's questions, funding, and insistence are visible on nearly every page.",
+   "longDescription": "In the early 380s, Jerome arrived in Rome and joined a circle of ascetic, scripturally serious women already meeting around the widow Marcella on the Aventine. Paula, another widow, and her daughters Blaesilla and Eustochium belonged to the same circle, and all of them took Jerome as their teacher — a caustic, brilliant scholar with a gift for making enemies. In 384 Blaesilla took up the severe fasting Jerome taught and was dead within four months; at her funeral a Roman crowd shouted for the monks to be thrown in the Tiber, and Jerome's own consolation letter to the grieving Paula admits he wept writing it.\n\nWithin the year Pope Damasus, Jerome's protector, was also dead, and his position in Rome had become impossible. Paula and Eustochium sold their estates, sailed east, and founded monasteries at Bethlehem — a house for men, houses for women, a hostel for pilgrims — with Jerome installed alongside to work. What came out of it was the Vulgate: a Latin Bible rendered book by book from the Hebrew rather than the Greek everyone was used to, against fierce criticism — in one North African town, a congregation nearly rioted when its bishop read the new wording of a single word in Jonah, and Augustine wrote across the sea to warn Jerome what unsettling a people's prayed-over text could cost.\n\nNot one word any of these women wrote in her own hand has survived; what is known of them comes only through Jerome's letters, or through others describing letters now lost. In the community's last years, an attack tied to the Pelagian dispute set fire to the Bethlehem monasteries. Eustochium sent Rome a full account of it, and the pope who answered her praised the community for one thing above all — that they had never named the man behind it.",
    "voices": [
-    "Jerome — the scholar and translator at the centre of it, whose Latin Bible became the West's standard text for a thousand years",
-    "Paula — the Roman widow who funded and led the move to Bethlehem and built its monasteries and pilgrim hostel",
-    "Eustochium — Paula's daughter, who took a vow of virginity as a girl in Rome and ran the Bethlehem women's houses after her mother's death",
-    "Marcella — the Aventine widow in whose household the circle began, and who kept pressing Jerome with questions about the biblical text long after he had left Rome",
-    "Rufinus of Aquileia — Jerome's old friend and fellow translator, whose bitter public quarrel with him over Origen split the wider ascetic network"
+    "Jerome was the scholar and translator at the center of it all, and his Latin Bible became the West's standard text for a thousand years. The letters, the memorials, the record of what the women around him said and did — all of it passed through his own hand before it reached us.",
+    "Paula was a Roman widow who sold her fortune to fund the move to Bethlehem and then built and governed its monasteries and pilgrim hostel for nineteen years, until her death. The one independent witness to describe her partnership with Jerome, the historian Palladius, says the opposite of Jerome's own account: that Jerome held her back out of jealousy rather than let her surpass him.",
+    "Eustochium was consecrated to virginity as a teenage girl in Rome, the dedicatee of one of Jerome's most famous letters, and led the Bethlehem women's community for the rest of her life after her mother's death. Palladius later put the size of her community at fifty women; no other source confirms the number.",
+    "Marcella's household on the Aventine was gathering ascetic, scripturally serious women years before Jerome ever reached Rome, and he took his place inside her circle, not the other way around. By his own account, clergy still brought her their hardest scriptural questions long after he had left the city — though the only record of that standing is the letter he wrote about her after she died.",
+    "Rufinus of Aquileia had been Jerome's friend since their student days and translated Origen's own work into Latin. Their bitter public quarrel over Origen's legacy split the wider ascetic network in two, and how much of it was really about doctrine rather than about the two men themselves is a question neither side's own account can settle.",
+    "Every one of these women demonstrably wrote — Marcella's questions survive by implication in Jerome's dozens of answers, and Eustochium's report of the 416 attack reached a pope who wrote back. None of their own letters were kept. The single text that carries two of their names, a letter to Marcella signed by Paula and Eustochium, is itself judged by scholars to be Jerome's own composition in their names, not theirs.",
+    "Fabiola was a Roman noblewoman who left a husband whose vices the whole neighborhood knew, refusing to name them even to defend herself, then remarried while he still lived — a step this circle's own teaching held to be exactly as much a fault for a woman as it would have been for a man. When her second husband died she did public penance in sackcloth before all Rome and was restored to communion; afterward she founded what Jerome calls Rome's first hospital, carrying the sick in from the streets herself, and helped found a hostel for travelers at Portus. She never lived at Bethlehem, and everything known of her — the hospital and its 'first' claim included — rests on the single letter Jerome wrote after her death."
    ],
-   "legacy": "The Vulgate became the Bible of the Latin West for over a thousand years. The text medieval theology argued from, the text later translators worked from or against, and the text the Council of Trent declared authentic in 1546. Its principle mattered as much as its content: Jerome's insistence on going back to the Hebrew rather than resting on the Greek is the ancestor of every later \"back to the sources\" movement, including the Renaissance and Reformation scholarship that eventually turned on the Vulgate itself. The circle left a second, quieter pattern too — wealthy women funding, hosting, and directing serious biblical scholarship — which recurs constantly in later Christian history. And the caves beneath the Church of the Nativity in Bethlehem, where tradition places Jerome's study, are still shown to pilgrims.",
+   "legacy": "The Vulgate became the Bible of the Latin West for over a thousand years — the text medieval theology argued from, the text later translators worked from or against, and the text the Council of Trent declared authentic in 1546. Its rise was not immediate or uncontested: Augustine himself never accepted it, writing after Jerome's death that even though the Jews themselves granted his Hebrew work faithful, 'the churches of Christ judge that no one should be preferred to the authority' of the Seventy translators — and the older Greek-based Latin version he defended stayed in real use for generations afterward.\n\nIts principle mattered as much as its content: Jerome's insistence on going back to the Hebrew rather than resting on the Greek is the ancestor of every later \"back to the sources\" movement, including the Renaissance and Reformation scholarship that eventually turned on the Vulgate itself.\n\nThe circle left a second, quieter pattern too — wealthy women funding, hosting, and directing serious biblical scholarship — which recurs constantly in later Christian history. The caves beneath the Church of the Nativity in Bethlehem, where tradition places Jerome's study, are still shown to pilgrims.",
    "experienceToday": [
     {
      "text": "Church of the Nativity and the Pilgrimage Route, Bethlehem — the UNESCO World Heritage site whose underground caves include the one long shown as Jerome's study",
      "url": "https://whc.unesco.org/en/list/1433/"
+    }
+   ],
+   "sources": [
+    {
+     "work": "Against Jovinianus",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Vigilantius",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against the Pelagians",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Jerome's Apology for Himself Against the Books of Rufinus",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter CVIII (To Eustochium - Epitaph of Paula)",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter XXII (To Eustochium, on virginity)",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters of St. Augustin: the Augustine-Jerome correspondence",
+     "author": "augustine",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Lives of Illustrious Men (De Viris Illustribus)",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Prefaces (to Jerome's early works, the Vulgate Old Testament, and the Commentaries)",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Prologue of Rufinus (to De Principiis)",
+     "author": "rufinus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Rufinus' Apology in Defence of Himself (Apologia ad Anastasium)",
+     "author": "rufinus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Apology of Rufinus (Against Jerome, to Apronianus)",
+     "author": "rufinus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Dialogue Against the Luciferians",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Letters of St. Jerome",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of Malchus, the Captive Monk",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of Paulus the First Hermit",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of S. Hilarion",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Perpetual Virginity of Blessed Mary (Against Helvidius)",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "To Pammachius Against John of Jerusalem",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Gennadius, Lives of Illustrious Men (continuation)",
+     "author": "gennadius",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter of Anastasius to John of Jerusalem concerning Rufinus",
+     "author": "anastasius_rome",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione Librorum Origenis)",
+     "author": "rufinus",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The City of God, Book XVIII, chapters 42-44 (the authority of the Septuagint)",
+     "author": "augustine",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Paradise of Palladius, Book I, ch. l (Of the Blessed Man Possidonius)",
+     "author": "palladius",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Commentary on the Apocalypse of the Blessed John",
+     "author": "victorinus",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
     }
    ]
   },
@@ -2361,19 +4569,28 @@
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
    "beyondFloor": false,
-   "status": "Possible Future World (on record)",
-   "chip": "def",
-   "glyph": "pfw",
-   "statusWord": "Possible future tradition — on record",
-   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
-   "living": false,
+   "status": "Built & Live",
+   "chip": "live",
+   "glyph": null,
+   "statusWord": "Open for conversation",
+   "statusDescription": "You can sit down with this tradition now.",
+   "living": true,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Strong in volume - Cassian's Institutes and Conferences, Vincent's Commonitory, and the Martin dossier are all vendored - but uneven in kind: the Marseilles and Lérins material is the school's own teaching, while almost everything about Martin comes through one admirer's hagiography.",
+   "sourcing": "Strong in volume - Cassian's Institutes and Conferences, Vincent's Commonitory, and the Martin dossier are all vendored, plus two further Cassian and Eucherius works added during construction - but uneven in kind: the Marseilles and Lérins material is the school's own teaching, while almost everything about Martin comes through one admirer's hagiography. Thinner than the volume suggests on the island's own daily life: no woman's own words survive from either house, and the one edition of Cassian this build can read has had its sexual-discipline material removed by a later editor.",
    "floorNote": "Not in question",
    "relationsSummary": "Descended from Egyptian desert monasticism through Cassian, who had lived among the Egyptian monks before founding his houses at Marseilles; the seedbed of the Merovingian Gallic church that follows it, and - through Lérins and Tours - of Irish monasticism.",
-   "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run found roughly 366,000 words of vendored Gallic material sitting in an era-2 window with no entry to hold it, and two independent workers reached the same gap from opposite ends. The Atlas's own edge data already routed transmission 'via Gaul (Lérins, Martin of Tours)' through a node that did not exist. The open question a survey would have to settle is whether Martin's Tours and Cassian's Marseilles are one formation world or a lineage of two, two generations apart.",
-   "entry": null,
+   "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run found vendored Gallic material sitting in an era-2 window with no entry to hold it, and two independent workers reached the same gap from opposite ends. The Atlas's own edge data already routed transmission 'via Gaul (Lérins, Martin of Tours)' through a node that did not exist. The case document's own word count carried an arithmetic error, corrected during construction: excluding Hilary of Poitiers' material, as the case itself argues for, actually leaves 502,441 words (731,019 total minus his 228,578), not the 366,371 first reported - that smaller figure was the total with Cassian removed instead. The open question of whether Martin's Tours and Cassian's Marseilles are one formation world or a lineage of two, two generations apart, was tested during construction, not fully settled: Doc_01 found the southern pair (Lérins-Marseilles) documented as linked through Cassian's own dedication of his second Conferences to Honoratus and Eucherius, but no documented link to Tours, and carries the world provisionally as one strand-singular world under the Construction Framework's own default. Construction is now complete - 194 records, admitted 2026-09-13.",
+   "entry": {
+    "representativeId": "renatus",
+    "representativeName": "Renatus",
+    "representativeTitle": "Bishop",
+    "worldName": "The Monk-Bishops of Gaul",
+    "subtitle": "Gallic Monastic-Ascetic Christianity",
+    "color": "#8FA3AC",
+    "tile": "This is the church of the ascetic bishop and the received wisdom of Egypt, carried west. In the Loire valley, a soldier who left the army gathered followers in the woods and became a bishop who never stopped living like a monk. Two generations later, on an island off the Mediterranean coast and in the city of Marseilles, monks who had lived among the fathers of Egypt built communities that trained abbots and bishops for the churches of southern Gaul. One of them adapted the customs of the Egyptian desert for a colder climate and a different church. Another wrote a rule for telling the true faith from every novelty. Through both households ran one argument, never fully settled: how much of a monk's progress is God's own gift, and how much is his own effort.",
+    "icon": "assets/portraits/gallic.jpg"
+   },
    "longDescription": "Around 361 a soldier named Martin, who had left the imperial army because he would not fight, settled with a few companions at Ligugé in western Gaul - the first monastic community the Latin West had. Ten years later the people of Tours seized him and made him their bishop, and he went on living as a monk outside the city walls at Marmoutier, running a diocese from a hut. His story survives because a wealthy Aquitanian lawyer, Sulpitius Severus, gave up his career, attached himself to Martin, and wrote his Life while he was still alive. Two other houses complete the picture. Around 410 Honoratus founded a monastery on a small island off the coast near Cannes, Lérins, which became the place the Western church went to for bishops: Honoratus and Hilary to Arles, Lupus to Troyes, Faustus to Riez. And around 415 John Cassian, who had spent years among the Egyptian monks, founded two houses at Marseilles and wrote down what he had learned there - the Institutes on how a monastery is run, the Conferences on what the Egyptian elders actually said. It was these Gallic monks who declined to follow Augustine's late teaching on predestination, and Augustine wrote three treatises answering them.",
    "teaser": "Gaul, c. 360 to 450 - a soldier who walked out of the army and was made a bishop against his will, an island monastery that supplied the Western church with its bishops, and the house at Marseilles that told the Latin world what Egypt had learned.",
    "voices": [
@@ -9305,7 +11522,7 @@
    "c2": null,
    "sourcing": "Moderate-to-rich; women unusually visible because households were the church",
    "floorNote": "No question",
-   "relationsSummary": "The Era 1 House-Churches' own dynamic, sixteen centuries on - a map echo worth drawing",
+   "relationsSummary": "The Era 1 Scattered Households' own dynamic, sixteen centuries on - a map echo worth drawing",
    "why": "The Era 1 house-churches' own dynamic, sixteen centuries on: when a church is illegal it retreats into households, and when it retreats into households the women running those households become central to it. That echo across the whole width of the atlas is worth drawing for its own sake. It is also the era's counter-case — the Reformation seen from the side that stayed, and paid for staying.",
    "entry": null,
    "sources": [
@@ -16360,7 +18577,7 @@
    "c2": "question",
    "sourcing": "Uneven by circumstance: rich founder corpora and testimony literature; thin-and-unsafe exactly where growth was greatest",
    "floorNote": "Person-defined checks on founder-defined branches (the Little Flock's Nee-then-Lee line especially) ran at the Era 10 Freeze on published texts only — Nee's corpus; Lee's Recovery Version and local-churches teaching [S] — with the dated counter-note that the Christian Research Institute's 2009 reassessment reversed its own earlier classification [S]. Genuinely open, per body; no verdict proposed. The row's named interpretive-fidelity carrier is the house-church Confession of Faith of November 1998 [S], trinitarian and creed-adjacent. Safety binds throughout: no non-public person or community is identified here, source classes excluded on safety grounds are named in this era's sources base, and where honest assessment would need unsafe specificity the finding is recorded open with the constraint named.",
-   "relationsSummary": "The map's strongest living echo of the Era 1 House-Churches",
+   "relationsSummary": "The map's strongest living echo of the Era 1 Scattered Households",
    "why": "This era's Step 0 hasn't run - and here SAFETY is a named assessment criterion beyond sourcing: much of its inside voice is unpublished, oral, or unsafe to publish, and real people could be affected by how their story is told.",
    "entry": null,
    "sources": [

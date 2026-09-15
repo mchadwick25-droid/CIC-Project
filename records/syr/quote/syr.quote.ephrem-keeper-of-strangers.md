@@ -28,6 +28,11 @@ text: >-
   And the people said unto him, "O man, we know that thou art God"; and he said unto them, "Put
   your trust in me, then, and give me [the means of relieving] this distress, for behold, for your
   sakes, I will set myself apart to become the keeper of a house for receiving strangers."
+modern_rendering: >-
+  And the people said to him, 'O man, we know that you are God.' And he said
+  to them, 'Put your trust in me, then, and give me the means to relieve this
+  distress. For see: for your sakes I will set myself apart to become the
+  keeper of a house that receives strangers.'
 speaker_or_author: the citizens of Edessa and Ephrem, as the Syriac recension of Palladius reports them
 license: verbatim
 modern_lens_note: >-
@@ -58,3 +63,5 @@ Registered ALONGSIDE syr.quote.palladius-hospitaller, not instead of it.
 A world that can show a participant the same remembered speech in two
 transmission languages, and say which is which, is doing something a
 world holding one version cannot do at all.
+
+MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.

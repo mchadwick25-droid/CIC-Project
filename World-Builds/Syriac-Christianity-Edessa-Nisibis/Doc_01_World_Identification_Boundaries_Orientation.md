@@ -4,51 +4,7 @@
 **Branch:** CiC-Phase1-CleanBuild-Syriac
 **Status:** Approved to proceed by project lead (Mark), 2026-07-08, in chat
 **Governed by:** Construction Framework V7.4_DRAFT, Part I; Constitution Articles 4, 21, 22; Step 0 Conclusion (World #7 entry and required Section A task)
-**Revision round:** 3 (substantial) + cosmetic pass (applied without a fresh review cycle, per build-cycle discipline)
-**Review outcome:** Round 3 cleared independent adversarial review with no further substantial revision called for. Three cosmetic corrections from that review were applied directly below (Abgar IX's fate under Caracalla, the "Treaty of Dura" aside, Rabbula's contested causal role in the Diatessaron→Peshitta transition) and are not subject to a fourth review round, per the cosmetic-fix provision of the build-cycle discipline.
-**World file-code:** `syr` — used throughout this world's Deployment Lexicon and Story Repository chunk files (`syrlex001`–`syrlex009`, etc.). Per the Interpretive Lexicon Development Framework (Part VI), this code should have been assigned here, at Step 1. It was not — a genuine process gap, not a version-specific framework error — and was instead assigned retroactively at Step 6 (Doc_06, Section 0), which named the gap explicitly rather than silently backdating it. This line is the back-annotation Doc_06 itself called for (Doc_06, Section 6, Open Items), added here as a housekeeping note only; it does not reopen this document's own review or any of its Round 1–3 findings above.
-
----
-
-## Revision Log
-
-### Round 1 → Round 2
-
-Round 1 was reviewed by an independent adversarial pass, which returned a **substantial revision** verdict on three grounds:
-
-1. **Sourcing conclusion (Section 5.5/5.6):** Round 1 asserted Bardaisan's ordination "could not be corroborated against a primary source," but the document's own cited source (Ramelli 2009) contains a substantial positive-evidence argument for exactly that — Bardaisan as deacon/presbyter, remaining in the church until death, per Didymus the Blind, Julius Africanus, and the Origenian tradition. Engaged directly with an explicit argument for why it does not reverse the Section 5.6 disposition.
-2. **Scope boundary (Section 2, end point):** Round 1 set the end point at 373 CE with a partly circular justification. Revised to **410 CE (Synod of Seleucia-Ctesiphon)**, matching this document's own stated criterion (institutional-structural change) and Step 0's own contrast language.
-3. **Scope boundary (Section 6, Strand Determination):** Round 1's case against a strand split rested partly on treating "authority structure" divergence as needing the same multi-figure evidentiary sampling as "practice" claims. Round 2 introduced new research claiming Persia had its own parallel episcopal hierarchy (Papa bar Aggai, Simeon bar Sabbae) running alongside Aphrahat.
-
-Cosmetic corrections also applied: the 363 treaty's name, Jacob of Nisibis's death-date ambiguity, the Rabbula-suppression overclaim, the vague qyama citation.
-
-### Round 2 → Round 3
-
-A second independent adversarial review confirmed Triggers 1 and 2 above were soundly resolved, but found Round 2's own Trigger-3 fix was built on shakier ground than it claimed, and introduced one new citation error:
-
-1. **"Mar Aqiba" could not be corroborated as any attested title of Aphrahat's and is removed.** It may have been a garbled reference to a real but different figure, Aqib-Alaha, bishop of Karka d'Baith Slok — who, if anything, undercuts Round 2's argument, since he was an actual bishop.
-2. **Aphrahat's episcopal status is itself contested in the secondary literature, not a settled non-episcopal fact.** William Wright and others have argued from Demonstration 14 (a circular letter Aphrahat drafted on behalf of a synod of bishops and clergy) that he may himself have been a bishop. Round 2's clean contrast (non-episcopal Aphrahat vs. episcopal Roman-side church) is not supportable as stated.
-3. **Papa bar Aggai's own claim to primacy over other Persian bishops was itself fiercely contested** by Miles of Susa and Aqib-Alaha of Karka d'Baith Slok in a synod c. 315 — meaning "Persia had its own settled, parallel episcopal hierarchy" overstates how uncontested that hierarchy actually was in this exact period.
-4. **The qyama citation introduced in Round 2 (Section 4) was wrong on author, title, year, and volume** — corrected below to the actual author (Malatius Malki Malki, not Serafim Seppälä) and actual publication details.
-5. **A structural gap:** expanding the temporal boundary to 410 was not accompanied by any accounting of what new content (figures, events) now falls inside the 373–410 window. Addressed below by naming Marutha of Maiperqat, and by adding an explicit justification for why 410 rather than 424 is the boundary.
-
-Section 6 is substantially rewritten below rather than patched, since the reviewer found the previous version's confidence ("stronger grounds," "independently verified comparison") was not earned by the underlying research.
-
-### Round 3 review outcome + cosmetic pass
-
-A third independent adversarial review confirmed all three original Round 1 triggers were now genuinely closed, confirmed all of Round 3's new claims (Malatius Malki Malki citation, Marutha of Maiperqat, the Aphrahat/Papa bar Aggai contestation framing) as independently verified and accurate, found the rebuilt Section 6 methodology sound, and found no remaining internal inconsistency. It surfaced three further items, assessed as cosmetic rather than substantial, applied directly below without a further review round: (1) Abgar IX's fate under Caracalla is more accurately described as execution than imprisonment; (2) the "Treaty of Dura" alternate-naming aside corrects a naming confusion whose prevalence in the literature could not be confirmed, so it is now hedged rather than stated as an established alternate name; (3) Bishop Rabbula's personal causal role in the Diatessaron-to-Peshitta transition is a traditional attribution contested by at least one Peshitta scholar (Vööbus), now flagged as Contested rather than presented as settled.
-
-### Retroactive housekeeping note (post-Step 6) — not a review round
-
-Doc_06 (Full Lexicon Development, Section 0) discovered at Step 6 that no world file-code had ever been assigned in this document, assigned `syr` itself to unblock its own Deployment Lexicon chunk-file naming, and named an open item asking that the assignment be back-annotated here so its true origin point (Step 6, not Step 1) stays traceable (Doc_06, Section 6, Open Items). That back-annotation is the **World file-code** line added to the header block above. This is a housekeeping addition only — it carries no new historical claim, does not touch any Section 1–10 content, and does not reopen this document's own Round 1–3 review history.
-
-### Post-approval correction (2026-07-08), per the Doc_09 Validation Layer cross-document audit
-
-The audit found that Section 2's "Flag for Doc_02" and Section 10's corresponding open item, both asking to confirm the School of Nisibis founding date (350), were superseded by research Doc_03 (Section 3.1) performed later without looping back here. Doc_03 found, via GEDSH, that the School of Nisibis was actually founded c. 489–496 CE. Fixed: Section 2's flag now carries a one-line cross-reference noting this half of the flag is resolved; Section 10's open item carries the fuller retroactive resolution note below. Jacob of Nisibis's death date, the other half of both items, is unaffected and remains genuinely open. See Doc_02's own Revision Log for the corresponding fix on its side.
-
-### Retroactive resolution note (2026-07-08, post-Step 9) — not a review round
-
-The Doc_09 Validation Layer cross-document audit found that Section 2's flag below and Section 10's corresponding open item, both asking to confirm the School of Nisibis founding date (350), were superseded by research Doc_03 (Section 3.1) performed later and never looped back to here. Doc_03 found, via GEDSH, that the School of Nisibis was actually founded c. 489–496 CE, not 350. Section 2's flag is left as originally written below, as an accurate record of what this document asked Doc_02 to check at the time; Section 10's open item now carries a note pointing to this resolution, and Doc_02 (Section 11/12) carries the corresponding fix. Jacob of Nisibis's death date, the other half of both the Section 2 flag and the Section 10 item, remains genuinely open and is unaffected by this note.
+**World file-code:** `syr` — used throughout this world's Deployment Lexicon and Story Repository chunk files (`syrlex001`–`syrlex009`, etc.). Per the Interpretive Lexicon Development Framework (Part VI), this code should have been assigned here, at Step 1. It was not — a genuine process gap, not a version-specific framework error — and was instead assigned retroactively at Step 6 (Doc_06, Section 0), which named the gap explicitly rather than silently backdating it. This line is the back-annotation Doc_06 itself called for (Doc_06, Section 6, Open Items), added here as a housekeeping note only.
 
 ---
 
@@ -196,7 +152,7 @@ This preliminary forces work frames Doc_02's scope: sources should be sought tha
 ## 10. Open Items Carried Forward to Later Steps
 
 - Verify Sebastian Brock citation for the poetic/symbolic-vs-philosophical-categorical characterization of Syriac theological method (Section 4).
-- Jacob of Nisibis's exact death year (338 vs. 350) against primary sources (Theodoret, the Nisibene Hymns) remains open — see Doc_02, Section 11. **Retroactive resolution note (2026-07-08, Doc_09 Validation Layer):** this item originally also asked to confirm the School of Nisibis founding date (350). That part is now resolved, not by the primary-source pass this item anticipated, but by Doc_03, Section 3.1's GEDSH-sourced finding that the School of Nisibis was founded c. 489–496 CE — a different date from, and correcting, the "350" figure this item and Doc_02 (Section 11/12) originally carried as an open working figure. See Doc_02's own Revision Log for the corresponding fix.
+- Jacob of Nisibis's exact death year (338 vs. 350) against primary sources (Theodoret, the Nisibene Hymns) remains open — see Doc_02, Section 11. **Retroactive resolution note (2026-07-08, Doc_09 Validation Layer):** this item originally also asked to confirm the School of Nisibis founding date (350). That part is now resolved, not by the primary-source pass this item anticipated, but by Doc_03, Section 3.1's GEDSH-sourced finding that the School of Nisibis was founded c. 489–496 CE — a different date from, and correcting, the "350" figure this item and Doc_02 (Section 11/12) originally carried as an open working figure.
 - At Doc_02: formalize Bardaisan's Source Registry entry (Boundary Status: Excluded; Exclusion Reason: Named Comparandum) and ensure Marcion and Mani receive equivalent, explicitly named contested-neighbor treatment.
 - At Doc_02/Doc_08: gather fuller comparative evidence on the Persian-side church's institutional development to resolve, if possible, whether Aphrahat held episcopal office and how contested Papa bar Aggai's and Simeon bar Sabbae's own authority actually was — this document deliberately leaves this open rather than asserting a resolution in either direction (Section 6); develop the persecution-intensity asymmetry as a named force.
 - Reconsider, if Doc_02's fuller evidence warrants it, whether the 363 Nisibis cession (state-jurisdiction change plus population evacuation) should be weighted more heavily as a discontinuity than this document's "internal transition" classification currently allows (flagged in Section 2, not resolved).

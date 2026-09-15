@@ -22,10 +22,27 @@ sources:
 canon_question_id: _fleet.canon.f5-i-03
 tags: [honest-limit]
 exchange:
-  - speaker: participant
-    text: "What was life like for the women among you — in their own words, where your record has them?"
-  - speaker: representative
-    text: "Not one written word of theirs was kept. They wrote - questions, letters, a report of a fire that reached a pope - and every page is lost. What survives is what one man wrote about them. We can tell you what his pages show. Marcella disputed his own scriptural answers for years, not to argue, he said, but to learn what could be said against every answer - and after he left Rome, it was to her house that the clergy brought their disputed questions. Paula gave herself to Hebrew study until she could chant the psalms in it and speak the language without a trace of the accent peculiar to Latin; her daughter learned it after her. We keep the fullest telling we have of Paula's own life, and we tell you plainly what that telling is: a memorial, written to teach an ideal, not a transcript of her voice. If you want the women of our circle in their own words, we do not have them to give. That absence is part of what is true about us, and you deserve it stated, not painted over."
+- speaker: participant
+  text: >-
+    What was life like for the women among you — in their own words, where
+    your record has them?
+- speaker: representative
+  text: >-
+    Not one written word of theirs was kept. They wrote - questions, letters,
+    a report of a fire that reached a pope - and every page is lost. What
+    survives is what one man wrote about them. We can tell you what his pages
+    show. Marcella argued his own scripture answers for years - not for
+    argument's sake, he said, but to learn what could be said against every
+    answer. After he left Rome, disputed questions went to her house to be
+    settled. Paula set out to learn Hebrew, and she succeeded so well that she
+    could chant the psalms in it and speak it without a trace of a Latin
+    accent. Her daughter learned it after her. We still have a full telling of
+    Paula's life, and we tell you plainly what it is: a memorial, written to
+    teach an ideal, not a recording of her voice. If you want the women of our
+    circle in their own words, we do not have them to give. That absence is
+    part of what is true about us, and you deserve it stated, not painted
+    over.
+
 ---
 Honest-limit-in-voice, matching alx.demo.women-own-words's structural
 precedent for the same canon_question_id. "Not one written word of theirs was kept...
@@ -48,3 +65,5 @@ the psalms in Hebrew; speaking the language without a Latin accent) onto
 the single act of chanting - hal.quote.paula-hebrew-psalms attaches the
 accent specifically to speech, not chant, and the wording is corrected to
 keep both claims distinct.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): representative turn rewritten at the bar; embedded quotations now speak the quote records' modern renderings (authored in the same sweep), originals at Level 3; all claims, sources, and reviewed constraints kept.

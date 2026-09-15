@@ -6,8 +6,11 @@ to the other directly with no separate lookup table (law 4, applied to test
 wiring too).
 """
 import re
+from pathlib import Path
 
 from jsonschema import Draft202012Validator
+
+from engine.prose import quote_aware_sentences
 
 from . import canon
 from .fk import fk_grade
@@ -15,11 +18,33 @@ from .schemas import RELATION_INVERSE, build_schema
 
 FK_CEILING = 10
 
+# cic/texts/ - two levels up from engine/m1/, then across to the sibling
+# cic/ tree. This module deliberately does NOT import cic/engine/
+# texts_registry.py's own rights_clears() (a different top-level package,
+# and this compiler-facing module currently imports nothing outside
+# engine/m1/) - the open-licence check below duplicates its ~1-line logic
+# rather than reach across that boundary for one function.
+_TEXTS_DIR = Path(__file__).resolve().parents[2] / "cic" / "texts"
+# Anchored to a real extension (every file in cic/texts/ is .txt or .xml,
+# confirmed against the live directory) rather than a greedy [\w.-]+ -
+# caught live against real records: "cic/texts/macarius_..._mason1921.txt.
+# Two divisions" (a sentence-ending period right after the filename) was
+# swallowing that period into the captured filename with the greedy form,
+# producing a false "file does not exist" against a file that does.
+_EDITION_PATH = re.compile(r"cic/texts/([\w\-]+\.(?:txt|xml))")
+# The canonical passage address form defined this session: cic:<file-stem>:
+# <locus>, e.g. cic:npnf208_basil-letters-select-works.xml:vi.iii.CLXXXVIII.
+# Same shape as cic/engine/works_registry.py's own _ADDRESS regex, kept as a
+# separate constant rather than imported - this module (engine/m1/) currently
+# imports nothing from cic/engine/, the same boundary _EDITION_PATH's own
+# comment above already draws for texts_registry.py.
+_ADDRESS_RE = re.compile(r"^cic:([A-Za-z0-9._-]+):(.+)$")
+
 COMPLETION_REQUIRED = {
     "world_core": ["time_window", "horizon", "formation_logic", "thinness", "cautions"],
     "source": ["author", "work", "edition", "rights_status", "attribution_status", "discovery_channel"],
     # distortion_risk added 2026-08-22: the glossary/story/quote modern-
-    # vs-world contrast retrofit (Redesign-Spec/Glossary-Story-Quote-
+    # vs-world contrast retrofit (reference/Redesign-Spec/Glossary-Story-Quote-
     # Template.md) - the retrofit's own trigger, per that doc's own words
     # ("Mark flips that switch when the retrofit task is actually sent to
     # all six threads"). false_friend and senses.translational are ALSO
@@ -141,7 +166,7 @@ def gate_narratability(records, fleet, registry) -> list[str]:
 
 def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
     """The two glossary/story/quote retrofit fields COMPLETION_REQUIRED's
-    flat per-type list can't express correctly (Redesign-Spec/Glossary-
+    flat per-type list can't express correctly (reference/Redesign-Spec/Glossary-
     Story-Quote-Template.md SS1) - same discipline as gate_narratability's
     own dedicated nested checks for story, applied here to term:
 
@@ -236,7 +261,115 @@ def gate_rights(records, fleet, registry) -> list[str]:
     return findings
 
 
+def gate_edition_rights_consistency(records, fleet, registry) -> list[str]:
+    """gate_rights (above) only checks that rights_status is non-blank -
+    never that it agrees with anything. A source record's edition field
+    often names a specific vendored file in free-form prose (the same
+    "cic/texts/<filename>" string cic/engine/texts_registry.py's own
+    citing_records() already scans records/ for, in the opposite
+    direction - that module finds records from a file, this finds a file
+    from a record). Nothing before this checked the path actually
+    resolves: a record could name a file that was renamed, moved, or
+    never vendored, and no gate would catch it before a build thread
+    noticed by hand. Two checks, only for source records whose edition
+    names such a path:
+      (1) the file exists under cic/texts/ at all;
+      (2) if the file's own header states an open licence rather than
+          public domain (so far only evagrius_praktikos_dysinger.txt,
+          CC BY 4.0), the record's rights_status should say so too, not
+          bare "public-domain" - a record read on its own, without the
+          vendored file open beside it, should not misstate what it can
+          license.
+    A record whose edition never names a cic/texts/ path at all (a
+    consult-only or not-yet-vendored source) is out of this gate's scope
+    entirely - that is what gate_rights already governs.
+    """
+    findings = []
+    for rid, rec in records.items():
+        if rec.get("record_type") != "source":
+            continue
+        edition = str(rec.get("edition") or "")
+        m = _EDITION_PATH.search(edition)
+        if not m:
+            continue
+        filename = m.group(1)
+        path = _TEXTS_DIR / filename
+        if not path.exists():
+            findings.append(f"{rid}: edition names cic/texts/{filename}, which does not exist on disk")
+            continue
+        header = path.read_text(encoding="utf-8", errors="replace")[:4000]
+        is_open_licence = "cc by" in header.lower()
+        rights_status = str(rec.get("rights_status") or "").strip().lower()
+        if is_open_licence and rights_status == "public-domain":
+            findings.append(
+                f"{rid}: edition names cic/texts/{filename}, whose own header declares an open "
+                f"licence (not public domain), but rights_status says bare 'public-domain' - "
+                f"misstates the actual rights basis to a reader of this record alone")
+    return findings
+
+
+def gate_canonical_address(records, fleet, registry) -> list[str]:
+    """Mechanical half of the canonical passage address (cic:<file-stem>:
+    <locus>), defined this session and formally added to the schema as an
+    optional `address` field sitting beside `locus` on any sources[] entry
+    (per Mark's sign-off, 2026-09-02: a new sibling field, locus itself
+    untouched; optional/best-effort backfill on existing records). Checks
+    the two things a bare string type can't: the address is well-formed,
+    and the file it names actually exists under cic/texts/. Does NOT check
+    that <locus> resolves to a real division inside the file - the same
+    boundary works_registry.py's own parse_address() draws for WORKS.yaml's
+    item addresses, for the same reason: confirming a real div/section
+    marker exists would mean re-implementing each format's own structure
+    parser per record, not a one-line check. Envelope-level like locus
+    itself, so this runs over every record type's sources[], not only
+    quote - quote is only where the field was scoped from.
+    """
+    findings = []
+    for rid, rec in records.items():
+        for i, ref in enumerate(rec.get("sources") or []):
+            addr = str(ref.get("address") or "").strip()
+            if not addr:
+                continue
+            m = _ADDRESS_RE.match(addr)
+            if not m:
+                findings.append(f"{rid}: sources[{i}].address {addr!r} does not match the "
+                                 f"cic:<file>:<locus> form")
+                continue
+            filename = m.group(1)
+            if not (_TEXTS_DIR / filename).exists():
+                findings.append(f"{rid}: sources[{i}].address names cic/texts/{filename}, "
+                                 f"which does not exist on disk")
+    return findings
+
+
 def gate_readability(records, fleet, registry) -> list[str]:
+    # RESOLVED 2026-09-02 (was flagged 2026-09-02, same day - the flag's own
+    # premise turned out to be stale, not a real gap). The flag claimed
+    # quote's only readability-relevant field was modern_lens_note (a
+    # meaning-clarification note, not a plain-language rendering) and that
+    # the "two-layer wording" idea (verbatim historical text plus a modern
+    # spoken form) had no schema field. Checked against this checkout
+    # directly: it does - `modern_rendering` (schemas.py, quote
+    # TYPE_PROPERTIES), added the same day this flag was written, per the
+    # V1.2 process doc (Ministry/Technology/CiC_Record_Native_World_Build_
+    # Process_V1_3.md): "Quote records author their modern_rendering at
+    # birth. The spoken form is a modern-English translation, never the
+    # archaic original; the original stays as the record's text for Level
+    # 3." Every built world's quote records already populate it (Mark's
+    # standing ruling, 2026-08-28); `engine/m4/evidence.py`'s own
+    # `_speakable_text` already reads `modern_rendering or text` for
+    # exactly this reason. So this gate now grades `modern_rendering`, same
+    # as term/honest_limit's own fields - and deliberately NEVER grades
+    # `text` itself, which stays verbatim by design (Level 3, the "click
+    # page" original wording) and must never be pressured toward a grade
+    # level.
+    #
+    # This is a real, live check, not a formality: run directly against
+    # the actual fleet (not the fixture), it finds 12 already-authored
+    # modern_rendering values over FK_CEILING across 2 worlds (hal,
+    # cappadocian) - real content this gate was always meant to catch,
+    # invisible until today only because the check itself was missing, not
+    # because the fields passed clean.
     findings = []
     checks = []
     for rid, rec in records.items():
@@ -245,6 +378,8 @@ def gate_readability(records, fleet, registry) -> list[str]:
             checks.append((rid, "plain_meaning", rec.get("plain_meaning")))
         if rec.get("record_type") == "honest_limit":
             checks.append((rid, "statement", rec.get("statement")))
+        if rec.get("record_type") == "quote":
+            checks.append((rid, "modern_rendering", rec.get("modern_rendering")))
     for rid, field, text in checks:
         if not text:
             continue
@@ -378,6 +513,157 @@ def gate_no_build_attribution(records, fleet, registry) -> list[str]:
     return findings
 
 
+# Voice-reproduced fields only - proven this session (not assumed) by
+# reading engine/m2/builders.py's own _chunk_text()/build_prompt() directly:
+# exactly these fields become the Representative's own speech.
+# world_core.* is deliberately NOT here - every built world's own
+# world_core record states "No Representative content appears in this
+# record" in its own body, and is authored in a third-person analytical
+# register on purpose (background the model reads about the world, not
+# something the voice ever says). voice_craft.* is standing instruction,
+# already first-person we-voice by construction (build_prompt()'s own
+# instruct() vs emit() split - see its comment above). Full trace:
+# CiC_Cross_System_Analysis_Tracking.md, 2026-09-04 entry.
+_PERSPECTIVE_FIELDS = {
+    "term": ["plain_meaning", "quick_meaning"],
+    "story": ["tellable_as", "text"],
+    "ambient": ["detail"],
+    "doctrinal_witness": ["text"],
+    "honest_limit": ["statement"],
+}
+
+# Form 1: the builder's-eye phrase itself - "this world[,'s]" - a name for
+# a world from outside it, never an inhabitant's own way of naming their
+# own. Measured 2026-09-04: 250 genuine instances / 166 fields across all
+# 8 built worlds (cappadocian alone: 73, concentrated in
+# term.plain_meaning/quick_meaning - a systematic lexicon-authoring
+# pattern, not scattered error), 99.2% precision once the two exceptions
+# below are excluded - a full hand check of every non-lexicon hit, plus
+# two independent keyword sweeps for the exception shapes, found no others.
+_THIS_WORLD = re.compile(r"\bthis world\b'?s?", re.IGNORECASE)
+
+# Form 3 (narrower than the full form measured in the tracking doc's
+# census): "the world's own/last/closing/..." - the same self-referential
+# possessive shape as Form 1, missing only the word "this". A blind "the
+# world" search is dominated by the ordinary cosmological/generic sense
+# (20 of 25 candidates fleet-wide - "entered the world", "across the
+# world", direct scriptural quotation); restricting to the possessive form
+# cuts that false-positive flood but is still imperfect (5 genuine of 7
+# candidates in the same hand check, ~70% precision) - a finding here is
+# worth a human's eyes before treating it as confirmed, same standing as
+# gate_no_build_attribution's own "ruled by" pattern below.
+_THE_WORLDS_POSSESSIVE = re.compile(r"\bthe world's\b", re.IGNORECASE)
+
+# Proven exceptions to Form 1/3 - not assumed, and deliberately not a
+# growing banned/allowed-word list (the Register Bar's own standing
+# objection to that shape of rule applies here too; this is two fixed,
+# named theological idioms, not a word list that accretes). Both name the
+# created/temporal order itself - a cosmological claim - not the speaker's
+# own community:
+#   - anti-Marcionite cosmology, "the Maker of this world" (syr.dw.god,
+#     refuting Marcion's demiurge)
+#   - the ordinary "my kingdom is not of this world" sense (John 18:36),
+#     here as a close paraphrase of Hegesippus verified against the
+#     vendored source (pahc.story.grandsons-before-domitian, anf08 line
+#     71558)
+# Found by hand-checking every Form-1/3 hit fleet-wide 2026-09-04; no
+# others turned up under two independent keyword sweeps for cosmological
+# vocabulary (maker, ruler, prince, wisdom, kingdom, depart, foundation).
+_MAKER_OF_THIS_WORLD = re.compile(r"\bmaker of this world\b", re.IGNORECASE)
+_NOT_OF_THIS_WORLD = re.compile(r"\bnot of this world\b", re.IGNORECASE)
+
+
+def _perspective_exception(sentence: str) -> bool:
+    return bool(_MAKER_OF_THIS_WORLD.search(sentence) or _NOT_OF_THIS_WORLD.search(sentence))
+
+
+def _it_chain_hits(sentences: list[str]) -> list[str]:
+    """Form 2, gated floor only (see the tracking doc for the fuller
+    estimate this deliberately does not chase): sentence-initial "It"/
+    "Its" immediately following a sentence whose own subject is literally
+    "this world"/"the world" - a mechanically checkable anaphora chain,
+    spot-checked fleet-wide at effectively 100% precision (e.g.
+    alx.dw.church-failure: "This world's record leaves its wounds
+    visible. Its greatest teacher was..."). The broader same-field
+    co-occurrence form (every "it"/"its" anywhere in a field that also
+    contains a Form-1/3 hit) measured only ~37% precision on a 40-sentence
+    random sample fleet-wide and is deliberately NOT gated here - it would
+    drown real findings in noise, the same reasoning gate_no_build_
+    attribution's own field-scoping comment gives for staying narrow."""
+    hits = []
+    for i in range(1, len(sentences)):
+        prev = sentences[i - 1].strip()
+        cur = sentences[i].strip()
+        if re.match(r"^(this world|the world)\b", prev, re.IGNORECASE) and re.match(
+            r"^(it|its)\b", cur, re.IGNORECASE
+        ):
+            hits.append(cur)
+    return hits
+
+
+def gate_voice_perspective(records, fleet, registry) -> list[str]:
+    """The Representative speaking about its own world from outside - "this
+    world taught...", "the world's own record...", a third-person "it"/
+    "its" chain describing the community as an object - rather than from
+    inside it, in the we-voice the corpus's own approved exemplar
+    (records/syr/demonstration/syr.demo.room-for-doubt.md, the Register
+    Bar's own named standard) already models correctly throughout. Not a
+    grammar nicety: a builder names a world from outside it ("this
+    world"); an inhabitant of it does not, any more than a person says
+    "this country" about their own.
+
+    Root cause (full trace in CiC_Cross_System_Analysis_Tracking.md,
+    2026-09-04 entry): the approved exemplar is already followed correctly
+    everywhere it is actually checked against, but the Register Bar's own
+    documented properties never named perspective as one of them - only
+    readability (word choice, sentence length, FK/FRE via M7). This gate
+    is the missing mechanical check; CiC_Register_Bar_2026-08-29.md and
+    the Record-Native Build Process's Phase-B birth conditions were
+    updated the same day to name perspective as a bar property going
+    forward, so new records are born past this, not swept afterward.
+
+    Scoped to exactly the fields build_prompt()/_chunk_text() turn into
+    the voice's own speech - see _PERSPECTIVE_FIELDS above for what that
+    excludes and why. The "the world's..." and it/its-chain findings are
+    lower-precision than the literal "this world" ones (documented at each
+    pattern above) and are worth a human's eyes before treating as
+    confirmed - same standing several other gates in this battery already
+    have."""
+    findings = []
+    for rid, rec in records.items():
+        rt = rec.get("record_type")
+        texts = [(f, rec.get(f)) for f in _PERSPECTIVE_FIELDS.get(rt, [])]
+        if rt == "demonstration":
+            for i, turn in enumerate(rec.get("exchange") or []):
+                if turn.get("speaker") == "representative":
+                    texts.append((f"exchange[{i}].text", turn.get("text")))
+        for field, text in texts:
+            if not isinstance(text, str) or not text.strip():
+                continue
+            sents = quote_aware_sentences(text)
+            for sent in sents:
+                if _perspective_exception(sent):
+                    continue
+                if _THIS_WORLD.search(sent):
+                    findings.append(
+                        f'{rid}.{field}: speaks of "this world" from outside rather than as '
+                        f"\"we\"/\"our\" - {sent[:150]!r}"
+                    )
+                elif _THE_WORLDS_POSSESSIVE.search(sent):
+                    findings.append(
+                        f"{rid}.{field}: \"the world's...\" - possibly the same outside-vantage "
+                        f'pattern as "this world\'s..." without the word "this"; this form runs '
+                        f"~70% precision, not exact, so worth a human read - {sent[:150]!r}"
+                    )
+            for hit in _it_chain_hits(sents):
+                findings.append(
+                    f"{rid}.{field}: the sentence right after \"this/the world...\" opens with "
+                    f'"{hit.split()[0]}", continuing the third-person description instead of '
+                    f"switching to \"we\" - {hit[:150]!r}"
+                )
+    return findings
+
+
 # Record types whose id legitimately carries a canon-cell code. Only
 # search_record does: a negative sweep IS defined by the cell it swept, and
 # ijc holds seven that would collapse to one id without it. These records are
@@ -448,9 +734,12 @@ GATES = {
     "distribution-health": gate_distribution_health,
     "confidence-crosscheck": gate_confidence_crosscheck,
     "rights": gate_rights,
+    "edition-rights-consistency": gate_edition_rights_consistency,
+    "canonical-address": gate_canonical_address,
     "readability": gate_readability,
     "canon-coverage": gate_canon_coverage,
     "no-build-attribution": gate_no_build_attribution,
+    "voice-perspective": gate_voice_perspective,
     "id-convention": gate_id_convention,
 }
 

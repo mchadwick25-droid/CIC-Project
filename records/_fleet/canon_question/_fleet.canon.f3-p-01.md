@@ -4,8 +4,8 @@ world_id: _fleet
 record_type: canon_question
 schema_version: 2
 cell: F3-P
-text: The church that raised me protected people who caused harm. Your churches had
-  failures too — what did you do with them?
+text: Did your churches ever fail to hold their own people accountable for real
+  harm — and if so, what happened?
 source:
 - corpus
 - ext

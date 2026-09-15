@@ -18,15 +18,19 @@ def _real_repository(world_key: str) -> dict[str, dict]:
 
 
 def test_resolves_a_real_term_to_its_real_underlying_source():
-    """alx.term.allegoria cites Origen's Philocalia and Clement's
-    Stromateis - real, public-domain, vendored primary texts, not
-    placeholders."""
+    """alx.term.allegoria cites Origen's Philocalia, Clement's
+    Stromateis, and Eusebius's Historia Ecclesiastica - real,
+    public-domain, vendored primary texts, not placeholders."""
     repo = _real_repository("alx")
     card = resolve_source_card("alx.term.allegoria", repo)
     assert card["record_type"] == "term"
     assert card["label"] == "allegoria (the spiritual sense)"
     source_ids = {s["source_id"] for s in card["sources"]}
-    assert source_ids == {"alx.source.origen-philocalia", "alx.source.clement-stromateis"}
+    assert source_ids == {
+        "alx.source.origen-philocalia",
+        "alx.source.clement-stromateis",
+        "alx.source.eusebius-historia-ecclesiastica",
+    }
     philocalia = next(s for s in card["sources"] if s["source_id"] == "alx.source.origen-philocalia")
     assert philocalia["author"].startswith("Origen")
     assert philocalia["work"]
@@ -59,10 +63,26 @@ def test_a_quote_attributed_to_a_bare_figure_id_resolves_to_the_figures_real_nam
     """alx.quote.clement-new-song's own speaker_or_author is the literal
     string "alx.figure.clement" - the corpus's own "sometimes an id,
     sometimes prose" convention for this field. Before this fix every
-    such quote's label was that raw id, verbatim, to the participant."""
+    such quote's label was that raw id, verbatim, to the participant.
+    Since the source-first relabel (Mark's pilot read, 2026-08-30) the
+    resolved figure name is the attribution half, after the work."""
     repo = _real_repository("alx")
     card = resolve_source_card("alx.quote.clement-new-song", repo)
-    assert card["label"] == "Clement"
+    assert card["label"] == "Protrepticus, I — Clement"
+
+
+def test_a_quote_with_sources_labels_source_first_speaker_as_attribution():
+    """Mark's pilot read (2026-08-30): "the links are to ignatious, not
+    the source." The quote card's headline was the speaker; now it is
+    the work and passage, with the speaker after the dash - the same
+    correction the figure bridge already carries. The headline takes the
+    title half of work/locus (before the scholarly apparatus); the full
+    strings still ride untouched in the card's sources[]."""
+    repo = _real_repository("pahc")
+    card = resolve_source_card("pahc.quote.ignatius-truly-born", repo)
+    assert card["label"].startswith("The seven letters, middle recension, Trallians 9")
+    assert card["label"].endswith("— Ignatius, bishop of Antioch")
+    assert card["sources"][0]["work"].startswith("The seven letters")  # full apparatus preserved below the headline
 
 
 def test_a_quote_attributed_to_prose_passes_through_unchanged():

@@ -33,23 +33,29 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Could a woman carry real authority among us, and what did it cost her? Yes, twice, on the record''s
-  own terms - and both times the cost was steep. Justina, mother and dominant influence over her young
-  son - no formal regency is attested - is named by this world''s own transmission as the one behind the
-  machinery of the state turned against Ambrose: when he would not surrender a basilica, the heaviest
-  sentences were decreed first upon the whole body of merchants - two hundred pounds'' weight of gold
-  required within three days, chains placed on the necks of innocent persons during Lent, the prisons
-  full of trades-people, palace officials commanded to stand clear. Ambrose''s own letter names the
-  emperor as the one acting on his own power; it is the volume''s own chronology that names Justina as
-  the persecution''s author. Either way, real coercive power moved through her court. Its cost: total
-  public failure - the basilica was never surrendered, and every word of the record that carries her
-  part in it reaches us through the account of the bishop who defeated her. Pulcheria carried authority long
-  enough to help convene the council that closed this world''s window - Leo himself records her command
-  that it be held, and her refusal of his own request that it sit in Italy instead, and answers by sending
-  his legates without protest; he also writes to her congratulating her on a synod already held, not as a
-  courtesy in either case. Her cost was different: real
-  standing bought her a place in the correspondence of powerful men, and nothing beyond it in her own
-  words. Both women held command. Neither holds her own voice.'
+text: >-
+  Could a woman carry real authority among us, and what did it cost her? Yes,
+  twice on the record's own terms, and both times the cost was steep. Justina
+  was the mother of a young emperor and the dominant influence over him; no
+  formal regency is on record. What came down to us names her as the
+  one who turned the machinery of the state against Ambrose when he refused to
+  surrender a basilica. The penalties were real: the city's merchants were
+  ordered to pay two hundred pounds of gold within three days, innocent people
+  were chained during Lent, the prisons filled with tradespeople, and palace
+  officials were commanded to stand clear. Ambrose's own letter names the
+  emperor as the one acting on his own power; it is the volume's own
+  chronology that names Justina as the persecution's author. Either way, real
+  coercive power moved through her court. The cost was total public failure.
+  The basilica was never surrendered, and everything the record says about her
+  part reaches us through the account of the bishop who defeated her.
+  Pulcheria carried authority long enough to help convene the council that
+  closed our era. Leo himself records that she commanded the council
+  to be held. She refused his request to hold it in Italy, and he answered by
+  sending his legates without protest. He also wrote congratulating her on a
+  synod already held, and none of this was mere courtesy. Her cost was
+  different. Real standing bought her a place in the correspondence of
+  powerful men, and nothing beyond it in her own words. Both women held
+  command. Neither left us her own voice.
 positions:
 - real coercive state power moved through Justina's court in this world's own record - fines,
   imprisonment, and the machinery of the palace turned against Ambrose; Ambrose's own letter names the
@@ -103,3 +109,7 @@ command and refusal "in a spirit so far removed from scorn as to"
 comply, thanking God rather than her - restated as "records her
 command... and answers by sending his legates without protest," which
 is what the letter actually supports.
+
+REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

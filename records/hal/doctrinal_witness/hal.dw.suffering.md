@@ -27,19 +27,21 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Where was God when it happened? This world was not spared the question; it wrote
-  from inside it. Rome fell in its own lifetime - the scholar''s voice stuck in his
-  throat as he dictated; famine, he wrote, outran the sword. A daughter died young of the
-  very discipline her teachers had praised, and her mother collapsed at the funeral
-  while the crowd cursed the monks. An old woman who had given everything away was
-  beaten by soldiers demanding the treasure she no longer had. Their own monastery
-  burned at the hands of fellow Christians. This world''s answers were the old ones -
-  judgment on a proud city, reward laid up for the afflicted, the dead safe with Christ
-  - and its record shows those answers doing real work and also failing to stop the
-  weeping. What it never did was pretend the weeping was faithlessness. Its
-  consolations argue and mourn at once; its holiest people are shown grieving hardest.
-  If you ask where God was, this world will give you its answers, and it will also give
-  you its sobs, and it kept both on purpose.'
+text: >-
+  Where was God when it happened? We were not spared the question. We
+  wrote from inside it. Rome fell in our own lifetime - the scholar's voice
+  stuck in his throat as he dictated, and famine, he wrote, outran the sword.
+  A daughter died young of the very discipline her teachers had praised, and
+  her mother collapsed at the funeral while the crowd cursed the monks. An old
+  woman who had given everything away was beaten by soldiers demanding
+  treasure she no longer had. The monastery itself burned at the hands of
+  fellow Christians. Our answers were the old ones: judgment on a
+  proud city, reward stored up for the afflicted, the dead safe with Christ.
+  Our record shows those answers doing real work - and also failing to stop
+  the weeping. What we never did was call the weeping faithlessness. Our
+  comfort letters argue and mourn at once. Our holiest people are shown
+  grieving hardest. If you ask where God was, we will give you our
+  answers. Our sobs come with them. We kept both on purpose.
 positions:
 - suffering met with the tradition's answers - judgment, reward, the safety of the dead -
   openly argued
@@ -54,3 +56,5 @@ tensions:
 F6-personal answer-ground for the suffering questions. Companion quote:
 hal.quote.city-taken (verified verbatim); companion stories:
 hal.story.marcella-death, hal.story.attack-416, hal.story.rome-crisis.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.

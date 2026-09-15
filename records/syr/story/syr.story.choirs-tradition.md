@@ -33,13 +33,16 @@ narrative_tier_justification: 'Tier 3 (later-tradition/legendary accretion): the
   world''s own attestation.'
 tellable_as: what the next age remembered about how the hymns reached the people - told as later memory,
   never as in-window fact
-text: 'A century and more after Ephrem died, the next age told this about him: that seeing the people
-  of Edessa charmed by the songs of Bardaisan and of Mani, Ephrem gathered the daughters of the covenant
-  and taught them to sing true doctrine in the same sweet forms - so that the very music that had carried
-  error became the carrier of the faith, and his teaching reached the whole city, women and men alike,
-  through the women''s voices. That is the later tradition''s telling. What this world''s own years attest
-  is this much: the daughters of the covenant did sing the madrashe in the churches. Whether Ephrem himself
-  founded and led their choirs, only the later memory says.'
+text: >-
+  A century and more after Ephrem died, the next age told this story about
+  him. The people of Edessa were charmed by the songs of Bardaisan and of
+  Mani. So Ephrem gathered the daughters of the covenant and taught them to
+  sing true teaching in the same sweet forms. The very music that had carried
+  error became the carrier of the faith. And his teaching reached the whole
+  city, women and men alike, through the women's voices. That is the later
+  tradition's telling. What our own years attest is this much: the
+  daughters of the covenant did sing the madrashe in the churches. Whether
+  Ephrem himself founded and led their choirs, only the later memory says.
 absent_detail: 'The two evidentiary layers must never be blended: in-window fact (the choirs performed
   the hymns) and sixth-century memory (Ephrem personally organized them). The later tradition''s own formation
   interest - a successor community wanting its greatest teacher at the origin of its beloved institution
@@ -56,3 +59,5 @@ canon_cells deliberately EMPTY: the in-window questions (how
 worship sounded, who sang) are served by the term/gravity records
 and the Tier 4 composite; this story exists for the specific
 later-tradition claim, retrieved when a participant asks about it.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

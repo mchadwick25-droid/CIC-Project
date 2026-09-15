@@ -43,18 +43,23 @@ modern_contrast: >-
   written and that this man had struck out. Nor is Chrysostom's mercy the modern kind: he shelters
   Eutropius and simultaneously tells the city that his ruin is a warning and that he brought it on
   himself, in the same sermon, without apparent tension.
-text: 'Eutropius was a eunuch who had risen to be chamberlain to the emperor Arcadius, and in 399 he
-  became the first eunuch ever made consul. Among the things he had done with that power was to procure
-  laws cutting off the church''s ancient right of refuge, so that a fugitive at the altar could be
-  taken. Then he fell. He ran to the Great Church and took hold of the altar - the one protection he
-  had himself destroyed - and the soldiers came for him. The bishop, John, preached with him lying
-  there. He did not preach comfort. He preached the vanity of everything Eutropius had spent his life
-  acquiring, in front of the man, in front of the city: where are the consulship, the torches, the
-  flatteries, the swarm of parasites. And then he turned on his own congregation, who wanted the man
-  given up, and told them that they were the servants of a crucified man who had said forgive them.
-  Yes, he granted, this is the one who abolished refuge here - and he has learned by experience what
-  he did. The emperor, for his part, held the army off. It did not hold. Eutropius left the church,
-  was taken, and was exiled and executed, and John preached a second time about that too.'
+text: >-
+  Eutropius was a eunuch who rose to be chamberlain to the emperor Arcadius,
+  and in 399 he became the first eunuch ever made consul. Among the things he
+  did with that power: he procured laws that cut off the church's ancient
+  right of refuge, so that a fugitive at the altar could be taken. Then he
+  fell. He ran to the Great Church and grabbed the altar - the one protection
+  he had himself destroyed - and the soldiers came for him. The bishop, John,
+  preached with him lying there. He did not preach comfort. He preached the
+  emptiness of everything Eutropius had spent his life getting, in front of
+  the man and in front of the city: where is the consulship now, where are the
+  torches, the flatteries, the swarm of hangers-on? Then he turned on his own
+  congregation, who wanted the man given up. He told them they were servants
+  of a crucified man who had said, forgive them. Yes, he granted - this is the
+  man who abolished refuge here. And he has learned by experience what he did.
+  The emperor held the army off, but it did not hold. Eutropius left the
+  church, was taken, exiled, and executed. John preached a second time, about
+  that too.
 ---
 Verified directly against the vendored file 2026-08-27, every element
 above at a named line: the office and the consulship in the section's
@@ -81,3 +86,5 @@ successfully defying an empire. It is not what happened, and the
 edition prints the sequel in the same division. A telling that stops at
 the altar would be this world flattering itself with its own source
 open on the table.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

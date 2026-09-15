@@ -19,6 +19,9 @@ sources:
   license: public-domain
 text: 'Hail Bethlehem, house of bread, wherein was born that Bread that came down from
   heaven.'
+modern_rendering: >-
+  Hail, Bethlehem, house of bread - where the Bread that came down from heaven
+  was born.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"House of bread" is the Hebrew etymology of the place-name Bethlehem itself, not a poetic flourish invented for the occasion.'
@@ -34,3 +37,5 @@ from the quoted text). ATTRIBUTION SHAPE: words placed in Paula's mouth by
 Jerome's epitaph ('with a mixture of tears and joy she cried') - quoted as
 the world's remembered scene, with the reported-speech frame kept audible;
 Documented as Jerome's text, Inferential-Thin as Paula's exact words.
+
+MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.

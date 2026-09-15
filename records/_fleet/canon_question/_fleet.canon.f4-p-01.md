@@ -4,8 +4,8 @@ world_id: _fleet
 record_type: canon_question
 schema_version: 2
 cell: F4-P
-text: I can't quiet my own head. Does your way of life have anything for someone like
-  me?
+text: What did your way of life offer someone who struggled to quiet their own
+  mind?
 source:
 - corpus
 canon_status: seed

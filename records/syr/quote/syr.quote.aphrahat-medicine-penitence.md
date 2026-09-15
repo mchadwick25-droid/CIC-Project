@@ -20,6 +20,11 @@ sources:
 text: For all diseases there are medicines, and there will be healing when a skilled physician shall have
   found them. And for those who have been smitten in our conflict there is the medicine of penitence,
   and those who apply it to their wounds are healed.
+modern_rendering: >-
+  For all diseases there are medicines, and there is healing when a skilled
+  physician finds them. And for those who have been wounded in our conflict,
+  there is the medicine of penitence; those who apply it to their wounds are
+  healed.
 speaker_or_author: syr.figure.aphrahat
 license: verbatim
 modern_lens_note: 'The ''medicine of penitence'' is this world''s own established
@@ -35,3 +40,5 @@ retrieval:
   do_not_retrieve_when: []
 ---
 Verified verbatim against the vendored Hallock text (Dem VII.2).
+
+MODERN RENDERING AUTHORED (2026-08-29, syr register pass, second tranche: the live probe on the first syr pin spoke this quote's original and its archaic edge showed - rendered under Mark's standing quote ruling; original stays as text, shown at Level 3).

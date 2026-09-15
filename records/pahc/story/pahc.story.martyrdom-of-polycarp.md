@@ -30,38 +30,34 @@ relations:
   target: pahc.gravity.martyrdom-meaning
 narrative_tier: 3
 narrative_tier_justification: "This world's clearest Tier 3 case. Attributed to a specific figure and moment - Polycarp's arrest and death - and transmitted by the receiving community, framed within its own text as a letter from Smyrna to Philomelium, rather than direct documentation by Polycarp himself or a contemporaneous outside witness. Shaped throughout by recognizable hagiographic and martyrological convention (the theatrically staged arrest and death, the dies natalis framing, the bone-collection scene at ch. 18 explicitly echoing relic-veneration language). The text's own concluding chapters (20-22) are independently regarded as later additions - not smoothed over here."
-tellable_as: "The church at Smyrna remembers its aged bishop Polycarp refusing to curse Christ before the crowd, being burned and then finished with a dagger, and being honored afterward with an annual gathering at the place his bones were kept."
-text: >
-  This is how the tradition remembers Polycarp - what the community
-  that had known him believed a life fully given to this world's
-  formation logic could become, even to its very end. The church at
-  Smyrna tells of Polycarp, an aged bishop, urged by his own community
-  to go into hiding, withdrawing briefly at their urging before being
-  betrayed under torture by someone in his own household. Brought
-  before the proconsul and pressed to swear by Caesar's fortune,
-  curse Christ, and be spared, Polycarp answers: "Eighty and six years
-  have I served Him, and He never did me any injury: how then can I
-  blaspheme my King and my Saviour?"
-
-  The tradition tells us the crowd first cried out that a lion should
-  be loosed on him, but the games were already finished and it was
-  not lawful; so they cried out instead that he should be burned
-  alive. When the fire was lit, it is said to have shaped itself into
-  an arch, "like the sail of a ship when filled with the wind,"
-  encircling him without touching him, so that an executioner was
-  sent to finish him with a dagger - and at this, the account says, so
-  much blood came forth that it quenched the fire itself. The
-  community tells us they gathered his bones afterward, "more
-  precious than the most exquisite jewels, and more purified than
-  gold," to keep in a fitting place, where they might gather together,
-  "as opportunity is allowed us," to celebrate the anniversary of his
-  martyrdom - in memory of those who had already finished the course,
-  and to prepare those still to walk it.
-
-  This is the tradition's own witness to what it believed formation
-  could produce, told in the register the tradition itself uses to
-  honor it - not a transcript of what happened, but a testimony to
-  what it meant.
+tellable_as: >-
+  The church at Smyrna remembers its aged bishop Polycarp refusing to curse
+  Christ before the crowd. He is burned, then finished with a dagger, and
+  honored afterward with a yearly gathering at the place his bones were kept.
+text: >-
+  This is how the tradition remembers Polycarp. It is what the community that
+  had known him believed a life fully given to our formation could
+  become, even at its very end. The church at Smyrna tells of Polycarp, an
+  aged bishop, urged by his own community to go into hiding. He withdrew
+  briefly at their urging, and was then betrayed by someone in his own
+  household, under torture. Brought before the proconsul, he was pressed to
+  swear by Caesar's fortune, curse Christ, and be spared. Polycarp answered:
+  'Eighty and six years have I served Him, and He never did me any injury: how
+  then can I blaspheme my King and my Saviour?' The tradition tells us the
+  crowd first cried out for a lion to be loosed on him. But the games were
+  already finished, and it was not lawful. So they cried out instead that he
+  should be burned alive. When the fire was lit, it is said to have shaped
+  itself into an arch, 'like the sail of a ship when filled with the wind,'
+  encircling him without touching him. An executioner was sent to finish him
+  with a dagger - and at this, the account says, so much blood came out that
+  it quenched the fire itself. The community gathered his bones afterward,
+  'more precious than the most exquisite jewels, and more purified than gold,'
+  to keep in a fitting place. There they would gather, 'as opportunity is
+  allowed us,' to celebrate the anniversary of his martyrdom - in memory of
+  those who had already finished the course, and to prepare those still to
+  walk it. This is the tradition's own witness to what it believed formation
+  could produce, told in the register the tradition itself uses to honor it.
+  It is not a transcript of what happened. It is a testimony to what it meant.
 absent_detail: "No independent, contemporaneous outside account of Polycarp's death survives to check this community's own memory against - this world has no Strand B counterpart of comparable narrative weight, and this inventory does not manufacture one to appear symmetrical."
 modern_contrast: >
   A modern reader often hears the bone-collection and annual gathering
@@ -94,3 +90,5 @@ this vendored edition's own wording - grepped the full stripped ANF
 vol. 1 and found zero occurrences of that phrase anywhere in the
 volume. Corrected to the edition's actual phrase at that point in the
 same sentence, "as opportunity is allowed us."
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

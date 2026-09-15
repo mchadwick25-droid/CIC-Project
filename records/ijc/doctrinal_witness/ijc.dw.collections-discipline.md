@@ -21,19 +21,23 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Did we tithe, and how did we decide what to give? This world had a real giving discipline, preached
-  at least twice in the sermons that survive, tied to an annual day Leo himself calls only "the day of
-  Apostolic institution" - a day, he says, that was purged from wicked superstitions and consecrated
-  instead to deeds of mercy (the edition''s own editors identify it as the octave of SS. Peter and Paul,
-  early July, replacing a pagan festival; that dating is theirs, not a claim Leo himself makes in the
-  text): what we possess is not our own but committed to our stewardship, to be given an
-  account of. The measure was
-  not a fixed tenth stated as law but a proportion each conscience owed: He only who knows what He has
-  given to each discerns aright how much a man can and how much he cannot do. A rich man''s wealth that
-  ransoms no captive, feeds no poor, and shelters no stranger was called poverty dressed as plenty - not
-  a private failing but a public account owed to the Church''s poor. Almsgiving was preached as
-  obligatory, proportional to means, and inseparable from ordinary faithfulness, not as an optional
-  supplement to it.'
+text: >-
+  Did we tithe, and how did we decide what to give? We had a real
+  giving discipline. It was preached at least twice in the sermons that
+  survive, tied to a yearly day Leo calls only 'the day of Apostolic
+  institution.' That day, he says, had been cleansed of wicked superstitions
+  and given instead to deeds of mercy. (The edition's editors identify it as
+  early July, replacing a pagan festival - that dating is theirs, not Leo's
+  own claim.) The teaching behind the giving was this: what we possess is not
+  our own. It is committed to our stewardship, and an account of it will be
+  asked. The measure was not a fixed tenth stated as law. It was a proportion
+  each conscience owed: only God, who knows what he has given to each, can
+  judge how much a person can and cannot do. A rich man's wealth that ransomed
+  no captive, fed no poor, and sheltered no stranger was called poverty
+  dressed up as plenty. That was not treated as a private failing but as a
+  public account owed to the Church's poor. Giving was preached as required,
+  matched to means, and part of ordinary faithfulness - not an optional extra
+  on top of it.
 positions:
 - giving to the poor was preached as a binding discipline, not a counsel of perfection - a rich man
   who withholds it is condemned in the same breath as one who denies the faith outright
@@ -69,3 +73,5 @@ only as "the day of Apostolic institution"; the specific date and its
 link to the Ludi Apollinares are Feltoe's report of the Ballerini's
 scholarship, now attributed as such in text and positions.
 canon_cells: F4-T (did you tithe, how did you decide what to give).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

@@ -1,0 +1,87 @@
+---
+id: don.force.transmission-through-hostile-hands
+world_id: donatism
+record_type: force
+schema_version: 2
+status: draft
+register: emic
+canon_cells: []
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+  divergence_note: >-
+    Documented (Doc_08 Cell 2B, Layer 1; SS7): named as this world's central evidentiary problem throughout
+    Doc_01 and Doc_02 and independently corroborated by the corpus map's own manuscript-tradition finding.
+    This force's own Layer 2 is a genuine, stated absence rather than an inference: this world's record does
+    not show its own actors reflecting on this condition at all - no Donatist chronicle of Arles, no Donatist
+    administrative account of the Macarian repression - and Doc_08 SS7 marks such Layer 2 entries as NOT RECOVERABLE
+    FROM SURVIVING SOURCES rather than assigning them any confidence level, because no inference is offered
+    in their place. The Documented rating here attaches to the transmission pattern as a historical fact,
+    not to any claim about how this world understood it.
+sources:
+- source_id: don.source.optatus-against-the-donatists
+  locus: the eventually-victorious party's own literature, preserved by institutions with every reason to
+    preserve it
+  license: public-domain
+- source_id: don.source.augustine-answer-to-petilian
+  locus: Petilian's words surviving only because Augustine needed them in front of a reader to refute them
+  license: public-domain
+- source_id: don.source.petschenig-scripta-contra-donatistas-csel51-53
+  locus: the critical edition of the anti-Donatist corpus - the manuscript channel itself made visible
+  license: public-domain
+relations:
+- type: precondition-for
+  target: don.force.caecilianist-victory-selects-survivors
+name: Transmission - survival through the hostile party's own manuscript tradition [2B - ongoing/internal]
+kind: ongoing
+matrix_cell: 2B
+description: >-
+  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 2B, Force 2B-2, the transmission dimension required in this cell):
+  nearly all textual material currently vendored for this world passed through Catholic hands - Optatus, Augustine
+  - before reaching this construction, the eventually-victorious party's own literature, preserved by institutions
+  with every reason to preserve it. Documented, and named as this world's central evidentiary problem throughout
+  Doc_01 and Doc_02. LAYER 2 - THE WORLD'S OWN EXPERIENCE: NOT RECOVERABLE FROM SURVIVING SOURCES. This world's
+  record does not show its own actors reflecting on this condition directly - no surviving Donatist chronicle
+  of Arles, no surviving Donatist administrative account of the Macarian repression exists, only the martyr-cult
+  narrative response to it. This is a genuine absence, not a filled silence: whatever this world understood
+  itself to be doing when its own texts were produced, its own understanding of how those texts would or would
+  not survive is not recoverable from what remains. Reported-Experience Status applied. LAYER 3 - FORMATION
+  IMPACT: this transmission pattern is the specific mechanism behind this world's Author Gravity concentration.
+  Petilian's own quoted words survive only because Augustine needed them in front of a reader to refute them
+  - a preservation mechanism selecting for refutability, not fairness. It is what makes the small independently-surviving
+  remainder - Tyconius's Liber Regularum, the martyr texts, the epigraphy - this construction's single most
+  valuable evidentiary category.
+manifestations:
+- Donatist literature surviving almost entirely as quotation embedded inside its own refutations
+- Petilian visible only to the extent his opponent chose to quote him - preservation selecting for refutability,
+  not fairness
+- no Donatist chronicle of Arles and no Donatist administrative account of the Macarian repression at any
+  point
+- the small independently-surviving remainder made disproportionately valuable by exactly this pattern
+---
+Re-derived from the cleared Doc_08 (Cell 2B, Force 2B-2, all three layers; the transmission
+dimension Doc_08 SS9 certifies as explicitly addressed in this cell, and synthesised fully at Doc_08
+SS6). CROSS-CELL CONNECTION (Doc_08 SS4, Connection 8, outgoing): '2B-2 -> 3B-2 - the pattern
+established during the ongoing phase, survival through the hostile party's own quotation and
+refutation, becomes definitive and irreversible once the Caecilianist party's institutional victory
+is complete: the same mechanism operating throughout the window is what locks in, at the ending,
+exactly which small remainder of this world's own voice survives independently of it.' Carried as
+precondition-for don.force.caecilianist-victory-selects-survivors, reciprocal enabled-by declared
+there. Doc_08 SS4's own reading of this connection is that transmission is not a background
+condition running alongside this world's history but a single force operating identically at the
+ongoing and ending phases, determining more than any other force in the matrix what this
+construction can now know. GRAVITY LINKAGE: NONE, and deliberately so. Doc_08's Force Index carries
+an em-dash in this force's Connected Gravities column with the parenthetical 'cross-cutting; Section
+6', and Doc_08 SS8's Proportionality Principle states that this force and 3B-2 are the required
+transmission entries, treated as cross-cutting rather than gravity-specific - 'a distinct but
+equally genuine formation impact, not a lesser one'. No gravity relation is manufactured here to
+fill that column. TRANSMISSION SPECIFICITY (Doc_08 SS6, SS8): the mechanism is named specifically,
+not generically - the Caecilianist/Catholic institutional manuscript tradition, Optatus's own
+textual tradition and Augustine's own corpus, copied and circulated by the institutions that had
+every reason to preserve arguments made in their own favor. Doc_08 SS8 discloses one genuine limit
+on that specificity, which this record keeps rather than smoothing: the mechanism by which
+Tyconius's own condemned work survived as well as it did is NOT resolved, and Doc_02 SS2 explicitly
+states it does not need to be resolved. Canon_cells left empty, matching this world's gravity and
+force records generally.

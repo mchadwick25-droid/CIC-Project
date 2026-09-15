@@ -16,13 +16,16 @@ function toEntry(summary: WorldSummary): WorldEntry | null {
     worldKey: summary.world_key,
     censusId: summary.census_id,
     displayName: summary.display_name ?? summary.world_key,
+    cardName: summary.card_name ?? summary.display_name ?? summary.world_key,
     representativeName: summary.representative.name,
     roleLabel: summary.representative.role_label,
     place: summary.place ?? '',
     eraStart: summary.time_window.start,
     eraEnd: summary.time_window.end,
     thinnessStatement: summary.thinness_statement ?? '',
-    horizon: summary.horizon,
+    // Prefer the registry's plain-English doorway paragraph; fall back to
+    // the model-facing horizon only for an entry that hasn't authored one.
+    doorwayDescription: summary.doorway_description ?? summary.horizon,
     livingTraditionFlag: summary.living_tradition_flag,
     starters: summary.starters,
     portraitImage: assets.portraitImage,

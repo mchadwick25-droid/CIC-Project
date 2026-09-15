@@ -93,7 +93,14 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None
 
     statements = sorted(record.get("register_statements") or [], key=lambda s: s["number"])
     if statements:
-        emit("Register", "\n".join(f"{s['number']}. {s['statement']}" for s in statements))
+        body = "\n".join(f"{s['number']}. {s['statement']}" for s in statements)
+        # register_hold: how the seven hold under load (Mark-approved
+        # wording, 2026-08-28 register & reach pass) - emitted beneath the
+        # numbered statements, never as an eighth statement.
+        hold = (record.get("register_hold") or "").strip()
+        if hold:
+            body = f"{body}\n\n{hold}"
+        emit("Register", body)
 
     world_name = registry_entry.get("display_name") or "this world"
     pronoun_rule = record.get("pronoun_rule")
@@ -101,6 +108,11 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None
         emit("Pronoun rule", pronoun_rule.replace("{world}", world_name))
 
     emit("Citation contract", _fill_citation_example(record.get("citation_contract") or "", records or {}))
+    # Stories and quotes are never screened by the register (Mark's ruling,
+    # 2026-08-28): stories arrive through their own tellable_as retellings;
+    # quotes speak their build-authored modern_rendering where one exists,
+    # originals on the click page.
+    emit("Stories and quotes", record.get("story_quote_reach"))
     emit("Limit discipline", record.get("limit_discipline"))
     return segments
 
@@ -130,6 +142,8 @@ def _demonstration_candidates(records: dict, demo: dict) -> list[dict]:
         return []
     seen: dict[str, dict] = {}
     for record in records.values():
+        if record.get("demo_tag") == "exclude":
+            continue  # authored opt-out - see the note above _MIN_SHARED_WORDS
         if record.get("record_type") in _DEMO_CANDIDATE_TYPES and cells & set(record.get("canon_cells") or []):
             seen[record["id"]] = record
     return list(seen.values())
@@ -206,20 +220,38 @@ def _candidate_head_text(record: dict) -> str:
 # tags rested on exactly two shared words.
 _MIN_SHARED_WORDS = 3
 
+# Records can opt out of demo auto-tagging with `demo_tag: exclude` -
+# added 2026-08-29 (craft cycle 2) when four new honest_limit records,
+# whose statements necessarily speak in framing vocabulary ("we cannot
+# tell you", "plainly"), false-tagged unrelated demo sentences at the
+# shipping floor ("It says plainly that we do not commend those who give
+# themselves up [[pahc.limit.enslaved-voices]]"). Two statistical bars
+# were tried and MEASURED first: shared>=5 killed the false tags but also
+# four short TRUE tags ("No building tied to us survives"); ratio>=0.75
+# killed five true tags. Neither statistic separates a short true limit
+# sentence from a framing coincidence, so the honest mechanism is an
+# authored opt-out on the specific records (the same species of hint as
+# retrieval's own do_not_retrieve_when), leaving every existing fleet tag
+# byte-identical. Lifting the opt-outs is the job of the next full
+# 444-sentence-style tagging study, not another quick bar.
+
 
 def _tag_representative_text(text: str, candidates: list[dict]) -> str:
-    candidate_words = [(record["id"], content_words(_candidate_head_text(record))) for record in candidates]
+    candidate_words = [
+        (record["id"], record.get("record_type"), content_words(_candidate_head_text(record)))
+        for record in candidates
+    ]
     tagged: list[str] = []
     for sentence in quote_aware_sentences(text):
         words = content_words(sentence)
-        best_id, best_ratio, best_shared = None, 0.0, 0
-        for record_id, record_words in candidate_words:
+        best_id, best_type, best_ratio, best_shared = None, None, 0.0, 0
+        for record_id, record_type, record_words in candidate_words:
             if not words or not record_words:
                 continue
             shared = words & record_words
             ratio = len(shared) / min(len(words), len(record_words))
             if ratio > best_ratio:
-                best_ratio, best_id, best_shared = ratio, record_id, len(shared)
+                best_ratio, best_id, best_type, best_shared = ratio, record_id, record_type, len(shared)
         if best_id and best_ratio >= DEMONSTRATION_TAG_FLOOR and best_shared >= _MIN_SHARED_WORDS:
             # BEFORE the terminal punctuation, per the citation contract's own
             # words: "so a sentence-boundary split can never break inside one."
@@ -249,7 +281,12 @@ def _quote_speaker(quote: dict) -> str:
 
 
 def _quote_opening(quote: dict, width: int = 60) -> str:
-    text = " ".join((quote.get("text") or "").split())
+    # The opening words shown are the SPEAKABLE form - the build-authored
+    # modern_rendering where one exists (Mark's ruling, 2026-08-28:
+    # archaic quotes are translated in the build, originals on the click
+    # page), the original text otherwise - so the index matches what the
+    # voice would actually say at the table.
+    text = " ".join((quote.get("modern_rendering") or quote.get("text") or "").split())
     return f'"{text}"' if len(text) <= width else f'"{text[:width].rstrip()}..."'
 
 
@@ -642,6 +679,11 @@ def build_quotes_json(records: dict) -> bytes:
         {
             "id": q["id"],
             "text": q.get("text"),
+            # Build-authored translation for archaic originals (Mark's
+            # ruling, 2026-08-28): the spoken form; text above stays the
+            # original for the click page. Absent when the original's
+            # English is already plain.
+            "modern_rendering": q.get("modern_rendering"),
             "speaker_or_author": q.get("speaker_or_author"),
             "license": q.get("license"),
             "canon_cells": q.get("canon_cells") or [],
@@ -666,10 +708,41 @@ def build_figures_json(records: dict) -> bytes:
     return canonical_json({"figures": figures})
 
 
+# BUILD PROVENANCE NEVER SHIPS (Mark's ruling, 2026-08-30: "all world
+# build and active files ... need to be clean for exactly what they exist
+# to do"). The record STORE is the workshop - bodies, search records, and
+# reviewer-facing fields are its mandated audit trail and stay untouched.
+# The compiled PACKAGE is the instrument, and two kinds of build residue
+# were shipping in it, measured fleet-wide before this change (~250
+# instances):
+#
+# - search_record rows: provenance instruments documenting how a source
+#   hunt ran ("the sandbox blocks patristic hosts", review-pass names).
+#   Nothing at runtime reads them - but the full-text retrieval fallback
+#   (engine.m4.evidence._fulltext_fallback_candidates) has no record-type
+#   filter and walks every record's strings, so a participant question
+#   sharing a word with a search note could surface one as evidence.
+#   Excluded from the package entirely.
+# - why_sources_cannot_answer / modern_lens_note / discovery_channel /
+#   narrative_tier_justification: reviewer- and author-facing prose on
+#   honest_limit, quote, source, and story records (admission-run
+#   citations, authoring cautions, how-this-was-found notes, tier
+#   justifications). The operative content of each record lives in its
+#   other fields; none of these four has a runtime consumer (verified by
+#   grep outside gates/schemas; the fallback already excluded
+#   modern_lens_note by name) and all are stripped at compile.
+#
+# M1 gates still validate everything on the records themselves - this
+# changes what ships, never what is authored or checked.
+_PACKAGE_EXCLUDED_RECORD_TYPES = {"search_record"}
+_PACKAGE_STRIPPED_FIELDS = {"why_sources_cannot_answer", "modern_lens_note", "discovery_channel", "narrative_tier_justification"}
+
+
 def build_repository_json(records: dict) -> bytes:
     entries = [
-        {k: v for k, v in record.items() if not k.startswith("_")}
+        {k: v for k, v in record.items() if not k.startswith("_") and k not in _PACKAGE_STRIPPED_FIELDS}
         for record in sorted(records.values(), key=lambda r: r["id"])
+        if record.get("record_type") not in _PACKAGE_EXCLUDED_RECORD_TYPES
     ]
     return canonical_json({"records": entries})
 

@@ -32,22 +32,25 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'How did this world know its practices went back to the apostles? It asked exactly that question
-  about itself, constantly, because "ancient custom" was its strongest currency. Nicaea legislates by
-  it: let the ancient customs prevail. Julius claims Rome''s standing by it: the custom has been for
-  word to be written first to us. Damasus built pilgrim-roads of verse to make the see''s apostolic
-  memory visible. But the record also lets us watch a custom being born and admits it: the eyewitness
-  in the 386 basilica siege dates a new practice at Milan precisely - hymn-singing "after the manner
-  of the Eastern Church," not Milan''s own before that night, kept "from then till now" and imitated,
-  as he says to God, by many, almost all, of Thy congregations throughout the rest of the world
-  afterward. He claims Milan''s own beginning and a wide later imitation, not the first Latin hymn ever
-  written - Hilary of Poitiers had already tried, a generation earlier, and our own sources say he never
-  succeeded in bringing hymns into public worship; that success, the same sources say, belongs to
-  Ambrose. Which sharpens the claim rather than denying it: a real, named beginning, not the absence of
-  any earlier attempt. So the
-  honest answer this world''s own record gives: some of its practices genuinely descend from before
-  anyone could remember otherwise; some were new and known to be new; and the claim of apostolic age
-  was itself an instrument, wielded hardest exactly where it was most contested.'
+text: >-
+  How did we know our practices went back to the apostles? We asked
+  that exact question about ourselves, constantly, because 'ancient custom' was
+  our strongest currency. Nicaea makes law with it: let the ancient customs
+  prevail. Julius claims Rome's standing with it: the custom has been for word
+  to be written first to us. Damasus built pilgrim roads of verse to make his
+  see's apostolic memory visible. But the record also lets us watch a custom
+  being born - and admits it. The eyewitness of the 386 basilica siege dates a
+  new practice at Milan precisely: hymn-singing 'after the manner of the
+  Eastern Church,' which was not Milan's own before that night. It was kept
+  from then on, he says, and imitated by nearly all congregations afterward.
+  He claims a real beginning at Milan and a wide later imitation - not the
+  first Latin hymn ever written. Hilary of Poitiers had already tried, a
+  generation earlier, and our sources say he never got hymns into public
+  worship; that success belongs to Ambrose. So the honest answer our
+  own record gives is this. Some of our practices genuinely came down from
+  before anyone could remember otherwise. Some were new, and known to be new.
+  And the claim of apostolic age was itself a tool, used hardest exactly where
+  it was most contested.
 positions:
 - appeal to ancient custom is this world's documented mode of validating practice and office
 - the record preserves at least one practice's honest local birth-date (Milan's own hymn-singing, 386) -
@@ -77,3 +80,5 @@ opposite - Hilary wrote hymns but never succeeded in bringing them into
 public worship, an honor the same source credits to Ambrose. Reworded
 to what the source actually supports, which corroborates rather than
 complicates Augustine's claim.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

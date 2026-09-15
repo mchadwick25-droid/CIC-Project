@@ -1,5 +1,11 @@
 # Launch prompt — Record-Native World Build (V1, 2026-08-01)
 
+**SUPERSEDED by V2 (2026-08-30):** use
+`CiC_New_World_Build_Record_Native_Launch_V2_2026-08-30.md` — it carries
+this document's model routing and lean-validation policies forward and
+adds the real-decision gates, the Source Acquisition Manifest, and the
+launch-phase birth conditions. This file stays for history.
+
 Paste this into a fresh Fable thread when credits are available for a full
 world build. Fill in the one blank below. Everything else is automated:
 the thread runs the whole build with agents and quality loops, and stops
@@ -19,7 +25,7 @@ only at the three checkpoints the process reserves for Mark.
 Build the named world end-to-end — Step-0 confirmation through a drafted
 freeze declaration — **born record-native**, under:
 
-`Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_0.md`
+`Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md`
 
 Read that document IN FULL first. It sequences everything: Phase A
 (Doc_01→Doc_10 under the one-document-at-a-time cycle), Phase B (records

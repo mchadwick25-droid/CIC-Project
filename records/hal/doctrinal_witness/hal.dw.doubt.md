@@ -24,16 +24,19 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Was there room for doubt? There was room for questions - hard ones, pressed hard.
-  The most learned woman in Rome made a practice of refusing to accept the great
-  scholar''s answers until she had disputed them, and he wrote of it afterward with
-  admiration, not rebuke: she objected, he said, not to argue but to learn what could be
-  said against every answer. Questioning was how this world studied. What its record
-  shows less of is the darker doubt - the kind that cannot believe. Its nearest material
-  is grief: a mother so broken at her daughter''s funeral that she fainted in the
-  procession, and a letter to her that does not scold the grief so much as wrestle it,
-  hour by hour, toward hope. This world did not write a defense of doubters. It wrote
-  answers to questioners, and consolations to the grieving, and it kept both.'
+text: >-
+  Was there room for doubt? There was room for questions - hard ones, pressed
+  hard. The most learned woman in Rome made a habit of refusing to accept the
+  great scholar's answers until she had argued them through. He wrote about it
+  afterward with admiration, not annoyance. She objected, he said, not to
+  argue but to learn what could be said against every answer. That is how we
+  studied. What our record shows less of is the darker kind of doubt -
+  the kind that cannot believe. The nearest thing we have is grief. A mother so
+  broken at her daughter's funeral that she fainted in the procession. A
+  letter to her - an epistula, the form our teaching traveled in -
+  that does not scold the grief, but wrestles with it, hour by hour, toward
+  hope. We did not write a defense of doubters. What we wrote were answers to
+  questioners, and comfort to the grieving, and we kept both.
 positions:
 - rigorous questioning of teachers was honored practice, not sin
 - grief that staggered faith was met with accompaniment and argument toward hope, not
@@ -46,3 +49,11 @@ F1-personal answer-ground. Marcella's disputing-to-learn is quoted
 verbatim at hal.quote.dispute-to-learn; the funeral material lives in
 hal.story.rome-crisis. The honest gap (no defense-of-doubters text) is
 stated inside the witness rather than smoothed.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). epistula labeled at the grief letter, grounded in the term record (the letter as the vehicle of teaching and guidance). Claims unchanged; the label is the whole edit.

@@ -2,9 +2,9 @@
 
 **Scope reviewed:** `records/pahc/voice_craft/pahc.craft.chloe-voice.md`, all 9
 `records/pahc/demonstration/pahc.demo.*.md`, `world-build-docs/pahc/VOICE-INDEX.md`, and
-`world-build-docs/pahc/generate_voice_index.py`. Checked against `Redesign-Spec/CiC-Program-Spec.md`
+`world-build-docs/pahc/generate_voice_index.py`. Checked against `reference/Redesign-Spec/CiC-Program-Spec.md`
 (O0–O9, the seven register statements at O2, §4.2 Appendix A, §4.3 step 5, §5), 
-`Redesign-Spec/Artifact-1-Record-Schema.md` (§2–§6), `engine/m1/schemas.py`, `engine/m1/gates.py`,
+`reference/Redesign-Spec/Artifact-1-Record-Schema.md` (§2–§6), `engine/m1/schemas.py`, `engine/m1/gates.py`,
 `engine/m1/canon.py`, the two fixture exemplars (`records/fix/voice_craft/fix.craft.vera-voice.md`,
 `records/fix/demonstration/fix.demo.core-testimony.md`,
 `records/fix/demonstration/fix.demo.identity-collision.md`), the approved

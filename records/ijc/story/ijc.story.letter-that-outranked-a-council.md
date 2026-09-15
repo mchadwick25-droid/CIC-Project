@@ -35,16 +35,21 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): a named
   original wording and is stated in the telling; the letter''s existence and core content are Documented.'
 tellable_as: Julius's letter of 341 - Rome's primacy claim in its earliest surviving voice, preserved
   by the man it helped
-text: 'Long before Damasus built in stone, before Leo wrote his Tome, the claim had already been made
-  once, in a letter. A council in the East had condemned and deposed Athanasius of Alexandria. Julius,
-  bishop of Rome, was expected to receive the decision - and instead wrote back questioning the council''s
-  right to have settled the matter without Rome''s own hearing of it. Are you ignorant, he wrote, that
-  the custom has been for word to be written first to us, and then for a just decision to be passed from
-  this place? He had not attended their council. He wrote as though his absence were their defect. And
-  the letter survives only because Athanasius himself, defending his own restored standing years later,
-  quoted it at length - this world''s own earliest surviving instance of the claim (Rome had asserted
-  standing before this, outside this world''s own window - Victor c.190, Stephen 256), preserved not by
-  Rome''s own hand but by the man it had helped.'
+text: >-
+  Long before Damasus built in stone, and before Leo wrote his Tome, the claim
+  had already been made once - in a letter. A council in the East had
+  condemned and deposed Athanasius of Alexandria. Julius, bishop of Rome, was
+  expected to accept the decision. Instead he wrote back questioning the
+  council's right to settle the matter without Rome hearing it first. Are you
+  ignorant, he wrote, that the custom has been for word to be written first to
+  us, and then for a just decision to be passed from this place? He had not
+  attended their council. He wrote as though his absence were their defect.
+  And the letter survives only because Athanasius himself quoted it at length,
+  years later, while defending his own restored standing. It is our
+  earliest surviving example of the claim. (Rome had asserted its standing
+  before this - Victor around 190, Stephen in 256 - but outside our
+  own years.) It was preserved not by Rome's own hand, but by the man Rome had
+  helped.
 absent_detail: The Eusebian party's own letter to Julius (the anti-Nicene faction named for Eusebius of
   Nicomedia, not Eusebius of Caesarea the historian) - the one he was answering - does not survive
   independently; their side of the argument reaches the record only through their opponents. And whether
@@ -63,3 +68,5 @@ Rebuilt from the reviewed legacy Doc_09 story 5
 (ijc.quote.julius-custom). The narrow Athanasius license (legacy
 Registry rows 4/24) holds: this story is about the letter, never a
 door into the Athanasian corpus.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

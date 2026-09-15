@@ -21,6 +21,16 @@ sources:
   license: public-domain
 text: >-
   The brethren said, “Whence canst thou prove to us that this is so?” The old man said: “From the words of our Lord in the Gospel. For he said, ‘The sower went forth to sow. And some [seeds] fell on the roadside, and others fell on the rock, and others among thorns’ (St. Matthew 13:3 ff.) Now these three [kinds of] seed are those who are in the world. And as concerning the other seed of which He spake, saying that it fell on good ground, and gave fruit, some thirtyfold, and some sixtyfold, and some a hundredfold, these are the grades of monks, for the seed which yielded fruit thirtyfold is the beginners, and that which yielded sixtyfold is the half-perfect, and that which yielded one hundredfold is the perfect.”
+modern_rendering: >-
+  The brothers said, 'How can you prove to us that this is so?' The old man
+  said: 'From the words of our Lord in the Gospel. For he said: The sower went
+  out to sow. Some seeds fell on the roadside, others fell on the rock, and
+  others among thorns. Now these three kinds of seed are those who are in the
+  world. And as for the other seed, which he said fell on good ground and gave
+  fruit - some thirtyfold, some sixtyfold, some a hundredfold - these are the
+  grades of monks. The seed that yielded thirtyfold is the beginners; the seed
+  that yielded sixtyfold is the half-perfect; and the seed that yielded a
+  hundredfold is the perfect.'
 speaker_or_author: an unnamed old man, answering the brethren (Paradise of the Fathers, saying 610)
 license: verbatim
 modern_lens_note: >-
@@ -44,3 +54,5 @@ vendored earlier the same day. That locus is corrected in the same change.
 The limit itself still stands and is not withdrawn: it makes the narrower claim that the record cannot
 show engagement with DIFFICULT or TROUBLING passages as such, and this saying is not that. It is the
 ordinary case - a text appealed to as proof and read allegorically - which is what F2-T asks for.
+
+MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.

@@ -19,6 +19,7 @@ work: '''The Cathedral Complex at Nisibis'', Anatolian Studies 63 (2013) - the e
   sieges; the five-aisled cathedral plan is Kayaalp''s own reconstruction from partial remains, NOT a
   confirmed excavated structure'
 edition: consultation-only; no edition vendored
+kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: 'verified (legacy Doc_02 SS6, with the Round 2 walk-back of the ''genuine dated cathedral''
   overclaim applied: only the baptistery is cited without qualification)'

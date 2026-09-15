@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Epistula 108, to Eustochium (404): Epitaphium Sanctae Paulae - the obituary-epitaph for Paula, and the single richest source for her biography, the 385-386 journey to the Holy Land and Egypt, the Bethlehem foundations (monasteries and pilgrim hospice), and the women's community's discipline"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id v.CVIII"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior HAL build Doc_02 (Approved to proceed); located in the vendored corpus; rights read from the file's own DC.Rights header"

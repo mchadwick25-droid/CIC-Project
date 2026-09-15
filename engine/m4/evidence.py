@@ -36,7 +36,6 @@ beyond-the-seed expansion this module performs, and it is exactly the
 gravity/contested_claim anti-conflation case the design cares most about
 - the door-line bug's own systemic fix.
 """
-import math
 import re
 
 from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
@@ -207,7 +206,11 @@ def _head_text(record: dict) -> str:
     if record_type == "story":
         return record.get("tellable_as") or record.get("text") or ""
     if record_type in ("quote",):
-        return record.get("text") or ""
+        # The speakable form: the build-authored modern_rendering where one
+        # exists (Mark's ruling, 2026-08-28 - archaic quotes are translated
+        # in the build, never improvised live), the original otherwise. The
+        # original stays reachable to the net via all_text either way.
+        return record.get("modern_rendering") or record.get("text") or ""
     if record_type == "doctrinal_witness":
         return record.get("text") or "; ".join(record.get("positions") or [])
     if record_type == "honest_limit":
@@ -570,7 +573,68 @@ def _add_entity_cell(matches, query_words, repository_records, canon_words):
     return matches
 
 
-def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000) -> list[dict]:
+def _source_key(record: dict) -> str:
+    """The source family a record's material comes from - the first
+    registered source_id, else the quote's own speaker/author, else the
+    record's own id (so a sourceless record is its own family and can
+    never crowd anything out)."""
+    for entry in record.get("sources") or []:
+        if entry.get("source_id"):
+            return entry["source_id"]
+    raw = (record.get("speaker_or_author") or "").strip()
+    return raw or record.get("id", "")
+
+
+def _diverse_take(
+    scored: list[tuple[str, float]],
+    repository_records: dict[str, dict],
+    floor: int,
+    session_used_keys: set[str] | None = None,
+) -> list[tuple[str, float]]:
+    """Breadth-first by source family, best-first within (Mark's ruling,
+    2026-08-29: 'i want the drawing from other sources to be a system
+    funtion not a forced thing for one question'). The measured failure
+    this replaces: a divinity question's quote slots both filled from
+    Ignatius because his material out-scores everything, while Pliny's
+    and Justin's witness sat in the same cell unseen - the voice can only
+    draw breadth it is shown. Same slot count, same floors, same
+    guaranteed-reachability semantics as scored[:floor]; only the
+    COMPOSITION changes, and only when the cell actually holds more than
+    one source family.
+
+    `session_used_keys` is the second half of the same ruling (Mark, same
+    day: 'the priority of a reference name is downgraded when they are
+    used already... not that they are banned, but the system looks to
+    others first'): source families this voice has already drawn on THIS
+    SESSION are considered last, never excluded. Deterministic passes, in
+    order: (1) best of each family that is new both this turn and this
+    session; (2) best of each family new this turn (session-used families
+    return here); (3) fill remaining slots by pure score order."""
+    used = session_used_keys or set()
+    take: list[tuple[str, float]] = []
+    covered: set[str] = set()
+
+    def _key(rid: str) -> str:
+        return _source_key(repository_records.get(rid) or {"id": rid})
+
+    for pass_ok in (
+        lambda k: k not in covered and k not in used,
+        lambda k: k not in covered,
+        lambda k: True,
+    ):
+        for rid, score in scored:
+            if len(take) >= floor:
+                return take
+            if any(rid == r for r, _ in take):
+                continue
+            key = _key(rid)
+            if pass_ok(key):
+                covered.add(key)
+                take.append((rid, score))
+    return take
+
+
+def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000, already_told_ids: set[str] | list[str] | None = None) -> list[dict]:
     """Stage B (design §3.2): cell -> candidates -> rank. coverage_entry is
     compiled/coverage.json's own entry for this cell - the seed pool every
     candidate here is drawn from (see module docstring's named
@@ -612,7 +676,12 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
                 continue
             scored.append((rid, overlap_coefficient(query_words, record)))
         scored.sort(key=lambda t: (-t[1], t[0]))
-        for rid, score in scored[:floor]:
+        used_keys = {
+            _source_key(repository_records[rid])
+            for rid in (already_told_ids or ())
+            if rid in repository_records
+        }
+        for rid, score in _diverse_take(scored, repository_records, floor, used_keys):
             if used_chars >= budget_chars:
                 break
             entry = _entry(rid, record_type, score)
@@ -761,13 +830,27 @@ def assemble_evidence(
     already_told_ids: set[str] | list[str] | None = None,
     top_n_cells: int = 2,
     history: list[dict] | None = None,
+    figures_already_named: list[str] | None = None,
 ) -> dict:
     """The full pipeline, Stages A -> E, deterministic, no model call.
     Returns {"cells": [...Stage A...], "candidates": [...B+C+E...],
-    "thin_ground": [...D...]} - the structured form; render_evidence_block
-    turns this into the §3.3 prose block. Kept separate so callers that
-    need the structure (tests, future SSE per-sentence citation anchors)
-    never have to re-parse rendered text."""
+    "thin_ground": [...D...], "figures_already_named": [...]} - the
+    structured form; render_evidence_block turns this into the §3.3 prose
+    block. Kept separate so callers that need the structure (tests, future
+    SSE per-sentence citation anchors) never have to re-parse rendered
+    text.
+
+    figures_already_named: display names (not record ids) of figures this
+    session's own prior turns already introduced - resolved by the caller
+    from the same already_bridged_figure_ids set the UI's first-occurrence
+    mark grammar already threads (engine.m4.turn.run_turn's docstring on
+    that param). Mark's pilot read (2026-08-30): both Chloe turns opened
+    "One of us, Ignatius" - the session knew he was introduced, but that
+    knowledge only ever suppressed the second underline; the voice itself
+    was never told, and its own record text carries the introduction
+    formula, so it reintroduced him. Same design as Stage E's
+    already-told annotation: session state made visible, the voice finds
+    its own words - never a forced saying."""
     cell_matches = match_asks_to_cells(
         message=message, asks=asks, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n_cells
     )
@@ -786,7 +869,8 @@ def assemble_evidence(
     for match in cell_matches:
         coverage_entry = coverage.get(match["cell"]) or {}
         for candidate in select_cell_candidates(
-            cell=match["cell"], coverage_entry=coverage_entry, repository_records=repository_records, message=message, asks=asks
+            cell=match["cell"], coverage_entry=coverage_entry, repository_records=repository_records, message=message, asks=asks,
+            already_told_ids=already_told_ids,
         ):
             if candidate["id"] in seen_ids:
                 continue
@@ -839,7 +923,12 @@ def assemble_evidence(
     selected = apply_session_exclusion(selected=selected, already_told_ids=already_told_ids)
     thin_ground = thin_topic_riders(message=message, asks=asks, selected=selected, thin_topics=thin_topics)
 
-    return {"cells": cell_matches, "candidates": selected, "thin_ground": thin_ground}
+    return {
+        "cells": cell_matches,
+        "candidates": selected,
+        "thin_ground": thin_ground,
+        "figures_already_named": list(figures_already_named or []),
+    }
 
 
 def render_evidence_block(evidence: dict) -> str:
@@ -885,6 +974,15 @@ def render_evidence_block(evidence: dict) -> str:
         "## the conversation above. Never tell a participant we already gave them",
         "## something first read here.",
     ]
+    named = evidence.get("figures_already_named") or []
+    if named:
+        lines += [
+            f"## Already introduced: {', '.join(named)}. The participant met these names in",
+            "## an earlier answer. Ground text that presents them afresh is written",
+            "## for a first mention; this turn is not one - carry them as someone",
+            "## already known (the shape of 'Ignatius also said...'), never",
+            "## re-introduced as if new.",
+        ]
     for candidate in evidence["candidates"]:
         head = (candidate["head"] or "").strip().split(". ")[0].rstrip(".")
         descriptors = [candidate["record_type"]]

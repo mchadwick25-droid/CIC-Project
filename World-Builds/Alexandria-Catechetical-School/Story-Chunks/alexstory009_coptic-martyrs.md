@@ -5,7 +5,7 @@ Story-Title:          The Coptic Martyrs — The Era of the Martyrs
 World-Code:            alex
 Tier:                  3
 Confidence:            Documented (the persecution as event) / Contested (the specific martyr acts)
-Source:                The Coptic martyrological tradition; the Diocletianic persecution (303–311 CE; the Anno Martyrum reckoned from Diocletian's 284 accession)
+Source:                The Coptic martyrological tradition; the Diocletianic persecution (303–311 CE; the Anno Martyrum reckoned from Diocletian's 284 accession); Eusebius, Historia Ecclesiastica VIII.9 ("Those in Thebais," added 2026-09-08 for the Documented persecution-in-Egypt claim specifically — see Tier Justification)
 Retrieve-When:         participant asks about martyrdom as this world's own formation mode reaching every stratum of the community, not only the learned; participant asks about T4 (Martyrdom vs. Contemplative-Ascent) from the martyr's own pole.
 Do-Not-Retrieve-When:  participant presses for the martyr's own felt interior experience — that remains Inferential-Thin and is a named absence (Doc_09 §3), not supplied by this or any story; participant wants specific named martyrs' acts narrated as secure historical particulars — the persecution is documented, the specific acts are hagiographic.
 ```
@@ -26,7 +26,7 @@ This story illustrates T4 (Martyrdom vs. Contemplative-Ascent), and Doc_04 §3.6
 
 ## Tier Justification
 
-The persecution itself is a documented historical event, independently attested well beyond this world's own sources, with a severity and scope not seriously disputed. The *specific martyr acts* — named individuals, particular circumstances of their deaths, specific miracles or dialogues attributed to them — belong to the hagiographic martyrological tradition and carry the same genre conventions as other hagiography in this inventory: real evidence of what the community believed faithful witness looked like, not historical reporting of individual events. This event-versus-acts split mirrors the same discipline applied at alexstory003.
+The persecution itself is a documented historical event, independently attested well beyond this world's own sources, with a severity and scope not seriously disputed. No Coptic martyrology or "Anno Martyrum" text is itself vendored in this corpus (this Source line correctly names a tradition, not a citable work — no finding against it), but the Documented half of this story's confidence can be anchored to a concrete vendored locus rather than resting only on general attestation: Eusebius, *Historia Ecclesiastica* VIII.9, "Those in Thebais" (`npnf201`), directly attests the Egyptian persecution specifically. The *specific martyr acts* — named individuals, particular circumstances of their deaths, specific miracles or dialogues attributed to them — belong to the hagiographic martyrological tradition and carry the same genre conventions as other hagiography in this inventory: real evidence of what the community believed faithful witness looked like, not historical reporting of individual events. This event-versus-acts split mirrors the same discipline applied at alexstory003.
 
 ---
 

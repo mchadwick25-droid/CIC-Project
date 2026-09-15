@@ -20,6 +20,10 @@ sources:
   license: public-domain
 text: 'Consequently after my departure from Rome, in case of a dispute arising as to the
   testimony of scripture on any subject, recourse was had to her to settle it.'
+modern_rendering: >-
+  So after I left Rome, this is what happened. Whenever people disagreed
+  about what scripture said, they went to her. She was the one who settled
+  it.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Recourse was had to her to settle it" is an archaic passive construction meaning simply that people went to her - not a technical or institutional adjudication procedure.'
@@ -41,3 +45,5 @@ same passage that attests her authority also records the deference-form
 in which she exercised it (whether her own prudence, the age's constraint,
 or Jerome's framing - not resolvable). Serves F6-P (woman-authority
 identity-collision) and F3-I (who held authority).
+
+MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.

@@ -2,24 +2,9 @@
 ## World #7: Syriac Christianity (Edessa/Nisibis), c. 200–410 CE
 
 **Branch:** CiC-Phase1-CleanBuild-Syriac
-**Status:** Approved to proceed by project lead (Mark), 2026-07-08, in chat — Revision Round 2 (substantial). A second independent adversarial review confirmed all Round 2 fixes (C2's narrowed evidentiary basis, the Section 1 additions, C4's honest Formation-test Fail, and the Interaction Matrix's C2×C4 upgrade) landed correctly, verified the Jacob-of-Serugh/Vita-Ephraemi 6th-century dating underlying C2's narrowing, and found no new issues in C1/C3/C5/C6. See Revision Log.
+**Status:** Approved to proceed by project lead (Mark), 2026-07-08, in chat.
 **Governed by:** Construction Framework V7.4_DRAFT, Part III, Step 4; Forces Framework V1.1, Step 4; Constitution Articles 21 and 22; Doc_01, Doc_02, Doc_03 (all approved to proceed by the project lead, 2026-07-08)
 **Companion document:** Gravity_Index.xlsx (built in the same pass)
-
----
-
-## Revision Log
-
-**Round 1 → Round 2 (substantial revision, per independent adversarial review):** The review found no fabricated or overstated new historical claims, found the Interaction Matrix and companion spreadsheet structurally sound, and found Article 21 cross-strand handling consistent with Doc_01. It also raised one apparent traceability problem (Doc_02 appearing truncated mid-Section 11 when read via one tool) — independently re-verified directly against Doc_02's actual saved content, which confirmed Section 11 and Section 12 are both complete and exactly match what Doc_04 cites; that finding was a tool-read artifact, not a real gap, and required no fix. Two substantive issues did require revision:
-
-- **C2's Primary classification improperly let a Contested/Inferential-Thin sub-claim ride along under the compound candidate's overall strength**, rather than being excluded from the classification decision as the Confidence/Gravity Cross-Check requires. Fixed by narrowing C2 to the evidentiary core that is uniformly Documented/Widely Accepted (Aphrahat's Demonstration 6 institutional attestation; Iḥidaya's direct dual-attestation in both authors' own surviving text) and removing the Ephrem-personal-choir-leadership claim from C2's own evidentiary basis entirely — not merely re-flagging it. On closer inspection this claim's own primary attestation (Jacob of Serugh's panegyric; the *Vita Ephraemi*) is 6th-century, outside this world's own 200–410 boundary (Doc_01, Section 2) — meaning it was never properly in-scope material for a Doc_04 gravity candidate in the first place, and belongs instead to later reception-history (relevant to Doc_09, Story Repository), not to this world's own attested organizing gravities. It is now recorded in Section 1 (Considered and Not Advanced) with this reasoning, rather than silently folded into C2.
-- **Section 1's "Considered and Not Advanced" list had a silent gap**, per the review: Ephrem's own attested clerical office (deacon) was used throughout the document as a comparandum (especially within C4) without ever being named as a candidate considered and explicitly declined. Fixed by adding it to Section 1, along with the Doctrina Addai/Chronicle of Edessa "civic-foundational memory" candidate, both with stated reasons.
-- **C4's Formation test result was softened to a "weak pass"** where an honest self-assessment is a **fail**, carried forward rather than smoothed into a nominal pass. Fixed — this does not change C4's Tensional classification, which does not depend on a clean Formation pass.
-- **The Interaction Matrix's C2×C4 cell** was reassessed and upgraded from "no demonstrated relationship" to "Reshaping," per a real, evidence-grounded connection the review prompted a closer look at: the qyama order's own charismatic/ascetic leadership is itself one of the two authority-legitimation pathways at stake in C4's own ambiguity. The **C2×C6 cell** remains "no demonstrated relationship," now with the honest reasoning made explicit (Doc_02's persecution/martyrological record centers on the episcopal hierarchy specifically; no evidence was located of qyama members being targeted as a distinct group) rather than left as a bare default.
-
-The companion Gravity_Index.xlsx was rebuilt to reflect all of the above — C2's row, the Cross-Check Flags sheet (now flagging only C4), and the Interaction Matrix.
-
-**Round 2 second-pass review:** A second independent adversarial review verified each of the four fixes above landed correctly and without overcorrection, independently confirmed the underlying dating claim (Jacob of Serugh, c. 451/2–521 CE; the Syriac *Vita Ephraemi*, standard 6th-century scholarly consensus) that justifies excluding the Ephrem-choir claim from C2, and found no issues introduced into C1, C3, C5, or C6 by the revision. This revision round cleared independent adversarial review with no further substantial revision called for; Doc_04's current status is Approved to proceed by the project lead, 2026-07-08 (see Status line above).
 
 ---
 

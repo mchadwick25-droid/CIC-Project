@@ -7,6 +7,7 @@ status: draft
 register: emic
 canon_cells:
 - F4-I
+- C-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -41,7 +42,7 @@ relations:
   target: syr.term.qyama
 - type: associated-with
   target: syr.term.tahwyata
-plain_meaning: 'The Single One. One word does double duty in this world. It names the vowed celibate -
+plain_meaning: 'The Single One. One word does double duty among us. It names the vowed celibate -
   single-minded, undivided for God - and it is also the Syriac title of Christ as the Only-Begotten. The
   two senses share one root: to live single is to be joined, by your own name, to Christ''s own oneness.'
 world_word: ihidaya (pl. ihidaye)
@@ -59,7 +60,7 @@ senses:
     the undividedness of the Only-Begotten - vocation as likeness.
   translational: '''Solitary'' misleads: the ihidaye lived among the congregation, not in isolation; the
     singleness is of heart and allegiance, not of address.'
-quick_meaning: 'The Single One: this world''s word for the vowed celibate - and, at the same time, its
+quick_meaning: 'The Single One: our word for the vowed celibate - and, at the same time, our
   title for Christ the Only-Begotten.'
 distortion_risk: medium
 ---
@@ -69,3 +70,9 @@ ascetic/christological double sense is this term's particular
 contribution. NPNF's 'Of Monks' title for Demonstration VI is the
 translator's convention; the record never uses 'monk' as this world's
 own category.
+
+CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
+and the five world read"; V1.2 birth condition applied to the existing
+fleet - one story and one term per center cell where they genuinely
+belong, honest empties recorded). Added to C-I: "Who was Jesus, to you and your people?" - the Ihidaya is this world's own title for Christ as the Only-Begotten, the word that binds its answer to its way of life. Content unchanged; the added
+cell and this note are the whole edit.

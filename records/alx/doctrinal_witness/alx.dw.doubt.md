@@ -27,15 +27,21 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Was there room for doubt? This world''s teachers built their whole method on questions. Clement
-  insists that faith is the foundation and not the ceiling: the believer is meant to grow from faith into
-  understanding, and growth means asking. Origen''s rule was blunter still: what the apostles delivered
-  plainly is fixed; everything else is open ground, and walking that ground - asking, testing, being wrong,
-  correcting - is the soul''s actual formation. Doubt aimed at understanding was not treated as sin but
-  as hunger. What the world did not have is the modern private crisis-of-faith vocabulary; its doubters
-  stood inside a praying community, questioned inside the rule of faith, and were expected to bring the
-  question to a teacher rather than carry it alone. When whole congregations doubted the received reading
-  - the Arsinoite villages - the bishop''s answer was three days of open argument, not anathema.'
+text: >-
+  Was there room for doubt? Our teachers built their whole method on
+  questions. Clement insisted that faith is the foundation and not the
+  ceiling. The believer is meant to grow from faith into understanding, and
+  growing means asking. Origen's rule was blunter still. What the apostles
+  delivered plainly is fixed. Everything else is open ground, and walking that
+  ground - asking, testing, being wrong, correcting - is how a soul is
+  actually formed. Doubt aimed at understanding was not treated as sin. It was
+  treated as hunger. What we did not have is the modern language of a
+  private crisis of faith. Our doubters stood inside a praying community. They
+  questioned inside the rule of faith, and they were expected to bring the
+  question to a teacher rather than carry it alone. And when whole
+  congregations doubted the received reading - the villages of the Arsinoite
+  district - the bishop's answer was three days of open argument, not a
+  condemnation.
 positions:
 - faith is the foundation for understanding, not its substitute
 - open questions are legitimately open; inquiry there is devotion
@@ -49,3 +55,7 @@ relations:
 ---
 Serves the 'I grew up being told doubt was sin' cell from the world's
 own practice, with the post-Nicene hardening stated as tension.
+
+REGISTER TRANSLATION (2026-08-29, the alx pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

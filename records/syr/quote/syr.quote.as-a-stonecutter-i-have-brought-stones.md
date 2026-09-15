@@ -21,6 +21,13 @@ sources:
   license: public-domain
 text: >-
   Nor are these things sufficient; but hear thou these things from me without wrangling, and enquire concerning them with brethren who are apt for persuasion. Whatsoever thou hearest that assuredly edifies, receive; and whatever builds up strange doctrines, overthrow and utterly demolish. For wrangling cannot edify. But I, my beloved, as a stonecutter have brought stones for the building, and let wise architects carve them out and lay them in the building.
+modern_rendering: >-
+  These things are not enough by themselves. Hear them from me without
+  quarreling, and ask about them among brothers who are open to persuasion.
+  Whatever you hear that truly builds up, receive; and whatever builds up
+  strange teachings, overthrow and demolish completely - for quarreling cannot
+  build anything up. But I, my beloved, like a stonecutter have brought stones
+  for the building. Let wise architects carve them and set them in place.
 speaker_or_author: Aphrahat, the Persian Sage, Demonstration I
 license: verbatim
 modern_lens_note: >-
@@ -43,3 +50,5 @@ This is the sentence that makes the witness's claim checkable. A world whose ans
 room for doubt" is "faith is a building, laid stone by stone" should be shown its own teacher
 saying so, and saying it in the register that matters here - enquire, receive what edifies,
 demolish what does not, and let others carve the stones I brought.
+
+MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.

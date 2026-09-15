@@ -1,0 +1,31 @@
+# Goldbacher's critical Latin edition of Augustine's letters, CSEL 57, Pars
+# IV only (Epistulae 185-270), vendored 2026-09-05 for the Latin
+# Pastoral-Congregational Christianity world-build (Source_Registry.md row
+# 61, partially fulfilling Source_Acquisition_Manifest G4). Latin original
+# of works already assigned to lpc's own Atlas entry from
+# npnf101_augustine-confessions-letters.xml (the vendored NPNF translation).
+source_file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
+
+assignments:
+  - work: "S. Aureli Augustini Epistulae, Pars IV (Epistulae CLXXXV-CCLXX)"
+    author: augustine
+    locus: "whole text; Goldbacher's own EPISTVLA numbering runs continuously CLXXXV-CCLXX"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The Latin original of the same letters already assigned to lpc from
+      the vendored NPNF translation (npnf101), covering letters 185-270 -
+      including Letter 185 itself (Registry row 12, "The Correction of the
+      Donatists"), the very first letter in this file's own range. Only
+      Pars IV of Goldbacher's five-part edition; CSEL 34/1, 34/2, 44, and
+      58 remain unacquired. Second-witness caveat applies per
+      cic/texts/INTAKE.md: never primary evidence for a Representative on
+      its own, only for cross-checking a specific reading against the
+      vendored NPNF translation. OCR quality uneven - see the file's own
+      header for a quantified apparatus-corruption assessment;
+      apparatus-level claims specifically need independent verification
+      (corrected here, independent review Round 25's own C1 full-corpus
+      sweep, from an earlier draft's own line fold, which split
+      "apparatus-level" into "apparatus- level" with an inserted space).

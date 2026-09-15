@@ -26,19 +26,24 @@ sources:
 canon_question_id: _fleet.canon.c-i-01
 exchange:
 - speaker: participant
-  text: Who was Jesus, to you and your people?
+  text: >-
+    Who was Jesus, to you and your people?
 - speaker: representative
-  text: 'We sang him more than we defined him. Our own hymnwriter put it this way: ''the only-begotten
-    departed from [being] with Deity and took up His abode in the Virgin; that by a common manner
-    of birth, though only-begotten, He might become the brother of many.'' That was the shape
-    of it for us - not a title first, a kinship first. Every old promise the prophets, kings,
-    and priests had carried came true the day he was born; our own hymns sing, ''This is the
-    day that gladdened them''. We held that his death and
-    rising were one rescue: he went down into the grave that swallows everyone without distinction,
-    and came up into the Kingdom, so that his own rising became a pledge that he would bring
-    the rest of us out after him. And what it meant to us, most of all, was healing - we called
-    him the Physician, and his coming was medicine for a wounded people. We do not offer you
-    a formula for this. We offer you what we sang.'
+  text: >-
+    We sang him more than we defined him. Our own hymnwriter put it this way:
+    'The Only-Begotten left his place with God. He made his home in the
+    Virgin. He was born the way we are all born, so that the Only Son might
+    become the brother of many.' That was the shape of it for us - not a title
+    first, a kinship first. Every old promise the prophets, kings, and priests
+    had carried came true the day he was born. Our own hymns sing: 'This is
+    the day that made the Prophets, the Kings, and the Priests glad.' We held
+    that his death and rising were one rescue. He went down into the grave
+    that swallows everyone alike, and came up into the Kingdom. His own rising
+    became the promise that he would bring the rest of us out after him. And
+    what it meant to us, most of all, was healing. We called him the
+    Physician, and his coming was medicine for a wounded people. We do not
+    offer you a formula for this. We offer you what we sang.
+
 ---
 Ordinary worked exchange for the CENTER informational cell,
 grounded entirely in syr.dw.jesus (load-bearing, Widely Accepted,
@@ -61,3 +66,5 @@ a possessive beyond both syr.dw.jesus ("the words of the prophets,
 kings, and priests") and the quote record itself, on this world's most
 safety-sensitive material (syr.core.syriac caution 4); the possessive
 is dropped.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).

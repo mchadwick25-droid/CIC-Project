@@ -13,6 +13,20 @@
 #   delete_field    - remove path entirely
 #   add_field       - add an undeclared path (schema/unevaluatedProperties test)
 #   remove_record   - delete a whole record file from the copy
+#
+# target_kind (Library Access Gate D3, increment 3 - engine/m9/selftest.py
+# only; M1/M3 defects above have no target_kind and are always records):
+#   record (default) - target_record + mutation, applied to records/fix/**
+#                       exactly as above (engine.m1.mutate.apply, reused)
+#   bucket            - target_row (a row_id) + mutation, applied to a deep
+#                       copy of cic/corpus-map/fixture-synthetic.yaml's raw
+#                       `works` list, before build_shelf() ever runs
+#   pairs             - target_pair_a + target_pair_b + mutation, applied to
+#                       a deep copy of cic/corpus-map/PAIRS.yaml's raw
+#                       `pairs` list
+# bucket/pairs mutations never touch a file - engine/m9/selftest.py mutates
+# the in-memory data loader.py already read, the same discipline the
+# record case already holds.
 
 schema_version: 1
 fixture_world: fix
@@ -97,12 +111,33 @@ defects:
     mutation: {op: delete_field, path: rights_status}
     expected_failure: "source has no rights_status - rights gate fails closed (spec: rights per record, fail-closed)"
 
+  - id: edition-rights-consistency-missing-file
+    gate: edition-rights-consistency
+    layer: M1
+    target_record: records/fix/source/fix.source.witness-scroll.md
+    mutation: {op: set_field, path: edition, value: "Fixture Edition 1, vendored as cic/texts/fixture-nonexistent-file.txt"}
+    expected_failure: "edition names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
+
+  - id: canonical-address-missing-file
+    gate: canonical-address
+    layer: M1
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: set_field, path: "sources[0].address", value: "cic:fixture-nonexistent-file.txt:1.4"}
+    expected_failure: "sources[0].address names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
+
   - id: readability-quick-meaning-too-dense
     gate: readability
     layer: M1
     target_record: records/fix/term/fix.term.the-three.md
     mutation: {op: set_field, path: quick_meaning, value: "The triune hypostatic co-inherence of Father, Son, and Spirit as this community apprehended it prior to conciliar formalization."}
     expected_failure: "quick_meaning exceeds FK grade 10 (Artifact-1 §6 readability gate)"
+
+  - id: readability-quote-modern-rendering-too-dense
+    gate: readability
+    layer: M1
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: add_field, path: modern_rendering, value: "The unmediated testimonial witness persisted irrepressibly notwithstanding the deponent's own non-observation of the underlying event."}
+    expected_failure: "modern_rendering exceeds FK grade 10 (Artifact-1 §6 readability gate) - text itself, the verbatim Level-3 wording, is never graded"
 
   - id: canon-coverage-blank-cell
     gate: canon-coverage
@@ -126,6 +161,14 @@ defects:
     target_record: records/fix/voice_craft/fix.craft.vera-voice.md
     mutation: {op: set_field, path: identity, value: "Vera, Witness - a synthetic composite voice speaking for the fixture world's two short sources (RULED by Mark, 2026-08-21: name and role are the only sanctioned fabrications)."}
     expected_failure: "voice_craft.identity carries an ISO-format date and a 'ruled by' attribution - build-process language leaked into a field build_prompt() compiles into the live model's own Identity section"
+
+  - id: voice-perspective-third-person-self-reference
+    gate: voice-perspective
+    layer: M1
+    note: "mirrors the real defect this gate exists to catch (measured fleet-wide 2026-09-04: 250 genuine instances across all 8 built worlds' doctrinal_witness/term/story/honest_limit/ambient/demonstration fields - see CiC_Cross_System_Analysis_Tracking.md) - the Representative's voice describing its own world from outside, the way a builder names a world, never the way an inhabitant of it would. Single mutation exercises both the literal-phrase check and the it/its-chain check together, the same shape gate_no_build_attribution's own seeded defect uses to hit two of its patterns at once."
+    target_record: records/fix/doctrinal_witness/fix.witness.who-is-jesus.md
+    mutation: {op: set_field, path: text, value: "This world did not claim to have seen him. Its record says only that the ones who told it could not be talked out of what they had seen, and that it was worth this world's own lives changing because of it."}
+    expected_failure: "doctrinal_witness.text speaks of \"this world\" and a following \"Its\" from outside, in the third person, instead of the we-voice register the approved sample already models"
 
   - id: sentinel-string-in-retrieval-block
     gate: schema-validation
@@ -178,3 +221,89 @@ defects:
     target_record: records/fix/quote/fix.quote.witness-saying.md
     mutation: {op: set_field, path: "sources[0].source_id", value: fix.source.does-not-exist}
     expected_failure: "quote cites a source_id with no matching record in records/fix/source/ - a fabricated/unverifiable attribution; admission's fabrication-pressure probes must catch it under held-out paraphrase questioning of C-P"
+
+  # --- M9 confinement-battery defects (Library Access Gate D3, engine/m9/)
+  # increment 3 builds engine/m9/confinement.py's own battery, minus
+  # locus-within-work (held for a later increment, once CM-4's locus_ids
+  # exists on real data - no seeded defect for it here).
+
+  - id: m9-source-kind-missing-kind
+    gate: source-kind
+    layer: M9
+    target_kind: record
+    target_record: records/fix/source/fix.source.witness-scroll.md
+    mutation: {op: delete_field, path: kind}
+    expected_failure: "fix.source.witness-scroll: no kind set (vendored | unvendored | absence)"
+
+  - id: m9-shelf-row-dangling
+    gate: shelf-row
+    layer: M9
+    target_kind: record
+    target_record: records/fix/source/fix.source.witness-scroll.md
+    mutation: {op: set_field, path: shelf_row, value: fixture-synthetic--does-not-exist}
+    expected_failure: "fix.source.witness-scroll: shelf_row 'fixture-synthetic--does-not-exist' does not resolve to a row on this world's shelf"
+
+  - id: m9-emic-vendored-only-cites-absence
+    gate: emic-vendored-only
+    layer: M9
+    target_kind: record
+    target_record: records/fix/ambient/fix.ambient.daily-bread.md
+    mutation: {op: set_field, path: "sources[0].source_id", value: fix.source.lost-letters-absence}
+    expected_failure: "fix.ambient.daily-bread: cites 'fix.source.lost-letters-absence', whose kind is 'absence' - an emic record may not ground itself in it"
+
+  - id: m9-absence-probe-false-claim
+    gate: absence-probe
+    layer: M9
+    target_kind: record
+    target_record: records/fix/source/fix.source.lost-letters-absence.md
+    mutation: {op: set_field, path: "absence_probes[0]", value: "I did not see him"}
+    expected_failure: "fix.source.lost-letters-absence: absence_probes entry 'I did not see him' DOES window-match in cic/texts/fixture-synthetic_witness-scroll.txt - the claimed absence is false"
+    note: "the probe string is fix.quote.witness-saying's own opening words - genuinely present in the witness scroll, proving the check actually reads the file rather than trusting the claim"
+
+  - id: m9-verbatim-in-shelf-invented-text
+    gate: verbatim-in-shelf
+    layer: M9
+    target_kind: record
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: set_field, path: text, value: "This sentence was never written anywhere in the witness scroll."}
+    expected_failure: "fix.quote.witness-saying: license is 'verbatim' but its text does not window-match in any file on this world's shelf"
+
+  - id: m9-voicing-pair-exchange-not-confirmed
+    gate: voicing-pair
+    layer: M9
+    target_kind: bucket
+    target_row: fixture-synthetic--later-summary
+    mutation: {op: set_field, path: documented_exchange, value: not-confirmed}
+    expected_failure: "fix.ambient.daily-bread: cites 'fix.source.secondary-summary'; the pair is mutual-awareness but the row's own documented_exchange is 'not-confirmed', not confirmed"
+
+  - id: m9-voicing-pair-relation-flipped
+    gate: voicing-pair
+    layer: M9
+    target_kind: pairs
+    target_pair_a: fixture-synthetic
+    target_pair_b: fixture-synthetic-neighbour
+    mutation: {op: set_field, path: relation, value: one-way}
+    expected_failure: "fix.ambient.daily-bread: cites 'fix.source.secondary-summary'; the (fixture-synthetic, fixture-synthetic-neighbour) pair is ruled 'one-way', not mutual-awareness"
+    note: "proves target_kind: pairs works independently of target_kind: bucket above - a different mutation, a different in-memory copy, the same check"
+
+  - id: m9-shelf-confidence-needs-ruling
+    gate: shelf-confidence
+    layer: M9
+    target_kind: bucket
+    target_row: fixture-synthetic--witness-scroll
+    mutation: {op: set_field, path: confidence, value: needs-ruling}
+    expected_failure: "fix.quote.witness-saying: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling"
+
+  - id: m9-inertness-proof
+    gate: inertness
+    layer: M9
+    note: >
+      The M9 mirror of inertness-proof above: every check in
+      engine/m9/confinement.py's CHECKS must (a) fire on at least one
+      defect above and (b) pass clean on the unmutated fixture. A check
+      that never fires is inert and engine/m9/selftest.py must report that
+      as its own failure, the same contract engine/m1/selftest.py already
+      holds for the M1 battery.
+    target_record: null
+    mutation: null
+    expected_failure: "engine/m9/selftest.py asserts, per check, at least one defect above exercises it and that the clean fixture passes it"

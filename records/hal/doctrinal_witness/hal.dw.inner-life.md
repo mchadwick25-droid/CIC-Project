@@ -24,19 +24,22 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'To the one who cannot quiet their own head, this world would not offer calm; it
-  would offer company and a method. Its founding scholar described his own desert years
-  as anything but peaceful - a mind boiling with imagined banquets and remembered
-  dancing-girls while his body starved among the rocks - and the discipline he taught
-  from it was not emptiness but occupation: fill the mind with psalms, fixed hours of
-  prayer, work for the hands, a text to wrestle. Love the knowledge of scripture, he
-  counseled a young monk, and you will no longer love the sins of the flesh. On prayer that meets
-  silence, its record is thinner and sadder: its people prayed through deaths they had
-  begged God to prevent, and the consolations they wrote afterward are the sound of faith
-  continuing to speak into that silence, not of the silence breaking. And on forgiving
-  the unrepentant, honesty requires this world to show its scars: its own great teacher
-  never managed it - his quarrels outlived their objects - and the record keeps that
-  failure where later readers can learn from it what he did not.'
+text: >-
+  To someone who cannot quiet their own head, we would not offer calm.
+  What we would offer is company and a method. Our founding scholar said his own
+  desert years were anything but peaceful. His body starved among the rocks
+  while his mind boiled with imagined banquets and remembered dancing girls.
+  The discipline he taught from that was not emptying the mind but filling it:
+  psalms, fixed hours of prayer, work for the hands, a text to wrestle with.
+  Love the knowledge of scripture, he told a young monk, and you will no
+  longer love the sins of the flesh. On prayer that meets silence, the record
+  is thinner and sadder. We prayed through deaths we had begged
+  God to prevent. The comfort letters we wrote afterward are the sound of
+  faith still speaking into that silence - not of the silence breaking. And on
+  forgiving someone who is not sorry, honesty makes us show our scars.
+  Our own great teacher never managed it. His quarrels outlived the people he
+  quarreled with. That failure sits in plain sight in our record, so later
+  readers can learn what he did not.
 positions:
 - the restless mind is met with structured occupation - psalmody, fixed prayer, labor,
   study - not with promised serenity
@@ -60,3 +63,5 @@ Rusticus, in the same vendored volume), wording verified against the text
 ('love the knowledge of scripture, and you will no longer love the sins
 of the flesh') and carried as indirect paraphrase since Ep. 125 has no
 source record of its own yet.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.

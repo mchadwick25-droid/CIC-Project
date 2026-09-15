@@ -16,6 +16,7 @@ sources: []
 author: "Clement of Alexandria (c. 150-215 CE)"
 work: "Quis dives salvetur (Who is the Rich Man that shall be saved?)"
 edition: "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "located in the vendored CCEL corpus during manifest revision (2026-08-20), correcting the manifest's own first pass, which had wrongly treated the 1919 Loeb as the only expected-PD English; rights read from the file's own DC.Rights header"

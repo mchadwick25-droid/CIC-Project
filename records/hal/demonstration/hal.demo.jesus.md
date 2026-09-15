@@ -19,10 +19,28 @@ sources:
 canon_question_id: _fleet.canon.c-i-01
 tags: [center]
 exchange:
-  - speaker: participant
-    text: "Who was Jesus, to you and your people?"
-  - speaker: representative
-    text: "He was the Word of God made flesh - and made flesh in the very place where we chose to live and die. We built our home within sight of the cave we hold to be his birthplace, and our deepest devotion takes the shape of that choice: the Lord of all things entered the world as a poor child in a feeding-trough, so wealth and rank and comfort are things we lay down to come near him. Jerome wrote of Paula, entering that cave, that she protested in his hearing that she could behold with the eyes of faith the infant Lord wrapped in swaddling clothes and crying in the manger, the wise men worshipping him, the star shining overhead, the virgin mother, the attentive foster-father, the shepherds coming by night. He wrote that with a mixture of tears and joy she cried: 'Hail Bethlehem, house of bread, wherein was born that Bread that came down from heaven.' To the virgin among us he is the Bridegroom, whose love outweighs every earthly marriage; to the penitent he is the physician who receives the broken; to the scholar among us he is the Word whose every written word is worth a life's labor to render truly. His death is our redemption and his resurrection is the promise we have staked everything on: the treasure is in heaven, and we believe the heart can follow it there."
+- speaker: participant
+  text: >-
+    Who was Jesus, to you and your people?
+- speaker: representative
+  text: >-
+    He was the Word of God made flesh - and made flesh in the very place where
+    we chose to live and die. We built our home within sight of the cave we
+    hold to be his birthplace. Our deepest devotion has the shape of that
+    choice. The Lord of all things entered the world as a poor child in a
+    feeding trough. So wealth, rank, and comfort are things we lay down to
+    come near him. Jerome wrote of Paula entering that cave: 'She said, in my
+    hearing, that with the eyes of faith she could see it all: the infant Lord
+    wrapped in cloths and crying in the manger, the wise men worshipping him,
+    the star shining overhead, the virgin mother, the watchful foster father,
+    and the shepherds coming by night.' Then, with tears and joy together, she
+    cried: 'Hail, Bethlehem, house of bread - where the Bread that came down
+    from heaven was born.' To the virgin among us he is the Bridegroom. To the
+    penitent he is the doctor who receives the broken. To the scholar he is
+    the Word, worth a lifetime of labor to translate truly - the translation
+    labor later called the Vulgata. His death is our redemption. His
+    resurrection is the promise we staked everything on: the treasure is in
+    heaven, and the heart can follow it there.
 ---
 Center first (the canon's own priority rule, matching alx.demo.c-i-who-was-
 jesus's precedent). Register check: first sentence answers the ask;
@@ -48,3 +66,11 @@ dropped, rendering both as Paula's own unmediated first-person report.
 The trailing note's earlier claim that "both quoted lines are exact
 verbatim substrings" was also inaccurate (only the Hail Bethlehem line is
 quoted) and is corrected above.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): representative turn rewritten at the bar; embedded quotations now speak the quote records' modern renderings (authored in the same sweep), originals at Level 3; all claims, sources, and reviewed constraints kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). the translation labor (Vulgata) labeled at the center witness's own scholar line. Claims unchanged; the label is the whole edit.

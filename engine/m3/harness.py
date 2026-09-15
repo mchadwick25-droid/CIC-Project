@@ -78,7 +78,6 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None) -> l
     if answerer is None:
         answerer = FixtureRecordAnswerer(records)
     known_source_ids = _transitive_source_ids(records)
-    voice_scaffold_ids = {r["id"] for r in records.values() if r.get("record_type") in canon.voice_scaffold_types()}
     evidence_status_ids = {r["id"] for r in records.values() if r.get("record_type") in canon.evidence_status_types()}
     known_quote_texts = {r["text"] for r in records.values() if r.get("record_type") == "quote" and r.get("text")}
 
@@ -93,10 +92,12 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None) -> l
             continue
 
         transcript = mask_for_grading(
-            probe_id=probe_id, cell=cell, probe_text=probe["text"], answer_text=answer.text, citations=answer.citations
+            probe_id=probe_id, cell=cell, probe_text=probe["text"], answer_text=answer.text, citations=answer.citations,
+            citation_entries=getattr(answer, "citation_entries", None),
         )
         checks = [
-            grading.source_boundedness_check(transcript, known_source_ids, voice_scaffold_ids, evidence_status_ids),
+            grading.source_boundedness_check(transcript, known_source_ids, evidence_status_ids=evidence_status_ids,
+                                             repository_records=records),
             grading.register_check(transcript, known_quote_texts),
         ]
         results.append(

@@ -51,16 +51,19 @@ narrative_tier_justification: >-
   because the telling is not free - it is fixed in the received text of the legislation itself.
 tellable_as: "the rule that begins by saying where it came from - an angel, a cave, and a tablet of iron"
 text: >-
-  The Ethiopic rule of Pachomius does not begin with its first provision. It begins by saying who
-  gave it. "In the name of the holy Trinity. The ordinance which the angel of the Lord commanded to
-  Abba Pachomius." Then it tells the story: at Tabennesis in the Thebaid there was a man who lived
-  a clean life and was given knowledge and the sight of angels, and as he sat in his cave the angel
-  of the Lord came and told him that he himself was finished - that staying on in the cave was now
-  a waste - and that he should go out, gather the young men who were not yet finished, and live
-  with them. And the angel handed him a tablet of iron with the rule written on it. Only after that
-  does the legislation start. Later in the same document Pachomius argues back, saying the prayers
-  set down are too few, and is told that the rule is pitched for the weak and for men who have no
-  one to advise them, and that the perfect need no rule at all.
+  The Ethiopic rule of Pachomius does not begin with its first provision. It
+  begins by saying who gave it: 'In the name of the holy Trinity. The
+  ordinance which the angel of the Lord commanded to Abba Pachomius.' Then it
+  tells the story. At Tabennesis in the Thebaid there was a man who lived a
+  clean life and was given knowledge and the sight of angels. As he sat in his
+  cave, the angel of the Lord came and told him that he himself was finished -
+  staying on in the cave was now a waste. He should go out, gather the young
+  men who were not yet finished, and live with them. And the angel handed him
+  a tablet of iron with the rule written on it. Only after that does the
+  legislation start. Later in the same document, Pachomius argues back. The
+  prayers set down are too few, he says. He is told that the rule is pitched
+  for the weak, and for men who have no one to advise them - the perfect need
+  no rule at all.
 absent_detail: >-
   Nothing here says the vision happened. Nothing here dates the framing relative to the provisions,
   and no text survives that would let this world say whether the rule ever circulated without it.
@@ -92,3 +95,5 @@ one remove, with the brass tablet and the population figures. This one
 tells a narrower and different thing: how the document itself opens. A
 participant asking "did it happen" wants the first; a participant asking
 "why would anyone obey this" wants the second.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

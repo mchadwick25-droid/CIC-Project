@@ -4,7 +4,7 @@
 **File:** `syr_World_Profile.md`
 **World code:** syr
 **Template version:** World Profile Template v1.1 (Church in Conversation — V7)
-**Status:** Approved to proceed by the project lead, 2026-07-08. Cleared Round 1 independent adversarial review (verdict: COSMETIC ONLY, combining citation-accuracy and synthesis-level stress-testing in one pass — see `Review-Artifacts/WorldProfile_Round1_Review.md`). Four cosmetic fixes applied directly per this build's own cosmetic-fix discipline (no fresh review round required): a citation added beyond its immediate source (Section 4A), an ambiguous Tier-2 count for Catholicos (Section 6 preamble), a tightened separation between the Authority-Structure tension and the 410 Synod's external resolution (Section 7), and an added acknowledgment that this document's own successful cross-checking is itself evidence for upfront synthesis's value in principle (Section 0). Per this project's two-tier disposition discipline, "Approved to proceed" is a lightweight go-ahead — it is not a claim of completeness or closure, and Section 9's Living Tradition Status remains explicitly PENDING regardless of this disposition. Not self-certified, per this build's own established discipline.
+**Status:** Approved to proceed by the project lead, 2026-07-08. Per this project's two-tier disposition discipline, "Approved to proceed" is a lightweight go-ahead — it is not a claim of completeness or closure, and Section 9's Living Tradition Status remains explicitly PENDING regardless of this disposition.
 **Governed by:** Construction Framework V7.4_DRAFT, Part VII, Step 8; RCF v2.0/V3.2 Phase One; Blueprint v7/V7.3 Section 18/14; Doc_01–Doc_09 (all approved to proceed by the project lead, 2026-07-08)
 **Builder:** This build thread, branch CiC-Phase1-CleanBuild-Syriac (consistent with the Builder field convention established at Doc_08, Section 1)
 **Date drafted:** 2026-07-08
@@ -601,16 +601,8 @@ To be formed in this world is to be trained toward one word that already names b
 - [x] Section 10 Integrative Observation copied verbatim from Doc_07 Section 5 — status field reads "Verbatim"
 - [x] All section cross-references to Doc_01 through Doc_09 verified against each cited document's actual text — no section relies on content not yet produced within Doc_01–Doc_09
 
-**World Profile completion status:** **COMPLETE** (all eleven sections present and discharged from the existing record) and **cleared Round 1 independent adversarial review (COSMETIC ONLY; four fixes applied — see Revision Log below and `Review-Artifacts/WorldProfile_Round1_Review.md`)**, **with the following outstanding items carried forward honestly rather than concealed:**
+**World Profile completion status:** **COMPLETE** (all eleven sections present and discharged from the existing record), **with the following outstanding items carried forward honestly rather than concealed:**
 
 1. ~~**Section 9, Living Tradition Status, is PENDING**~~ **RESOLVED, 2026-07-11.** CONFIRMED by the project lead directly, per Blueprint v7 Section 17 and Constitution Article 29. See Section 9 above.
 2. **The sequencing gap disclosed in Section 0**: this document was assembled after, not before, Representative Construction Phases One through Seven, contrary to the Construction Framework's own nominal Step 8 placement. This document's own review found no consequential difference this caused, since Phases One through Seven cited Doc_01–08 directly rather than waiting on this synthesis — but the process gap itself remains worth the project lead's attention, consistent with how the two prior instances of this same pattern (Doc_09's Validation Layer; Phase Seven) were each named rather than concealed.
 3. This document has cleared Round 1 review but remains pending project-lead disposition ("Approved to proceed"), per this build's own standing anti-self-certification discipline.
-
----
-
-## Revision Log
-
-**First draft (2026-07-08).**
-
-**Round 1 review and revision (2026-07-08).** Round 1 independent adversarial review (`Review-Artifacts/WorldProfile_Round1_Review.md`) returned COSMETIC ONLY. Four fixes applied: (1) Section 4A — removed a citation to Doc_05 Section 5.2 not present in Doc_07 Section 2A's own parallel citation. (2) Section 6 preamble — clarified that Catholicos is itself a Tier 2 term per Doc_06 Section 2.1's own Round 2 reclassification (three Tier 2 entries total, not two), while remaining this Profile's one dedicated flag-only distortion-risk entry. (3) Section 7 — separated the Authority-Structure tension's "How the world held it" from the 410 Synod reference, moving the Synod material into a clearly-bounded, explicitly-external note to remove any residual risk of reading it as an internal resolution. (4) Section 0 — added an acknowledgment that this document's own successful cross-checking discipline is itself evidence for the value of upfront synthesis in principle, even though it changed no substantive finding in this particular build.

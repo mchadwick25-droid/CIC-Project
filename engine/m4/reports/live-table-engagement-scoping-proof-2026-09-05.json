@@ -1,0 +1,81 @@
+{
+  "three_seats": {
+    "world_keys": [
+      "cappadocian",
+      "alx",
+      "pahc"
+    ],
+    "question": "who is Jesus",
+    "turns": [
+      {
+        "speaker": "cappadocian",
+        "position": 1,
+        "pass": "FIRST PASS",
+        "selector_reason": "The question \"who is Jesus\" is foundational and open to all voices. Beginning with Chilo (Cappadocian) honors the contemplative, theologically developed formation of the Brotherhoods - their answer to this most basic question will establish one essential register. The other voices can then respond from their own different formations (catechetical-philosophical and household-practical), giving the participant a genuine encounter with how different early-Christian worlds held and transmitted this same question.",
+        "engages": null,
+        "engages_name": null,
+        "text": "Jesus was the ground everything else in our life stood on. At the font we were signed into his name, Father, Son, and Holy Spirit together, and taught to believe as we had been baptized - the formula itself was our charter, not decoration around the faith. We confessed him fully what the Father is, one being, not merely like the Father, against a rival teaching in our own day that said otherwise. What his coming was for, we said in our boldest word, was that we might become god - not equal to God, the gap between maker and creature never closing, but truly made like him, endlessly, by grace. We did not chiefly frame his death as a legal transaction. We spoke of it as a ransom, a debt paid, a physician entering our own sickness to heal it from inside. And we held that the poor at our own door bore his very image, so that whatever you did for the least of these was preached to us at its full, uncomfortable strength - the surplus you keep beyond your own need was already theirs. Last, and first: we held that his body would rise the way ours will, argued through, not merely wished for, at more than one deathbed among us.",
+        "cited_record_ids": [
+          "cappadocian.term.anastasis",
+          "cappadocian.term.baptisma-photisma",
+          "cappadocian.term.eikon",
+          "cappadocian.term.homoousios",
+          "cappadocian.term.theosis"
+        ],
+        "round_open_after": true
+      },
+      {
+        "speaker": "alx",
+        "position": 2,
+        "pass": "FIRST PASS",
+        "selector_reason": "Theon (Alexandrian) has not yet spoken this round. The participant asked an open question to the Table about who Jesus is. Chilo has already given the Cappadocian answer. Theon, as Catechetical Teacher, represents a formation world known for its own distinct theological vocabulary and emphases - particularly its use of allegory and its different christological framings. He should speak next to show how this same question lands differently in another tradition.",
+        "engages": null,
+        "engages_name": null,
+        "text": "To us Jesus is the Logos - God's own Word, through whom all things were made - come in flesh. Clement, one of our first teachers, called him the New Song: 'Behold the might of the new song! It has made men out of stones, men out of beasts' - he meant that the one who first set the world in order had come into it, to set people right. And near the end of our era, Athanasius put our whole hope in one sentence: 'He was made man that we might be made God'. Not that we become gods - but that his own life is opened to us and shared.\n\nWhat my brother from Cappadocia said there - the physician entering the sickness, not a courtroom exchange - we held that same way. And the becoming-god language: we taught it too, exactly as he does, the gap between creature and creator never closed, but the sharing real.\n\nIf you want it in one line: the maker, come inside his making, to heal it.",
+        "cited_record_ids": [
+          "alx.dw.jesus",
+          "alx.quote.athanasius-made-god",
+          "alx.quote.clement-new-song",
+          "alx.term.theosis"
+        ],
+        "round_open_after": true
+      },
+      {
+        "speaker": "pahc",
+        "position": 3,
+        "pass": "FIRST PASS",
+        "selector_reason": "Chloe has not yet spoken this round. The participant asked an open question to the whole Table, and we've now heard two distinct theological formations respond - Cappadocian emphasis on deification and the poor, and Alexandrian emphasis on the Logos and the cosmic healing. Chloe's voice from post-apostolic household Christianity offers a genuinely different formation context and perspective on who Jesus is. This is the moment to let the third voice be heard rather than return to one already speaking.",
+        "engages": null,
+        "engages_name": null,
+        "text": "He was a real man, not an idea. Ignatius wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David. He truly ate and drank. He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed. And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father. \n\nWhen we give thanks over the cup - the eucharistia, our own word for that thanksgiving - we call it the vine of David his servant, made known to us through Jesus. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.\n\nIgnatius calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them. But it is worship, not an argument worked out. How calling Jesus God fits together with calling the Father God, none of us whose writing survives ever wrote out. We can tell you plainly that we called him God. We cannot tell you we had settled how.",
+        "cited_record_ids": [
+          "pahc.witness.jesus-as-god",
+          "pahc.witness.who-was-jesus"
+        ],
+        "round_open_after": true
+      },
+      {
+        "speaker": "cappadocian",
+        "position": 4,
+        "pass": "SECOND PASS",
+        "selector_reason": "The participant has asked the same open question again after hearing three full answers. This is a genuine close moment: the question \"who is Jesus\" has been answered comprehensively from all three voices present - Cappadocian (incarnation and theosis), Alexandrian (Logos and healing), and Post-Apostolic House-Church (incarnate reality and worship). Another voice would necessarily restate rather than add. The round is complete.",
+        "engages": "pahc",
+        "engages_name": "Chloe",
+        "text": "We would say yes to every word Chloe has spoken - the real man, really killed, really raised - and we fought for two generations to say what she left unworked-out. How calling Jesus God fits with calling the Father God: that became our whole life's argument, because the court in our years pressed a different answer on us. They said the Son is like the Father, a careful likeness that kept the two apart. We said harder: the Son is fully what the Father is - one ousia, one being, that word our fence around the faith. And who God is, we counted three - Father, Son, and Holy Spirit, each a real someone, none a costume, none a creature - each a hypostasis, our word for the someone distinct from the what-he-is. \n\nThe fight came down to one small word at evening prayer. Our bishop gave glory to the Father together with the Son, together with the Holy Spirit, and some objected: too much was claimed for the Spirit. He answered that worship already teaches - the threefold Name at the water, the standing at prayer on the Lord's day, customs no council wrote and every church keeps. When the bishops wrote the faith again, they wrote the Spirit's glory the way our churches had already been singing it. So what Chloe names as unworked-out, we worked out - under cost, across decades, and never pretending the argument was easy.",
+        "cited_record_ids": [
+          "cappadocian.story.doxology-stand",
+          "cappadocian.term.homoousios",
+          "cappadocian.term.ousia-hypostasis",
+          "cappadocian.term.paradosis"
+        ],
+        "round_open_after": true
+      },
+      {
+        "closed": true
+      }
+    ],
+    "close_reason": "selector_closed",
+    "close_selector_reason": "The participant's initial question \"who is Jesus\" has been fully answered by all three voices. Each Representative has spoken distinctly from their formation world—Cappadocian precision on ousia and hypostasis, Alexandrian theology of the Logos and deification, and Post-Apostolic witness to the real, risen man who is worshipped as God without the metaphysics yet worked out. Another turn would restate rather than add. The exchange is complete and genuine.",
+    "close_turns": 4
+  }
+}

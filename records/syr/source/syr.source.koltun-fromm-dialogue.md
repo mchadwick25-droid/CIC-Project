@@ -17,6 +17,7 @@ author: Naomi Koltun-Fromm
 work: 'Jewish-Christian Conversation in Fourth-Century Persian Mesopotamia: A Reconstructed Conversation
   (Gorgias, 2011), with Hermeneutics of Holiness (Oxford, 2010)'
 edition: consultation-only; no edition vendored
+kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: 'verified (legacy Doc_02 SS4): treats Aphrahat''s anti-Jewish material as a live,
   localized polemical exchange - and concedes in its own title that the Jewish side must be reconstructed;

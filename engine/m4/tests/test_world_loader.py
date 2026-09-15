@@ -1,22 +1,20 @@
 """Hermetic (no live model call) tests for the lazy world loader, run
 against the REAL committed fixture package (whichever package_dir/manifest_hash
-records/worlds.yaml currently registers for "fix") - not a synthetic fixture of
+records/worlds/fix.yaml currently registers) - not a synthetic fixture of
 its own, since the whole point is proving the loader against a real,
 previously-compiled package."""
 from pathlib import Path
 
 import pytest
-import yaml
 
+from engine.m1.registry import load_registry
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-WORLDS_YAML = REPO_ROOT / "records" / "worlds.yaml"
 
 
 def _fix_world_registry_entry() -> dict:
-    registry = yaml.safe_load(WORLDS_YAML.read_text(encoding="utf-8"))
-    return registry["worlds"]["fix"]
+    return load_registry()["fix"]
 
 
 def test_cold_load_reads_and_verifies_real_package():

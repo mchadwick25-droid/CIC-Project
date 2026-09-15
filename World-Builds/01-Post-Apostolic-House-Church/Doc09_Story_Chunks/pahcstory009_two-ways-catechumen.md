@@ -47,7 +47,7 @@ Additional guidance specific to this story: must not be extended beyond the Dida
 **Source:** Didache 1:2.
 
 **Element from Story Text:** The prohibitions (murder, adultery, magic, abortion, exposure of infants, theft, lying) and the practical almsgiving instruction.
-**Source:** Didache 2:1–4:14 (Way of Life material — the prohibitions and almsgiving instruction both sit within this section, corrected from an earlier draft that mislabeled this range as Way of Death; round-1 independent review caught this citation-address error).
+**Source:** Didache 2:1–4:14 (Way of Life material — the prohibitions and almsgiving instruction both sit within this section).
 
 **Element from Story Text:** The Way of Death catalog, listed by contrast as the vices that Way rejects.
-**Source:** Didache 5:1 (the Way of Death catalog itse
+**Source:** Didache 5:1 (the Way of Death catalog itself).

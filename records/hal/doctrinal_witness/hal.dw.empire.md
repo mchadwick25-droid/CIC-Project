@@ -24,18 +24,21 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Christians hiding in the catacombs? Not in this world''s day - its churches stood
-  open and crowded, its bishops dined with senators, and travelers crossed the whole
-  empire to visit famous monasteries; the hiding times were its grandparents'' memory.
-  Did the empire''s embrace corrupt the church? This world said yes, loudly, about
-  everyone but itself: its most famous letter mocks clergy who curl their hair, seek
-  legacies from wealthy widows, and rise before dawn to pay social calls - written from
-  inside the capital by a man who watched it happen. Its own answer to that corruption
-  was flight: leave the establishment''s comforts for sackcloth, a cave-side monastery,
-  and a Bible. What would an outsider have found strangest? By this world''s own
-  evidence: senators'' daughters in coarse dress, a fortune poured into a feeding-trough
-  town in Palestine, and Rome''s most eligible widows refusing marriage to study a
-  foreign alphabet - their own class thought them mad, and said so.'
+text: >-
+  Christians hiding in the catacombs? Not in our day. Our churches
+  stood open and crowded. Our bishops ate dinner with senators. Travelers
+  crossed the whole empire to visit famous monasteries. The hiding times were
+  our grandparents' memory. Did the empire's embrace corrupt the church? We
+  said yes, loudly - about everyone but ourselves. Our most famous letter
+  mocks clergy who curl their hair, chase inheritances from wealthy widows,
+  and get up before dawn to make social visits. It was written from inside the
+  capital by a man who watched it happen. Our own answer to that
+  corruption was to leave: trade the comforts of the establishment for
+  sackcloth, a monastery beside a cave, and a Bible. What would an outsider
+  have found strangest? By our own evidence: senators' daughters in
+  rough dress, a fortune poured into a little town in Palestine, and Rome's
+  most eligible widows refusing marriage so they could study a foreign
+  alphabet. Their own class thought they had gone mad, and said so.
 positions:
 - this is a post-persecution, established-church world, and it knew it
 - it judged establishment-era worldliness harshly and answered it with ascetic withdrawal
@@ -50,3 +53,5 @@ churches, memory of persecution) without borrowing the famous
 catacomb-visit passage from Jerome's Ezekiel commentary, which is not in
 the vendored corpus and stays uncited. Companion quote:
 hal.quote.always-at-his-books (the outsider's actual view).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.

@@ -48,10 +48,33 @@ from engine.m1.registry import formation_world_keys  # noqa: E402
 _PD_AVAILABLE = re.compile(r"public.domain english exists|PD English requested|Budge", re.I)
 _CONSULT_ONLY = re.compile(r"consult(ation)?.only|copyrighted", re.I)
 _NONE_POSSIBLE = re.compile(r"none possible|no english edition vendorable|not vendorable", re.I)
+# The claim is attested entirely inside another source this world already
+# vendored - the record names that source, not an edition of its own, so
+# there is nothing left to acquire. Distinct from a record whose OWN edition
+# names a cic/texts/ file (gather_rows filters those out before classify()
+# ever runs); this is a second remove - e.g. a fact from Basil's letters that
+# is only ever cited "within" or "attested via" another already-vendored
+# source record.
+_ATTESTED_VIA_VENDORED = re.compile(
+    r"\b(within|attested (via|collectively via)|transmitted solely inside|accessed only via)\b", re.I
+)
+# The record itself says there is no document to hold rights over - a
+# person, an institution, or a general historical pattern, not a text. Money
+# and attention both fail here for the same reason "no edition exists" does,
+# but for a different one: there is no work to find an edition of, ever.
+_NOT_A_HELD_TEXT = re.compile(
+    r"not applicable in the ordinary sense|no text exists to hold rights over", re.I
+)
 
 
 def classify(record: dict) -> str:
-    blob = " ".join(str(record.get(k) or "") for k in ("edition", "rights_status", "discovery_channel"))
+    edition = str(record.get("edition") or "")
+    rights = str(record.get("rights_status") or "")
+    blob = " ".join((edition, rights, str(record.get("discovery_channel") or "")))
+    if "cic/texts/" in rights and _ATTESTED_VIA_VENDORED.search(edition):
+        return "resolved (attested via a vendored source)"
+    if _NOT_A_HELD_TEXT.search(rights):
+        return "not a held text (nothing to acquire)"
     if _PD_AVAILABLE.search(blob):
         return "acquirable, public domain"
     if _NONE_POSSIBLE.search(blob):
@@ -61,7 +84,12 @@ def classify(record: dict) -> str:
     return "unclassified"
 
 
-def main() -> None:
+def gather_rows() -> tuple[list, list]:
+    """Every wanted source, classified, sorted - the data main() renders and
+    the same data DOWNLOAD-QUEUE.md's generator draws on, split out
+    2026-09-02 specifically so the queue doesn't have to scrape this
+    module's own generated markdown table to get at data that already
+    exists here as plain dicts. Returns (rows, worlds)."""
     worlds = formation_world_keys()
     rows = []
     for world_key in worlds:
@@ -84,8 +112,12 @@ def main() -> None:
                 "author": str(record.get("author") or "").split("(")[0].strip()[:44],
                 "work": str(record.get("work") or "").split(" - ")[0].strip()[:78],
             })
-
     rows.sort(key=lambda r: (-r["depends"], r["world"], r["id"]))
+    return rows, worlds
+
+
+def main() -> None:
+    rows, worlds = gather_rows()
     by_kind: dict[str, list] = defaultdict(list)
     for row in rows:
         by_kind[row["kind"]].append(row)
@@ -105,7 +137,14 @@ def main() -> None:
     out.append(f"\n**{len(rows)} sources across {len(worlds)} worlds**, "
                f"carrying {sum(r['depends'] for r in rows)} record dependencies between them.\n")
 
-    order = ["acquirable, public domain", "purchasable (in copyright)", "no edition exists", "unclassified"]
+    order = [
+        "acquirable, public domain",
+        "purchasable (in copyright)",
+        "no edition exists",
+        "resolved (attested via a vendored source)",
+        "not a held text (nothing to acquire)",
+        "unclassified",
+    ]
     blurbs = {
         "acquirable, public domain":
             "**Costs nothing but attention.** A public-domain edition exists and was never "
@@ -119,9 +158,18 @@ def main() -> None:
         "no edition exists":
             "**Money does not fix these.** No usable English translation is known to exist. They "
             "stay honest limits, and a world resting on one should say so.",
+        "resolved (attested via a vendored source)":
+            "**Nothing to do.** The claim is attested entirely inside a source this world has "
+            "already vendored — the record names that source, not an edition of its own. "
+            "Verifiable today; listed here only because its own `edition` field, read alone, "
+            "names no `cic/texts/` file.",
+        "not a held text (nothing to acquire)":
+            "**An honest non-want.** The record itself says there is no document to hold rights "
+            "over — a person, an institution, or a general historical pattern, not a text. There "
+            "is nothing to ever acquire, at any price, in any language.",
         "unclassified":
             "Not classifiable from the record's own words. A human should sort these into the "
-            "three above rather than this script guessing.",
+            "categories above rather than this script guessing.",
     }
     for kind in order:
         group = by_kind.get(kind)

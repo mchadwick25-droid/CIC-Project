@@ -1,0 +1,77 @@
+# Library Access Gate — the design sandbox workstream
+
+**Charter (Mark, 2026-09-15):** as the fleet scales toward 100+ worlds
+sharing one massive library, ensure every world is confined to only its
+own tradition's source material — a state-of-the-art library/access
+architecture, built through the divergent/struggle/convergent process
+(`CLAUDE.md`, "How we work"), the same model already worked for
+Website V2. **Design and build the confinement mechanism only.**
+Judging which works belong to which tradition is `cic/corpus-map/`'s
+job and stays out of scope here.
+
+## Baseline (what already exists, measured 2026-09-15)
+
+- **D5 decision** (`Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`):
+  "Venn by shelf, with a gate at the door" — one flat, tradition-organized
+  library (`cic/texts/` + `cic/corpus-map/`), each world gets a generated
+  shelf drawn from its tradition via `census_id`, enforced by a
+  build-time gate (WO-4). Chosen over library-only (no per-world view)
+  and sources-duplicated-inside-each-world.
+- **`tools/gen_shelf.py`** exists and is real (committed `997802250`) —
+  generates a world's `SHELF.md` from its corpus-map bucket. It has
+  never been run in anger: no `SHELF.md` is committed anywhere yet, and
+  nothing calls it in CI.
+- **WO-4** (the actual enforcement gate) is specified as three
+  compile-time checks — work resolves to the world's shelf; every
+  quote/story `address` falls inside that work's locus;
+  `context`/`antecedent`/`transmission` works are citable as evidence
+  but never voiced — but **not implemented**. `engine/m1/gates.py`
+  today checks license validity and verbatim presence, not which
+  section or whose voice.
+- **The backfill WO-4 needs is largely missing**: `work_id` on 10 of
+  343 source records, machine-resolvable `address` on 5 of ~330
+  quote/story records, `WORKS.yaml` has 4 seed entries.
+- Corpus-map itself is non-exclusive by design: 677 staged works, only
+  47 (7%) assigned to a single tradition, median work claimed by 4.
+
+## The funnel
+
+D0 **Immersion** (Fable reads the baseline above, `cic/corpus-map/`,
+`engine/m1/gates.py`, the `engine/m2`/`engine/m6` build patterns) → D1
+**DIVERGE** (Fable: 3–5 genuinely different confinement-architecture
+directions, each argued on correctness, build cost, and scaling to
+100+ worlds over a much larger library — "harden and finish WO-4 as
+already specified" is a legitimate direction but must be argued for
+like any other, not defaulted to) → D2 **STRUGGLE** (Opus adversarial
+review of every direction, filed as a document, not a verdict) → Mark
+picks → D3 **CONVERGE** (frozen design doc) → D4 **BUILD** (increments,
+each read by Mark before merge — same discipline as every other build
+this session, never self-merged).
+
+**Status (2026-09-15): D0–D3 complete and frozen; D4 in progress, 8 of
+10 increments merged (registry split, schema+fixture, `engine/m9`
+core, enforcement, auto-repin+library filter, increment 7's kind-only
+half for all nine real worlds, increment 9's `tools/gen_shelf.py`
+retirement, increment 10's `corpus_index.py`/build-brief/skill pointer
+and the `complement-verbatim` report observation).** The converged design
+is `D3-Converged-Design.md` (moved out of `Sandbox/` on freeze, per
+Website V2's own pattern — `Sandbox/` stays the divergent/struggle
+workshop, the frozen deliverable lives at the workstream's top level).
+Full history — D1's five directions, D2's adversarial review, both Q7
+measurements, the independent freeze check, and all nine-plus-four
+rulings that produced this design — stays in `Sandbox/` and
+`Decision-Log.md`. A halfway Opus architecture review (Decision-Log
+entry 20) reordered the remaining build via change order CO-5 (entry
+22): increment 6 now waits behind corpus-map's CM-1, with increment
+7's `kind`-only half, increment 9, and increment 10 moved ahead of it
+— see §7's amendment note in the design doc for the real execution
+order.
+
+## Model routing (Mark, 2026-09-15)
+
+Sonnet coordinates, keeps the ledger, and carries the converged design
+to build. Fable does the deep research and design synthesis. Opus runs
+the critical/adversarial review. Nothing here evaluates source
+content — that stays corpus-map's job, unchanged.
+
+Decisions land in `Decision-Log.md`, here, workstream-local.

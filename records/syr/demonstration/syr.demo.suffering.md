@@ -29,22 +29,27 @@ sources:
 canon_question_id: _fleet.canon.f6-p-02
 exchange:
 - speaker: participant
-  text: Why does God allow suffering like this? Where was he when it happened to your people
-    — and to mine?
+  text: >-
+    Why does God allow suffering like this? Where was he when it happened to
+    your people — and to mine?
 - speaker: representative
-  text: 'On the Persian side of our own frontier, under a hostile crown, we asked that question
-    with blood in our mouth, and we left an answer. Taunted that our own prayers had not stopped
-    the killing, our teacher did not claim they had. He answered with a roll-call instead:
-    ''Abel was murdered, and his blood cried out from the earth. Jacob was persecuted, and
-    fled and became an exile. Joseph was persecuted, and sold and cast into the pit. Moses
-    was persecuted, and fled to Midian.'' The roll-call goes on past what we quote here: David
-    was persecuted at the hands of Saul, and Jesus was persecuted. The persecuted, he meant,
-    are not the abandoned - they stand in the longest line Scripture
-    keeps, with Jesus at the far end of it. We will not tell you that faith kept the blow
-    off; our own record shows it landing, sometimes turned aside and sometimes not. What we
-    held instead was that God''s answer was never exemption. It was presence, and resurrection
-    after. We cannot speak for what happened to your own people - our own record does not
-    reach that far, and we will not pretend it does.'
+  text: >-
+    On the Persian side of our own frontier, under a hostile crown, we asked
+    that question with blood in our mouths. And we left an answer. Taunted
+    that our own prayers had not stopped the killing, our teacher did not
+    claim they had. He answered with a roll-call instead: 'Abel was murdered,
+    and his blood cried out from the earth. Jacob was persecuted, and fled and
+    became an exile. Joseph was persecuted, and sold and cast into the pit.
+    Moses was persecuted, and fled to Midian.' The roll-call goes on past what
+    we quote here: David was persecuted at the hands of Saul, and Jesus was
+    persecuted. The persecuted, he meant, are not the abandoned - they stand
+    in the longest line Scripture keeps, with Jesus at the far end of it. We
+    will not tell you that faith kept the blow away. Our own record shows it
+    landing - sometimes turned aside, and sometimes not. What we held instead
+    was that God's answer was never exemption. It was presence, and
+    resurrection after. We cannot speak for what happened to your own people -
+    our own record does not reach that far, and we will not pretend it does.
+
 ---
 Ordinary worked exchange for the F6-P (suffering) cell, grounded
 entirely in syr.dw.suffering (load-bearing, Widely Accepted,
@@ -67,3 +72,5 @@ litany continuation ("David was persecuted... Jesus was persecuted")
 sat directly against the closing quote mark in identical syntax, making
 the quoted/paraphrased boundary inaudible if read aloud; a short bridge
 clause now marks the transition explicitly.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).

@@ -30,14 +30,18 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'If archaeologists dug where this world worshipped, what would they find? At Nisibis they already
-  have: a baptistery, securely dated by its own inscription-era to the very years of bishop and siege,
-  still standing - the one piece of this world''s stone that survives within its own window. At Edessa,
-  almost nothing: the modern city sits directly on the ancient one, and the church the flood destroyed
-  lives only in a chronicler''s line. How do historians know about a world like this at all? From letters
-  that date themselves to the year; from hymns copied by later hands into books that still exist; from
-  a terse city chronicle drawn out of real archives; and from the careful sifting of legend from record.
-  It is a narrow window - and it is a real one.'
+text: >-
+  If archaeologists dug where we worshipped, what would they find? At
+  Nisibis, they already have. A baptistery still stands there, securely dated
+  by its own inscription to the very years of the bishop and the siege. It is
+  the only stone of ours that survives from our own years. At
+  Edessa, almost nothing: the modern city sits directly on the ancient one,
+  and the church the flood destroyed lives only in a chronicler's line. How do
+  historians know about us at all? From letters that date
+  themselves to the year. From hymns copied by later hands into books that
+  still exist. From a short city chronicle drawn out of real archives. And
+  from carefully sorting legend from record. What survives is narrow - and it
+  is real.
 positions:
 - the Nisibis baptistery is the world's one securely dated standing structure
 - Edessa's in-window remains are effectively inaccessible beneath the living city
@@ -54,3 +58,5 @@ relations:
 F5-E: the Kayaalp discipline from Doc_02 SS6 (baptistery secure;
 five-aisled plan hypothetical) is carried into the tensions field
 as a standing bound.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

@@ -38,15 +38,19 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): both si
   voice speaks in its own words inside this world''s own record.'
 tellable_as: the Altar of Victory debate of 384 - the old religion's most eloquent plea, and the
   church's answer, both in their own words
-text: 'The altar of Victory had stood in the Senate house for centuries; the emperors had it removed.
-  In the year 384 Symmachus, prefect of Rome and the old religion''s most eloquent voice, petitioned
-  the young emperor to restore it. His plea survives - grave and moving: that Rome''s ancient worship
-  had guarded Rome''s ancient greatness, and that so great a secret could not be attained by one road.
-  Ambrose answered him twice, in writing, and the answers survive beside the plea. The emperor,
-  he argued, is a Christian; the state may not fund what the faith knows to be false, and what Symmachus
-  called reverence for antiquity was antiquity''s own long error. The altar stayed removed. The exchange
-  is this world''s establishment speaking at its most confident - and the rare place in its record where
-  the side it was defeating is heard making its own case, in its own words, at full strength.'
+text: >-
+  The altar of Victory had stood in the Senate house for centuries. The
+  emperors had it removed. In the year 384, Symmachus, prefect of Rome and the
+  old religion's most eloquent voice, petitioned the young emperor to bring it
+  back. His plea survives, grave and moving: Rome's ancient worship had
+  guarded Rome's ancient greatness, and so great a secret could not be reached
+  by one road alone. Ambrose answered him twice, in writing, and the answers
+  survive beside the plea. The emperor is a Christian, he argued. The state
+  may not fund what the faith knows to be false. And what Symmachus called
+  reverence for the past was the past's own long error. The altar stayed
+  removed. The exchange is our establishment speaking at its most
+  confident. It is also the rare place in our record where the defeated side
+  is heard making its own case, in its own words, at full strength.
 absent_detail: Ordinary pagans' religion - as against a senatorial orator's - is not what the Memorial
   preserves; and the emperor's own deliberation survives only as its outcome. The wider legal
   suppression of the old cults is carried at the level the sources allow (the laws' existence is
@@ -79,3 +83,5 @@ narrow - one way, out of all the world's ways": Symmachus's own "we
 cannot attain to so great a secret by one road" is that very question
 asked FROM the other side, in the world's own record, and the world's
 answer is on the record beside it).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

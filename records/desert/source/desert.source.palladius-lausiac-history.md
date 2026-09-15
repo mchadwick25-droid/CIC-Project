@@ -21,6 +21,8 @@ relations:
 author: "Palladius of Galatia (c. 363-c. 430 CE) - monk in Egypt (nine years at Cellia by his own statement, c. 388-399, plus Nitria and Alexandria) before becoming bishop of Helenopolis"
 work: "Lausiac History, c. 419-420 - retrospective monastic history addressed to the imperial chamberlain Lausus; the principal narrative-history source for this world alongside the Historia Monachorum, written by a Greek-educated participant-adjacent insider-outsider; curatorial and retrospective (Doc_01 SS2.3 uses it as a codification-boundary marker); numerical claims (Nitria ~5,000, Pachomian house counts) are order-of-magnitude indicators from an interested witness, never precise counts"
 edition: "trans. W. K. Lowther Clarke (SPCK, 1918), vendored as cic/texts/palladius_lausiac-history_clarke1918.txt (prologue at file line 185; Pachomius/Tabennesiots chapter XXXII at line 397)"
+kind: vendored
+work_id: palladius-lausiac-history
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "carried from the prior Desert build's cleared Doc_02 SS2.1 (srcDES007) and from alx.source.palladius-lausiac-history (world/alexandria), whose own bound reserved the received desert accounts for this world's question; rights read from the file's own prepended provenance header"

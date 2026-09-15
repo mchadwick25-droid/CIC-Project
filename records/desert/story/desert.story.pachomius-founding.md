@@ -43,7 +43,30 @@ relations:
 narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative) for the founding's broad outline and datable range; the vision and brass-tablet legend inside it carry Palladius's own hagiographic frame, which this record's own tellable_as and text mark rather than present as neutral incident report."
 tellable_as: "how one man's own solitary path became a rule for many - a vision, a tablet, and a community that grew to thousands"
-text: "The tradition tells that Pachomius, already advanced in the solitary life, sat one day in his cave when an angel came to him and said: your own life is in order; it is enough - go out now and gather the young monks who need what you have already learned, and live with them. And the angel gave him a tablet of brass with a rule written on it: let each eat and work according to his own strength; let no one be forced past what he can bear or excused from all discipline either; divide the community into sections, each marked by a letter of the alphabet, so that the head of the house could ask after any section by its letter alone, its own private meaning known only to the spiritual; a stranger from another house may not eat or drink among them without leave; a man who comes to stay is not allowed to enter the sanctuary for three years, until his own steadiness has been tested. Pachomius, they say, protested that the prayers set down were few; the angel answered that the rule was pitched for the weak, so that even the little ones could keep it, and that the perfect need no rule at all, having already given the whole of their life to God in their own cells. The tradition also remembers that Pachomius was joined first by his own brother John, and afterward by others, at Tabennesi in the Thebaid. Writing decades after Pachomius's death, Palladius still found the community numbering some seven thousand men across its houses, thirteen hundred in the first and greatest of them - a witness's own rough count, not a precise census. By other report, the community Pachomius left at his own death in 346 stood at nine houses for men and two for women, with a membership in the low thousands - itself likewise an order-of-magnitude estimate, not a precise count."
+text: >-
+  The tradition tells that Pachomius, already far along in the solitary life,
+  sat one day in his cave when an angel came to him. The angel said: your own
+  life is in order; it is enough. Go out now, gather the young monks who need
+  what you have already learned, and live with them. And the angel gave him a
+  tablet of brass with a rule written on it. Each was to eat and work
+  according to his own strength. No one was to be forced past what he could
+  bear, or excused from all discipline either. The community was to be divided
+  into sections, each marked by a letter of the alphabet, so the head of the
+  house could ask after any section by its letter alone - a private code whose
+  meaning only the spiritual knew. A stranger from another house could not eat
+  or drink among them without leave. A newcomer could not enter the sanctuary
+  for three years, until his steadiness had been tested. Pachomius, they say,
+  protested that the prayers set down were too few. The angel answered that
+  the rule was pitched for the weak, so even the little ones could keep it -
+  the perfect need no rule at all, having already given their whole life to
+  God in their own cells. The tradition also remembers that Pachomius was
+  joined first by his own brother John, and then by others, at Tabennesi in
+  the Thebaid. Writing decades after Pachomius's death, Palladius found the
+  community numbering some seven thousand men across its houses, thirteen
+  hundred in the first and greatest - a witness's own rough count, not a
+  precise census. By another report, the community Pachomius left at his death
+  in 346 stood at nine houses for men and two for women, with membership in
+  the low thousands - likewise a rough estimate, not a precise count.
 absent_detail: "No account here claims the vision or the tablet as verified history rather than the tradition's own remembered founding story; Palladius's own text is a hagiographic summary at one remove from the Rule's own text, not the Rule itself, and the multiple, only partially overlapping recensions of the Lives carry a genuinely unresolved version-priority debate this document does not adjudicate."
 modern_contrast: "A modern reader may hear a founder receiving a revelation and scaling an organization and reach for the contemporary \"founder origin story\" genre - a visionary's master plan. This world's own record frames the angel and tablet as an answer to a real, specific problem this world faced (desert.force.formation-at-scale: how a formation demanding one extraordinary hermit's own intensity could work for many, not one man's ambition), and the vision itself carries Palladius's own hagiographic frame rather than neutral incident report, as this record's own tellable_as and text already mark."
 ---
@@ -100,3 +123,5 @@ among you, and how did anyone come to have it?") with the Rule's own
 origin story - authority here is given by vision and written down, not
 only earned through personal relationship, the same contrast
 desert.gravity.authority-tension names.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

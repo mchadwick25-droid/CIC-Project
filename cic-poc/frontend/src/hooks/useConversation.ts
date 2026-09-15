@@ -7,47 +7,10 @@
  * survive a reload of the same tab, not follow the participant to a new tab
  * or persist past the tab's lifetime.
  */
-import { useCallback, useState } from 'react';
+import { useCallback, useRef, useState } from 'react';
 import { ApiRequestError, createSession, getTranscript, sendMessage } from '../lib/api';
+import { clearStored, readStored, writeStored } from '../lib/sessionStore';
 import type { FacilitatorTurn, TranscriptEntry, VoiceTurn } from '../types/conversation';
-
-const STORAGE_KEY = 'cic_session';
-
-interface StoredSession {
-  sessionId: string;
-  sessionCode: string;
-  worldKey: string;
-}
-
-function readStored(): StoredSession | null {
-  try {
-    const raw = sessionStorage.getItem(STORAGE_KEY);
-    if (!raw) return null;
-    const parsed = JSON.parse(raw);
-    if (typeof parsed?.sessionId === 'string' && typeof parsed?.sessionCode === 'string' && typeof parsed?.worldKey === 'string') {
-      return parsed;
-    }
-    return null;
-  } catch {
-    return null;
-  }
-}
-
-function writeStored(session: StoredSession) {
-  try {
-    sessionStorage.setItem(STORAGE_KEY, JSON.stringify(session));
-  } catch {
-    // Private browsing / quota - reconnect-on-refresh just won't work.
-  }
-}
-
-function clearStored() {
-  try {
-    sessionStorage.removeItem(STORAGE_KEY);
-  } catch {
-    // Nothing to clean up if storage isn't available.
-  }
-}
 
 export interface ConversationTurn {
   speaker: 'participant' | 'facilitator' | string; // world_key for a voice turn
@@ -63,7 +26,7 @@ export interface ConversationTurn {
 // overlaps the 'participant' literal structurally and defeats TS's usual
 // discriminated-union narrowing. `kind`/`citations` are each unique to one
 // branch, so checking for those instead narrows cleanly.
-function toTurn(entry: TranscriptEntry): ConversationTurn {
+export function toTurn(entry: TranscriptEntry): ConversationTurn {
   if ('kind' in entry) return { speaker: 'facilitator', text: entry.text, kind: entry.kind };
   if ('citations' in entry) {
     return { speaker: entry.speaker, text: entry.text, citations: entry.citations, figuresUsed: entry.figures_used, glosses: entry.glosses };
@@ -79,6 +42,9 @@ interface ConversationState {
   closed: boolean;
   isLoading: boolean;
   error: string | null;
+  // True when the honest remedy is starting fresh (restarted server,
+  // closed session) - the screens render a begin-again button for these.
+  errorRecoverable: boolean;
 }
 
 const initialState: ConversationState = {
@@ -89,16 +55,22 @@ const initialState: ConversationState = {
   closed: false,
   isLoading: false,
   error: null,
+  errorRecoverable: false,
 };
 
 export function useConversation() {
   const [state, setState] = useState<ConversationState>(initialState);
+  // One client_msg_id per LOGICAL message: resending the same text after a
+  // failure reuses the id, so the server's idempotency check (2026-08-28
+  // audit fix) can refuse the duplicate instead of double-answering and
+  // double-spending. New text = new id = a genuinely new message.
+  const lastAttemptRef = useRef<{ text: string; id: string } | null>(null);
 
   const begin = useCallback(async (worldKey: string) => {
-    setState((prev) => ({ ...prev, isLoading: true, error: null }));
+    setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false }));
     try {
       const { session_id, session_code } = await createSession(worldKey);
-      writeStored({ sessionId: session_id, sessionCode: session_code, worldKey });
+      writeStored({ sessionId: session_id, sessionCode: session_code, mode: 'interview', worldKey });
       // create_session already appends the Facilitator's door turn (its
       // first-ever line - engine/api/wiring.py) before this ever returns,
       // so one transcript fetch picks it up rather than starting the
@@ -112,11 +84,13 @@ export function useConversation() {
         closed: transcript.closed,
         isLoading: false,
         error: null,
+        errorRecoverable: false,
       });
       return session_id;
     } catch (error) {
-      const message = error instanceof ApiRequestError ? error.message : 'Could not start a conversation.';
-      setState((prev) => ({ ...prev, isLoading: false, error: message }));
+      const message = error instanceof ApiRequestError ? error.message : 'We couldn\'t reach the room just now. Check your connection, then try again.';
+      const recoverable = error instanceof ApiRequestError && error.recoverable;
+      setState((prev) => ({ ...prev, isLoading: false, error: message, errorRecoverable: recoverable }));
       return null;
     }
   }, []);
@@ -128,9 +102,11 @@ export function useConversation() {
         setState((prev) => ({ ...prev, error: 'No active session' }));
         return false;
       }
-      setState((prev) => ({ ...prev, isLoading: true, error: null, turns: [...prev.turns, { speaker: 'participant', text }] }));
+      setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false, turns: [...prev.turns, { speaker: 'participant', text }] }));
       try {
-        const result = await sendMessage(sessionId, sessionCode, text, crypto.randomUUID());
+        const attempt = lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
+        lastAttemptRef.current = attempt;
+        const result = await sendMessage(sessionId, sessionCode, text, attempt.id);
         setState((prev) => {
           const appended: ConversationTurn[] = [];
           if (result.facilitator) appended.push({ speaker: 'facilitator', text: result.facilitator.text, kind: result.facilitator.kind });
@@ -149,8 +125,9 @@ export function useConversation() {
         });
         return true;
       } catch (error) {
-        const message = error instanceof ApiRequestError ? error.message : 'That message did not go through.';
-        setState((prev) => ({ ...prev, isLoading: false, error: message }));
+        const message = error instanceof ApiRequestError ? error.message : 'That message didn\'t go through - check your connection and try again.';
+        const recoverable = error instanceof ApiRequestError && error.recoverable;
+        setState((prev) => ({ ...prev, isLoading: false, error: message, errorRecoverable: recoverable }));
         return false;
       }
     },
@@ -159,7 +136,7 @@ export function useConversation() {
 
   const rehydrate = useCallback(async (): Promise<string | null> => {
     const stored = readStored();
-    if (!stored) return null;
+    if (!stored || stored.mode !== 'interview' || !stored.worldKey) return null;
     try {
       const transcript = await getTranscript(stored.sessionId, stored.sessionCode);
       if (transcript.closed) {
@@ -174,6 +151,7 @@ export function useConversation() {
         closed: transcript.closed,
         isLoading: false,
         error: null,
+        errorRecoverable: false,
       });
       return stored.worldKey;
     } catch {
@@ -195,6 +173,7 @@ export function useConversation() {
     closed: state.closed,
     isLoading: state.isLoading,
     error: state.error,
+    errorRecoverable: state.errorRecoverable,
     begin,
     send,
     rehydrate,

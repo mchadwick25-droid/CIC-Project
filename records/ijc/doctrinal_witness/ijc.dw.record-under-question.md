@@ -24,17 +24,21 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'How much of this world would hold up in a library? More than most ancient worlds - and the
-  places where it would not are known by name. Its spine is documents: council acts with dates and
-  signatures, canons, imperial laws, letters between named men about named disputes - instruments a
-  historian can cross-check, and does. That is the strong half. The honest other half: nearly all of
-  it was kept by the winners. The Homoian church that once ran the empire survives mostly in its
-  enemies'' histories; ordinary believers survive hardly at all; and Rome''s later admirers forged
-  documents in Damasus''s name good enough that telling real from forged is still scholars'' work. Some
-  founding stories are attested twice and disagree - the emperor''s vision and the emperor''s dream are
-  both on record, and they are not the same story. So: the events and instruments, solid; the coverage,
-  narrow; the framing, interested. This world can show its receipts, and its receipts show who kept
-  the books.'
+text: >-
+  How much of our story would hold up in a library? More than most
+  ancient worlds, and the places where it would not are known by name. The
+  spine of it is documents: council acts with dates and signatures, church canons,
+  imperial laws, and letters between named men about named disputes. A
+  historian can cross-check those instruments, and historians do. That is the
+  strong half. The honest other half is that nearly all of it was kept by the
+  winners. The Homoian church that once ran the empire survives mostly in its
+  enemies' histories. Ordinary believers survive hardly at all. And Rome's
+  later admirers forged documents in Damasus's name well enough that telling
+  real from forged is still scholars' work. Some founding stories are attested
+  twice and disagree: the emperor's vision and the emperor's dream are both on
+  record, and they are not the same story. So the events and instruments are
+  solid, the coverage is narrow, and the framing is interested. We can
+  show our receipts, and our receipts show who kept the books.
 positions:
 - the documentary core (councils, canons, laws, letters) is unusually strong and checkable
 - the record's gaps are structural and nameable - the losing side, the ordinary believer, the forged
@@ -53,3 +57,5 @@ thinnest") each met with the record's real strengths and its named
 gaps. Grounds the same territory ijc.force.transmission-archival and
 ijc.contested.damasine-decretals cover at the mechanism level, here in
 answer-ground form.
+
+REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).

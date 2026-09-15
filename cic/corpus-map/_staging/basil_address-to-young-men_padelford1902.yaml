@@ -1,0 +1,16 @@
+# Worker notes, 2026-09-02. Pearse file, no ThML markup - author slug from
+# filename, matching AUTHORS.md's `basil`.
+source_file: basil_address-to-young-men_padelford1902.txt
+assignments:
+- work: Address to Young Men on the Right Use of Greek Literature
+  author: basil
+  locus: whole file - Outline, chapters I-X, closing paragraph, 68 footnotes
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: assigned
+  note: >
+    Basil of Caesarea's own work - one of the three Cappadocian
+    Fathers. Directly relevant to this world's Doc_02 SS1.1 citation;
+    closed the last item on this world's Source Acquisition Manifest
+    download list per the file's own vendoring note.

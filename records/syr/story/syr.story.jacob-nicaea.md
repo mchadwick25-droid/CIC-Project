@@ -7,6 +7,7 @@ status: draft
 register: emic
 canon_cells:
 - F1-I
+- C-T
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -37,12 +38,13 @@ narrative_tier_justification: 'Tier 2 (collected tradition): two independent lat
   (Peeters) - so collected community memory with reasonably secure attribution, below documented-narrative
   strength.'
 tellable_as: the tradition's memory of its own bishop standing at the great council
-text: When the bishops of the whole world gathered at Nicaea in the year 325 to answer Arius, the tradition
-  remembers that Jacob, bishop of Nisibis, was among them - one voice from the Syriac-speaking frontier
-  standing with those who confessed the Son as true God. The lists that record the council's signers,
-  pieced together by later hands, carry his name among the assembled bishops. His own city remembered
-  him afterward as its father and guardian, and Ephrem's hymns for Nisibis sing of Jacob first among its
-  bishops.
+text: >-
+  In the year 325, the bishops of the whole world gathered at Nicaea to answer
+  Arius. The tradition remembers that Jacob, bishop of Nisibis, was among
+  them: one voice from the Syriac-speaking frontier, standing with those who
+  confessed the Son as true God. The lists that record the council's signers were pieced together by later hands. They carry his name among the assembled bishops.
+  His own city remembered him afterward as its father and guardian, and
+  Ephrem's hymns for Nisibis sing of Jacob first among its bishops.
 absent_detail: No account of what Jacob said or did at the council survives - only the memory of his presence
   and his stand. The signature lists are late, composite reconstructions, and the telling keeps 'the tradition
   remembers' audible rather than claiming a contemporary document.
@@ -58,3 +60,11 @@ from the Tier 3 siege legend so a well-attested institutional fact
 and a miracle account are never blended - the legacy chunk's own
 standing rule, enforced in the do_not_retrieve_when). Serves F1-I
 (the councils question) beside syr.dw.decides.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+
+CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
+and the five world read"; V1.2 birth condition applied to the existing
+fleet - one story and one term per center cell where they genuinely
+belong, honest empties recorded). Added to C-T: "Was Jesus God?" - the tradition's memory of its own bishop standing at Nicaea with those who confessed the Son as true God grounds this world's yes. Content unchanged; the added
+cell and this note are the whole edit.

@@ -34,14 +34,18 @@ narrative_tier_justification: Tier 2 (collected traditional material) for the st
   the condemnation, the disruption - Widely Accepted); the particulars are Eusebius-mediated at HIGH author-gravity
   risk and are told here at structural level only, per the standing screen.
 tellable_as: the remembered rupture between the city's greatest teacher and its bishop
-text: 'For years the teacher and the bishop had held together: Demetrius governed the church, Origen taught,
-  and the school''s fame filled the city. The break came over authority. Traveling through Palestine,
-  Origen was ordained presbyter by bishops there - without his own bishop''s consent. Demetrius condemned
-  the ordination and the teacher. Origen left Alexandria for Caesarea, about his forty-sixth year, and
-  never taught in the city again. The church kept both memories: the office that had to be honored, and
-  the teacher whose like it never had again. What each man said, and with what heart, the record does
-  not let us hear - what remains is the wound itself: the school''s most fruitful period ended not by
-  persecution from outside but by conflict within the household.'
+text: >-
+  For years the teacher and the bishop held together. Demetrius governed the
+  church, Origen taught, and the school's fame filled the city. The break came
+  over authority. Traveling through Palestine, Origen was ordained a presbyter
+  by the bishops there - without his own bishop's consent. Demetrius condemned
+  the ordination, and the teacher with it. Origen left Alexandria for
+  Caesarea, around his forty-sixth year, and never taught in the city again.
+  The church kept both memories: the office that had to be honored, and the
+  teacher whose like it never had again. What each man said, and with what
+  heart, the record does not let us hear. What remains is the wound itself.
+  The school's most fruitful period was ended, not by persecution from
+  outside, but by conflict inside the household.
 absent_detail: Nearly every particular reaches us through Eusebius's selection, and he is an interested
   narrator (an admirer of Origen, hostile to Demetrius's memory). The inner motives of both men are unrecoverable;
   this telling deliberately refuses them. The synodal documents are lost.
@@ -57,3 +61,5 @@ settled) and F3-I (who held authority - the tension made visible). The
 telling is structural-only by design: the screen is in the tier
 justification and the absent_detail, and any expansion must come from
 the sources, not from filling.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

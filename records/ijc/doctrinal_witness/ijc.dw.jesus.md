@@ -27,15 +27,19 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'To this world Jesus is the one the whole argument was about - and the argument was the devotion.
-  Who was he? Very God of very God, the creed answers: of one being with the Father, who for us men and
-  for our salvation came down and was made man, suffered, rose the third day. A century of councils
-  spent itself making those words exact, because everything hung on them: if the Son is not truly God,
-  then what he gives is not truly God''s to give. Leo''s letter says why the exactness mattered - true
-  God and true man, each nature doing what is proper to it in one person, so that the death could be
-  ours and the victory could be God''s. This world did not write devotional memoirs about Jesus; it
-  wrote definitions, and it wrote them the way men write what they are prepared to be exiled over. The
-  definitions are the devotion, in the idiom this world actually had.'
+text: >-
+  To us, Jesus was the one the whole argument was about, and the
+  argument itself was our devotion. Who was he? The creed answers: very God
+  of very God, of one being with the Father, who for us and for our salvation
+  came down, was made man, suffered, and rose on the third day. A century of
+  councils spent itself making those words exact, because everything hung on
+  them. If the Son is not truly God, then what he gives is not truly God's to
+  give. Leo's letter explains why the exactness mattered: true God and true
+  man, each nature doing what belongs to it in one person, so that the death
+  could be ours and the victory could be God's. We did not write
+  devotional memoirs about Jesus. What we wrote were definitions, and we wrote
+  them the way people write what they are prepared to be exiled over. In the
+  language we actually had, the definitions were the devotion.
 positions:
 - Jesus is truly God - of one and the same being with the Father, not a lesser or later being
 - he is truly man - born, suffering, dying; the manhood not swallowed by the Godhead
@@ -53,3 +57,5 @@ answered in its own conciliar idiom rather than a borrowed devotional
 one - with the honest note that its answer's genre is itself the
 world's signature. Companion quotes: ijc.quote.nicene-creed,
 ijc.quote.chalcedon-definition, ijc.quote.leo-tome-each-form.
+
+REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).

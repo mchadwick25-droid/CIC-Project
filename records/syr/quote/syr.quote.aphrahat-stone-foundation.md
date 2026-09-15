@@ -19,6 +19,10 @@ sources:
   license: public-domain
 text: Thus also the true Stone, our Lord Jesus Christ, is the foundation of all our faith. And on Him,
   on [this] Stone faith is based. And resting on faith all the structure rises until it is completed.
+modern_rendering: >-
+  In the same way the true Stone, our Lord Jesus Christ, is the foundation of
+  all our faith. On him, on this Stone, faith is laid; and resting on faith,
+  the whole structure rises until it is complete.
 speaker_or_author: syr.figure.aphrahat
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
@@ -30,3 +34,5 @@ retrieval:
   do_not_retrieve_when: []
 ---
 Verified verbatim against the vendored npnf213 text (Demonstration I.2). The faith-and-works house teaching's cornerstone line.
+
+MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.

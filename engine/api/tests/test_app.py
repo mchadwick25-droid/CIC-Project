@@ -40,17 +40,21 @@ def test_list_worlds(store, usage_store, world_loader, registry):
     assert "fix" not in {w["world_key"] for w in worlds}
     assert len(worlds) == sum(1 for v in registry.values() if v.get("kind") == "formation")
     pahc = next(w for w in worlds if w["world_key"] == "pahc")
-    assert pahc["display_name"] == "Post-Apostolic House-Church Christianity"
+    assert pahc["display_name"] == "Post-Apostolic Household-Church Christianity"
     assert pahc["horizon"]
     assert pahc["starters"]
 
 
-def test_create_session_default_world(store, usage_store, world_loader, registry):
+def test_create_session_with_no_world_is_refused(store, usage_store, world_loader, registry):
+    """The 2026-08-28 foundation audit's fixture hole: POST {} used to
+    seat a session on default_world_key - which production configured as
+    the synthetic fixture world the registry says must never be
+    participant-reachable. A session now names its world or doesn't
+    open."""
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
     resp = http.post("/api/session", json={})
-    assert resp.status_code == 201
-    body = resp.json()
-    assert "session_id" in body and "session_code" in body
+    assert resp.status_code == 400
+    assert "world_key" in resp.json()["detail"]
 
 
 def test_create_session_explicit_world(store, usage_store, world_loader, registry):
@@ -72,7 +76,7 @@ def test_message_happy_path(store, usage_store, world_loader, registry):
         stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
     )
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
-    created = http.post("/api/session", json={}).json()
+    created = http.post("/api/session", json={"world_key": "fix"}).json()
 
     resp = http.post(
         f"/api/session/{created['session_id']}/message",
@@ -87,7 +91,7 @@ def test_message_happy_path(store, usage_store, world_loader, registry):
 
 def test_message_wrong_code_and_missing_session_are_identical_401(store, usage_store, world_loader, registry):
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
-    created = http.post("/api/session", json={}).json()
+    created = http.post("/api/session", json={"world_key": "fix"}).json()
 
     wrong_code_resp = http.post(
         f"/api/session/{created['session_id']}/message",
@@ -124,7 +128,7 @@ def test_an_unhandled_routing_action_is_not_reported_as_a_provider_failure(store
     monkeypatch.setattr(wiring, "run_turn", _boom)
     client = FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
-    created = http.post("/api/session", json={}).json()
+    created = http.post("/api/session", json={"world_key": "fix"}).json()
 
     with pytest.raises(UnhandledRoutingAction):
         http.post(
@@ -141,7 +145,7 @@ def test_transcript_reflects_committed_turns(store, usage_store, world_loader, r
         stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
     )
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
-    created = http.post("/api/session", json={}).json()
+    created = http.post("/api/session", json={"world_key": "fix"}).json()
     headers = {"Authorization": f"Session {created['session_code']}"}
     http.post(f"/api/session/{created['session_id']}/message", headers=headers, json={"text": "who was Jesus"})
 
@@ -273,7 +277,7 @@ def test_the_eleventh_message_closes_gracefully_and_a_twelfth_is_refused(store, 
         stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
     )
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
-    created = http.post("/api/session", json={}).json()
+    created = http.post("/api/session", json={"world_key": "fix"}).json()
     headers = {"Authorization": f"Session {created['session_code']}"}
 
     for i in range(SESSION_TURN_CAP):

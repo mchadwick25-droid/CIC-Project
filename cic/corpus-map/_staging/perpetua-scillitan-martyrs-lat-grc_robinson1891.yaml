@@ -1,0 +1,46 @@
+# Robinson's 1891 edition: Latin/Greek text of both the Passio S. Perpetuae
+# and, as its own stated Appendix, the Passio Sanctorum Scillitanorum.
+# Vendored 2026-09-08. Two distinct works, two distinct existing corpus-map
+# placements -- see each assignment's own note.
+source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
+
+assignments:
+  - work: "The Passion of the Scillitan Martyrs"
+    author: passion-of-scillitan-martyrs
+    locus: "pp. 112-117 of the printed volume (the Appendix), plus two later Latin recensions at pp. 118-121"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin/Greek second witness for the ALREADY-PRESENT English-language
+      entry in this same corpus-map bucket (source_file
+      anf09_gospel-of-peter-diatessaron-origen-commentaries.xml), which
+      Source_Registry.md row 28 holds Excluded/Named Comparandum (predates
+      this world's own c. 246 boundary by 66 years). This second-witness
+      file does not change that disposition -- mirrors the existing entry's
+      own role and confidence exactly, rather than asserting a new one.
+
+  - work: "The Passion of the Holy Martyrs Perpetua and Felicitas"
+    author: passion_of_perpetua
+    locus: "pp. 60-95 of the printed volume"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin/Greek second witness for the ALREADY-PRESENT English-language
+      entry in tertullian-s-voice.yaml (source_file anf03_tertullian.xml,
+      corrected here, independent review Round 25's own L5, from an
+      earlier draft's own "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml,"
+      carried over by mistake from the sibling Scillitan-Martyrs assignment
+      above in this same file; anf03_tertullian.xml carries the work in
+      full, printed as an Appendix, while anf09 names it only in editorial
+      footnotes), per Mark's own 2026-08-26 ruling assigning this work
+      there rather than to any Latin-pastoral bucket. This file does not
+      reassign it -- mirrors the existing ruling exactly. (Contrary to
+      this file's own accompanying task brief, which described Perpetua's
+      Passion as "not yet assigned to any world's corpus map" --
+      independently checked before writing this entry and found already
+      assigned, per the ruling cited above; corrected here rather than
+      silently re-asserted.)

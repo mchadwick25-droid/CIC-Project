@@ -17,6 +17,7 @@ author: Aphrahat, 'the Persian Sage'
 work: Demonstration VII (On Penitents) and Demonstration II (On Love)
 edition: trans. Frank H. Hallock, Journal of the Society of Oriental Research 16 (1932) and the same translator's
   series; vendored as cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt
+kind: vendored
 rights_status: 'public-domain (per the transcriber''s own declaration carried in the file - Roger Pearse,
   2006; NOTE: the 1932 translation does not clear the corpus''s usual pre-1930 date rule and rests on
   that declaration, accepted by the project lead 2026-08-18)'

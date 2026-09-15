@@ -18,6 +18,7 @@ relations:
 author: "Origen (c. 185-254 CE); anthology compiled in-horizon by Basil the Great and Gregory Nazianzen"
 work: "Philocalia - the Greek anthology of Origen's writings: the Greek-derived control text against Rufinus's softened Latin (where a passage exists in both, the Philocalia's Greek is the stronger witness, esp. De Principiis IV on the senses of Scripture)"
 edition: "trans. George Lewis (T. & T. Clark, Edinburgh, 1911) - translator identification carried on external bibliographic grounds (archive.org/details/philocaliaoforig00orig), not stated inline in the transcription; vendored as cic/texts/origen_philocalia_lewis1911.txt"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.origen-philocalia-lewis, promoted to top remaining acquisition in manifest v2); supplied by Mark 2026-08-21 (commit 311b132); rights read from the file's own header and Pearse's public-domain declaration in its footer"
@@ -35,8 +36,15 @@ too does Scripture", at line 76).
 The relation to alx.source.origen-de-principiis implements what that
 record's body and the search record both required: any record citing De
 Principiis IV should prefer or cross-check the Philocalia's Greek-derived
-text against Crombie-of-Rufinus. Translator-attribution honesty: the file
-itself never names Lewis; the edition field says so, matching the corpus's
+text against Crombie-of-Rufinus. Translator-attribution honesty: corrected
+2026-09-08, records/alx audit - this previously said "the file itself never
+names Lewis," which contradicts the file it describes: the vendored file's
+own prepended provenance header names Lewis twice ("Lewis, George
+(Translator)" and "Translator identification (George Lewis, T. & T. Clark,
+1911)..." at lines ~5 and ~10 of cic/texts/origen_philocalia_lewis1911.txt).
+What is actually true, and what the edition field says: the translator
+credit does not appear inline within the transcribed Philocalia text
+itself, only in that prepended header - matching the corpus's
 external-only attribution pattern (addai, optatus).
 
 Serves F2 above all (inspiration, the sealed book, solecisms, the one

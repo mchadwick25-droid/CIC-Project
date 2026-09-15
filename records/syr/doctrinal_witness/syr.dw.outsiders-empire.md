@@ -27,14 +27,18 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Were these Christians hiding in catacombs? No - that is another city''s story. In Edessa a church
-  building stood early enough to be destroyed in the great flood, and the city''s own chronicle records
-  it as plainly as it records palaces; on the frontier, believers assembled openly on the first day of
-  the week. Did the empire change what the church was? Here the question turns strange and sharp: when
-  Rome''s emperor became a Christian, the church on the PERSIAN side paid for it. The King of Kings''
-  court accused Persia''s bishops of loving Rome - the charge laid against Simeon was that his sympathies
-  served the emperor - and being Christian began to sound like being the enemy''s friend. Constantine''s
-  peace, seen from this frontier, arrived as another empire''s blessing and this empire''s suspicion.'
+text: >-
+  Were these Christians hiding in catacombs? No - that is another city's
+  story. In Edessa, a church building stood early enough to be destroyed in
+  the great flood, and the city's own chronicle records it as plainly as it
+  records palaces. On the frontier, believers gathered openly on the first day
+  of the week. Did the empire change what the church was? Here the question
+  turns strange and sharp. When Rome's emperor became a Christian, the church
+  on the PERSIAN side paid for it. The King of Kings' court accused Persia's
+  bishops of loving Rome. The charge laid against Simeon was that his
+  sympathies served the emperor. Being Christian began to sound like being the
+  enemy's friend. Constantine's peace, seen from this frontier, arrived as
+  another empire's blessing and this empire's suspicion.
 positions:
 - 'worship was public and civic: buildings, assemblies, a place in the city''s own records'
 - Rome's christianization made Persian Christians politically suspect - the frontier inversion of the
@@ -51,3 +55,5 @@ relations:
 F3-E: the frontier inversion is this world's distinctive evidential
 answer; the Simeon accusation is verified in the vendored Sozomen
 II.9 text (suspected communication with the Romans).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept.

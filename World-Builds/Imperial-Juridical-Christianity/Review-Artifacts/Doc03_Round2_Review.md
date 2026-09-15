@@ -12,7 +12,7 @@ All seven Round 1 findings independently re-verified as genuinely fixed:
 - *homoousios* cross-strand recast confirmed accurate and well-supported; removing the Eusebius rows-1-2 citation in favor of row 9 (Nicaea) confirmed correct against those rows' actual Registry licenses.
 - Author-Gravity synthesis note's three-pattern distinction confirmed correct, each of the five High-risk terms correctly assigned.
 - Term count (twelve) confirmed exact.
-- *martyrium* citation confirmed verbatim against `CiC_Step0_Conclusion_FINAL_v2.docx` directly ("most substantively attested in world #4 and present in world #1").
+- *martyrium* citation confirmed verbatim against `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` directly ("most substantively attested in world #4 and present in world #1").
 - *presbeia*/Nicaea contrast-point framing confirmed historically accurate (Canon 6's custom-grounding vs. Canon 3's proximity-grounding) and consistent with row 9's actual license.
 - "Splits cleanly" rewrite and Tier-1 proportion note both confirmed accurate in substance.
 

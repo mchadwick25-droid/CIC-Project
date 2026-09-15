@@ -1,0 +1,1166 @@
+Title: De Contemptu Mundi ("On Contempt for the World" / "The World Contemned"), an Epistle to His Kinsman Valerianus
+Creator: Eucherius, bishop of Lyon (c. 380 - c. 449), translated by Henry Vaughan the Silurist (1654)
+Publisher: Christian Classics Ethereal Library (CCEL), PDF edition (Grand Rapids, MI); original translation printed London, 1654, in Vaughan's "Flores Solitudinis"
+Publication Date: 1654 (translation); CCEL PDF production date not stated on the file itself
+Rights: Public Domain
+Rights basis: CCEL's own page states explicitly, "This document is in the public domain. Copying it is encouraged" (verified directly, https://ccel.org/ccel/eucherius/contempt.i.html, 2026-09-09); independently, the 1654 translation itself is trivially out of copyright by age.
+Source: ccel.org (the bare domain -- note that www.ccel.org is blocked by this session's network egress proxy, but ccel.org without the www prefix is reachable), PDF `https://ccel.org/ccel/e/eucherius/contempt/cache/contempt.pdf`, downloaded directly 2026-09-09, text extracted via pdfminer.six.
+Provenance note: this header was prepended by the build thread; the PDF's own extracted text carried none beyond CCEL's own front matter (preserved below). Running page headers ("Eucherius to His Kinsmen Valerianus" / "Indexes" / etc.) repeat two to three times at each page break, an artifact of the PDF's own header/footer layout surviving text extraction -- not corrected, per this project's practice of preserving vendored text as extracted rather than hand-editing it.
+Content note: CCEL's own front matter (description, table of contents), Editor's Note, Title Page, Translator's Introduction, the letter itself ("Eucherius to His Kinsmen Valerianus"), an Editorial Postscript, and CCEL's own Index of Scripture References -- the complete 31-page CCEL PDF, not excerpted. A third Lerins-insider primary voice alongside Cassian and Vincent of Lerins, distinct in genre (epistolary renunciation essay) from either -- this world's only Native primary source in English translation from Eucherius (contrast the Latin-only De Laude Eremi, vendored separately, same session). Vendored for Gallic Monastic-Ascetic Christianity (era 2, c. 360-450) -- see gallic_Source_Registry.md row 25 and gallic_G1_Scope_and_Source_Acquisition_Manifest.md.
+
+---
+
+De Contemptu Mundi
+
+Author(s): Eucherius of Lyons, St.
+
+Publisher: Grand Rapids, MI: Christian Classics Ethereal Library
+
+Description:
+
+In the early fifth century, St. Eucherius became famous
+across southeastern Gaul for his piety and asceticism. In this
+letter to his kinsman, Valerianus, Eucherius entreats Valeri-
+anus to give up his wealth, titles, and future in order to ded-
+icate himself to God. The Saint argues that these worldly
+pleasures only work to distract the soul from its heavenly
+purpose. Instead, the faithful heed the words of Matthew
+6:19-21: “Do not lay up for yourselves treasures on earth,
+where moth and rust destroy and where thieves break in and
+steal, but lay up for yourself treasures in heaven, where
+neither moth nor rust destroys and where thieves do not
+break in and steal. For where your treasure is, there your
+heart will be also.”
+Kathleen O’Bannon
+CCEL Staff
+
+Subjects: Christianity
+
+Early Christian Literature. Fathers of the Church, etc.
+
+i
+
+Contents
+
+Title Page
+
+Prefatory Material
+
+Editor’s Note
+
+Title Page
+
+Translator’s Introduction
+
+Eucherius to His Kinsmen Valerianus
+
+Editorial Postscript
+
+Indexes
+
+Index of Scripture References
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+25
+
+26
+
+27
+
+ii
+
+This PDF file is from the Christian Classics Ethereal Library, www.ccel.org. The mission of
+the CCEL is to make classic Christian books available to the world.
+
+• This  book 
+
+is  available 
+
+in  PDF,  HTML,  ePub,  and  other 
+
+formats.  See
+
+http://www.ccel.org/ccel/eucherius/contempt.html.
+
+• Discuss this book online at http://www.ccel.org/node/2834.
+
+The CCEL makes CDs of classic Christian literature available around the world through the
+Web  and  through  CDs.  We  have  distributed  thousands  of  such  CDs  free  in  developing
+countries. If you are in a developing country and would like to receive a free CD, please
+send a request by email to cd-request@ccel.org.
+
+The  Christian  Classics  Ethereal  Library  is  a  self  supporting  non-profit  organization  at
+Calvin College. If you wish to give of your time or money to support the CCEL, please visit
+http://www.ccel.org/give.
+
+This PDF file is copyrighted by the Christian Classics Ethereal Library. It may be freely
+copied for non-commercial purposes as long as it is not modified. All other rights are re-
+served. Written permission is required for commercial use.
+
+iii
+
+Title Page
+
+Title Page
+
+EUCHERIUS OF LYONS, On Contempt for the World
+
+(1654 Vaughan translation)
+
+THE SAINT PACHOMIUS ORTHODOX LIBRARY
+
+This document is in the public domain. Copying it is encouraged.
+
+DE CONTEMPTU MUNDI,
+
+by St. Eucherius of Lyons
+
+translated by Henry Vaughan the Silurist
+
+1
+
+Prefatory Material
+
+Prefatory Material
+
+Prefatory Material
+
+2
+
+Editor’s Note
+
+Editor’s Note
+
+[Editor’s  Note:  Eucherius  of  Lyons  is  one  of  the  great  neglected  spiritual  writers  of
+Western Orthodoxy. His ascetic mysticism is very much in the Eastern tradition; if there
+were a “Latin Philokalia”, Eucherius would doubtless have a place in it. At the same time,
+his proverbs and apothegms, some of which may be found near the end of the present work,
+speak directly to people living in the world as much as to monks.
+
+For some reason, Eucherius is hard to find in English. It is remarkable but apparently
+true that the only unabridged English translation of any of his spiritual writings is the work
+you are about to read, here reissued with slightly modernized spelling and punctuation but
+otherwise just as it first appeared in 1654. Happily, by way of compensation, it is a very re-
+markable English version. The work of the brilliant Cavalier poet and mystical visionary
+Henry Vaughan the Silurist, “The World Contemned” was the first part of a spiritual antho-
+logy called “Flores Solitudinis”, which Vaughan had hoped would trigger a monastic revival
+in the Church of England. Though that hope went unfulfilled in Vaughan’s lifetime, his
+translation lives on to inspire modern English-speakers to a life of angelic holiness.
+
+The St. Pachomius Library will be issuing original modern translations of Eucherius’
+
+other works as they are completed. — N. Redington]
+
+3
+
+Title Page
+
+Title Page
+
+THE WORLD CONTEMNED,
+
+IN A
+
+Parenetical Epistle written by
+the Reverend Father
+
+EUCHERIUS,
+
+Bishop of Lyons, to his Kinsman
+
+VALERIANUS.
+
+Translated into English by Henry VAUGHAN, Silurist.
+
+“Love not the World, neither the things that are in the world. If any man love the world,
+the love of the Father is not in him. . . They are of the world, therefore speak they of the
+world, and the world heareth them.”
+
+1 John 2:15 and 4:5.
+
+“If the world hate you, ye know that it hated me before it hated you. . . If ye were of the
+world, the world would love his own, but because ye are not of the world, but I have chosen
+you out of the world, therefore the world hateth you. Remember the word that I said unto
+you, the Servant is not greater than the Lord: if they have persecuted me, they will also per-
+secute you. If they have kept my saying, they will keep yours also.”
+
+John 18:15, 19, and 20.
+
+Originally printed for Humphrey Moseley at the Princes Armes, St. Paul’s
+
+Churchyard, London, anno Domini 1654.
+
+4
+
+Translator’s Introduction
+
+Translator’s Introduction
+
+ADVERTISEMENT [Translator’s Introduction]
+
+Heribert Ros-weyd published this piece at Antwerp, 1621. It is mentioned by Gennadius,
+cap. 63. -De Scriptoribus Ecclesiasticis-; and Erasmus — long before Ros-weyd’s edition —
+writ some Notes upon it. The author Eucherius was a Roman senator, but being converted
+to the faith he left the Senate, and lived in a poor cell by the river Druentium, where his wife
+Galla died. His two daughters, Consortia and Tullia, having learnt Christ, continued both
+in the virgin-life, -et signorum gloria claruerunt-. He sate Bishop in the chair of Lyons —
+as I find him placed by Helvicus — in the year of our Lord 443. Some will have him a century
+lower, but that difference weakens not the certainty of it. The piece itself — in the original
+— is most elaborate and judicious, and breathes that -togatam elegantiam- which in most
+of the Roman senators was not more acquired than natural.
+
+What this Valerian was [to whom the epistle was addressed] — more then our author’s
+kinsman, by whose pen his name lives — is not certainly known. Some will have him to be
+Priscus Valerianus, the prefect, or deputy of France, mentioned by Sidonius Apollinaris:
+others are willing to let him pass for that Valerian whose Homilies now extant were published
+by Sirmondus. But as it is not determinable, so is it not material. This we may safely conclude:
+that he was a very eminent noble personage, and one that followed too much after temporal
+pomp, and the powers of this world; though neither of them could lend him so much light,
+as would keep him from obscurity. To bring down these top branches, Eucherius lays the
+axe to the root of the tree, by shewing him the vanity, and the iniquity of riches and honours,
+the two grand inticements of popular spirits. And this he doth with such powerful and clear
+reasons, that to virtuous and peaceful minds he hath rendered them not only contemptible,
+but odious. Much more might have been spoken against them, but — seeing the age we live
+in hath made all his arguments demonstrations — he hath in my judgement spoken enough.
+— H.V.S.
+
+5
+
+Eucherius to His Kinsmen Valerianus
+
+Eucherius to His Kinsmen Valerianus
+
+EUCHERIUS TO HIS KINSMEN VALERIANUS:
+
+THEY are happily linked in the bond of blood who are held together in the bond of
+love. And for this gift - which is descended to us from the father of lights, - both you and
+myself may greatly rejoice: whom love as well as kindred hath united, and those two fair
+obligations have betrothed in one entire affection. One of them we took from the fathers of
+the  flesh,  and  the  other  from  our  private  dispositions.  This  double  tie  by  which  -  love
+bounding us on the one side, and blood on the other, - we are mutually knit together, hath
+enforced me to enlarge myself in this Epistle with some excess more then usual: that I might
+commend unto your consideration the cause of your own soul, and assert the work of our
+profession  to  be  that  supreme  beatitude  which  is  only  true,  and  capable  of  those  things
+which are eternal.
+
+And indeed your own pious propension is not repugnant of holy living, who already
+by a forward felicity of manners have in some points prevented, and met with many things
+which are taught unto us by sacred learning: so that by the means of provident and discrete
+Nature, you seem unto me to have seized upon many duties of religion; as the concessions
+and indulgencies of our good God towards you, whose gift it is, that the divine wisdom
+should partly find in you, and partly confer upon you the riches of His kingdom.
+
+But although — by the hands of your father and father-in-law — you have been already
+advanced and seated upon the highest pinacles of temporal honours, and are still adorned
+and surrounded with illustrious titles descending from them both; yet I desire, and long to
+find in you, a thirst of greater and far higher honours, and shall now call you not to earthly,
+but to heavenly honours, not to the dignity and splendor of one short age, but to the solid
+and enduring glories of eternity: for the only true and indelible glory is, to be glorified in
+eternity.
+
+I shall therefore speak unto you, not the wisdom of this world, but that secret and hidden
+wisdom which God ordained before the world unto our glory. I shall speak with much care
+and affection towards you, and with very little respect and animadversion of myself; for I
+have in this attempt considered more what I wish to see practised in you, than what I am
+able to do in myself.
+
+The first duty of man ordained and brought forth into this world for that end, — my
+most dear Valerian! — is to know his creator, and being known, to confess Him, and to
+resign or give up his life — which is the wonderful and peculiar gift of God, — to the service
+and worship of the Giver; for what he received by God’s free donation, may be employed
+in true devotion, and what was conferred upon him in the state of wrath and unworthiness,
+may by an obedient resignation make him precious and beloved. For of this saving opinion
+are we; that as it is most certain, that we came forth first from God, so should we believe it,
+and press on still towards Him: whereupon we shall conclude, that he only rightly and di-
+
+6
+
+Eucherius to His Kinsmen Valerianus
+
+vinely apprehends the purpose of God in making man who understands it thus, that God
+Himself made us for Himself.
+
+It is then our best course to bestow our greatest care upon the soul; so shall that which
+is the first and highest in dignity be not the lowest and last in consideration. Amongst us
+Christians, let that which is the first in order be the first cared for; let salvation, which is the
+chiefest profit, be our chiefest employment. Let the safeguard and the defense of this take
+up all our forces; let it be not only our chiefest, but our sole delight. As it surpasseth all
+other things in excellency, so let it in our care and consideration.
+
+Our supreme duty is that which we owe to God, and the next appertains to the soul.
+And yet these two are such loving correlates, that though every one of the is a duty of supreme
+consequence, and such as by no means we may presume to neglect or omit, yet cannot we
+possibly perform any one of them without the other. So that whosoever will serve God doth
+at the same time provide for his own soul; and he that is careful for his own soul doth at the
+same time serve God. So that the state of these two sovereign duties in man, is by a certain
+compendious dependency and co-intention rendered very easy, while the faithful perform-
+ance of the one is a perfect consumation of both: for by the unspeakable tenderness and
+mercy of God, the good we do to our own souls is the most acceptable service and sacrifice
+that we can offer unto Him.
+
+Much physical curiosity, much care and many strict observations are bestowed upon
+the body; much pain it undergoes in hope of health; and deserves the soul no medicine? If
+it be but fit and necessary, that diverse helps and means of healing are sought for the body,
+for the recovering only of a temporal and transitory health, is it not unjust that the soul
+should be excluded, and be suffered to languish and putrify with deadly and spiritual diseases?
+Shall the soul only be a stranger to those proper and precious remedies ordained for it by
+the Physician? Yea, rather, if so many things are provided for the body, let the provision for
+the soul be far more abundant: for if it was truly said by some, that this fleshy frame is the
+servant, and the soul the mistress, then will it be very undecent and injurious, that the better
+part should require the better attendance? For with constant and intentive diligence should
+we look on that side where the greater dignity and our most precious treasure is laid up.
+
+It is not agreeable to reason, and it takes from the honour of our employment, that we
+should subject it to the unworthier party. The flesh being always inclined to viciousness
+draws us back to the Earth, as to its proper center and original: but the soul being descended
+from the Father of lights, is like the sparks of fire still flying upwards. The soul is the image
+of God in us, and the precious pledge of his future munificence. Let us employ all our innate
+forces and all outwards auxiliaries for the preservation of this: if we manage and defend it
+faithfully, we take care for and protect the entrusted pledge and purchased possession of
+God.
+
+7
+
+Eucherius to His Kinsmen Valerianus
+
+What convenience can we have to build, unless we do first of all lay the foundation?
+But to him that designed a superstructure of true blessings, the fundamental must be salva-
+tion. And if he hath not laid that foundation, upon what can the consequences he hopes for
+be  builded?  How  shall  he  be  filled  with  the  increase  of  those  remunerations  and  after-
+blessings, that wants the first-fruits, and denies the rewarder? What portion can he have in
+joys of eternity that will be wanting to his own salvation? How can he live the life of the
+blessed, that will not rise from death? Or what will it benefit him to heap up temporal pro-
+vision, and the materials of this world, when he hath stored up nothing for the comfort of
+his soul? Or as our Lord JESUS CHRIST hath said, “What is a man profited, if he gains the
+whole world, and lose his own soul?” [Matthew 16:26]
+
+There can therefore be no cause for sparing and laying up, where it is manifest that the
+soul is already lost; where salvation is forfeited, what gain or profit can he hope for? Or
+wherein shall the true treasure be laid up, or wherewith shall he receive it, when the soule’s
+precious  vessel,  and  the  storehouse  of  eternal  joys,  is  utterly  ruined  and  broken?  Let  us
+therefore while we have time labour for true riches, and make earnest haste to that holy and
+heavenly commerce, which is worth our looking and longing after.
+
+Eternal life may be obtained in a very few days: which days, though they should be blest
+with an inoffensive and untainted holiness of life, yet because they are but few are to be
+lightly esteem’d of: for nothing can be rich in value, which is but short in duration: nor can
+that  procure  any  long  or  durable  joys,  whose  time  of  existence  or  abode  is  narrow  and
+transient. The short accomodations of this life have but short effects. It seems therefore but
+just unto me, that to the joys of this present life, — if it hath any — we should prefer the
+true and indubitable joys of that which is everlasting. For the felicity we enjoy here is at best
+but temporal, but the other is eternal; and the fruition of a transitory, uncertain happiness
+is but a frailty and accident; but the possession of inviolable and never ending joys is triumph
+and security.
+
+It is clear then, that the eternal life is most blessed; for what other thing can be named,
+or thought upon, that is more happy than everlasting life? As for this present short life, it is
+so very short, that it is withal most miserable. It is pressed and assaulted on every side with
+surrounding, inevitable sorrows; it is distressed with many evil defects, and tossed to and
+fro with secret and penal accidents. For what is there in all the whole world that is so uncer-
+tain, so various, and so replenished with troubles, as the course of this life? which is full of
+labour, full of anguish, fraught with cares, and made ominous with dangers; which is distrac-
+ted with violent and sudden mutations, made unpleasant with bodily distempers, afflicted
+with thoughtfulness, and lies naked to all the whirlwinds of time and chance? What benefit
+then, yea, what reason have you to turn aside and run away with [= from] eternal joys, that
+you may pursue and follow after temporal miseries!
+
+8
+
+Eucherius to His Kinsmen Valerianus
+
+Do not you see, my dear Valerian, how every one that is provident — even in this life
+— doth with plenty of all necessaries furnish that cottage or field, where he knows he shall
+reside? and where he abides but for a short time, his provision is accordingly; where he in-
+tends a longer stay, he provides likewise a greater supply? Unto us also who in this present
+world — being straightened on every side — have but a very short time, are eternal ages
+reserv’d in the world which is to come; if so be that we competently provide for an eternal
+state, and seek only what is sufficient for the present, not perversely bestowing the greatest
+care upon the shortest and smallest portion of time, and the smallest care on the time of
+greatest and endless extent.
+
+And indeed I know not which should soonest or most effectually incite us to a pious
+care of life eternal, either the blessings which are promised us in that state of glory, or the
+miseries which we feel in this present life. Those from above most lovingly invite and call
+upon us; these below most rudely and importunately would expell hence. Seeing therefore
+that the continual evils of this life would bring us hence into a better, if we will not be induced
+by the good, let us then be compelled by the evil. Both the good and the bad agree to incite
+us to the best, and though at difference amongst themselves, yet both consent to make us
+happy. For while the one invites us, and the other compells us, both are solicitous for our
+good.
+
+If some eminent and powerful prince, having adopted you for his son and co-partner,
+should forthwith send for you by his ambassador; you would — I believe — break through
+all difficulties, and the wearisome extent of sea and land, that you might appear before him,
+and have your adoption ratified. God Almighty, the Maker and the Lord of Heaven and
+Earth, and all that is in them, calls you to this adoption, and offers unto you (if you will receive
+it) that dear style “a son”, by which He calls His Only Begotten, and your glorious Redeemer.
+And will you not be inflamed and ravished with His divine love? will you not make haste,
+and begin your journey towards Heaven, lest swift destruction come upon you, and the
+honours offered you be frustrated by a sad and sudden death?
+
+And to obtain this adoption, you shall not need to pass through the unfrequented and
+dangerous solitudes of the Earth, or to commit your self to the wide and perillous sea: when
+you will, this adoption is within your reach, and lodgeth with you. And shall this blessing,
+because it is as easy in the getting as it is great in the consequence, find you therefore back-
+ward or unwilling to attain it? How hard a matter to the lukewarm and the dissembler will
+the making sure of this adoption prove? for as to the faithful and obedient it is most easy,
+so to the hypocrite and the rebellious, it is most difficult.
+
+Certainly, it is the love of life that hath enslaved us so much to a delectation and dotage
+upon temporal things. Therefore do I now advise you, who are a lover of life, to love it more.
+It is the right way of persuading, when we do it for no other end but to obtain that from
+you, which of your own accord you desire to grant us. Now for this life which you love am
+
+9
+
+Eucherius to His Kinsmen Valerianus
+
+I an ambassador: and intreat that this life which you love in its transient and momentary
+state, you would also love in the eternal. But how or in what manner you may be said to
+love this present life, unless you desire to have it made most excellent, perfect, and eternally
+permanent, I cannot see; for that which hath the power to please you when it is but short
+and uncertain, wil please you much more when it is made eternal and immutable: and that
+which you dearly love and value, though you have it but for a time, will be much more dear
+and precious to you, when you shall enjoy it without end. It is therefore but fit, that the
+temporal life should look still towards the eternal, that through the one, you may pass into
+the other. You must not rob your self of the benefits of the life to come, by a crooked and
+perverse use of the present. This life must not oppose itself to the damage and hurt of the
+future: for it were very absurd and unnatural, that the love of life should cause the destruction
+and then death of life.
+
+Therefore whither you judge this temporal life worthy of your love, or your content;
+
+my present argument will be every way very reasonable.
+
+[An excellent dilemma! -Vaughan, tr.]
+For if you contemn it, your reason to do so is that you may obtain a better: and if you
+
+love it, you must so much the more love that life which is eternal.
+
+But I rather desire, that you would esteem of it as you have found it; and judge it to be
+— as it is indeed — full of bitterness and trouble, a race of tedious and various vexations;
+and that you would utterly forsake and renounce both it, and its occupations. Cut off at last
+that wearisome and endless chain of secular employments, that one and the same slavery,
+though in several negotiations. Break in sunder those cords of vain cares, in whose successive
+knots you are always entangled, and bound up, and in every one of which your travail is
+renewed and begun again. Let this rope of sands, this coherency of vain causes, be taken
+away: in which — as long as men live — the tumult of affairs (being still lengthen’d by an
+intervening succession of fresh cares) is never ended, but runs on with a fretting and con-
+suming  solicitousness,  which  makes  this  present  life,  that  is  already  of  itself  short  and
+miserable enough, far more short and more miserable. Which also — according to the success
+or crossness of affairs — lets in divers times vain and sinful rejoicings, bitter sorrows, anxious
+wishes, and suspicious fears.
+
+Let us last of all cast off all those things which make this life in respect of their employ-
+ment but very short, but in respect of cares and sorrows very long. Let us reject and resolutely
+contemn this uncertain world, and the more uncertain manners of it, wherein the peasant
+as well as the prince is seldom safe, where things that lie low are trodden upon, and the high
+and lofty totter and decline. Choose for yourself what worldly estate you please: there is no
+rest either in the mean, or the mighty. Both conditions have their miseries, and their misfor-
+tunes. The private and obscure is subject to disdain, the public and splendid unto envy.
+
+10
+
+Eucherius to His Kinsmen Valerianus
+
+Two prime things I suppose there are, which strongly enchain and keep men bound in
+secular negotiations; and having bewitch’d their understanding, retain them still in that
+dotage; the pleasure of riches and the dignity of honours. The former of which ought not
+to be called pleasure, but poverty; and the latter is not dignity, but vanity. These two — being
+join’d in one subtile league — set upon man, and with alternate, ensnaring knots disturb
+and entangle his goings. These — besides the vain desires which are peculiar to themselves
+— infuse into the mind of man other deadly and pestiferous lustings, which are their con-
+sequents; and with a certain pleasing enticement solicit and overcome the hearts of mankind.
+As for riches — that I may speak first of them — what is there, I pray, or what can there
+be more pernicious? They are seldom gotten without injustice; by such an administrator
+are they gathered, and by such a steward they must be kept; for covetousness is the root of
+all  evils.  And  there  is  indeed  a  very  great  familiarity  betwixt  these  two,  riches  and  vices
+[-divitiae et vitia-] in their names, as well as in their nature. And are they not also very fre-
+quently matter of disgrace, and an evil report? Upon which consideration it was said by one,
+that riches were tokens of injuries.
+
+[— Every rich man is either a tyrant himself, or the son of a tyrant. -Henry Vaughan,
+
+tr.— ]
+
+In the possession of corrupt persons they publish to the world their bribery and unright-
+eousness, and elsewhere, they allure the eyes, and incite the spirits of seditious men to rebel-
+lion, and in the custody of such they bear witness of the sufferings, and the murther of inno-
+cent persons, and the plundering of their goods.
+
+But grant that these disasters should not happen, can we have any certainty, whither
+these things that make themselves wings, will fly away after our decease? “He layeth up
+treasure” — saith the Psalmist — “and knoweth not for whom he gathers it.”
+
+But suppose that you should have an heir after your own heart, doth he not oftentimes
+destroy and scatter what the father hath gathered? doth not an ill-bred son, or our ill choice
+of a son-in-law, prove the frequent ruin of all our labours and substance in this life? What
+pleasure can there be in such riches, whose collection is sin and sorrow, and our transmission,
+or bequeathing of them, anxious and uncertain?
+
+Whither then at last will this wild and devious affection of men carry them? You know
+how to love accidental and external goods, but cannot love your own self. That which you
+so much long for is abroad, and without you; you place your affection upon a foreigner,
+upon an enemy. Return, or retire rather into yourself, and be you dearer and nearer to your
+own heart then those things which you call yours. Certainly if some wise man, and skilful
+in the affairs of this world, should converse and come to be intimate with you, it would
+better please you, that he should affect your person, than affect your goods; and you would
+choose, that he should rather love you for your self, than for your riches; you would have
+him to be faithful unto man, not to his money. What you would have another to perform
+
+11
+
+Eucherius to His Kinsmen Valerianus
+
+towards you, that do for yourself, who ought to be the most faithful to your self. Our selves,
+our selves we should love, not those things which we phantastically call ours. And let this
+suffice to have been spoken against riches.
+
+As for the honours of this world — to speak generally, and without exception, for I shall
+not descend to particulars — what dignity can you justly attribute to those things which the
+base man, and the bad, as well as the noble and good, promiscuously obtain, and all of them
+by corruption and ambition? The same honour is not conferred upon men of the same
+merits, and dignity makes not a difference betwixt the worthy and the unworthy, but con-
+founds them. So that which should be a character of deserts, by advancing the good above
+the bad, doth unjustly make them equal; and after a most strange manner there is in no state
+of life less difference made betwixt the worst men and the best, than in that state which you
+term honourable. Is it not then a greater honour to be without that honour, and to be es-
+teemed of according to our genuine worth, and sincere carriage, than according to the false
+gloss of promiscuous, deceiving honours?
+
+And these very things — - how big soever they look - — what fleeting and frail appear-
+ances are they? We have seen of late men eminently honourable, seated upon the very spires
+and top of dignity, whose incredible treasures purchased them a great part of the world;
+their success exceeded their own desires, and their prodigious fortunes amazed their very
+wishes: but these I speak of were private prosperities. Kings themselves with all their height
+and imperiousnesse, with all their triumphs and glory, shined but for a time. Their clothings
+were of wrought gold, their diadems sparkled with the various flames and differing relucencies
+of precious stones; their palaces were thronged with princely attendants, their roofs adorned
+with gilded beams, their will was a law, and their words were the rules and coercive bounds
+of mankind. But who is he, that by a temporal felicity can lift his head above the stage of
+human chances? Behold now, how the vast sway and circumference of these mighty is no
+where  to  be  found!  Their  riches  and  precious  things  too  are  all  gone,  and  [so  too]  they
+themselves: the possessors and masters of these royal treasures! Most late [i.e. recent] and
+most famous kingdoms — even amongst us — are now become a certain fable. All those
+things which sometimes were reputed here to be very great are now become none at all.
+
+Nothing I think, nay I am sure, of all these riches, honours, powers went along with
+them from hence: all they took with them was the precious substance of their faith and piety.
+These only — when they were deprived of all other attendants — waited on them, and like
+faithful, inseperable companions, travelled with them out of this world. With this provision
+are they now fed; with these riches, and with these honours are they adorned. In these they
+rest, and this goodness is now their greatness.
+
+Wherefore, if we be taken at all with honours and riches, let us be taken with true and
+durable ones. Every good man exchangeth these earthly dignities for those which are celes-
+tial, and earthen treasures for the heavenly. He lays up treasure there, where a most exact
+
+12
+
+Eucherius to His Kinsmen Valerianus
+
+and unconfused difference is made betwixt the good and the bad; where that which is once
+gotten shall be for ever enjoyed; where all things may be obtained, and where nothing can
+be lost.
+
+But seeing we are fallen into a discourse of the frailty of temporal things, let us not forget
+the frail condition of this short life. What is it, I beseech you, what is it? Men see nothing
+more frequently then death, and mind nothing more seldom. Mankind is by a swift mortality
+quickly driven into the West, or setting point of life, and all posterity by the unalterable law
+of succeeding ages and generations follow after. Our fathers went hence before us; we shall
+go next, and our children must after. As streams of water falling from on high, the one still
+following the other, do in successive circles break and terminate at the banks; so the appointed
+times and successions of men are cut off at the boundary of death. This consideration should
+take up our thoughts both night and day; this memorial of our frail condition should keep
+us still awake. Let us always think the time of our departure to be at hand; for the day of
+death, the further we put it off, comes the faster, and is by so much the nearer to us. Let us
+suspect it to be near, because we know not how far! Let us, as the Scripture saith, “Make
+plain our ways before us”. [Isaiah 28:25]
+
+If we make this the business of our thoughts, and meditate still upon it, we shall not be
+frighted with the fear of death. Blessed and happy are all you who have already reconciled
+yourselves unto Christ! No great fear of death can disturb them, who desire to be dissolved
+that they may be with Christ; who in the silence of their own bosoms, quietly, and long since
+prepared for it, expect the last day of their pilgrimage here. They care not much how soon
+they end this temporal life, that pass from it into life eternal.
+
+Let not the populacy and throng of loose livers or hypocritical time-pleasers persuade
+us to a neglect of life, neither be you induced by the errors of the many to cast away your
+particular salvation. What will the multitude in that day of God’s judgement avail us, when
+every private person shall be sentenced, where the examinations of works, and every man’s
+particular actions, not the example of the common people, shall absolve him? Stop your
+ears, and shut your eyes against such damnable precedents that invite you destruction. It is
+better to sow in tears, and to plant eternal life with the few, then to lose it with the multitude.
+Let not therefore the number of sinful men weaken your diligence of not sinning; for the
+madness of those that sin against their own souls can be no authority unto us. I beseech you
+look always upon the vices of others as their shame, not your example.
+
+If it be your pleasure to look for examples, seek them rather from that party, which
+though the least, yet if considered as it is a distinct body, is numerous enough. Seek them
+— I say — from that party, wherein you shall find those ranged, who wisely understood
+wherefore they were born, and accordingly, while they lived, did the business of life; who
+eminent for good works, and excelling in virtue, pruned and dressed the present life, and
+
+13
+
+Eucherius to His Kinsmen Valerianus
+
+planted the future. Nor are our examples — though of this rare kind — only copious, but
+great withal, and most illustrious.
+
+For what worldly nobility, what honours, what dignity, what wisdom, what eloquence,
+or learning have not betaken themselves to this heavenly warfare? What sovereignty now
+hath not with all humility submitted to this easy yoke of Christ? And certainly it is a madness
+beyond error and ignorance for any to dissemble in the cause of their salvation. I could —
+but that I will not be tedious to you — out of an innumerable company produce many by
+name, and shew you what eminent and famous men in their times have forsaken this world,
+and embraced the most strict rule of Christian religion. And some of these — because I may
+not omit all, — I shall cursorily introduce.
+
+Clement the Roman, of the stock of the Caesars, and the ancient lineage of the senators;
+a person fraught with science, and most skilful in the liberal arts, betook himself to this path
+of the just; and so uprightly did he walk therein, that he was elected to the episcopal dignity
+of Rome.
+
+Gregory of Pontus, a minister of holy things, famous at first for his humane learning
+and eloquence, became afterwards most eminent by those divine graces conferr’d upon him.
+For — as the faith of ecclesiastical History testifies, — amongst other miraculous signs of
+his effectual devotion, he removed a mountain by prayer, and dried up a deep lake.
+
+Gregory Nazianzen, another holy father, given also at first to philosophy and humane
+literature, declined at last those worldly rudiments, and embraced the true and heavenly
+philosophy: to whose industry also we owe no meaner a person than Basil the Great; for
+being his intimate acquaintance and fellow-student in secular sciences, he entered one day
+into his auditory, where Basilius was then a reader of rhetorick, and leading him by the hand
+out of the School, dissuaded him from that employment with this gentle reproof: “Leave
+this vanity, and study thy salvation.” And shortly after both of them came to be faithful
+stewards in the house of God, and have left us in the Church most useful and pregnant
+monuments of their Christian learning.
+
+Paulinus Bishop of Nola, the great ornament and light of France, a person of princely
+revenues, powerful eloquence, and most accomplished learning, so highly approved of this
+our profession that choosing for himself “the better part”, he divided all his princely inher-
+itance amongst the poor, and afterward filled most part of the world with his elegant and
+pious writings.
+
+Hilarius of late, and Petronius now in Italy, both of them out of the fulness of honours
+and power, betook themselves to this course; the one entring into the religion, the other
+into the priesthood.
+
+[Hilarius about this time — which was 435 years after Christ — did lead a monastical
+life; but upon the death of Honoratius, he was elected his successor in the Bishoprick of
+
+14
+
+Eucherius to His Kinsmen Valerianus
+
+Orleans,  in  which  dignity  he  continued  not  long,  for  being  addicted  to  solitariness,  he
+resigned it, and returned into the wildernesse. — Vaughan, tr.]
+
+And when shall I have done with this great “cloud of witnesses”, if I should bring into
+the field all those eloquent contenders for the faith, Firmianus, Minutius, Cyprian, Hilary,
+Chrysostom and Ambrose? These I believe spoke to themselves in the same words which
+another of our profession — St. Augustine — used as a spur to drive himself out of the sec-
+ular life to this blessed and heavenly vocation. They said, I believe, “What is this? The un-
+learned get up, and lay hold upon the kingdom of heaven, and we with our learning, behold
+where we wallow in flesh and blood.” This surely they said, and upon this consideration
+they also rose up, and tooke the kingdom of Heaven by force.
+
+Having now in part produced these reverend witnesses, whose zeal for the Christian
+faith  hath  exceeded  most  of  their  successors,  though  they  also  were  bred  up  in  secular
+rudiments, persuasive eloquence, and the pomp and fulnesses of honours, I shall descend
+unto kings themselves, and to that head of the world, the Roman Empire. And here I think
+it not necessary that those royal religious ancients of the old world should be mentioned at
+all. Some of their posterity, and the most renowned in our sacred Chronicles I shall make
+use of; as David for piety, Josiah for faith, and Ezechias for humility. The later times also
+have been fruitfull in this kind, nor is this our age altogether barren of pious princes, who
+draw near to the knowledge of the only true and immortal King, and with most contrite
+and submissive hearts acknowledge and adore the Lord of Lords. The Court, as well as the
+cloister, hath yielded saints, of both sexes. And these in my opinion are more worthy your
+imitation than the mad and giddy commonality; for the examples of these, carry with them
+in the world to come salvation, and in the present world, authority.
+
+You see also how the days and the years, and all the bright ornaments and luminaries
+of Heaven, do with an unwearied duty execute the commands and decrees of their Creatour;
+and in a constant, irremissive tenor continue obedient to his ordinances. And shall we —
+for whose use these lights were created, and set in the firmament,— seeing we know our
+Master’s will, and are not ignorant of His commandments, stop our ears against them? And
+to these vast members of the universe it was but once told what they should observe unto
+the end of the world; but unto us line upon line, precept upon precept, and whole volumes
+of God’s commandments are every day repeated. Add to this, that man — for this also is in
+his power — should learn to submit himself to the will of his Creator, and to be obedient
+to His ordinances; for by paying his whole duty unto God, he gives withal a good example
+unto men.
+
+But if there be any that will not return unto their Maker and be healed, can they therefore
+escape the arm of their Lord, in whose hand are the spirits of all flesh? Whither will they
+fly, that would avoid the presence of God? What covert can hide them from that eye which
+is everywhere, and sees all things? Let them hear thee, holy David, let them hear thee:
+
+15
+
+Eucherius to His Kinsmen Valerianus
+
+PSALM 139
+
+Whither shall I go from Thy presence, Or whither shall I flee from Thy
+Spirit? If I ascend into Heaven, Thou art there: If I make my bed in Hell,
+behold Thou art there. If I take the wings of the morning, And dwell in the
+uttermost parts of the Sea; Even there shall Thy hand lead me, And Thy right
+hand shall hold me. If I say, “Surely the darkness shall cover me,” Even the
+night shall be light about Thee. Yea the darkness hideth not from Thee, But
+the night shineth as the day: The darkness and the light are both alike to
+Thee.
+
+Therefore — willing or unwilling — though they should absent themselves from the
+Lord of all the world by their wills, yet shall they never be able to get their persons out of
+His jurisdiction and supreme right. They are absent from Him indeed in their love and af-
+fections: but He is present with them in His prerogative and anger. So then being runagates
+they are shut up, and — which is a most impious madness — they live without any consid-
+eration or regard of God, but within His power. And if these being earthly masters, when
+their servants run away from them, with a furious and hasty search pursue after them; or if
+they renounce their service, prosecute them for it, and become the asserters of their own
+right over them; why will they not themselves render unto their Master which is in Heaven
+His most just right? Why will they not stay in his Family, and freely offer themselves unto
+His service, and be as impartial judges in the cause of God as in their own?
+
+Why  with  so  much  dotage  do  we  fix  our  eyes  upon  the  deceitful  looks  of  temporal
+things? Why do we rest ourselves upon those thorns only which we see beneath us? Is it the
+eye alone that we live by? Is there nothing useful about us but that wanderer? We live also
+by the ear, and at that inlet wee receive the glad tidings of salvation, which fills us with
+earnest groans for our glorious liberty and the consummation of the promises. Whatsoever
+is promised, whatsoever is preached unto us, let us wait for it with intentive wishes and most
+eager desires. That faithful one, the blessed Author of those promises, assures us frequently
+of his fidelity and performance; let us covet earnestly his best promises.
+
+But notwithstanding this which hath been spoken, if a sober and virtuous use were made
+of the eye, we might by that very faculty be drawn to a certain sacred longing after immor-
+tality, and the powers of the world to come, if that admiration which by contemplating the
+rare frame of the world we are usually filled with were returned upon the glorious Creator
+of it, by our praises and benediction of Him. Or if we would meditate what a copious active
+and boundless light shall fill our eyes in the state of immortality, seeing so fair a luminary
+is allowed us in the state of corruption: or what transcendant beauty shall be given to all
+things in that eternal world, seeing this transitory one is so full of majesty and freshness.
+There can be no excuse for us, if we solicit the faculties of these members to abuse and per-
+
+16
+
+Eucherius to His Kinsmen Valerianus
+
+verseness. Let them rather be commodiously applied to both lifes, and so minister to the
+use of the temporal as not to cast off their duty to the eternal.
+
+But if pleasure and love delight us, and provoke our senses, there is in Christian religion,
+a love of infinite comfort, and such delights as are not nauseous and offensive after fruition.
+There is in it, that which not only admits of a most vehement and overflowing love, but
+ought also to be so beloved; namely, God, blessed for evermore, the only beautiful, delightful,
+immortal and supreme good, Whom you may boldly and intimately love as well as piously;
+if in the room of your former earthly affections you entertain heavenly and holy desires. If
+you were ever taken with the magnificence and dignity of another person, there is nothing
+more magnificent than God. If with anything that might conduce to your honour and glory,
+there is nothing more glorious then Him. If with the splendour and excellency of pompous
+shows, there is nothing more bright, nothing more excellent. If with fairness and pleasing
+objects, there is nothing more beautiful. If with verity and righteousness, there is nothing
+more just, nothing more true. If with liberality, there is nothing more bountiful. If with in-
+corruption and simplicity, there is nothing more sincere, nothing more pure than that su-
+preme goodness.
+
+Are you troubled that your treasure and store is not proportionable to your mind? The
+Earth and the fulness thereof are under His lock. Do you love anything that is trusty and
+firm? There is nothing more friendly, nothing more faithful than Him. Do you love any
+thing that is beneficial? There is no greater benefactor. Are you delighted with the gravity
+or gentleness of any object? There is nothing more terrible than his Almightiness, nothing
+more mild then His goodness. Do you love refreshments in a low estate, and a merry heart
+in a plentiful? Joy in prosperity and comforts in adversity are both the dispensations of His
+hand. Wherefore it stands with all reason, that you should love the giver more than His
+gifts,  and  Him  from  whom  you  have  all  these  things,  more  than  the  things  themselves.
+Riches, honours, and all things else, whose present lustre attracts and possesseth your heart,
+are not only with Him, but are now also had from Him.
+
+Recollect your dispersed and hitherto ill-placed affections, employ them wholly in the
+divine service. Let this dissolute love and compliance with worldly desires become chaste
+piety, and wait upon sacred affairs. Call home your tedious and runagate thoughts, which
+opinion and custom have sadly distracted; and having suppressed old errors, direct your
+love to his proper object, bestow it wholly upon your Maker. For all that you can love now
+is His, His alone, and none else. For of such infiniteness is He, that those who do not love
+Him deal most injuriously: because they cannot love anything, but what is His.
+
+But I would have an impartial judgement to consider, whether it be just for him to love
+the work, and hate the workman; and having cast by, and deserted the Creator of all things,
+to run and seize upon His creatures every where, and without any difference, according to
+his perverse and insatiable lust. Whereas it behooved him rather to invite God to be gratious
+
+17
+
+Eucherius to His Kinsmen Valerianus
+
+and loving to him, by his very affections to His works, if piously laid out. And now man
+gives himself over to the lusts and service of his own detestable figments, and most unnat-
+urally becomes a lover of the art, and neglects the artificer, adores the creature, and despiseth
+the Creator.
+
+And what have we spoken all this while of those innumerable delights which are with
+Him? or of the infinite and ravishing sweetness of His ineffable goodness? the sacred and
+inexhaustible treasure of His love? or when will it be that they shall be able to express or
+conceive the dignity and fullness of any one attribute that is in Him? To love Him then is
+not only delightful, but needful: for not to love Him, Whom even then when we love, we
+cannot possibly requite, is impious; and not to return Him such acknowledgements as we
+are able, Whom if we would, we can never recompence, is most unjust: “for what shall we
+render unto the Lord for all His benefits towards us?” What shall we render unto Him for
+this one benefit, that He hath given salvation to man by faith, and ordained that to be most
+easy in the fact, by which He restored hope to the subjected world, and eternal life unto lost
+man?
+
+And that I may now descend unto those things which were sometimes out of His cov-
+enant, I mean the nations and kingdoms of the Gentiles, do you think that these were made
+subject to the Roman power, and that the dispersed multitude of mankind were incorporated
+— as it were — into one body under one head, for any other end, but that — as medicines
+taken in at the mouth are diffused into all parts of the body — so the faith by this means
+might with more ease be planted and penetrated into the most remote parts of the world.
+Otherwise by reason of different powers, customs, and languages, it had met with fresh and
+numerous oppositions, and the passage of the Gospel had been much more difficult. Blessed
+Paul himself describing his course in planting the faith amongst this very people, writes in
+his Epistle to the Romans, “That from Hierusalem and round about to Illyricum he had
+fully preached the Gospel of Christ”. And how long — without this preparation for the fulness
+of time — might this have been in doing, amongst nations either innumerable for multitude,
+or barbarous for immanity [inhumanity]?
+
+Hence it is that the whole earth now from the rising of the sun unto the going down
+thereof, from the farthest North, and the frozen sea, breaks forth into singing, and rings
+with the glorious name of Jesus Christ. Hence it is, that all parts of the world flock and run
+together to the Word of Life. The Thracian is for the faith, the African for the faith; the
+Syrian for the faith, and the Spaniard hath received the faith. A great argument of the divine
+clemency may be gathered out of this, that under Augustus Caesar, when the Roman power
+was in the height and acme, then the almighty God came down upon the earth and assumed
+flesh. Therefore that I may now make use of those things, which you are also versed in, it
+may be clearly proved — if any skilled in your Histories would assert the truth — that from
+the first foundation of the Roman Empire — which is now one thousand one hundred and
+
+18
+
+Eucherius to His Kinsmen Valerianus
+
+eighty five years ago [This letter was written in the year of our Lord 435. — Vaughan, tr.]
+— whatever additions and growth it gathered either in the reign of their first kings, or after-
+wards under the administrations of consuls, all was permitted by the only wise, and almighty
+God, to prepare the world against the coming of Christ, and to make way for the propagation
+of the faith.
+
+But I return thither, from whence I have digressed. “Love not the world” — saith St.
+John — “neither the things that are in the world”; for all those things with delusive and en-
+snaring shews captivate our sight, and will not suffer us to look upwards. Let not that faculty
+of the eye which was ordained for light be applied to darkness; being created for the use of
+life, let it not admit the causes of death. “Fleshly lusts” — as it is divinely spoken by the
+Apostle — “war against the soul,” and all their accoutrements are for the ruin and destruction
+of it. A vigilant guard do they keep, when they are once permitted to make head[way], and
+after the manner of foreign and expert enemies, with those forces they take from us, they
+politckly strengthen and increase their own.
+
+Thus hitherto have I discoursed of those splendid allurements, which are the chiefest
+and  most  taking  baits  of  this  subtile  world,  I  mean  riches  and  honours.  And  with  such
+earnestness have I argued against them, as if those blandishments had still some force. But
+what beauty soever they had, when cast over heretofore with some pleasing adumbrations,
+it is now quite worn away, and all that paint and cousenage [fraud] is fallen off. The world
+hath now scarce the art to deceive. Those powerful and bewitching looks of things, beautiful
+sometimes even to deception, are now withered and almost loathsome. In former times it
+laboured to seduce us with its most solid and magnificent glories, and it could not. Now it
+turns cheat, and would entice us with toys, and slight wares, but it cannot. Real riches it
+never had, and now it is so poor that it wants counterfeits. It neither hath delectable things
+for the present, nor durable for the future; unless wee agree to deceive ourselves the world
+in a manner cannot deceive us.
+
+But why delay I my stronger arguments? I affirm then that the forces of this world are
+dispersed and overthrown, seeing the world itself is now drawing towards its dissolution,
+and pants with its last gasps, and dying inhalations. How much more grievous and bitter
+will you think this assertion, that for certain it cannot last very long? What should I trouble
+my self to tell you that all the utensils and moveables of it are decayed and wasted? And no
+marvel that it is driven into these defects, and a consumption of its ancient strength, when
+now grown old and weary it stoops with weakness, and is ready to fall under the burthen
+of so many ages.
+
+These latter years and decrepitness of Time are fraught with evils and calamities, as old
+age is with diseases. Our forefathers saw, and we still see in these last days the plagues of
+famine, pestilence, war, destruction, and terrors. All these are so many acute fits and convul-
+sions of the dying world. Hence it is that such frequent signs are seen in the firmament, ex-
+
+19
+
+Eucherius to His Kinsmen Valerianus
+
+cessive eclipses, and faintings of the brightest luminaries, which is a shaking of the powers
+of  heaven:  sudden  and  astonishing  earthquakes  under  our  feet,  alterations  of  times  and
+governments, with the monstrous fruitfulness of living creatures; all which are the prodigies,
+or fatal symptoms of time going indeed still on, but fainting, and ready to expire. Nor is this
+confirmed by weak assertions only, but by sacred authority and the apostolical oracles: for
+there it is written, that “upon us the ends of the world are come” [1 Cor. 10:11], which divine
+truth, seeing it hath been spoken so long ago, what is it that we linger for, or what can we
+expect?
+
+That day, not only ours, but the last that the present world shall ever see, calls earnestly
+for our preparation. Every hour tells us of the coming on of that inevitable hour of our death,
+seeing a double danger of two final dissolutions threatens every one in particular and all the
+world in general. Wretched man that I am! the mortality of this whole frame lies heavily
+upon my thoughts, as if my own were not burdensome enough. Wherefore is it that we
+flatter ourselves against these sure fears? There is no place left for deviation. A most certain
+decree is past against us: on the one side is written every man’s private dissolution, and on
+the other the public and universal.
+
+How much more miserable then is the condition of those men — I will not say, in these
+outgoings, or last walks of time, but in these decays of the world’s goodly things — who
+neither can enjoy ought that is pleasant at the present, nor lay up for themselves any hope
+of true joys hereafter. They miss the fruition of this short life, and can have no hope of the
+everlasting:  they  abuse  these  temporal  blessings,  and  shall  never  be  admitted  to  use  the
+eternal. Their substance here is very little, but their hope there is none at all. A most wretched
+and deplorable condition! unless they make a virtue of this desperate necessity, and hold
+on the only sovereign remedy of bettering their estate, by submitting in time to the wholesome
+rules of heavenly and saving reason. Especially because the goodliest things of this present
+time are such rags and fragments, that he that loseth the whole fraught [freight], and true
+treasure of that one precious life which is to come, may be justly said to lose both.
+
+It remains then, that we direct and fix all the powers of our minds upon the hope of the
+life to come. Which hope — that you may more fully and clearly apprehend it — I shall
+manifest unto you, under a type or example taken from temporal things. If so man should
+offer unto another five pieces of silver this day, but promise him five hundred pieces of gold
+if he would stay till the next morning, and put him to his choice, whether he would have
+the silver at present, or the gold upon the day following, is there any doubt to be made, but
+he would choose the greater sum, though with a little delay? Go you and do the like: compare
+the crumbs and perishing pittance in this short life with the glorious and enduring rewards
+of the eternal: and when you have done, choose not the least and the worst, when you may
+have the greatest and the best.
+
+20
+
+Eucherius to His Kinsmen Valerianus
+
+The short fruition of a little is not so beneficial, as the expectation of plenty. But seeing
+that all the frail goods of this world are not onely seen of us, but also possessed by us, it is
+most manifest that hope cannot belong unto this world, in which we both see and enjoy
+those things we delight in: for hope that is seen is not hope; for what a man seeth, why doth
+he yet hope for [it]? [Rom 8:24] Therefore, however hope may be abased, and misapplied
+to temporal things, it is most certain that it was given to man and ordained for things that
+are eternal; otherwise it cannot be called hope, unless something be hoped for, which as
+yet— or for the present life — is not had. Therefore the substance of our hope in the world
+to come is more evident and manifest, then our hope of substance in the present.
+
+Consider those objects which are the clearest and most visible; when we would best
+discern them, we put them not into our eyes, because they are better seen and judged of at
+a distance. It is just so in the case of present things and the future: for the present — as if
+put into our eyes — are not rightly and undeceivably seen of us; but the future, because
+conveniently distant, are most clearly discerned.
+
+Nor is this trust and confidence wee have of our future happinesse built upon weak or
+uncertain authors, but upon our Lord and Master Jesus Christ, that almighty and faithful
+witness, Who hath promised unto the just, a kingdom without end, and the ample rewards
+of a blessed eternity; Who also by the ineffable sacrament of His humanity, being both God
+and Man, reconciled Man unto God, and by the mighty and hiden mystery of His passion,
+absolved the world from sin. For which cause He was manifested in the flesh, justified in
+the Spirit, seen of angels, preached unto the Gentiles, believed upon in the world, and received
+into glory. Wherefore God also hath highly exalted Him, and given Him a name which is
+above every name: that at the name of JESUS every knee should bow, of things in Heaven,
+and things in Earth, and things under the Earth. And that every tongue should confess that
+the Lord JESUS is in glory, both God and King before all ages. [Phil. 2:9-10]
+
+Casting off then the vain and absurd precepts of philosophy, wherein you busy yourself
+to no purpose, embrace at last the true and saving knowledge of Christ. You shall find even
+in that employment enough for your eloquence and wit, and will quickly discern how far
+these precepts of piety and truth surpass the conceits and delirations of philosophers. For
+in those rules which they give, what is there but adulerate virtue and false wisdom? and what
+in ours but perfect righteousness and sincere truth? Whereupon I shall justly conclude, that
+they indeed usurp the name of philosophy, but the substance and life of it is with us.
+
+For what manner of rules to live by could they give, who were ignorant of the first cause,
+and the fountain of life? For not knowing God, and deviating in their first principles from
+the author and the wellspring of justice, they necessarily erred in the rest. Hence it happened,
+that the end of all their studies was vanity and dissension. And if any amongst them chanced
+to hit some more honest tenets, these presently ministered matter of pride and superstitious-
+ness, so that their very virtue was not free from vice. It is evident then that these are they,
+
+21
+
+Eucherius to His Kinsmen Valerianus
+
+whose knowledge is earthy, “the disputers of this world”, “the blind guides,” who never saw
+true justice, nor true wisedom. Can any one of that School of Aristippus be a teacher of the
+truth, who in their doctrine and conversation differ not from swine and unclean beasts,
+seeing they place true happiness in fleshly lusts? “whose God is their belly, and whose glory
+is in their shame.” Can he be a master of sobriety and virtue, in whose School the riotous,
+the obscene, and the adulterer are philosophers? But leaving these blind leaders, I shall come
+again to speak of those things which were the first motives of my writing to you.
+
+I advise you then, and I beseech you, to cast off all their axioms or general maxims col-
+lected out of their wild and irregular disputations, wherein I have known you much delighted;
+and to employ those excellent abilities bestowed upon you, in the study of Holy Scripture,
+and the wholesome instructions of Christian philosophers. There shall you be fed with in-
+fallible wisdom. There — to incite you to the faith — you shall hear the church speaking to
+you, though not in these very words, yet to this purpose: “He that believes not the word of
+God, understands it not.” There you shall hear this frequent admonition: “Fear God, because
+He is your Master, honour Him because He is your Father.”
+
+There it shall be told you, that the most acceptable sacrifice to God are justice and mercy.
+There you shall be taught that, if you love your neighbor as yourself, you must necessarily
+love your neighbor; for you can never do yourself a greater courtesy, than by doing good to
+another. There you shall be taught that there can be no worldly cause so great, as to make
+the death of a man legal or needful. There you shall hear this precept against unlawfull desires:
+“Resist lust as a most bitter enemy, that useth to glory in the disgrace of those bodies he
+overcommeth.” There it will be told you of covetousness that “it is better not to wish for
+things you want, than to have all that you wish.” There you shall hear that he that is angry
+when he is provoked is never -not- angry but when -not- provoked. There it will be told
+you of your enemies, “Love them that hate you, for all men love those that love them.” There
+you shall hear, that he lays up his treasure safeliest who gives it to the poor, for that cannot
+be lost who gives it to the poor, for that cannot be lost which is lent to the Lord.
+
+There it will be told you, that the fruit of holy marriage is chastity. There you shall hear,
+that the troubles of this world happen as well to the just as the unjust. There it will be told
+you that it is a more dangerous sicknesse to have the mind infected with the vices then the
+body with diseases. There to shew you the way of peace and gentleness you shall hear that
+amongst impatient men, their likeness of manners is the cause of their discord. There to
+keep you from following the bad example of others, it will be told you that “the wise man
+gains by the fool, as well as by the prudent; the one shewes him what to imitate, the other
+what to eschew.”
+
+There also you shall hear all these following precepts: That the ignorance of many things
+is better than their knowledge, and that therefore the goodness or mercy of God is as great
+in His hidden will, as in His revealed. That you should God thanks as well for adversity as
+
+22
+
+Eucherius to His Kinsmen Valerianus
+
+for prosperity; and confess in prosperity that you have not deserved it. That there is no such
+thing as Fate, and for this let the heathens examine their own laws, which punish none but
+willfull and premeditating offenders.
+
+There to keep you stable in faith it will be told you that “he that will be faithful, must
+not be suspicious; for we never suspect, but what wee slowly believe.” There also you shall
+hear  that  Christians  when  they  give  any  attention  to  the  noise  and  enticements  of  their
+passions fall headlong from Heaven unto Earth. It will be also told you there that seeing the
+wicked do sometimes receive good things in this world, and the just are afflicted by the un-
+righteous, those that believe not the final judgement of God after this life, do — as far as it
+lies in them — make God unjust, and far be this from your thoughts. There it will be told
+you about your private affairs, that what you would have hidden from men, you should
+never do, what from God, ye should never think. There you shall hear this rebuke of deceivers:
+“It is lesser damage to be deceived, than to deceive.” Lastly you should hear this reproof of
+self-conceit, or a fond opinion of our own worth: “Fly vanity, and so much the more vicious-
+ness, but vanity is oftentimes a bubble that swims up the face of Virtue.” These few rules,
+as a tast and invitation, I have — out of many more — inserted here for your own use.
+
+But if you will turn you eyes towards the sacred Oracles, and come yourself to be a
+searcher of those heavenly treasures, I know not that which will most ravish you, the casket,
+or the jewel, the language or the matter. For the Book of God, while it shines and glitters
+with glorious irradiations within, doth after the manner of most precious gems, drive the
+beholder’s  eyes  into  a  strong  and  restless  admiration  of  its  most  rich  and  inscrutable
+brightness. But let not the weaknesse of your eyes make you shun this divine light, but warm
+your  soul  at  the  beams  of  it,  and  learn  to  feed  your  inward  man  with  this  mystical  and
+healthful food.
+
+I doubt not but — by the powerful working of our merciful God upon your heart — I
+shall shortly find you an unfeigned lover of this true philosophy, and a resolute opposer of
+the false; renouncing also all worldly oblectations [delights], and earnestly coveting the true
+and eternal. For it is a point of great impiety and imprudence, seeing God wrought so many
+marvelous things for the salvation of man, that he should do nothing for himself: and seeing
+that in all His wonderful works He had a most special regard for our good, we ourselves
+should especially neglect it. Now the right way to care for our souls, is to yield ourselves to
+the love and the service of God: for true happiness is obtained by contemning the false feli-
+cities of this world, and by a wise abdication of all earthly delights, that we may become the
+chaste and faithful lovers of the heavenly. Wherefore henceforth let all your words and actions
+be done either to the glory of God, or for God’s sake. Get Innocence for your companion,
+and she is so faithful, that she will be also your defendress. It is a worthy enterprise to follow
+after Virtue, and to perform something while we live, for the example and the good of others:
+nor is it to be doubted but the mind, by a virtuous course of life, will quickly free itself from
+
+23
+
+Eucherius to His Kinsmen Valerianus
+
+those intanglements and deviations it hath been formerly accustomed to. That great Physician
+to whose cure and care we offer ourselves, will daily strengthen and perfect our recovery.
+
+And what estimation or value — when in this state — can you lay upon those glorious
+remunerations that will be laid up for you against the day of recompence? You see that God,
+even in this life, hath mercifully distributed unto all — without any difference — His most
+pleasant and useful light. The pious and the impious are both allowed the same sun; all the
+creatures obediently submit themselves to their service: and the whole Earth with the fullness
+thereof is the indifferent possession of the just and unjust. Seeing then that he hath given
+such excellent things unto the impious, how much more glorious are those things which
+He reserves for the pious? He that is so great in His free gifts, how excellent will He be in
+His rewards? He that is so royal in His daily bounty, and ordinary magnificence; how tran-
+scendent will He be in His remunerations and requitals? Ineffable and beyond all conception
+are those things which God hath prepared for those that love Him; and that they are so is
+most certain: for it is altogether incomprehensible, and passeth the understanding of His
+most chosen vessels to tell how great His reward shall be unto the just, who hath given so
+much to the unthankful and the unbelieving.
+
+Take up your eyes from the Earth and look about you, my most dear Valerian; spread
+forth your sails, and hasten from this stormy sea of secular negotiations, into the calm and
+secure harbour of Christian religion. This is the only haven into which which we all drive
+from the raging surges of this malicious world. This is our shelter from the loud and perse-
+cuting whirlwinds of Time. Here is our sure station and certain rest; here a large and silent
+recesse, secluded from the world, opens and offers itself unto us. Here a pleasant, serene
+tranquility shines upon us. Hither, when you are come, your weather-beaten vessel — after
+all your fruitless toils — shall at last find rest, and securely ride at anchor of the Cross.
+
+But it is time now that I should make an end. Let then — I beseech you — the truth and
+the force of heavenly doctrine epitomised here by me be approved of and used by you to
+the glory of God and your own good. These are all my precepts at present: pardon the length,
+and acknowledge my love.
+
+24
+
+Editorial Postscript
+
+Editorial Postscript
+
+The St. Pachomius Orthodox Library, Leavetaking of Pascha 1995.
+O Lord, remember Thy servants Henry the translator and Thomas his brother, and the
+
+scribes Richard, Paul, Michael, Deborah, Mark, Tony, Mary, and Noel.
+
+THE END, AND TO GOD BE THE GLORY!
+
+25
+
+Indexes
+
+Indexes
+
+Indexes
+
+26
+
+Index of Scripture References
+
+Index of Scripture References
+
+Index of Scripture References
+
+Psalms
+139
+Isaiah
+28:25
+Matthew
+16:26
+John
+18:15   18:19   18:20
+Romans
+8:24
+1 Corinthians
+10:11
+Philippians
+2:9-10
+1 John
+2:15   4:5
+
+27
+
+

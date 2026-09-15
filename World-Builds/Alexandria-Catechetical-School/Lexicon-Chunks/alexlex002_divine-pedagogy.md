@@ -47,7 +47,7 @@ God is *always* teaching; all of creation, Scripture, community, and suffering i
 
 ## Key Sources
 
-Clement of Alexandria, *Paedagogus* I (Christ as the divine Pedagogue). Origen, *On First Principles* IV (Scripture's stumbling blocks as pedagogy) and *On Prayer*. Athanasius, *On the Incarnation* (the incarnation itself as God's pedagogy of a humanity that could not read the lesson written in creation).
+Clement of Alexandria, *Paedagogus* I (Christ as the divine Pedagogue). Origen, *On First Principles* IV (Scripture's stumbling blocks as pedagogy; Origen's *On Prayer* is not vendored into this corpus in English — its Greek original is vendored separately as an original-language witness only, not English evidence — see `alexlex028_prayer.md`). Athanasius, *On the Incarnation* (the incarnation itself as God's pedagogy of a humanity that could not read the lesson written in creation).
 
 Note: Origen's "stumbling blocks" framing is his characteristic contribution — Dominant Modern Reconstruction for ecology-wide claims; the underlying conviction that God pedagogically governs is broadly Alexandrian (Clement, Athanasius).
 

@@ -35,7 +35,22 @@ relations:
 narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative), same basis as desert.story.antony-call: named author, contemporary-generation text. The staged pattern (village edge, then a place of greater withdrawal, then greater withdrawal again once the first place stopped being solitary) is the narrative's own repeated structure, not a single incident."
 tellable_as: "not a single departure but a lifelong deepening - each time solitude drew a crowd, going further"
-text: "Withdrawal was not one act for us but a repeated one. Antony began close to home, seeking out and modeling himself on an old man already living a solitary life near his own village. From there he moved further, until he found an abandoned fort across the river, long deserted and overrun, and crossed over and shut himself inside it, seeing almost no one for years but for someone who brought him bread twice a year. People still came and stood outside, some just to listen at the wall. Eventually he came out, and disciples gathered near him. Years later, wanting more solitude than that gathering left him, he withdrew again, further still, into the desert - by later report, a place between the river and the sea, though what he himself found there was a lofty mountain, a spring, and palms, reached after three days' journey - and remained there for most of what was left of his life. Each departure cost him the community the remove before it had built around him, and each answered the same problem the one before it had eventually stopped solving: solitude, once found, draws people to it, and total withdrawal has to be sought again."
+text: >-
+  Withdrawal was not one act for us. It was repeated. Antony began close to
+  home, seeking out and copying an old man already living a solitary life near
+  his village. From there he moved further, until he found an abandoned fort
+  across the river, long deserted and overrun. He crossed over and shut
+  himself inside it, seeing almost no one for years except someone who brought
+  him bread twice a year. People still came and stood outside, some just to
+  listen at the wall. Eventually he came out, and disciples gathered near him.
+  Years later, wanting more solitude than that gathering allowed, he withdrew
+  again, further still, into the desert. Later report places it between the
+  river and the sea; what he himself found was a high mountain, a spring, and
+  palms, reached after three days' journey. He stayed there for most of the
+  rest of his life. Each departure cost him the community that had built up
+  around him. And each answered the same problem the one before it had stopped
+  solving: solitude, once found, draws people to it, and total withdrawal has
+  to be sought again.
 absent_detail: "The Vita does not supply Antony's own account of what changed for him at each remove, or what specifically made the fort, and later the crowds around it, no longer enough - only that he moved on. This world's evidence gives the pattern, not the felt reasoning behind each specific move."
 modern_contrast: "A modern reader may hear a lifelong pattern of moving further from people as social avoidance, or read the crowds that kept finding him as ironic proof the withdrawal 'failed.' This world's own record frames the two as compatible rather than contradictory: withdrawal was the whole work of formation (desert.gravity.withdrawal), and being sought out anyway was never the point being defeated - elder-mediated authority (desert.gravity.elder-authority) depended on exactly this kind of asymmetric access, a formed person others could reach even in retreat."
 ---
@@ -80,3 +95,5 @@ single decisive break - directly answering F4-I ("How did a person
 actually become one of you? Walk me through it.") with the process
 itself, and F5-P-01 ("Did belonging cost you anything - family,
 friends, standing?"), now answered in the compiled text directly.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

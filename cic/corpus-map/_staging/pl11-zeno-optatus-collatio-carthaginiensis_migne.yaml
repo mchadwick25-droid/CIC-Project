@@ -1,0 +1,42 @@
+# Migne PL 11: Zeno of Verona's own works (cols. 9-751ish, unrelated to this
+# world) followed by an Optatus/Donatism-material cluster from col. 759 on,
+# including the acts of the 411 Conference of Carthage (Collatio
+# Carthaginiensis).
+source_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
+
+authors_ruled:
+  collatio-carthaginiensis:
+    kind: anonymous
+    evidence: >
+      The official notarial acts of the 411 conference, recorded by the
+      proceeding's own appointed notaries rather than composed by a named
+      author — a collective proceedings-record entity, the same shape as
+      the already-ruled anti-donatist-dossier (court/council acts and
+      imperial correspondence).
+
+assignments:
+  - work: "Gesta Collationis Carthaginiensis (Acts of the 411 Conference of
+      Carthage)"
+    author: collatio-carthaginiensis
+    locus: "the Collatio cluster, from col. 759 on"
+    atlas_ids:
+      - donatism
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      The official acts of the imperially-convened 411 conference between
+      Catholic and Donatist bishops — the single largest documentary record
+      of the two sides in direct confrontation, previously entirely absent
+      from this corpus in any language. Marked context (an official
+      proceeding record, not either side's own composed voice) consistent
+      with how this entry already treats the Optatus appendix and Council
+      acts; provisional because the Donatist bishops' own recorded speech
+      inside these acts may deserve separate tradition-role consideration
+      once actually read, which this entry has not yet done. Also assigned
+      to latin-pastoral-congregational-christianity (Source_Registry.md
+      row 65, per the project lead's 2026-09-13 decision on that row's own
+      flagged cross-world resource question): Augustine speaks in his own
+      words in at least fourteen numbered acts of these proceedings, a
+      live primary-voice route this world's own Registry names but does
+      not yet use.

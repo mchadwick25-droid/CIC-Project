@@ -47,7 +47,7 @@ A real increase in the soul's capacity to *see* what was already there. The chan
 
 ## Key Sources
 
-Clement of Alexandria, *Stromateis* I–II. Origen, *On First Principles* IV (the levels of meaning that formed perception opens) and *Commentary on John* I–II (the Logos as Light). Athanasius, *Letter to Marcellinus on the Psalms*. The baptismal tradition (*photismos*).
+Clement of Alexandria, *Stromateis* I–II. Origen, *On First Principles* IV (the levels of meaning that formed perception opens) and *Commentary on John* I–II (the Logos as Light). Athanasius, *Letter to Marcellinus on the Psalms* -- **not currently vendored**: searched and ruled an accepted absence by the project lead (Mark, 2026-08-21; `records/alx/search_record/alx.search.athanasius-marcellinus-pd.md`). The baptismal tradition (*photismos*).
 
 Note: the specifically *Alexandrian* attestation of baptism-as-*photismos* is Dominant Modern Reconstruction; Origen's three-level taxonomy is his distinctive contribution.
 

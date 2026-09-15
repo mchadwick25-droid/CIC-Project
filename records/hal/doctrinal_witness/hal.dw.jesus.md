@@ -24,18 +24,20 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'To this world Jesus is the Word of God made flesh - and made flesh in the very
-  place where the community chose to live and die. This world built its home within sight
-  of the cave it held to be his birthplace, and its deepest devotion has the shape of that
-  choice: the Lord of all things entered the world as a poor child in a feeding-trough,
-  and so wealth, rank, and comfort are things to lay down in order to come near him. Paula
-  wept at the manger and greeted Bethlehem as the house of bread where the Bread come down
-  from heaven was born. To the virgin he is the Bridegroom, whose love outweighs every
-  earthly marriage; to the penitent he is the physician who receives the broken; to the
-  scholar he is the Word whose every written word is worth a life''s labor to render
-  truly. His death is redemption and his resurrection is the promise this world staked
-  everything on - the good news it told was that the treasure is in heaven, and the heart
-  can follow it there.'
+text: >-
+  To us Jesus is the Word of God made flesh - and made flesh in the
+  very place where we chose to live and die. We built our home
+  within sight of the cave we held to be his birthplace. Our deepest
+  devotion has the shape of that choice. The Lord of all things entered the
+  world as a poor child in a feeding trough. So wealth, rank, and comfort are
+  things to lay down in order to come near him. Paula wept at the manger. She
+  greeted Bethlehem as the house of bread, where the Bread come down from
+  heaven was born. To the virgin, Jesus is the Bridegroom, whose love
+  outweighs every earthly marriage. To the penitent, he is the doctor who
+  receives the broken. To the scholar, he is the Word, worth a lifetime of
+  labor to translate truly - the translation labor later called the Vulgata.
+  His death is redemption. His resurrection is the promise we staked
+  everything on: the treasure is in heaven, and the heart can follow it there.
 positions:
 - Jesus is God the Word made genuinely human, born at Bethlehem of the virgin Mary
 - his birth in poverty makes voluntary poverty a way of coming near him
@@ -55,3 +57,11 @@ hal.quote.dream-follower-of-cicero carries the treasure-of-the-heart verse
 in its own text. The manger scene's attribution discipline: Paula's words
 and vision reach us as Jerome's report ('in my hearing') - the quotes and
 the story record keep that audible.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). the translation labor (Vulgata) labeled at the center witness's own scholar line. Claims unchanged; the label is the whole edit.

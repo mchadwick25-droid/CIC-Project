@@ -1,0 +1,58 @@
+name: Repin on library change
+
+# Library Access Gate D3 (Ministry/Features/Library-Access-Gate/
+# D3-Converged-Design.md) SS6.3, increment 5 (Q6b). Fires on every push to
+# main that touches cic/corpus-map/** or cic/texts/** - the library itself
+# changed, so every world whose shelf drew from what changed is stale and
+# needs a new package pinned to the new bytes. tools/repin_stale_worlds.py
+# does the work: builds each stale world, repoints
+# records/worlds/<code>.yaml at the new package, retires the manifest.json
+# the old pin left behind, and opens one PR per world - never a bulk PR
+# (the registry split, increment 1, is what buys two worlds' repins never
+# touching the same file).
+#
+# SETUP REQUIRED before this can ever land a mergeable PR (D3 SS6.3's own
+# flagged, unverified-at-freeze build-time fact): a PR opened with the
+# default GITHUB_TOKEN does not itself trigger the pull_request workflow,
+# so it would sit with zero CI checks forever and never clear branch
+# protection. Add a repository secret named REPIN_PR_TOKEN - a
+# fine-grained PAT scoped to this repo only, with Contents: Read and write
+# and Pull requests: Read and write, or an equivalent GitHub App
+# installation token. Checkout below falls back to the default token so
+# this job can still run and report cleanly without it; the actual repin
+# step (tools/repin_stale_worlds.py) requires REPIN_PR_TOKEN itself and
+# fails loudly, with these same instructions, until it exists.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cic/corpus-map/**'
+      - 'cic/texts/**'
+
+permissions:
+  contents: read
+
+jobs:
+  repin:
+    name: Repin stale worlds (one PR per world)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.REPIN_PR_TOKEN || github.token }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: engine/m1/requirements.txt
+      - run: pip install -r engine/m1/requirements.txt
+      - name: Repin every stale world
+        env:
+          REPIN_PR_TOKEN: ${{ secrets.REPIN_PR_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python tools/repin_stale_worlds.py

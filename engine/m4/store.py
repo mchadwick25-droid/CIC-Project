@@ -105,7 +105,41 @@ class Store:
                     return next_seq
                 except sqlite3.IntegrityError:
                     continue  # concurrent writer took this seq - re-read and retry
+                except sqlite3.OperationalError:
+                    # busy-timeout expiry under write contention (the 5s
+                    # PRAGMA timeout ran out). Previously uncaught - a raw
+                    # 500 (2026-08-28 foundation audit). Same remedy as a
+                    # seq collision: re-read and retry, bounded by the loop.
+                    continue
             raise ConcurrentWriteExhausted(f"session {session_id}: {MAX_APPEND_RETRIES} seq collisions in a row")
+
+    def event_exists(self, event_uuid: str) -> bool:
+        """True when an event with this uuid is already in the log - the
+        pre-flight half of client_msg_id idempotency (engine.api.wiring):
+        a deterministic event_uuid makes a retried message DETECTABLE
+        before any model call runs, where append's own dedupe alone would
+        only stop the duplicate ROW after the duplicate SPEND."""
+        with self._connect() as conn:
+            row = conn.execute("SELECT 1 FROM session_events WHERE event_uuid = ?", (event_uuid,)).fetchone()
+            return row is not None
+
+    def list_session_ids(self, since: str | None = None) -> list[str]:
+        """Every session in the log, oldest-first by first event - the M7
+        batch sweep's entry point (Artifact-8 §2). `since` filters on the
+        log's own created_at (ISO-8601 prefix compare, which is exactly
+        what ISO-8601 is for), making a daily audit cadence a query."""
+        with self._connect() as conn:
+            if since:
+                rows = conn.execute(
+                    "SELECT session_id, MIN(created_at) AS first FROM session_events "
+                    "WHERE created_at >= ? GROUP BY session_id ORDER BY first",
+                    (since,),
+                ).fetchall()
+            else:
+                rows = conn.execute(
+                    "SELECT session_id, MIN(created_at) AS first FROM session_events GROUP BY session_id ORDER BY first"
+                ).fetchall()
+            return [r[0] for r in rows]
 
     def read_events(self, session_id: str) -> list[StoredEvent]:
         with self._connect() as conn:

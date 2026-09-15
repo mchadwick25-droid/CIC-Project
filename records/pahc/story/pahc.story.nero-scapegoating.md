@@ -37,24 +37,21 @@ relations:
 narrative_tier: 1
 narrative_tier_justification: "A specific, dated historical event, from a named, datable historian, describing named individuals in the surrounding narrative (Nero), though no Christian individual by name. Widely Accepted as basically authentic to Tacitus's own text; the live Shaw/Jones dispute over whether a discrete, named-group persecution actually occurred is carried at full strength, not resolved."
 tellable_as: "After the Great Fire of Rome, Nero shifts blame onto a group the historian Tacitus calls Chrestiani, and has them executed with deliberate, theatrical cruelty."
-text: >
-  Writing roughly fifty years after the event, the Roman historian
-  Tacitus records that after the Great Fire of Rome in 64 CE, amid
-  rumors that Nero himself had ordered the burning, Nero shifted blame
-  onto a group he calls Chrestiani, describing them as hated for their
-  vices. Those first arrested, Tacitus reports, named others, and a
-  great number were convicted - not so much, in his own reading, for
-  the crime of arson as for hatred of humankind - and put to death
-  with deliberate, theatrical cruelty: wrapped in the skins of beasts
-  and torn apart by dogs, fastened to crosses, or set alight to serve
-  as torches after dark.
-
-  No Christian individual is named. The account comes entirely from
-  outside, written decades later by a historian with his own reasons
-  for portraying Nero as monstrous. First Clement, writing from within
-  this world's own communities, corroborates only this much: by the
-  time of its own writing, the apostles' own deaths were already
-  spoken of as past.
+text: >-
+  Writing roughly fifty years after the event, the Roman historian Tacitus
+  records what happened after the Great Fire of Rome in 64 CE. Rumors said
+  Nero himself had ordered the burning. So Nero shifted blame onto a group
+  Tacitus calls Chrestiani, describing them as hated for their vices. Those
+  first arrested named others, Tacitus reports, and a great number were
+  convicted - not so much, in his own reading, for arson as for hatred of
+  humankind. They were put to death with deliberate, theatrical cruelty. Some
+  were wrapped in the skins of beasts and torn apart by dogs. Some were
+  fastened to crosses. Some were set alight, to serve as torches after dark.
+  No Christian individual is named. The account comes entirely from outside,
+  written decades later by a historian with his own reasons for portraying
+  Nero as monstrous. First Clement, writing from inside our own
+  communities, confirms only this much: by the time of its writing, the
+  apostles' own deaths were already spoken of as past.
 absent_detail: "No source, inside or outside this world's own evidentiary base, names a single Christian individual caught up in this event - not even Peter or Paul are named here specifically, though later tradition places their deaths in this same period."
 modern_contrast: >
   A modern reader often hears this as the opening chapter of one
@@ -93,3 +90,5 @@ already carried at the force level, and duplicating it here as two
 more direct gravity edges would overstate what this specific,
 entirely-outside-voice story establishes on its own. Same disclosed-
 discipline pattern already used in pahc.story.mutual-aid-prisoner.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

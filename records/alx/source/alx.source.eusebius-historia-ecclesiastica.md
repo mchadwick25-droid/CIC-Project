@@ -16,6 +16,7 @@ sources: []
 author: "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project"
 work: "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
 edition: "trans. Arthur Cushman McGiffert, NPNF series 2 vol. 1 (1890), vendored as cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.eusebius-npnf2-01); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"

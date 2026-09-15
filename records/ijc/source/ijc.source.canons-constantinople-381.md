@@ -16,6 +16,7 @@ sources: []
 author: "The Council of Constantinople (381) - 150 bishops, convened by Theodosius I"
 work: "The Canons of the Second Ecumenical Council, esp. Canon 3 (Constantinople to have the prerogative of honour after Rome, because it is New Rome) and the associated creed tradition"
 edition: "ed. and trans. Henry R. Percival, The Seven Ecumenical Councils, Nicene and Post-Nicene Fathers series 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf214-councils); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"

@@ -16,8 +16,7 @@ import json
 import sys
 from pathlib import Path
 
-import yaml
-
+from engine.m1.registry import load_registry
 from engine.m4.turn import run_turn
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import estimate_cost
@@ -25,7 +24,6 @@ from engine.m8.live_cost_run import HAIKU_4_5_PRICE_TABLE, PRICE_TABLE_SOURCE, S
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-WORLDS_YAML = REPO_ROOT / "records" / "worlds.yaml"
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "live-memory-growth-report.json"
 
 WORLD_KEY = "alx"  # the largest world in the registry - the world where this effect would show most clearly
@@ -45,8 +43,8 @@ MESSAGES = [
 
 
 def run(region: str) -> dict:
-    registry = yaml.safe_load(WORLDS_YAML.read_text(encoding="utf-8"))
-    entry = registry["worlds"][WORLD_KEY]
+    registry = load_registry()
+    entry = registry[WORLD_KEY]
     loader = LazyWorldLoader()
     world, _timing = loader.load(
         WORLD_KEY, package_dir=REPO_ROOT / entry["package"]["location"], expected_manifest_hash=entry["package"]["manifest_hash"]

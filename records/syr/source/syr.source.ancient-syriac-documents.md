@@ -20,6 +20,7 @@ work: 'Ancient Syriac Documents (ANF 8): the Story Concerning the King of Edessa
   Guria'
 edition: trans. B.P. Pratten, ANF vol. 8 (1886); vendored as cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
   (div ix)
+kind: vendored
 rights_status: public-domain
 attribution_status: 'legendary-hagiographic: the Trajan-era martyr acts (Sharbil, Barsamya) are widely
   regarded as unhistorical compositions; Habib, Shamuna and Guria claim Diocletianic-era Edessene martyrs

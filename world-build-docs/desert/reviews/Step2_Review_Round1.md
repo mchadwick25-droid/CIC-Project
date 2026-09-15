@@ -4,7 +4,7 @@
 
 **Reviewed:** 22 source records in `records/desert/source/` (the commit title's "16" is a miscount — 22 source records shipped in that commit and sit on disk), 10 search records in `records/desert/search_record/`, and `world-build-docs/desert/SOURCE-REQUEST-MANIFEST.md`.
 
-**Reviewer stance:** independent, adversarial, no drafting context. Every claimed file line locus and verbatim phrase was checked against the vendored files in `cic/texts/` by direct grep/read; every rights header was opened; the confidence rules were checked against `Redesign-Spec/Artifact-1-Record-Schema.md` and `engine/m1/gates.py`; the full M1 gate battery was executed against the shipped records; consistency was checked against the approved Doc_01, the cleared Doc_02, and the prior build's record store (`cic-poc/backend/wrs/records/desert_world/source/`).
+**Reviewer stance:** independent, adversarial, no drafting context. Every claimed file line locus and verbatim phrase was checked against the vendored files in `cic/texts/` by direct grep/read; every rights header was opened; the confidence rules were checked against `reference/Redesign-Spec/Artifact-1-Record-Schema.md` and `engine/m1/gates.py`; the full M1 gate battery was executed against the shipped records; consistency was checked against the approved Doc_01, the cleared Doc_02, and the prior build's record store (`cic-poc/backend/wrs/records/desert_world/source/`).
 
 ---
 

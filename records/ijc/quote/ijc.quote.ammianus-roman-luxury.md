@@ -1,0 +1,53 @@
+---
+id: ijc.quote.ammianus-roman-luxury
+world_id: imperial-juridical
+record_type: quote
+schema_version: 2
+status: draft
+register: etic
+canon_cells:
+- F6-P
+confidence:
+  citation_specificity: A
+  verification_state: verified-direct
+  evidentiary_weight: illustrative
+  formation_confidence: Documented
+  divergence_note: null
+sources:
+- source_id: ijc.source.ammianus-marcellinus
+  locus: "Res Gestae XXVII.3.14-15"
+  license: public-domain
+text: 'I do not deny, when I consider the ostentation that reigns at Rome, that those who desire such
+  rank and power may be justified in labouring with all possible exertion and vehemence to obtain their
+  wishes; since after they have succeeded, they will be secure for the future, being enriched by
+  offerings from matrons, riding in carriages, dressing splendidly, and feasting luxuriously, so that
+  their entertainments surpass even royal banquets. And they might be really happy if, despising the
+  vastness of the city, which they excite against themselves by their vices, they were to live in
+  imitation of some of the priests in the provinces, whom the most rigid abstinence in eating and
+  drinking, and plainness of apparel, and eyes always cast on the ground, recommend to the everlasting
+  Deity and his true worshippers as pure and sober-minded men.'
+speaker_or_author: "Ammianus Marcellinus, Res Gestae XXVII.3 (a pagan historian's outside verdict on the 366 election's stakes)"
+license: verbatim
+modern_lens_note: >-
+  'The everlasting Deity' is Ammianus's own pagan-philosophical language for the divine, not a
+  Christian usage - he writes this as an outsider, not as a believer conceding a point.
+relations:
+- {type: illustrates, target: ijc.figure.damasus}
+- {type: illustrates, target: ijc.gravity.primacy-claiming}
+---
+Text verified verbatim against the vendored file 2026-09-13, from a
+raw djvu OCR scan, with one mechanical correction against a visible
+scan artifact: "1 do not deny" corrected to "I do not deny" (a capital
+I misread as the numeral 1 by the OCR layer - checked directly against
+the scan itself, not assumed; "1 5." similarly closed to "15."). A
+rare non-Christian, contemporary outside verdict in this world's own
+record: immediately after naming the 366 election's death toll (Res
+Gestae XXVII.3.12-13, ijc.quote.ammianus-sicininus-massacre), Ammianus
+names what he judges was actually at stake - wealth, carriages, and
+banquets "surpassing even royal banquets" - and contrasts it,
+approvingly, with the plainer provincial clergy. Newly vendored
+2026-09-13 (see ijc.source.ammianus-marcellinus); previously this
+build could only reference this remark's existence, per that source's
+own "work" field, without a licensed quotation. Register: etic and
+hostile-to-Christian-ambition, not this world's own self-account -
+carried as such, not smoothed into agreement with it.

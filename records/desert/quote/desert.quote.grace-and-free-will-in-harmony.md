@@ -17,6 +17,10 @@ sources:
   locus: "Conference XIII (Third Conference of Abbot Chaeremon, On the Protection of God), ch. XI"
   license: public-domain
 text: "These two then; viz., the grace of God and free will seem opposed to each other, but really are in harmony, and we gather from the system of goodness that we ought to have both alike..."
+modern_rendering: >-
+  These two things - God's grace and our free will - look like opposites.
+  Really they work together. Goodness itself tells us we need to hold on to
+  both...
 speaker_or_author: Abbot Chaeremon, as Cassian reports him in the Conferences
 license: verbatim
 modern_lens_note: "\"Free will\" here is not the modern autonomy question. It is whether a person's own effort can begin or complete their salvation - the fifth-century argument between Augustine's followers and the Gallic monks, which this Conference sits inside and which later went against it."
@@ -37,3 +41,7 @@ point: Paul the persecutor and Matthew the publican were drawn while wanting the
 (grace first), while Zacchaeus and the thief on the cross "by their own desires brought
 violence to bear on the kingdom of heaven" (will first). Neither pattern is made to
 govern the other.
+
+MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

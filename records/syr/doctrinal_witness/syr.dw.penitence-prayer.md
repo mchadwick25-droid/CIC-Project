@@ -27,14 +27,18 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'For the one who cannot quiet their own head, who prays into silence, who cannot forgive - this
-  world''s pastoral craft was the medicine of penitence. Its teachers talked like field surgeons: everyone
-  in this war gets wounded; the only fatal mistake is hiding the wound until it festers. Confess - to
-  one who can help - and the physician is forbidden to shame you or publish what you show him. The fallen
-  fighter, healed, goes back into the line. As for prayer that seems to go unanswered: this world knew
-  that silence at its harshest - taunted to its face that its prayers had not stopped the killing - and
-  it kept praying, answering that God''s faithfulness is longer than one generation''s rescue. It did
-  not pretend the silence away; it endured inside it.'
+text: >-
+  For the one who cannot quiet their own head, who prays into silence, who
+  cannot forgive - our pastoral craft was the medicine of penitence.
+  Our teachers talked like field surgeons. Everyone in this war gets wounded.
+  The only fatal mistake is hiding the wound until it gets worse. Confess, to
+  one who can help. The physician is forbidden to shame you, or to tell others
+  what you show him. The fallen fighter, healed, goes back into the line. As
+  for prayer that seems to go unanswered: we knew that silence at its
+  harshest. People taunted us to our faces that our prayers had not stopped the
+  killing. And we kept praying, answering that God's faithfulness is longer
+  than one generation's rescue. We did not pretend the silence away. We
+  endured inside it.
 positions:
 - penitence is medicine, confession is showing the wound, and the healer is bound to mercy and confidence
 - 'restoration is real: the healed return to the community''s full life and struggle'
@@ -47,3 +51,5 @@ F4-P: Dem VII's penitence teaching verified verbatim (the wound,
 the physician, the no-publishing rule, the return to battle);
 Dem XXI.1's taunt verified. Companion quote:
 syr.quote.aphrahat-medicine-penitence.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept.

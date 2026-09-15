@@ -4,7 +4,7 @@ world_id: _fleet
 record_type: canon_question
 schema_version: 2
 cell: F2-P
-text: When I read the Bible I mostly come away confused or bored. What am I missing?
+text: What did your people look for in these texts that a modern reader might miss?
 source:
 - corpus
 canon_status: seed

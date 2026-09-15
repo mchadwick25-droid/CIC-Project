@@ -2,7 +2,7 @@
 ## Desert Monasticism (world code `desert`/`dm`)
 
 **Template version:** 1.1
-**Document type:** Section B (Facilitator Selection and Management Brief) deliverable, discharged through `L4-Templates/World_Facilitation_Brief_Template.md` v1.1, following the same template Phase Six documents use for Worlds #1 (PAHC/Chloe) and #7 (Syriac/Mar Yausep).
+**Document type:** Section B (Facilitator Selection and Management Brief) deliverable, discharged through `reference/L4-Templates/World_Facilitation_Brief_Template.md` v1.1, following the same template Phase Six documents use for Worlds #1 (PAHC/Chloe) and #7 (Syriac/Mar Yausep).
 
 **Status and provenance — read before using this document.** This brief was produced by a separate integration pass, not by the thread that built this world. It draws entirely on Desert Monasticism's own already-completed and already-approved-to-proceed construction record (Doc_01 through Doc_10, the Representative Identity Preliminary Decision, the World Capsule Core, the Permanent Prompt, and the 2026-07-11 live adversarial testing record) — it introduces no new construction claim of its own. **This document itself has NOT been through this project's own independent adversarial review process.** Unlike the PAHC and Syriac Phase Six briefs, which each cleared one or more rounds of cold, independent review before being presented for disposition, this document is a first draft only. It should be treated as a synthesis awaiting its own Round 1 review, not as a cleared or disposition-ready artifact — the same posture the Syriac brief itself modeled when disclosing its own review status at each stage of its own drafting.
 

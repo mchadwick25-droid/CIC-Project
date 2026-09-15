@@ -10,7 +10,7 @@
 
 **Built from:** Doc_02's source ecology (primary voices and their transmission histories); a targeted verification pass on Greek/Coptic terminology and the Cassian translation-substitution case, checked against live sources during drafting.
 
-**Note on language layer:** per Doc_01 Section 4 / Doc_02 Section 6 (**citation corrected per Round 1 review, Finding F2** — Doc_02 Section 4 is Liturgical Evidence, not Cultural Scope; this matches the citation already used correctly in Section 3 below), most of the terms below reach us in **Greek**, even where the underlying speech community was substantially Coptic. This document flags that layering explicitly per term rather than letting Greek philosophical vocabulary read as if it were this world's own native idiom throughout — see the per-term "Language layer" note and Section 3 below.
+**Note on language layer:** per Doc_01 Section 4 / Doc_02 Section 6 (Doc_02 Section 4 is Liturgical Evidence, not Cultural Scope), most of the terms below reach us in **Greek**, even where the underlying speech community was substantially Coptic. This document flags that layering explicitly per term rather than letting Greek philosophical vocabulary read as if it were this world's own native idiom throughout — see the per-term "Language layer" note and Section 3 below.
 
 ---
 
@@ -94,7 +94,7 @@ Each entry: term (Greek/Coptic form, transliteration), preliminary definition, i
 
 - **Preliminary definition:** vigilant attentiveness to one's own interior movements, closely related to *diakrisis* (Section 1.9) but denoting the ongoing act of watching rather than the resulting judgment.
 - **Initial tier estimate:** 2.
-- **Strand attribution:** cross-strand, though most systematically developed in Strand C (Evagrian) material. **Caveat added per Round 1 review, Finding F4** (consistency with the same caveat already given to *hēsychia*, Section 1.4): as a fully systematic technical term, *nēpsis*'s heaviest theological elaboration belongs to the later neptic/Philokalic tradition, well outside this world's own c. 430 closing boundary, even though its root (1 Peter 5:8) and Evagrius's own use of it are early.
+- **Strand attribution:** cross-strand, though most systematically developed in Strand C (Evagrian) material. **Caveat** (consistency with the same caveat already given to *hēsychia*, Section 1.4): as a fully systematic technical term, *nēpsis*'s heaviest theological elaboration belongs to the later neptic/Philokalic tradition, well outside this world's own c. 430 closing boundary, even though its root (1 Peter 5:8) and Evagrius's own use of it are early.
 - **Author Gravity risk:** moderate, similar basis to Section 1.9.
 - **Source anchor:** Doc_02, Sections 1.4–1.5.
 
@@ -130,7 +130,7 @@ Each entry: term (Greek/Coptic form, transliteration), preliminary definition, i
 - **Author Gravity risk:** low — independently corroborated by archaeological evidence (Doc_02, Section 5.1), a genuinely different evidentiary register from the literary sources.
 - **Source anchor:** Doc_02, Section 5.1.
 
-### 1.15 χειρωναξία / ἐργόχειρον (*cheirōnaxia* / *ergocheiron*) — "handiwork," "manual labor" (**transliteration corrected per Round 1 review, Finding F3**)
+### 1.15 χειρωναξία / ἐργόχειρον (*cheirōnaxia* / *ergocheiron*) — "handiwork," "manual labor"
 
 - **Preliminary definition:** manual labor (chiefly rope- and basket-weaving) undertaken as both economic necessity and deliberate ascetic discipline against idleness (Doc_01, Section 4).
 - **Initial tier estimate:** 1 — cross-strand and directly load-bearing for this world's material self-sustenance and its own ascetic self-understanding simultaneously.
@@ -151,7 +151,7 @@ Each entry: term (Greek/Coptic form, transliteration), preliminary definition, i
 - **Preliminary definition:** the specific ascetic technique of verbally countering a demonic *logismos* with a scriptural rebuttal at the moment of temptation, systematized by Evagrius in his *Antirrhetikos* (Doc_02, Section 1.4).
 - **Initial tier estimate:** 3 — a specialized technique, not this world's general vocabulary.
 - **Strand attribution:** Strand C-bound, single-author (Evagrian).
-- **Author Gravity risk:** **high** — entirely dependent on one text by one author. **Corrected per Round 1 review, Finding F1** (the earlier draft fabricated a Doc_02 citation for a "Sogdian-only" survival claim that both misattributed and inverted the actual transmission picture): the *Antirrhetikos*'s original Greek is lost; the complete text survives only in translation — Syriac (ed. Frankenberg), plus Armenian and Georgian — with additional fragmentary Sogdian material surviving from the Turfan finds. This fact is not yet present in Doc_02 and should be added there as a supplement at the next opportunity to revise that document, not cited as already established there (Section 4, open item).
+- **Author Gravity risk:** **high** — entirely dependent on one text by one author. The *Antirrhetikos*'s original Greek is lost; the complete text survives only in translation — Syriac (ed. Frankenberg), plus Armenian and Georgian — with additional fragmentary Sogdian material surviving from the Turfan finds. This fact is not yet present in Doc_02 and should be added there as a supplement at the next opportunity to revise that document, not cited as already established there (Section 4, open item).
 - **Source anchor:** Doc_02, Section 1.4.
 
 ### 1.18 "Purity of heart" (Latin *puritas cordis*) — a translation-challenge entry, not a Greek/Coptic term
@@ -164,7 +164,7 @@ Each entry: term (Greek/Coptic form, transliteration), preliminary definition, i
 
 ---
 
-### 1.19 Tier 1 candidates — roll-up for Doc_06 (added per Round 1 review, Finding F6; heading level corrected per Round 2 review)
+### 1.19 Tier 1 candidates — roll-up for Doc_06
 
 Per Framework Step 3's requirement to note terms that will require full Tier 1 treatment at Doc_06: this document's Tier 1 estimates are *anachōrēsis* (1.1), *apotagē* (1.2), *hēsychia* (1.4), *logismoi* (1.5, systematized-form caveat applies), *diakrisis* (1.9), *gerōn*/*abba*/*amma* (1.11), *cheirōnaxia*/*ergocheiron* (1.15), and *apophthegma* (1.16). *Koinōnia* (1.12) is Tier 1 for Strand B specifically, not cross-strand. All eight are subject to Doc_04's Confidence/Gravity Cross-Check (Section 4, open item 2) before any of them can anchor a Primary gravity classification.
 
@@ -172,7 +172,7 @@ Per Framework Step 3's requirement to note terms that will require full Tier 1 t
 
 ## 2. Terms considered and explicitly not included, with reasoning
 
-- **Θέωσις (*theōsis*, "deification")** — deliberately not given its own candidate entry, despite appearing in ascetic-adjacent literature, because it is a heavily developed Tier 1 term in an earlier, archived Alexandria-world build (`Archive/Alexandria-Build-History/Alexandria-v7/Lexicon MD files/alexlex008_theosis.md`, confirmed Tier 1 this drafting pass — **verification note added per Round 1 review, Finding F5**: this file is archived, under an earlier world-name vintage ("Desert Christianity" was itself once used as a working label and the file references "Phase 3"), not a live `World-Builds/Alexandria/` folder, so this document's claim rests on an earlier-vintage citation and should be re-confirmed against whatever Alexandria's live rebuild eventually produces). This is consistent with the project's existing multi-world vocabulary-isolation concern (reflected in this branch's history, e.g. commit `bb0698c`, "strengthen vocabulary isolation between representatives at multi-world table"). **Notably, that same archived Alexandria file's own "Cross-build provisional constraint" states that Evagrius Ponticus's developed theosis theology "is most evidenced in the Desert Christianity world... Evagrian systematization: reserved for Desert Christianity"** — i.e., the neighboring world's own lexicon already points the Evagrian material back toward this world, which strengthens rather than weakens this document's claim to the *apatheia*/*theōria* cluster (Sections 1.6–1.7). Where this world's own material touches deification-adjacent ideas, this document routes that content through *apatheia* and *theōria* instead of *theosis*, and flags explicit cross-world differentiation, checked in both directions, as a required item at Doc_06.
+- **Θέωσις (*theōsis*, "deification")** — deliberately not given its own candidate entry, despite appearing in ascetic-adjacent literature, because it is a heavily developed Tier 1 term in an earlier, archived Alexandria-world build (`Archive/Alexandria-Build-History/Alexandria-v7/Lexicon MD files/alexlex008_theosis.md`, confirmed Tier 1 this drafting pass; this file is archived, under an earlier world-name vintage ("Desert Christianity" was itself once used as a working label and the file references "Phase 3"), not a live `World-Builds/Alexandria/` folder, so this document's claim rests on an earlier-vintage citation and should be re-confirmed against whatever Alexandria's live rebuild eventually produces). This is consistent with the project's existing multi-world vocabulary-isolation concern (reflected in this branch's history, e.g. commit `bb0698c`, "strengthen vocabulary isolation between representatives at multi-world table"). **Notably, that same archived Alexandria file's own "Cross-build provisional constraint" states that Evagrius Ponticus's developed theosis theology "is most evidenced in the Desert Christianity world... Evagrian systematization: reserved for Desert Christianity"** — i.e., the neighboring world's own lexicon already points the Evagrian material back toward this world, which strengthens rather than weakens this document's claim to the *apatheia*/*theōria* cluster (Sections 1.6–1.7). Where this world's own material touches deification-adjacent ideas, this document routes that content through *apatheia* and *theōria* instead of *theosis*, and flags explicit cross-world differentiation, checked in both directions, as a required item at Doc_06.
 - **Ἐρημίτης (*erēmitēs*, "hermit")** — not included as a separate candidate term because it functions descriptively rather than as this world's own operative technical vocabulary; Doc_01 and Doc_02 already use "anchoritic" (Section 1.1's *anachōrēsis* family) as the operative term for this pattern.
 
 ---

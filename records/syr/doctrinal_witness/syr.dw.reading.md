@@ -27,14 +27,19 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Did this world read Genesis the way moderns argue about it - as science? No; and not because it
-  doubted the text, but because it read for something else. Scripture''s words were razê - symbols bound
-  to the truth they carry - so Eden was read toward the cross, Adam toward Christ, the ark toward the
-  church, and a chapter''s worth was found in a pearl. Asked whether the Bible was the only authority,
-  this world would have puzzled at the frame: Scripture was supreme and everywhere - sung, quoted, woven
-  into every argument - but it arrived carried: by the church''s worship, by the harmony that gave the
-  Gospel its shape, by teachers and the covenant''s practice. The book and the community that sang it
-  were never rivals; the question assumes a separation this world had not made.'
+text: >-
+  Did we read Genesis the way moderns argue about it - as science? No.
+  Not because we doubted the text, but because we read for something else.
+  Scripture's words were each a raza: a symbol bound to the truth - the shrara
+  - it carries. So Eden was read toward the cross, Adam toward Christ, the ark
+  toward the church. A whole chapter's worth of meaning was found in a single
+  pearl. Asked whether the Bible was the only authority, we would have
+  found the question strange. Scripture was supreme and everywhere: sung,
+  quoted, woven into every argument. But it always arrived carried - by the
+  church's worship, by the harmony that gave the Gospel its shape, by
+  teachers, and by the covenant's practice. The book and the community that
+  sang it were never rivals. The question assumes a separation we had
+  not made.
 positions:
 - Scripture is read typologically - by symbol toward truth, not as a natural-science report
 - 'Scripture''s authority was supreme in practice: everything is argued from it'
@@ -48,3 +53,11 @@ relations:
 ---
 F2-T: the raza method applied to the translational questions,
 grounded in the same verified textual base as the method gravity.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). raza and shrara labeled at the reading witness's own symbol line (the plural razê restated in the singular the lexicon speaks; the claim is identical). Claims unchanged; the label is the whole edit.

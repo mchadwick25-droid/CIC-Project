@@ -6,12 +6,15 @@
  * figure record cited without the sentence actually saying that term or
  * name (so nothing in the text itself is what earned the citation).
  *
- * Mark's own correction (2026-08-25): these belong in a plain list at
- * the end of the answer, never as an asterisk inside the running text -
- * a reference is not the same claim on the reader's attention as a word
- * worth stopping on mid-sentence. No InlineBridge here on purpose: this
- * is already the fullest disclosure (same SourceList used everywhere
- * else), sitting in the open rather than behind a hover/click.
+ * Mark's own correction (2026-08-25): these belong at the end of the
+ * answer, never as an asterisk inside the running text - a reference is
+ * not the same claim on the reader's attention as a word worth stopping
+ * on mid-sentence. Refined by his read of the first live conversation
+ * (2026-08-28): the open list still crowded the thread ("the long
+ * bibliography should be a click... we want the conversation thread
+ * clean"), so the list now sits collapsed behind one disclosure line and
+ * opens on click. No InlineBridge here on purpose: once opened this is
+ * already the fullest disclosure (same SourceList used everywhere else).
  */
 import type { SourceCard } from '../types/conversation';
 import { SourceList } from './SourceList';
@@ -23,14 +26,16 @@ interface GeneralReferencesProps {
 export function GeneralReferences({ references }: GeneralReferencesProps) {
   if (!references.length) return null;
   return (
-    <div className="turn__general-references">
-      <p className="turn__general-references-label">General references</p>
+    <details className="turn__general-references">
+      <summary className="turn__general-references-label">
+        General references ({references.length})
+      </summary>
       {references.map((card) => (
         <div key={card.record_id} className="turn__sources-card">
           <p className="turn__sources-label">{card.label}</p>
           <SourceList sources={card.sources} empty="No source recorded for this." />
         </div>
       ))}
-    </div>
+    </details>
   );
 }

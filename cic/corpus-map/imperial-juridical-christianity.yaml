@@ -137,7 +137,13 @@ works:
     question from a single source. This is the desert tradition''s own author writing Christology
     - assigned to desert to widen exactly that base - and it was commissioned in Rome by the
     archdeacon Leo in 430 as part of the Western church''s response to Nestorius on the eve
-    of Ephesus, which is ijc''s world.
+    of Ephesus, which is ijc''s world. Re-pointed 2026-09-08: same author-tradition basis
+    as the Institutes and Conferences rows above - Cassian''s own authored corpus, written
+    while he led the Marseilles houses, belongs to the Gallic monastic-ascetic entry (era
+    2, c. 360-450) even though its content is Christological rather than about Gallic monastic
+    life directly. The case document that surfaced the entry (CASE-gallic-monasticism.md)
+    counted this work in Cassian''s own 364,648-word figure but the corpus map had not yet
+    been re-pointed to match.
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
@@ -405,6 +411,29 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
+- work: Letter to the Athenians (Letter to the Senate and People of Athens)
+  author: julian
+  locus: whole file (Loeb pp. 245-293)
+  role: context
+  confidence: assigned
+  note: 'The non-Christian world''s own voice (brief SS11a''s worked example: "Libanius and
+    Julian to imperial-juridical-christianity, whose world they are the outside of"). Julian''s
+    own account of his break with Constantius and, implicitly, the Christian household that
+    raised him - the file''s own vendoring note already frames it this way.
+
+    '
+  source_file: julian_letter-to-the-athenians_wright1913.txt
+- work: Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)
+  author: julian
+  locus: whole file (Loeb pp. 2-235); Letter 36 is the Rescript on Christian Teachers specifically
+  role: context
+  confidence: assigned
+  note: 'The non-Christian world''s own voice, per brief SS11a''s worked example. Letter 36
+    is an actual imperial rescript - law, not polemic - making the imperial-juridical entry
+    the clearest single home for it.
+
+    '
+  source_file: julian_letters-1-73_wright1923.txt
 - work: Of the Manner in Which the Persecutors Died
   author: lactantius
   locus: div2 3.5
@@ -473,6 +502,35 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- work: Ecclesiastical History (surviving only as Photius' Epitome)
+  author: philostorgius
+  locus: whole file - esp. Books IV-V (Rimini/Seleucia 359, Constantinople 360, the depositions
+    under Constantius II)
+  role: context
+  confidence: assigned
+  note: 'Added 2026-09-09 on Mark''s ruling, after a post-admission source check found this
+    volume had never been considered for ijc at all (records/ijc had zero mentions of it).
+    A non-Nicene narrative of exactly ijc''s own contested imperial-doctrinal decades: Books
+    IV-V carry Rimini and Seleucia, the coerced subscriptions at Constantinople in 360, and
+    bishops deposed and restored at the emperor''s will - ijc''s central question stated from
+    outside the tradition that won it. The nearest precedent is Athanasius'' Historia Arianorum,
+    assigned to ijc "because its central question (''what has the emperor to do with the church?'')
+    is the ijc world''s own problem stated by its sharpest opponent."
+
+    ROLE IS A JUDGMENT CALL, recorded as one rather than asserted. That Athanasius row carries
+    role: tradition for ijc, and this one does not follow it: Athanasius is arguably native
+    to ijc''s own story, while Philostorgius plainly is not - he is Eunomian, and ijc is the
+    Nicene-imperial establishment. Calling him this world''s own voice would repeat the exact
+    conflation the finding behind this row argues against. context per SS4/SS6.1b''s four-way
+    definition, same reading as the cappadocian row above.
+
+    DOES NOT close ijc''s named Homoian self-testimony thinness (Doc_02 sec 7), and must not
+    be used as if it did - Anomoean is not Homoian, a distinction this repo already ruled
+    on 2026-08-26, and at IV.12 Philostorgius'' own party is coerced into subscribing the
+    Homoian formula. Full reasoning at records/ijc/search_record/ijc.search.philostorgius-homoian-fit.md.
+
+    '
+  source_file: philostorgius_ecclesiastical-history_walford1855.txt
 - work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — Books I-VII, 305-439
@@ -505,7 +563,12 @@ works:
   note: 'World chronicle to c. 400 whose second book carries the fullest near-contemporary
     narrative of the Priscillianist affair - the trial and execution at Trier under Maximus,
     the first death sentence for heresy carried out by a Christian emperor. Church-and-state
-    material squarely inside the built ijc world''s window.
+    material squarely inside the built ijc world''s window. Re-pointed 2026-09-08: also this
+    author''s own corpus for the Gallic monastic-ascetic entry (era 2, c. 360-450, added to
+    the census 2026-08-26) - same author-tradition basis already carrying his other three
+    works (Life of Martin, Dialogues, Doubtful Letters/Letters) into that bucket; the case
+    document that surfaced the entry (CASE-gallic-monasticism.md) counted this work in Sulpitius''
+    own 109,539-word figure but the corpus map had not yet been re-pointed to match.
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
@@ -554,5 +617,38 @@ works:
     were considered and not assigned: they are brief, and his real Syrian-monk source (Historia
     Religiosa) is not in this volume.
 
+    Also assigned to ambrosian-milan-standalone: Book V''s Ambrose-Theodosius penance narrative
+    is a near-contemporary (c. 449) external account of Ambrose''s own single most famous
+    act, a second voice this Confessions-and-NPNF210-only world otherwise lacks entirely.
+    Surfaced by a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps, 2026-09-13.
+
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- work: Theodosiani Libri XVI (Book 16, critical Latin text)
+  author: theodosian-code
+  locus: as above
+  role: tradition
+  confidence: provisional
+  note: 'Same dual-assignment logic already applied to the Optatus Appendix of Documents for
+    this pair of entries: imperial legislation on the church is imperial-juridical-christianity''s
+    own subject matter, so tradition rather than context there. Provisional pending that entry''s
+    own confirmation, the same caveat the Appendix entry already carries.
+
+    '
+  source_file: theodosianus-16_mommsen-meyer1905.txt
+- work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
+  author: theodosian-code-compilers
+  locus: whole text
+  role: context
+  confidence: needs-ruling
+  note: 'Named on fit alone, not evidence — this world''s own name and evident subject (imperial
+    law and Christianity) make it an obvious candidate, but this staging entry was written
+    from lpc''s own build thread, which has not read that world''s own Doc_01/Doc_02 boundary
+    and cannot argue whether CTh is that entry''s own `context` (external legal apparatus
+    acting on a tradition) or `tradition` (the entry''s own native voice, if the entry''s
+    own subject IS the imperial legal apparatus itself). Flagged per corpus-map''s own non-exclusivity
+    principle — better named and left for a ruling than silently omitted because the assigning
+    thread lacked standing to decide it.
+
+    '
+  source_file: codex-theodosianus_latinlibrary.txt

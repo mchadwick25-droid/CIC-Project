@@ -17,6 +17,12 @@ sources:
   locus: "Homily XVII, in Mason's English"
   license: public-domain
 text: "Mere abstention from evil things is not perfection - only if thou hast entered into thy ruined mind, and hast slain the serpent that lies under the mind beneath the surface of the thoughts, and burrows into what we call the secret chambers and storehouses of the soul and murders thee - for the heart is a deep gulf."
+modern_rendering: >-
+  Just keeping away from evil things is not perfection. Real change means
+  entering your own broken mind and killing the snake that lives beneath the
+  surface of your thoughts. It burrows into what we call the soul's hidden
+  rooms and storehouses, and it murders you from there. For the heart is a
+  deep gulf.
 speaker_or_author: "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown"
 license: verbatim
 modern_lens_note: "'Heart' here is not feeling as against thinking. It is the whole interior person including the part below what one can inspect - which is why the serpent is under the mind rather than in it. The vendored file had 'cast- out' as a scan artifact a few words later; repaired in the file, recorded in its header, and outside the text quoted here."
@@ -38,3 +44,7 @@ either vendored text that the interior life goes below what a person can see of 
 directly against the Evagrian picture where the logismoi are observable arrivals to be caught early
 (desert.quote.the-eight-generic-thoughts): here the trouble is under the thoughts, in a place the
 watching does not reach.
+
+MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

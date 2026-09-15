@@ -42,16 +42,20 @@ modern_contrast: >-
   defending the use of imperial law to compel schismatics into communion, and the laws he was defending
   did exist. The point is not that the empire was gentle. It is that the alliance was still being
   worked out, case by case, by people who did not know how it would end.
-text: 'When Constantine came into Africa''s church quarrel he did what emperors do: he convened a
-  hearing. In 314 he wrote to his vicar Aelafius directing Caecilian and his accusers to Arles, having
-  already had the matter heard at Rome, and the councils duly found against the Donatists. It did not
-  settle anything. Sixteen years later the Donatists were still holding basilicas that the Catholics
-  said were theirs - including one Constantine had built himself, for Catholic use. He wrote to the
-  Numidian bishops about it. He did not order the buildings seized, and he did not send troops. He
-  left the Donatists where they were, and provided for another church to be built for the Catholics,
-  again at his own expense; and he ordered that certain exemptions the Donatists had manoeuvred the
-  Catholic lower clergy out of should be restored. The most powerful man in the world, in a dispute
-  he had summoned two councils to settle, in the end paid twice and let it lie.'
+text: >-
+  When Constantine came into Africa's church quarrel, he did what emperors do:
+  he called a hearing. In 314 he directed Caecilian and his accusers to Arles,
+  having already had the matter heard at Rome, and the councils duly ruled
+  against the Donatists. It settled nothing. Sixteen years later, the
+  Donatists still held basilicas the Catholics said were theirs - including
+  one Constantine had built himself, for Catholic use. He wrote to the
+  Numidian bishops about it. He did not order the buildings seized, and he did
+  not send troops. He left the Donatists where they were, and he paid for
+  another church to be built for the Catholics - again at his own expense. He
+  also ordered that certain tax breaks the Donatists had maneuvered the
+  Catholic lower clergy out of should be restored. The most powerful man in
+  the world, in a dispute he had summoned two councils to settle, in the end
+  paid twice and let it lie.
 ---
 Verified directly against the vendored file 2026-08-27: the convening
 letter to Aelafius at line 7084 and its text from 7095 ("Already some
@@ -78,3 +82,5 @@ use force it plainly had, in a case it had already adjudicated twice.
 Nothing else in this world's registry shows that, and a world about
 church and empire that only ever shows emperors yielding to bishops or
 crushing them has a shape its own sources do not support.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

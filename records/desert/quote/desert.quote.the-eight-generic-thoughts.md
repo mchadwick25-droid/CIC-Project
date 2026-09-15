@@ -15,6 +15,7 @@ confidence:
 sources:
 - source_id: desert.source.evagrius-praktikos
   locus: "Praktikos ch. 6, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)"
+  address: "cic:evagrius_praktikos_dysinger.txt:6"
   license: cc-by-4.0
 text: "There are eight generic [tempting-] thoughts (logismoi), that contain within themselves every [tempting-]thought: first is that of gluttony; and with it, sexual immorality; third, love of money; fourth, sadness; fifth, anger; sixth acedia; seventh, vainglory; eighth, pride. Whether these thoughts are able to disturb the soul or not is not up to us; but whether they linger or not, and whether they arouse passions or not; that is up to us."
 speaker_or_author: Evagrius Ponticus, in the Praktikos

@@ -204,6 +204,29 @@ assignments:
     requires that the entry''s own vendored sources argue from the text. Measured here rather
     than asserted - Augustine''s On Baptism, Against the Donatists names Cyprian 306 times,
     Agrippinus 28, in 92,000 words.'
+- work: 'Epistle LXXIV (ANF/older numbering) / LXXV (modern CSEL-Hartel numbering) - Firmilian,
+    Bishop of Caesarea in Cappadocia, to Cyprian, Against the Letter of Stephen. A.D. 256'
+  author: cyprian
+  locus: div3 "Epistle LXXIV" (id iv.iv.lxxiv), inside the div2 4.4 Epistles-of-Cyprian body
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: provisional
+  note: 'No `firmilian` author slug exists in AUTHORS.md, so this row is filed under `cyprian`
+    (the corpus author of record for div2 4.4) rather than left unattributed; the letter is
+    Firmilian''s own, embedded in Cyprian''s corpus, exactly as the shared Epistles-of-Cyprian
+    row above already discloses ("the corpus embeds letters by others... under Cyprian''s name").
+    `confidence: provisional`, not `assigned`, for the same reason as the Thaumaturgus rows
+    in this file and in npnf214/anf06: third-century, a century before this entry''s 360-380s
+    census range, and no census entry for 3rd-c. Cappadocia/Pontus itself. Split 2026-09-09
+    on Mark''s ruling (`cappadocian_Unused_Source_Verification_2026-09-09.md` §2.2), following
+    the 2026-08-26 npnf214 per-father split precedent below (`Split 2026-08-26 on Mark''s ruling`)
+    for the same reason that split gave: one work by one author, distinguishable from its
+    shared-corpus row, is worth a row of its own rather than an added atlas_id, since the
+    shared Epistles-of-Cyprian row is `confidence: assigned` and this assignment is not. Doc_02
+    §1.6 cites this letter under both numberings ("Epistle 74 in the ANF/older numbering, Epistle
+    75 in the modern CSEL/Hartel numbering; cite both forms") - both carried in `work:` above
+    so a reader searching either number finds this row.'
 - work: On the Unity of the Church (De Unitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise I
@@ -442,12 +465,15 @@ assignments:
   locus: div2 6.3
   atlas_ids:
   - novatianism
+  - roman-church-third-century
   role: tradition
   confidence: assigned
   note: 'Novatian''s major work, written while still a Roman presbyter in good standing, before
     the schism - doctrinally the fullest Latin trinitarian statement before Nicaea. Tradition
-    for the entry that bears his name; note that as pre-schism Roman theology it also documents
-    the church he later left, which has no census entry of its own.
+    for the entry that bears his name; also pre-schism Roman theology in its own right, the
+    same reasoning Caius (above) was re-pointed on 2026-08-26 once roman-church-third-century
+    was added on record. Surfaced by a source-research pass on that world''s (I.33) sourcing
+    gaps, 2026-09-13.
 
     '
 - work: On the Jewish Meats (De Cibis Judaicis)

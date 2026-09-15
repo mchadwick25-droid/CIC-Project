@@ -38,9 +38,9 @@ relations:
   target: syr.term.raza-shrara
 - type: associated-with
   target: syr.contested.diatessaron-name
-plain_meaning: 'The ''Gospel of the Mixed'': the one continuous Gospel story this world read and heard
+plain_meaning: 'The ''Gospel of the Mixed'': the one continuous Gospel story we read and heard
   in worship. Tatian wove the four accounts into a single narrative around 172. For some two hundred years,
-  ''the Gospel'' in these churches meant that one unfolding story, not four separate books.'
+  ''the Gospel'' in our churches meant that one unfolding story, not four separate books.'
 world_word: Ewangeliyon da-Mhallete
 false_friend:
 - the four Gospels (the plural, four-witness canon experience)
@@ -57,7 +57,7 @@ senses:
   translational: '''Was your Bible the same as ours?'' - the Scriptures largely yes, but the Gospel came
     as one woven narrative, not four books; the four ''separated'' Gospels displaced it only after this
     world''s window closed.'
-quick_meaning: The one woven Gospel story this world read in worship. The four accounts were joined into
+quick_meaning: The one woven Gospel story we read in worship. The four accounts were joined into
   a single telling, and people simply called it 'the Gospel'.
 distortion_risk: medium
 ---

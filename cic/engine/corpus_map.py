@@ -142,6 +142,22 @@ def census_ids() -> dict[str, str]:
     return {m["id"]: m.get("status", "") for m in data.get("movements", [])}
 
 
+# Every *.yaml directly under cic/corpus-map/ that is NOT a per-census-
+# entry bucket. This loader globs the whole directory with no other
+# filter, so a new non-bucket file added here needs a line in this set or
+# it gets silently misread as a malformed bucket - discovered the hard
+# way twice in one session (WORKS.yaml, then AUTHOR-IDS.yaml, both added
+# 2026-09-02) before this collapsed from two near-duplicate `if` branches
+# into one list. A third non-bucket file added later should extend this
+# set, not grow a third branch.
+NON_BUCKET_FILES = {
+    "UNATTRIBUTED.yaml",  # a ruling list
+    "WORKS.yaml",         # a Work/Expression registry (works_registry.py)
+    "AUTHOR-IDS.yaml",    # an author identity registry (this file's own siblings' scope)
+    "PAIRS.yaml",         # tradition-pair mutual-awareness rulings (Library Access Gate D3 CM-3)
+}
+
+
 def load() -> dict[str, dict]:
     """atlas_id -> the parsed file. Missing directory is not an error - the
     map does not exist until the assignment thread starts."""
@@ -151,7 +167,7 @@ def load() -> dict[str, dict]:
     if not MAP_DIR.is_dir():
         return out
     for path in sorted(MAP_DIR.glob("*.yaml")):
-        if path.name == "UNATTRIBUTED.yaml":      # a ruling list, not a bucket
+        if path.name in NON_BUCKET_FILES:
             continue
         out[path.stem] = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     return out
@@ -182,7 +198,14 @@ def validate() -> list[str]:
 
     for atlas_id, doc in load().items():
         where = f"{atlas_id}.yaml"
-        if atlas_id not in ids:
+        # CM-6 (Library Access Gate D3 SS3, Decision-Log 10): a bucket
+        # carrying `fixture: true` is the M9 selftest's own synthetic data,
+        # never a real Atlas entry - exempt from the two checks that assume
+        # one (a real census movement id, a real corpus author), and from
+        # nothing else. `fix` (registry) is a fixture world; this is a
+        # fixture bucket - same word, same reason: synthetic on purpose.
+        is_fixture_bucket = bool(doc.get("fixture"))
+        if not is_fixture_bucket and atlas_id not in ids:
             findings.append(f"{where}: filename is not a census movement id")
         if doc.get("atlas_id") != atlas_id:
             findings.append(f"{where}: atlas_id {doc.get('atlas_id')!r} does not match the filename")
@@ -207,7 +230,7 @@ def validate() -> list[str]:
             if source_file and vendored and source_file not in vendored:
                 findings.append(f"{tag}: source_file {source_file!r} is not in cic/texts/")
             author = entry.get("author")
-            if author and known_authors and author not in known_authors:
+            if not is_fixture_bucket and author and known_authors and author not in known_authors:
                 findings.append(f"{tag}: author {author!r} is not in the corpus author index "
                                 "(cic/texts/AUTHORS.md) - if it is a genuinely anonymous or "
                                 "pseudonymous work, that needs its own ruling, not a guess")

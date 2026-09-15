@@ -29,6 +29,8 @@ relations:
 author: "Palladius of Galatia (c. 363-c. 430); the Syriac recension as 'Anan-Isho' of Beth 'Abhe redacted it, early seventh century; Ernest Alfred Wallis Budge, translator"
 work: "The Paradise, Volume I - the Book of Paradise of Palladius, Book I, in sixty-six chapters. Registered here principally for chapter lviij, Of the Blessed Man Ephraim, the Deacon of the Church of Edessa - the Syriac recension of the chapter this world already reads in Clarke's Greek-based English"
 edition: "trans. E. A. Wallis Budge (London: Chatto & Windus, 1907), vendored as cic/texts/palladius_paradise-v1-syriac_budge1907.txt - about 100,800 words, from the thirteenth- or fourteenth-century Syriac manuscript Budge was shown at Mosul in 1888. The Ephraim chapter at Chapter lviij"
+kind: vendored
+work_id: palladius-lausiac-history
 rights_status: "public-domain; 1907, long out of US copyright"
 attribution_status: "Palladius for the work; 'Anan-Isho' for the redaction; Budge for the 1907 English"
 discovery_channel: "opened 2026-08-27 by the fleet unopened-volume sweep (syr.search.unopened-volume-sweep)"

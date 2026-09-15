@@ -351,6 +351,30 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- work: De Trinitate (On the Trinity, Three Books)
+  author: didymus-alexandria
+  locus: Book I proper begins at line 7019 of the vendored file (the file's second 'LIBER
+    PRIMUS' heading) — corrected 2026-09-08, Round 2 Opus review, from a stale 'line 7002'
+    reference the Round 1 header fix itself invalidated by adding 17 lines to the file. Line
+    435's 'LIBER PRIMUS' heading is Mingarelli's own prolegomena, not Didymus's text, and
+    is not this locus
+  role: tradition
+  confidence: assigned
+  note: 'Didymus''s own major surviving theological treatise, the sole witness to the Greek
+    text (Passionei codex), with Mingarelli''s own facing Latin translation — closes a real
+    gap this world''s own Doc_02 (§3.4) discloses: Didymus is discussed at length as a major
+    figure (head of the Alexandrian teaching tradition for roughly half a century) but previously
+    contributed zero primary text to this world''s vendored corpus. Mingarelli''s own critical
+    note at the prolegomena''s own Liber Primus opening (line 435) independently cross-references
+    Didymus''s other attested work, "De Spiritu Sancto" (transmitted only via Jerome''s Latin
+    translation, not itself vendored here), as securely his own. **Corrected 2026-09-08, Round
+    1 Opus review:** the vendored file carries no recoverable Greek text anywhere (a full
+    Unicode census found zero Greek characters in the 3.29 MB body); what this entry actually
+    assigns is Mingarelli''s Latin translation of Didymus, not the Greek text itself, though
+    the Greek is what the volume''s own title page claims to present.
+
+    '
+  source_file: didymus-alexandria_de-trinitate-lat-grc_mingarelli1769.txt
 - work: Exegetical Fragments of Dionysius of Alexandria
   author: dionysius_gr
   locus: div2 4.4 - on Ecclesiastes, Luke, John; Of the One Substance; On the Reception of
@@ -402,6 +426,23 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- work: Excerpts of Theodotus
+  author: excerpts-of-theodotus
+  locus: div2 4.3
+  role: tradition
+  confidence: assigned
+  note: 'Corrected 2026-09-08, records/alx audit (see alx.source.excerpts-of-theodotus.md):
+    despite its title, this vendored text is the Eclogae Propheticae (Selections from the
+    Prophetic Scriptures), NOT the genuine Excerpta ex Theodoto. It carries no Valentinian
+    technical vocabulary (a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/
+    Ogdoad, and "Theodotus" only in the editorial title), and the ANF editor''s own headnote
+    disowns the Clement attribution ("corrupt or forged documents, for which Clement''s name
+    has been borrowed"), guessing an unknown Montanist compiler instead. It is NOT a Valentinian
+    voice and must not be cited as one; the genuine Excerpta ex Theodoto is not vendored anywhere
+    in this corpus.
+
+    '
+  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Oration and Panegyric Addressed to Origen
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
@@ -500,6 +541,37 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- work: De Oratione (Περὶ εὐχῆς, On Prayer)
+  author: origen
+  locus: 'whole work, Koetschau''s 34 chapters (GCS 3 pp. 295-403, the only part of the volume
+    vendored): ch. I opens directly under the file''s OCR''d title lines "2PITENOYZ / UEPIEYXH2."
+    ("Τὰ διὰ τὸ εἶναι μέγιστα ..."); ch. XXXIV closes at p. 403 ("... Ἀμβρόσιε καὶ Τατιανή
+    ... ἐντεύξεσθε"), immediately before the Register''s "VORBEMERKUNGEN". Chapter heads carry
+    Roman numerals, several with an OCR-dropped stroke (III reads "II 1.", VIII "VII 1.",
+    XVIII "XVII 1.", XXII "XXI 1.", XXVII and XXVIII both "XXVI 1.", XXXII "XXXI.") — locate
+    by opening words, not numeral alone.
+
+    '
+  role: tradition
+  confidence: assigned
+  note: 'ORIGINAL-LANGUAGE WITNESS (Greek, with Koetschau''s German critical apparatus), NOT
+    ENGLISH EVIDENCE — per cic/texts/INTAKE.md this is a second witness for cross-checking,
+    or, as here, the only rights-clean text of a work with no public-domain English translation
+    (the English translations located, O''Meara 1954 and Greer 1979, are in copyright). Any
+    world `source` record that cites it must carry this same USE DISCIPLINE: English wording
+    drawn from it is a session''s own rendering and must be labelled as such, never presented
+    as a Representative''s English evidence. Origen''s own text throughout, addressed to Ambrose
+    and Tatiana (ch. II, XXXIV); tradition for the world whose catechetical school he led.
+    Vendored 2026-09-08 after an adversarial review found this world''s build had struck its
+    De Oratione citations as "never vendored — no pre-1929 English edition exists" while the
+    same commit vendored an original-language Didymus edition by the identical route. Whether
+    any of the struck claims (alexlex028_prayer, alexlex027_fasting, alexlex044_holy-spirit,
+    alexlex007_participation, alexlex002_divine-pedagogy, alexstory010, Doc_02 §3.6, Doc_04
+    C2, Doc_05) can be re-grounded on this Greek text is a build-thread judgment, not made
+    here (assignment is not interpretation).
+
+    '
+  source_file: origen_de-oratione-grc_koetschau1899.txt
 - work: De Principiis (On First Principles)
   author: origen
   locus: div2 6.5 - Origen De Principiis
@@ -603,7 +675,14 @@ works:
   locus: div2 9.6
   role: tradition
   confidence: assigned
-  note: 'Doctrinal fragments of the bishop-martyr who also headed the catechetical school.
+  note: 'Doctrinal fragments of Peter, bishop of Alexandria (300-311) and martyr. NOTE, corrected
+    2026-09-09 (OG-6): the previous note called him "the bishop-martyr who also headed the catechetical
+    school." Nothing in the vendored material attests that - the whole anf06 div1 ix division nowhere
+    links Peter to the school, and both its introductory notices call him bishop, martyr, and a diligent
+    student of Scripture only. The school-headship tradition descends from Philip of Side, which is not
+    vendored here. Fragment VI ("Of the Soul and Body") is his demonstration against the pre-existence of
+    souls - pre-Nicene Alexandrian episcopal boundary-drawing against Origen - but reaches us via the
+    Sacra Parallela, a 7th-8th c. florilegium.
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
@@ -660,8 +739,12 @@ works:
   locus: div2 6.6
   role: tradition
   confidence: assigned
-  note: 'Head of the catechetical school, called "Origen the younger" in the tradition; fragments
-    of his teaching.
+  note: 'Alexandrian presbyter and teacher, called "Origen the younger" by Jerome; fragments of his
+    teaching. NOTE, corrected 2026-09-09 (OG-6): the previous note called him "Head of the catechetical
+    school." This world''s own vendored Eusebius contradicts that - HE VII.32 places ACHILLAS over the
+    school, and NPNF''s editor concludes Photius'' contrary report "is false and rests upon a combination
+    of the accounts of Eusebius and Jerome." Note also how thin this is: one four-line quotation preserved
+    in Jerome''s Ep. ad Pammachium, plus a hostile Photius summary (Bibl. cod. 119).
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
@@ -705,25 +788,20 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Excerpts of Theodotus
-  author: theodotus
-  locus: div2 4.3
-  role: tradition
-  confidence: assigned
-  note: 'Excerpts from Theodotus of the Eastern Valentinian school, preserved with Clement
-    of Alexandria''s interlaced comments: actual Valentinian voice for the doctrinal-floor
-    entry (a built world may draw it only as etic), and a document of Clement''s working method
-    for Alexandria.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Fragments of Theognostus of Alexandria (from the Hypotyposes)
   author: theognostus
   locus: div2 6.5
   role: tradition
   confidence: assigned
-  note: 'Head of the catechetical school after Dionysius; the Hypotyposes fragments are the
-    school''s own teaching, Origenian in cast.
+  note: 'Alexandrian teacher of the later third century (fl. c. 260); the Hypotyposes fragments,
+    Origenian in cast. NOTE, corrected 2026-09-09 (OG-6): the previous note stated "Head of the
+    catechetical school after Dionysius" as fact. It is an inference - ANF6''s notice says only that he is
+    titled exegetes and that "Dodwell and others are of opinion" this means the school''s presidency. Two
+    things matter for use: he is ABSENT FROM EUSEBIUS entirely (ANF6: "we have no account by either
+    Eusebius or Jerome"), so the Eusebius HIGH-risk screen does not apply to him; but all three fragments
+    reach us through ATHANASIUS quoting him in post-Nicene anti-Arian polemic (De Decretis 25; Ep. 4 ad
+    Serapionem 11), which carries its own selection screen. He is also a disciple of Origen (ANF6, from
+    Photius), so he cannot lift the Origen SYSTEMIC screen.
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml

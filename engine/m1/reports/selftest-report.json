@@ -95,11 +95,35 @@
       ]
     },
     {
+      "id": "edition-rights-consistency-missing-file",
+      "gate": "edition-rights-consistency",
+      "status": "caught",
+      "findings": [
+        "fix.source.witness-scroll: edition names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
+      ]
+    },
+    {
+      "id": "canonical-address-missing-file",
+      "gate": "canonical-address",
+      "status": "caught",
+      "findings": [
+        "fix.quote.witness-saying: sources[0].address names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
+      ]
+    },
+    {
       "id": "readability-quick-meaning-too-dense",
       "gate": "readability",
       "status": "caught",
       "findings": [
         "fix.term.the-three: quick_meaning scores FK grade 15.4, above the ceiling of 10"
+      ]
+    },
+    {
+      "id": "readability-quote-modern-rendering-too-dense",
+      "gate": "readability",
+      "status": "caught",
+      "findings": [
+        "fix.quote.witness-saying: modern_rendering scores FK grade 20.2, above the ceiling of 10"
       ]
     },
     {
@@ -125,6 +149,16 @@
       "findings": [
         "fix.craft.vera-voice.identity: ISO-format date in compiled content - \"Vera, Witness - a synthetic composite voice speaking for the fixture world's two short sources (RULED by Mark, 2026-08-21: name and role are the only \"",
         "fix.craft.vera-voice.identity: 'ruled by' attribution in compiled content - \"Vera, Witness - a synthetic composite voice speaking for the fixture world's two short sources (RULED by Mark, 2026-08-21: name and role are the only \""
+      ]
+    },
+    {
+      "id": "voice-perspective-third-person-self-reference",
+      "gate": "voice-perspective",
+      "status": "caught",
+      "findings": [
+        "fix.witness.who-is-jesus.text: speaks of \"this world\" from outside rather than as \"we\"/\"our\" - 'This world did not claim to have seen him.'",
+        "fix.witness.who-is-jesus.text: speaks of \"this world\" from outside rather than as \"we\"/\"our\" - \"Its record says only that the ones who told it could not be talked out of what they had seen, and that it was worth this world's own lives changing be\"",
+        "fix.witness.who-is-jesus.text: the sentence right after \"this/the world...\" opens with \"Its\", continuing the third-person description instead of switching to \"we\" - \"Its record says only that the ones who told it could not be talked out of what they had seen, and that it was worth this world's own lives changing be\""
       ]
     },
     {

@@ -15,10 +15,26 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.athanasius-de-decretis
-  locus: 19-21
+  locus: >-
+    19-21 (every scriptural phrase had been swallowed by the other side with
+    a private meaning of its own)
   license: public-domain
 - source_id: alx.source.origen-comm-john
-  locus: I-II
+  locus: >-
+    I-II (the Origen half of "God the Word"; directly supports it, e.g. Book I line 20565,
+    Book II lines 22572/23276 - does not itself contain the baptismal formula, see the
+    ad-afros row below for that claim)
+  license: public-domain
+- source_id: alx.source.clement-paidagogos
+  locus: >-
+    I (the Clement half of "God the Word"; Paed. I reads "it has also called Him - God the
+    Word - who became man for our sakes, and who wished in all points to be made like to us"
+    (anf02 line 19255))
+  license: public-domain
+- source_id: alx.source.athanasius-ad-afros
+  locus: >-
+    11 (the triadic baptismal confession; the passage falls under Ad Afros's own heading
+    "11. Godhead of the Spirit also involved in the Nicene Creed," npnf204 line 60954)
   license: public-domain
 retrieval:
   tier: 1
@@ -27,16 +43,20 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.term.homoousios
-text: '''Was Jesus God? Did you believe in the Trinity?'' - this world''s answer moves across its own
-  century. From the beginning it worshiped Jesus as the Logos, God''s own Word, and baptized into Father,
-  Son, and Holy Spirit; Clement and Origen say ''God the Word'' without embarrassment. But the precise
-  wording was the work - and the wound - of the late horizon: when Arius taught that the Son was the first
-  and highest creature, the council at Nicaea answered with homoousios, of one substance with the Father.
-  Athanasius''s account of the council is explicit that no new God was voted in: the fathers reached for
-  an unscriptural word only because every scriptural phrase had been swallowed by the other side with
-  a private meaning. ''Trinity'' as later textbooks define it lies mostly beyond this window; what the
-  window holds is the worship, the baptismal formula, and the fought-for conviction that only God can
-  join us to God.'
+text: >-
+  'Was Jesus God? Did you believe in the Trinity?' Our answer moves
+  across our own century. From the beginning we worshiped Jesus as the Logos,
+  God's own Word, and we baptized into Father, Son, and Holy Spirit. Clement
+  and Origen say 'God the Word' without embarrassment. But the precise wording
+  was the work, and the wound, of our last years. When Arius taught that the
+  Son was the first and highest creature, the council at Nicaea answered with
+  homoousios: of one substance with the Father. Athanasius's account of the
+  council is explicit that no new God was voted in. The fathers reached for a
+  word not found in scripture for one reason: every scriptural phrase had been
+  swallowed by the other side with a private meaning of its own. 'Trinity' as
+  later textbooks define it lies mostly beyond our time. What we
+  hold is the worship, the baptismal formula, and the fought-for
+  conviction that only God can join us to God.
 positions:
 - Jesus was worshiped as God's own Word from the tradition's beginning
 - Nicaea's homoousios fenced existing worship; it did not create a new object of it
@@ -49,3 +69,18 @@ tensions:
 ---
 The was-Jesus-God translational cell, answered with the development
 honest and the homoousios term record alongside.
+
+REGISTER TRANSLATION (2026-08-29, the alx pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+
+CORRECTED 2026-09-08, records/alx audit: "we baptized into Father, Son, and
+Holy Spirit" was cited to athanasius-de-decretis (19-21) and origen-comm-
+john (I-II); neither locus contains the triadic baptismal formula. The
+actual vendored support is Athanasius's Ad Afros Epistola Synodica (Letter
+to the Bishops of Africa), npnf204 line ~60968 - a work with no prior
+source record in this registry, now created as
+alx.source.athanasius-ad-afros. de-decretis 19-21 is correctly kept for
+this file's separate "swallowed by the other side" claim; origen-comm-john
+I-II is correctly kept, re-scoped to the "God the Word" claim it actually
+supports.

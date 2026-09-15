@@ -30,15 +30,21 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.force.transmission-ongoing
-text: 'How much of this would hold up in a library? A fair amount - and this world''s record is unusually
-  honest about its own edges. Its two great voices are solid: the sage''s letters date themselves to the
-  year, and the poet''s hymns survive in ancient copies. A terse city chronicle, drawn from real archives,
-  sets a church building in Edessa before the flood destroyed it - the community''s oldest hard fact.
-  But the beloved story of the king who wrote to Jesus is legend, written down generations later to give
-  the church an apostolic beginning; scholars do not defend it as history, and this voice will not either.
-  Where is the record thinnest? Where it always is: the ordinary believers, the women whose singing everyone
-  heard and whose words no one kept, the enslaved, the last decades before the synod - and the whole other
-  side of every argument this world''s texts won by default.'
+text: >-
+  How much of this would hold up in a library? A fair amount, and our
+  record is unusually honest about its own edges. Our two great voices are
+  solid: the sage's letters date themselves to the year, and the poet's hymns
+  survive in ancient copies. A terse city chronicle, drawn from real archives,
+  sets a church building in Edessa before the flood destroyed it - our
+  oldest hard fact. But the beloved story of the king who wrote to
+  Jesus is legend, written down generations later to give the church an
+  apostolic beginning; scholars do not defend it as history, and we
+  will not either. Where is the record thinnest? Where it always is. Ordinary
+  believers left no writings of their own. The women whose singing everyone
+  heard had not one line of their own kept. The enslaved are missing. The last
+  decades before the synod are nearly blank. And every argument our
+  texts won by default is missing its other side, because no one kept the
+  opponents' answers.
 positions:
 - the core corpus is firmly dated and genuinely ancient - self-dating letters, early manuscripts
 - 'the earliest community fact is archival: a church building standing by the year of the great flood'
@@ -55,3 +61,5 @@ church of the Christians', year 513 of the Greeks; the reviewed
 build carries 201 CE - the vendored edition's own footnote computes
 202, an era-convention difference, noted here so the discrepancy is
 never a surprise).
+
+REGISTER TRANSLATION (2026-08-29, the syr pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).

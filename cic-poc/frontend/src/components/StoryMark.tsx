@@ -33,7 +33,6 @@ export function StoryMark({ sources }: StoryMarkProps) {
           {sources.map((card) => (
             <div key={card.record_id} className="story-mark__entry">
               <p className="story-mark__title">{card.label}</p>
-              <p className="story-mark__ref">{card.record_id}</p>
               {card.sources.map((s) => (
                 <p key={s.source_id} className="story-mark__source">
                   {s.work ?? s.source_id}
@@ -50,7 +49,12 @@ export function StoryMark({ sources }: StoryMarkProps) {
           {sources.map((card) => (
             <div key={card.record_id} className="turn__sources-card">
               <p className="turn__sources-label">{card.label}</p>
-              <p className="story-mark__ref">{card.record_id}</p>
+              {card.original_wording && (
+                <div className="story-mark__original">
+                  <p className="story-mark__original-label">Original wording</p>
+                  <blockquote>{card.original_wording}</blockquote>
+                </div>
+              )}
               <SourceList sources={card.sources} empty="No source recorded for this." />
             </div>
           ))}

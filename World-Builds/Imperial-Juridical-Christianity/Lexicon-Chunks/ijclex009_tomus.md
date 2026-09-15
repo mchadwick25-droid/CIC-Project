@@ -54,4 +54,4 @@ Leo I's Tome to Flavian (Epistula 28), and its reception (and, regarding Canon 2
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied. Single-instance evidentiary risk (Doc_03) carried forward explicitly in the World Meaning section above, per Doc_06 §5 open item 2.
+Completed per `reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied. Single-instance evidentiary risk (Doc_03) carried forward explicitly in the World Meaning section above, per Doc_06 §5 open item 2.

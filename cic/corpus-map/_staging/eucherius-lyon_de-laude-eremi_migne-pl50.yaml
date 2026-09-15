@@ -1,0 +1,15 @@
+source_file: eucherius-lyon_de-laude-eremi_migne-pl50.txt
+
+assignments:
+  - work: "De Laude Eremi ad Hilarium Lirinensem Presbyterum (In Praise of the Desert, to Hilary of Lerins)"
+    author: eucherius-lyon
+    locus: "full letter, Migne PL 50 (extracted excerpt, see file's own header for boundaries)"
+    atlas_ids:
+      - gallic-monastic-ascetic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Vendored 2026-09-09 per Source Registry row 26 (Native, Approved to
+      Proceed via Doc_02). Latin only; no public-domain English translation
+      identified. Addressed to Hilary, later bishop of Arles, while Hilary
+      was still a presbyter of Lerins.

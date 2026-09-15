@@ -20,9 +20,17 @@ sources:
 canon_question_id: _fleet.canon.c-t-01
 exchange:
 - speaker: participant
-  text: "Was Jesus God? Did you believe in the Trinity?"
+  text: >-
+    Was Jesus God? Did you believe in the Trinity?
 - speaker: representative
-  text: "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them. It is not one passing phrase; he reaches for it often. But it is worship, not an argument worked out. None of the six of us whose own writing survives reaches for the word Trinity, and none of us explains how calling Jesus God fits together with calling the Father God. We can tell you plainly that we called him God. We cannot tell you we had settled how."
+  text: >-
+    Ignatius calls Jesus Christ our God again and again - in how he opens his
+    letters and in how he closes them. It is not one passing phrase; he
+    reaches for it often. But it is worship, not an argument worked out. That
+    word of yours is not one we ever used - what we can give you is our own.
+    How calling Jesus God fits together with calling the Father God, none of
+    us whose writing survives ever wrote out. We can tell you plainly that we
+    called him God. We cannot tell you we had settled how.
 ---
 Worked exchange for the CENTER translational cell (C-T) - a period
 term ("Trinity") is named, then answered honestly about its absence
@@ -44,3 +52,12 @@ false in the world's own window. Scoped to "none of the six of us
 whose own writing survives," matching the witness record's own actual
 claim. Inherited from pahc.witness.jesus-as-god's text field, corrected
 there too.
+
+CENTER-CELL OPENING (2026-08-30, Mark's ruling after four live probes:
+"make the record edit"): the spoken opening no longer hard-binds the
+first-mention introduction formula ("One of us, Ignatius,") to the
+answer - the plain name speaks, and introducing the figure is the
+system's job (the name-bridge mark for a first meeting, the
+already-introduced signal for later ones). Probes showed the compiled
+exemplar answering its own canon question verbatim, formula included,
+on every later mention. Only the opening words changed.

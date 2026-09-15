@@ -7,14 +7,14 @@ status: draft
 register: emic
 canon_cells: []
 confidence:
-  citation_specificity: B
-  verification_state: named-not-rechecked
+  citation_specificity: A
+  verification_state: verified-direct
   evidentiary_weight: illustrative
   formation_confidence: Inferential-Thin
   divergence_note: null
 sources:
 - source_id: ijc.source.paulinus-vita-ambrosii
-  locus: the infancy narrative (unvendored; told without verbatim quotation)
+  locus: "the infancy narrative, ch. II (now vendored; told without verbatim quotation, by design - see absent_detail)"
   license: referenced-only
 retrieval:
   tier: 3
@@ -33,17 +33,21 @@ narrative_tier_justification: 'Tier 3 (attributed tradition): explicitly hagiogr
   with that character audible.'
 tellable_as: the tradition of the bees at the infant Ambrose's mouth, as Paulinus told it after Ambrose's
   death - legend, and named as such
-text: 'Paulinus, who had been Ambrose''s own secretary, tells it this way: while Ambrose lay as an
-  infant in the courtyard of his father''s house, a swarm of bees settled on his face, going in and out
-  of his open mouth, and rose again without harming him. His father, seeing it, said that if the child
-  lived he would become something great. So the tradition tells it - a story remembered, or made, to
-  explain a life that became as full of speech as any this world''s record keeps. The tradition says;
-  the record cannot say more.'
+text: >-
+  Paulinus, who had been Ambrose's own secretary, tells it this way. While
+  Ambrose lay as a baby in the courtyard of his father's house, a swarm of
+  bees settled on his face. They went in and out of his open mouth, then rose
+  again without harming him. His father, seeing it, said that if the child
+  lived, he would become something great. So the tradition tells it - a story
+  remembered, or made, to explain a life that became as full of speech as any
+  in our record. The tradition says. The record cannot say more.
 absent_detail: Everything - the event itself is unverifiable legend in a devotional life written to
   edify, and the same omen is told of other famous men. What the story documents is not Ambrose's
   infancy but how this world's memory worked within a generation of his death - greatness read backward
-  into a beginning that had to have announced it. No verbatim quotation is licensed (the translation is
-  not vendored); the telling stays at arm's length by design.
+  into a beginning that had to have announced it. No verbatim quotation is licensed here, though the
+  translation is now vendored and its wording checked; the telling stays at arm's length by design -
+  hagiographic legend narrated, not quoted, matching this build's own tier discipline for Tier 3
+  material.
 modern_contrast: >-
   A modern reader might take this either as a claim of literal fact needing debunking, or dismiss it
   outright as pious fiction with nothing to learn from it. Neither fits how this world's own record
@@ -59,3 +63,14 @@ carried by ijc.force.transmission-archival, and Ambrose's documented
 life by his figure record. Kept in the repository because the tradition
 is real and participants ask about it - with its tier spoken inside
 the telling itself.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+
+VENDORED 2026-09-13: ijc.source.paulinus-vita-ambrosii's own translation
+was located and vendored (see that record and
+cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt); the bee-swarm
+passage is confirmed present and its wording checked directly against
+the file. This story's own no-verbatim-quotation choice is unchanged -
+it was always a design choice about hagiographic legend, not merely a
+stopgap for an unreachable text, and stays in force now for that reason
+alone.

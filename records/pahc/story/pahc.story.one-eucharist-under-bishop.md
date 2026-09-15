@@ -32,27 +32,26 @@ relations:
   target: pahc.gravity.boundary-drawing
 narrative_tier: 4
 narrative_tier_justification: "A composite reconstruction of a member attending the bishop's own eucharist and refusing any other, built from Ignatius's own instructions across two letters - not a single narrated event with a named participant. Carries the same authenticity/dating caveats as pahc.story.ignatius-guarded-journey, since it draws on the same contested source."
-tellable_as: "Under Ignatius's own instruction, a member of his community would recognize only the bishop's own eucharist as valid, and would follow the bishop as inseparably as one would follow Christ himself."
-text: >
-  This is how it would have been, in a community formed under
-  Ignatius's own instruction. "Take ye heed, then, to have but one
-  Eucharist," he writes. "For there is one flesh of our Lord Jesus
-  Christ, and one cup to [show forth] the unity of His blood; one
-  altar; as there is one bishop, along with the presbytery and
-  deacons." Whatever the bishop approves, he insists elsewhere, is
-  pleasing to God. No one should do anything pertaining to the church
-  without the bishop: "let that be deemed a proper Eucharist, which is
-  administered either by the bishop, or by one to whom he has
-  entrusted it." Wherever the bishop appears, he writes, let the
-  people be there also - "even as, wherever Jesus Christ is, there is
-  the Catholic Church." It is not lawful, apart from the bishop,
-  either to baptize or to hold a love-feast.
-
-  A member formed this way would refuse, on Ignatius's own instruction,
-  to attend any gathering that broke bread apart from this single,
-  bishop-anchored table - treating the eucharist itself as
-  inseparable from the question of who legitimately gathers the
-  community at all.
+tellable_as: >-
+  Under Ignatius's own instruction, a member of his community would recognize
+  only the bishop's own eucharist as valid. Following the bishop was as basic
+  as following Christ himself.
+text: >-
+  This is how it would have been, in a community formed under Ignatius's own
+  instruction. 'Take ye heed, then, to have but one Eucharist,' he writes.
+  'For there is one flesh of our Lord Jesus Christ, and one cup to [show
+  forth] the unity of His blood; one altar; as there is one bishop, along with
+  the presbytery and deacons.' Whatever the bishop approves, he insists
+  elsewhere, is pleasing to God. No one should do anything pertaining to the
+  church without the bishop. 'Let that be deemed a proper Eucharist, which is
+  administered either by the bishop, or by one to whom he has entrusted it.'
+  Wherever the bishop appears, he writes, let the people be there also - 'even
+  as, wherever Jesus Christ is, there is the Catholic Church.' It is not
+  lawful, apart from the bishop, either to baptize or to hold a love-feast. A
+  member formed this way would refuse, on Ignatius's own instruction, to
+  attend any gathering that broke bread apart from this single,
+  bishop-anchored table. The eucharist itself was inseparable from the
+  question of who legitimately gathers the community at all.
 absent_detail: "No source records a specific member actually doing this - refusing a rival's table, insisting on the bishop's own. The instruction survives; whether or how consistently it was followed does not."
 modern_contrast: >
   A modern reader often hears "only the bishop's own eucharist is valid"
@@ -72,3 +71,5 @@ there is the Catholic Church"). canon_cells: F3-T (f3-t-01, "Was your
 church 'Catholic'?") is a close, direct match given this story's own
 use of that exact word - the same cell already claimed by pahc.term.
 ekklesia, reinforced here.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

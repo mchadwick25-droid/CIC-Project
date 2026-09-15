@@ -19,6 +19,9 @@ sources:
   license: public-domain
 text: 'The whole world knows that a home for strangers has been established at Portus;
   and Britain has learned in the summer what Egypt and Parthia knew in the spring.'
+modern_rendering: >-
+  The whole world knows that a home for strangers has been set up at Portus.
+  Britain learned in the summer what Egypt and Parthia knew in the spring.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Strangers" here means travelers and pilgrims in need of hospitality, not people generally unknown to the household.'
@@ -37,3 +40,5 @@ distinct (the hospital of sec. 6 gathering the sick from the streets; the
 home for strangers at Portus in sec. 10, founded with Pammachius), and
 this corpus follows the text, not the headnote. Serves F5-T (what
 renounced wealth was for).
+
+MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.

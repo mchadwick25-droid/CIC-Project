@@ -16,6 +16,7 @@ sources: []
 author: "The 'Anonymous' anti-Montanist (writing c. 192-193 CE to Avircius Marcellus), preserved only in Eusebius's quotations; ANF prints the fragments under the conjectural name 'Asterius Urbanus'"
 work: "Fragments against the Montanists (the New Prophecy) - the earliest sustained inside-the-window testimony to Montanism's Phrygian origin, its spread, and the synodical opposition of Asia Minor's churches; the movement's start date is disputed between c. 157 (Epiphanius) and c. 172 (Eusebius's implied chronology), with current scholarship favoring the later end"
 edition: "Ante-Nicene Fathers vol. 7 (1886), 'Asterius Urbanus', vendored as cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml (div1 v); the same fragments in their original setting at Eusebius HE V.16-17, vendored as cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: anonymous-via-eusebius
 discovery_channel: "registered at this build's step 2 to give the Montanism disclosure obligation (Doc_01 SS8.3) a vendored primary witness; work presence verified at anf07 div1 v"

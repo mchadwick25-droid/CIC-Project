@@ -21,6 +21,13 @@ sources:
   license: public-domain
 text: >-
   Even as when a man has taken a poison in the food which is given for (the support of) life, when he perceives in himself that he has received poison in the food, then he casts up again from his belly the food in which poison was mingled; but the drug leaves its power in his limbs, so that by little and little the structure of his body is dissolved and corrupted. So Jesus dead was the bringer to nought of Death; for through Him life is made to reign, and through Him Death is abolished, to whom it is said:—O Death, where is thy victory?
+modern_rendering: >-
+  It is like a man who swallows poison hidden in his food - food that was
+  meant to keep him alive. When he realizes it, he throws the food back up.
+  But the drug keeps its power in his limbs, and little by little it breaks
+  his body down. That is what Jesus did to Death by dying. Through him, life
+  now reigns. Through him, Death is destroyed - the same Death who is told:
+  'Death, where is your victory?'
 speaker_or_author: Aphrahat, Demonstration XXII.5
 license: verbatim
 modern_lens_note: >-
@@ -40,3 +47,7 @@ Opened 2026-08-27 for F4-T, served by syr.dw.born-again-endtimes alone. The inst
 NEEDS READING and was wrong: the record's loci include 'XXII (death's kingdom made void)' and 'VI (the
 second birth...)', which are demonstration numbers - as specific as this corpus gets. The classifier's
 pattern read bare Roman numerals as vague prose.
+
+MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

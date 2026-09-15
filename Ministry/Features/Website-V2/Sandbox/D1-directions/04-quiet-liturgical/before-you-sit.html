@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Before you sit down — Church in Conversation</title>
+<meta name="description" content="Three things said plainly before you sit down at the Table: what this is, what it is built from, and what it will not claim. Then your seat.">
+<!-- ===================================================================
+     WEBSITE V2 · D1 SANDBOX · Direction 04 — QUIET-LITURGICAL
+     The inner journey: the moment just before beginning a conversation.
+
+     This is the last threshold on the site side — the room between the
+     homepage's door and the app's own Table. It does three things, in order,
+     and then offers a seat:
+       I.   What this is            (the AI question, raised by us, first)
+       II.  What it is built from   (the build is the product)
+       III. What it will not claim  (witness, never recruitment)
+            (a silence is kept)
+       Your seat — seven still names; the chosen one marked by the Living
+       Table's own nameplate inversion; ONE madder action that hands off to
+       the app with the seat already chosen.
+
+     Reached from the homepage's door (no seat chosen) or from any of the
+     seven "Sit down with …" links (?who=<census id>, seat pre-chosen).
+
+     THE ONE MOTION on this page: the table-and-chair companion illustration's
+     own pull-up, once, exactly per Brand-Assets/CiC_Mark_TableChair_Motion_
+     Reference.html. The header carries the WORDMARK ONLY — no "Arriving" mark
+     anywhere on this page — so the adjacency guard (two table-metaphors never
+     in one composition; two motions never in one view) holds by construction.
+     Placement of where the chair motion plays is the UX thread's call; this
+     is a proposed placement (empty state: the seat not yet taken).
+
+     THE NARTHEX REMEMBERS: the first time a visitor takes a seat from here,
+     localStorage records it. On later visits the top of the page offers the
+     direct way in. The slow walk is a first-time rite, not a standing tax.
+     (try/catch everywhere; the page is complete without storage.)
+
+     Copy marking as on homepage.html: data-copy="protected|brand|live|draft|census".
+     =================================================================== -->
+<link rel="icon" href="../../../../../../cic-website/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F7F3EB; --vellum:#FEFCF8; --iron-gall:#2A2521; --ink-faded:#6C6257;
+  --madder:#A13E2B; --madder-deep:#7E2F20; --gold-leaf:#B45309;
+  --rule:rgba(42,37,33,.16);
+  --ground:var(--parchment); --surface:var(--vellum);
+  --text:var(--iron-gall); --muted:var(--ink-faded);
+  --accent-text:var(--madder); --gold-text:var(--gold-leaf);
+  --dot:var(--madder); --ring:var(--iron-gall);
+  --plate-ink:#2A2521; --plate-light:#F6EFE0;
+  --btn-fill:var(--madder); --btn-fill-hover:var(--madder-deep); --btn-text:var(--vellum);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --ground:#17130F; --surface:#1E1913; --text:#F1E9DD; --muted:#B8AEA1;
+    --rule:rgba(241,233,221,.16);
+    --accent-text:#E08C74; --gold-text:#E0A458;
+    --dot:#CB6E52; --ring:#EDE5D6;
+    --plate-ink:#EDE5D6; --plate-light:#17130F;
+    --btn-fill:#A13E2B; --btn-fill-hover:#7E2F20; --btn-text:#F6EFE0;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:2rem}
+@media (prefers-reduced-motion:no-preference){ html{scroll-behavior:smooth} }
+@media (min-width:900px) and (min-height:700px) and (prefers-reduced-motion:no-preference){
+  html{scroll-snap-type:y proximity}
+  .station{scroll-snap-align:start}
+}
+body{margin:0;background:var(--ground);color:var(--text);
+  font-family:'Alegreya','Iowan Old Style',Georgia,serif;font-size:1.125rem;line-height:1.75}
+*,*::before,*::after{transition:none!important}
+a{color:var(--accent-text)}
+:focus-visible{outline:2px solid var(--accent-text);outline-offset:3px}
+.visually-hidden{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--plate-ink);color:var(--plate-light);padding:.6rem 1rem;z-index:100;font-family:'Alegreya Sans',sans-serif}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+
+.site-header{border-bottom:1px solid var(--rule);background:var(--surface)}
+.site-header .wrap{max-width:64rem;margin:0 auto;padding:1.05rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem 2rem;flex-wrap:wrap}
+.wordmark{font-family:'Alegreya',Georgia,serif;font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap}
+.wordmark em{font-style:italic}
+.site-nav{font-family:'Alegreya Sans',sans-serif;font-size:.95rem;display:flex;gap:1.4rem;align-items:center}
+.site-nav a{color:var(--text);text-decoration:none;padding:.6rem .15rem;border-bottom:2px solid transparent}
+.site-nav a:hover,.site-nav a:focus-visible{border-bottom-color:var(--accent-text)}
+
+main{display:block}
+.station{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:5rem 1.5rem}
+.station:focus{outline:none}
+.station .inner{max-width:38rem;width:100%}
+.movement{min-height:auto;padding:6rem 1.5rem}
+.movement .inner{text-align:left}
+.eyebrow{font-family:'Alegreya Sans',sans-serif;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-text);font-weight:600;margin:0 0 1.1rem}
+.rubric{font-style:italic;color:var(--accent-text);font-size:1.1rem;margin:0}
+.rubric-sub{font-family:'Alegreya Sans',sans-serif;font-size:.92rem;margin:2.75rem 0 0}
+.rubric-sub a{color:var(--muted);text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:.22em;padding:.5rem .3rem;display:inline-block}
+.rubric-sub a:hover,.rubric-sub a:focus-visible{color:var(--text);text-decoration-color:currentColor}
+h1{font-size:clamp(1.9rem,4.2vw,2.8rem);line-height:1.15;font-weight:500;margin:0 0 1.2rem;text-wrap:balance}
+h2{font-size:clamp(1.4rem,3vw,1.85rem);line-height:1.25;font-weight:500;margin:0 0 1rem;text-wrap:balance}
+p{margin:0 0 1rem}
+.protected{font-style:italic}
+.lede{color:var(--muted);max-width:30rem;margin:0 auto;text-wrap:balance}
+
+/* The returning line — present only when the narthex remembers you. Still. */
+.returning{font-family:'Alegreya Sans',sans-serif;font-size:.95rem;color:var(--muted);border:1px solid var(--rule);padding:.8rem 1.1rem;margin:2.5rem auto 0;max-width:30rem;text-align:center}
+.returning a{color:var(--accent-text);font-weight:600;text-decoration:none;border-bottom:1px solid currentColor;padding:.3rem 0;display:inline-block}
+.returning a:hover,.returning a:focus-visible{color:var(--text)}
+
+/* The table-and-chair companion illustration and its own motion, verbatim
+   from the brand reference. The chair is furniture: it never breathes. */
+.tc{width:clamp(96px,16vw,168px);margin:0 auto 2.5rem}
+.tc svg{display:block;width:100%;height:auto;overflow:hidden}
+.tc-table{stroke:var(--ring);stroke-width:2.8;stroke-linecap:round;fill:none}
+.tc-chair{stroke:var(--dot);stroke-width:2.8;stroke-linecap:round;fill:none}
+.tc.play .tc-chair{animation:cic-pullup 950ms cubic-bezier(.2,.7,.25,1) 450ms both}
+@keyframes cic-pullup{0%{transform:translateX(15px)}88%{transform:translateX(-0.8px)}100%{transform:translateX(0)}}
+@media (prefers-reduced-motion:reduce){ .tc.play .tc-chair{animation:none} }
+
+.silence{min-height:60vh;min-height:60svh}
+@media (max-width:639.98px){ .silence{min-height:45vh;min-height:45svh} }
+
+/* Your seat */
+.seat-station{min-height:auto;padding:6rem 1.5rem 7rem}
+.seat-station .inner{text-align:left;max-width:34rem}
+.seats{border:0;padding:0;margin:0 0 2.5rem}
+.seats legend{font-family:'Alegreya Sans',sans-serif;font-size:.9rem;color:var(--muted);padding:0;margin:0 0 .75rem}
+.seat-row{display:grid;grid-template-columns:auto 3rem 1fr;gap:1rem;align-items:center;padding:.65rem .5rem;cursor:pointer;border-bottom:1px solid var(--rule)}
+.seat-row:last-of-type{border-bottom:none}
+.seat-row input{width:1.1rem;height:1.1rem;accent-color:var(--madder);margin:0}
+.seat-row img{width:3rem;height:3rem;border-radius:50%;object-fit:cover;object-position:50% 22%;border:2px solid var(--seat);display:block;background:var(--surface)}
+.plate{display:inline-block;padding:.05rem .5rem;font-weight:700;font-size:1.15rem;line-height:1.4}
+.seat-row.is-chosen .plate{background:var(--plate-ink);color:var(--plate-light)}
+.seats:has(input:checked) .seat-row:has(input:checked) .plate{background:var(--plate-ink);color:var(--plate-light)}
+.seat-meta{display:block;font-family:'Alegreya Sans',sans-serif;font-size:.88rem;color:var(--muted);margin-top:.1rem}
+.seat-era{margin:1.5rem 0 .4rem;font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.seat-era:first-of-type{margin-top:0}
+.btn{display:inline-block;font-family:'Alegreya Sans',sans-serif;font-weight:600;font-size:1.02rem;padding:.95rem 1.8rem;border-radius:4px;text-decoration:none;background:var(--btn-fill);color:var(--btn-text);border:1.5px solid var(--btn-fill)}
+.btn:hover,.btn:focus-visible{background:var(--btn-fill-hover);border-color:var(--btn-fill-hover);color:var(--btn-text)}
+.seat-secondary{font-family:'Alegreya Sans',sans-serif;font-size:.95rem;margin:1.4rem 0 0}
+.seat-secondary a{color:var(--muted);text-decoration-color:var(--rule);text-underline-offset:.22em;padding:.5rem .3rem;display:inline-block}
+.seat-secondary a:hover,.seat-secondary a:focus-visible{color:var(--text);text-decoration-color:currentColor}
+.seat-secondary .sep{color:var(--muted);padding:0 .4rem}
+
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:'Alegreya Sans',sans-serif;font-size:.92rem;color:var(--muted)}
+.site-footer .wrap{max-width:64rem;margin:0 auto;padding:2rem 1.5rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.site-footer a{color:var(--muted)}
+.site-footer nav{display:flex;gap:1.2rem;flex-wrap:wrap}
+.site-footer nav a{display:inline-block;padding:.5rem .1rem}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="homepage.html">Church <em>in</em> Conversation</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="homepage.html">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="station" id="top" tabindex="-1" aria-labelledby="page-h">
+    <div class="inner">
+      <div class="tc play">
+        <svg viewBox="0 0 32 32" role="img" aria-label="A table stands; one chair is pulled up beside it and left deliberately pulled out">
+          <g class="tc-table"><path d="M3.5 13 h12"/><path d="M6 13 v12"/><path d="M13.5 13 v12"/></g>
+          <g class="tc-chair"><path d="M27 8 v17"/><path d="M27 17 h-6"/><path d="M21.5 17 v8"/></g>
+        </svg>
+      </div>
+      <p class="eyebrow" data-copy="draft">Before you sit down</p>
+      <h1 id="page-h" data-copy="draft">Three things, said once.</h1>
+      <p class="lede" data-copy="draft">What this is. What it is built from. What it will not claim. Then your seat is yours to take, or not.</p>
+
+      <p class="returning" id="returning" hidden data-copy="draft">You have sat down here before. <a id="returning-link" href="#seat">Go straight in &rarr;</a></p>
+
+      <p class="rubric-sub"><a href="#what" data-copy="draft">Continue when you are ready</a></p>
+    </div>
+  </section>
+
+  <section class="station movement" id="what" tabindex="-1" aria-labelledby="what-h">
+    <div class="inner">
+      <p class="eyebrow" data-copy="draft">I &middot; What this is</p>
+      <h2 id="what-h" data-copy="draft">You will be in conversation with an AI system.</h2>
+      <p data-copy="draft">Each Representative is a built voice: made from one Christian tradition's own letters, sermons, and records, and speaking from those and from nothing else. It is a conversation with a tradition's witness, not with a person.</p>
+      <p data-copy="draft">You can ask it anything. It answers from what its tradition left behind, shows you where each answer comes from, and says so when the record runs out.</p>
+    </div>
+  </section>
+
+  <section class="station movement" id="built" tabindex="-1" aria-labelledby="built-h">
+    <div class="inner">
+      <p class="eyebrow" data-copy="draft">II &middot; What it is built from</p>
+      <h2 id="built-h" data-copy="draft">Months of review-gated work, one tradition at a time.</h2>
+      <p data-copy="live">Each Christian tradition is built by going through a disciplined ten-step process. We gather and weigh its own letters, sermons, records, and validated sources. We research its own vocabulary, and the internal and external forces that shaped its beliefs and convictions. Every claim is checked against those sources directly and labeled for how well it's attested. External academic review is the standard we're building toward for every tradition &mdash; not yet complete, since it isn't funded yet. Only then, last, is a representative voice created out of that finished, self-contained record. It speaks only from the tradition's own letters, sermons, and primary sources.</p>
+      <p class="protected" data-copy="protected">Where the historical record is thin, we let the silence stand.</p>
+    </div>
+  </section>
+
+  <section class="station movement" id="claims" tabindex="-1" aria-labelledby="claims-h">
+    <div class="inner">
+      <p class="eyebrow" data-copy="draft">III &middot; What it will not claim</p>
+      <h2 id="claims-h" data-copy="draft">It bears witness, and leaves the rest to you.</h2>
+      <p class="protected" data-copy="protected">We are committed to representing each Christian movement in full &mdash; its testimony, beautiful and hard alike.</p>
+      <p data-copy="protected">We measure whether each Christian movement is represented in an engaging and accurate way. What it means for you is yours to own and share.</p>
+      <p data-copy="live">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+      <p data-copy="draft">Nothing here is finished. What is unfinished, we say plainly.</p>
+    </div>
+  </section>
+
+  <section class="station silence" id="silence" tabindex="-1" aria-label="A silence">
+    <div class="inner">
+      <p class="rubric" data-copy="draft">Silence is kept.</p>
+      <p class="rubric-sub"><a href="#seat" data-copy="draft">Continue when you are ready</a></p>
+    </div>
+  </section>
+
+  <!-- Your seat. The seven, as still names. Data from world-census.json
+       (see homepage.html's note). The chosen seat is shown by nameplate
+       inversion — solid dark ground, light text — nothing else changes. -->
+  <section class="station seat-station" id="seat" tabindex="-1" aria-labelledby="seat-h">
+    <div class="inner">
+      <p class="eyebrow" data-copy="draft">Your seat</p>
+      <h2 id="seat-h" data-copy="draft">Who would you like to meet?</h2>
+      <p data-copy="draft" style="color:var(--muted)">Choose one Representative for this conversation. Every seat is open; you can come back for the others.</p>
+
+      <form id="seat-form" onsubmit="return false">
+        <fieldset class="seats">
+          <legend data-copy="draft">One Representative for this conversation</legend>
+
+          <p class="seat-era" data-copy="census">The Early Church Era &middot; 70&ndash;312 CE</p>
+          <label class="seat-row" style="--seat:#7c3aed">
+            <input type="radio" name="who" value="post-apostolic-house-church" data-name="Chloe">
+            <img src="../../../../../../cic-website/assets/portraits/house-churches.png" alt="" width="48" height="48">
+            <span data-copy="census"><span class="plate">Chloe</span><span class="seat-meta">Household Leader &middot; The House-Churches &middot; 70&ndash;200 CE</span></span>
+          </label>
+          <label class="seat-row" style="--seat:#2B5F8A">
+            <input type="radio" name="who" value="alexandria-catechetical" data-name="Theon">
+            <img src="../../../../../../cic-website/assets/portraits/alexandria.png" alt="" width="48" height="48">
+            <span data-copy="census"><span class="plate">Theon</span><span class="seat-meta">Catechetical Teacher &middot; Alexandrian Christianity &middot; c. 150&ndash;400 CE</span></span>
+          </label>
+          <label class="seat-row" style="--seat:#b45309">
+            <input type="radio" name="who" value="syriac-edessa-nisibis" data-name="Mar Yausep">
+            <img src="../../../../../../cic-website/assets/portraits/syriac.png" alt="" width="48" height="48">
+            <span data-copy="census"><span class="plate">Mar Yausep</span><span class="seat-meta">Teacher of the Covenant Order &middot; Syriac Christianity &middot; 200&ndash;410 CE</span></span>
+          </label>
+
+          <p class="seat-era" data-copy="census">The Imperial Church Era &middot; 312&ndash;451 CE</p>
+          <label class="seat-row" style="--seat:#7A2E2E">
+            <input type="radio" name="who" value="imperial-juridical-christianity" data-name="Marius">
+            <img src="../../../../../../cic-website/assets/portraits/empire.png" alt="" width="48" height="48">
+            <span data-copy="census"><span class="plate">Marius</span><span class="seat-meta">Deacon of the Letters &middot; Church and Empire &middot; c. 312&ndash;451 CE</span></span>
+          </label>
+          <label class="seat-row" style="--seat:#0f766e">
+            <input type="radio" name="who" value="desert-monasticism" data-name="Papnoute">
+            <img src="../../../../../../cic-website/assets/portraits/desert.png" alt="" width="48" height="48">
+            <span data-copy="census"><span class="plate">Papnoute</span><span class="seat-meta">Abba (Elder) &middot; Desert Fathers and Mothers &middot; c. 320&ndash;430 CE</span></span>
+          </label>
+          <label class="seat-row" style="--seat:#A0522D">
+            <input type="radio" name="who" value="cappadocian-nicene-pastoral-monastic-tradition" data-name="Chilo">
+            <img src="../../../../../../cic-website/assets/portraits/cappadocian.jpg" alt="" width="48" height="48">
+            <span data-copy="census"><span class="plate">Chilo</span><span class="seat-meta">Elder of the Brotherhoods &middot; The Cappadocian Churches &middot; c. 325&ndash;394 CE</span></span>
+          </label>
+          <label class="seat-row" style="--seat:#9d174d">
+            <input type="radio" name="who" value="hieronymian-ascetic-literary" data-name="Albina">
+            <img src="../../../../../../cic-website/assets/portraits/bethlehem.png" alt="" width="48" height="48">
+            <span data-copy="census"><span class="plate">Albina</span><span class="seat-meta">Widow of the Household &middot; The Bethlehem Circle &middot; c. 382&ndash;420 CE</span></span>
+          </label>
+        </fieldset>
+      </form>
+
+      <p class="seat-action"><a class="btn" id="sit-link" href="https://cic-engine.onrender.com/?mode=table"><span id="sit-text" data-copy="draft">Go to the Table</span></a></p>
+      <!-- The quiet second link mirrors what the live homepage sheet offers
+           today ("Bring [Name] to the Table"). Whether the free entry may seat
+           the Table field is seam G in the inheritance note — unconfirmed;
+           mirrored, not decided. "Not today" is a complete, graceful path. -->
+      <p class="seat-secondary">
+        <a id="table-link" href="https://cic-engine.onrender.com/?mode=table" hidden data-copy="draft">Or bring them to the Table</a><span class="sep" id="table-sep" hidden aria-hidden="true">&middot;</span><a href="homepage.html" data-copy="draft">Not today &mdash; back to the door</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span data-copy="live">&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav aria-label="Footer">
+      <a href="../../../../../../cic-website/about.html">About</a>
+      <a href="../../../../../../cic-website/privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1;
+var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
+var radios = Array.prototype.slice.call(document.querySelectorAll('input[name="who"]'));
+var sit = document.getElementById('sit-link'), sitText = document.getElementById('sit-text');
+var tableLink = document.getElementById('table-link'), tableSep = document.getElementById('table-sep');
+var returning = document.getElementById('returning'), returningLink = document.getElementById('returning-link');
+var KEY = 'cic-threshold-crossed';
+
+function chosen(){
+  for (var i = 0; i < radios.length; i++) if (radios[i].checked) return radios[i];
+  return null;
+}
+function render(){
+  var c = chosen();
+  radios.forEach(function(r){
+    var row = r.parentNode; while (row && !(row.classList && row.classList.contains('seat-row'))) row = row.parentNode;
+    if (row) row.classList.toggle('is-chosen', r.checked);
+  });
+  if (c){
+    var id = encodeURIComponent(c.value), name = c.getAttribute('data-name');
+    // Same deep-link grammar the live index.html uses: interview = the free
+    // entry; table = the quiet second link that seats the app's Table field.
+    sit.href = APP + '/?worlds=' + id + '&mode=interview';
+    sitText.textContent = 'Sit down with ' + name;
+    tableLink.href = APP + '/?worlds=' + id + '&mode=table';
+    tableLink.textContent = 'Or bring ' + name + ' to the Table';
+    tableLink.hidden = false; tableSep.hidden = false;
+    returningLink.textContent = 'Go straight to ' + name + ' →';
+  } else {
+    sit.href = APP + '/?mode=table';
+    sitText.textContent = 'Go to the Table';
+    tableLink.hidden = true; tableSep.hidden = true;
+    returningLink.textContent = 'Go straight in →';
+  }
+  returningLink.href = sit.href;
+}
+
+// ?who=<census id> pre-chooses the seat (from the homepage's seven links).
+var who = null;
+try { who = new URLSearchParams(window.location.search).get('who'); } catch (e) {}
+if (who) radios.forEach(function(r){ if (r.value === who) r.checked = true; });
+radios.forEach(function(r){ r.addEventListener('change', render); });
+render();
+
+// The narthex remembers. Storage can be absent or throw; the page is complete without it.
+var crossed = null;
+try { crossed = window.localStorage.getItem(KEY); } catch (e) {}
+if (crossed) returning.hidden = false;
+sit.addEventListener('click', function(){
+  try { window.localStorage.setItem(KEY, new Date().toISOString()); } catch (e) {}
+});
+})();
+</script>
+</body>
+</html>

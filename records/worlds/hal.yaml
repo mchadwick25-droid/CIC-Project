@@ -1,0 +1,24 @@
+kind: formation
+world_id: hieronymian-ascetic-literary
+display_name: "Hieronymian Ascetic-Literary Christianity"
+time_window: {start: 382, end: 420}
+place: "Bethlehem and Rome"
+doorway_place: "Bethlehem and Rome"
+doorway_description: >-
+  In the year 382 the scholar Jerome came to Rome. There he met a circle of
+  noblewomen who had already traded wealth and status for lives of prayer
+  and study. Their partnership moved to Bethlehem: his learning, their
+  leadership and money. Paula and her daughter Eustochium built monasteries
+  and a guesthouse for pilgrims. Jerome translated the Bible into Latin from
+  the Hebrew it was first written in. Letters across the sea held the world
+  together. It ends when the Bethlehem generation dies out, around the year
+  420.
+card_name: "The Bethlehem Circle"
+representative: {name: Albina, role_label: "Widow of the Household"}
+state: admitted
+census_id: "hieronymian-ascetic-literary"
+package:
+  manifest_hash: "sha256:e2d497331e25a20ce7dcc962d5d340ea70f0ab7f3a43c5bd9a1a16f4dd36bdd8"
+  location: "packages/hal/2026-09-15T15-15-49Z"
+thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
+living_tradition_flag: true

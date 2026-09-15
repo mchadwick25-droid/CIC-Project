@@ -30,35 +30,34 @@ retrieval:
 relations: []
 narrative_tier: 4
 narrative_tier_justification: "Lucian's satirical portrait of 'Peregrinus' himself cannot be used as a positive account of a named protagonist - his own explicit satirical intent makes any such use a misreading. What can responsibly be reconstructed is the underlying, incidentally preserved practice pattern beneath the satire, composited into a typical-practice account of an unnamed imprisoned member, not a retelling of Lucian's own narrative about Peregrinus."
-tellable_as: "A hostile satirist mocking a man he considers a fraud incidentally preserves a picture of real communal solidarity: widows and orphans waiting at the prison gates, officials bribed for access, visitors traveling from distant cities at communal expense."
-text: >
-  This is how it would have been, in the life of a member of this
-  community imprisoned under threat of execution, though no one
-  narrates this member by name. An outside observer - hostile,
-  mocking, writing to satirize a man he considered a fraud who had
-  once associated with this community - nonetheless preserves, almost
-  despite himself, a picture of what happened around such an
-  imprisonment: widows and orphans waiting at the prison gates from
-  early morning, officials bribed so visitors could get inside, people
-  traveling from the cities of Asia, sent by their own communities, to
-  comfort and support the one held, sacred books read aloud to him
-  inside the prison, and gifts of money brought.
-
-  A separate, later witness, defending this world's own communities to
-  a hostile Roman audience, describes the standing practice behind
-  such moments: a voluntary monthly contribution, given only by those
-  willing and able, not taken thence and spent "on feasts, and
-  drinking-bouts, and eating-houses, but to support and bury poor
-  people, to supply the wants of boys and girls destitute of means and
-  parents, and of old persons confined now to the house" - and, the
-  same writer adds, extending to "any in the mines, or banished to the
-  islands, or shut up in the prisons, for nothing but their fidelity
-  to the cause of God's Church."
-
-  Together, these two outside accounts - one mocking, one defending -
-  describe the same underlying pattern from opposite intentions: a
-  community that organized real material and personal support around
-  a member facing exactly this kind of threat.
+tellable_as: >-
+  A hostile satirist, mocking a man he considers a fraud, accidentally
+  preserves a picture of real solidarity. Widows and orphans wait at the
+  prison gates, officials are bribed for access, and visitors travel from
+  distant cities at communal expense.
+text: >-
+  This is how it would have been, in the life of one of us imprisoned
+  under threat of execution - though no one narrates this member by
+  name. An outside observer preserves the picture, almost despite himself. He
+  was hostile, mocking, writing to satirize a man he considered a fraud who
+  had once attached himself to us. And yet his account shows what
+  happened around such an imprisonment. Widows and orphans waited at the
+  prison gates from early morning. Officials were bribed so visitors could get
+  inside. People traveled from the cities of Asia, sent by their own
+  communities, to comfort and support the one held. Sacred books were read
+  aloud to him inside the prison, and gifts of money were brought. A separate,
+  later witness describes the standing practice behind such moments. Writing
+  to defend our communities before a hostile Roman audience, he tells
+  of a voluntary monthly contribution, given only by those willing and able.
+  The money was not spent 'on feasts, and drinking-bouts, and eating-houses,
+  but to support and bury poor people, to supply the wants of boys and girls
+  destitute of means and parents, and of old persons confined now to the
+  house.' The same writer adds that it reached 'any in the mines, or banished
+  to the islands, or shut up in the prisons, for nothing but their fidelity to
+  the cause of God's Church.' Together, these two outside accounts - one
+  mocking, one defending - describe the same pattern from opposite directions.
+  We organized real material and personal help around one of our own
+  facing exactly this kind of threat.
 absent_detail: "No account survives from the imprisoned member's own side - not even a name. What is reconstructed here is entirely the pattern of support around such a person, never that person's own experience of it."
 modern_contrast: >
   A modern reader often hears "widows and orphans at the prison gates,
@@ -88,3 +87,5 @@ Doc_09's own Section 2 states this story's gravity connection is
 "loosely G02/G03-adjacent... not classified as direct evidence for
 either named gravity" - this record does not manufacture a formal
 relation Doc_09 itself declines to assert.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

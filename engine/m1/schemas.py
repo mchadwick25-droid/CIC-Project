@@ -63,6 +63,18 @@ _SOURCE_REF_SCHEMA = {
         "source_id": {"type": "string"},
         "locus": {"type": "string"},
         "license": {"type": "string"},
+        # Optional, additive (2026-09-02, Mark's sign-off: "new address field,
+        # locus untouched" + "optional/best-effort, existing where possible").
+        # The canonical passage address defined this session, form
+        # `cic:<file-stem>:<locus>` (see cic/corpus-map/README.md's addressing
+        # note and cic/engine/works_registry.py's own parse_address()) - a
+        # machine-checkable pointer alongside locus's free-text citation form,
+        # not a replacement for it. Format and file-existence are checked by
+        # gate_canonical_address (gates.py), not by this schema - the same
+        # split source.edition/gate_edition_rights_consistency already uses.
+        # Envelope-level, like locus itself: any citable record type can set
+        # it, not just quote, though quote is where this was scoped from.
+        "address": {"type": "string"},
     },
     "required": ["source_id"],
     "additionalProperties": False,
@@ -99,6 +111,21 @@ ENVELOPE_PROPERTIES = {
     "status": {"enum": ["draft", "ready", "frozen"]},
     "register": {"enum": ["emic", "etic", "emic-unavailable"]},
     "canon_cells": {"type": "array", "items": {"type": "string"}},
+    # Authored opt-out from M2's demo auto-tagging (engine/m2/builders.py's
+    # _demonstration_candidates(), added 2026-08-29, craft cycle 2): a
+    # record whose own framing vocabulary ("we cannot tell you", "plainly")
+    # false-tags unrelated demo sentences at the shipping floor sets
+    # `demo_tag: exclude` rather than being silently mistagged. Real,
+    # load-bearing field (5 honest_limit records use it fleet-wide as of
+    # 2026-09-02) that was simply missing from this schema until now -
+    # every record carrying it was failing gate_schema_validation, the
+    # same shape of gap quote.modern_rendering was in before it. Spans
+    # every type builders.py's own _DEMO_CANDIDATE_TYPES lists (not just
+    # honest_limit), so it lives on the envelope, like canon_cells itself.
+    # "exclude" is the only value the compiler checks for; anything else
+    # would silently do nothing, which is exactly the class of typo an
+    # enum (rather than a bare string) catches at the schema layer.
+    "demo_tag": {"enum": ["exclude"]},
     "confidence": _CONFIDENCE_SCHEMA,
     "sources": {"type": "array", "items": _SOURCE_REF_SCHEMA},
     "retrieval": _RETRIEVAL_SCHEMA,
@@ -152,6 +179,38 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "attribution_status": {"type": "string"},
         "discovery_channel": {"type": "string"},
         "external_ids": {"type": "object"},
+        # Optional, additive (2026-09-02, Mark's sign-off: "optional/best
+        # effort and existing where possible"): foreign key into
+        # cic/corpus-map/WORKS.yaml's own work_id, cross-checked by
+        # cic/engine/works_registry.py's record_work_id_problems(), not by
+        # this schema (a typo'd id is still a well-formed string). Not yet
+        # in COMPLETION_REQUIRED - existing source records validate
+        # unchanged without it, and most will stay unset: WORKS.yaml is
+        # itself a seeded, incomplete registry (four entries at the time
+        # this field was added), so absence means "not joined yet," not
+        # "wrong."
+        "work_id": {"type": "string"},
+        # Library Access Gate D3 SS5 (Decision-Log 6, 7). What this record's
+        # subject IS in relation to the library. Checked for agreement with
+        # `edition` by engine/m9's source-kind. Optional, additive - not yet
+        # in COMPLETION_REQUIRED, same reasoning as work_id above: every
+        # existing source record (398 across the nine worlds) predates this
+        # field, and making it required here would fail them all at the
+        # schema layer rather than at source-kind's own waived finding.
+        "kind": {"type": "string", "enum": ["vendored", "unvendored", "absence"]},
+        # D3 SS5, Q5. For kind: absence only - strings that must NOT
+        # window-match in the file `edition` names. The compiler reads that
+        # (possibly off-shelf) file to verify, and logs the read; the
+        # Representative never sees it. Necessary, not sufficient: absence
+        # of a heading string is evidence the claim was checked, not proof
+        # of the claim.
+        "absence_probes": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        # D3 SS5, CM-1 (Decision-Log 3). The bucket row this source IS,
+        # copied from cic/corpus-map/<census_id>.yaml's own row_id - a
+        # string that exists, never guessed. Resolved (role, confidence,
+        # voice_of) at compile time into compiled/shelf.json; nothing
+        # derived is ever written here.
+        "shelf_row": {"type": "string"},
     },
     "term": {
         "plain_meaning": {"type": "string"},
@@ -199,6 +258,15 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # Story/Quote Template SS3) - not yet in COMPLETION_REQUIRED;
         # existing quote records validate unchanged without it.
         "modern_lens_note": {"type": "string"},
+        # The spoken form (process doc V1.2 line 143: "Quote records author
+        # their modern_rendering at birth... never the archaic original;
+        # the original stays as the record's text for Level 3"). Every
+        # already-admitted world's quote records already carry this field;
+        # schema was missing it, failing gate_schema_validation fleet-wide
+        # (hal 13, pahc 7, syr 18, ijc 6, alx 1, desert 10 findings, all
+        # solely this field, confirmed before this fix). Not yet in
+        # COMPLETION_REQUIRED - existing quote records validate unchanged.
+        "modern_rendering": {"type": "string"},
     },
     "figure": {
         "names": {

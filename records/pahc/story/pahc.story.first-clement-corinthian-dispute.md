@@ -31,23 +31,23 @@ relations:
   target: pahc.gravity.translocal-network
 narrative_tier: 1
 narrative_tier_justification: "A specific, named occasion - the deposition of legitimately appointed Corinthian presbyters - addressed in a real, surviving letter. The letter itself is anonymous; attribution to 'Clement' is traditional (first attested by later writers, not self-declared in the text), which is why confidence is Widely Accepted for the intervention itself but Contested for the precise date."
-tellable_as: "The church at Rome writes a long, unrequested letter to the church at Corinth after Corinth removes several of its own presbyters from office, arguing at length that they served blamelessly and should be restored."
-text: >
-  In this letter, the church at Rome - writing anonymously in its own
-  text, though later tradition names Clement as its author - tells us
-  that the church at Corinth had removed certain presbyters from
-  office who had served blamelessly and with honour. The letter
-  addresses this directly: it argues at length, through example after
-  example of jealousy and strife destroying what unity had built, that
-  the Corinthians' action was a departure from proper order, and it
-  urges the restoration of the deposed presbyters.
-
-  The letter does not claim any formal jurisdiction over Corinth - it
-  does not command, in the register of a later ecclesial authority; it
-  appeals, at length and with real theological seriousness, as one
-  church writing to another out of concern. Rome's own letter tells us
-  Rome believed a dispute in a sister church was its business to
-  address, even without institutional authority to compel a result.
+tellable_as: >-
+  The church at Rome writes a long, unrequested letter to the church at
+  Corinth. Corinth had removed several of its own elders from office; Rome
+  argues they served blamelessly and should be restored.
+text: >-
+  In this letter, the church at Rome tells us that the church at Corinth had
+  removed certain presbyters from office - men who had served blamelessly and
+  with honor. (The letter is anonymous in its own text; later tradition names
+  Clement as its author.) The letter addresses the removal directly. Through
+  example after example of jealousy and strife destroying what unity had
+  built, it argues that the Corinthians' action broke proper order. And it
+  urges the restoration of the deposed presbyters. The letter does not claim
+  any formal jurisdiction over Corinth. It does not command, in the tone of a
+  later church authority. It appeals - at length, and with real theological
+  seriousness - as one church writing to another out of concern. Rome's own
+  letter tells us Rome believed a dispute in a sister church was its business
+  to address, even without any power to force a result.
 absent_detail: "Corinth's own side of the dispute does not survive - only Rome's letter does. Why the Corinthian presbyters were actually removed, and what happened to anyone who still disagreed after Rome's letter arrived, is not something this world's own texts say."
 modern_contrast: >
   A modern reader often hears an unrequested letter correcting another
@@ -69,3 +69,5 @@ church used power against Christians who disagreed. Defend that.') is
 the same cell already claimed by pahc.witness.our-own-failures, which
 covers this identical occasion - reused here since this story is the
 narrative form of that same honest, unresolved answer, not a new claim.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

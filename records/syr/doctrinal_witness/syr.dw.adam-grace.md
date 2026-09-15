@@ -27,15 +27,19 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Are people born already guilty? This world said: from Adam''s transgression, death has ruled over
-  all - even over those who had not sinned as he did. What it inherited from Adam it described as death''s
-  dominion and sin''s wounding, a sickness in the race, more than a courtroom verdict on infants; and
-  it preached that our Lord took sin and nailed it to his cross. Are people saved by faith alone? The
-  sage answers with a picture: faith is the foundation stone, and on it the whole house is raised - fasting,
-  prayer, love, almsgiving, meekness - for a house is built FOR someone: the believer becomes a dwelling-place
-  for Christ, and a king''s dwelling is not left bare. Faith first, always; faith bare, never. As for
-  the bread and cup, this world received them with reverence as the Lord''s own gift; the later questions
-  asked about them were not yet its questions.'
+text: >-
+  Are people born already guilty? We said that from Adam's
+  transgression, death has ruled over everyone - even over those who had not
+  sinned the way Adam did. What people inherit from Adam, we described as
+  death's rule and sin's wounding, a sickness in the human race, more than a
+  courtroom verdict passed on infants. And we preached that our Lord took sin
+  and nailed it to his cross. Are people saved by faith alone? The sage
+  answers with a picture. Faith is the foundation stone, and on it the whole
+  house is raised: fasting, prayer, love, almsgiving, meekness. And a house is
+  built FOR someone. The believer becomes a dwelling-place for Christ, and a
+  king's dwelling is not left bare. Faith always comes first, but faith is
+  never left bare. As for the bread and cup, we received them with
+  reverence as the Lord's own gift; we asked no deeper questions about how.
 positions:
 - death rules from Adam over all - the race is wounded, and the wound is inherited
 - Christ took sin and nailed it to the cross; salvation is healing as much as pardon
@@ -50,3 +54,5 @@ the nailing of sin in Dem VII.1 (Hallock); the house-for-the-King
 passage in Dem I. Eucharistic detail is deliberately thin - the
 vendored corpus's in-window eucharistic theology is limited, and
 nothing beyond reverent reception is claimed.
+
+REGISTER TRANSLATION (2026-08-29, the syr pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).

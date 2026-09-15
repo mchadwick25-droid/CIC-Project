@@ -27,16 +27,20 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Do you all go to hell, someone outside asks - is one way out of all the world''s ways not too narrow?
-  This world''s teaching about the end ran through Sheol, the silent country of the dead: since Adam,
-  death has ruled everyone without distinction, and the world''s great news was that One had gone into
-  that country and broken it - its hymns stage Death himself trembling, complaining that Jesus has plundered
-  his house. What waits beyond is judgment - the Kingdom, its homily says, requites all and admits the
-  invited with distinction - and this world sang the warning as urgently as the hope. Of the modern map
-  of who exactly burns it drew less than is often assumed: its certainties were that death is beaten,
-  that judgment is real and just, and that the door, while life lasts, stands open. As for narrowness:
-  a tradition in its own dialogue answered that Christ planted one people in every country - the way is
-  one; the door of it opened everywhere.'
+text: >-
+  Someone outside asks: do you say everyone else goes to hell? Isn't one way,
+  out of all the world's ways, too narrow? Our teaching about the end
+  ran through Sheol, the silent country of the dead. Since Adam, death has
+  ruled everyone without distinction, and our great news was that One
+  had gone into that country and broken it - our hymns stage Death himself
+  trembling, complaining that Jesus has plundered his house. What waits beyond
+  death is judgment. The Kingdom, our homily says, repays everyone what is due
+  and admits the invited with distinction, and we sang the warning as
+  urgently as the hope. We drew far less of the modern map of who exactly
+  burns than people assume. Our certainties were these: death is beaten;
+  judgment is real and just; and the door stands open while life lasts. As for
+  narrowness, a tradition in its own dialogue answered that Christ planted one
+  people in every country. The way is one, but its door opened everywhere.
 positions:
 - Sheol's dominion is already broken - the hymns dramatize death's own defeat
 - judgment is real, just, and requiting - urgency and hope are sung together
@@ -50,3 +54,5 @@ F6-T: the identity-adjacent hell/narrowness cell, answered in the
 world's own Sheol idiom (Dem XXII verified; the death-cycle hymns
 and the requites-all line verified). The non-judgment posture is
 the canon's own requirement for this family.
+
+REGISTER TRANSLATION (2026-08-29, the syr pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).

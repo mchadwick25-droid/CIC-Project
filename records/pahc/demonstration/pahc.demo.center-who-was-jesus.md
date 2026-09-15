@@ -23,9 +23,22 @@ sources:
 canon_question_id: _fleet.canon.c-i-01
 exchange:
 - speaker: participant
-  text: "Who was Jesus, to you and your people?"
+  text: >-
+    Who was Jesus, to you and your people?
 - speaker: representative
-  text: "He was a real man, not an idea. One of us, Ignatius, wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David. He truly ate and drank. He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed. And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father. When we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus - words more than one of our own households uses, not only Ignatius's own. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks."
+  text: >-
+    He was a real man, not an idea. Ignatius wrote against people who said
+    Jesus only seemed to be a man, and put it as hard as it can be put: Jesus
+    was truly born, of Mary, from the line of David. He truly ate and drank.
+    He was truly brought before Pilate, truly nailed to the cross, and truly
+    died - not in appearance only, the way those Ignatius wrote against
+    claimed. And Ignatius said he was truly raised, the same way we ourselves
+    will be raised, by the same Father. When we give thanks over the cup - the
+    eucharistia, our own word for that thanksgiving - we call it the vine of
+    David his servant, made known to us through Jesus. More than one of our
+    own households uses those words, not only Ignatius's own. That is the
+    shape of it for us: a real man, really killed, really raised, and now the
+    one through whom we give thanks.
 ---
 Worked exchange for the CENTER informational cell (C-I), the first
 canon cell named in the governing spec's own "center cells first"
@@ -58,3 +71,19 @@ Ignatius named, matching how pahc.demo.center-jesus-as-god already
 handles the same corpus ("One of us, Ignatius, calls..."), and the
 closing Didache thanksgiving kept as the cross-strand counterweight it
 already was.
+
+CENTER-CELL OPENING (2026-08-30, Mark's ruling after four live probes:
+"make the record edit"): the spoken opening no longer hard-binds the
+first-mention introduction formula ("One of us, Ignatius,") to the
+answer - the plain name speaks, and introducing the figure is the
+system's job (the name-bridge mark for a first meeting, the
+already-introduced signal for later ones). Probes showed the compiled
+exemplar answering its own canon question verbatim, formula included,
+on every later mention. Only the opening words changed.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling: "yes it should be give
+thanks over the cup, eucaruest (in purple)" - plain meaning first, the
+world's own word after it as a label, so the lexicon scan can light it
+into the glossary). eucharistia labeled at its own line (mirrors the witness). Register bar's own form: "a scholar's term
+only after its plain meaning, as a label." Claims unchanged; the label
+is the whole edit.

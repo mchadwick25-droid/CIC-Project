@@ -6,7 +6,7 @@
 
 ## What changed since the prior study
 
-Three things in the prior study don't survive contact with the committed measurement artifact (`Ministry/Technology/Pass2/baselines/cost_baseline_2026-07.md`). Flagging them first, because two of them move the answer.
+Three things in the prior study don't survive contact with the committed measurement artifact (`Archive/Technology-Pass2-2026-08/Pass2/baselines/cost_baseline_2026-07.md`). Flagging them first, because two of them move the answer.
 
 1. **The measured baseline is cache-warm-biased, and real conversation is not.** The B-COST runner fired turns 14–50 seconds apart. At that pace the 5-minute cache stays warm. In the whole 689-call dataset there is exactly **one** deliberately cold mid-conversation turn — and it is the most valuable data point in this study (Item 2).
 2. **"Desert-only" is not established.** The two worlds that scored 0% retry rate were not in `HARD_CEILING_WORLDS` when the run happened — they were added two days later. The engineering memo estimates both would have fired at 100%.

@@ -1,6 +1,6 @@
 # desert Voice Index
 
-**GENERATED from records/desert/voice_craft/ and records/desert/demonstration/ — do not hand-edit.** Regenerate with `python3 world-build-docs/desert/generate_voice_index.py` after any change. Companion to the Representative voice build step (Redesign-Spec/CiC-Program-Spec.md SS4.3 step 5).
+**GENERATED from records/desert/voice_craft/ and records/desert/demonstration/ — do not hand-edit.** Regenerate with `python3 world-build-docs/desert/generate_voice_index.py` after any change. Companion to the Representative voice build step (reference/Redesign-Spec/CiC-Program-Spec.md SS4.3 step 5).
 
 **Totals:** 1 voice_craft, 9 demonstration.
 

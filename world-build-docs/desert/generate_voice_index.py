@@ -94,7 +94,7 @@ def main():
         "do not hand-edit.** Regenerate with "
         "`python3 world-build-docs/desert/generate_voice_index.py` after any change. "
         "Companion to the Representative voice build step "
-        "(Redesign-Spec/CiC-Program-Spec.md SS4.3 step 5).",
+        "(reference/Redesign-Spec/CiC-Program-Spec.md SS4.3 step 5).",
         "",
         f"**Totals:** {len(craft)} voice_craft, {len(demos)} demonstration.",
         "",

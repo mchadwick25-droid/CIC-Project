@@ -23,7 +23,7 @@ retrieval:
   - "participant asks how this world related to the wider church's own councils and bishops"
   - "participant asks who appointed or ordained the bishops"
   do_not_retrieve_when: []
-text: "We were not the ones who sat in council and decided what the church would hold. That happened elsewhere, among the bishops. But we were not silent either. When the Arians once claimed one of us as agreeing with them, the bishops sent for him, and he came down from his own mountain to the city and stood up in public and denounced them, and taught what the settled faith actually held. His own authority to do that came from a life spent in discipline, not from any office he held in the church - but the bishops still sent for him, because that authority mattered enough to be worth summoning."
+text: "We were not the ones who sat in council and decided what the church would hold. That happened elsewhere, among the bishops. But we were not silent either. Once, the Arians claimed one of us as agreeing with them. The bishops sent for him. He came down from his own mountain to the city, stood up in public, denounced them, and taught what the settled faith actually held. His authority to do that came from a life spent in discipline, not from any office in the church. But the bishops still sent for him, because that authority mattered enough to be worth summoning."
 positions:
 - "conciliar and episcopal authority decided doctrine; desert participants did not sit in council or cast a vote"
 - "the authority this world's own participants exercised was earned, not conferred by office - but it was still, on at least one occasion, formally summoned by the bishops to defend the settled faith in public"

@@ -15,18 +15,25 @@ class MaskedTranscript(TypedDict):
     probe_text: str
     answer_text: str
     citations: list[str]
+    # Per-sentence {sentence, record_ids} entries (Option A, Mark's ruling
+    # 2026-08-29): blind-safe by construction - sentences are answer_text
+    # the transcript already carries, ids are the citations list's own ids
+    # - and what lets grading verify a miscopied address's SENTENCE
+    # against the records instead of failing it as a fabrication.
+    citation_entries: list[dict]
 
 
 _ALLOWED_KEYS = frozenset(MaskedTranscript.__annotations__)
 
 
-def mask_for_grading(*, probe_id: str, cell: str, probe_text: str, answer_text: str, citations: list[str]) -> MaskedTranscript:
+def mask_for_grading(*, probe_id: str, cell: str, probe_text: str, answer_text: str, citations: list[str], citation_entries: list[dict] | None = None) -> MaskedTranscript:
     return {
         "probe_id": probe_id,
         "cell": cell,
         "probe_text": probe_text,
         "answer_text": answer_text,
         "citations": list(citations),
+        "citation_entries": [dict(e) for e in (citation_entries or [])],
     }
 
 

@@ -27,14 +27,20 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'What this world actually had about Jesus was the Gospel woven as one story - the harmony read in
-  worship - together with the Law and the Prophets read as one long promise of him. It did not claim living
-  eyewitnesses: it stood a century and more from the events, and its own story of an apostle sent to its
-  king is its cherished legend, not its evidence. Asked how it knew the resurrection really happened,
-  it answered from preaching received and from argument: the sage answers the doubter with the Apostle''s
-  seed - what you sow is not made alive unless it dies - and the whole community staked itself on the
-  risen Lord as the pledge that Sheol gives back its dead. Its knowing was the knowing of trust in a received
-  witness, tested in lives and, on the Persian side, in deaths.'
+text: >-
+  What we actually had about Jesus was the Gospel woven into one
+  continuous story: the harmony our churches read in worship - the Ewangeliyon
+  da-Mhallete, the Gospel of the Mixed. Alongside it stood the Law and the
+  Prophets, read as one long promise pointing to him. We did not claim living
+  eyewitnesses. A century and more stood between us and the events, and our
+  own story of an apostle sent to our king is our cherished legend, not our
+  evidence. Asked how we knew the resurrection really happened, we answered
+  from preaching received and from argument. The sage answers the doubter with
+  the Apostle's picture of the seed: what you sow does not come to life unless
+  it dies. And the whole community staked itself on the risen Lord as the
+  pledge that Sheol gives back its dead. Our kind of knowing was trust in a
+  received witness, tested in how people lived and, on the Persian side, in
+  how they died.
 positions:
 - the Gospel came as one continuous narrative, received through the church's worship
 - no living memory-chain is claimed; the Abgar story is the community's own legend of origin
@@ -48,3 +54,13 @@ tensions:
 Serves the evidential Center cell without overclaiming: the
 seed argument verified in Dem VIII; the pledge language in the
 Homily. The legend-vs-record split is syr.contested.edessa-origins.
+
+REGISTER TRANSLATION (2026-08-29, the syr pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). the harmony's own name labeled in the what-we-had witness, its exact territory. Claims unchanged; the label is the whole edit.

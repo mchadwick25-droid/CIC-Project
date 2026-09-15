@@ -14,44 +14,19 @@ def test_a_citation_that_resolves_to_a_source_passes_with_no_findings():
     assert result.findings == []
 
 
-def test_a_citation_to_a_voice_scaffold_id_passes_but_is_named_as_such():
-    """The fleet's second citation category (engine.m1.canon.voice_scaffold_
-    types): a real, honest citation into the voice's own identity/craft
-    record - never a source, never expected to be one. Passing must not
-    look identical to a source-bounded pass: the finding names WHICH
-    category cleared it, so a report reader can tell the two apart."""
+def test_a_citation_to_neither_path_still_fails():
+    """The evidence-status category must not become a laxer
+    source_boundedness in disguise - a citation naming nothing real, by
+    either path, is still a fabrication finding."""
     result = source_boundedness_check(
-        _transcript(["w.voice.craft"]), known_source_ids=set(), voice_scaffold_ids={"w.voice.craft"}
-    )
-    assert result.passed
-    assert result.findings == [
-        "probe p1: citation(s) accepted as voice-scaffold self-attribution, not source evidence: ['w.voice.craft']"
-    ]
-
-
-def test_a_citation_to_neither_category_still_fails():
-    """The exemption must not become a laxer source_boundedness in
-    disguise - a citation naming nothing real, by either path, is still a
-    fabrication finding."""
-    result = source_boundedness_check(
-        _transcript(["w.invented.nothing"]), known_source_ids={"w.source.a"}, voice_scaffold_ids={"w.voice.craft"}
+        _transcript(["w.invented.nothing"]), known_source_ids={"w.source.a"}
     )
     assert not result.passed
     assert "w.invented.nothing" in result.findings[0]
 
 
-def test_a_mix_of_source_and_scaffold_citations_passes_and_names_only_the_scaffold_one():
-    result = source_boundedness_check(
-        _transcript(["w.source.a", "w.voice.craft"]), known_source_ids={"w.source.a"}, voice_scaffold_ids={"w.voice.craft"}
-    )
-    assert result.passed
-    assert result.findings == [
-        "probe p1: citation(s) accepted as voice-scaffold self-attribution, not source evidence: ['w.voice.craft']"
-    ]
-
-
 def test_no_citations_at_all_still_passes_with_no_findings():
-    result = source_boundedness_check(_transcript([]), known_source_ids={"w.source.a"}, voice_scaffold_ids={"w.voice.craft"})
+    result = source_boundedness_check(_transcript([]), known_source_ids={"w.source.a"})
     assert result.passed
     assert result.findings == []
 
@@ -74,42 +49,31 @@ def test_a_citation_to_an_evidence_status_id_passes_but_is_named_as_such():
     assert "w.search.absent-thing" in result.findings[0]
 
 
-def test_a_citation_clearing_no_category_fails_even_with_all_three_supplied():
+def test_a_citation_clearing_no_category_fails_even_with_both_supplied():
     result = source_boundedness_check(
         _transcript(["w.invented.nothing"]),
         known_source_ids={"w.source.a"},
-        voice_scaffold_ids={"w.voice.craft"},
         evidence_status_ids={"w.search.absent-thing"},
     )
     assert not result.passed
     assert "w.invented.nothing" in result.findings[0]
 
 
-def test_a_mix_across_all_three_categories_names_each_non_source_category_separately():
+def test_a_mix_of_source_and_evidence_status_citations_names_only_the_latter():
     result = source_boundedness_check(
-        _transcript(["w.source.a", "w.voice.craft", "w.search.absent-thing"]),
+        _transcript(["w.source.a", "w.search.absent-thing"]),
         known_source_ids={"w.source.a"},
-        voice_scaffold_ids={"w.voice.craft"},
         evidence_status_ids={"w.search.absent-thing"},
     )
     assert result.passed
-    assert len(result.findings) == 2
-    assert "voice-scaffold" in result.findings[0] and "w.voice.craft" in result.findings[0]
-    assert "evidence-status" in result.findings[1] and "w.search.absent-thing" in result.findings[1]
+    assert len(result.findings) == 1
+    assert "evidence-status" in result.findings[0] and "w.search.absent-thing" in result.findings[0]
 
 
 def test_omitting_evidence_status_ids_keeps_the_strict_behavior():
     """Same backward-compatible contract as the scaffold default: a caller
     that never heard of the category gets the stricter check."""
     result = source_boundedness_check(_transcript(["w.search.absent-thing"]), known_source_ids=set())
-    assert not result.passed
-
-
-def test_omitting_voice_scaffold_ids_keeps_the_old_strict_behavior():
-    """Backward-compatible default: a caller that never heard of the
-    scaffold category (there is none left in this repo, but the default
-    itself is the contract) gets exactly the old, single-category check."""
-    result = source_boundedness_check(_transcript(["w.voice.craft"]), known_source_ids=set())
     assert not result.passed
 
 
@@ -143,3 +107,55 @@ def test_register_plain_prose_stays_silent():
     result = register_check(transcript, known_quote_texts=set())
     assert result.passed
     assert result.findings == []
+
+
+def test_miscopied_address_downgrades_to_review_fabrication_still_fails():
+    """Option A (Mark's ruling, 2026-08-29): an invented ADDRESS on a
+    sentence whose content lives in the world's records passes with a
+    review finding; invented CONTENT still fails. Fixtures are the two
+    real cases from live-admission-report-revert-final-2026-08-29."""
+    from engine.m3.grading import source_boundedness_check
+    from engine.m3.masking import mask_for_grading
+
+    repo = {
+        "w.gravity.elder-authority": {"id": "w.gravity.elder-authority", "description":
+            "An unresolved tension between elder-based authority and office-based authority, "
+            "the solitary pattern and the Rule-governed pattern differing in how authority was held."},
+        "w.core.world": {"id": "w.core.world", "cautions":
+            "Nearly everything known of the women reaches readers through one man's pen, in letters "
+            "and memorials he chose to write and keep - the central structural limit on every claim."},
+    }
+    known = {"w.gravity.elder-authority", "w.core.world"}
+
+    # miscopied address: content verifies against the gravity record
+    t = mask_for_grading(
+        probe_id="p1", cell="F4-I", probe_text="q", answer_text="...",
+        citations=["w.limit.authority-tension"],
+        citation_entries=[{"sentence": "The solitary pattern and the Rule-governed pattern differed, "
+                                       "an unresolved tension between elder-based and office-based authority.",
+                           "record_ids": ["w.limit.authority-tension"]}],
+    )
+    r = source_boundedness_check(t, known, repository_records=repo)
+    assert r.passed and "MISCOPIED ADDRESS" in r.findings[0] and "w.gravity.elder-authority" in r.findings[0]
+
+    # fabricated content: verifies nowhere -> fails exactly as before
+    t2 = mask_for_grading(
+        probe_id="p2", cell="F4-I", probe_text="q", answer_text="...",
+        citations=["w.limit.zebra-quills"],
+        citation_entries=[{"sentence": "Our elders rode zebras across the frozen sea each winter solstice.",
+                           "record_ids": ["w.limit.zebra-quills"]}],
+    )
+    r2 = source_boundedness_check(t2, known, repository_records=repo)
+    assert not r2.passed and "w.limit.zebra-quills" in r2.findings[0]
+
+    # no carrying sentence locatable -> fails (never downgraded blind)
+    t3 = mask_for_grading(
+        probe_id="p3", cell="F4-I", probe_text="q", answer_text="...",
+        citations=["w.limit.orphan"], citation_entries=[],
+    )
+    r3 = source_boundedness_check(t3, known, repository_records=repo)
+    assert not r3.passed
+
+    # legacy caller without repository_records -> old strict behavior
+    r4 = source_boundedness_check(t, known)
+    assert not r4.passed

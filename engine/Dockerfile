@@ -1,16 +1,16 @@
 # Church in Conversation — engine/api as a deployable service.
-# PHASE-1-LAUNCH.md Stage 3: "the engine needs a container. There is no
-# engine/Dockerfile. render.yaml builds cic-poc/Dockerfile and nothing
-# else." This is that container.
+# PHASE-1-LAUNCH.md Stage 3 asked for this container ("the engine needs a
+# container"); the cic-poc Dockerfile that stage described beside it was
+# retired and deleted with the old system, 2026-08-28.
 #
 # Build context MUST be the repository root, not engine/ — the image needs
 # engine/, records/, and records/worlds.yaml together, the same layout
 # every COPY below and .github/workflows/ci.yml's own recipe already
 # assume. On Render (or any host that lets you set a Dockerfile path
 # separately from the build context), point dockerfilePath at
-# engine/Dockerfile and leave dockerContext as the repo root — unlike
-# cic-poc/Dockerfile, which sets dockerContext to cic-poc/ because its own
-# needs (frontend/, backend/) are both under that one directory.
+# engine/Dockerfile and leave dockerContext as the repo root. (The retired
+# cic-poc/Dockerfile this note once contrasted against is deleted - the
+# old system's retirement, 2026-08-28.)
 #
 # Frontend stage added PHASE-1-LAUNCH.md Stage 5 (one Render service, not
 # two - Mark's call): builds cic-poc/frontend's static bundle and lands it
@@ -35,6 +35,10 @@
 #   CIC_API_VOICE_MODEL_PATTERN, CIC_API_SAFETY_MODEL_PATTERN,
 #   CIC_API_EVENTS_DB, CIC_API_USAGE_DB, CIC_API_WORLDS_YAML,
 #   CIC_API_DEFAULT_WORLD_KEY
+#   CIC_ENFORCE_ADMISSION - the doors-open switch ("1" = only
+#   admitted/open worlds are listed or seated; "0" = today's declared
+#   deferral, see render.yaml). It was absent from this list - the one
+#   config var the 2026-08-28 audit found shipped-but-undocumented.
 
 FROM node:20-slim AS frontend-build
 WORKDIR /frontend
@@ -59,6 +63,20 @@ RUN pip install --no-cache-dir -r engine/api/requirements.txt -r engine/m1/requi
 COPY engine/ engine/
 COPY records/ records/
 COPY packages/ packages/
+# Two engine/m1/gates.py checks (gate_edition_rights_consistency, gate_
+# canonical_address) read cic/texts/<file> straight off disk to confirm a
+# record's cited edition/address actually resolves - _TEXTS_DIR there is
+# repo-root-relative, not records_root-relative, so restore below silently
+# sees every real citation as "does not exist" without this. Missing here
+# was harmless until those two gates existed (2026-09-02/09-03): nothing
+# else this image builds or serves reads cic/texts/, so the restore step
+# was the first thing to ever notice the absence - as a validation/gates-
+# report.json mismatch on every world except fix (whose only edition
+# reference is a deliberately-nonexistent fixture path, already accounted
+# for in its own pinned report). cic/corpus-map/ and cic/engine/ (staging
+# files and build-time tooling, not read by anything at runtime) are
+# deliberately left out.
+COPY cic/texts/ cic/texts/
 
 # Compiled world packages are DERIVED, not source (see .gitignore) — a
 # clean checkout carries only records/, records/worlds.yaml, and each
@@ -78,9 +96,14 @@ RUN python -m engine.m2.cli restore
 COPY --from=frontend-build /frontend/dist cic-poc/frontend/dist
 
 # Most hosts (Render, Railway, Fly.io) inject $PORT; default to 8000 for
-# anything that doesn't — same convention cic-poc/Dockerfile already
-# uses.
+# anything that doesn't.
 ENV PORT=8000
 EXPOSE 8000
 
-CMD ["sh", "-c", "uvicorn engine.api.app:app --host 0.0.0.0 --port ${PORT}"]
+# --proxy-headers + --forwarded-allow-ips: behind Render's proxy every
+# request's socket peer is the proxy itself; without these the per-IP
+# rate limiter (engine/api/ratelimit.py) would see ONE client and throttle
+# everyone together. X-Forwarded-For is set by Render's edge, and the
+# proxy is the only thing that can reach this container, so trusting it
+# is trusting the platform we already run on.
+CMD ["sh", "-c", "uvicorn engine.api.app:app --host 0.0.0.0 --port ${PORT} --proxy-headers --forwarded-allow-ips='*'"]
