@@ -45,3 +45,22 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
+- work: Dialogues, Books I, III and IV
+  author: gregory-great
+  locus: Books I, III and IV, in Gardner's own chapter numbering
+  role: context
+  confidence: needs-ruling
+  note: 'Present in the same volume, and recorded here as a best guess awaiting a ruling rather
+    than silently dropped. These books gather miracle narratives of sixth-century Italian
+    bishops, abbots and clergy, and Book IV argues the soul''s immortality. `roman-church-gregorian`
+    (The Roman Church in the Age of Gregory the Great, c. 560-604) is the nearest entry by
+    author, date and region -- NOT `latin-papal-church-gregorian`, which is the eleventh-to-thirteenth
+    century reform papacy and shares only a word.
+
+    This is a guess made from the volume''s own table of contents. None of these three books
+    was read this session, and the entry itself is a Possible Future World with no build behind
+    it yet. Whichever thread reads them settles this; until then it should not be treated
+    as an assignment.
+
+    '
+  source_file: gregory-great_dialogues_gardner1911.txt

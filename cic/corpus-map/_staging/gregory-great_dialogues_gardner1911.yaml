@@ -1,0 +1,66 @@
+# Gardner's 1911 re-edition of the anonymous 1608 English translation of
+# Gregory the Great's Dialogues, vendored 2026-09-15 by the Atlas
+# documented-stories verification thread. Book II -- the Life and Miracles
+# of St Benedict -- is the reason it is here: it is the source for both of
+# early-benedictine-italian-monasticism's documented stories, and the
+# audit of that date found it absent from that entry's own corpus, which
+# carried no "Scholastica", no "Vicovaro" and no "Subiaco" anywhere in 1.8
+# million vendored words.
+#
+# Assigned only to early-benedictine-italian-monasticism. Books I, III and
+# IV range over sixth-century Italy well beyond that entry -- Gregory's own
+# Roman church, the Gothic wars, Campanian and Umbrian bishops -- and other
+# entries may well have a claim on them later. That claim is not asserted
+# here on this thread's say-so; assigning what was actually read is the
+# whole discipline, and Book II is what was read.
+source_file: gregory-great_dialogues_gardner1911.txt
+
+assignments:
+  - work: "Dialogues, Book II (the Life and Miracles of St Benedict)"
+    author: gregory-great
+    locus: "Book II, chapters i-xxxviii, in Gardner's own chapter numbering"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+    role: tradition
+    confidence: assigned
+    note: >
+      Gregory's life of Benedict, written c. 593 within a century of its
+      subject and the only substantial narrative source for him -- the
+      foundation narrative this entry rests on, told from inside the Italian
+      monastic tradition it founds, hence tradition rather than context.
+      Chapters 3 (the poisoned cup at Vicovaro) and 33-34 (Scholastica's
+      storm) were read line by line this session against the eleven
+      quotations the entry's two documented stories carry.
+
+      CAUTION, and it bears on how this file may be used: this is the 1608
+      English, re-edited, not a modern translation. It is faithful but
+      freely restructured -- it renders some of Gregory's direct speech as
+      indirect report, and its vocabulary is Jacobean throughout. Sound
+      evidence for what a passage says; weak evidence for exact wording or
+      for whether a given line is direct or indirect in Gregory. One of the
+      eleven quotations turns on precisely that distinction and remains
+      open, because settling it needs the Latin, which is not vendored and
+      was not reachable from this sandbox.
+
+  - work: "Dialogues, Books I, III and IV"
+    author: gregory-great
+    locus: "Books I, III and IV, in Gardner's own chapter numbering"
+    atlas_ids:
+      - roman-church-gregorian
+    role: context
+    confidence: needs-ruling
+    note: >
+      Present in the same volume, and recorded here as a best guess awaiting
+      a ruling rather than silently dropped. These books gather miracle
+      narratives of sixth-century Italian bishops, abbots and clergy, and
+      Book IV argues the soul's immortality. `roman-church-gregorian` (The
+      Roman Church in the Age of Gregory the Great, c. 560-604) is the
+      nearest entry by author, date and region -- NOT
+      `latin-papal-church-gregorian`, which is the eleventh-to-thirteenth
+      century reform papacy and shares only a word.
+
+      This is a guess made from the volume's own table of contents. None of
+      these three books was read this session, and the entry itself is a
+      Possible Future World with no build behind it yet. Whichever thread
+      reads them settles this; until then it should not be treated as an
+      assignment.

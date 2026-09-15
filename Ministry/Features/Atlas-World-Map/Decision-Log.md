@@ -13,6 +13,60 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-09-15 — The corpus block re-tested: two of its three premises were false
+
+**Origin.** The audit earlier this day closed by saying the verification pass
+was blocked on the corpus, not on effort. Mark asked for that to be re-tested
+rather than accepted, then chose to vendor what the test found.
+
+**The mapping-gap hypothesis, refuted.** The audit searched each quotation
+against its own entry's `corpus-map` bucket, so `ABSENT` only ever meant "not
+in that bucket." The median bucket holds 3 files against a library of 117, and
+the full ANF and NPNF sets are vendored, so a mapping gap looked likely. All
+60 absent quotations were re-run against the whole 250 MB library and
+**nothing was recovered.** The six exact matches are coincidences of generic
+phrasing — 'sick at heart' in Gregory of *Nyssa* against a story citing Gregory
+of *Tours*, and five more like it. Worth recording as a negative result: the
+cheap fix was tested and does not exist.
+
+**The network constraint, stale.** `CORPUS-USE.md` says the sandbox blocks
+every patristic text host including archive.org. The dedicated patristic hosts
+are blocked; archive.org is not, and served 588 KB end to end. The project
+already knew — `world-build-docs/ijc/BUILD-LOG.md` §12 records a build thread
+fetching and vendoring two texts from the Internet Archive on 2026-09-13, and
+both files are on disk. Three live files still assert otherwise, one of them
+the generator that reprints it. Flagged, not corrected: another thread's
+content, per the default table.
+
+**Decided — vendor the one text read, hand the rest over.** Mark chose option
+B of three. Gardner's 1911 *Dialogues* vendored, registered, corpus-mapped to
+`early-benedictine-italian-monasticism`, and its eleven quotations written into
+the audit as §9: ten sound, one flagged, none corrected — the opposite of the
+Possidius read the same day. The remaining 26 go to the dedicated
+source-research thread as a batch, per CLAUDE.md's own reason for splitting
+that work into fresh sessions.
+
+**The heart of it.** The audit's real finding was never "these stories are
+wrong" — it was that almost nothing could be checked. Eleven checked clean is
+the first evidence that the unread 490 may be largely sound rather than
+largely suspect. That is worth knowing before anyone rewrites them, and it is
+the argument for acquisition over revision as the next move.
+
+**Found on the way, not fixed.** `cic/engine/corpus_map_merge.py` is not
+currently safe to run, though every generated bucket's own header instructs
+you to run it. It reverts work that exists only in the generated files — two
+works vendored on 2026-09-13 in the gallic bucket, and the 2026-09-09 OG-6
+correction removing an unattested claim about Peter of Alexandria — and emits
+a `tertullian-s-voice.yaml` bucket the repository does not contain. It was run
+here for one new staging file; all collateral was restored to HEAD.
+
+**Still open.** Whether a story's verification state should reach a visitor,
+now that the build note has been removed from the card. Unchanged from the
+entry below, and now sharper: the eleven read stories are no longer
+distinguishable on the card from the 490 unread ones.
+
+---
+
 ## 2026-09-15 — Documented stories audited: the verification gap is real, and it is blocked on the corpus, not on effort
 
 **Origin.** The 545 `documentedStories` are the largest block of published

@@ -63,3 +63,25 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+- work: Dialogues, Book II (the Life and Miracles of St Benedict)
+  author: gregory-great
+  locus: Book II, chapters i-xxxviii, in Gardner's own chapter numbering
+  role: tradition
+  confidence: assigned
+  note: 'Gregory''s life of Benedict, written c. 593 within a century of its subject and the
+    only substantial narrative source for him -- the foundation narrative this entry rests
+    on, told from inside the Italian monastic tradition it founds, hence tradition rather
+    than context. Chapters 3 (the poisoned cup at Vicovaro) and 33-34 (Scholastica''s storm)
+    were read line by line this session against the eleven quotations the entry''s two documented
+    stories carry.
+
+    CAUTION, and it bears on how this file may be used: this is the 1608 English, re-edited,
+    not a modern translation. It is faithful but freely restructured -- it renders some of
+    Gregory''s direct speech as indirect report, and its vocabulary is Jacobean throughout.
+    Sound evidence for what a passage says; weak evidence for exact wording or for whether
+    a given line is direct or indirect in Gregory. One of the eleven quotations turns on precisely
+    that distinction and remains open, because settling it needs the Latin, which is not vendored
+    and was not reachable from this sandbox.
+
+    '
+  source_file: gregory-great_dialogues_gardner1911.txt

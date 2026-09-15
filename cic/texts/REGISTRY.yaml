@@ -1983,3 +1983,30 @@
     above. Raw djvu OCR text, same whitespace-only normalization applied, no wording
     changed. Book XXVII.3.12-13 verified directly against this file and now carries its
     own verbatim quote record, ijc.quote.ammianus-sicininus-massacre.
+- filename: gregory-great_dialogues_gardner1911.txt
+  supplied_by: Claude (Atlas documented-stories verification thread found, verified and
+    fetched the edition from archive.org, then vendored it)
+  date_added: '2026-09-15'
+  notes: >-
+    Gregory the Great, Dialogues, in the anonymous 1608 English translation re-edited by
+    Edmund G. Gardner (London: Philip Lee Warner, 1911) - vendored to close the single
+    largest block of unverifiable quotations found by the Atlas documented-stories audit
+    of this date. That audit reported the Dialogues absent from
+    early-benedictine-italian-monasticism's own corpus, which contained no 'Scholastica',
+    no 'Vicovaro' and no 'Subiaco' across 1.8 million vendored words; the same three terms
+    are present in this file. Book II chapters 3 and 33-34 were then read line by line
+    against the eleven quotations those two stories carry: ten sound, one flagged, none
+    corrected - the opposite outcome to the Possidius read of the same date, which
+    produced four corrections.
+    Found on the Internet Archive (identifier cu31924029222076, Cornell University Library
+    copy) and fetched directly this session, on the same basis as the Paulinus and Ammianus
+    entries immediately above. Raw djvu OCR text; unlike those two this scan carries no
+    runs of 2+ spaces, so the whitespace normalization was checked for, found unnecessary,
+    and NOT applied - below its header the file is byte-for-byte as fetched. See the
+    file's own prepended note.
+    CAUTION ON USE: this is the 1608 English re-edited, not a modern translation. It
+    renders some of Gregory's direct speech as indirect report, which makes it sound
+    evidence for what a passage says and weak evidence for the exact wording or the
+    direct/indirect shape of a line. The one flagged quotation above turns on exactly that
+    distinction and stays open for want of Gregory's Latin, which is not vendored and was
+    not reachable from this sandbox.

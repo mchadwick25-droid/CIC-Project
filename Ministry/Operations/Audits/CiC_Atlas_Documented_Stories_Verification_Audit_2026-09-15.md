@@ -110,6 +110,11 @@ corpus only as editors' footnotes about him.
 
 The verification pass is blocked on the corpus, not on effort or judgement.
 
+**Re-tested later the same day, and half wrong — see §9.** The *Dialogues*
+were acquired and read, closing all eleven; 26 remain. The sentence above is
+right that the block is the corpus and wrong about why: the texts are not
+unreachable, only un-fetched.
+
 ## 6. A structural gap worth fixing on its own
 
 `WANTS-REGISTER.md` is generated from `records/`: it finds a `source` record
@@ -158,3 +163,95 @@ had matched only "venantius".
 The conclusion those failures point to is the finding itself: **a machine can
 locate a candidate passage; only reading the cited passage can say which way
 it falls.** Whatever this becomes, it is a scholar's pass, not a script.
+
+---
+
+## 9. Addendum, same day: the corpus was not the constraint it was taken for
+
+§5 closed by saying the verification pass was blocked on the corpus. Mark
+asked for that to be re-tested rather than accepted. Two of the three things
+that sentence rested on turned out to be false.
+
+**The texts are not sitting unread in the library.** §5's verdicts were
+reached by searching each quotation against its own entry's `corpus-map`
+bucket, so `ABSENT` only ever meant "not in that bucket". Since the full ANF
+(1–10) and NPNF (both series, 1–14) sets are vendored, and the median bucket
+holds 3 files against a library of 117, a mapping gap looked likely. All 60
+absent quotations were re-run against the entire 250 MB library. **Nothing was
+recovered.** Six returned as exact matches and all six are coincidences of
+short generic phrasing — 'sick at heart' in Gregory of *Nyssa* against a story
+citing Gregory of *Tours*; 'greatly troubled' in Budge's *Paradise of the
+Fathers* against a story citing Gregory's *Dialogues*; 'a hundred thousand',
+'the great grace', 'I am a Christian', 'fellow-Lucianists' likewise. This is
+§8's finding a third time: a machine locates a string, a reader locates a
+passage.
+
+**The sandbox does not block the archives.** `CORPUS-USE.md` states that it
+"blocks every patristic text host (ccel.org, archive.org, wikisource,
+gutenberg, newadvent, tertullian.org), so nothing here was ever fetched by a
+build thread." The dedicated patristic hosts are blocked — tertullian.org,
+newadvent, sacred-texts and documentacatholicaomnia all refuse to connect.
+The general archives are not: archive.org served 588 KB end to end. The
+project already knew. `world-build-docs/ijc/BUILD-LOG.md` §12 records that on
+**2026-09-13** a build thread fetched, re-verified and vendored Paulinus of
+Milan's *Vita Ambrosii* and Ammianus Marcellinus from the Internet Archive,
+noting it was reachable "even where ccel.org/newadvent.org/tertullian.org are
+not." Both files are on disk. Three live files still assert otherwise, one of
+them the generator that keeps reprinting it: `gen_corpus_table.py:172`,
+`cic/engine/texts_registry.py:6` and `:390`. CLAUDE.md carries the same claim.
+Flagged, not corrected here — that is another thread's content.
+
+### The eleven Gregory quotations, read
+
+Gardner's 1911 re-edition of the 1608 English was vendored
+(`gregory-great_dialogues_gardner1911.txt`) and Book II chapters 3 and 33–34
+read line by line, the method that produced four corrections in Possidius.
+Here it produced none.
+
+| in the story | in the source | |
+|---|---|---|
+| 'his way of life would not suit theirs' | "their manners were divers from his, and therefore that they should never agree together" | sound |
+| 'they saw that under him they could no longer do what was unlawful' | "when they saw that under him they could not live in unlawful sort" | sound |
+| 'as if a stone had struck it' | "as though the sign of the cross had been a stone thrown against it" | sound |
+| 'God forgive you, brethren… Go and find an abbot to your liking' | "Almighty God have mercy upon you, and forgive you… seek ye out some other father suitable to your own conditions" | sound |
+| 'in the praises of God and in holy conversation' | "they spent the whole day in the praises of God and spiritual talk" | sound |
+| 'of the joys of the heavenly life' | "discoursing of the joys of heaven" | sound |
+| 'What are you saying, sister? I cannot possibly stay outside my cell.' | indirect in this edition — see below | **flagged** |
+| 'greatly troubled' | "began to be heavy and to complain of his sister" | sound |
+| 'God forgive you, sister. What have you done?' | "God forgive you, what have you done?" | sound |
+| 'I asked you and you would not listen; I asked my Lord and he listened.' | "I desired you to stay, and you would not hear me, I have desired our good Lord, and he hath vouchsafed to grant my petition" | sound |
+| 'She could do more, because she loved more.' | "of right she did more which loved more" | sound |
+
+**The one flag, and why it is not a correction.** Benedict's refusal is direct
+speech on the card and indirect report in this edition: *"saying that he might
+not by any means tarry all night out of his Abbey."* That is the exact shape
+of §4's second Possidius correction. The 1608 keeps direct speech elsewhere in
+this same chapter — both of Scholastica's replies and Benedict's own complaint
+— which weakly suggests the Latin is indirect here too. Weakly is not enough.
+This is a freely-restructured Jacobean translation, not the cited edition, and
+§4's own rule holds: a quotation is not corrected against a source that is not
+the cited one. Gregory's Latin is not vendored and was not reachable from any
+host this sandbox can see. The flag stands open.
+
+### Where this leaves it
+
+Eleven of the 37 are closed. **Twenty-six remain**, and their character has
+changed: they are no longer unreachable, only un-fetched. §5's conclusion was
+right about the corpus and wrong about why — the gap is acquisition, and
+acquisition is now possible.
+
+### A defect found on the way, not fixed here
+
+`cic/engine/corpus_map_merge.py` regenerates every bucket in
+`cic/corpus-map/` from `_staging/`, and the generated files' own headers tell
+you to run it. Running it silently reverts work that exists only in the
+generated files: `gallic-monastic-ascetic-christianity.yaml` loses two works
+vendored on 2026-09-13 (Cassian's Latin *Institutes* including Book VI, and
+Eucherius of Lyon), and `alexandria-catechetical.yaml` loses the 2026-09-09
+OG-6 correction that removed the unattested claim that Peter of Alexandria
+headed the catechetical school. Drift runs the other way too — the merge emits
+a `tertullian-s-voice.yaml` bucket that is not in the repository at all. The
+merge was run here for the one new staging file; every collateral change was
+restored to HEAD and only the two intended buckets kept. **The generator is
+not currently safe to run**, and the next thread that follows those headers
+will destroy source-fidelity corrections without being told.
