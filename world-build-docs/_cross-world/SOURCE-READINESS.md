@@ -1,10 +1,17 @@
-# Source Readiness Dossier — the pre-flight gate
+# Source Readiness Dossier — the Atlas's own source library
 
-**Standing rule, added 2026-09-15 (Mark's ruling):** no world's Doc_02 (Source
-Ecology) may begin drafting until a Source Readiness Dossier exists for that
-world at `world-build-docs/_cross-world/dossiers/<world-slug>_Source_Readiness_Dossier.md`.
-If none exists when a build thread reaches Doc_02, it **stops** and asks for
-one rather than starting Doc_02 from a cold search.
+**Standing rule, added 2026-09-15 (Mark's ruling), widened the same day:**
+every candidate world on the Atlas gets a Source Readiness Dossier
+*independent of whether or when it builds* — sitting in the library at
+`world-build-docs/_cross-world/dossiers/<world-slug>_Source_Readiness_Dossier.md`,
+ready for whichever build thread eventually needs it. Producing one is not
+tied to a build being scheduled; a world can have a dossier years before
+anyone drafts its Doc_01. The build-side consequence of this is a hard gate:
+no world's Doc_02 (Source Ecology) may begin drafting until its dossier
+exists. If none exists when a build thread reaches Doc_02, it **stops** and
+asks for one rather than starting Doc_02 from a cold search — but by the
+time most worlds reach that point, the dossier should already be sitting
+there waiting, not freshly requested.
 
 ## Why this exists
 
@@ -33,13 +40,25 @@ that gap — proactive, not reactive, the same distinction
 
 A Source Readiness Dossier is written by whichever thread is doing
 cross-world source research for the fleet (currently: a dedicated
-source-research session, run the same way against a new world's
+source-research session, run the same way against a candidate world's
 time-window/region as the proactive-acquisition work `CLAUDE.md`'s "Scaling
 the build" section already describes). It is not written by the build thread
 itself — the whole point is that it reflects the corpus-wide view a
 single-world build thread doesn't have. A build thread that reaches Doc_02
 with no dossier on file should ask for one rather than write its own
 narrower substitute.
+
+**Coverage target: every candidate on the Atlas, not just the next three
+worlds in line.** Any movement carrying "Possible Future World (on record)"
+or "Selected - Not Yet Built" status in `cic-website/data/world-census.json`
+is in scope for a dossier now, whether or not a build session exists for it
+yet. Work through the backlog in whatever order makes sense (era at a time,
+strongest candidates first, whatever a given research pass is already
+covering) rather than waiting for a launch announcement to justify writing
+one. A world whose own research already happened — because a prior session
+checked it for exactly this kind of finding, even before this document
+existed — gets its dossier written up from that existing work rather than
+re-researched from scratch.
 
 ## Required sections
 
