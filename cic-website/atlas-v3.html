@@ -42433,12 +42433,30 @@ panel.addEventListener('keydown',(ev)=>{
   if(ev.key!=='Tab')return;
   // Focus trap: cycle Tab/Shift+Tab within the panel's own focusable elements
   // instead of letting it walk out into whatever node or river sits behind it.
-  const focusable=[...panel.querySelectorAll('button,a[href],[tabindex]:not([tabindex="-1"])')]
-    .filter(el=>el.offsetParent!==null);
-  if(!focusable.length)return;
-  const first=focusable[0], last=focusable[focusable.length-1];
-  if(ev.shiftKey&&document.activeElement===first){ev.preventDefault();last.focus();}
-  else if(!ev.shiftKey&&document.activeElement===last){ev.preventDefault();first.focus();}
+  //
+  // `summary` has to be in this list. A disclosure is the panel's commonest
+  // control -- every documented story, every doctrine item and the source list
+  // is one -- and while it was missing, 136 of the 292 cards matched nothing
+  // but the close button. first, last and activeElement were then the same
+  // element, so every Tab press was preventDefault()ed and sent straight back
+  // to the close button: Tab was dead, and 409 controls could not be reached by
+  // keyboard at all. The bug hid because it only fired on cards whose panel had
+  // no visible link -- on the rest the list had two entries, the branch never
+  // ran, and native Tab (which does include summary) did the right thing.
+  // checkVisibility(), not getClientRects(): Chromium still reports a layout box
+  // for content inside a CLOSED <details>, so a rect test puts the source-list
+  // links into this array even though the browser will not focus them. The last
+  // entry would then be an element Tab can never land on, the wrap would never
+  // fire, and focus would walk out of the panel instead.
+  const vis=el=>el.checkVisibility?el.checkVisibility():el.getClientRects().length>0;
+  const focusable=[...panel.querySelectorAll('button,a[href],summary,input,select,textarea,[tabindex]:not([tabindex="-1"])')]
+    .filter(vis);
+  // With one control there is nothing to cycle between; wrapping it onto itself
+  // is what swallowed the key before. Let Tab leave instead.
+  if(focusable.length<2)return;
+  const i=focusable.indexOf(document.activeElement);
+  if(ev.shiftKey&&i===0){ev.preventDefault();focusable[focusable.length-1].focus();}
+  else if(!ev.shiftKey&&i===focusable.length-1){ev.preventDefault();focusable[0].focus();}
 });
 
 /* ---- Legend ---- */
