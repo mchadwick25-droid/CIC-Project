@@ -220,17 +220,24 @@ svg#world{display:block;overflow:visible}
    shared #tip element (same structure tipForStory already uses for the
    map's own floating stories), and again at the top once opened, rather
    than repeating every title as permanent on-card text. */
-#panel details.sources-panel{margin:.8rem 0 .3rem;border-top:1px solid var(--rule);
-  padding-top:.6rem}
-#panel details.sources-panel summary{cursor:pointer;font-family:"Alegreya Sans",sans-serif;
+#panel details.sources-panel,#panel details.record-panel{margin:.8rem 0 .3rem;
+  border-top:1px solid var(--rule);padding-top:.6rem}
+#panel details.sources-panel summary,#panel details.record-panel summary{cursor:pointer;
+  font-family:"Alegreya Sans",sans-serif;
   font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-leaf)}
-#panel details.sources-panel summary:focus-visible{outline:2px solid var(--gold-leaf);
+#panel details.sources-panel summary:focus-visible,
+#panel details.record-panel summary:focus-visible{outline:2px solid var(--gold-leaf);
   outline-offset:2px}
-#panel .docstories-row{display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0 .3rem}
-#panel details.docstory-item{margin:0}
-#panel details.docstory-item summary{cursor:pointer;list-style:none;display:inline-flex;
-  align-items:center;justify-content:center;width:2.3rem;height:2.1rem;
+#panel .docstories-row{display:block;margin:.6rem 0 .3rem}
+#panel details.docstory-item{margin:0 0 .45rem}
+#panel details.docstory-item summary{cursor:pointer;list-style:none;display:flex;
+  align-items:flex-start;gap:.55rem;padding:.55rem .65rem;
   background:var(--tyrian-wash);border:1px solid var(--rule);border-radius:4px}
+#panel .ds-glyph{flex:0 0 auto;line-height:1;padding-top:.2rem}
+#panel .ds-label b{display:block;font-family:"Alegreya",serif;font-size:.95rem;
+  font-weight:600;letter-spacing:0;text-transform:none}
+#panel .ds-label i{display:block;font-size:.85rem;color:var(--ink-faded);
+  margin-top:.15rem;font-style:italic;letter-spacing:0;text-transform:none}
 #panel details.docstory-item summary::-webkit-details-marker{display:none}
 #panel details.docstory-item summary:hover,#panel details.docstory-item[open] summary{border-color:var(--tyrian)}
 #panel details.docstory-item summary:focus-visible{outline:2px solid var(--gold-leaf);outline-offset:2px}
@@ -992,7 +999,7 @@ const DATA = {
    "to": "jerusalem-liturgical-pilgrimage-christianity",
    "type": "formed",
    "confidence": "Widely Accepted",
-   "note": "The Jerusalem entry begins in 325, where this one ends - Alexander's library and the province's episcopate are what Constantine's builders found there."
+   "note": "The Jerusalem entry begins in 325, where this one ends — Alexander's library and the province's episcopate are what Constantine's builders found there."
   },
   {
    "from": "palestinian-church-pre-constantinian",
@@ -1006,7 +1013,7 @@ const DATA = {
    "to": "danubian-latin-christianity",
    "type": "contemporary with",
    "confidence": "Documented",
-   "note": "Latin-speaking and roughly coeval, and nothing more than that - which is why shelving Victorinus in Africa was wrong."
+   "note": "Latin-speaking and roughly coeval, and nothing more than that — which is why shelving Victorinus in Africa was wrong."
   },
   {
    "from": "danubian-latin-christianity",
@@ -1076,7 +1083,7 @@ const DATA = {
    "to": "imperial-juridical-christianity",
    "type": "formed",
    "confidence": "Documented",
-   "note": "Lactantius carried the Latin apologetic argument into Constantine's household - he tutored Crispus at Trier - and his De Mortibus Persecutorum, written from inside the settlement, stays with that entry while the rest of him stays here."
+   "note": "Lactantius carried the Latin apologetic argument into Constantine's household — he tutored Crispus at Trier — and his De Mortibus Persecutorum, written from inside the settlement, stays with that entry while the rest of him stays here."
   },
   {
    "from": "early-benedictine-italian-monasticism",
@@ -41556,12 +41563,6 @@ function tipForRiver(f,count,minYear,maxYear){
 function tipForStory(s){
   return `<div class="n">${esc(s.title)}</div><div class="m">${esc(String(s.year))} · ${esc(s.region||'')}</div><div class="s">Story — not its own movement</div>`;
 }
-// Same tip structure as tipForStory above, for a movement's own documented
-// stories (title / when / verification) rather than a floating gap story
-// (title / year+region / "not its own movement").
-function tipForDocStory(s){
-  return `<div class="n">${esc(s.title)}</div><div class="m">${esc(s.when)}</div><div class="s">${esc(s.verification)}</div>`;
-}
 // The exact open-book glyph the map draws for its own floating stories
 // (see the gStories build loop), reused here as an inline icon so a
 // movement's own documented stories read as the same kind of object.
@@ -41651,7 +41652,7 @@ function openPanel(m){
   // for everything else -- is the hook every one of the 292 records was given.
   const lede=entry?entry.tile:m.teaser;
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
-  if(m.longDescription)h+='<h3>The Story</h3>'+m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
+  if(m.longDescription)h+=m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
   // Documented stories: 1-3 real, individually sourced narrative episodes
   // belonging to this movement specifically (not the map's floating gap
   // stories, and not a restatement of longDescription above) -- a deeper
@@ -41663,25 +41664,23 @@ function openPanel(m){
   // both matter -- conflating them was exactly what an earlier pass on this
   // map got right and the first gap-stories draft did not.
   if(m.documentedStories&&m.documentedStories.length){
-    h+='<h3>Documented stories</h3><div class="docstories-row">'+m.documentedStories.map((s,i)=>{
+    h+='<div class="docstories-row">'+m.documentedStories.map((s,i)=>{
       let body=`<p class="meta">${esc(s.when)} · ${esc(s.verification)}</p>`;
-      if(s.teaser)body+=`<p class="teaser">${esc(s.teaser)}</p>`;
       body+=`<p>${esc(s.text)}</p>`;
       if(s.caveat)body+=`<p class="caveat">${esc(s.caveat)}</p>`;
       if(s.sources&&s.sources.length)body+=s.sources.map(src=>{
         const work=src.url?`<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.work)}</a>`:esc(src.work);
         return `<div class="edge"><span class="k">${esc(src.type)}</span><br><b>${work}</b>${src.note?`<br>${esc(src.note)}`:''}</div>`;
       }).join('');
-      return `<details class="docstory-item" data-story-idx="${i}"><summary aria-label="${esc(s.title)}">${DOCSTORY_BOOK_SVG}</summary><div class="docstory"><h4>${esc(s.title)}</h4>${body}</div></details>`;
+      return `<details class="docstory-item" data-story-idx="${i}"><summary><span class="ds-glyph">${DOCSTORY_BOOK_SVG}</span><span class="ds-label"><b>${esc(s.title)}</b>${s.teaser?`<i>${esc(s.teaser)}</i>`:''}</span></summary><div class="docstory">${body}</div></details>`;
     }).join('')+'</div>';
   }
   if(m.voices&&m.voices.length)h+=`<h3>Voices</h3><ul class="voices">${m.voices.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`;
-  if(m.floorNote)h+=`<h3>Doctrinal floor note</h3><p>${esc(m.floorNote)}</p>`;
+  if(m.floorNote)h+=`<h3>On doctrine</h3><p>${esc(m.floorNote)}</p>`;
   if(m.legacy)h+='<h3>Legacy</h3>'+m.legacy.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.legacySources);
   if(m.experienceToday&&m.experienceToday.length)h+=`<h3>Experience it today</h3><ul class="exptoday">${m.experienceToday.map(e=>`<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text)}</a></li>`).join('')}</ul>`;
-  if(hasContent(m.relationsSummary))h+=`<h3>In its own record</h3><p><i>${esc(m.relationsSummary)}</i></p>`;
-  if(outbound.length){h+='<h3>Influenced / transmitted to</h3>';outbound.forEach(e=>{const t=byId[e.to];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}</div>`;});}
-  if(inbound.length){h+='<h3>Influenced by</h3>';inbound.forEach(e=>{const f=byId[e.from];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}</div>`;});}
+  if(outbound.length){h+='<h3>What it shaped</h3>';outbound.forEach(e=>{const t=byId[e.to];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}</div>`;});}
+  if(inbound.length){h+='<h3>What shaped it</h3>';inbound.forEach(e=>{const f=byId[e.from];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}</div>`;});}
   if(m.continuesAs&&byId[m.continuesAs])h+=`<h3>Continues as</h3><p>${esc(byId[m.continuesAs].shortName||byId[m.continuesAs].name)} — the same ongoing church, next window.</p>`;
   // Last on purpose: this is the "go deeper if you want" appendix, not
   // something to read past on the way to the record's own story -- it
@@ -41711,7 +41710,7 @@ function openPanel(m){
   // confidence shown in words whenever a placement isn't a plain
   // "assigned" -- the same discipline this page's edges already use.
   if(m.verifiedSources&&m.verifiedSources.length){
-    h+=`<h3>Full source registry</h3><p class="meta">${m.verifiedSources.length} vendored, rights-checked works assigned to this entry in the project's own source library — every claim the Representative makes traces back to this list.</p>`;
+    h+=`<h3>The full source list</h3><p class="meta">${m.verifiedSources.length} vendored, rights-checked works assigned to this entry in the project's own source library — every claim the Representative makes traces back to this list.</p>`;
     let curRole=null;
     m.verifiedSources.forEach(s=>{
       if(s.role!==curRole){curRole=s.role;h+=`<p style="font-variant:small-caps;letter-spacing:.05em;color:var(--tyrian);margin:.7rem 0 .1rem">${esc(s.roleLabel)}</p>`;}
@@ -41722,21 +41721,19 @@ function openPanel(m){
   // Very last, on purpose: this project's own plan for the tradition -- built,
   // chosen, deferred, excluded, or not yet assessed -- in plain participant
   // language, after everything the tradition's own record has said for itself.
-  if(m.why){
-    h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
-    if(entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
+  // The record talking about itself -- how it relates to its neighbours, and
+  // this project's own plan for it -- is reference, not the thing a visitor
+  // came for. Behind one disclosure. The Interview button stays outside it:
+  // on a built world it is the only action on the card.
+  if(hasContent(m.relationsSummary)||m.why){
+    h+='<details class="record-panel"><summary>About this entry</summary>';
+    if(hasContent(m.relationsSummary))h+=`<p><i>${esc(m.relationsSummary)}</i></p>`;
+    if(m.why)h+=`<p>${esc(m.why)}</p>`;
+    h+='</details>';
   }
+  if(m.why&&entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
   panelBody.innerHTML=h; showPanel(); hideTip();
   panelBody.querySelectorAll('[data-interview-id]').forEach(btn=>btn.addEventListener('click',()=>launchInterview(btn.dataset.interviewId)));
-  panelBody.querySelectorAll('.docstory-item').forEach(item=>{
-    const s=m.documentedStories[+item.dataset.storyIdx], summary=item.querySelector('summary'), tipHtml=tipForDocStory(s);
-    summary.addEventListener('mouseenter',ev=>showTip(ev,tipHtml));
-    summary.addEventListener('mousemove',positionTip);
-    summary.addEventListener('mouseleave',hideTip);
-    summary.addEventListener('focus',()=>{const r=summary.getBoundingClientRect();showTipAt(r.left+r.width/2,r.top,tipHtml);});
-    summary.addEventListener('blur',hideTip);
-    item.addEventListener('toggle',hideTip);
-  });
   syncWorldURL(m.id);
 }
 function openPanelStory(s){
