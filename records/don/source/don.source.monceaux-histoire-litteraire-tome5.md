@@ -24,6 +24,7 @@ author: Paul Monceaux
 work: 'Histoire litteraire de l''Afrique chretienne depuis les origines jusqu''a l''invasion arabe, Tome
   V: Saint Optat et les premiers ecrivains donatistes'
 edition: 'Paris: Ernest Leroux, 1920; vendored as cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
   by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
   vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by

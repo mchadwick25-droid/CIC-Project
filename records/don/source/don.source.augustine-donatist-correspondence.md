@@ -26,6 +26,7 @@ work: 'Donatist correspondence: Letters XXIII, XLIII, XLIV, LIII, LXXVI, LXXXVII
   CXXXIX, CLXXIII (11 letters)'
 edition: Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml;
   split from a 168-letter volume by its own div3 markup
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ as part of the shared patristic library since an
   earlier session, rights basis established there (the file's own provenance header states Public Domain)
   and not re-checked by this compilation pass.

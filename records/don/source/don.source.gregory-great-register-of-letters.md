@@ -20,6 +20,7 @@ author: Gregory the Great
 work: Register of Letters (590s correspondence concerning the North African church)
 edition: the complete Ewald-Hartmann critical edition (Registrum Epistolarum, Berlin, 1891) remains unvendored;
   a themed selection drawing directly from it is vendored at row 54's own file
+kind: unvendored
 rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
   directly checked the vendored file's own provenance header for every file cited below (grep for 'public
   domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC

@@ -18,6 +18,7 @@ author: F.C. Burkitt (ed.)
 work: The Book of Rules of Tyconius, Newly Edited from the MSS., Texts and Studies III/I (Cambridge University
   Press, 1894)
 edition: cic/texts/tyconius_liber-regularum_burkitt1894.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
   directly checked the vendored file's own provenance header for every file cited below (grep for 'public
   domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC
