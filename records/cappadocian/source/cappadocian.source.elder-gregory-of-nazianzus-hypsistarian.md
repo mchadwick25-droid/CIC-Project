@@ -19,6 +19,7 @@ work: The elder Gregory of Nazianzus' (bishop-father) biography and former Hypsi
   reported within his son's funeral oration
 edition: Within cappadocian.source.gregory-nazianzus-funeral-orations-caesarius-gorgonia-elder-gregory
   (NPNF207, row 38) -- no independent text
+kind: unvendored
 rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
   in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: attributed

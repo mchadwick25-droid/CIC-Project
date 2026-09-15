@@ -30,6 +30,7 @@ edition: No open edition acquired -- no open-license English translation of thes
   or elsewhere in this project's manifest (G1 manifest's own "Honest gaps" section, line 85). Not to be
   confused with the Hexaemeron homilies (a separate, correctly-vendored work) or On the Holy Spirit, both
   genuinely present in npnf208.
+kind: unvendored
 rights_status: not applicable -- no text is vendored or acquired to hold rights over; an eventual acquisition
   would need its own independent rights assessment.
 attribution_status: attributed

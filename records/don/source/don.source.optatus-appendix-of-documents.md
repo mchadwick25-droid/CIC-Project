@@ -26,6 +26,7 @@ work: 'Appendix of Documents (the anti-Donatist dossier): Acta Purgationis Felic
 edition: Within cic/texts/optatus_against-the-donatists.txt (the appendix printed with the 1917 Vassall-Phillips
   translation, mapped as Appendices I-XVI); a related but not confirmed-identical ten-document appendix
   stands in Ziwsa's critical edition (Registry row 38)
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
   by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
   vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by

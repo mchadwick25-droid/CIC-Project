@@ -18,6 +18,7 @@ author: The Council of Nicaea (325, collective conciliar record)
 work: Nicaea (325), subscription lists
 edition: No open edition of the subscription lists themselves located; attested via secondary literature
   rather than an acquired primary edition
+kind: unvendored
 rights_status: not independently verified this session; row not yet acquired as an open text -- named
   for completeness per the Source Registry's own checkpoint rule (every source a Doc_02 claim rests on
   gets a row, acquired or not).

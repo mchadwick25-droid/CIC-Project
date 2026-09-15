@@ -33,6 +33,7 @@ work: Patrologiae Cursus Completus, Series Latina, Tomus XI -- the volume bundli
   with a substantial Optatus/Donatism cluster, including the Gesta Collationis Carthaginiensis itself
   (col. 1223)
 edition: Paris, compiled 1840s-1850s; vendored as cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
   by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
   vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by

@@ -18,6 +18,7 @@ author: Michael Petschenig (ed.)
 work: Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51 and 53 (Vienna/Leipzig, 1908 and 1910)
 edition: 'Michael Petschenig (ed.), Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51 and 53
   (Vienna: Tempsky / Leipzig: Freytag, 1908 and 1910), vendored as cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
   directly checked the vendored file's own provenance header for every file cited below (grep for 'public
   domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC

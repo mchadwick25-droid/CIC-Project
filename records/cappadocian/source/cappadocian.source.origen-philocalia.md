@@ -17,6 +17,7 @@ relations: []
 author: Origen (anthologized text); traditionally compiled by Basil of Caesarea and Gregory of Nazianzus
 work: The Philocalia, the Origen anthology traditionally compiled by Basil and Nazianzen
 edition: Lewis' 1911 translation, vendored (for the Alexandria world, 2026-08-21) as cic/texts/origen_philocalia_lewis1911.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
   in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: contested (the traditional Basil-Nazianzen compiling attribution is now Contested

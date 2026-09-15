@@ -20,6 +20,7 @@ work: "De Mysteriis (On the Mysteries) - a catechetical treatise on baptism, con
   Eucharist, addressed to the newly baptized, probably delivered c. 387"
 edition: "trans. H. de Romestin, Nicene and Post-Nicene Fathers series 2 vol. 10 (1896), vendored as
   cic/texts/npnf210_ambrose-select-works-letters.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "located at review (Opus canon-structure pass, 2026-08-21) inside the already-vendored

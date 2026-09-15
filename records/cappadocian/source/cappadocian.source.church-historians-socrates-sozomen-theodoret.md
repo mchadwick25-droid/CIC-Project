@@ -19,6 +19,7 @@ work: The church historians' Ecclesiastical Histories -- secondary narrative sou
   own voice, all fifth-century, all outside the c. 394 horizon
 edition: Socrates and Sozomen vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml;
   Theodoret vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
   in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: attributed

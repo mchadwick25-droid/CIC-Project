@@ -19,6 +19,7 @@ work: Jerome, De viris illustribus (392) -- the earliest external catalogue of w
   both Gregorys, and Amphilochius' names
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 3 (Theodoret, Jerome, Gennadius, Rufinus), ed.
   Schaff, vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
   in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: attributed

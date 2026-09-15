@@ -20,6 +20,7 @@ work: Gregory of Nyssa, In XL Martyres II (Emmelia's role in acquiring and enshr
 edition: Confirmed absent from the vendored npnf205 -- independently confirmed by a direct text search
   of cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt (zero occurrences of 'Forty Martyrs' or 'XL
   Martyres')
+kind: vendored
 rights_status: not independently verified this session; row not yet acquired as an open text -- named
   for completeness per the Source Registry's own checkpoint rule (every source a Doc_02 claim rests on
   gets a row, acquired or not).

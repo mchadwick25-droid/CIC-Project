@@ -19,6 +19,7 @@ relations: []
 author: The Council of Carthage (419) and the African episcopate whose earlier canons it compiles
 work: The Code of Canons of the African Church (Council of Carthage, 419)
 edition: Nicene and Post-Nicene Fathers, Series II, vol. XIV, vendored as cic/texts/npnf214_seven-ecumenical-councils.xml
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ as part of the shared patristic library since an
   earlier session, rights basis established there (the file's own provenance header states Public Domain)
   and not re-checked by this compilation pass.

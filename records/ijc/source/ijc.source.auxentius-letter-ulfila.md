@@ -16,6 +16,7 @@ sources: []
 author: "Auxentius of Durostorum (later, on the dominant scholarly identification, the Homoian bishop of Milan confronted by Ambrose in 386 under his predecessor's own name - see ijc.figure.ambrose), foster-son and pupil of Ulfila"
 work: "Letter on the life and faith of Ulfila - the one substantial piece of near-primary Homoian SELF-testimony available to this world's registry; preserved fragmentarily within the Dissertatio Maximini contra Ambrosium (Maximinus, a Homoian bishop writing against Ambrose), as marginal scholia later partly erased, in a single manuscript (Paris lat. 8907), recovered by modern paleographic work"
 edition: "no public-domain English translation exists (the standard modern translation, Heather & Matthews 1991, is in copyright and never vendored); the Latin text is cited from the scholarship - this record anchors the fragment's existence and character, and licenses NO quotation"
+kind: unvendored
 rights_status: "referenced-only; no vendorable public-domain English edition (fails closed for quotation)"
 attribution_status: attributed-fragmentary
 discovery_channel: "carried from the legacy Source Registry (row 23, Confidence C, flagged for priority second-opinion review); English-translation search recorded at ijc.search.auxentius-ulfila-english (not_found)"
