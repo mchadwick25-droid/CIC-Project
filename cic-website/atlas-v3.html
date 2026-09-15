@@ -239,13 +239,12 @@ svg#world{display:block;overflow:visible}
    shared #tip element (same structure tipForStory already uses for the
    map's own floating stories), and again at the top once opened, rather
    than repeating every title as permanent on-card text. */
-#panel details.sources-panel,#panel details.record-panel{margin:.8rem 0 .3rem;
+#panel details.sources-panel{margin:.8rem 0 .3rem;
   border-top:1px solid var(--rule);padding-top:.6rem}
-#panel details.sources-panel summary,#panel details.record-panel summary{cursor:pointer;
+#panel details.sources-panel summary{cursor:pointer;
   font-family:"Alegreya Sans",sans-serif;
   font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-leaf)}
-#panel details.sources-panel summary:focus-visible,
-#panel details.record-panel summary:focus-visible{outline:2px solid var(--gold-leaf);
+#panel details.sources-panel summary:focus-visible{outline:2px solid var(--gold-leaf);
   outline-offset:2px}
 #panel .docstories-row{display:block;margin:.6rem 0 .3rem}
 #panel details.docstory-item{margin:0 0 .45rem}
@@ -41732,7 +41731,7 @@ function openPanel(m){
   // map got right and the first gap-stories draft did not.
   if(m.documentedStories&&m.documentedStories.length){
     h+='<div class="docstories-row">'+m.documentedStories.map((s,i)=>{
-      let body=`<p class="meta">${esc(s.when)} · ${esc(s.verification)}</p>`;
+      let body=`<p class="meta">${esc(s.when)}</p>`;
       body+=`<p>${esc(s.text)}</p>`;
       if(s.caveat)body+=`<p class="caveat">${esc(s.caveat)}</p>`;
       if(s.sources&&s.sources.length)body+=s.sources.map(src=>{
@@ -41743,7 +41742,6 @@ function openPanel(m){
     }).join('')+'</div>';
   }
   if(m.voices&&m.voices.length)h+=`<h3>Voices</h3><ul class="voices">${m.voices.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`;
-  if(m.floorNote)h+=`<h3>On doctrine</h3><p>${esc(m.floorNote)}</p>`;
   if(m.legacy)h+='<h3>Legacy</h3>'+m.legacy.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.legacySources,'legacy');
   if(m.experienceToday&&m.experienceToday.length)h+=`<h3>Experience it today</h3><ul class="exptoday">${m.experienceToday.map(e=>`<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text)}</a></li>`).join('')}</ul>`;
   if(outbound.length){h+='<h3>What it shaped</h3>';outbound.forEach(e=>{const t=byId[e.to];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}</div>`;});}
@@ -41761,7 +41759,6 @@ function openPanel(m){
   if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){
     const sourcesLabel=m.sources&&m.sources.length?`Sources (${m.sources.length})`:'Sources';
     h+=`<details class="sources-panel"><summary>${sourcesLabel}</summary>`;
-    if(hasContent(m.sourcing))h+=`<p>${esc(m.sourcing)}</p>`;
     if(m.sources&&m.sources.length)h+=m.sources.map(s=>{
       const work=s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.work)}</a>`:esc(s.work);
       return `<div class="edge"><span class="k">${esc(s.type)}</span><br><b>${work}</b>${s.note?`<br>${esc(s.note)}`:''}</div>`;
@@ -41777,7 +41774,7 @@ function openPanel(m){
   // confidence shown in words whenever a placement isn't a plain
   // "assigned" -- the same discipline this page's edges already use.
   if(m.verifiedSources&&m.verifiedSources.length){
-    h+=`<h3>The full source list</h3><p class="meta">${m.verifiedSources.length} vendored, rights-checked works assigned to this entry in the project's own source library — every claim the Representative makes traces back to this list.</p>`;
+    h+='<h3>The full source list</h3>';
     let curRole=null;
     m.verifiedSources.forEach(s=>{
       if(s.role!==curRole){curRole=s.role;h+=`<p style="font-variant:small-caps;letter-spacing:.05em;color:var(--tyrian);margin:.7rem 0 .1rem">${esc(s.roleLabel)}</p>`;}
@@ -41788,16 +41785,10 @@ function openPanel(m){
   // Very last, on purpose: this project's own plan for the tradition -- built,
   // chosen, deferred, excluded, or not yet assessed -- in plain participant
   // language, after everything the tradition's own record has said for itself.
-  // The record talking about itself -- how it relates to its neighbours, and
-  // this project's own plan for it -- is reference, not the thing a visitor
-  // came for. Behind one disclosure. The Interview button stays outside it:
-  // on a built world it is the only action on the card.
-  if(hasContent(m.relationsSummary)||m.why){
-    h+='<details class="record-panel"><summary>About this entry</summary>';
-    if(hasContent(m.relationsSummary))h+=`<p><i>${esc(m.relationsSummary)}</i></p>`;
-    if(m.why)h+=`<p>${esc(m.why)}</p>`;
-    h+='</details>';
-  }
+  // The record's note on itself and this project's plan for the tradition are
+  // the system describing its own workings. They stay in the census, where the
+  // build process needs them, and off the card. What a Representative cannot
+  // speak to is for the Representative to say, in conversation.
   panelBody.innerHTML=h; showPanel(); hideTip(); setPanelCta(m,entry);
   panelBody.querySelectorAll('[data-interview-id]').forEach(btn=>btn.addEventListener('click',()=>launchInterview(btn.dataset.interviewId)));
   syncWorldURL(m.id);
