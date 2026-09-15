@@ -102,7 +102,7 @@ source for each or remove the tag before either is carried into runtime vocabula
 
 ## OG-5. Doc_03: a recurring coverage-claim defect, escalated to the project lead after a fifth consecutive round found it — not self-disposed by the build thread
 
-**Status: ESCALATED, 2026-09-15. Awaiting Mark's direction. Doc_03 remains DRAFT, Revision 4 — no further self-directed revision on this item until Mark responds.**
+**Status: RESOLVED, 2026-09-15. The project lead's direction: "go with option 1."** The reconciliation pass this entry's own §-below describes was carried out at Doc_03 Revision 5: all four locations where "read"/"now read"/"in full" claims appear (§11 item 2, §11 item 8, §12, §13's discovery table) were reconciled against each other and against the vendored files directly, with §11 item 2's Large Catechism entry rebuilt as the complement of §13's own declared ranges rather than maintained independently — specifically closing R5-1 (the Registry-bound AC overclaim in §11 item 8) and R5-2 (the Large Catechism's First Commandment, Lord's Prayer and Baptism gaps). See Doc_03 §13's "Round 5 fixes applied, this revision (Revision 5)" entry for the full fix log. **This entry is kept, not deleted, per the append-only discipline** — it remains the durable record of why the escalation happened and what was found, even though the immediate decision point is closed. Whether the reconciliation pass itself holds up under independent review is Round 6's question, not decided here.
 
 Doc_03's review chain (Rounds 1–5, all saved at `witt_Doc03_Review_RoundN.md`) found the
 same defect class recurring five times running: a statement that a named structural unit
