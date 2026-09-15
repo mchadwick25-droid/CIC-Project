@@ -2,7 +2,7 @@
 
 ## Latin Pastoral-Congregational Christianity
 
-**Status: REVISED after Round 7 — the revision is unreviewed, and not self-disposed.** Seven independent adversarial review rounds have been run; `lpc_Story_Index.md` derives its own copy of that count by reading `Review-Artifacts/`.
+**Status: REVISED after Round 8 — the revision is unreviewed, and not self-disposed.** Eight independent adversarial review rounds have been run, **the most recent returning MINOR REVISION with no HIGH finding**; `lpc_Story_Index.md` derives its own copy of that count by reading `Review-Artifacts/`.
 **World file-code:** `lpc` · **Drafted:** 2026-09-15
 **Companion deliverables:** `Story-Chunks/` (one file per story) and `lpc_Story_Index.md` (generated).
 
