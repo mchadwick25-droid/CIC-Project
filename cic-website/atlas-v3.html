@@ -192,8 +192,16 @@ svg#world{display:block;overflow:visible}
 .sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;
   overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
 #panel.open{transform:translateX(0)}
-#panel .close{position:sticky;top:0;float:right;background:var(--vellum);border:none;
-  font-size:1.3rem;color:var(--ink-faded);cursor:pointer;line-height:1;padding:.2rem}
+/* A full-width sticky strip rather than a floating square. Sticky-positioned
+   on its own, the close button covered whatever scrolled beneath it — a long
+   heading would run half under it and stop there. Content now passes under a
+   header, which is what it looks like. */
+#panelBar{position:sticky;top:0;z-index:3;display:flex;justify-content:flex-end;
+  margin:-1.2rem -1.3rem .1rem;padding:.45rem 1.1rem .35rem;
+  background:var(--vellum);border-bottom:1px solid transparent}
+#panelBar.scrolled{border-bottom-color:var(--rule)}
+#panel .close{background:none;border:none;font-size:1.3rem;color:var(--ink-faded);
+  cursor:pointer;line-height:1;padding:.2rem .4rem}
 #panel h2{font-family:"Alegreya",serif;font-size:1.3rem;margin:.2rem 0 .1rem}
 #panel .meta{font-style:italic;color:var(--ink-faded);font-size:.88rem;margin:0 0 .8rem}
 #panel .statuspill{display:inline-block;font-family:"Alegreya Sans",sans-serif;
@@ -378,7 +386,7 @@ svg#world{display:block;overflow:visible}
      display:none, so without this its close button and last-rendered links stayed
      real Tab stops -- a keyboard user tabbing through the closed page would land on
      an invisible control that appeared to do nothing. -->
-<div id="panel" role="dialog" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div><div id="panelCta" hidden></div></div>
+<div id="panel" role="dialog" aria-labelledby="panelTitle" tabindex="-1" inert><div id="panelBar"><button class="close" id="panelClose" aria-label="Close">&times;</button></div><div id="panelBody"></div><div id="panelCta" hidden></div></div>
 <div id="legend"></div>
 <div id="zoomHint">Scroll or pinch to zoom &middot; drag to pan</div>
 
@@ -41883,6 +41891,8 @@ function hideTip(){tip.style.display='none';}
 /* ---- Side panel (click = full) ---- */
 const panel=document.getElementById('panel'), panelBody=document.getElementById('panelBody');
 const panelCta=document.getElementById('panelCta');
+const panelBar=document.getElementById('panelBar');
+panel.addEventListener('scroll',()=>panelBar.classList.toggle('scrolled',panel.scrollTop>4),{passive:true});
 let ctaCleanup=null;
 // Shown only while the in-flow Interview button is scrolled out of the panel.
 // Every other panel view (a story, an edge, a river) clears it.
