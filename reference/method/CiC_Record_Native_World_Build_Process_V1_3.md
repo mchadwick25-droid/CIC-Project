@@ -1,4 +1,13 @@
-# CiC Record-Native World Build Process — V1.4 (2026-09-04)
+# CiC Record-Native World Build Process — V1.5 (2026-09-15)
+
+**V1.5 change (Library Access Gate, increment 10, "E's free half,"
+2026-09-15):** the Cross-world source layer section's own
+`corpus_index.py --entry <census_id>` pointer (added 2026-09-02, scoped
+to Doc_02) is generalized to a standing rule — see the new paragraph at
+the end of that section. It is the confinement design's own free half:
+the tool it names was already correctly scoped and already existed;
+this only widens which steps a session is told to use it at. No other
+content changed from V1.4.
 
 **V1.4 change (Cross-System Analysis thread finding, 2026-09-04, Mark's
 go-ahead to proceed with documentation and gate work while the fleet-wide
@@ -219,6 +228,22 @@ world's registry — corpus-map assignment and a Source Registry row are
 different questions (shared custody of a text vs. this world's own
 argued use of it). It replaces re-discovering, by hand, what six other
 build threads already found.
+
+**This is the way a session reads the library, at any step, not only
+Doc_02 (Library Access Gate, increment 10, 2026-09-15).** `python
+cic/engine/corpus_index.py "TERM" --entry <census_id> --limit N` is the
+one search path a build session uses whenever it needs to find or check
+something in `cic/texts/` — Doc_04 checking a claim, Doc_09 sourcing a
+story, a revision round re-verifying a quote — the same tool and the
+same `--entry` scoping named above for Doc_02, not a separate practice
+for later steps. It already reads only the files this world's own
+corpus-map bucket assigns (`corpus_index.py::files_for_entry`); reaching
+past it to browse `cic/texts/` unscoped is an off-shelf read, the thing
+`engine/m9`'s confinement gate exists to catch downstream. The one
+narrow, logged exception is Q5's build-time absence check (confirming a
+`kind: absence` source record's claim that a passage is genuinely
+missing from a specific named file) — never a substitute for scoped
+search as the everyday way of finding material.
 
 ---
 

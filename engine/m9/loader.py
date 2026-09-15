@@ -74,6 +74,28 @@ def read_units(bucket_rows: list[dict], records: dict) -> dict[str, str]:
     return units
 
 
+def read_complement_units(shelf: Shelf) -> dict[str, str]:
+    """Every vendored file NOT on this world's own shelf, normalized - the
+    off-shelf population `cli.py`'s report command checks quoted
+    voice-prose against (increment 10, `complement-verbatim`). Approximates
+    Q7-I5's own measured methodology ("every other bucket's own files") as
+    "every vendored file minus this world's own shelf files" instead - a
+    superset (it also catches a vendored file no bucket claims yet), and
+    the more conservative direction for a confinement check to err toward.
+    Not part of `load_shelf()`/`Shelf` itself: report-only, never
+    serialized, and expensive enough (up to ~90 files) that a caller who
+    doesn't need it shouldn't pay for it."""
+    complement_files = shelf.vendored_files - shelf.files.keys()
+    units: dict[str, str] = {}
+    for filename in sorted(complement_files):
+        path = TEXTS_DIR / filename
+        if not path.is_file():
+            continue
+        parts = passage_units(path)
+        units[filename] = " ".join(u["text"] for u in parts)
+    return units
+
+
 def load_shelf(*, world_key: str, census_id: str, records: dict) -> Shelf:
     """The convenience composition of the pieces above - what cli.py's
     report/shelf commands use. selftest.py calls the pieces directly
