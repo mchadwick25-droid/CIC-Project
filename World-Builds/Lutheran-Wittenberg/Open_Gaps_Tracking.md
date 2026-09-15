@@ -100,4 +100,53 @@ governments/kingdoms) rest on in-text evidence and the drafting pass's own judgm
 no secondary source yet rowed in the Registry for either contest — Doc_06 should row a
 source for each or remove the tag before either is carried into runtime vocabulary.
 
----
+## OG-5. Doc_03: a recurring coverage-claim defect, escalated to the project lead after a fifth consecutive round found it — not self-disposed by the build thread
+
+**Status: ESCALATED, 2026-09-15. Awaiting Mark's direction. Doc_03 remains DRAFT, Revision 4 — no further self-directed revision on this item until Mark responds.**
+
+Doc_03's review chain (Rounds 1–5, all saved at `witt_Doc03_Review_RoundN.md`) found the
+same defect class recurring five times running: a statement that a named structural unit
+of a vendored source (an article, a sermon, a preface, a commandment's exposition) had been
+"read in full" or "now read," when in fact only part of it had been. Each fix closed the
+specific instance found and, from Round 3 on, progressively widened its own scope — one
+item, then one list, then a full audit of that one list — but never once scoped itself to
+the *claim type* wherever it occurs in the document. Round 5 confirmed that Round 4's full
+re-derivation of §12's "read in full" list was itself completely accurate (all twelve
+boundaries and all seven "read in part" items independently reproduced against the vendored
+files), but found the identical claim type surviving in two places outside §12: §11 item 8
+still proposes "AC Articles IV–XXVIII in full, now read" as a Verification-Note extension
+for `witt_Source_Registry.md` (an APPROVED TO PROCEED, append-only canonical surface — the
+one place this defect class has a live route out of Doc_03 and into another document), and
+the Large Catechism's First Commandment exposition is 57% unread (LC 521–680) with the gap
+named nowhere in §11 item 2's own unread-sections list.
+
+**In every one of the five rounds, the defect has been confined to coverage/warrant
+statements — what the document claims was read — never to a misquotation, a miscited locus,
+a miscount, or a misclassified entry.** No citation anywhere in Doc_03 depends on any of the
+unread material found across all five rounds; this has been independently re-verified at
+every round. The lexicon content itself has not been shown to be wrong at any point in this
+chain.
+
+**Why this is escalated rather than fixed a sixth time by the build thread:** Doc_03's own
+Revision 4 escalation check stated the threshold explicitly and in advance — "if a fifth
+round finds a further instance, that would be the kind of 'unresolved tension the pipeline
+can't close on its own' this discipline's fourth escalation category names, and should be
+raised directly rather than met with a sixth patch." Round 5 found exactly that. Round 5's
+own root-cause section diagnoses why: three consecutive fixes were each scoped to where the
+last finding landed (one item → one list → one section) rather than to the claim type
+itself, and a sixth patch scoped the same way would very plausibly repeat the pattern in a
+fourth location.
+
+**What Round 5 itself recommends, offered here as the option to weigh, not a decision made
+for Mark:** a single pass that enumerates every "read"/"in full"/"now read" claim across all
+four locations where the claim type appears (§11 item 2, §11 item 8, §12, §13's discovery
+table), re-derives each against the vendored files, and reconciles the four against each
+other — with §11 item 2's unread-sections list rebuilt as the complement of the declared
+read ranges, rather than maintained as an independently-written list, since that is
+specifically where both of Round 5's findings were hiding. Round 5's own "What a Round 6
+check should and should not do" section notes that none of the already-verified boundaries
+need re-deriving a third time — only the reconciliation across locations is unverified.
+
+**Also relevant, not itself part of this escalation:** OG-2 (the ~40 inline review-history
+markers) remains a separate, already-disclosed precondition on Doc_03 reaching "Approved to
+proceed," unaffected by this entry.
