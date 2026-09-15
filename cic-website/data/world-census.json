@@ -3362,6 +3362,25 @@
      "note": "The imperial legal record, including the 412 fine naming the circumcellions by name and the 405 Edict of Unity that outlawed this communion's own rebaptism."
     }
    ],
+   "doctrineNote": "Nearly all of this is stated in the words of the church that opposed it. The exception is the Conference of Carthage in 411, where these bishops argued their own case for three days onto an open transcript.",
+   "doctrine": [
+    {
+     "title": "A tainted hand gives nothing",
+     "detail": "Whether a sacrament is real turns on the man whose hands gave it, and on whether those hands had stayed clean. An ordination from a bishop who had surrendered the Scriptures under persecution conveyed nothing, and everything it touched had to be done over."
+    },
+    {
+     "title": "Rebaptism, once and for all",
+     "detail": "Anyone crossing from the rival church was baptized again rather than simply received. Cappadocian Christianity faced the same question about readmission and answered it the opposite way."
+    },
+    {
+     "title": "No emperor may rule on which church is true",
+     "detail": "This communion denied any emperor standing to judge the church — and appealed to Constantine in 313, to Julian in 361, and, in the 390s, against its own Maximianist breakaway."
+    },
+    {
+     "title": "The Creed was never what was in dispute",
+     "detail": "It held the same Nicene faith as the church it had split from. The quarrel was over who could validly give what the church gives, and never over the Trinity or Christ's divinity."
+    }
+   ],
    "voices": [
     "Donatus succeeded Majorinus as bishop of Carthage around 313 and led this communion for over three decades, long enough that it took his name. Almost nothing he wrote survives; his one famous line — what has the emperor to do with the church? — reaches us only because the bishop who opposed him quoted it in order to answer it.",
     "Petilian, bishop of Constantina from the 390s, is this communion's fullest surviving voice, and its most mediated one: his letters exist only as clauses Augustine quoted in order to refute them. At the Conference of Carthage in 411 he spoke on an open transcript instead, refusing the judge's offered chair because Christ himself had stood before a governor.",
@@ -4546,6 +4565,24 @@
    "entry": null,
    "longDescription": "Antioch was one of the largest cities of the Roman East, and between about 350 and 430 the Christianity that grew there developed a distinctive habit of reading. Alexandria hunted for the spiritual sense hidden beneath the text. Antioch's teachers insisted instead on what the words actually said in their own historical setting, and then pressed hard on what that demanded of the people in front of them.\n\nJohn Chrysostom was trained in rhetoric by the pagan orator Libanius and in Scripture by Diodore of Tarsus. In the 380s and 390s he preached in Antioch to congregations of tradesmen, householders and slaves. He spoke on money, on anger, on the treatment of servants, on the theatre and the racetrack, and on almsgiving as a matter of justice rather than generosity. In 387 the crowds of the city smashed the imperial statues, and Antioch waited to learn whether it would be destroyed in reprisal. To a terrified population he preached the sermons On the Statues.\n\nThe reason hundreds of his sermons survive at all is largely that people wanted to hear them again. At the end of 397 he was taken to Constantinople and made its archbishop. There he preached to the imperial court as he had preached to shopkeepers, which is roughly why he died in exile in 407.",
    "teaser": "John Chrysostom preached to the tradesmen and slaves of Antioch about money, anger and the racetrack, and what the plain text asked of them. His school read a text for what it said in its own time, where Alexandria looked beneath it for hidden meaning, and would not allegorize the hard sayings away. Constantinople made him archbishop; preaching the same way there ended in exile and death in 407.",
+   "doctrine": [
+    {
+     "title": "A passage means what it meant when it was written",
+     "detail": "Read a passage for the historical setting its words were spoken in, rather than for a spiritual sense lying hidden beneath them."
+    },
+    {
+     "title": "Do not allegorize the hard sayings away",
+     "detail": "Where Alexandria went beneath a difficult passage to find another meaning in it, this school let the difficulty stand and made the reader answer to it."
+    },
+    {
+     "title": "A reading is not finished until it costs something",
+     "detail": "Having settled what the words said, the teacher pressed hard on what that demanded of the particular people sitting in front of him."
+    },
+    {
+     "title": "Almsgiving is justice, not generosity",
+     "detail": "Chrysostom preached about money and about anger, about how servants were treated, about the theatre and the racetrack — and about giving as something owed rather than as a kindness."
+    }
+   ],
    "voices": [
     "John Chrysostom preached to tradesmen, householders and slaves in Antioch through the 380s and 390s, and hundreds of those sermons survive because people asked to hear them again. ‘Golden-mouthed’ was not his name in his lifetime; later generations gave it to him.",
     "Diodore of Tarsus taught Chrysostom how to read, and the habit he passed on was to ask what a passage meant to the people who first heard it. That is the whole difference between this school and Alexandria, and it is Diodore's more than anyone's.",
@@ -4598,6 +4635,24 @@
    ],
    "longDescription": "Cyril of Alexandria had used a formula against Nestorius: one incarnate nature of the Word, a single united reality rather than two things described side by side. In 451, twenty years later, the Council of Chalcedon defined Christ as one person 'in two natures.' The Egyptian church largely refused the wording. It did not think Christ any less than fully God or fully human. It held to the formula it had been taught to fight for.\n\nTo Egyptian ears the language of Chalcedon sounded like pulling Christ apart again. To Chalcedon's supporters, the Egyptian refusal sounded like collapsing his humanity. The council deposed the Alexandrian patriarch Dioscorus, and imperial authority backed the Chalcedonian side.\n\nEgypt was left with two rival hierarchies. One was favoured by Constantinople. The other was the one most Egyptian Christians actually followed, and it worshipped increasingly in Coptic rather than Greek. Out of that separation came the Coptic Orthodox Church, and the wider family of churches that made the same refusal. They chose separation over surrendering the words.",
    "teaser": "The church of Egypt kept to the words Cyril of Alexandria had fought Nestorius with, and would not give them up. When Chalcedon in 451 called Christ one person 'in two natures,' Egyptian ears heard Christ being pulled apart again, and the church there largely refused the wording. The council deposed its patriarch, the empire backed the other side, and Egypt went its own way as a separate communion.",
+   "doctrine": [
+    {
+     "title": "One incarnate nature of the Word",
+     "detail": "Cyril's formula against Nestorius, and the standard this church took as its own: Christ is one thing, not two realities set alongside each other and described in turn."
+    },
+    {
+     "title": "Fully God and fully human, all the same",
+     "detail": "Refusing Chalcedon's wording was never a claim that Christ is any less than fully God or fully human. Collapsing his humanity was the charge against this position, not the position."
+    },
+    {
+     "title": "The objection was to the formula, not the faith",
+     "detail": "What Egypt refused at Chalcedon was a form of words — Christ as one person 'in two natures' — and not the content of the Creed itself."
+    },
+    {
+     "title": "Better separated than re-worded",
+     "detail": "Offered communion on the council's terms, with imperial authority behind them, this church took a separate hierarchy instead. The words it had been taught to fight for were not tradeable."
+    }
+   ],
    "voices": [
     "Cyril of Alexandria beat Nestorius at Ephesus in 431 with a formula that made Christ one thing and not two placed alongside each other. Twenty years on, the church of Egypt was still holding the words he had won with, which is how a victory turned into a boundary.",
     "Dioscorus succeeded Cyril, and at Chalcedon in 451 the council deposed him. The Coptic Church has honoured him as a confessor ever since, so the same man stands in one communion's records as a deposed patriarch and in another's as a witness under pressure.",
@@ -4741,6 +4796,20 @@
    "entry": null,
    "longDescription": "Aquileia stood at the head of the Adriatic, where the roads from Italy, the Danube and the Balkans met. In the fourth century it was among the largest cities of the empire and among the more consequential churches of the West. Its basilica floor mosaics from the 310s are still there.\n\nIn the 370s a group of young ascetics gathered in the city. Jerome afterwards remembered them as a chorus of the blessed, and he was one of them. So was Rufinus of Concordia, and thirty years later the two men were no longer friends. In 381 Ambrose came up from Milan and presided over a council at Aquileia that deposed the last two Homoian bishops of the Danube provinces.\n\nRufinus came back to Italy and, in about 404, sat down and wrote out the creed his church used at baptism, explaining it line by line for people about to say it. That is why anyone knows what the Aquileian creed said. It called the Father invisible and impassible where Rome's did not. It already contained the clause about the descent into hell, and Rufinus points out, a little pointedly, that the Roman creed does not have it. It is the earliest evidence that the West had more than one baptismal creed.",
    "teaser": "In about 404 Rufinus of Concordia, home in Italy after decades in Egypt and Palestine, wrote a commentary on the creed his church at Aquileia used at baptism. It is the only reason anyone knows the Western churches did not all say the same words at the font. Jerome had shared the city with him in the 370s; their friendship ended in the bitterest literary quarrel the Latin church produced.",
+   "doctrine": [
+    {
+     "title": "The Father is invisible and impassible",
+     "detail": "Aquileia's own baptismal creed said so at the font, where the creed used at Rome did not. Rufinus expounds the difference clause by clause."
+    },
+    {
+     "title": "Christ descended into hell",
+     "detail": "The clause every later Western version carries is first attested in this church's creed, and Rufinus notes that the Roman creed does not have it."
+    },
+    {
+     "title": "The West did not all say the same words at the font",
+     "detail": "This is the earliest evidence that there was more than one baptismal creed in the Latin church, and that a provincial one could differ from Rome's and know that it did."
+    }
+   ],
    "voices": [
     "Rufinus of Concordia was a monk at Aquileia who spent decades in Egypt and Palestine before coming home about 404 to set down his own church's baptismal creed and explain it clause by clause. Much of Origen reached Latin readers only because Rufinus translated him.",
     "Chromatius was bishop from 388, and he paid for the translation work of both Rufinus and Jerome. He backed both men before they turned on each other, and a good deal of what the Latin West later read came out of work he was paying for.",
@@ -4783,6 +4852,20 @@
    "entry": null,
    "longDescription": "Constantius II wanted a single creed his bishops would all sign. In 356 he exiled the bishop of Poitiers to Phrygia for refusing to condemn Athanasius, and it was a miscalculation. Hilary spent four years in the Greek-speaking East, learning the eastern debates from the inside. He wrote back to the Gallic bishops to explain them in De Synodis, a patient account of what the eastern creeds actually said and where they could and could not be met. He also wrote De Trinitate, the major Latin answer to Arianism.\n\nHe was allowed home around 360. At a council in Paris the Gallic church then repudiated the Homoian creed that had been imposed on it at Ariminum. Hilary went on to attack Auxentius, the Homoian bishop of Milan, with less success. He died in 367.\n\nThe province he left behind was securely Nicene and Latin, and it now had a theological vocabulary it had not had before. A young ex-soldier named Martin, whom Hilary had ordained, was already living as a monk at Ligugé.",
    "teaser": "In 356 the emperor Constantius II exiled Hilary, bishop of Poitiers, to Phrygia because he would not condemn Athanasius. Constantius wanted one creed every bishop would sign; Hilary spent his exile learning the eastern debates from inside, and came home to a province that repudiated the Homoian creed at Paris. He wrote the longest anti-Arian book in Latin, failed to dislodge the Homoian bishop of Milan, and died in 367.",
+   "doctrine": [
+    {
+     "title": "No emperor writes the creed",
+     "detail": "Constantius II wanted one formula that every bishop in the empire would put his name to. At a council in Paris this province repudiated the Homoian creed that had been imposed on it at Ariminum."
+    },
+    {
+     "title": "The Trinity, argued at length and in Latin",
+     "detail": "Hilary's De Trinitate is the major Latin answer to Arianism, and it left the Western church a set of terms for the doctrine that it had not previously possessed."
+    },
+    {
+     "title": "Read the other side before refusing it",
+     "detail": "In De Synodis Hilary set out the eastern creeds for the Gallic bishops patiently: what they actually said, and where they could and could not be met."
+    }
+   ],
    "voices": [
     "Hilary of Poitiers refused to condemn Athanasius and was exiled to Phrygia for it, which gave him four years to learn the Greek debates at first hand. He wrote the longest answer to Arianism that Latin had, and the bishops he corresponded with are known mostly through what he said about them.",
     "Constantius II wanted one creed that every bishop in the empire would sign, and exiling Hilary was his way of getting it. The exile sent Hilary to the people who understood the argument best, and he came back able to explain it to Gaul.",
@@ -4876,6 +4959,17 @@
    "entry": null,
    "longDescription": "Priscillian was a Spanish layman who in the 370s began teaching a severe ascetic Christianity in the western provinces. It meant fasting, celibacy, and retreat to the countryside for study and prayer. It meant lay men and women reading Scripture together outside the supervision of the bishops. It spread fast enough to alarm the Spanish and Gallic bishops, who condemned the movement at a council in Saragossa around 380.\n\nHis supporters responded by making him bishop of Ávila. His opponents accused him of Manichaeism and sorcery and carried the case to the imperial court. Around 385, at Trier, the usurping emperor Magnus Maximus had Priscillian and several companions tried and put to death. So far as anyone can tell, no Christian state had executed Christians over belief before.\n\nIt shocked people at the time. Martin of Tours and Ambrose of Milan both objected to churchmen taking a doctrinal quarrel to an executioner. The case had gone from a council of bishops to an emperor, and from an emperor to an executioner. The bishops who had pressed the charges were disgraced for it.",
    "teaser": "Priscillian, a Spanish layman, taught a severe asceticism in Spain and Gaul from about 370: fasting, celibacy, retreat to the countryside, and Scripture read by lay men and women with no bishop watching. The bishops answered with a council at Saragossa and charges of Manichaeism and sorcery; his supporters made him a bishop too. He was put to death at Trier, and the movement ran on to about 450.",
+   "doctrineNote": "Past the ascetic practice, where this movement stood is an open question. Its accusers charged Manichaeism and sorcery, but those charges were laid by hostile bishops in what became a political prosecution, and they are not evidence of what it held.",
+   "doctrine": [
+    {
+     "title": "A severe asceticism, asked of everyone",
+     "detail": "Fasting, celibacy, and retreat to the countryside for study and prayer — taught to lay people in the western provinces, not set as a rule for a monastery."
+    },
+    {
+     "title": "Scripture read by lay men and women, with no bishop watching",
+     "detail": "Men and women read Scripture together outside the supervision of the bishops. That, as much as anything in the teaching, is what alarmed them."
+    }
+   ],
    "voices": [
     "Priscillian was a layman who taught, was made bishop of Ávila by his own supporters, and was executed at Trier around 385. What he actually held is still an open question; the writings taken to be his do not plainly say anything the creeds forbid.",
     "Ithacius of Ossonoba was one of the bishops who took the charges to the imperial court and got the verdict he wanted. He was afterwards deposed for having done it, which is the clearest sign of how the case looked to other churchmen once it was over.",
@@ -4917,6 +5011,25 @@
    "entry": null,
    "longDescription": "Pelagius was a British-born ascetic teacher who came to Rome in the late fourth century. The Christianity of the capital struck him as slack. People were excusing their sins on the grounds that human nature simply could not do better. His answer was that God never commands what a person cannot do. If Scripture says to be perfect, then perfection is possible, and the excuse is a lie.\n\nAround that conviction gathered a movement of serious, high-minded Christians, among them the combative Caelestius and, later, the bishop Julian of Eclanum. They pushed the argument into hard questions: infant baptism, inherited guilt, and whether grace is a help or a takeover. Augustine of Hippo fought them for the last twenty years of his life. The quarrel ran from about 390 to 430, in Rome and across the wider Mediterranean.\n\nThe African councils condemned the movement in 418, and the Council of Ephesus did so again in 431. Almost everything Pelagius himself wrote survives only in fragments, in his opponents' quotations, or misfiled for centuries under another man's name. What he taught reaches the present mostly inside the rebuttals written to answer him.",
    "teaser": "Pelagius, a British-born ascetic, found Rome's Christianity slack and answered that God does not command the impossible, so no one may plead that human nature cannot do better. Around him gathered serious, high-minded believers who pressed on to inherited guilt, infant baptism, and whether grace helps or takes over. Augustine spent twenty years fighting them; almost nothing Pelagius wrote survives outside the words of the men who answered him.",
+   "doctrineNote": "Very little of the movement's own writing came through, so what the Pelagians held is reconstructed almost entirely from their opponents' quotations of it.",
+   "doctrine": [
+    {
+     "title": "God does not command the impossible",
+     "detail": "If Scripture tells a person to be perfect, then perfection is possible. A command carries with it the claim that it can be obeyed."
+    },
+    {
+     "title": "Weak human nature is an excuse, not a fact",
+     "detail": "The Christianity Pelagius met in Rome excused its sins by holding that human nature simply could not do better. He answered that the excuse is a lie."
+    },
+    {
+     "title": "The hard questions followed from it",
+     "detail": "Inherited guilt, infant baptism, and whether grace is a help to a person or a takeover of them — the movement pressed all three and would not let them go."
+    },
+    {
+     "title": "The Creed was never the issue",
+     "detail": "On the questions the Nicene Creed actually settles, the Pelagians stood where their opponents stood. The condemnations against them had to be framed on other grounds."
+    }
+   ],
    "voices": [
     "A British-born ascetic teacher, Pelagius found the Christianity of Rome slack. He held that a command in Scripture implies it can be obeyed, and that pleading weak human nature is an excuse rather than a fact.",
     "Caelestius was the most combative of the followers, and his blunt way of putting things is what brought the argument into the open at Carthage. What Pelagius had stated carefully, Caelestius stated so that nobody could miss it.",
@@ -4959,6 +5072,21 @@
    "entry": null,
    "longDescription": "The Homoians took their name from the Greek homoios, 'like'. They taught that the Son is like the Father according to the Scriptures, and there they stopped. They would not call him of one being with the Father, on the grounds that Scripture never used the word and no council should force it on anyone. They did not call themselves Arians. That label came from opponents who wanted them tied to a man most of them had never followed.\n\nBacked by the emperors Constantius II and later Valens, and adopted at the councils of 359 and 360, this was the imperial church's official position for long stretches of the fourth century. It held that place long enough for Jerome to write that the world groaned to find itself Arian. The church the emperors backed, for much of that century, was not the one that eventually won.\n\nIts most lasting work was done outside the empire. Ulfila, consecrated bishop around 341, spent his life among the Goths, made an alphabet for their language, and translated the Bible into it. Through that mission the Goths, Vandals, Burgundians and Lombards became Christians in this form. Homoian kingdoms ruled Italy, Spain and North Africa for generations after the empire itself had turned Nicene. The Visigoths of Spain went over to the Nicene creed at Toledo in 589. The Lombards of Italy were the last to follow, two generations later.",
    "teaser": "Ulfila, a bishop among the Goths, gave their language an alphabet and put the Bible into it, and so the Germanic peoples got their first Bible. The Son, they taught, is like the Father, as Scripture says, and they refused to go one word further. For a while this was the Roman Empire's own church; it lived on in Gothic and Vandal kingdoms that turned Nicene one by one.",
+   "doctrineNote": "For long stretches of the fourth century this was the imperial church's official position, not a fringe one. That is a statement about doctrine and nothing else.",
+   "doctrine": [
+    {
+     "title": "The Son is like the Father, according to the Scriptures",
+     "detail": "Homoios, 'like' — and there they stopped. The likeness was real and they would affirm it plainly; they would not go one word beyond what they found written."
+    },
+    {
+     "title": "No word that Scripture does not use",
+     "detail": "They declined to call the Son of one being with the Father, holding that Scripture nowhere uses the term and that a council has no business imposing such a word."
+    },
+    {
+     "title": "Not Arians, by their own account",
+     "detail": "That name was fixed on them by opponents who wanted them bound to a teacher most of them had never followed."
+    }
+   ],
    "voices": [
     "Ulfila was made a bishop around 341 and went to live among the Goths, where he built an alphabet for a language nobody had ever written down and translated the Bible into the script he had made. What he produced is the oldest substantial text in any Germanic language.",
     "Constantius II backed this position, and two councils in 359 and 360 made it the official teaching of the imperial church. For a good part of the fourth century, being in communion with the emperor meant holding what the Nicene creed was written to exclude.",
@@ -5012,6 +5140,25 @@
    "entry": null,
    "longDescription": "Aetius was a deacon at Antioch, and in the 350s he began to teach the Arian case in its sharpest possible form. Where others said the Son was like the Father, or like him in all things, Aetius said he was unlike him, anomoios, in essence. He argued it with a formal rigour that made his opponents call him a sophist and an atheist. His pupil and secretary Eunomius carried the position further and gave it its most confident claim. God's essence, Eunomius held, is simply ingeneracy; it can be stated; and a human being can therefore know that essence as God knows it himself.\n\nEunomius was made bishop of Cyzicus in 360 and driven out within a year. In that same year the party split from the Homoians at Constantinople, when the Homoian creed was imposed and Aetius was exiled. They were never one party with the Homoians, and treating them as one misreads the controversy. It was against these men, and against that claim about knowing God, that Basil, Gregory of Nyssa and Gregory of Nazianzus wrote some of the most demanding theology of the century.\n\nThe Council of Constantinople anathematized the Eunomians by name in its first canon in 381. After that, imperial law suppressed their assemblies, and the sect faded through the fifth century.",
    "teaser": "Aetius, a deacon at Antioch, made his party the sharpest of the fourth-century Arians, and his pupil Eunomius carried the case further. The Son, they said, is not merely lesser than the Father but unlike him, and a human mind can know God's essence exactly as God knows it. A council anathematized them by name, and almost every word of theirs that survives does so inside a refutation.",
+   "doctrineNote": "'Anomoean' is their opponents' word for them, not their own. What is known of the position is drawn very largely from the books the Cappadocians wrote to answer it.",
+   "doctrine": [
+    {
+     "title": "The Son is unlike the Father in essence",
+     "detail": "Anomoios. Not lesser, not similar in certain respects, but unlike — the furthest from Nicaea that any fourth-century party stood."
+    },
+    {
+     "title": "God's essence is ingeneracy",
+     "detail": "Eunomius held that what God is can be stated in a single word, unbegottenness, and that the divine essence therefore has a definition."
+    },
+    {
+     "title": "And a created mind can know that essence as God knows it",
+     "detail": "This is the claim the Cappadocians attacked hardest, and the reason they wrote at the length they did."
+    },
+    {
+     "title": "Not the same party as the Homoians",
+     "detail": "The two split at Constantinople in 360, when the Homoian creed was imposed and Aetius was exiled. Filing them together misreads the whole controversy."
+    }
+   ],
    "voices": [
     "Aetius served as a deacon at Antioch and from the 350s taught that the Son is unlike the Father in essence. His opponents called him an atheist, and a sophist for the rigour he argued with. The one work of his that survives does so inside Epiphanius, who was quoting it to refute it.",
     "Eunomius was Aetius' pupil and secretary; he got the see of Cyzicus in 360 and lost it within the year. He held that God's essence simply is ingeneracy, that it can be stated, and that a person can know it exactly as God knows it himself.",
@@ -5055,6 +5202,17 @@
    "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run found material with no entry to hold it. Basil's and Nyssa's works On the Holy Spirit had nowhere to point: the census carried no entry for the party they were written against, and the only near-match by name — byzantine-imperial-church-macedonian — is the ninth-century imperial dynasty, an entirely unrelated thing.",
    "longDescription": "By about 360, in Constantinople and Asia Minor, the argument had moved. A body of churchmen there had come to accept, or very nearly accept, that the Son is of one being with the Father. They then declined to say the same of the Holy Spirit. The Spirit, they held, was a creature, or at best a ministering spirit of some third order.\n\nTheir opponents called them Pneumatomachians, Spirit-fighters. They also attached to the party the name of Macedonius, a deposed bishop of Constantinople, on evidence that later writers found thin. Basil of Caesarea wrote On the Holy Spirit in about 375 to answer them, and he did it carefully. He argued the Spirit's divinity largely from how the church already prayed and baptised, rather than from a bare proof-text. Gregory of Nyssa wrote against them too.\n\nThe Council of Constantinople settled the question in 381. It expanded the third article of the creed, which had previously said almost nothing about the Spirit, into the clauses still recited every week. The reason the creed says anything about the Holy Spirit at all is this party, and where it chose to stop.",
    "teaser": "A party in Constantinople and Asia Minor accepted, or nearly, that the Son is one in being with the Father, then stopped at the Spirit and called him a creature. Spirit-fighters is their opponents' word for them, and the name of Macedonius was attached on thin evidence. Basil of Caesarea answered them from how the church prayed, and in 381 a council settled it by expanding the creed's third article.",
+   "doctrineNote": "'Spirit-fighter' is their opponents' word, and the attachment of Macedonius' name is later than the party and contested. Nothing of their own is preserved beside the refutations, so the position is read off the books written against it.",
+   "doctrine": [
+    {
+     "title": "The Son, yes",
+     "detail": "They accepted, or came very close to accepting, that the Son is of one being with the Father. On that question they had moved with Nicaea."
+    },
+    {
+     "title": "The Spirit, no",
+     "detail": "The Holy Spirit they called a creature, or at best a ministering spirit of some third order, standing below the Father and the Son rather than beside them."
+    }
+   ],
    "voices": [
     "Macedonius had been deposed as bishop of Constantinople before the party existed, and the party was named after him afterwards, by people who were not its friends. Whether he ever held what ‘Macedonian’ came to mean is a question the sources do not settle.",
     "Basil of Caesarea answered them around 375 in a book called On the Holy Spirit, building the case out of the church's existing practice rather than out of proof-texts. He was writing against people who had already accepted almost everything he held, which is what made the last disagreement worth a whole book.",
@@ -5097,6 +5255,21 @@
    "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run found material with no entry to hold it. Gregory of Nazianzus' Cledonius letters and the conciliar condemnations had no entry naming the party they address, and it is not the Arian one they would otherwise have been filed under.",
    "longDescription": "Apollinaris of Laodicea was on Athanasius' side in the Arian controversy: a defender of Nicaea and, by all accounts, a formidable scholar. The position that took his name came from pressing the unity of Christ harder than anyone else dared. If Christ is one, he reasoned, there cannot be two minds in him competing. So the divine Word must occupy the place that a human rational soul would otherwise hold. Christ, on this account, has a human body and its animating life, but not a human mind.\n\nRome condemned the teaching in 377, and Constantinople condemned it again, by name, in 381. Gregory of Nazianzus wrote the reply that stuck. It came in a letter to a priest named Cledonius, and it ran: what is not assumed is not healed. If Christ did not take a human mind, then the human mind, the part that most needs healing, is not saved.\n\nApollinaris' followers kept his works in circulation under other men's names. That is why some of them survive at all.",
    "teaser": "Apollinaris of Laodicea, friend of Athanasius and defender of Nicaea, pressed the unity of Christ so hard that he left no room in him for a human mind. The divine Word, he held, stood where a human rational soul would, so Christ had a body and its life but no human mind. Rome condemned it in 377, Constantinople in 381, and his writing survives mostly under borrowed names.",
+   "doctrineNote": "Apollinaris was a prolific writer and very little survives under his own name. Some of his work stayed in circulation under other names to escape condemnation, which is why any of it survives.",
+   "doctrine": [
+    {
+     "title": "Christ is one, so there cannot be two minds in him",
+     "detail": "The whole position follows from pressing the unity of Christ. If he is genuinely one, there is no room in him for a human mind competing with the divine Word."
+    },
+    {
+     "title": "The Word stands where a human soul would",
+     "detail": "Christ has a human body and its animating life, but the place a human rational soul would otherwise hold is occupied by the Word itself."
+    },
+    {
+     "title": "Nicaea defended, not attacked",
+     "detail": "Apollinaris was Athanasius' ally against Arianism. This is not an Arian position at all; it is what happens when the unity of Christ is pressed further than anyone else would go."
+    }
+   ],
    "voices": [
     "Apollinaris of Laodicea was Athanasius' ally against Arianism and a defender of Nicaea. The teaching that carries his name came from pushing the oneness of Christ further than anyone else would, until there was no place left in Christ for a human mind. He wrote a great deal, and almost none of it survives under his own name.",
     "Gregory of Nazianzus gave the answer that lasted. He was not defending a formula so much as insisting that whatever Christ did not take up, he did not repair, and that a mind is exactly the thing most in need of repair.",
