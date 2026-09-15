@@ -41640,18 +41640,22 @@ function openPanel(m){
   // their own `entry` record -- the whole point of "Built & Live" -- but until
   // now nothing on the map ever showed it. A click landed on the same bare
   // status/edges template as an unbuilt entry.
-  if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b>, ${esc(entry.representativeTitle)} — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>
-    <button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
+  if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b>, ${esc(entry.representativeTitle)} — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>`;
   h+=`<p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>
     <span class="statuspill">${esc(statusLabel(m))}</span>`;
   // Lead with the tradition itself, not with this project's own build plan for
-  // it: the summary first, then the story and everything else a participant
-  // would come here to learn. The "where this stands" statement (m.why) moves
-  // to the very end of the panel, after Sources -- see the closing block below.
+  // it: the hook first, then the story and everything else a participant would
+  // come here to learn. What this project intends for the tradition (m.why)
+  // sits with the record's own relations note behind the "About this entry"
+  // disclosure near the foot -- see the closing block below.
   // The census's "front door" line -- `entry.tile` for a built world, `teaser`
   // for everything else -- is the hook every one of the 292 records was given.
   const lede=entry?entry.tile:m.teaser;
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
+  // Hook, then action. The tile line is what earns the click, so a built
+  // world's Interview button follows it instead of preceding it. Everything
+  // above keeps the order it has on all 292 cards, built or not.
+  if(entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
   if(m.longDescription)h+='<div class="story">'+m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+'</div>'+sectionSources(m.storySources);
   // Documented stories: 1-3 real, individually sourced narrative episodes
   // belonging to this movement specifically (not the map's floating gap
