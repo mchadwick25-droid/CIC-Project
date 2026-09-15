@@ -1,8 +1,8 @@
 # Lexicon Deployment Index — Latin Pastoral-Congregational Christianity
 
-**Status:** **REVISED after Round 1 — not self-disposed.** Co-output of Construction Step 6 with `Doc_06_Full_Lexicon_Development.md` and the nineteen `Lexicon-Chunks/` files; the three are reviewed and disposed of together. See Doc_06's own Disposition.
+**Status:** **REVISED after Rounds 1 and 2 — not self-disposed.** Co-output of Construction Step 6 with `Doc_06_Full_Lexicon_Development.md` and the nineteen `Lexicon-Chunks/` files; the three are reviewed and disposed of together. See Doc_06's own Disposition.
 **World file-code:** `lpc`
-**Date drafted:** 2026-09-14 · **Revised:** 2026-09-15 (Round 1 fix pass)
+**Date drafted:** 2026-09-14 · **Revised:** 2026-09-15 (Round 1 and Round 2 fix passes)
 **Generated from the chunk files, not maintained alongside them.** Every row is parsed directly out of `Lexicon-Chunks/lpclex*.md` — Tier, all seven tag columns, Aliases, Related-Terms, the Registry rows cited anywhere in the chunk, and the CT, Reported-Experience and Author-Gravity flags. **Re-deriving it is the check:** regenerate and diff.
 **[CORRECTION, 2026-09-15 — Round 1's H1.]** The generator's row-matching pattern captured only the *first* number after *"rows"*, so `lpclex001`'s cell printed *Rows 1, 19* where the chunk cites rows 1, 2, 3, 5 and 19. **That single wrong cell falsified this index's central claim** — an index advertised as safe to diff is worth nothing if the derivation is lossy. The pattern now captures every number in a run, and the flock's cell is the worked proof. Round 1 re-derived all 18×13 cells and found this one and no other.
 
@@ -107,7 +107,7 @@
 
 ## 5. Related-Terms Reciprocity Check
 
-**Result: 122 links across 19 entries — 61 reciprocal pairs, zero one-way.** Verified by re-parsing the chunks from disk after the cross-reference pass, and independently re-verified by Round 1, which parsed all chunks itself rather than reading this claim.
+**Result: 122 links across 19 entries — 61 reciprocal pairs, zero one-way.** Verified by re-parsing the chunks from disk, and independently re-verified by **Round 2**, which parsed all nineteen itself rather than reading this claim. **[CORRECTED, 2026-09-15 — Round 2's M-N2:** this previously credited **Round 1**, which reviewed eighteen chunks and found 110 links across 55 pairs. The nineteenth did not exist when Round 1 ran.**]**
 
 **This check has found real defects twice and both are on the record.** The first pass authored each chunk's list independently and produced **27 one-way or broken links** — the Development Workflow's step 5 cross-reference pass had not been run. Two defects then surfaced *inside* the repair: a matcher that substring-matched into Aliases and reported 35 failures that were not real, and a repair that inserted canonical terms containing commas into a comma-separated field. Related-Terms uses a **comma-free reference handle** for every term, so the field cannot be fragmented by its own contents.
 
@@ -132,7 +132,7 @@
 
 ## 7. Editorial-Apparatus Register
 
-**Six entries rest near 19th-century editorial matter printed inside or beside the primary text, and each names it rather than absorbing it.** Doc_05 §11 item 11 found the problem is corpus-wide and routed it to the project lead; this register is the local instance list.
+**Seven entries rest near 19th-century editorial matter printed inside or beside the primary text, and each names it rather than absorbing it.** Doc_05 §11 item 11 found the problem is corpus-wide and routed it to the project lead; this register is the local instance list.
 
 | Entry | The editorial matter | Why it matters |
 |---|---|---|
@@ -142,8 +142,9 @@
 | compel them to come in | the volume's own preface calls the doctrine *"a false exegesis"* and *"least satisfactory to Protestant readers"* | a 19th-century Protestant editor's **theological verdict** |
 | libellatici / sacrificati | the entire two-way classification is an editorial endnote on a different, Confidence-C text | disclosed as editorial throughout |
 | **the lapsed** *(added 2026-09-15, Round 1's H3)* | that same two-way classification, narrated as flat fact in a **Tier 1 World Meaning** | **the register listed five and missed this one**; Doc_05 had flagged the identical sentence and the chunk dropped the flag |
+| **certificates (letters of peace)** *(added 2026-09-15, Round 2's M-N1)* | *"thousands of certificates were given, against the Gospel law"* — an **editorial endnote's** wording, quoted in the chunk as re-verified Cyprian; his own text reads *"were **daily** given, **contrary to the law of the Gospel**"* | **committed in the entry added to close a discovery gap**, in the deliverable that keeps this register |
 
-**The sixth entry is the one worth dwelling on.** It was not a new bleed-through but a **regression**: the upstream document had caught it, marked it, and the lexicon chunk un-marked it. A register that lists only the instances its author remembered is not a control.
+**The last two entries are the ones worth dwelling on, and they say the same thing twice.** The sixth was not a new bleed-through but a **regression** — the upstream document had caught it, marked it, and the lexicon chunk un-marked it. The seventh was committed *in the very entry added to close a discovery gap*, by a pass that had this register open in front of it. **A register listing the instances its author remembered is not a control.** The control is mechanical: mark the `<note>` spans **before** stripping tags, and check every quotation against the marked-up source. Stripping first makes the editorial apparatus indistinguishable from the text — which is precisely how both of these happened. The same method now yields this world's certificate count at **38 in Cyprian's own text against 42 on a naive sweep**.
 
 ---
 
@@ -157,10 +158,12 @@
 
 **`suffrage` is cross-phase and its tagging now agrees with that.** Round 1's H2 found the chunk carrying **[PV]**, which Doc_03 rules out by name — *"it does not sit on 'suffrage,' which is a cross-phase pattern rather than a single-phase term"* — and which contradicted this very sheet. The tag is removed.
 
+**`certificate` is ambiguous across two entries and the disambiguation is reciprocal.** `lpclex017` (the Decian sacrifice-certificate, which made a person lapsed) and `lpclex019` (the confessors' letter of peace, which asks the church to take them back) both answer to the bare word. Round 2's M-N4 found only `lpclex019` carrying the cross-reference; both now do, and a participant asking simply *"what was a certificate?"* should receive both.
+
 **`confessor`'s phase bound was established by a check, not assumed:** twenty stem occurrences across all eight vendored Augustine volumes against roughly 150 in Cyprian's one, none in this sense (Doc_05 §2.3).
 
 ---
 
 ## Disposition
 
-**Not disposed.** Reviewed and disposed of together with `Doc_06_Full_Lexicon_Development.md` and the nineteen chunk files as co-produced Step 6 outputs. `Review-Artifacts/Doc06_Round1_Review.md` returned **REVISION REQUIRED** (3H 3M 2L); all applied. Not self-certified. Not Frozen.
+**Not disposed.** Reviewed and disposed of together with `Doc_06_Full_Lexicon_Development.md` and the nineteen chunk files as co-produced Step 6 outputs. `Review-Artifacts/Doc06_Round1_Review.md` returned **REVISION REQUIRED** (3H 3M 2L); all applied. `Review-Artifacts/Doc06_Round2_Review.md` returned **REVISION REQUIRED** (1H 4M 4L 1C) and found seven of Round 1's eight fixed and one fixed wrongly; four findings applied on the project lead's direction, six carried at Doc_06 §5. Not self-certified. Not Frozen.

@@ -9,13 +9,13 @@ Tier:               2
 
 Tags:               AS, TC, PV
 
-Aliases:            libellus, libelli, certificate, sacrifice-certificate, certificate of compliance
+Aliases:            libellus, libelli, sacrifice-certificate, certificate of compliance, certificate (ambiguous — see Do-Not-Retrieve-When)
 
 Related-Terms:      the lapsed, reconciliation / penitential discipline, libellatici / sacrificati, certificates
 
 Retrieve-When:      participant asks how the persecution was actually administered; participant asks what a certificate was, or how someone could lapse without sacrificing.
 
-Do-Not-Retrieve-When: the participant is asking about the category of persons rather than the document — that is the lapsed.
+Do-Not-Retrieve-When: the participant is asking about the category of persons rather than the document — that is the lapsed. **Also: this world's corpus uses the bare word "certificate" for two different documents travelling in opposite directions.** This entry is the one the empire issued, which made a person lapsed; the confessors' letter of peace, which asks the church to take them back, is `lpclex019`. **A participant asking simply "what was a certificate?" should receive both, not this one as if it were the only referent.**
 ```
 
 ---
