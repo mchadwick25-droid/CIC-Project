@@ -553,3 +553,50 @@ move" note already anticipated.
 
 **Not started by this pass:** phase 3 (promotion infrastructure, D3's staging/prod split)
 and WO-1 through WO-5, unchanged from the 2026-09-14 entries above.
+
+## 2026-09-15 — Phase 3 executed: the D3 promotion model, scoped down from the spec's full ambition
+
+Mark: "start phase 3." Checked with him first, since unlike phases 1/2 this touches the
+*live, currently-serving* production service (`render.yaml`'s `cic-engine`) and carries
+a real recurring cost D3's own text already flagged as needing confirmation before
+execution — that confirmation had never actually happened. Mark's call: full D3 now.
+
+**Scoped to what D3 itself asks for, not Artifact-6 SS3's full aspirational stack.** That
+document describes AWS ECS/Fargate, RDS Postgres, S3, CloudFront and full IaC — none of
+which the real system runs today (one Render web service, SQLite on a Render Disk, no
+staging environment at all). D3's own text is much narrower: a staging service plus a
+protected `live` branch production deploys from, with a deliberate, logged promotion
+after tests and Mark's verification. Building the full aspirational stack was never this
+pass's job and isn't what Mark asked for.
+
+**What actually executed, from this sandbox:**
+- `live` branch created at `main`'s exact tip (`9e07b4cb4`) — zero drift at creation.
+- `render.yaml`: `cic-engine` (prod) pinned `branch: live`; new `cic-engine-staging`
+  service added, pinned `branch: main`, `plan: starter` (cheaper than prod's `standard`
+  — it never carries real participant load), its own disk, its own `sync: false`
+  secrets, and `CIC_ENFORCE_ADMISSION: "0"` — deliberately, so a built-but-not-yet-
+  admitted world is testable there, the split Artifact-6 SS3 itself originally described
+  ("staging: fixture world + candidate packages").
+- `.github/workflows/ci.yml`: `live` added to the `push` trigger's branch list, so a
+  promotion merge gets the same CI confirmation a `main` push already gets.
+- `Ministry/Operations/Standing/CiC_Promotion_Runbook.md` (new): the actual step-by-step
+  procedure, plus the one-time setup this sandbox could not do itself.
+
+**What could not execute from here, and needs Mark's own action (all in the runbook):**
+GitHub branch protection on `live` (repo-settings writes are proxy-blocked, same as the
+GitHub API's raw `git/refs` write path used for creating the branch itself — worked
+around by a normal `git push` for the branch, but no such workaround exists for branch
+protection, a real settings change, not content); the Render Blueprint sync that
+actually creates `cic-engine-staging` and repoints `cic-engine`'s own branch connection
+(Render's API is unreachable from this sandbox — egress-blocked, confirmed by a direct
+test); `cic-engine-staging`'s own AWS credentials and admin token. Until these four
+happen, `render.yaml`'s `branch:` pins describe the intended state, not the live one.
+
+**A real, load-bearing behavior change, stated plainly so it isn't missed:** every PR
+this whole session has merged to `main` deployed straight to production. Once Mark
+completes the setup above, that stops — `main` only reaches `cic-engine-staging` from
+then on, and reaching participants requires the promotion PR the runbook describes.
+
+**Not decided:** whether `cic-website`'s Cloudflare Workers Build production deployment
+should also move from `main` to `live` — flagged in the runbook's own closing section,
+left to Mark rather than assumed.
