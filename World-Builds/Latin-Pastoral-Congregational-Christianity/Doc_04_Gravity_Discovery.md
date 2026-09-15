@@ -1,6 +1,6 @@
 # Doc_04 — Gravity Discovery: Latin Pastoral-Congregational Christianity
 
-**Status:** REVISED — not yet self-disposed. Candidate 5 is classified **Supporting** on the project lead's ruling of 2026-09-14. **Correction history for this document is held at `Doc_04_Superseded_Claims.md`, not inline.** Review rounds 1–11 are listed at §8; findings from Rounds 5–11 are outstanding and the artifacts in `Review-Artifacts/` are the record of them.
+**Status:** **APPROVED TO PROCEED** (2026-09-15, by the project lead, with the governance escalation and Rounds 5–11 findings carried open). Candidate 5 is classified **Supporting** on the project lead's ruling of 2026-09-14. **Correction history for this document is held at `Doc_04_Superseded_Claims.md`, not inline.** Review rounds 1–11 are listed at §8; findings from Rounds 5–11 are outstanding and the artifacts in `Review-Artifacts/` are the record of them.
 **World file-code:** `lpc`
 **Date drafted:** 2026-09-09
 **Governed by:** Construction Framework V7.4 Part III (Step 4); Forces Framework V1.1 Section 4 (Step 4 entry); Constitution Articles 21 (Strand Determination Principle, which is also where cross-strand gravity testing sits — "where strands exist, convergence across them is a test of a gravity's centrality") and 22 (**Forces Principle**, discharged at each candidate's own forces-connection notation); `Doc_04_Gravity_Discovery_Template_V1.0.md` (L4 governance, and note the version pairing: the Template names itself a companion to Construction Framework **V7.3** Part III while this document is governed by V7.4; nothing this document relies on diverges between them, checked directly, but §7 Open Item 3 is a finding *about* a Framework/Template mismatch, so the pairing is stated — the source of this document's own required index table, §4, and Interaction Matrix, §6, and of the "did-not-reach-gravity-status" fourth classification label discussed at §7 Open Item 3, none of which appear in Part III's own body text).
@@ -250,6 +250,15 @@ The claims this document has withdrawn that a reader of the current text might o
 
 ## Disposition
 
-**Not yet self-disposed.** Findings from `Doc04_Round5_Review.md` through `Doc04_Round11_Review.md` are outstanding. CO-022's precondition for disposition is not met.
+**APPROVED TO PROCEED — 2026-09-15, by the project lead, with the governance escalation and the outstanding findings carried open.** The project lead's instruction, recorded verbatim: *"approve doc_09 with the escalation carried open"*, disambiguated to this document by the project lead's own selection when asked which document was meant.
+
+**What this approval does not claim, stated plainly because the gap is unusually wide.** Per CO-022, *Approved to proceed* is the lightweight go-ahead: it unblocks the next document and nothing more. **It is not Frozen**, and it does not assert that this document is correct or complete. **CO-022's normal precondition for disposition is not met** — this document has not cleared a review without revision being called for — and it is being disposed on the project lead's direct instruction rather than by build-thread self-disposition.
+
+**Carried open, and not resolved by this approval:**
+
+- **Findings from `Doc04_Round5_Review.md` through `Doc04_Round11_Review.md` are outstanding and unfixed.** The seven verdicts run: Rounds 5–10 **SUBSTANTIAL REVISION REQUIRED**, Round 11 **REVISION REQUIRED**. **Round 11, the most recent, carries 4 HIGH, 7 MEDIUM, 10 LOW and 3 COSMETIC — 24 findings.**
+- **The governance/methodology escalation remains open and not closed**, on the two items `Doc04_Round8_Review.md` and `Doc04_Round9_Review.md` each raise: separating the thread that reads a source from the thread that applies the reading, and the record-boundary question of a pass whose declared domain is one file being judged against a wider corpus.
+
+**Why this matters downstream, recorded so no later document mistakes it.** Doc_04 is this world's gravity spine. Doc_05 through Doc_09, `lpc_World_Profile.md` and everything in the Representative build derive their gravity structure from it. **A document deriving from Doc_04 inherits these open findings**, and should say so rather than treating the eight gravities as settled.
 
 **Escalation-category assessment.** Representative-identity: does not apply. Portfolio-level/cross-world: does not apply — the *Gesta* corpus-map assignment is applied, not decided, and was made on the record at PR #177. **Governance/methodology: open, raised and not closed.** `Doc04_Round8_Review.md` and `Doc04_Round9_Review.md` each recommend opening it, on two items: separating the thread that reads a source from the thread that applies the reading, and the record-boundary question of a pass whose declared domain is one file being judged against a companion record. **Unresolved tensions: open** — the evidentiary question at §7 Open Item 6.

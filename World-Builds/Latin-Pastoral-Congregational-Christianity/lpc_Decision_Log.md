@@ -1650,3 +1650,28 @@ Both forced from fresh copies: inserting *"No source in this corpus records what
 **Full auto, and what it does not cover.** Per `CLAUDE.md`, the build now runs end-to-end without per-step approval. It still stops for the **four CO-022 escalation categories**: Representative identity/name/title, portfolio-level or cross-world decisions, governance or methodology changes, and unresolved tensions the pipeline cannot close. **Frozen is never self-assigned.**
 
 **One item needs naming rather than assuming.** `Doc_09b` is **inferred** from comparison with `desert`, `Donatism` and `hal` — all three carry a World Profile and a Validation Layer beyond the Story Inventory, under three different names (`Doc_09b`, `don_World_Profile.md`, `hal_Doc_09c_Validation_Layer.md`). **It has not been confirmed as `lpc`'s next document by the project lead.** Proceeding on the lead's *"start doc_09b"* as that confirmation, and recording here that it rests on an inference from sibling worlds rather than on this world's own confirmed sequence.
+
+---
+
+## 2026-09-15 — Doc_04 APPROVED TO PROCEED, findings and escalation carried open
+
+**Project lead's instruction, recorded verbatim:** *"approve doc_09 with the escalation carried open"* — disambiguated to **Doc_04** by the project lead's own selection when asked which document was meant, Doc_09 having already been approved earlier the same day.
+
+**Why the question was asked rather than assumed.** CO-022 forbids attributing a decision to the project lead without a verifiable record. Doc_09 was already disposed, so the instruction as written had no effect; guessing which document was meant would have attributed a disposition nobody made.
+
+**Disposition: APPROVED TO PROCEED**, on the project lead's direct instruction — **not** by build-thread self-disposition, because **CO-022's normal precondition is not met.** This document has not cleared a review without revision being called for.
+
+**Carried open, and not resolved by this approval:**
+
+| | |
+|---|---|
+| Rounds 5–10 | **SUBSTANTIAL REVISION REQUIRED** |
+| Round 11 (most recent) | **REVISION REQUIRED — 4 HIGH, 7 MEDIUM, 10 LOW, 3 COSMETIC (24 findings)** |
+| Status of those findings | **outstanding and unfixed** |
+| Governance escalation | **open and not closed** — the two items Rounds 8 and 9 each raise |
+
+**A fact surfaced after the instruction was given, and recorded here so it cannot be missed.** When the project lead chose Doc_04 they had been told that eleven rounds had run with findings outstanding. **They had not been told that the most recent round carries four HIGH findings**, because I had not yet counted them. That is stated in the document's own Disposition and here. **Approved to proceed is explicitly reversible and claims nothing about correctness**, so the approval stands as instructed and can be withdrawn at any point.
+
+**Why this matters downstream.** Doc_04 is the gravity spine. Doc_05–Doc_09, `lpc_World_Profile.md` and the whole Representative build derive their gravity structure from it. Any document deriving from Doc_04 **inherits these open findings** and should disclose that rather than treating the eight gravities as settled.
+
+**Sequence state after this approval:** Doc_01, Doc_02, Doc_03, **Doc_04**, Doc_09 are Approved to proceed. **Doc_05, Doc_06, Doc_07 and Doc_08 remain not disposed.** The World Profile draft therefore still sits on four undisposed inputs, and the sequence is not yet regular.
