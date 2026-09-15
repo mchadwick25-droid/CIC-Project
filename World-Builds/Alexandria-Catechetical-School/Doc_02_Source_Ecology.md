@@ -15,18 +15,6 @@
 
 ---
 
-## Revision Log
-
-### Round 1 → Round 2 (substantial)
-
-Round 1 was reviewed by an independent adversarial pass (`Review-Artifacts/Doc_02_Round1_Review.md` — "Simulated review — informational only, not an Article 31 substitute," Constitution Article 31). Verdict: **SUBSTANTIAL REVISION REQUIRED**, 1 substantial + 3 cosmetic. All 13 secondary-scholarship citations and every primary-source date were independently web-verified clean; Article 3 (no "Theon" content), Article 20 (affirmative duty), and cross-consistency with Doc_01 all tested clean.
-
-1. **[Substantial] Missing five-dimension Author Gravity entries for the secondary narrative sources (§3.6).** Framework Part II requires historians and hagiographers functioning as secondary narrative sources to receive their own Author Gravity entries applying all five dimensions (including transmission history). §3.6 had given Eusebius, Palladius, Dionysius, and Gregory prose paragraphs only. Corrected: §3.6 rewritten to give each a full five-dimension entry, with Eusebius's HIGH institutional-claims risk and Palladius's cross-build flag made explicit — important because Eusebius is the load-bearing basis for the Contested didaskaleion finding carried from Doc_01 §1.2.
-
-Cosmetic dispositions (applied without a separate review cycle, per the build-cycle cosmetic-fix provision): (a) an inline cross-reference to the Nautin authenticity/dating caveat added at the §5 Tier 1 assignment for Gregory's *Address*; (b) the Stream 1 split-confidence statement is defensible as written and retained; (c) the confidence label **"Inferential-Thin"** is **deliberately retained** (rather than switched to the Framework's canonical "Inferential / Thin") for intra-build consistency with Doc_01 and the project's other world builds, which all use the hyphenated form — a consistency choice, disclosed here rather than silently diverging.
-
----
-
 ## 0. Purpose and Scope of This Document
 
 This document performs Step 2: it establishes the evidential foundations of the Alexandria world before gravity discovery. It maps the surviving evidence through which this world becomes visible; assesses the major voices for Author Gravity (five dimensions including Transmission History); names the secondary scholarship through which the primary sources are read; assesses formation-narrative, hagiographic, and material-culture sources; names source asymmetry and the structurally missing voices (Constitution Article 20); and applies the forces lens (Forces Framework Step 2) to ask which sources speak to external forces and what the silences reveal.

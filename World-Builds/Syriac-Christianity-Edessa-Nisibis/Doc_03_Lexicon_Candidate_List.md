@@ -2,24 +2,9 @@
 ## World #7: Syriac Christianity (Edessa/Nisibis), c. 200–410 CE
 
 **Branch:** CiC-Phase1-CleanBuild-Syriac
-**Status:** Approved to proceed by project lead (Mark), 2026-07-08, in chat — Revision Round 2 (substantial) + Round 2 second-pass propagation fix. A second independent adversarial review confirmed all four Round 2 narrative fixes landed correctly, but caught a real propagation gap: the companion index's underlying rows for Catholicos and Ewangeliyon da-Mhallete still carried the pre-fix overclaims even after the narrative was corrected. That gap was closed directly (both rows updated to match the corrected narrative, all derived index sheets regenerated from the corrected data) without requiring a third full review round, since the fix was mechanical propagation rather than a new substantive judgment call. See Revision Log.
+**Status:** Approved to proceed by project lead (Mark), 2026-07-08, in chat.
 **Governed by:** Construction Framework V7.4_DRAFT, Step 3 (Part III, Lexicon Development section); Lexicon Development Framework; Constitution Article 26; Doc_01 and Doc_02 (both approved to proceed by the project lead, 2026-07-08)
 **Companion document:** Lexicon_Candidate_Index.xlsx (built in the same pass)
-
----
-
-## Revision Log
-
-**Round 1 → Round 2 (substantial revision, per independent adversarial review):** 8 of 11 entries — including the two highest invented-precision-risk items, the memra Brock breakdown and the malpana/Peshitta GEDSH citations — held up under independent fact-checking without changes. Four items required fixes:
-
-- **Section 1.6 (Ewangeliyon da-Mhallete):** Round 1 presented Theodoret of Cyrrhus (423–457) as "the clearest datable attestation" of the specific vernacular name. Independent review found this overstates a genuinely contested point: Theodoret's account (in Greek) never actually uses the Syriac phrase, and per Matthew Crawford's peer-reviewed work, the name's earliest secure Syriac witness may be an anonymous gloss in the Syriac translation of Eusebius's *Ecclesiastical History*, roughly contemporary with rather than clearly later than Theodoret. Revised to acknowledge this is itself unsettled, not a clean post-410 anchor point.
-- **Section 2.1 (Catholicos):** Round 1 attributed the phrase "ignoring the gap of two and a half centuries" directly to "J.M. Fiey's reconstruction." Independent review found this phrasing is not traceable as a direct Fiey quotation — it reads as a modern secondary paraphrase/synthesis of his argument (arithmetically consistent with his dating logic, but not his own words), and found that GEDSH's own Papa bar Aggai entry — arguably the most authoritative concise source — sources the succession discussion primarily through the *Acts of Miles*, the *Synodicon Orientale*, Bar Ebroyo, and Aphrahat's Demonstration 14, not centering the *Acts of Mari* as the primary vector. Revised to reflect both corrections.
-- **New Section 1.6a added:** an adversarial reviewer pressed on why Ewangeliyon da-Mhallete is retained as a hedged Candidate when its core dating claim did not survive fact-checking better than either excluded term's (malpana, Peshitta) did. This tension is now addressed explicitly rather than left for a reader to notice on their own.
-- **Companion index, "By Tier" sheet:** Catholicos/Catholicosate (a Flag-only entry, not a Tier 1/2/3 candidate) was silently absent from this sheet, contradicting the sheet's own stated purpose of complete coverage. Fixed by adding a "Flag-only" bucket alongside the existing "N/A" (Excluded) bucket.
-
-No changes were required to raza/shrara, qyama, madrasha, memra, Ihidaya, Mar, malpana, or Peshitta — these held up under independent fact-checking as originally drafted, nor to the Step 3 scope discipline or the Doc_01/Doc_02 consistency checks, which the review confirmed were correctly maintained.
-
-**Round 2 second-pass review and propagation fix:** A second independent adversarial review confirmed all four Round 2 fixes above landed correctly in this narrative document, with no new overclaiming or excessive hedging introduced, and confirmed (via fresh spot-checks of raza/shrara and malpana) that the entries cleared in Round 1 remain correct. However, the review found the companion index spreadsheet's underlying "Candidate Terms" rows for Catholicos and Ewangeliyon da-Mhallete had not been updated to match this narrative's Round 2 corrections — the "By Tier" sheet's structural fix (adding a Flag-only bucket) had been applied, but the row *content* itself still carried the pre-fix overclaims (the direct Fiey attribution; "post-410" stated as settled), which would have propagated the same errors into every derived view sheet. This was corrected directly: both rows updated to match the corrected narrative language, and all four index-view sheets regenerated from the corrected data in the same pass. This revision round cleared independent adversarial review with no further substantial revision called for; Doc_03's current status is Approved to proceed by the project lead, 2026-07-08 (see Status line above).
 
 ---
 
