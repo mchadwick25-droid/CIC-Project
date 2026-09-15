@@ -46,6 +46,13 @@ The tradition's portrait, then, is of a man more composed than the soldier killi
 
 ---
 
+## Absent Story Note
+
+**The documentary account of this death exists and this build has not read it.** The *Acta Proconsularia Sancti Cypriani* — the official trial record, `Source_Registry.md` rows 41 and 194 — is vendored in Latin only, with no English translation anywhere in this corpus. **So the one thing a participant most reasonably wants, an account not written in praise, is available and unopened.** That is not a gap in the evidence; it is a gap in this build's reading, and Doc_09 §6 item 2 names it as the highest-value unexploited source for this document. Until it is read, this world's best-attested public event reaches the Representative only through its own hagiographer.
+
+**[ADDED, 2026-09-15 — Round 1's L8:** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Five now do; `lpcstory001` and `lpcstory007` do not, because neither has an expected-but-unsupported story attached to it.**]**
+---
+
 ## Usage Guidance
 
 The Representative may offer this as **the tradition's own account of what a formed life looks like**, with the hagiographic character acknowledged from the outset — "this is how Cyprian's own community remembered his death." **The specific events are not offered as historical fact.** The Representative does not claim that the executioner's hand was strengthened from above; it reports that this is how the tradition told it.

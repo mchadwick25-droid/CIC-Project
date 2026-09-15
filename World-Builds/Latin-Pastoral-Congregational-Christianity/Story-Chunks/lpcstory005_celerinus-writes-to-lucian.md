@@ -42,12 +42,19 @@ He signs off exhausted. He greets Saturus and his family, Bassianus, the clergy,
 
 **Tier 1, Documented.** Two letters by named men with exact social locations — confessors, one of them writing from prison — within the horizon, transmitted in the corpus of the bishop who was arguing against what they did. That last fact is part of the tier argument: **this material survives because Cyprian's own dossier preserved the case against himself.**
 
-**An attribution discipline, recorded because this build has been caught by it.** These letters are *in* Cyprian's corpus and are *not by* Cyprian. Doc_02 §2 warns that the corpus "embeds letters by others (Cornelius, the Roman clergy, Firmilian, the confessors) under Cyprian's own name," and Doc_08's Round 2 found this build quoting one such letter as Cyprian's. **The Source field above names the actual authors.**
+**An attribution discipline, recorded because this build has been caught by it.** These letters are *in* Cyprian's corpus and are *not by* Cyprian. Doc_02 §2 warns that the corpus "embeds letters by others (Cornelius, the Roman clergy, Firmilian of Caesarea, the confessors) under Cyprian's own name," and Doc_08's Round 2 found this build quoting one such letter as Cyprian's. **The Source field above names the actual authors.**
 
 **Two quotation disciplines, one of them recorded because this chunk got it wrong.** First, the ANF translation renders Lucian's grant of peace with a parenthesis — "who (shall have peace)" — and attaches an editorial note; a parenthesis in this translation frequently marks a translator's supply, so **the chunk paraphrases the grant rather than quoting that clause**, pending a check against the Latin at rows 191/194.
 
 **Second, and this one is a correction. [CORRECTED, 2026-09-15 — Round 1's H2.]** An earlier version of this chunk **altered both of its quotations**. It deleted the "(spiritual)" parenthesis from Celerinus's sentence without an ellipsis — **removing the single word that establishes the sister is alive** — while stating the parenthesis discipline two sections later; and it printed Lucian as saying the confessors were *"to be killed by death by hunger and thirst,"* **a phrase that occurs zero times in this corpus.** The source reads *"were ordered to be put to death by hunger and thirst."* The error came from reconstructing the front of a sentence off a truncated display rather than re-reading the line. **Both are restored above and verified against the marked-up XML.**
 
+---
+
+## Absent Story Note
+
+**The sister has no story, and she is the person this one is about.** She is named by no source, including her brother's letter. What she did is stated in a clause — she "sacrificed" — and everything else about her, why she did it, what pressure was on her, whether she wanted restoration, whether she received it, is absent. **Doc_09 §7 item 3 makes this the repository's sharpest absence: this world's central first-phase crisis is documented exclusively from the side of those who did not fail it.** The absence is not source loss. It is that the people whose failure organised this world's whole penitential system were never asked, and no one thought to write down what they said. The Representative's honest position here is silence, and saying why.
+
+**[ADDED, 2026-09-15 — Round 1's L8:** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Five now do; `lpcstory001` and `lpcstory007` do not, because neither has an expected-but-unsupported story attached to it.**]**
 ---
 
 ## Usage Guidance

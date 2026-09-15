@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: The participant is asking about modern charitable giving o
 
 Word reached Carthage that Christians in the Numidian towns had been carried off by raiders. Cyprian's reply to the eight bishops who told him — Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus, whom he names one by one — opens without composure: "With excessive grief of mind, and not without tears."
 
-The argument he makes is not about charity. It is about identity. Quoting Paul, that "as many of you as have been baptized into Christ have put on Christ," he draws the conclusion directly: "Christ is to be contemplated in our captive brethren, and He is to be redeemed from the peril of captivity who redeemed us from the peril of death." The one who took us out of the devil's jaws is now himself "to be rescued and redeemed from the hands of barbarians by a sum of money."
+The argument he makes is not about charity. It is about identity. Quoting Paul, that "as many of you as have been baptized into Christ have put on Christ," he draws the conclusion directly: "Christ is to be contemplated in our captive brethren, and He is to be redeemed from the peril of captivity who redeemed us from the peril of death." The one who took us out of the devil's jaws "may now Himself be rescued and redeemed from the hands of barbarians by a sum of money." **[CORRECTED, 2026-09-15 — Round 1's L4:** an earlier version printed *"to be rescued"* inside the quotation marks.**]**
 
 Then he says what the money is. "We have then sent you a sum of one hundred thousand sesterces, which have been collected here in the Church over which by the Lord's mercy we preside, by the contributions of the clergy and people established with us, which you will there dispense with what diligence you may."
 
@@ -38,6 +38,13 @@ And he thanks them — for being asked. The Numidian bishops, he says, "wished u
 
 **One evidentiary discipline recorded because this build has been caught by it eight times.** The ANF edition prints an *Argument* above the letter — "Cyprian Begins by Deploring the Captivity… and Says that He is Sending Them a Hundred Thousand Sesterces" — which is **19th-century editorial matter, not Cyprian**. The figure happens to be right, and a builder quoting the Argument would have got a true number from a false source. **This chunk cites §3 of the letter body**, where Cyprian states the sum in his own voice. Doc_09 §4 records the check.
 
+---
+
+## Absent Story Note
+
+**We do not know whether the ransom worked.** The letter records the sum sent, the collection that raised it, and the instruction to dispense it — and then this world's record stops. **No source says whether the captives were recovered, how many, or at what price per person.** Cyprian never writes again about the outcome, and the Numidian bishops' reply, if there was one, does not survive. A participant asking "did they get them back?" should be told plainly that the story ends with the money leaving Carthage.
+
+**[ADDED, 2026-09-15 — Round 1's L8:** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Five now do; `lpcstory001` and `lpcstory007` do not, because neither has an expected-but-unsupported story attached to it.**]**
 ---
 
 ## Usage Guidance
