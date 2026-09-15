@@ -37,10 +37,9 @@ Per this project's own per-world convention (not a `cic-build-cycle`-defined gat
 ## §3 Consultation-only secondary scholarship (never vendored)
 
 - Bruce Gordon, *Calvin* (Yale University Press, 2009).
-- Bruce Gordon, *The Swiss Reformation* (Manchester University Press, 2002).
 - Scott Manetsch, *Calvin's Company of Pastors* (Oxford University Press, 2013).
 
-All three named in the census's own `sources` field; none independently verified or vendored this pass (Source Registry rows 11–12). Not candidates for `cic/texts/` — in copyright, cite/paraphrase only if consulted.
+Both named in the census's own `sources` field, verified directly against that field this pass; neither independently verified against the actual book nor vendored this pass (Source Registry rows 11–12). Not candidates for `cic/texts/` — in copyright, cite/paraphrase only if consulted.
 
 ## Decision from the project lead
 

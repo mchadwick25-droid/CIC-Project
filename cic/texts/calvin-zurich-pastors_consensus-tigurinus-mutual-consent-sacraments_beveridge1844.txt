@@ -32,7 +32,9 @@ Source Collection: Internet Archive, archive.org identifier
                   "While") are left as found, per this corpus's standing
                   practice for archive.org scans -- not cleaned up.
    Extraction note: this file is a bounded extract from the full v.2
-                  volume (pp. 195-247 of the printed text, OCR lines
+                  volume (pp. 195-244 of the printed text, per the last
+                  page-header numeral visible before the title page of
+                  the volume's next, separate work; OCR lines
                   8911-10911 of the volume's own _djvu.txt), covering
                   Calvin's prefatory letter to the Zurich pastors, the
                   Zurich pastors' reply, the twenty-six "Heads of
