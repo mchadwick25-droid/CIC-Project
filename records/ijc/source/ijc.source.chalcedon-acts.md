@@ -16,6 +16,7 @@ sources: []
 author: "The Council of Chalcedon (451) - convened by Marcian and Pulcheria"
 work: "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record"
 edition: "ed. and trans. Henry R. Percival, The Seven Ecumenical Councils, Nicene and Post-Nicene Fathers series 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf214-councils); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"

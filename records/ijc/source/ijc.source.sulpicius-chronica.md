@@ -20,6 +20,7 @@ sources: []
 author: "Sulpicius Severus (c. 363-425), Aquitanian ascetic and Martin of Tours' biographer"
 work: "Chronica (The Sacred History), completed c. 403 - a world chronicle from creation to 400, used here for the Priscillian affair of 385: the first execution of Christians for heresy by a Christian state, and the division it opened among the bishops"
 edition: "trans. Alexander Roberts, Nicene and Post-Nicene Fathers ser. 2 vol. 11 (1894), vendored as cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sacred History div2 at line 6915; the Priscillian narrative from line 11463, the Martin passage at 11649)"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "assigned to this world by the cross-world corpus assignment; npnf211 was one of the volumes this world had never opened"

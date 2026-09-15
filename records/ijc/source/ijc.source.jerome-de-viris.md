@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 347-420), sometime secretary to Damasus"
 work: "De Viris Illustribus (Lives of Illustrious Men, 392/393) - used narrowly for its notices of this world's own figures, above all ch. 103 on Damasus (his verse epigrams) - NARROWLY LICENSED: Jerome's wider corpus belongs to the Hieronymian world"
 edition: "trans. Ernest Cushing Richardson, Nicene and Post-Nicene Fathers series 2 vol. 3 (1892), vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf203-theodoret-jerome); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"

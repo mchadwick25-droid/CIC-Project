@@ -16,6 +16,7 @@ sources: []
 author: "Ambrose of Milan (c. 339-397, bishop 374-397)"
 work: "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)"
 edition: "trans. H. de Romestin, Nicene and Post-Nicene Fathers series 2 vol. 10 (1896), vendored as cic/texts/npnf210_ambrose-select-works-letters.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf210-ambrose); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
