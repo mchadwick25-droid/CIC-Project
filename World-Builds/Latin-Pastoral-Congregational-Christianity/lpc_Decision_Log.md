@@ -1675,3 +1675,22 @@ Both forced from fresh copies: inserting *"No source in this corpus records what
 **Why this matters downstream.** Doc_04 is the gravity spine. Doc_05–Doc_09, `lpc_World_Profile.md` and the whole Representative build derive their gravity structure from it. Any document deriving from Doc_04 **inherits these open findings** and should disclose that rather than treating the eight gravities as settled.
 
 **Sequence state after this approval:** Doc_01, Doc_02, Doc_03, **Doc_04**, Doc_09 are Approved to proceed. **Doc_05, Doc_06, Doc_07 and Doc_08 remain not disposed.** The World Profile draft therefore still sits on four undisposed inputs, and the sequence is not yet regular.
+
+---
+
+## 2026-09-15 — Gapped-formation precedent received and applied; two Doc_04 open items closed
+
+**The project lead handed this build thread the standing precedent on gapped/diachronic formation-types**, written by the source-research thread from this world's own build experience, *"for him to hand directly to a build thread facing this shape of problem."* Filed at `lpc_Gapped_Formation_Precedent.md`.
+
+**What it does not do, in its own words.** *"Advisory precedent … Not a Constitution amendment and not a ruling that closes the open question."* **The Article 3 question remains open at portfolio level** — whether a formation-type may recur across a temporal gap with a rival claimant contesting the interval — and still needs the project lead's ruling. Step 0's own logged wording confirms it was *"Checked directly against the Constitution's actual text and found genuinely undefined."* **This world is that question's first real test case, not the defect that created it.**
+
+**Two Doc_04 open items closed, because each is one of the two failure modes the precedent names.**
+
+- **Open Item 8 — closed.** It was a **sixth** attempt at a cleaner classification for Candidate 5, after five supersessions across nine rounds and the project lead's direct ruling of 2026-09-14. The precedent: *"Treat five consecutive re-classifications of the same candidate as itself a signal to stop and accept the narrower finding."* **Candidate 5 is Supporting and honestly thin, and that is the answer.** The argument is recorded, not pursued.
+- **Open Item 6 — closed as a Persistence question.** It proposed reading the 411 *Gesta* to shore up Candidate 5. The *Gesta* is **native to Donatism's world, not this one**, and the precedent records both prior extraction attempts failing review. Its rule: such a source is for *"narrow, specific, independently-verifiable facts only."* The *Gesta* stays available for narrow checks and stays listed as unread; it is no longer carried as an open question about Candidate 5.
+
+**This countermands a recommendation this thread made earlier today.** The `lpc`-versus-`alx`-and-`desert` comparison recommended commissioning a fresh 411 *Gesta* read from a thread that wrote neither withdrawn version, to close Open Item 6. **The precedent says not to** — a third attempt at the same source for the same purpose is the pattern, not the fix. Recorded here rather than left as a stale recommendation.
+
+**What the precedent confirms rather than changes.** Its §3 describes exactly what this world's Doc_01 and Doc_04 already did: strand-singularity argued from evidence attested independently in **both** phases, and **phase testing substituted for cross-strand testing**. That is the build's own method, now written up as portfolio guidance.
+
+**Filing.** This copy sits in `lpc`'s build folder because that is this build thread's write scope. **It is portfolio-level guidance and should also be filed portfolio-level** — `world-build-docs/_cross-world/` holds comparable documents — but that placement is a coach-thread or project-lead action.
