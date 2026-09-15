@@ -27,15 +27,45 @@ OUT  = BASE / "lpc_Force_Index.md"
 # Doc_08 and 5 of 12 in the Index unstripped -- still live injection sites.
 # The opening "**" is therefore optional, and coverage is ASSERTED below
 # rather than assumed.
-TAGS = r"CORRECTED|ADDED|MOVED HERE|MOVED|REVISED"
+# Round 7's H1: TAGS was a CLOSED five-item list compiled without IGNORECASE,
+# so a notice written "[CORRECTION, 2026-09-15 — ... **3A-1** ...]" on a §5
+# gravity line was read as SOURCE and put a false force-gravity connection into
+# the emitted Index with every guard clean. "[CORRECTION, ...]" is live in this
+# world's own Doc_05 and in nine files across World-Builds. Title case, and a
+# tag with the comma omitted, did the same.
+#
+# The pattern is now OPEN: any bracketed capitalised tag followed by a comma or
+# a dash is a notice. The five known tags are kept only for the error messages.
+KNOWN_TAGS = ("CORRECTED", "ADDED", "MOVED HERE", "MOVED", "REVISED", "CORRECTION", "SUPERSEDED")
 # A real notice opens "[TAG, 2026-..." or "[TAG — ...". The document also
 # MENTIONS tags in prose -- §8 discusses "the [ADDED …] provenance clauses" --
 # and an opener pattern that could not tell the two apart made the
 # over-consumption guard fire on the live document. The lookahead requires a
 # comma or a dash after the tag, which every real notice has and no mention does.
-_OPEN = r"\[(?:" + TAGS + r")(?=,|\s*[—-])"
+# A notice opens with a bracketed capitalised word or two -- CORRECTED, ADDED,
+# CORRECTION, SUPERSEDED, MOVED HERE -- followed by a comma or a dash. The
+# "[X]" recapitalisation convention this build uses ("[I]t", "[Y]our") is a
+# single letter and cannot match; "[Supporting]" has no comma or dash after it.
+# Separator forms actually in use, all three: "[TAG, 2026-…", "[TAG 2026-…"
+# (comma omitted -- the one variant that still injected after the first fix),
+# and "[TAG — …". A BARE hyphen is excluded on purpose: it matched
+# "[world-code]_Forces_Document.md", the L4 template's own filename.
+_SEP = r"(?=,\s*\d{4}|\s+\d{4}|\s*—)"
+_OPEN = r"\[[A-Z][A-Za-z]{2,14}(?:\s+[A-Z][A-Za-z]{1,14})?" + _SEP
 NOTICE = re.compile(r"\*{0,2}" + _OPEN + r".*?\]\*\*", re.S)
 OPENER = re.compile(_OPEN)
+# Round 7 also found the coverage assertion CIRCULAR: OPENER and NOTICE were
+# built from the same string, so it could only detect notices it already
+# stripped -- it promised "a notice the stripper cannot see is derivation
+# input" and was structurally incapable of seeing one. DETECT is deliberately
+# broader than NOTICE and case-insensitive, so an opener the stripper misses
+# is still caught and halts the run.
+# The separator must be a comma-and-year, an em dash, or a SPACED hyphen --
+# a bare hyphen matched "[world-code]_Forces_Document.md", the L4 template's
+# own filename, and halted the run on a false positive.
+DETECT = re.compile(
+    r"\[[A-Za-z][A-Za-z]{2,14}(?:\s+[A-Za-z][A-Za-z]{1,14})?"
+    r"(?:,\s*\d{4}|\s+\d{4}|\s*—|\s+-\s)", re.I)
 
 def strip_notices(t):
     return "\n".join(NOTICE.sub(" ", ln) for ln in t.split("\n"))
@@ -73,10 +103,14 @@ def assert_notice_coverage(t, label):
             sys.exit(f"FATAL: a correction notice in {label} spans a structural marker "
                      f"({m.group(0)[:70]!r}...). It is almost certainly missing its own "
                      "terminator and is consuming real source. Refusing to emit.")
-    left = OPENER.findall(strip_notices(t))
+    # Non-circular: DETECT is broader than the stripper, so a notice form the
+    # stripper does not know still halts the run rather than becoming source.
+    left = DETECT.findall(strip_notices(t))
     if left:
-        sys.exit(f"FATAL: {len(left)} notice opener(s) survive stripping in {label} "
-                 f"({left[:3]}). A notice the stripper cannot see is derivation input. Refusing to emit.")
+        sys.exit(f"FATAL: {len(left)} notice-like opener(s) survive stripping in {label} "
+                 f"({left[:3]}). A notice the stripper cannot see is derivation input, "
+                 f"which is how Round 7's H1 put a false gravity connection into the Index. "
+                 f"Known tags: {', '.join(KNOWN_TAGS)}. Refusing to emit.")
 
 text = SRC.read_text(encoding="utf-8")
 assert_notice_coverage(text, "Doc_08_Forces_Document.md")
@@ -160,7 +194,12 @@ def verdict_counts(path):
     H/M/L/C line AFTER the '## VERDICT' heading, and a file that does not
     yield one is reported as unparsed rather than guessed."""
     t = path.read_text(encoding="utf-8", errors="replace")
-    i = t.find("## VERDICT")
+    # Round 7's M1: this anchored on the first TEXTUAL occurrence, so a review
+    # artifact that merely MENTIONS "## VERDICT" in backticks -- which review
+    # artifacts routinely do -- sent the parser to the wrong place and it
+    # returned "counts not parsed". Anchor on the heading at line start.
+    _h = re.search(r"^#{2,3} VERDICT", t, re.M)
+    i = _h.start() if _h else -1
     if i < 0:
         return "no VERDICT heading", "verdict not stated"
     # Round 6's M4: a 1200-character window still reached a recital of the
@@ -168,7 +207,7 @@ def verdict_counts(path):
     # it. The window now ends at the next markdown heading, which is where the
     # verdict statement itself ends -- a structural bound, not a character
     # count chosen by eye.
-    rest = t[i + len("## VERDICT"):]
+    rest = t[_h.end():]
     nxt = re.search(r"^#{2,3} ", rest, re.M)
     window = rest[:nxt.start()] if nxt else rest[:1200]
     vm = re.search(r"(CLEARED|MINOR REVISION|SUBSTANTIAL REVISION REQUIRED|REJECTED)",
@@ -188,6 +227,19 @@ _verdicts = {v for _, v in _VC.values()}
 VERDICT_LINE = ("**all " + _verdicts.pop() + "**" if len(_verdicts) == 1
                 else "verdicts: " + "; ".join(f"Round {n}: {v}" for n, (_, v) in sorted(_VC.items())))
 assert_doc08_round_count(text, NROUNDS)
+
+# Round 7: LATEST conflated "latest artifact on disk" with "latest fix pass
+# performed", so with a review artifact present and no fix pass yet the Index
+# asserted "this file is the Round N fix pass" before any such pass existed.
+# The fix pass is read from Doc_08's own Document Log; the two are reported
+# separately and the difference is stated rather than smoothed.
+_fp = [int(m) for m in re.findall(r"Round\s+(\d+)\s+fix pass", strip_notices(text))]
+LATEST_FIX_PASS = max(_fp) if _fp else 0
+FIXPASS_NOTE = ("" if LATEST_FIX_PASS == LATEST else
+                f" **Note:** the most recent review artifact is Round {LATEST}, but Doc_08's "
+                f"Document Log records no fix pass beyond Round {LATEST_FIX_PASS} — "
+                "**this file therefore reflects the Round "
+                f"{LATEST_FIX_PASS} fix pass and Round {LATEST}'s findings are outstanding.**")
 lines = text.split("\n")
 
 def plain(s):
@@ -450,6 +502,19 @@ for ln in sec4.split("\n"):
     dst_id = plain(dst)
     conns.append(dict(src=src, dst=dst_id, dir=plain(direction), desc=plain(desc)))
 
+# Round 7's M4: de-bolding one force ID in §4 dropped a connection silently --
+# the Index printed 14 against Doc_08 §9's certified fifteen, and nothing
+# compared the parsed count to the rows actually present. Count the table's
+# own data rows and require the parse to consume every one.
+_sec4_rows = [ln for ln in sec4.split("\n")
+              if ln.strip().startswith("|") and ln.count("|") >= 5
+              and not re.match(r"^\|[\s|:-]+\|$", ln.strip())
+              and "From" not in ln.split("|")[1]]
+if len(conns) != len(_sec4_rows):
+    sys.exit(f"FATAL: §4's table has {len(_sec4_rows)} data row(s) but only {len(conns)} parsed. "
+             "A row whose force ID is not bolded is dropped silently, which is how the Index "
+             "printed 14 connections against a certified 15. Refusing to emit.")
+
 xc = {i: [] for i in ids}
 for c in conns:
     if c["dst"].startswith("(none)") or c["dst"] == "—":
@@ -513,7 +578,7 @@ w("# Force Index — Latin Pastoral-Congregational Christianity")
 w("")
 w(f"**Status:** **REVISED after Round {LATEST} — the revision is unreviewed, and not self-disposed.** Co-output of Construction Step 8 with `Doc_08_Forces_Document.md`; reviewed and disposed of together.")
 w(f"**Review history, counted from `Review-Artifacts/` rather than typed:** {HISTORY} — {VERDICT_LINE}. **[CORRECTED, 2026-09-15 — Round 3's NEW-H3 and Round 5's H1:** these lines were generator literals and went stale twice, two rounds apart. **The round count and each round's finding counts are now read off the artifact files themselves**, so a round that exists on disk cannot be missing from this line.**]**")
-w(f"**World file-code:** `lpc` · **Drafted:** 2026-09-15 · **Revised:** 2026-09-15 (Round {LATEST} fix pass) · **Generated by** `scripts/gen_force_index.py`, committed beside this file")
+w(f"**World file-code:** `lpc` · **Drafted:** 2026-09-15 · **Revised:** 2026-09-15 (Round {LATEST_FIX_PASS} fix pass) · **Generated by** `scripts/gen_force_index.py`, committed beside this file")
 w("**Generated from `Doc_08_Forces_Document.md` by `gen_force_index.py`. Never hand-edited.**")
 w("")
 w("**What re-running the generator actually re-verifies, stated exactly — because Round 2 found the earlier blanket claim covered less than it sounded like.** "
@@ -663,8 +728,18 @@ w("**Cross-cell cross-check (§3 prose against §4's table). [ADDED, 2026-09-15 
      "**" + str(len(xc_mismatch)) + " disagreement(s):** " + ", ".join(f"`{a}` names `{b}`, §4 does not pair them" for a, b in xc_mismatch) + "."))
 w("")
 w("**The controls, stated at what they actually cover. [REVISED, 2026-09-15 — Round 6's M2, M3 and M4.]** "
-  "There are **nine**: one regression, six positive controls, and two negative controls that halt the generator. "
-  "*(An earlier version of this paragraph, and the Decision Log entry taken from it, said \"a regression, four positive, three negative.\" The miscount is corrected here.)* "
+  "There are **ten**: **one regression (A), five positive controls (B–F) whose planted defect must appear in the output, and four negative controls (G, H, I, J) that must halt the generator.** "
+  "**(A)** regression against the pre-fix draft at `9eccc532` — three §3/§5 divergences, three stubs. "
+  "**(B)** a false denial produces a contradiction row. "
+  "**(C)** a force ID planted inside a notice does not reach the tables — **tested across six tag forms**: `[CORRECTED, …]`, `[CORRECTION, …]`, `[Added, …]` (title case), `[ADDED 2026-… ]` (comma omitted), `[NOTE — …]`, and an all-lowercase `[correction, …]`, which the broader detector halts on rather than silently stripping. "
+  "**(D)** an omitted connection produces a contradiction row. "
+  "**(E)** a Layer-3 claim §4 does not carry produces a cross-cell row. "
+  "**(F)** a notice in `**Heading. [TAG …]**` form is stripped. "
+  "**(G)** a malformed notice that swallows the next notice's opener halts. "
+  "**(H)** a review-status claim disagreeing with `Review-Artifacts/` halts. "
+  "**(I)** a force filed under a `### CELL` heading its ID contradicts halts. "
+  "**(J)** a §4 row that fails to parse — a de-bolded force ID — halts, instead of silently printing one connection fewer than Doc_08 certifies. "
+  "*(This split has now been wrong three times, and the count itself has changed twice more as controls were added. An early version said \"four positive, three negative\"; its replacement said \"six positive, two negative,\" filing control (I) — which halts — among the positives. Round 7 reproduced all nine and corrected it. The miscount travelled from this paragraph into `lpc_Decision_Log.md` and then into the brief for the next round, twice running, which is worth more than the arithmetic: **a number stated here is inherited downstream without being re-derived.**)* "
   "**(A) Regression** against the pre-fix draft at `9eccc532`: all three §3/§5 divergences Round 1 found by hand. "
   "**(B) False denial** — §3 claiming §5 does not carry `G6` produces a contradiction row. "
   "**(C) Notice injection** — a bold force ID planted inside a `[CORRECTED …]` notice does not reach the tables. "
@@ -707,7 +782,7 @@ w("---")
 w("")
 w("## Disposition")
 w("")
-w(f"**Not disposed.** Reviewed and disposed of together with `Doc_08_Forces_Document.md`. **{NWORD} independent round(s) have been run**, the most recent `Review-Artifacts/Doc08_Round{LATEST}_Review.md` ({verdict_counts(ROUNDS[-1][1])}, SUBSTANTIAL REVISION REQUIRED); this file is the Round {LATEST} fix pass and is **unreviewed**. Not self-certified. Not Frozen.")
+w(f"**Not disposed.** Reviewed and disposed of together with `Doc_08_Forces_Document.md`. **{NWORD} independent round(s) have been run**, the most recent `Review-Artifacts/Doc08_Round{LATEST}_Review.md` ({_VC[LATEST][0]}, {_VC[LATEST][1]}); this file is the Round {LATEST_FIX_PASS} fix pass and is **unreviewed**.{FIXPASS_NOTE} Not self-certified. Not Frozen.")
 w("")
 
 OUT.write_text("\n".join(O), encoding="utf-8")
