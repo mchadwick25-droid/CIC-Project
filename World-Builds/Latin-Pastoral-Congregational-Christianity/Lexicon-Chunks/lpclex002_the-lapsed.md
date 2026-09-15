@@ -66,4 +66,4 @@ Nothing gradual and nothing private. This is a documented act under state compul
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied: the category and the controversy are Documented; the disagreement recorded here is in-world, between Cyprian, Novatian and the Felicissimus party, not a live contest in the modern scholarship about what the term meant.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No template brackets or builder notes remain. **One bracketed block remains, deliberately:** the dated correction notice in Key Sources, which records what this entry previously claimed and why it changed. It is a construction note, it sits outside the World Meaning, and the record is worth more than a clean file. CT tag not applied: the category and the controversy are Documented; the disagreement recorded here is in-world, between Cyprian, Novatian and the Felicissimus party, not a live contest in the modern scholarship about what the term meant.

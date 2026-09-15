@@ -1,10 +1,10 @@
 # Lexicon Deployment Index — Latin Pastoral-Congregational Christianity
 
-**Status:** **REVISED after Rounds 1 and 2 — not self-disposed.** Co-output of Construction Step 6 with `Doc_06_Full_Lexicon_Development.md` and the nineteen `Lexicon-Chunks/` files; the three are reviewed and disposed of together. See Doc_06's own Disposition.
+**Status:** **REVISED after Rounds 1, 2 and 3 — not self-disposed.** Co-output of Construction Step 6 with `Doc_06_Full_Lexicon_Development.md` and the nineteen `Lexicon-Chunks/` files; the three are reviewed and disposed of together. See Doc_06's own Disposition.
 **World file-code:** `lpc`
-**Date drafted:** 2026-09-14 · **Revised:** 2026-09-15 (Round 1 and Round 2 fix passes)
-**Generated from the chunk files, not maintained alongside them.** Every row is parsed directly out of `Lexicon-Chunks/lpclex*.md` — Tier, all seven tag columns, Aliases, Related-Terms, the Registry rows cited anywhere in the chunk, and the CT, Reported-Experience and Author-Gravity flags. **Re-deriving it is the check:** regenerate and diff.
-**[CORRECTION, 2026-09-15 — Round 1's H1.]** The generator's row-matching pattern captured only the *first* number after *"rows"*, so `lpclex001`'s cell printed *Rows 1, 19* where the chunk cites rows 1, 2, 3, 5 and 19. **That single wrong cell falsified this index's central claim** — an index advertised as safe to diff is worth nothing if the derivation is lossy. The pattern now captures every number in a run, and the flock's cell is the worked proof. Round 1 re-derived all 18×13 cells and found this one and no other.
+**Date drafted:** 2026-09-14 · **Revised:** 2026-09-15 (Round 1, Round 2 and Round 3 fix passes)
+**Generated from the chunk files, not maintained alongside them.** Every row below is parsed directly out of `Lexicon-Chunks/lpclex*.md` — Tier, all seven tag columns, Aliases, Related-Terms, the Registry rows cited anywhere in the chunk, and the CT, Reported-Experience and Author-Gravity flags. **Re-deriving it is the check:** regenerate and diff.
+**This file is regenerated, never hand-edited — and that rule was learned the hard way, twice.** Round 1's H1 found the generator dropping data. Round 3's H-R1 found something worse: a fix pass that changed a chunk's `Aliases` line and then **hand-edited this index instead of regenerating it**, leaving the table stale — and stale in a way that defeated the very fix that produced it, since the retrieval disambiguation added to `lpclex017` never reached the index a retrieval system would read. **A derived file edited by hand is no longer derived, and its central claim silently stops being true.** Both the table below and the counts in §2–§6 are emitted by the same pass over the chunks.
 
 ---
 
@@ -28,7 +28,7 @@
 | 14 | "the one episcopate" | 2 | Y | – | – | – | – | Y | – | the one episcopate, episcopatus unus est, the undivided office, the college of bishops | the flock, reconciliation / penitential discipline, communion, heresy, suffrage, bishop of bishops (negated), plenary Council, schism | Rows 3 | No |
 | 15 | schism | 2 | – | Y | – | Y | – | – | Y | schism, division, separation, breaking communion, rival hierarchy | the flock, communion, heresy, the one episcopate, compel them to come in | Rows 3, 13 | No |
 | 16 | "compel them to come in" — Augustine's coercion doctrine | 2 | Y | – | Y | – | – | Y | Y | compel them to come in, coercion, religious compulsion, the parable of the feast, state force against schismatics | the flock, communion, heresy, grace, schism | Rows 12, 43 | **Yes** |
-| 17 | *libelli* (sacrifice-certificates) | 2 | Y | – | – | Y | – | Y | – | libellus, libelli, certificate, sacrifice-certificate, certificate of compliance | the lapsed, reconciliation / penitential discipline, libellatici / sacrificati, certificates | Rows 8 | No |
+| 17 | *libelli* (sacrifice-certificates) | 2 | Y | – | – | Y | – | Y | – | libellus, libelli, sacrifice-certificate, certificate of compliance, certificate (ambiguous — see Do-Not-Retrieve-When) | the lapsed, reconciliation / penitential discipline, libellatici / sacrificati, certificates | Rows 8 | No |
 | 18 | *libellatici* / *sacrificati* — the lapsed, two-way | 2 | Y | – | – | Y | – | Y | – | libellatici, sacrificati, the two classes of lapsed, those who bought certificates, those who sacrificed | the lapsed, reconciliation / penitential discipline, libelli (sacrifice-certificates) | Rows 8 | No |
 | 19 | "certificates" — the martyrs' and confessors' letters of peace | 2 | – | Y | Y | Y | Y | Y | – | certificate, letters of peace, letter of peace, libellus pacis, the martyrs' letters, a certificate from the confessors | the flock, the lapsed, reconciliation / penitential discipline, confessor, communion, libelli (sacrifice-certificates) | Rows 1 | **Yes** |
 
@@ -69,7 +69,7 @@
 
 **Proportion check.** Tier 1 is 7 of 19. LDF Part III: *"a lexicon in which most entries are Tier 1 should be treated as a signal that tiering discipline has not actually been applied."* Tier 1 is a minority; `Doc_06_Full_Lexicon_Development.md` §2 gives the reasoning for every entry that moved from the tier Doc_03 proposed.
 
-**Why there are no Tier 3 entries, stated rather than left as an absence.** Both former Tier 3 entries — *libelli* and *libellatici / sacrificati* — were reclassified to Tier 2 at Round 1's M1. The template omits Key Sources at Tier 3, and for both entries the source disclosure *is* the justification for how they are treated: one records that its Latin headword is absent from this world's vendored corpus, the other that its whole classification is a 19th-century editorial endnote. LDF Part III's own remedy governs — *"A Tier 3 entry that begins to require these should be reclassified to Tier 2 rather than expanded in place."* **A lexicon with no Tier 3 entries is a result, not a gap:** this world's eighteen-term candidate list, having been generated from gravity-bearing vocabulary, contained nothing genuinely peripheral enough to sit at reference depth.
+**Why there are no Tier 3 entries, stated rather than left as an absence.** Both former Tier 3 entries — *libelli* and *libellatici / sacrificati* — were reclassified to Tier 2 at Round 1's M1, because the template omits Key Sources at Tier 3 and for both entries the source disclosure *is* the justification for the entry. LDF Part III's own remedy governs: *"A Tier 3 entry that begins to require these should be reclassified to Tier 2 rather than expanded in place."* **A lexicon with no Tier 3 entries is a result, not a gap** — Round 2 ran the Part III test independently and the conclusion survived, though it also noted the premise Doc_06 gave for it is not one Doc_03 states (Round 2's L-N3, carried).
 
 ---
 
@@ -89,7 +89,7 @@
 
 **[CT] Contested Tradition** — 3: grace; schism; "compel them to come in" — Augustine's coercion doctrine
 
-**[RT] is the runtime priority set** (LDF Part V) and **[DR] is the correction set** — each [DR] entry carries a Modern Hearing / World Hearing pairing a Representative can draw on directly when a participant's question reveals the anticipated modern assumption.
+**[RT] is the runtime priority set** (LDF Part V) and **[DR] is the correction set**. **Carried from Round 2, unresolved:** *suffrage* carries no [DR] although Doc_06 §4 names it a sharpest-case distortion — a real tension between the tag set and the prose, recorded here rather than left to a later pass to rediscover.
 
 ---
 
@@ -101,15 +101,15 @@
 | schism | Yes | **Yes** | Application to this world; secondarily Historical scope |
 | "compel them to come in" — Augustine's coercion doctrine | Yes | **Yes** | Relationship to present-day traditions; secondarily Meaning |
 
-**Result: 3 CT-tagged, 3 completed, 0 mismatches.** **Doc_03 assigned [CT] to three terms and stated a contest type for none of them**; supplying the type is Doc_06's own work and is done in all three. Round 1 verified all three as specific and non-templated.
+**Result: 3 CT-tagged, 3 completed, 0 mismatches.** **Doc_03 assigned [CT] to three terms and stated a contest type for none of them**; supplying the type is Doc_06's own work. Round 1 verified all three as specific and non-templated.
 
 ---
 
 ## 5. Related-Terms Reciprocity Check
 
-**Result: 122 links across 19 entries — 61 reciprocal pairs, zero one-way.** Verified by re-parsing the chunks from disk, and independently re-verified by **Round 2**, which parsed all nineteen itself rather than reading this claim. **[CORRECTED, 2026-09-15 — Round 2's M-N2:** this previously credited **Round 1**, which reviewed eighteen chunks and found 110 links across 55 pairs. The nineteenth did not exist when Round 1 ran.**]**
+**Result: 122 links across 19 entries — 61 reciprocal pairs, zero one-way.** Verified by re-parsing the chunks from disk, and independently re-verified by **Round 2** and again by **Round 3**, each parsing all nineteen itself rather than reading this claim. **Round 1 reviewed eighteen chunks and found 110 links across 55 pairs**; the nineteenth did not exist then.
 
-**This check has found real defects twice and both are on the record.** The first pass authored each chunk's list independently and produced **27 one-way or broken links** — the Development Workflow's step 5 cross-reference pass had not been run. Two defects then surfaced *inside* the repair: a matcher that substring-matched into Aliases and reported 35 failures that were not real, and a repair that inserted canonical terms containing commas into a comma-separated field. Related-Terms uses a **comma-free reference handle** for every term, so the field cannot be fragmented by its own contents.
+**This check has found real defects twice.** The first pass authored each chunk's list independently and produced **27 one-way or broken links** — the cross-reference pass had not been run. Two defects then surfaced *inside* the repair: a matcher that substring-matched into Aliases and reported 35 failures that were not real, and a repair that inserted comma-bearing canonical terms into a comma-separated field. Related-Terms uses a **comma-free reference handle** for every term, so the field cannot be fragmented by its own contents.
 
 ---
 
@@ -126,7 +126,7 @@
 | "compel them to come in" — Augustine's coercion doctrine | **Yes** | known only through Augustine's own advocacy, in his own defence |
 | "certificates" — the martyrs' and confessors' letters of peace | **Yes** | the confessors' own certificates do not survive; Cyprian quotes and objects to them |
 
-**8 of 19 entries carry an Author Gravity note.** The column is derived from the presence of that note in each chunk, so it cannot disagree with the chunk. Round 1 verified every Yes and every No against the chunks.
+**8 of 19 entries carry an Author Gravity note.** The column is derived from the presence of that note in each chunk, so it cannot disagree with the chunk. **Round 1 verified 7 Yes / 11 No across eighteen entries; Round 2 and Round 3 each re-verified all 19.** **[CORRECTED, 2026-09-15 — Round 3's M-R1:** this previously said *"Round 1 verified every Yes and every No,"* above a table Round 1 never saw in full.**]**
 
 ---
 
@@ -142,9 +142,9 @@
 | compel them to come in | the volume's own preface calls the doctrine *"a false exegesis"* and *"least satisfactory to Protestant readers"* | a 19th-century Protestant editor's **theological verdict** |
 | libellatici / sacrificati | the entire two-way classification is an editorial endnote on a different, Confidence-C text | disclosed as editorial throughout |
 | **the lapsed** *(added 2026-09-15, Round 1's H3)* | that same two-way classification, narrated as flat fact in a **Tier 1 World Meaning** | **the register listed five and missed this one**; Doc_05 had flagged the identical sentence and the chunk dropped the flag |
-| **certificates (letters of peace)** *(added 2026-09-15, Round 2's M-N1)* | *"thousands of certificates were given, against the Gospel law"* — an **editorial endnote's** wording, quoted in the chunk as re-verified Cyprian; his own text reads *"were **daily** given, **contrary to the law of the Gospel**"* | **committed in the entry added to close a discovery gap**, in the deliverable that keeps this register |
+| **certificates (letters of peace)** *(added 2026-09-15, Round 2's M-N1)* | *"thousands of certificates were given, against the Gospel law"* — an **editorial endnote's** wording, quoted as re-verified Cyprian; his own text reads *"were **daily** given, **contrary to the law of the Gospel**"* | **committed in the entry added to close a discovery gap**, in the deliverable that keeps this register |
 
-**The last two entries are the ones worth dwelling on, and they say the same thing twice.** The sixth was not a new bleed-through but a **regression** — the upstream document had caught it, marked it, and the lexicon chunk un-marked it. The seventh was committed *in the very entry added to close a discovery gap*, by a pass that had this register open in front of it. **A register listing the instances its author remembered is not a control.** The control is mechanical: mark the `<note>` spans **before** stripping tags, and check every quotation against the marked-up source. Stripping first makes the editorial apparatus indistinguishable from the text — which is precisely how both of these happened. The same method now yields this world's certificate count at **38 in Cyprian's own text against 42 on a naive sweep**.
+**The last two entries say the same thing twice, and Round 3 sharpened it further.** The sixth was a **regression** — the upstream document had caught it, marked it, and the chunk un-marked it. The seventh was committed *inside the entry added to close a discovery gap*, by a pass with this register open in front of it — and Round 3 traced where that wording came from: **the endnote's phrasing appears verbatim in Round 1's own finding text.** The drafting pass copied its reviewer. **So the control cannot stop at the vendored sources: a quotation arriving from a review artifact needs checking against the marked-up text exactly as one arriving from memory does.** Mechanically: mark the `<note>` spans **before** stripping tags, since stripping first makes the apparatus indistinguishable from the text. The same method yields this world's certificate count at **38 in Cyprian's own text against 42 on a naive sweep**.
 
 ---
 
@@ -156,9 +156,9 @@
 - **Augustine-phase only:** grace; plenary Council; compel them to come in
 - **Cross-phase:** the flock; preaching; catechesis; the people; suffrage; communion; heresy; schism
 
-**`suffrage` is cross-phase and its tagging now agrees with that.** Round 1's H2 found the chunk carrying **[PV]**, which Doc_03 rules out by name — *"it does not sit on 'suffrage,' which is a cross-phase pattern rather than a single-phase term"* — and which contradicted this very sheet. The tag is removed.
+**`suffrage` is cross-phase and its tagging now agrees with that** — Round 1's H2 removed a [PV] tag Doc_03 rules out by name.
 
-**`certificate` is ambiguous across two entries and the disambiguation is reciprocal.** `lpclex017` (the Decian sacrifice-certificate, which made a person lapsed) and `lpclex019` (the confessors' letter of peace, which asks the church to take them back) both answer to the bare word. Round 2's M-N4 found only `lpclex019` carrying the cross-reference; both now do, and a participant asking simply *"what was a certificate?"* should receive both.
+**`certificate` is ambiguous across two entries and the disambiguation is reciprocal.** `lpclex017` (the Decian sacrifice-certificate, which made a person lapsed) and `lpclex019` (the confessors' letter of peace, which asks the church to take them back) both answer to the bare word; both now carry the cross-reference, and **the ambiguity is marked in `lpclex017`'s alias cell above — which is where Round 3's H-R1 found this index stale.**
 
 **`confessor`'s phase bound was established by a check, not assumed:** twenty stem occurrences across all eight vendored Augustine volumes against roughly 150 in Cyprian's one, none in this sense (Doc_05 §2.3).
 
@@ -166,4 +166,4 @@
 
 ## Disposition
 
-**Not disposed.** Reviewed and disposed of together with `Doc_06_Full_Lexicon_Development.md` and the nineteen chunk files as co-produced Step 6 outputs. `Review-Artifacts/Doc06_Round1_Review.md` returned **REVISION REQUIRED** (3H 3M 2L); all applied. `Review-Artifacts/Doc06_Round2_Review.md` returned **REVISION REQUIRED** (1H 4M 4L 1C) and found seven of Round 1's eight fixed and one fixed wrongly; four findings applied on the project lead's direction, six carried at Doc_06 §5. Not self-certified. Not Frozen.
+**Not disposed.** Reviewed and disposed of together with `Doc_06_Full_Lexicon_Development.md` and the nineteen chunk files as co-produced Step 6 outputs. Round 1 returned REVISION REQUIRED (3H 3M 2L); Round 2, REVISION REQUIRED (1H 4M 4L 1C); Round 3, REVISION REQUIRED (1H 4M 5L 2C) while judging the deliverable **adequate to proceed to Doc_07**. **This latest fix pass has not itself been independently reviewed and does not claim to have been.** Not self-certified. Not Frozen.
