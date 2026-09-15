@@ -13,6 +13,46 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-09-15 — Documented stories audited: the verification gap is real, and it is blocked on the corpus, not on effort
+
+**Origin.** The 545 `documentedStories` are the largest block of published
+prose in the Atlas and the only one never reviewed. Asked to survey them, then
+to check the quotations the survey said were checkable.
+
+**Found.** 490 of 545 stories (89.9%) carry
+`verification: from reference summaries; primary text not yet read`, and 177
+of those put 369 quoted spans into a historical figure's mouth. Against
+CLAUDE.md's first rule — quotes re-verified verbatim, because misattribution
+"has been a real, recurring defect here" — that reads as a serious exposure.
+
+**Then the check was run, and it corrected the survey.** "76 checkable today"
+was wrong: it counted entries that have a corpus-map bucket, not entries whose
+*cited work* is vendored. Of 545 stories, **one** had its source on disk
+completely enough to audit — Possidius' *Life of Augustine*. Reading it
+produced four corrections (commit `283c9392`), including an indirect report
+turned into a direct-speech scene, and three false alarms where the story had
+translated the Latin or followed the editor's note and was right.
+
+**Decided.** This is not an editorial backlog and it is not mechanically
+checkable. A machine can locate a candidate passage; only reading the cited
+passage says which way it falls. The blocker is acquisition: Gregory's
+*Dialogues* II, Pelagius *ad Demetriadem*, Koriwn, Moses of Khoren, Romanos,
+Abu Qurrah, the *Life of Radegund*, Gregory of Tours and Auxentius on Ulfila
+are not vendored, and eleven quotations rest on the *Dialogues* alone.
+
+**Also found, and worth its own action.** `WANTS-REGISTER.md` is generated
+from `records/`, so it cannot see the atlas stories' 1,111 primary citations,
+which live in `atlas-v3.html`. The fleet's instrument for "sources we depend on
+and cannot read" is blind to the project's largest single block of citations.
+
+**Next action.** Full method, figures and the unreachable-source list in
+`Ministry/Operations/Audits/CiC_Atlas_Documented_Stories_Verification_Audit_2026-09-15.md`.
+No rows were added to `download-queue-seed.yaml` — its own rule requires a
+candidate verified against a real host, and none of these has been. Open for a
+ruling: whether the wants-register should learn to read the atlas, and whether
+a story's verification state should reach a visitor in some visitor-facing
+form now that the build note has been removed from the card.
+
 ## 2026-08-31 (still later) — Founding principle stated: the base program is the whole ecology, not the built worlds
 
 **Origin.** After the storyboard's ten-scene revision, Mark stated the
