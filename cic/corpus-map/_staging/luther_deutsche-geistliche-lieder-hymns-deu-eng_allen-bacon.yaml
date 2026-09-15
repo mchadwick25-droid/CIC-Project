@@ -1,0 +1,18 @@
+# Worker: source-research thread, 2026-09-15. A verified acquisition lead
+# already named in the Lutheran Wittenberg dossier's own §3, vendored
+# this pass ahead of that world's Doc_02 completeness needs.
+source_file: luther_deutsche-geistliche-lieder-hymns-deu-eng_allen-bacon.txt
+
+assignments:
+  - work: "The Hymns of Martin Luther"
+    author: luther
+    locus: "whole file (bilingual, German with Bacon's English version)"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: assigned
+    note: >
+      Luther's own hymn-writing voice, a distinct genre from his prose
+      treatises and catechisms already vendored for this world. Bilingual
+      presentation - the English version is the evidence-language content
+      this project's Representative-construction discipline actually uses.

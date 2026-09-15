@@ -595,3 +595,48 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-13 (Project Gutenberg's own \"Public domain in the USA\" tag, translator, and full-text downloadability all confirmed against the host directly)"
     status: not-yet-downloaded
+
+  - title: "The Consensus Tigurinus (Mutual Consent as to the Sacraments), 1549 - Tract VIII in Calvin's Tracts, Vol. II"
+    author: "John Calvin and the Pastors of the Church of Zurich (Bullinger et al.)"
+    translator: "Henry Beveridge"
+    year: "1844-1851"
+    world: "the-reformed-cities-zurich-and-geneva"
+    why: >
+      Closes a binding open acquisition item from this world's own Step 0
+      draft and Source Readiness Dossier - the documented Zwingli/
+      Bullinger-to-Calvin bridge, genuinely unlocated as of the 2026-09-15
+      dossier pass. Found via Beveridge's own CTS Tracts series, the
+      dossier's own named most-likely candidate; confirmed directly
+      against the volume's table of contents and body text (Calvin's own
+      dedicatory letter, dated Geneva, 1 August 1549) before vendoring.
+    url: "https://archive.org/details/tractsre02calvuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes, full volume, then mechanically extracted to Tract VIII, pp. 199-244); archive.org's own metadata API NOT_IN_COPYRIGHT confirmed"
+    status: downloaded
+
+  - title: "Selections from the Table Talk of Martin Luther"
+    author: "Martin Luther"
+    translator: "Captain Henry Bell"
+    year: "1640s (exact print year of this edition not independently confirmed)"
+    world: "lutheran-wittenberg-and-its-congregations"
+    why: >
+      A verified acquisition lead named in this world's own Source
+      Readiness Dossier §3, vendored this pass to close it.
+    url: "https://www.gutenberg.org/ebooks/9841"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes); Gutenberg's own \"Public domain in the USA\" tag confirmed via the eBook's own bibrec page"
+    status: downloaded
+
+  - title: "Dr. Martin Luther's Deutsche Geistliche Lieder - The Hymns of Martin Luther, With an English Version"
+    author: "Martin Luther"
+    translator: "ed. Nathan H. Allen; Leonard Woolsey Bacon (English version)"
+    year: "not independently confirmed"
+    world: "lutheran-wittenberg-and-its-congregations"
+    why: >
+      A verified acquisition lead named in this world's own Source
+      Readiness Dossier §3, vendored this pass to close it. Bilingual
+      German/English hymnal.
+    url: "https://www.gutenberg.org/ebooks/417"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes); Gutenberg's own \"Public domain in the USA\" tag confirmed via the eBook's own bibrec page"
+    status: downloaded

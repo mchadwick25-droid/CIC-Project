@@ -2007,3 +2007,55 @@
     (1924, clears this corpus's "to ~1929"/rolling-95-year rule) in the US, but NOT yet
     under a life+70 jurisdiction (Bell d. 1967, reaches 2038) - the mirror image of the
     Budge Paradise caution already on file (Budge d. 1934, life+70 already elapsed).
+- filename: calvin-bullinger_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+  supplied_by: Claude (proactive source-research thread, closes a binding open acquisition
+    item from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md and its
+    world's own Step 0 draft - the Consensus Tigurinus, the documented Zwingli/Bullinger-to-
+    Calvin bridge)
+  date_added: '2026-09-15'
+  notes: >-
+    Mutual Consent as to the Sacraments (Consensus Tigurinus, 1549), Calvin and the Pastors
+    of the Church of Zurich (Bullinger et al.), trans. Henry Beveridge - a PARTIAL EXTRACT
+    (Tract VIII, pp. 199-244) mechanically pulled from Calvin's Tracts, Vol. II (Edinburgh:
+    Calvin Translation Society, 1844-1851), not the full ~150,000-word multi-tract volume,
+    whose other contents (a Brief Confession of Faith, the French Reformed Confession, a
+    Short Treatise on the Lord's Supper, a Second Defence of the Sacraments, and more) are
+    not assigned to any world by this pass. Located via Beveridge's own CTS Tracts series,
+    named as the most likely candidate in the Reformed Cities dossier's own §4; confirmed
+    directly against this volume's table of contents (Tract VIII, p. 199) and body text
+    (Calvin's own dedicatory letter dated "Geneva, 1st August 1549," and the reciprocal
+    "Letter from the Pastors of Zurich to Calvin") before vendoring, not title-matched.
+    Fetched directly (curl, raw bytes) from Internet Archive, identifier tractsre02calvuoft,
+    "possible-copyright-status": "NOT_IN_COPYRIGHT" confirmed via the item's own metadata
+    API. RIGHTS: public domain by date, an 1844-1851 publication. Raw djvu OCR text; runs
+    of 2+ spaces collapsed to one throughout, no wording changed.
+- filename: luther_table-talk-selections_bell-morley.txt
+  supplied_by: Claude (proactive source-research thread, a verified acquisition lead
+    already named in lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md
+    §3, vendored this pass)
+  date_added: '2026-09-15'
+  notes: >-
+    Selections from the Table Talk of Martin Luther, trans. Captain Henry Bell (1640s,
+    per the House of Commons order of 1646 and certificate of 1650 cited within the text
+    itself; exact print edition and year of this specific volume not independently
+    confirmed beyond Project Gutenberg's own bibliographic record), with an introductory
+    essay by Henry Morley. Fetched directly (curl, raw bytes) from Project Gutenberg eBook
+    #9841 (www.gutenberg.org/ebooks/9841), released 2006-02-01, prepared by Les Bowler.
+    RIGHTS: public domain, per Project Gutenberg's own "Public domain in the USA"
+    declaration, directly confirmed via the eBook's own bibrec page. Gutenberg boilerplate
+    stripped mechanically at its own START/END markers; body text otherwise unaltered.
+- filename: luther_deutsche-geistliche-lieder-hymns-deu-eng_allen-bacon.txt
+  supplied_by: Claude (proactive source-research thread, a verified acquisition lead
+    already named in lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md
+    §3, vendored this pass)
+  date_added: '2026-09-15'
+  notes: >-
+    Dr. Martin Luther's Deutsche Geistliche Lieder - The Hymns of Martin Luther Set to
+    Their Original Melodies, With an English Version, ed. Nathan H. Allen and trans.
+    Leonard Woolsey Bacon. A bilingual hymnal - each hymn's original German text presented
+    alongside Bacon's own English version, not English-only. Fetched directly (curl, raw
+    bytes) from Project Gutenberg eBook #417 (www.gutenberg.org/ebooks/417), released
+    1996-02-01. RIGHTS: public domain, per Project Gutenberg's own "Public domain in the
+    USA" declaration, directly confirmed via the eBook's own bibrec page. Gutenberg
+    boilerplate stripped mechanically at its own START/END markers; body text otherwise
+    unaltered.

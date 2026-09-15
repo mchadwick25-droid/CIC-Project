@@ -1,0 +1,32 @@
+# Worker: source-research thread, 2026-09-15. Closes a binding open
+# acquisition item for the Reformed Cities build (Atlas VI.2) - the
+# Consensus Tigurinus, the documented Zwingli/Bullinger-to-Calvin bridge
+# named in that world's own Step 0 draft and Source Readiness Dossier.
+source_file: calvin-bullinger_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+
+authors_ruled:
+  calvin-bullinger:
+    kind: metadata-omission
+    evidence: >
+      Not CCEL-derived markup (this is a plain-text archive.org extract of
+      a jointly-authored 1549 agreement). The file's own intake header and
+      the text itself credit both parties directly: Calvin's own
+      dedicatory letter and the reciprocal "Letter from the Pastors of
+      Zurich to Calvin" (Bullinger's own church) are both present in the
+      vendored extract - a genuine joint production, not a single author's
+      work with a co-signer.
+    from_file: calvin-bullinger_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+
+assignments:
+  - work: "The Consensus Tigurinus (Mutual Consent as to the Sacraments), 1549"
+    author: calvin-bullinger
+    locus: "whole file (Tract VIII, pp. 199-244 of the source volume)"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      The documented doctrinal bridge between Bullinger's Zurich and
+      Calvin's Geneva on the Lord's Supper - named directly in this
+      world's own Step 0 draft (§4 item 3) and dossier (§4) as a genuinely
+      open acquisition item until this pass. Closes that binding item.

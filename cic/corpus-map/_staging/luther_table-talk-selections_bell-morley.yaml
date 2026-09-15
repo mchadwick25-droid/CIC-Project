@@ -1,0 +1,17 @@
+# Worker: source-research thread, 2026-09-15. A verified acquisition lead
+# already named in the Lutheran Wittenberg dossier's own §3, vendored
+# this pass ahead of that world's Doc_02 completeness needs.
+source_file: luther_table-talk-selections_bell-morley.txt
+
+assignments:
+  - work: "Selections from the Table Talk of Martin Luther"
+    author: luther
+    locus: "whole file"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: assigned
+    note: >
+      Luther's own recorded table conversation (Bell's 1640s translation
+      of the Tischreden) - a distinct, informal register from his
+      composed treatises and catechisms already vendored for this world.
