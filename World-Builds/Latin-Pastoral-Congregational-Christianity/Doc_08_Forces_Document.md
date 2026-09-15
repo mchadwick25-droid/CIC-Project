@@ -1,0 +1,413 @@
+# Doc_08 — Forces Document
+## Latin Pastoral-Congregational Christianity
+
+**World file-code:** `lpc`
+**Produced at:** Construction Step 8
+**Date drafted:** 2026-09-15
+**Required before:** the Validation Layer and deployment. *No world advances to either without a complete Doc_08.*
+**Voice:** construction record, read by builders, reviewers and external scholars — not by the encounter system. **Layer 2 of every force is the exception**, and is written in this world's own vocabulary as the template requires.
+
+**Governed by:** Construction Framework V7.4 Part III and Part VII Step 8; **Forces Framework V1.1** (the six-cell matrix, the three layers, and the five governing principles); Constitution Article 22 (Forces Principle) and Article 17 (confidence calibration); `L4-Templates/[world-code]_Forces_Document.md`.
+
+**Co-produced output:** `lpc_Force_Index.md` — one row per force, with connected gravities, cross-cell connections, confidence and transmission flags, **generated from this document's own prose by script** so the two cannot drift. Built alongside the matrix, not after it.
+
+**Status:** **DRAFT — not reviewed, not self-disposed.**
+
+---
+
+## Section 1 — World Identification
+
+**World name:** Latin Pastoral-Congregational Christianity. **World code:** `lpc`.
+**Time horizon:** c. 246–430 CE. **Geographic centres:** Carthage (metropolitan, Africa Proconsularis) and Hippo Regius (Numidian by ecclesiastical province).
+**Anchor figures:** Cyprian, bishop of Carthage 248/249–258; Augustine, presbyter at Hippo 391, bishop 395/396, died 430.
+**Structural fact governing every cell below:** this world is **two attested phases separated by a 133-year silence in its own record.** No primary source named at Doc_02 §1 and no row in `Source_Registry.md` dates from within that interval.
+
+**Input documents:** Doc_01 (Approved to proceed), Doc_02 + `Source_Registry.md` (Approved to proceed; the Registry itself returned to independent review 2026-09-13), Doc_03 (Approved to proceed), **Doc_04, Doc_05, Doc_06 and Doc_07 — all complete and independently reviewed, none self-disposed**, because CO-022 forbids a build thread from self-disposing a document against which any escalation category is open, and categories are open against all four. Drafted on the project lead's direction of 2026-09-15.
+
+**The confirmed gravity spine every force below is assessed against (Doc_04 §4):** Primary — **G1** Pastoral Office as Territorial Flock-Keeping, **G2** Penitential Discipline, **G3** Collegial Communion Preserved Despite Disagreement, **G6** Sacramental and Ordination Validity Across the Boundary. Supporting — **G4** Preaching and Catechesis, **G5** Conciliar Authority Theory, **G7** Grace and Human Incapacity. Tensional — **G8** Confessor-Authority vs. Episcopal-Regulated Peace.
+
+---
+
+## Section 2 — Preliminary Forces Identification
+
+Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not Layer-1 documentation in the Forces Framework's own formal sense."* Doc_02 §6 ran the source-ecology forces lens at Step 2. Doc_04 attached a forces-connection notation to each of the eight candidate gravities at Step 4. Doc_05 integrated forces into each ecology lens at Step 5. Doc_07 §4 synthesized the threads at Step 7. **This document is the formal compilation those five steps were feeding**, and it introduces no force that has not already been identified upstream — with two exceptions, both named as such: **Force 1A-2** (the standing legal condition of an unlicensed religion) and the **transmission entries at 2B-5 and 3B-2**, which the Framework requires as their own named dimension and which no upstream step treated as a force in its own right.
+
+**What changed between the Step 1 sketch and this compilation.** Doc_01 §6's sketch placed three items in the Ongoing/Internal cell. All three survive here. **Its own flagged placement judgement survives too and is re-examined at 2B-4** rather than inherited silently.
+
+---
+
+## Section 3 — The Six-Cell Matrix
+
+### CELL 1A — INITIATING / EXTERNAL
+
+**Governing question:** what external conditions made this particular form of Christianity possible, necessary, or urgent at its origin?
+
+---
+
+#### Force 1A-1: The Decian persecution and the *libelli* system (250)
+
+**Layer 1 — Historical Event.** The first systematically enforced, empire-wide persecution, administered through certificates recording that the holder had sacrificed. It did not principally demand renunciation; it demanded a documented act of compliance, which could be obtained by performing the sacrifice or by paying to have it recorded. **Confidence: Documented** — Doc_01 §2; Doc_02 §1; the crisis correspondence itself (Registry row 1, Confidence A) and *De Lapsis* (row 2, Confidence B).
+
+**Layer 2 — World's Own Experience.** Not an attack from outside so much as a table emptied one certificate at a time. The demand reached each person singly and left the congregation sorted into those who had stood and those who had not — and both were still ours, still in the room. *[I]t is the shepherd that is chiefly wounded in the wound of his flock.*
+
+**Layer 3 — Formation Impact.** **This force created the category the entire penitential system exists to process.** There were no *lapsed* before there was a certificate to obtain, and no *confessors* with a claim on anything before there was an interrogation to survive. It produces **G2** directly and **G8** as G2's counter-pressure; it intensifies **G1**, since a bishop's answerability becomes acute precisely when his people fail; and it generates this world's densest crisis vocabulary — *the lapsed*, *reconciliation*, *confessor*, and the certificates of both kinds (`lpclex017`, `lpclex019`).
+
+---
+
+#### Force 1A-2: The standing legal condition of an unlicensed religion in Romanized provincial North Africa
+
+**Layer 1 — Historical Event.** Through the whole of this world's first phase, Christianity held no legal standing in a Romanized provincial society with real underlying Punic and, inland, Berber populations. Persecution was episodic; the exposure was continuous. **Confidence: Widely Accepted** — Doc_01 §2 (Cultural Environment; Historical Pressures); Doc_02 §5.
+
+**Layer 2 — World's Own Experience.** A bishop could be taken and was. The office carried no protection and the community no recourse; what it had was each other, and whatever a man was willing to do for the people in his charge while he still could.
+
+**Layer 3 — Formation Impact.** This condition is why **G1** develops as personal answerability rather than as jurisdiction: an office with no external enforcement is held together by the bond between one man and one congregation. It is also the condition whose *removal* in the second phase Doc_04 §2 tested as a candidate gravity and **declined to advance** — finding nothing in this ecology organizes around the shift itself. **Named here as a force precisely because it is not a gravity:** it shaped what the office could be without becoming something the ecology organizes around.
+
+---
+
+### CELL 1B — INITIATING / INTERNAL
+
+**Governing question:** what internal conditions, developments, or decisions gave rise to this world's distinct form?
+
+---
+
+#### Force 1B-1: An already-organized Carthaginian church capable of sustained collective response
+
+**Layer 1 — Historical Event.** Cyprian inherited a community large and structured enough to hold real internal factions and to convene councils of dozens of bishops at short notice. **Confidence: Documented** — Doc_01 §6; the councils themselves (Registry row 4); the Felicissimus material in the Epistles (row 1).
+
+**Layer 2 — World's Own Experience.** Not a gathering that had to be built but one already standing, with its own men of weight, its own quarrels, and its own capacity to meet and decide together.
+
+**Layer 3 — Formation Impact.** This is the precondition for **G3**: collegial communion preserved despite disagreement requires colleagues who can actually assemble and who already disagree. It also makes **G2**'s regulated penitential process possible — an unorganized community could not have run one — and supplies **G5** with the conciliar setting in which both its formulas are eventually spoken.
+
+---
+
+#### Force 1B-2: Congregational acclamation overriding a reluctant convert's preference
+
+**Layer 1 — Historical Event.** Cyprian, a trained rhetorician converted in middle life, was elected bishop by the acclamation of the Carthaginian people within roughly two to three years of conversion, over the recorded opposition of five presbyters. The pattern recurs in the second phase at a different office: Augustine was seized into the **presbyterate** at Hippo in 391 against his wishes. **Confidence: Documented** — Epistle XXXIX (row 1); Pontius (row 7, Confidence A); Doc_01 §2.
+
+**Layer 2 — World's Own Experience.** *[Y]our suffrage and God's judgment*, set against a faction's *ancient venom*. A deacon who knew him put it from outside: *by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte.*
+
+**Layer 3 — Formation Impact.** This force gives **G1** its characteristic two-directional shape — a bishop answerable *to* the people who placed him as well as *for* them — and is the origin of the congregational leverage Doc_05 §4.3 and Doc_07 §2F document, including its limit. **A caution carried from Doc_03 rather than smoothed:** the pattern is attested through different figures, different offices and different words, not one recurring term, and Augustine's own episcopate came by designation and consecration rather than a second acclamation.
+
+---
+
+#### Force 1B-3: The inherited Latin theological vocabulary
+
+**Layer 1 — Historical Event.** North African Latin Christianity possessed, before this world begins, a vigorous local literary culture and the Latin theological vocabulary Tertullian is credited with forging. **Confidence: Widely Accepted** — Doc_01 §6, §7; Doc_02 §2 (Tertullian disclosure).
+
+**Layer 2 — World's Own Experience.** The words were to hand. What had to be argued could be argued in the language the people in the benches already spoke.
+
+**Layer 3 — Formation Impact.** Enables **G4**: preaching and catechesis as the primary formation mode presupposes a vernacular theological register capable of carrying the content. **Proportionality note:** treated briefly. This force is real and enabling but is not contested, not phase-specific, and does not shape any gravity's content — only its medium.
+
+---
+
+### CELL 2A — ONGOING / EXTERNAL
+
+**Governing question:** what external pressures acted on this world throughout its active life?
+
+---
+
+#### Force 2A-1: Recurring persecution after Decius — the Valerianic persecution (257–258)
+
+**Layer 1 — Historical Event.** Renewed imperial persecution under Valerian, under which Cyprian was exiled and then martyred in 258. **Confidence: Documented** — Doc_01 §2; the *Acta Proconsularia* within Registry row 194.
+
+**Layer 2 — World's Own Experience.** The thing had not finished with us. The man who had spent seven years deciding what to do with those who failed the first test was himself taken by the second, and did not fail it.
+
+**Layer 3 — Formation Impact.** Confirms rather than reshapes **G1** and **G8**: it closes the first phase by demonstrating, in the person of the bishop who regulated the lapsed, what the confessors' own credential had been about. It also ends the first phase's documentary record, which is why **G2** and **G8** are attested only within it.
+
+---
+
+#### Force 2A-2: Epidemic disease — the plague of c. 249–262
+
+**Layer 1 — Historical Event.** A severe, well-attested pandemic running through Carthage across Cyprian's episcopate, addressed directly in *De Mortalitate*. **Confidence: Documented** — Doc_01 §2; Registry row 5.
+
+**Layer 2 — World's Own Experience.** A pressure no discipline could sort. The persecution at least asked a question a person could answer rightly or wrongly; this asked nothing and took the faithful and the lapsed alike.
+
+**Layer 3 — Formation Impact.** **This force is the clearest case in this world of a pressure that produced teaching rather than structure.** It generated no gravity and no practice; it generated a treatise. That is itself the finding — and it is the sharpest single illustration of the mechanism Section 4 names as this world's characteristic response: crisis metabolized into formation content through **G4**.
+
+---
+
+#### Force 2A-3: The Donatist schism
+
+**Layer 1 — Historical Event.** Dominant across large parts of North African Christian life for most of the century between the two phases, and a continuing live pastoral problem throughout Augustine's episcopate. **Confidence: Documented** — Doc_01 §2; Doc_02 §1; Registry rows 12, 13.
+
+**Layer 2 — World's Own Experience.** Not strangers and not heretics of a foreign kind, but a church in the same towns, with its own bishop in the same see, claiming to be the only true one — and appealing, for its central practice, to our own first bishop's own ruling.
+
+**Layer 3 — Formation Impact.** **This is the force with the most consequential reach in the second phase.** It makes **G6** institutionally urgent rather than a question about individual converts; it tests **G3** at its hardest edge, and G3 holds; it supplies **G5**'s entire occasion, since the Donatists' appeal to Cyprian's conciliar acts is what obliged Augustine to argue against a predecessor he could not disown; and it is the external pressure behind the coercion doctrine Doc_01 insists be held at three phases rather than compressed.
+
+---
+
+#### Force 2A-4: Manichaeism and Pelagian anthropology as live rival systems
+
+**Layer 1 — Historical Event.** Manichaeism, an organized rival system Augustine belonged to for roughly nine years before his conversion and a recurring target thereafter; the Pelagian controversy of the 410s–420s, occupying a thirteen-work corpus. **Confidence: Documented** — Doc_01 §2, §6; Registry rows 22, 23.
+
+**Layer 2 — World's Own Experience.** Two ways of accounting for a person that a bishop had to answer from the pulpit, because the people in front of him had heard them.
+
+**Layer 3 — Formation Impact.** Produces **G7** directly and entirely: the anti-Pelagian corpus is this world's single densest textual object, 1,798 raw occurrences of *grace* within its own bounds. **The Manichaean half is named and not developed**, on a disclosure carried from Doc_04 §7 item 4: it was never independently tested as its own candidate gravity because Doc_03's discovery pass had not surfaced a specific enough term to test against. **Proportionality note: that is a stated limit, not a judgement that the Manichaean pressure was slight.**
+
+---
+
+### CELL 2B — ONGOING / INTERNAL *(includes the Transmission dimension)*
+
+**Governing question:** what internal tensions, developments or contests acted on this world throughout its active life?
+
+---
+
+#### Force 2B-1: The recurring contest over how to treat the failed member
+
+**Layer 1 — Historical Event.** The lapsed under Cyprian; ordinary post-baptismal sin and schism-tempted believers under Augustine. **Confidence: Documented** — Doc_01 §6's Ongoing/Internal cell; Registry rows 1, 2, 12, 13.
+
+**Layer 2 — World's Own Experience.** The question that would not go away: what do you owe someone who is yours and has failed? A church that takes everyone back the same afternoon has no door; one that takes no one back has no Master.
+
+**Layer 3 — Formation Impact.** **G2** is this force's direct product in the first phase. **Its second-phase persistence is qualified rather than assumed**, per Doc_04's Persistence test: the concern does not continue under its own name, and what survives is a family resemblance to **G6** and **G7**, tested and classified separately. This force therefore connects to G2 in phase one and to G6/G7 in phase two, and the discontinuity is the finding.
+
+---
+
+#### Force 2B-2: The confessors' claim to grant peace
+
+**Layer 1 — Historical Event.** Survivors of interrogation issued written requests that named lapsed persons be received back — in Cyprian's own words, *thousands of certificates were daily given, contrary to the law of the Gospel.* **Confidence: Documented** — Registry row 1 (Confidence A); `lpclex019`, where the instrument is treated as its own lexicon term.
+
+**Layer 2 — World's Own Experience.** I stood before the magistrate and did not deny Him, and I say this man may come back. — And the peace of the church is not any man's to give out of his own suffering, however real. Both in earnest; that is the difficulty.
+
+**Layer 3 — Formation Impact.** This force is **G8** — the Tensional gravity — and it is also **why G2 takes the insistent, repeatedly-restated form it does.** The penitential process was not legislated into a vacuum but built against a working parallel system already circulating documents at scale. **Phase-bound**, and the bound was established by a check rather than assumed: twenty stem occurrences of *confessor* across all eight vendored Augustine volumes, none in this sense (Doc_05 §2.3).
+
+---
+
+#### Force 2B-3: The illegal-to-established shift in the office's political capacity
+
+**Layer 1 — Historical Event.** Between the phases, the office moved from holding no legal standing to being able to solicit state action against a rival communion. **Confidence: Documented** for the external change; **the placement of its consequence as an internal force follows Doc_01 §6's own sketch** and is named here as that document's judgement rather than this one's. Its external driver is the standing condition at **1A-2**, inverted.
+
+**Layer 2 — World's Own Experience.** What a bishop could do had changed, though what a bishop *was* had not. Cyprian never asked the magistrate for anything; a century and a third later the magistrate could be asked, and eventually was.
+
+**Layer 3 — Formation Impact.** **Doc_04 §2 tested this as a candidate gravity and declined to advance it**, finding nothing in this ecology organizes around the shift itself — it changes the instruments available to a bishop, not the thing a bishop is. Doc_07 §2E reaches the same conclusion from the ethical/legal side. **It is carried here as a real force with a deliberately bounded formation impact**, which is what the Proportionality Principle asks for.
+
+---
+
+#### Force 2B-4: Augustine's engagement with Cyprian's conciliar acts
+
+**Layer 1 — Historical Event.** Augustine read, argued with and overturned the 256 Council's ruling on rebaptism, in *On Baptism, Against the Donatists*. **Confidence: Documented** — Registry rows 4, 13.
+
+**Layer 2 — World's Own Experience.** A predecessor who is ours, whom we do not disown, and who decided this wrongly. *[E]ven of the plenary Councils, the earlier are often corrected by those which follow them.*
+
+**Layer 3 — Formation Impact.** **This is the only mechanism by which this world's formation logic demonstrably crosses its own 133-year silence**, and Doc_05 §3A finds the crossing is textual rather than successive. It produces **G5**'s second formula, tests **G3** across the gap, and re-opens **G6**.
+
+**The placement judgement, examined rather than inherited.** Doc_01 §6 places this in the Internal column while flagging that the engagement was *prompted* by the Donatists' own citation of Cyprian — an external prompt for an internal act. **This document confirms the placement and states the reason**: the reading, the argument and the conclusion are this world's own acts, and the prompt determines only the timing. **The connection to 2A-3 is registered at Section 4 rather than resolved by moving the force**, since a force with an external trigger and an internal execution is exactly what the Cross-Cell Connection Principle exists to record.
+
+---
+
+#### Force 2B-5: **Transmission** — survival on the institutionally dominant side, through a 19th-century translation apparatus
+
+**Layer 1 — Historical Event.** Both anchor figures' writing survives in unusually full form, and Doc_02 §6 names the mechanism precisely: each was, by the time of writing or of later transmission, *"on the institutionally dominant and eventually canonized side of every dispute he engaged."* **This build's actual access is narrower than that.** The working corpus is the 19th-century Ante-Nicene and Nicene and Post-Nicene Fathers English translation projects (`anf05`, `npnf101`–`npnf108`), with critical Latin editions vendored but far less used. **Confidence: Documented** for the survival pattern; **Documented** for the composition of this build's own corpus. **Named transmission agents: the Catholic institutional manuscript tradition; the ANF/NPNF editors and translators; and the vendoring decisions of this build itself.**
+
+**Layer 2 — World's Own Experience.** *Not applicable at this layer, and the reason is stated rather than left blank:* transmission is a force this world did not experience. It acted on the record after the world closed. Doc_01 §5's instruction — that the documentary silence is never made an occasion for meta-commentary from inside — applies here in the same spirit: **no Layer 2 is supplied because supplying one would invent an experience.**
+
+**Layer 3 — Formation Impact — on the reconstruction rather than on the world.** Three effects, all documented in this build:
+1. **The record is full and single-angled at once.** Doc_07 §2B finds this world's asymmetry is not hostile mediation — both voices are the tradition's own — but the near-total absence of any **non-episcopal** voice. Doc_02 §6 narrows that correctly: a deacon, two lay confessors and named women do appear; what does not appear is any ordinary believer writing about ordinary congregational life as such.
+2. **The 19th-century editorial apparatus is interleaved with the text and has repeatedly been read as the world's own voice.** This build has **eight documented local instances**, registered at `Lexicon_Deployment_Index.md` §7 and at Doc_07 §2G. **The remedy is mechanical and is recorded as a standing method: mark `<note>` spans before stripping tags**, because stripping first makes the apparatus indistinguishable from the text.
+3. **Translation shapes discovery, not only accuracy.** Doc_06 §5 item 7 records that a headword sweep in the original language cannot find a term a corpus only ever names in translation — the defect that hid `lpclex019` until Round 1 of Doc_06. **This is a transmission effect on the lexicon itself.**
+
+---
+
+### CELL 3A — ENDING/TRANSFORMING / EXTERNAL
+
+**Governing question:** what external force brought this world's distinct form to an end or transformed it?
+
+---
+
+#### Force 3A-1: The Vandal invasion (from 429) and the siege of Hippo
+
+**Layer 1 — Historical Event.** The Vandals crossed from Spain in 429 and besieged Hippo in the final months of Augustine's life; he died on 28 August 430. A near-contemporary Gallic chronicler independently records the death under that year (Registry row 203). **Confidence: Documented.** *(Row 203 also records the Vandal capture of Carthage under 439 — a different city, nine years later, and no part of this world's end-boundary.)*
+
+**Layer 2 — World's Own Experience.** An army on the road while the bishop lay dying inside the walls, with the people he was answerable for still in the city.
+
+**Layer 3 — Formation Impact.** **This force closes the world on the same register that opened it** — external, violent pressure on ordinary congregational life — which is the second of Doc_01 §2's two grounds for the 430 boundary. It terminates the attested life of **G1**: the bond between this bishop and this flock ends when he does.
+
+---
+
+### CELL 3B — ENDING/TRANSFORMING / INTERNAL *(includes the Transmission dimension)*
+
+**Governing question:** what internal development ended or transformed this world's distinct form?
+
+---
+
+#### Force 3B-1: The corpus outliving the world
+
+**Layer 1 — Historical Event.** Augustine's theological output, produced under this world's pastoral pressures, became *"the foundational inheritance of the subsequent Western theological tradition"* far beyond this world's close. **Confidence: Widely Accepted** — Doc_01 §6.
+
+**Layer 2 — World's Own Experience.** *Not experienced as an ending from within.* A bishop writing against a live error for the people in front of him is not producing an inheritance; he is answering Tuesday's problem. **Marked as Reported-Experience-adjacent and left unfilled** rather than narrated: this world did not know this was happening to it.
+
+**Layer 3 — Formation Impact.** The transformation is real and runs outward rather than inward. **G7** in particular outlives its own ecology: a gravity Doc_04 finds structurally freestanding *within* this world becomes load-bearing for traditions that follow it. **This is the one force whose formation impact lands mostly outside the world's own boundaries**, which is why it sits in the Ending/Transforming row rather than the Ongoing one.
+
+---
+
+#### Force 3B-2: **Transmission** — an asymmetrically attested span and a 133-year silence
+
+**Layer 1 — Historical Event.** Doc_01 §6 names it as a real asymmetry this world's Doc_02 must not let pass unremarked: **this world's closing decades are disproportionately well-attested relative to its opening ones.** And between the phases, Doc_02 §7 records that **no primary source named at §1 and no Registry row dates from within the roughly 133 years** between Cyprian's martyrdom and Augustine's ordination. **Confidence: Documented** — this is a fact about the record, checkable against the Registry.
+
+**Layer 2 — World's Own Experience.** *None, and not for want of looking.* Doc_01 §5's binding instruction is explicit that the silence is never an occasion for meta-commentary from inside the world, because a person formed in either phase did not experience their own world as having a documentary gap in it.
+
+**Layer 3 — Formation Impact — on the reconstruction.** Three effects:
+1. **Continuity across the gap is textual, not successive** (Doc_05 §3A) — established by 2B-4 and by nothing else this build has found.
+2. **The interval is richly attested through sources that are Donatism's territory, not this world's** (Doc_02 §7), which makes the silence a *boundary discipline* rather than an absence of evidence: the temptation is to fill it from World #4, and the binding forbids it.
+3. **Phase-bound gravities are an artefact of the record as well as of the world.** G2 and G8 are attested only in phase one, G7 only in phase two. **Doc_04 established each bound by a positive check rather than by inference from silence** — which is the discipline this transmission asymmetry makes necessary.
+
+---
+
+## Section 4 — Cross-Cell Connections
+
+### Named Cross-Cell Connections
+
+| From | To | Direction | What the connection is |
+|---|---|---|---|
+| **1A-1** | **2B-1** | produces | The Decian edict creates the category of the failed member that the ongoing internal contest is about. Without 1A-1 there is no 2B-1. |
+| **1A-1** | **2B-2** | produces | The same edict creates confessors as a class with a claim; 2B-2 has no claimants without it. |
+| **1A-2** | **1B-2** | shapes | An office with no legal protection is one a sensible man declines, which is why the acclamation pattern has to override reluctance. |
+| **1A-2** | **2B-3** | inverts into | The standing condition of illegality is precisely what the illegal-to-established shift removes. **The same fact appears at both ends of the matrix with opposite sign.** |
+| **1B-1** | **1B-2** | enables | A church organized enough to hold factions is organized enough to elect over a faction's opposition. |
+| **1B-1** | **2B-4** | enables | Councils that met and left acts are what Augustine later reads and argues with. |
+| **2A-1** | **1A-1** | reacts to | The Valerianic persecution repeats the Decian test on a community that has now built a discipline for it. |
+| **2A-2** | *(none)* | — | **Deliberately isolated.** The plague connects to no other force in this matrix and produced teaching rather than structure. Recorded as a connection that does not exist, per the Named-Tension and Cross-Cell principles. |
+| **2A-3** | **2B-4** | triggers | The Donatists' appeal to Cyprian's conciliar acts is what prompts Augustine to read them. **External prompt, internal act** — the placement judgement examined at 2B-4. |
+| **2A-3** | **2B-3** | activates | A rival communion is what makes the newly available state capacity worth using, and is the occasion of the three-phase coercion development. |
+| **2A-4** | **3B-1** | produces | The anti-Pelagian corpus generated by 2A-4 is the largest single component of the inheritance at 3B-1. |
+| **2B-2** | **2B-1** | intensifies | The confessors' parallel system is why the internal contest had to be settled by a formal process rather than by episcopal say-so. |
+| **2B-4** | **3B-2** | is the sole instance of | 2B-4 is the only mechanism this build has found by which formation logic crosses the 133-year silence recorded at 3B-2. |
+| **2B-5** | **3B-2** | continues | The same transmission pattern operates in both cells; 3B-2 is 2B-5's effect on the span rather than on the content. |
+| **3A-1** | **3B-1** | coincides with, does not cause | The invasion closes the world; the corpus outlives it. **Named as coincidence rather than causation** — the inheritance was secured by copying, not by the siege. |
+
+### What the Cross-Cell Pattern Reveals
+
+**Three findings the table makes visible that the prose alone does not.**
+
+**First, this world's matrix is unusually front-loaded.** Both Initiating/External forces reach forward into the Ongoing row, and 1A-1 alone produces two Ongoing/Internal forces. **The world's founding crisis is still generating its internal contests decades later**, which is consistent with Doc_04 finding G2 and G8 to be phase-one gravities rather than world-spanning ones.
+
+**Second, the same fact appears at both ends with opposite sign.** 1A-2 (no legal standing) and 2B-3 (the shift to established) are one condition and its removal. **A matrix that lists them as unrelated entries would conceal the single most consequential difference between this world's two phases** — and Doc_04 declined to make that difference a gravity, so the forces analysis is the only place it is held whole.
+
+**Third, the one isolated force is isolated for a reason worth stating.** 2A-2, the plague, connects to nothing. It is not a weak entry: it is this world's clearest case of a pressure that produced formation *content* without producing formation *structure*, and the Cross-Cell Connection Principle is better served by recording the absence than by manufacturing a link.
+
+---
+
+## Section 5 — Forces-and-Gravities Synthesis
+
+### Gravity-by-Gravity Force Connections
+
+**G1 — Pastoral Office as Territorial Flock-Keeping (Primary).** Connected forces: **1A-2** (an office with no external enforcement is held by the personal bond), **1B-2** (how a man comes to hold it), **1A-1** and **2A-1** (answerability made acute by the flock's failure and the bishop's own test), **2A-2** (a pressure the bishop shares rather than adjudicates), **3A-1** (the bond ends when he does). **The most densely force-connected gravity in this world**, which matches Doc_05 §9.1's finding that it is the ecological hub.
+
+**G2 — Penitential Discipline (Primary).** Connected forces: **1A-1** (creates its subject matter), **2B-1** (the recurring contest it answers), **2B-2** (the rival claim it was built against). Phase-one-grounded; its non-persistence under its own name is a Doc_04 finding, not a gap here.
+
+**G3 — Collegial Communion Preserved Despite Disagreement (Primary).** Connected forces: **1B-1** (colleagues who can assemble and already disagree), **2A-3** (tested at its hardest edge, and holds), **2B-4** (tested across the century gap, and holds). **Note the shape:** every force connected to G3 is a force that *tested* it rather than produced it. G3 is this world's adaptive rule, and the forces analysis shows it being stress-tested three times from three directions.
+
+**G4 — Preaching and Catechesis (Supporting).** Connected forces: **1B-3** (the vernacular register it needs), **2A-2** (the plague's response arrives as a treatise), and in truth **every force in Cell 2A**, since G4 is the channel through which external pressure reaches an ordinary believer. **This is the mechanism Section 4's first finding depends on** and Doc_07 §4 names as this world's characteristic response: crisis metabolized into teaching.
+
+**G5 — Conciliar Authority Theory (Supporting).** Connected forces: **1B-1** (the conciliar setting), **2A-3** (the Donatist appeal that supplies the occasion), **2B-4** (the engagement itself). **This is the weakest force-connection in the matrix and the document says so rather than padding it.** Doc_04 records that this candidate exhibits the shape the Forces Framework names when it states that *"[A] gravity that cannot be connected to the forces acting on the world is a gravity whose ecology is incomplete."* **The connection here is real but indirect**: every force touching G5 touches it through a third party's citation of a text, not through a pressure on the world's own practice — which is consistent with Doc_04's finding that no evidence shows the question reached ordinary formation. **Carried, not resolved.**
+
+**G6 — Sacramental and Ordination Validity (Primary).** Connected forces: **2A-3** (makes it institutionally urgent rather than a question about individual converts), **2B-4** (re-opens it across the gap), **2B-1** (its phase-two inheritance of the failed-member question).
+
+**G7 — Grace and Human Incapacity (Supporting).** Connected forces: **2A-4** (produces it directly and entirely), **3B-1** (carries it out of the world). **Single-force-origin, and that is a real finding rather than thin analysis:** Doc_04 flagged G7's Author Gravity risk at generation precisely because its whole evidentiary base is one voice within one evidence stream. **The forces analysis independently reproduces that shape** — one external pressure, one corpus, one phase.
+
+**G8 — Confessor-Authority vs. Episcopal-Regulated Peace (Tensional).** Connected forces: **1A-1** (creates confessors as a class), **2B-2** (the claim itself). Phase-one-bound on a positive check.
+
+**Completion check, run rather than asserted: all eight confirmed gravities connect to at least one force.** The by-gravity view in `lpc_Force_Index.md` makes this checkable at a glance, and no gravity's row is empty.
+
+### Cross-Strand Gravity Note
+
+**This world was found strand-singular at Doc_01 §5**, so no cross-strand convergence test applies. Doc_04 §5 declared **phase testing** as the substitute discipline, and the forces analysis reproduces its results independently: the forces connected to G2 and G8 are phase-one forces; the force producing G7 is a phase-two force; G1, G3, G4 and G6 connect to forces in both rows. **G5 connects to forces in both phases at one locus each** — thin across the span rather than bounded within it, which is the distinction Doc_04 §5 insisted on and which the forces view confirms from a different direction.
+
+### What Forces Analysis Adds
+
+**It shows that this world's stability under pressure is a mechanism, not a trait.** Reading the gravities alone, one might conclude that a pastoral-congregational ecology simply happened to survive persecution, plague, schism and invasion. The matrix shows *how*: every external pressure on record is converted into formation content through **G4**, and delivered to an ordinary believer by the one man **G1** makes answerable for them. **A differently-built ecology would have been reorganized by these forces. This one metabolized them.**
+
+### Where Forces and Gravities Most Tightly Cohere
+
+**G1 and the whole external column.** Every force in Cells 1A, 2A and 3A presses *through* the bond between one bishop and one congregation: the edict tests whether the flock holds, the plague tests whether the bishop stays, the rival communion tests whether the flock can be taken, and the army arrives while he is still in his see. **G1 and this world's forces are not separable statements.**
+
+### Where Forces Analysis Surfaced Gaps
+
+1. **G5's indirect connection**, above — carried as Doc_04's own incomplete-ecology finding rather than resolved.
+2. **The Manichaean half of 2A-4 is named and undeveloped**, per Doc_04 §7 item 4, because no specific term has been surfaced to test against.
+3. **The 411 *Gesta* remains unread** (Doc_04 §7 Open Item 6), and it is the one unexploited source that could bear on G5's force-connection. **No force in this matrix draws on it.**
+4. **No force in Cell 3B is attested from within the world**, and both Layer 2 entries there are deliberately left unfilled rather than invented.
+
+---
+
+## Section 6 — Transmission as a Force Dimension — Synthesis
+
+**Who transmitted this world's characteristic material.** The Catholic institutional manuscript tradition, which preserved both anchor figures because each ended on the side that prevailed and was canonized. Then, decisively for this build, **the 19th-century ANF and NPNF translation projects**, whose English text is the working corpus for nearly every claim in this world's construction. Then this build itself, whose vendoring decisions determined what was available to read at all.
+
+**Under what conditions transmission occurred.** Selection by institutional victory at the first stage — Doc_02 §6 states the mechanism without euphemism — and selection by a Victorian translation programme's own editorial priorities at the second, including introductory notices, elucidations and endnotes printed *interleaved with* the text rather than separated from it.
+
+**What selection effects shaped what survives.** Three, in descending order of consequence for this reconstruction. **First, the episcopal filter:** what survives is what two bishops wrote or what was written about them, so the ordinary believer appears as addressee and almost never as author. **Second, the crisis filter:** Doc_02 §2 records Cyprian's corpus as *"occasional rather than systematic… documents what crises provoked correspondence,"* so ordinary undocumented pastoral routine is structurally invisible. **Third, the translation filter:** a term the corpus names only in English cannot be found by sweeping its Latin headword, which is how the confessors' letters of peace went unlisted through six construction documents.
+
+**What the transmission pattern reveals about forces.** That this world's evidentiary asymmetry is **the opposite of the sibling case**. Donatism's record is shaped by hostile mediation and is accessible where least mediated. This world's record is not hostile at all — and is inaccessible wherever a non-episcopal voice would have had to carry it. **Two worlds, one province, one century, opposite transmission pathologies.**
+
+**Connection to Author Gravity findings (Doc_02).** Doc_02 §2 flags both anchor figures individually, and the lexicon's own index records **nine of nineteen entries carrying an Author Gravity note**. The forces analysis independently reproduces the pattern at **G7**, whose single-force origin at 2A-4 mirrors its single-voice evidentiary base. **Where forces analysis and Author Gravity analysis agree from opposite directions, the finding is firmer than either alone** — and that convergence is itself the argument for doing both.
+
+---
+
+## Section 7 — Confidence Assessment
+
+**Documented or Widely Accepted.** 1A-1 (Documented), 1A-2 (Widely Accepted), 1B-1 (Documented), 1B-2 (Documented), 1B-3 (Widely Accepted), 2A-1 (Documented), 2A-2 (Documented), 2A-3 (Documented), 2A-4 (Documented), 2B-1 (Documented), 2B-2 (Documented), 2B-4 (Documented), 2B-5 (Documented), 3A-1 (Documented), 3B-1 (Widely Accepted), 3B-2 (Documented).
+
+**Dominant Modern Reconstruction.** None. **Stated as a finding:** this world's forces are unusually well documented because both phases are anchored in extensive first-person corpora, so no force here rests on a modern reconstruction of events the sources do not carry.
+
+**Contested.** **2B-3** carries a contested element — not the fact of the illegal-to-established shift, which is Documented, but **its placement as an internal rather than external force**, which follows Doc_01 §6's own judgement and is named as that document's rather than this one's.
+
+**Inferential/Thin.** No force is carried at this level. **Two Layer 2 entries are deliberately left unfilled** (2B-5, 3B-2) and one is marked as not experienced from within (3B-1), which is the honest alternative to writing Inferential/Thin experience claims.
+
+**Named scholarly tensions carried at full strength.** Three, all inherited and none resolved here: the **[CT]** contests on *grace*, *schism* and *"compel them to come in"* recorded at Doc_06; the **three-phase coercion development** Doc_01 binds against compressing; and the extent to which the **Punic/Berber substrate** shaped ordinary congregational life, which Doc_02 §8 places at Contested and which **no force in this matrix claims to resolve.**
+
+---
+
+## Section 8 — Governing Principles Applied
+
+**From-Within Principle — CONFIRMED, with three stated exceptions.** Every Layer 2 entry for a force this world experienced is written in its own vocabulary. **Three Layer 2 entries are deliberately not written**: 2B-5 and 3B-2, because transmission acted on the record after the world closed and supplying an experience would invent one; and 3B-1, because this world did not know its corpus was becoming an inheritance. **Leaving them unfilled with the reason stated is the principle applied, not waived.**
+
+**Proportionality Principle — CONFIRMED.** 1B-3 and 2B-3 are treated briefly and each states why. 2A-4's Manichaean half is named and undeveloped on a disclosed upstream limit. 1A-1, 2A-3 and 2B-2 receive the fullest treatment, which matches their formation impact.
+
+**Named-Tension Principle — CONFIRMED.** The confessor/bishop contest at 2B-2 is held rather than resolved. The 2B-3 placement question is named as contested. The G5 force-connection weakness is stated rather than padded. 2A-2's isolation is recorded as a connection that does not exist.
+
+**Cross-Cell Connection Principle — CONFIRMED.** Fifteen connections documented in Section 4, including one deliberate non-connection and one coincidence explicitly marked as not causal.
+
+**Transmission Specificity Principle — CONFIRMED.** Both 2B-5 and 3B-2 are dedicated transmission entries with named agents — the institutional manuscript tradition, the ANF/NPNF editors, this build's own vendoring — identified selection interests, and stated exclusions. **Neither is treated as neutral background**, and Section 6 connects both to Doc_02's Author Gravity findings.
+
+---
+
+## Section 9 — Doc_08 Completion Certification
+
+- [x] All six cells populated with at least one identified force — 1A (2), 1B (3), 2A (4), 2B (5), 3A (1), 3B (2) = **17 forces**
+- [x] Every identified force documented at all three layers — **with three Layer 2 entries deliberately unfilled and each reasoned** (2B-5, 3B-2, 3B-1)
+- [x] Layer 2 uses the world's own vocabulary — no modern analytical overlay
+- [x] Transmission addressed explicitly in Cell 2B as a named force dimension (2B-5)
+- [x] Transmission addressed explicitly in Cell 3B as a named force dimension (3B-2)
+- [x] Section 5 connects **every** confirmed gravity from Doc_04 to at least one force — all eight, checkable in `lpc_Force_Index.md`'s by-gravity view
+- [x] Cross-cell connections documented in Section 4 — fifteen
+- [x] Confidence calibration present throughout Section 3 and summarized in Section 7
+- [x] All five governing principles confirmed in Section 8
+- [x] Reported-Experience Status applied where self-understanding is historically uncertain but formationally central
+- [x] Named scholarly tensions carried at full strength — three, none resolved here
+- [x] Section 6 connects transmission synthesis to Doc_02's Author Gravity findings
+
+**Doc_08 completion status: COMPLETE as to the checklist; NOT DISPOSED.** The checklist is a structural certification and this document meets it. **It is not a substitute for independent review, which has not been run.**
+
+**Outstanding items carried, not silently satisfied:**
+1. **G5's force-connection is indirect** and carries Doc_04's own incomplete-ecology finding forward.
+2. **The 411 *Gesta* is unread** and no force draws on it.
+3. **The Manichaean half of 2A-4 is undeveloped** on a disclosed upstream limit.
+4. **2B-3's internal placement is contested** and follows Doc_01's judgement rather than this document's.
+
+---
+
+## Document Log
+
+| Date | Event | Artifact | Result |
+|---|---|---|---|
+| 2026-09-15 | Initial draft — this document and `lpc_Force_Index.md` | — | Step 8 deliverable produced |
+
+---
+
+## Disposition
+
+**Not disposed.** No review round has been run against this document or against `lpc_Force_Index.md`. A build thread does not score its own work as passing, and the Section 9 checklist above is a structural certification rather than a disposition.
+
+**Escalation-category assessment (CO-022).** *Representative identity, title, or voice:* **does not apply** — this document makes no identity, title or voice decision. *Portfolio-level or cross-world:* **four items, none decided here**, all inherited: the corpus-wide editorial-apparatus question (to which §2B-5 adds this world's eighth local instance); the *Boundary Structures* / *Boundary Ecology* inconsistency inside both L3 files; the Key Texts / Key Sources template mismatch; and the Doc_07 template's pre-M4 lens structure. **One observation rather than a fifth item:** only one of twelve worlds carries a Force Index, so the index this document co-produces follows the `cic-forces-index` standard rather than portfolio practice, and is built in Markdown to match this world's own `Lexicon_Deployment_Index.md` rather than the single `.xlsx` precedent. *Governance or methodology:* **open, unchanged** — four items. *Unresolved tensions:* **one open** — the 411 *Gesta*, relied on for nothing here.
+
+**The build-cycle position, stated plainly.** `cic-build-cycle` requires a document to reach at least *Approved to proceed* before the next begins; **four have not**, and a category is open against each. This document was drafted on the project lead's direction of 2026-09-15. **Five documents in this world are complete, independently reviewed, and awaiting a disposition only the project lead can give; this is the sixth, and it has not been reviewed at all.**
