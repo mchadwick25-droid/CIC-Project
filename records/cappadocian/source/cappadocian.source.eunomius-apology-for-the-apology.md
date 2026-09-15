@@ -20,6 +20,7 @@ author: Eunomius of Cyzicus
 work: Eunomius, the Apology for the Apology (survives only as quoted inside Gregory of Nyssa's refutation)
 edition: Accessed only via cappadocian.source.gregory-nyssa-against-eunomius (NPNF205) -- adversarial
   transmission, no independent text exists to verify against
+kind: unvendored
 rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
   in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: attributed (Eunomius); transmitted only via hostile quotation -- flag adversarial

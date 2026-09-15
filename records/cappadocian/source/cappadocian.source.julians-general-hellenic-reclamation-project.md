@@ -19,6 +19,7 @@ work: Julian's own general project of reclaiming Greek learning for the old gods
   73's specific school law and row 72's specific Rescript)
 edition: General characterization drawn from Julian's own corpus (rows 71-72) and the secondary literature,
   not a separately citable primary text of its own
+kind: unvendored
 rights_status: not applicable in the ordinary sense -- no single specific text has been identified for
   this row; it names a person, general pattern, or unlocated corpus rather than a held text. Not independently
   verified this session.

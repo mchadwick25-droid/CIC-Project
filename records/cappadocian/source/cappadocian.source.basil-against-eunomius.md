@@ -38,6 +38,7 @@ edition: 'No open edition of the complete treatise acquired -- no open-license E
   complete translation, copyrighted and excluded). Not to be confused with Epistle XVI ("Against Eunomius
   the heretic"), a distinct, shorter letter genuinely vendored within cic/texts/npnf208_basil-letters-select-works.xml''s
   Letters division, covering adjacent epistemological ground in Basil''s own voice.'
+kind: vendored
 rights_status: not applicable to the treatise itself -- no text of it is vendored or acquired to hold rights
   over; an eventual acquisition would need its own independent rights assessment. (Epistle XVI, genuinely
   vendored, carries npnf208's own already-confirmed public-domain status.)

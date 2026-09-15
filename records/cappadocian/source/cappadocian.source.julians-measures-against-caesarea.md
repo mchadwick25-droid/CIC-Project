@@ -21,6 +21,7 @@ author: No named author or text -- attested only via the general historical reco
 work: Julian's direct measures against Caesarea (civic-roll removal, fines, clergy conscription, church-property
   seizure)
 edition: No specific text or author is named for this claim beyond the general historical record
+kind: unvendored
 rights_status: not applicable in the ordinary sense -- no single specific text has been identified for
   this row; it names a person, general pattern, or unlocated corpus rather than a held text. Not independently
   verified this session.

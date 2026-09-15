@@ -18,6 +18,7 @@ author: Attributed to Basil of Caesarea and Apollinaris of Laodicea (contested)
 work: Basil, the Apollinaris correspondence (Epistles 361-364)
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff,
   vendored as cic/texts/npnf208_basil-letters-select-works.xml'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
   in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: contested (in antiquity itself, per Doc_02 SS1.1)

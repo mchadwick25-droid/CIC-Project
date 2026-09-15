@@ -18,6 +18,7 @@ author: Gregory of Nyssa
 work: Gregory of Nyssa, On Virginity
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 5 (Gregory of Nyssa: Dogmatic, Ascetic, and
   Moral Treatises, Letters), ed. Schaff, vendored as cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
   in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: attributed

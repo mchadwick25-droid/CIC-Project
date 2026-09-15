@@ -20,6 +20,7 @@ work: Gregory of Nazianzus, Epistle 197 (consolation to Gregory of Nyssa, honori
 edition: CONFIRMED PRESENT in the vendored npnf207 edition -- corrected 2026-09-08, Round 1 Opus
   review, from this record's own stale "not within" claim -- Letter CXCVII, div4 id iv.iv.ii.viii,
   "A Letter of Condolence on the Death of His Sister Theosebia"
+kind: unvendored
 rights_status: public-domain; vendored in cic/texts/, rights independently confirmed
   (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session
   (CAPPADOCIAN_BUILD_LEDGER.md SS9).

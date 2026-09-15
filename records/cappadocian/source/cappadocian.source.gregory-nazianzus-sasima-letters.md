@@ -20,6 +20,7 @@ work: Gregory of Nazianzus, the Sasima letters (48-50) and Epistle 58
 edition: CONFIRMED PRESENT in the vendored npnf207 edition -- corrected 2026-09-08, Round 1 Opus
   review, from this record's own stale "not within" claim -- Letters XLVIII, XLIX ("To Basil.
   (The Praises of Quiet.)"), L, and LVIII all present, div3 ids iv.iii.xviii-xxi
+kind: unvendored
 rights_status: public-domain; vendored in cic/texts/, rights independently confirmed
   (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session
   (CAPPADOCIAN_BUILD_LEDGER.md SS9).
