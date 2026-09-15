@@ -16,6 +16,7 @@ sources: []
 author: "Palladius of Galatia (c. 363 - c. 430 CE) - outsider-visitor narrative source, at the horizon's very edge (written 419-420)"
 work: "Historia Lausiaca (The Lausiac History) - used in this world ONLY for personally-witnessed Alexandria-adjacent material (above all the Didymus meeting, ch. IV); received desert accounts carry the CROSS-BUILD flag and belong to the Desert world's attribution question"
 edition: "trans. W.K. Lowther Clarke (SPCK, Translations of Christian Literature, 1918), vendored as cic/texts/palladius_lausiac-history_clarke1918.txt"
+kind: vendored
 work_id: palladius-lausiac-history
 rights_status: public-domain
 attribution_status: attributed

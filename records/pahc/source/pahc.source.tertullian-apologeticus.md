@@ -16,6 +16,7 @@ sources: []
 author: "Tertullian of Carthage (c. 155-c. 220 CE; writing from outside this world's three core regions)"
 work: "Apologeticus (The Apology), 197 CE - at this world's closing boundary: its ch. 39 description of the communal fund (voluntary monthly gifts feeding the poor, burying the dead, supporting orphans, the old, the shipwrecked, prisoners) corroborates the mutual-aid practice Lucian's satire incidentally preserves; the work as a whole marks the new confident Latin apologetic mode (Doc_01 SS2.2's second closing marker)"
 edition: "Ante-Nicene Fathers vol. 3 (1885), trans. S. Thelwall, vendored as cic/texts/anf03_tertullian.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior-build Source Registry row P15 ('Tertullian, Apology 39'), re-registered against the vendored corpus"

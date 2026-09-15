@@ -19,6 +19,7 @@ sources: []
 author: "John Chrysostom (c. 347-407), preaching at Antioch about 390"
 work: "Eulogy on S. Ignatius - a festal homily on Ignatius the God-bearer, bishop of Antioch, on his martyrdom at Rome and the return of his relics to Antioch"
 edition: "trans. W. R. W. Stephens, Nicene and Post-Nicene Fathers ser. 1 vol. 9 (1889), vendored as cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml (Eulogy at line 9928)"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "assigned to this world by the cross-world corpus assignment; the volume was unopened here"

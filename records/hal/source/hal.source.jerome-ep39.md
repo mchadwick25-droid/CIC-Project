@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Epistula 39, to Paula (384/385, Rome): consolation on the death of her daughter Blaesilla, who died shortly after adopting severe ascetic discipline - including Jerome's own report of the public muttering against the monks at her funeral"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id v.XXXIX"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior HAL build Docs 01/02/08 (the 384-385 Rome crisis, force 2A-4); located in the vendored corpus; rights read from the file's own DC.Rights header"

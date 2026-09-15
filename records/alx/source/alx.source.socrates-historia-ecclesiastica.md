@@ -18,6 +18,7 @@ author: 'Socrates Scholasticus (c. 380 - after 439 CE) - a Constantinopolitan la
 work: Historia Ecclesiastica (Church History) - used ONLY as figure testimonia (Athanasius's death and
   46-year episcopate, IV.20; the Didymus notice, IV.25), never as in-world voice
 edition: trans. A.C. Zenos, NPNF series 2 vol. 2 (1890), vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: identified at step 3 as carrier of the only located primary-class death notice for

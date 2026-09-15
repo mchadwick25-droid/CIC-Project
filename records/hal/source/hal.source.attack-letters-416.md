@@ -16,6 +16,7 @@ sources: []
 author: "Pope Innocent I and Jerome (417)"
 work: "The letter-cluster around the 416 attack on the Bethlehem monasteries: Epistulae 135-137 (Innocent to Aurelius, to Jerome, and to John of Jerusalem - the last responding to the report of 'ravages, murders, fires' brought by 'the holy virgins Eustochium and Paula' the younger, whose own letter does not survive), 138 (Jerome to Riparius) and 139 (Jerome to Apronius, reporting his own house destroyed 'so far as fleshly wealth is concerned')"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div ids v.CXXXV-v.CXXXIX"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior HAL build Docs 06/08 cited 'the letter to Riparius' for the attack; this branch's step-2 pass located the full five-letter cluster and verified each division directly (hal.search.npnf206-jerome)"

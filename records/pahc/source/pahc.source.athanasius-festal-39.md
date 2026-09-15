@@ -25,6 +25,7 @@ relations:
 author: "Athanasius of Alexandria (c. 296-373)"
 work: "Festal Letter XXXIX (367) - the Easter letter carrying the list of canonical books of the Old and New Testaments, a second class of books 'not indeed included in the Canon, but appointed by the Fathers to be read by those who newly join us', and a denunciation of apocryphal writings as heretical inventions given false antiquity"
 edition: "Nicene and Post-Nicene Fathers, second series, vol. 4, vendored as cic/texts/npnf204_athanasius-select-works-letters.xml - Letter XXXIX at file line 68714"
+kind: vendored
 rights_status: "public-domain; NPNF2-04, long out of US copyright"
 attribution_status: attributed
 discovery_channel: "opened 2026-08-27 by the fleet unopened-volume sweep (pahc.search.unopened-volume-sweep); this volume was on cross_world's second-hand-source list because pahc.force.selective-canonization asserts that Athanasius excluded Hermas and this world had never opened the letter that did it"

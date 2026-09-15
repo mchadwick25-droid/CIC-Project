@@ -16,6 +16,7 @@ sources: []
 author: "Anonymous (traditionally 'Barnabas'; the attribution is not credited by modern scholarship, and provenance - often argued Alexandrian - lies outside this world's three regions)"
 work: "The Epistle of Barnabas, chapters 18-20 ONLY (the Two Ways section) - registered solely as an independent witness that the Two Ways schema circulated more widely than the Didache's own redaction of it (with the Latin Doctrina Apostolorum, not vendored). The epistle as a whole is NOT a voice of this world"
 edition: "Ante-Nicene Fathers vol. 1 (1885), vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 vi, div2 vi.ii)"
+kind: vendored
 rights_status: public-domain
 attribution_status: anonymous-traditional
 discovery_channel: "registered at this build's step 2 so Force 1B-2's Two-Ways-parallel claim (Doc_08, from Doc_03 SS2.7) traces to a vendored witness rather than an unregistered citation; work presence verified at div2 vi.ii"

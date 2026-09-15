@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Dialogus adversus Pelagianos (417, Bethlehem): the three-book dialogue between Atticus (catholic) and Critobulus (Pelagian) on whether a person can live without sin - Jerome's last controversial work, arguing human dependence on grace in every act"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id vi.ix"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "located in the vendored corpus during this branch's answer-canon pass - the within-window primary text for this world's sin-and-grace teaching (canon cell F1-T), and the literary provocation adjacent to the 416 attack"

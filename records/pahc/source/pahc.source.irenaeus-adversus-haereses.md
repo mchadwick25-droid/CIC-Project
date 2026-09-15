@@ -16,6 +16,7 @@ sources: []
 author: "Irenaeus of Lyons (c. 130-c. 202 CE; formed in Smyrna under Polycarp, writing from Gaul c. 180)"
 work: "Adversus Haereses (Against Heresies); a BOUNDARY WITNESS in two senses: its Book I is the fullest contemporary description of Valentinian teaching (hostile, but the principal source), and its four-Gospel, apostolic-succession argument is itself one of the three markers of this world's own closing (Doc_01 SS2.2) - a new systematic mode this world's voices do not yet speak"
 edition: "Ante-Nicene Fathers vol. 1 (1885), trans. Roberts and Rambaut, vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 ix, Books I-V)"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "registered at this build's step 2 to give the rival-movement disclosure obligation (Doc_01 SS8.3) and the closing-boundary claims (Doc_01 SS2.2) a vendored primary witness; work presence verified at div1 ix"
