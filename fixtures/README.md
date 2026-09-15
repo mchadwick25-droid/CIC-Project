@@ -9,7 +9,7 @@ _fleet.canon.{c-i,c-p,c-t,f1-i,f2-e,f5-p,f6-p,f6-t}-01.md`, and
 
 ## What's here
 
-- **`records/worlds.yaml`** — registry entry for world_key `fix`. State
+- **`records/worlds/fix.yaml`** — registry entry for world_key `fix`. State
   advances mechanically as far as `built` (gates green, per Artifact-1 SS2 -
   no human touchpoint required for that transition) but never past it: it is
   never admitted or opened for real, and `census_id` stays `null` (not an

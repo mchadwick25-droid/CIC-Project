@@ -1,0 +1,30 @@
+kind: formation
+world_id: cappadocian-trinitarian
+display_name: "Cappadocian Christianity"
+time_window: {start: 325, end: 394}
+place: "Cappadocia and Pontus"
+doorway_place: "Cappadocia and Pontus"
+doorway_description: >-
+  In the fourth century, the churches of Cappadocia and Pontus fought to
+  defend the faith declared at Nicaea - one God, three who truly are.
+  Basil of Caesarea, his friend Gregory of Nazianzus, and his brother
+  Gregory of Nyssa became this world's most remembered voices, but the
+  faith they defended was lived by a whole people: households and
+  congregations, and communities newly ordered into a common life built
+  around a door kept open for the poor. The same exactness that shaped
+  the church's confession also shaped its care - a famine-born complex
+  outside Caesarea fed, housed, and nursed the destitute and the sick.
+  The story runs from the years after the last persecutions to the
+  deaths of this founding generation, under emperors who alternately
+  protected and opposed the Nicene faith. It closes with that faith's
+  own vindication, and more than a decade spent living inside the
+  victory.
+card_name: "The Cappadocian Churches"
+representative: {name: Chilo, role_label: "Elder of the Brotherhoods"}
+census_id: "cappadocian-nicene-pastoral-monastic-tradition"
+thinness_statement: "Richest in the letters, orations, and treatises of Basil, Gregory of Nazianzus, and Gregory of Nyssa; thinner on women's own words (none survive in their own hand), the plateau's non-elite and non-Greek-speaking faithful, the enslaved (never heard in their own voice despite one preacher's own sharp protest against the institution), and the defeated parties (Eustathius, the Homoian church, the Eunomian movement) who survive almost only inside their opponents' polemic."
+living_tradition_flag: true
+state: admitted
+package:
+  manifest_hash: "sha256:68a2bac341da5e873cc197543cc72935be8189baee971c2b2d91c89ad23d75c9"
+  location: "packages/cappadocian/2026-09-10T00-10-21Z"

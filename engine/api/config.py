@@ -60,7 +60,7 @@ class Settings:
                 "CIC_API_REGION is required and has no default - never guess a Bedrock region "
                 "(same rule every other live script in this repo follows)"
             )
-        worlds_yaml_path = Path(os.environ.get("CIC_API_WORLDS_YAML", str(REPO_ROOT / "records" / "worlds.yaml")))
+        worlds_yaml_path = Path(os.environ.get("CIC_API_WORLDS_YAML", str(REPO_ROOT / "records" / "worlds")))
         return cls(
             region=region,
             voice_model_pattern=os.environ.get("CIC_API_VOICE_MODEL_PATTERN", _DEFAULT_VOICE_MODEL_PATTERN),

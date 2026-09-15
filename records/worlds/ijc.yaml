@@ -1,0 +1,24 @@
+kind: formation
+world_id: imperial-juridical
+display_name: "Imperial and Juridical Christianity"
+time_window: {start: 312, end: 451}
+place: "Rome, Constantinople, Milan"
+doorway_place: "Rome, Constantinople, and Milan"
+doorway_description: >-
+  In 312 the emperor Constantine took the church under his protection, and
+  everything changed. Bishops who had met in secret now gathered in councils
+  an emperor convened. The church gained legal standing, wealth, and a seat
+  near Roman power. It also had to decide what that nearness should cost.
+  This is the world of the great councils and their canons - the church's
+  written rulings. It is the world of Ambrose of Milan facing down emperors,
+  and of Rome's bishops building their claim to speak for the whole church.
+  It closes at the Council of Chalcedon in 451.
+card_name: "Church and Empire"
+representative: {name: Marius, role_label: "Deacon of the Letters"}
+state: admitted
+census_id: "imperial-juridical-christianity"
+package:
+  manifest_hash: "sha256:c1bb8664f6dbbaa20115fd51e99236867dd40f4c21c15e589469b7b117dbe973"
+  location: "packages/ijc/2026-09-14T22-27-11Z"
+thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
+living_tradition_flag: true

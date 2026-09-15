@@ -33,16 +33,14 @@ import sys
 from dataclasses import asdict
 from pathlib import Path
 
-import yaml
-
 from engine.m1.loader import load_fleet_records, load_world_records
+from engine.m1.registry import load_registry
 from engine.m3 import harness, results
 from engine.m3.generation import LiveModelAnswerer
 from engine.m4.world_loader import LazyWorldLoader
 from engine.provider.bedrock import make_client, normalize_usage, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-WORLDS_YAML = REPO_ROOT / "records" / "worlds.yaml"
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "live-admission-report.json"
 
 # Per-run authorization is Mark's, every time, named on the command line.
@@ -105,7 +103,7 @@ class _UsageRecordingClient:
 
 
 def run(region: str, world_keys: list[str] | None = None) -> dict:
-    registry = yaml.safe_load(WORLDS_YAML.read_text(encoding="utf-8"))
+    registry = load_registry()
     loader = LazyWorldLoader()
     voice_model_id = resolve_model_id("us.anthropic.claude-sonnet-4-5", region)
 
@@ -113,7 +111,7 @@ def run(region: str, world_keys: list[str] | None = None) -> dict:
     per_world = {}
 
     for world_key in (world_keys or DEFAULT_WORLD_KEYS):
-        entry = registry["worlds"][world_key]
+        entry = registry[world_key]
         world, _timing = loader.load(
             world_key, package_dir=REPO_ROOT / entry["package"]["location"], expected_manifest_hash=entry["package"]["manifest_hash"]
         )

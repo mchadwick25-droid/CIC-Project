@@ -1,6 +1,6 @@
 """Stage-5 gate item: "lazy world load/unload measured." Runs the real
 LazyWorldLoader against the REAL committed fixture package (whichever
-package_dir/manifest_hash records/worlds.yaml currently registers for "fix")
+package_dir/manifest_hash records/worlds/fix.yaml currently registers)
 and records real wall-clock timings for: a cold load (disk read + hash
 verification), a warm load (cache hit, no disk read), an unload, and a
 second cold load (proving unload actually evicted rather than being a
@@ -11,18 +11,16 @@ import json
 import sys
 from pathlib import Path
 
-import yaml
-
+from engine.m1.registry import load_registry
 from engine.m4.world_loader import LazyWorldLoader
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-WORLDS_YAML = REPO_ROOT / "records" / "worlds.yaml"
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "lazy-load-report.json"
 
 
 def run() -> dict:
-    registry = yaml.safe_load(WORLDS_YAML.read_text(encoding="utf-8"))
-    entry = registry["worlds"]["fix"]
+    registry = load_registry()
+    entry = registry["fix"]
     package_dir = REPO_ROOT / entry["package"]["location"]
     manifest_hash = entry["package"]["manifest_hash"]
 
