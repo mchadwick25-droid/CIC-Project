@@ -24,7 +24,7 @@
 
 **Input documents:** Doc_01 (Approved to proceed), Doc_02 + `Source_Registry.md` (Approved to proceed; the Registry itself returned to independent review 2026-09-13), Doc_03 (Approved to proceed), **Doc_04, Doc_05, Doc_06 and Doc_07 — all complete and independently reviewed, none self-disposed**, because CO-022 forbids a build thread from self-disposing a document against which any escalation category is open, and categories are open against all four. Drafted on the project lead's direction of 2026-09-15.
 
-**The confirmed gravity spine every force below is assessed against (Doc_04 §4):** Primary — **G1** Pastoral Office as Territorial Flock-Keeping, **G2** Penitential Discipline, **G3** Collegial Communion Preserved Despite Disagreement, **G6** Sacramental and Ordination Validity Across the Boundary. Supporting — **G4** Preaching and Catechesis, **G5** Conciliar Authority Theory, **G7** Grace and Human Incapacity. Tensional — **G8** Confessor-Authority vs. Episcopal-Regulated Peace.
+**The confirmed gravity spine every force below is assessed against (Doc_04 §4):** Primary — **G1** Pastoral Office as Territorial Flock-Keeping, **G2** Penitential Discipline, **G3** Collegial Communion Preserved Despite Disagreement, **G6** Sacramental and Ordination Validity Across the Boundary. Supporting — **G4** Preaching and Catechesis, **G5** Conciliar Authority Theory, **G7** Grace and Human Incapacity. Tensional — **G8** Confessor-Authority vs. Episcopal-Regulated Peace. **Notation, stated because Doc_04 does not use it:** `G1`–`G8` are this document's short labels for Doc_04's **Candidate 1**–**Candidate 8**, in Doc_04's own order and with Doc_04's own classifications, and the names are abbreviated from Doc_04's fuller forms (Doc_04's *"Candidate 5 — Conciliar Authority Theory (Egalitarian vs. Hierarchical)"* is **G5** here). The correspondence is one-to-one; nothing is reclassified. **[ADDED, 2026-09-15 — Round 1's L1 and C1.]**
 
 ---
 
@@ -94,7 +94,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 **Layer 1 — Historical Event.** North African Latin Christianity possessed, before this world begins, a vigorous local literary culture and the Latin theological vocabulary Tertullian is credited with forging. **Confidence: Widely Accepted** — Doc_01 §6, §7; Doc_02 §2 (Tertullian disclosure).
 
-**Layer 2 — World's Own Experience.** The words were to hand. What had to be argued could be argued in the language the people in the benches already spoke.
+**Layer 2 — World's Own Experience.** The words were to hand. What had to be argued could be argued in the language the people in the assembly already spoke.
 
 **Layer 3 — Formation Impact.** Enables **G4**: preaching and catechesis as the primary formation mode presupposes a vernacular theological register capable of carrying the content. **Proportionality note:** treated briefly. This force is real and enabling but is not contested, not phase-specific, and does not shape any gravity's content — only its medium.
 
@@ -174,7 +174,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 #### Force 2B-3: The illegal-to-established shift in the office's political capacity
 
-**Layer 1 — Historical Event.** Between the phases, the office moved from holding no legal standing to being able to solicit state action against a rival communion. **Confidence: Documented** for the external change; **the placement of its consequence as an internal force follows Doc_01 §6's own sketch** and is named here as that document's judgement rather than this one's. Its external driver is the standing condition at **1A-2**, inverted.
+**Layer 1 — Historical Event.** Between the phases, the office moved from holding no legal standing to being able to solicit state action against a rival communion. **Confidence: Documented** for the external change itself. **Confidence: Contested** for the one element that is genuinely disputable — **the placement of this force's consequence as internal rather than external**, which follows Doc_01 §6's own sketch and is named here as that document's judgement rather than this one's. **Stated in the entry rather than only in §7's summary**, so the summary is derived from something the entry says: Round 1 found §7 reporting a Contested element that no force entry carried. Its external driver is the standing condition at **1A-2**, inverted.
 
 **Layer 2 — World's Own Experience.** What a bishop could do had changed, though what a bishop *was* had not. Cyprian never asked the magistrate for anything; a century and a third later the magistrate could be asked, and eventually was.
 
@@ -188,7 +188,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 **Layer 2 — World's Own Experience.** A predecessor who is ours, whom we do not disown, and who decided this wrongly. *[E]ven of the plenary Councils, the earlier are often corrected by those which follow them.*
 
-**Layer 3 — Formation Impact.** **This is the only mechanism by which this world's formation logic demonstrably crosses its own 133-year silence**, and Doc_05 §3A finds the crossing is textual rather than successive. It produces **G5**'s second formula, tests **G3** across the gap, and re-opens **G6**.
+**Layer 3 — Formation Impact.** **This is the only mechanism by which this world's formation logic demonstrably crosses its own 133-year silence**, and Doc_07 §3A finds the crossing is textual rather than successive. It produces **G5**'s second formula, tests **G3** across the gap, and re-opens **G6**.
 
 **The placement judgement, examined rather than inherited.** Doc_01 §6 places this in the Internal column while flagging that the engagement was *prompted* by the Donatists' own citation of Cyprian — an external prompt for an internal act. **This document confirms the placement and states the reason**: the reading, the argument and the conclusion are this world's own acts, and the prompt determines only the timing. **The connection to 2A-3 is registered at Section 4 rather than resolved by moving the force**, since a force with an external trigger and an internal execution is exactly what the Cross-Cell Connection Principle exists to record.
 
@@ -198,11 +198,17 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 **Layer 1 — Historical Event.** Both anchor figures' writing survives in unusually full form, and Doc_02 §6 names the mechanism precisely: each was, by the time of writing or of later transmission, *"on the institutionally dominant and eventually canonized side of every dispute he engaged."* **This build's actual access is narrower than that.** The working corpus is the 19th-century Ante-Nicene and Nicene and Post-Nicene Fathers English translation projects (`anf05`, `npnf101`–`npnf108`), with critical Latin editions vendored but far less used. **Confidence: Documented** for the survival pattern; **Documented** for the composition of this build's own corpus. **Named transmission agents: the Catholic institutional manuscript tradition; the ANF/NPNF editors and translators; and the vendoring decisions of this build itself.**
 
-**Layer 2 — World's Own Experience.** *Not applicable at this layer, and the reason is stated rather than left blank:* transmission is a force this world did not experience. It acted on the record after the world closed. Doc_01 §5's instruction — that the documentary silence is never made an occasion for meta-commentary from inside — applies here in the same spirit: **no Layer 2 is supplied because supplying one would invent an experience.**
+**Layer 2 — World's Own Experience.** **This world was acutely conscious of transmission and acted on it, which an earlier version of this entry wrongly denied.** Letters were not simply written; they were copied, forwarded, collated and read aloud, and the bishop directing that traffic worried about what the traffic did to a text.
+
+Cyprian asks his readers *"to send a copy of this letter to whomsoever you are able, as occasions may serve, or make your own opportunities."* He assembles his own correspondence into a dossier and forwards it — *"these thirteen letters sent forth at various times declare to you, which I have transmitted to you."* He knows his letters are read beyond their addressee: *"you always read my letters to the very distinguished clergy who preside with you there."* And he experiences textual corruption directly, in the ordinary course of business: receiving a letter whose *"matter, and even the paper itself, gave me the idea that something had been taken away, or had been changed from the original,"* he returns it *"as it actually came to hand, that you may examine whether it is the very same which you gave to Crementius the sub-deacon, to carry."*
+
+A century and a third later the same consciousness takes a different form: Augustine, near the end of his life, reviews and corrects his own life's work in the *Retractationes* — **a deliberate act of curating what would outlast him.**
+
+**What this world could not experience is the part that happened later** — the Catholic institutional tradition's selection, and a 19th-century translation programme. Those are named at Layer 3 as effects on the reconstruction, which is where they belong.
 
 **Layer 3 — Formation Impact — on the reconstruction rather than on the world.** Three effects, all documented in this build:
 1. **The record is full and single-angled at once.** Doc_07 §2B finds this world's asymmetry is not hostile mediation — both voices are the tradition's own — but the near-total absence of any **non-episcopal** voice. Doc_02 §6 narrows that correctly: a deacon, two lay confessors and named women do appear; what does not appear is any ordinary believer writing about ordinary congregational life as such.
-2. **The 19th-century editorial apparatus is interleaved with the text and has repeatedly been read as the world's own voice.** This build has **eight documented local instances**, registered at `Lexicon_Deployment_Index.md` §7 and at Doc_07 §2G. **The remedy is mechanical and is recorded as a standing method: mark `<note>` spans before stripping tags**, because stripping first makes the apparatus indistinguishable from the text.
+2. **The 19th-century editorial apparatus is interleaved with the text and has repeatedly been read as the world's own voice.** This build has **eight documented local instances**. **Seven are registered at `Lexicon_Deployment_Index.md` §7**, which is the local instance list. **The eighth is recorded only in `lpc_Decision_Log.md`'s 2026-09-15 entry for Doc_07 Round 2** — the Latin tag *ad nostra subsellia*, quoted at Doc_07 §2G from inside an NPNF `<note>` span without being marked as such (the substance is confirmed genuine at CSEL 44). **Doc_07 §2G does not carry the flag in its own live text, and the Lexicon Index's register does not yet list the instance** — so a reader opening either destination finds seven and none. **Carried as an open item for the project lead, not closed here**, because the two files it would be written into are not this pass's to amend. **[CORRECTED, 2026-09-15 — Round 1's M5:** the earlier wording cited two destinations for a count neither of them supports.**]** **The remedy is mechanical and is recorded as a standing method: mark `<note>` spans before stripping tags**, because stripping first makes the apparatus indistinguishable from the text.
 3. **Translation shapes discovery, not only accuracy.** Doc_06 §5 item 7 records that a headword sweep in the original language cannot find a term a corpus only ever names in translation — the defect that hid `lpclex019` until Round 1 of Doc_06. **This is a transmission effect on the lexicon itself.**
 
 ---
@@ -233,7 +239,11 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 **Layer 1 — Historical Event.** Augustine's theological output, produced under this world's pastoral pressures, became *"the foundational inheritance of the subsequent Western theological tradition"* far beyond this world's close. **Confidence: Widely Accepted** — Doc_01 §6.
 
-**Layer 2 — World's Own Experience.** *Not experienced as an ending from within.* A bishop writing against a live error for the people in front of him is not producing an inheritance; he is answering Tuesday's problem. **Marked as Reported-Experience-adjacent and left unfilled** rather than narrated: this world did not know this was happening to it.
+**Layer 2 — World's Own Experience.** **Not experienced as an ending — but not experienced as nothing, either.** A bishop writing against a live error writes for the people in front of him and for the case at hand, not for a tradition he expects to found.
+
+**Yet this world did take its own corpus seriously as a thing that would stand after it.** Cyprian gathers and forwards his own letters as a body of work; Augustine, at the end, goes back through everything he has written and corrects it. A man who revises his life's work has understood that the work will be read when he cannot answer for it. **What he has not understood — and what no one in this world could — is which of it would matter, or to whom.**
+
+*Reported as the world's own self-understanding — not assessed for historical accuracy; confidence calibration applies to the historical-event layer only.*
 
 **Layer 3 — Formation Impact.** The transformation is real and runs outward rather than inward. **G7** in particular outlives its own ecology: a gravity Doc_04 finds structurally freestanding *within* this world becomes load-bearing for traditions that follow it. **This is the one force whose formation impact lands mostly outside the world's own boundaries**, which is why it sits in the Ending/Transforming row rather than the Ongoing one.
 
@@ -243,10 +253,12 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 **Layer 1 — Historical Event.** Doc_01 §6 names it as a real asymmetry this world's Doc_02 must not let pass unremarked: **this world's closing decades are disproportionately well-attested relative to its opening ones.** And between the phases, Doc_02 §7 records that **no primary source named at §1 and no Registry row dates from within the roughly 133 years** between Cyprian's martyrdom and Augustine's ordination. **Confidence: Documented** — this is a fact about the record, checkable against the Registry.
 
-**Layer 2 — World's Own Experience.** *None, and not for want of looking.* Doc_01 §5's binding instruction is explicit that the silence is never an occasion for meta-commentary from inside the world, because a person formed in either phase did not experience their own world as having a documentary gap in it.
+**Layer 2 — World's Own Experience.** **The second phase experienced its own inheritance as text rather than as living memory, and that experience is attested.** Augustine does not receive Cyprian through a chain of teachers who knew him; he receives a set of conciliar acts and letters, reads them, and argues with them — treating a predecessor's ruling as a document to be weighed rather than a custom to be continued. **That is what it feels like from inside to inherit across a gap you cannot see across**, and it is why the engagement at 2B-4 takes the form of exegesis rather than appeal to received practice.
+
+**What the world did not experience is the gap as a gap.** Doc_01 §5's binding instruction holds: a person formed in either phase did not know their world had a documentary silence in it, and **this document does not narrate one from inside.** The asymmetry of attestation is a fact about the record, stated at Layer 1 and worked at Layer 3.
 
 **Layer 3 — Formation Impact — on the reconstruction.** Three effects:
-1. **Continuity across the gap is textual, not successive** (Doc_05 §3A) — established by 2B-4 and by nothing else this build has found.
+1. **Continuity across the gap is textual, not successive** (Doc_07 §3A) — established by 2B-4 and by nothing else this build has found.
 2. **The interval is richly attested through sources that are Donatism's territory, not this world's** (Doc_02 §7), which makes the silence a *boundary discipline* rather than an absence of evidence: the temptation is to fill it from World #4, and the binding forbids it.
 3. **Phase-bound gravities are an artefact of the record as well as of the world.** G2 and G8 are attested only in phase one, G7 only in phase two. **Doc_04 established each bound by a positive check rather than by inference from silence** — which is the discipline this transmission asymmetry makes necessary.
 
@@ -325,7 +337,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 1. **G5's indirect connection**, above — carried as Doc_04's own incomplete-ecology finding rather than resolved.
 2. **The Manichaean half of 2A-4 is named and undeveloped**, per Doc_04 §7 item 4, because no specific term has been surfaced to test against.
 3. **The 411 *Gesta* remains unread** (Doc_04 §7 Open Item 6), and it is the one unexploited source that could bear on G5's force-connection. **No force in this matrix draws on it.**
-4. **No force in Cell 3B is attested from within the world**, and both Layer 2 entries there are deliberately left unfilled rather than invented.
+4. **No force in Cell 3B is attested from within the world in the direct way the other cells are** — no one inside this world watched its corpus outlive it, or its record fall silent for 133 years. **Both Layer 2 entries there are nonetheless written**, from this world's own attested transmission-consciousness rather than from invention, and `3B-1` carries the Reported-Experience Status marker that the gap requires. **[CORRECTED, 2026-09-15 — Round 1's H4:** this item previously recorded the two entries as deliberately left unfilled, which the Forces Framework does not permit.**]**
 
 ---
 
@@ -339,19 +351,19 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 **What the transmission pattern reveals about forces.** That this world's evidentiary asymmetry is **the opposite of the sibling case**. Donatism's record is shaped by hostile mediation and is accessible where least mediated. This world's record is not hostile at all — and is inaccessible wherever a non-episcopal voice would have had to carry it. **Two worlds, one province, one century, opposite transmission pathologies.**
 
-**Connection to Author Gravity findings (Doc_02).** Doc_02 §2 flags both anchor figures individually, and the lexicon's own index records **nine of nineteen entries carrying an Author Gravity note**. The forces analysis independently reproduces the pattern at **G7**, whose single-force origin at 2A-4 mirrors its single-voice evidentiary base. **Where forces analysis and Author Gravity analysis agree from opposite directions, the finding is firmer than either alone** — and that convergence is itself the argument for doing both.
+**Connection to Author Gravity findings (Doc_02).** Doc_02 §2 flags both anchor figures individually, and the lexicon's own index records **8 of 19 entries carrying an Author Gravity note** **[CORRECTED, 2026-09-15 — Round 1's H3:** this read *"nine of nineteen,"* contradicting the very file it cites.**]**. The forces analysis independently reproduces the pattern at **G7**, whose single-force origin at 2A-4 mirrors its single-voice evidentiary base. **Where forces analysis and Author Gravity analysis agree from opposite directions, the finding is firmer than either alone** — and that convergence is itself the argument for doing both.
 
 ---
 
 ## Section 7 — Confidence Assessment
 
-**Documented or Widely Accepted.** 1A-1 (Documented), 1A-2 (Widely Accepted), 1B-1 (Documented), 1B-2 (Documented), 1B-3 (Widely Accepted), 2A-1 (Documented), 2A-2 (Documented), 2A-3 (Documented), 2A-4 (Documented), 2B-1 (Documented), 2B-2 (Documented), 2B-4 (Documented), 2B-5 (Documented), 3A-1 (Documented), 3B-1 (Widely Accepted), 3B-2 (Documented).
+**Documented or Widely Accepted.** 1A-1 (Documented), 1A-2 (Widely Accepted), 1B-1 (Documented), 1B-2 (Documented), 1B-3 (Widely Accepted), 2A-1 (Documented), 2A-2 (Documented), 2A-3 (Documented), 2A-4 (Documented), 2B-1 (Documented), 2B-2 (Documented), **2B-3 (Documented, with a contested secondary element — see below)**, 2B-4 (Documented), 2B-5 (Documented), 3A-1 (Documented), 3B-1 (Widely Accepted), 3B-2 (Documented). **All seventeen appear here; `lpc_Force_Index.md` §2 gives the same distribution as counts — 14 Documented, 3 Widely Accepted — and the two views are now reconcilable force by force.** **[CORRECTED, 2026-09-15:** this list previously named sixteen, silently omitting `2B-3` because its contested element is discussed in its own paragraph below. The Index counted it among the fourteen Documented, so the two disagreed by one.**]**
 
 **Dominant Modern Reconstruction.** None. **Stated as a finding:** this world's forces are unusually well documented because both phases are anchored in extensive first-person corpora, so no force here rests on a modern reconstruction of events the sources do not carry.
 
 **Contested.** **2B-3** carries a contested element — not the fact of the illegal-to-established shift, which is Documented, but **its placement as an internal rather than external force**, which follows Doc_01 §6's own judgement and is named as that document's rather than this one's.
 
-**Inferential/Thin.** No force is carried at this level. **Two Layer 2 entries are deliberately left unfilled** (2B-5, 3B-2) and one is marked as not experienced from within (3B-1), which is the honest alternative to writing Inferential/Thin experience claims.
+**Inferential/Thin.** No force is carried at this level. **All seventeen forces carry a written Layer 2**, including the two transmission entries and 3B-1. **[CORRECTED, 2026-09-15 — Round 1's H4:** this previously reported two entries left unfilled and one marked as not experienced from within, which the Forces Framework does not permit and which the sources did not require.**]** 3B-1 carries the **Reported-Experience Status** marker, which is the template's own instrument for a self-understanding that is formationally real and historically bounded.
 
 **Named scholarly tensions carried at full strength.** Three, all inherited and none resolved here: the **[CT]** contests on *grace*, *schism* and *"compel them to come in"* recorded at Doc_06; the **three-phase coercion development** Doc_01 binds against compressing; and the extent to which the **Punic/Berber substrate** shaped ordinary congregational life, which Doc_02 §8 places at Contested and which **no force in this matrix claims to resolve.**
 
@@ -359,7 +371,11 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 ## Section 8 — Governing Principles Applied
 
-**From-Within Principle — CONFIRMED, with three stated exceptions.** Every Layer 2 entry for a force this world experienced is written in its own vocabulary. **Three Layer 2 entries are deliberately not written**: 2B-5 and 3B-2, because transmission acted on the record after the world closed and supplying an experience would invent one; and 3B-1, because this world did not know its corpus was becoming an inheritance. **Leaving them unfilled with the reason stated is the principle applied, not waived.**
+**From-Within Principle — CONFIRMED.** Every one of the seventeen forces carries a Layer 2 written in this world's own vocabulary.
+
+**[CORRECTED, 2026-09-15 — Round 1's H4.]** An earlier version of this document left **three** Layer 2 entries unwritten — 2B-5, 3B-2 and 3B-1 — and certified the principle as *"CONFIRMED, with three stated exceptions,"* arguing that supplying an experience would invent one. **The Forces Framework permits no exceptions: *"This is not optional. All three layers are required for every force."*** There was no exception to state.
+
+**The defect was worse than a rule breach: it was a research failure presented as a principle.** This world is **acutely** transmission-conscious and says so repeatedly in its own voice — Cyprian directing that his letters be copied and forwarded, assembling a thirteen-letter dossier, knowing his letters are read aloud to other clergy, and returning a suspect letter for collation because the paper itself suggested it had been altered; Augustine revising his whole corpus in the *Retractationes*. **All of that was available in the vendored sources and none of it was looked for.** The sibling Donatism build, facing the identical transmission-force problem, wrote real Layer 2 content naming what specifically does not survive. All three entries are now written.
 
 **Proportionality Principle — CONFIRMED.** 1B-3 and 2B-3 are treated briefly and each states why. 2A-4's Manichaean half is named and undeveloped on a disclosed upstream limit. 1A-1, 2A-3 and 2B-2 receive the fullest treatment, which matches their formation impact.
 
@@ -374,7 +390,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 ## Section 9 — Doc_08 Completion Certification
 
 - [x] All six cells populated with at least one identified force — 1A (2), 1B (3), 2A (4), 2B (5), 3A (1), 3B (2) = **17 forces**
-- [x] Every identified force documented at all three layers — **with three Layer 2 entries deliberately unfilled and each reasoned** (2B-5, 3B-2, 3B-1)
+- [x] Every identified force documented at all three layers — **all seventeen, with no exceptions and no blanks**. **[CORRECTED, 2026-09-15 — Round 1's H4 and M1:** this line previously certified three Layer 2 entries as "deliberately unfilled and each reasoned." Two (2B-5, 3B-2) were genuinely blank, which the Framework forbids; the third (3B-1) was never blank at all, so the line misdescribed its own document in both directions.**]**
 - [x] Layer 2 uses the world's own vocabulary — no modern analytical overlay
 - [x] Transmission addressed explicitly in Cell 2B as a named force dimension (2B-5)
 - [x] Transmission addressed explicitly in Cell 3B as a named force dimension (3B-2)
@@ -382,7 +398,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 - [x] Cross-cell connections documented in Section 4 — fifteen
 - [x] Confidence calibration present throughout Section 3 and summarized in Section 7
 - [x] All five governing principles confirmed in Section 8
-- [x] Reported-Experience Status applied where self-understanding is historically uncertain but formationally central
+- [x] Reported-Experience Status applied where self-understanding is historically uncertain but formationally central — **at `3B-1` and there only**, in the form Constitution Article 17 and Forces Framework §3 define (*"documented as the world's own self-understanding rather than asserted as historically established fact"*). **[CORRECTED, 2026-09-15 — Round 1's M3:** the tick previously pointed at nothing. The body's only gesture at the concept was a self-invented "Reported-Experience-**adjacent**" label on an entry that was not, in the end, unfilled.**]**
 - [x] Named scholarly tensions carried at full strength — three, none resolved here
 - [x] Section 6 connects transmission synthesis to Doc_02's Author Gravity findings
 
@@ -401,13 +417,15 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 | Date | Event | Artifact | Result |
 |---|---|---|---|
 | 2026-09-15 | Initial draft — this document and `lpc_Force_Index.md` | — | Step 8 deliverable produced |
+| 2026-09-15 | Round 1 independent adversarial review | `Review-Artifacts/Doc08_Round1_Review.md` | **SUBSTANTIAL REVISION REQUIRED** — 4 HIGH, 5 MEDIUM, 3 LOW, 1 COSMETIC |
+| 2026-09-15 | Round 1 fix pass — all thirteen findings addressed; three Layer 2 entries written from source; Index regenerated by a saved, re-runnable generator | this document + `lpc_Force_Index.md` | **REVISED — unreviewed** |
 
 ---
 
 ## Disposition
 
-**Not disposed.** No review round has been run against this document or against `lpc_Force_Index.md`. A build thread does not score its own work as passing, and the Section 9 checklist above is a structural certification rather than a disposition.
+**Not disposed. REVISED after Round 1; the revision is unreviewed.** `Review-Artifacts/Doc08_Round1_Review.md` returned **SUBSTANTIAL REVISION REQUIRED (4 HIGH, 5 MEDIUM, 3 LOW, 1 COSMETIC)** against the initial draft of this document and `lpc_Force_Index.md`; every finding is addressed above or in the Index, and each correction is marked in place. **[CORRECTED, 2026-09-15:** this line previously read *"No review round has been run against this document,"* in the same commit range as its own review artifact — the identical defect Doc_07's Round 2 raised as NEW-H1 one document earlier.**]** A build thread does not score its own work as passing, and the Section 9 checklist above is a structural certification rather than a disposition. **The three rewritten Layer 2 entries and the regenerated Index are first-draft material that no reviewer has yet seen.**
 
-**Escalation-category assessment (CO-022).** *Representative identity, title, or voice:* **does not apply** — this document makes no identity, title or voice decision. *Portfolio-level or cross-world:* **four items, none decided here**, all inherited: the corpus-wide editorial-apparatus question (to which §2B-5 adds this world's eighth local instance); the *Boundary Structures* / *Boundary Ecology* inconsistency inside both L3 files; the Key Texts / Key Sources template mismatch; and the Doc_07 template's pre-M4 lens structure. **One observation rather than a fifth item:** only one of twelve worlds carries a Force Index, so the index this document co-produces follows the `cic-forces-index` standard rather than portfolio practice, and is built in Markdown to match this world's own `Lexicon_Deployment_Index.md` rather than the single `.xlsx` precedent. *Governance or methodology:* **open, unchanged** — four items. *Unresolved tensions:* **one open** — the 411 *Gesta*, relied on for nothing here.
+**Escalation-category assessment (CO-022).** *Representative identity, title, or voice:* **does not apply** — this document makes no identity, title or voice decision. *Portfolio-level or cross-world:* **four items, none decided here**, all inherited: the corpus-wide editorial-apparatus question — **this world now has eight local instances, the eighth being the *ad nostra subsellia* tag at Doc_07 §2G, recorded in `lpc_Decision_Log.md` and registered nowhere else** (§2B-5 *discusses* the phenomenon; it is not itself an occurrence of it, and an earlier draft of this line said otherwise — **[CORRECTED, 2026-09-15 — Round 1's M5]**); the *Boundary Structures* / *Boundary Ecology* inconsistency inside both L3 files; the Key Texts / Key Sources template mismatch; and the Doc_07 template's pre-M4 lens structure. **One observation rather than a fifth item, and it is now closed:** only one of twelve worlds carries a Force Index, so the index this document co-produces follows the `cic-forces-index` standard rather than portfolio practice. **The Markdown-versus-workbook question this line previously left open is settled at source and needed no escalation:** `CiC_Record_Native_World_Build_Process_V1_3.md` states that the per-world `.xlsx` workbooks are **RETIRED for new builds** and closes with *"Do not create new workbooks."* Markdown is the required form, not a departure from precedent. **[CORRECTED, 2026-09-15 — checked at source rather than carried; the earlier wording treated a settled instruction as an open comparison.]** *Governance or methodology:* **open, unchanged** — four items. *Unresolved tensions:* **one open** — the 411 *Gesta*, relied on for nothing here.
 
 **The build-cycle position, stated plainly.** `cic-build-cycle` requires a document to reach at least *Approved to proceed* before the next begins; **four have not**, and a category is open against each. This document was drafted on the project lead's direction of 2026-09-15. **Five documents in this world are complete, independently reviewed, and awaiting a disposition only the project lead can give; this is the sixth, and it has not been reviewed at all.**
