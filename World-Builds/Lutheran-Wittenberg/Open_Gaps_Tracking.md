@@ -26,9 +26,17 @@ reports her 1524 pieces naming the Wittenberg movement specifically — an absen
 reported evidence, not a reported absence). This determination required five full review
 rounds (Rounds 1–5) to reach its current, honestly-framed state, each round catching a new
 defect in how the prior round's fix was applied — the fullest instance in this build of the
-project's own named "fix rounds introduce their own defects" failure mode. Doc_02's own
-§17 states plainly: "This document does not claim the Zell thread is closed; that
-determination is left to the next reviewer or the coach thread." Doc_02 and the Registry
+project's own named "fix rounds introduce their own defects" failure mode. **Corrected
+2026-09-15, per Doc_03 Round 4 finding R4-4: the sentence below was previously presented as
+a single direct quotation of Doc_02 §17; it merges two separate sentences from two separate
+places in Doc_02 and is not a verbatim quotation of either. Quoted separately and correctly
+here instead.** Doc_02's status header states: "This document does not claim the Zell
+thread is settled beyond doubt; 'Approved to proceed' unblocks the next document and claims
+nothing more — the item is flagged as a standing note for the coach thread, not closed by
+this document's own say-so." Doc_02 §17's own Review status closes: "This document does not
+declare the Zell thread closed on its own say-so a sixth time; it records what was found and
+fixed, and treats 'self-disposition-ready' as a judgment for the next reviewer or the coach
+thread to make, not one more claim added to a list of five prior claims." Doc_02 and the Registry
 were self-disposed APPROVED TO PROCEED (2026-09-15) on the grounds that Round 5's
 findings no longer changed the determination itself, only its stated evidentiary basis —
 see Doc_02 §17's Disposition note for the full escalation check. **This entry exists so
@@ -81,7 +89,7 @@ Augustinian-Hermits-specific Doc_03 exists.
 
 **Status: OPEN, owed to Doc_06.**
 
-Of the Apology's roughly 8,500+ lines, only Article IV's opening (552–771), the "faith
+Of the Apology's 10,466 lines (`wc -l`; **corrected 2026-09-15 per Doc_03 Round 4: previously stated as "roughly 8,500+," apparently taken from the highest Apology line number cited in Doc_02 rather than the file's own length, which understated the unread remainder**), only Article IV's opening (552–771), the "faith
 alone" passages (1108–1125), Article XII's opening (4896–4935), one grep-located line
 (4729), and the lines the Source Registry independently verified have been read. Doc_03
 §11 item 1 names this as the place several "Luther-only" Author Gravity flags in §10.1 may
