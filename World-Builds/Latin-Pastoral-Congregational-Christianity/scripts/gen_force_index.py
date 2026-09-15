@@ -46,26 +46,28 @@ KNOWN_TAGS = ("CORRECTED", "ADDED", "MOVED HERE", "MOVED", "REVISED", "CORRECTIO
 # CORRECTION, SUPERSEDED, MOVED HERE -- followed by a comma or a dash. The
 # "[X]" recapitalisation convention this build uses ("[I]t", "[Y]our") is a
 # single letter and cannot match; "[Supporting]" has no comma or dash after it.
-# Separator forms actually in use, all three: "[TAG, 2026-…", "[TAG 2026-…"
-# (comma omitted -- the one variant that still injected after the first fix),
-# and "[TAG — …". A BARE hyphen is excluded on purpose: it matched
-# "[world-code]_Forces_Document.md", the L4 template's own filename.
-_SEP = r"(?=,\s*\d{4}|\s+\d{4}|\s*—)"
-_OPEN = r"\[[A-Z][A-Za-z]{2,14}(?:\s+[A-Z][A-Za-z]{1,14})?" + _SEP
+# Round 8's HIGH-1: the previous fix opened the TAG and left the SEPARATOR a
+# closed list (comma+year, space+year, em dash). Ten forms defeated it,
+# including "[FURTHER CORRECTION, Round 9.]" and "[SUPERSEDED, Round 9: ...]",
+# both LIVE in this world's own lpc_Decision_Log.md. Whitelisting the tag and
+# then whitelisting the separator is the same mistake twice.
+#
+# Both are open now. A notice is one to four capitalised words inside a
+# bracket, followed by ANY separator punctuation or a number. What is
+# deliberately excluded is every short bracket convention this build uses:
+# "[X]" recapitalisation ("[I]t", "[Y]our"), the "[CT]" contested tag, and
+# "[Supporting]" -- none has a separator after the word. "[world-code]", the
+# L4 template's own filename, is excluded because its hyphen is inside a word
+# rather than spaced.
+_TAG = r"[A-Z][A-Za-z]{1,24}(?:\s+[A-Za-z][A-Za-z]{0,24}){0,3}"
+_SEP = r"(?=\s*[,:;(]|\s*[—–]|\s+-\s|\s+\d)"
+_OPEN = r"\[" + _TAG + _SEP
 NOTICE = re.compile(r"\*{0,2}" + _OPEN + r".*?\]\*\*", re.S)
 OPENER = re.compile(_OPEN)
-# Round 7 also found the coverage assertion CIRCULAR: OPENER and NOTICE were
-# built from the same string, so it could only detect notices it already
-# stripped -- it promised "a notice the stripper cannot see is derivation
-# input" and was structurally incapable of seeing one. DETECT is deliberately
-# broader than NOTICE and case-insensitive, so an opener the stripper misses
-# is still caught and halts the run.
-# The separator must be a comma-and-year, an em dash, or a SPACED hyphen --
-# a bare hyphen matched "[world-code]_Forces_Document.md", the L4 template's
-# own filename, and halted the run on a false positive.
-DETECT = re.compile(
-    r"\[[A-Za-z][A-Za-z]{2,14}(?:\s+[A-Za-z][A-Za-z]{1,14})?"
-    r"(?:,\s*\d{4}|\s+\d{4}|\s*—|\s+-\s)", re.I)
+# DETECT stays deliberately broader than the stripper and case-insensitive, so
+# a form the stripper does not know halts the run instead of becoming source.
+DETECT = re.compile(r"\[[A-Za-z][A-Za-z]{1,24}(?:\s+[A-Za-z][A-Za-z]{0,24}){0,3}"
+                    r"(?:\s*[,:;(]|\s*[—–]|\s+-\s|\s+\d)", re.I)
 
 def strip_notices(t):
     return "\n".join(NOTICE.sub(" ", ln) for ln in t.split("\n"))
@@ -119,7 +121,7 @@ assert_notice_coverage(text, "Doc_08_Forces_Document.md")
 # so it is ASSERTED here against the artifacts on disk. Five rounds running, a
 # stale round count survived because every sweep was built from the phrasings
 # already known. This does not depend on phrasing: it counts.
-def assert_doc08_round_count(t, n):
+def assert_doc08_round_count(t, n, fixpass, per_round):
     """Round 6's M3: the first version passed three false claims, including a
     masthead rewritten to "REVISED after Round 2 ... Two ... rounds". Three
     causes, all now fixed: bold markers broke the \\s+ between the number word
@@ -155,14 +157,31 @@ def assert_doc08_round_count(t, n):
     # Round 6's M3 passed a masthead rewritten to "REVISED after Round 2"
     # because a max() over all ordinals was still 6 from the true sites --
     # a max cannot see a false claim that is lower than a true one.
+    # Round 8: this asserted "REVISED after Round N" against the ARTIFACT
+    # count, so the moment a review was filed the guard demanded the document
+    # claim a fix pass that had not happened -- the guard compelling the false
+    # claim it exists to prevent. It is a fix-pass statement and is checked
+    # against the fix-pass ordinal.
     for m in re.finditer(r"REVISED after Round\s+(\d+)", flat, re.I):
-        if int(m.group(1)) != n:
-            problems.append(f"'{m.group(0)}' vs {n} artifacts")
+        if int(m.group(1)) != fixpass:
+            problems.append(f"'{m.group(0)}' vs latest fix pass Round {fixpass}")
     # Log rows may name any round up to n, but the highest must BE n.
     ords = [int(m.group(1)) for m in re.finditer(
         r"Round\s+(\d+)\s*(?:—|-|independent adversarial review|fix pass|\()", flat, re.I)]
     if ords and max(ords) != n:
         problems.append(f"highest round ordinal named is {max(ords)} vs {n} artifacts")
+
+    # Round 8: the per-round finding counts and verdict words in Doc_08 were
+    # compared against nothing, though the artifacts' own values are in hand.
+    for rnd, (counts, verdict) in sorted(per_round.items()):
+        for m in re.finditer(r"Round " + str(rnd) + r"\s*\(([^)]*)\)", flat):
+            if m.group(1).strip() != counts and "H " in m.group(1):
+                problems.append(f"Doc_08 says Round {rnd} ({m.group(1)}), artifact says ({counts})")
+    stated = set(re.findall(r"all (?:three|four|five|six|seven|eight|nine|ten) returning \*{0,2}([A-Z][A-Z ]+)", flat))
+    actual = {v for _, v in per_round.values()}
+    for st in stated:
+        if len(actual) == 1 and st.strip() not in actual:
+            problems.append(f"Doc_08 states all rounds returned '{st.strip()}'; artifacts say {sorted(actual)}")
 
     if problems:
         sys.exit("FATAL: Doc_08's review-history claims disagree with Review-Artifacts/:\n  - "
@@ -180,6 +199,8 @@ LATEST = ROUNDS[-1][0] if ROUNDS else 0
 WORDNUM = {0: "No", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five",
            6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten"}
 _W2I = {w.lower(): i for i, w in WORDNUM.items()}
+_W2I.update({"eleven": 11, "twelve": 12, "thirteen": 13, "fourteen": 14,
+             "fifteen": 15, "sixteen": 16, "seventeen": 17})
 
 def _as_int(tok):
     return int(tok) if tok.isdigit() else _W2I.get(tok.lower(), -1)
@@ -210,8 +231,13 @@ def verdict_counts(path):
     rest = t[_h.end():]
     nxt = re.search(r"^#{2,3} ", rest, re.M)
     window = rest[:nxt.start()] if nxt else rest[:1200]
+    # Round 8's HIGH-2: the COUNTS got a structural window and the VERDICT kept
+    # t[i:i+200] -- "a number chosen by eye" -- inside the very function whose
+    # §6 paragraph says that was fixed. A Round-7 artifact returning
+    # SUBSTANTIAL REVISION REQUIRED was emitted in the Disposition as CLEARED.
+    # The verdict now comes from the same structural window as the counts.
     vm = re.search(r"(CLEARED|MINOR REVISION|SUBSTANTIAL REVISION REQUIRED|REJECTED)",
-                   t[i:i + 200])
+                   window)
     verdict = vm.group(1) if vm else "verdict not parsed"
     m = re.search(r"(\d+)\s*HIGH\D{1,4}(\d+)\s*MEDIUM\D{1,4}(\d+)\s*LOW\D{1,4}(\d+)\s*COSMETIC",
                   window)
@@ -226,7 +252,9 @@ _verdicts = {v for _, v in _VC.values()}
 # as a revision round by a literal nobody remembered to change (Round 6's M4).
 VERDICT_LINE = ("**all " + _verdicts.pop() + "**" if len(_verdicts) == 1
                 else "verdicts: " + "; ".join(f"Round {n}: {v}" for n, (_, v) in sorted(_VC.items())))
-assert_doc08_round_count(text, NROUNDS)
+# fix-pass ordinal read from Doc_08's own Document Log
+_fp0 = [int(m) for m in re.findall(r"Round\s+(\d+)\s+fix pass", strip_notices(text))]
+assert_doc08_round_count(text, NROUNDS, max(_fp0) if _fp0 else 0, _VC)
 
 # Round 7: LATEST conflated "latest artifact on disk" with "latest fix pass
 # performed", so with a review artifact present and no fix pass yet the Index
@@ -506,10 +534,33 @@ for ln in sec4.split("\n"):
 # the Index printed 14 against Doc_08 §9's certified fifteen, and nothing
 # compared the parsed count to the rows actually present. Count the table's
 # own data rows and require the parse to consume every one.
+# Round 8's MEDIUM-1: the row count shared the parse's own success criteria
+# (">= 5 pipes"), so deleting one trailing pipe removed a row from BOTH sides
+# and the equality still held -- the Index printed 14 against §9's certified
+# fifteen, verbatim the outcome this guard advertises preventing. The count is
+# now deliberately DECOUPLED: any line in §4 beginning with a pipe that is not
+# the header and not the rule is a data row, however malformed.
 _sec4_rows = [ln for ln in sec4.split("\n")
-              if ln.strip().startswith("|") and ln.count("|") >= 5
-              and not re.match(r"^\|[\s|:-]+\|$", ln.strip())
-              and "From" not in ln.split("|")[1]]
+              if ln.strip().startswith("|")
+              and not re.match(r"^\|[\s|:-]+\|?$", ln.strip())
+              and not re.search(r"\|\s*\*{0,2}From\*{0,2}\s*\|", ln)]
+_pairs = [(c["src"], c["dst"]) for c in conns]
+_dupes = sorted({p for p in _pairs if _pairs.count(p) > 1})
+if _dupes:
+    sys.exit(f"FATAL: §4 lists duplicate connection(s): {_dupes}. "
+             "A duplicated row raises the connection total without failing the row-count "
+             "check, because both sides move together. Refusing to emit.")
+
+# Doc_08 certifies the connection count in its own prose; the Index must agree.
+_certified = set()
+for m in re.finditer(r"(?:Cross-cell connections documented in Section 4 — |§4\.\s*)?"
+                     r"\b(fifteen|sixteen|fourteen|thirteen|\d{1,2})\s+(?:cross-cell\s+)?connections",
+                     strip_notices(text), re.I):
+    _certified.add(_as_int(m.group(1)) if not m.group(1).isdigit() else int(m.group(1)))
+if _certified and len(conns) not in _certified:
+    sys.exit(f"FATAL: Doc_08 certifies {sorted(_certified)} connection(s) in its own prose "
+             f"but §4's table yields {len(conns)}. Refusing to emit.")
+
 if len(conns) != len(_sec4_rows):
     sys.exit(f"FATAL: §4's table has {len(_sec4_rows)} data row(s) but only {len(conns)} parsed. "
              "A row whose force ID is not bolded is dropped silently, which is how the Index "
@@ -576,7 +627,7 @@ O = []
 w = O.append
 w("# Force Index — Latin Pastoral-Congregational Christianity")
 w("")
-w(f"**Status:** **REVISED after Round {LATEST} — the revision is unreviewed, and not self-disposed.** Co-output of Construction Step 8 with `Doc_08_Forces_Document.md`; reviewed and disposed of together.")
+w(f"**Status:** **REVISED after Round {LATEST_FIX_PASS} — the revision is unreviewed, and not self-disposed.** Co-output of Construction Step 8 with `Doc_08_Forces_Document.md`; reviewed and disposed of together.")
 w(f"**Review history, counted from `Review-Artifacts/` rather than typed:** {HISTORY} — {VERDICT_LINE}. **[CORRECTED, 2026-09-15 — Round 3's NEW-H3 and Round 5's H1:** these lines were generator literals and went stale twice, two rounds apart. **The round count and each round's finding counts are now read off the artifact files themselves**, so a round that exists on disk cannot be missing from this line.**]**")
 w(f"**World file-code:** `lpc` · **Drafted:** 2026-09-15 · **Revised:** 2026-09-15 (Round {LATEST_FIX_PASS} fix pass) · **Generated by** `scripts/gen_force_index.py`, committed beside this file")
 w("**Generated from `Doc_08_Forces_Document.md` by `gen_force_index.py`. Never hand-edited.**")
@@ -728,17 +779,21 @@ w("**Cross-cell cross-check (§3 prose against §4's table). [ADDED, 2026-09-15 
      "**" + str(len(xc_mismatch)) + " disagreement(s):** " + ", ".join(f"`{a}` names `{b}`, §4 does not pair them" for a, b in xc_mismatch) + "."))
 w("")
 w("**The controls, stated at what they actually cover. [REVISED, 2026-09-15 — Round 6's M2, M3 and M4.]** "
-  "There are **ten**: **one regression (A), five positive controls (B–F) whose planted defect must appear in the output, and four negative controls (G, H, I, J) that must halt the generator.** "
+  "There are **thirteen**: **one regression (A), six positive controls (B–F, M) whose planted defect must appear in the output, and six negative controls (G–L) that must halt the generator.** "
+  "*(The split has been misstated in three consecutive rounds and the count has changed twice more as controls were added. It is re-derived by exit code each time now, not copied. The lesson is not arithmetic: **a number stated here was inherited into the Decision Log and then into the next round's brief, twice, without anyone re-deriving it.**)* 
   "**(A)** regression against the pre-fix draft at `9eccc532` — three §3/§5 divergences, three stubs. "
   "**(B)** a false denial produces a contradiction row. "
-  "**(C)** a force ID planted inside a notice does not reach the tables — **tested across six tag forms**: `[CORRECTED, …]`, `[CORRECTION, …]`, `[Added, …]` (title case), `[ADDED 2026-… ]` (comma omitted), `[NOTE — …]`, and an all-lowercase `[correction, …]`, which the broader detector halts on rather than silently stripping. "
+  "**(C)** a force ID planted inside a notice does not reach the tables — **tested across the eleven forms that have defeated an earlier version of this stripper**: `[CORRECTED, …]`, `[CORRECTION, …]`, `[Added, …]` (title case), `[ADDED 2026-… ]` (comma omitted), `[FURTHER CORRECTION, Round 9.]` and `[SUPERSEDED, Round 9: …]` (**both live in this world's own Decision Log**), `[CORRECTION; …]` (semicolon), `[NOTE (see …).]` (spaced parenthesis), `[CORRECTED – …]` (en dash), a three-word tag, and an all-lowercase `[correction, …]` which the broader detector halts on. Two closed lists have now been broken in successive rounds — first the tag, then the separator — so **both are open and the assertion is deliberately broader than the stripper**. The legitimate short-bracket conventions are preserved and checked: `[X]` recapitalisation, the `[CT]` contested tag, `[Supporting]`, and `[world-code]`. : `[CORRECTED, …]`, `[CORRECTION, …]`, `[Added, …]` (title case), `[ADDED 2026-… ]` (comma omitted), `[NOTE — …]`, and an all-lowercase `[correction, …]`, which the broader detector halts on rather than silently stripping. "
   "**(D)** an omitted connection produces a contradiction row. "
   "**(E)** a Layer-3 claim §4 does not carry produces a cross-cell row. "
   "**(F)** a notice in `**Heading. [TAG …]**` form is stripped. "
   "**(G)** a malformed notice that swallows the next notice's opener halts. "
   "**(H)** a review-status claim disagreeing with `Review-Artifacts/` halts. "
   "**(I)** a force filed under a `### CELL` heading its ID contradicts halts. "
-  "**(J)** a §4 row that fails to parse — a de-bolded force ID — halts, instead of silently printing one connection fewer than Doc_08 certifies. "
+  "**(J)** a §4 row that fails to parse — a de-bolded force ID, a missing trailing pipe — halts, instead of silently printing one connection fewer than Doc_08 certifies. "
+  "**(K)** a duplicated §4 row halts: it raises the total *without* failing (J), because the parse and the row count move together. "
+  "**(L)** a connection total disagreeing with the count Doc_08 certifies in its own prose halts. "
+  "**(M)** a review artifact returning `CLEARED` is reported as CLEARED — the verdict word is read from the artifact's own structural window, not from a literal. "
   "*(This split has now been wrong three times, and the count itself has changed twice more as controls were added. An early version said \"four positive, three negative\"; its replacement said \"six positive, two negative,\" filing control (I) — which halts — among the positives. Round 7 reproduced all nine and corrected it. The miscount travelled from this paragraph into `lpc_Decision_Log.md` and then into the brief for the next round, twice running, which is worth more than the arithmetic: **a number stated here is inherited downstream without being re-derived.**)* "
   "**(A) Regression** against the pre-fix draft at `9eccc532`: all three §3/§5 divergences Round 1 found by hand. "
   "**(B) False denial** — §3 claiming §5 does not carry `G6` produces a contradiction row. "
