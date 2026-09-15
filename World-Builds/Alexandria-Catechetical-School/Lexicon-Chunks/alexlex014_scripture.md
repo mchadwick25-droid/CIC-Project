@@ -47,7 +47,7 @@ The Logos speaking *now*, held in a *formative* relationship: the text forms the
 
 ## Key Sources
 
-John 1:1–18. Clement of Alexandria, *Stromateis* I and V (multilevel meaning — attested independently of Origen). Origen, *On First Principles* IV (the levels of Scripture and the "stumbling blocks" placed to drive the reader deeper); the Homilies -- **not currently vendored, flagged 2026-09-08, Round 5 Opus review**: `Ministry/Technology/table_phase0/Texts_Scrub_alexandria.md` confirms "no homily exists in any vendored volume." Athanasius, *Letter to Marcellinus* -- **not currently vendored** (see below) -- and the *Festal Letters* (Scripture forming the whole Egyptian church, beyond the school).
+John 1:1–18. Clement of Alexandria, *Stromateis* I and V (multilevel meaning — attested independently of Origen). Origen, *On First Principles* IV (the levels of Scripture and the "stumbling blocks" placed to drive the reader deeper); the Homilies -- **not currently vendored**: `Ministry/Technology/table_phase0/Texts_Scrub_alexandria.md` confirms "no homily exists in any vendored volume." Athanasius, *Letter to Marcellinus* -- **not currently vendored** (see below) -- and the *Festal Letters* (Scripture forming the whole Egyptian church, beyond the school).
 
 Note: Origen dominates the surviving *systematic* account (the three-level taxonomy and the stumbling-blocks argument) — Dominant Modern Reconstruction for any ecology-wide method claim; the underlying conviction that Scripture has formative depth is broadly Alexandrian (Clement attests allegory independently), so the core is Widely Accepted (Doc_04 C1, two-level result).
 
