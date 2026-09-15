@@ -43,6 +43,19 @@ Registered without files (no vendorable edition exists or acquisition is blocked
 - **Why P1:** the Apophthegmata is this world's central teaching corpus. Until this file lands, **every saying in the record set is license `paraphrase-only` and no verbatim saying can be voiced.** On arrival: verify rights from the scan's own front matter, vendor, re-verify each paraphrase-only quote against Budge's text and upgrade to `verbatim` (with the Syriac-recension caveat in each locus) where exact.
 - **This session could not fetch it:** network policy blocks archive.org file downloads (verified; recorded in `desert.search.apophthegmata-pd-english`).
 
+**ADDENDUM, 2026-09-13: G1 FULFILLED, both volumes vendored and checked
+directly (2026-08-27) - `cic/texts/palladius_paradise-v1-syriac_budge1907.txt`
+and `cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt`.** Vol. 2 is
+exactly what this entry expected (the Apophthegmata); every paraphrase-only
+saying has been re-verified and upgraded per this entry's own "on arrival"
+instruction. Vol. 1 was NOT what this entry's own catalogue-derived
+description expected: it carries the Syriac Vita Antonii and Palladius
+Book I only, not the History of the Monks - see `desert.source.historia-
+monachorum`'s own trailing addendum for the full account, including the
+now-closed search for any other public-domain English rendering of that
+work. Left in place above rather than corrected in place, per this
+build's own standing addendum convention for a closed document.
+
 ### G2 — consult-only acquisitions (decision, not download) — **P2**
 Confirm whether these are available to the build as consult-only research inputs (never vendored, never quoted): Veilleux, *Pachomian Koinonia* vols. 1–2 (Rule + Lives); Rubenson, *The Letters of St. Antony*; Gould, *The Desert Fathers on Monastic Community*; Ward, *The Sayings of the Desert Fathers* (accuracy control for paraphrased sayings until Budge lands); Brakke ×2, Burton-Christie, Goehring, Rousseau (already carried by the prior build's registry, assumed still in hand). All except Ward now have consult-only source records.
 
@@ -70,4 +83,4 @@ Confirm whether these are available to the build as consult-only research inputs
 
 ## 6. Search-record index
 
-`records/desert/search_record/`: `vita-antonii-npnf204` (found) · `cassian-npnf211` (found) · `lausiac-clarke1918` (found) · `apophthegmata-pd-english` (found, acquisition OPEN → G1) · `historia-monachorum-english-pd` (found, OPEN → G1) · `pachomian-rule-english-pd` (not_found) · `pachomian-lives-english-pd` (not_found) · `antony-letters-english-pd` (not_found) · `evagrius-praktikos-english-pd` (not_found; Socrates IV.23 partial exception) · `white-martyrdom-citation` (found, resolved).
+`records/desert/search_record/`: `vita-antonii-npnf204` (found) · `cassian-npnf211` (found) · `lausiac-clarke1918` (found) · `apophthegmata-pd-english` (found, acquisition G1 fulfilled 2026-08-27) · `historia-monachorum-english-pd` (corrected to not_found 2026-09-13 - G1 fulfilled but neither volume was this work) · `pachomian-rule-english-pd` (not_found) · `pachomian-lives-english-pd` (not_found) · `antony-letters-english-pd` (not_found) · `evagrius-praktikos-english-pd` (not_found; Socrates IV.23 partial exception) · `white-martyrdom-citation` (found, resolved).
