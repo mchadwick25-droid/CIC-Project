@@ -32,6 +32,7 @@
      Anchored on a 1rem body: anything the reader is meant to actually read
      is --fs-base, and no prose sits below it. All rem, so a reader who
      raises their browser's default size scales the whole card with it. */
+  --panel-w:min(460px,90vw);
   --fs-xs:.75rem;      /* 12px  status pill, edge key, story byline */
   --fs-sm:.8125rem;    /* 13px  section labels, source summaries */
   --fs-note:.875rem;   /* 14px  asides: dateline, caveats, the doctrine note */
@@ -52,10 +53,22 @@
 html,body{height:100%}
 body{margin:0;background:var(--parchment);color:var(--iron-gall);
   font-family:"Alegreya Sans",system-ui,sans-serif;overflow:hidden}
+/* Pressure, not a cap. The topbar and the intro banner are both fixed to left
+   and right, so with the panel open they ran underneath it: the banner was cut
+   off mid-word, and two controls -- Reset view, and the banner's own dismiss
+   button -- sat wholly behind the panel at every viewport width, reachable by
+   keyboard but not by mouse. Handing them the panel's width as a right offset
+   makes the text re-wrap into the space that is left and brings the buttons
+   back beside the panel rather than behind it.
+   flex-wrap is no longer only a phone rule: under pressure the row has to be
+   able to yield at any viewport width, or it simply overflows instead. */
 .topbar{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;align-items:center;
-  gap:.7rem;padding:.5rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
+  flex-wrap:wrap;row-gap:.2rem;
+  gap:.7rem;padding:.5rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule);
+  transition:right .22s ease}
 .topbar h1{font-family:"Alegreya",Georgia,serif;font-size:1.05rem;font-weight:700;margin:0}
-.topbar .tag{font-size:.72rem;color:var(--ink-faded);font-style:italic}
+.topbar .tag{font-size:.72rem;color:var(--ink-faded);font-style:italic;min-width:0}
+body.panel-open .topbar,body.panel-open #scopeNote{right:var(--panel-w)}
 .topbar .spacer{flex:1}
 .topbar a.home{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;
   color:var(--ink-faded);text-decoration:none;white-space:nowrap;
@@ -65,7 +78,7 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
   border:1px solid var(--rule);border-radius:3px;padding:.35rem .7rem;cursor:pointer}
 .topbar button:hover{border-color:var(--gold-leaf)}
 .topbar button:focus-visible{outline:2px solid var(--madder);outline-offset:1px}
-#scopeNote{position:fixed;top:2.6rem;left:0;right:0;z-index:19;font-size:.74rem;
+#scopeNote{position:fixed;top:2.6rem;left:0;right:0;z-index:19;font-size:.74rem;transition:right .22s ease;
   color:var(--ink-faded);background:var(--tyrian-wash);border-bottom:1px solid var(--rule);
   padding:.4rem .9rem;line-height:1.5}
 #scopeNote b{color:var(--tyrian)}
@@ -199,7 +212,7 @@ svg#world{display:block;overflow:visible}
    shortens the card by roughly a sixth, because the lines are being used.
    Past about 520px the measure passes 75 and starts to read badly again, so
    this is a ceiling rather than a preference. */
-#panel{position:fixed;top:0;right:0;bottom:0;width:min(460px,90vw);background:var(--vellum);
+#panel{position:fixed;top:0;right:0;bottom:0;width:var(--panel-w);background:var(--vellum);
   border-left:2px solid var(--gold-leaf);z-index:30;transform:translateX(105%);
   transition:transform .22s ease;overflow-y:auto;padding:0 1.3rem}
 /* The trailing space belongs to the body, not to the scroll container: a
@@ -358,9 +371,11 @@ svg#world{display:block;overflow:visible}
      below it) drops to its own full-width row rather than fighting the
      real controls for space; Reset follows on a row of its own after it,
      since home+h1+Reset together still don't fit width one row at 390px. */
-  .topbar{flex-wrap:wrap;row-gap:.2rem}
   .topbar .tag{flex:1 1 100%;order:1}
   .topbar button{order:2}
+  /* The panel is 90vw here -- a sheet over the page, not a side panel. Yielding
+     to it would leave the topbar a tenth of the screen and gain nothing. */
+  body.panel-open .topbar,body.panel-open #scopeNote{right:0}
 }
 @media (pointer:coarse){
   .node .halo{r:calc(22 / var(--zoom-scale,1))}
@@ -42403,6 +42418,7 @@ let lastFocused=null;
 function showPanel(){
   lastFocused=document.activeElement;
   panel.classList.add('open');
+  document.body.classList.add('panel-open');
   panel.removeAttribute('inert');
   // The close button, not the panel container -- landing there means Tab's
   // very first step and Shift+Tab's very first step both start from a real
@@ -42413,6 +42429,7 @@ function showPanel(){
 function closePanel(){
   clearPanelCta();
   panel.classList.remove('open');
+  document.body.classList.remove('panel-open');
   panel.setAttribute('inert','');
   if(lastFocused&&document.contains(lastFocused))lastFocused.focus();
   lastFocused=null;
@@ -42680,6 +42697,13 @@ function positionScopeNote(){
   const note=document.getElementById('scopeNote');
   if(note)note.style.top=document.querySelector('.topbar').offsetHeight+'px';
 }
+// The banner hangs off the topbar's height, and that height now changes for
+// reasons other than a resize: opening the panel narrows the row, which can
+// re-wrap it, and it does so partway through the .22s slide rather than at
+// either end of it. Watching the element covers every cause -- panel, resize,
+// webfont swap -- without listing them.
+if(window.ResizeObserver)new ResizeObserver(positionScopeNote)
+  .observe(document.querySelector('.topbar'));
 positionScopeNote();
 window.addEventListener('resize',positionScopeNote);
 window.addEventListener('resize',()=>{/* no auto-recenter -- resize is not a participant zoom action */});
