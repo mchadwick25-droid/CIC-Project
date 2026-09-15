@@ -1694,3 +1694,34 @@ Both forced from fresh copies: inserting *"No source in this corpus records what
 **What the precedent confirms rather than changes.** Its §3 describes exactly what this world's Doc_01 and Doc_04 already did: strand-singularity argued from evidence attested independently in **both** phases, and **phase testing substituted for cross-strand testing**. That is the build's own method, now written up as portfolio guidance.
 
 **Filing.** This copy sits in `lpc`'s build folder because that is this build thread's write scope. **It is portfolio-level guidance and should also be filed portfolio-level** — `world-build-docs/_cross-world/` holds comparable documents — but that placement is a coach-thread or project-lead action.
+
+---
+
+## 2026-09-15 — Doc_04 cleared; and a correction to this morning's own approval entry
+
+**Project lead's instruction:** *"yes, apply h1 and h3 and clear doc_04."*
+
+**H1 and H3 were already applied, along with H2 and H4 — all four of Round 11's HIGH findings are closed.** Verified at source before writing this, not taken from any pass's own report:
+
+| | closed where | verified |
+|---|---|---|
+| **H1** — Status line and Disposition falsified by adding Round 10 to §8 | Status line now carries the approval and *"Rounds 5–11"*; §8 lists Rounds 10 and 11 | read both sites |
+| **H2** — completeness claim asserted twice, denied once | appendix line 3 and Doc_04 line 249 both now read *"the claims this document has withdrawn that a reader of the current text might otherwise expect to find in it"* | read all three sites; the fix pass also found a **sixth site the review itself had missed** |
+| **H3** — adverse source adjudication carried into the record without opening the file | `[CORRECTION, 2026-09-14 — Round 11's H3]` at the seventh entry; unresolved tensions down from two to one | read the entry and the count |
+| **H4** — last unmarked assertion of the withdrawn basis | line 766 now carries the supersession | `grep "held provisionally"` returns both sites marked |
+
+**H3 is worth stating plainly because it runs the other way.** The record had asserted that *"the Registry has the better of it"* on the row 65 / act 158 question — that the one fact Doc_04 says it relies on was probably wrong. **Opened at source, the adjudication reverses**: the two records are compatible and Doc_04's reading is the one the text supports. A non-conflict had been escalated as a CO-022 unresolved tension on a false premise. **Fixing it makes Doc_04's position stronger, not weaker.**
+
+### Correction to this morning's approval entry
+
+**This morning's entry said findings from Rounds 5–11 were *"outstanding and unfixed"*, and that Round 11's **4 HIGH** were among them. That was wrong.** I read Doc_04's Disposition text, which predated the Round 11 fix pass, and reported it as current without checking whether the findings it listed had since been closed. **It is the same defective-check pattern as this morning's disposition grep: a source consulted, an adjacent fact returned, and the result trusted because something came back.** Twice in one day, on the same document.
+
+**It was also wrong in the direction that made the build look worse.** I told the project lead they were approving a document with four HIGH findings open. They were not. The four were closed before the approval was given.
+
+**What genuinely remains:** Round 11's MEDIUM and LOW findings and the residue of Rounds 5–10. Round 11's four MEDIUMs are a cross-reference routing, a Disposition/Decision-Log escalation mismatch, inline correction narration at three sites, and an appendix preamble contradiction. **None touches a gravity, a test, a classification or an open item.**
+
+### Cleared, and not held for a twelfth round
+
+**Round 11's own judgement, quoted rather than summarised:** *"My judgement: yes, on its substance — and I would not hold Doc_05 for a twelfth review round."* It records that the classification now reads identically at **all seven sites** that state it, and the test results identically at §3, §4 and §5 — the first time in eleven rounds either has been true.
+
+Together with *"seven of eight candidates have not been in contention since Round 4"*, and with the gapped-formation precedent's §4b stopping rule, **Doc_04 is cleared. No twelfth round.** The remaining MEDIUM/LOW items are record-state and are carried, not chased.
