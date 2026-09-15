@@ -1,6 +1,6 @@
 # Step 0 — Movement-Scope Confirmation: Lollardy
 
-**Status:** DRAFT, Revision 1. Prepared at the project lead's direct request (2026-09-15), the sixth of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-verification pass the same day (`world-build-docs/_cross-world/dossiers/lollardy_Source_Readiness_Dossier.md`). **This document has not been independently reviewed.** **Not self-disposed. Not Approved to proceed.** Advisory work product for Mark's own consideration; no build thread has been opened under `cic-build-cycle`.
+**Status:** DRAFT, Revision 1. Prepared at the project lead's direct request (2026-09-15), the sixth of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-verification pass the same day (`worlds/_cross-world/dossiers/lollardy_Source_Readiness_Dossier.md`). **This document has not been independently reviewed.** **Not self-disposed. Not Approved to proceed.** Advisory work product for Mark's own consideration; no build thread has been opened under `cic-build-cycle`.
 **World file-code:** none assigned — not yet selected.
 **Census reference:** Atlas ID V.5, `cic-website/data/world-census.json`, status "Pre-Survey Candidate" — but see §0 below: this candidate is not actually pre-survey in the same sense as its five Era VII batch-mates.
 **Date drafted:** 2026-09-15.

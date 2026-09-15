@@ -82,7 +82,7 @@ TEXTS_DIR = ROOT / "texts"
 RECORDS_DIR = REPO_ROOT / "records"
 
 # Planning triggers for the store's total size, not a gate - see
-# world-build-docs/_cross-world/PLAN-texts-store-scaling.md for the reasoning
+# worlds/_cross-world/PLAN-texts-store-scaling.md for the reasoning
 # (git-lfs vs a separate cic-texts repository vs doing nothing) and why these
 # two numbers specifically. 700 MB is "go re-read the plan"; 1 GB is the
 # blueprint's own original "act on it" threshold. Printed by report() below,
@@ -358,11 +358,11 @@ def report() -> int:
     mb = total / (1024 * 1024)
     if total >= _SIZE_URGENT_BYTES:
         print(f"\ncic/texts/ is {mb:.0f} MB - at or past the ~1GB threshold in "
-              "world-build-docs/_cross-world/PLAN-texts-store-scaling.md. Time to act on "
+              "worlds/_cross-world/PLAN-texts-store-scaling.md. Time to act on "
               "that plan, not just re-read it.")
     elif total >= _SIZE_TRIGGER_BYTES:
         print(f"\ncic/texts/ is {mb:.0f} MB - past the 700MB planning trigger in "
-              "world-build-docs/_cross-world/PLAN-texts-store-scaling.md. Worth a look "
+              "worlds/_cross-world/PLAN-texts-store-scaling.md. Worth a look "
               "before it becomes urgent.")
     else:
         print(f"\ncic/texts/ is {mb:.0f} MB ({total / _SIZE_TRIGGER_BYTES:.0%} of the "

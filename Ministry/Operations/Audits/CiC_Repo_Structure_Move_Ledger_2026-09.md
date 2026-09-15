@@ -91,3 +91,85 @@ rebuilt from a diff against the pre-move tree rather than regenerated blind.
 - `records/` (75 citations, mostly `reference/method/CiC_Register_Bar_2026-08-29.md`): a record is copied byte-for-byte into its package and hashed; each world's thread corrects these at its next recompile and repin.
 - `Archive/`, `Ministry/Operations/Audits/`, decision logs, launch prompts, tracking documents and dated files: history describes the tree as it was; this ledger maps old to new.
 - `canon/`, `fixtures/`, `cic/texts/`, `packages/`: sealed, hashed or vendored.
+
+## Phase 2 — hot zone — 2026-09-15
+
+Citations rewritten by `tools/rewrite_paths.py` against `tools/moves-phase2.tsv`: 955
+replacements in 300 files (current documents only; `records/`, `Archive/` and dated
+Ministry history untouched, same convention as phase 1).
+
+| from | to | kind |
+|---|---|---|
+| `World-Builds/01-Post-Apostolic-House-Church` | `worlds/pahc` | dir |
+| `World-Builds/Alexandria-Catechetical-School` | `worlds/alx` | dir |
+| `World-Builds/Cappadocian` | `worlds/cappadocian` | dir |
+| `World-Builds/Desert-Monasticism` | `worlds/desert` | dir |
+| `World-Builds/Donatism` | `worlds/don` | dir |
+| `World-Builds/Hieronymian-Ascetic-Literary` | `worlds/hal` | dir |
+| `World-Builds/Imperial-Juridical-Christianity` | `worlds/ijc` | dir |
+| `World-Builds/Syriac-Christianity-Edessa-Nisibis` | `worlds/syr` | dir |
+| `World-Builds/Gallic-Monastic-Ascetic-Christianity` | `worlds/gallic` | dir |
+| `World-Builds/Latin-Pastoral-Congregational-Christianity` | `worlds/lpc` | dir |
+| `World-Builds/Latin-Apologists` | `worlds/latap` | dir |
+| `World-Builds/Second-Century-Greek-Apologists` | `worlds/grkap` | dir |
+| `world-build-docs/_cross-world` | `worlds/_cross-world` | dir |
+| `world-build-docs/alx` | `worlds/alx/build` | dir |
+| `world-build-docs/desert` | `worlds/desert/build` | dir |
+| `world-build-docs/hal` | `worlds/hal/build` | dir |
+| `world-build-docs/ijc` | `worlds/ijc/build` | dir |
+| `world-build-docs/pahc` | `worlds/pahc/build` | dir |
+| `world-build-docs/syr` | `worlds/syr/build` | dir |
+| `CiC_W1_Phase5_RelationalSafety_Retest_Against_Proposed_Mechanism_DRAFT.md` | `worlds/pahc/CiC_W1_Phase5_RelationalSafety_Retest_Against_Proposed_Mechanism_DRAFT.md` | file |
+
+Codes for the 4 non-registered "candidate" worlds (`gallic`, `lpc`, `latap`, `grkap`)
+per Mark's own P6 ruling, 2026-09-14 — moved on the same basis as the 8 already-registered
+worlds even though they have no `records/worlds/<code>.yaml` entry yet.
+
+### Deliberately not moved: six worlds still awaiting a registry code
+
+`World-Builds/Anabaptist-Movements`, `World-Builds/Lollardy`,
+`World-Builds/Lutheran-Wittenberg`, `World-Builds/Reformed-Zurich-and-Geneva`,
+`World-Builds/Society-of-Jesus`, `World-Builds/Tridentine-Church` — each at Step 0
+only, added to `World-Builds/` after this manifest was staged, with no Mark ruling
+assigning a short code. Moving them now would mean renaming a second time once a real
+code exists, the same churn this whole phase exists to avoid elsewhere. `World-Builds/`
+and `world-build-docs/` themselves therefore stay live roots — `tools/retired_paths.txt`
+retires only the twelve specific subdirectories that actually moved, not the roots.
+
+### A stop-hook-caught mistake in this phase's own tooling, fixed before landing
+
+`tools/rewrite_paths.py`'s generic `World-Builds`/`world-build-docs` → `worlds`
+dir-prefix rule ran against `tools/check_paths_baseline.txt` itself, along with every
+other text file — text-substituting stored baseline strings even for entries whose
+*citing file* lives under `records/` (content intentionally never rewritten, per this
+project's hash-chain rule). That desynced eight baseline entries from what their real,
+untouched source files actually say, surfacing as a false "now resolves" — the same
+false-positive shape a stale, git-ignored local build artifact has produced elsewhere
+this session (a `packages/desert/2026-09-09T03-17-52Z/` directory this thread's own
+`engine.m2.cli restore` calls had regenerated locally; not present in a clean checkout,
+kept in the baseline rather than dropped). Fixed by writing the baseline fresh via
+`check_paths.py --write-baseline`, diffing every line against the pre-move baseline
+(not trusting either side blind, the phase-1 lesson this phase was already following),
+and manually restoring the one genuinely-still-broken local-artifact entry the fresh
+write itself could not distinguish from a real fix.
+
+### One real, fixable citation found and corrected directly
+
+`Ministry/Features/Tour-Experience-Module-Phase2/CiC_L4_Tour_Manifest_Template_V1_0.md`
+already cited `worlds/Imperial-Juridical-Christianity/Review-Artifacts/Doc09_Round1_Review.md`
+— anticipating the `worlds/` convention before it existed, but with the long world name
+instead of its registry code. Corrected in place to `worlds/ijc/...` (mechanical,
+per this project's own default-actions rule for CI/path fixes).
+
+### Not rewritten by design (phase 2, in addition to phase 1's own list)
+
+- Prose in `records/`, `records/WORLDS_REGISTRY_LOG.md`, and dated Ministry documents
+  that names a moved `World-Builds/...` path as history (what a source record cites,
+  what a decision log describes as of its own date) — baselined, same convention as
+  phase 1.
+- Genuine false positives from `worlds` now being a real top-level directory name: two
+  short passages of ordinary English ("What this world transmits to subsequent
+  worlds/history…" in `don`/`ijc`/`lpc`'s own Doc_01 files) and a handful of dated
+  audit entries describing an intentionally non-existent `worlds/Alexandria/` path
+  (`CiC_Cleaning_Pattern_Log.md`, `desert`'s own Doc_03 review) — all baselined, not
+  edited, since editing them would falsify what they correctly say.

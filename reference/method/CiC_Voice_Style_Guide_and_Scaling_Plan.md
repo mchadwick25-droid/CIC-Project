@@ -1250,7 +1250,7 @@ a Voice Configuration / World Capsule Core, and a Representative Permanent
 Prompt, under filenames that don't follow a clean Doc_01→Doc_10 numbering
 (there is no Doc_07, Doc_08, or Doc_10 by that name on any of the three).
 **None of the three branches is merged into `main`**, and neither
-`World-Builds/Desert-Christianity/` nor `World-Builds/Early-Communal/`
+`worlds/Desert-Christianity/` nor `worlds/Early-Communal/`
 exists on `main` at all — the `desert` and `cappadocian` world-record sets
 that *are* live today under `records/` were not verified to have come from
 these specific branches. Treat these as real, substantial Fable output to

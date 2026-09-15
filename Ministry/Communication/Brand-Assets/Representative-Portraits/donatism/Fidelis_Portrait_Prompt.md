@@ -78,7 +78,7 @@ appearance-research process formalized").
   Marius's precedent (below).
 - **No physical description of any kind.** No figure file (`records/don/figure/*.md`), no gravity file, no
   story chunk, and no Representative-construction phase document (Phase One through Phase Seven,
-  `World-Builds/Donatism/Representative/`) describes hair, skin, build, or dress for any Donatist bishop,
+  `worlds/don/Representative/`) describes hair, skin, build, or dress for any Donatist bishop,
   named or composite. This is consistent with the whole portfolio's finding for every composite
   Representative to date.
 
@@ -201,7 +201,7 @@ meant to avoid.
 
 **A specific, targeted check this re-derivation adds: ceremonial hand-washing (*lavabo*) before the rite,**
 tied to G1's own "clean hand" image rather than to G2's washing itself. Checked directly against this
-world's own build record — `World-Builds/Donatism/` in full and every file under `records/don/` — for
+world's own build record — `worlds/don/` in full and every file under `records/don/` — for
 `lavabo`, hand-washing, a basin, or an ewer used by the minister rather than the one being baptized: **no
 match anywhere.** This world's own record does not attest a ceremonial hand-washing practice at all, for
 Donatism specifically. Per this task's own governing instruction, that absence is reported plainly rather

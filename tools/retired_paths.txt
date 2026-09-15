@@ -26,3 +26,29 @@ Ministry/Operations/Standing/lexicon_compliance_checker.py
 # shelf renderer - gen_shelf.py's own line-regex bucket reader and CANDIDATES dict
 # are gone with it.
 tools/gen_shelf.py
+# Repo Structure Cleanup phase 2 (2026-09-15): the 12 per-world World-Builds/ trees
+# and 6 per-world world-build-docs/ trees this manifest covers moved to worlds/<code>/
+# and worlds/<code>/build/ respectively (tools/moves-phase2.tsv). World-Builds/ and
+# world-build-docs/ themselves stay live - six not-yet-coded worlds (Anabaptist
+# Movements, Lollardy, Lutheran-Wittenberg, Reformed Zurich and Geneva, Society of
+# Jesus, Tridentine Church) remain under World-Builds/ until each gets a registry
+# code, so only the specific moved subdirectories are retired here, not the roots.
+World-Builds/01-Post-Apostolic-House-Church
+World-Builds/Alexandria-Catechetical-School
+World-Builds/Cappadocian
+World-Builds/Desert-Monasticism
+World-Builds/Donatism
+World-Builds/Hieronymian-Ascetic-Literary
+World-Builds/Imperial-Juridical-Christianity
+World-Builds/Syriac-Christianity-Edessa-Nisibis
+World-Builds/Gallic-Monastic-Ascetic-Christianity
+World-Builds/Latin-Pastoral-Congregational-Christianity
+World-Builds/Latin-Apologists
+World-Builds/Second-Century-Greek-Apologists
+world-build-docs/_cross-world
+world-build-docs/alx
+world-build-docs/desert
+world-build-docs/hal
+world-build-docs/ijc
+world-build-docs/pahc
+world-build-docs/syr

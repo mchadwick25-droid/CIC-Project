@@ -29,7 +29,7 @@ font sizes and tab order were measured in the live DOM, not inferred from CSS.
 Every contrast figure in README §5 was independently re-derived from the WCAG
 relative-luminance formula. Every census string in the register was diffed against
 `cic-website/data/world-census.json`. The Cappadocian admission claims were checked
-against `World-Builds/Cappadocian/CAPPADOCIAN_BUILD_LEDGER.md`. Anything below
+against `worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md`. Anything below
 labelled "measured" is measured.
 
 ---

@@ -38,7 +38,7 @@ Every document gets scanned for all six, not just the ones that happen to be obv
 4. **Sibling-document citation drift.** Every citation to another CiC document's version number is checked against that document's actual current filename in the live repository — never trusted because it looks precise, and never trusted because another document cites the same number (staleness can propagate). Where practical, reduce sibling citations to name-only (drop the version number entirely) rather than hardwiring a pin that will go stale the next time that sibling is revised — especially important when multiple documents in the same batch are being re-versioned together.
 5. **CO-012 operational-parameter scrub — two-way.** No hardwired vendor name, tool name, specific token count, cost figure, or platform name in any governance/methodology document. Replace with a pointer to System Operations (`reference/L2D-System-Operations/CiC_L2D_System_Operations_V1.0.docx`). Search independently across the whole document/batch — don't stop at the first confirmed instance. **Exception:** build-process governance vocabulary ("Opus," "Claude Code" as review/oversight roles) is not a CO-012 violation — see Section E for the test. This check runs both directions: (a) scrub operational specifics *out* of the document under review, and (b) check whether the document surfaces any operational parameter, deployment consideration, or configuration detail that *isn't yet captured* in System Operations — if so, flag it as a candidate System Operations update rather than just deleting it. System Operations is a living reference that should grow as documents are cleaned, not a one-way dumping ground.
 6. **"CLEAN ✓" is not permission to skip.** A prior CLEAN rating from Project Status or any other source is scoped to whatever checks that pass actually ran, not a guarantee of current-standard compliance. At minimum, spot-check any "clean" document for the scaffolding items in D.1 before treating it as done.
-7. **World-specific documents never sit at Level 2, even temporarily.** A world-specific companion or supplement to a Level 2 document (e.g., a per-world Deployment Config) belongs in that world's own `World-Builds/[World]/` folder, never in the Level 2 folder — and it should not be created in advance of need. It comes into existence only once that world's build actually reaches the stage requiring it.
+7. **World-specific documents never sit at Level 2, even temporarily.** A world-specific companion or supplement to a Level 2 document (e.g., a per-world Deployment Config) belongs in that world's own `worlds/[World]/` folder, never in the Level 2 folder — and it should not be created in advance of need. It comes into existence only once that world's build actually reaches the stage requiring it.
 8. **Naming convention.** `CiC_[Level]_[DocumentName]_V[Major].[Minor].docx`. No version history, bracket annotations, delta notes, or builder checklists in ratified text — the version number in the filename (and matching internal title/header/footer) is the sole self-identification.
 9. **Filing policy.** Only the latest ratified version stays in the working/master directory. Superseded originals and duplicates move to `Archive/` (generally `Archive/Superseded-Housekeeping/` for this cleaning project's own superseded inputs). Don't delete without an explicit instruction; don't leave superseded copies sitting alongside the ratified version either.
 
@@ -70,15 +70,15 @@ Applies whenever a periodic verification pass touches a world that has any live/
 artifacts in `cic-poc/backend/data/[world]_world/` — a distinct check from A-G, which govern
 Level 1-4 document contamination and hygiene.
 
-1. **Diff every deployed Representative artifact against its `World-Builds/[World]/`
+1. **Diff every deployed Representative artifact against its `worlds/[World]/`
    counterpart** — Permanent Prompt, World Capsule Core, and a spot-check of lexicon/story
    chunks. A zero diff is the expected healthy state, not something to assume without
    checking (see Pattern Log: "A live Representative's deployed prompt can drift from its own
-   World-Builds construction record, silently and legitimately," 2026-07-19).
+   worlds construction record, silently and legitimately," 2026-07-19).
 2. **A real diff is not itself a defect to fix by reverting.** Check `git log` on the deployed
    file first — if the change is a reviewed, live-verified engineering fix (not an
    unreviewed edit), the deployed version is very likely the one that should win. Sync
-   `World-Builds/` to match it, don't revert deployment to match the (now-stale) construction
+   `worlds/` to match it, don't revert deployment to match the (now-stale) construction
    record.
 3. **Record the sync with real provenance** — cite the actual commit(s) responsible in the
    decision log, not just "content updated." Do not embed provenance notes inside the prompt

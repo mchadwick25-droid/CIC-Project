@@ -28,8 +28,7 @@ Every top-level entry belongs to one of five kinds. Nothing else sits at the roo
 
 | entry | what it is |
 |---|---|
-| `World-Builds/` | each world's construction documents: Doc_01–Doc_09, reviews, lexicon and story chunks, the Representative. Folder names are long names today; phase 2 of the cleanup merges this tree and `world-build-docs/` into one home per world keyed by registry code |
-| `world-build-docs/` | each world's indexes, build log and source manifest, keyed by registry code; `_cross-world/` holds fleet-level build documents and their generators |
+| `worlds/` | one home per world, keyed by registry code (phase 2 of the cleanup, 2026-09-15): construction documents (Doc_01–Doc_09, reviews, lexicon and story chunks, the Representative) at `worlds/<code>/`, indexes/build log/source manifest at `worlds/<code>/build/`; `_cross-world/` holds fleet-level build documents and their generators. Six not-yet-coded worlds (Anabaptist Movements, Lollardy, Lutheran-Wittenberg, Reformed Zurich and Geneva, Society of Jesus, Tridentine Church) stay under `World-Builds/` at their long names until each gets a registry code |
 | `tools/` | repo-level scripts that are not engine modules: the census validator CI runs, the lexicon compliance checker, the path check and the reorganization tooling |
 
 ## Reference — the method and spec library
@@ -58,7 +57,7 @@ Every top-level entry belongs to one of five kinds. Nothing else sits at the roo
 
 The registry code in `records/worlds.yaml` (`alx`, `desert`, `pahc`, `hal`, `syr`,
 `ijc`, `cappadocian`, `don`, …) is the key everywhere: `records/<code>/`,
-`packages/<code>/`, `world-build-docs/<code>/`. `census_id` joins a world to its
+`packages/<code>/`, `worlds/<code>/`. `census_id` joins a world to its
 Atlas entry and to its shelf in `cic/corpus-map/`. Display names appear only as
 display names.
 
@@ -67,7 +66,7 @@ display names.
 - A world is installed by a reviewed registry commit pointing at its package.
 - Live changes by promotion from `main` to the protected live ref, after tests and
   verification. Nothing merges to live directly.
-- Hot trees (`World-Builds/`, `records/`) move only inside a declared freeze window.
+- Hot trees (`worlds/`, `records/`) move only inside a declared freeze window.
 - Superseded material moves to `Archive/`; nothing is deleted without instruction.
 - A working file carries no change notes. The record of a change lives in a
   supplemental file: the relevant decision log, `Open_Gaps_Tracking.md`, or

@@ -482,7 +482,7 @@ do, so nothing here was stretched to fill that shape.
 ## Reconsidered and reaffirmed, 2026-09-01 (Cappadocian build thread)
 
 Reading a live conversation with Chilo (Cappadocian's own Representative -
-`World-Builds/Cappadocian/CAPPADOCIAN_BUILD_LEDGER.md` §39), Mark questioned
+`worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md` §39), Mark questioned
 the strict we-voice rule this document's own SECOND RULING RECORD (via
 `records/alx/voice_craft/alx.voice.craft.md`) established: he wants "I am
 the voice of [the world]," with the world's own history spoken of in the

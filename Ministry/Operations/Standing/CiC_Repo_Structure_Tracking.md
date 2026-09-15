@@ -508,3 +508,48 @@ Both figures currently inform the frozen D5 decision and the Library Access Gate
 Neither is being re-litigated here — D5 stands as decided — but any thread reasoning from
 this file's Question 1b/1c numbers from this date forward should use the corrected figures
 above, not the originals.
+
+## 2026-09-15 — Phase 2 executed: the World-Builds/world-build-docs → worlds/<code>/ rename
+
+Resumed after stalling mid-way through its own prerequisite (branch consolidation) once
+the Library Access Gate workstream took over this session's focus. Before executing,
+checked every branch the 2026-09-14 entries above listed as still unmerged: of the
+original 10, `claude/gallic-monastic-world-build` and the lpc/Donatism branches were
+already reconciled; the remaining 6 were re-verified from scratch (not trusted from the
+earlier entries) — `claude/syr-odes-of-solomon-e5pyh5`, `claude/pahc-world-build-2oq764`,
+`claude/ijc-world-build-b9p7hr`, and `merge-source-library-integration-into-main` turned
+out fully superseded (their content had independently landed on `main` since);
+`claude/desert-admission-fix` carried a real, unabsorbed acquisition gap and was
+reconciled and merged (PR #228); `claude/record-native-world-build-v2-e2s0dt` is a third,
+independent Donatism authoring pass and was left for that world's own thread rather than
+reconciled centrally, matching how the first two Donatism passes were already handled.
+
+**Executed directory-first, per phase 1's own recorded lesson:** the 12 `World-Builds/`
+trees moved before the 6 nested `world-build-docs/` trees, so the nested moves landed
+inside already-created targets rather than colliding. Full manifest and citation-rewrite
+detail: `Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md`'s own
+Phase 2 section, including a mistake this phase's own tooling made and caught before
+landing (`rewrite_paths.py` desyncing 8 `check_paths_baseline.txt` entries by rewriting
+the baseline's stored text alongside real files) and one genuine, previously-invisible
+broken citation found and fixed directly.
+
+**`records/` untouched** — the move script's SKIP list already excludes it, so no world
+needed a recompile or repin for the directory rename itself. `python3 tools/check_paths.py
+--baseline tools/check_paths_baseline.txt`: 0 new unresolved citations, 0 retired paths
+present, 422 accepted in baseline.
+
+**Deliberately not moved:** the 6 worlds with no registry code yet (Anabaptist Movements,
+Lollardy, Lutheran-Wittenberg, Reformed Zurich and Geneva, Society of Jesus, Tridentine
+Church) — moving them now would mean a second rename once a real code exists. `World-Builds/`
+and `world-build-docs/` stay live roots for exactly these six; only the twelve subdirectories
+that actually moved are in `tools/retired_paths.txt`.
+
+**One live collision accepted deliberately, not avoided:** `World-Builds/Latin-Pastoral-
+Congregational-Christianity/` is where PR #197 (Doc_06 through the start of Doc_10) is
+actively being authored. Flagged to Mark before executing; his call was to move now and
+let that branch rebase afterward using the move ledger, rather than hold the whole phase
+for one active thread — the same acceptance phase 1's own "8 branches rebase after the
+move" note already anticipated.
+
+**Not started by this pass:** phase 3 (promotion infrastructure, D3's staging/prod split)
+and WO-1 through WO-5, unchanged from the 2026-09-14 entries above.

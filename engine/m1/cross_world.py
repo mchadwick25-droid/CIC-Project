@@ -9,7 +9,7 @@ can notice that five worlds answer a question one way and the sixth answers
 it another. This module is that missing view.
 
 The line it polices is the one the 2026-08-26 cross-system consistency audit
-drew (world-build-docs/_cross-world/CiC_Cross_System_Consistency_Audit_
+drew (worlds/_cross-world/CiC_Cross_System_Consistency_Audit_
 2026-08-26.md): a world may differ from its siblings in SUBSTANCE - how many
 terms it holds, how rich its quote corpus is, which cells it can only answer
 with an honest limit - and may never differ in the SHAPE the pipeline moves
