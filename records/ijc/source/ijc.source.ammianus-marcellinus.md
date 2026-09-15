@@ -20,6 +20,7 @@ work: "Res Gestae, Book 27.3 - the 366 election riot between Damasus's and Ursin
 edition: "Yonge (1862, Bohn's Standard Library) - public domain in the US; VENDORED 2026-09-13
   (cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt, from the Internet Archive, identifier
   romanhistoryofam00ammiiala); Book XXVII.3.12-13 directly confirmed present and read against this file"
+kind: vendored
 rights_status: "public-domain; vendored - the file's own header states the rights basis and is checked
   fresh, per this build's texts-registry discipline"
 attribution_status: attributed

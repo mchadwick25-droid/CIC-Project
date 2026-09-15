@@ -16,6 +16,7 @@ sources: []
 author: "Paulinus of Milan, Ambrose's own secretary (notarius)"
 work: "Vita Ambrosii (Life of Ambrose), written at Augustine's request c. 412-413, some fifteen to twenty years after Ambrose's death - hagiography, not chronicle; the source of the bee-swarm infancy legend and the primary continuous account of Ambrose's whole life"
 edition: "trans. Mary Simplicia Kaniecka (1928, Catholic University of America) - VENDORED 2026-09-13 (cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt, from the Internet Archive, identifier vitasanctiambros0000paul); the bee-swarm infancy legend directly confirmed present and read against this file"
+kind: vendored
 rights_status: "public-domain (US, 1928 publication); vendored - the file's own header states the rights basis and is checked fresh, per this build's texts-registry discipline"
 attribution_status: attributed-hagiographic
 discovery_channel: "edition identified and its existence verified by web search 2026-08-21 (search: ijc.search.paulinus-vita-english); a copy was located on the Internet Archive and vendored 2026-09-13 by a fleet cross-world research thread's handoff, acted on and verified directly by this thread"
