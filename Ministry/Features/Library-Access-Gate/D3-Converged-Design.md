@@ -698,6 +698,22 @@ mechanical migrations go to Haiku.
 | 9 | **Retire `tools/gen_shelf.py`** | 3 | `python -m engine.m9.cli shelf <world> --stdout` renders the same `SHELF.md` table from the real shelf (the `CANDIDATES` dict and `parse_bucket` are gone); render target follows the cleanup's phase-2 `worlds/<code>/` when it exists | none |
 | 10 | **E's free half** | 3 | build briefs and the `cic-build-cycle` skill name `corpus_index.py --entry <census_id>` as the way a session reads the library; `complement-verbatim` observation in the report | none |
 
+> **Amended by change order CO-5 (`Decision-Log.md` entry 22, 2026-09-15).**
+> The table above is the table as originally frozen; the numbers stay as
+> identifying labels for each increment's own scope, unchanged. The
+> *execution order* changed: a halfway architecture review, run after
+> increment 5 landed, found that `Shelf.rows` is empty for every real world
+> until CM-1 lands (no bucket row carries a `row_id` yet), so increment 6 as
+> originally sequenced would seal an attestation reading "no row on this
+> world's shelf" into all nine real sealed packages — which would then need
+> a *second* repin the day CM-1 lands. Mark's ruling: increment 6 moves
+> behind CM-1. Real order from increment 5 onward: **increment 7's `kind`-
+> only half** (RF-6 already establishes this half is not CM-1-blocked) →
+> **increment 9** (retiring `tools/gen_shelf.py`, which has raised on every
+> call since increment 1 and carries no working alternative to protect) →
+> **increment 10** (no CM-1 dependency at all) → *[CM-1 lands]* → **increment
+> 6** → **increment 7's `shelf_row` half** → *[CM-4 lands]* → **increment 8**.
+
 Not in any increment, because it is corpus-map's work: CM-1 through CM-5,
 CM-7 and CM-8. Increment 4's waivers are what let 1–10 land without waiting
 for them. **Corrected dependency statement (RF-6):** increment 7's

@@ -249,3 +249,88 @@ quiet edit — the same rule Website V2's own post-freeze changes
 followed. D4 (the ten build increments, design §7) is next, under auto
 mode: execute without asking permission step by step, since the plan
 itself is what just converged.
+
+## 20. Halfway build review (Opus, 2026-09-15)
+
+At Mark's request, after increment 5 merged (5 of 10 increments
+built), an Opus agent ran an adversarial, read-only review of the
+built `engine/m9/` code against this design — specifically whether
+the file architecture and the §7 build order still hold before
+increment 6, the first increment that repins all nine real worlds and
+is comparatively expensive to walk back. Verdict: the architecture
+(`shelf.py`/`confinement.py`/`loader.py`/`enforce.py`/`cli.py`/
+`selftest.py`) is sound and should not be reshaped. Two things needed
+settling before increment 6 specifically — resolved as entries 21 and
+22 below — plus lower-urgency findings (a weak `absence-probe` match,
+a duplicated-not-shared byte-window against `engine/m4`, redundant
+fleet sweeps in CI, and smaller items) left open for later increments,
+not logged here individually since none required an immediate ruling.
+
+## 21. Change orders CO-1 through CO-4: disclosing four undocumented deviations from increments 3–4 (2026-09-15)
+
+The halfway review (entry 20) found that two real corrections made
+during the build, plus two smaller additions, were absorbed into code
+comments in `engine/m9/` rather than logged here as change orders —
+the exact "never a quiet edit" gap root `CLAUDE.md` warns against.
+None of these are new decisions; all were already live in merged code
+on `main`. Logged here for the record, not to reopen them:
+
+- **CO-1 (increment 3).** `Shelf.rows` (keyed by `row_id`, §1.3's
+  original spec) and `Shelf.files` (file-grain, no `row_id` needed)
+  were split into two separate fields. Cause: no real corpus-map
+  bucket carries a `row_id` yet (CM-1 isn't built), so a `rows`-only
+  shelf was empty for every real world, and `verbatim-in-shelf`
+  (already measured real at file grain months before CM-1 existed —
+  Direction B, Q7-B) falsely failed on every world (`alx` alone showed
+  25 false failures before the split). The split is a faithful
+  implementation of what Q7-B already licensed; it was not disclosed
+  as a change to §1.3's dataclass shape until now.
+- **CO-2 (increment 4).** `engine/m9/enforce.py`'s `ACCEPTED_OPEN`
+  carries six `m1:` waivers §4.1's own narrative never named:
+  `m1:reciprocity/desert`, `m1:reciprocity/gallic`,
+  `m1:reciprocity/pahc`, `m1:voice-perspective/cappadocian`,
+  `m1:voice-perspective/gallic`, `m1:readability/gallic` (§4.1 only
+  named `don` and `syr`). Cause: increment 4 was the first time
+  `engine.m1.gates.run_all` was ever run fleet-wide and CI-gated
+  together with `engine.m9.confinement.run_all`; the sweep found
+  pre-existing findings on four more worlds nobody had written up. All
+  predate this workstream; CI was green through every one. Waived with
+  90-day deadlines (2026-12-14), each owned by that world's own build
+  thread, per root `CLAUDE.md`'s waiver rule.
+- **CO-3 (increment 3).** `Shelf.units` (§1.3) is `{source_file: str}`
+  — the whole file's normalized text joined with spaces — not
+  `{source_file: [{locus, text_normalized}, ...]}` as originally
+  specified. Cause: no `locus_ids` exist on real data yet (CM-4 isn't
+  built; increment 8 stays deferred until it lands). Consequence
+  stated plainly: increment 8 will need to re-open `loader.py`/
+  `shelf.py` and every call site to carry loci once CM-4 lands, and
+  the space-join can in principle let a 6-word verbatim window match
+  across two units' boundary — a narrow false-pass channel accepted
+  for now, to be tightened when increment 8 adds real unit boundaries.
+- **CO-4 (increment 3).** `Shelf.vendored_files` was added — not in
+  §1.3's original field list. Carries `cic/texts/`'s own directory
+  listing so `emic-vendored-only` (§1.4) can tell a genuinely
+  unvendored citation from a vendored-but-off-this-world's-shelf one.
+
+## 22. Change order CO-5: increment 6 reordered behind CM-1 (2026-09-15)
+
+The halfway review's (entry 20) central finding: `Shelf.rows` is
+empty for every real world today (CO-1, entry 21), so increment 6 as
+originally sequenced — compiler integration, `compiled/shelf.json`,
+the first real repin of all nine worlds — would seal an attestation
+reading "no row on this world's shelf" into nine live sealed packages,
+which would then need a second repin the day CM-1 lands. Mark's
+ruling: **reorder §7. Increment 6 moves behind CM-1.**
+
+New execution order from here: increment 7's `kind`-only half (RF-6
+already established this half is not CM-1-blocked; per-world PRs,
+Haiku, mechanical from `edition`), increment 9 (retire
+`tools/gen_shelf.py` — already broken since increment 1, raising on
+every call; deleting genuinely-dead code is sound regardless of CM-1),
+and increment 10 (E's free half — build-brief/skill pointer to
+`corpus_index.py --entry <census_id>`; no CM-1 dependency at all) all
+move ahead of increment 6. Increment 6, increment 7's `shelf_row`
+half, and increment 8 (already CM-4-gated) wait for corpus-map.
+`D3-Converged-Design.md` §7 is amended with a note above its table
+recording this; the increment numbers stay as identifying labels for
+each increment's own scope — only their sequence moves.
