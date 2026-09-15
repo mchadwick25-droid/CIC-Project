@@ -31,7 +31,7 @@
 
 **Read in full:** all three deliverables; `Review-Artifacts/Doc08_Round5_Review.md`; the Round 5 fix commit `0e70a96a` (diff, per file); the Round 4 fix commit `02696d24` (for the provenance of the two stale sentences).
 
-**Read at the destination, not through Doc_08's account of them:** `Doc_04_Gravity_Discovery.md` §3 (Candidate 2 and Candidate 6 Interaction and Persistence tests, lines 44–48 and 114–118) and §6 (the Interaction Matrix, lines 190–201); `L3A-Shared-Methodology` Forces Framework plain text; `Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md` lines 150–162; `lpc_Decision_Log.md`'s Round 5 entry (lines 1245–1275); `Lexicon_Deployment_Index.md`; the Cyprian XML at `/tmp/claude-0/…/scratchpad/cyprian.xml`.
+**Read at the destination, not through Doc_08's account of them:** `Doc_04_Gravity_Discovery.md` §3 (Candidate 2 and Candidate 6 Interaction and Persistence tests, lines 44–48 and 114–118) and §6 (the Interaction Matrix, lines 190–201); `L3A-Shared-Methodology` Forces Framework plain text; `reference/method/CiC_Record_Native_World_Build_Process_V1_3.md` lines 150–162; `lpc_Decision_Log.md`'s Round 5 entry (lines 1245–1275); `Lexicon_Deployment_Index.md`; the Cyprian XML at `/tmp/claude-0/…/scratchpad/cyprian.xml`.
 
 **Ran, rather than read:**
 
