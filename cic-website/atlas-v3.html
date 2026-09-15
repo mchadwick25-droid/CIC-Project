@@ -180,7 +180,11 @@ svg#world{display:block;overflow:visible}
 #tip .s{color:var(--tyrian);font-variant:small-caps;letter-spacing:.04em;font-size:.75rem;margin-top:.2rem}
 #panel{position:fixed;top:0;right:0;bottom:0;width:min(380px,90vw);background:var(--vellum);
   border-left:2px solid var(--gold-leaf);z-index:30;transform:translateX(105%);
-  transition:transform .22s ease;overflow-y:auto;padding:1.2rem 1.3rem 2rem}
+  transition:transform .22s ease;overflow-y:auto;padding:1.2rem 1.3rem 0}
+/* The trailing space belongs to the body, not to the scroll container: a
+   sticky footer pins to the scrollport's content edge, so any padding left on
+   #panel becomes a gap under the bar that content scrolls through. */
+#panelBody{padding-bottom:2rem}
 #panel.open{transform:translateX(0)}
 #panel .close{position:sticky;top:0;float:right;background:var(--vellum);border:none;
   font-size:1.3rem;color:var(--ink-faded);cursor:pointer;line-height:1;padding:.2rem}
@@ -201,6 +205,15 @@ svg#world{display:block;overflow:visible}
   background:var(--tyrian);border:none;border-radius:3px;cursor:pointer;text-align:center}
 #panel .act:hover{background:var(--madder)}
 #panel .act:focus-visible{outline:2px solid var(--gold-leaf);outline-offset:2px}
+/* Sticky reprise of the Interview button. The real one sits after the hook,
+   where a reader meets it having just been told what the world is; on a small
+   phone that can be below the fold, and on any phone it is far above the foot
+   of a card that runs several screens. This copy appears only while that one
+   is off-screen -- never a second copy of a control already in view. */
+#panelCta{position:sticky;bottom:0;z-index:2;margin:.4rem -1.3rem 0;
+  padding:.6rem 1.3rem .7rem;background:var(--vellum);
+  border-top:1px solid var(--rule);box-shadow:0 -8px 14px -10px rgba(0,0,0,.5)}
+#panelCta .act{margin:0}
 #panel .statusdesc{font-size:.82rem;color:var(--ink-faded);margin:-.35rem 0 .7rem}
 #panel .teaser{font-style:italic;font-size:.98rem;line-height:1.55;margin:.6rem 0;
   padding-left:.6rem;border-left:2px solid var(--gold-leaf)}
@@ -352,7 +365,7 @@ svg#world{display:block;overflow:visible}
      display:none, so without this its close button and last-rendered links stayed
      real Tab stops -- a keyboard user tabbing through the closed page would land on
      an invisible control that appeared to do nothing. -->
-<div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div></div>
+<div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div><div id="panelCta" hidden></div></div>
 <div id="legend"></div>
 <div id="zoomHint">Scroll or pinch to zoom &middot; drag to pan</div>
 
@@ -41606,6 +41619,46 @@ function hideTip(){tip.style.display='none';}
 
 /* ---- Side panel (click = full) ---- */
 const panel=document.getElementById('panel'), panelBody=document.getElementById('panelBody');
+const panelCta=document.getElementById('panelCta');
+let ctaCleanup=null;
+// Shown only while the in-flow Interview button is scrolled out of the panel.
+// Every other panel view (a story, an edge, a river) clears it.
+function clearPanelCta(){
+  if(ctaCleanup){ctaCleanup();ctaCleanup=null;}
+  panelCta.innerHTML='';
+  panelCta.hidden=true;
+}
+function setPanelCta(m,entry){
+  clearPanelCta();
+  if(!entry)return;
+  const inline=panelBody.querySelector('[data-interview-id]');
+  if(!inline)return;
+  panelCta.innerHTML=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
+  panelCta.querySelector('button').addEventListener('click',()=>launchInterview(m.id));
+  // Measured rather than observed. An IntersectionObserver here raced the
+  // webfont swap: its first record was computed against the fallback-font
+  // layout, and on a card whose button lands near the fold that record said
+  // "off screen" for a button that was about to be on it. Reading the two
+  // rectangles is deterministic, and every path that can move the button --
+  // scrolling, resizing, a disclosure opening, fonts arriving -- lands here.
+  let queued=false;
+  const update=()=>{
+    queued=false;
+    const pr=panel.getBoundingClientRect(), ir=inline.getBoundingClientRect();
+    panelCta.hidden = ir.bottom>pr.top && ir.top<pr.bottom;
+  };
+  const schedule=()=>{if(!queued){queued=true;requestAnimationFrame(update);}};
+  panel.addEventListener('scroll',schedule,{passive:true});
+  panel.addEventListener('toggle',schedule,true);
+  window.addEventListener('resize',schedule);
+  ctaCleanup=()=>{
+    panel.removeEventListener('scroll',schedule);
+    panel.removeEventListener('toggle',schedule,true);
+    window.removeEventListener('resize',schedule);
+  };
+  update();
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(schedule);
+}
 // Live hand-off: the same isLocal/LIVE_APP_URL/?worlds=<id>&mode=interview
 // contract already shipping in atlas-v3.html and index.html -- reused, not
 // reinvented, so a link into this map's worlds lands the same place a link
@@ -41735,7 +41788,7 @@ function openPanel(m){
     if(m.why)h+=`<p>${esc(m.why)}</p>`;
     h+='</details>';
   }
-  panelBody.innerHTML=h; showPanel(); hideTip();
+  panelBody.innerHTML=h; showPanel(); hideTip(); setPanelCta(m,entry);
   panelBody.querySelectorAll('[data-interview-id]').forEach(btn=>btn.addEventListener('click',()=>launchInterview(btn.dataset.interviewId)));
   syncWorldURL(m.id);
 }
@@ -41758,7 +41811,7 @@ function openPanelStory(s){
       return `<div class="edge"><span class="k">${esc(src.type)}</span><br><b>${work}</b>${src.note?`<br>${esc(src.note)}`:''}</div>`;
     }).join('');
   }
-  panelBody.innerHTML=h;
+  panelBody.innerHTML=h; clearPanelCta();
   panelBody.querySelectorAll('button.panel-link').forEach(btn=>{
     btn.addEventListener('click',()=>{const target=byId[btn.dataset.id]; if(target)openPanel(target);});
   });
@@ -41766,7 +41819,7 @@ function openPanelStory(s){
   syncWorldURL(null);
 }
 function openPanelEdge(edg,a,b){
-  hideTip();
+  hideTip(); clearPanelCta();
   panelBody.innerHTML=`<h2 id="panelTitle">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</h2>
     <p class="meta">${esc(edg.type)} · ${esc(edg.confidence)}</p>
     <p>${esc(edg.note)}</p>`;
@@ -41831,7 +41884,7 @@ function openPanelRiver(f,members){
   h+=`<h3>Movements in this river</h3><ul class="voices">${members.map(m=>
     `<li><button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button> — ${esc(m.dates)}</li>`
   ).join('')}</ul>`;
-  panelBody.innerHTML=h;
+  panelBody.innerHTML=h; clearPanelCta();
   panelBody.querySelectorAll('button.panel-link').forEach(btn=>{
     btn.addEventListener('click',()=>{const target=byId[btn.dataset.id]; if(target)openPanel(target);});
   });
@@ -41857,6 +41910,7 @@ function showPanel(){
   document.getElementById('panelClose').focus();
 }
 function closePanel(){
+  clearPanelCta();
   panel.classList.remove('open');
   panel.setAttribute('inert','');
   if(lastFocused&&document.contains(lastFocused))lastFocused.focus();
