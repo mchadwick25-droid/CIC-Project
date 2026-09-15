@@ -1,6 +1,6 @@
 # Imperial and Juridical Christianity (`ijc`) — Record-Set Build Log
 
-**Branch:** `world/ijc` → merged to `build/phase-1` (PR #14, 2026-08-22) → continued on `claude/ijc-world-build-b9p7hr`, restarted from post-merge `build/phase-1` · **Built:** 2026-08-21–22 · **Scope:** spec §4.3 steps 2–5 (source ecology → interpretive lexicon → ecology reconstruction → answer canon → representative identity confirmation, voice_craft, demonstration), plus the cross-thread glossary/story/quote retrofit (§11). **Compile (6), admission (7), open (8): intentionally NOT started** — that stage still waits on the M4 live-generation design, per the standing instruction.
+**Branch:** `world/ijc` → merged to `build/phase-1` (PR #14, 2026-08-22) → continued on `claude/ijc-world-build-b9p7hr`, restarted from post-merge `build/phase-1` · **Built:** 2026-08-21–22 · **Scope:** spec §4.3 steps 2–5 (source ecology → interpretive lexicon → ecology reconstruction → answer canon → representative identity confirmation, voice_craft, demonstration), plus the cross-thread glossary/story/quote retrofit (§11). **Compiled, admitted, and live** — admitted 2026-08-28 alongside the other five original worlds (`records/WORLDS_REGISTRY_LOG.md`), doors open fleet-wide.
 
 **Settled ground built from (not reopened):** the per-world Step 0 confirmation (2026-07-19, Approved to proceed, Round 3) and Doc_01 (Approved to proceed, Round 2 cosmetic only) — identity ("office-holders, not congregants"), window 312–451, three strands, Homoian recentering, skew disclosure, Living Tradition PENDING.
 
