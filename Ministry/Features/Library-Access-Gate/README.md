@@ -48,15 +48,21 @@ picks → D3 **CONVERGE** (frozen design doc) → D4 **BUILD** (increments,
 each read by Mark before merge — same discipline as every other build
 this session, never self-merged).
 
-**Status (2026-09-15): D0–D3 complete. Frozen.** The converged design
+**Status (2026-09-15): D0–D3 complete and frozen; D4 in progress, 5 of
+10 increments merged (registry split, schema+fixture, `engine/m9`
+core, enforcement, auto-repin+library filter).** The converged design
 is `D3-Converged-Design.md` (moved out of `Sandbox/` on freeze, per
 Website V2's own pattern — `Sandbox/` stays the divergent/struggle
 workshop, the frozen deliverable lives at the workstream's top level).
 Full history — D1's five directions, D2's adversarial review, both Q7
 measurements, the independent freeze check, and all nine-plus-four
 rulings that produced this design — stays in `Sandbox/` and
-`Decision-Log.md`. D4 (the ten build increments, §7 of the design doc)
-is next.
+`Decision-Log.md`. A halfway Opus architecture review (Decision-Log
+entry 20) reordered the remaining build via change order CO-5 (entry
+22): increment 6 now waits behind corpus-map's CM-1, with increment
+7's `kind`-only half, increment 9, and increment 10 moved ahead of it
+— see §7's amendment note in the design doc for the real execution
+order.
 
 ## Model routing (Mark, 2026-09-15)
 
