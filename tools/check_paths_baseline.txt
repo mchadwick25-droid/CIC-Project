@@ -29,8 +29,6 @@ Ministry/Features/Hosted-Tour/Design/CiC_Hosted_Tour_Integration_Note_V0_1.md: M
 Ministry/Features/Hosted-Tour/README.md: cic-poc/backend/data
 Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: cic/engine/corpus_map.load
 Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: engine/m4/grounding_net._normalize
-Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: engine/m9/enforce.py
-Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: engine/m9/tests/test_enforce.py
 Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: records/worlds.yaml
 Ministry/Features/Library-Access-Gate/Sandbox/D1-Directions.md: cic/engine/shelf_open.py
 Ministry/Features/Library-Access-Gate/Sandbox/D1-Directions.md: records/worlds.yaml
@@ -40,7 +38,6 @@ Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: cic/texts/INDEX.sq
 Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: records/worlds.yaml
 Ministry/Features/Library-Access-Gate/Sandbox/D3-Freeze-Check.md: cic/engine/corpus_map.load
 Ministry/Features/Library-Access-Gate/Sandbox/D3-Freeze-Check.md: engine/m1/gates.run_all
-Ministry/Features/Library-Access-Gate/Sandbox/D3-Freeze-Check.md: engine/m9/enforce.py
 Ministry/Features/Library-Access-Gate/Sandbox/D3-Freeze-Check.md: records/worlds.yaml
 Ministry/Features/Library-Access-Gate/Sandbox/Q7-measurement-B-verbatim-match.md: cic/engine/corpus_index.passage_units
 Ministry/Features/Library-Access-Gate/Sandbox/Q7-measurement-B-verbatim-match.md: cic/engine/corpus_map.load

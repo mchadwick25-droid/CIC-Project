@@ -1,8 +1,8 @@
 """Thin CLI over the pure confinement battery, same shape as
 engine/m2/cli.py and engine/m1/selftest.py's own entry points. `check`
-(the CI-blocking command, Q3) lands in increment 4 - this increment's CI
-job runs `pytest` and `selftest` only, in report mode (D3 SS7, increment
-3's own row).
+(the CI-blocking command, Q3, increment 4) runs both gate batteries
+against the real fleet and fails on anything engine/m9/enforce.py's
+ACCEPTED_OPEN doesn't already know about.
 """
 from __future__ import annotations
 
@@ -119,6 +119,12 @@ def cmd_selftest(args: argparse.Namespace) -> int:
     return selftest.main()
 
 
+def cmd_check(args: argparse.Namespace) -> int:
+    from . import enforce
+
+    return enforce.main()
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="python -m engine.m9.cli")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -134,6 +140,9 @@ def main(argv: list[str] | None = None) -> int:
 
     selftest_p = sub.add_parser("selftest", help="M1-selftest-shaped proof: the clean fixture is clean, every seeded M9 defect fires its named check")
     selftest_p.set_defaults(func=cmd_selftest)
+
+    check_p = sub.add_parser("check", help="the CI-blocking gate: both batteries against the real fleet, fails on anything ACCEPTED_OPEN doesn't waive")
+    check_p.set_defaults(func=cmd_check)
 
     args = parser.parse_args(argv)
     return args.func(args)

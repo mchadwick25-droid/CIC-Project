@@ -1,0 +1,213 @@
+"""The CI-blocking gate (Library Access Gate D3 SS4.2): the day the confinement
+battery stops being report-only. Runs `engine.m1.gates.run_all` AND
+`engine.m9.confinement.run_all` for every world the registry says is
+`built`/`admitted`/`open` - the same `STALENESS_CHECKABLE_STATES` set
+`engine/m2/checks.py`'s own staleness sweep uses, reused rather than
+re-declared - and fails the run on anything not named in ACCEPTED_OPEN.
+
+ACCEPTED_OPEN here is a *different* registry from engine/m1/cross_world.py's
+own ACCEPTED_OPEN (RF-10): that one is `dict[str, str]`, a finding key to a
+one-line reason; this one is `dict[str, Waiver]`, because a library-access
+waiver additionally carries a deadline and an owner (SS4.2) - the same
+spirit ("a known defect stays visible, not suppressed"), a different shape,
+because these are different scopes. A key here is `<layer>:<check>/<world>`,
+e.g. `"m1:reciprocity/don"`, `"m9:voicing-pair/don"`.
+
+GRANDFATHERED_WORLDS is the fixed set of worlds built before this gate
+existed - it only ever shrinks, never grows (SS4.2). A waiver naming a
+world outside it is itself a hygiene failure: grandfathering is closed.
+`fix` is deliberately absent from that set and gets no special-case code
+to keep it out of enforcement - the fixture world must already be 100%
+clean, so if it ever isn't, that is exactly the kind of drift this gate
+exists to catch (SS4.4).
+
+The one written-in exception is R-4: `m9:voicing-pair` findings on a
+NEW (non-grandfathered) world are demoted to report-only, never blocking
+and never requiring a waiver, for as long as `cic/corpus-map/PAIRS.yaml`
+carries no real (non-fixture) pair ruling yet - checked live against the
+file each run, not hardcoded, so the carve-out ends itself the day
+corpus-map lands its first one. Every other check stays fully un-waivable
+for a new world.
+"""
+from __future__ import annotations
+
+import datetime
+import sys
+from dataclasses import dataclass
+
+from engine.m1 import gates
+from engine.m1.loader import load_fleet_records, load_world_records
+from engine.m1.registry import load_registry
+from engine.m2.checks import STALENESS_CHECKABLE_STATES
+
+from . import loader
+from .confinement import run_all as confinement_run_all
+
+GRANDFATHERED_WORLDS = frozenset(
+    {"alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "syr"}
+)
+
+
+@dataclass(frozen=True)
+class Waiver:
+    count: int
+    deadline: str  # ISO "YYYY-MM-DD" - the day this waiver must be gone
+    owner: str  # the finding and thread that own the repair
+
+
+# Populated from the first real run against the fleet as it stood at
+# increment 4 (2026-09-15), not from D3 SS4.3's own table - that table was
+# written before engine/m9/confinement.py existed to measure anything, and
+# says so itself ("the exact values come from the first real run, not from
+# here"). The real run is smaller than SS4.3 predicted for the m9: side:
+# `shelf-row`, `emic-vendored-only`, `voicing-pair` and `shelf-confidence`
+# are all silent on every real world today, because no real source record
+# has `kind`/`shelf_row` set yet (that is increment 7, the fleet
+# migration) - checks gated on those fields have nothing to resolve
+# against, so they find nothing to report, correctly, not because the
+# library is clean.
+#
+# The m1: side is LARGER than D3 SS4.1's own narrative named. That section
+# says only "don ships with 52 reciprocity findings, syr with 1
+# voice-perspective finding" - true as far as it went, but D3 was frozen
+# before this file ever ran engine.m1.gates.run_all() across every
+# built/admitted/open world. The first real run found three more worlds
+# already carrying live m1 findings nobody had written up:
+# `m1:readability/gallic` (3), `m1:reciprocity/desert` (1),
+# `m1:reciprocity/gallic` (14), `m1:reciprocity/pahc` (2),
+# `m1:voice-perspective/cappadocian` (1), `m1:voice-perspective/gallic`
+# (2). None of these are new - they predate this workstream entirely and
+# CI has been green through all of them (today no gate blocks anything,
+# D3 SS4.1) - but root CLAUDE.md is explicit that a known fleet defect not
+# being fixed right now gets a dated waiver, not a free pass by omission.
+# Waived here on that basis, each owned by its own world's build thread.
+ACCEPTED_OPEN: dict[str, Waiver] = {
+    "m9:source-kind/alx": Waiver(count=25, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any alx source record"),
+    "m9:source-kind/cappadocian": Waiver(count=111, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any cappadocian source record"),
+    "m9:source-kind/desert": Waiver(count=29, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any desert source record"),
+    "m9:source-kind/don": Waiver(count=76, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any don source record"),
+    "m9:source-kind/gallic": Waiver(count=36, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any gallic source record"),
+    "m9:source-kind/hal": Waiver(count=28, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any hal source record"),
+    "m9:source-kind/ijc": Waiver(count=30, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any ijc source record"),
+    "m9:source-kind/pahc": Waiver(count=23, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any pahc source record"),
+    "m9:source-kind/syr": Waiver(count=40, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any syr source record"),
+    "m9:verbatim-in-shelf/don": Waiver(count=1, deadline="2026-12-14", owner="don.quote.emeritus-magno-argumento - OCR-defeated against the Migne Collatio; needs a re-scan or second witness (D3 SS9)"),
+    "m9:verbatim-in-shelf/hal": Waiver(count=1, deadline="2026-12-14", owner="Q7-B's one OCR no-match on hal; re-transcription owned by hal's own build thread"),
+    "m9:verbatim-in-shelf/syr": Waiver(count=2, deadline="2026-12-14", owner="Q7-B's two complement-only quotes on syr; re-transcription owned by syr's own build thread"),
+    "m1:reciprocity/desert": Waiver(count=1, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; desert's own build thread"),
+    "m1:reciprocity/don": Waiver(count=52, deadline="2026-12-14", owner="D2 SS1.3(e) - don's own known reciprocity gap; don's build thread"),
+    "m1:reciprocity/gallic": Waiver(count=14, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; gallic's own build thread"),
+    "m1:reciprocity/pahc": Waiver(count=2, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; pahc's own build thread"),
+    "m1:voice-perspective/cappadocian": Waiver(count=1, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; cappadocian's own build thread"),
+    "m1:voice-perspective/gallic": Waiver(count=2, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; gallic's own build thread"),
+    "m1:voice-perspective/syr": Waiver(count=1, deadline="2026-12-14", owner="D2 SS1.3(e) - syr's own known voice-perspective gap; syr's build thread"),
+    "m1:readability/gallic": Waiver(count=3, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; gallic's own build thread"),
+}
+
+
+def _voicing_pair_carve_out_active() -> bool:
+    """R-4: alive only while PAIRS.yaml has no real (non-fixture) pair."""
+    pairs_list, _ = loader.read_pairs()
+    return not any(
+        not (str(p.get("a", "")).startswith("fixture") and str(p.get("b", "")).startswith("fixture"))
+        for p in pairs_list
+    )
+
+
+def collect_findings(registry: dict | None = None) -> dict[str, dict[str, list[str]]]:
+    """world -> "<layer>:<check>" -> findings, both batteries, run fresh."""
+    registry = registry if registry is not None else load_registry()
+    fleet = load_fleet_records()
+    by_world: dict[str, dict[str, list[str]]] = {}
+    for world_key, entry in sorted(registry.items()):
+        if entry.get("state") not in STALENESS_CHECKABLE_STATES:
+            continue
+        records = load_world_records(world_key)
+        merged: dict[str, list[str]] = {}
+        for name, findings in gates.run_all(records, fleet, registry).items():
+            merged[f"m1:{name}"] = findings
+        shelf = loader.load_shelf(world_key=world_key, census_id=entry["census_id"], records=records)
+        for name, findings in confinement_run_all(records, shelf).items():
+            merged[f"m9:{name}"] = findings
+        by_world[world_key] = merged
+    return by_world
+
+
+def hygiene_problems(by_world: dict[str, dict[str, list[str]]], *, today: str | None = None) -> list[str]:
+    """Every reason `engine.m9.cli check` would exit 1: an unwaived finding,
+    a stale or expired waiver, or a waiver naming a world grandfathering has
+    closed to. `by_world` is `collect_findings()`'s own return shape, passed
+    in rather than recomputed so a test can hand this a fixed snapshot."""
+    today = today or datetime.date.today().isoformat()
+    carve_out = _voicing_pair_carve_out_active()
+
+    live: dict[str, int] = {}
+    for world_key, checks in by_world.items():
+        for name, findings in checks.items():
+            if not findings:
+                continue
+            if name == "m9:voicing-pair" and world_key not in GRANDFATHERED_WORLDS and carve_out:
+                continue  # R-4: report-only until corpus-map lands its first real pair
+            live[f"{name}/{world_key}"] = len(findings)
+
+    problems: list[str] = []
+    for key, count in sorted(live.items()):
+        world_key = key.rsplit("/", 1)[1]
+        waiver = ACCEPTED_OPEN.get(key)
+        if waiver is None:
+            problems.append(f"{key}: {count} unwaived finding(s) - new, undocumented drift")
+            continue
+        if world_key not in GRANDFATHERED_WORLDS:
+            problems.append(f"{key}: waived, but {world_key!r} is not grandfathered - grandfathering is closed")
+            continue
+        if waiver.count != count:
+            direction = "the waiver is stale - tighten it" if waiver.count > count else "new drift beyond the waiver"
+            problems.append(f"{key}: waiver says {waiver.count}, this run found {count} - {direction}")
+        if waiver.deadline < today:
+            problems.append(f"{key}: waiver deadline {waiver.deadline} has passed")
+
+    for key in sorted(ACCEPTED_OPEN):
+        if key not in live:
+            problems.append(f"{key}: ACCEPTED_OPEN names a finding that no longer fires - delete it")
+
+    return problems
+
+
+def report_only(by_world: dict[str, dict[str, list[str]]]) -> list[str]:
+    """The R-4 carve-out's own visibility: voicing-pair findings on a new
+    world that hygiene_problems() above deliberately does not block on."""
+    if not _voicing_pair_carve_out_active():
+        return []
+    lines = []
+    for world_key, checks in sorted(by_world.items()):
+        if world_key in GRANDFATHERED_WORLDS:
+            continue
+        findings = checks.get("m9:voicing-pair") or []
+        if findings:
+            lines.append(f"m9:voicing-pair/{world_key}: {len(findings)} finding(s) - report-only under R-4 (no real PAIRS.yaml pair yet)")
+    return lines
+
+
+def main(argv: list[str] | None = None) -> int:
+    by_world = collect_findings()
+    problems = hygiene_problems(by_world)
+    observations = report_only(by_world)
+
+    if observations:
+        print(f"{len(observations)} report-only observation(s) (R-4 carve-out):\n")
+        for line in observations:
+            print(f"  {line}")
+        print()
+
+    if problems:
+        print(f"library access gate: {len(problems)} problem(s)\n")
+        for line in problems:
+            print(f"  {line}")
+        return 1
+
+    print("library access gate: clean - every finding is waived, every waiver is live and current")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
