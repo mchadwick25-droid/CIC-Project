@@ -231,7 +231,7 @@ def merge(write: bool = True, write_only: list[str] | None = None) -> tuple[dict
                 # shared constant (pre-existing shape, not changed here) - keep
                 # them in sync by hand when either grows.
                 if path.stem in buckets or path.name in _NOT_A_BUCKET | {
-                        "UNATTRIBUTED.yaml", "WORKS.yaml", "AUTHOR-IDS.yaml"}:
+                        "UNATTRIBUTED.yaml", "WORKS.yaml", "AUTHOR-IDS.yaml", "PAIRS.yaml"}:
                     continue
                 if path.read_text(encoding="utf-8").startswith(_GENERATED_FIRST_LINE):
                     path.unlink()
