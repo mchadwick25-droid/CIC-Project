@@ -2,14 +2,16 @@
 
 **Status:** **REVISED after Round 1 — not reviewed, not self-disposed.** Co-output of Construction Step 8 with `Doc_08_Forces_Document.md`; reviewed and disposed of together.
 **World file-code:** `lpc` · **Drafted:** 2026-09-15 · **Revised:** 2026-09-15 (Round 1 fix pass)
-**Generated from `Doc_08_Forces_Document.md` by `gen_force_index.py`. Never hand-edited. Re-running the generator is the check.**
+**Generated from `Doc_08_Forces_Document.md` by `gen_force_index.py`. Never hand-edited.**
+
+**What re-running the generator actually re-verifies, stated exactly — because Round 2 found the earlier blanket claim covered less than it sounded like.** **Derived from the source document, and therefore re-checked on every run:** every table in §§1–4, all counts and totals, the §6 reconciliation report and the §7 cross-check. **Hard-coded prose, re-verified by nothing:** the explanatory paragraphs under §§2, 3, 4 and 5, including this one. They are the author's commentary, carried across runs unchanged, and a reader should treat them as they would any hand-written sentence. **[ADDED, 2026-09-15 — Round 2's H3.]**
 
 **[CORRECTED, 2026-09-15 — Round 1's H1.] The previous generator was wrong in three ways and its "cannot drift" claim was false.** It **derived the gravity relation twice from two different sources** — the master table from tokens in each force's prose, the by-gravity view from §5's lists — so the two disagreed about **G4**, whose §5 entry says *"every force in Cell 2A"* in prose the token-scanner could not see. Its confidence pattern was terminated by `**` and so **silently dropped `3A-1`**, whose line ends *"Documented."*, leaving totals that summed to 16 of 17. And it reported **Contested — 0** two lines from prose naming a Contested element.
-**The fix is structural, not three patches.** Every relation now has **exactly one derivation**: gravity connections are read from §5 alone and inverted once for the master table, so the two views cannot disagree by construction; confidence is matched terminator-insensitively and an unmatched force is reported as `UNCLASSIFIED` rather than vanishing; and prose set-references like *"every force in Cell 2A"* are expanded rather than ignored. **A derived index that computes the same relation twice is not derived — it is two indexes that happen to agree until they do not.**
+**The fix is structural, not three patches.** Every relation now has **exactly one derivation**: gravity connections are read from §5 alone and inverted once for the master table, so the two views cannot disagree by construction; confidence is matched terminator-insensitively and an unmatched force is reported as `UNCLASSIFIED` rather than vanishing; and prose set-references like *"every force in Cell 2A"* are expanded rather than ignored. **A derived index that computes the same relation twice is not derived — it is two indexes that happen to agree until they do not.** **That rule holds inside this file and, as Round 2 found (M1), not across the deliverable pair:** Doc_08 §7 restates the confidence relation by hand and Doc_08 §3 states gravity links in its own Layer 3 prose. Neither duplication is removable from here, so both are now **read and cross-checked**, at §6 and §7 below, with disagreements printed rather than resolved.
 
 **[CORRECTED, 2026-09-15 — Round 1's M4, and one further defect the rewrite exposed.]** The previous index also had **`1B-3` and `2A-2` the wrong way round in the Cross-Cell column**: it sent a reader to §4 for `1B-3`, which has no §4 row at all, and printed a bare *(none)* for `2A-2`, the one force whose absence of connections §4 argues for at length. **`2A-2`'s isolation is a finding; `1B-3`'s is an unexamined blank**, and the two now read differently. `1B-3` is the only force in the matrix that §4 neither connects nor deliberately isolates — carried as an open observation for review, not resolved here.
 
-**[CORRECTED, 2026-09-15 — Round 1's M4.]** The previous generator also **truncated the Force column at a fixed 88 characters and the Connection column at 150**, cutting two Force names and three connection descriptions off mid-word with no ellipsis — so the Index's two longest entries, both of them transmission-related, were the two a reader could not read. **No column is width-limited now.** The cells below carry the source document's full wording.
+**[CORRECTED, 2026-09-15 — Round 1's M4.]** The previous generator also **truncated the Force column at a fixed 88 characters and the Connection column at 150**, cutting two Force names and four connection descriptions off mid-word with no ellipsis — so the Index's two longest entries, both of them transmission-related, were the two a reader could not read. **No column is width-limited now.** The cells below carry the source document's full wording.
 
 ---
 
@@ -19,10 +21,10 @@
 |---|---|---|---|---|---|---|---|
 | **1A-1** | Initiating / External | The Decian persecution and the libelli system (250) | Documented | G1, G2, G8 | → 2B-1 (produces); → 2B-2 (produces); ← 2A-1 (reacts to) | ✓ | no |
 | **1A-2** | Initiating / External | The standing legal condition of an unlicensed religion in Romanized provincial North Africa | Widely Accepted | G1 | → 1B-2 (shapes); → 2B-3 (inverts into) | ✓ | no |
-| **1B-1** | Initiating / Internal | An already-organized Carthaginian church capable of sustained collective response | Documented | G3, G5 | → 1B-2 (enables); → 2B-4 (enables) | ✓ | no |
+| **1B-1** | Initiating / Internal | An already-organized Carthaginian church capable of sustained collective response | Documented | G2, G3, G5 | → 1B-2 (enables); → 2B-4 (enables) | ✓ | no |
 | **1B-2** | Initiating / Internal | Congregational acclamation overriding a reluctant convert's preference | Documented | G1 | ← 1A-2 (shapes); ← 1B-1 (enables) | ✓ | no |
 | **1B-3** | Initiating / Internal | The inherited Latin theological vocabulary | Widely Accepted | G4 | *(no §4 row)* | ✓ | no |
-| **2A-1** | Ongoing / External | Recurring persecution after Decius — the Valerianic persecution (257–258) | Documented | G1, G4 | → 1A-1 (reacts to) | ✓ | no |
+| **2A-1** | Ongoing / External | Recurring persecution after Decius — the Valerianic persecution (257–258) | Documented | G1, G4, G8 | → 1A-1 (reacts to) | ✓ | no |
 | **2A-2** | Ongoing / External | Epidemic disease — the plague of c. 249–262 | Documented | G1, G4 | **none — see §4** | ✓ | no |
 | **2A-3** | Ongoing / External | The Donatist schism | Documented | G3, G4, G5, G6 | → 2B-4 (triggers); → 2B-3 (activates) | ✓ | no |
 | **2A-4** | Ongoing / External | Manichaeism and Pelagian anthropology as live rival systems | Documented | G4, G7 | → 3B-1 (produces) | ✓ | no |
@@ -60,13 +62,13 @@
 | Gravity | Class | Connected Forces | Count | Derivation |
 |---|---|---|---|---|
 | **G1** — Pastoral Office as Territorial Flock-Keeping | Primary | `1A-1`, `1A-2`, `1B-2`, `2A-1`, `2A-2`, `3A-1` | 6 | §5 list |
-| **G2** — Penitential Discipline | Primary | `1A-1`, `2B-1`, `2B-2` | 3 | §5 list |
+| **G2** — Penitential Discipline | Primary | `1A-1`, `1B-1`, `2B-1`, `2B-2` | 4 | §5 list |
 | **G3** — Collegial Communion Preserved Despite Disagreement | Primary | `1B-1`, `2A-3`, `2B-4` | 3 | §5 list |
 | **G4** — Preaching and Catechesis | Supporting | `1B-3`, `2A-1`, `2A-2`, `2A-3`, `2A-4` | 5 | §5 list + prose set-reference expanded |
 | **G5** — Conciliar Authority Theory | Supporting | `1B-1`, `2A-3`, `2B-4` | 3 | §5 list |
 | **G6** — Sacramental and Ordination Validity | Primary | `2A-3`, `2B-1`, `2B-4` | 3 | §5 list |
 | **G7** — Grace and Human Incapacity | Supporting | `2A-4`, `3B-1` | 2 | §5 list |
-| **G8** — Confessor-Authority vs. Episcopal-Regulated Peace | Tensional | `1A-1`, `2B-2` | 2 | §5 list |
+| **G8** — Confessor-Authority vs. Episcopal-Regulated Peace | Tensional | `1A-1`, `2A-1`, `2B-2` | 3 | §5 list |
 
 **Result: all 8 gravities connect; 0 empty rows. The completion requirement is met.**
 
@@ -106,7 +108,33 @@
 | Dedicated transmission force in Cell 3B | **YES** — `3B-2` |
 | Every force carries a written Layer 2 | **YES** — all 17 |
 
-**[CORRECTED, 2026-09-15 — Round 1's H4.]** Three Layer 2 entries were previously unwritten, and the omission was certified in Doc_08 §8 as the From-Within Principle applied *"with three stated exceptions."* **The Forces Framework permits none: *"This is not optional. All three layers are required for every force."*** All three are now written — from this world's **own attested transmission-consciousness**, which was available in the vendored sources the whole time: Cyprian directing that his letters be copied and forwarded, assembling a thirteen-letter dossier, and returning a suspect letter for collation because the paper itself suggested it had been altered; Augustine revising his entire corpus in the *Retractationes*. **This column exists so that a blank Layer 2 can never again be reported as a principle.**
+**What this column does and does not prove. [CORRECTED, 2026-09-15 — Round 2's H3.]** An earlier version of this file claimed the column meant *"a blank Layer 2 can never again be reported as a principle."* **It did not, and the reviewer proved it:** the test was a truthiness check on text under the header, so running it against the pre-fix draft — the one Round 1 found with two entries blank — returned a tick for all seventeen. The stubs (*"Not applicable at this layer…"*, *"None, and not for want of looking"*) are non-empty text. **The test now flags a Layer 2 that matches a stub phrasing, and construction-record blocks are excluded from the count** (a 40-character floor is kept only as a backstop for a genuinely empty entry). A first version of the fix also imposed a 120-character floor and **falsely flagged `1B-3`, a real two-sentence Layer 2 that runs 119** — an arbitrary round number is not a test, and the threshold was withdrawn rather than tuned — so it detects the defect it was built for. **It still measures presence, not quality.** Whether a Layer 2 is written in this world's voice is a reviewer's judgement no generator makes.
+
+**[CORRECTED, 2026-09-15 — Round 1's H4.]** Three Layer 2 entries were previously unwritten, and the omission was certified in Doc_08 §8 as the From-Within Principle applied *"with three stated exceptions."* **The Forces Framework permits none: *"This is not optional. All three layers are required for every force."*** All three are now written — from this world's **own attested transmission-consciousness**, which was available in the vendored sources the whole time: Cyprian forwarding a thirteen-letter dossier of his own correspondence, knowing his letters are read aloud to other clergy, and returning a suspect letter for collation because the paper itself suggested it had been altered; Augustine setting out to review his whole corpus *"cum quadam iudiciaria seueritate"* (*Retractationes* Prologus, Latin-only witness, Registry row 209). **[CORRECTED, 2026-09-15 — Round 2's H1:** this sentence previously led with *"Cyprian directing that his letters be copied and forwarded."* That directive is **Epistle II, written by the Roman clergy to Carthage** — not Cyprian's own words, and the one letter he later returned as possibly altered.**]** **This column exists so that a blank Layer 2 is caught by a script rather than by the next reviewer.**
+
+---
+
+## 6. §3-versus-§5 Gravity Reconciliation — the check that was removed and is now printed
+
+**Why this section exists.** Round 1 found a §3/§5 gravity contradiction *because* the old generator derived the relation twice and the two derivations disagreed. The fix made §5 the single source — which is correct for the tables and **destroyed the only thing that had been noticing the source document contradict itself** (Round 2's H2). The tables above still derive from §5 alone. This section derives a **second opinion** from each force's own §3 Layer 3 prose and prints every disagreement instead of resolving it.
+
+**No disagreements: no force's §3 Layer 3 asserts a gravity connection that §5's canonical list omits.** The three Round 2 found — `2B-1`/G7, `1B-1`/G2, `2A-1`/G8 — were reconciled in the source document, not in this file: `2B-1`'s Layer 3 now says the phase-two link is a family resemblance rather than a connection, and §5's G2 and G8 lists gained `1B-1` and `2A-1`.
+
+**What this tests, narrowly, and why the narrowing is the point.** One direction only: a sentence in a force's §3 Layer 3 that **asserts a connection** to a gravity §5's list omits. The reverse is not a defect — §3 is prose, not an enumeration, and §5's own G4 list is built from a prose set-reference (*"every force in Cell 2A"*) that no §3 entry restates. **A first version of this check ignored that distinction and reported seven disagreements. Six were its own defect**: *"G2 and G8 are attested only within it"* is an attestation claim, *"a family resemblance to G6 and G7"* says in terms that it is not a connection, and the rest were the reverse direction. **All seven sites were read before any was trusted** — which is the only reason this section reports what it does rather than what the first run returned.
+
+**This is a weaker test than it looks and the weakness is stated.** It matches bolded `**G*n***` tokens inside connection-asserting sentences; a gravity discussed without the bold token (`2B-2`'s Layer 3 names G2 unbolded), or named inside a correction notice, is invisible to it. **It catches the class of defect Round 1 caught by accident. It is not a proof of consistency, and no run of it substitutes for a reader.**
+
+---
+
+## 7. Section 7 Cross-Check — the second, hand-maintained derivation
+
+**Why this section exists.** Doc_08 §7 restates the confidence of all seventeen forces by hand. The generator never read it, so this file's claim that *"every relation now has exactly one derivation"* was true inside the Index and false across the deliverable pair (Round 2's M1) — the relation was still computed twice, the second time by a human. §7 is now read and compared.
+
+- **`2B-3` is absent from §7's list** but carries `Documented` at §3.
+
+**Each line above is a disagreement between two hand-and-script derivations of the same relation. It is reported, not resolved.**
+
+**The honest statement of the design rule, narrowed from the header's earlier wording.** Inside this file every relation has exactly one derivation. **Across the deliverable pair it does not** — §7 is a parallel hand-maintained statement, and the fix is this cross-check rather than a claim that the duplication is gone.
 
 ---
 
