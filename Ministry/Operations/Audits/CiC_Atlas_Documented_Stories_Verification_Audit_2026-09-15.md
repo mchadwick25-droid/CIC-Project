@@ -79,6 +79,12 @@ qui sunt paucissimi de poenitentia*; "the four penitential psalms" comes from
 Weiskotten's own note that the shortest of the seven are four; "fixed to the
 wall opposite his bed" renders *iacens in lecto contra parietem positos*.
 
+**The middle one was wrong to leave, and §10 corrects it.** That the number
+comes from Weiskotten's note is the reason to remove it, not to keep it: a 1919
+editor's inference is not what Possidius wrote, and the story's own caveat
+already said the psalms are unspecified. The scorpion flagged below is also
+settled in §10.
+
 The second row is the one that matters most: an indirect report turned into a
 direct-speech scene.
 
@@ -274,3 +280,96 @@ doubled apostrophe left as it stands, because a fix that rewords the content
 it is rescuing is not a fix. Drift is now zero in all three categories, and a
 full merge is idempotent: of 56 buckets rewritten, 54 changed by their digest
 line alone and the two that changed in substance did so only by addition.
+
+---
+
+## 10. The remaining fifty read, and twenty-seven corrections made
+
+§9 left 26 quotations outstanding. Read properly, the working list was 50
+distinct quoted spans across 23 entries — §9's figure counted the audit's own
+traced flags, not the spans. All 50 were read against the source each cites.
+
+**Thirty-one cite a work that is not in the library.** Whole traditions are
+missing: nothing Armenian, Coptic, Arabic-Christian, West Syriac, or from the
+Gaza and Judean-desert monasteries. The acquisition list and its verified
+Internet Archive identifiers went to the source-research thread.
+
+**Nineteen were checkable. Six held. Thirteen carried a finding.** That is the
+result that matters, and it inverts §5's assumption. Where the cited source was
+absent the story could not be checked; where it was present, it usually did not
+survive the check. The corpus was hiding the problem, not causing it.
+
+### What the thirteen were
+
+Three classes, and the second is a habit rather than an accident.
+
+**A quotation the cited passage does not contain (5).** `pelagianism` had
+B. B. Warfield's 1887 third-person summary — sitting in `npnf105`'s own front
+matter — set as Pelagius's first-person speech, and a second quotation that
+appears nowhere in Letter 188 in either language. `palestinian-church` turned
+one of Origen's negated rhetorical questions into a positive maxim in quotation
+marks. `antiochene-exegetical` attributed to *On the Priesthood* a saying that
+is real Chrysostom from a different work in the same vendored volume.
+`marcion-marcionism` spliced two clauses so that a claim Eusebius reports and
+immediately denies became a fact he concedes. `antiochene-church-third-century`
+made a circle's name for itself out of one man's greeting to another in a
+single letter, in a work the story does not cite.
+
+**A nineteenth-century editor quoted as an ancient source (3).** The Decian
+date and the Pionius pairing in `marcion-marcionism` come from the NPNF editor
+*correcting* Eusebius — in a story whose whole point is Eusebius's candour.
+`aquileian`'s 'in sight of the burning of Rhegium' matches the editor's
+paraphrase, not Rufinus's own sentence. `latin-pastoral`'s "four penitential
+psalms" is Weiskotten's 1919 footnote; Possidius says *paucissimi*, and the
+story's own caveat already admitted the psalms are unspecified.
+
+**Plain error (5).** Augustine is seventy-five on the card and *septuaginta
+sex* — seventy-six — in Possidius. The 28 August date is Prosper's, not
+Possidius's. Pamphilus and his companions are "sentenced to be beheaded" where
+the source gives no mode of execution; Porphyry acquires an age and a job the
+source does not give him; Seleucus, a confessor from the army bringing news of
+Porphyry's death, becomes a member of the household coming to congratulate him.
+And `homoian-arian` carried an orphaned sentence — "Almost none survive." with
+no antecedent — in live published prose.
+
+### One finding deliberately not corrected
+
+`cyrilline-miaphysite-egyptian-tradition`, the Alexandrian delegates' 'for we
+shall be killed when we go home'. Only NPNF's *abridged* extracts of the Acts
+of Chalcedon are vendored; the full Acts, which the story cites, are not. §4's
+rule holds — a quotation is not corrected against a source that is not the
+cited one. Left standing, and open.
+
+### Closed on the way
+
+The Jerome scorpion, flagged and left alone in §4 for want of the cited
+preface, is settled: `npnf206` carries the Ezekiel preface, and Jerome wrote
+that the scorpion "lies beneath the ground **with** Enceladus and Porphyrion".
+The card's "between" was the `npnf203` editor's rendering. Corrected.
+
+### Method
+
+Five readers worked under a brief built from this project's own documented
+traps, each required to quote the source passage back; a verdict without the
+words was discarded. Every claim that changed published prose was then
+re-checked by hand against the vendored file. Twenty-seven exact-string
+replacements were applied to `cic-website/atlas-v3.html` behind a pre-flight
+that aborts unless each matches exactly once. `world-census.json` carries none
+of this field and did not change.
+
+A fifth harness defect surfaced, and it belongs with the four in §8: the
+quotation extractor cannot distinguish a typographic apostrophe from a closing
+quote, because in this corpus they are the same character. **17 of 541 spans
+(3.1%) are mis-bounded** — mostly truncated at an internal apostrophe, one
+wholly bogus where a transliteration mark (`burd‘tha`) was read as an opening
+quote. Like the other four, it biased toward reporting absence. It does not
+touch the verdicts above, which came from reading passages rather than matching
+strings.
+
+### What this implies for the 490
+
+Thirteen findings in nineteen readable quotations is not a rate that stops at
+these entries, and three of the thirteen are the same habit. The 44 stories
+that already claim `checked directly against the primary text` are now the
+least safe thing in the corpus to take on trust, because that claim is exactly
+what this pass has shown to be worth re-testing.

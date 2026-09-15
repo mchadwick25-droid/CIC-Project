@@ -13,6 +13,56 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-09-15 — The rest of the reads: the corpus was hiding the problem, not causing it
+
+**Origin.** Mark asked for the remaining Possidius-style reads, then, on the
+result, said "fix the thirteen."
+
+**What the reads found.** Fifty quoted spans across 23 entries. Thirty-one cite
+a work the library does not hold — whole traditions are missing, nothing
+Armenian, Coptic, Arabic-Christian, West Syriac or Gaza monastic. Nineteen were
+checkable. **Six held; thirteen carried a finding.**
+
+That reverses the assumption the audit was built on. It treated the 490 unread
+stories as probably sound and blocked on acquisition. On this sample, absence
+is what *prevented* the problem being seen.
+
+**Three classes, and the middle one is a habit.** Five quotations are not in the
+passage they cite — including Pelagius given B. B. Warfield's 1887 third-person
+summary as his own first-person speech, and a claim Eusebius reports and
+immediately denies turned into one he concedes. Three quote a nineteenth-century
+editor as though he were the ancient source, twice in stories whose own point is
+the ancient author's candour. Five are plain error, including Augustine's age
+(seventy-five on the card, *septuaginta sex* in Possidius) and an orphaned
+sentence with no antecedent sitting in live published prose.
+
+**Decided — fix them.** Twenty-seven exact-string corrections across eleven
+stories in `atlas-v3.html`, each restoring what the cited source says or
+removing a claim it does not carry, behind a pre-flight that aborts unless every
+match is unique. Two of my own replacements read badly on the way back through;
+those were restored from backup and redone rather than patched.
+
+**One left alone.** The Alexandrian delegates' 'for we shall be killed when we
+go home'. Only NPNF's abridged extracts of the Acts of Chalcedon are vendored,
+and the story cites the full Acts. The rule that spared Jerome's scorpion in the
+first pass applies here too — and the scorpion itself is now settled and
+corrected, because `npnf206` turned out to carry the preface it cites.
+
+**The heart of it.** The instinct through this whole pass has been that the
+stories are probably fine and the library is the obstacle. Six in nineteen is
+not fine. What makes the thirteen worth the time is not that they are scandalous
+— most are small — but that three of them are the same mistake made three times,
+which means it is a way of working rather than a slip. A Victorian footnote sits
+right beside the ancient text in these volumes, and it reads as though it
+carried the same authority.
+
+**Still open, and now sharper.** The 44 stories already marked
+`checked directly against the primary text` are the least safe thing in the
+corpus to take on trust, because that claim is exactly what this pass has shown
+needs re-testing.
+
+---
+
 ## 2026-09-15 — The corpus block re-tested: two of its three premises were false
 
 **Origin.** The audit earlier this day closed by saying the verification pass
