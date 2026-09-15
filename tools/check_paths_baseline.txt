@@ -359,6 +359,10 @@ world-build-docs/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: 
 world-build-docs/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: cic-poc/frontend/src/data/worldIcons.tsx
 world-build-docs/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: cic/texts/npnf211_...xml
 world-build-docs/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: records/worlds.yaml
+world-build-docs/_cross-world/dossiers/lollardy_Source_Readiness_Dossier.md: cic/corpus-map/lollardy.yaml
+world-build-docs/_cross-world/dossiers/lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md: cic/corpus-map/lutheran-wittenberg-and-its-congregations.yaml
+world-build-docs/_cross-world/dossiers/the-society-of-jesus_Source_Readiness_Dossier.md: cic/corpus-map/the-society-of-jesus.yaml
+world-build-docs/_cross-world/dossiers/the-tridentine-church_Source_Readiness_Dossier.md: cic/corpus-map/the-tridentine-church.yaml
 world-build-docs/alx/HANDOFF-TO-BUILD-THREAD.md: records/_fleet/sealed_probes
 world-build-docs/alx/HANDOFF-TO-BUILD-THREAD.md: records/worlds.yaml
 world-build-docs/alx/SOURCE-REQUEST-MANIFEST.md: records/worlds.yaml
