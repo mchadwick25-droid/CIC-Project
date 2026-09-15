@@ -107,7 +107,6 @@ World-Builds/Cappadocian/Review-Artifacts/UnusedSourceFinding_Round1_Review.md: 
 World-Builds/Cappadocian/Review-Artifacts/UnusedSourceFinding_Round1_Review.md: records/source/cappadocian.source.imperial-communion-law-of-381.md
 World-Builds/Cappadocian/Review-Artifacts/UnusedSourceFinding_Round1_Review.md: records/worlds.yaml
 World-Builds/Cappadocian/Review-Artifacts/UnusedSourceFinding_Round2_Review.md: cic/texts/npnf214_...xml
-World-Builds/Cappadocian/cappadocian_Source_Registry.md: reference/section-pointer
 World-Builds/Cappadocian/cappadocian_Unused_Source_Verification_2026-09-09.md: records/worlds.yaml
 World-Builds/Desert-Monasticism/CiC_W3_Decision_Log.md: World-Builds/Desert-Christianity
 World-Builds/Desert-Monasticism/CiC_W3_Living_Tradition_Differentiation_Review.md: engine/m2/builders.build_prompt

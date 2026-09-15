@@ -76,6 +76,7 @@ jobs:
       engine: ${{ steps.filter.outputs.engine }}
       frontend: ${{ steps.filter.outputs.frontend }}
       census: ${{ steps.filter.outputs.census }}
+      library: ${{ steps.filter.outputs.library }}
     steps:
       - uses: actions/checkout@v4
       - uses: dorny/paths-filter@v3
@@ -98,6 +99,16 @@ jobs:
             census:
               - 'cic-website/data/world-census.json'
               - 'tools/validate-census.mjs'
+              - '.github/workflows/**'
+            # Library Access Gate D3 SS6.3 (increment 5): a corpus-map or
+            # vendored-text-only change is neither `engine/**` nor
+            # `records/**` and would otherwise run no CI at all. Deliberately
+            # narrow (just m9-confinement-check + m2-staleness-check below,
+            # not the full twelve-job engine battery) - the 2026-09-10 minutes
+            # exhaustion is why this budget discipline exists.
+            library:
+              - 'cic/corpus-map/**'
+              - 'cic/texts/**'
               - '.github/workflows/**'
 
   # Two jobs were removed 2026-08-24: "Repository views current (all six
@@ -385,7 +396,7 @@ jobs:
 
   m2-staleness-check:
     needs: changes
-    if: needs.changes.outputs.engine == 'true'
+    if: needs.changes.outputs.engine == 'true' || needs.changes.outputs.library == 'true'
     # The third stage-2 gate leg: recompile every built/admitted/open world
     # from its stored records_commit and check it still produces the package
     # worlds.yaml is pinned to. Needs NO restore step: it compares against
@@ -431,7 +442,7 @@ jobs:
 
   m9-confinement-check:
     needs: changes
-    if: needs.changes.outputs.engine == 'true'
+    if: needs.changes.outputs.engine == 'true' || needs.changes.outputs.library == 'true'
     # Library Access Gate D3 (Ministry/Features/Library-Access-Gate/
     # D3-Converged-Design.md) increment 4 (Q3), blocking: pytest covers the
     # confinement battery's own tests, the M9 selftest (mirrors
@@ -441,10 +452,11 @@ jobs:
     # un-waived finding, stale or expired waiver, or waiver naming a world
     # grandfathering has closed to (SS4.2). ACCEPTED_OPEN in
     # engine/m9/enforce.py is the waiver list Mark reads before merge.
-    # A `library` path-filter group (cic/corpus-map/**, cic/texts/**)
-    # lands in increment 5 - engine/m9/** changes already trigger this job
-    # via the existing `engine` group below.
-    name: M9 confinement check (Library Access Gate)
+    # The `library` path-filter group (increment 5, SS6.3) runs this job
+    # and m2-staleness-check only, not the full twelve-job engine battery -
+    # a corpus-map or vendored-text-only change is neither `engine/**` nor
+    # `records/**` and would otherwise run no CI at all.
+    name: M9 confinement (compiled shelf; M1+M9 findings vs waivers)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
