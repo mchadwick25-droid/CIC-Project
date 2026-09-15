@@ -44,7 +44,8 @@ And he thanks them — for being asked. The Numidian bishops, he says, "wished u
 
 **We do not know whether the ransom worked.** The letter records the sum sent, the collection that raised it, and the instruction to dispense it — and then this world's record stops. **No source says whether the captives were recovered, how many, or at what price per person.** Cyprian never writes again about the outcome, and the Numidian bishops' reply, if there was one, does not survive. A participant asking "did they get them back?" should be told plainly that the story ends with the money leaving Carthage.
 
-**[ADDED, 2026-09-15 — Round 1's L8:** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Five now do; `lpcstory001` and `lpcstory007` do not, because neither has an expected-but-unsupported story attached to it.**]**
+**[ADDED, 2026-09-15 — Round 1's L8; amended at Round 3.** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Six now do. **`lpcstory001` does not**, because its own absence — that the neophyte detail rests on Pontius alone — is already carried in its Tier Justification rather than as a separate story that cannot be told. The Round 2 version of this line said `lpcstory007` needed none; Round 1's L8 had named it, and it now has one.**]**
+
 ---
 
 ## Usage Guidance

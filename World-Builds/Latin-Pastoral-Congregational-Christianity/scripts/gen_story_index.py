@@ -113,7 +113,13 @@ for p in sorted(CHUNKS.glob("lpcstory*.md")):
     # is the shape this build keeps repeating; both derivations now share
     # NEG_CLAUSE so they cannot drift apart again.
     grav = set()
-    for clause in re.split(r"(?<=[.;])\s+|\n", t):
+    # Round 3: the splitter could not break at ".**", so a chunk's own
+    # "**Gravities: G2 …, G1 ….**" line joined the sentence after it -- and
+    # where that sentence said "does not persist", the negation filter threw
+    # the declaration away with it. Both entries were right only because
+    # Retrieve-When happens to repeat the codes. Split on a bold-run boundary
+    # as well as on sentence punctuation.
+    for clause in re.split(r"(?<=[.;])\s+|(?<=\.\*\*)\s*|\n", t):
         if NEG_CLAUSE.search(clause):
             continue
         grav |= set(re.findall(r"\b(G[1-8])\b", clause))
@@ -132,14 +138,16 @@ sec3 = doc_live.split("## Section 3 — Story Index")[1].split("### 3.1")[0]
 # Round 1's M4(b): only the TIER column was compared, though the masthead
 # claimed the whole table -- and a live divergence already existed in the
 # Confidence column at lpcstory006. Tier AND confidence are compared now.
-claimed = {m.group(1): (m.group(2).strip(), m.group(3).strip(), m.group(4).strip())
-           for m in re.finditer(r"\|\s*`(lpcstory\d+)`\s*\|\s*([^|]*?)\s*\|\s*(\d)\s*\|\s*([^|]+?)\s*\|", sec3)}
+claimed = {m.group(1): tuple(x.strip() for x in m.groups()[1:])
+           for m in re.finditer(
+               r"\|\s*`(lpcstory\d+)`\s*\|\s*([^|]*?)\s*\|\s*(\d)\s*\|\s*([^|]+?)\s*\|"
+               r"\s*([^|]*?)\s*\|\s*([^|]*?)\s*\|", sec3)}
 problems = []
 for s in stories:
     if s["id"] not in claimed:
         problems.append(f"{s['id']} exists as a chunk but is absent from Doc_09 §3's table")
         continue
-    ctitle, ctier, cconf = claimed[s["id"]]
+    ctitle, ctier, cconf, csrccell, cgravcell = claimed[s["id"]]
     # Round 2: §3 could retitle a story "Cyprian of Antioch" with no halt.
     # A first fix compared "significant words" and let that exact scenario
     # through, because "Cyprian" appears in both -- a fuzzy test that fails
@@ -156,6 +164,21 @@ for s in stories:
     # state one the chunk does not carry.
     if cconf.split(";")[0].strip().lower() not in s["conf"].lower():
         problems.append(f"{s['id']}: Doc_09 §3 says Confidence '{cconf}', the chunk says '{s['conf']}'")
+    # Round 1's M4(b) asked for Gravities and Source too; Round 2 added Title
+    # and Confidence and the masthead kept claiming the whole table. Both
+    # remaining columns are compared now, so the claim is true.
+    cgrav = set(re.findall(r"G[1-8]", cgravcell))
+    if cgrav and cgrav != set(s["gravities"]):
+        problems.append(f"{s['id']}: Doc_09 §3 lists gravities {sorted(cgrav)}, the chunk yields {s['gravities']}")
+    csrc_rows = {r for grp in re.findall(r"row(?:s)?\s+((?:\d+)(?:\s*[/,]\s*\d+)*)", csrccell)
+                 for r in re.split(r"[/,]\s*", grp)}
+    # Requiring only an INTERSECTION failed open, exactly as the first title
+    # check did: §3 could cite a nonexistent row beside a real one and pass.
+    # Every row §3 names must be one the chunk actually draws on.
+    _stray = sorted(csrc_rows - {r for grp in s["rows"] for r in re.split(r"[/,]\s*", grp)}
+                    - {r for grp in s.get("rows_excluded", []) for r in re.split(r"[/,]\s*", grp)})
+    if _stray:
+        problems.append(f"{s['id']}: Doc_09 §3 cites row(s) {_stray} the chunk does not draw on")
 for cid in claimed:
     if cid not in {s["id"] for s in stories}:
         problems.append(f"{cid} is listed in Doc_09 §3 but no chunk file exists")
@@ -231,7 +254,15 @@ w("")
 # The count is read off this file rather than typed. It has been misstated in
 # three consecutive rounds across two generators, always by being copied
 # forward into the Decision Log and then into the next round's brief.
-_NHALT = pathlib.Path(__file__).read_text(encoding="utf-8").count("sys.exit(")
+# Round 3: counting the string "sys.exit(" in this file counts THIS LINE's
+# own literal too, so the self-derived figure was 14 where 13 sites exist
+# -- and it was wrong in the same sentence as a notice saying thirteen.
+# A count derived from a script's own source text is a literal in
+# disguise. Parsed from the syntax tree instead, which cannot see itself.
+_NHALT = sum(1 for _n in __import__("ast").walk(
+    __import__("ast").parse(pathlib.Path(__file__).read_text(encoding="utf-8")))
+    if isinstance(_n, __import__("ast").Call)
+    and getattr(getattr(_n, "func", None), "attr", None) == "exit")
 w(f"**Guards that halt the run rather than emitting a wrong index — {_NHALT} of them, counted off this script rather than typed.** A chunk missing a front-matter field or a required section; **a chunk declaring a Tier 5**; a tier/confidence pair outside the band CF V7.4 assigns that tier; a Tier 4 chunk with no Source Identification section; a story whose Doc_09 §3 tier disagrees with its own chunk; a story sourced to a row that is not **Native** in the Registry; an Absent-Stories section short enough to be a placeholder; and a correction notice that swallows another's opener. **[CORRECTED, 2026-09-15 — Round 1's brief-correction 1:** this said *nine* guards and called them *the eight lessons*; **the script has thirteen halting sites.** **Round 1 forced the guards that existed when it ran**; each later pass has added guards, and each round has forced the ones in front of it. The number above is computed from this file, so the sentence does not need to name it. **[Amended at Round 2:** the earlier wording credited Round 1 with forcing a guard that did not yet exist.**]** The miscount went from this prose into the Decision Log and then into Round 1's own brief without being re-derived — the same shape `gen_force_index.py` produced three rounds running. Counted here with a grep over the script rather than from memory.**]**")
 w("")
 w("---")
@@ -287,7 +318,7 @@ for s in stories:
 w("")
 w(f"**{len(stories)} of {len(stories)} stories classified within the four permitted tiers, each with a confidence band CF V7.4 assigns that tier. Zero unclassified, zero ambiguous, zero Tier 5.**")
 w("")
-w("**This table is a structural check and not a substitute for reading the stories.** It proves each chunk *declares* a permitted tier and a consistent band. **Whether a story is genuinely sourced rather than composited is a reviewer's judgement no script makes** — Doc_09 §4 is where that judgement is recorded, story by story, and §6 records two candidates declined on exactly that ground.")
+w("**This table is a structural check and not a substitute for reading the stories.** It proves each chunk *declares* a permitted tier and a consistent band. **Whether a story is genuinely sourced rather than composited is a reviewer's judgement no script makes** — Doc_09 §4 is where that judgement is recorded, story by story, and §6 records **four** candidates considered and not built. **[CORRECTED, 2026-09-15 — Round 1's L7, second site:** this said *two*. Doc_09 §4 was corrected at Round 2 and this literal was not.**]**")
 w("")
 w("---")
 w("")

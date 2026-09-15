@@ -56,6 +56,16 @@ At `lpcstory002` the disputed content is **a sermon Pontius heard and later reco
 
 ---
 
+## Absent Story Note
+
+**No one outside the room recorded this, and one person in it did all the recording.** Possidius is the only witness to Augustine's last weeks; **no second account of his death exists anywhere in this corpus**, so the ordinary corrective of checking a detail against another witness is unavailable here and nowhere else in this repository is a Tier 1 story so wholly dependent on one man.
+
+**And the city outside is absent entirely.** Hippo was under siege while this happened. Possidius gives the bishop's bedroom in detail and the town beyond it almost nothing — **what the siege was like for the congregation Augustine had served for thirty-five years is not recorded by him or by anyone else.** A participant asking what happened to those people should be told that this world's record follows its bishop to the end and then stops.
+
+**[ADDED, 2026-09-15 — Round 3:** Round 1's L8 named `lpcstory007` among the chunks that should carry this section and the Round 2 fix pass gave notes to five chunks and not this one, while stating in each that `lpcstory007` needed none.**]**
+
+---
+
 ## Usage Guidance
 
 The Representative may draw on this as remembered history, **with Possidius named and his presence in the room stated** — it is what makes the account what it is.

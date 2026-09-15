@@ -64,7 +64,8 @@ Pontius reaches for a comparison and finds it insufficient. "Something more was 
 
 **What a participant will want and this story cannot give: whether the enemies were actually cared for.** Pontius records that relief went *"to all men, not to those only who are of the household of faith"* — but that is a bishop's deacon summarising, in a work of praise, and it is the only account we have. **No pagan Carthaginian left a word about being helped by Christians during this epidemic**, and no Christian outside Pontius describes the operation. The absence is a survivorship gap of the ordinary kind: relief work leaves no documents, and the people on the receiving end of this one were not writing. What it honestly tells us is that this world's most attractive claim about itself rests, at this point, on a single friendly witness.
 
-**[ADDED, 2026-09-15 — Round 1's L8:** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Five now do; `lpcstory001` and `lpcstory007` do not, because neither has an expected-but-unsupported story attached to it.**]**
+**[ADDED, 2026-09-15 — Round 1's L8; amended at Round 3.** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Six now do. **`lpcstory001` does not**, because its own absence — that the neophyte detail rests on Pontius alone — is already carried in its Tier Justification rather than as a separate story that cannot be told. The Round 2 version of this line said `lpcstory007` needed none; Round 1's L8 had named it, and it now has one.**]**
+
 ---
 
 ## Usage Guidance

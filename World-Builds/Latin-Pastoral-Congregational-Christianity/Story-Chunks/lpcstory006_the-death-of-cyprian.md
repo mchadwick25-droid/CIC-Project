@@ -48,9 +48,12 @@ The tradition's portrait, then, is of a man more composed than the soldier killi
 
 ## Absent Story Note
 
-**The documentary account of this death exists and this build has not read it.** The *Acta Proconsularia Sancti Cypriani* — the official trial record, `Source_Registry.md` rows 41 and 194 — is vendored in Latin only, with no English translation anywhere in this corpus. **So the one thing a participant most reasonably wants, an account not written in praise, is available and unopened.** That is not a gap in the evidence; it is a gap in this build's reading, and Doc_09 §6 item 2 names it as the highest-value unexploited source for this document. Until it is read, this world's best-attested public event reaches the Representative only through its own hagiographer.
+**What cannot be told is what the execution looked like to anyone who was not already devoted to him.** Every surviving account of Cyprian's death comes from inside his own community — Pontius, his deacon, writing in praise, and the *Acta Proconsularia*, a record kept by the court that killed him. **There is no bystander.** The crowd in the trees is described only by a man who believed what they had come to see; not one of the people in those branches left a word. **So the most public event in this world's first phase has no public witness**, and a participant who asks what an ordinary Carthaginian made of it should be told that the question cannot be answered from this world's record.
 
-**[ADDED, 2026-09-15 — Round 1's L8:** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Five now do; `lpcstory001` and `lpcstory007` do not, because neither has an expected-but-unsupported story attached to it.**]**
+*(A separate matter, and not an evidentiary absence: the* Acta *is vendored in Latin and unread by this build. That is a reading task, tracked at Doc_09 §6 item 2 and §8, not a limit on what the evidence allows.* **[CORRECTED, 2026-09-15 — Round 3:** the whole of this note previously *was* that build-progress item, which fails the L4 template's own definition — the section exists for a story that *"cannot be told because evidence is insufficient,"* not for one this build has not got to yet.**]**)
+
+**[ADDED, 2026-09-15 — Round 1's L8; amended at Round 3.** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Six now do. **`lpcstory001` does not**, because its own absence — that the neophyte detail rests on Pontius alone — is already carried in its Tier Justification rather than as a separate story that cannot be told. The Round 2 version of this line said `lpcstory007` needed none; Round 1's L8 had named it, and it now has one.**]**
+
 ---
 
 ## Usage Guidance

@@ -5,7 +5,7 @@ Tier:           1
 Confidence:     Documented
 Source:         Cyprian, *Epistle* XXXIV, "To the Same, About the Ordination of Numidicus as Presbyter" (`Source_Registry.md` row 1; vendored in English at `anf05`). Latin second witness at rows 191/194.
 Retrieve-When:  Participant asks what persecution actually did to people; participant asks how survivors were treated; participant raises the cost of faithfulness, or survivor's guilt; conversation reaches the pastoral office (G1) or ordination and validity (G6); Representative needs an example of how this world read suffering as qualification.
-Do-Not-Retrieve-When: The participant is in acute grief or trauma and the physical detail would land badly — `lpcstory007` covers a gentler deathbed. Not for questions about the lapsed — *Ep.* XXXIV is about a confessor's ordination and says nothing of them, so the story has nothing to offer there. **[CORRECTED, 2026-09-15 — Round 1's L1:** this read *"which this story deliberately does not address,"* implying a choice the letter never made.**]**
+Do-Not-Retrieve-When: The participant is in acute grief or trauma and the physical detail would land badly — `lpcstory007` covers a gentler deathbed. Not as a story *about* the lapsed — *Ep.* XXXIV names them only as the cause of the vacancy Numidicus fills, and `lpcstory005` carries the lapsed question directly. **[CORRECTED TWICE, 2026-09-15:** Round 1's L1 caught *"which this story deliberately does not address"* and supplied corrected wording. The Round 2 fix pass instead wrote *"says nothing of them"* — **and that is false in the very sentence this chunk quotes as its closing line.** Cyprian's clause continues: the Lord would *"adorn with glorious priests the number of our presbyters that had been desolated by **the lapse of some**."* Round 3's HIGH. The same shape as Round 1's H1 — a negative asserted about a source, in a field that governs retrieval.**]**
 ```
 
 ---
@@ -48,7 +48,8 @@ He had not wanted to survive. Cyprian knows this, writes it down, and then gives
 
 **The three people this story is about left no word of their own.** Numidicus's wife burned; his daughter searched for his body and found him alive; Numidicus himself did not want to have survived. **All three facts reach us in one paragraph of a letter written by someone else, for a different purpose** — to explain an appointment to a congregation. What the wife thought she was doing, what the daughter found, and what Numidicus said when they revived him are all unrecoverable, and no source in this corpus will ever supply them. Doc_09 §7 items 2 and 4 record this shape at the level of the whole repository; it is at its sharpest here.
 
-**[ADDED, 2026-09-15 — Round 1's L8:** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Five now do; `lpcstory001` and `lpcstory007` do not, because neither has an expected-but-unsupported story attached to it.**]**
+**[ADDED, 2026-09-15 — Round 1's L8; amended at Round 3.** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Six now do. **`lpcstory001` does not**, because its own absence — that the neophyte detail rests on Pontius alone — is already carried in its Tier Justification rather than as a separate story that cannot be told. The Round 2 version of this line said `lpcstory007` needed none; Round 1's L8 had named it, and it now has one.**]**
+
 ---
 
 ## Usage Guidance
