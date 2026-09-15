@@ -16,6 +16,7 @@ sources: []
 author: "Origen (c. 185-254 CE)"
 work: "Commentary on the Gospel of John, books I, II, IV (fragment), V (preface extract), VI, and X only - not a contiguous I-X range; Books III, VII, VIII, and IX do not survive, and the full commentary does not survive"
 edition: "trans. Allan Menzies, Ante-Nicene Fathers vol. 9 (1896), vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.origen-anf); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"

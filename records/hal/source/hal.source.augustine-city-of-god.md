@@ -27,6 +27,7 @@ relations:
 author: "Augustine of Hippo (354-430)"
 work: "The City of God, Book XVIII, chapters 42-44 - the authority of the Septuagint, its preference over all translations saving the honour of the Hebrew original, and Jerome named as the one man learned in all three languages who went to the Hebrew instead. Registered for that sequence; the volume also carries the whole of the City of God and On Christian Doctrine, which this world does not open"
 edition: "Nicene and Post-Nicene Fathers, first series, vol. 2, ed. Schaff, vendored as cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml - City of God XVIII.43 at file line 36715, XVIII.42 at 36469, and the Hebrew-versus-Septuagint chronology question at 28189"
+kind: vendored
 rights_status: "public-domain; NPNF1-02, long out of US copyright"
 attribution_status: attributed
 discovery_channel: "opened 2026-08-27 by the fleet unopened-volume sweep (hal.search.unopened-volume-sweep); this volume was on cross_world's second-hand-source list because this world names Augustine constantly and had opened only npnf101, his letters"

@@ -16,6 +16,7 @@ sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"
 work: "Ad Afros Epistola Synodica (Letter to the Bishops of Africa), c. 369 CE - post-325 material; confirms the triadic baptismal confession and the homoousion"
 edition: "NPNF series 2 vol. 4 (1892, ed. Robertson; per-work translator to be re-read from the division's own front matter at first quote, given this volume's documented translator splits), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml, line ~60968"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "created 2026-09-08, records/alx audit: located to correct a broken citation in alx.dw.was-jesus-god.md, which cited the triadic baptismal formula to alx.source.athanasius-de-decretis and alx.source.origen-comm-john, neither of which contains it; the actual vendored support is this work, previously without a source record in this registry"

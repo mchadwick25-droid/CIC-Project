@@ -16,6 +16,7 @@ sources: []
 author: "Hermas (Rome; names himself as narrator and recipient of the visions in his own text)"
 work: "The Shepherd of Hermas; composite, multi-stage composition roughly 90-150 CE (Brox, Leutzsch, Osiek) - no single date can be assigned to the whole work; the traditional mid-2nd-century date rests partly on the Muratorian Fragment's 'brother of Pius' claim, itself undercut if Sundberg/Hahneman's 4th-century-Eastern dating of the Fragment is right"
 edition: "Ante-Nicene Fathers vol. 2 (1885), trans. F. Crombie, vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml (div1 ii, 'The Pastor of Hermas')"
+kind: vendored
 rights_status: public-domain
 attribution_status: self-attested
 discovery_channel: "prior-build Source Registry row P05 (Doc_02, approved 2026-07-07), re-registered against the vendored corpus; work presence verified at div1 ii"
