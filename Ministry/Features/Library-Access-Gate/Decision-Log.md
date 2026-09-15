@@ -165,3 +165,72 @@ for Mark's freeze.
 
 Next: write D3, the converged design, incorporating all nine rulings
 and both measurements, for Mark's freeze.
+
+## 14. D3 drafted and independently checked (2026-09-15)
+
+Fable's D3 (`Sandbox/D3-Converged-Design.md`, "the Compiled Shelf,"
+`engine/m9/`) synthesizes all nine rulings and both Q7 measurements
+into one mechanism, not a menu. Opus's freeze check
+(`Sandbox/D3-Freeze-Check.md`) independently re-verified D3's
+load-bearing code/path claims and numbers against the real repo
+(mostly correct; several count errors found and itemized as RF-1
+through RF-16) and filed four rulings (R-1 through R-4) still needed
+from Mark before build can start. Verdict: "ready to freeze with 16
+required fixes and 4 rulings."
+
+## 15. R-1/R-2/R-3 (voicing grain) converged: row-level tag required (2026-09-15)
+
+Mark's ruling: a documented mutual-awareness pair between two
+traditions makes voicing *possible in principle*, but each individual
+work still needs its own explicit corpus-map tag confirming it was
+actually part of the documented exchange — not just produced by an
+aware party. Rejects D3's built default (whole-partner-work grain,
+where any mutual-awareness pair silently voices everything either side
+ever produced). Resolves both flagged cases: Cyprian stays
+citable-not-voiceable for `don` (he wasn't party to the live Donatist
+controversy itself, so gets no automatic tag); `alx`'s Dionysius-via-
+Eusebius stays unvoiced unless corpus-map explicitly tags that
+transmission as a real documented exchange, not mere chronological
+adjacency. Closest to Mark's original Q2 wording ("the fact of the
+argument is real history").
+
+## 16. R-4 (waiver scope) converged: stage the closure (2026-09-15)
+
+Mark's ruling: closed grandfathering stays the end state for every
+check, but `voicing-pair` specifically — the one check directly
+blocked on corpus-map's own CM-3 dependency — stays report-only for
+new worlds until CM-3 actually lands, rather than making the tenth
+world's admission hostage to a thread this workstream doesn't control.
+Every other check enforces fully on new worlds from day one; only the
+one check with a real external dependency gets a temporary,
+auto-closing carve-out.
+
+## 17. All four freeze-check rulings converged (2026-09-15)
+
+R-1/R-2/R-3 and R-4 both ruled (entries 15, 16). Next: apply RF-1
+through RF-16 to `D3-Converged-Design.md` incorporating these
+rulings — a targeted revision, not a re-review, per this project's own
+usage discipline — then bring the revised design back for Mark's
+actual freeze word.
+
+## 18. D3 revised: RF-1 through RF-16 applied, R-1–R-4 incorporated (2026-09-15)
+
+All 16 required fixes and all four rulings are now in
+`Sandbox/D3-Converged-Design.md`, applied directly (targeted revision,
+Sonnet, per this project's own D3 pattern — fixes don't reopen
+convergence). Headline changes: `voicing-pair` (§1.4) now requires a
+row-level `documented_exchange` tag (new dependency **CM-8**, §3) on
+top of the pair relationship, implementing R-1/R-2/R-3 — Cyprian stays
+citable-not-voiceable for `don`, `alx`'s Dionysius-via-Eusebius stays
+unvoiced absent a specific corpus-map tag. §4.2 gains R-4's staged
+closure: every check stays fully un-waivable for new worlds except
+`voicing-pair`, which is report-only for new worlds until corpus-map
+lands its first real pair, closing automatically with no code change.
+Numeric corrections: `emic-vendored-only` 152 → 166 (RF-2);
+`voicing-pair`'s 296 restated as a file-grain floor, true range
+296–407 (RF-3); `gallic`→npnf203 52 → 56 (RF-4); `locus-within-work`
+(I2) restated as a shelf-grain claim, not row-grain (RF-5); increment
+7/8's dependency statement corrected (RF-6); the unstated new-world
+consequence (RF-7) is now stated, then resolved by R-4. RF-16 (the Q4
+tightening) stays flagged for a one-line confirmation at freeze rather
+than silently inherited. Ready for Mark's actual freeze word.
