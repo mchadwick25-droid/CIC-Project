@@ -185,6 +185,12 @@ svg#world{display:block;overflow:visible}
    sticky footer pins to the scrollport's content edge, so any padding left on
    #panel becomes a gap under the bar that content scrolls through. */
 #panelBody{padding-bottom:2rem}
+/* For assistive tech only. The narrative deliberately carries no visible
+   label, but without a heading it drops out of the panel's heading outline
+   and a screen-reader user navigating by heading has no stop for the main
+   body of the entry. */
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;
+  overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
 #panel.open{transform:translateX(0)}
 #panel .close{position:sticky;top:0;float:right;background:var(--vellum);border:none;
   font-size:1.3rem;color:var(--ink-faded);cursor:pointer;line-height:1;padding:.2rem}
@@ -365,7 +371,7 @@ svg#world{display:block;overflow:visible}
      display:none, so without this its close button and last-rendered links stayed
      real Tab stops -- a keyboard user tabbing through the closed page would land on
      an invisible control that appeared to do nothing. -->
-<div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div><div id="panelCta" hidden></div></div>
+<div id="panel" role="dialog" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div><div id="panelCta" hidden></div></div>
 <div id="legend"></div>
 <div id="zoomHint">Scroll or pinch to zoom &middot; drag to pan</div>
 
@@ -41681,9 +41687,13 @@ function hasContent(v){return !!v&&v.trim()!=='-';}
 // mapped to individual sentences or claims. Separate from the panel's own
 // full "Sources" section (the curated list plus the verified registry),
 // which stays as the comprehensive record at the very end.
-function sectionSources(list){
+// `label` names which part of the entry the list belongs to. It stays out of
+// the visible summary -- three rows reading "Sources" is right on the page and
+// wrong in a screen reader's list of controls, where nothing distinguishes them.
+function sectionSources(list,label){
   if(!list||!list.length)return '';
-  return `<details class="sources-panel"><summary>Sources</summary><ul class="voices">${list.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></details>`;
+  const aria=label?` aria-label="Sources for the ${esc(label)}"`:'';
+  return `<details class="sources-panel"><summary${aria}>Sources</summary><ul class="voices">${list.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></details>`;
 }
 function openPanel(m){
   const inbound=DATA.edges.filter(e=>e.to===m.id), outbound=DATA.edges.filter(e=>e.from===m.id);
@@ -41709,7 +41719,7 @@ function openPanel(m){
   // world's Interview button follows it instead of preceding it. Everything
   // above keeps the order it has on all 292 cards, built or not.
   if(entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
-  if(m.longDescription)h+='<div class="story">'+m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+'</div>'+sectionSources(m.storySources);
+  if(m.longDescription)h+='<h3 class="sr-only">Story</h3><div class="story">'+m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+'</div>'+sectionSources(m.storySources,'story');
   // Documented stories: 1-3 real, individually sourced narrative episodes
   // belonging to this movement specifically (not the map's floating gap
   // stories, and not a restatement of longDescription above) -- a deeper
@@ -41734,7 +41744,7 @@ function openPanel(m){
   }
   if(m.voices&&m.voices.length)h+=`<h3>Voices</h3><ul class="voices">${m.voices.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`;
   if(m.floorNote)h+=`<h3>On doctrine</h3><p>${esc(m.floorNote)}</p>`;
-  if(m.legacy)h+='<h3>Legacy</h3>'+m.legacy.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.legacySources);
+  if(m.legacy)h+='<h3>Legacy</h3>'+m.legacy.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.legacySources,'legacy');
   if(m.experienceToday&&m.experienceToday.length)h+=`<h3>Experience it today</h3><ul class="exptoday">${m.experienceToday.map(e=>`<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text)}</a></li>`).join('')}</ul>`;
   if(outbound.length){h+='<h3>What it shaped</h3>';outbound.forEach(e=>{const t=byId[e.to];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}</div>`;});}
   if(inbound.length){h+='<h3>What shaped it</h3>';inbound.forEach(e=>{const f=byId[e.from];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}</div>`;});}
@@ -41943,9 +41953,16 @@ function focusWorld(m){
   applyTransform(); applyDetail();
 }
 document.getElementById('panelClose').addEventListener('click',closePanel);
+// Escape is bound to the document, not to the panel. The page behind the panel
+// stays operable, so a click on the map moves focus out of it -- and a handler
+// bound to #panel then never sees the key, leaving a keyboard user with no way
+// out but hunting for the close button.
+document.addEventListener('keydown',(ev)=>{
+  if(ev.key!=='Escape'||!panel.classList.contains('open'))return;
+  ev.preventDefault();closePanel();
+});
 panel.addEventListener('keydown',(ev)=>{
   if(!panel.classList.contains('open'))return;
-  if(ev.key==='Escape'){ev.preventDefault();closePanel();return;}
   if(ev.key!=='Tab')return;
   // Focus trap: cycle Tab/Shift+Tab within the panel's own focusable elements
   // instead of letting it walk out into whatever node or river sits behind it.
