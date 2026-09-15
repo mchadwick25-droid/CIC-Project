@@ -557,3 +557,51 @@ makes the annotation safe to fold into plain prose.
 until OG-6 is disposed of — that disposition is the project lead's, per OG-6's
 own "Status: OPEN — awaiting project-lead disposition" line, not this
 thread's to force by picking one of its three listed options.
+
+---
+
+## 2026-09-15 — Collateral CI break from the repo-architecture cleanup: caught
+## on PR #197, fixed at the root (PR #207) and ported into the PR it broke
+
+A "Cited paths resolve; retired paths absent" failure arrived via this
+thread's own PR subscriptions — not for a PR this thread owns, but on
+**PR #197** ("lpc-doc04-round2," a Latin-Pastoral-Congregational-Christianity
+content PR this thread neither opened nor was asked to drive).
+
+**Root cause, diagnosed before touching anything:** the repo-architecture
+thread's own PR #204 (merged same session) relocated
+`Ministry/Technology/CiC_World_Build_Completion_Standard_V1.3.md` and
+`Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md` to
+`reference/method/`. PR #197 branched before that move; 4 of its own new
+Review-Artifacts lines still cited the old path. Not a defect in PR #197's
+own content or judgment — a structural collision between two threads' work,
+squarely this thread's "repo-wide, no single PR's diff caused it" mandate,
+not a content call requiring escalation.
+
+**Also found in the same pass, genuinely pre-existing on `main` itself (not
+caused by #204):** `check_paths.py` run clean against `main`'s own tip
+surfaced two more items — one baseline entry now resolves
+(`cappadocian_Source_Registry.md`'s `reference/section-pointer` citation,
+now real thanks to #204) and one newly-surfaced, permanently-legitimate
+absence (`CiC_Demo_Conversation_Captures_V0_1.md` cites `.claude/launch.json`,
+a real local dev config `.gitignore` deliberately keeps untracked). Neither
+was PR #197's fault either.
+
+**Fixed, both mechanical, both verified locally before pushing:**
+- **PR #207** (merged, `6f2aa8f1`): `tools/check_paths_baseline.txt` —
+  removed the now-resolved Cappadocian entry, added the `.claude/launch.json`
+  exception. `check_paths.py --baseline` exits 0 on `main` after.
+- **Pushed directly to PR #197's own branch** (`a6c48e26`, with a courtesy
+  comment explaining why and pointing at #207): rewrote its 4 stale citations
+  to `reference/method/...`. Verified before pushing by merging the branch
+  with current `main` in a disposable local branch and re-running
+  `check_paths.py` — confirmed only the (then-still-open) #207 issue
+  remained, nothing PR #197-specific.
+
+**Process note, logged so it doesn't repeat:** this thread's designated
+branch is `claude/cic-system-health-ln97i3` — the #207 fix was drafted on a
+fresh branch (`sys-health-baseline-cleanup`) by mistake, caught before
+merging, and moved onto the designated branch via fast-forward before
+opening the PR. The stray remote branch couldn't be deleted (permission
+denied) and was left in place, harmless — same commit, now also on the
+designated branch and in `main`.
