@@ -141,3 +141,27 @@ Q1–Q9 answered in full (entries 3–11 above). Next: correct
 measurements (E's complement sweep, B's verbatim window-match), then
 write D3 (the converged design), incorporating every ruling above,
 for Mark's freeze.
+
+## 13. Q7 measurements complete (2026-09-15)
+
+- **B (verbatim window-match, `Sandbox/Q7-measurement-B-verbatim-match.md`)**:
+  221 real emic verbatim quotes, 98.2% match somewhere on their own
+  world's shelf. Donatism is the sharp outlier — 60% of its 5 verbatim
+  quotes land off-role or no-match, independently reproducing D2's
+  separately-derived "61%" role-vocabulary finding by a completely
+  different method (byte matching vs. pointer resolution) — a real
+  cross-check that the Q2 role problem is genuine. Direction B's core
+  byte-match bet holds up well; the same run also surfaces a handful
+  of genuinely off-shelf citations and one bad OCR scan.
+- **I5 (complement sweep, `Sandbox/Q7-measurement-I5-complement-sweep.md`)**:
+  no live evidence I5 (cross-tradition leakage) is an active problem in
+  the current 9-world fleet. The sharp verbatim check came back clean
+  everywhere it touched; coverage is partial (621 of 4,524 sentences
+  got the strong check). The ratio-based half of the same instrument
+  turned out to be near-inert at whole-bucket-union file grain (~0.98
+  against both a world's own shelf and its complement) — not usable as
+  evidence on its own, a finding worth carrying into D3 if E's approach
+  comes up again.
+
+Next: write D3, the converged design, incorporating all nine rulings
+and both measurements, for Mark's freeze.
