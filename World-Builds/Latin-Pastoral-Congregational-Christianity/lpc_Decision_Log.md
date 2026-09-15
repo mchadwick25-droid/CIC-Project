@@ -1619,3 +1619,34 @@ Both forced from fresh copies: inserting *"No source in this corpus records what
 **The six marked VERIFIED** carry the check that established them, all run in this session: Prosper row 203 read in body text; Possidius *Vita* XIX–XXVII headings read at source; Registry row 27 against Doc_02 §1; *Ep.* XV, *Ep.* XX and *Ep.* LXVII read note-stripped, with works resolved by `div3 title=` rather than position.
 
 **Remaining root causes:** declared front-matter fields instead of prose-parsed row derivations (**a schema change to the L4 template — the project lead's call**), and typed counts in prose.
+
+---
+
+## 2026-09-15 — Doc_09 APPROVED TO PROCEED, and the build moves to full auto
+
+**Project lead's instruction, recorded verbatim:** *"approve doc_09 with the escalation carried open and move to full auto."*
+
+**Disposition: APPROVED TO PROCEED.** Per CO-022 this is the lightweight go-ahead — it unblocks the next document and **claims nothing about Doc_09 being complete, correct or closed.** It is **not Frozen**, and a build thread never assigns Frozen under any circumstance.
+
+**Record, as the build cycle requires it logged.**
+
+| | |
+|---|---|
+| Document | `Doc_09_Story_Inventory.md`, seven chunks in `Story-Chunks/`, `lpc_Story_Index.md` |
+| Review rounds | **8**, each as its own artifact file in `Review-Artifacts/Doc09_Round1–8_Review.md` |
+| Fix passes | 8 |
+| Outcome | Rounds 1–7 **SUBSTANTIAL REVISION REQUIRED**; Round 8 **MINOR REVISION, 0 HIGH** |
+| HIGH findings | 11 across 8 rounds — 8 the signature defect, 1 transcription, 2 the notice stripper |
+| Structural changes | correction history extracted (76 notices, 3,266 words); `notice_strip.py` + tests deleted (387 lines); claims register added |
+| Disposition | **Approved to proceed**, 2026-09-15, project lead |
+
+**Carried open and NOT disposed of by this approval:**
+
+1. **The CF V7.4 Tier 3 escalation** (§8 item 7) — which half of the tier's own definition governs when the **genus clause** (*"resting on collected tradition rather than direct documentation"*, which excludes an eyewitness) and the **hagiographic-convention clause** point opposite ways at `lpcstory006`. Still a governance/methodology question for the project lead.
+2. **The Round 8 fix pass is unreviewed.** Approved to proceed does not assert it is clean.
+3. **Possidius *Vita* XIX–XXVII unread** (§8 item 9) — nine chapters of ordinary episcopal practice in a Native vendored source, bearing on whether Doc_09 should carry a Tier 4 story at all.
+4. **137 of 142 registered claims remain UNVERIFIED.** Registration is the control; verification is separate work.
+
+**Full auto, and what it does not cover.** Per `CLAUDE.md`, the build now runs end-to-end without per-step approval. It still stops for the **four CO-022 escalation categories**: Representative identity/name/title, portfolio-level or cross-world decisions, governance or methodology changes, and unresolved tensions the pipeline cannot close. **Frozen is never self-assigned.**
+
+**One item needs naming rather than assuming.** `Doc_09b` is **inferred** from comparison with `desert`, `Donatism` and `hal` — all three carry a World Profile and a Validation Layer beyond the Story Inventory, under three different names (`Doc_09b`, `don_World_Profile.md`, `hal_Doc_09c_Validation_Layer.md`). **It has not been confirmed as `lpc`'s next document by the project lead.** Proceeding on the lead's *"start doc_09b"* as that confirmation, and recording here that it rests on an inference from sibling worlds rather than on this world's own confirmed sequence.
