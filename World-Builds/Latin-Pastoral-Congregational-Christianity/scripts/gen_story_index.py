@@ -175,8 +175,16 @@ for s in stories:
     # Requiring only an INTERSECTION failed open, exactly as the first title
     # check did: §3 could cite a nonexistent row beside a real one and pass.
     # Every row §3 names must be one the chunk actually draws on.
-    _stray = sorted(csrc_rows - {r for grp in s["rows"] for r in re.split(r"[/,]\s*", grp)}
-                    - {r for grp in s.get("rows_excluded", []) for r in re.split(r"[/,]\s*", grp)})
+    # Round 4's M4: subtracting rows_excluded meant Doc_09 §3 could cite as a
+    # story's SOURCE precisely the row the chunk says it never opened, with no
+    # halt -- Round 1's M4(c) polarity blindness reappearing inside the fix
+    # written for it. §3's Source column states what a story draws on, so an
+    # excluded row appearing there is a defect, not an exemption.
+    _used = {r for grp in s["rows"] for r in re.split(r"[/,]\s*", grp)}
+    _excl = {r for grp in s.get("rows_excluded", []) for r in re.split(r"[/,]\s*", grp)}
+    for _r in sorted(csrc_rows & _excl):
+        problems.append(f"{s['id']}: Doc_09 §3 cites row {_r} as a source, but the chunk says it does not draw on it")
+    _stray = sorted(csrc_rows - _used - _excl)
     if _stray:
         problems.append(f"{s['id']}: Doc_09 §3 cites row(s) {_stray} the chunk does not draw on")
 for cid in claimed:
