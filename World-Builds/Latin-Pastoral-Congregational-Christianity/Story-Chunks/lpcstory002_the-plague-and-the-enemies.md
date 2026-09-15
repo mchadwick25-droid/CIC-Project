@@ -60,7 +60,7 @@ Pontius reaches for a comparison and finds it insufficient. "Something more was 
 
 ### Transcription corrections to the Story Text above
 
- These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
+These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
 
 - **[CORRECTED, 2026-09-15 — Round 1's L3:** *"in the streets"* was this document's detail; the source says *"over the whole city."***]**
 

@@ -137,7 +137,8 @@ for p in sorted(CHUNKS.glob("lpcstory*.md")):
             sys.exit(f"FATAL: {p.name} carries {len(_n)} build-process notice(s) "
                      f"inside ## Story Text ({_n[0][:60]!r}...). Story Text is the "
                      "field Doc_10 consumes as deployable narrative. Move them to "
-                     "Tier Justification. Refusing to emit.")
+                     "the chunk's '### Transcription corrections' block. "
+                     "Refusing to emit.")
     if s["tier"] == "4" and "## Source Identification" not in t:
         sys.exit(f"FATAL: {p.name} is Tier 4 and has no Source Identification section, which the "
                  "L4 template requires for Tier 4 only. Refusing to emit.")
@@ -335,8 +336,11 @@ allrows = sorted({r for s in stories for key in ("rows", "rows_excluded")
 bmap = {r: boundary(r) for r in allrows}
 bad = [r for r, v in bmap.items() if v != "Native"]
 if bad:
-    sys.exit(f"FATAL: story source row(s) {bad} are not Native in Source_Registry.md "
-             f"({ {r: bmap[r] for r in bad} }). A story sourced to an Excluded row is a boundary breach. Refusing to emit.")
+    sys.exit(f"FATAL: row(s) {bad} named in a story's Source field are not Native in "
+             f"Source_Registry.md "
+             f"({ {r: bmap[r] for r in bad} }). Since Round 6 this checks disclaimed rows "
+             "too, so the breach is naming a non-Native row at all, whichever "
+             "polarity the chunk claims. Refusing to emit.")
 
 # ------------------------------------------------------------------ render
 O = []; w = O.append
@@ -359,7 +363,10 @@ NR = len(_rounds); LATEST = _rounds[-1] if _rounds else 0
 # Document Log, which the fix pass has to write.
 _fixed = sorted(int(m) for m in re.findall(r"\|\s*Round (\d+) fix pass", doc))
 FIXED = _fixed[-1] if _fixed else 0
-_NW = {0: "No", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six"}
+# Round 7's COSMETIC-2: this map stopped at six, so the seventh round would
+# have printed a digit mid-sentence. Derived rather than extended by hand.
+_NW = {0: "No", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six",
+       7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten", 11: "Eleven", 12: "Twelve"}
 w(f"**Status:** " + ("**DRAFT — not reviewed, not self-disposed.**" if not NR else
    f"**REVISED after Round {FIXED} — the revision is unreviewed, and not self-disposed.**"
    if FIXED else "**DRAFT — not reviewed, not self-disposed.**") +

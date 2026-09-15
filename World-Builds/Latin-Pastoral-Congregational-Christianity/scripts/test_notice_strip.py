@@ -137,6 +137,35 @@ for _f in sorted((HERE / "Story-Chunks").glob("*.md")) + [HERE / "Doc_09_Story_I
     check(f"H6 no malformed notice markup in {_f.name[:34]}",
           unterminated(_t) == [], unterminated(_t))
 
+print("\nRound 7 — sibling notices, and paragraph bounds that are not blank lines")
+sib = ("Intro. **[ADDED - R1:** one.**]** LIVE MIDDLE SENTENCE. "
+       "**[CORRECTED - R2:** two.**]** Tail.")
+check("J1 two sibling notices are two spans, not one  <- R7 HIGH-1",
+      len(notice_spans(sib)) == 2, notice_spans(sib))
+check("J2 live prose BETWEEN siblings survives  <- R7 HIGH-1",
+      "LIVE MIDDLE SENTENCE." in live(sib), repr(live(sib)))
+check("J3 that prose classifies live, not mention  <- R7 HIGH-1",
+      classify(sib, "LIVE MIDDLE SENTENCE") == "live",
+      classify(sib, "LIVE MIDDLE SENTENCE"))
+
+# Round 7's MEDIUM-2: the bound was a literally empty line, so a
+# whitespace-only line, a list item and a table row each let a body run on.
+for _name, _txt in (
+        ("whitespace-only line", "**[MOVED - R7:** bad.]\n   \nLive sentence.\n"),
+        ("bullet list", "**[MOVED - R7:** bad.]\n- Live bullet.\n- Another.\n"),
+        ("table row", "| a |\n| **[MOVED - R7:** bad.] |\n| Live row |\n")):
+    check(f"J4 {_name}: a mistyped terminator deletes nothing  <- R7 M2",
+          "Live" in live(_txt), repr(live(_txt)))
+    check(f"J5 {_name}: the malformed opener is reported  <- R7 M2",
+          len(unterminated(_txt)) == 1, unterminated(_txt))
+
+# The invariant the whole class reduces to, measured on the live files.
+for _f in sorted((HERE / "Story-Chunks").glob("*.md")) + [
+        HERE / "Doc_09_Story_Inventory.md", HERE / "lpc_Story_Index.md"]:
+    _t = _f.read_text(encoding="utf-8")
+    check(f"J6 no notice span crosses a line in {_f.name[:30]}",
+          all("\n" not in _t[a:b] for a, b in notice_spans(_t)))
+
 print("\nLOW-18 — the two strippers must agree on real input")
 _src = (HERE / "scripts" / "gen_story_index.py").read_text(encoding="utf-8")
 _ns = {"re": __import__("re")}

@@ -42,7 +42,7 @@ And he thanks them — for being asked. The Numidian bishops, he says, "wished u
 
 ### Transcription corrections to the Story Text above
 
- These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
+These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
 
 - **[CORRECTED, 2026-09-15 — Round 1's L4:** an earlier version printed *"to be rescued"* inside the quotation marks.**]**
 
@@ -52,7 +52,7 @@ And he thanks them — for being asked. The Numidian bishops, he says, "wished u
 
 The Representative may draw on this as remembered history, **with Cyprian named**. The sum may be stated as the letter states it.
 
-**Additional guidance.** The Representative should resist converting the sum into modern currency. Doc_02 vendors no source that would license a conversion, the purchasing-power comparison is contested among specialists, and a confident figure would be this build's invention rather than this world's testimony. **The honest answer to "how much was that?" is that it was collected from one congregation's clergy and people for the ransom of people most of them had never met, and that the letter does not tell us what proportion of anything it represented.**
+**Additional guidance.** The Representative should resist converting the sum into modern currency. the vendored ANF05 does print a conversion — an **editorial note**, two words after the sum, reckoning it *"at $3,757"* for the 1880s — but that is ANF's apparatus and not this world's voice, and Doc_02 vendors no source of this world's own that would license a conversion. **[CORRECTED, 2026-09-15 — Round 7's L7:** this said flatly that no source would license one, without disclosing the note sitting beside the quotation. The disposition is unchanged and right; the disclosure was incomplete.**]** On this world's own evidence there is nothing that would license a conversion, the purchasing-power comparison is contested among specialists, and a confident figure would be this build's invention rather than this world's testimony. **The honest answer to "how much was that?" is that it was collected from one congregation's clergy and people for the ransom of people most of them had never met, and that the letter does not tell us what proportion of anything it represented.**
 
 ---
 
