@@ -532,5 +532,28 @@ sizing/CSS architecture) stays with the frontend/product thread. The
 `cyrilline-miaphysite-egyptian-christianity.yaml` vs. `...-tradition.yaml`
 duplicate-census-id question stays with the Library Build Engine thread.
 
-**Next action:** drive PR #205 to green/merge (this thread's standing PR
-authorization). No further action pending from Mark on this batch.
+**PR #205 merged** (Cappadocian + Syriac). **PR #206 open** (Alexandria, final
+world) — drive to green/merge per standing authorization.
+
+**Important catch during Alexandria's pass, worth generalizing beyond this
+batch: not every "Corrected [date], Round N Opus review" bracket is safe to
+strip, and shape alone doesn't tell you which.** `Doc_04_Gravity_Discovery.md`
+carried four `[Added 2026-09-09 per OG-6 §5.X...]` annotations, structurally
+identical to hundreds of other now-safely-removed brackets elsewhere in this
+batch. The difference only showed up on checking `Open_Gaps_Tracking.md`
+directly: **OG-6 is `Status: OPEN — awaiting project-lead disposition`**, its
+own most recent line reading "Nothing was changed." Those brackets are the
+live trace of an unresolved, escalated finding still waiting on Mark's
+ruling — not narrative about a completed correction. Reverted a second time
+(this file was already reverted once earlier in this session for the same
+reason, on a first, cruder pass). **Standing rule for any future pass on this
+kind of narrative:** before stripping an inline dated annotation that cites
+an OG-N number, check that OG-N's own current status in
+`Open_Gaps_Tracking.md` — `OPEN` means the annotation is load-bearing content
+this document still needs, not log clutter; only a `RESOLVED`/closed entry
+makes the annotation safe to fold into plain prose.
+
+**Next action:** none pending from Mark on this batch. Doc_04 stays as-is
+until OG-6 is disposed of — that disposition is the project lead's, per OG-6's
+own "Status: OPEN — awaiting project-lead disposition" line, not this
+thread's to force by picking one of its three listed options.
