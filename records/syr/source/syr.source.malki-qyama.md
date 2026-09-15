@@ -17,6 +17,7 @@ author: Malatius Malki Malki
 work: '''Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition'', Religions 15(6):
   686 (2024) - the most recent scholarly treatment of the covenant institution'
 edition: consultation-only; no edition vendored
+kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: 'verified real (legacy Doc_02 SS4: Australian Catholic University; also Syriac Orthodox
   Archbishop/Patriarchal Vicar - a scholar writing from both an academic and a confessional position,

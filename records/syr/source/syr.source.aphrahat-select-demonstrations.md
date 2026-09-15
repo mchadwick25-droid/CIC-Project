@@ -21,6 +21,7 @@ work: 'Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama
 edition: trans. A. Edward Johnston after Parisot's Patrologia Syriaca text, edited by John Gwynn, NPNF
   series 2 vol. 13 (1898); vendored as cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml (div
   iii.ix)
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed, with the author's own identity contested in the manuscript tradition (Mar
   Jacob colophon; late arrival of the name Aphrahat); his episcopal status is an open question this world's

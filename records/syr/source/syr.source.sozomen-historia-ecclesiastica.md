@@ -18,6 +18,7 @@ work: 'Ecclesiastical History - the Syriac-relevant notices: II.9-14 (Sapor''s p
   Christians; the martyrdoms of Symeon [Simeon bar Sabbae], Usthazanes, and the Persian clergy), III.16
   (Concerning St. Ephraim), VI.34 (the monks of Edessa)'
 edition: trans. Chester D. Hartranft, NPNF series 2 vol. 2 (1890); vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed; the Persian-persecution narrative is a 5th-century Greek reworking of
   Syriac martyr tradition - dates and details are hagiographically inflected (Simeon's own martyrdom year

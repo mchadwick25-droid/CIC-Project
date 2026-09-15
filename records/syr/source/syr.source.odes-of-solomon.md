@@ -26,6 +26,7 @@ edition: 'J. Rendel Harris''s editio princeps translation, 2nd ed. revised and e
   (2026-09-09). The volume''s own English translation-with-commentary section (the only part with
   citable English wording; the Syriac text and the Pistis Sophia Latin-retroversion appendix are not
   usable) begins after file line 6520.'
+kind: vendored
 rights_status: 'public-domain - verified directly from the vendored file''s own front matter (Cornell
   University Library): "There are no known copyright restrictions in the United States on the use of
   the text," plus the 1911 publication date. The rights gate is now open; a quote record may draw on

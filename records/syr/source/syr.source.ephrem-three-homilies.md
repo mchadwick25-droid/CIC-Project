@@ -18,6 +18,7 @@ work: 'Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful 
 edition: trans. A. Edward Johnston from Lamy's text (Tom. I, 1889), revised and edited by John Gwynn,
   NPNF series 2 vol. 13 (1898); vendored as cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml
   (div iii.viii)
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed per the edition; the wider Ephremic homily corpus contains later pseudonymous
   material (Ephraem Graecus etc.), so authenticity is assessed case by case - On Our Lord is the strongest
