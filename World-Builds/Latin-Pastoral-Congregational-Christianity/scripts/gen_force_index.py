@@ -850,7 +850,7 @@ else:
     w("")
     w("**Each line above is a disagreement between two hand-and-script derivations of the same relation. It is reported, not resolved.**")
 w("")
-w("**The honest statement of the design rule, narrowed from the header's earlier wording.** Inside this file every relation has exactly one derivation. **Across the deliverable pair it does not** — §7 is a parallel hand-maintained statement, and the fix is this cross-check rather than a claim that the duplication is gone.")
+w("**The design rule at its true width.** Inside this file every relation has exactly one derivation. **Across the deliverable pair it does not** — §7 is a parallel hand-maintained statement, and what holds the two in agreement is this cross-check rather than any claim that the duplication is gone.")
 w("")
 w("---")
 w("")

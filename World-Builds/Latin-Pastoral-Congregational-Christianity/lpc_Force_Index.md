@@ -149,7 +149,7 @@
 
 **Agreement: all 17 forces carry the same confidence in Doc_08 §7 as in their own §3 entry.** No force is missing from §7's list and none is labelled differently.
 
-**The honest statement of the design rule, narrowed from the header's earlier wording.** Inside this file every relation has exactly one derivation. **Across the deliverable pair it does not** — §7 is a parallel hand-maintained statement, and the fix is this cross-check rather than a claim that the duplication is gone.
+**The design rule at its true width.** Inside this file every relation has exactly one derivation. **Across the deliverable pair it does not** — §7 is a parallel hand-maintained statement, and what holds the two in agreement is this cross-check rather than any claim that the duplication is gone.
 
 ---
 
