@@ -41652,7 +41652,7 @@ function openPanel(m){
   // for everything else -- is the hook every one of the 292 records was given.
   const lede=entry?entry.tile:m.teaser;
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
-  if(m.longDescription)h+=m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
+  if(m.longDescription)h+='<div class="story">'+m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+'</div>'+sectionSources(m.storySources);
   // Documented stories: 1-3 real, individually sourced narrative episodes
   // belonging to this movement specifically (not the map's floating gap
   // stories, and not a restatement of longDescription above) -- a deeper
@@ -41731,7 +41731,6 @@ function openPanel(m){
     if(m.why)h+=`<p>${esc(m.why)}</p>`;
     h+='</details>';
   }
-  if(m.why&&entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
   panelBody.innerHTML=h; showPanel(); hideTip();
   panelBody.querySelectorAll('[data-interview-id]').forEach(btn=>btn.addEventListener('click',()=>launchInterview(btn.dataset.interviewId)));
   syncWorldURL(m.id);
