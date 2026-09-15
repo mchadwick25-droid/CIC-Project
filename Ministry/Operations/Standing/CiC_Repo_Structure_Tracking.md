@@ -483,3 +483,28 @@ pushed clean.
 
 **Status:** merged and pushed. Real content work (Doc_04 completion, Candidate 5's
 escalated classification) remains this world's own thread's to continue.
+
+## Correction (2026-09-15) — two figures in Question 1b/1c above are wrong
+
+Filed by the `Ministry/Features/Library-Access-Gate` workstream's D2 adversarial review
+(`Sandbox/D2-Struggle.md`), independently re-verified against the real code and data before
+being logged here, per this file's own append-only, correct-in-place convention — nothing
+above is deleted or rewritten.
+
+- **Question 1c's claim that `gate_quote_recording` "checks license validity and verbatim
+  presence in the file" is wrong.** Re-read directly: `engine/m1/gates.py` checks only the
+  license enum and that `text`/`speaker_or_author` are non-blank. No gate anywhere in
+  `engine/` or `cic/engine/` checks quote text against `cic/texts/` at build time; the only
+  verbatim check is the runtime `grounding_net` against the compiled package.
+  `gate_quote_fidelity_recording`, named in `cic/texts/README.md`, exists nowhere in code.
+- **Question 1b's non-exclusivity figures ("47 assigned to a single tradition (7%); median
+  work claimed by 4 traditions; one by 19") do not reproduce at any of four measurement
+  grains tried.** At the same nominal grain the re-measure gives 547 single-tradition (81%),
+  median 1. The 677-works total itself is correct. Likely a counting-grain mismatch in the
+  original measurement, not a contradiction — but the entanglement problem this file's D5
+  decision was reasoned from is materially smaller than stated.
+
+Both figures currently inform the frozen D5 decision and the Library Access Gate charter.
+Neither is being re-litigated here — D5 stands as decided — but any thread reasoning from
+this file's Question 1b/1c numbers from this date forward should use the corrected figures
+above, not the originals.
