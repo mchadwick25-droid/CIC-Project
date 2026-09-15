@@ -23,6 +23,7 @@ author: Anonymous African compiler
 work: Liber Genealogus -- transmitted as Additamentum II to the Chronographus Anni CCCLIIII
 edition: 'Theodor Mommsen (ed.), Chronica Minora Saec. IV-VII, Vol. I, MGH Auctores Antiquissimi IX (Berlin:
   Weidmann, 1892), vendored as cic/texts/chronica-minora-liber-genealogus_mommsen1892.txt'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
   by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
   vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by

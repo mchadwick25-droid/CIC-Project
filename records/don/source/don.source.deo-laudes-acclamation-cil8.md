@@ -18,6 +18,7 @@ author: Unknown Donatist dedicators (epigraphic)
 work: The Deo laudes acclamation, attested at CIL VIII 17732 (Bagai), 20482, 17368, and 18669
 edition: Corpus Inscriptionum Latinarum, vol. VIII, Supplementum, Pars II (Numidia), ed. Cagnat & Schmidt
   (Berlin, 1894), vendored as cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
   directly checked the vendored file's own provenance header for every file cited below (grep for 'public
   domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC

@@ -27,6 +27,7 @@ edition: Partially held via the 1907 Turchi themed selection, which draws its te
   critical edition with explicit concordance to it, vendored as cic/texts/gregory-great_epistolae-selectae_turchi1907.txt
   (Registry row 54). The complete Ewald-Hartmann Registrum Epistolarum Tomus I (Libri I-VII, Berlin, 1891)
   remains unvendored.
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
   by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
   vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by

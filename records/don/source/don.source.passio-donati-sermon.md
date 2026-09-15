@@ -31,6 +31,7 @@ work: Anonymous Donatist sermon, manuscript title De passione sanctorum Donati e
 edition: Edited by Jean Mabillon in his Monumenta Vetera ad Donatistarum historiam pertinentia, printed
   in Migne, Patrologia Latina vol. 8; vendored (relevant excerpt only) as cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt.
   Treated at chapter length by Monceaux (Registry row 40).
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
   by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
   vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by
