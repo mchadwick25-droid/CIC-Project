@@ -37,6 +37,38 @@ one surface into the other. They meet at exactly one point, and it matters:
 **an in-window voice has no standing to comment on anything after its own
 window** (see anti-pattern 8).
 
+### The readability target does not govern this surface (Mark's ruling, 2026-09-15)
+
+CLAUDE.md asks participant-facing content for Flesch Reading Ease at or above
+60 and FK grade 8–10. Measured across the whole finished card corpus on
+2026-09-15, nothing meets it, the exemplar included:
+
+| | FRE | FK grade |
+|---|---|---|
+| `post-apostolic-house-church` (the exemplar) | 43.8 | 13.6 |
+| `donatism` | 48.7 | 11.6 |
+| Era 2 stories | 57.6 | 9.3 |
+| Era 2 legacies | 42.9 | 12.5 |
+
+Put to Mark with those figures, and his ruling: **the cards are out of
+scope.** That target's own enforcement lives in `phase2_checkpoint.py`, which
+scores conversation turns, and this surface is not that — it is third-person
+editorial prose read off a page, not a turn spoken to someone in a
+conversation they cannot re-read.
+
+Three things this does not mean. It is **not** a licence to write harder
+prose: Chloe's numbers are what the bar happens to measure at, not a ceiling
+to climb toward, and §1.2's exemplar governs exactly as before. It does not
+retire any of §1.1 — that section is titled "Mark's review instinct, not an
+external standard" precisely because the standard here was never a metric,
+and this ruling only settles which metric does not apply. And it does not
+touch the Representative's spoken voice, where the target and its gate stand
+unchanged.
+
+The practical effect is narrow: do not "fix" card prose because a reading-ease
+score says so, and do not cite that score in a review. Diff against the
+exemplar instead.
+
 ### The governing constraint on this document itself
 
 Mark's ruling of 2026-08-30, recorded in the Register Bar: *"i don't want a
