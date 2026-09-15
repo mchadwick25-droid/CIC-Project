@@ -529,3 +529,7 @@ Thirteen of Round 3's fifteen findings are closed, several of them exactly, and 
 **What I tested hardest and which failed:** the §5 gravity derivation, under instrumentation, mutation and git; the §6 control's new "both directions," under the exact scenario it was rebuilt to catch; and the Layer 2 register certification, under four scans, one of which told me my own first framing was too strong.
 
 **Four edits close every HIGH: strip correction notices before parsing §5; settle G6 against Doc_04 §6 and restate the Cross-Strand note; fix the masthead Status line and the Disposition's last sentence; and — the discipline this pair has now needed four times — read the regenerated Index before committing it.**
+
+*End of Round 4 review. Simulated review — informational only, not an Article 31 substitute.*
+
+**[ADDED, 2026-09-15 — Round 5 noted that this artifact was the only Doc_08 round missing the constitutionally required marking that Rounds 1–3 and 5 all carry. Added to the artifact, not to the deliverables.]**
