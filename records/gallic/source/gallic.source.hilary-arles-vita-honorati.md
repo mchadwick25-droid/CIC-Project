@@ -23,6 +23,7 @@ author: Hilary of Arles (Honoratus's own disciple and successor at Arles)
 work: Sermo de Vita Sancti Honorati
 edition: Hilary of Arles, Sermo de Vita Sancti Honorati, Latin, extracted from Migne Patrologia Latina
   50 (1846), vendored as cic/texts/hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ 2026-09-09 and independently rights-verified (archive.org
   public-domain/rights metadata directly checked; title, editor, date, and contents independently re-verified)
   within the same build session that produced this world's own Source Registry.
