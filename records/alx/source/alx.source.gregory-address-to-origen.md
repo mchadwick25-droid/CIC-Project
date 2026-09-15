@@ -16,6 +16,7 @@ sources: []
 author: "Gregory Thaumaturgus (c. 213-270 CE)"
 work: "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship"
 edition: "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.gregory-address-anf6); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"

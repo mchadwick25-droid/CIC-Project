@@ -18,6 +18,7 @@ relations:
 author: "Origen (c. 185-254 CE); anthology compiled in-horizon by Basil the Great and Gregory Nazianzen"
 work: "Philocalia - the Greek anthology of Origen's writings: the Greek-derived control text against Rufinus's softened Latin (where a passage exists in both, the Philocalia's Greek is the stronger witness, esp. De Principiis IV on the senses of Scripture)"
 edition: "trans. George Lewis (T. & T. Clark, Edinburgh, 1911) - translator identification carried on external bibliographic grounds (archive.org/details/philocaliaoforig00orig), not stated inline in the transcription; vendored as cic/texts/origen_philocalia_lewis1911.txt"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.origen-philocalia-lewis, promoted to top remaining acquisition in manifest v2); supplied by Mark 2026-08-21 (commit 311b132); rights read from the file's own header and Pearse's public-domain declaration in its footer"
