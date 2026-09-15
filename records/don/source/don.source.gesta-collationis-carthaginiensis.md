@@ -20,6 +20,7 @@ work: Gesta Collationis Carthaginiensis (Acts of the 411 Conference), as an even
   and is not vendored
 edition: the same acts are separately, substantively preserved in a Migne Patrologia Latina printing,
   vendored as cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt (row 55's own file)
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
   directly checked the vendored file's own provenance header for every file cited below (grep for 'public
   domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC

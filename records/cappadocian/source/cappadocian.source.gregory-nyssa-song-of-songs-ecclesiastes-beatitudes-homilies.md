@@ -19,6 +19,7 @@ work: Gregory of Nyssa, homilies on the Song of Songs, Ecclesiastes (incl. the f
   argument), the Beatitudes, and the Lord's Prayer
 edition: Confirmed absent from the vendored npnf205 per row 41's own note (the G1 manifest audit specifically
   flagged these homilies as excluded) -- a named, currently unlocated acquisition gap
+kind: unvendored
 rights_status: not independently verified this session; row not yet acquired as an open text -- named
   for completeness per the Source Registry's own checkpoint rule (every source a Doc_02 claim rests on
   gets a row, acquired or not).

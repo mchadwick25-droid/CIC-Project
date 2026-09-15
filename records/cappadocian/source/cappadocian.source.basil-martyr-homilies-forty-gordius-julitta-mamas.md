@@ -24,6 +24,7 @@ work: Basil, martyr homilies on the Forty of Sebaste, Gordius, Julitta, and Mama
 edition: No open edition acquired -- no open-license English translation of these homilies exists in cic/texts/
   or elsewhere in this project's manifest (G1 manifest's own "Honest gaps" section, line 85). Their titles
   occur only inside npnf208's Prolegomena, as a scholarly description, not as the homilies' own text.
+kind: unvendored
 rights_status: not applicable -- no text is vendored or acquired to hold rights over; an eventual acquisition
   would need its own independent rights assessment.
 attribution_status: attributed

@@ -16,6 +16,7 @@ sources: []
 author: "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan"
 work: "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world"
 edition: "trans. J. G. Pilkington, Nicene and Post-Nicene Fathers series 1 vol. 1 (1886), vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+kind: vendored
 work_id: augustine-confessiones
 rights_status: public-domain
 attribution_status: attributed

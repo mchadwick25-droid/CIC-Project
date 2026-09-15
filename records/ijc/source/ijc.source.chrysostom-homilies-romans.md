@@ -25,6 +25,7 @@ relations:
 author: "John Chrysostom (c. 347-407), preaching at Antioch"
 work: "Homilies on the Epistle to the Romans, Homily XXIII on Romans 13:1 - 'Let every soul be subject unto the higher powers'. Registered for that homily; the volume also carries the Homilies on Acts, which this world does not open"
 edition: "Nicene and Post-Nicene Fathers, first series, vol. 11, vendored as cic/texts/npnf111_chrysostom-homilies-acts-romans.xml - Homily XXIII at file line 53993"
+kind: vendored
 rights_status: "public-domain; NPNF1-11, long out of US copyright"
 attribution_status: attributed
 discovery_channel: "opened 2026-08-27 by the fleet unopened-volume sweep (ijc.search.unopened-volume-sweep); five Chrysostom volumes were on this world's second-hand-source list and this is the one that answers a question the world asks"

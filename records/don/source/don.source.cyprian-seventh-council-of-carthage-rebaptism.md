@@ -18,6 +18,7 @@ author: The Cyprianic corpus's own record
 work: The Seventh Council of Carthage (256, on the rebaptism of heretics), under Cyprian
 edition: Ante-Nicene Fathers, vol. 5 (Hippolytus, Cyprian, Caius, Novatian, Appendix), ed. Roberts & Donaldson,
   vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
   directly checked the vendored file's own provenance header for every file cited below (grep for 'public
   domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC

@@ -21,6 +21,7 @@ relations: []
 author: Cyprian of Carthage
 work: Epistles
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ as part of the shared patristic library since an
   earlier session, rights basis established there (the file's own provenance header states Public Domain)
   and not re-checked by this compilation pass.

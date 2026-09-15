@@ -22,6 +22,7 @@ author: Peter Brown
 work: 'Religion and Society in the Age of Saint Augustine (1972) / Augustine of Hippo: A Biography (1967,
   revised 2000)'
 edition: Consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)
+kind: unvendored
 rights_status: in-copyright modern scholarship; consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3). Cited and paraphrased by this build, never quoted as licensed vendored material. Bibliographic
   record only -- the volume itself was not opened by this compilation pass.
