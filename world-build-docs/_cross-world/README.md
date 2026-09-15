@@ -52,6 +52,21 @@ research for: `roman-church-third-century`, `ambrosian-milan-standalone`,
 `danubian-latin-christianity` (flagged, needs re-verification — see its own
 dossier), `palestinian-church-pre-constantinian` (same flag).
 
+**19 as of 2026-09-15** — the original 13 above, plus the project's first
+push past Era 1/2: six candidates spanning Era VII (The Reformation,
+1517-1650) and Era VI (The Late Medieval Era, 1300-1517), selected for a
+build run that deliberately spans both eras rather than staying inside
+the fleet's existing 70-451 CE window. `lutheran-wittenberg-and-its-
+congregations` (VI.1), `the-reformed-cities-zurich-and-geneva` (VI.2),
+`the-anabaptist-movements` (VI.3), `the-society-of-jesus` (VI.11), and
+`the-tridentine-church` (VI.22) from Era VII; `lollardy` (V.5) from Era VI
+— the one candidate in this batch that already carried its own Era 6
+Step 0 survey tier ("Viable, secondary") before this pass, corrected here
+on an accessibility-vs-content-accuracy conflation in its own prior
+citations (see that dossier's own §4). None of these six had anything
+vendored before this pass — the first real test of the dossier process
+on a corpus starting from zero rather than one already 82 files deep.
+
 **Backlog — not yet written:** `greek-apologists-second-century` (I.35) and
 `latin-apologists` (I.43), both Tier 1 with a Step 0 already on file but no
 dossier yet; `palestinian-ascetic-monasticism-early` (I.34), not yet
