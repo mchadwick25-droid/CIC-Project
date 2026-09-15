@@ -19,7 +19,6 @@
 | id | status | check | file | claim |
 |---|---|---|---|---|
 | `a847a389` | UNVERIFIED | — | Doc_09_Story_Inventory.md | # Doc09 — Story Inventory ## Latin Pastoral-Congregational Christianity Status: APPROVED TO PROCEED (2026-09-15), with one escalation carried open. Eight independent adversarial review rounds have been run, the most recent returning MINOR REVISION with no HIGH finding; lpcStoryIndex.md derives its own copy of that count by reading Review-Artifacts/. |
-| `341848ce` | UNVERIFIED | — | Doc_09_Story_Inventory.md | (Merged into item 5 below at Round 2 — this item said the Perpetua sermons were unread, which item 5 corrects to unavailable. |
 | `239c3412` | UNVERIFIED | — | Doc_09_Story_Inventory.md | --- ## Section 4 — No-Tier-5 Audit Every story tested against the rule that if the evidence does not support a story, the story does not exist for this world. | Story | Tier claimed | Audit finding | |---|---|---| | lpcstory001 | 1 | Every element in the source. |
 | `4fa00ec1` | UNVERIFIED | — | Doc_09_Story_Inventory.md | --- ## Section 7 — Absent Stories The question CF V7.4 requires: what stories can this world not tell, and why? Absent Story Note rollout, stated once here rather than repeated in every chunk. The L4 template provides the section "where a story that might be expected cannot be told because evidence is insufficient." At Round 1's L8 no chunk carried one; six of the seven now do. |
 | `257a4a95` | UNVERIFIED | — | Doc_09_Story_Inventory.md | A source is not a tier. |

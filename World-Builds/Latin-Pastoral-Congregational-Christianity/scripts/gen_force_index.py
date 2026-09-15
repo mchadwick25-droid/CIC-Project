@@ -702,7 +702,7 @@ for lbl in ORDER + [k for k in seen if k not in ORDER]:
 w("")
 unc = len(seen.get("UNCLASSIFIED", []))
 w(f"**Totals reconcile: {len(forces)-unc} classified + {unc} unclassified = {len(forces)} forces.** "
-  "That arithmetic is printed because Round 1 found the previous version silently summing to 16. "
+  "That arithmetic is printed because a classified/unclassified split silently summing to the wrong total is not otherwise visible. "
   "**`2B-3` carries `Contested` as a secondary element** — its external change is Documented; what is contested is the placement of its consequence as internal, and the force entry now says so rather than only §7's summary.")
 w("")
 w("---")
@@ -813,8 +813,8 @@ w("**The controls, stated at what they actually cover.** "
   "**(K)** a duplicated §4 row halts: it raises the total *without* failing (J), because the parse and the row count move together. "
   "**(L)** a connection total disagreeing with the count Doc_08 certifies in its own prose halts. "
   "**(M)** a review artifact returning `CLEARED` is reported as CLEARED — the verdict word is read from the artifact's own structural window, not from a literal. "
-  "*(This split has now been wrong three times, and the count itself has changed twice more as controls were added. An early version said \"four positive, three negative\"; its replacement said \"six positive, two negative,\" filing control (I) — which halts — among the positives. Round 7 reproduced all nine and corrected it. The miscount travelled from this paragraph into `lpc_Decision_Log.md` and then into the brief for the next round, twice running, which is worth more than the arithmetic: **a number stated here is inherited downstream without being re-derived.**)* "
-  "**(A) Regression** against the pre-fix draft at `9eccc532`: all three §3/§5 divergences Round 1 found by hand. "
+  "*(This split has been miscounted before — control (I), which halts, is easy to file among the positives. Each miscount travelled from this paragraph into `lpc_Decision_Log.md` and then into the brief for the next round, twice running, which is worth more than the arithmetic: **a number stated here is inherited downstream without being re-derived.**)* "
+  "**(A) Regression** against the pre-fix draft at `9eccc532`: all three §3/§5 divergences found by hand. "
   "**(B) False denial** — §3 claiming §5 does not carry `G6` produces a contradiction row. "
   "**(C) Notice injection** — a bold force ID planted inside a `[CORRECTED …]` notice does not reach the tables. "
   "**(D) Omitted connection** — removing `2B-1` from §5's G6 list while §3 asserts it produces a contradiction row. "
