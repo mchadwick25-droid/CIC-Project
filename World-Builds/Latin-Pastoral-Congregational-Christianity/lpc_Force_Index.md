@@ -1,10 +1,11 @@
 # Force Index — Latin Pastoral-Congregational Christianity
 
-**Status:** **REVISED after Round 1 — not reviewed, not self-disposed.** Co-output of Construction Step 8 with `Doc_08_Forces_Document.md`; reviewed and disposed of together.
-**World file-code:** `lpc` · **Drafted:** 2026-09-15 · **Revised:** 2026-09-15 (Round 1 fix pass)
+**Status:** **REVISED after Round 3 — the revision is unreviewed, and not self-disposed.** Co-output of Construction Step 8 with `Doc_08_Forces_Document.md`; reviewed and disposed of together.
+**Review history:** Round 1 (4H 5M 3L 1C), Round 2 (3H 4M 3L 1C), Round 3 (4H 5M 4L 2C) — **all three SUBSTANTIAL REVISION REQUIRED**, and every HIGH in Rounds 2 and 3 was a defect introduced by the preceding fix pass. **[CORRECTED, 2026-09-15 — Round 3's NEW-H3:** these lines read *"REVISED after Round 1 — not reviewed"* two rounds after Round 1, because they are generator literals and no pass had touched them.**]**
+**World file-code:** `lpc` · **Drafted:** 2026-09-15 · **Revised:** 2026-09-15 (Round 3 fix pass)
 **Generated from `Doc_08_Forces_Document.md` by `gen_force_index.py`. Never hand-edited.**
 
-**What re-running the generator actually re-verifies, stated exactly — because Round 2 found the earlier blanket claim covered less than it sounded like.** **Derived from the source document, and therefore re-checked on every run:** every table in §§1–4, all counts and totals, the §6 reconciliation report and the §7 cross-check. **Hard-coded prose, re-verified by nothing:** the explanatory paragraphs under §§2, 3, 4 and 5, including this one. They are the author's commentary, carried across runs unchanged, and a reader should treat them as they would any hand-written sentence. **[ADDED, 2026-09-15 — Round 2's H3.]**
+**What re-running the generator actually re-verifies, stated exactly — because Round 2 found the earlier blanket claim covered less than it sounded like.** **Derived from the source document, and therefore re-checked on every run:** every table in §§1–4, all counts and totals, the §6 reconciliation report and the §7 cross-check. **Hard-coded prose, re-verified by nothing:** this whole header block — **including the Status line, the Review-history line, the Revised date and the Disposition** — and every explanatory paragraph under §§2, 3, 4, 5, 6 and 7, **both branches of §6 included**. In §§6 and 7 only the *findings* are derived: the contradiction table, the observation table, the disagreement lines and the agreement sentence. Everything around them is commentary. **[ADDED, 2026-09-15 — Round 2's H3; made exhaustive at Round 3's NEW-M3**, which found the list stopped at §5 and so omitted exactly the hard-coded lines that had gone stale — the Status, Revised and Disposition strings, false for two rounds.**]**
 
 **[CORRECTED, 2026-09-15 — Round 1's H1.] The previous generator was wrong in three ways and its "cannot drift" claim was false.** It **derived the gravity relation twice from two different sources** — the master table from tokens in each force's prose, the by-gravity view from §5's lists — so the two disagreed about **G4**, whose §5 entry says *"every force in Cell 2A"* in prose the token-scanner could not see. Its confidence pattern was terminated by `**` and so **silently dropped `3A-1`**, whose line ends *"Documented."*, leaving totals that summed to 16 of 17. And it reported **Contested — 0** two lines from prose naming a Contested element.
 **The fix is structural, not three patches.** Every relation now has **exactly one derivation**: gravity connections are read from §5 alone and inverted once for the master table, so the two views cannot disagree by construction; confidence is matched terminator-insensitively and an unmatched force is reported as `UNCLASSIFIED` rather than vanishing; and prose set-references like *"every force in Cell 2A"* are expanded rather than ignored. **A derived index that computes the same relation twice is not derived — it is two indexes that happen to agree until they do not.** **That rule holds inside this file and, as Round 2 found (M1), not across the deliverable pair:** Doc_08 §7 restates the confidence relation by hand and Doc_08 §3 states gravity links in its own Layer 3 prose. Neither duplication is removable from here, so both are now **read and cross-checked**, at §6 and §7 below, with disagreements printed rather than resolved.
@@ -118,11 +119,26 @@
 
 **Why this section exists.** Round 1 found a §3/§5 gravity contradiction *because* the old generator derived the relation twice and the two derivations disagreed. The fix made §5 the single source — which is correct for the tables and **destroyed the only thing that had been noticing the source document contradict itself** (Round 2's H2). The tables above still derive from §5 alone. This section derives a **second opinion** from each force's own §3 Layer 3 prose and prints every disagreement instead of resolving it.
 
-**No disagreements: no force's §3 Layer 3 asserts a gravity connection that §5's canonical list omits.** The three Round 2 found — `2B-1`/G7, `1B-1`/G2, `2A-1`/G8 — were reconciled in the source document, not in this file: `2B-1`'s Layer 3 now says the phase-two link is a family resemblance rather than a connection, and §5's G2 and G8 lists gained `1B-1` and `2A-1`.
+**No contradictions: no force's §3 Layer 3 asserts a gravity connection that §5's canonical list omits, and none asserts a disconnection §5 contradicts.** Both directions are tested; see below.
 
-**What this tests, narrowly, and why the narrowing is the point.** One direction only: a sentence in a force's §3 Layer 3 that **asserts a connection** to a gravity §5's list omits. The reverse is not a defect — §3 is prose, not an enumeration, and §5's own G4 list is built from a prose set-reference (*"every force in Cell 2A"*) that no §3 entry restates. **A first version of this check ignored that distinction and reported seven disagreements. Six were its own defect**: *"G2 and G8 are attested only within it"* is an attestation claim, *"a family resemblance to G6 and G7"* says in terms that it is not a connection, and the rest were the reverse direction. **All seven sites were read before any was trusted** — which is the only reason this section reports what it does rather than what the first run returned.
+**Observations — not defects.** §3's Layer 3 is prose, not an enumeration, and §5's G4 list is built from a prose set-reference (*"every force in Cell 2A"*) no §3 entry restates. These are listed so the asymmetry is visible rather than hidden by a control that only looks one way.
 
-**This is a weaker test than it looks and the weakness is stated.** It matches bolded `**G*n***` tokens inside connection-asserting sentences; a gravity discussed without the bold token (`2B-2`'s Layer 3 names G2 unbolded), or named inside a correction notice, is invisible to it. **It catches the class of defect Round 1 caught by accident. It is not a proof of consistency, and no run of it substitutes for a reader.**
+| Force | Gravity | Observation |
+|---|---|---|
+| `1B-1` | G2 | §5's list carries it; §3's Layer 3 does not assert it in a connection sentence |
+| `1B-1` | G5 | §5's list carries it; §3's Layer 3 does not assert it in a connection sentence |
+| `2A-1` | G4 | §5's list carries it; §3's Layer 3 does not assert it in a connection sentence |
+| `2A-2` | G1 | §5's list carries it; §3's Layer 3 does not assert it in a connection sentence |
+| `2A-2` | G4 | §5's list carries it; §3's Layer 3 does not assert it in a connection sentence |
+| `2A-3` | G4 | §5's list carries it; §3's Layer 3 does not assert it in a connection sentence |
+| `2A-4` | G4 | §5's list carries it; §3's Layer 3 does not assert it in a connection sentence |
+| `2B-1` | G6 | §5's list carries it; §3's Layer 3 does not assert it in a connection sentence |
+
+**Both directions are now tested, and that is a Round 3 correction. [CORRECTED, 2026-09-15 — Round 3's NEW-H1.]** The first version of this control tested one direction only and declared the reverse *"not a defect"* — so when §3 asserted that §5's G6 list did **not** carry `2B-1` while §5's G6 list did carry it, **this section printed "No disagreements" on a live contradiction of exactly the kind it was installed to notice.**
+
+**What the regression test actually shows, restated. [CORRECTED, 2026-09-15 — Round 3's NEW-M1.]** Run against the pre-fix draft at `9eccc532`, the earlier controls returned three stubs and one gravity disagreement, and an earlier version of this file glossed that as *"exactly what Round 1 found by hand."* **It was not.** The one disagreement flagged was `1B-1`/G2; the control **missed `2B-1`/G7** — the divergence Round 1 named and the reason the control exists — because the gravity tokens there were unbolded, and it missed `2A-1`/G8 because its verb list had no entry for *"confirms."* Measured across the live document, it examined **7 of the 19** Layer-3 sentences that name a gravity. **Its verb list is broadened, its disclaim list narrowed (it had been suppressing on the bare phrase "rather than"), and unbolded tokens are now matched — and the regression was then re-run rather than assumed.** Against the same pre-fix draft the control now reports **all three** divergences: `1B-1`/G2, `2A-1`/G8 and `2B-1`/G7, the one it previously missed. Against the live document it reports **none**. On the stub side it flags all three entries Round 1's H4 covered, one of which — `3B-1` — Doc_08 §9 holds was never blank, so that third flag is a false positive recorded as such rather than as confirmation.
+
+**This is a weaker test than it looks and the weakness is stated.** It is a sentence-level keyword match: a connection asserted with a verb outside its list, or phrased so that a disclaim keyword also appears, is invisible to it. **Broadening it at Round 3 immediately produced a false positive of its own** — the verb *"carries"* matched *"Neither §5's G6 list **nor** its G7 list carries it,"* a negation and a sentence about §5 rather than a connection claim; the verb was withdrawn rather than the sentence reworded. **This control catches the class of defect Round 1 caught by accident. It is not a proof of consistency, and no run of it substitutes for a reader.**
 
 ---
 
@@ -130,9 +146,7 @@
 
 **Why this section exists.** Doc_08 §7 restates the confidence of all seventeen forces by hand. The generator never read it, so this file's claim that *"every relation now has exactly one derivation"* was true inside the Index and false across the deliverable pair (Round 2's M1) — the relation was still computed twice, the second time by a human. §7 is now read and compared.
 
-- **`2B-3` is absent from §7's list** but carries `Documented` at §3.
-
-**Each line above is a disagreement between two hand-and-script derivations of the same relation. It is reported, not resolved.**
+**Agreement: all 17 forces carry the same confidence in Doc_08 §7 as in their own §3 entry.** No force is missing from §7's list and none is labelled differently.
 
 **The honest statement of the design rule, narrowed from the header's earlier wording.** Inside this file every relation has exactly one derivation. **Across the deliverable pair it does not** — §7 is a parallel hand-maintained statement, and the fix is this cross-check rather than a claim that the duplication is gone.
 
@@ -140,4 +154,4 @@
 
 ## Disposition
 
-**Not disposed.** Reviewed and disposed of together with `Doc_08_Forces_Document.md`. `Review-Artifacts/Doc08_Round1_Review.md` returned **SUBSTANTIAL REVISION REQUIRED** (4H 5M 3L 1C); this is the fix pass. Not self-certified. Not Frozen.
+**Not disposed.** Reviewed and disposed of together with `Doc_08_Forces_Document.md`. **Three independent rounds have been run**, the most recent `Review-Artifacts/Doc08_Round3_Review.md` (4H 5M 4L 2C, SUBSTANTIAL REVISION REQUIRED); this file is the Round 3 fix pass and is **unreviewed**. Not self-certified. Not Frozen.
