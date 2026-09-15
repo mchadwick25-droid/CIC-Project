@@ -1,10 +1,10 @@
 ```
-Story-Title:    The Plague, and the Command to Care for the Persecutors
-World-Code:     lpc
-Tier:           1
-Confidence:     Widely Accepted
-Source:         Pontius the Deacon, *The Life and Passion of Cyprian*, §§9–10 (`Source_Registry.md` row 7; vendored in English at `anf05`). Cyprian's own treatise *De mortalitate* (*On the Mortality*), written in the same epidemic, is the corroborating witness (row 1).
-Retrieve-When:  Participant asks how this world treated outsiders or enemies; participant raises suffering, epidemic, or disaster; participant asks what Christians did that was visibly different; conversation reaches preaching and catechesis (G4) or the pastoral office (G1); Representative needs an example of crisis metabolised into teaching.
+Story-Title: The Plague, and the Command to Care for the Persecutors
+World-Code: lpc
+Tier: 1
+Confidence: Widely Accepted
+Source: Pontius the Deacon, *The Life and Passion of Cyprian*, §§9–10 (`Source_Registry.md` row 7; vendored in English at `anf05`). Cyprian's own treatise *De mortalitate* (*On the Mortality*), written in the same epidemic, is the corroborating witness (row 1).
+Retrieve-When: Participant asks how this world treated outsiders or enemies; participant raises suffering, epidemic, or disaster; participant asks what Christians did that was visibly different; conversation reaches preaching and catechesis (G4) or the pastoral office (G1); Representative needs an example of crisis metabolised into teaching.
 Do-Not-Retrieve-When: The participant is asking about martyrdom or persecution as such — the plague was not a persecution and conflating them misreads the story. Not for questions about healing or miracle, which this account does not contain.
 ```
 
@@ -44,9 +44,9 @@ Pontius reaches for a comparison and finds it insufficient. "Something more was 
 
 **The confidence is stepped down one band for a reason this chunk states rather than hides.** The *content* of the address reaches us only through Pontius, who is reconstructing a sermon he heard, in a work written to praise the man who preached it. The substance is consistent with Cyprian's own treatises, which is why this is not Tier 3 — but a reported speech inside a biography of praise is not the same evidentiary object as a letter in the man's own hand, and the band reflects that.
 
-**Not Tier 3, and the warrant is narrower than an earlier version of this chunk claimed.** The account carries **no miracle and no providential intervention**, and the death-as-completion pattern that makes `lpcstory006` Tier 3 is absent because nobody dies here. **It does carry a typology**: Pontius measures the congregation's response against Tobias and finds Tobias exceeded. **[CORRECTED, 2026-09-15 — Round 1's H1:** this section previously claimed the account carries *"no typological patterning"*, which is false — the Tobias comparison stands in §10, the section the chunk had not read.**]**
+**Not Tier 3, and the warrant is narrower than an earlier version of this chunk claimed.** The account carries **no miracle and no providential intervention**, and the death-as-completion pattern that makes `lpcstory006` Tier 3 is absent because nobody dies here. **It does carry a typology**: Pontius measures the congregation's response against Tobias and finds Tobias exceeded.
 
-**Why the tier holds anyway, stated as an argument rather than an absence, and now against all three markers rather than two. [REVISED, 2026-09-15 — Round 2.]** CF V7.4 names three markers of hagiographic narrative: *"the idealized portrait of a saint's life, the miracle sequence, the death as completion of a formed life."*
+**Why the tier holds anyway, stated as an argument rather than an absence, and now against all three markers rather than two. ** CF V7.4 names three markers of hagiographic narrative: *"the idealized portrait of a saint's life, the miracle sequence, the death as completion of a formed life."*
 
 **Marker two and marker three are absent outright:** there is no miracle and no providential intervention, and nobody dies.
 
@@ -55,28 +55,11 @@ Pontius reaches for a comparison and finds it insufficient. "Something more was 
 **The tier still holds, and CF itself supplies the instrument — which this document had trimmed out of its own §2.** CF's Tier 1 definition requires the claim to be *"historically credible with appropriate caveats for the author's perspective **and genre**"* — genre is written into Tier 1, not excluded from it — and its confidence rule continues: *"May carry Widely Accepted or Contested confidence for specific details within the narrative depending on the author's access and perspective."* **That is exactly this entry's position.** The narrative-level claim is that a bishop preached relief during an epidemic and relief followed; the idealising language attaches to Pontius's estimate of the man, not to the events. The confidence is stepped to **Widely Accepted** on that basis, by CF's own rule rather than by an argument this build invented.
 
 **A scriptural comparison inside a moral exhortation is not marker one, two or three.** Pontius is doing what a preacher does — reaching for a biblical measure — not shaping events to fit a pattern. The contrast with `lpcstory006` is exact: there, the typology is applied to *what physically happened* (a crowd in trees, narrated as Zacchaeus), and the reader has no way to separate the event from the pattern. Here it is applied to *how much was given*, and the underlying fact — that relief was extended beyond the congregation — is independently the kind of claim Cyprian's own treatises make. **The tier rests on that distinction, not on the absence of all convention.**
-
----
-
-### Transcription corrections to the Story Text above
-
-These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
-
-- **[CORRECTED, 2026-09-15 — Round 1's L3:** *"in the streets"* was this document's detail; the source says *"over the whole city."***]**
-
-- **[CORRECTED, 2026-09-15 — Round 1's L3:** *"than his hearers expected"* supplied an audience reaction Pontius does not record.**]**
-
-- **[CORRECTED, 2026-09-15 — Round 1's C2:** an earlier version merged across Pontius's own *"said he,"* presenting a reported utterance as continuous quotation.**]**
-
-- **[CORRECTED, 2026-09-15 — Round 1's H1:** an earlier version of this chunk ended here with *"Pontius does not say what the congregation did next. He moves on."* **He does say, in §10, and the sentence quoted above is the direct answer to the address.** The chunk rested on §9 alone, and **no upstream document in this build had ever cited §10.** The error is the shape this build keeps producing: reading to a chosen boundary, then asserting a negative about what lies past it.**]**
-
----
-
 ## Usage Guidance
 
 The Representative may draw on this as remembered history, **with Pontius named** and the reported-speech character acknowledged where it matters: this is what the bishop's deacon remembered him saying. The Representative should not present the address as a verbatim transcript.
 
-**Additional guidance.** Two cautions. First, **the story does have an ending and it is Pontius's, not this build's** — he records that relief went to all comers, and the Representative may say so, **with the source's own character named**: this is the bishop's deacon reporting that the bishop's instruction was obeyed, in a work written in his praise. That is not the same evidentiary object as an outside witness, and the Representative should not present it as one. **[CORRECTED, 2026-09-15 — Round 1's H1:** this passage previously instructed the Representative to say *"we are not told what they did."***]** Second, this story is easily flattened into a modern account of Christian charity during epidemics. The specific thing Cyprian is reported to have asked for is narrower and harder: not care for the sick generally, but care for *the people persecuting them*. If a participant asks whether that happened, the answer is what Pontius records — that relief went *"to all men, not to those only who are of the household of faith"* — and that he does not say whether any of those men were the persecutors the address named. **The wider question is answered; the narrow one is not.** **[CORRECTED, 2026-09-15 — Round 5's M6:** this field closed by telling the Representative *"this world's own record does not say,"* three sentences after the same field said Pontius does record the outcome — Round 1's H1 at a third site in this chunk. The flat denial is what was wrong; the narrow question genuinely is unanswered.**]**
+**Additional guidance.** Two cautions. First, **the story does have an ending and it is Pontius's, not this build's** — he records that relief went to all comers, and the Representative may say so, **with the source's own character named**: this is the bishop's deacon reporting that the bishop's instruction was obeyed, in a work written in his praise. That is not the same evidentiary object as an outside witness, and the Representative should not present it as one. Second, this story is easily flattened into a modern account of Christian charity during epidemics. The specific thing Cyprian is reported to have asked for is narrower and harder: not care for the sick generally, but care for *the people persecuting them*. If a participant asks whether that happened, the answer is what Pontius records — that relief went *"to all men, not to those only who are of the household of faith"* — and that he does not say whether any of those men were the persecutors the address named. **The wider question is answered; the narrow one is not.**
 
 ---
 

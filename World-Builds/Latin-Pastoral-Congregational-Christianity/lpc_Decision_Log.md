@@ -1552,3 +1552,32 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 **The HIGH ledger, now stated exactly.** Eleven HIGH findings across seven rounds. **Eight are the signature defect.** One was transcription, two were the stripper. **Two of the eleven were introduced by a fix pass answering the previous round — both in `notice_strip.py`, the tool written to prevent false closures.**
 
 **Status.** All four deliverables plus both scripts are **REVISED after Round 7 — unreviewed, not self-disposed.** Seven rounds have now verified every quotation independently and found **no composite and no invention.** **A build thread does not score its own work as passing** — this needs Round 8.
+
+---
+
+## 2026-09-15 — Correction history extracted from the deliverables (structural, not a fix pass)
+
+**Directed by the project lead: *"we don't want to make fix on fix we want fixes at the core."*** That is `CLAUDE.md`'s own rule, and this loop had been breaking it.
+
+**The evidence against the previous approach.** `scripts/notice_strip.py` produced a **HIGH finding in three of the last four review rounds — every one of them inside the fix for the previous round's finding.** Round 5: over-stripping, deleting 48% of §7. Round 7: sibling absorption, introduced by the fix for Round 6's LOW-8. Each time the response was a better regex, then a scanner. Round 5 had already named the real remedy — *"a derivation that reads prose inherits prose's variability, and the remedy is a declared field, not a better regex"* — and the following two passes wrote two more regexes.
+
+**The root cause was never the stripper.** It was that **change history was being written inline into the deliverables.** That creates a *mention versus use* ambiguity, which requires a tool to resolve, which then has to be correct, and was repeatedly not. Measured before the change:
+
+| | notices | words of history | share of file |
+|---|---|---|---|
+| `lpcstory007` | 14 | 581 | **25%** |
+| `Doc_09` | 37 | 1,273 | 18% |
+| `lpc_Story_Index` | 7 | 324 | 16% |
+| **all nine deliverables** | **76** | **3,266** | **15%** |
+
+`CLAUDE.md` is explicit that this is corruption: change history *"belong[s] in `Ministry/` … never inline"*, and *"if you find commentary, changelog cruft, or leftover process notes in a live/canonical file, treat that as corruption: remove it, don't add to it."* Independently, **Story Text is the field Doc_10 consumes as deployable narrative** — a chunk that is a quarter build history is not deployable.
+
+**What was done.** All 76 notices moved verbatim to **`Review-Artifacts/Doc09_Correction_History.md`**, each with the file, line, section and the live sentence it attached to. **Nothing is discarded** — the corrections remain in force; only the narration *about* them moved.
+
+**What was deleted.** `scripts/notice_strip.py` (201 lines) and `scripts/test_notice_strip.py` (186 lines), and the generator's own separate stripper. **387 lines of tooling, and the defect class with it.** Three guards — swallowed openers, openers surviving the stripper, notices inside Story Text — are replaced by **one**: a notice anywhere in a deliverable is FATAL. It matches the notice *shape* rather than a tag vocabulary, so it **also halts on an unrecognised tag**, which every previous guard would have missed. Forced from fresh copies in both forms.
+
+**Verification.** A word-multiset diff against `HEAD` for every file confirms **zero live prose lost** — the only differences are punctuation repairs where a removed notice had left a stray space before a full stop. The index regenerates byte-identical. `GUARD_LABELS` matches the AST halting-site count, which the script checks on every run.
+
+**One defect this pass made and corrected rather than carried.** The first extraction pass collapsed `** **` to nothing instead of a space, fusing words across the removal boundary (`tested.Why`, `Status:REVISED`) at 13 sites. Caught by the word-multiset check, which reported losses of exactly twice the gains — the signature of fusion rather than loss. **Restored from backup and redone**, not patched. A second attempt at the generator ate leading indentation with a `\s*`-prefixed regex; the generator was **restored from git and the edits reapplied cleanly** rather than repaired in place.
+
+**What this does not close.** The other three root causes named to the project lead remain open: a **claims register** for the signature defect (eight of eleven HIGHs), **declared front-matter fields** instead of prose-parsed row derivations (a governance change, the lead's call), and **typed counts** in prose. Round 8's review is still running against the pre-extraction state; its content findings stay valid, its findings against `notice_strip.py` are now moot.

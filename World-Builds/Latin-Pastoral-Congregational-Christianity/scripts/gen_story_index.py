@@ -55,38 +55,41 @@ BANDS = {"1": {"Documented", "Widely Accepted"},
          "3": {"Contested", "Inferential/Thin"},
          "4": {"Inferential/Thin"}}
 
-# Round 5's LOW-18 asked why this script does not import notice_strip.live().
-# They have different jobs and the difference is deliberate.
-#   notice_strip.live()  removes notices whose tag is on a KNOWN list, for
-#                        closure audits. It must never over-strip.
-#   NOTICE below         matches any capitalised opener, because
-#                        assert_coverage uses it as a GUARD: an
-#                        unrecognised notice-like opener must halt the run
-#                        rather than pass through as prose. Narrowing it to
-#                        the known tags would delete that control.
-# They must still AGREE on real input. scripts/test_notice_strip.py asserts
-# they return identical word counts on Doc_09 §2 and §7, so the two cannot
-# drift apart silently the way they had by Round 5 (34% apart, because
-# live() was over-stripping).
-_TAG = r"[A-Z][A-Za-z]{1,24}(?:\s+[A-Za-z][A-Za-z]{0,24}){0,3}"
-_SEP = r"(?=\s*[,:;(]|\s*[—–]|\s+-\s|\s+\d)"
-NOTICE = re.compile(r"\*{0,2}\[" + _TAG + _SEP + r".*?\]\*\*", re.S)
-OPENER = re.compile(r"\[" + _TAG + _SEP)
-DETECT = re.compile(r"\[[A-Za-z][A-Za-z]{1,24}(?:\s+[A-Za-z][A-Za-z]{0,24}){0,3}"
-                    r"(?:\s*[,:;(]|\s*[—–]|\s+-\s|\s+\d)", re.I)
+# 2026-09-15 — the notice system was removed from the deliverables.
+#
+# Build-process notices used to live inline in Doc_09, the chunks and this
+# index — 76 spans, ~3,100 words, up to 23% of a chunk. That created a
+# MENTION-versus-USE problem (a corrected phrase survives inside the notice
+# recording it), which needed a stripper to resolve, which then had to be
+# right. `scripts/notice_strip.py` produced a HIGH finding in three of four
+# consecutive review rounds, each time inside the fix for the previous
+# round's finding. Two strippers also had to be kept in step with each other.
+#
+# The correction history now lives in
+# `Review-Artifacts/Doc09_Correction_History.md`, per CLAUDE.md's rule that
+# change history belongs in the audit trail and never inline in a canonical
+# surface. So there is nothing to strip, no mention/use question, and no
+# second implementation to keep in step.
+#
+# What remains is ONE guard, pointing the other way: a notice anywhere in a
+# deliverable is FATAL. It replaces three weaker guards (swallowed openers,
+# openers surviving the stripper, notices inside Story Text) and cannot be
+# defeated by an unrecognised tag, because it matches the SHAPE rather than
+# a vocabulary.
+NOTICE_SHAPE = re.compile(
+    r"\[(?:[A-Z][A-Za-z]{1,24})(?:\s+[A-Za-z][A-Za-z]{0,24}){0,3}"
+    r"(?:\s*[,:;(]|\s*[—–]|\s+-\s|\s+\d)")
 
-def strip_notices(t):
-    return "\n".join(NOTICE.sub(" ", ln) for ln in t.split("\n"))
 
-def assert_coverage(t, label):
-    for m in NOTICE.finditer(t):
-        if len(OPENER.findall(m.group(0))) > 1:
-            sys.exit(f"FATAL: a notice in {label} swallows another notice's opener "
-                     f"({m.group(0)[:70]!r}...). Refusing to emit.")
-    left = DETECT.findall(strip_notices(t))
-    if left:
-        sys.exit(f"FATAL: {len(left)} notice-like opener(s) survive stripping in {label} "
-                 f"({left[:3]}). A notice the stripper cannot see is derivation input. Refusing to emit.")
+def assert_no_notices(t, label):
+    """A build-process notice in a deliverable is corruption, not content."""
+    hits = NOTICE_SHAPE.findall(t)
+    if hits:
+        sys.exit(f"FATAL: {label} contains {len(hits)} build-process notice(s) "
+                 f"({hits[:3]}). Correction history belongs in "
+                 "Review-Artifacts/Doc09_Correction_History.md, never inline "
+                 "in a deliverable. Refusing to emit.")
+
 
 # ------------------------------------------------------------------ chunks
 def field(block, name):
@@ -102,8 +105,8 @@ stories = []
 _seen_ids = {}
 for p in sorted(CHUNKS.glob("lpcstory*.md")):
     raw = p.read_text(encoding="utf-8")
-    assert_coverage(raw, p.name)
-    t = strip_notices(raw)
+    assert_no_notices(raw, p.name)
+    t = raw
     fm = re.search(r"```(.*?)```", t, re.S)
     if not fm:
         sys.exit(f"FATAL: {p.name} has no retrieval front-matter block. Refusing to emit.")
@@ -125,20 +128,6 @@ for p in sorted(CHUNKS.glob("lpcstory*.md")):
     for sec in ("## Story Text", "## Formation Ecology Connection", "## Tier Justification", "## Usage Guidance"):
         if sec not in t:
             sys.exit(f"FATAL: {p.name} is missing the required section '{sec}'. Refusing to emit.")
-    # Round 6's LOW-7: Round 5 moved eight notices out of Story Text by hand
-    # and did not add the guard its own fix note called for. Story Text is the
-    # field Doc_10 consumes as deployable narrative; a build-process notice in
-    # it is not deployable. Nothing stopped the next pass from writing one back.
-    _st = raw.split("## Story Text", 1)
-    if len(_st) > 1:
-        _body = re.split(r"\n## ", _st[1])[0]
-        _n = NOTICE.findall(_body)
-        if _n:
-            sys.exit(f"FATAL: {p.name} carries {len(_n)} build-process notice(s) "
-                     f"inside ## Story Text ({_n[0][:60]!r}...). Story Text is the "
-                     "field Doc_10 consumes as deployable narrative. Move them to "
-                     "the chunk's '### Transcription corrections' block. "
-                     "Refusing to emit.")
     if s["tier"] == "4" and "## Source Identification" not in t:
         sys.exit(f"FATAL: {p.name} is Tier 4 and has no Source Identification section, which the "
                  "L4 template requires for Tier 4 only. Refusing to emit.")
@@ -203,8 +192,8 @@ if not stories:
     sys.exit("FATAL: no story chunks found. Refusing to emit.")
 
 doc = DOC.read_text(encoding="utf-8")
-assert_coverage(doc, DOC.name)
-doc_live = strip_notices(doc)
+assert_no_notices(doc, DOC.name)
+doc_live = doc
 
 # --- cross-check Doc_09 §3's hand-written table against the chunks themselves
 sec3 = doc_live.split("## Section 3 — Story Index")[1].split("### 3.1")[0]
@@ -373,7 +362,7 @@ w(f"**Status:** " + ("**DRAFT — not reviewed, not self-disposed.**" if not NR 
   " Co-output of Construction Step 9 with `Doc_09_Story_Inventory.md` and `Story-Chunks/`; reviewed and disposed of together.")
 w(f"**Review history, counted from `Review-Artifacts/` rather than typed:** "
   + (f"{_NW.get(NR, NR)} round(s) — " + ", ".join(f"Round {r}" for r in _rounds) if NR else "none run")
-  + ". **[CORRECTED, 2026-09-15 — Round 2:** this block was hard-coded prose and still read *\"DRAFT — not reviewed\"* in the pass that answered Round 1.**]**")
+  + ".")
 w("**World file-code:** `lpc` · **Drafted:** 2026-09-15 · **Generated by** `scripts/gen_story_index.py`, committed beside this file.")
 w("")
 w("**To regenerate:** `python3 scripts/gen_story_index.py` from any working directory — the script resolves its own base path.")
@@ -402,17 +391,15 @@ GUARD_LABELS = (
     "a story with no transmission phase in Doc_09 §3",
     "an Absent-Stories section short enough to be a placeholder",
     "a story sourced to a row that is not **Native** in the Registry",
-    "a notice-like opener surviving the stripper",
     "a chunk with no retrieval front-matter fence",
     "two chunk files claiming the same story id",
     "**a chunk declaring a Tier 5**",
     "a Tier 4 chunk with no Source Identification section",
     "a tier/confidence pair outside the band CF V7.4 assigns that tier",
-    "a correction notice that swallows another's opener",
     "a chunk missing a front-matter field",
     "a chunk missing a required section",
     "a Source clause that claims both use and non-use of the same row",
-    "a build-process notice inside a chunk's deployable Story Text",
+    "a build-process notice anywhere in a deliverable",
     "this list itself falling out of step with the script's halting-site count",
 )
 if len(GUARD_LABELS) != _NHALT:
@@ -422,11 +409,8 @@ if len(GUARD_LABELS) != _NHALT:
 _GUARD_PROSE = "; ".join(GUARD_LABELS[:-1]) + "; and " + GUARD_LABELS[-1] + "."
 w(f"**Guards that halt the run rather than emitting a wrong index — {_NHALT} of them, counted off this script rather than typed.** {_GUARD_PROSE}")
 w("")
-w("**[CORRECTED, 2026-09-15 — Round 1's brief-correction 1:** an earlier version of this masthead said *nine* guards and called them *the eight lessons*. The count above is computed from this file's syntax tree, so the sentence does not need to name it, and the enumeration is now rendered from the same list the count is checked against.**]**")
 w("")
-w("**[AMENDED, 2026-09-15 — Round 2:** the Round 1 wording credited Round 1 with forcing a guard that did not yet exist. **Round 1 forced the guards that existed when it ran**; each later pass has added guards, and each round has forced the ones in front of it.**]**")
 w("")
-w("**[CORRECTED, 2026-09-15 — Round 5's M10 and L12:** the count clause read *'Counted here with a grep over the script rather than from memory'* — naming as the remedy the exact method this notice explains is wrong. It is counted off the syntax tree, which cannot see its own counting expression. The enumeration beside it listed **eight** conditions under a derived count of thirteen, for a third round; it is derived now, and a mismatch between the list and the count is itself a halting site. These three notices were nested inside one another until Round 5's L11 — the condition this script exits FATAL on when it finds it in a chunk.**]**")
 w("")
 w("---")
 w("")
@@ -467,7 +451,7 @@ for t in "1234":
 w("")
 w("**Tier 4 carries the most inferential weight and is the tier a reviewer should be able to find without reading the repository — which is why it has its own line above even at zero.** CF V7.4 assigns Tier 4 **Inferential/Thin confidence regardless of how well-sourced the individual elements are**, and places Tier 4 narration in ecological-reconstruction sections. This world's Tier 4 material is in `Doc_05_Ecological_Reconstruction.md`, marked as reconstruction there; Doc_09 §3.1 records that as a placement decision rather than an absence.")
 w("")
-w("**Tier 2 is zero and the reason is evidentiary, not editorial.** Tier 2 requires a collection with an identifiable collection history, and this world transmitted itself by correspondence rather than by remembered story. **What Doc_08 §2B-5 establishes is that Cyprian forwarded a thirteen-letter dossier of his own; whether the corpus as a whole was assembled in his lifetime is not something this build has established.** The Tier 2 finding does not depend on the answer — Tier 2 requires a *community's* remembered collection, and this world has none either way. See Doc_09 §3.1. **[CORRECTED, 2026-09-15 — Round 2:** this paragraph still asserted the lifetime-assembly claim that Doc_09 §3.1 had just retracted at Round 1's M7, **and cited §3.1 as its authority for it.** Round 1 named both sites; only one was fixed.**]**")
+w("**Tier 2 is zero and the reason is evidentiary, not editorial.** Tier 2 requires a collection with an identifiable collection history, and this world transmitted itself by correspondence rather than by remembered story. **What Doc_08 §2B-5 establishes is that Cyprian forwarded a thirteen-letter dossier of his own; whether the corpus as a whole was assembled in his lifetime is not something this build has established.** The Tier 2 finding does not depend on the answer — Tier 2 requires a *community's* remembered collection, and this world has none either way. See Doc_09 §3.1.")
 w("")
 w("---")
 w("")
@@ -500,7 +484,7 @@ for s in stories:
 w("")
 w(f"**{len(stories)} of {len(stories)} stories classified within the four permitted tiers, each with a confidence band CF V7.4 assigns that tier. Zero unclassified, zero ambiguous, zero Tier 5.**")
 w("")
-w("**This table is a structural check and not a substitute for reading the stories.** It proves each chunk *declares* a permitted tier and a consistent band. **Whether a story is genuinely sourced rather than composited is a reviewer's judgement no script makes** — Doc_09 §4 is where that judgement is recorded, story by story, and §6 records **four** candidates considered and not built. **[CORRECTED, 2026-09-15 — Round 1's L7, second site:** this said *two*. Doc_09 §4 was corrected at Round 2 and this literal was not.**]**")
+w("**This table is a structural check and not a substitute for reading the stories.** It proves each chunk *declares* a permitted tier and a consistent band. **Whether a story is genuinely sourced rather than composited is a reviewer's judgement no script makes** — Doc_09 §4 is where that judgement is recorded, story by story, and §6 records **five** candidates considered and not built.")
 w("")
 w("---")
 w("")
@@ -519,7 +503,7 @@ for s in stories:
 w("")
 w(f"**Every row a story actually draws on is Native. No story draws on an Excluded row, and none draws on a neighbouring world's evidence base.** The check is mechanical: the row number is read from each chunk's own Source field and its Boundary Status read from the Registry table. **A story sourced to an Excluded row halts the generator** — the nearest live case is row 28, *The Passion of the Scillitan Martyrs*, marked **Excluded, Named Comparandum**, which Doc_09 §6 records as considered and not built.")
 w("")
-w("**Rows a chunk names in order to say it did *not* use them are listed separately and excluded from the check. [CORRECTED, 2026-09-15 — Round 1's M4(c).]** The derivation was **polarity-blind**: `lpcstory006` names rows 41 and 194 inside the clause *\"has not been read in this build\"*, and the index credited it with them and then asserted they were Native — **vouching for a source the chunk says it never opened.** They are shown rather than silently dropped, because a silent exclusion is the same defect inverted.")
+w("**Rows a chunk names in order to say it did *not* use them are listed separately and excluded from the check.** The derivation was **polarity-blind**: `lpcstory006` names rows 41 and 194 inside the clause *\"has not been read in this build\"*, and the index credited it with them and then asserted they were Native — **vouching for a source the chunk says it never opened.** They are shown rather than silently dropped, because a silent exclusion is the same defect inverted.")
 w("")
 w("---")
 w("")

@@ -1,11 +1,11 @@
 ```
-Story-Title:    Numidicus, Drawn Half-Dead from the Stones
-World-Code:     lpc
-Tier:           1
-Confidence:     Documented
-Source:         Cyprian, *Epistle* XXXIV, "To the Same, About the Ordination of Numidicus as Presbyter" (`Source_Registry.md` row 1; vendored in English at `anf05`). Latin second witness at rows 191/194.
-Retrieve-When:  Participant asks what persecution actually did to people; participant asks how survivors were treated; participant raises the cost of faithfulness, or survivor's guilt; conversation reaches the pastoral office (G1) or ordination and validity (G6); Representative needs an example of how this world read suffering as qualification.
-Do-Not-Retrieve-When: The participant is in acute grief or trauma and the physical detail would land badly — `lpcstory007` covers a gentler deathbed. Not as a story *about* the lapsed — *Ep.* XXXIV names them only as the cause of the vacancy Numidicus fills, and `lpcstory005` carries the lapsed question directly. **[CORRECTED TWICE, 2026-09-15:** Round 1's L1 caught *"which this story deliberately does not address"* and supplied corrected wording. The Round 2 fix pass instead wrote *"says nothing of them"* — **and that is false in the very sentence this chunk quotes as its closing line.** Cyprian's clause continues: the Lord would *"adorn with glorious priests the number of our presbyters that had been desolated by **the lapse of some**."* Round 3's HIGH. The same shape as Round 1's H1 — a negative asserted about a source, in a field that governs retrieval.**]**
+Story-Title: Numidicus, Drawn Half-Dead from the Stones
+World-Code: lpc
+Tier: 1
+Confidence: Documented
+Source: Cyprian, *Epistle* XXXIV, "To the Same, About the Ordination of Numidicus as Presbyter" (`Source_Registry.md` row 1; vendored in English at `anf05`). Latin second witness at rows 191/194.
+Retrieve-When: Participant asks what persecution actually did to people; participant asks how survivors were treated; participant raises the cost of faithfulness, or survivor's guilt; conversation reaches the pastoral office (G1) or ordination and validity (G6); Representative needs an example of how this world read suffering as qualification.
+Do-Not-Retrieve-When: The participant is in acute grief or trauma and the physical detail would land badly — `lpcstory007` covers a gentler deathbed. Not as a story *about* the lapsed — *Ep.* XXXIV names them only as the cause of the vacancy Numidicus fills, and `lpcstory005` carries the lapsed question directly.
 ```
 
 ---
@@ -41,19 +41,6 @@ He had not wanted to survive. Cyprian knows this, writes it down, and then gives
 **Tier 1, Documented.** This is Cyprian's own letter, written in his own hand as bishop, to his own congregation, about a man both he and they could identify — the strongest evidentiary position any story in this repository occupies. There is no biographer between the reader and the event, no genre of praise, and no later tradition. The named author's social location is exact and the horizon is the 250s.
 
 **No tier uncertainty.** The only caution worth stating is not about tier but about *perspective*: Cyprian is making a case. He is telling a congregation why a man they may not know should now sit among their presbyters, and the letter's rhetoric — "the common joy," "the greatest glory of our Church" — is the rhetoric of advocacy. **The events are not in doubt; the framing of them as glory is Cyprian's.** The wife's own view of her death, and the daughter's of her search, are not recoverable.
-
----
-
-### Transcription corrections to the Story Text above
-
-These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
-
-- **[CORRECTED, 2026-09-15 — Round 1's L2:** an earlier version added *"He was in the heap."* The letter does not say that.**]**
-
-- **[CORRECTED, 2026-09-15 — Round 1's L2:** an earlier version had her searching *"a heap of bodies,"* which is this document's image and not Cyprian's.**]**
-
----
-
 ## Usage Guidance
 
 The Representative may draw on this as remembered history in the fullest sense the tiers allow, **with Cyprian named as the writer and his purpose acknowledged** — this is a bishop commending an appointment.

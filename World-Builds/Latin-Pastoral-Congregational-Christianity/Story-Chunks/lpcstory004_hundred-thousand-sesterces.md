@@ -1,10 +1,10 @@
 ```
-Story-Title:    A Hundred Thousand Sesterces for the Captives
-World-Code:     lpc
-Tier:           1
-Confidence:     Documented
-Source:         Cyprian, *Epistle* LIX, "To the Numidian Bishops, on the Redemption of Their Brethren from Captivity Among the Barbarians" (`Source_Registry.md` row 1; vendored in English at `anf05`) — **cited from the letter's own body text, not from the ANF Argument**, which carries the same figure as 19th-century editorial matter.
-Retrieve-When:  Participant asks what this world did with money; participant asks whether churches helped people outside their own city; participant raises practical mercy, ransom, or obligation to strangers; conversation reaches collegial communion (G3) or the pastoral office (G1); Representative needs an example of a church acting beyond its own boundary.
+Story-Title: A Hundred Thousand Sesterces for the Captives
+World-Code: lpc
+Tier: 1
+Confidence: Documented
+Source: Cyprian, *Epistle* LIX, "To the Numidian Bishops, on the Redemption of Their Brethren from Captivity Among the Barbarians" (`Source_Registry.md` row 1; vendored in English at `anf05`) — **cited from the letter's own body text, not from the ANF Argument**, which carries the same figure as 19th-century editorial matter.
+Retrieve-When: Participant asks what this world did with money; participant asks whether churches helped people outside their own city; participant raises practical mercy, ransom, or obligation to strangers; conversation reaches collegial communion (G3) or the pastoral office (G1); Representative needs an example of a church acting beyond its own boundary.
 Do-Not-Retrieve-When: The participant is asking about modern charitable giving or church finance, which this story cannot be made to speak to without distortion. Not for questions about slavery as an institution, which the letter does not address.
 ```
 
@@ -37,22 +37,11 @@ And he thanks them — for being asked. The Numidian bishops, he says, "wished u
 **Tier 1, Documented.** Cyprian's own letter, first person, naming its eight recipients, stating an amount and a mechanism. Named author, exact social location, datable horizon, and a claim of the most ordinarily verifiable kind — that a specific sum was collected and sent.
 
 **One evidentiary discipline recorded because this build has been caught by it eight times.** The ANF edition prints an *Argument* above the letter — "Cyprian Begins by Deploring the Captivity… and Says that He is Sending Them a Hundred Thousand Sesterces" — which is **19th-century editorial matter, not Cyprian**. The figure happens to be right, and a builder quoting the Argument would have got a true number from a false source. **This chunk cites §3 of the letter body**, where Cyprian states the sum in his own voice. Doc_09 §4 records the check.
-
----
-
-### Transcription corrections to the Story Text above
-
-These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
-
-- **[CORRECTED, 2026-09-15 — Round 1's L4:** an earlier version printed *"to be rescued"* inside the quotation marks.**]**
-
----
-
 ## Usage Guidance
 
 The Representative may draw on this as remembered history, **with Cyprian named**. The sum may be stated as the letter states it.
 
-**Additional guidance.** The Representative should resist converting the sum into modern currency. the vendored ANF05 does print a conversion — an **editorial note**, two words after the sum, reckoning it *"at $3,757"* for the 1880s — but that is ANF's apparatus and not this world's voice, and Doc_02 vendors no source of this world's own that would license a conversion. **[CORRECTED, 2026-09-15 — Round 7's L7:** this said flatly that no source would license one, without disclosing the note sitting beside the quotation. The disposition is unchanged and right; the disclosure was incomplete.**]** On this world's own evidence there is nothing that would license a conversion, the purchasing-power comparison is contested among specialists, and a confident figure would be this build's invention rather than this world's testimony. **The honest answer to "how much was that?" is that it was collected from one congregation's clergy and people for the ransom of people most of them had never met, and that the letter does not tell us what proportion of anything it represented.**
+**Additional guidance.** The Representative should resist converting the sum into modern currency. the vendored ANF05 does print a conversion — an **editorial note**, two words after the sum, reckoning it *"at $3,757"* for the 1880s — but that is ANF's apparatus and not this world's voice, and Doc_02 vendors no source of this world's own that would license a conversion. On this world's own evidence there is nothing that would license a conversion, the purchasing-power comparison is contested among specialists, and a confident figure would be this build's invention rather than this world's testimony. **The honest answer to "how much was that?" is that it was collected from one congregation's clergy and people for the ransom of people most of them had never met, and that the letter does not tell us what proportion of anything it represented.**
 
 ---
 
