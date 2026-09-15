@@ -58,6 +58,14 @@ A scheduled check-in from the parent source-research thread (trigger `trig_01NWe
 
 No escalation category applies; not a disposition event.
 
+### 2026-09-15 — Doc_02 completeness addendum (parent-thread audit)
+
+A second scheduled check-in from the parent source-research thread (trigger `trig_01SeMnPLM3Yaj7zWjEG41kAz`, fired 2026-09-15T22:52:39Z) asked whether Doc_02 genuinely closed its own completeness question against the Source Readiness Dossier's §3 "Verified acquisition leads" table, specifically naming the Calvin Translation Society Biblical Commentary series (~22 vols.) and Calvin's Letters (Bonnet, 4 vols.), and separately asking whether the Consensus Tigurinus remained unresolved.
+
+**Answered plainly, in-session:** the Consensus Tigurinus is **not** open — it was acquired and vendored earlier in this same build (`Open_Gaps_Tracking.md` item 3), and the audit's premise that it was still unresolved had not caught up to that work. The Commentaries and Letters, by contrast, were a real, previously undisclosed gap: both are named as verified, host-confirmed leads in the dossier's own §3 table, and Doc_02's original drafting never dispositioned either — not vendored, not excluded with a reason, not mentioned at all, a real omission against the Construction Framework's own field-bibliography-sweep discipline ("disposition every find — rowed, or excluded with a reason").
+
+**Fix applied to Doc_02 (Revision 4) and the Acquisition Manifest, not a full re-review round:** Doc_02 §1 and §9 now disclose the omission directly, naming both works and stating plainly that neither is currently needed for any gravity (Doc_04) or lexicon candidate (Doc_03) confirmed so far; the Acquisition Manifest adds G6 (Commentaries) and G7 (Letters), both marked low priority relative to G1–G3 since neither blocks a confirmed finding. This is a **disclosure addition**, not a change to any tested claim's substance, confidence rating, or scope boundary — it does not reopen any of Doc_02's own three cleared review rounds' findings, and per `cic-build-cycle`'s own escalation-category test, this is ordinary sourcing-completeness work (no Representative, portfolio-level, governance, or unresolved-tension question is raised). Logged in `Open_Gaps_Tracking.md` item 19. Doc_02's own disposition (Approved to proceed) is not reopened by this addendum; the addition is carried forward as a disclosed, non-blocking gap, the same standing any of G1–G5 already held.
+
 ### 2026-09-15 — Doc_03 (Lexicon Candidate List)
 
 - **Document:** `Doc_03_Lexicon_Candidate_List.md`
