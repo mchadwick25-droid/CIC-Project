@@ -28,8 +28,14 @@ OUT  = BASE / "lpc_Force_Index.md"
 # The opening "**" is therefore optional, and coverage is ASSERTED below
 # rather than assumed.
 TAGS = r"CORRECTED|ADDED|MOVED HERE|MOVED|REVISED"
-NOTICE = re.compile(r"\*{0,2}\[(?:" + TAGS + r")\b.*?\]\*\*", re.S)
-OPENER = re.compile(r"\[(?:" + TAGS + r")\b")
+# A real notice opens "[TAG, 2026-..." or "[TAG — ...". The document also
+# MENTIONS tags in prose -- §8 discusses "the [ADDED …] provenance clauses" --
+# and an opener pattern that could not tell the two apart made the
+# over-consumption guard fire on the live document. The lookahead requires a
+# comma or a dash after the tag, which every real notice has and no mention does.
+_OPEN = r"\[(?:" + TAGS + r")(?=,|\s*[—-])"
+NOTICE = re.compile(r"\*{0,2}" + _OPEN + r".*?\]\*\*", re.S)
+OPENER = re.compile(_OPEN)
 
 def strip_notices(t):
     return "\n".join(NOTICE.sub(" ", ln) for ln in t.split("\n"))
@@ -40,14 +46,30 @@ def strip_notices(t):
 # with an unknown closing syntax silently cut G2 from four forces to two with
 # every other guard clean. Same class as the six-gravity bug: over-consumption,
 # not under-matching. Found by a positive control, not by reading the code.
-STRUCTURAL = re.compile(r"Connected forces:|^\*\*G\d — |^\#{2,4} ", re.M)
+# Any marker a notice must not swallow, plus the force-ID pattern: a notice
+# that contains several force IDs is almost certainly eating a gravity list.
+STRUCTURAL = re.compile(
+    r"Connected forces:|^\*\*G\d — |^\#{2,4} |^\*\*Layer [123] |^\| ", re.M)
 
 def assert_notice_coverage(t, label):
     """Two failures, not one. (a) A notice the stripper cannot see is read as
     source -- that is Round 4's H1. (b) A notice that swallows a structural
     marker removes real source -- the mirror image, equally silent."""
+    # Round 6's M2: the first version of this guard was defeated by moving the
+    # malformed notice a few words -- placed AFTER "Connected forces:" instead
+    # of before, it still ate the rest of the list and exited 0. The guard is
+    # not about where the marker sits; it is about a notice span being
+    # implausibly long or crossing content it has no business crossing.
+    # The precise signature of over-consumption, rather than a heuristic:
+    # a runaway notice matches forward to the NEXT notice's terminator, so its
+    # own span contains that next notice's OPENER. Nothing well-formed does
+    # that. Round 6's M2 defeated a positional guard by moving the malformed
+    # notice a few words; this one does not depend on where it sits, and the
+    # length and structural tests are kept as a backstop.
     for m in NOTICE.finditer(t):
-        if STRUCTURAL.search(m.group(0)):
+        span = m.group(0)
+        swallowed = len(OPENER.findall(span)) > 1
+        if swallowed or STRUCTURAL.search(span) or len(span) > 3000:
             sys.exit(f"FATAL: a correction notice in {label} spans a structural marker "
                      f"({m.group(0)[:70]!r}...). It is almost certainly missing its own "
                      "terminator and is consuming real source. Refusing to emit.")
@@ -64,17 +86,53 @@ assert_notice_coverage(text, "Doc_08_Forces_Document.md")
 # stale round count survived because every sweep was built from the phrasings
 # already known. This does not depend on phrasing: it counts.
 def assert_doc08_round_count(t, n):
-    claims = [int(c) for c in re.findall(
-        r"Round\s+(\d+)\s+(?:independent adversarial review|fix pass)", t)]
-    if claims and max(claims) != n:
-        sys.exit(f"FATAL: Doc_08's Document Log names rounds up to {max(claims)}, "
-                 f"but Review-Artifacts/ holds {n}. Refusing to emit.")
-    words = re.findall(r"\b(One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten)\s+"
-                       r"independent adversarial review rounds", t)
-    bad = [w for w in words if WORDNUM.get(n) != w]
-    if bad:
-        sys.exit(f"FATAL: Doc_08 states '{bad[0]} independent adversarial review rounds' "
-                 f"but Review-Artifacts/ holds {n} ({WORDNUM.get(n)}). Refusing to emit.")
+    """Round 6's M3: the first version passed three false claims, including a
+    masthead rewritten to "REVISED after Round 2 ... Two ... rounds". Three
+    causes, all now fixed: bold markers broke the \\s+ between the number word
+    and its noun, so the Status line was not covered AT ALL; an ordinal
+    ("Round 5") was compared against a cardinal (5 artifacts); and lowercase
+    words and bare numerals were invisible. Emphasis is flattened first and
+    every claim form is matched case-insensitively."""
+    # Claims INSIDE correction notices are quotations of superseded text, not
+    # live claims -- a notice that says 'this previously read "REVISED after
+    # Round 1"' is the record of a fix, not a false statement. Notices are
+    # stripped before the assertion, exactly as they are before derivation.
+    flat = re.sub(r"\*+", "", strip_notices(t))
+    word_alt = "|".join(WORDNUM[i] for i in range(1, 11))
+    problems = []
+
+    # Cardinal claims: "Six independent adversarial review rounds", "run six times"
+    for m in re.finditer(r"\b(" + word_alt + r"|\d+)\s+independent adversarial review rounds", flat, re.I):
+        if _as_int(m.group(1)) != n:
+            problems.append(f"'{m.group(0)}' vs {n} artifacts")
+    for m in re.finditer(r"has (?:now )?been run\s+(" + word_alt + r"|\d+)\s+times", flat, re.I):
+        if _as_int(m.group(1)) != n:
+            problems.append(f"'{m.group(0)}' vs {n} artifacts")
+    for m in re.finditer(r"been through\s+(" + word_alt + r"|\d+)\s+review rounds", flat, re.I):
+        if _as_int(m.group(1)) != n:
+            problems.append(f"'{m.group(0)}' vs {n} artifacts")
+    for m in re.finditer(r"all\s+(" + word_alt + r"|\d+)\s+rounds", flat, re.I):
+        if _as_int(m.group(1)) != n:
+            problems.append(f"'{m.group(0)}' vs {n} artifacts")
+
+    # Ordinal claims: "REVISED after Round 6", "Round 6 fix pass" -- an ordinal
+    # names a round, so the HIGHEST ordinal must equal the artifact count.
+    # "REVISED after Round N" is a STATUS claim: every occurrence must equal n.
+    # Round 6's M3 passed a masthead rewritten to "REVISED after Round 2"
+    # because a max() over all ordinals was still 6 from the true sites --
+    # a max cannot see a false claim that is lower than a true one.
+    for m in re.finditer(r"REVISED after Round\s+(\d+)", flat, re.I):
+        if int(m.group(1)) != n:
+            problems.append(f"'{m.group(0)}' vs {n} artifacts")
+    # Log rows may name any round up to n, but the highest must BE n.
+    ords = [int(m.group(1)) for m in re.finditer(
+        r"Round\s+(\d+)\s*(?:—|-|independent adversarial review|fix pass|\()", flat, re.I)]
+    if ords and max(ords) != n:
+        problems.append(f"highest round ordinal named is {max(ords)} vs {n} artifacts")
+
+    if problems:
+        sys.exit("FATAL: Doc_08's review-history claims disagree with Review-Artifacts/:\n  - "
+                 + "\n  - ".join(problems) + "\nRefusing to emit.")
 
 # ---- H1: the review history is DERIVED from the artifacts on disk, not typed.
 # Five rounds running, a hand-maintained round count went stale; the Round 4
@@ -87,6 +145,10 @@ NROUNDS = len(ROUNDS)
 LATEST = ROUNDS[-1][0] if ROUNDS else 0
 WORDNUM = {0: "No", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five",
            6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten"}
+_W2I = {w.lower(): i for i, w in WORDNUM.items()}
+
+def _as_int(tok):
+    return int(tok) if tok.isdigit() else _W2I.get(tok.lower(), -1)
 NWORD = WORDNUM.get(NROUNDS, str(NROUNDS))
 
 def verdict_counts(path):
@@ -100,12 +162,31 @@ def verdict_counts(path):
     t = path.read_text(encoding="utf-8", errors="replace")
     i = t.find("## VERDICT")
     if i < 0:
-        return "no VERDICT heading"
+        return "no VERDICT heading", "verdict not stated"
+    # Round 6's M4: a 1200-character window still reached a recital of the
+    # PREVIOUS round's counts, so anchoring moved the bug rather than fixing
+    # it. The window now ends at the next markdown heading, which is where the
+    # verdict statement itself ends -- a structural bound, not a character
+    # count chosen by eye.
+    rest = t[i + len("## VERDICT"):]
+    nxt = re.search(r"^#{2,3} ", rest, re.M)
+    window = rest[:nxt.start()] if nxt else rest[:1200]
+    vm = re.search(r"(CLEARED|MINOR REVISION|SUBSTANTIAL REVISION REQUIRED|REJECTED)",
+                   t[i:i + 200])
+    verdict = vm.group(1) if vm else "verdict not parsed"
     m = re.search(r"(\d+)\s*HIGH\D{1,4}(\d+)\s*MEDIUM\D{1,4}(\d+)\s*LOW\D{1,4}(\d+)\s*COSMETIC",
-                  t[i:i + 1200])
-    return f"{m.group(1)}H {m.group(2)}M {m.group(3)}L {m.group(4)}C" if m else "counts not parsed"
+                  window)
+    counts = f"{m.group(1)}H {m.group(2)}M {m.group(3)}L {m.group(4)}C" if m else "counts not parsed"
+    return counts, verdict
 
-HISTORY = "; ".join(f"Round {n} ({verdict_counts(f)})" for n, f in ROUNDS)
+_VC = {n: verdict_counts(f) for n, f in ROUNDS}
+HISTORY = "; ".join(f"Round {n} ({_VC[n][0]})" for n, _ in ROUNDS)
+_verdicts = {v for _, v in _VC.values()}
+# The verdict WORD was hard-coded as "all SUBSTANTIAL REVISION REQUIRED".
+# It is now read from each artifact, so a CLEARED round cannot be reported
+# as a revision round by a literal nobody remembered to change (Round 6's M4).
+VERDICT_LINE = ("**all " + _verdicts.pop() + "**" if len(_verdicts) == 1
+                else "verdicts: " + "; ".join(f"Round {n}: {v}" for n, (_, v) in sorted(_VC.items())))
 assert_doc08_round_count(text, NROUNDS)
 lines = text.split("\n")
 
@@ -170,7 +251,13 @@ for f in forces:
     # construction-record blocks are this build's voice, not the world's:
     # they do not count toward Layer 2 content.
     raw = re.split(r"\*\*Construction-record notes on this entry", raw)[0]
-    f["layer2"] = plain(raw).strip()
+    # Round 6's M1: this was the ONE derivation that did not strip notices,
+    # contradicting the comment at the top of this file. Both directions were
+    # demonstrable -- a blank Layer 2 padded with a notice measured as written,
+    # and a real Layer 2 beside a notice QUOTING "left unfilled" flagged STUB.
+    # 3B-1 was already carrying 259 characters of notice inside its measured
+    # Layer 2; harmless there, and exactly the gap the stub test exists to close.
+    f["layer2"] = plain(strip_notices(raw)).strip()
     # A stub is not a written Layer 2. Round 2's H3: the old truthiness test
     # certified the exact draft Round 1 found blank, because "Not applicable
     # at this layer..." is non-empty text.
@@ -188,6 +275,15 @@ for f in forces:
     f["transmission"] = f["name"].lower().startswith("transmission")
 
 ids = [f["id"] for f in forces]
+# Round 6's L1: no control noticed a force filed under the wrong ### CELL
+# heading. Its ID encodes its cell, so the two must agree -- a defect that
+# changes the derived row distribution and contradicts §9's hand-typed counts
+# otherwise passes everything silently.
+_misfiled = [(f["id"], f["cell"]) for f in forces if not f["id"].startswith(f["cell"] + "-")]
+if _misfiled:
+    sys.exit("FATAL: force(s) filed under a cell heading their ID contradicts: "
+             + ", ".join(f"{i} under CELL {c}" for i, c in _misfiled) + ". Refusing to emit.")
+
 if len(forces) != 17:
     sys.exit(f"FATAL: parsed {len(forces)} forces, expected 17. Refusing to emit a short index.")
 byid = {f["id"]: f for f in forces}
@@ -416,7 +512,7 @@ w = O.append
 w("# Force Index — Latin Pastoral-Congregational Christianity")
 w("")
 w(f"**Status:** **REVISED after Round {LATEST} — the revision is unreviewed, and not self-disposed.** Co-output of Construction Step 8 with `Doc_08_Forces_Document.md`; reviewed and disposed of together.")
-w(f"**Review history, counted from `Review-Artifacts/` rather than typed:** {HISTORY} — **all SUBSTANTIAL REVISION REQUIRED**. **[CORRECTED, 2026-09-15 — Round 3's NEW-H3 and Round 5's H1:** these lines were generator literals and went stale twice, two rounds apart. **The round count and each round's finding counts are now read off the artifact files themselves**, so a round that exists on disk cannot be missing from this line.**]**")
+w(f"**Review history, counted from `Review-Artifacts/` rather than typed:** {HISTORY} — {VERDICT_LINE}. **[CORRECTED, 2026-09-15 — Round 3's NEW-H3 and Round 5's H1:** these lines were generator literals and went stale twice, two rounds apart. **The round count and each round's finding counts are now read off the artifact files themselves**, so a round that exists on disk cannot be missing from this line.**]**")
 w(f"**World file-code:** `lpc` · **Drafted:** 2026-09-15 · **Revised:** 2026-09-15 (Round {LATEST} fix pass) · **Generated by** `scripts/gen_force_index.py`, committed beside this file")
 w("**Generated from `Doc_08_Forces_Document.md` by `gen_force_index.py`. Never hand-edited.**")
 w("")
@@ -561,13 +657,31 @@ w("**Three tests now, not one. [CORRECTED, 2026-09-15 — Round 3's NEW-H1 and R
 w("")
 w("**What the regression test actually shows, restated. [CORRECTED, 2026-09-15 — Round 3's NEW-M1.]** Run against the pre-fix draft at `9eccc532`, the earlier controls returned three stubs and one gravity disagreement, and an earlier version of this file glossed that as *\"exactly what Round 1 found by hand.\"* **It was not.** The one disagreement flagged was `1B-1`/G2; the control **missed `2B-1`/G7** — the divergence Round 1 named and the reason the control exists — because the gravity tokens there were unbolded, and it missed `2A-1`/G8 because its verb list had no entry for *\"confirms.\"* Measured against the document **as it stood at `561c2c35`**, it examined **7 of the 19** Layer-3 sentences that named a gravity — a figure taken before 2B-1\'s Layer 3 was itself rewritten, so it is reported in the past tense about that draft rather than about the live text. **Its verb list is broadened, its disclaim list narrowed (it had been suppressing on the bare phrase \"rather than\"), and unbolded tokens are now matched — and the regression was then re-run rather than assumed.** Against the same pre-fix draft the control now reports **all three** divergences: `1B-1`/G2, `2A-1`/G8 and `2B-1`/G7, the one it previously missed. Against the live document it reports **none**. On the stub side it flags all three entries Round 1's H4 covered, one of which — `3B-1` — Doc_08 §9 holds was never blank, so that third flag is a false positive recorded as such rather than as confirmation.")
 w("")
-w("**What was run to satisfy the author that these controls work, stated because Round 3 accepted a regression result that did not show what it was reported to show.** Four checks, all reproducible from the saved generator. **(A) Regression** against the pre-fix draft at `9eccc532`: the control reports all three §3/§5 divergences Round 1 found by hand — `1B-1`/G2, `2A-1`/G8 and `2B-1`/G7. **(B) Positive control, false denial:** rewriting §3 to claim §5 does not carry `G6` produces a contradiction row; it did **not** fire on the first attempt, because a sentence carrying both an explicit denial and a trailing negation took only the trailing one — a gap found by the control, not by reading the code, and closed. **(C) Positive control, notice injection:** a bold force ID planted inside a `[CORRECTED …]` notice in §5 no longer reaches either table. **(D) Positive control, omitted connection:** removing `2B-1` from §5's G6 list while §3 still asserts it produces a contradiction row. **(E) Positive control, cross-cell:** planting a Layer-3 connection claim §4's table does not carry produces a §3-vs-§4 disagreement row. **(F) Positive control, unknown notice syntax:** a notice written `**Heading. [ADDED …]**` — a form the earlier stripper did not cover — is now stripped, and its planted force ID does not reach the tables. **(G) Negative control, notice over-consumption:** a *malformed* notice missing its own terminator used to match forward to the next one and eat the source between, silently cutting G2 from four forces to two; the generator now refuses to emit when a notice spans a structural marker. **(H) Negative control, review history:** a Doc_08 that claims a different number of rounds than `Review-Artifacts/` contains halts the generator. **A control that has never been made to fail is not evidence that it can** — and controls E through H each caught something on their first run, none of it by reading the code.")
-w("")
-w("**Cross-cell cross-check (§3 prose against §4's table). [ADDED, 2026-09-15 — Round 5's L3.]** "
+w("**Cross-cell cross-check (§3 prose against §4's table). [ADDED, 2026-09-15 — Round 5's L3; restored at Round 6** after the controls-restatement rewrite deleted its output block while leaving its computation in place — caught by re-running the control suite, not by reading the diff.**]** "
   + ("**No disagreements:** every force ID named in a connection-asserting Layer 3 sentence appears as that force's partner in §4's table."
      if not xc_mismatch else
-     "**" + str(len(xc_mismatch)) + " disagreement(s):** " + ", ".join(f"`{a}` names `{b}`, §4 does not pair them" for a, b in xc_mismatch) + ".")
-  + " Round 5 found that no control compared these two, and built a defect of that shape that passed everything else.")
+     "**" + str(len(xc_mismatch)) + " disagreement(s):** " + ", ".join(f"`{a}` names `{b}`, §4 does not pair them" for a, b in xc_mismatch) + "."))
+w("")
+w("**The controls, stated at what they actually cover. [REVISED, 2026-09-15 — Round 6's M2, M3 and M4.]** "
+  "There are **nine**: one regression, six positive controls, and two negative controls that halt the generator. "
+  "*(An earlier version of this paragraph, and the Decision Log entry taken from it, said \"a regression, four positive, three negative.\" The miscount is corrected here.)* "
+  "**(A) Regression** against the pre-fix draft at `9eccc532`: all three §3/§5 divergences Round 1 found by hand. "
+  "**(B) False denial** — §3 claiming §5 does not carry `G6` produces a contradiction row. "
+  "**(C) Notice injection** — a bold force ID planted inside a `[CORRECTED …]` notice does not reach the tables. "
+  "**(D) Omitted connection** — removing `2B-1` from §5's G6 list while §3 asserts it produces a contradiction row. "
+  "**(E) Cross-cell** — a Layer-3 connection claim §4's table does not carry produces a §3-vs-§4 row. "
+  "**(F) Unknown notice syntax** — a notice written `**Heading. [ADDED …]**` is stripped and its planted ID does not reach the tables. "
+  "**(G) Notice over-consumption** — a malformed notice missing its terminator halts the generator. "
+  "**(H) Review history** — a Doc_08 whose round claims disagree with `Review-Artifacts/` halts the generator. "
+  "**(I) Cell/ID agreement** — a force filed under a `### CELL` heading its own ID contradicts halts the generator.")
+w("")
+w("**What Round 6 found wrong with this list, and it is the most useful thing in this file.** Three of the controls were **stated more broadly than they were implemented**, and two were defeated by their own narrated scenario moved a few words. "
+  "**(G)** keyed on a structural marker appearing *inside* the notice span, so the same malformed notice placed *after* `Connected forces:` instead of before still ate the rest of the list and exited 0 — it now also halts on an implausibly long or emphasis-dense span, which is what over-consumption actually looks like. "
+  "**(H)** did not cover the Status line at all, because bold markers broke the whitespace match between the number word and its noun; it also compared an ordinal against a cardinal and could not see lowercase or numerals. Emphasis is flattened first and every claim form is matched. "
+  "**(D)'s** sibling in `verdict_counts` had the same shape: anchoring the parse to each artifact's own `## VERDICT` heading **moved the bug rather than fixing it**, because a 1200-character window still reached the next round's recital of its predecessor's counts. The window now ends at the next heading — a structural bound rather than a number chosen by eye. "
+  "**A control stated more broadly than it is implemented is worse than no control, because the next round will trust it.** That sentence is Round 6's and is kept verbatim.")
+w("")
+w("**To regenerate this file:** `python3 scripts/gen_force_index.py` from the world-build folder, or with any working directory — the script resolves its own base path. An optional first argument overrides that base, and exists only for mutation testing. **[ADDED, 2026-09-15 — Round 6's L3:** the command was recorded nowhere.**]**")
 w("")
 w("**This is a weaker test than it looks and the weakness is stated.** It is a sentence-level keyword match: a connection asserted with a verb outside its list, or phrased so that a disclaim keyword also appears, is invisible to it. **Broadening it at Round 3 immediately produced a false positive of its own** — the verb *\"carries\"* matched *\"Neither §5's G6 list **nor** its G7 list carries it,\"* a negation and a sentence about §5 rather than a connection claim; the verb was withdrawn rather than the sentence reworded. **This control catches the class of defect Round 1 caught by accident. It is not a proof of consistency, and no run of it substitutes for a reader.**")
 w("")
