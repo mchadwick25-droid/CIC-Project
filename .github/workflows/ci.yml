@@ -433,17 +433,18 @@ jobs:
     needs: changes
     if: needs.changes.outputs.engine == 'true'
     # Library Access Gate D3 (Ministry/Features/Library-Access-Gate/
-    # D3-Converged-Design.md) increment 3, report mode only: runs the
-    # confinement battery's own tests and the M9 selftest (mirrors
-    # engine/m1/selftest.py's own contract - the clean fixture is clean,
-    # every seeded M9 defect fires its named check). `engine.m9.cli check`
-    # - the real-fleet, waiver-evaluated, CI-blocking command - lands in
-    # increment 4 (Q3); until then this job cannot fail the run over real
-    # fleet findings, only over the fixture selftest or the unit tests.
+    # D3-Converged-Design.md) increment 4 (Q3), blocking: pytest covers the
+    # confinement battery's own tests, the M9 selftest (mirrors
+    # engine/m1/selftest.py's own contract) and enforce.py's waiver-hygiene
+    # tests; `engine.m9.cli check` then runs both gate batteries against
+    # every built/admitted/open world on disk and fails the run on any
+    # un-waived finding, stale or expired waiver, or waiver naming a world
+    # grandfathering has closed to (SS4.2). ACCEPTED_OPEN in
+    # engine/m9/enforce.py is the waiver list Mark reads before merge.
     # A `library` path-filter group (cic/corpus-map/**, cic/texts/**)
     # lands in increment 5 - engine/m9/** changes already trigger this job
     # via the existing `engine` group below.
-    name: M9 confinement check (Library Access Gate, report mode)
+    name: M9 confinement check (Library Access Gate)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -454,7 +455,7 @@ jobs:
           cache-dependency-path: engine/m1/requirements.txt
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/m9/tests -q
-      - run: python -m engine.m9.cli selftest
+      - run: python -m engine.m9.cli check
 
   api-tests:
     needs: changes
