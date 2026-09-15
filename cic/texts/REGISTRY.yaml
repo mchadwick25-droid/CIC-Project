@@ -2072,3 +2072,25 @@
     own inserted PD disclaimer page kept in the extracted text rather than stripped, per
     this corpus's standing practice. RIGHTS: public domain by date, a 1919 publication. Raw
     djvu OCR text; runs of 2+ spaces collapsed to one throughout, no wording changed.
+- filename: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+  supplied_by: Claude (this build thread; this session had working outbound access to
+    archive.org, contrary to this project's general note that patristic/Reformation text
+    hosts are sandbox-blocked - flagged in Doc_02 for a coach thread's attention, since it
+    may be worth re-testing for other worlds rather than assumed still blocked)
+  date_added: '2026-09-15'
+  notes: >-
+    Mutual Consent in Regard to the Sacraments, Between the Ministers of the Church of
+    Zurich and John Calvin, Minister of the Church of Geneva (the Consensus Tigurinus,
+    1549, published 1554), trans. Henry Beveridge, in Tracts Relating to the Reformation,
+    Vol. II (Edinburgh: The Calvin Translation Society, 1844). This is the single most
+    significant open acquisition item named in this world's own Doc_01 (Sec8 item 2) and
+    Open_Gaps_Tracking.md (item 3) - the actual documented Zurich/Geneva doctrinal bridge
+    this world's own Strand Determination rests on. Fetched directly (curl, raw bytes) from
+    Internet Archive, identifier tractsrelatingto2calv. No explicit copyright-status
+    metadata field on this item; RIGHTS: public domain by date, an 1844 publication. Raw
+    djvu OCR text; runs of 2+ spaces collapsed to one throughout, no wording changed. This
+    is a BOUNDED EXTRACT (pp. 195-247 of the printed volume) covering the Consensus proper
+    (Calvin's prefatory letter, the Zurich pastors' reply, the 26 Heads of Agreement, and
+    Calvin's own appended exposition) - not the volume's other contents (an earlier Short
+    Treatise on the Lord's Supper, or Calvin's later, separate Second Defence against
+    Westphal, which immediately follows in the same volume).

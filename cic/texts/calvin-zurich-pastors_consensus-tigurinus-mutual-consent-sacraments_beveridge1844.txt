@@ -1,0 +1,2058 @@
+     __________________________________________________________________
+
+           Title: Mutual Consent in Regard to the Sacraments, Between
+                  the Ministers of the Church of Zurich and John Calvin,
+                  Minister of the Church of Geneva (the Consensus
+                  Tigurinus, 1549, published 1554)
+      Creator(s): John Calvin
+                  The Pastors of the Church of Zurich (Heinrich Bullinger
+                  and colleagues)
+                  Henry Beveridge (Translator)
+     Print Basis: Edinburgh: The Calvin Translation Society, 1844 --
+                  Tracts Relating to the Reformation, Vol. II ("Tracts
+                  Containing Treatises on the Sacraments, Catechism of
+                  the Church of Geneva, Forms of Prayer, and Confessions
+                  of Faith")
+          Rights: Public Domain
+Source Collection: Internet Archive, archive.org identifier
+                  tractsrelatingto2calv. No explicit copyright-status
+                  metadata field on this item; PD basis is the 1844
+                  publication date itself (182 years before this
+                  session, 2026), the same rule this corpus's other
+                  archive.org-sourced Beveridge/CTS volumes rest on.
+                  Fetched directly (curl, raw bytes, the _djvu.txt OCR
+                  transcription), 2026-09-15.
+    Rights basis: 1844 publication date places this well out of US
+                  copyright.
+   OCR quality: Raw, uncorrected djvu OCR of a mid-19th-century volume.
+                  Runs of 2+ spaces (a scan-layout artifact) collapsed to
+                  one throughout; no wording changed. OCR misreadings
+                  typical of this period's scans (e.g. "CllUKOHES" for
+                  "CHURCHES" in running page headers, "Wliilo" for
+                  "While") are left as found, per this corpus's standing
+                  practice for archive.org scans -- not cleaned up.
+   Extraction note: this file is a bounded extract from the full v.2
+                  volume (pp. 195-247 of the printed text, OCR lines
+                  8911-10911 of the volume's own _djvu.txt), covering
+                  Calvin's prefatory letter to the Zurich pastors, the
+                  Zurich pastors' reply, the twenty-six "Heads of
+                  Agreement" themselves, and Calvin's own appended
+                  exposition -- i.e. the Consensus Tigurinus proper, not
+                  the volume's other, separately titled contents (the
+                  "Form of Administering the Sacraments," a "Short
+                  Treatise on the Lord's Supper" appearing earlier in the
+                  same volume, or Calvin's later, distinct "Second
+                  Defence... in Answer to the Calumnies of Joachim
+                  Westphal," which immediately follows this text in the
+                  same volume and is not part of the Consensus itself).
+                  This closes a genuinely open acquisition gap named in
+                  World-Builds/Reformed-Zurich-and-Geneva/Doc_01 Sec8
+                  item 2 and Open_Gaps_Tracking.md item 3: this world's
+                  own Step 0 and Source Readiness Dossier had searched
+                  for this text and found only a 1958 Eerdmans reprint
+                  (access-restricted); the original 1844 Calvin
+                  Translation Society volume, confirmed public domain,
+                  had not previously been located in this project.
+     __________________________________________________________________
+
+MUTUAL CONSENT 
+
+
+IN REGARD TO 
+
+
+THE SACRAMENTS; 
+
+
+BETWEEN 
+
+
+THE MINISTERS OF THE CHURCH OF ZURICH 
+
+
+AND 
+
+
+JOHN CALVIN, MINISTER OF THE CHURCH OF GENEVA. 
+
+
+NOW PUBLISHED 
+
+BY THOSE WHO FRAMED IT. 
+
+M.D.LIV. 
+
+
+JOHN CALVIN 
+
+TO THE MOST EXCELLENT MEN AND FAITHFUL SERVANTS OF CHRIST, 
+
+THE PASTORS AND DOCTORS OF THE CHURCH OF ZURICH, 
+
+HIS VERY DEAR COLLEAGUES AND RESPECTED BRETHREN. 
+
+Although I speak with you repeatedly on the same sub- 
+ject, I do not think there is any reason to fear that you will 
+think me irksome. As we agree in judgment, you cannot 
+but approve what I do. In regard to the keenness with 
+which I urge the matter, I am stimulated by the constant 
+entreaties of worthy individuals. I have already sometimes 
+mentioned that, for a slight cause, and yet not without some 
+apparent ground, very many are offended because my doc- 
+trine seems in some respect, I scarcely know what, to differ 
+from yours. They highly revere your Church, which is 
+adorned by many noble gifts : they also defer somewhat to 
+our Church, and perhaps to myself as an individual. They 
+are desirous in learning the doctrine of piety to be assisted 
+by my writings, but would not have any appearance of dis- 
+agreement to retard their progress. Thinking no means 
+better fitted to remove this offence than a friendly confer- 
+ence, in which we might together adopt means to testify our 
+agreement, I for this purpose paid you a visit, my venerable 
+colleague William Farel, (indefatigable soldier of Christ as 
+he is,) who had suggested and advised the visit, not declin- 
+ing to accompany me. That we are agreed, we can indeed 
+on both sides truly and faithfully declare ; but as I cannot 
+persuade all of the fact as it really stands, it very much 
+grieves me that some remain in anxiety and suspense, for 
+whose peace of mind I am desirous to consult. Hence, as I 
+observed before, I think that I am not acting out of season 
+in urging that there should be some public testimony of the 
+agreement existing between us. 
+
+
+MUTUAL CONSENT AS TO THE SACRAMENTS. 201 
+
+The leading articles on wliich we conferred I have deemed 
+it of consequence briefly to collect and digest, in order that, 
+if my purpose shall be approved by you, it may be in the 
+power of any one to have, as it were, a tabular view of what 
+Avas done and transacted between us. That in every thing 
+I set down I give a faithful record of the conference, I am 
+confident that you will bear me witness. That we (I mean 
+Farel and m^^self) have, with like zeal as your own, studied 
+sincere perspicuity, free from all gloss and cunning, pious 
+readers will, I hope, perceive. I wish it however to be un- 
+derstood that nothing is here contained which our colleagues 
+also, as many as serve Christ under the jurisdiction of the 
+city of Geneva or in the Canton of Neufchatel, have not ap- 
+proved by their subscription. Farewell, most excellent men 
+and brethren, whom I truly love in my heart. May the 
+Lord always guide you by His Spirit, and bless your labours 
+for the edification of His Church. 
+
+Geneva, 1st August 1549. 
+
+
+LETTER FROM THE PASTORS OF ZURICH TO CALVIN. 
+
+The Pastors, Doctors, and Ministers of the Church of 
+Zurich to their vert dear Brother, John Calvin, 
+FAITHFUL Pastor of the Church of Geneva. 
+
+Calvin, most respected brother in the Lord, your ardent 
+zeal and sedulous labours in endeavouring, from day to day, 
+to illustrate the doctrine of the Sacraments, and remove 
+from amid the Church offences which seem to have arisen 
+from some rather obscure exposition of these ordinances, are 
+so far from being irksome to us, that we think them not 
+only worthy of being proclaimed with applause, but also 
+assisted and imitated by us to the best of our ability. For 
+while the sacred laws of our Prince, Jesus Christ, refer all 
+actions to the cultivation of charity, and zeal to assist each 
+other, there is nothing they more strictly prohibit than for 
+any one to throw an obstacle in another's way so as to pre- 
+vent him from judging rightly and truly concerning things, 
+
+
+202 MUTUAL CONSENT OF THE CHURCHES OF ZUKICH 
+
+the knowledge of which is necessary, or at least useful and 
+salutary to men, or from properly performing the duty which 
+he owes botli to God and his neighbour. With the same 
+strictness they enjoin us to remove, as far as may be, the 
+oifences at which men are wont to stumble. 
+
+Wherefore the cause of the visit which you and our vener- 
+able brother, the Rev. William Farel, paid us seemed to us 
+most honourable and specially worthy of men holding office 
+in the Church. The object was, first, that we should, by 
+friendly conference, mutually and in the simplest terms pos- 
+sible, explain our views on the Sacraments, especially on 
+those articles on which some controversy had hitherto ex- 
+isted among those who in regard to other articles delivered 
+the purer doctrine of the gospel with great uniformity ; and, 
+secondly, that we should testify our consent by a published 
+document. We see no more convenient way and method of 
+ending religious controversy or suppressing vague suspicions 
+where no discrepancy exists, or, in fine, of removing offences 
+which sometimes arise in the Church of God from contrariety 
+of opinion in the teachers, than by mutually explaining their 
+mind with the greatest openness both by speech and writing. 
+
+But it were little that the truth thus investigated and 
+discovered should be retained by them if it is not made 
+patent to other men also, by expounding to them more fully 
+what had been more sparingly indicated, and enunciating 
+what was more obscurely expressed in more familiar terms, 
+and making any thing formerly ambiguous clear by words 
+certain, appropriate, and significant. This method was ever 
+approved by the Fathers of the Church, and was very often 
+employed, never without advantage to the Church, in settling 
+religious controversies. In short, it was approved by the 
+sovereign example of the a]30stles of Jesus Christ our Lord 
+and our God. For just in this manner and way, as we read 
+in the fifteenth chapter of the Acts, was a very great dissen- 
+sion quelled, when the Apostles and their genuine disciples 
+taught that hearts were purified by faith in the name of 
+Christ, and men saved wholly by his grace ; while some per- 
+sons contended that they behoved to be circumcised, and 
+keep the law of Moses. 
+
+
+, AND GENEVA AS TO THE SACEAMENTS. 203 
+
+Wherefore, dear brother Calvin, we cannot but entirely 
+approve of your holy efforts, and those of all pious men, who 
+study by fit means to remove offences, and renew the totter- 
+ing peace and tranquillity of the Church, endeavouring, by 
+simple and accurate explanation, to render Christian doc- 
+trine more and more plain and clear to men, and rid their 
+minds of vague causes of discord, and endeavouring, more- 
+over, to bring back those who have somewhat differed in 
+word and opinion to true, entire, and holy concord. That 
+the public document in which we wished clearly to testify 
+our agreement, alike to the pious and to the enemies of the 
+truth, will have the beneficial effect which you augur in 
+your letter, we are induced to hope, after having made the 
+trial. We transmitted the formula of our mutual consent to 
+some brethren, and have exhibited it to some persons here 
+who love Christ and truth, and are not unskilled in sacred 
+things. They have not only recognised that we agree even 
+in those articles in which it was hitherto supposed by many 
+that we differed, but have also given thanks to Christ our 
+Saviour on perceiving that we agree in Grod and in truth, 
+and entertain great hopes of larger fruit in the Church. 
+
+Some, however, have desired a more copious treatment of 
+this subject, because of certain minds, who, on hearing of 
+our purpose, are not easily satisfied. But of what use was it 
+to explain more fully that God is the author of the sacra- 
+ments, and instituted them for the legitimate sons of the 
+Church, or to tell how many sacraments were delivered by 
+Christ to the Church, or what have been devised by men — 
+what the parts of sacraments, at what place, at what time, 
+by what sacred instrumentality the ordinances are to be per- 
+formed ? That in these, and some other articles of the same 
+class, there was no semblance or shade of difference be- 
+tween us, is sufficiently proved by published treatises, which 
+either our preceptors, of pious and blessed memory, or we 
+ourselves, have written on the sacraments. Of the bodily 
+presence of Christ our Lord, of the genuine meaning of the 
+formal words, of the eating of the body of Christ, of the end, 
+use, and effect of the sacraments, (articles on which many 
+hitherto suppose that our opinions, or at least our words, 
+
+
+204 MUTUAL CONSENT OF THE CllUKOHES OF ZURICH 
+
+were conflicting,) we have spoken so copiously, so plainly 
+and simply, as to hope that men studious hoth of brotherly 
+concord and clear truth, will not feel in our document any 
+want of either copiousness or clearness. Nor are we diffi- 
+dent that the ministers of other churches in Switzerland will 
+readily acknowledge that the doctrine we have expressed 
+on the sacraments is the very same that has for many years 
+been commonly received among the Christian people, and 
+that they are the very last to differ from us. This, too, we 
+promise ourselves, not without strong reasons, from all the 
+pious in other nations. 
+
+Should any one, however, produce a clearer explanation 
+of the sacraments, we would rather use it with all the pious, 
+than urge one individual to subscribe an Agreement in 
+which we have used the words of Holy Scripture, and aptly 
+expressed in what sense we understand them, and hold it 
+perfectly clear that we agree with the Catholic Church, 
+Even though this document should not have removed the 
+offences of all whom any semblance of disagreement among 
+us has impeded in the ways of the Lord, we still think, 
+however, that it has admirably fulfilled its office in having 
+attested to all clearly, and without equivocation, that we, 
+whom God has enabled to think and speak the same thing 
+on the doctrines of religion, do not at all differ in the exposi- 
+tion of its ordinances. Farewell, dearest Brother. 
+
+Zurich, 30th August 1549. 
+
+
+JOHN CALVIN 
+
+To THE Pastors of the Town and Territory of Zurich, of 
+Berne, Basue, Schaffhonsen, Coire, and all the Country 
+OF the Grisons, of St. Gall, Bienne, Milhausen, and Neuf- 
+chatel, his well-beloved Brethren and Servants of Jesus 
+Christ.^ 
+
+My Dear and Honoured Brethren, 
+
+Four years ago we caused to be printed a brief statement 
+of our agreement in doctrine touching the sacraments, which 
+
+^ From the French. 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 205 
+
+we thought well fitted to stifle the troublesome disputes 
+which had too long been carried on between learned and 
+God-fearing people. And certainly we had inserted enough 
+in that little summary to appease and satisfy all well dis- 
+posed minds, as in fact many learned and honourable j^er- 
+sons have not only approved our measure, but also declared 
+that our doctrine therein pleased them exceedingly. It 
+some from being somewhat obstinate in their fancy, or 
+rather, as happens after great disturbances, from having 
+some remains of suspicion rooted in their heart, have not 
+been able to come so soon to a full agreement with us, still 
+by keeping silence, they have shown that they considered 
+nothing better than to cherish peace and friendship. Still, 
+however, some ignorant and wrong-headed persons give 
+themselves such license in disturbing the matters set at 
+rest, that if we do not come forward to repress them, there 
+is reason to fear that they will kindle a new war. 
+
+It is true, indeed, that as they are few in number, and 
+are possessed of no quality which can give them authority 
+or credit, while moreover they by their foolish babble expose 
+themselves to universal hatred and derision, we mio-ht with 
+good reason despise them, were it not that by making a show 
+of advocating the public cause, they under such pretext, 
+vain though it be, abuse the weak who are not sufficiently 
+on their guard. "Wherefore seeing that their audacity does 
+great harm, and that the more patient we are the more it 
+increases and breaks bounds, we cannot do better than resist 
+it, necessity constraining us thereto. 
+
+I can indeed declare, that although their books fly up and 
+down, vexing the good, disturbing the weak, and arming the 
+wicked with slander, it is with great regret, and as it were 
+in spite of myself, that I have engaged in putting a stop to 
+their foolishness. But because I would have thought it 
+cruel if, on discovering their fallacies, I had not delivered 
+many worthy simple persons from error, I have not hesitated 
+to oppose myself frankly to these rioters who only seek to 
+throw every thing into confusion. 
+
+I have had in view also to remind persons of weight and 
+learning, whose names these brainless fellows pretend to 
+
+
+206 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+use, that it is a shame in them to give loose reins to evil by 
+their silence. For while all Christians ought to endeavour 
+to extinguish the fire which Satan is endeavouring to kindle 
+up by such bellows, the persons referred to, whom these 
+disturbers bring into their quarrel, have more interest in 
+this than we have, and therefore ought to strive doubly to 
+repress their unseasonable intermeddling, which redounds to 
+the common dishonour of many churches. 
+
+For the hot-headed men to whom I refer, stirring up the 
+contention which formerly existed in regard to the Sacra- 
+ments, pretend to maintain the doctrine which is preached 
+in Saxony and Lower Germany. Now when that is heard 
+and believed, some are troubled because of the respect 
+which they bear to those churches, others make a mock 
+of all the teachers in that quarter, seeing they make use 
+o£ such creatures to plead their cause, while several know- 
+ing well that the sounder part give them no countenance, 
+inveigh against their excessive patience. Meanwhile the 
+declared enemies of Jesus Christ are delighted at seeing us 
+fighting together as if it were a kind of cock-fight. Now 
+since it is perverse and unworthy dissimulation to give loose 
+reins to evil, persons of letters and renown in those countries 
+should consider well, in discharging their duty, whether it be 
+possible to repress the impetuous rage of those who trouble 
+the Church without cause. 
+
+As I am desirous to bring back to the good way all who are 
+in any degree fit to be dealt with and have not yet exceeded 
+all bounds, that they may have it in their power to return 
+peacefully, I shall here refer to only one individual, and that 
+without naming him. 
+
+This foolish man, after boasting loudly of his great zeal 
+for the Catholic faith, prays on the learned and renowned 
+(persons whom I love and honour, he calls his masters) to 
+join in assisting him. The high honour which he pays 
+them, is to arm them against us. These excellent doctors 
+are to follow the rash course of their scholar as archers do a 
+man-at-arms. But on whom does he wish war to be made ? 
+He answers in a single word, on the " Sacramentarians.'' 
+But when he is pleased to explain, he declares that all 
+
+
+AND GENEVA AS TO THE SACEAMENTS. 207 
+
+liis talk is against those who leave nothing to the sacrament 
+of the Supper but bare and empty signs. If so, he had as 
+well rest himself, and leave the office to more competent 
+persons. There are famous churches in the country of 
+Switzerland and the Grisons, among which our own may 
+well be classed. Surely far better captains will be found 
+among us to maintain the dignity and virtue of the sacra- 
+ments than such a gendarme as he. Moreover, there are 
+an infinite number of persons who will make a better de- 
+fence of this cause, and be faithfully enough disposed to it. 
+For who is there amongst us who labours not to show that 
+the Sacraments are conjoined with their reality and eifect ? 
+
+But when this venerable doctor, after so fine a preface, 
+puts into his list several worthy persons who are as distant 
+from this crime as heaven is from earth, and not only so, but 
+expressly refers to our Agreement, as if we had therein con- 
+sented to the error of which he speaks, instead of having ex- 
+pressly condemned it, is not the assertion too impudent and 
+the absurdity too gross ? It is not necessary to go far for 
+arguments in our defence, seeing that this foolish man 
+shortly afterwards quotes our own words, in which we openly 
+acknowledge that the body of Jesus Christ is truly commu- 
+nicated to believers in the Supper. I pray you, do we 
+leave nothing but empty signs when we affirm that what is 
+figured is at the same time given, and that the effect takes 
+place ? To cover himself, he has recourse to a subterfuge 
+the most meagre and frivolous imaginable. He says, that 
+we speak of a spiritual manner of eating. How then ? 
+Would he have the flesh of the Christ to be eaten like the 
+beeves of his country ? But he adds, he does not think that 
+we speak of the true body : as if we imagined the body of 
+Christ to be a phantom. We leave this reverie to him and 
+his fellows. 
+
+Holding it as a settled point, that Jesus Christ has only 
+a true and natural body, we say that as he was once oflered 
+on the cross to reconcile us to God, he is also daily offered 
+in the Supper. For the Lord Jesus, to communicate the gift 
+of salvation which he has purchased for us, must first be 
+made ours, and his flesh be our meat and nourishment, see- 
+
+
+208 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+ing that it is from it that we derive life. Such are the words 
+which we clearly use in our Agreement. 
+
+But this worthy corrector, bringing forward what suits his 
+purpose, like a traitor and falsifier, keeps out this article, 
+though it is the chief As he had professed to quote our 
+sentences word for word, by what right or title does he 
+separate, not to say dissever, members which are joined to- 
+gether, so that our meaning is not given ? Is not this to act 
+like a mad dog who bites straightforward at all the stones 
+in his way ? And yet, shortly after, he cannot refrain 
+from producing our testimonies to the reality of the Sacra- 
+ments, which he would falsely make it to be believed that 
+we deny. But here this disturber charges us with finesse 
+and cunning, because he says, that by talking at large of 
+receiving Christ in a spiritual manner we impose on the 
+simple. As if we could spiritually communicate with Jesus 
+Christ without having him dwelling in us by means of faith, 
+and being united to his body so as to live in him. This cannot 
+be, unless Jesus Christ, inasmuch as he was once offered in 
+sacrifice for us, give himself to us in order that we may enjoy 
+him. Hence it follows, that his flesh gives us life. 
+
+After this fine preface, this great defender of the faith, in 
+order to specify the error against which he is combating, 
+strives to show that there is great diversity of opinion 
+amongst us, that he may by this means throw obloquy upon 
+us. He takes it for an axiom, that the characteristic of 
+heretics is to disagree. Though I should grant what he 
+asks, I maintain that it does not touch us. He says, that 
+we differ, inasmuch as, according to some, the bread signifies 
+the body ; according to others, is a mark or model of the 
+body ; to others, its sign ; to others, its figure ; to others, a 
+memorial ; to others, a representation ; to others, an evidence 
+or seal of the communion which we have with Christ ; to 
+others, a remembrance of the body which was delivered for 
+us; to others, an assurance to testify to us his spiritual grace; 
+to others, the communion which we have in the body of 
+Christ. Who, pray, would not think on hearing him speak 
+thus, that he is a mere dissembler who has an understanding 
+with us ? For it is impossible better to commend and prove 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 209 
+
+a good agreement and full conformity than by collecting all 
+these forms of speech which he opposes to each other as quite 
+contrary, while every one sees that they all come to the same 
+thing. Moreover, to play his part with more finesse, he is 
+not contented with giving a simple narrative, but has framed 
+a table so as it were to exhibit the thing to the eye. Mean- 
+while, seeing that, as far as the words go, St. Matthew is less 
+conformable to St. Paul, and St. Mark to St. Luke, than a 
+dozen of expositors whom he produces as discordant with 
+each other, to get quit of this difficulty he says that we not 
+only differ in words but disagree in meaning. Let us then 
+make a comparison of the whole, to judge if it is so. 
+
+What St. Matthew and St. Mark call blood, Luke and St. 
+Paul call covenant in the blood. Here is great diversity. 
+On our part what does he find? Surely the words sign, 
+signification, figure, earnest, memorial, representation, do 
+not give a contrary meaning, seeing they are so closely con- 
+nected together that any one draws the others after it. You 
+see what the reasons are which have moved this wrong- 
+headed man to forge in his closet fiery darts to set all Europe 
+in flames if he could. 
+
+But what does he say for himself and his companions ? 
+In one place he affirms that the words of Christ, when he 
+says that the bread is his body, are sufficiently clear of 
+themselves and need no explanation. Soon after he denies 
+not that there is some figure. It is unnecessary for us to 
+inquire farther against whom he means to strike, since we 
+see that in his frenzy he breaks down of himself Still, at 
+all events, let him name this figure which, he says, does not 
+prevent the bread from being properly the body of Christ 
+For whatever the figure be, the effect of it is to make the 
+sense to be neither simple nor literal. Thus he is caught 
+as in a trap. For when in bringing forward his opinion, he 
+agrees not with those whom he calls heretics, it follows from 
+his argument, that he himself is of the number, unless he 
+can show that his figure, which he conceals, is by universal 
+consent so holy and sacred, that it is not lawful to think any 
+ill of it. In concealing it he uses finesse to prevent judg- 
+ment being passed upon it. 
+
+VOL. II. 0 
+
+
+210 MUTUAL CONSENT OF THE CllURClIES OF ZURICH 
+
+But more than tliis, he confesses that some of us use the 
+very words which he holds to be good and Catholic, though 
+he says that their meaning is not so. In that case what will 
+become of the great contrariety of expressions which alone, 
+according to him, make heretics even of those who are con- 
+strained to be different from others, in order not to give 
+consent to error. It is certainly very distressing to see an 
+impetuosity so blind that it would be unpardonable in a 
+youth, thus transporting a poor old man and exposing him 
+to the derision of children. 
+
+I mean not to disguise that he rakes together some pas- 
+sages from certain expositors, which apparently do not accord 
+with each other, although in truth they may be reconciled. 
+But the evil is that, in the first place, he maliciously lays 
+hold of what is touched upon as it were by the by, and turns 
+in this way and in that, as if it were to give a full determi- 
+nation of the whole matter ; and secondly, it is rather too 
+tyrannical and barbarous in him to lay down a law compel- 
+ling all to speak in the same style and language, without 
+one syllable of difference, seeing that each has his own j^e- 
+culiar mode of expressing himself, and ought to have liberty 
+to do so. One has said that the mystical body of Christ is 
+here figured. What then ? Has not Augustine said the 
+like ? not to mention St. Paul, when he says that we are all 
+one bread. Another has said that the Supper is a solemn 
+memorial of the redemption which has been purchased for 
+us. What ? Does not this correspond very well with that 
+which is taught us not only by St. Paul but our Sovereign 
+Master, viz., that this sacrament has been ordained in order 
+that his death may be shown forth ? There was no occasion 
+to make so much noise or excite any disturbance, far less is 
+there any excuse for a man who calls himself a minister of 
+peace, and in fact bears the message of reconciliation between 
+God and men, when he raises such unseasonable alarm. 
+
+But assume that there was formerly some discordance, be- 
+cause the thing could not be fully cleared uj) at the first 
+glance and disposed of, what humanity is there in reopening 
+a sore which was closed up and cured ? In order that the 
+faithful might not be distracted by disputes which have only 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 211 
+
+too much j)revailed, we proposed to tliem our Agreement by 
+which they could hold. This good zealot saw clearly that 
+all whom he styles Sacramentarians have one same faith and 
+confess it as with one same mouth, and even if the two ex- 
+cellent doctors, ZuingliusandŒcolompadius, who were known 
+to be faithful servants of Jesus Christ, were still alive, they 
+would not change one word in our doctrine. For our good 
+brother of blessed memory, Martin Bucer, after seeing our 
+Agreement, wrote me that it was an inestimable blessing for 
+the whole Church. Wherefore there is the more malice in 
+this new corrector thus stirring ujd odium on account of it. 
+On my part, not to pay him back in kind, but to repel the 
+foolish calumny with which he has been pleased to assail us, 
+I will reply in three sentences — first, it is characteristic of 
+the devil to be a calumniator, as it is his name ; secondly, 
+it is also his characteristic to obscure what is clear, to stir 
+up noise and discord by disturbing the peace ; and, finally, 
+it is his characteristic to break and destroy the unity of the 
+faith. Since all these three meet in this man, I have no 
+need to pronounce him a son of the devil, since the thing 
+shows to great and small what he is. 
+
+On the whole, my dear and honoured brethren, as we 
+ought to take at least as much pains in maintaining the 
+truth and cherishing concord as Satan in striving to ruin 
+both, I have wished to do what was in my power, and also 
+try if, peradventure, those who have hitherto been of too 
+obstinate a temper might be tamed ; if not, that those who 
+are of sound judgment should be furnished with the defence 
+of our cause, so as to be tlie better able to stop their mouths. 
+Now the method which I have here adopted, of giving a 
+fuller explanation of our meaning, has seemed to me the 
+most proper. For the too great brevity of our first writing 
+lays it open to much cavilling, and does not remove scruples 
+which are deeply rooted. I have therefore dilated the sum- 
+maiy which was formerly printed, and made the same con- 
+fession at greater length, to render it more clear. 
+
+This blockhead, of whom I am sorry to speak so often, 
+reproaches us with having such an abyss of opinions that no 
+one understands what his companion would say. Now, me- 
+
+
+212 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+thinks, I know so well what you believe and hold, that I am 
+confident of having here written down what each of you 
+would write in the same place. For I have not usurped the 
+office of dictating what you are to confess after me, but 
+rather refer the whole to your discretion. I have, however, 
+proceeded boldly to compose this short treatise, because by 
+former experience I had learned how agreeable my labour 
+had been to you, and that you had also sufficiently declared 
+it to be so. Brethren, I commend you to God, praying him 
+to guide you by his Sj)irit, and bless the pains which you 
+take to edify his Church. My colleagues, ministers of the 
+word, salute you. 
+
+G-ENEVA, 28th November 1554. 
+
+
+HEADS OF AGREEMENT. 
+
+I. THE WHOLE SPIRITUAL GOVERNMENT OF THE 
+CHURCH LEADS US TO CHRIST. 
+
+Seeing that Christ is the end of the law, and the know- 
+ledge of him comprehends in itself the whole sum of the 
+gospel, there is no doubt that the object of the whole spiri- 
+tual government of the Church is to lead us to Christ, as it 
+is by him alone we come to God, who is the final end of a 
+happy life. Whosoever deviates from this in the slightest 
+degree, can never speak duly or appositely of any ordinances 
+of God. 
+
+
+2. A TRUE KNOWLEDGE OF THE SACRAMENTS FROM 
+THE KNOWLEDGE OF CHRIST. 
+
+As the sacraments are appendages of the gospel, he only 
+can discourse aptly and usefully of their nature, virtue, office, 
+and benefit, who begins with Christ : and that not by ad- 
+verting cursorily to the name of Christ, but by truly hold- 
+
+
+, AND GENEVA AS TO THE SACRAMENTS. 213 
+
+ing for what end he was given us by the Father, and what 
+blessings he has conferred upon us. 
+
+3. NATURE OF THE KNOWLEDGE OF CHRIST. 
+
+We must hold therefore that Christ, being the eternal 
+Son of God, and of the same essence and glory with the 
+Father, assumed our flesh, to communicate to us by right of 
+adoption that which he possessed by nature, namely, to 
+make us sons of God. This is done when ingrafted by faith 
+into the body of Christ, and that by the agency of the Holy 
+Spirit we are first counted righteous by a free imputation of 
+righteousness, and then regenerated to a new life : whereby 
+being formed again in the image of our heavenly Father, 
+we renounce the old man. 
+
+4. CHRIST A PRIEST AND KING. 
+
+Thus Christ, in his human nature, is to be considered as 
+our priest, who expiated our sins by the one sacrifice of his 
+death, put away all our transgressions by his obedience, pro- 
+vided a perfect righteousness for us, and now intercedes for 
+us, that we may have access to God, He is to be considered 
+as a repairer, who, by the agency of his S23irit, reforms 
+whatever is vicious in us, that we mav cease to live to the 
+world and the flesh, and God himself may live in us. He is 
+to be considered as a king, who enriches us with all kinds 
+of blessings, governs and defends us by his power, provides 
+us with spiritual weapons, delivers us from all harm, and 
+rules and guides us by the sceptre of his mouth. And he 
+is to be so considered, that he may raise us to himself, the 
+true God, and to the Father, until the fulfilment of what is 
+finally to take place, viz., God be all in all 
+
+5. HOW CHRIST COMMUNICATES HIMSELF TO US. 
+
+Moreover, that Christ may thus exhibit himself to us and 
+produce these eflects in us, he must be made one with us, 
+and we must be ingrafted into his body. He does not infuse 
+
+
+214 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+his life into us unless lie is our head, and from him the 
+whole body, fitly joined together through every joint of 
+supply, according to his working, maketh increase of the 
+body in the proportion of each member. 
+
+6. SPIRITUAL COMMUNION.— INSTITUTION OF THE 
+SACRAMENTS. 
+
+The spiritual communion which we have with the Son of 
+God takes place when he, dwelling in us by his Spirit, 
+makes all who believe capable of all the blessings which 
+reside in him. In order to testify this, both the preaching 
+of the gospel was appointed, and the use of the sacraments 
+committed to us, namely, the sacraments of holy Baptism 
+and the holy Supper. 
+
+7. THE ENDS OF THE SACRAMENTS. 
+
+The ends of the sacraments are to be marks and badges 
+of Christian profession and fellowship or fraternity, to be 
+incitements to gratitude and exercises of faith and a godly 
+life ; in short, to be contracts binding us to this. But 
+among other ends the principal one is, that God may, by 
+means of them, testify, represent, and seal his grace to us. 
+For although they signify nothing else than is announced to 
+us by the word itself, yet it is a great matter, first, that 
+there is submitted to our eye a kind of living images which 
+make a deeper impression on the senses, by bringing the 
+object in a manner directly before them, while they bring 
+the death of Christ and all his benefits to our remembrance, 
+that faith may be the better exercised ; and, secondly, that 
+what the mouth of God had announced is, as it were, con- 
+firmed and ratified by seals. 
+
+8. GRATITUDE. 
+
+Now, seeing that these things which the Lord has given 
+as testimonies and seals of his grace are true, he undoubtedly 
+truly performs inwardly by his Spirit that which the sacra- 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 215 
+
+ments figure to our eyes and other senses ; in otlier words, 
+we obtain possession of Christ as the foimtain of all bless- 
+ings, both in order that we may be reconciled to God by 
+means of his death, be renewed by his Spirit to holiness of 
+life, in short, obtain righteousness and salvation ; and also in 
+order that we may give thanks for the blessings which were 
+once exhibited on the cross, and which we daily receive by 
+faith. 
+
+9. THE SIGNS AND THE THINGS SIGNIFIED NOT 
+DISJOINED BUT DISTINCT. 
+
+Wherefore, though we distinguish, as we ought, between 
+the signs and the things signified, yet we do not disjoin the 
+reality from the signs, but acknowledge that all who in faith 
+embrace the promises there offered receive Christ spiritually, 
+with his spiritual gifts, while those who had long been made 
+partakers of Christ continue and renew that communion. 
+
+10. THE PROMISE PRINCIPALLY TO BE LOOKED TO IN 
+THE SACRAMENTS. 
+
+And it is proper to look not to the bare signs, but rather 
+to the promise thereto annexed. As far, therefore, as our 
+faith in the promise there offered prevails, so far will that 
+virtue and efiicacy of which we speak display itself Thus 
+the substance of water, bread, and wine, by no means ofiers 
+Christ to us, nor makes us capable of his spiritual gifts. 
+The promise rather is to be looked to, whose office it is to 
+lead us to Christ by the direct way of faith — faith which 
+makes us partakers of Christ. 
+
+11. WE ARE NOT TO STAND GAZING ON THE ELEMENTS. 
+
+This refutes the error of those who stand gazing on the 
+elements, and attach their confidence of salvation to them ; 
+seeing that the sacraments separated from Christ are but 
+empty shows, and a voice is distinctly heard throughout ]Dro- 
+claiming that we must adhere to none but Christ alone, and 
+seek the gift of salvation from none but him. 
+
+
+216 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+12. THE SACRAMENTS EFFECT NOTHING BY THEMSELVES. 
+
+Besides, if any good is conferred upon us by the sacra- 
+ments, it is not owing to any proper virtue in them, even 
+thougli in this you should include the promise by which 
+they are distinguished. For it is God alone who acts by his 
+Spirit. When he uses the instrumentality of the sacraments, 
+he neither infuses his own virtue into them nor derogates in 
+any respect from the effectual working of his Spirit, but, in 
+adaptation to our weakness, uses them as helps ; in such 
+manner, however, that the whole power of acting remains 
+with him alone. 
+
+13. GOD USES THE INSTRUMENT, BUT ALL THE VIRTUE 
+
+IS HIS. 
+
+Wherefore, as Paul reminds us, that neither he that plant- 
+eth nor he that watereth is any thing, but God alone that 
+giveth the increase ; so also it is to be said of the sacraments 
+that they are nothing, because they will profit nothing, unless 
+God in all things make them effectual. They are indeed 
+instruments by which God acts efficaciously when he pleases, 
+yet so that the whole work of our salvation must be as- 
+cribed to him alone. 
+
+14. THE WHOLE ACCOMPLISHED BY CHRIST. 
+
+We conclude, then, that it is Christ alone who in truth 
+baptizes inwardly, who in the Supper makes us partakers of 
+himself, who, in short, fulfils what the sacraments figure, 
+and uses their aid in such manner that the whole effect re- 
+sides in his Spirit. 
+
+15. HOW THE SACRAMENTS CONFIRM. 
+
+Thus the sacraments are sometimes called seals, and are 
+said to nourish, confirm, and advance faith, and yet the 
+Spirit alone is properly the seal, and also the beginner and 
+finisher of faith. For all these attributes of the sacraments 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 217 
+
+sink down to a lower place, so that not even tlie smallest 
+portion of our salvation is transferred to creatures or ele- 
+ments. 
+
+
+16. ALL WHO PARTAKE OF THE SACRAMENTS DO NOT 
+PARTAKE OF THE REALITY. 
+
+Besides, we carefully teacii tliat Grod does not exert his 
+power indiscriminately in all who receive the sacraments, 
+but only in the elect. For as he enlightens unto faith none 
+but those whom he hath foreordained to life, so by the secret 
+agency of his Spirit he makes the elect receive what the 
+sacraments offer. 
+
+
+17. THE SACRAMENTS DO NOT CONFER GRACE. 
+
+By this doctrine is overthrown that fiction of the sophists 
+which teaches that the sacraments confer grace on all who 
+do not interpose the obstacle of mortal sin. For besides that 
+in the sacraments nothing is received except by faith, we 
+must also hold that the grace of God is by no means so an- 
+nexed to them that whoso receives the sign also gains pos- 
+session of the thing. For the signs are administered alike 
+to reprobate and elect, but the reality reaches the latter 
+only. 
+
+
+18. THE GIFTS OFFERED TO ALL, BUT RECEIVED BY 
+BELIEVERS ONLY. 
+
+It is true indeed that Christ with his gifts is offered to all 
+in common, and that the unbelief of man not overthrowing 
+the truth of God, the sacraments always retain their efficacy ; 
+but all are not capable of receiving Christ and his gifts. 
+Wherefore nothing is changed on the part of God, but in re- 
+gard to man each receives according to the measure of his 
+faith. 
+
+
+218 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+19. BELIEVERS BEFORE, AND WITHOUT THE USE OF 
+THE SACRAMENTS, COMMUNICATE WITH CHRIST. 
+
+As the use of the sacraments will confer nothing more on 
+inibelievers than if they had abstained from it, nay, is only 
+destructive to them, so without their use believers receive 
+the reality which is there figured. Thus the sins of Paul were 
+washed away by baptism, though they had been previously 
+washed away. So likewise baptism was the laver of rege- 
+neration to Cornelius, though he had already received the 
+Holy Spirit. So in the Supper Christ communicates himself 
+to us, though he had previously imparted himself, and per- 
+petually remains in us. For seeing that each is enjoined to 
+examine himself, it follows that faith is required of each 
+before coming to the sacrament. Faith is not without 
+Christ ; but inasmuch as faith is confirmed and increased by 
+the sacraments, the gifts of God are confirmed in us, and 
+thus Christ in a manner grows in us and we in him. 
+
+20. THE BENEFIT NOT ALWAYS RECEIVED IN THE ACT 
+OF COMMUNICATING. 
+
+The advantage which we receive from the sacraments 
+ought by no means to be restricted to the time at which 
+they are administered to us, just as if the visible sign, at 
+the moment when it is brought forward, brought the grace 
+of God along with it. For those who were baptized when 
+mere infants, God regenerates in childhood or adolescence, 
+occasionally even in old age. Thus the utility of baptism 
+is open to the whole period of life, because the promise con- 
+tained in it is perpetually in force. And it may sometimes 
+happen that the use of the holy Supper, which, from thought- 
+lessness or slowness of heart does little good at the time, 
+afterwards bears its fruit. 
+
+21. NO LOCAL PRESENCE MUST BE IMAGINED. 
+
+We must guard particularly against the idea of any local 
+presence. For while the signs are present in this world, are 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 219 
+
+seen by tlie eyes and handled by the bands, Christ, regarded ' 
+as man, must be sought nowhere else than in heaven, and not- 
+otherwise than with the mind and eye of faith. Wherefore' 
+it is a perverse and impious superstition to inclose him under 
+the elements of this world. 
+
+
+22. EXPLANATION OF THE WORDS—" THIS IS MY BODY." 
+
+Those who insist that the formal words of the Supper — 
+" This is my body ; this is my blood,'' are to be taken in what 
+they call the precisely literal sense, we repudiate as prepos- 
+terous interpreters. For we hold it out of controversy that 
+they are to be taken figuratively — the bread and wine re- 
+ceiving the name of that wdiich they signify. Nor should it 
+be thought a new or unwonted thing to transfer the name 
+of things figured by metonomy to the sign, as similar modes 
+of expression occur throughout the Scriptures, and w^e by so 
+saying assert nothing but what is found in the most ancient 
+and most approved waiters of the Church. 
+
+
+23. OF THE EATING OF THE BODY. 
+
+When it is said that Christ, by our eating of his flesh and 
+drinking of his blood, which are here figured, feeds our souls 
+through faith by the agency of the Holy Spirit, we are not 
+to understand it as if any mingling or transfusion of substance 
+took place, but that we draw life from the flesh once offered 
+in sacrifice and the blood shed in expiation. 
+
+24. TRANSUBSTANTIATION AND OTHER FOLLIES. 
+
+In this way are refuted not only the fiction of the Papists 
+concerning transubstantiation, but all the gross figments and 
+futile quibbles which either derogate from his celestial gioiy 
+or are in some degree repugnant to the reality of his human 
+nature. For we deem it no less absurd to place Christ under 
+the bread or couple him with the bread, than to transubstan- 
+tiate the bread into his bodv. 
+
+
+220 MUTUAL CONSENT AS TO THE SACRAMENTS. 
+
+25. THE BODY OF CHRIST LOCALLY IN HEAVEN. 
+
+And that no ambiguity may remain when we say that 
+Christ is to be sought in heaven, the expression implies and 
+is understood by us to intimate distance of place. For 
+though philosophically speaking there is no place above the 
+skies, yet as the body of Christ, bearing the nature and 
+mode of a human body, is finite and is contained in heaven 
+as its place, it is necessarily as distant from us in point of 
+space as heaven is from earth. 
+
+26. CHRIST NOT TO BE ADORED IN THE BREAD. 
+
+If it is not law^ful to affix Christ in our imagination to 
+the bread and the wine, much less is it lawful to worship 
+him in the bread. For although the bread is held forth to 
+us as a symbol and pledge of the communion which w^e have 
+with Christ, yet as it is a sign and not the thing itself, and 
+has not the thing either included in it or fixed to it, those 
+who turn their minds towards it, with the view of worshipping 
+Christ, make an idol of it. 
+
+
+EXPOSITION OF THE HEADS OF AGREEMEJIT. 
+
+
+All pious men, and men of sense and sound judgment, 
+feeling disgust and annoyance at the contention which had 
+arisen in our age concerning the Sacraments, and by which 
+they saw that the prosperous course of the gospel was un- 
+happily retarded, not only alway^s wished for some convenient 
+method of burying or settling it, but some of them made no 
+small exertion for this very purpose. If the success was 
+not immediately what might have been wished, a sad proof 
+was given how difficult it is to put out fire once kindled by 
+the artifice of Satan. This much indeed was gained, that 
+both parties, calming their fervour somewhat, became more 
+intent on teaching than fighting. But as sparks were ever 
+and anon starting forth from the smouldering coals, and 
+gave some cause to fear a new conflagration, we, the Pastors 
+of the Churches of Zurich and Geneva, with the assistance 
+of our most excellent brother Farel, attempted what we 
+thought the best remedy, so that no material might remain 
+for future discord. We published a brief compendium, which 
+attests our doctrine on the sacraments, and contains the 
+common consent of the other pastors who preach a pure 
+gospel in Switzerland and the Grisons. We felt persuaded 
+that by the publication of this testimony satisfaction was 
+given to moderate men, and we certainly thought that no 
+person would be so rigidly scruj)ulous as not to rest appeased ; 
+for, as we shall afterwards see, it contains a lucid definition 
+of all the points which were formerly debated, and leaves no 
+room for any uncharitable suspicion. And by the special 
+goodness of God, it has in a great measure succeeded to a wish. 
+
+
+222 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+But, lo ! while all was quiet, some wrong-lieaded men have 
+started uj), and as if their food were discord, call again to 
+arms. They cannot excuse their intemperance by pretend- 
+ing holy zeal. We are all agreed that peace is not to be 
+purchased by the sacrifice of truth : and hence I acknow- 
+ledge that better were heaven confounded with earth, than 
+that the defence of sound doctrine should be abandoned. 
+Whosoever heartily and strenuously opj)oses sophistical 
+quibbles, Avhicli conciliate by giving a gloss to erroneous 
+doctrine, I blame not : nay, rather, I claim for myself this 
+praise, that there is scarcely an individual who can take 
+more pleasure than I do in a candid confession of the truth. 
+Wherefore let them have done with the empty pretence, 
+that oftentimes disturbance must be raised, if the truth is 
+not to lie undefended. For I will show, first, that in this 
+matter nothing has been stated by us obscurely or enigma- 
+tically, nothing craftily concealed, in short, nothing essen- 
+tial omitted ; and, secondly, that the last thing proposed by 
+us was to interrupt the free course of truth. Nay, rather, 
+our greatest care was how that which is useful to be known 
+in this matter might be both delivered and read calmly, 
+and without offence. But not to bandy words upon this, all 
+I ask of my readers is, to receive what I shall place before 
+their eyes, and prove by solid and clear arguments. 
+
+In the first place, then, in treating of the sacraments, it 
+cannot be denied that the chief thing to be considered is, 
+the ordinance of our Lord and its object. In this way both 
+the virtue and use of the sacraments is best ascertained, so 
+that whosoever turns his mind in this direction, to which 
+our Lord himself invites us, cannot err. That the end for 
+which the sacraments were instituted has been rightly 
+taught by us, even those who have the least fairness will be 
+forced to confess. The end, we say, is to bring us to com- 
+munion with Christ. I will speak more confidently, and say, 
+that none of our detractors ever brought forward any thing 
+which more distinctly expressed what is intended. If it 
+is on the dignity of the sacraments that their heart is set, 
+what better fitted to display it than to call them helps and 
+means by which we are either ingrafted into the body of 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 223 
+
+Christ, or being ingrafted, are drawn closer and closer, imtil 
+he makes us altogether one with himself in the heavenly life ? 
+If their desire is, that our salvation may be assisted by the sa- 
+craments, what more apt can be imagined, than that being 
+conducted to the very fountain of life, we draw life from the 
+Son of God ? Therefore, whether our own advantage is looked 
+to, or the dignity and reverence which ought to be attributed 
+to the sacraments, we have clearly explained the end and 
+cause of their institution. Certainly the objection which 
+Paul makes to vain teachers, who puiF men up with idle 
+speculations instead of edifying, that they do not hold the 
+head, is by no means applicable to us, who refer all things 
+to Christ, gather all together in him, and arrange all under 
+him, and maintain that the whole virtue of the sacraments 
+flows from him. Now let these rigid censors prescribe a 
+better method of teaching than was delivered by Paul, if 
+they are dissatisfied with the adaptation of the sacraments 
+to that symmetry between the head and the members, which 
+St. Paul applauds so highly, and by which he estimates the 
+entire perfection of doctrine. 
+
+It is well, then, that when about to speak of the sacra- 
+ments, we used the best and most apposite exordium, and 
+assigned them an end which all fair and moderate readers 
+will, without controversy, approve. Then in regard to the 
+legitimate use, two faults are to be avoided. For if their 
+dignity is too highly extolled, superstition easily creeps in ; 
+and, on the other hand, if we discourse frigidly, or in less 
+elevated terms of their virtue and fruit, profane contempt 
+immediately breaks forth. If a middle course has been ob- 
+served by us, who will not call those obstinate enemies of 
+the truth, who choose rather to carp maliciously at a holy 
+consent, than either civilly embrace, or at least silently ap- 
+prove it ? 
+
+We do not ask them to swear to our words, but only to be 
+quiet, and not stone those who are speaking correctly. They 
+pretend indeed to make it their ground of quarrel, that we 
+do not give the sacraments their due virtue. But when we 
+come to the point, some produce nothing but bad names and 
+blind tumult, while others, with a toss of disdain, condemn. 
+
+
+224 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+ill a word, what they never read. That they quarrel with- 
+out consideration, the case itself shows. 
+
+With what vehemence this cause was pleaded by Luther, 
+whose imitators they would fain be tliought, is too well 
+known to all. I am aware how many hyperbolical things 
+fell from him in debate ; but whenever he wished to make 
+his cause appear most plausible to pious and upright judges, 
+what did he profess to be the ground of controversy ? First, 
+that he could not bear that the sacraments should be re- 
+garded merely as external marks of profession, and not also 
+as badges and symbols of divine grace ; and, secondly, that 
+he held it an indignity to compare them to void and empty 
+figures, while God truly testifies in them what he figures, 
+and, at the same time, by his secret agency, performs and 
+fulfils what he testifies. Whether he was right or wrong in 
+flaming out so much, I do not at present discuss. It is 
+enough for me, that though he was by no means remiss in 
+pleading this cause, yet when it was necessary to act seri- 
+ously, he found no resting-place for his foot but the pretext 
+that the whole controversy lay here. 
+
+Without making further mention of a man whose memory 
+I revere, and whose honour I am desirous to consult, let me 
+declare my opinion simply. Taking this pretext out of the 
+way, those who would raise a quarrel with us cannot but 
+excite the disgust of all honest and sound-headed men by 
+their rigidity. The pretext I mentioned is ever and anon 
+on their lips. If they use it candidly, and not merely to 
+tickle the ears of the simple, surely when they hear us con- 
+fess on the one hand, that the sacraments are neither empty 
+figures nor mere external badges of piety, but seals of the 
+divine promises, testimonies of spiritual grace to cherish and 
+confirm faith, and, on the other, that they are instruments 
+by which God acts effectually in his elect ; that, therefore, 
+although they are signs distinct from the things signified, 
+they are neither disjoined nor separated from them ; that 
+they are given to ratify and confirm what God has promised 
+by his word, and especially to seal the secret communion 
+which we have with Christ ; — there certainly remains no 
+reason why they should rank us in their list of enemies. 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 225 
+
+"While, as I lately mentioned, they are constantly exclaim- 
+ing that they have no other purpose than to maintain the 
+doctrine that God uses the sacraments as helps to foster and 
+increase faith, that the promises of eternal salvation are en- 
+graven on them to offer them to our consciences, and that 
+the signs are not devoid of the things, as God conjoins the 
+effectual working of his Spirit with them ; then all this heing 
+granted, what, I ask, prevents them from freely giving us 
+their hand ? And to make it unnecessary to turn up and 
+examine the private writings of each, readers will find in our 
+Agreement every thing contained in the Confession published 
+at Ratisbon, and called the Confession of Augsburg, provided 
+only that it be not interpreted as having been composed 
+under fear of torture, to gain favour with the Papists. The 
+words are — " In the holy Supper, the body and blood of 
+Christ are truly given with the bread and wine.'' Far be it 
+from us either to take away the reality from the sacred 
+symbol of the Supper, or to deprive pious souls of so great a 
+benefit. We say, that lest the bread and wine should de- 
+ceive our senses, the true effect is conjoined with the exter- 
+nal figure, so that believers receive the body and blood of 
+Christ. Nay, as it was our design to leave pious readers in 
+no doubt, we have attempted to explain more clearly and 
+fully what that Confession only glanced at. 
+
+It is asked, what is the efiicacy of the sacraments ? what 
+their use ? what their ofiice ? Our document answers, that 
+as the whole safety of believers depends on the communion 
+which they have with the Son of God, in order to attest it 
+the use as well of the gospel as of the sacraments was com- 
+manded. Let the reader observe that the sacraments are 
+conjoined with the gospel, as conferring the same advantage 
+upon us in the matter of salvation. Hence it follows, that 
+what Paul says of the gospel (Rom. i. ; 2 Cor. vii.) we are at 
+liberty to apply to them. Wherefore we deny not that 
+they are part of that power wdiich God exerts for our salva- 
+tion, and that the ministry of our reconciliation with God is 
+also contained in them. For seeing we always willingly pro- 
+fessed to assent to the words of Augustine, that " a sacra- 
+ment is a kind of visible word,'' we undoubtedly acknow- 
+
+VOL. II. p 
+
+
+226 MUTUAL CONSENT OF TllK CHUllCHES OF ZURICH 
+
+ledge that our salvation is promoted in like manner by both 
+means. 
+
+Now if it is asked what the nature of that communion is, 
+by the description of it given by us a little before, it cannot be 
+said to be fictitious and shadowy, viz., (and this, too, is the 
+properand perpetual office of faith,) that we must coalesce with 
+the body of Christ, in order to his fulfilling in us the effects 
+of his grace. There is no other way of infusing his life into us 
+than by being our head, from which the whole body, joined 
+together and connected by every joint of supply, according 
+to his operation in the measure of every part, maketh in- 
+crease of the body. 
+
+Next follows the clearer explanation to which I lately 
+adverted, that although the sacraments are marks and 
+badges of Christian profession or fellowship, and likewise 
+incitements to gratitude, in short, exercises of piety, and 
+mutual contracts obliging us to the worship of God, they 
+have, however, this principal end amongst others, viz., to 
+testify, represent, and seal the grace which the Lord bestows 
+upon us : moreover, that they are not mere shows presented 
+to our eyes, but that therein are represented the spiritual 
+graces, the effect of which believing souls receive. The 
+words are — " Seeing they are true testimonies and seals 
+which God has given us of his grace, he undoubtedly per- 
+forms inwardly by his Spirit whatever the sacraments 
+figure ; in other words, we obtain possession of Christ, the 
+fountain of all blessings, are reconciled to God by means 
+of his death, are renewed by his Spirit to holiness of life, 
+in short, obtain righteousness and salvation,'' To this we 
+immediately after add, that by distinguishing between the 
+signs and the things signified, we disjoin not the reality 
+from the signs, but confess that all who by faith embrace 
+the promises there offered receive Christ spiritually, w^ith all 
+his gifts. 
+
+"Were I dealing with Papists I would collect passages of 
+Scripture and ancient writers, and show more accurately 
+that nothing has either proceeded from God, or ever been 
+believed by the Church concerning the sacraments, that we 
+have not briefly included. But it is strange that men, whose 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 227 
+
+formal practice it is daily to cry, " the word of the Lord, thé 
+word of the Lord,'' are not ashamed any longer to stir up 
+strife about this matter. For while nothing is more absurd 
+than to extol the sacraments above the word, whose appen- 
+dages and seals they are, they will find nothing applicable to 
+the w^ord that w^e do not also give to the sacraments. In 
+short, if they acknowledge God as the only author of our 
+salvation, how do they ask more to be given to the sacra- 
+ments than to be means and instruments of his secret grace, 
+adapted to our w^eakness ? To vindicate them completely 
+from contempt this one fact should suffice — that they are 
+not only badges of all the blessings which God once ex- 
+hibited to us in Christ, and which we receive every day, but 
+that the efficacy of the Spirit is conjoined with their outward 
+representation, lest they should be empty pictures. 
+
+On the other hand, how carefully we ought to guard 
+against superstition, not only does the experience of all ages 
+teach, but every individual may be convinced by his own 
+weakness. For as our mind is prone to earth, external ele- 
+ments have too much influence in drawing us to themselves 
+without being extravagantly adorned. When immoderate 
+commendation is added, scarcely one in a hundred refrains 
+from carrying his reverence to a depraved and vicious excess. 
+In this matter the pertinacity of our detractors is more than 
+blind. For being forced to vociferate against the Papists, 
+they dare not explain the matter clearly, lest they may be 
+thought to subscribe to our view ; nay, lest they should de- 
+scend to true moderation, they purposely entangle them- 
+selves, and leave their readers in suspense. 
+
+That I may not seem to complain without cause, I will 
+now make it plain by a brief explanation that there is no- 
+thing in our Agreement deserving of censure. To guard 
+against superstition, we said, in the first place, that those 
+act foolishly who look only to the bare signs, and not rather 
+to the promises annexed to them. By these words we meant 
+nothing more than w^hat, with universal consent, Augustine 
+truly and wisely teaches, (Homil. in Joan. 80,) that the ele- 
+ments become sacraments only w^hen the word is added, not 
+because it is pronounced, but because it is believed. And the 
+
+
+228 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+recason why our Saviour pronounces the apostles clean is be- 
+cause of tlic word which they had heard from him, not because 
+of tlie baptism with which they had been washed. For if the 
+visible fio-ures which are introduced as sacraments without 
+the word are not only jejune and lifeless elements but noxious 
+impostures, what else is gazing upon a sacrament without 
+waiting for the promise but mere illusion? Certainly if a man 
+only brings his eyes and shuts his ears, they will differ in 
+no respect from the profane rites of the heathen. For though 
+we confess that of the ancient rites of the heathen very 
+many had their origin from the holy patriarchs, yet, as being 
+devoid of doctrine, they retained nothing of pure faith, we 
+justly say that they were degenerate and corrupt. 
+
+The matter stands truly thus. If the sign be not seasoned 
+with the promise, being insipid in itself, it will be of no 
+avail. For what can a man of mortality and earth do by 
+pouring water on the heads of those whom he baptizes, if 
+Christ does not pronounce from above that he washes their 
+souls by his blood, and renews them by his Spirit ? What 
+will the whole comj)any of the faithful gain by tasting a 
+little bread and wine, if the voice does not echo from heaven 
+that the flesh of Christ is spiritual food and his blood is truly 
+drink ? ! We therefore truly conclude, that it is not at all by 
+the material of water, and bread and wine that we obtain 
+possession of Christ and his spiritual gifts, but that we are 
+conducted to him by the promise, so that he makes himself 
+ours, and, dwelling in us by faith, fulfils whatever is pro- 
+mised and offered by the signs, i What any man should dis- 
+approve in this, I see not, unless perhaps he thinks it an"* 
+honour to the sacred signs, to be regarded as illusory forms 
+without faith. 
+
+On this occasion we again properly lead back pious minds 
+to Christ, not allowing them to seek or hope elsewhere for 
+the blessings of which a badge and pledge is held forth to 
+them in the signs. And in this way we follow the rule 
+which the Lord prescribed to Moses, namely, to make all 
+things after the model which he had shown him in the 
+mount. For this passage is not without reason referred to 
+by Stephen in the Acts, and the Apostle in the Epistle to 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 229 
+
+the Hebrews. But as anciently the best method of correct- 
+ing gross error among the Jews was not to let them stop 
+at tlie visible tabernacle and the sacrifices of beasts, but to 
+set Christ before their eyes and make them look up to him, 
+so in the present day we should be intent on that spiritual 
+archetype, and not delude ourselves with empty shows. And, 
+certainly, our Lord in instituting the sacraments by no means 
+surrounded us with impediments to confine us to the world. 
+He rather set up ladders by which we might scale upwards 
+to the heavens ; for nowhere else is Christ to be sought, and 
+nowhere are we to rest than in him alone. What ? did 
+Christ, I would ask, die and rise again that he might cease 
+to be the cause and groundwork of our salvation ? Nay, he 
+has furnished us with aids to seek him, while he remains in 
+his own place. 
+
+We next proceed to correct a more common but not less 
+ruinous superstition, when we teach that if any thing is be- 
+stowed on us through the sacraments, it is not owing to any 
+proper virtue in them, but inasmuch as the Lord is pleased 
+in them to exert the agency of his Spirit. For the human 
+mind is unable to refrain from either enclosing the power 
+of God in signs, or substituting signs in the place of God : 
+hence it is that God himself is robbed of the praise of his 
+virtue, men attributing to lifeless creatures that which is 
+peculiarly his. The sum of our doctrine, which we declare 
+in lucid and by no means ambiguous terms, is, that God 
+alone performs whatever we obtain by the sacraments, and 
+that by his secret and, as it is called, intrinsic virtue. But 
+lest any one should object, that the signs too have their 
+office, and were not given in vain, we hasten to meet the 
+objection by saying, that God uses their instrumentality, and 
+yet in such manner that he neither infuses his virtue into 
+them, nor derogates in any respect from the efficacy of his 
+Spirit. 
+
+What would these worthy men here have ? Would they 
+have God to act by the sacraments ? We teach so. .Would 
+they have our faith to be exercised, cherished, aided, con- 
+firmed by them ? This, too, we assert. Would they have 
+the power of the Holy Spirit to be exerted in them, and 
+
+
+230 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+make tlicm avail«ablo for the salvation of God's elect ? We 
+concede this also. The question turns upon tliis — should we 
+ascribe all the parts of our salvation entirely to God alone, 
+or does he himself by using the sacraments transfer part of 
+his praise to them? Who but one devoid of all modesty 
+dares maintain so ? And as a witness to our doctrine we 
+cite Paul, who declares that ministers are nothing, and in 
+planting and watering do nothing at all apart from God, who 
+alone giveth the increase. Hence it is easy for any one to see, 
+that, provided God is not to be robbed of his own, we detract 
+nothing from the sacraments. It is well known how highly 
+Paul, in another passage, extols the preaching of the word. 
+How comes it then that he here reduces it to almost nothing, 
+unless it be that when it comes into contrast with God he 
+alone must be acknowledged as the author of all blessings, 
+while he uses the creatures thus freely, and at his own will 
+acts by means of them so far as he pleases ? No injury is 
+done to earthly elements in not decking them with the spoils 
+of God. 
+
+What we subjoin from Augustine, viz., that it is Christ 
+alone who baptizes inwardly, and that it is he alone who 
+makes us partakers of himself in the Supper, strongly dis- 
+plays the excellence of both ordinances. For we hence 
+infer, that acts of which the Son of God is the author, over 
+which he presides, in which, as with outstretched hand from 
+heaven, he displays his virtue, are no acts of man. Then 
+nothing is more useful than to withdraw our sense from 
+gazing on mortal man and an earthly element, that our faith 
+may behold Christ as if actually present : though this indeed 
+is intended to claim for Christ his own right, and not allow 
+it to be supposed that in committing the external ministry to 
+men, he resigns to them the merit of the spiritual effect. In 
+this sense Augustine at great length maintains, (Hom. 5, 6, 
+in Joann.,) that the power and efficacy of baptism are com- 
+petent to none but Christ. And what need is there of 
+human testimony while the words which fell clear from the 
+lips of the Baptist ought to be continually sounding in our 
+ears, " He it is who baptizeth with the Spirit,'' (John i.) It 
+is clear that this title distinguished him from all ministers. 
+
+
+* AND GENEVA AS TO THE SACRAMENTS. 231 
+
+and acquaints us that he alone does in\Yardly what men 
+attest by visible sign. 
+
+This Augustine well explains in these words, (Quaest. Yet. 
+Test., lib. iii. c. 84,) " How then does Moses and how does our 
+Lord sanctify ? Moses does not sanctify in place of the 
+Lord, but by visible sacraments through his ministry ; where- 
+as the Lord sanctifies by invisible grace through the Holy 
+Spirit, wherein lies the whole fruit even of visible sacra- 
+ments.'' For without that sanctification of invisible grace, 
+what can visible sacraments avail ? Nor in any other way 
+can we reconcile passages of Scripture in which there is an 
+apparent discrepancy. Of this class are those which we 
+have there referred to, viz., that the Holy Spirit is a seal by 
+which faith in the future inheritance is ratified to us, and 
+that the sacraments are also seals. For there is no more 
+consistency in placing these in the same rank than in trans- 
+ferring to signs what is competent to none but the Spirit, 
+The only solution, therefore, is in the common axiom, that 
+there is no repugnance between superior and subaltern. For 
+were any one to contend that our salvation is not sealed by 
+lifeless signs, this being the proper ofiice of the Holy Spirit, 
+I ask what answer these censors whom our argument does 
+not please would give ? Just what we maintain — that though 
+God uses inferior means, it does not at all imply that he 
+does not begin and perfect our faith solely by the agency of 
+his Spirit. 
+
+When we say, that the signs are not available to all indis- 
+criminately, but to the elect only, to whom the inward and 
+effectual working of the Spirit is applied, the thing is too 
+clear to require any lengthened statement. K any one would 
+make the effect common to all, he is not only refuted by the 
+testimony of Scripture but by experience. As the outward 
+voice of man by itself cannot at all penetrate the heart, but 
+out of many hearers those alone come to Christ who are in- 
+wardly drawn by the Father, (according to the words of 
+Isaiah, that none believed his preaching save those to whom 
+the word of the Lord was revealed,) so it is in the free and 
+sovereign determination of God to give the profitable use of 
+signs to whom he pleases. 
+
+
+2;^2 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+When we thus speak, we do not understand that any thing 
+is chano'ed in the nature of the sacraments, so as to make 
+them less entire. Nor does Augustine, (Tract in Joann. 26,) 
+when he confines the effect of the holy Supper to the body 
+of the Church, consisting in the predestinate, who have 
+already been justified in part, and are still justified, and will 
+one day be glorified, make void or impair its force considered 
+in itself in regard to the reprobate. He only affirms that 
+the benefit is not alike common to all. But seeing that in 
+the reprobate the only obstacle to their possession of Christ 
+is their own unbelief, the whole blame resides in themselves. 
+In short, the exhibition of the sign disappoints no man but 
+him wdio malignantly and spontaneously defrauds himself. 
+For it is most true, that every one receives from the sign 
+just as much benefit as his vessel of faith can contain. 
+
+And we justly repudiate the fiction of Sorbonne, that the 
+sacraments of the new law are available to all who do not 
+interpose the obstacle of mortal sin. For to ascribe to them 
+a virtue which the external use merely, as a kind of channel, 
+infuses into souls, is plainly a senseless superstition. But if 
+faith must intervene, no man of sense will deny that the 
+same God who helps our infirmity by these aids, also gives 
+faith, which, elevated by proper ladders, may climb to Christ 
+and obtain his grace. And it ought to be beyond contro- 
+versy, that as it would not be enough for the sun to shine, 
+and send down its rays from the sky, were not eyes pre- 
+viously given us to enjoy its light, so it were in vain for the 
+Lord to give us the light of external signs, if he did not 
+make us capable of discerning them. Nay, just as the light 
+of the sun, while it invigorates a living and animated body, 
+produces effluvia in a carcase ; so it is certain that the sacra- 
+ments where the Spirit of faith is not present, breathes 
+mortiferous rather than vital odour. 
+
+But lest any should suppose from this that any thing is 
+lost to the virtue of the sacraments, or that by the unbelief 
+and wickedness of man the truth of God is impaired, I think 
+we carefully put them on their guard when we say, that the 
+signs nevertheless remain entire, and off'er divine grace to 
+the unworthy, and that the effect of the promises does not 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 233 
+
+fail, tlioiigli unbelievers receive not what is offered. We are 
+not here sj)eaking of the ministers as to whom it was at one 
+time foolishly doubted, whether their perfidy, or any other 
+unworthiness, vitiated the sacraments. We hold the ordi- 
+nance of God to be too sacred to depend for its efficacy on 
+man. Be it then that Judas, or any other epicurean con- 
+temner of every thing sacred, is the administrator of baptism 
+or the Lord's Supper, we hold that both the washing of re- 
+generation, and the spiritual nourishment of the body and 
+blood of Christ, are conferred through his hand, just as if he 
+were an angel come down from heaven. 
+
+Not that it becomes the Church at large, by carelessness or 
+connivance, to foster vicious ministers, or those who pollute 
+the holy place by impure lives. She ought rather to exert 
+herself both in public and in private, to cleanse the sanc- 
+tuary of God as far as may be of such defilements. But if 
+it happens that men altogether ungodly surreptitiously ob- 
+tain the honour, or the ambitious favour of certain persons 
+prevents the dissolute from being brought to order, or as 
+was most desirable, forthwith discarded, how detestable 
+soever their unworthiness may be, it detracts nothing from 
+the sacraments, since that which Christ then bestows he 
+takes from himself, and does not draw or derive from minis- 
+ters. We have no doubt, therefore, that the Popish requi- 
+site of intention in the officiating minister, is a perverse and 
+pernicious figment. But as the Lord is always ready to per- 
+form what he figures, as well by ungodly as by faithful 
+ministers, we acknowledge that what is offered is received 
+only by faith, while we hold that unbelievers are sent empty 
+away. 
+
+We deny, therefore, that the Lord withholds his hand. 
+On the contrary, we maintain, that in order to be perpetually 
+consistent with himself, and in infinite goodness strive with 
+the wickedness of men, he truly offers what they reject. 
+But there is a wide difference between the two things-r^that 
+the Lord is faithful in performing what he shows by a sign, 
+and that man, in order to enjoy the proffered grace, makes 
+way for the promise. Before any one can receive what is 
+given, he must have the capacity, as it is written, " Open 
+
+
+234 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+thy moutli wide and I will fill it/' It is mere ignorance, 
+therefore, that makes some cry out, that the figure of the 
+holy Supper is made empty and void, if the ungodly do not 
+receive as much in it as believers. If they hold that the 
+same thing is given to both indiscriminately, I could easily 
+subscribe to their inference, but that Christ is received with- 
+out faith is no less monstrous than that a seed should ger- 
+minate in the fire. By what right do they allow themselves 
+to dissever Christ from his Spirit ? This we account nefa- 
+rious sacrilege. They insist that Christ is received by the 
+wicked, to whom they do not concede one particle of the 
+Spirit of Christ. What else is this than to shut him up in a 
+tomb as if he were dead ? 
+
+But it will be said, that Paul would not charge those who 
+eat unworthily with being guilty of the body and blood of 
+the Lord, were they not also made partakers of Christ. Nay, 
+I should rather say, that if access was given them to Christ, 
+it would exempt them from all guilt. But now as they 
+foully trample upon the pledge of sacred communion, which 
+they ought to receive with reverence, it is not strange that 
+they are counted guilty of his body and blood. 
+
+Ignorant men absurdly imagine that they would not be 
+guilty, did they not handle with their hands, and chew with 
+their teeth, and swallow the body of Christ. Then, accord- 
+ing to them, what kind of receiving will this be ? Paul de- 
+clares faith to be the mode by which Christ dwells in us. 
+Wherefore, if faith is wanting, he can only be received for a 
+moment, and then vanish. How much more rightly does 
+Augustine, as became a man well versed in the Scriptures, 
+say, (Hom. in Joan. 62,) that the bread of the Lord was 
+given to Jesus to make him a slave of the devil, just as a 
+messenger of Satan was given to Paul to perfect him in 
+Christ. He had previously said, (Hom. 59,) that the other 
+disciples ate the Lord the bread, whereas Judas ate the bread 
+of the Lord against the Lord. In another place also, (Hom. 
+26,) he wisely expounds the celebrated saying of Christ, that 
+those who eat him shall never die, meaning, he says, that 
+the virtue of the sacrament is not only the visible sacrament, 
+that it is within, not without, in those who eat with the heart. 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 235 
+
+not press with the teetli. Whence he at length concludes, 
+that a sacrament of the thing is held forth at the Lord's 
+table, and is taken by some unto destruction, by others unto 
+life, but that the thing itself, of which the Suj^per is a sign, 
+yields life to all, destruction to none who partake of it. 
+
+That there may be no doubt as to the mind of this writer, 
+it will not be disagreeable to go a little deeper into his 
+views. After saying that the hunger of the inner man seeks 
+for this bread, he subjoins, Moses and Aaron and Phinehas, 
+and many others, who pleased the Lord and did not die, 
+ate of the manna. Why ? Because they understood the visi- 
+ble food spiritually ; they hungered spiritually ; they tasted 
+spiritually ; they were filled spiritually. For we, too, of the 
+present day, have received visible food ; but the sacrament is 
+one thing, the virtue of the sacrament is another. A little 
+after he says — " And by this he who abides not in Christ, 
+and in whom Christ abides not, doubtless neither sj)iritu- 
+ally eats his flesh nor drinks his blood, though he carnally 
+and visibly press the sign of the body and blood with his 
+teeth, but he rather eats and drinks the sacrament of this 
+great thing to his condemnation, because, though unclean, 
+he has presumed to approach the sacraments of Christ.'' 
+
+You see how he concedes to the profane and impure 
+nothing but a visible taking of the sign. I admit, he says 
+elsewhere, (Lib. 5, de Bapt. contra Donatist.,) that the bread of 
+the Supper was the body of Christ to those to whom Paul said, 
+" Whoso eateth unworthily, eateth and drinketh judgment to 
+himself, not discerning the Lord's body," and that they re- 
+ceived nothing, just because they received badly. But in 
+what sense he wished this to be understood, he explains more 
+fully in another place, (Lib. de Civ. Dei. 21, c. 25.) For un- 
+dertaking professedly to explain how the wicked and aban- 
+doned, who profess the Catholic faith with their lips, eat the 
+body of Christ, and this in opposition to the oj^inion of some 
+who pretended that they ate not only of the sacrament but 
+of the reality, he goes on, " Neither can those be said to eat 
+the body of Christ, since they are not to be accounted among 
+the members of Christ. For not to mention other grounds, 
+they cannot be the members of Christ and the members of a 
+
+
+2;iG MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+harlot." In short, our Saviour himself, when he says, " Whoso 
+eatctli my flesh and drinketh my blood remaineth in me and 
+I in him,"' shows what it is not to eat of the sacrament 
+merely, but really of the body of Christ. For one to abide 
+in Christ, means that Christ abides in him. It was just as 
+if he had said — Let not him who does not abide in me, 
+and in whom I do not abide, say or think that he eats my 
+body or drinks my blood. Let ignorant men cease to con- 
+tend for Judas, if they would not seem to desire a Christ 
+without Christ. 
+
+We next proceed to say, that the effect of the spiritual 
+blessings which the sacraments figure, is given to believers 
+without the use of the sacraments. As this is daily expe- 
+rienced to be true, and is proved by passages of Scripture, it 
+is strange if any are displeased with it. When martyrs shut 
+up in prison cannot take the external sign, shall we say that 
+those in whom Christ is triumphantly magnified are without 
+Christ ? Nor can any one altogether devoid of Christ make 
+a due approach to the Supper. The reality of baptism was 
+not wanting to Cornelius, who, previous to the washing of 
+water, had been sprinkled with the Holy Spirit, just as Moses 
+was not devoid of the divine unction, of which he communi- 
+cated the sign to others, though he himself never received it. 
+
+By thus teaching, we by no means intend that we are to 
+lay aside the use of signs, and be contented with secret in- 
+spirations. Although the Lord occasionally, to prove that 
+his virtue is not tied to any means, performs without sign 
+what he represents by sign, it does not follow that we are 
+to cast away any thing which he ordained for our salvation, 
+as if it were superfluous. Far less will this be lawful for us, 
+whose faith ought to be intent on his word and seals. For 
+it has been truly said by Augustine, (Lib. Quaes t. Vet. Test. S,) 
+that although God sanctifies whom he pleases without the 
+visible sign, yet whoso contemns the sign is justly deprived 
+of invisible sanctification. 
+
+Akin to this article is that which we next add, viz., that 
+the advantage received from the sacraments ought not to be 
+restricted to the time of external taking, as if they carried 
+the grace of God along with them at the very moment. 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 237 
+
+Herein if any one dissents from us lie must of necessity 
+both accelerate the gift of regeneration in many, and fabri- 
+cate innumerable baptisms for the remainder of life. We 
+see the effect of baptism, which for a time was null, appear 
+at last. Many are dipt with water from their mother's 
+Avomb, w^ho, as they advance in life, are so far from showing 
+that they were inwardly baptized that they rather make 
+void their baptism by doing what in them lies to quench the 
+Spirit of God. Part of these God calls back to himself He, 
+therefore, who would include newness of life in the sign as a 
+capsule, so far from doing honour to the sign, dishonours 
+God. 
+
+Then, seeing that repentance and advancement in it ought 
+to be our constant study even until death, who sees not that 
+baptism is impiously mutilated if its virtue and fruit, which 
+embraces the whole course of life, is not extended beyond 
+the outward administration ? Nay, no greater aifront to the 
+sacred symbols can be imagined than to hold that their 
+reality is in force only at the time of actual exhibition. My 
+meaning is, that though the visible figure immediately passes 
+away, the grace which it testifies still remains, and does not 
+vanish in a moment with the spectacle exhibited to the eye. 
+I have no intention to countenance the superstition of those 
+who absurdly preserve the elements of bread and water in 
+their churches, as if after the present use to which they 
+were destined the effect of consecration still adhered to 
+them. This it was necessary distinctly to declare, lest any 
+one should affix the hope of salvation, which is liable to no 
+change of times, to temporary signs, and faith apprehend no 
+more than the eye perceives. 
+
+I come now to the question out of which such violent and 
+bitter conflicts have arisen, — of what nature is the com- 
+munion of our Lord's body and blood in the holy Supper ? 
+We have not given a definition of it before refuting the fig- 
+ment of a local presence, and explaining the meaning of the 
+words of Christ, as to which there has heretofore been too 
+much contention. But as our purpose is to meet the objec- 
+tions of captious and unlearned men, who are borne head- 
+long by a blind impulse to slander, or to pacify the honest 
+
+
+238 MUTUAL CONSENT OF THE CHURCHES OF ZURICH 
+
+and simple whom tliey have imbued with their deleterious 
+sj)eeches, I will now begin with that third article. 
+
+First, then, we acknowledge that Christ truly performs 
+what he figures by the symbols of bread and wine, nourishing 
+our souls witli the eating of his flesh and the drinking of his 
+blood. Away, then, with the vile calumny, that it would be 
+theatrical show if the Lord did not perform in truth what 
+he shows by the sign ; as if we said that any thing is 
+shown which is not truly given. The Lord bids us take 
+bread and wine. At the same time he declares that he 
+gives the spiritual nourishment of his flesh and blood. We 
+say that no fallacious figui'e of this is set before our eyes, 
+but that a pledge is given us, with which the substance and 
+reality are conjoined ; in other words, that our souls are fed 
+with the flesh and blood of Christ. The term faith is thus 
+used by us not to denote some imaginary thing, as if be- 
+lievers received what is promised only in thought or memory, 
+but only to prevent any one from thinking that Christ is so 
+far prostituted that unbelievers enjoy him. 
+
+When Paul teaches that Christ dwells in our hearts by 
+faith, he does not substitute an imaginary for true habi- 
+tation, but reminds us in what way we may ascertain the 
+possession of so great a blessing. We acknowledge, then, 
+without any equivocation, that the flesh of Christ gives life, 
+not only because we once obtained salvation by it, but be- 
+cause now, while we are made one with Christ by a sacred 
+union, the same flesh breathes life into us, or, to express it 
+more briefly, because ingrafted into the body of Christ by 
+the secret agency of the Spirit, we have life in common with 
+him. For from the hidden fountain of the Grodhead life was 
+miraculously infused into the body of Christ, that it might 
+flow from thence to us. 
+
+But here again, as the minds of men always conceive 
+grossly of the heavenly mysteries of God, it was neces- 
+sary to obviate delirious dreams. With this view we laid 
+down the definition, that what we say of the partaking of 
+Christ's flesh must not be understood as if any commingling 
+or transfusion of substance took place, but that we draw life 
+from the flesh once ofl'ered in sacrifice. If any one is dis- 
+
+
+AND GENEVA AS TO THE SACEAMENTS. 239 
+
+pleased witli this explanation, I say, first, that lie lias some 
+fiction of his own brain which is nowhere taught in Scrip- 
+ture, and by no means accords with the analogy of faith; 
+and I say, secondly, that it is too presumptuous, after taking 
+up a meaning at random, to lay down the law to others. 
+If they insist that the substance of the flesh of Christ is 
+commingled with the soul of man, in how many absurdities 
+will they involve themselves ? 
+
+They say it is not lawful to bring down this sublime 
+mystery to secular reasoning, or to gauge its immense mag- 
+nitude by the little measure of our capacity. To this I 
+readily assent. But is the modesty of faith to be made to 
+consist in disfiguring religion all over with horrid monsters ? 
+In this way every thing that is most absurd would be most 
+accordant with Christ and his doctrine. We acknowledge 
+that the sacred union which we have with Christ is incom- 
+prehensible to carnal sense. His joining us with him so as 
+not only to instil his life into us, but to make us one with 
+himself, we grant to be a mystery too sublime for our com- 
+prehension, excej)t in so far as his words reveal it. But are 
+we therefore to dream that his substance is transferred into 
+us so that he is defiled by our impurities ? Their boast, that 
+they shut their eyes and inquire not too curiously into what 
+the Lord has concealed, is proved to be most vain from this, 
+that they do not allow themselves to be taught by the word 
+of God. Sobriety of faith is not only to acquiesce in the 
+decision of God, and apprehend no more than his sacred lips 
+have revealed, but also to attend diligently to the spirit of 
+prophecy, and embrace a sound interpretation with meek 
+docility. It is presumptuous petulance either not to confine 
+yourself within due limits, or to fastidiously reject the light 
+of sound understanding. 
+
+/ None of us denies that the body and blood of Christ are 
+■.communicated to us. But the question is, what is the nature 
+of this communication of our Lord's body and blood ? I 
+wonder how these men dare to assert simply and openly that 
+it is carnal. When we say that it is spiritual, they roar out 
+as if by this term we were making it not to be what they 
+commonly call real. If they will use real for true, and op- 
+
+
+240 MUTUAL CONiJENÏ UF THE CHURCHES OE ZUKICH 
+
+pose it io fallacious or imaginary^ we will rather sj)eak bar- 
+barously than aiFord material for strife. We arc aware how 
+little strivings about words become the servants of Christ, 
+but as nothing is gained by making concessions to men who 
+are in all ways implacable, I wish to declare to peaceful and 
+moderate men, that according to us the spiritual mode of 
+communion is such that we enjoy Christ in reality. Let us 
+be contented with this reason, against which no man, unless 
+he is very quarrelsome, will rebel, that the flesh of Christ 
+gives us life, inasmuch as Christ by it instils spiritual life 
+into our souls, and that it is also eaten by us when by faith 
+we grow up into one body with Christ, that he being ours 
+imparts to us all that is his. 
+
+In regard to local presence, I wonder that our censors are 
+not ashamed to raise a quarrel. As they deny that the body 
+of Christ is circumscribed by local space, they hold it to be 
+immense. What do we hold ? That we are to seek it in 
+heaven, which, as Scripture declares, has received him till he 
+appear to judgment. There is no ground, however, for any 
+individual to charge us with holding that he is absent from 
+us, and thus separating the head from the members. Cer- 
+tainly if Paul could say, that so long as we are in the world 
+^ve are absent as pilgrims from the Lord, we may say, on 
+the same ground, that we are separated from him by a cer- 
+tain species of absence, inasmuch as we are now distant from 
+his heavenly dwelling. Christ then is absent from us in 
+respect of his body, but dwelling in us by his Spirit he raises 
+us to heaven to himself, transfusing into us the vivifying 
+vigour of his flesh, just as the rays of the sun invigorate us 
+by his vital warmth. Their common saying, that he is with 
+us invisible, is equivalent to saying, that though his form is 
+treasured up in heaven, the substance of his flesh is on the 
+earth. But a sense of piety clearly dictates that he infuses 
+life into us from his flesh, in no other way than by descend- 
+ing into us by his energy, while, in respect of his body, he 
+still continues in heaven. 
+
+The same view must be taken of what we immediately 
+add, viz., that in this way we not only refute the Popish 
+fiction of transubstantiation, but all the gross figments, as 
+
+
+AND GENEVA AS TO THE SACRAMENTS. 241 
+
+well as futile sophistry, wliich derogate either from the 
+heavenly glory of Christ, or are repugnant to the reality of 
+his human nature. It is unnecessary to dwell more on this 
+explanation, which was not added without consideration. 
+
+Some who would make the body of Christ immense de- 
+prive it of the nature of a body, others enclose his Deity 
+under a lifeless element. If the one party has erred through 
+ignorance, and the other, carried away in the heat of con- 
+tention, has rashly uttered an absurdity, let it remain 
+buried. I do not attack or inveigh against the persons of 
+men. We have not attacked any one in our writing, but 
+have held it sufficient to cut off all handle for error. Who 
+can be offended wdien we wish Christ to remain com23lete 
+and entire in regard to both natures, and the Mediator who 
+joins us to God not to be torn to pieces ? The immensity 
+which they imagine the flesh of Christ to possess, is a mon- 
+strous phantom, which overturns the hope of a resurrection. 
+To all the absurdities they advance concerning the heavenly 
+life, I will ahvays oppose the words of St. Paul, that we wait 
+for Christ from heaven, who will transform our poor body 
+and make it conformable to his own glorious body. Need 
+w^e say how absurd it were to fill the whole world with the 
+single body of each believer ? 
+
+Let those men, then, allow us modestly to profess what is 
+sound and right, and not force us by their intemperance to 
+uncover their disgrace, which is better hid. Let them not 
+fiercely assail us, because sparing names, as I have said, w'e 
+have been contented with a bare refutation of errors. They 
+think it intolerable in us to deny that Christ is placed 
+under the bread, or coupled with the bread. What then? 
+Will they pull him down from his throne, that he may lie 
+enclosed in a little bit of bread ? Should any one say that 
+the body of Christ is offered to us under the bread, as an 
+earnest, we w^ill not quarrel w^ith him on that account, any 
+more than when in disposing of the carnal or local coupling 
+w^e endeavoured to make a divorce between the sign and its 
+reality. Let believers then receive the body of Christ under 
+the symbol of bread ; for he is true w^ho speaks, and it is not 
+at all in accordance with his character to deceive us by 
+
+VOL. II. Q 
+
+
+242 MUTUAL CONSENT OF TUB CHURCHES OF ZURICH 
+
+holding fortli an empty badge ; only let tlicre be no local 
+enclosing or carnal infusing. 
+
+All that now remains is the exposition of our Lord's 
+
+words. If in it there is any offence, let them impute it to 
+
+their own perverseness in being determined to involve what 
+
+is clear in itself in darkness by clamour and tumult. Christ 
+
+having called the bread his body, they insist on the precise 
+
+words, and refuse to admit any figure. But if the bread is 
+
+properly the body of Christ, it will follow that Christ himself 
+
+is just as much bread as he is man. We may add, that if the 
+
+expression is not figurative, they themselves act perversely 
+
+in saying that the same body is under the bread, with the 
+
+bread, and in the bread. If they assume such gross liberty 
+
+of interpretation, why will they not allow us to open our 
+
+mouth ? When in searching for the meaning of the words 
+
+we consider in what manner Scripture usually speaks of the 
+
+sacraments, they refuse to listen because it was once said, 
+
+This is my body. What ? was it not also said that Christ 
+
+was a Rock ? And in what sense, but just that he was the 
+
+same spiritual drink with him whom we now drink in the 
+
+cup ? That they might not be forced to yield to plain reason, 
+
+they madly dissever things sacredly joined. 
+
+To be silent as to this, and let it pass, I would ask, by 
+Avhat right they allow themselves to resolve this sentence of 
+theirs, on which they insist so much, into different forms of 
+speech ? After insisting that the bread is Christ, why do 
+they afterwards fly off to their own fictions, and say, that 
+he is with the bread, in the bread, and under the bread ? 
+Who gave them this authority to sport futile fictions, not less 
+remote from usage than self-contradictory, and debar others 
+from sound understanding ? If the bread must be regarded 
+as the body, because it is so called, just as much must it 
+on the authority of Paul be regarded as the communion of 
+the body. Nay, if I should say that Paul in this passage 
+expounds more clearly what was rather obscurely expressed 
+by Christ, what sober man will gainsay me ? The Lord de- 
+clares that the bread is his body. The disciple follows, cer- 
+tainly not intending to throw darkness on the light, and 
+explains tlmt the bread is the communion of the body. 
+
+
+AND GENEVA AS TO THE SACKAMENTS. 243 
+
+Here, if tliey give us tlieir consent, the dispute is at an end, 
+for we also declare tliat in tlie breaking of bread the body 
+of Christ is communicated to believers. 
+
+They insist on retaining the word. Very well. Since 
+Christ, according to Luke and Paul, calls the cup the cove- 
+7iant in his blood, whenever they cry that the bread is the 
+body and the wine the blood, I, in my turn, will on the best 
+authority rejoin, that they are covenants in the body and 
+blood. Let unlearned men then cease from that pertinacity 
+by which, not to use harsher terms, they must ever and anon 
+find themselves perplexed and ensnared. 
+
+It is not worth while to enter into a full discussion at 
+present, but this much I take for granted. After saying 
+that the bread is the body, they are forced at the same time 
+to confess that it is a sign of the body. How can they 
+know this but just from the words of Christ ? Therefore the 
+very term sign, for the use of which they so invidiously 
+quarrel with us, ihej stealthily extract from the very pas- 
+sage which they insist on being only literally interj^reted. 
+We, again, while in deference both to common sense and 
+piety, we candidly acknowledge that the mode of expression is 
+figurative, have no recourse either to allegories or parables ; 
+but we assume an axiom received by all pious men without 
+controversy, that whenever the sacraments are treated of, it 
+is usual to transfer the name of the thing signified by meto- 
+nymy to the sign. Examples occur too frequently in Scrip- 
+ture for any opponents, however keen, to venture to deny 
+that this mode of speech must be regarded as the general 
+rule. Hence as the manna of old was spiritual food, as the 
+water was Christ, as the Holy Sj^irit was a dove, as baptism 
+was the laver of regeneration, so the bread is called the 
+body and the wine the blood of Christ. If they choose to 
+call it synecdoche rather than metonymy, and thus reduce 
+it to a quarrel about a word, we shall leave grammarians to 
+settle it. What, however, will they gain but just to expose 
+themselves to derision for their ignorance, even boys being 
+judges ? 
+
+To pass over this, whosoever is disposed to strive about 
+words proves that he i« by no means a servant of Christ. 
+
+
+244 MUTUAL CONSENT AS TO THE SACRAMENTS. 
+
+Wliilo we are entirely agreed as to things, what can be 
+more preposterous than to rend Churches and stir uj) fierce 
+tumults because some hold that the bread is called body, inas- 
+much as the body is exhibited under it and with it, whereas 
+others hold that it is a symbol — not an empty illusory sym- 
+bol, but one to which its own reality is annexed, so that all 
+who receive the sign with their mouth and the promise by 
+faith become truly partakers of Christ. But if they have 
+determined to make no end of their evil speaking, I am 
+confident that no man not engaged in the contention will be 
+so unjust as not to acknowledge that we teach correctly, 
+and practise sincerity, and are lovers of peace. I do not 
+think there is any reason to fear that any person, if he be 
+not smitten with the mad fury of those men, will countenance 
+their importunate clamour. 
