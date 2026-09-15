@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources:
   - {source_id: don.dw.walking-to-one-font, locus: "we did not examine the person coming, we examined the hand; the door was not as narrow as our reputation", license: public-domain}
-  - {source_id: don.quote.conscience-of-the-giver, locus: "Petilian's clause, quoted verbatim", license: public-domain}
+  - {source_id: don.quote.petilian-conscience-of-the-giver, locus: "Petilian's clause, quoted verbatim", license: public-domain}
   - {source_id: don.story.bagai-reconciliation, locus: "three hundred and ten bishops, the shipwrecked-shores decree, and the two bishops taken back with nothing repeated", license: public-domain}
   - {source_id: don.core.donatism, locus: "thin_topics: the ordinary believer's own interior life, unreachable in its own words", license: public-domain}
 canon_question_id: _fleet.canon.f6-p-01
@@ -76,7 +76,7 @@ bishops, the shipwreck decree and the reception without repetition are
 `don.story.bagai-reconciliation`; the closing limit is
 `don.core.donatism`'s first `thin_topics` entry.
 
-One verbatim quotation (`don.quote.conscience-of-the-giver`). The Bagai
+One verbatim quotation (`don.quote.petilian-conscience-of-the-giver`). The Bagai
 decree is given in the paraphrase `don.dw.what-we-never-settled` and
 `don.story.bagai-reconciliation` both use rather than quoted from
 `don.quote.the-shores-are-covered`, because that quote record's own

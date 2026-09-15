@@ -39,7 +39,7 @@ queue:
     author: "Paulinus of Milan"
     translator: "Sr. Mary Simplicia Kaniecka"
     year: 1928
-    world: ijc
+    world: "ijc / ambrosian-milan-standalone"
     why: >
       Independently located by both an Opus adversarial review and a
       Fable research pass, 2026-09-02, while sorting WANTS-REGISTER.md's
@@ -47,6 +47,12 @@ queue:
       CUA Patristic Studies edition (Latin text with English translation)
       was originally misfiled as "needs a research pass"; both independent
       checks found it already exists and is already public domain.
+
+      Also flagged for ambrosian-milan-standalone by a source-research
+      pass on that world's (I.16) sourcing gaps, 2026-09-13: Ambrose's own
+      secretary and biographer is at least as natural a home for this
+      Life as ijc, if not more so - once vendored, both worlds' corpus-map
+      buckets should carry it.
     url: "https://archive.org/details/vitasanctiambros00paul"
     rights_basis: pd-us-by-date
     verified_by: "Opus adversarial review + Fable research pass, 2026-09-02 (independent, cross-confirmed)"
@@ -514,6 +520,47 @@ queue:
     verified_by: "direct WebFetch verification, 2026-09-09 (previously sibling-flagged only)"
     status: downloaded
 
+  - title: "The Pilgrimage of Etheria (Peregrinatio Aetheriae / Egeria)"
+    author: "Egeria (Aetheria/Silvia)"
+    translator: "M. L. McClure and C. L. Feltoe"
+    year: 1919
+    world: jerusalem-liturgical-pilgrimage-christianity
+    why: >
+      Surfaced by a source-research pass on Jerusalem Liturgical-Pilgrimage
+      Christianity's (I.15) sourcing gaps, 2026-09-13. Egeria's own diary of
+      her pilgrimage to Jerusalem and the Holy Land, including the fullest
+      surviving eyewitness account of that church's fourth-century liturgical
+      year - the load-bearing gap next to the already-vendored Cyril of
+      Jerusalem Catechetical Lectures (npnf207). Widely cited for this world
+      but not currently vendored; this SPCK "Translations of Christian
+      Literature" edition is a confirmed pre-1929 rendering.
+    url: "https://archive.org/details/pilgrimageofethe00mccliala"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, editors, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
+    status: not-yet-downloaded
+
+  - title: "The Dialogue of Palladius Concerning the Life of Chrysostom"
+    author: "Palladius, Bishop of Aspuna"
+    translator: "Herbert Moore"
+    year: 1921
+    world: antiochene-exegetical-christianity-chrysostom-ce
+    why: >
+      Surfaced by a cross-link check on Antiochene Exegetical Christianity's
+      (I.13) Chrysostom-centered corpus, 2026-09-13: every existing mention
+      of Chrysostom/Antioch across the corpus-map's other staging files was
+      checked and found already linked or correctly excluded elsewhere - no
+      unlinked cross-link opportunity remained, unlike Aquileia's Jerome
+      letters. This is a genuine acquisition gap instead: a contemporary,
+      sympathetic eyewitness account of Chrysostom's fall and exile, the
+      same shape of gap Possidius' Life of Augustine closes for lpc. Not
+      currently vendored - only Palladius' separate Lausiac History is.
+      SPCK "Translations of Christian Literature" edition, the standard PD
+      English translation.
+    url: "https://archive.org/details/thedialogueofpal00mooruoft"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, translator, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
+    status: not-yet-downloaded
+
   - title: "Sermo de Vita Sancti Honorati"
     author: "Hilary of Arles"
     translator: "(Latin only — Patrologia Latina 50)"
@@ -529,3 +576,22 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-09 (previously sibling-flagged only)"
     status: downloaded
+
+  - title: "The Apostolic Tradition of Hippolytus"
+    author: "attrib. Hippolytus of Rome"
+    translator: "Burton Scott Easton"
+    year: 1934
+    world: roman-church-third-century
+    why: >
+      Surfaced by a source-research pass on Roman Church Third Century's
+      (I.33) sourcing gaps, 2026-09-13. A genuine, unfilled gap, not a
+      cross-linking oversight: ANF05's Hippolytus material (1885) predates
+      the 1910s Schwartz/Connolly identification of the Apostolic
+      Tradition as his, so it was never in scope for that volume and
+      nothing else in the corpus carries it. Easton's translation (orig.
+      Cambridge University Press, 1934) is the confirmed public-domain
+      alternative to Dix's still-copyrighted 1937 edition.
+    url: "https://www.gutenberg.org/ebooks/61614"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification, 2026-09-13 (Project Gutenberg's own \"Public domain in the USA\" tag, translator, and full-text downloadability all confirmed against the host directly)"
+    status: not-yet-downloaded

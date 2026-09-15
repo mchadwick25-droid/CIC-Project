@@ -3,7 +3,7 @@
 **Date:** 2026-09-10. Run under the same discipline as the Cappadocian
 precedent (`World-Builds/Cappadocian/cappadocian_B1a_B1b_Coverage_Check.md`),
 which itself follows the S6.2/HAL precedent
-(`Ministry/Technology/Pass2/reviews/S6.2_HAL_s21b_coverage.md`). Scored against
+(`Archive/Technology-Pass2-2026-08/Pass2/reviews/S6.2_HAL_s21b_coverage.md`). Scored against
 the 56-row `World-Builds/Donatism/Source_Registry.md` and the 55 source records
 B-1 authored at `records/don/source/*.md` (56 rows → 55 records; row 29,
 Novatian, is an Excluded/Named Comparandum row and correctly has no source

@@ -9,13 +9,13 @@
 
 **Sources re-extracted and re-read directly this round:**
 
-- `L1-Foundation/CiC_L1_Constitution_V2_2.docx` — `word/document.xml` unzipped and stripped; Articles 3, 20, 21, 22, 26, 29 read in full
-- `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Blueprint_V7.3.docx` — §17 (Validation Documentation → Living Tradition Differentiation) read in full
-- `L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx` — Sections 3, 4, 5 (cell definitions, Cell 2B/3B transmission requirement, Principle 5)
-- `CiC_Step0_Conclusion_FINAL_v2.docx` — extracted and searched directly
+- `reference/L1-Foundation/CiC_L1_Constitution_V2_2.docx` — `word/document.xml` unzipped and stripped; Articles 3, 20, 21, 22, 26, 29 read in full
+- `reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Blueprint_V7.3.docx` — §17 (Validation Documentation → Living Tradition Differentiation) read in full
+- `reference/L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx` — Sections 3, 4, 5 (cell definitions, Cell 2B/3B transmission requirement, Principle 5)
+- `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` — extracted and searched directly
 - `World-Builds/Donatism/Step0_Movement_Scope_Confirmation.md` (v3, Approved to proceed) — §1, §2 A2/A5/Criterion 2, §3 B1–B5, §4 items 1–6 and acquisition note, §5, §6
 - `World-Builds/Imperial-Juridical-Christianity/Doc_01_World_Identification_Boundaries_Orientation.md` — §1, §4, §6 read in full
-- `Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md`
+- `Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md`
 - `World-Builds/Syriac-Christianity-Edessa-Nisibis/Open_Gaps_Tracking.md`, item 10
 - `cic/corpus-map/donatism.yaml` (full file)
 - `cic/texts/npnf101_augustine-confessions-letters.xml` — Augustine, Letter LXXXVII (*To Emeritus*), extracted and read in full, all ten sections
@@ -225,7 +225,7 @@ Two defects, both verified directly this round.
 
 **(a) The cited text does not contain the cited content.** `Step0_Movement_Scope_Confirmation.md` §1, read in full, says only: "it is still a live problem in Gregory the Great's Register in the 590s." The word "rebaptism" — in any form — **does not occur anywhere in `Step0_Movement_Scope_Confirmation.md`** (checked by search across the whole file). §3 B4, the other place Step 0 treats the terminal record, says "remained a live pastoral problem for Gregory the Great in Numidia in the 590s" — again with no rebaptism content. The specific detail that makes the sentence work as an argument — that Gregory's complaint is *about Donatists rebaptizing Catholics*, and is therefore the two-party contest continuing — is supplied by v2 and attributed to a source that does not carry it.
 
-**(b) The wrong document is named.** "The Step 0 Conclusion" is, throughout this build, the portfolio-level `CiC_Step0_Conclusion_FINAL_v2.docx`. That document was extracted and searched directly this round: it contains **no** Gregory-the-Great material and no rebaptism material at all. And the §1 passage v2 points at is not the Step 0 Conclusion's text — it is the Movement-Scope Confirmation's own **"Phase-scope disclosure (new in v2 — Round 1 M7),"** written by this build to correct a reading of the Step 0 Conclusion's "c. 312–430s" terminus. The sentence welds a portfolio-level authority onto a per-world document's own added disclosure.
+**(b) The wrong document is named.** "The Step 0 Conclusion" is, throughout this build, the portfolio-level `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx`. That document was extracted and searched directly this round: it contains **no** Gregory-the-Great material and no rebaptism material at all. And the §1 passage v2 points at is not the Step 0 Conclusion's text — it is the Movement-Scope Confirmation's own **"Phase-scope disclosure (new in v2 — Round 1 M7),"** written by this build to correct a reading of the Step 0 Conclusion's "c. 312–430s" terminus. The sentence welds a portfolio-level authority onto a per-world document's own added disclosure.
 
 **This matters beyond attribution.** This is the load-bearing evidence sentence for the corrected 439 rationale — the medium-tier fix Round 1 cared most about. The underlying historical claim is true (Gregory's Register does complain of Donatist rebaptism of Catholics in Numidia in the 590s), so the boundary reasoning survives; but as written it rests on a citation that cannot be checked to the source given.
 
@@ -288,7 +288,7 @@ Two problems.
 
 ### N6. (Low) The M9 fix reproduces Coach3's wording as the document's own prose, with an unmarked elision — the same pattern L6 was raised to fix
 
-**v2 §6, first bullet:** "That axis, per Coach3's own critique (`Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md`), is **external-management-within-unity versus internal-schism-into-division**: World #8's Cyprian is defined by crisis pastoral management within one unified communion under external persecution; this world is defined by permanent schism into two rival hierarchies — different gravity, not just different century."
+**v2 §6, first bullet:** "That axis, per Coach3's own critique (`Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md`), is **external-management-within-unity versus internal-schism-into-division**: World #8's Cyprian is defined by crisis pastoral management within one unified communion under external persecution; this world is defined by permanent schism into two rival hierarchies — different gravity, not just different century."
 
 **Coach3's actual text:** "#8's Cyprian is defined by crisis pastoral management within one unified communion under external persecution; #4 is defined by permanent schism into two rival hierarchies **over a different, later crisis (the Diocletian-era traditor controversy), with enduring martyr-cult identity as the organizing content**. External-management-within-unity versus internal-schism-into-division — different gravity, not just different century."
 

@@ -24,7 +24,7 @@ The original §4 defined Strand A as authority "grounded in claimed apostolic su
 
 ### 3. [MODERATE-HIGH] World #4 (Donatism) comparison presented as new but is a near-verbatim, uncredited reuse of an existing source cited elsewhere in the same document
 
-`Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md` already contains this exact comparison, and the same document is cited by name for the World #5 comparison one paragraph earlier in the same section.
+`Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md` already contains this exact comparison, and the same document is cited by name for the World #5 comparison one paragraph earlier in the same section.
 
 **Status: FIXED.** §6 now credits and quotes the source directly, naming the gap explicitly as a repeat of a failure mode already logged once in this build (Step 0 §3, B3).
 

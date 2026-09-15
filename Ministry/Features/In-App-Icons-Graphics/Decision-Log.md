@@ -714,3 +714,64 @@ it is.
 **Disposition:** all six world-media tile photos withdrawn from the live app.
 World Selector tiles now show only the Representative portraits, no world photo,
 until/unless this is cleared up.
+
+---
+
+## 2026-09-10 — Fidelis (Donatism) profile portrait built and approved: seven of seven Representatives now have profiles
+
+**Full research and drafting record kept in its own file, not duplicated here:**
+`Brand-Assets/Representative-Portraits/donatism/Fidelis_Portrait_Prompt.md` — Part
+One (appearance research, grounded toward rural Numidia per Doc_01/Doc_07's own
+finding that this was Donatism's numerically dominant heartland, not the more
+Romanized Carthage), Part Two (held-object comparative reasoning), and Part Three
+(the finished generation prompt).
+
+**The held-object search came back empty, disclosed rather than forced.** An
+initial pick (an open codex of the martyrs' *Passio*) was rejected on Mark's own
+direct critique — it collided with Yausep's closed codex, and "open vs. closed"
+doesn't survive icon-scale silhouette recognition. A full re-search across every
+confirmed gravity (G1 through G5), both Tensional gravities, and Doc_02's own
+material-culture record found no second non-text, composite-safe, silhouette-
+distinct object in this world's own record (a rebaptism vessel, martyr-cult
+relics/vision imagery, episcopal insignia, and the *Deo laudes* stone were each
+checked and rejected on their own terms — see the prompt file for the full
+per-candidate reasoning). Mark approved proceeding without a held object: Fidelis
+is shown with his own two bare hands, grounded in this world's own repeated
+"clean hand against the tainted one" imagery (Petilian's quoted words; the
+deployed Permanent Prompt's own vocabulary) — a real departure from the other six
+Representatives' object-holding convention, flagged explicitly rather than treated
+as a default.
+
+**Two correction rounds on the generated image itself, both Mark's own catch:**
+(1) the first hands-raised, palms-flat-toward-viewer draft read as a "stop" or
+"hold up" gesture rather than a rite being administered — corrected to hands
+cupped inward and angled slightly downward, cradling/pouring. (2) Mark asked for
+the portrait to face straight on at the viewer, squared to a single point of
+perspective, rather than at any angle — added to the prompt directly.
+
+**A framing/format mismatch caught on delivery, not before:** the generation
+prompt's own "wide horizontal landscape" instruction (inherited from the family's
+standing style-lock language, itself added after Yausep's early too-tall/
+too-torso-heavy drafts) produced a genuinely wide 2752×1536 image — but all six
+existing deployed assets are actually square (1:1) crops, roughly 500-750px; the
+"wide landscape" instruction had only ever been about avoiding an overly tall,
+full-body crop, not literal widescreen. Cropped to a centered square (hands still
+fully visible) and downscaled to 748px to match the family's own size range
+(matching Albina, the largest existing asset) before committing.
+
+**A real delivery-mechanism finding, worth keeping on record:** Mark's upload
+reached the repo via GitHub's web UI (an "Add files via upload" commit lands on an
+auto-created `<username>-patch-1` branch, not the working branch), and landed at
+the wrong path with a doubled extension
+(`Representative-Portraits/Fidelis_Portrait.png.jpg`, missing the `donatism/`
+subfolder). Pulled from that branch, verified as a real JPEG, converted to PNG,
+cropped/resized as above, and placed at the correct
+`donatism/Fidelis_Portrait.png` path — not assumed to already be in the right
+place just because an upload succeeded.
+
+**Disposition:** Fidelis's profile portrait **approved.** All seven
+Representatives now have approved profile portraits:
+Chloe, Theon, Yausep, Fidelis, Marius, Papnoute, Albina.
+`Brand-Assets/Representative-Portraits/README.md` updated to list all seven and
+their correct chronological group-image ordering (Donatism's 311 start predates
+Church and Empire's 312, so Fidelis slots in ahead of Marius, not at the end).

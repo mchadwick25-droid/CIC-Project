@@ -1,7 +1,7 @@
 # Cappadocian — B-1a/B-1b coverage check (R)
 
 **Date:** 2026-08-31. First coverage check under the same discipline the S6.2/HAL
-precedent (`Ministry/Technology/Pass2/reviews/S6.2_HAL_s21b_coverage.md`)
+precedent (`Archive/Technology-Pass2-2026-08/Pass2/reviews/S6.2_HAL_s21b_coverage.md`)
 established, run against the 116-row `cappadocian_Source_Registry.md` and the
 110 source records B-1 authored at `records/cappadocian/source/*.md`. No
 Registry row or source record is edited here — findings route to the

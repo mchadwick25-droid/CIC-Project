@@ -4,7 +4,7 @@
 **Reviewer stance:** Independent adversarial. Did not author the document or any part of the change set; no stake in its passing.
 **Review date:** 2026-09-09.
 **Branch reviewed:** `claude/cappadocian-unused-source-finding` (default branch `main`).
-**Methodology consulted:** `cic-build-cycle` SKILL.md (four escalation categories; cross-document fact consistency; scope of a build thread's write access); `cic-gravity-index` SKILL.md (its "What an independent review of gravity-discovery work must check" list — note that this skill file is **truncated mid-sentence at line 49** in this environment, so the checklist may be incomplete); `L3B-World-Build-Methodology/Source_Registry_Template.md`; `CAPPADOCIAN_BUILD_LEDGER.md` §§45–49; `cic/corpus-map/README.md`.
+**Methodology consulted:** `cic-build-cycle` SKILL.md (four escalation categories; cross-document fact consistency; scope of a build thread's write access); `cic-gravity-index` SKILL.md (its "What an independent review of gravity-discovery work must check" list — note that this skill file is **truncated mid-sentence at line 49** in this environment, so the checklist may be incomplete); `reference/L3B-World-Build-Methodology/Source_Registry_Template.md`; `CAPPADOCIAN_BUILD_LEDGER.md` §§45–49; `cic/corpus-map/README.md`.
 
 ---
 

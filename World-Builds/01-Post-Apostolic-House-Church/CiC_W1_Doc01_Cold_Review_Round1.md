@@ -7,11 +7,11 @@
 **File reviewed:** `CiC_W1_Doc01_World_Identification_FINAL.docx` (World-Builds/01-Post-Apostolic-House-Church/), 26,822 bytes.
 
 **Documents checked against:**
-- `CiC_Step0_Conclusion_FINAL.docx` and `CiC_Step0_Conclusion_FINAL_v2.docx` (project root) — World #1's scope-note entry is byte-identical in both.
-- `CiC_L3B_Formation_World_Construction_Framework_V7.3.docx` (main project `L3B-World-Build-Methodology/`).
-- `CiC_L3B_Formation_World_Construction_Framework_V7.4_DRAFT.docx` (found only in `Syriac-Build/L3B-World-Build-Methodology/` and in git worktree copies — **not present anywhere in the main project tree that contains Doc_01 itself**).
-- `CiC_L1_Constitution_V2_2.docx` (`L1-Foundation/`), Articles 21 and 22.
-- `Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md`.
+- `Archive/Superseded-Housekeeping/CiC_Step0_Conclusion_FINAL.docx` and `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` (project root) — World #1's scope-note entry is byte-identical in both.
+- `CiC_L3B_Formation_World_Construction_Framework_V7.3.docx` (main project `reference/L3B-World-Build-Methodology/`).
+- `CiC_L3B_Formation_World_Construction_Framework_V7.4_DRAFT.docx` (found only in `Archive/Syriac-Build-2026-07/L3B-World-Build-Methodology/` and in git worktree copies — **not present anywhere in the main project tree that contains Doc_01 itself**).
+- `CiC_L1_Constitution_V2_2.docx` (`reference/L1-Foundation/`), Articles 21 and 22.
+- `Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md`.
 - Independent web verification of primary-source quotations and secondary-scholarship claims (Ignatius, Martyrdom of Polycarp, 1 Clement, Bagnall, Lampe, Hübner/Lechner, Raymond Brown, Deir Ali inscription).
 
 ---
@@ -22,9 +22,9 @@
 
 Doc_01's header states: "Governed by: Formation World Construction Framework V7.4 (DRAFT), Part I." Independent verification:
 
-- The main project directory that contains Doc_01 (`CiC-Project/World-Builds/01-Post-Apostolic-House-Church/`) sits under `CiC-Project/L3B-World-Build-Methodology/`, which contains only `CiC_L3B_Formation_World_Construction_Framework_V7.3.docx`. There is **no V7.4_DRAFT file anywhere in this project tree.** The only copies of V7.4_DRAFT found anywhere on disk live in `Syriac-Build/L3B-World-Build-Methodology/` (a separate branch folder) and in two `.worktrees/` copies.
+- The main project directory that contains Doc_01 (`CiC-Project/World-Builds/01-Post-Apostolic-House-Church/`) sits under `CiC-Project/L3B-World-Build-Methodology/`, which contains only `CiC_L3B_Formation_World_Construction_Framework_V7.3.docx`. There is **no V7.4_DRAFT file anywhere in this project tree.** The only copies of V7.4_DRAFT found anywhere on disk live in `Archive/Syriac-Build-2026-07/L3B-World-Build-Methodology/` (a separate branch folder) and in two `.worktrees/` copies.
 - V7.4_DRAFT's own Status section reads, verbatim: "DRAFT — pending Opus deep review and project-lead review; not yet ratified. Built on the main-branch V7.3 baseline... substantially reworked on the project lead's own direction to combine source-ecology and source-registry work into a single Step 2 built for a roughly forty-world scale." This is explicitly a working draft for a different, larger-scale future methodology revision, not a document intended to govern a live World #1 build.
-- Doc_01 itself states, in its own "Built from" line: "No content from any other branch or prior world-build was consulted." But the only accessible copy of the document Doc_01 names as its governing authority lives in the Syriac-Build branch's folder structure, not in Doc_01's own project tree. Either the citation is simply wrong (V7.3 is what actually exists locally and should have been cited), or content from another branch was in fact consulted to produce this citation — either way, the "Governed by" line is not independently traceable from within Doc_01's own project context.
+- Doc_01 itself states, in its own "Built from" line: "No content from any other branch or prior world-build was consulted." But the only accessible copy of the document Doc_01 names as its governing authority lives in the Archive/Syriac-Build-2026-07 branch's folder structure, not in Doc_01's own project tree. Either the citation is simply wrong (V7.3 is what actually exists locally and should have been cited), or content from another branch was in fact consulted to produce this citation — either way, the "Governed by" line is not independently traceable from within Doc_01's own project context.
 - On substance: Part I ("World Identification & Boundaries") is byte-identical text in V7.3 and V7.4_DRAFT (verified by direct diff of both converted texts — identical from "Distinct World Criteria" through "World Continuity & Distinction," including the "Governed by: Constitution Article 21... Article 22... Forces Framework" line). So no Part I requirement was missed as a result of this citation error, and no downstream construction decision changed. This is a sourcing/traceability defect, not a content defect — but it is a real one: a document built inside a formal review-and-sign-off process should not cite as its governing authority a document explicitly marked "not yet ratified" that doesn't exist in its own project folder.
 
 **2. [SUBSTANTIAL] Doc_01's claimed two-round review history is pure narration with no independent trace anywhere in the project.**
@@ -55,7 +55,7 @@ Spot-checked directly against primary texts and the secondary scholarship cited,
 
 **5. [No finding — confirmed consistent] Internal consistency with the Step 0 Conclusion's World #1 scope note.**
 
-Both `CiC_Step0_Conclusion_FINAL.docx` and `_FINAL_v2.docx` contain an identical World #1 entry: "Post-Apostolic/Sub-Apostolic House-Church Christianity. c. 70–200 CE. Greek-speaking Mediterranean — Antioch/Syria, Asia Minor, Rome. Didache, 1 Clement, Shepherd of Hermas, Ignatius's letters, Polycarp, Justin Martyr. Communal, pre-institutional, plural presbyters and households." Doc_01's dates, regions, and source list match this exactly. The Step 0 Conclusion's disclosure obligations for World #1 ("name Marcion, Valentinian Christianity, and Montanism as real, contemporary, not-yet-defeated neighbors"; "martyr-cult and popular devotional piety... present in world #1, it should not be described as 'centered nowhere'") are both picked up and substantively developed by Doc_01 (Sections 8.3 and 9 respectively), not merely name-checked.
+Both `Archive/Superseded-Housekeeping/CiC_Step0_Conclusion_FINAL.docx` and `_FINAL_v2.docx` contain an identical World #1 entry: "Post-Apostolic/Sub-Apostolic House-Church Christianity. c. 70–200 CE. Greek-speaking Mediterranean — Antioch/Syria, Asia Minor, Rome. Didache, 1 Clement, Shepherd of Hermas, Ignatius's letters, Polycarp, Justin Martyr. Communal, pre-institutional, plural presbyters and households." Doc_01's dates, regions, and source list match this exactly. The Step 0 Conclusion's disclosure obligations for World #1 ("name Marcion, Valentinian Christianity, and Montanism as real, contemporary, not-yet-defeated neighbors"; "martyr-cult and popular devotional piety... present in world #1, it should not be described as 'centered nowhere'") are both picked up and substantively developed by Doc_01 (Sections 8.3 and 9 respectively), not merely name-checked.
 
 **6. [No finding — confirmed consistent] Cross-check against the Coach 3 critique.**
 

@@ -42,4 +42,4 @@ See Quick Meaning above; this term's own fuller treatment lives in the *Imperato
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0 (Tier 3: World Meaning brief, Ecological Function and Key Sources omitted per Template instruction). No brackets or builder notes remain. CT tag not applied.
+Completed per `reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0 (Tier 3: World Meaning brief, Ecological Function and Key Sources omitted per Template instruction). No brackets or builder notes remain. CT tag not applied.

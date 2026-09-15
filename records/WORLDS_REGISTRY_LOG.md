@@ -130,6 +130,23 @@ Before that, **BAR SWEEP**, 2026-08-30 (Mark: "much better thats the bar" -
 field swept to the approved sample - short sentences, everyday words;
 quotes character-exact; renderings at the bar.
 
+**Census content enriched, 2026-09-14.** Following the Gallic Salvian
+expansion's own precedent, Mark asked for the same treatment across the
+other live worlds. A research-only subagent read `records/alx/` in full
+against the live census entry and proposed sourced additions; every
+proposed claim was independently re-verified against its own cited
+record (quote text, figure dates, confidence tier) before being applied.
+Six fields changed: `sourcing` (the untranslated Stromateis III gap),
+`floorNote` (a real correction - the in-lifetime Demetrius/Origen rupture
+was over his ordination, not the doctrines later condemned in 553, which
+the prior text had conflated), `longDescription` (Clement never
+describing a formal school he headed; the Nepos/Dionysius allegory
+dispute), and `voices` (Dionysius's own plague-nursing quote; Didymus's
+Tura-papyri absence and the unattested "headed the school" claim
+softened to "later tradition"; Potamiaena named as the concrete instance
+behind "no woman's own words"). Diff scoped and verified with
+`node tools/validate-census.mjs` (0 errors).
+
 ## desert (Desert Monasticism)
 
 `doorway_place` is Mark's plain-English doorway direction (2026-08-28);
@@ -182,6 +199,20 @@ Recompile history before the schema-gap pass: **LEXICON LABEL PASS**,
 labeled. **FIVE-WORLD TRANSPARENCY READ**, 2026-08-30: antony-call +C-P;
 `demo.center-coming-to-belief` opening speaks the plain name (Moses).
 **BAR SWEEP**, 2026-08-30, same standard as alx.
+
+**Census content enriched, 2026-09-14.** Same pass as alx's own entry
+above. Five fields changed: `sourcing` (this world's own fleet-largest
+quote shelf, 59 records, directly counted against every sibling world
+before being stated); `longDescription` (a real correction - Kellia's
+own commercial center, showing the settlements' real economic ties to
+nearby villages; the popular Byzantine-Hesychast conflation named and
+distinguished, citing the term's own `false_friend` field); `legacy`
+(the same hesychia correction restated where a reader would meet the
+later tradition); `voices[1]` (Pachomius's own sister's house across the
+river, its rule against the two communities ever seeing each other's
+faces, and the burial exception - her own name withheld, per the
+source record's own explicit instruction that the tradition's later
+name for her is not attested in this text). Verified clean.
 
 ## pahc (Post-Apostolic House-Church Christianity)
 
@@ -302,6 +333,16 @@ spend and Mark's own explicit per-run authorization
 precedent) - not something a build thread runs on its own judgment.
 Flagged here for Mark's decision, not executed.
 
+**Census content enriched, 2026-09-14.** Same pass as alx's own entry
+above. Two fields changed: `voices` (the two enslaved deaconesses,
+named only by Pliny's own word for their office, tortured c. 112 to
+learn what Christians did - the earliest outside evidence women held a
+formal title here at all); `longDescription` (a real correction - "a
+ten-soldier guard" read Ignatius's own metaphor, "ten leopards," as a
+literal headcount; corrected against the vendored source directly, plus
+the Pliny/Trajan material newly surfaced as the movement's one outside,
+non-Christian witness). Verified clean.
+
 ## hal (Hieronymian Ascetic-Literary Christianity)
 
 `census_id`: the census entry's own `id` field is what the Atlas deep link
@@ -362,6 +403,20 @@ recompile needed** - the discovery pass's premise (a real gap in a
 deployment layer) did not survive contact with which layer actually
 ships. Logged here rather than left as a silent non-finding.
 
+**Census content enriched, 2026-09-14.** Same pass as alx's own entry
+above. Four fields changed: `sourcing` (a real correction - Palladius's
+Greek reporting Jerome's own jealousy toward Paula hardens, in the
+Syriac recension of the same passage, into a flat claim she died to
+escape it; the two witnesses' own disagreement, not either one's
+account, is what the field now states); `longDescription` and `legacy`
+(Augustine's own Oea congregation nearly rioting over one changed word
+in Jonah; Augustine's own final, published non-acceptance of the
+Vulgate, quoted verbatim); `voices` (Fabiola added as a sixth voice -
+her divorce/remarriage/public penance held to the same standard the
+teaching applied to men, and the "first hospital" claim attributed to
+Jerome's own single, uncorroborated letter rather than stated as fact).
+Verified clean.
+
 ## syr (Syriac Christianity, Edessa/Nisibis)
 
 `doorway_place` responds to Mark's own screen read, 2026-08-28, which
@@ -396,6 +451,18 @@ qyama, raza+shrara, tahwyata, Ewangeliyon da-Mhallete labeled.
 **FIVE-WORLD TRANSPARENCY READ**, 2026-08-30: abgar-addai-legend +C-E,
 jacob-nicaea +C-T, ihidaya +C-I, raza-shrara +C-T. **BAR SWEEP**,
 2026-08-30, same standard as alx.
+
+**Census content enriched, 2026-09-14.** Same pass as alx's own entry
+above. Three fields changed: `sourcing` (the registry's own thinness
+finding stated specifically rather than generically); `longDescription`
+(the two conflicting primary witnesses on Jacob of Nisibis's death year
+named directly, the dispute itself left open; Yazdegerd I named as the
+Persian king whose favor enabled the 410 synod); `legacy` (the
+Diatessaron's own displacement by the Peshitta under Rabbula, with his
+personal causation stated as the historians' own live dispute, not
+settled); `voices` (Simeon bar Sabbae added as a seventh voice - tax
+refusal, martyrdom, the disputed year of his death named as disputed).
+Verified clean.
 
 ## ijc (Imperial and Juridical Christianity)
 
@@ -449,6 +516,28 @@ concilium, primatus, Tomus labeled. **FIVE-WORLD TRANSPARENCY READ**,
 2026-08-30: tome-that-would-not-bend +C-T. **BAR SWEEP**, 2026-08-30, same
 standard as alx.
 
+**Census content enriched, 2026-09-14.** Same pass as alx's own entry
+above. Added a `teaser` field (absent before this pass, matching the
+fleet convention only Cappadocian and Gallic had carried). Four other
+fields changed: `sourcing` (women's own absence named alongside the
+ordinary-believer and Homoian silences, matching the registry's own
+`thinness_statement`); `longDescription` (a real correction - the
+world's own signature line, "the emperor is within the Church, not
+above it," is Ambrose's own words from the 386 basilica standoff, not
+the 390 Thessalonica penance the prior text attributed it to; both real
+events are now named, in their real order); `legacy` (the same 386
+vigil's own lasting liturgical legacy, Augustine's own eyewitness quote
+on congregational hymn-singing); `voices` (Justina's own coercive
+measures named with the source's own stated ambiguity over whether
+Ambrose's letter or the record's chronology is the more reliable
+witness to her role; the anonymous Homoian fragment's likely author
+named, on the dominant scholarly identification, as Mercurinus
+Auxentius). One internal date inconsistency found and left unresolved
+rather than guessed at: `longDescription` gives Constantine's toleration
+as 313, `entry.tile` and the registry's own `time_window` give 312; no
+ijc record disambiguates which specific act each date names. Verified
+clean.
+
 ## cappadocian (Cappadocian Christianity)
 
 Everything about this world's own build, rename, admission, Representative
@@ -478,3 +567,222 @@ entries already reference by exact string, and every sibling world's own
 is `imperial-juridical`). The entry's own participant-facing `name`/
 `informalName` fields were updated to drop "Nicene"; only the internal
 `id` string stays as first assigned.
+
+## gallic (Gallic Monastic-Ascetic Christianity)
+
+Everything about this world's own build is tracked in
+`World-Builds/Gallic-Monastic-Ascetic-Christianity/` (Doc_01-Doc_10, the
+Source Registry, the Representative Construction Notes, and this world's
+own B-9 and Phase C scoping notes) - those documents are the record of
+truth for this world; nothing further is duplicated here except the facts
+a registry reader needs quickly:
+
+- **G4 (Article 29 living-tradition determination): CONFIRMED, 2026-09-12**
+  - Mark, in session, in direct response to the drafted presentation:
+    "Confirm as drafted." Recorded in full in
+    `gallic_Representative_Construction_Notes_Renatus.md` Section 6 and its
+    Document Log. `living_tradition_flag: true` is the plain factual data
+    point (this world's monastic tradition genuinely continues in living
+    communities today) the confirmed determination itself relies on.
+  - Five documented divergences from present-day living tradition; YES,
+    moderately broad correspondence (later Western monasticism generally,
+    the Roman Catholic cult of Martin of Tours, the Lerins-Marseilles
+    line's continuation into the Merovingian church, the Vincentian
+    canon's afterlife).
+- **B-8 (2026-09-12):** first-ever compile, `state: built`. `census_id` is
+  deliberately `null` - Atlas/census linking is real, later, post-admission
+  work (per Cappadocian's own precedent, above), not yet done.
+- **B-9 (2026-09-12):** scoped and disposed - contributes nothing beyond
+  B-8, for a first-ever build with no prior hand-authored deployment to
+  swap away from. Full reasoning:
+  `gallic_B9_Scoping_Note.md`.
+- **Phase C (2026-09-13):** scoped, not completed. The governing process
+  document's own Phase C checklist describes deleted infrastructure (the
+  same class of finding B-6/B-7a/B-8/B-9 each already made). The real
+  remaining wiring (frontend `worlds.ts` registration, the site's portrait
+  page, census linking) is confirmed structurally deferred to post-M3
+  admission by direct fleet precedent, and is additionally blocked by the
+  Representative portrait, which does not exist yet (a separately-deferred
+  identity decision, not decided here). Full reasoning:
+  `gallic_PhaseC_Scoping_Note.md`.
+- **M3 admission run (2026-09-13):** 28/28 sealed probes passed, real live
+  Bedrock generation (`LiveModelAnswerer`, not the fixture stand-in), one
+  per fleet canon cell. Report:
+  `engine/m3/reports/live-admission-report-gallic-2026-09-13.json`. Zero
+  failing probes, so no raw generated answer text was preserved to
+  hand-read (the script's own by-design behavior) - a real, honestly-named
+  limit on this step's own verification depth, not fixed after the fact.
+- **ADMITTED, 2026-09-13.** Mark's own word, in session, in direct response
+  to the M3 report above: "yes, admit it."
+- **Phase D live Deep Interview (2026-09-13):** a real, threaded,
+  six-question conversation against the admitted package (matching
+  Cappadocian's own SS38 precedent) found a genuine register defect - the
+  voice broke strict we-voice under direct "which one are you - Martin or
+  Cassian?" pressure. Full account:
+  `gallic_PhaseD_LiveDeepInterview_2026-09-13.md`.
+- **Self-reference base fix (2026-09-13), package re-pinned.** Per Mark's
+  own instruction on receiving that finding ("the representative should
+  not have insight to anything outside their world and all fixes should
+  be base fixes not fix on fix"), `gallic.voice.craft.md`'s
+  "self-reference" flavor_note was rewritten wholesale three times (never
+  a bullet appended beside a prior one), each pass re-verified with a real
+  recompile and live conversation. Full account, including where the
+  first two passes fell short before the third held clean:
+  `gallic_SelfReference_BaseFix_2026-09-13.md`. Current pin:
+  `manifest_hash sha256:53b4750e53ca7f2fe0299cc5fece66b7b06c53d3a9a5a4d51ef676ddf3106f96`,
+  `packages/gallic/2026-09-13T16-06-19Z`.
+- **Phase D round 2, fresh questions (2026-09-13):** an independent
+  re-verification against the re-pinned package - six entirely new
+  questions, none reused from round 1. Zero pronoun-family output_defects
+  across all four turns that reached the voice, including a fresh
+  phrasing of the exact identity-collision risk the base fix targeted.
+  One separate, unrelated, unfixed finding named (a markdown-heading
+  formatting artifact, generic fleet infrastructure, confirmed unrelated
+  to the self-reference fix by its own inconsistent appear/disappear
+  pattern across every fix pass). Full account:
+  `gallic_PhaseD_LiveDeepInterview_Round2_2026-09-13.md`.
+- **Representative portrait locked and wired, 2026-09-13.** Mark's own
+  word, in session: "yes, lock it in." A grounding brief
+  (`gallic_Representative_Portrait_Grounding_Brief.md`, Cappadocian SS35
+  format) was drafted, reviewed against a candidate image for
+  authenticity and connection, and corrected in place once (an "undyed"
+  tunic claim was checked against the source record and found to be this
+  brief's own inference, not a source word - corrected, disclosed
+  in-line, not silently rewritten). Two further revisions corrected the
+  art directly against all seven other live portraits' own image files
+  (not just their text descriptions) after a genuine distinctness risk
+  was found against Chilo (Cappadocian) - hair recolored white/silver,
+  belt changed to a plain rope, both confirmed against the actual image
+  files. Final portrait wired to both live-serving locations
+  (`cic-website/assets/portraits/gallic.jpg`,
+  `cic-poc/frontend/public/images/portraits/gallic.jpg`, 720x720
+  quality-85 JPEG, same pipeline as every prior world's own portrait) and
+  registered in `cic-poc/frontend/src/data/worlds.ts`
+  (`WORLD_ORDER`/`WORLD_ASSETS`, accent `#5A6B74`). The
+  `app-world-assets/gallic`/`app-world-order/gallic` accepted-open
+  disclosures in `engine/m1/cross_world.py` closed accordingly (removed,
+  not left stale).
+- **Census link, content upgrade, tradition page, homepage card
+  (2026-09-13).** Mark: "yes, start on 1-4." `records/worlds.yaml`'s
+  `census_id` set to the census's own existing entry id
+  (`gallic-monastic-ascetic-christianity`, already on record from the
+  2026-08-26 G0 case, not newly authored). `cic-website/data/
+  world-census.json`'s `sourcing` and `why` fields upgraded against this
+  build's actual findings, same discipline as Cappadocian's own SS31: the
+  case document's own word-count arithmetic error corrected (502,441
+  words excluding Hilary of Poitiers, not the 366,371 first reported -
+  that smaller figure was actually the total with Cassian excluded
+  instead, per `gallic_Doc01_World_Identification.md`'s own correction),
+  the strand-singular finding folded in, construction-complete status
+  named. New page `cic-website/traditions/
+  gallic-monastic-ascetic-christianity.html` built to the fleet's own
+  template, its four sample questions and both honest-limits paragraphs
+  grounded directly in this build's own records (`gallic.gravity.
+  soldier-of-christ`, `gallic.gravity.grace-and-effort`, `gallic.story.
+  election-at-tours`, `gallic.limit.only-on-paper`), not invented copy.
+  Homepage card added to `cic-website/index.html`'s era-2 group.
+  **Found, not assumed:** `cic-website/index.html` is static markup, not
+  driven by `world-census.json` at request time - adding the homepage
+  card makes Renatus visibly clickable on the live production homepage
+  the moment this is pushed and deployed, regardless of the census
+  entry's own `status` field. `engine/m1/cross_world.py`'s own
+  `check_census_link` (exercised directly, not assumed) confirms the
+  `talk.html?worlds=gallic-monastic-ascetic-christianity` deep link both
+  the new card and the new tradition page use cannot actually resolve
+  until `world-census.json`'s `status` for this entry reads `"Built &
+  Live"` - so the card and page are staged, not yet load-bearing.
+  `census-id/gallic`'s accepted-open text was rewritten to name this
+  precisely (not deleted - the underlying condition changed but is still
+  real); `registry-null-field/gallic.census_id` closed outright, since
+  `census_id` is no longer null. The status flip itself (`status`,
+  `entry` block) is deliberately not done here, matching Cappadocian's
+  own distinct SS30-SS32 sequence - held for Mark's own explicit word,
+  not self-disposed.
+- **Status flip: "Built & Live," 2026-09-13.** Mark's own word, in
+  session: "yes, flip it." `cic-website/data/world-census.json`'s gallic
+  entry: `status` -> `"Built & Live"`, `chip` -> `"live"`, `glyph` ->
+  `null`, `statusWord` -> `"Open for conversation"`, `statusDescription`
+  -> `"A completed formation world, admitted to the fleet and open for
+  conversation."`, `living` -> `true` (matching registry
+  `living_tradition_flag: true`), and the `entry` block populated
+  (`representativeId: "renatus"`, `representativeName: "Renatus"`,
+  `representativeTitle: "Bishop"`, `worldName: "The Monk-Bishops of
+  Gaul"` matching registry `card_name`, `subtitle` matching registry
+  `display_name`, `color: "#8FA3AC"` - the brighter on-dark variant of
+  the accent already fixed for the portrait/frontend, matching how every
+  prior world's own `entry.color` uses its dark-ground tint rather than
+  its base hex, `tile` matching the registry's own `doorway_description`
+  verbatim, `icon: "assets/portraits/gallic.jpg"`). Verified with a
+  targeted line-level edit (not a full JSON round-trip), diff confirmed
+  scoped to only this one movement entry, 23 lines. Full gate battery,
+  `engine.m1.cross_world`, and `engine.m2.cli staleness-check` all
+  re-run clean: 0 new defects, `census-id/gallic` closed (confirmed live
+  against the real registry+census files, not assumed), all 10
+  `test_cross_world.py` tests pass including the two that had been
+  disclosed-open since Phase C. The now-fully-closed four-entry
+  `ACCEPTED_OPEN` block for gallic (`registry-null-field/
+  gallic.census_id`, `census-id/gallic`, `app-world-assets/gallic`,
+  `app-world-order/gallic`) is gone from `engine/m1/cross_world.py`
+  entirely, not left stale - the world is now fully wired end to end:
+  registry, package, portrait, census, tradition page, homepage card,
+  all agreeing.
+- **Salvian material expanded: three new records, 2026-09-14.** Prompted
+  by the project lead's own observation, in session, that Doc_05's own
+  §10A Proportionality Assessment rates "ordinary believers / rustics"
+  **under** relative to probable ecology, and that this world's one real
+  lead for thickening it without inventing anything - Salvian of
+  Marseilles, "the one Native voice whose whole work is addressed
+  outward to the lapsed layperson rather than inward to the monk"
+  (Doc_05 §5) - was under-used (licensed narrowly, cited only in brief
+  single lines inside `gallic.force.barbarian-fiscal-ruin`). This build
+  thread read Gov. V.4-6, VI.5-7, and VI.13/15 directly and in full
+  (fresh reads, not secondhand from the existing force record's own
+  citations) and authored three new records, none part of the original
+  Doc_06/Doc_09 batches:
+  - `gallic.term.bagaudae` - ordinary rural Gallic Christians' own
+    experience of tax exaction, corrupt officials, and flight to or
+    revolt with the barbarians; the one place in this world's whole
+    record where the rural poor appear as a subject, not a mission
+    field (contrast `gallic.term.heathen-rustics`).
+  - `gallic.term.church-or-circus` - Salvian's charge that ordinary lay
+    Christians in the cities deserted church services mid-service for
+    public games; the one description in this world's record of
+    ordinary lay worship attendance, as distinct from a monk's own
+    interior "lukewarmness."
+  - `gallic.story.circuses-amid-the-ruins` - Salvian's own eyewitness
+    account ("a sight that I myself endured") of Trier's repeated sack
+    and the city's surviving notables petitioning the emperors for
+    circus games afterward. A genuine internal inconsistency in
+    Salvian's own text (three vs. four sacks) is disclosed rather than
+    resolved; the story's own actors are named as the city's elite, kept
+    distinct from `church-or-circus`'s broader lay-population claim
+    rather than conflated with it.
+
+  Licensing checked against `gallic.source.salvian-on-the-government-of-
+  god`'s own restriction (not licensed for the grace/free-will
+  controversy) - all three draw on unrelated material, on the same basis
+  the existing `government-of-god` and `lukewarmness` terms already used
+  his text. Recompiled clean (`sha256:9f7211822ac9771b1b22175d492675973
+  d954a36f15f297daec54d9f06b6c8f8`, `packages/gallic/2026-09-14T15-25-
+  13Z`), determinism-check and staleness-check pass, `engine.m1.cross_
+  world` 0 new defects (retrieval-hint-coverage now 105/105, up from
+  102/102), full `pytest` suite (34 tests) green. Package re-pinned in
+  `records/worlds.yaml`. **Not yet re-admitted**: Cappadocian's own
+  precedent re-ran the live M3 sealed-probe battery after a content
+  addition of this kind, which is real billed spend - held for the
+  project lead's own word before spending rather than run
+  unilaterally.
+- **Re-admission after the Salvian expansion: 28/28, 2026-09-14.** Mark's
+  own word, in session: "yes, run it." Preflight confirmed against
+  `us.anthropic.claude-sonnet-4-5-20250929-v1:0` (us-east-1) before
+  spending - cache engaged on both the non-streaming and streaming
+  paths, matching spec SS7. Live sealed-probe battery re-run against
+  the re-pinned package (`sha256:9f7211822ac9771b1b22175d492675973
+  d954a36f15f297daec54d9f06b6c8f8`, `packages/gallic/2026-09-14T15-25-
+  13Z`, the package carrying the three new Salvian records): 28/28
+  passed, 0 failing probes. Report:
+  `engine/m3/reports/live-admission-report-gallic-2026-09-14.json`.
+  Real token counts recorded (13,770 input / 15,221 output / 35,797
+  cache-write / 966,519 cache-read); no $/token or $/turn figure
+  quoted, per spec principle 13, until reconciled against a real AWS
+  invoice.

@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources:
   - {source_id: don.dw.walking-to-one-font, locus: "the two-of-everything town, the public dated act, the refusal on personal devotion, the conscience of the giver", license: public-domain}
-  - {source_id: don.quote.conscience-of-the-giver, locus: "Petilian's clause, quoted verbatim", license: public-domain}
+  - {source_id: don.quote.petilian-conscience-of-the-giver, locus: "Petilian's clause, quoted verbatim", license: public-domain}
   - {source_id: don.term.rebaptism, locus: "the first true baptism rather than a repetition", license: public-domain}
   - {source_id: don.core.donatism, locus: "thin_topics: the ordinary believer's own interior life", license: public-domain}
 canon_question_id: _fleet.canon.c-p-01
@@ -72,7 +72,7 @@ examined-hand answer are `don.dw.walking-to-one-font`'s own text;
 `don.term.rebaptism` carries the count.
 
 One verbatim quotation: For what we look to is the conscience of the
-giver, to cleanse that of the recipient (`don.quote.conscience-of-the-giver`,
+giver, to cleanse that of the recipient (`don.quote.petilian-conscience-of-the-giver`,
 Petilian's clause, surviving only inside its own refutation). It is
 attributed as our own bishop's words, which is how the quote record names
 it.

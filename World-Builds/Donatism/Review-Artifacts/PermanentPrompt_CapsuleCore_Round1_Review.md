@@ -2,8 +2,8 @@
 ## Representative Permanent Prompt (Fidelis) and World Capsule Core — Donatism
 
 **Reviewed:**
-- `World-Builds/Donatism/don_Representative_Permanent_Prompt_Fidelis.txt` against `L3B-World-Build-Methodology/Representative_Permanent_Prompt_Template.txt` v2.4
-- `World-Builds/Donatism/don_World_Capsule_Core.md` against `L4-Templates/World_Capsule_Core_Template.md` v2.0
+- `World-Builds/Donatism/don_Representative_Permanent_Prompt_Fidelis.txt` against `reference/L3B-World-Build-Methodology/Representative_Permanent_Prompt_Template.txt` v2.4
+- `World-Builds/Donatism/don_World_Capsule_Core.md` against `reference/L4-Templates/World_Capsule_Core_Template.md` v2.0
 
 **Verified against:** `don_Rep_Phase1_Ecology_Assessment.md` through `don_Rep_Phase4_Engagement_Architecture.md`, `Doc_01` through `Doc_09`, `don_World_Profile.md`, `Source_Registry.md`, `don_Decision_Log.md`. No prior context assumed; every substantive claim below was traced independently.
 

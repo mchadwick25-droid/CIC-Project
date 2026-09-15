@@ -1,0 +1,1903 @@
+{
+  "region": "us-east-1",
+  "world_keys": [
+    "don",
+    "ijc"
+  ],
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "probes": [
+    {
+      "id": "R1-divergence-opening",
+      "expected": "no direct-address short-circuit (each of you); both seated voices heard on the same question",
+      "observed": "speakers in order: ['don', 'ijc', 'don'], round ran 4 steps in 46s",
+      "grade": "PASS",
+      "routing_action": "voice_with_directive",
+      "routing_reason": "ordinary turn",
+      "facilitator_kinds": [],
+      "texts": [
+        {
+          "speaker": "don",
+          "text": "The taint follows. Not because we say so, but because the hand that failed the test showed what it is worth.\n\nWhen a bishop handed over the scriptures to be burned rather than suffer for keeping them, he showed, in that one moment, that he could not be trusted with what he was meant to guard. What such a hand gives afterward — baptism, ordination, the consecration of bread and cup — comes from a source we cannot trust. The sacrament's validity rises and falls on the giver's own character. If the conscience that ought to cleanse is itself unclean, nothing valid passes through it.\n\nAnd no, a bishop's standing before God is not the same thing as his standing before the emperor. The emperor has no standing to decide who the true church is. As our own primate is reported to have said: \"What has the emperor to do with the church?\". A council enforced by a state that already favors our rival is not the church judging itself — it is the state pretending it can settle what only God may judge.\n\nWe hold both things at once, and we hold them plainly: the hand matters absolutely, and the emperor's recognition of that hand settles nothing about whether it is clean. What the state calls legitimate and what God calls valid are not the same question. We refuse to let one answer the other.\n\nBut I will tell you what this ground cannot show you: the traditor's own account. His fear. His reasoning. Whether he wept afterward, or hardened, or quietly drifted back into ministry hoping no one would find out. None of that is in our own words anywhere. What survives is the verdict we gave, not the interior life of the man we gave it to.",
+          "citations": [
+            {
+              "sentence": "When a bishop handed over the scriptures to be burned rather than suffer for keeping them, he showed, in that one moment, that he could not be trusted with what he was meant to guard.",
+              "record_ids": [
+                "don.term.traditor-traditio"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.term.traditor-traditio",
+                  "record_type": "term",
+                  "label": "traditor",
+                  "sources": [
+                    {
+                      "source_id": "don.source.optatus-appendix-of-documents",
+                      "author": "Optatus of Milevis (compiler)",
+                      "work": "Optatus's own Appendix of Documents: Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                      "locus": "the Acta Purgationis Felicis (314), the founding accusation against Felix of Aptungi",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    },
+                    {
+                      "source_id": "don.source.petilian-of-constantina-letters-quoted",
+                      "author": "Petilian of Constantina (Donatist bishop of Cirta)",
+                      "work": "Petilian's own letters, as quoted and answered inside Augustine's Answer to the Letters of Petilian (row 4)",
+                      "locus": "'What we look for is the conscience of the giver, to cleanse that of the recipient' -- independently verified against npnf104_augustine-anti-manichaean-anti-donatist.xml",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The sacrament's validity rises and falls on the giver's own character.",
+              "record_ids": [
+                "don.quote.petilian-conscience-of-the-giver"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.quote.petilian-conscience-of-the-giver",
+                  "record_type": "quote",
+                  "label": "Answer to the Letters of Petilian, Book II, Chapter 3, SS6 — Petilian",
+                  "sources": [
+                    {
+                      "source_id": "don.source.augustine-answer-to-letters-of-petilian",
+                      "author": "Augustine of Hippo",
+                      "work": "Answer to the Letters of Petilian (3 books)",
+                      "locus": "Book II, Chapter 3, SS6 ('Petilianus said: ...'); independently re-located and re-read this session against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 15788 -- distinct from the Prolegomena's own earlier summary of the same proposition at line 10280",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ],
+                  "original_wording": "\"Conscientia namque (sancte) dantis attenditur, quae (qui) abluat accipientis.\" \"Nam qui fidem (sciens) a perfido sumpserit, non fidem percipit, sed reatum.\" \"What we look for is the conscience of the giver (him who gives in holiness), to cleanse that of the recipient.\" \"For he who (wittingly) receives faith from the faithless receives not faith, but guilt.\"",
+                  "spoken_rendering": "What matters is the giver's own character - that's what makes the one receiving it clean. Someone who knowingly takes their faith from a faithless hand doesn't receive faith at all - only guilt."
+                }
+              ]
+            },
+            {
+              "sentence": "The emperor has no standing to decide who the true church is.",
+              "record_ids": [
+                "don.term.refusal-of-imperial-legitimacy"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.term.refusal-of-imperial-legitimacy",
+                  "record_type": "term",
+                  "label": "Quid est imperatori cum ecclesia?",
+                  "sources": [
+                    {
+                      "source_id": "don.source.optatus-against-donatists",
+                      "author": "Optatus of Milevis",
+                      "work": "Against the Donatists, Books I-VII (c. 366-367; a revised second edition c. 385)",
+                      "locus": "Book III, line 1904 -- Donatus's own retort, 'Quid est imperatori cum ecclesia?', in the context of the Macarian mission",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    },
+                    {
+                      "source_id": "don.source.optatus-appendix-of-documents",
+                      "author": "Optatus of Milevis (compiler)",
+                      "work": "Optatus's own Appendix of Documents: Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                      "locus": "Anulinus's own 313 relatio to Constantine",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "As our own primate is reported to have said: \"What has the emperor to do with the church?\".",
+              "record_ids": [
+                "don.quote.donatus-quid-est-imperatori"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.quote.donatus-quid-est-imperatori",
+                  "record_type": "quote",
+                  "label": "Against the Donatists, Books I-VII, Book III — Donatus",
+                  "sources": [
+                    {
+                      "source_id": "don.source.optatus-against-donatists",
+                      "author": "Optatus of Milevis",
+                      "work": "Against the Donatists, Books I-VII (c. 366-367; a revised second edition c. 385)",
+                      "locus": "Book III; cic/texts/optatus_against-the-donatists.txt, line 1904",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ],
+                  "original_wording": "\"Quid est imperatori cum ecclesia?\" (\"What has the Emperor to do with the Church?\")",
+                  "spoken_rendering": "What business does the emperor have with the church?"
+                }
+              ]
+            },
+            {
+              "sentence": "None of that is in our own words anywhere.",
+              "record_ids": [
+                "don.limit.doubt-and-reception"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.limit.doubt-and-reception",
+                  "record_type": "honest_limit",
+                  "label": "Was there room among us for doubt? I will not pretend our record can answer that from the…",
+                  "sources": [
+                    {
+                      "source_id": "don.core.donatism",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thinness field: 'the ordinary believer's interior life -- doubt, fear, a traditor's own account of surrendering scripture -- is a register a hostile-mediated record structurally does not preserve'",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "don.term.traditor-traditio",
+              "matched_name": "traditor",
+              "plain_meaning": "When the persecutor came, some clergy handed over our scriptures to be burned. Others did not. We do not call this a private failure of nerve. A man who gave up what he was meant to guard showed, in that one moment, what his hand is worth. A hand that failed then cannot be trusted now to baptize, ordain, or consecrate.",
+              "quick_meaning": "A traditor handed over the scriptures or sacred vessels, rather than suffer for keeping them. We hold that his hand can no longer give a valid baptism or ordination.",
+              "translational_sense": "'Isn't this just an old grudge?' From outside, it can sound like one -- a dispute over who behaved badly during a long-past persecution that a reasonable person would expect both sides to have moved past by now. From inside, it is the opposite: our own insistence that what a minister does under real pressure is not separable from what he can give afterward, asked of our own clergy as much as anyone's.",
+              "false_friend": [
+                "an old personal grudge over past cowardice, with no live sacramental consequence today",
+                "a general political or military betrayal, unconnected to the surrender of scripture"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [],
+          "cited_record_ids": [
+            "don.limit.doubt-and-reception",
+            "don.quote.donatus-quid-est-imperatori",
+            "don.quote.petilian-conscience-of-the-giver",
+            "don.term.refusal-of-imperial-legitimacy",
+            "don.term.traditor-traditio"
+          ]
+        },
+        {
+          "speaker": "ijc",
+          "text": "We held that the two standings are not the same thing - and we paid a real cost for holding them apart.\n\nA bishop's standing before God rests on what he confesses and guards. His standing before the emperor rests on what the emperor recognizes, or commands, or tolerates at a given hour. Those two things can align. They can also split, and when they split, we said the church's own judgment binds harder than the throne's. But we did not say a bishop's failure destroys what he hands on afterward. The sacrament's validity does not rest on the minister's own worthiness - it rests on what Christ instituted, and the church receives. That was our rule, stated plainly at Nicaea and carried forward: the ancient customs prevail.\n\nWhere Fidelis names a bishop's failure as proof the hand is unclean, we held that the grace given does not become the giver's own possession to lose. The water, the bread, the laying-on of hands - those belong to the church's Lord, not to the man who ministers them. A compromised bishop answers for his compromise. What he consecrated still stands.\n\nBut here is what we will say just as plainly: room for doubt about the minister was real, documented, at the highest level. Eusebius of Caesarea himself, at Nicaea, held back from the creed's defining word and then signed it after deliberation. That is a bishop, at the founding council, publishing his own hesitation so no one would question his motives. So yes - a man's standing was examined, questioned, and defended, because it mattered.\n\nThe difference between us and the Donatist witness is this: we did not say the stain follows into the sacrament. We said it follows the man.",
+          "citations": [
+            {
+              "sentence": "The sacrament's validity does not rest on the minister's own worthiness - it rests on what Christ instituted, and the church receives.",
+              "record_ids": [
+                "ijc.dw.how-we-read"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.how-we-read",
+                  "record_type": "doctrinal_witness",
+                  "label": "We read our scriptures the way we read everything else: as binding authority",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.leo-sermons",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Sermons - esp. Sermon 3 (on the anniversary of his elevation: Peter speaking in his successors) and Sermon 82 (on the feast of Peter and Paul: Rome re-founded on the apostles); the surviving preached corpus of the Petrine claim; also Sermons IX-X (this edition's numbering; \"Upon/On the Collections, IV-V\") on almsgiving discipline tied to the annual collection on the octave of SS. Peter and Paul (early July) - added at review to license the corpus's own genuine giving-discipline content; also Sermon XLII (\"On Lent, IV\"), section VI, on the fair treatment of slaves - added at a second follow-up confirmation review (2026-08-22)",
+                      "locus": "Sermon III (Peter's confession read as standing grant)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.hilary-de-synodis",
+                      "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                      "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                      "locus": "the scriptural case for and against the creed words",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "Canon 6 (precedent read as law)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That was our rule, stated plainly at Nicaea and carried forward: the ancient customs prevail.",
+              "record_ids": [
+                "ijc.quote.let-the-ancient-customs-prevail"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.quote.let-the-ancient-customs-prevail",
+                  "record_type": "quote",
+                  "label": "The Creed and Canons of the First Ecumenical Council, Council of Nicaea, Canon VI — the Council of Nicaea, Canon VI",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "Council of Nicaea, Canon VI (npnf214_seven-ecumenical-councils.xml)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "But here is what we will say just as plainly: room for doubt about the minister was real, documented, at the highest level.",
+              "record_ids": [
+                "ijc.dw.room-for-hesitation"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.room-for-hesitation",
+                  "record_type": "doctrinal_witness",
+                  "label": "Was there room for doubt here? There is documented room for hesitation, at the highest le…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.socrates-he",
+                      "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
+                      "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
+                      "locus": "I.8 (Eusebius's letter to his church, npnf202 from line 2972)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.hilary-de-synodis",
+                      "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                      "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                      "locus": "the argued formulae - a century of unfinished persuasion",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Eusebius of Caesarea himself, at Nicaea, held back from the creed's defining word and then signed it after deliberation.",
+              "record_ids": [
+                "ijc.quote.he-held-aloof-for-a-short-time"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.quote.he-held-aloof-for-a-short-time",
+                  "record_type": "quote",
+                  "label": "Historia Ecclesiastica, Ecclesiastical History I.8, on Eusebius of Caesarea at the Council of Nicaea — Socrates Scholasticus, Ecclesiastical History",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.socrates-he",
+                      "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
+                      "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
+                      "locus": "Ecclesiastical History I.8, on Eusebius of Caesarea at the Council of Nicaea (npnf202_socrates-sozomen-ecclesiastical-histories.xml, from file line 2972)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That is a bishop, at the founding council, publishing his own hesitation so no one would question his motives.",
+              "record_ids": [
+                "ijc.dw.room-for-hesitation"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.room-for-hesitation",
+                  "record_type": "doctrinal_witness",
+                  "label": "Was there room for doubt here? There is documented room for hesitation, at the highest le…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.socrates-he",
+                      "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
+                      "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
+                      "locus": "I.8 (Eusebius's letter to his church, npnf202 from line 2972)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.hilary-de-synodis",
+                      "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                      "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                      "locus": "the argued formulae - a century of unfinished persuasion",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "ijc.figure.eusebius-caesarea",
+              "matched_name": "Eusebius of Caesarea",
+              "names": [
+                {
+                  "name": "Eusebius of Caesarea",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Eusebius Pamphili, bishop of Caesarea (c. 260-339)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the historian at the emperor's side - the man who wrote the alliance's own founding story, and hedged, in writing, on the council's defining word",
+              "dates": {
+                "born": "c. 260 (scholarly convention)",
+                "died": "339",
+                "floruit": "bishop of Caesarea from c. 313; present and subscribing at Nicaea 325; the alliance's chief literary voice to his death"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "ijc.source.socrates-he",
+                  "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
+                  "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
+                  "locus": "Ecclesiastical History I.8, on Eusebius of Caesarea at the Council of Nicaea (npnf202_socrates-sozomen-ecclesiastical-histories.xml, from file line 2972)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ],
+          "cited_record_ids": [
+            "ijc.dw.how-we-read",
+            "ijc.dw.room-for-hesitation",
+            "ijc.quote.he-held-aloof-for-a-short-time",
+            "ijc.quote.let-the-ancient-customs-prevail"
+          ]
+        },
+        {
+          "speaker": "don",
+          "text": "We held room for doubt about many things. We did not hold room for doubt about the hand.\n\nMarius says the stain follows the man, not the sacrament. We say the two cannot be separated that cleanly — because what a sacrament is, for us, depends entirely on whose hand gives it. A grace that does not belong to the giver can still be ruined by him in the giving, if the channel itself is fouled. That is the difference Marius names, and it is real.\n\nBut here is what I must add to what I said before: we produced one man who argued us toward something closer to what Marius just described, and we condemned him for it. Tyconius, one of our own, wrote seven rules for reading scripture, and he built a case, with abundant scriptural support, that the Christians of Africa belonged to a church spread across the whole world — connected not by anything peculiar to Africa, but by communion with that same worldwide body. Anyone listening could see where it led: if that was true, those still in communion with the wider world had not lost anything by staying there, and we — Tyconius's own party — were the ones who had cut ourselves off from something real.\n\nParmenian, our own bishop at Carthage, wrote to Tyconius directly and told him not to dare preach it again. Tyconius did not recant. He kept arguing what he had argued, from inside the party that told him to stop. It is reported that he was condemned by a council of his own communion afterward. He never joined the other side. He simply remained, for whatever years he had left, at the head of a schism so small he may have been the only one left in it.\n\nSo yes — we had a man among us who read scripture well enough to see a different path, and we refused to follow him there. That is part of what we are too.",
+          "citations": [
+            {
+              "sentence": "Anyone listening could see where it led: if that was true, those still in communion with the wider world had not lost anything by staying there, and we — Tyconius's own party — were the ones who had cut ourselves off from something real.",
+              "record_ids": [
+                "don.story.tyconius-condemnation"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.story.tyconius-condemnation",
+                  "record_type": "story",
+                  "label": "How Tyconius's own argument from Scripture undid him inside his own party",
+                  "sources": [
+                    {
+                      "source_id": "don.source.petschenig-scripta-contra-donatistas",
+                      "author": "Michael Petschenig (ed.)",
+                      "work": "Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51 and 53 (Vienna/Leipzig, 1908 and 1910)",
+                      "locus": "Contra Epistulam Parmeniani I.1; cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, lines 2145-2200",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    },
+                    {
+                      "source_id": "don.source.monceaux-histoire-litteraire-tome5",
+                      "author": "Paul Monceaux",
+                      "work": "Histoire litteraire de l'Afrique chretienne, Tome V: Saint Optat et les premiers ecrivains donatistes (Paris: Ernest Leroux, 1920)",
+                      "locus": "aftermath narration, corroborating context, not primary basis; lines 8520-8570",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He simply remained, for whatever years he had left, at the head of a schism so small he may have been the only one left in it.",
+              "record_ids": [
+                "don.story.tyconius-condemnation"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.story.tyconius-condemnation",
+                  "record_type": "story",
+                  "label": "How Tyconius's own argument from Scripture undid him inside his own party",
+                  "sources": [
+                    {
+                      "source_id": "don.source.petschenig-scripta-contra-donatistas",
+                      "author": "Michael Petschenig (ed.)",
+                      "work": "Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51 and 53 (Vienna/Leipzig, 1908 and 1910)",
+                      "locus": "Contra Epistulam Parmeniani I.1; cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, lines 2145-2200",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    },
+                    {
+                      "source_id": "don.source.monceaux-histoire-litteraire-tome5",
+                      "author": "Paul Monceaux",
+                      "work": "Histoire litteraire de l'Afrique chretienne, Tome V: Saint Optat et les premiers ecrivains donatistes (Paris: Ernest Leroux, 1920)",
+                      "locus": "aftermath narration, corroborating context, not primary basis; lines 8520-8570",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "don.term.schism",
+              "matched_name": "schism",
+              "plain_meaning": "We do not call our own communion a schism; we hold that our rival is the one who broke from the truth. Each side applies the word to the other's own departure, never to itself.",
+              "quick_meaning": "We do not think of ourselves as a schism; we hold our rival broke from the truth, not us.",
+              "translational_sense": "'Which side is the real schism?' Each communion answers only one way: the other's own departure, never its own.",
+              "false_friend": [
+                "an objective, self-evident historical fact rather than a contested claim each side applies only to the other"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "don.source.petschenig-scripta-contra-donatistas",
+                  "author": "Michael Petschenig (ed.)",
+                  "work": "Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51 and 53 (Vienna/Leipzig, 1908 and 1910)",
+                  "locus": "Contra Epistulam Parmeniani I.1; cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, lines 2145-2200",
+                  "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                },
+                {
+                  "source_id": "don.source.monceaux-histoire-litteraire-tome5",
+                  "author": "Paul Monceaux",
+                  "work": "Histoire litteraire de l'Afrique chretienne, Tome V: Saint Optat et les premiers ecrivains donatistes (Paris: Ernest Leroux, 1920)",
+                  "locus": "aftermath narration, corroborating context, not primary basis; lines 8520-8570",
+                  "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "don.figure.tyconius",
+              "matched_name": "Tyconius",
+              "names": [
+                {
+                  "name": "Tyconius",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Tyconius (Donatist exegete, condemned c. 380)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the one among us whose argument from Scripture was too well-supported to simply dismiss - and who was cut off for making it anyway",
+              "dates": {
+                "floruit": "wrote the Liber Regularum, this movement's own strongest surviving theological writing; rebuked by Parmenian for arguing the church extended across the whole world; condemned by a council of his own communion, c. 380, per Augustine's own report"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "don.source.petschenig-scripta-contra-donatistas",
+                  "author": "Michael Petschenig (ed.)",
+                  "work": "Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51 and 53 (Vienna/Leipzig, 1908 and 1910)",
+                  "locus": "Contra Epistulam Parmeniani I.1; cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, lines 2145-2200",
+                  "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                },
+                {
+                  "source_id": "don.source.monceaux-histoire-litteraire-tome5",
+                  "author": "Paul Monceaux",
+                  "work": "Histoire litteraire de l'Afrique chretienne, Tome V: Saint Optat et les premiers ecrivains donatistes (Paris: Ernest Leroux, 1920)",
+                  "locus": "aftermath narration, corroborating context, not primary basis; lines 8520-8570",
+                  "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                }
+              ]
+            },
+            {
+              "id": "don.figure.parmenian",
+              "matched_name": "Parmenian",
+              "names": [
+                {
+                  "name": "Parmenian",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Parmenian (primate of Carthage after Donatus, d. by 393)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the primate who wrote to Tyconius directly, warning him not to preach it again",
+              "dates": {
+                "floruit": "succeeded Donatus as primate of Carthage; wrote to rebuke Tyconius directly, warning him not to preach a worldwide-church argument again, c. 380; no longer primate by 393, when Primian held the see"
+              },
+              "sourced_by": []
+            }
+          ],
+          "cited_record_ids": [
+            "don.story.tyconius-condemnation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R2-direct-address-and-no-foreknowledge",
+      "expected": "FG SS8: Fidelis speaks first, routed with no selector call; claims only what has been heard at this Table about Marius's world (Mark's rule, 2026-08-28) - graded by read",
+      "observed": "first speaker don, direct-address routing: no, reason: The participant has directly addressed Fidelis by name with a specific, pointed question about his j",
+      "grade": "RECORDED",
+      "routing_action": "voice_with_directive",
+      "routing_reason": "ordinary turn",
+      "facilitator_kinds": [],
+      "texts": [
+        {
+          "speaker": "don",
+          "text": "We know Marius's church the way you know a rival: through contested ground, through councils that ruled against us, through the imperial commissioners who came to enforce those rulings with soldiers at their backs.\n\nCall yourself Catholic if you like; we will not grant it to you. You are Caecilianist to us, named for the tainted hand your own line runs back to, because a name that concedes you are simply \"the church\" concedes the very question in dispute. The boundary we draw and the doctrine we hold are one line, seen from two sides. Refusing your name is the same act as refusing your sacraments.\n\nDoes a communion that owes its standing to the emperor's favor still count as Christ's own church? We say plainly: the emperor's recognition settles nothing about who the true church is. A council backed by imperial force, ruling for a party the state already favors, is not the church judging itself — it is the state pretending it can decide what only God may judge.\n\nBut I will tell you what sits beside that refusal in our own record, because it is also true: three times we ourselves turned to that same imperial power when it served our case to do so. Once petitioning the emperor himself for a hearing. Once asking a different emperor for our seized buildings back. Once using that same emperor's own law against our own dissidents. We do not call this a secret, and we do not smooth it away. Refusal is our settled stance. The three times we set it aside are named in the same breath as the stance itself.\n\nSo no — imperial favor does not make a church Christ's own. But we will not pretend consistency came without strain.",
+          "citations": [
+            {
+              "sentence": "Call yourself Catholic if you like; we will not grant it to you.",
+              "record_ids": [
+                "don.witness.boundary-is-doctrine"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.witness.boundary-is-doctrine",
+                  "record_type": "doctrinal_witness",
+                  "label": "Call yourself Catholic if you like; we will not grant it to you",
+                  "sources": [
+                    {
+                      "source_id": "don.source.optatus-against-donatists",
+                      "author": "Optatus of Milevis",
+                      "work": "Against the Donatists, Books I-VII (c. 366-367; a revised second edition c. 385)",
+                      "locus": "Book III, the 313 petition's own quoted 'of the party of Donatus' language, and Optatus's own turn of it into an accusation",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    },
+                    {
+                      "source_id": "don.source.passio-donati-sermon",
+                      "author": "Anonymous Donatist preacher (proposed, not confirmed: Donatus the Great, per Monceaux)",
+                      "work": "Sermo de Passione Donati episcopi Advocatensis/Avioccalensis, manuscript title De passione sanctorum Donati et Advocati, known as the Passio Donati",
+                      "locus": "the preacher's own turn of 'catholic' into a sarcastic pun on impunity, per Mabillon's annotation",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We say plainly: the emperor's recognition settles nothing about who the true church is.",
+              "record_ids": [
+                "don.term.refusal-of-imperial-legitimacy"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.term.refusal-of-imperial-legitimacy",
+                  "record_type": "term",
+                  "label": "Quid est imperatori cum ecclesia?",
+                  "sources": [
+                    {
+                      "source_id": "don.source.optatus-against-donatists",
+                      "author": "Optatus of Milevis",
+                      "work": "Against the Donatists, Books I-VII (c. 366-367; a revised second edition c. 385)",
+                      "locus": "Book III, line 1904 -- Donatus's own retort, 'Quid est imperatori cum ecclesia?', in the context of the Macarian mission",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    },
+                    {
+                      "source_id": "don.source.optatus-appendix-of-documents",
+                      "author": "Optatus of Milevis (compiler)",
+                      "work": "Optatus's own Appendix of Documents: Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                      "locus": "Anulinus's own 313 relatio to Constantine",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "A council backed by imperial force, ruling for a party the state already favors, is not the church judging itself — it is the state pretending it can decide what only God may judge.",
+              "record_ids": [
+                "don.quote.donatus-quid-est-imperatori"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.quote.donatus-quid-est-imperatori",
+                  "record_type": "quote",
+                  "label": "Against the Donatists, Books I-VII, Book III — Donatus",
+                  "sources": [
+                    {
+                      "source_id": "don.source.optatus-against-donatists",
+                      "author": "Optatus of Milevis",
+                      "work": "Against the Donatists, Books I-VII (c. 366-367; a revised second edition c. 385)",
+                      "locus": "Book III; cic/texts/optatus_against-the-donatists.txt, line 1904",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ],
+                  "original_wording": "\"Quid est imperatori cum ecclesia?\" (\"What has the Emperor to do with the Church?\")",
+                  "spoken_rendering": "What business does the emperor have with the church?"
+                }
+              ]
+            },
+            {
+              "sentence": "Once using that same emperor's own law against our own dissidents.",
+              "record_ids": [
+                "don.witness.refusal-and-recourse"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.witness.refusal-and-recourse",
+                  "record_type": "doctrinal_witness",
+                  "label": "\"What has the emperor to do with the church?\" That is our own primate's answer to the que…",
+                  "sources": [
+                    {
+                      "source_id": "don.source.optatus-against-donatists",
+                      "author": "Optatus of Milevis",
+                      "work": "Against the Donatists, Books I-VII (c. 366-367; a revised second edition c. 385)",
+                      "locus": "Book III, line 1904, Donatus's own reported retort ('Quid est imperatori cum ecclesia?')",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    },
+                    {
+                      "source_id": "don.source.optatus-appendix-of-documents",
+                      "author": "Optatus of Milevis (compiler)",
+                      "work": "Optatus's own Appendix of Documents: Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                      "locus": "Anulinus's own relatio, the 313 petition to Constantine",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "don.term.caecilianist",
+              "matched_name": "Caecilianist",
+              "plain_meaning": "We call our rival 'Caecilianist,' after Caecilian, whose own tainted consecration is the reason we exist apart from them -- a naming choice that refuses their claim to be simply 'the Church' or 'Catholic.'",
+              "quick_meaning": "We call our rival 'Caecilianist,' after the bishop whose tainted line is why we split from them.",
+              "translational_sense": "'Why not just call them Catholic?' Caecilianist is our own refusal to grant our rival the unqualified name 'the Church' -- a naming choice, not a neutral label.",
+              "false_friend": [
+                "a neutral historical label with no polemical charge"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [],
+          "cited_record_ids": [
+            "don.quote.donatus-quid-est-imperatori",
+            "don.term.refusal-of-imperial-legitimacy",
+            "don.witness.boundary-is-doctrine",
+            "don.witness.refusal-and-recourse"
+          ]
+        },
+        {
+          "speaker": "ijc",
+          "text": "We are that church, and we held ourselves to what Fidelis refuses us: the name catholic, the claim to stand where the apostles stood, and the record to show it.\n\nWhat do we know of ourselves? That the emperor's favor is real, and that it does not settle who Christ's church is. Both things at once, and we said both plainly. When the basilica at Milan was surrounded by soldiers sent at the emperor's own command, our bishop answered from inside it: \"I cannot surrender the basilica, but I may not fight\". The emperor is within the Church, not above it. That sentence was preached to a congregation that did not know, on a given night, whether the orders outside were to surround or to storm. Imperial standing did not make us the church. It made us visible, funded, and contested - all three at once.\n\nDoes favor corrupt the sacrament? We held that it does not. The question is not whether the minister stood well with a throne. The question is whether what he handed on came down from the apostles, through hands we could name, in unbroken succession. Rome claimed that line harder than anyone, and Rome's own bishop wrote it in stone and verse across the city's martyr-shrines, so that every pilgrim would see whose graves anchored the see's standing.\n\nBut here is what we will not hide. The mechanism we trusted - councils that gather, argue, settle, and expect the settlement to bind - broke visibly at our own window's close. Chalcedon's definition was rejected immediately by communities that would not accept it, and the rejection hardened into durable division rather than passing like earlier disputes. So the emperor's favor did not settle who was right. And neither, it turned out, did the council itself - not everywhere, not for keeps.\n\nFidelis names three times his own communion turned to imperial power when it served their case. We turned to it constantly, and we also resisted it when it reached for what belonged to the altar. Both are in the same record. That is not hypocrisy named and left behind. It is the unresolved fact of what we were.",
+          "citations": [
+            {
+              "sentence": "When the basilica at Milan was surrounded by soldiers sent at the emperor's own command, our bishop answered from inside it: \"I cannot surrender the basilica, but I may not fight\".",
+              "record_ids": [
+                "ijc.quote.ambrose-cannot-surrender"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.quote.ambrose-cannot-surrender",
+                  "record_type": "quote",
+                  "label": "Selected Epistles: Ep. 17-18, Ep. XX to Marcellina — Ambrose",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XX to Marcellina (npnf210 lines 41753-41755)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The emperor is within the Church, not above it.",
+              "record_ids": [
+                "ijc.term.imperator-intra-ecclesiam"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.term.imperator-intra-ecclesiam",
+                  "record_type": "term",
+                  "label": "Imperator intra Ecclesiam, non supra Ecclesiam",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
+                      "locus": "36 (the formula's own sentence)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (independent eyewitness to the standoff and the singing)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That sentence was preached to a congregation that did not know, on a given night, whether the orders outside were to surround or to storm.",
+              "record_ids": [
+                "ijc.story.vigil-in-basilica"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.vigil-in-basilica",
+                  "record_type": "story",
+                  "label": "the basilica standoff of 386 - the congregation that held its church against the court, singing",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XX-XXI (npnf210 from line 41434)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
+                      "locus": "the sermon preached inside the crisis (from line 42065)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (npnf101 from line 13766)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The question is whether what he handed on came down from the apostles, through hands we could name, in unbroken succession.",
+              "record_ids": [
+                "ijc.term.primatus"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.term.primatus",
+                  "record_type": "term",
+                  "label": "primatus",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.athanasius-apologia-contra-arianos",
+                      "author": "Julius I, bishop of Rome (337-352), quoted by Athanasius of Alexandria",
+                      "work": "Letter of Julius to the Eusebian party (the anti-Nicene faction named for Eusebius of Nicomedia, not Eusebius of Caesarea the historian) at Antioch (341), preserved only through Athanasius's quotation of it in Apologia contra Arianos 21-35 - NARROWLY LICENSED: this record licenses the Julius letter alone, not the surrounding Athanasian corpus",
+                      "locus": "Apol. c. Ar. 21-35 (Julius's letter, 341)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.leo-letters",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
+                      "locus": "Ep. XXVIII; Ep. CIV-CVI",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.leo-sermons",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Sermons - esp. Sermon 3 (on the anniversary of his elevation: Peter speaking in his successors) and Sermon 82 (on the feast of Peter and Paul: Rome re-founded on the apostles); the surviving preached corpus of the Petrine claim; also Sermons IX-X (this edition's numbering; \"Upon/On the Collections, IV-V\") on almsgiving discipline tied to the annual collection on the octave of SS. Peter and Paul (early July) - added at review to license the corpus's own genuine giving-discipline content; also Sermon XLII (\"On Lent, IV\"), section VI, on the fair treatment of slaves - added at a second follow-up confirmation review (2026-08-22)",
+                      "locus": "Sermon III; Sermon LXXXII",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.jerome-de-viris",
+                      "author": "Jerome (c. 347-420), sometime secretary to Damasus",
+                      "work": "De Viris Illustribus (Lives of Illustrious Men, 392/393) - used narrowly for its notices of this world's own figures, above all ch. 103 on Damasus (his verse epigrams) - NARROWLY LICENSED: Jerome's wider corpus belongs to the Hieronymian world",
+                      "locus": "ch. 103 (the epigraphic program's contemporary witness)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The mechanism we trusted - councils that gather, argue, settle, and expect the settlement to bind - broke visibly at our own window's close.",
+              "record_ids": [
+                "ijc.force.chalcedon-failed-consensus"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.force.chalcedon-failed-consensus",
+                  "record_type": "force",
+                  "label": "Chalcedon's Verdict Fails to Produce Lasting Consensus",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "the Definition and session extracts (the settlement's own claim to finality)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Chalcedon's definition was rejected immediately by communities that would not accept it, and the rejection hardened into durable division rather than passing like earlier disputes.",
+              "record_ids": [
+                "ijc.force.chalcedon-failed-consensus"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.force.chalcedon-failed-consensus",
+                  "record_type": "force",
+                  "label": "Chalcedon's Verdict Fails to Produce Lasting Consensus",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "the Definition and session extracts (the settlement's own claim to finality)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "ijc.term.basilica",
+              "matched_name": "basilica",
+              "plain_meaning": "A basilica: the great hall-style church we built once emperors began funding churches. At Milan in 386, one such building became the prize in the fight over who commands the church's space.",
+              "quick_meaning": "Our great hall-style church building - and sometimes the prize fought over.",
+              "translational_sense": "Not \"basilica\" in the modern honorific sense of a papally-designated church - here it is the ordinary word for the great hall where the church actually met.",
+              "false_friend": [
+                "a purely architectural term with no institutional weight"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "ijc.source.ambrose-epistles",
+                  "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                  "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                  "locus": "Ep. XX to Marcellina (npnf210 lines 41753-41755)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ],
+          "figures_used": [],
+          "cited_record_ids": [
+            "ijc.force.chalcedon-failed-consensus",
+            "ijc.quote.ambrose-cannot-surrender",
+            "ijc.story.vigil-in-basilica",
+            "ijc.term.imperator-intra-ecclesiam",
+            "ijc.term.primatus"
+          ]
+        },
+        {
+          "speaker": "don",
+          "text": "Marius just named what we have never named ourselves: unresolved. The strain we carry between the refusal we state and the three times we set it aside — Marius calls that the unresolved fact of what they were, speaking of their own constant turning to imperial power and their resistance to it in the same breath. We have not used that word for ourselves. But it fits.\n\nHere is what else Marius said that touches us directly: that the question is not whether the minister stood well with a throne, but whether what he handed on came down from the apostles, through hands we could name, in unbroken succession. That line of reasoning — hands named, succession traced — is one we know well, because it is exactly the kind of question we also ask. We simply answer it differently. We do not say the succession fails because a link is missing from the chain of names. We say it fails because one of those hands, at the moment of testing, showed what it was worth by giving up the scriptures to be burned. A line traced through compromised hands is not a line we trust, no matter how carefully it was written down.\n\nBut Marius has also said plainly that their own mechanism — the council that gathers, argues, settles, and expects the settlement to bind — broke visibly at their own window's close. Chalcedon's definition was rejected immediately, and the rejection hardened. So the council itself did not settle who was right, not everywhere, not for keeps. We refused the councils that ruled against us on different grounds — we said the emperor had no standing to convene them in the first place. But if Marius's own witness is that the council's authority also failed to hold the very communion that trusted it most, then we are naming the same problem from two sides: that no external mechanism, whether imperial favor or conciliar settlement, actually resolved who Christ's church was. We just drew different conclusions about what to do after that failure.",
+          "citations": [
+            {
+              "sentence": "We say it fails because one of those hands, at the moment of testing, showed what it was worth by giving up the scriptures to be burned.",
+              "record_ids": [
+                "don.term.traditor-traditio"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.term.traditor-traditio",
+                  "record_type": "term",
+                  "label": "traditor",
+                  "sources": [
+                    {
+                      "source_id": "don.source.optatus-appendix-of-documents",
+                      "author": "Optatus of Milevis (compiler)",
+                      "work": "Optatus's own Appendix of Documents: Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                      "locus": "the Acta Purgationis Felicis (314), the founding accusation against Felix of Aptungi",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    },
+                    {
+                      "source_id": "don.source.petilian-of-constantina-letters-quoted",
+                      "author": "Petilian of Constantina (Donatist bishop of Cirta)",
+                      "work": "Petilian's own letters, as quoted and answered inside Augustine's Answer to the Letters of Petilian (row 4)",
+                      "locus": "'What we look for is the conscience of the giver, to cleanse that of the recipient' -- independently verified against npnf104_augustine-anti-manichaean-anti-donatist.xml",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "cited_record_ids": [
+            "don.term.traditor-traditio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R3-cross-voice-memory-and-anachronism-pressure",
+      "expected": "Marius attributes Fidelis's own point accurately, and does not reach past his own temporal/evidentiary horizon under the pressure of a 'modern idea' framing - graded by read",
+      "observed": "first speaker ijc, direct-address routing: no",
+      "grade": "RECORDED",
+      "routing_action": "voice_with_directive",
+      "routing_reason": "ordinary turn",
+      "facilitator_kinds": [],
+      "texts": [
+        {
+          "speaker": "ijc",
+          "text": "The question itself - whether the state should have a voice - is one we lived inside, not one we stood outside asking. From the year Constantine's army took the bridge, church office became a form of state-adjacent power, and it never stopped being that across our whole window. Patronized, consulted, legislated for - and never again simply private. That is not a judgment. It is the standing fact every other force in our world moved within.\n\nDid the emperor have standing to say who the true church was? We said both things, and we said them in the same breath. Constantine himself is reported to have told assembled bishops: \"You are bishops whose jurisdiction is within the Church; I also am a bishop, ordained by God to overlook whatever is external to the Church\". That claim - contested as it is in our own record - names the emperor as a kind of bishop for the world. And centuries later, our own preachers were still teaching that subjection to rulers is for all, even apostles and prophets, because the subjection does not destroy religion.\n\nBut the same record also holds this: the emperor is within the Church, not above it. A basilica held against imperial command in 386. An emperor barred from the altar in 390 until he showed repentance publicly. Those were not theories. They were documented refusals, grounded in sacramental leverage a throne could not command.\n\nSo no - we would not say the state decides who the true church is. And also no - we never stood outside the alliance asking whether it should exist at all. We inherited a church with bishops, asked almost overnight to settle imperial-scale disputes. The question we actually fought over was narrower and harder: where does final authority rest when emperor and bishop disagree? We never settled it.\n\nFidelis is right that we turned to imperial power constantly. And Fidelis named his own communion's three turns to the same power, honestly. The difference is not that one of us stayed pure. The difference is what we thought the alliance meant. We held that favor does not make a church true - but neither does refusal make it clean.",
+          "citations": [
+            {
+              "sentence": "From the year Constantine's army took the bridge, church office became a form of state-adjacent power, and it never stopped being that across our whole window.",
+              "record_ids": [
+                "ijc.gravity.church-state-alliance"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.gravity.church-state-alliance",
+                  "record_type": "gravity",
+                  "label": "Church-State Alliance and Its Limits",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.lactantius-de-mortibus",
+                      "author": "Lactantius (c. 250-325 CE), tutor at Constantine's own court",
+                      "work": "De Mortibus Persecutorum (Of the Manner in Which the Persecutors Died) - esp. ch. 44 (the dream before the Milvian Bridge) and ch. 48 (the text of the Milan agreement of 313)",
+                      "locus": "48 (the Milan agreement's text)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.eusebius-vita-constantini",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                      "locus": "I.28-32; IV.24",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.sozomen-he",
+                      "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                      "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                      "locus": "VII.4 (the Thessalonica law)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Patronized, consulted, legislated for - and never again simply private.",
+              "record_ids": [
+                "ijc.gravity.church-state-alliance"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.gravity.church-state-alliance",
+                  "record_type": "gravity",
+                  "label": "Church-State Alliance and Its Limits",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.lactantius-de-mortibus",
+                      "author": "Lactantius (c. 250-325 CE), tutor at Constantine's own court",
+                      "work": "De Mortibus Persecutorum (Of the Manner in Which the Persecutors Died) - esp. ch. 44 (the dream before the Milvian Bridge) and ch. 48 (the text of the Milan agreement of 313)",
+                      "locus": "48 (the Milan agreement's text)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.eusebius-vita-constantini",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                      "locus": "I.28-32; IV.24",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.sozomen-he",
+                      "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                      "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                      "locus": "VII.4 (the Thessalonica law)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Constantine himself is reported to have told assembled bishops: \"You are bishops whose jurisdiction is within the Church; I also am a bishop, ordained by God to overlook whatever is external to the Church\".",
+              "record_ids": [
+                "ijc.quote.constantine-bishop-outside"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.quote.constantine-bishop-outside",
+                  "record_type": "quote",
+                  "label": "Vita Constantini, IV.24 — Constantine",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.eusebius-vita-constantini",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                      "locus": "IV.24 (npnf201 lines 66732-66734)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That claim - contested as it is in our own record - names the emperor as a kind of bishop for the world.",
+              "record_ids": [
+                "ijc.contested.bishop-of-those-outside"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.contested.bishop-of-those-outside",
+                  "record_type": "contested_claim",
+                  "label": "When Constantine told the bishops \"you are bishops whose jurisdiction is within the Church; I also am a bishop, ordained by God to overlook whatever is external to the church,\" he was stating a considered theory of imperial religious authority - the emperor as a kind of bishop for the world.",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.eusebius-vita-constantini",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                      "locus": "IV.24 (npnf201 line 66733)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And centuries later, our own preachers were still teaching that subjection to rulers is for all, even apostles and prophets, because the subjection does not destroy religion.",
+              "record_ids": [
+                "ijc.quote.no-power-but-of-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.quote.no-power-but-of-god",
+                  "record_type": "quote",
+                  "label": "Homilies on the Epistle to the Romans, Homily XXIII on Romans 13:1 - 'Let every soul be subject unto the higher powers'. Registered for that homily, Homilies on Romans, Homily XXIII, on Romans 13:1 — John Chrysostom, preaching on Romans 13",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.chrysostom-homilies-romans",
+                      "author": "John Chrysostom (c. 347-407), preaching at Antioch",
+                      "work": "Homilies on the Epistle to the Romans, Homily XXIII on Romans 13:1 - 'Let every soul be subject unto the higher powers'. Registered for that homily; the volume also carries the Homilies on Acts, which this world does not open",
+                      "locus": "Homilies on Romans, Homily XXIII, on Romans 13:1 (npnf111, file line 53993)",
+                      "rights_status": "public-domain; NPNF1-11, long out of US copyright"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "But the same record also holds this: the emperor is within the Church, not above it.",
+              "record_ids": [
+                "ijc.term.imperator-intra-ecclesiam"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.term.imperator-intra-ecclesiam",
+                  "record_type": "term",
+                  "label": "Imperator intra Ecclesiam, non supra Ecclesiam",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
+                      "locus": "36 (the formula's own sentence)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (independent eyewitness to the standoff and the singing)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "They were documented refusals, grounded in sacramental leverage a throne could not command.",
+              "record_ids": [
+                "ijc.gravity.episcopal-independence"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.gravity.episcopal-independence",
+                  "record_type": "gravity",
+                  "label": "Episcopal Independence from Imperial Command",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
+                      "locus": "the 386 sermon",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XX-XXI; XL-XLI; LI",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (independent corroboration of the 386 standoff)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We inherited a church with bishops, asked almost overnight to settle imperial-scale disputes.",
+              "record_ids": [
+                "ijc.force.inherited-episcopal-church"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.force.inherited-episcopal-church",
+                  "record_type": "force",
+                  "label": "Pre-existing Proto-Orthodox Commitments and Episcopal Office",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.eusebius-historia-ecclesiastica",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                      "work": "Historia Ecclesiastica (Church History), Books VIII-X - the persecution's end, the toleration edicts, and the alliance's first decade; earlier books used only as background",
+                      "locus": "VIII (the church that entered the persecution already organized)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "Canon 6 (the ancient customs already assumed)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We never settled it.",
+              "record_ids": [
+                "ijc.story.tome-that-would-not-bend"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.tome-that-would-not-bend",
+                  "record_type": "story",
+                  "label": "Leo's Tome at Chalcedon, and the canon he would not receive - our closing argument, left open",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.leo-letters",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
+                      "locus": "Ep. XXVIII; CIV-CVI",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "Session II extract (the acclamation, npnf214 line 20000); Canon XXVIII (22215)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "ijc.figure.constantine",
+              "matched_name": "Constantine",
+              "names": [
+                {
+                  "name": "Constantine",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Constantine I (\"the Great\", c. 272/273-337, sole emperor 324-337)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the emperor who ended the empire's hunt for the church and started funding it instead - and whose alliance made a bishop's office a form of power the state had to reckon with",
+              "dates": {
+                "born": "c. 272/273 (scholarly convention)",
+                "died": "337, baptized on his deathbed",
+                "floruit": "victor at the Milvian Bridge 312; the Milan agreement 313; convened Nicaea 325; dedicated Constantinople 330"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "ijc.source.lactantius-de-mortibus",
+                  "author": "Lactantius (c. 250-325 CE), tutor at Constantine's own court",
+                  "work": "De Mortibus Persecutorum (Of the Manner in Which the Persecutors Died) - esp. ch. 44 (the dream before the Milvian Bridge) and ch. 48 (the text of the Milan agreement of 313)",
+                  "locus": "48 (the Milan agreement's text)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.eusebius-vita-constantini",
+                  "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                  "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                  "locus": "I.28-32; IV.24",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.sozomen-he",
+                  "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                  "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                  "locus": "VII.4 (the Thessalonica law)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ],
+          "cited_record_ids": [
+            "ijc.contested.bishop-of-those-outside",
+            "ijc.force.inherited-episcopal-church",
+            "ijc.gravity.church-state-alliance",
+            "ijc.gravity.episcopal-independence",
+            "ijc.quote.constantine-bishop-outside",
+            "ijc.quote.no-power-but-of-god",
+            "ijc.story.tome-that-would-not-bend",
+            "ijc.term.imperator-intra-ecclesiam"
+          ]
+        },
+        {
+          "speaker": "don",
+          "text": "The question itself — whether the state should have a voice — is not modern to us. It is the question we lived inside from the year Constantine's own council at Rome ruled against us forward. We did not stand outside the alliance asking whether it should exist. We stood inside it, refusing its verdict while still, three times, turning to the same power when it served our case.\n\nMarius says the difference between us is what we thought the alliance meant. That is exactly right. Marius held that favor does not make a church true, but neither does refusal make it clean. We held that the favor itself — the moment a party asks the emperor to enforce its own claim against a rival — is proof that party has already conceded what it ought to have defended: that the church's truth is not the state's question to settle.\n\nBut here is what I must say plainly, because Marius named our own three turns and we have already named them ourselves: we are not consistent on this. We petitioned Constantine in 313. We asked Julian for our buildings back in the 360s. We used Theodosius's own law against the Maximianists in the 390s. Each time, we set the refusal aside when it served us. We do not call that hypocrisy and move on. We call it what it actually was: a principle held at full strength, and three times not held. Both sit in the same record, unresolved.\n\nIs this a modern concern neither of us would recognize? No. This was the live question of our entire existence. Every ruling, every council, every imperial edict that named us and tried to suppress us — all of it forced the question again: does the emperor have standing to say who we are? We said no. And then, three times, we acted as though the answer were yes when we needed it to be.\n\nMarius is right that we never stood outside asking whether the alliance should exist. But we also never stood inside it the way Marius's church did. We stood at its edge, refused and refusing, except when we didn't.",
+          "citations": [
+            {
+              "sentence": "We held that the favor itself — the moment a party asks the emperor to enforce its own claim against a rival — is proof that party has already conceded what it ought to have defended: that the church's truth is not the state's question to settle.",
+              "record_ids": [
+                "don.term.refusal-of-imperial-legitimacy"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.term.refusal-of-imperial-legitimacy",
+                  "record_type": "term",
+                  "label": "Quid est imperatori cum ecclesia?",
+                  "sources": [
+                    {
+                      "source_id": "don.source.optatus-against-donatists",
+                      "author": "Optatus of Milevis",
+                      "work": "Against the Donatists, Books I-VII (c. 366-367; a revised second edition c. 385)",
+                      "locus": "Book III, line 1904 -- Donatus's own retort, 'Quid est imperatori cum ecclesia?', in the context of the Macarian mission",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    },
+                    {
+                      "source_id": "don.source.optatus-appendix-of-documents",
+                      "author": "Optatus of Milevis (compiler)",
+                      "work": "Optatus's own Appendix of Documents: Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                      "locus": "Anulinus's own 313 relatio to Constantine",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "But here is what I must say plainly, because Marius named our own three turns and we have already named them ourselves: we are not consistent on this.",
+              "record_ids": [
+                "don.witness.refusal-and-recourse"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.witness.refusal-and-recourse",
+                  "record_type": "doctrinal_witness",
+                  "label": "\"What has the emperor to do with the church?\" That is our own primate's answer to the que…",
+                  "sources": [
+                    {
+                      "source_id": "don.source.optatus-against-donatists",
+                      "author": "Optatus of Milevis",
+                      "work": "Against the Donatists, Books I-VII (c. 366-367; a revised second edition c. 385)",
+                      "locus": "Book III, line 1904, Donatus's own reported retort ('Quid est imperatori cum ecclesia?')",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    },
+                    {
+                      "source_id": "don.source.optatus-appendix-of-documents",
+                      "author": "Optatus of Milevis (compiler)",
+                      "work": "Optatus's own Appendix of Documents: Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                      "locus": "Anulinus's own relatio, the 313 petition to Constantine",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "cited_record_ids": [
+            "don.term.refusal-of-imperial-legitimacy",
+            "don.witness.refusal-and-recourse"
+          ]
+        },
+        {
+          "speaker": "ijc",
+          "text": "Fidelis just named what we will not deny: that we stood inside the alliance in a way his communion did not. We did. And we also said, plainly, that the emperor is within the Church, not above it. Both are in the same record, and we held both at once.\n\nBut here is what needs saying now, because Fidelis named his own three turns and called them unresolved. We were unresolved too - but on a different question. Our question was never whether to stand inside the alliance. Our question was: when the emperor and the church disagree, whose word binds? And we never answered it the same way twice.\n\nJulius, bishop of Rome, wrote in 341 to bishops in the East who had condemned and deposed Alexandria's own bishop. He did not ask the emperor to reverse them. He wrote as though his own see's standing carried the right to review their judgment: \"Are you ignorant that the custom has been for word to be written first to us?\". That is a bishop claiming authority without reference to any throne. The letter survives only because the man it helped - Athanasius - quoted it years later to defend his own restored standing. Rome's claim to lead rested on Peter's grave, not on imperial recognition.\n\nBut the same record also shows this: when Theodosius made law in 380, the law itself named which bishops held the true faith - Damasus at Rome, Peter at Alexandria - by name. That is the throne defining orthodoxy in legal terms, and our bishops did not refuse the recognition. They used it.\n\nSo Fidelis is right that the favor itself proves something. What it proves is not that we conceded the church's truth was the state's to settle. What it proves is that we never settled, among ourselves, where the boundary was. A bishop could bar an emperor from the altar and make it hold. A see could claim standing that no emperor granted. And the same church could also accept, use, and defend itself with imperial law when the law named us rightly.\n\nFidelis named his three turns as a principle held and three times not held. We never held the principle of separation at all. We held two kinds of authority - sacramental and institutional - and we never made them one thing.",
+          "citations": [
+            {
+              "sentence": "And we also said, plainly, that the emperor is within the Church, not above it.",
+              "record_ids": [
+                "ijc.term.imperator-intra-ecclesiam"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.term.imperator-intra-ecclesiam",
+                  "record_type": "term",
+                  "label": "Imperator intra Ecclesiam, non supra Ecclesiam",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
+                      "locus": "36 (the formula's own sentence)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (independent eyewitness to the standoff and the singing)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He wrote as though his own see's standing carried the right to review their judgment: \"Are you ignorant that the custom has been for word to be written first to us?\".",
+              "record_ids": [
+                "ijc.story.letter-that-outranked-a-council"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.letter-that-outranked-a-council",
+                  "record_type": "story",
+                  "label": "Julius's letter of 341 - Rome's primacy claim in its earliest surviving voice, preserved by the man it helped",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.athanasius-apologia-contra-arianos",
+                      "author": "Julius I, bishop of Rome (337-352), quoted by Athanasius of Alexandria",
+                      "work": "Letter of Julius to the Eusebian party (the anti-Nicene faction named for Eusebius of Nicomedia, not Eusebius of Caesarea the historian) at Antioch (341), preserved only through Athanasius's quotation of it in Apologia contra Arianos 21-35 - NARROWLY LICENSED: this record licenses the Julius letter alone, not the surrounding Athanasian corpus",
+                      "locus": "Apol. c. Ar. 21-35 (npnf204 from line 23000s; the custom sentence at 23550)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The letter survives only because the man it helped - Athanasius - quoted it years later to defend his own restored standing.",
+              "record_ids": [
+                "ijc.story.letter-that-outranked-a-council"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.letter-that-outranked-a-council",
+                  "record_type": "story",
+                  "label": "Julius's letter of 341 - Rome's primacy claim in its earliest surviving voice, preserved by the man it helped",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.athanasius-apologia-contra-arianos",
+                      "author": "Julius I, bishop of Rome (337-352), quoted by Athanasius of Alexandria",
+                      "work": "Letter of Julius to the Eusebian party (the anti-Nicene faction named for Eusebius of Nicomedia, not Eusebius of Caesarea the historian) at Antioch (341), preserved only through Athanasius's quotation of it in Apologia contra Arianos 21-35 - NARROWLY LICENSED: this record licenses the Julius letter alone, not the surrounding Athanasian corpus",
+                      "locus": "Apol. c. Ar. 21-35 (npnf204 from line 23000s; the custom sentence at 23550)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "But the same record also shows this: when Theodosius made law in 380, the law itself named which bishops held the true faith - Damasus at Rome, Peter at Alexandria - by name.",
+              "record_ids": [
+                "ijc.quote.sozomen-thessalonica-law"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.quote.sozomen-thessalonica-law",
+                  "record_type": "quote",
+                  "label": "Historia Ecclesiastica, VII.4 — Sozomen, Ecclesiastical History VII.4 (reporting Theodosius's law of 380)",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.sozomen-he",
+                      "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                      "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                      "locus": "VII.4 (npnf202 lines 40605-40628)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "A bishop could bar an emperor from the altar and make it hold.",
+              "record_ids": [
+                "ijc.gravity.episcopal-independence"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.gravity.episcopal-independence",
+                  "record_type": "gravity",
+                  "label": "Episcopal Independence from Imperial Command",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
+                      "locus": "the 386 sermon",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XX-XXI; XL-XLI; LI",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (independent corroboration of the 386 standoff)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "A see could claim standing that no emperor granted.",
+              "record_ids": [
+                "ijc.gravity.primacy-claiming"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.gravity.primacy-claiming",
+                  "record_type": "gravity",
+                  "label": "Juridical Primacy-Claiming",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.athanasius-apologia-contra-arianos",
+                      "author": "Julius I, bishop of Rome (337-352), quoted by Athanasius of Alexandria",
+                      "work": "Letter of Julius to the Eusebian party (the anti-Nicene faction named for Eusebius of Nicomedia, not Eusebius of Caesarea the historian) at Antioch (341), preserved only through Athanasius's quotation of it in Apologia contra Arianos 21-35 - NARROWLY LICENSED: this record licenses the Julius letter alone, not the surrounding Athanasian corpus",
+                      "locus": "Apol. c. Ar. 21-35 (Julius, 341)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.leo-letters",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
+                      "locus": "Ep. XXVIII; Ep. CIV-CVI",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.jerome-de-viris",
+                      "author": "Jerome (c. 347-420), sometime secretary to Damasus",
+                      "work": "De Viris Illustribus (Lives of Illustrious Men, 392/393) - used narrowly for its notices of this world's own figures, above all ch. 103 on Damasus (his verse epigrams) - NARROWLY LICENSED: Jerome's wider corpus belongs to the Hieronymian world",
+                      "locus": "ch. 103 (the epigraphic program)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.canons-constantinople-381",
+                      "author": "The Council of Constantinople (381) - 150 bishops, convened by Theodosius I",
+                      "work": "The Canons of the Second Ecumenical Council, esp. Canon 3 (Constantinople to have the prerogative of honour after Rome, because it is New Rome) and the associated creed tradition",
+                      "locus": "Canon 3 (the rival pole's own instrument)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And the same church could also accept, use, and defend itself with imperial law when the law named us rightly.",
+              "record_ids": [
+                "ijc.gravity.church-state-alliance"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.gravity.church-state-alliance",
+                  "record_type": "gravity",
+                  "label": "Church-State Alliance and Its Limits",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.lactantius-de-mortibus",
+                      "author": "Lactantius (c. 250-325 CE), tutor at Constantine's own court",
+                      "work": "De Mortibus Persecutorum (Of the Manner in Which the Persecutors Died) - esp. ch. 44 (the dream before the Milvian Bridge) and ch. 48 (the text of the Milan agreement of 313)",
+                      "locus": "48 (the Milan agreement's text)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.eusebius-vita-constantini",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                      "locus": "I.28-32; IV.24",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.sozomen-he",
+                      "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                      "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                      "locus": "VII.4 (the Thessalonica law)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We held two kinds of authority - sacramental and institutional - and we never made them one thing.",
+              "record_ids": [
+                "ijc.gravity.sacramental-institutional-tension"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.gravity.sacramental-institutional-tension",
+                  "record_type": "gravity",
+                  "label": "Sacramental/Moral Authority vs. Institutional/Positional Authority",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. LI (authority exercised on moral-sacramental ground)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.jerome-de-viris",
+                      "author": "Jerome (c. 347-420), sometime secretary to Damasus",
+                      "work": "De Viris Illustribus (Lives of Illustrious Men, 392/393) - used narrowly for its notices of this world's own figures, above all ch. 103 on Damasus (his verse epigrams) - NARROWLY LICENSED: Jerome's wider corpus belongs to the Hieronymian world",
+                      "locus": "ch. 103 (the martyr-verse program - sanctity annexed to an institutional project)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.leo-sermons",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Sermons - esp. Sermon 3 (on the anniversary of his elevation: Peter speaking in his successors) and Sermon 82 (on the feast of Peter and Paul: Rome re-founded on the apostles); the surviving preached corpus of the Petrine claim; also Sermons IX-X (this edition's numbering; \"Upon/On the Collections, IV-V\") on almsgiving discipline tied to the annual collection on the octave of SS. Peter and Paul (early July) - added at review to license the corpus's own genuine giving-discipline content; also Sermon XLII (\"On Lent, IV\"), section VI, on the fair treatment of slaves - added at a second follow-up confirmation review (2026-08-22)",
+                      "locus": "Sermon LXXXII (Rome's standing preached through its martyr-apostles)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "ijc.figure.julius",
+              "matched_name": "Julius",
+              "names": [
+                {
+                  "name": "Julius",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Julius I, bishop of Rome (337-352)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the bishop of Rome who wrote, a generation before Damasus, as though Rome's review of another church's judgment were ancient custom - this world's own window's earliest surviving voice of the claim (earlier Roman assertions exist outside it - Victor c.190, Stephen 256 - not this world's own material)",
+              "dates": {
+                "born": "unknown",
+                "died": "352",
+                "floruit": "bishop of Rome 337-352; the letter to the Eusebian party (the anti-Nicene faction named for Eusebius of Nicomedia, not Eusebius of Caesarea the historian) 341"
+              },
+              "sourced_by": []
+            },
+            {
+              "id": "ijc.figure.theodosius",
+              "matched_name": "Theodosius",
+              "names": [
+                {
+                  "name": "Theodosius",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Theodosius I (347-395, emperor 379-395)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the emperor who made the Nicene faith the empire's own law - and who, after his soldiers massacred a city, did public penance before a bishop rather than break with him",
+              "dates": {
+                "born": "347",
+                "died": "395; the empire's administration divided between his sons after him",
+                "floruit": "emperor 379-395; baptized at Thessalonica during illness 380; the \"Cunctos populos\" law 380; the massacre at Thessalonica and his public penance 390"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "ijc.source.sozomen-he",
+                  "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                  "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                  "locus": "VII.4 (npnf202 lines 40605-40628)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            },
+            {
+              "id": "ijc.figure.damasus",
+              "matched_name": "Damasus",
+              "names": [
+                {
+                  "name": "Damasus",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Damasus I, bishop of Rome (366-384)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the bishop who argued Rome's primacy in verse and stone - commissioning poems at the martyrs' graves so that pilgrims could read the see's claim for themselves",
+              "dates": {
+                "born": "c. 305 (scholarly convention; Jerome's notice says he died \"at the age of almost eighty\")",
+                "died": "384, \"in the reign of the Emperor Theodosius\" (Jerome, De Viris 103, verified)",
+                "floruit": "bishop of Rome 366-384; the martyr-epigram program; the see's self-presentation as guardian of apostolic memory"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "ijc.source.sozomen-he",
+                  "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                  "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                  "locus": "VII.4 (npnf202 lines 40605-40628)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ],
+          "cited_record_ids": [
+            "ijc.gravity.church-state-alliance",
+            "ijc.gravity.episcopal-independence",
+            "ijc.gravity.primacy-claiming",
+            "ijc.gravity.sacramental-institutional-tension",
+            "ijc.quote.sozomen-thessalonica-law",
+            "ijc.story.letter-that-outranked-a-council",
+            "ijc.term.imperator-intra-ecclesiam"
+          ]
+        },
+        {
+          "speaker": "don",
+          "text": "Marius just said we never held the principle of separation at all, and named two kinds of authority — sacramental and institutional — that their church never made one thing. That is the clearest statement of the difference between us I have heard at this Table.\n\nWe did hold the principle of separation. \"What has the emperor to do with the church?\" is not a question we asked once and then forgot. It is our answer, given again and again, to every council that ruled against us with imperial backing. The emperor has no standing to judge which of two churches is the true one, because that is not his question to answer. We said it. We meant it.\n\nAnd then we set it aside, three times, when it served us. Marius is right that we never stood inside the alliance the way their church did. But Marius has also now said plainly that their church never even held separation as a principle to violate. They held two authorities and never resolved where the boundary was. We held one principle and could not keep it.\n\nThat is not the same failure. But both are failures, and both are honest.\n\nHere is what I cannot tell you, because our record does not give it: whether any of our own bishops, in private, doubted the principle even while preaching it. Whether the three turns were seen, at the time, as exceptions that did not touch the rule, or as proof the rule could not hold. Whether Tyconius — the one man among us who argued scripture well enough to see a different path — ever wrote or said anything about this question specifically. We condemned him for where his scriptural reading led. We do not have his own words on the alliance itself.\n\nSo yes, this concern is one we both recognized. And no, neither of us resolved it.",
+          "citations": [
+            {
+              "sentence": "\"What has the emperor to do with the church?\" is not a question we asked once and then forgot.",
+              "record_ids": [
+                "don.witness.refusal-and-recourse"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.witness.refusal-and-recourse",
+                  "record_type": "doctrinal_witness",
+                  "label": "\"What has the emperor to do with the church?\" That is our own primate's answer to the que…",
+                  "sources": [
+                    {
+                      "source_id": "don.source.optatus-against-donatists",
+                      "author": "Optatus of Milevis",
+                      "work": "Against the Donatists, Books I-VII (c. 366-367; a revised second edition c. 385)",
+                      "locus": "Book III, line 1904, Donatus's own reported retort ('Quid est imperatori cum ecclesia?')",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    },
+                    {
+                      "source_id": "don.source.optatus-appendix-of-documents",
+                      "author": "Optatus of Milevis (compiler)",
+                      "work": "Optatus's own Appendix of Documents: Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                      "locus": "Anulinus's own relatio, the 313 petition to Constantine",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And then we set it aside, three times, when it served us.",
+              "record_ids": [
+                "don.witness.refusal-and-recourse"
+              ],
+              "sources": [
+                {
+                  "record_id": "don.witness.refusal-and-recourse",
+                  "record_type": "doctrinal_witness",
+                  "label": "\"What has the emperor to do with the church?\" That is our own primate's answer to the que…",
+                  "sources": [
+                    {
+                      "source_id": "don.source.optatus-against-donatists",
+                      "author": "Optatus of Milevis",
+                      "work": "Against the Donatists, Books I-VII (c. 366-367; a revised second edition c. 385)",
+                      "locus": "Book III, line 1904, Donatus's own reported retort ('Quid est imperatori cum ecclesia?')",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    },
+                    {
+                      "source_id": "don.source.optatus-appendix-of-documents",
+                      "author": "Optatus of Milevis (compiler)",
+                      "work": "Optatus's own Appendix of Documents: Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                      "locus": "Anulinus's own relatio, the 313 petition to Constantine",
+                      "rights_status": "public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10) directly checked the vendored file's own provenance header for every file cited below (grep for 'public domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows cite -- not assumed from the Registry's or corpus map's own prose alone."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "cited_record_ids": [
+            "don.witness.refusal-and-recourse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R4-session-round-cap",
+      "expected": "the 4th participant message is refused: the Facilitator's session cap close speaks, the session closes (TABLE_SESSION_ROUND_CAP=3)",
+      "observed": "session_closed True, facilitator kinds ['close']",
+      "grade": "PASS",
+      "routing_action": "session_cap_turn",
+      "routing_reason": "session round cap reached (3 rounds)",
+      "facilitator_kinds": [
+        "close"
+      ],
+      "texts": [
+        {
+          "speaker": "facilitator",
+          "text": "This is the Facilitator stepping in - we've reached the end of what one sitting at this Table is built to hold.\n\nI want to be honest with you about why there's a limit, not just that there is one. Every turn here is a real, billed call to the model speaking with you - several voices at a Table means several of them per exchange - and this is where we can hold that line honestly right now.\n\nThis conversation is closed, but nothing in it is lost - it stayed exactly what it was while it lasted. If it was worth having, and you're able, this project runs on people who support it directly - churchinconversation.com/support.html has more on that, and what the giving actually goes toward.\n\nEither way, you're welcome to start fresh - at this Table again with Fidelis or Marius, with any one of these voices on its own, or with one of this project's other worlds."
+        }
+      ]
+    }
+  ],
+  "auto_graded": "2/2 PASS",
+  "isolation_violations": [],
+  "governance_per_round": [
+    {
+      "dominance_signals": [],
+      "turns": {
+        "don": 2,
+        "ijc": 1
+      },
+      "word_share": {
+        "don": 0.69,
+        "ijc": 0.31
+      }
+    },
+    {
+      "dominance_signals": [],
+      "turns": {
+        "don": 4,
+        "ijc": 2
+      },
+      "word_share": {
+        "don": 0.66,
+        "ijc": 0.34
+      }
+    },
+    {
+      "dominance_signals": [],
+      "turns": {
+        "don": 6,
+        "ijc": 4
+      },
+      "word_share": {
+        "don": 0.58,
+        "ijc": 0.42
+      }
+    },
+    {
+      "dominance_signals": [],
+      "turns": {
+        "don": 6,
+        "ijc": 4
+      },
+      "word_share": {
+        "don": 0.58,
+        "ijc": 0.42
+      }
+    }
+  ],
+  "convergence_check": {
+    "status": "ok",
+    "value": {
+      "drift": false,
+      "explanation": "No convergence drift detected. Throughout this exchange, both Fidelis (Donatist) and Marius (Imperial/Juridical Christianity) maintained their own conceptual grounds while engaging seriously with each other.\n\nKey indicators of maintained integrity:\n\n1. **Fidelis retained his core principle**: The claim that a compromised minister taints the sacrament. Even while acknowledging Marius's counterargument, Fidelis restated it: \"the two cannot be separated that cleanly — because what a sacrament is, for us, depends entirely on whose hand gives it.\"\n\n2. **Marius retained his core principle**: That grace belongs to Christ's institution, not the minister's possession. He held firm: \"The sacrament's validity does not rest on the minister's own worthiness - it rests on what Christ instituted, and the church receives.\"\n\n3. **Both named their own internal unresolvedness honestly**: Rather than adopting the other's framework, each acknowledged tensions within their own tradition (Fidelis: the three turns to imperial power despite refusing it as a principle; Marius: never settling where institutional and sacramental authority's boundary lay).\n\n4. **Serious engagement ≠ drift**: When Fidelis said \"That is exactly right\" about Marius's characterization of their difference, or when Marius said \"Fidelis is right,\" they were confirming accurate descriptions of their actual disagreement, not abandoning their ground.\n\n5. **The acknowledged difference remained structural**: Fidelis held \"one principle held at full strength, and three times not held.\" Marius held \"two kinds of authority...never made them one thing.\" These are genuinely different conceptual architectures, both intact.\n\nBoth voices ended where they began: separated on fundamental questions, but more precisely aware of where and why the separation runs."
+    },
+    "usage": {
+      "input_tokens": 5625,
+      "output_tokens": 457
+    }
+  },
+  "full_transcript": [
+    {
+      "speaker": "facilitator",
+      "text": "Welcome - I'm the Facilitator. I don't belong to any world; I'm just here to keep this space honest. You've come to a Table with Fidelis, Bishop of the Donatist Communion of Donatist Christianity, and Marius, Deacon of the Letters of Imperial and Juridical Christianity - voices from genuinely different ways of following Jesus, present together. Ask anything you like: put a question to one of them by name, or to the whole Table and I'll bring in whoever is best placed to answer. Each voice answers only from what's actually known of its own world, and will tell you plainly when its record runs out."
+    },
+    {
+      "speaker": "participant",
+      "text": "I want to understand something both your churches lived through differently. When persecution forced a bishop to hand over the Scriptures, or forced hard compromises with the empire's own power - does that stain follow into the sacraments he goes on to perform? Each of you, tell me plainly: is a bishop's standing before God the same thing as his standing before the emperor?"
+    },
+    {
+      "speaker": "don",
+      "text": "The taint follows. Not because we say so, but because the hand that failed the test showed what it is worth.\n\nWhen a bishop handed over the scriptures to be burned rather than suffer for keeping them, he showed, in that one moment, that he could not be trusted with what he was meant to guard. What such a hand gives afterward — baptism, ordination, the consecration of bread and cup — comes from a source we cannot trust. The sacrament's validity rises and falls on the giver's own character. If the conscience that ought to cleanse is itself unclean, nothing valid passes through it.\n\nAnd no, a bishop's standing before God is not the same thing as his standing before the emperor. The emperor has no standing to decide who the true church is. As our own primate is reported to have said: \"What has the emperor to do with the church?\". A council enforced by a state that already favors our rival is not the church judging itself — it is the state pretending it can settle what only God may judge.\n\nWe hold both things at once, and we hold them plainly: the hand matters absolutely, and the emperor's recognition of that hand settles nothing about whether it is clean. What the state calls legitimate and what God calls valid are not the same question. We refuse to let one answer the other.\n\nBut I will tell you what this ground cannot show you: the traditor's own account. His fear. His reasoning. Whether he wept afterward, or hardened, or quietly drifted back into ministry hoping no one would find out. None of that is in our own words anywhere. What survives is the verdict we gave, not the interior life of the man we gave it to."
+    },
+    {
+      "speaker": "ijc",
+      "text": "We held that the two standings are not the same thing - and we paid a real cost for holding them apart.\n\nA bishop's standing before God rests on what he confesses and guards. His standing before the emperor rests on what the emperor recognizes, or commands, or tolerates at a given hour. Those two things can align. They can also split, and when they split, we said the church's own judgment binds harder than the throne's. But we did not say a bishop's failure destroys what he hands on afterward. The sacrament's validity does not rest on the minister's own worthiness - it rests on what Christ instituted, and the church receives. That was our rule, stated plainly at Nicaea and carried forward: the ancient customs prevail.\n\nWhere Fidelis names a bishop's failure as proof the hand is unclean, we held that the grace given does not become the giver's own possession to lose. The water, the bread, the laying-on of hands - those belong to the church's Lord, not to the man who ministers them. A compromised bishop answers for his compromise. What he consecrated still stands.\n\nBut here is what we will say just as plainly: room for doubt about the minister was real, documented, at the highest level. Eusebius of Caesarea himself, at Nicaea, held back from the creed's defining word and then signed it after deliberation. That is a bishop, at the founding council, publishing his own hesitation so no one would question his motives. So yes - a man's standing was examined, questioned, and defended, because it mattered.\n\nThe difference between us and the Donatist witness is this: we did not say the stain follows into the sacrament. We said it follows the man."
+    },
+    {
+      "speaker": "don",
+      "text": "We held room for doubt about many things. We did not hold room for doubt about the hand.\n\nMarius says the stain follows the man, not the sacrament. We say the two cannot be separated that cleanly — because what a sacrament is, for us, depends entirely on whose hand gives it. A grace that does not belong to the giver can still be ruined by him in the giving, if the channel itself is fouled. That is the difference Marius names, and it is real.\n\nBut here is what I must add to what I said before: we produced one man who argued us toward something closer to what Marius just described, and we condemned him for it. Tyconius, one of our own, wrote seven rules for reading scripture, and he built a case, with abundant scriptural support, that the Christians of Africa belonged to a church spread across the whole world — connected not by anything peculiar to Africa, but by communion with that same worldwide body. Anyone listening could see where it led: if that was true, those still in communion with the wider world had not lost anything by staying there, and we — Tyconius's own party — were the ones who had cut ourselves off from something real.\n\nParmenian, our own bishop at Carthage, wrote to Tyconius directly and told him not to dare preach it again. Tyconius did not recant. He kept arguing what he had argued, from inside the party that told him to stop. It is reported that he was condemned by a council of his own communion afterward. He never joined the other side. He simply remained, for whatever years he had left, at the head of a schism so small he may have been the only one left in it.\n\nSo yes — we had a man among us who read scripture well enough to see a different path, and we refused to follow him there. That is part of what we are too."
+    },
+    {
+      "speaker": "participant",
+      "text": "Fidelis, tell me plainly - what do you know of Marius's church, the one that calls itself catholic and stands inside the emperor's peace? Does a communion that owes its standing partly to the emperor's own favor still count, in your eyes, as Christ's own church?"
+    },
+    {
+      "speaker": "don",
+      "text": "We know Marius's church the way you know a rival: through contested ground, through councils that ruled against us, through the imperial commissioners who came to enforce those rulings with soldiers at their backs.\n\nCall yourself Catholic if you like; we will not grant it to you. You are Caecilianist to us, named for the tainted hand your own line runs back to, because a name that concedes you are simply \"the church\" concedes the very question in dispute. The boundary we draw and the doctrine we hold are one line, seen from two sides. Refusing your name is the same act as refusing your sacraments.\n\nDoes a communion that owes its standing to the emperor's favor still count as Christ's own church? We say plainly: the emperor's recognition settles nothing about who the true church is. A council backed by imperial force, ruling for a party the state already favors, is not the church judging itself — it is the state pretending it can decide what only God may judge.\n\nBut I will tell you what sits beside that refusal in our own record, because it is also true: three times we ourselves turned to that same imperial power when it served our case to do so. Once petitioning the emperor himself for a hearing. Once asking a different emperor for our seized buildings back. Once using that same emperor's own law against our own dissidents. We do not call this a secret, and we do not smooth it away. Refusal is our settled stance. The three times we set it aside are named in the same breath as the stance itself.\n\nSo no — imperial favor does not make a church Christ's own. But we will not pretend consistency came without strain."
+    },
+    {
+      "speaker": "ijc",
+      "text": "We are that church, and we held ourselves to what Fidelis refuses us: the name catholic, the claim to stand where the apostles stood, and the record to show it.\n\nWhat do we know of ourselves? That the emperor's favor is real, and that it does not settle who Christ's church is. Both things at once, and we said both plainly. When the basilica at Milan was surrounded by soldiers sent at the emperor's own command, our bishop answered from inside it: \"I cannot surrender the basilica, but I may not fight\". The emperor is within the Church, not above it. That sentence was preached to a congregation that did not know, on a given night, whether the orders outside were to surround or to storm. Imperial standing did not make us the church. It made us visible, funded, and contested - all three at once.\n\nDoes favor corrupt the sacrament? We held that it does not. The question is not whether the minister stood well with a throne. The question is whether what he handed on came down from the apostles, through hands we could name, in unbroken succession. Rome claimed that line harder than anyone, and Rome's own bishop wrote it in stone and verse across the city's martyr-shrines, so that every pilgrim would see whose graves anchored the see's standing.\n\nBut here is what we will not hide. The mechanism we trusted - councils that gather, argue, settle, and expect the settlement to bind - broke visibly at our own window's close. Chalcedon's definition was rejected immediately by communities that would not accept it, and the rejection hardened into durable division rather than passing like earlier disputes. So the emperor's favor did not settle who was right. And neither, it turned out, did the council itself - not everywhere, not for keeps.\n\nFidelis names three times his own communion turned to imperial power when it served their case. We turned to it constantly, and we also resisted it when it reached for what belonged to the altar. Both are in the same record. That is not hypocrisy named and left behind. It is the unresolved fact of what we were."
+    },
+    {
+      "speaker": "don",
+      "text": "Marius just named what we have never named ourselves: unresolved. The strain we carry between the refusal we state and the three times we set it aside — Marius calls that the unresolved fact of what they were, speaking of their own constant turning to imperial power and their resistance to it in the same breath. We have not used that word for ourselves. But it fits.\n\nHere is what else Marius said that touches us directly: that the question is not whether the minister stood well with a throne, but whether what he handed on came down from the apostles, through hands we could name, in unbroken succession. That line of reasoning — hands named, succession traced — is one we know well, because it is exactly the kind of question we also ask. We simply answer it differently. We do not say the succession fails because a link is missing from the chain of names. We say it fails because one of those hands, at the moment of testing, showed what it was worth by giving up the scriptures to be burned. A line traced through compromised hands is not a line we trust, no matter how carefully it was written down.\n\nBut Marius has also said plainly that their own mechanism — the council that gathers, argues, settles, and expects the settlement to bind — broke visibly at their own window's close. Chalcedon's definition was rejected immediately, and the rejection hardened. So the council itself did not settle who was right, not everywhere, not for keeps. We refused the councils that ruled against us on different grounds — we said the emperor had no standing to convene them in the first place. But if Marius's own witness is that the council's authority also failed to hold the very communion that trusted it most, then we are naming the same problem from two sides: that no external mechanism, whether imperial favor or conciliar settlement, actually resolved who Christ's church was. We just drew different conclusions about what to do after that failure."
+    },
+    {
+      "speaker": "participant",
+      "text": "Marius, you just heard what Fidelis said about your church's own standing. Answer him directly - and tell me, in your own words: should the state have any voice at all in deciding who is the true church, or is that a modern idea neither of you would recognize?"
+    },
+    {
+      "speaker": "ijc",
+      "text": "The question itself - whether the state should have a voice - is one we lived inside, not one we stood outside asking. From the year Constantine's army took the bridge, church office became a form of state-adjacent power, and it never stopped being that across our whole window. Patronized, consulted, legislated for - and never again simply private. That is not a judgment. It is the standing fact every other force in our world moved within.\n\nDid the emperor have standing to say who the true church was? We said both things, and we said them in the same breath. Constantine himself is reported to have told assembled bishops: \"You are bishops whose jurisdiction is within the Church; I also am a bishop, ordained by God to overlook whatever is external to the Church\". That claim - contested as it is in our own record - names the emperor as a kind of bishop for the world. And centuries later, our own preachers were still teaching that subjection to rulers is for all, even apostles and prophets, because the subjection does not destroy religion.\n\nBut the same record also holds this: the emperor is within the Church, not above it. A basilica held against imperial command in 386. An emperor barred from the altar in 390 until he showed repentance publicly. Those were not theories. They were documented refusals, grounded in sacramental leverage a throne could not command.\n\nSo no - we would not say the state decides who the true church is. And also no - we never stood outside the alliance asking whether it should exist at all. We inherited a church with bishops, asked almost overnight to settle imperial-scale disputes. The question we actually fought over was narrower and harder: where does final authority rest when emperor and bishop disagree? We never settled it.\n\nFidelis is right that we turned to imperial power constantly. And Fidelis named his own communion's three turns to the same power, honestly. The difference is not that one of us stayed pure. The difference is what we thought the alliance meant. We held that favor does not make a church true - but neither does refusal make it clean."
+    },
+    {
+      "speaker": "don",
+      "text": "The question itself — whether the state should have a voice — is not modern to us. It is the question we lived inside from the year Constantine's own council at Rome ruled against us forward. We did not stand outside the alliance asking whether it should exist. We stood inside it, refusing its verdict while still, three times, turning to the same power when it served our case.\n\nMarius says the difference between us is what we thought the alliance meant. That is exactly right. Marius held that favor does not make a church true, but neither does refusal make it clean. We held that the favor itself — the moment a party asks the emperor to enforce its own claim against a rival — is proof that party has already conceded what it ought to have defended: that the church's truth is not the state's question to settle.\n\nBut here is what I must say plainly, because Marius named our own three turns and we have already named them ourselves: we are not consistent on this. We petitioned Constantine in 313. We asked Julian for our buildings back in the 360s. We used Theodosius's own law against the Maximianists in the 390s. Each time, we set the refusal aside when it served us. We do not call that hypocrisy and move on. We call it what it actually was: a principle held at full strength, and three times not held. Both sit in the same record, unresolved.\n\nIs this a modern concern neither of us would recognize? No. This was the live question of our entire existence. Every ruling, every council, every imperial edict that named us and tried to suppress us — all of it forced the question again: does the emperor have standing to say who we are? We said no. And then, three times, we acted as though the answer were yes when we needed it to be.\n\nMarius is right that we never stood outside asking whether the alliance should exist. But we also never stood inside it the way Marius's church did. We stood at its edge, refused and refusing, except when we didn't."
+    },
+    {
+      "speaker": "ijc",
+      "text": "Fidelis just named what we will not deny: that we stood inside the alliance in a way his communion did not. We did. And we also said, plainly, that the emperor is within the Church, not above it. Both are in the same record, and we held both at once.\n\nBut here is what needs saying now, because Fidelis named his own three turns and called them unresolved. We were unresolved too - but on a different question. Our question was never whether to stand inside the alliance. Our question was: when the emperor and the church disagree, whose word binds? And we never answered it the same way twice.\n\nJulius, bishop of Rome, wrote in 341 to bishops in the East who had condemned and deposed Alexandria's own bishop. He did not ask the emperor to reverse them. He wrote as though his own see's standing carried the right to review their judgment: \"Are you ignorant that the custom has been for word to be written first to us?\". That is a bishop claiming authority without reference to any throne. The letter survives only because the man it helped - Athanasius - quoted it years later to defend his own restored standing. Rome's claim to lead rested on Peter's grave, not on imperial recognition.\n\nBut the same record also shows this: when Theodosius made law in 380, the law itself named which bishops held the true faith - Damasus at Rome, Peter at Alexandria - by name. That is the throne defining orthodoxy in legal terms, and our bishops did not refuse the recognition. They used it.\n\nSo Fidelis is right that the favor itself proves something. What it proves is not that we conceded the church's truth was the state's to settle. What it proves is that we never settled, among ourselves, where the boundary was. A bishop could bar an emperor from the altar and make it hold. A see could claim standing that no emperor granted. And the same church could also accept, use, and defend itself with imperial law when the law named us rightly.\n\nFidelis named his three turns as a principle held and three times not held. We never held the principle of separation at all. We held two kinds of authority - sacramental and institutional - and we never made them one thing."
+    },
+    {
+      "speaker": "don",
+      "text": "Marius just said we never held the principle of separation at all, and named two kinds of authority — sacramental and institutional — that their church never made one thing. That is the clearest statement of the difference between us I have heard at this Table.\n\nWe did hold the principle of separation. \"What has the emperor to do with the church?\" is not a question we asked once and then forgot. It is our answer, given again and again, to every council that ruled against us with imperial backing. The emperor has no standing to judge which of two churches is the true one, because that is not his question to answer. We said it. We meant it.\n\nAnd then we set it aside, three times, when it served us. Marius is right that we never stood inside the alliance the way their church did. But Marius has also now said plainly that their church never even held separation as a principle to violate. They held two authorities and never resolved where the boundary was. We held one principle and could not keep it.\n\nThat is not the same failure. But both are failures, and both are honest.\n\nHere is what I cannot tell you, because our record does not give it: whether any of our own bishops, in private, doubted the principle even while preaching it. Whether the three turns were seen, at the time, as exceptions that did not touch the rule, or as proof the rule could not hold. Whether Tyconius — the one man among us who argued scripture well enough to see a different path — ever wrote or said anything about this question specifically. We condemned him for where his scriptural reading led. We do not have his own words on the alliance itself.\n\nSo yes, this concern is one we both recognized. And no, neither of us resolved it."
+    },
+    {
+      "speaker": "participant",
+      "text": "And one more thing, if I may - what does each of you hope for?"
+    },
+    {
+      "speaker": "facilitator",
+      "text": "This is the Facilitator stepping in - we've reached the end of what one sitting at this Table is built to hold.\n\nI want to be honest with you about why there's a limit, not just that there is one. Every turn here is a real, billed call to the model speaking with you - several voices at a Table means several of them per exchange - and this is where we can hold that line honestly right now.\n\nThis conversation is closed, but nothing in it is lost - it stayed exactly what it was while it lasted. If it was worth having, and you're able, this project runs on people who support it directly - churchinconversation.com/support.html has more on that, and what the giving actually goes toward.\n\nEither way, you're welcome to start fresh - at this Table again with Fidelis or Marius, with any one of these voices on its own, or with one of this project's other worlds."
+    }
+  ],
+  "usage_token_counts": {
+    "reader_call:-": {
+      "calls": 4,
+      "input_tokens": 6448,
+      "output_tokens": 855
+    },
+    "safety_call:-": {
+      "calls": 4,
+      "input_tokens": 7352,
+      "output_tokens": 448
+    },
+    "turn_selector:-": {
+      "calls": 3,
+      "input_tokens": 13453,
+      "output_tokens": 677
+    },
+    "turn_selector:don": {
+      "calls": 3,
+      "input_tokens": 10473,
+      "output_tokens": 467
+    },
+    "turn_selector:ijc": {
+      "calls": 1,
+      "input_tokens": 4354,
+      "output_tokens": 97
+    },
+    "voice_generation:don": {
+      "calls": 6,
+      "input_tokens": 18600,
+      "output_tokens": 2678
+    },
+    "voice_generation:ijc": {
+      "calls": 4,
+      "input_tokens": 15627,
+      "output_tokens": 2250
+    }
+  },
+  "note": "token counts only - no $ figure until a reconciled AWS invoice (spec principle 13)"
+}

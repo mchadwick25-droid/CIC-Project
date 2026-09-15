@@ -2,7 +2,7 @@
 
 **Reviewed document:** `cappadocian_Source_Registry.md`, first draft (99 rows), 2026-08-31.
 **Reviewer:** independent Opus-tier agent, fresh context, no prior involvement in drafting.
-**Method:** read the Registry in full, plus its governing template (`L3B-World-Build-Methodology/Source_Registry_Template.md`), `cappadocian_Doc_02_Source_Ecology.md`, `cappadocian_Doc_01_World_Identification.md`, `cic/texts/README.md`, and `CAPPADOCIAN_BUILD_LEDGER.md` §9.
+**Method:** read the Registry in full, plus its governing template (`reference/L3B-World-Build-Methodology/Source_Registry_Template.md`), `cappadocian_Doc_02_Source_Ecology.md`, `cappadocian_Doc_01_World_Identification.md`, `cic/texts/README.md`, and `CAPPADOCIAN_BUILD_LEDGER.md` §9.
 
 This file is the review's verbatim output, preserved as the actual review artifact per this project's build-cycle discipline ("review rounds exist as files, not claims"). It is not edited for content after the fact; corrections to what it found are recorded in the Registry's own living-document log and in Round 2/3's own files.
 

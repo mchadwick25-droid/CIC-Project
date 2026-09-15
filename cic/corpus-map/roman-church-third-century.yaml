@@ -30,6 +30,28 @@ works:
     to 268 to hold it. Dionysius was bishop 259-268, and a Roman bishop''s doctrinal letter
     belongs to the Roman church rather than to the Alexandrian controversy it addresses.'
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- work: The Church History of Eusebius (Historia Ecclesiastica)
+  author: eusebius
+  locus: div1 3 — Books II-VII in particular
+  role: context
+  confidence: assigned
+  note: 'Same work, context row (Mark''s ruling, brief §11a): Eusebius describes these movements
+    from outside and later, and for each of them the History is real evidence, not a passing
+    mention. Books II-V are the principal external frame for the post-apostolic church and
+    preserve otherwise-lost fragments (Papias, Hegesippus, the Antonine martyr acts). Book
+    VI is the fullest ancient account of Origen and the catechetical school; V-VII cover Pantaenus,
+    Clement and Dionysius. Book V.14-19 preserves the anti-Montanist dossier (the Anonymous,
+    Apollonius) on which that Contested-Evidentiary entry largely rests. Books VI.43-45 and
+    VII preserve Cornelius'' and Dionysius'' letters on Novatian - primary evidence for novatianism.
+    Movements he merely mentions are deliberately not assigned.
+
+    Also assigned to roman-church-third-century: Cornelius was bishop of Rome 251-253, squarely
+    inside this world''s own window, and his letters preserved here are primary Roman-church
+    material, not merely external testimony to novatianism. Surfaced by a source-research
+    pass on Roman Church Third Century''s (I.33) sourcing gaps, 2026-09-13.
+
+    '
+  source_file: npnf201_eusebius-church-history-life-of-constantine.xml
 - work: Against the Heresy of One Noetus
   author: hippolytus
   locus: div2 3.4, 'Dogmatical and Historical' - Against the Heresy of One Noetus
@@ -102,4 +124,18 @@ works:
   note: The one complete treatise in the extant-works section; early Christian eschatology
     from Rome, c. 200. needs-ruling only for the shelf - no census home for Hippolytus (see
     Refutation row). Re-pointed 2026-08-26 to the census entry added on record for this movement.
+  source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: A Treatise of Novatian Concerning the Trinity
+  author: novatian
+  locus: div2 6.3
+  role: tradition
+  confidence: assigned
+  note: 'Novatian''s major work, written while still a Roman presbyter in good standing, before
+    the schism - doctrinally the fullest Latin trinitarian statement before Nicaea. Tradition
+    for the entry that bears his name; also pre-schism Roman theology in its own right, the
+    same reasoning Caius (above) was re-pointed on 2026-08-26 once roman-church-third-century
+    was added on record. Surfaced by a source-research pass on that world''s (I.33) sourcing
+    gaps, 2026-09-13.
+
+    '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml

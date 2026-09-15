@@ -3,11 +3,7 @@
 
 **Produced at:** Step 10, Phase Two (Representative Construction Framework L3C V3.2, Part Four).
 **Builds on:** Phase One Ecology Assessment (`don_Rep_Phase1_Ecology_Assessment.md`, Approved to proceed); the identity decision (`don_Representative_Identity_Options.md` §4, Decision Record); Doc_04 (Gravity Discovery) and Doc_08 (Forces Document) as the named source for depth calibration; Doc_02 §7 for the terminal-record disclosure governing the Temporal Horizon.
-**Status:** **Approved to proceed**, self-disposed by this build thread per `cic-build-cycle` (no escalation category applies — the one identity decision this phase depends on was already escalated to and made by the project lead, per `don_Representative_Identity_Options.md`). Review history: Round 1 (`Review-Artifacts/Rep_Phase2_FormationCalibration_Round1_Review.md`) — SUBSTANTIAL REVISION REQUIRED (3 High, 1 Medium, 2 Low, all Doc_01/Doc_04/Doc_07/Doc_08 citation-locus and fabricated-quotation errors, fixed and independently re-verified); Round 2 (`Round2_Review.md`) — CLEARED, one small new Low quotation-fidelity slip found and fixed directly (cosmetic, no further round required).
-
-## Revision Log
-- **Round 1 — SUBSTANTIAL REVISION REQUIRED.** Fixed: a false T1 "widest force-connection in the document" superlative (Doc_08's own table shows G4 and G3 both connect to more forces); a phrase misattributed to Doc_07 §2I that is actually Doc_01 §1's own Core Identity language, cited alongside a Phase One reference that doesn't contain it; a fabricated-looking quotation ("genuinely undeveloped, not merely undocumented") that appears nowhere in Doc_07 — it was Phase One's own unquoted editorial gloss, replaced with Doc_07's own actual wording; four forces' own distinct Layer 2 wording flattened into one shared quoted phrase, the identical error class a Round 1 review already caught once in Phase One's own version of this table; a verbatim Doc_01 §2 sentence wrongly co-attributed to Doc_02 §7 as well; a quoted phrase that silently repositioned a word not present at that point in the source.
-- **Round 2 — CLEARED**, one small new Low finding fixed directly: a bracketed interpolation silently replaced a source word ("specific") rather than inserting alongside it — corrected to preserve the original wording.
+**Status:** **Approved to proceed**, self-disposed by this build thread per `cic-build-cycle` (no escalation category applies — the one identity decision this phase depends on was already escalated to and made by the project lead, per `don_Representative_Identity_Options.md`).
 
 **Construction-only notice:** design-phase document; never visible to Fidelis's operating voice or to participants.
 
@@ -83,4 +79,4 @@ Carry this calibration into Voice Construction (Part Five): build the **reasonin
 
 ---
 
-*End Phase Two Formation Calibration. Reviewed (Round 1: SUBSTANTIAL REVISION REQUIRED; Round 2: CLEARED). Approved to proceed by this build thread. Next: Phase Three (Voice Construction, L3C Part Five).*
+*End Phase Two Formation Calibration. Approved to proceed by this build thread. Next: Phase Three (Voice Construction, L3C Part Five).*

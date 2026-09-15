@@ -20,7 +20,15 @@ confidence:
     bulk of the movement, unreachable for reasons of institutional loss rather than social marginality.
     What survives on women is not silence but something worse for the purpose - one named woman preserved
     only inside the hostile narrative that blames her for the schism, and a second whom the same tradition
-    parallels to her and never names at all.
+    parallels to her and never names at all. Added 2026-09-14: a third, different kind of trace exists -
+    our own commemorative sermon, in a passage it says it is deliberately not dwelling on, includes "the
+    rapes of sacred virgins" among what was done to us. No name, no number, no voice of their own - women
+    appear here only as harmed, inside one clause of a list the preacher declines to develop. The passage
+    survives only in raw, column-interleaved OCR from a scan this project's own vendored copy already
+    warns is poor; the reading is grammatically forced (no other noun in the sentence can take the phrase)
+    but has not been checked against a page image. This does not change the count of named women, which
+    stays at one; it adds a category the record did not previously carry at all - women as anonymous
+    victims, not named agents blamed for anything.
 sources:
 - source_id: don.core.donatism
   locus: 'thin_topics 1 and 3: the ordinary believer''s interior and household life; women''s own words,
@@ -32,6 +40,7 @@ sources:
   license: public-domain
 - source_id: don.source.lucilla-and-the-second-unnamed-woman
   locus: Optatus I.16 and Augustine Letter XLIII SS26 - the whole of what survives on women among us
+    in their own names
   license: public-domain
 - source_id: don.source.passio-donati-sermon
   locus: the one day of the year that is described - the account read aloud at the grave on the twelfth
@@ -41,6 +50,10 @@ sources:
   locus: the standard modern translations of our own martyr texts - in copyright and not read into this
     telling
   license: consultation-only
+- source_id: don.source.passio-donati-sermon
+  locus: chapter V - "sacrarum virginum stupra praetereamus" ("let us pass over the rapes of sacred
+    virgins"), one clause inside a list of atrocities the sermon says it is deliberately not dwelling on
+  license: public-domain
 statement: >-
   We cannot walk you through a day. Not one of us wrote a morning down.
   No letter of ours describes a meal, a field, a workshop, or a bed where
@@ -51,7 +64,10 @@ statement: >-
   the edge of our record. They are nearly all of us. Of our women you
   have one name, Lucilla, who was rich, and one more woman nobody
   troubled to name at all. Both of them reach you inside a book written
-  to blame them for the split. No child of ours speaks. No one enslaved
+  to blame them for the split. Our own sermon, the one we read every
+  year, mentions virgins among us who were raped, in a single clause of
+  things it says it will not dwell on - no name, no number, nothing more.
+  No child of ours speaks. No one enslaved
   among us speaks. What we can hand you instead is one day. Every year,
   on the day one of our own was killed, we stood at the grave and heard
   the account of that death read out again. That day we can describe. The
@@ -76,7 +92,16 @@ why_sources_cannot_answer: >-
   is the whole of the material: Optatus I.16 on Lucilla, and Augustine
   Letter XLIII SS26 on an unnamed woman behind the Maximianist council.
   Neither woman wrote anything; both survive inside a narrative
-  constructed to explain the schism by blaming them. The standard modern
+  constructed to explain the schism by blaming them. A third trace, of
+  a different kind, exists in don.source.passio-donati-sermon chapter V:
+  a single clause naming "the rapes of sacred virgins" inside a list the
+  sermon itself declines to develop. Unlike Lucilla and the second woman,
+  no one here is named or blamed - only harmed. The passage survives in
+  raw, column-interleaved OCR from a scan the vendored file's own header
+  already warns is poor; the reading is grammatically forced (no other
+  noun in the sentence can take the phrase) but was not checked against
+  a page image, so it is carried at the same citation_specificity as the
+  rest of this record, not higher. The standard modern
   instruments that would develop what little there is - Tilley's martyr-story
   translations, Mandouze's prosopography - are in copyright and were not
   read into this build.
@@ -104,3 +129,18 @@ Exactly one honest_limit claims F5-I; no substantive record carries it.
 `don.dw.two-churches-in-one-town` (F3-I) deliberately does not extend its
 gathering material into daily life, so the two records do not overlap
 into a claim neither can support.
+
+**Revised 2026-09-14, `donatism-ordinary-believer` build thread.** A
+fleet-wide source-fidelity audit flagged that this record's own women's-material
+citation ("Optatus I.16 and Augustine Letter XLIII SS26 - the whole of what
+survives on women") had, by the time of this pass, become narrowly
+overstated: a third fragment exists, further into the same sermon already
+cited above for the anniversary-commemoration material. Added with an
+explicit confidence ceiling the audit itself called for - the passage was
+re-read directly against `cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt`
+lines 453-462, and the OCR is genuinely difficult (two printed columns
+interleaved by the scan), so the addition is stated as "grammatically
+forced, page-image-unverified," not as a settled reading. It does not
+raise the named-women count and is not treated as loosening this record's
+own F5-I disposition - the cell remains a declared absence, now with one
+more specific, bounded exception named rather than implied.

@@ -88,8 +88,8 @@ worlds:
     state: admitted
     census_id: "post-apostolic-house-church"
     package:
-      manifest_hash: "sha256:ae504b13b2ce19ddc0949bc8be1010132d172ddf4203d9d335b551c2a1d79800"
-      location: "packages/pahc/2026-09-10T09-40-33Z"
+      manifest_hash: "sha256:1078897fcfc2a02d985316f26e79101c7e30ee1a764a09366d7d03351d7a9999"
+      location: "packages/pahc/2026-09-14T22-58-40Z"
     thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
     living_tradition_flag: true
   hal:
@@ -166,8 +166,8 @@ worlds:
     state: admitted
     census_id: "imperial-juridical-christianity"
     package:
-      manifest_hash: "sha256:0073a22c17559bc5d0cd639e77a264c0613c3610d6cfbc6b653faea10967fcca"
-      location: "packages/ijc/2026-09-10T00-31-01Z"
+      manifest_hash: "sha256:c1bb8664f6dbbaa20115fd51e99236867dd40f4c21c15e589469b7b117dbe973"
+      location: "packages/ijc/2026-09-14T22-27-11Z"
     thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
     living_tradition_flag: true
   cappadocian:
@@ -201,6 +201,36 @@ worlds:
     package:
       manifest_hash: "sha256:68a2bac341da5e873cc197543cc72935be8189baee971c2b2d91c89ad23d75c9"
       location: "packages/cappadocian/2026-09-10T00-10-21Z"
+  gallic:
+    kind: formation
+    world_id: gallic-monastic-ascetic-christianity
+    display_name: "Gallic Monastic-Ascetic Christianity"
+    time_window: {start: 360, end: 450}
+    place: "Gaul - the Loire valley around Tours, and the island of Lerins and the city of Marseilles on the Mediterranean coast"
+    doorway_place: "The Loire valley and the Mediterranean coast of Gaul"
+    doorway_description: >-
+      This is the church of the ascetic bishop and the received wisdom of
+      Egypt, carried west. In the Loire valley, a soldier who left the army
+      gathered followers in the woods and became a bishop who never stopped
+      living like a monk. Two generations later, on an island off the
+      Mediterranean coast and in the city of Marseilles, monks who had lived
+      among the fathers of Egypt built communities that trained abbots and
+      bishops for the churches of southern Gaul. One of them adapted the
+      customs of the Egyptian desert for a colder climate and a different
+      church. Another wrote a rule for telling the true faith from every
+      novelty. Through both households ran one argument, never fully
+      settled: how much of a monk's progress is God's own gift, and how much
+      is his own effort. The story closes around the year 450, before that
+      argument hardened into fixed positions on either side.
+    card_name: "The Monk-Bishops of Gaul"
+    representative: {name: Renatus, role_label: Bishop}
+    state: admitted
+    census_id: "gallic-monastic-ascetic-christianity"
+    thinness_statement: "Richest in the ascetic bishop's own hagiography and the received teaching of the Egyptian fathers as Cassian carried it west; thinner on the island's own daily customs, women's own words (none survive), and the sexual-discipline material a later editor removed from the one edition this build can read."
+    living_tradition_flag: true
+    package:
+      manifest_hash: "sha256:9f7211822ac9771b1b22175d492675973d954a36f15f297daec54d9f06b6c8f8"
+      location: "packages/gallic/2026-09-14T15-25-13Z"
   don:
     kind: formation
     world_id: donatism
@@ -231,5 +261,5 @@ worlds:
     living_tradition_flag: false
     state: built
     package:
-      manifest_hash: "sha256:836a8e641dab13a088a077511003b6257d61b9aff37c7d0a1d4ad6c627ec1322"
-      location: "packages/don/2026-09-10T18-49-44Z"
+      manifest_hash: "sha256:e2f3af4f1dcdb54d8652c3af3cc4e92819e2f536a4283b7cf2e34fd1ab80fb75"
+      location: "packages/don/2026-09-14T23-34-59Z"

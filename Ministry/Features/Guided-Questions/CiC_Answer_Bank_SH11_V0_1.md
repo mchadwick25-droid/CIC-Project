@@ -6,7 +6,7 @@ participant could reach.
 
 ## 1. What this actually is, and what it is not
 
-Grounded in `Ministry/Technology/Pass3/cost_floor_model.py` STEP 5 (restored
+Grounded in `Archive/Technology-Pass2-2026-08/Pass3/cost_floor_model.py` STEP 5 (restored
 to `main` alongside this work - it existed only on an orphaned branch,
 stranded by the branch-chaining cleanup, never superseded). Its finding:
 serving a prepared answer instead of generating live can only happen when
