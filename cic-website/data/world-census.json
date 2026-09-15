@@ -2299,6 +2299,24 @@
    "entry": null,
    "teaser": "Ordinary parish life before the word parish existed: instruction, Easter baptisms, public penance, a bishop hearing his own people's lawsuits. Its hardest question was what to do with the thousands who had sacrificed to save their lives and now wanted to come home. Cyprian was beheaded outside Carthage; Augustine preached to one congregation for thirty-five years.",
    "longDescription": "Cyprian became bishop of Carthage around 248. When the emperor Decius ordered universal sacrifice he went into hiding, and he came back to the question that would define the rest of his time as bishop: thousands of his own people had complied, and now wanted back in. He organised relief through the epidemic that still bears his name, and told his congregation to nurse pagan neighbours as well as their own. He was beheaded outside Carthage in 258.\n\nA century and a half later Augustine was bishop of Hippo Regius, from 395 until his death in 430. He preached to the same congregation several times a week for thirty-five years, and stenographers took much of it down. Hundreds of those sermons survive. In them he argues, jokes, scolds and consoles actual people whose situations he knew.\n\nBetween the two men lies the ordinary work itself: catechumens under instruction, baptisms at Easter, penitents doing public penance, widows and the poor cared for, and the bishop sitting as judge in his own people's disputes. None of that is the councils, and none of it is the controversies. It is the week in and week out work of a bishop with a flock.",
+   "doctrine": [
+    {
+     "title": "A bishop keeps a flock, not an office",
+     "detail": "Both men's surviving work is organised around a territorial charge: a named church, in a named city, whose people are the bishop's own responsibility. Cyprian writes as the bishop of Carthage to the people of Carthage; Augustine preaches to the same congregation for thirty-five years."
+    },
+    {
+     "title": "The failed can be brought back",
+     "detail": "The lapsed controversy was a dispute over the rite of penitential reconciliation — on what terms someone who had sacrificed under persecution could be received again. That the answer was yes, on terms, is what set the Western pattern."
+    },
+    {
+     "title": "Disagreement need not break communion",
+     "detail": "In the rebaptism dispute the African bishops disagreed with Rome and with one another without severing fellowship; the council of 256 opened by affirming each bishop's own right of communion. Augustine later argued against Cyprian's ruling while still claiming his communion."
+    },
+    {
+     "title": "Whether a sacrament outside the church is real",
+     "detail": "Does a baptism or an ordination performed outside the church's boundary count? Cyprian said no and rebaptised; the Western answer later reversed. The question holds this world together precisely because its answer does not stay still."
+    }
+   ],
    "voices": [
     "Cyprian of Carthage led his church through both persecution and plague. His letters are the fullest surviving picture of how a third-century congregation actually ran.",
     "Pontius was Cyprian's own deacon, and wrote an account of his bishop's life and death.",
@@ -2388,6 +2406,24 @@
    "entry": null,
    "teaser": "A wealthy shipowner decided the God who made the world could not be the Father Jesus revealed, and founded a church on it — his own bishops, his own edited Bible. Rome threw him out in 144 and gave back his donation. Nothing he wrote survives, and how far he forced the church to fix its canon is still argued.",
    "longDescription": "Marcion came from Sinope on the Black Sea and made a considerable fortune in shipping. He arrived in Rome around 140 and gave the church there a very large donation. Then he read Paul on law and grace, and drew a conclusion the Roman church would not take. The just, law-giving creator of the Hebrew Scriptures and the merciful Father whom Jesus revealed were two different beings. Christ had been sent by the higher God into a world he had not made, so he could not have taken real flesh from it.\n\nIn 144 the Roman church expelled him and returned his money. He answered by organising congregations of his own. They spread fast along the trade routes he already knew, and they lasted for centuries in the East. He gave them their own Scripture: one gospel based on Luke and ten letters of Paul, edited to remove what he judged to be Jewish corruption. Alongside it he set a book called the Antitheses, which put the two Gods against one another point by point.\n\nNot one line of his own writing survives. Everything we have comes through the men who wrote to refute him, above all Tertullian, whose Against Marcion runs to five books.",
+   "doctrine": [
+    {
+     "title": "Two Gods, not one",
+     "detail": "The just, law-giving creator of the Hebrew Scriptures and the merciful Father whom Jesus revealed were two different beings. The Antitheses set them against one another point by point."
+    },
+    {
+     "title": "Christ took no real flesh",
+     "detail": "He had been sent by the higher God into a world he had not made, so he could not have taken real flesh from it."
+    },
+    {
+     "title": "A pruned Scripture",
+     "detail": "One gospel based on Luke and ten letters of Paul, edited to remove what Marcion judged to be Jewish corruption. The Hebrew Scriptures belonged to the other God."
+    },
+    {
+     "title": "Paul, followed further than Rome would go",
+     "detail": "The conclusion came from reading Paul on law and grace — and from drawing a conclusion the Roman church would not take."
+    }
+   ],
    "voices": [
     "Marcion of Sinope was a shipowner and an organiser. The church he founded had its own bishops and its own edited Scripture.",
     "Tertullian of Carthage wrote five books Against Marcion. They are the fullest surviving account of what Marcion actually taught.",
@@ -2430,6 +2466,24 @@
    "entry": null,
    "teaser": "Teachers who told the Christian story as cosmic drama: a spark of the divine trapped in matter, and a saviour who came to wake it. They planted no churches of their own — they stayed in the pews and offered their version as the deeper reading, which is exactly what frightened the bishops. Their own books stayed buried in Egypt until 1945.",
    "longDescription": "Valentinus was an Alexandrian teacher who came to Rome around 136. Tertullian says he was nearly elected bishop there. He and the students who carried his name — Ptolemy, Heracleon, Theodotus — taught that the visible world was made not by the highest God but by a lesser craftsman. Human beings carry a spark of the divine inside them, fallen into matter. Christ came to bring the knowledge that wakes it up.\n\nTogether with related currents around teachers like Basilides, they mostly did not build rival churches. They sat in ordinary congregations and offered their teaching as the deeper meaning, available to those ready for it. That is precisely what alarmed bishops like Irenaeus. His five-volume Against Heresies, written about 180, set out to drag the system into the open and refute it.\n\nFor eighteen centuries they were known almost entirely through such opponents. Then in 1945 farmers digging near Nag Hammadi in Upper Egypt turned up a sealed jar of papyrus codices in Coptic. One of them was the Gospel of Truth. These currents had their own voice again for the first time since antiquity.",
+   "doctrine": [
+    {
+     "title": "The visible world was not made by the highest God",
+     "detail": "It was the work of a lesser craftsman. The highest God is not answerable for matter as it stands."
+    },
+    {
+     "title": "A spark of the divine, fallen into matter",
+     "detail": "Human beings carry something of the divine inside them, fallen into the material world."
+    },
+    {
+     "title": "Christ came with the knowledge that wakes it",
+     "detail": "Not chiefly to be obeyed or to be died for, but to bring the knowledge that rouses the spark."
+    },
+    {
+     "title": "Taught inside the church, not beside it",
+     "detail": "They mostly did not build rival churches. They sat in ordinary congregations and offered their teaching as the deeper meaning, available to those ready for it — which is precisely what alarmed bishops like Irenaeus."
+    }
+   ],
    "voices": [
     "Valentinus taught at Alexandria and later at Rome, and is the most influential figure of these currents. He may be the author of the Gospel of Truth.",
     "Ptolemy was a Valentinian teacher, and his Letter to Flora survives nearly complete. It is a patient explanation of how to read the Law of Moses.",
@@ -4882,6 +4936,16 @@
    "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run found material with no entry to hold it. Tertullian's Against Praxeas and Hippolytus' Against Noetus are two of the corpus's substantial heresiological works and had no entry to point at: the census's floor entries are Gnostic, Marcionite, Manichaean and Arian, and this is none of those.",
    "longDescription": "Around the turn of the third century a way of protecting the oneness of God became briefly popular and then notorious. Noetus of Smyrna taught it first, and after him Praxeas and Sabellius at Rome. Father, Son and Spirit are not three who are distinct, they said, but one who appears in three ways — so that the Son is the Father under another aspect.\n\nThe objection was immediate and blunt. Then it was the Father who was born, and the Father who died. Tertullian wrote Against Praxeas to say so, in a book that also gave Latin theology much of the vocabulary it would use for the opposite view.\n\nHippolytus wrote against Noetus, and accused Callistus, the bishop of Rome, of sheltering the teaching — an accusation tangled up with his own rivalry for that see. Sabellius' name stuck to the position longest. Modalism is still sometimes called Sabellianism, though very little is known about him.",
    "teaser": "An attempt to keep God strictly one, by saying Father, Son and Spirit are a single person wearing three aspects. The answer came back at once: then the Father was born, and the Father died on the cross. Its first teacher was condemned by his own clergy, and not a line written in its defence survives.",
+   "doctrine": [
+    {
+     "title": "God is strictly one",
+     "detail": "The whole point of the teaching was to protect the oneness of God, against anything that looked like three of them."
+    },
+    {
+     "title": "Father, Son and Spirit are one who appears in three ways",
+     "detail": "Not three who are distinct, they said, but one who appears in three ways — so that the Son is the Father under another aspect."
+    }
+   ],
    "voices": [
     "Noetus of Smyrna is the first named teacher of the position. His own presbyters condemned him.",
     "Praxeas was Tertullian's target. Almost nothing is known about him except the book written against him.",
