@@ -16,6 +16,7 @@ sources: []
 author: "Dionysius of Alexandria (bishop c. 248-264 CE)"
 work: "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')"
 edition: "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.dionysius-feltoe, which sought the fuller Feltoe 1918 collection); the ANF 6 fallback found already vendored in the CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"

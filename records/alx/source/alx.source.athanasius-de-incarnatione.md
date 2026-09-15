@@ -16,6 +16,7 @@ sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"
 work: "De Incarnatione Verbi Dei (On the Incarnation of the Word)"
 edition: "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.athanasius-npnf2-04); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
