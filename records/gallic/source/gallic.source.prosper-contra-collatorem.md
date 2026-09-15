@@ -18,6 +18,7 @@ author: Prosper of Aquitaine
 work: Contra Collatorem -- a twelve-proposition critique of Cassian's Conference XIII, extracted from
   Cassian's own text and judged in part orthodox, in part erroneous, without ever naming Cassian directly
 edition: Not yet vendored in cic/texts/ -- named and located but not acquired as of this authoring pass.
+kind: unvendored
 rights_status: not independently verified this session; row not yet acquired as an open text -- named
   for completeness per the Source Registry's own checkpoint rule (every source a Doc_02 claim rests on
   gets a row, acquired or not).

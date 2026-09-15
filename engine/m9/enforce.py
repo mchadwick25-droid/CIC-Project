@@ -59,13 +59,20 @@ class Waiver:
 # increment 4 (2026-09-15), not from D3 SS4.3's own table - that table was
 # written before engine/m9/confinement.py existed to measure anything, and
 # says so itself ("the exact values come from the first real run, not from
-# here"). The real run is smaller than SS4.3 predicted for the m9: side:
-# `shelf-row`, `emic-vendored-only`, `voicing-pair` and `shelf-confidence`
-# are all silent on every real world today, because no real source record
-# has `kind`/`shelf_row` set yet (that is increment 7, the fleet
-# migration) - checks gated on those fields have nothing to resolve
-# against, so they find nothing to report, correctly, not because the
-# library is clean.
+# here"). At increment 4, the real run was smaller than SS4.3 predicted
+# for the m9: side: `shelf-row`, `emic-vendored-only`, `voicing-pair` and
+# `shelf-confidence` were all silent on every real world, because no real
+# source record had `kind`/`shelf_row` set yet - checks gated on those
+# fields had nothing to resolve against, so they found nothing to report,
+# correctly, not because the library was clean. Increment 7's kind-only
+# half (CO-5, Decision-Log.md entry 22) is closing that gap one world at a
+# time via `tools/set_source_kind.py`: `gallic` is migrated first (the
+# worked pattern - it has the fleet's only `kind: absence`-eligible real
+# records to prove the tool handles correctly by skipping them), and each
+# world's move from `source-kind` alone to `source-kind` (reduced) +
+# `shelf-row` + `emic-vendored-only` is a fresh, real measurement against
+# that world's own post-migration data - never copied from another
+# world's numbers, never predicted in advance.
 #
 # The m1: side is LARGER than D3 SS4.1's own narrative named. That section
 # says only "don ships with 52 reciprocity findings, syr with 1
@@ -86,7 +93,9 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m9:source-kind/cappadocian": Waiver(count=111, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any cappadocian source record"),
     "m9:source-kind/desert": Waiver(count=29, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any desert source record"),
     "m9:source-kind/don": Waiver(count=76, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any don source record"),
-    "m9:source-kind/gallic": Waiver(count=36, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any gallic source record"),
+    "m9:source-kind/gallic": Waiver(count=2, deadline="2026-12-14", owner="the two gallic.*-absence records - kind: absence + real absence_probes still need an editorial pass (increment 7's own remaining item); gallic's build thread"),
+    "m9:shelf-row/gallic": Waiver(count=21, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:emic-vendored-only/gallic": Waiver(count=10, deadline="2026-12-14", owner="gallic's own build thread - each emic force/term/limit record needs re-grounding in a vendored primary source or its citation removed"),
     "m9:source-kind/hal": Waiver(count=28, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any hal source record"),
     "m9:source-kind/ijc": Waiver(count=30, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any ijc source record"),
     "m9:source-kind/pahc": Waiver(count=23, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any pahc source record"),

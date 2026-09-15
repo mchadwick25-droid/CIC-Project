@@ -19,6 +19,7 @@ work: De gratia libri duo
 edition: 'Faustus of Riez, De gratia libri duo, in Fausti Reiensis Praeter sermones pseudo-eusebianos
   opera: accedunt Ruricii epistulae, ed. Engelbrecht, CSEL vol. 21 (Vienna: Tempsky, 1891), vendored as
   cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ 2026-09-09 and independently rights-verified (archive.org
   public-domain/rights metadata directly checked; title, editor, date, and contents independently re-verified)
   within the same build session that produced this world's own Source Registry.
