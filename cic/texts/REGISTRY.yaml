@@ -2007,3 +2007,92 @@
     (1924, clears this corpus's "to ~1929"/rolling-95-year rule) in the US, but NOT yet
     under a life+70 jurisdiction (Bell d. 1967, reaches 2038) - the mirror image of the
     Budge Paradise caution already on file (Budge d. 1934, life+70 already elapsed).
+- filename: calvin_institutes-christian-religion-vol1_beveridge1845.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    Institutes of the Christian Religion, Vol. I, John Calvin, trans. Henry Beveridge
+    (Edinburgh: The Calvin Translation Society, 1845) - the standard cited English edition
+    per the dossier. Fetched directly (curl, raw bytes) from Internet Archive, identifier
+    institutesofchrbeve01calv, "possible-copyright-status": "NOT_IN_COPYRIGHT" confirmed via
+    the item's own metadata API. RIGHTS: public domain by date, an 1845 publication. Raw
+    djvu OCR text; runs of 2+ spaces collapsed to one throughout, no wording changed;
+    library accession/stamp noise left as-is per this corpus's standing practice for
+    archive.org scans.
+- filename: calvin_institutes-christian-religion-vol2_beveridge1845.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    Institutes of the Christian Religion, Vol. II, same edition and vendoring basis as Vol.
+    I above. Internet Archive identifier institutesofchribeve02calv, "NOT_IN_COPYRIGHT"
+    confirmed via the item's own metadata API.
+- filename: calvin_institutes-christian-religion-vol3_beveridge1845.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    Institutes of the Christian Religion, Vol. III, same edition and vendoring basis as
+    Vols. I-II above. Internet Archive identifier institutesofchrbeve03calv, "NOT_IN_COPYRIGHT"
+    confirmed via the item's own metadata API. Completes the full Beveridge 1845 three-volume
+    set.
+- filename: calvin_geneva-catechism_waterman1815.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    The Catechism of the Church of Geneva, John Calvin, trans. Elijah Waterman (Hartford,
+    Conn.: Sheldon & Goodwin, 1815). Fetched directly (curl, raw bytes) from Internet
+    Archive, identifier catechismofchurc00calv, "possible-copyright-status":
+    "NOT_IN_COPYRIGHT" confirmed via the item's own metadata API. RIGHTS: public domain by
+    date, an 1815 publication. Raw djvu OCR of an early-19th-century small volume - denser
+    OCR noise than this batch's later editions; runs of 2+ spaces collapsed to one
+    throughout, no wording changed.
+- filename: zwingli_selected-works_jackson1901.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    Selected Works of Huldreich Zwingli (1484-1531), the Reformer of German Switzerland, ed.
+    Samuel Macauley Jackson (Philadelphia: University of Pennsylvania, 1901) - a multi-work
+    compilation. Fetched directly (curl, raw bytes) from Internet Archive, identifier
+    translationsrepr01pennuoft, "possible-copyright-status": "NOT_IN_COPYRIGHT" confirmed via
+    the item's own metadata API. RIGHTS: public domain by date, a 1901 publication.
+    CONFIRMS a dossier item flagged unconfirmed: this volume does contain The Sixty-Seven
+    Articles of Zwingli (1523) in full, directly verified this pass. Raw djvu OCR text;
+    runs of 2+ spaces collapsed to one throughout, no wording changed.
+- filename: zwingli_latin-works-correspondence-vol1_jackson1912.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    The Latin Works and the Correspondence of Huldreich Zwingli, Together with Selections
+    from His German Works, Vol. I, ed. Samuel Macauley Jackson (New York: G. P. Putnam's
+    Sons / Philadelphia: Heidelberg Press, 1912) - a multi-work compilation of early
+    treatises and letters. Fetched directly (curl, raw bytes) from Internet Archive,
+    identifier latinworkscorres01zwin, "possible-copyright-status": "NOT_IN_COPYRIGHT"
+    confirmed via the item's own metadata API. RIGHTS: public domain by date, a 1912
+    publication. Raw djvu OCR text; runs of 2+ spaces collapsed to one throughout, no
+    wording changed.
+- filename: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    A PARTIAL EXTRACT, not a full volume: Sec. 55 "The Second Helvetic Confession, A.D.
+    1566" (Bullinger) and Sec. 69 "The Heidelberg Catechism, A.D. 1563" (Ursinus/Olevianus),
+    mechanically extracted from Philip Schaff, The Creeds of Christendom, with a History and
+    Critical Notes, Vol. III: The Evangelical Protestant Creeds, with Translations (New
+    York: Harper & Brothers, 1919 printing, orig. 1877). This is the movement's own
+    floor-clearance text (ch. III Trinity, ch. XI Christology of the Second Helvetic
+    Confession) cited directly in this world's Step 0 draft. The full source volume
+    (~475,000 words, covering many creeds this world does not need - the Augsburg
+    Confession, the Belgic Confession, the Thirty-Nine Articles, the Westminster Standards,
+    and others) was deliberately NOT vendored whole; only these two sections were extracted,
+    to avoid bloating the corpus with unassigned content. Fetched directly (curl, raw bytes)
+    from Internet Archive, identifier creedschristend07schagoog, "possible-copyright-status":
+    "NOT_IN_COPYRIGHT" confirmed via the item's own metadata API - a Google Books scan, its
+    own inserted PD disclaimer page kept in the extracted text rather than stripped, per
+    this corpus's standing practice. RIGHTS: public domain by date, a 1919 publication. Raw
+    djvu OCR text; runs of 2+ spaces collapsed to one throughout, no wording changed.

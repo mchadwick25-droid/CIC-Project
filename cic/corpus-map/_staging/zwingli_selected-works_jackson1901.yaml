@@ -1,0 +1,34 @@
+# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
+# the Reformed Cities build (Atlas VI.2), per this world's own Source
+# Readiness Dossier.
+source_file: zwingli_selected-works_jackson1901.txt
+
+assignments:
+  - work: "The Sixty-Seven Articles of Zwingli (1523)"
+    author: zwingli
+    locus: "lines ~4485-4700, embedded within the Acts of the First
+      Zurich Disputation"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Zwingli's own founding doctrinal statement, presented at the First
+      Zurich Disputation, January 1523. The Source Readiness Dossier had
+      flagged this work's presence in this volume as unconfirmed; directly
+      verified this pass.
+
+  - work: "Selected Works (letter to Erasmus; the petition to the Bishop
+      of Constance on clerical marriage; the Acts of the First and Second
+      Zurich Disputations; and other shorter writings)"
+    author: zwingli
+    locus: "whole file except the Sixty-Seven Articles (see row above)"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      The volume's remaining shorter selections, kept as one collective
+      row rather than individually itemized - letters, petitions, and
+      disputation records documenting Zwingli's own early Zurich reform,
+      1522-1523.

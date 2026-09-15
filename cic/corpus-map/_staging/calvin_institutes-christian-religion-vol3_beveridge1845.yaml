@@ -1,0 +1,18 @@
+# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
+# the Reformed Cities build (Atlas VI.2), per this world's own Source
+# Readiness Dossier.
+source_file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
+
+assignments:
+  - work: "Institutes of the Christian Religion, Book IV (Of the External
+      Means or Helps by Which God Invites Us into the Society of Christ,
+      and Keeps Us in It)"
+    author: calvin
+    locus: "whole file - Book Fourth"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Book IV: the church, sacraments, and civil government - completes
+      the Beveridge 1845 three-volume Institutes.
