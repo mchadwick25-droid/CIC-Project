@@ -61,9 +61,11 @@ BANDS = {"1": {"Documented", "Widely Accepted"},
 # index — 76 spans, ~3,100 words, up to 23% of a chunk. That created a
 # MENTION-versus-USE problem (a corrected phrase survives inside the notice
 # recording it), which needed a stripper to resolve, which then had to be
-# right. `scripts/notice_strip.py` produced a HIGH finding in three of four
-# consecutive review rounds, each time inside the fix for the previous
-# round's finding. Two strippers also had to be kept in step with each other.
+# right. `scripts/notice_strip.py` produced a HIGH finding in two rounds
+# (5 and 7), each inside the fix for the previous round's finding. Two
+# strippers also had to be kept in step with each other. Round 8 then found
+# the module CORRECT under 200,000 fuzzed inputs — so this removal is about
+# where change history belongs, not about a broken tool.
 #
 # The correction history now lives in
 # `Review-Artifacts/Doc09_Correction_History.md`, per CLAUDE.md's rule that
@@ -310,7 +312,7 @@ def boundary(row):
     for c in cells:
         cc = re.sub(r"\*+", "", c)
         if cc in ("Native", "Excluded"): return cc
-    return "status not parsed"
+    return "not found in Source_Registry.md"
 
 # Round 6's MEDIUM-4: this was built from s["rows"] only, so any row routed
 # into rows_excluded -- by a negation OR by the AVAIL_CLAUSE vocabulary added
@@ -353,7 +355,8 @@ NR = len(_rounds); LATEST = _rounds[-1] if _rounds else 0
 _fixed = sorted(int(m) for m in re.findall(r"\|\s*Round (\d+) fix pass", doc))
 FIXED = _fixed[-1] if _fixed else 0
 # Round 7's COSMETIC-2: this map stopped at six, so the seventh round would
-# have printed a digit mid-sentence. Derived rather than extended by hand.
+# have printed a digit mid-sentence. Extended by hand to twelve, which is a
+# typed literal and will go stale again if this ever reaches thirteen rounds.
 _NW = {0: "No", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six",
        7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten", 11: "Eleven", 12: "Twelve"}
 w(f"**Status:** " + ("**DRAFT — not reviewed, not self-disposed.**" if not NR else

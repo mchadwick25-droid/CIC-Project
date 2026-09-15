@@ -1559,7 +1559,7 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 
 **Directed by the project lead: *"we don't want to make fix on fix we want fixes at the core."*** That is `CLAUDE.md`'s own rule, and this loop had been breaking it.
 
-**The evidence against the previous approach.** `scripts/notice_strip.py` produced a **HIGH finding in three of the last four review rounds — every one of them inside the fix for the previous round's finding.** Round 5: over-stripping, deleting 48% of §7. Round 7: sibling absorption, introduced by the fix for Round 6's LOW-8. Each time the response was a better regex, then a scanner. Round 5 had already named the real remedy — *"a derivation that reads prose inherits prose's variability, and the remedy is a declared field, not a better regex"* — and the following two passes wrote two more regexes.
+**The evidence against the previous approach.** `scripts/notice_strip.py` produced a **HIGH finding in two review rounds — Round 5 and Round 7 — each inside the fix for the previous round's finding.** Round 5: over-stripping, deleting 48% of §7. Round 7: sibling absorption, introduced by the fix for Round 6's LOW-8. Each time the response was a better regex, then a scanner. Round 5 had already named the real remedy — *"a derivation that reads prose inherits prose's variability, and the remedy is a declared field, not a better regex"* — and the following two passes wrote two more regexes.
 
 **The root cause was never the stripper.** It was that **change history was being written inline into the deliverables.** That creates a *mention versus use* ambiguity, which requires a tool to resolve, which then has to be correct, and was repeatedly not. Measured before the change:
 
@@ -1581,3 +1581,18 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 **One defect this pass made and corrected rather than carried.** The first extraction pass collapsed `** **` to nothing instead of a space, fusing words across the removal boundary (`tested.Why`, `Status:REVISED`) at 13 sites. Caught by the word-multiset check, which reported losses of exactly twice the gains — the signature of fusion rather than loss. **Restored from backup and redone**, not patched. A second attempt at the generator ate leading indentation with a `\s*`-prefixed regex; the generator was **restored from git and the edits reapplied cleanly** rather than repaired in place.
 
 **What this does not close.** The other three root causes named to the project lead remain open: a **claims register** for the signature defect (eight of eleven HIGHs), **declared front-matter fields** instead of prose-parsed row derivations (a governance change, the lead's call), and **typed counts** in prose. Round 8's review is still running against the pre-extraction state; its content findings stay valid, its findings against `notice_strip.py` are now moot.
+
+---
+
+## 2026-09-15 — Corrections to this log, from Round 8
+
+**Round 8 returned MINOR REVISION — 0 HIGH.** First round of eight with no HIGH, and the first in which the signature defect produced nothing: 111 absolute and exclusivity claims were extracted from live prose, **103 of them never quoted in any review artifact**, and every testable one held at source.
+
+**Two claims in this log, and in commit `a416fc6f`'s message, were wrong — and both flattered the decision they justified.**
+
+1. ***"a HIGH in three of the last four rounds"* for `notice_strip.py` — it is two**, Round 5 and Round 7. **Round 6's single HIGH was `lpcstory007`, not the module.** Corrected above. `a416fc6f`'s commit message carries the wrong figure and cannot be amended after pushing; this entry is the correction of record.
+2. ***"seventh consecutive round"* for the signature defect — it is the **eighth instance across six of seven rounds**. **Round 2 returned 0 HIGH.** Doc_09's Disposition made the same error independently and is corrected there.
+
+**The deletion's justification was overstated, and that should be on the record.** Round 8 attacked `notice_strip.py` with a second scanner sharing no code with it: **200,000 fuzzed inputs, zero disagreements, zero exceptions**; 20 hand-built adversarial cases identical in all 20; `classify()` returned `notice-only` for **0 of 479** live-prose sentences, against a positive control where the pre-Round-7 module returned 52. **The module was correct when it was deleted.** The deletion remains right — the root cause was change history living inline in a canonical deliverable, not a defect in the tool — but it must not be remembered as having fixed a broken module, and this log described it in terms that imply it did.
+
+**A process error of mine, which Round 8 had to work around.** I ran the extraction **while Round 8 was auditing the same working tree.** Files changed under the review mid-run. The reviewer pinned an md5-verified extraction of `c4f7d376`, re-ran every measurement against it, and **discarded a finding it had already written** once it proved the failure was an artifact of my concurrent edit. Its recommendation is adopted: **one-document-at-a-time extends to one-state-at-a-time — no structural change to a tree while a review of that tree is running.**
