@@ -1,0 +1,23 @@
+# Recovered into staging 2026-09-15. This assignment was written straight
+# into gallic-monastic-ascetic-christianity.yaml when the file was vendored
+# on 2026-09-13, with no staging file behind it, so a full merge would have
+# dropped it. Every field below is copied verbatim out of that bucket - this
+# records where the assignment already lives, it does not make a new one.
+source_file: cassian_institutes-and-contra-nestorium_petschenig1888.txt
+assignments:
+- work: Institutionum libri XII (the complete Latin Institutes, incl. Book VI, De spiritu
+    fornicationis)
+  author: cassian
+  locus: the whole edition; Book VI at the "Incipit de spiritu fornicationis... liber sextus"
+    heading through Book VII's own incipit
+  atlas_ids:
+  - gallic-monastic-ascetic-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Vendored 2026-09-13 per Source Registry row 45 (Native, Approved to Proceed via Doc_02-maintenance,
+    post-B-8/G4). Closes the acquisition side of gallic.core.gallic''s own named gap: Gibson''s
+    NPNF II.11 translation (npnf211, already corpus-mapped above) omits Institutes Book VI
+    entirely on Victorian-era grounds. Latin only; independently confirmed present (not merely
+    titled) by direct grep before vendoring. Not yet cited by any WRS record - acquisition
+    and corpus-map registration only; building lexicon/story content from this material is
+    a separate, larger decision flagged to the project lead, not made here.'

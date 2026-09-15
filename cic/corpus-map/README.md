@@ -17,7 +17,15 @@ different projections of the same data, and the tooling keeps both.
 | | shape | who writes it |
 |---|---|---|
 | `_staging/<volume>.yaml` | one file per **source volume** → many works, each naming its `atlas_ids` | the assignment thread — one worker owns one file, so parallel work cannot race |
-| `<census-id>.yaml` | one file per **Atlas entry** → the works assigned to it | **generated.** Never hand-edit; a re-merge overwrites it |
+| `<census-id>.yaml` | one file per **Atlas entry** → the works assigned to it | **generated.** Never hand-edit; edit the staging file for the source volume instead |
+
+A bucket edited by hand is **not** overwritten. Each one carries a
+`# content-digest:` of what the merge last wrote; if the contents no longer
+match it, the merge leaves that file alone, names it, and exits non-zero. It
+cannot tell which side is right, so it stops rather than guess. That guard was
+added 2026-09-15, after a full merge was found to silently revert two works
+vendored into `gallic-monastic-ascetic-christianity` and a source-fidelity
+correction in `alexandria-catechetical`.
 
 The bucket filename **is** the census movement id. That is the whole alignment
 mechanism: no lookup table, nothing to keep in sync, and integration later is
@@ -115,6 +123,8 @@ python cic/engine/corpus_map_merge.py --write-only <token>  # write+validate onl
                                                  # thread (2026-09-03); see merge()'s own docstring
 python cic/engine/corpus_map_merge.py           # full merge: write every bucket, prune orphans -
                                                  # a deliberate whole-corpus pass, not a mid-build one
+                                                 # refuses to overwrite a bucket edited by hand since
+                                                 # it was generated (--force-overwrite discards it)
 python cic/engine/corpus_map.py --coverage      # what is assigned, and what is not yet
 python cic/engine/works_registry.py --check     # validate WORKS.yaml — unique work_ids, item addresses resolve
 python cic/engine/author_ids.py --check         # validate AUTHOR-IDS.yaml — well-formed Wikidata/VIAF ids

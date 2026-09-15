@@ -1,0 +1,28 @@
+# Recovered into staging 2026-09-15, same case as the Cassian Institutes file
+# beside it: vendored 2026-09-13 directly into
+# gallic-monastic-ascetic-christianity.yaml with no staging file, and so
+# invisible to the merge that regenerates that bucket. Fields copied verbatim
+# from the bucket, including the doubled apostrophe in `locus`, which is a
+# pre-existing artifact left exactly as it stands so the regenerated bucket
+# matches the one already on disk.
+source_file: eucherius-lyon_formulae-and-instructiones_wotke1894.txt
+assignments:
+- work: Instructionum libri duo (Instructions, addressed to Salonius) and Formulae Spiritalis
+    Intelligentiae (addressed to Veranus)
+  author: eucherius-lyon
+  locus: Instructionum liber I's own praefatio ad Salonium (names Honoratus, Hilary of Arles,
+    Salvian, and Vincent of Lerins as Salonius'' teachers); Formulae's own praefatio ad Veranum;
+    the volume's appendix (a real letter from Salvian to Eucherius)
+  atlas_ids:
+  - gallic-monastic-ascetic-christianity
+  role: tradition
+  confidence: assigned
+  note: Vendored 2026-09-13 per Source Registry row 46 (Native, Approved to Proceed via Doc_02-maintenance,
+    post-B-8/G4). Two further genuine works by an already-Native author (rows 25-26 above).
+    Instructionum liber I's praefatio ad Salonium independently corroborates, in Latin for
+    the first time in this world's vendored library, the Salvian/Vincent co-teacher testimony
+    Source Registry row 43 already carries secondhand via Sanford's English translation of
+    Salvian. Formulae (exegetical glossary) is the more tangential of the two works, genre-wise.
+    Latin only; not yet cited by any WRS record - acquisition and corpus-map registration
+    only; building lexicon/story content from this material (especially the named-teacher
+    passage) is a separate, larger decision flagged to the project lead, not made here.

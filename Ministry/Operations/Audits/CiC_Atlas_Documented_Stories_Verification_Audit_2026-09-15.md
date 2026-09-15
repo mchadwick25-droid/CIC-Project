@@ -240,7 +240,7 @@ changed: they are no longer unreachable, only un-fetched. §5's conclusion was
 right about the corpus and wrong about why — the gap is acquisition, and
 acquisition is now possible.
 
-### A defect found on the way, not fixed here
+### A defect found on the way, and then fixed
 
 `cic/engine/corpus_map_merge.py` regenerates every bucket in
 `cic/corpus-map/` from `_staging/`, and the generated files' own headers tell
@@ -252,6 +252,25 @@ OG-6 correction that removed the unattested claim that Peter of Alexandria
 headed the catechetical school. Drift runs the other way too — the merge emits
 a `tertullian-s-voice.yaml` bucket that is not in the repository at all. The
 merge was run here for the one new staging file; every collateral change was
-restored to HEAD and only the two intended buckets kept. **The generator is
-not currently safe to run**, and the next thread that follows those headers
-will destroy source-fidelity corrections without being told.
+restored to HEAD and only the two intended buckets kept.
+
+**Fixed the same day, at Mark's instruction.** The root cause was an asymmetry
+in the merge's own care: the prune path removes only files carrying the
+generated header and *reports* hand-written ones rather than deleting them,
+but the write path had no matching guard, so a generated bucket someone later
+edited was rewritten without a word. Each bucket now carries a
+`# content-digest:` of what the merge last wrote. A mismatch means someone
+edited generated output — which side is right is a question only a human can
+answer — so the merge skips that bucket, names it, and exits non-zero. A
+digest rather than a field-by-field diff because staging *should* differ from
+a bucket whenever staging is the newer truth; the question is never whether
+they differ but which side moved.
+
+Measured before changing anything, across all 56 buckets: two works lost
+(gallic), three notes lost (the OG-6 corrections), one bucket unwritten
+(`tertullian-s-voice`, a valid Atlas id). All of it recovered into `_staging/`
+verbatim — copied from the buckets by script rather than retyped, down to a
+doubled apostrophe left as it stands, because a fix that rewords the content
+it is rescuing is not a fix. Drift is now zero in all three categories, and a
+full merge is idempotent: of 56 buckets rewritten, 54 changed by their digest
+line alone and the two that changed in substance did so only by addition.

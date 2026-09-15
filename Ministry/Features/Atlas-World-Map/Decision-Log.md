@@ -52,13 +52,17 @@ the first evidence that the unread 490 may be largely sound rather than
 largely suspect. That is worth knowing before anyone rewrites them, and it is
 the argument for acquisition over revision as the next move.
 
-**Found on the way, not fixed.** `cic/engine/corpus_map_merge.py` is not
-currently safe to run, though every generated bucket's own header instructs
-you to run it. It reverts work that exists only in the generated files — two
-works vendored on 2026-09-13 in the gallic bucket, and the 2026-09-09 OG-6
-correction removing an unattested claim about Peter of Alexandria — and emits
-a `tertullian-s-voice.yaml` bucket the repository does not contain. It was run
-here for one new staging file; all collateral was restored to HEAD.
+**Found on the way, then fixed on Mark's instruction.**
+`cic/engine/corpus_map_merge.py` reverted work that existed only in the
+generated files — two works vendored 2026-09-13 in the gallic bucket, and the
+2026-09-09 OG-6 correction removing an unattested claim about Peter of
+Alexandria — though every bucket's own header tells you to run it. The root
+cause was an asymmetry the script had never noticed in itself: its prune path
+refuses to delete a file it did not generate, but its write path would
+overwrite one it did not last write. Buckets now carry a content digest, and a
+mismatch stops the merge rather than resolving it — the script cannot know
+which side is right. Everything orphaned was recovered into `_staging/`
+verbatim first, so drift is zero and a full merge is now idempotent.
 
 **Still open.** Whether a story's verification state should reach a visitor,
 now that the build note has been removed from the card. Unchanged from the
