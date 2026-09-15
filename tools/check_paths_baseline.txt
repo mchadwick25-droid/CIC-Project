@@ -208,6 +208,7 @@ engine/BASELINES.md: packages/ijc/2026-08-24T00-43-35Z
 engine/BASELINES.md: packages/pahc/2026-08-24T00-43-36Z
 engine/BASELINES.md: packages/syr/2026-08-24T00-43-36Z
 records/WORLDS_REGISTRY_LOG.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
+records/WORLDS_REGISTRY_LOG.md: packages/gallic/2026-09-14T15-25-
 records/WORLDS_REGISTRY_LOG.md: records/worlds.yaml
 records/alx/doctrinal_witness/alx.dw.apostolic.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
 records/alx/doctrinal_witness/alx.dw.church-failure.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
