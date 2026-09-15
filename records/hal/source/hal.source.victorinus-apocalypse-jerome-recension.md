@@ -19,6 +19,7 @@ sources: []
 author: "Victorinus of Pettau (martyred c. 304), in the recension of Jerome"
 work: "Commentary on the Apocalypse of the Blessed John - the earliest Latin commentary on Revelation, transmitted in Jerome's revision, which removed the millenarian ending"
 edition: "Ante-Nicene Fathers vol. 7 (1886), vendored as cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml (div2 6.2)"
+kind: vendored
 rights_status: public-domain
 attribution_status: "Victorinus' work, edited by Jerome; the seam between them is disputed"
 discovery_channel: "the corpus map carries this work with role `transmission` on this entry, added 2026-08-27 when danubian-latin-christianity was minted to hold Victorinus' own voice"

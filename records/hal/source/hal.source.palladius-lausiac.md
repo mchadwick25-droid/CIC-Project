@@ -16,6 +16,7 @@ sources: []
 author: "Palladius of Galatia (c. 363/364 - c. 420s)"
 work: "Historia Lausiaca (c. 419-420), chs. 36 (Posidonius: Jerome's 'qualities of temper so disastrous', the prophecy about Paula) and 41 (Holy Women: Paula 'hindered by a certain Jerome from Dalmatia... he hindered her by his jealousy'; Eustochium at Bethlehem with 'a convent of fifty virgins') - the principal hostile independent near-contemporary witness to this world"
 edition: "trans. W.K. Lowther Clarke (SPCK, 1918), vendored as cic/texts/palladius_lausiac-history_clarke1918.txt"
+kind: vendored
 work_id: palladius-lausiac-history
 rights_status: public-domain
 attribution_status: attributed

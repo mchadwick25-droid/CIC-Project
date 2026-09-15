@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Vita Hilarionis (c. 390, Bethlehem): hagiographic life of Hilarion, presented as founder of Palestinian monasticism - ascetic romance with acknowledged legendary elements, one of the works by which this world gave Latin Christianity its own desert-hagiographic genre"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id vi.ii"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior HAL build Doc_02 section 5 (formation narrative sources); located in the vendored corpus; rights read from the file's own DC.Rights header"
