@@ -11,7 +11,7 @@ Tags:               SC, TC, RT, PV
 
 Aliases:            penance, penitential process, readmission, restoration to communion, peace, being received back
 
-Related-Terms:      the flock, the lapsed, confessor, communion, heresy, grace, the people, the one episcopate, libelli (sacrifice-certificates), libellatici / sacrificati
+Related-Terms:      the flock, the lapsed, confessor, communion, heresy, grace, the people, the one episcopate, libelli (sacrifice-certificates), libellatici / sacrificati, certificates
 
 Retrieve-When:      participant asks how someone got back in after failing; participant asks about penance, confession, or forgiveness as a process rather than a feeling; participant asks who had the authority to readmit.
 

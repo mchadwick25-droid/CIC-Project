@@ -11,7 +11,7 @@ Tags:               SC, TC, DR, RT, PV
 
 Aliases:            confessors, those who confessed under interrogation, survivors of the persecution
 
-Related-Terms:      the flock, the lapsed, reconciliation / penitential discipline, communion
+Related-Terms:      the flock, the lapsed, reconciliation / penitential discipline, communion, certificates
 
 Retrieve-When:      participant asks who the confessors were, or about martyrs versus survivors; participant asks who had authority in this world besides bishops; conversation reaches the question of whether suffering confers standing.
 

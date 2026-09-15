@@ -7,7 +7,7 @@ World-Code:         lpc
 
 Tier:               2
 
-Tags:               AS, PV
+Tags:               AS
 
 Aliases:            suffrage, acclamation, popular election, being seized for office, calling against one's will
 
@@ -53,6 +53,8 @@ No franchise and no procedure. A corporate acclamation that carries real constit
 ## Key Sources
 
 Epistle XXXIX (Registry row 1, Confidence A), directly quoted and re-verified at source. Pontius's *Life of Cyprian* (row 7) is a third, non-episcopal witness, quoted above and re-verified. Letters XXXI and CCXIII (row 11) carry Augustine's own accounts. Possidius's *Vita* (row 192) is vendored but, per Doc_02 §2 and §4, **has not been read in this build beyond one identification**, and nothing here rests on it.
+
+**Tag correction, 2026-09-15 — Round 1's H2.** An earlier version of this chunk carried **[PV]**. Doc_03 rules that out **by name**: *"it does not sit on 'suffrage,' which is a cross-phase pattern rather than a single-phase term."* The tag was wrong, contradicted this deliverable's own Cross-Build Sheet, and is removed.
 
 **Caution, carried from Doc_03 and load-bearing.** The pattern is attested through **different figures, different offices and different words** — the episcopate for Cyprian, the presbyterate for Augustine — not one recurring term. It is named as a pattern, not presented as a shared vocabulary item.
 

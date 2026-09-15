@@ -11,7 +11,7 @@ Tags:               SC, RT, DR
 
 Aliases:            fellowship, being in communion, the right of communion, standing, excommunication (as its negation)
 
-Related-Terms:      the flock, the lapsed, reconciliation / penitential discipline, confessor, heresy, preaching, catechesis, the people, bishop of bishops (negated), plenary Council, the one episcopate, schism, compel them to come in
+Related-Terms:      the flock, the lapsed, reconciliation / penitential discipline, confessor, heresy, preaching, catechesis, the people, bishop of bishops (negated), plenary Council, the one episcopate, schism, compel them to come in, certificates
 
 Retrieve-When:      participant asks what excommunication meant, or what it meant to be in or out of communion; participant asks how this world handled disagreement; participant asks whether bishops who disagreed sharply stayed in fellowship.
 

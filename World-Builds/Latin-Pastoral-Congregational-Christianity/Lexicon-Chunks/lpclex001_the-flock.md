@@ -11,7 +11,7 @@ Tags:               SC, RT, DR
 
 Aliases:            flock, shepherd, pastor, the congregation, my people, pastoral office
 
-Related-Terms:      the lapsed, reconciliation / penitential discipline, confessor, communion, preaching, catechesis, the people, suffrage, bishop of bishops (negated), the one episcopate, schism, compel them to come in
+Related-Terms:      the lapsed, reconciliation / penitential discipline, confessor, communion, preaching, catechesis, the people, suffrage, bishop of bishops (negated), the one episcopate, schism, compel them to come in, certificates
 
 Retrieve-When:      participant asks what a bishop was or did in this world; participant asks about pastoral authority, or about the relationship between a bishop and ordinary believers; participant uses shepherd or pastor language; conversation reaches the question of who a bishop answers to.
 
