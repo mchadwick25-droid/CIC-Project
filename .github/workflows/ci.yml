@@ -408,6 +408,27 @@ jobs:
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m engine.m2.cli staleness-check
 
+  m6-census-sync-check:
+    needs: changes
+    if: needs.changes.outputs.engine == 'true'
+    # The Atlas connection (Build-Blueprint.md row 8): world-census.json's
+    # registry-derivable fields must be generated from records/worlds.yaml,
+    # never hand-synced. This job fails if the committed census has drifted
+    # from what engine.m6.census_sync would produce - run `python -m
+    # engine.m6.cli sync` locally and commit the result to fix.
+    name: M6 census sync check (Atlas connection)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: engine/m1/requirements.txt
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m pytest engine/m6/tests -q
+      - run: python -m engine.m6.cli check
+
   api-tests:
     needs: changes
     if: needs.changes.outputs.engine == 'true'
