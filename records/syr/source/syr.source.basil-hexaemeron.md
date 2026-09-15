@@ -28,6 +28,7 @@ relations:
 author: "Basil of Caesarea (c. 330-379)"
 work: "The Hexaemeron, Homily II - the nine homilies on the six days of creation. Registered here for one passage only: the explanation of Genesis 1:2 that Basil credits to an unnamed Syrian, on the ground that the Syriac word is nearer the Hebrew. The volume also carries Basil's Letters and De Spiritu Sancto, which this world does not open"
 edition: "Nicene and Post-Nicene Fathers, second series, vol. 8, ed. Schaff and Wace (Edinburgh: T. & T. Clark, 1895), vendored as cic/texts/npnf208_basil-letters-select-works.xml - the Syrian passage and its editorial note at file line 16729"
+kind: vendored
 rights_status: "public-domain; NPNF2-08, 1895, long out of US copyright"
 attribution_status: "Basil for the homily; the Syrian he credits is unidentified in the text and disputed in the apparatus"
 discovery_channel: "opened 2026-08-27 by the fleet unopened-volume sweep (syr.search.unopened-volume-sweep); this volume had been on cross_world's second-hand-source list because syr.story.basil-legend rests on this passage and this world had never opened it"

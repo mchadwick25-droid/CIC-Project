@@ -18,6 +18,7 @@ work: 'De viris illustribus (Lives of Illustrious Men) - the Syriac-relevant cha
   heresiarch'' and ''Ephrem the deacon'''
 edition: trans. Ernest Cushing Richardson, NPNF series 2 vol. 3 (1892); vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
   (div v.iii)
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed; Jerome writes at one remove (he read Ephrem in Greek translation) and
   his Bardesanes chapter transmits the heresiological framing - screen applies

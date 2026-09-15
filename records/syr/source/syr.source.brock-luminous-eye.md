@@ -18,6 +18,7 @@ work: 'The Luminous Eye: The Spiritual World Vision of Saint Ephrem (1992 ed.), 
   (2013 ed.) as companion - the raza/shrara account: the symbol is bound to the truth and carries its
   hidden power, not a Platonic stand-in'
 edition: consultation-only; no edition vendored
+kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: 'verified (legacy Doc_02 SS11 closed Doc_01''s open item with two genuine quotations:
   The Luminous Eye p. 41; The Harp of the Spirit p. 17). The phrase ''poetic/symbolic rather than philosophical-categorical''

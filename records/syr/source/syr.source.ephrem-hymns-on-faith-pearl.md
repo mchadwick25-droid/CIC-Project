@@ -19,6 +19,7 @@ work: 'The Pearl: Seven Hymns on the Faith - the edition''s selection from the 8
 edition: trans. J.B. Morris (Oxford Library of the Fathers 1847), revised and edited by John Gwynn, NPNF
   series 2 vol. 13 (1898); vendored as cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml (div
   iii.vii)
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed (Hymns on Faith are securely genuine)
 discovery_channel: 'named in the approved legacy Doc_02 Source Ecology (SS2, reviewed twice, approved

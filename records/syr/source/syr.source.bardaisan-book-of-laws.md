@@ -18,6 +18,7 @@ work: The Book of the Laws of Divers Countries (Book of the Laws of Countries) -
   dialogue
 edition: trans. B.P. Pratten, ANF vol. 8 (1886); vendored as cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
   (div ix.xvi)
+kind: vendored
 rights_status: public-domain
 attribution_status: 'NAMED COMPARANDUM (Doc_01 SS5-6, the discharged Step 0 Section A task): excluded
   as a founding voice of this world; everything in the dialogue is mediated at one remove through Philip''s

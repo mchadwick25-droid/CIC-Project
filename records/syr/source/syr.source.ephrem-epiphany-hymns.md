@@ -18,6 +18,7 @@ author: attributed to Ephrem the Syrian; authenticity disputed (likely the near-
 work: Fifteen Hymns For the Feast of the Epiphany
 edition: trans. A. Edward Johnston from Lamy's text, revised and edited by John Gwynn, NPNF series 2 vol.
   13 (1898); vendored as cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml (div iii.vi)
+kind: vendored
 rights_status: public-domain
 attribution_status: 'disputed - Beck argued the Epiphany cycle is not authentically Ephrem''s: Nisibis
   in his lifetime kept a combined Nativity-Baptism observance (Jan 6), not a separate Epiphany feast,

@@ -17,6 +17,7 @@ author: Susan Ashbrook Harvey
 work: '''Spoken Words, Voiced Silence: Biblical Women in Syriac Tradition'', Journal of Early Christian
   Studies 9 (2001), with ''Revisiting the Daughters of the Covenant'', Hugoye 8.2 (2005)'
 edition: consultation-only; no edition vendored
+kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: 'verified (legacy Doc_02 SS4/SS7): no text composed by a bnat qyama woman survives
   from the period; the women''s singing is attested only through men''s texts; ordinary believers appear

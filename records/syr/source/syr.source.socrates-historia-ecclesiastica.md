@@ -17,6 +17,7 @@ author: Socrates Scholasticus (c. 380-after 439 CE)
 work: 'Ecclesiastical History - the Syriac-relevant notice: VII.8 (Propagation of Christianity among the
   Persians by Maruthas Bishop of Mesopotamia)'
 edition: trans. A.C. Zenos, NPNF series 2 vol. 2 (1890); vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed; Marutha's embassy narrative includes miracle material (the cured headache,
   the exposed fraud) told as the church remembered it
