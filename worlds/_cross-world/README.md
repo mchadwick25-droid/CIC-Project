@@ -67,10 +67,21 @@ citations (see that dossier's own §4). None of these six had anything
 vendored before this pass — the first real test of the dossier process
 on a corpus starting from zero rather than one already 82 files deep.
 
+**20 as of 2026-09-15** — plus `palestinian-ascetic-monasticism-early`
+(I.34), written after the Atlas prose thread (working Era 2) noticed the
+uneven sourcing depth across candidates and asked what the library needs
+to support faithful, rigorous prose. Found a real, previously-unassigned
+cross-link (Sozomen's Ecclesiastical History, two loci, directly
+host-verified — see that dossier's own §2), one lead re-checked and found
+currently inaccessible rather than confirmed (Egeria's Pilgrimage — do not
+re-cite the Jerusalem dossier's own 2026-09-13 "confirmed" status without
+re-checking access first), and one census-note imprecision flagged rather
+than silently resolved (Chrysostom's ascetic works, Antiochene not
+Palestinian).
+
 **Backlog — not yet written:** `greek-apologists-second-century` (I.35) and
 `latin-apologists` (I.43), both Tier 1 with a Step 0 already on file but no
-dossier yet; `palestinian-ascetic-monasticism-early` (I.34), not yet
-researched at all. `donatism` (I.4) and `gallic-monastic-ascetic-christianity`
+dossier yet. `donatism` (I.4) and `gallic-monastic-ascetic-christianity`
 (I.27) are far enough into their own builds that a retroactive dossier is
 lower priority than closing the backlog above.
 
