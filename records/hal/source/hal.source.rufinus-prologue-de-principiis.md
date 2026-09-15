@@ -16,6 +16,7 @@ sources: []
 author: "Rufinus of Concordia (c. 345-411), translator, writing the preface that started the quarrel"
 work: "Prologue to the translation of Origen's De Principiis (c. 398) - in which Rufinus names Jerome's own preface praising Origen, notes that Jerome promised Latin translations of him and did not deliver, and states the editorial policy of smoothing passages he judged corrupted by heretics"
 edition: "Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml (Prologue of Rufinus at line 22273)"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "assigned to this world by the cross-world corpus assignment; anf04 was one of two volumes this world had never opened"
