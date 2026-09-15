@@ -1596,3 +1596,26 @@ Doc_03's own Status line and Disposition section are updated to match. Per `cic-
 **The deletion's justification was overstated, and that should be on the record.** Round 8 attacked `notice_strip.py` with a second scanner sharing no code with it: **200,000 fuzzed inputs, zero disagreements, zero exceptions**; 20 hand-built adversarial cases identical in all 20; `classify()` returned `notice-only` for **0 of 479** live-prose sentences, against a positive control where the pre-Round-7 module returned 52. **The module was correct when it was deleted.** The deletion remains right — the root cause was change history living inline in a canonical deliverable, not a defect in the tool — but it must not be remembered as having fixed a broken module, and this log described it in terms that imply it did.
 
 **A process error of mine, which Round 8 had to work around.** I ran the extraction **while Round 8 was auditing the same working tree.** Files changed under the review mid-run. The reviewer pinned an md5-verified extraction of `c4f7d376`, re-ran every measurement against it, and **discarded a finding it had already written** once it proved the failure was an artifact of my concurrent edit. Its recommendation is adopted: **one-document-at-a-time extends to one-state-at-a-time — no structural change to a tree while a review of that tree is running.**
+
+---
+
+## 2026-09-15 — Claims register: a control for the signature defect
+
+**Second of the four root causes**, after the notice extraction. Directed by the project lead.
+
+**The problem, stated by the numbers.** Eight of the eleven HIGH findings raised against Doc_09 across eight review rounds are **one defect: a silence asserted about a source, which the source refutes.** Round 7's instance had stood **in the original draft** and survived six rounds, because no reviewer happened to quote that sentence. Round 8 found no new instance — but only because it extracted 111 such claims by hand and tested them, work nothing obliged it to do and no earlier round had done. **The class was being caught by whichever reviewer happened to look, which is not a control.**
+
+**What was built.** `scripts/check_claims.py` **derives** every corpus-absence claim from the deliverables — any sentence asserting an absence, silence or exclusivity about the record — and checks it against `Doc09_Claims_Register.md`. It **halts** on either failure mode:
+
+- a claim in the deliverables with **no register entry** — the defect's only entry point;
+- a register entry describing text that **no longer exists** — a stale register, which is how every other typed record in this build has rotted.
+
+Both forced from fresh copies: inserting *"No source in this corpus records what became of the daughter"* halts; rewording an existing claim from *"No source says"* to *"No text says"* also halts, because **ids are derived from the claim's own normalised text, so a reworded absence is a new assertion** and resets to unregistered.
+
+**Current state: 141 claims derived, 141 registered, 6 carrying a recorded check.**
+
+**What this does not do, stated plainly so no later round mistakes it.** It does **not** establish that any claim is true. Most are not mechanically decidable — *"no ordinary believer's voice survives"* is a judgement about a corpus, not a string search. **Registration is the control; verification is separate work.** `UNVERIFIED` against 135 claims is not a defect and not a pass — it is the honest state of claims nobody has yet tested, and it is the first time that number has been visible at all. Before this, the count of untested absence claims in this document was unknown, which is precisely why one of them survived six rounds.
+
+**The six marked VERIFIED** carry the check that established them, all run in this session: Prosper row 203 read in body text; Possidius *Vita* XIX–XXVII headings read at source; Registry row 27 against Doc_02 §1; *Ep.* XV, *Ep.* XX and *Ep.* LXVII read note-stripped, with works resolved by `div3 title=` rather than position.
+
+**Remaining root causes:** declared front-matter fields instead of prose-parsed row derivations (**a schema change to the L4 template — the project lead's call**), and typed counts in prose.
