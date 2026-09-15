@@ -16,6 +16,7 @@ sources: []
 author: "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors"
 work: "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)"
 edition: "The Work of St. Optatus the African, Bishop of Milevis, Against the Donatists, London: Longmans, Green & Co., 1917, vendored as cic/texts/optatus_against-the-donatists.txt; Appendix I opens at line 5467, Appendix III at 7084, Appendix X at 7193"
+kind: vendored
 rights_status: public-domain
 attribution_status: "documents attributed to their named senders; the TRANSLATOR is attributed to O. R. Vassall-Phillips on external bibliographic grounds only - the file's own front matter says so explicitly and says the file's own text does not name a translator"
 discovery_channel: "found by the cross-world corpus assignment, which assigned this dossier to this world and observed no record here had opened the file"

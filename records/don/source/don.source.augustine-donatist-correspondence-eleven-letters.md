@@ -19,6 +19,7 @@ work: 'Augustine''s Donatist correspondence: Letters XXIII, XLIII, XLIV, LIII, L
   LXXXIX, XCIII, CXXXIX, CLXXIII (11 letters)'
 edition: 'Nicene and Post-Nicene Fathers, 1st series, vol. 1 (Augustine: Confessions, Letters), ed. Schaff,
   vendored as cic/texts/npnf101_augustine-confessions-letters.xml'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
   directly checked the vendored file's own provenance header for every file cited below (grep for 'public
   domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC

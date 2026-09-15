@@ -17,6 +17,7 @@ relations: []
 author: Anna Silvas
 work: The Asketikon of St Basil the Great; Macrina the Younger
 edition: In-copyright modern scholarship, not vendored
+kind: unvendored
 rights_status: in-copyright modern scholarship or translation; deliberately excluded from the vendoring
   manifest on rights grounds, not merely unacquired (Source Registry Part F note) -- not independently
   verified this session.

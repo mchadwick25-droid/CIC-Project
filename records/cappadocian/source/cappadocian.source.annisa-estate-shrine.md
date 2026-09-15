@@ -18,6 +18,7 @@ author: No independent author -- attested via Gregory of Nyssa's Life of St. Mac
 work: The family estate-shrine at Annisa (Vita Macrinae's own description -- text-attested archaeology,
   not excavated certainty)
 edition: Within cappadocian.source.gregory-nyssa-life-of-macrina (row 48, verified-direct this session)
+kind: unvendored
 rights_status: public-domain; vendored in cic/texts/ and independently verified (identity, completeness,
   provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: attributed

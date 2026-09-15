@@ -26,6 +26,7 @@ edition: 'The modern critical editions -- Serge Lancel (ed.), Actes de la Confer
   anno 411, CCSL 149A (Turnhout: Brepols, 1974) -- are in copyright and NOT vendored. The public-domain
   route actually held is the Migne Patrologia Latina Tomus XI printing, vendored as cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
   (Registry row 55).'
+kind: vendored
 rights_status: in-copyright; confirmed unavailable in the public domain and recorded not requested (Source_Acquisition_Manifest.md
   SS2). Not vendored, and not a vendoring candidate -- committing it would be redistribution, per cic/texts/README.md's
   own rule. Consultable through a library without being vendored, which is a different thing from unusable.

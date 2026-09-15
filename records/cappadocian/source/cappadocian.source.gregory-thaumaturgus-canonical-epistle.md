@@ -18,6 +18,7 @@ author: Gregory Thaumaturgus (3rd century)
 work: Gregory Thaumaturgus, the Canonical Epistle
 edition: Ante-Nicene Fathers, vol. 6 (Gregory Thaumaturgus, Dionysius, Julius Africanus, Methodius, Arnobius),
   ed. Roberts & Donaldson, vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
   in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: attributed

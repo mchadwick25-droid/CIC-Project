@@ -21,6 +21,7 @@ author: Gregory the Great; ed. Nicola Turchi
 work: 'Bibliotheca Sanctorum Patrum et Scriptorum Ecclesiasticorum, Series VII, Voluminis I Pars I: Sancti
   Gregorii Magni Epistolae Selectae (Rome, 1907)'
 edition: cic/texts/gregory-great_epistolae-selectae_turchi1907.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
   directly checked the vendored file's own provenance header for every file cited below (grep for 'public
   domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC

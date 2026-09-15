@@ -23,6 +23,7 @@ work: 'Donatist Martyr Stories: The Church in Conflict in Roman North Africa, Tr
   24 (Liverpool University Press, 1996)'
 edition: Liverpool University Press, 1996 -- in copyright, recorded not requested (Source_Acquisition_Manifest.md
   SS2). Not vendored.
+kind: unvendored
 rights_status: in-copyright; confirmed unavailable in the public domain and recorded not requested (Source_Acquisition_Manifest.md
   SS2). Not vendored, and not a vendoring candidate -- committing it would be redistribution, per cic/texts/README.md's
   own rule. Consultable through a library without being vendored, which is a different thing from unusable.

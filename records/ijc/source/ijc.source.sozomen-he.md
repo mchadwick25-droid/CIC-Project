@@ -16,6 +16,7 @@ sources: []
 author: "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies"
 work: "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)"
 edition: "trans. Chester D. Hartranft, Nicene and Post-Nicene Fathers series 2 vol. 2 (1890), vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf202-socrates-sozomen); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"

@@ -21,6 +21,7 @@ author: The Council of Gangra (collective conciliar acts, anonymous)
 work: The Gangra canons (twenty canons censuring 'those around Eustathius')
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 14 (The Seven Ecumenical Councils), ed. Schaff,
   vendored as cic/texts/npnf214_seven-ecumenical-councils.xml
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
   in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: attributed to the council collectively; date genuinely Contested across a wide range

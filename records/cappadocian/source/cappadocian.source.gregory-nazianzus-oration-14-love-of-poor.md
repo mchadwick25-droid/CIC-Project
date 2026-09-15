@@ -24,6 +24,7 @@ edition: 'NOT within the vendored npnf207 edition -- corrected 2026-09-08, Round
   this record''s own false "Within npnf207" claim: only a single mention inside the Prolegomena''s
   own catalogue of Gregory''s works exists (`iii.ii.ii-p7`), not the oration''s own text. A named,
   currently unfilled acquisition gap (Source_Registry.md row 32).'
+kind: unvendored
 rights_status: not vendored -- no rights basis to state, per the edition field above.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 32; corrected 2026-09-08, Round 4

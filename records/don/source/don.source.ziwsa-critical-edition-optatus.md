@@ -18,6 +18,7 @@ author: Karl Ziwsa (ed.)
 work: S. Optati Milevitani libri VII, Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL) 26 (Prague/Vienna/Leipzig,
   1893)
 edition: cic/texts/optatus_libri-vii-critical_ziwsa1893.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
   directly checked the vendored file's own provenance header for every file cited below (grep for 'public
   domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC
