@@ -26,7 +26,7 @@ export interface ConversationTurn {
 // overlaps the 'participant' literal structurally and defeats TS's usual
 // discriminated-union narrowing. `kind`/`citations` are each unique to one
 // branch, so checking for those instead narrows cleanly.
-function toTurn(entry: TranscriptEntry): ConversationTurn {
+export function toTurn(entry: TranscriptEntry): ConversationTurn {
   if ('kind' in entry) return { speaker: 'facilitator', text: entry.text, kind: entry.kind };
   if ('citations' in entry) {
     return { speaker: entry.speaker, text: entry.text, citations: entry.citations, figuresUsed: entry.figures_used, glosses: entry.glosses };

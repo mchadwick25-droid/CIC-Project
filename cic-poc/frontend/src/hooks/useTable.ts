@@ -10,16 +10,8 @@
 import { useCallback, useRef, useState } from 'react';
 import { ApiRequestError, continueRound, createTableSession, getTranscript, sendTableMessage } from '../lib/api';
 import { clearStored, readStored, writeStored } from '../lib/sessionStore';
-import type { FacilitatorTurn, TableMessageResponse, TranscriptEntry, VoiceTurn } from '../types/conversation';
-import type { ConversationTurn } from './useConversation';
-
-function toTurn(entry: TranscriptEntry): ConversationTurn {
-  if ('kind' in entry) return { speaker: 'facilitator', text: entry.text, kind: entry.kind };
-  if ('citations' in entry) {
-    return { speaker: entry.speaker, text: entry.text, citations: entry.citations, figuresUsed: entry.figures_used, glosses: entry.glosses };
-  }
-  return { speaker: 'participant', text: entry.text };
-}
+import type { FacilitatorTurn, TableMessageResponse, VoiceTurn } from '../types/conversation';
+import { toTurn, type ConversationTurn } from './useConversation';
 
 function turnsFromAdvance(advance: TableMessageResponse): ConversationTurn[] {
   const appended: ConversationTurn[] = [];
