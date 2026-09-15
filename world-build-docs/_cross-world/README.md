@@ -31,6 +31,17 @@ has its own set of documents.
 | `CORPUS-PARTITION-BRIEF.md` | **Superseded** by `BRIEF-corpus-assignment-thread.md`. Kept for its reasoning, not as instructions — it predates Mark's ruling that the map lives outside the built worlds, and the `corpus_review` record type it describes no longer exists. |
 | `PLAN-texts-store-scaling.md` | git-lfs vs. a separate `cic-texts` repository vs. doing nothing, for when `cic/texts/` outgrows plain git — the reasoning, the trigger (700 MB), and what has to change first. Hand-written, planning only, nothing executed yet. |
 
+## The source readiness gate
+
+Standing rule since 2026-09-15: no world's Doc_02 may start without one of
+these existing for it first.
+
+| file | what it is |
+|---|---|
+| `SOURCE-READINESS.md` | The gate itself — why it exists, what a dossier must cover, who writes one and when. Start here. |
+| `dossiers/_TEMPLATE_Source_Readiness_Dossier.md` | Copy this per world; don't restructure it. |
+| `dossiers/<world-slug>_Source_Readiness_Dossier.md` | One per world, written before that world's build starts. Hand-written, not generated. |
+
 ## Regenerating
 
 Five of these are generated from the live tree and should never be
