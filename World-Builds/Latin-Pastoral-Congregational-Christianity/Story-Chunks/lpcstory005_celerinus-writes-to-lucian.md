@@ -14,11 +14,13 @@ Do-Not-Retrieve-When: Early in an encounter, before the participant has any sens
 
 Celerinus is a confessor — he has been imprisoned and has not denied Christ — and he is writing to Lucian, another confessor, in prison. He does not write about himself.
 
-"Know, nevertheless, that I am placed in the midst of a great tribulation," he begins, and the tribulation is not his own captivity. His sister has sacrificed. "Grieve with me at the death of my sister, who in this time of devastation has fallen from Christ; for she has sacrificed and provoked our Lord, as seems manifest to us." He has been keeping vigil over it: "in this day of paschal rejoicing, weeping day and night, have spent the days in tears, in sackcloth, and ashes, and I am still spending them so to this day."
+"Know, nevertheless, that I am placed in the midst of a great tribulation," he begins, and the tribulation is not his own captivity. His sister has sacrificed. "I ask that you will grant my desire, and that you will grieve with me at the (spiritual) death of my sister, who in this time of devastation has fallen from Christ; for she has sacrificed and provoked our Lord, as seems manifest to us."
+
+**The parenthesis is the translator's, and it is the most important word in the sentence.** The sister is not dead. She is alive, in Carthage, and what Celerinus is grieving is a death he believes has happened to her soul — which is precisely why the letter has a request in it. A dead sister could not be restored to communion. He has been keeping vigil over it: "in this day of paschal rejoicing, weeping day and night, have spent the days in tears, in sackcloth, and ashes, and I am still spending them so to this day."
 
 He asks Lucian to intervene — and he asks for two other women as well, Numeria and Candida, whom Lucian also knows. He makes the case for them: they have repented, and there are works to point to, kindnesses done to exiled clergy who came from Lucian's own church. "Because they have us as brethren, we ought to keep watch," Celerinus writes, and he believes Christ "will have mercy upon them."
 
-Lucian's reply comes back from the prison, and it grants what was asked. Before it does, it says what the prison has been like: they were "to be killed by death by hunger and thirst, and were shut up in two cells, that so they might weaken us by hunger and thirst," and the fire of the torture "was so intolerable that nobody could bear it." Then: "But now we have attained the brightness itself."
+Lucian's reply comes back from the prison, and it grants what was asked. Before it does, it says what the prison has been like: by the emperor's command they "were ordered to be put to death by hunger and thirst, and were shut up in two cells, that so they might weaken us by hunger and thirst," and the fire of the torture "was so intolerable that nobody could bear it." Then: "But now we have attained the brightness itself."
 
 He greets Numeria and Candida, and appends the names of the martyrs on whose authority he answers — "Bassus in the dungeon of the perjured, Mappalicus at the torture, Fortunio in prison, Paulus after torture, Fortunata, Victorinus, Victor, Herennius, Julia, Martial, and Aristo."
 
@@ -42,7 +44,9 @@ He signs off exhausted. He greets Saturus and his family, Bassianus, the clergy,
 
 **An attribution discipline, recorded because this build has been caught by it.** These letters are *in* Cyprian's corpus and are *not by* Cyprian. Doc_02 §2 warns that the corpus "embeds letters by others (Cornelius, the Roman clergy, Firmilian, the confessors) under Cyprian's own name," and Doc_08's Round 2 found this build quoting one such letter as Cyprian's. **The Source field above names the actual authors.**
 
-**One phrase deliberately not quoted.** The ANF translation renders Lucian's grant of peace with a parenthesis — "who (shall have peace)" — and attaches an editorial note. A parenthesis in this translation frequently marks a translator's supply. **The chunk paraphrases the grant rather than quoting that clause**, pending a check against the Latin at rows 191/194. Carried as an open item in Doc_09 §8.
+**Two quotation disciplines, one of them recorded because this chunk got it wrong.** First, the ANF translation renders Lucian's grant of peace with a parenthesis — "who (shall have peace)" — and attaches an editorial note; a parenthesis in this translation frequently marks a translator's supply, so **the chunk paraphrases the grant rather than quoting that clause**, pending a check against the Latin at rows 191/194.
+
+**Second, and this one is a correction. [CORRECTED, 2026-09-15 — Round 1's H2.]** An earlier version of this chunk **altered both of its quotations**. It deleted the "(spiritual)" parenthesis from Celerinus's sentence without an ellipsis — **removing the single word that establishes the sister is alive** — while stating the parenthesis discipline two sections later; and it printed Lucian as saying the confessors were *"to be killed by death by hunger and thirst,"* **a phrase that occurs zero times in this corpus.** The source reads *"were ordered to be put to death by hunger and thirst."* The error came from reconstructing the front of a sentence off a truncated display rather than re-reading the line. **Both are restored above and verified against the marked-up XML.**
 
 ---
 

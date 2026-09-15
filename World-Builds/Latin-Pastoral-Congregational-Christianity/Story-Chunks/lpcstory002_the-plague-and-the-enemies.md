@@ -20,7 +20,13 @@ Against that, Pontius sets what his bishop did, which was to call the congregati
 
 Pontius gives his bishop's own words for the conclusion: "It becomes us to answer to our birth; and it is not fitting that those who are evidently born of God should be degenerate, but rather that the propagation of a good Father should be proved in His offspring by the emulation of His goodness."
 
-**Pontius does not say what the congregation did next.** He moves on.
+**And Pontius does say what followed.** He begins the next section by declining to list more examples — "I omit many other matters, and, indeed, many important ones" — and then gives the result anyway. "Thus the ministrations are constantly distributed according to the quality of the men and their degrees." The poor, who had no money to give, gave labour: "Many who, by the straitness of poverty, were unable to manifest the kindness of wealth, manifested more than wealth, making up by their own labour a service dearer than all riches."
+
+And then the clause that answers the sermon directly: "Thus what is good was done in the liberality of overflowing works **to all men, not to those only who are of the household of faith.**"
+
+Pontius reaches for a comparison and finds it insufficient. "Something more was done than is recorded of the incomparable benevolence of Tobias," he writes — Tobias, who buried the dead of "his own race only."
+
+**[CORRECTED, 2026-09-15 — Round 1's H1:** an earlier version of this chunk ended here with *"Pontius does not say what the congregation did next. He moves on."* **He does say, in §10, and the sentence quoted above is the direct answer to the address.** The chunk rested on §9 alone, and **no upstream document in this build had ever cited §10.** The error is the shape this build keeps producing: reading to a chosen boundary, then asserting a negative about what lies past it.**]**
 
 ---
 
@@ -40,7 +46,9 @@ Pontius gives his bishop's own words for the conclusion: "It becomes us to answe
 
 **The confidence is stepped down one band for a reason this chunk states rather than hides.** The *content* of the address reaches us only through Pontius, who is reconstructing a sermon he heard, in a work written to praise the man who preached it. The substance is consistent with Cyprian's own treatises, which is why this is not Tier 3 — but a reported speech inside a biography of praise is not the same evidentiary object as a letter in the man's own hand, and the band reflects that.
 
-**Not Tier 3.** The account carries none of the hagiographic conventions Delehaye catalogues and `Doc_02` §4 flags: no miracle, no typological patterning, no vindication. It is a bishop giving a difficult instruction to frightened people. **The absence of the genre's own machinery, in a work that uses that machinery elsewhere (`lpcstory006`), is itself part of the tier argument.**
+**Not Tier 3, and the warrant is narrower than an earlier version of this chunk claimed.** The account carries **no miracle and no providential intervention**, and the death-as-completion pattern that makes `lpcstory006` Tier 3 is absent because nobody dies here. **It does carry a typology**: Pontius measures the congregation's response against Tobias and finds Tobias exceeded. **[CORRECTED, 2026-09-15 — Round 1's H1:** this section previously claimed the account carries *"no typological patterning"*, which is false — the Tobias comparison stands in §10, the section the chunk had not read.**]**
+
+**Why the tier holds anyway, stated as an argument rather than an absence.** CF V7.4 names three markers of hagiographic narrative: *"the idealized portrait of a saint's life, the miracle sequence, the death as completion of a formed life."* **A scriptural comparison inside a moral exhortation is none of the three.** Pontius is doing what a preacher does — reaching for a biblical measure — not shaping events to fit a pattern. The contrast with `lpcstory006` is exact: there, the typology is applied to *what physically happened* (a crowd in trees, narrated as Zacchaeus), and the reader has no way to separate the event from the pattern. Here it is applied to *how much was given*, and the underlying fact — that relief was extended beyond the congregation — is independently the kind of claim Cyprian's own treatises make. **The tier rests on that distinction, not on the absence of all convention.**
 
 ---
 
@@ -48,4 +56,4 @@ Pontius gives his bishop's own words for the conclusion: "It becomes us to answe
 
 The Representative may draw on this as remembered history, **with Pontius named** and the reported-speech character acknowledged where it matters: this is what the bishop's deacon remembered him saying. The Representative should not present the address as a verbatim transcript.
 
-**Additional guidance.** Two cautions. First, **the story has no ending** — Pontius does not record whether the congregation obeyed, and the Representative must not supply one; the honest form is "we are not told what they did." Second, this story is easily flattened into a modern account of Christian charity during epidemics. The specific thing Cyprian is reported to have asked for is narrower and harder: not care for the sick generally, but care for *the people persecuting them*. If a participant asks whether that happened, the answer is that this world's own record does not say.
+**Additional guidance.** Two cautions. First, **the story does have an ending and it is Pontius's, not this build's** — he records that relief went to all comers, and the Representative may say so, **with the source's own character named**: this is the bishop's deacon reporting that the bishop's instruction was obeyed, in a work written in his praise. That is not the same evidentiary object as an outside witness, and the Representative should not present it as one. **[CORRECTED, 2026-09-15 — Round 1's H1:** this passage previously instructed the Representative to say *"we are not told what they did."***]** Second, this story is easily flattened into a modern account of Christian charity during epidemics. The specific thing Cyprian is reported to have asked for is narrower and harder: not care for the sick generally, but care for *the people persecuting them*. If a participant asks whether that happened, the answer is that this world's own record does not say.

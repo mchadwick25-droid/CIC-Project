@@ -7,7 +7,7 @@
 
 **What re-running the generator re-verifies, stated exactly.** **Derived, and re-checked on every run:** every table below, every count, the tier tallies, the confidence-band check, the source cross-reference against `Source_Registry.md`, and the agreement between each chunk and Doc_09 §3's own table. **Hard-coded prose, re-verified by nothing:** the explanatory paragraphs, including this one.
 
-**Guards that halt the run rather than emitting a wrong index.** A chunk missing a front-matter field or a required section; **a chunk declaring a Tier 5**; a tier/confidence pair outside the band CF V7.4 assigns that tier; a Tier 4 chunk with no Source Identification section; a story whose Doc_09 §3 tier disagrees with its own chunk; a story sourced to a row that is not **Native** in the Registry; an Absent-Stories section short enough to be a placeholder; and a correction notice that swallows another's opener. **These are the eight lessons `gen_force_index.py` cost eight review rounds to learn, applied here from the first draft rather than after the first defect.**
+**Guards that halt the run rather than emitting a wrong index.** A chunk missing a front-matter field or a required section; **a chunk declaring a Tier 5**; a tier/confidence pair outside the band CF V7.4 assigns that tier; a Tier 4 chunk with no Source Identification section; a story whose Doc_09 §3 tier disagrees with its own chunk; a story sourced to a row that is not **Native** in the Registry; an Absent-Stories section short enough to be a placeholder; and a correction notice that swallows another's opener. **[CORRECTED, 2026-09-15 — Round 1's brief-correction 1:** this said *nine* guards and called them *the eight lessons*; **the script has thirteen halting sites and Round 1 forced all of them.** The miscount went from this prose into the Decision Log and then into Round 1's own brief without being re-derived — the same shape `gen_force_index.py` produced three rounds running. Counted here with a grep over the script rather than from memory.**]**
 
 ---
 
@@ -69,10 +69,12 @@
 | `lpcstory003` | 1, 191, 194 | row 1: **Native**, row 191: **Native**, row 194: **Native** |
 | `lpcstory004` | 1 | row 1: **Native** |
 | `lpcstory005` | 1 | row 1: **Native** |
-| `lpcstory006` | 7, 41, 194 | row 7: **Native**, row 41: **Native**, row 194: **Native** |
+| `lpcstory006` | 7 · *named but explicitly not used: 41, 194* | row 7: **Native** |
 | `lpcstory007` | 192 | row 192: **Native** |
 
-**Every cited row is Native. No story draws on an Excluded row, and none draws on a neighbouring world's evidence base.** The check is mechanical: the row number is read from each chunk's own Source field and its Boundary Status read from the Registry table. **A story sourced to an Excluded row halts the generator** — the nearest live case is row 28, *The Passion of the Scillitan Martyrs*, marked **Excluded, Named Comparandum**, which Doc_09 §6 records as considered and not built.
+**Every row a story actually draws on is Native. No story draws on an Excluded row, and none draws on a neighbouring world's evidence base.** The check is mechanical: the row number is read from each chunk's own Source field and its Boundary Status read from the Registry table. **A story sourced to an Excluded row halts the generator** — the nearest live case is row 28, *The Passion of the Scillitan Martyrs*, marked **Excluded, Named Comparandum**, which Doc_09 §6 records as considered and not built.
+
+**Rows a chunk names in order to say it did *not* use them are listed separately and excluded from the check. [CORRECTED, 2026-09-15 — Round 1's M4(c).]** The derivation was **polarity-blind**: `lpcstory006` names rows 41 and 194 inside the clause *"has not been read in this build"*, and the index credited it with them and then asserted they were Native — **vouching for a source the chunk says it never opened.** They are shown rather than silently dropped, because a silent exclusion is the same defect inverted.
 
 ---
 

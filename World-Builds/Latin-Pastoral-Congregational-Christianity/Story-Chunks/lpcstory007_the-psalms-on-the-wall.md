@@ -3,7 +3,7 @@ Story-Title:    The Psalms on the Wall
 World-Code:     lpc
 Tier:           1
 Confidence:     Documented
-Source:         Possidius, bishop of Calama, *Sancti Augustini Vita* XXXI, ed. and trans. Herbert T. Weiskotten (Princeton, 1919) — `Source_Registry.md` row 192, a genuinely bilingual edition with a complete English translation, vendored at `cic/texts/possidius_vita-augustini_weiskotten1919.txt`.
+Source:         Possidius, bishop of Calama, *Sancti Augustini Vita* **XXVIII–XXXI** — the death and burial sequence, of which XXXI carries the penitential psalms, the will and the library instruction, while the siege and the last preaching are established in the preceding chapters — ed. and trans. Herbert T. Weiskotten (Princeton, 1919). **[CORRECTED, 2026-09-15 — Round 1's M5:** cited as XXXI alone.**]** — `Source_Registry.md` row 192, a genuinely bilingual edition with a complete English translation, vendored at `cic/texts/possidius_vita-augustini_weiskotten1919.txt`.
 Retrieve-When:  Participant asks whether the people who taught repentance practised it; participant raises dying, last illness, or preparing for death; participant asks what happened at the end of this world; conversation reaches penitential discipline (G2) or the pastoral office (G1); Representative needs the second phase's central formation image.
 Do-Not-Retrieve-When: The participant is asking about Augustine's theology of grace, which this story does not carry. Not immediately after `lpcstory006` — two deathbeds in succession flattens both.
 ```
