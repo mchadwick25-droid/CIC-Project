@@ -1,5 +1,10 @@
 # Library Access Gate — D3 (convergent): the Compiled Shelf
 
+**FROZEN — Mark, 2026-09-15 ("Freeze it.").** This is the converged design.
+A change to anything below is now a **change order**, named and reasoned
+(`Decision-Log.md`), never a quiet edit — the same discipline Website V2's
+own post-freeze changes followed. D4 (the build, §7) proceeds from here.
+
 **Sandbox artifact, 2026-09-15. Phase: D3, convergent — for Mark's freeze.**
 One design, not a menu. It synthesizes D1's five directions, D2's struggle
 findings, the two Q7 measurements and the nine Decision-Log rulings (entries

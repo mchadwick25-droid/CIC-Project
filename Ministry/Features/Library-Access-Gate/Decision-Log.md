@@ -234,3 +234,18 @@ Numeric corrections: `emic-vendored-only` 152 → 166 (RF-2);
 consequence (RF-7) is now stated, then resolved by R-4. RF-16 (the Q4
 tightening) stays flagged for a one-line confirmation at freeze rather
 than silently inherited. Ready for Mark's actual freeze word.
+
+## 19. D3 frozen (2026-09-15)
+
+Mark: **"Freeze it."** — the literal convergence trigger (`CLAUDE.md`,
+"Convergence signal and default actions"). `D3-Converged-Design.md`
+moved out of `Sandbox/` to the workstream's top level and marked
+FROZEN, mirroring Website V2's own D3 freeze exactly. This includes
+RF-16 as written (§5, §8 item 11) — "Freeze it" with no further
+comment, in direct reply to that flagged item, is taken as Mark's
+one-line confirmation of it, not a deferral. From here, any change to
+the design is a **change order**, named and reasoned here, never a
+quiet edit — the same rule Website V2's own post-freeze changes
+followed. D4 (the ten build increments, design §7) is next, under auto
+mode: execute without asking permission step by step, since the plan
+itself is what just converged.

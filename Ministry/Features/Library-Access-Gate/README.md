@@ -48,6 +48,16 @@ picks → D3 **CONVERGE** (frozen design doc) → D4 **BUILD** (increments,
 each read by Mark before merge — same discipline as every other build
 this session, never self-merged).
 
+**Status (2026-09-15): D0–D3 complete. Frozen.** The converged design
+is `D3-Converged-Design.md` (moved out of `Sandbox/` on freeze, per
+Website V2's own pattern — `Sandbox/` stays the divergent/struggle
+workshop, the frozen deliverable lives at the workstream's top level).
+Full history — D1's five directions, D2's adversarial review, both Q7
+measurements, the independent freeze check, and all nine-plus-four
+rulings that produced this design — stays in `Sandbox/` and
+`Decision-Log.md`. D4 (the ten build increments, §7 of the design doc)
+is next.
+
 ## Model routing (Mark, 2026-09-15)
 
 Sonnet coordinates, keeps the ledger, and carries the converged design
