@@ -19,6 +19,7 @@ relations:
 author: "Sozomen (Salamanes Hermeias Sozomenos, c. 400-c. 450 CE) - lawyer-historian, Constantinople; raised near Gaza among monastic circles but never an Egyptian desert participant"
 work: "Historia Ecclesiastica (c. 440s), used here ONLY for its Egyptian-monasticism material: I.12-14 (monasticism's origins, Antony, the philosophy-of-monasticism excursus), III.14 (the long census of Egyptian holy men including Pachomius, with a summary of the Pachomian rule and federation), VI.28-31 (the next desert generation); largely dependent on Socrates, the monastic literary tradition, and oral report - a compiler's corroboration, not independent testimony"
 edition: "trans. Chester D. Hartranft (in NPNF series 2 vol. 2, 1890), vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml (III.14 division at file line 31645; Pachomius rule summary from line 31705)"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "surfaced during this build's step-2 corpus survey (2026-08-21) as a vendorable witness for Pachomian rule content at one remove; volume supplied with the CCEL corpus (Mark, 2026-08-15-18); rights read from the file's own DC.Rights header"

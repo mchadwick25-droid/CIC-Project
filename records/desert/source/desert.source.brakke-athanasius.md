@@ -19,6 +19,7 @@ relations:
 author: "David Brakke"
 work: "Athanasius and the Politics of Asceticism (Oxford: Clarendon Press, 1995; reissued as Athanasius and Asceticism, Johns Hopkins University Press, 1998 - only the title changed between printings). The standing critical treatment of the Vita Antonii as a theologically and politically motivated literary construction serving Athanasius's anti-Arian, pro-episcopal program - a live mainstream position, not fringe; the reason this corpus treats the Vita's incident-level claims as the tradition's own telling"
 edition: "Copyrighted, consult-only - research input only; contributions enter as sourced paraphrase at honest confidence, never as quotes"
+kind: unvendored
 rights_status: copyrighted-consult-only
 attribution_status: attributed
 discovery_channel: "Step 0 Conclusion's source instruction for World #3 ('retain Brakke'); carried through Doc_01 SS10 and Doc_02 SS7 (prior build, cleared, including the Round-1-corrected two-edition citation)"

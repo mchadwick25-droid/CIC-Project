@@ -19,6 +19,7 @@ relations:
 author: "Philip Rousseau"
 work: "Pachomius: The Making of a Community in Fourth-Century Egypt (University of California Press, 1985). The standard critical study of the Pachomian sources and community formation; anchors Strand B treatment and the version-priority caution on the Lives (Rousseau and Veilleux hold differing positions on textual priority - a live debate this build does not adjudicate). Cross-world caution carried from Step 0: Rousseau's separate monograph on Basil of Caesarea belongs to World #5 (Cappadocian), not here - the two Rousseau works must not be conflated"
 edition: "Copyrighted, consult-only - research input only; contributions enter as sourced paraphrase at honest confidence, never as quotes"
+kind: unvendored
 rights_status: copyrighted-consult-only
 attribution_status: attributed
 discovery_channel: "surfaced during the prior build's Doc_01 drafting; carried through Doc_01 SS10 and Doc_02 SS7 (prior build, cleared)"

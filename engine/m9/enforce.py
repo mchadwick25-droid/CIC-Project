@@ -91,11 +91,12 @@ class Waiver:
 ACCEPTED_OPEN: dict[str, Waiver] = {
     "m9:source-kind/alx": Waiver(count=25, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any alx source record"),
     "m9:source-kind/cappadocian": Waiver(count=111, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any cappadocian source record"),
-    "m9:source-kind/desert": Waiver(count=29, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any desert source record"),
     "m9:source-kind/don": Waiver(count=76, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any don source record"),
     "m9:source-kind/gallic": Waiver(count=2, deadline="2026-12-14", owner="the two gallic.*-absence records - kind: absence + real absence_probes still need an editorial pass (increment 7's own remaining item); gallic's build thread"),
     "m9:shelf-row/gallic": Waiver(count=21, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/gallic": Waiver(count=10, deadline="2026-12-14", owner="gallic's own build thread - each emic force/term/limit record needs re-grounding in a vendored primary source or its citation removed"),
+    "m9:shelf-row/desert": Waiver(count=17, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:emic-vendored-only/desert": Waiver(count=20, deadline="2026-12-14", owner="desert's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
     "m9:source-kind/hal": Waiver(count=28, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any hal source record"),
     "m9:source-kind/ijc": Waiver(count=30, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any ijc source record"),
     "m9:source-kind/pahc": Waiver(count=23, deadline="2026-12-14", owner="increment 7 (fleet migration) - kind not yet set on any pahc source record"),

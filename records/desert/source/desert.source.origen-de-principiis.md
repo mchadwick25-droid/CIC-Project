@@ -30,6 +30,7 @@ relations:
 author: "Origen of Alexandria (c. 185-c. 253); Rufinus of Aquileia, Latin translator, 398"
 work: "De Principiis (On First Principles), c. 220-230 - the systematic theology that gave the Origenist controversy its content. Registered here NOT as a source this world's participants read, but as the document whose condemnation ends one of this world's own strands. Also in the same volume and covered by this record: the Letter of Origen to Gregory, and Against Celsus"
 edition: "Ante-Nicene Fathers vol. 4, vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml - De Principiis runs from Rufinus' own prologue, and the passage on God's incorporeality at file line 22800 (Book I, ch. 1, section 6)"
+kind: vendored
 rights_status: "public-domain; ANF 1885, long out of US copyright"
 attribution_status: "Origen for the work; Rufinus for the surviving Latin, with his own admitted editorial intervention; the ANF translators for the English"
 discovery_channel: "opened 2026-08-27 by the unopened-volume sweep (desert.search.unopened-volume-sweep); this volume had been on cross_world's second-hand-source list for desert because this world names Origen repeatedly and had never opened him"

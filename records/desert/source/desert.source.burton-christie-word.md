@@ -19,6 +19,7 @@ relations:
 author: "Douglas Burton-Christie"
 work: "The Word in the Desert: Scripture and the Quest for Holiness in Early Christian Monasticism (Oxford University Press, 1993). The standard study of how the Apophthegmata tradition actually used Scripture - heard, memorized, spoken back, and 'done' rather than analyzed; anchors this build's treatment of desert scriptural interpretation (the F2 canon family and the word-centered gravity). One of the two works Step 0 explicitly added to this world's source base"
 edition: "Copyrighted, consult-only - research input only; contributions enter as sourced paraphrase at honest confidence, never as quotes"
+kind: unvendored
 rights_status: copyrighted-consult-only
 attribution_status: attributed
 discovery_channel: "Step 0 Conclusion's source instruction for World #3 ('add Burton-Christie'); carried through Doc_01 SS10 and Doc_02 SS7 (prior build, cleared)"
