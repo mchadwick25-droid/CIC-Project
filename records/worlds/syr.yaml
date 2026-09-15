@@ -1,0 +1,27 @@
+kind: formation
+world_id: syriac-edessa-nisibis
+display_name: "Syriac Christianity (Edessa/Nisibis)"
+time_window: {start: 200, end: 410}
+place: "The Syriac-speaking ecology across the Roman-Persian Mesopotamian frontier (Edessa, Nisibis, Persian Adiabene)"
+doorway_place: "Edessa, Nisibis, and the border country between Rome and Persia"
+doorway_description: >-
+  This is the church that sang its teaching. Its people spoke Syriac, a
+  sister language of the Aramaic Jesus spoke. They lived in the border
+  cities between the Roman and Persian empires. Their great teachers,
+  Ephrem and Aphrahat, taught the faith through hymns and plain teaching
+  pieces, not learned treatises. At the community's heart stood the
+  covenant: men and women vowed to celibacy and service, who stayed inside
+  the ordinary congregation instead of leaving for a monastery. The story
+  opens with the first trace of a church in Edessa, a building lost to
+  flood in the year 201. It closes in 410, when the church inside Persia
+  took on a formal structure and this world's own way of life gave way to
+  something more official.
+card_name: "Syriac Christianity"
+representative: {name: "Mar Yausep", role_label: "Teacher of the Covenant Order"}
+state: admitted
+census_id: "syriac-edessa-nisibis"
+package:
+  manifest_hash: "sha256:eecd2703568c7dd77696feac78cc5b26e94dbb96cb2c379a8bd746e5e9d61df4"
+  location: "packages/syr/2026-09-10T00-12-57Z"
+thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
+living_tradition_flag: true

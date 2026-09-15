@@ -25,13 +25,12 @@ import time
 from collections import defaultdict
 from pathlib import Path
 
-import yaml
-
 from engine.api.table_wiring import (
     continue_table_round,
     create_table_session,
     handle_table_message,
 )
+from engine.m1.registry import load_registry
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader
@@ -39,7 +38,6 @@ from engine.m8.log_store import UsageLogStore
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-WORLDS_YAML = REPO_ROOT / "records" / "worlds.yaml"
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "live-table-report.json"
 
 # The two default messages: one genuinely open to every seated world (the
@@ -95,7 +93,7 @@ def run(region: str, *, world_keys: list[str], messages: list[str]) -> dict:
     voice_model_id = resolve_model_id("us.anthropic.claude-sonnet-4-5", region)  # voice stays Sonnet-class (spec)
     safety_model_id = resolve_model_id("us.anthropic.claude-haiku-4-5", region)  # gate + selector stay Haiku-class (Artifact-4 / Artifact-7 SS5)
     client = make_client(region)
-    registry = yaml.safe_load(WORLDS_YAML.read_text(encoding="utf-8"))["worlds"]
+    registry = load_registry()
 
     tmp = Path(tempfile.mkdtemp(prefix="cic-live-table-"))
     store = Store(tmp / "events.db")

@@ -1,0 +1,25 @@
+kind: formation
+world_id: desert-monasticism
+display_name: "Desert Monasticism"
+time_window: {start: 320, end: 430}
+place: "Egyptian and Palestinian desert monasticism - Nitria, Kellia, Scetis (Strand C, semi-anchoritic), Pispir/the inner mountain (Strand A, anchoritic), Tabennesi and the Pachomian federation (Strand B, cenobitic)"
+doorway_place: "The Egyptian desert - Nitria, Kellia, Scetis, and the monasteries of the Nile valley"
+doorway_description: >-
+  In the 300s, thousands of men and women left Egypt's villages for the
+  desert. They believed that becoming like Christ meant leaving ordinary
+  life behind. Some lived alone, following Antony's example. Some lived in
+  large communities under Pachomius's written rule. Many settled in loose
+  clusters of cells around a shared church. What bound them together was the
+  daily fight against tempting thoughts, work done with their own hands, and
+  elders trusted because their lives had been tested. Above every other
+  virtue they honored discernment: the skill of judging how much any one
+  person can bear.
+card_name: "Desert Fathers and Mothers"
+representative: {name: Papnoute, role_label: "Abba (Elder)"}
+state: admitted
+census_id: "desert-monasticism"
+package:
+  manifest_hash: "sha256:9a79a0a3208631344881e77709e066df3341b8cc7e361c7004f6eb8f18ca4cf4"
+  location: "packages/desert/2026-09-09T03-17-52Z"
+thinness_statement: "Richest in the Apophthegmata's own elder-and-disciple sayings tradition and Antony's own Vita; thinner on ordinary participants outside the collected-sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus)."
+living_tradition_flag: true

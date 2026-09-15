@@ -14,11 +14,11 @@ Run: uvicorn engine.api.dev_server:app --port 8000
 """
 from types import SimpleNamespace
 
-import yaml
 from fastapi import FastAPI
 
 from engine.api.app import create_app
 from engine.api.config import REPO_ROOT, _DEFAULT_EVENTS_DB, _DEFAULT_USAGE_DB
+from engine.m1.registry import load_registry
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.log_store import UsageLogStore
@@ -110,7 +110,7 @@ class ReactiveFakeBedrockClient:
 
 
 def build_dev_app() -> FastAPI:
-    registry = yaml.safe_load((REPO_ROOT / "records" / "worlds.yaml").read_text(encoding="utf-8"))["worlds"]
+    registry = load_registry()
     client = ReactiveFakeBedrockClient()
     return create_app(
         voice_client=client,

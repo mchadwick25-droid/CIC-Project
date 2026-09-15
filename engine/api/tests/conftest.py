@@ -2,15 +2,15 @@
 pattern already proven in engine/m4/tests/test_turn.py (reimplemented locally
 rather than importing across test trees, per the plan). The world fixture is
 loaded the real way - LazyWorldLoader against the actually-committed
-records/fix package via records/worlds.yaml - not hand-built, so a real
+records/fix package via records/worlds/fix.yaml - not hand-built, so a real
 compiled-prompt/repository shape is exercised, not a guess at one.
 """
 from types import SimpleNamespace
 
 import pytest
-import yaml
 
 from engine.api.config import REPO_ROOT
+from engine.m1.registry import load_registry
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.log_store import UsageLogStore
@@ -85,8 +85,7 @@ def safety_response(signal="NO_SIGNAL", dynamic_tags=(), acute_level="none", ris
 
 @pytest.fixture
 def registry():
-    data = yaml.safe_load((REPO_ROOT / "records" / "worlds.yaml").read_text(encoding="utf-8"))
-    return data["worlds"]
+    return load_registry()
 
 
 @pytest.fixture

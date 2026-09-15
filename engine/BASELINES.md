@@ -28,7 +28,7 @@ git checkout baseline/pilot-2026-08-24
 Records and engine are in the tree. Compiled packages are not — only each
 package's `manifest.json` is tracked. They rebuild deterministically from
 records and are verified at load against these hashes in
-`records/worlds.yaml`:
+`records/worlds/<code>.yaml`:
 
 | world | package | manifest hash |
 |---|---|---|

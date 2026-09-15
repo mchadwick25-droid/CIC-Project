@@ -25,7 +25,8 @@ Optional env vars (all have defaults): `CIC_API_VOICE_MODEL_PATTERN` (default
 `us.anthropic.claude-sonnet-4-5`), `CIC_API_SAFETY_MODEL_PATTERN` (default
 `us.anthropic.claude-haiku-4-5`), `CIC_API_EVENTS_DB` (default
 `./cic_api_events.db`), `CIC_API_USAGE_DB` (default `./cic_api_usage.db`),
-`CIC_API_WORLDS_YAML` (default `records/worlds.yaml`), `CIC_API_DEFAULT_WORLD_KEY`
+`CIC_API_WORLDS_YAML` (default `records/worlds`, a directory - one file per
+world since the Library Access Gate registry split), `CIC_API_DEFAULT_WORLD_KEY`
 (default `fix`; note that since 2026-08-28 a session must NAME its world —
 `POST /api/session` with no `world_key` is refused, so the default is no
 longer reachable through the API), and `CIC_ENFORCE_ADMISSION` — the

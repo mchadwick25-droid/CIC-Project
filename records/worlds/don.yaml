@@ -1,0 +1,31 @@
+kind: formation
+world_id: donatism
+display_name: "Donatism"
+time_window: {start: 311, end: 439}
+place: "Roman North Africa - Carthage, Numidia, Africa Proconsularis, Byzacena, Mauretania"
+doorway_place: "Carthage and the towns of Numidia"
+doorway_description: >-
+  In 311 or 312, a bishop of Carthage accused of surrendering the
+  scriptures under persecution was consecrated anyway - and a rival
+  was consecrated beside him because of it, not in his place. From
+  that day the same see held two bishops at once, two parallel
+  hierarchies contesting town after town across Roman North Africa,
+  each holding its own basilicas and its own unbroken line of
+  ordination. This is the rigorist alternative communion that grew
+  from that refusal: not a doctrinal heresy - its confession is
+  standard North African Latin Trinitarian and Christological
+  orthodoxy - but a communion built on one unyielding conviction,
+  that a tainted hand cannot give what it claims to give, lived out
+  through rebaptism, the martyrs' graves read aloud once a year, and
+  a refusal of the Christian emperor's own standing to judge the
+  church. It closes in 439, when a Vandal army took Carthage and
+  removed the Roman state this whole refusal was defined against.
+card_name: "The Church of the Martyrs"
+representative: {name: Fidelis, role_label: "Bishop of the Unbroken Line"}
+census_id: "donatism"
+thinness_statement: "Richest in the purity doctrine and its rebaptism consequence, the legal and institutional shape of the schism, the conciliar and imperial documentary record, and the martyr narratives; nearly the whole textual record passes through the hands of Catholic opponents (Optatus, Augustine) before reaching us, its central evidentiary problem. Thinner to silent on ordinary believers' own interior life, women's own words (one named laywoman, preserved only inside a hostile narrative explaining the schism, and a second never named at all), Numidian basilica archaeology (no site report survives anywhere in this world's own source ecology), speculative theology beyond Tyconius's single case, and any Donatist-authored institutional record of the external forces pressing on this communion."
+living_tradition_flag: false
+state: built
+package:
+  manifest_hash: "sha256:e2f3af4f1dcdb54d8652c3af3cc4e92819e2f536a4283b7cf2e34fd1ab80fb75"
+  location: "packages/don/2026-09-14T23-34-59Z"
