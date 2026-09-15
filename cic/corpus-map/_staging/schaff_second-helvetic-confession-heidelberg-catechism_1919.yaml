@@ -1,0 +1,57 @@
+# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
+# the Reformed Cities build (Atlas VI.2), per this world's own Source
+# Readiness Dossier. A partial extract (two sections only) from a much
+# larger Schaff reference volume - see the file's own intake header.
+source_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+
+authors_ruled:
+  bullinger:
+    kind: metadata-omission
+    evidence: >
+      Not CCEL-derived markup (this is a plain-text archive.org extract),
+      so no automatic author slug exists. The file's own intake header
+      credits "Heinrich Bullinger (Second Helvetic Confession, 1566)" by
+      name, and Schaff's own section heading ("§ 55. The Second Helvetic
+      Confession, A.D. 1566") together with the confession's own text
+      confirm single authorship by Bullinger, the Zurich reformer -
+      standard attribution, not contested.
+    from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+  ursinus-olevianus:
+    kind: metadata-omission
+    evidence: >
+      Not CCEL-derived markup. The file's own intake header credits
+      "Zacharias Ursinus and Caspar Olevianus (Heidelberg Catechism,
+      1563)" by name - the standard joint attribution for this catechism,
+      commissioned by Elector Frederick III of the Palatinate and drafted
+      by these two theologians together. A joint-author slug, the same
+      pattern this corpus already uses for other two-author single works.
+    from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+
+assignments:
+  - work: "The Second Helvetic Confession (1566)"
+    author: bullinger
+    locus: "Sec. 55 of the source volume (original pp. 390-421)"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Heinrich Bullinger's mature confessional statement - Zwingli's real
+      successor at Zurich, and per this world's own Step 0 draft (§A1)
+      the movement's own floor-clearance text: ch. III (Trinity) and ch.
+      XI (Christ's full deity and humanity) directly verified against
+      this vendored text.
+
+  - work: "The Heidelberg Catechism (1563)"
+    author: ursinus-olevianus
+    locus: "Sec. 69 of the source volume (original pp. 529-554)"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Zacharias Ursinus and Caspar Olevianus's Palatinate catechism -
+      named directly in this world's own Step 0 draft as doctrinally
+      consistent with the floor. A distinct pastoral/catechetical voice
+      alongside Calvin's Geneva Catechism, from the Reformed tradition's
+      German wing.
