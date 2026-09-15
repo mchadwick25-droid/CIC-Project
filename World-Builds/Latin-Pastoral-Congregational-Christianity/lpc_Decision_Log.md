@@ -1725,3 +1725,31 @@ Both forced from fresh copies: inserting *"No source in this corpus records what
 **Round 11's own judgement, quoted rather than summarised:** *"My judgement: yes, on its substance — and I would not hold Doc_05 for a twelfth review round."* It records that the classification now reads identically at **all seven sites** that state it, and the test results identically at §3, §4 and §5 — the first time in eleven rounds either has been true.
 
 Together with *"seven of eight candidates have not been in contention since Round 4"*, and with the gapped-formation precedent's §4b stopping rule, **Doc_04 is cleared. No twelfth round.** The remaining MEDIUM/LOW items are record-state and are carried, not chased.
+
+---
+
+## 2026-09-15 — Doc_05, Doc_06, Doc_07 and Doc_08 APPROVED TO PROCEED
+
+**Project lead's instruction, verbatim:** *"dispose 05 06 07 08."*
+
+**All four are disposed on the project lead's direct instruction, not by build-thread self-disposition.** Self-disposal was barred for each because a CO-022 escalation category is open, and **it still is** — the approval does not close them. None is Frozen.
+
+**Why they were stuck, which is worth recording because it will recur.** Every blocking item is **portfolio-level and inherited** — a defect in the L3 methodology files, not in this world:
+
+- the *Boundary Structures* / *Boundary Ecology* divergence **inside the L3 files themselves** (Doc_05)
+- the LDF Part III **Key Texts / Key Sources** template mismatch (Doc_06)
+- the World Profile / Doc_07 template's pre-M4 lens structure (Doc_07)
+- the corpus-wide **editorial-apparatus** question, of which this world holds eight local instances (Doc_08)
+
+**Until those close, every future world jams at the same place.** Nothing in `lpc` fixes them.
+
+| Doc | Review record | Carried open |
+|---|---|---|
+| **05** Ecological Reconstruction | Round 1 REVISION REQUIRED (2H 3M 2L 1C), all eight applied; Round 2 run | Boundary Structures/Ecology divergence, ruled in part |
+| **06** Full Lexicon | Round 1 REVISION REQUIRED (3H 3M 2L 0C), all applied; Round 2 re-derived all 247 index cells with zero mismatches | three portfolio items; **six Round 2 findings deliberately not applied**, on the lead's earlier direction to fix four and proceed |
+| **07** Integrated Ecology | Round 1 (1H 2M 2L) all applied; Round 2 (1H 4M 6L 3C) found all Round 1's fixed and judged it adequate | four portfolio items; **a build-cycle departure the document discloses itself** — it was drafted on three undisposed inputs, and that is recorded, not cured |
+| **08** Forces | Eight rounds, all SUBSTANTIAL REVISION REQUIRED. **Rounds 5–8 all record no HIGH finding touches the forces analysis**; every finding in Rounds 6–8 is against the certification apparatus or the index generator | four inherited portfolio items; **the Round 8 revision remains unreviewed** |
+
+**Sequence state: Doc_01 through Doc_09 are now all Approved to proceed.** The sequence is regular for the first time in this build. `lpc_World_Profile.md` no longer sits on undisposed inputs and can go to review.
+
+**What this does not mean.** Nine approvals in one day is a bookkeeping event, not a quality event. Every document is exactly as good as it was this morning; what changed is that the disposition queue, which the comparison against `alx` and `desert` identified as the real blocker, is clear.
