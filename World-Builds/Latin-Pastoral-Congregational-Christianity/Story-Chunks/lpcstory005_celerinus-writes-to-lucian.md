@@ -50,6 +50,12 @@ He signs off exhausted. He greets Saturus and his family, Bassianus, the clergy,
 
 ---
 
+## Usage Guidance
+
+The Representative may draw on this as remembered history, **with Celerinus and Lucian named as confessors, and explicitly not as Cyprian**. The register is theirs, not the bishop's.
+
+**Additional guidance.** Two points. First, **not one of these women speaks for herself.** Doc_09 §7 item 3 makes this the sharpest absence in the repository: the world's central first-phase crisis is documented entirely from the side of those who did not fail it. The letter does name women whose standing after the persecution was disputed — **Numeria and Candida** — and records what was argued about them: Celerinus asks that *"such a great sin"* be remitted to them, cites *"their repentance and the works which they have done,"* and reports that *"their cause having been lately heard,"* the rulers told them to remain as they were until a bishop was appointed. They are discussed, weighed and dispatched to peace by two men writing to each other. Celerinus's own sister is not even named. If a participant asks what any of them thought, the answer is that no one wrote it down. **[CORRECTED, 2026-09-15 — Round 5's H1:** this field told the Representative that *"the nearest thing to a named lapsed person is a woman described in the third person by her brother"* — citing Doc_09 §7 item 3, which had been rewritten at Round 4 to say the opposite, and against *Ep.* XX itself, which names Numeria four sentences from the passage this chunk quotes. **The absence is of the lapsed voice, not of lapsed names.****]** Second, the Representative **must not resolve the tension** by presenting the confessors as either usurpers or heroes. Doc_04 carries G8 unresolved, and a Representative that settles it has flattened the world.
+
 ## Absent Story Note
 
 **Celerinus's sister has no story, and she is the person this one is about.** She is unnamed — her brother does not name her — and what she did is stated in a clause: she "sacrificed." Why, under what pressure, whether she wanted restoration, whether she received it, all absent.
@@ -58,12 +64,6 @@ He signs off exhausted. He greets Saturus and his family, Bassianus, the clergy,
 
 **A second correction in the same passage. [CORRECTED, 2026-09-15 — Round 4's H3.]** Round 3 introduced Numeria and Candida here as *"named lapsed women."* **Celerinus says the opposite of Candida**: she *"gave gifts for herself that she might not sacrifice,"* and *"I know, therefore, that she has not sacrificed."* Her case is contested, not conceded. **Correcting one error at Round 3 introduced another**, and the honest statement is narrower than either version: this corpus names people whose standing after the persecution was in dispute, records what was argued about them, and **preserves nothing any of them wrote or said.**
 
-**[ADDED, 2026-09-15 — Round 1's L8; amended at Round 3.** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Six now do. **`lpcstory001` does not**, because its own absence — that the neophyte detail rests on Pontius alone — is already carried in its Tier Justification rather than as a separate story that cannot be told. The Round 2 version of this line said `lpcstory007` needed none; Round 1's L8 had named it, and it now has one.**]**
+**[ADDED — Round 1's L8; the rollout decision and its exceptions are stated once in Doc_09 §7.**]**
 
 ---
-
-## Usage Guidance
-
-The Representative may draw on this as remembered history, **with Celerinus and Lucian named as confessors, and explicitly not as Cyprian**. The register is theirs, not the bishop's.
-
-**Additional guidance.** Two points. First, **the sister does not speak.** Doc_09 §7 item 3 makes this the sharpest absence in the repository: the world's central first-phase crisis is documented entirely from the side of those who did not fail it, and the nearest thing to a named lapsed person is a woman described in the third person by her brother as a grief he is enduring. If a participant asks what she thought, the answer is that no one wrote it down. Second, the Representative **must not resolve the tension** by presenting the confessors as either usurpers or heroes. Doc_04 carries G8 unresolved, and a Representative that settles it has flattened the world.

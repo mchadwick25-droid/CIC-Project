@@ -30,6 +30,44 @@ NEG_CLAUSE = re.compile(
     r"\bnot been read\b|\bhas not\b|\bnot used\b|\bunread\b|\bnot vendored\b"
     r"|\bExcluded\b|\bnot built\b|\bneither\b|\bnor\b|\bdoes not\b|\bdo not\b"
     r"|\bnot connected\b|\bbears on neither\b", re.I)
+# Round 5's MEDIUM-4: NEG_CLAUSE catches "has not been read" and misses the
+# other way a row gets named without being used -- stated availability.
+# lpcstory003 names rows 191/194 as a "Latin second witness" and Doc_09 §8
+# item 6 records that check as PENDING; the index credited both rows as
+# sources the story "actually draws on". Same class as M4(c), fourth
+# recurrence. A row named because it EXISTS is not a row DRAWN ON.
+AVAIL_CLAUSE = re.compile(
+    r"\bsecond witness\b|\bpending\b|\bavailable\b|\bLatin only\b"
+    r"|\bwhere no English\b|\bnot yet\b|\bwould let\b|\byet to be\b", re.I)
+# A clause that both claims USE and carries a negation is ambiguous, and
+# Round 5 showed the silent guess runs the wrong way: "row 28 supplies the
+# formula, which the Registry does not otherwise license" demoted a row that
+# IS used. The script no longer guesses -- it halts and asks for two
+# sentences. Polarity is a fact about the chunk, not about this regex.
+USE_VERB = re.compile(r"\b(?:supplies|supply|provides|provide|gives|give|"
+                      r"carries|carry|is drawn on|are drawn on|draws on)\b", re.I)
+# CF V7.4 ties a confidence band to each tier; a mismatch is a classification
+# error. Round 5's COSMETIC-5: this was declared `global` INSIDE the chunk
+# loop and rebuilt every iteration, leaving it undefined if the loop body
+# never ran while it is read again further down.
+BANDS = {"1": {"Documented", "Widely Accepted"},
+         "2": {"Widely Accepted", "Dominant Modern Reconstruction"},
+         "3": {"Contested", "Inferential/Thin"},
+         "4": {"Inferential/Thin"}}
+
+# Round 5's LOW-18 asked why this script does not import notice_strip.live().
+# They have different jobs and the difference is deliberate.
+#   notice_strip.live()  removes notices whose tag is on a KNOWN list, for
+#                        closure audits. It must never over-strip.
+#   NOTICE below         matches any capitalised opener, because
+#                        assert_coverage uses it as a GUARD: an
+#                        unrecognised notice-like opener must halt the run
+#                        rather than pass through as prose. Narrowing it to
+#                        the known tags would delete that control.
+# They must still AGREE on real input. scripts/test_notice_strip.py asserts
+# they return identical word counts on Doc_09 §2 and §7, so the two cannot
+# drift apart silently the way they had by Round 5 (34% apart, because
+# live() was over-stripping).
 _TAG = r"[A-Z][A-Za-z]{1,24}(?:\s+[A-Za-z][A-Za-z]{0,24}){0,3}"
 _SEP = r"(?=\s*[,:;(]|\s*[—–]|\s+-\s|\s+\d)"
 NOTICE = re.compile(r"\*{0,2}\[" + _TAG + _SEP + r".*?\]\*\*", re.S)
@@ -59,6 +97,9 @@ def field(block, name):
     return re.sub(r"\s+", " ", m.group(1)).strip() if m else ""
 
 stories = []
+# Round 5's LOW-15: two files carrying the same story id produced "Eight
+# stories -- Tier 1 (7)" with two identical rows and no halt.
+_seen_ids = {}
 for p in sorted(CHUNKS.glob("lpcstory*.md")):
     raw = p.read_text(encoding="utf-8")
     assert_coverage(raw, p.name)
@@ -68,6 +109,10 @@ for p in sorted(CHUNKS.glob("lpcstory*.md")):
         sys.exit(f"FATAL: {p.name} has no retrieval front-matter block. Refusing to emit.")
     b = fm.group(1)
     sid = p.name.split("_")[0]
+    if sid in _seen_ids:
+        sys.exit(f"FATAL: story id '{sid}' is claimed by two chunk files, "
+                 f"{_seen_ids[sid]} and {p.name}. Refusing to emit.")
+    _seen_ids[sid] = p.name
     s = dict(id=sid, file=p.name, title=field(b, "Story-Title"), tier=field(b, "Tier"),
              conf=field(b, "Confidence"), src=field(b, "Source"),
              rw=field(b, "Retrieve-When"), dnr=field(b, "Do-Not-Retrieve-When"), body=t)
@@ -84,12 +129,12 @@ for p in sorted(CHUNKS.glob("lpcstory*.md")):
         sys.exit(f"FATAL: {p.name} is Tier 4 and has no Source Identification section, which the "
                  "L4 template requires for Tier 4 only. Refusing to emit.")
     # CF V7.4 ties a confidence band to each tier; a mismatch is a classification error.
-    global BANDS
-    BANDS = {"1": {"Documented", "Widely Accepted"},
-             "2": {"Widely Accepted", "Dominant Modern Reconstruction"},
-             "3": {"Contested", "Inferential/Thin"},
-             "4": {"Inferential/Thin"}}
-    if not any(b in s["conf"] for b in BANDS[s["tier"]]):
+    # Round 5's LOW-9: `b in s["conf"]` is a SUBSTRING test, so a Tier 1
+    # chunk declaring "Not Documented" passed and the No-Tier-5 audit printed
+    # "Yes -- Not Documented". Bands are compared as whole tokens now.
+    _decl = {b for b in BANDS[s["tier"]]
+             if re.search(r"(?<!\bnot )(?<!\bNot )\b" + re.escape(b) + r"\b", s["conf"])}
+    if not _decl:
         sys.exit(f"FATAL: {p.name} is Tier {s['tier']} with Confidence '{s['conf']}', outside the band "
                  f"CF V7.4 assigns that tier ({sorted(BANDS[s['tier']])}). Refusing to emit.")
     # Round 1's M4(c): this scanned the Source field for row numbers WITHOUT
@@ -99,11 +144,25 @@ for p in sorted(CHUNKS.glob("lpcstory*.md")):
     # "Every cited row is Native" over it. A row mentioned inside a negating
     # clause is excluded, and what was excluded is reported rather than
     # silently dropped -- a silent exclusion is the same defect inverted.
-    NEG = NEG_CLAUSE
+    # Round 5's MEDIUM-5: this findall carried no IGNORECASE, so a Source
+    # sentence BEGINNING with a row citation -- "Row 28 supplies ..." -- was
+    # invisible to every derivation including the Excluded-row boundary
+    # guard. A breach was one capital letter away.
+    ROW_RE = re.compile(r"row(?:s)?\s+((?:\d+)(?:\s*[/,]\s*\d+)*)", re.I)
     used, excluded = [], []
     for clause in re.split(r"(?<=[.;])\s+", s["src"]):
-        found = re.findall(r"row(?:s)?\s+((?:\d+)(?:\s*[/,]\s*\d+)*)", clause)
-        (excluded if NEG.search(clause) else used).extend(found)
+        found = ROW_RE.findall(clause)
+        if not found:
+            continue
+        neg = NEG_CLAUSE.search(clause) or AVAIL_CLAUSE.search(clause)
+        if neg and USE_VERB.search(clause):
+            sys.exit(
+                f"FATAL: {p.name}'s Source field claims both use and non-use of "
+                f"row(s) {found} in one clause:\n    {clause.strip()}\n"
+                "Polarity cannot be derived from it. Split it into two "
+                "sentences, one stating what the story draws on and one "
+                "stating what is named but not drawn on. Refusing to emit.")
+        (excluded if neg else used).extend(found)
     s["rows"] = sorted(set(used), key=str)
     s["rows_excluded"] = sorted(set(excluded), key=str)
     # Round 2: this was polarity-blind -- the SAME defect Round 1's M4(c) had
@@ -168,10 +227,25 @@ for s in stories:
     # and Confidence and the masthead kept claiming the whole table. Both
     # remaining columns are compared now, so the claim is true.
     cgrav = set(re.findall(r"G[1-8]", cgravcell))
-    if cgrav and cgrav != set(s["gravities"]):
+    # Round 5's MEDIUM-5: `if cgrav and ...` skipped the comparison entirely
+    # when §3's Gravities cell carried no G-code, so the masthead's claim of
+    # full-table agreement was untrue. This is the surviving half of Round
+    # 4's M4 -- the source half was fixed and this one was not.
+    if not cgrav:
+        problems.append(f"{s['id']}: Doc_09 §3 states no gravities (cell: {cgravcell.strip()!r})")
+    elif cgrav != set(s["gravities"]):
         problems.append(f"{s['id']}: Doc_09 §3 lists gravities {sorted(cgrav)}, the chunk yields {s['gravities']}")
-    csrc_rows = {r for grp in re.findall(r"row(?:s)?\s+((?:\d+)(?:\s*[/,]\s*\d+)*)", csrccell)
+    csrc_rows = {r for grp in re.findall(r"row(?:s)?\s+((?:\d+)(?:\s*[/,]\s*\d+)*)",
+                                        csrccell, re.I)
                  for r in re.split(r"[/,]\s*", grp)}
+    # Round 5's LOW-20: the comparison ran one way only, so §3 could name
+    # FEWER rows than the chunk with no halt -- which is how MEDIUM-4's
+    # divergence (§3: row 1; index: rows 1, 191, 194) reached committed
+    # output uncaught. Both directions are compared now.
+    _missing = set(s["rows"]) - csrc_rows
+    if _missing:
+        problems.append(f"{s['id']}: the chunk draws on row(s) {sorted(_missing)} "
+                        f"that Doc_09 §3's Source column does not name")
     # Requiring only an INTERSECTION failed open, exactly as the first title
     # check did: §3 could cite a nonexistent row beside a real one and pass.
     # Every row §3 names must be one the chunk actually draws on.
@@ -195,7 +269,11 @@ if problems:
 
 phase_of = {m.group(1): m.group(2).strip()
             for m in re.finditer(r"\|\s*`(lpcstory\d+)`\s*\|(?:[^|]*\|){5}\s*([^|]+?)\s*\|", sec3)}
-missing_phase = [s["id"] for s in stories if s["id"] not in phase_of]
+# Round 5's LOW-10: an all-whitespace Phase cell yielded "" and passed, so
+# the Master Table printed a blank Phase under a comment claiming "a missing
+# value is reported rather than inferred". Emptiness is now the test.
+missing_phase = [s["id"] for s in stories
+                 if not phase_of.get(s["id"], "").strip()]
 if missing_phase:
     sys.exit(f"FATAL: Doc_09 §3 states no transmission phase for {missing_phase}. Refusing to emit.")
 
@@ -246,6 +324,14 @@ w("")
 _rounds = sorted(int(m.group(1)) for f in ART.glob("Doc09_Round*_Review.md")
                  for m in [re.search(r"Doc09_Round(\d+)_Review", f.name)] if m)
 NR = len(_rounds); LATEST = _rounds[-1] if _rounds else 0
+# Round 5's LOW-8: this claimed "this file is the Round N fix pass" purely
+# because Doc09_RoundN_Review.md existed -- so a one-word review artifact
+# landing on disk made the index assert a fix pass that had not happened,
+# and it fired the moment Round 5's own review file was written. The review
+# count comes from the artifacts; the FIX-PASS claim comes from Doc_09's own
+# Document Log, which the fix pass has to write.
+_fixed = sorted(int(m) for m in re.findall(r"\|\s*Round (\d+) fix pass", doc))
+FIXED = _fixed[-1] if _fixed else 0
 _NW = {0: "No", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six"}
 w(f"**Status:** " + ("**DRAFT — not reviewed, not self-disposed.**" if not NR else
    f"**REVISED after Round {LATEST} — the revision is unreviewed, and not self-disposed.**") +
@@ -271,7 +357,40 @@ _NHALT = sum(1 for _n in __import__("ast").walk(
     __import__("ast").parse(pathlib.Path(__file__).read_text(encoding="utf-8")))
     if isinstance(_n, __import__("ast").Call)
     and getattr(getattr(_n, "func", None), "attr", None) == "exit")
-w(f"**Guards that halt the run rather than emitting a wrong index — {_NHALT} of them, counted off this script rather than typed.** A chunk missing a front-matter field or a required section; **a chunk declaring a Tier 5**; a tier/confidence pair outside the band CF V7.4 assigns that tier; a Tier 4 chunk with no Source Identification section; a story whose Doc_09 §3 tier disagrees with its own chunk; a story sourced to a row that is not **Native** in the Registry; an Absent-Stories section short enough to be a placeholder; and a correction notice that swallows another's opener. **[CORRECTED, 2026-09-15 — Round 1's brief-correction 1:** this said *nine* guards and called them *the eight lessons*; **the script has thirteen halting sites.** **Round 1 forced the guards that existed when it ran**; each later pass has added guards, and each round has forced the ones in front of it. The number above is computed from this file, so the sentence does not need to name it. **[Amended at Round 2:** the earlier wording credited Round 1 with forcing a guard that did not yet exist.**]** The miscount went from this prose into the Decision Log and then into Round 1's own brief without being re-derived — the same shape `gen_force_index.py` produced three rounds running. Counted here with a grep over the script rather than from memory.**]**")
+# Round 5's LOW-12: the masthead enumerated EIGHT conditions under a derived
+# count of thirteen, for a third round. The enumeration is a list now, and
+# the script halts if it ever stops matching the count it is printed beside
+# -- prose that can drift from a derived number is a literal in disguise too.
+GUARD_LABELS = (
+    "no story chunks found at all",
+    "a story whose Doc_09 §3 row, tier, confidence or gravities disagree with its chunk",
+    "a story with no transmission phase in Doc_09 §3",
+    "an Absent-Stories section short enough to be a placeholder",
+    "a story sourced to a row that is not **Native** in the Registry",
+    "a notice-like opener surviving the stripper",
+    "a chunk with no retrieval front-matter fence",
+    "two chunk files claiming the same story id",
+    "**a chunk declaring a Tier 5**",
+    "a Tier 4 chunk with no Source Identification section",
+    "a tier/confidence pair outside the band CF V7.4 assigns that tier",
+    "a correction notice that swallows another's opener",
+    "a chunk missing a front-matter field",
+    "a chunk missing a required section",
+    "a Source clause that claims both use and non-use of the same row",
+    "this list itself falling out of step with the script's halting-site count",
+)
+if len(GUARD_LABELS) != _NHALT:
+    sys.exit(f"FATAL: this script has {_NHALT} halting sites but GUARD_LABELS "
+             f"names {len(GUARD_LABELS)}. The index masthead would misdescribe "
+             "its own guards. Refusing to emit.")
+_GUARD_PROSE = "; ".join(GUARD_LABELS[:-1]) + "; and " + GUARD_LABELS[-1] + "."
+w(f"**Guards that halt the run rather than emitting a wrong index — {_NHALT} of them, counted off this script rather than typed.** {_GUARD_PROSE}")
+w("")
+w("**[CORRECTED, 2026-09-15 — Round 1's brief-correction 1:** an earlier version of this masthead said *nine* guards and called them *the eight lessons*. The count above is computed from this file's syntax tree, so the sentence does not need to name it, and the enumeration is now rendered from the same list the count is checked against.**]**")
+w("")
+w("**[AMENDED, 2026-09-15 — Round 2:** the Round 1 wording credited Round 1 with forcing a guard that did not yet exist. **Round 1 forced the guards that existed when it ran**; each later pass has added guards, and each round has forced the ones in front of it.**]**")
+w("")
+w("**[CORRECTED, 2026-09-15 — Round 5's M10 and L12:** the count clause read *'Counted here with a grep over the script rather than from memory'* — naming as the remedy the exact method this notice explains is wrong. It is counted off the syntax tree, which cannot see its own counting expression. The enumeration beside it listed **eight** conditions under a derived count of thirteen, for a third round; it is derived now, and a mismatch between the list and the count is itself a halting site. These three notices were nested inside one another until Round 5's L11 — the condition this script exits FATAL on when it finds it in a chunk.**]**")
 w("")
 w("---")
 w("")
@@ -285,8 +404,20 @@ for s in stories:
     # read from Doc_09 §3's own Phase column, which a human sets, and a
     # missing value is reported rather than inferred.
     ph = phase_of.get(s["id"], "**NOT STATED**")
-    w(f"| **{s['id']}** | {s['title']} | {s['tier']} | {s['conf']} | {', '.join(s['gravities']) or '—'} | {ph} | `{s['file']}` |")
+    # Round 5's COSMETIC-1, fourth round: a two-clause confidence band made
+    # the master table unscannable at the one row a reader most wants to
+    # scan. The leading band goes in the table; the full declaration is
+    # printed under it, so nothing is lost by shortening the cell.
+    _short = s["conf"].split(";")[0].strip()
+    _cell = _short + (" …" if _short != s["conf"].strip() else "")
+    w(f"| **{s['id']}** | {s['title']} | {s['tier']} | {_cell} | {', '.join(s['gravities']) or '—'} | {ph} | `{s['file']}` |")
 w("")
+_trunc = [s for s in stories if s["conf"].split(";")[0].strip() != s["conf"].strip()]
+if _trunc:
+    w("Confidence cells above carry the leading band only where a chunk declares "
+      "more than one. In full: " + "; ".join(
+          f"**{s['id']}** — {s['conf']}" for s in _trunc) + ".")
+    w("")
 w(f"**{NW.get(len(stories), len(stories))} stories** — " +
   ", ".join(f"Tier {t} ({len(tiers[t])})" for t in "1234") + ".")
 w("")
@@ -337,7 +468,10 @@ w("|---|---|---|")
 for s in stories:
     rs = sorted({r for grp in s["rows"] for r in re.split(r"[/,]\s*", grp)}, key=int)
     ex = sorted({r for grp in s.get("rows_excluded", []) for r in re.split(r"[/,]\s*", grp)}, key=int)
-    extra = (" · *named but explicitly not used: " + ", ".join(ex) + "*") if ex else ""
+    # "explicitly not used" was accurate for a negated clause and wrong for
+    # an availability clause (lpcstory003's "Latin second witness"), which
+    # Round 5's MEDIUM-4 added. One label covers both.
+    extra = (" · *named, not drawn on: " + ", ".join(ex) + "*") if ex else ""
     w(f"| `{s['id']}` | {', '.join(rs) or '—'}{extra} | " + ", ".join(f"row {r}: **{bmap[r]}**" for r in rs) + " |")
 w("")
 w(f"**Every row a story actually draws on is Native. No story draws on an Excluded row, and none draws on a neighbouring world's evidence base.** The check is mechanical: the row number is read from each chunk's own Source field and its Boundary Status read from the Registry table. **A story sourced to an Excluded row halts the generator** — the nearest live case is row 28, *The Passion of the Scillitan Martyrs*, marked **Excluded, Named Comparandum**, which Doc_09 §6 records as considered and not built.")
@@ -375,7 +509,9 @@ w("")
 w("## Disposition")
 w("")
 w("**Not disposed.** Reviewed and disposed of together with `Doc_09_Story_Inventory.md` and the chunks in `Story-Chunks/`. "
-  + (f"**{_NW.get(NR, NR)} independent review round(s) have been run**, the most recent `Review-Artifacts/Doc09_Round{LATEST}_Review.md`; this file is the Round {LATEST} fix pass and is **unreviewed**."
+  + (f"**{_NW.get(NR, NR)} independent review round(s) have been run**, the most recent `Review-Artifacts/Doc09_Round{LATEST}_Review.md`; this file is regenerated from the Round {FIXED} fix pass and is **unreviewed**."
+     if FIXED >= LATEST else
+     f"**{_NW.get(NR, NR)} independent review round(s) have been run**, the most recent `Review-Artifacts/Doc09_Round{LATEST}_Review.md`; **no fix pass has been recorded against it in Doc_09's Document Log**, so this file still reflects the Round {FIXED} pass."
      if NR else "**No review round has been run against any of the three.**")
   + " Not self-certified. Not Frozen.")
 w("")

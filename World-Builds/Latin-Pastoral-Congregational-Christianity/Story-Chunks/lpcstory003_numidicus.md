@@ -16,9 +16,9 @@ Cyprian writes to the clergy and people of Carthage with news he thinks belongs 
 
 Numidicus had watched a group of Christians die. He had exhorted them first — Cyprian says he "by his exhortation sent before himself an abundant number of martyrs, slain by stones and by the flames." Among the dead was his own wife. Cyprian's phrasing about her is not a slip and should not be smoothed: he "beheld with joy his wife abiding by his side, burned (I should rather say, preserved) together with the rest."
 
-Then Numidicus himself: "half consumed, overwhelmed with stones, and left for dead." **[CORRECTED, 2026-09-15 — Round 1's L2:** an earlier version added *"He was in the heap."* The letter does not say that.**]**
+Then Numidicus himself: "half consumed, overwhelmed with stones, and left for dead."
 
-What happens next is the part that stays. His daughter came looking for her father's body — Cyprian says that "his daughter, with the anxious consideration of affection, sought for the corpse of her father" — and found him alive. **Where she searched, the letter does not say. [CORRECTED, 2026-09-15 — Round 1's L2:** an earlier version had her searching *"a heap of bodies,"* which is this document's image and not Cyprian's.**]** "Was found half dead, was drawn out and revived."
+What happens next is the part that stays. His daughter came looking for her father's body — Cyprian says that "his daughter, with the anxious consideration of affection, sought for the corpse of her father" — and found him alive. **Where she searched, the letter does not say.** "Was found half dead, was drawn out and revived."
 
 And Cyprian adds one clause that gives the whole letter its weight. Numidicus, he says, "remained unwillingly from among the companions whom he himself had sent before."
 
@@ -44,16 +44,22 @@ He had not wanted to survive. Cyprian knows this, writes it down, and then gives
 
 ---
 
-## Absent Story Note
+**Transcription corrections to the Story Text above.** These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
 
-**The three people this story is about left no word of their own.** Numidicus's wife burned; his daughter searched for his body and found him alive; Numidicus himself did not want to have survived. **All three facts reach us in one paragraph of a letter written by someone else, for a different purpose** — to explain an appointment to a congregation. What the wife thought she was doing, what the daughter found, and what Numidicus said when they revived him are all unrecoverable, and no source in this corpus will ever supply them. Doc_09 §7 items 2 and 4 record this shape at the level of the whole repository; it is at its sharpest here.
+- **[CORRECTED, 2026-09-15 — Round 1's L2:** an earlier version added *"He was in the heap."* The letter does not say that.**]**
 
-**[ADDED, 2026-09-15 — Round 1's L8; amended at Round 3.** the L4 template provides this section *"where a story that might be expected cannot be told because evidence is insufficient,"* and no chunk carried one. Six now do. **`lpcstory001` does not**, because its own absence — that the neophyte detail rests on Pontius alone — is already carried in its Tier Justification rather than as a separate story that cannot be told. The Round 2 version of this line said `lpcstory007` needed none; Round 1's L8 had named it, and it now has one.**]**
-
----
+- **[CORRECTED, 2026-09-15 — Round 1's L2:** an earlier version had her searching *"a heap of bodies,"* which is this document's image and not Cyprian's.**]**
 
 ## Usage Guidance
 
 The Representative may draw on this as remembered history in the fullest sense the tiers allow, **with Cyprian named as the writer and his purpose acknowledged** — this is a bishop commending an appointment.
 
 **Additional guidance, and it matters more here than in most chunks.** The phrase "burned (I should rather say, preserved)" is Cyprian's own correction of his own verb, and it is theologically loaded: he is refusing to call a martyr's death a loss. **The Representative should not repeat that phrase as if it were a neutral description**, and should be prepared, if a participant finds it cold, to say plainly that the participant has heard it correctly — this world did say that, and meant it, and the woman herself left no word about it. Per Doc_09 §7 item 4, she is visible in this story and never audible, and that absence should be named rather than filled.
+
+## Absent Story Note
+
+**The three people this story is about left no word of their own.** Numidicus's wife burned; his daughter searched for his body and found him alive; Numidicus himself did not want to have survived. **All three facts reach us in one paragraph of a letter written by someone else, for a different purpose** — to explain an appointment to a congregation. What the wife thought she was doing, what the daughter found, and what Numidicus said when they revived him are all unrecoverable, and no source in this corpus will ever supply them. Doc_09 §7 items 2 and 4 record this shape at the level of the whole repository; it is at its sharpest here.
+
+**[ADDED — Round 1's L8; the rollout decision and its exceptions are stated once in Doc_09 §7.**]**
+
+---

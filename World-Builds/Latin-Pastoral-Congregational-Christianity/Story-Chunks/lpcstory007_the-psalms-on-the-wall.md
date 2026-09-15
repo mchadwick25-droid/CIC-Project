@@ -20,13 +20,13 @@ Then he records what Augustine did with his own rule. "And this he himself did i
 
 The sheets were pinned where a man lying down could see them.
 
-About ten days before the end he asked to be left alone — Possidius says he "asked of us who were present that no one should come in to him, except only at the hours in which the physicians came to examine him or when nourishment was brought to him" — **the words are Possidius's report of Augustine's request, and the phrase that places Possidius in the room is *"of us who were present."* [CORRECTED, 2026-09-15 — Round 1's L5:** an earlier version of the Tier Justification quoted *"we who were present"* as though it were Possidius's own clause.**]** The request was kept. "He had all that time free for prayer."
+About ten days before the end he asked to be left alone — Possidius says he "asked of us who were present that no one should come in to him, except only at the hours in which the physicians came to examine him or when nourishment was brought to him" — **the words are Possidius's report of Augustine's request, and the phrase that places Possidius in the room is *"of us who were present."*** The request was kept. "He had all that time free for prayer."
 
 Until that last illness he had not stopped working: "Up to the very moment of his last illness he preached the Word of God in the church incessantly, vigorously and powerfully, with a clear mind and sound judgment."
 
-And the end, in Possidius's own first person: "With all the members of his body intact, with sight and hearing unimpaired, while we stood by and watched and prayed, he slept with his fathers, as it is written, well-nourished in a good old age."
+And the end, in Possidius's own first person: "With all the members of his body intact, with sight and hearing unimpaired, while we stood by and watched and prayed, 'he slept with his fathers,' as it is written, 'well-nourished in a good old age.'"
 
-Two facts close the chapter. "He made no will, because as a poor man of God he had nothing from which to make it." And: "He repeatedly ordered that the library of the church and all the books should be carefully preserved for future generations."
+Two details follow, mid-chapter. "He made no will, because as a poor man of God he had nothing from which to make it." And: "He repeatedly ordered that the library of the church and all the books should be carefully preserved for future generations."
 
 The city was under siege by the Vandals while this happened.
 
@@ -56,17 +56,9 @@ At `lpcstory002` the disputed content is **a sermon Pontius heard and later reco
 
 ---
 
-## Absent Story Note
+**Transcription corrections to the Story Text above.** These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
 
-**No one outside the room recorded this, and one person in it did all the recording.** Possidius is the only witness to Augustine's last weeks; **no second account of his death exists anywhere in this corpus**, so the ordinary corrective of checking a detail against another witness is unavailable here and nowhere else in this repository is a Tier 1 story so wholly dependent on one man.
-
-**The city outside is not absent — this note previously said it was.** Possidius records the invasion at length in the same span this chunk cites: congregations *"despoiled and stripped of all their goods and begging in abject poverty"*; *"of the innumerable churches he saw only three survive, namely those of Carthage, Hippo and Cirta"*; and, plainly, that *"after Augustine's death the city of Hippo, abandoned by its inhabitants, was burned by the enemy."* **[CORRECTED, 2026-09-15 — Round 4's H2.** The Round 3 version asserted that what the siege was like for the congregation *"is not recorded by him or by anyone else,"* and that *"this world's record follows its bishop to the end and then stops."* **Both are refuted inside *Vita* XXVIII — within the span this chunk itself cites** — and the chunk's own Usage Guidance already said *"Hippo fell."***]**
-
-**What is genuinely absent is any of it in the congregation's own voice.** Possidius counts the surviving churches and names the burning; **no one who fled Hippo wrote down what leaving was like**, and no source in this corpus records what became of the people Augustine had served for thirty-five years. The scale is documented. The experience is not.
-
-**[ADDED, 2026-09-15 — Round 3:** Round 1's L8 named `lpcstory007` among the chunks that should carry this section and the Round 2 fix pass gave notes to five chunks and not this one, while stating in each that `lpcstory007` needed none.**]**
-
----
+- **[CORRECTED, 2026-09-15 — Round 1's L5:** an earlier version of the Tier Justification quoted *"we who were present"* as though it were Possidius's own clause.**]**
 
 ## Usage Guidance
 
@@ -75,3 +67,15 @@ The Representative may draw on this as remembered history, **with Possidius name
 **Additional guidance.** The Representative should resist making this story console. It is often told as a serene death, and Possidius's own text does not support serenity: the man **"wept freely and constantly,"** for days, looking at psalms about sin. If a participant finds that disproportionate in someone of Augustine's stature, the Representative should not explain it away — **the disproportion is the formation content.** This world believed that a lifetime of teaching repentance obliged the teacher to do it, visibly, at the end.
 
 Second: the siege is real and should not be made symbolic. Hippo fell. **What Possidius records is the instruction, not its outcome** — he does not say whether the library survived, and this chunk does not either. What Doc_08 §4 establishes separately is that this world's inheritance was secured by copying rather than by the siege, and names that a coincidence rather than a cause. **[CORRECTED, 2026-09-15 — Round 1's L10:** an earlier version stated that the library *"largely survived,"* attributing an outcome to a source that reports only the order.**]**
+
+## Absent Story Note
+
+**No one outside the room recorded this, and one person in it did all the recording.** Possidius is the only witness to Augustine's last weeks; **no second account of his death exists anywhere in this corpus**, so the ordinary corrective of checking a detail against another witness is unavailable here and nowhere else in this repository is a Tier 1 story so wholly dependent on one man.
+
+**The city outside is not absent — this note previously said it was.** Possidius records the invasion at length in the same span this chunk cites: congregations *"despoiled and stripped of all their goods and begging in abject poverty"*; *"of the innumerable churches he saw only three survive, namely those of Carthage, Hippo and Cirta"*; and, plainly, that *"after Augustine's death the city of Hippo, abandoned by its inhabitants, was burned by the enemy."* **[CORRECTED, 2026-09-15 — Round 4's H2.** The Round 3 version asserted that what the siege was like for the congregation *"is not recorded by him or by anyone else,"* and that *"this world's record follows its bishop to the end and then stops."* **Both are refuted inside *Vita* XXVIII — within the span this chunk itself cites** — and the chunk's own Usage Guidance already said *"Hippo fell."***]**
+
+**What is genuinely absent is any of it in the congregation's own voice.** Possidius counts the surviving churches and names the burning; **no one who fled Hippo wrote down what leaving was like**. The scale is documented — Possidius records congregations *"despoiled and stripped of all their goods and begging in abject poverty"* and Hippo itself *"abandoned by its inhabitants"* and burned. **The experience is not.** **[CORRECTED, 2026-09-15 — Round 5's M8:** this sentence continued *"and no source in this corpus records what became of the people Augustine had served for thirty-five years"* — one sentence after quoting the source that partly records it. Round 4's H2 at reduced amplitude; the note's own closing line was already the true statement.**]**
+
+**[ADDED, 2026-09-15 — Round 3:** Round 1's L8 named `lpcstory007` among the chunks that should carry this section and the Round 2 fix pass gave notes to five chunks and not this one, while stating in each that `lpcstory007` needed none.**]**
+
+---
