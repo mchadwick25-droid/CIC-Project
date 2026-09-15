@@ -27,6 +27,7 @@ relations:
 author: "Origen of Alexandria (the excerpted text); the compilers are traditionally named as Basil of Caesarea and Gregory of Nazianzus but are not named in this file; George Lewis, translator"
 work: "The Philocalia of Origen - twenty-seven chapters of selections, weighted heavily toward scriptural interpretation (I-XV) and then free will, fate, providence and the hardening of Pharaoh's heart (XXI-XXVII). Chapter I is drawn 'From the work on Principles', chapter XIII is the Letter to Gregory"
 edition: "trans. George Lewis (Edinburgh: T. & T. Clark, 1911), vendored as cic/texts/origen_philocalia_lewis1911.txt - about 85,200 words. Transcribed by Roger Pearse for tertullian.org and declared public domain by the transcriber; the translator attribution is cross-verified against archive.org rather than stated in the transcription, per the file's own header"
+kind: vendored
 rights_status: "public-domain; 1911, long out of US copyright"
 attribution_status: "Origen for the excerpts; the compilation traditionally but not textually ascribed to Basil and Gregory; Lewis for the 1911 English"
 discovery_channel: "opened 2026-08-27 by the unopened-volume sweep (desert.search.unopened-volume-sweep)"

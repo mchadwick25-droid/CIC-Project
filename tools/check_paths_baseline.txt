@@ -357,6 +357,7 @@ world-build-docs/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: 
 world-build-docs/alx/HANDOFF-TO-BUILD-THREAD.md: records/_fleet/sealed_probes
 world-build-docs/alx/HANDOFF-TO-BUILD-THREAD.md: records/worlds.yaml
 world-build-docs/alx/SOURCE-REQUEST-MANIFEST.md: records/worlds.yaml
+world-build-docs/desert/DECISION-LOG.md: packages/desert/2026-09-09T03-17-52Z
 world-build-docs/desert/DECISION-LOG.md: records/manifest
 world-build-docs/desert/DECISION-LOG.md: records/worlds.yaml
 world-build-docs/desert/STEP4-INDEX.md: records/alx_check_tmp

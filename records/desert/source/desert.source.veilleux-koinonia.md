@@ -19,6 +19,7 @@ relations:
 author: "Armand Veilleux (trans.)"
 work: "Pachomian Koinonia, 3 vols. (Cistercian Publications, 1980-1982) - the standard English translation corpus of the Pachomian dossier (Lives, Rules, and related writings), and the named second position in the Lives' version-priority debate against Rousseau (Doc_01 SS10; Doc_02 SS1.2) - a live debate this build does not adjudicate"
 edition: "Copyrighted, consult-only - research input only; the Rule and Lives can never be quoted from it; contributions enter as sourced paraphrase at stated confidence"
+kind: unvendored
 rights_status: copyrighted-consult-only
 attribution_status: attributed
 discovery_channel: "added at Step2 Review Round 1, Finding 4 (the version-priority debate's second pole was named in prose without a record); prior registration srcDES018 (2026-07-26, publication verified by web search per its own row); also listed in manifest G2's consult-only acquisitions"
