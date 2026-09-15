@@ -1,6 +1,7 @@
 Ministry/Communication/Brand-Assets/CiC_Brand_Mark_TableChair_V0_1.md: Ministry/Technology/CiC_Logo_and_Motion_Brief_V1_0.md
 Ministry/Communication/Brand-Assets/CiC_World_Icon_and_Table_Template_Spec_V0_1.md: Ministry/Technology/CiC_Representative_Appearance_Third_Identity_Element_V0_1.md
 Ministry/Communication/Brand-Assets/Representative-Portraits/README.md: records/worlds.yaml
+Ministry/Communication/CiC_Demo_Conversation_Captures_V0_1.md: .claude/launch.json
 Ministry/Communication/CiC_Messaging_Branding_Kit_V0_1_DRAFT.md: Ministry/Technology/CiC_Full_UX_Design_V0_1_DRAFT.md
 Ministry/Communication/CiC_Messaging_Branding_Kit_V0_1_DRAFT.md: Ministry/Technology/CiC_Logo_and_Motion_Brief_V1_0.md
 Ministry/Features/Atlas-World-Map/Design/CiC_World_Map_Integration_Assessment_V0_1.md: cic-poc/frontend/src/components/TheTable.tsx
@@ -356,6 +357,7 @@ world-build-docs/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: 
 world-build-docs/alx/HANDOFF-TO-BUILD-THREAD.md: records/_fleet/sealed_probes
 world-build-docs/alx/HANDOFF-TO-BUILD-THREAD.md: records/worlds.yaml
 world-build-docs/alx/SOURCE-REQUEST-MANIFEST.md: records/worlds.yaml
+world-build-docs/desert/DECISION-LOG.md: packages/desert/2026-09-09T03-17-52Z
 world-build-docs/desert/DECISION-LOG.md: records/manifest
 world-build-docs/desert/DECISION-LOG.md: records/worlds.yaml
 world-build-docs/desert/STEP4-INDEX.md: records/alx_check_tmp
