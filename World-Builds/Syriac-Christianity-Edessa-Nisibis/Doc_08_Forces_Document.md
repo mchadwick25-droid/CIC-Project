@@ -16,34 +16,6 @@ Consistent with this project's transparency discipline (Doc_05's lens-naming tab
 
 ---
 
-## Revision Log
-
-**Round 1 → Round 2 (substantial revision, per independent adversarial review):** The review found no fabricated or misattributed facts anywhere in the document, confirmed all six confirmed gravities connected to at least one force, confirmed all seven (now eight) cross-cell connections matched the companion index exactly, confirmed transmission specificity genuinely satisfied in both Cells 2B and 3B, and confirmed Doc_07's own C4 two-causal-profile finding preserved accurately rather than flattened. One issue was assessed as substantial:
-
-- **Force 2B-2's Layer 2 entry violated the From-Within Principle** — it read as third-person survivorship-bias analysis relabeled "World's Own Experience" rather than genuine inhabited prose, and Section 8's own compliance certification failed to name this as an exception, meaning the document's own compliance claim was overstated relative to what its text actually did. Fixed by rewriting 2B-2's Layer 2 to offer a genuinely inhabited rendering for one strand of the transmission picture (choir performance as lived transmission, reapplying Doc_05 Section 3.1) while explicitly stating that no comparable rendering exists for Aphrahat's own transmission history, and by updating Section 8's From-Within Principle status to name this and a milder related instance (Force 3A-2's Layer 2, also revised to an explicit stated-absence form) as exceptions.
-
-Four further items were assessed as cosmetic and applied directly, per the build-cycle discipline, without requiring their own review round:
-
-- Force 1A-1's own Layer 3 claimed a connection to both C1 and C3, but Section 5's C1 entry and the companion index's "By Connected Gravity" sheet showed only C3. Fixed by adding 1A-1 to Section 5's C1 entry and rebuilding the index.
-- Doc_04's confirmed C2×C4 "Reshaping" interaction (the qyama order's charismatic standing as an alternative authority pathway) and Doc_07's own development of it were never surfaced in this document. Fixed by adding Section 4's Connection 8 (Force 1B-2 → Force 2B-1) and updating Section 5's C2 and C4 entries and the "Where Forces Analysis Surfaced Gaps" paragraph accordingly.
-- Section 7's confidence summary omitted several forces' own Widely-Accepted/Documented sub-components that Section 3 itself states (Forces 1B-1, 1B-2, 3A-1). Fixed by adding them to the "Documented or Widely Accepted" bucket.
-- Force 2B-1 was declared identical to Confirmed Gravity C4 without acknowledging this sits against Doc_04's own force/gravity distinction. Fixed by adding one clarifying sentence to Force 2B-1's Layer 3.
-
-The companion Force_Index.xlsx was rebuilt to reflect all of the above — the "Force Index" sheet's 1B-2 row, the "By Connected Gravity" sheet's C1 and C4 rows, and the "Cross-Cell Connections" sheet's new Connection 8 row.
-
-**Round 2 review outcome and cosmetic pass:** A second independent adversarial review verified all five Round 1 fixes directly against the actual document text and against Doc_04, Doc_05, and Doc_07 (re-confirming, among other things, that Doc_04's Interaction Matrix genuinely records C2×C4 as "Reshaping," and that the "sung into the body along with the tune" phrase reapplied at Force 2B-2 is an exact match to Doc_05 Section 3.1) and found all five correctly and honestly implemented — no further substantial revision required. The review found four further items, all cosmetic:
-
-- Section 8's "four exceptions" framing conflated a permanent structural bridging case (Forces 1A-1/1A-2) with a since-fixed compliance violation (Force 3A-2) that, once corrected, is no longer an "exception" in the same sense. Fixed by restructuring the paragraph into two named categories, as reflected above.
-- Section 8's Proportionality Principle overclaimed that all thirteen forces connect to a Confirmed Gravity, contradicted by the document's own text: Forces 1A-2 and 3A-1 are precondition forces with no direct Layer 3 gravity connection. Fixed by naming this honestly — eleven forces connect directly, two connect only through the cross-cell connections they enable.
-- The Force_Index.xlsx "Force Index" sheet's Cross-Cell-Connections column was not applied bidirectionally in every row (e.g., 2B-1's row did not reciprocally show its incoming Connection 8 from 1B-2). Fixed by regenerating the column from the Section 4 connection list programmatically, so every force's row shows both its outgoing and incoming named connections.
-- The Force_Index.xlsx "Read Me" sheet's status line still described this as an un-reviewed draft. Fixed to reflect that this version already carries Round 1 and Round 2 review outcomes.
-
-**Post-Round-2 accounting correction (cosmetic, applied directly, no scholarship reopened):** Section 8's From-Within Principle paragraph still had a residual accounting gap after the Round 2 fixes: its opening sentence described only two compliant Layer 2 patterns (full inhabited rendering; explicit stated-absence) and never named Force 2B-2's own genuinely hybrid treatment — part inhabited rendering, part explicit absence — leaving 2B-2 uncategorized in the paragraph's own taxonomy even though its content was accurate. Fixed by naming a third, explicitly compliant pattern (the deliberate hybrid), cross-referenced to Doc_05's own established "Acknowledged hybrid register" precedent, so all thirteen forces are now accounted for in the paragraph's own opening framework rather than three of them requiring the reader to infer the categorization from the second paragraph alone. Section 1's completion-date field, which had been left at "PENDING (draft stage)" despite the document having already cleared independent review, was also corrected. This is a presentational/accounting fix only; no historical claim, citation, or confidence rating was reopened or reassessed.
-
-This revision round cleared independent adversarial review with no further substantial revision called for; Doc_08's current status is Approved to proceed by the project lead, 2026-07-08 (see Status line above).
-
----
-
 ## Section 1 — World Identification
 
 **World name:** Syriac Christianity (Edessa/Nisibis)

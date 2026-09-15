@@ -2,7 +2,7 @@
 ## World #7: Syriac Christianity (Edessa/Nisibis), c. 200–410 CE
 
 **Branch:** CiC-Phase1-CleanBuild-Syriac
-**Status:** Approved to proceed by project lead (Mark), 2026-07-08, in chat — cleared after two independent adversarial review rounds (Round 1: substantial revision; Round 2: all fixes confirmed, three cosmetic corrections applied directly per build-cycle discipline; see Revision Log)
+**Status:** Approved to proceed by project lead (Mark), 2026-07-08, in chat.
 **Governed by:** Construction Framework V7.3/V7.4_DRAFT, Part III (Ecological Reconstruction); Forces Framework V1.1, Step 5; Constitution Articles 22, 23; Doc_01–Doc_04 (all approved to proceed by the project lead, 2026-07-08)
 
 ---
@@ -22,25 +22,6 @@ Per Step 5, this document reconstructs this world's formation ecology — how pa
 | Ministry Ecology | Interpretive Ecology; Representative Theological Patterns; Power/Influence/Historical Dynamics |
 
 This document draws directly on Doc_04's classified gravities (Primary: C1 raza/shrara, C2 covenanted ascetic life; Supporting: C3 heresiology, C5 Diatessaron, C6 persecution-endurance; Tensional: C4 authority-structure ambiguity) as its own organizing spine, and does not introduce a competing account of what organizes this world.
-
-## Revision Log
-
-**Round 1 → Round 2 (substantial revision, per independent adversarial review):** The review found the lens-naming reconciliation table legitimate (not a cover-up), the twenty-year-silence passage (1.2) and the Ephrem-choir exclusion (1.1, 9) correctly handled, and the missing-voices section (2.3) substantively sound. Six issues required revision:
-
-- **Section 8 asserted a "Community↔Organizational" relationship (boundary-work/C3 and authority-ambiguity/C4) that directly contradicts Doc_04's own Interaction Matrix**, which records the C3×C4 cell as "No demonstrated relationship." This was a factual conflict with a governing prior document, not a matter of interpretation. Fixed by removing this claim and keeping Section 8's integration claims limited to what Doc_04's own matrix actually supports.
-- **Section 4.2 (Formation Logic) asserted, with no confidence tag at all, a confident claim about how authority ambiguity was actually lived and negotiated** — one paragraph after Section 4.1 correctly deferred to Doc_04's own finding that C4 failed its Formation test. Fixed by adding an explicit Reported-Experience-Status tag and rephrasing the claim as a structural inference rather than a lived-experience assertion.
-- **Section 2.1 overstated Doc_03's genre-history sourcing**, claiming Ephrem's madrashe used "the very meter and refrain-structure" Bardaisan and Mani had established — a more specific claim than Doc_03 1.4 actually supports (genre-level adoption, not metrical congruence) — under a flat "Documented" tag. Fixed by recalibrating the claim and its confidence tag to genre-level.
-- **Three inline named-scholar citations (Harvey, 2.3; Beck, 3.1; Koltun-Fromm, 5.1) broke Article 23's inhabited register** by naming a modern academic mid-sentence inside prose meant to render the world from within, rather than confining attribution to the bracket tag as the document's own stated convention requires. Fixed by moving all three into the bracket tags.
-- **Section 7's Proportionality Assessment over-generalized** a blanket "Ephrem's sections are fuller because the evidence is fuller" claim that does not hold uniformly across Human, Worship, and Ministry Ecology when checked against the document's own actual content (Human Ecology's Persian-side passage is in fact the fuller, more vivid one). Fixed by giving a more granular, honest assessment.
-- **Section 6 did not flag that Worship and Interpretive Ecology (3.1, 5.1) contain essentially no forces-constitutive material**, despite Doc_04's own C1 forces-connection notation supplying the connective tissue (the raza/shrara method's polemical intensification appears in hymn-genre works). Fixed by naming this as an open gap rather than leaving Section 6's summary silent about it.
-
-**On inhabited prose and evidentiary honesty:** per Article 23, prose below uses this world's own vocabulary (Doc_03's candidate terms) and renders its logic from within, without analytical-distance markers ("scholars believe," "the evidence suggests") inside inhabited passages. Where a passage renders lived experience for which only indirect or thin evidence exists, it is marked **Reported-Experience Status** rather than presented with the same confidence as directly attested material, and where no evidence supports a plausible-sounding inference at all, this document says so rather than inventing color.
-
-**Round 2 second-pass (cosmetic, no re-review required):** independent second-pass review confirmed all six Round 2 fixes above landed correctly and found no substantial issues. Three cosmetic items were fixed directly: (1) Section 9's cross-reference to the qyama↔authority-ambiguity thread mistakenly pointed to Section 5.3 (Power/Influence/Historical Dynamics, which does not discuss this) — corrected to point to 4.1/8, where the connection actually lives; (2) Section 3.1's single trailing citation tag read as covering both the choir/belonging claim and the liturgical-calendar claim when only the latter is Beck-sourced — split into two tags; (3) confirmed the Section 1.1 "trimmed" hedge on the qyama vow's moral weight is a pre-existing Round 1 disclosure, not an undocumented Round 2 change, and requires no further action.
-
-**Acknowledged hybrid register (Round 2 addition):** several passages below (e.g., 1.1, 1.2, 2.3, 4.2) explicitly narrate this document's own evidentiary choices ("this document does not narrate...", "this document declines to...") in the same paragraph as inhabited prose, where a purer Writing-From-Inside execution would confine that self-narration to the bracket tag alone. This is a deliberate, acknowledged compromise rather than an unnoticed lapse: at exactly the points where this world's own evidence runs out, naming the limit plainly seemed more honest than either inventing texture to fill it or removing the moment from the prose entirely. Step 6/7 builders drawing on this document should feel free to move this self-narration fully into bracket tags if a purer inhabited register is wanted at that stage.
-
----
 
 ## 1. Human Ecology
 

@@ -10,19 +10,6 @@
 
 ---
 
-## Revision Log
-
-### Round 1 → Round 2 (substantial)
-
-Round 1 was reviewed by an independent adversarial pass (`Review-Artifacts/Doc_01_Round1_Review.md` — "Simulated review — informational only, not an Article 31 substitute," per Constitution Article 31). Verdict: **SUBSTANTIAL REVISION REQUIRED**, 2 substantial + 3 cosmetic. Both substantial findings were Article 28 citation-integrity defects in the load-bearing scope argument (Section 1.2); everything else in the document (all dates, the Rubenson/Runia/Eusebius citations, Article 3/20/29 compliance, confidence calibration, Forces Step 1, and the structure of the broad-scope argument) tested clean and is unchanged.
-
-1. **Misattributed quotation (Section 1.2).** The judgment that the idea of a Christian school with a teacher-succession is "completely false … until the second decade of the third century" is **R. van den Broek's**, quoted approvingly *within* van den Hoek's 1997 article — not van den Hoek's own words. Corrected: attributed to van den Broek, with van den Hoek's own (compatible but distinct) argument stated separately.
-2. **Inverted scholarly position (Section 1.2).** Scholten was enlisted as a co-witness *against* the school-as-institution reading. He in fact **affirms** an institutional school, arguing only that "catechetical school" is a misnomer for what was the church's advanced *theological* school. Corrected: his position is now represented accurately and on the opposite side of the institution question — which strengthens rather than weakens the **Contested** rating (the disagreement is genuine and multi-directional). Propagated to the Section 11 summary.
-
-Three cosmetic corrections were applied in the same pass without a separate review cycle, per the build-cycle cosmetic-fix provision: (a) Scholten pagination resolved (JbAC 38 (1995): 16–37), removing the "to be confirmed" hedge; (b) the Coptic "Era of the Martyrs" clarified as reckoned from Diocletian's accession (284 CE), not the 303–313 persecution it sat next to (Section 4); (c) the Rubenson citation simplified to avoid the 1990/1995 edition-subtitle ambiguity (Section 3.3).
-
----
-
 ## 0. Purpose and Scope of This Document
 
 This document performs Step 1 of the Construction Framework for the Alexandria world: it establishes the world's candidate name and outer scope; its temporal, geographic, and cultural boundaries; how it is distinguished from adjacent worlds; the World Separation Criteria; the Strand Determination (Article 21); the Preliminary Forces Identification (Forces Framework Step 1); World Continuity & Distinction; and Living Tradition Status — before any source-ecology work begins. It does **not** contain source-ecology evidence, gravity discovery, or ecological reconstruction; those belong to Doc_02, Doc_04, and Doc_05 respectively. Its job is to fix the scope within which all subsequent work proceeds.

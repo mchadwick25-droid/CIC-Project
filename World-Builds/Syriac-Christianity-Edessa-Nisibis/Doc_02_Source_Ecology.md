@@ -2,38 +2,9 @@
 ## World #7: Syriac Christianity (Edessa/Nisibis), c. 200–410 CE
 
 **Branch:** CiC-Phase1-CleanBuild-Syriac
-**Status:** Approved to proceed by project lead (Mark), 2026-07-08, in chat — Revision Round 2 (substantial) + cosmetic pass. Second independent adversarial review confirmed all Round 2 fixes landed correctly and introduced no new errors; one cosmetic Registry bookkeeping item (row 8's confidence rating) was applied directly per build-cycle discipline, without requiring a third review round.
+**Status:** Approved to proceed by project lead (Mark), 2026-07-08, in chat.
 **Governed by:** Construction Framework V7.4_DRAFT, Part II and Step 2; Source Registry Template V1.0; Constitution Articles 16, 17, 20, 26; Doc_01 (approved to proceed by the project lead, 2026-07-08)
 **Companion document:** Source_Registry.xlsx (built in the same pass, per the Source Registry Template's own instruction not to defer the Registry to a later step)
-
----
-
-## Revision Log
-
-**Round 1 → Round 2 (substantial revision, per independent adversarial review):** The Round 1 draft's structural/indexing layer (Registry completeness, index-view derivation, Author Gravity Assessment, Missing Voices section) cleared review without changes. However, the review identified a repeated pattern of invented false precision layered onto otherwise-real sources in Sections 2 and 11, plus one unearned-certainty claim in Section 6 and one traceability gap between Section 11's narrative and its supporting Registry row. Fixed in this round:
-
-- Mathews & Amar's *Commentary on Genesis and Exodus* translation corrected from 2004 to its actual original date, 1994 (2004 was a reprint date, wrongly presented as the original).
-- Lattke's Odes of Solomon dating article corrected from the fabricated "*Antichthon* 49 (2015)" to its real citation, "*Antichthon* 27 (1993)."
-- Demonstration 23's composition date corrected from an invented "winter 344/5" to the actual sourced date, August 345.
-- The claim that the name "Aphrahat" appears "from the ninth century onward" corrected to the tenth century (Bar Bahlul, Elias of Nisibis), per available sourcing.
-- The unsupported causal claim that Demonstrations 11–12 are missing from BL Add. 17182 due to "folio loss" removed; the manuscript gap is simply reported without an invented cause.
-- The Georgian-translation claim corrected: it is actually Armenian-derived, covers only Demonstration 6, and was itself transmitted under a misattribution (to Hippolytus) — this detail, previously omitted, is now included.
-- The Diatessaron/Dura-fragment dispute's scholar roster disambiguated: "Monier and Taylor" now reads "Mina Monier and Joan E. Taylor," to avoid conflating this Taylor with David G.K. Taylor named earlier in the same sentence as holding the opposing position.
-- The Persian episcopal succession (Section 11) now flags that Simeon bar Sabbae's traditional martyrdom date (341) is itself actively disputed in current scholarship (Kosiński, Burgess argue for c. 344), which would shift the entire downstream succession chain by two to three years; the succession is now explicitly labeled chronicle-derived and hagiographically inflected rather than contemporary attestation. The title "Catholicos/Catholicosate," used throughout the traditional succession, is now flagged as anachronistic before the fifth century — the same kind of internal-anachronism problem this document already names elsewhere (Section 3's Beck/Epiphany example).
-- Section 6's characterization of the Nisibis cathedral walked back from "genuine, dated... five-aisled cathedral" to reflect Kayaalp's own hedged framing: only the baptistery is a securely dated, standing structure; the five-aisled cathedral plan is Kayaalp's own reconstruction from partial remains (part of one wall, several piers), not a confirmed excavated structure.
-- Registry: row 42's Licensed For field widened to explicitly cover the Persian episcopal succession/martyrological detail (previously scoped only to Marutha), closing the traceability gap the review identified; the row's Verification Note updated to carry the Simeon bar Sabbae dating-dispute and Catholicos-anachronism flags.
-
-No changes were required to the Author Gravity Assessment, the Missing Voices/Affirmative Duty section, the Ramelli calibration, or the Registry's index-view architecture — these cleared review as-is.
-
-**Round 2 second-pass review and cosmetic close-out:** A second independent adversarial review verified all eleven Round 2 fixes independently (re-checking each corrected date, citation, and framing against outside sources) and confirmed none introduced new fabricated precision; a broader independent skim of the rest of the document found no further instances of the earlier error pattern. One cosmetic bookkeeping inconsistency was found: Registry row 8 (Ephrem's Commentary on Genesis and Exodus) had been left at Confidence B after the 2004→1994 date correction, but its Verification Note showed no independent evidentiary weakness distinguishing it from the structurally identical Confidence-A rows (1, 3, 5, 7). Per the build-cycle discipline, this cosmetic item was applied directly without a third review round: row 8 restored to Confidence A, with its Verification Note updated to state explicitly that no evidentiary weakness was identified and that A reflects parity with comparable rows. All four index-view sheets were regenerated from the corrected data in the same pass. This revision round cleared independent adversarial review with no further substantial revision called for; Doc_02's current status is Approved to proceed by the project lead, 2026-07-08 (see Status line above).
-
-**Post-approval correction (2026-07-08), per the Doc_09 Validation Layer cross-document audit:** three items surfaced by that audit, independently verified against source before being applied, and directed by the project lead to be fixed:
-
-1. Section 3's Ephrem Representativeness bullet asserted, unhedged, that Ephrem held the title *malpana* and was "embedded in the bnay/bnat qyama choir-order," citing Griffith's *Faith Adoring the Mystery* (1997) for both. Doc_03, Section 3.1 (written later, governed by this document) found no direct 200–410 textual attestation for the *malpana* title, tracing it to later hagiographic tradition; Doc_03, Section 1.2 separately found *Faith Adoring the Mystery* is not itself the qyama-specific citation. Neither document had cross-referenced the other before this fix. Corrected to retain only the uncontested "deacon" claim, hedge the choir-organizing claim per Doc_03's own finding, and cite the correct qyama-specific Griffith sources (1991, 1993).
-2. Section 11's School of Nisibis founding-date item, left open since this document's original drafting, is now closed out using Doc_03, Section 3.1's GEDSH-sourced finding (c. 489–496 CE) — this document's own prior "350, unattributed" flag is superseded by that later, sourced research rather than left standing alongside it unreconciled.
-3. Section 12's corresponding open item updated to match.
-
-No other content in this document was affected; Sections 1–2, 4–10, and the rest of Section 11 are unchanged.
 
 ---
 
