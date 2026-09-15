@@ -605,3 +605,66 @@ merging, and moved onto the designated branch via fast-forward before
 opening the PR. The stray remote branch couldn't be deleted (permission
 denied) and was left in place, harmless — same commit, now also on the
 designated branch and in `main`.
+
+---
+
+## 2026-09-15 — Scheduled sweep: main's own tip broke again (Era VI/VII
+## dossiers), and LPC's own review caught — and correctly didn't fix — a
+## second round of the #204 collision
+
+**`main`'s own tip failing `check_paths.py` again, unrelated to the #204
+collision above.** Six new Source Readiness Dossiers landed for the
+upcoming Era VI/VII (Reformation-era) build run (PR #222); four cite
+`cic/corpus-map/` buckets that don't exist yet (`lollardy`,
+`lutheran-wittenberg-and-its-congregations`, `the-society-of-jesus`,
+`the-tridentine-church`). Checked, not assumed, that this is normal rather
+than a process error: every Era 1 dossier's own corpus-map file already
+exists, but the project's own `SOURCE-READINESS.md` explicitly allows a
+dossier to predate its corpus-map by years. **Fixed, PR #226 (merged,
+`302e95e0`):** baselined all four — one (`lutheran-wittenberg`) self-resolves
+once open PR #225 merges (its own diff creates that exact file); the other
+three are genuinely pending future vendoring.
+
+**Second LPC collision from the same #204 rename, this time caught first by
+LPC's own review thread, not this one.** `Doc08_Round6_Review.md` (a new
+file, didn't exist during the first collision) cited the pre-#204
+`Ministry/Technology/...` paths again. LPC's Round 6 reviewer independently
+investigated, correctly determined **not** to silently revert or re-fix
+`a6c48e26` (this thread's earlier fix), and instead reported the
+discrepancy precisely: checked `ls`/`git ls-tree` across every branch it
+could reach, found `Ministry/Technology/` and not `reference/method/`
+everywhere, and asked "whoever owns the rename" to decide. That check was
+accurate on its own terms but used the wrong frame — CI evaluates the PR's
+**merge ref** (head + current `main`), not any raw branch in isolation, and
+`main` has carried `reference/method/` since #204 merged. Replied on the PR
+with that distinction spelled out plainly, confirmed `a6c48e26` should
+stand, and fixed Round 6's own new instance (`d8471073`) — careful, on the
+first pass, to touch only the live citation (line 34) and not the
+historical narrative describing what `a6c48e26` renamed *from* (a
+`sed`-wide replace briefly corrupted that sentence; caught in the diff
+before committing, reverted precisely).
+
+**Three more legitimate LPC citations found and baselined in the same pass
+(PR #226's second commit, `ccfec047`):** `lpc_Decision_Log.md` and
+`Datus_Portrait_Prompt.md` both cite a not-yet-existing portrait image and
+`records/worlds.yaml` (LPC isn't registered there yet — `Datus_Portrait_Prompt.md`
+says so itself, in its own words, rather than guessing a slug); and
+`Doc08_Round6_Review.md`'s own narrative legitimately re-cites both old
+`Ministry/Technology/` paths as historical fact describing the rename —
+correct prose, not a stale reference, but `check_paths.py`'s path-matching
+can't tell the difference. All three citing files are on LPC's own
+still-open branch, not `main` yet — baselined proactively rather than
+waiting to hit the identical gap again once that branch merges. Verified
+via a disposable local merge of this thread's branch with LPC's current
+branch before pushing either commit.
+
+**Also swept clean this round:** fleet-size watch still at 9 (no change,
+well under the 15 trigger); doc-hygiene grep across everything touching
+`World-Builds/`, `world-build-docs/`, `cic/texts/`, `cic/corpus-map/`,
+`engine/`, `records/`, `cic-website/` since the last sweep — no stray
+TODO/debug/LLM-tell content, no `## Revision Log` recurrence.
+
+**Next action:** none pending. PRs #197 and #225 will show green once they
+next receive a push or a manual CI re-run — GitHub doesn't re-trigger
+checks on a PR just because its base branch advanced, and forcing one
+(an empty commit, a close/reopen) is against this thread's own rules.
