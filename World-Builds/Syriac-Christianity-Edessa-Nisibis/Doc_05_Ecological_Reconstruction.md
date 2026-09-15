@@ -23,6 +23,8 @@ Per Step 5, this document reconstructs this world's formation ecology — how pa
 
 This document draws directly on Doc_04's classified gravities (Primary: C1 raza/shrara, C2 covenanted ascetic life; Supporting: C3 heresiology, C5 Diatessaron, C6 persecution-endurance; Tensional: C4 authority-structure ambiguity) as its own organizing spine, and does not introduce a competing account of what organizes this world.
 
+**Acknowledged hybrid register.** Several passages below (e.g., 1.1, 1.2, 2.3, 4.2) explicitly narrate this document's own evidentiary choices ("this document does not narrate...", "this document declines to...") in the same paragraph as inhabited prose, where a purer Writing-From-Inside execution would confine that self-narration to the bracket tag alone. This is a deliberate, acknowledged compromise rather than an unnoticed lapse: at exactly the points where this world's own evidence runs out, naming the limit plainly seemed more honest than either inventing texture to fill it or removing the moment from the prose entirely. Step 6/7 builders drawing on this document should feel free to move this self-narration fully into bracket tags if a purer inhabited register is wanted at that stage.
+
 ## 1. Human Ecology
 
 ### 1.1 Formation Ecology — Practices, Habits, Disciplines
