@@ -190,6 +190,27 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # this field was added), so absence means "not joined yet," not
         # "wrong."
         "work_id": {"type": "string"},
+        # Library Access Gate D3 SS5 (Decision-Log 6, 7). What this record's
+        # subject IS in relation to the library. Checked for agreement with
+        # `edition` by engine/m9's source-kind. Optional, additive - not yet
+        # in COMPLETION_REQUIRED, same reasoning as work_id above: every
+        # existing source record (398 across the nine worlds) predates this
+        # field, and making it required here would fail them all at the
+        # schema layer rather than at source-kind's own waived finding.
+        "kind": {"type": "string", "enum": ["vendored", "unvendored", "absence"]},
+        # D3 SS5, Q5. For kind: absence only - strings that must NOT
+        # window-match in the file `edition` names. The compiler reads that
+        # (possibly off-shelf) file to verify, and logs the read; the
+        # Representative never sees it. Necessary, not sufficient: absence
+        # of a heading string is evidence the claim was checked, not proof
+        # of the claim.
+        "absence_probes": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        # D3 SS5, CM-1 (Decision-Log 3). The bucket row this source IS,
+        # copied from cic/corpus-map/<census_id>.yaml's own row_id - a
+        # string that exists, never guessed. Resolved (role, confidence,
+        # voice_of) at compile time into compiled/shelf.json; nothing
+        # derived is ever written here.
+        "shelf_row": {"type": "string"},
     },
     "term": {
         "plain_meaning": {"type": "string"},

@@ -5,9 +5,9 @@ time_window: {start: 100, end: 100}
 place: "Testland (synthetic, no real geography)"
 representative: {name: Vera, role_label: Witness}
 state: built
-census_id: null
+census_id: "fixture-synthetic"
 package:
-  manifest_hash: "sha256:7bfd5e711f12f20b745305d7cbd85f4063323a7a9acb0015fa80998acfbb4928"
-  location: "packages/fix/2026-09-04T16-41-58Z"
+  manifest_hash: "sha256:a7ce9e7e57e7353e7523ded91fff34eb3563cd9b57d43e3baacd389d5540b315"
+  location: "packages/fix/2026-09-15T05-48-51Z"
 thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
 living_tradition_flag: false

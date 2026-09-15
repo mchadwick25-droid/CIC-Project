@@ -1,0 +1,30 @@
+# HAND-AUTHORED - tradition-pair mutual-awareness rulings (CM-3, Library
+# Access Gate D3 section 3, Decision-Log entry 4). Not generated: a pair
+# ruling isn't naturally scoped to one cic/corpus-map/_staging/ volume the
+# way an author ruling is (D3 freeze check RF-9). "A slug is legal because a
+# ruling exists" - the same discipline UNATTRIBUTED.yaml already states for
+# its own author slugs, applied here to tradition pairs and their non-census
+# parties.
+#
+# Real fleet pairs (Donatists <-> Optatus' Catholics = mutual-awareness;
+# Alexandria <-> Eusebius' tradition = one-way, Q2's own worked examples)
+# are corpus-map's own thread's judgment call, not this workstream's - see
+# D3 section 3, CM-3's "judgment involved" column. This file carries only
+# the fixture pair the M9 selftest needs (increment 2, Q8's own scope).
+pairs:
+  - a: fixture-synthetic
+    b: fixture-synthetic-neighbour
+    relation: mutual-awareness
+    evidence: >-
+      Fixture pair for the M9 selftest only - the two fixture texts are
+      written as a documented exchange between the witness scroll and its
+      later summary, not a real historical relationship.
+    confidence: assigned
+    fixture: true
+parties:
+  fixture-synthetic-neighbour:
+    kind: fixture
+    evidence: >-
+      Non-census party for the M9 selftest's own fixture pair - not a real
+      tradition, never a target for real classification work.
+    fixture: true

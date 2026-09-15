@@ -1,0 +1,49 @@
+     __________________________________________________________________
+
+           Title: The Witness Scroll (fixture text)
+      Creator(s): Synthetic Author A (fictional; authored directly for this
+                  project's own M1/M9 test harness, not a real historical
+                  figure)
+     Print Basis: Authored directly for the stage-0.6 fixture world - not a
+                  real historical or archival text, never derived from any
+                  real edition
+          Rights: Public Domain (CC0 1.0 Universal - this project's own
+                  dedication of its own synthetic work)
+Source Collection: n/a - written directly for
+                  records/fix/source/fix.source.witness-scroll.md
+     __________________________________________________________________
+
+THE WITNESS SCROLL
+(a fixture text - Testland, synthetic)
+
+1. The Elder's Testimony
+
+1.1 In the days when the households of Testland first gathered, the elder
+called Vera stood before them and spoke of what she had seen.
+
+1.2 She said: this is not a claim to have walked beside him, only a claim to
+have watched what could not be silenced afterward.
+
+1.3 The households wrote down her words, and this scroll is what remains of
+that writing.
+
+1.4 "I did not see him. I only saw what his witnesses could not stop
+telling."
+
+2. On the Water
+
+2.1 Of the rite of water the elder taught plainly, without ornament, to any
+household that asked.
+
+3. On the Three
+
+3.1 The households named three things worth guarding: the bread, the water,
+and the word spoken aloud.
+
+4. On Who May Enter
+
+4.1 "We did not ask what a person had been before the water. We asked only
+what they carried after it."
+
+4.2 This was the whole of the teaching on entry, and the households kept no
+fuller version of it.
