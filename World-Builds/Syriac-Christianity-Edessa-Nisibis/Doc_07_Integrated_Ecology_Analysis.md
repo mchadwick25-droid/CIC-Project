@@ -2,7 +2,7 @@
 ## World #7: Syriac Christianity (Edessa/Nisibis), c. 200–410 CE
 
 **Branch:** CiC-Phase1-CleanBuild-Syriac
-**Status:** Approved to proceed by project lead (Mark), 2026-07-08, in chat — Round 1 (six substantial fixes applied) and Round 2 (all six independently confirmed correct, one new narrow invented-precision issue found and fixed as a cosmetic pass) both cleared independent adversarial review; see Revision Log
+**Status:** Approved to proceed by project lead (Mark), 2026-07-08, in chat.
 **Governed by:** Construction Framework, Step 7 (Part VII, Reference Workflow), per the L4 Integrated Ecology Analysis Template; Forces Framework Steps 1–7; Constitution Articles 17, 22, 23; Doc_01–Doc_06 (all approved to proceed by the project lead, 2026-07-08)
 **Voice:** Analytical throughout — this is a construction record, not a runtime document
 
@@ -180,7 +180,7 @@ Two things about this step's own governing text are named here rather than worke
 
 ### 2I — Material Culture [OPTIONAL — not applied]
 
-This lens is not applied. This world's only substantial material-culture evidence is the Nisibis baptistery and reconstructed cathedral complex (Doc_02, Source Registry #22, citing Elif Keser Kayaalp). Doc_02's own revision history already walked this evidence back from an earlier overclaim: the baptistery itself is securely dated, but the fuller cathedral-plan reconstruction is Kayaalp's own hedged, non-consensus proposal rather than a settled archaeological fact (Doc_02, Revision Log). Doc_05 never developed a dedicated Material Culture ecology section on the strength of this evidence, folding what little is securely established into Worship Ecology (Doc_05, Section 3) instead. This document does not manufacture a distinct Material Culture lens on evidence this project's own prior research has already found too thin and too contested to support one. This is named here as a genuine evidentiary gap, not a lens the builder declined to pursue — see Section 6.
+This lens is not applied. This world's only substantial material-culture evidence is the Nisibis baptistery and reconstructed cathedral complex (Doc_02, Source Registry #22, citing Elif Keser Kayaalp): the baptistery itself is securely dated, but the fuller cathedral-plan reconstruction is Kayaalp's own hedged, non-consensus proposal rather than a settled archaeological fact (Doc_02, Section 6). Doc_05 never developed a dedicated Material Culture ecology section on the strength of this evidence, folding what little is securely established into Worship Ecology (Doc_05, Section 3) instead. This document does not manufacture a distinct Material Culture lens on evidence this project's own prior research has already found too thin and too contested to support one. This is named here as a genuine evidentiary gap, not a lens the builder declined to pursue — see Section 6.
 
 ---
 

@@ -3,7 +3,7 @@
 
 **World (registry name):** Cappadocian Christianity (world_id `cappadocian-trinitarian`)
 **World code:** cappadocian
-**Build track:** Recovered from `origin/CiC-Fable-Cappadocian` (2026-08-30), revised in place under CF V7.4 after independent adversarial review found the original (built under V7.3, single autonomous Fable run) had fifteen blocking defects. This revision keeps everything the review did not challenge and rewrites what it did; see `CAPPADOCIAN_BUILD_LEDGER.md` §5 for the review record.
+**Build track:** Recovered from `origin/CiC-Fable-Cappadocian` (2026-08-30), revised in place under CF V7.4 to correct fifteen blocking defects in the original (built under V7.3, single autonomous Fable run). This revision keeps what was sound and rewrites the rest; see `CAPPADOCIAN_BUILD_LEDGER.md` §5 for the full record.
 **Step:** 1 of 10 (Construction Framework V7.4, Part VII)
 **Governed by:** Construction Framework Parts I–II; Forces Framework; Constitution Articles 20, 21, 22.
 **Step 0 seed:** this world is seed #5 of the Step-0 portfolio (`reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx`), selected 2026-08-30 for recovery-and-audit per the Record-Native World Build Process V1.2's own instruction (a substantially built orphan takes priority over an unbuilt candidate).

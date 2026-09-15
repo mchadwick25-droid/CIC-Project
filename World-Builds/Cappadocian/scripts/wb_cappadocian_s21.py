@@ -215,11 +215,10 @@ NPNF208 = ("Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters a
            "Works), ed. Schaff, vendored as cic/texts/npnf208_basil-letters-select-works.xml")
 NPNF207 = ("Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory "
            "Nazianzen), ed. Schaff, vendored as cic/texts/npnf207_cyril-jerusalem-gregory-"
-           "nazianzen.xml (covers the Orations and 96 of the ~245 letters with actual body text "
-           "-- corrected 2026-09-08, Round 4 Opus review, from this constant's own stale 'only "
-           "Epp. 101, 102, 202' claim, superseded by Source_Registry.md row 31's own direct "
-           "census; De vita sua and the autobiographical poems are NOT within this edition as "
-           "continuous text -- no Poem-type div exists in the file, row 36)")
+           "nazianzen.xml (covers the Orations and 96 of the ~245 letters with actual body text, "
+           "per Source_Registry.md row 31's own direct census; De vita sua and the "
+           "autobiographical poems are NOT within this edition as continuous text -- no "
+           "Poem-type div exists in the file, row 36)")
 NPNF205 = ("Nicene and Post-Nicene Fathers, 2nd series, vol. 5 (Gregory of Nyssa: Dogmatic, "
            "Ascetic, and Moral Treatises, Letters), ed. Schaff, vendored as "
            "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt")
@@ -603,19 +602,17 @@ def build_sources() -> dict[str, str]:
     ids["gregory-nazianzus-orations-general-corpus"] = emit_source(
         31, "gregory-nazianzus-orations-general-corpus", "Gregory of Nazianzus (c. 329/30-c. 390)",
         "Gregory of Nazianzus, Orations (general corpus; carries 99 Letter divs, 96 with "
-        "actual body text, out of ~245 -- corrected 2026-09-08, Round 4 Opus review, from this "
-        "string's own stale 'covers only Epp. 101, 102, 202' claim)", NPNF207, "v", "attributed",
+        "actual body text, out of ~245)", NPNF207, "v", "attributed",
         "B", "named-not-rechecked", "load-bearing", "Widely Accepted", None,
         "Grounds the Trinitarian-confession gravity (the five Theological Orations) and the "
         "stillness-vs-office pull gravity candidate (Oration 2, next-but-three record) (row "
-        "31). Coverage gap corrected 2026-09-08, Round 1-4 Opus review, from this record's own "
-        "stale claim: the Sasima letters, Ep. 58, and Ep. 197 are all CONFIRMED PRESENT (rows "
+        "31). The Sasima letters, Ep. 58, and Ep. 197 are all CONFIRMED PRESENT (rows "
         "39, 40, Confidence A), not gaps.")
     ids["gregory-nazianzus-oration-14-love-of-poor"] = emit_source(
         32, "gregory-nazianzus-oration-14-love-of-poor", "Gregory of Nazianzus",
         "Gregory of Nazianzus, Oration 14, On the Love of the Poor -- NOT within npnf207 "
-        "(corrected 2026-09-08, Round 1 Opus review: only a Prolegomena catalogue mention "
-        "exists, not the oration's own text)", "na", "na", "attributed",
+        "(only a Prolegomena catalogue mention exists, not the oration's own text)",
+        "na", "na", "attributed",
         "C", "named-not-rechecked", "corroborating", "Inferential-Thin", None,
         "The poor-institutionalized gravity candidate (row 32). Named specifically (bolded) by "
         "Doc_02 SS1.2 alongside the Theological Orations, the funeral orations, and Oration 2 "
@@ -680,8 +677,7 @@ def build_sources() -> dict[str, str]:
     ids["gregory-nazianzus-epistle-197-theosebia"] = emit_source(
         39, "gregory-nazianzus-epistle-197-theosebia", "Gregory of Nazianzus",
         "Gregory of Nazianzus, Epistle 197 (consolation to Gregory of Nyssa, honoring "
-        "Theosebia)", "CONFIRMED PRESENT in the vendored npnf207 edition -- corrected "
-        "2026-09-08, Round 1 Opus review, from this record's own stale 'not within' claim: "
+        "Theosebia)", "CONFIRMED PRESENT in the vendored npnf207 edition: "
         "Letter CXCVII, div4 id iv.iv.ii.viii, 'A Letter of Condolence on the Death of His "
         "Sister Theosebia'", "v", "attributed",
         "A", "verified-via-authority", "corroborating", "Widely Accepted", None,
@@ -692,8 +688,7 @@ def build_sources() -> dict[str, str]:
     ids["gregory-nazianzus-sasima-letters"] = emit_source(
         40, "gregory-nazianzus-sasima-letters", "Gregory of Nazianzus",
         "Gregory of Nazianzus, the Sasima letters (48-50) and Epistle 58",
-        "CONFIRMED PRESENT in the vendored npnf207 edition -- corrected 2026-09-08, Round 1 "
-        "Opus review, from this record's own stale 'not within' claim: Letters XLVIII, XLIX "
+        "CONFIRMED PRESENT in the vendored npnf207 edition: Letters XLVIII, XLIX "
         "('To Basil. (The Praises of Quiet.)'), L, and LVIII all present, div3 ids "
         "iv.iii.xviii-xxi", "v", "attributed", "A", "verified-via-authority", "load-bearing",
         "Widely Accepted", None,
@@ -1140,9 +1135,7 @@ def build_sources() -> dict[str, str]:
         "anyone", NPNF208, "v", "attributed",
         "C", "named-not-rechecked", "load-bearing", "Widely Accepted", None,
         "Eupsychius' martyrdom and its annual feast, Doc_02 SS8's newly-added Tier 1 story "
-        "candidate -- and this world's own corrected self-description (row 83). Correction "
-        "carried forward at full strength: an earlier Registry draft named this row 'homilies "
-        "on Eupsychius' feast' by Basil and Gregory of Nyssa -- Doc_02 SS3 is explicit that no "
+        "candidate (row 83). Doc_02 SS3 is explicit that no "
         "In Eupsychium homily is attested by anyone (unlike the Forty, Gordius, Julitta, and "
         "Mamas homilies at row 20); only the feast itself is Documented. The martyrdom's "
         "narrative content, absent a homily, would most likely come from Sozomen HE 5.11 (row "
