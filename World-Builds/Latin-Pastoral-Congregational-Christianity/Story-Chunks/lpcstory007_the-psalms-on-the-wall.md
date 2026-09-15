@@ -36,7 +36,7 @@ The city was under siege by the Vandals while this happened.
 
 **Gravities: G2 (Penitential Discipline), G1 (Pastoral Office).** Doc_04 finds that G2 does not persist into the second phase under its own name — what survives is a family resemblance to the gravities Doc_04 classifies separately. **This story is the sharpest single piece of evidence for that finding.** The penitential logic is unmistakably present; the crisis-era machinery of certificates, councils and the lapsed is entirely gone. What is left is a bishop doing penance in a bedroom.
 
-**What it shows that other evidence does not show as directly.** Augustine wrote a great deal about repentance. **This is the only place in this world's record where a man who spent his life adjudicating other people's penitence is seen performing his own**, and the specific detail — the psalms copied out because he wanted them where he could see them, and the weeping — is the kind of thing only a friend in the room records.
+**What it shows that other evidence does not show as directly.** Augustine wrote a great deal about repentance. **This is the only place in this world's record where a man who spent his life adjudicating other people's penitence is *watched* performing his own** **[CORRECTED, 2026-09-15 — Round 6's L12:** *"is seen"* is refuted on the natural reading by the *Confessions* (row 9, Native, vendored), which is a bishop's book-length self-examination. The claim this chunk can make is about an **external observer**, not about self-examination.**]**, and the specific detail — the psalms copied out because he wanted them where he could see them, and the weeping — is the kind of thing only a friend in the room records.
 
 **Why it belongs in the encounter.** Doc_08's Force 3B-1 finds that this world's corpus outlives it and 3A-1 that the invasion closes it. This story sits exactly on that seam: a man preparing his own death by the rules he taught, giving away nothing because he owns nothing, and issuing one instruction about the future — **keep the books** — while an army sits outside the walls. This world's end and its transmission are the same scene.
 
@@ -52,13 +52,17 @@ The city was under siege by the Vandals while this happened.
 
 At `lpcstory002` the disputed content is **a sermon Pontius heard and later reconstructed** — his access to the words is indirect even though his access to the occasion was direct, and reported speech is the thing most altered in transmission. Here the disputed content is **what Possidius watched happen in a room he was in**: sheets on a wall, a man weeping, a request for privacy, a death. **Praise shapes what a witness selects and how he frames it; it does not usually manufacture the furniture.** That is why the band holds at Documented for the events, and why the Usage Guidance below still requires the praise-character to be named when the Representative uses them.
 
-**One limitation stated rather than absorbed.** Possidius is writing in praise, and a life written by a forty-year friend is not neutral. The ordinary corrective — check the detail against another witness — is unavailable: **no second account of Augustine's death exists in this corpus.** The tier rests on the eyewitness claim and the absence of genre machinery, not on corroboration.
+**One limitation stated rather than absorbed.** Possidius is writing in praise, and a life written by a forty-year friend is not neutral. The ordinary corrective — check the detail against another witness — is **partly** available, and an earlier version of this field denied it outright. **Prosper of Aquitaine's *Epitoma Chronicon* (`Source_Registry.md` row 203, Native, vendored) independently attests the death at a. 430**: *"Aurelius Augustinus episcopus per omnia excellentissimus **moritur** V. kl. Sept., libris Iuliani **inter impetus obsidentium Vandalorum**"* — the death, its date, and the siege around it, from a contemporary chronicler outside Hippo. **What Prosper does not give is the room**: the psalms on the wall, the request not to be disturbed, the ten days. For those, Possidius is the only witness, and the tier rests on his eyewitness claim and the absence of genre machinery. **[CORRECTED, 2026-09-15 — Round 6's H1:** this read *"no second account of Augustine's death exists in this corpus,"* which row 203 refutes — a row acquired precisely to close this world's end-window, and cited by number in Doc_08 and Doc_02 §5. Sixth consecutive round of this document's signature defect: a silence asserted about a source, which the source refutes.**]**
 
 ---
 
-**Transcription corrections to the Story Text above.** These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
+### Transcription corrections to the Story Text above
+
+ These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
 
 - **[CORRECTED, 2026-09-15 — Round 1's L5:** an earlier version of the Tier Justification quoted *"we who were present"* as though it were Possidius's own clause.**]**
+
+---
 
 ## Usage Guidance
 
@@ -68,9 +72,11 @@ The Representative may draw on this as remembered history, **with Possidius name
 
 Second: the siege is real and should not be made symbolic. Hippo fell. **What Possidius records is the instruction, not its outcome** — he does not say whether the library survived, and this chunk does not either. What Doc_08 §4 establishes separately is that this world's inheritance was secured by copying rather than by the siege, and names that a coincidence rather than a cause. **[CORRECTED, 2026-09-15 — Round 1's L10:** an earlier version stated that the library *"largely survived,"* attributing an outcome to a source that reports only the order.**]**
 
+---
+
 ## Absent Story Note
 
-**No one outside the room recorded this, and one person in it did all the recording.** Possidius is the only witness to Augustine's last weeks; **no second account of his death exists anywhere in this corpus**, so the ordinary corrective of checking a detail against another witness is unavailable here and nowhere else in this repository is a Tier 1 story so wholly dependent on one man.
+**No one outside the room recorded this, and one person in it did all the recording.** **Possidius is the only witness to the last weeks** — the psalms, the request, the ten days. The death itself is corroborated: **Prosper's *Chronicon* (row 203) records it, with its date and the siege**, from outside Hippo. **What no second source gives is the interior of the sickroom**, and for that this story depends on one man more completely than any other Tier 1 story in this repository. **[CORRECTED, 2026-09-15 — Round 6's H1:** this said *"no second account of his death exists anywhere in this corpus."* It does — row 203, Native and vendored.**]**
 
 **The city outside is not absent — this note previously said it was.** Possidius records the invasion at length in the same span this chunk cites: congregations *"despoiled and stripped of all their goods and begging in abject poverty"*; *"of the innumerable churches he saw only three survive, namely those of Carthage, Hippo and Cirta"*; and, plainly, that *"after Augustine's death the city of Hippo, abandoned by its inhabitants, was burned by the enemy."* **[CORRECTED, 2026-09-15 — Round 4's H2.** The Round 3 version asserted that what the siege was like for the congregation *"is not recorded by him or by anyone else,"* and that *"this world's record follows its bishop to the end and then stops."* **Both are refuted inside *Vita* XXVIII — within the span this chunk itself cites** — and the chunk's own Usage Guidance already said *"Hippo fell."***]**
 

@@ -58,7 +58,9 @@ Pontius reaches for a comparison and finds it insufficient. "Something more was 
 
 ---
 
-**Transcription corrections to the Story Text above.** These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
+### Transcription corrections to the Story Text above
+
+ These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
 
 - **[CORRECTED, 2026-09-15 — Round 1's L3:** *"in the streets"* was this document's detail; the source says *"over the whole city."***]**
 
@@ -68,16 +70,18 @@ Pontius reaches for a comparison and finds it insufficient. "Something more was 
 
 - **[CORRECTED, 2026-09-15 — Round 1's H1:** an earlier version of this chunk ended here with *"Pontius does not say what the congregation did next. He moves on."* **He does say, in §10, and the sentence quoted above is the direct answer to the address.** The chunk rested on §9 alone, and **no upstream document in this build had ever cited §10.** The error is the shape this build keeps producing: reading to a chosen boundary, then asserting a negative about what lies past it.**]**
 
+---
+
 ## Usage Guidance
 
 The Representative may draw on this as remembered history, **with Pontius named** and the reported-speech character acknowledged where it matters: this is what the bishop's deacon remembered him saying. The Representative should not present the address as a verbatim transcript.
 
 **Additional guidance.** Two cautions. First, **the story does have an ending and it is Pontius's, not this build's** — he records that relief went to all comers, and the Representative may say so, **with the source's own character named**: this is the bishop's deacon reporting that the bishop's instruction was obeyed, in a work written in his praise. That is not the same evidentiary object as an outside witness, and the Representative should not present it as one. **[CORRECTED, 2026-09-15 — Round 1's H1:** this passage previously instructed the Representative to say *"we are not told what they did."***]** Second, this story is easily flattened into a modern account of Christian charity during epidemics. The specific thing Cyprian is reported to have asked for is narrower and harder: not care for the sick generally, but care for *the people persecuting them*. If a participant asks whether that happened, the answer is what Pontius records — that relief went *"to all men, not to those only who are of the household of faith"* — and that he does not say whether any of those men were the persecutors the address named. **The wider question is answered; the narrow one is not.** **[CORRECTED, 2026-09-15 — Round 5's M6:** this field closed by telling the Representative *"this world's own record does not say,"* three sentences after the same field said Pontius does record the outcome — Round 1's H1 at a third site in this chunk. The flat denial is what was wrong; the narrow question genuinely is unanswered.**]**
 
+---
+
 ## Absent Story Note
 
 **What a participant will want and this story cannot give: whether the enemies were actually cared for.** Pontius records that relief went *"to all men, not to those only who are of the household of faith"* — but that is a bishop's deacon summarising, in a work of praise, and it is the only account we have. **No pagan Carthaginian left a word about being helped by Christians during this epidemic**, and no Christian outside Pontius describes the operation. The absence is a survivorship gap of the ordinary kind: relief work leaves no documents, and the people on the receiving end of this one were not writing. What it honestly tells us is that this world's most attractive claim about itself rests, at this point, on a single friendly witness.
-
-**[ADDED — Round 1's L8; the rollout decision and its exceptions are stated once in Doc_09 §7.**]**
 
 ---

@@ -40,9 +40,13 @@ And he thanks them — for being asked. The Numidian bishops, he says, "wished u
 
 ---
 
-**Transcription corrections to the Story Text above.** These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
+### Transcription corrections to the Story Text above
+
+ These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
 
 - **[CORRECTED, 2026-09-15 — Round 1's L4:** an earlier version printed *"to be rescued"* inside the quotation marks.**]**
+
+---
 
 ## Usage Guidance
 
@@ -50,10 +54,10 @@ The Representative may draw on this as remembered history, **with Cyprian named*
 
 **Additional guidance.** The Representative should resist converting the sum into modern currency. Doc_02 vendors no source that would license a conversion, the purchasing-power comparison is contested among specialists, and a confident figure would be this build's invention rather than this world's testimony. **The honest answer to "how much was that?" is that it was collected from one congregation's clergy and people for the ransom of people most of them had never met, and that the letter does not tell us what proportion of anything it represented.**
 
+---
+
 ## Absent Story Note
 
 **We do not know whether the ransom worked.** The letter records the sum sent, the collection that raised it, and the instruction to dispense it — and then this world's record stops. **No source says whether the captives were recovered, how many, or at what price per person.** Cyprian never writes again about the outcome, and the Numidian bishops' reply, if there was one, does not survive. A participant asking "did they get them back?" should be told plainly that the story ends with the money leaving Carthage.
-
-**[ADDED — Round 1's L8; the rollout decision and its exceptions are stated once in Doc_09 §7.**]**
 
 ---

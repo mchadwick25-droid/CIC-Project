@@ -125,6 +125,19 @@ for p in sorted(CHUNKS.glob("lpcstory*.md")):
     for sec in ("## Story Text", "## Formation Ecology Connection", "## Tier Justification", "## Usage Guidance"):
         if sec not in t:
             sys.exit(f"FATAL: {p.name} is missing the required section '{sec}'. Refusing to emit.")
+    # Round 6's LOW-7: Round 5 moved eight notices out of Story Text by hand
+    # and did not add the guard its own fix note called for. Story Text is the
+    # field Doc_10 consumes as deployable narrative; a build-process notice in
+    # it is not deployable. Nothing stopped the next pass from writing one back.
+    _st = raw.split("## Story Text", 1)
+    if len(_st) > 1:
+        _body = re.split(r"\n## ", _st[1])[0]
+        _n = NOTICE.findall(_body)
+        if _n:
+            sys.exit(f"FATAL: {p.name} carries {len(_n)} build-process notice(s) "
+                     f"inside ## Story Text ({_n[0][:60]!r}...). Story Text is the "
+                     "field Doc_10 consumes as deployable narrative. Move them to "
+                     "Tier Justification. Refusing to emit.")
     if s["tier"] == "4" and "## Source Identification" not in t:
         sys.exit(f"FATAL: {p.name} is Tier 4 and has no Source Identification section, which the "
                  "L4 template requires for Tier 4 only. Refusing to emit.")
@@ -242,7 +255,12 @@ for s in stories:
     # FEWER rows than the chunk with no halt -- which is how MEDIUM-4's
     # divergence (§3: row 1; index: rows 1, 191, 194) reached committed
     # output uncaught. Both directions are compared now.
-    _missing = set(s["rows"]) - csrc_rows
+    # Round 6's LOW-4: s["rows"] holds raw capture groups such as "191/194"
+    # while csrc_rows is already split, so a correct chunk halted. Fails
+    # closed, but a guard that cannot be satisfied by correct input is a
+    # defect. Both sides are split now, as the neighbouring comparisons are.
+    _srows = {r for grp in s["rows"] for r in re.split(r"[/,]\s*", grp)}
+    _missing = _srows - csrc_rows
     if _missing:
         problems.append(f"{s['id']}: the chunk draws on row(s) {sorted(_missing)} "
                         f"that Doc_09 §3's Source column does not name")
@@ -304,7 +322,16 @@ def boundary(row):
         if cc in ("Native", "Excluded"): return cc
     return "status not parsed"
 
-allrows = sorted({r for s in stories for grp in s["rows"] for r in re.split(r"[/,]\s*", grp)}, key=int)
+# Round 6's MEDIUM-4: this was built from s["rows"] only, so any row routed
+# into rows_excluded -- by a negation OR by the AVAIL_CLAUSE vocabulary added
+# at Round 5 -- was never boundary-checked at all. One ordinary word
+# ("available", "pending") took an Excluded row out of the guard whose output
+# prints "The check is mechanical". Round 5 fixed an instance and enlarged the
+# class; this checks BOTH sets, which closes it without a vocabulary.
+# A row this world may not use is a breach whether or not a chunk claims it
+# used it, so polarity is irrelevant to the boundary question.
+allrows = sorted({r for s in stories for key in ("rows", "rows_excluded")
+                  for grp in s[key] for r in re.split(r"[/,]\s*", grp)}, key=int)
 bmap = {r: boundary(r) for r in allrows}
 bad = [r for r, v in bmap.items() if v != "Native"]
 if bad:
@@ -334,7 +361,8 @@ _fixed = sorted(int(m) for m in re.findall(r"\|\s*Round (\d+) fix pass", doc))
 FIXED = _fixed[-1] if _fixed else 0
 _NW = {0: "No", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six"}
 w(f"**Status:** " + ("**DRAFT — not reviewed, not self-disposed.**" if not NR else
-   f"**REVISED after Round {LATEST} — the revision is unreviewed, and not self-disposed.**") +
+   f"**REVISED after Round {FIXED} — the revision is unreviewed, and not self-disposed.**"
+   if FIXED else "**DRAFT — not reviewed, not self-disposed.**") +
   " Co-output of Construction Step 9 with `Doc_09_Story_Inventory.md` and `Story-Chunks/`; reviewed and disposed of together.")
 w(f"**Review history, counted from `Review-Artifacts/` rather than typed:** "
   + (f"{_NW.get(NR, NR)} round(s) — " + ", ".join(f"Round {r}" for r in _rounds) if NR else "none run")
@@ -377,6 +405,7 @@ GUARD_LABELS = (
     "a chunk missing a front-matter field",
     "a chunk missing a required section",
     "a Source clause that claims both use and non-use of the same row",
+    "a build-process notice inside a chunk's deployable Story Text",
     "this list itself falling out of step with the script's halting-site count",
 )
 if len(GUARD_LABELS) != _NHALT:
@@ -451,7 +480,14 @@ for s in stories:
     # emits; it is printed derived so that the table cannot go stale if a
     # guard is ever relaxed, and the redundancy is the point.)
     in_tiers = s["tier"] in {"1", "2", "3", "4"}
-    in_band = any(b in s["conf"] for b in BANDS[s["tier"]])
+    # Round 6's LOW-3: Round 5's L9 rewrote the GUARD to compare whole tokens
+    # with a not-lookbehind and left this renderer on the old substring test,
+    # so "Not Documented" printed as "**Yes** -- Not Documented". This line is
+    # the backstop the comment below calls the point of the duplication; a
+    # backstop weaker than the guard it backs is not redundancy.
+    in_band = bool({b for b in BANDS[s["tier"]]
+                    if re.search(r"(?<!\bnot )(?<!\bNot )\b" + re.escape(b) + r"\b",
+                                 s["conf"])})
     w(f"| `{s['id']}` | {s['tier']} | {'**Yes**' if in_tiers else '**NO**'} | "
       f"{('**Yes** — ' + s['conf']) if in_band else '**NO** — ' + s['conf']} |")
 w("")

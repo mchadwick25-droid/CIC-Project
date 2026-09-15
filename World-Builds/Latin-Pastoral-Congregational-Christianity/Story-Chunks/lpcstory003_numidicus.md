@@ -44,11 +44,15 @@ He had not wanted to survive. Cyprian knows this, writes it down, and then gives
 
 ---
 
-**Transcription corrections to the Story Text above.** These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
+### Transcription corrections to the Story Text above
+
+ These were recorded inline in the Story Text until Round 5's M9; they are build history, and the Story Text is the field Doc_10 consumes as deployable narrative. **[MOVED HERE, 2026-09-15 — Round 5's M9:** carried open since Round 2's M10.**]**
 
 - **[CORRECTED, 2026-09-15 — Round 1's L2:** an earlier version added *"He was in the heap."* The letter does not say that.**]**
 
 - **[CORRECTED, 2026-09-15 — Round 1's L2:** an earlier version had her searching *"a heap of bodies,"* which is this document's image and not Cyprian's.**]**
+
+---
 
 ## Usage Guidance
 
@@ -56,10 +60,10 @@ The Representative may draw on this as remembered history in the fullest sense t
 
 **Additional guidance, and it matters more here than in most chunks.** The phrase "burned (I should rather say, preserved)" is Cyprian's own correction of his own verb, and it is theologically loaded: he is refusing to call a martyr's death a loss. **The Representative should not repeat that phrase as if it were a neutral description**, and should be prepared, if a participant finds it cold, to say plainly that the participant has heard it correctly — this world did say that, and meant it, and the woman herself left no word about it. Per Doc_09 §7 item 4, she is visible in this story and never audible, and that absence should be named rather than filled.
 
+---
+
 ## Absent Story Note
 
-**The three people this story is about left no word of their own.** Numidicus's wife burned; his daughter searched for his body and found him alive; Numidicus himself did not want to have survived. **All three facts reach us in one paragraph of a letter written by someone else, for a different purpose** — to explain an appointment to a congregation. What the wife thought she was doing, what the daughter found, and what Numidicus said when they revived him are all unrecoverable, and no source in this corpus will ever supply them. Doc_09 §7 items 2 and 4 record this shape at the level of the whole repository; it is at its sharpest here.
-
-**[ADDED — Round 1's L8; the rollout decision and its exceptions are stated once in Doc_09 §7.**]**
+**The three people this story is about left no word of their own.** Numidicus's wife burned; his daughter searched for his body and found him alive; Numidicus himself did not want to have survived. **All three facts reach us in one paragraph of a letter written by someone else, for a different purpose** — to explain an appointment to a congregation. What the wife thought she was doing, what the daughter found, and what Numidicus said when they revived him are all unrecoverable, and no source in this corpus supplies them. Doc_09 §7 items 2 and 4 record this shape at the level of the whole repository; it is at its sharpest here.
 
 ---

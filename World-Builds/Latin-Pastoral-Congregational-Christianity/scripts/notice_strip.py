@@ -56,7 +56,14 @@ TAGS = (r"CORRECTED|ADDED|MOVED HERE|MOVED|REVISED|RE-FILED|WITHDRAWN"
 # The body of a notice runs to the first `]**`. It may itself contain a
 # `]` — a [sic], a Markdown link, a bracketed gloss — so stop only at a
 # `]` that is actually followed by `**` (Round 5's LOW-17).
-_BODY = r"(?:[^\]]|\](?!\*\*))*?"
+# Round 6's MEDIUM-5: with re.S this body could cross blank lines, so a
+# notice whose terminator was mistyped `.]` instead of `.**]**` swallowed
+# every paragraph up to the NEXT well-formed notice anywhere later in the
+# file -- which made live()'s stated contract ("never deletes prose outside
+# a bracket") false. In this build a notice never spans paragraphs, so the
+# body may not contain a blank line. An unterminated opener now simply
+# fails to match, leaving its text standing, which is the safe direction.
+_BODY = r"(?:[^\]\n]|\n(?!\n)|\](?!\*\*))*?"
 
 # A complete notice span, from the opening bracket to its `]**` terminator.
 _NOTICE = re.compile(r"\*{0,2}\[(?:" + TAGS + r")\b" + _BODY + r"\]\*\*", re.S)
@@ -64,6 +71,22 @@ _NOTICE = re.compile(r"\*{0,2}\[(?:" + TAGS + r")\b" + _BODY + r"\]\*\*", re.S)
 # A Form B stamp: a notice span whose body never re-opens bold. In Form A
 # the `:**` that introduces the narration always does.
 _STAMP = re.compile(r"\[(?:" + TAGS + r")\b[^*\]]*?\]\*\*", re.S)
+
+
+_OPENER = re.compile(r"\*{0,2}\[(?:" + TAGS + r")\b")
+
+
+def unterminated(text: str):
+    """Openers with no `]**` terminator inside their own paragraph.
+
+    Round 6's MEDIUM-5: these used to make `live()` swallow whole
+    paragraphs. They now fail to match at all, so they are reported here
+    rather than acted on silently. A non-empty result means malformed
+    notice markup, not malformed prose.
+    """
+    spans = [m.span() for m in _NOTICE.finditer(text)]
+    return [m.start() for m in _OPENER.finditer(text)
+            if not any(a <= m.start() < b for a, b in spans)]
 
 
 def live(text: str) -> str:
@@ -106,7 +129,16 @@ def classify(text: str, phrase: str) -> str:
     """
     if phrase not in text:
         return "absent"
-    notices = notice_spans(text)
+    # Round 6's LOW-8: when one notice quotes another, `_NOTICE` ends the
+    # outer span at the INNER `]**`, so narration after it read as live.
+    # Spans are extended to the last `]**` that is still inside the same
+    # paragraph, so a nested quotation cannot truncate its container.
+    notices = []
+    for a, b in notice_spans(text):
+        stop = text.find("\n\n", a)
+        stop = len(text) if stop == -1 else stop
+        last = text.rfind("]**", b, stop)
+        notices.append((a, last + 3 if last != -1 else b))
     trailing = trailing_spans(text)
     seen = set()
     for m in re.finditer(re.escape(phrase), text):

@@ -10,7 +10,7 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from notice_strip import (classify, live, mentions_only, notice_spans,
-                          trailing_spans)  # noqa: E402
+                          trailing_spans, unterminated)  # noqa: E402
 
 HERE = pathlib.Path(__file__).resolve().parent.parent
 FAIL = []
@@ -112,6 +112,30 @@ r7 = len(live(s7).split()) / len(s7.split())
 r2 = len(live(s2).split()) / len(s2.split())
 print(f"     (retention: \u00a77 {r7:.0%}, \u00a72 {r2:.0%}; was 52% and 38%)")
 check("F4 §2's escalation paragraph is not erased", len(live(s2).split()) > 300)
+
+print("\nRound 6 — regressions the suite did not catch")
+h = ("**[MOVED, 2026-09-15 - Round 6:** moved from Story Text.]\n\n"
+     "Numeria and Candida are discussed, weighed, and dispatched to peace.\n\n"
+     "**[ADDED - Round 5:** narration.**]**")
+check("H1 a mistyped terminator does not swallow later paragraphs  <- M5",
+      "Numeria and Candida are discussed" in live(h), repr(live(h)))
+check("H2 the malformed opener is reported, not acted on  <- M5",
+      len(unterminated(h)) == 1, unterminated(h))
+check("H3 well-formed notices report no unterminated openers",
+      unterminated(a) == [] and unterminated(b) == [])
+
+n = ('Live intro. **[CORRECTED, 2026-09-15 - Round 6:** the earlier note read '
+     '*"**[ADDED, 2026-09-15 - Round 1\'s L8.**]**"* and asserted that the library '
+     'largely survived.**]** Live tail.')
+check("H4 a notice quoting a notice does not truncate its container  <- L8",
+      classify(n, "the library largely survived") == "notice-only",
+      classify(n, "the library largely survived"))
+check("H5 live prose after the nested case survives", "Live tail." in live(n))
+
+for _f in sorted((HERE / "Story-Chunks").glob("*.md")) + [HERE / "Doc_09_Story_Inventory.md"]:
+    _t = _f.read_text(encoding="utf-8")
+    check(f"H6 no malformed notice markup in {_f.name[:34]}",
+          unterminated(_t) == [], unterminated(_t))
 
 print("\nLOW-18 — the two strippers must agree on real input")
 _src = (HERE / "scripts" / "gen_story_index.py").read_text(encoding="utf-8")
