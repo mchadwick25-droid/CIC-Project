@@ -13,6 +13,20 @@
 #   delete_field    - remove path entirely
 #   add_field       - add an undeclared path (schema/unevaluatedProperties test)
 #   remove_record   - delete a whole record file from the copy
+#
+# target_kind (Library Access Gate D3, increment 3 - engine/m9/selftest.py
+# only; M1/M3 defects above have no target_kind and are always records):
+#   record (default) - target_record + mutation, applied to records/fix/**
+#                       exactly as above (engine.m1.mutate.apply, reused)
+#   bucket            - target_row (a row_id) + mutation, applied to a deep
+#                       copy of cic/corpus-map/fixture-synthetic.yaml's raw
+#                       `works` list, before build_shelf() ever runs
+#   pairs             - target_pair_a + target_pair_b + mutation, applied to
+#                       a deep copy of cic/corpus-map/PAIRS.yaml's raw
+#                       `pairs` list
+# bucket/pairs mutations never touch a file - engine/m9/selftest.py mutates
+# the in-memory data loader.py already read, the same discipline the
+# record case already holds.
 
 schema_version: 1
 fixture_world: fix
@@ -207,3 +221,89 @@ defects:
     target_record: records/fix/quote/fix.quote.witness-saying.md
     mutation: {op: set_field, path: "sources[0].source_id", value: fix.source.does-not-exist}
     expected_failure: "quote cites a source_id with no matching record in records/fix/source/ - a fabricated/unverifiable attribution; admission's fabrication-pressure probes must catch it under held-out paraphrase questioning of C-P"
+
+  # --- M9 confinement-battery defects (Library Access Gate D3, engine/m9/)
+  # increment 3 builds engine/m9/confinement.py's own battery, minus
+  # locus-within-work (held for a later increment, once CM-4's locus_ids
+  # exists on real data - no seeded defect for it here).
+
+  - id: m9-source-kind-missing-kind
+    gate: source-kind
+    layer: M9
+    target_kind: record
+    target_record: records/fix/source/fix.source.witness-scroll.md
+    mutation: {op: delete_field, path: kind}
+    expected_failure: "fix.source.witness-scroll: no kind set (vendored | unvendored | absence)"
+
+  - id: m9-shelf-row-dangling
+    gate: shelf-row
+    layer: M9
+    target_kind: record
+    target_record: records/fix/source/fix.source.witness-scroll.md
+    mutation: {op: set_field, path: shelf_row, value: fixture-synthetic--does-not-exist}
+    expected_failure: "fix.source.witness-scroll: shelf_row 'fixture-synthetic--does-not-exist' does not resolve to a row on this world's shelf"
+
+  - id: m9-emic-vendored-only-cites-absence
+    gate: emic-vendored-only
+    layer: M9
+    target_kind: record
+    target_record: records/fix/ambient/fix.ambient.daily-bread.md
+    mutation: {op: set_field, path: "sources[0].source_id", value: fix.source.lost-letters-absence}
+    expected_failure: "fix.ambient.daily-bread: cites 'fix.source.lost-letters-absence', whose kind is 'absence' - an emic record may not ground itself in it"
+
+  - id: m9-absence-probe-false-claim
+    gate: absence-probe
+    layer: M9
+    target_kind: record
+    target_record: records/fix/source/fix.source.lost-letters-absence.md
+    mutation: {op: set_field, path: "absence_probes[0]", value: "I did not see him"}
+    expected_failure: "fix.source.lost-letters-absence: absence_probes entry 'I did not see him' DOES window-match in cic/texts/fixture-synthetic_witness-scroll.txt - the claimed absence is false"
+    note: "the probe string is fix.quote.witness-saying's own opening words - genuinely present in the witness scroll, proving the check actually reads the file rather than trusting the claim"
+
+  - id: m9-verbatim-in-shelf-invented-text
+    gate: verbatim-in-shelf
+    layer: M9
+    target_kind: record
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: set_field, path: text, value: "This sentence was never written anywhere in the witness scroll."}
+    expected_failure: "fix.quote.witness-saying: license is 'verbatim' but its text does not window-match in any file on this world's shelf"
+
+  - id: m9-voicing-pair-exchange-not-confirmed
+    gate: voicing-pair
+    layer: M9
+    target_kind: bucket
+    target_row: fixture-synthetic--later-summary
+    mutation: {op: set_field, path: documented_exchange, value: not-confirmed}
+    expected_failure: "fix.ambient.daily-bread: cites 'fix.source.secondary-summary'; the pair is mutual-awareness but the row's own documented_exchange is 'not-confirmed', not confirmed"
+
+  - id: m9-voicing-pair-relation-flipped
+    gate: voicing-pair
+    layer: M9
+    target_kind: pairs
+    target_pair_a: fixture-synthetic
+    target_pair_b: fixture-synthetic-neighbour
+    mutation: {op: set_field, path: relation, value: one-way}
+    expected_failure: "fix.ambient.daily-bread: cites 'fix.source.secondary-summary'; the (fixture-synthetic, fixture-synthetic-neighbour) pair is ruled 'one-way', not mutual-awareness"
+    note: "proves target_kind: pairs works independently of target_kind: bucket above - a different mutation, a different in-memory copy, the same check"
+
+  - id: m9-shelf-confidence-needs-ruling
+    gate: shelf-confidence
+    layer: M9
+    target_kind: bucket
+    target_row: fixture-synthetic--witness-scroll
+    mutation: {op: set_field, path: confidence, value: needs-ruling}
+    expected_failure: "fix.quote.witness-saying: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling"
+
+  - id: m9-inertness-proof
+    gate: inertness
+    layer: M9
+    note: >
+      The M9 mirror of inertness-proof above: every check in
+      engine/m9/confinement.py's CHECKS must (a) fire on at least one
+      defect above and (b) pass clean on the unmutated fixture. A check
+      that never fires is inert and engine/m9/selftest.py must report that
+      as its own failure, the same contract engine/m1/selftest.py already
+      holds for the M1 battery.
+    target_record: null
+    mutation: null
+    expected_failure: "engine/m9/selftest.py asserts, per check, at least one defect above exercises it and that the clean fixture passes it"
