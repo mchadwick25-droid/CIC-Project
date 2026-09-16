@@ -1,5 +1,16 @@
 # Living Tradition distinguishing statement — DRAFT for the project lead
 
+> **ADOPTED 2026-09-16 by the project lead — this document is in force, not a draft.**
+> Instruction: *"confirm true and adopt the draft."* Living Tradition Status **CONFIRMED**,
+> `living_tradition_flag` **true**, §2 adopted as drafted with §3's coercion handling.
+> The record of the confirmation is `lpc_Decision_Log.md`'s entry *"Project lead's Article 29
+> confirmation."* The filename keeps "DRAFT" because three documents already cite this path.
+> **Everything below is the text as it stood when it was put to the project lead, kept unaltered so the adopted wording is the wording that was adopted.**
+> Its own pre-adoption framing —
+> "Status: DRAFT, NOT IN FORCE," §4's "What adoption would require," §5's disposition, and the
+> closing note that `lpc_World_Profile.md` §9 continues to read PENDING — is superseded by this
+> note and by the Decision Log entry above.
+
 **Prepared by:** the `lpc` build thread, 2026-09-16, on the project lead's instruction, following `Review-Artifacts/Living_Tradition_First_Limb_Analysis_2026-09-16.md`.
 
 **Mechanism decided by the project lead, 2026-09-16:** the distinction is **Facilitator-carried, not Representative-carried** — Datus holds none of it (`lpc_Decision_Log.md`). That is §2's closing paragraph and §3's second bullet, and it is now the settled approach rather than a proposal.

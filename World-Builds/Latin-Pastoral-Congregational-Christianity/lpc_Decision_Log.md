@@ -1866,3 +1866,23 @@ Applied by a fresh thread on the instruction that the failure mode to avoid was 
 - **Why this resolves the tension rather than deferring it:** the objection was to burdening a bounded fifth-century voice with twenty-first-century distinctions. Facilitator-carriage removes that burden entirely rather than reducing it.
 
 **What this settles:** the *mechanism*. **What it does not settle:** the Article 29 confirmation itself — the `living_tradition_flag`, and adoption of the statement text at `Review-Artifacts/Living_Tradition_Distinguishing_Statement_DRAFT_2026-09-16.md`. Both remain project-lead acts and `lpc` remains freeze-ineligible until they are performed. `lpc_World_Profile.md` §9 and Section 11 item 1 continue to read PENDING.
+
+### 2026-09-16 — Project lead's Article 29 confirmation: Living Tradition Status CONFIRMED, flag true, statement adopted
+
+**Confirmed by the project lead in this build thread's own conversation, 2026-09-16.** Instruction: *"confirm true and adopt the draft."* **This entry is the record of the confirmation; no other document restates it, and the documents that carried the status as PENDING now point here.**
+
+- **Living Tradition Status: CONFIRMED.** Constitution Article 29's freeze-eligibility gate is **discharged for `lpc`**.
+- **`living_tradition_flag`: `true`.** To be carried into `records/worlds.yaml` at registration, which remains a project-lead act outside a build thread's write scope.
+- **Distinguishing statement: ADOPTED** as drafted at `Review-Artifacts/Living_Tradition_Distinguishing_Statement_DRAFT_2026-09-16.md` §2, with §3's coercion handling. That document is now **in force** rather than draft.
+- **Mechanism, decided earlier the same day and unchanged:** the distinction is **Facilitator-carried, not Representative-carried**. Datus holds none of it.
+
+**What the confirmation establishes, per Article 29's own words** — *"how the historical reconstruction is distinguished from any living tradition's present-day self-understanding, identity, or doctrine"*:
+
+- **Correspondence: yes, and diffuse.** `lpc` is ancestral to the Western church **before its divisions**. Every Western communion has a claim on it; **none has an exclusive one**, and no present-day body may be presented as *the* continuation of it.
+- **Four named divergences** where a present-day tradition does not follow this world: rebaptism (G6 — Cyprian's position was *rejected*), penance (G2), grace (G7), and conciliar authority (G5).
+- **Three figures or practices of contested standing**, Article 29's second limb: Augustine himself, *"compel them to come in,"* and Cyprian.
+
+**Consequences.**
+1. **`lpc` is freeze-eligible on this gate.** Article 31's external scholarly review is a separate gate and is untouched by this.
+2. **Registration now needs only `state`.** `world_id` (`latin-pastoral-congregational`), `display_name`, `card_name` (*The Ordinary Church*) and `living_tradition_flag` (`true`) are all settled.
+3. **The Permanent Prompt's Living Traditions section has adopted source text**, so Article 33's bar on placeholder content in that section is satisfiable for `lpc`.
