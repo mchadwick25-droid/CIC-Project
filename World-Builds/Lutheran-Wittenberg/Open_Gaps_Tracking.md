@@ -221,7 +221,7 @@ the question and its answer, not deleted now that it is resolved.
 
 ## OG-7. Doc_03: a self-declared escalation condition was met at Round 9 — recorded honestly, and a judgment call explained rather than either buried or auto-escalated
 
-**Status: ESCALATED, 2026-09-16. The one further mechanical fix authorized here was made (Revision 9) and independently re-verified (Round 10): §11 item 2 held completely, but §11 item 8 was found short a fifth consecutive round, meeting this entry's own written condition. Awaiting the project lead's direction — see the entry's own closing section for the full account and the build thread's disclosed assessment.**
+**Status: RESOLVED, 2026-09-16. The project lead's direction: "go with option 1"** — authorize one further targeted fix (R10-1 and R10-2), applied range-inward per Round 10's own prescribed method rather than repeating the row-outward sweep that produced this shortfall, followed by one final independent check before disposition. See Doc_03 §13's "Round 10 fixes applied" entry for the full fix log.
 
 Revision 8's own Escalation check (§13) stated in advance: *"If Round 9 finds the same root
 cause producing new gaps a fourth time even after this revision's mechanical regeneration, that
