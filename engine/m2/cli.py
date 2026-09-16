@@ -69,6 +69,36 @@ def cmd_staleness_check(args: argparse.Namespace) -> int:
     return 0 if overall_pass else 1
 
 
+def cmd_upload(args: argparse.Namespace) -> int:
+    """WO-1 (2026-09-16): pushes an already-built package to object
+    storage, so a deploy running the OLD image can still serve it -
+    Artifact-2 SS5's "packages are built by CI, uploaded to object
+    storage." Manual for now (a human runs this after `build`, the same
+    way a world-build thread already runs `build` by hand); wiring a CI
+    job to call it automatically on every records/ change is real
+    follow-on work, not done here - see the object-storage runbook."""
+    from engine.m4 import object_storage
+
+    if not object_storage.is_configured():
+        print("CIC_API_PACKAGE_BUCKET is not set - nothing to upload to (see the object-storage runbook)", file=sys.stderr)
+        return 1
+    from engine.m1.registry import load_registry
+
+    registry = load_registry()
+    entry = registry.get(args.world_key)
+    if entry is None:
+        print(f"{args.world_key!r} is not in the registry", file=sys.stderr)
+        return 1
+    location = entry["package"]["location"]
+    local_dir = REPO_ROOT / location
+    if not (local_dir / "manifest.json").is_file():
+        print(f"no manifest.json under {local_dir} - build it first (engine.m2.cli build {args.world_key})", file=sys.stderr)
+        return 1
+    keys = object_storage.upload_package_dir(local_dir, location)
+    print(json.dumps({"world_key": args.world_key, "location": location, "objects_written": len(keys)}, indent=2))
+    return 0
+
+
 def cmd_restore(args: argparse.Namespace) -> int:
     from engine.m1.registry import load_registry, world_keys
 
@@ -103,6 +133,10 @@ def main(argv: list[str] | None = None) -> int:
 
     stale = sub.add_parser("staleness-check", help="recompile every built/admitted/open world, check against its manifest")
     stale.set_defaults(func=cmd_staleness_check)
+
+    upload = sub.add_parser("upload", help="push an already-built package to object storage (WO-1), so a running deploy can fetch it without a redeploy")
+    upload.add_argument("world_key")
+    upload.set_defaults(func=cmd_upload)
 
     args = parser.parse_args(argv)
     return args.func(args)

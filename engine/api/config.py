@@ -63,6 +63,15 @@ class Settings:
     # class's own docstring for why this is a plain idle timeout rather
     # than full LRU-under-memory-pressure.
     world_idle_unload_seconds: float | None
+    # WO-1 (2026-09-16): where to cache a package object storage had to
+    # fetch, so a redeploy/restart doesn't re-fetch it. Object storage
+    # itself (bucket, endpoint, credentials) is read directly from env
+    # vars by engine.m4.object_storage, not carried on Settings - that
+    # module already fails loudly if CIC_API_PACKAGE_BUCKET is set
+    # without its endpoint/keys, the same "never guess, fail loudly"
+    # rule region already follows above, so duplicating those fields
+    # here would just be a second place for them to drift.
+    package_cache_dir: Path
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -84,4 +93,5 @@ class Settings:
             enforce_admission=os.environ.get("CIC_ENFORCE_ADMISSION", "") in ("1", "true", "yes"),
             admin_token=os.environ.get("CIC_API_ADMIN_TOKEN") or None,
             world_idle_unload_seconds=_float_or_none(os.environ.get("CIC_API_WORLD_IDLE_UNLOAD_SECONDS")),
+            package_cache_dir=Path(os.environ.get("CIC_API_PACKAGE_CACHE_DIR", str(REPO_ROOT / "packages"))),
         )

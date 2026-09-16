@@ -8,11 +8,13 @@ caller.
 """
 import uuid
 from dataclasses import dataclass
+from pathlib import Path
 
 from engine.api.config import REPO_ROOT
 from engine.m1.loader import load_fleet_records
 from engine.m4 import events, facilitator_turns, session_code
 from engine.m4.entrance import open_session
+from engine.m4.package_fetch import ensure_package_local
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.store import Store
 from engine.m4.turn import TurnResult, UnhandledRoutingAction, run_turn
@@ -89,6 +91,7 @@ def _load_world(
     *,
     expected_manifest_hash: str | None = None,
     package_location_override: str | None = None,
+    package_cache_dir: Path | None = None,
 ) -> LoadedWorld:
     entry = registry.get(world_key)
     if entry is None:
@@ -102,14 +105,31 @@ def _load_world(
     # Falls back to today's registry pointer for callers with no pin of
     # their own (list_worlds, a fresh create_session/create_table_session)
     # and for sessions opened before this field existed.
-    package_dir = REPO_ROOT / (package_location_override or entry["package"]["location"])
+    location = package_location_override or entry["package"]["location"]
+    package_dir = REPO_ROOT / location
+    # WO-1 (2026-09-16): package_cache_dir is None for every caller that
+    # doesn't pass one (every test app, and a real deploy with no bucket
+    # configured) - ensure_package_local is a no-op in that case, package_dir
+    # is used exactly as it always was. Only a real deploy with object
+    # storage configured ever takes the fetch path, and only for a world
+    # not already sitting on local disk.
+    if package_cache_dir is not None:
+        package_dir = ensure_package_local(package_dir=package_dir, cache_dir=package_cache_dir, key_prefix=location)
     world, _timing = world_loader.load(
         world_key, package_dir=package_dir, expected_manifest_hash=expected_manifest_hash or entry["package"]["manifest_hash"]
     )
     return world
 
 
-def create_session(*, store: Store, world_loader: LazyWorldLoader, registry: dict, world_key: str, require_admitted: bool = False) -> tuple[str, str]:
+def create_session(
+    *,
+    store: Store,
+    world_loader: LazyWorldLoader,
+    registry: dict,
+    world_key: str,
+    require_admitted: bool = False,
+    package_cache_dir: Path | None = None,
+) -> tuple[str, str]:
     """Returns (session_id, raw_code). The raw code is returned exactly once
     - only its hash is ever stored (engine.m4.session_code).
 
@@ -117,7 +137,7 @@ def create_session(*, store: Store, world_loader: LazyWorldLoader, registry: dic
     checked BEFORE the world is even loaded, so a refused create costs
     nothing and writes nothing."""
     _check_admission(registry, world_key, require_admitted=require_admitted)
-    world = _load_world(world_loader, registry, world_key)
+    world = _load_world(world_loader, registry, world_key, package_cache_dir=package_cache_dir)
     session_id = str(uuid.uuid4())
     raw_code = session_code.generate_code()
     open_session(
@@ -153,7 +173,7 @@ def create_session(*, store: Store, world_loader: LazyWorldLoader, registry: dic
     return session_id, raw_code
 
 
-def list_worlds(*, world_loader: LazyWorldLoader, registry: dict, require_admitted: bool = False) -> list[dict]:
+def list_worlds(*, world_loader: LazyWorldLoader, registry: dict, require_admitted: bool = False, package_cache_dir: Path | None = None) -> list[dict]:
     """The doorway's own content, per formation world - never the fix
     fixture (kind == "fixture": "NOT one of the six formation worlds...
     never listed beside them, never admitted, never reachable by a
@@ -176,7 +196,7 @@ def list_worlds(*, world_loader: LazyWorldLoader, registry: dict, require_admitt
             # may actually enter - an unadmitted world simply is not
             # offered, rather than offered and then refused at the door.
             continue
-        world = _load_world(world_loader, registry, world_key)
+        world = _load_world(world_loader, registry, world_key, package_cache_dir=package_cache_dir)
         frame = world.frame
         starters = frame.get("frames", {}).get("general_seeker", {}).get("starters", [])
         worlds.append(
@@ -431,6 +451,7 @@ def handle_message(
     session_id: str,
     text: str,
     client_msg_id: str | None = None,
+    package_cache_dir: Path | None = None,
 ) -> MessageResult:
     state = project_fresh(session_id, store)
     if not state.exists:
@@ -459,6 +480,7 @@ def handle_message(
         state.world_key,
         expected_manifest_hash=state.package_manifest_hash,
         package_location_override=state.package_location,
+        package_cache_dir=package_cache_dir,
     )
 
     msg_uuid = client_msg_id or str(uuid.uuid4())
