@@ -66,8 +66,6 @@ if (window.location.hash.indexOf('#q=') === 0) { target.hash = window.location.h
 var frame = document.getElementById('talk-frame');
 frame.src = target.toString();
 
-try { localStorage.setItem('cic-returning', '1'); } catch(e){}
-
 // The embedded app's own "Leave for now"/"Begin again" used to fall back
 // to its pre-redesign Launch screen when it had no idea it was inside an
 // iframe (2026-09-04 live bug, Mark hit it directly) - it now posts this
