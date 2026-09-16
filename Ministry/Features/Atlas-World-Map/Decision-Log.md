@@ -13,6 +13,57 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-09-16 — The Atlas quotes modern translations, and that is a different problem
+
+**Origin.** Mark: "now go acquire the tier 1 sources," then "verify the
+quotations." Thirteen files vendored (`4841c6c7`); 21 checkable spans across 11
+stories then read against them. Full account in §12 of the verification audit.
+
+**What was found.** Five spans are verbatim in the source their story cites.
+Fifteen are not verbatim anywhere in the corpus — and every one of those
+fifteen is the right passage, in the right work, saying what the story says it
+says, in a translator's words that are not in any public-domain edition. Bede
+"for a little while" against Giles' "for a short space"; Egeria "took a bite"
+against Bernard's "fixed his teeth in it"; Gregory of Tours "sick at heart"
+against Dalton's "with bitterness of heart."
+
+**Why this matters more than the count.** Three earlier sections of this audit
+read the gap as acquisition — the passage was not on disk, so nothing could be
+checked. That diagnosis was wrong in a way only acquisition could expose.
+**A public-domain edition verifies that a passage exists and says what is
+claimed. It cannot verify a quotation, because the wording belongs to a
+translation still in copyright.** The remaining Tier-2 and Tier-3 acquisitions
+should be expected to behave the same way.
+
+**The heart of it.** These stories are not wrong. Someone read the right
+passage and reported it faithfully, then quoted a translation they had to hand.
+The defect is a quotation mark doing work it cannot support — which is the same
+defect this whole workstream has been chasing, arriving from an angle no one
+was watching.
+
+**One acquisition was not needed.** Pelagius' Letter to Demetrias was the
+headline Tier-1 target, acquired as Migne PL 30 after §5 recorded it as
+appearing "only as a line in Schaff's bibliography." Both its quoted spans were
+already verifiable in vendored Augustine — Letter 188 quotes the Epistle to
+Demetrias ch. xi verbatim, and the story's own source list names Letter 188.
+The quotation was never unverifiable; it was never looked for in the source the
+story already cited. Worth carrying into Tier 2: check what the story already
+cites before acquiring anything.
+
+**Open, for Mark — a methodology change, so not acted on.** Three ways to treat
+a story whose quotation is a modern rendering: re-render to the public-domain
+edition now vendored (costs prose quality); keep it and mark it as quoted from
+an edition the corpus cannot hold; or drop the quotation marks and report the
+substance. Recommendation is the middle one — the prose is good and the
+substance is verified, and pretending the corpus owns the words is the only
+part that is actually false.
+
+**Second argument for retiring `verification`.** The field cannot express
+"right passage, right sense, wording from a translation we do not own," which
+is now known to be the state of most of the corpus's quotations.
+
+---
+
 ## 2026-09-16 — Change order: the "archives are blocked" claim, corrected where it still misdirects
 
 **Origin.** Mark: "fix the three files that say archives are blocked," then "fix

@@ -465,3 +465,93 @@ The `verification` field is now the weakest claim the corpus makes about itself.
 Of the 44 stories asserting the strongest form of it, sixteen were wrong. That
 is an argument for retiring the field rather than repairing it — recorded in the
 Decision-Log as open, and not decided here.
+
+## 12. The Tier-1 sources acquired, and what verifying against them actually showed
+
+Thirteen files were fetched, date-verified, headed and registered (commit
+`4841c6c7`), closing the acquisition side of §10's finding that 31 spans cite a
+work not in the library. The 24 quoted spans across the 11 stories those
+sources serve were then read against them. Three are under twelve characters
+(`sisters`, `the Cat`, `Jacobite`) and carry no verification weight, leaving
+**21 checkable spans**.
+
+**Five are verbatim in the source the story cites. Fifteen are not verbatim
+anywhere in the corpus. One is verbatim only by coincidence, in three unrelated
+files.**
+
+| span | cited source | how it resolved |
+|---|---|---|
+| `what women there are amongst the Christians.` | Chrysostom, *De Sacerdotio* | already confirmed in §4 |
+| `no one can have conferred on you but yourself` | Augustine, *Letter* 188 | **verbatim, already vendored** |
+| `unmixed poison` | Augustine, *Letter* 188 | **verbatim, already vendored** |
+| `according to the rules of poetic art` | Kylie 1911 | **closed by this acquisition** |
+| `a hundred thousand` | John of Ephesus, PO XIX | **closed by this acquisition** |
+| `sick at heart` | Gregory of Tours IX.19 | verbatim only in Gregory of Nyssa, Augustine and Chrysostom — coincidence, not the cited source |
+
+### The finding that matters, and it is not the one the acquisition was for
+
+**The Atlas quotes modern translations.** Every one of the fifteen
+not-verbatim spans is the right passage, in the right work, saying what the
+story says it says — rendered by a translator whose words are not in any
+public-domain edition. The pattern is consistent enough to read off directly:
+
+- Bede II.13 — Atlas `So this life of man appears for a little while … we know
+  nothing … any greater certainty`; Giles 1903 has "for a short space … we are
+  utterly ignorant … contains something more certain."
+- Egeria 37 — Atlas `holds the extremities of the sacred wood firmly in his
+  hands`; Bernard 1896 has "takes hold of the extremities of the holy wood with
+  his hands." Atlas `took a bite`; Bernard has "fixed his teeth in it."
+- Gregory of Tours IX.19 — Atlas `sick at heart`; Dalton 1927 has "with
+  bitterness of heart."
+- Leoba — Atlas `I beg you not to disdain to send me a few words`; Kylie 1911
+  has "deign to correct the homely style of this letter, and to send me for a
+  model some words of thine."
+
+This is a different problem from the one §5, §9 and §10 diagnosed. Those read
+the gap as acquisition: the cited passage was not on disk, so nothing could be
+checked. It was on disk in the sense that mattered — the substance checks out
+in all seven stories read this way. What is not on disk, and cannot be
+acquired, is **the wording**, because the wording belongs to a translation
+still in copyright.
+
+**Acquiring a public-domain edition verifies that a passage exists and says
+what is claimed. It cannot verify a quotation.** That distinction was not
+visible before these files were on disk, and it governs what the remaining
+Tier-2 and Tier-3 acquisitions can be expected to deliver.
+
+### Two things the acquisition was not needed for
+
+Pelagius' *Letter to Demetrias* was the headline Tier-1 target, acquired as
+Migne PL 30 after §5 recorded it as appearing "only as a line in Schaff's
+bibliography." **Both its quoted spans were already verifiable** in
+`npnf101_augustine-confessions-letters.xml`, vendored long since: Augustine's
+*Letter* 188 quotes *Epistle to Demetrias* ch. xi verbatim — "your spiritual
+riches no one can have conferred on you but yourself" — and supplies "unmixed
+poison" in his own reply. The story's own source list names Letter 188. The
+quotation was never unverifiable; it was never looked for in the source the
+story already cited.
+
+PL 30 is still worth having — it is the full Latin — but it closed nothing.
+
+### Still open, and why
+
+- `for we shall be killed when we go home` — cites the full Acts of Chalcedon,
+  which remain unvendored. Unchanged from §10, where it was deliberately left.
+- Romanos' `Today the Virgin gives birth to him who is above all being` —
+  Pitra 1888 is Greek, and its OCR is unusable for a verbatim check. Acquiring
+  it did not help and was not going to.
+- The Benjamin summons and Radegund's demand to be consecrated — narrative
+  present in both sources, quoted wording not verbatim, same translation
+  pattern as the rest.
+
+### The decision this raises, which is not settled here
+
+Three ways to treat a story whose quotation is a modern rendering: re-render it
+to the public-domain edition now vendored, which costs prose quality and reads
+worse; keep it and mark it as quoted from an edition the corpus cannot hold;
+or drop the quotation marks and report the substance. **That is a methodology
+change, so it is Mark's, and it is recorded here rather than acted on.** It is
+also the second argument this audit has produced for retiring `verification` as
+a stored field: the field cannot express "right passage, right sense, wording
+from a translation we do not own," which is the actual state of most of the
+corpus's quotations.
