@@ -2391,3 +2391,124 @@ error: revisit once the rework itself ships.
 **Verified:** zero overflow 320–1440px; both portal cards measure full
 `--wide` width at desktop; both images load and link correctly; zero
 console errors; zero comments, zero `data-copy` attributes.
+
+## 2026-09-16 — Fresh session opens; Mark pauses all other work for a full live-site audit
+
+**Mark's instruction, verbatim:** "ok i have stopped all work until we
+get the live version of the website right with new text and images for
+everything on the screen." All other project work paused; this is now
+the sole priority. Fresh session (prior thread ran days, over-full on
+context) picked this up cold, reading this repo's root `CLAUDE.md` first
+per its own standing instruction.
+
+**Read-only audit run, divergent phase, nothing fixed yet:** six
+parallel background reviewers covered every live page — `index`,
+`about`, `story`, `table`, `talk`, `support`, `whats-next`,
+`pilot-feedback` (status-checked only; a separate `cic-copy-editing`
+session owns its content), `privacy`, `atlas-v3`, and all 8
+`traditions/*.html` pages (including `gallic-monastic-ascetic-
+christianity.html`/Renatus, shipped today) — checking images resolve,
+text for staleness/placeholders, cross-checks against
+`data/world-census.json` and `records/worlds/*.yaml`, source-fidelity
+(quotes and biographical claims against the project's own no-invention
+rule), and the CLAUDE.md readability floor. `atlas.html`,
+`world-atlas.html`, and `tour.html` confirmed to have zero inbound links
+from any live page — orphan status noted, not deep-audited. Full
+findings shown to Mark as a private Claude Artifact for his read before
+anything is touched; recorded here so the record doesn't live only in
+that ephemeral page.
+
+**Headline finding:** Renatus/Gallic — the 8th live Representative,
+shipped today — is invisible on two of the site's own core pages, the
+same shape of bug in two places: (1) `table.html`'s `WORLDS` array
+(lines 255–263) holds only 7 entries; Gallic can't be seated there at
+all — not in the roster, the seat-chooser, or `randomTrio()`'s pool —
+though index.html's own "Set your own table" card promises "up to three
+Christian traditions." (2) `atlas-v3.html`'s embedded data still has
+`liveCount: 7` and marks Gallic's own record `"status": "Possible
+Future World (on record)"` with `entry: null` (lines 362, 7307, 7383,
+7394) — no Interview button, wrong status pill. This is a concrete,
+currently-live symptom of the already-tracked atlas-v3.html/
+world-census.json duplication issue, not a new architecture question.
+
+**Four more stale-count defects, same root cause (Gallic shipped, some
+copy never caught up):** `whats-next.html` line 65 says "the seven
+traditions already live" (should be eight); `alexandria-catechetical
+.html`, `cappadocian-nicene-pastoral-monastic-tradition.html`, and
+`desert-monasticism.html` all still close with "The other six chairs →"
+(line 211 each) — should read seven; only `gallic-...html` itself has
+the correct count (line 212). `index.html`'s "up to three traditions"
+promise (lines 303–309) is downstream of the `table.html` gap, not a
+separate defect.
+
+**Five items needing Mark's own call, not clear-cut fixes:**
+`story.html` looks dead — byte-for-byte duplicate of index.html's own
+flow-story section (lines 106–112 vs 315–318), zero inbound links
+anywhere, plus a "Story updates" changelog box (lines 118–119) that's
+invisible to any participant and reads like process narration sitting
+in a live surface. `atlas.html`/`world-atlas.html`/`tour.html` are three
+more orphans, same question. `about.html` line 87's "disciplined
+eight-step process" may describe an older build pipeline than the
+current Step 0→Doc_10 (V1.5). `world-census.json`'s own `meta.notes`
+field is internally stale (still narrates "bringing the live count to
+6" though `meta.liveCount` correctly reads 8) — not participant-facing,
+but it's the project's single source of truth and worth cleaning.
+`atlas-v3.html`'s live entries route to the conversation app
+(`cic-engine.onrender.com`) rather than to `traditions/*.html`, which an
+in-file comment suggests is deliberate — flagged for an explicit
+confirm, not assumed either way.
+
+**Source fidelity — flagged for verification, none confirmed as
+violations:** three verbatim on-page quotes to re-check word-for-word
+against vendored texts (highest priority: `imperial-juridical-
+christianity.html` line 193, Leo's "let the sinner be glad"; `gallic-
+...html` lines 193–194, Sulpitius Severus and Cassian). Plus four claims
+worth a sourcing/confidence check: `alexandria-catechetical.html` line
+143 states an Origen-specific biographical detail ("Origen's own father
+was martyred while Origen was still a boy") flatly, for Theon, a
+composite Representative, not Origen himself; `cappadocian-...html`
+line 183 asserts a strong claim about Macrina/Gregory of Nyssa's *Life
+of Macrina* as settled fact with no confidence tag, arguably Contested
+or Dominant Modern Reconstruction under the project's own five-level
+vocabulary; `hieronymian-ascetic-literary.html` line 143's "four
+months" timeframe (Blaesilla, unnamed) isn't cited inline; `gallic-
+...html` line 184 claims a named edition had "its own teaching on
+bodily discipline removed by a later editor" with no on-page citation.
+One date anomaly: `syriac-edessa-nisibis.html` line 174 lists Tatian
+(d. c. 185 CE) among "surviving voices" for a 200–410 CE window — may
+be intentional (the *Diatessaron*'s later influence) but unconfirmed
+against Doc_02/Doc_04.
+
+**Readability — seven sentences across five pages run 29–50 words,**
+well past the ~25-word ceiling (content accurate in every case,
+flagged only for a trim pass): `hieronymian-ascetic-literary.html` line
+143 (~50w), `imperial-juridical-christianity.html` line 143 (~50w) and
+line 183 (~29w), `whats-next.html` lines 54–55 (~31w, ~47w), `index
+.html` lines 242 and 272 (~47w, ~46w, duplicated on `story.html`
+line 317 as 29w+35w).
+
+**One item needs a live click-test, not a file read:**
+`support.html`'s "Give Once"/"Give Monthly" Stripe links (lines
+284–285) — the file's own comment history documents this exact
+domain/label pairing breaking silently twice before.
+
+**Confirmed fine, no action needed:** every image on every page checked
+resolves to a real, correctly-matched file in `assets/` — no broken
+paths, no wrong portraits, no placeholders; no lorem-ipsum or TODO
+markers anywhere; no generic "AI voice" on any Representative page
+(`post-apostolic-house-church.html`/Chloe singled out as the strongest
+example of the fidelity discipline, explicitly declining to invent
+words for two enslaved women in the Pliny–Trajan correspondence);
+`talk.html` and `privacy.html` clean; `pilot-feedback.html` confirmed
+stable as of this read, untouched; every `worlds=` slug used in
+`talk.html`/`table.html` links matches its own tradition page correctly
+across all 8 pages; `gallic-...html` (Renatus, newest, shipped today)
+checked especially closely — complete, correctly captioned, no invented
+biography.
+
+**Next action:** waiting on Mark to prioritize (functional defects,
+then source-fidelity verification, then the four orphaned-page
+decisions, then readability, per the recommendation given alongside the
+findings) and to rule on the five decision items above. Implementation
+will land on `claude/website-v2-sandbox`, verified in a real browser
+before push — no direct edits made yet.
