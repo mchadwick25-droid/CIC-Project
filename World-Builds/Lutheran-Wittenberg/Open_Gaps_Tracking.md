@@ -595,3 +595,92 @@ revisions after the first draft, no escalation category applying at any round.
 11. Two of §4's per-entry Apology loci (9.2, 8.8) differ in extent from those entries' own AG
     lines (narrower at 9.2, wider at 8.8); both sit inside ranges already declared read, nothing
     uncited — recorded so a future re-derivation does not read it as fresh drift.
+
+## OG-11. Doc_07 (Integrated Ecology Analysis): three review rounds, a lens-spine conflict
+resolved by disclosed argument, and the open items it seeds
+
+**Build history.** Doc_07 synthesizes Docs 01–06 into a single formation logic, applying
+Smart's seven dimensions (ritual/practical, experiential/emotional, narrative/mythic,
+doctrinal/philosophical, ethical/legal, social/institutional, material) as the fixed lens spine
+the current governing Construction Framework requires (CF V7.4 Step 7, the "M4" change adopted
+2026-07-27), plus Boundary Structures and Formation Logic as CiC's own two required additions,
+plus Memory Structures and Interpretive Ecology applied briefly where evidence supports. The
+drafting agent found, and disclosed by argument rather than silently resolved, a real conflict
+between this current instruction and the L4 `Integrated_Ecology_Analysis_Template.md` (v1.0,
+which predates the M4 change and names a different, five-lens required set) — using the more
+specific, more recently dated governing text and the template for section shape only, the same
+kind of resolution this build's Doc_05 performed for its own Framework-paragraph conflict. Three
+independent review rounds followed.
+
+**Round 1** (cold, full-document) confirmed the lens-spine resolution correct against the
+extracted governing texts, confirmed all seven Smart dimensions genuinely (not artificially)
+asked with the two thin ones argued from their own thinness, confirmed the forces work
+synthesizes rather than introduces, and found 6 substantial findings — all internal defects
+that touched no spine element: a mis-cited headline quotation (the Supper's "in and under"
+attached to the wrong catechism's locus) that had falsified the document's own verification
+count; a misstated Doc_06 tier contradicting the document's own entry list; a false discharge
+claim in an instruction-table row (the same false-self-check class Doc_06's own Round 1 S1
+named); an overstated categorical forces claim contradicted by two of Doc_04's own
+forces-connection notations (two external forces *generated* gravities, not merely intensified
+them); a quotation used against its own immediate context and against an already-reviewed Doc_05
+finding; and one paragraph dropping a required prescription/reception qualifier. All six fixed
+at Revision 1, along with 7 cosmetic findings.
+
+**Round 2** (targeted recheck) confirmed all thirteen Round 1 repairs landed correctly — by an
+independently-built checker finding zero genuine mis-citations across 214 quotation/locus pairs,
+and by direct re-reading of every repaired locus, including an independent fresh reading of the
+passage central to the S5 fix — and found one new substantial finding, itself pure residue of
+the S1 repair: a "Word count" sub-bullet one line below the bullet S1's fix had corrected was
+never swept, so the document briefly stated two different, contradictory counts for the same
+verification run in two adjacent bullets. Fixed at Revision 2 by stating the corrected historical
+arithmetic and handing the document's operative verification status to Round 2's own independent
+recheck, rather than adding a fourth self-reported number to a paragraph that had already gone
+stale once. 6 cosmetic findings also fixed, all similarly self-referential.
+
+**Round 3** (targeted spot-check, per Round 2's own instruction that this should be a spot-check
+rather than a full round) returned **Cleared Review** — zero substantial findings. All seven
+Round 2 repairs verified landed at source. Four cosmetic findings remained, every one again
+confined to the same self-referential log and cross-reference prose: a stale count-restatement
+one bullet away from where the Round 2 fix landed; an inconsistent "this revision" reference,
+introduced when Revision 2 added new instances of the same unqualified phrase alongside
+Revision 1's; and two enumerations (a discharge-row locus list, a discharge-row section list)
+swept incompletely rather than re-derived from source, the identical "enumerate rather than
+re-derive" failure OG-10 already recorded for Doc_06's own Round 2. All four fixed at Revision 3;
+no fourth review round was required for a cosmetic-only disposition.
+
+**The pattern across all three rounds, stated once because it is the build's own finding:**
+every substantial finding from Round 2 onward, and nearly every cosmetic finding at every round,
+lived in the prose that narrates the document's own repair history, never in the analytical
+content — the lens spine, the seven dimensions, the forces synthesis, the Formation Logic
+section, and the Integrative Observation all independently re-derived exactly across all three
+rounds. This is the same pattern OG-2 resolved for Doc_03 and that OG-8, OG-9 and OG-10 record
+as still open for Doc_04, Doc_05 and Doc_06 — Doc_07 is now the fourth of this build's documents
+to be Approved to Proceed while carrying an unresolved version of the same fleet-level question,
+with OG-2's own resolution the obvious, already-worked template.
+
+**Doc_07 is self-disposed APPROVED TO PROCEED**, three independent review rounds and three
+revisions after the first draft, no escalation category applying at any round.
+
+**Open items seeded from Doc_07 §12, entered here per that section's own item 8:**
+1. The L4 template's staleness against CF V7.4 Step 7 (M4), and CF V7.4's own status block
+   still reading "DRAFT — not yet ratified" beside a logged 2026-07-27 promotion decision that
+   itself ordered the label's retirement as its final, not-yet-completed act — flagged for the
+   coach thread or the project lead, not resolved here.
+2. The hymn texts, Hy 1258 ff., not read this pass; recommended home a bounded, script-verified
+   reading pass before Doc_09 or at Phase B's lift of entry 4.9 — for Doc_09's owner and Phase B.
+3. The synthesis judgments named for external review (six items) — for the post-freeze External
+   Scholarly Review.
+4. Whether Smart's ethical/legal dimension is being asked in the right form for a
+   confessional-catechetical world (this document found it yielded fully, but as a jurisprudence
+   of what may *not* be commanded rather than as an ethical code) — a portfolio-level
+   methodological observation for the coach thread, not a change.
+5. **The inline revision-history annotation volume** — now a seventh data point for the same
+   open, undecided fleet-level question OG-2 resolved for Doc_03 and OG-8/OG-9/OG-10 carry for
+   Doc_04/05/06. Not decided by this entry.
+6. This document's word-count figure is scoped to Revision 0 only and was deliberately not
+   restated at any later revision, to avoid adding a further stale self-reported number to a
+   paragraph that already produced two findings on exactly that pattern.
+7. Doc_07's verification status now rests on Round 2's externally-run, independently-built
+   quotation checker rather than the build thread's own one-off script — the stronger resting
+   place under this project's source-fidelity discipline, worth carrying forward as the default
+   pattern for later documents in this build.
