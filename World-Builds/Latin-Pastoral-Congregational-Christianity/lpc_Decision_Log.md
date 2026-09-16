@@ -1686,7 +1686,7 @@ Both forced from fresh copies: inserting *"No source in this corpus records what
 
 **Two Doc_04 open items closed, because each is one of the two failure modes the precedent names.**
 
-- **Open Item 8 — closed.** It was a **sixth** attempt at a cleaner classification for Candidate 5, after five supersessions across nine rounds and the project lead's direct ruling of 2026-09-14. The precedent: *"Treat five consecutive re-classifications of the same candidate as itself a signal to stop and accept the narrower finding."* **Candidate 5 is Supporting and honestly thin, and that is the answer.** The argument is recorded, not pursued.
+- **Open Item 8 — closed.** It was a **sixth** attempt at a cleaner classification for Candidate 5, after five supersessions across nine rounds and the project lead's direct ruling of 2026-09-14. The precedent: *"Treat five consecutive re-classifications of the same candidate as itself the signal to stop and accept the narrower finding."* **Candidate 5 is Supporting and honestly thin, and that is the answer.** The argument is recorded, not pursued.
 - **Open Item 6 — closed as a Persistence question.** It proposed reading the 411 *Gesta* to shore up Candidate 5. The *Gesta* is **native to Donatism's world, not this one**, and the precedent records both prior extraction attempts failing review. Its rule: such a source is for *"narrow, specific, independently-verifiable facts only."* The *Gesta* stays available for narrow checks and stays listed as unread; it is no longer carried as an open question about Candidate 5.
 
 **This countermands a recommendation this thread made earlier today.** The `lpc`-versus-`alx`-and-`desert` comparison recommended commissioning a fresh 411 *Gesta* read from a thread that wrote neither withdrawn version, to close Open Item 6. **The precedent says not to** — a third attempt at the same source for the same purpose is the pattern, not the fix. Recorded here rather than left as a stale recommendation.
@@ -1886,3 +1886,21 @@ Applied by a fresh thread on the instruction that the failure mode to avoid was 
 1. **`lpc` is freeze-eligible on this gate.** Article 31's external scholarly review is a separate gate and is untouched by this.
 2. **Registration now needs only `state`.** `world_id` (`latin-pastoral-congregational`), `display_name`, `card_name` (*The Ordinary Church*) and `living_tradition_flag` (`true`) are all settled.
 3. **The Permanent Prompt's Living Traditions section has adopted source text**, so Article 33's bar on placeholder content in that section is satisfiable for `lpc`.
+
+
+### 2026-09-16 — Two project-lead rulings: the misquoted precedent deleted, and the crossing resolved as one mechanism
+
+**1. The misquotation is deleted.** `Doc_04` quoted the gapped-formation precedent as *"…as itself **a** signal to stop and accept the narrower finding, not as five steps of legitimate progress toward a stronger one."* The precedent's own sentence is **"Treat five consecutive re-classifications of the same candidate as itself the signal to stop and accept the narrower finding."** — *the*, not *a*, and no further clause. The appended fourteen words appeared nowhere in the precedent or anywhere else in this build. This Log carried the same *the*-to-*a* change. **Both are corrected to the precedent's wording on the project lead's instruction**, 2026-09-16. `Doc_04` is otherwise unchanged and its finding is untouched; the defect and its discovery are recorded at `Review-Artifacts/WorldProfile_Round4_Review.md`.
+
+**2. The 133-year crossing: one mechanism, two instances.** Round 4 surfaced a disagreement between three cleared documents about how many mechanisms carry this world's formation logic across the silence. On the evidence read at source, **it is one mechanism attested twice, and the World Profile has been corrected to say so at all four of its sites.**
+
+- `Doc_07` §3A already names the mechanism: continuity across the silence is *"textual, not successive."* Both crossings are textual, so they are instances of it.
+- `Doc_09`'s substantive claim — *"the only thing crossing the gap is a text"* — is **unaffected and still true.** Only its appositive, naming one text, is incomplete.
+- `Doc_08` Force 2B-4's *"only mechanism"* is exact about its own force and over-broad in that word.
+- The second instance is **independent** of the first in author, genre and subject: Possidius rather than Augustine, biography rather than polemic, a bishop's disposition toward his own death rather than rebaptism. Possidius reaches for Cyprian unprompted, where Augustine was driven to Cyprian by Donatist citation. Two independent instances of one mechanism is a **stronger** evidentiary position than one instance, and a more accurate claim than "two mechanisms."
+
+**Not "conflicting sources."** The sources do not conflict. Three of this build's own documents used *mechanism* and *instance* interchangeably, and the Profile's "two mechanisms" was the loosest of the three.
+
+**Outstanding, and small:** `Doc_08` and `Doc_09` are cleared documents a build thread does not edit. Each needs one wording change — `Doc_08`'s *"only mechanism"* to *"only force in this matrix that carries the crossing"*, and `Doc_09`'s appositive widened to name both texts. Until then the Profile discloses the difference rather than hiding it.
+
+---
