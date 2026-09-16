@@ -45,7 +45,7 @@ The actual, load-bearing mechanism of reform itself — not theater dressed arou
 
 ## Key Sources
 
-The Acts of the First and Second Zurich Disputations (January and October 1523), within `zwingli_selected-works_jackson1901.txt` (Registry row 7) — contemporary institutional record of the actual events, not later narrative reconstruction (Doc_02 §1). The Sixty-Seven Articles' own preface, independently re-verified this pass: "The articles and opinions below, I, Ulrich Zwingli, confess to have preached in the worthy city of Zurich as based upon the Scriptures which are called inspired by God... and where I have not now correctly understood said Scriptures I shall allow myself to be taught better, but only from said Scriptures" (lines 4487–4493).
+The Acts of the First and Second Zurich Disputations (January and October 1523), within `zwingli_selected-works_jackson1901.txt` (Registry row 7) — contemporary institutional record of the actual events, not later narrative reconstruction (Doc_02 §1). The Sixty-Seven Articles' own preface, independently re-verified this pass: "The articles and opinions below, I, Ulrich Zwingli, confess to have preached in the worthy city of Zurich as based upon the Scriptures which are called inspired by God... and where I have not now correctly understood said Scriptures I shall allow myself to be taught better, but only from said Scriptures" (lines 4487–4492).
 
 Note: this row (Registry row 7) is a collective bucket covering the volume's remaining shorter selections; the Acts themselves are directly attested, but the row's own individual items are not exhaustively itemized (Doc_01 §8 item 6, still open).
 
