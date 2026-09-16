@@ -47,7 +47,7 @@ The canonical gravity record for this world, per Doc_04 §4. **G1 is named here 
 
 **Gravity type:** Primary
 
-**Confidence:** Documented — both bishops' own accounts are directly quoted and re-verified (the 256 preface; Letters XXXI and CCXIII; Pontius's narrative). This predates the full read of Possidius, which Doc_04 excluded from the Cross-Check; that read (2026-09-15) gives G1 its richest attestation, in Phase Two. **The Cross-Check has not been re-run against it.**
+**Confidence:** Documented — both bishops' own accounts are directly quoted and re-verified (the 256 preface; Letters XXXI and CCXIII; Pontius's narrative). That evidence base predates this build's read of Possidius, which Doc_04 had excluded from the Confidence/Gravity Cross-Check; the read gives G1 its richest single attestation, in Phase Two, where G1's evidence had been thinner. **The Cross-Check has not been re-run against it, and re-running it is Doc_04's act rather than this document's.** The rating stands in the meantime because the unincorporated evidence *adds* attestation rather than qualifying it: it can leave G1's confidence understated, not overstated.
 
 **Cross-strand status:** Strand-singular; passes phase testing cleanly in both phases (Doc_04 §3 Candidate 1).
 
@@ -75,7 +75,7 @@ The canonical gravity record for this world, per Doc_04 §4. **G1 is named here 
 
 **Gravity type:** Primary
 
-**Confidence:** The underlying facts reach Documented (the 256 preface; *On Baptism*'s extensive argument, both directly quoted and re-verified). **The synthesis into one cross-phase gravity is this build's own reasoning, at Widely Accepted**; Doc_04 flags this rather than upgrading the classification (Doc_04 §3 Candidate 3).
+**Confidence:** The underlying facts reach Documented (the 256 preface; *On Baptism*'s extensive argument, both directly quoted and re-verified). **The synthesis into one cross-phase gravity is this build's own reasoning, at Widely Accepted**; Doc_04 flags this rather than upgrading the classification (Doc_04 §3 Candidate 3). This is the other of the two divergences held open at **Doc_04 §7 Open Item 1**, carried forward by the Cross-Check's own rule rather than resolved.
 
 **Cross-strand status:** Strand-singular; cross-phase — "the clearest candidate for a genuinely cross-phase term" (Doc_03, quoted at Doc_04 §3).
 
@@ -121,7 +121,7 @@ The canonical gravity record for this world, per Doc_04 §4. **G1 is named here 
 
 **Gravity type:** Supporting — **on the project lead's ruling of 2026-09-14, not this document's own six-test verdict**, which Doc_04 §3 calls narrow: narrow passes on Repetition, Dependency, Explanatory, Interaction; Formation unclear; Persistence fails at world level.
 
-**Confidence:** Both formulas' existence is Documented; the evidence for their organizing breadth does not reach the same level, and Doc_04 flags this rather than upgrading the classification (Doc_04 §3 Candidate 5, §7 Open Item 1).
+**Confidence:** Both formulas' existence is Documented; the evidence for their organizing breadth does not reach the same level, and Doc_04 flags this rather than upgrading the classification (Doc_04 §3 Candidate 5). This is one of the two Confidence/Gravity Cross-Check divergences held at **Doc_04 §7 Open Item 1, which remains open by design**: the Cross-Check's own rule carries a divergence forward to Doc_05 and Doc_08 instead of resolving it at Doc_04. Open Items 6 and 8 are closed; Item 1 is not, and Doc_04 records Candidate 5's as the more consequential of the two.
 
 **Cross-strand status:** Strand-singular; not phase-bound like G2 and G7 — attested in both phases but at one locus each, a century apart: "thin across the span, not bounded within it" (Doc_04 §5).
 
@@ -339,7 +339,7 @@ Fifteen of Doc_08's seventeen forces are carried here, at least one per occupied
 
 **Cell:** 2B — Ongoing/Internal
 
-**Formation impact (Layer 3):** G2 is this force's direct product in the first phase. Its second-phase persistence is qualified: the concern does not continue under its own name, and what survives is a family resemblance to G6 and G7, tested and classified separately.
+**Formation impact (Layer 3):** G2 is this force's direct product in the first phase. Its second-phase persistence is qualified: the concern does not continue under its own name. Doc_08 Force 2B-1 draws the line precisely, and the asymmetry is the finding — this force connects to G2 and G6, **both first-phase relations**, and **not to G7**, whose likeness is a family resemblance rather than a force-connection. That is why the field below lists two gravities where the phase-two afterlife touches three.
 
 **Gravity connection:** G2, G6 (both a first-phase relation, per Doc_04's own Interaction Matrix).
 
@@ -690,7 +690,7 @@ Stated as this world's own natural formation character, not as construction gaps
 Status: **CONFIRMED (2026-09-16, project lead).**
 What is outstanding: nothing on this gate. Article 29's freeze-eligibility requirement is discharged for `lpc`; Article 31's external scholarly review is a separate gate and is untouched by this.
 
-**Cross-reference:** No `lpc_Representative_Construction_Notes_[Name].md` exists yet — Representative Emergence (Step 10) has not begun in this world's own build sequence. This cross-reference will be completed at that stage.
+**Cross-reference:** The Representative's identity was decided by the project lead on 2026-09-15 as a single packaged choice — **Datus**, *Bishop of the Kept Flock* — recorded at `lpc_Decision_Log.md`. That is why Section 9 above can name him. What does not exist is `lpc_Representative_Construction_Notes_[Name].md`, which is Representative Emergence's own output: **Step 10 has not begun.** This cross-reference completes at that stage.
 
 ---
 
@@ -746,6 +746,7 @@ Answered against this document's actual state, not aspirationally. **One of the 
 | 2026-09-16 | Round 2 independent adversarial review | `Review-Artifacts/WorldProfile_Round2_Review.md` | REVISION REQUIRED — 1 HIGH · 6 MEDIUM · 6 LOW · 2 COSMETIC. Findings applied. |
 | 2026-09-16 | Round 3 independent adversarial review (scoped to Round 2's NEW-1/NEW-2 and NEW-2's blast radius) | `Review-Artifacts/WorldProfile_Round3_Review.md` | REVISION REQUIRED — 2 HIGH · 2 MEDIUM · 3 LOW. Both HIGHs fixed by a thread other than the one that raised them. |
 | 2026-09-16 | Condensing pass, run by two threads not applying findings (Doc_07 §8 item 10's remedy) | `Review-Artifacts/WorldProfile_Condensing_Pass_2026-09-16.md` | 17,571 → 11,696 words. Build-process narration removed; every template-required entry retained; Sections 9 and 10 verified byte-identical. |
+| 2026-09-16 | Findings pass on the four items the condensing pass surfaced and did not fix | `Review-Artifacts/WorldProfile_Condensing_Pass_2026-09-16.md` §6 | All four closed, each traced to source first. Two were the Profile's own prose, not upstream error. |
 | — | A round returning no substantial revision | *(not yet run)* | The three rounds above all returned findings; none has come back clean. |
 
 ---

@@ -77,7 +77,12 @@ Both threads were instructed not to fix anything they found. Seven items were fl
 6. G1's "the Cross-Check has not been re-run against it" caveat sits alongside a separately reported full Possidius read, unreconciled.
 7. Doc_04 Open Item 1 (G5) is left ambiguously open while its sibling Item 8 is reported closed, with no explicit status for Item 1.
 
-Items 1, 2, 6 and 7 remain open and belong to the findings thread, not to this pass.
+**Closed 2026-09-16, after this pass, by the findings thread.** All four were traced to source before being touched:
+
+- **Item 1 was not a dropped gravity.** Doc_08 Force 2B-1 is explicit that this force connects to G2 and G6, both first-phase relations, and **not** to G7, whose likeness is a family resemblance rather than a force-connection — a reversal Doc_08 argues at length against a review round that had claimed the relation runs symmetrically. The Gravity-connection field was right; the Profile's prose had compressed the asymmetry into an ambiguity, and had done so **before this pass**, which surfaced it rather than caused it. The prose now carries the asymmetry.
+- **Item 2 was the cross-reference, not the name.** The Representative's identity was decided by the project lead on 2026-09-15 as a single packaged choice — Datus, *Bishop of the Kept Flock* — and recorded in `lpc_Decision_Log.md`, so Section 9 is entitled to name him. What does not exist is the Construction Notes file, which is Step 10's own output. The cross-reference said no Representative existed; it now says what is true.
+- **Item 6:** G1's caveat now says whose act the re-run is (Doc_04's) and what the gap can mean — the unincorporated Possidius evidence adds attestation, so it can leave G1 understated, not overstated.
+- **Item 7:** Doc_04 §7 Open Item 1 remains open *by design* — the Cross-Check's own rule carries a divergence to Doc_05 and Doc_08 rather than resolving it. Both gravities that rely on it, G3 and G5, now say so; previously only Items 6 and 8 were given a status.
 
 ## 7. Disposition
 
