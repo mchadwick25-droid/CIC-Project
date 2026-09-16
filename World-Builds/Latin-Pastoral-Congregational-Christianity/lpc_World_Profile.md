@@ -747,6 +747,7 @@ Answered against this document's actual state, not aspirationally. **One of the 
 | 2026-09-16 | Round 3 independent adversarial review (scoped to Round 2's NEW-1/NEW-2 and NEW-2's blast radius) | `Review-Artifacts/WorldProfile_Round3_Review.md` | REVISION REQUIRED — 2 HIGH · 2 MEDIUM · 3 LOW. Both HIGHs fixed by a thread other than the one that raised them. |
 | 2026-09-16 | Condensing pass, run by two threads not applying findings (Doc_07 §8 item 10's remedy) | `Review-Artifacts/WorldProfile_Condensing_Pass_2026-09-16.md` | 17,571 → 11,696 words. Build-process narration removed; every template-required entry retained; Sections 9 and 10 verified byte-identical. |
 | 2026-09-16 | Findings pass on the four items the condensing pass surfaced and did not fix | `Review-Artifacts/WorldProfile_Condensing_Pass_2026-09-16.md` §6 | All four closed, each traced to source first. Two were the Profile's own prose, not upstream error. |
+| 2026-09-16 | Round 4 independent adversarial review, three dimensions run in isolation (condensation loss; source and quotation fidelity; internal and cross-document consistency) | `Review-Artifacts/WorldProfile_Round4_Review.md` and its three dimension files | **SUBSTANTIAL REVISION REQUIRED** — 5 HIGH · 6 MEDIUM · 6 LOW · 1 COSMETIC. All five HIGHs re-verified at source by the adjudicating thread. Not applied. |
 | — | A round returning no substantial revision | *(not yet run)* | The three rounds above all returned findings; none has come back clean. |
 
 ---
