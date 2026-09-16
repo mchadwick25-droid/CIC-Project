@@ -2,6 +2,8 @@
 
 **Prepared by:** the `lpc` build thread, 2026-09-16, on the project lead's instruction, following `Review-Artifacts/Living_Tradition_First_Limb_Analysis_2026-09-16.md`.
 
+**Mechanism decided by the project lead, 2026-09-16:** the distinction is **Facilitator-carried, not Representative-carried** — Datus holds none of it (`lpc_Decision_Log.md`). That is §2's closing paragraph and §3's second bullet, and it is now the settled approach rather than a proposal.
+
 **Status: DRAFT, NOT IN FORCE.** Article 29 confirmation is a project-lead act (process document, checkpoint M2). **This document sets no flag and confirms nothing.** §2 is text offered for adoption, redline or rejection.
 
 **Precedent followed:** Alexandria's confirmed case (`alex_Rep_Deployment_Salvage.md`), where the distinction is carried **in the Facilitator's voice, not the Representative's**, because the Representative *"stays in-world and temporally bounded… and therefore cannot speak *for* the living Church."* Field structure follows `lpc_World_Profile.md` §9's own four fields.
