@@ -221,7 +221,7 @@ the question and its answer, not deleted now that it is resolved.
 
 ## OG-7. Doc_03: a self-declared escalation condition was met at Round 9 — recorded honestly, and a judgment call explained rather than either buried or auto-escalated
 
-**Status: OPEN. A hard line is now set: one further mechanical fix, independently re-verified; a fifth failure of the same root cause escalates immediately, no further patch.**
+**Status: ESCALATED, 2026-09-16. The one further mechanical fix authorized here was made (Revision 9) and independently re-verified (Round 10): §11 item 2 held completely, but §11 item 8 was found short a fifth consecutive round, meeting this entry's own written condition. Awaiting the project lead's direction — see the entry's own closing section for the full account and the build thread's disclosed assessment.**
 
 Revision 8's own Escalation check (§13) stated in advance: *"If Round 9 finds the same root
 cause producing new gaps a fourth time even after this revision's mechanical regeneration, that
@@ -266,8 +266,8 @@ to approve execution. That is inside this thread's own authority under CO-022, n
 
 **But this is the last attempt on the build thread's own authority, and the line is drawn here,
 in writing, before the attempt is made — not after, and not adjusted if the attempt falls
-short.** Revision 9 applies the fix Round 9 specified, at the true full-file domain this time,
-not scoped to any finding list. A further independent round (Round 10) is commissioned
+short.** Revision 9 applied the fix Round 9 specified, at the true full-file domain this time,
+not scoped to any finding list. A further independent round (Round 10) was commissioned
 specifically to re-run the same complement test Round 9 ran, at the same scope, before any
 disposition is claimed. **If Round 10 finds the same root cause — item 2 or item 8 drifted from
 §13's own ground truth — producing new gaps a fifth time, even after a genuinely full-domain
@@ -275,3 +275,40 @@ regeneration, that escalates immediately, per CO-022's fourth category, with no 
 from this thread.** That would no longer be a scoping error with a known fix; it would be
 evidence that the build thread cannot close this on its own, which is exactly what the category
 is for.
+
+**Round 10's result, and the escalation this entry now records.** Round 10
+(`witt_Doc03_Review_Round10.md`, 2026-09-16) ran the identical full-file complement test
+independently, from scratch, against the vendored files. **§11 item 2 — the half that had
+failed for four consecutive rounds, and the actual target of OG-7's own remedy — came back
+completely clean: zero gaps, zero overlaps, exact against both files, 26,949 lines, every
+sampled boundary and translator correction independently confirmed at the file. The
+full-domain method worked, without qualification, on the larger and more consequential of the
+two halves.** But §11 item 8, the Registry-bound list, was found short again — five residual
+loci (65 lines total) at five Registry rows, three never named by any prior round and **two
+that Round 9 itself already named (C9-3) and that Revision 9's own log incorrectly reported as
+fixed** — plus item 8's own closing warrant that "all 95 rows were checked" is false as
+written, since two of the five short rows are primary rows the sweep should have caught. Round
+10 draws an explicit, reasoned distinction and declines to rule on its consequence, the same
+way this entry itself did at Round 8: the item-8 shortfall is not the same failure Round 9
+found — it is a sweep run in the wrong *direction* (row-outward instead of range-inward) rather
+than at the wrong *scope*, which is why it is 65 lines rather than 2,205, confined to boundary
+straddles rather than whole missing works, and carries no evidentiary risk (every omission
+understates coverage; nothing false would travel to the Registry). Round 10 also found two
+translator misattributions inside the new item-2 text itself (R10-2), one of them *inside*
+Round 9's own R9-4 correction — traced to the v1 contents page itself being wrong against its
+own volume's signed text at one line, a live demonstration of exactly the "never trust a
+secondary index over the primary source" discipline this project holds throughout.
+
+**On OG-7's own literal wording — "item 2 or item 8" — the condition is met.** Item 8 drifted
+and produced new gaps a fifth consecutive round, even after a genuinely full-domain attempt.
+Per this entry's own written commitment, **this is now escalated to the project lead rather
+than patched a sixth time by the build thread.** The build thread's own honest assessment,
+offered as input to that decision and not as a substitute for it: the residual itself is small,
+fully specified, and carries no evidentiary risk in either direction — Round 10's own closing
+section states the complete fix in one sentence (iterate over every line §13 declares read,
+not over the Registry's 95 rows, and assign each to its owner) — but the pattern of a
+self-reported "fixed" claim not actually holding (two-thirds of C9-3 was not applied, contrary
+to the Revision 9 log's own statement) is a distinct and more serious concern than the residual
+line count, and is exactly the kind of thing this project's "a record marked verified is a
+claim to re-check, not a fact to trust" discipline exists to catch. **Status: ESCALATED,
+2026-09-16, awaiting the project lead's direction.**
