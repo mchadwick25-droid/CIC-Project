@@ -836,3 +836,53 @@ since Doc_09 - admission does not touch it either way.
 
 `state: admitted` in `records/worlds/don.yaml`; `admitted` -> `open` is a
 separate, later call, not made here.
+
+**OPEN, 2026-09-16.** Mark's own word, in the same thread, in direct
+response to the admission entry above: "Flip don to open." `state:
+admitted` -> `state: open` in `records/worlds/don.yaml`, nothing else in
+that file touched - the same discipline the admission flip used.
+
+**First real use of `open` in this fleet, worth naming rather than
+treating as routine.** Every one of this project's other eight admitted,
+publicly-live worlds still carries `state: admitted` in its own registry
+entry - none has ever been flipped to `open`, even though all eight have
+been serving real participant traffic and appearing as "Built & Live" on
+the public Atlas since their own admission days. Checked directly, not
+assumed: `engine/api/wiring.py`'s `ADMITTED_STATES = frozenset({"admitted",
+"open"})` and `engine/m6/census_sync.py`'s `LIVE_STATES = {"admitted",
+"open"}` both already treat the two states identically for serving and
+census-eligibility purposes - so this flip changes no runtime behavior on
+its own; it exercises a registry state (`Artifact-1-Record-Schema.md`:
+"`admitted`->`open` (registry flip = the door opens)") the fleet has
+carried in its own spec since the beginning but never actually used.
+Recorded here so a future reader does not mistake don's `open` value for
+a bug or an inconsistency against its seven admitted-but-not-yet-open-
+in-name siblings.
+
+**Census synced the same pass, not held back.** `python -m
+engine.m6.cli sync` - a module this world's own admission entry above
+did not yet know existed (built 2026-09-15, commit `2d2b9735`, superseding
+the by-hand census-edit process every earlier admitted world's own entry
+describes) - brought `cic-website/data/world-census.json`'s donatism
+entry from `"Selected - Not Yet Built"` to `"Built & Live"`
+(`chip: "live"`, `statusWord: "Open for conversation"`, representative
+name/title and world name populated from the registry) and recomputed
+`meta.liveCount` (8 -> 9) and `meta.statusCounts`. Run rather than held
+for a separate ask because `engine/m6/tests/test_census_sync.py`'s own
+regression-lock test treats registry/census drift as a real defect the
+moment the registry changes, not a separate future task, and the sync
+touches only registry-derivable fields (never `living`,
+`entry.color/tile/icon`, `why`, `longDescription`, or hand-authored
+content) - the mechanical completion of the `open` decision Mark already
+made, not a new one. Validated with `node tools/validate-census.mjs`
+(0 errors) and a full `engine.m1.cross_world` re-run (0 new defects, 17
+accepted-open - `census-id/don` closed the same pass, not left stale).
+`engine/m1/test_cross_world.py`, `engine/m6/tests/test_census_sync.py`,
+and the rest of the `engine/m1`/`engine/m2`/`engine/m6`/`engine/m4` suites
+all pass (337 total).
+
+**Still not done - deliberately not attempted in this pass:** WO-1
+object-storage upload (R2 configuration status unchecked), merging any
+of don's own PRs to `main` (already merged - PR #190, PR #194 - so
+likely a no-op, not verified here), and the `main` -> `live` promotion
+PR. Each is its own separate step and its own separate call.
