@@ -1,0 +1,19 @@
+# Worker: source-research thread, 2026-09-16. One of 2 works fetched and
+# vendored this pass against the "no public-domain edition found" tier of
+# a user-supplied Atlas source-gap report ("Sources the Atlas Cannot
+# Read", 2026-09-16) - found by a fresh search this session, since the
+# report itself only named a search direction, not a resolved identifier.
+source_file: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921.txt
+
+assignments:
+  - work: "Preface to the Homilies on Numbers (in Origenes Werke Bd. 7)"
+    author: rufinus
+    locus: "preface to Donatus, raw-scan lines ~2370-2400"
+    atlas_ids:
+      - aquileian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Rufinus's own preface, written in Sicily while a Barbarian force
+      burned Regium (Reggio) just across the strait, c. 410 CE - directly
+      confirmed present and matching the Atlas story's own framing.

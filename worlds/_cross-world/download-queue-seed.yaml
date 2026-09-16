@@ -939,3 +939,42 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct fetch and read, 2026-09-16"
     status: downloaded
+
+  - title: "Preface to the Homilies on Numbers (Origenes Werke Bd. 7)"
+    author: "Rufinus of Aquileia"
+    translator: "(Latin only - ed. W.A. Baehrens, GCS)"
+    year: 1921
+    world: aquileian-christianity
+    why: >
+      From the "no public-domain edition found" tier of a user-supplied
+      Atlas source-gap report ("Sources the Atlas Cannot Read",
+      2026-09-16), which itself only suggested "GCS Origenes Werke VII,
+      Baehrens 1921" as a search direction rather than a resolved
+      identifier. Found by a fresh archive.org search this session.
+      Rufinus's own preface to Donatus confirmed present, directly
+      naming the cited autobiographical detail (writing in Sicily while
+      a Barbarian force burned Regium/Reggio across the strait, c. 410
+      CE).
+    url: "https://archive.org/details/origenes-werke.-bd-7-1921"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "In Sanctum Lucianum Martyrem"
+    author: "John Chrysostom"
+    translator: "Fronton du Duc (Latin)"
+    year: 1862
+    world: antiochene-church-third-century
+    why: >
+      Same report as above, which itself only suggested "Patrologia
+      Graeca vol. 50" as a search direction. "IN S. MARTYREM LUCIANUM"
+      confirmed present. A first, more standard-looking identifier for
+      this volume (patrologiae_cursus_completus_gr_vol_050) was found
+      completely unusable - Greek-only OCR applied to the whole
+      bilingual page garbled both languages into unreadable text (0%
+      Latin-alphabet-legible). This entry uses a different, legible scan
+      instead.
+    url: "https://archive.org/details/patrologicursusc0050unse"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded

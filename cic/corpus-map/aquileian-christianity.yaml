@@ -37,3 +37,14 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- work: Preface to the Homilies on Numbers (in Origenes Werke Bd. 7)
+  author: rufinus
+  locus: preface to Donatus, raw-scan lines ~2370-2400
+  role: tradition
+  confidence: assigned
+  note: 'Rufinus''s own preface, written in Sicily while a Barbarian force burned Regium (Reggio)
+    just across the strait, c. 410 CE - directly confirmed present and matching the Atlas
+    story''s own framing.
+
+    '
+  source_file: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921.txt
