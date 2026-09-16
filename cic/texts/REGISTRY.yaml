@@ -2010,3 +2010,168 @@
     direct/indirect shape of a line. The one flagged quotation above turns on exactly that
     distinction and stays open for want of Gregory's Latin, which is not vendored and was
     not reachable from this sandbox.
+- filename: bede_ecclesiastical-history_giles1903.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    Bede, Ecclesiastical History, in J. A. Giles' translation as printed in the Temple
+    Classics (London: J. M. Dent, 1903). Acquired to close the quotation in the Atlas
+    story 'The Sparrow Through the Hall' (anglo-saxon-christianity), which cites EH
+    II.13-14 and could not be checked because no Bede was vendored. Coifi, the sparrow
+    and Goodmanham are all present. Giles' text is his 1840 revision of Stevens (1723),
+    so it is a Victorian rendering of a Georgian one - relevant if a wording turns on a
+    translator's choice.
+- filename: boniface_english-correspondence_kylie1911.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    Edward Kylie's English translation of the Boniface correspondence (London: Chatto &
+    Windus, 1911). Acquired for 'Leoba Asks to Be Remembered' (anglo-saxon-christianity),
+    which cites the Leoba letter by its Tangl number; this volume carries it in English.
+    SEARCH CAUTION: the name is spelled 'Lioba' throughout this edition, never 'Leoba'
+    or 'Leobgytha' - a search on the Atlas' own spelling returns nothing.
+- filename: gregory-tours_history-of-the-franks_dalton1927.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    O. M. Dalton's translation (Oxford: Clarendon, 1927), volume II - the translation
+    itself; volume I is the introduction and was not vendored. Acquired for 'Sichar and
+    Chramnesind' and part of 'Radegund Walks Out of the Palace' (both
+    merovingian-gallic-christianity). VII.47 and IX.19 are present.
+- filename: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    Edward Walford's English translation (London: Bagster, 1846). Acquired for 'Dioscorus
+    Refuses to Come In' (cyrilline-miaphysite-egyptian-tradition), which cites Evagrius
+    II.2-8. NOTE ON WHICH EDITION: the Greek text (Bidez-Parmentier, archive.org
+    ecclesiasticalhi00evag) was fetched first on the strength of its identifier and
+    rejected on reading it - it is Greek, and its OCR is unusable. Identifier resolution
+    is not edition verification; this is the case that proved it in this pass.
+- filename: john-nikiu_chronicle_charles1916.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    R. H. Charles' translation from Zotenberg's Ethiopic (London: Williams & Norgate for
+    the Text and Translation Society, 1916). Acquired for 'Benjamin Comes Out of Hiding'
+    (cyrilline-miaphysite-egyptian-christianity), with the History of the Patriarchs
+    vendored the same day as its second source. Chapters 116-121 are present.
+- filename: history-patriarchs-alexandria_evetts-po1-1904.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    B. Evetts' edition, Patrologia Orientalis tome I (Paris: Firmin-Didot, 1904) - Arabic
+    with facing English. Acquired for the Life of Benjamin I. COMPOSITE SCAN: this item
+    also carries material running under 'PATR. OR. - T. XI' (Mina, Vie d'Isaac), so a
+    search hit in this file is not necessarily from tome I. Check the running head
+    before citing. Date read off the running head, not the catalog, which gives the
+    series range '1907 [i.e. 1903]-' for every PO volume.
+- filename: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    E. W. Brooks' edition, Patrologia Orientalis tome XVII (1923) - Syriac with facing
+    English, Lives 1-17. The companion to tome XIX below. Date read off the volume's own
+    imprint line, not archive.org's catalog, which reports the series start for every
+    tome - the same trap the Donatism Source_Acquisition_Manifest already flagged when
+    its catalog said 1901 for a 1912 Monceaux volume.
+- filename: john-ephesus_lives-eastern-saints-po19_brooks1926.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    E. W. Brooks' edition, Patrologia Orientalis tome XIX (1926) - Syriac with facing
+    English. THIS is the volume that closes 'The Bishop in the Horse-Blanket'
+    (syriac-orthodox-west-syriac-christianity): it carries 'LIVES OF JAMES AND THEODORE'
+    (Lives 49-50), James being Jacob Baradaeus, and with them the pack-saddle etymology
+    of his name - 'like a pack-saddle, and from this he was named Burd'an'. Tome XVIII,
+    the middle third of the Lives, was NOT vendored: its imprint line is illegible in
+    the scan and the catalog gives only the series range, so no publication date could
+    be established from the item itself and the rights basis would have been a guess.
+- filename: john-ephesus_ecclesiastical-history-3_payne-smith1860.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    R. Payne Smith's English translation (Oxford, 1860), the second source cited by 'The
+    Bishop in the Horse-Blanket'. NOTE ON WHICH EDITION: archive.org identifiers
+    thirdpartofeccl00john and thirdpartofeccle00john are both Cureton's 1853 SYRIAC
+    edition with unusable OCR, despite titles that read as the English. This identifier
+    is the English.
+- filename: palladius_dialogue-on-chrysostom_moore1921.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    Herbert Moore's translation (London: SPCK, 1921). Acquired for '‘Do Not Make Me a Widow
+    a Second Time’' (antiochene-exegetical-christianity-chrysostom-ce), where it is the
+    corroborating source; the quotation itself is in De Sacerdotio, already vendored and
+    already confirmed sound. Not the same work as Palladius' Lausiac History, vendored
+    separately as palladius_lausiac-history_clarke1918.txt.
+- filename: egeria_pilgrimage-of-silvia_bernard-ppts1-1896.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    Palestine Pilgrims' Text Society vol. I (London, 1896), carrying J. H. Bernard's
+    translation of Egeria under the older attribution 'S. Silvia'. Acquired for 'Why the
+    Deacons Stand Guard Over the Wood' (jerusalem-liturgical-pilgrimage-christianity),
+    which cites Itinerarium 37; that chapter is present, with the deacons round the
+    table and the silver-gilt casket. TWO CAUTIONS: this is a bound COMPOSITE of several
+    PPTS fascicles, not one work, and the pilgrim is indexed as 'Silvia' - a search for
+    'Egeria' or 'Aetheria' returns nothing.
+- filename: pelagius_ad-demetriadem-lat_migne-pl30-1846.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    Migne, Patrologia Latina tome XXX (1846), Latin. Acquired for 'Three Letters to a Girl
+    Taking the Veil' (pelagianism). WHY IT WAS NEVER FOUND BEFORE: the Letter to
+    Demetrias was transmitted among Jerome's spuria, so it sits in a Jerome volume under
+    the heading 'EPISTOLA I. PELAGII AD DEMETRIADEM' - every search under Pelagius' own
+    name failed for that reason, including this project's own earlier sweep, which
+    concluded the letter 'appears only as a line in Schaff's bibliography'. A whole
+    Migne volume, not a single work. No public-domain English translation was found, so
+    this is a Latin second witness only.
+- filename: romanos-melodist_cantica-grc_pitra1888.txt
+  supplied_by: >-
+    Claude (Atlas documented-stories source-acquisition pass: located the edition,
+    date-verified it against the item's own title page, fetched it from archive.org
+    and vendored it)
+  date_added: '2026-09-16'
+  notes: >-
+    J.-B. Pitra's edition (Rome: Propaganda Fide, 1888), Greek with Latin apparatus.
+    Acquired for 'The Deacon Who Could Not Sing' (byzantine-imperial-church-justinianic).
+    SECOND WITNESS ONLY: no English, so this is material for cross-checking an English
+    rendering of the kontakia, never itself citable as a Representative's evidence.
