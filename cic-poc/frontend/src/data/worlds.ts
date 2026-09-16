@@ -25,9 +25,11 @@ export interface WorldAssets {
 // registry's own file order (which interleaves desert and pahc
 // differently). A world_key GET /api/worlds returns that isn't listed here
 // has no known assets yet and is left off the list rather than shown
-// without a portrait. Eight formation worlds as of 2026-09-13 (gallic
-// added once its own Representative portrait, Renatus, was locked).
-export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic'];
+// without a portrait. Nine formation worlds as of 2026-09-16 (don added
+// once Mark flipped it open and its own Representative portrait, Fidelis
+// - approved 2026-09-10, sitting unshipped in Brand-Assets since - was
+// finally wired to the two live-serving asset locations).
+export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic', 'don'];
 
 export const WORLD_ASSETS: Record<string, WorldAssets> = {
   alx: { portraitImage: '/images/portraits/alexandria.png', accentColor: '#B45309' },
@@ -46,6 +48,15 @@ export const WORLD_ASSETS: Record<string, WorldAssets> = {
   // theme) - checked against every color above and the two reserved semantic tokens for a
   // distinct hue and temperature (per gallic_Representative_Portrait_Grounding_Brief.md).
   gallic: { portraitImage: '/images/portraits/gallic.jpg', accentColor: '#5A6B74' },
+  // Ninth world, added 2026-09-16 once Mark flipped don open and its
+  // approved portrait was shipped. Color #6A2525 (a deep oxblood/martyrdom
+  // red, grounded in this world's own martyrs'-graves-read-aloud practice
+  // and the Deo laudes acclamation) - checked against every color above
+  // and the two reserved semantic tokens for a distinct hue; the nearest
+  // neighbor is hal's own muted rose (#8C4A5C, 16 degrees away in hue) but
+  // don's is substantially more saturated and darker, reading as blood-red
+  // rather than mauve at card/icon scale.
+  don: { portraitImage: '/images/portraits/donatism.png', accentColor: '#6A2525' },
 };
 
 export interface WorldStarter {

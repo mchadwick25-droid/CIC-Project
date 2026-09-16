@@ -88,9 +88,14 @@ ACCEPTED_OPEN: dict[str, str] = {
     # All four gallic entries this dict once carried are gone, not left
     # stale.
     "figure-dates-keys/don": "F-04-analogue - all 24 don figure records key figure.dates as `display`, the same pattern and the same reason as figure-dates-keys/cappadocian above: this world's own dating is pervasively contested or multi-clause (two Marcellinuses roughly a century apart, three Felixes, disputed Passio dating with two vendored authorities disagreeing by over two decades) and does not reduce to born/died/floruit without losing the disclosed uncertainty itself. Same disclosed-not-fixed disposition, found compiling the world rather than wiring a portrait - belongs to a don build thread, not a mass rewrite improvised here.",
-    "app-world-assets/don": "Record-native compilation, 2026-09-10: Phase C deployment wiring (app/world_manifest.py, WORLD_ASSETS, frontend hand-sync points) was never in scope for the record-native compile (Phase B) this entry covers - it is the next, separate phase per reference/method/CiC_Record_Native_World_Build_Process_V1_3.md SS4, and belongs to whoever picks up Donatism's own go-live work.",
-    "app-world-order/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
-    "site-portrait/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - the traditions/donatism.html portrait page is deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
+    # app-world-assets/don, app-world-order/don, site-portrait/don CLOSED
+    # 2026-09-16: the deployment wiring these named as deferred (frontend
+    # worlds.ts registration, the Fidelis portrait, the traditions page) is
+    # done - the approved Fidelis portrait (locked 2026-09-10, sitting
+    # unshipped in Ministry/Communication/Brand-Assets/ until now) shipped
+    # to both live-serving asset locations, don registered in
+    # cic-poc/frontend/src/data/worlds.ts, and traditions/donatism.html
+    # built grounded in this world's own records. Not left stale.
     # census-id/don CLOSED 2026-09-16: opened for the real admitted-but-
     # not-yet-open gap between don's admission and Mark's explicit "Flip
     # don to open"; closed the same day once `python -m engine.m6.cli
