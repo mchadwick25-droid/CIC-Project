@@ -86,7 +86,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 **Layer 2 — World's Own Experience.** *[Y]our suffrage and God's judgment*, set against a faction's *ancient venom*. A deacon who knew him put it from outside: *by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte.*
 
-**Layer 3 — Formation Impact.** This force gives **G1** its characteristic two-directional shape — a bishop answerable *to* the people who placed him as well as *for* them — and is the origin of the congregational leverage Doc_05 §4.3 and Doc_07 §2F document, including its limit. **A caution carried from Doc_03 rather than smoothed:** the pattern is attested through different figures, different offices and different words, not one recurring term, and Augustine's own episcopate came by designation and consecration rather than a second acclamation.
+**Layer 3 — Formation Impact.** This force gives **G1** its characteristic two-directional shape — a bishop answerable *to* the people who placed him as well as *for* them — and is the origin of the congregational leverage Doc_05 §4.3 and Doc_07 §2F document, including its limit. **A caution carried from Doc_03 rather than smoothed:** the pattern is attested through different figures and different words, not one recurring term — **but at the same office in both phases**: Augustine's episcopate came by Valerius's designation and Megalius's consecration **and** by popular clamour he refused before yielding under compulsion (Possidius *Vita* ch. VIII; project lead's ruling, 2026-09-16).
 
 ---
 
