@@ -13,10 +13,14 @@ Every top-level entry belongs to one of five kinds. Nothing else sits at the roo
 
 ## Live — what deploys, and what reads it
 
+"Render" below means the `cic-engine` production service, deploying from the protected
+`live` branch — `cic-engine-staging` (deploying `main`) reads the identical set, ahead
+of promotion. See "How things move" for the promotion path.
+
 | entry | module | read by |
 |---|---|---|
 | `engine/` | interview engine, table engine, facilitator (m5), build engine (m1–m3), audit and cost (m7, m8), API | Render (Docker COPY), CI, engine |
-| `records/` | world truth — one directory per world by registry code; `_fleet/` is fleet-shared; `worlds.yaml` is the one registry | Render, CI, engine |
+| `records/` | world truth — one directory per world by registry code; `_fleet/` is fleet-shared; `worlds/<code>.yaml` is the registry, one file per world | Render, CI, engine |
 | `packages/` | compiled world packages, derived from `records/`; only pinned manifests are tracked | Render, CI, engine |
 | `canon/` | sealed admission probes (fleet-shared) | CI, engine |
 | `fixtures/` | the synthetic fixture world and seeded defects | CI, engine |
@@ -64,8 +68,10 @@ display names.
 ## How things move
 
 - A world is installed by a reviewed registry commit pointing at its package.
-- Live changes by promotion from `main` to the protected live ref, after tests and
-  verification. Nothing merges to live directly.
+- Live changes by promotion from `main` to the protected `live` branch (phase 3,
+  2026-09-15), after verification on `cic-engine-staging` and Mark's own review.
+  Nothing merges to `live` directly — procedure and one-time setup:
+  `Ministry/Operations/Standing/CiC_Promotion_Runbook.md`.
 - Hot trees (`worlds/`, `records/`) move only inside a declared freeze window.
 - Superseded material moves to `Archive/`; nothing is deleted without instruction.
 - A working file carries no change notes. The record of a change lives in a

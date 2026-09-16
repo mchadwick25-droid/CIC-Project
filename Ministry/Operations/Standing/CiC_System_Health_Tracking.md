@@ -668,3 +668,43 @@ TODO/debug/LLM-tell content, no `## Revision Log` recurrence.
 next receive a push or a manual CI re-run — GitHub doesn't re-trigger
 checks on a PR just because its base branch advanced, and forcing one
 (an empty commit, a close/reopen) is against this thread's own rules.
+
+---
+
+## 2026-09-16 — Scheduled sweep: repo-architecture phase 2 has landed; one
+## local-only false positive caught before being reported as real
+
+**Phase 2 of the repo-architecture cleanup is now live on `main`.** 12
+worlds' `World-Builds/<Name>/` and `world-build-docs/<code>/` trees have
+moved into `worlds/<code>/` and `worlds/<code>/build/` respectively
+(`tools/moves-phase2.tsv`). The 6 not-yet-coded Era VI/VII worlds
+(Anabaptist Movements, Lollardy, Lutheran-Wittenberg, Reformed
+Zurich/Geneva, Society of Jesus, Tridentine Church) correctly stay under
+`World-Builds/` until each gets a registry code, per that thread's own
+design shared with this one on 2026-09-15.
+
+**Caught before reporting: a local check_paths.py failure that wasn't
+real.** A fresh `main` sync locally showed `RETIRED PATH PRESENT:
+World-Builds/Cappadocian`, which would have meant this thread's own
+mandate territory (a genuine repo-wide break). Investigated before acting:
+the only thing actually inside that directory was a stray
+`__pycache__/wb_cappadocian_s21.cpython-311.pyc` — a leftover from this
+thread's own `python3 -m py_compile` verification during yesterday's
+Cappadocian script review, properly `.gitignore`d and never committed.
+`git log` on the file showed no history; `git status` showed nothing. Not
+a `main` defect — a contaminated local checkout. Deleted the stray file
+and directory locally; nothing pushed, nothing to fix upstream. Logged
+here only so a future sweep (by this thread or anyone) doesn't waste time
+re-diagnosing the same false alarm, and as a reminder that this check
+needs a clean tree to trust — a session's own prior local commands can
+poison it.
+
+**7 open PRs this round** (#236, #234, #233, #230, #229 — all new since
+the last sweep, all green, newly subscribed; #225 and #197 — already
+tracked, showing their pre-fix CI state from before #226/#227 merged,
+unchanged since neither has received a new push). Fleet-size watch: still
+9, no change. Hygiene grep across everything touching `worlds/`,
+`World-Builds/`, `cic/texts/`, `cic/corpus-map/`, `engine/`, `records/`,
+`cic-website/` since the last sweep — clean.
+
+**Next action:** none pending.

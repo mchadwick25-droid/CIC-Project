@@ -37,9 +37,36 @@
 # the models actually used (CIC_API_VOICE_MODEL_PATTERN/
 # CIC_API_SAFETY_MODEL_PATTERN, left at their code defaults).
 #
-# Which branch Render's blueprint connection uses is a Render dashboard
-# setting, not something any file in this repo records - confirm it
-# there when connecting or re-connecting.
+# TWO SERVICES, one blueprint, D3's promotion model (Repo Structure
+# Cleanup phase 3, 2026-09-15 - Ministry/Operations/Standing/
+# CiC_Repo_Structure_Tracking.md). `main` is the integration sandbox;
+# `live` is the protected branch production actually deploys from,
+# advanced only by a deliberate, logged promotion (a reviewed PR from
+# `main` into `live`) after tests and Mark's own verification - never a
+# direct push. `cic-engine` (prod) pins `branch: live`; `cic-engine-
+# staging` pins `branch: main`, so both exist in the same Render
+# account without either silently deploying the other's content. This
+# supersedes the older single-branch convention this comment used to
+# describe - each service's own `branch:` key below is now the source
+# of truth for what it deploys, not a dashboard-only setting. Render
+# still requires a one-time dashboard step to connect a NEW service
+# from this blueprint (Settings -> Blueprints -> sync) and to set its
+# own sync: false secrets afterward - that part stays a dashboard
+# action, same as it always was for AWS credentials.
+#
+# Object storage for compiled world packages (WO-1, 2026-09-16 -
+# engine/m4/object_storage.py, engine/m4/package_fetch.py). Cloudflare R2,
+# same account cic-website already uses - CIC_API_PACKAGE_BUCKET/
+# _ENDPOINT/_ACCESS_KEY_ID/_SECRET_ACCESS_KEY are all sync: false, unset
+# until Mark completes the one-time R2 setup in
+# Ministry/Operations/Standing/CiC_Object_Storage_Runbook.md. Until then
+# CIC_API_PACKAGE_BUCKET stays empty and every world loads exactly as it
+# always did, straight off this image's own baked-in packages/ - object
+# storage is a fallback for a world installed since the last deploy, not
+# a replacement for the baked-in set. Both services point at the SAME
+# bucket on purpose: a package proven on staging and then promoted needs
+# no second upload, it is already sitting where prod's own fetch would
+# look.
 #
 # events.db/usage.db live on the Render Disk below (CIC_API_EVENTS_DB /
 # CIC_API_USAGE_DB point at its mount), so they survive restarts and
@@ -60,6 +87,7 @@
 services:
   - type: web
     name: cic-engine
+    branch: live
     runtime: docker
     dockerfilePath: ./engine/Dockerfile
     dockerContext: .
@@ -98,4 +126,74 @@ services:
       # (engine.api.app._authenticate_admin); there is no code default to
       # accidentally ship a guessable one.
       - key: CIC_API_ADMIN_TOKEN
+        sync: false
+      - key: CIC_API_PACKAGE_CACHE_DIR
+        value: /data/packages-cache
+      - key: CIC_API_PACKAGE_BUCKET
+        sync: false
+      - key: CIC_API_PACKAGE_BUCKET_ENDPOINT
+        sync: false
+      - key: CIC_API_PACKAGE_BUCKET_ACCESS_KEY_ID
+        sync: false
+      - key: CIC_API_PACKAGE_BUCKET_SECRET_ACCESS_KEY
+        sync: false
+
+  # STAGING (D3, phase 3, 2026-09-15). Deploys every push to `main` -
+  # the integration sandbox - so a change is running here before it is
+  # ever proposed for promotion into `live`. Same image, same
+  # Dockerfile, deliberately smaller plan and its own disk: staging
+  # traffic is verification, not participants, and the two services
+  # must never share a disk (SQLite, one writer). `CIC_ENFORCE_ADMISSION`
+  # is "0" here on purpose, not a staging oversight - Artifact-6 SS3's
+  # own original environments split ("staging: fixture world + candidate
+  # packages") wants exactly this: a built-but-not-yet-admitted world is
+  # testable here before Mark admits it, the same way it never could be
+  # if staging enforced the live gate too.
+  - type: web
+    name: cic-engine-staging
+    branch: main
+    runtime: docker
+    dockerfilePath: ./engine/Dockerfile
+    dockerContext: .
+    plan: starter
+    disk:
+      name: cic-engine-staging-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: CIC_API_REGION
+        value: us-east-1
+      - key: CIC_API_EVENTS_DB
+        value: /data/cic_api_events.db
+      - key: CIC_API_USAGE_DB
+        value: /data/cic_api_usage.db
+      - key: CIC_ENFORCE_ADMISSION
+        value: "0"
+      # Own credentials, own scope - never the prod keys pointed at a
+      # second service. PHASE-1-LAUNCH.md Stage 3's caution (a DEV
+      # identity is not a production one) runs the other direction here:
+      # staging should hold the narrower, cheaper-to-rotate identity: no
+      # reason for a compromised staging key to reach anything prod's
+      # own key can.
+      - key: AWS_ACCESS_KEY_ID
+        sync: false
+      - key: AWS_SECRET_ACCESS_KEY
+        sync: false
+      - key: CIC_API_ADMIN_TOKEN
+        sync: false
+      - key: CIC_API_PACKAGE_CACHE_DIR
+        value: /data/packages-cache
+      # Same bucket as cic-engine (see this file's own top-of-file note) -
+      # same values, not a separate R2 API token. A compromised staging
+      # credential reading a bucket of already-public-ish compiled
+      # packages is a different risk shape than a compromised Bedrock
+      # key, so this one pattern doesn't need cic-engine's own "never
+      # share a credential across services" rule to apply.
+      - key: CIC_API_PACKAGE_BUCKET
+        sync: false
+      - key: CIC_API_PACKAGE_BUCKET_ENDPOINT
+        sync: false
+      - key: CIC_API_PACKAGE_BUCKET_ACCESS_KEY_ID
+        sync: false
+      - key: CIC_API_PACKAGE_BUCKET_SECRET_ACCESS_KEY
         sync: false

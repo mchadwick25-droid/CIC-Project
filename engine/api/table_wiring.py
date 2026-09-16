@@ -30,6 +30,7 @@ this to account with a seeded cross-world leak.
 import random
 import uuid
 from dataclasses import dataclass
+from pathlib import Path
 
 from engine.api.wiring import (
     DuplicateMessage,
@@ -127,7 +128,15 @@ class TableMessageResult:
     session_closed: bool = False
 
 
-def create_table_session(*, store: Store, world_loader: LazyWorldLoader, registry: dict, world_keys: list[str], require_admitted: bool = False) -> tuple[str, str]:
+def create_table_session(
+    *,
+    store: Store,
+    world_loader: LazyWorldLoader,
+    registry: dict,
+    world_keys: list[str],
+    require_admitted: bool = False,
+    package_cache_dir: Path | None = None,
+) -> tuple[str, str]:
     """Returns (session_id, raw_code), same contract as the interview's
     create_session. Every seated world is loaded (and its manifest hash
     pinned) before anything is written - a table with an unloadable seat is
@@ -150,7 +159,7 @@ def create_table_session(*, store: Store, world_loader: LazyWorldLoader, registr
         raise ValueError(f"a table seats 2-3 distinct worlds, got {world_keys!r}")
     for k in world_keys:
         _check_admission(registry, k, require_admitted=require_admitted)
-    worlds = [_load_world(world_loader, registry, k) for k in world_keys]
+    worlds = [_load_world(world_loader, registry, k, package_cache_dir=package_cache_dir) for k in world_keys]
     session_id = str(uuid.uuid4())
     raw_code = session_code.generate_code()
     open_session(
@@ -180,7 +189,9 @@ def create_table_session(*, store: Store, world_loader: LazyWorldLoader, registr
     return session_id, raw_code
 
 
-def _seated_worlds(state: SessionState, world_loader: LazyWorldLoader, registry: dict) -> dict[str, LoadedWorld]:
+def _seated_worlds(
+    state: SessionState, world_loader: LazyWorldLoader, registry: dict, *, package_cache_dir: Path | None = None
+) -> dict[str, LoadedWorld]:
     """Every seated world, loaded against the hash AND directory pinned at
     session creation - a mid-session repin of ANY seat resolves through its
     own pinned package, same discipline and same reason as the interview's
@@ -193,6 +204,7 @@ def _seated_worlds(state: SessionState, world_loader: LazyWorldLoader, registry:
             k,
             expected_manifest_hash=state.package_manifest_hashes[k],
             package_location_override=locations.get(k),
+            package_cache_dir=package_cache_dir,
         )
         for k in state.world_keys
     }
@@ -850,6 +862,7 @@ def _handle_table_message_unlocked(
     text: str,
     client_msg_id: str | None = None,
     config: RoundConfig | None = None,
+    package_cache_dir: Path | None = None,
 ) -> TableMessageResult:
     config = config or RoundConfig()
     state = project_fresh(session_id, store)
@@ -864,7 +877,7 @@ def _handle_table_message_unlocked(
     if state.round_open:
         raise TableRoundStillOpen(session_id)
 
-    worlds = _seated_worlds(state, world_loader, registry)
+    worlds = _seated_worlds(state, world_loader, registry, package_cache_dir=package_cache_dir)
     representative_names = [worlds[k].frame["representative"]["name"] for k in state.world_keys]
     anachronistic_ids = _round_anachronistic_term_ids(worlds)
 
@@ -968,6 +981,7 @@ def _continue_table_round_unlocked(
     safety_model_id: str,
     session_id: str,
     config: RoundConfig | None = None,
+    package_cache_dir: Path | None = None,
 ) -> TableMessageResult:
     config = config or RoundConfig()
     state = project_fresh(session_id, store)
@@ -980,7 +994,7 @@ def _continue_table_round_unlocked(
     if state.mode != "table" or not state.round_open:
         raise TableRoundNotOpen(session_id)
 
-    worlds = _seated_worlds(state, world_loader, registry)
+    worlds = _seated_worlds(state, world_loader, registry, package_cache_dir=package_cache_dir)
     gate_payload = _last_gate_payload(state)
     return _advance_open_round(
         store=store, usage_store=usage_store, worlds=worlds,

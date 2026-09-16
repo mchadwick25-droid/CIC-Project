@@ -55,6 +55,7 @@ class Deps:
     default_world_key: str
     enforce_admission: bool
     admin_token: str | None = None
+    package_cache_dir: Path | None = None
 
 
 class SessionCreateRequest(BaseModel):
@@ -207,6 +208,7 @@ def create_app(
     enforce_admission: bool = False,
     rate_limit: bool = False,
     admin_token: str | None = None,
+    package_cache_dir: Path | None = None,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -236,6 +238,7 @@ def create_app(
         admin_token=admin_token,
         default_world_key=default_world_key,
         enforce_admission=enforce_admission,
+        package_cache_dir=package_cache_dir,
     )
 
     @app.get("/health")
@@ -246,7 +249,10 @@ def create_app(
     def list_worlds_endpoint(request: Request):
         deps: Deps = request.app.state.deps
         try:
-            worlds = wiring.list_worlds(world_loader=deps.world_loader, registry=deps.registry, require_admitted=deps.enforce_admission)
+            worlds = wiring.list_worlds(
+                world_loader=deps.world_loader, registry=deps.registry, require_admitted=deps.enforce_admission,
+                package_cache_dir=deps.package_cache_dir,
+            )
         except PackageRefused:
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
         return WorldListResponse(worlds=worlds)
@@ -265,7 +271,7 @@ def create_app(
             try:
                 session_id, code = table_wiring.create_table_session(
                     store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_keys=req.world_keys,
-                    require_admitted=deps.enforce_admission,
+                    require_admitted=deps.enforce_admission, package_cache_dir=deps.package_cache_dir,
                 )
             except wiring.UnknownWorldError as exc:
                 raise HTTPException(status_code=400, detail=f"unknown world_key {exc.args[0]!r}")
@@ -288,7 +294,7 @@ def create_app(
         try:
             session_id, code = wiring.create_session(
                 store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_key=world_key,
-                require_admitted=deps.enforce_admission,
+                require_admitted=deps.enforce_admission, package_cache_dir=deps.package_cache_dir,
             )
         except wiring.UnknownWorldError:
             raise HTTPException(status_code=400, detail=f"unknown world_key {world_key!r}")
@@ -316,6 +322,7 @@ def create_app(
             session_id=session_id,
             text=req.text,
             client_msg_id=req.client_msg_id,
+            package_cache_dir=deps.package_cache_dir,
         )
         started = time.monotonic()
         try:
@@ -364,6 +371,7 @@ def create_app(
                 safety_client=deps.safety_client,
                 safety_model_id=deps.safety_model_id,
                 session_id=session_id,
+                package_cache_dir=deps.package_cache_dir,
             )
         except wiring.SessionNotFound:
             raise HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
@@ -488,12 +496,13 @@ def _build_real_app() -> FastAPI:
         safety_model_id=safety_model_id,
         store=store,
         usage_store=usage_store,
-        world_loader=LazyWorldLoader(),
+        world_loader=LazyWorldLoader(max_idle_seconds=settings.world_idle_unload_seconds),
         registry=full_registry,
         default_world_key=settings.default_world_key,
         enforce_admission=settings.enforce_admission,
         rate_limit=True,
         admin_token=settings.admin_token,
+        package_cache_dir=settings.package_cache_dir,
     )
 
 

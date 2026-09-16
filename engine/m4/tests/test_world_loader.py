@@ -74,3 +74,51 @@ def test_wrong_manifest_hash_refuses_to_serve():
     loader = LazyWorldLoader()
     with pytest.raises(PackageRefused):
         loader.load("fix", package_dir=REPO_ROOT / entry["package"]["location"], expected_manifest_hash="sha256:0000000000000000000000000000000000000000000000000000000000000000")
+
+
+def test_no_idle_eviction_by_default():
+    """max_idle_seconds=None (the default) never evicts, however old a
+    resident world gets - the long-standing behavior this class always
+    had, unchanged unless a deploy opts in (WO-2)."""
+    entry = _fix_world_registry_entry()
+    loader = LazyWorldLoader()
+    loader.load("fix", package_dir=REPO_ROOT / entry["package"]["location"], expected_manifest_hash=entry["package"]["manifest_hash"])
+    loader._last_accessed[("fix", entry["package"]["manifest_hash"])] -= 10_000_000
+    _world, timing = loader.load(
+        "fix", package_dir=REPO_ROOT / entry["package"]["location"], expected_manifest_hash=entry["package"]["manifest_hash"]
+    )
+    assert timing.cache_hit is True  # still resident - no policy configured, no eviction
+
+
+def test_idle_world_evicted_on_next_load_call():
+    """With a policy configured, a world idle past the threshold is gone
+    by the time anything next calls load() - eviction is opportunistic,
+    not on a timer, per this class's own docstring."""
+    entry = _fix_world_registry_entry()
+    loader = LazyWorldLoader(max_idle_seconds=1.0)
+    loader.load("fix", package_dir=REPO_ROOT / entry["package"]["location"], expected_manifest_hash=entry["package"]["manifest_hash"])
+    assert loader.is_resident("fix")
+
+    loader._last_accessed[("fix", entry["package"]["manifest_hash"])] -= 2.0  # backdate past the threshold
+    _world, timing = loader.load(
+        "fix", package_dir=REPO_ROOT / entry["package"]["location"], expected_manifest_hash=entry["package"]["manifest_hash"]
+    )
+    assert timing.cache_hit is False  # evicted, then reloaded cold
+
+
+def test_fresh_world_survives_while_a_stale_one_is_evicted():
+    """Eviction is per-pin, not all-or-nothing - a world well within its
+    idle budget is untouched by another one going stale."""
+    entry = _fix_world_registry_entry()
+    loader = LazyWorldLoader(max_idle_seconds=100.0)
+    cache_key = ("fix", entry["package"]["manifest_hash"])
+    loader.load("fix", package_dir=REPO_ROOT / entry["package"]["location"], expected_manifest_hash=entry["package"]["manifest_hash"])
+
+    other_key = ("also-fix", entry["package"]["manifest_hash"])
+    loader._resident[other_key] = loader._resident[cache_key]
+    loader._last_accessed[other_key] = loader._last_accessed[cache_key] - 200.0  # already stale
+
+    evicted = loader._evict_idle()
+    assert evicted == ["also-fix"]
+    assert loader.is_resident("fix")
+    assert not loader.is_resident("also-fix")
