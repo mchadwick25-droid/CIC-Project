@@ -488,7 +488,7 @@ def _build_real_app() -> FastAPI:
         safety_model_id=safety_model_id,
         store=store,
         usage_store=usage_store,
-        world_loader=LazyWorldLoader(),
+        world_loader=LazyWorldLoader(max_idle_seconds=settings.world_idle_unload_seconds),
         registry=full_registry,
         default_world_key=settings.default_world_key,
         enforce_admission=settings.enforce_admission,

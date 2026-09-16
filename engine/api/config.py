@@ -23,6 +23,12 @@ class MissingConfigError(Exception):
     """Raised on a required env var that's absent - never silently defaulted."""
 
 
+def _float_or_none(raw: str | None) -> float | None:
+    if not raw:
+        return None
+    return float(raw)
+
+
 @dataclass(frozen=True)
 class Settings:
     region: str
@@ -51,6 +57,12 @@ class Settings:
     # deploy sets its own random value in the Render dashboard, same
     # sync: false pattern as the AWS keys - never committed here.
     admin_token: str | None
+    # WO-2 idle-world unload (2026-09-16): None keeps every resident world
+    # cached for the process's lifetime - LazyWorldLoader's own long-
+    # standing default, unchanged unless a deploy opts in. See that
+    # class's own docstring for why this is a plain idle timeout rather
+    # than full LRU-under-memory-pressure.
+    world_idle_unload_seconds: float | None
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -71,4 +83,5 @@ class Settings:
             default_world_key=os.environ.get("CIC_API_DEFAULT_WORLD_KEY", _DEFAULT_WORLD_KEY),
             enforce_admission=os.environ.get("CIC_ENFORCE_ADMISSION", "") in ("1", "true", "yes"),
             admin_token=os.environ.get("CIC_API_ADMIN_TOKEN") or None,
+            world_idle_unload_seconds=_float_or_none(os.environ.get("CIC_API_WORLD_IDLE_UNLOAD_SECONDS")),
         )
