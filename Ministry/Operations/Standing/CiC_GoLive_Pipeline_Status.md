@@ -24,7 +24,7 @@ Atlas/census sync -> registry `admitted`->`open` (Mark's call) -> merge world PR
 | pahc | admitted | Live, package current | M3 re-run flagged-not-run since the G05 supplemental-source recompile (2026-09-09) added real content | Yes — M3 re-admission is Mark's own authorized spend |
 | syr | admitted | Live, package current | none pending | — |
 | don (Donatism) | built | No build work left; merge-reconciliation and ordinary-believer coverage both merged to `main` (PR #190, PR #194) | Present M3 admission battery for Mark's read | Yes — admission read is Mark's own touchpoint |
-| lpc (Latin Pastoral-Congregational) | mid-build | Doc_01-05 done; Doc_05 through Round 2 (Opus, final gate), 0 High findings, reviewer judges it adequate to proceed to Doc_06 but **not self-disposed** — this world's own decision-log convention has repeatedly deferred document disposition to Mark directly, not the usual build-thread self-governance | Confirm with Mark whether to self-dispose Doc_05 under standard build-cycle rules or continue deferring as this thread has; then continue Doc_06-09, chunking, Representative construction | Disposition convention — flag before proceeding |
+| lpc (Latin Pastoral-Congregational) | **CORRECTED, see item 3 below** | `worlds/lpc/` on `main` shows only Doc_01-05 (Doc_05 Round 2, not self-disposed) — but a second, far more advanced build line exists on open PR #197 (`lpc-doc04-round2`, old path `World-Builds/Latin-Pastoral-Congregational-Christianity/`), last commit 2026-09-16T03:32:51Z: Doc_04 disposed, Doc_05-09 disposed, Representative (Datus) resolved, Article 29 Living Tradition confirmed, Article 3 gapped-formation ruling adopted. The repo-structure-cleanup rename (`main` commit `9b1ee5f5`) moved the *old, lagging* copy to `worlds/lpc/` and never merged this branch — the two lines diverged at the path level, not just in content. | **Do not touch either line until Mark decides how to reconcile them** — real risk of losing the more-advanced line's work, or colliding with a still-recent session | Yes — portfolio-level/unresolved-tension, plus real collision risk if another thread is still active on that branch |
 | grkap (2nd-c. Greek Apologists, Atlas I.35) | pre-build | Step0 drafted, 5 independent joint adversarial review rounds (shared with latap — real boundary conflicts found: Tatian vs. `syr`, Justin vs. `pahc`), Mark's rulings on both incorporated (Rev. 6-7). Explicitly **"Not self-disposed. Not Approved to proceed... no build thread has been opened."** | Get Mark's explicit sign-off to open a build thread and disposition Step0, then start Doc_01 | Yes — no build thread exists yet |
 | latap (Latin Apologists, Atlas I.43) | pre-build | Same shape as grkap: Step0 drafted through Rev. 6, Tertullian-merge ruling incorporated, same 5 joint review rounds. Explicitly not self-disposed, no build thread opened | Same as grkap | Yes — no build thread exists yet |
 
@@ -38,23 +38,28 @@ Atlas/census sync -> registry `admitted`->`open` (Mark's call) -> merge world PR
 
 1. **pahc M3 re-admission** — flagged since 2026-09-09 (`records/WORLDS_REGISTRY_LOG.md`), still not run. Real AWS Bedrock spend; needs Mark's explicit per-run authorization.
 2. **don M3 admission** — never run against this world's current, fully-merged content. This is the only real gate between don and `admitted`.
-3. **lpc Doc_05 disposition** — reviewer says adequate to proceed; this world's own decision log has treated document-level disposition as Mark's call throughout (Doc_04, Doc_05 Rounds 1-2), not the standard build-thread self-governance other worlds use. Worth Mark's explicit word on which convention to run going forward, so this thread isn't guessing.
-4. **lpc PR #197** ("Lpc doc04 round2") — open, 85 files, base predates the `worlds/lpc/` repo-structure rename, `mergeable_state: dirty`. Under independent check now for whether it's fully superseded by what's already on `main` (current `lpc_Decision_Log.md` already documents Doc_04 through Round 11 and Doc_05 through Round 2) or carries real unmerged work.
-5. **lpc PR #230** ("gapped-formation-worlds-precedent") — open, doc-only, mergeable clean, standing cross-world advisory precedent for gapped-formation-type worlds. Not blocking anything; Mark's to merge or not.
-6. **grkap/latap** — both are real, thorough Step0 work but neither has a disposed Step0 nor an opened build thread. Starting either is a fresh "open a build thread" decision, not a continuation.
-7. **Portfolio-level item inherited from lpc's own log:** the Constitution/Forces-Framework "Boundary Structures" vs. "Boundary Ecology" internal self-inconsistency (each governing doc contradicts itself, not just each other) — ruled on the term for lpc (`Boundary Structures` canonical) but the governing texts' own self-contradictions and three sibling worlds' (alx, don, cappadocian) Doc_05 files using the other term are flagged, not fixed. Doc-hygiene on content that isn't this thread's own — per CLAUDE.md's default, flagged not touched.
-8. **grkap/latap Review-Artifacts** — the five `Step0_RoundN_Review.md` files are byte-identical between the two world folders. Checked directly: this is correct, not corruption — one joint review document ("Apologist Pair") filed in both locations because the two candidates share real boundary questions (Tatian, Justin). Noted here only so a future reader doesn't re-flag it as a defect.
+3. **lpc has two diverged build lines — the most significant open item in this report, corrected after initial investigation.** `worlds/lpc/` on `main` is the *older* line (through Doc_05, not self-disposed). PR #197 (`lpc-doc04-round2`) is the *newer* line, at the old path `World-Builds/Latin-Pastoral-Congregational-Christianity/`, with commits through 2026-09-16T03:32:51Z showing Doc_04 disposed, Doc_05-09 disposed, Representative Datus resolved, Article 29 confirmed, Article 3 gapped-formation ruling adopted — none of which exists on `main`. Root cause: the repo-structure-cleanup rename (`main` commit `9b1ee5f5`, 2026-09-15 21:35:32Z) renamed the old-path *lagging* snapshot to `worlds/lpc/` and never merged this branch's later commits, so PR #197 now shows `mergeable_state: dirty` against a path that no longer exists on its base. **This needs Mark's decision on how to reconcile** (port the branch's later commits onto `worlds/lpc/`, most likely) before any further lpc work — self-reconciling risks silently discarding the more-advanced line's real disposition/review work, and there may still be a recent or active session on that branch worth checking before anything touches it.
+4. **lpc PR #230** ("gapped-formation-worlds-precedent") — open, doc-only, mergeable clean, standing cross-world advisory precedent for gapped-formation-type worlds. Not blocking anything; Mark's to merge or not. Note: item 3's newer lpc line has *already adopted* this same Article 3 gapped-formation ruling internally (commit `b20688de`) — this PR may itself be superseded content once item 3 is reconciled, not something to evaluate independently of it.
+5. **grkap/latap** — both are real, thorough Step0 work but neither has a disposed Step0 nor an opened build thread. Starting either is a fresh "open a build thread" decision, not a continuation.
+6. **Portfolio-level item inherited from lpc's own log:** the Constitution/Forces-Framework "Boundary Structures" vs. "Boundary Ecology" internal self-inconsistency (each governing doc contradicts itself, not just each other) — ruled on the term for lpc (`Boundary Structures` canonical) but the governing texts' own self-contradictions and three sibling worlds' (alx, don, cappadocian) Doc_05 files using the other term are flagged, not fixed. Doc-hygiene on content that isn't this thread's own — per CLAUDE.md's default, flagged not touched.
+7. **grkap/latap Review-Artifacts** — the five `Step0_RoundN_Review.md` files are byte-identical between the two world folders. Checked directly: this is correct, not corruption — one joint review document ("Apologist Pair") filed in both locations because the two candidates share real boundary questions (Tatian, Justin). Noted here only so a future reader doesn't re-flag it as a defect.
 
 ## Recommendation
 
-Three of the four non-admitted worlds only need Mark's word to move, not more build work:
-**don** (present the M3 admission battery), **pahc** (re-run M3 given real content added since
-last admission), and **grkap/latap** (explicit go-ahead to open a build thread, since Step0
-is genuinely done and reviewed). **lpc** is the one with real thread work left (Doc_06-09,
-chunking, Representative), plus one convention question worth asking before continuing.
+**Lead item: lpc's two diverged build lines (open item 3) need Mark's decision before anything
+else touches lpc.** If the newer line (PR #197) is confirmed sound, lpc may already be at or
+near build-complete — Doc_09 disposed, Representative resolved, Article 29 confirmed — which
+would make it the closest world to done in the entire fleet, not the furthest behind as first
+reported. That correction changes the shape of this whole recommendation, so it's surfaced
+first rather than folded in.
 
-Recommend starting with **don's admission read** — it is fully built, fully merged, confirmed
-non-stale, and closer to done than anything else in the fleet; presenting that battery costs
-nothing to prepare and unblocks the shortest path to a ninth `open` world. In parallel, ask
-Mark the lpc disposition-convention question and get the grkap/latap go-ahead, since both are
-cheap to ask now and unblock a full week of otherwise-idle thread capacity.
+Independent of that: three of the other three non-admitted worlds only need Mark's word to
+move, not more build work — **don** (present the M3 admission battery), **pahc** (re-run M3
+given real content added since last admission), and **grkap/latap** (explicit go-ahead to open
+a build thread, since Step0 is genuinely done and reviewed).
+
+Recommend Mark's word on two things in parallel, since neither blocks the other: (1) how to
+reconcile lpc's two lines, and (2) starting **don's admission read** in the meantime — it's
+fully built, fully merged, confirmed non-stale, has no open divergence question, and presenting
+that battery costs nothing to prepare. The grkap/latap go-ahead is similarly cheap to grant now
+if Mark wants a third track running.
