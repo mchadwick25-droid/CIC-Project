@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Census contract validator — Blueprint increment A2.b (§L Loop Protocol).
-// Run on EVERY census edit: node Design/tools/validate-census.mjs [path]
+// Run on EVERY census edit: node tools/validate-census.mjs [path]
 // Exits non-zero on any violation; prints each violation on its own line.
 import { readFileSync } from "node:fs";
 
