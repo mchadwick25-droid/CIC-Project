@@ -35,6 +35,33 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- work: An Address to Demetrianus (Ad Demetrianum)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise V
+  role: tradition
+  confidence: assigned
+  note: 'Cross-linked 2026-09-16 from a Source Readiness Dossier finding. Cyprian himself
+    is not one of this entry''s core authors (Tertullian, Felix, Arnobius, Lactantius, Commodian);
+    this is the first Cyprian material in this bucket. A genuine apology addressed to a hostile
+    pagan outsider (Demetrianus, a proconsul blaming Christians for plague, famine, and war)
+    - squarely the genre this entry exists to hold, not merely an adjacent congregational
+    text.
+
+    '
+  source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: On the Vanity of Idols (Quod Idola Dii Non Sint)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise VI
+  role: transmission
+  confidence: provisional
+  note: 'Cross-linked 2026-09-16 from a Source Readiness Dossier finding. Filed as transmission,
+    not tradition, given the same disputed authorship already noted above - but that dependency
+    cuts both ways for this entry specifically: it compiles Tertullian and Minucius Felix,
+    both already primary authors here, which makes it a plausible transmission-tier link even
+    while its own authorship stays contested.
+
+    '
+  source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: The Octavius of Minucius Felix
   author: felix
   locus: div2 4.3 - The Octavius of Minucius Felix

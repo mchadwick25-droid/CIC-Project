@@ -62,6 +62,22 @@ works:
     alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
     writing. pahc is kept: the era and church-world really are its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+- work: Fragments of Claudius Apollinaris
+  author: claudius-apollinaris
+  locus: div2 10.10
+  role: tradition
+  confidence: assigned
+  note: 'Cross-linked 2026-09-16 from a Source Readiness Dossier finding: this same div is
+    headed in the source itself "Claudius Apollinaris, Bishop of Hierapolis, and Apologist,"
+    and states directly that he "addressed his Apology... to M. Antoninus, the emperor" and
+    also wrote Adversus Gentes and De Veritate. The surviving fragment quoted here (via Eusebius,
+    HE v.5) is the Thundering Legion narrative - an apologetic argument that Christian soldiers''
+    prayer, not the emperor''s virtue, brought the rain that saved Marcus Aurelius'' army
+    against the Quadi (174 CE). Distinct from the anti-Montanist material the other two rows
+    at this locus correctly cover; this row captures the apologetic content specifically.
+
+    '
+  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Dialogue with Trypho
   author: justin_martyr
   locus: div2 8.4 under div1 'JUSTIN MARTYR'
