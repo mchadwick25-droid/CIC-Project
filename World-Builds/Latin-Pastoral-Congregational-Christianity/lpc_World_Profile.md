@@ -736,7 +736,7 @@ Answered against this document's actual state, not aspirationally. **Two of the 
 
 **Outstanding items:**
 
-1. **Section 9's Living Tradition determination** — requires the project lead. Constitution Article 29.
+1. **Section 9's Living Tradition determination** — requires the project lead. Constitution Article 29. **The first-limb analysis this item's own §9 recorded as never performed has now been run** (`Review-Artifacts/Living_Tradition_First_Limb_Analysis_2026-09-16.md`, 2026-09-16): both limbs of Article 29 are engaged, and what remains is the determination itself and its distinguishing statement.
 2. **The liturgical material read *as* liturgical evidence** — Doc_07 §8 item 8 calls this *"the highest-value unblocked task in the build"* (Doc_02 §9 item 9), and Section 4A rests on the rite-disputes finding it would test.
 3. **An exhaustive quotation and citation-locus sweep** — every quoted string and every `Doc_0n §x` locus in this document checked against its source, by a thread that is not the one that applied these fixes.
 4. **Independent verification that the Doc_01 §2 correction propagated cleanly** across all eight files — required by the project lead's own ruling of 2026-09-16, and not performed by the thread that applied it.
