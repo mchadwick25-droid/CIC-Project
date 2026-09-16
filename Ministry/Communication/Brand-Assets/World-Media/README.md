@@ -1,15 +1,38 @@
-# World Media — tile background images
+# World Media — historical site photographs
 
-**⚠ PULLED FROM LIVE USE, 2026-07-24 — do not use these files on the site or app
-until this is resolved.** Mark was told 5 of these 6 photos need permission and
-payment to use. That's not what this thread's own license research found (all 5
-were verified CC BY-SA via the Wikimedia API directly — free to use with
-attribution, not payment), so this is either a real licensing wrinkle this
-research missed, or someone/something is conflating "requires attribution" with
-"requires payment." Either way: removed from `cic-poc/frontend/public/images/
-world-media/` and un-wired from `worldMedia.ts`/`WorldSelector.tsx` (portraits
-are unaffected — those are AI-generated, no third-party rights question applies).
-This folder is kept as the research record, not as files cleared for use.
+**Hold lifted, 2026-09-16.** Pulled from live use 2026-07-24 pending a rights
+question (see history below); Mark reviewed the reasoning and cleared these for
+use, with attribution displayed on any page they appear on. First live use:
+a homepage filmstrip on `cic-website/index.html`, cropped copies at
+`cic-website/assets/history/`.
+
+**How it was resolved, stated plainly rather than overclaimed:** this thread's
+own license research found all 5 non-public-domain files verified CC BY-SA via
+the Wikimedia API directly — free to use with attribution, not payment — against
+Mark having been told 5 of the 6 needed permission and payment. A live re-check
+this session could not reach `commons.wikimedia.org` or `api.wikimedia.org`
+(both blocked by this environment's network egress), so the license text itself
+was **not independently re-fetched**. The case for lifting the hold instead rests
+on structural reasoning: Wikimedia Commons has no paid-license tier at
+all — everything on it is CC-licensed or public domain by the platform's own
+design — so a "requires payment" claim couldn't have come from actually reading
+these Commons pages, and the per-file metadata (different CC BY-SA versions,
+named individual photographers) is consistent with a genuine lookup, not a
+fabricated blanket claim. Mark accepted this reasoning and lifted the hold
+knowingly, not from a full independent re-verification. If these are ever
+scrutinized, re-fetch each `source_url` from an unblocked network first.
+
+**Original hold, for the record:** Mark was told 5 of these 6 photos need
+permission and payment to use. That's not what this thread's own license
+research found (all 5 were verified CC BY-SA via the Wikimedia API directly —
+free to use with attribution, not payment), so this was either a real licensing
+wrinkle this research missed, or someone/something conflating "requires
+attribution" with "requires payment." At the time: removed from
+`cic-poc/frontend/public/images/world-media/` and un-wired from
+`worldMedia.ts`/`WorldSelector.tsx` (portraits are unaffected — those are
+AI-generated, no third-party rights question applies). Whether these are
+re-wired into the app itself, beyond the website homepage, is a separate,
+still-open question.
 
 One real, historically-matched architectural/artifact photo per world, for use as
 each World Selector tile's background (per Mark's design: architecture/artifact fills

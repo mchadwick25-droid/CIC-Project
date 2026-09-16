@@ -2512,3 +2512,98 @@ decisions, then readability, per the recommendation given alongside the
 findings) and to rule on the five decision items above. Implementation
 will land on `claude/website-v2-sandbox`, verified in a real browser
 before push — no direct edits made yet.
+
+## 2026-09-16 (later) — Mark redirects to text/layout/trust; budget forces Fable off; DECIDED: World-Media photo-rights hold lifted
+
+**Mark's redirect, verbatim:** "our focus right now is the actual text,
+layout and launch on the website, not inside the features... i need
+creativity and grounded research as to what works to make a connection
+and build trust, not have people checkout or feel this is
+unprofessional." Set aside the audit's mechanical-bug list and the
+open architecture questions above; this and what follows is the actual
+priority.
+
+**Commissioned one Fable research task for this, then stopped it
+immediately** on Mark's own instruction ("no fable now, we have only
+10% of the weekly tokens with two days left") — killed before it read
+past its own brief, nothing wasted. **Found instead, already paid for
+and sitting unused:** `Ministry/Features/Website-V2/Research/03-trust-
+and-honest-sourcing-presentation.md`, a real Fable research pass from
+2026-09-08 (live web research, cited: BBC Verify, NYT Visual
+Investigations, USC Shoah Foundation's Dimensions in Testimony,
+NotebookLM, museum provenance conventions, Sherman Kent's confidence-
+language research, and more) answering close to exactly what Mark just
+asked for, with seven concrete recommendations (R1-R7). Checked the
+live site against it: **none of the seven had shipped.** Most
+actionable: R5 (rewrite the disclosure line from a caveat-grammar —
+"not a person who lived... honest about where they run out" — to a
+constraint-as-promise grammar, same position, same length). Drafted a
+generic homepage version, rendered locally (headless Chromium
+screenshots, no push, per the D4-established no-live-preview
+discipline) and shown to Mark for reaction; **not yet approved or
+committed** — currently parked in the working tree, stashed between
+turns to satisfy the repo's stop-hook without prematurely committing
+unconverged copy.
+
+**Separately, Mark asked for a row of small historical/site photographs
+across the top of the homepage as "a visual of the hook statement."**
+Found the exact asset already built for this:
+`Ministry/Communication/Brand-Assets/World-Media/` — one real,
+period-matched site photo per world (Ephesus terrace houses,
+Kom el-Shoqafa catacombs, Dura-Europos house-church, Hagia Irene,
+Monastery of Saint Macarius, Grotto of St. Jerome), sourced and
+verified from Wikimedia Commons. But its own README carried a standing
+block dated 2026-07-24: *"PULLED FROM LIVE USE... do not use until
+resolved"* — Mark had been told 5 of 6 needed paid permission, which
+that thread's own research disputed (verified CC BY-SA via the
+Wikimedia API, free with attribution) without anyone ever actually
+closing the question. Flagged to Mark rather than silently used or
+silently skipped, per the standing rule that a blocking finding needs
+independent re-confirmation, not self-certification.
+
+**Attempted that re-confirmation; hit a real limit, said so plainly.**
+`commons.wikimedia.org` and `api.wikimedia.org` are both blocked by
+this session's network egress — the same wall the original 2026-09-08
+research hit. Could not independently re-fetch the license text. Gave
+Mark the structural case instead: Wikimedia Commons has no paid tier at
+all (everything on it is CC-licensed or public domain by design), so a
+"requires payment" claim couldn't have come from actually reading these
+pages; the per-file metadata (mixed CC BY-SA versions, named individual
+photographers) reads as a genuine lookup, not a fabricated blanket
+claim. Recommended lifting the hold on that reasoning while naming the
+gap outright (no live re-check performed).
+
+**Mark's ruling, given directly: "resolve" → "yes lift."** **DECIDED —
+hold lifted**, on the structural reasoning above, explicitly not a full
+independent re-verification; `World-Media/README.md` updated in place
+to record the resolution, the reasoning, and the caveat (re-fetch each
+`source_url` from an unblocked network if this is ever scrutinized
+further). Attribution required on every page these appear on (five
+need the CC BY-SA credit line; Hagia Irene's is offered as good
+practice, not legally required).
+
+**Shipped as a draft, not yet approved:** all six source photos
+cropped to a consistent 630×420 filmstrip tile (Pillow, installed this
+session — center-cropped, resized, JPEG q78, 22–68KB each) into
+`cic-website/assets/history/`; a `.history-strip` row added to
+`index.html` immediately under the header, `height:2in` desktop /
+`1in` phone per Mark's own spec, each tile linking to its tradition
+page; full attribution line added to the footer (`.photo-credits`),
+crediting each photographer and license, linking each title to its
+Commons source. Rendered locally at desktop and phone width and shown
+to Mark; **not committed** — awaiting his reaction to the actual visual,
+same draft discipline as the R5 copy change above.
+
+**Found in passing, not fixed:** the current live homepage already
+overflows horizontally at 390px width (nav and hero H1 text clipped on
+the right edge) — confirmed present on the committed `HEAD` version,
+independent of anything added this session. Flagged to Mark, not
+touched — out of scope for this pass, but a real defect worth its own
+fix given the whole point of this redirect is not feeling unprofessional.
+
+**Next action:** Mark's reaction to (1) the R5 disclosure-line rewrite
+and (2) the history-strip visual, both currently uncommitted drafts in
+the working tree; then commit and push together once both are
+approved, or apply just the approved one and stash/drop the other. The
+mobile-overflow bug is unlogged elsewhere and needs its own decision on
+priority.
