@@ -373,3 +373,95 @@ these entries, and three of the thirteen are the same habit. The 44 stories
 that already claim `checked directly against the primary text` are now the
 least safe thing in the corpus to take on trust, because that claim is exactly
 what this pass has shown to be worth re-testing.
+
+## 11. The forty-four re-tested, and the sixteen that failed
+
+§10 closed by naming the 44 stories tagged `checked directly against the primary
+text` as the least safe thing in the corpus to take on trust. They were re-read:
+126 quoted spans, each one looked up in the vendored file it cites.
+
+**Sixteen of the forty-four failed.** Three of those — Aetius, Ulfila and Moses
+of the Goths, the Aksumite letter — had already been corrected inside the
+readability pass as declared gate exemptions. The remaining thirteen were fixed
+here, together with `roman-church-third-century`'s "Callistus, as His Enemy Told
+It", which had passed as a qualified yes while carrying four real defects. **34
+corrections across 15 stories.**
+
+Every claim was verified by hand in the vendored file before it changed
+published prose. The readers' reports located the problems; they did not decide
+them.
+
+### The traps, and how often each one fired
+
+The four documented traps from §8 account for nearly all of it, which is the
+useful finding. This is not thirteen unrelated slips.
+
+| Trap | Count | Instance |
+|---|---|---|
+| A Victorian editor's footnote quoted as the ancient author | 3 | Callistus and the "treadmill" — ANF's gloss sits inline beside `Pistrinum`; the Epiphanius number reaching Hippolytus through a 19th-c. annotator |
+| Two hostile witnesses fused into one scene | 2 | Zoticus: Eusebius V.16 (with Julian, no place) welded to Apollonius V.18 (alone, at Pepuza) |
+| Indirect report rewritten as direct speech | 4 | Sulpicius' angel given words about diminished strength it never says; the Donatist deponent's testimony reversed |
+| Attributed to the wrong work or author | 5 | "comedies, tragedies and odes" is Sozomen V.18, not Socrates III.16; the treasure scene is not Ambrose I.41 |
+
+The rest were quotations from a translation other than the cited one, and
+claims not in the passage at all — Melania's "the confessors", the Mantinium
+peasants' "rustics", Cyprian's "in ordinary dress", which is in no letter of his
+in ANF05 or in Hartel.
+
+### Two defects this pass introduced, and what they cost
+
+Both were caught on read-back, and both were undone and redone rather than
+patched, per *no fix on a fix*.
+
+**The Donatist letters.** The correction was right about the source and wrong
+about the prose it landed in. It wrote "Three of them close the same way … In
+the others", but the paragraph had only ever introduced three letters, so "the
+others" pointed at nothing. The *Gesta apud Zenophilum* in fact carries six
+letters from three bishops — Purpurius, Fortis and Sabinus — and three of the
+six close on the plea while three carry it mid-letter. The story now says so,
+which is what the distinction needed in order to mean anything.
+
+**Ariminum.** Verifying the corrected story turned up two further defects that
+had nothing to do with the original finding. The rations quotation was not the
+cited edition's wording — NPNF 2.11 reads "But that appeared unseemly to the men
+of our part of the world", not "This was thought unbecoming by our people" — and
+"the word Sulpicius glosses as 'substance'" conflated two things he keeps apart:
+the creed of Nike abolishes *Ousia*; "of one substance" is his gloss of
+*Homoousion*, elsewhere. Both corrected against the vendored file.
+
+The lesson is narrow and worth keeping: **a correction is an edit, and inherits
+every risk an edit has.** The gate protects quotations and numerals. It cannot
+see a pronoun left without an antecedent, and it did not.
+
+### A gate defect, fixed
+
+The stale-exemption check tested whether a declared span was a *substring* of
+the new text, not whether it was still a *quoted span* in it. An exemption that
+deliberately keeps a word in ordinary prose — "of one substance with the Father"
+— therefore read as stale and aborted a correct edit. The check now compares
+against the set of quoted spans. Re-run across all 545 stories afterwards: 18
+quoted spans were removed file-wide, every one of them inside the 15 corrected
+stories, and every one declared.
+
+### What it cost in readability
+
+Fidelity and readability pull against each other here, and this pass spent a
+little of the second to buy the first. Replacing a short false claim with the
+actual source wording added 520 words across 15 stories, and five stories
+crossed back over the 20-word average-sentence line (250 → 245 of 545). The
+file's medians did not move: FK 10.4, FRE 56.6, ASL 20.2, zero single-block
+stories. That is the right trade in that direction, and it should be made
+knowingly rather than discovered later.
+
+### What is now known about the 545
+
+- **545 stories rewritten** for readability, all verified against baseline.
+- **95 quotations read against the vendored sources** across §9, §10 and §11 —
+  the 11 Gregory, the 50 unverified, and the 126 spans in these 44.
+- **63 corrections** applied in total (27 in §10, 34 here, 2 in Ariminum).
+- **26 quotations remain unverifiable** pending source acquisition.
+
+The `verification` field is now the weakest claim the corpus makes about itself.
+Of the 44 stories asserting the strongest form of it, sixteen were wrong. That
+is an argument for retiring the field rather than repairing it — recorded in the
+Decision-Log as open, and not decided here.

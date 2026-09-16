@@ -13,6 +13,54 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-09-16 — The forty-four re-tested: sixteen of the "checked" stories were wrong
+
+**Origin.** Mark asked what was next, then "yes follow your recommendation" — the
+recommendation being to fix the findings from re-reading the 44 stories that
+claim `checked directly against the primary text`, on the reasoning that leaving
+known false attributions in published prose is worse than leaving prose
+unpolished.
+
+**Decided, and done.** 34 corrections across 15 stories in
+`cic-website/atlas-v3.html`, each verified by hand in the vendored source before
+it changed published prose. Sixteen of the 44 failed; three had already been
+corrected inside the readability pass. Full account in §11 of
+`Ministry/Operations/Audits/CiC_Atlas_Documented_Stories_Verification_Audit_2026-09-15.md`.
+
+**The reasoning, including the part that isn't design logic.** These are stories
+about people — Maximilla muzzled by her own followers, Melania talking down a
+governor, Martin unable to forgive himself. Getting the words wrong in a story
+about someone's worst hour is a particular kind of failure, and the corpus was
+doing it while wearing a label that said it had been checked.
+
+**What the pass cost, stated plainly.** Replacing short false claims with actual
+source wording added 520 words and pushed five stories back over the 20-word
+average-sentence line. The file's medians held (FK 10.4, FRE 56.6, ASL 20.2,
+zero single-block stories). Fidelity and readability genuinely pull against each
+other, and this is the direction to spend in — but knowingly.
+
+**Two defects this pass introduced.** Both caught on read-back, both undone and
+redone rather than patched. The Donatist-letters correction left a pronoun
+without an antecedent; verifying the Ariminum correction turned up two further
+defects unrelated to the original finding. A correction is an edit and inherits
+every risk an edit has — the gate protects quotations and numerals, and cannot
+see a dangling reference.
+
+**Still open — for Mark, not decided here.** Whether to retire `verification` as
+a stored field. Of the 44 stories making its strongest claim, sixteen were
+wrong. A field that is wrong 36% of the time about its own reliability is worse
+than no field, because a reader trusts it. The alternatives are: retire it;
+keep it but never surface it to a visitor; or re-audit all 545 and keep it only
+where it survives. Recommendation is to retire it — the audit trail lives in
+`Ministry/`, which is where a claim about method belongs, and a visitor-facing
+card is not improved by a self-certification the project has now twice shown it
+cannot support.
+
+**Also open.** 26 quotations remain unverifiable pending source acquisition; the
+prompt for that thread is written and not yet fired.
+
+---
+
 ## 2026-09-15 — The rest of the reads: the corpus was hiding the problem, not causing it
 
 **Origin.** Mark asked for the remaining Possidius-style reads, then, on the
