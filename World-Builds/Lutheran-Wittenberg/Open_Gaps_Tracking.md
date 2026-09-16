@@ -153,7 +153,7 @@ proceed," unaffected by this entry.
 
 ## OG-6. Doc_03: an unresolved classification question — does a structural mislabeling found at Round 7 belong to the class escalated at OG-5?
 
-**Status: OPEN, carried to Round 8 for independent re-confirmation — not self-certified either way by the build thread.**
+**Status: RESOLVED, 2026-09-16, by Round 8's independent re-confirmation — not self-certified by the build thread. Verdict: R7-3 is NOT an instance of the class escalated at OG-5. OG-5 remains resolved, not reopened.**
 
 Doc_03's Round 7 review (`witt_Doc03_Review_Round7.md`, 2026-09-16) found, among six findings running
 in the same coverage-understatement direction Round 6 reported, one finding running the
@@ -195,3 +195,26 @@ point at which this entry's status changes to escalated, per CO-022's fourth cat
 **Nothing evidentiary is at risk either way.** As at every round since Round 3, no citation
 anywhere in Doc_03 depends on the material this finding concerns; every locus drawn from v3
 12100–12440 is genuinely inside Part One and correctly quoted.
+
+**Resolution, per Round 8 (`witt_Doc03_Review_Round8.md`, 2026-09-16), commissioned specifically
+to answer this question as its first-listed task.** The reviewer independently re-derived
+*Secular Authority*'s structure from the vendored file by four separate channels (the editor's
+own introduction, the volume's table of contents, the running heads, and the part headings
+themselves) before ruling, and reasoned explicitly rather than asserting: OG-5's class is
+defined by an affirmative *completeness predicate* attached to a named unit ("read in full,"
+"now read") that cannot be falsified without deriving the unit's true boundaries first — the
+mechanism Round 5 itself named as why the escalated class survived three sweeps. §13's cell
+carried no such predicate: it stated an exact, true line range (12100–12440), and that range
+was never claimed to be more than it was anywhere in the document — only the descriptive gloss
+attached to it ("Secular Authority II–IV") was wrong. Nothing false ever had a route to the
+Registry, and "Part IV" does not exist at all, which the reviewer read as diagnostic of a
+corrupted label rather than an inflated coverage claim. The reviewer also weighed the strongest
+counter-argument (the harm test: a reader trusting §13 would believe unread parts were read)
+and rejected it as proving the wrong thing — that R7-3 is a substantial defect in the same
+*location family* as OG-5's class, not that it is the same *defect*. **Verdict, stated
+plainly: a citation/labeling accuracy error, substantial in grade, but not OG-5's class.**
+Round 8 also named what *would* change this answer (a discovery-table cell asserting
+completeness without an exact extent, or with an enlarging extent error) for any future round
+that finds something in the same location family. This entry is closed on that determination,
+per the same append-only discipline as every other entry here — kept as the durable record of
+the question and its answer, not deleted now that it is resolved.
