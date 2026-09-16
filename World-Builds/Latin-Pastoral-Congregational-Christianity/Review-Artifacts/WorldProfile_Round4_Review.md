@@ -50,7 +50,7 @@ Quotation marks, italics, and an explicit attribution to the project lead. At so
 
 > **Candidate 5 is Supporting, and honestly thin, and that is the answer rather than a puzzle with a cleaner solution outstanding.**
 
-The Decision Log states it as its own sentence too, and in different words — *"Candidate 5 is Supporting and honestly thin, and that is the answer."* What the precedent document actually quotes from the project lead is a **different sentence entirely**: *"Treat five consecutive re-classifications of the same candidate as itself a signal to stop and accept the narrower finding, not as five steps of legitimate progress toward a stronger one."*
+The Decision Log states it as its own sentence too, and in different words — *"Candidate 5 is Supporting and honestly thin, and that is the answer."* What the precedent document actually states in its own bolded voice, without quotation marks, is a **different sentence entirely**: **Treat five consecutive re-classifications of the same candidate as itself the signal to stop and accept the narrower finding.** *(Corrected 2026-09-16 while applying this finding. This paragraph first rendered that sentence as a quotation reading "a signal" and carrying a further clause, "not as five steps of legitimate progress toward a stronger one." That wording is `Doc_04`'s, not the precedent's — see the post-round finding below. Going to the precedent to quote it correctly is what caught it. Recorded rather than silently amended, because this artifact is the audit trail for this exact defect class.)*
 
 This strikes the rule CO-022 states without qualification: **nothing is attributed to the project lead — a quote, a decision, an instruction — without a verifiable record that the project lead actually said or wrote it.** The underlying ruling is real and recorded; the words put in the project lead's mouth are not.
 
@@ -104,3 +104,26 @@ Stated because a review's value depends on its limits being known:
 **Not disposed.** Four rounds, four sets of findings, none clean. The revision decision under CO-022 is unambiguous: these are substantial — they change a sourcing conclusion, an attribution, a citation, and the disclosure of a live contradiction — so the document is revised and goes back through review, not disposed of.
 
 **One finding is not the build thread's to close.** H3's contradiction between three cleared documents is an unresolved tension under CO-022's fourth escalation category. The Profile's disclosure of it can and should be restored from the pre-condense text; **deciding which of the three documents is wrong is a project-lead act**, and a build thread does not overturn a cleared finding.
+
+
+---
+
+## Post-round finding, 2026-09-16 — H1 has an upstream parent
+
+Found while applying H1, by opening `lpc_Gapped_Formation_Precedent.md` to quote the precedent correctly instead of trusting the documents that cite it.
+
+**The precedent's own sentence**, stated in bold and carrying no quotation marks:
+
+> **Treat five consecutive re-classifications of the same candidate as itself the signal to stop and accept the narrower finding.**
+
+**`Doc_04` quotes it** — with quotation marks and italics — as *"Treat five consecutive re-classifications of the same candidate as itself a signal to stop and accept the narrower finding, not as five steps of legitimate progress toward a stronger one."*
+
+Two alterations. *The* became *a*. And a fourteen-word clause was appended that **appears nowhere in the precedent, or anywhere else in this build** — `grep` finds it in `Doc_04` alone, and in this artifact, which reproduced it.
+
+**`lpc_Decision_Log.md` quotes it** as *"…as itself a signal to stop and accept the narrower finding."* — the same *the*-to-*a* change, without the appended clause.
+
+**Why this is worse than H1.** H1 sits in a document under revision. This sits in **`Doc_04`, Approved to proceed by the project lead on 2026-09-15**, and in the **Decision Log, which is this build's record of what was actually decided**. The precedent document records the project lead's own act narrowly — *"The project lead ruled it directly (2026-09-14: Supporting)"* — so the methodological sentence may be the precedent document's own formulation rather than the project lead's words at all. The Profile's H1 fix therefore quotes **neither** sentence as the project lead's, and attributes to the project lead only the verifiable 2026-09-14 ruling that Candidate 5 is Supporting.
+
+**Not fixed here, deliberately.** A build thread does not edit a document the project lead approved, and does not rewrite the Decision Log's record of a decision. **Both need the project lead.** Recorded here so the finding is not lost between threads.
+
+**What it says about the pattern.** Round 4 named the class — plain prose re-presented as a direct quotation — and traced it through the Profile and both condensing threads. It runs further: into a cleared construction document, into the record, and into this review artifact. **A quotation-mark sweep across the whole build, not just this document, is the proportionate response.**
