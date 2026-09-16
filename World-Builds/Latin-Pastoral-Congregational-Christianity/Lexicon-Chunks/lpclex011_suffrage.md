@@ -30,7 +30,7 @@ For us, suffrage is the congregational voice that puts a man in office, characte
 
 Cyprian's own word for what elected him — *your suffrage and God's judgment* — set against a rival presbyteral faction's *ancient venom*, in a letter written because that faction had made it impossible for him to come in person. A deacon who knew him reports the same thing from outside: *by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte.*
 
-The pattern recurs in the second phase but not identically, and the difference is kept rather than smoothed: Augustine was seized into the **presbyterate** at Hippo against his wishes; his **episcopate** came by his predecessor's designation and a consecration, with the people one of two things that persuaded him rather than the mechanism that appointed him.
+The pattern recurs in the second phase but not identically, and the difference is kept rather than smoothed: Augustine was seized into the **presbyterate** at Hippo against his wishes; his **episcopate** came by his predecessor's designation and a consecration — and, at the same event, by the acclamation of all who heard it, which he refused before yielding under compulsion.
 
 ---
 
@@ -52,7 +52,7 @@ No franchise and no procedure. A corporate acclamation that carries real constit
 
 ## Key Sources
 
-Epistle XXXIX (Registry row 1, Confidence A), directly quoted and re-verified at source. Pontius's *Life of Cyprian* (row 7) is a third, non-episcopal witness, quoted above and re-verified. Letters XXXI and CCXIII (row 11) carry Augustine's own accounts. Possidius's *Vita* (row 192) is vendored but, per Doc_02 §2 and §4, **has not been read in this build beyond one identification**, and nothing here rests on it.
+Epistle XXXIX (Registry row 1, Confidence A), directly quoted and re-verified at source. Pontius's *Life of Cyprian* (row 7) is a third, non-episcopal witness, quoted above and re-verified. Letters XXXI and CCXIII (row 11) carry Augustine's own accounts. Possidius's *Vita* (row 192) is vendored and **has been read in full** (`Review-Artifacts/Possidius_Full_Read_2026-09-16.md`); chapters IV and VIII are what this entry's account of Augustine's two offices rests on.
 
 **No [PV] tag on this term.** Doc_03 rules it out **by name**: *"it does not sit on 'suffrage,' which is a cross-phase pattern rather than a single-phase term."*
 
