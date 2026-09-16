@@ -44,7 +44,7 @@
 
 **Representative name:** **[TBD — PENDING]**, per the template's own v1.1 note; Representative Emergence (Step 10) has not occurred and no candidate is proposed here. This build's own standing list carries Representative identity and image as a single packaged decision for the project lead (Tasks #9/#10), not made or pre-empted by this document.
 
-**Doc_08 completion date:** PENDING — drafted 2026-09-16, now Revision 2, under review; §9's completion status is INCOMPLETE (one item OUTSTANDING by design — see §9's own disposition note) (updated this revision, Round 2 finding N7, which caught this field stale at "Revision 0").
+**Doc_08 completion date:** PENDING — drafted 2026-09-16, now Revision 3, under review; §9's completion status is INCOMPLETE (one item OUTSTANDING by design, not a disposition blocker — see §9's own disposition note).
 
 **Builder:** the Lutheran Wittenberg build thread's drafting agent (Claude), under CO-022's build-cycle discipline; project lead Mark Chadwick.
 
