@@ -30,7 +30,7 @@ Governing disciplines for this list:
 
 ## 1. Candidate Roster
 
-18 candidates in six thematic clusters (6 preliminary Tier 1, 8 preliminary Tier 2, 4 preliminary Tier 3; 1 CT). Columns: **Term** · **Prelim. tier** · **Strand** · **Tags** · **One-line world-meaning** · **AG-risk** · **Flags**.
+19 candidates in six thematic clusters (7 preliminary Tier 1, 8 preliminary Tier 2, 4 preliminary Tier 3; 1 CT) — **corrected here at Doc_06 drafting from this document's own original "18 candidates... 6 preliminary Tier 1" header, which undercounted the table below by one row (Spiritual Presence, Cluster 3, itself marked Tier 1 there and correctly included in Doc_03 §2's own Author-Gravity screen, but omitted from this header's count and from §5's own prose list of flagged candidates); a purely cosmetic count correction, no candidate's own content, tier, or tag changes.** Columns: **Term** · **Prelim. tier** · **Strand** · **Tags** · **One-line world-meaning** · **AG-risk** · **Flags**.
 
 ### Cluster 1 — The Sovereignty of God: Predestination and Election (Doc_02 §1–§2; Registry rows 1–4, 9, 10)
 
@@ -110,7 +110,7 @@ One candidate carries **[CT]**.
 
 ## 5. Candidates Flagged for Full Tier-1 Treatment at Doc_06 (preliminary)
 
-The strongest Tier-1 candidates — those most likely to need full three-level treatment and deployment chunks — are **Predestination**, **Election**, **Disputation**, **The Lord's Supper**, **Sign and the Thing Signified**, and **Consistory**. These correspond to the gravity candidates Doc_01 §3 already names for Step 4 testing (sovereignty of God/predestination; scripture-sole-authority enacted through disputation and catechesis; spiritual/memorial Supper; church discipline as a formal institutionalized function) and span both strands rather than concentrating in one. **These are preliminary.** Final Tier-1 membership is set at Doc_06 after Doc_04's own gravity discovery confirms which terms carry organizing ecological weight — and Consistory's own Tier-1 candidacy in particular depends on whether the Ecclesiastical Ordinances are acquired before Doc_06 (§6 below).
+The strongest Tier-1 candidates — those most likely to need full three-level treatment and deployment chunks — are **Predestination**, **Election**, **Disputation**, **The Lord's Supper**, **Sign and the Thing Signified**, **Spiritual Presence** (corrected into this list at Doc_06 drafting — see §1's own header correction above), and **Consistory**. These correspond to the gravity candidates Doc_01 §3 already names for Step 4 testing (sovereignty of God/predestination; scripture-sole-authority enacted through disputation and catechesis; spiritual/memorial Supper; church discipline as a formal institutionalized function) and span both strands rather than concentrating in one. **These are preliminary.** Final Tier-1 membership is set at Doc_06 after Doc_04's own gravity discovery confirms which terms carry organizing ecological weight — and Consistory's own Tier-1 candidacy in particular depends on whether the Ecclesiastical Ordinances are acquired before Doc_06 (§6 below).
 
 ---
 
