@@ -19,9 +19,15 @@ Source:         Oswald Myconius, "The Original Life of Zwingli" (Latin,
                 (Jackson 1912, Source_Registry.md row 8). cic/texts/
                 zwingli_latin-works-correspondence-vol1_jackson1912.txt,
                 lines 1550–1552, 1554–1560, 1567–1569, 1571–1573,
-                1582–1587, 1592–1594 (a running page header, "Zwingli's
+                1582–1587, 1592–1613 (a running page header, "Zwingli's
                 Death 23," interrupts the text between lines 1587 and
-                1592 — disclosed, not silently bridged).
+                1592 — disclosed, not silently bridged). Lines 1594–1613
+                carry the body-found-and-burned narrative and the
+                "whole and uninjured" heart detail this story's own
+                closing paragraph and Tier Justification hedge both
+                draw on, including Myconius's own explicit "I could
+                have been an eye-witness of this thing also" (i.e., was
+                not) at line 1613.
 
 Retrieve-When:  Participant asks how Zwingli actually died, or what it
                 was like in Zurich on the day of the Second Battle of
@@ -47,7 +53,7 @@ Do-Not-Retrieve-When: Participant wants the doctrinal content of what
 
 Zwingli left Zurich for the front early on 11 October 1531, and was killed that same afternoon. His close friend Oswald Myconius was in the city that day, and later wrote down what he remembered.
 
-He remembered warnings that, looking back, seemed to have foretold it. Within the two weeks before Zwingli's departure, Myconius had heard him say from the pulpit, amid general excitement, "I know, I know what all this means. It means my death; everything is done to put me out of the way." Zwingli had also spoken privately of a comet visible for weeks beforehand, which he believed would prove fatal to him and to one other person — a warning Myconius and others took to mean Oecolampadius.
+He remembered warnings that, looking back, seemed to have foretold it. Within the two weeks before Zwingli's departure, Myconius had heard him say from the pulpit, amid general excitement, "I know, I know what all this means. It means my death, everything is done to put me out of the way." Zwingli had also spoken privately of a comet visible for weeks beforehand, which he believed would prove fatal to him and to one other person — a warning Myconius and others took to mean Oecolampadius.
 
 What Myconius watched leave the city that morning did not look, to him, like an army prepared for battle. Five thousand men had been summoned; fewer than four thousand five hundred actually mustered. There was no real order, no plan, people running about with frightened faces before and behind the banner. Zwingli rode out in the rear, armed in the ordinary manner of the time. Myconius watched him go and could scarcely stand, he wrote, for a sudden pain of heart that seemed to warn him of the worst. The city spent that day in continual sighing and prayer.
 
