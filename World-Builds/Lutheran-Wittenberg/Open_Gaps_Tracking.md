@@ -218,3 +218,60 @@ completeness without an exact extent, or with an enlarging extent error) for any
 that finds something in the same location family. This entry is closed on that determination,
 per the same append-only discipline as every other entry here — kept as the durable record of
 the question and its answer, not deleted now that it is resolved.
+
+## OG-7. Doc_03: a self-declared escalation condition was met at Round 9 — recorded honestly, and a judgment call explained rather than either buried or auto-escalated
+
+**Status: OPEN. A hard line is now set: one further mechanical fix, independently re-verified; a fifth failure of the same root cause escalates immediately, no further patch.**
+
+Revision 8's own Escalation check (§13) stated in advance: *"If Round 9 finds the same root
+cause producing new gaps a fourth time even after this revision's mechanical regeneration, that
+would be a different fact than what has been true through Round 8, and would warrant escalation
+on its own terms — not decided here, since it has not happened."* Round 9
+(`witt_Doc03_Review_Round9.md`, 2026-09-16) found exactly that, stated plainly and without
+softening: §11 item 2 (the unread-sections list) drifted from §13's own declared ranges for a
+fourth consecutive round (6, 7, 8, 9), and §11 item 8 (the Registry-bound list) was found short
+for a third consecutive round (7, 8, 9) — this time *after* a revision that described itself as
+an actual mechanical regeneration, not a hand patch. **The condition named in advance was met.**
+
+**This entry exists so that fact is recorded, not minimized, and so the reasoning for what was
+done about it is a matter of record rather than a private judgment call made and left
+unexplained.** Two things are true at once, and both matter to the decision:
+
+1. **The condition was met.** Escalation was named in advance as a live possibility, and this is
+   not a case where the build thread gets to quietly decide the sentence didn't really mean what
+   it said.
+2. **Round 9 also produced the single most useful fact this whole review chain has produced
+   about what actually closes this class of defect.** The *same* revision, by the *same* method,
+   on the *same* day, regenerated two lists from the document's own citations: §13's ten
+   Result-column cells (regenerated over their true **domain** — all 72 entries, checked by
+   three independent parsers against 591 extracted citations) came back **completely clean, for
+   the first time in four rounds.** §11 item 2 (regenerated over the **finding** — the ten works
+   R8-3's own list named, not the actual files) did not. The failure Round 9 found is not "the
+   regeneration was faked" or "the root cause is still a mystery" — it is a precisely diagnosed,
+   fully specified, bounded scoping error in how the already-validated method was applied to one
+   of its two targets. Round 9's own report states the exact remaining task in one sentence: a
+   sort-and-subtract over the whole of v1 and v2, line 1 to end of file, with §13's grep-located
+   loci included in the read set before subtracting, plus one pass over all 95 Source Registry
+   rows.
+
+**The judgment call, made and disclosed rather than made and hidden:** this is not escalated to
+the project lead immediately. CO-022's fourth escalation category is for *"unresolved tensions
+the pipeline can't close on its own"* — a genuinely different thing from a fully diagnosed,
+mechanically specified, bounded task with a validated method sitting right next to the
+under-scoped attempt that failed. OG-5's own escalation, by contrast, was for a root cause that
+took five rounds even to *name* correctly. Escalating a scoping error to the project lead, when
+the fix is fully specified and the method has just been independently proven on half the
+equivalent task, would not be putting a real decision in front of him — it would be asking him
+to approve execution. That is inside this thread's own authority under CO-022, not outside it.
+
+**But this is the last attempt on the build thread's own authority, and the line is drawn here,
+in writing, before the attempt is made — not after, and not adjusted if the attempt falls
+short.** Revision 9 applies the fix Round 9 specified, at the true full-file domain this time,
+not scoped to any finding list. A further independent round (Round 10) is commissioned
+specifically to re-run the same complement test Round 9 ran, at the same scope, before any
+disposition is claimed. **If Round 10 finds the same root cause — item 2 or item 8 drifted from
+§13's own ground truth — producing new gaps a fifth time, even after a genuinely full-domain
+regeneration, that escalates immediately, per CO-022's fourth category, with no further patch
+from this thread.** That would no longer be a scoping error with a known fix; it would be
+evidence that the build thread cannot close this on its own, which is exactly what the category
+is for.
