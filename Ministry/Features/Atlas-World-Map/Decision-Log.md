@@ -13,6 +13,50 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-09-16 — Change order: the "archives are blocked" claim, corrected where it still misdirects
+
+**Origin.** Mark: "fix the three files that say archives are blocked," then "fix
+claude.md too." Scope grew on inspection — 23 files carry the claim.
+
+**Decided.** Corrected only where the claim is both false *and* forward-looking.
+Left alone everywhere it is a dated record of what a past session actually found.
+
+- **Fixed at root cause** (commits `0c332fd4`, `7d1f3773`): `texts_registry.py`
+  and `gen_corpus_table.py`, plus the two files they generate, and `CLAUDE.md`.
+  The defect was not the stale host list. A mutable environment fact had been
+  written in as a fixed one, and the rationale for vendoring was made to rest on
+  it — so when egress changed, the files went false and the rationale looked like
+  it had gone with them. It had not: verification must be reproducible offline by
+  any session, whatever the network is doing. All now say that, and say
+  reachability is tested at acquisition rather than assumed downstream. The
+  frozen corpus count is gone too, for the same reason.
+- **Appended a dated note, original kept** — `World-Builds/Donatism/Source_Acquisition_Manifest.md`
+  and Imperial-Juridical's Philostorgius/Opus Imperfectum finding. Both told a
+  future thread acquisition was impossible.
+- **Not touched** — ~18 files: dated audit trail, review artifacts, `records/`
+  provenance, and the REGISTRY/README lines describing how a file was actually
+  acquired. These record real acts at real times and were true when written;
+  rewriting them would falsify the record, and one review round even logs its own
+  `CONNECT tunnel failed` as independent corroboration.
+
+**Two things checking found that assuming would have missed.** Latin-Pastoral's
+manifest already carried a "Superseded 2026-09-08" note in exactly this pattern —
+touching it would have been a fix on a fix. And Imperial-Juridical's claim is
+about `pims.ca` and `brepols.net`, which I re-tested and which **are** still
+blocked; only its archive.org sentence needed a note, and the verdict it supports
+does not change, because the rights test fails on the English translation either
+way.
+
+**The reachability finding, tested this session.** Reachable: `archive.org` (a
+778 KB full-text download, end to end), `ccel.org`, `en.wikisource.org`,
+`gutenberg.org`. Refused: `www.ccel.org`, `newadvent.org`, `tertullian.org`,
+`sacred-texts.com`, `documentacatholicaomnia.eu`, `hathitrust.org`,
+`web.archive.org`, `dmgh.de`. The CCEL apex/www split is the trap — testing www
+alone reports CCEL blocked when it is not, and may be how the original claim was
+written.
+
+---
+
 ## 2026-09-16 — The forty-four re-tested: sixteen of the "checked" stories were wrong
 
 **Origin.** Mark asked what was next, then "yes follow your recommendation" — the

@@ -171,6 +171,10 @@ This is the identical posture already recorded for Auxentius: an edited text exi
 
 **One partial route was checked and should be rejected rather than left as an open possibility.** Aquinas's *Catena Aurea* quotes the *Opus Imperfectum* extensively, and Newman's 1841 English translation of the *Catena* is public domain and available on CCEL. That is technically a public-domain English channel to some of this text. It should not be used as Homoian self-testimony: those are excerpts selected by a thirteenth-century Dominican, for scholastic purposes, under the false Chrysostom attribution — the losing side's voice arriving pre-filtered and re-labelled by the winning tradition. That is the *exact* transmission pathology Doc_02 §7 exists to name. Using it here would deepen the problem while appearing to close it.
 
+**Superseded 2026-09-16, on the Latin only — the verdict stands.** The reason given above for not retrieving PG 56 ("this sandbox blocks archive.org," Round 1 L16) no longer holds: `archive.org` answers from this environment and a full-text download ran end to end. `bim_early-english-books-1641-1700_1859_56` resolves as the Migne volume, so the Latin can be retrieved and read rather than rested on a search listing. The two hosts this document names as blocked in its own Round 4 note, `pims.ca` and `brepols.net`, were re-tested and **are still refused** at the proxy, apex and www alike — that part of the record is accurate and stands unchanged.
+
+This changes the evidence, not the outcome. The rights test fails on the English translation (Kellerman/Oden, 2010, in copyright), and retrieving the Latin does not touch that. Referenced-only at most, licensing no quotation, exactly as recorded.
+
 **Verdict: not acquirable as quotable material. Not structural for Doc_04. No record added.**
 
 ---
