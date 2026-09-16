@@ -5,7 +5,7 @@
 **Produced at:** Construction Step 8 (Framework V7.4; Forces Framework V1.1)
 **Required before:** Validation Layer and deployment (Forces Framework V1.1: "No world advances to the Validation Layer or to deployment without a complete Doc_08")
 **Governing methodology:** Forces Framework V1.1 and Constitution V2.3 Article 22; grounded in `Doc_01_World_Identification_Boundaries_Orientation.md`, `Doc_02_Source_Ecology.md`/`Source_Registry.md`, `Doc_03_Lexicon_Candidate_List.md`, `Doc_04_Gravity_Discovery.md`, `Doc_05_Ecological_Reconstruction.md`, `Doc_06_Full_Lexicon_Development.md`, and `Doc_07_Integrated_Ecology_Analysis.md` (all Approved to proceed).
-**Status:** Draft, Revision 1 — not yet reviewed.
+**Status:** Draft, Revision 2. Round 1 review (`Review-Artifacts/Doc08_Round1_Review.md`) found the document's own stated force count wrong throughout (claimed "seventeen," Section 3 and the Force Index actually contain nineteen, with the Proportionality Principle's own connection-count math wrong on the same basis); five Layer 2 inhabited-voice entries embedding their own source citation inline, mid-sentence, inside the inhabited prose itself — the same From-Within Principle violation this project's own Donatism Doc_08 precedent caught and fixed twice — directly contradicting this document's own "checked, not merely asserted" self-certification; and G1 wrongly reconnected to Force 1B-1 (Cell 1B), a softer recurrence of this world's own twice-caught G1/Cell-1B placement error, contradicting Doc_04 §3.1's explicit Cell 1A/2B-only placement. Also found: a mislabeled/spliced quote reuse in Force 1B-3's own Layer 2; an illustrative phrase in Section 8's own self-check ("the mirror...") that does not actually appear anywhere in Section 3; a missing Cross-Cell Connection cross-reference in the Force Index's own Force 1B-1 row; and a causal-arrow notation overstating Connection 8's own contrast framing. All corrected in Revision 2. Round 2 targeted recheck pending.
 
 ---
 
@@ -78,7 +78,7 @@ This section restates, without redrawing, the preliminary forces identification 
 
 **Layer 1 — Historical Event:** Ulrich Zwingli began continuous, book-by-book scriptural exposition at Zurich's Grossmünster from 1519, rather than following the fixed lectionary; the 1522 Sausage Affair (a public Lenten-fast violation Zwingli defended on scriptural grounds) catalyzed open civic reform, leading to the First Zurich Disputation (1523), where the Sixty-Seven Articles were argued and ratified by the city council. **Documented** (Doc_01 §2; Doc_02 §1's own contemporary institutional record of the Disputation Acts).
 
-**Layer 2 — World's Own Experience:** Scripture read continuously, book by book, not cut into a fixed year's own lectionary — that was the discipline Zwingli set for himself from his first January, and it is the discipline that made every later argument possible: whatever the text does not say, the church may not require (Doc_05 §1, carried directly). What that reading yielded was refused as much as affirmed, argued in public, before the whole city, rather than asserted from a chair.
+**Layer 2 — World's Own Experience:** *[Inhabited — the first sentence carried from Doc_05 §1, the second from Doc_05 §5's own parallel Zurich passage]* Scripture read continuously, book by book, not cut into a fixed year's own lectionary — that was the discipline Zwingli set for himself at the Grossmünster from his first January, and it is the discipline that made every later argument possible: whatever the text does not say, the church may not require. What that reading yielded was refused as much as affirmed, argued in public, before the whole city, rather than asserted from a chair.
 
 **Layer 3 — Formation Impact:** This is the deep root of G3's own Zurich-strand enactment (public Disputation) and, through it, of G1 and G2 as Zwingli's own 1523 Art. XVIII and 1527 election exposition first state them in Zurich's own voice. It is also the founding root of T1's own Zurich pole (council-led authority, sustained unbroken across the whole window) and, indirectly, of the 1525 Anabaptist schism (Force 2B-1 below), which breaks from this same circle rather than arising independently.
 
@@ -88,7 +88,7 @@ This section restates, without redrawing, the preliminary forces identification 
 
 **Layer 1 — Historical Event:** Geneva's 1526 alliance with Bern and Fribourg and its 1536 political break from Savoy and the Prince-Bishop created the civic opening; Calvin arrived the same year, was exiled to Strasbourg (1538–1541), and was recalled to consolidate the 1541 Ecclesiastical Ordinances. **Documented** (Doc_01 §2, §6), five years after Zwingli's death and with no contact between the two triggers.
 
-**Layer 2 — World's Own Experience:** A church is not rightly ordered by doctrine alone. Someone must watch how the doctrine is lived — not the magistrate, whose sword is for the body, but pastors and elders together, whose office is to unite in pronouncing censure where conscience and conduct diverge from what has been professed (Doc_05 §1, carried directly).
+**Layer 2 — World's Own Experience:** *[Inhabited — carried from Doc_05 §1]* A church is not rightly ordered by doctrine alone. Someone must watch how the doctrine is lived — not the magistrate, whose sword is for the body, but pastors and elders together, whose office is to unite in pronouncing censure where conscience and conduct diverge from what has been professed.
 
 **Layer 3 — Formation Impact:** This is the deep root of G3's own Geneva-strand enactment (fixed catechesis) and, through Calvin's own systematic elaboration, of G1's own fullest worked form and G2's own mature spiritual-presence doctrine. It is also the direct precondition for Force 1B-3 below (the 1541 Ordinances) and, through it, of G4 and T1's own Geneva pole.
 
@@ -98,9 +98,9 @@ This section restates, without redrawing, the preliminary forces identification 
 
 **Layer 1 — Historical Event:** Calvin's 1541 recall to Geneva produced the Ecclesiastical Ordinances, creating a Consistory of pastors and lay elders with disciplinary censure authority, structurally distinct from a body answerable to the civil council alone. **Documented** as this world's own general doctrine, Confidence A, directly in Calvin's own words (Institutes IV.3.8: "seniors selected from the people to unite with the bishops in pronouncing censures and exercising discipline," lines 2831–2832, independently re-verified this pass); Geneva's own specific 1541 institutional text itself remains unvendored, Confidence E (Registry row 14; Doc_04 §3.4).
 
-**Layer 2 — World's Own Experience:** The magistrate governs bodies and property; he does not sit in judgment on whether a soul may come to the Lord's own table (Doc_05 §4, carried directly) — a discipline answerable to the city's own shifting politics is no discipline at all, which is why this body had to be its own thing from the start, not an arm of the council that had ratified the Sixty-Seven Articles at Zurich.
+**Layer 2 — World's Own Experience:** *[Inhabited — the opening sentence carried from Doc_05 §4; the fuller passage, including its own middle sentence on the council's later challenge, belongs to Force 2B-4 below, where it is quoted in full]* The magistrate governs bodies and property; he does not sit in judgment on whether a soul may come to the Lord's own table.
 
-**Layer 3 — Formation Impact:** This is the specific institutional founding act behind G4 (Consistorial Church Discipline) and the founding moment of T1's own Geneva pole — an independence claim built into the institution from its own origin, not asserted later; the claim is what the Perrinist crisis (Force 2B-4 below) tests, decades on, rather than invents.
+**Layer 3 — Formation Impact:** This is the specific institutional founding act behind G4 (Consistorial Church Discipline) and the founding moment of T1's own Geneva pole — an independence claim built into the institution from its own origin, not asserted later, which is why this body had to be its own thing from the start rather than an arm of the council that had ratified the Sixty-Seven Articles at Zurich; the claim is what the Perrinist crisis (Force 2B-4 below) tests, decades on, rather than invents.
 
 ---
 
@@ -114,7 +114,7 @@ This section restates, without redrawing, the preliminary forces identification 
 
 **Layer 1 — Historical Event:** At Marburg (1–4 October 1529), Zwingli and Oecolampadius stood against Luther and Melanchthon over whether Christ's body is locally or corporeally present in the Supper; Calvin, then about twenty and a law student, was not present, and Geneva was not yet reformed. **Documented** (Doc_01 §6; Doc_05 §3).
 
-**Layer 2 — World's Own Experience:** The bread is bread, and the body is in heaven; what happens at this table is remembrance and thanksgiving, not another sacrifice repeated, and any preacher who tells you Christ's own flesh is chewed by the mouth has not read what Scripture actually says of him (Doc_05 §3, carried directly, Zurich's own pre-1549 voice).
+**Layer 2 — World's Own Experience:** *[Inhabited — Zurich, pre-1549, carried from Doc_05 §3]* The bread is bread, and the body is in heaven; what happens at this table is remembrance and thanksgiving, not another sacrifice repeated, and any preacher who tells you Christ's own flesh is chewed by the mouth has not read what Scripture actually says of him.
 
 **Layer 3 — Formation Impact:** This is the specific rupture that separates G2's own refusal of Wittenberg from its own earlier, shared refusal of Rome — the Boundary Ecology's own second refusal (Doc_07 §2H) — and the direct trigger, twenty years on, for Force 2B-2's own Consensus Tigurinus: "the break at Marburg is what made the 1549 Consensus necessary twenty years later" (Doc_05 §3, quoted in full).
 
@@ -212,7 +212,7 @@ This section restates, without redrawing, the preliminary forces identification 
 
 **Layer 1 — Historical Event:** Bullinger's Second Helvetic Confession (1566), written decades after Zwingli's death, and the Heidelberg Catechism (1563, a third, non-Zurich/non-Geneva Reformed voice from the German wing), together fix this movement's shared confessional core in transmissible written form. **Documented** (Doc_01 §2; Doc_05 §6.4, §7).
 
-**Layer 2 — World's Own Experience:** A confession is not written to say something new; it is written so that what is already believed can be tested, taught, and handed to the next generation without drift (Doc_05 §6.4, carried directly) — Zurich's own mature statement and Geneva's own catechism, forty years and a language apart, can still be read as one faith stated twice.
+**Layer 2 — World's Own Experience:** *[Inhabited — carried from Doc_05 §6.4]* A confession is not written to say something new; it is written so that what is already believed can be tested, taught, and handed to the next generation without drift — which is why Zurich's own mature statement and Geneva's own catechism, forty years and a language apart, can still be read as one faith stated twice.
 
 **Layer 3 — Formation Impact:** This is the specific mechanism behind Doc_07 §3's own confirmed Memory Structures lens — textual codification by a named successor once a founding generation's own oral and disputational method needed a fixed text to outlive it, matching the same succession-proofing role Beza's own *Tabula praedestinationis* (1555) performs for G1's own systematized form, at Force 2A-5's own remove toward Dort.
 
@@ -325,8 +325,8 @@ Zwingli's own death removes the founding generation's own direct voice from Zuri
 
 ---
 
-**Connection 8:**
-Force 2A-4 (Counter-Reformation, sustained across the whole window) → Force 3A-1 (no external ending force attested)
+**Connection 8** *(a named contrast, not a produces/reshapes relationship — the arrow notation used for Connections 1–7 above does not fit this one, and is deliberately not used here)*:
+Force 2A-4 (Counter-Reformation, sustained across the whole window) ↔ Force 3A-1 (no external ending force attested)
 
 Despite sustained Catholic pressure across the entire window — the Jesuit presence at Fribourg from 1580, the 1590s Chablais reconquest — this world's own record shows no external force actually closing it, unlike this project's own Donatism precedent, where comparable sustained pressure culminates in the Vandal capture of Carthage. Naming this contrast explicitly is itself a finding: sustained external pressure does not, on its own, predict a world's own ending.
 
@@ -345,8 +345,7 @@ Read together, these connections show a world whose two independent origins (Con
 **Gravity: G1 — Sovereignty of God/Predestination and Election** (Primary, Doc_04)
 
 Connected forces:
-- 1A-2 (Augustinian inheritance): grounds G1 as an inherited theological line, not a local invention.
-- 1B-1 (Zurich's own origin): Zwingli's own 1527 election exposition grounds G1 independently in Zurich's own voice.
+- 1A-2 (Augustinian inheritance): grounds G1 as an inherited theological line, not a local invention. Zwingli's own 1527 election exposition (Doc_04 §3.1) independently corroborates this same Cell 1A/2B pattern in Zurich's own voice — named here rather than attached to Force 1B-1's own cell, since Doc_04 §3.1 explicitly reserves Cell 1B "for this world's own two specific local founding acts" (Force 1B-1/1B-2, which root G2 and G3, per Doc_05 §11; Force 1B-3, which roots G4), not G1.
 - 2B-3 (Bolsec controversy): tests G1 as a live pastoral crisis, not settled doctrine alone.
 - 2B-5 (Second Helvetic Confession): supplies G1's own more pastoral, Christocentric Zurich-strand register, distinct from Calvin's own systematic architecture.
 - 2B-6 (Transmission/Author-Gravity): explains why G1's own fullest systematized form is Calvin/Beza-concentrated even though its core conviction is cross-strand attested.
@@ -407,7 +406,7 @@ All six of this world's own classified gravities (three Primary, one Supporting,
 
 ### Cross-Strand Gravity Note
 
-**Applicable, unlike this project's own strand-singular precedent (Donatism).** Doc_01 §4/§5 confirmed this world genuinely two-stranded; Doc_04 §5 ran Article 21's own actual cross-strand test on every confirmed candidate. This forces analysis corroborates that finding at the level of forces rather than restating it: G1, G2, and G3 each connect to at least one force independently attested in each strand's own record (G1: Force 1B-1's own Zurich-strand exposition alongside Force 2B-5's own Bullinger-authored confession; G2: Force 1B-1's own Zurich-strand Art. XVIII alongside Force 2B-2's own jointly-authored Consensus; G3: Force 1B-1 and Force 1B-2, two independent strand-specific enactments of one method), while G4 connects only to Geneva-side forces (Force 1B-2, Force 1B-3, Force 2A-3, Force 2B-4), no comparable Zurich-side force being attested in this world's own vendored record — the same strand-scope qualification Doc_04 §3.4/§5 already found, confirmed rather than redecided here.
+**Applicable, unlike this project's own strand-singular precedent (Donatism).** Doc_01 §4/§5 confirmed this world genuinely two-stranded; Doc_04 §5 ran Article 21's own actual cross-strand test on every confirmed candidate. This forces analysis corroborates that finding at the level of forces rather than restating it: G1, G2, and G3 each connect to at least one force independently attested in each strand's own record (G1: Zwingli's own 1527 election exposition, named at Force 1A-2's own entry, alongside Force 2B-5's own Bullinger-authored confession — neither routed through Force 1B-1's own cell, per Doc_04 §3.1's explicit Cell 1A/2B-only placement for this gravity; G2: Force 1B-1's own Zurich-strand Art. XVIII alongside Force 2B-2's own jointly-authored Consensus; G3: Force 1B-1 and Force 1B-2, two independent strand-specific enactments of one method), while G4 connects only to Geneva-side forces (Force 1B-2, Force 1B-3, Force 2A-3, Force 2B-4), no comparable Zurich-side force being attested in this world's own vendored record — the same strand-scope qualification Doc_04 §3.4/§5 already found, confirmed rather than redecided here.
 
 ### What Forces Analysis Adds
 
@@ -459,7 +458,7 @@ Force 2A-2's own organ-silencing detail (that the Grossmünster's own organ fell
 
 ### Forces at Contested Level
 
-None of the seventeen identified forces is itself contested as to whether it occurred. The one live scholarly contest bearing on this matrix — whether the Consensus Tigurinus's own 1549 formula (Force 2B-2) is genuine theological synthesis or diplomatically elastic language — attaches to the *meaning* of an undisputed event, not to Force 2B-2's own bare occurrence, and is carried at full strength in Doc_04 §3.2/§3.5 and Doc_06 §2's own CT Contest Type specification (Contest Type: Meaning) rather than resolved or restated here.
+None of the nineteen identified forces is itself contested as to whether it occurred. The one live scholarly contest bearing on this matrix — whether the Consensus Tigurinus's own 1549 formula (Force 2B-2) is genuine theological synthesis or diplomatically elastic language — attaches to the *meaning* of an undisputed event, not to Force 2B-2's own bare occurrence, and is carried at full strength in Doc_04 §3.2/§3.5 and Doc_06 §2's own CT Contest Type specification (Contest Type: Meaning) rather than resolved or restated here.
 
 ### Forces at Inferential/Thin Level
 
@@ -475,15 +474,15 @@ One standing tension is carried into this document from Doc_04/Doc_06 rather tha
 
 ### From-Within Principle
 
-**Status:** CONFIRMED, checked directly, not merely asserted.
+**Status:** CONFIRMED in Revision 2, after a genuine violation found and fixed — not merely asserted.
 
-Every Layer 2 entry in Section 3 above uses this world's own vocabulary — the mirror in which we behold our predestination, the sign not disjoined from the thing it signifies, the magistrate's sword for the body and the pastor's censure for the soul — with no modern sociological or political-science framework imported into that layer. A full re-read of every Layer 2 entry before disposition confirmed no gravity ID, confidence marker, cell reference, or inline citation survives inside inhabited prose; where this world's own self-understanding is not recoverable (Force 2A-3, Force 3B-2), Layer 2 states that absence directly rather than substituting a modern analytical reconstruction for it, consistent with Doc_05's own established discipline of quarantining construction notes outside inhabited passages (Doc_05 §0 item 5).
+Every Layer 2 entry in Section 3 above uses this world's own vocabulary — the sign not disjoined from the thing it signifies, the bread that is bread while the body is in heaven, the magistrate's sword for the body and the pastor's censure for the soul — with no modern sociological or political-science framework imported into that layer. **A full re-read of every Layer 2 entry before disposition found five entries (Force 1B-1, Force 1B-2, Force 1B-3, Force 2A-1, Force 2B-5) embedding their own source citation inline, mid-sentence, inside the inhabited prose itself, rather than in a header before it — the same violation category this project's own Donatism precedent (Doc_08 §8) caught and fixed twice.** All five are corrected in this revision: each citation moved into a bracketed header preceding the inhabited passage, matching this document's own correct convention elsewhere (e.g. Force 2B-1's `*[Inhabited — carried from Doc_05 §2]*`). With that fix applied, no gravity ID, confidence marker, cell reference, or inline citation survives inside any Layer 2 entry's own inhabited prose. Where this world's own self-understanding is not recoverable (Force 2A-3, Force 3B-2), Layer 2 states that absence directly rather than substituting a modern analytical reconstruction for it, consistent with Doc_05's own established discipline of quarantining construction notes outside inhabited passages (Doc_05 §0 item 5).
 
 ### Proportionality Principle
 
 **Status:** CONFIRMED.
 
-All seventeen identified forces received full three-layer treatment; none was abbreviated to Layer 1 only. Sixteen of these seventeen forces have a genuine, traceable connection to at least one classified gravity, stated specifically at Section 5; the remaining one (Force 2B-6) is this world's own required Transmission entry, treated as cross-cutting rather than gravity-specific, per Section 6's own fuller synthesis — a distinct but equally genuine formation impact, not a lesser one. Depth within full treatment is proportional to attestation strength — Force 2B-4 (the Perrinist crisis) and Force 1B-3 (the Ordinances/Consistory founding) together carry this document's own most detailed institutional treatment, matching their own status as this world's own most directly, repeatedly tested internal structure; Force 3A-1's and Force 3B-1's own Layer 2 entries, stating a genuine absence of ending-force experience, are correspondingly the shortest in this document, proportional to what there genuinely is to say about a world that does not end within its window rather than a raw length comparison.
+All nineteen identified forces received full three-layer treatment; none was abbreviated to Layer 1 only. Fourteen of these nineteen forces have a genuine, traceable connection to at least one classified gravity, stated specifically at Section 5; the remaining five are cross-cutting rather than gravity-specific. Two of the five (Force 2B-6, Force 3B-2) are this world's own two required Transmission entries, per Section 6's own fuller synthesis. The other three (Force 2A-2, Force 2A-4, Force 3A-1) do not connect to a gravity directly for a stated reason each: Force 2A-2 grounds a downstream force (Force 2B-5) rather than a gravity itself; Force 2A-4 sustains a lens (Boundary Ecology's own Rome-facing pole) rather than a single classified gravity; Force 3A-1 states an honest absence-of-ending-force finding, which by its own nature has nothing to connect to. None of the five is a gap in this document's own analysis — each is named and reasoned here rather than silently omitted. Depth within full treatment is proportional to attestation strength — Force 2B-4 (the Perrinist crisis) and Force 1B-3 (the Ordinances/Consistory founding) together carry this document's own most detailed institutional treatment, matching their own status as this world's own most directly, repeatedly tested internal structure; Force 3A-1's and Force 3B-1's own Layer 2 entries, stating a genuine absence of ending-force experience, are correspondingly the shortest in this document, proportional to what there genuinely is to say about a world that does not end within its window rather than a raw length comparison.
 
 ### Named-Tension Principle
 
@@ -531,7 +530,7 @@ Cells 2B and 3B each address transmission specifically, with named mechanisms (t
 |---|---|---|---|---|---|---|
 | 1A-1 | Initiating/External | Late-medieval Latin sacramental/clerical order | Documented | G2 | — | No |
 | 1A-2 | Initiating/External | Augustinian inheritance on predestination/grace | Documented | G1 | → 2B-3 (Connection 5) | No |
-| 1B-1 | Initiating/Internal | Zwingli's 1519 start / 1522 Sausage Affair (Zurich origin) | Documented | G1, G2, G3, T1, T2 | → 2B-1 (Connection 2); → 2A-1 (Connection 3) | No |
+| 1B-1 | Initiating/Internal | Zwingli's 1519 start / 1522 Sausage Affair (Zurich origin) | Documented | G2, G3, T1, T2 | → 2B-2 (Connection 1, jointly with 1B-2); → 2B-1 (Connection 2); → 2A-1 (Connection 3) | No |
 | 1B-2 | Initiating/Internal | Geneva's 1526/1536 sequence, Calvin's arrival (Geneva origin) | Documented | G3, G4 | → 2B-2 (Connection 1, jointly with 1B-1) | No |
 | 1B-3 | Initiating/Internal | 1541 Ecclesiastical Ordinances / Consistory founding | Documented (general doctrine); Confidence E (specific text) | G4, T1 | → 2B-4 (Connection 6) | No |
 | 2A-1 | Ongoing/External | Marburg Colloquy (1529) | Documented | G2, T2 | ← 1B-1 (Connection 3); → 2B-2 (Connection 4) | No |
@@ -553,7 +552,7 @@ Cells 2B and 3B each address transmission specifically, with named mechanisms (t
 
 | Gravity | Connected Forces |
 |---|---|
-| G1 (Sovereignty of God/Predestination, Primary) | 1A-2, 1B-1, 2A-5, 2B-3, 2B-5, 2B-6 |
+| G1 (Sovereignty of God/Predestination, Primary) | 1A-2, 2A-5, 2B-3, 2B-5, 2B-6 |
 | G2 (Spiritual Presence/Rejection of Corporeal Mediation, Primary) | 1A-1, 1B-1, 2A-1, 2B-2 |
 | G3 (Scripture as Sole Authority, Primary) | 1B-1, 1B-2, 2B-1, 2B-5 |
 | G4 (Consistorial Church Discipline, Supporting) | 1B-2, 1B-3, 2A-3, 2B-4 |
@@ -576,8 +575,8 @@ All six classified gravities populated; no empty row.
 
 **Escalation-category assessment:** none of the four applies. No Representative-identity decision is made (Section 1's own Representative-name field is left PENDING, as the template itself allows). No portfolio-level or cross-world decision is made — this document applies the already-established cell mapping from Doc_04 §3/§7, Doc_05 §11, and Doc_07 §4 rather than redeciding it, and the one named scholarly tension (the Consensus Tigurinus's own contested meaning) is carried forward rather than adjudicated. No governance or methodology decision is made. No unresolved tension exists between this document and any prior cleared document — every cell assignment, every force-to-gravity connection, and every confidence rating here is consistent with, and traceable to, findings Doc_01 through Doc_07 already established.
 
-**Disposition: pending independent adversarial review.** This document's own masthead records Draft, Revision 1, not yet reviewed, consistent with `cic-build-cycle`'s own stages — self-disposition is only available once independent review clears without calling for substantial revision.
+**Disposition: pending Round 2 targeted recheck.** Round 1 review (`Review-Artifacts/Doc08_Round1_Review.md`) found substantial revision required (one High-severity false self-certification, two further High findings, plus Medium and Low/cosmetic items); Revision 2 above corrects all of them. This document's own masthead records Draft, Revision 2 — self-disposition is only available once a further independent recheck clears the fixes without calling for a fresh substantial-revision round, consistent with `cic-build-cycle`'s own stages.
 
 ---
 
-*End Doc_08. Six cells, seventeen identified forces, all three-layer, all six classified gravities connected, transmission addressed explicitly at both required cells and synthesized fully at Section 6. Draft, Revision 1. Next: independent review, then Doc_09 (Story Inventory).*
+*End Doc_08. Six cells, nineteen identified forces, all three-layer, all six classified gravities connected, transmission addressed explicitly at both required cells and synthesized fully at Section 6. Draft, Revision 2. Next: Round 2 targeted recheck.*
