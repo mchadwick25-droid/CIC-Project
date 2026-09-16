@@ -1,0 +1,19 @@
+# Worker: source-research thread, 2026-09-16. Same batch (see
+# auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.yaml's header).
+source_file: dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88.txt
+
+assignments:
+  - work: "Doctrinae Diversae"
+    author: dorotheus-gaza
+    locus: "whole file"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: tradition
+    confidence: assigned
+    note: >
+      Dorotheus's own instructions - extensively confirmed present in
+      this volume. NOTE: the supplying report bundled this identifier
+      with Barsanuphius and John's Letters to Andrew as well; that
+      correspondence was NOT confirmed present here (see the file's own
+      header) and is not claimed by this entry - it remains an open,
+      unresolved sourcing gap for a future pass.

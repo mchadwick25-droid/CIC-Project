@@ -1,0 +1,20 @@
+# Worker: source-research thread, 2026-09-16. One of 12 works fetched and
+# vendored this pass against the "found, but check before vendoring" tier
+# of a user-supplied Atlas source-gap report ("Sources the Atlas Cannot
+# Read", 2026-09-16).
+source_file: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt
+
+assignments:
+  - work: "Epistula de Fide, Vita et Obitu Wulfilae"
+    author: auxentius-durostorum
+    locus: "whole file"
+    atlas_ids:
+      - homoian-arian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      A disciple's own eyewitness confession of Ulfila's Homoian faith -
+      the closest thing to a first-person Homoian Gothic confessional
+      statement in the corpus. Confirmed genuinely legible despite the
+      supplying report's own (incorrect) flag that no plain-text
+      derivative existed.

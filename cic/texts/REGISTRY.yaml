@@ -2193,3 +2193,179 @@
     report-claimed "grc+eng" bilingual status was not independently verified, so this 1846
     all-English Walford translation is used as the confirmed source instead. Serves
     byzantine-imperial-church-justinianic and cyrilline-miaphysite-egyptian-christianity.
+
+- filename: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report's "found, but check before
+    vendoring" tier, then fetched, checked for genuine relevant content, normalized,
+    and vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Auxentius of Durostorum's letter on Ulfila, ed. Friedrich Kauffmann (1899) - one of 12
+    works fetched, verified, and vendored this pass against the "found, but check before
+    vendoring" tier (11 works) of a user-supplied Atlas source-gap report ("Sources the
+    Atlas Cannot Read", 2026-09-16). The report flagged this as a Google Books scan with "no
+    plain-text derivative" - that flag is WRONG: a full, legible djvu.txt exists and was
+    fetched directly. Report identifier ausderschuledes00maxigoog1899 corrected to
+    ausderschuledes00maxigoog. Serves homoian-arian-christianity.
+
+- filename: annales-regni-francorum_kurze1895.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report's "found, but check before
+    vendoring" tier, then fetched, checked for genuine relevant content, normalized,
+    and vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Annales regni Francorum, ed. Friedrich Kurze (MGH, 1895). Same batch as above. The 782
+    annal and its apparatus (confirming the Verden killings) are present. Report identifier
+    annalesregnifran00anna1895 corrected to annalesregnifran00anna. Serves carolingian-
+    reform-christianity.
+
+- filename: capitulatio-de-partibus-saxoniae_pertz1881.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report's "found, but check before
+    vendoring" tier, then fetched, checked for genuine relevant content, normalized,
+    and vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Capitulatio de partibus Saxoniae (MGH Leges I, 1881). Same batch as above. Full
+    capitulary text confirmed present. A second candidate the report also listed
+    (monumentagerman07mittgoog1883, "Legum sectio II") was checked and does NOT contain this
+    document - a different Capitularia volume - and is not used. Serves carolingian-reform-
+    christianity.
+
+- filename: alcuin_opera-omnia-letters_migne-pl100-101_1863.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report's "found, but check before
+    vendoring" tier, then fetched, checked for genuine relevant content, normalized,
+    and vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Alcuin's Opera Omnia including his letters, Migne PL 100-101 (1863). Same batch as
+    above. The report cited Letters 110, 111, 113 in Dummler's later MGH numbering (to
+    Charlemagne, Megenfrid, and Arn, 796, on not burdening newly-converted Saxons with
+    tithes); this earlier Migne edition uses different numbering, so those three letters
+    were NOT individually pinpointed by number - a disclosed, unresolved gap. What is
+    confirmed: extensive genuine Alcuin/Arn correspondence, and the volume's own topical
+    index directly summarizing the same tithe-relief substance at vol. I p. 51. A second,
+    1873 Jaffe-Wattenbach edition (monumentaalcuin00wattgoog) was also checked - genuine
+    content, including a letter numbered 110 there but about a lunar eclipse, confirming yet
+    another distinct numbering scheme - but its OCR quality was too poor to usefully vendor,
+    so only this Migne edition is included. Serves carolingian-reform-christianity.
+
+- filename: dhuoda_liber-manualis_bondurand1887.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report's "found, but check before
+    vendoring" tier, then fetched, checked for genuine relevant content, normalized,
+    and vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Dhuoda, Liber Manualis, ed. Edouard Bondurand (1887). Same batch as above. Bondurand's
+    introduction directly names Guillaume, Dhuoda's addressee-son. Report identifier
+    lemanueldedhuoda00dhuo1887 corrected to lemanueldedhuoda00dhuo. Serves carolingian-
+    reform-christianity.
+
+- filename: nithard_historiarum-libri-iv_pertz-muller1907.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report's "found, but check before
+    vendoring" tier, then fetched, checked for genuine relevant content, normalized,
+    and vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Nithard, Historiarum Libri IV, ed. Pertz/Muller (MGH, 1907). Same batch as above. All
+    four books confirmed present; the exact III.2/IV.6 chapter boundaries the report cites
+    were not individually pinpointed - a disclosed, unresolved imprecision. Serves
+    carolingian-reform-christianity.
+
+- filename: prudentius-troyes_annales-bertiniani_waitz1883.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report's "found, but check before
+    vendoring" tier, then fetched, checked for genuine relevant content, normalized,
+    and vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Annales Bertiniani, auctore Prudentio (Bishop of Troyes), ed. Georg Waitz (MGH, 1883).
+    Same batch as above, cited as corroboration for the Dhuoda-adjacent Nithard material at
+    s.a. 844 and 850. Both years confirmed present, still under Prudentius's own authorship
+    heading. Report identifier annalesbertinian00wait1883 corrected to
+    annalesbertinian00wait. Serves carolingian-reform-christianity.
+
+- filename: caesarius-arles_sermons-pseudo-augustinian_migne-pl39.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report's "found, but check before
+    vendoring" tier, then fetched, checked for genuine relevant content, normalized,
+    and vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Sermons attributed to Caesarius of Arles among the Pseudo-Augustinian sermons, Migne PL
+    39 (1865). Same batch as above. The report's own supplied identifier ("patrologia-
+    latina_1-221") was not a usable archive.org identifier; a clean PL 39 identifier
+    (patrologiae_cursus_completus_lat_vol_039) was found independently by direct search.
+    Sermo XIII and Sermo LXXIV both confirmed present by exact header; the Sermo L-LIX range
+    confirmed present as a block, though individual boundaries among LI-LVIII were not
+    pinpointed (Roman-numeral OCR noise). A secondary German 30-sermon selection the report
+    also listed (11811933bsb, 1896) was checked and confirmed genuine but not vendored as
+    redundant. Serves merovingian-gallic-christianity.
+
+- filename: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report's "found, but check before
+    vendoring" tier, then fetched, checked for genuine relevant content, normalized,
+    and vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Cyril of Scythopolis's Vita Sabae and Vita Euthymii, in Cotelier's Ecclesiae Graecae
+    Monumenta (1681) - the only public-domain edition, since Schwartz's standard 1939
+    critical edition is still in copyright (as the source-gap report itself notes). Same
+    batch as above. Both vitae confirmed genuinely present, but this is a 17th-century
+    typeface scan with heavy OCR corruption; the specific ch. 83-90 "New Laura" passage the
+    report cites was NOT pinpointed, and any future quote drawn from this file needs
+    unusually careful individual eye-verification given the OCR quality - flagged explicitly
+    in the file's own header. Serves chalcedonian-monasticism-judean-desert-and-gaza.
+
+- filename: dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report's "found, but check before
+    vendoring" tier, then fetched, checked for genuine relevant content, normalized,
+    and vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Dorotheus of Gaza's Doctrinae, Migne PG 88 (1860). Same batch as above. IMPORTANT: the
+    report cited this same identifier for BOTH Dorotheus's own Discourses AND Barsanuphius
+    and John's Letters 72-123 to Andrew. Only Dorotheus's material is confirmed present here
+    - Barsanuphius/John's own correspondence was NOT found beyond one incidental
+    heresiological cross-reference, and real doubt exists whether it is in this volume at
+    all (their standard edition history runs through Nicodemus's 1816 Venice printing, not
+    Migne). Filed under Dorotheus's own name rather than the report's joint framing; the
+    Barsanuphius/John "I Carry Half Your Burden" citation this report's story needs remains
+    an open, unresolved sourcing gap, not silently closed. Serves chalcedonian-monasticism-
+    judean-desert-and-gaza.
+
+- filename: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report's "found, but check before
+    vendoring" tier, then fetched, checked for genuine relevant content, normalized,
+    and vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    The Relatio Motionis and Disputatio Bizyae (the record of Maximus the Confessor's 655
+    trial and 656 dispute), Migne PG 90 (1860). Same batch as above. The phrase "relatio
+    motionis facte inter S. Maximum et socium ejus atque principes" confirmed present
+    verbatim, with better OCR quality than the PG88 volume above. Serves byzantine-imperial-
+    church-heraclian-iconoclast.
+
+- filename: moses-khoren_history-of-armenians-ita_tommaseo1850.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report's "found, but check before
+    vendoring" tier, then fetched, checked for genuine relevant content, normalized,
+    and vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Moses of Khoren, History of the Armenians, trans. Niccolo Tommaseo into Italian (Venice,
+    1850) - the only public-domain rendering, per the report's own note that no PD English
+    translation exists. Same batch as above. IDENTIFIER/ATTRIBUTION CORRECTION: the report
+    credited this translation to "Cappelletti"; this volume's own archive.org metadata
+    credits Tommaseo instead. Mashtots's own alphabet-invention narrative confirmed
+    genuinely present; this translation's own book/chapter division was not independently
+    cross-checked against the report's "III.47-54" reference (drawn from a different, modern
+    edition's numbering). Serves armenian-christianity-conversion-era.

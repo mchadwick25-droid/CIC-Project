@@ -758,3 +758,184 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct fetch and read, 2026-09-16"
     status: downloaded
+
+  - title: "Epistula de Fide, Vita et Obitu Wulfilae"
+    author: "Auxentius of Durostorum"
+    translator: "(Latin only - ed. Friedrich Kauffmann, German commentary)"
+    year: 1899
+    world: homoian-arian-christianity
+    why: >
+      From the "found, but check before vendoring" tier of a user-supplied
+      Atlas source-gap report ("Sources the Atlas Cannot Read",
+      2026-09-16). The report flagged this Google Books scan as having
+      "no plain-text derivative" - that flag is WRONG: a full, legible
+      djvu.txt exists. Report identifier ausderschuledes00maxigoog1899
+      corrected to ausderschuledes00maxigoog.
+    url: "https://archive.org/details/ausderschuledes00maxigoog"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "Annales regni Francorum"
+    author: "Anonymous Frankish court annalists"
+    translator: "(Latin only - ed. Friedrich Kurze, MGH)"
+    year: 1895
+    world: carolingian-reform-christianity
+    why: >
+      Same report as above. The 782 annal and its apparatus (confirming
+      the Verden killings) confirmed present. Report identifier
+      annalesregnifran00anna1895 corrected to annalesregnifran00anna.
+    url: "https://archive.org/details/annalesregnifran00anna"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "Capitulatio de partibus Saxoniae"
+    author: "Anonymous (Charlemagne's chancery)"
+    translator: "(Latin only - MGH Leges I)"
+    year: 1881
+    world: carolingian-reform-christianity
+    why: >
+      Same report as above. Full capitulary text confirmed present. A
+      second candidate the report also listed (monumentagerman07mittgoog,
+      "Legum sectio II") was checked and does NOT contain this document.
+    url: "https://archive.org/details/monument01gese"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "Alcuini Opera Omnia (letters), incl. Letters 110/111/113 to Charlemagne, Megenfrid, Arn"
+    author: "Alcuin of York"
+    translator: "(Latin only - Migne PL 100-101)"
+    year: 1863
+    world: carolingian-reform-christianity
+    why: >
+      Same report as above, citing three specific letters (Dummler's
+      later MGH numbering) on not burdening newly-converted Saxons with
+      tithes. This Migne edition uses different numbering, so those
+      three letters were NOT individually pinpointed by number - a
+      disclosed gap - though the same substance is confirmed present via
+      this volume's own topical index (s.v. "Saxones"). A second, 1873
+      Jaffe-Wattenbach edition (monumentaalcuin00wattgoog) was also
+      checked - genuine but with OCR too poor to usefully vendor.
+    url: "https://archive.org/details/operaomniavolum00alcugoog"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "Le Manuel de Dhuoda (Liber Manualis)"
+    author: "Dhuoda"
+    translator: "(Latin only, French introduction - ed. Edouard Bondurand)"
+    year: 1887
+    world: carolingian-reform-christianity
+    why: >
+      Same report as above. Bondurand's introduction directly names
+      Guillaume, Dhuoda's addressee-son. Report identifier
+      lemanueldedhuoda00dhuo1887 corrected to lemanueldedhuoda00dhuo.
+    url: "https://archive.org/details/lemanueldedhuoda00dhuo"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "Historiarum Libri IIII, and the Annales Bertiniani (s.a. 844, 850)"
+    author: "Nithard; Prudentius of Troyes"
+    translator: "(Latin only - MGH editions, Pertz/Muller 1907 and Waitz 1883)"
+    year: "1907 / 1883"
+    world: carolingian-reform-christianity
+    why: >
+      Same report as above, cited together as the corroborating pair for
+      Dhuoda-era context. Both confirmed present and genuine; the exact
+      III.2/IV.6 chapter boundaries in Nithard were not individually
+      pinpointed. Report identifiers nithardihistoria00nithuoft1907 and
+      annalesbertinian00wait1883 corrected to nithardihistoria00nithuoft
+      and annalesbertinian00wait respectively.
+    url: "https://archive.org/details/nithardihistoria00nithuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "Sermons (Pseudo-Augustinian, attributed to Caesarius of Arles): Sermo XIII, L-LIX incl. 50-54, LXXIV"
+    author: "Caesarius of Arles"
+    translator: "(Latin only - Migne PL 39)"
+    year: 1865
+    world: merovingian-gallic-christianity
+    why: >
+      Same report as above. The report's own supplied identifier
+      ("patrologia-latina_1-221") was not a usable archive.org
+      identifier; a clean PL 39 identifier
+      (patrologiae_cursus_completus_lat_vol_039) was found independently.
+      Sermo XIII and Sermo LXXIV confirmed present by exact header; the
+      Sermo L-LIX range confirmed present as a block, individual
+      boundaries among LI-LVIII not pinpointed.
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_039"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "Vita Sabae, ch. 83-90 (The New Laura is Emptied)"
+    author: "Cyril of Scythopolis"
+    translator: "(Greek with Latin - ed. Cotelier, 1681)"
+    year: 1681
+    world: chalcedonian-monasticism-judean-desert-and-gaza
+    why: >
+      Same report as above. Schwartz's standard 1939 critical edition is
+      still in copyright, making this 1681 Cotelier edition the only
+      public-domain option. Both the Vita Sabae and Vita Euthymii
+      confirmed genuinely present, but the specific ch. 83-90 passage
+      was NOT pinpointed, and the scan's OCR quality is poor
+      (17th-century typeface, heavy long-s corruption) - flagged for
+      unusually careful future verification.
+    url: "https://archive.org/details/bub_gb_1Z5eE88JWfIC"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16 (provisional confidence - see corpus-map note)"
+    status: downloaded
+
+  - title: "Barsanuphius and John, Letters 72-123 to Andrew; Dorotheus of Gaza, Doctrinae"
+    author: "Barsanuphius and John (unconfirmed); Dorotheus of Gaza (confirmed)"
+    translator: "(Greek with Latin - Migne PG 88)"
+    year: 1860
+    world: chalcedonian-monasticism-judean-desert-and-gaza
+    why: >
+      Same report as above. Dorotheus's own Doctrinae confirmed
+      extensively present. Barsanuphius and John's own Letters to Andrew
+      were NOT confirmed present beyond one incidental heresiological
+      cross-reference - real doubt exists whether this correspondence is
+      in this volume at all (its standard edition history runs through
+      Nicodemus's 1816 Venice printing, not Migne). Vendored under
+      Dorotheus's name only; the Barsanuphius/John gap remains open and
+      unresolved.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_88"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16 (Dorotheus content only - see corpus-map note)"
+    status: downloaded
+
+  - title: "Relatio Motionis and Disputatio Bizyae"
+    author: "Maximus the Confessor"
+    translator: "(Greek with Latin - Migne PG 90)"
+    year: 1860
+    world: byzantine-imperial-church-heraclian-iconoclast
+    why: >
+      Same report as above. The exact phrase "relatio motionis facte
+      inter S. Maximum et socium ejus atque principes" confirmed present
+      verbatim, with good OCR quality.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_90"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "History of the Armenians, III.47-54 (Mashtots and the Armenian alphabet)"
+    author: "Moses of Khoren"
+    translator: "Niccolo Tommaseo (Italian; no PD English exists)"
+    year: 1850
+    world: armenian-christianity-conversion-era
+    why: >
+      Same report as above. CORRECTION: the report credited this
+      translation to "Cappelletti"; this volume's own archive.org
+      metadata credits Tommaseo instead. Mashtots's own alphabet-
+      invention narrative confirmed genuinely present; this
+      translation's own book/chapter division was not cross-checked
+      against the report's "III.47-54" reference.
+    url: "https://archive.org/details/storiadimoscor00mose"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded

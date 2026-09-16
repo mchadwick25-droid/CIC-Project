@@ -1,0 +1,18 @@
+# Worker: source-research thread, 2026-09-16. Same batch (see
+# auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.yaml's header).
+source_file: caesarius-arles_sermons-pseudo-augustinian_migne-pl39.txt
+
+assignments:
+  - work: "Sermones (Pseudo-Augustinian, attributed to Caesarius of Arles)"
+    author: caesarius-arles
+    locus: "Sermo XIII, Sermo LXXIV confirmed by header; Sermo L-LIX range confirmed as a block"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Caesarius's own preaching voice - the first Caesarius material in
+      this corpus's corpus-map, as far as this session checked. Sermo
+      XIII and Sermo LXXIV confirmed present by exact header; the
+      individual boundaries among Sermons LI-LVIII were not pinpointed
+      within the confirmed L-LIX block (Roman-numeral OCR noise).

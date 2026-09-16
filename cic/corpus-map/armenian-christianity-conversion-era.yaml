@@ -3,6 +3,19 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: armenian-christianity-conversion-era
 works:
+- work: History of the Armenians
+  author: moses-khoren
+  locus: the Mashtots alphabet narrative confirmed present; III.47-54 not cross-checked against
+    this translation's own numbering
+  role: tradition
+  confidence: assigned
+  note: 'Moses''s own account of Mashtots inventing the Armenian alphabet - the only public-domain
+    edition, since no PD English translation exists. IDENTIFIER/ATTRIBUTION CORRECTION: the
+    supplying report credited "Cappelletti" as translator; this volume''s own metadata credits
+    Niccolo Tommaseo instead.
+
+    '
+  source_file: moses-khoren_history-of-armenians-ita_tommaseo1850.txt
 - work: 'Moses of Chorene: History of Armenia (extract)'
   author: moses-of-chorene
   locus: div2 9.13

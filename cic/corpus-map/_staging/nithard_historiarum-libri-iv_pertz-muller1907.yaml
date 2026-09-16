@@ -1,0 +1,17 @@
+# Worker: source-research thread, 2026-09-16. Same batch (see
+# auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.yaml's header).
+source_file: nithard_historiarum-libri-iv_pertz-muller1907.txt
+
+assignments:
+  - work: "Historiarum Libri IIII"
+    author: nithard
+    locus: "whole file, esp. Books III and IV"
+    atlas_ids:
+      - carolingian-reform-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Charlemagne's grandson's own eyewitness history of the civil wars
+      among Louis the Pious's sons - corroborating context for Dhuoda's
+      Liber Manualis. All four books confirmed present; the exact
+      III.2/IV.6 chapter boundaries were not individually pinpointed.
