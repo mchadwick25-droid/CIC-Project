@@ -13,6 +13,44 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-09-16 — Decided: keep the quotation, say the corpus does not hold the words
+
+**Mark's call**, on the three options put to him: the middle one. Applied the
+same day.
+
+**What was done.** Ten stories got one sentence appended to their `caveat`
+field, naming the public-domain edition this project holds and saying the
+quoted English follows a modern translation. No story text was touched, no
+teaser, no quotation altered — the gate proved all three.
+
+**Why the caveat field and not a new one.** It already does this job in the
+Atlas's own voice: "the numbers and dialogue are as remembered, not as recorded
+at the time," "the detail is vivid but unverifiable." It renders on the card
+and again in the panel under the heading *What's solid, what's retold*, which
+is precisely what this is. Inventing a field would have put the same sentence
+somewhere a reader does not look.
+
+**The mark says what is true, not what is tidy.** Where a span IS verbatim, it
+says so and names it — Leoba's "according to the rules of poetic art" in Kylie,
+"a hundred thousand" and the pack-saddle in Brooks. Where the edition renders
+it differently, it quotes the difference, so a reader can see the distance
+rather than take it on trust. Chrysostom's is at two removes and the caveat now
+says so: a modern translation of a speech NPNF itself introduces with "she said
+in substance."
+
+**What this does not settle.** Only the 11 stories read against the newly
+vendored sources have been checked this way. The pattern almost certainly runs
+wider — 227 stories carry a quotation — but nothing was marked on suspicion.
+A story is marked when someone has read its passage against the edition on
+disk, and not before.
+
+**Still open.** Retiring `verification` as a stored field. This decision
+sharpens the argument rather than settling it: the corpus now has stories whose
+quotations are honestly marked as unverifiable-by-wording while their substance
+is confirmed, which is a state the field still cannot express.
+
+---
+
 ## 2026-09-16 — The Atlas quotes modern translations, and that is a different problem
 
 **Origin.** Mark: "now go acquire the tier 1 sources," then "verify the
