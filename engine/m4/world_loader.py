@@ -3,12 +3,21 @@ per conversation"). Builds on engine.m2.loader_stub's hash-verification
 contract unchanged - that module's own docstring names lazy loading, LRU
 eviction, and mmap'd indexes as M4's job on top of it; this file adds the
 lazy/resident/evict shape the stage-5 gate item ("lazy world load/unload
-measured") asks for. Full LRU-under-memory-pressure is real multi-world
-deployment behavior this build doesn't need to invent yet - the registry
-has exactly one built world to load against right now, so what's provable
-today is the mechanism (cold load reads and verifies from disk, a resident
-world is a cache hit not a second read, unload actually evicts and a
-later load is cold again), not eviction policy under real fleet load.
+measured") asks for.
+
+Idle-unload policy (WO-2, 2026-09-16): at this class's birth the registry
+had exactly one built world, so what mattered was proving the mechanism
+(cold load reads and verifies from disk, a resident world is a cache hit
+not a second read, unload actually evicts and a later load is cold
+again) - "full LRU-under-memory-pressure" was deliberately left as real
+multi-world deployment behavior the build didn't need to invent yet.
+Nine worlds are registered now, so a real deploy carries a real idle
+policy: `max_idle_seconds` on `__init__`. Still deliberately not full
+LRU-under-memory-pressure - that needs load data this deploy doesn't
+have yet (how many worlds are actually touched per hour, real package
+sizes in memory) and would be tuning a number nobody has measured
+against. A simple idle timeout is the honest amount of policy to add
+until that data exists.
 """
 import json
 import time
@@ -46,7 +55,23 @@ class LazyWorldLoader:
     load() is first called for a given world_key; a second load() for an
     already-resident world is a cache hit, not a second disk read/verify."""
 
-    def __init__(self):
+    def __init__(self, *, max_idle_seconds: float | None = None):
+        # max_idle_seconds (WO-2, 2026-09-16): None keeps every resident
+        # world cached for the process's lifetime, the behavior this class
+        # always had - the code default stays off, same posture as
+        # enforce_admission and admin_token in engine/api/config.py. A real
+        # deploy sets CIC_API_WORLD_IDLE_UNLOAD_SECONDS once there is more
+        # than one world worth evicting under - at this class's own birth
+        # the registry had exactly one built world, so an idle policy had
+        # nothing real to act on yet; nine do now. Eviction runs
+        # opportunistically from load() (see _evict_idle below) rather than
+        # a background thread - unlike engine/m4/idle_close.py's session
+        # sweep, which has to fire even with zero traffic (a session can go
+        # idle while nobody calls anything), a resident world can only grow
+        # stale while something keeps calling load() - the same traffic
+        # that already triggers this check for free.
+        self._max_idle_seconds = max_idle_seconds
+        self._last_accessed: dict[tuple[str, str], float] = {}
         # Keyed by (world_key, expected_manifest_hash), not world_key alone -
         # found live (2026-09-04): a bare world_key key means a resident
         # world is returned on ANY later load() for that key regardless of
@@ -76,10 +101,13 @@ class LazyWorldLoader:
         return any(k[0] == world_key for k in self._resident)
 
     def load(self, world_key: str, *, package_dir: Path, expected_manifest_hash: str) -> tuple[LoadedWorld, LoadTiming]:
+        if self._max_idle_seconds is not None:
+            self._evict_idle()
         start = time.perf_counter()
         cache_key = (world_key, expected_manifest_hash)
         cached = self._resident.get(cache_key)
         if cached is not None:
+            self._last_accessed[cache_key] = time.monotonic()
             return cached, LoadTiming(world_key=world_key, cache_hit=True, seconds=time.perf_counter() - start)
 
         manifest_path = package_dir / "manifest.json"
@@ -106,6 +134,7 @@ class LazyWorldLoader:
             frame=json.loads(package["compiled/frame.json"]),
         )
         self._resident[cache_key] = world
+        self._last_accessed[cache_key] = time.monotonic()
         return world, LoadTiming(world_key=world_key, cache_hit=False, seconds=time.perf_counter() - start)
 
     def unload(self, world_key: str) -> LoadTiming:
@@ -114,4 +143,22 @@ class LazyWorldLoader:
         start = time.perf_counter()
         for key in [k for k in self._resident if k[0] == world_key]:
             del self._resident[key]
+            self._last_accessed.pop(key, None)
         return LoadTiming(world_key=world_key, cache_hit=False, seconds=time.perf_counter() - start)
+
+    def _evict_idle(self) -> list[str]:
+        """Unloads every resident (world_key, hash) pin last accessed more
+        than max_idle_seconds ago. Called from load() itself, not a
+        background thread (see __init__'s own note on why that's enough
+        here) - so the actual eviction moment is "the next time someone
+        asks to load anything", not exactly max_idle_seconds after the
+        fact. Returns the evicted world_keys, for a caller that wants to
+        log what happened; LoadTiming has no field for "why a load was
+        briefly a cold load" so this stays a separate, optional return
+        rather than overloading that dataclass."""
+        now = time.monotonic()
+        stale = [k for k, last in self._last_accessed.items() if now - last > self._max_idle_seconds]
+        for key in stale:
+            del self._resident[key]
+            del self._last_accessed[key]
+        return [k[0] for k in stale]
