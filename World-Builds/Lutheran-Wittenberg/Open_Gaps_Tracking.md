@@ -402,3 +402,79 @@ rather than for action.
    an open, undecided question for the build thread: strip at a later approval-adjacent pass, or
    keep as the living-document trail. Not decided by this entry; logged for whoever next
    substantially edits Doc_04, or for periodic coach verification.
+
+## OG-9. Doc_05 (Ecological Reconstruction): two review rounds, a genuine parish-scene
+correction against an approved document's binding instruction, and a "count vs. locus"
+verification lesson for Doc_06
+
+**Build history.** Doc_05 reconstructs this world's formation ecology around Doc_04's thirteen
+confirmed gravities, resolving a genuine ambiguity in the Construction Framework's own text
+(two different paragraphs describe Doc_05's required contents in incompatible terms — an
+eleven-item dimension list versus a five-named-lens list) by argument from the governing text
+itself, the same reading the sibling Gallic world's Doc_05 independently reached. Two
+independent review rounds followed.
+
+**Round 1** (cold, full-document) called the first draft "the strongest first draft in this
+build" but found 7 substantial findings: a fabricated quotation misattributed across two
+Doc_04 gravities; a false claim about the vendored sermons' sidenotes used to license a form of
+address in three of four inhabited passages; one inhabited passage that expanded the single
+household scene Doc_02 §10 explicitly marks "do not expand it," by transposing a filtered,
+Contested table-talk exchange between the founder and his wife into a generic household's own
+speech; one inhabited passage that was a categorical violation of Doc_02 §14's binding
+instruction ("may not reconstruct parish practice at all"), compounded by privileged
+forty-years-later testimony placed in an anonymous speaker's mouth and an undisclosed
+six-date chronological composite; one of the five named ecology lenses carrying no forces
+integration at all, contrary to the Forces Framework's explicit per-lens requirement; an
+editorial bibliographical datum used twice as documented fact with an unsourced added claim;
+and a deferred-gravity test (re-testing one of Doc_04's own open items, the "prayer" fold, on
+newly-read evidence) that decided its decisive test against an undeclared, stricter-than-
+Framework criterion. All seven fixed at Revision 1, including cutting the parish-scene passage
+entirely rather than attempting to rebuild it as a labelled claim — the build thread's own
+judgment that reading Doc_02 §14's bar as satisfied by a label would be a reinterpretation of
+an approved document's binding instruction, not a Doc_05 drafting choice, and therefore not
+something to decide unilaterally even under full-auto discretion.
+
+**Round 2** (targeted recheck) returned **Cleared Review** — zero substantial findings, every
+one of the seven independently re-verified discharged at source rather than from the
+document's own log, including an exhaustive (not sampled) sweep confirming no trace of the cut
+passage survived anywhere and every live cross-reference was updated. Seven small cosmetic
+findings remained, two of which shared a specific, named pattern worth carrying forward: a
+Round 1 finding whose evidence was a *count* (how many paragraphs, how many files in a
+directory) rather than a *citable locus* was applied from the review's own stated number rather
+than independently re-derived, and in both cases Round 1's own count was itself slightly wrong.
+Both were fixed at Revision 2 by direct re-derivation from source, not by trusting either
+review's arithmetic — the same "verify the count, not just the locus" lesson Doc_04's own
+build history (S9, the "Brussels friars" residue) already illustrated in a different shape.
+
+**Doc_05 is self-disposed APPROVED TO PROCEED**, two independent review rounds and two
+revisions after the first draft, no escalation category applying at either round.
+
+**Open items seeded from Doc_05 §13, entered here per that section's own instruction:**
+1. The G4 divergence (Doc_04 §10 item 1) — unchanged; the constraint on every "did" in Doc_05.
+2. G10's inverse divergence and untagged confidence (Doc_04 §10 item 3) — carried.
+3. G6's coverage gap (Doc_04 §10 item 4) — carried; LC 3195–3196's "riot" left unnamed.
+4. **The prayer fold, tested and resolved as input:** Doc_04's owner should annotate §2.2's
+   fold destination to add G3 and G5, and may lower the "most likely to be wrong" flag.
+5. The seedbed question (Doc_04 §10 item 7) — carried unchanged; unanswerable from this library.
+6. Period-boundness (Doc_04 §10 item 9) — Doc_05 is a 1517–1545 document and says so throughout.
+7. Women's presence (Doc_04 §10 item 10) — discharged within Article 20's limits with three new
+   traces from the Sermons; the Facilitator hand-off is to be delivered directly.
+8. The hymnody fold (Doc_04 §10 item 12) — input delivered, not applied; a coverage gap of
+   Doc_05's own noted alongside it (no hymn text itself was read this pass, Hy 1258 ff.).
+9. Two translators' hands newly found in the hymns file (Winkworth, Massie) — for the Registry
+   owner (proposed R27/R28 extensions).
+10. Registry Verification-Note extensions proposed for R15, R25, R31 — for the Registry owner,
+    under the append-only discipline.
+11. Doc_03 extensions proposed (9.2's *Bekoerunge* gloss; 9.5's now-readable LC evidence base;
+    8.8's now-read Sermons; 7.5's added loci) — for Doc_06; not applied to the approved Doc_03.
+12. The 1532 drought assembly (TT 3157–3161) — a Doc_09 seed, Tier 2, not read past 3161.
+13. An economic force in the world's own voice (LC 3535–3541, bad coin and prices) — for
+    Doc_08's Layer 2 under an existing cell; no new force code.
+14. AC Articles I and III (unread) — the movement's confessed Christology and pneumatology are
+    absent from Doc_05's Representative Theological Patterns for that reason — for Doc_06.
+15. Four dimensions confirmed seriously under-weighted relative to probable ecology and not
+    raisable from this library: the parish's Sunday, the pastor's own voice, hymnody as sung,
+    and the Reformed boundary — for the source-research thread (R59, R51–R52, a tune-bearing
+    hymnal edition).
+16. **The inline revision-history annotation volume** — the same open, undecided question OG-8
+    item 9 already logs for Doc_04, now also true of Doc_05. Not decided by this entry.
