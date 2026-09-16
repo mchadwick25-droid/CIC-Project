@@ -4,7 +4,7 @@
 
 **This copy is filed inside `lpc`'s build folder because that is this build thread's write scope.** It is portfolio-level guidance and **should also be filed portfolio-level** — `world-build-docs/_cross-world/` is the likely home — but placing it there is a coach-thread or project-lead action, not a build thread's.
 
-**What it does not do, in its own words:** it is *"Advisory precedent … Not a Constitution amendment and not a ruling that closes the open question."* **The Article 3 question — whether a formation-type may recur across a temporal gap with a rival claimant contesting the interval — remains open at portfolio level and still needs the project lead's ruling.** This precedent records what worked once that loop was closed for `lpc`; it does not close it.
+**What it does not do, in its own words:** it is *"Advisory precedent … Not a Constitution amendment and not a ruling that closes the open question."* **The Article 3 question this document declined to close is now closed.** **CLOSED 2026-09-16 by the project lead's ruling** — `lpc_Decision_Log.md`, entry *"Article 3 permits gapped formation-types, and the test is adopted"*, which is the ruling of record. The ruling adopts, as its own test, the rule this document states at §3. What follows is the advisory precedent as received, unchanged; its §1 records the question as it stood before the ruling. **The question — whether a formation-type may recur across a temporal gap with a rival claimant contesting the interval — formerly remains open at portfolio level and still needs the project lead's ruling.** This precedent records what worked once that loop was closed for `lpc`; it does not close it.
 
 ---
 
@@ -42,4 +42,4 @@ Candidate 5 (conciliar authority) structurally needed the gap bridged. One attes
 2. Build the coherence argument only from candidates independently attested on both sides.
 3. Substitute phase testing for cross-strand testing; flag phase-bound candidates and exclude them from the coherence argument.
 4. If a candidate's Persistence comes back thin-but-real, classify it as the tests actually return and **stop there**. Don't reach for a neighbouring world's home-territory sources to bridge it.
-5. If *no* candidate can carry the coherence argument without the gap being treated as bridged, flag it as a possible Article 3 boundary case and escalate — that is what the open question at §1 would be testing.
+5. If *no* candidate can carry the coherence argument without the gap being treated as bridged, flag it as a possible Article 3 boundary case and escalate — that is limb 3 of the adopted test, the bridging disqualifier.

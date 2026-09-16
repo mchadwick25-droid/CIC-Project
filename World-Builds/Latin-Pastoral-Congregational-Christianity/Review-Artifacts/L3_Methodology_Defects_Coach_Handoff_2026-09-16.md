@@ -63,6 +63,23 @@ Files: `L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx`, `L3B-World-B
 
 ---
 
+## 4. A portfolio-level ruling filed inside one world's build folder — and the portfolio record it supersedes
+
+**Added 2026-09-16, after the original three.** Not a defect in a governing file: a ruling that belongs in one and is currently nowhere near it.
+
+**The project lead ruled on 2026-09-16** that Article 3 permits gapped formation-types, and adopted a four-limb methodological test (both-sides independence; phase testing substituting for cross-strand testing; the bridging disqualifier; the interval disclosed rather than filled). The ruling's own closing words: *"This ruling is portfolio-level and binds every gapped candidate… and belongs in the build methodology rather than in the Constitution."*
+
+**It is recorded at `World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md`, which is one world's log.** A build thread cannot file it anywhere else. **A ruling that binds every gapped candidate, filed only inside the first world that needed it, will be re-derived by the second** — which is the failure this handoff exists to stop.
+
+**Two actions, neither available to a build thread:**
+
+1. **File the ruling and its test in the build methodology**, where a world reaching Step 0 or Step 1 will meet it. `lpc_Gapped_Formation_Precedent.md` records `world-build-docs/_cross-world/` as the likely home for its own advisory text; the ruling has a stronger claim to a methodology file than the precedent does, because it is a standard rather than advice.
+2. **Supersede the portfolio Step 0 Conclusion's own entry.** `CiC_Step0_Conclusion_FINAL_v2.docx` still logs this under *"Constitutional ambiguity flagged, not resolved"* — *"Article 3 … does not define whether a formation-type may recur across a temporal gap with a rival claimant contesting the interval."* **That is now resolved and the portfolio record still says it is not.** Until it is updated, the portfolio's own screening document contradicts a standing ruling.
+
+**What does not need doing:** no Constitution amendment. The ruling turns on Article 3's own line — *"Boundary governance belongs constitutionally. Boundary evaluation belongs methodologically"* — so Article 3 already delegates this, and amending it would take back a delegation it deliberately makes.
+
+---
+
 ## What a build thread already did, so it is not redone
 
 All three are disclosed as open portfolio items in `lpc`'s own record — Doc_05 §11 item 15, Doc_06 §5 item 8, Doc_07 §8 item 4, Doc_08's escalation assessment, and `lpc_World_Profile.md`'s Disposition and Section 11 outstanding item 7. `lpc` conforms to both existing rulings (Boundary Structures canonical; nine lenses). **No `lpc` document is waiting on these** — they are carried, not blocking. What is blocked is every world that has not yet reached these steps.

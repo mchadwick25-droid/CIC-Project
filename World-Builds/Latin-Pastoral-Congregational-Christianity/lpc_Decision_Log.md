@@ -1830,3 +1830,29 @@ Applied by a fresh thread on the instruction that the failure mode to avoid was 
 - **Nothing is wrong in the files.** The edits are correct and verified; only the commit's attribution is wrong. History is pushed and is not being rewritten to fix a label.
 - **Where the work actually is:** `86c3e73a` — `Doc_01`, `Doc_03`, `Doc_05`, `Doc_06`, `Doc_07` and `Datus_Portrait_Prompt.md`, plus the Decision Log entries. `c981f773` is its one-word tail.
 - **Verified by:** `Review-Artifacts/Doc01_Correction_Verification_Round3_2026-09-16.md`, LOW-1, which caught it by reading the commits rather than the reports.
+
+### 2026-09-16 — Project lead's ruling: Article 3 permits gapped formation-types, and the test is adopted
+
+**Adopted by the project lead in this build thread's own conversation, 2026-09-16, on the draft prepared at `Review-Artifacts/Article3_Gapped_Formation_Ruling_Prepared_2026-09-16.md`.** Instruction: *"adopt the draft ruling."* **This is the ruling of record and this entry is its source; no other document restates it.**
+
+> **Article 3 and gapped formation-types — ruling, 2026-09-16.**
+>
+> Article 3 does not require continuous or unbroken community existence, and nothing in the Constitution imposes that requirement. Article 3 requires **sufficient historical coherence, ecological distinctiveness and evidential support**, and it assigns boundary **evaluation** to methodology while retaining boundary **governance** constitutionally.
+>
+> **A formation-type may therefore recur across a temporal gap, including where a rival claimant contests the interval, provided its coherence is established by the following test**, adopted as the methodological standard Article 3 delegates:
+>
+> 1. **Both-sides independence.** The coherence argument must rest on candidates independently well-attested on each side of the gap. Each side must stand on its own evidence.
+> 2. **Phase testing substitutes for cross-strand testing.** Every candidate is tested independently in each phase. Anything attested in only one phase is flagged phase-bound and excluded from the coherence argument.
+> 3. **The bridging disqualifier.** If the coherence argument works **only** by treating the gap as bridged, the world is **not** one formation-type. Demonstrated crossings may corroborate coherence; they may not constitute it.
+> 4. **The interval is disclosed, not filled.** A rival claimant occupying the interval is named, and its material is not drawn on to supply the gapped world's own content.
+>
+> **Applied to `lpc`:** the test is met. Doc_01 §5's strand-singular finding rests on two independent demonstrations; G2 and G8 are excluded as phase-bound; the two demonstrated crossings and the same-office congregational pattern corroborate without carrying the argument. **`lpc` is one formation world.**
+>
+> This ruling is portfolio-level and binds every gapped candidate. It amends no Constitution article; it states the methodological standard Article 3 already delegates, and belongs in the build methodology rather than in the Constitution.
+
+**Two source-level consequences, recorded so this is not re-litigated per world.**
+
+1. **The ruling is portfolio-level and this log is not a portfolio-level file.** `lpc_Gapped_Formation_Precedent.md` already records that it *"should also be filed portfolio-level — `world-build-docs/_cross-world/` is the likely home — but placing it there is a coach-thread or project-lead act."* The same is now true of the ruling itself, and more sharply: a ruling that binds every gapped candidate, filed only inside one world's build folder, **will be re-derived by the next world that needs it.** Added as a fourth item to `Review-Artifacts/L3_Methodology_Defects_Coach_Handoff_2026-09-16.md`.
+2. **The portfolio Step 0 Conclusion still logs this as "Constitutional ambiguity flagged, not resolved."** That entry is now superseded and a build thread cannot edit it. Also routed in the handoff.
+
+**What changes inside `lpc`:** nothing substantive. Doc_01 §5's Article 3 argument was already correct and is ratified, not revised. What closes is the constitutional question standing behind it. Documents that carried the question as open now point at this entry rather than restating its status.
