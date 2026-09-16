@@ -2,11 +2,12 @@
 
 Full text of editions this build's quote records cite, committed so that
 wording can be verified *reproducibly* -- by any session, at any time,
-without network access. That matters here for a specific reason: the
-sandbox this project's agents run in blocks every patristic text host
-(ccel.org, newadvent.org, wikisource, archive.org, gutenberg, tertullian.org),
-so before these files existed a quote record could not be verified at all
-and `gate_quote_fidelity_recording` had nothing honest to record.
+without network access. That is the whole point of keeping the copy.
+Which text hosts an agent can reach is set by the environment's network
+policy; it differs between environments and changes without notice, so it
+is tested when a text is acquired and never assumed by a check downstream.
+Against a vendored file `gate_quote_fidelity_recording` has something
+honest to record whatever the network is doing.
 
 **This file is GENERATED, not hand-edited** -- run
 `python cic/engine/texts_registry.py --write-readme` after vendoring a new

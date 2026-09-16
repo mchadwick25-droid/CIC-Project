@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """The vendored-text registry - what's sitting in cic/texts/, verified, not asserted.
 
-WHY. Vendoring CCEL's public-domain volumes solved a real, total blocker this
-session hit repeatedly: every patristic text host (ccel.org, newadvent.org,
-wikisource, archive.org, gutenberg.org, tertullian.org) is blocked by this
-sandbox's egress policy, so without a local copy no quote could be verified
-at all - Check B's whole grounding claim (`verified-direct`) had nothing to
-stand on. Vendoring fixed that. But by the time this registry was built,
+WHY. A quote record is worth only as much as the ability to re-read the
+passage it cites, and that has to hold for any session at any time - not only
+for one that happens to reach a text host. Which hosts an agent can reach is
+set by the environment's own network policy: it differs between environments
+and changes without notice, so it is tested at acquisition time and never
+assumed by a check downstream. A vendored copy removes the question, which is
+what Check B's grounding claim (`verified-direct`) needs in order to mean
+anything at all. But by the time this registry was built,
 10 volumes (38MB) were already sitting in cic/texts/ with only 3 ever linked
 to a record that cites them - a real, measured fact (found 2026-08-15 by
 hand-grepping, the trigger for building this) with no earlier structure that
@@ -386,11 +388,12 @@ def write_readme() -> int:
         "",
         "Full text of editions this build's quote records cite, committed so that",
         "wording can be verified *reproducibly* -- by any session, at any time,",
-        "without network access. That matters here for a specific reason: the",
-        "sandbox this project's agents run in blocks every patristic text host",
-        "(ccel.org, newadvent.org, wikisource, archive.org, gutenberg, tertullian.org),",
-        "so before these files existed a quote record could not be verified at all",
-        "and `gate_quote_fidelity_recording` had nothing honest to record.",
+        "without network access. That is the whole point of keeping the copy.",
+        "Which text hosts an agent can reach is set by the environment's network",
+        "policy; it differs between environments and changes without notice, so it",
+        "is tested when a text is acquired and never assumed by a check downstream.",
+        "Against a vendored file `gate_quote_fidelity_recording` has something",
+        "honest to record whatever the network is doing.",
         "",
         "**This file is GENERATED, not hand-edited** -- run",
         "`python cic/engine/texts_registry.py --write-readme` after vendoring a new",
