@@ -45,7 +45,7 @@ five Doc02_Review_RoundN.md files first.**
 
 ## OG-2. Doc_03: ~40 inline "corrected, Round N Sx/Nx"-style change-history markers — deferred cleanup, needed before disposition
 
-**Status: OPEN, blocking Doc_03's eventual "Approved to proceed," not blocking its current DRAFT status.**
+**Status: OPEN, blocking Doc_03's eventual "Approved to proceed," not blocking its current DRAFT status. Count corrected 2026-09-16, per Doc_03 Round 7's observation N7-1: this entry's own "~40" headline, accurate at Round 3, is now materially stale. Round 7's count of inline references carrying a finding number returned 92, distributed roughly 30/8/12/11/13/15 across Rounds 1–6 (Round 7's own fixes, not yet counted, will add more). The deferral's own body already predicted this ("the deferral itself is accreting round over round, not static"); the prediction has held. Not re-litigated as a defect — still a disclosed, deliberate deferral — but the true count going forward should be read as "now approaching 100," not "~40," until the cleanup itself is done.**
 
 Doc_03 (Lexicon Candidate List) has gone through three review rounds (Round 1: 14
 substantial + 10 cosmetic; Round 2, a targeted recheck: 5 substantial + 3 cosmetic; Round
@@ -150,3 +150,48 @@ need re-deriving a third time — only the reconciliation across locations is un
 **Also relevant, not itself part of this escalation:** OG-2 (the ~40 inline review-history
 markers) remains a separate, already-disclosed precondition on Doc_03 reaching "Approved to
 proceed," unaffected by this entry.
+
+## OG-6. Doc_03: an unresolved classification question — does a structural mislabeling found at Round 7 belong to the class escalated at OG-5?
+
+**Status: OPEN, carried to Round 8 for independent re-confirmation — not self-certified either way by the build thread.**
+
+Doc_03's Round 7 review (`witt_Doc03_Review_Round7.md`, 2026-09-16) found, among six findings running
+in the same coverage-understatement direction Round 6 reported, one finding running the
+opposite way: §13's discovery table labelled the declared read range v3 12100–12440
+"Secular Authority II–IV," a label the reviewer could not reconcile with the vendored file —
+Part Two of the treatise begins at 13133, Part Three at 13811, there is no Part Four, and the
+declared range sits entirely inside the unlabelled Part One. The review corrected nothing
+itself (reviews do not edit); it flagged the fact and explicitly declined to rule on whether
+this label error is an instance of the "read in full"/"now read" overclaim class escalated to
+the project lead at OG-5 and resolved by the direction "go with option 1" — stating plainly
+that the determination "needs independent re-confirmation, not a build-thread ruling."
+
+**What Revision 7 did and did not do.** The mislabeling itself was corrected directly (it is a
+factual error regardless of its classification): §13's v3 row now reads "Secular Authority,
+Part One only," and §11 items 2 and 8, which had compounded the error by calling the unread
+remainder "the third part on the limits of obedience" (the part on limits is actually Part
+Two), were corrected to name both unread parts correctly. **What Revision 7 did not do is rule
+on whether the original mislabeling counts as a sixth recurrence of OG-5's class.** Per this
+project's own governance rule that a blocking review finding cannot be closed by
+self-certification, and per the review's own explicit refusal to make that call, the build
+thread is not the right body to decide this by simply asserting an answer into the document —
+doing so either way (reopening OG-5 on one construction's say-so, or reaffirming it closed on
+the other's) would repeat exactly the failure this rule exists to prevent.
+
+**Why this is not (yet) escalated to the project lead the way OG-5 was.** OG-5 was escalated
+after five independent review rounds each confirmed a live instance of the same claim type, at
+a threshold set explicitly and in advance. This is a single round's flagged uncertainty about
+whether one new finding belongs to that class — a question of classification, not a sixth
+confirmed instance of the class itself. The pipeline's own mechanism for resolving exactly this
+kind of question already exists and already worked once: Round 6 was commissioned with the
+explicit, first-class task of testing whether the escalated class recurred after Revision 5's
+reconciliation pass, and it closed that question cleanly. Round 8 has been commissioned the
+same way, with resolving this question as its first listed task (see Doc_03 §13's "Review
+requirement" line, Revision 7). If Round 8 independently confirms the mislabeling is an
+instance of the escalated class, or if a further round cannot close the question, that is the
+point at which this entry's status changes to escalated, per CO-022's fourth category
+("unresolved tensions the pipeline can't close on its own") — not before.
+
+**Nothing evidentiary is at risk either way.** As at every round since Round 3, no citation
+anywhere in Doc_03 depends on the material this finding concerns; every locus drawn from v3
+12100–12440 is genuinely inside Part One and correctly quoted.
