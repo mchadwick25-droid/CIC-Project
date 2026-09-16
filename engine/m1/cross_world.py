@@ -91,6 +91,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     "app-world-assets/don": "Record-native compilation, 2026-09-10: Phase C deployment wiring (app/world_manifest.py, WORLD_ASSETS, frontend hand-sync points) was never in scope for the record-native compile (Phase B) this entry covers - it is the next, separate phase per reference/method/CiC_Record_Native_World_Build_Process_V1_3.md SS4, and belongs to whoever picks up Donatism's own go-live work.",
     "app-world-order/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
     "site-portrait/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - the traditions/donatism.html portrait page is deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
+    "census-id/don": "don ADMITTED 2026-09-16 (records/WORLDS_REGISTRY_LOG.md ## don) but not yet synced to world-census.json as 'Built & Live' - the same real, structurally expected admitted-but-not-open gap gallic's own census-id/gallic entry named during its 2026-09-12/13 window (now closed, once gallic actually went live). Census sync is pipeline step 7, gated on the `admitted` -> `open` registry flip (step 8), which is a separate, later project-lead call not made at admission time - not a build-thread task to close now.",
 }
 
 

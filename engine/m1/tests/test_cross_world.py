@@ -31,14 +31,23 @@ def test_the_desert_deep_link_defect_is_caught():
     formation world, so its Atlas deep link could never match and every
     'Launch an Interview' click fell through to the world list. Reproduced
     against the real census file, not a fixture, because the check's whole
-    claim is about those two files agreeing."""
+    claim is about those two files agreeing.
+
+    The real registry can legitimately carry its OWN census-link findings
+    (e.g. census-id/don, ACCEPTED_OPEN since don's 2026-09-16 admission -
+    a world admitted but not yet census-synced is a real, disclosed,
+    structurally expected gap, the same one gallic's own now-closed
+    census-id/gallic entry named) - this test only asserts that nothing
+    UNDOCUMENTED slips through, same filter test_the_fleet_carries_no_
+    undocumented_drift already applies fleet-wide."""
     registry = cross_world.load_registry()
     worlds = cross_world.formation_world_keys(registry)
     broken = {**registry, "desert": {**registry["desert"], "census_id": None}}
     keys = {f.key for f in cross_world.check_census_link(registry=broken, worlds=worlds)}
     assert "census-id/desert" in keys
     assert "census-orphan/desert-monasticism" in keys
-    assert not {f.key for f in cross_world.check_census_link(registry=registry, worlds=worlds)}
+    live_keys = {f.key for f in cross_world.check_census_link(registry=registry, worlds=worlds)}
+    assert live_keys <= set(cross_world.ACCEPTED_OPEN)
 
 
 def test_a_world_addressing_a_record_type_its_own_way_is_caught():

@@ -786,3 +786,53 @@ a registry reader needs quickly:
   cache-write / 966,519 cache-read); no $/token or $/turn figure
   quoted, per spec principle 13, until reconciled against a real AWS
   invoice.
+
+## don (Donatism)
+
+Everything about this world's own build - the `donatism-main-integration`
+merge-reconciliation, the ordinary-believer coverage pass, and every
+review round behind both - is tracked in full in `worlds/don/
+don_Decision_Log.md`; that log is the record of truth for this world's
+build, per its own established convention of using the Decision Log as
+its `Open_Gaps_Tracking.md` equivalent throughout. Nothing further is
+duplicated here except the admission fact a registry reader needs
+quickly.
+
+`representative`: Fidelis, Bishop of the Unbroken Line - carried forward
+from this world's own construction (Representative Construction Phases
+One-Seven, `worlds/don/Representative/`), Phase Seven's retrospective
+audit finding no drift toward content-volume/doctrinal-coverage framing
+across any of the six prior phases. `census_id`/`living_tradition_flag`
+(false - the one extinct formation-type in the fleet, closed in 439 with
+no living heir) were both already set at build time, unchanged by
+admission.
+
+**ADMITTED, 2026-09-16.** Mark's own word, in the Go-Live Pipeline
+Coordinator thread, in direct response to the M3 report below: "Admit
+don." M3 admission run authorized in the same thread ("Start don's
+admission read"): live Bedrock preflight confirmed cache engagement
+first (write, read, and streaming call all engaged), then the sealed
+28-probe battery ran against `us.anthropic.claude-sonnet-4-5-20250929-v1:0`
+(us-east-1), `LiveModelAnswerer`, one probe per canon cell (28/28 cells).
+**28/28 passed, 0 failing.** Report:
+`engine/m3/reports/live-admission-report-don-2026-09-16.json`. Package
+(`packages/don/2026-09-15T15-15-17Z`, `manifest_hash
+sha256:541b397a8b3288b4ceec02af2e7cd2b1e91e718feaab93a0c94b1efdd4202677`)
+restored from records first (packages are derived, not tracked in git)
+and reconfirmed non-stale by a fresh fleet `staleness-check` before the
+live run, so the battery ran against exactly what the registry pins, not
+an assumed-current copy.
+
+**Known, disclosed, not blocking:** the pre-existing `reciprocity` gate
+finding (52 one-directional `associated-with` links, confirmed unchanged
+since the 2026-09-14 ordinary-believer merge, not fleet-wide - see the
+merge-reconciliation and ordinary-believer entries in `don_Decision_Log.md`)
+is the same class of disclosed-not-blocking finding pahc and gallic
+carried into their own admissions. **Still open, not resolved by
+admission:** the Axido/Fasir Article 23 question (whether Circumcellion
+debt-relief/master-slave-reversal material may ever be built into a
+deployable record) remains reserved for the project lead, as it has been
+since Doc_09 - admission does not touch it either way.
+
+`state: admitted` in `records/worlds/don.yaml`; `admitted` -> `open` is a
+separate, later call, not made here.

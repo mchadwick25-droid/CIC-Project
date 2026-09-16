@@ -944,3 +944,17 @@ The fix (commit `59dec2a5`) went to a second, targeted Opus confirming review (`
 ---
 
 **Rebase note, 2026-09-14 (added, not editing the entry above).** `donatism-main-integration` (the renamed `donatism-lpc-integration`) merged to `main` via PR #190. Per this entry's own standing note, `donatism-ordinary-believer` is rebased onto current `main` here and opened as its own PR for the project lead's review - still not self-certified, still not merged.
+
+---
+
+## M3 admission run and ADMISSION, 2026-09-16
+
+Handled by the Go-Live Pipeline Coordinator thread, which inherited this world's remaining pipeline work per the build-cycle discipline this log has followed throughout - no build work was left (the merge-reconciliation and ordinary-believer passes above both landed on `main` via PR #190 and PR #194, and a fresh fleet `staleness-check` confirmed don's pinned package non-stale before anything below ran).
+
+**M3 admission battery, run on the project lead's explicit authorization** ("Start don's admission read"). don's package does not live in git (`packages/*/*/**` is gitignored - derived, not source), so `python -m engine.m2.cli restore don` rebuilt `packages/don/2026-09-15T15-15-17Z` from records first, byte-identical to the pinned manifest (325 files), then a fresh `staleness-check` reconfirmed it. A Bedrock preflight (`python -m engine.provider.preflight`) confirmed live-account connectivity and cache engagement on both the non-streaming and streaming paths before any billed call ran, matching spec SS7 discipline.
+
+The sealed 28-probe battery then ran against a real, live `us.anthropic.claude-sonnet-4-5-20250929-v1:0` streaming voice-generation call (`LiveModelAnswerer`, `us-east-1`), one probe per canon cell, all 28 cells covered. **28/28 passed, 0 failing.** Report: `engine/m3/reports/live-admission-report-don-2026-09-16.json`. Real token counts recorded (13,437 input / 15,843 output / 36,873 cache-write / 995,571 cache-read); no $/token or $/turn figure quoted, per spec principle 13, until reconciled against a real AWS invoice.
+
+**What this result does and doesn't cover.** The battery's own automated checks (`source_boundedness`, the register heuristic) passed on every probe with no findings; this is the same instrument the rest of the fleet was admitted on, not a stronger or weaker bar for don. It does not re-open or resolve the two items this log has carried as open since before admission: the pre-existing `reciprocity` gate finding (52 one-directional `associated-with` links, confirmed unchanged and don-specific, not fleet-wide - see the merge-reconciliation and ordinary-believer entries above) and the Axido/Fasir Article 23 question (still reserved for the project lead, untouched by this run).
+
+**Disposition: ADMITTED.** The project lead's own word, in direct response to the M3 report: "Admit don." `records/worlds/don.yaml`'s `state` field set from `built` to `admitted` - nothing else in that file touched. Recorded at fleet level in `records/WORLDS_REGISTRY_LOG.md`'s own new `## don` section. The `admitted` -> `open` flip is a separate, later project-lead call, not made here, and no Atlas/census sync or WO-1 upload was attempted as part of this entry - those follow `open`, not admission, per the pipeline's own step order.
