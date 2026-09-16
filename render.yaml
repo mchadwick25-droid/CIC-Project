@@ -54,6 +54,20 @@
 # own sync: false secrets afterward - that part stays a dashboard
 # action, same as it always was for AWS credentials.
 #
+# Object storage for compiled world packages (WO-1, 2026-09-16 -
+# engine/m4/object_storage.py, engine/m4/package_fetch.py). Cloudflare R2,
+# same account cic-website already uses - CIC_API_PACKAGE_BUCKET/
+# _ENDPOINT/_ACCESS_KEY_ID/_SECRET_ACCESS_KEY are all sync: false, unset
+# until Mark completes the one-time R2 setup in
+# Ministry/Operations/Standing/CiC_Object_Storage_Runbook.md. Until then
+# CIC_API_PACKAGE_BUCKET stays empty and every world loads exactly as it
+# always did, straight off this image's own baked-in packages/ - object
+# storage is a fallback for a world installed since the last deploy, not
+# a replacement for the baked-in set. Both services point at the SAME
+# bucket on purpose: a package proven on staging and then promoted needs
+# no second upload, it is already sitting where prod's own fetch would
+# look.
+#
 # events.db/usage.db live on the Render Disk below (CIC_API_EVENTS_DB /
 # CIC_API_USAGE_DB point at its mount), so they survive restarts and
 # redeploys. They were in-container ephemeral storage until 2026-08-28 -
@@ -113,6 +127,16 @@ services:
       # accidentally ship a guessable one.
       - key: CIC_API_ADMIN_TOKEN
         sync: false
+      - key: CIC_API_PACKAGE_CACHE_DIR
+        value: /data/packages-cache
+      - key: CIC_API_PACKAGE_BUCKET
+        sync: false
+      - key: CIC_API_PACKAGE_BUCKET_ENDPOINT
+        sync: false
+      - key: CIC_API_PACKAGE_BUCKET_ACCESS_KEY_ID
+        sync: false
+      - key: CIC_API_PACKAGE_BUCKET_SECRET_ACCESS_KEY
+        sync: false
 
   # STAGING (D3, phase 3, 2026-09-15). Deploys every push to `main` -
   # the integration sandbox - so a change is running here before it is
@@ -156,4 +180,20 @@ services:
       - key: AWS_SECRET_ACCESS_KEY
         sync: false
       - key: CIC_API_ADMIN_TOKEN
+        sync: false
+      - key: CIC_API_PACKAGE_CACHE_DIR
+        value: /data/packages-cache
+      # Same bucket as cic-engine (see this file's own top-of-file note) -
+      # same values, not a separate R2 API token. A compromised staging
+      # credential reading a bucket of already-public-ish compiled
+      # packages is a different risk shape than a compromised Bedrock
+      # key, so this one pattern doesn't need cic-engine's own "never
+      # share a credential across services" rule to apply.
+      - key: CIC_API_PACKAGE_BUCKET
+        sync: false
+      - key: CIC_API_PACKAGE_BUCKET_ENDPOINT
+        sync: false
+      - key: CIC_API_PACKAGE_BUCKET_ACCESS_KEY_ID
+        sync: false
+      - key: CIC_API_PACKAGE_BUCKET_SECRET_ACCESS_KEY
         sync: false
