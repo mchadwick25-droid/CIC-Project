@@ -478,3 +478,120 @@ revisions after the first draft, no escalation category applying at either round
     hymnal edition).
 16. **The inline revision-history annotation volume** — the same open, undecided question OG-8
     item 9 already logs for Doc_04, now also true of Doc_05. Not decided by this entry.
+
+## OG-10. Doc_06 (Full Lexicon Development): four review rounds, a recurring residue pattern
+confined entirely to repair narration, and the open items it seeds
+
+**Build history.** Doc_06 reassigns a final tier to all 72 of Doc_03's candidate terms against
+Doc_04's thirteen confirmed gravities and Doc_05's ecology (18 Tier 1 / 48 Tier 2 / 6 Tier 3,
+against Doc_03's discovery-stage 39/27/6), rules on Doc_03's two provisional [CT] tags, reads
+the Apology at the ranges OG-4 required and discharges the thirteen "Luther-only" flags it
+carried forward, and writes all 72 entries in the Deployment Lexicon Chunk Template's section
+order so Phase B can lift them. Four independent review rounds followed.
+
+**Round 1** (cold, full-document) found the central work — the tier reassignment, the Apology
+reading, the Related-Terms reciprocity computation, the master index — reproduced exactly under
+independent re-derivation, and found 5 substantial findings, all internal to the document's own
+apparatus rather than its content: a false self-check sentence in the master index claiming no
+Excluded Registry row appeared anywhere, contradicted by the index's own table (the exact
+"Gallic S5" error class the document's own checklist named); a misattributed quotation in a
+Tier 1 entry (marriage) that falsified the document's "759/759 matched" verification claim; a
+procedural argument for not adding a lexicon term that the governing Framework's own text
+directly contradicted, with a sound substantive ground available and unused; a chunk-authoring
+scoping decision that was correct and pre-agreed but framed as "a deliberate departure from
+every sibling world's practice" without citing the standing process document that actually
+authorizes it; and a [CT]-tag ruling grounded on in-text ambiguity rather than the Constitution's
+actual trigger condition (live scholarly contest within the relevant subfield). All five fixed
+at Revision 1, along with 8 cosmetic findings.
+
+**Round 2** (targeted recheck) found that two of Round 1's own repairs had introduced new small
+defects: a correction note that inverted the finding it was describing, wrongly blaming the
+approved Doc_03 for a citation error Doc_06 had made itself; and a "fixed" enumeration of
+affected entries that had been transcribed from Round 1's prose rather than re-derived from the
+entries, and undercounted (named ten where a script re-derivation found at least fifteen). Both
+were residue of the repairs, not new content defects — the tier reassignment, the Apology
+reading, the index and the reciprocity graph all re-derived cleanly again. Fixed at Revision 2
+along with 7 cosmetic findings.
+
+**Round 3** (targeted recheck) found the same shape again: one Round 2 cosmetic fix (moving two
+Registry rows' named-absence disclosures out of two entries' Key Sources fields) had only
+stripped the square brackets from the row codes, leaving the codes, labels and — in one case —
+the quotation and locus duplicated in place, the same insufficient method already used once and
+already ruled inadequate; and the document's own log falsely stated that a prior round's
+observations had already been carried into this tracker, when they had not. Per `CLAUDE.md`'s
+"No fix on a fix," the first defect was undone and redone rather than patched a third time.
+Fixed at Revision 3 along with 4 cosmetic findings, and a new §11 item was added to actually hold
+the accumulated observations rather than merely reference them.
+
+**Round 4** (targeted recheck) returned **Cleared Review** — zero substantial findings. Every
+Round 3 repair was verified by the acceptance test Round 3 itself specified (a whole-code parse
+of every entry's Key Sources field, not a reading of the disclosure prose) rather than taken on
+the document's word, and every one landed. The lexicon's own content — tier reassignment,
+72-entry set, master index, reciprocity graph, Apology discharge, quotation base, Excluded-row
+guard — re-derived exactly for the fourth consecutive round, this round additionally
+cross-verifying the [DR] tag baseline from Doc_03's own text rather than only from Doc_06's side.
+Four cosmetic findings remained, all four again confined to the disclosure narration: an
+enumerated instance-count that had now failed re-derivation three rounds running (dropped rather
+than re-guessed); a missing editorial-layer marker on a quotation an earlier round's own fix had
+relocated; an inverted direction in a restated observation; and an "appears nowhere" claim in
+the document's header that, uniquely, was not scoped to the Registry-column/Key-Sources search
+every prior round's parse had used — found only because this round ran a genuine whole-document
+grep. All four fixed at Revision 4; no fifth review round was required for a cosmetic-only
+disposition.
+
+**The pattern across all four rounds, stated once because it is the build's own finding, not
+just this entry's summary:** every substantial finding from Round 2 onward, and nearly every
+cosmetic finding at every round, lived in the prose that narrates the document's own repair
+history — the inline "(corrected this revision, Round N finding X)" parentheticals and the
+review-requirement/log sections — never in the lexicon content itself, which four independent
+cold reviewers, each writing their own verification checkers from scratch, re-derived exactly
+every single time. This is the same pattern Doc_03 resolved at its own Revision 11 (OG-2) by
+stripping the inline annotation layer entirely and restating every fact it carried as a plain
+current statement, confirmed by script that nothing substantive changed — and it is the fourth
+document in this build (after Doc_03, Doc_04, Doc_05) to carry the same open question, now with
+OG-2's own resolution as the obvious, already-worked template. **Not decided by this entry** —
+it is a fleet-level convention question, not a single document's to resolve unilaterally — but
+the measurable cost of leaving it undecided has been three consecutive review rounds whose
+findings were almost entirely inside the deferred material.
+
+**Doc_06 is self-disposed APPROVED TO PROCEED**, four independent review rounds and four
+revisions after the first draft, no escalation category applying at any round.
+
+**Open items seeded from Doc_06 §11, entered here per that section's own item 13:**
+1. The two [CT] tags (2.2 justification, 7.1 two governments) remain provisional: no Registry
+   row exists for either contest; leads proposed from prior knowledge, flagged for
+   second-opinion review under R72/R82's existing convention. Rule for Phase B: a tag reaches a
+   deployment chunk only once a row exists, or is removed and the tension carried in Distortion
+   Risk instead — for the Registry owner and Phase B.
+2. G13 ("hearers and repeaters of words") has no lexicon term of its own; a Tier 2 candidate is
+   proposed for a Doc_03 revision or for Phase B, carrying Doc_04 §3 G13's bar against ever being
+   read as evidence of any congregation's state — for Doc_03's owner / Phase B.
+3. Original-language (German/Latin) verification remains undischarged and cannot be discharged
+   from this library; no period edition or lexicon is rowed — for the source-research thread and
+   the Registry owner.
+4. Apology coverage remains partial: Article VI (Confession and Satisfaction, the article
+   bearing most on 1.4 satisfaction and 5.10 confession) and several others are unread; saturation
+   is not claimed — for a later pass.
+5. No hymn text beyond four openings has been read anywhere in this build; 4.9 hymn is Tier 1
+   with that weakness disclosed. Reading the thirty-six texts is the most direct way to
+   strengthen the one promoted entry — for Doc_07 or a later pass.
+6. The closest tier calls, named for review: 6.4 calling and 6.7 pope/Antichrist (demoted), 5.2
+   baptism (demoted), 4.9 hymn (the one Tier 1 promotion), and 1.2/2.2 kept as two heads for G5
+   and G1 beside their gravity-named heads — a reviewer may hold the stricter one-head-per-
+   gravity reading of Framework [121].
+7. 1.1's Tier 1 demotion reads Doc_04 §2.2's "Logged for Doc_06 as a Tier 1 entry regardless" as
+   permission rather than instruction — worth a confirmation from Doc_04's owner.
+8. The alias-field deferral to Phase B sits against `CiC_Record_Native_World_Build_Process_V1_3.md`
+   §2 Step 3's "from birth so no retrofit is ever needed" instruction; not this document's error,
+   but the two facts are not connected anywhere — for whoever authors Phase B's records.
+9. **The inline revision-history annotation volume** — the same open, undecided question OG-2
+   resolved for Doc_03 and OG-8 item 9 / OG-9 item 16 log for Doc_04/Doc_05, now a four-document
+   pattern with a worked precedent (OG-2) available. Not decided by this entry.
+10. §0 Discipline 1's quotation of `CiC_Record_Native_World_Build_Process_V1_3.md` ("this is where
+    a record-native build departs from the six worlds' history") is attached to the B-8 statement,
+    but in the source file the sentence's own subject is conversion timing, not chunk generation;
+    the substantive claim survives independently on B-8's own text — worth a half-sentence fix at
+    a later revision, not urgent.
+11. Two of §4's per-entry Apology loci (9.2, 8.8) differ in extent from those entries' own AG
+    lines (narrower at 9.2, wider at 8.8); both sit inside ranges already declared read, nothing
+    uncited — recorded so a future re-derivation does not read it as fresh drift.
