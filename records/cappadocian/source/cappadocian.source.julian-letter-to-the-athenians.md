@@ -17,6 +17,7 @@ relations: []
 author: Julian (Roman emperor, 'the Apostate')
 work: Julian, the Letter to the Athenians
 edition: Wright's 1913 translation, vendored as cic/texts/julian_letter-to-the-athenians_wright1913.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and independently verified (identity, completeness,
   provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9).
 attribution_status: attributed

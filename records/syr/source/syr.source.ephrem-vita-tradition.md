@@ -20,6 +20,7 @@ work: 'The later Ephrem-memory dossier: Jacob of Serug''s metrical homily (memra
   Vita Ephraemi - the sixth-century reception layer (the choir-founding tradition; the Basil-meeting legend)'
 edition: 'consultation-only: Joseph Amar''s editions (the memra in Patrologia Orientalis 47.1, 1995; the
   Vita tradition in CSCO 629-630, 2011) - in copyright, never vendored, never quoted verbatim'
+kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: sixth-century reception material about this world's figures, composed by its successor
   community - OUTSIDE the 200-410 window by design; licensed only for told-as-later-memory story records,

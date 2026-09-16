@@ -19,6 +19,7 @@ work: '''Bardaisan of Edessa: Philosopher or Theologian?'', Zeitschrift fuer Ant
   of pre-existent elements plausibly entails, and he argued exegetically for, the soul''s purification
   apart from bodily resurrection'
 edition: consultation-only; no edition vendored
+kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: verified as a genuine Bardaisan/Ephrem specialist (legacy Doc_02 SS4); the load-bearing
   modern reconstruction behind the A2 determination

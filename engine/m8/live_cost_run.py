@@ -27,8 +27,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-import yaml
-
+from engine.m1.registry import load_registry
 from engine.m4.turn import run_turn
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import PriceTable, dollars_per_hour, estimate_cost
@@ -37,7 +36,6 @@ from engine.m8.summary import summarize_session
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-WORLDS_YAML = REPO_ROOT / "records" / "worlds.yaml"
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "live-cost-report.json"
 
 PRICE_TABLE_SOURCE = (
@@ -76,7 +74,7 @@ def _price_for_call_kind(call_kind: str) -> PriceTable:
 
 
 def run(region: str) -> dict:
-    registry = yaml.safe_load(WORLDS_YAML.read_text(encoding="utf-8"))
+    registry = load_registry()
     loader = LazyWorldLoader()
     voice_model_id = resolve_model_id("us.anthropic.claude-sonnet-4-5", region)
     safety_model_id = resolve_model_id("us.anthropic.claude-haiku-4-5", region)
@@ -87,7 +85,7 @@ def run(region: str) -> dict:
         per_world = {}
 
         for world_key in WORLD_KEYS:
-            entry = registry["worlds"][world_key]
+            entry = registry[world_key]
             world, _timing = loader.load(
                 world_key, package_dir=REPO_ROOT / entry["package"]["location"], expected_manifest_hash=entry["package"]["manifest_hash"]
             )

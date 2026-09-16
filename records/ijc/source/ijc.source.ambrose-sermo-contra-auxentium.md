@@ -16,6 +16,7 @@ sources: []
 author: "Ambrose of Milan (c. 339-397, bishop 374-397)"
 work: "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it"
 edition: "trans. H. de Romestin, Nicene and Post-Nicene Fathers series 2 vol. 10 (1896), vendored as cic/texts/npnf210_ambrose-select-works-letters.xml"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf210-ambrose); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"

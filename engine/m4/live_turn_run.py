@@ -11,16 +11,14 @@ import json
 import sys
 from pathlib import Path
 
-import yaml
-
 from engine.api.wiring import history_from_transcript
+from engine.m1.registry import load_registry
 from engine.m4.turn import run_turn
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.usage import SYSTEM_SESSION_ID
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-WORLDS_YAML = REPO_ROOT / "records" / "worlds.yaml"
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "live-turn-report.json"
 
 # A formation-world run writes beside the fixture report rather than over it:
@@ -60,8 +58,8 @@ def run(region: str, *, world_key: str = "fix", messages: list[str] | None = Non
     and --message to put a real question to a real package instead; the
     scenarios above are fixture-shaped (they name Jesus, and two of them are
     crisis probes) and are not what you want against a built world."""
-    registry = yaml.safe_load(WORLDS_YAML.read_text(encoding="utf-8"))
-    entry = registry["worlds"][world_key]
+    registry = load_registry()
+    entry = registry[world_key]
     loader = LazyWorldLoader()
     world, _timing = loader.load(
         world_key, package_dir=REPO_ROOT / entry["package"]["location"], expected_manifest_hash=entry["package"]["manifest_hash"]

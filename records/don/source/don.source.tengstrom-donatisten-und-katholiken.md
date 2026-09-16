@@ -22,6 +22,7 @@ author: Emin Tengstrom
 work: 'Donatisten und Katholiken: soziale, wirtschaftliche und politische Aspekte einer nordafrikanischen
   Kirchenspaltung (Goteborg: Elanders, 1964)'
 edition: Elanders, 1964 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)
+kind: unvendored
 rights_status: in-copyright modern scholarship; consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3). Cited and paraphrased by this build, never quoted as licensed vendored material. Bibliographic
   record only -- the volume itself was not opened by this compilation pass.

@@ -19,6 +19,7 @@ author: 'Jerome (c. 347-420 CE) - NOT an Alexandrian voice: a Latin secondary wi
 work: De viris illustribus (Lives of Illustrious Men, 392/3 CE) - used ONLY as figure testimonia (dates,
   works-lists, succession notices), never as in-world voice
 edition: trans. Ernest Cushing Richardson, NPNF series 2 vol. 3 (1892), vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: identified at step 3 as the carrier of primary figure-date attestations (Pantaenus

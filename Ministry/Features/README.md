@@ -3,7 +3,7 @@
 One folder per in-development, not-yet-core-app feature. Each folder holds
 everything about that feature — design, decision log, launch prompts, exploration
 code references — until a deliberate, logged step merges it into `cic-poc/`,
-`cic-website/`, or `World-Builds/`. Check a feature's own `Integration-Notes.md` for
+`cic-website/`, or `worlds/`. Check a feature's own `Integration-Notes.md` for
 exactly what has and hasn't crossed that line.
 
 | Feature | Status |

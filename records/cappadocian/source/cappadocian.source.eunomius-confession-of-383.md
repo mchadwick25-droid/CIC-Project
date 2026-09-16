@@ -18,6 +18,7 @@ author: Eunomius of Cyzicus
 work: Eunomius, the confession of 383
 edition: Not independently located as a vendored text this session; named for completeness per Doc_02
   SS1.5/Doc_01 SS4's mention that it 'survives independently'
+kind: unvendored
 rights_status: not independently verified this session; row not yet acquired as an open text -- named
   for completeness per the Source Registry's own checkpoint rule (every source a Doc_02 claim rests on
   gets a row, acquired or not).

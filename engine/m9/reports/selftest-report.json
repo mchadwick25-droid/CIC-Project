@@ -1,0 +1,98 @@
+{
+  "stage": "M9-increment-3",
+  "world": "fix",
+  "baseline_clean_fixture": {
+    "pass": true,
+    "findings_by_check": {}
+  },
+  "defects": [
+    {
+      "id": "m9-source-kind-missing-kind",
+      "gate": "source-kind",
+      "status": "caught",
+      "findings": [
+        "fix.source.witness-scroll: no kind set (vendored | unvendored | absence)"
+      ]
+    },
+    {
+      "id": "m9-shelf-row-dangling",
+      "gate": "shelf-row",
+      "status": "caught",
+      "findings": [
+        "fix.source.witness-scroll: shelf_row 'fixture-synthetic--does-not-exist' does not resolve to a row on this world's shelf"
+      ]
+    },
+    {
+      "id": "m9-emic-vendored-only-cites-absence",
+      "gate": "emic-vendored-only",
+      "status": "caught",
+      "findings": [
+        "fix.ambient.daily-bread: cites 'fix.source.lost-letters-absence', whose kind is 'absence' - an emic record may not ground itself in it"
+      ]
+    },
+    {
+      "id": "m9-absence-probe-false-claim",
+      "gate": "absence-probe",
+      "status": "caught",
+      "findings": [
+        "fix.source.lost-letters-absence: absence_probes entry 'I did not see him' DOES window-match in cic/texts/fixture-synthetic_witness-scroll.txt - the claimed absence is false"
+      ]
+    },
+    {
+      "id": "m9-verbatim-in-shelf-invented-text",
+      "gate": "verbatim-in-shelf",
+      "status": "caught",
+      "findings": [
+        "fix.quote.witness-saying: license is 'verbatim' but its text does not window-match in any file on this world's shelf"
+      ]
+    },
+    {
+      "id": "m9-voicing-pair-exchange-not-confirmed",
+      "gate": "voicing-pair",
+      "status": "caught",
+      "findings": [
+        "fix.ambient.daily-bread: cites 'fix.source.secondary-summary'; the pair is mutual-awareness but the row's own documented_exchange is 'not-confirmed', not confirmed",
+        "fix.quote.private-teaching: cites 'fix.source.secondary-summary'; the pair is mutual-awareness but the row's own documented_exchange is 'not-confirmed', not confirmed",
+        "fix.term.the-way: cites 'fix.source.secondary-summary'; the pair is mutual-awareness but the row's own documented_exchange is 'not-confirmed', not confirmed"
+      ]
+    },
+    {
+      "id": "m9-voicing-pair-relation-flipped",
+      "gate": "voicing-pair",
+      "status": "caught",
+      "findings": [
+        "fix.ambient.daily-bread: cites 'fix.source.secondary-summary'; the (fixture-synthetic, fixture-synthetic-neighbour) pair is ruled 'one-way', not mutual-awareness",
+        "fix.quote.private-teaching: cites 'fix.source.secondary-summary'; the (fixture-synthetic, fixture-synthetic-neighbour) pair is ruled 'one-way', not mutual-awareness",
+        "fix.term.the-way: cites 'fix.source.secondary-summary'; the (fixture-synthetic, fixture-synthetic-neighbour) pair is ruled 'one-way', not mutual-awareness"
+      ]
+    },
+    {
+      "id": "m9-shelf-confidence-needs-ruling",
+      "gate": "shelf-confidence",
+      "status": "caught",
+      "findings": [
+        "fix.demo.core-testimony: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.demo.identity-collision: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.witness.who-is-jesus: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.figure.the-elder: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.force.social-cost-pressure: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.gravity.witness-under-pressure: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.limit.outsiders-fate: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.limit.scholarly-scrutiny: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.limit.trinity-language: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.limit.unbuilt-appendix-a-cells: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.quote.identity-collision-saying: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.quote.witness-saying: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.story.the-long-road: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.term.the-three: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.craft.vera-voice: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling",
+        "fix.core.fixture-world: cites 'fix.source.witness-scroll', whose shelf row's confidence is needs-ruling"
+      ]
+    }
+  ],
+  "inertness": {
+    "pass": true,
+    "checks_never_fired_or_not_silent_on_clean": []
+  },
+  "overall_pass": true
+}

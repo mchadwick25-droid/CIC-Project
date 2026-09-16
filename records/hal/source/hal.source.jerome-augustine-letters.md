@@ -16,6 +16,7 @@ sources: []
 author: "Jerome and Augustine of Hippo (correspondence, c. 394-419)"
 work: "The Jerome-Augustine correspondence as printed in the Jerome volume: Epistulae 56, 67, 101-105, 110-112, 115-116, 131-132, 134, 141-143 (Jerome's numbering; 111 is Augustine to Praesidius) - including Ep. 112, Jerome's defense of translating from the Hebrew against Augustine's objections and the Oea 'ivy/gourd' congregational incident"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div ids v.LVI et seq.; the Augustine-side collection is hal.source.augustine-letters"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior HAL build Doc_02 (Approved to proceed); located in the vendored corpus; rights read from the file's own DC.Rights header"

@@ -18,6 +18,7 @@ work: 'The Chronicle of Edessa - including the year-513-of-the-Greeks (201 CE) f
   ''the temple of the church of the Christians'': the earliest attested Christian community fact at Edessa'
 edition: trans. B.H. Cowper ('Selections from the Syriac, No. 1', Journal of Sacred Literature, 1858-1861
   series); vendored as cic/texts/chronicle-of-edessa_cowper.txt
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed (anonymous compilation); the flood report is archivally-derived secondhand
   testimony written ~340 years after the event, not eyewitness record - treated as comparatively reliable

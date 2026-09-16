@@ -16,6 +16,7 @@ sources: []
 author: "French and Swiss archaeological missions (site rediscovered by Antoine Guillaumont, 1964; excavated 1965-1990)"
 work: "The Kellia excavations - c. 125 km2, over 1,500 identified structures: single cells to multi-room hermitages with attached oratories, chapels, and towers, plus communal-service clusters and at least one commercial center. Direct physical corroboration of Strand C's settlement pattern, and the corpus's only substantial non-literary window on residents' own devotional and daily concerns (wall inscriptions, graffiti, paintings; artifacts chiefly pottery). Never connects a specific structure to a specific named figure - that link is Inferential-Thin and no record makes it"
 edition: "No vendored file (excavation reports are specialist publications: the EK 8184 series and mission volumes, consult-only). Claims are bounded to the general findings the prior build verified and cleared (Doc_02 SS5.1, reviews on file)"
+kind: unvendored
 rights_status: "material evidence; publications copyrighted, consult-only; no text vendored or quotable"
 attribution_status: "modern archaeological documentation"
 discovery_channel: "carried from the prior Desert build's cleared Doc_02 SS5.1 (srcDES009)"

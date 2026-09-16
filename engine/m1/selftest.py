@@ -45,7 +45,15 @@ def run() -> dict:
     defect_results = []
 
     for defect in defects:
-        if defect["id"] == "inertness-proof":
+        if defect["id"] in ("inertness-proof", "m9-inertness-proof"):
+            continue
+        if defect.get("layer") == "M9":
+            # Library Access Gate's own layer (engine/m9/selftest.py runs
+            # these against a different battery and a different mutation
+            # vocabulary - target_kind: bucket/pairs mutate corpus-map/
+            # PAIRS.yaml data this module never touches). Not this
+            # selftest's concern, the same boundary the M3 skip below
+            # already draws for a different later stage.
             continue
         if defect.get("layer") == "M3":
             defect_results.append(

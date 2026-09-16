@@ -18,6 +18,7 @@ work: '''Christianity in Edessa and the Syriac-Speaking World: Mani, Bar Daysan,
   for Allegiance on the Aramean Frontier'', Journal of the Canadian Society for Syriac Studies 2 (2002)
   5-20'
 edition: consultation-only; no edition vendored
+kind: unvendored
 rights_status: 'in-copyright (consultation-only: never vendored, never a licensed-quote source)'
 attribution_status: verified directly on-point (Doc_01 SS3 confirmed this source after initially leaving
   it under-verified)

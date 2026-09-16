@@ -169,7 +169,7 @@ A distinctive opportunity worth naming: `hal_story11` could ground the portfolio
 
 ### 3.5 Nicene-Cappadocian — NOT ASSESSABLE; NO TOUR
 
-The world's build folder (`World-Builds/Nicene-Cappadocian/`) is **empty as of 2026-07-16**. Construction has not begun: no Doc_09, no Story Inventory, no capsule, no Representative. Per this module's own rule that a tour can only be licensed by an approved Story Inventory, the verdict is automatic: **no tour, and nothing to analyze yet.** This is not a finding about the eventual world's evidence (the Cappadocian record may in time support strong scenes — that judgment belongs to its future Doc_02/Doc_09, not to this document). Action carried: re-run this section for World 5 when its Doc_09 is approved.
+The world's build folder (`worlds/Nicene-Cappadocian/`) is **empty as of 2026-07-16**. Construction has not begun: no Doc_09, no Story Inventory, no capsule, no Representative. Per this module's own rule that a tour can only be licensed by an approved Story Inventory, the verdict is automatic: **no tour, and nothing to analyze yet.** This is not a finding about the eventual world's evidence (the Cappadocian record may in time support strong scenes — that judgment belongs to its future Doc_02/Doc_09, not to this document). Action carried: re-run this section for World 5 when its Doc_09 is approved.
 
 ---
 

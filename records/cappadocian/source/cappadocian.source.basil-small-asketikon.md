@@ -19,6 +19,7 @@ work: 'Basil''s Small Asketikon (non-Greek: Rufinus'' Latin translation, 397; a 
   manuscript late 5th century) -- does not survive in Greek at all'
 edition: Named witnesses only (Rufinus' 397 Latin translation; a dated Syriac manuscript tradition) --
   no open English translation located this session or previously
+kind: unvendored
 rights_status: not independently verified this session; row not yet acquired as an open text -- named
   for completeness per the Source Registry's own checkpoint rule (every source a Doc_02 claim rests on
   gets a row, acquired or not).

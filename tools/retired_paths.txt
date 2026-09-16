@@ -1,0 +1,54 @@
+# Paths retired by the Repo Structure Cleanup (phase 1, 2026-09-14). They must stay
+# absent: a branch that merely adds a file under one of them merges without conflict
+# and silently resurrects the directory. tools/check_paths.py fails CI if any exists.
+# New home for each is in Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md.
+L0-Reference
+L1-Foundation
+L2A-System-Architecture
+L2B-System-Entry
+L2C-System-Status
+L2D-System-Operations
+L3A-Shared-Methodology
+L3B-World-Build-Methodology
+L3C-Representative-Methodology
+L3D-Encounter-Methodology
+L4-Templates
+Redesign-Spec
+Project-Reference
+fleet-voice
+Syriac-Build
+Ministry/Technology/Pass2
+Ministry/Technology/Pass3
+Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs
+Ministry/Operations/Standing/lexicon_compliance_checker.py
+# Library Access Gate increment 9 (2026-09-15): tools/gen_shelf.py retired in favor
+# of `python -m engine.m9.cli shelf <world> --stdout` (engine/m9/cli.py), the real
+# shelf renderer - gen_shelf.py's own line-regex bucket reader and CANDIDATES dict
+# are gone with it.
+tools/gen_shelf.py
+# Repo Structure Cleanup phase 2 (2026-09-15): the 12 per-world World-Builds/ trees
+# and 6 per-world world-build-docs/ trees this manifest covers moved to worlds/<code>/
+# and worlds/<code>/build/ respectively (tools/moves-phase2.tsv). World-Builds/ and
+# world-build-docs/ themselves stay live - six not-yet-coded worlds (Anabaptist
+# Movements, Lollardy, Lutheran-Wittenberg, Reformed Zurich and Geneva, Society of
+# Jesus, Tridentine Church) remain under World-Builds/ until each gets a registry
+# code, so only the specific moved subdirectories are retired here, not the roots.
+World-Builds/01-Post-Apostolic-House-Church
+World-Builds/Alexandria-Catechetical-School
+World-Builds/Cappadocian
+World-Builds/Desert-Monasticism
+World-Builds/Donatism
+World-Builds/Hieronymian-Ascetic-Literary
+World-Builds/Imperial-Juridical-Christianity
+World-Builds/Syriac-Christianity-Edessa-Nisibis
+World-Builds/Gallic-Monastic-Ascetic-Christianity
+World-Builds/Latin-Pastoral-Congregational-Christianity
+World-Builds/Latin-Apologists
+World-Builds/Second-Century-Greek-Apologists
+world-build-docs/_cross-world
+world-build-docs/alx
+world-build-docs/desert
+world-build-docs/hal
+world-build-docs/ijc
+world-build-docs/pahc
+world-build-docs/syr

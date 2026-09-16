@@ -19,6 +19,7 @@ relations:
 author: "Jerome (c. 347-420 CE), with Gennadius of Marseilles (late 5th c.) for the continuation printed in the same volume"
 work: "De viris illustribus (392/393 CE) - used here for its Antony chapter attesting seven letters of Antony circulating in translation ('Antonius the monk'); Gennadius's continuation (same vendored volume) carries the early notices of Pachomius, Theodorus, and Orsiesius and their writings. Jerome's independent attestation of seven Antonian letters is one leg of Rubenson's authenticity case (desert.contested.antony-literacy) - registered so that case can cite its ancient anchor directly"
 edition: "trans. E. C. Richardson (in NPNF series 2 vol. 3, 1892), vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml (Antonius chapter division at file line 41173; Gennadius's Pachomius chapter at line 42250)"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "surfaced during this build's step-2 corpus survey (2026-08-21), following the same volume's use on world/alexandria (alx.source.jerome-de-viris); volume supplied with the CCEL corpus (Mark, 2026-08-15-18); rights read from the file's own DC.Rights header"

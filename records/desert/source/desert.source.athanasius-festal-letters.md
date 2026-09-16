@@ -19,6 +19,7 @@ relations:
 author: "Athanasius of Alexandria (c. 296-373 CE)"
 work: "Festal Letters (328-373, surviving incompletely via the Syriac corpus), used here ONLY for Letter 39 (367 CE): the canon list with its condemnation of 'apocryphal' books - the document the Nag Hammadi burial theory (Lundhaug/Jenott, following Robinson) proposes as the trigger for Pachomian monks hiding codices; registered so that contested claim can cite its actual anchor text rather than a report of it"
 edition: "trans. from the Syriac (the 1854 Oxford rendering, revised by Miss Payne Smith per the volume's own note at file line 62177, in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (the Letters division at file line 60975; Letter 39's own division - 'For 367. Of the particular books and their number, which are accepted by the Church' - at line 68714)"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "surfaced during this build's step-2 corpus survey (2026-08-21) as the vendorable anchor for the Nag Hammadi contested claim; volume supplied with the CCEL corpus (Mark, 2026-08-15-18); rights read from the file's own DC.Rights header"

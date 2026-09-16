@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "The prefaces: to the Vulgate Old Testament books (Genesis through the Prophets, incl. the 'Helmeted Preface' to Samuel and Kings with its Hebrew-canon list), to the Gospels revision (dedicated to Damasus), and to the Bethlehem commentaries - the genre in which the translation project is argued and defended book by book, most dedicated to Paula, Eustochium, or their circle"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div ids vii.ii-vii.iv"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior HAL build Doc_02/Doc_06 (praefatio, Tier 1); located in the vendored corpus; rights read from the file's own DC.Rights header"

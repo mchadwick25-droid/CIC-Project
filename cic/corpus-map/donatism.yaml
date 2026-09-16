@@ -157,20 +157,6 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council
-    of Carthage, 419)
-  author: council-of-carthage-419
-  locus: pp. 155-202 of the printed volume
-  role: context
-  confidence: needs-ruling
-  note: 'Not a claim this staging entry is positioned to argue well -- flagged because the
-    Council of Carthage 419 sits inside the Donatist controversy''s own chronology (post-Conference-of-Carthage-411
-    settlement period) and that world''s own build thread has not been asked, from outside,
-    whether this text belongs there as context, antecedent, or something narrower. Named per
-    corpus-map''s own non-exclusivity principle rather than silently omitted.
-
-    '
-  source_file: codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt
 - work: The Ecclesiastical Edicts of the Theodosian Code
   author: boyd
   locus: study 2 of 3 in this bound volume
@@ -208,10 +194,28 @@ works:
     proceeding record, not either side''s own composed voice) consistent with how this entry
     already treats the Optatus appendix and Council acts; provisional because the Donatist
     bishops'' own recorded speech inside these acts may deserve separate tradition-role consideration
-    once actually read, which this entry has not yet done.
+    once actually read, which this entry has not yet done. Also assigned to latin-pastoral-congregational-christianity
+    (Source_Registry.md row 65, per the project lead''s 2026-09-13 decision on that row''s
+    own flagged cross-world resource question): Augustine speaks in his own words in at least
+    fourteen numbered acts of these proceedings, a live primary-voice route this world''s
+    own Registry names but does not yet use.
 
     '
   source_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
+- work: The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council
+    of Carthage, 419)
+  author: council-of-carthage-419
+  locus: pp. 155-202 of the printed volume
+  role: context
+  confidence: needs-ruling
+  note: 'Not a claim this staging entry is positioned to argue well -- flagged because the
+    Council of Carthage 419 sits inside the Donatist controversy''s own chronology (post-Conference-of-Carthage-411
+    settlement period) and that world''s own build thread has not been asked, from outside,
+    whether this text belongs there as context, antecedent, or something narrower. Named per
+    corpus-map''s own non-exclusivity principle rather than silently omitted.
+
+    '
+  source_file: codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt
 - work: The Code of Canons of the African Church (Council of Carthage, 419)
   author: council-of-carthage-419
   locus: div2 15.4
@@ -404,6 +408,18 @@ works:
 
     '
   source_file: optatus_against-the-donatists.txt
+- work: S. Optati Milevitani Libri VII (critical Latin edition)
+  author: optatus
+  locus: the seven books
+  role: context
+  confidence: assigned
+  note: 'CSEL 26 (Ziwsa, 1893), the critical Latin edition of the same work already vendored
+    in English translation (optatus_against-the- donatists.txt) — second witness for cross-checking
+    a specific rendering, same context role as its English counterpart, per the standing rule
+    that Optatus describes the Donatists rather than speaking as one.
+
+    '
+  source_file: optatus_libri-vii-critical_ziwsa1893.txt
 - work: Prosper of Aquitaine's Epitoma Chronicon, with its African continuations
   author: prosper
   locus: pp. 385-485 of the printed volume
@@ -417,18 +433,6 @@ works:
 
     '
   source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
-- work: S. Optati Milevitani Libri VII (critical Latin edition)
-  author: optatus
-  locus: the seven books
-  role: context
-  confidence: assigned
-  note: 'CSEL 26 (Ziwsa, 1893), the critical Latin edition of the same work already vendored
-    in English translation (optatus_against-the- donatists.txt) — second witness for cross-checking
-    a specific rendering, same context role as its English counterpart, per the standing rule
-    that Optatus describes the Donatists rather than speaking as one.
-
-    '
-  source_file: optatus_libri-vii-critical_ziwsa1893.txt
 - work: Theodosiani Libri XVI (Book 16, critical Latin text)
   author: theodosian-code
   locus: Book 16

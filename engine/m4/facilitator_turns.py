@@ -210,7 +210,7 @@ SESSION_CAP = FacilitatorTurn(
 def session_cap_turn(representative_name: str) -> dict:
     """DRAFT TEXT, not yet Mark-approved - see this module's own STATUS note
     on what that approval process looks like for every other facilitator
-    text here. Wired in now so the mechanism (Redesign-Spec/Artifact-6-
+    text here. Wired in now so the mechanism (reference/Redesign-Spec/Artifact-6-
     Operations.md's "per-session turn cap", DECIDABLE default 40, resolved
     to 10 by Mark 2026-08-25) is complete and tested; the copy itself is
     swappable without touching engine.m4.turn's routing.

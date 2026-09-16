@@ -23,6 +23,7 @@ author: Optatus of Milevis
 work: Against the Donatists (De schismate Donatistarum), Books I-VII (c. 366-367, revised c. 385)
 edition: 'English translation by O.R. Vassall-Phillips (London: Longmans, Green & Co., 1917), vendored
   as cic/texts/optatus_against-the-donatists.txt'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
   by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
   vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by

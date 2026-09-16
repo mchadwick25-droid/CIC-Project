@@ -16,6 +16,7 @@ sources: []
 author: "Augustine of Hippo (354-430), bishop of Hippo Regius, writing to the imperial tribune Boniface"
 work: "The Correction of the Donatists (De Correctione Donatistarum, Letter 185), c. 417 - the sustained defence of using imperial law to compel schismatics into communion, including Augustine's own account of having previously held the opposite view"
 edition: "trans. J. R. King, Nicene and Post-Nicene Fathers ser. 1 vol. 4 (1887), vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml (div2 at line 19266)"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "found by the cross-world corpus assignment, which assigned it to this world; no record here had opened npnf104"

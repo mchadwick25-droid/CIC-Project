@@ -1,0 +1,40 @@
+gallic_source_registry_row	source_record_id
+1	gallic.source.sulpitius-vita-martini
+2	gallic.source.sulpitius-letters
+3	gallic.source.sulpitius-dialogues-ii-iii
+5	gallic.source.sulpitius-doubtful-letters
+6	gallic.source.sulpitius-sacred-history
+7	gallic.source.cassian-institutes
+8	gallic.source.cassian-conferences-part-i
+9	gallic.source.cassian-conferences-part-ii
+10	gallic.source.cassian-conferences-part-iii
+11	gallic.source.cassian-conferences-xii-xxii-absence
+12	gallic.source.cassian-de-incarnatione
+13	gallic.source.vincent-commonitory
+14	gallic.source.augustine-on-rebuke-and-grace
+15	gallic.source.augustine-on-predestination
+16	gallic.source.augustine-on-the-gift-of-perseverance
+17	gallic.source.npnf-editorial-apparatus
+18	gallic.source.stancliffe-martin-hagiographer
+19	gallic.source.leyser-authority-and-asceticism
+20	gallic.source.mathisen-ecclesiastical-factionalism
+21	gallic.source.chadwick-john-cassian
+22	gallic.source.casiday-tradition-and-theology
+23	gallic.source.weaver-divine-grace-and-human-agency
+24	gallic.source.faustus-de-gratia
+25	gallic.source.eucherius-de-contemptu-mundi
+26	gallic.source.eucherius-de-laude-eremi
+27	gallic.source.hilary-arles-vita-honorati
+28	gallic.source.prosper-carmen-de-ingratis
+29	gallic.source.prosper-pro-augustino-responsiones
+30	gallic.source.gennadius-de-viris-illustribus
+31	gallic.source.augustine-letters-221-226-absence
+32	gallic.source.prosper-contra-collatorem
+39	gallic.source.noris-historia-pelagiana
+40	gallic.source.tillemont-vincent-martyrology-doubt
+41	gallic.source.farrar-lives-of-the-fathers
+42	gallic.source.richardson-gennadius-endnotes
+43	gallic.source.salvian-on-the-government-of-god
+
+Rows 4, 33-38, 44 are Excluded (Named Comparandum/Out-of-Boundary) and have
+no source record -- never cite them as a sources[].source_id.

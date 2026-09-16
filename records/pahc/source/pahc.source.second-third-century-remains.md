@@ -18,6 +18,7 @@ sources: []
 author: "Quadratus of Athens, Aristo of Pella, Melito of Sardis, Hegesippus, Dionysius of Corinth, Rhodon, Claudius Apollinaris of Hierapolis, Polycrates of Ephesus, Serapion of Antioch, Apollonius - the surviving voices of the sub-apostolic churches"
 work: "Remains of the Second and Third Centuries - the fragmentary survivals of ten writers of this world's own generations, including Hegesippus' notices on James the Just and the Lord's kindred, and Polycrates of Ephesus' letter to Victor of Rome on the Passover date"
 edition: "Ante-Nicene Fathers vol. 8 (1886), vendored as cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml, div1 'Remains of the Second and Third Centuries' at line 69910"
+kind: vendored
 rights_status: public-domain
 attribution_status: "attributed per fragment; the attributions are Eusebius' and the ANF editors', and vary in security"
 discovery_channel: "found by the cross-world corpus assignment, which assigned twenty-three anf08 works to this world and observed no record here had opened the volume"

@@ -1,0 +1,157 @@
+# Doc_09 — Story Inventory
+## Donatism Formation World
+
+**File naming convention:** `don_Story_Inventory.md` (filed here as `Doc_09_Story_Inventory.md` per this world's own established Doc_NN naming convention)
+**Produced at:** Construction Step 9 (Framework V7.4, Part V/VI; Constitution Articles 19, 20, 23, 29, 31)
+**Companion chunks:** `Story-Chunks/donstory001_*.md` through `donstory009_*.md`, following the Story Repository Chunk Template (L4, v1.0)
+**Scope note:** Step 9 of the Framework bundles three deliverables — the Story Inventory, the World Profile, and Validation and Testing (Part VI). Consistent with this world's own one-document-at-a-time discipline and with established sibling-world precedent (Imperial-Juridical-Christianity's `Doc_09_Story_Inventory.md` and `Doc_09_Validation_Layer.md` are separate, independently-disposed documents), this document covers the Story Inventory only. The World Profile and the Validation Layer are separate, subsequent documents in this world's own build sequence, not sections of this one.
+**Required before:** World Profile; Representative Emergence (Step 10)
+**Governing methodology:** Construction Framework V7.4 Part V (Story Classification, Story Inventory Requirement); `cic-story-repository` skill
+**Status:** Approved to proceed (self-disposed by this build thread). Review history: 2 rounds — Round 1 (`Review-Artifacts/Doc09_Round1_Review.md`, SUBSTANTIAL REVISION REQUIRED: 3 High, 4 Medium, 3 Low) and Round 2, a confirming pass (`Review-Artifacts/Doc09_Round2_Review.md`, SUBSTANTIAL REVISION REQUIRED, narrow: all 7 Round 1 High/Medium fixes independently confirmed correctly applied; 1 new Medium and 1 new Low surfaced in donstory009's own new content, both narrow citation-location/completeness fixes, applied directly without a further review round per this world's own established precedent for cosmetic fixes). See Section 10 for the full disposition record.
+
+---
+
+## Section 1 — World Identification
+
+**World name:** Donatism
+**World code:** `don`
+**Representative name:** PENDING — not named until Representative Emergence (Step 10), which occurs after this document.
+**Doc_09 completion date:** 2026-09-03 (Approved to proceed)
+**Builder:** Donatism build thread
+**Doc_02 (Source Ecology) version this inventory draws from:** `Doc_02_Source_Ecology.md` and `Source_Registry.md`, Approved to proceed (revised 2026-09-02 for the G1–G7 acquisition round)
+**Doc_04 (Historical Gravity) version this inventory draws from:** `Doc_04_Gravity_Discovery.md`, Approved to proceed
+**Doc_05 (Ecological Reconstruction) version this inventory draws from:** `Doc_05_Ecological_Reconstruction.md`, Approved to proceed — §10 and §11 specifically flag story candidates and hand this document explicit tier leanings. Followed for donstory001 and donstory002; donstory003 departs from Doc_05 §11's own "Tier 2/3" grouping for the Passiones trio and is reclassified Tier 1 — the departure is disclosed, not silent (see donstory003's own Tier Justification)
+**Doc_08 (Forces Document) version this inventory draws from:** `Doc_08_Forces_Document.md`, Approved to proceed
+
+---
+
+## Section 2 — Tier Categories, Re-Confirmed Against the Current Governing Text
+
+Re-read directly from the Construction Framework V7.4 text (Part V) for this document, rather than assumed from a remembered list — the tier definitions have not changed since Doc_05 §11 last cited them, and no drift was found between the Framework's own text and the `Story_Repository_Chunk_Template.md` used to build the story chunks below.
+
+- **Tier 1 — Documented Historical Narrative.** Direct textual attestation within or close to the world's horizon; named author with identifiable social location; datable with reasonable confidence; a historically credible narrative claim, with appropriate caveats for the author's perspective and genre.
+- **Tier 2 — Collected and Traditional Material.** Transmitted in collected form with identifiable collection history, traceable to the world's own community memory; individual attribution may be uncertain, but the tradition itself is treated as authentic.
+- **Tier 3 — Attributed Tradition.** Attributed to specific figures or moments but resting on collected tradition rather than direct documentation; hagiographic narrative is the specific type named within this tier — the formation ideal it communicates is the evidence, not the specific events claimed.
+- **Tier 4 — Historically Grounded Reconstruction.** A composite reconstruction of typical practice, not about one named individual, every element traceable to attested evidence; reconstruction, not generation.
+- **No Tier 5.** Generated or illustrative narrative — not traceable to this world's own evidence — is not permitted under any circumstance. If the evidence does not support a story, the story does not exist for this world.
+
+---
+
+## Section 3 — Story Index
+
+Following the portfolio's own established, verified-working precedent for Story Inventory specifically: an **inline markdown table**, not a separate xlsx companion. Two sibling worlds' own Doc_09 text (Alexandria, Syriac) claims an `.xlsx` Story Index was "built in the same pass"; direct inspection of both folders found no such file actually present in either case. Of every sibling world checked, only the very first world built (Post-Apostolic-House-Church) has a working xlsx Story Index on disk. Given that track record, and given this world's own immediately prior document (Doc_08) already established an inline-table precedent for a comparable index at this world's own scale, an inline table is the lower-risk, better-precedented choice here.
+
+| ID | Story | Tier | Confidence | Source (Registry row) | Usage Guidance category | Retrieve-When (summary) | Do-Not-Retrieve-When (summary) |
+|---|---|---|---|---|---|---|---|
+| donstory001 | The Passio Donati (commemorative sermon) | 3 | Contested (portrait/practice); Inferential/Thin (authorship/date) | Anon. sermon, row 50 | Community's own account of a formed life under persecution | Commemoration/liturgical memory; G3 formation example | Needs undisputed named author; needs neutral dated-event narrative |
+| donstory002 | The Passio Marculi | 3 | Contested (portrait); Inferential/Thin (visionary/miraculous detail) | Anon. passio, row 19 | Community's own account of a completed formed life | Fullest hagiographic-register martyrdom account | Wants minimally-embellished account (use donstory003 instead) |
+| donstory003 | Macrobius's Letter (Isaac and Maximianus) | 1 | Documented/Widely Accepted (narrative); Contested (omen/vision) | Macrobius's letter, row 20 | Remembered history, named author | Documentary-register Macarian-persecution account | Wants fullest hagiographic register (use donstory002 instead) |
+| donstory004 | The Lucilla Affair (rebuke, treasury, rival consecration) | 1 | Documented (narrative); author's hostile framing named | Optatus I.16–20, row 1 (Lucilla, row 30) | Remembered history, hostile-author caveat | Founding-dispute human mechanics; G4 origin | Wants the later legal resolution (pair with donstory005) |
+| donstory005 | The Gesta apud Zenophilum (trial over Lucilla's money) | 1 | Documented — independently corroborated by a second primary source | Optatus Appendix, row 2; corroborated row 6 | Remembered history, high confidence | Documentary/court-transcript register; corroborated fact | Wants the founding narrative itself (pair with donstory004) |
+| donstory006 | The Acta Purgationis Felicis (Ingentius's confession) | 1 | Documented — imperial judicial proceeding | Optatus Appendix, row 2 | Remembered history; honest unfavorable finding | G1's own founding legal question | Wants the Lucilla/treasury strand instead |
+| donstory007 | The Council of Cirta (mutual absolution) | 1 | Documented (narrative); disputed exact date; hostile framing named | Optatus Appendix, row 2; Optatus I.14, row 1 | Remembered history; complicating case, not resolved | G1 complicated by its own founders' vulnerability | Wants founders vindicated without complication |
+| donstory008 | The Bagai Reconciliation (Maximianist affair) | 1 | Documented — most repeatedly quoted internal tension in this corpus | Augustine, rows 3, 4 | Remembered history; tension named, not resolved | T2; internal institutional discipline under pressure | Wants the state-relation tension (T1) instead |
+| donstory009 | The Condemnation of Tyconius | 1 | Documented (letter/rebuke); reporting-hedge ("perhibent") on the conciliar mechanism specifically | Augustine, row 39; aftermath row 40 | Remembered history; hedge on the conciliar mechanism carried forward | D-B (Doc_04 §2, not-advanced); internal dissent and its cost | Wants Tyconius's own hermeneutic content rather than his condemnation |
+
+### 3.1 By-Tier View
+
+- **Tier 1 (seven stories):** donstory003, donstory004, donstory005, donstory006, donstory007, donstory008, donstory009.
+- **Tier 2 (zero stories).** No genuinely collected-tradition material — a sayings-collection or apophthegmata-style anthology with its own identifiable transmission history — survives for this world. This is not an oversight; it is the same transmission asymmetry Doc_05 §10 already names as this world's own central evidentiary condition, now visible at the level of story-genre survival rather than only at the level of missing voices. A movement whose own ordinary believers left no surviving collected memory of their own could not, by the same evidentiary gap, leave a Tier 2 story tradition either — the two absences share one cause.
+- **Tier 3 (two stories):** donstory001, donstory002.
+- **Tier 4 (zero stories).** No composite reconstruction was built for this document. Doc_05's own Ecological Reconstruction narrative already carries this world's Tier 4 material (explicitly marked as reconstruction there, per the Framework's own instruction that Tier 4 belongs in ecological reconstruction sections); this document does not duplicate it as a separate story chunk.
+
+---
+
+## Section 4 — No-Tier-5 Audit
+
+Every story below cross-checked against the four permitted tiers; none is generated or invented narrative.
+
+| Story | Tier claimed | Audit finding |
+|---|---|---|
+| donstory001 | 3 | Every narrative element traces to the vendored sermon text itself (`monumenta-vetera-donatistarum_migne-pl8.txt`); no invented detail. |
+| donstory002 | 3 | Every narrative element traces to the vendored Passio text; the visionary/miraculous elements are the source's own content, presented as the tradition's own claim, not asserted as fact. Source attribution for the martyrdom-label dispute corrected at Round 1 review (H2) — the dispute is Augustine's own argument, not "Optatus's own text, which Augustine quotes." |
+| donstory003 | 1 | Every narrative element traces to Macrobius's own vendored letter; the omen and vision are the letter's own reported content, caveated as such. |
+| donstory004 | 1 | Every narrative element traces to Optatus I.16–20; Optatus's own hostile framing of Lucilla's motive is named as his framing, not adopted as fact. |
+| donstory005 | 1 | Every named participant and the specific sum traces to the vendored Gesta text; corroboration traces to Augustine's own vendored Letter XLIII. |
+| donstory006 | 1 | Every named participant and the confession traces to the vendored Acta text. |
+| donstory007 | 1 | Every named participant and the exchange traces to Optatus I.14; the disputed date is named as disputed, not resolved by invention. |
+| donstory008 | 1 | The decree's own quoted language and every named participant trace to the vendored Augustine text (`On Baptism`, `Answer to the Letters of Petilian`). |
+| donstory009 | 1 | Every element traces to Augustine's vendored `Contra Epistulam Parmeniani` I.1; the conciliar-condemnation detail carries Augustine's own reporting hedge ("*perhibent*"), preserved rather than smoothed into unqualified fact. |
+
+No story required inventing a detail, a participant, or an outcome not present in a vendored source. No Tier 5 material is present in this repository.
+
+---
+
+## Section 5 — Source Cross-Reference (against the Source Registry)
+
+Every source cited above checked directly against `Source_Registry.md` to confirm Native status (this world's own registry, not a borrowed cross-world entry) and Confidence rating.
+
+| Story | Registry row(s) | Boundary Status | Confidence |
+|---|---|---|---|
+| donstory001 | 50 | Native | A (Licensed-For items directly read this session) |
+| donstory002 | 19; corroborated 1, 4 | Native | A (row 19); B (row 1); A (row 4) |
+| donstory003 | 20 | Native | A |
+| donstory004 | 1, 30 | Native | B (row 1); A (row 30) |
+| donstory005 | 2, 6 | Native | B (row 2); A (row 6) |
+| donstory006 | 2 | Native | B |
+| donstory007 | 1, 2 | Native | B |
+| donstory008 | 3, 4 | Native | A |
+| donstory009 | 39; aftermath 40 | Native | A (row 39); A (row 40) |
+
+All nine stories draw exclusively on Native Registry entries; no cross-world borrowing is present. Where a row's own Registry Confidence is B (named accurately but not independently re-checked against the vendored text in the Doc_02 build session specifically), this document's own research pass independently read the actual vendored text directly, at specific cited line ranges, before this story was built — a fresh verification at Doc_09's own construction, distinct from and not dependent on Doc_02's own session-scoped confidence rating. Row 40's own Licensed-For field explicitly excludes "Monceaux's own footnoted primary-source citations" (including *Contra Epistulam Parmeniani* I.1) from what row 40 alone licenses — donstory009 does not rely on row 40 for that citation; it cites row 39 directly, independently locating the passage in the vendored primary text itself, exactly as Doc_02 §9 Open Item 11 anticipated a future pass would need to do.
+
+---
+
+## Section 6 — Candidates Considered, Not Built This Pass
+
+Two further candidates surfaced during this document's own research and are recorded here so they are not lost, rather than silently dropped.
+
+- **Donatus's retort, "*Quid est imperatori cum ecclesia?*"** ("What has the emperor to do with the Church?" — `optatus_against-the-donatists.txt`, Book III). Not built as a separate story chunk because it is already given full evidentiary treatment as the founding quotation for **T1 — Principled Refusal vs. Pragmatic Recourse to Imperial Power** (Doc_04 §3.6). A dedicated chunk would substantially duplicate that treatment rather than add new formation-ecology content. Flagged for a future pass if T1's own encounter usage is found to need a standalone retrievable story rather than gravity-discovery prose.
+- **The Circumcellion mobilization under Donatus of Bagai (named leaders Axido and Fasir; the Octavensis killings; the priest Clarius).** Source: `monumenta-vetera-donatistarum_migne-pl8.txt`, lines 1934–2195 — a Donatist petition/complaint against the Macarian persecution, reproduced in Optatus's own appendix material. This is a genuine discovery: Doc_02, Doc_04, and Doc_05 all discuss the Circumcellion/D-A phenomenon (Doc_04 §3.5) at length but never previously named Axido and Fasir, the Octavensis incident, or the priest Clarius specifically. Not built as a story chunk this pass because it raises a genuinely live Article 23 question this document's own scope should not resolve casually: the text is the movement's *own* petition literature (closer to a cross-voice trace than most D-A material, since it is being quoted, not merely described, by the hostile compiler), but its subjects' own later reputation is sharply contested between "leaders of the saints" (the petition's own words) and "marauders" (the hostile reading Doc_04 §3.5 already names as this candidate's own sharpest confidence divergence). Building this as a formation story well requires more dedicated Article 23 handling than this pass affords; flagged explicitly for a future, dedicated treatment rather than folded in provisionally.
+
+---
+
+## Section 7 — Tyconius's Condemnation
+
+Monceaux's own footnote for the condemnation claim (`monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt`, line 8568) cites and directly quotes Augustine's *Contra Epistulam Parmeniani* I.1 — a work fully vendored in a Latin critical edition, Source_Registry.md row 39.
+
+The primary attestation is real, near-contemporary (Augustine writing *c.* 400, roughly two decades after the *c.* 380 condemnation Doc_02 §4 dates), and appropriately hedged in its own text ("*perhibent*," "it is reported," for the conciliar-condemnation detail specifically). This supports a Tier 1 story, hedged accordingly rather than stated as unqualified fact — the same discipline donstory007 already applies to the Council of Cirta's own disputed date. **Built as `Story-Chunks/donstory009_tyconius-condemnation.md`.** Doc_02 §4 and Doc_05 §6.5's own flag for "dedicated treatment" at this document is honored by that chunk.
+
+---
+
+## Section 8 — Absent Stories
+
+Answered with the specificity the governing skill requires, not left as a placeholder.
+
+1. **No Tier 1 or Tier 2 story exists, or can exist, from the ordinary Numidian believer's own voice.** This is this world's central, already-established absence (Doc_05 §10, §11): the numerically dominant population across long stretches of this world's history is attested only through hostile or institutional intermediaries, never in its own words. This is not a gap this document can close by more searching — Doc_02's own transmission-asymmetry finding already establishes it as a structural feature of the surviving evidence, not an oversight of this build. Section 3.1's own Tier 2 finding (zero stories) is a second, independent symptom of this same underlying cause.
+
+2. **The 411 Conference of Carthage has no story built here yet, though the blocking text is now vendored.** This world's single largest and most consequential recorded event — 279 Donatist bishops meeting 286 Catholic bishops (see Doc_02 §1 for the primary-source citation), with Emeritus of Caesarea speaking at length in the movement's own defense — has no story in this document. The *Gesta Collationis Carthaginiensis* is vendored (`pl11-zeno-optatus-collatio-carthaginiensis_migne.txt`, Registry row 55, 2026-09-07). Emeritus's own recorded words are now directly readable in this world's own corpus, not only as later scholarly reference — but this document has not yet read the transcript to build a story from it. This is now an open integration task, not a source-availability absence: this world's likely richest available Tier 1 courtroom-drama story — richer even than donstory006's Acta Purgationis Felicis, given the scale and the direct, extended presence of a named Donatist bishop's own voice — is blocked only on being written, not on being found.
+
+3. **No Donatist-side account of the Bagai-era Circumcellion violence against Catholics survives.** Hostile Catholic sources record specific, dated allegations: `npnf101_augustine-confessions-letters.xml`, Letter LXVI to Crispinus (lines 32092 onward — **not currently a Source Registry row of its own; a registration gap disclosed here rather than silently cited as if a row existed**), alleges in its own body text the forced rebaptism of the "Mappalians"; the specific detail that roughly eighty persons were compelled to undergo this "notwithstanding their groaning and protesting against this tyrannical act of their new landlord" is not Augustine's own wording but the **NPNF translator's own endnote** (n. 1877) glossing who the Mappalians were — attributed here to the editor, not silently presented as the letter's own allegation. Letter LXXXVIII from the clergy of Hippo (Source_Registry.md row 6) directly recounts, in its own body text, a converted presbyter dragged from his house, beaten, rolled in a miry pond, and held twelve days, with the Donatist bishop Proculeianus refusing to answer for it before the municipal courts; that same letter's own editorial endnote (not its body text) attributes a separate charge — that Crispinus attempted to kill the Catholic bishop Possidius — to Letter CV (itself likewise not a Registry row) and to Augustine's *Contra Cresconium* III.46–47 (Source_Registry.md row 17), which is registered and is the more citable primary attestation of that specific charge. Separately, *The Correction of the Donatists* (Letter 185, row 5) recounts the near-fatal attack on the Catholic bishop Maximianus of Bagai in 404. These are real, specific, named allegations from named hostile witnesses, not vague accusations — but this world has no surviving account of any of them in its own voice, and so cannot answer them, confirm them, contextualize them, or dispute their particulars from the inside. This document deliberately does not build a story chunk from the hostile accounts themselves: doing so would let this world's own Story Repository narrate an atrocity attributed to it entirely through its accuser's own telling, which is not the same evidentiary act as this document's other Tier 1 stories, several of which (donstory004, donstory007) are also hostile-authored but concern events this world's own later tradition would recognizably claim as its own history rather than events it would need to answer as an accusation. The absence named here is specifically the absence of this world's own side of that particular story, not the absence of the allegation itself, which the hostile record preserves in detail. The two unregistered citations (Letter LXVI, Letter CV) are named as an open item in Section 9 rather than left as silent, unverifiable references.
+
+---
+
+## Section 9 — Open Items and Process Findings
+
+1. This document's own research pass, reading the vendored primary sources directly at specific line ranges rather than relying on prior documents' summaries, found genuinely new content not previously surfaced anywhere in this world's build: the fuller Lucilla narrative underlying donstory004 (previously only a one-sentence gloss at Doc_02 §6), the Gesta apud Zenophilum's own corroboration by Augustine's Letter XLIII (donstory005), the Acta Purgationis Felicis's own Ingentius-forgery detail (donstory006), the Council of Cirta scene (donstory007), and the named Circumcellion leaders Axido and Fasir (Section 6). None of these required new source acquisition — all were already inside sources this world's own Doc_02 Registry already licenses; they had simply not yet been read for this specific purpose. Worth naming as a portfolio-level process observation for a future coach-thread check: a world's own already-vendored corpus may hold formation-relevant narrative content a builder has not yet mined, discoverable only by reading primary texts directly for story material rather than relying on what earlier documents happened to quote for other purposes.
+2. Section 6's Circumcellion/Axido-Fasir candidate is left deliberately unresolved rather than forced into this document's own scope; it is not an escalation-category matter (see Disposition below) but an ordinary scoping judgment a future revision pass, or a coach-thread review, may reasonably revisit. Section 7's Tyconius boundary case, by contrast, was not correctly resolved on this document's first pass — see item 5 below.
+3. Donstory004/donstory005 and donstory006/donstory007 each form a natural evidentiary pair (the Lucilla dossier; two separate founding-era judicial proceedings). Both pairings are named explicitly in each story's own Retrieve-When/Do-Not-Retrieve-When front-matter so a downstream retrieval system surfaces them together when relevant, rather than only one half.
+4. **A citation-accuracy self-check during this document's own drafting** found that Section 8 item 3's initial draft had misattributed the peasant-forced-rebaptism allegation to Source_Registry.md rows 6 and 47 — row 6 does not include Letter LXVI (the actual source, confirmed by direct inspection of `npnf101_augustine-confessions-letters.xml` line 32092), and row 47 is a different letter entirely (Letter LI, "An invitation to Crispinus," not the forced-rebaptism allegation). Corrected before this draft went to review, not after. Two sources used in the corrected Section 8 item 3 — Letter LXVI and Letter CV — are not currently Source Registry rows; both are disclosed as registration gaps in the text itself rather than silently cited as though a row existed. Recommend these two be added to `Source_Registry.md` in a future revision pass, the same way row 37 was added after a comparable discovery (`don_Decision_Log.md`, 2026-09-02 entry).
+5. **Round 1 independent adversarial review (`Review-Artifacts/Doc09_Round1_Review.md`) found three further errors this document's own self-check pass had not caught**, each independently re-verified against primary sources before being fixed, per this project's standing "never adopt a reviewer's finding without independent re-verification" discipline: (H1) donstory001's commemoration date was wrongly given as "the fourth of March" rather than the twelfth (a.d. IV Idus Martias converts to 12 March by the ordinary Roman calendar convention, independently confirmed by this builder's own recalculation, and directly contradicted this document's own cited antecedents, Doc_02 §4 and Registry row 50, which already say 12 March correctly); (H2) donstory002 misattributed the martyrdom-vs-self-destruction dispute to "Optatus's own text, which Augustine quotes," when the dispute is Augustine's own argument in a different work (*Answer to the Letters of Petilian* II.45–46), traced to a modern translator's footnote comparing two authors' separate arguments, misread as a citation chain; (H3) Section 7's conclusion that no primary attestation of Tyconius's condemnation survives was false — see Section 7's own corrected text and the new donstory009. This is now the second and third distinct instances, across this world's own build, of a citation resting on a translator's or editor's own apparatus (a footnote, an endnote) being mistaken for the primary text's own content or a primary citation chain (compare M1 above, and the Doc_02 revision pass's own Mabillon-apparatus-vs-Monceaux's-fuller-treatment pattern logged in `don_Decision_Log.md`) — worth naming explicitly as a recurring form of this world's own tracked failure mode: translator/editor apparatus mistaken for primary source content.
+6. **A coach-thread-relevant finding, surfaced instrumentally at Section 3 but not previously named in its own right:** Round 1 review confirmed that Alexandria's and Syriac's own Doc_09 Revision Logs each assert a `Story_Index.xlsx` companion "built in the same pass," for documents whose own disposition history records them as "Reviewed (Round 1: CLEARED)" or "FINALIZE-READY" — yet no such file exists anywhere in either world's own folder on disk. Section 3 uses this discovery only to justify Donatism's own inline-table choice; named explicitly here because it is a portfolio-level quality-control finding in its own right (two sibling worlds' own "cleared" documents contain an inaccurate completion claim about a named deliverable) that belongs in front of the coach-verification layer `cic-build-cycle` describes, independent of whatever this world's own build decides about table format.
+
+---
+
+## Section 10 — Disposition
+
+**Escalation-category assessment:** none of the four applies. No Representative-identity decision is made (Section 1's own Representative-name field is left PENDING, as the template itself allows). No portfolio-level or cross-world decision is made — the inline-table-versus-xlsx choice (Section 3) is grounded in this world's own build precedent and a direct, verified inspection of sibling worlds' actual files, not a decision made for a reason external to this world's own ecology, and it is disclosed as a recommendation this document follows rather than a governance change. No governance or methodology decision is made — the tier definitions are re-confirmed as unchanged from the governing Framework text, not altered. No unresolved tension exists between this document and any prior cleared document: every story connects to, rather than redecides, gravities and forces Doc_04 and Doc_08 already established. Section 7's own correction (a factual error found and fixed, not a disagreement between two cleared documents) and Section 6's remaining open candidate are named as an error correction and an open scoping judgment respectively, not as contradictions this pipeline cannot close.
+
+**Review history:**
+- **Round 1** (`Review-Artifacts/Doc09_Round1_Review.md`): SUBSTANTIAL REVISION REQUIRED — 3 High, 4 Medium, 3 Low. All three High findings and all four Medium findings fixed, each independently re-verified against primary sources before being applied — H3 in particular required actual construction work (a ninth story chunk, Section 7 rewritten) rather than a wording fix. Of the three Low findings: L1's optional softening (donstory002's "all ten" bishops) applied as a free precision gain; L2 (Ingentius's torture threat) and L3 (the "no Tier 2 story" claim) independently confirmed reasonable as the reviewer's own report describes them and left as-is.
+- **Round 2, a confirming pass** (`Review-Artifacts/Doc09_Round2_Review.md`): SUBSTANTIAL REVISION REQUIRED, narrow — 0 new High, 1 new Medium, 1 new Low, all in donstory009's own new content; every one of the seven Round 1 High/Medium fixes independently re-confirmed correctly applied against the primary sources directly, not against either document's own account. The two new findings (N1: two citation-location errors in donstory009's Formation Ecology Connection — "Doc_04 §19" corrected to "Doc_04 §2"; a quotation misattributed to "Doc_08 §6" corrected to "Doc_08 §8" with the elided attribution clause restored; N2: Doc_09 §5's Section-5 table row for donstory002 not updated to reflect the H2 fix's two new corroborating sources, corrected to list rows 1 and 4 alongside row 19) are both cosmetic under `cic-build-cycle`'s own revision-decision test — neither changes a claim's substance, a confidence rating, a sourcing conclusion, or a scope boundary, only where a citation points or a table's completeness. Both independently re-verified and fixed directly, without a further review round, per this world's own established precedent (Doc_05's own Round 2 disposition) for narrow/cosmetic fixes judged with full rigor.
+
+**Disposition: Doc_09_Story_Inventory.md, and its nine `Story-Chunks/donstoryNNN_*.md` files — Approved to proceed** (self-disposed by this build thread). This document's own masthead records the same disposition. World Profile (Step 9's own companion deliverable) is now unblocked as the next document in this world's build sequence.
+
+---
+
+*End Doc_09. Nine stories built (seven Tier 1, two Tier 3, zero Tier 2, zero Tier 4) — the ninth, Tyconius's condemnation, added after Round 1 review found the original "boundary case, not built" reasoning factually wrong. One further candidate remains named and deliberately not built (the Circumcellion/Axido-Fasir petition material, Section 6). Three Absent Stories answered with specificity. Approved to proceed by this build thread. Next: World Profile.*

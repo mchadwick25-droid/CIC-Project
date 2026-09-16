@@ -1845,3 +1845,165 @@
     the only real link is literary (Constantius modeled his prose on Sulpitius Severus's Life
     of Martin), the same kind of borrowed-form relationship already treated as Excluded
     elsewhere in this Registry (row 34). Deliberately not corpus-map assigned to this world.
+- filename: cassian_institutes-and-contra-nestorium_petschenig1888.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-13'
+  notes: >-
+    John Cassian, complete Latin critical text ed. Petschenig, CSEL vol. XVII, Pars I (1888) -
+    Prolegomena, Institutionum libri XII (all twelve books of the Institutes), Contra Nestorium
+    libri VII, Indices. Vendored specifically because it contains the complete text of
+    Institutes Book VI ("De spiritu fornicationis"), which Gibson's NPNF II.11 translation
+    (already vendored, npnf211) omits entirely - independently confirmed present in this file
+    (not merely titled) by direct grep for "LIBER SEXTVS"/"fornicationis", locating both the
+    "Incipit de spiritu fornicationis... liber sextus" heading and a full run of chapter
+    capitula and body text following it, ending where Book VII's own incipit begins. Closes
+    the specific gap gallic.core.gallic's own .thinness field names ("Three whole texts on
+    the sexual body and its discipline (Conferences XII and XXII, and the Institutes' sixth
+    book) were removed by a nineteenth-century translator... an edition's absence, not our
+    own silence"). Latin only; no public-domain English translation of Book VI exists. Surfaced
+    by a scheduled source-research routine (2026-09-13) as a resource-research handoff for two
+    of Doc_05's own flagged gaps; independently re-verified and vendored by the build thread
+    the same day, not taken on the routine's word alone. Corpus-map assigned same day (Native,
+    tradition role) - see gallic_Source_Registry.md row 45. No WRS record cites this file yet;
+    building lexicon/story content from it is a separate decision, not made here.
+- filename: eucherius-lyon_formulae-and-instructiones_wotke1894.txt
+  supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
+  date_added: '2026-09-13'
+  notes: >-
+    Eucherius of Lyon, Formulae Spiritalis Intelligentiae and Instructionum libri duo, Latin
+    critical text ed. Wotke, CSEL vol. XXXI, pars 1 (1894). Two further genuine Eucherius
+    works, distinct from the two already vendored (eucherius-lyon_de-contemptu-mundi_vaughan1654.txt,
+    eucherius-lyon_de-laude-eremi_migne-pl50.txt). Surfaced by the same 2026-09-13 source-research
+    routine while chasing a manuscript-catalogued "epistula Eucherii ad Salonium" (a short
+    prefatory letter listed in this edition's own manuscript-contents apparatus, p. VIII-VIIII);
+    this build thread's own direct read of the file confirms that specific short letter is NOT
+    separately printed or edited anywhere in this volume, only catalogued as existing in one
+    manuscript - what IS genuinely present and newly vendored are the two full works above
+    (Formulae addressed to Veranus, Instructiones addressed to Salonius). Latin only; no
+    public-domain English translation of either work was found. **A significant find beyond
+    what was searched for:** Instructionum liber I's own praefatio ad Salonium directly names
+    Honoratus as "primo insularum postea etiam ecclesiarum magistro," Hilary of Arles as the
+    island's own teacher ("beatissimi Hilarii tunc insulani tironis sed iam nunc summi
+    pontificis"), and Salvian and Vincent of Lerins together as those who "consummantibus...
+    eloquentia pariter scientiaque praeeminentibus" completed Salonius's formation - the Latin
+    original, independently vendored for the first time, of the Salvian/Vincent co-teacher
+    testimony gallic_Source_Registry.md row 43 already flags as "quoted in translation by
+    Sanford but not yet independently vendored in Latin." The same volume's own appendix also
+    carries a real letter from Salvian to Eucherius ("Domino et dulci suo Eucherio episcopo
+    Saluianus"), praising the Instructiones on receipt - a direct primary attestation of the
+    Salvian-Eucherius relationship, not previously in this world's vendored library. This
+    material is squarely Native (the Lerins teaching-circle's own composition), not merely
+    tangential exegesis. Formulae's own content (an allegorical-interpretation glossary
+    addressed to Veranus) remains the more tangential of the two works, genre-wise. Corpus-map
+    assigned same day (Native, tradition role) - see gallic_Source_Registry.md row 46. No
+    formal Doc_02 §13A-style Boundary Check performed beyond the corpus-map note's own
+    reasoning; no WRS record cites this file yet; building lexicon/story content from it
+    (especially the named-teacher passage) is a separate decision, not made here.
+- filename: suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt
+  supplied_by: Claude (fleet cross-world research handoff, at Mark's standing acquisition discipline)
+  date_added: '2026-09-13'
+  notes: >-
+    The Translation of Alexander Thomson, M.D., revised and corrected by T. Forester, Esq.,
+    A.M. (Bohn's Classical Library; London: George Bell & Sons, 1909) - closes pahc's own
+    two-year-open acquisition item for Claudius 25.4 (the "Chrestus" expulsion notice) and
+    Nero 16.2 (Christians punished), previously paraphrase-only per
+    pahc.search.roman-historians-english-pd (2026-08-21, not_found - external text hosts were
+    blocked from that session's own sandbox). Surfaced by a fleet cross-world research
+    thread's resource handoff (2026-09-13); re-verified independently before vendoring rather
+    than trusted from the handoff's own claim - fetched directly and cross-checked against two
+    independent public-domain digitizations of the identical 1909 printing: Project Gutenberg
+    eBook #6400 (the transcription actually vendored - a clean text, license/donation
+    boilerplate stripped from both ends, body otherwise unaltered) and an archive.org scan
+    (identifier livesoftwelvecae0000suet_o9f1, confirmed not access-restricted via the
+    Internet Archive metadata API). Both cited passages checked against each other and found
+    to agree exactly, including the discovery that the fire-to-Christians link this world's
+    own records have always carried as Inferential-Thin is this edition's own 1909 editorial
+    footnote to ch. 39, never inside Suetonius's own ch. 16 text - a caution this build had
+    previously taken on secondary description, now directly confirmed in the vendored file
+    itself. A short bibliographic header (matching the addai/palladius plain-text convention)
+    was prepended, since the Gutenberg transcription carried no such header of its own.
+- filename: odes-of-solomon_harris-mingana1920.txt
+  supplied_by: Claude (fleet cross-world research thread finding, vendored by the syr build thread at Mark's standing direction)
+  date_added: '2026-09-13'
+  notes: >-
+    The Odes and Psalms of Solomon, Vol. II: The Translation, ed./trans. J. Rendel Harris and
+    Alphonse Mingana (Manchester University Press, for the John Rylands Library, 1920) - a
+    later, distinct re-edition of the same work as harris_odes-and-psalms-of-solomon_harris1911.txt
+    (Harris's own 1911 2nd edition, Cambridge), not a replacement for it.
+    syr.source.odes-of-solomon.md cites the 1911 edition as its vendored source (acquired and
+    verified 2026-09-09) and is unchanged by this addition. This 1920 re-edition was located
+    independently by a parallel research thread that had not yet learned of the 2026-09-09
+    acquisition; added here as a second library resource rather than discarded, since both are
+    legitimate public-domain editions and a future pass may want to compare their OCR quality
+    before writing any quote record (neither edition has one yet - the source record's own
+    Native/Contested framing, "nothing load-bearing rests on the Odes," is unchanged by
+    either vendoring). Independently re-verified before vendoring: fetched directly from
+    archive.org (archive.org/details/odespsalmsofsolo02harruoft, HTTP 200, ~1MB OCR text),
+    title page confirms Rylands imprint/Harris & Mingana/1920, whole-file grep for "copyright"
+    returns nothing, all 42 Odes present and individually addressable by their own ODE I-XLII
+    headings. RIGHTS: public domain by date - a 1920 volume, clearing this corpus's "to ~1929"
+    rule outright, the same basis as chronicle-of-edessa_cowper.txt and not the weaker
+    transcriber-declaration basis aphrahat_demonstrations-2-7_hallock1932.txt rests on. A
+    bibliographic header (title/creator/print-basis/rights/rights-basis/source-collection,
+    matching this corpus's own established convention) was prepended - the archive.org OCR
+    derivative carries no "Rights:" line of its own.
+- filename: paulinus-milan_vita-ambrosii_kaniecka1928.txt
+  supplied_by: Claude (fleet cross-world research thread found and verified the edition on
+    archive.org; the ijc thread fetched, normalized, and vendored it)
+  date_added: '2026-09-13'
+  notes: >-
+    Paulinus of Milan, Vita Ambrosii, trans. Sister Mary Simplicia Kaniecka (Catholic
+    University of America, 1928) - closes ijc.source.paulinus-vita-ambrosii's own
+    'unvendored, fails closed for quotation' state (see ijc.search.paulinus-vita-english).
+    This source's edition was correctly identified from bibliographic listings during
+    ijc's step 2 (2026-08-21), but no patristic-text host this build's sandbox could reach
+    at that time carried a copy. Found on the Internet Archive (identifier
+    vitasanctiambros0000paul, not access-restricted) and fetched directly this session -
+    archive.org is reachable from this sandbox even where ccel.org/newadvent.org/
+    tertullian.org are not. Raw djvu OCR text; runs of 2+ spaces (a scan-layout artifact)
+    collapsed to one throughout, no wording changed - see the file's own prepended note.
+    The bee-swarm infancy legend (ch. II) this build's ijc.story.bees-of-milan already
+    cites via bibliographic reference is directly present and verified in this file; that
+    story's own Tier 3 'told without verbatim quotation' choice stays in force by design
+    (hagiographic legend, not documented biography), now for that reason alone rather than
+    unavailability as well.
+- filename: ammianus-marcellinus_roman-history_yonge1862.txt
+  supplied_by: Claude (fleet cross-world research thread found and verified the edition on
+    archive.org; the ijc thread fetched, normalized, and vendored it)
+  date_added: '2026-09-13'
+  notes: >-
+    Ammianus Marcellinus, Res Gestae (Roman History), trans. Charles Duke Yonge (Bohn's
+    Standard Library, 1862) - closes ijc.source.ammianus-marcellinus's own 'fails closed
+    for quotation' state (see ijc.search.ammianus-english). Book XXVII.3.12-13, the 366
+    Damasus/Ursinus election riot at the Basilica of Sicininus with its 137-dead casualty
+    figure, was previously reachable in this build only at second hand, via npnf202's own
+    editorial endnote quoting Ammianus rather than Ammianus's own prose. Found on the
+    Internet Archive (identifier romanhistoryofam00ammiiala, not access-restricted) and
+    fetched directly this session, on the same basis as the Paulinus entry immediately
+    above. Raw djvu OCR text, same whitespace-only normalization applied, no wording
+    changed. Book XXVII.3.12-13 verified directly against this file and now carries its
+    own verbatim quote record, ijc.quote.ammianus-sicininus-massacre.
+- filename: bell_jews-christians-egypt-meletian-papyri_1924.txt
+  supplied_by: Claude (fleet cross-world research thread identified the item; this build
+    thread fetched, verified, and vendored it)
+  date_added: '2026-09-13'
+  notes: >-
+    H. Idris Bell, Jews and Christians in Egypt (British Museum, 1924) - identified by a
+    fleet-wide research pass checking this world's own in-copyright "purchasable" source
+    list for public-domain alternatives, triggered by Mark asking the same question.
+    desert.source.nepheros-archive's own body already named a second, earlier Melitian
+    dossier distinct from the 1987 Kramer and Shelton edition - the Pageus/Paieous
+    correspondence (monastery of Hathor, 330s-340s), citing P.Lond. VI, ed. Bell (1924) -
+    but that edition was not in hand. It is now: fetched directly from archive.org
+    (identifier jewschristiansin0000bell) and independently verified against the raw OCR
+    text (not the research note's own account) via the item's own full-text search API and
+    a direct download, confirming Part II ("The Meletian Schism," pp. 38-99) carries
+    real papyri and commentary naming Aurelius Pageus, the monastery of Hathor, and a dated
+    (334 CE) legal contract of his own appointing a deputy before departing for a council
+    at Caesarea - directly relevant primary material this world's build has not yet drawn
+    on. Not yet cited by any source/quote/story/doctrinal_witness record - registered as
+    desert.source.bell-jews-christians-egypt, the opportunity flagged there for a future
+    step, not built out in this same pass. RIGHTS: public domain by publication date
+    (1924, clears this corpus's "to ~1929"/rolling-95-year rule) in the US, but NOT yet
+    under a life+70 jurisdiction (Bell d. 1967, reaches 2038) - the mirror image of the
+    Budge Paradise caution already on file (Budge d. 1934, life+70 already elapsed).

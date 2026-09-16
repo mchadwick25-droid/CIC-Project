@@ -16,6 +16,7 @@ sources: []
 author: "Jerome, writing in the joint name of Paula and Eustochium (c. 386, Bethlehem)"
 work: "Epistula 46, 'Paula and Eustochium to Marcella': an invitation to Marcella to leave Rome for the Holy Land, transmitted under the women's names but widely accepted in modern scholarship (Nautin's stylistic analysis; Cain) as Jerome's own composition"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id v.XLVI"
+kind: vendored
 rights_status: public-domain
 attribution_status: "attributed to Paula and Eustochium in the manuscript tradition; authorship widely accepted as Jerome's own - see hal.contested.ep46-authorship"
 discovery_channel: "prior HAL build Docs 01/02 (Open Issue 3); located in the vendored corpus; rights read from the file's own DC.Rights header"

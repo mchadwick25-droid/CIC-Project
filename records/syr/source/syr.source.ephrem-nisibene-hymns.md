@@ -19,6 +19,7 @@ work: Nisibene Hymns (Carmina Nisibena) - 46 of the original 77 hymns; I-XXI (th
 edition: trans. J.T. Sarsfield Stopford (I-XXI, after Bickell's 1866 text) and others, revised and edited
   by John Gwynn, NPNF series 2 vol. 13 (1898); vendored as cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml
   (div iii.iv)
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed (the Nisibene cycle is among the securely genuine works by Beck's manuscript-and-anachronism
   tests)

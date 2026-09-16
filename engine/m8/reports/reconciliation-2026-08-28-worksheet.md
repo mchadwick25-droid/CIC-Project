@@ -199,7 +199,7 @@ to amortize the first turn's cache-write over) — nothing in the real data
 supports $0.25.
 
 **Where `$0.25/hr` actually came from:** it is not a measurement of this
-engine at all. `Ministry/Technology/Pass3/cost_floor_model.py` and
+engine at all. `Archive/Technology-Pass2-2026-08/Pass3/cost_floor_model.py` and
 `provider_repricing.py` both use "$0.25–1.00/hr" repeatedly, but as a
 **target band** from an earlier cost-reduction modeling exercise — and
 that same script's own output states the *modeled* current/baseline cost

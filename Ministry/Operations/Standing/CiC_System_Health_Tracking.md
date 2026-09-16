@@ -391,3 +391,320 @@ note:** this thread does not call Cloudflare directly — its check-runs and
 deploy-preview comments arrive from Cloudflare's own GitHub App integration — but per
 Mark's direction, treat that integration as suspended: don't chase a red or missing
 Cloudflare Workers Build check as a finding in any sweep until Mark says otherwise.
+
+---
+
+## 2026-09-13 — Full sweep on request: every build/live/run file, not just the diff
+## since last sweep
+
+**Mark asked directly** for a full corruption/notes/comments/cost/complexity sweep of
+all active files, not the routine incremental-since-last-sweep check this thread
+normally runs. Scoped to four parallel read-only audits: `engine/` + `cic/engine/`
+(the running Python backend), `cic-poc/frontend/` + `cic-website/` (the live UI and
+site), `records/` + `canon/` + `cic/corpus-map/` (structural/parse integrity only, no
+content judgment), and `World-Builds/` + `world-build-docs/` final deliverables
+(document-hygiene watch, full file set this time instead of just the delta). Findings
+compiled into an Artifact ("Sweep Ledger") and put to Mark directly rather than acted
+on unilaterally, since most of what came back needs either his judgment call or
+belongs to another thread's own domain.
+
+**Clean, confirmed not assumed:** `engine/`+`cic/engine/` (271 files) and
+`cic-poc/frontend/`+`cic-website/` — zero corruption, zero stray debug/TODO/LLM-tell
+content in either. `records/`+`canon/`+`cic/corpus-map/` (1,853 files) — 0 YAML/JSON
+parse failures, 0 merge-conflict markers, 0 duplicate record IDs or keys, every
+worlds.yaml package pin and census_id resolves. `.github/workflows/ci.yml`,
+`engine/Dockerfile`, `render.yaml`, `wrangler.jsonc` — dense with commentary but
+every line explains a real constraint, nothing stray.
+
+**Found, not yet acted on (Mark's call, per the Ledger):**
+1. **134 of 143 tracked `packages/**/manifest.json` files are orphaned** (only 9 are
+   pinned by worlds.yaml) — the exact accumulation pattern the repo's own .gitignore
+   already documents and tells sweeps to clean up. Orphan list computed and verified.
+   Tried `git rm` on all 134 — **blocked by this session's own auto-mode classifier**
+   ("Irreversible Local Destruction"), not by anything about the change itself.
+   Recoverable from git history regardless; not routing around the gate. Needs Mark's
+   explicit go-ahead or his own `git rm` to actually clear.
+2. **~50 files across Alexandria, Syriac, Donatism, and Cappadocian's Doc_01–09
+   deliverables carry embedded review/revision-log narrative** — a real violation of
+   CLAUDE.md's "keep the canonical surfaces clean" rule, but substantive prose in
+   documents this thread didn't write and doesn't have standing to silently edit.
+   Recommended routing to each world's own build-cycle thread rather than a unilateral
+   strip pass.
+3. **One truncated file**:
+   `World-Builds/01-Post-Apostolic-House-Church/Doc09_Story_Chunks/pahcstory009_two-ways-catechumen.md`
+   cuts off mid-word at EOF. This thread has no access to the real ending — flagged to
+   the pahc world thread to restore, not something to guess at.
+4. **cic-website/ cost/complexity bundle**: ~2MB of dead JSON data (project's own
+   decision log already admits `world-census.json` isn't rendered anywhere),
+   `tour.html` unreachable from site nav (confirmed, not guessed), ~3.4MB of
+   byte-identical portrait images duplicated across `cic-poc/frontend/` and
+   `cic-website/`, one 1.1MB image rendered at 72×72px, movement/census data
+   triplicated with a documented manual-sync requirement, and shared CSS tokens
+   redeclared inline on ~14 of ~20 pages instead of using the one stylesheet that
+   already exists. The dead data, the unreachable page, and one duplicate helper
+   function are zero-risk deletes; the image sizing, CSS architecture, and data-sync
+   questions are real design calls that belong with the frontend/product thread, not
+   this one.
+5. **`cic/corpus-map/cyrilline-miaphysite-egyptian-christianity.yaml` vs.
+   `...-tradition.yaml`** — two buckets for what the data's own note calls a
+   near-duplicate census id, self-flagged as needing "a single ruling on which of the
+   two carries corpus." Routed to the Library Build Engine thread, which owns
+   `cic/corpus-map/`.
+
+**Next action:** none from this thread until Mark responds to the five decisions in
+the Ledger. Nothing was edited in `records/`, `canon/`, `World-Builds/`,
+`world-build-docs/`, `cic-website/`, or `cic-poc/frontend/` this sweep — every finding
+above is reported, not applied.
+
+---
+
+## 2026-09-15 — "Fix them": three of five Ledger findings closed; revision-log
+## strip completed for Alexandria/Syriac/Cappadocian, with one bad first attempt
+## caught and reverted before it shipped
+
+Mark authorized fixing the outstanding Sweep Ledger findings directly ("fix them").
+Findings 1, 2 (partial — see below), and 3 closed; findings 4 and 5 stayed exactly
+where the Ledger left them (frontend/product-thread and Library Build Engine thread
+calls respectively — not touched).
+
+**Finding 3 (truncated file) — fixed, PR #202.**
+`pahcstory009_two-ways-catechumen.md`'s citation was completed from the real vendored
+source (`cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml`,
+Didache 5:1), not guessed — read the actual chapter text before writing the
+completion.
+
+**Finding 1 (orphaned manifests) — fixed, PR #202, with a self-caught error en
+route.** Of 146 orphans (recomputed at fix time, up from the Ledger's 134),
+`git rm`'d all, then CI's own `check_paths.py` gate ("Cited paths resolve; retired
+paths absent") caught 22 of them as still cited by path from `Review-Artifacts/`,
+decision logs, and `Open_Gaps_Tracking.md` — restored exactly those 22 from the
+pre-deletion commit, re-verified locally against `tools/check_paths_baseline.txt`
+before re-pushing. Net: 124 removed, 22 kept. Also retracted two findings from the
+original Ledger on re-verification before acting: `world-census.json` and
+`corpus-coverage.json` are live (read by `engine/m1/cross_world.py`, generated by
+`cic/engine/corpus_coverage.py`), not dead data as first reported; `tour.html` is
+deliberately dormant per an existing decision-log note, not an accidental orphan.
+
+**Finding 2 (embedded revision-log narrative) — fixed for Alexandria, Syriac, and
+Cappadocian; Donatism was already clean per its own thread's prior fix. PRs #203
+(merged) and #205 (open).** Three parallel background agents, one per world, each
+scoped to the same instruction: remove self-contained `## Revision Log`
+sections and inline round-by-round review narration; leave citations, confidence
+tiers, and scholarly substance untouched; flag anything ambiguous rather than guess.
+
+**One agent's first pass on `Alexandria Doc_04_Gravity_Discovery.md` was reverted
+before committing.** It crossed from deleting narrative into rewriting inline
+`[Added 2026-09-09 per OG-6 §5.X...]` Open-Gap cross-reference annotations —
+a real conflict with this file's own "Track gaps and exceptions explicitly" rule,
+caught by reading the diff before staging, not after. `git checkout --` on that one
+file; the rest of that agent's first-wave output (Alexandria's other 7 Doc files)
+was clean and shipped in PR #203 alongside Syriac's first 17 files. The same agent's
+second attempt at Doc_04, later in the session, was narrow and clean (one hunk,
+same "corrected [date], Round N Opus review" pattern as everywhere else) — accepted.
+
+**Every file from every agent's output was read before staging, not trusted on the
+agent's own completion report.** Two specific rewritten factual claims in Syriac's
+`Doc_09_Story_Inventory.md` were checked directly against the documents they now
+cite (`Doc_04_Gravity_Discovery.md`'s real `## 5. Open Items Carried Forward to
+Step 5` section; `Doc_07_Integrated_Ecology_Analysis.md`'s actual Papa bar
+Aggai/Miles of Susa text) rather than assumed accurate — both confirmed grounded,
+not invented. The full diff for both worlds was grepped for `OG-\d+` before
+committing — zero gap-tracking cross-references touched. Cappadocian's one edited
+Python script (`wb_cappadocian_s21.py`, which carries the same narrative inline in
+WRS data-string payloads, not just comments) was re-compiled locally after editing.
+
+**Left deliberately untouched, flagged for a dedicated follow-up pass, not
+guessed at:** round-by-round review narrative that is the primary expository mode
+of some body paragraphs rather than a severable aside (Syriac Doc_01 §§5.5/5.6/§6
+and equivalents elsewhere); the `*_Phase*_DRAFT.md` files' deep inline narrative
+beyond their own `## Revision Log` headers; `CAPPADOCIAN_BUILD_LEDGER.md` (a
+build-status/gate-tracking ledger, functionally parallel to a Decision Log though
+not named one — possibly mis-filed relative to `Ministry/`, relocating it is a
+separate call). This is the same shape of finding as the Alexandria Doc_04
+near-miss above: mechanical section-deletion is safe to run unilaterally; rewriting
+prose that carries tracked scholarly or gap-tracking content is not, and needs
+either a much more precise mechanical tool (exact heading-to-next-heading matching,
+no freeform rewriting) or case-by-case review — not another freeform agent pass.
+
+**Findings 4 and 5 — untouched, as the Ledger already recommended.** cic-website's
+cost/complexity bundle (dead JSON, unreachable page, duplicate helper, image
+sizing/CSS architecture) stays with the frontend/product thread. The
+`cyrilline-miaphysite-egyptian-christianity.yaml` vs. `...-tradition.yaml`
+duplicate-census-id question stays with the Library Build Engine thread.
+
+**PR #205 merged** (Cappadocian + Syriac). **PR #206 open** (Alexandria, final
+world) — drive to green/merge per standing authorization.
+
+**Important catch during Alexandria's pass, worth generalizing beyond this
+batch: not every "Corrected [date], Round N Opus review" bracket is safe to
+strip, and shape alone doesn't tell you which.** `Doc_04_Gravity_Discovery.md`
+carried four `[Added 2026-09-09 per OG-6 §5.X...]` annotations, structurally
+identical to hundreds of other now-safely-removed brackets elsewhere in this
+batch. The difference only showed up on checking `Open_Gaps_Tracking.md`
+directly: **OG-6 is `Status: OPEN — awaiting project-lead disposition`**, its
+own most recent line reading "Nothing was changed." Those brackets are the
+live trace of an unresolved, escalated finding still waiting on Mark's
+ruling — not narrative about a completed correction. Reverted a second time
+(this file was already reverted once earlier in this session for the same
+reason, on a first, cruder pass). **Standing rule for any future pass on this
+kind of narrative:** before stripping an inline dated annotation that cites
+an OG-N number, check that OG-N's own current status in
+`Open_Gaps_Tracking.md` — `OPEN` means the annotation is load-bearing content
+this document still needs, not log clutter; only a `RESOLVED`/closed entry
+makes the annotation safe to fold into plain prose.
+
+**Next action:** none pending from Mark on this batch. Doc_04 stays as-is
+until OG-6 is disposed of — that disposition is the project lead's, per OG-6's
+own "Status: OPEN — awaiting project-lead disposition" line, not this
+thread's to force by picking one of its three listed options.
+
+---
+
+## 2026-09-15 — Collateral CI break from the repo-architecture cleanup: caught
+## on PR #197, fixed at the root (PR #207) and ported into the PR it broke
+
+A "Cited paths resolve; retired paths absent" failure arrived via this
+thread's own PR subscriptions — not for a PR this thread owns, but on
+**PR #197** ("lpc-doc04-round2," a Latin-Pastoral-Congregational-Christianity
+content PR this thread neither opened nor was asked to drive).
+
+**Root cause, diagnosed before touching anything:** the repo-architecture
+thread's own PR #204 (merged same session) relocated
+`Ministry/Technology/CiC_World_Build_Completion_Standard_V1.3.md` and
+`Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md` to
+`reference/method/`. PR #197 branched before that move; 4 of its own new
+Review-Artifacts lines still cited the old path. Not a defect in PR #197's
+own content or judgment — a structural collision between two threads' work,
+squarely this thread's "repo-wide, no single PR's diff caused it" mandate,
+not a content call requiring escalation.
+
+**Also found in the same pass, genuinely pre-existing on `main` itself (not
+caused by #204):** `check_paths.py` run clean against `main`'s own tip
+surfaced two more items — one baseline entry now resolves
+(`cappadocian_Source_Registry.md`'s `reference/section-pointer` citation,
+now real thanks to #204) and one newly-surfaced, permanently-legitimate
+absence (`CiC_Demo_Conversation_Captures_V0_1.md` cites `.claude/launch.json`,
+a real local dev config `.gitignore` deliberately keeps untracked). Neither
+was PR #197's fault either.
+
+**Fixed, both mechanical, both verified locally before pushing:**
+- **PR #207** (merged, `6f2aa8f1`): `tools/check_paths_baseline.txt` —
+  removed the now-resolved Cappadocian entry, added the `.claude/launch.json`
+  exception. `check_paths.py --baseline` exits 0 on `main` after.
+- **Pushed directly to PR #197's own branch** (`a6c48e26`, with a courtesy
+  comment explaining why and pointing at #207): rewrote its 4 stale citations
+  to `reference/method/...`. Verified before pushing by merging the branch
+  with current `main` in a disposable local branch and re-running
+  `check_paths.py` — confirmed only the (then-still-open) #207 issue
+  remained, nothing PR #197-specific.
+
+**Process note, logged so it doesn't repeat:** this thread's designated
+branch is `claude/cic-system-health-ln97i3` — the #207 fix was drafted on a
+fresh branch (`sys-health-baseline-cleanup`) by mistake, caught before
+merging, and moved onto the designated branch via fast-forward before
+opening the PR. The stray remote branch couldn't be deleted (permission
+denied) and was left in place, harmless — same commit, now also on the
+designated branch and in `main`.
+
+---
+
+## 2026-09-15 — Scheduled sweep: main's own tip broke again (Era VI/VII
+## dossiers), and LPC's own review caught — and correctly didn't fix — a
+## second round of the #204 collision
+
+**`main`'s own tip failing `check_paths.py` again, unrelated to the #204
+collision above.** Six new Source Readiness Dossiers landed for the
+upcoming Era VI/VII (Reformation-era) build run (PR #222); four cite
+`cic/corpus-map/` buckets that don't exist yet (`lollardy`,
+`lutheran-wittenberg-and-its-congregations`, `the-society-of-jesus`,
+`the-tridentine-church`). Checked, not assumed, that this is normal rather
+than a process error: every Era 1 dossier's own corpus-map file already
+exists, but the project's own `SOURCE-READINESS.md` explicitly allows a
+dossier to predate its corpus-map by years. **Fixed, PR #226 (merged,
+`302e95e0`):** baselined all four — one (`lutheran-wittenberg`) self-resolves
+once open PR #225 merges (its own diff creates that exact file); the other
+three are genuinely pending future vendoring.
+
+**Second LPC collision from the same #204 rename, this time caught first by
+LPC's own review thread, not this one.** `Doc08_Round6_Review.md` (a new
+file, didn't exist during the first collision) cited the pre-#204
+`Ministry/Technology/...` paths again. LPC's Round 6 reviewer independently
+investigated, correctly determined **not** to silently revert or re-fix
+`a6c48e26` (this thread's earlier fix), and instead reported the
+discrepancy precisely: checked `ls`/`git ls-tree` across every branch it
+could reach, found `Ministry/Technology/` and not `reference/method/`
+everywhere, and asked "whoever owns the rename" to decide. That check was
+accurate on its own terms but used the wrong frame — CI evaluates the PR's
+**merge ref** (head + current `main`), not any raw branch in isolation, and
+`main` has carried `reference/method/` since #204 merged. Replied on the PR
+with that distinction spelled out plainly, confirmed `a6c48e26` should
+stand, and fixed Round 6's own new instance (`d8471073`) — careful, on the
+first pass, to touch only the live citation (line 34) and not the
+historical narrative describing what `a6c48e26` renamed *from* (a
+`sed`-wide replace briefly corrupted that sentence; caught in the diff
+before committing, reverted precisely).
+
+**Three more legitimate LPC citations found and baselined in the same pass
+(PR #226's second commit, `ccfec047`):** `lpc_Decision_Log.md` and
+`Datus_Portrait_Prompt.md` both cite a not-yet-existing portrait image and
+`records/worlds.yaml` (LPC isn't registered there yet — `Datus_Portrait_Prompt.md`
+says so itself, in its own words, rather than guessing a slug); and
+`Doc08_Round6_Review.md`'s own narrative legitimately re-cites both old
+`Ministry/Technology/` paths as historical fact describing the rename —
+correct prose, not a stale reference, but `check_paths.py`'s path-matching
+can't tell the difference. All three citing files are on LPC's own
+still-open branch, not `main` yet — baselined proactively rather than
+waiting to hit the identical gap again once that branch merges. Verified
+via a disposable local merge of this thread's branch with LPC's current
+branch before pushing either commit.
+
+**Also swept clean this round:** fleet-size watch still at 9 (no change,
+well under the 15 trigger); doc-hygiene grep across everything touching
+`World-Builds/`, `world-build-docs/`, `cic/texts/`, `cic/corpus-map/`,
+`engine/`, `records/`, `cic-website/` since the last sweep — no stray
+TODO/debug/LLM-tell content, no `## Revision Log` recurrence.
+
+**Next action:** none pending. PRs #197 and #225 will show green once they
+next receive a push or a manual CI re-run — GitHub doesn't re-trigger
+checks on a PR just because its base branch advanced, and forcing one
+(an empty commit, a close/reopen) is against this thread's own rules.
+
+---
+
+## 2026-09-16 — Scheduled sweep: repo-architecture phase 2 has landed; one
+## local-only false positive caught before being reported as real
+
+**Phase 2 of the repo-architecture cleanup is now live on `main`.** 12
+worlds' `World-Builds/<Name>/` and `world-build-docs/<code>/` trees have
+moved into `worlds/<code>/` and `worlds/<code>/build/` respectively
+(`tools/moves-phase2.tsv`). The 6 not-yet-coded Era VI/VII worlds
+(Anabaptist Movements, Lollardy, Lutheran-Wittenberg, Reformed
+Zurich/Geneva, Society of Jesus, Tridentine Church) correctly stay under
+`World-Builds/` until each gets a registry code, per that thread's own
+design shared with this one on 2026-09-15.
+
+**Caught before reporting: a local check_paths.py failure that wasn't
+real.** A fresh `main` sync locally showed `RETIRED PATH PRESENT:
+World-Builds/Cappadocian`, which would have meant this thread's own
+mandate territory (a genuine repo-wide break). Investigated before acting:
+the only thing actually inside that directory was a stray
+`__pycache__/wb_cappadocian_s21.cpython-311.pyc` — a leftover from this
+thread's own `python3 -m py_compile` verification during yesterday's
+Cappadocian script review, properly `.gitignore`d and never committed.
+`git log` on the file showed no history; `git status` showed nothing. Not
+a `main` defect — a contaminated local checkout. Deleted the stray file
+and directory locally; nothing pushed, nothing to fix upstream. Logged
+here only so a future sweep (by this thread or anyone) doesn't waste time
+re-diagnosing the same false alarm, and as a reminder that this check
+needs a clean tree to trust — a session's own prior local commands can
+poison it.
+
+**7 open PRs this round** (#236, #234, #233, #230, #229 — all new since
+the last sweep, all green, newly subscribed; #225 and #197 — already
+tracked, showing their pre-fix CI state from before #226/#227 merged,
+unchanged since neither has received a new push). Fleet-size watch: still
+9, no change. Hygiene grep across everything touching `worlds/`,
+`World-Builds/`, `cic/texts/`, `cic/corpus-map/`, `engine/`, `records/`,
+`cic-website/` since the last sweep — clean.
+
+**Next action:** none pending.

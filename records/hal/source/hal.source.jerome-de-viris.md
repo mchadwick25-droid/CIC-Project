@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "De Viris Illustribus (392/393, Bethlehem): Jerome's catalogue of Christian writers, closing with his own entry and works-list - the community's own bibliography of the tradition it claimed, and a primary vehicle of Jerome's scholarly self-presentation (including his account of his Jewish teachers and his Didymus connection)"
 edition: "trans. Ernest Cushing Richardson, NPNF2-03 (1892), vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, div id v.iii"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior HAL build Doc_02 (Approved to proceed); located in the vendored corpus; rights read from the file's own DC.Rights header"

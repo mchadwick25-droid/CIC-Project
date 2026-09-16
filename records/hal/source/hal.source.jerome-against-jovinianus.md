@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Adversus Jovinianum (393, Bethlehem): the two-book polemic defending virginity's superior standing against Jovinian's claim that all baptized Christians hold equal merit - so severe against marriage that Jerome's own Roman friends (Pammachius among them) tried to withdraw it from circulation, and Jerome wrote Epp. 48-50 defending himself"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id vi.vi"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "located in the vendored corpus during this branch's step-2 pass - the fullest within-window statement of the virginity theology Ep. 22 exhorts, plus direct evidence that its severity was contested inside the community's own circle"

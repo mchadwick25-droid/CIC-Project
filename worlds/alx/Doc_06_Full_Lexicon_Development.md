@@ -1,0 +1,89 @@
+# Doc_06 — Full Lexicon Development
+## Alexandria (Catechetical-School) Formation World
+
+**World code:** `alex`
+**Produced at:** Construction Step 6 (Framework V7.3, Part III + Part VII)
+**Required before:** Doc_07 (Integrated Ecology Analysis — its affective/conceptual lenses depend on Tier-1 entries reaching genuine depth)
+**Governed by:** Construction Framework V7.3, Step 6; Interpretive Lexicon Development Framework; Deployment Lexicon Chunk Template V1.1 (L4); Constitution Articles 26 ([CT] tagging), 30 (Three-Level Transparency), 17 (confidence), 23 (Writing-From-Inside).
+**Companion artifacts:** `Lexicon-Chunks/alexlexNNN_*.md` (deployment chunk files); `Lexicon_Deployment_Index.xlsx` (master index — one row per term, filterable by tier/tag/CT/Author-Gravity, with a CT-Contest-Type check sheet, a Related-Terms reciprocity check, and a "chunk-file built" column). Last confirmed synced against this document and the chunk files: **2026-07-17**.
+**Status:** **Approved to proceed** — self-disposed by this build thread, 2026-07-17, per the `cic-build-cycle` discipline. Cleared Round 2 independent adversarial review (`Review-Artifacts/Doc_06_Round2_Review.md` — all six Round-1 substantial findings resolved; reciprocity sheet independently confirmed honest); Round 1 (`Doc_06_Round1_Review.md`) returned SUBSTANTIAL (6 substantial: §2/index number drift, Didaskaleion tier, false reciprocity reporting, an analytical marker in the Nous World Meaning, an Athanasius citation mislocation, a phantom index sheet; +5 cosmetic — all resolved; C1 the template-header defect flagged for the coach as outside build-thread authority; a final "Layer Two" cosmetic residue cleaned directly). None of the four escalation categories applies. Both reviews are AI review ("Simulated review — informational only, not an Article 31 substitute"). "Approved to proceed" unblocks Doc_07 and nothing more; not "Frozen."
+
+---
+
+**Build discipline note:** Built fresh in the current construction cycle. The Alexandria-v7 per-term lexicon (`alexlex001–045` + Tier-2/Tier-3 consolidated files) was used as working source; every entry is re-drafted, all Representative-specific ("Theon") content — deployment-status paragraphs, "the ache" posture, per-Representative configuration — is **excluded** (Article 3; OG-2), and the World Meaning of each chunk is written **from inside** the world's own ecology with no analytical-distance markers (Article 23; the chunk template's own Final Assembly step 3). Tier assignments are confirmed against **this build's own Doc_04 gravity discovery**, not inherited. Confirmed gravities, the stratum-bias constraint (OG-4), and the desert cross-build boundary are carried from Doc_04/Doc_05.
+
+---
+
+## 0. What This Document Does
+
+Step 3 produced a candidate list; Step 6 produces the **full lexicon** now that gravity discovery (Doc_04) and ecological reconstruction (Doc_05) are complete and can inform the depth of each entry. This document:
+
+1. **Assigns `alexlex` numbers** (deferred from Step 3 by design). The confirmed Tier-1 set takes numbers `alexlex001–045`, adopting the Alexandria-v7 numbering as the reusable asset **re-confirmed against this build's Doc_04** (the gravity-central terms are all within it); `046` is the Doc_06-assigned Tier-1 Worship/Latreia; Tier-2 terms take `047` onward per the Doc_03 roster. **This world's roster resolves to Tier-1 and Tier-2 only — no term is assigned Tier-3** (the lowest-weight terms are held at Tier-2, carrying a Quick Meaning and a brief World Meaning).
+2. **Confirms tiers against Doc_04.** A term earns Tier-1 (full three-level treatment + always-available deployment chunk) only where the ecology gives it organizing weight; §1 records the confirmations and the one tier change from the Doc_03 preliminary estimates.
+3. **Specifies the CT Contest Type for every [CT] term** (Article 26; the single most common lexicon gap). §2 does this for all CT terms, and records the resolution of one Doc_03 *deferred* CT.
+4. **Produces deployment chunk files** for the gravity-central Tier-1 terms (this cycle), built to the Deployment Lexicon Chunk Template with Quick Meaning / World Meaning (from-inside) / Ecological Function / Distortion Risk / Key Sources / CT Contest Type (where CT applies) / Reported-Experience Status (where applicable). §3 records what was built and what remains as disclosed deployment-layer follow-on.
+5. **Builds the master Deployment Lexicon index** (§4) and runs the reciprocal Related-Terms check.
+
+**Scope and disclosed deferral (Article 36).** Producing the *complete* set of deployment chunk files for all 130 terms is deployment-layer work. This cycle builds the **10 gravity-central Tier-1 chunks** (following the Syriac precedent of a produced subset with the index covering the full roster) and specifies everything the remaining chunks need; the remaining chunk-file production is **named here as deferred, disclosed follow-on**, not silently omitted. The full three-level *content* for the gravity-central terms is in the built chunk files; the master index governs the whole roster.
+
+---
+
+## 1. Tier Confirmation Against Doc_04
+
+The Doc_04 confirmed gravities set which terms carry organizing weight and therefore earn Tier-1 depth:
+
+- **Confirmed Tier-1 (full three-level + always-available chunk):** the Primary-gravity vocabulary — **Logos** (001, the C4 integrating center), **Scripture** (014, C1), **Transformation** (021, C2), **Knowledge/Gnosis** (005), **Illumination** (004), **Participation** (007), **Salvation** (036) — plus the Supporting-gravity vocabulary **Divine Pedagogy** (002, C3), and the anthropology/christology anchors **Soul** (010), **Nous** (011), **Image/Likeness** (009/012), **Christ/Incarnation/Holy Spirit/Resurrection** (022/039/044/019), the interpretive anchors **Christological Reading/Allegory/Interpretation/Rule of Faith** (015/016/035/031), and the formation/worship anchors **Catechesis/Teacher/Prayer/Fasting/Baptism/Eucharist/Church/Household/Martyrdom** (003/029/028/027/025/026/043/034/033). **Theosis** (008) keeps Tier-1 depth as the *horizon* term but is flagged **Formation Dynamic, not a gravity** (Doc_04 D-B) — it names *where* transformation goes, not *how* it organizes; the rebuild must not present it as an organizing force.
+- **Tier changes from the Doc_03 preliminary estimates:** **Hope** (045) and **Restoration** (020) are *promoted* to Tier-1 (Hope as the eschatological-horizon term the transformation/theosis vocabulary requires; Restoration as the now-confirmed-separable restorative conviction, §2); **Worship / Latreia** is confirmed Tier-1 and, lacking an Alexandria-v7 number, takes the Doc_06-assigned `alexlex046`. **No** Doc_03 Tier-1 estimate is demoted below Tier-1 — gravity discovery confirms the anchor set. (Learning-Formation Integration is a *Supporting* gravity that attenuates late — its vocabulary, e.g. *paideia*, *disciple*, remains Tier-2, consistent with Doc_03.)
+- **Stratum-bias note on the lexicon (OG-4):** the lexicon is a lexicon of the **literate-attested** ecology's vocabulary. Where a term's *depth* is attested only in the school tradition, the chunk's Key Sources and confidence say so; the lexicon does not project the school's technical vocabulary onto the non-literate majority.
+
+---
+
+## 2. CT Contest-Type Specification (Article 26 — all CT terms)
+
+Article 26 requires that wherever the [CT] tag is applied, the specific contest be stated (not left templated). The firm CT set is **six** terms. **One Doc_03 deferred-CT is resolved here:** **Restoration** (020) was carried in Doc_03 §4 as "CT deferred pending a separability demonstration." Doc_04 supplied it: the broadly-shared restorative conviction is **separable** from Origen's condemned *apokatastasis* — Athanasius is the standing demonstration that a full restoration theology does *not* require the universalist extension. **Restoration is therefore confirmed NON-CT** (Widely Accepted, separable); the contested material lives entirely in **Apokatastasis**. The six firm CT terms and their contests:
+
+| Term | alexlex | Contest type(s) | The specific contest |
+|---|---|---|---|
+| **Apokatastasis** | Tier-2, `alexlex051` | **Meaning** + Relationship to present-day traditions | Whether the propositions condemned at the Second Council of Constantinople (543/553 — precise conciliar status itself debated) accurately represent **Origen's own position**; patristics specialists are genuinely divided (later distorting systematization vs. meaningful continuity). Sole systematic source: Origen (maximal Author-Gravity). Also: how the historical hope relates to present-day universalist debates. |
+| **Nous** | Tier-1, `alexlex011` | **Meaning** | Whether Origen's *speculative* nous-cosmology (the nous as what the soul originally was; pre-existence) is the *same* position as the 553-condemned propositions. The nous as the soul's contemplative faculty is **not** contested; only the continuity of Origen's speculative stratum with the condemned propositions is. |
+| **Logikos / Rational Nature** | Tier-2, `alexlex090` | **Meaning** | Whether the "fallen rational natures" framework is Origen's own or a later systematization, and how it relates to the condemned propositions. (Also carries the desert cross-build flag.) |
+| **Fall / Descent** | Tier-2, `alexlex074` | **Meaning** + Application to this world | Whether Origen's pre-cosmic-fall account is his own or a later systematization, and its relation to the condemnations — such that "the Alexandrian Fall account" cannot simply be stated as settled. |
+| **Homoousios / Consubstantial** | Tier-2, `alexlex081` | **Historical scope** + Meaning | What "consubstantial" meant to the Nicene bishops (325) versus its later post-Nicene reception; bears directly on how Athanasius's usage is read. Temporally located post-325. |
+| **Catechetical School / Didaskaleion** | Tier-2, `alexlex059` | **Historical scope** | Whether it was a formal institution with continuous succession or a looser teaching tradition retrospectively formalized by Eusebius: **van den Broek (1995) and van den Hoek (1997) deny a formal institution before Origen; Scholten (1995) affirms an institution but as a theological, not catechumen, school** (Doc_01 §1.2). Eusebius carries HIGH Author-Gravity risk. |
+
+*(This table is the Doc_06 authority for CT contest types; each corresponding chunk file, where built, reproduces its term's contest in the CT Contest Type section verbatim from here. The `Lexicon_Deployment_Index.xlsx` "CT Contest-Type Check" sheet confirms every CT term has its contest specified.)*
+
+---
+
+## 3. Deployment Chunk Production (this cycle)
+
+Built to the Deployment Lexicon Chunk Template V1.1, in `Lexicon-Chunks/` — **all 45 Tier-1 chunk files (`alexlex001`–`alexlex045`) are now produced.** The first 10 (gravity-central terms + the flagship CT term Nous) were built earlier this cycle; the remaining 35 were built in the **2026-07-17 gap-closure pass** — mined from the Alexandria-v7 originals, Theon-stripped (Article 3), re-drafted to the from-inside "we"-voice and the current template, CT status pinned to §2, and independently adversarially reviewed (see `Analysis/v7_Gap_Closure_Tracker.md` and the `Review-Artifacts/Rep_Phase4…` + lexicon batch reviews).
+
+- *Gravity-central + flagship CT (first 10):* `001_logos` · `002_divine-pedagogy` · `004_illumination` · `005_knowledge-gnosis` · `007_participation` · `008_theosis` · `011_nous` (exercises the CT Contest Type section) · `014_scripture` · `021_transformation` · `036_salvation`.
+- *Gap-closure (remaining 35):* `003_catechesis` · `006_wisdom` · `009_image-of-god` · `010_soul-psyche` · `012_likeness-of-god` · `013_freedom-autexousia` · `015_christological-reading` · `016_allegory` · `017_sin-hamartia` · `018_death` · `019_resurrection` · `020_restoration` · `022_christ` · `023_son-of-god` · `024_word-of-god` · `025_baptism` · `026_eucharist` · `027_fasting` · `028_prayer` · `029_teacher` · `030_bishop` · `031_rule-of-faith` · `032_repentance-metanoia` · `033_martyrdom-witness` · `034_household` · `035_interpretation` · `037_faith` · `038_love` · `039_incarnation` · `040_mystery` · `041_oikonomia` · `042_virtue` · `043_church-ekklesia` · `044_holy-spirit` · `045_hope`.
+
+Each carries: retrieval front-matter (Term, World-Code, Tier, Tags, Aliases, Related-Terms, Retrieve-When, Do-Not-Retrieve-When); a **required** `## Quick Meaning`; a from-inside `## World Meaning`; Ecological Function; Distortion Risk (Modern vs World Hearing); Key Sources (with Author-Gravity notes where a source dominates); CT Contest Type (Nous); and a Related-Terms reciprocity note. Final-Assembly checks applied: no analytical-distance markers in World Meaning; Quick Meaning present and non-empty (verbatim heading); CT Contest Type completed where CT applies.
+
+**Tier-1 complete; Tier-2 disclosed deferred (Article 36):** the earlier Tier-1 Article-36 deferral is now **closed** (2026-07-17 gap-closure). The **Tier-2 chunk files** (`alexlex047`+, the lower-weight terms, plus the governed CT entries carried at Tier-2 — Apokatastasis `051`, Didaskaleion `059`, Fall/Descent `074`, Homoousios `081`, Logikos `090`, and Worship/Latreia `046`) remain **specified but not yet produced as files** — deployment-layer follow-on; their tiers, tags, CT status, and Author-Gravity flags are fully carried in the master index.
+
+**CT-surfacing convention (governance decision, 2026-07-17).** The firm-six CT terms remain exactly six (§2). Where a **Tier-1** term's own content *surfaces* one of those governed contests, the chunk carries a **"Carried Contest"** section that reproduces the contest and cross-references the governed CT entry, but does **not** take an independent `[CT]` front-matter tag (which would inflate the firm-six count and drift from the index). Applied: **Homoousios (`081`)** is surfaced at `022_christ`, `023_son-of-god`, `039_incarnation`; **Didaskaleion / Catechetical-School (`059`)** is surfaced at `029_teacher` (and referenced at `003_catechesis`). This keeps the index invariant honest — Teacher and the christology cluster are index-non-CT — while preserving the full contest content at the point of retrieval. *(A project-lead may override this convention — e.g. promote a surfacing term to an independent CT term — via a Doc_06 §2 table change.)*
+
+---
+
+## 4. Master Deployment Lexicon Index
+
+`Lexicon_Deployment_Index.xlsx` — one row per term across the full 130-term roster (sheet **Lexicon**), carrying: `alexlex` number, term, tier (confirmed), each tag as its own filterable column (AS/SC/DR/TC/RT/PV/CT), Author-Gravity-Risk (dominant voice), a **Cross-Build** flag column, CT-Contest-Type (for CT terms), and **Chunk-File-Built** (yes/no). Additional sheets: **By Tier**, **By Tag** (which includes the cross-build set as its own row), **CT Contest-Type Check** (every CT term with its contest specified — 6 rows, all specified), and **Related-Terms Reciprocity**. The index is derived from the same term data as the chunk files (not a separately-drifting list). The **Related-Terms Reciprocity** sheet reports the *true* status of every link across all 45 built chunks, re-audited from ground truth on 2026-07-17: **66 reciprocal pairs (132 mutual link-entries), 153 one-directional links flagged (not passed), and 1 not-yet-built reference** (Apokatastasis `051`, a Tier-2/CT entry, referenced only by `020_restoration`). One-directional links are carried as deployment-layer reciprocity-completion items per the flag-don't-hide discipline. The **CT Contest-Type Check** sheet remains the firm six exactly — Teacher (`029`) and the christology cluster (`022`/`023`/`039`) are index-non-CT (they *surface* the `059`/`081` contests; see §3). Last synced 2026-07-17.
+
+---
+
+## 5. Open Items and Handoff
+
+- **To Doc_07 (Integrated Ecology Analysis):** the Tier-1 entries now have genuine depth; the affective/conceptual integration lenses may proceed.
+- **[Deployment-layer, disclosed]** all 45 **Tier-1** chunk files are now built and reviewed (gap-closure, 2026-07-17). **Remaining:** the Tier-2 chunk files, and full completion of the flagged one-directional Related-Terms reciprocity links (§4). Each future chunk that surfaces a firm-six contest reproduces it per the §3 Carried-Contest convention; each carries the from-inside register and the Final-Assembly Quick-Meaning check.
+- **[Cross-build]** the desert-concentrated terms (Apatheia, Theoria, Nepsis, Askesis, Monasticism, Prayer Rule, Demons, Spiritual Senses, Logikos, Passion, Solitude, Spiritual Father — Doc_03 §3) carry the cross-build constraint into any chunk; their developed forms belong to the Desert Christianity build.
+- **[Numbering]** the Tier-1 `046` (Worship) and Tier-2 `047`+ numbering assigned here supersedes the Doc_03 "no numbers yet" state; the master index is the numbering authority.
+- **Consistency:** Restoration is now confirmed **non-CT** (§2) — the master index and any future Restoration chunk drop the [CT] flag; Apokatastasis carries the contested material. Theosis is Tier-1 depth but **Formation Dynamic, not a gravity** (§1).
+
+---
+
+*End Doc_06. Companions: 10 `Lexicon-Chunks/alexlexNNN_*.md` files + `Lexicon_Deployment_Index.xlsx`. Reviewed over two independent adversarial rounds (Round 1: SUBSTANTIAL REVISION REQUIRED; Round 2: CLEARED). Approved to proceed by this build thread, 2026-07-17. Next: Doc_07 (Integrated Ecology Analysis).*

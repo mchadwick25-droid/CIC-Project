@@ -111,7 +111,7 @@ tensions:
   by anything independent of the polemic that makes it
 relations:
 - type: associated-with
-  target: don.quote.what-has-the-emperor-to-do-with-the-church
+  target: don.quote.donatus-quid-est-imperatori
 ---
 Closes F3-E, the cell where this world is strongest, because the cell's
 central variant ("did Constantine corrupt the church - did the empire
@@ -127,7 +127,7 @@ accusations are drawn from `don.term.rebaptism`, `don.term.agonistici`
 and `don.term.pars-donati`, and the Circumcellion charge is carried as a
 charge whose character is contested (`cautions` item 4).
 
-Paired with `don.quote.what-has-the-emperor-to-do-with-the-church`;
+Paired with `don.quote.donatus-quid-est-imperatori`;
 reciprocal relation declared there. The text field names the quote's
 hostile framing in the voice rather than leaving it to the quote record's
 own `modern_lens_note`, because a reader who hears only the sentence

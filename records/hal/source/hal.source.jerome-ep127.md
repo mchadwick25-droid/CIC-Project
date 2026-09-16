@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Epistula 127, to Principia (412): obituary for Marcella - her early widowhood and refusal of remarriage, the Aventine household's ascetic life, her scriptural learning and the Roman clergy's consultations of her after 385, and her death following the 410 Gothic sack of Rome"
 edition: "trans. W.H. Fremantle, NPNF2-06 (1893), vendored as cic/texts/npnf206_jerome-principal-works.xml, div id v.CXXVII"
+kind: vendored
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior HAL build Doc_02 (Approved to proceed); located in the vendored corpus; rights read from the file's own DC.Rights header"

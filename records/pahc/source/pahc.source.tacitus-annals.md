@@ -16,6 +16,7 @@ sources: []
 author: "Tacitus (Roman senator and historian)"
 work: "Annals 15.44, written c. 116 CE describing events of 64 CE - Nero scapegoating Christians for the Great Fire; names Christus executed under Pilate"
 edition: "VENDORED 2026-08-27: cic/texts/tacitus_annals-15-44_church-brodribb1876.txt - Book 15 chapter 44 ONLY, about 375 words, in the English standardly identified as Alfred John Church and William Jackson Brodribb (1876). Public domain by date. Supplied by Mark from a transcription that carried Creative Commons BY-SA deed boilerplate in its tail, stripped at vendoring; that licence attaches to the transcriber, not to the 1876 translation. THE REST OF THE ANNALS IS NOT IN THIS CORPUS"
+kind: vendored
 rights_status: "public-domain, and now quotable. 1876 publication date, long out of US copyright; NOT read from the file's own front matter, which has none, but from the edition's publication date"
 attribution_status: attributed
 discovery_channel: "prior-build Source Registry row P08 (Doc_02, approved 2026-07-07); registered as an open acquisition by pahc.search.roman-historians-english-pd (result: not_found, 2026-08-21, because external text hosts are blocked from this sandbox rather than because no edition exists); supplied by Mark and vendored 2026-08-27"

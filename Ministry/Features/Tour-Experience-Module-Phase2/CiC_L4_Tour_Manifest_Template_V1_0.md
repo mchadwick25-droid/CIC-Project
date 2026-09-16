@@ -33,23 +33,23 @@ either extracted from or generalized from.
 
 **A naming note, checked rather than assumed:** the task that produced this document
 guessed "L4" might mean an operational/deployed-experience tier. That guess does not
-match this project's actual precedent. The real "L4" is `L4-Templates/` at the repo
+match this project's actual precedent. The real "L4" is `reference/L4-Templates/` at the repo
 root — a folder of reusable, fill-in-the-blank templates for the world-build
 construction pipeline (`Story_Repository_Chunk_Template.md`, `World_Capsule_Core_
 Template.md`, `Voice_Configuration_Template.md`, and others), each governing one
 document type in the Doc_01–Doc_10 sequence, each carrying the same builder-note/
 bracket/Final-Assembly-Instruction structure this document also uses. **This document
 is filed under `Ministry/Features/Tour-Experience-Module-Phase2/`, not inside
-`L4-Templates/` itself** — the task's own filing instruction, and the honest reason
+`reference/L4-Templates/` itself** — the task's own filing instruction, and the honest reason
 for it: tours are not yet an approved part of the core world-build pipeline (per
-TR-14's own BLOCKED status), and `L4-Templates/` is live, governed territory
+TR-14's own BLOCKED status), and `reference/L4-Templates/` is live, governed territory
 (`CiC-L1L3-Foundation` branch work reconciled into it as recently as this same day,
 commit `2b86b8b`) — not a place to add an unreviewed file uninvited, whether or not
 any other thread happens to be actively editing it at this exact moment. "L4" in this
 document's title names the *tier of artifact* this
-is — a reusable construction template, same species as the real L4-Templates — not a
+is — a reusable construction template, same species as the real reference/L4-Templates — not a
 claim that it has been promoted into that folder. If and when tours become a real part
-of the pipeline (TR-14+), moving this file into `L4-Templates/` proper is the natural
+of the pipeline (TR-14+), moving this file into `reference/L4-Templates/` proper is the natural
 next step, not done here.
 
 ---
@@ -416,8 +416,7 @@ something.
 An independent reviewer with no drafting involvement in the manifest — the same
 standing discipline as every other construction-document review in this project
 (the "independent isolated agent, no drafting involvement, first-principles skeptical
-read" pattern, most recently documented in `World-Builds/Imperial-Juridical-
-Christianity/Review-Artifacts/Doc09_Round1_Review.md`). The reviewer must have direct
+read" pattern, most recently documented in `worlds/ijc/Review-Artifacts/Doc09_Round1_Review.md`). The reviewer must have direct
 read access to:
 
 - the anchor world's own approved Doc_09 chunk(s), including Source Identification

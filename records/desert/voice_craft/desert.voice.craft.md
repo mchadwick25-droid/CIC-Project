@@ -161,29 +161,41 @@ strand-coverage note above, not treated as a gap in the required set
 itself.
 
 One cost the prior decision did not and could not check, since it
-predates this build's own Step 2/Doc_08 source-ecology work: three
+predates this build's own Step 2/Doc_08 source-ecology work: five
 distinct historical men named Paphnutius are named in this build's own
 source and force apparatus - desert.source.cassian-conferences (one of
 several named elders whose teaching Cassian's Conferences stage),
 desert.force.melitian-rivalry's own divergence_note (a Melitian monk
-named in a letter cited at Apol. Ar. SS67), and a third, unrelated to
-either, found this session directly in the vendored Palladius text
-itself: ch. XLVII, "Chronius and Paphnutius" (Paphnutius, surnamed
-Kephalas, a Scetis elder Palladius questions about why some ascetics
-fall away) - present in cic/texts/palladius_lausiac-history_
-clarke1918.txt but not yet cited by locus in
-desert.source.palladius-lausiac-history or any other record. None of
-the three appears in any compiled-facing field (story.text, quote.text,
+named in a letter cited at Apol. Ar. SS67), a third found in the
+vendored Palladius text itself: ch. XLVII, "Chronius and Paphnutius"
+(Paphnutius, surnamed Kephalas, a Scetis elder Palladius questions about
+why some ascetics fall away) - present in cic/texts/palladius_lausiac-
+history_clarke1918.txt but not yet cited by locus in
+desert.source.palladius-lausiac-history or any other record - a
+fourth, found 2026-09-13 while independently verifying
+desert.source.historia-monachorum's own closed acquisition: chapter 12
+of the Historia Monachorum's own 30-chapter contents list, "ABBÂ
+PAPHNUTIUS," preserved only in Budge's Introduction to the vendored
+cic/texts/palladius_paradise-v1-syriac_budge1907.txt (a bibliographic
+summary of the fuller Mosul manuscript, not a translated text of that
+chapter itself - the work it names remains unquotable, per that
+source's own record) - and a fifth, found the same day while verifying
+a newly-registered source, desert.source.bell-jews-christians-egypt:
+"Papnutius the deacon of Paminpesla," named as a witness in a dated 334
+CE legal contract quoted in that source's own `work` field. None of the
+five appears in any compiled-facing field (story.text, quote.text,
 doctrinal_witness.text, or honest_limit.statement) - the first two sit
 in a source record's own `work` field and a force record's own
-divergence_note (not a trailing body note - both are compiled-adjacent
-apparatus fields, checked here for completeness though neither reaches
-build_prompt() itself), and the third sits only in vendored source
-text no record has yet drawn a locus from; none is ever spoken by the
-voice. This is the same order of cost the prior decision already named
-and carried forward for the external Nicene-era Paphnutius, now found
-to hold internally too, in a wider form than first checked - named here
-rather than smoothed over, per this build's own standing discipline,
-and not treated as disqualifying, since the Representative is
-explicitly a composite voice built from this world's whole ecology, not
-an impersonation of any one attested figure by that name.
+divergence_note, the third sits only in vendored source text no record
+has yet drawn a locus from, and the fourth and fifth sit in two
+different vendored sources' own front matter and quoted-contract text
+respectively (all compiled-adjacent apparatus fields and vendored-text-
+only mentions checked here for completeness though none reaches
+build_prompt() itself); none is ever spoken by the voice. This is the
+same order of cost the prior decision already named and carried forward
+for the external Nicene-era Paphnutius, now found to hold internally too, in a
+wider form than first checked - named here rather than smoothed over,
+per this build's own standing discipline, and not treated as
+disqualifying, since the Representative is explicitly a composite voice
+built from this world's whole ecology, not an impersonation of any one
+attested figure by that name.

@@ -15,7 +15,6 @@ import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
-import yaml
 from fastapi import FastAPI, Header, HTTPException, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -23,6 +22,7 @@ from pydantic import BaseModel
 
 from engine.api import ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
+from engine.m1.registry import load_registry
 from engine.m4 import idle_close, session_code
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
@@ -462,7 +462,7 @@ def _build_real_app() -> FastAPI:
     client = make_client(settings.region)  # ONE client, reused for both roles - matches live_turn_run.py
     store = Store(settings.events_db_path)
     usage_store = UsageLogStore(settings.usage_db_path)
-    full_registry = yaml.safe_load(settings.worlds_yaml_path.read_text(encoding="utf-8"))
+    full_registry = load_registry(settings.worlds_yaml_path)
 
     # M7's conversation-quality audit existed but depended on someone
     # remembering to run it by hand - the one real gap in an otherwise-live
@@ -489,7 +489,7 @@ def _build_real_app() -> FastAPI:
         store=store,
         usage_store=usage_store,
         world_loader=LazyWorldLoader(),
-        registry=full_registry["worlds"],
+        registry=full_registry,
         default_world_key=settings.default_world_key,
         enforce_admission=settings.enforce_admission,
         rate_limit=True,
