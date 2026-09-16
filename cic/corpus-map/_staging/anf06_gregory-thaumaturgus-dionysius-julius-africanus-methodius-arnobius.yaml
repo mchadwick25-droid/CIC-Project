@@ -257,8 +257,15 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
-  note: 'Head of the catechetical school after Dionysius; the Hypotyposes fragments are the
-    school''s own teaching, Origenian in cast.
+  note: 'Alexandrian teacher of the later third century (fl. c. 260); the Hypotyposes fragments,
+    Origenian in cast. NOTE, corrected 2026-09-09 (OG-6): the previous note stated "Head of the
+    catechetical school after Dionysius" as fact. It is an inference - ANF6''s notice says only that he is
+    titled exegetes and that "Dodwell and others are of opinion" this means the school''s presidency. Two
+    things matter for use: he is ABSENT FROM EUSEBIUS entirely (ANF6: "we have no account by either
+    Eusebius or Jerome"), so the Eusebius HIGH-risk screen does not apply to him; but all three fragments
+    reach us through ATHANASIUS quoting him in post-Nicene anti-Arian polemic (De Decretis 25; Ep. 4 ad
+    Serapionem 11), which carries its own selection screen. He is also a disciple of Origen (ANF6, from
+    Photius), so he cannot lift the Origen SYSTEMIC screen.
 
     '
 - work: Fragments of Pierus of Alexandria
@@ -268,8 +275,12 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
-  note: 'Head of the catechetical school, called "Origen the younger" in the tradition; fragments
-    of his teaching.
+  note: 'Alexandrian presbyter and teacher, called "Origen the younger" by Jerome; fragments of his
+    teaching. NOTE, corrected 2026-09-09 (OG-6): the previous note called him "Head of the catechetical
+    school." This world''s own vendored Eusebius contradicts that - HE VII.32 places ACHILLAS over the
+    school, and NPNF''s editor concludes Photius'' contrary report "is false and rests upon a combination
+    of the accounts of Eusebius and Jerome." Note also how thin this is: one four-line quotation preserved
+    in Jerome''s Ep. ad Pammachium, plus a hostile Photius summary (Bibl. cod. 119).
 
     '
 - work: The Epistle of Theonas to Lucianus
@@ -399,7 +410,14 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
-  note: 'Doctrinal fragments of the bishop-martyr who also headed the catechetical school.
+  note: 'Doctrinal fragments of Peter, bishop of Alexandria (300-311) and martyr. NOTE, corrected
+    2026-09-09 (OG-6): the previous note called him "the bishop-martyr who also headed the catechetical
+    school." Nothing in the vendored material attests that - the whole anf06 div1 ix division nowhere
+    links Peter to the school, and both its introductory notices call him bishop, martyr, and a diligent
+    student of Scripture only. The school-headship tradition descends from Philip of Side, which is not
+    vendored here. Fragment VI ("Of the Soul and Body") is his demonstration against the pre-existence of
+    souls - pre-Nicene Alexandrian episcopal boundary-drawing against Origen - but reaches us via the
+    Sacra Parallela, a 7th-8th c. florilegium.
 
     '
 - work: Epistles on the Arian Heresy and the Deposition of Arius
