@@ -1,30 +1,44 @@
 # Go-Live Pipeline Coordinator — thread launch — 2026-09-16
 
-**What this is.** A standing coordination thread, not a one-shot task. Several worlds are
-now finishing their own build threads at the same time (`alx`, `cappadocian`, `desert`,
-`gallic`, `hal`, `ijc`, `pahc`, `syr` are `admitted`; `don` is `built`, not yet admitted;
-`grkap`, `latap`, `lpc` have a `worlds/<code>/` folder but no registry entry yet — still
-mid-build). Up to now, taking a finished world the rest of the way to production has been
-ad hoc, done inline in whichever thread happened to finish a world, or by Mark by hand
-against Render/Cloudflare dashboards. This thread's job is to own that handoff — every
-world, every time, the same way — from "a world's build thread says it's done" through to
-"live on the website with search, Atlas listing, and full conversation working."
+**What this is.** A standing thread, not a one-shot task, and it owns the *entire* rest of
+the distance to production — not just the pipeline mechanics. Several worlds are at
+different points right now (`alx`, `cappadocian`, `desert`, `gallic`, `hal`, `ijc`, `pahc`,
+`syr` are `admitted`; `don` is `built`, not yet admitted; `lpc` is mid-build through
+Doc_05; `grkap`/`latap` have only cleared Step0 — a `worlds/<code>/` folder exists but the
+real build hasn't started). Those worlds' own dedicated build threads have run long,
+accumulated enormous context, and are past the point of being the right vehicle to keep
+going (Mark's call, 2026-09-16) — this thread absorbs their remaining work rather than
+waiting on them. It both **finishes whatever build work is left** on a world and **runs the
+go-live pipeline** once it is, so nothing sits waiting on a hand-off between two threads
+that both have to be separately kept warm and re-briefed. One thread, start to finish: from
+wherever a world currently sits through to "live on the website with search, Atlas listing,
+and full conversation working."
 
-## What this thread does NOT do
+## Build work is now in scope — with the usual guardrails, not fewer of them
 
-It does not do world-build work itself — no records, no Doc_01–09, no chunking, no
-Representative construction. If it finds a real defect in a "finished" world (a broken
-citation, a failing gate, a stale package), it fixes the *pipeline* problem (rebuild,
-repin, rerun a gate) but sends anything that's actually a content/research problem back to
-that world's own build thread rather than rewriting its work — same discipline as the
-Ground-Up Rebuild handoff (`CiC_System_Hub_GroundUp_GoLive_Handoff_2026-08-11.md`): don't
-edit another thread's own output, surface it instead.
+Finishing a world's build (remaining `Doc_0N` documents, chunking, Representative
+construction, closing `Open_Gaps_Tracking.md` items, fixing a failing gate or a bad
+citation) runs under the **same self-governance the build-cycle discipline already
+uses** (CLAUDE.md "Scaling the build"): kick off and drive a world end-to-end,
+self-governing per that discipline's own rules, and escalate to Mark only for one of its
+four named categories — Representative identity/title decisions, portfolio-level/
+cross-world decisions, governance/methodology changes, or an unresolved tension the
+pipeline genuinely can't close on its own — plus never self-assigning Frozen status.
+Absorbing build work does **not** loosen any of that; it just means this thread is now
+the one doing it directly instead of relaying it to a separate thread. Before treating any
+of `grkap`, `latap`, or `lpc`'s prior build threads as closed, read whatever state they
+left (their own decision logs, `Open_Gaps_Tracking.md`, any Review-Artifacts) so real
+in-flight reasoning isn't silently dropped — inherit their work, don't restart it from
+zero.
 
 ## The pipeline this thread owns, per world, in order
 
-1. **Confirm build-complete.** Doc_01–09 approved to proceed, chunks and Representative
-   done, sitting at `worlds/<code>/`, `Open_Gaps_Tracking.md` has nothing blocking. If
-   anything here is still open, that world isn't this thread's yet — hand it back.
+1. **Get to build-complete.** Doc_01–09 approved to proceed, chunks and Representative
+   done, sitting at `worlds/<code>/`, `Open_Gaps_Tracking.md` has nothing blocking. If a
+   world isn't there yet, finish it — under the build-cycle self-governance above — rather
+   than waiting on a separate thread. This is the step most worlds currently sit at: `lpc`
+   needs Doc_06–09 plus chunking and Representative construction; `grkap`/`latap` need
+   nearly the whole build from Step0 forward.
 2. **M9 confinement/shelf gates green** (`engine/m9`) — Library Access Gate discipline,
    `corpus_index.py --entry <census_id>` used correctly, any waiver counts in
    `engine/m9/enforce.py` actually match what's newly vendored, not stale.
@@ -77,6 +91,10 @@ edit another thread's own output, surface it instead.
 
 ## Hard rules, carried over from this project's standing discipline
 
+- **Build work stays inside the build-cycle's own four escalation categories** (above) —
+  taking on build work is a scope expansion, not a license to loosen it. Representative
+  identity/title in particular is always Mark's call, never this thread's, build capability
+  or not.
 - **Never self-merge a PR.** Always wait for an explicit "merge PR N" from Mark.
 - **Never self-admit or self-open a world** (steps 4/5/8 above) — present results, get
   Mark's explicit call, then execute the flip. This is a named exception to "auto mode":
@@ -100,10 +118,16 @@ edit another thread's own output, surface it instead.
 ## First task, before touching any pipeline step
 
 Build and report the current per-world status table before doing anything else:
-`don` (built, needs Mark's admission read), `grkap`/`latap`/`lpc` (still mid-build, not
-this thread's yet — confirm with each world's own thread), and the 8 already-`admitted`
-worlds (confirm each one's package is current — not stale against its own `records/` —
-and whether any are already `open`/live today vs. merely admitted). Recommend, per world,
-the next concrete action and who it's waiting on (this thread, a build thread, or Mark) —
-then let Mark choose where to start rather than assuming every admitted world should be
-pushed to `open` immediately.
+- **`don`** — built, needs only Mark's admission read (step 4). No build work left.
+- **`lpc`** — mid-build through Doc_05 (Ecological Reconstruction); read its own
+  `lpc_Decision_Log.md` and `Open_Gaps_Tracking.md` first, then continue Doc_06 onward.
+  Check whether PR #197 (flagged earlier as needing a rebase onto `worlds/lpc/` paths) is
+  still relevant before restarting anything it already covers.
+- **`grkap`, `latap`** — only Step0 (movement scope confirmation) is done; read their
+  Review-Artifacts for whatever scoping work already happened, then pick up from Doc_01.
+- **The 8 `admitted` worlds** — confirm each one's package is current (not stale against
+  its own `records/`), and whether any are already `open`/live today vs. merely admitted.
+
+Recommend, per world, the next concrete action and whether it needs Mark's input before
+this thread can proceed on it — then let Mark choose where to start rather than assuming
+every world should be pushed forward at once.
