@@ -1901,6 +1901,6 @@ Applied by a fresh thread on the instruction that the failure mode to avoid was 
 
 **Not "conflicting sources."** The sources do not conflict. Three of this build's own documents used *mechanism* and *instance* interchangeably, and the Profile's "two mechanisms" was the loosest of the three.
 
-**Outstanding, and small:** `Doc_08` and `Doc_09` are cleared documents a build thread does not edit. Each needs one wording change — `Doc_08`'s *"only mechanism"* to *"only force in this matrix that carries the crossing"*, and `Doc_09`'s appositive widened to name both texts. Until then the Profile discloses the difference rather than hiding it.
+**Closed the same day, on the project lead's instruction.** `Doc_08` and `Doc_09` were edited to match: `Doc_08` Force 2B-4 and its connection table now say *only force in this matrix that carries the crossing* and name the second instance as outside the matrix; `Doc_09`'s appositive now names both texts. `lpc_Force_Index.md` was regenerated from the corrected `Doc_08`. The World Profile's disclosure of the disagreement was replaced with the resolved account, since quoting `Doc_08`'s superseded wording is the defect this build has spent the day removing. The prior wording survives only in the review artifacts, where it is the record.
 
 ---
