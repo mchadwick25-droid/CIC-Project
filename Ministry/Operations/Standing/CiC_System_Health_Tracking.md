@@ -708,3 +708,56 @@ unchanged since neither has received a new push). Fleet-size watch: still
 `cic-website/` since the last sweep — clean.
 
 **Next action:** none pending.
+
+---
+
+## 2026-09-16 (later sweep) — Real finding, not this thread's to fix: PR #197
+## (lpc) now shows a genuine merge conflict from the phase-2 migration, not a
+## stale citation
+
+**Not a repo-wide infra break — flagging why this thread stops here rather
+than applying its usual PR #197 fix.** This sweep found PR #245 (Go-Live
+Pipeline Coordinator) failing `check_paths.py` on a citation of
+`World-Builds/Latin-Pastoral-Congregational-Christianity`. Before treating
+this as the same mechanical "migration renamed a path, port the citation"
+fix this thread already made twice today (PRs #207/#226 lineage), checked
+what that citation actually documents: the Go-Live Pipeline Coordinator
+thread's own standing status doc
+(`Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md`) had already
+diagnosed, correctly, that **lpc now has two diverged build lines** —
+`worlds/lpc/` on `main` (the older snapshot the phase-2 rename captured,
+through Doc_05 only) and PR #197 itself (`lpc-doc04-round2`, still at the
+old, now-retired path), which is far more advanced: Doc_04-09 disposed,
+Representative construction resolved, two governance rulings adopted, none
+of it on `main`. The citation is accurate, not stale — rewriting it to
+`worlds/lpc/` would have pointed at the wrong, lagging copy and quietly
+endorsed exactly the outcome everyone actually needs to avoid.
+
+**Independently re-verified before accepting the other thread's report at
+face value:** `mchadwick25-droid/CIC-Project#197`'s own `mergeable_state`
+is genuinely `dirty` (checked directly via the GitHub API) — confirms the
+finding, not just their write-up of it.
+
+**This thread's own involvement, for the record:** earlier today this
+thread pushed two small citation fixes directly to PR #197's branch
+(`a6c48e26`, `d8471073`) — both were correct, narrow path-rename fixes
+made before this divergence was known, and neither touches the
+disposition/content work now at risk. Not reverting them; not touching
+that branch again until Mark has ruled on the reconciliation, per the
+Go-Live Pipeline Coordinator's own explicit "do not touch either line"
+recommendation, which this thread agrees with — this is a portfolio-level
+decision (which line is authoritative, whether/how to port the newer
+line's commits onto `worlds/lpc/`), squarely outside this thread's mandate
+and CLAUDE.md's own "cross-world or portfolio-level decision → always
+ask" default.
+
+**Left untouched, not this thread's:** PR #245's other two unresolved
+citations (a forward-reference to PR #243's own not-yet-merged launch
+prompt; an incomplete `engine/m1/test_cross_world.py` path missing its
+`tests/` segment, inside that PR's own new `WORLDS_REGISTRY_LOG.md`
+entry) — both are that PR's own content, not a repo-wide break.
+
+**Next action:** none from this thread. Surfaced directly to Mark in
+conversation rather than acted on. Everything else this sweep found was
+clean (7 other open PRs all green when checked; fleet-size and hygiene
+unchanged).
