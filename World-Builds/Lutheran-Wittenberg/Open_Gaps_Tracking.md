@@ -312,3 +312,93 @@ to the Revision 9 log's own statement) is a distinct and more serious concern th
 line count, and is exactly the kind of thing this project's "a record marked verified is a
 claim to re-check, not a fact to trust" discipline exists to catch. **Status: ESCALATED,
 2026-09-16, awaiting the project lead's direction.**
+
+## OG-8. Doc_04 (Historical Gravity Discovery): five review rounds, a self-certification failure that recurred three times before breaking, and the open items it seeds
+
+**Build history.** Doc_04 was drafted against the newly-discovered Gravity Discovery Template
+V1.0 (the invoked skill's "Doc_04 has no template" claim was out of date). Five independent
+review rounds followed. Round 1 (cold, full-document): 6 substantial findings, 12 cosmetic, 5
+observations — a Doc_03 §10.2 cluster (repentance/penance, indulgence, the keys) dropped
+between candidate generation and non-advancement with no fold recorded; an Interaction Matrix
+inline-line/matrix-cell mismatch at G7 and a direction conflict at G8/G13; two candidates'
+Repetition tests overstating "every Luther register read" against their own evidence columns; a
+confidence tag ("Widely Accepted") assigned on project-internal documents rather than
+scholarship; a fold (Law and Gospel) argued against two candidates while the document's own
+evidence showed two more depending on it; and a classification label ("Primary — prescriptive
+side only") outside the Template's four permitted values. All fixed at Revision 1.
+
+**Rounds 2–4 then surfaced the same self-certification failure pattern Doc_03's OG-7 already
+named, in a new shape.** Round 2 found that the Revision 1 fix for the Interaction Matrix
+mismatch had not actually been swept across the whole matrix as claimed — two more
+direction-versus-basis conflicts survived (G3–G6, G8–G12), and the document's own §0 sentence
+asserting the reconciliation had been done was, on independent test, false. Round 3 found that
+the Revision 2 fix had reached two of the three places that same false sentence lived (§0 and
+§11) but not a third (§5's own matrix preamble). Round 4 found something different in kind but
+the same failure mode: §3 G7 still asserted "the Brussels friars" — a characterization this
+world's own Source Registry (row R30) had already retired by post-approval technical
+correction, chased out of Doc_02 by this build thread across three of Doc_02's own five review
+rounds — contradicted by Doc_04's own §3 G9 one section later, and **affirmatively certified as
+"not inherited" by Doc_04's own §11 document log**, a certification Round 4 found false against
+the file. Each of these three findings was fixed in full at its own revision (2, 3, 4).
+
+**Round 5 broke the pattern rather than finding a fourth instance of it.** Independently and
+adversarially testing specifically for a residue of Round 4's own S9 finding — the way Rounds 2,
+3 and 4 had each found a residue of the round before — Round 5 found none: the Revision 4 fix
+landed at every location the defect lived (the candidate text, the log, a whole-document grep)
+on the first attempt. Round 5 returned **Cleared Review** — zero substantial findings, two small
+cosmetic findings confined to §11's own descriptive prose about the Revision 4 edits (not to any
+claim about the world), and its own explicit judgment that the document had converged and a
+sixth review round would not be proportionate. Both cosmetic findings applied directly at
+Revision 5, per CO-022's own cosmetic-finding rule. **Doc_04 is self-disposed APPROVED TO
+PROCEED**, five independent review rounds and five revisions after the first draft, none of
+them requiring escalation.
+
+**What this confirms about the self-certification pattern, alongside OG-7.** Doc_03's OG-7
+recorded one instance of a self-reported "fixed" claim not actually holding, escalated to the
+project lead. Doc_04 shows the same underlying failure mode — a claim that a check was run,
+made before it actually was, or made about a narrower scope than the sentence itself claims —
+recurring three consecutive rounds (S2→S7→S8) before the required sweep was actually run in
+full, and a fourth instance in a different register (a retired world-level fact re-asserted
+under a false certification of its absence). In every one of the four cases, the *independent
+review*, not the build thread's own drafting or self-checking, is what caught it — consistent
+with this project's standing rule that a blocking finding cannot be closed by self-certification
+and needs independent re-confirmation. Unlike OG-7, none of these four instances was judged to
+meet the escalation bar: each was a bounded, mechanically-specified defect with no evidentiary
+risk to what the document asserts about the world, fixed in the same revision it was found, and
+the pattern itself (rather than any one instance) is what this entry records for visibility
+rather than for action.
+
+**Open items seeded from Doc_04 §10, entered here per that section's own instruction:**
+1. The G4 Confidence/Gravity Cross-Check divergence (Primary-grade organizing strength on
+   Documented evidence for the *program*; Inferential/Thin for whether any household actually
+   held it) is this document's highest-stakes cross-check. Two acquisitions would move it: the
+   Small Catechism's 1529 preface [R64] and the Visitation records [R51–R52]. Every downstream
+   document citing G4 must carry the program/reception distinction.
+2. G10's confidence tag on the bodily presence's organizing role against the Reformed is
+   currently **untagged** (withdrawn at Revision 1, Round 1 finding S4) pending the Marburg
+   Articles [R56], which are also the acquisition that would let this library show the Article
+   21 boundary directly rather than import it from the census.
+3. G6's coverage gap (1525 and 1555, this world's two most consequential political moments,
+   both outside the vendored library) leaves its Persistence test incomplete; Doc_08 should mark
+   both as absent inputs rather than narrated from general knowledge.
+4. Prayer (LC's Third Part, largely unread) is the fold at §2.2 most likely to be wrong;
+   flagged for re-test at Doc_05's request once read.
+5. The seedbed question (§3 G9, §8) — whether G9's and G7's monastic-critical vocabulary is this
+   world's own or the Augustinian inheritance's — is unanswerable from this library; a
+   fleet-level cross-build item for whenever the Augustinian Hermits are built or routed into a
+   late-medieval world's record.
+6. The Apology's remaining thirteen "Luther-only" cross-register flags (Doc_03 §11 item 1) are
+   Doc_06's to discharge; Doc_04 discharged only the four its own candidates touch.
+7. Nothing in Doc_04 attests 1546–1580 except by reference to the Book of Concord [R53]; Doc_05
+   must not narrate the second half of Doc_01's window from this document.
+8. Three template observations for the coach thread (Doc_04 §10 item 11): the Template's
+   required summary table and the gravity-index skill's fuller Gravity Index overlap
+   substantially; a strand-singular substitute can be weaker than the bipolar model the Template
+   names; and the Template's Classification column has no defined behaviour for a candidate whose
+   scope is narrowed at classification rather than at generation (this document's own S6 finding
+   and fix — rescoping at generation instead — is the concrete case and the recommended course).
+9. **The inline revision-history annotation volume** (dozens of "this revision"/"at Revision N"
+   notes through §0–§10, a number that itself kept going stale across all five review rounds) is
+   an open, undecided question for the build thread: strip at a later approval-adjacent pass, or
+   keep as the living-document trail. Not decided by this entry; logged for whoever next
+   substantially edits Doc_04, or for periodic coach verification.
