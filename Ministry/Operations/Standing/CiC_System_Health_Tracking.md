@@ -761,3 +761,71 @@ entry) — both are that PR's own content, not a repo-wide break.
 conversation rather than acted on. Everything else this sweep found was
 clean (7 other open PRs all green when checked; fleet-size and hygiene
 unchanged).
+
+---
+
+## 2026-09-16 12:35 UTC — Periodic sweep: repo-structure phase 3 landed; three PR-owned CI reds explained, none this thread's to fix
+
+**`main`'s own tip is green.** Confirmed indirectly (no direct
+check-runs-by-ref tool): PR #250's checks, evaluated against `main`'s
+current tip (`3e15fcced1`), all pass — `Cited paths resolve; retired
+paths absent`, `Detect changed paths`, `M9 confinement`, `M2 staleness
+sweep` all green.
+
+**Repo-structure phase 3 landed since the last sweep**
+(`01ecfa50c`, "Repo structure cleanup phase 3: the D3 promotion model").
+Noting for continuity: `records/worlds.yaml` (single file) is gone,
+replaced by `records/worlds/<code>.yaml` (one file per world) —
+`alx.yaml`, `cappadocian.yaml`, `desert.yaml`, `don.yaml`, `fix.yaml`,
+`gallic.yaml`, `hal.yaml`, `ijc.yaml`, `pahc.yaml`, `syr.yaml`. No
+`lpc.yaml` yet, consistent with lpc's still-unresolved diverged-build-
+lines state (see previous entry). Fleet-size watch (step 7): still **9**
+formation-kind admitted/built worlds (fixture excluded) — unchanged,
+below the 15 threshold, nothing to log there.
+
+**New PR found and subscribed:** `#250` ("Migrate three OG-6 corrections
+from the bucket to their staging source") — green, no action needed.
+
+**Three PRs showed red or missing CI; none is a repo-wide break, all
+explained without touching that PR's own content:**
+
+- **PR #225** (Lutheran Wittenberg vendor texts, opened by `claude[bot]`,
+  single commit, untouched since 2026-09-15T17:41Z): its one CI run is
+  **stale** — it ran against `main`'s tip *before* this thread's own
+  Era VI/VII baseline fix (`7322f38fe`, earlier this session) landed, so
+  the "3 new unresolved citations" it reports are citations this thread
+  already resolved by baselining. The PR's current `mergeable_state` is
+  `dirty` — ordinary staleness from sitting unpushed while ~15 hours and
+  many merges passed on `main`, not a new infra break. That PR's own
+  owning thread rebases when ready to merge; not this thread's to touch.
+- **PR #246** (`claude/atlas-era1-prose-review`, the Atlas prose review
+  thread's own large, actively-updated PR — 91 files, 73 commits,
+  pushed to as recently as 06:45 UTC today): `mergeable_state: dirty`,
+  zero check runs (GitHub can't compute a merge ref to check out against
+  a conflicting base). That thread's own to resolve when it's ready to
+  merge — not a document-hygiene finding, just conflict staleness on
+  someone else's active work.
+- **PR #243** (Go-Live Pipeline Coordinator launch-prompt doc, 1 file,
+  `mergeable_state: clean`): genuinely **zero** CI checks or statuses
+  ever registered against its head SHA (`get_status` confirms
+  `total_count: 0`, state `pending`) — no failed run, just none at all.
+  Doesn't reproduce on neighboring PRs created around the same time
+  (#240, #241, #244 all triggered normally), so this reads as an
+  isolated GitHub Actions webhook-delivery miss for this one PR, not a
+  repo-wide trigger break. Not actionable from this thread without
+  pushing a commit to someone else's PR, which this thread won't do;
+  noted so a future sweep doesn't waste time re-diagnosing it as new.
+
+**PR #245** and **PR #197**: unchanged from the previous entry — still
+the same known LPC-divergence and forward-reference citations, still
+`dirty`, still deferred to Mark. No new information this sweep.
+
+**Document-hygiene spot-check (step 5):** grepped the last 15 non-merge
+commits' diffs under `engine/`, `cic/`, `records/`, `cic-website/`,
+`worlds/` for stray debug/scratch markers. The only hits were legitimate
+— TODO placeholders inside a template-generating script's own output
+string (intentional, for a future author to fill in) and ordinary prose
+uses of "from scratch." Nothing to flag.
+
+All other previously-open PRs (#247, #248, #244, #241, #240, #234, #233,
+#230, #229) checked green.
