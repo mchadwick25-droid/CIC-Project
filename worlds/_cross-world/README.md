@@ -67,12 +67,22 @@ citations (see that dossier's own §4). None of these six had anything
 vendored before this pass — the first real test of the dossier process
 on a corpus starting from zero rather than one already 82 files deep.
 
-**Backlog — not yet written:** `greek-apologists-second-century` (I.35) and
-`latin-apologists` (I.43), both Tier 1 with a Step 0 already on file but no
-dossier yet; `palestinian-ascetic-monasticism-early` (I.34), not yet
-researched at all. `donatism` (I.4) and `gallic-monastic-ascetic-christianity`
-(I.27) are far enough into their own builds that a retroactive dossier is
-lower priority than closing the backlog above.
+**21 as of 2026-09-16** — the 19 above, plus `greek-apologists-second-century`
+(I.35) and `latin-apologists` (I.43), the two remaining Tier 1 backlog
+entries that already had a Step 0 on file. Both found their existing
+corpus-map coverage unusually strong already (near-complete Tertullian
+and Divine Institutes for the Latin entry; eight of nine standard-handbook
+authors for the Greek one); each dossier names one real, checked
+cross-link opportunity into an adjacent world's own vendored volume
+(Claudius Apollinaris's apologetic fragment for the Greek entry, Cyprian's
+*Ad Demetrianum* and *Quod Idola* for the Latin one) not yet acted on.
+
+**Backlog — not yet written:** `palestinian-ascetic-monasticism-early`
+(I.34) has a dossier drafted and pending merge (a separate, still-open
+PR as of this writing) — not yet reflected in the count above until that
+lands. `donatism` (I.4) and `gallic-monastic-ascetic-christianity` (I.27)
+are far enough into their own builds that a retroactive dossier is lower
+priority than closing anything still genuinely unresearched.
 
 ## Regenerating
 
