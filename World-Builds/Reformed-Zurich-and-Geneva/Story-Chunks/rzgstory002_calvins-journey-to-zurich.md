@@ -17,7 +17,9 @@ Source:         Calvin's prefatory letter to the Pastors and Doctors of
                 the Sacraments* (the Consensus Tigurinus, 1549/1554,
                 Source_Registry.md row 5). cic/texts/calvin-zurich-
                 pastors_consensus-tigurinus-mutual-consent-sacraments_
-                beveridge1844.txt, lines 84–139.
+                beveridge1844.txt, lines 84–146 (the letter's own full
+                extent, through its own dateline, "Geneva, 1st August
+                1549").
 
 Retrieve-When:  Participant asks how the Zurich/Geneva doctrinal bridge
                 actually came about, at the level of specific people and
@@ -32,9 +34,12 @@ Do-Not-Retrieve-When: Participant wants the Consensus's own actual
                 see `rzglex007`/`rzglex008` for that; participant wants
                 the Marburg Colloquy (1529), the earlier and unresolved
                 confrontation with Wittenberg this journey's own
-                agreement answers only indirectly — no comparably
-                first-person primary account of Marburg survives in
-                this world's own vendored corpus (see Doc_09 §8).
+                agreement answers only indirectly — this world's own
+                vendored corpus mentions Zwingli's own journey to
+                Marburg only in passing (Myconius's "Original Life of
+                Zwingli," line 1343), with no narrative detail of the
+                colloquy itself, too thin to support a comparable story
+                (see Doc_09 §6).
 ```
 
 ---
@@ -53,7 +58,7 @@ What the two of them worked out with Zurich's own pastors in that meeting became
 
 This story is this world's own most direct first-person account of the specific human event Doc_08's own Force 2B-2 already names as the strand-bridging force behind G2's own mature, post-1549 form: not an abstract doctrinal convergence, but two named men making a specific journey to have a specific conversation, because a specific worry among specific worried believers demanded it. Where Doc_04 and Doc_08 establish the Consensus Tigurinus as this world's own textual proof that Zurich and Geneva recognized a shared conviction, this story supplies the occasion — Calvin's own account of why the trip was necessary, who traveled, and what he understood himself to be doing when he arrived.
 
-It also gives concrete, named-participant texture to Doc_07 §2F's own Social/Institutional finding that the Consensus is "the one document literally co-authored across the strand boundary" — the co-authorship this story shows was not two documents merged from a distance, but a conversation two men traveled to have in person, with a third party (Farel) present specifically because he had urged the trip himself.
+It also gives concrete, named-participant texture to Doc_07 §2F's own Social/Institutional finding that the Consensus is "the one document in this world's entire corpus literally co-authored across the strand boundary" — the co-authorship this story shows was not two documents merged from a distance, but a conversation two men traveled to have in person, with a third party (Farel) present specifically because he had urged the trip himself.
 
 ---
 
