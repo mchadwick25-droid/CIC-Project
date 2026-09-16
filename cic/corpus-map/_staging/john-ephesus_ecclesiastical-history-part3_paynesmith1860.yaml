@@ -1,0 +1,27 @@
+# Worker: source-research thread, 2026-09-16. Same batch (see
+# bede_ecclesiastical-history-english-people_giles1903.yaml's header).
+source_file: john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
+
+assignments:
+  - work: "The Third Part of the Ecclesiastical History of John, Bishop of Ephesus"
+    author: john-ephesus
+    locus: "whole file"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      John of Ephesus's own chronicle (a distinct genre from his Lives
+      of the Eastern Saints, already assigned to this same atlas entry
+      from the PO17-19 fascicules), running to 585 CE. IDENTIFIER
+      CORRECTION: a report supplying this lead cited identifier
+      thirdpartofeccl00john1860 as "Payne Smith's translation, 1860,"
+      but that identifier's real metadata is dated 1853 with creator
+      "Cureton, William" - Cureton's Syriac-only critical edition,
+      confirmed unusable by its own garbled non-Latin-script OCR when
+      fetched and checked directly. The real Payne Smith 1860 English
+      translation is at a different identifier, ecclesiasticalhi00johnuoft,
+      confirmed via its own preface and its own account of Cureton's
+      1853 Syriac-only publication - see the vendored file's own header
+      for the full correction. Do not use the report's own identifier
+      for this work without re-verifying it first.

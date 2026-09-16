@@ -522,8 +522,8 @@ queue:
 
   - title: "The Pilgrimage of Etheria (Peregrinatio Aetheriae / Egeria)"
     author: "Egeria (Aetheria/Silvia)"
-    translator: "M. L. McClure and C. L. Feltoe"
-    year: 1919
+    translator: "J.H. Bernard (superseding the McClure/Feltoe edition originally logged here)"
+    year: 1896
     world: jerusalem-liturgical-pilgrimage-christianity
     why: >
       Surfaced by a source-research pass on Jerusalem Liturgical-Pilgrimage
@@ -531,13 +531,18 @@ queue:
       her pilgrimage to Jerusalem and the Holy Land, including the fullest
       surviving eyewitness account of that church's fourth-century liturgical
       year - the load-bearing gap next to the already-vendored Cyril of
-      Jerusalem Catechetical Lectures (npnf207). Widely cited for this world
-      but not currently vendored; this SPCK "Translations of Christian
-      Literature" edition is a confirmed pre-1929 rendering.
-    url: "https://archive.org/details/pilgrimageofethe00mccliala"
+      Jerusalem Catechetical Lectures (npnf207). CORRECTION 2026-09-16: the
+      McClure/Feltoe identifier originally logged here (pilgrimageofethe00mccliala),
+      "confirmed" on 2026-09-13, was re-checked on 2026-09-15 and found dead
+      (empty metadata, 404 on both /details/ and /download/) despite still
+      appearing in archive.org's own search index. Closed instead with
+      Bernard's 1896 translation (Palestine Pilgrims' Text Society vol. I),
+      independently confirmed live and fetched this pass. Do not re-use the
+      McClure/Feltoe identifier without re-checking it first.
+    url: "https://archive.org/details/libraryofpalesti01paleuoft"
     rights_basis: pd-us-by-date
-    verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, editors, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
-    status: not-yet-downloaded
+    verified_by: "direct fetch and read, 2026-09-16 (identifier libraryofpalesti01paleuoft; the file's own Palestine Pilgrims' Text Society front matter and Bernard's translator credit confirmed directly)"
+    status: downloaded
 
   - title: "The Dialogue of Palladius Concerning the Life of Chrysostom"
     author: "Palladius, Bishop of Aspuna"
@@ -558,8 +563,8 @@ queue:
       English translation.
     url: "https://archive.org/details/thedialogueofpal00mooruoft"
     rights_basis: pd-us-by-date
-    verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, translator, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
-    status: not-yet-downloaded
+    verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, translator, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly); fetched and vendored 2026-09-16"
+    status: downloaded
 
   - title: "Sermo de Vita Sancti Honorati"
     author: "Hilary of Arles"
@@ -595,3 +600,161 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-13 (Project Gutenberg's own \"Public domain in the USA\" tag, translator, and full-text downloadability all confirmed against the host directly)"
     status: not-yet-downloaded
+
+  - title: "The Ecclesiastical History of the English Nation"
+    author: "Bede"
+    translator: "J.A. Giles (1840 translation, 1903 reprint)"
+    year: 1903
+    world: anglo-saxon-christianity
+    why: >
+      Surfaced this pass by a user-supplied Atlas source-gap report
+      ("Sources the Atlas Cannot Read", 2026-09-16) auditing works cited by
+      Atlas-documented stories not yet in cic/texts/. The central narrative
+      source for Anglo-Saxon Christianity's own window (597-793); the
+      "Sparrow" council passage confirmed present. Report identifier had a
+      display-year artifact (ecclesiasticalh00bede1903) stripped to the real
+      identifier before use, as with all 13 identifiers in this pass.
+    url: "https://archive.org/details/ecclesiasticalh00bede"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "The English Correspondence of Saint Boniface"
+    author: "Boniface and correspondents (incl. Lioba)"
+    translator: "Edward Kylie"
+    year: 1911
+    world: anglo-saxon-christianity
+    why: >
+      Same batch as the Bede row above. Lioba material confirmed present
+      (spelled "Lioba", not "Leoba"). Report identifier cihm_847471911
+      corrected to cihm_84747.
+    url: "https://archive.org/details/cihm_84747"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "The History of the Franks, Volume II"
+    author: "Gregory of Tours"
+    translator: "O.M. Dalton"
+    year: 1927
+    world: merovingian-gallic-christianity
+    why: >
+      Same batch as the Bede row above. Sichar/Chramnesind feud confirmed
+      present. The specific "Radegund walks out of the palace" passage the
+      report's story cited was NOT located - only an unrelated
+      Radegund-monastery story (a nun named Disciola) was found; disclosed
+      as an open gap, not silently resolved. Report identifier
+      historyoffranks0002greg1927 corrected to historyoffranks0002greg.
+    url: "https://archive.org/details/historyoffranks0002greg"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "The Chronicle of John, Bishop of Nikiu"
+    author: "John of Nikiu"
+    translator: "R.H. Charles"
+    year: 1916
+    world: cyrilline-miaphysite-egyptian-christianity
+    why: >
+      Same batch as the Bede row above. "Chapter CXXI...Abba Benjamin"
+      confirmed present. Report identifier JohnOfNikiuChronicle19161916
+      corrected to JohnOfNikiuChronicle1916 (real server filename uses
+      underscores: John_of_Nikiu_Chronicle_1916_djvu.txt).
+    url: "https://archive.org/details/JohnOfNikiuChronicle1916"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "History of the Patriarchs of the Coptic Church of Alexandria, Volume I"
+    author: "attrib. Severus (Sawirus) ibn al-Muqaffa"
+    translator: "B. Evetts"
+    year: 1904
+    world: cyrilline-miaphysite-egyptian-christianity
+    why: >
+      Same batch as the Bede row above. Benjamin I, 38th Patriarch
+      (r. 626-665), confirmed present; his reign spans the Arab conquest
+      (639-642), so this work is cross-assigned to both
+      cyrilline-miaphysite-egyptian-christianity and
+      coptic-christianity-under-early-islam. Report identifier
+      historyofpatriar0000beve_d4b41904 corrected to
+      historyofpatriar0000beve_d4b4.
+    url: "https://archive.org/details/historyofpatriar0000beve_d4b4"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "Lives of the Eastern Saints (Patrologia Orientalis XVII/XVIII/XIX)"
+    author: "John of Ephesus"
+    translator: "E.W. Brooks"
+    year: "1923/1924/1926"
+    world: syriac-orthodox-west-syriac-christianity
+    why: >
+      Same batch as the Bede row above; three fascicules fetched together.
+      PO17 (1923) and PO18 (1924, inferred from series sequence) confirmed
+      substantially on-topic; PO19 (1926) confirmed to be a mixed periodical
+      issue where the John of Ephesus material is only one of several
+      unrelated articles - vendored whole with that disclosed. The exact
+      chapter 49-50 (Jacob and Theodore) boundary the report's story cited
+      was not pinpointed in any of the three (OCR noise defeated a
+      Roman-numeral chapter search) - a disclosed, unresolved imprecision.
+    url: "https://archive.org/details/patrologiaorient17pariuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "Epistola I: Ad Demetriadem (Migne PL 30)"
+    author: "Pelagius"
+    translator: "(Latin only - Migne, Patrologiae Cursus Completus, Series Latina, Tomus XXX)"
+    year: 1846
+    world: pelagianism
+    why: >
+      Same batch as the Bede row above. Pelagius's own longest surviving
+      letter, printed among Jerome's spuria; PARTIAL EXTRACT (raw-scan
+      lines 407-2164 of the ~79,941-line full volume), following the same
+      disclosed-partial-extraction pattern already used in this corpus for
+      the Consensus Tigurinus. Report identifier
+      patrologiae_cursus_completus_lat_vol_0301846 corrected to
+      patrologiae_cursus_completus_lat_vol_030.
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_030"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded
+
+  - title: "The Third Part of the Ecclesiastical History of John, Bishop of Ephesus"
+    author: "John of Ephesus"
+    translator: "R. Payne Smith"
+    year: 1860
+    world: syriac-orthodox-west-syriac-christianity
+    why: >
+      Same batch as the Bede row above. IDENTIFIER CORRECTION (the largest
+      of this pass): the report cited identifier thirdpartofeccl00john1860
+      as "Payne Smith's translation, 1860," but that identifier's real
+      metadata is dated 1853 with creator "Cureton, William" - Cureton's
+      Syriac-only critical edition, confirmed unusable by its own garbled
+      non-Latin-script OCR when fetched and checked directly. The real
+      Payne Smith 1860 English translation was found by an independent
+      archive.org search at a different identifier, confirmed via its own
+      preface ("R. PAYNE SMITH. OXFORD. FEB. 1860.").
+    url: "https://archive.org/details/ecclesiasticalhi00johnuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16 (identifier corrected from the supplying report's own thirdpartofeccl00john1860, which is a different, Syriac-only Cureton edition)"
+    status: downloaded
+
+  - title: "The Ecclesiastical History of Evagrius (A.D. 431-594)"
+    author: "Evagrius Scholasticus"
+    translator: "E. Walford"
+    year: 1846
+    world: "byzantine-imperial-church-justinianic / cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Same batch as the Bede row above. Extensive Dioscorus material
+      (Alexandria's deposed miaphysite patriarch) confirmed present.
+      Report identifier ecclesiasticalhi0000evag1846 corrected to
+      ecclesiasticalhi0000evag. A separate 1898 Bidez-Parmentier edition
+      (identifier ecclesiasticalhi00evag) was checked but not fetched in
+      full - its report-claimed "grc+eng" bilingual status was not
+      independently verified, so this confirmed all-English 1846 Walford
+      translation is used instead.
+    url: "https://archive.org/details/ecclesiasticalhi0000evag"
+    rights_basis: pd-us-by-date
+    verified_by: "direct fetch and read, 2026-09-16"
+    status: downloaded

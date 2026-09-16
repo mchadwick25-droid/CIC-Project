@@ -1,0 +1,20 @@
+# Worker: source-research thread, 2026-09-16. Same batch (see
+# bede_ecclesiastical-history-english-people_giles1903.yaml's header).
+source_file: severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt
+
+assignments:
+  - work: "History of the Patriarchs of the Coptic Church of Alexandria, Volume I"
+    author: severus-al-muqaffa
+    locus: "whole file, esp. the Benjamin I entry"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+      - coptic-christianity-under-early-islam
+    role: tradition
+    confidence: assigned
+    note: >
+      Benjamin I, 38th Patriarch (r. 626-665 CE), confirmed present.
+      His reign spans the Arab conquest of Egypt (639-642), the exact
+      boundary between these two atlas entries (451-642 and 642-1013
+      respectively) - assigned to both rather than one alone, since the
+      same entry's material speaks to the church on both sides of that
+      political change.

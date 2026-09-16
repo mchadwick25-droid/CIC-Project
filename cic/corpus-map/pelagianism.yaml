@@ -200,3 +200,16 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
+- work: 'Epistola I: Ad Demetriadem'
+  author: pelagius
+  locus: whole file (partial extract of Migne PL 30, cols. containing Epistola I)
+  role: tradition
+  confidence: assigned
+  note: 'Pelagius''s own longest and most complete surviving letter, directly in his own voice
+    - falls inside this atlas entry''s window (c.390-430). PARTIAL EXTRACT of a large multi-work
+    Migne volume (mostly Jerome''s own genuine and spurious works); see the file''s own header
+    for the extraction boundary and the letter''s attribution history. Latin text only, no
+    English translation in this edition.
+
+    '
+  source_file: pelagius_epistula-ad-demetriadem-lat_migne.txt

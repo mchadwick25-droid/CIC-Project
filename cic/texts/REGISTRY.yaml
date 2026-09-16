@@ -2007,3 +2007,189 @@
     (1924, clears this corpus's "to ~1929"/rolling-95-year rule) in the US, but NOT yet
     under a life+70 jurisdiction (Bell d. 1967, reaches 2038) - the mirror image of the
     Budge Paradise caution already on file (Budge d. 1934, life+70 already elapsed).
+
+- filename: bede_ecclesiastical-history-english-people_giles1903.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Bede, Ecclesiastical History of the English Nation, trans. J.A. Giles (1840 translation,
+    1903 reprint) - one of 13 works fetched, verified, and vendored this pass against a
+    30-work Atlas source-gap report ("Sources the Atlas Cannot Read", 2026-09-16) listing
+    works cited by Atlas-documented stories not yet in cic/texts/. The report's own
+    archive.org identifier had a display-year artifact concatenated onto it
+    (ecclesiasticalh00bede1903 -> real identifier ecclesiasticalh00bede); stripped and
+    independently re-verified via direct metadata fetch before use, as with all 13
+    identifiers in this pass. Serves anglo-saxon-christianity.
+
+- filename: boniface_english-correspondence_kylie1911.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    The English Correspondence of Saint Boniface, trans./ed. Edward Kylie (1911). Same batch
+    as above; report identifier cihm_847471911 corrected to cihm_84747. Contains Lioba
+    material (confirmed present, not "Leoba" as in some secondary literature). Serves anglo-
+    saxon-christianity.
+
+- filename: gregory-tours_history-of-the-franks-v2_dalton1927.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Gregory of Tours, History of the Franks, vol. II, trans. O.M. Dalton (1927). Same batch;
+    report identifier historyoffranks0002greg1927 corrected to historyoffranks0002greg.
+    Sichar/Chramnesind feud confirmed present. The specific "Radegund walks out of the
+    palace" passage the report's story cited was NOT located on this pass - only a
+    different, unrelated Radegund-monastery story (a nun named Disciola) was found. Vendored
+    regardless since the volume is genuine and on-topic; that one specific passage's
+    presence is an open, disclosed gap, not resolved by this entry. Serves merovingian-
+    gallic-christianity.
+
+- filename: john-nikiu_chronicle_charles1916.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    The Chronicle of John, Bishop of Nikiu, trans. R.H. Charles (1916). Same batch; report
+    identifier JohnOfNikiuChronicle19161916 corrected to JohnOfNikiuChronicle1916 (the
+    actual server filename uses underscores: John_of_Nikiu_Chronicle_1916_djvu.txt, not the
+    plain concatenation first guessed). "Chapter CXXI...Abba Benjamin" content confirmed
+    present. Serves cyrilline-miaphysite-egyptian-christianity.
+
+- filename: severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    History of the Patriarchs of the Coptic Church of Alexandria, vol. I, attrib. Severus
+    ibn al-Muqaffa, ed./trans. B. Evetts (1904). Same batch; report identifier
+    historyofpatriar0000beve_d4b41904 corrected to historyofpatriar0000beve_d4b4. Benjamin
+    I, 38th Patriarch, confirmed present. Benjamin I's reign (626-665) spans the Arab
+    conquest (639-642), so this file is cross-assigned to both cyrilline-miaphysite-
+    egyptian-christianity and coptic-christianity-under-early-islam rather than one alone.
+
+- filename: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Patrologia Orientalis tome XVII, Lives of the Eastern Saints (I), by John of Ephesus,
+    ed./trans. E.W. Brooks (1923, confirmed from this file's own imprimatur date). Same
+    batch; confirmed substantially on-topic (the serialized Lives of the Eastern Saints
+    itself, not a mixed issue). The exact chapter 49-50 (Jacob and Theodore) boundary the
+    report's story cited was not pinpointed across this or the following two fascicules -
+    OCR noise defeated a Roman-numeral chapter search - a disclosed, unresolved imprecision.
+    Serves syriac-orthodox-west-syriac-christianity.
+
+- filename: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Patrologia Orientalis tome XVIII, Lives of the Eastern Saints (II), by John of Ephesus,
+    ed./trans. E.W. Brooks. Same batch; publication year 1924 inferred from this serialized
+    work's own sequence (PO17 and PO19 independently confirmed 1923 and 1926 respectively
+    from their own front matter) rather than independently re-verified against this specific
+    file's own colophon - disclosed as an inference, not a fabricated fact. Same chapter-
+    boundary imprecision as PO17 applies. Serves syriac-orthodox-west-syriac-christianity.
+
+- filename: john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Patrologia Orientalis tome XIX (1926), a mixed periodical fascicule whose own contents
+    list (independently verified, lines 1-30 of the raw scan) shows John of Ephesus's Lives
+    of the Eastern Saints (X) as only one of several unrelated articles (an Armenian
+    Synaxarion, Byzantine homilies, a Georgian Synaxarion, Arabic Logia). Vendored whole,
+    with the mixed contents disclosed in the file's own header, rather than extracted, since
+    the John of Ephesus portion's exact start/end boundary inside the issue was not pinned
+    down. Serves syriac-orthodox-west-syriac-christianity.
+
+- filename: palladius_dialogue-life-chrysostom_moore1921.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    The Dialogue of Palladius Concerning the Life of Chrysostom, trans. Herbert Moore
+    (1921). Same batch; report identifier thedialogueofpal00mooruoft1921 corrected to
+    thedialogueofpal00mooruoft. "Widow"/"widowhood" content confirmed present. Serves
+    antiochene-exegetical-christianity-chrysostom-ce.
+
+- filename: egeria_pilgrimage-of-silvia_bernard1896.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    The Pilgrimage of S. Silvia [Egeria], trans. J.H. Bernard, in Library of the Palestine
+    Pilgrims' Text Society vol. I (1896-97). Same batch; report identifier
+    libraryofpalesti01paleuoft1891 corrected to libraryofpalesti01paleuoft. NOTE: a
+    different, previously-"confirmed" identifier for this same work
+    (pilgrimageofethe00mccliala, McClure's translation, marked confirmed in the Jerusalem
+    dossier on 2026-09-13) was re-checked on 2026-09-15 and found currently dead (empty
+    metadata, 404s) despite still appearing in archive.org's own search index - flagged in
+    this file's own header so a later pass does not re-cite the old "confirmed" status
+    without re-checking access first. This entry uses the separate, independently-confirmed-
+    live Bernard translation instead. Serves jerusalem-liturgical-pilgrimage-christianity.
+
+- filename: pelagius_epistula-ad-demetriadem-lat_migne.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    Pelagius, Epistola I (Ad Demetriadem), extracted from Migne, Patrologiae Cursus
+    Completus, Series Latina, Tomus XXX (1846), where it is printed among Jerome's spuria.
+    Same batch; report identifier patrologiae_cursus_completus_lat_vol_0301846 corrected to
+    patrologiae_cursus_completus_lat_vol_030. PARTIAL EXTRACT (raw-scan lines 407-2164 of
+    the ~79,941-line full volume) following the same disclosed-partial-extraction pattern
+    already used in this corpus for calvin-bullinger_consensus-tigurinus...beveridge1844.txt
+    - the surrounding volume is a large multi-work anthology unrelated to Pelagius beyond
+    this one letter. Latin text only, no English translation in this edition. Serves
+    pelagianism.
+
+- filename: john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    The Third Part of the Ecclesiastical History of John, Bishop of Ephesus, trans. R. Payne
+    Smith (1860). IDENTIFIER CORRECTION (the largest of this pass): the report cited
+    identifier thirdpartofeccl00john1860 as "Payne Smith's translation, 1860," but that
+    identifier's real metadata is dated 1853 with creator "Cureton, William" - Cureton's
+    Syriac-only critical edition, confirmed unusable by its own garbled non-Latin-script OCR
+    when fetched and checked directly (saved to /tmp/thirdpart_check.txt, discarded). The
+    real Payne Smith 1860 English translation was found by an independent archive.org search
+    at a different identifier, ecclesiasticalhi00johnuoft, and confirmed via its own preface
+    ("R. PAYNE SMITH. OXFORD. FEB. 1860") and its own account of Cureton publishing the
+    Syriac in 1853 without completing the intended English translation, which Payne Smith
+    then supplied. This is the identifier actually vendored here. Serves syriac-orthodox-
+    west-syriac-christianity.
+
+- filename: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
+  supplied_by: Claude (source-research thread independently re-verified all identifiers
+    against a user-supplied Atlas sourcing-gap report, then fetched, normalized, and
+    vendored)
+  date_added: '2026-09-16'
+  notes: >-
+    The Ecclesiastical History of Evagrius (A.D. 431-594), trans. E. Walford (1846, Bohn's
+    Ecclesiastical Library). Same batch; report identifier ecclesiasticalhi0000evag1846
+    corrected to ecclesiasticalhi0000evag. Extensive Dioscorus material confirmed present
+    (raw-scan line ~1723) - Evagrius, an Antiochene Chalcedonian, gives an outside/hostile
+    account of Alexandria's deposed miaphysite patriarch. A separate 1898 Bidez-Parmentier
+    edition (identifier ecclesiasticalhi00evag) was checked but not fetched in full - its
+    report-claimed "grc+eng" bilingual status was not independently verified, so this 1846
+    all-English Walford translation is used as the confirmed source instead. Serves
+    byzantine-imperial-church-justinianic and cyrilline-miaphysite-egyptian-christianity.

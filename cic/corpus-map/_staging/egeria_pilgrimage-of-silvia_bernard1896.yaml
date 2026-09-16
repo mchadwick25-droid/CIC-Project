@@ -1,0 +1,24 @@
+# Worker: source-research thread, 2026-09-16. Same batch (see
+# bede_ecclesiastical-history-english-people_giles1903.yaml's header).
+source_file: egeria_pilgrimage-of-silvia_bernard1896.txt
+
+assignments:
+  - work: "The Pilgrimage of S. Silvia [Egeria] of Aquitania to the Holy Places"
+    author: egeria
+    locus: "whole file (Bernard's translation begins mid-volume, ~raw-scan line 7685)"
+    atlas_ids:
+      - jerusalem-liturgical-pilgrimage-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      A first-person 4th-century pilgrim's own account of Jerusalem's
+      liturgical life - the eponymous primary source for this atlas
+      entry. A different, previously-"confirmed" identifier for this
+      same work (pilgrimageofethe00mccliala, McClure's translation,
+      marked confirmed in the Jerusalem dossier on 2026-09-13) was
+      re-checked on 2026-09-15 and found currently dead (empty
+      metadata, 404s on both /details/ and /download/) despite still
+      appearing in archive.org's own search index. This entry uses the
+      separate, independently-confirmed-live Bernard translation
+      instead - do not assume the McClure identifier is fetchable
+      without re-checking it first.
