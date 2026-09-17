@@ -2692,4 +2692,38 @@ scrolling — with the redundant copy gone there's now enough headroom
 that the second era's row starts to peek in at the very bottom, a
 bonus, not a requirement. Mobile (390×844) reflows cleanly. Not yet
 committed at time of writing this entry — screenshots going to Mark.
+
+## 2026-09-17 (cont. 2) — Breathing room under the strip; the arriving mark now replays on click
+
+Mark's call: the arriving mark (the "C" that draws into a seat, right
+below the history strip) was sitting too close under the strip after
+this session's compression passes — reading as half-hidden against it,
+not simply positioned. Fix was spacing, not the mark itself: `.hero`'s
+top padding `.4rem` → `1.75rem` desktop (`.5rem` → `1.25rem` mobile),
+`.mark-line`'s own bottom margin `.25rem` → `.4rem`, and the mark's own
+box `34px` → `44px` (this also happens to match the project's own
+44px touch-target convention, used elsewhere on this same page for nav
+links and card action links — relevant now that it's clickable, below).
+Removed the now-redundant mobile media-query overrides for the mark's
+size and margin, since the base values match them.
+
+**Made the mark itself clickable and replayable**, per Mark's ask.
+It was purely decorative before (`aria-hidden="true"`, plain `<div>`,
+plays once on page load via the `play` class already in the markup).
+Changed the wrapping element to a real `<button type="button">` with
+`aria-label="Replay the Church in Conversation mark"` (removed
+`aria-hidden`, moved it to the inner `<svg>` instead, since the button
+itself is now a real interactive control, not decoration). Reset its
+default button chrome (`background:none;border:0;padding:0`) and gave
+it a hover color shift for affordance. Click handler (respecting
+`prefers-reduced-motion`, same check already used for the "Build the
+table" scroll-cue elsewhere on this page): remove the `play` class,
+force a reflow (`void heroMark.offsetWidth`), re-add `play` — the
+standard technique for restarting a CSS animation from its 0% keyframe
+rather than doing nothing (browsers don't restart an already-applied
+animation just by toggling its class off and back on within the same
+tick). Verified programmatically with Playwright: `animationName:
+cic-buildC` is actively running again ~200ms after a click, with the
+ring back at its starting `opacity:0`, confirming a real restart, not
+just a class-name change.
 priority.
