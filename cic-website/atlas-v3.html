@@ -79,7 +79,7 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
    browser behavior from ever measuring the raw child in the first place.*/
 #stage{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab}
 #stage.grabbing{cursor:grabbing}
-/* The era body/break-band rects (render(), below) bleed far past the canvas's
+/* The era body rects (render(), below) bleed far past the canvas's
    own edges so they cross the full screen at any pan/zoom -- but the SVG
    element itself carries its own width/height attributes (CANVAS_W x CANVAS_H)
    and clips its viewport to that box by default, same as any element with
@@ -92,11 +92,11 @@ svg#world{display:block;overflow:visible}
    river passing under this corner at full pigment can otherwise erase the label --
    same-color-on-same-color has no edge to see. A paper-toned outline keeps it legible
    over whatever's underneath, the way a map halos its place-names.
-   Fixed (not theme-variable) colors throughout: the break band behind this text
-   is its own small light card in both themes now (soft purple in light mode,
-   whiteish in dark), so the caption stays dark-ink-on-light-card regardless of
-   the page's own light/dark tokens -- following --iron-gall/--ink-faded into
-   dark mode would hand back the same light-on-light problem this was fixed for. */
+   Fixed (not theme-variable) colors throughout: the era break band that used to sit
+   behind this text is gone (Mark, 2026-09-17 -- it covered too much of the graphic),
+   so the caption now sits directly over rivers/parchment/dark canvas alike; the same
+   5px stroke halo below is what keeps it legible there, same job it already does for
+   every other label in the file that sits over a variable background. */
 .era-label,.era-tag,.era-context{paint-order:stroke;stroke:#F6F6F2;stroke-width:5px;stroke-linejoin:round}
 .era-label{font-family:"Cinzel",serif;font-size:22px;letter-spacing:.06em;fill:#B45309}
 .era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:14px;fill:#6C6257}
@@ -40878,19 +40878,7 @@ function el(tag,attrs){const e=document.createElementNS(NS,tag); for(const k in 
 
 const gRoot=el('g',{id:'pan-zoom'}); svg.appendChild(gRoot);
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
-// The era break band sits between the era-body ground and the rivers, not
-// with the caption text in gLabels (which stays last/topmost) -- it was
-// found painting the band there put it on top of the rivers too, tinting
-// every one of the 13 family hues by whatever the band's own color was
-// instead of letting them show through, worst for hues close to the
-// band's own purple. A river genuinely passing through the header gutter
-// should read at its own real color, same as the code above already
-// claims it does.
-const gBreakBand=el('g',{id:'break-band'}); gRoot.appendChild(gBreakBand);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
-// Sits directly above the rivers and nothing else -- edges/nodes/labels
-// stay crisp on top of it, only the river gets the band-edge fade.
-const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);
 const gEdges=el('g',{id:'edges'}); gRoot.appendChild(gEdges);
 const gNodes=el('g',{id:'nodes'}); gRoot.appendChild(gNodes);
 // Stories that happened in the gaps -- real, documented, but never grew into
@@ -40923,23 +40911,6 @@ const defs=el('defs',{});
 const portraitClip=el('clipPath',{id:'portraitClip'});
 portraitClip.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R}));
 defs.appendChild(portraitClip);
-// Mark, live-site review: a river cutting straight through an era break
-// band at full color read as the band being interrupted rather than the
-// river passing under it -- but painting the whole band on top of the
-// rivers (tried before, see the gBreakBand-vs-gRivers ordering note below)
-// tinted every family hue with the band's own purple, worst for the hues
-// already close to it. This gradient is the middle path: transparent
-// through the band's own middle (rivers keep their true color there,
-// same as today), fading to the band tint only in a strip right at each
-// edge, so a river reads as ducking under the band at the seam without
-// losing its color across the band's full height. objectBoundingBox
-// (the SVG default) means one gradient works for every era's rect
-// regardless of its absolute y position.
-const bandFadeGrad=el('linearGradient',{id:'bandFade',x1:'0',y1:'0',x2:'0',y2:'1'});
-['0','0.18','0.82','1'].forEach((offset,i)=>{
-  bandFadeGrad.appendChild(el('stop',{offset,'data-edge':(i===0||i===3)?'1':'0'}));
-});
-defs.appendChild(bandFadeGrad);
 svg.appendChild(defs);
 
 // Orientation for readers with no map of church history to hang this on. Each
@@ -41087,17 +41058,8 @@ function wrapText(str,maxChars){
 }
 
 function render(){
-  gBands.innerHTML=''; gBreakBand.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
+  gBands.innerHTML=''; gRivers.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
   lastOrganic=null; // force the next applyDetail() to re-apply to the freshly rebuilt elements
-
-  // Same color/opacity the break band itself uses (see below) -- kept in
-  // sync here since both need to match for the fade to read as "the same
-  // band, thinning out" rather than two different tints.
-  const bandFadeColor=isDark()?'#F6F6F2':'#C9B8E0', bandFadeOp=isDark()?0.92:0.45;
-  document.querySelectorAll('#bandFade stop').forEach(s=>{
-    s.setAttribute('stop-color',bandFadeColor);
-    s.setAttribute('stop-opacity',s.dataset.edge==='1'?bandFadeOp:0);
-  });
 
   // Era bands -- passthrough grounding, never a container (rule 4)
   eras.forEach((e,i)=>{
@@ -41116,29 +41078,11 @@ function render(){
     // body -- painting it is a no-op (10 full-width rects that render
     // nothing), so skip it there; dark mode's real cycling still paints.
     if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i],fill:eraGround(i),opacity:0.75}));
-    // The break band: bled past the canvas edges (same trick as the era
-    // body above) so it crosses the full screen at any zoom/pan instead of
-    // stopping at the caption text's own width. Soft light purple in light
-    // mode, whiteish against the dark theme's near-black canvas ("on
-    // black" gets a bright break, not a dark-on-dark purple one). Opacity
-    // is deliberately asymmetric: 0.45 of an already-light color over an
-    // already-light page still composites light, but the same 0.45 of
-    // near-white over near-black only reaches mid-gray (measured ~#7F7C76)
-    // -- nowhere near light enough for the fixed-dark-ink caption text
-    // below, which measured 1.2-1.4:1 contrast there (WCAG AA needs
-    // 4.5:1). 0.92 in dark mode composites to ~#E5E4E0, clearing 4.5:1+
-    // for the description text and 3.9-4.7:1 for the title/dates (backed
-    // further by their own stroke halo, same as everywhere else in the
-    // file text sits over a variable background). Both are light surfaces
-    // now, which is why the caption text is fixed dark ink in both themes
-    // rather than following the page's own light/dark text tokens.
-    gBreakBand.appendChild(el('rect',{x:BLEED_X,y:eraY0[i]+6,width:BLEED_W,height:120,fill:isDark()?'#F6F6F2':'#C9B8E0',opacity:isDark()?0.92:0.45}));
-    // Same rect, same band, painted again on top of the rivers -- but
-    // filled with the band-fade gradient (transparent through its own
-    // middle) instead of a flat tint, so only the ~22px right at the top
-    // and bottom edges actually shows here; the band's own middle keeps
-    // showing whatever the rivers already painted beneath it.
-    gBandFade.appendChild(el('rect',{x:BLEED_X,y:eraY0[i]+6,width:BLEED_W,height:120,fill:'url(#bandFade)'}));
+    // Mark, 2026-09-17: the break band across every era header covered too
+    // much of the graphic and read as visual clutter -- removed. The era
+    // caption text below still marks the boundary; its own stroke halo
+    // (paint-order:stroke, see .era-label/.era-tag/.era-context) already
+    // keeps it legible over whatever the rivers paint beneath it, band or not.
     const lbl=el('text',{x:24,y:eraY0[i]+34,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
     gLabels.appendChild(lbl);
     // e.tag is one thread's narrative (usually the imperial/mainstream one), not
@@ -41950,7 +41894,7 @@ const stage=document.getElementById('stage');
 let scale=Math.min(window.innerWidth/CANVAS_W, window.innerHeight/eraH[0]/2.6), tx=0, ty=0;
 const MIN_S=0.06, MAX_S=3.2, DETAIL_THRESHOLD=0.34;
 let lastOrganic=null; // applyDetail() no-ops when the calm/organic threshold hasn't actually crossed
-// The era-body/break-band bleed rects (render(), below) need to still reach the
+// The era-body bleed rects (render(), below) need to still reach the
 // browser's real left/right edges at ANY pan/zoom, including the most zoomed-out
 // state on a wide monitor. A fixed multiple of CANVAS_W falls short there: at
 // MIN_S, 9*CANVAS_W*MIN_S is under 1000 screen px, nowhere near a 2400px+ window's
