@@ -1,10 +1,11 @@
 # Go-Live Pipeline Coordinator — standing status — opened 2026-09-16
 
 Running per-world status table for the Go-Live Pipeline Coordinator thread
-(`Ministry/Operations/Standing/Launch-Prompts/CiC_GoLive_Pipeline_Coordinator_Thread_Launch_2026-09-16.md`,
-still open as PR [#243](https://github.com/mchadwick25-droid/CIC-Project/pull/243) as of this
-entry — read from the PR since it hasn't merged yet). Update this table every time a world
-moves a stage, per that launch prompt's own instruction, so state survives a context reset.
+(`Ministry/Operations/Standing/Launch-Prompts/CiC_GoLive_Pipeline_Coordinator_Thread_Launch_2026-09-16.md`
+— read from PR [#243](https://github.com/mchadwick25-droid/CIC-Project/pull/243) before it
+merged, and merged to `main` in the course of this same coordinator thread's own work,
+2026-09-17). Update this table every time a world moves a stage, per that launch prompt's
+own instruction, so state survives a context reset.
 
 ## Change order, 2026-09-17: merge and promotion authority granted
 
@@ -82,7 +83,7 @@ as ready for this bar only once it reports 0 new defects, not once it looks righ
 
 1. **pahc M3 re-admission** — flagged since 2026-09-09 (`records/WORLDS_REGISTRY_LOG.md`), still not run. Real AWS Bedrock spend; needs Mark's explicit per-run authorization.
 2. **don is OPEN and census-synced (2026-09-16).** M3 ran clean (28/28); admitted, then flipped open, both on Mark's explicit word; census synced the same pass (`engine.m6.cli sync` — a module that turned out to already exist, contradicting this doc's own earlier note that it didn't). don is now genuinely live on the public Atlas/homepage. Remaining: WO-1 object-storage upload (R2 configuration status still unchecked) and bundling into a `main`→`live` promotion PR — neither attempted, both separate asks.
-3. **lpc has two diverged build lines, and the newer one is still an active, moving target — do not touch yet.** `worlds/lpc/` on `main` is the *older* line (through Doc_05, not self-disposed). PR #197 (`lpc-doc04-round2`) is the *newer* line, at the old path `World-Builds/Latin-Pastoral-Congregational-Christianity/`. Root cause of the divergence: the repo-structure-cleanup rename (`main` commit `9b1ee5f5`, 2026-09-15 21:35:32Z) renamed the old-path *lagging* snapshot to `worlds/lpc/` and never merged this branch's later commits.
+3. **lpc has two diverged build lines, and the newer one is still an active, moving target — do not touch yet.** `worlds/lpc/` on `main` is the *older* line (through Doc_05, not self-disposed). PR #197 (`lpc-doc04-round2`) is the *newer* line, still sitting at its pre-rename path (`Latin-Pastoral-Congregational-Christianity`, under the fleet's now-retired `World-Builds` naming for this world — that top-level directory itself still holds other, not-yet-coded worlds, just not this one anymore). Root cause of the divergence: the repo-structure-cleanup rename (`main` commit `9b1ee5f5`, 2026-09-15 21:35:32Z) renamed the old-path *lagging* snapshot to `worlds/lpc/` and never merged this branch's later commits.
 
    **2026-09-16, Mark asked to start reconciliation — checked the branch first, found it had moved again.** Since first flagged (tip `f076ba0b`, 2026-09-16T03:32:51Z), three more commits landed, tip now `0eff399c`, 2026-09-16T06:43:44Z: an in-progress Round 4 adversarial review of the World Profile document across three dimensions, verdict **SUBSTANTIAL REVISION REQUIRED, 5 HIGH / 6 MEDIUM / 6 LOW / 1 COSMETIC — not disposition-eligible**. One HIGH is a fabricated-quotation defect (a build thread's own bolded conclusion misattributed to Mark as a direct quote, now corrected). One finding is explicitly named as not a build thread's to close: **Doc_04, Doc_08, and Doc_09 — three separately Approved-to-proceed documents — disagree on how many distinct mechanisms cross lpc's 133-year documentary gap** (Doc_04's World Profile now says two; Doc_08 and Doc_09 both still say only one). Filed under CO-022's fourth escalation category (unresolved tension between cleared documents) and reserved for Mark.
 

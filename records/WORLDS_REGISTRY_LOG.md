@@ -877,7 +877,7 @@ content) - the mechanical completion of the `open` decision Mark already
 made, not a new one. Validated with `node tools/validate-census.mjs`
 (0 errors) and a full `engine.m1.cross_world` re-run (0 new defects, 17
 accepted-open - `census-id/don` closed the same pass, not left stale).
-`engine/m1/test_cross_world.py`, `engine/m6/tests/test_census_sync.py`,
+`engine/m1/tests/test_cross_world.py`, `engine/m6/tests/test_census_sync.py`,
 and the rest of the `engine/m1`/`engine/m2`/`engine/m6`/`engine/m4` suites
 all pass (337 total).
 
