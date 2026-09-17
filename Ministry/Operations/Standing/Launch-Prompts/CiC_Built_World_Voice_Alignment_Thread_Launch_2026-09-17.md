@@ -34,7 +34,8 @@ covers the built-world voice end to end.
 
 ## Scope
 
-**In scope — for the 7 currently built/live worlds only:**
+**In scope — for the 8 currently built/live worlds, and every world
+that reaches "Built & Live" after them:**
 
 1. Homepage card blurb (`cic-website/index.html`'s `.tile` paragraph,
    sourced from `cic-website/data/world-census.json`'s `entry.tile`)
@@ -44,23 +45,48 @@ covers the built-world voice end to end.
 4. The conversation/Table's own opening introduction — **not yet
    located**; it isn't in the website repo. It's authored somewhere
    inside that world's own build records under `worlds/<code>/`. Tracing
-   down exactly where, for each of the 7 worlds, is this thread's first
+   down exactly where, for each of the 8 worlds, is this thread's first
    concrete task.
 
-**Out of scope:** the other ~285 unbuilt/atlas-only traditions' Atlas
-entries — that ground belongs to the Atlas/Church Family Tree thread,
-which is mid-rewrite there (PR #246). **Confirmed, not assumed:**
-diffed PR #246 against its actual merge-base and parsed both versions
-of `world-census.json` as JSON — for all 7 built worlds, PR #246 changes
-neither `tile` nor `longDescription`. Its only touch to 6 of the 7 is a
-new structured `doctrine` field (a list of belief-statement objects,
-not prose). Decide early whether `doctrine` becomes part of this
-thread's own shared source per world or stays Atlas-side structured
-data the Atlas thread owns independently — it is genuinely unclear yet
-which, and worth a real decision rather than a default.
+**Out of scope:** the ~285 remaining unbuilt/atlas-only traditions'
+Atlas entries — that ground belongs to the Atlas/Church Family Tree
+thread, which is mid-rewrite there (PR #246). **Confirmed, not
+assumed:** diffed PR #246 against its actual merge-base and parsed both
+versions of `world-census.json` as JSON — for all 8 built worlds, PR
+#246 changes neither `tile` nor `longDescription`. Its only touch to 6
+of the 8 is a new structured `doctrine` field (a list of
+belief-statement objects, not prose). Decide early whether `doctrine`
+becomes part of this thread's own shared source per world or stays
+Atlas-side structured data the Atlas thread owns independently — it is
+genuinely unclear yet which, and worth a real decision rather than a
+default.
 
-No attempt to hand-edit all 293 worlds. This is bounded to what
-Mark can actually read and rule on: the 7 that are built.
+No attempt to hand-edit all 293 worlds at once. This is bounded to
+what Mark can actually read and rule on at any given time: the worlds
+that are actually built.
+
+## This is a standing role, not a one-time cleanup
+
+Mark's own words: *"it will continue its role to ensure new worlds are
+also meeting this standard"* — more worlds are coming online after
+these 8. This workstream does not close once the current 8 are aligned.
+Its ongoing job is to catch every future world at the moment it flips
+to "Built & Live" and bring its four surfaces up to the same standard
+*before* or immediately as it goes live — not let a backlog of
+unaligned worlds accumulate for a future cleanup pass.
+
+Concretely: once the initial 8 are done and the shared-source
+architecture is decided, propose to Mark where this check belongs in
+the standing build pipeline — e.g. a required step in the
+`cic-build-cycle` skill's own late-stage sequence (after a
+Representative is validated, before status flips to "Built & Live"),
+or a checklist this thread runs against each newly-built world on
+notice. Don't invent a new standing gate silently; that is itself a
+methodology change (`CLAUDE.md`'s "Governance or methodology change" —
+always ask) and needs Mark's ruling like everything else here. But do
+treat "how does this thread find out about the next built world" as a
+real open question to resolve early, not an afterthought once the
+backlog has already started.
 
 ## The architecture ruling (Mark, already decided — build to this, don't re-litigate it)
 
@@ -140,7 +166,8 @@ template; bring it to Mark as a real option with a recommendation.
 
 Start by reading the governing standard and the three prior threads
 named above in full, then locate the conversation/Table introduction
-text for all 7 built worlds. Bring back: what you found, the
-architecture options for the shared source, and the voice-register
-question above — before writing a single word of participant-facing
+text for all 8 built worlds. Bring back: what you found, the
+architecture options for the shared source, the voice-register
+question above, and a proposal for how this thread stays notified as
+new worlds go live — before writing a single word of participant-facing
 copy.
