@@ -64,7 +64,10 @@ p{margin:0 0 1rem}
 .history-strip>a{display:block;position:relative;overflow:hidden}
 .history-strip img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.85);transition:filter .2s,transform .2s}
 .history-strip>a:hover img,.history-strip>a:focus-visible img{filter:saturate(1);transform:scale(1.03)}
-@media (max-width:640px){ .history-strip{height:1in} }
+@media (max-width:640px){
+  .history-strip{height:1.4in}
+  .history-strip>.hs-mobile-hide{display:none}
+}
 @media (prefers-reduced-motion:reduce){ .history-strip>a:hover img,.history-strip>a:focus-visible img{transform:none} }
 
 .hero{max-width:52rem;margin:0 auto;padding:2.75rem 1.25rem 1.25rem;text-align:center}
@@ -185,14 +188,21 @@ p{margin:0 0 1rem}
 </header>
 
 <div class="history-strip" role="group" aria-label="Images from across the Church's 2000-year history">
-  <a href="traditions/post-apostolic-house-church.html"><img src="assets/history/house-churches.jpg" alt="Terrace House 2, Ephesus — a 1st-century Roman house church" loading="eager" decoding="async"></a>
-  <a href="traditions/desert-monasticism.html"><img src="assets/history/desert.jpg" alt="The Monastery of Saint Macarius, Egypt" loading="eager" decoding="async"></a>
+  <a class="hs-mobile-hide" href="traditions/post-apostolic-house-church.html"><img src="assets/history/house-churches.jpg" alt="Terrace House 2, Ephesus — a 1st-century Roman house church" loading="eager" decoding="async"></a>
+  <img class="hs-mobile-hide" src="assets/history-era-spanning/priscilla-fresco.jpg" alt="Fresco of a Christian Agape feast, Catacombs of Priscilla, Rome, 2nd-4th century" loading="eager" decoding="async">
+  <img src="assets/history-era-spanning/etchmiadzin-cathedral.jpg" alt="Etchmiadzin Cathedral, Armenia, founded 301 CE" loading="eager" decoding="async">
+  <img class="hs-mobile-hide" src="assets/history-era-spanning/holy-sepulchre.jpg" alt="The Church of the Holy Sepulchre, Jerusalem" loading="eager" decoding="async">
+  <a class="hs-mobile-hide" href="traditions/desert-monasticism.html"><img src="assets/history/desert.jpg" alt="The Monastery of Saint Macarius, Egypt" loading="eager" decoding="async"></a>
   <img src="assets/history-era-spanning/book-of-kells.jpg" alt="An illuminated Gospel manuscript, Metropolitan Museum of Art, c. 1400" loading="eager" decoding="async">
+  <img class="hs-mobile-hide" src="assets/history-era-spanning/lalibela.jpg" alt="The rock-hewn churches of Lalibela, Ethiopia, 12th-13th century" loading="eager" decoding="async">
   <img src="assets/history-era-spanning/chartres-cathedral.jpg" alt="Large figures on the north porch, Chartres Cathedral, 1852 salted-paper print" loading="eager" decoding="async">
+  <img class="hs-mobile-hide" src="assets/history-era-spanning/st-francis-kochi.jpg" alt="St. Francis Church, Fort Kochi, India, founded 1503" loading="eager" decoding="async">
   <img src="assets/history-era-spanning/martin-luther-portrait.jpg" alt="Engraved portrait of Martin Luther in a doctoral cap, Metropolitan Museum of Art" loading="eager" decoding="async">
+  <img class="hs-mobile-hide" src="assets/history-era-spanning/st-basils-moscow.jpg" alt="Saint Basil's Cathedral, Moscow, built 1555-1561" loading="eager" decoding="async">
+  <img class="hs-mobile-hide" src="assets/history-era-spanning/st-peters-basilica.jpg" alt="St. Peter's Basilica, Vatican City, consecrated 1626" loading="eager" decoding="async">
   <img src="assets/history-era-spanning/the-camp-meeting.jpg" alt="The Camp Meeting, Worthington Whittredge, 1874, Metropolitan Museum of Art" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/gothic-revival-facade.jpg" alt="Facade of a Gothic Revival church, architectural drawing, 1745-76, Metropolitan Museum of Art" loading="eager" decoding="async">
-  <img src="assets/history-era-spanning/henry-ward-beecher.jpg" alt="Henry Ward Beecher, portrait by George Augustus Baker Jr., 1874, Brooklyn Museum" loading="eager" decoding="async">
+  <img src="assets/history-era-spanning/azusa-street.jpg" alt="The Apostolic Faith Mission on Azusa Street, Los Angeles, photographed 1907" loading="eager" decoding="async">
+  <img src="assets/history-era-spanning/manila-nazarene.jpg" alt="The Feast of the Black Nazarene, Manila, 2012" loading="eager" decoding="async">
 </div>
 
 <main id="main" tabindex="-1">
@@ -365,7 +375,7 @@ p{margin:0 0 1rem}
 </main>
 
 <footer class="site-footer">
-  <p class="photo-credits">Historical images, top of page, left to right: <a href="https://commons.wikimedia.org/wiki/File:13.11_Terrace_Houses_in_Ephesus.JPG">Terrace Houses, Ephesus</a>, photo by José Luiz Bernardes Ribeiro (CC BY-SA 3.0), via Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Monastery_of_Saint_Macarius_the_Great,_Egypt-15.JPG">Monastery of Saint Macarius</a>, photo by Faris El-Gwely (CC BY-SA 4.0), via Wikimedia Commons · <a href="https://archive.org/details/mma_illuminated_gospel_317618">Illuminated Gospel</a>, Metropolitan Museum of Art, public domain · <a href="https://archive.org/details/mma_large_figures_on_the_north_porch_chartres_cathedral_266284">Chartres Cathedral</a>, 1852, Metropolitan Museum of Art, public domain · <a href="https://archive.org/details/mma_martin_luther_with_doctoral_cap_430193">Martin Luther</a>, engraving, Metropolitan Museum of Art, public domain · <a href="https://archive.org/details/mma_the_camp_meeting_13312">The Camp Meeting</a>, Worthington Whittredge, 1874, Metropolitan Museum of Art, public domain · <a href="https://archive.org/details/mma_facade_of_a_gothic_revival_church_363835">Facade of a Gothic Revival Church</a>, 1745–76, Metropolitan Museum of Art, public domain · <a href="https://archive.org/details/brooklynmuseum-o2510-henry-ward-beecher">Henry Ward Beecher</a>, George Augustus Baker Jr., 1874, Brooklyn Museum, no known copyright restrictions.</p>
+  <p class="photo-credits">Historical images, top of page, left to right: <a href="https://commons.wikimedia.org/wiki/File:13.11_Terrace_Houses_in_Ephesus.JPG">Terrace Houses, Ephesus</a>, photo by José Luiz Bernardes Ribeiro (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Catacombe_di_Priscilla,_Rome_-_Fresco_of_a_Christian_Agape_feast_-_Fractio_panis_-_Greek_chapel_-_2nd_-_4th_century.jpg">Fresco, Catacombs of Priscilla</a>, public domain · <a href="https://commons.wikimedia.org/wiki/File:Etchmiadzin_cathedral.jpg">Etchmiadzin Cathedral</a> (CC BY 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Jerusalem_Holy_Sepulchre_BW_23.JPG">Church of the Holy Sepulchre</a>, photo by Berthold Werner (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Monastery_of_Saint_Macarius_the_Great,_Egypt-15.JPG">Monastery of Saint Macarius</a>, photo by Faris El-Gwely (CC BY-SA 4.0) · <a href="https://archive.org/details/mma_illuminated_gospel_317618">Illuminated Gospel</a>, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:Rock-Hewn_Churches,_Lalibela-107572.jpg">Rock-Hewn Churches, Lalibela</a>, photo by Francesco Bandarin/UNESCO (CC BY-SA 3.0 IGO) · <a href="https://archive.org/details/mma_large_figures_on_the_north_porch_chartres_cathedral_266284">Chartres Cathedral</a>, 1852, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St_Francis_Church_Fort_Kochi_DSC_1048.JPG">St. Francis Church, Fort Kochi</a>, photo by Ranjith Siji (CC BY-SA 4.0) · <a href="https://archive.org/details/mma_martin_luther_with_doctoral_cap_430193">Martin Luther</a>, engraving, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St._Basil%27s_Cathedral,_Moscow.jpg">St. Basil's Cathedral, Moscow</a>, photo by Zeynel Cebeci (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg">St. Peter's Basilica</a>, photo by Alvesgaspar (CC BY-SA 4.0) · <a href="https://archive.org/details/mma_the_camp_meeting_13312">The Camp Meeting</a>, Worthington Whittredge, 1874, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:AFM_on_azusa_street.jpg">The Apostolic Faith Mission, Azusa Street</a>, 1907, photographer unknown, public domain · <a href="https://commons.wikimedia.org/wiki/File:Feast_of_Black_Nazarene,_Quiapo,_Manila.JPG">Feast of the Black Nazarene, Manila</a>, photo by Jsinglador (CC BY-SA 3.0). Several images require attribution and share-alike under their license — don't drop the credit line if these move elsewhere.</p>
   <div class="row">
     <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
     <nav aria-label="Footer">
