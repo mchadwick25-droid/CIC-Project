@@ -2606,4 +2606,70 @@ and (2) the history-strip visual, both currently uncommitted drafts in
 the working tree; then commit and push together once both are
 approved, or apply just the approved one and stash/drop the other. The
 mobile-overflow bug is unlogged elsewhere and needs its own decision on
+
+## 2026-09-17 — One-line "who" header + first Representative row above the fold; mobile-overflow finding corrected
+
+**Shortened the "who" section header to one line**, per Mark's
+instruction: `<h2 id="who-title">Who would you like to talk with?</h2>`
+(was "...to have a conversation with?"). Confirmed rendering on a
+single line at desktop width.
+
+**Compressed vertical spacing site-wide on the homepage** so the full
+first row of Representative cards (portrait, name, role, tradition,
+dates/places, the 2-line description, and both the "Start the
+conversation" and "More information" links) renders with zero page
+scrolling on a 1400×900 desktop viewport, per Mark's instruction. No
+content was removed — only spacing, sizing, and wrap behavior changed:
+- History strip: `2in` → `1.15in` desktop (tiles `3in×2in` → `1.725in×1.15in`,
+  same 3:2 ratio, still horizontally scrollable for the full 12-image set).
+- Hero: padding tightened; widened the hook's own max-width (`48rem` →
+  `68rem`) and the hero container (`52rem` → `76rem`) so the H1 wraps to
+  2 lines instead of 3 at desktop width, at the *same* font size — no
+  reading-level or type-size tradeoff, purely a wrap-width fix. Mark-line
+  icon `52px` → `34px`.
+- "Who" section: header/scope/ai-line/how-line margins tightened;
+  era-head and chairs-row top margin tightened.
+- Chair cards: width `232px` → `296px` (room enough that the longest
+  meta line, e.g. Chloe's "70–200 CE · Antioch, Asia Minor, Rome," now
+  fits on one line instead of wrapping to two — this was the single
+  biggest per-card saving); padding, internal gap, and portrait size
+  (`72px` → `48px`) reduced; description clamp `3 lines` → `2 lines`.
+
+Verified with Playwright (Chromium, real viewport emulation, not the
+raw `chrome --headless --window-size` CLI flags — see correction
+below) at 1400×900: full first row visible, ~90px of headroom before
+"The Imperial Church Era" begins. Also checked 1400×850 (tighter
+laptop viewport): the primary "Start the conversation" CTA remains
+fully visible for all three cards; the secondary "More information"
+link is the first thing lost as viewport height shrinks further —
+an acceptable, honest tradeoff given the two 44px-tall link rows
+(`.chair .acts a{min-height:44px}`, a WCAG touch-target minimum) were
+deliberately left alone rather than shrunk to force more into less
+space. Not yet committed — same draft-in-place discipline as the two
+entries above; awaiting Mark's reaction to the visual before push.
+
+**Correction to the 2026-09-16 finding above ("current live homepage
+already overflows horizontally at 390px width"):** that finding does
+NOT reproduce under Playwright's proper mobile-viewport emulation
+(`docWidth`/`bodyWidth` both exactly 390px, zero elements wider than
+the viewport, checked programmatically). It only reproduces using the
+plain `chrome --headless --window-size=390,844 --screenshot` CLI
+invocation used throughout this session for quick visual checks — that
+mode does not appear to re-run layout against the page's `<meta
+name="viewport">` the way a real mobile browser (or Playwright's
+device-metrics emulation) does, so it lays the page out at a wider
+implicit viewport and then simply crops the screenshot canvas to the
+requested pixel size, producing a false "clipped text" appearance.
+Reproduced this same false positive on the pre-session `HEAD` commit
+too, confirming it's a tooling artifact, not something introduced or
+present in the site. **Retracting the "real defect worth its own fix"
+framing from 2026-09-16** — there is no confirmed mobile-overflow bug
+at this time. Screenshot QA for anything phone-width in this workstream
+should use Playwright's `viewport` option (or an equivalent real
+device-emulation path) from here on, not raw `--window-size` headless
+flags, to avoid re-logging the same false positive.
+
+**Next action:** Mark's reaction to the compressed layout (screenshot
+sent); once approved, commit all three pending draft changes (R5 copy,
+history-strip, this compression pass) together and push.
 priority.
