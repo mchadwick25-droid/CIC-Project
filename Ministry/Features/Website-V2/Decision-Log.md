@@ -2785,4 +2785,51 @@ Verified with Playwright at 1400×1000 (2/3 : 1/3 side by side, both
 Stripe buttons fit on one row in the narrower card) and at 390×844
 (stacks to one column, contribution card full width below the
 narrative, unaffected).
+
+## 2026-09-17 (cont. 5) — Filled the empty space beside the narrative with the Holy Door of St. Peter's Basilica
+
+Mark's call: find a picture for the empty space below the donate card
+in the new 1/3 column (the 2/3-narrative/1/3-contribution split above
+left real vertical space unused there, since the donate card is much
+shorter than the narrative text beside it).
+
+Wrapped `.support` and a new `<figure class="give-photo">` in a
+`.give-col` flex column so the photo (`flex:1`) fills exactly the
+remaining height next to the narrative, whatever that turns out to be
+— no hardcoded pixel guess. Stacks to a fixed `16/10` aspect ratio on
+mobile, where there's no tall column to fill.
+
+Sourced from Wikimedia Commons: "The Holy Doors, St. Peter's Basilica,
+Rome" (`45510156425`), photo by Deb Nystrom, CC BY 2.0, 4000×6000
+(portrait, so it needs almost no cropping in the tall slot). Chosen
+over several other candidates:
+- A Met Museum/Internet Archive scan ("Principal Doorway of the
+  Carthusian Monastery, Burgos") turned out, once actually opened, to
+  be a blank scan of the photograph's cardboard mount, not the
+  photograph itself — the same mislabeled-archive-scan defect that hit
+  a "Martin Luther portrait" candidate earlier in this project's own
+  sourcing work. Caught by this project's own "always view an image
+  before shipping it" discipline, not shipped.
+- Several Geograph.org.uk parish-church-door photos were smaller
+  (480×640) and visually unremarkable snapshots.
+- The Holy Door won on merit, not just availability: it's a real,
+  globally recognized subject (opened only in Jubilee years, its
+  bronze panels cast with scenes of mercy and return), CC BY 2.0
+  (commercial use and cropping both fine with attribution), and it
+  ties directly to the donate card's own headline right above it,
+  "Help keep the door open" — an intentional echo, not a coincidence.
+
+Resized to 700×1050 JPEG (quality 82, ~176KB) at
+`cic-website/assets/give-photo.jpg`. Added the CC BY 2.0 attribution
+line to the footer's existing `.photo-credits` paragraph, alongside
+the strip's own credits. Verified with Playwright at 1400×1000
+(fills the column cleanly, no gap) and 390×844 (16:10 crop under the
+donate card, reads fine at that ratio too).
+
+Also noted for the record, not acted on: Wikimedia's API and CDN
+returned intermittent 429 rate-limit responses partway through this
+search (and archive.org briefly reported itself "temporarily
+offline"), both clearing within the same session — handled by
+spacing requests and switching to unaffected image candidates while
+waiting, not by retrying aggressively or routing around either.
 priority.
