@@ -2672,4 +2672,24 @@ flags, to avoid re-logging the same false positive.
 **Next action:** Mark's reaction to the compressed layout (screenshot
 sent); once approved, commit all three pending draft changes (R5 copy,
 history-strip, this compression pass) together and push.
+
+## 2026-09-17 (cont.) — Cut the redundant "who" copy, restore a bigger portrait
+
+Mark's call: the three lines between the "Who would you like to talk
+with?" header and the cards (`.scope`, `.ai-line`, `.how-line`) said
+nothing the hook, the header, and the cards themselves didn't already
+say — deleted all three, plus their now-dead CSS rules. Then rescaled
+the chair-card portrait back up, "like the old style": `48px` (this
+session's compressed size) → `96px`, larger than even the original
+`72px` pre-session size, since removing that text freed real vertical
+room to spend on it. Updated the matching `width`/`height` HTML
+attributes on all 8 chair-card portrait `<img>` tags (72 → 96) to keep
+them consistent with the new display size. Card padding/gap loosened
+slightly (`.6rem`/`.3rem` → `.8rem`/`.5rem`) to match the bigger portrait.
+
+Reverified with Playwright at 1400×900: the first row still needs no
+scrolling — with the redundant copy gone there's now enough headroom
+that the second era's row starts to peek in at the very bottom, a
+bonus, not a requirement. Mobile (390×844) reflows cleanly. Not yet
+committed at time of writing this entry — screenshots going to Mark.
 priority.
