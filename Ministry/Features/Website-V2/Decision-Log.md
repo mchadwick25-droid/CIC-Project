@@ -3053,4 +3053,53 @@ No copy change, no new color, no motion added.
 Verified with Playwright at 1440/1024/768/390px: reads as a clear
 masthead-plus-dek block at every width, dek line wraps cleanly under
 the lead line, nothing overflows on mobile.
+
+## 2026-09-17 (cont. 14) — Dek widened so it reads as part of the whole statement, not a small square
+
+Mark's feedback on the masthead/dek split, once shipped: the dek line
+was too small and looked square/boxy, disconnected from the masthead
+above it — "it can be smaller but still feel like the whole statement."
+
+Diagnosed, not guessed: measured the dek's actual rendered box at
+1440px — its `max-width:46rem` (736px) was narrow enough that the full
+dek sentence wrapped into two centered lines noticeably shorter than
+the masthead's own ~1008px width, reading as a small, separate caption
+block rather than a continuation of the same sentence.
+
+**Fix:** widened `.hero-dek`'s `max-width` 46rem → 70rem (close to the
+hero's own outer width) and reduced its font-size clamp further
+(`clamp(1.05rem,.85rem + .7vw,1.35rem)` →
+`clamp(.9rem,.75rem + .5vw,1.05rem)`) — smaller, as asked, but now with
+room to actually use that smaller size: at 1440/1024px it now reads as
+one full-width line under the masthead instead of a square block; at
+768px it wraps to two lines that span close to the masthead's own
+width rather than a narrow column; mobile (390px) is unaffected in
+shape, just smaller text.
+
+Verified with Playwright at all four widths.
+
+## 2026-09-17 (cont. 15) — Mobile/tablet hero cut back down to its old line count
+
+Mark's feedback, checking the live masthead/dek split on a narrow
+screen: the hero went from 4 lines of text to 6, pushing "Who would
+you like to talk with?" and everything under it too far down the page.
+
+Confirmed the actual cause with real measurements rather than assuming:
+at 390px, the pre-masthead-split hero (`94d4432`, the version live
+before this whole hero-redesign arc) rendered at 5 lines; the shipped
+masthead/dek split renders the lead at its `2rem` clamp floor (3 lines)
+plus the dek at its own floor (3 lines) — 6 lines total, because neither
+span had a mobile-specific size and both were stuck at their clamp
+minimums well before 390px.
+
+**Fix:** added a `@media (max-width:640px)` override —
+`.hero-lead{font-size:1.6rem}`, `.hero-dek{font-size:.85rem}` — sized
+down specifically for phone/small-tablet widths, leaving the desktop
+clamp values (and desktop's 3-total-line result) completely untouched.
+
+Verified with Playwright across the full 390–1920px range: desktop
+(≥900px) still renders lead 2 / dek 1 = 3 lines, unchanged from the
+prior fix; the 640–850px band now renders 3–4 total lines instead of
+4; and 390–480px now renders lead 2 / dek 2 = 4 lines total, matching
+the pre-redesign hero's own footprint instead of overshooting it.
 priority.
