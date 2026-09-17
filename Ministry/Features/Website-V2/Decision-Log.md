@@ -2966,4 +2966,22 @@ card's top edge" spacing, regardless of which card it's in. Verified
 with Playwright: the reordered card reads heading → tagline → image →
 text → CTA as asked, and the untouched "Set your own table" card is
 pixel-identical to before (same eyebrow-first spacing it already had).
+
+## 2026-09-17 (cont. 10) — Church Family Tree card: tagline moved under the image, to match the table card
+
+Mark's call: only "Church Family Tree" should sit above the picture,
+matching how the sibling "Set your own table" card has just one short
+line ("The Table") above its own picture. Moved the `.eyebrow` tagline
+("Two thousand years of the church, alive in one place") from between
+the heading and the image to between the image and the description
+paragraph. Card order is now heading → image → tagline → description →
+CTA (was: heading → tagline → image → description → CTA).
+
+No CSS change needed — the existing structural-position rule from the
+prior reorder (`.flow-card>.eyebrow:first-child,.flow-card>h2:first-
+child{margin-top:1.1rem}`) already covers whichever element is first in
+a card, and the tagline now sits mid-card using the shared `.flow-card
+.eyebrow` margin like any other non-first element. Verified with
+Playwright: card reads heading → image → tagline → text → CTA; the
+untouched "Set your own table" card is unaffected.
 priority.
