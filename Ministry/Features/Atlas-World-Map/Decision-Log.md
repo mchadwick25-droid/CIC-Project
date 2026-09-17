@@ -6464,3 +6464,47 @@ clean, distinctly-colored (gold title / tan dates-and-count / cream
 description), with a thin dark edge for legibility rather than a soft
 white smear, at both the "1. The Early Church Era" and "2. The Imperial
 Church Era" headers.
+
+## 2026-09-17 (cont. 2) — Era header text enlarged; context wrap narrowed so it fits on screen when zoomed
+
+**Mark's report, once the crisp-text fix landed:** the text reads well now,
+but it's too small to read comfortably, and zooming in to read it runs the
+text off the screen.
+
+**Diagnosed, not guessed, with an actual zoomed screenshot:** the era
+context paragraph was wrapped at 200 characters per line — at 13-15px
+font, that's a line roughly as wide as the entire map. At the default,
+fully-zoomed-out view this isn't obvious (the whole map fits on screen,
+so the line does too), but the moment someone zooms in far enough to read
+the now-larger text comfortably, that same line spans far more screen
+pixels than any browser viewport holds. Tested directly: at a middling
+zoom level, a 100-char wrap still ran the description well past the right
+edge of a 1400px viewport.
+
+**Fix, in two parts:**
+1. **Bigger text:** `.era-label` 22px→26px, `.era-tag` 14px→16px,
+   `.era-context` 13px→15px.
+2. **Narrower context wrap**, so a line stays short enough to actually
+   fit on screen once zoomed in to read it, not just at maximum zoom-out:
+   the fixed `200` inlined at two call sites replaced with one named
+   constant, `ERA_CONTEXT_WRAP`, tuned empirically against real zoomed
+   screenshots (100 chars still overflowed; 55 fit with room to spare but
+   produced up to 7 lines for the longest entries; **65** landed as the
+   fit-on-screen floor with the fewest lines, confirmed at three different
+   zoom levels including a middling and a fairly deep zoom, both well
+   within a 1400px viewport).
+
+**A second-order effect caught and fixed in the same pass:** taller
+headers (up to 5 context lines at the new sizing, for the two longest
+`WORLD_CONTEXT` entries) pushed the divider line drawn in the prior entry
+past `HEADER_GUTTER` (190, sized for the *old* 2-3-line-max wrapping) —
+the first movement's portrait and label started overlapping the last line
+of description text. Computed the actual worst case (7 lines at the
+now-superseded 55-char wrap; 5 lines at the shipped 65-char wrap ≈ 184px
+to the divider) and raised `HEADER_GUTTER` to 230, restoring the clean
+gap between the header text and the first movement below it.
+
+**Verified:** re-screenshotted at the default view and three zoom levels
+(via synthetic wheel events on `#stage`, matching the real zoom handler) —
+text fits within the viewport at every level tested, and the
+"Scattered Households" portrait no longer overlaps the era 1 description.

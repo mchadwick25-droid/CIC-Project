@@ -100,9 +100,9 @@ svg#world{display:block;overflow:visible}
    uses, rather than the old fixed dark fill + thick 5px light halo, which read as
    blurry once there was no longer a light card to halo against. */
 .era-label,.era-tag,.era-context{paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round}
-.era-label{font-family:"Cinzel",serif;font-size:22px;letter-spacing:.06em;fill:var(--gold-leaf)}
-.era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:14px;fill:var(--ink-faded)}
-.era-context{font-family:"Alegreya",Georgia,serif;font-size:13px;fill:var(--iron-gall)}
+.era-label{font-family:"Cinzel",serif;font-size:26px;letter-spacing:.06em;fill:var(--gold-leaf)}
+.era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:16px;fill:var(--ink-faded)}
+.era-context{font-family:"Alegreya",Georgia,serif;font-size:15px;fill:var(--iron-gall)}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
   user-select:none}
@@ -40546,13 +40546,18 @@ eraH=eraH.map(h=>h/hSum*TOTAL_H); // renormalize after the floor
 // at an era's first year lands at eraY0[i] by construction, the same few
 // pixels the caption prints on, so the text and the very worlds it's
 // introducing (Alexandria, the Desert...) fought for the same ground. A
-// fixed gutter -- sized to the tallest of the ten header blocks (era I's
-// three-line caption, ~146px) plus real breathing room -- reserves that
-// space at the top of every band for text alone; no movement is plotted
-// inside it (see the yearToY and per-y density-sampling changes below),
-// so the streams entering the band are visible passing under the caption
-// without a single world's dot or label competing with it.
-const HEADER_GUTTER=190;
+// fixed gutter -- sized to the tallest of the ten header blocks -- reserves
+// that space at the top of every band for text alone; no movement is
+// plotted inside it (see the yearToY and per-y density-sampling changes
+// below), so the streams entering the band are visible passing under the
+// caption without a single world's dot or label competing with it.
+// 2026-09-17: raised 190->230 alongside the era-header font-size/wrap
+// changes above (bigger text, narrower context wrap so lines fit on
+// screen when zoomed in) -- the tallest header block is now up to 5
+// context lines at the new sizing (computed: worst case ~184px to the
+// divider), not the old ~146px three-line max this constant was
+// originally sized for.
+const HEADER_GUTTER=230;
 eraH=eraH.map(h=>h+HEADER_GUTTER);
 let eraY0=[]; {let y=40; eras.forEach((e,i)=>{eraY0.push(y); y+=eraH[i];});}
 const CANVAS_H=eraY0[eraY0.length-1]+eraH[eraH.length-1]+60;
@@ -40942,6 +40947,11 @@ const WORLD_CONTEXT={
   9:"Christianity globalizes under empire's shadow and against it. The era's honest theme is entanglement: mission and colonialism, revival and respectability, liberation and paternalism, held together rather than resolved.",
   10:"Christianity's center of gravity moves south and east, and the Pentecostal/Spirit-movement family becomes the largest new Christian reality since the Reformation. For scale: World War I (1914–18) breaks out early in this band."
 };
+// Era header context wrap width, in characters (2026-09-17, was a fixed 200
+// inlined at each call site): narrow enough that a wrapped line fits on
+// screen at a comfortable reading zoom rather than spanning near the full
+// width of the map, which only worked at the fully-zoomed-out view.
+const ERA_CONTEXT_WRAP=65;
 
 // Per-river background, researched by the Fable model against this exact set
 // of member movements (not the map's own primary census, and not carrying
@@ -41093,9 +41103,16 @@ function render(){
     // computed from the text actually drawn below (label/tag, plus
     // wrapped context lines when present) rather than a fixed height, so
     // the line sits right under whatever text an era actually has.
-    let textBottom=eraY0[i]+56;
+    // 2026-09-17: Mark's next report -- the text was crisp now but too
+    // small to read comfortably, and zooming in to read it ran the
+    // (still-wrapped-wide) lines off the screen. Font sizes bumped (see
+    // the .era-label/.era-tag/.era-context rules above) and the context
+    // wrap narrowed from 200 to ERA_CONTEXT_WRAP chars so a line stays
+    // short enough to fit on screen at a comfortable reading zoom instead
+    // of spanning the whole map's width.
+    let textBottom=eraY0[i]+64;
     if(WORLD_CONTEXT[e.num]){
-      textBottom=eraY0[i]+78+(wrapText(WORLD_CONTEXT[e.num],200).length-1)*16;
+      textBottom=eraY0[i]+90+(wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).length-1)*19;
     }
     const dividerY=textBottom+18;
     // Drawn on top of the rivers (band-fade's old spot) so the line stays
@@ -41104,7 +41121,7 @@ function render(){
     // against a busy stretch of the map -- not a return of the old block.
     gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY-9,width:BLEED_W,height:18,fill:isDark()?'#F6F6F2':'#2A2521',opacity:isDark()?0.1:0.06}));
     gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY,width:BLEED_W,height:1.5,fill:isDark()?'#F6F6F2':'#6B5D4A',opacity:isDark()?0.85:0.65}));
-    const lbl=el('text',{x:24,y:eraY0[i]+34,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
+    const lbl=el('text',{x:24,y:eraY0[i]+38,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
     gLabels.appendChild(lbl);
     // e.tag is one thread's narrative (usually the imperial/mainstream one), not
     // the whole band -- Era II's own tag ("Constantine's revolution to Chalcedon")
@@ -41112,17 +41129,18 @@ function render(){
     // Aksumite or Armenian churches', or six other lanes running the same years.
     // A single line can't speak for a band this plural, so the header states only
     // what's true of the whole band: how many movements, across how many lanes.
-    const tag=el('text',{x:24,y:eraY0[i]+56,class:'era-tag'});
+    const tag=el('text',{x:24,y:eraY0[i]+64,class:'era-tag'});
     tag.textContent=`${e.dates} — ${eraCounts[i]} movements across ${eraLaneCounts[i]} lanes`;
     gLabels.appendChild(tag);
     if(WORLD_CONTEXT[e.num]){
-      const ctx=el('text',{x:24,y:eraY0[i]+78,class:'era-context'});
-      // Wrapped wide enough to run most of the way across the band -- the
-      // header gutter above gives it a lane-free strip to do that in -- rather
-      // than stacking into a tall narrow column at the left margin, which is
-      // what forced the gutter this deep in the first place.
-      wrapText(WORLD_CONTEXT[e.num],200).forEach((line,li)=>{
-        const tspan=el('tspan',{x:24,dy:li===0?0:16});
+      const ctx=el('text',{x:24,y:eraY0[i]+90,class:'era-context'});
+      // Narrow enough (ERA_CONTEXT_WRAP chars) that a line fits on screen
+      // at a comfortable reading zoom, not just at the fully-zoomed-out
+      // view -- was wrapped at 200 chars, close to the full width of the
+      // map itself, which ran off-screen the moment anyone zoomed in
+      // enough to actually read the smaller text (Mark, 2026-09-17).
+      wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{
+        const tspan=el('tspan',{x:24,dy:li===0?0:19});
         tspan.textContent=line;
         ctx.appendChild(tspan);
       });
