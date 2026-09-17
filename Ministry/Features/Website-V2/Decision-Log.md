@@ -2901,4 +2901,14 @@ No change to the strip's own internal layout, image set, or scroll
 behavior — purely an outer-width fix. Verified at 1600px viewport: the
 strip's left/right edges now line up exactly with the header logo, the
 hook, and the Representative cards below it.
+
+**Open, deliberately not touched yet:** Mark flagged the Representative
+cards' text and layout as "old clunky text," plus a real defect —
+clicking a card's picture (the "click anyone's picture first for more
+about them" affordance) doesn't actually update the page text. Both
+need rework, but Mark wants to think it through in coordination with
+the atlas prose review thread first, since the cards' copy and the
+Atlas's own tradition prose likely need to move together rather than
+be rewritten twice. Not implementing anything here until that
+coordination converges — logged so it isn't lost to this thread alone.
 priority.
