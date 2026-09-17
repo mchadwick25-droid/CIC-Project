@@ -3025,4 +3025,32 @@ Verified with Playwright at 1400px and 390px: the mark plays once in
 the header on load, replays on click, "Church in Conversation" reads
 immediately after it, and the hero heading now sits with a clear gap
 below the photo strip on both viewport sizes.
+
+## 2026-09-17 (cont. 13) — Hero headline: masthead/dek split, not just bigger
+
+Mark's first call: the hero sentence should stand out much more as the
+page's "what is this" statement — bigger, wrapping to three lines
+rather than two. First pass (superseded before merge, so revised here
+rather than left as a stale intermediate step) just enlarged the whole
+sentence uniformly to a `clamp(1.75rem,1.1rem + 2.4vw,2.75rem)`/`max-
+width:63rem` block. Mark then asked for real creativity fitting the
+site's feel rather than a plain size bump. Presented three on-brand
+directions (illuminated first word; masthead/dek split; one accented
+phrase) with a recommendation; **Mark picked the masthead/dek split.**
+
+**What shipped:** the sentence is split at its natural clause break into
+two `<span>`s inside the same `<h1>` (one heading, not two, for
+accessibility — no outline change): `.hero-lead` ("Explore hundreds of
+historical Christian traditions") as a bold serif masthead line
+(`clamp(2rem,1.3rem + 2.8vw,3.25rem)`, weight 600), and `.hero-dek`
+("and have conversations with representative voices built from their
+own letters, sermons, and records.") as a smaller, muted, sans-serif
+subordinate line (`clamp(1.05rem,.85rem + .7vw,1.35rem)`, `var(--sans)`,
+`var(--muted)`) — the same serif/sans, ink/muted pairing already used
+elsewhere on the page (e.g. the flow-cards), not a new visual language.
+No copy change, no new color, no motion added.
+
+Verified with Playwright at 1440/1024/768/390px: reads as a clear
+masthead-plus-dek block at every width, dek line wraps cleanly under
+the lead line, nothing overflows on mobile.
 priority.
