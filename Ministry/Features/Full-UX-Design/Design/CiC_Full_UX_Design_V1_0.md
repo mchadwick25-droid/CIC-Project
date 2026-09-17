@@ -89,9 +89,23 @@ deliberate change: madder is the action accent** — separating what the *system
 (madder) from what the *witnesses* say (gold-leaf), which today share amber. Information
 design serving Conviction 5.
 
-**Dark mode: deferred, stated plainly.** The parchment ground is the brand. The map/tour
+**Dark mode: adopted, superseding the deferral below.** Mark's ruling, 2026-09-17
+(`Ministry/Technology/CiC_FrontEnd_Decision_Log.md`): the conversation app now ships the
+same dark register as `cic-website/` — the parchment/light ground above stays FINAL as the
+*light*-register record, but is no longer the app's only shipping ground. Every accent
+above is reused for the dark register too, each with its own recomputed, verified-≥4.5:1
+dark-safe value (madder unchanged as a button fill; gold-leaf, tyrian, and lapis each got a
+lightened variant reusing cic-website's own dark tokens where one already existed). Full
+token table and the change order itself: `cic-poc/frontend/src/app.css`'s `:root` block and
+its own inline comments.
+
+<details><summary>Superseded text (kept for the record, not the current ruling)</summary>
+
+Dark mode: deferred, stated plainly. The parchment ground is the brand. The map/tour
 "old leather" dark register exists as precedent (and the icons ship dark variants, §2.5);
 nothing here blocks a dark app variant and nothing ships one now.
+
+</details>
 
 ### 2.2 Typography (FINAL)
 
