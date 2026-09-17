@@ -66,3 +66,7 @@ Two things are fixed and are **not** what this rerun is testing:
 ---
 
 *End Probe 11 rerun. Simulated testing, Article 31 — informational only. Not independently reviewed. Does not clear Phase Five or Relational Safety.*
+
+---
+
+**Correction, 2026-09-17 (appended, not editing the transcript above).** Independent review (`Review-Artifacts/Phase5_Probe11_Rerun_2026-09-15_Round1_Review.md`, Finding F-2) found that §1's self-composed Fidelis output contains a fabricated detail: "at their own cliff, at their own stake." Checked directly against `records/don/figure/`: Marculus's cliff death is grounded; no martyrdom by fire or stake exists anywhere in this world's sources (Isaac and Maximianus were beaten and drowned). "Stake" does not trace to any record and should be read as invented. This is a defect in this self-run, unaudited simulation specifically — the review's own point is that a live call through the real deployed pipeline carries a grounding/citation discipline this Article 31 method bypasses entirely, so this finding is evidence about the self-run method's own blind spot, not evidence that the deployed Fidelis fabricates. The quoted §1 transcript is left as-is above (the historical record of what this run produced); do not cite the "stake" detail as an example of grounded content. Full disposition: `don_Decision_Log.md`'s 2026-09-17 entry.
