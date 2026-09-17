@@ -6,10 +6,31 @@ still open as PR [#243](https://github.com/mchadwick25-droid/CIC-Project/pull/24
 entry — read from the PR since it hasn't merged yet). Update this table every time a world
 moves a stage, per that launch prompt's own instruction, so state survives a context reset.
 
+## Change order, 2026-09-17: merge and promotion authority granted
+
+The launch prompt above (and every prior turn in this thread) operated under "never self-merge
+a PR... PR merges are always Mark's explicit call" as a standing rule. **Mark overrode that
+explicitly today**, after being shown the real stakes (this thread would push straight to the
+live production site and app, no review step, no one else looking first) and choosing:
+**"Give me full merge + deploy authority"** — permanently, for this pipeline, merging PRs and
+pushing promotions to `live` end to end without asking each time; he reviews after the fact via
+this standing doc and the published artifacts, not by gating each merge. His own words, in the
+same exchange: *"i built you to specificly bring the worlds to launch and luanch them"* and, on
+this thread's own title, *"your title is 'go live'"*.
+
+**What this changes and what it doesn't.** This thread may now merge its own PRs and execute
+the `main`->`live` promotion step itself. It does **not** change any of the other standing
+disciplines this project runs on — source fidelity, no fabrication, the build-cycle's own four
+escalation categories (Representative identity, portfolio-level decisions, governance/
+methodology changes, unresolved tensions), or ordinary care before a hard-to-reverse action.
+Verify before merging (tests, gates, a real build) exactly as before; the only thing removed is
+the pause for a separate "yes, merge" from Mark on each one.
+
 **Pipeline stages, in order:** build-complete -> M9 gates -> M2 compile -> M3 admission
-(Mark's call) -> registry `built`->`admitted` (Mark's call) -> WO-1 object-storage upload ->
-Atlas/census sync -> registry `admitted`->`open` (Mark's call) -> merge world PR(s) to `main`
-(Mark's call) -> promotion PR `main`->`live` (Mark's call) -> post-deploy verification.
+(Mark's call - real billed spend, still asked for explicitly every run) -> registry
+`built`->`admitted` (Mark's call) -> WO-1 object-storage upload -> Atlas/census sync -> registry
+`admitted`->`open` (Mark's call) -> merge world PR(s) to `main` (this thread, since 2026-09-17)
+-> promotion PR `main`->`live` (this thread, since 2026-09-17) -> post-deploy verification.
 
 ## "Fully implemented" (Mark's own bar) — the concrete checklist
 
