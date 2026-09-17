@@ -42,6 +42,7 @@ from engine.m1.registry import REPO_ROOT, formation_world_keys, load_registry
 CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 APP_WORLDS_TS = REPO_ROOT / "cic-poc" / "frontend" / "src" / "data" / "worlds.ts"
 SITE_TRADITIONS_DIR = REPO_ROOT / "cic-website" / "traditions"
+SITE_TABLE_HTML = REPO_ROOT / "cic-website" / "table.html"
 
 DEFECT = "defect"
 OBSERVATION = "observation"
@@ -793,6 +794,32 @@ def check_site_portraits(*, registry, worlds, **_) -> list[Finding]:
     return findings
 
 
+def check_table_html_worlds(*, registry, worlds, **_) -> list[Finding]:
+    """cic-website/table.html carries its OWN hand-maintained `WORLDS` array
+    (id/name/trad/portrait/tint/description) for the Table's seat-picker -
+    a third registration point independent of both the app's WORLD_ASSETS
+    and the site's traditions pages, and the one no check here has ever
+    covered. Found live (Mark, 2026-09-17): Renatus/gallic worked for the
+    Atlas card and Interview but was silently absent from the Table's own
+    picker for four days after admission, because nobody added it here.
+    A world missing from this file is fully admitted, fully wired
+    everywhere else, and simply never offered as a seat - no error, no
+    broken image, just absent."""
+    findings = []
+    if not SITE_TABLE_HTML.is_file():
+        return [_defect("table-html-file", "fleet", f"{SITE_TABLE_HTML} not found")]
+    text = SITE_TABLE_HTML.read_text(encoding="utf-8")
+    array_match = re.search(r"var\s+WORLDS\s*=\s*\[(.*?)\n\];", text, re.S)
+    ids = set(re.findall(r"id:\s*'([^']+)'", array_match.group(1))) if array_match else set()
+    for w in worlds:
+        cid = registry[w].get("census_id")
+        if not cid:
+            continue
+        if cid not in ids:
+            findings.append(_defect("table-html-world", w, f"census_id {cid!r} has no entry in table.html's own WORLDS array - never offered as a Table seat, though it may work fine for Interview"))
+    return findings
+
+
 # --------------------------------------------------------------------------
 # observations: measured, never thresholded
 # --------------------------------------------------------------------------
@@ -993,6 +1020,7 @@ CHECKS = [
     check_quote_speaker_labels,
     check_app_world_assets,
     check_site_portraits,
+    check_table_html_worlds,
     observe_retrieval_hints,
     observe_unread_retrieval_config,
     observe_optional_field_adoption,

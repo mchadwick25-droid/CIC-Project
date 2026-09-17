@@ -74,6 +74,22 @@ def test_a_world_left_out_of_the_frontend_asset_table_is_caught():
     assert "app-world-order/w7" in keys
 
 
+def test_a_world_missing_from_table_html_is_caught():
+    """table.html carries its own hand-maintained WORLDS array for the
+    Table's seat-picker, independent of both WORLD_ASSETS and the site's
+    traditions pages - the exact gap that left gallic admitted, live, and
+    working for Interview, but never offered as a Table seat for four days.
+    Reproduced against the real file, not a fixture, so the check's own
+    claim (every admitted world's census_id is in the real array) is
+    actually tested, not just its parsing logic."""
+    registry = cross_world.load_registry()
+    worlds = cross_world.formation_world_keys(registry)
+    broken = {**registry, "w7": {"census_id": "not-a-real-census-id-in-table-html"}}
+    keys = {f.key for f in cross_world.check_table_html_worlds(registry=broken, worlds=worlds + ["w7"])}
+    assert "table-html-world/w7" in keys
+    assert not {f.key for f in cross_world.check_table_html_worlds(registry=registry, worlds=worlds)}
+
+
 def test_a_participant_facing_field_carrying_a_record_id_is_caught():
     records = {
         "wld": {
