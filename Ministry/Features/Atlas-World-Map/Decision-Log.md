@@ -6379,3 +6379,46 @@ standalone demo before integration or stays a design artifact.
 code, no census expansion until the open questions above are answered.
 
 ---
+
+## 2026-09-17 — Era break band replaced with a thin divider line
+
+**Mark's report, from the live site:** the white horizontal bars marking the
+boundary between eras were "thick," "block[ed] the whole map under it," and
+looked "overwelming." He asked for them deleted and replaced with "just a
+white line starting under the text tha[t] has a very subtle background to
+stand out."
+
+**Confirmed the actual defect before touching anything:** screenshotted
+`atlas-v3.html` locally first. Each era's own "break band" (`gBreakBand`, in
+`render()`'s `eras.forEach` loop) was a `BLEED_W`-wide, 120px-tall rect at
+~92% opacity in dark mode (the site's default register) — composited to
+~#E5E4E0, essentially opaque near-white, painted behind the rivers but
+re-painted again on top of them via a fade gradient (`gBandFade`/
+`#bandFade`) that kept a bright, always-visible ~22px stripe at the band's
+own top and bottom edges regardless of what was underneath. In practice this
+read exactly as reported: a wide, heavy, near-opaque block at every era
+boundary, cutting the map into segments rather than dividing it cleanly.
+
+**Fix:** removed the break band and its fade gradient entirely (`gBreakBand`
+group, the `#bandFade` `linearGradient` and its per-render stop-color
+update, both ~120px rects). Replaced with, per era: a single thin line
+(1.5px, near-white in dark mode) plus a slim, low-opacity wash (18px tall,
+~0.1 opacity) directly behind it only so the line has enough to sit on
+against a busy stretch of river — not a return of the old block. Both are
+drawn on top of the rivers (the old fade layer's position) so the line
+stays crisp regardless of what color river crosses under it.
+
+**Positioned under the text, not at a fixed offset:** the era label/tag/
+context text was untouched (it already has its own 5px stroke-halo for
+legibility against the map, unrelated to the band) — but the divider's own Y
+position is now computed from where that specific era's text actually ends
+(reusing the same `wrapText()` call the context text itself uses, so a
+one-line vs. three-line context wrap each get a correctly-placed line)
+rather than the old fixed 120px height that left a lot of dead, blocked
+space under short headers.
+
+**Verified:** screenshotted before/after locally — the rivers now run
+unbroken through the header gutter instead of disappearing under a block;
+the line and its wash are visible without re-creating the "wall" effect;
+no JS console errors from the change (`gBreakBand`/`bandFade` fully removed,
+no dangling references).
