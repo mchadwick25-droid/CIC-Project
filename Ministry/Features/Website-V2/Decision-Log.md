@@ -2726,4 +2726,29 @@ tick). Verified programmatically with Playwright: `animationName:
 cic-buildC` is actively running again ~200ms after a click, with the
 ring back at its starting `opacity:0`, confirming a real restart, not
 just a class-name change.
+
+## 2026-09-17 (cont. 3) — Drop the pilot paragraphs; Timeline/Table launch pair confirmed directly below the Representative cards
+
+Mark approved the compressed "who" layout and the mark fix above, and
+confirmed the internal-scroll design intent explicitly: scroll within
+the gallery box to see additional era rows now, and once a third era
+is added it becomes a box of two visible rows scrolling through all
+ten — no code change needed for that, just noted as confirmed direction.
+
+Deleted the two pilot-recruiting paragraphs (`.pilot-note` — "This is
+a pilot..." — and `.pilot-caveat` — "Because of cost, we're asking...")
+that sat between the Representative cards and the Timeline/Table
+launch pair. Mark will fold that recruiting language into the actual
+pilot request email/text instead; it doesn't belong on the public
+homepage. Removed their now-dead CSS rule along with the markup.
+
+This also directly delivers Mark's next ask — "the timeline launch on
+the left and table conversation launch on the right below the table
+section" — since that `.feature-pair` (Church in History / Timeline
+on the left, Set your own table / multi-Representative conversation on
+the right) was already positioned immediately after the Representative
+cards; removing the pilot paragraphs just closes the gap that used to
+sit between them. Verified with a Playwright screenshot scrolled to
+that section: the pair now sits directly under the card gallery, in
+the correct left/right order, no structural change needed.
 priority.
