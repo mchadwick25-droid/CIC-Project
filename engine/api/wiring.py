@@ -162,10 +162,14 @@ def create_session(
     # allowed writer of session_started itself (engine.m4.entrance's own
     # seal), not of everything create_session appends after it.
     representative = world.frame["representative"]
+    # card_name over display_name: see door_turn's own docstring
+    # (Built-World Voice Alignment, Mark's ruling 2026-09-17). Falls back to
+    # display_name only for an entry with no card_name (the fix fixture).
+    world_name = registry[world_key].get("card_name") or world.frame["display_name"]
     door_event = facilitator_turns.door_turn(
         representative_name=representative["name"],
         role_label=representative["role_label"],
-        display_name=world.frame["display_name"],
+        world_name=world_name,
     )
     events.validate("facilitator_turn", door_event)
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=door_event)

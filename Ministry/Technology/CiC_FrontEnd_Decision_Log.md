@@ -3293,3 +3293,59 @@ Get the nav-label answer (Timeline vs. Map), then begin implementation
 - most likely the homepage restructure first, since its shape is the
 most fully settled, followed by the two new pages once Mark has
 written or approved their content.
+
+---
+
+## 2026-09-17 — DOOR's world-name slot: card_name over display_name
+
+**Status.** Opened by the Built-World Voice Alignment workstream's first
+concrete task (locating the conversation's own opening-introduction text
+across the 8 built worlds). DOOR itself (the 2026-08-25 entry above) was
+not in question - the shared-template mechanism stays exactly as approved,
+one Facilitator line for every world, never per-world-authored.
+
+**Concrete finding.** DOOR's `{display_name}` slot was filled from
+`world.frame["display_name"]` - each world's *scholarly* registry name -
+never the plain `card_name` used everywhere else a participant meets the
+world (homepage tile, Atlas card, Arrival's own kicker line). For 7 of the
+8 built worlds the two names diverge, so DOOR was telling a participant
+things like "You're about to speak with Marius, Deacon of the Letters, of
+Imperial and Juridical Christianity" - a term that appears nowhere else in
+plain voice; Arrival only ever surfaces it as a small, secondary "studied
+as..." line, not the primary way a world is named. Only `alx` (Alexandrian
+Christianity) had no mismatch. Traced to source: `build_frame_json`
+(`engine/m2/builders.py:859`) passes `registry_entry.get("display_name")`
+straight through with no substitution, and `create_session()`
+(`engine/api/wiring.py`) fed that value into DOOR verbatim; the identical
+pattern existed in `table_wiring.py`'s multi-Representative seating for
+`table_door_turn`.
+
+**Mark's ruling**, put to him directly: "it is fine to come from the
+facilitator, but the words of the facilitator should align with the text
+the world has." Presented three options (swap the data source; keep
+display_name but restructure the sentence around card_name; leave it as
+reinforcement of Arrival's "studied as" line) - **Mark picked the data-
+source swap.**
+
+**Wired exactly as scoped:** `door_turn()`'s and `table_door_turn()`'s
+slot renamed `world_name`; both call sites (`engine/api/wiring.py::
+create_session`, `engine/api/table_wiring.py::create_table_session`) now
+pass `registry[world_key]["card_name"]`, falling back to
+`world.frame["display_name"]` only for an entry with no card_name at all
+(the `fix` fixture - never participant-facing, never admitted). No new
+authored copy; no package recompile needed, since `card_name` already
+lives in the registry dict `create_session`/`create_table_session` had
+loaded regardless. Added `engine/m4/tests/test_facilitator_turns.py`:
+confirms both turn-builders interpolate `world_name` correctly, and
+regression-guards that every admitted formation world actually carries a
+`card_name` (so a future world can't silently hit the fallback and
+reintroduce this exact mismatch). Full existing suite re-run before and
+after via `git stash` to confirm no prior-passing test regressed; the
+sandbox's own pre-existing failures (compiled packages not present on
+disk - derived build output, gitignored) are identical in both runs.
+
+### Next action
+
+None outstanding from this finding. Built-World Voice Alignment continues
+with touchpoints 1-3 (homepage tile, Atlas panel, tradition page) and the
+still-open doctrine-field/workstream-home questions.
