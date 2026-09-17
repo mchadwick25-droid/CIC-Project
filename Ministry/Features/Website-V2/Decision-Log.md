@@ -2946,4 +2946,24 @@ discipline reserves exactly this kind of front-end redesign work for
 Fable rather than an improvised in-session rewrite, and the file's
 scale makes a rushed first pass expensive to redo. Awaiting Mark's
 direction on how he wants to scope that piece.
+
+## 2026-09-17 (cont. 9) — Reorder the Church Family Tree card: heading above the graphic, tagline under it
+
+Mark's call: on the homepage card, put "Church Family Tree" as the
+heading above the image, with the tagline directly under it — a
+straight reorder of `h2`/`.eyebrow`/`img`, no restyling asked for.
+Card order is now heading → tagline → image → description → CTA
+(was: tagline → image → heading → description → CTA).
+
+Scoped the fix to just this one card: `.flow-card h2`/`.flow-card
+.eyebrow`'s shared margins are used by the *other* flow-card ("Set
+your own table") too, which Mark did not ask to reorder and which
+still has its original eyebrow-first layout. Added
+`.flow-card>.eyebrow:first-child,.flow-card>h2:first-child{margin-top:
+1.1rem}` — a structural-position rule, not a new class — so whichever
+element is actually first in a given card gets the "flush against the
+card's top edge" spacing, regardless of which card it's in. Verified
+with Playwright: the reordered card reads heading → tagline → image →
+text → CTA as asked, and the untouched "Set your own table" card is
+pixel-identical to before (same eyebrow-first spacing it already had).
 priority.
