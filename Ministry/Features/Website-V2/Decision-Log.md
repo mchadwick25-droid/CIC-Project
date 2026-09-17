@@ -3077,4 +3077,29 @@ width rather than a narrow column; mobile (390px) is unaffected in
 shape, just smaller text.
 
 Verified with Playwright at all four widths.
+
+## 2026-09-17 (cont. 15) — Mobile/tablet hero cut back down to its old line count
+
+Mark's feedback, checking the live masthead/dek split on a narrow
+screen: the hero went from 4 lines of text to 6, pushing "Who would
+you like to talk with?" and everything under it too far down the page.
+
+Confirmed the actual cause with real measurements rather than assuming:
+at 390px, the pre-masthead-split hero (`94d4432`, the version live
+before this whole hero-redesign arc) rendered at 5 lines; the shipped
+masthead/dek split renders the lead at its `2rem` clamp floor (3 lines)
+plus the dek at its own floor (3 lines) — 6 lines total, because neither
+span had a mobile-specific size and both were stuck at their clamp
+minimums well before 390px.
+
+**Fix:** added a `@media (max-width:640px)` override —
+`.hero-lead{font-size:1.6rem}`, `.hero-dek{font-size:.85rem}` — sized
+down specifically for phone/small-tablet widths, leaving the desktop
+clamp values (and desktop's 3-total-line result) completely untouched.
+
+Verified with Playwright across the full 390–1920px range: desktop
+(≥900px) still renders lead 2 / dek 1 = 3 lines, unchanged from the
+prior fix; the 640–850px band now renders 3–4 total lines instead of
+4; and 390–480px now renders lead 2 / dek 2 = 4 lines total, matching
+the pre-redesign hero's own footprint instead of overshooting it.
 priority.
