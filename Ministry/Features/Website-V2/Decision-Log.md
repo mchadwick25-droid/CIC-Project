@@ -2832,4 +2832,83 @@ search (and archive.org briefly reported itself "temporarily
 offline"), both clearing within the same session — handled by
 spacing requests and switching to unaffected image candidates while
 waiting, not by retrying aggressively or routing around either.
+
+## 2026-09-17 (cont. 6) — Getting the homepage redesign actually live: the deploy pipeline had two separate defects
+
+Mark asked to go live with everything above. What should have been a
+single merge turned into finding and fixing two real, independent
+infrastructure defects — neither a content issue, both worth recording
+so they don't recur silently.
+
+**Defect 1 — `live`'s branch ruleset had two stale required status
+checks.** `render.yaml`'s own D3 promotion model documents `main` as
+the integration branch and `live` as the protected one production
+deploys from; a `main` → `live` promotion PR (#256) was blocked by
+GitHub ruleset enforcement waiting on two check names —
+`M9 confinement check (Library Access Gate, report mode)` and
+`M9 confinement check (Library Access Gate)` — that no longer matched
+any job in `.github/workflows/ci.yml` (the only current M9 job is
+named `M9 confinement (compiled shelf; M1+M9 findings vs waivers)`).
+These checks would never report again; the PR was stuck permanently.
+The ruleset's web UI would not let Mark remove just these two entries
+(every other required check was editable) — a real GitHub UI
+limitation for orphaned check names, not a permissions problem.
+Fixed via the REST API directly (`GET`/`PUT`
+`/repos/.../rulesets/23525461`, run from Mark's own PowerShell with a
+scoped personal access token): fetched the ruleset as-is, removed only
+the two stale entries programmatically, pushed the rest back
+unchanged. PR #256 merged cleanly right after. This is a durable fix,
+not a one-time workaround — future promotions to `live` won't hit the
+same wall.
+
+**Defect 2 — the Cloudflare Workers/Pages GitHub App had been
+suspended** (by Mark himself, 2026-09-10, apparently unintentionally),
+meaning no push since then — not today's `main` merge, not the `live`
+promotion — had triggered a Cloudflare deploy. `www.churchinconversation.com`
+kept serving whatever was deployed 7 days prior. Confirmed this
+wasn't a caching issue before chasing one: `assets/give-photo.jpg`
+(a file that only exists in today's build) 404'd on production,
+which a stale cache alone can't produce. Found by checking
+`github.com/settings/installations` directly rather than assuming;
+fixed by Mark clicking Unsuspend there.
+
+**Open thread, not yet closed at the time of this entry:** even after
+unsuspending, the live site was still serving old content (a *third*
+distinct old version appeared across repeated checks, and a full
+Cloudflare cache purge — Caching → Configuration → Purge Everything —
+didn't change what came back), and two manual drag-and-drop uploads
+via Cloudflare's "New deployment" static-asset uploader also didn't
+land the current build (the first upload appears to have only
+included a handful of hand-selected files, not the full `cic-website/`
+tree). Next step: trigger a real deploy through the now-restored
+GitHub App with an actual push to `main` (Cloudflare's confirmed
+production branch for this Worker), rather than continuing with the
+manual uploader — this Decision-Log entry's own commit is that push.
+Cloudflare's "Production branch" setting itself still points at `main`,
+not `live` — a known, deliberately deferred mismatch with the Render
+side's promotion model, tracked as its own separate decision, not
+touched here.
+
+## 2026-09-17 (cont. 7) — Post-launch tweaks, first round
+
+Mark's first live-site feedback: the history strip at the top ran the
+full width of the browser while everything else on the page (header,
+hero, cards, footer) sits inside the shared `--wide` (64rem) content
+column — the strip alone bleeding edge to edge read as visually odd
+next to a page that's centered everywhere else. Constrained it to
+`max-width:var(--wide);margin:0 auto`, matching every other section.
+No change to the strip's own internal layout, image set, or scroll
+behavior — purely an outer-width fix. Verified at 1600px viewport: the
+strip's left/right edges now line up exactly with the header logo, the
+hook, and the Representative cards below it.
+
+**Open, deliberately not touched yet:** Mark flagged the Representative
+cards' text and layout as "old clunky text," plus a real defect —
+clicking a card's picture (the "click anyone's picture first for more
+about them" affordance) doesn't actually update the page text. Both
+need rework, but Mark wants to think it through in coordination with
+the atlas prose review thread first, since the cards' copy and the
+Atlas's own tradition prose likely need to move together rather than
+be rewritten twice. Not implementing anything here until that
+coordination converges — logged so it isn't lost to this thread alone.
 priority.
