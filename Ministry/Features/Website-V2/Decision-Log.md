@@ -2984,4 +2984,15 @@ a card, and the tagline now sits mid-card using the shared `.flow-card
 .eyebrow` margin like any other non-first element. Verified with
 Playwright: card reads heading → image → tagline → text → CTA; the
 untouched "Set your own table" card is unaffected.
+
+## 2026-09-17 (cont. 11) — Space added between the header and the history strip
+
+Mark's call: the top row of history-strip photos was flush against the
+header's bottom border, with no framing. Added top margin so the strip
+now sits with breathing room under the header instead of touching it.
+
+Changed `.history-strip`'s margin from `0 auto` to `1.5rem auto 0` —
+a one-line spacing addition, no other layout touched. Verified with
+Playwright at 1400px: a clean gap now separates the header's rule line
+from the top edge of the photo strip.
 priority.
