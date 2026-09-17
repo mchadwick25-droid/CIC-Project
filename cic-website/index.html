@@ -95,7 +95,10 @@ p{margin:0 0 1rem}
 @media (min-width:48rem){
   .feature-pair{grid-template-columns:1fr 1fr}
 }
-.flow-story{max-width:var(--wide);margin:2.5rem auto 0;padding:0 1.25rem}
+.story-give{max-width:var(--wide);margin:2.5rem auto 0;padding:0 1.25rem;display:grid;grid-template-columns:2fr 1fr;gap:2.5rem;align-items:start}
+@media (max-width:48rem){
+  .story-give{grid-template-columns:1fr}
+}
 .flow-story h2{font-size:clamp(1.5rem,2.6vw,1.85rem);font-weight:500;line-height:1.35;margin:0 0 1rem;max-width:var(--measure)}
 .flow-story p{max-width:var(--measure);color:var(--muted);font-family:var(--sans)}
 .flow-card{display:flex;flex-direction:column;text-decoration:none;color:var(--text);background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
@@ -131,27 +134,19 @@ p{margin:0 0 1rem}
 .chair .acts a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
 .chair .acts a.record{font-weight:400;color:var(--muted)}
 .chair .acts a.record:hover,.chair .acts a.record:focus-visible{color:var(--action-hover)}
-.more-link{max-width:var(--wide);margin:0 auto;padding:1.1rem 1.25rem 0;font-family:var(--sans);font-size:.9rem}
+.more-link{margin:1.5rem 0 0;font-family:var(--sans);font-size:.9rem}
 .more-link a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
 
-.support{max-width:var(--wide);margin:0 auto;padding:2rem 1.25rem 3rem;border-top:1px solid var(--rule)}
-.support-card{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:1.6rem 1.75rem}
-.support-columns{display:flex;gap:2rem;flex-wrap:wrap;align-items:center;justify-content:space-between}
-.support-col{flex:1 1 280px;display:flex;gap:1.2rem;align-items:flex-start}
-.support-col-right{flex:0 1 auto}
-.support-icon{width:34px;flex:0 0 34px;color:var(--action);margin-top:.2rem}
-.support-body{font-family:var(--sans);font-size:.95rem;color:var(--muted)}
-.support-body h2{font-family:var(--serif);font-size:1.25rem;color:var(--text);margin:0 0 .6rem}
-.support-body p{max-width:var(--measure);margin:0 0 .8rem}
-.support-links{display:flex;flex-wrap:wrap;gap:.7rem}
+.support-card{height:100%;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:1.5rem}
+.support-icon{width:30px;color:var(--action);margin-bottom:.6rem}
+.support-card .eyebrow{margin:0 0 .5rem}
+.support-card h2{font-family:var(--serif);font-size:1.15rem;font-weight:500;line-height:1.3;color:var(--text);margin:0 0 .6rem}
+.support-desc{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .9rem}
+.support-links{display:flex;flex-wrap:wrap;gap:.6rem;margin:0 0 .8rem}
 .support-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 1.1rem;font-weight:600;color:var(--vellum);background:var(--madder);border-radius:6px;text-decoration:none}
 .support-btn:hover,.support-btn:focus-visible{background:var(--madder-deep);color:var(--vellum)}
-.support-more{font-size:.875rem;margin:1.2rem 0 0}
+.support-more{font-size:.8rem;color:var(--muted);margin:auto 0 0}
 .support-more a{color:var(--action)}
-@media (max-width:640px){
-  .support-columns{flex-direction:column;align-items:stretch;gap:1.2rem}
-  .support-icon{width:28px;flex-basis:28px}
-}
 
 .site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.9rem;color:var(--muted)}
 .site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
@@ -322,37 +317,30 @@ p{margin:0 0 1rem}
   </div>
   </div>
 
-  <div class="flow-story">
-    <p class="eyebrow">The Unfolding Story</p>
-    <h2 id="story-title">For two thousand years, people have followed Jesus across vastly different worlds and cultures.</h2>
-    <p>They gathered in modest homes and workshops, navigating the suspicion of their neighbors and the pressure of hostile rulers. They followed Him into mountain monasteries and remote deserts, along ancient trade routes across Asia, and into the cathedrals and university halls of Europe. They stood at the stake in Reformation squares, sang through forced labor in colonial fields, knelt in Latin American village chapels, and gathered inside modern churches across the world.</p>
-    <p>Like the ancient story of Israel, the story of the Church calls for honesty. It is not a tale of heroes who marched in lockstep and got everything right. It is a historically grounded record of real people: wrestling with political power, arguing over hard questions, fracturing, and failing often—proving at every turn that humanity cannot fix itself. Yet God never worked from a safe distance, nor did He wait for people to become perfect before meeting them. He stepped directly into their everyday lives, languages, and cultures, guiding them by His Spirit, shaping their human gifts for His purposes, and using their human hands to heal the fractured and restore His creation.</p>
-    <p>Through all those scattered eras and divergent paths, each community discovered distinct perspectives of who Jesus is and how to follow Him. You are invited to explore these stories. Trace forgotten routes across a living atlas, uncover the stories that shaped the Church, and pull up a chair with representative voices from across these traditions. In conversation with them, you can hear where they stand in deep agreement, listen as they wrestle with where they see things differently, and discover where your own story connects with theirs.</p>
-  </div>
-
-  <p class="more-link"><a href="whats-next.html">What's next →</a></p>
-
-  <section class="support" aria-labelledby="support-title">
-    <div class="support-card">
-      <div class="support-columns">
-        <div class="support-col">
-          <svg class="support-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M18 8 L44 8 L44 56 L18 56 Z" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M18 8 L36 14 L36 50 L18 56 Z" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="30" cy="32" r="1.8" fill="currentColor"/></svg>
-          <div class="support-body">
-            <p class="eyebrow">Help keep the door open</p>
-            <h2 id="support-title">Running these conversations costs real money</h2>
-            <p>It's what limits how many people can use them right now. If you'd like to help:</p>
-          </div>
-        </div>
-        <div class="support-col support-col-right">
-          <p class="support-links">
-            <a class="support-btn" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Give once</a>
-            <a class="support-btn" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Give monthly</a>
-          </p>
-        </div>
-      </div>
-      <p class="support-more">For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
+  <div class="story-give">
+    <div class="flow-story">
+      <p class="eyebrow">The Unfolding Story</p>
+      <h2 id="story-title">For two thousand years, people have followed Jesus across vastly different worlds and cultures.</h2>
+      <p>They gathered in modest homes and workshops, navigating the suspicion of their neighbors and the pressure of hostile rulers. They followed Him into mountain monasteries and remote deserts, along ancient trade routes across Asia, and into the cathedrals and university halls of Europe. They stood at the stake in Reformation squares, sang through forced labor in colonial fields, knelt in Latin American village chapels, and gathered inside modern churches across the world.</p>
+      <p>Like the ancient story of Israel, the story of the Church calls for honesty. It is not a tale of heroes who marched in lockstep and got everything right. It is a historically grounded record of real people: wrestling with political power, arguing over hard questions, fracturing, and failing often—proving at every turn that humanity cannot fix itself. Yet God never worked from a safe distance, nor did He wait for people to become perfect before meeting them. He stepped directly into their everyday lives, languages, and cultures, guiding them by His Spirit, shaping their human gifts for His purposes, and using their human hands to heal the fractured and restore His creation.</p>
+      <p>Through all those scattered eras and divergent paths, each community discovered distinct perspectives of who Jesus is and how to follow Him. You are invited to explore these stories. Trace forgotten routes across a living atlas, uncover the stories that shaped the Church, and pull up a chair with representative voices from across these traditions. In conversation with them, you can hear where they stand in deep agreement, listen as they wrestle with where they see things differently, and discover where your own story connects with theirs.</p>
+      <p class="more-link"><a href="whats-next.html">What's next →</a></p>
     </div>
-  </section>
+
+    <section class="support" aria-labelledby="support-title">
+      <div class="support-card">
+        <svg class="support-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M18 8 L44 8 L44 56 L18 56 Z" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M18 8 L36 14 L36 50 L18 56 Z" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="30" cy="32" r="1.8" fill="currentColor"/></svg>
+        <p class="eyebrow">Help keep the door open</p>
+        <h2 id="support-title">Running these conversations costs real money</h2>
+        <p class="support-desc">It's what limits how many people can use them right now. If you'd like to help:</p>
+        <p class="support-links">
+          <a class="support-btn" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Give once</a>
+          <a class="support-btn" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Give monthly</a>
+        </p>
+        <p class="support-more">For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
+      </div>
+    </section>
+  </div>
 </main>
 
 <footer class="site-footer">

@@ -2751,4 +2751,38 @@ cards; removing the pilot paragraphs just closes the gap that used to
 sit between them. Verified with a Playwright screenshot scrolled to
 that section: the pair now sits directly under the card gallery, in
 the correct left/right order, no structural change needed.
+
+## 2026-09-17 (cont. 4) — Narrative and contribution side by side, 2/3 : 1/3
+
+Mark's call: the narrative ("The Unfolding Story") and the
+contribution/Stripe section should sit side by side, not stacked full
+width — narrative at 2/3, contribution at 1/3, not an even split.
+
+Wrapped both in a new `.story-give` CSS grid
+(`grid-template-columns:2fr 1fr`), stacking to one column under 48rem.
+`.flow-story` and `.support` each dropped their own standalone
+`max-width`/`margin:auto`/`border-top` centering rules, since the grid
+parent now positions them. Moved "What's next →" inside the narrative
+column, right after its last paragraph — it's a continuation of the
+story's own content, not the donate card's.
+
+At 1/3 width the old horizontal `.support-columns` layout (icon and
+text side by side, buttons off to the right) no longer had room to
+work — rebuilt it as a compact vertical card instead: icon, eyebrow,
+heading, description, the two Stripe buttons, then the "Get Involved"
+line, all stacked, `support-more` pinned to the card's bottom via
+`margin-top:auto` so the card reads as a clean, self-contained sidebar
+unit next to the narrative. Deleted the now-unused
+`.support-columns`/`.support-col`/`.support-col-right`/`.support-body`
+CSS. (Caught and fixed my own cascade bug before shipping: an
+overly-broad `.support-card>p` selector would have matched every
+direct-child `<p>`, including `.support-more`, and silently
+overwritten its `margin-top:auto` — gave the description paragraph its
+own `.support-desc` class instead of relying on a bare element
+selector.)
+
+Verified with Playwright at 1400×1000 (2/3 : 1/3 side by side, both
+Stripe buttons fit on one row in the narrower card) and at 390×844
+(stacks to one column, contribution card full width below the
+narrative, unaffected).
 priority.
