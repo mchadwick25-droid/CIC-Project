@@ -3025,4 +3025,22 @@ Verified with Playwright at 1400px and 390px: the mark plays once in
 the header on load, replays on click, "Church in Conversation" reads
 immediately after it, and the hero heading now sits with a clear gap
 below the photo strip on both viewport sizes.
+
+## 2026-09-17 (cont. 13) — Hero headline enlarged to three lines
+
+Mark's call: the hero sentence should stand out much more as the page's
+"what is this" statement — bigger, and wrapping to three lines rather
+than two.
+
+Changed `.hero h1`: font-size `clamp(1.4rem,1rem + 1.5vw,1.9rem)` →
+`clamp(1.75rem,1.1rem + 2.4vw,2.75rem)` (roughly 45% bigger at its
+desktop ceiling, 30.4px → 44px), and narrowed its `max-width` from
+`68rem` to `63rem` so the extra size actually lands on three lines
+instead of stretching wide on two. No copy change — same sentence.
+
+Verified with Playwright across 1440/1280/1024/768px: reads as a clean
+three-line block at every one of those widths (not just one lucky
+breakpoint). At 390px (mobile) it wraps to six lines, which is expected
+— the same large type against a much narrower column, not a
+regression, and still fully readable with no overflow.
 priority.
