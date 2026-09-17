@@ -3053,4 +3053,28 @@ No copy change, no new color, no motion added.
 Verified with Playwright at 1440/1024/768/390px: reads as a clear
 masthead-plus-dek block at every width, dek line wraps cleanly under
 the lead line, nothing overflows on mobile.
+
+## 2026-09-17 (cont. 14) — Dek widened so it reads as part of the whole statement, not a small square
+
+Mark's feedback on the masthead/dek split, once shipped: the dek line
+was too small and looked square/boxy, disconnected from the masthead
+above it — "it can be smaller but still feel like the whole statement."
+
+Diagnosed, not guessed: measured the dek's actual rendered box at
+1440px — its `max-width:46rem` (736px) was narrow enough that the full
+dek sentence wrapped into two centered lines noticeably shorter than
+the masthead's own ~1008px width, reading as a small, separate caption
+block rather than a continuation of the same sentence.
+
+**Fix:** widened `.hero-dek`'s `max-width` 46rem → 70rem (close to the
+hero's own outer width) and reduced its font-size clamp further
+(`clamp(1.05rem,.85rem + .7vw,1.35rem)` →
+`clamp(.9rem,.75rem + .5vw,1.05rem)`) — smaller, as asked, but now with
+room to actually use that smaller size: at 1440/1024px it now reads as
+one full-width line under the masthead instead of a square block; at
+768px it wraps to two lines that span close to the masthead's own
+width rather than a narrow column; mobile (390px) is unaffected in
+shape, just smaller text.
+
+Verified with Playwright at all four widths.
 priority.
