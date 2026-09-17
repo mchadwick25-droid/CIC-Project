@@ -3102,4 +3102,26 @@ Verified with Playwright across the full 390–1920px range: desktop
 prior fix; the 640–850px band now renders 3–4 total lines instead of
 4; and 390–480px now renders lead 2 / dek 2 = 4 lines total, matching
 the pre-redesign hero's own footprint instead of overshooting it.
+
+## 2026-09-17 (cont. 16) — Dek size bumped back up; checked with an actual screenshot first
+
+Mark's feedback on the deployed widen fix: "that's not what you showed
+me, the second half is one line and too small" — the prior pass
+(cont. 14) reduced the dek's font-size clamp to `.9rem–1.05rem` to make
+it fit on one line at desktop widths; in Mark's own view that read as
+too thin/small, not the earlier text description.
+
+Learned from this: sent an actual Playwright screenshot this time
+before asking Mark to confirm, rather than describing the change in
+words only, since a size/proportion judgment call like this one needs
+to be seen, not read.
+
+Raised `.hero-dek`'s font-size clamp `.9rem–1.05rem` →
+`1.15rem–1.4rem` (line-height 1.6→1.55, margin-top .7rem→.8rem for the
+bigger type), keeping the same wide `max-width:70rem` from cont. 14 so
+it doesn't regress to the earlier boxy look even though it now wraps to
+two lines again at desktop widths — the two lines span close to the
+full container width rather than a narrow column, which is what
+avoided "square" the first time. Mark confirmed from the screenshot
+before this shipped.
 priority.
