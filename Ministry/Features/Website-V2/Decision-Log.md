@@ -2911,4 +2911,39 @@ the atlas prose review thread first, since the cards' copy and the
 Atlas's own tradition prose likely need to move together rather than
 be rewritten twice. Not implementing anything here until that
 coordination converges — logged so it isn't lost to this thread alone.
+
+## 2026-09-17 (cont. 8) — Rename "Church in History" / "Timeline" to "Church Family Tree"
+
+Mark's call: the Atlas/Timeline feature is being renamed to "Church
+Family Tree," with "Two thousand years of the church, alive in one
+place" as its tagline. He confirmed (via a scoping question, since
+this touches several places) that the full scope is: the homepage
+promo card, the site nav label everywhere, the `atlas-v3.html` page's
+own copy, and eventually the page's visual metaphor itself (currently
+"rivers" — flowing, branching colored paths).
+
+**Done in this pass — text only, site-wide nav + homepage card:**
+- Every page's nav link `Timeline` → `Church Family Tree` (not
+  shortened, per Mark's explicit instruction) — `about.html`,
+  `index.html`, `pilot-feedback.html`, `privacy.html`, `story.html`,
+  `support.html`, `table.html`, `tour.html` (×2), `whats-next.html`.
+- Homepage card: eyebrow "Twenty centuries on one map, free to
+  explore" → the new tagline "Two thousand years of the church, alive
+  in one place"; heading "Church in History" → "Church Family Tree";
+  CTA "Open Church in History →" → "Open Church Family Tree →". Left
+  the descriptive paragraph (200+ movements, hover/click guidance) and
+  the preview image's alt text untouched — the alt text still
+  accurately describes what's actually shown (a rivers-based
+  visualization), and changing it to describe a tree before the visual
+  itself changes would make it inaccurate.
+
+**Explicitly not touched, flagged instead:** `atlas-v3.html` itself
+(42,104 lines, 3.8MB — a full interactive visualization with an
+embedded 200+-movement dataset, not a simple page) and the actual
+rivers→tree visual-metaphor redesign. Recommended to Mark that this
+goes through its own proper design pass — this project's own usage
+discipline reserves exactly this kind of front-end redesign work for
+Fable rather than an improvised in-session rewrite, and the file's
+scale makes a rushed first pass expensive to redo. Awaiting Mark's
+direction on how he wants to scope that piece.
 priority.
