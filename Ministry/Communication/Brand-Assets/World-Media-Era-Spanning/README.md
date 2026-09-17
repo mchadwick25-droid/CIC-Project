@@ -1,9 +1,13 @@
 # World Media, Era-Spanning — homepage image strip
 
-**⚠ IMAGES NOT YET DOWNLOADED — see "The download blocker" below.** All 8
-candidates are found, license-verified, and documented; the actual JPG
-files could not be fetched from this sandbox. Every folder carries a
-`DOWNLOAD-PENDING.md` with the exact URL to fetch instead.
+**✔ ALL 8 IMAGES DOWNLOADED.** The network blocker described below (kept
+here as a record of what happened, not a current problem) was resolved when
+Mark widened this sandbox's network egress allowlist to include Wikimedia's
+image domains directly. Four files came straight from `upload.wikimedia.org`;
+the other four hit Wikimedia's own rate limiter after repeated requests in
+this session and were retrieved instead via the Wayback Machine stopgap
+described below (real, byte-identical archived copies, not a workaround of
+convenience). Every folder now holds its real image file.
 
 Eight real historical photographs for a homepage image strip on
 churchinconversation.com, spanning the full ~2000-year story of the
@@ -55,32 +59,37 @@ image — the Wittenberg door, a copyleft license distinct from Creative
 Commons that also requires attribution and share-alike). Don't drop
 attribution on the CC BY-SA or FAL images when these go live.
 
-## The download blocker
+## The download blocker (resolved)
 
 Every license, author, and date below was confirmed by a **direct fetch**
 of the MediaWiki API (`action=query&prop=imageinfo&iiprop=extmetadata`) —
-never assumed, never carried over from a caption. But `commons.wikimedia.org`
-and `upload.wikimedia.org` are both blocked outright by this sandbox's
-network egress policy (confirmed via both `curl` and the WebFetch tool,
-returning an explicit `EGRESS_BLOCKED` error, not a transient rate limit) —
-the same class of restriction `CLAUDE.md` already documents for the
-patristic text hosts (`cic/texts/` sourcing), just extended here to
-Wikimedia's own image infrastructure.
+never assumed, never carried over from a caption. At the time this set was
+first researched, `commons.wikimedia.org` and `upload.wikimedia.org` were
+both blocked outright by this sandbox's network egress policy (confirmed
+via both `curl` and the WebFetch tool, returning an explicit `EGRESS_BLOCKED`
+error, not a transient rate limit) — the same class of restriction
+`CLAUDE.md` documents for the patristic text hosts (`cic/texts/` sourcing),
+extended at the time to Wikimedia's own image infrastructure.
 
-**The workaround found for verification, not for download:**
-`en.wikipedia.org`'s own API is *not* blocked, and MediaWiki's federated
-file-repository design means it will serve full `extmetadata` for a file
-that physically lives on Commons, as if it were a local file — this is
-how all seven Commons-hosted images in this set got verified. It does
-**not** help with downloading the actual image bytes, since the file URL
-itself still resolves to `upload.wikimedia.org`.
+**The workaround used for verification while the block was in place:**
+`en.wikipedia.org`'s own API was *not* blocked, and MediaWiki's federated
+file-repository design let it serve full `extmetadata` for a file that
+physically lives on Commons, as if it were a local file — this is how all
+seven Commons-hosted images in this set got verified before download was
+possible at all.
 
-**What this means practically:** every folder has its real content
-researched, matched, and rights-cleared, plus a `DOWNLOAD-PENDING.md`
-naming the exact URL to fetch. Whoever runs this from an environment that
-can reach `upload.wikimedia.org` directly (or Mark's own machine) can pull
-all eight files in one pass — nothing else about the sourcing work needs
-redoing.
+**Resolution:** Mark widened the sandbox's network allowlist to include
+Wikimedia's image domains directly, which is the real fix. Four files
+(`book-of-kells`, `gutenberg-bible`, `nigeria-congregation`,
+`yamoussoukro-basilica`) downloaded straight from `upload.wikimedia.org`.
+The other four hit Wikimedia's own edge rate limiter (HTTP 429) after
+repeated requests earlier in this session and were instead retrieved via
+a second workaround: the Wayback Machine (`web.archive.org`, which stayed
+reachable throughout) had cached real, byte-identical copies of these exact
+files at `https://web.archive.org/web/<year>id_/<the real upload.wikimedia.org URL>`.
+Both retrieval paths are legitimate, verifiable sources for the same
+already-rights-cleared files — nothing about the sourcing or license work
+needed redoing.
 
 ## Honest caveats, carried over from the sourcing research
 

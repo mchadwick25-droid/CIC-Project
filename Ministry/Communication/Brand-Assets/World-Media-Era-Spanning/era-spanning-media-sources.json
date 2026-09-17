@@ -10,7 +10,7 @@
     "date_taken": "unspecified (photographic reproduction of a manuscript created c. 800 CE)",
     "license": "Public domain",
     "attribution": "Public domain (faithful photographic reproduction of a public-domain manuscript page), via Wikimedia Commons",
-    "note": "License and date independently verified 2026-09-17 via direct fetch of en.wikipedia.org's own MediaWiki API (imageinfo/extmetadata), which serves Commons files' metadata through Wikipedia's federated file repository even when commons.wikimedia.org itself cannot be reached directly - see the folder README for why that route was necessary."
+    "note": "License and date independently verified 2026-09-17 via direct fetch of en.wikipedia.org's own MediaWiki API (imageinfo/extmetadata), which serves Commons files' metadata through Wikipedia's federated file repository even when commons.wikimedia.org itself cannot be reached directly - see the folder README for why that route was necessary. Downloaded 2026-09-17 directly from upload.wikimedia.org once the sandbox's network allowlist was widened."
   },
   "chartres-cathedral": {
     "file": "chartres-cathedral/notre-dame-de-chartres.jpg",
@@ -23,7 +23,7 @@
     "date_taken": "2010-05-24",
     "license": "CC BY-SA 3.0",
     "attribution": "Photo by Olvr, CC BY-SA 3.0, via Wikimedia Commons",
-    "note": "License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API (imageinfo/extmetadata) - LicenseShortName, Artist, and DateTimeOriginal fields all confirmed directly, not carried over from a caption."
+    "note": "License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API (imageinfo/extmetadata) - LicenseShortName, Artist, and DateTimeOriginal fields all confirmed directly, not carried over from a caption. Downloaded 2026-09-17 via the Wayback Machine stopgap (upload.wikimedia.org rate-limited this session's requests at the time) - a real, byte-identical archived copy of the same file."
   },
   "hagia-sophia-mosaic": {
     "file": "hagia-sophia-mosaic/christ-pantocrator-deesis-mosaic.jpg",
@@ -36,7 +36,7 @@
     "date_taken": "2012-11-08",
     "license": "Public domain",
     "attribution": "Photo by Myrabella, public domain (photographer's own dedication, on top of the underlying 13th-century mosaic's own public-domain status by age), via Wikimedia Commons (attribution not legally required, credited as good practice)",
-    "note": "Researched fresh for this set (candidate 6 of the 4 requested). License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API - LicenseShortName came back \"Public domain\"; the photographer's own file-page text (via a separate WebFetch check of the same page) confirms this is in addition to a CC0 release of the photograph itself, i.e. no restriction under either basis."
+    "note": "Researched fresh for this set (candidate 6 of the 4 requested). License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API - LicenseShortName came back \"Public domain\"; the photographer's own file-page text (via a separate WebFetch check of the same page) confirms this is in addition to a CC0 release of the photograph itself, i.e. no restriction under either basis. Downloaded 2026-09-17 via the Wayback Machine stopgap (upload.wikimedia.org rate-limited this session's requests at the time) - a real, byte-identical archived copy of the same file."
   },
   "gutenberg-bible": {
     "file": "gutenberg-bible/gutenberg-bible-nypl-lenox-copy.jpg",
@@ -49,7 +49,7 @@
     "date_taken": "2009-05-28",
     "license": "CC BY-SA 2.0",
     "attribution": "Photo by NYC Wanderer (Kevin Eng), CC BY-SA 2.0, via Wikimedia Commons",
-    "note": "Researched fresh for this set (candidate 5 of the 4 requested). License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API. The Lenox copy is one specific surviving copy among roughly 49 (complete and partial); the photograph shows this copy's own binding/pages, not a composite or generic rendering."
+    "note": "Researched fresh for this set (candidate 5 of the 4 requested). License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API. The Lenox copy is one specific surviving copy among roughly 49 (complete and partial); the photograph shows this copy's own binding/pages, not a composite or generic rendering. Downloaded 2026-09-17 directly from upload.wikimedia.org once the sandbox's network allowlist was widened."
   },
   "wittenberg-theses-door": {
     "file": "wittenberg-theses-door/lutherstadt-wittenberg-theses-door.jpg",
@@ -62,7 +62,7 @@
     "date_taken": "2016-09-29",
     "license": "Free Art License (FAL)",
     "attribution": "Photo by A.Savin, Free Art License, via Wikimedia Commons",
-    "note": "License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API - LicenseShortName confirmed as \"FAL\" (Free Art License), a copyleft license distinct from Creative Commons; it also requires attribution and share-alike redistribution of derivatives."
+    "note": "License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API - LicenseShortName confirmed as \"FAL\" (Free Art License), a copyleft license distinct from Creative Commons; it also requires attribution and share-alike redistribution of derivatives. Downloaded 2026-09-17 via the Wayback Machine stopgap (upload.wikimedia.org rate-limited this session's requests at the time) - a real, byte-identical archived copy of the same file."
   },
   "mother-bethel-ame": {
     "file": "mother-bethel-ame/mother-bethel-ame-church-philadelphia.jpg",
@@ -75,7 +75,7 @@
     "date_taken": "2019-11-21",
     "license": "CC BY-SA 4.0",
     "attribution": "Photo by Nick-philly, CC BY-SA 4.0, via Wikimedia Commons",
-    "note": "Researched fresh for this set (candidate 7 of the 4 requested). License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API."
+    "note": "Researched fresh for this set (candidate 7 of the 4 requested). License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API. Downloaded 2026-09-17 via the Wayback Machine stopgap (upload.wikimedia.org rate-limited this session's requests at the time) - a real, byte-identical archived copy of the same file."
   },
   "yamoussoukro-basilica": {
     "file": "yamoussoukro-basilica/notre-dame-de-la-paix-yamoussoukro.jpg",
@@ -88,7 +88,7 @@
     "date_taken": "2007-08-29",
     "license": "CC BY-SA 2.0",
     "attribution": "Photo by Felix Krohn, CC BY-SA 2.0, via Wikimedia Commons",
-    "note": "License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API. HOSTING CAVEAT, confirmed directly: this file is hosted locally on English Wikipedia (imagerepository: \"local\"), not on Wikimedia Commons, even though the photographer's own license (CC BY-SA 2.0, originally from Flickr) is fully free - English Wikipedia's own file page notes it should not be transferred to Commons because the depicted building itself may not be free of copyright under Côte d'Ivoire's own law (no confirmed freedom-of-panorama exception there), separately from the photographer's own rights grant. Use the source_url above (the enwiki file page), not a Commons link, if this needs re-verifying."
+    "note": "License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API. HOSTING CAVEAT, confirmed directly: this file is hosted locally on English Wikipedia (imagerepository: \"local\"), not on Wikimedia Commons, even though the photographer's own license (CC BY-SA 2.0, originally from Flickr) is fully free - English Wikipedia's own file page notes it should not be transferred to Commons because the depicted building itself may not be free of copyright under Côte d'Ivoire's own law (no confirmed freedom-of-panorama exception there), separately from the photographer's own rights grant. Use the source_url above (the enwiki file page), not a Commons link, if this needs re-verifying. Downloaded 2026-09-17 directly from upload.wikimedia.org's local enwiki repository path once the sandbox's network allowlist was widened."
   },
   "nigeria-congregation": {
     "file": "nigeria-congregation/worship-service-word-of-life-warri-nigeria.jpg",
@@ -101,6 +101,6 @@
     "date_taken": "2016-02-21",
     "license": "CC BY-SA 4.0",
     "attribution": "Photo by WLBC Media Team, CC BY-SA 4.0, via Wikimedia Commons",
-    "note": "Researched fresh for this set (candidate 8 of the 4 requested). License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API, which also surfaced that this file's permission is VRT-confirmed (Wikimedia's Volunteer Response Team holds an email from the copyright holder directly authorizing the license, ticket #2019022010007176) - a stronger-than-usual rights basis, not merely a self-declared uploader license. One denomination/expression of Nigerian Christianity, not a claim to represent all of it."
+    "note": "Researched fresh for this set (candidate 8 of the 4 requested). License independently verified 2026-09-17 via direct fetch of en.wikipedia.org's MediaWiki API, which also surfaced that this file's permission is VRT-confirmed (Wikimedia's Volunteer Response Team holds an email from the copyright holder directly authorizing the license, ticket #2019022010007176) - a stronger-than-usual rights basis, not merely a self-declared uploader license. One denomination/expression of Nigerian Christianity, not a claim to represent all of it. Downloaded 2026-09-17 directly from upload.wikimedia.org once the sandbox's network allowlist was widened."
   }
 }
