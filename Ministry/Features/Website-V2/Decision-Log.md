@@ -2995,4 +2995,34 @@ Changed `.history-strip`'s margin from `0 auto` to `1.5rem auto 0` —
 a one-line spacing addition, no other layout touched. Verified with
 Playwright at 1400px: a clean gap now separates the header's rule line
 from the top edge of the photo strip.
+
+## 2026-09-17 (cont. 12) — Change order: the "Arriving" mark moves from the hero to the header
+
+Mark's call: the page still read unbalanced. Two changes: (1) move the
+logo mark into the header, before the "Church in Conversation" wordmark;
+(2) add space between the picture strip and the hero text below it.
+
+**Change order against a frozen D4 ruling, made explicitly, not a quiet
+edit:** D4 Increment 1 (ruling 8, logged above under 2026-09-02) put the
+mark in the hero on purpose and removed it from the header. This
+instruction reverses that ruling. Moved the same `<button id="...-mark"
+class="arriving play">` markup (unchanged SVG, unchanged animation, same
+click-to-replay behavior) out of the hero's now-deleted `.mark-line`
+wrapper and into a new `.brand` flex container in the header row, before
+the `<a class="wordmark">` link — nesting a `<button>` inside the
+`<a>` isn't valid HTML, so `.brand` wraps both as siblings instead.
+Resized for the header's compact row (30px, was 44px in the hero).
+Renamed `hero-mark` → `header-mark` throughout (markup, the click-replay
+script, the aria-label), and removed the now-unused `.mark-line` CSS
+rules rather than leaving dead styles behind.
+
+For the second ask: `.hero`'s top padding raised `1.75rem` → `2.5rem`
+(mobile: `1.25rem` → `1.75rem`), giving the hero text real space under
+the picture strip now that the mark itself no longer occupies that
+role.
+
+Verified with Playwright at 1400px and 390px: the mark plays once in
+the header on load, replays on click, "Church in Conversation" reads
+immediately after it, and the hero heading now sits with a clear gap
+below the photo strip on both viewport sizes.
 priority.
