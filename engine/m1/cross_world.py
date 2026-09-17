@@ -42,6 +42,7 @@ from engine.m1.registry import REPO_ROOT, formation_world_keys, load_registry
 CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 APP_WORLDS_TS = REPO_ROOT / "cic-poc" / "frontend" / "src" / "data" / "worlds.ts"
 SITE_TRADITIONS_DIR = REPO_ROOT / "cic-website" / "traditions"
+SITE_TABLE_HTML = REPO_ROOT / "cic-website" / "table.html"
 
 DEFECT = "defect"
 OBSERVATION = "observation"
@@ -88,9 +89,18 @@ ACCEPTED_OPEN: dict[str, str] = {
     # All four gallic entries this dict once carried are gone, not left
     # stale.
     "figure-dates-keys/don": "F-04-analogue - all 24 don figure records key figure.dates as `display`, the same pattern and the same reason as figure-dates-keys/cappadocian above: this world's own dating is pervasively contested or multi-clause (two Marcellinuses roughly a century apart, three Felixes, disputed Passio dating with two vendored authorities disagreeing by over two decades) and does not reduce to born/died/floruit without losing the disclosed uncertainty itself. Same disclosed-not-fixed disposition, found compiling the world rather than wiring a portrait - belongs to a don build thread, not a mass rewrite improvised here.",
-    "app-world-assets/don": "Record-native compilation, 2026-09-10: Phase C deployment wiring (app/world_manifest.py, WORLD_ASSETS, frontend hand-sync points) was never in scope for the record-native compile (Phase B) this entry covers - it is the next, separate phase per reference/method/CiC_Record_Native_World_Build_Process_V1_3.md SS4, and belongs to whoever picks up Donatism's own go-live work.",
-    "app-world-order/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
-    "site-portrait/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - the traditions/donatism.html portrait page is deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
+    # app-world-assets/don, app-world-order/don, site-portrait/don CLOSED
+    # 2026-09-16: the deployment wiring these named as deferred (frontend
+    # worlds.ts registration, the Fidelis portrait, the traditions page) is
+    # done - the approved Fidelis portrait (locked 2026-09-10, sitting
+    # unshipped in Ministry/Communication/Brand-Assets/ until now) shipped
+    # to both live-serving asset locations, don registered in
+    # cic-poc/frontend/src/data/worlds.ts, and traditions/donatism.html
+    # built grounded in this world's own records. Not left stale.
+    # census-id/don CLOSED 2026-09-16: opened for the real admitted-but-
+    # not-yet-open gap between don's admission and Mark's explicit "Flip
+    # don to open"; closed the same day once `python -m engine.m6.cli
+    # sync` actually ran against the open state. Not left stale.
 }
 
 
@@ -784,6 +794,32 @@ def check_site_portraits(*, registry, worlds, **_) -> list[Finding]:
     return findings
 
 
+def check_table_html_worlds(*, registry, worlds, **_) -> list[Finding]:
+    """cic-website/table.html carries its OWN hand-maintained `WORLDS` array
+    (id/name/trad/portrait/tint/description) for the Table's seat-picker -
+    a third registration point independent of both the app's WORLD_ASSETS
+    and the site's traditions pages, and the one no check here has ever
+    covered. Found live (Mark, 2026-09-17): Renatus/gallic worked for the
+    Atlas card and Interview but was silently absent from the Table's own
+    picker for four days after admission, because nobody added it here.
+    A world missing from this file is fully admitted, fully wired
+    everywhere else, and simply never offered as a seat - no error, no
+    broken image, just absent."""
+    findings = []
+    if not SITE_TABLE_HTML.is_file():
+        return [_defect("table-html-file", "fleet", f"{SITE_TABLE_HTML} not found")]
+    text = SITE_TABLE_HTML.read_text(encoding="utf-8")
+    array_match = re.search(r"var\s+WORLDS\s*=\s*\[(.*?)\n\];", text, re.S)
+    ids = set(re.findall(r"id:\s*'([^']+)'", array_match.group(1))) if array_match else set()
+    for w in worlds:
+        cid = registry[w].get("census_id")
+        if not cid:
+            continue
+        if cid not in ids:
+            findings.append(_defect("table-html-world", w, f"census_id {cid!r} has no entry in table.html's own WORLDS array - never offered as a Table seat, though it may work fine for Interview"))
+    return findings
+
+
 # --------------------------------------------------------------------------
 # observations: measured, never thresholded
 # --------------------------------------------------------------------------
@@ -984,6 +1020,7 @@ CHECKS = [
     check_quote_speaker_labels,
     check_app_world_assets,
     check_site_portraits,
+    check_table_html_worlds,
     observe_retrieval_hints,
     observe_unread_retrieval_config,
     observe_optional_field_adoption,
