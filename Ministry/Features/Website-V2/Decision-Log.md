@@ -2888,4 +2888,17 @@ Cloudflare's "Production branch" setting itself still points at `main`,
 not `live` — a known, deliberately deferred mismatch with the Render
 side's promotion model, tracked as its own separate decision, not
 touched here.
+
+## 2026-09-17 (cont. 7) — Post-launch tweaks, first round
+
+Mark's first live-site feedback: the history strip at the top ran the
+full width of the browser while everything else on the page (header,
+hero, cards, footer) sits inside the shared `--wide` (64rem) content
+column — the strip alone bleeding edge to edge read as visually odd
+next to a page that's centered everywhere else. Constrained it to
+`max-width:var(--wide);margin:0 auto`, matching every other section.
+No change to the strip's own internal layout, image set, or scroll
+behavior — purely an outer-width fix. Verified at 1600px viewport: the
+strip's left/right edges now line up exactly with the header logo, the
+hook, and the Representative cards below it.
 priority.
