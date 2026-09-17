@@ -6422,3 +6422,45 @@ unbroken through the header gutter instead of disappearing under a block;
 the line and its wash are visible without re-creating the "wall" effect;
 no JS console errors from the change (`gBreakBand`/`bandFade` fully removed,
 no dangling references).
+
+## 2026-09-17 (cont.) — Era header text made theme-aware; the halo was blurry because its light card was gone
+
+**Mark's report:** the new divider line is good, but the era header text
+("1. The Early Church Era" and the lines under it) reads blurry with its
+current halo — asked for it crisp.
+
+**Root cause found in the file's own comment, not guessed:** `.era-label`/
+`.era-tag`/`.era-context` carried a comment explaining they were
+deliberately given fixed (non-theme-variable) dark-ink fill colors and a
+thick 5px near-white stroke halo, because they always sat on the old break
+band — "its own small light card in both themes," so the text was
+dark-ink-on-light-card regardless of the page's own light/dark tokens. That
+card is exactly what the previous entry just removed (it blocked the map).
+With no card left, the same fixed dark fill + thick light halo now had to
+carry all the legibility work directly against the busy map, and a 5px
+round-joined halo at 13-22px font sizes reads as a blurry white smear
+rather than a crisp edge — the effect got worse, not better, once the
+premise it was built for (a card always behind it) was gone.
+
+**Fix:** switched `.era-label`/`.era-tag`/`.era-context` from fixed hex
+colors to the same `var()` theme tokens the map's own node/movement labels
+(`.lbl`, already correct) use, and matched `.lbl`'s already-tuned 3px halo
+width instead of 5px:
+- `stroke:#F6F6F2` (fixed) → `stroke:var(--parchment)` — dark in dark mode
+  (`#1d1811`), giving light text a thin *dark* backdrop instead of dark
+  text a thick *light* one.
+- `era-label` fill `#B45309` → `var(--gold-leaf)` — this file's own dark
+  register already has a lightened, dark-safe gold-leaf value (`#cfa55c`)
+  defined and unused here until now.
+- `era-tag` fill `#6C6257` → `var(--ink-faded)` (dark-safe `#a4967a`).
+- `era-context` fill `#2A2521` → `var(--iron-gall)` (dark-safe `#e9dfc7`,
+  light cream — the description paragraph is now light text, not
+  near-black text trying to show through a thick white halo).
+
+Stroke width 5px → 3px, matching `.lbl`.
+
+**Verified:** re-screenshotted the same era boundaries — text reads as
+clean, distinctly-colored (gold title / tan dates-and-count / cream
+description), with a thin dark edge for legibility rather than a soft
+white smear, at both the "1. The Early Church Era" and "2. The Imperial
+Church Era" headers.

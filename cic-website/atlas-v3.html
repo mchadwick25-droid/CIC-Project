@@ -92,15 +92,17 @@ svg#world{display:block;overflow:visible}
    river passing under this corner at full pigment can otherwise erase the label --
    same-color-on-same-color has no edge to see. A paper-toned outline keeps it legible
    over whatever's underneath, the way a map halos its place-names.
-   Fixed (not theme-variable) colors throughout: the break band behind this text
-   is its own small light card in both themes now (soft purple in light mode,
-   whiteish in dark), so the caption stays dark-ink-on-light-card regardless of
-   the page's own light/dark tokens -- following --iron-gall/--ink-faded into
-   dark mode would hand back the same light-on-light problem this was fixed for. */
-.era-label,.era-tag,.era-context{paint-order:stroke;stroke:#F6F6F2;stroke-width:5px;stroke-linejoin:round}
-.era-label{font-family:"Cinzel",serif;font-size:22px;letter-spacing:.06em;fill:#B45309}
-.era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:14px;fill:#6C6257}
-.era-context{font-family:"Alegreya",Georgia,serif;font-size:13px;fill:#2A2521}
+   2026-09-17: was fixed (not theme-variable) dark-ink-on-light-card colors, written
+   for the old era break band -- a light card that always sat behind this text (see
+   the Decision-Log). That card is gone (it blocked the map); this text now sits
+   directly over the rivers like every other label on the map, so it follows the
+   same var()-based theme tokens and the same 3px halo width .lbl below already
+   uses, rather than the old fixed dark fill + thick 5px light halo, which read as
+   blurry once there was no longer a light card to halo against. */
+.era-label,.era-tag,.era-context{paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round}
+.era-label{font-family:"Cinzel",serif;font-size:22px;letter-spacing:.06em;fill:var(--gold-leaf)}
+.era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:14px;fill:var(--ink-faded)}
+.era-context{font-family:"Alegreya",Georgia,serif;font-size:13px;fill:var(--iron-gall)}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
   user-select:none}
