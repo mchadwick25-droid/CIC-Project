@@ -182,3 +182,84 @@ the women's own voice versus Jerome's.
 ### Next action
 
 Tile 3 of 3: cappadocian, applying §10 directly.
+
+## 2026-09-18 (later) — "Entire ecology" pass: naming erasure, then a real factual error
+
+Mark's note on the cappadocian draft ("carried by one family and one
+friendship... I feel like they were core but not everything of the
+world") generalized into a full-corpus check: does any tile let a
+small named core, or an anonymous collective, stand in for the whole
+movement's real ecology? Checked all 8 against their own
+`longDescription`.
+
+**Clean:** `pahc`, `syr`, `desert` already describe the movement's real
+structural plurality rather than centering a small named core. `alx`
+is a soft, lower-priority case — already hedged honestly, just stops
+on an early anecdote.
+
+**Needed the pass:**
+- `cappadocian` — "carried by" fixed to "had... at their center";
+  added Macrina's own action (not just "his sister"), the pastoral
+  dimension (famine response, hospital — literally in this world's own
+  registry name), and named the martyr Eupsychius.
+- `ijc` — Ambrose, Theodosius, and Damasus restored by name (two of the
+  tile's three "worst hours" claims belonged to specific documented
+  people, reduced to "a bishop" and "an emperor"). Then Mark's follow-up
+  ("there was more to the movement than the political inclusion") caught
+  that even with names restored, every claim was still about power —
+  added the Chalcedon doctrinal content (Leo of Rome's letter on Christ's
+  two natures), currently used only as an end-date. Two further
+  dimensions found but held for Mark's call rather than added unasked:
+  the origin of Western hymn-singing, and the Callinicum synagogue-
+  burning episode ("the hardest evidence against this world... not what
+  was done to it, but what it did").
+- `gallic` — the most anonymized tile of all 8: zero proper names
+  anywhere despite Martin, Honoratus, Cassian, and (per this world's own
+  sourcing record) Vincent of Lérins all being specifically documented.
+  Also missing entirely: the Augustine/predestination controversy that
+  provoked three of Augustine's own treatises against these monks.
+
+**Then Mark asked a harder question: "let's not overstate the
+persecution, be honest to the sources and context" — followed by his
+own doubt, "maybe i'm wrong... am I applying the pahc situation against
+this one."** Checked case by case against each figure's own record
+(one tier more careful than longDescription) rather than assuming
+either way:
+
+- `ijc`'s Damasus/Theodosius/Ambrose material: **not an overstatement.**
+  All three figure records are `verification_state: verified-direct`,
+  `citation_specificity: A` — this project's top confidence tier.
+  Damasus's own record states directly: "This world tells that fact
+  rather than hiding it." Applying the caution here would have been
+  the wrong call.
+- `cappadocian`'s Eupsychius line ("Julian's brief pagan revival cost
+  them a martyr") **did overstate it** — his figure record is an
+  explicit "NO-STORY BOUNDARY FIGURE": only "martyred under Julian in
+  362" is Widely Accepted; any causal narrative beyond that is flagged
+  out of bounds for this world's own sources. Fixed to "This world
+  buried a martyr, Eupsychius of Caesarea, executed under Julian in
+  362."
+- `cappadocian`'s Gregory of Nyssa line ("The Homoian church... drove
+  [him] into exile") **also overstated it** — his own story record
+  says the charges were nominally financial mismanagement, and the
+  "trumped up, packed synod" characterization is explicitly Basil's
+  own partisan defense of his brother, "carried here as exactly that,
+  not as an adjudicated verdict." Fixed to name that attribution
+  directly.
+- `hal`'s already-shipped line ("Rome's outrage... helped drive the
+  whole circle out of the city") turned out to be **a real factual
+  error, not just an overstatement.** Marcella's own figure record: she
+  founded the circle before Jerome ever arrived and stayed in Rome
+  until her death in 410. Only Jerome left in 385, followed later by
+  Paula and Eustochium. Fixed immediately (already live): "Rome's
+  outrage over it helped drive Jerome from the city — though not the
+  whole circle: its founder, Marcella, stayed in Rome for the rest of
+  her life." Applied to all three surfaces.
+
+### Next action
+
+cappadocian's revised tile (ecology additions plus the two
+source-honesty fixes above) is with Mark for review, not yet shipped.
+`ijc`'s Chalcedon addition and the two held-back dimensions
+(hymn-singing, Callinicum) are also awaiting his call. `gallic`'s
+naming pass is drafted and awaiting review.
