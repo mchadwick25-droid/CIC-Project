@@ -215,7 +215,15 @@ p{margin:0 0 1rem}
   .hero-dek{font-size:.85rem}
 }
 
-.who{padding:.3rem 0 0}
+/* ::after fade sits outside the scrolling .who-gallery entirely (a sibling
+   in paint order, pinned to .who's own bottom edge, which .who-gallery sits
+   flush against as its last child) rather than trying to stick an element
+   to the bottom of the scrolling box itself -- simpler and more reliable
+   than position:sticky here, and it doesn't scroll away with the content
+   since it's not part of the scrollable element (Mark, 2026-09-19: "add a
+   fade at the bottom so it's obvious it scrolls"). */
+.who{padding:.3rem 0 0;position:relative}
+.who::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4.5rem;background:linear-gradient(to bottom,transparent,var(--surface) 75%);pointer-events:none}
 .who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .8rem;max-width:var(--measure);color:var(--action)}
 /* Fixed-height scroll box, not a card that just keeps growing as more
    worlds and eras are added (Mark, 2026-09-19: "we will have scroll up
