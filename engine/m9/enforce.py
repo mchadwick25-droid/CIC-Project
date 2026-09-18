@@ -113,9 +113,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:reciprocity/gallic": Waiver(count=14, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; gallic's own build thread"),
     "m1:reciprocity/pahc": Waiver(count=2, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; pahc's own build thread"),
     "m1:voice-perspective/cappadocian": Waiver(count=1, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; cappadocian's own build thread"),
-    "m1:voice-perspective/gallic": Waiver(count=2, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; gallic's own build thread"),
     "m1:voice-perspective/syr": Waiver(count=1, deadline="2026-12-14", owner="D2 SS1.3(e) - syr's own known voice-perspective gap; syr's build thread"),
-    "m1:readability/gallic": Waiver(count=3, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; gallic's own build thread"),
 }
 
 
