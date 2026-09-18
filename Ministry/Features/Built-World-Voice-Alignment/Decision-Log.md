@@ -309,3 +309,80 @@ the four worlds already deep in revision (cappadocian, ijc, gallic,
 hal) so the source-honesty work already done there isn't lost, then
 the four checked only at the lighter longDescription level
 (pahc, alx, syr, desert).
+
+## 2026-09-18 (later still) — All 8 records-based briefings gathered; pahc shipped
+
+Ran one research pass per world against its own primary records
+(`world_core`, `figure`, `story` — not the existing tile, not even
+`longDescription`), in parallel. All 8 landed with real, specific
+findings — none came back empty.
+
+**`pahc` rebuilt and shipped.** Its existing tile was the best-behaved
+of all 8 already (no false "star" figure — this world's own records
+flag it as genuinely diffuse, not centered on 1-2 named voices; its
+single most-cited voice, Ignatius, is contested on dating and is the
+sole source for several of its most distinctive claims). Kept that
+shape, added three real dimensions the old tile left out: the Corinth
+correspondence (Widely Accepted, the best-attested inter-community
+act), real liturgical diversity (a genuinely different eucharistic
+order, not a footnote), and — first drafted, then cut per Mark's
+call — contemporary rivals (Marcionite/Valentinian/Montanist
+teachers as living neighbors, not defeated heresies).
+
+**Mark's ruling on scope, generalizable beyond this one tile:** "we
+dont need the last sentance, it is somehting to be discovered in more
+detailed documents." The tile carries a world's essential shape;
+specific-but-secondary facts belong in `longDescription`/the tradition
+page, for a participant to discover there rather than have compressed
+into the card blurb. Already applied once before this ruling, to the
+same tile, for the same reason (the two enslaved women Pliny tortured
+are real and attested, but their own record forbids inventing a name
+or interior life for them, and the fact itself was left for the
+richer surfaces rather than the tile).
+
+Final shipped tile (5 sentences, 133 words, 22/28/25/28/30, no two 30+
+adjacent): "In Antioch, Asia Minor, and Rome, from about 70 to 200 CE,
+independent household communities held together only through letters
+and couriers. Once the apostles were gone, how to lead a community
+was never settled: some followed a single bishop with elders beside
+him, others a council of elders alone. When a dispute split the
+church at Corinth, Rome wrote to help settle it — not as a command,
+but as one community appealing to another. They marked the Lord's
+Supper in genuinely different ways too: one early manual has the cup
+poured before the bread, with no words of institution said over
+either. Following Jesus could mean real danger — a governor
+questioning members under torture, a bishop marched to Rome under
+armed guard — but it was sporadic and local, never constant or
+empire-wide." Applied to all three surfaces.
+
+**`gallic` corrected.** The fresh briefing caught a real error already
+shown to Mark: "these Gallic monks" and "through it all" wrongly swept
+Martin's Tours into the Augustine grace controversy — the two
+communities (Tours; Lérins-Marseilles) have no documented contact
+anywhere in this world's own corpus, and the controversy is
+Lérins/Marseilles-only by chronology. Also swapped "predestination"
+for "grace and human effort" — this world's own records call
+"predestination" the opponent's word; Cassian never uses it. Not yet
+shipped.
+
+**`hal` fully rebuilt.** All four women now named in their own roles:
+Marcella (founded the circle before Jerome arrived, never left Rome),
+Paula (sold her estate, built Bethlehem, led it 19 years), Blaesilla
+(the cost the community paid), Eustochium (led the community longest —
+through the founding, the Vulgate, and the 416 arson). Spans the real
+382-420 window, not just the founding. Also caught: "the Vulgate" as a
+named, standard text is anachronistic to this window per this world's
+own records — hedged as "what would later be called the Vulgate."
+Not yet shipped.
+
+**`cappadocian` and `ijc`'s already-shown drafts held up unchanged**
+against their fresh briefings — no further defects found.
+
+### Next action
+
+`syr`, `desert`, and `alx` still need fresh drafts from their
+briefings. Worth raising with Mark: his tile-scope ruling above
+(secondary facts belong in longDescription, not the tile) may mean
+`cappadocian` (195 words), `ijc` (196 words), `gallic` (222 words),
+and `hal` (233 words) — all grown substantially from restoring erased
+facts — should also be trimmed before shipping, not just pahc.
