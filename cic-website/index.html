@@ -108,15 +108,18 @@ p{margin:0 0 1rem}
   .support-photo{flex:none;aspect-ratio:16/10;min-height:0}
 }
 
-/* Church Family Tree showcase: full-bleed scrolling video (era 1 -> 10,
-   slow, ambient, continuous loop) with the text sitting below it in a
-   plain solid block rather than overlaid -- overlaid text on a moving,
-   multicolored map risks unpredictable contrast frame to frame, which
-   this site's own accessibility bar (WCAG-checked throughout) doesn't
-   accept on a guess. prefers-reduced-motion swaps in the existing static
-   atlas-preview.jpg instead of the video. */
+/* Church Family Tree showcase: a slow, one-time scrolling pan (era 1 -> 10)
+   with the text sitting below it in a plain solid block rather than
+   overlaid -- overlaid text on a moving, multicolored map risks
+   unpredictable contrast frame to frame, which this site's own
+   accessibility bar (WCAG-checked throughout) doesn't accept on a guess.
+   prefers-reduced-motion swaps in the existing static atlas-preview.jpg
+   instead of the video.
+   Mark, 2026-09-18: narrowed to the width of the text column and capped
+   in height so it reads as a narrow window looking in on the map, not a
+   full-bleed banner -- was width:100%;aspect-ratio:16/7. */
 .atlas-showcase{margin:2.5rem 0 0}
-.atlas-showcase-media{position:relative;width:100%;aspect-ratio:16/7;overflow:hidden;background:var(--ground)}
+.atlas-showcase-media{position:relative;width:min(var(--measure),92vw);height:min(60vh,480px);margin:0 auto;overflow:hidden;background:var(--ground);border-radius:8px}
 .atlas-showcase-media video,.atlas-showcase-media img{width:100%;height:100%;object-fit:cover;display:block}
 .atlas-showcase-media img.showcase-fallback{display:none}
 @media (prefers-reduced-motion:reduce){
