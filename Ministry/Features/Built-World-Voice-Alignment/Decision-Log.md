@@ -386,3 +386,38 @@ briefings. Worth raising with Mark: his tile-scope ruling above
 `cappadocian` (195 words), `ijc` (196 words), `gallic` (222 words),
 and `hal` (233 words) — all grown substantially from restoring erased
 facts — should also be trimmed before shipping, not just pahc.
+
+## 2026-09-18 (later still) — Absolute/dramatic-overstatement pass
+
+**Mark's note:** "there are a few absolute statements, like only through
+letters, we need to watch we are not overstating things to get dramatic
+effect." Ran a full scan across all 8 draft tiles for absolute/universal
+words (only, never, always, every, all, none, entirely, solely) rather
+than relying on memory of what I'd written.
+
+**Confirmed and fixed, both mine:**
+- `pahc` (already live): "held together *only* through letters and
+  couriers" overstated it — the world's own thesis denies a central
+  administration, not every other possible connection. Fixed to
+  "mainly through letters and couriers, with no central authority over
+  any of them" — matching the thesis's actual claim exactly. Shipped
+  to all three surfaces.
+- `syr` (drafted, not yet shipped): "preached from *ever since*" wrongly
+  implied the Gospel harmony is still preached today. The source bounds
+  it to this world's own window: "preached from it for as long as this
+  world lasted." Fixed in the draft.
+
+**Flagged but not touched** — lower-confidence calls since they're
+inherited from already-approved higher-tier text rather than something
+I introduced, so left for Mark's call rather than edited on my own
+initiative: cappadocian's "the hardest question of the century" (verbatim
+from the approved `longDescription`), desert's "never reclaimed" (in the
+live tile before this rebuild), ijc's "any ruler" (in the previously-
+shipped tile before this rebuild).
+
+### Next action
+
+Same five drafts as before still awaiting Mark's review
+(cappadocian, ijc, gallic, hal, plus the trim question). syr's draft
+now includes the overstatement fix. Apply the same absolute-language
+scan to any future tile work as a standing check, not a one-time pass.
