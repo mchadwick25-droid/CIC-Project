@@ -217,17 +217,23 @@
       </span>
       <span class="wordmark">Church in Conversation</span>
     </a>
-    <nav class="site-nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="whats-next.html">What's Next</a>
-      <a href="support.html" aria-current="page">Get Involved</a>
-    </nav>
-  </div>
-  <div class="feature-bar" aria-label="Main features">
+    <nav class="feature-bar" aria-label="Main features">
       <a class="feature-btn" href="atlas-v3.html">Church Family Tree</a>
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
+    </nav>
+    <div class="menu">
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
+        Menu
+        <svg class="menu-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <nav class="site-nav" id="site-menu" aria-label="Site">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="whats-next.html">What's Next</a>
+        <a href="support.html" aria-current="page">Get Involved</a>
+      </nav>
+    </div>
   </div>
 </header>
 
@@ -306,5 +312,32 @@
   </div>
 </footer>
 
+<script>
+(function(){
+"use strict";
+var menu = document.querySelector('.menu');
+var menuToggle = document.getElementById('menu-toggle');
+if (menu && menuToggle) {
+  menuToggle.addEventListener('click', function(ev){
+    ev.stopPropagation();
+    var isOpen = menu.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.addEventListener('click', function(ev){
+    if (!menu.contains(ev.target)) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('keydown', function(ev){
+    if (ev.key === 'Escape' && menu.classList.contains('open')) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.focus();
+    }
+  });
+}
+})();
+</script>
 </body>
 </html>

@@ -62,10 +62,11 @@ header.site-header {
 .site-header .wrap {
   max-width: 60rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  padding-top: 1.1rem;
-  padding-bottom: 1.1rem;
+  gap: 0.5rem 1rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
 }
 .brand {
   display: flex;
@@ -116,21 +117,61 @@ header.site-header {
   font-size: 1.2rem;
   letter-spacing: 0.01em;
 }
+/* Logo, wordmark, the three feature buttons, and the site nav all in one
+   row (Mark, 2026-09-19): the nav collapses into a "Menu" dropdown since
+   all four don't fit alongside the rest in one row at this header's own
+   60rem width. */
+.menu { position: relative; margin-left: auto; }
+.menu-toggle {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--iron-gall);
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.5rem 1.1rem;
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+.menu-toggle:hover, .menu-toggle:focus-visible, .menu-toggle[aria-expanded="true"] {
+  border-color: var(--madder);
+  color: var(--madder);
+}
+.menu-caret { width: 0.65rem; height: 0.65rem; flex: 0 0 auto; transition: transform 0.15s ease; }
+.menu-toggle[aria-expanded="true"] .menu-caret { transform: rotate(180deg); }
 nav.site-nav {
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 0.95rem;
-  display: flex;
-  gap: 1.6rem;
+  font-size: 0.9rem;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.5rem);
+  display: none;
+  flex-direction: column;
+  gap: 0.1rem;
+  background: var(--vellum);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 0.4rem;
+  min-width: 170px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.18);
+  z-index: 30;
 }
+.menu:hover nav.site-nav, .menu.open nav.site-nav { display: flex; }
 nav.site-nav a {
   color: var(--iron-gall);
   text-decoration: none;
-  border-bottom: 2px solid transparent;
-  padding: 0.7rem 0.15rem;
+  padding: 0.65rem 0.8rem;
+  border-radius: 6px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
 }
-nav.site-nav a:hover, nav.site-nav a[aria-current="page"] {
-  border-bottom-color: var(--madder);
-}
+nav.site-nav a:hover, nav.site-nav a:focus-visible { background: rgba(42,37,33,0.06); }
+nav.site-nav a[aria-current="page"] { color: var(--madder); }
 
 /* Hero */
 .hero {
@@ -345,33 +386,22 @@ nav.site-nav a { color: #F1E9DD; }
 a, .hero .eyebrow, .page-section .eyebrow, .btn.secondary,
 ol.convictions li::before, .world-card .name { color: #E08C74; }
 a:hover { color: #F0A98F; }
-nav.site-nav a:hover, nav.site-nav a[aria-current="page"] { border-bottom-color: #E08C74; }
+nav.site-nav a:hover, nav.site-nav a:focus-visible { background: rgba(241,233,221,0.08); }
+nav.site-nav a[aria-current="page"] { color: #E08C74; }
+nav.site-nav { background: #1E1913; box-shadow: 0 12px 28px rgba(0,0,0,0.4); }
+.menu-toggle { color: #F1E9DD; }
+.menu-toggle:hover, .menu-toggle:focus-visible, .menu-toggle[aria-expanded="true"] { border-color: #E08C74; color: #E08C74; }
 .btn.secondary { border-color: #E08C74; }
 .btn.secondary:hover { background: rgba(224,140,116,0.12); }
 ol.convictions li::before { border-color: #E08C74; }
 .callout .label { color: #E0A458; }
 
 @media (max-width: 640px) {
-  /* Six nav links plus the wordmark don't fit a phone width no matter how far
-     gap/font shrink - previously this silently pushed the whole page wider
-     than the viewport (site-wide horizontal scroll on every page). The nav
-     row itself scrolls instead, contained to the header. */
-  .site-header .wrap { flex-wrap: nowrap; }
-  .brand { flex-shrink: 0; }
-  nav.site-nav {
-    gap: 1rem;
-    font-size: 0.88rem;
-    min-width: 0;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-  }
-  nav.site-nav::-webkit-scrollbar { display: none; }
   .brand .wordmark { font-size: 1.05rem; }
 }
 
-/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table */
-.feature-bar { display: flex; flex-wrap: wrap; gap: 0.6rem; padding: 0.5rem 1.5rem 0.85rem; max-width: 60rem; margin: 0 auto; }
+/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- now part of the single header row, not its own row */
+.feature-bar { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .feature-btn {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 0.85rem;
@@ -390,6 +420,6 @@ ol.convictions li::before { border-color: #E08C74; }
   color: #E08C74;
 }
 @media (max-width: 640px) {
-  .feature-bar { padding: 0.5rem 1rem 0.7rem; gap: 0.5rem; }
+  .feature-bar { gap: 0.5rem; }
   .feature-btn { font-size: 0.8rem; padding: 0.45rem 0.9rem; }
 }
