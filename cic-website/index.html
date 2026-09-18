@@ -93,10 +93,28 @@ p{margin:0 0 1rem}
 .hero-lead{display:block;font-size:clamp(2rem,1.3rem + 2.8vw,3.25rem);font-weight:600}
 .hero-dek{display:block;font-family:var(--sans);font-size:clamp(1.15rem,1rem + .7vw,1.4rem);font-weight:400;color:var(--muted);line-height:1.55;max-width:70rem;margin:.8rem auto 0}
 .home-flow{max-width:var(--wide);margin:0 auto;padding:.5rem 1.25rem 0}
-.feature-pair{display:grid;gap:1.5rem;grid-template-columns:1fr;margin:2rem 0 0}
-@media (min-width:48rem){
-  .feature-pair{grid-template-columns:1fr 1fr}
+.table-solo{max-width:26rem;margin:2rem auto 0}
+
+/* Church Family Tree showcase: full-bleed scrolling video (era 1 -> 10,
+   slow, ambient, continuous loop) with the text sitting below it in a
+   plain solid block rather than overlaid -- overlaid text on a moving,
+   multicolored map risks unpredictable contrast frame to frame, which
+   this site's own accessibility bar (WCAG-checked throughout) doesn't
+   accept on a guess. prefers-reduced-motion swaps in the existing static
+   atlas-preview.jpg instead of the video. */
+.atlas-showcase{margin:2.5rem 0 0}
+.atlas-showcase-media{position:relative;width:100%;aspect-ratio:16/7;overflow:hidden;background:var(--ground)}
+.atlas-showcase-media video,.atlas-showcase-media img{width:100%;height:100%;object-fit:cover;display:block}
+.atlas-showcase-media img.showcase-fallback{display:none}
+@media (prefers-reduced-motion:reduce){
+  .atlas-showcase-media video{display:none}
+  .atlas-showcase-media img.showcase-fallback{display:block}
 }
+.atlas-showcase-copy{max-width:var(--wide);margin:0 auto;padding:1.6rem 1.25rem 0}
+.atlas-showcase-copy .eyebrow{margin:0 0 .5rem}
+.atlas-showcase-copy h2{font-size:clamp(1.6rem,3vw,2.1rem);margin:0 0 .8rem}
+.atlas-showcase-copy p{font-family:var(--sans);color:var(--muted);max-width:var(--measure)}
+.atlas-showcase-copy .cta-link{display:inline-flex;margin-top:.3rem}
 .story-give{max-width:var(--wide);margin:2.5rem auto 0;padding:0 1.25rem;display:grid;grid-template-columns:2fr 1fr;gap:2.5rem}
 .give-col{display:flex;flex-direction:column;gap:1.5rem}
 .give-photo{flex:1;min-height:200px;border-radius:8px;overflow:hidden;background:var(--surface)}
@@ -164,6 +182,12 @@ p{margin:0 0 1rem}
 .photo-credits{max-width:var(--wide);margin:0 auto;padding:0 1.25rem 1.4rem;font-size:.75rem;line-height:1.7;color:var(--graphite)}
 .photo-credits a{color:var(--graphite);min-height:auto}
 @media print{ .site-header,.support,.skip-link{display:none} }
+
+/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table */
+.feature-bar{display:flex;flex-wrap:wrap;gap:.6rem;padding:.5rem 1.25rem .85rem;max-width:var(--wide);margin:0 auto}
+.feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--text);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--rule);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
+.feature-btn:hover,.feature-btn:focus-visible,.feature-btn[aria-current="page"]{border-color:var(--action);color:var(--action)}
+@media (max-width:640px){.feature-bar{padding:.5rem 1rem .7rem;gap:.5rem}.feature-btn{font-size:.8rem;padding:.45rem .9rem}}
 </style>
 </head>
 <body>
@@ -181,9 +205,13 @@ p{margin:0 0 1rem}
       <a href="index.html" aria-current="page">Home</a>
       <a href="about.html">About</a>
       <a href="whats-next.html">What's Next</a>
-      <a href="atlas-v3.html">Church Family Tree</a>
       <a href="support.html">Get Involved</a>
     </nav>
+  </div>
+  <div class="feature-bar" aria-label="Main features">
+      <a class="feature-btn" href="atlas-v3.html">Church Family Tree</a>
+      <a class="feature-btn" href="index.html#who">Conversation with One</a>
+      <a class="feature-btn" href="table.html">Build a Table</a>
   </div>
 </header>
 
@@ -206,6 +234,27 @@ p{margin:0 0 1rem}
 
   <section class="hero" aria-labelledby="hook">
     <h1 id="hook"><span class="hero-lead">Explore hundreds of historical Christian traditions</span><span class="hero-dek">and have conversations with representative voices built from their own letters, sermons, and records.</span></h1>
+  </section>
+
+  <section class="atlas-showcase" aria-labelledby="atlas-showcase-title">
+    <div class="atlas-showcase-media">
+      <!-- Slow, continuously-looping pan from era 1 through era 10 on the
+           live Church Family Tree, recorded chrome-free (topbar/feature-bar/
+           scope-note/legend/reset button hidden -- just the map). Ambient
+           background, not meant to be read frame-by-frame; the section's own
+           text below carries the explanation. -->
+      <video autoplay muted loop playsinline poster="assets/atlas-preview.jpg" aria-hidden="true">
+        <source src="assets/atlas-scroll-preview.webm" type="video/webm">
+        <source src="assets/atlas-scroll-preview.mp4" type="video/mp4">
+      </video>
+      <img class="showcase-fallback" src="assets/atlas-preview.jpg" alt="Colored rivers of Christian movements winding and branching across the centuries, grouped by era" loading="lazy" decoding="async">
+    </div>
+    <div class="atlas-showcase-copy">
+      <p class="eyebrow">Two thousand years of the church, alive in one place</p>
+      <h2 id="atlas-showcase-title">Church Family Tree</h2>
+      <p>Two hundred and some Christian movements across the whole of Church history are on record here — how they connect, where they diverged, and the stories that don't belong to just one of them. Hover for a glimpse, click for depth.</p>
+      <a class="cta-link" href="atlas-v3.html">Open Church Family Tree →</a>
+    </div>
   </section>
 
   <div class="home-flow">
@@ -317,15 +366,7 @@ p{margin:0 0 1rem}
     </div>
   </section>
 
-  <div class="feature-pair">
-    <a class="flow-card" href="atlas-v3.html">
-      <h2>Church Family Tree</h2>
-      <img src="assets/atlas-preview.jpg" alt="Colored rivers of Christian movements winding and branching across the centuries, grouped by era" loading="lazy" decoding="async">
-      <p class="eyebrow">Two thousand years of the church, alive in one place</p>
-      <p>Two hundred and some Christian movements across the whole of Church history are on record here — how they connect, where they diverged, and the stories that don't belong to just one of them. Hover for a glimpse, click for depth.</p>
-      <span class="cta-link">Open Church Family Tree →</span>
-    </a>
-
+  <div class="table-solo">
     <a class="flow-card" href="table.html">
       <p class="eyebrow">The Table</p>
       <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="lazy" decoding="async">

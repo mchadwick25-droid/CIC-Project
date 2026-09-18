@@ -369,3 +369,27 @@ ol.convictions li::before { border-color: #E08C74; }
   nav.site-nav::-webkit-scrollbar { display: none; }
   .brand .wordmark { font-size: 1.05rem; }
 }
+
+/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table */
+.feature-bar { display: flex; flex-wrap: wrap; gap: 0.6rem; padding: 0.5rem 1.5rem 0.85rem; max-width: 60rem; margin: 0 auto; }
+.feature-btn {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #F1E9DD;
+  text-decoration: none;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid rgba(241,233,221,0.16);
+  border-radius: 999px;
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+}
+.feature-btn:hover, .feature-btn:focus-visible, .feature-btn[aria-current="page"] {
+  border-color: #E08C74;
+  color: #E08C74;
+}
+@media (max-width: 640px) {
+  .feature-bar { padding: 0.5rem 1rem 0.7rem; gap: 0.5rem; }
+  .feature-btn { font-size: 0.8rem; padding: 0.45rem 0.9rem; }
+}
