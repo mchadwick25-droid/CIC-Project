@@ -113,4 +113,40 @@ passes.
 Held back, not yet touched: the three tiles running 2–2.5x the craft
 doc's own sentence-length target (cappadocian, ijc, hal) — that's a real
 rewrite, not a sync, and needs drafts put to Mark before anything
-changes.
+changes. Going through them one at a time, each as a readable
+before/after artifact, per Mark's request.
+
+## 2026-09-18 (later) — Tile 1 of 3 (ijc, "Church and Empire") redrafted
+
+Original: 3 sentences, 132 words, every sentence 35–50 words. First
+draft put to Mark as an artifact (current vs. proposed, full text,
+word counts, no invented content). Mark's one note: "the first
+sentence is too complex, make it two thoughts" — it was doing three
+jobs at once (where, when, what changed). Split into a where/when
+sentence and a what-changed sentence; everything after was already
+approved as drafted. Mark: "yes much better."
+
+Final tile (7 sentences, 126 words, 26/27/31/5/8/10/19, no two 30+
+adjacent): "Bishops in Rome, Constantinople, and Milan lived through a
+real change between Constantine's toleration of the church in 312 and
+the Council of Chalcedon in 451. They stopped being outlaws beneath
+the sword and became office-holders beside a throne — hearing
+lawsuits, managing imperial funds, summoned to councils at the
+emperor's own expense. Three claims to final authority over the
+church rose in this window: Rome's from Peter, Constantinople's from
+nearness to the throne, a bishop's claim to stand in judgment over
+any ruler. The question was never settled. This world's worst hours
+were caused, not suffered. One was a bloody contest over the
+bishopric of Rome. The other was a massacre an emperor ordered — then,
+at his own bishop's insistence, did public penance for."
+
+Applied to all three surfaces that carry this field (confirmed
+identical before editing, so no drift to reconcile): `world-census.json`
+(`entry.tile`), `index.html`'s homepage card, and
+`traditions/imperial-juridical-christianity.html`. Every fact preserved
+— three places, two dates, all three rival claims and who each rests
+on, both worst-hour events, the penance. Nothing added, nothing cut.
+
+### Next action
+
+Tile 2 of 3: cappadocian or hal, same one-at-a-time process.
