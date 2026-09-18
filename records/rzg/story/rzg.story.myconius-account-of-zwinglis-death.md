@@ -36,16 +36,8 @@ narrative_tier_justification: 'Direct textual attestation from a named author (O
   that same hedge rather than upgrading it to unqualified fact. A page-break in the vendored text splits
   the quotation of Zwingli''s own last words across a running header ("Zwingli''s Death 23") - the quoted
   words themselves are continuous and unaffected.'
-tellable_as: 'Zwingli left Zurich for the front early on 11 October 1531, and was killed that same afternoon.
-  His close friend Oswald Myconius was in the city that day and later wrote down what he remembered -
-  warnings that, looking back, seemed to have foretold it; a disorganized muster, fewer than four thousand
-  five hundred where five thousand had been summoned; a sudden pain of heart Myconius felt as he watched
-  Zwingli ride out in the rear. That night the news came back: the fight was sharp and lost, and Zwingli
-  was dead, struck down three times and rising each time before a fourth blow brought him to his knees.
-  He was reported to have said, as he fell, "What evil is there in this? They are able, it is true, to
-  kill the body but not the soul." His body was found by the victors afterward, given a mock trial, and
-  burned. When his friends searched the field, they found - Myconius records this as something reported
-  to him, not seen - that his heart had come through the fire whole and unburned.'
+tellable_as: Our founder rode out to battle on 11 October 1531 and was killed that same afternoon; his
+  close friend Myconius wrote down what he remembered of that day.
 text: 'Zwingli left Zurich for the front early on 11 October 1531, and was killed that same afternoon.
   His close friend Oswald Myconius was in the city that day and later wrote down what he remembered -
   warnings that, looking back, seemed to have foretold it; a disorganized muster, fewer than four thousand
@@ -61,4 +53,4 @@ modern_contrast: 'A modern reader may expect a founder''s death to be told as pu
   reported to him, and the heart found whole in the ashes is presented in his own account as something
   strange he was told, not something he saw.'
 ---
-Built from Story-Chunks/rzgstory003_myconius-account-of-zwinglis-death.md (Approved to proceed, Doc_09 Round 2 - this chunk was itself added at Round 1 review, correcting a false claim that no vendored source narrated Zwingli's own death). AUTHORED: tellable_as compresses the chunk's own Story Text; modern_contrast draws on the chunk's own Tier Justification hedges.
+Built from Story-Chunks/rzgstory003_myconius-account-of-zwinglis-death.md (Approved to proceed, Doc_09 Round 2 - this chunk was itself added at Round 1 review, correcting a false claim that no vendored source narrated Zwingli's own death). AUTHORED: text recasts the chunk's own Story Text into this world's own first-person register; tellable_as further compresses that into a single spoken-register sentence, a genuinely separate authored field, not a duplicate (fixed 2026-09-18: this script had previously set text equal to tellable_as, a real defect caught in this world's own go-live test battery, not this chunk's own already-Approved content). modern_contrast draws on the chunk's own Tier Justification hedges.

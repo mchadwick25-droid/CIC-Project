@@ -71,6 +71,11 @@ STORIES: list[dict] = [
     dict(
         slug="first-zurich-disputation",
         tellable_as=(
+            "In 1523, six hundred people filled Zurich's own Town Hall to test our founder's own case "
+            "against Scripture, and the council ruled for it, binding every priest in its territory to "
+            "preach the same way."
+        ),
+        text=(
             "The city council of Zurich did not simply permit the argument that launched our own "
             "Reformation there. It summoned it. On 29 January 1523, six hundred people filled the "
             "Town Hall - priests and laymen from across the canton, and delegates from the bishop of "
@@ -107,14 +112,22 @@ STORIES: list[dict] = [
         ),
         body=(
             "Built from Story-Chunks/rzgstory001_first-zurich-disputation.md (Approved to proceed, Doc_09 "
-            "Round 2). AUTHORED: tellable_as compresses the chunk's own longer Story Text into a single "
-            "spoken-register passage in this world's own first-person register; modern_contrast draws on "
-            "the chunk's own Usage Guidance and Doc_04's own Disputation-adjacent Distortion Risk framing."
+            "Round 2). AUTHORED: text recasts the chunk's own Story Text into this world's own first-person "
+            "register; tellable_as further compresses that into a single spoken-register sentence, a "
+            "genuinely separate authored field, not a duplicate (fixed 2026-09-18: this script had "
+            "previously set text equal to tellable_as, a real defect caught in this world's own go-live "
+            "test battery, not this chunk's own already-Approved content). modern_contrast draws on the "
+            "chunk's own Usage Guidance and Doc_04's own Disputation-adjacent Distortion Risk framing."
         ),
     ),
     dict(
         slug="calvins-journey-to-zurich",
         tellable_as=(
+            "In 1549, worried whether Geneva's and Zurich's own teaching on the Supper actually agreed, "
+            "Calvin travelled to Zurich himself rather than trust a letter, and what he and Farel worked "
+            "out there became the Consensus Tigurinus."
+        ),
+        text=(
             "By 1549, a quiet worry had spread among people who respected both our own churches: did "
             "Calvin's own teaching on the Supper actually agree with what Zurich taught? Calvin heard "
             "the worry directly, from people who revered both churches and did not want an appearance "
@@ -143,14 +156,22 @@ STORIES: list[dict] = [
         ),
         body=(
             "Built from Story-Chunks/rzgstory002_calvins-journey-to-zurich.md (Approved to proceed, "
-            "Doc_09 Round 2). AUTHORED: tellable_as compresses the chunk's own Story Text; "
-            "modern_contrast draws on the chunk's own Formation Ecology Connection (a specific human "
-            "journey behind an abstract doctrinal convergence)."
+            "Doc_09 Round 2). AUTHORED: text recasts the chunk's own Story Text into this world's own "
+            "first-person register; tellable_as further compresses that into a single spoken-register "
+            "sentence, a genuinely separate authored field, not a duplicate (fixed 2026-09-18: this script "
+            "had previously set text equal to tellable_as, a real defect caught in this world's own "
+            "go-live test battery, not this chunk's own already-Approved content). modern_contrast draws "
+            "on the chunk's own Formation Ecology Connection (a specific human journey behind an abstract "
+            "doctrinal convergence)."
         ),
     ),
     dict(
         slug="myconius-account-of-zwinglis-death",
         tellable_as=(
+            "Our founder rode out to battle on 11 October 1531 and was killed that same afternoon; his "
+            "close friend Myconius wrote down what he remembered of that day."
+        ),
+        text=(
             "Zwingli left Zurich for the front early on 11 October 1531, and was killed that same "
             "afternoon. His close friend Oswald Myconius was in the city that day and later wrote down "
             "what he remembered - warnings that, looking back, seemed to have foretold it; a "
@@ -185,9 +206,12 @@ STORIES: list[dict] = [
         body=(
             "Built from Story-Chunks/rzgstory003_myconius-account-of-zwinglis-death.md (Approved to "
             "proceed, Doc_09 Round 2 - this chunk was itself added at Round 1 review, correcting a "
-            "false claim that no vendored source narrated Zwingli's own death). AUTHORED: tellable_as "
-            "compresses the chunk's own Story Text; modern_contrast draws on the chunk's own Tier "
-            "Justification hedges."
+            "false claim that no vendored source narrated Zwingli's own death). AUTHORED: text recasts "
+            "the chunk's own Story Text into this world's own first-person register; tellable_as further "
+            "compresses that into a single spoken-register sentence, a genuinely separate authored field, "
+            "not a duplicate (fixed 2026-09-18: this script had previously set text equal to tellable_as, "
+            "a real defect caught in this world's own go-live test battery, not this chunk's own "
+            "already-Approved content). modern_contrast draws on the chunk's own Tier Justification hedges."
         ),
     ),
 ]
@@ -197,11 +221,22 @@ FIGURES: list[dict] = [
     dict(slug="zwingli", names=[("Huldrych Zwingli", "in-world"), ("Ulrich Zwingli", "scholarly")],
          dates={"died": 1531},
          bridge_line="Our own founder at Zurich, who first preached straight through Matthew rather than follow the fixed calendar of readings.",
-         narratable=True),
+         narratable=True,
+         dates_note=(
+             " Key corrected from `death` to `died` (engine.m1.cross_world's own fleet-vocabulary check, "
+             "figure-dates-keys) to match the fleet's own established convention (born/died/floruit), "
+             "found and fixed during this world's own go-live test battery."
+         )),
     dict(slug="bullinger", names=[("Heinrich Bullinger", "in-world")],
          dates={"floruit": "pastorate at Zurich, 1531-1575"},
          bridge_line="Zwingli's own successor at Zurich, whose four-decade pastorate gave our confession its own mature, lasting form.",
-         narratable=True),
+         narratable=True,
+         dates_note=(
+             " Key corrected from `pastorate_start`/`pastorate_end` to the fleet's own single `floruit` "
+             "convention (engine.m1.cross_world's own fleet-vocabulary check, figure-dates-keys), matching "
+             "alx.figure.dionysius's own identical \"office span, not birth/death\" usage; found and fixed "
+             "during this world's own go-live test battery."
+         )),
     dict(slug="calvin", names=[("John Calvin", "in-world"), ("Jean Calvin", "scholarly")], dates={},
          bridge_line="Geneva's own pastor, whose Institutes and Catechism built our doctrine up book by book.",
          narratable=True),
@@ -320,7 +355,7 @@ def emit_story(s: dict) -> Path:
         "narrative_tier": s["narrative_tier"],
         "narrative_tier_justification": s["narrative_tier_justification"],
         "tellable_as": s["tellable_as"],
-        "text": s["tellable_as"],
+        "text": s["text"],
         "modern_contrast": s["modern_contrast"],
     }
     path = OUT_ROOT / "story" / f"{rid}.md"
@@ -356,6 +391,7 @@ def emit_figure(f: dict) -> Path:
         f"story cast, Doc_06's own Key Sources). `dates` states only what this compilation pass "
         f"directly verified this session ({f['dates'] or 'nothing dated beyond general attestation'}) - "
         f"never filled from general knowledge the vendored record itself does not supply here."
+        f"{f.get('dates_note', '')}"
     )
     _write(path, payload, body)
     return path

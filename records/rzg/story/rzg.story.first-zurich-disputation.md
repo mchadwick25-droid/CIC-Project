@@ -41,16 +41,9 @@ narrative_tier_justification: 'Direct textual attestation: a named author (Hegen
   this record''s own load-bearing details (the six hundred figure, Faber''s identity, the council''s ratification)
   are independently corroborated in Hegenwald''s own primary preface and mandate, not drawn from the interleaved
   fragment alone.'
-tellable_as: 'The city council of Zurich did not simply permit the argument that launched our own Reformation
-  there. It summoned it. On 29 January 1523, six hundred people filled the Town Hall - priests and laymen
-  from across the canton, and delegates from the bishop of Constance. Before it began, enemies of the
-  new preaching mocked the whole gathering as a "tinker''s day," saying nothing but tinkers would attend.
-  That mockery is why our own record of the day survives in such detail: a Zurich schoolmaster named Erhart
-  Hegenwald sat through the whole disputation and afterward wrote an account specifically to answer the
-  sneer. "I was there myself and sat with them," he wrote, "heard and understood and remembered all that
-  was said there." The council did not merely watch. When the arguments were finished, it found for our
-  own side, and ordered every priest in the canton to preach the same way. An argument some had already
-  dismissed in advance became an official act of civic reform.'
+tellable_as: In 1523, six hundred people filled Zurich's own Town Hall to test our founder's own case
+  against Scripture, and the council ruled for it, binding every priest in its territory to preach the
+  same way.
 text: 'The city council of Zurich did not simply permit the argument that launched our own Reformation
   there. It summoned it. On 29 January 1523, six hundred people filled the Town Hall - priests and laymen
   from across the canton, and delegates from the bishop of Constance. Before it began, enemies of the
@@ -66,4 +59,4 @@ modern_contrast: 'A modern reader may picture a staged event, decided before it 
   own account is to answer people who mocked the gathering in advance as certain to fail, and our own
   council''s judgment, reached that day, bound every priest in its territory from then on.'
 ---
-Built from Story-Chunks/rzgstory001_first-zurich-disputation.md (Approved to proceed, Doc_09 Round 2). AUTHORED: tellable_as compresses the chunk's own longer Story Text into a single spoken-register passage in this world's own first-person register; modern_contrast draws on the chunk's own Usage Guidance and Doc_04's own Disputation-adjacent Distortion Risk framing.
+Built from Story-Chunks/rzgstory001_first-zurich-disputation.md (Approved to proceed, Doc_09 Round 2). AUTHORED: text recasts the chunk's own Story Text into this world's own first-person register; tellable_as further compresses that into a single spoken-register sentence, a genuinely separate authored field, not a duplicate (fixed 2026-09-18: this script had previously set text equal to tellable_as, a real defect caught in this world's own go-live test battery, not this chunk's own already-Approved content). modern_contrast draws on the chunk's own Usage Guidance and Doc_04's own Disputation-adjacent Distortion Risk framing.
