@@ -776,3 +776,58 @@ rests on unverified material from the other.
    stated order — for the coach thread.
 3. The inline revision-history annotation volume — the same open, undecided fleet-level question
    OG-2 resolved for Doc_03 and OG-8 through OG-12 carry for Doc_04–08. Not decided by this entry.
+
+## OG-14. Doc_09 (Story Inventory): two review rounds, this build's first primary-source
+quote-fidelity defect, and the open items it seeds
+
+**Build history.** Doc_09 finalizes Doc_02 §10's provisional eleven-row story candidate table
+into the full Story Inventory: twelve tellable stories (adding witt-S12, a genuine new find —
+Luther's 1532 drought-prayer, drawn from a Table Talk passage three prior documents had flagged
+as unread and named this document as the right home for), tier classifications re-derived
+against CF V7.4's current text, a Story Index with by-tier, No-Tier-5-audit, and Source-Registry
+cross-reference views, and a substantive Absent Stories section. A bounded, script-verified
+reading pass of the full 4,667-line vendored hymns file closed three long-open items (OG-9 items
+8–9; OG-10 item 5) that Doc_05, Doc_06, and Doc_07 had each flagged in turn without any of them
+actually reading the material.
+
+**Round 1 review** (`witt_Doc09_Review_Round1.md`) returned SUBSTANTIAL REVISION REQUIRED — 4
+substantial findings, 2 cosmetic. The most consequential: witt-S03's entry quoted a sentence as
+"this library's own Table Talk text" that was in fact Carlyle's secondary paraphrase, embedded in
+a different vendored file, and not the actual Table Talk wording at all — **this build's first
+primary-source misquotation defect in nine documents**, as distinct from the self-referential
+bookkeeping/cross-reference residue every prior document's review rounds (OG-8 through OG-12)
+recorded. The other three findings: an overclaimed hymn-reading-pass completeness statement (two
+in-scope, Registry-already-read footnote items went undisclosed); an under-disclosed sequencing
+claim in Discipline 1 (framing the World Profile as a drafted-alongside structural peer when its
+own template describes a sequential dependency); and an under-disclosed evidentiary weakness in
+witt-S01 (the door-posting detail's actual basis is a 1915 editorial claim and an unread
+secondary source, not a documented dispute between primary accounts).
+
+**All four fixed at Revision 1**, each disclosed inline rather than silently rewritten. **Round 2**
+(`witt_Doc09_Review_Round2.md`, a targeted recheck of the four fixes per this build's calibration,
+not a full re-review) independently re-verified all four fixes against the primary source files
+and the World Profile Template directly and returned **CLEARED REVIEW**, with one further minor
+residual (a stale completion-checklist bullet) found and fixed directly, no third round required.
+
+**Doc_09 is self-disposed APPROVED TO PROCEED.**
+
+**Open items seeded from Doc_09 §7:**
+1. The single-source (Table Talk) dependency for five of twelve stories — a structural feature of
+   this library, not a defect of this document, but worth a fleet-level note on how other worlds'
+   Doc_09s should watch for the same concentration.
+2. witt-S12's discovery confirms a prior document's open-items list can carry a claimed seed that
+   was never actually checked before Doc_09's own drafting pass — the same "claimed-but-not-yet-
+   verified" pattern OG-8 through OG-12 record for other documents, here caught by this document's
+   own drafting rather than by an independent review round.
+3. The Discipline 1 scope-and-sequencing question (World Profile and Doc_09 drafted concurrently
+   rather than in the template's own stated sequence) — see OG-13 item 2, the same question logged
+   from the World Profile's own side, for the coach thread.
+4. **The primary-source quote-fidelity defect itself** — flagged as a fleet-level data point: the
+   first defect in this build's nine-document run that is a misquotation rather than a self-
+   referential bookkeeping error, caught inside a document whose own §0 claimed "every story below
+   traces to a vendored locus a prior document or this document itself verified." Worth the coach
+   thread checking whether "this document itself verified" claims get tested as rigorously as
+   claims inherited from prior documents, across the fleet.
+5. The inline revision-history annotation volume — the same open, undecided fleet-level question
+   OG-2 resolved for Doc_03 and OG-8 through OG-13 carry for Doc_04–08 and the World Profile. Not
+   decided by this entry.
