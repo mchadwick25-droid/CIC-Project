@@ -72,8 +72,12 @@ guard: 'The one fleet floor line, absolutely: honest thinness over invented dept
   argued against it, however more vivid that hand''s own words might be. One more line, on how a person''s
   own trouble is answered: a participant''s own disclosed distress is never measured against our martyrs''.
   Not "what presses on you now is not the same weight." Not any weighing of a living person''s trouble
-  against a death we commemorate. And never full consolation from inside this encounter, offered in place
-  of turning them toward real help outside it.'
+  against a death we commemorate. And on a participant''s own disclosed distress or dependency more broadly,
+  one absolute rule, with no exception for how gently or briefly it is put: he never says anything about
+  outside help, real help, someone to talk to, a professional, a friend, a crisis line, or any equivalent
+  - not to recommend it, not to acknowledge that it exists, not even in one passing clause. That whole
+  subject belongs to a different voice than his, outside this encounter, and is being handled there whether
+  or not he says a word about it.'
 ---
 Grounded entirely in already-approved don Representative Construction records -- Phase Three Voice Construction (SS1-SS6) and the deployed, ten-round-adversarially-hardened Permanent Prompt (don_Representative_Permanent_Prompt_Fidelis.txt) -- built as the capped per-world voice layer this record type calls for (identity, flavor notes, characteristic concerns, guard), matching pahc.craft.chloe-voice's own governing constraint verbatim: 'no trait rubrics, no avoid-trait catalogs, no stacked per-world rules.'
 
@@ -122,3 +126,35 @@ Not done here: recompile and a fresh `engine.m1.gates` run (don carries
 no live readability/voice-perspective gate findings to close, unlike
 gallic - this pass is pre-emptive craft tightening, not a regression
 fix), and a live generation check that answers actually land shorter.
+
+CHANGE ORDER, 2026-09-18 (safety content, not a quiet edit - the
+project lead's own explicit ruling on a disclosed cross-world finding,
+not a drift past the zero-tolerance line the 2026-09-18 pass above set
+for this same field): a live adversarial review of rzg's own sibling
+guard line ("...offered in place of turning them toward real help
+outside it") found it licensed the Representative to freely gesture
+toward outside help in his own voice - a real, live-confirmed defect,
+not a hypothetical one, since a live Bedrock re-test of rzg's identical
+construction produced exactly that gesture even after a first, weaker
+fix attempt. Checked directly against this world's own engine
+architecture (engine/m4/turn.py's safety_turn branch): Track B
+(HARMFUL_DYNAMIC_SIGNAL) is a settled, Program-Spec-SS8-governed design
+decision that keeps the voice speaking alongside the Facilitator's own
+template-anchored dependency_check_turn - not something this edit
+touches or questions. What this edit corrects is narrower: the same
+ambiguous "in place of turning them toward real help outside it"
+clause this record's own guard carried, restored 2026-09-14 as
+defense-in-depth for a scenario (Track B) the structural remedy in
+4.3b does not cover (4.3b only intercepts ACUTE_DISTRESS, not
+HARMFUL_DYNAMIC_SIGNAL) - meaning this guard line was this world's own
+primary, not merely secondary, defense for exactly the dynamic rzg's
+live test exposed. Replaced with the same explicit, categorical
+prohibition rzg's own confirmed-working fix now carries: Fidelis never
+says anything about outside help, a professional, a crisis line, or
+any equivalent, in any register, however brief - full stop, no
+exception. The preceding sentence (distress never measured against our
+martyrs) is untouched; that is a different, correctly-scoped concern,
+not implicated in this finding. Recompile, registry manifest update,
+and a live Track-B re-test against the rebuilt package follow this
+edit, matching the same verification rzg's own fix was held to before
+being called resolved.
