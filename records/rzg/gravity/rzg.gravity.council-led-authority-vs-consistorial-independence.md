@@ -28,6 +28,8 @@ relations:
   target: rzg.force.no-internal-fracture
 - type: associated-with
   target: rzg.witness.one-conviction-two-enactments
+- type: associated-with
+  target: rzg.witness.what-we-have-not-agreed
 name: '[TENSIONAL] Council-Led Civic Authority (Zurich) vs. Consistorial Independence from Civil Control
   (Geneva)'
 description: 'We have never agreed, between our own two cities, who holds the final word over church discipline.

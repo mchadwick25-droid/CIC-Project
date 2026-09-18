@@ -24,7 +24,9 @@ retrieval:
   - participant asks what it was like in Zurich on the day of the Second Battle of Kappel
   do_not_retrieve_when:
   - participant wants the doctrinal content of what Zwingli taught
-relations: []
+relations:
+- type: associated-with
+  target: rzg.witness.not-a-death-he-sought
 narrative_tier: 1
 narrative_tier_justification: 'Direct textual attestation from a named author (Oswald Myconius) with an
   identifiable social location (Zwingli''s own close friend, a Reformed pastor in his own right), datable

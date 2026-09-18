@@ -29,6 +29,8 @@ relations:
   target: rzg.limit.doubt-and-assurance
 - type: associated-with
   target: rzg.force.synod-of-dort-international-dimension
+- type: associated-with
+  target: rzg.witness.one-thing-not-in-dispute
 name: Sovereignty of God / Predestination and Election
 description: 'God''s own free choice, made before the world existed, determines who is saved - not anything
   foreseen or earned in the one chosen. We hold this as the ground of a settled life, not a threat: whoever

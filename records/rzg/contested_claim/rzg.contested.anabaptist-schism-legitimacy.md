@@ -22,6 +22,10 @@ relations:
   target: rzg.force.anabaptist-schism
 - type: associated-with
   target: rzg.gravity.scripture-sole-authority-disputation-catechesis
+- type: associated-with
+  target: rzg.witness.defending-the-anabaptist-suppression
+- type: associated-with
+  target: rzg.witness.why-the-children-too
 claim: 'The 1525 Swiss Brethren baptisms, and the broader Anabaptist movement they began, misread Scripture:
   a church gathered only by voluntary adult profession, rather than coextensive with a Christian city''s
   own whole population, unmakes the very unity of church and city our own reform was built to strengthen,

@@ -31,6 +31,8 @@ relations:
   target: rzg.witness.triple-refusal
 - type: associated-with
   target: rzg.limit.hagiography-refused
+- type: associated-with
+  target: rzg.witness.what-a-stranger-would-notice
 name: Spiritual Presence and the Rejection of Corporeal/Sacrificial Mediation
 description: We refuse Rome's claim that the Mass repeats Christ's own sacrifice, and we refuse Wittenberg's
   claim that Christ's body sits locally in the bread. What we affirm - that Christ is truly given, by

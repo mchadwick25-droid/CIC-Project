@@ -14,7 +14,9 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources: []
-relations: []
+relations:
+- type: associated-with
+  target: rzg.witness.what-a-stranger-would-notice
 name: The Counter-Reformation as sustained external pressure
 kind: ongoing
 description: 'Catholic pressure was sustained across the whole window: the Jesuits, founded 1540, established

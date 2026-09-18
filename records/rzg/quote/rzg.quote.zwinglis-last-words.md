@@ -17,7 +17,9 @@ sources:
 - source_id: rzg.source.zwingli-latin-works-vol1
   locus: Myconius, 'Original Life of Zwingli' SS12, lines approx. 1592-1593
   license: public-domain
-relations: []
+relations:
+- type: associated-with
+  target: rzg.witness.not-a-death-he-sought
 text: What evil is there in this? They are able, it is true, to kill the body but not the soul.
 speaker_or_author: Huldrych Zwingli, as reported by Oswald Myconius
 license: verbatim

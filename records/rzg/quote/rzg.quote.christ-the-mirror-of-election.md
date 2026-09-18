@@ -21,6 +21,10 @@ sources:
 relations:
 - type: associated-with
   target: rzg.limit.doubt-and-assurance
+- type: associated-with
+  target: rzg.witness.one-thing-not-in-dispute
+- type: associated-with
+  target: rzg.witness.a-quieted-mind
 text: We reject those who seek out of Christ whether they are chosen... Let... Christ be the mirror in
   which we behold [our] predestination.
 speaker_or_author: Heinrich Bullinger

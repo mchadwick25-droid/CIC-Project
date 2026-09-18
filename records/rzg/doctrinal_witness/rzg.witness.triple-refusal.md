@@ -33,6 +33,8 @@ relations:
   target: rzg.force.anabaptist-schism
 - type: associated-with
   target: rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation
+- type: associated-with
+  target: rzg.witness.a-narrow-true-church
 positions:
 - 'We know ourselves as much by what we refused as by what we built. We refused Rome first: no repeated
   sacrifice at the altar, no bowing to an image, because neither answers to Scripture. We refused Wittenberg

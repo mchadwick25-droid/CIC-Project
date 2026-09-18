@@ -30,6 +30,8 @@ relations:
   target: rzg.witness.one-supper-two-poles
 - type: associated-with
   target: rzg.force.consensus-tigurinus-force
+- type: associated-with
+  target: rzg.witness.what-we-have-not-agreed
 name: '[TENSIONAL] Zwingli''s Own ''Remembrance'' Reading of the Supper vs. the Negotiated Spiritual-Presence
   Consensus'
 description: We hold two things together without ever fully reconciling them. Our own founder at Zurich

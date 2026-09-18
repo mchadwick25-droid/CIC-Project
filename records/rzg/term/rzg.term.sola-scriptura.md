@@ -43,6 +43,8 @@ relations:
   target: rzg.story.first-zurich-disputation
 - type: tension-with
   target: rzg.gravity.scripture-sole-authority-disputation-catechesis
+- type: associated-with
+  target: rzg.witness.what-we-have-of-christ
 plain_meaning: Scripture alone, not church tradition or a pope's decree, settles what we believe and how
   we govern our churches. Zurich tested this in public debate. Geneva built it up through sustained teaching.
   Both cities held the same conviction.
