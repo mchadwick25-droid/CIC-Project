@@ -41098,11 +41098,8 @@ function render(){
     // Era divider (Mark, 2026-09-17: the old break band was a thick,
     // ~120px-tall, near-opaque bar bled across the full width -- it read
     // as a wall blocking the map underneath it, not a divider). Replaced
-    // with a thin line that starts under the header text, not a block
-    // that competes with the rivers for the whole gutter. Position is
-    // computed from the text actually drawn below (label/tag, plus
-    // wrapped context lines when present) rather than a fixed height, so
-    // the line sits right under whatever text an era actually has.
+    // with a thin line, not a block that competes with the rivers for the
+    // whole gutter.
     // 2026-09-17: Mark's next report -- the text was crisp now but too
     // small to read comfortably, and zooming in to read it ran the
     // (still-wrapped-wide) lines off the screen. Font sizes bumped (see
@@ -41110,18 +41107,22 @@ function render(){
     // wrap narrowed from 200 to ERA_CONTEXT_WRAP chars so a line stays
     // short enough to fit on screen at a comfortable reading zoom instead
     // of spanning the whole map's width.
-    let textBottom=eraY0[i]+64;
-    if(WORLD_CONTEXT[e.num]){
-      textBottom=eraY0[i]+90+(wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).length-1)*19;
-    }
-    const dividerY=textBottom+18;
+    // 2026-09-18: Mark's next report -- the line sat *under* the header
+    // text, which put the text right against the previous era's own
+    // content with nothing marking it as the start of a new one; the line
+    // only separated the text from this era's own rivers below it, so the
+    // text read as trailing the era above rather than opening the era
+    // below. Flipped: the line now sits right at the top of the era
+    // band, and the header text drops below it -- the line marks where
+    // the era starts, and the text reads as inside it.
+    const dividerY=eraY0[i]+16;
     // Drawn on top of the rivers (band-fade's old spot) so the line stays
     // crisp regardless of what color river crosses under it, with a slim,
     // low-opacity wash behind it only so the line has something to sit on
     // against a busy stretch of the map -- not a return of the old block.
     gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY-9,width:BLEED_W,height:18,fill:isDark()?'#F6F6F2':'#2A2521',opacity:isDark()?0.1:0.06}));
     gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY,width:BLEED_W,height:1.5,fill:isDark()?'#F6F6F2':'#6B5D4A',opacity:isDark()?0.85:0.65}));
-    const lbl=el('text',{x:24,y:eraY0[i]+38,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
+    const lbl=el('text',{x:24,y:dividerY+38,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
     gLabels.appendChild(lbl);
     // e.tag is one thread's narrative (usually the imperial/mainstream one), not
     // the whole band -- Era II's own tag ("Constantine's revolution to Chalcedon")
@@ -41129,11 +41130,11 @@ function render(){
     // Aksumite or Armenian churches', or six other lanes running the same years.
     // A single line can't speak for a band this plural, so the header states only
     // what's true of the whole band: how many movements, across how many lanes.
-    const tag=el('text',{x:24,y:eraY0[i]+64,class:'era-tag'});
+    const tag=el('text',{x:24,y:dividerY+64,class:'era-tag'});
     tag.textContent=`${e.dates} — ${eraCounts[i]} movements across ${eraLaneCounts[i]} lanes`;
     gLabels.appendChild(tag);
     if(WORLD_CONTEXT[e.num]){
-      const ctx=el('text',{x:24,y:eraY0[i]+90,class:'era-context'});
+      const ctx=el('text',{x:24,y:dividerY+90,class:'era-context'});
       // Narrow enough (ERA_CONTEXT_WRAP chars) that a line fits on screen
       // at a comfortable reading zoom, not just at the fully-zoomed-out
       // view -- was wrapped at 200 chars, close to the full width of the
