@@ -331,3 +331,12 @@ With items 2 and 3 confirmed and filed, no escalation category is live against e
 - **Verification:** package rebuilt, registry updated, `pytest` (672/672), `engine.m9.cli check` (clean), `engine.m2.cli staleness-check` (all worlds `stale: false`).
 - **Escalation check:** none of the four categories apply — a mechanical script-and-content bug fix within this thread's own delegated remediation authority.
 - **Disposition:** fixed at the root, verified.
+
+### 2026-09-18 — Two Overclaim Findings Fixed (go-live pipeline thread, Opus review findings #6, #7)
+
+- **Finding #6:** `rzg.limit.hagiography-refused`'s own `statement` field generalized a hedged, Doc_07-sourced claim ("should not be expected to produce it") into a flat historical law ("A world that refuses a practice on principle does not go on to produce its literature by accident"), overclaiming beyond what the grounding actually supports — a claim properly scoped to this world's own corpus, not a general rule about any principled-refusal community anywhere. Rewritten to state only what Doc_09 SS3.1/Doc_07 SS2C actually show.
+- **Finding #7:** `rzg.ambient.emptied-worship-space`'s own `detail` field stated the replacement table's designed purpose ("built to hold a meal, not to host a sacrifice"), drifting back into the doctrinal/formational claim the record's own body says belongs at `rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation` and is not restated here — exactly the drift `formation_claim_barred` exists to prevent. Confirmed by direct review of the engine's own generation path that this field is not enforced anywhere at generation time — this record's own language is the only real defense, not a system-level check. Tightened to the bare physical fact alone.
+- **Both fixed at the generating script** (`wb_rzg_s2x_doctrinal_witness.py`), not just the built records — regenerated via the two specific `emit_*`/`build_*` functions directly, rather than the whole script, per the lesson from this same session's story-text fix (a full-script rerun there clobbered `canon_cells` and `relations` added by later pipeline stages). Verified via a clean `git diff` (only the intended two records changed) before rebuilding, not merely asserted.
+- **Verification:** package rebuilt, registry updated, `pytest` (672/672), `engine.m9.cli check` (clean), `engine.m2.cli staleness-check` (all worlds `stale: false`).
+- **Escalation check:** none of the four categories apply.
+- **Disposition:** both fixed at the root, verified.
