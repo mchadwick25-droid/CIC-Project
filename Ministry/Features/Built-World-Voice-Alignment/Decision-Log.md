@@ -689,9 +689,40 @@ Riez" — same fix as the longDescription's F3-equivalent overreach,
 scaled down to the two sees actually attested. `test_census_sync.py`
 still passes.
 
+**Follow-up, same day:** Mark: "do the other 6 worlds' spot-checks too"
+(the process-fidelity check the fleet-wide review recommended for
+alx, syr, pahc, cappadocian, ijc, and hal, matching how desert and
+gallic were checked). alx and syr had already been checked as a
+side-task during their own drafting agents' runs (both confirmed
+clean at the time — alx genuinely fresh, syr's overlap a documented
+light-touch decision, not an unnoticed copy) but the doc hadn't been
+updated to say so. Ran the remaining four (pahc, cappadocian, ijc,
+hal) directly: 4-gram phrase overlap, computed against both the
+pre-workstream original tile (`git show 837eaf7`) and the current
+`longDescription`/`doorway_description`.
+
+Results, all six: **clean.** pahc 0.6%/1.2% overlap (essentially
+nothing — the tile and `longDescription` don't even cover the same
+material). cappadocian 7.7%/2.1% (confined to the unavoidable
+four-name list and one deliberately-reused framing phrase). ijc
+7.8%+ (the shared phrasing is the emperor's-inside-the-church formula
+and the Callinicum material — both of which `longDescription` already
+had *correctly*, so the tile fix converged on already-accurate
+language rather than inheriting error). hal 0% against the
+pre-workstream tile, 16.4% against `longDescription` (the highest of
+the six, but concentrated in specific phrasings already independently
+checked and cleared at record level, not a wholesale paragraph).
+
+All six sit an order of magnitude below desert's 63% and gallic's
+~66%. Only desert and gallic actually failed this check, and both are
+already remediated above — the fleet-wide "rebuilt from records"
+framing holds for every one of the 8 worlds now. Review doc updated
+with the per-world results and the closed-out recommendation.
+
 ### Next action
 
-All defects from the fleet-wide review are fixed and shipped except
-the gallic/atlas-v3.html status gap above, which needs Mark's
-decision. Otherwise this pass closes the workstream's open items from
-the 2026-09-18 review round.
+All defects from the fleet-wide review are fixed and shipped, and all
+8 worlds' "rebuilt from records" framing is now independently
+verified. This closes the workstream's open items from the
+2026-09-18 review round; no outstanding items remain unless a future
+pass surfaces new ones.
