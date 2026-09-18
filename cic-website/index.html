@@ -167,7 +167,10 @@ p{margin:0 0 1rem}
    width exactly, not just to each other). width/max-width (not padding)
    do the matching here so the video's own box isn't inset from its
    rounded border by padding it doesn't need. */
-.atlas-showcase-media{position:relative;width:calc(100% - 2.5rem);max-width:calc(var(--wide) - 2.5rem);height:min(60vh,480px);margin:0 auto;overflow:hidden;background:var(--ground);border-radius:8px}
+/* Trimmed 30% shorter (Mark, 2026-09-19: "so the title of the Church
+   Family Tree lands on the first screen when the landing page uploads")
+   -- was min(60vh,480px). */
+.atlas-showcase-media{position:relative;width:calc(100% - 2.5rem);max-width:calc(var(--wide) - 2.5rem);height:min(42vh,336px);margin:0 auto;overflow:hidden;background:var(--ground);border-radius:8px}
 .atlas-showcase-media video,.atlas-showcase-media img{width:100%;height:100%;object-fit:cover;display:block}
 .atlas-showcase-media img.showcase-fallback{display:none}
 @media (prefers-reduced-motion:reduce){
