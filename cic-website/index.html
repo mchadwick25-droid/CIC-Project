@@ -100,6 +100,12 @@ p{margin:0 0 1rem}
 .table-give{display:grid;grid-template-columns:2fr 1fr;gap:2.5rem;margin:2rem 0 0}
 @media (max-width:48rem){
   .table-give{grid-template-columns:1fr}
+  /* Single column here means each card sizes to its own content, not a
+     shared row height, so .support-photo's flex:1 (which fills whatever
+     blank space stretching to the Table card's height leaves) has no
+     extra space to fill and collapses to its bare min-height instead. A
+     fixed aspect ratio keeps it a real photo rather than a 60px sliver. */
+  .support-photo{flex:none;aspect-ratio:16/10;min-height:0}
 }
 
 /* Church Family Tree showcase: full-bleed scrolling video (era 1 -> 10,
@@ -172,7 +178,12 @@ p{margin:0 0 1rem}
 .support-links{display:flex;flex-wrap:wrap;gap:.6rem;margin:0 0 .8rem}
 .support-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 1.1rem;font-weight:600;color:var(--vellum);background:var(--madder);border-radius:6px;text-decoration:none}
 .support-btn:hover,.support-btn:focus-visible{background:var(--madder-deep);color:var(--vellum)}
-.support-more{font-size:.8rem;color:var(--muted);margin:auto 0 0}
+/* Fills whatever blank space the card's own stretched height (matching the
+   Table card beside it) leaves below the give buttons -- flex:1 rather than
+   a fixed height so it absorbs exactly that space at any card height. */
+.support-photo{flex:1;min-height:60px;margin:0 0 .9rem;border-radius:6px;overflow:hidden;background:var(--ground)}
+.support-photo img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.85)}
+.support-more{font-size:.8rem;color:var(--muted);margin:0}
 .support-more a{color:var(--action)}
 
 .site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.9rem;color:var(--muted)}
@@ -387,6 +398,9 @@ p{margin:0 0 1rem}
           <a class="support-btn" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Give once</a>
           <a class="support-btn" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Give monthly</a>
         </p>
+        <figure class="support-photo">
+          <img src="assets/give-photo.jpg" alt="The bronze Holy Door of St. Peter's Basilica, Rome, its panels cast with scenes of mercy and return" loading="lazy" decoding="async">
+        </figure>
         <p class="support-more">For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
       </div>
     </section>
@@ -404,7 +418,7 @@ p{margin:0 0 1rem}
 </main>
 
 <footer class="site-footer">
-  <p class="photo-credits">Historical images, top of page, left to right: <a href="https://commons.wikimedia.org/wiki/File:Catacombe_di_Priscilla,_Rome_-_Fresco_of_a_Christian_Agape_feast_-_Fractio_panis_-_Greek_chapel_-_2nd_-_4th_century.jpg">Fresco, Catacombs of Priscilla</a>, public domain · <a href="https://commons.wikimedia.org/wiki/File:Etchmiadzin_cathedral.jpg">Etchmiadzin Cathedral</a> (CC BY 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Jerusalem_Holy_Sepulchre_BW_23.JPG">Church of the Holy Sepulchre</a>, photo by Berthold Werner (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Monastery_of_Saint_Macarius_the_Great,_Egypt-15.JPG">Monastery of Saint Macarius</a>, photo by Faris El-Gwely (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Rock-Hewn_Churches,_Lalibela-107572.jpg">Rock-Hewn Churches, Lalibela</a>, photo by Francesco Bandarin/UNESCO (CC BY-SA 3.0 IGO) · <a href="https://archive.org/details/mma_large_figures_on_the_north_porch_chartres_cathedral_266284">Chartres Cathedral</a>, 1852, Metropolitan Museum of Art, public domain · <a href="https://archive.org/details/mma_illuminated_gospel_317618">Illuminated Gospel</a>, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St_Francis_Church_Fort_Kochi_DSC_1048.JPG">St. Francis Church, Fort Kochi</a>, photo by Ranjith Siji (CC BY-SA 4.0) · <a href="https://archive.org/details/mma_martin_luther_with_doctoral_cap_430193">Martin Luther</a>, engraving, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St._Basil%27s_Cathedral,_Moscow.jpg">St. Basil's Cathedral, Moscow</a>, photo by Zeynel Cebeci (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg">St. Peter's Basilica</a>, photo by Alvesgaspar (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:AFM_on_azusa_street.jpg">The Apostolic Faith Mission, Azusa Street</a>, 1907, photographer unknown, public domain. Several images require attribution and share-alike under their license — don't drop the credit line if these move elsewhere.</p>
+  <p class="photo-credits">Historical images, top of page, left to right: <a href="https://commons.wikimedia.org/wiki/File:Catacombe_di_Priscilla,_Rome_-_Fresco_of_a_Christian_Agape_feast_-_Fractio_panis_-_Greek_chapel_-_2nd_-_4th_century.jpg">Fresco, Catacombs of Priscilla</a>, public domain · <a href="https://commons.wikimedia.org/wiki/File:Etchmiadzin_cathedral.jpg">Etchmiadzin Cathedral</a> (CC BY 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Jerusalem_Holy_Sepulchre_BW_23.JPG">Church of the Holy Sepulchre</a>, photo by Berthold Werner (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Monastery_of_Saint_Macarius_the_Great,_Egypt-15.JPG">Monastery of Saint Macarius</a>, photo by Faris El-Gwely (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Rock-Hewn_Churches,_Lalibela-107572.jpg">Rock-Hewn Churches, Lalibela</a>, photo by Francesco Bandarin/UNESCO (CC BY-SA 3.0 IGO) · <a href="https://archive.org/details/mma_large_figures_on_the_north_porch_chartres_cathedral_266284">Chartres Cathedral</a>, 1852, Metropolitan Museum of Art, public domain · <a href="https://archive.org/details/mma_illuminated_gospel_317618">Illuminated Gospel</a>, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St_Francis_Church_Fort_Kochi_DSC_1048.JPG">St. Francis Church, Fort Kochi</a>, photo by Ranjith Siji (CC BY-SA 4.0) · <a href="https://archive.org/details/mma_martin_luther_with_doctoral_cap_430193">Martin Luther</a>, engraving, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St._Basil%27s_Cathedral,_Moscow.jpg">St. Basil's Cathedral, Moscow</a>, photo by Zeynel Cebeci (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg">St. Peter's Basilica</a>, photo by Alvesgaspar (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:AFM_on_azusa_street.jpg">The Apostolic Faith Mission, Azusa Street</a>, 1907, photographer unknown, public domain. Several images require attribution and share-alike under their license — don't drop the credit line if these move elsewhere. Photo in the contribution card: <a href="https://commons.wikimedia.org/wiki/File:The_Holy_Doors,_St._Peter%27s_Basilica,_Rome_(45510156425).jpg">The Holy Door, St. Peter's Basilica</a>, photo by Deb Nystrom (CC BY 2.0).</p>
   <div class="row">
     <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
     <nav aria-label="Footer">
