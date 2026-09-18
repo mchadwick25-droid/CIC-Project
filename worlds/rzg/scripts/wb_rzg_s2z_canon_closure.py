@@ -294,8 +294,8 @@ WITNESSES: list[dict] = [
             "or earned in the one chosen. We hold this as the ground of a settled life, not a threat: "
             "whoever is joined to Christ by true faith already has, in that faith itself, the only evidence "
             "of election anyone is given. So we do not tell an anxious soul to search themselves for proof. "
-            "We reject those who seek out of Christ whether they are chosen; Christ himself is the mirror in "
-            "which anyone may see their own election reflected.",
+            "Our own confession says it directly: 'We reject those who seek out of Christ whether they are "
+            "chosen... Let... Christ be the mirror in which we behold [our] predestination.'",
         ],
         tensions=[
             "We will not claim a distinctive Christ where our own record has none. If you are looking for a "
@@ -307,18 +307,23 @@ WITNESSES: list[dict] = [
             "never our own quarrel, not with Rome and not between our own two cities. What is distinctly "
             "ours is what we were taught his death secures. God's own free choice, made before the world "
             "began, decides who is saved -- not anything foreseen or earned. We hold that as a settled "
-            "ground, not a threat, and we will not send you searching your own heart for proof of it. Look "
-            "to Christ instead. We reject those who seek out of Christ whether they are chosen; he himself "
-            "is the mirror in which anyone may see their own election reflected."
+            "ground, not a threat, and we will not send you searching your own heart for proof of it. Our "
+            "own confession says it plainly: 'We reject those who seek out of Christ whether they are "
+            "chosen... Let... Christ be the mirror in which we behold [our] predestination.'"
         ),
         body=(
             "Grounded in rzg.gravity.sovereignty-of-god-predestination-election's own description and rzg."
             "quote.christ-the-mirror-of-election's own already-verified text (Second Helvetic Confession, "
-            "ch. X, lines 667, 684-685), reused verbatim rather than re-translated. Closes C-I ('Who was "
-            "Jesus, to you and your people?' / 'What is the good news?' / 'What did his death mean to you?' "
-            "/ resurrection), leading with the same honest disclosure don's own analogous C-I record uses: "
-            "this world's core Christology is the shared, inherited orthodox one, not a distinctive claim "
-            "this record should manufacture."
+            "ch. X, lines 667, 684-685), quoted here character-for-character, including its own ellipsis "
+            "marks and bracketed [our], exactly as that record's own already-verified text field states it "
+            "-- not spliced, paraphrased, or presented as continuous unbroken speech (a defect a 2026-09-18 "
+            "adversarial review found and this fix corrects; the two sentences the confession states 17 "
+            "lines apart are quoted here exactly as the already-verified quote record discloses them, with "
+            "the same ellipsis marking the gap, not blended into one invented continuous sentence). Closes "
+            "C-I ('Who was Jesus, to you and your people?' / 'What is the good news?' / 'What did his death "
+            "mean to you?' / resurrection), leading with the same honest disclosure don's own analogous C-I "
+            "record uses: this world's core Christology is the shared, inherited orthodox one, not a "
+            "distinctive claim this record should manufacture."
         ),
     ),
     dict(
@@ -435,8 +440,9 @@ WITNESSES: list[dict] = [
         relations=rel(("associated-with", "rzg.quote.christ-the-mirror-of-election")),
         positions=[
             "If your own mind will not settle, we do not tell you to look harder inside yourself. We tell "
-            "you to look away from yourself entirely. We reject those who seek out of Christ whether they "
-            "are chosen; Christ himself is the mirror in which anyone may see their own election reflected.",
+            "you to look away from yourself entirely. Our own confession says it plainly: 'We reject those "
+            "who seek out of Christ whether they are chosen... Let... Christ be the mirror in which we "
+            "behold [our] predestination.'",
             "This is not a trick of words. Self-examination, pressed far enough, finds only more of itself "
             "-- doubt answering doubt. Our own confession points the searching mind somewhere outside its "
             "own churning: to Christ, once, rather than to the self, endlessly.",
@@ -448,18 +454,21 @@ WITNESSES: list[dict] = [
         ],
         text=(
             "What did we offer someone who could not quiet their own mind? Not a method for searching "
-            "harder within. We reject those who seek out of Christ whether they are chosen; Christ himself "
-            "is the mirror in which anyone may see their own election reflected. A mind turned only on "
-            "itself finds more of itself, and no bottom to it. We turn it outward instead, toward Christ, "
-            "once, rather than toward the self, endlessly."
+            "harder within. Our own confession says it plainly: 'We reject those who seek out of Christ "
+            "whether they are chosen... Let... Christ be the mirror in which we behold [our] "
+            "predestination.' A mind turned only on itself finds more of itself, and no bottom to it. We "
+            "turn it outward instead, toward Christ, once, rather than toward the self, endlessly."
         ),
         body=(
             "Grounded in rzg.quote.christ-the-mirror-of-election's own already-verified text (Second "
-            "Helvetic Confession, ch. X, lines 667, 684-685), applied here to F4-P's own distinct personal-"
-            "register question ('What did your way of life offer someone who struggled to quiet their own "
-            "mind?') rather than restating C-P/C-T's own identity-register use of the same quotation -- "
-            "genuinely different content, not double-counted. 'Forgiving the unrepentant' and 'unanswered "
-            "prayer' (this cell's other two sub-questions) are not claimed."
+            "Helvetic Confession, ch. X, lines 667, 684-685), quoted here character-for-character, including "
+            "its own ellipsis marks and bracketed [our], exactly as that record's own already-verified text "
+            "field states it -- not spliced, paraphrased, or presented as continuous unbroken speech (a "
+            "defect a 2026-09-18 adversarial review found and this fix corrects). Applied here to F4-P's own "
+            "distinct personal-register question ('What did your way of life offer someone who struggled to "
+            "quiet their own mind?') rather than restating C-P/C-T's own identity-register use of the same "
+            "quotation -- genuinely different content, not double-counted. 'Forgiving the unrepentant' and "
+            "'unanswered prayer' (this cell's other two sub-questions) are not claimed."
         ),
     ),
     dict(
