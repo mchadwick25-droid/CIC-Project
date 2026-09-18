@@ -1,6 +1,6 @@
 # World Profile — Lutheran Wittenberg & Its Congregations
 
-**Status: PENDING — drafted 2026-09-18, not yet independently reviewed.** This is the World Profile (Atlas VI.1, `witt`), Construction Step 8's canonical synthesis document: it organizes what `witt_Doc_01` through `witt_Doc_08` (all self-disposed Approved to Proceed under CO-022) have already established about this world into the organized form the World Capsule Core and Representative emergence (RCF v2.0 Phase One) require. It synthesizes rather than re-derives; every claim below traces to a named prior document and section. It has not yet gone through this project's independent-review build cycle and carries no disposition of its own.
+**Status: APPROVED TO PROCEED** (self-disposed per CO-022; no escalation category applies). This is the World Profile (Atlas VI.1, `witt`), Construction Step 8's canonical synthesis document: it organizes what `witt_Doc_01` through `witt_Doc_08` (all self-disposed Approved to Proceed under CO-022) have already established about this world into the organized form the World Capsule Core and Representative emergence (RCF v2.0 Phase One) require. It synthesizes rather than re-derives; every claim below traces to a named prior document and section. **Independent adversarial review** (`witt_WorldProfile_Review_Round1.md`, 2026-09-18): **CLEARED REVIEW** — 0 substantial findings; 6/6 spot-checked claims traced accurately to their cited sources; the Integrative Observation (Section 10) independently re-verified word-for-word against Doc_07 §8; the Formation Logic section (Section 3) confirmed to pass the template's own usability test; all six occupied force cells confirmed covered at Section 5; all 18 Tier 1 vocabulary terms confirmed present with YES/NO designations at Section 6; all 13 gravities and both DIVERGENCE flags (G4, G10) confirmed present and correctly classified at Section 2. One moderate, self-disclosed item (the hymn/German-singing always-present call) and one cosmetic item (a Tensional gravity, "Must and free," physically misplaced under the Supporting Gravities heading) were both fixed directly at this revision, per CLAUDE.md's rule that a cosmetic-only or self-disclosed-and-resolved finding does not require a fresh review round. Section 9 Living Tradition Status remains explicitly PENDING (Article 29 confirmation is a project-lead decision, not attempted here). Not Frozen — Frozen is never self-assigned.
 
 ---
 
@@ -132,20 +132,6 @@ All thirteen gravities below are strand-singular (Doc_01 §6, confirmed on evide
 
 ---
 
-**Gravity name:** "Must" and "free" — liberty bound by love to the weak, and the pace of reform
-
-**Gravity type:** Tensional
-
-**Confidence:** Documented for the texts; Widely Accepted for the 1522 outcome (editorial account)
-
-**Cross-strand status:** World is strand-singular; spread 3/4; reception: one congregation, once, at the editor's word
-
-**Brief description:** The persistent counter-force inside the reform against its own pace: nothing free may be made a "must," and the strong must wait for the brother who "can only creep." Generated to restrain the reform's own haste in 1522, it reverses direction by 1529 to rebuke the opposite fault — "carnal liberty" and neglect of the Supper — without the ecology ever choosing between the two directions.
-
-**Grounding:** Doc_04 §3 G8 (the sharpest tension with G2: "right according to the Scriptures… but what becomes of order?"); Doc_07 §3.5, §4.2 (the road's pace-setting condition).
-
----
-
 **Gravity name:** Vows, "false chastity," and marriage
 
 **Gravity type:** Supporting
@@ -204,7 +190,19 @@ All thirteen gravities below are strand-singular (Doc_01 §6, confirmed on evide
 
 ### Tensional Gravities
 
-*("Must" and "free" is listed above alongside the other Supporting-classification-adjacent gravities per its Doc_04 §3 entry order; it is Tensional, not Supporting — repeated here for the record.)*
+---
+
+**Gravity name:** "Must" and "free" — liberty bound by love to the weak, and the pace of reform
+
+**Gravity type:** Tensional
+
+**Confidence:** Documented for the texts; Widely Accepted for the 1522 outcome (editorial account)
+
+**Cross-strand status:** World is strand-singular; spread 3/4; reception: one congregation, once, at the editor's word
+
+**Brief description:** The persistent counter-force inside the reform against its own pace: nothing free may be made a "must," and the strong must wait for the brother who "can only creep." Generated to restrain the reform's own haste in 1522, it reverses direction by 1529 to rebuke the opposite fault — "carnal liberty" and neglect of the Supper — without the ecology ever choosing between the two directions.
+
+**Grounding:** Doc_04 §3 G8 (the sharpest tension with G2: "right according to the Scriptures… but what becomes of order?"); Doc_07 §3.5, §4.2 (the road's pace-setting condition).
 
 ---
 
@@ -502,7 +500,7 @@ This world's boundary is drawn **at the conscience, not at the territory.** Memb
 
 **Tags:** SC, DR, RT, RES
 
-**Always-present:** NO — retrievable for questions about worship, music, or the vernacular specifically; its underlying function (the promise in the hearer's own tongue) is carried more broadly by "the Word" and "catechism."
+**Always-present:** YES (reversed from the drafting pass's NO, per independent review — decided, not left open). Doc_06 promoted this term to Tier 1 specifically because it has the widest attested non-founder reach in the whole build (Doc_02 §10's Speratus anecdote, Walter's testimony, three named translators, an entire generated gravity, G11) — a reach the drafting pass's original NO call under-weighted by treating the term as covered by "the Word" and "catechism." Those two terms carry the *content* hymnody transmits; they do not carry the specific formation register hymnody itself organizes — this world's one clearly generated (not merely inflected) formation practice (Doc_08 §6), touching worship, memory, belonging, and authority together, not any single one of them. A participant asking broadly about how this world worshipped, remembered, or transmitted itself would be met with hymnody far more often than a narrowly topic-specific question would suggest.
 
 **Brief characterization:** German-language congregational song "added to teach the people," carrying the catechism's content on inherited tunes with re-worded texts — the register with the widest attested non-founder reach in the whole build, though no full hymn text beyond a handful of openings has itself been read in this construction.
 
@@ -751,9 +749,9 @@ The Word must do it, and a preacher can get no farther than the ears. A person i
 - [x] Section 10 Integrative Observation copied verbatim from Doc_07 §8 — status field reads "Verbatim"
 - [x] All section cross-references to Doc_01 through Doc_08 verified — no section relies on content not yet produced; Doc_09 (Story Inventory) has not been built and is not relied on here
 
-**World Profile completion status:** COMPLETE as a draft.
+**World Profile completion status:** COMPLETE. Independently reviewed (CLEARED REVIEW) and self-disposed APPROVED TO PROCEED at this revision — see the status line at the top of this document.
 
-**Outstanding items:** This document itself has not yet gone through this project's independent-review build cycle (per the status line at the top of this document and per CO-022) and carries no disposition of its own — it is not Approved to Proceed and not Frozen. Two judgment calls made in assembling this synthesis are named for a reviewer's attention: (1) the always-present YES/NO designations in Section 6 are this document's own reasoned application of the template's test to Doc_06's tags and organizing roles, not a designation Doc_06 itself states; a reviewer may weigh some of the four NO designations (repentance/penance, hymn, the Sacrament of the Altar specifically, marriage) differently. (2) Section 9's contested-figure and key-divergence material is drawn only from what Doc_01 and Doc_02 themselves establish (the census's transmission claims; the 1543 treatise's documented content and historiographical dispute) and deliberately does not characterize present-day Lutheran denominational positions, since no prior document in this build establishes those — a reviewer with that knowledge may wish to extend this section once a proper source is added to this world's own construction record.
+**Outstanding items:** (1) Section 6's hymn/German-singing always-present designation was flagged by the drafting pass as a genuine judgment call and reversed to YES at this revision, per the independent review's own analysis (see Section 6 entry for the full reasoning) — the other three NO designations (repentance/penance, the Sacrament of the Altar specifically, marriage) were reviewed and left unchanged. (2) A cosmetic placement error — "Must and free" (Tensional) physically sitting under the Supporting Gravities heading — was fixed at this revision; it now sits under Tensional Gravities with its sibling entry. (3) Section 9's contested-figure and key-divergence material remains drawn only from what Doc_01 and Doc_02 themselves establish (the census's transmission claims; the 1543 treatise's documented content and historiographical dispute) and deliberately does not characterize present-day Lutheran denominational positions, since no prior document in this build establishes those — a later step with that knowledge may wish to extend this section once a proper source is added to this world's own construction record. This is a disclosed scope limit, not an error, and does not block this disposition. (4) Article 29's Living Tradition Status confirmation (Section 9) remains PENDING — a project-lead decision, not attempted by this build thread.
 
 ---
 
@@ -762,9 +760,9 @@ The Word must do it, and a preacher can get no farther than the ears. A person i
 1. All [BRACKETS] have been replaced with world-specific content; no template brackets remain.
 2. All {curly-brace} builder notes have been removed; none remain in this deliverable.
 3. Section 3 Formation Logic has been checked against the usability test and passes it: a builder could write the World Capsule Core's "How This World Forms People" section from Section 3 alone, without returning to Doc_07.
-4. Section 6's always-present designations are complete — all eighteen Tier 1 terms carry YES or NO, with the fourteen YES terms marked for weaving into the World Capsule Core and Permanent Prompt rather than left only in Deployment Lexicon chunks.
-5. Section 10's Integrative Observation is verbatim from Doc_07 §8 — the status field reads "Verbatim."
-6. The Section 11 completion checklist has been run; every item is confirmed, with the document's own review-disposition status stated honestly as PENDING rather than claimed.
+4. Section 6's always-present designations are complete — all eighteen Tier 1 terms carry YES or NO, with the fifteen YES terms (fourteen at drafting, plus hymn/German singing reversed to YES at this revision per independent review — see Section 6) marked for weaving into the World Capsule Core and Permanent Prompt rather than left only in Deployment Lexicon chunks.
+5. Section 10's Integrative Observation is verbatim from Doc_07 §8 — the status field reads "Verbatim," independently re-verified word-for-word at review.
+6. The Section 11 completion checklist has been run; every item is confirmed, with the document's own review-disposition status stated honestly — CLEARED REVIEW, self-disposed APPROVED TO PROCEED.
 7. Saved as `witt_World_Profile.md` in `World-Builds/Lutheran-Wittenberg/`, the canonical shared World-Builds folder for this world.
 
 ---
@@ -783,6 +781,15 @@ All eleven sections present: YES
 - Section 8 — Honest Limits (six domain entries, each stated as this world's own life not running deep there, per CO-014)
 - Section 9 — Living Tradition Status (correspondence confirmed YES; divergences and one contested figure named; confirmation itself marked PENDING)
 - Section 10 — Integrative Observation (copied verbatim from Doc_07 §8; status field reads Verbatim)
-- Section 11 — World Profile Completion Status (checklist run; document status PENDING independent review)
+- Section 11 — World Profile Completion Status (checklist run; document status CLEARED REVIEW, self-disposed APPROVED TO PROCEED)
 
 This document synthesizes Doc_01 through Doc_08 for this world; it does not re-derive or re-argue any finding those documents already made, and no claim here lacks a named source in a prior document.
+
+---
+
+## Document Log
+
+- **Drafted, 2026-09-18** by a delegated build-thread agent, per `World_Profile_Template.md` v1.1, synthesizing Doc_01–Doc_08 (all Approved to Proceed). 11,991 words at drafting.
+- **Independent adversarial review, 2026-09-18** (`witt_WorldProfile_Review_Round1.md`): **CLEARED REVIEW** — 0 substantial findings, 1 moderate self-disclosed finding (Section 6 hymn/German-singing always-present call), 1 cosmetic finding (Section 2 "Must and free" gravity physically misplaced under the Supporting heading). Six spot-checked claims independently traced to source and confirmed accurate; Section 10's Integrative Observation independently re-verified word-for-word against Doc_07 §8.
+- **Revision 1, 2026-09-18.** Both flagged items fixed directly, no further review round required per CLAUDE.md's cosmetic/self-disclosed-finding rule: (1) the hymn/German-singing always-present designation reversed NO→YES, with the reasoning stated in place at Section 6; (2) the "Must and free" gravity entry physically moved from under Supporting Gravities to under Tensional Gravities, where its own Gravity-type field already said it belonged.
+- **Disposition: APPROVED TO PROCEED, 2026-09-18.** Self-disposed per CO-022. Escalation categories checked: not a Representative identity/title decision (none named or changed here); not a portfolio/cross-world decision (this document is entirely this world's own ecology); not a governance/methodology change; no unresolved tension between two reviews or two cleared master documents (this is the document's first and only review round, and it cleared). Section 9 Living Tradition Status Confirmation remains explicitly PENDING — a project-lead decision under Article 29, not self-assigned here. Not Frozen — Frozen is never self-assigned.
