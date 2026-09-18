@@ -223,6 +223,14 @@ p{margin:0 0 1rem}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
 .chairs{list-style:none;margin:.4rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout}
 .chair{--ring:var(--tint-dark);flex:0 0 auto;width:296px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:.8rem}
+/* Narrower than the container on small screens so the next card peeks in
+   at the edge (Mark, 2026-09-19: "add a peek of the next card") -- at a
+   296px fixed width the card was as wide as or wider than its own mobile
+   scroll container, so nothing of the next card ever showed and there
+   was no visual hint the row scrolls at all. */
+@media (max-width:48rem){
+  .chair{width:calc(100% - 2.5rem)}
+}
 .chair .portrait{width:96px;height:96px;border-radius:50%;overflow:hidden;border:2px solid var(--ring);background:var(--ground);flex:0 0 auto}
 .chair .portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
 /* .chair-body is its own flex column (flex:1, filling whatever extra
