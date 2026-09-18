@@ -686,6 +686,7 @@ def main() -> int:
             {"type": "associated-with", "target": "rzg.term.the-lords-supper-spiritual-presence"},
             {"type": "associated-with", "target": "rzg.term.mutual-consent"},
             {"type": "associated-with", "target": "rzg.term.heads-of-agreement"},
+            {"type": "associated-with", "target": "rzg.contested.sign-and-the-thing-signified"},
         ],
         "consistory": [
             {"type": "associated-with", "target": "rzg.term.sola-scriptura"},
@@ -699,6 +700,7 @@ def main() -> int:
         "memorial-commemoration": [
             {"type": "associated-with", "target": "rzg.term.the-lords-supper-spiritual-presence"},
             {"type": "tension-with", "target": "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus"},
+            {"type": "associated-with", "target": "rzg.contested.zwinglis-remembrance-vs-negotiated-consensus"},
         ],
         "mutual-consent": [{"type": "associated-with", "target": "rzg.term.sign-and-the-thing-signified"},
                            {"type": "illustrated-by", "target": "rzg.story.calvins-journey-to-zurich"}],

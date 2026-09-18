@@ -106,6 +106,7 @@ GRAVITIES: list[dict] = [
         ],
         relations=[
             {"type": "tension-with", "target": "rzg.term.the-lords-supper-spiritual-presence"},
+            {"type": "associated-with", "target": "rzg.contested.sign-and-the-thing-signified"},
         ],
     ),
     dict(
@@ -130,6 +131,7 @@ GRAVITIES: list[dict] = [
         ],
         relations=[
             {"type": "tension-with", "target": "rzg.term.sola-scriptura"},
+            {"type": "associated-with", "target": "rzg.contested.anabaptist-schism-legitimacy"},
         ],
     ),
     dict(
@@ -204,6 +206,7 @@ GRAVITIES: list[dict] = [
         relations=[
             {"type": "tension-with", "target": "rzg.term.the-lords-supper-spiritual-presence"},
             {"type": "tension-with", "target": "rzg.term.memorial-commemoration"},
+            {"type": "associated-with", "target": "rzg.contested.zwinglis-remembrance-vs-negotiated-consensus"},
         ],
     ),
 ]
@@ -518,6 +521,7 @@ def main() -> int:
     for gravity_slug, force_slugs in GRAVITY_FORCE_LINKS.items():
         for fs in force_slugs:
             force_to_gravities.setdefault(fs, []).append(f"rzg.gravity.{gravity_slug}")
+    force_to_gravities.setdefault("anabaptist-schism", []).append("rzg.contested.anabaptist-schism-legitimacy")
     written += [emit_force(f, gravity_targets=force_to_gravities.get(f["slug"], [])) for f in FORCES]
 
     assert len(GRAVITIES) == 6, "expected 3 Primary + 1 Supporting + 2 Tensional = 6"
