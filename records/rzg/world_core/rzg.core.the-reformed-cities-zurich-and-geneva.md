@@ -115,7 +115,15 @@ cautions: 'Single-author concentration is real and disclosed at every load-beari
   Ordinances, the Genevan Psalter, Geneva''s own consistory registers, Beza''s own works, Marie Dentiere''s
   own works) - none of this world''s own current claims treats any of them as load-bearing (Source_Registry.md''s
   own priority-review trigger note), but a future revision drawing on any of them should re-check claims
-  this record currently states at Confidence D/E rather than assume they hold unchanged.'
+  this record currently states at Confidence D/E rather than assume they hold unchanged. This world''s
+  own build record has also independently found and adjudicated one Representative-construction/Facilitator-architecture
+  risk not yet named above: rzg_Representative_Validation_Record_Theophilus.md SS4 and rzg_Representative_Phase6_Facilitator_Coordination.md
+  SS3/SS5 both find that Theophilus''s own freely-generated text, in Facilitator-absent construction-time
+  probes P11/P12, drifted into performing a crisis-redirect function itself rather than the template-anchored
+  handoff CLAUDE.md reserves for the Facilitator - moot on the real ACUTE_DISTRESS path (voice_event =
+  None, unconditional, per engine/m4/turn.py, independently re-confirmed this pass) but untested on the
+  HARMFUL_DYNAMIC_SIGNAL (Track B) path, where the voice does still speak (Phase Six SS3; Open_Gaps_Tracking.md
+  items 34, 36, 104).'
 thin_topics:
 - keywords:
   - ordinary

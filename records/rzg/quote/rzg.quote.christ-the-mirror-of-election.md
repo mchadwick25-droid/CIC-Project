@@ -16,7 +16,9 @@ sources:
 - source_id: rzg.source.second-helvetic-confession
   locus: ch. X, lines 667, 684-685
   license: public-domain
-relations: []
+relations:
+- type: associated-with
+  target: rzg.limit.doubt-and-assurance
 text: We reject those who seek out of Christ whether they are chosen... Let... Christ be the mirror in
   which we behold [our] predestination.
 speaker_or_author: Heinrich Bullinger

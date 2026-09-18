@@ -30,6 +30,12 @@ relations:
   target: rzg.term.excommunication
 - type: associated-with
   target: rzg.term.elder
+- type: associated-with
+  target: rzg.limit.consistory-case-narrative
+- type: tension-with
+  target: rzg.gravity.consistorial-church-discipline
+- type: tension-with
+  target: rzg.gravity.council-led-authority-vs-consistorial-independence
 plain_meaning: At Geneva, the Consistory is our body of pastors and lay elders. It holds our whole population's
   daily conduct to account. Zurich has no equivalent. Its council governs church and city directly.
 world_word: Consistory

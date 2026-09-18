@@ -24,6 +24,8 @@ relations:
   target: rzg.force.genevas-refugee-inflow-bernese-dependence
 - type: associated-with
   target: rzg.force.perrinist-crisis
+- type: associated-with
+  target: rzg.limit.consistory-case-narrative
 name: Consistorial Church Discipline
 description: 'At Geneva, a body of pastors and lay elders, not the civil magistrate, holds our whole population''s
   ordinary conduct answerable to what we profess. Its own founding act - the 1541 Ecclesiastical Ordinances

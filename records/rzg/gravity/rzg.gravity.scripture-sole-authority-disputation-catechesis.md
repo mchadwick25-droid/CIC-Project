@@ -17,11 +17,15 @@ relations:
 - type: tension-with
   target: rzg.term.sola-scriptura
 - type: associated-with
+  target: rzg.contested.anabaptist-schism-legitimacy
+- type: associated-with
   target: rzg.force.zwinglis-1519-preaching-sausage-affair
 - type: associated-with
   target: rzg.force.genevas-1526-bern-alliance-1536-break-calvins-arrival
 - type: associated-with
   target: rzg.force.anabaptist-schism
+- type: associated-with
+  target: rzg.witness.one-conviction-two-enactments
 - type: associated-with
   target: rzg.force.second-helvetic-confession-heidelberg-catechism
 name: Scripture as Sole and Sufficient Authority, Enacted Through Disputation and Catechesis

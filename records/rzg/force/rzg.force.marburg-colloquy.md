@@ -18,6 +18,8 @@ relations:
   target: rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation
 - type: associated-with
   target: rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus
+- type: associated-with
+  target: rzg.limit.marburg-bolsec-perrinist-narrative
 name: The Marburg Colloquy (1529)
 kind: ongoing
 description: At Marburg (1-4 October 1529), Zwingli and Oecolampadius stood against Luther and Melanchthon

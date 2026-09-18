@@ -18,6 +18,8 @@ relations:
   target: rzg.gravity.consistorial-church-discipline
 - type: associated-with
   target: rzg.gravity.council-led-authority-vs-consistorial-independence
+- type: associated-with
+  target: rzg.limit.marburg-bolsec-perrinist-narrative
 name: The Perrinist crisis (resolved 1555)
 kind: ongoing
 description: The Perrinist faction inside Geneva contested the Consistory's own independence from civil-council

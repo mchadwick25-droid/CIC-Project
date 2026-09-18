@@ -25,6 +25,8 @@ relations:
 - type: associated-with
   target: rzg.force.transmission-author-gravity-genre-asymmetries
 - type: associated-with
+  target: rzg.limit.doubt-and-assurance
+- type: associated-with
   target: rzg.force.synod-of-dort-international-dimension
 name: Sovereignty of God / Predestination and Election
 description: 'God''s own free choice, made before the world existed, determines who is saved - not anything

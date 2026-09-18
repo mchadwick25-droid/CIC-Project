@@ -16,6 +16,10 @@ sources: []
 relations:
 - type: associated-with
   target: rzg.gravity.scripture-sole-authority-disputation-catechesis
+- type: associated-with
+  target: rzg.contested.anabaptist-schism-legitimacy
+- type: associated-with
+  target: rzg.witness.triple-refusal
 name: The Anabaptist schism (1525)
 kind: ongoing
 description: The first Swiss Brethren baptisms (21 January 1525), at Felix Manz's own house in Zurich

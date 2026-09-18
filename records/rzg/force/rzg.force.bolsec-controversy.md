@@ -16,6 +16,8 @@ sources: []
 relations:
 - type: associated-with
   target: rzg.gravity.sovereignty-of-god-predestination-election
+- type: associated-with
+  target: rzg.limit.marburg-bolsec-perrinist-narrative
 name: The Bolsec controversy (1551)
 kind: ongoing
 description: Jerome Bolsec publicly challenged Calvin's own predestination doctrine at Geneva in 1551,

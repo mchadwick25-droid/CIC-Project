@@ -17,6 +17,8 @@ relations:
 - type: tension-with
   target: rzg.term.the-lords-supper-spiritual-presence
 - type: associated-with
+  target: rzg.contested.sign-and-the-thing-signified
+- type: associated-with
   target: rzg.force.late-medieval-sacramental-clerical-order
 - type: associated-with
   target: rzg.force.zwinglis-1519-preaching-sausage-affair
@@ -24,6 +26,10 @@ relations:
   target: rzg.force.marburg-colloquy
 - type: associated-with
   target: rzg.force.consensus-tigurinus-force
+- type: associated-with
+  target: rzg.witness.triple-refusal
+- type: associated-with
+  target: rzg.limit.hagiography-refused
 name: Spiritual Presence and the Rejection of Corporeal/Sacrificial Mediation
 description: We refuse Rome's claim that the Mass repeats Christ's own sacrifice, and we refuse Wittenberg's
   claim that Christ's body sits locally in the bread. What we affirm - that Christ is truly given, by

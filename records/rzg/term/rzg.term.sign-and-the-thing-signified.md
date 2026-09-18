@@ -30,6 +30,10 @@ relations:
   target: rzg.term.mutual-consent
 - type: associated-with
   target: rzg.term.heads-of-agreement
+- type: associated-with
+  target: rzg.contested.sign-and-the-thing-signified
+- type: associated-with
+  target: rzg.witness.one-supper-two-poles
 plain_meaning: In 1549, Zurich and Geneva agreed on exact words for the Lord's Supper. We distinguish
   the bread from the reality it points to. We never disjoin the two. This settled, in words, what neither
   city's own earlier statement had settled alone.

@@ -19,9 +19,13 @@ relations:
 - type: tension-with
   target: rzg.term.memorial-commemoration
 - type: associated-with
+  target: rzg.contested.zwinglis-remembrance-vs-negotiated-consensus
+- type: associated-with
   target: rzg.force.zwinglis-1519-preaching-sausage-affair
 - type: associated-with
   target: rzg.force.marburg-colloquy
+- type: associated-with
+  target: rzg.witness.one-supper-two-poles
 - type: associated-with
   target: rzg.force.consensus-tigurinus-force
 name: '[TENSIONAL] Zwingli''s Own ''Remembrance'' Reading of the Supper vs. the Negotiated Spiritual-Presence
