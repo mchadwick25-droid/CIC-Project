@@ -540,7 +540,7 @@ Basel, 16, Sommerweg,
 Nov. II, igii. 
 
 
-<cn^ ^^ 
+ cn^ ^^ 
 
 
 / 
@@ -2192,7 +2192,7 @@ TRe Cardinal of Santa Potentiana [Matthias Schinner^]
 Valais, Switzerland, in 1456, educated at Zurich and Como and became bishop 
 of Sian (Sitten) in 1500. In 1509 Pope Julius II. appointed him legate in 
 Switzerland, and he induced the Swiss to send troops to the Pope. But he 
-subsequently lost their favour and was compelled to leave the countr>- For 
+subsequently lost their favour and was compelled to leave the countr - For 
 his services the Pope made him a cardinal in 151 1. He belonged to the fight- 
 
 
@@ -2284,7 +2284,7 @@ their fatted oxen and furnished the whole army with fresh
 3 The Lanzknechts had been ordered by the Emperor Maximilian to 
 return home. 
 
-< On the Ticino, which joins the Po 33^ miles south-south-east of Pavia. 
+  On the Ticino, which joins the Po 33^ miles south-south-east of Pavia. 
 
 
 42 The Works of Huldreich Zwingli 
@@ -5060,7 +5060,7 @@ common people. Also if you should say that silence is
 ians has kept silence in many things from fear, and that 
 no one has told them of their liberty coming from the 
 
-N> Scriptures. For example, whom did it ever please that 
+N  Scriptures. For example, whom did it ever please that 
 the Pope conferred all benefices on his servants? Indeed, 
 every pious man everywhere has said, "I do not believe 
 it is right," But the people kept still about it with much 
@@ -5564,7 +5564,7 @@ which were being taught so wrongheadedly were being
 taught without grounds. And not having satisfied himself 
 in what he had said before about ceremonials, he fell (12) 
 to speaking of them again, saying that they were the only 
-means by which the humbler Christians were brought to> 
+means by which the humbler Christians were brought to  
 the recognition of salvation, and that it belonged to the 
 
 'Acts v., 34-42. 
@@ -7297,7 +7297,7 @@ relying upon your gentleness and to implore that you grant
 us this thing, not, as we think, without due consideration. 
 For when on one side we were being crushed by human 
 ordinances, struggling in vain against the weakness of the 
-flesh (for the law stimulates to sin rather than restrains it)> 
+flesh (for the law stimulates to sin rather than restrains it)  
 and on the other. Scripture was smiling upon us with ap- 
 proval, we thought it no wrong to bring forward the passages 
 on which we rely, that it might be evident to you whether 
