@@ -609,15 +609,27 @@ toward... not a script this file runs" means further mechanical
 fragmentation to close a 2–6 point FRE gap isn't worth the risk of
 flattening voice. Not pursued further.
 
-**Not fixed — flagged for Mark, not touched:** `gallic`'s entry in
-`atlas-v3.html` is not just a stale tile — the whole `entry` object is
-`null` there, and the movement's own `status`/`chip`/`glyph` fields
-still read `"Possible Future World (on record)"` / `"def"` / `"pfw"`,
-contradicting its `Built & Live` status everywhere else. Fixing this
-requires adding a full `entry` block (representative, color, icon) and
-flipping status/chip fields — a bigger, more visible change than a
-text sync, and outside the literal scope of "sync the tile field."
-Left untouched pending Mark's call.
+**Follow-up, same day:** Mark: "fix gallic's atlas-v3.html status too."
+Fixed: `status` → `"Built & Live"`, `chip` → `"live"`, `glyph` → `null`,
+`statusWord` → `"Open for conversation"`, `living` → `true`, and a full
+`entry` object populated (representativeId/Name/Title, worldName,
+subtitle, color, tile, icon — all matching `world-census.json`'s own
+gallic entry exactly), matching every other Built & Live world's shape
+in this file. Also dropped the now-dead top-level `teaser` field (only
+read as a fallback when `entry` is null; every other built world has
+none). Verified: change scoped to gallic's own ~10KB object span in
+the raw file (located via JSON object-boundary parsing, not a global
+text match, since `"living": false` and `"entry": null` are common
+across the file's 21 other not-yet-built worlds); `DATA` blob
+re-validated as JSON after edit; `test_census_sync.py` still passes.
+
+**Still open, not part of this fix:** `atlas-v3.html`'s `longDescription`
+for gallic is still the old, unrevised text — it names the banned
+editorial place-names "Ligugé" and "Marmoutier" (per
+`gallic.core.gallic.md`'s own cautions) and still says "declined to
+follow Augustine's late teaching on predestination," the opponent's-word
+framing the tile was already corrected to drop. Out of scope for a
+status fix; flagged for a separate pass.
 
 ### Next action
 
