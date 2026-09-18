@@ -217,7 +217,15 @@ p{margin:0 0 1rem}
 
 .who{padding:.3rem 0 0}
 .who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .8rem;max-width:var(--measure);color:var(--action)}
-.who-gallery{overflow-y:auto;overscroll-behavior-y:contain;padding-right:.3rem;margin:0 -.3rem 0 0}
+/* Fixed-height scroll box, not a card that just keeps growing as more
+   worlds and eras are added (Mark, 2026-09-19: "we will have scroll up
+   and down with the next world and a third era... let's build the
+   fixed-height scrolling box"). min(vh,px) so it never eats the whole
+   viewport on a short screen -- same idiom as .atlas-showcase-media's
+   own height cap. overscroll-behavior-y:contain (already set) stops a
+   scroll that hits the top/bottom of this box from chaining into a
+   scroll of the whole page behind it. */
+.who-gallery{max-height:min(65vh,640px);overflow-y:auto;overscroll-behavior-y:contain;padding-right:.3rem;margin:0 -.3rem 0 0}
 .era-group:not(:first-child){margin-top:1.8rem}
 .era-head{display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline;font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.3rem;margin:0}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
