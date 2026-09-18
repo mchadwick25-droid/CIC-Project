@@ -170,7 +170,8 @@ p{margin:0 0 1rem}
 /* Trimmed 30% shorter (Mark, 2026-09-19: "so the title of the Church
    Family Tree lands on the first screen when the landing page uploads")
    -- was min(60vh,480px). */
-.atlas-showcase-media{position:relative;width:calc(100% - 2.5rem);max-width:calc(var(--wide) - 2.5rem);height:min(42vh,336px);margin:0 auto;overflow:hidden;background:var(--ground);border-radius:8px}
+.atlas-showcase-media{position:relative;display:block;width:calc(100% - 2.5rem);max-width:calc(var(--wide) - 2.5rem);height:min(42vh,336px);margin:0 auto;overflow:hidden;background:var(--ground);border-radius:8px;border:1px solid transparent}
+.atlas-showcase-media:hover,.atlas-showcase-media:focus-visible{border-color:var(--action)}
 .atlas-showcase-media video,.atlas-showcase-media img{width:100%;height:100%;object-fit:cover;display:block}
 .atlas-showcase-media img.showcase-fallback{display:none}
 @media (prefers-reduced-motion:reduce){
@@ -315,20 +316,22 @@ p{margin:0 0 1rem}
   </section>
 
   <section class="atlas-showcase" aria-labelledby="atlas-showcase-title">
-    <div class="atlas-showcase-media">
+    <a class="atlas-showcase-media" href="atlas-v3.html" aria-label="Open Church Family Tree">
       <!-- Slow pan from era 1 through era 10 on the live Church Family Tree,
            recorded chrome-free (topbar/feature-bar/scope-note/legend/reset
            button hidden -- just the map). Ambient, not meant to be read
            frame-by-frame; the section's own text below carries the
            explanation. Plays once per page load (Mark, 2026-09-18: no loop
            needed) and resets to its era-1 opening frame afterward rather
-           than resting on era 10 -- see the script below. -->
+           than resting on era 10 -- see the script below. The whole thing
+           is now a link to the Family Tree itself (Mark, 2026-09-19: "set
+           the launch click to the visual"), not just decorative. -->
       <video id="atlas-showcase-video" autoplay muted playsinline poster="assets/atlas-preview.jpg" aria-hidden="true">
         <source src="assets/atlas-scroll-preview.webm" type="video/webm">
         <source src="assets/atlas-scroll-preview.mp4" type="video/mp4">
       </video>
       <img class="showcase-fallback" src="assets/atlas-preview.jpg" alt="Colored rivers of Christian movements winding and branching across the centuries, grouped by era" loading="lazy" decoding="async">
-    </div>
+    </a>
     <div class="atlas-showcase-copy">
       <h2 id="atlas-showcase-title">Church Family Tree</h2>
       <p class="tagline">An interactive map of Christian tradition, from the first house-churches to today</p>
