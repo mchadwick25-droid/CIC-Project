@@ -195,11 +195,11 @@ STORIES: list[dict] = [
 # --------------------------------------------------------------- figures ---
 FIGURES: list[dict] = [
     dict(slug="zwingli", names=[("Huldrych Zwingli", "in-world"), ("Ulrich Zwingli", "scholarly")],
-         dates={"death": 1531},
+         dates={"died": 1531},
          bridge_line="Our own founder at Zurich, who first preached straight through Matthew rather than follow the fixed calendar of readings.",
          narratable=True),
     dict(slug="bullinger", names=[("Heinrich Bullinger", "in-world")],
-         dates={"pastorate_start": 1531, "pastorate_end": 1575},
+         dates={"floruit": "pastorate at Zurich, 1531-1575"},
          bridge_line="Zwingli's own successor at Zurich, whose four-decade pastorate gave our confession its own mature, lasting form.",
          narratable=True),
     dict(slug="calvin", names=[("John Calvin", "in-world"), ("Jean Calvin", "scholarly")], dates={},

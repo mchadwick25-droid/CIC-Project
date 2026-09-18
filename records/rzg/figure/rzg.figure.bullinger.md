@@ -22,10 +22,9 @@ names:
 - name: Heinrich Bullinger
   tag: in-world
 dates:
-  pastorate_start: 1531
-  pastorate_end: 1575
+  floruit: pastorate at Zurich, 1531-1575
 narratable: true
 bridge_line: Zwingli's own successor at Zurich, whose four-decade pastorate gave our confession its own
   mature, lasting form.
 ---
-Built from this world's own already-reviewed construction documents (Doc_01, Doc_09's own story cast, Doc_06's own Key Sources). `dates` states only what this compilation pass directly verified this session ({'pastorate_start': 1531, 'pastorate_end': 1575}) - never filled from general knowledge the vendored record itself does not supply here.
+Built from this world's own already-reviewed construction documents (Doc_01, Doc_09's own story cast, Doc_06's own Key Sources). `dates` states only what this compilation pass directly verified this session (floruit: pastorate at Zurich, 1531-1575) - never filled from general knowledge the vendored record itself does not supply here. Key corrected from `pastorate_start`/`pastorate_end` to the fleet's own single `floruit` convention (engine.m1.cross_world's own fleet-vocabulary check, figure-dates-keys), matching alx.figure.dionysius's own identical "office span, not birth/death" usage; found and fixed during this world's own go-live test battery.

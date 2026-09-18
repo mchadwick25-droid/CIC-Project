@@ -24,9 +24,9 @@ names:
 - name: Ulrich Zwingli
   tag: scholarly
 dates:
-  death: 1531
+  died: 1531
 narratable: true
 bridge_line: Our own founder at Zurich, who first preached straight through Matthew rather than follow
   the fixed calendar of readings.
 ---
-Built from this world's own already-reviewed construction documents (Doc_01, Doc_09's own story cast, Doc_06's own Key Sources). `dates` states only what this compilation pass directly verified this session ({'death': 1531}) - never filled from general knowledge the vendored record itself does not supply here.
+Built from this world's own already-reviewed construction documents (Doc_01, Doc_09's own story cast, Doc_06's own Key Sources). `dates` states only what this compilation pass directly verified this session ({'died': 1531}) - never filled from general knowledge the vendored record itself does not supply here. Key corrected from `death` to `died` (engine.m1.cross_world's own fleet-vocabulary check, figure-dates-keys) to match the fleet's own established convention (born/died/floruit), found and fixed during this world's own go-live test battery.

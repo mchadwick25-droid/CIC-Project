@@ -5,9 +5,9 @@
   "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "generated": "2026-08-02",
   "totalEntries": 292,
-  "liveCount": 9,
+  "liveCount": 10,
   "statusCounts": {
-   "Built & Live": 9,
+   "Built & Live": 10,
    "Possible Future World (on record)": 17,
    "Selected - Not Yet Built": 1,
    "Within Another World (A5)": 6,
@@ -15,7 +15,7 @@
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
    "Floor Question (register)": 28,
-   "Pre-Survey Candidate": 215,
+   "Pre-Survey Candidate": 214,
    "Outside Article 4 Scope": 1,
    "Label - Assessed Per Body (A3)": 1
   },
