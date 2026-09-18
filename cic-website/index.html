@@ -119,18 +119,21 @@ p{margin:0 0 1rem}
    in height so it reads as a narrow window looking in on the map, not a
    full-bleed banner -- was width:100%;aspect-ratio:16/7. */
 .atlas-showcase{margin:2.5rem 0 0}
-/* Video and text share one centered column (var(--col), wider than the
-   old var(--measure)) instead of the text sitting flush left inside the
-   much wider page column while the video floats centered above it
-   (Mark, 2026-09-18 -- the mismatch read as off-center). */
-.atlas-showcase-media{position:relative;width:min(var(--col),92vw);height:min(60vh,480px);margin:0 auto;overflow:hidden;background:var(--ground);border-radius:8px}
+/* Video and text share the same column the chairs gallery (.who, via
+   .home-flow) and the Unfolding Story (.flow-story) already use --
+   var(--wide) less .home-flow's own 1.25rem side padding -- rather than
+   a narrower width of their own (Mark, 2026-09-18: match the chairs'
+   width exactly, not just to each other). width/max-width (not padding)
+   do the matching here so the video's own box isn't inset from its
+   rounded border by padding it doesn't need. */
+.atlas-showcase-media{position:relative;width:calc(100% - 2.5rem);max-width:calc(var(--wide) - 2.5rem);height:min(60vh,480px);margin:0 auto;overflow:hidden;background:var(--ground);border-radius:8px}
 .atlas-showcase-media video,.atlas-showcase-media img{width:100%;height:100%;object-fit:cover;display:block}
 .atlas-showcase-media img.showcase-fallback{display:none}
 @media (prefers-reduced-motion:reduce){
   .atlas-showcase-media video{display:none}
   .atlas-showcase-media img.showcase-fallback{display:block}
 }
-.atlas-showcase-copy{max-width:var(--col);margin:0 auto;padding:1.6rem 1.25rem 0}
+.atlas-showcase-copy{max-width:var(--wide);margin:0 auto;padding:1.6rem 1.25rem 0}
 .atlas-showcase-copy h2{font-size:clamp(1.6rem,3vw,2.1rem);margin:0 0 .4rem}
 .atlas-showcase-copy .tagline{font-family:var(--sans);font-style:italic;color:var(--muted);font-size:1.05rem;margin:0 0 1rem}
 .atlas-showcase-copy p{font-family:var(--sans);color:var(--muted)}
