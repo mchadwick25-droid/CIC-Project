@@ -421,3 +421,57 @@ Same five drafts as before still awaiting Mark's review
 (cappadocian, ijc, gallic, hal, plus the trim question). syr's draft
 now includes the overstatement fix. Apply the same absolute-language
 scan to any future tile work as a standing check, not a one-time pass.
+
+## 2026-09-18 (later still) — Trim question reversed; four remaining tiles shipped
+
+Asked to trim cappadocian/ijc/gallic/hal for length; before any file
+was touched, **Mark reversed it**: "stop, no don't trim, if the
+material supports a longer text we are not capping hard, but want
+pressure to be accurate and distinct." No hard length cap — the
+`pahc` rivals-sentence cut was a scope call (that fact belongs in the
+deeper documents), never a word-count target. Checked the four drafts
+against "accurate and distinct" instead of length: no genuine
+redundancy found (no sentence repeating what another already said),
+so all four shipped exactly as already shown to Mark, unchanged:
+
+- **cappadocian**: names restored (Basil, Macrina, Gregory of Nyssa,
+  Gregory of Nazianzus), pastoral dimension added (famine, hospital),
+  Macrina given her own action, Eupsychius/Gregory of Nyssa
+  source-honesty fixes applied.
+- **ijc**: Ambrose/Theodosius/Damasus restored by name, Chalcedon's
+  actual doctrinal content (Leo's Tome) added alongside the
+  institutional-power material.
+- **gallic**: Martin/Honoratus/Cassian/Vincent restored by name, the
+  Augustine grace-and-effort controversy added, corrected to keep
+  Tours and Lérins/Marseilles properly separate.
+- **hal**: all four women (Marcella, Paula, Blaesilla, Eustochium)
+  named in their own roles, spans the full 382–420 window through the
+  416 attack.
+
+Applied to all three surfaces per world (`world-census.json`,
+`index.html`, the tradition page); verified diff scope exactly matches
+(4 fields × 3 surfaces, nothing else touched); `world-census.json`
+still valid JSON, 292 movements; `engine/m6/tests/test_census_sync.py`
+(11 tests) still passes.
+
+**All 8 built worlds' tiles are now rebuilt from their own primary
+records.** Full list of every file this session has touched, given to
+Mark on request: `engine/m4/facilitator_turns.py`,
+`engine/api/wiring.py`, `engine/api/table_wiring.py`,
+`engine/m4/tests/test_facilitator_turns.py`,
+`cic-website/data/world-census.json`, `cic-website/atlas-v3.html`,
+`cic-website/index.html`, five files under `cic-website/traditions/`,
+`Ministry/Technology/CiC_FrontEnd_Decision_Log.md`,
+`Ministry/Technology/CiC_Prose_Craft_Analysis.md`, and this workstream's
+own README + Decision-Log.
+
+### Next action
+
+Mark: "i want to finish the documents and then do a full opus review
+of everything in comparison and each other and the criteria we have
+established." Documents finished (above). Opus review next — against
+each other (consistency of voice/approach across all 8) and against
+the established criteria (§10 one claim per sentence; full ecology,
+not a small core standing for the whole; source-honesty against each
+figure/story record's own confidence tier; no absolute/dramatic
+overstatement; the project's accessible/rigorous bar).
