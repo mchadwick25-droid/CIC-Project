@@ -684,3 +684,52 @@ revisions after the first draft, no escalation category applying at any round.
    quotation checker rather than the build thread's own one-off script — the stronger resting
    place under this project's source-fidelity discipline, worth carrying forward as the default
    pattern for later documents in this build.
+
+## OG-12. Doc_08 (Forces Document): four review rounds, an OUTSTANDING checklist item tested
+against escalation and cleared, and the open items it seeds
+
+**Build history.** Doc_08 compiles the complete forces analysis for this world: a six-cell
+matrix (Initiating/Ongoing/Ending-Transforming × External/Internal), twenty named forces at
+three layers each, and a Forces-and-Gravities Synthesis connecting all thirteen of Doc_04's
+gravities to at least one force. It re-derived the cell placement from Doc_04 §3 directly rather
+than transcribing Doc_07 §6's own provisional version (correctly flagged there as "input to
+test, not a compilation"), finding and correcting three small errors in that provisional
+version. Four independent review rounds followed, the matrix and the Force Index each
+independently re-derived from scratch at least twice and confirmed exact every time. Rounds 1–3
+found a shrinking sequence of substantial findings (8, then 3, then 1), every one from Round 2
+onward being residue of the prior round's own repair narration — a count left unswept, a
+disclosure marking claimed but not applied — never a defect in the matrix or the gravity
+synthesis. Round 3 was convened specifically to test whether force 3A-2's Layer 2/3 (the
+Peasants' War and the 1555 Peace of Augsburg, both genuinely barred or unvendored) being honestly
+marked OUTSTANDING on the Section 9 completion checklist meets CO-022's fourth escalation
+category. It does not: the OUTSTANDING item is compliance with two upstream cleared documents'
+own explicit instructions to mark those inputs absent, not a disagreement between reviews, a
+contradiction between cleared documents, or a finding cutting against an earlier decision — and
+this build's own prior dispositions (Doc_02, Doc_03, Doc_04) already carry open items or
+undetermined threads at "Approved to Proceed" as their ordinary shape. Round 4 (spot-check)
+returned Cleared Review.
+
+**Doc_08 is self-disposed APPROVED TO PROCEED**, with §9 item 2 honestly OUTSTANDING — a
+documented evidentiary absence that blocks the later Validation-Layer/Deployment gate, not this
+disposition.
+
+**Open items seeded from Doc_08 §11:**
+1. Three L4 template discrepancies (two header fields; the Cell 2B builder note's truncated
+   governing question) — for the coach thread.
+2. A codeless force (2B-3, "the force G13 documents") — whether Doc_04 §1 should add a
+   fourteenth code or record the home Doc_04's own G13 notation already gives it — for Doc_04's
+   owner, not a reclassification.
+3. The absent inputs, each with what it would rebuild: Philadelphia vol. IV [R62] (2A-4, 3A-2,
+   G6's Persistence), the Marburg Articles [R56] (2A-6, G10's tag), the visitation/*Instructions*
+   [R51–R52] (2B-3, the G4 divergence), the SC preface [R64] (2B-3, G13's institutional form),
+   anything post-1546 (3A-2, 1555) — for the source-research thread.
+4. The OUTSTANDING/Approved-to-Proceed gate distinction this document had to work out for
+   itself is likely a first-of-its-kind question this build's later Doc_08s will also face — for
+   the coach thread.
+5. A derivation-method note for whichever later document next carries a large relational index
+   (like §3.7's twenty-row Force Index): deriving it programmatically from its own inverse, not
+   by hand, would have prevented the residue this document's own index produced across three
+   rounds — for Doc_09's owner.
+6. The inline revision-history annotation volume — a further data point for the same open,
+   undecided fleet-level question OG-2 resolved for Doc_03 and OG-8 through OG-11 carry for
+   Doc_04–07. Not decided by this entry.
