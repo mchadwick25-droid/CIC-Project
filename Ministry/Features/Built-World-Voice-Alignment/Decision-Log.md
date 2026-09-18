@@ -671,13 +671,23 @@ use `\uXXXX` escapes; the file mixes conventions field by field, so
 this has to be checked per-field, not assumed); `atlas-v3.html`'s
 `DATA` blob re-validated as JSON; `test_census_sync.py` still passes.
 
-**Flagged, not touched (outside "longDescription" scope):**
-`world-census.json`'s own `voices` array for gallic still has "Martin
-of Tours - the conscript who refused to fight, founded the West's
-first monastery..." — the same two defects (the fight-refusal
-misreading, the unsupported "first" claim) in a different field. Its
-`teaser` field also still says "a soldier who walked out of the army."
-Neither was asked for; noted here so they don't go quiet.
+**Follow-up, same day:** Mark: "fix those too." Fixed both, in both
+`world-census.json` and `atlas-v3.html` (identical text in each; the
+tradition page didn't carry either phrase). `voices[0]`: "the conscript
+who refused to fight, founded the West's first monastery" → "the
+soldier who told Caesar he was now the soldier of Christ, founded a
+monastery near Poitiers" — same change-of-service correction and
+dropped-precedence-claim as the longDescription fix, kept "acclaimed
+bishop by a crowd while still living as a monk" (independently
+supported by `gallic.story.election-at-tours.md`). `world-census.json`'s
+`teaser` field (atlas-v3.html's own copy was already removed in the
+earlier status fix): "a soldier who walked out of the army... an
+island monastery that supplied the Western church with its bishops" →
+"a soldier who left the army to serve Christ instead... an island
+monastery whose own monks went on to become bishops of Arles and
+Riez" — same fix as the longDescription's F3-equivalent overreach,
+scaled down to the two sees actually attested. `test_census_sync.py`
+still passes.
 
 ### Next action
 
