@@ -238,12 +238,14 @@ p{margin:0 0 1rem}
 
   <section class="atlas-showcase" aria-labelledby="atlas-showcase-title">
     <div class="atlas-showcase-media">
-      <!-- Slow, continuously-looping pan from era 1 through era 10 on the
-           live Church Family Tree, recorded chrome-free (topbar/feature-bar/
-           scope-note/legend/reset button hidden -- just the map). Ambient
-           background, not meant to be read frame-by-frame; the section's own
-           text below carries the explanation. -->
-      <video autoplay muted loop playsinline poster="assets/atlas-preview.jpg" aria-hidden="true">
+      <!-- Slow pan from era 1 through era 10 on the live Church Family Tree,
+           recorded chrome-free (topbar/feature-bar/scope-note/legend/reset
+           button hidden -- just the map). Ambient, not meant to be read
+           frame-by-frame; the section's own text below carries the
+           explanation. Plays once per page load (Mark, 2026-09-18: no loop
+           needed) and resets to its era-1 opening frame afterward rather
+           than resting on era 10 -- see the script below. -->
+      <video id="atlas-showcase-video" autoplay muted playsinline poster="assets/atlas-preview.jpg" aria-hidden="true">
         <source src="assets/atlas-scroll-preview.webm" type="video/webm">
         <source src="assets/atlas-scroll-preview.mp4" type="video/mp4">
       </video>
@@ -441,6 +443,19 @@ if (gallery && eraGroups.length) {
 }
 
 var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// Plays once (no loop); resting on era 10's own frame afterward read as the
+// section stopping on "the end" rather than the church's whole span -- reset
+// back to the era-1 opening frame instead once playback finishes (Mark,
+// 2026-09-18). Reduced-motion visitors already get the static poster image
+// in place of this video (see .atlas-showcase-media's own CSS), so this
+// listener never fires for them.
+var showcaseVideo = document.getElementById('atlas-showcase-video');
+if (showcaseVideo) {
+  showcaseVideo.addEventListener('ended', function(){
+    showcaseVideo.currentTime = 0;
+  });
+}
 
 var tableCue = document.getElementById('table-cue');
 if (tableCue) {
