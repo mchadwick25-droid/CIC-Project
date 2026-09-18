@@ -211,13 +211,13 @@ Whether the "subtraction leaves Christ exposed, not diminished" framing accurate
 
 ## Section 6 — Living Tradition Documentation
 
-**Living tradition correspondence:** PENDING. Per `rzg_World_Profile.md` §9 and `rzg_Validation_Layer.md` §7, this is a project-lead act at freeze, not performed by this build thread, and this document does not treat that gate as closed.
+**Living tradition correspondence:** Limb 1 CONFIRMED, 2026-09-18 (Mark) — YES, this world's own doctrine counts as continuing into a living tradition today, confirming the four descendant lines named below and keeping the Permanent Prompt's own Version A language as already deployed (no revision required — see "How the Representative Handles This Distinction" below). Limb 2 (figures of contested standing) remains a disclosed, open sensitivity, not resolved by Limb 1 alone — see "Living Tradition Status Confirmation" and "Figures of Contested Standing" below, matching don's own precedent shape for this exact gate.
 
 **This world's own preliminary build-thread-level assessment** (restated from the World Profile and Validation Layer, not independently re-derived here): a materially stronger case than Donatism's own ratified "no surviving descendant" finding — the census's own `"legacy"` field names four descendant traditions this world's own gravities transmit into unbroken: the Scottish Kirk, the Huguenots, the Dutch Reformed, and English Puritanism (Doc_01 §7). Doc_01 and the World Profile give no further individual description of any one of the four beyond this bare list.
 
 ### Which Traditions This World Touches
 
-If the PENDING gate resolves to YES, the Reformed/Presbyterian tradition's own continuing descent through the four lines named above. **This document does not make that determination.**
+The Reformed/Presbyterian tradition's own continuing descent through the four lines named above: the Scottish Kirk, the Huguenots, the Dutch Reformed, and English Puritanism. Confirmed by the project lead, 2026-09-18.
 
 ### Documented Divergences
 
@@ -225,15 +225,15 @@ If the PENDING gate resolves to YES, the Reformed/Presbyterian tradition's own c
 
 ### How the Representative Handles This Distinction
 
-Provisionally, the Permanent Prompt's Section 8 uses Version A (living tradition applicable), naming the four descendant lines and stating plainly that Theophilus's words are "your own two cities' life as you actually lived it," not a claim about what any of those churches believe or practice today. **This choice of Version A over Version B is itself flagged as provisional**, made because the World Profile's own preliminary assessment "tends toward" YES (§9) and because the four named lines are an undisputed documentary fact (Doc_01 §7) even while the formal gate remains open — not because this build thread has resolved the PENDING status itself. If the project lead's eventual determination differs, Section 8 of the Permanent Prompt will need to be revised to Version B accordingly.
+The Permanent Prompt's Section 8 uses Version A (living tradition applicable), naming the four descendant lines and stating plainly that Theophilus's words are "your own two cities' life as you actually lived it," not a claim about what any of those churches believe or practice today. This choice is now confirmed, not provisional: the project lead's own 2026-09-18 determination is YES, matching the World Profile's own preliminary "tends toward YES" assessment (§9) and the four named lines' own status as an undisputed documentary fact (Doc_01 §7). No revision to the deployed Permanent Prompt is required.
 
 ### Living Tradition Status Confirmation
 
-**Status:** PENDING — not yet addressed by the project lead, per `rzg_World_Profile.md` §9 and `rzg_Validation_Layer.md` §7. What is outstanding: a project-lead determination on both of Article 29's own limbs (descendant correspondence; mediation through a figure or lineage of contested standing) before this world can advance to Freeze.
+**Status:** Limb 1 CONFIRMED, 2026-09-18 (Mark); Limb 2 disclosed, open, not resolved. Article 29's gate has two limbs (Blueprint V7.3 §17; restated directly below), and don's own precedent (`don_World_Profile.md` §9, "Figures of contested standing") shows the same shape applies here: Limb 1's own ratification is sufficient to unblock the Representative's Permanent Prompt (there, to proceed on Version B; here, to keep Version A as already deployed), with Limb 2 carried forward as a disclosed, open sensitivity rather than a blocker to this world's own current stage — not silently treated as resolved by Limb 1 alone.
 
 ### Figures of Contested Standing
 
-**Not independently assessed this pass** — `rzg_Validation_Layer.md` §7 names this as outstanding: "whether Article 29's own second limb... carries independent weight here, a question this world's own build has not yet assessed." No figure is characterized as contested here without that assessment having actually been done.
+**Not independently assessed to closure — genuinely live, not a bare placeholder.** Article 29's second limb asks whether this world's own content mediates through a figure or lineage whose own legacy is contested among today's living descendant traditions, independent of the descendant question Limb 1 answers — the same shape of concern don's own Cyprian/Augustine finding names for that world. Two real candidates exist here and are named rather than smoothed over: **Calvin's own legacy** (the 1553 Servetus execution and the double-predestination doctrine's own reception both remain genuinely, actively contested among present-day Reformed and Presbyterian bodies, some of which hold Calvin's own authority and legacy very differently from others); and **the Anabaptist-suppression question** (`rzg.contested.anabaptist-schism-legitimacy`, already a live historiographical contest in this world's own record — and modern Baptist/Anabaptist-descended traditions read Zwingli's own suppression of that movement very differently from Reformed/Presbyterian traditions descended from his own side). Neither is weighed against a specific present-day tradition's own competing claim anywhere in this world's own build record; this is a genuine open item for the project lead, matching don's own disclosure exactly, not resolved here.
 
 ---
 
