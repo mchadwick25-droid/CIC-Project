@@ -58,11 +58,59 @@ Arrival screen's `starters`, or the "More information" page) could draw
 on it, but that's not scoped into current work — tracked here as an open
 possibility, not a task.
 
+## 2026-09-18 — Touchpoints 1–3 audited; mechanical batch fixed
+
+Audit findings: artifact `The Drift Report`
+(https://claude.ai/artifact/WUFC7PeNmncENMKMo1U6Gs). Before trusting the
+subagent's headline finding, verified it directly and had to correct the
+severity: `atlas-v3.html` has no `fetch()` call anywhere in the file — it
+never reads `world-census.json` at runtime, so the raw Ministry
+build-process text the audit found in that JSON's `gallic` `why` field
+("Not a Step 0 verdict... Doc_01 found the southern pair... admitted
+2026-09-13") was never actually shown to a participant. The real live
+defect was smaller: gallic's *embedded* `why` in `atlas-v3.html` never
+invited the participant to talk to Renatus, unlike every other built
+world's template ("...you can have a conversation with X, right now").
+
+Mark said "go" on the mechanical batch (restorative/templated fixes,
+nothing newly invented):
+
+- **6 of 8 worlds' `longDescription`** synced in `atlas-v3.html`'s
+  embedded data from the richer, more complete `world-census.json`
+  copy — pahc (Ignatius's own words, the Pliny/deaconesses paragraph),
+  alx (the Eusebius source-critical sentence, the Nepos/Dionysius
+  paragraph), syr (named sources restored - Chronicle of Edessa,
+  Theodoret, Yazdegerd I - in place of "tradition"/"another source"),
+  desert (the Kellia commercial-center sentence), ijc (the full 386
+  Ambrose basilica standoff and the origin of antiphonal hymn-singing),
+  hal (the Jonah-translation riot and Augustine's letter to Jerome).
+  cappadocian and gallic already matched — untouched.
+- **gallic's `why`** fixed in both `world-census.json` (source hygiene —
+  cic-website/ is a named live/canonical surface, and raw build-process
+  narration in it is exactly the corruption CLAUDE.md's "keep live/
+  canonical surfaces clean" rule warns against) and `atlas-v3.html`
+  (the live fix) to the same template every other built world uses:
+  "This Christian tradition is fully built, and you can have a
+  conversation with Renatus, a bishop, right now."
+- **gallic's `tile`** — the tradition page had one extra, accurate
+  closing sentence ("The story closes around the year 450...") the
+  JSON/homepage copy lacked. Added it to `world-census.json` and
+  `index.html` so all three surfaces now match.
+- **Dead `informalName` field** — confirmed zero call sites anywhere in
+  `cic-website/` (real, unused data). Deleted it from `cappadocian` and
+  `gallic`'s records, the two whose value actually disagreed with their
+  own `card_name` (the other 6 built worlds' values were redundant but
+  correct, so left alone — not this pass's problem to fix).
+
+Verified: exact post-edit text match against the JSON source for all 7
+sync targets; `atlas-v3.html`'s embedded `DATA` object still parses as
+valid JSON (292 movements) after the surgical edits; `world-census.json`
+still valid JSON; `engine/m6/tests/test_census_sync.py` (11 tests) still
+passes.
+
 ### Next action
 
-Audit touchpoints 1–3 (homepage tile, Atlas panel, tradition page)
-across all 8 built worlds against `CiC_Prose_Craft_Analysis.md`'s craft
-rules and CLAUDE.md's accessible/rigorous bar. Surface concrete findings
-(specific defects with a proposed diff, not vague "could be tighter")
-before drafting any replacement copy, per the same divergent-then-rule
-pattern touchpoint 4 went through.
+Held back, not yet touched: the three tiles running 2–2.5x the craft
+doc's own sentence-length target (cappadocian, ijc, hal) — that's a real
+rewrite, not a sync, and needs drafts put to Mark before anything
+changes.
