@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Reformed Cities — Church in Conversation</title>
+<meta name="description" content="Theophilus is a representative voice for the Reformed Cities of Zurich and Geneva, 1519 to 1650 CE. Where the record is quiet, the questions people bring, and what he is built from.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --lapis-text:#9DB4F0;
+  --control:#A39B92;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --tint:#8787A1;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0 0 1rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.sans{font-family:var(--sans)}
+.muted{color:var(--muted)}
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.7rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.25rem 1.5rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.site-nav{font-family:var(--sans);font-size:.95rem;display:flex;flex-wrap:wrap;align-items:center;gap:0 1.1rem}
+.site-nav a{color:var(--text);text-decoration:none;padding:.7rem .1rem;border-bottom:2px solid transparent;min-height:44px;display:inline-flex;align-items:center}
+.site-nav a:hover,.site-nav a:focus-visible{border-bottom-color:var(--action)}
+.site-nav a[hidden]{display:none}
+@media (max-width:640px){
+  .site-nav{font-size:.9rem;gap:0 .85rem}
+  .site-header .row{gap:.1rem 1rem}
+}
+.page{max-width:var(--col);margin:0 auto;padding:0 1.25rem}
+.crumbs{font-family:var(--sans);font-size:.875rem;color:var(--muted);padding:1rem 0 0}
+.crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem .5rem}
+.crumbs li+li::before{content:"›";margin-right:.5rem}
+.crumbs a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+.titleblock{display:grid;gap:1.5rem;padding:1.2rem 0 1.4rem;align-items:start}
+@media (min-width:900px){ .titleblock{grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:3rem} }
+.titleblock .ident{font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 .5rem}
+.titleblock h1{font-size:clamp(2.1rem,4.8vw,3.2rem);line-height:1.05;margin:0 0 .5rem}
+.titleblock .formal{font-style:italic;color:var(--muted);margin:0 0 1rem}
+.titleblock .tile{font-size:1.15rem;line-height:1.5;max-width:var(--measure)}
+.status{font-family:var(--sans);font-size:.875rem;color:var(--text);border-left:3px solid var(--tint);padding-left:.7rem;margin:0 0 1rem}
+.plate{max-width:20rem}
+.plate figure{margin:0}
+.plate img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;border:1px solid var(--rule);background:var(--surface)}
+.plate figcaption{font-family:var(--sans);font-size:.875rem;color:var(--muted);line-height:1.45;margin-top:.6rem}
+.plate figcaption b{color:var(--text);font-weight:600}
+.ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 0 1.1rem}
+.held{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--lapis-text);border-radius:0 3px 3px 0;padding:.9rem 1.1rem;margin:0 0 1.1rem;max-width:var(--measure)}
+.held .k{font-family:var(--sans);font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--lapis-text);margin:0 0 .25rem}
+.held .q{font-style:italic;font-size:1.15rem;margin:0 0 .35rem}
+.held .edit{font-family:var(--sans);font-size:.9rem}
+.seat{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:.9rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1.4rem;font-family:var(--sans);font-size:.95rem}
+.seat .seated{margin:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:600;font-size:.95rem;line-height:1.2;padding:.6rem 1.1rem;min-height:44px;border-radius:3px;text-decoration:none;cursor:pointer;border:1.5px solid var(--btn-edge);background:var(--btn-fill);color:var(--btn-text)}
+.btn:hover,.btn:focus-visible{background:var(--madder-deep);color:var(--btn-text)}
+.btn.quiet{background:transparent;color:var(--action);border-color:var(--action)}
+.btn.quiet:hover,.btn.quiet:focus-visible{background:transparent;color:var(--action-hover);border-color:var(--action-hover)}
+.seat .also{color:var(--muted)}
+.seat .also a{display:inline-flex;align-items:center;min-height:44px}
+.article{padding:1.6rem 0 .5rem}
+.article>section{padding:1.4rem 0 1.2rem;border-top:1px solid var(--rule)}
+.article>section:first-child{border-top:none;padding-top:.6rem}
+.reading{max-width:var(--measure);font-size:1.125rem;line-height:1.6}
+.reading p{text-wrap:pretty}
+.article h2{font-size:clamp(1.5rem,3vw,1.9rem);margin:0 0 .3rem}
+.distress{font-family:var(--sans);font-size:.95rem;color:var(--muted);max-width:var(--measure)}
+.questions{list-style:none;margin:.5rem 0 0;padding:0;border-top:1px solid var(--rule)}
+.questions li{border-bottom:1px solid var(--rule);padding:.5rem 0}
+.questions a{display:flex;align-items:flex-start;gap:.6rem;color:var(--text);text-decoration:none;font-style:italic;font-size:1.1rem;line-height:1.4;padding:.5rem .1rem;min-height:44px}
+.questions a::before{content:"—";color:var(--action);font-style:normal;flex:0 0 auto}
+.questions a::after{content:"→";color:var(--action);font-style:normal;margin-left:auto;padding-left:.6rem;flex:0 0 auto}
+.questions a:hover,.questions a:focus-visible{color:var(--action-hover);text-decoration:underline;text-decoration-color:var(--action)}
+.questions .from{display:block;font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:.1rem 0 .3rem 1.5rem;line-height:1.45}
+.door{border-top:1px solid var(--rule);background:var(--surface);text-align:center;padding:2.5rem 1.25rem 2.5rem}
+.door h2{font-size:clamp(1.7rem,3vw,2.3rem);margin:0 0 .7rem}
+.door p{max-width:var(--measure);margin-left:auto;margin-right:auto}
+.door .actions{display:flex;justify-content:center;flex-wrap:wrap;gap:.8rem;margin:1.2rem 0 1rem}
+.door .also{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.door .also a{display:inline-flex;align-items:center;min-height:44px}
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
+.site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+@media print{ .site-header,.seat,.door .actions,.skip-link{display:none} }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="row">
+    <a class="wordmark" href="../index.html">Church <em>in</em> Conversation</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../whats-next.html">What's Next</a>
+      <a href="../atlas-v3.html">Timeline</a>
+      <a href="../support.html">Get Involved</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="page">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#who">Who's at the table</a></li>
+        <li aria-current="page">The Reformed Cities</li>
+      </ol>
+    </nav>
+
+    <div class="titleblock">
+      <div>
+        <p class="ident">The Reformation Era · 1519–1650 · Zurich &amp; Geneva, Swiss Confederacy</p>
+        <h1>The Reformed Cities</h1>
+        <p class="formal">The Reformed Cities — Zurich &amp; Geneva</p>
+        <p class="status">Open for conversation — you can sit down with this tradition now.</p>
+        <p class="tile">On 1 January 1519, Huldrych Zwingli, newly appointed pastor at Zurich's Grossmünster, began preaching straight through the Gospel of Matthew rather than following the fixed lectionary — the first act of a reform that tested every inherited practice against Scripture and kept only what the text would warrant. Geneva's own reform opened separately and was joined in 1536 by John Calvin, whose ministry built a Consistory of pastors and lay elders to hold the whole city's ordinary conduct to account. Zwingli and Calvin never met; what formally bridges the two cities is the Consensus Tigurinus (1549), two reforms arriving independently at language neither could disown. This pattern continues unbroken into the Scottish Kirk, the Huguenots, the Dutch Reformed, and English Puritanism.</p>
+      </div>
+      <aside class="plate" aria-label="Portrait">
+        <figure>
+          <img src="../assets/portraits/theophilus.jpg" alt="Theophilus: a Reformed pastor of 16th-century Switzerland in settled middle age, of Central/Western European appearance, with a plain complexion and a modest, close-cropped beard, wearing a plain black wool preaching gown over a simple shirt with a plain white collar, no vestments, no jewelry, holding a single open sheet of paper in both hands at his chest, facing the viewer directly against a plain neutral dark background." width="748" height="748">
+          <figcaption><b>Theophilus, Pastor.</b> A representative voice for the Reformed Cities of Zurich and Geneva — two reforms, begun independently, that tested every inherited practice against Scripture and kept only what the text would warrant.</figcaption>
+        </figure>
+      </aside>
+    </div>
+
+    <p class="ai-line">Theophilus is a representative voice for this tradition, not a person who lived — built from its own confessions, disputation records, and letters, and honest about where they run out.</p>
+
+    <div class="held" id="held" hidden>
+      <p class="k">Your question, held:</p>
+      <p class="q" id="held-q"></p>
+      <a class="edit" id="held-edit" href="../index.html">Edit it</a>
+    </div>
+
+    <div class="seat" role="region" aria-label="Theophilus is seated">
+      <p class="seated">Theophilus is seated. Begin when you're ready — or read on.</p>
+      <a class="btn quiet" id="seat-begin" href="../talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=traditions%2Fthe-reformed-cities-zurich-and-geneva.html" data-ask>Begin a conversation with Theophilus</a>
+      <span class="also"><a id="seat-bring" href="../table.html?worlds=the-reformed-cities-zurich-and-geneva">Bring Theophilus to the Table →</a></span>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="article">
+      <section aria-labelledby="who-speaks-title">
+        <p class="eyebrow">Who is speaking</p>
+        <h2 id="who-speaks-title">A representative voice, speaking for two cities at once</h2>
+        <div class="reading">
+          <p>Theophilus is a voice, not a person who lived — this tradition's own whole documented life given one voice, formed across Zurich and Geneva together, from 1 January 1519, when a pastor at Zurich's Grossmünster began reading straight through Matthew rather than following the fixed lectionary, to the Synod of Dort (1618–19), where this world's own international Reformed dimension is last attested inside its own window. He speaks the way a people speaks of itself: <em>we</em>, <em>our</em>, <em>among us</em> — never as one city alone, and never as a single bishop's own private history. He holds Zurich and Geneva together as one register, not narrowed to either city.</p>
+          <p>Where this tradition's own record shows real disagreement, Theophilus keeps it visible rather than smoothing it into one mind that was never actually of one mind — most sharply, a council-led authority at Zurich held beside a Consistory's own independence from civil control at Geneva, never converged within this world's own window, and Zwingli's own earlier "remembrance" reading of the Supper held beside the fuller language both cities signed together in 1549, without deciding which one finally speaks for him.</p>
+          <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="quiet-title">
+        <p class="eyebrow">Where we are quiet</p>
+        <h2 id="quiet-title">Whose voice you are really hearing</h2>
+        <div class="reading">
+          <p>This tradition's own richest record is doctrinal and confessional — Calvin's Institutes and Catechism, Zwingli's own founding statements, the Consensus Tigurinus, the Second Helvetic Confession — all directly vendored and verified. What is thin to silent is ordinary lived practice: no surviving account exists of what an ordinary Sunday service, a Consistory summons, or an ordinary citizen's own experience of either Reformation actually felt like. Three of this world's own most consequential events — the Marburg Colloquy (1529), the Bolsec controversy (1551), and the Perrinist crisis (1555) — are Documented as fact but have no narrative account comparable to this world's own three built stories.</p>
+          <p>We hold no hagiography and no martyr's cult anywhere in our own record — this tradition's own confessional core actively refuses the devotional genre those belong to, and the absence is evidence the refusal worked, not a missing source. Geneva's own consistory registers, which would show a real named person, a real hearing, and a real outcome, remain unvendored — we can state our own general doctrine of discipline, but not one specific case. And one woman, Marie Dentière, wrote in our own defense and was prosecuted for it — real, consequential authority, directly attested — but her own words have not reached us.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="questions-title">
+        <p class="eyebrow">Questions people bring to this table</p>
+        <h2 id="questions-title">Start with the hard one</h2>
+        <div class="reading">
+          <ul class="questions">
+            <li><a href="../talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=traditions%2Fthe-reformed-cities-zurich-and-geneva.html" data-ask>Where did you look for God's own truth, and who could correct you?<span class="vh"> — ask Theophilus</span></a><span class="from">Zwingli, Sixty-Seven Articles, preface — "where I have not now correctly understood said Scriptures I shall allow myself to be taught better, but only from said Scriptures."</span></li>
+            <li><a href="../talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=traditions%2Fthe-reformed-cities-zurich-and-geneva.html" data-ask>Did Zurich and Geneva actually agree about the Lord's Supper?<span class="vh"> — ask Theophilus</span></a><span class="from">The Consensus Tigurinus, 9th Head of Agreement, 1549 — "though we distinguish, as we ought, between the signs and the things signified, yet we do not disjoin the reality from the signs."</span></li>
+            <li><a href="../talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=traditions%2Fthe-reformed-cities-zurich-and-geneva.html" data-ask>How can I actually know if I'm one of the elect?<span class="vh"> — ask Theophilus</span></a><span class="from">Bullinger, Second Helvetic Confession, ch. X — "Let... Christ be the mirror in which we behold our predestination."</span></li>
+            <li><a href="../talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=traditions%2Fthe-reformed-cities-zurich-and-geneva.html" data-ask>What was an ordinary day like for you?<span class="vh"> — ask Theophilus</span></a><span class="from">This world's own honest limit: what survives is confession, catechism, and disputation record — an ordinary citizen's own day does not survive in our own words.</span></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<section class="door" aria-labelledby="door-title">
+  <p class="eyebrow">The Table</p>
+  <h2 id="door-title">Come and join us at the Table</h2>
+  <div class="actions">
+    <a class="btn" id="door-begin" href="../talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=traditions%2Fthe-reformed-cities-zurich-and-geneva.html" data-ask>Begin a conversation with Theophilus</a>
+    <a class="btn quiet" id="door-bring" href="../table.html?worlds=the-reformed-cities-zurich-and-geneva">Bring Theophilus to the Table</a>
+  </div>
+  <p class="also">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
+  <p class="also"><a href="../index.html#who">The other nine chairs →</a></p>
+</section>
+
+<footer class="site-footer">
+  <div class="row">
+    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav aria-label="Footer">
+      <a href="../about.html">About</a>
+      <a href="../pilot-feedback.html">Feedback</a>
+      <a href="../privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+Array.prototype.forEach.call(document.querySelectorAll('a[data-ask]'), function(a){ a.dataset.hrefBase = a.href; });
+function readHash(){
+  var h = window.location.hash;
+  if (h.indexOf('#q=') !== 0) return '';
+  var text;
+  try { text = decodeURIComponent(h.slice(3)); } catch(e){ return ''; }
+  return text.trim().slice(0, 280);
+}
+var heldText = readHash();
+if (heldText) {
+  document.getElementById('held-q').textContent = heldText;
+  document.getElementById('held').hidden = false;
+  document.getElementById('held-edit').href = '../index.html#q=' + encodeURIComponent(heldText);
+  try { history.replaceState(null, '', '#q=' + encodeURIComponent(heldText)); } catch(e){}
+  Array.prototype.forEach.call(document.querySelectorAll('a[data-ask]'), function(a){
+    a.href = a.dataset.hrefBase + '#q=' + encodeURIComponent(heldText);
+  });
+}
+})();
+</script>
+</body>
+</html>
