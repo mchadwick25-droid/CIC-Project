@@ -71,9 +71,9 @@ relations:
 - type: associated-with
   target: gallic.term.gaul
 plain_meaning: >-
-  Salvian's name for Roman peasants driven into revolt or flight to the barbarians by the greed of
-  their own officials. Not a barbarian people - Roman citizens whom Roman injustice made into what
-  their own rulers then called rebels.
+  Salvian's name for Roman peasants driven to revolt, or to flee to the barbarians, by their own
+  officials' greed. Not a barbarian people. Roman citizens, made into what their own rulers then
+  called rebels.
 world_word: Bagaudae (the many, proscribed by the few)
 false_friend:
 - Bagaudae as barbarian invaders - they were revolted Roman provincials
@@ -118,9 +118,9 @@ senses:
     free man, not a betrayal. A modern reader expecting this world's record to be only about monks
     finding God in the desert or bishops arguing about grace will not expect this passage at all.
 quick_meaning: >-
-  Salvian's word for the ordinary Roman poor of Gaul, driven by their own officials' greed to flee to
-  the barbarians or revolt outright - and then blamed for it. The one place this world's record
-  speaks of the rural poor as a subject, not a mission field.
+  Salvian's own word for the ordinary Roman poor of Gaul. Their own officials' greed drove them to
+  flee to the barbarians, or to revolt outright - and then they were blamed for it. The one place in
+  our own record where the rural poor speak as a subject, not a mission field.
 distortion_risk: medium
 ---
 New term, authored 2026-09-14, not part of the original 81-term Doc_06 lexicon batch. Built directly
