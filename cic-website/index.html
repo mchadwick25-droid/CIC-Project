@@ -97,6 +97,17 @@ p{margin:0 0 1rem}
    2026-09-18: the contribution card moved here from beside "The Unfolding
    Story" text, which now runs full width on its own with the door photo
    dropped entirely (see .flow-story below and the removed .give-photo). */
+/* Name (large, white) / tagline (italic, orange) / rest of the text
+   (white) -- the same pattern as .atlas-showcase-copy and the Table
+   card below, so all three features (Church Family Tree / Conversation
+   with One / Build a Table) read consistently (Mark, 2026-09-18). The
+   chairs gallery right below this is Conversation with One's own
+   "image section," the same role the video plays for Church Family
+   Tree and the portrait plays for Build a Table. */
+.conversation-intro{margin:0 0 1.5rem}
+.conversation-intro h2{font-size:clamp(1.6rem,3vw,2.1rem);margin:0 0 .4rem}
+.conversation-intro .tagline{font-family:var(--sans);font-style:italic;color:var(--action);font-size:1.05rem;margin:0 0 1rem}
+.conversation-intro p{font-family:var(--sans);color:var(--text)}
 .table-give{display:grid;grid-template-columns:2fr 1fr;gap:2.5rem;margin:2rem 0 0}
 @media (max-width:48rem){
   .table-give{grid-template-columns:1fr}
@@ -135,8 +146,8 @@ p{margin:0 0 1rem}
 }
 .atlas-showcase-copy{max-width:var(--wide);margin:0 auto;padding:1.6rem 1.25rem 0}
 .atlas-showcase-copy h2{font-size:clamp(1.6rem,3vw,2.1rem);margin:0 0 .4rem}
-.atlas-showcase-copy .tagline{font-family:var(--sans);font-style:italic;color:var(--muted);font-size:1.05rem;margin:0 0 1rem}
-.atlas-showcase-copy p{font-family:var(--sans);color:var(--muted)}
+.atlas-showcase-copy .tagline{font-family:var(--sans);font-style:italic;color:var(--action);font-size:1.05rem;margin:0 0 1rem}
+.atlas-showcase-copy p{font-family:var(--sans);color:var(--text)}
 .atlas-showcase-copy .cta-link{display:inline-flex;margin-top:.3rem}
 .flow-story{max-width:var(--wide);margin:2.5rem auto 0;padding:0 1.25rem}
 .flow-story h2{font-size:clamp(1.5rem,2.6vw,1.85rem);font-weight:500;line-height:1.35;margin:0 0 1rem}
@@ -144,10 +155,13 @@ p{margin:0 0 1rem}
 .flow-card{display:flex;flex-direction:column;text-decoration:none;color:var(--text);background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
 .flow-card:hover,.flow-card:focus-visible{border-color:var(--action)}
 .flow-card img{width:100%;aspect-ratio:1200/655;object-fit:cover;display:block;background:var(--ground)}
-.flow-card .eyebrow{margin:1.1rem 1.2rem 0}
-.flow-card h2{font-size:1.2rem;margin:.5rem 1.2rem 0}
-.flow-card>.eyebrow:first-child,.flow-card>h2:first-child{margin-top:1.1rem}
-.flow-card p{font-family:var(--sans);font-size:.9rem;color:var(--muted);line-height:1.55;margin:.5rem 1.2rem 0}
+/* Name (h2) right after the image, then the tagline (.eyebrow's own
+   orange color, restyled to italic sentence case) -- matches
+   .atlas-showcase-copy's own Name/tagline/text order and colors
+   (Mark, 2026-09-18). */
+.flow-card h2{font-size:1.2rem;margin:1.1rem 1.2rem 0}
+.flow-card .eyebrow{font-size:.95rem;font-style:italic;font-weight:400;text-transform:none;letter-spacing:normal;margin:.4rem 1.2rem 0}
+.flow-card p{font-family:var(--sans);font-size:.9rem;color:var(--text);line-height:1.55;margin:.5rem 1.2rem 0}
 .flow-card .cta-link{margin:.7rem 1.2rem 1.2rem;margin-top:auto}
 .cta-link{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-weight:600;color:var(--action);border-bottom:1px solid currentColor;padding-bottom:.15rem;text-decoration:none}
 .flow-card:hover .cta-link,.flow-card:focus-visible .cta-link{color:var(--action-hover)}
@@ -284,6 +298,11 @@ p{margin:0 0 1rem}
   </section>
 
   <div class="home-flow">
+    <div class="conversation-intro">
+      <h2>Conversation with One</h2>
+      <p class="tagline">Sit down with a single voice from across the centuries</p>
+      <p>Choose one Christian tradition and speak directly with its own representative voice, built from their own letters, sermons, and records. Ask your questions and follow the conversation wherever it leads.</p>
+    </div>
     <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
     <h2 id="who-title">Who would you like to talk with?</h2>
 
@@ -394,9 +413,9 @@ p{margin:0 0 1rem}
 
   <div class="table-give">
     <a class="flow-card" href="table.html">
-      <p class="eyebrow">The Table</p>
       <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="lazy" decoding="async">
-      <h2>Set your own table</h2>
+      <h2>Build a Table</h2>
+      <p class="eyebrow">Three traditions, one conversation</p>
       <p>Join a conversation with up to three Christian traditions from the two-thousand-year story of the church. Ask questions, make comments, and listen to the representatives discuss their views. Watch them draw out where they agree — and where they don't.</p>
       <span class="cta-link"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Build the table →</span>
     </a>
