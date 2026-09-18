@@ -332,7 +332,7 @@ Named here as a set, because Article 20 asks that absence be named where it is s
 
 ## 7. Open items for `Open_Gaps_Tracking.md`
 
-To be logged as OG-13 at this document's disposition:
+To be logged as OG-14 at this document's disposition:
 
 1. The single-source (Table Talk) dependency for five of twelve stories (§4) — a structural feature of this library, not a defect of this document, but worth a fleet-level note on how other worlds' Doc_09s should watch for the same concentration.
 2. witt-S12's discovery confirms that not every Doc_09 seed logged in a prior document's open-items list had actually been checked before this document's drafting — the same "claimed-but-not-yet-verified" pattern OG-8/9/10/11/12 record for other documents, here caught by this document's own drafting pass rather than by an independent review round.

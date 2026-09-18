@@ -733,3 +733,46 @@ disposition.
 6. The inline revision-history annotation volume — a further data point for the same open,
    undecided fleet-level question OG-2 resolved for Doc_03 and OG-8 through OG-11 carry for
    Doc_04–07. Not decided by this entry.
+
+## OG-13. World Profile: one review round, two flagged items fixed directly, and the
+scope question it settles for this build
+
+**Build history.** The World Profile (Construction Step 8's canonical per-world synthesis,
+`World_Profile_Template.md` v1.1) was drafted by a delegated agent synthesizing Doc_01 through
+Doc_08 (all Approved to Proceed), 11,991 words across all eleven required sections. One
+independent adversarial review (`witt_WorldProfile_Review_Round1.md`) returned **CLEARED
+REVIEW** — 0 substantial findings; six spot-checked claims traced accurately to source; the
+Integrative Observation (Section 10) independently re-verified word-for-word against Doc_07 §8,
+including confirming §8 (not the template's illustrative "§5") is genuinely this world's own
+Integrative Observation section. One moderate, self-disclosed finding (the hymn/German-singing
+always-present designation, flagged by the drafting pass itself for reviewer attention) and one
+cosmetic finding (a Tensional gravity physically misplaced under the Supporting Gravities
+heading, with its own disclosed footnote) were both fixed directly at Revision 1, per this
+project's rule that a cosmetic-only or self-disclosed-and-resolved finding does not require a
+fresh review round.
+
+**World Profile is self-disposed APPROVED TO PROCEED.** Section 9 Living Tradition Status
+Confirmation remains explicitly PENDING (Article 29, a project-lead decision).
+
+**Drafted as a structural prerequisite for Doc_09, not a peer.** `World_Profile_Template.md`'s
+own header states the World Profile is "Produced at: Construction Step 8," lists Doc_01–Doc_08
+as its "Required inputs," and names Doc_09 Story Inventory as something it "Feeds... (ecological
+context)" — a stated sequential dependency, World Profile first. This build drafted the World
+Profile and Doc_09 concurrently rather than sequentially (Doc_09's own Discipline 1, corrected at
+its Round 1 review, discloses this as a sequencing deviation, not a peer relationship); Doc_09
+does not draw on the World Profile's own synthesis and instead draws directly from Doc_01–Doc_08,
+the same primary layer the World Profile itself synthesizes, so no content in either document
+rests on unverified material from the other.
+
+**Open items seeded from this document's own Outstanding-items note:**
+1. Section 9's contested-figure and key-divergence material is drawn only from what Doc_01 and
+   Doc_02 themselves establish and deliberately does not characterize present-day Lutheran
+   denominational positions on Luther's 1543 treatise, since no prior document in this build
+   establishes those — for a later step, once a proper source is added to this world's own
+   construction record.
+2. The template-sequencing deviation named above (World Profile and Doc_09 drafted concurrently
+   rather than sequentially) is flagged as a candidate fleet-level question: should a future
+   world's Doc_09 actually wait on its own World Profile's prior completion, per the template's
+   stated order — for the coach thread.
+3. The inline revision-history annotation volume — the same open, undecided fleet-level question
+   OG-2 resolved for Doc_03 and OG-8 through OG-12 carry for Doc_04–08. Not decided by this entry.
