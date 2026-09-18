@@ -154,9 +154,8 @@ p{margin:0 0 1rem}
   /* Single column here means each card sizes to its own content, not a
      shared row height, so .support-photo's flex:1 (which fills whatever
      blank space stretching to the Table card's height leaves) has no
-     extra space to fill and collapses to its bare min-height instead. A
-     fixed aspect ratio keeps it a real photo rather than a 60px sliver. */
-  .support-photo{flex:none;aspect-ratio:16/10;min-height:0}
+     extra space to fill. */
+  .support-photo{flex:none;min-height:0}
 }
 
 /* Church Family Tree showcase: a slow, one-time scrolling pan (era 1 -> 10)
@@ -246,11 +245,19 @@ p{margin:0 0 1rem}
 .support-btn:hover,.support-btn:focus-visible{background:var(--madder-deep);color:var(--vellum)}
 /* Fills whatever blank space the card's own stretched height (matching the
    Table card beside it) leaves below the give buttons -- flex:1 rather than
-   a fixed height so it absorbs exactly that space at any card height. */
+   a fixed height so it absorbs exactly that space at any card height.
+   aspect-ratio caps it too (Mark, 2026-09-19, fixing a real bug): the photo
+   itself is a tall portrait crop (700x1050), and without a cap, an <img>
+   with height:100% inside this flex item falls back to that native ratio
+   during the browser's own auto-height/intrinsic-sizing pass -- which made
+   the Support card's own natural height balloon past Build a Table's,
+   forcing Build a Table to stretch to match and leaving a ~300px dead gap
+   above its own CTA link. The ratio still allows flex:1 to grow it taller
+   than this when the Table card genuinely is taller, same as before. */
 /* Inset padding, no background of its own, so the card's own --surface
    shows through around the photo like a mat/frame rather than the image
    running edge to edge inside its allotted space (Mark, 2026-09-18). */
-.support-photo{flex:1;min-height:60px;margin:0 0 .9rem;padding:.5rem;border-radius:6px;overflow:hidden}
+.support-photo{flex:1;aspect-ratio:16/10;min-height:60px;margin:0 0 .9rem;padding:.5rem;border-radius:6px;overflow:hidden}
 .support-photo img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.85);border-radius:4px}
 .support-more{font-size:.8rem;color:var(--muted);margin:0}
 .support-more a{color:var(--action)}
