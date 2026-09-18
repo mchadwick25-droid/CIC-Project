@@ -147,6 +147,38 @@ identical before editing, so no drift to reconcile): `world-census.json`
 — three places, two dates, all three rival claims and who each rests
 on, both worst-hour events, the penance. Nothing added, nothing cut.
 
+## 2026-09-18 (later) — Tile 2 of 3 (hal, "The Bethlehem Circle"); principle generalized
+
+Densest of the three: 3 sentences, 134 words, 52/46/36 words each.
+Same split-by-claim approach put to Mark as an artifact. No specific
+objection raised; instead Mark generalized directly: **"now use this
+same principle in all writing."** Recorded as its own craft-doc
+section (`CiC_Prose_Craft_Analysis.md` §10, "One claim per sentence")
+so it governs future writing project-wide, not just these three
+tiles — flagged honestly in that doc as a separate source from the
+original pahc-corpus sections 1–9, per this project's own citation
+discipline.
+
+Final tile (9 sentences, 135 words, 26/11/16/20/8/19/4/18/13, longest
+26 words): "In Rome and then Bethlehem, from 382 to 420 CE, a circle
+of wealthy women and one scholar-priest practiced renunciation and
+scholarship as a single discipline. Fortunes were converted into
+text, hospitality, and care for the sick. A Latin Bible was built
+word by word against the Hebrew it was first written in. The women
+funded it, founded it, and — by Jerome's own account — pressed him
+with scriptural questions for decades. But Jerome wrote nearly every
+surviving page himself. How much independent authority his account of
+them actually reflects is a question this world's own record cannot
+settle. The cost was concrete. In 384 a daughter of the household died
+within four months of taking up Jerome's own fasting regime. Rome's
+outrage over it helped drive the whole circle out of the city."
+
+Applied to all three surfaces (confirmed identical before editing):
+`world-census.json`, `index.html`, `traditions/
+hieronymian-ascetic-literary.html`. Every fact preserved, including
+the world's own honest hedge about how much of the record is really
+the women's own voice versus Jerome's.
+
 ### Next action
 
-Tile 2 of 3: cappadocian or hal, same one-at-a-time process.
+Tile 3 of 3: cappadocian, applying §10 directly.
