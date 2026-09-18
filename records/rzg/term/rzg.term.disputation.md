@@ -28,6 +28,8 @@ relations:
   target: rzg.term.sola-scriptura
 - type: associated-with
   target: rzg.term.sixty-seven-articles
+- type: illustrated-by
+  target: rzg.story.first-zurich-disputation
 plain_meaning: A Disputation was a public debate held before Zurich's own city council. Our reforming
   side defended its case from Scripture. The old church's side answered. This is how Zurich actually decided
   to reform - not a private argument, a civic one.

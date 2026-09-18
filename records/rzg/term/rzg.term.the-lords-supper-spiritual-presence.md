@@ -39,6 +39,12 @@ relations:
   target: rzg.term.sola-scriptura
 - type: associated-with
   target: rzg.term.memorial-commemoration
+- type: illustrated-by
+  target: rzg.story.calvins-journey-to-zurich
+- type: tension-with
+  target: rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation
+- type: tension-with
+  target: rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus
 plain_meaning: 'We refuse two claims about the Lord''s Supper. It does not repeat Christ''s own sacrifice.
   His body does not sit physically inside the bread. What we affirm took two cities and a 1549 agreement
   to state together: Christ is truly given, by the Spirit, to whoever receives him believing.'

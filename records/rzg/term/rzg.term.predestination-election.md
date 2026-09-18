@@ -38,6 +38,8 @@ relations:
   target: rzg.term.providence
 - type: associated-with
   target: rzg.term.the-lords-supper-spiritual-presence
+- type: tension-with
+  target: rzg.gravity.sovereignty-of-god-predestination-election
 plain_meaning: God chose, before the world began and by his own free will alone, who would be saved. Both
   Zurich and Geneva held this. Geneva built it into a full system. Zurich stated it more briefly, as pastoral
   comfort.

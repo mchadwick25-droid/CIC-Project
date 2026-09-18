@@ -28,6 +28,8 @@ retrieval:
 relations:
 - type: associated-with
   target: rzg.term.sign-and-the-thing-signified
+- type: illustrated-by
+  target: rzg.story.calvins-journey-to-zurich
 plain_meaning: Mutual Consent is our own name for the Consensus Tigurinus. Zurich and Geneva signed it
   together in 1549. It settles what we hold about the Lord's Supper.
 world_word: Mutual Consent (the Consensus Tigurinus)

@@ -28,6 +28,10 @@ retrieval:
 relations:
 - type: associated-with
   target: rzg.term.the-lords-supper-spiritual-presence
+- type: tension-with
+  target: rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus
+- type: associated-with
+  target: rzg.contested.zwinglis-remembrance-vs-negotiated-consensus
 plain_meaning: This is Zwingli's own earlier, sharper teaching. The Lord's Supper chiefly remembers what
   Christ already did. It does not, on this reading, communicate his body further.
 world_word: Memorial / Commemoration
