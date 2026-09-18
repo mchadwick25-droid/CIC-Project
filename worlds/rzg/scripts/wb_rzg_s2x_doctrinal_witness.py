@@ -648,8 +648,7 @@ def build_limit_hagiography_refused() -> None:
             "generations later? We have none, and I will not build you one out of what isn't there. This "
             "is not a hole in our own record. It is our own record working exactly as we meant it to. We "
             "refused the reverence a saint's life is written to produce. We refused it from our first "
-            "founding statement onward. A world that refuses a practice on principle does not go on to "
-            "produce its literature by accident."
+            "founding statement onward, and our own record shows no such literature was ever written here."
         ),
         "why_sources_cannot_answer": (
             "Doc_09_Story_Inventory.md SS3.1 states plainly: 'No hagiographic narrative exists for this "
@@ -677,7 +676,16 @@ def build_limit_hagiography_refused() -> None:
         "an ordinary source-mediation gap -- the one honest_limit in this script whose own underlying cause "
         "is a principled choice, not a transmission failure. relations[] carries one edge, to the G2 "
         "gravity record (the doctrinal refusal Doc_07 SS2C names as this absence's own direct cause) -- "
-        "reciprocal edge added directly to that file after this script runs."
+        "reciprocal edge added directly to that file after this script runs.\n\n"
+        "TIGHTENED, 2026-09-18 (go-live pipeline thread, Opus review finding #6): statement's own closing "
+        "sentence -- 'A world that refuses a practice on principle does not go on to produce its literature "
+        "by accident' -- overclaimed a general historical law (about how principled refusal relates to "
+        "literary production across any such community) when the actual grounding (Doc_09 SS3.1, Doc_07 "
+        "SS2C) only supports a claim scoped to this world's own corpus: that no hagiographic literature was "
+        "written here, and this world's own G2 refusal is the documented reason why. Doc_07 SS2C's own "
+        "text (quoted in why_sources_cannot_answer above) is itself hedged -- 'should not be expected to "
+        "produce it' -- and this record's prior statement had flattened that hedge into a flat assertion. "
+        "Rewritten to state only what the record's own grounding actually shows."
     )
     _write("honest_limit", rid, payload, body)
 
@@ -1029,7 +1037,7 @@ def build_ambient_emptied_worship_space() -> None:
         "detail": (
             "By most accounts, the Grossmunster's own organ at Zurich fell silent in the mid-1520s, and no "
             "voice or instrument answered it in worship for years after. Where an altar once stood, our "
-            "own churches kept a table instead -- plain, and built to hold a meal, not to host a sacrifice."
+            "own churches kept a plain table instead."
         ),
         "formation_claim_barred": True,
     }
@@ -1044,7 +1052,16 @@ def build_ambient_emptied_worship_space() -> None:
         "physical scene (a silent instrument, a table where an altar was) -- the doctrinal reason for the "
         "subtraction is already fully stated at rzg.gravity.spiritual-presence-rejection-of-corporeal-"
         "sacrificial-mediation, and is not restated here. canon_cells: [] and relations: [], matching the "
-        "fixture precedent."
+        "fixture precedent.\n\n"
+        "TIGHTENED, 2026-09-18 (go-live pipeline thread, Opus review finding #7): detail's own closing "
+        "clause -- 'built to hold a meal, not to host a sacrifice' -- stated the table's designed purpose, "
+        "drifting back toward the doctrinal/formational claim this record's own body already says belongs "
+        "at rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation and is not restated "
+        "here. Cut to the bare physical fact alone ('a plain table'). Disclosed directly: "
+        "engine.m1.schemas's formation_claim_barred field is not enforced anywhere at generation time "
+        "(confirmed by direct review of the engine's own generation path) -- this record's own language is "
+        "the only real defense against a voice narrating this physical detail into a formation claim, not "
+        "a system-level check, and is held to that standard accordingly."
     )
     _write("ambient", rid, payload, body)
 
