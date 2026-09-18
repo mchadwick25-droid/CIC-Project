@@ -454,6 +454,15 @@ Applied to all three surfaces per world (`world-census.json`,
 still valid JSON, 292 movements; `engine/m6/tests/test_census_sync.py`
 (11 tests) still passes.
 
+**Also shipped in the same pass:** `syr`, `desert`, and `alx` — drafted
+earlier but never actually applied to the site. `syr` gained the
+Gospel-harmony sentence (with the "ever since" fix already applied);
+`desert` gained the third monastic strand plus the Kellia
+trade-evidence counter-fact; `alx` gained the sacramental
+whole-community channel plus the plague-nursing fact. Same
+verification per world: exact text match before editing, diff scope
+confirmed, JSON still valid, test suite still passes.
+
 **All 8 built worlds' tiles are now rebuilt from their own primary
 records.** Full list of every file this session has touched, given to
 Mark on request: `engine/m4/facilitator_turns.py`,
