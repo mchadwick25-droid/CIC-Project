@@ -263,3 +263,49 @@ source-honesty fixes above) is with Mark for review, not yet shipped.
 `ijc`'s Chalcedon addition and the two held-back dimensions
 (hymn-singing, Callinicum) are also awaiting his call. `gallic`'s
 naming pass is drafted and awaiting review.
+
+## 2026-09-18 (later still) — Stop patching; rebuild all 8 tiles from the records
+
+**Mark's ruling:** "i feel like we need to start over and build these
+from scratch from the records in this new voice simplicity. we are
+finding too may mistakes and mis-focused statements." This is "no fix
+on a fix" (CLAUDE.md) applied at the workstream level: three rounds of
+patching (readability, ecology, source-honesty) kept surfacing new
+defects in the same tiles, which means the tiles were never soundly
+built to begin with — patching them further just stacks a fourth
+layer on an unsound base.
+
+**New method, all 8 built worlds' `entry.tile`:** draft fresh from each
+world's own primary records (`world_core`, `figure`, `story` — not the
+existing tile text, and not `longDescription` either, since it's one
+step removed from the primary records and has its own inherited
+compressions) rather than editing the existing tile. Every draft
+applies, from the start rather than patched in after the fact:
+
+- **§10, one claim per sentence** (`CiC_Prose_Craft_Analysis.md`).
+- **Full ecology** — the movement's real range (doctrinal, pastoral,
+  social, monastic, as each world actually has them), not a small named
+  core or a single dimension standing in for the whole.
+- **Source-honesty against each figure/story record's own confidence
+  tier** — a "Widely Accepted" bare fact stays a bare fact; a claim
+  carried as one side's own partisan framing (per a record's own
+  `divergence_note`) gets attributed as such, not presented as settled;
+  a "NO-STORY BOUNDARY" figure gets no narrative causation invented for
+  them.
+
+Scope: `longDescription` is not being rebuilt — its content held up
+well under the same scrutiny (only mechanical JSON-vs-live drift was
+found there, already fixed; no source-fidelity defects). This pass is
+`entry.tile` only, across all 8 worlds, including `pahc`/`alx`/`syr`/
+`desert`, which only had a lighter longDescription-comparison check
+before, not the full records-based pass now being applied everywhere
+else.
+
+### Next action
+
+Research each world's primary records (world_core, figure, story) to
+build a fresh tile per world, one at a time as before, starting with
+the four worlds already deep in revision (cappadocian, ijc, gallic,
+hal) so the source-honesty work already done there isn't lost, then
+the four checked only at the lighter longDescription level
+(pahc, alx, syr, desert).
