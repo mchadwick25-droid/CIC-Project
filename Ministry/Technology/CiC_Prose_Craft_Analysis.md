@@ -584,6 +584,16 @@ to 7 sentences / 126 words; `hal`'s went from 3 sentences / 134 words to 9
 sentences / 135 words. Longest sentence dropped from 46–52 words to 26–31.
 No fact cut, none added, in either case.
 
+**Note on drift (flagged 2026-09-18 by the fleet-wide Opus review, fixed
+here):** the two worked examples above capture this rule's own founding
+episode — the state of each tile at the moment the principle was derived
+from it. Both tiles were revised further afterward (an ecology pass added
+material to each; a later fleet-wide review round then corrected several
+source-fidelity defects and re-tightened sentence structure again). The
+worked examples above are accurate history of how the rule was discovered
+and should not be read as a live snapshot of either tile's current text —
+check `cic-website/data/world-census.json` for what is actually shipped.
+
 **When this does NOT apply.** A sentence combining a claim with its own
 single supporting concrete detail is not "stitched" — that is §3's own
 established pattern ("every abstraction gets cashed in the same sentence or
