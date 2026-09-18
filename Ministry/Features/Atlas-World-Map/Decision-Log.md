@@ -6379,3 +6379,132 @@ standalone demo before integration or stays a design artifact.
 code, no census expansion until the open questions above are answered.
 
 ---
+
+## 2026-09-17 — Era break band replaced with a thin divider line
+
+**Mark's report, from the live site:** the white horizontal bars marking the
+boundary between eras were "thick," "block[ed] the whole map under it," and
+looked "overwelming." He asked for them deleted and replaced with "just a
+white line starting under the text tha[t] has a very subtle background to
+stand out."
+
+**Confirmed the actual defect before touching anything:** screenshotted
+`atlas-v3.html` locally first. Each era's own "break band" (`gBreakBand`, in
+`render()`'s `eras.forEach` loop) was a `BLEED_W`-wide, 120px-tall rect at
+~92% opacity in dark mode (the site's default register) — composited to
+~#E5E4E0, essentially opaque near-white, painted behind the rivers but
+re-painted again on top of them via a fade gradient (`gBandFade`/
+`#bandFade`) that kept a bright, always-visible ~22px stripe at the band's
+own top and bottom edges regardless of what was underneath. In practice this
+read exactly as reported: a wide, heavy, near-opaque block at every era
+boundary, cutting the map into segments rather than dividing it cleanly.
+
+**Fix:** removed the break band and its fade gradient entirely (`gBreakBand`
+group, the `#bandFade` `linearGradient` and its per-render stop-color
+update, both ~120px rects). Replaced with, per era: a single thin line
+(1.5px, near-white in dark mode) plus a slim, low-opacity wash (18px tall,
+~0.1 opacity) directly behind it only so the line has enough to sit on
+against a busy stretch of river — not a return of the old block. Both are
+drawn on top of the rivers (the old fade layer's position) so the line
+stays crisp regardless of what color river crosses under it.
+
+**Positioned under the text, not at a fixed offset:** the era label/tag/
+context text was untouched (it already has its own 5px stroke-halo for
+legibility against the map, unrelated to the band) — but the divider's own Y
+position is now computed from where that specific era's text actually ends
+(reusing the same `wrapText()` call the context text itself uses, so a
+one-line vs. three-line context wrap each get a correctly-placed line)
+rather than the old fixed 120px height that left a lot of dead, blocked
+space under short headers.
+
+**Verified:** screenshotted before/after locally — the rivers now run
+unbroken through the header gutter instead of disappearing under a block;
+the line and its wash are visible without re-creating the "wall" effect;
+no JS console errors from the change (`gBreakBand`/`bandFade` fully removed,
+no dangling references).
+
+## 2026-09-17 (cont.) — Era header text made theme-aware; the halo was blurry because its light card was gone
+
+**Mark's report:** the new divider line is good, but the era header text
+("1. The Early Church Era" and the lines under it) reads blurry with its
+current halo — asked for it crisp.
+
+**Root cause found in the file's own comment, not guessed:** `.era-label`/
+`.era-tag`/`.era-context` carried a comment explaining they were
+deliberately given fixed (non-theme-variable) dark-ink fill colors and a
+thick 5px near-white stroke halo, because they always sat on the old break
+band — "its own small light card in both themes," so the text was
+dark-ink-on-light-card regardless of the page's own light/dark tokens. That
+card is exactly what the previous entry just removed (it blocked the map).
+With no card left, the same fixed dark fill + thick light halo now had to
+carry all the legibility work directly against the busy map, and a 5px
+round-joined halo at 13-22px font sizes reads as a blurry white smear
+rather than a crisp edge — the effect got worse, not better, once the
+premise it was built for (a card always behind it) was gone.
+
+**Fix:** switched `.era-label`/`.era-tag`/`.era-context` from fixed hex
+colors to the same `var()` theme tokens the map's own node/movement labels
+(`.lbl`, already correct) use, and matched `.lbl`'s already-tuned 3px halo
+width instead of 5px:
+- `stroke:#F6F6F2` (fixed) → `stroke:var(--parchment)` — dark in dark mode
+  (`#1d1811`), giving light text a thin *dark* backdrop instead of dark
+  text a thick *light* one.
+- `era-label` fill `#B45309` → `var(--gold-leaf)` — this file's own dark
+  register already has a lightened, dark-safe gold-leaf value (`#cfa55c`)
+  defined and unused here until now.
+- `era-tag` fill `#6C6257` → `var(--ink-faded)` (dark-safe `#a4967a`).
+- `era-context` fill `#2A2521` → `var(--iron-gall)` (dark-safe `#e9dfc7`,
+  light cream — the description paragraph is now light text, not
+  near-black text trying to show through a thick white halo).
+
+Stroke width 5px → 3px, matching `.lbl`.
+
+**Verified:** re-screenshotted the same era boundaries — text reads as
+clean, distinctly-colored (gold title / tan dates-and-count / cream
+description), with a thin dark edge for legibility rather than a soft
+white smear, at both the "1. The Early Church Era" and "2. The Imperial
+Church Era" headers.
+
+## 2026-09-17 (cont. 2) — Era header text enlarged; context wrap narrowed so it fits on screen when zoomed
+
+**Mark's report, once the crisp-text fix landed:** the text reads well now,
+but it's too small to read comfortably, and zooming in to read it runs the
+text off the screen.
+
+**Diagnosed, not guessed, with an actual zoomed screenshot:** the era
+context paragraph was wrapped at 200 characters per line — at 13-15px
+font, that's a line roughly as wide as the entire map. At the default,
+fully-zoomed-out view this isn't obvious (the whole map fits on screen,
+so the line does too), but the moment someone zooms in far enough to read
+the now-larger text comfortably, that same line spans far more screen
+pixels than any browser viewport holds. Tested directly: at a middling
+zoom level, a 100-char wrap still ran the description well past the right
+edge of a 1400px viewport.
+
+**Fix, in two parts:**
+1. **Bigger text:** `.era-label` 22px→26px, `.era-tag` 14px→16px,
+   `.era-context` 13px→15px.
+2. **Narrower context wrap**, so a line stays short enough to actually
+   fit on screen once zoomed in to read it, not just at maximum zoom-out:
+   the fixed `200` inlined at two call sites replaced with one named
+   constant, `ERA_CONTEXT_WRAP`, tuned empirically against real zoomed
+   screenshots (100 chars still overflowed; 55 fit with room to spare but
+   produced up to 7 lines for the longest entries; **65** landed as the
+   fit-on-screen floor with the fewest lines, confirmed at three different
+   zoom levels including a middling and a fairly deep zoom, both well
+   within a 1400px viewport).
+
+**A second-order effect caught and fixed in the same pass:** taller
+headers (up to 5 context lines at the new sizing, for the two longest
+`WORLD_CONTEXT` entries) pushed the divider line drawn in the prior entry
+past `HEADER_GUTTER` (190, sized for the *old* 2-3-line-max wrapping) —
+the first movement's portrait and label started overlapping the last line
+of description text. Computed the actual worst case (7 lines at the
+now-superseded 55-char wrap; 5 lines at the shipped 65-char wrap ≈ 184px
+to the divider) and raised `HEADER_GUTTER` to 230, restoring the clean
+gap between the header text and the first movement below it.
+
+**Verified:** re-screenshotted at the default view and three zoom levels
+(via synthetic wheel events on `#stage`, matching the real zoom handler) —
+text fits within the viewport at every level tested, and the
+"Scattered Households" portrait no longer overlaps the era 1 description.
