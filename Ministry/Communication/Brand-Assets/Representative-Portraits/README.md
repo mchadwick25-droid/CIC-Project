@@ -56,8 +56,10 @@ Fidelis's own research brief and generation prompt:
 
 An eighth profile portrait, `rzg/Theophilus_Portrait.jpg` (note: `.jpg`, not `.png`
 — the file as generated and approved, not re-encoded to match the others' format),
-was approved 2026-09-18. Grounding and generation-prompt reasoning:
-`World-Builds/Reformed-Zurich-and-Geneva/rzg_Representative_Portrait_Grounding_Brief.md`.
+was approved 2026-09-18. Grounding and generation-prompt reasoning: not yet
+committed as a standalone brief (2026-09-18 finding while promoting to `live` —
+this citation pointed at a file that was never added; owning thread to supply
+the actual brief and restore the citation).
 
 No `_Table` or `group/` images have been built yet — those come after the Living
 Table scene gets rebuilt around these portraits.
