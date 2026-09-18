@@ -25,9 +25,11 @@ export interface WorldAssets {
 // registry's own file order (which interleaves desert and pahc
 // differently). A world_key GET /api/worlds returns that isn't listed here
 // has no known assets yet and is left off the list rather than shown
-// without a portrait. Eight formation worlds as of 2026-09-13 (gallic
-// added once its own Representative portrait, Renatus, was locked).
-export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic'];
+// without a portrait. Nine formation worlds as of 2026-09-16 (don added
+// once Mark flipped it open and its own Representative portrait, Fidelis
+// - approved 2026-09-10, sitting unshipped in Brand-Assets since - was
+// finally wired to the two live-serving asset locations).
+export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic', 'don'];
 
 // 2026-09-17 dark-mode change order: every accentColor below was lightened
 // from its original Stage 7.5 light-mode hex (kept in each comment for
@@ -60,6 +62,15 @@ export const WORLD_ASSETS: Record<string, WorldAssets> = {
   // cold-of-Gaul theme) - checked against every color above and the two reserved semantic tokens
   // for a distinct hue and temperature (per gallic_Representative_Portrait_Grounding_Brief.md).
   gallic: { portraitImage: '/images/portraits/gallic.jpg', accentColor: '#798D97' },
+  // Ninth world, re-admitted 2026-09-17. Light-mode color was #6A2525 (a deep oxblood/martyrdom
+  // red, grounded in this world's own martyrs'-graves-read-aloud practice and the Deo laudes
+  // acclamation) - checked against every color above and the two reserved semantic tokens for a
+  // distinct hue; the nearest neighbor is hal's own muted rose, 16 degrees away in hue, same
+  // margin as the original light-mode pick. Script-computed for this same 2026-09-17 dark-mode
+  // pass (don wasn't live yet when the rest of the fleet went through it): H/S held from the
+  // light-mode value, L raised to 61.8% - the first point clearing both thresholds (>=5.3:1 vs
+  // the dark ground, >=5.07:1 vs --color-surface #1E1913 as dark text on top of it as a fill).
+  don: { portraitImage: '/images/portraits/donatism.png', accentColor: '#CD6F6F' },
 };
 
 export interface WorldStarter {
