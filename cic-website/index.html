@@ -60,11 +60,33 @@ p{margin:0 0 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
 .menu{position:relative;margin-left:auto}
+/* Centered in the space actually available between the logo and the menu
+   button, not just "centered in whatever's left over" (that was tried with
+   equal flex-grow on .brand/.menu, but the wordmark's fixed width wins a
+   floor against flex-shrink so the two sides end up unequal) and not
+   naive full-row-width centering either (that ignores brand and menu's
+   own widths entirely and visually collides with the wordmark, since
+   brand is wider than menu -- Mark, 2026-09-19: "can you center them").
+   Grid's max-content/1fr/max-content sizes the outer two columns to
+   brand's and menu's own content exactly, so the middle column is
+   whatever's genuinely left, with no risk of overlapping either side --
+   only turned on above the width where the whole row fits unwrapped. */
+@media (min-width:1000px){
+  .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
+  .menu{margin-left:0}
+  .feature-bar{justify-self:center}
+}
 .menu-toggle{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--text);background:none;border:1px solid var(--rule);border-radius:999px;padding:.5rem 1.1rem;min-height:38px;display:inline-flex;align-items:center;gap:.4rem;cursor:pointer}
 .menu-toggle:hover,.menu-toggle:focus-visible,.menu-toggle[aria-expanded="true"]{border-color:var(--action);color:var(--action)}
 .menu-caret{width:.65rem;height:.65rem;flex:0 0 auto;transition:transform .15s ease}
 .menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
-.site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:calc(100% + .5rem);display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
+/* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
+   real gap is a dead zone the pointer crosses with no element under it,
+   which drops :hover before the pointer reaches the menu (Mark, 2026-09-19:
+   "you shouldn't have to click to get it to allow you to move in the hover
+   mode"). Touching boxes keep :hover continuous all the way down. */
+.site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
+.site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
 .menu:hover .site-nav,.menu.open .site-nav{display:flex}
 .site-nav a{color:var(--text);text-decoration:none;padding:.65rem .8rem;border-radius:6px;min-height:44px;display:flex;align-items:center}
 .site-nav a:hover,.site-nav a:focus-visible{background:rgba(241,233,221,.08)}
@@ -229,10 +251,11 @@ p{margin:0 0 1rem}
 .photo-credits a{color:var(--graphite);min-height:auto}
 @media print{ .site-header,.support,.skip-link{display:none} }
 
-/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- now part of the single header row, not its own row */
-.feature-bar{display:flex;flex-wrap:wrap;gap:.6rem}
-.feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--text);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--rule);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
-.feature-btn:hover,.feature-btn:focus-visible,.feature-btn[aria-current="page"]{border-color:var(--action);color:var(--action)}
+/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- now part of the single header row, not its own row. Centered via the grid rule above at wide widths; filled rust so the three stand out (Mark, 2026-09-19), matching the site's existing solid-button pattern (.support-btn) rather than inventing a new fill color. flex-shrink stays at its default (1), not 0 -- a fixed-width feature-bar can't shrink to wrap its own buttons on narrow screens and pushed "Build a Table" off the edge of the viewport instead. */
+.feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
+.feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--vellum);background:var(--madder);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--madder);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
+.feature-btn:hover,.feature-btn:focus-visible{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}
+.feature-btn[aria-current="page"]{border-color:var(--action)}
 @media (max-width:640px){.feature-bar{gap:.5rem}.feature-btn{font-size:.8rem;padding:.45rem .9rem}}
 </style>
 </head>

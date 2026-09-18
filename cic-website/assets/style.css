@@ -122,6 +122,19 @@ header.site-header {
    all four don't fit alongside the rest in one row at this header's own
    60rem width. */
 .menu { position: relative; margin-left: auto; }
+/* Centered in the space actually available between the logo and the menu
+   button, not naive full-row-width centering (that ignores the wordmark's
+   and menu button's own widths and can visually collide with the
+   wordmark) -- Mark, 2026-09-19: "can you center them". Grid's
+   max-content/1fr/max-content sizes the outer two columns to the
+   wordmark's and menu's own content exactly, so the middle column is
+   whatever's genuinely left, with no risk of overlapping either side --
+   only turned on above the width where the whole row fits unwrapped. */
+@media (min-width: 1000px) {
+  .site-header .wrap { display: grid; grid-template-columns: max-content 1fr max-content; column-gap: 1rem; }
+  .menu { margin-left: 0; }
+  .feature-bar { justify-self: center; }
+}
 .menu-toggle {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 0.85rem;
@@ -143,12 +156,19 @@ header.site-header {
 }
 .menu-caret { width: 0.65rem; height: 0.65rem; flex: 0 0 auto; transition: transform 0.15s ease; }
 .menu-toggle[aria-expanded="true"] .menu-caret { transform: rotate(180deg); }
+/* top: 100% with zero gap to the button, margin-top for the visual gap
+   instead -- any gap via `top` alone is a dead zone the pointer crosses
+   with no element under it, which drops :hover before the pointer
+   reaches the menu (Mark, 2026-09-19: "you shouldn't have to click to
+   get it to allow you to move in the hover mode"). The ::before bridges
+   that margin-top gap so :hover survives the crossing. */
 nav.site-nav {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 0.9rem;
   position: absolute;
   right: 0;
-  top: calc(100% + 0.5rem);
+  top: 100%;
+  margin-top: 0.5rem;
   display: none;
   flex-direction: column;
   gap: 0.1rem;
@@ -160,6 +180,7 @@ nav.site-nav {
   box-shadow: 0 12px 28px rgba(0,0,0,0.18);
   z-index: 30;
 }
+nav.site-nav::before { content: ""; position: absolute; left: 0; right: 0; bottom: 100%; height: 0.5rem; }
 .menu:hover nav.site-nav, .menu.open nav.site-nav { display: flex; }
 nav.site-nav a {
   color: var(--iron-gall);
@@ -400,25 +421,28 @@ ol.convictions li::before { border-color: #E08C74; }
   .brand .wordmark { font-size: 1.05rem; }
 }
 
-/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- now part of the single header row, not its own row */
-.feature-bar { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- now part of the single header row, not its own row. Filled rust so the three stand out (Mark, 2026-09-19), matching this file's own .btn.primary fill rather than inventing a new color. */
+.feature-bar { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; }
 .feature-btn {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 0.85rem;
   font-weight: 700;
-  color: #F1E9DD;
+  color: var(--vellum);
+  background: var(--madder);
   text-decoration: none;
   padding: 0.5rem 1.1rem;
-  border: 1px solid rgba(241,233,221,0.16);
+  border: 1px solid var(--madder);
   border-radius: 999px;
   min-height: 38px;
   display: inline-flex;
   align-items: center;
 }
-.feature-btn:hover, .feature-btn:focus-visible, .feature-btn[aria-current="page"] {
-  border-color: #E08C74;
-  color: #E08C74;
+.feature-btn:hover, .feature-btn:focus-visible {
+  background: #7E2F20;
+  border-color: #7E2F20;
+  color: var(--vellum);
 }
+.feature-btn[aria-current="page"] { border-color: #E08C74; }
 @media (max-width: 640px) {
   .feature-bar { gap: 0.5rem; }
   .feature-btn { font-size: 0.8rem; padding: 0.45rem 0.9rem; }
