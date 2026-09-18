@@ -93,7 +93,14 @@ p{margin:0 0 1rem}
 .hero-lead{display:block;font-size:clamp(2rem,1.3rem + 2.8vw,3.25rem);font-weight:600}
 .hero-dek{display:block;font-family:var(--sans);font-size:clamp(1.15rem,1rem + .7vw,1.4rem);font-weight:400;color:var(--muted);line-height:1.55;max-width:70rem;margin:.8rem auto 0}
 .home-flow{max-width:var(--wide);margin:0 auto;padding:.5rem 1.25rem 0}
-.table-solo{max-width:26rem;margin:2rem auto 0}
+/* Table (2/3) + the contribution card (1/3), side by side -- Mark,
+   2026-09-18: the contribution card moved here from beside "The Unfolding
+   Story" text, which now runs full width on its own with the door photo
+   dropped entirely (see .flow-story below and the removed .give-photo). */
+.table-give{display:grid;grid-template-columns:2fr 1fr;gap:2.5rem;margin:2rem 0 0}
+@media (max-width:48rem){
+  .table-give{grid-template-columns:1fr}
+}
 
 /* Church Family Tree showcase: full-bleed scrolling video (era 1 -> 10,
    slow, ambient, continuous loop) with the text sitting below it in a
@@ -115,14 +122,7 @@ p{margin:0 0 1rem}
 .atlas-showcase-copy .tagline{font-family:var(--sans);font-style:italic;color:var(--muted);font-size:1.05rem;margin:0 0 1rem}
 .atlas-showcase-copy p{font-family:var(--sans);color:var(--muted);max-width:var(--measure)}
 .atlas-showcase-copy .cta-link{display:inline-flex;margin-top:.3rem}
-.story-give{max-width:var(--wide);margin:2.5rem auto 0;padding:0 1.25rem;display:grid;grid-template-columns:2fr 1fr;gap:2.5rem}
-.give-col{display:flex;flex-direction:column;gap:1.5rem}
-.give-photo{flex:1;min-height:200px;border-radius:8px;overflow:hidden;background:var(--surface)}
-.give-photo img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.85)}
-@media (max-width:48rem){
-  .story-give{grid-template-columns:1fr}
-  .give-photo{flex:none;aspect-ratio:16/10}
-}
+.flow-story{max-width:var(--wide);margin:2.5rem auto 0;padding:0 1.25rem}
 .flow-story h2{font-size:clamp(1.5rem,2.6vw,1.85rem);font-weight:500;line-height:1.35;margin:0 0 1rem;max-width:var(--measure)}
 .flow-story p{max-width:var(--measure);color:var(--muted);font-family:var(--sans)}
 .flow-card{display:flex;flex-direction:column;text-decoration:none;color:var(--text);background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
@@ -368,7 +368,7 @@ p{margin:0 0 1rem}
     </div>
   </section>
 
-  <div class="table-solo">
+  <div class="table-give">
     <a class="flow-card" href="table.html">
       <p class="eyebrow">The Table</p>
       <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="lazy" decoding="async">
@@ -376,42 +376,35 @@ p{margin:0 0 1rem}
       <p>Join a conversation with up to three Christian traditions from the two-thousand-year story of the church. Ask questions, make comments, and listen to the representatives discuss their views. Watch them draw out where they agree — and where they don't.</p>
       <span class="cta-link"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Build the table →</span>
     </a>
+
+    <section class="support" aria-labelledby="support-title">
+      <div class="support-card">
+        <svg class="support-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M18 8 L44 8 L44 56 L18 56 Z" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M18 8 L36 14 L36 50 L18 56 Z" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="30" cy="32" r="1.8" fill="currentColor"/></svg>
+        <p class="eyebrow">Help keep the door open</p>
+        <h2 id="support-title">Running these conversations costs real money</h2>
+        <p class="support-desc">It's what limits how many people can use them right now. If you'd like to help:</p>
+        <p class="support-links">
+          <a class="support-btn" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Give once</a>
+          <a class="support-btn" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Give monthly</a>
+        </p>
+        <p class="support-more">For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
+      </div>
+    </section>
   </div>
   </div>
 
-  <div class="story-give">
-    <div class="flow-story">
-      <p class="eyebrow">The Unfolding Story</p>
-      <h2 id="story-title">For two thousand years, people have followed Jesus across vastly different worlds and cultures.</h2>
-      <p>They gathered in modest homes and workshops, navigating the suspicion of their neighbors and the pressure of hostile rulers. They followed Him into mountain monasteries and remote deserts, along ancient trade routes across Asia, and into the cathedrals and university halls of Europe. They stood at the stake in Reformation squares, sang through forced labor in colonial fields, knelt in Latin American village chapels, and gathered inside modern churches across the world.</p>
-      <p>Like the ancient story of Israel, the story of the Church calls for honesty. It is not a tale of heroes who marched in lockstep and got everything right. It is a historically grounded record of real people: wrestling with political power, arguing over hard questions, fracturing, and failing often—proving at every turn that humanity cannot fix itself. Yet God never worked from a safe distance, nor did He wait for people to become perfect before meeting them. He stepped directly into their everyday lives, languages, and cultures, guiding them by His Spirit, shaping their human gifts for His purposes, and using their human hands to heal the fractured and restore His creation.</p>
-      <p>Through all those scattered eras and divergent paths, each community discovered distinct perspectives of who Jesus is and how to follow Him. You are invited to explore these stories. Trace forgotten routes across a living atlas, uncover the stories that shaped the Church, and pull up a chair with representative voices from across these traditions. In conversation with them, you can hear where they stand in deep agreement, listen as they wrestle with where they see things differently, and discover where your own story connects with theirs.</p>
-      <p class="more-link"><a href="whats-next.html">What's next →</a></p>
-    </div>
-
-    <div class="give-col">
-      <section class="support" aria-labelledby="support-title">
-        <div class="support-card">
-          <svg class="support-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M18 8 L44 8 L44 56 L18 56 Z" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M18 8 L36 14 L36 50 L18 56 Z" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="30" cy="32" r="1.8" fill="currentColor"/></svg>
-          <p class="eyebrow">Help keep the door open</p>
-          <h2 id="support-title">Running these conversations costs real money</h2>
-          <p class="support-desc">It's what limits how many people can use them right now. If you'd like to help:</p>
-          <p class="support-links">
-            <a class="support-btn" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Give once</a>
-            <a class="support-btn" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Give monthly</a>
-          </p>
-          <p class="support-more">For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
-        </div>
-      </section>
-      <figure class="give-photo">
-        <img src="assets/give-photo.jpg" alt="The bronze Holy Door of St. Peter's Basilica, Rome, its panels cast with scenes of mercy and return" loading="lazy" decoding="async">
-      </figure>
-    </div>
+  <div class="flow-story">
+    <p class="eyebrow">The Unfolding Story</p>
+    <h2 id="story-title">For two thousand years, people have followed Jesus across vastly different worlds and cultures.</h2>
+    <p>They gathered in modest homes and workshops, navigating the suspicion of their neighbors and the pressure of hostile rulers. They followed Him into mountain monasteries and remote deserts, along ancient trade routes across Asia, and into the cathedrals and university halls of Europe. They stood at the stake in Reformation squares, sang through forced labor in colonial fields, knelt in Latin American village chapels, and gathered inside modern churches across the world.</p>
+    <p>Like the ancient story of Israel, the story of the Church calls for honesty. It is not a tale of heroes who marched in lockstep and got everything right. It is a historically grounded record of real people: wrestling with political power, arguing over hard questions, fracturing, and failing often—proving at every turn that humanity cannot fix itself. Yet God never worked from a safe distance, nor did He wait for people to become perfect before meeting them. He stepped directly into their everyday lives, languages, and cultures, guiding them by His Spirit, shaping their human gifts for His purposes, and using their human hands to heal the fractured and restore His creation.</p>
+    <p>Through all those scattered eras and divergent paths, each community discovered distinct perspectives of who Jesus is and how to follow Him. You are invited to explore these stories. Trace forgotten routes across a living atlas, uncover the stories that shaped the Church, and pull up a chair with representative voices from across these traditions. In conversation with them, you can hear where they stand in deep agreement, listen as they wrestle with where they see things differently, and discover where your own story connects with theirs.</p>
+    <p class="more-link"><a href="whats-next.html">What's next →</a></p>
   </div>
 </main>
 
 <footer class="site-footer">
-  <p class="photo-credits">Historical images, top of page, left to right: <a href="https://commons.wikimedia.org/wiki/File:Catacombe_di_Priscilla,_Rome_-_Fresco_of_a_Christian_Agape_feast_-_Fractio_panis_-_Greek_chapel_-_2nd_-_4th_century.jpg">Fresco, Catacombs of Priscilla</a>, public domain · <a href="https://commons.wikimedia.org/wiki/File:Etchmiadzin_cathedral.jpg">Etchmiadzin Cathedral</a> (CC BY 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Jerusalem_Holy_Sepulchre_BW_23.JPG">Church of the Holy Sepulchre</a>, photo by Berthold Werner (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Monastery_of_Saint_Macarius_the_Great,_Egypt-15.JPG">Monastery of Saint Macarius</a>, photo by Faris El-Gwely (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Rock-Hewn_Churches,_Lalibela-107572.jpg">Rock-Hewn Churches, Lalibela</a>, photo by Francesco Bandarin/UNESCO (CC BY-SA 3.0 IGO) · <a href="https://archive.org/details/mma_large_figures_on_the_north_porch_chartres_cathedral_266284">Chartres Cathedral</a>, 1852, Metropolitan Museum of Art, public domain · <a href="https://archive.org/details/mma_illuminated_gospel_317618">Illuminated Gospel</a>, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St_Francis_Church_Fort_Kochi_DSC_1048.JPG">St. Francis Church, Fort Kochi</a>, photo by Ranjith Siji (CC BY-SA 4.0) · <a href="https://archive.org/details/mma_martin_luther_with_doctoral_cap_430193">Martin Luther</a>, engraving, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St._Basil%27s_Cathedral,_Moscow.jpg">St. Basil's Cathedral, Moscow</a>, photo by Zeynel Cebeci (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg">St. Peter's Basilica</a>, photo by Alvesgaspar (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:AFM_on_azusa_street.jpg">The Apostolic Faith Mission, Azusa Street</a>, 1907, photographer unknown, public domain. Several images require attribution and share-alike under their license — don't drop the credit line if these move elsewhere. Photo beside "The Unfolding Story": <a href="https://commons.wikimedia.org/wiki/File:The_Holy_Doors,_St._Peter%27s_Basilica,_Rome_(45510156425).jpg">The Holy Door, St. Peter's Basilica</a>, photo by Deb Nystrom (CC BY 2.0).</p>
+  <p class="photo-credits">Historical images, top of page, left to right: <a href="https://commons.wikimedia.org/wiki/File:Catacombe_di_Priscilla,_Rome_-_Fresco_of_a_Christian_Agape_feast_-_Fractio_panis_-_Greek_chapel_-_2nd_-_4th_century.jpg">Fresco, Catacombs of Priscilla</a>, public domain · <a href="https://commons.wikimedia.org/wiki/File:Etchmiadzin_cathedral.jpg">Etchmiadzin Cathedral</a> (CC BY 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Jerusalem_Holy_Sepulchre_BW_23.JPG">Church of the Holy Sepulchre</a>, photo by Berthold Werner (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Monastery_of_Saint_Macarius_the_Great,_Egypt-15.JPG">Monastery of Saint Macarius</a>, photo by Faris El-Gwely (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Rock-Hewn_Churches,_Lalibela-107572.jpg">Rock-Hewn Churches, Lalibela</a>, photo by Francesco Bandarin/UNESCO (CC BY-SA 3.0 IGO) · <a href="https://archive.org/details/mma_large_figures_on_the_north_porch_chartres_cathedral_266284">Chartres Cathedral</a>, 1852, Metropolitan Museum of Art, public domain · <a href="https://archive.org/details/mma_illuminated_gospel_317618">Illuminated Gospel</a>, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St_Francis_Church_Fort_Kochi_DSC_1048.JPG">St. Francis Church, Fort Kochi</a>, photo by Ranjith Siji (CC BY-SA 4.0) · <a href="https://archive.org/details/mma_martin_luther_with_doctoral_cap_430193">Martin Luther</a>, engraving, Metropolitan Museum of Art, public domain · <a href="https://commons.wikimedia.org/wiki/File:St._Basil%27s_Cathedral,_Moscow.jpg">St. Basil's Cathedral, Moscow</a>, photo by Zeynel Cebeci (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg">St. Peter's Basilica</a>, photo by Alvesgaspar (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:AFM_on_azusa_street.jpg">The Apostolic Faith Mission, Azusa Street</a>, 1907, photographer unknown, public domain. Several images require attribution and share-alike under their license — don't drop the credit line if these move elsewhere.</p>
   <div class="row">
     <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
     <nav aria-label="Footer">
