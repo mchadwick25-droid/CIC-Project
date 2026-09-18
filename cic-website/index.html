@@ -134,11 +134,21 @@ p{margin:0 0 1rem}
    chairs gallery right below this is Conversation with One's own
    "image section," the same role the video plays for Church Family
    Tree and the portrait plays for Build a Table. */
+/* .feature-card: the one bordered-container look shared by all three
+   features (Mark, 2026-09-19: "make the spacing and differentiation...
+   clear... standardized" -- Build a Table already looked like this via
+   .flow-card, but Church Family Tree and Conversation with One had no
+   container at all and ran straight into whatever came next). Same
+   border/radius/background/overflow as .flow-card, reused here rather
+   than duplicated with different values, so "standardized" is actually
+   true and not just three rules that happen to look similar. */
+.feature-card{margin:3rem 0 0;background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.conversation-card{padding:1.75rem}
 .conversation-intro{margin:0 0 1.5rem}
 .conversation-intro h2{font-size:clamp(1.6rem,3vw,2.1rem);margin:0 0 .4rem}
 .conversation-intro .tagline{font-family:var(--sans);font-style:italic;color:var(--action);font-size:1.05rem;margin:0 0 1rem}
 .conversation-intro p{font-family:var(--sans);color:var(--text)}
-.table-give{display:grid;grid-template-columns:2fr 1fr;gap:2.5rem;margin:2rem 0 0}
+.table-give{display:grid;grid-template-columns:2fr 1fr;gap:2.5rem;margin:3rem 0 0}
 @media (max-width:48rem){
   .table-give{grid-template-columns:1fr}
   /* Single column here means each card sizes to its own content, not a
@@ -158,27 +168,27 @@ p{margin:0 0 1rem}
    instead of the video.
    Mark, 2026-09-18: narrowed to the width of the text column and capped
    in height so it reads as a narrow window looking in on the map, not a
-   full-bleed banner -- was width:100%;aspect-ratio:16/7. */
-.atlas-showcase{margin:2.5rem 0 0}
-/* Video and text share the same column the chairs gallery (.who, via
-   .home-flow) and the Unfolding Story (.flow-story) already use --
-   var(--wide) less .home-flow's own 1.25rem side padding -- rather than
-   a narrower width of their own (Mark, 2026-09-18: match the chairs'
-   width exactly, not just to each other). width/max-width (not padding)
-   do the matching here so the video's own box isn't inset from its
-   rounded border by padding it doesn't need. */
+   full-bleed banner -- was width:100%;aspect-ratio:16/7.
+   Now a .feature-card itself (Mark, 2026-09-19), matching the same
+   var(--wide)-less-2.5rem column the chairs gallery and Unfolding Story
+   already use -- video and text no longer need their own separate
+   width-matching math since the card they both sit inside carries it. */
+.atlas-showcase{max-width:calc(var(--wide) - 2.5rem);margin-left:auto;margin-right:auto}
 /* Trimmed 30% shorter (Mark, 2026-09-19: "so the title of the Church
    Family Tree lands on the first screen when the landing page uploads")
-   -- was min(60vh,480px). */
-.atlas-showcase-media{position:relative;display:block;width:calc(100% - 2.5rem);max-width:calc(var(--wide) - 2.5rem);height:min(42vh,336px);margin:0 auto;overflow:hidden;background:var(--ground);border-radius:8px;border:1px solid transparent}
-.atlas-showcase-media:hover,.atlas-showcase-media:focus-visible{border-color:var(--action)}
-.atlas-showcase-media video,.atlas-showcase-media img{width:100%;height:100%;object-fit:cover;display:block}
+   -- was min(60vh,480px). Flush at the top of the card (no side
+   width-matching math of its own now, no border of its own -- the hover
+   affordance is a slight zoom instead, since a border here would sit
+   oddly against the card's own rounded top corners). */
+.atlas-showcase-media{position:relative;display:block;width:100%;height:min(42vh,336px);overflow:hidden;background:var(--ground)}
+.atlas-showcase-media video,.atlas-showcase-media img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s ease}
+.atlas-showcase-media:hover video,.atlas-showcase-media:hover img,.atlas-showcase-media:focus-visible video,.atlas-showcase-media:focus-visible img{transform:scale(1.03)}
 .atlas-showcase-media img.showcase-fallback{display:none}
 @media (prefers-reduced-motion:reduce){
   .atlas-showcase-media video{display:none}
   .atlas-showcase-media img.showcase-fallback{display:block}
 }
-.atlas-showcase-copy{max-width:var(--wide);margin:0 auto;padding:1.6rem 1.25rem 0}
+.atlas-showcase-copy{padding:1.6rem 1.75rem 1.75rem}
 .atlas-showcase-copy h2{font-size:clamp(1.6rem,3vw,2.1rem);margin:0 0 .4rem}
 .atlas-showcase-copy .tagline{font-family:var(--sans);font-style:italic;color:var(--action);font-size:1.05rem;margin:0 0 1rem}
 .atlas-showcase-copy p{font-family:var(--sans);color:var(--text)}
@@ -315,7 +325,7 @@ p{margin:0 0 1rem}
     <h1 id="hook"><span class="hero-lead">Explore hundreds of historical Christian traditions</span><span class="hero-dek">and have conversations with representative voices built from their own letters, sermons, and records.</span></h1>
   </section>
 
-  <section class="atlas-showcase" aria-labelledby="atlas-showcase-title">
+  <section class="atlas-showcase feature-card" aria-labelledby="atlas-showcase-title">
     <a class="atlas-showcase-media" href="atlas-v3.html" aria-label="Open Church Family Tree">
       <!-- Slow pan from era 1 through era 10 on the live Church Family Tree,
            recorded chrome-free (topbar/feature-bar/scope-note/legend/reset
@@ -341,6 +351,7 @@ p{margin:0 0 1rem}
   </section>
 
   <div class="home-flow">
+    <div class="feature-card conversation-card">
     <div class="conversation-intro">
       <h2>Conversation with One</h2>
       <p class="tagline">An in-depth conversation with a Representative Voice</p>
@@ -453,6 +464,7 @@ p{margin:0 0 1rem}
     </div>
     </div>
   </section>
+    </div>
 
   <div class="table-give">
     <a class="flow-card" href="table.html">
