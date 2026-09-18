@@ -623,13 +623,61 @@ text match, since `"living": false` and `"entry": null` are common
 across the file's 21 other not-yet-built worlds); `DATA` blob
 re-validated as JSON after edit; `test_census_sync.py` still passes.
 
-**Still open, not part of this fix:** `atlas-v3.html`'s `longDescription`
-for gallic is still the old, unrevised text — it names the banned
-editorial place-names "Ligugé" and "Marmoutier" (per
-`gallic.core.gallic.md`'s own cautions) and still says "declined to
-follow Augustine's late teaching on predestination," the opponent's-word
-framing the tile was already corrected to drop. Out of scope for a
-status fix; flagged for a separate pass.
+**Follow-up, same day:** Mark: "fix gallic's longDescription too."
+Checked which surfaces actually carry it: only `world-census.json` and
+`atlas-v3.html` (the tradition page has its own, separately-authored
+prose and was already clean). Fixed both, verified against
+`records/gallic/` directly rather than just mirroring the tile fix:
+
+- Dropped both banned editorial place-names — "Ligugé" → "near
+  Poitiers" (glossing the ancient text's own "Pictava"), "Marmoutier"
+  → dropped, replaced with the actual attested detail ("kept the
+  habits of a monk even in that office," per Vita X's "the objects and
+  virtues of a monk").
+- Fixed "left the imperial army because he would not fight" → the
+  actual change-of-service claim ("told Caesar he was now a soldier of
+  Christ, and asked to leave the army"), per `gallic.story.discharge-
+  before-caesar.md`'s own modern_contrast warning against exactly this
+  misreading.
+- Dropped invented precision ("Around 361," "Ten years later" — the
+  discharge and election are both undated in the text per
+  `gallic.figure.martin.md`) in favor of the world's own working floor
+  ("about 360") and "some years later."
+- Dropped "the first monastic community the Latin West had" — no
+  record found supporting this precedence claim.
+- Checked "Honoratus and Hilary to Arles ... Faustus to Riez" against
+  `gallic.gravity.monk-bishop.md` and `gallic.figure.honoratus.md`:
+  Honoratus→Arles and Hilary succeeding him there are both ancient-
+  attested (Gennadius ch. LXX); Faustus→Riez is too (ch. LXXXVI,
+  "first abbot ... then made bishop of Riez"). But **dropped "Lupus to
+  Troyes"** — `gallic.figure.vincent.md` itself flags any Lupus
+  connection to this world as "Inferential-Thin and uncorroborated by
+  Gennadius." Also dropped the broader claim that Lérins "became the
+  place the Western church went to for bishops" — overstates what's
+  attested (two specific sees, not a general reputation), the same
+  overreach the tile's F3 fix already corrected.
+- Fixed the Augustine paragraph the same way as the tile (F1/F2):
+  "predestination" → "grace and human effort" (not this world's own
+  term); attributed the resistance to Marseilles specifically, not
+  "these Gallic monks" generically; "three treatises answering them" →
+  "two treatises... after a third one... had first provoked their
+  objection" (one of the three was addressed to a different African
+  monastery and provoked the objection rather than answering it).
+
+Verified: exact-match text replacement (raw UTF-8, not JSON-escaped —
+this specific field stores its accented characters as literal UTF-8
+bytes, unlike the tile fields fixed earlier in the same file, which
+use `\uXXXX` escapes; the file mixes conventions field by field, so
+this has to be checked per-field, not assumed); `atlas-v3.html`'s
+`DATA` blob re-validated as JSON; `test_census_sync.py` still passes.
+
+**Flagged, not touched (outside "longDescription" scope):**
+`world-census.json`'s own `voices` array for gallic still has "Martin
+of Tours - the conscript who refused to fight, founded the West's
+first monastery..." — the same two defects (the fight-refusal
+misreading, the unsupported "first" claim) in a different field. Its
+`teaser` field also still says "a soldier who walked out of the army."
+Neither was asked for; noted here so they don't go quiet.
 
 ### Next action
 
