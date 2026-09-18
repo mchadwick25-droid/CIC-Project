@@ -223,6 +223,28 @@ authors:
 
       '
     from_file: palladius_paradise-v1-syriac_budge1907.txt
+  bullinger:
+    kind: metadata-omission
+    evidence: 'Not CCEL-derived markup (this is a plain-text archive.org extract), so no automatic
+      author slug exists. The file''s own intake header credits "Heinrich Bullinger (Second
+      Helvetic Confession, 1566)" by name, and Schaff''s own section heading ("§ 55. The Second
+      Helvetic Confession, A.D. 1566") together with the confession''s own text confirm single
+      authorship by Bullinger, the Zurich reformer - standard attribution, not contested.
+
+      '
+    from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+  calvin-zurich-pastors:
+    kind: metadata-omission
+    evidence: 'Not CCEL-derived markup (a plain-text archive.org extract), so no automatic
+      author slug exists. The file''s own title page reads "Mutual Consent in Regard to the
+      Sacraments... Between the Ministers of the Church of Zurich and John Calvin, Minister
+      of the Church of Geneva" - a genuinely joint document, drafted substantively by Calvin
+      but negotiated and issued together with the Zurich pastors (chiefly Bullinger) until
+      agreement, published under both parties'' names. A joint-author slug, the same pattern
+      this corpus already uses for other two-party single works (ursinus-olevianus).
+
+      '
+    from_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
   canonical-epistles-fathers:
     kind: anonymous
     evidence: 'div1 17 gathers, per its title, "Canons and Rulings not having Conciliar Origin
@@ -1010,3 +1032,13 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  ursinus-olevianus:
+    kind: metadata-omission
+    evidence: 'Not CCEL-derived markup. The file''s own intake header credits "Zacharias Ursinus
+      and Caspar Olevianus (Heidelberg Catechism, 1563)" by name - the standard joint attribution
+      for this catechism, commissioned by Elector Frederick III of the Palatinate and drafted
+      by these two theologians together. A joint-author slug, the same pattern this corpus
+      already uses for other two-author single works.
+
+      '
+    from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
