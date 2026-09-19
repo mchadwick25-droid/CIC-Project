@@ -200,7 +200,7 @@ cautions:
 - "Nearly everything this world can tell a participant about its own women reaches them through one man's hand, curated by that same man in his later life. This is not a minor limitation but a structural, load-bearing fact this world's own record names as its central evidentiary problem: every account of the women's agency is single-sourced to Jerome, the one outside witness who does describe the central Paula-Jerome partnership (Palladius) says the opposite of Jerome's own account of it, and the strongest claim of a woman's independent authority (Marcella's) rests entirely on Jerome's own post-mortem, partly self-vindicating memorial for her. Facilitators should not encourage a participant to press for the women's own independent voice, since none exists in this world's record."
 - "This world's controversy content is genuinely substantive, not merely named in passing. The Origenist rupture (souls existing before birth, the nature of the resurrected body) split this world's central scholar from his oldest friend for good, and the Pelagian controversy ended, in this world's last years, in an armed attack that burned the Bethlehem monasteries. This world's own record does not resolve whether the Origenist rupture was really about doctrine or about two rival reputations, and facilitators should expect the voice to carry real, unresolved weight on this material rather than a settled catechism answer."
 - "This world's own record leaves an unresolved tension about women's authority, and this world was built not to resolve it for a participant. A woman's independently-recognized scriptural standing is real in this world's record but rests on a single, contested source, and this world's own record does not flag that as unusual even though a modern participant might expect it to. Facilitators should not push toward a clean resolution here; the tension itself is this world's own honest content."
-- "This world's living-tradition status is not settled in this project's own current records, and facilitators should not treat either available position as authoritative. This world's own hand-authored construction-stage brief concluded 'no living tradition,' after specifically weighing and rejecting two named candidates (a later Hieronymite religious order; the scholar-figure's own broad individual veneration as a Doctor of the Church). The current world registry (`records/worlds/hal.yaml`), however, sets this world's `living_tradition_flag` to true. No record in this build resolves the conflict between these two positions - see this world's `Open_Gaps_Tracking.md` for the discrepancy, logged rather than resolved here."
+- "This world has no living tradition. This world's own hand-authored construction-stage brief concluded exactly that, after specifically weighing and rejecting two named candidates (a later Hieronymite religious order; the scholar-figure's own broad individual veneration as a Doctor of the Church) - and Mark confirmed that finding directly, 2026-09-20, resolving what had briefly been a discrepancy against this world's own registry flag (see this world's `Open_Gaps_Tracking.md`, item 1). Facilitators should treat this as this world's settled status, not an open question to hedge on."
 living_tradition_handling:
   text: >-
     This world's own record answers directly whether a present-day church
@@ -215,11 +215,13 @@ living_tradition_handling:
     they may instead bring is a prior association with its central
     scholar-figure individually, whose personal veneration crosses many
     later church bodies that this world's own record neither claims nor
-    disclaims. Whether that broader, diffuse legacy should register as "a
-    living tradition" in this project's own registry sense is a live,
-    unresolved question for this world, named in the caution above and
-    logged in this world's `Open_Gaps_Tracking.md`; this field states only
-    what the record itself actually says, not a settled classification.
+    disclaims. This world carries no living tradition in this project's own
+    registry sense - settled by Mark 2026-09-20, matching this world's own
+    construction-stage determination (see this world's
+    `Open_Gaps_Tracking.md`, item 1) - so a participant is meeting this
+    world as history, not as a present-day institutional home, whatever
+    diffuse personal association with its central scholar-figure they may
+    separately bring.
   grounded_in:
   - hal.dw.one-church
 redirect_notes:
@@ -329,6 +331,20 @@ numbered entry in `worlds/hal/Open_Gaps_Tracking.md` (created this session,
 following `worlds/syr/Open_Gaps_Tracking.md`'s own header and entry shape,
 since no such file existed yet for this world), per this task's own
 established pattern from the syr pilot (its own item 12).
+
+RESOLVED 2026-09-20. Put directly to Mark, since nothing in this world's
+own records could settle it and the flag is fleet-adjacent, machine-checked
+state (`engine/m1/cross_world.py`'s `census-living-flag` check). Ruling:
+false, matching the construction-stage documents' own reasoned finding over
+the registry's unreviewed default. `records/worlds/hal.yaml`'s own
+`living_tradition_flag` is now flipped to `false`, matching the public
+census's own `living` field, which already had this right independently -
+the ACCEPTED_OPEN `census-living-flag/hal` waiver (fleet finding F-06) is
+now closed and removed from `engine/m1/cross_world.py`. This record's own
+`living_tradition_handling` and `cautions` entries above were updated to
+state the settled finding rather than the open discrepancy; the discovery
+narrative above is left as-is since it documents real history, not a
+still-live question.
 
 A SECOND ITEM DELIBERATELY LEFT OUT, exactly the case this task's own
 instructions anticipated: B7's own final caution, "Relational-safety system

@@ -52,8 +52,13 @@ OBSERVATION = "observation"
 ACCEPTED_OPEN: dict[str, str] = {
     "census-living-flag/alx": "F-06 - census `living` says false, registry says true; which is correct is Mark's own per-world Living Tradition touchpoint, not a build thread's to settle",
     "census-living-flag/pahc": "F-06 - as alx",
-    "census-living-flag/hal": "F-06 - as alx",
     "census-living-flag/ijc": "F-06 - as alx",
+    # hal CLOSED 2026-09-20 by Mark's ruling: false, matching the
+    # construction-stage documents' own reasoned "confirmed NO" finding
+    # (two named candidates considered and rejected) over the registry's
+    # unreviewed true default. records/worlds/hal.yaml's own
+    # living_tradition_flag flipped to false to match the census, which
+    # already had this right (worlds/hal/Open_Gaps_Tracking.md item 1).
     # F-07/F-08 CLOSED 2026-08-28 by Mark's identity ruling ("the registry
     # wins"): the census now derives its representative name/title from
     # records/worlds.yaml (syr's registry entry took the ruled values Mar
