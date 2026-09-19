@@ -370,6 +370,17 @@ def gate_readability(records, fleet, registry) -> list[str]:
     # cappadocian) - real content this gate was always meant to catch,
     # invisible until today only because the check itself was missing, not
     # because the fields passed clean.
+    #
+    # EXTENDED 2026-09-19: voice_craft.identity/guard/flavor_notes[].note/
+    # characteristic_concerns[] were never graded here, despite being the
+    # ONE record type compiled into every single turn's own prompt
+    # (engine/m2/builders.py build_prompt(), "Who we are"/"How we speak").
+    # Found only because a participant-facing quality complaint (gallic's
+    # answers landing "too long and too abstract") was traced back to this
+    # exact record type - not because the gap was suspected in advance.
+    # alx.voice.craft's own header states the design intent this closes:
+    # "kept small per spec SS4.3.5: no trait rubrics, no avoid-trait
+    # catalogs, no stacked rules - rule-stacks stiffen the conversation."
     findings = []
     checks = []
     for rid, rec in records.items():
@@ -380,12 +391,64 @@ def gate_readability(records, fleet, registry) -> list[str]:
             checks.append((rid, "statement", rec.get("statement")))
         if rec.get("record_type") == "quote":
             checks.append((rid, "modern_rendering", rec.get("modern_rendering")))
+        if rec.get("record_type") == "voice_craft":
+            checks.append((rid, "identity", rec.get("identity")))
+            checks.append((rid, "guard", rec.get("guard")))
+            for note in rec.get("flavor_notes") or []:
+                checks.append((rid, f"flavor_notes[{note.get('segment')}].note", note.get("note")))
+            for i, concern in enumerate(rec.get("characteristic_concerns") or []):
+                checks.append((rid, f"characteristic_concerns[{i}]", concern))
     for rid, field, text in checks:
         if not text:
             continue
         grade = fk_grade(text)
         if grade > FK_CEILING:
             findings.append(f"{rid}: {field} scores FK grade {grade:.1f}, above the ceiling of {FK_CEILING}")
+    return findings
+
+
+# The fleet's own exemplar total (alx.voice.craft: identity + guard +
+# characteristic_concerns + flavor_notes[].note, word-counted the same way
+# build_prompt() concatenates them) is 401 words. Five of the six original
+# worlds land at or under 730; gallic - the case that surfaced this gate,
+# a live participant-facing complaint ("too long and too abstract") traced
+# to this exact record - runs 1802, 4.5x alx. 900 is set just above
+# cappadocian's 878 (a real, milder instance of the same drift, not yet
+# reviewed) and comfortably above every original-six world, so this gate
+# fails only builds that have actually drifted past the fleet's own worst
+# still-tolerable case, not the ordinary spread already live. First pass,
+# stated as a number so it can be argued with directly - same footing as
+# FK_CEILING and every COVERAGE entry in cross_world.py.
+VOICE_CRAFT_WORD_CEILING = 900
+
+
+def gate_voice_craft_prompt_budget(records, fleet, registry) -> list[str]:
+    """The four voice_craft fields compile into every turn's own prompt
+    (engine/m2/builders.py build_prompt(), "Who we are"/"How we speak") -
+    the only record type with that property. gate_readability (above)
+    catches individual sentences that are too dense; it does not catch a
+    record that is simply too LONG, sentence by short sentence - exactly
+    gallic's own failure mode after its 2026-09-18 partial fix (identity
+    tightened to 20.0 words/sentence, comfortably under FK_CEILING, while
+    flavor_notes stayed at 1072 words - the fix's own record says so
+    directly). A separate gate, not a second check bolted onto
+    gate_readability, because the finding is about total volume, not any
+    one field's own text.
+    """
+    findings = []
+    for rid, rec in records.items():
+        if rec.get("record_type") != "voice_craft":
+            continue
+        parts = [rec.get("identity") or "", rec.get("guard") or ""]
+        parts += [n.get("note", "") for n in (rec.get("flavor_notes") or [])]
+        parts += list(rec.get("characteristic_concerns") or [])
+        total_words = sum(len(p.split()) for p in parts)
+        if total_words > VOICE_CRAFT_WORD_CEILING:
+            findings.append(
+                f"{rid}: identity+guard+flavor_notes+characteristic_concerns total "
+                f"{total_words} words, above the ceiling of {VOICE_CRAFT_WORD_CEILING} "
+                "(this compiles into every turn's own prompt - see build_prompt())"
+            )
     return findings
 
 
@@ -737,6 +800,7 @@ GATES = {
     "edition-rights-consistency": gate_edition_rights_consistency,
     "canonical-address": gate_canonical_address,
     "readability": gate_readability,
+    "voice-craft-prompt-budget": gate_voice_craft_prompt_budget,
     "canon-coverage": gate_canon_coverage,
     "no-build-attribution": gate_no_build_attribution,
     "voice-perspective": gate_voice_perspective,
