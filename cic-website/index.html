@@ -273,6 +273,17 @@ p{margin:0 0 1rem}
 .chair h4{font-size:1.1rem;font-weight:700;margin:0}
 .chair h4 .role{display:block;font-family:var(--sans);font-weight:400;font-size:.82rem;color:var(--muted);margin:.15rem 0 0}
 .chair .trad{font-style:italic;font-size:.95rem;margin:0}
+/* The scholarly/outsider name for a tradition, next to the Representative's
+   own (often emic) name for it -- e.g. "The Church of the Martyrs
+   (Donatism)" -- so a visitor who only knows the academic label can still
+   find their way to the world that goes by a different name on its own
+   card (Mark, 2026-09-19: "add the academic name to the card under or
+   next to the accessable name... The Church of Martyrs (Donotism)
+   example"). Sourced from each world's own census entry.subtitle field,
+   not composed here. Upright and muted against the italic name it
+   follows, matching how .role and .meta already de-emphasize secondary
+   identifying text on this card. */
+.chair .trad-academic{font-style:normal;color:var(--muted)}
 .chair .meta{font-family:var(--sans);font-size:.8rem;color:var(--muted);margin:0}
 /* Line-clamp raised from 5 to 7 -- removing the separate arrow row freed
    the space for a line or two more of the brief (Mark, 2026-09-19: "get
@@ -419,7 +430,7 @@ p{margin:0 0 1rem}
         <div class="chair-body">
           <a class="chair-link" href="traditions/post-apostolic-house-church.html" aria-label="More information — The Scattered Households">
             <h4>Chloe<span class="role">Household Leader</span></h4>
-            <p class="trad">The Scattered Households</p>
+            <p class="trad">The Scattered Households <span class="trad-academic">(Post-Apostolic Household-Church Christianity)</span></p>
             <p class="meta">70–200 CE · Antioch, Asia Minor, Rome</p>
             <p class="tile">An uncommon faith in scattered households lived as one body, connected by letters and a shared table. Following Jesus meant loss of status, suspicion from neighbors, and even outright persecution at times. Once the apostles were gone, some were led by a single bishop and elders, others by a council of elders.</p>
           </a>
@@ -431,7 +442,7 @@ p{margin:0 0 1rem}
         <div class="chair-body">
           <a class="chair-link" href="traditions/alexandria-catechetical.html" aria-label="More information — Alexandrian Christianity">
             <h4>Theon<span class="role">Catechetical Teacher</span></h4>
-            <p class="trad">Alexandrian Christianity</p>
+            <p class="trad">Alexandrian Christianity <span class="trad-academic">(Alexandrian Catechetical Tradition)</span></p>
             <p class="meta">c. 150–400 CE · Alexandria, Egypt</p>
             <p class="tile">In Alexandria, from about 150 to 400 CE, teachers led seekers through a shared life of reading Scripture. They believed its surface pointed toward a deeper meaning, one that opened onto the Logos himself. Persecution reached even its own teachers—Origen's own father was martyred while Origen was still a boy. Some called it one continuous school; others say it was simply a series of private teachers, grouped together only in hindsight.</p>
           </a>
@@ -443,7 +454,7 @@ p{margin:0 0 1rem}
         <div class="chair-body">
           <a class="chair-link" href="traditions/syriac-edessa-nisibis.html" aria-label="More information — Syriac Christianity">
             <h4>Mar Yausep<span class="role">Teacher of the Covenant Order</span></h4>
-            <p class="trad">Syriac Christianity</p>
+            <p class="trad">Syriac Christianity <span class="trad-academic">(Syriac Christianity of Edessa and Nisibis)</span></p>
             <p class="meta">200–410 CE · Edessa &amp; Nisibis</p>
             <p class="tile">In Edessa and Nisibis, from 200 to 410 CE, Christians taught their faith in hymn and read Scripture as a world of types answering type. At the community's ascetic core stood the covenant: men and women vowed to celibacy for life who served their own congregation instead of withdrawing to the desert. On the Persian side of the frontier, the king's own persecution took the bishop Simeon bar Sabbae and left the church's chief seat empty for twenty years. Whether authority rested more in that vow or in a bishop's office was never settled in their own record.</p>
           </a>
@@ -461,7 +472,7 @@ p{margin:0 0 1rem}
         <div class="chair-body">
           <a class="chair-link" href="traditions/donatism.html" aria-label="More information — The Church of the Martyrs">
             <h4>Fidelis<span class="role">Bishop of the Unbroken Line</span></h4>
-            <p class="trad">The Church of the Martyrs</p>
+            <p class="trad">The Church of the Martyrs <span class="trad-academic">(Donatism)</span></p>
             <p class="meta">c. 311–439 CE · Carthage &amp; Numidia, Roman North Africa</p>
             <p class="tile">In 311/312, Caecilian was consecrated bishop of Carthage by a man accused of surrendering his copy of the scriptures when ordered to — and a rival was consecrated beside him because of it, not in his place. From that day the same see held two bishops at once, two parallel hierarchies contesting town after town across Roman North Africa, each holding its own basilicas and its own unbroken line of ordination. This is the rigorist alternative communion that grew from that refusal: not a doctrinal heresy — its confession is standard North African Latin Trinitarian and Christological orthodoxy — but a communion built on one unyielding conviction, that a tainted hand cannot give what it claims to give. It closes in 439, when a Vandal army took Carthage and removed the Roman state this whole refusal was defined against.</p>
           </a>
@@ -473,7 +484,7 @@ p{margin:0 0 1rem}
         <div class="chair-body">
           <a class="chair-link" href="traditions/imperial-juridical-christianity.html" aria-label="More information — Church and Empire">
             <h4>Marius<span class="role">Deacon of the Letters</span></h4>
-            <p class="trad">Church and Empire</p>
+            <p class="trad">Church and Empire <span class="trad-academic">(Imperial and Juridical Christianity)</span></p>
             <p class="meta">c. 312-451 · Rome, Constantinople, Milan</p>
             <p class="tile">In Rome, Constantinople, and Milan, from Constantine's toleration of the church in 312 to the Council of Chalcedon in 451, Christian bishops became office-holders beside a throne rather than outlaws beneath a sword — hearing lawsuits, administering imperial funds, summoned to councils at the emperor's own expense. Three claims to final authority over the church contested that whole century and a half — Rome's claim from Peter, Constantinople's claim from nearness to the throne, and a bishop's claim to stand in moral judgment over any ruler — and the window closed without settling which one was right. This world's own worst hours were not suffered but caused: a bloody contest over the bishopric of Rome, and a massacre an emperor ordered and then, at his own bishop's insistence, did public penance for.</p>
           </a>
@@ -485,7 +496,7 @@ p{margin:0 0 1rem}
         <div class="chair-body">
           <a class="chair-link" href="traditions/desert-monasticism.html" aria-label="More information — Desert Fathers and Mothers">
             <h4>Papnoute<span class="role">Abba (Elder)</span></h4>
-            <p class="trad">Desert Fathers and Mothers</p>
+            <p class="trad">Desert Fathers and Mothers <span class="trad-academic">(Desert Monasticism)</span></p>
             <p class="meta">c. 320–430 CE · Nile Valley &amp; Desert, Egypt</p>
             <p class="tile">In the Nile Valley and the desert of Egypt, from about 320 to 430 CE, Christians left their villages to wage a lifelong combat against the thoughts that trouble a person from within. Authority came two ways at once, never resolved: earned through a lifetime of discipline under one elder, or conferred by a written rule and an appointed office. What withdrawal cost was everything ordinary life offered — land, family, the safety of a settled place — surrendered by stages and never reclaimed.</p>
           </a>
@@ -497,7 +508,7 @@ p{margin:0 0 1rem}
         <div class="chair-body">
           <a class="chair-link" href="traditions/cappadocian-nicene-pastoral-monastic-tradition.html" aria-label="More information — The Cappadocian Churches">
             <h4>Chilo<span class="role">Elder of the Brotherhoods</span></h4>
-            <p class="trad">The Cappadocian Churches</p>
+            <p class="trad">The Cappadocian Churches <span class="trad-academic">(Cappadocian Pastoral-Monastic and Trinitarian Tradition)</span></p>
             <p class="meta">c. 325-394 CE · Cappadocia / Anatolia</p>
             <p class="tile">The Nicene-confessing churches of Cappadocia and Pontus, from about 325 to 394 CE, were carried by one family and one friendship: Basil of Caesarea, his sister Macrina, his brother Gregory of Nyssa, and Basil's friend Gregory of Nazianzus. A radical ascetic ferment had already dissolved households and turned slaves against masters before Basil built something else instead: brotherhoods bound by rule, obedience, and an open guest-door. Julian's brief pagan revival cost them a martyr at Caesarea in 362; the Homoian church that followed under Valens drove Gregory of Nyssa into exile, before this Nicene minority inherited the empire's favor in 381.</p>
           </a>
@@ -509,7 +520,7 @@ p{margin:0 0 1rem}
         <div class="chair-body">
           <a class="chair-link" href="traditions/gallic-monastic-ascetic-christianity.html" aria-label="More information — The Monk-Bishops of Gaul">
             <h4>Renatus<span class="role">Bishop</span></h4>
-            <p class="trad">The Monk-Bishops of Gaul</p>
+            <p class="trad">The Monk-Bishops of Gaul <span class="trad-academic">(Gallic Monastic-Ascetic Christianity)</span></p>
             <p class="meta">c. 360–450 CE · Loire Valley, Lérins &amp; Marseilles, Gaul</p>
             <p class="tile">This is the church of the ascetic bishop and the received wisdom of Egypt, carried west. In the Loire valley, a soldier who left the army gathered followers in the woods and became a bishop who never stopped living like a monk. Two generations later, on an island off the Mediterranean coast and in the city of Marseilles, monks who had lived among the fathers of Egypt built communities that trained abbots and bishops for the churches of southern Gaul. One of them adapted the customs of the Egyptian desert for a colder climate and a different church. Another wrote a rule for telling the true faith from every novelty. Through both households ran one argument, never fully settled: how much of a monk's progress is God's own gift, and how much is his own effort.</p>
           </a>
@@ -521,7 +532,7 @@ p{margin:0 0 1rem}
         <div class="chair-body">
           <a class="chair-link" href="traditions/hieronymian-ascetic-literary.html" aria-label="More information — The Bethlehem Circle">
             <h4>Albina<span class="role">Widow of the Household</span></h4>
-            <p class="trad">The Bethlehem Circle</p>
+            <p class="trad">The Bethlehem Circle <span class="trad-academic">(Hieronymian Ascetic-Literary Christianity)</span></p>
             <p class="meta">c. 382–420 CE · Rome &amp; Bethlehem</p>
             <p class="tile">In Rome and then Bethlehem, from 382 to 420 CE, a circle of wealthy women and one scholar-priest practiced renunciation and scholarship as a single discipline — fortunes converted into text, hospitality, and care for the sick, a Latin Bible built word by word against the Hebrew it was first written in. The women funded it, founded it, and by Jerome's own account pressed him with scriptural questions for decades; but Jerome wrote nearly every surviving page himself, and how much independent authority his account of them actually reflects is a question this world's own record cannot settle. The cost was concrete: in 384 a daughter of the household died within four months of taking up Jerome's own fasting regime, and Rome's outrage over it helped drive the whole circle out of the city.</p>
           </a>
@@ -539,7 +550,7 @@ p{margin:0 0 1rem}
         <div class="chair-body">
           <a class="chair-link" href="traditions/the-reformed-cities-zurich-and-geneva.html" aria-label="More information — The Reformed Cities">
             <h4>Theophilus<span class="role">Pastor</span></h4>
-            <p class="trad">The Reformed Cities</p>
+            <p class="trad">The Reformed Cities <span class="trad-academic">(The Reformed Cities - Zurich &amp; Geneva)</span></p>
             <p class="meta">1519–1650 · Zurich &amp; Geneva, Swiss Confederacy</p>
             <p class="tile">On 1 January 1519, Huldrych Zwingli began preaching straight through the Gospel of Matthew at Zurich's Grossmünster rather than following the fixed lectionary — the first act of a reform that tested every inherited practice against Scripture and kept only what the text would warrant. Geneva's own reform opened separately and was joined in 1536 by John Calvin, whose ministry built a Consistory of pastors and lay elders to hold the whole city's ordinary conduct to account. Zwingli and Calvin never met; what bridges the two cities is the Consensus Tigurinus (1549), two reforms arriving independently at language neither could disown. This pattern continues unbroken into the Scottish Kirk, the Huguenots, the Dutch Reformed, and English Puritanism.</p>
           </a>
