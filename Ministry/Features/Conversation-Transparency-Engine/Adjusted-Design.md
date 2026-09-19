@@ -10,6 +10,16 @@ Pending.md`, which Mark rules on one at a time.
 Reviewable summary published as an Artifact:
 `https://claude.ai/artifact/N8jiwbkB7kqsdH1jiq8622`
 
+**Read `Decision-Log.md` entry 3 before treating anything below marked
+S1, S2, or item 16–20 as open.** Written before Mark's 2026-09-19 scope
+correction, this document still lays out the Facilitator-safety options
+as live design choices. They aren't. Mark's ruling closed them as
+resolved: the mechanism is a single fixed step (signal → check in →
+encourage seeking real human help), not open design space. What's below
+in §3's "Safety" and "Facilitator" subsections is historical record of
+the reasoning that led to that closure — not a menu Mark or a build
+thread should still be picking from.
+
 ## 0. Ground truth this design stands on (verified in the tree)
 
 - The three live safety fixes are merged (`1c522e918`): `engine/m5/failure.py`

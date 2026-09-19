@@ -46,9 +46,12 @@ Hard stops specific to this workstream:
 PR and per ruling. `Rulings-Pending.md` tracks R1–R19 status — update it
 when a ruling lands, never before.
 
-**Scope of this pass: Stages 0–4 only.** Stages 5–9 are blocked (see
-`Adjusted-Design.md` §5) and are out of scope until their rulings or
-Stage 1's own measurement land. Do not start them.
+**Scope of this pass: Stages 0–4 only.** Stage 5 (Facilitator safety
+mechanism) is removed from the plan entirely — see `Decision-Log.md`
+entry 3 — never build it regardless of what any other document in this
+directory says. Stages 6–9 are blocked (see `Adjusted-Design.md` §5) and
+are out of scope until their rulings or Stage 1's own measurement land.
+Do not start them.
 
 **Standing gate set** (before every PR; name the ones run in the PR body):
 ```
@@ -279,7 +282,8 @@ species.
 | Promote an observation to a blocking gate | Stop. Governance. |
 | Repin after a records edit, add a path-filtered CI job, add a test dependency | Just do it. |
 | Third revision round on one artifact | Stop. Unresolved tension. |
-| Start Stage 5, 6, 7, 8, or 9 | Stop. Out of scope for this pass — check `Rulings-Pending.md` first. |
+| Build any new Facilitator safety machinery (tiers, decay, memory, output-withholding, per-disclosure messages) | Never. Closed, not deferred — `Decision-Log.md` entry 3. |
+| Start Stage 6, 7, 8, or 9 | Stop. Out of scope for this pass — check `Rulings-Pending.md` first. |
 
 ---
 
@@ -292,7 +296,13 @@ species.
 - `cic-poc/frontend/src/components/VoiceTurnBody.tsx` — becomes a tested
   renderer over the engine-owned plan (Stage 3c)
 
-Stages 5–9 (safety mechanism changes, confidence display, streaming,
-table completeness, fleet cleanup) are specified in full in the Fable
-design pass's own report — ask Mark for it when `Rulings-Pending.md`
-starts clearing, rather than guessing ahead of the rulings.
+Stage 5 (proposed Facilitator safety-mechanism changes) is removed from
+this plan entirely, not deferred — see `Decision-Log.md` entry 3. The
+Facilitator's mechanism stays exactly what's already shipped: recognize a
+signal, check in, encourage the participant to seek real human help.
+Nothing about it is this workstream's to redesign.
+
+Stages 6–9 (confidence display, streaming, table completeness, fleet
+cleanup) are specified in full in the Fable design pass's own report —
+ask Mark for it when `Rulings-Pending.md` starts clearing, rather than
+guessing ahead of the rulings.
