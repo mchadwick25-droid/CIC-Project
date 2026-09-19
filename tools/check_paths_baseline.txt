@@ -59,6 +59,12 @@ Ministry/Features/Tour-Experience-Module-Phase2/CiC_Tour_Build_Spec_V0_1_DRAFT.m
 Ministry/Features/Tour-Experience-Module-Phase2/CiC_Tour_Experience_Module_Strategy_V0_3.md: cic-poc/backend/data
 Ministry/Features/Tour-Experience-Module-Phase2/CiC_Tour_Experience_Module_Strategy_V0_3.md: worlds/Nicene-Cappadocian
 Ministry/Features/Tour-Experience-Module-Phase2/Integration-Notes.md: cic-poc/backend/app
+Ministry/Features/Transparency-Safety-Redesign/Adjusted-Design.md: engine/m4/reports/grounding-fooling-
+Ministry/Features/Transparency-Safety-Redesign/Adjusted-Design.md: engine/m5/reports/safety-script-run-1..8.json
+Ministry/Features/Transparency-Safety-Redesign/Build-Plan.md: engine/m1/bar_screen.py
+Ministry/Features/Transparency-Safety-Redesign/Build-Plan.md: engine/m1/spoken_fields.py
+Ministry/Features/Transparency-Safety-Redesign/Build-Plan.md: engine/m4/transparency_plan.py
+Ministry/Features/Transparency-Safety-Redesign/Build-Plan.md: engine/m9/holdings.py
 Ministry/Features/Website-V2/Sandbox/D1-directions/05-product-led-clarity/README.md: records/worlds.yaml
 Ministry/Technology/table_phase0/Texts_Acquisition_Wantlist.md: cic/records
 Ministry/Technology/table_phase0/Texts_Scrub_alexandria.md: cic/records/alexandria/source/srcALX001
