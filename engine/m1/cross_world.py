@@ -50,7 +50,17 @@ OBSERVATION = "observation"
 # this one is known, it is written up, and it is somebody's named next step -
 # not that it is acceptable. See the audit doc for each finding's evidence.
 ACCEPTED_OPEN: dict[str, str] = {
-    "census-living-flag/ijc": "F-06 - census `living` says false, registry says true; ijc's own construction record (Doc_01 SS1, ijc.core.imperial-juridical) explicitly discloses `true` as a fail-safe default pending Mark's own Article 29 confirmation, never actually made - the one of the four F-06 instances still genuinely open",
+    # ijc CLOSED 2026-09-20: census `living` synced true -> matches
+    # registry. ijc's own construction record (Doc_01 SS1,
+    # ijc.core.imperial-juridical) had explicitly disclosed `true` as a
+    # fail-safe default pending Mark's own Article 29 confirmation -
+    # unlike alx/pahc below, this one had genuinely never been made. Put
+    # to Mark directly using pahc's own four-option framing; ruling:
+    # "Multiple traditions, partial claims" (Roman Catholic + Eastern
+    # Orthodoxy). ijc_World_Profile.md SS9 updated PENDING->CONFIRMED;
+    # see worlds/ijc/Open_Gaps_Tracking.md for the full record. F-06 is
+    # now closed across all four of its original instances.
+    #
     # alx CLOSED 2026-09-20: census `living` synced true -> matches
     # registry, which was already correct - Mark confirmed Article 29
     # Living Tradition Status in session 2026-07-17 (Coptic Orthodox

@@ -3538,7 +3538,7 @@
    "glyph": null,
    "statusWord": "Open for conversation",
    "statusDescription": "You can sit down with this tradition now.",
-   "living": false,
+   "living": true,
    "overlayCurrent": false,
    "c2": null,
    "sourcing": "Rich institutional (Eusebius, Ambrose, Leo); thin to silent on ordinary believers, women's own words, and the Homoian establishment's own voice",

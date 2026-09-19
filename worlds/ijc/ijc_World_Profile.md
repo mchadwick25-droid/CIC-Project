@@ -222,17 +222,17 @@ This world's boundaries are drawn and enforced through the same juridical instru
 
 ## Section 9 — Living Tradition Status
 
-**Living tradition correspondence:** YES — but Confirmation status PENDING, not decided by this document.
+**Living tradition correspondence:** YES — Article 29 Living Tradition Status is **CONFIRMED**.
 
-**Which present-day tradition(s):** noted for the record, not decided here (Doc_01 §1): this world's Strand A content has the most direct, traceable living-tradition continuity of any world yet confirmed in this project's portfolio, running forward into the present-day papacy's own claimed lineage; Strand B's content is comparably continuous with Eastern Orthodoxy's own historical self-understanding of Constantinople's status.
+**Which present-day tradition(s):** **CONFIRMED by the project lead (Mark Chadwick), in session, 2026-09-20: "Multiple traditions, partial claims."** This world's Strand A content has the most direct, traceable living-tradition continuity of any world yet confirmed in this project's portfolio, running forward into the present-day papacy's own claimed lineage; Strand B's content is comparably continuous with Eastern Orthodoxy's own historical self-understanding of Constantinople's status. Neither tradition holds an exclusive claim to continuity — each holds a partial and contested one, the same shape of finding already reached for `pahc` (confirmed 2026-07-08) and, with a single named heir rather than a plural one, for `alx` (confirmed 2026-07-17). Article 28 differentiation applies: the historical reconstruction is not a verdict on either modern communion's own present-day self-understanding.
 
 **Key divergences:** not yet developed — this is Representative Construction Notes work (Doc_01 §1), which this thread does not build, per its own stopping point before Step 10.
 
 **Figures of contested standing:** not yet developed, same reason.
 
 **Living Tradition Status Confirmation:**
-Status: PENDING
-Outstanding: a project-lead act (Blueprint V7.3 Section 17, Constitution Article 29) this build thread cannot perform on its own behalf, consistent with every other world in this project's own established practice (see `worlds/syr/Open_Gaps_Tracking.md` item 10).
+Status: **CONFIRMED (2026-09-20)**
+Confirmed by: Mark (project lead), via a direct, deliberated choice among four options ("Multiple traditions, partial claims"; "Catholic + Orthodox only"; "No living tradition"; "Defer to External Scholarly Review") — the same four-option framing already used for `pahc`'s own confirmation. This clears the Article 29 freeze-eligibility gate; **the world remains NOT frozen** (Article 31 External Scholarly Review is still outstanding, as is Representative-dependent validation — Step 10 has not begun).
 
 **Cross-reference:** no Representative Construction Notes document exists yet for this world — Step 10 has not begun, per this thread's own launch instructions.
 
@@ -261,7 +261,7 @@ Outstanding: a project-lead act (Blueprint V7.3 Section 17, Constitution Article
 - [x] Section 6 Primary Vocabulary includes all five Tier 1 terms from Doc_06 with YES/NO always-present designation, plus one flagged Tier 2 RT term
 - [x] Section 7 Tensions named and held as the world held them — neither resolved by hindsight
 - [x] Section 8 Honest Limits stated as natural formation character, not construction gaps, per CO-014's own register
-- [x] Section 9 Living Tradition Status explicitly marked PENDING with what is outstanding stated
+- [x] Section 9 Living Tradition Status — CONFIRMED by the project lead, 2026-09-20 ("Multiple traditions, partial claims"); Article 29 freeze-eligibility gate cleared, world still NOT frozen
 - [x] Section 10 Integrative Observation copied verbatim — status field reads "Verbatim"
 - [x] All section cross-references to Doc_01 through Doc_09 verified — no section relies on content not yet produced
 

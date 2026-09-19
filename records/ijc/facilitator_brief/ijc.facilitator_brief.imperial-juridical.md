@@ -261,27 +261,25 @@ cautions:
 - "The same bishop this world elsewhere credits with restraining an emperor after a massacre (Thessalonica, 390) also used that identical sacramental leverage, two years earlier at Callinicum (388), to shield a mob that had burned a synagogue and a rival Christian meeting-house from having to pay for the damage. This world's own record names that moral inversion directly and does not fold it into a single, safer story of restraint - facilitators should expect it to surface un-smoothed, and should not expect or invent a voice for the harmed community, which this world's own record does not preserve."
 - "This world's record preserves, in the participants' own words, a real argument with itself over religious coercion: one bishop defends using imperial law to compel schismatics into communion; a different, contemporary bishop objects that it is \"a foul and unheard-of indignity\" for a secular court to try a church matter at all, in a case that ended in the first known execution of a Christian by a Christian ruler for heresy. Both voices are carried without endorsement, as this world's own genuine unresolved argument, not smoothed into either a justification or a condemnation."
 - "Damasus's own election as bishop of Rome in 366 was violently contested - an outside pagan witness records 137 dead in one church in a single day's fighting, over nothing but who would be bishop. This sits directly beside the same man's celebrated martyr-shrine building program. Facilitators should expect the voice to hold both facts together rather than let the second soften the first."
-- "Roman Catholicism and Eastern Orthodoxy both trace real, still-contested lineage claims into this exact window - Rome's primacy from Julius through Leo, Constantinople's rank from Canon 3 and Canon 28 - and this world's own living-tradition status is still pending final confirmation in this project's own registry. A participant from either background may encounter live doctrinal territory their own church still argues, not settled history; see living_tradition_handling below for how this world's own voice is bounded against that."
+- "Roman Catholicism and Eastern Orthodoxy both trace real, still-contested lineage claims into this exact window - Rome's primacy from Julius through Leo, Constantinople's rank from Canon 3 and Canon 28 - and this world's living-tradition status is confirmed as exactly that: both traditions, each holding a partial and contested claim, neither an exclusive one. A participant from either background may encounter live doctrinal territory their own church still argues, not settled history; see living_tradition_handling below for how this world's own voice is bounded against that."
 living_tradition_handling:
   text: >-
-    This world's own living-tradition status is still pending final
-    confirmation in this project's own registry, but its content already
-    carries real, live lineage claims two major traditions argue from
-    today. The Roman Catholic Church traces its own papal succession
-    directly into this window's primacy claims, from Julius's letter in
-    341 through Leo's Tome. Eastern Orthodoxy traces its own historic rank
-    as ecumenical patriarchate to the same window's Canon 3 and Canon 28.
-    Both traditions read this world's own closing contest - Leo's
-    rejection of Canon 28 - as evidence for their own side, and this
-    world's own record states the claim and its contestation together,
-    never adjudicating a winner. A participant from either background may
-    meet this world as live doctrinal territory their own church still
-    argues, not only as a historical encounter. This world's own voice
-    speaks only from inside 312 to 451; it makes no claim about any modern
-    institution's present teaching or continuity, and whether a
-    participant today could find "their church" settled by this window is
-    a question for the facilitator to hold, not one this world's own
-    record answers.
+    This world's living-tradition status is confirmed: "Multiple
+    traditions, partial claims." The Roman Catholic Church traces its own
+    papal succession directly into this window's primacy claims, from
+    Julius's letter in 341 through Leo's Tome. Eastern Orthodoxy traces its
+    own historic rank as ecumenical patriarchate to the same window's
+    Canon 3 and Canon 28. Neither holds this world exclusively - both
+    traditions read this world's own closing contest, Leo's rejection of
+    Canon 28, as evidence for their own side, and this world's own record
+    states the claim and its contestation together, never adjudicating a
+    winner. A participant from either background may meet this world as
+    live doctrinal territory their own church still argues, not only as a
+    historical encounter. This world's own voice speaks only from inside
+    312 to 451; it makes no claim about any modern institution's present
+    teaching or continuity, and whether a participant today could find
+    "their church" settled by this window is a question for the
+    facilitator to hold, not one this world's own record answers.
   grounded_in:
   - ijc.core.imperial-juridical
   - ijc.contested.primacy-reception
@@ -381,6 +379,22 @@ be exactly the kind of "left to live only in a conversation" risk that
 file's own discipline (CLAUDE.md, "Track gaps and exceptions explicitly")
 exists to prevent, which is precisely why it is NOT a new gap: it is an
 existing, disclosed one, correctly not re-logged.
+
+RESOLVED 2026-09-20. Surfaced while closing the fleet-wide F-06
+census-living-flag sync gap for hal/alx/pahc - this world was the one
+genuine holdout, since its own pending status (above) was real, not
+drift. Put to Mark directly using the same four-option framing pahc's
+own confirmation used. Ruling: "Multiple traditions, partial claims"
+(Roman Catholic + Eastern Orthodoxy, matching the two lineage claims this
+record already documented). `ijc_World_Profile.md` SS9 updated
+PENDING->CONFIRMED with the full ruling and date; `ijc.core.imperial-
+juridical`'s own body note updated to match; `worlds/ijc/Open_Gaps_
+Tracking.md` and `worlds/ijc/build/BUILD-LOG.md` both updated. This
+record's own `living_tradition_handling` and `cautions` above are updated
+to state the confirmed finding rather than the pending disclosure - no
+new grounding was needed, since the underlying lineage-claim content
+(`ijc.contested.primacy-reception`, `ijc.contested.canon-28-meaning`) was
+already accurate and unchanged by the confirmation itself.
 
 GROUNDING NOTES BY FIELD, briefly.
 
