@@ -1199,4 +1199,49 @@ for the chair-card vertical scroll may be actively touching that area) and
 1. `cic-poc/frontend/src/data/worlds.ts` wiring, deferred above (Mark's own in-progress sandbox file for
    the chair-card vertical scroll may be actively touching that area). `cic-website/index.html`'s
    "who's at the table" listing is done, not deferred (closed this same session).
-2. OG-21's own two open items (Article 31, M3 admission) remain untouched by this entry.
+2. OG-21's own two open items (Article 31, M3 admission) remain untouched by this entry — M3 admission
+   itself is closed by OG-23 below; Article 31 remains open.
+
+## OG-23. M3 admission run and ADMISSION, 2026-09-19
+
+Handled in the same thread as OG-22's own go-live pipeline work — no build work was left; witt's package
+(`packages/witt/2026-09-19T19-24-16Z`) was current and freshly rebuilt against the corrected records
+before this step ran.
+
+**Standard admission is the free, fixture-based battery, not automatically real spend** — a correction
+made mid-thread after first assuming otherwise (matching this world's own earlier, now-corrected note in
+OG-21/the prior version of this entry). `engine.m3.harness.run_battery`'s own default answerer
+(`FixtureRecordAnswerer`, deterministic, zero cost) is what every prior admission's own baseline read has
+used; the real-Bedrock-spend `engine.m3.live_admission_run` script is a separate, per-run-authorized
+verification exercise, not layered onto every world by default (rzg's own admission, `worlds/rzg/
+rzg_Decision_Log.md`, used the free path alone: "admit now on the fixture-based read... The live-Bedrock-
+spend M3 admission run... was offered and not chosen at this stage; not run"). Run as a free pre-check
+first: `engine.m3.harness.run_battery('witt', records)` — **28/28 PASS**, before spending anything real,
+confirming the content itself was solid rather than risking spend on a battery likely to fail.
+
+**Live (real Bedrock spend) admission battery, run on the project lead's explicit authorization** ("yes,
+go ahead with M3 admission"), matching don's own most recent full-spend precedent
+(`worlds/don/don_Decision_Log.md`'s own 2026-09-16 entry) rather than rzg's free-only path — the project
+lead's own call, not self-selected. The sealed 28-probe battery ran against a real, live
+`us.anthropic.claude-sonnet-4-5-20250929-v1:0` streaming voice-generation call (`LiveModelAnswerer`,
+`us-east-1`), one probe per canon cell, all 28 cells covered. **28/28 passed, 0 failing.** Report:
+`engine/m3/reports/live-admission-report-witt-2026-09-19.json`. Real token counts recorded (8,618 input /
+12,547 output / 27,980 cache-write / 755,460 cache-read); no $/token or $/turn figure quoted, per spec
+principle 13, until reconciled against a real AWS invoice.
+
+**What this result does and doesn't cover.** The battery's own automated checks (`source_boundedness`,
+the register heuristic) passed on every probe with no findings — the same instrument the rest of the
+fleet was admitted on, not a stronger or weaker bar for witt. It does not touch this world's own two
+still-open items: Article 31 (external scholarly review) and the `cic-poc/frontend/src/data/worlds.ts`
+wiring OG-22 already named as deferred.
+
+**Disposition: ADMITTED.** The project lead's own word, in direct response to the M3 report: "Admit
+witt." `records/worlds/witt.yaml`'s `state` field set from `built` to `admitted` — nothing else in that
+file touched. The registry flip exposed the same real, expected gap every prior admission has hit
+(admitted but not yet census-synced): `census-id/witt` added to `engine/m1/cross_world.py`'s own
+`ACCEPTED_OPEN`, identical shape and reasoning to don's own now-closed `census-id/don` entry. Verified
+clean after: `cross_world` 0 new defects (24 accepted-open), `engine.m9.cli check` still clean.
+
+The `admitted` -> `open` flip is a separate, later project-lead call, not made here, and no Atlas/census
+sync or WO-1 upload was attempted as part of this entry — those follow `open`, not admission, per the
+pipeline's own step order.
