@@ -1,61 +1,44 @@
-# Rulings Pending — R1 through R19
+# Rulings Pending — Conversation & Transparency Engine
 
 One at a time, per `CLAUDE.md`'s own ground rules: real options, honest
 tradeoffs, a recommendation — never a flat conclusion. Nothing in Stages
-5–9 of `Build-Plan.md` proceeds until its ruling lands here. Update the
+6–9 of `Build-Plan.md` proceeds until its ruling lands here. Update the
 **Status** line when Mark rules; append the outcome to `Decision-Log.md`
 in the same edit.
 
-Full reviewable version: `https://claude.ai/artifact/N8jiwbkB7kqsdH1jiq8622`
+**Scope note (2026-09-19):** every ruling that proposed new Facilitator
+safety machinery is closed below as resolved, per `Decision-Log.md` entry
+3 — Mark's direct ruling that the mechanism is a single fixed step
+(recognize a signal → check in → encourage seeking real human help) and
+is not open design space. What remains open below is conversation/
+transparency engine work only: retrieval, the library connection,
+citation and confidence display.
+
+Full reviewable version (written before the scope correction, read
+alongside `Decision-Log.md` entry 3): `https://claude.ai/artifact/N8jiwbkB7kqsdH1jiq8622`
 
 ---
 
 ### R1 — If the safety call itself fails, answer anyway or fail toward check-in?
-**Status:** PENDING
-(a) Keep today's fail-open toward the voice; build async reclassification
-+ operator paging. (b) Fail toward the softer check-in question instead.
-(c) One retry in the failure path, then (b). (d) (c), plus degraded-turn
-counts surfaced in the weekly digest, paging deferred.
-**Recommend (d)** — caution over resilience, and the added cost lands
-only on turns that are already failing, never on the ordinary turn.
+**Status:** CLOSED (`Decision-Log.md` entry 3) — the existing fail path
+stands; no async reclassification or operator paging is built.
 
 ### R2 — Escalation priority, message decay, and the interim continuation text
-**Status:** PENDING
-(a) Keep "already fired always wins." (b) A rising level wins — a plan
-disclosed after an earlier, milder disclosure gets the stronger message.
-(c) (b), plus decay: the softer continuation only applies within the same
-session and a bounded time window; after that, a fresh full message
-either way. (d) Always the full message; retire the softer continuation
-entirely. Also needs a plain yes/no: is the shipped interim continuation
-text ("I'm still right here with you... Please reach out to someone
-real...") the version that stands, or does it need Mark's own wording?
-**Recommend (c)**, with the shipped text approved as final unless Mark
-wants it reworded.
+**Status:** CLOSED (`Decision-Log.md` entry 3) — no escalation-tier logic,
+no decay timer. The already-merged fix (PR #306) is the whole mechanism.
 
 ### R3 — Item 16's replacement: what, if anything, should the safety classifier be told about recent turns?
-**Status:** PENDING
-(a) Nothing new — leave it fully memoryless. (b) Conditional context, only
-on the single turn right after a check-in fires: a fixed marker plus the
-check-in text plus what got withheld; every other turn stays empty exactly
-as today. (c) (b), plus the same after any crisis-track fire. (d) Handle
-the reply deterministically in code instead of changing what the
-classifier sees at all.
-**Recommend (b)** — it only changes input shape on an already-rare
-follow-up turn, never the ordinary one, so it clears Constraint A.
-Requires its own small test battery before it ships either way.
+**Status:** CLOSED (`Decision-Log.md` entry 3) — nothing. The classifier
+stays fully memoryless; no replacement mechanism of any kind is built.
 
 ### R4 — How often does the non-acute reminder repeat, and does the voice ever see it fired?
-**Status:** PENDING
-(a) Full text every time it fires in a session. (b) Full text once per
-session; a short, separately-approved reminder after that. (c) Full text
-once; later fires logged only, nothing shown. Separately: should the
-Representative's own voice ever see, in its own turn history, that the
-Facilitator spoke?
-**Recommend (b)**, and **never** — in either conversation mode — for the
-second question.
+**Status:** CLOSED (`Decision-Log.md` entry 3) — one check-in, once. No
+frequency tuning beyond what already exists.
 
 ### R5 — A real "interrupt the round" affordance in Table mode
-**Status:** PENDING
+**Status:** PENDING — this is general Table-mode UX (a participant leaving
+a multi-Representative round mid-way), not a safety-mechanism question;
+unaffected by the scope correction.
 (a) A participant message sent mid-round simply closes that round
 server-side and the new message proceeds — no new UI control needed.
 (b) A dedicated, explicit Interrupt button. (c) Both.
@@ -134,23 +117,12 @@ worlds — or blocking starting day one.
 distribution before deciding where the bar sits.
 
 ### R14 — May an output-side safety check ever remove a sentence from the Representative's answer, not just report it?
-**Status:** PENDING
-(a) Report-only, forever — never touch the text. (b) Report-only now;
-revisit once the real fire rate is measured. (c) Withhold just the
-flagged sentence (breaks the "gate decorates, never edits" rule the whole
-system otherwise holds to). (d) Withhold the whole turn and substitute a
-code-owned Facilitator message instead — the Representative's words are
-never partially edited, only wholly declined.
-**Recommend (b)**, with explicit intent to move to **(d)** once the
-measured false-positive rate is near zero. **Never (c)** — mid-sentence
-editing of generated text is exactly the class of thing this project's
-own rules forbid.
+**Status:** CLOSED (`Decision-Log.md` entry 3) — never, in any form. The
+mechanism reports only, exactly as it does today. Not revisited later.
 
 ### R15 — A distinct message when someone discloses risk about a third party, not themselves
-**Status:** PENDING
-(a) Reuse the same first message. (b) A distinct template, same redirect
-underneath. (c) Route to the softer check-in instead.
-**Recommend (b)** — the routing already exists; only the wording is open.
+**Status:** CLOSED (`Decision-Log.md` entry 3) — one message, no branching
+by disclosure type.
 
 ### R16 — Every record fleet-wide is still marked "draft" — what does that mean for confidence display?
 **Status:** PENDING
@@ -167,10 +139,9 @@ once that world has actually been through its promotion pass.
 **Status:** PENDING
 Proposal on the table: at most a small, capped number of inline marks per
 turn (scaling gently with sentence count), one collapsed references line
-instead of a scattered list, at most one Facilitator interjection per
-turn, no new mark types beyond the one contested-claim variant under
-discussion, and the unverified-claims count never rendering to a
-participant at all.
+instead of a scattered list, no new mark types beyond the one
+contested-claim variant under discussion, and the unverified-claims count
+never rendering to a participant at all.
 **Recommend approving the cap as a house rule**, enforced by an automated
 test so no future change can silently stack past it — plus Mark's own
 read-through as a seeker with no background before Stage 6 ever ships.
@@ -183,14 +154,16 @@ truth-verification. (a) Reword now to describe what the mechanism
 actually does. (b) Leave it and wait for the (currently blocked) display
 affordance that would make the current wording accurate.
 **Recommend (a)** — this is a participant-facing honesty gap in its own
-right, independent of anything else in this redesign, and doesn't need
+right, independent of anything else in this workstream, and doesn't need
 to wait on Stage 1's measurement to fix.
 
 ### R19 — Should every world's own voice carry the same "don't recommend outside help" guard clause?
 **Status:** PENDING
 Once the observation pass (Stage 0e) names which worlds are missing don's
 own categorical clause: extend it fleet-wide as one packaged decision, or
-word it per world individually.
+word it per world individually. Note: this is a Representative-voice
+authoring question (does the world's own voice defer to outside help
+appropriately), not part of the closed Facilitator-mechanism scope above.
 **Recommend extending fleet-wide** once the observation names the gap —
 this is exactly the kind of cross-world consistency question CLAUDE.md
 already asks to be decided once, not world by world.

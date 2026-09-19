@@ -38,6 +38,7 @@ import sys
 
 from engine.m1.loader import RECORDS_ROOT, load_world_records
 from engine.m1.registry import REPO_ROOT, formation_world_keys, load_registry
+from engine.m1.spoken_fields import PARTICIPANT_FIELDS
 
 CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 APP_WORLDS_TS = REPO_ROOT / "cic-poc" / "frontend" / "src" / "data" / "worlds.ts"
@@ -702,14 +703,10 @@ _BUILD_REF = re.compile(r"\bDoc_\d|\bArtifact-\d|\bBUILD-LOG\b|\bthis build\b|\b
 # attribution scopes itself to build_prompt()'s own field contract:
 # commentary fields are a LEGITIMATE home for build language, and scanning
 # them would bury the real findings.
-_PARTICIPANT_FIELDS = {
-    "figure": ["bridge_line"],
-    "term": ["world_word"],
-    "story": ["tellable_as"],
-    "gravity": ["name"],
-    "force": ["name"],
-    "contested_claim": ["claim"],
-}
+# Relocated to engine/m1/spoken_fields.py (PARTICIPANT_FIELDS) 2026-09-19 -
+# one declared spoken-field registry instead of six/seven independent
+# lists; see that module's own docstring. Same values, same behavior.
+_PARTICIPANT_FIELDS = PARTICIPANT_FIELDS
 
 
 def check_participant_field_leaks(*, records, worlds, **_) -> list[Finding]:
