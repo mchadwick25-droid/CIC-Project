@@ -1179,11 +1179,24 @@ for the chair-card vertical scroll may be actively touching that area) and
   the default for a world going through this gate for the first time — waiving it for witt would
   extend `GRANDFATHERED_WORLDS` to a category even rzg never got. Shown this precisely, **Mark's
   ruling: "we want the best quality, whatever it takes"** — fix the 27 records for real (re-ground
-  each citation in a genuinely vendored source, or rework the claim), not waive them. In progress;
-  not yet closed by this entry.
+  each citation in a genuinely vendored source, or rework the claim), not waive them.
+
+  **Closed.** A research pass mapped all 14 unvendored sources these 27 findings cite (quote-verified
+  against `cic/texts/`, not taken on trust): six were genuinely embedded inside a different source this
+  world already vendors (12 citing records re-pointed to the real, tight-matching sibling — in most
+  cases the exact Source Registry row the unvendored record's own edition field already named); one
+  (`luther-de-votis-monasticis`) carried a mistaken "embedded within" claim, corrected on discovery
+  that only the treatise's own *exclusion* from the volume was actually there, and re-pointed to the
+  general-introduction record that genuinely carries that note (2 records); the remaining eight sources
+  are genuine dead ends — no vendored alternative exists anywhere in this library, and every one of the
+  12 citing records had *already* disclosed this same absence in its own body text before this fix
+  touched it, so removing the formal source pointer and folding the disclosure into the record's own
+  remaining vendored citation lost no content, verified record by record. `engine.m9.cli check` now
+  reports witt fully clean; package rebuilt and re-pinned (`records/worlds/witt.yaml`,
+  `2026-09-19T19-24-16Z`).
 
 **Open items seeded:**
-1. Finish the 27 `emic-vendored-only` record fixes (real editorial work, per-citation judgment).
-2. `cic-poc/frontend/src/data/worlds.ts` wiring and `cic-website/index.html`'s "who's at the table"
-   listing, both deferred above.
-3. OG-21's own two open items (Article 31, M3 admission) remain untouched by this entry.
+1. `cic-poc/frontend/src/data/worlds.ts` wiring, deferred above (Mark's own in-progress sandbox file for
+   the chair-card vertical scroll may be actively touching that area). `cic-website/index.html`'s
+   "who's at the table" listing is done, not deferred (closed this same session).
+2. OG-21's own two open items (Article 31, M3 admission) remain untouched by this entry.

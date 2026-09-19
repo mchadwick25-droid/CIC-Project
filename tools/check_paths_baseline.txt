@@ -492,6 +492,7 @@ worlds/syr/build/REVIEW-ROUND-1.md: records/worlds.yaml
 worlds/syr/build/VOICE-CRAFT-REVIEW-ROUND-1.md: records/worlds.yaml
 worlds/syr/build/VOICE-CRAFT-REVIEW-ROUND-2.md: records/worlds.yaml
 worlds/witt/Open_Gaps_Tracking.md: World-Builds/Alexandria-Catechetical-School/Open_Gaps_Tracking.md
+worlds/witt/Open_Gaps_Tracking.md: World-Builds/Lutheran-Wittenberg
 worlds/witt/witt_B1a_B1b_Coverage_Check.md: World-Builds/Lutheran-Wittenberg
 worlds/witt/witt_B8_Build_Note.md: cic-poc/backend
 worlds/witt/witt_B9_Scoping_Note.md: cic-poc/backend
