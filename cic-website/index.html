@@ -233,7 +233,19 @@ p{margin:0 0 1rem}
    own height cap. overscroll-behavior-y:contain (already set) stops a
    scroll that hits the top/bottom of this box from chaining into a
    scroll of the whole page behind it. */
-.who-gallery{max-height:min(65vh,640px);overflow-y:auto;overscroll-behavior-y:contain;padding-right:.3rem;margin:0 -.3rem 0 0}
+.who-gallery{max-height:min(65vh,640px);overflow-y:auto;overscroll-behavior-y:contain;padding-right:.3rem;margin:0 -.3rem 0 0;scrollbar-width:none}
+.who-gallery::-webkit-scrollbar{display:none}
+/* Native scrollbar hidden and replaced the same way as .chairs-scrollbar
+   (see that comment for why) rather than waiting to find out the hard way
+   that this box hits the same "second scrollable region on the page"
+   paint problem -- this is the SECOND scrollable region after era rows
+   claim the first several slots, so it's exactly the position that bug
+   hit before. */
+.gallery-scrollbar{position:absolute;width:14px;cursor:pointer;touch-action:none}
+.gallery-scrollbar[hidden]{display:none}
+.gallery-scrollbar-track{position:absolute;left:4px;top:0;bottom:0;width:6px;border-radius:3px;background:var(--rule)}
+.gallery-scrollbar-thumb{position:absolute;left:4px;width:6px;border-radius:3px;background:var(--control)}
+.gallery-scrollbar:hover .gallery-scrollbar-thumb,.gallery-scrollbar-thumb:active{background:var(--muted)}
 .era-group:not(:first-child){margin-top:1.8rem}
 .era-head{display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline;font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.3rem;margin:0}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
