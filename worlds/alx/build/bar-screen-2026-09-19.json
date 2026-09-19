@@ -1,0 +1,1136 @@
+{
+  "world": "alx",
+  "generated": "2026-09-19",
+  "fields": {
+    "demonstration.exchange": {
+      "count": 9,
+      "fk_grade_median": 6.04,
+      "fk_grade_max": 8.04,
+      "longest_sentence_words_max": 36,
+      "worst_record": "alx.demo.woman-authority"
+    },
+    "doctrinal_witness.text": {
+      "count": 13,
+      "fk_grade_median": 7.42,
+      "fk_grade_max": 9.69,
+      "longest_sentence_words_max": 38,
+      "worst_record": "alx.dw.councils"
+    },
+    "honest_limit.statement": {
+      "count": 3,
+      "fk_grade_median": 5.57,
+      "fk_grade_max": 9.08,
+      "longest_sentence_words_max": 37,
+      "worst_record": "alx.limit.marriage"
+    },
+    "story.tellable_as": {
+      "count": 8,
+      "fk_grade_median": 8.76,
+      "fk_grade_max": 13.37,
+      "longest_sentence_words_max": 17,
+      "worst_record": "alx.story.leonides-martyrdom"
+    },
+    "story.text": {
+      "count": 8,
+      "fk_grade_median": 7.15,
+      "fk_grade_max": 9.18,
+      "longest_sentence_words_max": 36,
+      "worst_record": "alx.story.arsinoite-conference"
+    },
+    "term.plain_meaning": {
+      "count": 51,
+      "fk_grade_median": 6.94,
+      "fk_grade_max": 9.98,
+      "longest_sentence_words_max": 29,
+      "worst_record": "alx.term.scripture-as-address"
+    },
+    "term.quick_meaning": {
+      "count": 51,
+      "fk_grade_median": 6.73,
+      "fk_grade_max": 9.93,
+      "longest_sentence_words_max": 18,
+      "worst_record": "alx.term.logikos"
+    },
+    "world_core.cautions": {
+      "count": 1,
+      "fk_grade_median": 13.78,
+      "fk_grade_max": 13.78,
+      "longest_sentence_words_max": 31,
+      "worst_record": "alx.core.alexandria"
+    },
+    "world_core.formation_logic": {
+      "count": 1,
+      "fk_grade_median": 19.81,
+      "fk_grade_max": 19.81,
+      "longest_sentence_words_max": 37,
+      "worst_record": "alx.core.alexandria"
+    },
+    "world_core.horizon": {
+      "count": 1,
+      "fk_grade_median": 20.24,
+      "fk_grade_max": 20.24,
+      "longest_sentence_words_max": 39,
+      "worst_record": "alx.core.alexandria"
+    },
+    "world_core.thinness": {
+      "count": 1,
+      "fk_grade_median": 25.75,
+      "fk_grade_max": 25.75,
+      "longest_sentence_words_max": 61,
+      "worst_record": "alx.core.alexandria"
+    }
+  },
+  "records": {
+    "world_core.horizon": [
+      {
+        "record_id": "alx.core.alexandria",
+        "words": 43,
+        "sentences": 2,
+        "longest_sentence_words": 39,
+        "fk_grade": 20.24
+      }
+    ],
+    "world_core.formation_logic": [
+      {
+        "record_id": "alx.core.alexandria",
+        "words": 64,
+        "sentences": 2,
+        "longest_sentence_words": 37,
+        "fk_grade": 19.81
+      }
+    ],
+    "world_core.thinness": [
+      {
+        "record_id": "alx.core.alexandria",
+        "words": 87,
+        "sentences": 2,
+        "longest_sentence_words": 61,
+        "fk_grade": 25.75
+      }
+    ],
+    "world_core.cautions": [
+      {
+        "record_id": "alx.core.alexandria",
+        "words": 143,
+        "sentences": 10,
+        "longest_sentence_words": 31,
+        "fk_grade": 13.78
+      }
+    ],
+    "demonstration.exchange": [
+      {
+        "record_id": "alx.demo.couldnt-believe",
+        "words": 116,
+        "sentences": 8,
+        "longest_sentence_words": 28,
+        "fk_grade": 6.64
+      },
+      {
+        "record_id": "alx.demo.couldnt-believe",
+        "words": 119,
+        "sentences": 9,
+        "longest_sentence_words": 24,
+        "fk_grade": 5.83
+      },
+      {
+        "record_id": "alx.demo.going-to-hell",
+        "words": 214,
+        "sentences": 12,
+        "longest_sentence_words": 35,
+        "fk_grade": 7.64
+      },
+      {
+        "record_id": "alx.demo.marriage-ending",
+        "words": 158,
+        "sentences": 9,
+        "longest_sentence_words": 34,
+        "fk_grade": 6.81
+      },
+      {
+        "record_id": "alx.demo.someone-like-me",
+        "words": 160,
+        "sentences": 11,
+        "longest_sentence_words": 32,
+        "fk_grade": 5.17
+      },
+      {
+        "record_id": "alx.demo.want-to-believe",
+        "words": 179,
+        "sentences": 13,
+        "longest_sentence_words": 36,
+        "fk_grade": 5.0
+      },
+      {
+        "record_id": "alx.demo.who-was-jesus",
+        "words": 154,
+        "sentences": 8,
+        "longest_sentence_words": 25,
+        "fk_grade": 5.94
+      },
+      {
+        "record_id": "alx.demo.woman-authority",
+        "words": 195,
+        "sentences": 11,
+        "longest_sentence_words": 32,
+        "fk_grade": 8.04
+      },
+      {
+        "record_id": "alx.demo.women-own-words",
+        "words": 151,
+        "sentences": 12,
+        "longest_sentence_words": 32,
+        "fk_grade": 6.04
+      }
+    ],
+    "doctrinal_witness.text": [
+      {
+        "record_id": "alx.dw.apostolic",
+        "words": 186,
+        "sentences": 11,
+        "longest_sentence_words": 38,
+        "fk_grade": 8.76
+      },
+      {
+        "record_id": "alx.dw.church-failure",
+        "words": 152,
+        "sentences": 13,
+        "longest_sentence_words": 26,
+        "fk_grade": 6.52
+      },
+      {
+        "record_id": "alx.dw.councils",
+        "words": 138,
+        "sentences": 10,
+        "longest_sentence_words": 25,
+        "fk_grade": 9.69
+      },
+      {
+        "record_id": "alx.dw.doubt",
+        "words": 160,
+        "sentences": 13,
+        "longest_sentence_words": 28,
+        "fk_grade": 7.62
+      },
+      {
+        "record_id": "alx.dw.empire",
+        "words": 141,
+        "sentences": 11,
+        "longest_sentence_words": 30,
+        "fk_grade": 8.89
+      },
+      {
+        "record_id": "alx.dw.god",
+        "words": 163,
+        "sentences": 15,
+        "longest_sentence_words": 25,
+        "fk_grade": 4.65
+      },
+      {
+        "record_id": "alx.dw.jesus",
+        "words": 137,
+        "sentences": 9,
+        "longest_sentence_words": 22,
+        "fk_grade": 6.4
+      },
+      {
+        "record_id": "alx.dw.one-church",
+        "words": 138,
+        "sentences": 11,
+        "longest_sentence_words": 27,
+        "fk_grade": 6.24
+      },
+      {
+        "record_id": "alx.dw.original-sin",
+        "words": 138,
+        "sentences": 11,
+        "longest_sentence_words": 24,
+        "fk_grade": 7.97
+      },
+      {
+        "record_id": "alx.dw.record",
+        "words": 162,
+        "sentences": 15,
+        "longest_sentence_words": 20,
+        "fk_grade": 6.39
+      },
+      {
+        "record_id": "alx.dw.resurrection",
+        "words": 150,
+        "sentences": 9,
+        "longest_sentence_words": 37,
+        "fk_grade": 8.45
+      },
+      {
+        "record_id": "alx.dw.suffering",
+        "words": 163,
+        "sentences": 13,
+        "longest_sentence_words": 35,
+        "fk_grade": 6.89
+      },
+      {
+        "record_id": "alx.dw.was-jesus-god",
+        "words": 161,
+        "sentences": 11,
+        "longest_sentence_words": 30,
+        "fk_grade": 7.42
+      }
+    ],
+    "honest_limit.statement": [
+      {
+        "record_id": "alx.limit.f5-women-own-words",
+        "words": 43,
+        "sentences": 3,
+        "longest_sentence_words": 25,
+        "fk_grade": 5.57
+      },
+      {
+        "record_id": "alx.limit.marriage",
+        "words": 89,
+        "sentences": 4,
+        "longest_sentence_words": 37,
+        "fk_grade": 9.08
+      },
+      {
+        "record_id": "alx.limit.material-remains",
+        "words": 51,
+        "sentences": 3,
+        "longest_sentence_words": 23,
+        "fk_grade": 4.69
+      }
+    ],
+    "story.tellable_as": [
+      {
+        "record_id": "alx.story.arsinoite-conference",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 8.76
+      },
+      {
+        "record_id": "alx.story.didymus-meeting",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.63
+      },
+      {
+        "record_id": "alx.story.gregory-formation",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 8.41
+      },
+      {
+        "record_id": "alx.story.john-young-robber",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 7.7
+      },
+      {
+        "record_id": "alx.story.leonides-martyrdom",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 13.37
+      },
+      {
+        "record_id": "alx.story.origen-demetrius",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 10.15
+      },
+      {
+        "record_id": "alx.story.plague-nursing",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 8.41
+      },
+      {
+        "record_id": "alx.story.potamiaena",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 13.07
+      }
+    ],
+    "story.text": [
+      {
+        "record_id": "alx.story.arsinoite-conference",
+        "words": 197,
+        "sentences": 11,
+        "longest_sentence_words": 33,
+        "fk_grade": 9.18
+      },
+      {
+        "record_id": "alx.story.didymus-meeting",
+        "words": 104,
+        "sentences": 7,
+        "longest_sentence_words": 25,
+        "fk_grade": 6.88
+      },
+      {
+        "record_id": "alx.story.gregory-formation",
+        "words": 158,
+        "sentences": 11,
+        "longest_sentence_words": 35,
+        "fk_grade": 7.11
+      },
+      {
+        "record_id": "alx.story.john-young-robber",
+        "words": 224,
+        "sentences": 18,
+        "longest_sentence_words": 32,
+        "fk_grade": 4.22
+      },
+      {
+        "record_id": "alx.story.leonides-martyrdom",
+        "words": 112,
+        "sentences": 8,
+        "longest_sentence_words": 24,
+        "fk_grade": 7.15
+      },
+      {
+        "record_id": "alx.story.origen-demetrius",
+        "words": 130,
+        "sentences": 10,
+        "longest_sentence_words": 21,
+        "fk_grade": 7.82
+      },
+      {
+        "record_id": "alx.story.plague-nursing",
+        "words": 139,
+        "sentences": 8,
+        "longest_sentence_words": 29,
+        "fk_grade": 7.07
+      },
+      {
+        "record_id": "alx.story.potamiaena",
+        "words": 176,
+        "sentences": 11,
+        "longest_sentence_words": 36,
+        "fk_grade": 8.69
+      }
+    ],
+    "term.plain_meaning": [
+      {
+        "record_id": "alx.term.agape",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 6.78
+      },
+      {
+        "record_id": "alx.term.allegoria",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.16
+      },
+      {
+        "record_id": "alx.term.anastasis",
+        "words": 16,
+        "sentences": 3,
+        "longest_sentence_words": 7,
+        "fk_grade": 4.93
+      },
+      {
+        "record_id": "alx.term.apokatastasis",
+        "words": 24,
+        "sentences": 2,
+        "longest_sentence_words": 18,
+        "fk_grade": 6.3
+      },
+      {
+        "record_id": "alx.term.arete",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.78
+      },
+      {
+        "record_id": "alx.term.autexousia",
+        "words": 25,
+        "sentences": 2,
+        "longest_sentence_words": 17,
+        "fk_grade": 9.11
+      },
+      {
+        "record_id": "alx.term.baptism",
+        "words": 20,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 6.75
+      },
+      {
+        "record_id": "alx.term.catechetical-school",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 8.39
+      },
+      {
+        "record_id": "alx.term.christ",
+        "words": 24,
+        "sentences": 1,
+        "longest_sentence_words": 24,
+        "fk_grade": 9.8
+      },
+      {
+        "record_id": "alx.term.christological-reading",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 9.78
+      },
+      {
+        "record_id": "alx.term.didaskalos",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 9.08
+      },
+      {
+        "record_id": "alx.term.eikon",
+        "words": 23,
+        "sentences": 3,
+        "longest_sentence_words": 12,
+        "fk_grade": 4.84
+      },
+      {
+        "record_id": "alx.term.ekklesia",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 8.39
+      },
+      {
+        "record_id": "alx.term.elpis",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "alx.term.episkopos",
+        "words": 15,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 9.36
+      },
+      {
+        "record_id": "alx.term.eucharistia",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "alx.term.fall-descent",
+        "words": 22,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 6.94
+      },
+      {
+        "record_id": "alx.term.fasting",
+        "words": 16,
+        "sentences": 2,
+        "longest_sentence_words": 8,
+        "fk_grade": 3.76
+      },
+      {
+        "record_id": "alx.term.gnosis",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 5.88
+      },
+      {
+        "record_id": "alx.term.hamartia",
+        "words": 24,
+        "sentences": 1,
+        "longest_sentence_words": 24,
+        "fk_grade": 9.28
+      },
+      {
+        "record_id": "alx.term.homoiosis",
+        "words": 28,
+        "sentences": 2,
+        "longest_sentence_words": 19,
+        "fk_grade": 6.28
+      },
+      {
+        "record_id": "alx.term.homoousios",
+        "words": 20,
+        "sentences": 1,
+        "longest_sentence_words": 20,
+        "fk_grade": 7.55
+      },
+      {
+        "record_id": "alx.term.incarnation",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "alx.term.interpretation",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 9.78
+      },
+      {
+        "record_id": "alx.term.kanon-pisteos",
+        "words": 20,
+        "sentences": 2,
+        "longest_sentence_words": 13,
+        "fk_grade": 4.83
+      },
+      {
+        "record_id": "alx.term.katechesis",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "alx.term.lapsi",
+        "words": 18,
+        "sentences": 2,
+        "longest_sentence_words": 10,
+        "fk_grade": 5.62
+      },
+      {
+        "record_id": "alx.term.logikos",
+        "words": 22,
+        "sentences": 2,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "alx.term.logos",
+        "words": 19,
+        "sentences": 1,
+        "longest_sentence_words": 19,
+        "fk_grade": 5.48
+      },
+      {
+        "record_id": "alx.term.martys",
+        "words": 17,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 3.0
+      },
+      {
+        "record_id": "alx.term.metanoia",
+        "words": 17,
+        "sentences": 2,
+        "longest_sentence_words": 14,
+        "fk_grade": 4.64
+      },
+      {
+        "record_id": "alx.term.methexis",
+        "words": 27,
+        "sentences": 2,
+        "longest_sentence_words": 21,
+        "fk_grade": 7.18
+      },
+      {
+        "record_id": "alx.term.mysterion",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 5.88
+      },
+      {
+        "record_id": "alx.term.nous",
+        "words": 33,
+        "sentences": 2,
+        "longest_sentence_words": 24,
+        "fk_grade": 8.72
+      },
+      {
+        "record_id": "alx.term.oikonomia",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 6.78
+      },
+      {
+        "record_id": "alx.term.oikos",
+        "words": 15,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 9.05
+      },
+      {
+        "record_id": "alx.term.paideia",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.78
+      },
+      {
+        "record_id": "alx.term.photismos",
+        "words": 13,
+        "sentences": 2,
+        "longest_sentence_words": 7,
+        "fk_grade": 9.64
+      },
+      {
+        "record_id": "alx.term.pistis",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 3.63
+      },
+      {
+        "record_id": "alx.term.pneuma-hagion",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.82
+      },
+      {
+        "record_id": "alx.term.prayer",
+        "words": 16,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 3.76
+      },
+      {
+        "record_id": "alx.term.psyche",
+        "words": 36,
+        "sentences": 2,
+        "longest_sentence_words": 29,
+        "fk_grade": 8.09
+      },
+      {
+        "record_id": "alx.term.restoration",
+        "words": 21,
+        "sentences": 2,
+        "longest_sentence_words": 17,
+        "fk_grade": 6.6
+      },
+      {
+        "record_id": "alx.term.salvation",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "alx.term.scripture-as-address",
+        "words": 27,
+        "sentences": 1,
+        "longest_sentence_words": 27,
+        "fk_grade": 9.98
+      },
+      {
+        "record_id": "alx.term.son-of-god",
+        "words": 23,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 3.72
+      },
+      {
+        "record_id": "alx.term.sophia",
+        "words": 27,
+        "sentences": 2,
+        "longest_sentence_words": 18,
+        "fk_grade": 5.82
+      },
+      {
+        "record_id": "alx.term.thanatos",
+        "words": 24,
+        "sentences": 2,
+        "longest_sentence_words": 16,
+        "fk_grade": 8.9
+      },
+      {
+        "record_id": "alx.term.theosis",
+        "words": 18,
+        "sentences": 2,
+        "longest_sentence_words": 14,
+        "fk_grade": 3.65
+      },
+      {
+        "record_id": "alx.term.transformation",
+        "words": 25,
+        "sentences": 3,
+        "longest_sentence_words": 15,
+        "fk_grade": 5.04
+      },
+      {
+        "record_id": "alx.term.word-of-god",
+        "words": 25,
+        "sentences": 2,
+        "longest_sentence_words": 18,
+        "fk_grade": 4.33
+      }
+    ],
+    "term.quick_meaning": [
+      {
+        "record_id": "alx.term.agape",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 3.65
+      },
+      {
+        "record_id": "alx.term.allegoria",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 4.82
+      },
+      {
+        "record_id": "alx.term.anastasis",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 8.41
+      },
+      {
+        "record_id": "alx.term.apokatastasis",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 3.72
+      },
+      {
+        "record_id": "alx.term.arete",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 4.91
+      },
+      {
+        "record_id": "alx.term.autexousia",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 7.7
+      },
+      {
+        "record_id": "alx.term.baptism",
+        "words": 17,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 5.08
+      },
+      {
+        "record_id": "alx.term.catechetical-school",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 6.73
+      },
+      {
+        "record_id": "alx.term.christ",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 6.14
+      },
+      {
+        "record_id": "alx.term.christological-reading",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 6.94
+      },
+      {
+        "record_id": "alx.term.didaskalos",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 9.08
+      },
+      {
+        "record_id": "alx.term.eikon",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 9.14
+      },
+      {
+        "record_id": "alx.term.ekklesia",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 8.54
+      },
+      {
+        "record_id": "alx.term.elpis",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 8.01
+      },
+      {
+        "record_id": "alx.term.episkopos",
+        "words": 9,
+        "sentences": 2,
+        "longest_sentence_words": 6,
+        "fk_grade": 9.77
+      },
+      {
+        "record_id": "alx.term.eucharistia",
+        "words": 8,
+        "sentences": 1,
+        "longest_sentence_words": 8,
+        "fk_grade": 6.71
+      },
+      {
+        "record_id": "alx.term.fall-descent",
+        "words": 14,
+        "sentences": 2,
+        "longest_sentence_words": 9,
+        "fk_grade": 8.58
+      },
+      {
+        "record_id": "alx.term.fasting",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 6.73
+      },
+      {
+        "record_id": "alx.term.gnosis",
+        "words": 9,
+        "sentences": 1,
+        "longest_sentence_words": 9,
+        "fk_grade": 3.65
+      },
+      {
+        "record_id": "alx.term.hamartia",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "alx.term.homoiosis",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 8.76
+      },
+      {
+        "record_id": "alx.term.homoousios",
+        "words": 10,
+        "sentences": 1,
+        "longest_sentence_words": 10,
+        "fk_grade": 2.47
+      },
+      {
+        "record_id": "alx.term.incarnation",
+        "words": 10,
+        "sentences": 1,
+        "longest_sentence_words": 10,
+        "fk_grade": 7.19
+      },
+      {
+        "record_id": "alx.term.interpretation",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 8.37
+      },
+      {
+        "record_id": "alx.term.kanon-pisteos",
+        "words": 10,
+        "sentences": 1,
+        "longest_sentence_words": 10,
+        "fk_grade": 5.86
+      },
+      {
+        "record_id": "alx.term.katechesis",
+        "words": 10,
+        "sentences": 1,
+        "longest_sentence_words": 10,
+        "fk_grade": 4.83
+      },
+      {
+        "record_id": "alx.term.lapsi",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 8.37
+      },
+      {
+        "record_id": "alx.term.logikos",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 9.93
+      },
+      {
+        "record_id": "alx.term.logos",
+        "words": 9,
+        "sentences": 1,
+        "longest_sentence_words": 9,
+        "fk_grade": 2.34
+      },
+      {
+        "record_id": "alx.term.martys",
+        "words": 10,
+        "sentences": 1,
+        "longest_sentence_words": 10,
+        "fk_grade": 3.65
+      },
+      {
+        "record_id": "alx.term.metanoia",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 8.01
+      },
+      {
+        "record_id": "alx.term.methexis",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 2.65
+      },
+      {
+        "record_id": "alx.term.mysterion",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 3.72
+      },
+      {
+        "record_id": "alx.term.nous",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 6.73
+      },
+      {
+        "record_id": "alx.term.oikonomia",
+        "words": 10,
+        "sentences": 1,
+        "longest_sentence_words": 10,
+        "fk_grade": 4.79
+      },
+      {
+        "record_id": "alx.term.oikos",
+        "words": 10,
+        "sentences": 2,
+        "longest_sentence_words": 6,
+        "fk_grade": 8.78
+      },
+      {
+        "record_id": "alx.term.paideia",
+        "words": 10,
+        "sentences": 1,
+        "longest_sentence_words": 10,
+        "fk_grade": 2.47
+      },
+      {
+        "record_id": "alx.term.photismos",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 2.65
+      },
+      {
+        "record_id": "alx.term.pistis",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 2.65
+      },
+      {
+        "record_id": "alx.term.pneuma-hagion",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 6.79
+      },
+      {
+        "record_id": "alx.term.prayer",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 6.88
+      },
+      {
+        "record_id": "alx.term.psyche",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 8.47
+      },
+      {
+        "record_id": "alx.term.restoration",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "alx.term.salvation",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.78
+      },
+      {
+        "record_id": "alx.term.scripture-as-address",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 5.04
+      },
+      {
+        "record_id": "alx.term.son-of-god",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "alx.term.sophia",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 4.91
+      },
+      {
+        "record_id": "alx.term.thanatos",
+        "words": 10,
+        "sentences": 1,
+        "longest_sentence_words": 10,
+        "fk_grade": 7.19
+      },
+      {
+        "record_id": "alx.term.theosis",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 2.65
+      },
+      {
+        "record_id": "alx.term.transformation",
+        "words": 9,
+        "sentences": 1,
+        "longest_sentence_words": 9,
+        "fk_grade": 7.19
+      },
+      {
+        "record_id": "alx.term.word-of-god",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.73
+      }
+    ]
+  }
+}

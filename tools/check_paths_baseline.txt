@@ -11,7 +11,6 @@ Ministry/Features/Backend/CiC_Session_Recovery_and_World_Ceiling_Design_V0_1_DRA
 Ministry/Features/Backend/README.md: cic-poc/backend
 Ministry/Features/Conversation-Transparency-Engine/Adjusted-Design.md: engine/m4/reports/grounding-fooling-
 Ministry/Features/Conversation-Transparency-Engine/Adjusted-Design.md: engine/m5/reports/safety-script-run-1..8.json
-Ministry/Features/Conversation-Transparency-Engine/Build-Plan.md: engine/m1/bar_screen.py
 Ministry/Features/Conversation-Transparency-Engine/Build-Plan.md: engine/m4/transparency_plan.py
 Ministry/Features/Conversation-Transparency-Engine/Build-Plan.md: engine/m9/holdings.py
 Ministry/Features/Front-End-Integration-Strategy/Design/CiC_FrontEnd_Brand_Alignment_Review_V0_1.md: Ministry/Operations/CiC_Prototype_Testing_Pilot_Plan_DRAFT_V0_1.md
