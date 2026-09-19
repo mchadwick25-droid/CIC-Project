@@ -241,6 +241,43 @@ svg#world{display:block;overflow:visible}
 #panel .docstory h4{font-family:"Alegreya",serif;font-size:1rem;margin:0 0 .1rem}
 #panel .docstory .meta{margin:0 0 .4rem;font-size:.78rem}
 #panel .docstory .caveat{font-size:.85rem;color:var(--ink-faded);font-style:italic}
+/* Website V2 world_front design, site cutover Part 3: styling for the 8
+   built worlds' own fetched Orientation content (#orient-fetch-slot,
+   populated by loadBuiltWorldOrientation() from cic-website/assets/
+   orientation-render.mjs's shared markup - the same markup
+   tools/generate_tradition_pages.py renders into each world's own static
+   tradition page). Scoped under the #orient-fetch-slot id specifically
+   (higher specificity than the .docstories-row/.docstory-item rules just
+   above) so it never touches those rules' own effect on the 284 non-built
+   movements' still-embedded documentedStories, which keep their existing
+   pill-row/hover-tooltip presentation unchanged. This content is a full
+   always-visible title/when/teaser per story (Part 2's own spec), not a
+   space-constrained pill, so it reads as a plain vertical list here
+   rather than a flex-wrapped row of buttons. */
+#panel #orient-fetch-slot.orient-loading{color:var(--ink-faded);font-style:italic}
+#panel #orient-fetch-slot .docstories-row{display:block;margin:.6rem 0 .3rem}
+#panel #orient-fetch-slot .docstory-entry{margin:0 0 .9rem}
+#panel #orient-fetch-slot .docstory-entry h4{font-family:"Alegreya",serif;font-size:1rem;margin:0 0 .15rem}
+#panel #orient-fetch-slot .docstory-entry>.meta{margin:0 0 .2rem;font-size:.78rem;color:var(--ink-faded)}
+#panel #orient-fetch-slot .docstory-entry>.teaser{font-style:italic;font-size:.9rem;margin:0 0 .4rem}
+#panel #orient-fetch-slot details.docstory-item{margin:0}
+#panel #orient-fetch-slot details.docstory-item summary{cursor:pointer;list-style:none;display:inline-block;
+  padding:.3rem .6rem;background:var(--tyrian-wash);border:1px solid var(--rule);border-radius:4px;
+  font-size:.78rem;color:var(--tyrian)}
+#panel #orient-fetch-slot details.docstory-item summary::-webkit-details-marker{display:none}
+#panel #orient-fetch-slot details.docstory-item summary:focus-visible{outline:2px solid var(--gold-leaf);outline-offset:2px}
+#panel #orient-fetch-slot .orient-voices{display:flex;flex-direction:column;gap:.8rem;margin:.4rem 0}
+#panel #orient-fetch-slot .orient-voice-name{font-family:"Alegreya Sans",sans-serif;font-weight:600;font-size:.85rem;margin:0 0 .15rem}
+#panel #orient-fetch-slot .orient-voice-dates{font-weight:400;color:var(--ink-faded)}
+#panel #orient-fetch-slot .orient-voice-text{font-size:.92rem;line-height:1.5;margin:0 0 .3rem}
+#panel #orient-fetch-slot .orient-voice-hedge{font-family:"Alegreya Sans",sans-serif;font-size:.82rem;
+  line-height:1.45;color:var(--ink-faded);border-left:2px solid var(--tyrian);padding-left:.6rem}
+#panel #orient-fetch-slot .orient-hedge-label{font-weight:600;color:var(--ink)}
+#panel #orient-fetch-slot .orient-relations{font-style:italic;font-size:.92rem}
+#panel #orient-fetch-slot .orient-read-first{list-style:none;margin:.5rem 0 0;padding:0}
+#panel #orient-fetch-slot .orient-read-first li{border-top:1px solid var(--rule);padding:.4rem 0;font-size:.85rem}
+#panel #orient-fetch-slot .orient-read-first-work{font-family:"Alegreya Sans",sans-serif;font-weight:600;display:block}
+#panel #orient-fetch-slot .orient-read-first-note{font-size:.8rem;color:var(--ink-faded)}
 #legend{position:fixed;left:.8rem;bottom:.8rem;z-index:20;background:var(--vellum);
   border:1px solid var(--rule);border-radius:3px;padding:.5rem .7rem;font-size:.72rem;
   max-width:230px;max-height:60vh;overflow-y:auto;box-shadow:var(--shadow)}
@@ -1112,86 +1149,6 @@ const DATA = {
  "movements": [
   {
    "id": "post-apostolic-house-church",
-   "documentedStories": [
-    {
-     "title": "Ignatius Asks Rome Not to Save Him",
-     "when": "c. 107–117",
-     "tier": "1",
-     "verification": "checked directly against the primary text",
-     "teaser": "A condemned bishop writes ahead to the church in the capital with one request: do nothing.",
-     "text": "Somewhere on the road across Asia Minor, chained to a squad of soldiers he called ‘ten leopards’, Ignatius of Antioch dictated a letter to the Christians of Rome before he reached them. Other churches had sent delegations to meet him; Rome, he feared, had influence enough to get the sentence commuted, and he wrote to forbid it. ‘I beseech you not to show an unseasonable good-will towards me. Suffer me to become food for the wild beasts.’ He called himself the wheat of God, to be ground by the beasts’ teeth into pure bread, and asked that nothing of his body be left to trouble anyone. He was careful about his standing: ‘I do not, as Peter and Paul, issue commandments unto you. They were apostles; I am but a condemned man.’ The letter shows a second-century congregation’s ordinary machinery at work — couriers, advance notice, a network that could reach the imperial capital in time to intervene — and a bishop using that machinery to refuse its help. Whether the Roman church obeyed him is not recorded. Neither is the manner of his death; the later Acts that describe it are fiction. What survives is the letter, and the fact that Polycarp of Smyrna was collecting copies of Ignatius’ letters within months of his passing through.",
-     "caveat": "The letter is attested from the second century (Polycarp refers to the collection); the middle recension is accepted by most scholars as genuine, though a minority dates the corpus later. Nothing is known of the execution beyond the fact of it.",
-     "sources": [
-      {
-       "work": "Ignatius of Antioch, Epistle to the Romans, ch. 4–5",
-       "type": "primary",
-       "note": "The plea not to be rescued; ‘I am the wheat of God’."
-      },
-      {
-       "work": "Polycarp of Smyrna, Epistle to the Philippians, ch. 13",
-       "type": "primary",
-       "note": "Polycarp forwarding the collected letters of Ignatius — the earliest external witness."
-      },
-      {
-       "work": "Eusebius, Church History III.36",
-       "type": "primary",
-       "note": "Eusebius’ summary of the journey and the letters."
-      },
-      {
-       "work": "Michael W. Holmes (ed.), The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker, 2007)",
-       "type": "reference",
-       "note": "Standard edition; discusses the recension question."
-      }
-     ]
-    },
-    {
-     "title": "The Grandsons of Jude Before Domitian",
-     "when": "c. 90–96",
-     "tier": "2",
-     "verification": "adapted from this project's own reviewed Doc_09 Story Inventory for this world",
-     "teaser": "Two farmers from the Lord’s own family are hauled before an emperor, and show him their hands.",
-     "text": "Hegesippus, writing about seventy years later, preserved the story the Palestinian churches told about the reign of Domitian. Information had been laid that the grandsons of Jude — ‘who is said to have been the Lord’s brother according to the flesh’ — belonged to the house of David, and they were brought before the emperor. He asked whether they were David’s descendants; they said they were. He asked how much they owned. Nine thousand denarii between them, they answered, and not in coin but in a single piece of land of thirty-nine acres, from which they paid their taxes and fed themselves by their own labour. Then, the account says, they held out their hands and showed him the calluses. Asked about Christ and his kingdom — what sort it was, and where and when it would appear — they answered that it was not earthly but heavenly, and would appear at the end of the world when he came to judge the living and the dead. Domitian, ‘despising them as of no account’, let them go. Hegesippus adds that they went on to lead churches, as confessors and as kin of the Lord, and lived into Trajan’s reign. The story mattered to the people who kept it because it said something about their own congregations: that the family of Jesus were smallholders with dirty hands, and that this was nothing to be ashamed of.",
-     "caveat": "Preserved only in Eusebius’ quotation of Hegesippus (second century), recording an event of the late first. The detail is vivid but unverifiable; the imperial audience may be a family tradition dressed up. The point the church drew from it — poverty, labour, a kingdom not of this world — is what is documented.",
-     "sources": [
-      {
-       "work": "Eusebius, Church History III.19–20 (quoting Hegesippus)",
-       "type": "primary",
-       "note": "The only surviving text of the episode."
-      },
-      {
-       "work": "Richard Bauckham, Jude and the Relatives of Jesus in the Early Church (T&T Clark, 1990)",
-       "type": "reference",
-       "note": "The fullest modern assessment of the Hegesippus tradition."
-      }
-     ]
-    },
-    {
-     "title": "Quintus, Who Volunteered and Then Swore",
-     "when": "c. 155–156",
-     "tier": "1",
-     "verification": "checked directly against the primary text",
-     "teaser": "Before it praises Polycarp, the church of Smyrna records the man who gave himself up and broke.",
-     "text": "The letter the church of Smyrna wrote about Polycarp’s death is best remembered for the old bishop’s ‘eighty and six years have I served him’. But the congregation put another man into the record first. A Phrygian named Quintus, newly arrived, had gone forward to the authorities of his own accord and persuaded some others to do the same. When he saw the wild beasts he lost his nerve; the proconsul, after ‘much entreaty’, got him to swear by the emperor’s fortune and to sacrifice. The letter draws the lesson without softening it: ‘we do not commend those who give themselves up, since the Gospel does not teach so.’ Polycarp, by contrast, had let his friends persuade him to withdraw to a farm outside the city, and was found only when a servant boy was tortured into revealing where he was. The document is thus doing two things at once — honouring a martyr and correcting a piety that courted martyrdom — and it shows a congregation thinking hard about what faithfulness under threat required, rather than simply celebrating deaths. That the community chose to keep Quintus’ name and failure in a letter it was sending to other churches is itself a piece of evidence about how these communities understood honesty.",
-     "caveat": "The Martyrdom of Polycarp is a near-contemporary letter, though scholars detect some later editing; the Quintus paragraph is generally taken as original, partly because it is so unflattering. Nothing else is known of him.",
-     "sources": [
-      {
-       "work": "Martyrdom of Polycarp, ch. 4–7 and 9",
-       "type": "primary",
-       "note": "Quintus (ch. 4); Polycarp’s withdrawal and arrest (ch. 5–7); the confession (ch. 9)."
-      },
-      {
-       "work": "Eusebius, Church History IV.15",
-       "type": "primary",
-       "note": "Eusebius’ long excerpt of the same letter."
-      },
-      {
-       "work": "Candida Moss, Ancient Christian Martyrdom (Yale, 2012)",
-       "type": "reference",
-       "note": "On voluntary martyrdom and the Quintus paragraph."
-      }
-     ]
-    }
-   ],
    "atlasId": "I.1",
    "era": 1,
    "name": "Post-Apostolic Household-Church Christianity",
@@ -1762,7 +1719,6 @@ const DATA = {
      "rights": "Public Domain"
     }
    ],
-   "sourcing": "Moderate to rich for communal life — letters, church order, worship — but its most vivid material leans on one contested corpus: Ignatius's seven letters, whose authorship and dating (c. 107–117 CE traditionally; rival readings place them decades later, even as later composition) remain a genuine, unresolved scholarly dispute. Individual, first-person voice stays thin throughout: no woman, no enslaved member, and no non-literate believer — the majority of this movement — speaks to us in words of their own.",
    "sources": [
     {
      "work": "Ignatius of Antioch, Epistle to the Ephesians",
@@ -1830,8 +1786,6 @@ const DATA = {
     "Justin Martyr, First Apology",
     "Shepherd of Hermas"
    ],
-   "floorNote": "These communities lived two centuries before the Nicene Creed was written. What they confessed is part of the raw material the creed was later drawn from, not a departure from it.",
-   "relationsSummary": "Parent of nearly everything on the map",
    "why": "This Christian tradition is fully built, and you can have a conversation with Chloe, a household leader, right now.",
    "entry": {
     "representativeId": "chloe",
@@ -1842,17 +1796,7 @@ const DATA = {
     "color": "#955FF0",
     "tile": "In Antioch, Asia Minor, and Rome, between about 70 and 200 CE, house churches grew up on their own. No single power ruled over them — letters carried by couriers held the network together instead. Once the apostles died, how to lead a church was never settled. Some followed a single bishop with elders beside him, others a council of elders alone. In Corinth, some elders were removed from office — an account that survives only in Rome's own letter asking for them back. That letter used real command language — “submit,” “receive correction” — but Rome claimed no formal power to force it. Corinth's own side is not preserved. They marked the Lord's Supper in different ways, too. One early manual gives thanks over the cup before the bread. Neither blessing tells the story of the Last Supper. Following Jesus could mean real danger: in one province, a governor had members questioned under torture, and in another, a bishop was marched under armed guard toward Rome. But this danger came and went — never constant, never empire-wide.",
     "icon": "assets/world-icons/house-churches.svg"
-   },
-   "longDescription": "In the generations following the apostles, the earliest Christian movement had no documented church buildings and no single leadership structure. They had the Old Testament. The gospels and letters of the apostles moved between communities as copies were made and passed along, though no fixed collection had been settled yet. It was a network of faithful households, scattered across Antioch, Asia Minor, and Rome, meeting wherever they could. New believers were taught the Two Ways on the road to baptism; only then were they brought into the fellowship to share the weekly breaking of bread and prayer. Across long distances, these household communities were held together by carried letters.\n\nSome communities were guided by a single bishop alongside elders and deacons, others by a circle of elders alone\u2014both forms were real, and neither was settled. The questions they wrestled with had no easy answers: How do we make room for genuine doubt? How should conflict within the community be resolved? What did women's leadership look like? Following Jesus routinely meant loss of social standing, suspicion from neighbors, and periodic waves of official violence.\n\nIn his surviving letters, Ignatius of Antioch describes writing to sister churches while being marched toward Rome under armed guard \u2014 soldiers he called 'ten leopards,' who, in his own words, 'show themselves all the worse' the more kindly he treats them. Justin, who told his imperial interrogator that he taught above a public bathhouse in Rome, wrote down the earliest record of what their Sunday actually looked like\u2014the reading of the memoirs, the common loaf and cup, and the collection gathered for orphans, widows, and travelers. Justin was executed for refusing to abandon his Lord; tradition has it that Ignatius met the same end.\n\nThe earliest outside account of these communities comes from Roman authority, not from inside the movement. Around 112 CE, the governor Pliny the Younger wrote to the emperor Trajan describing an investigation: believers who had recanted told him, under threat of ordinary punishment, that these communities met before dawn to sing a hymn to Christ 'as God,' bound themselves by oath against theft and adultery, then met again later for a meal they called 'common yet harmless.' Still unsatisfied, Pliny had two enslaved women who held office among them \u2014 titled ministrae, deacons \u2014 questioned under torture. He learned, he wrote, only 'a superstition depraved and immoderate.' Their names do not survive; his letter is the earliest outside evidence that women held a formal title here at all.",
-   "voices": [
-    "Ignatius, bishop of Antioch, wrote seven letters to congregations while he was marched toward Rome under armed guard, c. 107-117. Polycarp's own letter later speaks of him as already dead, though it admits not knowing the details of what happened.",
-    "Clement of Rome wrote on behalf of the Roman church to the Corinthians around the year 96, addressing a dispute over deposed leaders. The letter is the earliest Christian writing outside the New Testament to survive.",
-    "Polycarp of Smyrna was addressed as bishop by Ignatius, though his own letter never claims the title, opening only as 'Polycarp, and the presbyters with him.' He was put to death at Smyrna around 155; his own congregation recorded his death.",
-    "Justin Martyr was a philosopher who kept teaching Christianity as a school in Rome. He left the earliest detailed description of what their Sunday actually looked like.",
-    "Most of these communities' hosts and householders are never named in the record. The gatherings met in their homes, but no record says whose.",
-    "Two enslaved women who served among these communities, called ministrae, are named only by their Roman interrogator's own word for their office — never by their own names. A governor had them tortured around the year 112 to learn what Christians did; it is the earliest outside evidence that women here held a formal title at all."
-   ],
-   "legacy": "Almost every Christian tradition descends from these early gatherings. The basic rhythm of Christian worship—assembling on the first day of the week, reading aloud from the prophets and the apostles' memoirs, and sharing the bread and the cup, whether in a full communal meal or the bread and wine alone—shows up earliest in these spaces.\n\nWith the apostles no longer there to consult, these communities had to work out how to live together: how to treat one another, how to pray, and how to forgive and restore those who fell into sin or caused division. The roles of bishop, presbyter, and deacon were already named in the apostolic writings, but trying to live out those instructions under local pressures gave the offices more concrete form.\n\nThe apostolic texts themselves gained authority in much the same way. Reading the apostles' letters aloud week after week became an enduring habit, and it was through this regular use in worship—not by an early decree—that these writings came to be heard alongside the ancient Jewish Scriptures. Carried by travelers from city to city, these letters bound scattered households together, and writings like those of Clement, Ignatius, and Polycarp were preserved and read for generations to come."
+   }
   },
   {
    "id": "greek-apologists-second-century",
@@ -2127,86 +2071,6 @@ const DATA = {
   },
   {
    "id": "alexandria-catechetical",
-   "documentedStories": [
-    {
-     "title": "Nursing the Plague-Stricken While the City Fled",
-     "when": "c. 259–263",
-     "tier": "1",
-     "verification": "adapted from this project's own reviewed Doc_09 Story Inventory for this world",
-     "teaser": "In a pandemic year the bishop of Alexandria writes an Easter letter about who stayed with the sick.",
-     "text": "In one of the plague years of the early 260s Dionysius, bishop of Alexandria and a pupil of Origen, wrote his annual Easter letter to the churches, and Eusebius preserved it. The city had already been through civil war and famine; now, Dionysius wrote, ‘there is not a house in which there is not one dead.’ He described what his own people did. ‘Most of our brethren were unsparing in their exceeding love and brotherly kindness. They held fast to each other and visited the sick fearlessly, and ministered to them continually, serving them in Christ.’ Many caught the disease from those they nursed and died of it — presbyters, deacons and laity — and Dionysius says the church counted these deaths as a kind of martyrdom. He then described the other side of the city: pagan households that ‘thrust aside anyone who began to be sick, and kept aloof even from their dearest friends, and cast the sufferers out upon the public roads half dead.’ Dionysius drew that contrast deliberately, but the underlying facts are not in question. The closing of the eyes, the washing and carrying of bodies, the willingness to take a dying stranger’s illness on oneself: these were the visible marks of the congregation in a city that had shown them little sympathy. Within a decade Dionysius himself was dead and Alexandria was under Palmyrene occupation.",
-     "caveat": "Dionysius’ letter is contemporary and first-hand, but written to encourage his own flock and to contrast them with pagans; it is a pastoral letter, not a census. The date is approximate.",
-     "sources": [
-      {
-       "work": "Eusebius, Church History VII.22 (quoting Dionysius’ Easter letter)",
-       "type": "primary",
-       "note": "The whole account; Eusebius quotes the letter at length."
-      },
-      {
-       "work": "Dionysius of Alexandria, Extant Fragments (ANF 6)",
-       "type": "primary",
-       "note": "The letters as collected in the ANF edition."
-      },
-      {
-       "work": "Kyle Harper, The Fate of Rome: Climate, Disease, and the End of an Empire (Princeton, 2017)",
-       "type": "reference",
-       "note": "On the ‘Plague of Cyprian’ and Dionysius’ testimony."
-      }
-     ]
-    },
-    {
-     "title": "Three Days of Argument at Arsinoë",
-     "when": "c. 255",
-     "tier": "1",
-     "verification": "adapted from this project's own reviewed Doc_09 Story Inventory for this world",
-     "teaser": "A bishop travels up the Nile to debate a dead colleague’s book with the villagers who love it, and stays until they are ready.",
-     "text": "A bishop named Nepos, in the Fayyum district south of Alexandria, had written a book called Refutation of the Allegorists, arguing for a literal thousand-year reign of the saints on earth and against the Alexandrian habit of reading Scripture symbolically. Nepos died; his book did not. Whole congregations in the Arsinoite district took it up, and, Dionysius wrote, ‘schisms and apostasies of entire churches’ followed. What Dionysius did next he described himself. He went to the district, called together the presbyters, teachers and any lay people who wished to come, and sat with them for three days ‘from morning till evening’, going through the book. He praised Nepos where he could — his faith, his industry, his psalms — and asked the villagers to test everything by Scripture. He records that the people ‘loved the truth and were ready to be persuaded’, that they asked questions freely and put objections, and that at the end Coracion, the leader of the party, declared in everyone’s hearing that he would no longer hold or teach the doctrine. Dionysius then wrote On the Promises against the book. The episode is one of the few records of how an ancient bishop dealt with a division not by anathema but by sitting down with the people involved. It also shows the Alexandrian school’s method in action outside the lecture hall: read the text, weigh it, argue.",
-     "caveat": "Dionysius is the only source and is describing his own success; Coracion’s side of the three days is not recorded. The literal millennium Nepos taught was mainstream in earlier generations and only later became a mark of heterodoxy.",
-     "sources": [
-      {
-       "work": "Eusebius, Church History VII.24 (quoting Dionysius, On the Promises)",
-       "type": "primary",
-       "note": "The whole account in Dionysius’ own words."
-      },
-      {
-       "work": "Dionysius of Alexandria, Extant Fragments: On the Promises (ANF 6)",
-       "type": "primary",
-       "note": "ANF edition of the fragments."
-      },
-      {
-       "work": "Charles Hill, Regnum Caelorum: Patterns of Millennial Thought in Early Christianity, 2nd ed. (Eerdmans, 2001)",
-       "type": "reference",
-       "note": "On Nepos and the Egyptian millenarian dispute."
-      }
-     ]
-    },
-    {
-     "title": "Origen’s Rash Act and the Bishop Who Turned on Him",
-     "when": "c. 205–231",
-     "tier": "2",
-     "verification": "checked directly against the primary text",
-     "teaser": "A young teacher takes a hard saying of Jesus literally; his bishop first admires him, then uses it against him for twenty years.",
-     "text": "Eusebius tells the story with visible discomfort. While Origen was running catechetical instruction in Alexandria as a young man, teaching women as well as men, he read the words about those who ‘have made themselves eunuchs for the kingdom of heaven’s sake’ and — ‘in too literal and extreme a sense’, Eusebius says — acted on them, partly to remove any occasion for slander. He tried to keep it secret and could not. Demetrius, bishop of the city, at first ‘admired greatly the daring nature of the act’ and urged him to go on teaching. Years later, when Origen had become famous and had been ordained a presbyter by the bishops of Caesarea and Jerusalem without Demetrius’ leave, the same bishop — ‘overcome by human weakness’, in Eusebius’ phrase — wrote to bishops everywhere denouncing the deed as folly and using it to challenge the ordination. Origen left Alexandria for good around 231 and taught at Caesarea until his death. The story is uncomfortable from every side: a brilliant young man’s self-harm in the name of purity, a bishop’s jealousy dressed as canon law, and a Christian historian who plainly loved Origen trying to be fair to both. Modern scholars are divided over whether the mutilation happened at all or was a slur Origen’s enemies spread; Origen himself later wrote against exactly this literal reading of the verse.",
-     "caveat": "Eusebius wrote a century later and admired Origen; his account of Demetrius’ motives is partisan. Whether the self-mutilation is fact or rumour is genuinely disputed. The rupture with Demetrius and the move to Caesarea are secure.",
-     "sources": [
-      {
-       "work": "Eusebius, Church History VI.8",
-       "type": "primary",
-       "note": "The deed and Demetrius’ change of attitude."
-      },
-      {
-       "work": "Origen, Commentary on Matthew XV.1–5",
-       "type": "primary",
-       "note": "Origen’s own later argument against a literal reading of Matthew 19:12 (ANF 9 has books X–XIV; XV is in the GCS edition)."
-      },
-      {
-       "work": "Henri Crouzel, Origen, trans. A. S. Worrall (T&T Clark, 1989)",
-       "type": "reference",
-       "note": "Weighs the evidence for and against the tradition."
-      }
-     ]
-    }
-   ],
    "atlasId": "I.2",
    "era": 1,
    "name": "Alexandrian Catechetical / Christian-Platonist Tradition",
@@ -2753,7 +2617,6 @@ const DATA = {
      "rights": "Public Domain"
     }
    ],
-   "sourcing": "Rich (Clement, Origen); school-institution question is live scholarship. One real gap: Clement's fullest surviving treatment of marriage and the body exists only in his own Greek — no public-domain English translation has ever been made of it.",
    "sources": [
     {
      "work": "Clement of Alexandria, Stromata (Miscellanies)",
@@ -2779,8 +2642,6 @@ const DATA = {
      "note": "The 1932 study that first argued, against Eusebius's tidy succession-list, that Alexandria's teaching looked more like a sequence of private Christian tutors than one formal institution — the opening move in the scholarship this record's sourcing note calls \"live.\""
     }
    ],
-   "floorNote": "This tradition's core confession does not diverge from the doctrine the Nicene Creed later stated — though one of its own greatest figures held things more loosely. Origen speculated boldly toward the soul's pre-existence and the final restoration of all things. The rupture of his own lifetime was not over these ideas: his bishop condemned his ordination, not his doctrine. The dispute over the doctrines themselves broke into open controversy only around 399–400, nearly a century and a half after his death, and a church council formally condemned them three centuries after that.",
-   "relationsSummary": "A contested influence on Desert Monasticism, real at one disputed point and denied as a general continuation; scholarship parent of the Bethlehem Circle",
    "why": "This Christian tradition is fully built, and you can have a conversation with Theon, a catechetical teacher, right now.",
    "entry": {
     "representativeId": "theon",
@@ -2791,105 +2652,10 @@ const DATA = {
     "color": "#3B83BF",
     "tile": "In Alexandria, from about 150 to 400 CE, teachers led seekers through a shared reading of Scripture. They read for a deeper meaning beneath the surface, one that opened onto the Logos himself. This teaching reached the literate few. Ordinary believers met the same faith another way — through baptism, the shared meal, and the yearly round of fasts and feasts. Some call this one continuous school, led by one teacher after another. Others say it was simply a series of private teachers, grouped together only in hindsight. When plague struck the city, Bishop Dionysius wrote to his own church, praising his people for nursing the sick and burying the dead. Others, he wrote, fled the city instead. Persecution could reach the school's own teachers, not only the wider community. Origen himself was imprisoned and tortured under the emperor Decius, and he died a few years later. It had already touched his boyhood, too. His father was martyred in an earlier persecution, when Origen was still just a boy.",
     "icon": "assets/world-icons/alexandria.svg"
-   },
-   "longDescription": "Alexandria was the ancient world's great city of libraries and lecture halls, and Christianity there took the same shape: a school. Teachers received enquirers, catechumens preparing for baptism, and educated pagans curious about this new philosophy, and walked them through Scripture as a text with a surface and a depth: the letter first, then the moral sense, then the spiritual meaning that opens onto the Logos himself.\n\nClement wrote for cultivated Greeks who wanted to know whether a Christian could keep his learning. Origen, who succeeded him, wrote commentaries across most of Scripture and produced the Hexapla, a six-column parallel edition of the Old Testament assembled to see what the Hebrew actually said \u2014 before falling out with his bishop and moving his teaching to Caesarea around 231. Historians still argue about how formal the whole thing was \u2014 whether Alexandria had one continuous institution with a succession of appointed heads, as Eusebius later described it, or a looser sequence of private Christian schools whose teachers happened to be remembered together. That tidy succession comes almost entirely from Eusebius: Clement's own writings never once describe a formal school that he headed.\n\nThe allegorical way of reading Scripture is this tradition's best-known signature, but it was never uncontested even at home. Nepos, a bishop out in the Egyptian countryside at Arsinoe, wrote a book refuting the allegorists and won real support for a plainer, literal reading \u2014 until Dionysius, by then bishop of Alexandria, spent three days in patient public conversation with Nepos's own community and brought them back around.",
-   "voices": [
-    "Pantaenus was the earliest teacher named in the tradition, remembered as a philosopher who had converted from Stoicism. Clement later paid tribute to a beloved teacher as 'the true, the Sicilian bee,' though Clement himself never names him, and the identification with Pantaenus comes only from Eusebius.",
-    "Clement of Alexandria wrote for educated Greeks, arguing that philosophy had been a tutor leading them toward Christ.",
-    "Origen dominates the surviving record here: a commentator, a textual scholar, and the first Christian to attempt a systematic account of the faith.",
-    "Dionysius of Alexandria studied under Origen and later became bishop, steering the Egyptian church through persecution and plague. Of Christians who nursed the dying while an epidemic emptied the city, he wrote: they 'held fast to each other and visited the sick fearlessly... and died with them most joyfully, taking the affliction of others, and drawing the sickness from their neighbors to themselves.'",
-    "Didymus the Blind lost his sight at four, yet taught in Alexandria for decades — later tradition remembers him as heading the school in its final generation, though no surviving primary account actually says so. Jerome studied under him. Didymus's own books vanished for over fifteen centuries, until a cache of them turned up by chance in the Egyptian sand near Tura in 1941; none has yet been translated into English, so his voice here comes only through his students.",
-    "Most of the ordinary people who filled these classrooms and congregations left no words of their own. Potamiaena, a young woman the church remembered by name for her courage under execution, is typical of what survives: her story, never her own words. Everything that survives here was written by the literate few — teachers, bishops, and their own students."
-   ],
-   "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen's textual scholarship set the standard for taking the original languages seriously; Basil of Caesarea and Gregory of Nazianzus compiled an anthology of his writings, and Ambrose and Jerome read him closely even when they were careful about saying so.\n\nThe tradition also fed directly into Egyptian monasticism, giving the desert its intellectual vocabulary."
+   }
   },
   {
    "id": "syriac-edessa-nisibis",
-   "documentedStories": [
-    {
-     "title": "Ephrem Leaves His Cell for the Famine",
-     "when": "372–373",
-     "tier": "2",
-     "verification": "checked directly against the primary text",
-     "teaser": "The rich of Edessa say they cannot find an honest man to distribute relief. An old deacon volunteers.",
-     "text": "Palladius, who gathered the story about fifty years later, says that Ephrem had lived quietly for years, teaching whoever came to his cell, and left it only once, at the end, ‘for the following reason’. A famine had come upon Edessa and the countryside around it. Ephrem went to the city’s wealthy men and asked why they let human beings die while their wealth rotted ‘for the condemnation of your souls’. They answered that there was no one they could trust to administer relief, since ‘all are dishonest in business affairs’. He asked what they thought of him. They said they knew him to be a man of God. ‘Then trust me. See, on your behalf I appoint myself hospitaller.’ He raised the money, partitioned the city’s porticoes into wards, and set up about three hundred beds, nursing those who might recover and burying those who did not, and — Palladius adds — extending help to anyone from the surrounding district who came in. When the year turned and the harvest came, everyone went home, and Ephrem, ‘no longer having anything to do’, went back to his cell and died within the month. The poet who had put the doctrine of the church into hymns for forty years ended as an administrator of soup and bedding. His own hymns say nothing about it; the story comes from the tradition that remembered him.",
-     "caveat": "Palladius wrote around 420 from oral tradition; Sozomen gives a shorter version. The outline — famine relief in Ephrem’s last year — is generally accepted; the numbers and dialogue are as remembered, not as recorded at the time.",
-     "sources": [
-      {
-       "work": "Palladius, Lausiac History, ch. 40 (Ephraim)",
-       "type": "primary",
-       "note": "The fullest version, with the three hundred beds."
-      },
-      {
-       "work": "Sozomen, Ecclesiastical History III.16",
-       "type": "primary",
-       "note": "A shorter, independent notice of the famine relief."
-      },
-      {
-       "work": "Sebastian Brock, The Luminous Eye (Cistercian, 1985)",
-       "type": "reference",
-       "note": "On Ephrem’s life and the reliability of the later traditions about him."
-      }
-     ]
-    },
-    {
-     "title": "Jacob of Nisibis and the Siege of 338",
-     "when": "338",
-     "tier": "3",
-     "verification": "from reference summaries; primary text not yet read",
-     "teaser": "A Persian army dams the river against the city; the bishop climbs the wall and prays, and the tradition says gnats did the rest.",
-     "text": "Nisibis sat on the frontier, and in 338 Shapur II besieged it. The story the Syriac and Greek churches told afterwards is preserved by Theodoret, who wrote within a century. The Persians dammed the river Mygdonius until the pent-up water burst against the wall and brought a stretch of it down; the citizens, with Jacob their bishop encouraging them, rebuilt the breach overnight, and Jacob — old, and reluctant to appear on the walls — was persuaded to go up and pray. He asked God not for the Persians’ destruction but for a swarm of gnats and mosquitoes, which came and maddened the elephants and horses until the army withdrew. Ephrem, who was Jacob’s deacon and lived through the siege, wrote of it in his Nisibene Hymns without mentioning insects: his Nisibis is a ship in a storm, delivered by the prayers of its bishop and the repentance of its people. The two witnesses differ in what they attribute to God, and the difference is instructive. The hymns are contemporary and treat the deliverance as an act of God through ordinary means; the later story adds a miracle. The Chronicle of Edessa places Jacob’s death that same year, though the Chronicon Paschale has him still defending the city in a later siege in 350 — the two vendored witnesses conflict, and the date is left open here rather than silently chosen. The city itself was surrendered to Persia in 363, when Ephrem and most of the Christians left. Nisibis remembered its bishop as its protector for as long as it was Christian.",
-     "caveat": "Theodoret’s gnats belong to hagiography written after the fact; Ephrem’s hymns, the contemporary witness, do not mention them. The siege itself and Jacob’s role in it are secure.",
-     "sources": [
-      {
-       "work": "Theodoret, Ecclesiastical History II.26 (II.30 in some editions)",
-       "type": "primary",
-       "note": "The gnats and the collapse of the wall."
-      },
-      {
-       "work": "Ephrem the Syrian, Nisibene Hymns I–III",
-       "type": "primary",
-       "note": "The contemporary witness; no miracle of insects."
-      },
-      {
-       "work": "J. B. Segal, Edessa: The Blessed City (Oxford, 1970)",
-       "type": "reference",
-       "note": "On Nisibis, Edessa and the frontier wars."
-      }
-     ]
-    },
-    {
-     "title": "The Letter Eusebius Copied from the Archive of Edessa",
-     "when": "story set c. 30; recorded c. 300–400",
-     "tier": "3",
-     "verification": "from reference summaries; primary text not yet read",
-     "teaser": "A church on the frontier told the empire that its king had written to Jesus, and had the letter to prove it.",
-     "text": "Eusebius, finishing his Church History around 325, closed the first book with a document he said he had found in the public archive of Edessa and translated ‘word for word from the Syriac’. In it King Abgar, sick, writes to Jesus in Jerusalem asking him to come and heal him, having heard of his cures; Jesus writes back that he must finish what he was sent to do, but will send a disciple afterwards. The apostle Thomas, the story continues, sent Addai (Thaddaeus), who healed the king and preached to the city. A century later the Syriac Doctrine of Addai expanded the tale — the royal archivist Hannan paints Jesus’ portrait, the king’s nobles convert, the Jewish and pagan citizens argue. No modern scholar thinks Jesus wrote a letter to Edessa; the correspondence is a composition of the third century at the earliest, and the Decretum Gelasianum listed it as apocryphal in the sixth. But the story documents something real: a Christian community on the Persian frontier, speaking Aramaic rather than Greek, that traced its faith not through Rome or Antioch but straight to the apostles, and held the founding document in its own archive. Egeria, visiting in the 380s, was shown the letter by the bishop and given a copy to take home. Edessa built its identity on it for a thousand years.",
-     "caveat": "The Abgar–Jesus correspondence is a later composition, not a first-century record; what is documented is the tradition and its use, not the events it narrates. Its dating is disputed within the third and fourth centuries.",
-     "sources": [
-      {
-       "work": "Eusebius, Church History I.13",
-       "type": "primary",
-       "note": "The letters as Eusebius presents them."
-      },
-      {
-       "work": "The Doctrine of Addai the Apostle (ANF 8)",
-       "type": "primary",
-       "note": "The expanded Syriac version."
-      },
-      {
-       "work": "Egeria, Itinerarium 19",
-       "type": "primary",
-       "note": "The bishop of Edessa shows the pilgrim the letter and gives her a copy."
-      },
-      {
-       "work": "Sebastian Brock, ‘Eusebius and Syriac Christianity’, in Eusebius, Christianity, and Judaism, ed. Attridge and Hata (Wayne State, 1992)",
-       "type": "reference",
-       "note": "On the Abgar legend and its transmission."
-      }
-     ]
-    }
-   ],
    "atlasId": "I.7",
    "era": 1,
    "name": "Syriac Christianity (Edessa/Nisibis)",
@@ -3244,7 +3010,6 @@ const DATA = {
      "rights": "Public Domain"
     }
    ],
-   "sourcing": "Rich in hymns and doctrinal teaching (Ephrem, Aphrahat's twenty-three Demonstrations); thin on ordinary believers, the daughters of the covenant's own words, and the years after Ephrem's death in 373.",
    "sources": [
     {
      "work": "Aphrahat, Select Demonstrations",
@@ -3315,8 +3080,6 @@ const DATA = {
      "note": "Cistercian Studies 124, 1985 — by the scholar generally regarded as the leading authority on Ephrem and Syriac Christianity writing in English."
     }
    ],
-   "floorNote": "This tradition holds the doctrine the Nicene Creed states. One figure inside it, the philosopher-poet Bardaisan, taught cosmological ideas his own later tradition repudiated; exactly where he stands relative to that doctrine remains an open question.",
-   "relationsSummary": "Parent of the Church of the East and the Syriac Orthodox Church; later Syriac translators helped carry Greek philosophy and medicine into the Arabic-speaking world and from there into Europe.",
    "why": "This Christian tradition is fully built, and you can have a conversation with Mar Yausep, a teacher of the covenant order, right now.",
    "entry": {
     "representativeId": "mar-yausep",
@@ -3328,17 +3091,6 @@ const DATA = {
     "tile": "In Edessa and Nisibis, from 200 to 410 CE, Christians taught their faith in hymn. They read Scripture as a world of types, each one answering another. They also read the four Gospels as one continuous story, not four separate books. A harmony woven a generation earlier combined the four accounts. Preachers used it for as long as this world lasted. At the heart of this community's ascetic life stood the covenant. Men and women vowed themselves to celibacy for life, serving their own congregation instead of leaving for the desert. Whether authority rested more in that vow or in a bishop's office was never settled in their own record. On the Persian side of the frontier, the king's persecution killed the bishop Simeon bar Sabbae and his clergy, and bishops after him were killed in turn. After the last of them, the bishopric of Seleucia-Ctesiphon stood empty for twenty years. Taking the post meant near-certain death.",
     "icon": "assets/world-icons/syriac.svg"
    },
-   "longDescription": "The first hard evidence of a Christian community at Edessa is a flood: a church building destroyed when the river overran its banks in 201, recorded in the city's own chronicle. Edessa's Christians told an older story about their beginning too\u2014that King Abgar himself had written to Jesus and been answered\u2014but no text earlier than the fourth century attests it, and it is best heard as the community's own cherished memory, not as history. What the record actually shows is plainer. They were a Christian people who spoke Syriac, close to the language Jesus himself spoke, and who read Scripture as a web of symbols answering each other: Eden answering the cross, the Jordan answering the font. They met the Gospel as one continuous story rather than four separate books, in a harmony a Greek-trained convert named Tatian had woven a generation earlier; Aphrahat quoted it and Ephrem preached from it for as long as this world lasted.\n\nAt the community's ascetic heart stood the covenant: men and women who vowed themselves to lifelong celibacy while remaining inside their own congregation instead of leaving for the desert, keeping the fast and the vigil and singing what the community believed. Office and vow ran side by side for this whole world's life, and who finally spoke for it was never settled. Aphrahat, remembered simply as the Persian sage, once drafted a synodal letter in the name of a council of bishops, yet whether he held that office himself, no one now can say. Persia's own bishops fought the same question in the open: Papa of Seleucia-Ctesiphon claimed to lead them all, and was contested by his own colleagues in his own lifetime. The community also knew its faith by naming what it was not, answering by name the teachings of the philosopher Bardaisan, of Marcion, and of Mani, all preached in the same cities in the same tongue.\n\nIn 338, Shapur II of Persia besieged Nisibis; Ephrem, the city's own hymnwriter, remembered its deliverance as an act of God worked through ordinary defenders, while a later account added a swarm of gnats to the story. Bishop Jacob led that defense. The Chronicle of Edessa places his death that same year; Theodoret's own church history instead has him defending the city again in 350, and the record itself never closes the question. Nisibis held until 363, when the Roman emperor Jovian ceded it to Persia and Ephrem moved west to Edessa, where he spent his last year running famine relief before he died. On the Persian side, the persecution already underway since the 340s took bishop Simeon bar Sabbae and his clergy, and left the church's chief seat empty for twenty years, since filling it meant near-certain death. Not until 410, when the Roman bishop Marutha brokered a synod with the favor of Yazdegerd I, the Persian king, did the Persian church finally receive a single settled order\u2014the last thing this world's own record has to say.",
-   "voices": [
-    "Ephrem was a deacon, first at Nisibis and then, after 363, at Edessa, and this tradition's most prolific poet: hundreds of hymns carried its doctrine in verse a congregation could sing. He spent his last year running famine relief in the city and died within the month the crisis ended.",
-    "Aphrahat, remembered simply as 'the Persian sage,' wrote twenty-three dated letters from inside the Persian empire between 336 and 345, the last of them composed deep inside Shapur's persecution. He once drafted a circular letter in a synod of bishops' own name, yet whether he held that office himself is a question his own tradition never answers.",
-    "Tatian wove the four Gospels into one continuous story a generation before this world's own window opens, and these Syriac communities read his harmony as their standard Gospel text for two centuries afterward. Greek church history also remembers him breaking with Rome and founding a rigorist sect of his own—a controversy that belongs to his life outside this Syriac world, not inside it.",
-    "Bardaisan was a philosopher and poet at the court of King Abgar the Great. His one surviving dialogue argues that free will, not the stars, decides how people live—Christians the world over follow one law, whatever horoscope they were born under. His own later tradition rejected him over a separate question, whether the body itself is raised, and exactly where he stood on it is a question the record leaves open.",
-    "Jacob, bishop of Nisibis from about 309 and a signatory at the Council of Nicaea in 325, was remembered as the city's protector through Persian siege — though even his own people could not agree on when he died: one chronicle places it in 338, the year of the first siege, another has him still at his post in 350.",
-    "The daughters of the covenant sang this tradition's hymns in every church that had them. Not one line composed by one of them survives; everything known of their voices—their vows, their singing, their service—was written by men.",
-    "Simeon bar Sabbae, bishop of Seleucia-Ctesiphon, was ordered to collect a crushing new tax on Persia's Christians and refused. Arrested and brought before Shapur II, tradition says he was offered gifts, then threatened, and each time refused to worship the sun. He was executed with his own clergy — tradition remembers him as the first of the persecution's bishops to die for his faith. His death opened the twenty-year vacancy the Persian church endured. The year itself is disputed: 341 by the traditional count, with some historians arguing for 344 instead."
-   ],
-   "legacy": "The Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in communion with Rome all descend from this tradition, still worship in Syriac, and still sing Ephrem's hymns in their own liturgies.\n\nWithin a generation of this world's own close, the Gospel harmony these communities had read for two centuries gave way to a new translation, the Peshitta, and churches began reading the four Gospels separately again. Tradition credits Bishop Rabbula of Edessa (411–435) with the change; historians dispute whether he caused it or only presided over a shift already under way.\n\nMissionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China. Centuries later, Syriac translators became the channel through which Greek philosophy and medicine reached the Arabic-speaking world, and from there passed back into Europe.\n\nA separate school of formal theological training later grew up at Nisibis—founded around 490, two generations after this world's own record closes—and became one of the ancient world's most important centres of Christian education, distinct from the teaching Jacob and Ephrem had given the same city a century earlier.",
    "experienceToday": [
     {
      "text": "Mor Gabriel Monastery, Tur Abdin, southeastern Turkey — founded in 397 and still a working monastery and the seat of the metropolitan of Tur Abdin, one of the oldest continuously inhabited Christian monasteries on earth",
@@ -4432,86 +4184,6 @@ const DATA = {
   },
   {
    "id": "desert-monasticism",
-   "documentedStories": [
-    {
-     "title": "Antony Hears the Gospel Read on His Account",
-     "when": "c. 270",
-     "tier": "2",
-     "verification": "checked directly against the primary text",
-     "teaser": "A young Egyptian landowner walks into church thinking about the apostles, and the reading that morning is Matthew 19.",
-     "text": "Athanasius, who knew Antony in his old age, tells how it began. Antony’s parents had died when he was eighteen or twenty, leaving him three hundred acres of good Nile land and a younger sister to look after. About six months later he was walking to church, ‘reflecting as he walked how the Apostles left all and followed the Saviour’, and how the first believers in Acts sold what they had and laid the money at the apostles’ feet. He went in, and the Gospel being read was the rich young man: ‘If thou wouldest be perfect, go and sell that thou hast and give to the poor.’ Antony took it, Athanasius says, ‘as though God had put him in mind of the Saints, and the passage had been read on his account’. He went straight out and gave the land to the villagers, ‘that they should be no more a clog upon himself and his sister’, sold the movable property and gave the money away, keeping back a little for her. On another visit he heard ‘be not anxious for the morrow’ and gave that away too. He placed his sister with a household of consecrated virgins and began to live as an ascetic just outside the village, under the eye of an old man in the next settlement who had done the same since youth. The movement that would fill it began with a man taking a Sunday reading personally.",
-     "caveat": "Athanasius wrote within a year or two of Antony’s death and knew him, but the Life is a work of advocacy with a theological programme; the detail of the sister’s provision and the ‘old man in the next village’ are the kind of specifics that lend it credibility, but nothing corroborates them.",
-     "sources": [
-      {
-       "work": "Athanasius, Life of Antony, ch. 1–4",
-       "type": "primary",
-       "note": "The call, the sale of the land, the sister, the old ascetic."
-      },
-      {
-       "work": "Apophthegmata Patrum, alphabetical collection, Antony 1–38",
-       "type": "primary",
-       "note": "The sayings tradition about Antony, independent of Athanasius (Waddell’s selection from the Latin Verba Seniorum)."
-      },
-      {
-       "work": "David Brakke, Athanasius and Asceticism (Johns Hopkins, 1995)",
-       "type": "reference",
-       "note": "On the Life as Athanasius’ construction of Antony."
-      }
-     ]
-    },
-    {
-     "title": "Antony Has Himself Buried Where No One Will Find Him",
-     "when": "356",
-     "tier": "2",
-     "verification": "checked directly against the primary text",
-     "teaser": "The most famous monk in the world dies with two attendants and forbids them to tell anyone where his body is.",
-     "text": "By the time Antony was over a hundred, Athanasius says, the Egyptians had a custom he detested: they kept the bodies of holy men in their houses, wrapped in linen and laid on couches, instead of burying them. So when he felt death coming, on the inner mountain by the Red Sea, he sent away the visitors and kept only the two monks who had lived with him for fifteen years. His instructions were exact. They were not to let anyone take his body to Egypt; they were to bury it themselves, underground, and ‘let my words be observed by you that no one may know the place but you alone’. He divided his belongings: one sheepskin and the cloak he was lying on to Athanasius the bishop — ‘which he himself gave me new, but which with me has grown old’ — the other sheepskin to Bishop Serapion, and the hair shirt to the two of them. Then, Athanasius writes, ‘as though he saw friends coming to him and was glad because of them’, he died. The two buried him as told, and ‘no one knows to this day where it was buried, save those two only’. It is a curious ending for a book that would launch a thousand shrines: the founder of the movement deliberately denying his followers a relic, and his biographer, a bishop who would later preside over a church full of them, recording it with approval.",
-     "caveat": "Athanasius is near-contemporary and received the cloak himself; the burial instructions are as reported by the two attendants. The site was ‘discovered’ in 561 and the relics translated to Alexandria and later to France — traditions the Life itself would seem to exclude.",
-     "sources": [
-      {
-       "work": "Athanasius, Life of Antony, ch. 89–93",
-       "type": "primary",
-       "note": "The instructions, the death, the secret burial, the sheepskins."
-      },
-      {
-       "work": "Jerome, Life of Paul the First Hermit",
-       "type": "primary",
-       "note": "A rival hermit-biography that shows how quickly the genre grew."
-      },
-      {
-       "work": "Peter Brown, The Cult of the Saints (Chicago, 1981)",
-       "type": "reference",
-       "note": "On the fourth-century turn toward relics that Antony’s instructions resisted."
-      }
-     ]
-    },
-    {
-     "title": "‘They Have Taken Away My God From Me’",
-     "when": "399",
-     "tier": "1",
-     "verification": "checked directly against the primary text",
-     "teaser": "An old monk of Scetis is talked out of picturing God with a face, and breaks down in the middle of the prayer of thanksgiving.",
-     "text": "In 399 the bishop of Alexandria’s festal letter, read out in the monasteries of Egypt, condemned the idea that God has a human form. Cassian, who was living at Scetis, says most of the simple monks were outraged: they had prayed to a God they could picture, and the letter called it heresy. Cassian then tells what happened to Serapion, a monk of fifty years’ standing and ‘outstanding in the discipline’. A learned deacon named Photinus, visiting from Cappadocia, was brought in to explain how the churches of the East understood ‘in the image of God’ — spiritually, not bodily — and after long argument the old man was persuaded and formally assented. And in the middle of the prayer Serapion, finding that the picture of God he had always set before his mind when he prayed was gone from his heart, threw himself on the ground sobbing: ‘Alas, wretched man that I am! They have taken away my God from me, and I have now none to lay hold of; and whom to worship and address I know not.’ Cassian says he and his companion left ‘terribly disturbed’ and went to ask Abba Isaac how such a thing could happen to such a man. The episode is the human face of the Origenist controversy that within months would see Bishop Theophilus reverse himself, side with the simple monks, and drive the learned ones — Evagrius’ circle, the Tall Brothers, Cassian himself — out of Egypt.",
-     "caveat": "Cassian was present and wrote about twenty-five years later, in Latin for Gallic monks, with a theological point to make; his account of the ‘Anthropomorphite’ monks is unsympathetic in framing though not in this scene. Serapion is otherwise unknown.",
-     "sources": [
-      {
-       "work": "John Cassian, Conferences X.2–5",
-       "type": "primary",
-       "note": "The festal letter, the argument, Serapion’s collapse."
-      },
-      {
-       "work": "Socrates Scholasticus, Ecclesiastical History VI.7",
-       "type": "primary",
-       "note": "Theophilus’ reversal and the expulsion of the Origenist monks."
-      },
-      {
-       "work": "Elizabeth A. Clark, The Origenist Controversy (Princeton, 1992)",
-       "type": "reference",
-       "note": "The standard modern account."
-      }
-     ]
-    }
-   ],
    "atlasId": "I.3",
    "era": 2,
    "name": "Desert Monasticism",
@@ -4729,7 +4401,6 @@ const DATA = {
      "rights": "Public Domain"
     }
    ],
-   "sourcing": "Rich and specific — Antony's own Vita and the Apophthegmata's elder-and-disciple sayings anchor the fleet's largest shelf of verbatim quotations (59 records, well ahead of the next richest built world's 37); thinner on ordinary participants outside the sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus).",
    "sources": [
     {
      "work": "Athanasius, Life of Antony",
@@ -4774,8 +4445,6 @@ const DATA = {
      "note": "Oxford University Press, 2004 — a standard modern guide to the sayings, Antony, Pachomius, Evagrius and Cassian, and to how the desert's small written corpus should be read."
     }
    ],
-   "floorNote": "The desert communities held the Nicene faith of the churches they came out of — what set them apart was a way of life, not a different doctrine. One figure inside this world, Evagrius, worked that faith into the most systematic scheme the desert ever produced; parts of it were formally condemned over a century after this world's own window closes, and the controversy that first exposed the fault line broke out within it, scattering his own circle before his ideas were ever formally judged.",
-   "relationsSummary": "A distinct formation world from Alexandria's own, not its continuation — though one disputed reading of its founder's letters leaves the question of contact open; parent of monastic life across the wider Christian world.",
    "why": "This Christian tradition is fully built, and you can have a conversation with Papnoute, an abba, right now.",
    "entry": {
     "representativeId": "papnoute",
@@ -4787,16 +4456,6 @@ const DATA = {
     "tile": "Between about 320 and 430 CE, Christians in Egypt began leaving their villages for the desert's edge, in a movement that never really stopped. Persecution had just ended, so they invented a different kind of struggle: fighting the tempting thoughts that rise up from inside a person. This way of life took three real, different shapes. Some lived alone, testing their own choices against an elder's hard-earned wisdom. Others joined communities governed by a rule set down in writing, under an appointed leader. A third group kept mostly to their own cells, then walked in once a week to pray and share a meal together. These two kinds of authority, personal and official, existed side by side and never merged into one. None of this was as cut off from ordinary life as it might sound. Digs at one settlement found a marketplace standing among the monks' own cells. Joining this life meant giving up land, family ties, and a settled home. That cost came gradually, one step at a time, over years, not in a single break.",
     "icon": "assets/world-icons/desert.svg"
    },
-   "longDescription": "By the early fourth century the last empire-wide persecution had ended, and Constantine's toleration closed off a path that had once been open to any Christian: dying for the faith. Antony, a young Egyptian landowner, gave away his family's land after hearing one Gospel reading in church \u2014 \"if thou wouldest be perfect, go and sell that thou hast\" \u2014 and withdrew by stages: the village's edge, an abandoned fort, then the desert's inner reaches, for the rest of his life. What his biographer Athanasius describes there is not escape but combat: the war once waged against a persecutor from outside, now fought against demons and the thoughts they whispered, from within. Teaching passed mostly in a single exchange \u2014 a younger monk asked an elder for \"a word,\" and the elder answered in one sentence, no more. Generations later, those sentences were gathered into what other Christians would call the Sayings of the Desert Fathers and Mothers, arranged by the name of the elder who spoke them, not necessarily as anyone first heard them said.\n\nNot everyone lived Antony's way. Around 320, a man named Pachomius founded the desert's first rule-governed community at Tabennesi in the Thebaid; by his death in 346 it had grown into a federation of nine houses for men and two for women, bound by a written rule and appointed offices rather than one elder's own example. Between the two lay a third pattern: loose settlements at Nitria, Kellia, and Scetis, where ascetics lived mostly alone but gathered weekly for worship and correction. These settlements sat closer to ordinary life than their own rhetoric of total withdrawal suggests: excavation at Kellia has uncovered at least one commercial center operating alongside the ascetic cells, real evidence of trade with the surrounding villages. Which of these actually held authority \u2014 a life earned through discipline, or an office conferred by a rule \u2014 was never settled. Even Pachomius, the rule's own founder, was remembered afterward less as an officeholder than as a father whose own example, not his rule alone, had formed his community.\n\nWhat kept any of this from tipping into excess was discernment: the skill, prized above all others, of judging how much fasting, how much solitude, a particular person could actually bear. The tradition's most common story shape is an eager newcomer asking for an extreme practice and being redirected toward something more moderate. Evagrius, the most formally educated man the desert produced, tried to systematize the struggle into a scheme of his own: eight named categories of tempting thought, and a ladder rising from practice through passionlessness to contemplation. He died at Kellia in January 399, months before a controversy his own learned circle could not survive \u2014 a bishop's letter on how literally to picture God split simple monks from learned ones, and by the year's end Evagrius's circle had been driven out of Egypt. His writings survived anyway, part of them transmitted for centuries under another name.",
-   "voices": [
-    "Antony gave away his family's land after hearing one Gospel reading in church and took it as addressed to himself, then withdrew by stages — the village's edge, an abandoned fort, the inner mountain — for the rest of his life. His hagiographer says he could not endure to learn letters as a boy; a handful of letters that may genuinely be his own suggest a man trained in the philosophy that same biographer denies him, and the two portraits have never been reconciled.",
-    "Pachomius founded the desert's first rule-governed community at Tabennesi around 320; by his death in 346 it had grown to nine houses of men and two of women, bound by a common rule and appointed offices. Even so, those who remembered him afterward described a father whose own example formed the community, not an officeholder alone. One of those women's houses stood a mile across the river, founded for his own sister; the rule kept the two communities from ever seeing each other's faces or hearing each other's voices in life — but required the men to carry a woman's body across the river for burial among their own when she died.",
-    "Sarah was one of a small number of women remembered by name in the desert's own teaching tradition; six of her sayings survive. When monks came to test her, she told them plainly that she was the man among them, and they were the women.",
-    "Evagrius was the most formally educated man the desert produced, ordained reader by Basil of Caesarea and deacon by Gregory of Nazianzus before he withdrew to Kellia. He organized the desert's raw, occasion-bound wisdom about tempting thoughts into the most complete scheme it ever produced, and died in January 399, months before the controversy his own circle could not survive.",
-    "John Cassian spent years among the Egyptian monks before carrying their teaching west into Latin, where the monk Benedict later read him. He also preserves the desert's own fullest answer to a hard question, worked out at length in one Conference: that the greater share of anyone's salvation belongs to grace, not to human effort — a position Western theology would later judge too generous to effort, and condemn within a generation.",
-    "Women's sayings survive by name, Sarah among them, and so do about fifteen narrated lives of named women, several with their own words reported inside the telling. What does not survive from anyone is a woman's own extended account, written in her own person and at her own length, the way this world's paradigmatic solitary figure has one."
-   ],
-   "legacy": "Almost every later form of Christian monastic life descends from here. Benedict's own Rule for Western monks sends its readers directly to John Cassian's reports from Egypt, and the monasteries of Sinai and Mount Athos trace their own practice back to the same desert source.\n\nThe sayings themselves are still read as spiritual reading across Orthodox, Catholic, and Protestant traditions alike. Evagrius's eight named categories of tempting thought traveled west through Cassian and, by way of Gregory the Great two centuries later, narrowed into the seven deadly sins of Western moral teaching. One popular link doesn't actually hold: the desert's own word for the stillness they sought, hesychia, is often assumed to be the same practice as the later Byzantine Hesychast tradition and its Jesus Prayer technique — that systematized method belongs to a separate, later world and isn't part of this one's own record.\n\nSome of the houses founded in that first Egyptian generation are still living communities. The Coptic monasteries of St Antony and St Paul near the Red Sea, and the cluster of monasteries at Wadi al-Natrun, are inhabited by monks today, on or near the same ground this world's own record describes.",
    "experienceToday": [
     {
      "text": "The Monastery of Saint Anthony, Eastern Desert, Egypt — a Coptic Orthodox monastery grown up around Antony's own cave, still inhabited and open to visitors",
@@ -5032,96 +4691,6 @@ const DATA = {
   },
   {
    "id": "cappadocian-nicene-pastoral-monastic-tradition",
-   "documentedStories": [
-    {
-     "title": "Basil in the Famine Year",
-     "when": "368–369",
-     "tier": "1",
-     "verification": "adapted from this project's own reviewed Doc_09 Story Inventory for this world",
-     "teaser": "A drought, a failed harvest, and a presbyter who opens a soup kitchen and preaches at the men holding grain back.",
-     "text": "In 368 the rains failed in Cappadocia and the harvest with them. Basil was still a presbyter of Caesarea, not yet its bishop, and Gregory of Nazianzus — who was there — described what he did in the funeral oration he gave a decade later. Basil sold what remained of his family’s property and bought food. He gathered ‘the victims of the famine’, Gregory says, including the children and the strangers whom no one else would feed, and had cauldrons of broth and salted vegetables set up, ‘the only refuge of the poor’, and served them himself — Gregory pictures him with a towel, washing feet and ladling soup. The homily he gave that year, ‘In Time of Famine and Drought’, survives, and it does not spare the congregation: the drought, he told them, was a judgment on a city where the poor begged at doors while grain sat in locked barns waiting for the price to rise. Another sermon from the same crisis, on the parable of the rich fool, put it more sharply — ‘the bread you are holding back belongs to the hungry; the coat in your closet belongs to the naked’. Within two years he was bishop, and within five he had begun building the complex of hospice, hospital and workshops outside the city that Gregory called ‘the new city’ and later generations the Basileias.",
-     "caveat": "Gregory’s account is a panegyric delivered after Basil’s death and idealises him; Basil’s own homilies are contemporary and blunt but do not describe the relief work. That a famine occurred in 368–369 is independently attested.",
-     "sources": [
-      {
-       "work": "Gregory of Nazianzus, Oration 43 (Funeral Oration on Basil), §§34–36",
-       "type": "primary",
-       "note": "The famine, the soup, Basil serving."
-      },
-      {
-       "work": "Basil of Caesarea, Homily 8, In Time of Famine and Drought",
-       "type": "primary",
-       "note": "The sermon of the famine year; English in Susan Holman, The Hungry Are Dying (Oxford, 2001)."
-      },
-      {
-       "work": "Basil of Caesarea, Homily 6, ‘I Will Pull Down My Barns’",
-       "type": "primary",
-       "note": "On the rich fool; ‘the bread you are holding back belongs to the hungry’ (in Schroeder, On Social Justice, SVS 2009)."
-      },
-      {
-       "work": "Susan R. Holman, The Hungry Are Dying: Beggars and Bishops in Roman Cappadocia (Oxford, 2001)",
-       "type": "reference",
-       "note": "The standard study of the famine and the Basileias."
-      }
-     ]
-    },
-    {
-     "title": "Macrina’s Last Day, as Her Brother Wrote It",
-     "when": "379",
-     "tier": "1",
-     "verification": "adapted from this project's own reviewed Doc_09 Story Inventory for this world",
-     "teaser": "Gregory of Nyssa arrives at his sister’s community after nine years away and finds her dying on two planks on the floor.",
-     "text": "Gregory of Nyssa had not seen his elder sister for nearly nine years — exile under Valens, then Basil’s death — when he travelled to the family estate at Annisa in Pontus, where Macrina had turned the household into a community of women who prayed, worked and lived as equals with their former slaves. He found her lying not on a bed but on boards on the ground, with a sack under her head, unable to rise. She greeted him, he says, by trying to bow anyway. Over that day and the next she talked to him about the soul, death and the resurrection — the conversation he later worked up into a dialogue — and rebuked him when he grieved for Basil: what had God not given their family? He describes her last hours in detail: how she prayed aloud, tracing the sign of the cross on her eyes, mouth and heart; how her speech failed toward evening and she went on moving her lips; how she died at lamp-lighting. Then the women’s grief, which Gregory had to restrain, and the practical questions — she had no burial clothes because she owned none, and the deaconess Lampadion found only a rough cloak and the iron cross and ring she wore on a cord. But it is the earliest full portrait of a woman’s monastic community in Christian literature, written by a man who plainly thought his sister the best theologian in the family.",
-     "caveat": "Gregory is an eyewitness and wrote within a year or two, but as a devoted brother in a literary genre; Macrina’s teaching reaches us only in his composition of it, and the Life’s hints of miracles are marked by Gregory himself as things he hesitated to record.",
-     "sources": [
-      {
-       "work": "Gregory of Nyssa, Life of St Macrina",
-       "type": "primary",
-       "note": "The whole account; W. K. Lowther Clarke’s 1916 translation."
-      },
-      {
-       "work": "Gregory of Nyssa, On the Soul and the Resurrection",
-       "type": "primary",
-       "note": "The deathbed conversation as Gregory later composed it."
-      },
-      {
-       "work": "Anna Silvas, Macrina the Younger, Philosopher of God (Brepols, 2008)",
-       "type": "reference",
-       "note": "Translation and study of all the Macrina texts."
-      }
-     ]
-    },
-    {
-     "title": "Sasima: Basil Makes His Friend a Bishop of a Post-Station",
-     "when": "372",
-     "tier": "1",
-     "verification": "from reference summaries; primary text not yet read",
-     "teaser": "To win a jurisdictional fight, Basil consecrates Gregory to a dusty road junction. Gregory never forgave him, and said so in verse.",
-     "text": "In 372 the emperor Valens divided Cappadocia into two provinces, and the bishop of the new capital, Tyana, claimed metropolitan rights over half of Basil’s churches. Basil answered by creating new bishoprics along the disputed border and filling them with men he trusted. One of them was Sasima: a posting-station on the imperial road where three routes met, ‘without water, without vegetation, not fit for a gentleman’, as its new bishop described it — all dust and noise, tax-collectors and carriage-changes. The man Basil pressed into it, with Gregory’s own father helping to force the ordination, was Gregory of Nazianzus, his oldest friend, who had wanted nothing but a quiet life of study and prayer. Gregory went, briefly, never held a service there, and withdrew. He wrote about it for the rest of his life: in his autobiographical poem, where he calls Basil’s conduct a betrayal dressed up as friendship; in letters where he says Basil treated him like a piece on a board; and, most painfully, in the funeral oration for Basil, where he praises everything about him and cannot quite leave Sasima alone. The friendship survived in a damaged form. What the episode documents is that the men who wrote the Trinitarian theology the church still uses were also ambitious churchmen in a jurisdictional brawl, and that one of them used the other, and the other knew it. Gregory’s honesty about the wound is part of the record he chose to leave.",
-     "caveat": "Almost entirely from Gregory’s own writings, which are eloquent and one-sided; Basil’s side of the Sasima affair survives only in Gregory’s quotations of it. The political background is confirmed by Basil’s letters about Anthimus of Tyana.",
-     "sources": [
-      {
-       "work": "Gregory of Nazianzus, De vita sua (On His Own Life), lines 386–485",
-       "type": "primary",
-       "note": "The description of Sasima and the accusation against Basil; English in Carolinne White, Gregory of Nazianzus: Autobiographical Poems (Cambridge, 1996)."
-      },
-      {
-       "work": "Gregory of Nazianzus, Letters 48–50 (to Basil)",
-       "type": "primary",
-       "note": "The letters of protest at the time."
-      },
-      {
-       "work": "Gregory of Nazianzus, Oration 43, §§58–59",
-       "type": "primary",
-       "note": "The funeral oration’s handling of the episode."
-      },
-      {
-       "work": "John McGuckin, St Gregory of Nazianzus: An Intellectual Biography (SVS, 2001)",
-       "type": "reference",
-       "note": "On Sasima and the friendship."
-      }
-     ]
-    }
-   ],
    "atlasId": "I.5",
    "era": 2,
    "name": "Cappadocian Christianity",
@@ -5458,7 +5027,6 @@ const DATA = {
      "rights": "Public Domain"
     }
    ],
-   "sourcing": "Rich (Basil, the Gregories, and — rare for a defeated opponent — Eunomius' own surviving Apology); several flagship attributions (Epistle 38) contested",
    "sources": [
     {
      "work": "Basil of Caesarea, Hexaemeron",
@@ -5499,8 +5067,6 @@ const DATA = {
      "note": "St Vladimir's Seminary Press, 1995 — the first English-language study to treat Basil and both Gregorys together."
     }
    ],
-   "floorNote": "These are among the people who wrote the creed. The language it uses for Father, Son, and Spirit is substantially theirs — though which of them wrote which formulation is not always as settled as the textbook story suggests.",
-   "relationsSummary": "Trinitarian and pneumatological theology paired with charitable-ascetic practice; Jerome heard Gregory of Nazianzus teach, and this world argued directly, by name, against the Eunomians and the deniers of the Spirit's divinity.",
    "why": "This Christian tradition is fully built, and you can have a conversation with Chilo, an elder of the ascetic brotherhoods who keeps the guest-door, right now.",
    "entry": {
     "representativeId": "chilo",
@@ -5512,117 +5078,10 @@ const DATA = {
     "tile": "The Nicene-confessing churches of Cappadocia and Pontus lasted from about 325 to 394 CE. One family and one friendship stood at their center. They were Basil of Caesarea; his sister, Macrina; his brother, Gregory of Nyssa; and Basil's friend, Gregory of Nazianzus. Basil, Gregory of Nyssa, and Gregory of Nazianzus argued the century's hardest question. Is the Son fully God, the same way the Father is? Is the Spirit God in that same way, too? Macrina turned the family estate into an ascetic household of her own. The council that later censured them made a claim about ascetic radicals in the region. It said the radicals had already broken up households and urged enslaved people to leave their owners. Basil did not condemn that impulse. Instead, he gave it a rule to follow. It came with a vow of obedience, and a household that welcomed guests. A famine struck the region around 368. Basil, still a priest at the time, preached against the local landowners who hoarded grain, and named them. Once he became bishop, he built a complex outside Caesarea. It fed the poor, housed travelers, treated the sick, and sheltered people with leprosy. Places like it already existed elsewhere, so it was not the first. What made it unusual was its size, and how openly it stood inside the city. This world buried a martyr too. Eupsychius of Caesarea was executed under Julian in 362. Under Valens, Gregory of Nyssa was deposed and sent into exile. The charge: mishandling money. His brother Basil called it trumped up, but no record survives from the side that brought the charge. Gregory returned two years later, once political pressure on Nicene bishops eased. Then, in 381, this Nicene minority finally won the empire's favor.",
     "icon": "assets/portraits/cappadocian.jpg"
    },
-   "longDescription": "In Cappadocia and neighboring Pontus, from the years after the last empire-wide persecutions to the death of the last of a remarkable generation, one extended family and the friends around it did more than most to settle the words Christians still use about God — how settled that settlement really was is itself now a live scholarly question. Basil of Caesarea, his younger brother Gregory of Nyssa, their elder sister Macrina, and Basil's friend Gregory of Nazianzus argued the hardest question of the century — whether the Son and the Spirit are God in the same sense the Father is — while running dioceses, burying relatives, and feeding the hungry through famine.\n\nBasil's own preaching indicted the region's grain-hoarders by name and built a hospital, hostel, and workhouse complex outside Caesarea after the famine of 368 — a genuine, near-unprecedented undertaking, though not, as later legend sometimes claims, the first of its kind anywhere. Before that, he had already spent years answering a more radical ascetic ferment loose in the region — households dissolved, slaves urged to leave their masters, fasts kept against the church's own feasts — not by condemning the impulse but by giving it a rule, an obedience, and an open door for guests instead. Macrina turned the family estate into an ascetic household of her own and, in her brother's account of her last days, taught him theology from her deathbed — the only record of her that survives; no words of her own reach us independently of his telling.\n\nGregory of Nazianzus carried the argument to Constantinople, where the creed most Christians still recite took its final shape in 381. The years were not peaceful throughout: this world buried its own martyr, Eupsychius of Caesarea, executed under Julian in 362, and endured a hostile imperial church under Valens that drove Gregory of Nyssa briefly into exile. Even the letter usually cited as proof the three men agreed on the technical vocabulary — Epistle 38 — is itself contested between Basil and Gregory of Nyssa in modern scholarship.",
-   "teaser": "Cappadocia and Pontus, c. 325 to 394 CE — a people who fought a generation over a single word in their worship, kept a door open for the poor, and buried a martyr of their own along the way.",
-   "voices": [
-    "Basil, bishop of Caesarea, preached during the famine of 368 that the bread being held back belonged to the hungry and the coat in the closet belonged to the naked — then built a hospital, hostel, and workhouse complex outside the city to outlast the crisis that occasioned it. The ascetic brotherhoods he organized answered a wilder, older impulse already loose in the region, households breaking apart and the enslaved leaving their masters, by giving it walls and a rule instead of condemning it.",
-    "Macrina turned the family estate at Annisa into a community where former slaves and their one-time owners prayed and worked side by side. When her brother Gregory of Nyssa found her dying, she lay not on a bed but on planks on the ground, and owned no burial clothes of her own; what she said to him in those last hours reaches us only through the book he wrote about her afterward.",
-    "Gregory of Nazianzus wanted nothing but a quiet life of study and prayer; his friend Basil pressed him into a bishopric at a dusty road junction anyway, and he never forgave him for it, in verse and in letters both. He still carried the Trinitarian argument to Constantinople in 380, where his sermons helped give the creed its final shape.",
-    "Gregory of Nyssa, Basil's younger brother, was the most speculative of the three, writing on the soul's nature and its endless ascent into God. Exiled under Valens for years, he outlived his siblings and completed the refutation of Eunomius that Basil had left unfinished at his death.",
-    "Emmelia was mother to Basil, Macrina, and Gregory of Nyssa, and to the household this whole tradition grew from. She is credited with acquiring and enshrining relics of the Forty Martyrs of Sebaste at the family's own estate chapel — the one specific act of hers to survive, and even that only in her son's telling, not her own words.",
-    "Eupsychius of Caesarea was executed under Julian in 362 — this world's own martyr, from the last years persecution was still possible. He is remembered every year at an annual feast in Caesarea; no homily on him is attested from anyone, only the feast itself.",
-    "Eustathius, bishop of Sebaste, was Basil's own ascetic mentor before their friendship broke over the Spirit's honor — Basil came to suspect him of denying the Spirit's full divinity, and said so in writing. No work of Eustathius's own survives; his side of the rupture is not tellable, only the wound as Basil recorded it.",
-    "The plateau villages beyond these cities appear in the record only as crowds fed in famine or crowds at a festival, never speaking for themselves. No woman of this world left a line in her own hand, and the losing side of every dispute here — the radical ascetics censured at Gangra, the Homoian church, Eustathius himself — survives only inside the winning side's own case against it."
-   ],
-   "legacy": "Their labor on the language — one being, three persons — became the standard grammar of Christian talk about God in East and West alike and stands behind the creed recited in most churches on Sunday, though the tidy story of a fully agreed \"Cappadocian settlement\" is itself contested by modern scholars, who read more real variation between the three than the textbook version allows.\n\nBasil's rules for communal ascetic life remain foundational for Eastern Orthodox monasticism, and his hospital-and-hostel complex for the sick and destitute is often named among the ancestors of the Christian hospital, though no physical trace of the complex itself has ever been securely identified.\n\nAll four are venerated as saints across the Orthodox, Catholic, Anglican, and Lutheran calendars, and Gregory of Nazianzus is one of only three figures the Eastern church calls simply \"the Theologian.\""
+   "teaser": "Cappadocia and Pontus, c. 325 to 394 CE — a people who fought a generation over a single word in their worship, kept a door open for the poor, and buried a martyr of their own along the way."
   },
   {
    "id": "imperial-juridical-christianity",
-   "documentedStories": [
-    {
-     "title": "Callinicum: Ambrose Defends the Burning of a Synagogue",
-     "when": "388",
-     "tier": "1",
-     "verification": "adapted from this project's own reviewed Doc_09 Story Inventory for this world",
-     "teaser": "Christians on the Euphrates frontier burn a synagogue; the emperor orders the bishop to rebuild it; the bishop of Milan says a Christian emperor must not.",
-     "text": "In 388 a mob at Callinicum on the Euphrates, led by the local bishop, burned the town’s synagogue, and monks in the same disturbance burned a chapel of the Valentinian sect. Theodosius, hearing the report from the military commander of the East, gave the obvious order: the bishop was to rebuild the synagogue at his own expense and the arsonists were to be punished. Ambrose wrote to him from Milan. His letter does not deny the facts. It argues that to make a bishop rebuild a synagogue is to make him an apostate or a martyr; that a Christian emperor should not put ‘the discipline of the state’ above ‘the cause of religion’; that Jews had burned churches under Julian and never been made to pay; and that if the order stood, Ambrose himself would take the blame for the fire — ‘I declare that I burned the synagogue.’ When the emperor did not answer, Ambrose preached at him in church, in his presence, on the same theme, and then came down from the pulpit and refused to go on with the Eucharist until Theodosius promised to revoke the order. The emperor gave way. The record is entirely his, and it is a record of the bishop who two years later would make the same emperor do penance for a massacre using the same weapon — the altar — to protect men who had burned a house of prayer because it was Jewish.",
-     "caveat": "Both letters are Ambrose’s own and contemporary; nothing survives from Callinicum, the Jewish community, or the emperor’s side except as Ambrose reports it. His account of the exchange in church is his alone.",
-     "sources": [
-      {
-       "work": "Ambrose, Letter 40 (to Theodosius)",
-       "type": "primary",
-       "note": "The argument against rebuilding the synagogue."
-      },
-      {
-       "work": "Ambrose, Letter 41 (to his sister Marcellina)",
-       "type": "primary",
-       "note": "The scene in church and the emperor’s capitulation."
-      },
-      {
-       "work": "Neil McLynn, Ambrose of Milan: Church and Court in a Christian Capital (California, 1994)",
-       "type": "reference",
-       "note": "On Callinicum as a political confrontation."
-      },
-      {
-       "work": "James Parkes, The Conflict of the Church and the Synagogue (Soncino, 1934)",
-       "type": "reference",
-       "note": "On the episode’s place in the history of Christian anti-Judaism."
-      }
-     ]
-    },
-    {
-     "title": "The Altar of Victory: Two Petitions on One Desk",
-     "when": "384",
-     "tier": "1",
-     "verification": "adapted from this project's own reviewed Doc_09 Story Inventory for this world",
-     "teaser": "The last pagan prefect of Rome asks the emperor to restore an altar to the Senate house, and argues for tolerance. The bishop who answers him argues against it.",
-     "text": "In 382 Gratian had removed the altar of Victory from the Senate house in Rome and cut off state funding for the Vestals and the old priesthoods. In 384 the prefect of the city, Symmachus — a pagan, a senator of the old kind, and one of the finest Latin stylists of his age — sent the young emperor Valentinian II a formal petition asking for the altar back. Rome herself speaks in it, asking to keep the rites under which she grew great; the mind of God is too great, Symmachus writes, to be reached by a single road — ‘uno itinere non potest perveniri ad tam grande secretum’. Ambrose heard of the petition and wrote twice to the emperor before he could see it. His first letter warns that a Christian ruler cannot fund idolatry and that the bishops of Italy would not accept it; his second answers Symmachus paragraph by paragraph, granting the beauty of the prose and denying every claim — the altar had not saved Rome from the Gauls or Hannibal, the Vestals were a handful of women paid to be chaste, and the plea for many roads was a plea for error. The petition was refused. Symmachus’ text survives because Ambrose had it copied into his own letter collection so that readers could see what he had answered — an act of confidence, and the reason the most eloquent statement of late Roman religious tolerance reached the Middle Ages inside a bishop’s correspondence.",
-     "caveat": "Both texts are authentic and contemporary; the outcome is certain. Symmachus’ ‘many roads’ has been read both as principled pluralism and as an aristocrat’s plea for his own subsidies; Ambrose’s reply is polemic, and the pressure he brought on the court is his own report.",
-     "sources": [
-      {
-       "work": "Symmachus, Relatio 3 (the petition for the altar)",
-       "type": "primary",
-       "note": "Preserved between Ambrose’s Letters 17 and 18 in the NPNF collection."
-      },
-      {
-       "work": "Ambrose, Letters 17 and 18 (to Valentinian II)",
-       "type": "primary",
-       "note": "Ambrose’s two replies."
-      },
-      {
-       "work": "Prudentius, Contra Symmachum",
-       "type": "primary",
-       "note": "The Christian poet’s later verse answer; Loeb Prudentius vol. 1."
-      },
-      {
-       "work": "Alan Cameron, The Last Pagans of Rome (Oxford, 2011)",
-       "type": "reference",
-       "note": "Reassesses the episode and its significance."
-      }
-     ]
-    },
-    {
-     "title": "Eutropius Clings to the Altar He Tried to Abolish",
-     "when": "399",
-     "tier": "1",
-     "verification": "adapted from this project's own reviewed Doc_09 Story Inventory for this world",
-     "teaser": "The most powerful man in the Eastern empire, who had limited the churches’ right of asylum, falls from office and runs to the cathedral for asylum.",
-     "text": "Eutropius, a eunuch who had risen from slavery to be the consul and effective ruler of the East under the emperor Arcadius, had quarrelled with the bishops over the right of sanctuary, and had procured a law restricting fugitives’ claim to shelter in churches. In the summer of 399 the army and the empress turned on him. He fled to the Great Church of Constantinople and took hold of the altar. John Chrysostom, whom Eutropius had himself brought from Antioch to be bishop, refused to hand him over to the soldiers, faced down the officer who came for him, and the next day, with Eutropius still crouched under the holy table in view of the whole congregation, preached the sermon that survives under the title On Eutropius. It opens on Ecclesiastes — ‘Vanity of vanities, all is vanity’ — and it is merciless and merciful at once: here is the man who yesterday commanded the world and today has no one; here is the church he attacked, protecting him; let no one say the church took its revenge, for the church shelters even its enemies. He asked the people to intercede for Eutropius with the emperor. They did; the sentence was reduced to exile in Cyprus, and Eutropius was executed anyway a few months later on a new charge.",
-     "caveat": "The homily is Chrysostom’s and was preached on the day; the political narrative comes from Socrates, Sozomen and the poet Claudian, all hostile to Eutropius. That the sanctuary law was Eutropius’ own is stated by the historians and is generally accepted.",
-     "sources": [
-      {
-       "work": "John Chrysostom, Homily on Eutropius, Eunuch, Patrician and Consul",
-       "type": "primary",
-       "note": "The sermon preached over the fugitive."
-      },
-      {
-       "work": "Socrates Scholasticus, Ecclesiastical History VI.5",
-       "type": "primary",
-       "note": "The fall of Eutropius and the sanctuary law."
-      },
-      {
-       "work": "Sozomen, Ecclesiastical History VIII.7",
-       "type": "primary",
-       "note": "Parallel account."
-      },
-      {
-       "work": "J. N. D. Kelly, Golden Mouth: The Story of John Chrysostom (Cornell, 1995)",
-       "type": "reference",
-       "note": "On the Eutropius affair and its consequences for John."
-      }
-     ]
-    }
-   ],
    "atlasId": "I.6",
    "era": 2,
    "name": "Imperial and Juridical Christianity",
@@ -6009,7 +5468,6 @@ const DATA = {
      "rights": "Public Domain"
     }
    ],
-   "sourcing": "Rich institutional (Eusebius, Ambrose, Leo); thin to silent on ordinary believers, women's own words, and the Homoian establishment's own voice",
    "sources": [
     {
      "work": "Eusebius, Life of Constantine",
@@ -6051,8 +5509,6 @@ const DATA = {
      "note": "Blackwell, 1996 (2nd ed. 2003) — a standard account of how imperial favor reshaped church institutions and authority."
     }
    ],
-   "floorNote": "This is the tradition that convened Nicaea and eventually made its creed imperial law, so its standing on the Creed is not in doubt. It is worth saying plainly, though, that this was never obvious to the people living through it: for long stretches of the fourth century the emperor's own church was Homoian rather than Nicene. The hard questions here are about power, not about doctrine.",
-   "relationsSummary": "Damasus's own secretary was Jerome, who carried Rome's claims into the next generation's ascetic-literary circles; the Nicene settlement received at Chalcedon in 451 is the same creed the Cappadocian churches had helped work out a generation earlier.",
    "why": "This Christian tradition is fully built, and you can have a conversation with Marius, a deacon of the letters, right now.",
    "entry": {
     "representativeId": "marius",
@@ -6064,18 +5520,6 @@ const DATA = {
     "tile": "Bishops in Rome, Constantinople, and Milan lived through a real change. It ran from Constantine's victory in 312 to the Council of Chalcedon in 451. They stopped being outlaws beneath the sword. They became office-holders beside a throne instead — settling their own disputes in council, managing imperial funds, summoned to councils at the emperor's own expense. This was not only a fight over power. At Chalcedon in 451, the council took a letter from Leo of Rome as the final word on what it means to say Christ has two natures. Whole regions, starting in Egypt, rejected that settlement at once. The split never healed. The same council also extended Constantinople's own claim to rank second among the churches, over the protest of Rome's own delegates. Three rival grounds of authority rose across this whole window. Rome claimed it from Peter. Constantinople claimed it from nearness to the throne. And Ambrose of Milan claimed that the emperor stood inside the church, not over it. The question was never settled. This world's worst hours were caused, not suffered. One was Damasus's own disputed election to the bishopric of Rome, so violent that a hundred and thirty-seven people died in a single day. Another was Theodosius's massacre at Thessalonica. His own bishop refused him the sacrament over it until he repented. Ambrose used that same refusal two years earlier for the opposite end. He shielded a bishop who had incited a mob to burn the synagogue at Callinicum. The bishop never had to pay to rebuild it, and that community got no recourse.",
     "icon": "assets/world-icons/empire.svg"
    },
-   "longDescription": "For nearly three centuries the church had been an illegal association. Then, between Constantine's toleration in 313 and Theodosius's legislation at the century's end, it became first protected, then privileged, then the empire's official religion \u2014 and had to work out, very fast, what to do with that. Bishops found themselves hearing civil lawsuits, administering public building funds, and travelling to councils at imperial expense; emperors found themselves summoning those councils and expecting the results to hold.\n\nThree answers competed for where final authority over the church now actually lay, and this world's own window closes without settling which was right. Rome traced its authority to Peter; Constantinople claimed rank because it sat beside the throne \u2014 a claim the Council of Chalcedon extended in 451 over the protest of Rome's own delegates, at the same council that received, as the last word on Christ's two natures, a letter Leo of Rome had written two years before. Ambrose of Milan staked a third claim entirely: that the emperor stood inside the church, not over it. He said those exact words from inside his own basilica in 386, besieged by the soldiers of a Homoian imperial court that wanted the building for its own worship. He would not give it up, and his congregation stayed inside with him \u2014 prepared, an eyewitness later wrote, to die with their bishop. It was there, waiting through the night, that Milan's people first sang hymns the way the Eastern churches did, a custom that, by that eyewitness's account, never stopped and spread to churches across the world. Four years later Ambrose proved the same claim again, against Theodosius himself, refusing the emperor the sacrament until he did public penance for a massacre at Thessalonica.\n\nThe hardest evidence against this world is not what was done to it, but what it did. In 366, a disputed election to the bishopric of Rome left the city so violent that a hundred and thirty-seven people were killed in a single day \u2014 the same Damasus whose reign then built the city's great martyr shrines. The same sacramental refusal that later humbled an emperor over Thessalonica had already been used once before, two years earlier, for the opposite end: protecting a bishop who had incited a mob to burn a synagogue at Callinicum from having to pay for it, and leaving the burned community no recourse at all.",
-   "voices": [
-    "Constantine was the first emperor to protect and endow the church, and the first to summon a general council of its bishops. Why he did it is not settled: Lactantius, writing within a few years, has him dreaming the night before his decisive battle; Eusebius, writing after his death, has him and his whole army seeing a cross of light at midday — the two accounts do not agree, and this world's own sources never resolve which is true.",
-    "Eusebius of Caesarea wrote the first history of the church and the most admiring surviving account of Constantine's reign, once quoting the emperor calling himself a bishop of those outside the church — words no one now can be sure Constantine actually meant as a claim of office. He was his patron's panegyrist as much as his historian, and this world reads him knowing both.",
-    "Theodosius I's laws made Nicene Christianity the empire's official religion. When his soldiers massacred a crowd at Thessalonica in 390 — seven thousand dead, one historian says — his own bishop closed the altar to him and would not open it again until he had shown repentance.",
-    "Ambrose of Milan refused Theodosius the sacrament in 390 until the emperor did public penance for ordering the massacre at Thessalonica — the precedent that an emperor stands inside the church, not over it. Two years before, the same bishop had called the burning of a rival Christian sect's meeting-house at Callinicum worse than heathen, and used his standing with the emperor to spare the men who set a synagogue on fire from ever paying to rebuild it.",
-    "Leo of Rome wrote a letter on the two natures of Christ that was read aloud at Chalcedon in 451 and received as settling the question — at the same council that extended Constantinople's rank over the protest of his own delegates.",
-    "Justina, mother and dominant influence over the young emperor Valentinian II, held the Homoian faith herself and used her son's court to demand a basilica for it at Milan — backed, when Ambrose refused, by a fine of two hundred pounds of gold on the city's merchants and the imprisonment of tradespeople during Lent. Ambrose's own letter names the emperor as the one who ordered this; the record's own chronology names Justina as its real author. She survives in this world's record only through the hostile account of the bishop who refused her.",
-    "Pulcheria, empress from 414, was one of the two people whose convening power actually brought the Council of Chalcedon about in 451. Leo's own letters address her as a real principal, not a courtesy — yet nothing of her own words, on her own terms, survives.",
-    "Ordinary believers appear in this record only when they filled a basilica or a riot; not one of their own testimonies survives from this whole century and a half. Nor does the establishment they mostly lived under for decades: the Homoian church held the imperial throne itself under Constantius and Valens, yet almost nothing of its own theology survives except one battered fragment, copied by a fellow believer and partly erased as heresy before it reached us. Its likely author has a name in this record: on the dominant scholarly identification, he is Mercurinus Auxentius — the same Homoian bishop Ambrose's own sermon at the 386 basilica standoff was preached against, arguing his church's case under his predecessor's own name."
-   ],
-   "legacy": "This is where most of what people mean by \"the institutional church\" was built: canon law, church courts, dioceses drawn along the empire's own administrative lines, and the assumption that a general council can settle a disputed doctrine for everybody.\n\nThe argument it started — where a ruler's authority over the church ends and the church's over the ruler begins — runs on through the medieval investiture disputes, the Reformation's territorial settlements, and every later fight about established churches and their disestablishment.\n\nIts physical inheritance is still standing. The basilica, a Roman public hall rather than a temple, was the form the emperors paid for, and it remains the basic shape of church buildings across Europe. A quieter inheritance survives from the same crisis. Waiting through the siege night in 386, Ambrose's besieged congregation began singing psalms 'after the manner of the Eastern Church' — and Augustine, who was there, says the custom was 'retained from then till now' and copied by 'almost all' congregations 'throughout the rest of the world.'",
    "experienceToday": [
     {
      "text": "The Archbasilica of St John Lateran, Rome — founded under Constantine in the 320s and still the cathedral church of the bishop of Rome",
@@ -6085,96 +5529,6 @@ const DATA = {
   },
   {
    "id": "hieronymian-ascetic-literary",
-   "documentedStories": [
-    {
-     "title": "Blaesilla’s Funeral and the Crowd That Blamed the Monks",
-     "when": "384",
-     "tier": "1",
-     "verification": "adapted from this project's own reviewed Doc_09 Story Inventory for this world",
-     "teaser": "Paula’s twenty-year-old daughter takes up the ascetic life under Jerome’s direction and is dead within four months. Rome draws its own conclusion.",
-     "text": "Blaesilla was Paula’s eldest daughter, widowed at twenty after seven months of marriage, and in the summer of 384 she fell ill, recovered, and turned — under Jerome’s influence — to the severe regime her mother and younger sister Eustochium already followed: fasting, vigils, study of Hebrew, plain dress. Within four months she was dead. At the funeral her mother collapsed and had to be carried out, and the crowd in the street said what Rome had been thinking. Jerome reports it himself: ‘How long shall we refrain from driving these detestable monks out of Rome? Why do we not stone them or throw them into the Tiber? They have misled this unhappy lady; she was no nun by choice. Never before has a heathen mother wept for her children as she has.’ Jerome’s letter of consolation to Paula, written weeks later, is a strange document — it scolds her for excessive grief as a failure of faith, defends the fasting, insists Blaesilla died a saint, and admits that he himself wept when he wrote it. Within the year Pope Damasus was dead, Jerome had lost his protector, and the Roman clergy had made his position impossible; he left for the East in August 385, and Paula and Eustochium followed. Blaesilla is the cost the record shows. Whether the fasting killed her cannot be known; that Rome believed it did, and that Jerome’s circle took ship partly because of it, is documented in his own words.",
-     "caveat": "Everything comes from Jerome, including the crowd’s hostile words, which he quotes to refute; the cause of death is not stated. Modern readers have divided over whether the letter to Paula is pastoral or self-justifying.",
-     "sources": [
-      {
-       "work": "Jerome, Letter 39 (to Paula, on the death of Blaesilla)",
-       "type": "primary",
-       "note": "The funeral, the crowd, the consolation."
-      },
-      {
-       "work": "Jerome, Letter 38 (to Marcella, on Blaesilla’s illness and conversion)",
-       "type": "primary",
-       "note": "Written a few months earlier, praising her new asceticism."
-      },
-      {
-       "work": "Jerome, Letter 45 (to Asella, on leaving Rome)",
-       "type": "primary",
-       "note": "Jerome’s own account of the hostility that drove him out."
-      },
-      {
-       "work": "J. N. D. Kelly, Jerome: His Life, Writings, and Controversies (Harper & Row, 1975)",
-       "type": "reference",
-       "note": "On Blaesilla and the departure from Rome."
-      }
-     ]
-    },
-    {
-     "title": "The Gourd of Oea",
-     "when": "c. 403",
-     "tier": "1",
-     "verification": "adapted from this project's own reviewed Doc_09 Story Inventory for this world",
-     "teaser": "A North African congregation riots when its bishop reads Jonah from Jerome’s new translation and the plant over the prophet’s head has changed.",
-     "text": "Augustine wrote to Jerome at Bethlehem with a story from Oea, a town on the Tripolitanian coast. The bishop there had introduced Jerome’s new Latin version of Jonah, made from the Hebrew rather than the old Greek-based text everyone knew. When the reader reached the plant that God caused to grow over Jonah’s head, the congregation heard an unfamiliar word — hedera, ivy — where they had always heard cucurbita, gourd. There was uproar. The Greeks in the congregation, Augustine says, were consulted, and the local Jews too, and they said the old reading was right; the bishop, ‘after the danger of a riot’, was forced to correct the word ‘as if it were a mistake’ and go back to the gourd, or risk losing his flock. Augustine used the incident to press a point he had been making for years: that if Jerome’s Hebrew-based translation replaced the Septuagint in the churches, the Latin West would find itself reading a different Bible from the Greek East, and ordinary congregations would not stand for it. Jerome’s reply is scornful and philological — the Hebrew word is qiqayon, a castor-oil plant, which is neither gourd nor ivy, and he had chosen ivy because at least it climbs — and he suggests the Jews of Oea were either ignorant or malicious. The exchange documents how the Vulgate was actually received: not by scholars in libraries, but by people in pews who knew their Jonah and did not want it changed.",
-     "caveat": "Reported by Augustine at second hand from Oea and answered by Jerome from Bethlehem; neither was present. The letters are authentic and the philological dispute is accurately represented in both.",
-     "sources": [
-      {
-       "work": "Augustine, Letter 71 (to Jerome), §5",
-       "type": "primary",
-       "note": "The report from Oea."
-      },
-      {
-       "work": "Jerome, Letter 112 (to Augustine), §22",
-       "type": "primary",
-       "note": "Jerome’s reply on the qiqayon."
-      },
-      {
-       "work": "Carolinne White (trans.), The Correspondence (394–419) between Jerome and Augustine of Hippo (Mellen, 1990)",
-       "type": "reference",
-       "note": "The full exchange with commentary."
-      }
-     ]
-    },
-    {
-     "title": "Marcella and the Goths in Her House",
-     "when": "August 410",
-     "tier": "1",
-     "verification": "adapted from this project's own reviewed Doc_09 Story Inventory for this world",
-     "teaser": "The Roman widow who first gathered the Aventine circle is beaten by Alaric’s soldiers for treasure she gave away decades earlier.",
-     "text": "Marcella was the oldest of Jerome’s Roman friends and the one who never left. Widowed young, she had refused a consul’s proposal, turned her house on the Aventine into a place where women studied Scripture, and been the first in the city to take up the ascetic life openly; the circle that produced Paula and Eustochium began in her rooms. By 410 she was old and living with a young companion, Principia, when Alaric’s Goths entered Rome. Jerome, writing from Bethlehem two years later, gives Principia’s account. Soldiers broke into the house looking for money. Marcella met them ‘without a trace of fear’ and told them she had none — she had given it all to the poor long ago — and pointed to her plain dress as proof. They did not believe her and beat her with cudgels and whips. She showed no pain, Jerome says, but threw herself at their feet and begged that Principia not be taken from her, and something in the scene made them stop; the two women were escorted to the basilica of St Paul, which Alaric had declared a sanctuary. Marcella died there a few days later, thanking God, in Principia’s arms. Jerome wrote her memorial as a letter to Principia and could not keep his own grief out of it: he had been drafting a commentary on Ezekiel and had put it aside, unable to work, ‘the city that took the whole world was itself taken’.",
-     "caveat": "Jerome was not present and depends on Principia; the letter is a eulogy and shapes Marcella’s death as a martyrdom. The sack, the sanctuary at St Paul’s and the violence to Roman households are independently attested by Augustine and Orosius.",
-     "sources": [
-      {
-       "work": "Jerome, Letter 127 (to Principia, on Marcella)",
-       "type": "primary",
-       "note": "Marcella’s life, the Goths in her house, her death."
-      },
-      {
-       "work": "Jerome, Commentary on Ezekiel, prefaces to books I and III",
-       "type": "primary",
-       "note": "Jerome’s reaction to the news of the sack; PL 25, English excerpts in Kelly."
-      },
-      {
-       "work": "Augustine, City of God I.1–7",
-       "type": "primary",
-       "note": "The sanctuary of the basilicas during the sack."
-      },
-      {
-       "work": "Kate Cooper, ‘The Widow as Impresario: Gender, Legendary Afterlives, and Documentary Evidence in Eugippius’ Vita Severini’ and related work; see also Cooper, Band of Angels (Overlook, 2013)",
-       "type": "reference",
-       "note": "On Marcella and the Aventine circle."
-      }
-     ]
-    }
-   ],
    "atlasId": "I.9",
    "era": 2,
    "name": "Hieronymian Ascetic-Literary Christianity",
@@ -6400,7 +5754,6 @@ const DATA = {
      "rights": "Public Domain"
     }
    ],
-   "sourcing": "Richest written record among the Built & Live worlds — but nearly all of it is one man's own hand. Even the one independent witness against him doesn't agree with itself: the same report of Jerome holding Paula back survives in two languages, and they diverge — a single guarded line in the Greek hardens, in a later Syriac translation, into a flat claim that she died young to escape his 'envy and evil-eyedness.'",
    "sources": [
     {
      "work": "Jerome, Letters",
@@ -6425,8 +5778,6 @@ const DATA = {
      "note": "Harper & Row, 1975 — the standard modern biography, drawn almost entirely from Jerome's own prolific correspondence."
     }
    ],
-   "floorNote": "Nothing here is in question on the Creed. Jerome was a combative defender of Nicene orthodoxy, and the circle's controversies were about asceticism, Origen's legacy, and the right basis for translating Scripture.",
-   "relationsSummary": "Descends scripturally from Alexandria's Origen, the same legacy this circle later fractured over with Rufinus; Jerome served as Damasus of Rome's own secretary before Bethlehem began.",
    "why": "This Christian tradition is fully built, and you can have a conversation with Albina, a widow of the household, right now.",
    "entry": {
     "representativeId": "albina",
@@ -6438,17 +5789,6 @@ const DATA = {
     "tile": "Marcella, a Roman widow, had already gathered a circle of ascetic, scripturally serious women on the Aventine hill before Jerome ever arrived in 382. Jerome joined them as their teacher, a caustic, brilliant scholar with a gift for making enemies. In 384, Paula's daughter Blaesilla took up the severe fasting Jerome taught and was dead within four months. A Roman crowd's outrage at her funeral helped drive Jerome from the city in 385. Marcella did not go with him. She stayed in Rome. Clergy still brought her their hardest scripture questions until her own death in 410. Paula sailed east with her daughter Eustochium. She spent a senatorial fortune founding a men's monastery, houses for women, and a pilgrims' hostel at Bethlehem. There, Jerome went on translating the Bible into Latin, book by book from the Hebrew. He had begun the project years earlier in Rome, revising the Latin Gospels against the Greek for Pope Damasus. Scholars later called the whole project the Vulgate. Paula led the women's community until her death in 404, and Eustochium succeeded her, leading it for another decade and more. In 416, an attack tied to the Pelagian dispute set fire to the Bethlehem monasteries. Eustochium and her young niece, also named Paula, sent Rome a report of it. Innocent said fear had kept them from saying more, and what reached him was closer to rumor than complaint. He did not write back to the women. His reply went instead to John, the bishop of Jerusalem, rebuking him for letting the violence happen. Inside that rebuke, he praised the women for one thing: they had never named the man responsible. Not one word any of these women wrote in her own hand survives. Nearly everything known of them comes through Jerome's own letters. Even the claim that clergy sought out Marcella's judgment comes from a memorial Jerome wrote two years after her death. Modern historians think he was partly defending his own reputation there, not only praising hers.",
     "icon": "assets/world-icons/bethlehem.svg"
    },
-   "longDescription": "In the early 380s, Jerome arrived in Rome and joined a circle of ascetic, scripturally serious women already meeting around the widow Marcella on the Aventine. Paula, another widow, and her daughters Blaesilla and Eustochium belonged to the same circle, and all of them took Jerome as their teacher \u2014 a caustic, brilliant scholar with a gift for making enemies. In 384 Blaesilla took up the severe fasting Jerome taught and was dead within four months; at her funeral a Roman crowd shouted for the monks to be thrown in the Tiber, and Jerome's own consolation letter to the grieving Paula admits he wept writing it.\n\nWithin the year Pope Damasus, Jerome's protector, was also dead, and his position in Rome had become impossible. Paula and Eustochium sold their estates, sailed east, and founded monasteries at Bethlehem \u2014 a house for men, houses for women, a hostel for pilgrims \u2014 with Jerome installed alongside to work. What came out of it was the Vulgate: a Latin Bible rendered book by book from the Hebrew rather than the Greek everyone was used to, against fierce criticism \u2014 in one North African town, a congregation nearly rioted when its bishop read the new wording of a single word in Jonah, and Augustine wrote across the sea to warn Jerome what unsettling a people's prayed-over text could cost.\n\nNot one word any of these women wrote in her own hand has survived; what is known of them comes only through Jerome's letters, or through others describing letters now lost. In the community's last years, an attack tied to the Pelagian dispute set fire to the Bethlehem monasteries. Eustochium sent Rome a full account of it, and the pope who answered her praised the community for one thing above all \u2014 that they had never named the man behind it.",
-   "voices": [
-    "Jerome was the scholar and translator at the center of it all, and his Latin Bible became the West's standard text for a thousand years. The letters, the memorials, the record of what the women around him said and did — all of it passed through his own hand before it reached us.",
-    "Paula was a Roman widow who sold her fortune to fund the move to Bethlehem and then built and governed its monasteries and pilgrim hostel for nineteen years, until her death. The one independent witness to describe her partnership with Jerome, the historian Palladius, says the opposite of Jerome's own account: that Jerome held her back out of jealousy rather than let her surpass him.",
-    "Eustochium was consecrated to virginity as a teenage girl in Rome, the dedicatee of one of Jerome's most famous letters, and led the Bethlehem women's community for the rest of her life after her mother's death. Palladius later put the size of her community at fifty women; no other source confirms the number.",
-    "Marcella's household on the Aventine was gathering ascetic, scripturally serious women years before Jerome ever reached Rome, and he took his place inside her circle, not the other way around. By his own account, clergy still brought her their hardest scriptural questions long after he had left the city — though the only record of that standing is the letter he wrote about her after she died.",
-    "Rufinus of Aquileia had been Jerome's friend since their student days and translated Origen's own work into Latin. Their bitter public quarrel over Origen's legacy split the wider ascetic network in two, and how much of it was really about doctrine rather than about the two men themselves is a question neither side's own account can settle.",
-    "Every one of these women demonstrably wrote — Marcella's questions survive by implication in Jerome's dozens of answers, and Eustochium's report of the 416 attack reached a pope who wrote back. None of their own letters were kept. The single text that carries two of their names, a letter to Marcella signed by Paula and Eustochium, is itself judged by scholars to be Jerome's own composition in their names, not theirs.",
-    "Fabiola was a Roman noblewoman who left a husband whose vices the whole neighborhood knew, refusing to name them even to defend herself, then remarried while he still lived — a step this circle's own teaching held to be exactly as much a fault for a woman as it would have been for a man. When her second husband died she did public penance in sackcloth before all Rome and was restored to communion; afterward she founded what Jerome calls Rome's first hospital, carrying the sick in from the streets herself, and helped found a hostel for travelers at Portus. She never lived at Bethlehem, and everything known of her — the hospital and its 'first' claim included — rests on the single letter Jerome wrote after her death."
-   ],
-   "legacy": "The Vulgate became the Bible of the Latin West for over a thousand years — the text medieval theology argued from, the text later translators worked from or against, and the text the Council of Trent declared authentic in 1546. Its rise was not immediate or uncontested: Augustine himself never accepted it, writing after Jerome's death that even though the Jews themselves granted his Hebrew work faithful, 'the churches of Christ judge that no one should be preferred to the authority' of the Seventy translators — and the older Greek-based Latin version he defended stayed in real use for generations afterward.\n\nIts principle mattered as much as its content: Jerome's insistence on going back to the Hebrew rather than resting on the Greek is the ancestor of every later \"back to the sources\" movement, including the Renaissance and Reformation scholarship that eventually turned on the Vulgate itself.\n\nThe circle left a second, quieter pattern too — wealthy women funding, hosting, and directing serious biblical scholarship — which recurs constantly in later Christian history. The caves beneath the Church of the Nativity in Bethlehem, where tradition places Jerome's study, are still shown to pilgrims.",
    "experienceToday": [
     {
      "text": "Church of the Nativity and the Pilgrimage Route, Bethlehem — the UNESCO World Heritage site whose underground caves include the one long shown as Jerome's study",
@@ -7310,65 +6650,6 @@ const DATA = {
   },
   {
    "id": "gallic-monastic-ascetic-christianity",
-   "documentedStories": [
-    {
-     "title": "‘I Am Christ’s Soldier; I Am Not Allowed to Fight’",
-     "when": "356",
-     "tier": "2",
-     "verification": "checked directly against the primary text",
-     "teaser": "On the eve of a battle against the Alamanni, a cavalry officer refuses the emperor’s donative and offers to stand in the front line unarmed.",
-     "text": "Sulpicius Severus, who knew Martin in his old age, puts the end of his military career at Worms on the Rhine, when the Caesar Julian was distributing a donative to the troops before an engagement with the Alamanni. Called forward for his money, he told Julian: ‘Hitherto I have served you as a soldier; allow me now to become a soldier to God. Let the man who is to serve you receive your donative. I am the soldier of Christ; it is not lawful for me to fight.’ Julian, Sulpicius says, ‘stormed’, and accused him of cowardice in the face of battle rather than religion. Martin answered that if it was cowardice, he would stand in the front of the line the next morning ‘unarmed, in the name of the Lord Jesus, protected by the sign of the cross’, and go through the enemy without shield or helmet. He was put under guard for the night to make him do it. In the morning the Alamanni sent envoys and surrendered, and the battle never happened; Sulpicius reads it as God sparing the enemy for Martin’s sake, and Martin was discharged. He went to Hilary at Poitiers. But the sentence at its centre, non licet mihi pugnare, became the founding text of the western argument that a Christian might not shed blood, and the man who said it went on to found the first monastery in Gaul.",
-     "caveat": "Sulpicius wrote during Martin’s lifetime from Martin’s own recollection, but as a devoted disciple in a hagiographic mode; the date, Martin’s age and the exact circumstances of discharge are disputed. The refusal to fight is not doubted.",
-     "sources": [
-      {
-       "work": "Sulpicius Severus, Life of St Martin, ch. 2–4",
-       "type": "primary",
-       "note": "Enlistment, Amiens, and the refusal before Julian."
-      },
-      {
-       "work": "Sulpicius Severus, Letters and Dialogues",
-       "type": "primary",
-       "note": "The rest of the Martin dossier."
-      },
-      {
-       "work": "Clare Stancliffe, St Martin and His Hagiographer: History and Miracle in Sulpicius Severus (Oxford, 1983)",
-       "type": "reference",
-       "note": "The standard study, including the chronology problem."
-      }
-     ]
-    },
-    {
-     "title": "Martin at Trier: The Compromise That Cost Him His Power",
-     "when": "385–386",
-     "tier": "1",
-     "verification": "checked directly against the primary text",
-     "teaser": "To stop the executioner going into Spain, the monk-bishop takes communion with the bishops who procured Priscillian’s death, and tells his disciple afterwards that his miracles never came as easily again.",
-     "text": "Martin had gone to Trier while Priscillian and his companions were on trial for heresy before the usurper Maximus, and had begged the emperor not to shed blood — a doctrinal case belonged to bishops, not to a court, and it was enough that the accused be expelled from their churches. He extracted a promise and left; the Spanish bishops Ithacius and Idacius pressed the case, and Priscillian was beheaded. Martin came back to Trier to plead for the lives of two officials condemned for supporting the usurper Gratian, and found that Maximus was about to send military tribunes into Spain with powers to hunt heretics — men who would, Sulpicius says, condemn on the evidence of pallor and dress. Martin had refused communion with the Ithacian bishops since the execution; the emperor now made it a bargain. Take communion with them at the consecration of a new bishop, and the tribunes would be recalled and the two officials pardoned. Martin did it. He left the city the next day ‘groaning’, and on the road, Sulpicius says, an angel told him he had done right to yield but that his strength was diminished; and for the remaining sixteen years of his life ‘he had less power of grace in curing’ than before, and never again attended a synod of bishops. It is the record of a saint choosing lives over purity, being sure he had chosen rightly, and never quite forgiving himself.",
-     "caveat": "Sulpicius had it from Martin and wrote within a few years; the angel is his and Martin’s interpretation. The political sequence — Maximus, the tribunes, the communion — is consistent with Sulpicius’ Chronicle and with Ambrose’s independent account of his own embassy to Trier.",
-     "sources": [
-      {
-       "work": "Sulpicius Severus, Dialogues III.11–13",
-       "type": "primary",
-       "note": "Martin at Trier and the compromise."
-      },
-      {
-       "work": "Sulpicius Severus, Sacred History (Chronicle) II.50–51",
-       "type": "primary",
-       "note": "The trial and execution of Priscillian."
-      },
-      {
-       "work": "Ambrose, Letter 24 (to Valentinian II, on his embassy to Maximus)",
-       "type": "primary",
-       "note": "Ambrose’s parallel refusal of communion with the Ithacians at Trier."
-      },
-      {
-       "work": "Henry Chadwick, Priscillian of Avila: The Occult and the Charismatic in the Early Church (Oxford, 1976)",
-       "type": "reference",
-       "note": "The standard account of the affair."
-      }
-     ]
-    }
-   ],
    "atlasId": "I.27",
    "era": 2,
    "name": "Gallic Monastic-Ascetic Christianity",
@@ -7392,9 +6673,6 @@ const DATA = {
    "living": true,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Strong in volume - Cassian's Institutes and Conferences, Vincent's Commonitory, and the Martin dossier are all vendored, plus two further Cassian and Eucherius works added during construction - but uneven in kind: the Marseilles and Lérins material is the school's own teaching, while almost everything about Martin comes through one admirer's hagiography. Thinner than the volume suggests on the island's own daily life: no woman's own words survive from either house, and the one edition of Cassian this build can read has had its sexual-discipline material removed by a later editor.",
-   "floorNote": "Not in question",
-   "relationsSummary": "Descended from Egyptian desert monasticism through Cassian, who had lived among the Egyptian monks before founding his houses at Marseilles; the seedbed of the Merovingian Gallic church that follows it, and - through Lérins and Tours - of Irish monasticism.",
    "why": "This Christian tradition is fully built, and you can have a conversation with Renatus, a bishop, right now.",
    "entry": {
     "representativeId": "renatus",
@@ -7405,16 +6683,7 @@ const DATA = {
     "color": "#8FA3AC",
     "tile": "This tradition grew up around bishops who never stopped living as monks, and around wisdom first learned in the deserts of Egypt. Its first figure, Martin, was a Roman soldier. Almost everything we know of him comes from one admirer's writing — Sulpitius Severus was not present for the events he describes. Martin told Caesar that he was now a soldier of Christ, and asked to leave the army; he even offered to walk unarmed toward the enemy line. By about 360, he had gathered a few companions near Poitiers. Some years later, the people of Tours seized him and made him their bishop. He kept living as a monk outside the city walls. Two generations later, Honoratus founded a monastery on the island of Lérins, off the Mediterranean coast. He became bishop of Arles himself, and other monks from the island followed him into the office, at Arles and at Riez. Around the same years, John Cassian founded two houses at Marseilles. He had spent years among the fathers of Egypt. He wrote down what he had learned there, adapting their customs to a colder climate and a different church. At Lérins, the monk Vincent wrote a rule for telling real growth in the faith from a corruption dressed up as one. Augustine had written to a monastery in North Africa about grace and human effort. Word of his treatise reached Gaul. It was the monks of Marseilles, not Martin's own Tours, who pushed back hardest. Augustine then wrote two more treatises answering them directly. Through the southern houses ran one argument, never fully settled: how much of a monk's progress comes from God's own gift, and how much from his own effort. The story ends around the year 450, with that question still open.",
     "icon": "assets/portraits/gallic.jpg"
-   },
-   "longDescription": "About 360, a soldier named Martin told Caesar he was now a soldier of Christ, and asked to leave the army. He gathered a few companions near Poitiers, in western Gaul. Some years later, the people of Tours seized him and made him their bishop, and he kept the habits of a monk even in that office. His story survives because a wealthy Aquitanian lawyer, Sulpitius Severus, gave up his career, attached himself to Martin, and wrote his Life while he was still alive. Two other houses complete the picture. Around 410, Honoratus founded a monastery on a small island off the coast near Cannes, Lérins. Honoratus became bishop of Arles, and Hilary, who succeeded him there, wrote his Life; another monk formed on the island, Faustus, later became bishop of Riez. And around 415, John Cassian, who had spent years among the Egyptian monks, founded two houses at Marseilles and wrote down what he had learned there - the Institutes on how a monastery is run, the Conferences on what the Egyptian elders actually said. It was the monks of Marseilles who resisted Augustine's late teaching on grace and human effort. Augustine answered them in two treatises, after a third one - addressed to a different monastery, in Africa - had first provoked their objection.",
-   "voices": [
-    "Martin of Tours - the soldier who told Caesar he was now the soldier of Christ, founded a monastery near Poitiers, and was acclaimed bishop by a crowd while still living as a monk",
-    "Sulpitius Severus - the Aquitanian lawyer who abandoned his career for the ascetic life and wrote Martin's Life while its subject was still alive",
-    "John Cassian - who lived among the Egyptian monks for years, founded two houses at Marseilles, and put the desert's teaching into Latin",
-    "Honoratus of Arles - founder of the island community at Lérins, which formed a generation of Gallic bishops before he became one himself",
-    "Vincent of Lérins - the monk whose Commonitory asked how the church can tell development from corruption, and answered with what has been believed everywhere, always, and by everyone"
-   ],
-   "legacy": "Cassian's Conferences became the West's standing handbook of the interior life: Benedict's Rule commends them by name and prescribes them as daily reading, which carried them into every Benedictine house in Europe. Vincent's test - what has been believed everywhere, always, by everyone - is still quoted in arguments about doctrinal development sixteen centuries later. Lérins itself is still a monastery, on the island off Cannes it has occupied since about 410. Martin became the patron saint of France and one of the most widely venerated saints in the medieval West, with thousands of churches carrying his name; and the Gallic objection to Augustine on grace, argued from Marseilles, was still being fought over at the Reformation."
+   }
   },
   {
    "id": "priscillianist-asceticism",
@@ -41644,8 +40913,63 @@ function sectionSources(list){
   if(!list||!list.length)return '';
   return `<details class="sources-panel"><summary>Sources</summary><ul class="voices">${list.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></details>`;
 }
+// Website V2 world_front design, site cutover Part 3 (approved to proceed
+// 2026-09-19): the 8 built worlds' own deep Orientation-tier content
+// (story/documentedStories/voices/floorNote/legacy/relationsSummary/
+// sourcing) no longer lives in DATA above - it's fetched at panel-open
+// time from cic-website/data/worlds/<census_id>.json (engine.m2.
+// site_compiler's own output, Part 1) and rendered through the exact same
+// functions tools/generate_tradition_pages.py runs (via Node) to build
+// each world's own static tradition page, so the two surfaces can never
+// quietly drift apart into two independently-maintained templates - see
+// cic-website/assets/orientation-render.mjs, imported as
+// window.OrientationRender by the <script type="module"> block just
+// before </body>. Every id here is also that world's own census_id (the
+// compiled JSON's filename), verified 1:1 against world-census.json's own
+// `status === "Built & Live"` movements.
+const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","syriac-edessa-nisibis","desert-monasticism","cappadocian-nicene-pastoral-monastic-tradition","imperial-juridical-christianity","hieronymian-ascetic-literary","gallic-monastic-ascetic-christianity"]);
+const __builtWorldCache={};
+async function fetchBuiltWorldData(censusId){
+  if(__builtWorldCache[censusId])return __builtWorldCache[censusId];
+  const res=await fetch('data/worlds/'+encodeURIComponent(censusId)+'.json');
+  if(!res.ok)throw new Error('HTTP '+res.status);
+  const json=await res.json();
+  __builtWorldCache[censusId]=json;
+  return json;
+}
+// Populates #orient-fetch-slot (openPanel's own placeholder for a built
+// world) once the compiled JSON arrives. Fires after panelBody.innerHTML
+// is already set and the panel is already shown -- a slower connection
+// sees the rest of the panel (title, repline, teaser, edges, sources)
+// immediately, with only this one region loading in behind it, rather
+// than the whole panel waiting on the fetch.
+async function loadBuiltWorldOrientation(censusId){
+  const slot=document.getElementById('orient-fetch-slot');
+  if(!slot)return; // panel closed or moved on before the fetch resolved
+  try{
+    const compiled=await fetchBuiltWorldData(censusId);
+    const R=window.OrientationRender;
+    let h='';
+    const o=compiled.orientation||{};
+    if(o.story&&o.story.length)h+='<h3>The Story</h3>'+R.story(compiled);
+    if(o.documented_stories&&o.documented_stories.length)h+='<h3>Documented stories</h3>'+R.documented_stories(compiled,{idPrefix:censusId});
+    if(o.voices&&o.voices.length)h+='<h3>Voices</h3>'+R.voices(compiled);
+    if(o.floor_note&&o.floor_note.text)h+='<h3>Doctrinal floor note</h3>'+R.floor_note(compiled);
+    if(o.legacy&&o.legacy.length)h+='<h3>Legacy</h3>'+R.legacy(compiled);
+    if(o.relations_summary&&o.relations_summary.text)h+='<h3>In its own record</h3>'+R.relations_summary(compiled);
+    if((o.sourcing&&o.sourcing.text)||(o.read_first&&o.read_first.length))h+='<h3>Sources</h3>'+R.sourcing(compiled);
+    if(!h)h='<p class="meta">No further orientation content recorded for this world yet.</p>';
+    slot.innerHTML=h;
+    slot.classList.remove('orient-loading');
+  }catch(err){
+    slot.innerHTML='<p class="meta">This world’s fuller record could not be loaded right now. Try reopening this panel.</p>';
+    slot.classList.remove('orient-loading');
+    console.error('orientation fetch failed for',censusId,err);
+  }
+}
 function openPanel(m){
   const inbound=DATA.edges.filter(e=>e.to===m.id), outbound=DATA.edges.filter(e=>e.from===m.id);
+  const isBuiltWorld=BUILT_WORLD_IDS.has(m.id);
   const entry=m.entry;
   let h=`<h2 id="panelTitle">${esc(m.name)}</h2>`;
   // Built & Live worlds carry a real Representative (name, role, world name) in
@@ -41664,7 +40988,18 @@ function openPanel(m){
   // for everything else -- is the hook every one of the 292 records was given.
   const lede=entry?entry.tile:m.teaser;
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
-  if(m.longDescription)h+='<h3>The Story</h3>'+m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
+  // Built worlds: the Orientation-tier content that used to sit inline
+  // here (Story/Documented stories/Voices/Doctrinal floor note/Legacy/In
+  // its own record/Sources) is fetched, not embedded - see
+  // loadBuiltWorldOrientation() above, called once this panel's own HTML
+  // is actually in the document (below). Everything else in this
+  // function (repline, meta, teaser above; edges, sources-panel,
+  // verifiedSources, why below) is unaffected: those fields were never
+  // removed from DATA for a built world.
+  if(isBuiltWorld){
+    h+='<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this world’s fuller record…</p></div>';
+  }
+  if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'+m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
   // Documented stories: 1-3 real, individually sourced narrative episodes
   // belonging to this movement specifically (not the map's floating gap
   // stories, and not a restatement of longDescription above) -- a deeper
@@ -41701,10 +41036,12 @@ function openPanel(m){
   // belongs after everything the census itself asserts, not in the middle
   // of it. 970 citations across 179 of the 292 records (623 primary, 190
   // secondary, 157 reference), 51 with a direct link to the actual text.
-  // m.sourcing (kept) is this record's own one-line assessment of how
-  // strong its sourcing is; the list below is what that assessment is an
-  // assessment OF. Neither implies the other -- some records carry one
-  // without the other.
+  // m.sourcing (kept for the 284 non-built movements; fetched instead as
+  // orientation.sourcing for the 8 built ones, in the "Sources" heading
+  // loadBuiltWorldOrientation adds above - see BUILT_WORLD_IDS) is this
+  // record's own one-line assessment of how strong its sourcing is; the
+  // list below is what that assessment is an assessment OF. Neither
+  // implies the other -- some records carry one without the other.
   if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){
     const sourcesLabel=m.sources&&m.sources.length?`Sources (${m.sources.length})`:'Sources';
     h+=`<details class="sources-panel"><summary>${sourcesLabel}</summary>`;
@@ -41741,7 +41078,13 @@ function openPanel(m){
   }
   panelBody.innerHTML=h; showPanel(); hideTip();
   panelBody.querySelectorAll('[data-interview-id]').forEach(btn=>btn.addEventListener('click',()=>launchInterview(btn.dataset.interviewId)));
-  panelBody.querySelectorAll('.docstory-item').forEach(item=>{
+  // Built worlds' own documented stories arrive later (loadBuiltWorldOrientation,
+  // fetched below) and carry no hover-tooltip teaser of their own - the
+  // teaser is already always visible in that markup (orientation-render.mjs's
+  // own renderDocumentedStories), so there is nothing to wire up here for
+  // them. This loop only ever finds matches for a non-built movement's own
+  // still-embedded m.documentedStories.
+  panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{
     const s=m.documentedStories[+item.dataset.storyIdx], summary=item.querySelector('summary'), tipHtml=tipForDocStory(s);
     summary.addEventListener('mouseenter',ev=>showTip(ev,tipHtml));
     summary.addEventListener('mousemove',positionTip);
@@ -41750,6 +41093,7 @@ function openPanel(m){
     summary.addEventListener('blur',hideTip);
     item.addEventListener('toggle',hideTip);
   });
+  if(isBuiltWorld)loadBuiltWorldOrientation(m.id);
   syncWorldURL(m.id);
 }
 function openPanelStory(s){
@@ -42112,6 +41456,20 @@ centerView();
   const deepLinkM=deepLinkId&&byId[deepLinkId];
   if(deepLinkM){ focusWorld(deepLinkM); openPanel(deepLinkM); }
 }
+</script>
+<!-- Website V2 world_front design, site cutover Part 3: the shared
+     renderer both this panel and each built world's own static tradition
+     page (tools/generate_tradition_pages.py, run through Node) render
+     from - one function per surface, not two independently-maintained
+     templates. A module script (not the classic script above) so it can
+     `import` a plain ES module with no build step; it only needs to run
+     before openPanel() is ever CALLED (a user click, always well after
+     the page has finished loading), never before openPanel() is merely
+     DEFINED, so its exact position relative to the classic script above
+     does not matter. -->
+<script type="module">
+import { RENDERERS } from './assets/orientation-render.mjs';
+window.OrientationRender = RENDERERS;
 </script>
 </body>
 </html>
