@@ -677,6 +677,19 @@ When all nine sections (including 2A) are complete:
     a Representative's own construction or grammar to the Facilitator rather than relying on the
     Representative's own prompt text to hold the line unassisted.
 
+    SCOPE, added 2026-09-19 after this exact ambiguity produced a fleet-wide defect (every world
+    built before this date needed its voice_craft record fixed after the fact, one as severe as a
+    2.4x overshoot): "unedited... should not be paraphrased, shortened, or removed" governs THIS
+    document, the deployed Permanent Prompt .txt file, only. It does not extend to B-7's own
+    conversion of this prompt into the voice_craft record's identity/guard/flavor_notes/
+    characteristic_concerns fields (CiC_Record_Native_World_Build_Process_V1_3.md's own B-7 row) -
+    those fields carry a real, enforced ceiling (900 words combined, FK grade 10 per field,
+    engine.m1.gates.gate_voice_craft_prompt_budget/gate_readability) this backstop material must be
+    condensed to fit, in the fleet's own established style: short declarative sentences, every
+    named fact kept, redundant framing cut. The deployed prompt (this file) keeps the backstop
+    paragraphs in full, exactly as 5d requires; the compiled voice_craft record is a separate,
+    deliberately shorter artifact, not a second unedited copy of the same text.
+
 6. Once every check above is clean, the text is complete and ready to serve, unedited,
    as the Representative's Permanent Prompt. Nothing should be added to it at deployment
    time beyond the participant's own first message.
