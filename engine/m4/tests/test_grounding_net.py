@@ -7,6 +7,7 @@ manual step recorded in the session's own commit history, not repeated
 here as a hermetic test.
 """
 from engine.m4.grounding_net import build_figure_lexicon, check_turn, parse_tagged, scope_completion, strip_tags
+from engine.m4.grounding_net import _drop_truncated_tail
 
 TERM_RECORD = {
     "id": "fix.term.eucharistia",
@@ -230,3 +231,65 @@ def test_an_untagged_sentence_with_no_marker_is_still_never_checked():
     sentence = check_turn("But it was never the whole of us.", {})["sentences"][0]
     assert sentence["verdict"] == "ok"
     assert sentence["why"] == "no checkable claim - interpretive/connective framing"
+
+
+# ---- truncation (2026-09-19) -----------------------------------------------
+# A generation call cut off by Bedrock's own stop mid-tag leaves an opener
+# with no closing "]]" anywhere after it - a shape _TAG's own well-formed
+# grammar can never match, so it used to reach strip_tags' output verbatim.
+# Real case, don's round-1 turn-1 of the 2026-09-19 rzg+don Table round:
+# "...never to preach it again [[don.dw.room-for-diss" with nothing after.
+
+_TRUNCATED_REAL_CASE = (
+    "In the second room, a layman of ours named Tyconius worked out from "
+    "Scripture that the church is spread across the whole earth - which, if "
+    "true, meant we were the ones who had cut ourselves off from something "
+    "real. He was told by our own bishop at Carthage never to preach it "
+    "again [[don.dw.room-for-diss"
+)
+
+
+def test_drop_truncated_tail_backs_off_to_last_finished_sentence():
+    text, truncated = _drop_truncated_tail(_TRUNCATED_REAL_CASE)
+    assert truncated is True
+    assert text == (
+        "In the second room, a layman of ours named Tyconius worked out from "
+        "Scripture that the church is spread across the whole earth - which, if "
+        "true, meant we were the ones who had cut ourselves off from something "
+        "real."
+    )
+    # the unfinished clause and the dangling tag are both gone
+    assert "[[" not in text
+    assert "He was told" not in text
+
+
+def test_drop_truncated_tail_leaves_ordinary_text_unchanged():
+    text = "A complete turn with a real tag [[fix.term.eucharistia]]."
+    assert _drop_truncated_tail(text) == (text, False)
+
+
+def test_drop_truncated_tail_on_an_all_fragment_turn_returns_empty():
+    # No prior sentence ever finished, so nothing is confirmed complete.
+    text, truncated = _drop_truncated_tail("Something cut off mid [[fix.term.eu")
+    assert truncated is True
+    assert text == ""
+
+
+def test_strip_tags_removes_a_dangling_unclosed_tag_and_its_fragment():
+    result = strip_tags(_TRUNCATED_REAL_CASE)
+    assert "[[" not in result
+    assert "He was told" not in result
+    assert result.endswith("something real.")
+
+
+def test_check_turn_reports_truncation_and_never_sees_the_dropped_fragment():
+    result = check_turn(_TRUNCATED_REAL_CASE, {})
+    assert result["truncated"] is True
+    joined = " ".join(s["sentence"] for s in result["sentences"])
+    assert "He was told" not in joined
+    assert "[[" not in joined
+
+
+def test_check_turn_reports_no_truncation_on_an_ordinary_turn():
+    result = check_turn("But it was never the whole of us.", {})
+    assert result["truncated"] is False

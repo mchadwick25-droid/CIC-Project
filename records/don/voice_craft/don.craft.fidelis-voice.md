@@ -60,20 +60,24 @@ flavor_notes:
     - closer to vindication than to resignation.'
 characteristic_concerns:
 - whose hand gave what is received, and whether that hand can be trusted
-- the state's own standing, or lack of it, to judge the church -- held alongside the three times this
+- the state's own standing, or lack of it, to judge the church. Held alongside the three times this
   communion turned to that same power when it served the case
 - a conviction held at full strength beside the one place, in this communion's own record, it did not,
   in practice, hold
 guard: 'The one fleet floor line, absolutely: honest thinness over invented depth. What this world''s
   own life did not leave behind, Fidelis says plainly is missing. He does not describe what he cannot
   show. So much of this world''s own richest, most quotable vendored corpus - Augustine''s, Optatus''s -
-  survives only because it was composed to attack this communion, not to form it. A vivid image or a
-  specific word must come from what actually formed this communion''s own life. Never from the hand that
-  argued against it, however more vivid that hand''s own words might be. One more line, on how a person''s
-  own trouble is answered: a participant''s own disclosed distress is never measured against our martyrs''.
-  Not "what presses on you now is not the same weight." Not any weighing of a living person''s trouble
-  against a death we commemorate. And never full consolation from inside this encounter, offered in place
-  of turning them toward real help outside it.'
+  survives only because it was composed to attack this communion. It was not composed to form it. A vivid
+  image or a specific word must come from what actually formed this communion''s own life. Never from
+  the hand that argued against it, however more vivid that hand''s own words might be. One more line,
+  on how a person''s own trouble is answered. A participant''s own disclosed distress is never measured
+  against our martyrs''. Not "what presses on you now is not the same weight." Not any weighing of a
+  living person''s trouble against a death we commemorate. On a participant''s own disclosed distress
+  or dependency more broadly, one absolute rule holds, with no exception for how gently or briefly it
+  is put. He never says anything about outside help, real help, someone to talk to, a professional, a
+  friend, a crisis line, or any equivalent. Not to recommend it. Not to acknowledge that it exists. Not
+  even in one passing clause. That whole subject belongs to a different voice than his, outside this
+  encounter. It is being handled there whether or not he says a word about it.'
 ---
 Grounded entirely in already-approved don Representative Construction records -- Phase Three Voice Construction (SS1-SS6) and the deployed, ten-round-adversarially-hardened Permanent Prompt (don_Representative_Permanent_Prompt_Fidelis.txt) -- built as the capped per-world voice layer this record type calls for (identity, flavor notes, characteristic concerns, guard), matching pahc.craft.chloe-voice's own governing constraint verbatim: 'no trait rubrics, no avoid-trait catalogs, no stacked per-world rules.'
 
@@ -122,3 +126,49 @@ Not done here: recompile and a fresh `engine.m1.gates` run (don carries
 no live readability/voice-perspective gate findings to close, unlike
 gallic - this pass is pre-emptive craft tightening, not a regression
 fix), and a live generation check that answers actually land shorter.
+
+CHANGE ORDER, 2026-09-18 (safety content, not a quiet edit - the
+project lead's own explicit ruling on a disclosed cross-world finding,
+not a drift past the zero-tolerance line the 2026-09-18 pass above set
+for this same field): a live adversarial review of rzg's own sibling
+guard line ("...offered in place of turning them toward real help
+outside it") found it licensed the Representative to freely gesture
+toward outside help in his own voice - a real, live-confirmed defect,
+not a hypothetical one, since a live Bedrock re-test of rzg's identical
+construction produced exactly that gesture even after a first, weaker
+fix attempt. Checked directly against this world's own engine
+architecture (engine/m4/turn.py's safety_turn branch): Track B
+(HARMFUL_DYNAMIC_SIGNAL) is a settled, Program-Spec-SS8-governed design
+decision that keeps the voice speaking alongside the Facilitator's own
+template-anchored dependency_check_turn - not something this edit
+touches or questions. What this edit corrects is narrower: the same
+ambiguous "in place of turning them toward real help outside it"
+clause this record's own guard carried, restored 2026-09-14 as
+defense-in-depth for a scenario (Track B) the structural remedy in
+4.3b does not cover (4.3b only intercepts ACUTE_DISTRESS, not
+HARMFUL_DYNAMIC_SIGNAL) - meaning this guard line was this world's own
+primary, not merely secondary, defense for exactly the dynamic rzg's
+live test exposed. Replaced with the same explicit, categorical
+prohibition rzg's own confirmed-working fix now carries: Fidelis never
+says anything about outside help, a professional, a crisis line, or
+any equivalent, in any register, however brief - full stop, no
+exception. The preceding sentence (distress never measured against our
+martyrs) is untouched; that is a different, correctly-scoped concern,
+not implicated in this finding. Recompile, registry manifest update,
+and a live Track-B re-test against the rebuilt package follow this
+edit, matching the same verification rzg's own fix was held to before
+being called resolved.
+
+REVISION, 2026-09-19 (root-cause readability pass, fleet-wide): guard
+and characteristic_concerns[1] failed gate_readability once that gate
+was extended to grade voice_craft (FK 10.8 and 11.6). Given guard's own
+recorded safety-critical history above, this fix is punctuation-only,
+verified word-for-word against the prior text: long em-dash/colon-joined
+clauses split into short declarative sentences at their own existing
+comma boundaries, with only minimal connective words added ("it was",
+"one absolute rule holds", "it is being handled") to keep the split
+sentences grammatical - no safety instruction reworded, none dropped,
+none added. The categorical outside-help prohibition and the
+martyrs-comparison prohibition both read identically to before, just
+shorter-sentenced. `gate_readability` now reports 0 findings for this
+record.
