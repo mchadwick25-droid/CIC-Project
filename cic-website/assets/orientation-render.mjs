@@ -36,7 +36,7 @@ function paragraphs(text) {
   return String(text)
     .split(/\n\n+/)
     .map((p) => `<p>${escapeHtml(p.trim())}</p>`)
-    .join("");
+    .join("\n");
 }
 
 // A figure's own in-world name (falls back to the first name entry, then
@@ -64,30 +64,28 @@ function figureDateSpan(figure) {
 
 export function renderStory(compiled) {
   const story = (compiled.orientation && compiled.orientation.story) || [];
-  return story.map((unit) => paragraphs(unit.text)).join("");
+  return story.map((unit) => paragraphs(unit.text)).join("\n");
 }
 
 export function renderVoices(compiled) {
   const voices = (compiled.orientation && compiled.orientation.voices) || [];
   if (!voices.length) return "";
-  return (
-    '<div class="orient-voices">' +
-    voices
-      .map((v) => {
-        const name = figureName(v.figure);
-        const dates = figureDateSpan(v.figure);
-        const heading = dates ? `${escapeHtml(name)} <span class="orient-voice-dates">(${escapeHtml(dates)})</span>` : escapeHtml(name);
-        let block = `<div class="orient-voice"><p class="orient-voice-name">${heading}</p>`;
-        block += paragraphs(v.text).replace(/^<p>/, '<p class="orient-voice-text">');
-        if (v.hedge) {
-          block += `<p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> ${escapeHtml(v.hedge)}</p>`;
-        }
-        block += "</div>";
-        return block;
-      })
-      .join("") +
-    "</div>"
-  );
+  const blocks = voices.map((v) => {
+    const name = figureName(v.figure);
+    const dates = figureDateSpan(v.figure);
+    const heading = dates ? `${escapeHtml(name)} <span class="orient-voice-dates">(${escapeHtml(dates)})</span>` : escapeHtml(name);
+    const lines = [
+      '<div class="orient-voice">',
+      `<p class="orient-voice-name">${heading}</p>`,
+      paragraphs(v.text).replace(/^<p>/, '<p class="orient-voice-text">'),
+    ];
+    if (v.hedge) {
+      lines.push(`<p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> ${escapeHtml(v.hedge)}</p>`);
+    }
+    lines.push("</div>");
+    return lines.join("\n");
+  });
+  return ['<div class="orient-voices">', ...blocks, "</div>"].join("\n");
 }
 
 // title/when/teaser are always visible - only the full text (the actual
@@ -103,26 +101,23 @@ export function renderDocumentedStories(compiled, opts) {
   const idPrefix = (opts && opts.idPrefix) || "ds";
   const stories = (compiled.orientation && compiled.orientation.documented_stories) || [];
   if (!stories.length) return "";
-  return (
-    '<div class="docstories-row">' +
-    stories
-      .map((s, i) => {
-        const detailsId = `${idPrefix}-${i}`;
-        let head = `<h4>${escapeHtml(s.title || "")}</h4>`;
-        if (s.when) head += `<p class="meta">${escapeHtml(s.when)}</p>`;
-        if (s.teaser) head += `<p class="teaser">${escapeHtml(s.teaser)}</p>`;
-        const body = s.text ? paragraphs(s.text) : "";
-        return (
-          `<div class="docstory-entry">${head}` +
-          `<details class="docstory-item" id="${detailsId}">` +
-          `<summary><span class="docstory-title">Read the full account</span></summary>` +
-          `<div class="docstory">${body}</div>` +
-          "</details></div>"
-        );
-      })
-      .join("") +
-    "</div>"
-  );
+  const entries = stories.map((s, i) => {
+    const detailsId = `${idPrefix}-${i}`;
+    const head = [`<h4>${escapeHtml(s.title || "")}</h4>`];
+    if (s.when) head.push(`<p class="meta">${escapeHtml(s.when)}</p>`);
+    if (s.teaser) head.push(`<p class="teaser">${escapeHtml(s.teaser)}</p>`);
+    const body = s.text ? paragraphs(s.text) : "";
+    return [
+      '<div class="docstory-entry">',
+      ...head,
+      `<details class="docstory-item" id="${detailsId}">`,
+      '<summary><span class="docstory-title">Read the full account</span></summary>',
+      `<div class="docstory">${body}</div>`,
+      "</details>",
+      "</div>",
+    ].join("\n");
+  });
+  return ['<div class="docstories-row">', ...entries, "</div>"].join("\n");
 }
 
 export function renderFloorNote(compiled) {
@@ -133,7 +128,7 @@ export function renderFloorNote(compiled) {
 
 export function renderLegacy(compiled) {
   const legacy = (compiled.orientation && compiled.orientation.legacy) || [];
-  return legacy.map((unit) => paragraphs(unit.text)).join("");
+  return legacy.map((unit) => paragraphs(unit.text)).join("\n");
 }
 
 export function renderRelationsSummary(compiled) {
@@ -146,22 +141,18 @@ export function renderSourcing(compiled) {
   const orientation = compiled.orientation || {};
   const sourcing = orientation.sourcing;
   const readFirst = orientation.read_first || [];
-  let html = "";
-  if (sourcing && sourcing.text) html += `<p>${escapeHtml(sourcing.text)}</p>`;
+  const parts = [];
+  if (sourcing && sourcing.text) parts.push(`<p>${escapeHtml(sourcing.text)}</p>`);
   if (readFirst.length) {
-    html +=
-      '<ul class="orient-read-first">' +
-      readFirst
-        .map((entry) => {
-          const source = entry.source || {};
-          const work = [source.author, source.work].filter(Boolean).join(", ");
-          const note = entry.note ? ` <span class="orient-read-first-note">${escapeHtml(entry.note)}</span>` : "";
-          return `<li><span class="orient-read-first-work">${escapeHtml(work)}</span>${note}</li>`;
-        })
-        .join("") +
-      "</ul>";
+    const items = readFirst.map((entry) => {
+      const source = entry.source || {};
+      const work = [source.author, source.work].filter(Boolean).join(", ");
+      const note = entry.note ? ` <span class="orient-read-first-note">${escapeHtml(entry.note)}</span>` : "";
+      return `<li><span class="orient-read-first-work">${escapeHtml(work)}</span>${note}</li>`;
+    });
+    parts.push(['<ul class="orient-read-first">', ...items, "</ul>"].join("\n"));
   }
-  return html;
+  return parts.join("\n");
 }
 
 // ---- Narrative tier (tradition-page-only sections) ----
@@ -184,14 +175,25 @@ export function renderQuiet(compiled) {
 // bibliographic locus, so there is no citation string in the compiled data
 // to reproduce verbatim here. Rendered instead as a short, honestly-
 // labeled excerpt of the record that actually grounds the question -
-// never invented, never a fabricated citation form. See this generator's
-// own report for this judgment call.
+// never invented, never a fabricated citation form. The cut favors a
+// sentence boundary within `maxLen` over an arbitrary word-boundary
+// chop, so the excerpt reads as a complete thought rather than trailing
+// off mid-clause; only when no sentence end falls in range does it fall
+// back to the nearest word boundary. See this generator's own report for
+// this judgment call.
 function citeExcerpt(cite, maxLen) {
   if (!cite || !cite.text) return "";
   const label = (cite.record_type || "").replace(/_/g, " ");
-  let text = cite.text.trim();
-  if (text.length > maxLen) {
-    text = text.slice(0, maxLen).replace(/\s+\S*$/, "") + "…";
+  const full = cite.text.trim();
+  let text = full;
+  if (full.length > maxLen) {
+    const window = full.slice(0, maxLen);
+    const sentenceEnd = window.match(/^[\s\S]*[.!?](?=\s|$)/);
+    if (sentenceEnd && sentenceEnd[0].length >= maxLen * 0.4) {
+      text = sentenceEnd[0].trim();
+    } else {
+      text = window.replace(/\s+\S*$/, "").trim() + "…";
+    }
   }
   return `${label ? escapeHtml(label) + ": " : ""}“${escapeHtml(text)}”`;
 }
@@ -214,66 +216,34 @@ export function renderQuestions(compiled, ctx) {
       li += "</li>";
       return li;
     })
-    .join("");
-  return `<ul class="questions">${items}</ul>`;
+    .filter(Boolean)
+    .join("\n");
+  return `<ul class="questions">\n${items}\n</ul>`;
 }
 
 export function renderGlossary(compiled) {
   const glossary = (compiled.narrative && compiled.narrative.glossary) || [];
   if (!glossary.length) return "";
-  return (
-    '<dl class="orient-glossary">' +
-    glossary
-      .map((t) => `<div class="orient-glossary-item"><dt>${escapeHtml(t.world_word)}</dt><dd>${escapeHtml(t.meaning)}</dd></div>`)
-      .join("") +
-    "</dl>"
+  const items = glossary.map(
+    (t) => `<div class="orient-glossary-item"><dt>${escapeHtml(t.world_word)}</dt><dd>${escapeHtml(t.meaning)}</dd></div>`
   );
+  return ['<dl class="orient-glossary">', ...items, "</dl>"].join("\n");
 }
 
-// A quote's own `speaker_or_author` field is sometimes a resolved
-// scholarly attribution string ("Palladius, in the Syriac recension of
-// the Paradise") and sometimes a bare record id (`desert.figure.sarah`) -
-// a real, fleet-wide authoring inconsistency this session found across 6
-// of the 8 built worlds' own quote records, which the compiler's own
-// _resolve_quote() (engine/m2/site_compiler.py) passes through verbatim
-// without resolving against the figure records. Rather than leak an
-// internal id into participant-facing text, this resolves it against the
-// same figures the compiled JSON already carries in narrative.who_speaks
-// (the world's own anchor figures) when possible, and otherwise falls
-// back to reformatting the id's own last segment as a name - never a
-// fabricated addition, just the id's own words made readable. See this
-// generator's own report for the full finding and the fix that actually
-// belongs in the compiler.
-const _BARE_RECORD_ID_RE = /^[a-z0-9]+\.(figure|quote|story)\.[a-z0-9-]+$/;
-
-function resolveSpeaker(raw, compiled) {
-  if (!raw) return "";
-  if (!_BARE_RECORD_ID_RE.test(raw)) return raw;
-  const figures = (compiled.narrative && compiled.narrative.who_speaks && compiled.narrative.who_speaks.figures) || [];
-  const match = figures.find((f) => f.id === raw);
-  if (match) return figureName(match);
-  const lastSegment = raw.split(".").pop();
-  return lastSegment
-    .split("-")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ");
-}
-
+// A quote's own `speaker_or_author` arrives already resolved to a
+// readable name - engine/m2/site_compiler.py's _resolve_quote() runs it
+// through citation_cards.py's own figure-label lookup at compile time, so
+// there is nothing left for this renderer to unwrap.
 export function renderPullQuotes(compiled) {
   const quotes = (compiled.narrative && compiled.narrative.pull_quotes) || [];
   if (!quotes.length) return "";
-  return (
-    '<div class="orient-pull-quotes">' +
-    quotes
-      .map((q) => {
-        const speaker = resolveSpeaker(q.speaker_or_author, compiled);
-        return `<blockquote class="orient-pull-quote"><p>${escapeHtml(q.text)}</p>${
-          speaker ? `<cite>${escapeHtml(speaker)}</cite>` : ""
-        }</blockquote>`;
-      })
-      .join("") +
-    "</div>"
-  );
+  const blocks = quotes.map((q) => {
+    const speaker = q.speaker_or_author;
+    return `<blockquote class="orient-pull-quote"><p>${escapeHtml(q.text)}</p>${
+      speaker ? `<cite>${escapeHtml(speaker)}</cite>` : ""
+    }</blockquote>`;
+  });
+  return ['<div class="orient-pull-quotes">', ...blocks, "</div>"].join("\n");
 }
 
 // Every render function this module exports, keyed by name - the single

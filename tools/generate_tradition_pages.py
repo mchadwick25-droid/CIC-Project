@@ -144,12 +144,22 @@ def fill_article(article_template: str, sections: dict[str, str]) -> str:
         return block
 
     filled = _SECTION_BLOCK_RE.sub(replace_block, article_template)
-    # Collapse the blank lines/whitespace left behind by a dropped section
-    # or by the template's own between-section formatting - the output is
-    # spliced into a single-line chrome file, so pretty-printing here
-    # would just be inconsistent with the rest of the page.
-    filled = re.sub(r"\s+", " ", filled).strip()
-    return filled
+    # Tidy only the blank-line runs a dropped section leaves behind. The
+    # existing hand-built pages this replaces are themselves pretty-printed,
+    # multi-line HTML (verified against the pre-cutover desert/syriac pages
+    # - only their <style> blocks are dense), and this generator's own
+    # design doc gives committing generated output as the reason a
+    # reviewer's diff shows the exact prose change - collapsing every
+    # section to one line would erase that property, so the template's and
+    # the renderer's own line breaks are kept, not flattened.
+    lines = [line.rstrip() for line in filled.strip("\n").split("\n")]
+    cleaned: list[str] = []
+    for line in lines:
+        if line == "" and (not cleaned or cleaned[-1] == ""):
+            continue
+        cleaned.append(line)
+    indented = "\n".join(("      " + line if line else "") for line in cleaned)
+    return "\n" + indented + "\n"
 
 
 def regenerate(world_key: str, registry: dict, census_by_id: dict, content_css: str, article_template: str) -> None:
