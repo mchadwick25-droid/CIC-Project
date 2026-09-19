@@ -775,3 +775,64 @@ Chloe, Theon, Yausep, Fidelis, Marius, Papnoute, Albina.
 `Brand-Assets/Representative-Portraits/README.md` updated to list all seven and
 their correct chronological group-image ordering (Donatism's 311 start predates
 Church and Empire's 312, so Fidelis slots in ahead of Marius, not at the end).
+
+---
+
+## 2026-09-19 — Nikolaus (Lutheran Wittenberg) profile portrait built and approved: eight of eight Representatives now have profiles
+
+**Full research and drafting record kept in its own file, not duplicated here:**
+`Brand-Assets/Representative-Portraits/witt/Nikolaus_Portrait_Prompt.md` — Part
+One (appearance research, grounded in Lucas Cranach the Elder's own Wittenberg
+portraiture — the single best time-and-place-matched external source available
+anywhere in this portfolio, since Cranach worked in Wittenberg itself through this
+exact span), Part Two (held-object comparative reasoning), and Part Three (the
+finished, corrected generation prompt).
+
+**A genuinely different visual register, not a recolored version of the other
+seven.** Witt's own 1517-1580 window sits over a thousand years later than any
+other world in this portfolio (the other seven all fall between 70 and 451 CE),
+moving the whole convention from late-antique Mediterranean draped dress to
+Northern-Renaissance German burgher dress. Nikolaus is also the first
+Northern-European-grounded Representative in the set (all seven others are
+Mediterranean, North African, or Levantine/Parthian) and the first explicitly lay
+office pictured this close to (but distinct from) the pulpit — no clerical
+vestment of any kind belongs on this figure, per `witt.voice.craft.md`'s own
+"lay, standard across the whole territorial-church window" language.
+
+**Held-object search grounded directly in the already-approved identity record,**
+not invented: `witt.voice.craft.md` names Nikolaus directly as "ringer of its
+bell" and "teacher of the town's children in their letters and catechism." A
+household-catechism book and a German hymnal were both considered and rejected —
+both collide with three of the seven existing Representatives' own book-family
+objects (Theon's scroll, Yausep's codex, Marius's scroll-case), the same
+structural objection that ruled out Fidelis's own first-choice codex. A large
+iron church key (echoing "keeper of the parish") was considered and set aside in
+favor of a hand bell, since the bell alone speaks to both halves of the composite
+"sexton-schoolmaster" office — the same bell calls the school to lessons and the
+parish to worship — where the key would represent only the custodial half. See
+the prompt file for the full per-candidate reasoning.
+
+**Two corrections made on the generated image itself, both real catches, not
+polish:** (1) the first draft's hair ran well past shoulder-length against the
+brief's own "worn loose to the jaw or collar" grounding — corrected to end
+explicitly at the jaw/collar, matching real period portrait convention rather
+than a generic Renaissance-courtier default. (2) Mark's own direct catch: "the
+color and sweater... seem modern." Confirmed — the coat read as smooth, unstructured
+knitwear in a flat, cool charcoal grey, a modern dye/textile convention rather
+than a period-grounded one. Corrected to a warm dark brown-black wool doublet with
+a visible button closure and structured, padded shoulders (a genuine
+Northern-Renaissance doublet convention, visible in Cranach's and Dürer's own
+portraiture of this era) worn over a separately visible white linen shirt. Both
+fixes confirmed resolved on regeneration; the beret's fuller, rounded shape and a
+slightly pronounced shoulder puff were flagged as non-blocking observations
+(both genuinely attested in real period portraiture) rather than required fixes.
+**Mark's own word: "lock it in."**
+
+**Disposition:** Nikolaus's profile portrait **approved.** All eight
+Representatives now have approved profile portraits: Chloe, Theon, Yausep,
+Fidelis, Marius, Papnoute, Albina, Nikolaus.
+`Brand-Assets/Representative-Portraits/README.md` updated to list all eight and
+their correct chronological group-image ordering (Nikolaus's 1517 start is more
+than a thousand years after any other world's, so he takes the final slot, not
+an arbitrary one). Mark is placing the approved image into GitHub directly, the
+same way he did for the other seven.

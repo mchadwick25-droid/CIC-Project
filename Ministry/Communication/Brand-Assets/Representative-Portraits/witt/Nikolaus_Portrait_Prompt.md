@@ -1,11 +1,54 @@
 # Nikolaus Portrait — Research Brief and Generation Prompt
 ## Lutheran Wittenberg & Its Congregations (`witt`) — Sexton-Schoolmaster
 
-**Status:** RESEARCH AND PROMPT-DRAFTING ONLY. No image generated. Built the same way Fidelis's
-brief was built (`donatism/Fidelis_Portrait_Prompt.md`): historical grounding first, prompt built
-from that grounding second, offered for Mark's own review and decision before any image is
-generated — consistent with the standing discipline that a portrait is never treated as settled
-until Mark has actually seen and approved the generated image itself.
+**Status:** APPROVED (2026-09-19). The generated portrait matching Part Three's own corrected
+prompt is locked in — Mark's own word ("lock it in"), after two disclosed correction rounds
+(below). Built the same way Fidelis's brief was built (`donatism/Fidelis_Portrait_Prompt.md`):
+historical grounding first, prompt built from that grounding second, offered for Mark's own review
+and decision before any image was treated as settled.
+
+**Asset path, per `Representative-Portraits/README.md`'s own per-world folder convention:**
+`witt/Nikolaus_Portrait.png` — Mark is placing this file into GitHub directly, the same way he did
+for the other seven. This document is the research brief and the corrected prompt that produced it;
+full disposition and correction history is below and should also be logged in
+`Ministry/Features/In-App-Icons-Graphics/Decision-Log.md` alongside the other seven, per this
+document's own standing cross-reference instruction.
+
+**Disposition history (2026-09-19):**
+
+*Round 1 — first generation, reviewed against Part One/Two's own grounding, two corrections found:*
+1. **Hair too long.** The brief specified hair "worn loose to the jaw or collar," grounded directly
+   in Cranach's own Wittenberg portraits of this period, which consistently show hair ending at the
+   jaw or collar, not below it. The first generation ran well past shoulder-length — reading as a
+   generic Renaissance-courtier convention rather than the specific, time-and-place-matched
+   grounding this brief actually argued for. The same class of correction Theon's own portrait
+   needed against real period portrait sculpture, not a matter of taste.
+2. **Coat read as modern knitwear, in a modern color.** Mark's own direct catch: "the color and
+   sweater... seem modern." Confirmed on inspection: the garment was smooth and closely fitted with
+   no visible seams, closure, or layering — reading as a knit sweater rather than constructed period
+   outerwear — and its flat, cool charcoal grey is largely a modern dye/textile convention. Period
+   wool dyeing without expensive imported dyestuffs ran warmer and earthier: browns, blacks that
+   lean brown rather than true neutral black, or undyed oatmeal/tan. The same class of catch as
+   Chloe's own "undyed linen, an unexamined carry-over" correction — an unresearched default, not a
+   period-grounded choice.
+
+*Fix applied to the prompt (both issues, one regeneration):* hair clause tightened to state the
+cut ends at the jaw/collar and explicitly not past the shoulders; coat clause rewritten to specify
+a dark brown or brownish-black wool doublet with a visible button or tie closure and structured,
+padded shoulders — real period doublet construction — worn over a separately visible white linen
+shirt, replacing the earlier unstructured "charcoal or deep brown" description that had let the
+model default to smooth modern knitwear.
+
+*Round 2 — regenerated, both corrections confirmed resolved:* hair now ends at collar/shoulder
+length, matching the brief. Coat now reads as a warm dark brown-black with a visible row of
+buttons, structured/gathered shoulders (a genuine Northern-Renaissance doublet convention visible
+in Cranach's and Dürer's own portraiture of this era), and a clearly separate white linen shirt at
+collar and cuffs — no longer reading as knitwear. One item flagged as a soft, non-blocking
+observation rather than a required fix: the beret is fuller and more rounded than the tightest
+possible period reading, and the shoulder puff is slightly more pronounced than the plain "modest
+townsman" register strictly calls for — both are genuinely attested in real Northern-Renaissance
+portraiture (Dürer's berets; puffed/paned shoulders were common period fashion), so neither was
+treated as an error. **Mark's own word: "lock it in."** Approved as-is, no further correction round.
 
 **Governing style lock (2026-07-24, "Style locked"; refined 2026-09-10 for Fidelis):**
 painterly/fine-art oil portrait — visible canvas texture and cracquelure, not photorealistic;
@@ -167,7 +210,11 @@ schoolmaster together rather than only one half of the title.
 
 ## Part Three — The Gemini Generation Prompt
 
-A fine-art oil portrait, painterly and richly textured, of a German townsman of the Lutheran Reformation era, painted in the same style as a Cranach-period Northern Renaissance character study: visible canvas weave and grain throughout, fine cracquelure across the paint surface, warm layered brushwork rather than any photographic or digital smoothness. He is a man in early middle age, of fair-to-medium Northern-European, central-German complexion, with warm brown eyes, chin-length light brown hair worn loose to the jaw or collar, and a modest, neatly trimmed brown beard — the plain, respectable look of a 16th-century Wittenberg schoolteacher, not a courtier or a churchman of high rank. His expression is warm and open, as though caught mid-conversation with someone he trusts, gently engaged rather than stern, solemn, or mid-speech with an open mouth. His head, shoulders, and body face directly forward, squared straight on to the viewer at eye level — not turned three-quarters or angled to either side — and he looks directly out of the canvas at the viewer, making direct eye contact, so the whole composition sits symmetrically on a single central point of perspective. He wears the plain dress of a respectable but modest Wittenberg townsman: a dark wool doublet or coat in a muted charcoal or deep brown, with a simple white linen shirt visible at a plain flat collar (no ruff), and a small, dark, soft wool cap (a flat German barett) worn on his head. His clothing is entirely unornamented — no fur trim, no embroidery, no gold thread, and no jewelry of any kind: no rings, no chain, no pin. He holds a plain bronze hand bell upright at his chest, fully visible in both hands: one hand cupped around the bell's own rounded body, the other resting near the handle at the top, as though caught in the motion of ringing it to call the town's children to their lessons or the parish to worship. The background is a flat, plain, softly warm neutral tone with no scenery, no architecture, and no other figures, in keeping with an isolated character-study portrait. Compose the image as a wide horizontal landscape-oriented bust-up portrait, framed from roughly waist height up and centered directly on the figure, so the bell is clearly and fully visible in both hands at the chest rather than only hinted at along the frame's edge — do not crop tightly to the face or shoulders alone.
+**This is the corrected, approved prompt (post-Round-2), reflecting both disclosed fixes above.**
+The original Round 1 prompt is preserved in this document's own git history for reference, not
+restated here as though it were still current.
+
+A fine-art oil portrait, painterly and richly textured, of a German townsman of the Lutheran Reformation era, painted in the same style as a Cranach-period Northern Renaissance character study: visible canvas weave and grain throughout, fine cracquelure across the paint surface, warm layered brushwork rather than any photographic or digital smoothness. He is a man in early middle age, of fair-to-medium Northern-European, central-German complexion, with warm brown eyes, light brown hair cut short and neat, ending right at the jaw or collar and no longer — not flowing past the shoulders — and a modest, neatly trimmed brown beard — the plain, respectable look of a 16th-century Wittenberg schoolteacher, not a courtier or a churchman of high rank. His expression is warm and open, as though caught mid-conversation with someone he trusts, gently engaged rather than stern, solemn, or mid-speech with an open mouth. His head, shoulders, and body face directly forward, squared straight on to the viewer at eye level — not turned three-quarters or angled to either side — and he looks directly out of the canvas at the viewer, making direct eye contact, so the whole composition sits symmetrically on a single central point of perspective. He wears the plain dress of a respectable but modest Wittenberg townsman: a dark brown or brownish-black wool doublet with a visible row of small buttons down the front and structured, slightly padded shoulders, worn over a simple white linen shirt visible at a plain flat collar (no ruff) and at the cuffs, and a small, dark, soft wool cap (a flat German barett) worn on his head. His clothing is entirely unornamented apart from its plain functional buttons — no fur trim, no embroidery, no gold thread, and no jewelry of any kind: no rings, no chain, no pin. He holds a plain bronze hand bell upright at his chest, fully visible in both hands: one hand cupped around the bell's own rounded body, the other resting near the handle at the top, as though caught in the motion of ringing it to call the town's children to their lessons or the parish to worship. The background is a flat, plain, softly warm neutral tone with no scenery, no architecture, and no other figures, in keeping with an isolated character-study portrait. Compose the image as a wide horizontal landscape-oriented bust-up portrait, framed from roughly waist height up and centered directly on the figure, so the bell is clearly and fully visible in both hands at the chest rather than only hinted at along the frame's edge — do not crop tightly to the face or shoulders alone.
 
 ---
 
@@ -179,8 +226,8 @@ own entries function in `Ministry/Features/In-App-Icons-Graphics/Decision-Log.md
 correction round finds something wrong (an anachronism, a dress or region miss, a framing defect),
 log it there alongside the other seven, not only here.
 
-No image has been generated yet. Once Mark reviews and, if needed, corrects this prompt, the
-resulting approved image should be saved to `witt/Nikolaus_Portrait.png` per
-`Representative-Portraits/README.md`'s own per-world folder convention, and that README's table
-updated to carry an eighth row — matching exactly how Fidelis's own approval closed out the
-seventh.
+**Approved and closed out.** The image is saved to `witt/Nikolaus_Portrait.png` per
+`Representative-Portraits/README.md`'s own per-world folder convention (Mark placing the file into
+GitHub directly), and that README's table now carries an eighth row — matching exactly how
+Fidelis's own approval closed out the seventh. **All eight Representatives now have approved
+profile portraits.**

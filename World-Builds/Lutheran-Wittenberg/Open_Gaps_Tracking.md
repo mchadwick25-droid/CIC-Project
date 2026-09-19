@@ -1065,3 +1065,40 @@ Representative-portrait decision for Nikolaus, a real identity-decision-category
 3. Five pre-existing, unrelated `figure-dates-keys/*` findings surfaced by the same
    `cross_world` run for other worlds (alx, desert, hal, ijc, syr — all using a `born` key
    pattern) — noted, not touched; not this build's own content and not this session's to fix.
+
+## OG-20. Representative portrait for Nikolaus: researched, generated, corrected, and approved by Mark
+
+**Build history.** Researched and drafted a portrait prompt for Nikolaus the same way Fidelis's
+own portrait was built (`Ministry/Communication/Brand-Assets/Representative-Portraits/witt/Nikolaus_Portrait_Prompt.md`):
+Part One grounded region/complexion/hair/dress against Lucas Cranach the Elder's own Wittenberg
+portraiture (the single best time-and-place-matched external source anywhere in this portfolio),
+Part Two compared four held-object candidates against all seven existing Representatives'
+silhouettes and recommended a hand bell — directly grounded in `witt.voice.craft.md`'s own
+already-approved "ringer of its bell" identity language, collision-free, and the one object
+speaking to both halves of the composite "sexton-schoolmaster" office at once. Part Three was the
+Gemini generation prompt.
+
+Mark generated the image and asked for a direct accuracy check against history (hair, hat,
+clothing). Two real corrections found and applied over two rounds: hair ran well past
+shoulder-length against the brief's own jaw/collar grounding, corrected; the coat read as modern
+knitwear in a modern flat grey (Mark's own catch: "the color and sweater... seem modern"),
+corrected to a period-grounded dark brown-black wool doublet with a visible button closure and
+structured shoulders. Both confirmed resolved on regeneration. **Mark's own word: "lock it in."**
+Full disposition history, the corrected Part Three prompt, and cross-reference logged in the
+prompt file itself and in `Ministry/Features/In-App-Icons-Graphics/Decision-Log.md` (2026-09-19
+entry), matching every other Representative's own portrait-approval discipline.
+
+This resolves the escalation-category item OG-19 named as blocking frontend/site wiring
+(`app-world-assets/witt`, `app-world-order/witt`, `site-portrait/witt`, all still logged
+`ACCEPTED_OPEN` in `engine/m1/cross_world.py` pending M3 admission). It does not close those three
+`ACCEPTED_OPEN` entries itself — Gallic's own precedent closed its equivalent entries only once
+the frontend `worlds.ts` file and the site's `traditions/` page were actually wired, not merely
+once the portrait was approved. That wiring remains a genuinely separate, later step, still
+correctly deferred pending M3 admission per OG-19's own reasoning; this entry records only that the
+one blocker naming a missing decision (the portrait itself) is now resolved.
+
+**Open items seeded:**
+1. Frontend/site portrait wiring (`cic-poc/frontend/src/data/worlds.ts`,
+   `cic-website/traditions/lutheran-wittenberg-and-its-congregations.html`) — now unblocked on the
+   decision side, but still real work belonging to witt's own post-M3 Phase C pass, not done here.
+2. M3 admission — unaffected, still Mark-only.
