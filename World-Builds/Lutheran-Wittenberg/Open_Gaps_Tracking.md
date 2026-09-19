@@ -1102,3 +1102,37 @@ one blocker naming a missing decision (the portrait itself) is now resolved.
    `cic-website/traditions/lutheran-wittenberg-and-its-congregations.html`) — now unblocked on the
    decision side, but still real work belonging to witt's own post-M3 Phase C pass, not done here.
 2. M3 admission — unaffected, still Mark-only.
+
+## OG-21. Article 29 (M2) — Living Tradition Status Confirmation: CONFIRMED by the project lead
+
+**Build history.** Presented the full determination already drafted in `witt_World_Profile.md` §9
+and `witt_Doc_10_Representative_Construction_Notes_Nikolaus.md` §6 directly to Mark, per the
+Blueprint's own three-part confirmation procedure and the same shape every prior world in this
+fleet's own M2 checkpoint has taken (Alexandria, PAHC, Syriac, IJC, Cappadocian, Desert-Monasticism):
+the build thread drafts the determination and a recommendation; only the project lead's own dated
+word closes it. First fixed one small, disclosed technical correction ahead of the presentation —
+World Profile §9's own cross-reference to Doc_10 was stale, written before Representative Emergence
+had occurred; corrected in place.
+
+**The determination presented:** correspondence YES (Confessional Lutheranism, a present-day family
+of church bodies per the Atlas census); three documented divergences (the territorial
+prince-administered church structure, not characterized as continuing; the construction's own
+1545-46 evidential close against the living tradition's centuries of further history; the 1543
+treatise against the Jews, carried as a binding disclosure, not characterized as to present-day
+reception); one figure of contested standing (the founder himself, narrowly on the 1543 treatise's
+historical effect, Kaufmann vs. Wallmann); Version A runtime handling, already built into the
+deployed Permanent Prompt. Recommendation: confirm as drafted.
+
+**Mark's own word, in session: "Confirm as drafted."** Both `witt_World_Profile.md` §9 and
+`witt_Doc_10...md` §6 updated from PENDING to CONFIRMED, dated 2026-09-19, carrying Mark's exact
+words — matching the same disclosure discipline every prior world's own confirmation entry used.
+This closes M2 for witt. The world is now **freeze-eligible on Article 29**, independent of the
+separate, still-outstanding Article 31 external-scholarly-review gate.
+
+This is a project-lead act, not a build-thread self-disposition — logged here as the audit trail,
+not as something this build thread decided on its own authority.
+
+**Open items seeded:**
+1. Article 31 (external scholarly review) — separate gate, still outstanding, not addressed here.
+2. M3 admission — the sealed probe battery, real AWS Bedrock spend, still Mark-only per-run
+   authorization. This is now the only remaining checkpoint before this world can be admitted.
