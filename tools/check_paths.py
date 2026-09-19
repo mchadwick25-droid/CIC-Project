@@ -36,7 +36,7 @@ def top_level_dirs() -> set[str]:
 
 
 def in_scope(rel: str) -> bool:
-    if any(rel.startswith(s) for s in SKIP_DIRS):
+    if any(rel.startswith(s) or f"/{s}" in rel for s in SKIP_DIRS):
         return False
     if rel.startswith("Ministry/") and DATED.search(Path(rel).name):
         return False
