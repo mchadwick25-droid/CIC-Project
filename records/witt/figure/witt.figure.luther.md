@@ -11,25 +11,23 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: >-
-    Documented as to existence, office, and reputation: directly attested across nine of this library's
-    own vendored sources, spanning a dated letter (1517), a disputation, sermons, an exposition, a
-    ballad, a catechism pair, and a confession his own colleague drafted and signed. No vendored primary
-    text in this library gives a birth date. His life is understood, per this world's own already-
-    established closing boundary (witt.core.witt.thinness: "the years after our founder's own life
-    closed... after 1546"), to run into 1546 - a boundary this record treats as already settled by that
-    record, not independently re-derived here. Every individual story below carries its own tier and its
-    own, sometimes lower, confidence (Tier 2 for the Table Talk retellings, Contested for the household
-    exchange); this record's own Documented rating covers Luther's existence, office, and general
-    conduct across the library, not the wording of any one collected reminiscence.
+  divergence_note: 'Documented as to existence, office, and reputation: directly attested across nine
+    of this library''s own vendored sources, spanning a dated letter (1517), a disputation, sermons, an
+    exposition, a ballad, a catechism pair, and a confession his own colleague drafted and signed. No
+    vendored primary text in this library gives a birth date. His life is understood, per this world''s
+    own already- established closing boundary (witt.core.witt.thinness: "the years after our founder''s
+    own life closed... after 1546"), to run into 1546 - a boundary this record treats as already settled
+    by that record, not independently re-derived here. Every individual story below carries its own tier
+    and its own, sometimes lower, confidence (Tier 2 for the Table Talk retellings, Contested for the
+    household exchange); this record''s own Documented rating covers Luther''s existence, office, and
+    general conduct across the library, not the wording of any one collected reminiscence.'
 sources:
 - source_id: witt.source.luther-disputation-on-the-power-and-efficacy
   locus: Letter to Albrecht of Mainz, 31 October 1517; the Ninety-Five Theses
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: >-
-    Augsburg before Cajetan (1518), Worms (1521), household conversation with Katharina, the 1532 prayer
-    for rain - Luther's own later retellings and sayings, collected by students
+  locus: Augsburg before Cajetan (1518), Worms (1521), household conversation with Katharina, the 1532
+    prayer for rain - Luther's own later retellings and sayings, collected by students
   license: public-domain
 - source_id: witt.source.luther-ein-neues-lied-wir-heben
   locus: Hymn V, the Brussels martyrs' ballad (1523), written in Luther's own hand
@@ -65,18 +63,15 @@ names:
 - name: Martin Luther (letter dated 1517; no birth or death date attested in this library)
   tag: scholarly
 dates:
-  display: >-
-    Directly attested in this library's own sources from 31 October 1517 (the letter to Albrecht) to 9
-    June 1532 (the prayer for rain); no vendored primary text held here gives a birth date. His life is
-    understood to run into 1546, per this world's own already-established closing boundary
-    (witt.core.witt.thinness) - a boundary this record treats as given, not independently re-derived
-    from any source of its own.
+  display: Directly attested in this library's own sources from 31 October 1517 (the letter to Albrecht)
+    to 9 June 1532 (the prayer for rain); no vendored primary text held here gives a birth date. His life
+    is understood to run into 1546, per this world's own already-established closing boundary (witt.core.witt.thinness)
+    - a boundary this record treats as given, not independently re-derived from any source of its own.
 narratable: true
-bridge_line: >-
-  The friar who wrote privately to an archbishop about indulgences in 1517, stood before a cardinal and
-  then an emperor rather than take his own words back, came home from hiding to preach his own
-  congregation back from its excesses, wrote a ballad for two young monks burned at Brussels, worked out
-  a German Mass tone by tone with his own musician, and led his whole town in prayer through a drought.
+bridge_line: The friar who wrote privately to an archbishop about indulgences in 1517, stood before a
+  cardinal and then an emperor rather than take his own words back, came home from hiding to preach his
+  own congregation back from its excesses, wrote a ballad for two young monks burned at Brussels, worked
+  out a German Mass tone by tone with his own musician, and led his whole town in prayer through a drought.
 relations:
 - type: associated-with
   target: witt.story.letter-to-albrecht-and-theses-circulation
@@ -96,6 +91,26 @@ relations:
   target: witt.story.household-and-kate-on-prayer
 - type: associated-with
   target: witt.story.prayer-for-rain-1532
+- type: associated-with
+  target: witt.gravity.justified-by-faith-alone
+- type: associated-with
+  target: witt.gravity.the-word
+- type: associated-with
+  target: witt.gravity.promise-and-sign
+- type: associated-with
+  target: witt.gravity.household-catechism
+- type: associated-with
+  target: witt.gravity.two-governments
+- type: associated-with
+  target: witt.gravity.estate-office-and-calling
+- type: associated-with
+  target: witt.gravity.must-and-free
+- type: associated-with
+  target: witt.gravity.vows-chastity-and-marriage
+- type: associated-with
+  target: witt.gravity.german-for-the-people
+- type: associated-with
+  target: witt.gravity.hearers-and-repeaters-of-words
 ---
 The founder-figure this whole library's own narrative material orbits: subject or author of nine of the
 twelve stories in Doc_09's inventory, across every tier this library holds (Tier 1: the letter, the
@@ -118,13 +133,4 @@ and this record does not narrate it). The founder's own testimony about his cong
 own barred-upgrade rule, is never usable as independent evidence that any actual parish was in fact
 ignorant or negligent - only that Luther said so, repeatedly, in his own voice.
 
-FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world, so no
-relations[] entry points at one, the same handling the Gallic and Cappadocian B-4 precedents used for
-the identical situation): load-bearing across nearly every gravity this world's Doc_04 names. Directly,
-through the nine linked stories: G1 (Primary, witt-S01, witt-S04, witt-S09), G2 (Primary, witt-S02,
-witt-S03, witt-S05), G3 (Primary, witt-S05), G4 (Primary, witt-S06, witt-S08), G6 (Supporting,
-witt-S03), G7 (Supporting, witt-S04, witt-S05), G8 (Tensional, witt-S08, witt-S12), G9 (Supporting,
-witt-S06), G11 (Supporting, witt-S07), and G13 (Tensional, witt-S12, and load-bearing generally - Doc_04
-names Luther's own testimony as G13's entire evidentiary basis, "the founder's own testimony... always
-as a complaint about others' negligence"). When B-5 runs, this figure record should gain associated-
-with edges to most or all of these gravity records, with reciprocal edges declared on each.
+FEC / GRAVITY LINKAGE (closed at B-5): the connection this record's own Doc_09 entry named above is now a real relations[] entry in this file's frontmatter -- associated-with to G1 (Justified by faith alone [PRIMARY]), G2 (The Word: Scripture's authority, and the agent that "must do it" [PRIMARY]), G3 (Promise and sign: the sacrament as God's promise joined to an element, received by faith [PRIMARY]), G4 (The household catechism as this world's prescribed formation mechanism [PRIMARY]), G6 (The two governments: the temporal sword, obedience, and the prince as addressee [SUPPORTING]), G7 (Estate, office, and calling: "we are all priests" [SUPPORTING]), G8 ("Must" and "free": liberty bound by love to the weak, and the pace of reform [TENSIONAL]), G9 (Vows, "false chastity," and marriage [SUPPORTING]), G11 (German for the people: vernacular teaching and singing, Latin retained for the learned [SUPPORTING]), G13 ("Hearers and repeaters of words": the founder's persistent testimony that the Gospel is taught and not held [TENSIONAL]) -- with the reciprocal edge declared on each gravity record itself (witt.gravity.*), exactly as this note said it would when B-5 ran. No longer parked.
