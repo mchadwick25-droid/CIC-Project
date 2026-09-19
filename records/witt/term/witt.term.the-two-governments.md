@@ -14,10 +14,11 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'Documented that our own usages differ across texts ("two classes"/"two governments"
     in one work, a different Christ-against-Satan "two kingdoms" in another); Contested whether a single
-    later-named doctrine should be read across both. [CT], provisional, contest type: historical scope.
-    No secondary source is rowed in the Source Registry for this contest; carried forward as still provisional,
-    not resolved by this authoring pass, which does not characterize any present-day tradition''s use
-    of the later label.'
+    later-named doctrine should be read across both. [CT], contest type historical scope, given full
+    contested_claim treatment at B-6: witt.contested.two-governments-historical-scope. No secondary source
+    is rowed in the Source Registry for this contest; the contested_claim record carries that same limit
+    forward rather than resolving it, and does not characterize any present-day tradition''s use of the
+    later label. No longer parked.'
 sources:
 - source_id: witt.source.luther-eight-wittenberg-sermons
   locus: the Eight Wittenberg Sermons -- 'we have the jus verbi, but not the executio'
@@ -74,6 +75,8 @@ relations:
   target: witt.term.pope-and-antichrist
 - type: associated-with
   target: witt.term.must-and-free
+- type: associated-with
+  target: witt.contested.two-governments-historical-scope
 plain_meaning: God rules us two ways. Through the Word, he rules the spiritual kingdom, and makes us Christians.
   Through the sword, he rules the civil kingdom, and restrains evil. We keep both, and confuse neither
   with the other.
@@ -110,6 +113,8 @@ distortion_risk: high
 ---
 Built from Doc_06 §5 entry 7.1 (the two governments, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][TC][DR][RT][CT]. Author Gravity: none -- both voices. Source Registry rows cited: R15, R20, R29, R34, R37. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
-CT status carried from Doc_06 SS2.2: contest type historical scope -- whether the later systematic label 'two kingdoms doctrine' applies as broadly to our founder's own usage as claimed. Provisional: no secondary source is rowed in the Source Registry; Doc_06 names leads for the Registry owner (Cargill Thompson's 1969 article; Wright's 2010 study) but cites neither as a source. This authoring pass carries the tag forward as still provisional and does not resolve it.
+CT status carried from Doc_06 SS2.2: contest type historical scope -- whether the later systematic label 'two kingdoms doctrine' applies as broadly to our founder's own usage as claimed. No secondary source is rowed in the Source Registry; Doc_06 names leads for the Registry owner (Cargill Thompson's 1969 article; Wright's 2010 study) but cites neither as a source.
+
+CT PARKING CLOSED AT B-6: this term's own [CT] content now has full contested_claim treatment at witt.contested.two-governments-historical-scope, held for G6 (the two governments), classified Supporting -- an extension argued, not assumed, in that record's own body note, on grounds distinguishable from the Primary-gravity floor the companion justification record satisfies directly. The contest itself is not resolved there -- it carries the same "no rowed source, in-text tension only" limit forward -- but the parking Doc_03/Doc_06 left owed to this document's B-6 pass is now closed.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

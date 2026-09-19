@@ -77,6 +77,8 @@ relations:
   target: witt.figure.luther
 - type: associated-with
   target: witt.figure.melanchthon
+- type: associated-with
+  target: witt.contested.two-governments-historical-scope
 name: 'The two governments: the temporal sword, obedience, and the prince as addressee [SUPPORTING]'
 classification: supporting
 description: 'The temporal sword ordained of God, obeyed ''save only when commanded to sin'': ''these
@@ -121,4 +123,8 @@ manifestations:
 - the Augsburg Confession itself submitted by "the undersigned Elector and Princes" (AC 66), nine signatories
   (AC 1557-1567)
 ---
+CONTESTED-CLAIM LINKAGE (closed at B-6): witt.contested.two-governments-historical-scope holds the term's
+own [CT] historical-scope contest against this gravity -- an extension to a Supporting gravity, argued
+rather than assumed in that record's own body note -- reciprocal edge declared above.
+
 Re-derived from the approved Doc_04 (§2.1 candidate G6 -> §3 G6 -> §7 row G6; SUPPORTING). Interaction Matrix (Doc_04 §5, row/col G6): G1 (S), G2 (S), G3 (S), G4 (R), G5 (S), G7 (R), G8 (S), G9 (R), G11 (R(t)), G12 (R), G13 (R(t)) -- all carried as associated-with here, R/S/C character preserved in this record's own description field above, per Gallic's own precedent (relation TYPE is not overloaded to carry the R/S/C code). DECLARED ABSENCES, not converted into a relation here: G10. Forces-connection (Doc_08 §5): witt.force.imperial-frame (enabled-by), witt.force.territorial-princely-force (associated-with), witt.force.popular-insurrectionary-force (associated-with), witt.force.internal-radical-force (associated-with), witt.force.the-turk (associated-with), witt.force.confessional-territorial-transformation (associated-with), witt.force.absent-inputs-1525-and-1555 (associated-with) -- enabled-by used exactly where Doc_04's own notation uses the verb 'generated' for this force/gravity pair, associated-with for every other verb (held, intensified, shifted, reshaped, fenced, fractured, re-set, reversed, settled, pressed, corrupted), matching Gallic's own precedent exactly.

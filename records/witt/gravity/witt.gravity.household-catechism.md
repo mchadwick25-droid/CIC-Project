@@ -83,6 +83,8 @@ relations:
   target: witt.figure.katharina-von-bora
 - type: associated-with
   target: witt.figure.luther
+- type: associated-with
+  target: witt.contested.household-catechism-reception
 name: The household catechism as this world's prescribed formation mechanism [PRIMARY]
 classification: primary
 description: 'The three parts every Christian must know, prescribed to be taught by the father, examined
@@ -133,4 +135,10 @@ manifestations:
   ministers of the churches are compelled publicly [and privately] to instruct and hear the youth" (Ap
   6893-6901)'
 ---
+CONTESTED-CLAIM LINKAGE (closed at B-6): witt.contested.household-catechism-reception holds the Strauss/
+Scribner/Kittelson/Karant-Nunn reception debate this record's own divergence_note and description already
+name against this gravity -- found via the process document's own B-6 check for contested Doc_04/Doc_08
+content on Primary gravities beyond Doc_06's [CT] tags, not from a lexicon tag -- reciprocal edge declared
+above.
+
 Re-derived from the approved Doc_04 (§2.1 candidate G4 -> §3 G4 -> §7 row G4; PRIMARY). Interaction Matrix (Doc_04 §5, row/col G4): G1 (R), G2 (R), G3 (R), G5 (R), G6 (R), G7 (R), G8 (S), G9 (R), G10 (R(t)), G11 (R), G12 (R), G13 (C) -- all carried as associated-with here, R/S/C character preserved in this record's own description field above, per Gallic's own precedent (relation TYPE is not overloaded to carry the R/S/C code). DECLARED ABSENCES, not converted into a relation here: none -- every other candidate shows a demonstrated relationship. Forces-connection (Doc_08 §5): witt.force.laitys-need-for-assurance (enabled-by), witt.force.territorial-princely-force (associated-with), witt.force.parishes-state-as-reported (associated-with), witt.force.print-as-medium (associated-with), witt.force.confessional-territorial-transformation (associated-with), witt.force.transmission-at-the-windows-edge (associated-with), witt.force.imperial-frame (associated-with) -- enabled-by used exactly where Doc_04's own notation uses the verb 'generated' for this force/gravity pair, associated-with for every other verb (held, intensified, shifted, reshaped, fenced, fractured, re-set, reversed, settled, pressed, corrupted), matching Gallic's own precedent exactly.

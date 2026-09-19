@@ -15,11 +15,12 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'Documented that both wordings occur in our own texts (''imputes for righteousness''
     and ''the making of a righteous man''); Contested how the two relate, which our own texts hold together
-    on purpose rather than resolve. [CT], provisional, two contest types (meaning within its historical
-    context; relationship to present-day traditions): no secondary source is rowed in the Source Registry
-    for either contest, and per Doc_06 SS2 this tag does not reach runtime vocabulary on Doc_06''s word
-    alone -- carried forward here as still provisional, not resolved by this authoring pass, which does
-    not characterize any present-day tradition''s reading.'
+    on purpose rather than resolve. [CT], both contest types (meaning within its historical context;
+    relationship to present-day traditions) given full contested_claim treatment at B-6:
+    witt.contested.justification-accounted-and-made. No secondary source is rowed in the Source Registry
+    for either contest, and per Doc_06 SS2 the tag does not reach runtime vocabulary on Doc_06''s word
+    alone; the contested_claim record carries that same limit forward rather than resolving it, and does
+    not characterize any present-day tradition''s reading. No longer parked.'
 sources:
 - source_id: witt.source.luther-treatise-on-christian-liberty
   locus: Christian Liberty
@@ -65,6 +66,8 @@ relations:
   target: witt.term.assurance
 - type: associated-with
   target: witt.term.christ-alone
+- type: associated-with
+  target: witt.contested.justification-accounted-and-made
 plain_meaning: Justification is God's act of naming a sinner righteous. In the same breath, God also makes
   that sinner righteous. Both happen through faith, for Christ's sake alone. This is the center of our
   whole teaching.
@@ -97,6 +100,8 @@ distortion_risk: high
 ---
 Built from Doc_06 §5 entry 2.2 (justification / to justify, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR][RT][CT]. Author Gravity: none by attestation; weighted to the Apology's technical development. Source Registry rows cited: R13, R34, R37, R38. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
-CT status carried from Doc_06 SS2.1: two contest types -- meaning within its historical context (how 'accounted' and 'made' relate) and relationship to present-day traditions (this entry characterizes none). Provisional: no secondary source is rowed in the Source Registry for either contest; Doc_06 names leads for the Registry owner (McGrath's Iustitia Dei; Mannermaa's Christ Present in Faith; the 1999 Joint Declaration) but cites none as a source. This authoring pass carries the tag forward as still provisional and does not resolve it.
+CT status carried from Doc_06 SS2.1: two contest types -- meaning within its historical context (how 'accounted' and 'made' relate) and relationship to present-day traditions (this entry characterizes none). No secondary source is rowed in the Source Registry for either contest; Doc_06 names leads for the Registry owner (McGrath's Iustitia Dei; Mannermaa's Christ Present in Faith; the 1999 Joint Declaration) but cites none as a source.
+
+CT PARKING CLOSED AT B-6: this term's own [CT] content now has full contested_claim treatment at witt.contested.justification-accounted-and-made, held for G1 (Justified by faith alone [PRIMARY]), with the reciprocal edge declared on this record's own relations[] above, on the pattern witt.story.letter-to-albrecht-and-theses-circulation's own body note describes for B-5's FEC/gravity linkage. The contest itself is not resolved there -- it carries the same "no rowed source, builder judgment only" limit forward -- but the parking Doc_03/Doc_06 left owed to this document's B-6 pass is now closed.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

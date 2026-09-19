@@ -49,6 +49,8 @@ relations:
   target: witt.figure.luther
 - type: illustrates
   target: witt.gravity.justified-by-faith-alone
+- type: associated-with
+  target: witt.contested.theses-door-posting
 narrative_tier: 1
 narrative_tier_justification: 'Tier 1, Documented Historical Narrative, without qualification for the
   letter itself: a named author with an identifiable social location (an Augustinian friar and university
@@ -124,3 +126,8 @@ convention (gallic.story.the-cloak-at-amiens the modeled precedent) and gate_voi
 scope (story.tellable_as/text only, checked for "this world"/"the world's" phrasing, not for person).
 
 FEC / GRAVITY LINKAGE (closed at B-5): the connection this record's own Doc_09 entry named above is now a real relations[] entry in this file's frontmatter -- illustrates to G1 (Justified by faith alone [PRIMARY]) -- with the reciprocal edge declared on each gravity record itself (witt.gravity.*), exactly as this note said it would when B-5 ran. No longer parked.
+
+CONTESTED-CLAIM LINKAGE (closed at B-6): the door-posting contest this record's own text and absent_detail
+fields already carry in disclosed form now has full contested_claim treatment at
+witt.contested.theses-door-posting, reciprocal edge declared above. This record's own telling is unchanged
+by that record's existence -- it already stated the contest at full strength before B-6 ran.

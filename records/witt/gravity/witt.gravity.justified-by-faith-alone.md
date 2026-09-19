@@ -85,6 +85,10 @@ relations:
   target: witt.figure.luther
 - type: associated-with
   target: witt.figure.melanchthon
+- type: associated-with
+  target: witt.contested.justification-accounted-and-made
+- type: associated-with
+  target: witt.contested.theses-door-posting
 name: Justified by faith alone [PRIMARY]
 classification: primary
 description: 'That the sinner is ''freely justified for Christ''s sake, through faith'' (AC IV, 234-239),
@@ -132,4 +136,10 @@ manifestations:
   nothing... faith must have something which it believes... upon which it stands and rests" (LC 3916-3921)'
 - '"in this controversy the chief topic of Christian doctrine is treated" (Ap IV, 561-562)'
 ---
+CONTESTED-CLAIM LINKAGE (closed at B-6): two records hold claims against this gravity --
+witt.contested.justification-accounted-and-made (the term's own [CT] meaning contest) and
+witt.contested.theses-door-posting (the founding-story historiographical contest, per Doc_09 witt-S01's
+own connection to G1) -- reciprocal edges declared above, on the pattern B-5's own FEC/gravity linkage
+established.
+
 Re-derived from the approved Doc_04 (§2.1 candidate G1 -> §3 G1 -> §7 row G1; PRIMARY). Interaction Matrix (Doc_04 §5, row/col G1): G2 (R), G3 (R), G4 (R), G5 (R), G6 (S), G7 (S), G8 (R), G9 (R), G10 (R(t)), G11 (R(t)), G12 (R), G13 (C) -- all carried as associated-with here, R/S/C character preserved in this record's own description field above, per Gallic's own precedent (relation TYPE is not overloaded to carry the R/S/C code). DECLARED ABSENCES, not converted into a relation here: none -- every other candidate shows a demonstrated relationship. Forces-connection (Doc_08 §5): witt.force.friars-conviction (enabled-by), witt.force.laitys-need-for-assurance (enabled-by), witt.force.papal-force-initiating (associated-with), witt.force.papal-force-ongoing (associated-with), witt.force.imperial-force-ongoing (associated-with), witt.force.internal-radical-force (associated-with), witt.force.transmission-at-the-windows-edge (associated-with) -- enabled-by used exactly where Doc_04's own notation uses the verb 'generated' for this force/gravity pair, associated-with for every other verb (held, intensified, shifted, reshaped, fenced, fractured, re-set, reversed, settled, pressed, corrupted), matching Gallic's own precedent exactly.
