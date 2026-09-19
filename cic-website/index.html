@@ -237,7 +237,20 @@ p{margin:0 0 1rem}
 .era-group:not(:first-child){margin-top:1.8rem}
 .era-head{display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline;font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.3rem;margin:0}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
-.chairs{list-style:none;margin:.4rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout}
+.chairs{list-style:none;margin:.4rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout;scrollbar-width:thin;scrollbar-color:var(--control) transparent}
+/* A row's overflow-x:auto still scrolls fine without this -- verified with
+   a real scrollLeft/wheel test -- but most OSes (Mac trackpad users
+   especially) hide the scrollbar itself until an active scroll gesture,
+   leaving no on-screen sign that a row with more chairs than fit (era 2
+   today) has anything past the last visible card. Styling the WebKit/Blink
+   scrollbar pseudo-elements switches those engines from that auto-hiding
+   overlay to an always-drawn one (Mark, 2026-09-19: "we still do not have
+   the horizontal scroll bar for era 2"). scrollbar-width/-color above
+   covers Firefox, which has no pseudo-element API of its own. */
+.chairs::-webkit-scrollbar{height:6px}
+.chairs::-webkit-scrollbar-track{background:transparent}
+.chairs::-webkit-scrollbar-thumb{background:var(--control);border-radius:3px}
+.chairs::-webkit-scrollbar-thumb:hover{background:var(--muted)}
 .chair{--ring:var(--tint-dark);flex:0 0 auto;width:296px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:.8rem}
 /* Narrower than the container on small screens so the next card peeks in
    at the edge (Mark, 2026-09-19: "add a peek of the next card") -- at a
