@@ -831,3 +831,67 @@ residual (a stale completion-checklist bullet) found and fixed directly, no thir
 5. The inline revision-history annotation volume — the same open, undecided fleet-level question
    OG-2 resolved for Doc_03 and OG-8 through OG-13 carry for Doc_04–08 and the World Profile. Not
    decided by this entry.
+
+## OG-15. Doc_10 (Representative Construction Notes + Permanent Prompt, Nikolaus): one
+review round, a genuine Facilitator/Representative boundary error caught and fixed, and
+the open items it seeds
+
+**Build history.** Doc_10 builds the actual deployable voice for the already-decided
+Representative (Nikolaus, sexton-schoolmaster — `witt_Representative_Identity_Decision.md`),
+per `Representative_Permanent_Prompt_Template.md` v2.4 and
+`Representative_Construction_Notes_Template.md` v2.2, grounded entirely in Doc_01–09 and the
+World Profile. Genuine test exchanges and validation probes were actually run against the
+constructed prompt during drafting (not invented after the fact) — two real, disclosed
+failures surfaced (a Self-Referential Probe narrated-refusal, a milder Anachronism Probe
+throat-clear), both correctable in generation but not eliminated by any available prompt-text
+fix, named as an Outstanding Concern for the coach thread rather than hidden behind a clean
+pass record.
+
+**One independent review round** (`witt_Doc10_Review_Round1.md`) returned SUBSTANTIAL
+REVISION REQUIRED — 2 substantial findings, 3 cosmetic. The significant one: a post-draft fix
+made during this document's own build (adding the 1525/1543 binding disclosure to the
+Permanent Prompt, since a first drafting pass had wrongly deferred it entirely to the
+Facilitator) itself overshot in the other direction — it had Nikolaus's own voice offer to
+state the 1543 treatise's *content*, directly contradicting Standing determinations already
+on record in two later, already-approved documents (Doc_07 §9 and §12 item 7; Doc_08 §11 item
+7), both of which name this disclosure's *content* specifically as Facilitator-carried, not
+the Representative's. **This is a genuine cross-document consistency miss** — the fix cited
+only the two documents that supported it (Doc_02 §12.3, World Profile §8) without checking
+whether a later document in the sequence had already spoken to the same point, exactly the
+kind of check CO-022's own cross-document-consistency discipline requires. Corrected directly
+(existence acknowledged in Nikolaus's own voice; content left with the Facilitator, identical
+treatment to how 1525 is already handled), with the full two-state correction history kept
+visible in the Construction Notes rather than smoothed into only the clean final answer. The
+second proposed finding (a possibly-misattributed citation, LC 331–334) was independently
+re-verified directly against the vendored primary source and found **not** to be an error —
+checked and correctly not applied, itself an instance of this project's "a blocking review
+finding can't be dismissed by self-certification — it needs independent re-confirmation" rule
+running in the direction of confirming a citation rather than only ever correcting one.
+
+**Doc_10 is self-disposed APPROVED TO PROCEED**, matching the World Profile's own precedent:
+Article 29 Living Tradition Status Confirmation remains explicitly PENDING (a project-lead
+decision), and the disclosed token-budget tension (Judgment 3) is a real, named open item that
+does not block this disposition, the same way Doc_08's own honestly-OUTSTANDING §9 item did
+not block that document's disposition.
+
+**Open items seeded from Doc_10 §8:**
+1. **The register inference (Question 1).** No sexton-schoolmaster's own voice survives in
+   this library; the construction's choice to derive Nikolaus's spoken register from the
+   catechism's own plain written form, rather than from a more elevated schoolmaster's
+   register, is Inferential/Thin — flagged for a Reformation lay-office specialist's review.
+2. **The token-budget/template tension.** The Permanent Prompt runs an estimated ~2,900–3,350
+   tokens against the template's stated 1,500–3,000 target, driven primarily by the mandatory,
+   non-shortenable v2.4 subject-of-utterance backstop paragraphs (~1,350–1,400 tokens alone) —
+   a structural tension in the template as currently written, not unique to this world, worth
+   the coach thread's attention and, if it recurs, the template's own maintainer's. No live
+   tokenizer was reachable in this build environment; the estimate is word-count-derived and
+   disclosed as such rather than asserted as compliant.
+3. **The two genuine, disclosed testing failures** (Self-Referential Probe narrated-refusal;
+   Anachronism Probe throat-clear) — both correctable in generation but not eliminated by any
+   prompt-text fix available within the current token budget, consistent with the template's
+   own v2.4 version history noting this exact failure mode requires defense-in-depth beyond the
+   Representative's own prompt text (the Facilitator-Governance Self-Narration signal and
+   Frame-Breaker trigger). Named for ongoing deployment monitoring, not resolved by this
+   document.
+4. **Article 29 confirmation** remains PENDING — a project-lead decision, to be logged back
+   into Doc_10 §6 directly (not left as a standing gap) once made.
