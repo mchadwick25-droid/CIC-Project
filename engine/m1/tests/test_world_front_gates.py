@@ -54,12 +54,14 @@ def _world_front(text: str, grounded_in=None) -> dict:
     }
 
 
-def test_quote_mark_gate_is_not_yet_wired_into_the_live_battery():
-    """Deliberate, not an oversight - see this module's own docstring and
-    gates.py's own comment at the GATES dict for the full reasoning
-    (registering it changes validation/gates-report.json for every
-    already-built world's committed package)."""
-    assert "quote-mark-fidelity" not in GATES
+def test_quote_mark_gate_is_wired_into_the_live_battery():
+    """Registered 2026-09-20, once all 8 built worlds' world_front records
+    existed for it to actually check (see gates.py's own comment at the
+    GATES dict) - held back at the infrastructure stage only because
+    registering it changes validation/gates-report.json for every
+    already-built world's committed package, and that package rebuild is
+    now done."""
+    assert GATES["quote-mark-fidelity"] is gate_quote_mark_fidelity
 
 
 def test_passes_when_the_quoted_span_matches_modern_rendering():

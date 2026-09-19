@@ -1157,22 +1157,37 @@ GATES = {
     "no-build-attribution": gate_no_build_attribution,
     "voice-perspective": gate_voice_perspective,
     "id-convention": gate_id_convention,
-    # gate_quote_mark_fidelity is deliberately NOT registered here yet -
-    # see its own module comment ("world_front gates") for the full
-    # reasoning. Short version: validation/gates-report.json (built by
-    # engine.m2.validation.build_gates_report, from this exact GATES dict)
-    # is baked into every already-built world's committed package
-    # (packages/<world>/<package_id>/manifest.json). Adding ANY gate here
-    # changes that file's content for every world, real or fixture, the
-    # instant it is registered - proven directly (not assumed): restoring
-    # every world's package with this gate added mismatched all nine real
-    # worlds' validation/gates-report.json, with zero records changed on
-    # any of them. This infrastructure stage is explicitly scoped to touch
-    # no existing world's content or package (see this work's own task
-    # scope), so wiring this gate in - and rebuilding and recommitting
-    # every real world's package to match - is left as a deliberate,
-    # explicit follow-on step, ideally bundled with the world_front
-    # content-migration stage that will give it real content to check.
+    # gate_quote_mark_fidelity: registered 2026-09-20, now that all 8
+    # built worlds' world_front records exist to actually check (content
+    # migration - see worlds/desert/Open_Gaps_Tracking.md and each other
+    # world's own build - is what this gate was written for). Deferred at
+    # the infrastructure stage specifically because validation/gates-
+    # report.json (built by engine.m2.validation.build_gates_report, from
+    # this exact GATES dict) is baked into every already-built world's
+    # committed package manifest - adding ANY gate here changes that file
+    # for every world, real or fixture, the instant it is registered.
+    # That package rebuild already happened for an unrelated reason (the
+    # world_front content itself), so the original reason to hold this
+    # back no longer applies; every world's package was rebuilt and
+    # re-pinned again to pick up this gate's own findings (0, fleet-wide,
+    # confirmed before registering).
+    "quote-mark-fidelity": gate_quote_mark_fidelity,
+    # flag_cross_record_consistency and check_mode3_claim_fidelity are
+    # NOT registered here, and are not deferred-pending-a-rebuild the way
+    # quote-mark-fidelity was - each has its own, permanent reason to sit
+    # outside this battery, documented at its own definition above:
+    # flag_cross_record_consistency returns list[dict] (paired records to
+    # read side by side), not this dict's own list[str] contract, and is
+    # explicitly designed as "a REPORT, not a hard gate" the design itself
+    # calls lower-precision and human-reviewed, the same standing
+    # gate_voice_perspective already has for one of its own patterns -
+    # but expressed as a report a caller runs and reads, not a battery
+    # entry with its own pass/fail signal. check_mode3_claim_fidelity
+    # isn't even this shape (records, fleet, registry) - it takes two
+    # texts and a judgment is only checkable once a real model call is
+    # wired in (still NotImplementedError; see its own docstring) - no
+    # world_front record built so far uses mode 3, so nothing depends on
+    # it yet.
 }
 
 

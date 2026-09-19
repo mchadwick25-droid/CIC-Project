@@ -136,6 +136,41 @@ def _resolve_doctrinal_witness(dw_id: str | None, records: dict) -> dict | None:
     return {"id": dw_id, "text": rec.get("text"), "confidence": _confidence_label(rec)}
 
 
+# narrative.questions[].cite's schema (engine/m1/schemas.py) allows any
+# record id, but every world built so far only ever cited doctrinal_witness
+# records in practice - until hal's and ijc's own builds each independently
+# found _resolve_doctrinal_witness() silently emitting a {"text": None}
+# entry for a cite pointing at a different record type (a story, in ijc's
+# case; both worked around it in their own content rather than fix the
+# compiler). This is the field that actually holds each type's content;
+# quote is deliberately absent - a `cite` is evidence for a demonstration's
+# own answer-ground, not a quotable line, so a quote belongs in
+# `pull_quotes` (resolved through _resolve_quote's own modern_rendering-only
+# rule) rather than here.
+_CITE_TEXT_FIELD_BY_TYPE = {
+    "doctrinal_witness": "text",
+    "story": "text",
+    "honest_limit": "statement",
+    "contested_claim": "claim",
+    "gravity": "description",
+    "force": "description",
+}
+
+
+def _resolve_citation(cite_id: str | None, records: dict) -> dict | None:
+    """A `narrative.questions[].cite` entry, type-aware. Returns None -
+    dropped from the compiled list, same as an unresolved id - for a
+    record type this citation shape doesn't cover, rather than emit an
+    entry with a null `text` a template would render as empty."""
+    rec = records.get(cite_id) if cite_id else None
+    if not rec:
+        return None
+    field = _CITE_TEXT_FIELD_BY_TYPE.get(rec.get("record_type"))
+    if field is None:
+        return None
+    return {"id": cite_id, "record_type": rec.get("record_type"), "text": rec.get(field), "confidence": _confidence_label(rec)}
+
+
 def _resolve_source(source_id: str | None, records: dict) -> dict | None:
     rec = records.get(source_id) if source_id else None
     if not rec:
@@ -221,7 +256,7 @@ def _narrative(world_front: dict, records: dict) -> dict:
             "demonstration": _resolve_demonstration(entry.get("demonstration"), records),
             "cite": [
                 w
-                for w in (_resolve_doctrinal_witness(cid, records) for cid in (entry.get("cite") or []))
+                for w in (_resolve_citation(cid, records) for cid in (entry.get("cite") or []))
                 if w
             ],
         }

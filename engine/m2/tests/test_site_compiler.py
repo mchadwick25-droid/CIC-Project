@@ -198,6 +198,59 @@ def test_questions_resolve_demonstration_and_cited_witnesses():
     assert q["cite"][0]["text"] == DOCTRINAL_WITNESS["text"]
 
 
+def test_cite_resolves_non_doctrinal_witness_types_by_their_own_content_field():
+    # Regression: hal's and ijc's own world_front builds each independently
+    # found a `cite` pointing at a non-doctrinal_witness record (a
+    # contested_claim, a story) silently compiled to {"text": None} -
+    # _resolve_doctrinal_witness() read a `text` field no such record has.
+    contested_claim = {
+        "id": "fix.contested.the-question",
+        "record_type": "contested_claim",
+        "claim": "The claim this record actually makes.",
+        "confidence": {"formation_confidence": "Contested"},
+    }
+    records = {**RECORDS, contested_claim["id"]: contested_claim}
+    world_front = {
+        **WORLD_FRONT,
+        "narrative": {
+            **WORLD_FRONT["narrative"],
+            "questions": [
+                {
+                    "cell": "C-P",
+                    "demonstration": DEMONSTRATION["id"],
+                    "cite": [DOCTRINAL_WITNESS["id"], contested_claim["id"], STORY["id"]],
+                }
+            ],
+        },
+    }
+    payload = compile_world_front(world_front, records, {}, compiler_version="v", records_commit="c")
+    q = json.loads(payload)["narrative"]["questions"][0]
+    by_id = {c["id"]: c for c in q["cite"]}
+    assert by_id[DOCTRINAL_WITNESS["id"]]["text"] == DOCTRINAL_WITNESS["text"]
+    assert by_id[contested_claim["id"]]["text"] == contested_claim["claim"]
+    assert by_id[STORY["id"]]["text"] == STORY["text"]
+    assert len(q["cite"]) == 3, "no entry should carry a null text"
+
+
+def test_cite_drops_a_type_it_has_no_content_field_for_rather_than_null_it():
+    # A quote id in `cite` is deliberately unsupported (a citation is
+    # evidence for a demonstration's answer-ground, not a quotable line -
+    # a quote belongs in pull_quotes) - it should be dropped, not emitted
+    # with a null text.
+    world_front = {
+        **WORLD_FRONT,
+        "narrative": {
+            **WORLD_FRONT["narrative"],
+            "questions": [
+                {"cell": "C-P", "demonstration": DEMONSTRATION["id"], "cite": [QUOTE["id"]]}
+            ],
+        },
+    }
+    payload = compile_world_front(world_front, RECORDS, {}, compiler_version="v", records_commit="c")
+    q = json.loads(payload)["narrative"]["questions"][0]
+    assert q["cite"] == []
+
+
 def test_no_record_markdown_body_ever_appears_in_the_compiled_output():
     payload = compile_world_front(
         WORLD_FRONT, RECORDS, {}, compiler_version="v", records_commit="c"
