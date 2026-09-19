@@ -21,9 +21,10 @@ sources:
 - source_id: witt.source.luther-papacy-at-rome-an-answer
   locus: the answer to Alveld, The Papacy at Rome
   license: public-domain
-- source_id: witt.source.leo-bull-exsurge-domine
-  locus: Exsurge Domine (1520), the forty-one condemned articles -- reaching the library only via the
-    answering texts
+- source_id: witt.source.luther-argument-in-defense-of-all
+  locus: "An Argument in Defense of All the Articles (1521), Luther's own article-by-article answer to
+    Exsurge Domine's forty-one condemned articles -- the bull's own text is never independently vendored,
+    reaching this library only through this answering text's own introduction and reply"
   license: public-domain
 - source_id: witt.source.luther-selections-from-luthers-prefaces-to-his
   locus: 'v1 404-409: the 1545 preface''s naming of ''the Antichrist in Rome'''

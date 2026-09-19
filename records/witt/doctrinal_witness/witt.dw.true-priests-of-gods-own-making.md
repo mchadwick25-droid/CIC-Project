@@ -25,8 +25,8 @@ sources:
 - source_id: witt.term.martyr
   locus: "'the two youths... burnt at Brussels by the Sophists of Louvain'; 'a single hymn, a single register... the weakest evidentiary base of any term we hold'"
   license: public-domain
-- source_id: witt.source.roman-confutation-of-the-augsburg-confession
-  locus: "the Roman Catholic contemporary response, reaching this library only at one remove, through our own Apology's quotation and answer"
+- source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
+  locus: "our own Apology's own quotation and answer to Rome's own reply -- the only trace of an outside voice this library holds, since the Confutation itself is never independently vendored"
   license: public-domain
 retrieval:
   tier: 2

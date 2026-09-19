@@ -33,7 +33,9 @@ sources:
   locus: Hymn V, the Brussels martyrs' ballad (1523), written in Luther's own hand
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: The Eight Wittenberg Sermons (March 1522), preached in his own voice to his own congregation
+  locus: The Eight Wittenberg Sermons (March 1522), preached in his own voice to his own congregation;
+    Kessler's own eyewitness corroboration, cited in Steimle's introduction to the same volume, that the
+    extant printed text omits the sermon's own opening
   license: public-domain
 - source_id: witt.source.luther-magnificat-translated-and-explained
   locus: The Magnificat exposition (1520-21), composed for the young Duke John Frederick
@@ -46,9 +48,6 @@ sources:
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: The Small Catechism (1529), the household program
-  license: public-domain
-- source_id: witt.source.johann-eyewitness-report-of-luthers-first-invocavit
-  locus: Kessler's independent eyewitness corroboration of the first 1522 sermon
   license: public-domain
 retrieval:
   tier: 1

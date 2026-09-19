@@ -30,8 +30,10 @@ sources:
   locus: 'AC 246-261, 631-633: the Word and Sacraments as instruments; the additive Scripture/Church Catholic
     form'
   license: public-domain
-- source_id: witt.source.karsthans
-  locus: Karsthans's fictional peasant's demand for German Scripture, per Doc_02 §1.1 (Contested as opinion)
+- source_id: witt.source.luther-earnest-exhortation-for-all-christians-warning
+  locus: "Karsthans's fictional peasant's demand for German Scripture, per Doc_02 §1.1 (Contested as opinion)
+    -- Karsthans's own text is never independently vendored, reaching this library only as quoted in this
+    volume's own introduction"
   license: public-domain
 relations:
 - type: enabled-by

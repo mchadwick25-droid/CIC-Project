@@ -16,10 +16,8 @@ confidence:
     chronology, independently confirmed.
 sources:
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons, 9 March 1522 and the seven days following
-  license: public-domain
-- source_id: witt.source.andreas-theses-and-sermons-of-1521-as
-  locus: Karlstadt's own 1521-22 theses, quoted by the editor (context only)
+  locus: the Eight Wittenberg Sermons, 9 March 1522 and the seven days following; Karlstadt's own 1521-22
+    theses, quoted by the editor in the same volume's own introduction (context only)
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: 'LC 3277, 3841, 3916, 4069, 4095: ''enthusiasts,'' ''new spirits,'' ''fanatics'''

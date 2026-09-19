@@ -19,16 +19,14 @@ sources:
   locus: 'v2 11618-11631: the free lord / dutiful servant paradox'
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: 'v2 14711-14796: the 1522 sermons, restraint addressed to Wittenberg by name'
+  locus: 'v2 14711-14796: the 1522 sermons, restraint addressed to Wittenberg by name; Karlstadt''s 1521-22
+    theses, per Steimle''s editorial account in the same volume (context only)'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: 'LC 78-97, 4244-4299: the 1529 reversal, ''carnal liberty'' rebuked'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: 'AC 391-398, 1068: adiaphora, liberty in rites, settled before the Emperor'
-  license: public-domain
-- source_id: witt.source.andreas-theses-and-sermons-of-1521-as
-  locus: Karlstadt's 1521-22 theses, per Steimle's editorial account (context only)
   license: public-domain
 relations:
 - type: enabled-by

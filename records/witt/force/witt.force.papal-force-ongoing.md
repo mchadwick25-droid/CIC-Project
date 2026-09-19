@@ -16,10 +16,7 @@ confidence:
     saying quoted here is Contested as verbatim, Documented as Aurifaber's report.
 sources:
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: 'Ap 8447-8449: the Confutation withheld in writing, cited as ''the adversaries'''
-  license: public-domain
-- source_id: witt.source.roman-confutation-of-the-augsburg-confession
-  locus: the Roman Confutation (1530) -- reaching this library only as the Apology answers it
+  locus: 'Ap 8447-8449: the Confutation withheld in writing, cited as ''the adversaries'' -- the Confutation''s own text is never independently vendored, reaching this library only as the Apology answers it'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: 'AC 765-766, 787-799: married priests defended; the gate kept, what it checks changed'

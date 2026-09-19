@@ -17,8 +17,9 @@ sources:
 - source_id: witt.source.luther-papacy-at-rome-an-answer
   locus: The Papacy at Rome's own print history, twelve editions, editorial (v1 12304-12309)
   license: public-domain
-- source_id: witt.source.karsthans
-  locus: Karsthans, ten editions, editorial (v3 10574-10575)
+- source_id: witt.source.luther-earnest-exhortation-for-all-christians-warning
+  locus: "Karsthans, ten editions, editorial (v3 10574-10575) -- Karsthans's own text is never independently
+    vendored, reaching this library only as quoted in this volume's own introduction"
   license: public-domain
 - source_id: witt.source.luther-selections-from-luthers-prefaces-to-his
   locus: 'v1 260-269, 329-330: the founder''s own wish that his books be forgotten'

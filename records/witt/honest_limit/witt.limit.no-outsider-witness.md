@@ -18,8 +18,8 @@ confidence:
     the cell's earlier two sub-questions (catacombs, Constantine corrupting the church) name events outside
     this world's own 1517-1580 window entirely -- a boundary fact, not a contested reading.
 sources:
-- source_id: witt.source.roman-confutation-of-the-augsburg-confession
-  locus: "the Roman Catholic contemporary response, 'available only at one remove' -- quoted and answered inside our own Apology, never held here in its own words directly"
+- source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
+  locus: "our own Apology's own quotation of and answer to Rome's reply -- the nearest thing to an outside voice this library holds, and even that reaches us only at one remove; the Confutation itself is never independently vendored, never held here in its own words directly"
   license: public-domain
 - source_id: witt.core.witt
   locus: "time_window: 1517-1580 -- our own declared span, centuries after both the catacomb era and Constantine's own reign"

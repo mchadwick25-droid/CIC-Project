@@ -18,8 +18,9 @@ sources:
 - source_id: witt.source.luther-four-hymnal-prefaces-to-walters-gesangb
   locus: 'the hymnal prefaces, 1524-1543: purpose, audience, and the 1543 fence'
   license: public-domain
-- source_id: witt.source.karsthans
-  locus: Karsthans's fictional peasant, per Doc_02 §1.1 (Contested as opinion)
+- source_id: witt.source.luther-earnest-exhortation-for-all-christians-warning
+  locus: "Karsthans's fictional peasant, per Doc_02 §1.1 (Contested as opinion) -- Karsthans's own text is
+    never independently vendored, reaching this library only as quoted in this volume's own introduction"
   license: public-domain
 - source_id: witt.source.johann-letter-of-reminiscence-on-luther-as
   locus: Walter's reminiscence of the first German Mass sung in the parish church

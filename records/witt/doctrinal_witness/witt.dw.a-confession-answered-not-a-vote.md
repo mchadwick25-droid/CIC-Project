@@ -22,11 +22,8 @@ sources:
 - source_id: witt.story.diet-of-augsburg-1530
   locus: "the whole story: the Confession drafted, read, and signed before the Emperor at Augsburg, 1530, by electors, princes, and free cities together"
   license: public-domain
-- source_id: witt.source.roman-confutation-of-the-augsburg-confession
-  locus: "the Roman Catholic contemporary response, reaching this library only as quoted and answered inside the Apology -- 'available only at one remove'"
-  license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: "the Apology's own point-by-point defense of the Confession against the Confutation's own charges"
+  locus: "the Apology's own point-by-point defense of the Confession against the Confutation's own charges, reaching us only through the Apology's own quotation and answer -- the Confutation's own text is never independently vendored"
   license: public-domain
 retrieval:
   tier: 2

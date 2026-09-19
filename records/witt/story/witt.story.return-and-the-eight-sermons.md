@@ -20,11 +20,9 @@ sources:
 - source_id: witt.source.luther-eight-wittenberg-sermons
   locus: The Eight Wittenberg Sermons (March 1522), First Sermon, verified verbatim at "Let us beware
     lest Wittenberg become Capernaum" and "I see no signs of love among you," and at "God does not want
-    hearers and repeaters of words, but doers and followers"
-  license: public-domain
-- source_id: witt.source.johann-eyewitness-report-of-luthers-first-invocavit
-  locus: Kessler's eyewitness corroboration, as cited in Steimle's introduction to the sermons, that the
-    extant printed text omits the sermon's own opening exposition
+    hearers and repeaters of words, but doers and followers"; Kessler's eyewitness corroboration, as cited
+    in Steimle's introduction to the same volume, that the extant printed text omits the sermon's own
+    opening exposition
   license: public-domain
 retrieval:
   tier: 1
