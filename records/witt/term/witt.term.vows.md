@@ -36,9 +36,10 @@ sources:
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
   locus: the Apology XXVII, read entire this pass -- 'we hold that lawful vows ought to be observed'
   license: public-domain
-- source_id: witt.source.luther-de-votis-monasticis
-  locus: De Votis Monasticis -- named absence; not vendored, referenced only as the Apology's own reiterated
-    book
+- source_id: witt.source.philadelphia-vols-i-iii-general-introduction
+  locus: "the editorial apparatus's own note (v3) that De Votis Monasticis was excluded from this volume
+    because of its size -- named absence; the treatise itself is not vendored, referenced only as the
+    Apology's own reiterated book"
   license: public-domain
 retrieval:
   tier: 2

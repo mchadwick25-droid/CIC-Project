@@ -28,8 +28,10 @@ sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
   locus: 'TT 3013-3014, 2432-2438: the founder''s own married household'
   license: public-domain
-- source_id: witt.source.luther-de-votis-monasticis
-  locus: On Monastic Vows -- never vendored (Doc_04 §3 G9), cited for the acknowledged absence only
+- source_id: witt.source.philadelphia-vols-i-iii-general-introduction
+  locus: "the editorial apparatus's own note (v3) that On Monastic Vows was excluded from this volume
+    because of its size -- the treatise itself is never vendored, cited here for the acknowledged
+    absence only (Doc_04 §3 G9)"
   license: public-domain
 relations:
 - type: enabled-by

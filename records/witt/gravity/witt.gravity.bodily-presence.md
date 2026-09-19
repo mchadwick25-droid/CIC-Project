@@ -26,10 +26,9 @@ sources:
   locus: 'AC 322-324: ''truly present... reject those that teach otherwise'''
   license: public-domain
 - source_id: witt.source.luther-on-the-bondage-of-the-will
-  locus: 'Co 16090-16092: ''Sacramentarians,'' one word, OCR-recovered'
-  license: public-domain
-- source_id: witt.source.marburg-articles
-  locus: the Marburg Articles (1529) -- unvendored, the acquisition every layer of this force waits on
+  locus: 'Co 16090-16092: ''Sacramentarians,'' one word, OCR-recovered. The Marburg Articles (1529) --
+    the acquisition every layer of this force waits on -- are not independently vendored anywhere in this
+    library; disclosed here rather than cited as a source'
   license: public-domain
 relations:
 - type: associated-with

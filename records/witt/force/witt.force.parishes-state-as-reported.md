@@ -17,14 +17,11 @@ confidence:
     unresolved in this library. Documented only as the founder''s own testimony. No downstream record
     may cite this force as evidence that any Saxon congregation was in fact ignorant, cold, or negligent.'
 sources:
-- source_id: witt.source.saxon-visitation-protocols
-  locus: the Saxon visitation protocols (1527-28) -- unvendored, the Layer 1 this force lacks
-  license: public-domain
-- source_id: witt.source.melanchthon-instructions-for-the-visitors-of-parish
-  locus: Melanchthon's Instructions for the Visitors -- unvendored
-  license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: 'v2 14676-14688: the 1522 rebuke, one congregation'
+  locus: 'v2 14676-14688: the 1522 rebuke, one congregation. The Layer 1 this force lacks -- the Saxon
+    visitation protocols (1527-28) and Melanchthon''s Instructions for the Visitors -- is not independently
+    vendored anywhere in this library; disclosed here rather than cited as a source, matching this
+    record''s own divergence_note'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: 'LC 51-97: the 1529 preface''s rebuke of pastors, people and nobles'

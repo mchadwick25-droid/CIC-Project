@@ -27,10 +27,10 @@ sources:
   locus: 'SC 45: ''The Simple Way a Father Should Present Them to His Household'' (1529)'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: 'AC 66, 631-633, 787-788: the 1530 confessing voice, ''our churches,'' the naming shift'
-  license: public-domain
-- source_id: witt.source.book-of-concord
-  locus: 'the Book of Concord (1580): where the confessional pair and the catechisms are carried by reference'
+  locus: 'AC 66, 631-633, 787-788: the 1530 confessing voice, ''our churches,'' the naming shift. The 1580
+    Book of Concord assembling these confessional and catechetical documents into one volume is not itself
+    independently vendored; what it carries forward is the confession, catechisms, and apology this record
+    already cites individually'
   license: public-domain
 relations:
 - type: enabled-by

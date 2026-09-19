@@ -22,9 +22,6 @@ sources:
 - source_id: witt.source.luther-four-hymnal-prefaces-to-walters-gesangb
   locus: the 1543 hymnal's authorship fence; the Cithara Lutheri preface, editorial
   license: public-domain
-- source_id: witt.source.melanchthon-oratio-in-funere-reverendi-viri-d
-  locus: Melanchthon's funeral oration and edition, at the window's edge
-  license: public-domain
 - source_id: witt.source.bente-concordia-triglotta
   locus: Bente and Dau's Concordia Triglotta (1921), the Missouri Synod's confessional edition
   license: public-domain

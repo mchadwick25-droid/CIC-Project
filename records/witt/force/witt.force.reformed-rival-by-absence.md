@@ -19,10 +19,9 @@ sources:
   locus: 'AC 322-324: ''they reject those that teach otherwise'''
   license: public-domain
 - source_id: witt.source.luther-on-the-bondage-of-the-will
-  locus: 'Co 16090-16092: the one in-voice word, ''Sacramentarians'''
-  license: public-domain
-- source_id: witt.source.marburg-articles
-  locus: the Marburg Articles (1529) -- the located, unvendored lead this force's every layer waits on
+  locus: 'Co 16090-16092: the one in-voice word, ''Sacramentarians''. The Marburg Articles (1529) -- the
+    located lead this force''s every layer waits on -- are not independently vendored anywhere in this
+    library; disclosed here rather than cited as a source'
   license: public-domain
 relations:
 - type: associated-with

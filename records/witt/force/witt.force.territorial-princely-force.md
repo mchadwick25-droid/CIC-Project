@@ -25,10 +25,9 @@ sources:
   locus: 'LC 92-97, 3449-3541: the parishes'' decay; the economic datum in the fourth petition'
   license: public-domain
 - source_id: witt.source.luther-to-the-knights-of-the-teutonic
-  locus: the Teutonic Order's secularization, editorial
-  license: public-domain
-- source_id: witt.source.melanchthon-instructions-for-the-visitors-of-parish
-  locus: Melanchthon's Instructions for the Visitors of Parish Pastors -- the unvendored 'inspecting arm'
+  locus: "the Teutonic Order's secularization, editorial. Melanchthon's Instructions for the Visitors of
+    Parish Pastors -- the force's own 'inspecting arm' -- is not independently vendored anywhere in this
+    library; disclosed here rather than cited as a source"
   license: public-domain
 relations:
 - type: enabled-by

@@ -16,12 +16,11 @@ confidence:
     1555 (Doc_08 Cell 3A, Force 3A-2). Layer 1 only by design -- Layers 2 and 3 are not recoverable and
     are not supplied.
 sources:
-- source_id: witt.source.peter-revolution-of-1525-the-german-peasants
-  locus: a tertiary secondary account of the Peasants' War, Widely Accepted as to content, no phrase quoted
-    (R94)
-  license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: 'LC 3190-3196: the only Layer-2 trace this library carries of 1525, unnamed'
+  locus: 'LC 3190-3196: the only Layer-2 trace this library carries of 1525, unnamed. The Peasants'' War
+    and its 1525 tracts are not independently vendored anywhere in this library; this record''s own Layer
+    1 characterization draws on a tertiary secondary account (Widely Accepted as to content, no phrase
+    quoted, R94), disclosed here rather than cited as a source'
   license: public-domain
 relations:
 - type: associated-with

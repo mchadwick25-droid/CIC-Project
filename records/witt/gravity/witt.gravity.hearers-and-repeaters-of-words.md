@@ -28,10 +28,9 @@ sources:
   locus: 'Hy 1065-1087: the 1543 hymnal preface, print corrupted, names required'
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: 'TT 3147-3150: Katharina von Bora''s one question and its answer'
-  license: public-domain
-- source_id: witt.source.saxon-visitation-protocols
-  locus: the Saxon visitation protocols -- unvendored (Doc_04 §3 G13), cited for the absence only
+  locus: 'TT 3147-3150: Katharina von Bora''s one question and its answer. The Saxon visitation protocols
+    (Doc_04 §3 G13) are not independently vendored anywhere in this library; disclosed here rather than
+    cited as a source'
   license: public-domain
 relations:
 - type: associated-with

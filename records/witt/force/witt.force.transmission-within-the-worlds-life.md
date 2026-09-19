@@ -23,9 +23,6 @@ sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
   locus: 'TT 108-157: Lauterbach''s notes, Aurifaber''s collection and dedication'
   license: public-domain
-- source_id: witt.source.melanchthon-oratio-in-funere-reverendi-viri-d
-  locus: Melanchthon's funeral oration and edition of the Latin works, 1546
-  license: public-domain
 relations:
 - type: precondition-for
   target: witt.force.transmission-at-the-windows-edge

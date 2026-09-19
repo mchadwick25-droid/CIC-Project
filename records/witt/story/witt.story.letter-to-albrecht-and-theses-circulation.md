@@ -26,12 +26,11 @@ sources:
 - source_id: witt.source.luther-disputation-on-the-power-and-efficacy
   locus: Letter to Archbishop Albrecht of Mainz, dated "the Vigil of All Saints, MDXVII" (31 October 1517),
     full text; the Theses' own heading; the 1915 editor's introduction and its posting narrative ("It
-    was not night, but mid-day"), read and marked as the editor's own claim, not Luther's
-  license: public-domain
-- source_id: witt.source.erwin-theses-were-not-posted-luther-between
-  locus: Existence and general argument (title only) verified by search at Doc_02's drafting; not read.
-    Cited here only to disclose that the "Contested" tag on the posting rests on an unread secondary source,
-    per Doc_09 witt-S01's own disclosure
+    was not night, but mid-day"), read and marked as the editor's own claim, not Luther's. The modern
+    historiographical dispute over whether any posting happened at all (Iserloh) is not independently
+    vendored anywhere in this library and was not independently read by this authoring pass -- only its
+    existence as a title was verified by search, disclosed in confidence.divergence_note and absent_detail
+    rather than cited here as a source
   license: public-domain
 retrieval:
   tier: 1

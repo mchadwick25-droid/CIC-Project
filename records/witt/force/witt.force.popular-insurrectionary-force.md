@@ -20,10 +20,10 @@ sources:
     forbidden'
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: 'LC 3190-3196: the unnamed ''riot'' quelled by prayer'
-  license: public-domain
-- source_id: witt.source.peter-revolution-of-1525-the-german-peasants
-  locus: a tertiary secondary account of 1525, Widely Accepted as to content, no phrase quoted (R94)
+  locus: 'LC 3190-3196: the unnamed ''riot'' quelled by prayer. The 1525 tracts are not independently
+    vendored anywhere in this library; this record''s own 1525 characterization draws on a tertiary
+    secondary account (Widely Accepted as to content, no phrase quoted, R94), disclosed here rather than
+    cited as a source'
   license: public-domain
 relations:
 - type: associated-with
