@@ -582,7 +582,7 @@ p{margin:0 0 1rem}
 var gallery = document.getElementById('who-gallery');
 var eraGroups = Array.prototype.slice.call(document.querySelectorAll('.era-group'));
 function sizeGallery(){
-  if (eraGroups.length < 3) { gallery.style.maxHeight = ''; return; }
+  if (eraGroups.length < 3) { gallery.style.maxHeight = 'none'; return; }
   var second = eraGroups[1];
   gallery.style.maxHeight = (second.offsetTop + second.offsetHeight - eraGroups[0].offsetTop) + 'px';
 }
@@ -593,6 +593,20 @@ if (gallery && eraGroups.length) {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(sizeGallery, 150);
   });
+  // A vertical wheel/trackpad gesture over the gallery used to get trapped
+  // scrolling its own content instead of the page (Mark, 2026-09-19: "when
+  // i happen to scroll over the chair feature, it stops scrolling"). Once
+  // a third era makes this box genuinely need to scroll, a mostly-vertical
+  // gesture now scrolls the page instead -- the gallery's own scrollbar is
+  // still there to drag for deliberate scrolling within it. Mostly-
+  // horizontal gestures (scrolling a single era's row of chairs sideways)
+  // are left alone.
+  gallery.addEventListener('wheel', function(ev){
+    if (Math.abs(ev.deltaY) > Math.abs(ev.deltaX)) {
+      window.scrollBy(0, ev.deltaY);
+      ev.preventDefault();
+    }
+  }, { passive: false });
 }
 
 var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
