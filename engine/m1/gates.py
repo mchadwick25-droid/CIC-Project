@@ -450,14 +450,30 @@ VOICE_CRAFT_WORD_CEILING = 900
 # gallic.voice.craft's own revision history), closing the remaining 583
 # words would mean cutting the three verified quotations, the six named
 # points of disagreement between its two households, or other specifics
-# this pass deliberately kept. Shown the real tradeoff, Mark's ruling:
-# "raise the ceiling for gallic to 1500" - a two-household world carries
-# more genuinely load-bearing named content than the fleet's single-
-# tradition worlds, so its own ceiling is not the fleet default. 1500
-# still leaves gallic real headroom (17 words) rather than pinning it
-# exactly at its current total.
+# this pass deliberately kept. witt: same shape of tradeoff, same ruling.
+# After the 2026-09-19 trim (2127 -> 1399 words - the record originally
+# carried the Permanent Prompt Template's own backstop paragraphs near-
+# verbatim per check 5d, before that instruction's scope was clarified at
+# the source, reference/L3B-World-Build-Methodology/
+# Representative_Permanent_Prompt_Template.txt), closing the remaining
+# 499 words would mean cutting real specifics kept deliberately: the
+# concrete images anchoring "place" (school gate, household table,
+# church door, Augsburg), the tracked reversal in "disagreement"
+# (Christian liberty's "must"/"free" argued two ways across 1522 and
+# 1529, both kept rather than smoothed to one), and named honest limits
+# (the 1525 and 1543 tracts, the one surviving woman's question). Shown
+# the real tradeoff, Mark's ruling for gallic: "raise the ceiling to
+# 1500" - a two-household world carries more genuinely load-bearing
+# named content than the fleet's single-tradition worlds, so its own
+# ceiling is not the fleet default. 1500 still leaves gallic real
+# headroom (17 words) rather than pinning it exactly at its current
+# total. For witt, shown the same tradeoff and gallic's own precedent,
+# Mark's ruling: grant the same 1500-word ceiling rather than a new
+# number - witt's 1399-word trim already clears it, with headroom (101
+# words) to spare, no further cutting needed.
 VOICE_CRAFT_WORD_CEILING_BY_WORLD = {
     "gallic-monastic-ascetic-christianity": 1500,
+    "lutheran-wittenberg-and-its-congregations": 1500,
 }
 
 
