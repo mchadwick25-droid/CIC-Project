@@ -114,10 +114,8 @@ STORIES: list[dict] = [
             "Built from Story-Chunks/rzgstory001_first-zurich-disputation.md (Approved to proceed, Doc_09 "
             "Round 2). AUTHORED: text recasts the chunk's own Story Text into this world's own first-person "
             "register; tellable_as further compresses that into a single spoken-register sentence, a "
-            "genuinely separate authored field, not a duplicate (fixed 2026-09-18: this script had "
-            "previously set text equal to tellable_as, a real defect caught in this world's own go-live "
-            "test battery, not this chunk's own already-Approved content). modern_contrast draws on the "
-            "chunk's own Usage Guidance and Doc_04's own Disputation-adjacent Distortion Risk framing."
+            "genuinely separate authored field, not a duplicate. modern_contrast draws on the chunk's own "
+            "Usage Guidance and Doc_04's own Disputation-adjacent Distortion Risk framing."
         ),
     ),
     dict(
@@ -158,10 +156,8 @@ STORIES: list[dict] = [
             "Built from Story-Chunks/rzgstory002_calvins-journey-to-zurich.md (Approved to proceed, "
             "Doc_09 Round 2). AUTHORED: text recasts the chunk's own Story Text into this world's own "
             "first-person register; tellable_as further compresses that into a single spoken-register "
-            "sentence, a genuinely separate authored field, not a duplicate (fixed 2026-09-18: this script "
-            "had previously set text equal to tellable_as, a real defect caught in this world's own "
-            "go-live test battery, not this chunk's own already-Approved content). modern_contrast draws "
-            "on the chunk's own Formation Ecology Connection (a specific human journey behind an abstract "
+            "sentence, a genuinely separate authored field, not a duplicate. modern_contrast draws on the "
+            "chunk's own Formation Ecology Connection (a specific human journey behind an abstract "
             "doctrinal convergence)."
         ),
     ),
@@ -209,9 +205,7 @@ STORIES: list[dict] = [
             "false claim that no vendored source narrated Zwingli's own death). AUTHORED: text recasts "
             "the chunk's own Story Text into this world's own first-person register; tellable_as further "
             "compresses that into a single spoken-register sentence, a genuinely separate authored field, "
-            "not a duplicate (fixed 2026-09-18: this script had previously set text equal to tellable_as, "
-            "a real defect caught in this world's own go-live test battery, not this chunk's own "
-            "already-Approved content). modern_contrast draws on the chunk's own Tier Justification hedges."
+            "not a duplicate. modern_contrast draws on the chunk's own Tier Justification hedges."
         ),
     ),
 ]
@@ -223,19 +217,17 @@ FIGURES: list[dict] = [
          bridge_line="Our own founder at Zurich, who first preached straight through Matthew rather than follow the fixed calendar of readings.",
          narratable=True,
          dates_note=(
-             " Key corrected from `death` to `died` (engine.m1.cross_world's own fleet-vocabulary check, "
-             "figure-dates-keys) to match the fleet's own established convention (born/died/floruit), "
-             "found and fixed during this world's own go-live test battery."
+             " Key: `died`, matching the fleet's own established convention (born/died/floruit), per "
+             "engine.m1.cross_world's own fleet-vocabulary check (figure-dates-keys)."
          )),
     dict(slug="bullinger", names=[("Heinrich Bullinger", "in-world")],
          dates={"floruit": "pastorate at Zurich, 1531-1575"},
          bridge_line="Zwingli's own successor at Zurich, whose four-decade pastorate gave our confession its own mature, lasting form.",
          narratable=True,
          dates_note=(
-             " Key corrected from `pastorate_start`/`pastorate_end` to the fleet's own single `floruit` "
-             "convention (engine.m1.cross_world's own fleet-vocabulary check, figure-dates-keys), matching "
-             "alx.figure.dionysius's own identical \"office span, not birth/death\" usage; found and fixed "
-             "during this world's own go-live test battery."
+             " Key: `floruit`, the fleet's own single-key convention for an office span rather than "
+             "birth/death, per engine.m1.cross_world's own fleet-vocabulary check (figure-dates-keys), "
+             "matching alx.figure.dionysius's own identical usage."
          )),
     dict(slug="calvin", names=[("John Calvin", "in-world"), ("Jean Calvin", "scholarly")], dates={},
          bridge_line="Geneva's own pastor, whose Institutes and Catechism built our doctrine up book by book.",

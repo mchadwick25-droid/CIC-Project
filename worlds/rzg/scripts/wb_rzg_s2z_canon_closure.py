@@ -316,14 +316,13 @@ WITNESSES: list[dict] = [
             "quote.christ-the-mirror-of-election's own already-verified text (Second Helvetic Confession, "
             "ch. X, lines 667, 684-685), quoted here character-for-character, including its own ellipsis "
             "marks and bracketed [our], exactly as that record's own already-verified text field states it "
-            "-- not spliced, paraphrased, or presented as continuous unbroken speech (a defect a 2026-09-18 "
-            "adversarial review found and this fix corrects; the two sentences the confession states 17 "
-            "lines apart are quoted here exactly as the already-verified quote record discloses them, with "
-            "the same ellipsis marking the gap, not blended into one invented continuous sentence). Closes "
-            "C-I ('Who was Jesus, to you and your people?' / 'What is the good news?' / 'What did his death "
-            "mean to you?' / resurrection), leading with the same honest disclosure don's own analogous C-I "
-            "record uses: this world's core Christology is the shared, inherited orthodox one, not a "
-            "distinctive claim this record should manufacture."
+            "-- not spliced, paraphrased, or presented as continuous unbroken speech: the confession's own "
+            "two sentences, 17 lines apart, are quoted exactly as the already-verified quote record "
+            "discloses them, with the same ellipsis marking the gap, never blended into one continuous "
+            "sentence. Closes C-I ('Who was Jesus, to you and your people?' / 'What is the good news?' / "
+            "'What did his death mean to you?' / resurrection), leading with the same honest disclosure "
+            "don's own analogous C-I record uses: this world's core Christology is the shared, inherited "
+            "orthodox one, not a distinctive claim this record should manufacture."
         ),
     ),
     dict(
@@ -463,12 +462,12 @@ WITNESSES: list[dict] = [
             "Grounded in rzg.quote.christ-the-mirror-of-election's own already-verified text (Second "
             "Helvetic Confession, ch. X, lines 667, 684-685), quoted here character-for-character, including "
             "its own ellipsis marks and bracketed [our], exactly as that record's own already-verified text "
-            "field states it -- not spliced, paraphrased, or presented as continuous unbroken speech (a "
-            "defect a 2026-09-18 adversarial review found and this fix corrects). Applied here to F4-P's own "
-            "distinct personal-register question ('What did your way of life offer someone who struggled to "
-            "quiet their own mind?') rather than restating C-P/C-T's own identity-register use of the same "
-            "quotation -- genuinely different content, not double-counted. 'Forgiving the unrepentant' and "
-            "'unanswered prayer' (this cell's other two sub-questions) are not claimed."
+            "field states it -- not spliced, paraphrased, or presented as continuous unbroken speech. "
+            "Applied here to F4-P's own distinct personal-register question ('What did your way of life "
+            "offer someone who struggled to quiet their own mind?') rather than restating C-P/C-T's own "
+            "identity-register use of the same quotation -- genuinely different content, not double-counted. "
+            "'Forgiving the unrepentant' and 'unanswered prayer' (this cell's other two sub-questions) are "
+            "not claimed."
         ),
     ),
     dict(
