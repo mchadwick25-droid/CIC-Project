@@ -64,6 +64,8 @@ relations:
   target: desert.quote.melania-to-the-governor
 - {type: illustrated-by, target: desert.quote.three-kinds-of-monks}
 - {type: illustrated-by, target: desert.quote.antony-on-living-near-kin}
+- type: illustrated-by
+  target: desert.story.antony-secret-burial
 name: "Withdrawal [PRIMARY]"
 description: "This world's defining and generating act: leaving settled village life for the desert's edge, as the whole work of formation rather than a change of address. Attested across this world's independent evidence streams - narrative (the Vita), the sayings tradition, Palladius, the settlement archaeology at Kellia, the Pachomian corpus, and (Melitian, its representativeness for the mainstream strands an unverified working assumption, and organizationally intermediary, no clean fit to the three strands) the Nepheros archive - and across all three strands. Strong on all six gravity tests: repeated in every stream, load-bearing for everything downstream of it (siting, strand differentiation, the thin liturgical record), directly formative, explanatory of the whole ecology's shape, persistent across Lower and Upper Egypt, and reinforcing of both elder authority and manual labor. Documented/Widely Accepted confidence with no discrepancy against its organizing strength. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 classification: primary
@@ -142,3 +144,10 @@ description already names in its own closing sentence) and
 desert.force.village-ascetic-culture (the inherited substrate this
 gravity intensifies) added as reciprocal relations, now that both are
 full force records.
+
+World_front pilot (2026-09-19): reciprocal illustrated-by relation
+added to desert.story.antony-secret-burial, a new story record on
+Antony's final withdrawal (to the inner mountain, shortly before death)
+and his burial instructions, read as this world's own final instance of
+withdrawal as "a lifelong deepening, not a single decisive act" - see
+that story record's own body note.

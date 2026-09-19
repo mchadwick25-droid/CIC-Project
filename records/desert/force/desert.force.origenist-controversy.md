@@ -37,6 +37,8 @@ relations:
   target: desert.source.origen-philocalia
 - type: associated-with
   target: desert.quote.god-is-not-a-body
+- type: associated-with
+  target: desert.story.sarapion-anthropomorphite
 ---
 Re-derived from the prior build's cleared Doc_08 Cell 3A-i. This is the
 historically decisive fracture event for gravity 9 (Evagrian
@@ -84,3 +86,13 @@ sibling desert.force.martyrdom-unavailable already applies to its own
 background history. Finding M7: this record's relations[] declared
 authority-tension-vulnerability but the body never explained the edge -
 the Cross-Cell Connection paragraph above supplies it.
+
+World_front pilot (2026-09-19): reciprocal associated-with relation
+added to desert.story.sarapion-anthropomorphite, a new story record
+narrating this force's own precipitating event - the 399 Festal
+Letter's initial reception at Scete, via Cassian's own Conference X,
+distinct from (and prior to) the 400 council and expulsion this record
+itself describes. See that story record's own body note for why the two
+are complementary rather than overlapping, and for the disambiguation
+check against a different, similarly-named Abbot Serapion elsewhere in
+this corpus.
