@@ -237,35 +237,27 @@ p{margin:0 0 1rem}
 .era-group:not(:first-child){margin-top:1.8rem}
 .era-head{display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline;font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.3rem;margin:0}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
-.chairs{list-style:none;margin:.4rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout}
-/* A row's overflow-x:auto still scrolls fine without this -- verified with
-   a real scrollLeft/wheel test -- but most OSes (Mac trackpad users
-   especially) hide the scrollbar itself until an active scroll gesture,
-   leaving no on-screen sign that a row with more chairs than fit (era 2
-   today) has anything past the last visible card. Styling the WebKit/Blink
-   scrollbar pseudo-elements switches those engines from that auto-hiding
-   overlay to an always-drawn one (Mark, 2026-09-19: "we still do not have
-   the horizontal scroll bar for era 2").
-   scrollbar-width/-color (below, Firefox's own equivalent) has to stay
-   OFF this same selector in any engine that also understands
-   ::-webkit-scrollbar: a real, reproduced bug (Mark, 2026-09-19 again:
-   "there still is not a horizontal scroll for era two... there is one for
-   era 1") -- declaring both scrollbar-styling systems on one selector
-   made Chromium paint the custom scrollbar for only the FIRST .chairs row
-   on the page and silently drop every later one, independent of how much
-   that row actually overflowed (proved by swapping era 1 and era 2's DOM
-   order in a real, non-headless render: whichever one came first got the
-   bar, the other lost it). Scoped by @supports so Chromium/Safari (which
-   support ::-webkit-scrollbar) never see scrollbar-width/-color at all,
-   while Firefox (no ::-webkit-scrollbar support) still gets its own thin,
-   colored bar. */
-@supports not selector(::-webkit-scrollbar){
-.chairs{scrollbar-width:thin;scrollbar-color:var(--control) transparent}
-}
-.chairs::-webkit-scrollbar{height:6px}
-.chairs::-webkit-scrollbar-track{background:transparent}
-.chairs::-webkit-scrollbar-thumb{background:var(--control);border-radius:3px}
-.chairs::-webkit-scrollbar-thumb:hover{background:var(--muted)}
+.chairs{list-style:none;margin:.4rem 0 0;padding:0;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout;scrollbar-width:none}
+.chairs::-webkit-scrollbar{display:none}
+/* Three rounds of trying to style or draw a scroll indicator for these rows
+   all failed the same way, confirmed by direct testing: whichever row's
+   indicator came first in normal document flow rendered, every later one
+   silently didn't -- true of the native scrollbar itself (styled or plain,
+   with or without contain:layout) and just as true of a plain JS-drawn div
+   inserted as a document sibling. Not something our own styling caused --
+   reproduced with every custom rule stripped back to bare overflow-x:auto
+   -- and not fixable from inside the normal render tree (Mark, 2026-09-19,
+   across several rounds: "we still do not have the horizontal scroll bar
+   for era 2" / "there is one for era 1 that is not needed yet" / "no era 2
+   scroll bar"). What finally worked, confirmed by direct testing: the
+   native scrollbar hidden outright on every row, and .chairs-scrollbar
+   appended once to <body> per row (not inserted next to it) and
+   positioned with getBoundingClientRect() math in the script below --
+   sidesteps whatever is limiting in-flow paint for a second such element
+   entirely, since it never joins that document position at all. */
+.chairs-scrollbar{position:absolute;height:4px;border-radius:2px;background:var(--rule);overflow:hidden}
+.chairs-scrollbar[hidden]{display:none}
+.chairs-scrollbar-thumb{height:100%;border-radius:2px;background:var(--control)}
 .chair{--ring:var(--tint-dark);flex:0 0 auto;width:296px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:.8rem}
 /* Narrower than the container on small screens so the next card peeks in
    at the edge (Mark, 2026-09-19: "add a peek of the next card") -- at a
@@ -636,6 +628,40 @@ if (gallery && eraGroups.length) {
     }
   }, { passive: false });
 }
+
+// Each era's row of chairs draws its own scroll indicator here rather than
+// relying on the browser's native one -- see the .chairs-scrollbar comment
+// above for why, and why this one is appended to <body> and positioned by
+// coordinates instead of inserted next to its row: that placement is the
+// part that turned out to matter, confirmed by direct testing.
+Array.prototype.slice.call(document.querySelectorAll('.chairs')).forEach(function(chairs){
+  var track = document.createElement('div');
+  track.className = 'chairs-scrollbar';
+  track.setAttribute('aria-hidden', 'true');
+  var thumb = document.createElement('div');
+  thumb.className = 'chairs-scrollbar-thumb';
+  track.appendChild(thumb);
+  document.body.appendChild(track);
+  function updateThumb(){
+    var rect = chairs.getBoundingClientRect();
+    track.style.left = (rect.left + window.scrollX) + 'px';
+    track.style.top = (rect.bottom + window.scrollY + 6) + 'px';
+    track.style.width = rect.width + 'px';
+    var overflow = chairs.scrollWidth - chairs.clientWidth;
+    if (overflow <= 1) { track.hidden = true; return; }
+    track.hidden = false;
+    var ratio = chairs.clientWidth / chairs.scrollWidth;
+    thumb.style.width = (ratio * 100) + '%';
+    thumb.style.marginLeft = ((chairs.scrollLeft / overflow) * (100 - ratio * 100)) + '%';
+  }
+  updateThumb();
+  chairs.addEventListener('scroll', updateThumb, { passive: true });
+  var chairsResizeTimer = null;
+  window.addEventListener('resize', function(){
+    clearTimeout(chairsResizeTimer);
+    chairsResizeTimer = setTimeout(updateThumb, 150);
+  });
+});
 
 var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
