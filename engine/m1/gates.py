@@ -94,6 +94,57 @@ def gate_schema_validation(records, fleet, registry) -> list[str]:
     return findings
 
 
+def _world_front_referenced_ids(rec: dict) -> set[str]:
+    """Every id a world_front (or facilitator_brief) record points at from
+    outside its own envelope: mode-1/mode-3 units' `grounded_in`, mode-3's
+    `from`, mode-2's bare-id fields (`quiet`, `documented_stories[].story_id`,
+    `voices[].figure`, `pull_quotes`, `glossary`, `read_first[].source`,
+    `who_speaks.figures`, `questions[].demonstration`/`.cite`). Added
+    2026-09-20 (Website V2 world_front design) - gate_referential validated
+    every other record type's own reference fields already; world_front's
+    were added to the schema in the infrastructure pass but never wired in
+    here, so a typo'd `grounded_in` id validated cleanly (schema only checks
+    it's a string) and resolved silently to nothing at compile time. The
+    desert pilot's own manual check (not this gate) is what first caught
+    this gap - see worlds/desert/Open_Gaps_Tracking.md.
+    """
+    ids: set[str] = set()
+
+    def walk(node):
+        if isinstance(node, dict):
+            grounded = node.get("grounded_in")
+            if isinstance(grounded, list):
+                ids.update(g for g in grounded if isinstance(g, str))
+            from_id = node.get("from")
+            if isinstance(from_id, str):
+                ids.add(from_id)
+            for key in ("story_id", "figure", "source", "demonstration"):
+                value = node.get(key)
+                if isinstance(value, str):
+                    ids.add(value)
+            cite = node.get("cite")
+            if isinstance(cite, list):
+                ids.update(c for c in cite if isinstance(c, str))
+            for value in node.values():
+                walk(value)
+        elif isinstance(node, list):
+            for item in node:
+                walk(item)
+        elif isinstance(node, str):
+            pass
+
+    quiet = rec.get("narrative", {}).get("quiet") if isinstance(rec.get("narrative"), dict) else None
+    if isinstance(quiet, str):
+        ids.add(quiet)
+    figures = rec.get("narrative", {}).get("who_speaks", {}).get("figures") if isinstance(rec.get("narrative"), dict) else None
+    if isinstance(figures, list):
+        ids.update(f for f in figures if isinstance(f, str))
+    for section_name in ("skim", "orientation", "narrative"):
+        walk(rec.get(section_name))
+
+    return ids
+
+
 def gate_referential(records, fleet, registry) -> list[str]:
     findings = []
     all_ids = set(records) | set(fleet)
@@ -113,6 +164,10 @@ def gate_referential(records, fleet, registry) -> list[str]:
         for cell in rec.get("canon_cells") or []:
             if cell not in cells:
                 findings.append(f"{rid}: canon_cells entry {cell!r} is not a cell in the canon")
+        if rec.get("record_type") == "world_front":
+            for ref_id in sorted(_world_front_referenced_ids(rec)):
+                if ref_id not in all_ids:
+                    findings.append(f"{rid}: referenced id {ref_id!r} does not resolve to any record")
     return findings
 
 
