@@ -1,0 +1,17 @@
+# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
+# the Reformed Cities build (Atlas VI.2), per this world's own Source
+# Readiness Dossier.
+source_file: calvin_geneva-catechism_waterman1815.txt
+
+assignments:
+  - work: The Catechism of the Church of Geneva
+    author: calvin
+    locus: "whole file"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Calvin's own catechetical voice - the census's own general-knowledge
+      "sources" field named this work unverified; now directly host-verified
+      and vendored.

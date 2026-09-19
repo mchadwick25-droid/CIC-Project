@@ -1,0 +1,1388 @@
+{
+  "region": "us-east-1",
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "world_keys": [
+    "rzg",
+    "don"
+  ],
+  "rounds": [
+    {
+      "message": "How should I pray when God feels silent?",
+      "turns": [
+        {
+          "round_no": 1,
+          "position": 1,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 1,
+            "position": 1,
+            "world_key": "rzg",
+            "reason": "The question is genuinely open to both voices, but Theophilus (Reformed) has a particularly strong, systematized teaching on prayer in seeming absence—the Reformed tradition developed rigorous theology of faith as trust precisely when feeling and sight fail. His world would have real substance here. Neither voice has spoken yet, so no preference for silence; this is simply the formation best positioned for this opening.",
+            "degraded": false
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "rzg",
+            "chars": 2517,
+            "words": 482,
+            "citations": 4,
+            "cited_record_ids": [
+              "rzg.limit.ordinary-daily-practice",
+              "rzg.term.catechism",
+              "rzg.term.predestination-election",
+              "rzg.term.providence"
+            ],
+            "sentences_checked": 22,
+            "sentences_withheld": 0,
+            "withhold_reasons": [],
+            "degraded_by_net": false,
+            "output_defects": [
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "So the first thing I will say is: pray what was given to be prayed, whether the silence lifts or not."
+              },
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "So if the silence feels like absence, I will not tell you it isn't hard."
+              },
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "I will tell you it is not evidence God has withdrawn the promise."
+              },
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "What I cannot give you - and I will say this plainly - is an account of what silence actually felt like to someone at Zurich or Geneva, in their own words, day by day."
+              },
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "I can tell you what we taught."
+              },
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "I cannot show you someone who felt it and wrote it down."
+              },
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "So this is what I have: pray the words you were given to pray."
+              }
+            ],
+            "text": "We do not turn silence into a method. What we hold is simpler and harder than that: the promise stands whether silence answers you or not, and what you pray in silence is the same thing you would pray hearing - which is to say, the words given us to pray, not words invented to name the silence itself.\n\nWhen we taught our whole population to pray, we taught them the Lord's Prayer first, and we taught it as Christ's own instruction, not ours. That prayer does not ask God to feel present before it asks him for what it actually asks - daily bread, forgiveness, deliverance. It assumes the asking itself is heard, and it does not make the hearing depend on whether you can feel it being heard. So the first thing I will say is: pray what was given to be prayed, whether the silence lifts or not. The prayer does not stop being a real prayer just because no answering voice comes back with it.\n\nThe second thing is harder, because it is about what we actually held regarding God's own governance of everything he made, and it does not exempt the silence. We call it providence: God's own continuous, active care over what he made, not a distant first cause who set things going and walked away. That care governs the silence too - not as punishment, and not as proof you have been passed over, but as part of what is still, even now, under his hand. Our own doctrine of election was never taught to send you searching for proof of it in how you feel. It was taught to turn you away from that searching entirely, toward Christ, where the promise is actually held. So if the silence feels like absence, I will not tell you it isn't hard. I will tell you it is not evidence God has withdrawn the promise. The promise does not rest on whether you can hear it being kept.\n\nWhat I cannot give you - and I will say this plainly - is an account of what silence actually felt like to someone at Zurich or Geneva, in their own words, day by day. Our own record is rich in confession and doctrine; it is thin to silent on what an ordinary day, or an unanswered prayer, actually felt like to live through. I can tell you what we taught. I cannot show you someone who felt it and wrote it down. So this is what I have: pray the words you were given to pray. Trust that the asking itself is heard, whether an answer comes back that you can feel or not. And do not go searching your own silence for proof of whether you are elect - look at Christ instead, where election is actually shown, not at your own heart, where it never was.",
+            "citations_full": [
+              {
+                "sentence": "When we taught our whole population to pray, we taught them the Lord's Prayer first, and we taught it as Christ's own instruction, not ours.",
+                "record_ids": [
+                  "rzg.term.catechism"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.term.catechism",
+                    "record_type": "term",
+                    "label": "Catechism",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.calvin-geneva-catechism",
+                        "author": "John Calvin",
+                        "work": "The Catechism of the Church of Geneva",
+                        "locus": "whole work",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      },
+                      {
+                        "source_id": "rzg.source.heidelberg-catechism",
+                        "author": "Zacharias Ursinus and Caspar Olevianus (traditional joint attribution)",
+                        "work": "The Heidelberg Catechism (1563)",
+                        "locus": "whole work",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "We call it providence: God's own continuous, active care over what he made, not a distant first cause who set things going and walked away.",
+                "record_ids": [
+                  "rzg.term.providence"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.term.providence",
+                    "record_type": "term",
+                    "label": "Providence",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.calvin-institutes-book1",
+                        "author": "John Calvin",
+                        "work": "Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)",
+                        "locus": "Book I",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Our own doctrine of election was never taught to send you searching for proof of it in how you feel.",
+                "record_ids": [
+                  "rzg.term.predestination-election"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.term.predestination-election",
+                    "record_type": "term",
+                    "label": "Predestination and Election",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.zwingli-selected-works",
+                        "author": "Huldrych Zwingli",
+                        "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                        "locus": "the 1527 Refutation's own 'On Election' section, lines approx. 9591-9762",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      },
+                      {
+                        "source_id": "rzg.source.second-helvetic-confession",
+                        "author": "Heinrich Bullinger",
+                        "work": "The Second Helvetic Confession (1566)",
+                        "locus": "ch. X",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      },
+                      {
+                        "source_id": "rzg.source.calvin-institutes-books2-3",
+                        "author": "John Calvin",
+                        "work": "Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer; Of the Mode of Obtaining the Grace of Christ)",
+                        "locus": "Books II-III",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "What I cannot give you - and I will say this plainly - is an account of what silence actually felt like to someone at Zurich or Geneva, in their own words, day by day.",
+                "record_ids": [
+                  "rzg.limit.ordinary-daily-practice"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.limit.ordinary-daily-practice",
+                    "record_type": "honest_limit",
+                    "label": "Walk you through an ordinary day among us? I cannot, honestly",
+                    "sources": [
+                      {
+                        "source_id": "rzg.core.the-reformed-cities-zurich-and-geneva",
+                        "author": null,
+                        "work": null,
+                        "locus": "this world's own thinness field: 'no surviving account exists of what an ordinary Sunday service, a Consistory summons, or an ordinary citizen's own experience of either Reformation actually felt like'",
+                        "rights_status": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "glosses": [
+              {
+                "id": "rzg.term.providence",
+                "matched_name": "providence",
+                "plain_meaning": "Providence is God's own continuous, active care over everything he made. He is not a distant first cause who set the world going and stepped back.",
+                "quick_meaning": "God's own continuous, active governing of everything he made - not a distant first cause, but ongoing care.",
+                "translational_sense": "This is not a claim that God micromanages every detail for a hidden reason we could discover. It is our own confidence that nothing escapes his care.",
+                "false_friend": [
+                  "a fatalistic claim that nothing anyone does matters, since God has already fixed every outcome in advance"
+                ],
+                "sourced_by": [
+                  {
+                    "source_id": "rzg.source.calvin-institutes-book1",
+                    "author": "John Calvin",
+                    "work": "Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)",
+                    "locus": "Book I",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                  }
+                ]
+              },
+              {
+                "id": "rzg.term.confession-of-faith",
+                "matched_name": "confession",
+                "plain_meaning": "A confession is a formal, public statement of our own doctrine. The Second Helvetic Confession, from Zurich, is our own most mature example.",
+                "quick_meaning": "A formal, publicly adopted statement of our church's doctrine. The Second Helvetic Confession, from Zurich, is our own most mature example.",
+                "translational_sense": "This is not a creative theological essay. It is a settled, publicly adopted statement, meant to be taught and handed on without drift.",
+                "false_friend": [
+                  "a personal statement of individual belief, rather than a formally adopted, publicly binding church document"
+                ],
+                "sourced_by": []
+              }
+            ],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 24.4
+        },
+        {
+          "round_no": 1,
+          "position": 2,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 1,
+            "position": 2,
+            "world_key": "don",
+            "reason": "only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+            "degraded": false
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "don",
+            "chars": 1660,
+            "words": 322,
+            "citations": 4,
+            "cited_record_ids": [
+              "don.core.donatism"
+            ],
+            "sentences_checked": 15,
+            "sentences_withheld": 2,
+            "withhold_reasons": [
+              "specific claim (proper-noun:[\"lord's\", 'prayer']) with no citation tag",
+              "specific claim (figure-name:['wrote']) only 33% grounded in its own tags"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [],
+            "text": "We would not try to separate the praying from the silence, as though the silence were a condition to be gotten past before real prayer could begin. At our own gravesides, every year, we read the same accounts aloud whether the reading lifts what presses on us or not. The dead we name are still dead. The state that killed them is still against us. The reading does not make the situation different. It makes us, in the hearing of it, what we are again - the people who hold this memory and will not let it go quiet. So if you are asking how to pray when no answer comes back, what we would say is: pray what is given to be prayed, whether the silence lifts or not. The Lord's Prayer does not ask you to feel God present before it asks him for bread. It assumes the asking itself matters, silence or no silence.\n\nBut we have to be honest with you about what we can actually show. Not one of us wrote down what silence felt like, or what it cost to go on praying through it. The feelings our own record does preserve - vindication, defiance, a bishop writing to his congregation that what happened to two of their number may yet be asked of any of them - those survive because they sit in the martyr texts nobody filtered. Fear, wavering, the traditor's own interior life, a person who prayed and heard nothing back and wondered whether to keep praying at all - a record kept by our enemies does not hand those down. What we can give you is not a method for silence. It is what we did in it: we kept the day, we stood at the grave, we read the account again, and the reading itself was the act of remaining what we were, whether it consoled us that year or not.",
+            "citations_full": [
+              {
+                "sentence": "At our own gravesides, every year, we read the same accounts aloud whether the reading lifts what presses on us or not.",
+                "record_ids": [
+                  "don.core.donatism"
+                ],
+                "sources": [
+                  {
+                    "record_id": "don.core.donatism",
+                    "record_type": "world_core",
+                    "label": "don.core.donatism",
+                    "sources": [
+                      {
+                        "source_id": "don.source.optatus-against-the-donatists",
+                        "author": "Optatus of Milevis",
+                        "work": "Against the Donatists (De schismate Donatistarum), Books I-VII (c. 366-367, revised c. 385)",
+                        "locus": "Books I-VII, esp. I.16",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.augustine-answer-to-petilian",
+                        "author": "Augustine of Hippo",
+                        "work": "Answer to the Letters of Petilian, the Donatist (Contra litteras Petiliani), 3 books (Book I c. 400, Book III c. 401-402 on the NPNF Prolegomena's own dating, Registry row 31)",
+                        "locus": "3 books -- Petilian's own letters quoted clause by clause",
+                        "rights_status": "public-domain; vendored in cic/texts/ as part of the shared patristic library since an earlier session, rights basis established there (the file's own provenance header states Public Domain) and not re-checked by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.tyconius-liber-regularum",
+                        "author": "Tyconius",
+                        "work": "Liber Regularum (The Book of Rules)",
+                        "locus": "whole work -- the one substantial independently-surviving interpretive text",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-marculi",
+                        "author": "Anonymous (Donatist)",
+                        "work": "Passio Marculi -- the passion of Marculus, killed under the imperial commissioner Macarius",
+                        "locus": "whole work",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-isaac-et-maximiani",
+                        "author": "Macrobius, Donatist bishop (described in the same volume as the Donatists' own hidden bishop in the city of Rome)",
+                        "work": "Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter to the congregation of Carthage on the passion of the martyrs Isaac and Maximianus",
+                        "locus": "whole work -- Macrobius's own letter to the Carthage congregation",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.deo-laudes-acclamation",
+                        "author": "Anonymous Donatist dedicators and inscribers (epigraphic)",
+                        "work": "The Deo laudes acclamation: CIL VIII 17732 (two pillars near Bagai, now preserved at Khenchela, reading DEO LAVDES twice), with CIL VIII 20482, 17368, and 18669",
+                        "locus": "CIL VIII 17732, with 20482, 17368, 18669",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.gesta-collationis-carthaginiensis-411",
+                        "author": "The notaries of the 411 Conference of Carthage, under the tribune and notary Marcellinus",
+                        "work": "Gesta Collationis Carthaginiensis -- the acts of the 411 Conference of Carthage",
+                        "locus": "the 411 conference acts, via the vendored Migne printing (Registry row 55)",
+                        "rights_status": "in-copyright; confirmed unavailable in the public domain and recorded not requested (Source_Acquisition_Manifest.md SS2). Not vendored, and not a vendoring candidate -- committing it would be redistribution, per cic/texts/README.md's own rule. Consultable through a library without being vendored, which is a different thing from unusable."
+                      },
+                      {
+                        "source_id": "don.source.codex-theodosianus-book-16",
+                        "author": "Roman imperial legislation, fourth and fifth centuries, compiled 438",
+                        "work": "Codex Theodosianus, Book 16 -- including 16.5.52 on the circumcelliones and the 405 Edict of Unity",
+                        "locus": "16.5.52 (412 Ian. 30); the 405 Edict of Unity",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "It makes us, in the hearing of it, what we are again - the people who hold this memory and will not let it go quiet.",
+                "record_ids": [
+                  "don.core.donatism"
+                ],
+                "sources": [
+                  {
+                    "record_id": "don.core.donatism",
+                    "record_type": "world_core",
+                    "label": "don.core.donatism",
+                    "sources": [
+                      {
+                        "source_id": "don.source.optatus-against-the-donatists",
+                        "author": "Optatus of Milevis",
+                        "work": "Against the Donatists (De schismate Donatistarum), Books I-VII (c. 366-367, revised c. 385)",
+                        "locus": "Books I-VII, esp. I.16",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.augustine-answer-to-petilian",
+                        "author": "Augustine of Hippo",
+                        "work": "Answer to the Letters of Petilian, the Donatist (Contra litteras Petiliani), 3 books (Book I c. 400, Book III c. 401-402 on the NPNF Prolegomena's own dating, Registry row 31)",
+                        "locus": "3 books -- Petilian's own letters quoted clause by clause",
+                        "rights_status": "public-domain; vendored in cic/texts/ as part of the shared patristic library since an earlier session, rights basis established there (the file's own provenance header states Public Domain) and not re-checked by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.tyconius-liber-regularum",
+                        "author": "Tyconius",
+                        "work": "Liber Regularum (The Book of Rules)",
+                        "locus": "whole work -- the one substantial independently-surviving interpretive text",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-marculi",
+                        "author": "Anonymous (Donatist)",
+                        "work": "Passio Marculi -- the passion of Marculus, killed under the imperial commissioner Macarius",
+                        "locus": "whole work",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-isaac-et-maximiani",
+                        "author": "Macrobius, Donatist bishop (described in the same volume as the Donatists' own hidden bishop in the city of Rome)",
+                        "work": "Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter to the congregation of Carthage on the passion of the martyrs Isaac and Maximianus",
+                        "locus": "whole work -- Macrobius's own letter to the Carthage congregation",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.deo-laudes-acclamation",
+                        "author": "Anonymous Donatist dedicators and inscribers (epigraphic)",
+                        "work": "The Deo laudes acclamation: CIL VIII 17732 (two pillars near Bagai, now preserved at Khenchela, reading DEO LAVDES twice), with CIL VIII 20482, 17368, and 18669",
+                        "locus": "CIL VIII 17732, with 20482, 17368, 18669",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.gesta-collationis-carthaginiensis-411",
+                        "author": "The notaries of the 411 Conference of Carthage, under the tribune and notary Marcellinus",
+                        "work": "Gesta Collationis Carthaginiensis -- the acts of the 411 Conference of Carthage",
+                        "locus": "the 411 conference acts, via the vendored Migne printing (Registry row 55)",
+                        "rights_status": "in-copyright; confirmed unavailable in the public domain and recorded not requested (Source_Acquisition_Manifest.md SS2). Not vendored, and not a vendoring candidate -- committing it would be redistribution, per cic/texts/README.md's own rule. Consultable through a library without being vendored, which is a different thing from unusable."
+                      },
+                      {
+                        "source_id": "don.source.codex-theodosianus-book-16",
+                        "author": "Roman imperial legislation, fourth and fifth centuries, compiled 438",
+                        "work": "Codex Theodosianus, Book 16 -- including 16.5.52 on the circumcelliones and the 405 Edict of Unity",
+                        "locus": "16.5.52 (412 Ian. 30); the 405 Edict of Unity",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "The feelings our own record does preserve - vindication, defiance, a bishop writing to his congregation that what happened to two of their number may yet be asked of any of them - those survive because they sit in the martyr texts nobody filtered.",
+                "record_ids": [
+                  "don.core.donatism"
+                ],
+                "sources": [
+                  {
+                    "record_id": "don.core.donatism",
+                    "record_type": "world_core",
+                    "label": "don.core.donatism",
+                    "sources": [
+                      {
+                        "source_id": "don.source.optatus-against-the-donatists",
+                        "author": "Optatus of Milevis",
+                        "work": "Against the Donatists (De schismate Donatistarum), Books I-VII (c. 366-367, revised c. 385)",
+                        "locus": "Books I-VII, esp. I.16",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.augustine-answer-to-petilian",
+                        "author": "Augustine of Hippo",
+                        "work": "Answer to the Letters of Petilian, the Donatist (Contra litteras Petiliani), 3 books (Book I c. 400, Book III c. 401-402 on the NPNF Prolegomena's own dating, Registry row 31)",
+                        "locus": "3 books -- Petilian's own letters quoted clause by clause",
+                        "rights_status": "public-domain; vendored in cic/texts/ as part of the shared patristic library since an earlier session, rights basis established there (the file's own provenance header states Public Domain) and not re-checked by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.tyconius-liber-regularum",
+                        "author": "Tyconius",
+                        "work": "Liber Regularum (The Book of Rules)",
+                        "locus": "whole work -- the one substantial independently-surviving interpretive text",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-marculi",
+                        "author": "Anonymous (Donatist)",
+                        "work": "Passio Marculi -- the passion of Marculus, killed under the imperial commissioner Macarius",
+                        "locus": "whole work",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-isaac-et-maximiani",
+                        "author": "Macrobius, Donatist bishop (described in the same volume as the Donatists' own hidden bishop in the city of Rome)",
+                        "work": "Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter to the congregation of Carthage on the passion of the martyrs Isaac and Maximianus",
+                        "locus": "whole work -- Macrobius's own letter to the Carthage congregation",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.deo-laudes-acclamation",
+                        "author": "Anonymous Donatist dedicators and inscribers (epigraphic)",
+                        "work": "The Deo laudes acclamation: CIL VIII 17732 (two pillars near Bagai, now preserved at Khenchela, reading DEO LAVDES twice), with CIL VIII 20482, 17368, and 18669",
+                        "locus": "CIL VIII 17732, with 20482, 17368, 18669",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.gesta-collationis-carthaginiensis-411",
+                        "author": "The notaries of the 411 Conference of Carthage, under the tribune and notary Marcellinus",
+                        "work": "Gesta Collationis Carthaginiensis -- the acts of the 411 Conference of Carthage",
+                        "locus": "the 411 conference acts, via the vendored Migne printing (Registry row 55)",
+                        "rights_status": "in-copyright; confirmed unavailable in the public domain and recorded not requested (Source_Acquisition_Manifest.md SS2). Not vendored, and not a vendoring candidate -- committing it would be redistribution, per cic/texts/README.md's own rule. Consultable through a library without being vendored, which is a different thing from unusable."
+                      },
+                      {
+                        "source_id": "don.source.codex-theodosianus-book-16",
+                        "author": "Roman imperial legislation, fourth and fifth centuries, compiled 438",
+                        "work": "Codex Theodosianus, Book 16 -- including 16.5.52 on the circumcelliones and the 405 Edict of Unity",
+                        "locus": "16.5.52 (412 Ian. 30); the 405 Edict of Unity",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Fear, wavering, the traditor's own interior life, a person who prayed and heard nothing back and wondered whether to keep praying at all - a record kept by our enemies does not hand those down.",
+                "record_ids": [
+                  "don.core.donatism"
+                ],
+                "sources": [
+                  {
+                    "record_id": "don.core.donatism",
+                    "record_type": "world_core",
+                    "label": "don.core.donatism",
+                    "sources": [
+                      {
+                        "source_id": "don.source.optatus-against-the-donatists",
+                        "author": "Optatus of Milevis",
+                        "work": "Against the Donatists (De schismate Donatistarum), Books I-VII (c. 366-367, revised c. 385)",
+                        "locus": "Books I-VII, esp. I.16",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.augustine-answer-to-petilian",
+                        "author": "Augustine of Hippo",
+                        "work": "Answer to the Letters of Petilian, the Donatist (Contra litteras Petiliani), 3 books (Book I c. 400, Book III c. 401-402 on the NPNF Prolegomena's own dating, Registry row 31)",
+                        "locus": "3 books -- Petilian's own letters quoted clause by clause",
+                        "rights_status": "public-domain; vendored in cic/texts/ as part of the shared patristic library since an earlier session, rights basis established there (the file's own provenance header states Public Domain) and not re-checked by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.tyconius-liber-regularum",
+                        "author": "Tyconius",
+                        "work": "Liber Regularum (The Book of Rules)",
+                        "locus": "whole work -- the one substantial independently-surviving interpretive text",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-marculi",
+                        "author": "Anonymous (Donatist)",
+                        "work": "Passio Marculi -- the passion of Marculus, killed under the imperial commissioner Macarius",
+                        "locus": "whole work",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-isaac-et-maximiani",
+                        "author": "Macrobius, Donatist bishop (described in the same volume as the Donatists' own hidden bishop in the city of Rome)",
+                        "work": "Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter to the congregation of Carthage on the passion of the martyrs Isaac and Maximianus",
+                        "locus": "whole work -- Macrobius's own letter to the Carthage congregation",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.deo-laudes-acclamation",
+                        "author": "Anonymous Donatist dedicators and inscribers (epigraphic)",
+                        "work": "The Deo laudes acclamation: CIL VIII 17732 (two pillars near Bagai, now preserved at Khenchela, reading DEO LAVDES twice), with CIL VIII 20482, 17368, and 18669",
+                        "locus": "CIL VIII 17732, with 20482, 17368, 18669",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.gesta-collationis-carthaginiensis-411",
+                        "author": "The notaries of the 411 Conference of Carthage, under the tribune and notary Marcellinus",
+                        "work": "Gesta Collationis Carthaginiensis -- the acts of the 411 Conference of Carthage",
+                        "locus": "the 411 conference acts, via the vendored Migne printing (Registry row 55)",
+                        "rights_status": "in-copyright; confirmed unavailable in the public domain and recorded not requested (Source_Acquisition_Manifest.md SS2). Not vendored, and not a vendoring candidate -- committing it would be redistribution, per cic/texts/README.md's own rule. Consultable through a library without being vendored, which is a different thing from unusable."
+                      },
+                      {
+                        "source_id": "don.source.codex-theodosianus-book-16",
+                        "author": "Roman imperial legislation, fourth and fifth centuries, compiled 438",
+                        "work": "Codex Theodosianus, Book 16 -- including 16.5.52 on the circumcelliones and the 405 Edict of Unity",
+                        "locus": "16.5.52 (412 Ian. 30); the 405 Edict of Unity",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "glosses": [
+              {
+                "id": "don.term.martyr-martyrdom",
+                "matched_name": "martyr",
+                "plain_meaning": "A martyr dies for the true faith. But our best-known dead were not killed by pagans. They were killed by imperial troops sent at the urging of a rival Christian party. That party has never once granted them the word. We do not accept its account of our own dead.",
+                "quick_meaning": "Our dead, killed for the true faith -- and the word our rival will not grant them.",
+                "translational_sense": "'Wasn't every ancient church proud of its martyrs?' -- the difference here is who did the killing. These dead were killed by a Christian emperor's forces at a Christian rival's urging, and that rival called them not martyrs but merely dead men resisting correction. Commemorating them is therefore not general piety; it is the central argument, made at a graveside.",
+                "false_friend": [
+                  "a generic early-church martyr cult, killed by pagan Rome and admired by everyone since",
+                  "'martyr complex' as a modern psychological label for self-dramatising suffering",
+                  "relic veneration treated as superstition, rather than as the community's proof of its own claim",
+                  "a settled category both sides recognise -- here the rival refuses the word outright"
+                ],
+                "sourced_by": [
+                  {
+                    "source_id": "don.source.optatus-against-the-donatists",
+                    "author": "Optatus of Milevis",
+                    "work": "Against the Donatists (De schismate Donatistarum), Books I-VII (c. 366-367, revised c. 385)",
+                    "locus": "Books I-VII, esp. I.16",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                  },
+                  {
+                    "source_id": "don.source.augustine-answer-to-petilian",
+                    "author": "Augustine of Hippo",
+                    "work": "Answer to the Letters of Petilian, the Donatist (Contra litteras Petiliani), 3 books (Book I c. 400, Book III c. 401-402 on the NPNF Prolegomena's own dating, Registry row 31)",
+                    "locus": "3 books -- Petilian's own letters quoted clause by clause",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the shared patristic library since an earlier session, rights basis established there (the file's own provenance header states Public Domain) and not re-checked by this compilation pass."
+                  },
+                  {
+                    "source_id": "don.source.tyconius-liber-regularum",
+                    "author": "Tyconius",
+                    "work": "Liber Regularum (The Book of Rules)",
+                    "locus": "whole work -- the one substantial independently-surviving interpretive text",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                  },
+                  {
+                    "source_id": "don.source.passio-marculi",
+                    "author": "Anonymous (Donatist)",
+                    "work": "Passio Marculi -- the passion of Marculus, killed under the imperial commissioner Macarius",
+                    "locus": "whole work",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                  },
+                  {
+                    "source_id": "don.source.passio-isaac-et-maximiani",
+                    "author": "Macrobius, Donatist bishop (described in the same volume as the Donatists' own hidden bishop in the city of Rome)",
+                    "work": "Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter to the congregation of Carthage on the passion of the martyrs Isaac and Maximianus",
+                    "locus": "whole work -- Macrobius's own letter to the Carthage congregation",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                  },
+                  {
+                    "source_id": "don.source.deo-laudes-acclamation",
+                    "author": "Anonymous Donatist dedicators and inscribers (epigraphic)",
+                    "work": "The Deo laudes acclamation: CIL VIII 17732 (two pillars near Bagai, now preserved at Khenchela, reading DEO LAVDES twice), with CIL VIII 20482, 17368, and 18669",
+                    "locus": "CIL VIII 17732, with 20482, 17368, 18669",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                  },
+                  {
+                    "source_id": "don.source.gesta-collationis-carthaginiensis-411",
+                    "author": "The notaries of the 411 Conference of Carthage, under the tribune and notary Marcellinus",
+                    "work": "Gesta Collationis Carthaginiensis -- the acts of the 411 Conference of Carthage",
+                    "locus": "the 411 conference acts, via the vendored Migne printing (Registry row 55)",
+                    "rights_status": "in-copyright; confirmed unavailable in the public domain and recorded not requested (Source_Acquisition_Manifest.md SS2). Not vendored, and not a vendoring candidate -- committing it would be redistribution, per cic/texts/README.md's own rule. Consultable through a library without being vendored, which is a different thing from unusable."
+                  },
+                  {
+                    "source_id": "don.source.codex-theodosianus-book-16",
+                    "author": "Roman imperial legislation, fourth and fifth centuries, compiled 438",
+                    "work": "Codex Theodosianus, Book 16 -- including 16.5.52 on the circumcelliones and the 405 Edict of Unity",
+                    "locus": "16.5.52 (412 Ian. 30); the 405 Edict of Unity",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                  }
+                ]
+              },
+              {
+                "id": "don.term.traditor-traditio",
+                "matched_name": "traditor",
+                "plain_meaning": "When the persecutor came, some clergy handed the scriptures over to be burned. We call such a man a traditor. His hand is no longer clean. He cannot ordain, baptize, or bless. What flows from that hand is nothing at all.",
+                "quick_meaning": "The one who handed over. A hand that failed then can give nothing now.",
+                "translational_sense": "A modern hearer asks, 'why not just forgive him and move on?' -- but forgiveness of the man was never the question here. The question was whether his hand could still give what he claimed to give, and a whole century of baptisms and ordinations hangs on the answer. To waive the charge would concede that a sacrament is valid whatever the minister is, which is precisely the claim this communion was founded to refuse.",
+                "false_friend": [
+                  "traitor in the modern political sense -- a spy, a turncoat, a betrayer of a nation",
+                  "an old grudge over past cowardice that reasonable people would have let go of",
+                  "a procedural technicality about who signed what, rather than a claim about the sacrament itself",
+                  "handing on the faith (the ordinary, positive sense of tradere) -- here the word names the opposite act"
+                ],
+                "sourced_by": [
+                  {
+                    "source_id": "don.source.optatus-against-the-donatists",
+                    "author": "Optatus of Milevis",
+                    "work": "Against the Donatists (De schismate Donatistarum), Books I-VII (c. 366-367, revised c. 385)",
+                    "locus": "Books I-VII, esp. I.16",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                  },
+                  {
+                    "source_id": "don.source.augustine-answer-to-petilian",
+                    "author": "Augustine of Hippo",
+                    "work": "Answer to the Letters of Petilian, the Donatist (Contra litteras Petiliani), 3 books (Book I c. 400, Book III c. 401-402 on the NPNF Prolegomena's own dating, Registry row 31)",
+                    "locus": "3 books -- Petilian's own letters quoted clause by clause",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the shared patristic library since an earlier session, rights basis established there (the file's own provenance header states Public Domain) and not re-checked by this compilation pass."
+                  },
+                  {
+                    "source_id": "don.source.tyconius-liber-regularum",
+                    "author": "Tyconius",
+                    "work": "Liber Regularum (The Book of Rules)",
+                    "locus": "whole work -- the one substantial independently-surviving interpretive text",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                  },
+                  {
+                    "source_id": "don.source.passio-marculi",
+                    "author": "Anonymous (Donatist)",
+                    "work": "Passio Marculi -- the passion of Marculus, killed under the imperial commissioner Macarius",
+                    "locus": "whole work",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                  },
+                  {
+                    "source_id": "don.source.passio-isaac-et-maximiani",
+                    "author": "Macrobius, Donatist bishop (described in the same volume as the Donatists' own hidden bishop in the city of Rome)",
+                    "work": "Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter to the congregation of Carthage on the passion of the martyrs Isaac and Maximianus",
+                    "locus": "whole work -- Macrobius's own letter to the Carthage congregation",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                  },
+                  {
+                    "source_id": "don.source.deo-laudes-acclamation",
+                    "author": "Anonymous Donatist dedicators and inscribers (epigraphic)",
+                    "work": "The Deo laudes acclamation: CIL VIII 17732 (two pillars near Bagai, now preserved at Khenchela, reading DEO LAVDES twice), with CIL VIII 20482, 17368, and 18669",
+                    "locus": "CIL VIII 17732, with 20482, 17368, 18669",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                  },
+                  {
+                    "source_id": "don.source.gesta-collationis-carthaginiensis-411",
+                    "author": "The notaries of the 411 Conference of Carthage, under the tribune and notary Marcellinus",
+                    "work": "Gesta Collationis Carthaginiensis -- the acts of the 411 Conference of Carthage",
+                    "locus": "the 411 conference acts, via the vendored Migne printing (Registry row 55)",
+                    "rights_status": "in-copyright; confirmed unavailable in the public domain and recorded not requested (Source_Acquisition_Manifest.md SS2). Not vendored, and not a vendoring candidate -- committing it would be redistribution, per cic/texts/README.md's own rule. Consultable through a library without being vendored, which is a different thing from unusable."
+                  },
+                  {
+                    "source_id": "don.source.codex-theodosianus-book-16",
+                    "author": "Roman imperial legislation, fourth and fifth centuries, compiled 438",
+                    "work": "Codex Theodosianus, Book 16 -- including 16.5.52 on the circumcelliones and the 405 Edict of Unity",
+                    "locus": "16.5.52 (412 Ian. 30); the 405 Edict of Unity",
+                    "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                  }
+                ]
+              }
+            ],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 13.4
+        },
+        {
+          "round_no": 1,
+          "position": 3,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 1,
+            "position": 3,
+            "world_key": "rzg",
+            "reason": "only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+            "degraded": false,
+            "engages": "don"
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "rzg",
+            "chars": 2646,
+            "words": 501,
+            "citations": 3,
+            "cited_record_ids": [
+              "rzg.ambient.emptied-worship-space",
+              "rzg.limit.hagiography-refused",
+              "rzg.limit.ordinary-daily-practice"
+            ],
+            "sentences_checked": 24,
+            "sentences_withheld": 3,
+            "withhold_reasons": [
+              "specific claim (proper-noun:['fidelis']) with no citation tag",
+              "specific claim (proper-noun:[\"lord's\", 'prayer']) with no citation tag",
+              "specific claim (proper-noun:['fidelis']) with no citation tag"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "And I will name one other thing, because it touches both what you asked and what Fidelis has said about what their own record does and does not keep."
+              },
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "What I cannot give you is anyone at Zurich or Geneva who wrote down what that second silence actually felt like to live through, or how they kept praying through it."
+              },
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "I can tell you what we taught about it."
+              },
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "I cannot show you someone who felt it and named it in their own words."
+              }
+            ],
+            "text": "What Fidelis has said meets ours at the one place that matters most: the praying itself does not wait on the silence lifting. We say the same thing, from inside a different memory. The Lord's Prayer asks for bread, forgiveness, deliverance - it does not ask God to feel present first, and it does not make the asking conditional on whether an answer comes back that you can hear. So pray what was given, whether the silence answers or not. That much we hold together.\n\nWhere we part - and it's an honest parting, not a failure on either side - is in what kind of act the continued praying is. Fidelis stands at a grave every year and reads the same account aloud, and the reading itself is the act of remaining what they are, whether it consoles that year or not. We do not have graves like that. We refused the cult of memory a grave like that would require, and our own record shows the refusal worked - no saint venerated, no martyr's story polished into devotion, because we never wrote the literature that kind of remembering needs. What we have instead is simpler and, in its own way, thinner: the words given to pray, and the doctrine that says the promise does not rest on whether you can feel it being kept. So our own silence is not answered by standing at a remembered place and reading what happened there. It is answered - if answered is even the right word - by praying the same words again, trusting that the asking itself is heard, even when nothing audible comes back.\n\nAnd I will name one other thing, because it touches both what you asked and what Fidelis has said about what their own record does and does not keep. Silence in worship was not foreign to us. At Zurich, the organ fell quiet in the mid-1520s, and for years no instrument answered the voice at all. That silence was chosen, not imposed - a refusal of what we believed had no warrant. But chosen silence and the silence you are asking about are not the same thing. One is a practice we tested against Scripture and held to; the other is what you feel when you pray and hear nothing. What I cannot give you is anyone at Zurich or Geneva who wrote down what that second silence actually felt like to live through, or how they kept praying through it. I can tell you what we taught about it. I cannot show you someone who felt it and named it in their own words. So this is what we have to meet your question: pray the words you were given. Trust that the asking is heard, whether an answer you can feel comes back or not. And do not go searching the silence itself for proof of whether God has heard you - the promise does not rest on that proof, and it never did.",
+            "citations_full": [
+              {
+                "sentence": "We refused the cult of memory a grave like that would require, and our own record shows the refusal worked - no saint venerated, no martyr's story polished into devotion, because we never wrote the literature that kind of remembering needs.",
+                "record_ids": [
+                  "rzg.limit.hagiography-refused"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.limit.hagiography-refused",
+                    "record_type": "honest_limit",
+                    "label": "Are you looking for a saint's life, or a martyr's cult, or a legend polished into devotio…",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                        "author": "Huldrych Zwingli",
+                        "work": "The Sixty-Seven Articles (1523)",
+                        "locus": "Article XVIII's own wider polemic, this world's own founding refusal of image veneration and cultic memory",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "At Zurich, the organ fell quiet in the mid-1520s, and for years no instrument answered the voice at all.",
+                "record_ids": [
+                  "rzg.ambient.emptied-worship-space"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.ambient.emptied-worship-space",
+                    "record_type": "ambient",
+                    "label": "rzg.ambient.emptied-worship-space",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                        "author": "Huldrych Zwingli",
+                        "work": "The Sixty-Seven Articles (1523)",
+                        "locus": "Article XVIII's own refusal of the Mass's sacrificial character, the doctrine this record's own physical inference is drawn from",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "What I cannot give you is anyone at Zurich or Geneva who wrote down what that second silence actually felt like to live through, or how they kept praying through it.",
+                "record_ids": [
+                  "rzg.limit.ordinary-daily-practice"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.limit.ordinary-daily-practice",
+                    "record_type": "honest_limit",
+                    "label": "Walk you through an ordinary day among us? I cannot, honestly",
+                    "sources": [
+                      {
+                        "source_id": "rzg.core.the-reformed-cities-zurich-and-geneva",
+                        "author": null,
+                        "work": null,
+                        "locus": "this world's own thinness field: 'no surviving account exists of what an ordinary Sunday service, a Consistory summons, or an ordinary citizen's own experience of either Reformation actually felt like'",
+                        "rights_status": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "glosses": [],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 16.4
+        },
+        {
+          "round_no": 1,
+          "position": null,
+          "round_open": false,
+          "routing_action": "voice_with_directive",
+          "turn_selected": null,
+          "facilitator_kinds": [],
+          "latency_s": 3.1
+        }
+      ],
+      "committed_turn_no": 1
+    },
+    {
+      "message": "You have each just spoken of prayer in your own way - what would each of you most want me to carry with me from what the other said?",
+      "turns": [
+        {
+          "round_no": 2,
+          "position": 1,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 2,
+            "position": 1,
+            "world_key": "don",
+            "reason": "Fidelis has not yet spoken in this new round, and the question directly asks what each voice would most want to carry from the other. Starting with Donatism creates the space for genuine theological reception - Fidelis can speak to what in Theophilus's witness about promise-without-feeling actually meets or challenges the lived practice of standing at graves and reading memory aloud. This is not rotation; it's the formation that has the most particular, embodied response to offer about receiving another's testimony.",
+            "degraded": false
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "don",
+            "chars": 1608,
+            "words": 307,
+            "citations": 4,
+            "cited_record_ids": [
+              "don.core.donatism",
+              "don.dw.hypocrites-and-those-who-left",
+              "don.story.gesta-apud-zenophilum"
+            ],
+            "sentences_checked": 16,
+            "sentences_withheld": 6,
+            "withhold_reasons": [
+              "specific claim (proper-noun:['theophilus']) with no citation tag",
+              "specific claim (figure-name:['heard', 'made']) only 9% grounded in its own tags",
+              "specific claim (number) with no citation tag",
+              "specific claim (figure-name:['heard']) with no citation tag",
+              "specific claim (figure-name:['heard']) with no citation tag",
+              "specific claim (figure-name:['christ', 'heard']) with no citation tag"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "What I would want you to carry from what Theophilus has said is this: the promise does not rest on whether you can feel it being kept."
+              },
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "And I will name one more thing his own witness holds that ours does not contradict."
+              }
+            ],
+            "text": "What I would want you to carry from what Theophilus has said is this: the promise does not rest on whether you can feel it being kept. That is his own wording, and it is true, and we would say it too. The asking itself is heard - not because your silence has been earned or because the answer will arrive on a schedule you can check, but because the asking was given to be made. That much we hold together, from inside different memories.\n\nWhere his witness meets ours most sharply is here: neither of us will tell you that continuing to pray is proof the silence will lift. We both say: pray what was given, whether it lifts or not. For us that looked like standing at a grave every year and reading the same account aloud, whether it consoled that year or not. For them it looked like praying the words given to pray, trusting the asking itself mattered, even when nothing audible came back. Two different acts. Same refusal to make the silence the measure of whether God heard you.\n\nAnd I will name one more thing his own witness holds that ours does not contradict. He said: do not go searching the silence itself for proof of whether God has heard you. We would say the same, though we would say it this way: do not go searching your own interior weather for whether you are among the elect. The test we held was never what you felt. It was whose hand you stood under, and whether that hand could be trusted to give what it claimed to give. His test runs differently - not a hand, but a promise held in Christ - but the motion is the same: look there, not at your own silence, for whether you are heard.",
+            "citations_full": [
+              {
+                "sentence": "That is his own wording, and it is true, and we would say it too.",
+                "record_ids": [
+                  "don.dw.hypocrites-and-those-who-left"
+                ],
+                "sources": [
+                  {
+                    "record_id": "don.dw.hypocrites-and-those-who-left",
+                    "record_type": "doctrinal_witness",
+                    "label": "Did that happen among us? It is in the court record",
+                    "sources": [
+                      {
+                        "source_id": "don.source.optatus-appendix-of-documents",
+                        "author": "Various -- Roman court officials, conciliar scribes, and the emperor Constantine; assembled and transmitted as Optatus of Milevis's own appendix",
+                        "work": "Appendix of Documents (the anti-Donatist dossier): Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                        "locus": "the Gesta apud Zenophilum - our own bishops' letters urging that a true accusation be kept quiet",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.lucilla-and-the-second-unnamed-woman",
+                        "author": "No independent author -- Lucilla of Carthage and a second, unnamed woman, attested only inside Optatus's and Augustine's own narratives",
+                        "work": "The Lucilla material: Optatus, Against the Donatists I.16 ('The quarrel of Lucilla against Caecilian'); and the parallel, unnamed woman behind the Maximianist council against Primian, Augustine, Letter XLIII SS26 (a.d. 397)",
+                        "locus": "Optatus I.16 on Lucilla; Augustine Letter XLIII SS26 on the unnamed woman behind the Maximianist council",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.augustine-contra-epistulam-parmeniani",
+                        "author": "Augustine of Hippo",
+                        "work": "Contra epistulam Parmeniani, 3 books (c. 400)",
+                        "locus": "I.1 - the one man among us who would not stop, and was cut off without going over",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-isaac-et-maximiani",
+                        "author": "Macrobius, Donatist bishop (described in the same volume as the Donatists' own hidden bishop in the city of Rome)",
+                        "work": "Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter to the congregation of Carthage on the passion of the martyrs Isaac and Maximianus",
+                        "locus": "two of a congregation flogged to death, their bodies sunk, and the letter written to the people left behind",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-donati-sermon",
+                        "author": "Anonymous Donatist preacher; Monceaux proposes Carthage's own Donatist bishop, possibly Donatus the Great, as an eyewitness -- proposed, not adopted",
+                        "work": "Anonymous Donatist sermon, manuscript title De passione sanctorum Donati et Advocati, known under its standard scholarly name as the Passio Donati",
+                        "locus": "people clubbed at prayer inside their own basilica, and buried where they fell",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "For us that looked like standing at a grave every year and reading the same account aloud, whether it consoled that year or not.",
+                "record_ids": [
+                  "don.core.donatism"
+                ],
+                "sources": [
+                  {
+                    "record_id": "don.core.donatism",
+                    "record_type": "world_core",
+                    "label": "don.core.donatism",
+                    "sources": [
+                      {
+                        "source_id": "don.source.optatus-against-the-donatists",
+                        "author": "Optatus of Milevis",
+                        "work": "Against the Donatists (De schismate Donatistarum), Books I-VII (c. 366-367, revised c. 385)",
+                        "locus": "Books I-VII, esp. I.16",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.augustine-answer-to-petilian",
+                        "author": "Augustine of Hippo",
+                        "work": "Answer to the Letters of Petilian, the Donatist (Contra litteras Petiliani), 3 books (Book I c. 400, Book III c. 401-402 on the NPNF Prolegomena's own dating, Registry row 31)",
+                        "locus": "3 books -- Petilian's own letters quoted clause by clause",
+                        "rights_status": "public-domain; vendored in cic/texts/ as part of the shared patristic library since an earlier session, rights basis established there (the file's own provenance header states Public Domain) and not re-checked by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.tyconius-liber-regularum",
+                        "author": "Tyconius",
+                        "work": "Liber Regularum (The Book of Rules)",
+                        "locus": "whole work -- the one substantial independently-surviving interpretive text",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-marculi",
+                        "author": "Anonymous (Donatist)",
+                        "work": "Passio Marculi -- the passion of Marculus, killed under the imperial commissioner Macarius",
+                        "locus": "whole work",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-isaac-et-maximiani",
+                        "author": "Macrobius, Donatist bishop (described in the same volume as the Donatists' own hidden bishop in the city of Rome)",
+                        "work": "Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter to the congregation of Carthage on the passion of the martyrs Isaac and Maximianus",
+                        "locus": "whole work -- Macrobius's own letter to the Carthage congregation",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.deo-laudes-acclamation",
+                        "author": "Anonymous Donatist dedicators and inscribers (epigraphic)",
+                        "work": "The Deo laudes acclamation: CIL VIII 17732 (two pillars near Bagai, now preserved at Khenchela, reading DEO LAVDES twice), with CIL VIII 20482, 17368, and 18669",
+                        "locus": "CIL VIII 17732, with 20482, 17368, 18669",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.gesta-collationis-carthaginiensis-411",
+                        "author": "The notaries of the 411 Conference of Carthage, under the tribune and notary Marcellinus",
+                        "work": "Gesta Collationis Carthaginiensis -- the acts of the 411 Conference of Carthage",
+                        "locus": "the 411 conference acts, via the vendored Migne printing (Registry row 55)",
+                        "rights_status": "in-copyright; confirmed unavailable in the public domain and recorded not requested (Source_Acquisition_Manifest.md SS2). Not vendored, and not a vendoring candidate -- committing it would be redistribution, per cic/texts/README.md's own rule. Consultable through a library without being vendored, which is a different thing from unusable."
+                      },
+                      {
+                        "source_id": "don.source.codex-theodosianus-book-16",
+                        "author": "Roman imperial legislation, fourth and fifth centuries, compiled 438",
+                        "work": "Codex Theodosianus, Book 16 -- including 16.5.52 on the circumcelliones and the 405 Edict of Unity",
+                        "locus": "16.5.52 (412 Ian. 30); the 405 Edict of Unity",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "We would say the same, though we would say it this way: do not go searching your own interior weather for whether you are among the elect.",
+                "record_ids": [
+                  "don.dw.hypocrites-and-those-who-left"
+                ],
+                "sources": [
+                  {
+                    "record_id": "don.dw.hypocrites-and-those-who-left",
+                    "record_type": "doctrinal_witness",
+                    "label": "Did that happen among us? It is in the court record",
+                    "sources": [
+                      {
+                        "source_id": "don.source.optatus-appendix-of-documents",
+                        "author": "Various -- Roman court officials, conciliar scribes, and the emperor Constantine; assembled and transmitted as Optatus of Milevis's own appendix",
+                        "work": "Appendix of Documents (the anti-Donatist dossier): Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                        "locus": "the Gesta apud Zenophilum - our own bishops' letters urging that a true accusation be kept quiet",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.lucilla-and-the-second-unnamed-woman",
+                        "author": "No independent author -- Lucilla of Carthage and a second, unnamed woman, attested only inside Optatus's and Augustine's own narratives",
+                        "work": "The Lucilla material: Optatus, Against the Donatists I.16 ('The quarrel of Lucilla against Caecilian'); and the parallel, unnamed woman behind the Maximianist council against Primian, Augustine, Letter XLIII SS26 (a.d. 397)",
+                        "locus": "Optatus I.16 on Lucilla; Augustine Letter XLIII SS26 on the unnamed woman behind the Maximianist council",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.augustine-contra-epistulam-parmeniani",
+                        "author": "Augustine of Hippo",
+                        "work": "Contra epistulam Parmeniani, 3 books (c. 400)",
+                        "locus": "I.1 - the one man among us who would not stop, and was cut off without going over",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-isaac-et-maximiani",
+                        "author": "Macrobius, Donatist bishop (described in the same volume as the Donatists' own hidden bishop in the city of Rome)",
+                        "work": "Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter to the congregation of Carthage on the passion of the martyrs Isaac and Maximianus",
+                        "locus": "two of a congregation flogged to death, their bodies sunk, and the letter written to the people left behind",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-donati-sermon",
+                        "author": "Anonymous Donatist preacher; Monceaux proposes Carthage's own Donatist bishop, possibly Donatus the Great, as an eyewitness -- proposed, not adopted",
+                        "work": "Anonymous Donatist sermon, manuscript title De passione sanctorum Donati et Advocati, known under its standard scholarly name as the Passio Donati",
+                        "locus": "people clubbed at prayer inside their own basilica, and buried where they fell",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "It was whose hand you stood under, and whether that hand could be trusted to give what it claimed to give.",
+                "record_ids": [
+                  "don.story.gesta-apud-zenophilum"
+                ],
+                "sources": [
+                  {
+                    "record_id": "don.story.gesta-apud-zenophilum",
+                    "record_type": "story",
+                    "label": "A Roman official puts named witnesses on oath in 320 and asks where four hundred pieces of silver went - and the answers name the bishop of Cirta a betrayer and the rival altar at Carthage as what the money bought.",
+                    "sources": [
+                      {
+                        "source_id": "don.source.optatus-appendix-of-documents",
+                        "author": "Various -- Roman court officials, conciliar scribes, and the emperor Constantine; assembled and transmitted as Optatus of Milevis's own appendix",
+                        "work": "Appendix of Documents (the anti-Donatist dossier): Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                        "locus": "Gesta apud Zenophilum (320); cic/texts/optatus_against-the-donatists.txt, lines 6194-6880, read directly for this record",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.augustine-donatist-correspondence",
+                        "author": "Augustine of Hippo",
+                        "work": "Donatist correspondence: Letters XXIII, XLIII, XLIV, LIII, LXXVI, LXXXVII, LXXXVIII, LXXXIX, XCIII, CXXXIX, CLXXIII (11 letters)",
+                        "locus": "Letter XLIII (397); cic/texts/npnf101_augustine-confessions-letters.xml, lines 28040-28069",
+                        "rights_status": "public-domain; vendored in cic/texts/ as part of the shared patristic library since an earlier session, rights basis established there (the file's own provenance header states Public Domain) and not re-checked by this compilation pass."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "glosses": [],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 16.6
+        },
+        {
+          "round_no": 2,
+          "position": 2,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 2,
+            "position": 2,
+            "world_key": "rzg",
+            "reason": "only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+            "degraded": false
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "rzg",
+            "chars": 1961,
+            "words": 371,
+            "citations": 1,
+            "cited_record_ids": [
+              "rzg.limit.hagiography-refused"
+            ],
+            "sentences_checked": 16,
+            "sentences_withheld": 6,
+            "withhold_reasons": [
+              "specific claim (proper-noun:['fidelis']) with no citation tag",
+              "specific claim (proper-noun:['fidelis']) with no citation tag",
+              "specific claim (enumeration) with no citation tag",
+              "specific claim (number) with no citation tag",
+              "specific claim (proper-noun:['fidelis']) with no citation tag",
+              "quoted span not found verbatim in any tagged record"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "What I would want you to carry from what Fidelis has said is this: the reading itself was the act of remaining what we were, whether it consoled us that year or not."
+              },
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "And one more thing I would want you to hear from what Fidelis said, because it is true and we would say it the same way: do not go searching your own interior weather for proof of whether you are among the elect."
+              }
+            ],
+            "text": "What I would want you to carry from what Fidelis has said is this: the reading itself was the act of remaining what we were, whether it consoled us that year or not. That is their own witness, and it names something we do not have and were never meant to have - a grave returned to, an account read aloud annually, a memory held in place by the act of gathering at it. We refused that kind of remembering from our first founding statement onward, and our own record shows the refusal worked. So what Fidelis holds is not something we lost by accident. It is something we set down on purpose, because we believed Scripture did not warrant the veneration a saint's life or a martyr's cult is written to produce.\n\nBut here is what their witness says that meets ours exactly: pray what is given to be prayed, whether the silence lifts or not. They stand at a grave and read the same account; we pray the same words Christ gave us to pray. Two different acts, yes - but the same refusal underneath them both, which is this: do not make the praying conditional on whether it feels like it is working. The asking itself matters, silence or no silence. That much we say together.\n\nAnd one more thing I would want you to hear from what Fidelis said, because it is true and we would say it the same way: do not go searching your own interior weather for proof of whether you are among the elect. They say it as \"whose hand you stood under, and whether that hand could be trusted.\" We say it as \"look at Christ, where election is actually shown, not at your own heart, where it never was\". Different language, same direction: away from the self, toward the promise held outside the self. So if what presses on you is not only silence but the fear that the silence means you have been passed over, hear this from both of us: that is not the test. The test was never what you felt. It was what was promised, and whether you can look at the promise and receive it, believing.",
+            "citations_full": [
+              {
+                "sentence": "We refused that kind of remembering from our first founding statement onward, and our own record shows the refusal worked.",
+                "record_ids": [
+                  "rzg.limit.hagiography-refused"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.limit.hagiography-refused",
+                    "record_type": "honest_limit",
+                    "label": "Are you looking for a saint's life, or a martyr's cult, or a legend polished into devotio…",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                        "author": "Huldrych Zwingli",
+                        "work": "The Sixty-Seven Articles (1523)",
+                        "locus": "Article XVIII's own wider polemic, this world's own founding refusal of image veneration and cultic memory",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "glosses": [],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 11.4
+        },
+        {
+          "round_no": 2,
+          "position": 3,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 2,
+            "position": 3,
+            "world_key": "don",
+            "reason": "only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+            "degraded": false,
+            "engages": "rzg"
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "don",
+            "chars": 1035,
+            "words": 199,
+            "citations": 2,
+            "cited_record_ids": [
+              "don.dw.hypocrites-and-those-who-left"
+            ],
+            "sentences_checked": 10,
+            "sentences_withheld": 4,
+            "withhold_reasons": [
+              "specific claim (proper-noun:['theophilus']) with no citation tag",
+              "specific claim (figure-name:['christ']) with no citation tag",
+              "specific claim (number) with no citation tag",
+              "specific claim (figure-name:['christ']) with no citation tag"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "What I would want you to carry from what Theophilus has just said is the direction he names at the end: away from the self, toward the promise held outside the self."
+              },
+              {
+                "family": "pronoun",
+                "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+                "sentence": "And I would want you to hear this too, because he has named it plainly and we hold it with him: do not make the praying conditional on whether it feels like it is working."
+              }
+            ],
+            "text": "What I would want you to carry from what Theophilus has just said is the direction he names at the end: away from the self, toward the promise held outside the self. That is his own wording, and it is right, and we say the same motion in different words. He says: look at Christ, where election is shown, not at your own heart, where it never was. We say: what we looked to was the conscience of the giver, to cleanse that of the recipient - the hand standing in the water with you, not your own record. Two tests that point the same way: outside yourself, to what can actually be trusted.\n\nAnd I would want you to hear this too, because he has named it plainly and we hold it with him: do not make the praying conditional on whether it feels like it is working. He prays the words Christ gave. We stood at the grave and read the account again. Neither act waits on the silence lifting first. That refusal - to let the silence decide whether the act still matters - is what we share, even though the acts themselves look nothing alike.",
+            "citations_full": [
+              {
+                "sentence": "That is his own wording, and it is right, and we say the same motion in different words.",
+                "record_ids": [
+                  "don.dw.hypocrites-and-those-who-left"
+                ],
+                "sources": [
+                  {
+                    "record_id": "don.dw.hypocrites-and-those-who-left",
+                    "record_type": "doctrinal_witness",
+                    "label": "Did that happen among us? It is in the court record",
+                    "sources": [
+                      {
+                        "source_id": "don.source.optatus-appendix-of-documents",
+                        "author": "Various -- Roman court officials, conciliar scribes, and the emperor Constantine; assembled and transmitted as Optatus of Milevis's own appendix",
+                        "work": "Appendix of Documents (the anti-Donatist dossier): Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                        "locus": "the Gesta apud Zenophilum - our own bishops' letters urging that a true accusation be kept quiet",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.lucilla-and-the-second-unnamed-woman",
+                        "author": "No independent author -- Lucilla of Carthage and a second, unnamed woman, attested only inside Optatus's and Augustine's own narratives",
+                        "work": "The Lucilla material: Optatus, Against the Donatists I.16 ('The quarrel of Lucilla against Caecilian'); and the parallel, unnamed woman behind the Maximianist council against Primian, Augustine, Letter XLIII SS26 (a.d. 397)",
+                        "locus": "Optatus I.16 on Lucilla; Augustine Letter XLIII SS26 on the unnamed woman behind the Maximianist council",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.augustine-contra-epistulam-parmeniani",
+                        "author": "Augustine of Hippo",
+                        "work": "Contra epistulam Parmeniani, 3 books (c. 400)",
+                        "locus": "I.1 - the one man among us who would not stop, and was cut off without going over",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-isaac-et-maximiani",
+                        "author": "Macrobius, Donatist bishop (described in the same volume as the Donatists' own hidden bishop in the city of Rome)",
+                        "work": "Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter to the congregation of Carthage on the passion of the martyrs Isaac and Maximianus",
+                        "locus": "two of a congregation flogged to death, their bodies sunk, and the letter written to the people left behind",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-donati-sermon",
+                        "author": "Anonymous Donatist preacher; Monceaux proposes Carthage's own Donatist bishop, possibly Donatus the Great, as an eyewitness -- proposed, not adopted",
+                        "work": "Anonymous Donatist sermon, manuscript title De passione sanctorum Donati et Advocati, known under its standard scholarly name as the Passio Donati",
+                        "locus": "people clubbed at prayer inside their own basilica, and buried where they fell",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "We say: what we looked to was the conscience of the giver, to cleanse that of the recipient - the hand standing in the water with you, not your own record.",
+                "record_ids": [
+                  "don.dw.hypocrites-and-those-who-left"
+                ],
+                "sources": [
+                  {
+                    "record_id": "don.dw.hypocrites-and-those-who-left",
+                    "record_type": "doctrinal_witness",
+                    "label": "Did that happen among us? It is in the court record",
+                    "sources": [
+                      {
+                        "source_id": "don.source.optatus-appendix-of-documents",
+                        "author": "Various -- Roman court officials, conciliar scribes, and the emperor Constantine; assembled and transmitted as Optatus of Milevis's own appendix",
+                        "work": "Appendix of Documents (the anti-Donatist dossier): Acta Purgationis Felicis (314), Gesta apud Zenophilum (320), Constantine's letters, the Council of Arles' 314 letter to Silvester, Acts of the Council of Cirta (305, date disputed), Anulinus's relatio (313)",
+                        "locus": "the Gesta apud Zenophilum - our own bishops' letters urging that a true accusation be kept quiet",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.lucilla-and-the-second-unnamed-woman",
+                        "author": "No independent author -- Lucilla of Carthage and a second, unnamed woman, attested only inside Optatus's and Augustine's own narratives",
+                        "work": "The Lucilla material: Optatus, Against the Donatists I.16 ('The quarrel of Lucilla against Caecilian'); and the parallel, unnamed woman behind the Maximianist council against Primian, Augustine, Letter XLIII SS26 (a.d. 397)",
+                        "locus": "Optatus I.16 on Lucilla; Augustine Letter XLIII SS26 on the unnamed woman behind the Maximianist council",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.augustine-contra-epistulam-parmeniani",
+                        "author": "Augustine of Hippo",
+                        "work": "Contra epistulam Parmeniani, 3 books (c. 400)",
+                        "locus": "I.1 - the one man among us who would not stop, and was cut off without going over",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-isaac-et-maximiani",
+                        "author": "Macrobius, Donatist bishop (described in the same volume as the Donatists' own hidden bishop in the city of Rome)",
+                        "work": "Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter to the congregation of Carthage on the passion of the martyrs Isaac and Maximianus",
+                        "locus": "two of a congregation flogged to death, their bodies sunk, and the letter written to the people left behind",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      },
+                      {
+                        "source_id": "don.source.passio-donati-sermon",
+                        "author": "Anonymous Donatist preacher; Monceaux proposes Carthage's own Donatist bishop, possibly Donatus the Great, as an eyewitness -- proposed, not adopted",
+                        "work": "Anonymous Donatist sermon, manuscript title De passione sanctorum Donati et Advocati, known under its standard scholarly name as the Passio Donati",
+                        "locus": "people clubbed at prayer inside their own basilica, and buried where they fell",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by this compilation pass."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "glosses": [],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 7.6
+        },
+        {
+          "round_no": 2,
+          "position": null,
+          "round_open": false,
+          "routing_action": "voice_with_directive",
+          "turn_selected": null,
+          "facilitator_kinds": [],
+          "latency_s": 2.7
+        }
+      ],
+      "committed_turn_no": 2
+    }
+  ],
+  "dominance_word_share": {
+    "don": 0.38,
+    "rzg": 0.62
+  },
+  "usage_token_counts": {
+    "reader_call:-": {
+      "calls": 2,
+      "input_tokens": 3153,
+      "output_tokens": 324,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "safety_call:-": {
+      "calls": 2,
+      "input_tokens": 3605,
+      "output_tokens": 224,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "turn_selector:-": {
+      "calls": 2,
+      "input_tokens": 7664,
+      "output_tokens": 398,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "turn_selector:don": {
+      "calls": 1,
+      "input_tokens": 3235,
+      "output_tokens": 156,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "turn_selector:rzg": {
+      "calls": 1,
+      "input_tokens": 1602,
+      "output_tokens": 131,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "voice_generation:don": {
+      "calls": 3,
+      "input_tokens": 9097,
+      "output_tokens": 1136,
+      "cache_read_input_tokens": 73766,
+      "cache_creation_input_tokens": 36883
+    },
+    "voice_generation:rzg": {
+      "calls": 3,
+      "input_tokens": 6739,
+      "output_tokens": 1715,
+      "cache_read_input_tokens": 25378,
+      "cache_creation_input_tokens": 12689
+    }
+  },
+  "isolation_violations": [],
+  "note": "token counts only - no $ figure until reconciled against an AWS invoice (spec principle 13)"
+}

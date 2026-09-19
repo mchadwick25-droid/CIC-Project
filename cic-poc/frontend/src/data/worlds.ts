@@ -25,11 +25,11 @@ export interface WorldAssets {
 // registry's own file order (which interleaves desert and pahc
 // differently). A world_key GET /api/worlds returns that isn't listed here
 // has no known assets yet and is left off the list rather than shown
-// without a portrait. Nine formation worlds as of 2026-09-16 (don added
-// once Mark flipped it open and its own Representative portrait, Fidelis
-// - approved 2026-09-10, sitting unshipped in Brand-Assets since - was
-// finally wired to the two live-serving asset locations).
-export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic', 'don'];
+// without a portrait. Ten formation worlds as of 2026-09-18 (rzg added
+// once its own package was admitted and its Representative portrait,
+// Theophilus - approved 2026-09-18 - was wired to the two live-serving
+// asset locations).
+export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic', 'don', 'rzg'];
 
 // 2026-09-17 dark-mode change order: every accentColor below was lightened
 // from its original Stage 7.5 light-mode hex (kept in each comment for
@@ -71,6 +71,21 @@ export const WORLD_ASSETS: Record<string, WorldAssets> = {
   // light-mode value, L raised to 61.8% - the first point clearing both thresholds (>=5.3:1 vs
   // the dark ground, >=5.07:1 vs --color-surface #1E1913 as dark text on top of it as a fill).
   don: { portraitImage: '/images/portraits/donatism.png', accentColor: '#CD6F6F' },
+  // Tenth world, admitted 2026-09-18. No light-mode legacy value - added after the
+  // 2026-09-17 dark-mode-only migration, so computed directly for the dark ground.
+  // Hue/saturation grounded in this world's own repeated austerity/subtraction theme
+  // (the silenced Zurich organ, the plain black gown, worship built around subtraction
+  // rather than ornament - Doc_07 SS5's "subtraction, not addition" formation logic) -
+  // a restrained, cool charcoal-slate (H=240deg), deliberately the fleet's lowest
+  // saturation (12%, below gallic's own 14.9%, the next-quietest) while still reading
+  // as a distinct accent rather than plain grey. Script-computed: L=58.1% is the first
+  // point clearing >=5.0:1 against BOTH the dark ground (5.31:1) and --color-surface as
+  // dark text laid on top of it as a fill (5.01:1) simultaneously - matching don's own
+  // >=5.3:1/>=5.0:1 margin pattern. Checked against every value above and the two
+  // reserved semantic tokens (--color-tyrian #6B3FA0, --color-participant/"lapis"
+  // #1E40AF) for hue distance; nearest neighbor is lapis at 14.1deg, low collision risk
+  // given the near-fourfold saturation gap between them.
+  rzg: { portraitImage: '/images/portraits/theophilus.jpg', accentColor: '#8787A1' },
 };
 
 export interface WorldStarter {

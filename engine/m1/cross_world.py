@@ -101,6 +101,26 @@ ACCEPTED_OPEN: dict[str, str] = {
     # not-yet-open gap between don's admission and Mark's explicit "Flip
     # don to open"; closed the same day once `python -m engine.m6.cli
     # sync` actually ran against the open state. Not left stale.
+    #
+    # figure-dates-keys/{alx,desert,hal,ijc,syr}: NOT a new defect in any
+    # of these five worlds' own content - a pure side effect of rzg's own
+    # admission as the fleet's 10th formation world, found by this world's
+    # own go-live test battery, 2026-09-18. check_figure_dates_keys()'s own
+    # threshold is a STRICT majority (more than half of all worlds), not
+    # "the most common key" - with 9 formation worlds, 'born' at 5/9 cleared
+    # it; with rzg's own addition (which uses died/floruit only, no birth
+    # dates independently verified this pass) the fleet is now 10 worlds,
+    # and 5/10 no longer clears strict-majority (5 is not > 5). The same
+    # five worlds' own figure.dates content is unchanged; only the fleet-
+    # size denominator moved. Belongs to whichever world's own build thread
+    # eventually revisits figure.dates fleet-wide, not a rewrite improvised
+    # here - the same "disclosed, not silently fixed" disposition every
+    # other figure-dates-keys entry above already uses.
+    "figure-dates-keys/alx": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
+    "figure-dates-keys/desert": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
+    "figure-dates-keys/hal": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
+    "figure-dates-keys/ijc": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
+    "figure-dates-keys/syr": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
 }
 
 

@@ -1,0 +1,3070 @@
+     __________________________________________________________________
+
+           Title: The Second Helvetic Confession (A.D. 1566) and The
+                  Heidelberg Catechism (A.D. 1563) - extracted from The
+                  Creeds of Christendom, with a History and Critical
+                  Notes, Vol. III: The Evangelical Protestant Creeds,
+                  with Translations
+      Creator(s): Heinrich Bullinger (Second Helvetic Confession, 1566)
+                  Zacharias Ursinus and Caspar Olevianus (Heidelberg
+                  Catechism, 1563)
+                  Philip Schaff (Editor/compiler of the volume this is
+                  extracted from)
+     Print Basis: New York: Harper & Brothers, 1919 printing (orig. 1877)
+          Rights: Public Domain
+Source Collection: Internet Archive, archive.org identifier
+                  creedschristend07schagoog, "possible-copyright-status":
+                  "NOT_IN_COPYRIGHT" per the item's own metadata API.
+                  Fetched directly (curl, raw bytes, the full volume's
+                  _djvu.txt), then mechanically extracted to these two
+                  sections only - Sec. 55 (pp. 390-421 of the original)
+                  and Sec. 69 (pp. 529-554 of the original) - rather than
+                  vendoring the full ~475,000-word multi-creed reference
+                  volume, whose other contents (the Augsburg Confession,
+                  the Belgic Confession, the Thirty-Nine Articles, the
+                  Westminster Standards, and others) are not assigned to
+                  any world by this pass. No wording touched beyond that
+                  extraction boundary.
+    Rights basis: 1919 publication date places this well out of US
+                  copyright (107 years before this session, 2026);
+                  independently confirmed by archive.org's own
+                  copyright-status field.
+   Content note: A PARTIAL EXTRACT, not the full source volume. Each of
+                  the two sections below opens with Schaff's own running
+                  section header ("§ 55. The Second Helvetic Confession"
+                  / "§ 69. The Heidelberg Catechism") exactly as OCR'd,
+                  including his own introductory literature/history notes
+                  before each confessional text proper.
+   OCR quality: Raw, uncorrected djvu OCR of a Google Books scan (same
+                  volume, same OCR-noise profile as this corpus's other
+                  Google-Books-sourced volumes). Runs of 2+ spaces
+                  collapsed to one throughout; no wording changed.
+     __________________________________________________________________
+
+390 THE CREEDS OF CHRISTENDOM. 
+
+
+§ 55. The Second Helvetic Confession. A.D. 1566. 
+
+Literature, 
+
+6on#b88i6 Hklvrtioa. Pobtriob. The Latin text, Zurich, 1666, 1568, 1608, 1661, etc : recent edition 
+by J. P. Kindler, wkh Preface of Winer, 8nlzbach, 1835; by Fritssche, Tarici, 1839; and by Ed. Bold, 
+Vienna, 1866 : also in the Collection* of Corpus et SyrUag. Confess., Oxford SyUoge, Augusti, and Niemepsr. 
+The German text appeared frequently— Za rich, 1566; Basle, 1654 ; Berne, 1676, etc, and in the Collections of 
+Deck, Me**, and Bckel. French ed. Geueva, 1566, etc English translations in Hall's Harmony a/ Protest- 
+ant Confessions (not complete); another by Owkn Jones: The Church of the Living God; ojso the Svim 
+and Belgian Confessions and Expositions of the Faith, translated into the English language in 1861 London 
+(Caryl Book Society), 1365 (complete, but inaccurate), and a third by Prot Jekem. U. Good (of Tiffin, O.) in 
+Bomberger's Reformed Church Monthly (Ursf nns College, Pa.), for Sept 1878, to Dec 1878 (good, but made 
+from the German translation). 
+
+Job. J ak. Hottiwgkr : Helvetische Kirchengesehichte, Zurich, 17(18, Part III. pp. 8M sqq. 
+
+Haobmbaoh : Kritische Qeschichte der Entstehung und Sehieksale der ersten Easier Confession. Basel, 
+1827 (1898), pp. 86 sqq. 
+
+Nibmkykb: Collect, Prolegomena, pp. lxili.-lxvili. 
+
+L. Thomas : La Confession Helvitique, itudes historico-dogmatiques sur Is xvi*. siecle. Geneve, ISO. 
+
+K. Stronorv: Art. Heloettsche Confession, in Herzog's TheoL BncyHop. 2d ed. Vol V. pp. 749-756. 
+
+Caki. Pbstalozzi : Heinrieh Bullinger. Leben und ausgewdhlte Schriftenl Nach handschrlftikhen und 
+gleichzettigen Quellen. Elberfeld, 1858 (5th Part of Vdter und Begrunder der reform. Kirche), pp. 413-4SL 
+
+Before we proceed to the Calvinistic Confessions, we anticipate the 
+Second Helvetic Confession, the last and the best of the Zwinglian 
+family. 
+
+BULLINGER. 
+
+It is the work of Henry Bullinger (1504^1575), the pupil, friend, 
+and successor of Zwingli, to whom he stands related as Beza does 
+to Calvin. He was a learned, pious, wise, and faithful man, and the 
+central figure in the second period of the Reformation in German 
+Switzerland. Born at Bremgarten, in Aargau,1 educated in Holland 
+and Cologne, where he studied patristic and scholastic theology, and 
+read with great interest the writings of Luther and the Loci of Me- 
+lanchthon, he became on his return intimately acquainted with Zwin- 
+gli, accompanied him to the Conference at Berne (1528), and after 
+laboring for some years at Cappel and Bremgarten, he was chosen 
+his successor as chief pastor (Antistes) at Zurich, Dec. 9, 1531. This 
+
+von unserer Confession verschiedene Redensarten brauchte. Denn auf die Sache seibst mo* 
+die Wahrheit, nicht auf die Worte soil man sehen. Wir stellen also jedem fres\ diejenige* 
+Redensarten za gebrauchen, welche erfur seine Kirche am passendsten glaubt, und werden a» 
+auch deiyleichen Freiheit bedienen, gegen Verdrehung des wahren Sinnes dieser Confession ** 
+aber zu vertheidigen urissen. Dieser AnsdrUcke haben wir unsjetzt bedient, urn unsere Ueber* 
+zeugung darzustellen.' Pestalozzi, p. 186, gives the same declaration more fully. 
+
+1 He was one of five sons of Dean Bullinger, who, like many priests of those days, in open 
+violation of the laws of celibacy, lived in regular wedlock, but was much respected and be- 
+loved even by his bishop of Constance. He opposed Samson's traffic in indulgences, and 
+became afterwards a Protestant through the influence of his son. 
+
+
+r 
+
+
+\ 
+
+
+§ 55. THE SECOND HELVETIC CONFESSION, 1566. 391 
+
+was shortly after the catastrophe at Cappel, in the darkest period oi 
+the Swiss Reformation. 
+
+Bullinger proved to be the right man in the right place. He 
+raised the desponding spirits, preserved and completed the work of 
+his predecessor, and exerted, by his example and writings, a com- 
+manding influence throughout the Reformed Church inferior only 
+to that of Calvin. He was in friendly correspondence with Calvin, 
+Bucer, Melanchthon, Laski, Beza, Cranmer, Hooper,1 Lady Jane Grey,2 
+and the leading Protestant divines and dignitaries of England. Some 
+of them had found an hospitable refuge in his house and with his 
+friends during the bloody reign of Mary (1553-58), and after their 
+return, when raised to bishoprics and other positions of influence 
+under Queen Elizabeth, they asked his counsel, and kept him informed 
+about the progress of reform in their country. This correspondence 
+is an interesting testimony not only to his personal worth, but also to, 
+the fraternal communion which then existed between the Anglican 
+and the Swiss Reformed Churches.3 Episcopacy was then not yet 
+
+1 Bishop Hooper wrote from prison shortly before his martyrdom, May and December, 
+1554, to Bullinger, as 'his revered father and guide,' and the best friend he had ever found, and 
+commended to him his wife and two children (Pestalozzi, 1: c. p. 445). 
+
+* Three letters of this singularly accomplished and pious lady, .the great-granddaughter of 
+Henry VII. , to Bollinger, full of affection and gratitude, are still preserved as jewels in the 
+City Library of Zurich, but his letters to her are lost. She translated a part of his book on 
+Christian marriage into Greek, and asked his advice about learning Hebrew. Edward VI., 
+against the will of Henry VIII., bequeathed his crown to Lady Jane Grey to save the Prot- 
+estant religion, and this led to her execution at the Tower of London, Feb. 1 2, 1554, by order 
+of Queen Mary. She met her fate with the spirit of a martyr, and sent, as a last token of 
+friendship, her gloves to Bullinger, which were long preserved in his family (Pestalozzi, 1. c. 
+p. 445). 
+
+1 See the Zurich Letters, published by 'The Parker Society/ Cambridge, second edition 
+(chronologically arranged in one series), 1846. They contain, mostly from the archives of 
+Zurich (the Simmler Collection), Geneva, and Berne, letters of Bishops John Jewel, John 
+Parkhurst, Edmund Grindal, Edwin Sandys, Horn, John Foxe, Sir A. Cook, and others to 
+Bollinger, as alsotoGualter(Zwingli's son-in-law), Peter Martyr, Simmler, Lavater, Calvin, and 
+Beza, The news of Bullinger's death was received iir%ngland with great grief. W. Barlow 
+wrote to J. Simmler (Bullinger's son-in-law), March 13, 1576 (p. 494): 'How great a loss your 
+Church has sustained by the death of the elder Bullinger, of most happy memory, yea, and 
+our Church also, towards which I have heard that he always entertained a truly fraternal and 
+affectionate regard, and indeed all the Churches of Christ throughout Europe.' Bishop Cox 
+wrote to Gualter in the same year (p. 496): (My sorrow was excessive for the death of Henry 
+Bullinger, whom, by his letters and learned and pious writings, I had . . . known intimately for 
+many years, although he was never known personally to me. Who would not be made sor- 
+rowful by the loss of such and so great a man, and so excellent a friend ? not to mention that 
+the whole Christian Church is disquieted with exceeding regret that so bright a star is for- 
+bidden any longer to shine upon earth.' 
+
+Vol. L— C q 
+
+
+892 THE CREEDS OF CHRISTENDOM. 
+
+deemed die only valid form of the Christian ministry. He opened 
+his house also to Italian Protestants, and treated even the elder (Sozino, 
+who died at Zurich, with great kindness and liberality, endeavoring to 
+restrain his heretical tendency. In the latter years of his life he was 
+severely tried by the death of his best friends (Bibliander, Froechauer, 
+Peter Martyr, Pellican, Gessner, Blaarer, Calvin, Hyperius), and by a 
+fearful pestilence which deprived him of his beloved wife and three 
+daughters, and brought him to the brink of the grave. He bore all 
+with Christian resignation, recovered from disease, and continued 
+faithfully to labor for several years longer, until he was called to hiB 
+reward, after taking affectionate farewell of all the pastors and pro- 
+fessors of Zurich, thanking them for their devotion, assuring them of 
+his love, and giving each one of them the hand with his blessing. He 
+assumed the care of the Church of Zurich when it was in a dangerous 
+crisis; he left it firmly and safely established. 
+
+COMPOSITION. 
+
+Bnllinger was one of the principal authors of the First Helvetic 
+Confession, and the sole author of the Second. In the intervening 
+thirty years Calvin had developed his amazing energy, while Roman- 
+ism had forrriularized its dogmas in the Council of Trent. 
+
+Bullinger composed the Second Helvetic Confession in 1562, in 
+Latin, for his own use, as an abiding testimony of the faith in which 
+he had lived and in which he wished to die. He showed it to Peter 
+Martyr, who fully consented to it, shortly before his death (Nov. 12, 
+1562). Two years afterwards he elaborated it more fully during the 
+raging of the pestilence, and added it to his will, which was to be 
+delivered to the magistrate of Zurich after his death, which he then 
+expected every day.1 
+
+% 
+
+PUBLICATION. 
+
+But events in Germany gave it a public character. The pious 
+Elector of the Palatinate, Frederick III., being threatened by the Lu- 
+
+
+1 See Bullinger's notes to the list of his writings ; J. H. Hottinger, SckoJa IXgwrina, p. 76; 
+J. J. Simmler, Oratio  U hutoria Confeuionu Helvetica, in Simmler's Collection, as quoted 
+by Pestaloiti, 1. c. pp. 416 sq. and 641. Also J. J. Hottinger, Helvet. Kircktmguch Pt. Ill 
+p. 694. 
+
+
+r 
+
+
+§ 55. THE SECOND HELVETIC CONFESSION, 1566. 893 
+
+(herons with exclusion from the treaty of peace on account of his 
+secession to the Reformed Church and publication of the Heidelberg 
+Catechism (1563), requested Bullinger (1565) to prepare a clear and 
+full exposition of the Reformed faith, that he might answer the charges 
+of heresy and dissension so constantly brought against the same. Bul- 
+linger sent him a manuscript copy of his Confession. The Elector was 
+so mnch pleased with it that he desired to have it translated and published 
+in Latin and German before the meeting of the Imperial Diet, which was 
+to assemble at Augsburg in 1566, to act on his alleged apostasy. 
+
+In the mean time the Swiss felt the need of such a Confession as a 
+closer bond of union. The First Helvetic Confession was deemed too 
+short, and the Zurich Confession of 1545, the Zurich Consensus of 
+1549, and the Geneva Consensus of 1552 touched only the articles of 
+the Lord's Supper and predestination. Conferences were held, and 
+Beza came in person to Zurich to take part in the work. Bullinger 
+freely consented to a few changes, and prepared also the German ver- 
+sion. Geneva, Berne, Schaffhausen, Biel, the Grisons, St Gall, and 
+Mnhlhansen expressed their agreement. Basle alone, which had its 
+own Confession, declined for a long time, but ultimately acceded. 
+
+The new Confession appeared at Zurich, March 12, 1566, in both 
+languages, at public expense, and was forwarded to the Elector and to 
+Philip of Hesse.1 A French translation appeared soon afterwards in 
+Geneva under the care of Beza. 
+
+In the same month the Elector Frederick made such a manly and 
+noble defense of his faith before the Diet at Augsburg, that even his 
+Lutheran opponents were filled with admiration for his piety, and 
+thought no longer of impeaching him for heresy. 
+
+1 The full title is : * Confessio et Expositio timplex Orthodoxa Fidei, et Dogmatum Catho- 
+Scorum sgncera Religioms Christiana, Concorditer ah Ecclesia Christi Ministris, qui sunt 
+•a Helvetia, Tiguri, Bema [Glarona, Basilece], Scaphusii [Abbatiscella"], Sangalli, Curia 
+Bhetorum, et apud Confotderatos, Mylhusii item, et Bienna: quibus adjunxerunt se et Genevensis 
+[et NeocomensW] Ecclesia Ministri [una cum aliis EvangeUi Praconibus inPolonia, Hungaria, 
+it Scotia"] ; edita in hoe, ut universis testentur fidelibus, quod in unitate vera et antiqua 
+Christi Ecclesia perstent, neque ulla nova, out erronea dogmata spargant, atque ideo etiam 
+nihil consortii cum ullis Sectis out Haresibus habeant. Ad Rom. cap. X. vers. 10. Corde 
+crtdiiur adjmtitiam, ore autem con/essio Jit ad salutem. Tiguri: Exeudebat Christophorus 
+Fneehoverus, Mense Martio, MDLX VI. ' Giants, Basle, Appenzell, Neafchatel, Poland, Hun- 
+gary, and Scotland, which we have included in brackets, approved the Confession at n Inter 
+period, and hence are not mentioned in the first edition, bnt partly in the second edition of 
+1568, and more fully in those of 1644 and 1651. 
+
+
+394 THE CREEDS OF CHRISTENDOM. 
+
+AUTHOEITY. 
+
+The Helvetic Confession is the most widely adopted, and hence the 
+most authoritative of all the Continental Reformed symbols, with the 
+exception of the Heidelberg Catechism. Besides the Swiss Cantons 
+and the Palatinate, in whose name it was first issued, the Reformed 
+Churches of Neufchatel (1568), Basle, France (at the Synod of La 
+Rochelle, 1571), Hungary (at the Synod of Debreczin, 1567), Poland 
+(1571 and 1578), and Scotland (1566) l gave it their sanction. It was 
+well received also in Holland and England.9 
+
+It was translated not only into German, French, and English, bot 
+also into Dutch, Magyar, Polish, Italian, Arabic, and Turkish.3 
+
+CHABACTER AND VALUE. 
+
+Like most of the Confessions of the sixteenth century, the Helvetic 
+Confession is expanded beyond the limits of a popular creed into a 
+lengthy theological treatise. It is the matured fruit of the preceding 
+symbolical labors of Bullinger and the Swiss Churches. It is in sab- 
+stance a restatement of the First Helvetic Confession, in the same 
+order of topics, but with great improvements in matter and form. It 
+is scriptural and catholic, wise and judicious, full and elaborate, yet 
+simple and clear, uncompromising towards the errors of Rome, moder- 
+ate in its dissent from the Lutheran dogmas. It proceeds on the con- 
+
+
+I The ministers of Scotland wrote to Beza, September, 1566 : ' Subscripsimus otnnes, qui u 
+hoc cattu interfuimus, et hujus Academic sigillo publico obsignavimus.' This is stated after 
+the Preface in the edition of the Corpus et Syntagma, and in Niemeyer, p. 465, bat without 
+naming the coitus and Academia. 
+
+I I find no evidence of a formal sanction by the Anglican Church ; bat that the Confession 
+was well received there may be inferred from the high esteem in which Bullinger was held 
+(see p. 391), and still more from the fact that his Decades (a popular compend of theology in 
+five series of sermons, each containing ten sermons) were, next to Calvin's Institutes, the high- 
+est theological authority in England, and were recommended, as late as 1586, to the study of 
+young curates along with the Bible. See Ch. Hardwick : A History of the Christian Church 
+during the Reformation (third edition, London, 1873, p. 241), where the following order of the 
+Southern Convocation is quoted from Wilkins, IV. 321 : 'Every minister having cure, and 
+being under the degrees of master of arts and bachelor of law, and not licensed to be a public 
+preacher, shall, before the second day of February next, provide a Bible, and BuJ lingers De- 
+cades in Latin and English, and a paper book/ etc. On Bollinger's Decades* and his abridg- 
+ment of the same in the Handbook of the Christian Religion (lofAi), see Pestaloni, pp. 3*6, 
+4611, 505 sqq. 
+
+* See Niemeyer, Proleg. p. lxvii. sq. 
+
+
+r 
+
+
+§ 55. THE SECOND HELVETIC CONFESSION, 1566. 395 
+
+viction that the Keformed faith is in harmony with the true Catholic 
+faith of all ages, especially the ancient Greek and Latin Church. 
+
+Hence it is preceded by the Imperial edict of 380 (from the 
+recognized Justinian code), which draws the line between orthodoxy 
+and heresy, and excludes as heresies only the departures from the 
+Apostolic and Nicene faith. It inserts also the brief Trinitarian creed 
+ascribed to the Roman Pope Damasns (from the writings of Jerome), 
+and referred to in said decree as a standard of orthodoxy.1 Harmony 
+in the fundamental doctrines of the ancient Church is declared suffi- 
+cient, and brotherly union consistent with variety in unessential, such 
+as in fact always has existed in the Christian Church. As in former 
+Confessions, so also in this, Bollinger distinctly recognizes, in the spirit 
+of Christian liberty and progress, the constant growth in the knowl- 
+edge of the Word of God, and the consequent right of improvement 
+in symbolical statements of the Christian faith. 
+
+Upon the whole, the Second Helvetic Confession, as to theological 
+merit, occupies the first rank among the Reformed Confessions, while 
+in practical usef nlness it is surpassed by the Heidelberg and Westmin- 
+ster Shorter Catechisms, and in logical clearness and precision by the 
+Westminster Confession, which is the product of a later age, and of the 
+combined learning and wisdom of English and Scotch Calvinism.2 
+
+1 Several creeds bear the name of Damasns, and are given by Hahn, Bibliothek der Sum- 
+bole, pp. 179-190. The form inserted in the Confession is from a letter to Jerome (Opera, 
+ed. Vallarsi, Tom. XI. p. 145), and is thus referred to in the Imperial edict : ( Cunctos populos 
+... in ea vohtmus religione versari quam divinum Petrum Apostolum tradiditse Rotnanis . . . 
+(pumqrte Pontificem Damasum sequi claret, et Petrum Alexandria Episcopum, virum Apo- 
+stolica sanjctitatis.' 
+
+* I add some testimonies on the Second Helvetic Confession. Hagenbach (1. c. p. 86) : */n 
+ikrer ganzen Anlaye und in der DurchfUhrung einzelner Punkte, namentlich in pralctischer 
+Beziehung (in der Scheidung dee Geistlichen und Weltlichen, «. *. w.) ist sie ein wahres dogma- 
+tischesKunstwerk zu nennen. * Pestalozzi (Bullinger, p. 422) : 'Diese Confession, zu der Bullinger 
+tweiMal Angesichts dee Todes sich bekannte, ersc.heint als das reife Ergebniss seines Glaubens- 
+kbens, seiner reichen inneren und Susseren Erfahrung, als der Inbegriff seiner theologiscken 
+Ueberzeugung trie seiner Icirchtichen Grundsatze, als die Schte, wahrhafte Entwicklung und 
+Fortbildung seiner frUher en Bekenntnisse, zumal der ersten helvetischen Confession (von 1 586). 
+Sie ist ein Muster von Klarheit und Einfachheit, trie selbst hervorragende Gegner anerkennen, 
+ongezeichnet durch den Ueberblick, der das Ganze der christlichen Lehre umfasst, der vUltige 
+Ausdruck von Bullingers Gesinnung, scharf ausgepragt gegenUber den Vervrrungen des rdmisch^ 
+iatholischen Kirchenthums, milde in Bezug auf die lutherischen Besonderheiten, ohne dock der 
+*ge*en Ueberzeugung irgend Eintrag zu thun. Was aber vornehmlich beachtenswertk, sie ist 
+dsrchaus getragen von dem vollen, klaren und ruhigen Beumsstsein, das mit so durchgreifender 
+KrafHgkeit Bullinger beseelte, der dckten apostolischen und katholischen Kirche anzugehSren, der 
+vakrhaft berechtigten und rechtgldubigen Kirche Christi. Sie ist fern davon, bloss mit der 
+
+
+396 THE CREEDS OF CHRISTENDOM. 
+
+CONTENTS. 
+
+In view of the importance of this Confession, I give here a con- 
+doused translation of the original.1 It consists of thirty chapters, 
+which cover in natural order all the articles of faith and discipline 
+which then challenged the attention of the Church. 
+
+Chap. I. Tab Holy Soripttjbes. — This chapter lays down the evan- 
+gelical rule of faith, or the objective principle of Protestantism. 
+
+We believe and confess that the Canonical Scriptures of the Old 
+and New Testaments are the true Word of God, and have sufficient 
+authority in and of themselves, and not from men ; since God himself 
+through them still speaks to us, as he did to the Fathers, the Prophets, 
+and Apostles. They contain all that is necessary to a saving faith and 
+a holy life ; and hence nothing should be added to or taken from them 
+(Deutiv. 2; Rev. xxii. 18, 19). 
+
+From the Scriptures must be derived all true wisdom and piety, and 
+also the reformation and government of the Churches, the proof of 
+doctrines, and the refutation of errors (2 Tim. iii. 16, 17; 1 Tim. iii. 15; 
+1 These, ii. 13; Matt x. 20). God may illuminate men directly by 
+the Holy Spirit, without the external ministry ; yet he has chosen the 
+Scriptures and the preaching of the Word as the usual method of in- 
+struction. 
+
+The apocryphal books of the Old Testament, though they may be read 
+for edification, are not to be used as an authority in matters of faith.1 
+
+Bibel in der Hand alles das z% verwerfen, was nicht ausdrUckUch in der heiUgen Schrift 
+gelehrt und geboten tit, wiewohl ihr diese von hdchster Geltung istt als oberste Bichtschnmr der 
+ehrtitlichen Wahrheit. Sie bricht nicht mit dem gescAickilich Gewordenen (der UeberUtfh 
+rung)% ausser sofern dieses der Schrift nicht gemots tit. Die game Entwicklung der ehrtit- 
+lichen Kirche seit den Tagen der A post el bis an/ die Gegenwart tit ihr von hohem Wertht end 
+findet ihre ernste Berkcksichtigung, nur doss sie sich nach der oBersten Norm mum riehtss 
+lassen. lnsofem steht sie mit ihrer evangelisehen Schwesterkirche luthertichen Bekenmtntisu 
+gam an/ demselben Boden und kann ihr stets die Hand reichen zw Anmanenmg, mdglicher 
+Wetie ouch xu einer Mnigungf wenn gleich die Auffassung der chrtitHchen Wahrheit nock 
+gewissen Richtungen hin sich unterscheiden und deshalb die Entscheidung Uber diets oderjsmt 
+einxelnen Lehr/mnkte und Gebrduche verschieden aus fallen mag,' Dr. Hodge (Syst. ThsoL 
+Vol. III. p. 684) : 'The Second Helvetic Confession is, on some accounts, to be regarded if 
+the most authoritative symbol of the Reformed Church, as it was more generally received thin 
+any other, and was sanctioned by different parties.' 
+
+1 The full Latin text will be found in Vol. III. 
+
+* This is the first symbolical ix lusion of the Apocrypha from the Canon. The ] 
+symbols leave this question open. 
+
+
+J 
+
+
+F 
+
+
+i 55. THE' SECOND HELVETIC CONFESSION, 1566. 397 
+
+We condemn the doctrines of the Gnostics and Manichseans, and all 
+others who reject the Scriptures in whole or in part 
+
+Chap. IL The Interpretation of the Scriptures ; the Fathers, 
+Councils, and Traditions. — We acknowledge only that interpretation 
+as true and correct which is fairly derived from the spirit and lan- 
+guage of the Scriptures themselves, in accordance with the circum- 
+stances, and in harmony with other and plainer passages (2 Pet i. 
+80, 21). 
+
+We do not despise the interpretation of the Greek and Latin fathers 
+and the teaching of Councils, but subordinate them to the Scriptures; 
+honoring them as far as they agree with the Scriptures, and modestly 
+dissenting from them when they go beyond or against the Scriptures. 
+In matters of faith we can not admit any other judge than God him- 
+self, who through his Word tells us what is true and what is false, 
+what is to be followed, and what is to be avoided. 
+
+We reject traditions which contradict the Scriptures, though they 
+may claim to be apostolical. For the Apostles and their disciples 
+could not teach one thing by writing, and another by word of mouth. 
+St Paul preached the same doctrine to all the churches (1 Cor. iv. 17 ; 
+2 Cor. i. 13 ; xii. 18). The Jews likewise had their traditions of the 
+elders, but they were refuted by our Lord as ' making void the Word 
+of God ' (Matt xv. 8, 9 ; Mark vii. 6, 7). 
+
+Chap. IIL Of God, his Unity and Trinity. — We believe and teach 
+that God is one in essence (Dent. vi. 4 ; Exod. xx. 2, 3, etc.), and three 
+in persons — Father, Son, and Holy Ghost. The Father hath begotten 
+the Son from eternity ; the Son is begotten in an unspeakable man- 
+ner; the Holy Ghost eternally proceeds from both, and is to be wor- 
+shiped with both as one God. There are not three Gods, but three 
+persons — consubstantial, coeternal, distinct as to person and order, yet 
+without any inequality. The divine essence or nature is the same in 
+the Father, the Son, and the Spirit (Luke i. 35 ; Matt iii. 17 ; xxviii. 
+19; John L 32; xiv. 26; xv. 26). 
+
+In short, we accept the Apostles' Creed, which delivers to us the 
+trne faith. 
+
+We therefore condemn the Jews and Mohammedans, and all who 
+blaspheme this holy and adorable Trinity. . We also condemn all here- 
+tics, who deny the Deity of Christ and the Holy Ghost 
+
+
+398 THE CREEDS OF CHRISTENDOM. 
+
+Chap. IV. Of Idols, Images of God and of Saints. — As God is a 
+spirit, he can not be represented by any image (John iv. 24; Isa.xi. 
+18 ; xliv. 9, 10 ; Jer. xvi. 19 ; Acts xvii. 29, etc.). 
+
+And although Christ assumed man's nature, yet he did so not in 
+order to afford a model for sculptors and painters. He instituted for 
+the instruction of the people the preaching of the Gospel, and the 
+sacraments, but not images. Epiphanius tore down an image of Christ 
+and some saint in a church, because he regarded it contrary to the 
+Scriptures. 
+
+Chap. V. The Adoration and Invocation of God through the 
+only Mediator Jesus Christ. — God is the only object of worship 
+(Matt. iv. 10). And he is to be worshiped 'in spirit and in truth' 
+(John iv. 24), and through our only and sufficient Mediator and Advo- 
+cate Jesus Christ (1 Tim. ii. 5 ; 1 John ii. 1). 
+
+Hence we neither adore nor invoke the departed saints, and give 
+no one else the glory that belongs to God alone (Isa. xlii. 8 ; Acts 
+iv. 12). 
+
+Nevertheless, we neither despise nor undervalue the saints, but honor 
+them as the members of Christ and the friends of God, who have glo- 
+riously overcome the flesh and the world ; we love them as brethren, 
+and hold them up as examples of faith and virtue, desiring to dwell 
+with them eternally in heaven, and to rejoice with them in Christ 
+
+Much less do we believe that the relics of saints should be worshiped. 
+Nor do we swear by saints, since it is forbidden to swear by the name 
+of strange gods (Exod. xxiii. 13 ; Dent. x. 20). 
+
+Chap. VI. The Providence of God. — We believe that the wise, 
+eternal, and almighty God by his providence preserves and rules all 
+things in heaven and earth (Psa. cxiii. 4-6 ; cxxxix. 3-4 ; Acts xvii. 
+28; Rom.xi.36). 
+
+We therefore condemn the Epicureans, who blasphemously affirm 
+that God neither sees nor cares for men (Psa. xciv. 3-9). 
+
+We do not despise as unnecessary the means whereby divine Provi- 
+dence works, but make nse of them as far as they are commended to 
+us in the Word of God. We disapprove of the rash words of those 
+who say that our efforts and endeavors are vain. 
+
+St. Paul well knew that he was sailing under the providence of God, 
+who had assured him that he must bear witness at Borne (Acts xxiii. 
+
+
+§ 55. THE SECOND HELVETIC CONFESSION, 1566. 399 
+
+11), and that not a soul should perish (xxvii. 21, 34) ; nevertheless, when 
+the sailors were seeking flight, he said to the centurion and the soldiers: 
+1 Unless these abide in the ship, ye can not be saved' (ver. 31). For 
+God has appointed the means by which we attain to the end.1 
+
+Chap. VII. Of the Creation of all Things; of Angels, the 
+Devil, and Man. — This good and almighty God created all things, 
+visible and invisible, by his eternal Word, and preserves them by his 
+coeternal Spirit (Psa. xxxiii. 6 ; John i. 3). He made all things very 
+good and for the use of man (Gen. i. 31). 
+
+We condemn the Manichceans who impiously imagine two coeternal 
+principles, the one good, the other evil, and two antagonistic gods. 
+
+Angels and men stand at the head of all creatures. Angels are 
+ministers of God (Psa. civ. 4), and ministering spirits sent for them who 
+shall be heirs of salvation (Heb. i. 14). 
+
+The devil was a murderer and liar from the beginning (John viii. 44). 
+
+Some angels persevered in obedience, and are ordained unto the 
+faithfnl service of God and men ; bnt others fell of their own accord 
+and ran into destruction, and have become enemies of God and men. 
+
+Man was made in the image and likeness of God, and placed by 
+God in paradise as ruler over the earth (Gen. i. 27, 28 ; ii. 8). This is 
+celebrated by David in the 8th Psalm. Moreover, God gave him a 
+wife and blessed them (Gen. ii. 22 sqq.). 
+
+Man consists of two diverse substances in one person — of an immortal 
+aonl, which, when separated from the body, neither sleeps nor dies, and 
+of a mortal body, which at the last judgment shall be raised again from 
+the dead. 
+
+Wc condemn those who deny the immortality, or affirm the sleep of 
+the soul, or teach that it is a part of God. 
+
+Chap. VIII. Of Man's Fall, Sin, and the Cause of Sin. — Man 
+was created according to the image of God, in true righteousness and 
+holiness, good and upright. But by the instigation of the serpent, and 
+
+1 Here we have a clear recognition of secondary causes in opposition to fatalism and de- 
+terminism which has sometimes been charged upon Calvinism. The Westminster Confession 
+(Chap. HI.) is still more explicit: 'God from all eternity did by the most wise and holy 
+counsel of his own will freely and unchangeably ordain whatsoever comes to pass ; yet so as 
+thereby neither is God the author of sin ; nor is violence offered to the will of the creatures, 
+** is the liberty or contingency of second causes taken away, but rather established (Acts ii. 
+23; iv. 27, 28; zvii. 23, 24, comp. with 86; Matt. zvii. 12 ; John six. 11 ; Prov. xvi. 33).' 
+
+
+400 THE CREEDS OF CHRISTENDOM. 
+
+through his own guilt, he fell from goodness and rectitude, and becamq 
+with all his offspring, subject to sin, death, and various calamities. 
+
+Sin is that inborn corruption of man, derived and propagated from 
+our first parents, whereby we are immersed in depraved lusts, averse to 
+goodness and prone to all evil, and unable of ourselves to do or think 
+any thing that is good. And as years roll on, we bring forth evil 
+thoughts, words, and deeds, as corrupt trees bring forth corrupt fruits 
+(Matt. xii. 33). Therefore we are all by nature under the wrath of 
+God, and subject to just punishment. 
+
+By death we understand not only the dissolution of the body, but 
+also the eternal punishments of sin (Eph. ii. 1, 5 ; Bom. v. 12). 
+
+We therefore acknowledge that there is original sin in all men, and 
+that all other sins, whether mortal or venial, also the unpardonable sin 
+against the Holy Ghost, spring from this same source. We acknowl- 
+edge also that sins are not equal, but some are more grievous than 
+others (Matt x. 14, 15 ; xi. 24 ; 1 John v. 16, 17). 
+
+We condemn the Pelagians, who deny original sin ; the Jovinianists, 
+who with the Stoics declare all sins to be equal ; and those who make 
+God the author of sin against the express teaching of Scriptures (Pas. 
+v. 5-7 ; John viii. 44). 
+
+When God is said to blind or harden men, or to give them over to a 
+reprobate mind (Exod. vii. 13 ; John xii. 40), it is to be understood as a 
+righteous judgment Moreover, God overrules the wickedness of men 
+for good, as he did in the case of the brethren of Joseph. 
+
+Chap. IX. Of Fbkk Will and Man's Ability. — The will and 
+moral ability of man must be viewed under a threefold 6tate. 
+
+First, before the fall, he had freedom to continue in goodness, or to 
+yield to temptation. 
+
+Secondly, after the fall, his understanding was darkened and his 
+will became a slave to sin (1 Cor. ii. 14; 2 Cor. iii. 5 ; John viii 34; 
+Bom. viii. 7). But he has not been turned into 'a stone or stock ;' nor 
+is his will (voluntas) a non-will (noluntas).1 He serves sin willingly, 
+not nnwillingly (servit peccato non nolens, sed volens). In external 
+
+1 Expressions used by Luther, Flacias, and the Formula of Concord. The Helvetic and 
+other Heformed Confessions are much more guarded on this point, and teach that msn, 
+though totally depraved, remains a moral and responsible being in the act of sinning. Me- 
+lanchthon, in his later period, came to the same view, but went beyond it into synergism- 
+Comp. above, pp. 262, 270. 
+
+
+§ 65. THE SECOND HELVETIC CONFESSION, 1566. 401 
+
+and worldly matters man retains his freedom even after the fall, under 
+the general providence of God. 
+
+Thirdly, in the regenerate state, man is free in the true and proper 
+sense of the term. His intellect is enlightened by the Holy Spirit to 
+understand the mysteries and the will of God ; and the will is changed 
+by the Spirit and endowed with the power freely to will and to do 
+what is good (Bom. viii. 5, 6 ; Jer. xxxi. 33 ; Ezek. xxxvi. 26 ; John viii. 
+36; Phil. i. 6, 29; ii. 13). 
+
+In regeneration and conversion men are not merely passive, bnt also 
+active. They are moved by the Spirit of God to do of themselves 
+what they do. But even in the regenerate there remains some infirm- 
+ity. The flesh strives agaipst the spirit to the end of life (Bom. vii. 
+14; Gal v. 17). 
+
+We condemn the Manichseans, who deny that evil originated in the 
+free will of man, and the Pelagians, who teach that fallen man has 
+sufficient freedom to keep God's commandments. The former are re- 
+futed by Gen. i. 27 ; Eccles. vii. 29 ; the latter by John viii. 36. 
+
+Chap. X. The Predestination of God and the Election of 
+Saihts. — God has from eternity predestinated or freely chosen, of his 
+mere grace, without any respect of men, the saints whom he will save 
+in Christ (Eph.i. 4 ; 2 Tim. i. 9, 10). 
+
+God elected us in Christ and for Christ's sake, so that those who are 
+already implanted in Christ by faith are chosen, but those out of Christ 
+are rejected (2 Cor. xiii. 5).1 
+
+Although God knows who are his, and a ' small number of the 
+elect' is spoken of, yet we ought to hope well of all, and not rashly 
+count any one among the reprobate (2 Tim. ii. 19 ; Matt xx. 16 ; Phil. 
+i3sqq.). ♦ . 
+
+We reject those who seek out of Christ whether they are chosen, and 
+what God has decreed concerning them from eternity. We are to 
+hear the gospel and believe it, and be sure that if we believe and are 
+i^ Christ, we are chosen. We must listen to' the Lord's invitation, 
+'Come unto me' (Matt. xi. 28), and believe in the unbounded love of 
+God, who gave his own Son for the salvation of the world, and will 
+
+1 ''Ergo turn sine medio, licet won propter uUum meritum nostrum, sed in Christo et propter 
+Christum not elegit Dew, ut qui jam sunt in Christo insiti per fidem, illi ipsi etiam sint ek*Hy 
+rtprobi vero, ovi sunt extra Christum,1 
+
+
+402 THE CREEDS OF CHRISTENDOM. 
+
+not that ' one of these little ones should perish' (John iiL 16 ; Matt 
+xviii. 14).1 
+
+Let, therefore, Christ be the mirror in which we behold onr predes- 
+tination. We shall have a sufficiently evident and sure testimony of 
+being written in the book of life if we live in communion with him, 
+and if in true faith he is ours and we his. 
+
+And if we are tempted concerning our predestination, let this be our 
+comfort — that God's promises are general to believers, as he himself 
+says : ' Seek, and ye shall find, and whosoever asketh shall receive' 
+(Matt. vii. 8 sq.). We pray with the whole Church, * Our Father which 
+art in heaven ;' by baptism we are ingrafted into the body of Christ, 
+and we are often fed in the Church by his flesh and blood unto life 
+everlasting. Thus strengthened, let us ' work out our own salvation 
+with fear and trembling, for it is God who worketh in us both to will 
+and to do according to his good pleasure' (Phil. ii. 12. 13).2 
+
+Chap. XI. Jesus Cheist true God and Man, and the only Sav- 
+iour of the World. — We believe and teach that the Son of God, our 
+Lord Jesus Christ, was from eternity predestinated by the Father to be 
+the Saviour of the world ; that he was begotten of the Father from all 
+eternity in an ineffable manner (Isa. liii. 8 ; Micah v. 2 ; John i. 1). 
+Therefore the Son, according to his Divinity, is coequal and consnb- 
+itantial with the Father ; true God, not merely by name or adoption or 
+by conferring of a dignity, but in essence and nature (1 John v. 20; 
+Phil. ii. 6 ; Heb. i. 2, 3 ; John v. 18 ; xvii. 5). 
+
+We abhor the blasphemous doctrine of Arius and Servetus in op- 
+position to the Son of God. 
+
+We also believe and teach that the same eternal Son of God became 
+the Son of Man, of the seed of Abraham and David, not through the 
+will of man (Ebionites), but he was conceived by the Holy Ghost and 
+born of the ever -Virgin Mary (ex Maria semper virgine), as taught in 
+the gospel history and the Epistles (Matt i. 18 ; Luke i. 34, 35 ; 1 John 
+iv. 3; Heb. ii. 16). The body of Christ was therefore neither a my* 
+appearance, nor brought down from heaven (the Gnostics, Valentino* 
+
+1 Comp. ver. 10 and 11. A very strong passage for the doctrine of infant salvation, and 
+bo understood by Zwingli and Bullinger. 
+
+3 This Tenth Article is moderately Calrinistic or Angnstinian, and neither Arminian nor 
+Melanchthonian (synergistic), as has sometimes been claimed. Comp. Schweiier, Central- 
+dogmen, VcL I. p. 476 ; also Sudhof 'a art. in Herzog. 
+
+
+S 55. THE SECOND HELVETIC CONFESSION, 1566. 403 
+
+and Marcion). Moreover his soul was not without reason (Apollinaris), 
+nor his flesh without a 6011I (Eunomius) ; but he had a rational soul, 
+and a flesh with senses capable of true suffering (Matt. xxvi. 36 ; John 
+xii.27). 
+
+Hence we acknowledge in one and the same Lord Jesus Christ two 
+natures, a divine and a human, which are conjoined and united in one 
+person without absorption or confusion and mixture. 
+
+We worship one Lord Christ, not two ; one true God-Man, coequal 
+(or of one substance, consubstantialis, bfiooiaiog) with the Father as 
+regards his divine nature, and coequal with us men, sin only excepted 
+(Heb. iv. 15), as regards his human nature. 
+
+We therefore abominate Nestorianism, which dissolves the unity of 
+person, and Eutychianism, Monothelitism, and Monophysitism, which 
+destroy the proper character of the human nature. 
+
+We do not teach that the divine nature of Christ did suffer, nor that 
+the human nature of Christ is every where present. The true body of 
+Christ was not deified so as to put off its properties and to be absorbed 
+hito the divine substance. But we believe that our Lord Jesus Christ 
+did truly suffer for us in the flesh (1 Pet iii. IS ; iv. 1), and that the 
+Lord of glory was crucified for us (1 Cor. ii. 8). For we accept be- 
+lievingly and reverently the l communication of properties,' which is 
+deduced from the Scriptures and employed by the ancient Church in 
+explaining and harmonizing seemingly contradictory passages.1 
+
+We believe and teach that Christ, in the same flesh in which he 
+died, rose from the dead (Luke xxiv. 30), and ascended to the right 
+hand of God in the highest heaven (Eph. iv. 10), which signifies his 
+elevation to the divine majesty and power, but also a definite place 
+(John xiv. 2 ; Acts iii. 21). 
+
+The same Christ will come again to judgment, when the wickedness 
+
+1 'Nam communiaationem idiomatum ex Scripturis petitam et ab universa vetustate in ex- 
+plirandis componendiaque Scripturarum locis in speciem pugnantibus usurpatam, religiose et 
+revcrenter recipimus et usvrpamu*.' It is an error, therefore, to charge the Reformed Church 
+with rejecting the communicatio idiomatum. It admits the communication of the properties 
+of one nature to the whole person, but denies the communication of the properties of one 
+nature to the other, viz., the genus majestuticum, so called, whereby the infinite attributes of 
+the divine nature (as omnipresence and omnipotence) arc ascribed to the human nature, and 
+the genus tapeinotieon, whereby the finite attributes of the human nature are ascribed to the 
+divine. Either of these forms leads necessarily to a Eutychian confusion of natures. The 
+Lutheran Church teaches the genus majestaticutn, as a support to its doctrine of the Eucharist, 
+but rejects the genus tapeinoticon. 
+
+
+404 THE CREEDS OF CHRISTENDOM. 
+
+of the world shall have reached the highest point, and Antichrist cor- 
+rupted the true religion. He will destroy Antichrist, and judge the 
+ jnick and the dead (2 Thess. ii. 8 ; Acts xviL 51, 52 ; 1 Thess. iv. 17). 
+The believers will enter into the mansions of the blessed ; the unbe- 
+lievers, with the devil and his angels, will be cast into everlasting 
+torment (Matt xxv. 41 ; 2 Tim. ii. 11 ; 2 Pet. iii. 7). 
+
+We reject all who deny the real resurrection ; who teach the ulti- 
+mate salvation of all the godless, and even the devil. We also reject 
+the Jewish dream of a millennium, or golden age on earth, before the 
+last judgment. 
+
+We believe and teach that Christ is the only Redeemer of the whole 
+world, in whom all are saved that were saved before the law, under 
+the law, and under the gospel, or will yet be saved to the end of the 
+world (John x. 1, 7 ; Acts iv. 12 ; xv. 11 ; 1 Cor. x. 1, 4 ; Rev. xiii. 8). 
+
+We therefore confess and teach with a loud voice : Jesus Christ is 
+the only Saviour of the world, the King and High-priest, the true 
+Messiah, whom all the shadows and types of the Law and the Prophete 
+did prefigure and promise. God did send him to us, and we need not 
+look for another. There remains nothing but that we should give all 
+glory to him, believe in him, and rest in him alone. 
+
+And, to say much in a few words, we sincerely believe and loudly 
+confess all that has been determined out of the Holy Scriptures con- 
+cerning the mystery of the incarnation of our Lord Jesus Christ, and 
+is contained in the creeds and decrees of the first four oecumenical 
+Councils held in Nice®, Constantinople, Ephesus, and Chalcedon, in 
+the Creed of St. Athanasius, and all similar creeds ; and we reject all 
+contrary to the same. In this manner we retain, unchanged and entire, 
+the Christian, orthodox, and catholic faith ; knowing that nothing is 
+contained in the aforesaid creeds which does not correspond with the 
+Word of God and aid in setting forth the true faith.1 
+
+1 An express and emphatic indorsement of the oecumenical Creeds, on the ground of their 
+agreement with the Scriptures : 'Et ut paucis multa hujus causes dicamus, quoxunque at ta- 
+camationis Domini nostri Jesu Christi mysterio definita sunt ex Scripturis Sanctis, et comprs- 
+hensa symbolis ac sententiis quatuor primarum et praxtantissimarum Synodorum oelebratanm 
+Nicere, Const ant inopoli, Ephesi% et Chalcedony una cum beati Athanasii Symbolo, et amnio* 
+his similibus symbolic credimus corde syncero, et ore libero ingenue prqfitemur, ccndeumauUt 
+' omnia his contraria. At que ad hunc modum retinemus inviolatam sive integram Jidem CW 
+stianam, orthodoxam atque oatholicam : sdentes^ symbolis prasdictis nihil contineri, quod nm 
+sit conforms Verbo Dei, et prorsus faciat ad synceram fidei explication 
+
+
+§ 55. THE SECOND HELVETIC CONFESSION, 1566. 405 
+
+Chap. XII. The Law of God. — The law of God explains the will of 
+God and the difference between what is good and bad, just and unjust 
+It is therefore good and holy. It is twofold : the law of nature in- 
+scribed on the hearts of men (Bom. ii. 15), and the written law of 
+Mo6es. The latter we divide for perspicuity's sake into the mora\ law, 
+comprehended in the two tables of the Decalogue (Exod. xx. ; Dent 
+v.); the ceremonial law, concerning worship and sacred rites; and the 
+judicial, concerning polity and economy. 
+
+The law of God is complete, and allows no addition nor subtraction 
+(Dent. iv. 2 ; Isa. xxx. 21). It is given to us, not that by keeping it we 
+might be justified, but that we may be led to a knowledge of sin and 
+guilt, and, despairing of our own strength, turn by faith to Christ 
+(Bom. iv. 15 ; iii. 20 ; viii. 3 ; Gal. iii. 21-24). Christ is the end of the 
+law, and redeemed us from the curse of the law (Bom. x. 4 ; Gal. iii. 
+13). He enables us to fulfill the law, and his righteousness and obe- 
+dience are imputed to us through faith. 
+
+The law is abolished inasmuch as it no more condemns and works 
+wrath in them that believe, who are under grace, and not under the 
+law. Besides, Christ has fulfilled all the types of the law, and put the 
+substance in the place of the shadows ; in him we have all fullness. 
+Nevertheless, the law is useful in showing us all virtues and vices, and 
+in regulating the life of new obedience. Christ did not come to de- 
+stroy, but to fulfill the law (Matt. v. 17). 
+
+We therefore condemn old and modern Antinomianism. 
+
+Chap. XIII. The Gospel, of Jesus Christ. — The law works wrath 
+and announces the curse (Bom. iv. 15 ; Deut. xxvii. 26) ; the gospel 
+announces grace and blessing -(John i. 17). Nevertheless, those who 
+lived before and under the law were not deprived altogether of the 
+gospel, but had great promises (Gen. iii. 15 ; xxii. 18 ; xlix. 10). The 
+promises were partly temporal, partly spiritual and eternal. By the 
+gospel promises the fathers obtained salvation in Christ. 
+
+In the strict sense of the term the gospel is the glad tidings of sal- 
+vation by Christ, in whom we have forgiveness, redemption, and ever- 
+lasting life. Hence the history of Christ recorded by the four Evan- 
+gelists is justly called the gospel. 
+
+Compared with the legalism of the Pharisees the gospel appeared to 
+be a new doctrine, as it is even now called new by the Papists ; but in 
+
+
+406 THE CREEDS OF CHRISTENDOM. 
+
+fact it is the oldest doctrine, for God foreordained from eternity to 
+sa ve the world through Christ, and has revealed this plan in the gospel 
+(2 Tim. i. 9, 10). It is therefore a grave error to call our evangelical 
+faith a recent innovation. 
+
+Cbap. XIV. Of Eepentancb and Conversion. — Repentance (juror 
+voia) is a change of heart produced in a sinner by the word of the gos- 
+pel and the Holy Spirit, and includes a knowledge of native and actual 
+depravity, a godly sorrow and hatred of sin, and a determination to 
+live hereafter in virtue and holiness. True repentance is turning to 
+God and all good, and turning away from the devil and all evil. It is 
+the free gift of God, and not the result of our own strength (2 Tim. 
+ii. 25). 
+
+We have examples of true repentance in the woman that was a sin- 
+ner (Luke vii. 38), in Peter after his fall (xxii. 62), in the prodigal sou 
+(xv. 18), and the publican in the temple (xviii. 13). 
+
+It is sufficient to confess our sins to God in private and in the pub- 
+lic service ; it is not necessary to confess to a priest, for this is nowhere 
+commanded in the Scriptures; although we may seek counsel and 
+comfort from a minister of the gospel in time of distress and trial 
+(comp. James v. 16). 
+
+The keys of the kingdom of heaven, out of which the Papists forge 
+6words, sceptres, and crowns, are given to all legitimate ministers of 
+the Church in the preaching of the gospel and the maintenance of dis- 
+cipline (Matt. xvi. 19; John xx. 23; Mark xvi. 15; 2 Cor. v. 18, 19). 
+We condemn the profitable popish doctrine of penance and of indul- 
+gences, and apply to them Peter's word to Simon Magus: 'Thy money 
+perish with thee' (Acts viii. 20). 
+
+Chap. XV. Of True Justification of Believers. — 'To justify' 
+means, with the Apostle when treating of this subject, to remit sins, 
+to absolve from guilt and punishment, to receive into grace, and to 
+pronounce just (Horn. viii. 33 ; Acts xiii. 38 ; Deut. xxv. 1 ; Isa. v. 23). 
+
+By nature we are all sinners and guilty of death before the tribunal 
+of God, and we can be justified only by the merits of Christ crucified 
+and risen again. For his sake God is reconciled, and imputes to us not 
+our sins, but the righteousness of Christ as our own, so that we are 
+purged and absolved from sin, death and damnation, and heirs of 
+eternal life. Properly speaking, God alone justifies and justifies only 
+
+
+f 55. THE SECOND HELVETIC CONFESSION, 1566. 407 
+
+for Christ's sake, not imputing to us our sins, but the righteousness of 
+Christ 
+
+We therefore teach and believe, with the Apostle, that the sinner is 
+justified by faith alone in Christ {sola fide in Christum), not by the law, 
+nor by any works (Rom. iii. 28 ; iv. 2 sqq. ; Eph. ii. 8, 9). Righteous- 
+ness is imputed to faith because it receives Christ as our righteousness 
+and ascribes all to the grace of God, but not because it is our work : it 
+is the gift of God. As we receive food by eating, so faith appropri- 
+ates Christ 
+
+We do not divide justification by ascribing it partly to the grace of 
+God or to Christ, and partly to our works or merits, bnt solely and 
+exclusively to the grace of God in Christ through faith. We mu6t first 
+be justified before we can do good works. Love is derived from faith 
+(lTim.i.5; Gal. v. 6). 
+
+Therefore we speak here not of a false, dead faith, but of a living 
+and vivifying faith which lives in Christ, our life, and proves its life by 
+living works. Even James (chap, ii.) does not contradict our doctrine, 
+for he speaks of a dead faith which even demons have, and he shows 
+that Abraham proved his living and justifying faith by works. 
+
+Chap. XVI. Faith and Good Works, theie Reward and the 
+Merit of Man. — Christian faith is not a human opinion and persua- 
+sion, but a most firm confidence and clear and steady assent of the 
+mind, a most certain apprehension of the truth of God as laid down in 
+the Scriptures and the Apostles' Creed, and therefore of God himself 
+as the highest good, and especially of the divine promise and of Christ, 
+who is the crown of all promises. Such a faith is a free gift of God, 
+who of his grace grants it to his elect through his Holy Spirit by means 
+of the preaching of the gospel and believing prayer when and in what 
+measure he pleases. This faith has degrees and is subject to growth ; 
+hence the prayer of the Apostles: 'Lord, increase our faith' (Luke 
+xrii. 5). [Then follow a number of Scripture proofs : Heb. xi. 1 ; 2 
+Cor. i. 20; Phil. L 29; Rom. xii. 3; 2 Thess. ii. 3; Rom. x. 16; Acts 
+xiii.48; Gal. v. 6, etc.] 
+
+We teach that good works proceed from a living faith, through the 
+Holy Spirit, and are done by believers according to the will and rule 
+of the Word of God (2 Pet. L 5 sqq. ; 1 Thess. iv. 3, 6, 23). 
+
+Good works must be done, not to merit thereby eternal life, which is 
+
+Vol. L— D d 
+
+
+408 THE CREEDS OP CHRISTENDOM. 
+
+a free gift of God (Rom. vi. 23), nor for ostentation or from selfishness 
+which the Lord rejects (Matt vi. 2 ; xxiii. 5), but for the glory of God, 
+to adorn onr calling and to show oar gratitude to God, and for the 
+good of our neighbor (Matt. v. 16 ; Eph. iv. 1 ; Col. iii. 17 ; Phil. ii. 4; 
+Tit. iii. 14). Although we teach that man is justified by faith of 
+Christ and not by any works, we do not condemn good works. Man is 
+created and regenerated by faith in order to work unceasingly what is 
+good and useful. * Every good tree bringeth forth good fruit' (Matt 
+vii. 17). * He that abideth in me, the same bringeth forth much fruit* 
+(John xv. 5). 'We are God's workmanship, created in Christ Jesus 
+unto good works, which God hath before ordained that we should walk 
+in them' (Eph. ii. 10). 
+
+We condemn, therefore, all who despise good works or declare them 
+useless; at the same time we do not deem them necessary to salva- 
+tion, in the sense that without them no one was ever saved ; for we are 
+saved by Christ alone ; but good works are necessarily born of faith, 
+and improperly salvation may be ascribed to them which properly is 
+ascribed to grace (Rom. xi. 6). 
+
+God is well pleased and approves of works which are done by us 
+through faith (Acts x. 35 ; Col. i. 9, 10). He also richly rewards them 
+(Jer. xxxi. 16 ; Matt v. 12 ; x. 42). But we ascribe this reward not to 
+the merits of man who receives it, but to the goodness and faithfulness 
+of God who promises and grants it, although he owes nothing to his 
+creatures. Even if we have done all, we are unprofitable servants 
+(Luke xvii. 10). We say with Augustine, that God crowns and rewards 
+in us, not our merits, but the gifts of his grace. It is a reward of 
+grace, not of merit. We have nothing but what we have reoeived 
+(comp. 1 Cor. iv. 7). 
+
+We therefore condemn those who so defend the merits of men as to 
+set at naught the grace of God. 
+
+Ghap. XVII. Of the Catholic and Holy Church of God, and of 
+the only Head of the Church. — Since God willed from the begin- 
+ning that men should be saved and come to the knowledge of truth, it 
+follows of necessity that there always was, and now is, and shall be to 
+the end of time, a Church or an assembly of believers and a communion 
+of 6aints, called and gathered from the world, who know and worship 
+the true God in Christ our Saviour, and partake by faith of all the 
+
+
+r 
+
+
+{ 55. THE SECOND HELVETIC CONFESSION, 1566. 409 
+
+benefits freely offered through Christ They are fellow-citizens of the 
+same household of God (Eph. ii. 19). To this refers the article in the 
+Creed : lI believe the holy catholic Church, the communion of saints.* 
+And as there is but one God, one Mediator between God and man, 
+Jesus the Messiah, one pastor of the whole flock, one head of this body, 
+one Spirit, one salvation, one faith, one testament or covenant, there 
+must needs be but one Church, which we call catholic, that is, universal, 
+spread throughout all parts of the world and all ages. 
+
+We therefore condemn the Donatists, who confined the Church to 
+some corners of Africa, and also the Roman exclusiveness, which pre- 
+tends that the Roman Church alone is the catholic Church. 
+
+The Church is divided, not in itself, but on account of the diversity 
+of its members. There is a Church militant on earth struggling 
+against the flesh, the world, and the devil, and fa Church triumphant 
+in heaven rejoicing in the presence of the Lord; nevertheless there is 
+a communion between the two. The Church militant is again divided 
+into particular Churches. It was differently constituted among the 
+Patriarchs, then under Moses, then under Christ in the gospel dispen- 
+sation ; but there is only one salvation in the one Messiah, in whom 
+all are united as members of one body, partaking of the same spiritual 
+food and drink. We enjoy a greater degree of light and more perfect 
+liberty. 
+
+This Church is called the house of the living God (1 Tim. iii. 15), 
+built of lively and spiritual stones (1 Pet ii. 5), resting on an immova- 
+ble rock, the only foundation (1 Cor. iii. 11), the ground and pillar of 
+the truth (1 Tim. iii. 15). It can not err as long as it rests on the rock 
+Christ, on the foundation of the Prophets and Apostles ; but it errs 
+as often as it departs from him who is the truth.1 The Church is also 
+called a virgin, the bride of Christ, the only and beloved (2 Cor. xi. 2), 
+and the body of Christ, because the believers are living members of 
+Christ under him the head (Eph. i. 23, etc.). 
+
+The Church can have no other head than Christ. He is the one 
+universal pastor of his flock, and has promised his presence to the end 
+of the world. He needs, therefore, no vicar; for this would imply 
+
+1 'Nan errat ilia, quamdiu innititur petrn Christo etfundamento Prqphetarum et Aposto* 
+lonm. Nee mirw** n erret, quoties deserit ilium, qui solus est Veritas.1 
+
+
+410 THE CREEDS OF CHRISTENDOM. 
+
+his absence. [Those who introduce a double headship and govern- 
+ment in the Church plainly belong to the errorists condemned by the 
+Apostles (2 Pet. ii. ; Acts xx. ; 2 Cor. xi. ; 2 Thess. ii.).] l 
+
+But by rejecting the Soman head we do not introduce disorder 
+and confusion into the Church of Christ, since we adhere to the gov- 
+ernment delivered by the Apostles before there was any Pope. The 
+Roman head preserves the tyranny and corruption in the Church, and 
+opposes and destroys all just reformation. 
+
+They object that since our separation from Borne all sorts of con- 
+troversies and divisions have arisen. As if there had never been any 
+sects and dissensions in the Roman Church, in the pulpits, and among 
+the people ! God is indeed a God of order and peace (1 Cor. xiv. 33); 
+nevertheless there were parties and divisions even in the Apostles' 
+Church (Acts xv. ; 1 Cor. iii. ; Gal. ii.). God overrules these divisions 
+for his glory and for the illustration of truth. 
+
+Communion with the true Church of Christ we highly esteem, and 
+deny that those who separate from it can live before God. As there 
+was no salvation out of the ark of Noah, so there is no certain sal- 
+vation out of Christ, who exhibits himself to the elect in the Church 
+for their nourishment.3 
+
+But we do not bo restrict the Church as to exclude those who from 
+unavoidable necessity and unwillingly do not partake of the sacra- 
+ments, or who are weak in faith, or still have defects and errors. God 
+
+
+1 The passage in brackets, according to the Zurich MS., was substituted by Bullinger oo 
+the margin for the following sentence, which he wished to have canceled (see note in Nie- 
+meyer, p. 501): 'We reject the Romish fiction concerning an official head and title oCthe 
+servant of the servants of Christ; for experience proves that this is an empty boast, and that 
+the Pope makes himself an enemy of Christ, and exalts himself above God, sitting in the 
+temple of God, and showing himself that he is God* (2 Thess. ii. 4). 
+
+1 ' Ut extra arcam Noi non erat ulla salus, pereunte mundo in dihvio, ita credimus, extra 
+Christum, qui se electis in Ecclesia fruendum prabet, nullam esse salutem certain: et proinde 
+doc emus, vivere volentes non oportere separari a vera Christ* Ecclesia.* This high estimate 
+of the Church reminds one of Cyprian's • Extra ecclesiam nulla solus,1 of Tertullian's iQsi 
+ecrtesiam non habet matrem, Deum non habet patrem,' and of Augustine's k Ego evangelio no* 
+crederetn, nisi me commoveret ecclesia auctoritas.1 Calvin, in his Institutes (lib. IV. c 1), 
+uses similar language. But we must remember that the Calvinistic system does not bind 
+election to the visible means of grace, and admits the possibility of salvation without baptism 
+Bullinger denies only the certainty of salvation (salutem certam) outside of the Church (comp. 
+above what follows) ; and so mnst be understood the Westminster Confession of Faith, 
+Ch. XXV. 2, when it asserts that out of the visible catholic or universal Church ' there is no 
+ordinary possibility of salvation.' 
+
+
+9 55. THE SECOND HELVETIC CONFESSION, 1566. 4H 
+
+had friends even outside of the Jewish people. We know what hap- 
+pened to Peter, and to chosen believers from day^to day, and we know 
+that the Apostle censured the Christians in Galatia and Corinth for 
+grave offenses, and yet calls them holy churches of Christ. Yea, God 
+may at times by a righteous judgment allow the Church to be so ob- 
+scured and shaken as to appear almost annihilated, as in the days of 
+Elijah (1 Kings xix. 18; comp. Rev. vii. 4, 9); but even then he has 
+his true worshipers, even seven thousand and more ; for ' the founda- 
+tion of God standeth sure, having this seal, the Lord knoweth them that 
+are his' (2 Tim. ii. 19). Hence the Church may be called invisible, 
+not that the men composing it are invisible, but because they are 
+known only to God, while we are often mistaken in our judgment 
+There are also many hypocrites in the Church, who outwardly conform 
+to all the ordinances, but will ultimately be revealed in their true char- 
+acter and be cut off (1 John ii. 19 ; Matt. xiii. 24, 47). 
+
+The true unity of the Church is not to be Bought in ceremonies and 
+rites, but in the truth and in the catholic faith, as laid down in the 
+Scriptures and summed up in the Apostles' Creed. Among the an- 
+cients there was a great diversity of rites without dissolving the unity 
+of the Church. 
+
+Chap. XVIII. On the Ministers of the Church, their Institution 
+and Offices. — God always used ministers for gathering and govern- 
+ing the Church (Horn. x. 14, 17 ; John xiii. 20 ; Acts xvi. 9 ; 1 Cor. 
+iii. 9, etc.). 
+
+God employed the Patriarchs, Moses, and the Prophets as teachers 
+of their age. At last he sent his only-begotten Son, filled with infinite 
+wisdom, to be our infallible guide. Christ chose the Apostles, and 
+these ordained pastors in all the Churches (Acts xiv. 23), whose suc- 
+cessors have taught and governed the Church to this day. 
+
+The ministers of the New Testament are called Apostles, prophets, 
+evangelists, bishops, presbyters, pastors, and teachers (1 Cor. xii. 28 ; 
+Eph. iv. 11). In subsequent times other names were introduced, as 
+patriarchs, archbishops, metropolitans, archpresbyters, deacons, and sub- 
+deacons, etc. But we are satisfied with the offices instituted by the 
+Apostles for the teaching and governing of the Church. 
+
+A minister should be lawfully called and chosen by the Church, and 
+Keel in sacred learning, pious eloquence, prudence, and unblemished 
+
+
+412 THE CREEDS OF CHRISTENDOM. 
+
+character (1 Tim. iii. 2 ; Tit i. 5). When elected, a minister should be 
+ordained of the eldefs by public prayer and the laying on of hands. 
+We reject arbitrary intruders and incompetent pastors. But we ac- 
+knowledge that innocent simplicity may be more useful than haughty 
+learning. 
+
+A minister of the New Testament is not a priest, as in the Jewish 
+dispensation, offering sacrifices for the living and the dead. Christ is 
+our eternal High-priest, who fulfilled and abolished typical sacrifices 
+by his one perfect sacrifice on the cross ; and all believers are priests 
+offering spiritual sacrifices — namely, thanksgiving and praise to God 
+continually. 
+
+All ministers are equal in power and commission. Bishops and 
+presbyters were originally the same in office, and governed the Church 
+by their united services, mindful of the words of the Lord : 4 He who 
+will be chief among you, let him be your servant' (Luke xxii. 26). 
+Jerome (Com. on Titus) says : ' Before, by the instigation of the devil, 
+party spirit and sectarianism arose, the churches were governed by the 
+common counsel of the presbyters ; but afterwards, when every one 
+thought that thoso whom he had baptized belonged to him, not to Christ, 
+it was decreed that one of the presbyters should by election be placed 
+over the rest, and be intrusted with the care of the whole Church, and 
+thus the seed of schisms be destroyed.' But Jerome does not present 
+this decree as divine, for he soon adds that presbyters and bishops 
+know that this distinction is based on ecclesiastical custom, and not on 
+divine command. Therefore no one can be lawfully forbidden to re- 
+turn from human custom to the ancient constitution of the Church of 
+Christ 
+
+The chief duties of ministers are the preaching of the gospel, the ad- 
+ministration of the sacraments, the care of souls, and the maintenance 
+of discipline. To do this effectually they must live in the fear of God, 
+pray constantly, study the Scriptures diligently, be always watchful, 
+and shine before all by purity of life. In the exercise of discipline, 
+they should remember that the power was given to them for edifica- 
+tion and not for destruction (2 Cor. x. 8 ; comp. Matt xiii. 29). 
+
+We reject the error of the Donatists, who make the efficacy of the 
+preaching and the sacraments to depend on the moral character of the 
+minister. The voice of Christ must be heard and obeyed even out of 
+
+
+I 56. THE SECOND HELVETIC CONFESSION, 1666. 413 
+
+the month of an unworthy servant (Matt, xxiii. 8) ; and the sacraments 
+are efficacious to the worthy recipient by virtue of their divine appoint- 
+ment and the -Word of Christ On these things St Augustine has 
+much disputed from the Scriptures against the Donatists. 
+
+Nevertheless, proper control and discipline should be exercised over 
+the doctrine and conduct of ministers in synods. False or immoral 
+teachere should not be tolerated, but warned or deposed. We do not 
+disapprove general or oecumenical councils if they are conducted, ac- 
+cording to the apostolic example (Acts xv.), for the welfare, and not 
+for the corruption of the Church. 
+
+As the laborer is worthy of reward, the minister is entitled to the 
+maintenance of himself and family from the congregation he serves 
+(1 Cor. ix. 9 sqq. ; 1 Tim. v. 18, etc.). Against the Anabaptists, who 
+denounce ministers living off their ministry. 
+
+Chap. XIX. The Sacraments of the Chubch of Christ. — With 
+the preaching of the Word are joined sacraments or sacred rites insti- 
+tuted by God as signs and seals of his promises for the strengthening 
+of our faith, and as pledges on our part for our consecration to him. 
+
+The sacraments of the Jewish dispensation were circumcision and 
+the paschal lamb; the sacraments of the Christian dispensation are 
+baptism and the Lord's Supper. 
+
+The Papists count seven sacraments. Of these we acknowledge re- 
+pentance, ordination of ministers, and marriage as useful institutions 
+of God, but not as sacraments. Confirmation and extreme unction are 
+inventions of men, which may be abolished without any loss. We ab- 
+hor all merchandise carried on with the sacraments by Bomish priests. 
+
+The supreme benefit of the sacraments is Christ the Saviour, that 
+Lamb of God slain for our sins from the foundation of the world, and 
+that Rock of which all our fathers drank. So far the sacraments of 
+the Old and New Testaments are the same. But we have the abiding 
+substance. 
+
+Sacraments consist of the Word, the sign, and the thing signified. 
+By the Word of God and institution of Christ they become sacraments 
+and are sanctified. The sign in baptism is water, the thing signified is 
+regeneration or the washing from sins. The sign in the Lord's Sup- 
+per is bread and wine, the thing signified is the veritable body and 
+blood of Christ sacrificed for us. The signs are not changed into the 
+
+
+414 THE CREEDS OF CHRISTENDOM. 
+
+things signified; for then they would cease to be sacramental signs, 
+representing the things signified ; but they are sacred and efficacious 
+3igns and seals. For he who instituted baptism and the Supper intend- 
+ed that we should receive not the outward form only, but the inward 
+blessing, that we should be truly washed from all our sins through 
+faith, and be made partakers of Christ. 
+
+The truth and power of the sacraments depend neither on the wor- 
+thiness of the minister nor that of the receiver, but on the faithfulness 
+of God. Unbelievers do not receive the things offered ; but the fault is 
+in men, whose unbelief doth not annul the faith of God (Rom. iii. 3). 
+
+Chap. XX. Of Holy Baptism. — Baptism is instituted by Christ 
+(Matt, xxviii. 19 ; Mark xvi. 15). There is only one baptism in the 
+Church ; it lasts for life, and is a perpetual seal of our adoption. To 
+be baptized in the name of Christ is to be enrolled, initiated, and re- 
+ceived into the covenant, into the family and the inheritance of the 
+sons of God, that, cleansed from our sins by the blood of Christ, we 
+may lead a new and innocent life. We are internally regenerated 
+by the Holy Ghost, but we receive publicly the seal of these blessings 
+by baptism. Water washes away filth, and refreshes and comforts the 
+body ; the grace of God inwardly and invisibly cleanses the soul. 
+
+By baptism we are separated from the world and consecrated to 
+God. In baptism we confess our faith and pledge obedience to God. 
+We are enrolled into the holy army of Christ to fight against the 
+world, the flesh, and the devil. 
+
+Later human additions to the primitive form of baptism, such as ex- 
+orcism, the use of burning light, oil, salt, spittle, we judge to be un- 
+necessary. 
+
+Baptism is not to be administered by women or by mid wives, but by 
+the ministers of the Church. 
+
+We condemn those who deny that children of believers should be 
+baptized. For to children belongs the kingdom of God, and they are 
+in covenant with God — why then should not the sign of the covenant 
+be given to them ? We are therefore no Anabaptists, and have no 
+communion with them. 
+
+Chap. XXI. Of the Holy Supper of our Lord. — The Lord's Sup- 
+per, or Eucharist, is a grateful commemoration of the benefits of re- 
+demption, and a spiritual feast of believers instituted by Christ, wherein 
+
+
+r 
+
+
+| 55. THE SECOND HELVETIC CONFESSION, 1566. 4i5 
+
+he nourishes us with his own flesh and blood by true faith unto eternal 
+life. It signifies and seals to us the greatest benefit and blessing ever 
+conferred on the race of mortals, that he truly delivered his body and 
+shed his blood for the remission of our sins. In it we eat his flesh 
+which is meat indeed, and drink his blood which is drink indeed (Matt 
+xxvi. 20 sqq. ; Luke xxii. 19 ; 1 Cor. xi. 21 sqq. ; John vi. 51 sqq.). 
+
+This eating is not corporeal and Capernaitic, by the mouth and the 
+stomach, but spiritual, i. e., by the Holy Ghost through faith. ' The 
+flesh,' corporeally eaten, i profiteth nothing ; it is the spirit that quick- 
+eneth ' (John vi. 63). ' I am the bread of life ; he that cometh unto 
+me shall never hunger; and he that belie veth on me shall never thirst' 
+(John vi. 51). So that eating and drinking here means to come unto 
+Christ and to believe in him. As Augustine says : i Why preparest 
+thou the tooth and the stomach ? Believe, and thou hast eaten.' 
+
+Besides the spiritual eating, in the daily communion of the soul with 
+Christ, there is also a sacramental eating, whereby the believer not only 
+inwardly partakes of Christ, but also receives the visible signs and 
+seals of his body and blood at the Lord's table.1 And with the signs 
+he receives the thing itself.3 He is nourished and strengthened by 
+spiritual food. The signs are also 6nre pledges that Christ died not 
+only fofinen in general, but also individually for every believing com- 
+municant Besides, in partaking of this ordinance we obey the com- 
+mand of our Lord, celebrate his atoning death, give thanks for the 
+great redemption, and openly profess our faith before the congregation. 
+
+But those who commune unworthily and without faith receive only 
+the visible signs to their own condemnation or judgment (1 Cor. xi. 
+27 sqq.). 
+
+We therefore do not so conjoin the body and blood of Christ with 
+
+1 * Prater superiorem manducationem spirituaiem est et sacramentalis manducatio corporis 
+Dovum, qua fidelis non tantum spiritualiter et interne participat vero corpore et sanguine 
+Domini, sed /oris etiam accedendo ad mensam Domini accipit visibile corporis et sangui- 
+nis Domini sacramentum.' This is strangely mistranslated by Owen Jones (1. c. p. 173): 
+'Moreover, also, the sacramental eating of the body of the Lord is a superior spiritual eat- 
+ing/ etc. Bullinger rightly distinguishes between the purely spiritual communion with 
+Christ's flesh and blood (i. e., his real humanity), spoken of in the sixth chapter of John, and 
+die sacramental communion in the Eucharist, which includes all the benefit of the former 
+with the additional blessing Of the visible signs and seals of Christ's body broken for us, and 
+Christ's blood shed for us. 
+
+* * Qui /oris vera fide sacramentum percipit, idem We non signum duntaxat percipit, sed re 
+ipsa quoque, ut diximus9/ruitur»* 
+
+
+416 THE CREEDS OF CHRISTENDOM. 
+
+bread and wine as to say that the bread itself is the body (except 
+sacranientally), or that the body of Christ is corporeally hid under the 
+bread, and should be adored under the form of bread, or that whosoever 
+receives the signs receives also necessarily the thing itself. [Against 
+the Lutheran theory.] The body of Christ is in heaven at the right 
+hand of the Father (Mark xvi. 19 ; Heb. viii. 1 ; xii. 2) ; and hence we 
+must raise our hearts to heaven. 
+
+And yet he is not absent from his people when they celebrate his 
+communion. For as the sun in heaven is efficaciously praent with us, so 
+much more is Christ the sun of righteousness with us, not, indeed, cor- 
+poreally, but spiritually by his enlivening and vivifying operation, even 
+as he in the Last Supper explained that he himself would be present 
+with us (John xiv.-xvi.). Hence we have not a Supper without Christ, 
+but an unbloody and mystical Supper, as universal antiquity called it 
+
+Moreover, the Lord's Supper reminds us that we are members of his 
+body, and should live peaceably with all our brethren, and grow and 
+persevere in holiness of life. 
+
+Therefore it is very proper that we should duly prepare oureelves by 
+self-examination in regard to our repentance and faith in Christ (1 Cor. 
+xi. 28). 
+
+As to the external celebration, we adhere to the original folro, con- 
+sisting in the annunciation of the Word of God, devout prayers, the 
+Lord's action, and its repetition in breaking bread, and distributing it 
+together with the wine, in eating the body and drinking the blood of 
+our Lord, in grateful remembrance of his death, in thanksgiving, and 
+in holy reunion of the brethren as one body. 
+
+We disapprove of the withdrawal of the cup contrary to the expreffl 
+command of Our Lord : ' Drink ye all of it' (Matt. xxvi. 27). 
+
+The mass — whatever it may have been in ancient times — has been 
+turned from a salutary institution into a vain show, and surrounded 
+with various abuses, which justify its abolition. 
+
+Chap. XXII. Of Sacked and Ecclesiastical Assemblies. — It is 
+lawful and right for all men privately to read the Scriptures for edifi- 
+cation. At the same time the maintenance of religion demands regu- 
+lar public services. These should be conducted decently, in order, and 
+for edification, in the language understood by the people. 
+
+Chap. XXIII. Of Chueoh Prayers. Singing, and Canonical House* 
+
+
+r 
+
+
+f 66. THE SECOND HELVETIC CONFESSION, 1666. 417 
+
+—Public prayers in sacred assemblies should be made in the vulgar 
+tongue understood by all. Every prayer is to be offered to God alone, 
+through the sole mediation of Christ, not to saints or through them. 
+Chart-lies are at liberty to vary from the usual forms. Prayers are not 
+superstitiously to be confined to. particular places or hours. Long and 
+tedious prayers in public assemblies should be avoided. Singing is not 
+indispensable, but lawful and desirable. Canonical hours are not pre- 
+scribed in the Scriptures, and are unknown to antiquity. 
+
+Chap. XXIV. Of Feasts, Fasts, and the Choice of Meats. — The 
+Lord's day is consecrated, from the times of the Apostles, to the wor- 
+ship of God and to sacred rest But we observe it in Christian free- 
+dom, not with Jewish superstition, neither do we believe that one day 
+is in itself holier than another. 
+
+If congregations in addition commemorate the Lord's nativity, cir 
+cumcision, crucifixion, resurrection, and ascension, and the outpouring 
+of the Holy Ghost, we greatly approve of it But feasts instituted by 
+men in honor of saints we reject, though the memory of the 6aints is 
+profitable, and should be commended to the people with exhortations 
+to follow their virtues. 
+
+True Christian fasting consists in temperance, abstinence, watchful- 
+ness, self-government, and chastisement of our flesh, that we may the 
+easier obey the Spirit Such fasting is a help to prayer and all virtues. 
+
+There are also public fasts appointed in times of affliction and ca- 
+lamity, when people abstain from food altogether till evening, and 
+spend all time in prayer and repentance. Such fasts are mentioned 
+by the Prophets (Joel ii. 12 sq.), and should be observed when the 
+Church is afflicted and oppressed. Private fasts are observed by each 
+of us as we may judge it profitable to our souls. 
+
+All fasts ought to proceed from a free and willing mind, and be ob- 
+served in a spirit of true humility, in order to vanquish the flesh and 
+to serve God more fervently, but not in order to gain the favor of 
+men or the merit of righteousness. 
+
+The fast of forty days (Lent) has the testimony of antiquity, but is 
+not enjoined in the Scriptures, and ought not to be imposed upon the 
+conscience of the faithful. There was great diversity and freedom in 
+the early Church as to the time of fasting, as we learn from Irenseus, 
+and Socrates the historian. 
+
+
+418 THE CREEDS OF CHRISTENDOM. 
+
+As to the choice of meats, we hold that in fasts we should abstain 
+from all such food or drink as stimulates the carnal desires. But oth- 
+erwise we know that all the creatures of God are good (Gen. i. 31), and 
+may be used without distinction, but with moderation and thanksgiving 
+(1 Cor. x. 25 ; Tit i. 15). Paul calls the prohibition of meats a doctrine 
+of the demons (1 Tim. iv. 1 sqq.), and reproves those who by excessive 
+abstinence wish to acquire the fame of sanctity. 
+
+Chap. XXV. Of Catechizing, and of the Visitation and Conso- 
+lation of the Sick. — The greatest care is to be bestowed on the re- 
+ligious instruction of the youth, especially in the Ten Commandments, 
+the Apostles' Creed, the Lord's Prayer, and the nature of the sacra- 
+ments. Churches should see to it that children receive catechetical 
+instruction. 
+
+It is one of the chief duties of Christian pastors to visit, comfort, and 
+strengthen the sick, and pray for them in private and in public. But 
+the extreme unction of the Papists we disapprove. 
+
+Chap. XXVI. Of the Burial of the Faithful, the Cake of thb 
+Dead, of Pueoatoby, and the Apparition of Spirits. — The bodies 
+of believers, which are the temples of the Holy Ghost, and will rise 
+again in the last day, should be honorably committed to the earth, 
+without superstition, and their relatives, widows, and orphans should 
+be tenderly cared for. 
+
+We believe that the faithful after death go directly to Christ, and 
+need not the prayers of the living. Unbelievers are cast into hell, 
+from which there is no escape. 
+
+The doctrine of purgatory is opposed to the Scriptures, and to the 
+plenary expiation and cleansing through Christ (comp. John v. 24; 
+xiii. 10). 
+
+The tales about the souls of the departed appearing to the living and 
+requesting their services for deliverance we judge to be mockeries or 
+deceptions of the devil. The Lord forbids necromancy (Deut xviii. 
+10) ; and the rich man was told that if his brethren on earth hear not 
+Moses and the Prophets, neither will they be persuaded though one 
+rose from the dead (Luke xvi. 30). 
+
+Chap. XXVII. Of Rights and Ceremonies. — The ceremonial law 
+of the Jews was a schoolmaster and guardian to lead them to Christ, 
+the true Liberator, who abrogated it so that believers are no more on- 
+
+
+9 55. THE SECOND HELVETIC CONFESSION, 1566. 410 
+
+3er the law, bnt under the gospel freedom. The Apostles would in  i 
+lay the burden of Jewish ceremonies on the new converts (Acts xv. 28). 
+The more of human rites are accumulated in the Church, the more it 
+is drawn away from Christian liberty and from Christ himself, while 
+the ignorant seek in ceremonies what they should seek in Christ 
+through faith. A few pure and moderate rites consistent with the 
+Word of God are sufficient 
+
+Difference in ceremonies, such as existed in the ancient Church, and 
+exists now among us, need not to interfere with union and harmony 
+in doctrine and faith. In things indifferent, which are neither good 
+nor evil, the Church has always used liberty (1 Cor. viii. 10 ; x. 27 sqq.). 
+
+Chap. XXVIIL Of Church Pbopebty. — The wealth of the Church 
+should be used for the maintenance of public worship and schools, the 
+support of ministers and teachers, and especially also for the benefit 
+of the poor. 
+
+Misapplication and abuse of Church property through ignorance or 
+avarice is a sacrilege, and calls for reformation. 
+
+Chap. XXIX. Of Celibacy, Marriage, and Economy. — Those who 
+have the gift of celibacy from heaven, so as to be pure and continent 
+from their whole heart, may serve the Lord in that vocation in simplic- 
+ity and humility, without exalting themselves above others. If not, 
+they should remember the apostolic word : ' It is better to marry than 
+to burn' (1 Cor. vii. 9). 
+
+Marriage (the remedy for incontinence, and continence itself) was 
+instituted by God, who blessed it richly, and inseparably joined man 
+and woman to live together in intimate love and harmony (Matt xix. 
+5). Marriage is honorable in all, and the bed is undefiled (Heb. xiii. 
+4; 1 Cor. vii. 28). 
+
+We condemn polygamy, and those who reject second marriages. 
+
+Marriage should be contracted in the fear of the Lord, with the con- 
+sent of parents or their representatives, and for the end for which it 
+was instituted. 
+
+Children should be brought up in the fear of the Lord, properly sup- 
+ported by their parents (1 Tim. v. 8), and be taught honest aits or 
+trades. 
+
+We condemn the doctrine which forbids marriage, or indirectly 
+slights it as unholy and unclean (1 Tim. iv. 1). We execrate unclean 
+
+
+430 THE CREEDS OF CHRISTENDOM. 
+
+celibacy, secret and open fornications, and the pretended continency of 
+hypocrites. 
+
+Chap. XXX. Of the Magistrate. — The civil magistrate is ap- 
+pointed by God himself (Bom. xiii.) for the peace and tranquillity of 
+the human race. If opposed to the Church, he can do much harm ; if 
+friendly, he can do the Church most useful service. 
+
+The duty of the magistrate is to preserve peace and public order; 
+to promote and protect religion and good morals; to govern the people 
+by righteous laws; to punish the offenders against society, such as 
+thieves, murderers, oppressors, blasphemers, and incorrigible heretics 
+(if they are really heretics).1 
+
+Wars are justifiable only in self-defense, and after all efforts at peace 
+have been exhausted. 
+
+We condemn the Anabaptists, who maintain that a Christian should 
+not hold a civil office, that the magistrate has no right to punish any 
+one by death, or to make war, or to demand an oath. 
+
+All citizens owe reverence and obedience to the magistrate as the 
+minister of God in all righteous commands, and even their lives when 
+the public safety and welfare require it Therefore we condemn 
+the despisere of the magistrate, rebels and enemies of the common- 
+wealth, and all who openly or artfully refuse to perform their duties 
+as citizens. 
+
+We pray to God, our merciful heavenly Father, to bestow his bless- 
+ing upon princes and rulers, upon us, and upon all his people, through 
+Jesus Christ our only Lord and Saviour : to whom be praise, and glory, 
+and thanksgiving, forever and ever. Amen. 
+
+1 * Coerceat et hareticoB (qui vere heeretid sunt) incorrigibiU*, Dei majestatem bhupkeman 
+et Eccleriam Dei conturbare, adeoque perdere non desinentee.' The same view of the right 
+and duty of the civil government to punish heretics is expressed in other Confessions. The 
+Reformers differed from the Roman Catholics, not so much in the principle of persecution as 
+in the definition of heresy and the degree of punishment Nevertheless, the Reformation in- 
+augurated the era of religious toleration and freedom. 
+
+
+I 56. JOHN CALVIN. ,421 
+
+
+§ 69. The Heidelberg Catechism. A.D. 1563. 
+
+Literature. 
+I. Stahdaid Editiohs Of thx Catxohism. 
+
+Official German editions of 1668 (three), 1886, 1690, 1684, 17*4, 1863 (American). The original title it 
+'Catbchismus I Obex | CfrififtAer ttnbmid&t, | toicber in Jttr&en unb ©d)& 1 lot ber (tyurfurftttfrn | 
+9fd$ getritben | totrbt | ®tbrutft in bet CtyirfiirfHt* | d)en ©tab $ttf ftter&, bur* | 3o}annem 3Wa$«r. I 
+1868.' With the Electoral arms. 96 pages. 
+
+There is but one copy of the first edition known to exist, and this did not come into public notice till 
+1864. It belonged to Prat Hermann Wilken, of Heidelberg, whose name it bears, with the date 1668 ; was 
+bought by Dr. Trevtranus, of Bremen, in 1828, given by him to Dr. Menken, bought back after Menken's 
+death, 1882, and Is now in the University Library at Utrecht I examined it in October and Novem- 
+ber, 1865, at Bremen. It has the remark, tDiesses 1st die aUererste Edition, in weleher Pag. 66 die BOste 
+Frag wad Antwort nieht gefunden teirdL Auff ChurfureUichen Befehl eingezogen. Liber rarissimus.* 
+The Scripture texts are quoted Id the margin, but only the chapters, since the veraicular division (which 
+first appeared in Stephens's Greek Testament of 1651) had not yet come into general use. A quasi fac- 
+simile of this copy was Issued by the Rev. Albbkoht Woltbbs, then at Bonn (now at Halle), under the 
+title, *Der Heidelberger Kateehismus in seiner ursprfsnglichen Oestalt, herauegegeben nebst der Oeschiehte 
+ariast ftxfes  m Jofcre 1568.' Bonn, 1864. Comp. his art, in the Studien und Krittken for 1867, pp. 1, 2. 
+
+Ndembtxb, in his collection of Reformed Confessions, pp. 890 sqq., gives, besides the Latin text, a 
+faithful reprint of the third German edition, with the eightieth question in ralL 
+
+Pbilipp Sobavf : Der Heidelberger Kateehismus. Koch der ersten Ausgabe von 1568 revidirt und mil 
+kritisehen Anmerkungen, soicie einer Oeschiehte und Charakteristtk dee Kateehismus versehen. Philadel- 
+phia (J.Kohler), 1868; second edition, revised and enlarged, 186& This edition was prepared for the 
+tercentenary celebration of the Heidelberg Catechism, and gives the received text of the third edition 
+with the readings of the first and second editions, and the Scripture proofs in fall. 
+
+The Latin translation was published in 1668, and again in 1566, under the title, 'Cats- | ohrsis Rklioio? | 
+ins Christian*, | gum traditur in EceleeHe | et SchoUs Palo- 1 ttnatus. | Beydelbergce. | Exeusum anno poet 
+Chietum. | notion M.D.LXVI.' I saw a copy of this ed. Latina in the library of the late Dr. Treviranua, 
+
+Dogmengeschickte, Vol. III. p. 98) says of Bucer, that he had the theological elements for a 
+true doctrinal onion of the Lutheran and Reformed views of the eucharist. lIn der richtigen 
+extgetischen Grundlagt vdllig mit Zwingli einig, brachte er das Element, welches auch in 
+Zwingli keimartig vorhanden gewesen, aber in der Hitze des Streites gam zuruckgetreten 
+war— die Lebensgemeinscha/t oder unto mystica mit der Person Christi—im Sinne der Te- 
+trapohtana (d. «. im Sinne der nachherigen calvinischrmelanchthonischen Lehre) zur Entwick- 
+
+1 Banm, pp. 569, 572. 
+
+
+530 THE CREEDS OF CHRISTENDOM. 
+
+in Bremen (I860). On the title-page the words are written, tEdttio rara et originalie? also the bum 
+of O. Menken, the former owner. The Scripture references are marked on the margin, including the 
+verses. The eightieth question is complete (with texecranda idotolatria1), pp. 62 and 6ft, and supported 
+by many Scripture texts and the Can. Missoe. The questions are divided into fifty-two Sundays. iFn- 
+cationes aliquot privates et publiccs,' a lPreeatio seholastiea,' and some versified prayers of Joachim 
+Camerarins (the friend and biographer of Melanchthon), are added. 
+
+The best English, or rather American, edition of the Catechism is the stately triglot tercentenary 
+edition prepared at the direction of the German Reformed Church in the United States, by a committee 
+consisting of E. V. Gerhart, D.D., John W. Nevin, D.D., Henry Harbaugh, D.D., John 8. Ketsler, D.R, 
+Daniel Zacharias, D.D., and three laymen, and issued under the title, ' The Heidelberg Cbtefttm, in Ger- 
+man, Latin, and English; with an Historical Introduction (by Dr. Nevin), New York (Charles Serlbaerfc 
+1868.' 4to. The German text is a reprint of the third edition after Niemeyer, with the German in mod- 
+ern spelling added ; the English translation is made directly from the German original, and is far better 
+than the one in popular use, which was made from the Latin. It Is the most elegant and complete 
+edition of the Catechism ever published, but It appeared before the discovery of the editto prtacepe, and 
+repeats the error concerning the eightieth question (see Introd. p. 88). 
+
+IL COMMENTARIES. 
+
+The commentaries and sermons on the Heidelberg Catechism are exceedingly numerous, especially 
+in the German and Dutch languages. The first and most valuable is from the chief author, Zioa. Uss*- 
+hub : Corpus Doctrines orthodoxor, or Commentary on the Heidelberg Catechism, ed. by his pupil, Divrn 
+Parkus, and repeatedly publish ed at Heidelberg and elsewhere— 1691 , 1618, etc— in Latin, German, Dutch, 
+and English. An American edition, on the basis of the English translation of Bishop Dr. H. Parbt, was 
+issued by Dr. Williabd (President of Heidelberg College, Tiffin, O.), Columbus, O. I860. Other standard 
+commentaries are by Cooobjus (1671), i 'Outbsin 0719), Lampk (1721), Stahklin (1714), and vajt Aim 
+(1800). See a fuller list by Harbaugh in ' Mercersb. Rev.' for 1860, pp. 601-626, and in Bethune's Lectures. 
+
+Of more recent works we name— 
+
+Karl Stmuorr : Theologischcs Handbuch zur Auslegung dee Heidelbsrger Catechismus. Francf. a. If. 1861 
+
+Geo. W. Bicthunk (D.D., and minister of the Ref. Dutch Ch.,N.Y. ; d. 13C2) : Expository Lectures on Of 
+Heidelb. Catech. N. York, 1864, 2 vols., with an alphabet, list of works by Van Nrbt at close of Vol IL 
+
+Hbrmann Dalton (Ger. Ref. minister at St. Petersb.) : Tmmanuel. Der Heidelberger Katechismus ebBs  
+henntnisa- und Erbauungsbuch der evangel Kirche erkldrt und an's Herz gekgL Wiesbaden, 1870 (pp. 531). 
+
+HL Historical Works on thb Catbohtsm. 
+
+H. Alttng (Prof, of Theology at Heidelberg and Grdningen, d. 1644): Historia Eoclesim Pulatim, 
+Prankf. a. M. 1701. 
+
+B. G. Strut* : Pfdlzische Kirchenhietorie. Frankf. 1781, Ch. V. sqq. 
+
+D. L. Wvndt : Orundriss der pfdleischen KirchsngeschichU bis turn Jahr 1742. Heidelb. 1798. 
+
+Jaqcrs Law fan t : LHnnooence du Catichieme de Heidelberg, Heidelb. 1688 (1728). 
+
+J. Chjl Koohbb: Katechetisehe Geschichte der Reformirten Kirche, eonderlich der Sekkksab am Atf* 
+berger Katechismi. Jena, 1766, pp. 287-444. 
+
+G. J. Planok : Geschichte derprotestantischen Theologie von Luther's Tods, etc. Vol. II. Part IX pp. 475-tfl. 
+(This is Vol. V. of his great work on the Geschichte der Bntstehung, eta, uneeres protectant. Lehrbegrft.) 
+
+Hbtnb. Simon van Alpbn : Geschichte u. Literatur dee Heidelb. Katechismus. Frankf. a. M. 1800. Vol 
+m. Part II. (The first two volumes and the first part of the third volume of this catechetical work eon- 
+tain explanations and observations on the Catechism, which are, however, semi-rationalistic) 
+
+Joh. Cua. W. Auoubti : Versuch einer hist.-kritischen BinleUung in die beiden HauptrKatechismen (tht 
+Luth. and Heidelb.) der evangelischen Kirche. Blberfeld, 1824, pp. 96 sqq. 
+
+Ribnaokbb: Article on the Heidelb. Catechism in Ersch und Gruber, AUgem* EncyHop, Sect H. Pitt 
+IV. pp. 886 sqq. 
+
+Ludwio Haubsrr: Geschichte der Rhein-Pfalz. Heidelb. 1846. Vol.11. 
+
+D. Skiskn : Geschichte der Reformation zu Heidelberg, von ihren ersten Anfdngen bis zur Abfamwmgim 
+Heidelb. Katechismus. Eine Denkschrift zwr dreihundertjdhrigen Jubelfeier daeelbst am 8. Jam. 1841 
+Heidelb. 1846. 
+
+Aug. Ebbabd : Das Dogma vom heil A bendmahl und seine Geschichte. P. a. M. 1846, Vol. IL pp. 876 sqq. 
+
+E. Fb. Vibbobdt: Geschichte der Reformation im Grossherzogthum Baden. Hach grossentheOs aea* 
+schriftUchen QtteUen. Karlsruhe, 1847. 
+
+John W. Nbvtn : History and Genius of the Heidelberg Catechism. Cbambersburg, Pennsylvania, 180. 
+(The best work on the Catechism In English.) Comp. Dr. Nsvim'b able Introduction to the triglot ter- 
+centenary edition of the H. C. New York, 1868, pp. 11-127. 
+
+Karl Sudhoft : C. Olevianus und Z. Ursinus. Leben und ausgewdhUe Schriften. Elberfeld, 1867. 
+
+G. D. J. Souotsl: History of the Origin, Introduction, and Fortunes of the Heidelberg Catechism (b 
+Dutch). Amsterdam, 1863. 
+
+Several valuable essays on the Heidelberg Catechism, by Plot, Sack, and Ullmamh, in the Studim 
+und Kritiken for 1863, and by Woltbrs and Tbbohsel, ibid, for 1867. 
+
+Tbborntrnaby Moncmbnt. In Commemoration of the Three Hundredth Anniversary of the Hetiefbery 
+Catechism. Published by the German Reformed Church of the United States of North America* is 
+
+
+r 
+
+
+9 GO. THE HEIDELBERG CATECHISM, 1563. C3J 
+
+Bngllnh and German. The German ed. by Dr. Sob a ft, with an historical introduction. Chamberuburg 
+and Philadelphia, Pa. 1863. This work contains about twenty essays, by European and American theo- 
+logians, »o the history and theology of the Heidelberg Catechism. 
+
+J. L Ducdbs (Prot at Utrecht) : De Heidelbergache Cattchismtu in zijne eerste Ijevewfaren 1063-1667. 
+Hutorixhe en BiWografuehe NaUzing met 26 Factimiles. Utrecht, 1867 (pp. 154). Very valuable for the 
+ttrly liierary history of the H. C., with fac-ei miles of the first German, Latin, and Dutch editions. 
+
+THE REFORMATION IN THE PALATINATE. 
+
+The Palatinate, one of the finest provinces of Germany, on both sides 
+of the upper Rhine, was one of the seven electorates (Kurfiinten- 
+thiimer), wLose rulers, in the name of the German people, elected the 
+Emperor of Germany. After the dissolution of the old empire (1806) 
+it ceased to be a politico-geographical name, and its territory is now 
+divided between Baden, Bavaria, Hesse Darmstadt, Nassau, and Prus- 
+sia. Its capital was Heidelberg (from 1231 till 1720), famous for its 
+charming situation at the foot of the Konigsstuhl, on the banks of 
+the Swabian river Neckar, for its picturesque castle, and for its uni- 
+versity (founded in 1346). 
+
+Luther made a short visit to Heidelberg in 1518, and defended cer- 
+tain evangelical theses. In 1546, the year of Luther's death, the Ref- 
+ormation was introduced under the Elector Frederick II. Melanch- 
+thon, who was a native of the Palatinate, and twice received a call to a 
+professorship of theology at Heidelberg (1546 and 1557), but declined, 
+acted as the chief counselor in the work, and aided, on a personal visit 
+in 1557, in reorganizing the university on an evangelical basis under 
+Otto Henry (1556-59). He may therefore be called the Reformer of 
+the Palatinate. He impressed upon it the character of a moderate 
+Lutheranism friendly to Calvinism. The Augsburg Confession was 
+adopted as the doctrinal basis, and the cnltus was remodeled (as also 
+in the neighboring Dnchy of Wiirteraberg) after Zwinglian simplicity. 
+Heidelberg now began to attract Protestant scholars from different 
+countries, and became a battle-ground of Lutheran, Philippist, Cal- 
+viuist, and Zwinglian views. The conflict was enkindled as usual by 
+the zeal for the real presence. Tilemann Heshnsius, whom Melanch- 
+thon, withont knowing his true character, had recom mended to a theo- 
+logical chair (1558), introduced, as General Superintendent, exclusive 
+Lutheranism, excommunicated Deacon Klebitz for holding the Zwin- 
+glian view, and even fought with him at the altar about the commu- 
+nion cup. This public scandal was the immediate occasion of the 
+Heidelberg Catechism. 
+
+
+n 
+
+
+532 THE CREEDS OF CHRISTENDOM. 
+
+FREDERICK m. 
+
+During this controversy Frederick: III., surnamed the Pious (1515- 
+1576), became Elector of the Palatinate, 1559. He made it the chief 
+object of his reign to carry out the reformation began by his prede- 
+cessors. He tried at first to conciliate the parties, and asked the advice 
+of Melanchthon, who, a few months before his death, counseled peace  
+moderation, and Biblical simplicity, and warned against extreme and 
+scholastic subtleties in the doctrine of the Lord's Supper.1 He deposed 
+both Heshusius and Klebitz, arranged a public disputation (June, 1560) 
+on the eucharist, decided in favor of the Melanchthonian or Calvinistic 
+view, called distinguished foreign divines to the university, and in- 
+trusted two of them with the composition of the Heidelberg Catechism, 
+which was to secure harmony of teaching and to lay a solid founda- 
+tion for the religious instruction of the rising generation. 
+
+Frederick was one of the purest and noblest characters among the 
+princes of Germany. He was to the Palatinate what King Alfred and 
+Edward VL were to England, what the Electors Frederick the Wise 
+and John the Constant were to Saxony, and Duke Christopher to Wiir- 
+temberg. He did more for educational and charitable institutions than 
+all his predecessors. He devoted to them the entire proceeds of the 
+oppressed convents. He lived in great simplicity that he might con- 
+tribute liberally from his private income to the cause of learning and 
+religion. He was the first German prince who professed the Re- 
+formed Creed, as distinct from the Lutheran. For this he suffered 
+much reproach, and was threatened with exclusion from the benefits 
+of the Augsburg Treaty of Peace (concluded in 1555), since Zwin- 
+glianism and Calvinism were not yet tolerated on German soiL Bnt 
+at the Diet of Augsburg, in 1566, he made before the Emperor a 
+manly confession of his faith, and declared himself ready to lose his 
+crown rather than violate his conscience. Even his opponents could 
+not but admire his courage, and the Lutheran Elector Augustus of 
+Saxony applauded him, saying, ' Fritz, thou art more pious than all of 
+
+1 Responsio Ph. Mel. ad qucestionem de controversia Heidelbergenri (Nov. 1, 1559), in Corp. 
+Reform. Vol. IX. pp. 960 sqq. It is the last public utterance of Melanchthon on the en- 
+chariatic question, nnd agrees substantially with the doctrine of Calvin, as it was 
+expressed in the Heidelberg Catechism. 
+
+
+§ 69. THE HEIDELBERG CATECHISM, 1568. 533 
+
+i».' He praised God on his death-bed that he had been permitted to 
+see Bach a reformation in Church and school that men were led away 
+from human traditions to Christ and his divine Word. He left in 
+writing a full confession of his faith, which may be regarded as an 
+authentic explanation of the Heidelberg Catechism ; it was published 
+after his death by his son, John Casimir (1577). 
+
+"UB8INU8 AND OLEYIAKUS. 
+
+Frederick showed his wisdom by calling two young divines, TJrsinus 
+and Olevianus, to Heidelberg to aid in the ^Reformation and to prepare 
+an evangelical catechism. They belong to the reformers of the second 
+generation. Theirs it was to nurture and to mature rather than to 
+plant Both were Germans, but well acquainted with the Reformed 
+Churches in Switzerland and France. Both suffered deposition and 
+
+I exile for the Reformed faith. 
+
+I Zachabias Uksinus (Bar), the chief author of the Heidelberg Cate- 
+
+chism, was born at Breslau, July 18, 1534, and studied seven years (1550- 
+1557) at Wittenberg under Melanchthon, who esteemed him as one of 
+his best pupils and friends. He accompanied his teacher to the relig- 
+
+I ions conference at Worms, 1557, and to Heidelberg, and then proceeded 
+on a literary journey to Switzerland and France. He made the person- 
+al acquaintance of Bullinger and Peter Martyr at Zurich, of Calvin and 
+
+| Beza at Geneva, and was thoroughly initiated into the Reformed Creed. 
+Calvin presented him with his works, and wrote in them the best wishes 
+for his young friend. On his return to Wittenberg he received a call 
+to the rectorship of the Elizabeth College at Breslau. After the death 
+of Melanchthon he went a second time to Zurich (Oct., 1560), intending 
+to remain there. In the following year he was called to a theological 
+chair at Heidelberg. Here he labored with untiring zeal and success 
+till the death of Frederick III., 1576, when, together with six hundred 
+steadfast Reformed ministers and teachers, he was deposed and exiled 
+by Louis VI., who introduced the Lutheran Creed. Ursinus found a 
+refuge at Neustadt an der Hardt, and established there, with other 
+deposed professors, a flourishing theological school under the protec- 
+tion of John Casimir, the second son of Frederick III. He died in 
+the prime of his life and usefulness, March 6, 1583, leaving a widow 
+and one son. In the same year Casimir succeeded his Lutheran brother 
+
+
+534 THE CREEDS OF CHRISTENDOM:. 
+
+in the Electorate, recalled the exiled preachers, and re-established the 
+Reformed Church in the Palatinate. 
+
+Ursinus was a man of profound classical, philosophical, and theo- 
+logical learning, poetic taste, rare gift of teaching, and fervent piety. 
+His devotion to Christ is beautifully reflected in the first question of 
+the Heidelberg Catechism, and in his saying that he would not take a 
+thousand worlds for the blessed assurance of being owned by Jesus 
+Christ, ne was no orator, and no man of action, but a retired, mod- 
+est, and industrious student.1 His principal works, besides the Cate- 
+chism, are a Commentary on the Catechism {Corpus doctrines ortho- 
+doxce) and a defense of the Reformed Creed against the attacks of 
+the Lutheran Formula of Concord. 
+
+Caspar Olevianus (Olewig), born at Treves Aug. 10, 1536, studied 
+the ancient languages at Paris, Bourges, and Orleans, and theology at 
+Geneva and Zurich. He enjoyed, like Ursinus, the personal instruc- 
+tion and friendship of the surviving reformers of Switzerland. He 
+began to preach the evangelical doctrines at Treves, was thrown into 
+prison, but soon released, and called to Heidelberg, 1560, by Frederick 
+III., who felt under personal obligation to him for saving one of his 
+sons from drowning at the risk of his own life. He taught theology 
+and preached at die court. He was the chief counselor of the Elect- 
+or in all affairs of the Church. In 1576 he was banished on account 
+of his faith, and accepted a call to Herborn, 1584, where he died, Feb. 
+27, 1585. His last word was a triumphant i certissimus? in reply to a 
+friend who asked him whether he were certain of his salvation. Theo- 
+dore Beza lamented his death in a Latin poem, beginning 
+
+'Eheu, quibus suspiriis, 
+Eheu, quibus te lacrymi* 
+Oleviane, planxerof* 
+
+Olevianus was inferior to Ursinus in learning, but his superior in tie 
+pulpit and in church government He wrote an important catechet- 
+ical work on the covenant of grace, and is regarded as the forerunner 
+of the federal theology of Coccejus and Lampe. He labored earnestly, 
+but only with moderate success, for the introduction of the Presbyte- 
+rian form of government and a strict discipline, after the model of 
+
+1 Oil the door of his study he inscribed the warning, 'Amice, quisquu hue veiti*, out agit* 
+paucity ant abi, out me labarantem adjuva,' 
+
+
+J 69. THE HEIDELBERG CATECHISM, 1568. 535 
+
+Geneva. Thomas Erastus (Lieber), Professor of Medicine at Heidel- 
+berg, and afterwards of Ethics at Basle (died 1583), opposed excom- 
+munication, and defended the supremacy of the state in matters of 
+religion; hence the term 'Erastianism' (equivalent to Csesaropapism). 
+
+PREPARATION AND PUBLICATION OF THE CATECHISM. 
+
+The Heidelberg Catechism, as it is called after the city of its birth, 
+or the Palatinate (also Palatine) Catechism, as it is named after the 
+country for which it was intended, was prepared on the basis of two 
+Latin drafts of Ursinos and a German draft of Olevianus. The pecul- 
+iar gifts of both, the didactic clearness and precision of the one, and 
+the pathetic warmth and unction of the other, were blended in beauti- 
+ful harmony, and produced a joint work which is far superior to all 
+the separate productions of either. In the Catechism they surpassed 
+themselves. They were in a measure inspired for it At the same 
+time, they made free and independent use of the Catechisms of Cal- 
+vin, Lasky, and Bullinger. The Elector took the liveliest interest in 
+the preparation, and even made some corrections. 
+
+In December, 1562, Frederick submitted the work to a general synod 
+of the chief ministers and teachers assembled at Heidelberg, for revis- 
+ion and approval. It was published early in 1563, in German, under the 
+title i Catechismns, or Christian Instruction, as conducted in the Church- 
+es and Schools of the Electoral Palatinate.'1 It is preceded by a short 
+Preface of the Elector, dated Tuesday, January 19, 1563, in which he 
+| informs the superintendents, clergymen, and schoolmasters of the Pala- 
+i tinate that, with the counsel and co-operation of the theological faculty 
+and leading ministers of the Church, he had caused to be made and 
+set forth a summary instruction or Catechism of our Christian religion 
+from the Word of God, to be used hereafter in churches and schools 
+j for the benefit of the rising generation. 
+
+i the third edition and the eightieth question. 
+
+There appeared, in the year 1563, three official editions of the Cate- 
+chism with an important variation in the eightieth question, which de- 
+nounces the Romish mass as ' a denial of the one sacrifice of Christ, 
+
+1 See the original title i© ♦*•* " "' * u~» above. 
+
+i Vol. L— M h 
+
+
+536 THE CREEDS OF CHBISTENDOM. 
+
+and as an accursed idolatry.' In the first edition this question was 
+wanting altogether; the second edition has it in part; the third in 
+full, as it now stands.1 This question was inserted by the express 
+command of the Elector, perhaps by his own hand, as a Protestant 
+counter-blast to the Romish anathemas of the Council of Trent, which 
+closed ite sessions Dec. 4, 1563. Hence the remark at the end of the 
+second and third editions : ' What has been overlooked in the first 
+print, as especially on folio 55 [which contains the eightieth question], 
+has now been added by command of his electoral grace. 1563.' 
+
+The same view of the Romish doctrine of transubstantiation and the 
+sacrifice of the mass was generally entertained by the Reformers, and 
+is set forth as strongly in the Articles of Smalcald and other symbol- 
+ical books, both Lutheran and Reformed. It must be allowed to re- 
+main as a solemn protest against idolatry. But the wisdom of inserting 
+controversial matter into a catechism for the instruction of the youth 
+has been justly doubted. The eightieth question disturbs the peace- 
+ful harmony of the book, it rewards evil for evil, it countenances in- 
+tolerance, which is un-Protestant and unevangelical. It provoked mnch 
+unnecessary hostility, and led even, under the Romish rule of the Elect- 
+or Charles Philip, in 1719, to the prohibition of the Catechism ; but 
+the loud remonstrance of England, Prussia, Holland, and other Prot- 
+estant states forced the Elector to withdraw the tyrannical decree 
+within a year, under certain conditions, to save appearances. 
+
+TRANSLATIONS. 
+
+The Heidelberg Catechism was translated into all the European and 
+many Asiatic languages. It has the pentecostal gift of tongues in 
+a rare degree. It is stated that, next to the Bible, the ( Imitation 
+of Christ,' by Thomas & Kerapis, and Bunyan's ' Pilgrim's Progress,' 
+no book has been more frequently translated, more widely circulated 
+and used. Whole libraries of paraphrases, commentaries, sermons, 
+attacks, and defenses were written about it. In many Reformed 
+churches, especially in Holland (and also in the United States), it was 
+and is to some extent even now obligatory or customary to explain the 
+
+1 By the discovery of the copy of the first ed.f 1864, the origin of the eightieth question 
+was satisfactorily decided. A second copy of the original ed. is in the Imperial Library 
+of Vienna. The Brit. Museum contains a copy of the Engl, trans, by "William Turner, 
+Doctor of Physiok, Imprinted at London, by Richard Jones, 1572." — Ed. 
+
+
+r 
+
+
+9 69. THE HEIDELBERG CATECHISM, 1668. 537 
+
+Catechism from the pulpit every Sunday afternoon. Hence the di- 
+vision of the questions into fifty-two Sundays, in imitation of the ex* 
+ample set by Calvin's Catechism.1 
+
+A Latin translation, for the use of colleges, was made by order of 
+the Elector, by Joshua Laous and Lambert Ludolph Pithopceus, and 
+appeared soon after the German, since Olevianus sent a copy of each 
+to Bullinger, in Zurich, as early as April, 1563.1 It is, however, much 
+inferior to the German in force and unction. The Latin text was 
+often edited separately as well as in the works of Ursinus, in connec- 
+tion with his commentary and other Latin commentaries, and in col- 
+lections of Eef ormed symbols.3 
+
+There are three Dutch translations: the first appeared at Emden, 
+1563 ; the second, by Peter Dathenus, in connection with a Dutch 
+version of the Psalter, in 1566, and very often separately.4 
+
+A Greek translation was prepared by a distinguished classical schol- 
+ar, D. Feid. Sylbubg, 1597.5 
+
+Besides these there are editions in modern Greek, in Hebrew, Ara- 
+bic, etc.6 
+
+Three or four English translations were made from the Latin, and 
+obtained a wide circulation in Scotland, England, and America.7 A 
+
+1 This division was first introduced in the Latin edition of 1566, perhaps earlier. Van Al- 
+pen, Niemeyer, and others are wrong in dating it from the German edition of 1578 or 1575. 
+
+' Dcedes gives a fee-simile of the title-page of the Latin edition of 1568, from a copy in 
+the University Library at Utrecht It is nearly the same as the title of the edition of 1666, 
+given in the literature above. 
+
+1 Niemeyer (pp. 428 sqq.) reproduces the edition of 1584, which agrees with the ed, prtnctp* 
+of 1568 (as far as I can judge from the few fac-simile^ages given by Dcedes), and with the 
+text in the Oxford Sylbge, while that in the Grseco-Latin edition of Sylbnrg slightly differs. 
+Dr. Louis H. Steiner, of Frederick City, McL, published an elegant and accurate edition under 
+the title * Catechesis Religionis Christiana sen Catechismus Heidelbergentis. Baltimore, 1862.' 
+He gives the variations of three Latin editions : of Cambridge, 1585 ; of Geneva, 1609 (for- 
+merly in the possession of Chevalier Bunsen) ; and the Oxford SyUogt, 1804. 
+
+* On the Dutch translations, see especially the learned work of Professor Dcedes, of Utrecht, 
+pp. 74-128, with fee-similes at the end of the volume. 
+
+* I hare before me a Gneco-Latin edition of the Catechism (nmyxipac rfc xpeffwwurifc 
+Sptimiao), by Sylburg, and of the Belgic Confession by Jac. Revius, printed at Utrecht, 
+1660. Earlier editions I see noticed in catalogues. 
+
+* Niemeyer (Proleg. p. lxii.) mentions a Polish translation by Prasmoviutj a Hungarian by 
+Scarasius, an Arabic hy Chelius, a Singalese by Konyer, besides French, Italian, Spanish, 
+English, Bohemian, modern Greek, and Hebrew versions. Dcedes (p. 41) adds a Persian and 
+a Malayan translation. There are no doubt many other versions. 
+
+* An English edition, without the name of the translator, appeared A.D. 1591 at Edin- 
+burgh, ' by publick Authority, for the Use of Scotland,* and also repeatedly in connection witk 
+
+
+538 
+
+
+THE CREEDS OF CHRISTENDOM. 
+
+
+more correct one from the German original was prepared for the ter- 
+centenary celebration of the Catechism, by a learned and able com* 
+mittee appointed by the German Reformed Synod in Pennsylvania, 
+bnt has not yet come into public nse.1 
+
+The merits of the Latin and English translations, and their relation 
+to the German original, may be seen from the following specimens: 
+
+
+The German Original, 156S. 
+
+flfrage 1. ffiad ifl beta etaiger Srofl isi fttai tab 
+im@terben? 
+
+2)ag id? nut 2eib unb @eele, bribes tm Seben 
+unb tm ©terben, nidjt metn( fonbern meine* 
+artreuen $eitanbe« Qefu (Sbnfh eigen bin, bcr 
+mit feinem tbeuren ©lute ffir aUe meine ©fin* 
+ben uoUfommen beja^let, unb mi* au* atter 
+Oewatt be« £eufel* erlMet bat ; unb alfo be* 
+toa&ret, bag obtte ben SBtUen meine* Eater* 
+tm §immel tein $aar son meinem $aupte 
+lann fatten, ja aud) mtr alle* ju meiner 6eltg« 
+leit bienen nmg. 3)arunt et mi* aud) bur* 
+feiuen ^eiltgcn ©eifl bed enrigen Seben* toer* 
+ficbert, unb ibm fortbin ju leben toon $erjen 
+miHig unb bereit madjt. 
+
+gragc 2. ffiie rifle ©tfitfe j!nb bir n5n)ig ju 
+toiffen, bag bu in biefem $ro(te feiigUd) leben unb 
+flerben mdgeft ? 
+
+©rei ©tude : C&rfHid), tote grog meine ©finbe 
+unb (Slenb fei. 3um Unbent, n te i* toon alien 
+metnen ©unben unb (Slenb crlBfct merbe. Unb 
+}um Written, rote ia) ©ott fiit fol*e (5rl6fung 
+foil bautbar fein. 
+
+
+The Latin Version, 1663. 
+
+Qu. 1. Qua est unica tua consolatio in vita 
+et in mortef 
+
+Qaod animo pariter et corpora, sive vivam, 
+sive moriar, non mens, sed fidissimi Domini 
+et Servatoris mei Jesus Christi sum proprius, 
+qui pretioso sanguine suo pro omnibus pec- 
+catis meis plenissime satisfaciens/me ab omni 
+potestate diaboli liberavit, meque ita conservat, 
+ut sine voluntate Patris mei coelestis, ne pilns 
+quidem de meo capite possit cadere : imo ?ero 
+etiam omnia saluti mess servire oporteat. Qoo- 
+circa me quoque sao Spiritu de vita astern* 
+cortum facit, utque ipsi deiuoeps vivam promp- 
+tum ac paratum reddit. 
+
+Qu. 2. Quot sunt tibi scitu necessaria, «f 
+ista9 consolation* f mens, beats vivas et morio- 
+ns t 
+
+Trie, Primnm, quanta sit peccati mei et 
+miserisB men magnitudo. Secundum,4 quo 
+pacto ab omni peocato et miseria liberer. Ter- 
+tium, quam gratiam Deo pro ea liberatione 
+debeam. 
+
+
+the 4 Psalm-Book and the Book of Common Order.' It is embodied in Dunlop's Collection 
+of Confessions of Faith, etc, ofpublick authority in the Church of Scotland (Edinburgh, 1719- 
+1722), Vol. II. pp. 273-361, and reproduced by Dr. Horatios Bonar in his Catechisms of the 
+Scottish Befortnation (London, 1866), pp. 112-170. Dr. Bonar says (p. 171): 'There are 
+several translations of the Heidelberg or Palatine Catechism ; and our Church [the Church 
+of Scotland] seems not to have kept to one. In the edition of the Book of Common Order 
+before us (1615), the Catechism is given alone; in that which Dunlop has followed, it has 
+the * Arguments " and " Uses " of Bastingius. ' Another translation by Bishop Henry Parry, 
+of Worcester (d. 1616), appeared (together with the commentary of Ursinus) at Oxford, 1509 
+and 1601. It was often republished— at Edinburgh, 1615 (with sundry variations, see Bonar, 
+p. 172). again in London, 1633, 1645, 1728, 1851, and quite recently (from the Oxford edition 
+of 1601 , with the variations of the edition of 1728) by Dr. Gerhart and Dr. Louis Steiner in the 
+'Mercersburg Review ' for 1861, pp. 74 sqq. The one now in use in the Dutch and German 
+Reformed Churches in America, is traced (by the late Dr. De Witt of New York) to Dr. Laid- 
+lie, originally from Scotland, minister at Flushing, Long Island, and was adopted, 1771, by 
+the Synod of the Reformed Dutch Church. These three English translations seem to be only 
+different recensions of one translation compared with the Latin text. 
+
+1 See the tercentenary triglot edition of 1863, noticed in the literature above. 
+
+' So also the Oxford Sylloge. The ea\ Grceco-Latina of Sylburg reads instead : 
+solutions facta. 
+
+• AL add. Wo- 
+
+* Al. Alteram. 
+
+
+r 
+
+
+f 69. THE HEIDELBERG CATECHISM, 1568. 
+
+
+539 
+
+
+Scotch Edition of 1591. 
+Front Dwilop'M Collection (1722). 
+
+Que*. 1. What is thy only comfort in life 
+and in death t 
+
+That in soul and body, whether I live or 
+die, I am not mine own, but I belong unto my 
+moat faithful Lord and Saviour, Jesus Christ: 
+who by his precious blood, most fully satisfy- 
+ing for all my sins, hath delivered me from the 
+whole power of the Devil ; and doth so pre- 
+serve me, that without the will of my heav- 
+enly Father, not so much as a hair can fall 
+from my head : yea, all things are made to 
+serve for my salvation. Wherefore by his 
+Spirit also, he assureth me of everlasting life, 
+and maketh me ready and prepared, that 
+henceforth I may live unto him. 
+
+Que*. 2. How many things are needful for 
+thee to know, to the end [that] thou, enjoying 
+this comfort, may est live and die an happy man f 
+
+Three things. First, What is the greatness 
+of my sin, and of my misery. Secondly, By 
+what means I may be delivered from all my 
+sin and misery. Thirdly, What thankfulness 
+1 owe to God for that deliverance. 
+
+Thb Received American Version, 1771. 
+
+Ques. 1. What is thy only comfort in Ufe 
+and death t 
+
+That I with body and soul, both in life and 
+death, am not my own, but belong unto my 
+faithful Saviour Jesus Christ, who, with his 
+precious blood, hath fully satisfied for all my 
+ana, and delivered me from all the power of 
+the devil ; and so preserves me that without 
+the will of my heavenly Father, not a hair can 
+fall from my head ; yea, that all things must 
+be subservient to my salvation ; and therefore, 
+by his Holy Spirit, he also assures me of eter- 
+nal life, and makes me sincerely willing and 
+ready henceforth, to live unto him. 
+
+Que*. 2. How many things are necessary for 
+thee to know, that thou, enjoying this comfort, 
+mayest live and die happily ? 
+
+Three; the first, how great my sins and 
+miseries are ; the second, how I may be de- 
+livered from all my sins and miseries; the 
+third, how I shall express my gratitude to 
+God for such deliverance. 
+
+
+Bishop Parry's Translation (1591). 
+Oxford Edition of 1601. 
+
+Que*. 1. What is thy only comfort in lift 
+and death t 
+
+That both in soul and body, whether I live 
+or die, I am not mine own, but belong wholly1 
+unto my most faithful Lord and Saviour Jesus 
+Christ, who by his precious blood roost fully 
+satisfying for all my sins, hath delivered me 
+from all the power of the devil, and so' pre- 
+serveth me, that without the will of my heav- 
+enly Father not so much as a hair may fall 
+from my head, yea all things must serve for 
+my safety. Wherefore by his Spirit also he 
+assureth me of everlasting life, and maketh 
+me ready, and prepared, that henceforth I may 
+live to him. 
+
+Que*. 2. How many things are necessary for 
+thee to know, that thou enjoying this comfort 
+mayest Hve and die happily t 
+
+Three. The first, what is the greatness of 
+my sin and misery. The second, how I am de- 
+livered from all sin and misery. The third, 
+what thanks I owe unto God for this deliv- 
+ery. 
+
+The New American Version, 1868. 
+
+Ques. 1. What is thy only comfort in life 
+and in death t 
+
+That I, with body and soul, both in life and 
+in death, am not my own, but belong to my 
+faithful Saviour Jesus Christ, who with His 
+precious blood has fully satisfied for all my 
+sins, and redeemed me from all the power of 
+the devil ; and so preserves me, that without 
+the will of my Father in heaven not a hair 
+can fall from my head ; yea, that all things 
+must work together for my salvation. Where- 
+fore, by His Holy Spirit, He also assures me of 
+eternal life, and makes me heartily willing and 
+ready henceforth to live unto Him. 
+
+Ques. 2. How many things are necessary for 
+thee to know, that thou in this comfort mayest 
+live and die happily t 
+
+Three things : First, the greatness of my 
+sin and misery. Second, how I am redeemed 
+from all my sins and misery. Third, how I 
+am to be thankful to God for such redemp- 
+tion. 
+
+
+Note.— All the English versions, except the last, follow the Latin in its departures from 
+the German, as 'most faithful Lord* (JideUssimi Domini) for 'faithful* (getreuen), 'heavenly 
+Father1 {Patris calestis) for 'Father in heaven' (Vater im Himmel). The dependence on 
+the Latin may be seen also in the words 'most fully satisfying' (plenissime satisfaciens), 
+'delivered* (liberavit) for 'redeemed* (erloset), 'delivery' (Uberatio) for 'redemption' (Er- 
+
+
+1 The redundant 'wholly' occurs also in the Edinburgh edition of 1615, which, to judge 
+from the specimens given by Horatius Bonar (in Catechisms of the Scottish Reformation, 
+p. 172), is a reprint of Parry's translation with a few variations. 
+
+
+540 THE CREEDS OF CHRISTENDOM. 
+
+tibvng), and in the omission of ' heartily* (von Herxen\ for which, however, the commot 
+American version (which Beems to have made use also of the Dutch version) substitute 
+4 sincerely.' 
+
+CHARACTER AND ADC 
+
+The Heidelberg Catechism answers the double purpose of a guide 
+for the religious instruction of the youth and a confession of faith for 
+the Church. 
+
+As a catechism it is an acknowledged masterpiece, with few to equal 
+and none to surpass it Its only defect is that its answers are mostly 
+too long for the capacity and memory of children. It is intended for 
+a riper age. Hence an abridgment was made as early as 1585, bat no 
+attempts to simplify and popularize it have been able to supersede it 
+
+As a standard of public doctrine the Heidelberg Catechism is the 
+most catholic and popular of all the Beformed symbols. The German 
+Reformed Church acknowledges no other. The Calvinistic system is 
+herein set forth with wise moderation, and without its sharp, angular 
+points. This may be a defect in logic, bat it is an advantage in re- 
+ligion, which is broader and deeper than logic. Children and the 
+mass of the people are unable to appreciate metaphysical distinctions 
+and the transcendent mysteries of eternal decrees. The doctrine of 
+election to holiness and salvation in Christ (or the positive and edify- 
+ing part of the dogma of predestination) is indeed incidentally set 
+forth as a source of humility, gratitude, and comfort (Ques. 1, 31, 
+53, 54), but nothing is said of a double predestination, or of an eter- 
+nal decree of reprobation^ or of a limited atonement (comp. Qnes. 37). 
+These difficult questions are left to private opinion and theological 
+science. This reserve is the more remarkable since the authors (as 
+well as all other Reformers, except Melanchthon in his later period) 
+were strict predestinarians. 
+
+FLAN AND ARRANGEMENT. 
+
+The Heidelberg Catechism follows the order of the Epistle to the 
+Romans, and is divided into three parts. The first two questions are 
+introductory. The first part treats of the sin and misery of man 
+(Ques. 3-11; comp. Rom. i. 18-iii. 20) ; the second of the redemption 
+by Christ (Ques. 12-85; comp. Rom. iii. 21-xi. 36); the third of the 
+thankfulness of the redeemed, or the Christian life (Ques. 86-129; 
+comp. Rom. xii.-xvL). The second part is the largest, and contain* 
+
+
+r 
+
+
+§ 69. THE HEIDELBERG CATECHISM, 1563. 541 
+
+an explanation of all the articles of the Apostles' Creed under the 
+three heads of God the Father, God the Son, and God the Holy 
+Ghost The doctrine of the sacraments is rightly incorporated in 
+this part, instead of being treated in separate sections, as in the Bo- 
+man and Lutheran Catechisms. The third part gives an exposition 
+of the Decalogue (as a rule of obedience, viewed in the light of re- 
+demption) and of the Lord's Prayer. 
+
+This order corresponds to the development of religious life and to 
+the three leading ideas of repentance, faith, and love. The conception 
+of Christian life, as an expression of gratitude for redeeming grace, is 
+truly evangelical. In older catechisms the five or six parts of a cate- 
+chism— namely, the Creed, the Decalogue, the Lord's Prayer, Bap- 
+tism, the Lord's Supper — are mechanically co-ordinated ; here they are 
+worked up into an organic system. 
+
+The execution is admirable throughout. Several answers are ac- 
+knowledged gems in the history of catechetical literature — e. g., the 
+definition of faith (Ques. 21), on providence (Ques. 27 and 28), on the 
+significance of the Christian name (Ques. 31 and 32), on the benefit 
+of the ascension (Ques. 49), and on justification by faith (Ques. 60). 
+
+THE SPIRIT OF THE CATECHISM. 
+
+The genius of the Catechism is brought out at once in the first 
+question, which contains the central idea, and strikes the key-note. 
+It is unsurpassed for depth, comfort, and beauty, and, once committed 
+to memory, can never be forgotten. It represents Christianity in its 
+evangelical, practical, cheering aspect, not as a commanding law, not 
+as an intellectual scheme, not as a system of outward observances, but 
+as the best gift of God to man, as a source of peace and comfort in 
+life and in death. What can be more comforting, what at the same 
+time more honoring and stimulating to a holy life than the assurance 
+of being owned wholly by Christ our blessed Lord and Saviour, who 
+sacrificed his own spotless life for us on the cross ? The first question 
+and answer of the Heidelberg Catechism is the whole gospel in a 
+nutshell; blessed is he who can repeat it from the heart and hold 
+it fast to the end.1 
+
+1 Dr.Nevin (Tercentenary Edition, In trod. p. 95) says: 'No question in the whole Cate- 
+chism has been more admired than this, and none surely is more worthy of admiration* 
+
+
+542 THE CREEDS OF CHRISTENDOM. 
+
+It would be difficult to find a more evangelical definition of faith 
+than in Ques. 21 : ' Faith is not only a certain knowledge, whereby I 
+hold for truth all that God has revealed to us in his Word ; but also 
+a hearty trust, which the Holy Spirit works in me by the gospel, that 
+not only to others, but to me also, forgiveness of sins, everlasting 
+righteousness, and salvation are freely given by God, merely of grace, 
+only for the sake of Christ's merits.9 How rich and consoling is the 
+lesson derived from God's all-ruling Providence in Ques. 28! 'That 
+we may be patient in adversity, thankful in prosperity, and for what 
+is future have good confidence in our faithful God and Father, that 
+no creature shall separate us from hiB love, since all creatures are so 
+in his hand that without his will they can not so much as move.' 
+
+The Catechism is a work of religious enthusiasm, based on solid 
+theological learning, and directed by excellent judgment It is bap- 
+tized with the pentecostal fire of the great Reformation, yet remark- 
+ably free from the polemic zeal and intolerance which characterized 
+that wonderfully excited period — by far the richest and deepest in 
+Church history next to the age of Christ and his inspired apostles. 
+It is the product of the heart as well as the head, full of faith and 
+unction from above. It is fresh, lively, glowing, yet clear, sober, self- 
+sustained. The ideas are Biblical and orthodox, and well fortified by 
+apt Scripture proofs.1 The language is dignified, terse, nervous, popu- 
+lar, and often truly eloquent. It is the language of devotion as well as 
+instruction. Altogether the Heidelberg Catechism is more than a book, 
+it is an institution, and will live as long as the Reformed Church. 
+
+Where shall we find, in the same compass, a more beautifully graphic, or a more impres- 
+sively fall and pregnant representation of all that is comprehended for us in the grace of oar 
+Lord and Saviour Jesus Christ ? For thousands and tens of thousands, during the past three 
+hundred years, it has been as a whole system of theology in the best sense of the term, their 
+pole-star over the sea of life, and the sheet-anchor of their hope amid the waves of death. 
+But what we quote it for now is simply to show the mind that actuates and rules the Cate- 
+chism throughout. We have here at once its fundamental conception and the reigning Is* 
+of its construction ; the key-note, we may say, which governs its universal sense, and whose 
+grandly solemn tones continue to make themselves heard through all its utterances from be- 
+ginning to end.' 
+
+1 Ques. 44 is hardly an, exception ; for the idea therein expressed is no error per *, bat 
+only a false interpretation of the article on Christ's descent into heU (Hades) in the Apo» 
+ties' Creed, which places it, as an actual fact, between death and the resurrection, in accord- 
+ance with the Scriptures (Luke xxiii. 43 ; Acts ii. 27, 31 ; 1 Pet. iii. 19 ; iv. 6 ; Eph. iv. 9, 10); 
+while the Catechism, following Calvin and Lasky, understands it figuratively of Christ's suf- 
+fering on the cross. 
+
+
+f 69. THE HEIDELBERG CATECHISM, 1563. 543 
+
+COMPARISON WITH THE LUTHERAN AND WESTMINSTER CATECHISMS. 
+
+The Heidelberg Catechism stands mediating between Luther's Small 
+Catechism, which appeared thirty-four years earlier (1529), and the 
+Shorter Westminster Catechism, which was prepared eighty-four years 
+later (1647). 
+
+These are the three most popular and useful catechisms that Prot- 
+estantism has produced, and have still the strongest hold upon the 
+churches they represent They have the twofold character of cate- 
+chisms and symbolical books. They are alike evangelical in spirit 
+and aim; they lead directly to Christ as the one and all-sufficient 
+Saviour, and to the Word of God as the only infallible rule of the 
+Christian's faith and life. 
+
+Luther's Catechism is the most churchly of the three, and adheres 
+to the Catholic tradition in its order and arrangement It assigns a 
+very prominent place to the Sacraments, treating them in separate 
+chapters, co-ordinate with the Decalogue, the Creed, and the Lord's 
+Prayer; while the others incorporate them in the general exposition 
+of the articles of faith. Luther teaches baptismal regeneration and 
+the corporeal presence, and even retains private confession and abso- 
+lution as a quasi-sacrament Heidelberg and Westminster are free 
+from all remnants of sacerdotalism and sacramentalism, and teach 
+the Calvinistic theory of the sacraments, which rises, however, much 
+higher than the Zwinglian. 
+
+On the other hand, the Lutheran and the Heidelberg Catechisms 
+differ from the Westminster in the following points : 1. They retain 
+the Apostles' Creed as the basis of doctrinal exposition ; while the West- 
+minster Catechism puts it in an appendix, and substitutes a new log 
+ical scheme of doctrine for the old historical order of the Creed, 
+2. They are subjective, and address the catechumen as a Church mem- 
+ber, who answers from his real or prospective personal experience ; 
+while the Westminster Catechism is objective and impersonal, and 
+states the answer in an abstract proposition. 3. They use the warm 
+and direct language of life, the Westminster the scholastic language of 
+dogma; hence the former two are less definite but more expansive and 
+suggestive than the Presbyterian formulary, which, on the other hand, 
+far surpasses them in brevity, terseness, and accuracy of definition. 
+
+
+544 THE CREEDS OF CHRISTENDOM. 
+
+Upon the whole we prefer the catechetical style and method of the 
+creative ^Reformation period, because it is more Biblical and fresh, 
+to that of the seventeenth century — the age of scholastic orthodoxy— 
+although we freely concede the relative progress and peculiar excel- 
+lences of the Westminster standard.1 
+
+The Heidelberg Catechism differs from that of Luther — 1. By its 
+fullness and thoroughness, and hence it is better adapted to a matnrer 
+age ; while that of Luther has the advantage of brevity and childlike 
+simplicity, and adaptation to early youth. The one has one hundred 
+and twenty-nine, the other only forty questions and answers, and of 
+these only three are devoted to the exposition of the Apostles' Creed, 
+while the Sacraments receive disproportionate attention. 2. The Hei- 
+delberg Catechism gives the words of the Decalogue in full, accord- 
+ing to the twentieth chapter of Exodus, and follows the old Jewish 
+and Greek division, which is adopted by the best commentatore; while 
+Luther presents merely an abridgment,1 and follows the Roman di- 
+vision by omitting the second commandment and splitting the tenth 
+into two.3 3. The former gives a summary of the law, through which 
+comes the knowledge of sin, in the first part (Ques. 3 and 4), but ex- 
+plains the Decalogue in the third division, viewing it in its Christian 
+aspect as a permanent rule of life; while Luther regards the law 
+in its Jewish or pedagogic aspect, as a schoolmaster leading men to 
+Christ, and hence he puts it as the first head before the Creed Ur- 
+anus correctly says : ' The Decalogue belongs to the first part so far 
+as it is a mirror of our sin and misery, but also to the third part as 
+
+1 'It may be questioned,' says Dr. Bonar, of the Free Church of Scotland, ( whether the 
+Church gained any thing by the exchange of the Reformation standards for those of the 
+seventeenth century. The scholastic mold in which the latter are cast has somewhat 
+trenched upon the ease and breadth which mark the former ; and the skUlful metaphysics 
+employed at Westminster in giving lawyer-like precision to each statement hare imparted a 
+local and temporary aspect to the new which did not belong to the more ancient standards. 
+Or, enlarging the remark, we may say that there is something about the theology of the 
+Reformation which renders it less likely to become obsolete than the theology of the cove- 
+nant. The simpler formulas of the older age are quite as explicit as those of the later ; while 
+by the adoption of the Biblical in preference to the scholastic mode of expression they 
+have secured for themselves a buoyancy which will bear them up when the others go down. 
+The old age of that generation is likely to be greener than that of their posterity.' (Cat* 
+chisme of the Scottish Reformation, Preface, p. viii.) 
+
+* For example, the fourth (third) commandment is thai condensed: iDu eollet dm Fm»* 
+tag heiUgen' (Thou shalt keep holy the rest-day). 
+
+' Comp. p. 261, note 2. 
+
+
+i j 
+
+
+§ 69. THE HEIDELBERG CATECHISM, 1563. 545 
+
+being the rnle of our new obedience and Christian life.'1 4. In the 
+rendering of the Creed, besides minor verbal differences, the Heidel- 
+berg Catechism retains ' the holy catholic Church,' with the addition of 
+'Christian' {eine heilige attgemeine christliche Kirche)\ while Luther's 
+omits * catholic,' and substitutes for it 'Christian.'2 5. In the Lord's 
+Prayer the Heidelberg Catechism uses the modern form * Our Father' 
+(Unser Voter), while Luther in his Catechism (though not in his trans- 
+lation of Matt vi. 9 and Luke xi. 2) adheres to the Latin and old Ger- 
+man form of ' Father our' (Voter unser), a difference tenaciously main- 
+tained by German Lutherans. The former divides the Prayer into six 
+petitions (with the Greek commentators), and renders U wovtipov ' from 
+the evil one' (vom Bosen, i. e., from the devil) ; while Luther (with 
+Augustine) numbers seven petitions, and translates (herein agreeing 
+with the English version) 'from evil' (vom UebeT). 
+
+The difference between the Heidelberg and Westminster Catechisms 
+is chiefly one of nationality. Where the choice is between the two, the 
+former will be used in preference by Germans, the other by Scotch and 
+English Presbyterians. The Westminster Shorter Catechism has the 
+advantage of greater condensation and precision. It is not impossible 
+to make a better one than either by blending the excellences of both. 
+They represent also two types of piety : the one is more emotional and 
+hearty, the other more scholastic and intellectual. This appears at 
+once in the first question. The Heidelberg Catechism asks : ' What is 
+thy only comfort in life and in death ?' The Westminster: * What is 
+the chief end of man V The one goes at once into the heart of evan- 
+gelical piety — the mystical union of the believer with Christ ; the other, 
+goes back to the creation and the glory of God ; but both teach the 
+same God and Christ, and the same way of salvation, whereby God is 
+glorified, and man is raised to everlasting felicity in his enjoyment. 
+
+1 The Germans express the different aspects of the law by calling It a Sitndenspiegel, S&n- 
+dtxritgel, and Lebensregel, a mirror of sin, a bar of sin, and a rule of life. 
+
+1 Hence in German y the term ' Catholic' and 'Romanist' are used synonymously, and the 
+proverb lDas ist um katholisch zu werden' expresses a desperate condition of things. The 
+English Churches have properly retained the term * catholic' in its good old sense, instead of 
+allowing Romanists to monopolize it. 
+
+
+546 THE CREEDS OF CHRISTENDOM. 
+
+HISTORY OF THE CATECHISM. 
+
+1. The Heidelberg Catechism was greeted with great joy, and was at 
+once introduced into the churches and schools of the Lower Palatinate; 
+while the Upper* Palatinate, under the governorship of Louis (the eld- 
+est son of Frederick III.), remained strictly Lutheran, 
+
+But, like every good book, it had to pass through a trial of proba- 
+tion and a fire of martyrdom. Even before it was printed an anon- 
+ymous writer attacked the Heidelberg Synod which, in December, 
+1562, had adopted the Catechism in manuscript, together with sundry 
+measures of reform.1 After its publication it was violently assailed 
+by strict Lutherans for its alleged Zwinglian and Calvinistic heresies, 
+and by Jesuits on account of the condemnation of the idolatry of the 
+mass in the eightieth question. The first opponents were Lutheran 
+princes (Margrave Charles II. of Baden, Duke Christopher of Wiir- 
+temberg, the Palatine of Zweibriicken), and Lutheran divines, such as 
+Heshusius, Flacius, Brentius, and Andrese.3 Ursinus wrote an able 
+apology of his Catechism, which is embodied in several older editions 
+since 1584. A theological colloquy was held at Maulbronn in April, 
+1564, where the theological leaders of the Lutheran Duchy of Wiir- 
+temberg and the Reformed Palatinate, in the presence of their princes, 
+debated for six days in vain on the eucharist and the ubiquity of 
+Christ's body. Both parties were confirmed in their opinions, though 
+the Reformed had the best of the argument8 
+
+Frederick III., notwithstanding his appeal to Melanchthon and the 
+Altered Augsburg Confession, was openly charged with apostasy from 
+the Lutheran faith, and seriously threatened with exclusion from the 
+peace of the empire. Even the liberal Emperor Maximilian II. wrote 
+
+1 This curious document, which throws light upon that Synod hitherto little known, has 
+been recently recovered and published by Wolters in the Studien und Kritiken for 1867, No. 1, 
+pp. 15 sqq. The Lutheran author, perhaps a dissenting member of the Synod, gives a list 
+of the measures for the introduction of the Catechism and the abolition of various abnaes, 
+and accompanies them with bitter marginal comments, such as: 'This is a lie and against 
+God's Word;' 'This is the Anabaptist heresy;1 'To spread Zwinglianism ;* * Friss Vogd oder 
+ttirb;' lAd spargendam zizaniatn;' ' Ut citius imbibant venenum;' iEvangeUi abrogatio;' 
+{Hispanica inquititio.' 
+
+* See on this Lutheran opposition Wolters, 1. c, and in his earlier book, Der Heiddb. Kate- 
+rhismus in seiner Urgestalt (1864), pp. 141-196; Nevin, In trod, to the TercenL Ed. pp. 43 
+sqq. ; and especially Sudhoff, OUvianus und Ursinvs, pp. 140 sqq. 
+See above, pp. 288 sqq. 
+
+
+§ 69. THE HEIDELBERG CATECHISM, 1563. 547 
+
+him a letter of remonstrance. His fate was to be decided at the Diet 
+of Augsburg, 1566. At this critical juncture the pious Elector boldly 
+defended his Catechism, which, he said, was all taken from the Bible, 
+and so well fortified with marginal proof-texts that it could not be 
+overthrown. He declared himself willing to yield to God's truth, if 
+any one could show him any thing better from the Scripture, which 
+was at hand for the purpose. Altogether he made, at the risk of his 
+crown and his life, such a noble and heroic confession as reminds us 
+of Luther's stand at the Diet of Worms. Even his Lutheran oppo- 
+nents were filled with admiration and praise, and left him thereafter 
+in quiet possession of his faith. 'Why do ye persecute this man?' 
+said the Margrave of Baden ; ' he has more piety than the whole of 
+ns.' The Elector Augustus of Saxony gave similar testimony on this 
+memorable occasion.1 
+
+Thus the Catechism had gained a sort of legal existence in the Ger- 
+man empire, although it was not till after the Thirty-Tears' War, in 
+the Treaty of Westphalia, that the Reformed Church, as distinct from 
+the Lutheran, was formally recognized in Germany. 
+
+After the death of Frederick it had to pass through another perse- 
+cution in the home of its birth. His successor, Louis YI. (1576-1583), 
+exiled its authors, and replaced it by Luther's Catechism and the Form- 
+ula of Concord. But under the regency of Frederick's second son, 
+Prince John Casimir, the Heidelberg Catechism and the Reformed 
+Church were restored to their former honor, and continued to flourish 
+till the outbreak of the Thirty-Tears' War. 
+
+This war brought terrible devastation and untold misery upon Hei- 
+delberg and the Palatinate, which were laid waste by the merciless 
+Tilly (1622). Then followed the repeated invasions of Turenne, 
+Melac, and Marshal de Lorges, under Louis XIV. The Palatinate 
+fell even into the hands of Koman Catholic rulers (1685), and never 
+again rose to its former glory. Thousands of Protestants emigrated 
+to America, and planted the Catechism in Pennsylvania, so that what 
+it lost in the old world it gained in the new. The indifferentism and 
+
+1 Hundeshagen says of Frederick III. : ' He is acknowledged to be the greatest raler 
+which the evangelical Palatinate ever had, and as to personal piety and loyalty to his faith 
+the shining model of an evangelical prince.' See his art on the City and University of 
+Heidelberg, in the Gedenkbuch der 300 jShr. Jubetfeier des Heidclb. KaL pp. 58, 59. 
+
+
+548 THE CREEDS OF CHRISTENDOM. 
+
+rationalism of the eighteenth century allowed all creeds to go into 
+disuse and neglect. In the nineteenth century faith revived, and 
+with it respect for the Heidelberg Catechism; but, owing to the intro- 
+duction of the union of the Lutheran and Reformed Churches in the 
+Grand Duchy of Baden, to which Heidelberg now belongs, it wm 
+merged into a new catechism compiled from it and from that of 
+Luther.1 
+
+2. The history of the Palatinate Catechism extends far beyond the 
+land of its birth. It took deeper root and acquired greater influence in 
+other countries. Soon after its appearance it commended itself by its 
+intrinsic excellences to all Reformed Churches of the German tongne. 
+It was introduced in East Friesland, JtLlich ( Juliers), Cleve (Cleves), 
+Berg, the Wupperthal, Bremen, Hesse Cassel, Anhalt, Brandenburg, 
+East and West Prussia, the free imperial cities, in Hungary, Poland, 
+and in several cantons of Switzerland, as St Gall, Schaffhausen, and 
+Berne.2 In the royal house of Prussia it is still used in the instruc- 
+tion of the princes, even after the introduction of the union of the 
+two confessions.3 
+
+It was surrounded with a large number of learned works which fill 
+an important place in the history of Reformed theology. Eminent 
+professors made it the basis of lectures in the University. 
+
+In no country was the Catechism more honored than in Holland 
+and her distant colonies in Asia and Africa. It soon replaced the 
+catechisms of Calvin and Lasky. The synods of Wesel, 1568, of 
+Emden, 1571, and of Dort, 1574, recommended and enjoined its use; 
+and ministers were required to explain it to the people in fifty-two 
+lessons throughout the year in the afternoon service of the Lord's day. 
+In the beginning of the sixteenth century the Arminians called for a 
+
+1 On the symbolical status of the Evangelical Church in Baden, see two essays of Dr. Hoo- 
+deshagen, Die Bekenntnissgrundlage der vereinigten evangelise hen Kirche im Grosshertog- 
+thum Baden (1851), and an address delivered before a Pastoral Conference at Duriach,on 
+the same subject, 1 851 , republished in his Schr\flen und Abkandlungen, ed. by Dr. Christlieb, 
+Gotha, 1875, Vol. II. pp. 119 sqq. 
+
+8 The editions used in the Canton Berne have an anti-supralapsarian addition to Question 27: 
+' Und obwohl die SUnden durch Gottes FUrsehung werden regiert, so ist dock Gott keuu Ur- 
+sache der SUnde; denn das Ziel unterscheidet die Werke. Siehe Exemptl an Joseph md 
+seinen Br&dern, an David und Simei, an Christ o und den Juden.' This addition is found as 
+early as 1697. Noticed by Trechsel in Studien und Kritiken for 1867, p. 574. 
+
+* So I was informed by the late court chaplain, Dr. Snethlage, of Berlin, who was orig- 
+inally Reformed, and who confirmed several members of the royal family. 
+
+
+1 
+
+
+§ 69. THE HEIDELBERG CATECHISM, 1568. 549 
+
+revision of it, to remove certain features to which they objected. But 
+the famous General Synod of Dort, after a careful examination, op- 
+posed any change, and, in its 148th Session, May 1, 1619, it unani- 
+mously delivered the judgment that the Heidelberg Catechism 'formed 
+altogether a most accurate compend of the orthodox Christian faith ; 
+being, with singular skill, not only adapted to the understanding of 
+the young, but suited also for the advantageous instruction of older 
+persons ; so that it could continue to be taught with great edification 
+in the Belgic churches, and ought by all means to be retained.' This 
+judgment was agreed to by all the foreign delegates from Germany, 
+Switzerland, and England, and has thus an oecumenical significance 
+for the Reformed communion. 
+
+The Heidelberg Catechism was also clothed with symbolical author- 
+ity in Scotland, and was repeatedly printed i by public authority,' even 
+after the Westminster standards had come into use. It seems to have 
+there practically superseded Calvin's Catechism, but it was in turn su- 
+perseded by Craig's Catechism, and Craig's by that of the Westmin- 
+ster Assembly. 
+
+3. From Holland the Heidelberg Catechism crossed the Atlantic to 
+Manhattan Island (1609), with the discoverer of the Hudson River, and 
+was the first Protestant catechism planted on American soil. A hun- 
+dred years later, German emigrants, driven from the Palatinate by 
+Romish persecution and tyranny, carried it to Pennsylvania and other 
+colonies. It has remained ever since the honored symbol of the Dutch 
+and German Reformed Churches in America, and will continue to be 
+used as long as they retain their separate denominational existence, or 
+even if they should unite with the larger Presbyterian body. 
+
+One of the first acts of the reunited Presbyterian Church in the 
+United States, at the session of the General Assembly in Philadelphia, 
+May, 1870, was the formal sanction of the use of the Heidelberg Cate- 
+chism in any congregation which may desire it1 
+
+1 A special committee, appointed by the Old School Assembly of 1869, reported to the first 
+reunited Assembly of 1870, after a laudatory description of the Heidelberg Catechism, the 
+following resolutions, which were unanimously adopted: 
+
+1. Resolved, That this General Assembly recognizes in the Heidelberg Catechism a valua- 
+ble Scriptural compendium of Christian doctrine and duty. 
+
+2. Resolved, That if any churches desire to employ the Heidelberg Catechism in the in- 
+■traction of their children, they may do so with the approbation of this Assembly. 
+
+See the Minutes of the General Assembly of the Presbyterian Church in the United States of 
+
+
+i 
+
+
+550 THE CREEDS OF CHRISTENDOM. 
+
+4. In the year 1863, three centuries after its first publication, the 
+Heidelberg Catechism witnessed its greatest triumph, not only in 
+Germany and Holland, but still more in a land which the authors 
+never saw, and in a language the sound of which they probably 
+never heard. The Reformation was similarly honored in 1817, and 
+the Augsburg Confession in 1830, but no other catechism. 
+
+In Germany the tercentenary celebration of the Heidelberg Cate- 
+chism was left to individual pastors and congregations, and called 
+forth! some valuable publications.1 
+
+The German Reformed Church in the United States took it np as 
+a body, and gave it a wider scope. She made the three-hundredth 
+anniversary of her confession the occasion for a general revival of 
+theological and religious life, the publication of a triglot edition of 
+the Catechism, the endowment of a tercentenary professorship in her 
+seminary, and the collection of large sums of money for churches, 
+missions, and other benevolent objects. All these ends were accom- 
+plished. The celebration culminated in a general convention of min- 
+isters and laymen in Philadelphia, which lasted a whole week, Janu- 
+ary 17-23, 1863, in the midst of the raging storm of the civil war. 
+About twenty interesting and instructive essays on the Catechism and 
+connected topics, which had been specially prepared for the occasion 
+by eminent German, Dutch, and American divines, were read in two 
+churches before crowded and attentive assemblies. Luther, Calvin, 
+Zwingli, Melanchthon, Frederick IIL, Ursinus, and Olevianus were 
+called from their graves to reproduce before an American audience 
+the ideas, trials, and triumphs of .the creative and heroic age of the 
+Reformation. Altogether the year 1863 marks an epoch in the history 
+of the Heidelberg Catechism and of the German Reformed Church 
+in America.3 
+
+America for 1870, p. 120, and the Memorial volume on Presbyterian Reunion (New York, 
+1870), p. 454. 
+
+1 Among these we mention the articles on the Heidelberg Catechism by Ullmann, Sack, 
+Plitt, Hundeshagen, Woltere, and Trechsel, in the Studien und Kritiken for 1863, 1864, and 
+1867, the discovery and reprint of the ed. princeps by Woltere (1864), and a collection of 
+excellent sermons by distinguished Reformed pulpit orators, under the title, 'Der einxige 
+Trost im Leben und Sterben,' Elberfeld, 1863. 
+
+9 See the Tercentenary Monument (574 pages), and the Gedenkbttch der dreihvndert jihige* 
+Jubelfcier desHeidslberger Katechismus (449 pages), both published at Philadetolii*. 1 863. The 
+
+
+S 69. THE HEIDELBERG CATECHISM, 1568. 551 
+
+OPINIONS ON THE CATECHISM. 
+
+We close this chapter with a selection from the many warm com- 
+mendations which the Heidelberg Catechi&m has received from dis- 
+tinguished divines of different countries. 
+
+Henbt Bullingeb, the friend and successor of Zwingli, himself the 
+author of a catechism (1559) and of the Second Helvetic Confession 
+(1566), wrote to a friend : 
+
+' The order of the book is clear ; the matter true, good, and beautiful ; the whole is lumi- 
+nous, fruitful, and godly ; it comprehends many and great truths in a small compass. I 
+believe that no better catechism has ever been issued.'1 
+
+The Hessian divines quoted by David Pareus : 
+
+* There is no catechism more thorough, more perfect, and better adapted to the capacity 
+of adults as well as the young/ 
+
+The English delegates to the Synod of Dort, George Carleton (Bishop 
+of Uandaff), John Davenant (afterwards Bishop of Salisbury), Arch- 
+deacon Samuel Ward, Dr. Thomas Goade, and Walter Balcanqual, said.' 
+
+* That neither their own nor the French Church had a catechism so suitable and excellent; 
+that those who had compiled it were therein remarkably endowed and assisted by the Spirit 
+of God ; that in several of their works they had excelled other theologians, but that in the 
+composition of this Catechism they had outdone themselves.'9 
+
+The favorable judgment of the Synod of Dort itself has already 
+been quoted. 
+
+Dr. Ullmann (d. 1865), formerly Professor at Heidelberg, and one 
+of the best Church historians of the nineteenth century:8 
+
+'The Heidelberg Catechism, more systematically executed than Luther's, unfolds upon the 
+fundamental thoughts Of sin, redemption, and thankfulness, the Reformed doctrine, yet with- 
+out touching upon predestination, with rare pithiness and clearness, and obtained through 
+these excellences not only speedy and most extended recognition in the Reformed Churches, 
+but is to-day still regarded by all parties as one of the most masterly productions in this de- 
+
+
+f partment.' 
+
+
+German edition gives the correspondence and essays of Drs. Heraog, Ebrard, Ullmann, Hun- 
+deshagen, Lange, and Schotel, in the original German, together with a history of the Cate- 
+chism by the editor. The Anglo-American essays and addresses of Drs. Nevin, Schaff, Ger- 
+hart, Harbaugh, WolfT, Bomberger, Porter, De Witt, Kieffer, Theodor and Thomas Appel, 
+Schneck, Russell, Grans, and Bausmann, are (bund in fuU in the English edition. 
+
+1 'Arbitror meliorem Catechismum no* editum esse. Deo sit gloria qui largiatur successum* 
+(1563). See Ureinus, Apol. Catech. in the Prafatio. 
+
+' This judgment is quoted on the title-page of the later editions of Bishop Parry's transla- 
+tion, London ed. 1728 ; reprinted, London, 1851. 
+
+' In Piper's Evang. Kalender for 1862, p. 191. Comp. also his art. in the Studien und 
+Kritiken for 1863, and in the Gedenkbuch, etc. 
+
+Vol. I.— N * 
+
+
+552 THE CREEDS OF CHRISTENDOM. 
+
+Dr. Aug. Ebrajbd, one of the ableet and most prolific German Be. 
+formed divines:1 
+
+* For wonderful union of dogmatic precision and genial heartiness,9 of lucid perspicuity 
+and mysterious depth, the Heidelberg Catechism stands alone in its kind. It is at once a 
+system of theology and a book of devotion ; every child can understand it at the first read- 
+ing, and yet the catechist finds in it the richest material for profound investigation.' 
+
+Mat Gobel, the author of an excellent history of Christian life in 
+the Reformed Chnrch :8 
+
+* The Heidelberg Catechism may be properly regarded as the flower and fruit of the entire 
+German and French Reformation ; it has Lutheran fervor, Melanchthonian clearness, Zwin- 
+glian simplicity, and Calvinistic fire blended in one, and therefore — notwithstanding many de- 
+fects and angles— it has been (together with the Altered Augsburg Confession of 1 540), and 
+remains to this day, the only common confession and doctrinal standard of the entire German 
+Reformed Church from the Palatinate to the Netherlands, and to Brandenburg and Prussia.' 
+
+Karl Sudhoff, formerly a Roman Catholic priest, then pastor of 
+the German Reformed Church at Frankfort-on-the-Main:4 
+
+' A peculiar power and unction pervades the whole work, which can not easily be mistaken 
+by any one. The book, therefore, speaks with peculiar freshness and animation directly to 
+the soul, because it appears as a confident, joyous confession of the Christian heart assured 
+of salvation. It is addressed to the heart and will as much as to the head. Keen and pop- 
+ular nnfolding of ideas is here most beautifully united with the deep feeling of piety, as well 
+as with the earnest spirit of revival and joyous believing confidence. And who that have 
+read this Catechism but once can mistake how indissolubly united with these great excellence! 
+is the powerful, dignified, and yet so simple style ! What a true-hearted, intelligible, simple, 
+and yet lofty eloquence speaks to us even from the smallest questions V 
+
+Dr. K. B. Hundeshagen, Prof essor of Theology at Heidelberg, after- 
+wards in Bonn (d.1873), calls the Heidelberg Catechism a 'witneBS 
+of Reformed loyalty to the Word of God, of Reformed purity and 
+firmness of faith, of Reformed moderation and sobriety,' and a work 
+'of eternal youth and never-ceasing value.* * 
+
+Dr. Putt, formerly Pastor in Heidelberg, then Professor of Theol- 
+ogy in Bonn:6 
+
+'The Heidelberg Catechism still lives ; it has not died in three hundred years. It lives to 
+the hearts of Christians. How many catechisms have since then disappeared, how many it 
+the last thirty or forty years, and have been so long sunk in the "sea of oblivion," thai ow 
+scarcely knows their titles. The Heidelberg Catechism has survived its tercentenary jubi- 
+lee, and will, God willing, see several such jubilees. It will not die ; it will live as long si 
+there is an Evangelical Church.1 
+
+1 Da$ Dogma v. heil. Abendmahl, Vol. II. p. 604. 
+9 Or, fullness of soul {gemuthUehe Innigkeit). 
+
+* Geschichte des christl. Lebens, VoL L p. 392. 
+
+4 Theol. Handbuch zur Auslegwig des Held, Kat. p. 498. 
+
+4 See his instructive review of SudhofF's Handbuch, in the Studien und Kritihen for 1864, 
+pp. 153-180. It is gratifying to me that this distinguished divine fully indorses, on p. 169, the 
+view which I had previously given of the theology of the Heidelberg Catechism and its rela- 
+tion to Calvinism in opposition to Sudhoff on the one hand and Heppe on the other. 
+
+* In the Studien und Kritihen for 1868, p. 25. 
+
+
+r 
+
+
+§ 69. THE HEIDELBERG CATECHISM, 1568. 553 
+
+Dr. Henry Harbaugh, late Professor of Theology at Mercersburg 
+(d.1867), a gifted poet and the author of several popular religious 
+
+works : l 
+
+'It is worthy of profound consideration, that the Heidelberg Catechism, which has always 
+ruled the heart, spirit, and body of the Reformed side of the Reformation, has no prototype 
+in any of the Reformers. Zwingli and Calvin can say, It is not of me ; it has the suavity bat 
+not the compromising spirit of Melanchthon. It has nothing of the dashing terror of Luther. 
+What is stranger than all, it is farthest possible removed from the mechanical scholasticism 
+and rigid logic of Ursinns, its principal author. Though it has the warm, practical, sacred, 
+poetical fervor of Olevianus, it has none of his fire and flame. It is greater than Reformers ; 
+it is purer and sounder than theologians.' 
+
+Dr. J. W. Nevin, successively Professor of Theology in the Presby teriaii 
+Seminary at Alleghany, in the German Reformed Seminary at Mercers- 
+burg, and President of Franklin and Marshall College, Lancaster, Pa. :3 
+
+'In every view, we may say, the Catechism of the Palatinate, now three hundred years old, 
+is a book entitled, in no common degree, to admiration and praise. It comes before us as the 
+ripe product of the proper confessional life of the Reformed Church, in the full bloom of its 
+historical development, as this was reached at the time when the work made its appearance. 
+Its wide-spread and long-continued popularity proclaims its universal significance and worth. 
+It must have been admirably adapted to the wants of the Church at large, as well as admira- 
+bly-true to the inmost sense of its general life, to come in this way into such vast credit. 
+Among all Protestant symbols, whether of earlier or later date, there is no other in which we 
+find the like union of excellent qualities combined and wrought together in the same happy 
+manner. It is at once a creed, a catechism, and a confession ; and all this in such a manner, 
+at the same time, as to be often a very liturgy also, instinct with the full spirit of worship and 
+devotion. It is both simple and profound ; a fit manual of instruction for the young, and yet 
+a whole system of divinity for the old; a text-book, suited alike for the use of the pulpit and 
+the family, the theological seminary, and the common school. It is pervaded by a scientific 
+spirit, beyond what is common in formularies of this sort ; but its science is always earnestly 
+and solemnly practical In its whole constitution, as we have seen, it is more a great deal 
+than doctrine merely, or a form of sound words for the understanding. It is doctrine appre- 
+hended and represented continually in the form of life. It is for the heart every where full 
+as much as for the head. Among its characteristic perfections deserves to be noted always, 
+with particular praise, its catholic spirit, and the rich mystical element that pervades so large- 
+ly its whole composition. . . . Simple, beautiful, and clear in its logical construction, the* sym- 
+bol moves throughout also in the element of fresh religious feeling. It is full of sensibility 
+and faith and joyous childlike trust. Its utterances rise at times to a sort of heavenly pathos, 
+and breathe forth almost lyrical strains of devotion.1 
+
+Dr. Hagenbach, the well-known historian (d. at Basle, 1874) :3 
+
+'The Heidelberg Catechism was greeted not only in the Palatinate bnt in all Reformed 
+churches as the correct expression of the Reformed faith, and attained the authority of a 
+genuine symbolical standard. It was translated into nearly all languages, and has continued 
+to be the basis of religions instruction to this day. ... Its tone, notwithstanding the scholastic 
+and dogmatizing or (as Ullmann says) constructive tendency, is truly popular and childlike.' 
+
+Then he quotes several questions as models of the catechetical style. 
+Dr. Dalton, of St. Petersbnrg : 4 
+
+* The Heidelberg Catechism exhibits the harmonious union of the Calvinistic and the 
+Melanchthonian spirit. It is the ripe fruit of the whole Reformation and the true heir or 
+
+1 In the Mercersburg Review for 1857, p. 102. 
+
+9 Tercentenary Edition, Introd. pp. 120-122. 
+
+* Kirchengeschichte, Leipz. 1870 (3d edition), VoL IV. p. 812. 
+
+4 Immanuel. Der Heidelb. Kat., etc., 1870, p. 15. 
+
+
+554 THE CREEDS OF CHRISTENDOM. 
+
+the treasure* gathered, not m ten jean, bat daring that entire period. It is thoroughly Bib. 
+lical, and represents its particular denominational type with great wisdom and moderation. 
+We feel from beginning to end in the clear and expressive word the warm and sound pake 
+of a heart that was baptized by the fire and Spirit from above, and knows what it believes.' 
+
+It is gratifying that the Lutheran hostility of former days has given 
+way to a sincere appreciation. Drs. Guericke and Kubtz, two prom- 
+inent champions of Lutheran orthodoxy in the nineteenth century, 
+in almost the same words praise the Heidelberg Catechism for ' its 
+signal wisdom in teaching, its Christian fervor, theological ability, 
+and mediating moderation.' l Dr. Julius Stahl, an eminent jurist 
+and the ablest apologist of modern Lutheranism within the Prussian 
+Union, derived the religious revival of the Lutheran Church in his 
+native Bavaria and his own conversion chiefly from the late venera- 
+ble Kef ormed pastor and professor, Dr. J. Chr. G. L. Krafft, in Er- 
+langen (died 1845). * The man,' he said, before the General Synod 
+at Berlin, 1846, ' who built up the Church in my fatherland, the mad 
+apostolic man I ever met in my life, Pastor Krafft, was a strict ad- 
+herent of the Reformed creed. Whether he carried the Heidelberg 
+Catechism in his pocket I know not, but this I know, that he caused 
+throughout the whole land a spring to bloom whose fruits will ripen 
+for eternity.'2 
