@@ -775,8 +775,30 @@ Array.prototype.slice.call(document.querySelectorAll('.chairs')).forEach(functio
   hitArea.appendChild(thumb);
   document.body.appendChild(hitArea);
 
+  // Appending to <body> and positioning by raw coordinates (see the
+  // comment above) means this bar is never actually inside #who-gallery's
+  // own overflow:auto box, so it never gets clipped by that box the way
+  // it would if it were a real descendant -- and never gets told the row
+  // it belongs to has scrolled out of that box's own clipped view, either
+  // (Mark, 2026-09-19, after the vertical bar shipped: "one showed up on
+  // era 1 and scrolled down to era two and disappeared" -- era 1's bar
+  // stayed frozen at the screen position it was drawn at, not following
+  // era 1 as the gallery scrolled it out of view, because nothing told it
+  // to recompute on that scroll; a stale coordinate is what then read as
+  // "disappeared" once it drifted somewhere nonsensical). Fixed two ways:
+  // recompute on the gallery's own scroll, not just this row's; and hide
+  // outright whenever the row isn't currently within the gallery's own
+  // visible (clipped) vertical bounds, so a bar can never render floating
+  // outside the box it's supposed to belong to.
   function updateThumb(){
     var rect = chairs.getBoundingClientRect();
+    if (gallery && gallery.contains(chairs)) {
+      var galleryRect = gallery.getBoundingClientRect();
+      if (rect.top < galleryRect.top - 0.5 || rect.bottom > galleryRect.bottom + 0.5) {
+        hitArea.hidden = true;
+        return;
+      }
+    }
     hitArea.style.left = (rect.left + window.scrollX) + 'px';
     hitArea.style.top = (rect.bottom + window.scrollY + 4) + 'px';
     hitArea.style.width = rect.width + 'px';
@@ -791,6 +813,7 @@ Array.prototype.slice.call(document.querySelectorAll('.chairs')).forEach(functio
   }
   updateThumb();
   chairs.addEventListener('scroll', updateThumb, { passive: true });
+  if (gallery) { gallery.addEventListener('scroll', updateThumb, { passive: true }); }
   if (window.ResizeObserver) {
     new ResizeObserver(updateThumb).observe(chairs);
   } else {
