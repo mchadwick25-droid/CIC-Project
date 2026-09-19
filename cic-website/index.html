@@ -237,7 +237,7 @@ p{margin:0 0 1rem}
 .era-group:not(:first-child){margin-top:1.8rem}
 .era-head{display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline;font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.3rem;margin:0}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
-.chairs{list-style:none;margin:.4rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout;scrollbar-width:thin;scrollbar-color:var(--control) transparent}
+.chairs{list-style:none;margin:.4rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout}
 /* A row's overflow-x:auto still scrolls fine without this -- verified with
    a real scrollLeft/wheel test -- but most OSes (Mac trackpad users
    especially) hide the scrollbar itself until an active scroll gesture,
@@ -245,8 +245,23 @@ p{margin:0 0 1rem}
    today) has anything past the last visible card. Styling the WebKit/Blink
    scrollbar pseudo-elements switches those engines from that auto-hiding
    overlay to an always-drawn one (Mark, 2026-09-19: "we still do not have
-   the horizontal scroll bar for era 2"). scrollbar-width/-color above
-   covers Firefox, which has no pseudo-element API of its own. */
+   the horizontal scroll bar for era 2").
+   scrollbar-width/-color (below, Firefox's own equivalent) has to stay
+   OFF this same selector in any engine that also understands
+   ::-webkit-scrollbar: a real, reproduced bug (Mark, 2026-09-19 again:
+   "there still is not a horizontal scroll for era two... there is one for
+   era 1") -- declaring both scrollbar-styling systems on one selector
+   made Chromium paint the custom scrollbar for only the FIRST .chairs row
+   on the page and silently drop every later one, independent of how much
+   that row actually overflowed (proved by swapping era 1 and era 2's DOM
+   order in a real, non-headless render: whichever one came first got the
+   bar, the other lost it). Scoped by @supports so Chromium/Safari (which
+   support ::-webkit-scrollbar) never see scrollbar-width/-color at all,
+   while Firefox (no ::-webkit-scrollbar support) still gets its own thin,
+   colored bar. */
+@supports not selector(::-webkit-scrollbar){
+.chairs{scrollbar-width:thin;scrollbar-color:var(--control) transparent}
+}
 .chairs::-webkit-scrollbar{height:6px}
 .chairs::-webkit-scrollbar-track{background:transparent}
 .chairs::-webkit-scrollbar-thumb{background:var(--control);border-radius:3px}
