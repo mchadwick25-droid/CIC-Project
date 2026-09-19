@@ -50,9 +50,25 @@ OBSERVATION = "observation"
 # this one is known, it is written up, and it is somebody's named next step -
 # not that it is acceptable. See the audit doc for each finding's evidence.
 ACCEPTED_OPEN: dict[str, str] = {
-    "census-living-flag/alx": "F-06 - census `living` says false, registry says true; which is correct is Mark's own per-world Living Tradition touchpoint, not a build thread's to settle",
-    "census-living-flag/pahc": "F-06 - as alx",
-    "census-living-flag/ijc": "F-06 - as alx",
+    "census-living-flag/ijc": "F-06 - census `living` says false, registry says true; ijc's own construction record (Doc_01 SS1, ijc.core.imperial-juridical) explicitly discloses `true` as a fail-safe default pending Mark's own Article 29 confirmation, never actually made - the one of the four F-06 instances still genuinely open",
+    # alx CLOSED 2026-09-20: census `living` synced true -> matches
+    # registry, which was already correct - Mark confirmed Article 29
+    # Living Tradition Status in session 2026-07-17 (Coptic Orthodox
+    # Church as primary heir), independently corroborated across Doc_01,
+    # the World Profile, Open_Gaps_Tracking.md OG-1, the Facilitation
+    # Brief, and the M1 record alx.force.chalcedonian-fracture. The
+    # census's false was simply never updated after that confirmation.
+    #
+    # pahc CLOSED 2026-09-20: census `living` synced true -> matches
+    # registry, which was already correct - Mark confirmed Living
+    # Tradition Status in session 2026-07-08, via a direct, deliberated
+    # choice among four options ("Multiple traditions, partial claims":
+    # Roman Catholic and Eastern Orthodox apostolic-succession claims,
+    # certain Anglican/episcopal-polity traditions, more loosely any
+    # tradition drawing on the Apostolic Fathers), recorded in
+    # CiC_W1_World_Profile.md SS9 with a documented tooling-failure/retry
+    # history. See worlds/pahc/Open_Gaps_Tracking.md item 2.
+    #
     # hal CLOSED 2026-09-20 by Mark's ruling: false, matching the
     # construction-stage documents' own reasoned "confirmed NO" finding
     # (two named candidates considered and rejected) over the registry's
