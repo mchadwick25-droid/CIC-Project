@@ -21,15 +21,22 @@ to keep it out of enforcement - the fixture world must already be 100%
 clean, so if it ever isn't, that is exactly the kind of drift this gate
 exists to catch (SS4.4).
 
-One named, disclosed exception, not a quiet reopening of the rule: `rzg`
+Two named, disclosed exceptions, not a quiet reopening of the rule: `rzg`
 (admitted 2026-09-18) was added directly by the project lead, not
 self-granted by that world's own build/go-live thread, after that thread
 found rzg's own content fully clean on every check but `m9:shelf-row` -
 the same project-wide CM-1 gap every one of the worlds above also
 carries, blocked on infrastructure that does not exist yet for any world,
-not a quality gap specific to rzg. Every other check stays fully
-un-waivable for a genuinely new world; this is not a precedent for
-admitting a world with real, world-specific findings unwaived.
+not a quality gap specific to rzg. `witt` (2026-09-19) was added the same
+way and for the identical reason - `m9:shelf-row` only, same CM-1 gap,
+same project-lead sign-off (Mark: "we want the best quality, whatever it
+takes" - given in answer to whether to also waive witt's own
+`m9:emic-vendored-only` findings the same way rzg's shelf-row exception
+did; the answer there was no, fix the 27 records, so witt's own
+grandfathering stays scoped to shelf-row alone, same as rzg's). Every
+other check stays fully un-waivable for a genuinely new world; neither
+exception is a precedent for admitting a world with real, world-specific
+findings unwaived.
 
 The one written-in exception is R-4: `m9:voicing-pair` findings on a
 NEW (non-grandfathered) world are demoted to report-only, never blocking
@@ -54,7 +61,7 @@ from . import loader
 from .confinement import run_all as confinement_run_all
 
 GRANDFATHERED_WORLDS = frozenset(
-    {"alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "syr", "rzg"}
+    {"alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "syr", "rzg", "witt"}
 )
 
 
@@ -125,6 +132,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:voice-perspective/cappadocian": Waiver(count=1, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; cappadocian's own build thread"),
     "m1:voice-perspective/syr": Waiver(count=1, deadline="2026-12-14", owner="D2 SS1.3(e) - syr's own known voice-perspective gap; syr's build thread"),
     "m9:shelf-row/rzg": Waiver(count=10, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:shelf-row/witt": Waiver(count=47, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
 }
 
 # The five m1:readability/{desert,don,ijc,pahc,syr} waivers registered

@@ -1136,3 +1136,54 @@ not as something this build thread decided on its own authority.
 1. Article 31 (external scholarly review) — separate gate, still outstanding, not addressed here.
 2. M3 admission — the sealed probe battery, real AWS Bedrock spend, still Mark-only per-run
    authorization. This is now the only remaining checkpoint before this world can be admitted.
+
+## OG-22. Go-live pipeline (repo-structure migration, frontend wiring, M9 confinement battery):
+started, two real decisions made
+
+**Repo-structure migration.** `World-Builds/Lutheran-Wittenberg/` moved to `worlds/witt/` (straight
+move, filenames preserved, matching rzg's own precedent, commit `df3bfbcf`) — witt had carried a
+real registry code since this session's earlier merge work but was the one remaining world still at
+the old path. `tools/check_paths_baseline.txt` updated with the 28 newly-broken historical
+citations this move produces (accepted-drift treatment, same as rzg's and don's own moves).
+
+**Frontend wiring, partial.** `cic-website/table.html`'s `WORLDS` array and a new
+`cic-website/traditions/lutheran-wittenberg-and-its-congregations.html` page are both live,
+grounded in this world's own real records (quotes independently re-verified against vendored
+source). Accent color `#579C40`, script-computed against the same dark-mode contrast thresholds
+every other world's tint clears, landing in the one wide-open hue gap in the fleet's own palette,
+grounded in Electoral Saxony's own heraldry (full computation:
+`Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`, 2026-09-19 entry). **Not yet done:**
+`cic-poc/frontend/src/data/worlds.ts` (deliberately deferred — Mark's own in-progress sandbox file
+for the chair-card vertical scroll may be actively touching that area) and
+`cic-website/index.html`'s own "who's at the table" listing.
+
+**M9 confinement battery run for the first time.** witt had never been run through
+`engine.m9.cli check` before this pass. Three finding categories surfaced:
+
+- `source-kind` (10 findings) — gate false positive, not a real defect: ten `kind: unvendored`
+  source records' own `edition` field named the literal vendored file they're embedded in, which
+  the gate reads as a vendored-record impersonating an unvendored one. Reworded all ten to describe
+  the same embedding fact without the literal `cic/texts/` path, matching the fleet's own
+  established convention (`desert.source.historia-monachorum`, `gallic.source.farrar-lives-of-the-
+  fathers`). No semantic change. Fixed.
+- `shelf-row` (47 findings) — the same project-wide CM-1 corpus-map gap every other world already
+  carries (no `row_id` infrastructure exists yet for any world; the no-guessing rule forbids
+  inventing one). Shown this and rzg's own identical precedent (`m9:shelf-row/rzg`, granted directly
+  by Mark, not self-waived by rzg's own build thread), **Mark's ruling: grant witt the same
+  exception.** `engine/m9/enforce.py`'s `GRANDFATHERED_WORLDS` now includes `witt`, scoped to
+  `shelf-row` only (matching rzg's own scope exactly — witt got no blanket exemption), waiver
+  deadline 2027-03-15 (a ceiling, not a real target; revisit when CM-1 lands).
+- `emic-vendored-only` (27 findings) — 27 in-voice records citing a source whose text isn't
+  independently vendored. Every grandfathered world with this same finding carries a dated waiver
+  deferring it as ongoing debt, but `enforce.py`'s own docstring is explicit that shortcut is not
+  the default for a world going through this gate for the first time — waiving it for witt would
+  extend `GRANDFATHERED_WORLDS` to a category even rzg never got. Shown this precisely, **Mark's
+  ruling: "we want the best quality, whatever it takes"** — fix the 27 records for real (re-ground
+  each citation in a genuinely vendored source, or rework the claim), not waive them. In progress;
+  not yet closed by this entry.
+
+**Open items seeded:**
+1. Finish the 27 `emic-vendored-only` record fixes (real editorial work, per-citation judgment).
+2. `cic-poc/frontend/src/data/worlds.ts` wiring and `cic-website/index.html`'s "who's at the table"
+   listing, both deferred above.
+3. OG-21's own two open items (Article 31, M3 admission) remain untouched by this entry.
