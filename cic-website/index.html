@@ -556,6 +556,24 @@ p{margin:0 0 1rem}
       </li>
     </ol>
     </div>
+
+    <div class="era-group" id="era-7">
+    <h3 class="era-head">The Reformation Era<span class="dates">1517–1650</span></h3>
+    <ol class="chairs" id="era-7-chairs">
+      <li class="chair" style="--tint:#39396A;--tint-dark:#8787A1">
+        <div class="portrait"><a href="traditions/the-reformed-cities-zurich-and-geneva.html"><img src="assets/portraits/theophilus.jpg" alt="Theophilus, Representative of The Reformed Cities" width="96" height="96" loading="lazy" decoding="async"></a></div>
+        <div class="chair-body">
+          <a class="chair-link" href="traditions/the-reformed-cities-zurich-and-geneva.html" aria-label="More information — The Reformed Cities">
+            <h4>Theophilus<span class="role">Pastor</span></h4>
+            <p class="trad">The Reformed Cities</p>
+            <p class="meta">1519–1650 · Zurich &amp; Geneva, Swiss Confederacy</p>
+            <p class="tile">On 1 January 1519, Huldrych Zwingli began preaching straight through the Gospel of Matthew at Zurich's Grossmünster rather than following the fixed lectionary — the first act of a reform that tested every inherited practice against Scripture and kept only what the text would warrant. Geneva's own reform opened separately and was joined in 1536 by John Calvin, whose ministry built a Consistory of pastors and lay elders to hold the whole city's ordinary conduct to account. Zwingli and Calvin never met; what bridges the two cities is the Consensus Tigurinus (1549), two reforms arriving independently at language neither could disown. This pattern continues unbroken into the Scottish Kirk, the Huguenots, the Dutch Reformed, and English Puritanism.</p>
+          </a>
+          <a class="launch" href="talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=index.html%23who">Start the conversation →</a>
+        </div>
+      </li>
+    </ol>
+    </div>
     </div>
   </section>
     </div>
@@ -627,6 +645,16 @@ if (gallery && eraGroups.length) {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(sizeGallery, 150);
   });
+  // sizeGallery()'s measurement is as vulnerable to the same stale-layout
+  // problem .chairs-scrollbar's positioning already hit once (Google Fonts
+  // swapping in after first paint reflows every card's height) -- recheck
+  // it the same way, not just on resize.
+  if (window.ResizeObserver && eraGroups.length >= 3) {
+    new ResizeObserver(sizeGallery).observe(eraGroups[0]);
+    new ResizeObserver(sizeGallery).observe(eraGroups[1]);
+  }
+  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(sizeGallery); }
+  window.addEventListener('load', sizeGallery);
   // A vertical wheel/trackpad gesture over the gallery used to get trapped
   // scrolling its own content instead of the page (Mark, 2026-09-19: "when
   // i happen to scroll over the chair feature, it stops scrolling"). Once
@@ -641,6 +669,76 @@ if (gallery && eraGroups.length) {
       ev.preventDefault();
     }
   }, { passive: false });
+}
+
+// #who-gallery draws its own vertical scroll indicator the same way, now
+// that a 3rd era makes it genuinely scroll (Mark, 2026-09-19: "we need a
+// verticle scrol bar, so only two rows are showing"). Same hidden-native +
+// body-appended + ResizeObserver + Pointer Events pattern as
+// .chairs-scrollbar below -- see that comment for the "why".
+if (gallery) {
+  var vTrack = document.createElement('div');
+  vTrack.className = 'gallery-scrollbar';
+  vTrack.setAttribute('aria-hidden', 'true');
+  var vTrackLine = document.createElement('div');
+  vTrackLine.className = 'gallery-scrollbar-track';
+  var vThumb = document.createElement('div');
+  vThumb.className = 'gallery-scrollbar-thumb';
+  vTrack.appendChild(vTrackLine);
+  vTrack.appendChild(vThumb);
+  document.body.appendChild(vTrack);
+
+  var updateVThumb = function(){
+    var rect = gallery.getBoundingClientRect();
+    vTrack.style.top = (rect.top + window.scrollY) + 'px';
+    vTrack.style.left = (rect.right + window.scrollX + 4) + 'px';
+    vTrack.style.height = rect.height + 'px';
+    var overflow = gallery.scrollHeight - gallery.clientHeight;
+    if (overflow <= 1) { vTrack.hidden = true; return; }
+    vTrack.hidden = false;
+    var trackLen = gallery.clientHeight;
+    var thumbLen = Math.max(24, (gallery.clientHeight / gallery.scrollHeight) * trackLen);
+    var maxPos = trackLen - thumbLen;
+    vThumb.style.height = thumbLen + 'px';
+    vThumb.style.top = (overflow > 0 ? (gallery.scrollTop / overflow) * maxPos : 0) + 'px';
+  };
+  updateVThumb();
+  gallery.addEventListener('scroll', updateVThumb, { passive: true });
+  if (window.ResizeObserver) {
+    new ResizeObserver(updateVThumb).observe(gallery);
+  }
+  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(updateVThumb); }
+  window.addEventListener('load', updateVThumb);
+  window.addEventListener('resize', updateVThumb);
+
+  var vDragging = false, vDragStartY = 0, vDragStartScroll = 0;
+  function vScrollToClientY(clientY){
+    var rect = vTrack.getBoundingClientRect();
+    var thumbLen = vThumb.offsetHeight;
+    var maxPos = rect.height - thumbLen;
+    var ratio = maxPos > 0 ? Math.min(1, Math.max(0, (clientY - rect.top - thumbLen / 2) / maxPos)) : 0;
+    gallery.scrollTop = ratio * (gallery.scrollHeight - gallery.clientHeight);
+  }
+  vThumb.addEventListener('pointerdown', function(ev){
+    vDragging = true;
+    vDragStartY = ev.clientY;
+    vDragStartScroll = gallery.scrollTop;
+    vThumb.setPointerCapture(ev.pointerId);
+    ev.preventDefault();
+  });
+  vThumb.addEventListener('pointermove', function(ev){
+    if (!vDragging) return;
+    var rect = vTrack.getBoundingClientRect();
+    var maxPos = rect.height - vThumb.offsetHeight;
+    var overflow = gallery.scrollHeight - gallery.clientHeight;
+    gallery.scrollTop = vDragStartScroll + (maxPos > 0 ? ((ev.clientY - vDragStartY) / maxPos) * overflow : 0);
+  });
+  vThumb.addEventListener('pointerup', function(){ vDragging = false; });
+  vThumb.addEventListener('pointercancel', function(){ vDragging = false; });
+  vTrack.addEventListener('pointerdown', function(ev){
+    if (ev.target === vThumb) return;
+    vScrollToClientY(ev.clientY);
+  });
 }
 
 // Each era's row of chairs draws its own scroll indicator here rather than
