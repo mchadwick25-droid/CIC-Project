@@ -421,6 +421,22 @@ def gate_readability(records, fleet, registry) -> list[str]:
 # FK_CEILING and every COVERAGE entry in cross_world.py.
 VOICE_CRAFT_WORD_CEILING = 900
 
+# Per-world exceptions, Mark's own explicit ruling, not a build thread's
+# self-granted exemption. gallic: after the 2026-09-19 trim (1802 -> 1483
+# words, every readability finding fixed, nothing load-bearing cut - see
+# gallic.voice.craft's own revision history), closing the remaining 583
+# words would mean cutting the three verified quotations, the six named
+# points of disagreement between its two households, or other specifics
+# this pass deliberately kept. Shown the real tradeoff, Mark's ruling:
+# "raise the ceiling for gallic to 1500" - a two-household world carries
+# more genuinely load-bearing named content than the fleet's single-
+# tradition worlds, so its own ceiling is not the fleet default. 1500
+# still leaves gallic real headroom (17 words) rather than pinning it
+# exactly at its current total.
+VOICE_CRAFT_WORD_CEILING_BY_WORLD = {
+    "gallic-monastic-ascetic-christianity": 1500,
+}
+
 
 def gate_voice_craft_prompt_budget(records, fleet, registry) -> list[str]:
     """The four voice_craft fields compile into every turn's own prompt
@@ -443,10 +459,11 @@ def gate_voice_craft_prompt_budget(records, fleet, registry) -> list[str]:
         parts += [n.get("note", "") for n in (rec.get("flavor_notes") or [])]
         parts += list(rec.get("characteristic_concerns") or [])
         total_words = sum(len(p.split()) for p in parts)
-        if total_words > VOICE_CRAFT_WORD_CEILING:
+        ceiling = VOICE_CRAFT_WORD_CEILING_BY_WORLD.get(rec.get("world_id"), VOICE_CRAFT_WORD_CEILING)
+        if total_words > ceiling:
             findings.append(
                 f"{rid}: identity+guard+flavor_notes+characteristic_concerns total "
-                f"{total_words} words, above the ceiling of {VOICE_CRAFT_WORD_CEILING} "
+                f"{total_words} words, above the ceiling of {ceiling} "
                 "(this compiles into every turn's own prompt - see build_prompt())"
             )
     return findings

@@ -434,3 +434,13 @@ left for the project lead.
 Recompile and a live generation check (both still not done) are the
 next step once that question is settled, not before - the compiled
 prompt should reflect a settled version, not a still-moving one.
+
+RULING, 2026-09-19, Mark's own word: "raise the ceiling for gallic to
+1500." engine/m1/gates.py's VOICE_CRAFT_WORD_CEILING_BY_WORLD now carries
+a documented, named exception for gallic-monastic-ascetic-christianity
+at 1500 (default stays 900 for every other world) - a per-world
+exception the fleet default, not this record's own self-granted one.
+`gate_voice_craft_prompt_budget` now reports 0 findings for this record
+(1483 against a 1500 ceiling, 17 words of real headroom). Recompile
+follows in the same pass; a live generation re-check is separate, real
+billed Bedrock spend, asked for on its own.
