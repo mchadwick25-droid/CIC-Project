@@ -90,6 +90,15 @@ export function renderVoices(compiled) {
   );
 }
 
+// title/when/teaser are always visible - only the full text (the actual
+// documented account) sits behind the disclosure. Reuses atlas-v3.html's
+// own docstory-item/docstory naming convention for visual consistency,
+// but not its exact hide/show split: the Atlas panel's own pre-existing
+// pattern puts the teaser behind a hover tooltip on the collapsed
+// summary, while this shared renderer (used by both surfaces, so they
+// can't drift apart) keeps the teaser always in view per this content
+// design's own explicit rule - a deeper click is for the full account,
+// not for the one-line hook that gets a reader there.
 export function renderDocumentedStories(compiled, opts) {
   const idPrefix = (opts && opts.idPrefix) || "ds";
   const stories = (compiled.orientation && compiled.orientation.documented_stories) || [];
@@ -98,15 +107,17 @@ export function renderDocumentedStories(compiled, opts) {
     '<div class="docstories-row">' +
     stories
       .map((s, i) => {
-        const summaryId = `${idPrefix}-${i}`;
-        let body = `<p class="meta">${escapeHtml(s.when || "")}</p>`;
-        if (s.teaser) body += `<p class="teaser">${escapeHtml(s.teaser)}</p>`;
-        if (s.text) body += paragraphs(s.text);
+        const detailsId = `${idPrefix}-${i}`;
+        let head = `<h4>${escapeHtml(s.title || "")}</h4>`;
+        if (s.when) head += `<p class="meta">${escapeHtml(s.when)}</p>`;
+        if (s.teaser) head += `<p class="teaser">${escapeHtml(s.teaser)}</p>`;
+        const body = s.text ? paragraphs(s.text) : "";
         return (
-          `<details class="docstory-item" id="${summaryId}">` +
-          `<summary><span class="docstory-title">${escapeHtml(s.title || "")}</span></summary>` +
-          `<div class="docstory"><h4>${escapeHtml(s.title || "")}</h4>${body}</div>` +
-          "</details>"
+          `<div class="docstory-entry">${head}` +
+          `<details class="docstory-item" id="${detailsId}">` +
+          `<summary><span class="docstory-title">Read the full account</span></summary>` +
+          `<div class="docstory">${body}</div>` +
+          "</details></div>"
         );
       })
       .join("") +

@@ -172,11 +172,20 @@ def regenerate(world_key: str, registry: dict, census_by_id: dict, content_css: 
 
     original = html_path.read_text(encoding="utf-8")
 
-    style_close = "</style>"
-    if style_close not in original:
-        raise SystemExit(f"{world_key}: {html_path} has no </style> to append new CSS before")
-    if content_css not in original:
-        original = original.replace(style_close, content_css + "\n" + style_close, 1)
+    # The template's own CSS is inserted between two markers so a later
+    # edit to the template's CSS (e.g. this session's own docstory-entry
+    # fix) replaces what's there rather than accumulating a second, stale
+    # copy alongside it - re-running this generator is always idempotent.
+    css_begin, css_end = "/* BEGIN orientation-content-css */", "/* END orientation-content-css */"
+    css_block = f"{css_begin}\n{content_css}\n{css_end}"
+    css_block_re = re.compile(re.escape(css_begin) + r".*?" + re.escape(css_end), re.DOTALL)
+    if css_block_re.search(original):
+        original = css_block_re.sub(lambda _m: css_block, original, count=1)
+    else:
+        style_close = "</style>"
+        if style_close not in original:
+            raise SystemExit(f"{world_key}: {html_path} has no </style> to append new CSS before")
+        original = original.replace(style_close, css_block + "\n" + style_close, 1)
 
     article_start = original.find(ARTICLE_OPEN)
     if article_start == -1:
