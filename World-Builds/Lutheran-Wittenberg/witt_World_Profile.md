@@ -720,7 +720,7 @@ This world's boundary is drawn **at the conscience, not at the territory.** Memb
 Status: **PENDING**
 **What is outstanding:** Independent project-lead review and confirmation, per Blueprint v7 Section 17 and Constitution Article 29 — this document is a first draft, not yet reviewed under this project's own build-cycle discipline. Deployment status cannot advance to freeze until that confirmation is recorded.
 
-**Cross-reference:** No `witt_Representative_Construction_Notes_[Name].md` document exists yet for this world — Representative Emergence (Step 10) has not occurred, and Doc_08 §1 itself records the Representative's name as "TBD — PENDING." This cross-reference is **not yet applicable** and is left pending rather than invented; it should be added once that document exists.
+**Cross-reference:** `witt_Doc_10_Representative_Construction_Notes_Nikolaus.md` §6 (Living Tradition Documentation) — built and Approved to Proceed, 2026-09-19. Its own correspondence call (YES), three key divergences, and contested-figure finding match this section's own, stated in Nikolaus's plausible terms rather than repeated verbatim (per the Construction Notes Template's own instruction). Corrected here, 2026-09-19: this line previously stated no such document existed, written before Representative Emergence had occurred; it has since been built and is current as of this correction.
 
 ---
 
