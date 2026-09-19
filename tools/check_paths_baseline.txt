@@ -62,7 +62,10 @@ Ministry/Features/Tour-Experience-Module-Phase2/CiC_Tour_Build_Spec_V0_1_DRAFT.m
 Ministry/Features/Tour-Experience-Module-Phase2/CiC_Tour_Experience_Module_Strategy_V0_3.md: cic-poc/backend/data
 Ministry/Features/Tour-Experience-Module-Phase2/CiC_Tour_Experience_Module_Strategy_V0_3.md: worlds/Nicene-Cappadocian
 Ministry/Features/Tour-Experience-Module-Phase2/Integration-Notes.md: cic-poc/backend/app
+Ministry/Features/Website-V2/CiC_Website_V2_Storyboard.md: cic-website/assets/tour-captures/theon-confidence.png
+Ministry/Features/Website-V2/Sandbox/CiC_Website_V2_D0_Inheritance_Note.md: cic-website/tour.html
 Ministry/Features/Website-V2/Sandbox/D1-directions/05-product-led-clarity/README.md: records/worlds.yaml
+Ministry/Features/Website-V2/Sandbox/D2-struggle/05-product-led-clarity-defense.md: cic-website/assets/tour-captures
 Ministry/Technology/table_phase0/Texts_Acquisition_Wantlist.md: cic/records
 Ministry/Technology/table_phase0/Texts_Scrub_alexandria.md: cic/records/alexandria/source/srcALX001
 README.md: records/worlds.yaml
