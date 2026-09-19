@@ -21,7 +21,18 @@ _fleet.canon.{c-i,c-p,c-t,f1-i,f2-e,f5-p,f6-p,f6-t}-01.md`, and
   story, quote (×3, including the do-not-voice case), figure, gravity, force,
   contested_claim, doctrinal_witness, honest_limit (×3), ambient,
   demonstration (×2, including the identity-collision case), voice_craft,
-  search_record (×2, including a search that returned nothing).
+  search_record (×2, including a search that returned nothing). Plus, as of
+  2026-09-19 (Website V2 world_front design, approved to proceed),
+  world_front (×1, `fix.front.fixture-synthetic`) - deliberately minimal
+  (one skim.tile unit, one orientation unit), a schema-valid example
+  quoting `fix.quote.identity-collision-saying`'s own `modern_rendering`
+  field correctly. Not yet exercised by a seeded defect or the M1
+  selftest: `gate_quote_mark_fidelity` (engine/m1/gates.py) is implemented
+  and unit-tested directly, but deliberately not yet added to GATES/
+  run_all - see that gate's own registration comment for why (registering
+  it changes validation/gates-report.json for every already-built world's
+  committed package). No world (fixture or real) has a fully-populated
+  world_front yet; content migration is a separate, later stage.
 - **A fixture-scope canon subset**, 8 of the real 28 Appendix A cells (C-I,
   C-P, C-T, F1-I, F2-E, F5-P, F6-P/identity-collision, F6-T), seeded here (at
   stage 0.6) under `records/_fleet/canon_question/` using the *real* Appendix
