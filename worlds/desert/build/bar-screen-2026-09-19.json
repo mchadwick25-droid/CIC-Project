@@ -1,0 +1,758 @@
+{
+  "world": "desert",
+  "generated": "2026-09-19",
+  "fields": {
+    "demonstration.exchange": {
+      "count": 11,
+      "fk_grade_median": 7.13,
+      "fk_grade_max": 8.93,
+      "longest_sentence_words_max": 61,
+      "worst_record": "desert.demo.center-how-we-know"
+    },
+    "doctrinal_witness.text": {
+      "count": 16,
+      "fk_grade_median": 6.95,
+      "fk_grade_max": 9.36,
+      "longest_sentence_words_max": 45,
+      "worst_record": "desert.dw.melitian-power"
+    },
+    "honest_limit.statement": {
+      "count": 6,
+      "fk_grade_median": 4.79,
+      "fk_grade_max": 7.56,
+      "longest_sentence_words_max": 35,
+      "worst_record": "desert.limit.communal-wrong-unrepaired"
+    },
+    "story.tellable_as": {
+      "count": 10,
+      "fk_grade_median": 9.09,
+      "fk_grade_max": 12.27,
+      "longest_sentence_words_max": 23,
+      "worst_record": "desert.story.kellia-day"
+    },
+    "story.text": {
+      "count": 10,
+      "fk_grade_median": 7.7,
+      "fk_grade_max": 10.12,
+      "longest_sentence_words_max": 41,
+      "worst_record": "desert.story.pachomius-founding"
+    },
+    "term.plain_meaning": {
+      "count": 18,
+      "fk_grade_median": 7.16,
+      "fk_grade_max": 9.91,
+      "longest_sentence_words_max": 22,
+      "worst_record": "desert.term.anachoresis"
+    },
+    "term.quick_meaning": {
+      "count": 18,
+      "fk_grade_median": 5.99,
+      "fk_grade_max": 8.54,
+      "longest_sentence_words_max": 17,
+      "worst_record": "desert.term.synaxis"
+    },
+    "world_core.cautions": {
+      "count": 1,
+      "fk_grade_median": 21.52,
+      "fk_grade_max": 21.52,
+      "longest_sentence_words_max": 60,
+      "worst_record": "desert.core.desert"
+    },
+    "world_core.formation_logic": {
+      "count": 1,
+      "fk_grade_median": 22.0,
+      "fk_grade_max": 22.0,
+      "longest_sentence_words_max": 70,
+      "worst_record": "desert.core.desert"
+    },
+    "world_core.horizon": {
+      "count": 1,
+      "fk_grade_median": 16.9,
+      "fk_grade_max": 16.9,
+      "longest_sentence_words_max": 74,
+      "worst_record": "desert.core.desert"
+    },
+    "world_core.thinness": {
+      "count": 1,
+      "fk_grade_median": 28.76,
+      "fk_grade_max": 28.76,
+      "longest_sentence_words_max": 107,
+      "worst_record": "desert.core.desert"
+    }
+  },
+  "records": {
+    "world_core.horizon": [
+      {
+        "record_id": "desert.core.desert",
+        "words": 104,
+        "sentences": 4,
+        "longest_sentence_words": 74,
+        "fk_grade": 16.9
+      }
+    ],
+    "world_core.formation_logic": [
+      {
+        "record_id": "desert.core.desert",
+        "words": 200,
+        "sentences": 5,
+        "longest_sentence_words": 70,
+        "fk_grade": 22.0
+      }
+    ],
+    "world_core.thinness": [
+      {
+        "record_id": "desert.core.desert",
+        "words": 285,
+        "sentences": 5,
+        "longest_sentence_words": 107,
+        "fk_grade": 28.76
+      }
+    ],
+    "world_core.cautions": [
+      {
+        "record_id": "desert.core.desert",
+        "words": 385,
+        "sentences": 9,
+        "longest_sentence_words": 60,
+        "fk_grade": 21.52
+      }
+    ],
+    "demonstration.exchange": [
+      {
+        "record_id": "desert.demo.center-coming-to-belief",
+        "words": 206,
+        "sentences": 11,
+        "longest_sentence_words": 31,
+        "fk_grade": 7.13
+      },
+      {
+        "record_id": "desert.demo.center-how-we-know",
+        "words": 183,
+        "sentences": 9,
+        "longest_sentence_words": 28,
+        "fk_grade": 8.93
+      },
+      {
+        "record_id": "desert.demo.center-jesus-as-god",
+        "words": 211,
+        "sentences": 11,
+        "longest_sentence_words": 32,
+        "fk_grade": 7.92
+      },
+      {
+        "record_id": "desert.demo.center-who-was-jesus",
+        "words": 272,
+        "sentences": 13,
+        "longest_sentence_words": 37,
+        "fk_grade": 7.94
+      },
+      {
+        "record_id": "desert.demo.honest-limit-scripture-difficulty",
+        "words": 134,
+        "sentences": 7,
+        "longest_sentence_words": 37,
+        "fk_grade": 6.87
+      },
+      {
+        "record_id": "desert.demo.identity-collision-divorce",
+        "words": 206,
+        "sentences": 14,
+        "longest_sentence_words": 29,
+        "fk_grade": 5.66
+      },
+      {
+        "record_id": "desert.demo.identity-collision-someone-like-me",
+        "words": 181,
+        "sentences": 10,
+        "longest_sentence_words": 29,
+        "fk_grade": 8.0
+      },
+      {
+        "record_id": "desert.demo.identity-collision-womens-authority",
+        "words": 197,
+        "sentences": 10,
+        "longest_sentence_words": 35,
+        "fk_grade": 7.45
+      },
+      {
+        "record_id": "desert.demo.lament-suffering",
+        "words": 296,
+        "sentences": 16,
+        "longest_sentence_words": 61,
+        "fk_grade": 6.06
+      },
+      {
+        "record_id": "desert.demo.quiet-head",
+        "words": 121,
+        "sentences": 9,
+        "longest_sentence_words": 34,
+        "fk_grade": 4.39
+      },
+      {
+        "record_id": "desert.demo.quiet-head",
+        "words": 136,
+        "sentences": 8,
+        "longest_sentence_words": 37,
+        "fk_grade": 5.18
+      }
+    ],
+    "doctrinal_witness.text": [
+      {
+        "record_id": "desert.dw.apostolic",
+        "words": 111,
+        "sentences": 6,
+        "longest_sentence_words": 30,
+        "fk_grade": 8.32
+      },
+      {
+        "record_id": "desert.dw.born-again",
+        "words": 113,
+        "sentences": 6,
+        "longest_sentence_words": 28,
+        "fk_grade": 7.68
+      },
+      {
+        "record_id": "desert.dw.councils",
+        "words": 103,
+        "sentences": 8,
+        "longest_sentence_words": 24,
+        "fk_grade": 5.93
+      },
+      {
+        "record_id": "desert.dw.death-wish",
+        "words": 134,
+        "sentences": 7,
+        "longest_sentence_words": 36,
+        "fk_grade": 8.23
+      },
+      {
+        "record_id": "desert.dw.god",
+        "words": 183,
+        "sentences": 11,
+        "longest_sentence_words": 43,
+        "fk_grade": 6.46
+      },
+      {
+        "record_id": "desert.dw.grace-and-effort",
+        "words": 238,
+        "sentences": 13,
+        "longest_sentence_words": 27,
+        "fk_grade": 7.63
+      },
+      {
+        "record_id": "desert.dw.jesus",
+        "words": 293,
+        "sentences": 20,
+        "longest_sentence_words": 29,
+        "fk_grade": 4.5
+      },
+      {
+        "record_id": "desert.dw.judgment-and-resurrection",
+        "words": 140,
+        "sentences": 9,
+        "longest_sentence_words": 28,
+        "fk_grade": 6.49
+      },
+      {
+        "record_id": "desert.dw.marriage-ending",
+        "words": 132,
+        "sentences": 9,
+        "longest_sentence_words": 30,
+        "fk_grade": 4.95
+      },
+      {
+        "record_id": "desert.dw.melitian-power",
+        "words": 143,
+        "sentences": 8,
+        "longest_sentence_words": 28,
+        "fk_grade": 9.36
+      },
+      {
+        "record_id": "desert.dw.never-settled",
+        "words": 113,
+        "sentences": 7,
+        "longest_sentence_words": 30,
+        "fk_grade": 8.88
+      },
+      {
+        "record_id": "desert.dw.only-true-religion",
+        "words": 151,
+        "sentences": 8,
+        "longest_sentence_words": 41,
+        "fk_grade": 6.88
+      },
+      {
+        "record_id": "desert.dw.someone-like-me",
+        "words": 161,
+        "sentences": 10,
+        "longest_sentence_words": 34,
+        "fk_grade": 6.4
+      },
+      {
+        "record_id": "desert.dw.strangest",
+        "words": 133,
+        "sentences": 8,
+        "longest_sentence_words": 36,
+        "fk_grade": 6.95
+      },
+      {
+        "record_id": "desert.dw.the-heart-and-the-spirit",
+        "words": 222,
+        "sentences": 12,
+        "longest_sentence_words": 45,
+        "fk_grade": 6.51
+      },
+      {
+        "record_id": "desert.dw.writings",
+        "words": 177,
+        "sentences": 11,
+        "longest_sentence_words": 35,
+        "fk_grade": 7.14
+      }
+    ],
+    "honest_limit.statement": [
+      {
+        "record_id": "desert.limit.communal-wrong-unrepaired",
+        "words": 133,
+        "sentences": 7,
+        "longest_sentence_words": 32,
+        "fk_grade": 7.56
+      },
+      {
+        "record_id": "desert.limit.doubt-and-doctrine",
+        "words": 171,
+        "sentences": 12,
+        "longest_sentence_words": 35,
+        "fk_grade": 4.37
+      },
+      {
+        "record_id": "desert.limit.f2-scripture-detail",
+        "words": 62,
+        "sentences": 6,
+        "longest_sentence_words": 16,
+        "fk_grade": 3.09
+      },
+      {
+        "record_id": "desert.limit.original-sin-eucharist-faith",
+        "words": 127,
+        "sentences": 7,
+        "longest_sentence_words": 32,
+        "fk_grade": 6.95
+      },
+      {
+        "record_id": "desert.limit.outsiders-condemned",
+        "words": 55,
+        "sentences": 4,
+        "longest_sentence_words": 17,
+        "fk_grade": 4.1
+      },
+      {
+        "record_id": "desert.limit.tithe",
+        "words": 33,
+        "sentences": 3,
+        "longest_sentence_words": 13,
+        "fk_grade": 4.79
+      }
+    ],
+    "story.tellable_as": [
+      {
+        "record_id": "desert.story.angel-hands-the-tablet",
+        "words": 20,
+        "sentences": 1,
+        "longest_sentence_words": 20,
+        "fk_grade": 6.73
+      },
+      {
+        "record_id": "desert.story.antony-call",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 9.09
+      },
+      {
+        "record_id": "desert.story.antony-tomb-combat",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 5.85
+      },
+      {
+        "record_id": "desert.story.antony-withdrawal",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 9.82
+      },
+      {
+        "record_id": "desert.story.arsenius-flee",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.0
+      },
+      {
+        "record_id": "desert.story.kellia-day",
+        "words": 22,
+        "sentences": 1,
+        "longest_sentence_words": 22,
+        "fk_grade": 12.27
+      },
+      {
+        "record_id": "desert.story.moses-leaking-jug",
+        "words": 20,
+        "sentences": 1,
+        "longest_sentence_words": 20,
+        "fk_grade": 6.1
+      },
+      {
+        "record_id": "desert.story.pachomius-founding",
+        "words": 23,
+        "sentences": 1,
+        "longest_sentence_words": 23,
+        "fk_grade": 11.23
+      },
+      {
+        "record_id": "desert.story.sarah-answer",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 6.88
+      },
+      {
+        "record_id": "desert.story.virgin-who-hid-athanasius",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 9.82
+      }
+    ],
+    "story.text": [
+      {
+        "record_id": "desert.story.angel-hands-the-tablet",
+        "words": 181,
+        "sentences": 12,
+        "longest_sentence_words": 30,
+        "fk_grade": 5.8
+      },
+      {
+        "record_id": "desert.story.antony-call",
+        "words": 173,
+        "sentences": 7,
+        "longest_sentence_words": 36,
+        "fk_grade": 9.74
+      },
+      {
+        "record_id": "desert.story.antony-tomb-combat",
+        "words": 207,
+        "sentences": 13,
+        "longest_sentence_words": 25,
+        "fk_grade": 5.66
+      },
+      {
+        "record_id": "desert.story.antony-withdrawal",
+        "words": 188,
+        "sentences": 12,
+        "longest_sentence_words": 28,
+        "fk_grade": 7.78
+      },
+      {
+        "record_id": "desert.story.arsenius-flee",
+        "words": 60,
+        "sentences": 4,
+        "longest_sentence_words": 22,
+        "fk_grade": 5.36
+      },
+      {
+        "record_id": "desert.story.kellia-day",
+        "words": 144,
+        "sentences": 7,
+        "longest_sentence_words": 39,
+        "fk_grade": 8.8
+      },
+      {
+        "record_id": "desert.story.moses-leaking-jug",
+        "words": 105,
+        "sentences": 6,
+        "longest_sentence_words": 30,
+        "fk_grade": 6.07
+      },
+      {
+        "record_id": "desert.story.pachomius-founding",
+        "words": 313,
+        "sentences": 14,
+        "longest_sentence_words": 41,
+        "fk_grade": 10.12
+      },
+      {
+        "record_id": "desert.story.sarah-answer",
+        "words": 64,
+        "sentences": 3,
+        "longest_sentence_words": 33,
+        "fk_grade": 7.7
+      },
+      {
+        "record_id": "desert.story.virgin-who-hid-athanasius",
+        "words": 244,
+        "sentences": 15,
+        "longest_sentence_words": 36,
+        "fk_grade": 6.71
+      }
+    ],
+    "term.plain_meaning": [
+      {
+        "record_id": "desert.term.anachoresis",
+        "words": 20,
+        "sentences": 1,
+        "longest_sentence_words": 20,
+        "fk_grade": 9.91
+      },
+      {
+        "record_id": "desert.term.antirrhesis",
+        "words": 23,
+        "sentences": 2,
+        "longest_sentence_words": 17,
+        "fk_grade": 5.83
+      },
+      {
+        "record_id": "desert.term.apatheia",
+        "words": 22,
+        "sentences": 3,
+        "longest_sentence_words": 12,
+        "fk_grade": 3.36
+      },
+      {
+        "record_id": "desert.term.apophthegma",
+        "words": 24,
+        "sentences": 2,
+        "longest_sentence_words": 17,
+        "fk_grade": 3.35
+      },
+      {
+        "record_id": "desert.term.apotage",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 9.45
+      },
+      {
+        "record_id": "desert.term.cheironaxia",
+        "words": 19,
+        "sentences": 1,
+        "longest_sentence_words": 19,
+        "fk_grade": 7.0
+      },
+      {
+        "record_id": "desert.term.diakrisis",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 9.14
+      },
+      {
+        "record_id": "desert.term.geron-abba-amma",
+        "words": 28,
+        "sentences": 3,
+        "longest_sentence_words": 15,
+        "fk_grade": 5.75
+      },
+      {
+        "record_id": "desert.term.hesychia",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.16
+      },
+      {
+        "record_id": "desert.term.kellion",
+        "words": 22,
+        "sentences": 1,
+        "longest_sentence_words": 22,
+        "fk_grade": 9.46
+      },
+      {
+        "record_id": "desert.term.koinonia",
+        "words": 18,
+        "sentences": 2,
+        "longest_sentence_words": 9,
+        "fk_grade": 6.93
+      },
+      {
+        "record_id": "desert.term.logismoi",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 9.82
+      },
+      {
+        "record_id": "desert.term.nepsis",
+        "words": 19,
+        "sentences": 1,
+        "longest_sentence_words": 19,
+        "fk_grade": 9.21
+      },
+      {
+        "record_id": "desert.term.penthos",
+        "words": 20,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 5.42
+      },
+      {
+        "record_id": "desert.term.puritas-cordis",
+        "words": 22,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 3.72
+      },
+      {
+        "record_id": "desert.term.synaxis",
+        "words": 22,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 5.33
+      },
+      {
+        "record_id": "desert.term.theoria",
+        "words": 19,
+        "sentences": 1,
+        "longest_sentence_words": 19,
+        "fk_grade": 8.59
+      },
+      {
+        "record_id": "desert.term.xeniteia",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 9.09
+      }
+    ],
+    "term.quick_meaning": [
+      {
+        "record_id": "desert.term.anachoresis",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 6.79
+      },
+      {
+        "record_id": "desert.term.antirrhesis",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 4.82
+      },
+      {
+        "record_id": "desert.term.apatheia",
+        "words": 15,
+        "sentences": 2,
+        "longest_sentence_words": 8,
+        "fk_grade": 3.15
+      },
+      {
+        "record_id": "desert.term.apophthegma",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 4.0
+      },
+      {
+        "record_id": "desert.term.apotage",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "desert.term.cheironaxia",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 3.84
+      },
+      {
+        "record_id": "desert.term.diakrisis",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 5.81
+      },
+      {
+        "record_id": "desert.term.geron-abba-amma",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 5.99
+      },
+      {
+        "record_id": "desert.term.hesychia",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 4.0
+      },
+      {
+        "record_id": "desert.term.kellion",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 6.01
+      },
+      {
+        "record_id": "desert.term.koinonia",
+        "words": 8,
+        "sentences": 1,
+        "longest_sentence_words": 8,
+        "fk_grade": 8.18
+      },
+      {
+        "record_id": "desert.term.logismoi",
+        "words": 10,
+        "sentences": 1,
+        "longest_sentence_words": 10,
+        "fk_grade": 7.59
+      },
+      {
+        "record_id": "desert.term.nepsis",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 3.84
+      },
+      {
+        "record_id": "desert.term.penthos",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 4.79
+      },
+      {
+        "record_id": "desert.term.puritas-cordis",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 6.73
+      },
+      {
+        "record_id": "desert.term.synaxis",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 8.54
+      },
+      {
+        "record_id": "desert.term.theoria",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 5.81
+      },
+      {
+        "record_id": "desert.term.xeniteia",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 6.94
+      }
+    ]
+  }
+}

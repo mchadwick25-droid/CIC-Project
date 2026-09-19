@@ -1,0 +1,977 @@
+{
+  "world": "don",
+  "generated": "2026-09-19",
+  "fields": {
+    "ambient.detail": {
+      "count": 3,
+      "fk_grade_median": 14.32,
+      "fk_grade_max": 15.94,
+      "longest_sentence_words_max": 46,
+      "worst_record": "don.ambient.bagai-gathering-scale"
+    },
+    "demonstration.exchange": {
+      "count": 15,
+      "fk_grade_median": 7.36,
+      "fk_grade_max": 10.65,
+      "longest_sentence_words_max": 52,
+      "worst_record": "don.demo.bagai-unresolved"
+    },
+    "doctrinal_witness.text": {
+      "count": 28,
+      "fk_grade_median": 7.54,
+      "fk_grade_max": 10.93,
+      "longest_sentence_words_max": 68,
+      "worst_record": "don.witness.one-formation-aim"
+    },
+    "honest_limit.statement": {
+      "count": 7,
+      "fk_grade_median": 6.81,
+      "fk_grade_max": 8.76,
+      "longest_sentence_words_max": 38,
+      "worst_record": "don.limit.womens-own-voice"
+    },
+    "story.tellable_as": {
+      "count": 12,
+      "fk_grade_median": 16.06,
+      "fk_grade_max": 22.47,
+      "longest_sentence_words_max": 54,
+      "worst_record": "don.story.conference-of-carthage-411"
+    },
+    "story.text": {
+      "count": 12,
+      "fk_grade_median": 11.67,
+      "fk_grade_max": 15.39,
+      "longest_sentence_words_max": 94,
+      "worst_record": "don.story.bagai-reconciliation"
+    },
+    "term.plain_meaning": {
+      "count": 21,
+      "fk_grade_median": 4.33,
+      "fk_grade_max": 8.01,
+      "longest_sentence_words_max": 19,
+      "worst_record": "don.term.agonistici"
+    },
+    "term.quick_meaning": {
+      "count": 21,
+      "fk_grade_median": 5.04,
+      "fk_grade_max": 9.74,
+      "longest_sentence_words_max": 19,
+      "worst_record": "don.term.agonistici"
+    },
+    "world_core.cautions": {
+      "count": 1,
+      "fk_grade_median": 19.35,
+      "fk_grade_max": 19.35,
+      "longest_sentence_words_max": 74,
+      "worst_record": "don.core.donatism"
+    },
+    "world_core.formation_logic": {
+      "count": 1,
+      "fk_grade_median": 21.19,
+      "fk_grade_max": 21.19,
+      "longest_sentence_words_max": 96,
+      "worst_record": "don.core.donatism"
+    },
+    "world_core.horizon": {
+      "count": 1,
+      "fk_grade_median": 20.01,
+      "fk_grade_max": 20.01,
+      "longest_sentence_words_max": 73,
+      "worst_record": "don.core.donatism"
+    },
+    "world_core.thinness": {
+      "count": 1,
+      "fk_grade_median": 29.19,
+      "fk_grade_max": 29.19,
+      "longest_sentence_words_max": 204,
+      "worst_record": "don.core.donatism"
+    }
+  },
+  "records": {
+    "ambient.detail": [
+      {
+        "record_id": "don.ambient.bagai-gathering-scale",
+        "words": 41,
+        "sentences": 1,
+        "longest_sentence_words": 41,
+        "fk_grade": 15.94
+      },
+      {
+        "record_id": "don.ambient.deo-laudes-as-object",
+        "words": 48,
+        "sentences": 2,
+        "longest_sentence_words": 30,
+        "fk_grade": 10.9
+      },
+      {
+        "record_id": "don.ambient.doubled-towns",
+        "words": 59,
+        "sentences": 2,
+        "longest_sentence_words": 46,
+        "fk_grade": 14.32
+      }
+    ],
+    "world_core.horizon": [
+      {
+        "record_id": "don.core.donatism",
+        "words": 417,
+        "sentences": 11,
+        "longest_sentence_words": 73,
+        "fk_grade": 20.01
+      }
+    ],
+    "world_core.formation_logic": [
+      {
+        "record_id": "don.core.donatism",
+        "words": 503,
+        "sentences": 12,
+        "longest_sentence_words": 96,
+        "fk_grade": 21.19
+      }
+    ],
+    "world_core.thinness": [
+      {
+        "record_id": "don.core.donatism",
+        "words": 415,
+        "sentences": 7,
+        "longest_sentence_words": 204,
+        "fk_grade": 29.19
+      }
+    ],
+    "world_core.cautions": [
+      {
+        "record_id": "don.core.donatism",
+        "words": 712,
+        "sentences": 20,
+        "longest_sentence_words": 74,
+        "fk_grade": 19.35
+      }
+    ],
+    "demonstration.exchange": [
+      {
+        "record_id": "don.demo.bagai-unresolved",
+        "words": 92,
+        "sentences": 5,
+        "longest_sentence_words": 26,
+        "fk_grade": 9.01
+      },
+      {
+        "record_id": "don.demo.bagai-unresolved",
+        "words": 152,
+        "sentences": 6,
+        "longest_sentence_words": 50,
+        "fk_grade": 10.65
+      },
+      {
+        "record_id": "don.demo.baptism-threshold",
+        "words": 123,
+        "sentences": 8,
+        "longest_sentence_words": 46,
+        "fk_grade": 6.61
+      },
+      {
+        "record_id": "don.demo.baptism-threshold",
+        "words": 88,
+        "sentences": 5,
+        "longest_sentence_words": 49,
+        "fk_grade": 7.36
+      },
+      {
+        "record_id": "don.demo.born-again",
+        "words": 278,
+        "sentences": 19,
+        "longest_sentence_words": 33,
+        "fk_grade": 6.16
+      },
+      {
+        "record_id": "don.demo.came-to-believe",
+        "words": 287,
+        "sentences": 20,
+        "longest_sentence_words": 30,
+        "fk_grade": 4.8
+      },
+      {
+        "record_id": "don.demo.death-wish",
+        "words": 289,
+        "sentences": 18,
+        "longest_sentence_words": 41,
+        "fk_grade": 6.96
+      },
+      {
+        "record_id": "don.demo.did-the-empire-change-you",
+        "words": 341,
+        "sentences": 24,
+        "longest_sentence_words": 52,
+        "fk_grade": 6.49
+      },
+      {
+        "record_id": "don.demo.mostly-legend",
+        "words": 312,
+        "sentences": 20,
+        "longest_sentence_words": 33,
+        "fk_grade": 6.22
+      },
+      {
+        "record_id": "don.demo.never-settled",
+        "words": 386,
+        "sentences": 22,
+        "longest_sentence_words": 51,
+        "fk_grade": 7.9
+      },
+      {
+        "record_id": "don.demo.power-against-dissenters",
+        "words": 295,
+        "sentences": 17,
+        "longest_sentence_words": 47,
+        "fk_grade": 7.76
+      },
+      {
+        "record_id": "don.demo.someone-like-me",
+        "words": 293,
+        "sentences": 16,
+        "longest_sentence_words": 40,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "don.demo.undiscovered-traditor",
+        "words": 135,
+        "sentences": 6,
+        "longest_sentence_words": 41,
+        "fk_grade": 9.38
+      },
+      {
+        "record_id": "don.demo.undiscovered-traditor",
+        "words": 71,
+        "sentences": 6,
+        "longest_sentence_words": 22,
+        "fk_grade": 3.96
+      },
+      {
+        "record_id": "don.demo.woman-authority",
+        "words": 281,
+        "sentences": 16,
+        "longest_sentence_words": 33,
+        "fk_grade": 8.04
+      }
+    ],
+    "doctrinal_witness.text": [
+      {
+        "record_id": "don.dw.becoming-one-of-us",
+        "words": 653,
+        "sentences": 33,
+        "longest_sentence_words": 49,
+        "fk_grade": 8.59
+      },
+      {
+        "record_id": "don.dw.forgiving-a-man-and-trusting-a-hand",
+        "words": 393,
+        "sentences": 24,
+        "longest_sentence_words": 39,
+        "fk_grade": 6.49
+      },
+      {
+        "record_id": "don.dw.how-we-read-and-heard",
+        "words": 412,
+        "sentences": 23,
+        "longest_sentence_words": 68,
+        "fk_grade": 6.98
+      },
+      {
+        "record_id": "don.dw.hypocrites-and-those-who-left",
+        "words": 574,
+        "sentences": 32,
+        "longest_sentence_words": 47,
+        "fk_grade": 6.98
+      },
+      {
+        "record_id": "don.dw.not-a-death-wish",
+        "words": 380,
+        "sentences": 22,
+        "longest_sentence_words": 51,
+        "fk_grade": 7.54
+      },
+      {
+        "record_id": "don.dw.older-than-the-schism",
+        "words": 306,
+        "sentences": 18,
+        "longest_sentence_words": 50,
+        "fk_grade": 8.05
+      },
+      {
+        "record_id": "don.dw.room-for-dissent",
+        "words": 432,
+        "sentences": 29,
+        "longest_sentence_words": 40,
+        "fk_grade": 6.08
+      },
+      {
+        "record_id": "don.dw.scripture-and-the-african-fathers",
+        "words": 305,
+        "sentences": 15,
+        "longest_sentence_words": 53,
+        "fk_grade": 8.78
+      },
+      {
+        "record_id": "don.dw.silver-and-the-goods-of-the-poor",
+        "words": 433,
+        "sentences": 21,
+        "longest_sentence_words": 54,
+        "fk_grade": 8.94
+      },
+      {
+        "record_id": "don.dw.the-books-they-came-for",
+        "words": 323,
+        "sentences": 22,
+        "longest_sentence_words": 38,
+        "fk_grade": 5.9
+      },
+      {
+        "record_id": "don.dw.the-creed-we-shared",
+        "words": 302,
+        "sentences": 18,
+        "longest_sentence_words": 33,
+        "fk_grade": 7.5
+      },
+      {
+        "record_id": "don.dw.the-emperor-and-the-church",
+        "words": 448,
+        "sentences": 29,
+        "longest_sentence_words": 54,
+        "fk_grade": 6.94
+      },
+      {
+        "record_id": "don.dw.the-line-we-actually-drew",
+        "words": 317,
+        "sentences": 19,
+        "longest_sentence_words": 42,
+        "fk_grade": 6.67
+      },
+      {
+        "record_id": "don.dw.the-test-we-took-from-the-text",
+        "words": 336,
+        "sentences": 23,
+        "longest_sentence_words": 64,
+        "fk_grade": 5.82
+      },
+      {
+        "record_id": "don.dw.the-word-catholic-and-no-door-today",
+        "words": 396,
+        "sentences": 20,
+        "longest_sentence_words": 46,
+        "fk_grade": 8.34
+      },
+      {
+        "record_id": "don.dw.two-churches-in-one-town",
+        "words": 451,
+        "sentences": 28,
+        "longest_sentence_words": 48,
+        "fk_grade": 6.88
+      },
+      {
+        "record_id": "don.dw.walking-to-one-font",
+        "words": 363,
+        "sentences": 20,
+        "longest_sentence_words": 48,
+        "fk_grade": 6.41
+      },
+      {
+        "record_id": "don.dw.washed-for-the-first-time",
+        "words": 427,
+        "sentences": 22,
+        "longest_sentence_words": 60,
+        "fk_grade": 8.26
+      },
+      {
+        "record_id": "don.dw.what-belonging-cost",
+        "words": 515,
+        "sentences": 27,
+        "longest_sentence_words": 49,
+        "fk_grade": 8.21
+      },
+      {
+        "record_id": "don.dw.what-we-argued-among-ourselves",
+        "words": 381,
+        "sentences": 25,
+        "longest_sentence_words": 36,
+        "fk_grade": 6.4
+      },
+      {
+        "record_id": "don.dw.what-we-did-with-the-power-we-had",
+        "words": 617,
+        "sentences": 28,
+        "longest_sentence_words": 68,
+        "fk_grade": 9.47
+      },
+      {
+        "record_id": "don.dw.what-we-never-settled",
+        "words": 428,
+        "sentences": 26,
+        "longest_sentence_words": 51,
+        "fk_grade": 7.37
+      },
+      {
+        "record_id": "don.dw.who-decides-a-disputed-case",
+        "words": 402,
+        "sentences": 20,
+        "longest_sentence_words": 46,
+        "fk_grade": 8.8
+      },
+      {
+        "record_id": "don.dw.who-jesus-was-among-us",
+        "words": 395,
+        "sentences": 19,
+        "longest_sentence_words": 47,
+        "fk_grade": 7.92
+      },
+      {
+        "record_id": "don.dw.written-by-our-opponents",
+        "words": 470,
+        "sentences": 31,
+        "longest_sentence_words": 49,
+        "fk_grade": 6.56
+      },
+      {
+        "record_id": "don.witness.boundary-is-doctrine",
+        "words": 169,
+        "sentences": 7,
+        "longest_sentence_words": 39,
+        "fk_grade": 9.01
+      },
+      {
+        "record_id": "don.witness.one-formation-aim",
+        "words": 199,
+        "sentences": 8,
+        "longest_sentence_words": 47,
+        "fk_grade": 10.93
+      },
+      {
+        "record_id": "don.witness.refusal-and-recourse",
+        "words": 175,
+        "sentences": 7,
+        "longest_sentence_words": 59,
+        "fk_grade": 10.49
+      }
+    ],
+    "honest_limit.statement": [
+      {
+        "record_id": "don.limit.bagai-violence-no-account",
+        "words": 114,
+        "sentences": 6,
+        "longest_sentence_words": 38,
+        "fk_grade": 8.57
+      },
+      {
+        "record_id": "don.limit.doubt-and-reception",
+        "words": 117,
+        "sentences": 7,
+        "longest_sentence_words": 35,
+        "fk_grade": 6.81
+      },
+      {
+        "record_id": "don.limit.no-ordinary-day-survives",
+        "words": 230,
+        "sentences": 18,
+        "longest_sentence_words": 36,
+        "fk_grade": 3.96
+      },
+      {
+        "record_id": "don.limit.questions-we-never-argued",
+        "words": 187,
+        "sentences": 16,
+        "longest_sentence_words": 34,
+        "fk_grade": 3.17
+      },
+      {
+        "record_id": "don.limit.the-room-we-cannot-show-you",
+        "words": 182,
+        "sentences": 16,
+        "longest_sentence_words": 20,
+        "fk_grade": 3.5
+      },
+      {
+        "record_id": "don.limit.theology-beyond-tyconius",
+        "words": 121,
+        "sentences": 7,
+        "longest_sentence_words": 33,
+        "fk_grade": 7.62
+      },
+      {
+        "record_id": "don.limit.womens-own-voice",
+        "words": 113,
+        "sentences": 6,
+        "longest_sentence_words": 37,
+        "fk_grade": 8.76
+      }
+    ],
+    "story.tellable_as": [
+      {
+        "record_id": "don.story.acta-purgationis-felicis",
+        "words": 41,
+        "sentences": 1,
+        "longest_sentence_words": 41,
+        "fk_grade": 19.48
+      },
+      {
+        "record_id": "don.story.bagai-reconciliation",
+        "words": 39,
+        "sentences": 1,
+        "longest_sentence_words": 39,
+        "fk_grade": 19.1
+      },
+      {
+        "record_id": "don.story.conference-of-carthage-411",
+        "words": 54,
+        "sentences": 1,
+        "longest_sentence_words": 54,
+        "fk_grade": 22.47
+      },
+      {
+        "record_id": "don.story.council-of-cirta",
+        "words": 34,
+        "sentences": 1,
+        "longest_sentence_words": 34,
+        "fk_grade": 16.06
+      },
+      {
+        "record_id": "don.story.gesta-apud-zenophilum",
+        "words": 41,
+        "sentences": 1,
+        "longest_sentence_words": 41,
+        "fk_grade": 16.56
+      },
+      {
+        "record_id": "don.story.lucilla-affair",
+        "words": 35,
+        "sentences": 1,
+        "longest_sentence_words": 35,
+        "fk_grade": 17.8
+      },
+      {
+        "record_id": "don.story.lucilla-consecration-dispute",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 11.78
+      },
+      {
+        "record_id": "don.story.macrobius-letter",
+        "words": 36,
+        "sentences": 1,
+        "longest_sentence_words": 36,
+        "fk_grade": 14.58
+      },
+      {
+        "record_id": "don.story.macrobius-letter-isaac-maximianus",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 13.07
+      },
+      {
+        "record_id": "don.story.passio-donati-sermon",
+        "words": 30,
+        "sentences": 1,
+        "longest_sentence_words": 30,
+        "fk_grade": 13.42
+      },
+      {
+        "record_id": "don.story.passio-marculi",
+        "words": 41,
+        "sentences": 1,
+        "longest_sentence_words": 41,
+        "fk_grade": 15.06
+      },
+      {
+        "record_id": "don.story.tyconius-condemnation",
+        "words": 30,
+        "sentences": 1,
+        "longest_sentence_words": 30,
+        "fk_grade": 11.45
+      }
+    ],
+    "story.text": [
+      {
+        "record_id": "don.story.acta-purgationis-felicis",
+        "words": 181,
+        "sentences": 8,
+        "longest_sentence_words": 58,
+        "fk_grade": 13.9
+      },
+      {
+        "record_id": "don.story.bagai-reconciliation",
+        "words": 301,
+        "sentences": 10,
+        "longest_sentence_words": 63,
+        "fk_grade": 15.39
+      },
+      {
+        "record_id": "don.story.conference-of-carthage-411",
+        "words": 795,
+        "sentences": 29,
+        "longest_sentence_words": 94,
+        "fk_grade": 11.24
+      },
+      {
+        "record_id": "don.story.council-of-cirta",
+        "words": 227,
+        "sentences": 11,
+        "longest_sentence_words": 62,
+        "fk_grade": 10.78
+      },
+      {
+        "record_id": "don.story.gesta-apud-zenophilum",
+        "words": 492,
+        "sentences": 24,
+        "longest_sentence_words": 68,
+        "fk_grade": 9.65
+      },
+      {
+        "record_id": "don.story.lucilla-affair",
+        "words": 295,
+        "sentences": 15,
+        "longest_sentence_words": 41,
+        "fk_grade": 10.91
+      },
+      {
+        "record_id": "don.story.lucilla-consecration-dispute",
+        "words": 272,
+        "sentences": 16,
+        "longest_sentence_words": 36,
+        "fk_grade": 10.36
+      },
+      {
+        "record_id": "don.story.macrobius-letter",
+        "words": 377,
+        "sentences": 11,
+        "longest_sentence_words": 92,
+        "fk_grade": 14.52
+      },
+      {
+        "record_id": "don.story.macrobius-letter-isaac-maximianus",
+        "words": 302,
+        "sentences": 11,
+        "longest_sentence_words": 51,
+        "fk_grade": 12.02
+      },
+      {
+        "record_id": "don.story.passio-donati-sermon",
+        "words": 314,
+        "sentences": 15,
+        "longest_sentence_words": 49,
+        "fk_grade": 9.48
+      },
+      {
+        "record_id": "don.story.passio-marculi",
+        "words": 271,
+        "sentences": 9,
+        "longest_sentence_words": 59,
+        "fk_grade": 13.33
+      },
+      {
+        "record_id": "don.story.tyconius-condemnation",
+        "words": 277,
+        "sentences": 11,
+        "longest_sentence_words": 63,
+        "fk_grade": 11.67
+      }
+    ],
+    "term.plain_meaning": [
+      {
+        "record_id": "don.term.agonistici",
+        "words": 45,
+        "sentences": 4,
+        "longest_sentence_words": 15,
+        "fk_grade": 8.01
+      },
+      {
+        "record_id": "don.term.anniversaria-commemoratio",
+        "words": 42,
+        "sentences": 4,
+        "longest_sentence_words": 13,
+        "fk_grade": 4.24
+      },
+      {
+        "record_id": "don.term.caecilianist",
+        "words": 41,
+        "sentences": 4,
+        "longest_sentence_words": 15,
+        "fk_grade": 5.1
+      },
+      {
+        "record_id": "don.term.catholicus",
+        "words": 50,
+        "sentences": 4,
+        "longest_sentence_words": 17,
+        "fk_grade": 4.33
+      },
+      {
+        "record_id": "don.term.church-of-the-martyrs",
+        "words": 36,
+        "sentences": 3,
+        "longest_sentence_words": 16,
+        "fk_grade": 5.15
+      },
+      {
+        "record_id": "don.term.concilium",
+        "words": 41,
+        "sentences": 4,
+        "longest_sentence_words": 18,
+        "fk_grade": 6.01
+      },
+      {
+        "record_id": "don.term.confessor",
+        "words": 31,
+        "sentences": 3,
+        "longest_sentence_words": 17,
+        "fk_grade": 4.43
+      },
+      {
+        "record_id": "don.term.deo-laudes",
+        "words": 53,
+        "sentences": 4,
+        "longest_sentence_words": 19,
+        "fk_grade": 3.55
+      },
+      {
+        "record_id": "don.term.ecclesia",
+        "words": 45,
+        "sentences": 4,
+        "longest_sentence_words": 18,
+        "fk_grade": 4.01
+      },
+      {
+        "record_id": "don.term.episcopus",
+        "words": 45,
+        "sentences": 4,
+        "longest_sentence_words": 15,
+        "fk_grade": 4.79
+      },
+      {
+        "record_id": "don.term.liber-regularum",
+        "words": 47,
+        "sentences": 4,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.82
+      },
+      {
+        "record_id": "don.term.martyr-martyrdom",
+        "words": 50,
+        "sentences": 5,
+        "longest_sentence_words": 15,
+        "fk_grade": 3.66
+      },
+      {
+        "record_id": "don.term.pars-donati",
+        "words": 52,
+        "sentences": 4,
+        "longest_sentence_words": 16,
+        "fk_grade": 5.36
+      },
+      {
+        "record_id": "don.term.persecutio",
+        "words": 48,
+        "sentences": 3,
+        "longest_sentence_words": 19,
+        "fk_grade": 7.12
+      },
+      {
+        "record_id": "don.term.primas",
+        "words": 43,
+        "sentences": 4,
+        "longest_sentence_words": 16,
+        "fk_grade": 4.52
+      },
+      {
+        "record_id": "don.term.purity-ministerial",
+        "words": 42,
+        "sentences": 4,
+        "longest_sentence_words": 14,
+        "fk_grade": 3.7
+      },
+      {
+        "record_id": "don.term.rebaptism",
+        "words": 41,
+        "sentences": 4,
+        "longest_sentence_words": 19,
+        "fk_grade": 3.66
+      },
+      {
+        "record_id": "don.term.reception-without-reordination",
+        "words": 47,
+        "sentences": 5,
+        "longest_sentence_words": 19,
+        "fk_grade": 3.39
+      },
+      {
+        "record_id": "don.term.refusal-of-imperial-legitimacy",
+        "words": 56,
+        "sentences": 5,
+        "longest_sentence_words": 13,
+        "fk_grade": 2.47
+      },
+      {
+        "record_id": "don.term.schisma",
+        "words": 43,
+        "sentences": 5,
+        "longest_sentence_words": 11,
+        "fk_grade": 2.31
+      },
+      {
+        "record_id": "don.term.traditor-traditio",
+        "words": 41,
+        "sentences": 5,
+        "longest_sentence_words": 13,
+        "fk_grade": 4.01
+      }
+    ],
+    "term.quick_meaning": [
+      {
+        "record_id": "don.term.agonistici",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 9.74
+      },
+      {
+        "record_id": "don.term.anniversaria-commemoratio",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 6.14
+      },
+      {
+        "record_id": "don.term.caecilianist",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 6.79
+      },
+      {
+        "record_id": "don.term.catholicus",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "don.term.church-of-the-martyrs",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 4.0
+      },
+      {
+        "record_id": "don.term.concilium",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 4.91
+      },
+      {
+        "record_id": "don.term.confessor",
+        "words": 12,
+        "sentences": 2,
+        "longest_sentence_words": 8,
+        "fk_grade": 4.45
+      },
+      {
+        "record_id": "don.term.deo-laudes",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 1.87
+      },
+      {
+        "record_id": "don.term.ecclesia",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 5.04
+      },
+      {
+        "record_id": "don.term.episcopus",
+        "words": 13,
+        "sentences": 2,
+        "longest_sentence_words": 8,
+        "fk_grade": 3.28
+      },
+      {
+        "record_id": "don.term.liber-regularum",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 9.74
+      },
+      {
+        "record_id": "don.term.martyr-martyrdom",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 3.93
+      },
+      {
+        "record_id": "don.term.pars-donati",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "don.term.persecutio",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.63
+      },
+      {
+        "record_id": "don.term.primas",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 5.82
+      },
+      {
+        "record_id": "don.term.purity-ministerial",
+        "words": 15,
+        "sentences": 2,
+        "longest_sentence_words": 10,
+        "fk_grade": 1.5
+      },
+      {
+        "record_id": "don.term.rebaptism",
+        "words": 16,
+        "sentences": 2,
+        "longest_sentence_words": 8,
+        "fk_grade": 3.86
+      },
+      {
+        "record_id": "don.term.reception-without-reordination",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 9.74
+      },
+      {
+        "record_id": "don.term.refusal-of-imperial-legitimacy",
+        "words": 19,
+        "sentences": 1,
+        "longest_sentence_words": 19,
+        "fk_grade": 6.51
+      },
+      {
+        "record_id": "don.term.schisma",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 4.0
+      },
+      {
+        "record_id": "don.term.traditor-traditio",
+        "words": 14,
+        "sentences": 2,
+        "longest_sentence_words": 9,
+        "fk_grade": 2.31
+      }
+    ]
+  }
+}

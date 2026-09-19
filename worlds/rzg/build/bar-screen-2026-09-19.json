@@ -1,0 +1,613 @@
+{
+  "world": "rzg",
+  "generated": "2026-09-19",
+  "fields": {
+    "ambient.detail": {
+      "count": 3,
+      "fk_grade_median": 17.86,
+      "fk_grade_max": 24.32,
+      "longest_sentence_words_max": 60,
+      "worst_record": "rzg.ambient.consensus-single-page"
+    },
+    "demonstration.exchange": {
+      "count": 3,
+      "fk_grade_median": 11.44,
+      "fk_grade_max": 17.72,
+      "longest_sentence_words_max": 59,
+      "worst_record": "rzg.demo.why-we"
+    },
+    "doctrinal_witness.text": {
+      "count": 12,
+      "fk_grade_median": 7.17,
+      "fk_grade_max": 11.18,
+      "longest_sentence_words_max": 50,
+      "worst_record": "rzg.witness.why-the-children-too"
+    },
+    "honest_limit.statement": {
+      "count": 9,
+      "fk_grade_median": 7.82,
+      "fk_grade_max": 9.62,
+      "longest_sentence_words_max": 59,
+      "worst_record": "rzg.limit.marburg-bolsec-perrinist-narrative"
+    },
+    "story.tellable_as": {
+      "count": 3,
+      "fk_grade_median": 14.68,
+      "fk_grade_max": 18.29,
+      "longest_sentence_words_max": 36,
+      "worst_record": "rzg.story.calvins-journey-to-zurich"
+    },
+    "story.text": {
+      "count": 3,
+      "fk_grade_median": 10.3,
+      "fk_grade_max": 11.29,
+      "longest_sentence_words_max": 59,
+      "worst_record": "rzg.story.calvins-journey-to-zurich"
+    },
+    "term.plain_meaning": {
+      "count": 17,
+      "fk_grade_median": 6.85,
+      "fk_grade_max": 8.96,
+      "longest_sentence_words_max": 25,
+      "worst_record": "rzg.term.sixty-seven-articles"
+    },
+    "term.quick_meaning": {
+      "count": 17,
+      "fk_grade_median": 7.87,
+      "fk_grade_max": 9.86,
+      "longest_sentence_words_max": 26,
+      "worst_record": "rzg.term.confession-of-faith"
+    },
+    "world_core.cautions": {
+      "count": 1,
+      "fk_grade_median": 15.4,
+      "fk_grade_max": 15.4,
+      "longest_sentence_words_max": 50,
+      "worst_record": "rzg.core.the-reformed-cities-zurich-and-geneva"
+    },
+    "world_core.formation_logic": {
+      "count": 1,
+      "fk_grade_median": 15.23,
+      "fk_grade_max": 15.23,
+      "longest_sentence_words_max": 51,
+      "worst_record": "rzg.core.the-reformed-cities-zurich-and-geneva"
+    },
+    "world_core.horizon": {
+      "count": 1,
+      "fk_grade_median": 23.51,
+      "fk_grade_max": 23.51,
+      "longest_sentence_words_max": 58,
+      "worst_record": "rzg.core.the-reformed-cities-zurich-and-geneva"
+    },
+    "world_core.thinness": {
+      "count": 1,
+      "fk_grade_median": 17.86,
+      "fk_grade_max": 17.86,
+      "longest_sentence_words_max": 69,
+      "worst_record": "rzg.core.the-reformed-cities-zurich-and-geneva"
+    }
+  },
+  "records": {
+    "ambient.detail": [
+      {
+        "record_id": "rzg.ambient.consensus-single-page",
+        "words": 60,
+        "sentences": 1,
+        "longest_sentence_words": 60,
+        "fk_grade": 24.32
+      },
+      {
+        "record_id": "rzg.ambient.disputation-crowd-scale",
+        "words": 40,
+        "sentences": 1,
+        "longest_sentence_words": 40,
+        "fk_grade": 17.86
+      },
+      {
+        "record_id": "rzg.ambient.emptied-worship-space",
+        "words": 39,
+        "sentences": 2,
+        "longest_sentence_words": 26,
+        "fk_grade": 8.73
+      }
+    ],
+    "world_core.horizon": [
+      {
+        "record_id": "rzg.core.the-reformed-cities-zurich-and-geneva",
+        "words": 278,
+        "sentences": 6,
+        "longest_sentence_words": 58,
+        "fk_grade": 23.51
+      }
+    ],
+    "world_core.formation_logic": [
+      {
+        "record_id": "rzg.core.the-reformed-cities-zurich-and-geneva",
+        "words": 290,
+        "sentences": 11,
+        "longest_sentence_words": 51,
+        "fk_grade": 15.23
+      }
+    ],
+    "world_core.thinness": [
+      {
+        "record_id": "rzg.core.the-reformed-cities-zurich-and-geneva",
+        "words": 259,
+        "sentences": 9,
+        "longest_sentence_words": 69,
+        "fk_grade": 17.86
+      }
+    ],
+    "world_core.cautions": [
+      {
+        "record_id": "rzg.core.the-reformed-cities-zurich-and-geneva",
+        "words": 299,
+        "sentences": 14,
+        "longest_sentence_words": 50,
+        "fk_grade": 15.4
+      }
+    ],
+    "demonstration.exchange": [
+      {
+        "record_id": "rzg.demo.consensus-contest",
+        "words": 168,
+        "sentences": 6,
+        "longest_sentence_words": 46,
+        "fk_grade": 11.44
+      },
+      {
+        "record_id": "rzg.demo.predestination-and-dread",
+        "words": 166,
+        "sentences": 8,
+        "longest_sentence_words": 32,
+        "fk_grade": 8.57
+      },
+      {
+        "record_id": "rzg.demo.why-we",
+        "words": 156,
+        "sentences": 4,
+        "longest_sentence_words": 59,
+        "fk_grade": 17.72
+      }
+    ],
+    "honest_limit.statement": [
+      {
+        "record_id": "rzg.limit.consistory-case-narrative",
+        "words": 95,
+        "sentences": 8,
+        "longest_sentence_words": 27,
+        "fk_grade": 7.82
+      },
+      {
+        "record_id": "rzg.limit.dentiere-and-womens-voice",
+        "words": 77,
+        "sentences": 6,
+        "longest_sentence_words": 19,
+        "fk_grade": 5.96
+      },
+      {
+        "record_id": "rzg.limit.doubt-and-assurance",
+        "words": 96,
+        "sentences": 6,
+        "longest_sentence_words": 31,
+        "fk_grade": 7.73
+      },
+      {
+        "record_id": "rzg.limit.hagiography-refused",
+        "words": 87,
+        "sentences": 6,
+        "longest_sentence_words": 21,
+        "fk_grade": 6.75
+      },
+      {
+        "record_id": "rzg.limit.marburg-bolsec-perrinist-narrative",
+        "words": 123,
+        "sentences": 6,
+        "longest_sentence_words": 59,
+        "fk_grade": 9.62
+      },
+      {
+        "record_id": "rzg.limit.material-culture-and-worship-space",
+        "words": 95,
+        "sentences": 5,
+        "longest_sentence_words": 27,
+        "fk_grade": 8.19
+      },
+      {
+        "record_id": "rzg.limit.no-teaching-on-wealth-or-marriage",
+        "words": 68,
+        "sentences": 4,
+        "longest_sentence_words": 36,
+        "fk_grade": 6.58
+      },
+      {
+        "record_id": "rzg.limit.ordinary-daily-practice",
+        "words": 98,
+        "sentences": 7,
+        "longest_sentence_words": 25,
+        "fk_grade": 8.79
+      },
+      {
+        "record_id": "rzg.limit.what-scripture-asked-of-a-modern-reader",
+        "words": 81,
+        "sentences": 4,
+        "longest_sentence_words": 35,
+        "fk_grade": 9.5
+      }
+    ],
+    "story.tellable_as": [
+      {
+        "record_id": "rzg.story.calvins-journey-to-zurich",
+        "words": 36,
+        "sentences": 1,
+        "longest_sentence_words": 36,
+        "fk_grade": 18.29
+      },
+      {
+        "record_id": "rzg.story.first-zurich-disputation",
+        "words": 35,
+        "sentences": 1,
+        "longest_sentence_words": 35,
+        "fk_grade": 14.68
+      },
+      {
+        "record_id": "rzg.story.myconius-account-of-zwinglis-death",
+        "words": 28,
+        "sentences": 1,
+        "longest_sentence_words": 28,
+        "fk_grade": 11.8
+      }
+    ],
+    "story.text": [
+      {
+        "record_id": "rzg.story.calvins-journey-to-zurich",
+        "words": 149,
+        "sentences": 7,
+        "longest_sentence_words": 44,
+        "fk_grade": 11.29
+      },
+      {
+        "record_id": "rzg.story.first-zurich-disputation",
+        "words": 167,
+        "sentences": 9,
+        "longest_sentence_words": 35,
+        "fk_grade": 10.08
+      },
+      {
+        "record_id": "rzg.story.myconius-account-of-zwinglis-death",
+        "words": 183,
+        "sentences": 7,
+        "longest_sentence_words": 59,
+        "fk_grade": 10.3
+      }
+    ],
+    "term.plain_meaning": [
+      {
+        "record_id": "rzg.term.antistes",
+        "words": 13,
+        "sentences": 2,
+        "longest_sentence_words": 7,
+        "fk_grade": 8.73
+      },
+      {
+        "record_id": "rzg.term.catechism",
+        "words": 28,
+        "sentences": 4,
+        "longest_sentence_words": 9,
+        "fk_grade": 4.84
+      },
+      {
+        "record_id": "rzg.term.confession-of-faith",
+        "words": 23,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 8.9
+      },
+      {
+        "record_id": "rzg.term.consistory",
+        "words": 32,
+        "sentences": 4,
+        "longest_sentence_words": 12,
+        "fk_grade": 8.18
+      },
+      {
+        "record_id": "rzg.term.disputation",
+        "words": 41,
+        "sentences": 4,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.78
+      },
+      {
+        "record_id": "rzg.term.elder",
+        "words": 19,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 7.99
+      },
+      {
+        "record_id": "rzg.term.excommunication",
+        "words": 29,
+        "sentences": 3,
+        "longest_sentence_words": 12,
+        "fk_grade": 8.52
+      },
+      {
+        "record_id": "rzg.term.heads-of-agreement",
+        "words": 18,
+        "sentences": 2,
+        "longest_sentence_words": 13,
+        "fk_grade": 6.13
+      },
+      {
+        "record_id": "rzg.term.memorial-commemoration",
+        "words": 26,
+        "sentences": 3,
+        "longest_sentence_words": 10,
+        "fk_grade": 6.85
+      },
+      {
+        "record_id": "rzg.term.mutual-consent",
+        "words": 27,
+        "sentences": 3,
+        "longest_sentence_words": 10,
+        "fk_grade": 6.85
+      },
+      {
+        "record_id": "rzg.term.predestination-election",
+        "words": 38,
+        "sentences": 4,
+        "longest_sentence_words": 17,
+        "fk_grade": 5.19
+      },
+      {
+        "record_id": "rzg.term.providence",
+        "words": 26,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.27
+      },
+      {
+        "record_id": "rzg.term.reformation",
+        "words": 25,
+        "sentences": 3,
+        "longest_sentence_words": 10,
+        "fk_grade": 6.07
+      },
+      {
+        "record_id": "rzg.term.sign-and-the-thing-signified",
+        "words": 41,
+        "sentences": 4,
+        "longest_sentence_words": 13,
+        "fk_grade": 6.01
+      },
+      {
+        "record_id": "rzg.term.sixty-seven-articles",
+        "words": 20,
+        "sentences": 2,
+        "longest_sentence_words": 10,
+        "fk_grade": 8.96
+      },
+      {
+        "record_id": "rzg.term.sola-scriptura",
+        "words": 38,
+        "sentences": 4,
+        "longest_sentence_words": 19,
+        "fk_grade": 6.44
+      },
+      {
+        "record_id": "rzg.term.the-lords-supper-spiritual-presence",
+        "words": 49,
+        "sentences": 4,
+        "longest_sentence_words": 25,
+        "fk_grade": 7.04
+      }
+    ],
+    "term.quick_meaning": [
+      {
+        "record_id": "rzg.term.antistes",
+        "words": 16,
+        "sentences": 3,
+        "longest_sentence_words": 6,
+        "fk_grade": 7.14
+      },
+      {
+        "record_id": "rzg.term.catechism",
+        "words": 20,
+        "sentences": 2,
+        "longest_sentence_words": 10,
+        "fk_grade": 8.37
+      },
+      {
+        "record_id": "rzg.term.confession-of-faith",
+        "words": 21,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 9.86
+      },
+      {
+        "record_id": "rzg.term.consistory",
+        "words": 37,
+        "sentences": 4,
+        "longest_sentence_words": 13,
+        "fk_grade": 6.67
+      },
+      {
+        "record_id": "rzg.term.disputation",
+        "words": 29,
+        "sentences": 3,
+        "longest_sentence_words": 12,
+        "fk_grade": 8.93
+      },
+      {
+        "record_id": "rzg.term.elder",
+        "words": 18,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 9.55
+      },
+      {
+        "record_id": "rzg.term.excommunication",
+        "words": 21,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "rzg.term.heads-of-agreement",
+        "words": 20,
+        "sentences": 2,
+        "longest_sentence_words": 10,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "rzg.term.memorial-commemoration",
+        "words": 24,
+        "sentences": 3,
+        "longest_sentence_words": 10,
+        "fk_grade": 5.72
+      },
+      {
+        "record_id": "rzg.term.mutual-consent",
+        "words": 24,
+        "sentences": 3,
+        "longest_sentence_words": 9,
+        "fk_grade": 6.38
+      },
+      {
+        "record_id": "rzg.term.predestination-election",
+        "words": 38,
+        "sentences": 4,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.06
+      },
+      {
+        "record_id": "rzg.term.providence",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 9.78
+      },
+      {
+        "record_id": "rzg.term.reformation",
+        "words": 24,
+        "sentences": 3,
+        "longest_sentence_words": 9,
+        "fk_grade": 4.74
+      },
+      {
+        "record_id": "rzg.term.sign-and-the-thing-signified",
+        "words": 42,
+        "sentences": 3,
+        "longest_sentence_words": 17,
+        "fk_grade": 7.87
+      },
+      {
+        "record_id": "rzg.term.sixty-seven-articles",
+        "words": 17,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 9.66
+      },
+      {
+        "record_id": "rzg.term.sola-scriptura",
+        "words": 38,
+        "sentences": 3,
+        "longest_sentence_words": 20,
+        "fk_grade": 9.53
+      },
+      {
+        "record_id": "rzg.term.the-lords-supper-spiritual-presence",
+        "words": 39,
+        "sentences": 4,
+        "longest_sentence_words": 26,
+        "fk_grade": 8.75
+      }
+    ],
+    "doctrinal_witness.text": [
+      {
+        "record_id": "rzg.witness.a-narrow-true-church",
+        "words": 105,
+        "sentences": 9,
+        "longest_sentence_words": 22,
+        "fk_grade": 7.17
+      },
+      {
+        "record_id": "rzg.witness.a-quieted-mind",
+        "words": 77,
+        "sentences": 7,
+        "longest_sentence_words": 18,
+        "fk_grade": 4.94
+      },
+      {
+        "record_id": "rzg.witness.defending-the-anabaptist-suppression",
+        "words": 111,
+        "sentences": 7,
+        "longest_sentence_words": 35,
+        "fk_grade": 8.24
+      },
+      {
+        "record_id": "rzg.witness.not-a-death-he-sought",
+        "words": 126,
+        "sentences": 7,
+        "longest_sentence_words": 28,
+        "fk_grade": 5.5
+      },
+      {
+        "record_id": "rzg.witness.one-conviction-two-enactments",
+        "words": 161,
+        "sentences": 9,
+        "longest_sentence_words": 30,
+        "fk_grade": 9.56
+      },
+      {
+        "record_id": "rzg.witness.one-supper-two-poles",
+        "words": 135,
+        "sentences": 8,
+        "longest_sentence_words": 41,
+        "fk_grade": 6.72
+      },
+      {
+        "record_id": "rzg.witness.one-thing-not-in-dispute",
+        "words": 117,
+        "sentences": 9,
+        "longest_sentence_words": 28,
+        "fk_grade": 4.8
+      },
+      {
+        "record_id": "rzg.witness.triple-refusal",
+        "words": 181,
+        "sentences": 7,
+        "longest_sentence_words": 50,
+        "fk_grade": 10.86
+      },
+      {
+        "record_id": "rzg.witness.what-a-stranger-would-notice",
+        "words": 101,
+        "sentences": 6,
+        "longest_sentence_words": 31,
+        "fk_grade": 7.04
+      },
+      {
+        "record_id": "rzg.witness.what-we-have-not-agreed",
+        "words": 122,
+        "sentences": 7,
+        "longest_sentence_words": 37,
+        "fk_grade": 9.18
+      },
+      {
+        "record_id": "rzg.witness.what-we-have-of-christ",
+        "words": 97,
+        "sentences": 5,
+        "longest_sentence_words": 50,
+        "fk_grade": 6.89
+      },
+      {
+        "record_id": "rzg.witness.why-the-children-too",
+        "words": 93,
+        "sentences": 4,
+        "longest_sentence_words": 34,
+        "fk_grade": 11.18
+      }
+    ]
+  }
+}
