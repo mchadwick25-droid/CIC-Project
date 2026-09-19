@@ -255,10 +255,10 @@ p{margin:0 0 1rem}
    positioned with getBoundingClientRect() math in the script below --
    sidesteps whatever is limiting in-flow paint for a second such element
    entirely, since it never joins that document position at all. */
-.chairs-scrollbar{position:absolute;height:12px;cursor:pointer;touch-action:none}
+.chairs-scrollbar{position:absolute;height:14px;cursor:pointer;touch-action:none}
 .chairs-scrollbar[hidden]{display:none}
-.chairs-scrollbar-track{position:absolute;top:4px;left:0;right:0;height:4px;border-radius:2px;background:var(--rule)}
-.chairs-scrollbar-thumb{position:absolute;top:4px;height:4px;border-radius:2px;background:var(--control)}
+.chairs-scrollbar-track{position:absolute;top:4px;left:0;right:0;height:6px;border-radius:3px;background:var(--rule)}
+.chairs-scrollbar-thumb{position:absolute;top:4px;height:6px;border-radius:3px;background:var(--control)}
 .chairs-scrollbar:hover .chairs-scrollbar-thumb,.chairs-scrollbar-thumb:active{background:var(--muted)}
 .chair{--ring:var(--tint-dark);flex:0 0 auto;width:296px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:.8rem}
 /* Narrower than the container on small screens so the next card peeks in
