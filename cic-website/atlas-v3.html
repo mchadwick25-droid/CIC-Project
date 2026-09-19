@@ -40928,6 +40928,21 @@ function sectionSources(list){
 // compiled JSON's filename), verified 1:1 against world-census.json's own
 // `status === "Built & Live"` movements.
 const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","syriac-edessa-nisibis","desert-monasticism","cappadocian-nicene-pastoral-monastic-tradition","imperial-juridical-christianity","hieronymian-ascetic-literary","gallic-monastic-ascetic-christianity"]);
+// This classic script runs immediately, as the parser reaches it - the
+// <script type="module"> importing orientation-render.mjs, further down
+// the document, is deferred by spec and has NOT necessarily run yet by
+// this point, even though it appears later in the file. A user clicking
+// a map pin after the page has finished loading never notices (the
+// module is long since ready by then), but the page's own deep-link
+// auto-open (bottom of this script, `?world=...`) calls openPanel() -
+// and so loadBuiltWorldOrientation() - synchronously during this
+// script's own first pass, which can race ahead of it. Found by actually
+// loading atlas-v3.html?world=desert-monasticism in a real browser
+// (this generator's own validation step), not assumed: it threw
+// "Cannot read properties of undefined (reading 'story')" until this
+// promise was added. window.OrientationRender itself (set directly, no
+// promise) remains the fast path for every ordinary click.
+window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=resolve;});
 const __builtWorldCache={};
 async function fetchBuiltWorldData(censusId){
   if(__builtWorldCache[censusId])return __builtWorldCache[censusId];
@@ -40948,7 +40963,7 @@ async function loadBuiltWorldOrientation(censusId){
   if(!slot)return; // panel closed or moved on before the fetch resolved
   try{
     const compiled=await fetchBuiltWorldData(censusId);
-    const R=window.OrientationRender;
+    const R=window.OrientationRender||await window.__orientationRenderPromise;
     let h='';
     const o=compiled.orientation||{};
     if(o.story&&o.story.length)h+='<h3>The Story</h3>'+R.story(compiled);
@@ -41470,6 +41485,7 @@ centerView();
 <script type="module">
 import { RENDERERS } from './assets/orientation-render.mjs';
 window.OrientationRender = RENDERERS;
+if (window.__orientationRenderResolve) window.__orientationRenderResolve(RENDERERS);
 </script>
 </body>
 </html>
