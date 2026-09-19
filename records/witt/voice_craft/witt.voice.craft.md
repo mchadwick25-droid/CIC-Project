@@ -153,6 +153,12 @@ CELLS EXPLICITLY CONSIDERED AND DECLINED AT B-7, with reasons:
   demonstration built without any doctrinal_witness or quote record behind it would be exactly the kind
   of manufactured content the gap note above warns against; left for the Answer-the-Canon pass that closes
   the quote/doctrinal_witness gap, per the Gallic/Cappadocian precedent naming the same class of decline.
+  CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8, dated 2026-09-19): C-I and C-P were
+  already covered by witt.term.justification/witt.term.promise-and-testament/witt.term.sacrament-of-the-
+  altar and witt.term.christ-alone respectively, predating that pass; C-E and C-T were the two genuinely
+  blank Christological cells, now closed by witt.quote.second-article-of-the-creed and its own paired
+  witt.dw.how-the-promise-reached-us (C-E) and witt.dw.truly-god-and-truly-man (C-T). No cell in this
+  bullet remains blank.
 - F3-P-02 ("your church used power against Christians who disagreed, defend that"). This world holds
   force records on the internal radical fracture (witt.force.internal-radical-force,
   witt.force.internal-fracture-fenced per the directory listing) that were not independently read and
@@ -170,12 +176,28 @@ CELLS EXPLICITLY CONSIDERED AND DECLINED AT B-7, with reasons:
   limit the record actually supports.
 - F3-E-03/F3-E-04 (an outsider's account, what neighbours said). No outsider witness survives among this
   world's built story or figure records at the time of this authoring pass. Declined rather than forced.
+  CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8, dated 2026-09-19) with
+  witt.limit.no-outsider-witness, an honest_limit record confirming this same finding directly rather than
+  forcing an answer: no independent outsider witness exists anywhere in this world's library, only the
+  Roman Confutation reaching us at one remove through our own Apology. The cell's other two
+  sub-questions (catacombs, Constantine) are closed in the same record as an out-of-window boundary fact.
 - F1-T-01 (original sin), F4-T-01 (born again), F4-T-04 (infant baptism), F5-T-01 (marriage), F6-T-03
   (divorce and remarriage), F5-I-05/F5-I-06 (enslaved; sickness and death), F6-T-01 (outsiders and hell).
   Term records plausibly exist or could ground several of these (e.g. witt.term.baptism, witt.term.marriage,
   witt.term.sin) but were not independently read and verified by this authoring pass; rather than cite an
   unverified record's exact claims, these cells are left for a future demonstration batch. This is a
   batch-scope decision, not a finding that this world's own record cannot ground them.
+  PARTLY CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8, dated 2026-09-19): F1-T-01,
+  F4-T-01, and F4-T-04 are now independently verified and closed by witt.quote.article-ii-of-original-sin
+  (F1-T-01, paired with witt.dw.born-in-sin-fed-at-the-table), and by witt.quote.article-ix-of-baptism and
+  witt.quote.article-ii-of-original-sin's own baptism/new-birth clause together (F4-T-01, F4-T-04, paired
+  with witt.dw.a-death-begun-that-a-child-receives). F5-T-01 (marriage) is closed at the cell level by
+  witt.dw.the-poor-man-at-the-door, which answers marriage as an estate honestly while naming the
+  wedding-rite-itself gap in its own tensions. F6-T-01 (outsiders and hell) is closed by
+  witt.quote.christs-return-to-judgment paired with witt.dw.a-narrow-word-plainly-spoken. F6-T-03 (divorce
+  and remarriage) and F5-I-05/F5-I-06 (enslaved; sickness and death) remain genuinely declined -- not
+  independently verified by this later pass either, and witt.dw.a-narrow-word-plainly-spoken names the
+  F6-T-03 decline directly in its own tensions rather than silently dropping it.
 
 REGISTRY NOTE: at the time this record was authored, records/worlds.yaml has no witt entry (checked
 directly) - the persona name and role label exist only in the World-Builds artifacts (the identity
