@@ -946,3 +946,40 @@ are not canon-substantive types and cannot close them).
    recorded question — doesn't actually support) — named with reasons in voice_craft's own
    body note, available for the Answer-the-Canon pass to reconsider once quote/doctrinal_witness
    records exist.
+
+## OG-17. Answer-the-Canon step (inserted between B-7a and B-8): all 16 blank
+canon-coverage cells closed, one process-record authoring pass, no document disposition
+
+**Build history.** Authored 7 `quote` records, 14 `doctrinal_witness` records, and 2
+`honest_limit` records to close every remaining blank canon cell (C-E, C-T, F1-E, F1-T,
+F2-E, F2-T, F3-E, F3-T, F4-E, F4-T, F5-E, F5-T, F6-E, F6-I, F6-P, F6-T), grounded only in
+witt's own already-built and already-verified material — no new source records, term records,
+story records, or figure records were touched. Two cells (F2-E: whether any actual household
+or parish carried out the catechism program; F3-E: an independent outsider's account of this
+world) were closed as genuine `honest_limit` declared absences rather than forced into a
+doctrinal_witness, matching Gallic's own precedent for when silence is itself the honest,
+canon-worthy answer. One further sub-question (F6-T-03, divorce and remarriage — tagged
+identity-collision at the fleet level) remains explicitly declined, not answered from an
+unverified guess.
+
+**Independently re-verified before commit (not self-certified):** every quote's `text` field
+checked with `grep -n`/`sed -n` against its cited vendored file; this build thread personally
+re-checked two of the seven directly against `cic/texts/` (the Small Catechism's Second
+Article, lines 186-205; Augsburg Confession Article XVII, lines 433-446) — both exact
+verbatim matches, including the harshest passage in this world's whole store ("ungodly men
+and the devils He will condemn to be tormented without end"), carried unsoftened per this
+project's own rule against flattening a hard claim. Full 18-gate battery re-run directly
+(`load_world_records` + `load_fleet_records` + `load_registry` + `run_all`): 0 findings.
+canon-coverage confirmed 16 findings → 0. Record count 228 → 251. `git diff` on the one
+modified file (`witt.voice.craft.md`) reviewed directly: exactly the three bullets the agent
+claimed to close were touched, additive only, and the still-genuinely-declined items (F6-T-03,
+F5-I-05/06, F6-P-06, F3-P-02) were left untouched, as claimed.
+
+This is process-record authoring work, not a new document requiring its own disposition —
+tracked under Phase B's own gate discipline, same as OG-16. No escalation category applies
+(no Representative identity change, no portfolio/cross-world decision, no methodology
+change). Committed locally on `lutheran-wittenberg-doc01`; not pushed, per standing
+instruction to push only on the project lead's explicit word.
+
+**Open items seeded:** none new. The `telos`/`living_traditions`/`pairings` fleet-level
+schema gap (OG-16 item 1) remains open for the coach thread, unaffected by this step.
