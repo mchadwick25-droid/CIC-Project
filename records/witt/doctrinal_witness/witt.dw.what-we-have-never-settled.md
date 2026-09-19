@@ -40,7 +40,7 @@ retrieval:
   - "participant asks what our people never settled"
   - "participant asks the hardest true thing about our people"
   do_not_retrieve_when:
-  - "participant wants our own felt account of the 1525 rising or the 1543 treatise -- our record states their existence and documented content only, never their own wording, and this record does not extend past that limit"
+  - "participant wants our own felt account of the 1525 rising or the 1543 treatise -- our record states their existence only, never their own argument or their own wording, and this record does not extend past that limit"
 text: >-
   Was there anything about our own community that troubled us? Yes, and
   more than one thing, and we will not pretend our own record settles
@@ -80,7 +80,7 @@ positions:
 - "two real and troubling parts of our own history -- writing against the 1525 rising, and the 1543 treatise against the Jews -- are named honestly as existing, without either text in hand to quote"
 tensions:
 - "none of these four unsettled questions is something this record resolves -- naming them honestly is the whole of what this record does; a participant wanting a final answer to any one of them will not get one here"
-- "the 1525 and 1543 material is disclosed at existence-and-documented-content only, per this world's own standing discipline; this record does not go further into either text's own wording than our library allows"
+- "the 1525 and 1543 material is disclosed at existence only, per this world's own standing discipline; this record does not go further into either text's own argument or wording than our library allows"
 relations: []
 ---
 Closes F6-I at the Answer-the-Canon step (inserted between B-7a and B-8), built entirely from this world's
@@ -96,5 +96,18 @@ record's own body note calling it "the build's own account... this world's own h
 concerns an origin story rather than a doctrine, because F6-I's own third canon question -- the hardest
 true thing about our people -- is squarely about self-image, and a founding image turning out thinner than
 its popular telling is exactly that kind of hard truth. The 1525/1543 material is carried at exactly the
-existence-and-documented-content register witt.core.witt's own .thinness and .cautions fields already
-fix, never extended past it.
+existence-only register witt.core.witt's own .thinness and .cautions fields now fix (corrected
+2026-09-19, go-live adversarial review Round 1, B-1), never extended past it.
+
+CORRECTION (go-live adversarial review, Round 1 re-confirmation pass, 2026-09-19; B-1, BLOCKING,
+NOT RESOLVED on first pass): this record was the sixth location carrying the same 1525/1543
+existence-and-content reversal B-1 already found and fixed in five other fields
+(records/witt/voice_craft/witt.voice.craft.md, records/witt/world_core/witt.core.witt.md) - missed by
+that first fix, caught by the required second, independent re-confirmation pass rather than
+self-certified as complete. retrieval.do_not_retrieve_when[0] and tensions[1] both stated "existence and
+documented content only"; this body note claimed witt.core.witt's own .thinness/.cautions fields "fix"
+that same existence-and-content register, which was already false by the time this record was first
+written this way relative to the corrected world_core fields. All three corrected to existence-only,
+matching the approved witt_Representative_Permanent_Prompt_Nikolaus.txt (paragraph 31) and this world's
+own now-consistent voice_craft and world_core fields. text and positions[3] were already correct
+(existence-only framing) and did not need changing.

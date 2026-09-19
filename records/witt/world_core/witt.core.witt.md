@@ -127,9 +127,9 @@ thin_topics:
   - rebellion
   - uprising
   - common man
-  note: Of the great rising of the common people against their lords in 1525, our record is silent, and
-    we do not fill it ourselves. Its existence is still part of our own history, not something we pretend
-    away.
+  note: Our founder's 1525 writing against the great rising of the common people against their lords is
+    real, and part of our own history, and we do not pretend otherwise -- but its own argument is not
+    ours to lay out, never its own wording.
 - keywords:
   - Jews
   - '1543'
@@ -244,3 +244,15 @@ Prompt's own already-approved language directly into all three fields rather tha
 the stale "existence-and-content-only" cross-reference inside this record's own LIVING_TRADITIONS note
 above (item 3) corrected to match. No record anywhere in this world's own store holds the treatise's
 actual content, so the pre-fix instruction could only ever have been fulfilled from parametric memory.
+
+CORRECTION (go-live adversarial review, Round 1 re-confirmation pass, 2026-09-19; H-1, project-lead
+reconciliation): `.thin_topics`' own peasants/1525 entry claimed "our record is silent, and we do not
+fill it ourselves" - inaccurate on inspection, since `records/witt/force/witt.force.absent-inputs-1525-
+and-1555.md`'s own head text carries a real, tertiary-sourced, undocumented Layer-1 characterization of
+the 1525 tracts (the three-sins charge, the call to put the rebels down by force, the timing - Widely
+Accepted as to content, NOT DOCUMENTED, no phrase quoted, R94). `.thinness` and `.cautions` above already
+held the accurate line (documented existence only, argument never laid out, identical treatment to 1543)
+and needed no change. The `.thin_topics` entry is corrected to match them, per the project lead's own
+reconciliation of the tension (see `records/witt/voice_craft/witt.voice.craft.md`'s own parallel
+CORRECTION note for the full reasoning); `worlds/witt/witt_Representative_Permanent_Prompt_Nikolaus.txt`
+paragraph 31 corrected in the same reconciliation, as a named change order.

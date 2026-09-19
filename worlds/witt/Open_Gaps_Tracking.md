@@ -1264,3 +1264,101 @@ The `admitted` -> `open` flip itself is still a separate, later project-lead cal
 governs something else in the registry's own state machine (spec: "the door opens"), not census listing
 or live-API access, both of which witt already has as `admitted`. No WO-1 upload was attempted as part of
 this entry.
+
+## OG-24. Go-live adversarial review, Round 1 — B-1 status, Facilitator-disclosure gap, H-1 escalation
+
+The whole go-live review round was never logged here at the time it ran — flagged by this entry's own
+re-confirmation pass (below) as a gap in itself, since this file's own discipline is that no real
+decision or open question lives only in a review file or a thread's conversation history. Closed now,
+covering the full round to date.
+
+**The review.** `worlds/witt/witt_GoLive_Adversarial_Review_Round1.md`, Opus-tier, run against real live
+turn/table output (`engine/m4/reports/live-turn-report-witt.json`,
+`engine/m4/reports/live-table-report-witt-rzg-2026-09-19.json`) per the project lead's explicit "yes, go
+ahead with the live testing." Verdict: two BLOCKING findings (B-1, B-2), three HIGH (H-1, H-2, H-3),
+several MEDIUM/LOW, and a note that `admitted` already grants real access so the admission-rollback
+question belongs to the project lead regardless of what else is decided.
+
+**B-1 — governance-correction propagation failure (1525/1543 existence-vs-content reversal).** A
+post-draft fix during Doc_10's own build had already caught and corrected this exact reversal in the
+approved `witt_Representative_Permanent_Prompt_Nikolaus.txt` (paragraph 31; OG-15), but that correction
+never propagated into the compiled records the engine actually reads — five fields in
+`records/witt/voice_craft/witt.voice.craft.md` and `records/witt/world_core/witt.core.witt.md` still
+licensed the Representative's own voice to state the 1543 treatise's content, against the Standing
+determination in Doc_07 §9/§12 item 7 and Doc_08 §11 item 7 (content is Facilitator-carried, never the
+Representative's). Fixed in commit `5a0b5cdf` (project lead's explicit "fix B-1 first, hold off on B-2"),
+package rebuilt and re-pinned (`2026-09-19T23-00-26Z`).
+
+**Required independent re-confirmation — NOT RESOLVED on first pass.** Per CLAUDE.md, "a blocking review
+finding can't be dismissed by self-certification — it needs independent re-confirmation." A cold Opus
+pass, with no access to the fixing thread's reasoning, re-derived every claim from the on-disk artifacts
+rather than the commit message and found the substance genuinely fixed (all five fields, the shipping
+prompt, and the package byte-verified) but B-1's own four "Required to close" items not fully met:
+- **Item 2 failed**: a sixth location, `records/witt/doctrinal_witness/witt.dw.what-we-have-never-
+  settled.md`, still carried the identical reversed formula in three places
+  (`retrieval.do_not_retrieve_when[0]`, `tensions[1]`, and a body note that had become a *false*
+  cross-reference once the first fix corrected `world_core`'s own fields out from under it) — the exact
+  sixth location this same review had named in advance.
+- **Item 4 untouched**: no Facilitator turn type exists anywhere in `engine/m4/facilitator_turns.py` that
+  can carry the 1525/1543 boundary disclosure Doc_07 §12 item 7 assigns to the Facilitator. The content
+  is now correctly barred from the Representative but has nowhere to be spoken from either side.
+- The whole review round was unregistered here — this entry closes that specific gap.
+
+Full re-confirmation findings are in `witt_GoLive_Adversarial_Review_Round1.md`'s own "Re-confirmation
+pass, 2026-09-19 — B-1 only" section, appended to the same file rather than a new round file (matching
+this project's "review rounds exist as files, not claims" discipline).
+
+**This entry's own fix — the sixth location, closed.** `witt.dw.what-we-have-never-settled.md`'s three
+flagged spots corrected to existence-only, matching the same approved Permanent Prompt ¶31 language the
+first fix used, plus a CORRECTION note explaining the miss. `text` and `positions[3]` in the same record
+were already correctly framed and needed no change. Verified: valid YAML; package rebuilt
+(`2026-09-19T23-19-35Z`, `records/worlds/witt.yaml` re-pinned); `diff -rq records/witt/
+packages/witt/2026-09-19T23-19-35Z/records/` empty (no drift between gated and shipped content); a
+full-package grep for the reversed formula's own vocabulary (`documented content`, `existence-and-
+content`) matches only inside the two CORRECTION notes describing the fix, never as a live instruction;
+`engine.m9.cli check` clean; `engine.m1.cross_world` 0 new defects (23 accepted-open); all 19 M1 gates
+`overall_pass: true`, 0 findings; full pytest suite 678/678 passed.
+
+**H-1 — resolved by project-lead reconciliation.** Put to Mark directly (per this project's own
+escalation table: a Representative voice decision is always-ask), with two named options and a
+recommendation: reframe the 1525 clauses to the same "real, part of our history, never denied — but its
+own argument is not ours to lay out" shape already used for 1543 (recommended, since the corrected
+`guard`'s own blanket "our record is silent on it" claim is factually inaccurate against
+`witt.force.absent-inputs-1525-and-1555.md`'s own real, tertiary-sourced, undocumented Layer-1
+characterization of the 1525 tracts — the three-sins charge, the call to put the rebels down by force,
+the timing, Widely Accepted as to content, NOT DOCUMENTED, no phrase quoted, R94); or keep "silent" as an
+emic simplification (Nikolaus's own voice describing what he himself holds, not a literal corpus claim).
+**Mark's decision: reframe as "not ours to lay out."** Applied to every location carrying the "silent"/
+"says nothing" claim for 1525, not only the one this review named: `voice_craft`'s own `guard` field
+(already touched by the first B-1 fix, corrected again here) and its `honest-limits` flavor_note (a
+second 1525 sentence the first B-1 fix never touched — "our record says nothing, and we add nothing"),
+and `world_core`'s own `.thin_topics` peasants/1525 entry. `.thinness` and `.cautions` were already
+correctly framed (documented-existence-only, no silence claim) and needed no change.
+`worlds/witt/witt_Representative_Permanent_Prompt_Nikolaus.txt` paragraph 31 — the approved source every
+compiled field here ports from, and the actual origin of the inaccurate "silent" wording — corrected in
+the same reconciliation, as a named change order against a frozen, approved document, per CLAUDE.md's
+"change order, not a quiet edit" rule, not silently amended. CORRECTION notes recording the reasoning
+added to both `witt.voice.craft.md` and `witt.core.witt.md`. Verified: valid YAML both files; package
+rebuilt and re-pinned (`2026-09-19T23-30-27Z`, superseding the sixth-location-only build at
+`2026-09-19T23-19-35Z`, which is removed, never committed); `diff -rq records/witt/
+packages/witt/2026-09-19T23-30-27Z/records/` empty; `engine.m9.cli check` clean; `engine.m1.cross_world`
+0 new defects (23 accepted-open); all 19 M1 gates `overall_pass: true`, 0 findings; voice_craft word
+budget 1457/1500, worst field FK 9.74 (both within bar); full pytest suite green.
+
+**Still open — not decided or built in this entry:**
+1. **The Facilitator boundary-disclosure turn type (B-1 item 4).** No turn in
+   `engine/m4/facilitator_turns.py` (`threshold`, `door`, `safety` x2, `system_nature`, `etic`, `close`,
+   `session_cap`, the table variants, `bridge`) carries this disclosure. This is a new engine-feature
+   question, not a records fix, and has not been raised with the project lead for direction yet. Tracked
+   here as the open item rather than a fleet-level `ACCEPTED_OPEN` waiver, since it is not a check
+   `cross_world` or `m9` currently runs against.
+2. **A third independent re-confirmation pass** is still required — the second pass explicitly could not
+   close what it was reporting, and neither B-1 item 4 nor this entry's own H-1 fix has been independently
+   re-checked yet.
+3. **H-2, H-3, and the round's MEDIUM/LOW findings** remain entirely unaddressed beyond this entry; not
+   yet raised with the project lead for direction on whether/when to fix them.
+4. **B-2** (`engine/m5/routing.py`'s routing-classifier misclassification of in-scope-but-declined
+   messages as `system_nature_turn`, fleet-wide, already symptom-patched once in gallic) remains
+   untouched, per the project lead's explicit "hold off on B-2." Confirmed untouched by the
+   re-confirmation pass itself (`git diff 157c2269 HEAD -- engine/` empty), and by this entry (`git diff
+   157c2269 HEAD -- engine/` still empty after this entry's own edits).
