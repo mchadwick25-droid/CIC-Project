@@ -103,6 +103,189 @@ _RELATION_SCHEMA = {
     "additionalProperties": False,
 }
 
+# world_front (and facilitator_brief) rendering units - the website compiler
+# stage's own three-mode content shape, added alongside those two record
+# types (Website-V2 world_front design, approved to proceed 2026-09-19).
+# Every unit of authored, participant-facing prose in either type is one of:
+#
+#   mode 1 - {text, grounded_in}         a fresh authored sentence/paragraph,
+#                                         grounded in one or more existing
+#                                         records (a claim the record set
+#                                         supports, not copied from any one
+#                                         of them verbatim).
+#   mode 2 - a bare record id (string)   the record's OWN field rendered
+#                                         verbatim at compile time - e.g.
+#                                         narrative.quiet names an
+#                                         honest_limit record and the
+#                                         compiler pulls its `statement`
+#                                         field unchanged; narrative.
+#                                         pull_quotes/glossary are lists of
+#                                         such ids. No unit object at all:
+#                                         the schema for these fields is
+#                                         just {"type": "string"} (or an
+#                                         array of them).
+#   mode 3 - {from, text, no_new_claims: true}
+#                                         a record's own wording ADAPTED
+#                                         under length/space constraints -
+#                                         `text` must say only what `from`'s
+#                                         own field already says, never more
+#                                         or less (checked by
+#                                         gates.check_mode3_claim_fidelity,
+#                                         an LLM-judged gate - see there).
+#
+# `register` is deliberately NOT a field on any of these unit shapes.
+# Per-unit register was tried and rejected in design review as
+# incompatible with this schema system's own additionalProperties:false/
+# flat-merge architecture (this file's own header comment) - register
+# stays exactly where every other record's register already lives: once,
+# on the envelope (ENVELOPE_PROPERTIES below), for the whole world_front
+# record. A unit that needs a register of its own doesn't get one here.
+_MODE1_UNIT = {
+    "type": "object",
+    "properties": {
+        "text": {"type": "string"},
+        "grounded_in": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    },
+    "required": ["text", "grounded_in"],
+    "additionalProperties": False,
+}
+
+_MODE3_UNIT = {
+    "type": "object",
+    "properties": {
+        "from": {"type": "string"},
+        "text": {"type": "string"},
+        "no_new_claims": {"const": True},
+    },
+    "required": ["from", "text", "no_new_claims"],
+    "additionalProperties": False,
+}
+
+# The ordinary unit: mode 1 or mode 3, nothing else. Used everywhere in
+# world_front/facilitator_brief that the design calls "a mode 1 unit" with
+# no extra fields of its own (skim.tile, orientation.story entries,
+# orientation.floor_note, orientation.legacy entries, orientation.
+# relations_summary, orientation.sourcing, and every facilitator_brief
+# prose field).
+_UNIT = {"anyOf": [_MODE1_UNIT, _MODE3_UNIT]}
+
+# orientation.voices: a unit plus two fields the design gives it specifically
+# (figure - optional, since a voice need not be tied to one named figure -
+# and hedge, the world's own emic way of naming its uncertainty). Built as
+# its own mode1/mode3 pair rather than bolting extra properties onto _UNIT,
+# since additionalProperties:false means _UNIT itself cannot carry them.
+_VOICE_MODE1 = {
+    "type": "object",
+    "properties": {
+        "figure": {"type": "string"},
+        "text": {"type": "string"},
+        "grounded_in": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "hedge": {"type": "string"},
+    },
+    "required": ["text", "grounded_in"],
+    "additionalProperties": False,
+}
+_VOICE_MODE3 = {
+    "type": "object",
+    "properties": {
+        "figure": {"type": "string"},
+        "from": {"type": "string"},
+        "text": {"type": "string"},
+        "no_new_claims": {"const": True},
+        "hedge": {"type": "string"},
+    },
+    "required": ["from", "text", "no_new_claims"],
+    "additionalProperties": False,
+}
+_VOICE_UNIT = {"anyOf": [_VOICE_MODE1, _VOICE_MODE3]}
+
+# orientation.experience_today: a live claim about the present, not about
+# the completed world - so beyond the ordinary unit shape it carries a url
+# and a REQUIRED verified_on (the design's own words: "required, since this
+# is a live claim about the present that can go stale"), in both modes.
+_EXPERIENCE_MODE1 = {
+    "type": "object",
+    "properties": {
+        "text": {"type": "string"},
+        "url": {"type": "string"},
+        "grounded_in": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "verified_on": {"type": "string"},
+    },
+    "required": ["text", "url", "grounded_in", "verified_on"],
+    "additionalProperties": False,
+}
+_EXPERIENCE_MODE3 = {
+    "type": "object",
+    "properties": {
+        "from": {"type": "string"},
+        "text": {"type": "string"},
+        "no_new_claims": {"const": True},
+        "url": {"type": "string"},
+        "verified_on": {"type": "string"},
+    },
+    "required": ["from", "text", "no_new_claims", "url", "verified_on"],
+    "additionalProperties": False,
+}
+_EXPERIENCE_TODAY_ENTRY = {"anyOf": [_EXPERIENCE_MODE1, _EXPERIENCE_MODE3]}
+
+# The remaining world_front sub-shapes are plain structured objects, not
+# renderable units - each field on them is either a bare record id (mode 2)
+# or free descriptive prose the compiler never has to check for claim
+# drift, so none of them need the mode1/mode3 anyOf treatment above.
+_DOCUMENTED_STORY_ENTRY = {
+    "type": "object",
+    "properties": {
+        "story_id": {"type": "string"},
+        "title": {"type": "string"},
+        "when": {"type": "string"},
+        "teaser": {"type": "string"},
+        "grounded_in": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    },
+    "required": ["story_id", "title", "when", "teaser", "grounded_in"],
+    "additionalProperties": False,
+}
+
+_READ_FIRST_ENTRY = {
+    "type": "object",
+    "properties": {
+        "source": {"type": "string"},
+        "note": {"type": "string"},
+    },
+    "required": ["source", "note"],
+    "additionalProperties": False,
+}
+
+_WHO_SPEAKS_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "text": {"type": "string"},
+        "figures": {"type": "array", "items": {"type": "string"}},
+    },
+    "required": ["text", "figures"],
+    "additionalProperties": False,
+}
+
+_QUESTION_ENTRY = {
+    "type": "object",
+    "properties": {
+        "cell": {"type": "string"},
+        "demonstration": {"type": "string"},
+        "cite": {"type": "array", "items": {"type": "string"}},
+    },
+    "required": ["cell", "demonstration", "cite"],
+    "additionalProperties": False,
+}
+
+# export.include_types: the record types a world_front's compiled export may
+# draw exhibits/citations from - deliberately never world_front or
+# facilitator_brief themselves (a world_front cannot cite another
+# world_front, and a facilitator_brief is never exported to a participant
+# surface at all - see gates.py/builders.py for the actual enforcement).
+_EXPORT_INCLUDE_TYPES = [
+    "story", "quote", "figure", "term", "contested_claim",
+    "honest_limit", "doctrinal_witness", "gravity", "force", "source",
+]
+
 ENVELOPE_PROPERTIES = {
     "id": {"type": "string"},
     "world_id": {"type": "string"},
@@ -412,6 +595,87 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "pronoun_rule": {"type": "string"},
         "citation_contract": {"type": "string"},
         "limit_discipline": {"type": "string"},
+    },
+    # Website V2 world_front design (approved to proceed 2026-09-19):
+    # records/<code>/ becomes canonical for the participant-facing website
+    # too, one world_front record per world, compiled to
+    # cic-website/data/worlds/<census_id>.json by engine/m2 (see
+    # compiler.py's compile_world_front()). MUST NEVER reach the
+    # Representative's own prompt/capsule/chunk/repository compilation -
+    # engine/m2/builders.py's CHUNK_DIR_BY_TYPE, build_prompt() and
+    # build_capsule() are allowlists that simply never name this type, and
+    # build_repository_json()'s own denylist (_PACKAGE_EXCLUDED_RECORD_
+    # TYPES) explicitly excludes it too, since that denylist processes
+    # every OTHER type by default. See
+    # engine/m2/tests/test_voice_assembly_exclusion.py for the regression
+    # test proving this holds.
+    "world_front": {
+        "census_id": {"type": "string"},
+        "skim": {
+            "type": "object",
+            "properties": {"tile": _UNIT},
+            "additionalProperties": False,
+        },
+        "orientation": {
+            "type": "object",
+            "properties": {
+                "story": {"type": "array", "items": _UNIT},
+                "documented_stories": {"type": "array", "items": _DOCUMENTED_STORY_ENTRY},
+                "voices": {"type": "array", "items": _VOICE_UNIT},
+                "floor_note": _UNIT,
+                "legacy": {"type": "array", "items": _UNIT},
+                "experience_today": {"type": "array", "items": _EXPERIENCE_TODAY_ENTRY},
+                "relations_summary": _UNIT,
+                "sourcing": _UNIT,
+                "read_first": {"type": "array", "items": _READ_FIRST_ENTRY},
+            },
+            "additionalProperties": False,
+        },
+        "narrative": {
+            "type": "object",
+            "properties": {
+                "who_speaks": _WHO_SPEAKS_SCHEMA,
+                # mode 2: a bare honest_limit record id, rendered verbatim
+                # from that record's own `statement` field at compile time
+                # - never authored prose of its own.
+                "quiet": {"type": "string"},
+                "questions": {"type": "array", "items": _QUESTION_ENTRY},
+                # mode 2, each: bare quote/term record ids, rendered from
+                # quote.modern_rendering / term.plain_meaning-or-quick_
+                # meaning at compile time - never `quote.text` (Mark's
+                # standing quote ruling; see gates.py's quotation-mark
+                # fidelity gate).
+                "pull_quotes": {"type": "array", "items": {"type": "string"}},
+                "glossary": {"type": "array", "items": {"type": "string"}},
+            },
+            "additionalProperties": False,
+        },
+        "export": {
+            "type": "object",
+            "properties": {
+                "include_types": {"type": "array", "items": {"enum": _EXPORT_INCLUDE_TYPES}},
+            },
+            "additionalProperties": False,
+        },
+    },
+    # A world's participant-facing world_front has a facilitator-only
+    # counterpart: what a human facilitator needs to run this world well,
+    # never shown to a participant and never compiled into anything a
+    # Representative or a participant-facing surface reads. `audience` is
+    # fixed by the schema itself (a `const`, not an author's choice) so a
+    # facilitator_brief can never be mistaken for participant-facing
+    # content by a reader who only has the record in front of them, not
+    # its record_type.
+    "facilitator_brief": {
+        "audience": {"const": "facilitator"},
+        "world_identity": _UNIT,
+        "formation_strengths": {"type": "array", "items": _UNIT},
+        "formation_limitations": {"type": "array", "items": _UNIT},
+        "participant_type_fit": {"type": "array", "items": _UNIT},
+        "pairing_guidance": _UNIT,
+        "cautions": {"type": "array", "items": {"type": "string"}},
+        "living_tradition_handling": _UNIT,
+        "redirect_notes": _UNIT,
     },
 }
 
