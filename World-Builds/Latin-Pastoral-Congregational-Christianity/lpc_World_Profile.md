@@ -4,9 +4,9 @@
 **File naming convention:** `lpc_World_Profile.md`
 **Produced at:** Construction Step 9's companion deliverable (Framework V7.4 bundles the Story Inventory, the World Profile, and Validation and Testing at Step 9; this document is the World Profile only).
 **Required inputs:** Doc_01–Doc_09 are all **Approved to proceed**, by two different routes, which `Doc_09` states the same way: **Doc_01, Doc_02 and Doc_03 self-disposed by the build thread** (Doc_03's on the project lead's direct instruction); **Doc_04 through Doc_09 were approved by the project lead**, several with findings or escalation categories carried open. *Approved to proceed* unblocks the next document; it does not mean any input is complete, correct, or closed, and none is Frozen. This document proceeds on that basis per the project lead's 2026-09-15 instruction. Outstanding review findings are not treated as settled; where one could bear on this document's own content, it is named at the relevant section.
-**Feeds:** World Capsule Core (inhabited voice rendering); Representative emergence (RCF v2.0 Phase One). Doc_09 (Story Inventory) is an input here, not a feed — it was built before this document and supplies ecological context to it, inverting the template's own assumed order.
+**Feeds:** World Capsule Core (inhabited voice rendering); Representative emergence (RCF V3.2, Phase One). Doc_09 (Story Inventory) is an input here, not a feed — it was built before this document and supplies ecological context to it, inverting the template's own assumed order.
 **Voice:** Analytical and descriptive — uses the world's own vocabulary but describes rather than inhabits.
-**Governing methodology:** `L4-Templates/World_Profile_Template.md`; Construction Framework V7.4 Step 9; Representative Construction Framework V2.0 Phase One.
+**Governing methodology:** `L4-Templates/World_Profile_Template.md`; Construction Framework V7.4 Step 9; Representative Construction Framework V3.2, Phase One.
 **Status:** **Approved to proceed** — the project lead, 2026-09-19. **Not Frozen.** See Disposition at the end.
 
 ---
@@ -663,7 +663,7 @@ Stated as this world's own natural formation character, not as construction gaps
 
 ---
 
-**Domain:** The liturgical material, never read *as* liturgical evidence
+**Domain:** The liturgical material — read *as* liturgical evidence on 2026-09-19, and still thin in a specific way
 
 **Ecological basis:** Source thinness of a particular kind. This world left **no order of service and no liturgical treatise of its own** — its rite is recovered *"mostly through what preaching and catechesis presuppose about it … not through separate liturgical treatises."* What this world wrote down about its worship is the arguments about it, because the arguments are what it was moved to write.
 
@@ -728,7 +728,7 @@ Answered against this document's actual state, not aspirationally. **One of the 
 **Outstanding items:**
 
 1. ~~Section 9's Living Tradition determination~~ — **closed 2026-09-16 by the project lead.** See `lpc_Decision_Log.md`'s Article 29 confirmation entry, which is the record; this list does not restate it. *(Retained as a numbered item so cross-references to items 2–7 stay valid.)*
-2. **The liturgical material read *as* liturgical evidence** — called *"the highest-value unblocked task in the build"*, and Section 4A rests on the rite-disputes finding it would test.
+2. ~~The liturgical material read *as* liturgical evidence~~ — **done 2026-09-19.** Doc_07 §8 item 8 called it *"the highest-value unblocked task in the build"*; both phases were read at source and the records are `Review-Artifacts/Liturgical_Evidence_Read_Cyprian_2026-09-19.md` and `..._Augustine_2026-09-19.md`. Section 4A's rite-disputes finding is supported rather than unsettled by it. Seven lexicon-term candidates were proposed and **none added** — that is a lexicon-pass act. *(Retained as a numbered item so cross-references to items 3–7 stay valid.)*
 3. **An exhaustive quotation and citation-locus sweep** — every quoted string and every `Doc_0n §x` locus in this document checked against its source, by a thread that is not the one that applied these fixes.
 4. ~~Independent verification that the Doc_01 §2 correction propagated cleanly~~ — **done.** The project lead's ruling of 2026-09-16 required it; three independent rounds ran it, none by the thread that applied the correction, and the third concludes the correction can be called closed (`Review-Artifacts/Doc01_Correction_Propagation_Verification_2026-09-16.md` and its Round 2 and Round 3 successors). A five-site record-accuracy tail on the collateral fix remains, which is not the correction. *(Retained as a numbered item so cross-references to items 5–7 stay valid.)*
 5. ~~The open Article 3 question~~ — **closed 2026-09-16.** See `lpc_Decision_Log.md`'s ruling entry, which is the record; this list does not restate it. **`lpc` is one formation world** on the adopted test. *(Retained as a numbered item so cross-references to items 6 and 7 stay valid.)*
