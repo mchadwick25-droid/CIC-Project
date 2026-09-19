@@ -16,7 +16,7 @@ sources: []
 relations: []
 author: Erasmus
 work: De libero arbitrio Diatribe
-edition: (1524) — as quoted by Luther in R34 and typographically marked by Cole; vendored as cic/texts/luther_bondage-of-the-will_cole1823.txt
+edition: (1524) — as quoted by Luther in R34 and typographically marked by Cole; not independently vendored, embedded within "luther_bondage-of-the-will_cole1823.txt" (see rights_status)
 kind: unvendored
 rights_status: Not independently vendored; this work reaches the build only as quoted or embedded within
   a vendored text (cic/texts/luther_bondage-of-the-will_cole1823.txt), per Source Registry row 36, marked

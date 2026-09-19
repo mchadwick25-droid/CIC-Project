@@ -17,7 +17,7 @@ relations: []
 author: n/a -- no individual author named for this work in the Source Registry row
 work: Karsthans
 edition: (anonymous popular dialogue, 1521; ed. Burckhardt in Clemen, Flugschriften, IV.1) — as quoted
-  in Lambert's introduction to R19; vendored as cic/texts/luther_works-v3-selected_various1930.txt
+  in Lambert's introduction to R19; not independently vendored, embedded within "luther_works-v3-selected_various1930.txt"
 kind: unvendored
 rights_status: Rights status as characterized in Source Registry row 44; not independently re-verified
   by this authoring pass.

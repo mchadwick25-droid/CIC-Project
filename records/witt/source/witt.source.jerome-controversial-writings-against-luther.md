@@ -18,7 +18,7 @@ author: Jerome Emser
 work: controversial writings against Luther
 edition: '(1519–1521: letter to Zack; A venatione…; To the Wittenberg Bull; Against the Unchristian Book…
   to the German Nobility; Quadruplica) and Thomas Murner''s tracts — as quoted and characterized in Steimle''s
-  introduction and Luther''s replies; vendored as cic/texts/luther_works-v3-selected_various1930.txt'
+  introduction and Luther''s replies; not independently vendored, embedded within "luther_works-v3-selected_various1930.txt" (see rights_status)'
 kind: unvendored
 rights_status: Not independently vendored; this work reaches the build only as quoted or embedded within
   a vendored text (cic/texts/luther_works-v3-selected_various1930.txt), per Source Registry row 41, marked

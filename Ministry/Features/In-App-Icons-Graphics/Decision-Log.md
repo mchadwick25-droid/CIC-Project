@@ -836,3 +836,45 @@ their correct chronological group-image ordering (Nikolaus's 1517 start is more
 than a thousand years after any other world's, so he takes the final slot, not
 an arbitrary one). Mark is placing the approved image into GitHub directly, the
 same way he did for the other seven.
+
+---
+
+## 2026-09-19 — Nikolaus (Lutheran Wittenberg) accent color: script-computed, `#579C40`
+
+Ninth world's own accent color, following the same dark-mode methodology as
+every value in `cic-poc/frontend/src/data/worlds.ts`'s own `WORLD_ASSETS`
+(>=5.3:1 contrast as text against the dark ground `#17130F`, >=5.0:1 as dark
+surface-text laid on top of it as a fill, hue checked for distance against
+every existing world and the two reserved semantic tokens).
+
+**Hue-slot analysis first, not a color picked and then defended.** Mapping
+every current world's hue found one genuinely wide-open gap: desert's own
+olive-tan sits at H=47.8deg, pahc's own green at H=154.9deg — a 107-degree
+span with nothing in it, by far the largest gap on the wheel (every other
+gap is under 50 degrees, several under 10). Witt's own accent belongs
+somewhere in that span.
+
+**Grounded, not arbitrary, within that span:** Electoral Saxony's own
+traditional heraldry — the Wettin arms' green crancelin (a bendwise wreath
+of rue) — is where records/worlds/witt.yaml's own `place` field puts this
+world ("Wittenberg, in Electoral Saxony"), giving a real, place-grounded
+reason to land near true green (H=100-110) rather than picking a number
+inside the open span with no connection to this world's own material.
+
+**Script-computed lightness/saturation**, same method as every other entry:
+H=105deg, S=42% first clears both thresholds at L=43% — `#579C40`,
+contrast 5.49:1 vs ground, 5.18:1 vs surface (comparable margin to alx's
+5.32/5.03 and don's 5.37/5.07). Hue distance checked against all ten
+existing worlds and the two reserved tokens (`--color-tyrian` #6B3FA0,
+H=267.2deg; `--color-participant`/"lapis" #1E40AF, H=225.9deg) — nearest
+neighbor is pahc at 49.9deg, more than double the fleet's own tightest
+existing gap (alx/ijc, both near H=26deg, 0.3deg apart).
+
+**Applied to `cic-website/table.html`'s own `WORLDS` array** (this session,
+alongside the new `cic-website/traditions/lutheran-wittenberg-and-its-congregations.html`
+page). **Not yet applied to `cic-poc/frontend/src/data/worlds.ts`'s own
+`WORLD_ASSETS`/`WORLD_ORDER`** — deliberately deferred, since Mark's own
+in-progress sandbox file for the chair-card vertical scroll may be actively
+touching that same area; wiring witt into `worlds.ts` should follow once
+that work and this color are both confirmed, using this same `#579C40`
+value rather than re-deriving it.

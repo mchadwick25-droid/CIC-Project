@@ -17,7 +17,7 @@ relations: []
 author: n/a -- no individual author named for this work in the Source Registry row
 work: Roman Confutation of the Augsburg Confession
 edition: (Eck, Faber, Wimpina, Cochlaeus; read before the Emperor 3 Aug. 1530) — as cited in R38; English
-  text in Kolb & Nestingen 2001 [R80]; vendored as cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt
+  text in Kolb & Nestingen 2001 [R80]; not independently vendored, embedded within "melanchthon_apology-augsburg-confession_bente-dau1921.txt" (see rights_status)
 kind: unvendored
 rights_status: Not independently vendored; this work reaches the build only as quoted or embedded within
   a vendored text (cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt), per Source Registry

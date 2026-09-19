@@ -16,7 +16,7 @@ sources: []
 relations: []
 author: Johann Kessler
 work: eyewitness report of Luther's first Invocavit sermon
-edition: (9 March 1522) — as cited in Steimle's introduction to R15; vendored as cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt
+edition: (9 March 1522) — as cited in Steimle's introduction to R15; not independently vendored, embedded within "luther_works-v2-selected_jacobs-spaeth1916.txt"
 kind: unvendored
 rights_status: Rights status as characterized in Source Registry row 46; not independently re-verified
   by this authoring pass.

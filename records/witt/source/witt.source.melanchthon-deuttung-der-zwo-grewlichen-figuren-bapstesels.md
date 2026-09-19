@@ -18,7 +18,7 @@ author: Melanchthon & Luther
 work: Deuttung der zwo grewlichen Figuren, Bapstesels zu Rom und Munchkalbs zu Freyberg in Meyssen funden
 edition: '(1523; Wittenberg and reprints, e.g. Nuremberg: Stuchs), with Cranach-workshop woodcuts of the
   Papal Ass (Melanchthon''s essay) and the Monk Calf (Luther''s) — as advertised by Cole (1823: "That
-  by Melancthon… the Whore of Babylon: that by Luther, of Monkery") — NOT VENDORED; vendored as cic/texts/luther_bondage-of-the-will_cole1823.txt'
+  by Melancthon… the Whore of Babylon: that by Luther, of Monkery") — NOT VENDORED; embedded within "luther_bondage-of-the-will_cole1823.txt"'
 kind: unvendored
 rights_status: Rights status as characterized in Source Registry row 86; not independently re-verified
   by this authoring pass.
