@@ -233,45 +233,19 @@ p{margin:0 0 1rem}
    own height cap. overscroll-behavior-y:contain (already set) stops a
    scroll that hits the top/bottom of this box from chaining into a
    scroll of the whole page behind it. */
-.who-gallery{max-height:min(65vh,640px);overflow-y:auto;overscroll-behavior-y:contain;padding-right:.3rem;margin:0 -.3rem 0 0;scrollbar-width:none}
-.who-gallery::-webkit-scrollbar{display:none}
-/* Native scrollbar hidden and replaced the same way as .chairs-scrollbar
-   (see that comment for why) rather than waiting to find out the hard way
-   that this box hits the same "second scrollable region on the page"
-   paint problem -- this is the SECOND scrollable region after era rows
-   claim the first several slots, so it's exactly the position that bug
-   hit before. */
-.gallery-scrollbar{position:absolute;width:14px;cursor:pointer;touch-action:none}
-.gallery-scrollbar[hidden]{display:none}
-.gallery-scrollbar-track{position:absolute;left:4px;top:0;bottom:0;width:6px;border-radius:3px;background:var(--rule)}
-.gallery-scrollbar-thumb{position:absolute;left:4px;width:6px;border-radius:3px;background:var(--control)}
-.gallery-scrollbar:hover .gallery-scrollbar-thumb,.gallery-scrollbar-thumb:active{background:var(--muted)}
+.who-gallery{overflow-y:auto;overscroll-behavior-y:contain;padding-right:.3rem;margin:0 -.3rem 0 0}
 .era-group:not(:first-child){margin-top:1.8rem}
 .era-head{display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline;font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.3rem;margin:0}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
-.chairs{list-style:none;margin:.4rem 0 1rem;padding:0;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout;scrollbar-width:none}
-.chairs::-webkit-scrollbar{display:none}
-/* Three rounds of trying to style or draw a scroll indicator for these rows
-   all failed the same way, confirmed by direct testing: whichever row's
-   indicator came first in normal document flow rendered, every later one
-   silently didn't -- true of the native scrollbar itself (styled or plain,
-   with or without contain:layout) and just as true of a plain JS-drawn div
-   inserted as a document sibling. Not something our own styling caused --
-   reproduced with every custom rule stripped back to bare overflow-x:auto
-   -- and not fixable from inside the normal render tree (Mark, 2026-09-19,
-   across several rounds: "we still do not have the horizontal scroll bar
-   for era 2" / "there is one for era 1 that is not needed yet" / "no era 2
-   scroll bar"). What finally worked, confirmed by direct testing: the
-   native scrollbar hidden outright on every row, and .chairs-scrollbar
-   appended once to <body> per row (not inserted next to it) and
-   positioned with getBoundingClientRect() math in the script below --
-   sidesteps whatever is limiting in-flow paint for a second such element
-   entirely, since it never joins that document position at all. */
-.chairs-scrollbar{position:absolute;height:14px;cursor:pointer;touch-action:none}
-.chairs-scrollbar[hidden]{display:none}
-.chairs-scrollbar-track{position:absolute;top:4px;left:0;right:0;height:6px;border-radius:3px;background:var(--rule)}
-.chairs-scrollbar-thumb{position:absolute;top:4px;height:6px;border-radius:3px;background:var(--control)}
-.chairs-scrollbar:hover .chairs-scrollbar-thumb,.chairs-scrollbar-thumb:active{background:var(--muted)}
+/* Plain native overflow, deliberately with no custom scrollbar CSS or JS
+   of any kind -- several rounds of trying to style or replace the native
+   scrollbar here all ran into a paint bug that turned out to be specific
+   to this session's own Linux/Xvfb sandbox, not to real browsers: the
+   plain, unmodified version of this rule already works correctly in
+   production, on Mark's own real browser (Mark, 2026-09-19: "it works
+   fine on the live www.churchinconversation.com site. just use its
+   system"). Matches cic-website/index.html on main exactly. */
+.chairs{list-style:none;margin:.4rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout}
 .chair{--ring:var(--tint-dark);flex:0 0 auto;width:296px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:.8rem}
 /* Narrower than the container on small screens so the next card peeks in
    at the edge (Mark, 2026-09-19: "add a peek of the next card") -- at a
@@ -645,216 +619,7 @@ if (gallery && eraGroups.length) {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(sizeGallery, 150);
   });
-  // sizeGallery()'s measurement is as vulnerable to the same stale-layout
-  // problem .chairs-scrollbar's positioning already hit once (Google Fonts
-  // swapping in after first paint reflows every card's height) -- recheck
-  // it the same way, not just on resize.
-  if (window.ResizeObserver && eraGroups.length >= 3) {
-    new ResizeObserver(sizeGallery).observe(eraGroups[0]);
-    new ResizeObserver(sizeGallery).observe(eraGroups[1]);
-  }
-  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(sizeGallery); }
-  window.addEventListener('load', sizeGallery);
-  // A vertical wheel/trackpad gesture over the gallery used to get trapped
-  // scrolling its own content instead of the page (Mark, 2026-09-19: "when
-  // i happen to scroll over the chair feature, it stops scrolling"). Once
-  // a third era makes this box genuinely need to scroll, a mostly-vertical
-  // gesture now scrolls the page instead -- the gallery's own scrollbar is
-  // still there to drag for deliberate scrolling within it. Mostly-
-  // horizontal gestures (scrolling a single era's row of chairs sideways)
-  // are left alone.
-  gallery.addEventListener('wheel', function(ev){
-    if (Math.abs(ev.deltaY) > Math.abs(ev.deltaX)) {
-      window.scrollBy(0, ev.deltaY);
-      ev.preventDefault();
-    }
-  }, { passive: false });
 }
-
-// #who-gallery draws its own vertical scroll indicator the same way, now
-// that a 3rd era makes it genuinely scroll (Mark, 2026-09-19: "we need a
-// verticle scrol bar, so only two rows are showing"). Same hidden-native +
-// body-appended + ResizeObserver + Pointer Events pattern as
-// .chairs-scrollbar below -- see that comment for the "why".
-if (gallery) {
-  var vTrack = document.createElement('div');
-  vTrack.className = 'gallery-scrollbar';
-  vTrack.setAttribute('aria-hidden', 'true');
-  var vTrackLine = document.createElement('div');
-  vTrackLine.className = 'gallery-scrollbar-track';
-  var vThumb = document.createElement('div');
-  vThumb.className = 'gallery-scrollbar-thumb';
-  vTrack.appendChild(vTrackLine);
-  vTrack.appendChild(vThumb);
-  document.body.appendChild(vTrack);
-
-  var updateVThumb = function(){
-    var rect = gallery.getBoundingClientRect();
-    vTrack.style.top = (rect.top + window.scrollY) + 'px';
-    vTrack.style.left = (rect.right + window.scrollX + 4) + 'px';
-    vTrack.style.height = rect.height + 'px';
-    var overflow = gallery.scrollHeight - gallery.clientHeight;
-    if (overflow <= 1) { vTrack.hidden = true; return; }
-    vTrack.hidden = false;
-    var trackLen = gallery.clientHeight;
-    var thumbLen = Math.max(24, (gallery.clientHeight / gallery.scrollHeight) * trackLen);
-    var maxPos = trackLen - thumbLen;
-    vThumb.style.height = thumbLen + 'px';
-    vThumb.style.top = (overflow > 0 ? (gallery.scrollTop / overflow) * maxPos : 0) + 'px';
-  };
-  updateVThumb();
-  gallery.addEventListener('scroll', updateVThumb, { passive: true });
-  if (window.ResizeObserver) {
-    new ResizeObserver(updateVThumb).observe(gallery);
-  }
-  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(updateVThumb); }
-  window.addEventListener('load', updateVThumb);
-  window.addEventListener('resize', updateVThumb);
-
-  var vDragging = false, vDragStartY = 0, vDragStartScroll = 0;
-  function vScrollToClientY(clientY){
-    var rect = vTrack.getBoundingClientRect();
-    var thumbLen = vThumb.offsetHeight;
-    var maxPos = rect.height - thumbLen;
-    var ratio = maxPos > 0 ? Math.min(1, Math.max(0, (clientY - rect.top - thumbLen / 2) / maxPos)) : 0;
-    gallery.scrollTop = ratio * (gallery.scrollHeight - gallery.clientHeight);
-  }
-  vThumb.addEventListener('pointerdown', function(ev){
-    vDragging = true;
-    vDragStartY = ev.clientY;
-    vDragStartScroll = gallery.scrollTop;
-    vThumb.setPointerCapture(ev.pointerId);
-    ev.preventDefault();
-  });
-  vThumb.addEventListener('pointermove', function(ev){
-    if (!vDragging) return;
-    var rect = vTrack.getBoundingClientRect();
-    var maxPos = rect.height - vThumb.offsetHeight;
-    var overflow = gallery.scrollHeight - gallery.clientHeight;
-    gallery.scrollTop = vDragStartScroll + (maxPos > 0 ? ((ev.clientY - vDragStartY) / maxPos) * overflow : 0);
-  });
-  vThumb.addEventListener('pointerup', function(){ vDragging = false; });
-  vThumb.addEventListener('pointercancel', function(){ vDragging = false; });
-  vTrack.addEventListener('pointerdown', function(ev){
-    if (ev.target === vThumb) return;
-    vScrollToClientY(ev.clientY);
-  });
-}
-
-// Each era's row of chairs draws its own scroll indicator here rather than
-// relying on the browser's native one -- see the .chairs-scrollbar comment
-// above for why, and why this one is appended to <body> and positioned by
-// coordinates instead of inserted next to its row: that placement is the
-// part that turned out to matter, confirmed by direct testing.
-//
-// It's a real, draggable control, not just a visual indicator -- looking
-// like a scrollbar and not acting like one reads as broken (Mark,
-// 2026-09-19: "there are white lines that look like the scroll bars now,
-// but don't function"). Click anywhere on the bar jumps toward that point;
-// dragging the thumb scrolls continuously. Pointer Events cover mouse,
-// touch, and pen in one code path.
-//
-// Position is recomputed by a ResizeObserver on the row itself, not just
-// once at load, because the bar landing "significantly too low" and
-// "oversaying" the cards (Mark, same message) was this: getBoundingClientRect()
-// was read once, synchronously, before the Google Fonts in <head> finish
-// loading -- the fallback-font layout it measured isn't the real one, and
-// nothing ever re-measured after the swap-in reflowed every card's height.
-// ResizeObserver reacts to that reflow (and any other layout change:
-// window resize, images loading) the same way, instead of guessing at
-// which specific event might have caused it.
-Array.prototype.slice.call(document.querySelectorAll('.chairs')).forEach(function(chairs){
-  var hitArea = document.createElement('div');
-  hitArea.className = 'chairs-scrollbar';
-  hitArea.setAttribute('aria-hidden', 'true');
-  var track = document.createElement('div');
-  track.className = 'chairs-scrollbar-track';
-  var thumb = document.createElement('div');
-  thumb.className = 'chairs-scrollbar-thumb';
-  hitArea.appendChild(track);
-  hitArea.appendChild(thumb);
-  document.body.appendChild(hitArea);
-
-  // Appending to <body> and positioning by raw coordinates (see the
-  // comment above) means this bar is never actually inside #who-gallery's
-  // own overflow:auto box, so it never gets clipped by that box the way
-  // it would if it were a real descendant -- and never gets told the row
-  // it belongs to has scrolled out of that box's own clipped view, either
-  // (Mark, 2026-09-19, after the vertical bar shipped: "one showed up on
-  // era 1 and scrolled down to era two and disappeared" -- era 1's bar
-  // stayed frozen at the screen position it was drawn at, not following
-  // era 1 as the gallery scrolled it out of view, because nothing told it
-  // to recompute on that scroll; a stale coordinate is what then read as
-  // "disappeared" once it drifted somewhere nonsensical). Fixed two ways:
-  // recompute on the gallery's own scroll, not just this row's; and hide
-  // outright whenever the row isn't currently within the gallery's own
-  // visible (clipped) vertical bounds, so a bar can never render floating
-  // outside the box it's supposed to belong to.
-  function updateThumb(){
-    var rect = chairs.getBoundingClientRect();
-    if (gallery && gallery.contains(chairs)) {
-      var galleryRect = gallery.getBoundingClientRect();
-      if (rect.top < galleryRect.top - 0.5 || rect.bottom > galleryRect.bottom + 0.5) {
-        hitArea.hidden = true;
-        return;
-      }
-    }
-    hitArea.style.left = (rect.left + window.scrollX) + 'px';
-    hitArea.style.top = (rect.bottom + window.scrollY + 4) + 'px';
-    hitArea.style.width = rect.width + 'px';
-    var overflow = chairs.scrollWidth - chairs.clientWidth;
-    if (overflow <= 1) { hitArea.hidden = true; return; }
-    hitArea.hidden = false;
-    var trackWidth = chairs.clientWidth;
-    var thumbWidth = Math.max(24, (chairs.clientWidth / chairs.scrollWidth) * trackWidth);
-    var maxLeft = trackWidth - thumbWidth;
-    thumb.style.width = thumbWidth + 'px';
-    thumb.style.left = (overflow > 0 ? (chairs.scrollLeft / overflow) * maxLeft : 0) + 'px';
-  }
-  updateThumb();
-  chairs.addEventListener('scroll', updateThumb, { passive: true });
-  if (gallery) { gallery.addEventListener('scroll', updateThumb, { passive: true }); }
-  if (window.ResizeObserver) {
-    new ResizeObserver(updateThumb).observe(chairs);
-  } else {
-    var chairsResizeTimer = null;
-    window.addEventListener('resize', function(){
-      clearTimeout(chairsResizeTimer);
-      chairsResizeTimer = setTimeout(updateThumb, 150);
-    });
-  }
-  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(updateThumb); }
-  window.addEventListener('load', updateThumb);
-
-  var dragging = false, dragStartX = 0, dragStartScroll = 0;
-  function scrollToClientX(clientX){
-    var rect = hitArea.getBoundingClientRect();
-    var thumbWidth = thumb.offsetWidth;
-    var maxLeft = rect.width - thumbWidth;
-    var ratio = maxLeft > 0 ? Math.min(1, Math.max(0, (clientX - rect.left - thumbWidth / 2) / maxLeft)) : 0;
-    chairs.scrollLeft = ratio * (chairs.scrollWidth - chairs.clientWidth);
-  }
-  thumb.addEventListener('pointerdown', function(ev){
-    dragging = true;
-    dragStartX = ev.clientX;
-    dragStartScroll = chairs.scrollLeft;
-    thumb.setPointerCapture(ev.pointerId);
-    ev.preventDefault();
-  });
-  thumb.addEventListener('pointermove', function(ev){
-    if (!dragging) return;
-    var rect = hitArea.getBoundingClientRect();
-    var maxLeft = rect.width - thumb.offsetWidth;
-    var overflow = chairs.scrollWidth - chairs.clientWidth;
-    chairs.scrollLeft = dragStartScroll + (maxLeft > 0 ? ((ev.clientX - dragStartX) / maxLeft) * overflow : 0);
-  });
-  thumb.addEventListener('pointerup', function(){ dragging = false; });
-  thumb.addEventListener('pointercancel', function(){ dragging = false; });
-  hitArea.addEventListener('pointerdown', function(ev){
-    if (ev.target === thumb) return;
-    scrollToClientX(ev.clientX);
-  });
-});
 
 var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
