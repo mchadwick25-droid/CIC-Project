@@ -116,6 +116,14 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:voice-perspective/syr": Waiver(count=1, deadline="2026-12-14", owner="D2 SS1.3(e) - syr's own known voice-perspective gap; syr's build thread"),
 }
 
+# The five m1:readability/{desert,don,ijc,pahc,syr} waivers registered
+# 2026-09-19 alongside the gate_readability voice_craft extension (PR
+# #301) were removed the same day, once each world's own em-dash/colon-
+# chained fields were actually fixed (same root-cause pass already
+# applied to alx, hal, cappadocian, and gallic) - stale waivers get
+# removed when their finding closes, not left standing, per the
+# established pattern (commit 33cd8a717).
+
 
 def _voicing_pair_carve_out_active() -> bool:
     """R-4: alive only while PAIRS.yaml has no real (non-fixture) pair."""
