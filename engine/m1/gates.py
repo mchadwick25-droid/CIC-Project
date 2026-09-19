@@ -15,6 +15,7 @@ from engine.prose import quote_aware_sentences
 from . import canon
 from .fk import fk_grade
 from .schemas import RELATION_INVERSE, build_schema
+from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS
 
 FK_CEILING = 10
 
@@ -520,15 +521,10 @@ def gate_canon_coverage(records, fleet, registry) -> list[str]:
 # - alx.dw.one-church's `tensions` field, alx.limit.marriage's
 # `why_sources_cannot_answer`, and a figure's trailing body - all
 # correctly outside this field map, all legitimate.
-_ATTRIBUTION_FIELDS = {
-    "voice_craft": ["identity", "guard"],
-    "world_core": ["horizon", "formation_logic", "thinness", "cautions"],
-    "term": ["plain_meaning", "quick_meaning", "world_word"],
-    "doctrinal_witness": ["text"],
-    "honest_limit": ["statement"],
-    "story": ["tellable_as", "text"],
-    "fleet_voice": ["pronoun_rule", "citation_contract", "limit_discipline"],
-}
+# Relocated to engine/m1/spoken_fields.py (ATTRIBUTION_FIELDS) 2026-09-19 -
+# one declared spoken-field registry instead of six/seven independent
+# lists; see that module's own docstring. Same values, same behavior.
+_ATTRIBUTION_FIELDS = ATTRIBUTION_FIELDS
 
 # Each pattern below is justified by one of the 4 real leaks found in the
 # 2026-08-21 hand audit (world/alexandria c0a105a), not a generic guess:
@@ -627,13 +623,9 @@ def gate_no_build_attribution(records, fleet, registry) -> list[str]:
 # already first-person we-voice by construction (build_prompt()'s own
 # instruct() vs emit() split - see its comment above). Full trace:
 # CiC_Cross_System_Analysis_Tracking.md, 2026-09-04 entry.
-_PERSPECTIVE_FIELDS = {
-    "term": ["plain_meaning", "quick_meaning"],
-    "story": ["tellable_as", "text"],
-    "ambient": ["detail"],
-    "doctrinal_witness": ["text"],
-    "honest_limit": ["statement"],
-}
+# Relocated to engine/m1/spoken_fields.py (PERSPECTIVE_FIELDS) 2026-09-19 -
+# same registry as _ATTRIBUTION_FIELDS above. Same values, same behavior.
+_PERSPECTIVE_FIELDS = PERSPECTIVE_FIELDS
 
 # Form 1: the builder's-eye phrase itself - "this world[,'s]" - a name for
 # a world from outside it, never an inhabitant's own way of naming their
