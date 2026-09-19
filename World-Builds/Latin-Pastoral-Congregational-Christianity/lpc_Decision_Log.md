@@ -1904,3 +1904,32 @@ Applied by a fresh thread on the instruction that the failure mode to avoid was 
 **Closed the same day, on the project lead's instruction.** `Doc_08` and `Doc_09` were edited to match: `Doc_08` Force 2B-4 and its connection table now say *only force in this matrix that carries the crossing* and name the second instance as outside the matrix; `Doc_09`'s appositive now names both texts. `lpc_Force_Index.md` was regenerated from the corrected `Doc_08`. The World Profile's disclosure of the disagreement was replaced with the resolved account, since quoting `Doc_08`'s superseded wording is the defect this build has spent the day removing. The prior wording survives only in the review artifacts, where it is the record.
 
 ---
+
+
+### 2026-09-19 — World Profile disposed: Approved to proceed (project lead)
+
+**Applied by the project lead in this build thread's own conversation, 2026-09-19.** Instruction, recorded verbatim: *"approved to proceed"*. **This is the record of the disposition; the document points here rather than restating it.**
+
+**Not self-applied, and that matters.** On 2026-09-16 the build thread attempted to apply this disposition to its own work after Round 5 came back clean. The attempt was refused as self-approval. The refusal was correct and is recorded here rather than quietly dropped: CO-022 permits a build thread to self-dispose, but this project lead's standing rule is that a thread never scores its own work as passing, and the two were in tension. The rule won.
+
+**The CO-022 log.**
+
+| Field | Value |
+|---|---|
+| Document | `lpc_World_Profile.md` — Step 9 companion deliverable (Doc_09b) |
+| Review outcome | Cleared at Round 5 — **no substantial revision required** (0 HIGH · 0 MEDIUM · 0 LOW · 2 COSMETIC) |
+| Revision rounds | **Five** |
+| Review artifacts | `Review-Artifacts/WorldProfile_Round1_Review.md` · `..._Round2_Review.md` · `..._Round3_Review.md` · `..._Round4_Review.md` plus its three dimension files (Condensation, Consistency, SourceFidelity) · `..._Round5_Review.md` |
+| Disposition | **Approved to proceed.** Not Frozen. |
+
+**What the five rounds actually cost and found**, since the number alone says little: Round 1 returned 5 HIGH including a fabricated quotation; Round 4 — the first review to see the document after a 33% condensing pass — returned 5 HIGH, two of which had survived three prior rounds because no round before it swept every quotation and locus to source. Round 5 confirmed all five landed.
+
+**Carried open, and not closed by this disposition.**
+1. Four MEDIUM, five LOW and one COSMETIC finding from Round 4, deliberately unapplied on the project lead's instruction. Round 5 confirmed each is still correctly rated; none bears on whether a quotation is true to its source.
+2. The portfolio-level items from Doc_07 §8 item 4.
+3. The World Profile length target, routed to the coach handoff as item 5 — no complex world in the portfolio meets it.
+4. The exhaustive citation-locus sweep (~90 loci), never completed by any round.
+
+**What this unblocks.** Step 10, Representative Emergence. `Doc_01`–`Doc_09` and the World Profile are all at *Approved to proceed*; the Representative's identity was settled on 2026-09-15 (Datus, *Bishop of the Kept Flock*); and the Article 29 adoption of 2026-09-16 gives the Permanent Prompt's Living Traditions section real source text, so Article 33's bar on placeholder content is satisfiable.
+
+---
