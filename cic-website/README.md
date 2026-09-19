@@ -9,9 +9,12 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 
 - `index.html` — Home
 - `about.html` — Mission, the Five Convictions, How It Works, Safety & Disclosure, About Us
-- `support.html` — **Back in nav since 2026-08-06** as "Get Involved," rewritten with
-  real cost figures; see its own header comment and
-  `Ministry/Features/Funding-Strategy/Decision-Log.md` for the derivation. Originally
+- `support.html` — "Get Involved," rewritten with real cost figures; see its own
+  header comment and `Ministry/Features/Funding-Strategy/Decision-Log.md` for the
+  derivation. **Removed from nav again 2026-09-19** (Mark, direct instruction) —
+  page needs a content refresh; the homepage's own "Keep the Door Open" section
+  carries the real Stripe give links directly, so giving still works with this
+  page unlinked. Originally
   named two funds (Accessibility, Academic Review) — **Academic Review Fund dropped
   2026-08-25** (Mark, direct instruction, not doing that ask yet); just the
   Accessibility Fund now. **Real checkout is live since 2026-08-25** — two Stripe
