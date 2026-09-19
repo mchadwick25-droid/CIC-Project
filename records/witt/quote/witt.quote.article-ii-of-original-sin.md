@@ -37,7 +37,7 @@ text: >-
 
   They Condemn the Pelagians and others who deny that original depravity
   is sin.
-speaker_or_author: "the Augsburg Confession, Article II -- the same signed 1530 confession as witt.story.diet-of-augsburg-1530"
+speaker_or_author: "the Augsburg Confession, Article II -- the same confession read before the Emperor at the 1530 Diet of Augsburg"
 license: verbatim
 modern_lens_note: >-
   A modern reader may hear "born already guilty" as a claim about a baby's own moral blame -- something a
@@ -83,3 +83,9 @@ without editing witt.term.sin. Ground for witt.dw.born-in-sin-fed-at-the-table (
 alongside faith alone and the bread and cup) and, via the baptism/new-birth clause in the same sentence,
 for witt.dw.a-death-begun-that-a-child-receives (F4-T: infant baptism and being "born again"). Reciprocal
 associated-with declared on both.
+
+CORRECTION (Phase C recon, 2026-09-19): speaker_or_author's own raw reference to
+"witt.story.diet-of-augsburg-1530" replaced with plain prose ("read before the Emperor at the 1530 Diet
+of Augsburg") -- caught by engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this
+field as one both the Level-3 citation card and the compiled prompt's quote index print verbatim to a
+participant. Substance unchanged, only the internal record-id reference removed.

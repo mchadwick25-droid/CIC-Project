@@ -42,8 +42,8 @@ names:
   tag: scholarly
 dates:
   display: Burned at Brussels 1 July 1523 - the year Hymn V's own printed heading gives as "MDXXII," corrected
-    by Bacon's own bracketed editorial note to "[July 1, 1523]," the date Doc_09 and this record both
-    follow. No vendored source gives either man's birth date or age.
+    by Bacon's own bracketed editorial note to "[July 1, 1523]," the date this record follows. No vendored
+    source gives either man's birth date or age.
 narratable: true
 bridge_line: Two young monks, John and Henry, burned at Brussels in 1523 for refusing to recant - the
   only two people in this whole library's record whom the movement's own teaching is shown to have cost
@@ -74,3 +74,9 @@ Augustinian friars) is not this library's own text and is carried here, in names
 external identification - never narrated as though the vendored ballad itself supplied it.
 
 FEC / GRAVITY LINKAGE (closed at B-5): the connection this record's own Doc_09 entry named above is now a real relations[] entry in this file's frontmatter -- associated-with to G1 (Justified by faith alone [PRIMARY]), G7 (Estate, office, and calling: "we are all priests" [SUPPORTING]) -- with the reciprocal edge declared on each gravity record itself (witt.gravity.*), exactly as this note said it would when B-5 ran. No longer parked.
+
+CORRECTION (Phase C recon, 2026-09-19): dates.display's own "Doc_09 and" removed -- caught by
+engine.m1.cross_world's check_participant_field_leaks, which correctly flags this field as one the
+doorway's Level-3 panel prints verbatim to a participant. The citation was accurate but belonged in this
+body note, not in a field a participant reads; substance unchanged, only the internal build-document
+reference removed.

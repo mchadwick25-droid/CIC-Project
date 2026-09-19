@@ -35,7 +35,7 @@ text: >-
   been received on our part against Scripture or the Church Catholic. For
   it is manifest that we have taken most diligent care that no new and
   ungodly doctrine should creep into our churches.
-speaker_or_author: "the Augsburg Confession's own Conclusion -- the same corporate voice and the same signatories as witt.story.diet-of-augsburg-1530"
+speaker_or_author: "the Augsburg Confession's own Conclusion -- the same corporate voice and the same signatories as the confession signed at the 1530 Diet of Augsburg"
 license: verbatim
 modern_lens_note: >-
   A modern reader may expect a reform movement to claim it is doing something new, correcting the past by
@@ -75,3 +75,9 @@ witt.quote.congregation-of-saints (Article VII's own definition of what a church
 is the Confession's own argument that ITS OWN teaching does not depart from that universal Church or from
 Scripture, the continuity claim rather than the definition. Reciprocal associated-with declared on
 witt.dw.nothing-against-scripture-or-the-church-catholic.
+
+CORRECTION (Phase C recon, 2026-09-19): speaker_or_author's own raw reference to
+"witt.story.diet-of-augsburg-1530" replaced with plain prose ("the confession signed at the 1530 Diet of
+Augsburg") -- caught by engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this
+field as one both the Level-3 citation card and the compiled prompt's quote index print verbatim to a
+participant. Substance unchanged, only the internal record-id reference removed.

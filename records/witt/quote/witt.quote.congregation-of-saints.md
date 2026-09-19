@@ -38,7 +38,7 @@ text: >-
   is it necessary that human traditions, that is, rites or ceremonies,
   instituted by men, should be everywhere alike. As Paul says: One faith,
   one Baptism, one God and Father of all, etc.
-speaker_or_author: "the Augsburg Confession, Article VII -- signed at Augsburg in 1530 by the electors, princes, and free cities named in witt.story.diet-of-augsburg-1530, not one preacher's own private teaching"
+speaker_or_author: "the Augsburg Confession, Article VII -- signed at the 1530 Diet of Augsburg by the electors, princes, and free cities who confessed it, not one preacher's own private teaching"
 license: verbatim
 modern_lens_note: >-
   A modern reader may hear "Catholic" and think first of the church of Rome specifically, as a proper
@@ -81,3 +81,9 @@ varies from the Scriptures, or from the Church Catholic" language of the Confess
 answer different canon questions: this one defines what a church IS, in our own voice; the Conclusion
 states that OUR OWN teaching does not depart from that universal Church or from Scripture. Reciprocal
 associated-with declared on witt.dw.one-holy-church-forever.
+
+CORRECTION (Phase C recon, 2026-09-19): speaker_or_author's own raw reference to
+"witt.story.diet-of-augsburg-1530" replaced with plain prose ("the 1530 Diet of Augsburg") -- caught by
+engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this field as one both the
+Level-3 citation card and the compiled prompt's quote index print verbatim to a participant. Substance
+unchanged, only the internal record-id reference removed.

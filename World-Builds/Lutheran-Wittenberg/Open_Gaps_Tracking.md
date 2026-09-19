@@ -1023,3 +1023,45 @@ per standing instruction.
    authorization, not attempted here.
 3. The `telos`/`living_traditions`/`pairings` schema gap (OG-16 item 1) remains open,
    unaffected by this step.
+
+## OG-19. Phase C recon: two self-inflicted content defects found and fixed,
+frontend/portrait wiring correctly scoped out pending an identity decision
+
+**Build history.** Ran `engine.m1.cross_world` against witt directly (the same recon
+Gallic's and Cappadocian's own Phase C work used) and found two real `_defect`-level
+findings, both self-inflicted during this build's own earlier passes: `ui-field-leak/witt`
+(two figure records' `dates.display` field — a participant-facing field — carried a raw
+internal reference inline, `(witt.core.witt.thinness)` on `witt.figure.luther` and "Doc_09
+and this record" on `witt.figure.brussels-martyrs-john-and-henry`) and
+`quote-speaker-label/witt` (five of the seven Answer-the-Canon quote records named
+`witt.story.diet-of-augsburg-1530` as a raw record id inside `speaker_or_author`, a field
+the label resolvers do not unwrap for story ids). Both classes were fixed directly — the
+claims themselves untouched, only the internal references removed — with a dated correction
+note added to each of the seven affected records' own body. Full reasoning in
+`witt_PhaseC_Scoping_Note.md`.
+
+**Independently re-verified after the fixes:** `engine.m1.gates.run_all()` re-run — 0
+findings, all 18 gates pass, record count unchanged at 251. `engine.m1.cross_world` re-run —
+neither defect class appears for witt any longer.
+
+Four `ACCEPTED_OPEN` entries added to `engine/m1/cross_world.py` (`figure-dates-keys/witt`,
+`app-world-assets/witt`, `app-world-order/witt`, `site-portrait/witt`), matching the exact,
+already-established precedent pahc/cappadocian/gallic/don each used for the identical
+patterns — ordinary cross-world maintenance, not an escalation.
+
+The bulk of Phase C's own literal checklist (`app/world_manifest.py`, frontend hand-sync
+points, Dockerfile audit, `HARD_CEILING_WORLDS`, `POST_HISTORY_GUARD`, live smoke test)
+describes infrastructure that no longer exists in this repository — the identical finding
+Gallic's own Phase C note already made, independently re-confirmed here. The real remaining
+wiring (frontend `WORLD_ASSETS`, the site portrait page) is correctly blocked on a
+Representative-portrait decision for Nikolaus, a real identity-decision-category escalation
+(CO-022) — not invented as a placeholder here. Committed locally on
+`lutheran-wittenberg-doc01`; not pushed, per standing instruction.
+
+**Open items seeded:**
+1. Representative portrait for Nikolaus — a real identity decision requiring the project
+   lead's grounded-options treatment, blocking frontend/site wiring.
+2. M3 admission — unaffected by this step, still Mark-only.
+3. Five pre-existing, unrelated `figure-dates-keys/*` findings surfaced by the same
+   `cross_world` run for other worlds (alx, desert, hal, ijc, syr — all using a `born` key
+   pattern) — noted, not touched; not this build's own content and not this session's to fix.
