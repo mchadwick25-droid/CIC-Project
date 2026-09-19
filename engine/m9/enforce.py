@@ -114,6 +114,11 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:reciprocity/pahc": Waiver(count=2, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; pahc's own build thread"),
     "m1:voice-perspective/cappadocian": Waiver(count=1, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; cappadocian's own build thread"),
     "m1:voice-perspective/syr": Waiver(count=1, deadline="2026-12-14", owner="D2 SS1.3(e) - syr's own known voice-perspective gap; syr's build thread"),
+    "m1:readability/desert": Waiver(count=5, deadline="2026-10-15", owner="gate_readability was extended 2026-09-19 to grade voice_craft fields (PR #301, the root cause of live conversation-quality drift); desert's own em-dash/colon-chained voice_craft fields not yet fixed - desert's own build thread"),
+    "m1:readability/don": Waiver(count=2, deadline="2026-10-15", owner="gate_readability was extended 2026-09-19 to grade voice_craft fields (PR #301, the root cause of live conversation-quality drift); don's own em-dash/colon-chained voice_craft fields not yet fixed - don's own build thread"),
+    "m1:readability/ijc": Waiver(count=12, deadline="2026-10-15", owner="gate_readability was extended 2026-09-19 to grade voice_craft fields (PR #301, the root cause of live conversation-quality drift); ijc's own em-dash/colon-chained voice_craft fields not yet fixed, the largest remaining count in the fleet - ijc's own build thread"),
+    "m1:readability/pahc": Waiver(count=7, deadline="2026-10-15", owner="gate_readability was extended 2026-09-19 to grade voice_craft fields (PR #301, the root cause of live conversation-quality drift); pahc's own em-dash/colon-chained voice_craft fields not yet fixed - pahc's own build thread"),
+    "m1:readability/syr": Waiver(count=1, deadline="2026-10-15", owner="gate_readability was extended 2026-09-19 to grade voice_craft fields (PR #301, the root cause of live conversation-quality drift); syr's own em-dash/colon-chained voice_craft field not yet fixed - syr's own build thread"),
 }
 
 

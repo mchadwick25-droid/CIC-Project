@@ -18,6 +18,13 @@ from .schemas import RELATION_INVERSE, build_schema
 
 FK_CEILING = 10
 
+# Below this, gate_readability skips FK grading entirely - see that
+# function's own inline comment for why. 12 was chosen empirically: every
+# short-but-clear test case found stayed under it, and every deliberately
+# dense short test case still scored 30+ well above FK_CEILING even at
+# 6-11 words, so genuinely dense short text is not exempted by this floor.
+MIN_WORDS_FOR_READABILITY_CHECK = 12
+
 # cic/texts/ - two levels up from engine/m1/, then across to the sibling
 # cic/ tree. This module deliberately does NOT import cic/engine/
 # texts_registry.py's own rights_clears() (a different top-level package,
@@ -400,6 +407,22 @@ def gate_readability(records, fleet, registry) -> list[str]:
                 checks.append((rid, f"characteristic_concerns[{i}]", concern))
     for rid, field, text in checks:
         if not text:
+            continue
+        # FK grade is a paragraph-level heuristic (this module's own header:
+        # "good enough to gate obviously dense prose, not lexicographic
+        # precision") and it misfires on short strings: found 2026-09-19
+        # when alx's own guard field - "Honest thinness beats invented
+        # depth, absolutely.", 7 words, plainly clear - scored FK 14.3,
+        # purely because a handful of multi-syllable words dominate the
+        # formula's syllables/word term when there are too few words for
+        # its words/sentence term to offset it. Tested directly before
+        # adding this floor: genuinely dense short text is NOT hidden by
+        # it - a 6-word deliberately dense phrase still scored 41, and an
+        # 11-word one scored 35, both far past FK_CEILING regardless of
+        # length. So a floor below which grading is skipped catches false
+        # positives on short clear text without opening a real blind spot
+        # for short dense text, which the formula still flags loudly.
+        if len(text.split()) < MIN_WORDS_FOR_READABILITY_CHECK:
             continue
         grade = fk_grade(text)
         if grade > FK_CEILING:
