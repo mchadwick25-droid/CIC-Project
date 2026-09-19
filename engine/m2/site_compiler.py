@@ -26,6 +26,8 @@ provenance/review notes after the closing `---` fence, the loader's own
 the same discipline engine/m2/builders.py already holds for
 _chunk_text() and build_repository_json()'s own _PACKAGE_STRIPPED_FIELDS.
 """
+from engine.m4.citation_cards import _quote_speaker_label
+
 from .canonical import canonical_json, sha256_prefixed
 
 
@@ -89,14 +91,25 @@ def _resolve_quote(quote_id: str | None, records: dict) -> dict | None:
     mechanical check that a world_front's own AUTHORED prose already
     follows this rule before it ever reaches this compiler; this is the
     same field choice made independently, at compile time, for the
-    reference itself."""
+    reference itself.
+
+    `speaker_or_author` is resolved through citation_cards.py's own
+    `_quote_speaker_label` rather than passed through raw: the corpus
+    authors this field two legitimate ways (a `figure` record id, or
+    already-readable prose - engine/m1/cross_world.py's
+    check_quote_speaker_labels), and this compiler has the same full-
+    repository access citation_cards.py's own docstring gives as the
+    reason to resolve a figure id through the figure's own name rather
+    than a cruder id-to-slug fallback. Found live in 6 of 8 built worlds'
+    pull_quotes during the site-cutover build (worked around at the
+    render layer first; fixed at the actual source here)."""
     rec = records.get(quote_id) if quote_id else None
     if not rec:
         return None
     return {
         "id": quote_id,
         "text": rec.get("modern_rendering"),
-        "speaker_or_author": rec.get("speaker_or_author"),
+        "speaker_or_author": _quote_speaker_label(rec, records),
         "confidence": _confidence_label(rec),
     }
 

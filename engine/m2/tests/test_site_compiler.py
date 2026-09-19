@@ -172,6 +172,19 @@ def test_pull_quotes_resolve_from_modern_rendering_never_text():
     assert quote["text"] != QUOTE["text"]
 
 
+def test_pull_quote_speaker_or_author_resolves_a_figure_id_to_its_own_name():
+    """QUOTE's speaker_or_author is the bare id fix.figure.the-elder - a
+    real, fleet-wide authoring pattern (engine/m1/cross_world.py's
+    check_quote_speaker_labels) this compiler must resolve through the
+    figure's own name, the same as engine/m4/citation_cards.py's
+    _quote_speaker_label already does for the Level-3 card, rather than
+    leak the raw record id into participant-facing text."""
+    out = _compile()
+    quote = out["narrative"]["pull_quotes"][0]
+    assert quote["speaker_or_author"] == "The Elder"
+    assert quote["speaker_or_author"] != FIGURE["id"]
+
+
 def test_quiet_is_the_honest_limits_own_statement_verbatim():
     out = _compile()
     assert out["narrative"]["quiet"]["statement"] == HONEST_LIMIT["statement"]
