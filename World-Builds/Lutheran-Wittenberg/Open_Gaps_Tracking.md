@@ -831,6 +831,16 @@ residual (a stale completion-checklist bullet) found and fixed directly, no thir
 5. The inline revision-history annotation volume — the same open, undecided fleet-level question
    OG-2 resolved for Doc_03 and OG-8 through OG-13 carry for Doc_04–08 and the World Profile. Not
    decided by this entry.
+6. **Technical correction, 2026-09-19 (Phase B-4 authoring caught this, not a fresh review round):**
+   witt-S10's tier-justification sentence conflated Speratus (the hymn's named author) with the
+   unnamed "wanderer from Prussia" who is separately reported to have sung it beneath Luther's
+   window — the vendored hymns file (Hy 688–691) keeps these two figures distinct; Speratus is
+   never identified there as the singer. Corrected inline in Doc_09 §3 with a dated correction
+   note; independently re-verified against the vendored file at the correction, not just at the
+   B-4 agent's own say-so. Doesn't change witt-S10's tier, confidence, or usage guidance — a
+   figure-identification fix only. `records/witt/story/witt.story.speratus-hymn-under-the-window.md`
+   and `records/witt/figure/witt.figure.speratus.md` were authored to the corrected reading from
+   the start, with the discrepancy from Doc_09's prior wording disclosed in each record's own body.
 
 ## OG-15. Doc_10 (Representative Construction Notes + Permanent Prompt, Nikolaus): one
 review round, a genuine Facilitator/Representative boundary error caught and fixed, and
