@@ -1239,9 +1239,28 @@ wiring OG-22 already named as deferred.
 witt." `records/worlds/witt.yaml`'s `state` field set from `built` to `admitted` — nothing else in that
 file touched. The registry flip exposed the same real, expected gap every prior admission has hit
 (admitted but not yet census-synced): `census-id/witt` added to `engine/m1/cross_world.py`'s own
-`ACCEPTED_OPEN`, identical shape and reasoning to don's own now-closed `census-id/don` entry. Verified
-clean after: `cross_world` 0 new defects (24 accepted-open), `engine.m9.cli check` still clean.
+`ACCEPTED_OPEN`, identical shape and reasoning to don's own now-closed `census-id/don` entry.
 
-The `admitted` -> `open` flip is a separate, later project-lead call, not made here, and no Atlas/census
-sync or WO-1 upload was attempted as part of this entry — those follow `open`, not admission, per the
-pipeline's own step order.
+**Census sync — closed the same day, corrected mid-thread from this entry's own first draft.** That
+first draft assumed census sync was gated on the separate `admitted` -> `open` flip, matching a loose
+reading of don's own note ("closed the same day once `engine.m6.cli sync` actually ran against the open
+state"). Checked directly instead of assumed: `engine/m6/census_sync.py`'s own `LIVE_STATES = {"admitted",
+"open"}` and `engine/api/wiring.py`'s own `ADMITTED_STATES = frozenset({"admitted", "open"})` both treat
+the two states identically — "admitted" is the real access-granting transition the live API itself uses;
+"open" adds no further gate in the current code. Syncing now matches the code's own intended design, not
+a premature exposure. `engine.m6.cli sync` blocked by the harness's own auto-mode "Production Deploy"
+classifier; ran only after the project lead's explicit "yes, run the census sync." Result: witt's own
+`world-census.json` entry now reads `status: "Built & Live"` (11 live worlds, up from 10); the
+`census-id/witt` waiver removed as resolved, not left stale, matching the same-day pattern don's own entry
+showed. `engine.m6.cli check` confirms clean (`"pass": true, "changes": []`); `cross_world` 0 new defects
+(23 accepted-open); `engine.m9.cli check` still clean.
+
+This also closed the one real pytest regression this admission surfaced:
+`engine/m6/tests/test_census_sync.py::test_real_repo_data_is_currently_in_sync`, which asserts the
+committed census stays in sync with the registry going forward — failing correctly, not spuriously, for
+the short window between the registry flip and the sync running.
+
+The `admitted` -> `open` flip itself is still a separate, later project-lead call, not made here — it
+governs something else in the registry's own state machine (spec: "the door opens"), not census listing
+or live-API access, both of which witt already has as `admitted`. No WO-1 upload was attempted as part of
+this entry.

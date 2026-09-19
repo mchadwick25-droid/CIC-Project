@@ -5,9 +5,9 @@
   "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "generated": "2026-08-02",
   "totalEntries": 292,
-  "liveCount": 10,
+  "liveCount": 11,
   "statusCounts": {
-   "Built & Live": 10,
+   "Built & Live": 11,
    "Possible Future World (on record)": 17,
    "Selected - Not Yet Built": 1,
    "Within Another World (A5)": 6,
@@ -15,7 +15,7 @@
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
    "Floor Question (register)": 28,
-   "Pre-Survey Candidate": 214,
+   "Pre-Survey Candidate": 213,
    "Outside Article 4 Scope": 1,
    "Label - Assessed Per Body (A3)": 1
   },
@@ -11021,11 +11021,11 @@
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
    "beyondFloor": false,
-   "status": "Pre-Survey Candidate",
-   "chip": "psc",
-   "glyph": "psc",
-   "statusWord": "Researched — strong candidate (Era 7 Step 0)",
-   "statusDescription": "Reviewed at the Era 7 Step 0 run and tiered Strong (Tier 1) — rich in both directions, with Luther's corpus on one side and the congregations' own lived record on the other, including women's voices in verified modern editions (Argula von Grumbach, Katharina Zell). The visitation records carry a care note: what they show about ordinary knowledge is itself a live scholarly debate. The Augustinian Hermits were routed into this entry's record as Luther's seedbed rather than given an entry of their own.",
+   "status": "Built & Live",
+   "chip": "live",
+   "glyph": null,
+   "statusWord": "Open for conversation",
+   "statusDescription": "You can sit down with this tradition now.",
    "living": true,
    "overlayCurrent": false,
    "c2": null,
@@ -11033,7 +11033,11 @@
    "floorNote": "No question",
    "relationsSummary": "Child of late-medieval piety and its protest; rival of Rome, sibling-rival of the Reformed; the Augustinian Hermits are its seedbed (Luther’s own order [S]) — their Reformation-lands houses dissolved into this story, the Catholic remainder continuing in the Tridentine orbit",
    "why": "The Reformation's origin can be read here at two very different heights: Luther's own corpus, which is enormous, and the visitation records showing what villagers in the same territory actually knew a generation later — considerably less than the pamphlets would suggest. Very few entries in the atlas let a movement's ideal and its ordinary reception be checked against each other so directly. Its lay record also includes women publishing under their own names in the 1520s, which almost nothing else this early can show.",
-   "entry": null,
+   "entry": {
+    "representativeName": "Nikolaus",
+    "representativeTitle": "Sexton-Schoolmaster",
+    "worldName": "The Catechized Households of Wittenberg"
+   },
    "sources": [
     {
      "work": "Luther's Works (American Edition, 55 vols + new series, Concordia/Fortress), incl. the Small and Large Catechisms (1529) and the hymns as used texts",
