@@ -983,3 +983,43 @@ instruction to push only on the project lead's explicit word.
 
 **Open items seeded:** none new. The `telos`/`living_traditions`/`pairings` fleet-level
 schema gap (OG-16 item 1) remains open for the coach thread, unaffected by this step.
+
+## OG-18. Phase B-8/B-9 (generated views, four-parity gate, chunk swap):
+package compiled and gate-verified, two sub-checks correctly scoped out as inapplicable
+
+**Build history.** Ran `engine.m2.cli determinism-check` (byte-identical on a second
+compile) and `engine.m2.cli build` for witt, producing
+`packages/witt/2026-09-19T05-06-48Z/` (manifest hash
+`sha256:545007e2f95d89a2945e191ada6022abbb2ce4cb3d54f77e3d76550b93fa42f7`, 251 records,
+109 compiled files). `records/worlds/witt.yaml` updated with the `package:` block and
+`state: building -> built`, matching `engine/BASELINES.md`'s own documented registry-pinning
+convention and the live `built -> admitted -> open` progression two other fleet worlds
+(`don`, `fix`) currently sit inside. Full detail, including every independent verification
+step, in `witt_B8_Build_Note.md`.
+
+Two of B-8's four named sub-checks (render/retrieval parity against a committed production
+baseline; held-out blind probe parity) do not apply to a first-ever record-native build:
+witt has never had a hand-authored production deployment to diff against, and probe parity
+requires live API spend the build thread is not authorized to initiate. Confirmed
+independently — not assumed to transfer from Gallic's or Cappadocian's own identical
+finding — by checking directly that no `data/witt_world/` deployment directory, no prior
+`packages/witt/` entry, and no `wrs/views/s62_*_parity.py` scripts exist anywhere in this
+repository. Named explicitly as out of scope rather than skipped silently or forced.
+
+B-9 (change-order decisions + chunk swap) was checked and found, on the same independent
+basis, to contribute nothing further beyond B-8 for a first-ever build with no prior
+deployment to swap away from — full reasoning and the real change-order instances already
+practiced across this build (Representative identity, the 1543-disclosure correction, the
+Answer-the-Canon insertion, the state transition itself) in `witt_B9_Scoping_Note.md`. Phase B
+(B-1 through B-9) is complete for this world.
+
+This is process/registry work, not a new document requiring its own disposition — no
+escalation category applies. Committed locally on `lutheran-wittenberg-doc01`; not pushed,
+per standing instruction.
+
+**Open items seeded:**
+1. G4/M2 — Article 29 living-tradition confirmation, still pending, Mark-only.
+2. M3 admission — sealed probe battery, real AWS Bedrock spend, Mark-only per-run
+   authorization, not attempted here.
+3. The `telos`/`living_traditions`/`pairings` schema gap (OG-16 item 1) remains open,
+   unaffected by this step.
