@@ -905,3 +905,44 @@ not block that document's disposition.
    document.
 4. **Article 29 confirmation** remains PENDING — a project-lead decision, to be logged back
    into Doc_10 §6 directly (not left as a standing gap) once made.
+
+## OG-16. Phase B-7/B-7a (voice_craft, demonstrations, facilitation guidance): one real
+fleet-level schema gap found, quote/doctrinal_witness gap confirmed and deferred
+
+**Build history.** Converted the already-approved Permanent Prompt (Nikolaus) into a
+`voice_craft` record (identity/flavor_notes/characteristic_concerns/guard, field-mapped per
+the Gallic precedent's own discipline) and authored 9 demonstrations grounded only in
+already-built term/story/figure/gravity/force/contested_claim records — no quote or
+doctrinal_witness records exist yet (B-6 built contested_claim only), confirmed and
+documented as a known gap rather than worked around, matching how Gallic's and Cappadocian's
+own B-7 handled the identical situation. Deliberately scoped to static authoring only — no
+package compilation, no live model calls, no simulated interview transcripts; live,
+API-spend validation is Phase D, requiring the project lead's separate authorization.
+
+**A genuine fleet-level finding, not a witt-specific gap:** B-7a asks for facilitation
+guidance (telos, living_traditions, pairings) to be added to `world_core`. The live schema
+(`engine/m1/schemas.py`) has no `telos`, `living_traditions`, or `pairings` property anywhere
+— confirmed by grep across the whole schema file and every built world's own `world_core`
+record fleet-wide, not just witt's. This content is instead carried as a dated body section
+below `witt.core.witt.md`'s closing fence (telos marked provisional/Article 31; living
+traditions marked provisional pending M2/Article 29; pairings stated honestly as none, since
+witt has no table partner). **This is unbuilt territory for the whole fleet, not a defect in
+this build** — flagged here for the coach thread / schema maintainer, since a future world
+hitting the same B-7a step will find the identical absence.
+
+This is process-record authoring work, not a new document requiring its own disposition —
+tracked under Phase B's own gate discipline (17/18 gates pass; canon-coverage still shows the
+same pre-existing 16 blank-cell findings, unchanged — voice_craft and demonstration records
+are not canon-substantive types and cannot close them).
+
+**Open items seeded:**
+1. The `telos`/`living_traditions`/`pairings` schema gap above — a real fleet-level finding
+   for the coach thread, not decided here.
+2. The quote/doctrinal_witness gap — confirmed empty, deferred to the inserted
+   Answer-the-Canon step between B-7a and B-8, per this project's own process document's
+   already-known gap (found at Cappadocian, expected to recur here).
+3. Declined demonstration cells (all Christological cells, an outsider's-account-of-worship
+   cell, a woman's-exercised-authority cell that witt's one real trace — Katharina von Bora's
+   recorded question — doesn't actually support) — named with reasons in voice_craft's own
+   body note, available for the Answer-the-Canon pass to reconsider once quote/doctrinal_witness
+   records exist.
