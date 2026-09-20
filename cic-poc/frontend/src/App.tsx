@@ -11,13 +11,11 @@ import { TableRoom } from './screens/TableRoom';
 type Screen = 'launch' | 'conversation' | 'table';
 
 // Safe cross-origin (a reference comparison, never a property read) - the
-// standard "am I inside an iframe" check. Real today: cic-website/talk.html
-// embeds this app in a themed <iframe>, and this app had zero awareness of
-// that (2026-09-04 live bug, Mark hit it directly) - "Leave for now" fell
-// back to this app's own pre-redesign Launch screen, which used to just
-// read as the app's own homepage when reached in its own tab, but reads as
-// "the site broke and reverted to the old design" rendered inside a themed
-// iframe dressed up to look like part of the new site.
+// standard "am I inside an iframe" check. cic-website/talk.html embeds
+// this app in a themed <iframe>; without this check, "Leave for now"
+// would fall back to this app's own pre-redesign Launch screen, which
+// reads as "the site broke and reverted to the old design" when rendered
+// inside a themed iframe dressed up to look like part of the new site.
 const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
 
 /**
