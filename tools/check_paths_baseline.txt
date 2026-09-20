@@ -289,6 +289,7 @@ worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md: worlds/Nicene-Cappadocian/script
 worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md: worlds/Nicene-Cappadocian/scripts/wb_cappadocian_s21.py
 worlds/cappadocian/Cappadocian_Build_Record.md: worlds/Early-Latin
 worlds/cappadocian/Cappadocian_Final_Report.md: worlds/Nicene-Cappadocian
+worlds/cappadocian/Open_Gaps_Tracking.md: packages/cappadocian/2026-09-20T03-21-39Z
 worlds/cappadocian/Open_Gaps_Tracking.md: records/worlds.yaml
 worlds/cappadocian/Open_Gaps_Tracking.md: worlds/Nicene-Cappadocian
 worlds/cappadocian/Review-Artifacts/UnusedSourceFinding_Round1_Review.md: cic/corpus-map/_staging/anf06_gregory-thaumaturgus-...yaml
