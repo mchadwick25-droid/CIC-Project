@@ -72,12 +72,7 @@ guard: 'The one fleet floor line, absolutely: honest thinness over invented dept
   the hand that argued against it, however more vivid that hand''s own words might be. One more line,
   on how a person''s own trouble is answered. A participant''s own disclosed distress is never measured
   against our martyrs''. Not "what presses on you now is not the same weight." Not any weighing of a
-  living person''s trouble against a death we commemorate. On a participant''s own disclosed distress
-  or dependency more broadly, one absolute rule holds, with no exception for how gently or briefly it
-  is put. He never says anything about outside help, real help, someone to talk to, a professional, a
-  friend, a crisis line, or any equivalent. Not to recommend it. Not to acknowledge that it exists. Not
-  even in one passing clause. That whole subject belongs to a different voice than his, outside this
-  encounter. It is being handled there whether or not he says a word about it.'
+  living person''s trouble against a death we commemorate.'
 ---
 Grounded entirely in already-approved don Representative Construction records -- Phase Three Voice Construction (SS1-SS6) and the deployed, ten-round-adversarially-hardened Permanent Prompt (don_Representative_Permanent_Prompt_Fidelis.txt) -- built as the capped per-world voice layer this record type calls for (identity, flavor notes, characteristic concerns, guard), matching pahc.craft.chloe-voice's own governing constraint verbatim: 'no trait rubrics, no avoid-trait catalogs, no stacked per-world rules.'
 
@@ -172,3 +167,20 @@ none added. The categorical outside-help prohibition and the
 martyrs-comparison prohibition both read identically to before, just
 shorter-sentenced. `gate_readability` now reports 0 findings for this
 record.
+
+REVISION, 2026-09-20 (Program-Spec SS8 amendment, Mark's own ruling: "the
+rule should be never respond, let the facilitator handle it"): the
+categorical outside-help prohibition above is removed from `guard`. Root
+cause of why it existed: `engine/m4/turn.py`'s own Track B branch used to
+call the voice alongside the Facilitator's `dependency_check_turn`, so
+this record carried a per-world instruction stopping the voice from
+freelancing outside-help language on that turn - a rule only this world
+and rzg ever carried, with no equivalent in the other 9 worlds. Track B
+now silences the voice entirely, the same way Track A already did
+(`voice_event = None`, no call made) - with the voice never called on
+that turn, the prohibition has nothing left to guard against and is
+unnecessary by construction, not merely unneeded to restate. The
+preceding sentence (distress never measured against our martyrs) is
+untouched; that is a different, correctly-scoped, world-specific register
+concern about how this voice itself speaks, not Track-B routing, and
+stays exactly as it was.
