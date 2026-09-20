@@ -41,6 +41,8 @@ relations:
 - type: associated-with
   target: witt.figure.katharina-von-bora
 - type: associated-with
+  target: witt.dw.cold-and-careless-among-us
+- type: associated-with
   target: witt.gravity.household-catechism
 - type: associated-with
   target: witt.gravity.must-and-free

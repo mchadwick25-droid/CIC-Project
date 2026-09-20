@@ -1532,3 +1532,103 @@ for direction); H-2, H-3, and the round's MEDIUM/LOW findings (not yet addressed
 `git diff 157c2269 HEAD -- engine/` still empty, held per explicit instruction — and now carrying one
 additional, unreproduced data point suggesting its scope may be wider than the original review's own
 "1543 probe only" characterization, worth keeping in view whenever B-2 is picked up).
+
+## OG-25. H-2 and H-3 fixed — a false honest-limit, dropped content, and a fleet-wide reporting gap
+
+Per the project lead's explicit "move on to H-2/H-3 next."
+
+**H-2 — `witt.dw.cold-and-careless-among-us` told participants the library lacked Luther's answer to
+Katharina von Bora's coldness-in-prayer question, when it doesn't.** The record's `text` field claimed
+"We do not have his full answer" — false. `cic/texts/luther_table-talk_bell1886.txt` lines 3147-3151
+carries the answer verbatim ("the devil driveth on his servants continually... but we, indeed, are ice
+cold therein, and negligent"), and two other records in this same world's own store already held it
+correctly: `witt.story.household-and-kate-on-prayer` (verbatim, `verification_state: verified-direct`)
+and `witt.figure.katharina-von-bora`'s own body note. Fixed by adding the answer in indirect speech,
+reconciled with the two records that already held it rather than editing either to match the error;
+`sources[]` and `relations[]` updated to cite `witt.story.household-and-kate-on-prayer` directly (with the
+required reciprocal `relations[]` entries added on both `witt.story.household-and-kate-on-prayer` and
+`witt.figure.katharina-von-bora` — `gate_reciprocity` caught the first pass missing them, exactly as
+designed; not waived, fixed).
+
+**Required-to-close item 2 — the full sweep** ("re-check every other 'we do not have'/'we hold only'
+assertion across `records/witt/` against the vendored sources") was run as a dedicated audit, all record
+types, ~150-200 records. Found one more, same defect class: `witt.story.worms-1521.md`'s `text` and
+`absent_detail` fields claimed the library's own account "does not go on to record in full" what Luther
+said the day after his summons to Worms, breaking off after "one day and one night." False — the original
+authoring pass's own cited range (`cic/texts/luther_table-talk_bell1886.txt` lines 3495-3560) stopped a
+few lines before the actual exchange begins; lines 3563-3593 hold a substantial, quotable exchange
+("God's Word is not my word... I will show obedience," the safe-conduct offer, the Bishops' false report
+of a recantation and Luther's correction) that no other witt record picks up. Fixed by narrating it in
+the record's own established close-third-person, directly-quoted register, verified verbatim against the
+extended locus; the record's central claim (that "Here I stand, I cannot do otherwise" itself never
+appears in this library's account) is unaffected and remains true. No other instance of the pattern
+turned up across doctrinal_witness (14), honest_limit (2), world_core (1), voice_craft (1), figure (6),
+story (12), gravity (13), contested_claim (4), quote (7), force (20), demonstration (9), the 2 source
+records directly implicated by other records' unvendored-lead claims, and 12 of 72 term records
+(regex-swept across 4 rounds, ~45 phrasings, against every file in `records/witt/`; the remaining ~60 term
+and ~87 source records were covered by the sweep but not read end-to-end — term records are
+script-generated from a consistent, well-hedged template per their own body notes, and source records are
+`register: etic` bibliographic metadata, not participant-facing; both are lower-risk by construction and
+were the sweep's own stated scope limit, not a silent gap).
+
+**H-3 — an engine-detected falsehood shipped because nothing read `output_defects` back.** The original
+finding: `message-3`'s own live-turn report showed a real, engine-caught conversational-memory defect
+("we have named it plainly, more than once, as real," on a turn with zero prior turns) sitting inside a
+turn marked `degraded: false` — nothing surfaced it; a reviewer found it only by reading the raw JSON by
+hand. The review's required close: (a) a gate that fails a live-test run carrying any non-empty
+`output_defects[]`, and (b) diagnosis of why the voice claimed prior turns on turn one.
+
+**(a) Built, fleet-wide, not witt-specific — the defect class is fleet infrastructure, not a records fix.**
+`engine.m4.output_check.find_shipped_defects(report)`: a small, pure function reading either
+`live_turn_run`'s or `live_table_run`'s own report shape, extracting every `output_defects[]` entry that
+actually shipped. Wired into both tools' own exit codes (previously `live_turn_run` gated only on
+`crisis_append_proven`, unrelated to this; `live_table_run` always returned 0 regardless of findings —
+also fixed for its own pre-existing `isolation_violations`, the identical class of gap, caught while
+already in that function). Also wired into `engine.m4.memory_integrity_probe` — a dedicated, purpose-built
+6-message battery for exactly this defect class (built after a real incident on another world, "desert"),
+whose own `_verdict()` already computed FAILED for the right cases but never read it back into the exit
+code either. 8 new unit tests in `engine/m4/tests/test_output_check.py` (both report shapes, clean and
+dirty cases, the facilitator-only/no-voice-event edge case); full pytest suite green.
+
+**(b) Diagnosis: run live against witt (real Bedrock spend, per-run authorization).** Two pieces of
+evidence, both per the project lead's explicit go-ahead:
+1. The original probe re-run twice (both under separate authorization): the first re-run misrouted
+   entirely (`system_nature_turn`, unrelated finding, logged separately — see the H-1 entry above); the
+   second reached the voice cleanly with `output_defects: []` — no recurrence of the original hallucination
+   on this exact probe.
+2. `engine.m4.memory_integrity_probe --region us-east-1 --world witt` — the dedicated battery, run for the
+   first time against this world. 5 of 6 turns PASSED clean. One FAILED verdict, on the "cold" bait (no
+   back-reference invitation): "We do not hold, and we named this directly against others who did, that
+   the godly would take over rule of this present world before that resurrection came." Read by hand, as
+   the check's own design requires for its `unverified` class ("a reader settles it," per the module's own
+   docstring): this is **not** a hallucination. It is an accurate paraphrase of the Augsburg Confession's
+   own Article XVII, verified verbatim — `cic/texts/melanchthon_augsburg-confession_anon-pg275.txt` lines
+   443-445: "They condemn also others who are now spreading certain Jewish opinions, that before the
+   resurrection of the dead the godly shall take possession of the kingdom of the world, the ungodly being
+   everywhere suppressed." "We named this" refers to the confession's own historical act of condemning a
+   rival view, not to anything said earlier in this conversation — a false positive of the check's own
+   conversational-claim heuristic on ambiguous "we named/condemned X" phrasing, exactly the class its own
+   docstring says needs a reader rather than a hard rule. Report: `engine/m4/reports/memory-integrity-witt.json`.
+
+**Disposition: H-2 and H-3 both RESOLVED.** The dedicated diagnostic battery found no reproducible
+instance of the original hallucination pattern against witt — consistent with the earlier live-probe
+reproducibility check (OG-24) also failing to reproduce it. The gate fix (a) now stands fleet-wide, so any
+future recurrence, on witt or any other world, surfaces automatically rather than requiring a reviewer to
+read raw JSON by hand — this closes the actual governance gap H-3 named, independent of whether this one
+pattern ever recurs. Not re-confirmed by an independent pass (unlike B-1/H-1, neither finding was
+BLOCKING, and both are narrowly scoped, verified fixes rather than a governance reversal) — open to a
+re-confirmation pass if the project lead wants one.
+
+Verified throughout: valid YAML on every edited record; package rebuilt and re-pinned
+(`2026-09-20T00-53-50Z`, superseding two earlier same-round builds, `2026-09-20T00-30-21Z` and
+`2026-09-20T00-49-33Z`, both removed per `.gitignore`'s own repin-cleanup policy); `diff -rq records/witt/
+packages/witt/2026-09-20T00-53-50Z/records/` empty; `engine.m9.cli check` clean; `engine.m1.cross_world` 0
+new defects (23 accepted-open); all 19 M1 gates `overall_pass: true`, 0 findings; full pytest suite green
+(one transient failure mid-edit, `m1:reciprocity/witt`, from the missing reciprocal `relations[]` entries
+above — fixed, not waived, and re-verified clean).
+
+**Still open, unchanged:** the Facilitator boundary-disclosure turn type (B-1 item 4); M-1 through M-4 and
+L-1 through L-5 from the original review (not addressed — outside this entry's "H-2/H-3 next" scope);
+B-2 (`git diff 157c2269 HEAD -- engine/` still empty on the *witt-specific* diff — this entry's own
+`engine/m4/` changes are fleet infrastructure unrelated to B-2's `engine/m5/routing.py`, and B-2 itself
+remains untouched, per explicit instruction).

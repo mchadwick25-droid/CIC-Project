@@ -21,6 +21,9 @@ sources:
 - source_id: witt.force.parishes-state-as-reported
   locus: "'an ass can almost intone the lessons... God does not want hearers and repeaters of words, but doers and followers' (v2 14676-14688); 'we see to our sorrow that many pastors and preachers are very negligent' (LC 51-52); Katharina von Bora's own question about coldness in prayer (TT 3147-3150)"
   license: public-domain
+- source_id: witt.story.household-and-kate-on-prayer
+  locus: "Luther's own answer to the coldness question, verified verbatim there against cic/texts/luther_table-talk_bell1886.txt lines 3143-3152 -- 'the devil drives on his own servants continually, diligent in their false worship... but we, indeed, are ice cold therein, and negligent'"
+  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
@@ -50,9 +53,11 @@ text: >-
   coldness, we hold one more voice, briefer, closer to home: a question
   asked once at our founder's own table, why some prayed with such
   fervor under the old system while we, under the new one, prayed so
-  coldly and carelessly. We do not have his full answer. We have only
-  that the question was asked, by someone who lived closest to him, and
-  that it was thought worth remembering.
+  coldly and carelessly. Our founder answered her plainly: the devil
+  drives his own servants hard, and they take great pains at their
+  false worship, while we, at the true one, grow ice-cold and
+  negligent. That answer is real, given at his own table to someone who
+  lived closest to him, and it was thought worth remembering.
 positions:
 - "our own founder testified, more than once and across a decade, that pastors were negligent and that ordinary people held the Gospel too lightly -- not a stranger's charge, but his own"
 - "that testimony is real, but it is testimony, not a verified report from any actual parish -- we do not let it stand as proof of what any specific congregation was actually like"
@@ -60,7 +65,11 @@ positions:
 tensions:
 - "we cannot tell you whether our founder's own complaint was accurate -- the records that could confirm or correct it, the parish visitations themselves, are not held in our library"
 - "this record does not answer every part of this cell -- whether we ever wanted to leave, what we would tell someone who did leave, or where God was in real suffering are questions this authoring pass leaves for a future pass; and the identity-collision and women's-authority questions this same cell can ask remain declined, per witt.voice.craft's own stated reasoning, not attempted here either"
-relations: []
+relations:
+- type: associated-with
+  target: witt.story.household-and-kate-on-prayer
+- type: associated-with
+  target: witt.figure.katharina-von-bora
 ---
 Closes F6-P at the Answer-the-Canon step (inserted between B-7a and B-8) by answering the cell's
 hypocrisy sub-question at real strength, the one this world's own already-built force record
@@ -77,7 +86,22 @@ Built entirely from witt.force.parishes-state-as-reported, already verified-via-
 authoring pass and carrying its own explicit bar ("no downstream record may cite this force... as
 evidence that Saxon congregations were ignorant, cold, or negligent") forward into this record's own
 confidence.divergence_note and text, exactly as that bar requires. Not re-opened against the vendored
-files by this record. No new quote record grounds this one; no relations[] declared accordingly.
+files by this record.
+
+CORRECTION (go-live adversarial review, Round 1, 2026-09-19; H-2, HIGH): this record's own `text` field
+originally claimed "we do not have his full answer" to Katharina von Bora's coldness-in-prayer question --
+false. The vendored library carries Luther's own answer verbatim, `cic/texts/luther_table-talk_bell1886.txt`
+lines 3147-3151 ("the devil driveth on his servants continually... but we, indeed, are ice cold therein,
+and negligent"), already verified there by `witt.story.household-and-kate-on-prayer` (`verification_state:
+verified-direct`) and already correctly summarized in `witt.figure.katharina-von-bora`'s own body note
+("answered by her husband with a saying about the devil driving his own servants harder than they drive
+themselves"). Two defects in one field: a false honest-limit (claiming the record is emptier than it is)
+and dropped content (a vivid, fully-sourced piece of this world's own voice, withheld from the
+participant). Fixed by adding the answer in indirect speech, reconciled with the two records that already
+held it correctly rather than editing either of them to match the error; `sources[]` and `relations[]`
+updated to cite `witt.story.household-and-kate-on-prayer` directly, closing the sourcing gap that let the
+false claim stand unchecked (nothing in the build gates checks a negative "we do not have" claim against
+the library; this was found by opening the vendored source, not by reading the record).
 
 The declined-cells reasoning for identity-collision and women's-authority material (why neither is
 re-attempted here) belongs to witt.voice.craft's own B-7 body note, cited by reference above rather than

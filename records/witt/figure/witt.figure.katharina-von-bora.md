@@ -49,6 +49,8 @@ relations:
 - type: associated-with
   target: witt.story.household-and-kate-on-prayer
 - type: associated-with
+  target: witt.dw.cold-and-careless-among-us
+- type: associated-with
   target: witt.gravity.household-catechism
 - type: associated-with
   target: witt.gravity.must-and-free
