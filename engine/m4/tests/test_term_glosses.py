@@ -12,7 +12,7 @@ import json
 
 from engine.m2.compiler import compile_and_hash
 from engine.m4.citation_cards import resolve_citation_sources
-from engine.m4.term_glosses import _matchable_forms, find_glosses_used
+from engine.m4.term_glosses import _form_kind, _matchable_forms, find_glosses_used
 
 
 def _real_repository(world_key: str) -> dict[str, dict]:
@@ -107,6 +107,71 @@ def test_every_world_has_at_least_one_term_a_real_sentence_can_gloss():
         head = _matchable_forms(term)[0]
         glosses = find_glosses_used(f"We spoke of {head} often.", [], repo)
         assert term["id"] in [g["id"] for g in glosses], world_key
+
+
+def test_hesychia_still_glosses_uncited():
+    """Build-Plan.md Stage 3d's own regression check: a foreign/technical
+    term this stage doesn't touch - no gloss_forms, so _form_kind's
+    default applies - keeps firing on sight, same as Logos/allegoria."""
+    repo = _real_repository("cappadocian")
+    glosses = find_glosses_used("What we seek is hēsychia, a stillness of the whole self.", [], repo)
+    assert "cappadocian.term.hesychia" in [g["id"] for g in glosses]
+
+
+def test_gallic_ordinary_forms_no_longer_fire_uncited():
+    """Build-Plan.md Stage 3d's own Done criterion: gallic's five
+    ordinary-English offenders (elder/senior/disciple/master/brethren/
+    "the world"/secular/power - the specific measured false positives
+    behind item 8) no longer light on a bare, uncited appearance."""
+    repo = _real_repository("gallic")
+    sentences = {
+        "gallic.term.elder-senior-abbot": "Our elder was a senior man in the village.",
+        "gallic.term.disciple-master": "Every disciple respected their master's craft.",
+        "gallic.term.brethren": "The brethren of the local lodge met that evening.",
+        "gallic.term.the-world-secular": "She gave up a secular career to join the world of finance.",
+        "gallic.term.virtus": "His power over the crowd was undeniable.",
+    }
+    for record_id, sentence in sentences.items():
+        glosses = find_glosses_used(sentence, [], repo)
+        assert record_id not in [g["id"] for g in glosses], (record_id, sentence)
+
+
+def test_gallic_ordinary_forms_fire_once_their_own_sentence_is_cited():
+    """The other half of the same criterion: an ordinary form is not
+    disabled, only citation-gated - the same rule the old (pre-2026-08-30)
+    citation-anchored design used, now scoped to these forms alone."""
+    repo = _real_repository("gallic")
+    cases = {
+        "gallic.term.elder-senior-abbot": "The elder heard every thought laid bare.",
+        "gallic.term.disciple-master": "The disciple obeyed without a word.",
+        "gallic.term.brethren": "The brethren gathered for the common meal.",
+        "gallic.term.the-world-secular": "He had left the world behind him.",
+        "gallic.term.virtus": "Christ's own power in the martyr's endurance.",
+    }
+    for record_id, sentence in cases.items():
+        citations = resolve_citation_sources([{"sentence": sentence, "record_ids": [record_id]}], repo)
+        glosses = find_glosses_used(sentence, citations, repo)
+        assert record_id in [g["id"] for g in glosses], (record_id, sentence)
+
+
+def test_gallic_abbot_form_is_untouched_technical_default():
+    """gallic.term.elder-senior-abbot marks "elder"/"senior" ordinary but
+    leaves "abbot" unlisted - _form_kind's own default keeps it firing on
+    sight, same as before this stage, for the one form of this record
+    judged distinctive rather than ordinary."""
+    repo = _real_repository("gallic")
+    record = repo["gallic.term.elder-senior-abbot"]
+    assert _form_kind(record, "abbot") == "technical"
+    glosses = find_glosses_used("The abbot received him kindly.", [], repo)
+    assert "gallic.term.elder-senior-abbot" in [g["id"] for g in glosses]
+
+
+def test_form_kind_defaults_technical_when_gloss_forms_is_absent():
+    """Every term record fleet-wide that predates gloss_forms must keep
+    its exact current (uncited-fires) behavior - the explicit Stage 3d
+    backward-compatibility guarantee."""
+    assert _form_kind({}, "anything") == "technical"
+    assert _form_kind({"world_word": "Logos"}, "Logos") == "technical"
 
 
 def test_an_internal_capital_form_never_matches_ordinary_prose():
