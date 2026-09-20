@@ -1,6 +1,7 @@
 # Phase 1 launch runbook
 
-**Read this first, then `BUILD-HANDOFF.md`'s current-stage section.** That
+**Read this first, then `Archive/Superseded-Housekeeping/BUILD-HANDOFF.md`'s
+current-stage section.** That
 note says what was built and why. This says what to do next, in what order,
 and where to stop.
 
@@ -12,7 +13,8 @@ Written 2026-08-24 at the close of the build thread, at
 ## Standing rules for this work
 
 These are not preferences. Every one of them was earned by something going
-wrong on this project, and the reasoning is in `BUILD-HANDOFF.md`.
+wrong on this project, and the reasoning is in
+`Archive/Superseded-Housekeeping/BUILD-HANDOFF.md`.
 
 1. **`baseline/pilot-2026-08-24` is the undo.** Frozen at `8b23f46e` - the
    exact tree behind the voice quality Mark signed off on. Every package
@@ -306,7 +308,8 @@ far more than their model. The model is one candidate cause among several,
 and the cheaper ones (the Facilitator's placeholder text, a thin world,
 retrieval missing the right record) should be ruled out first.
 
-If it really is the model, `BUILD-HANDOFF.md`'s Sonnet 5 section has the
+If it really is the model, `Archive/Superseded-Housekeeping/BUILD-HANDOFF.md`'s
+Sonnet 5 section has the
 blockers in full. In short: **raise `max_tokens` first**
 (`engine/m4/generation.py:39` is tuned for 4.5 prose, adaptive thinking is
 on by default on Sonnet 5, and the new tokenizer needs ~30% more tokens

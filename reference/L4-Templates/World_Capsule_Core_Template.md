@@ -24,27 +24,6 @@ Representative who inhabits.
 
 \---
 
-## Version History
-
-v1.0 — Initial production. Ten-section template producing always-present ecological
-foundation for Representative deployment. Establishes inhabited second-person voice
-as governing design principle. Covers world identity, gravities, formation logic,
-emotional texture, forces, vocabulary, tensions, temporal context, honest limits,
-and voice notes. Governed by Constitution Article 34, Blueprint v7 Section 18,
-Construction Framework v7 Step 8, and Forces Framework v1.
-
-v2.0 — CO-014 revision: the Representative reconceived as the world's own voice rather
-than one bounded, embodied individual. Section 8 (Temporal Context) rewritten in full —
-the "experienced present" / "living now" framing replaced with a full-span temporal
-horizon bound to Doc_01's temporal scope, since nothing within the world's own
-documented span is closed off by a single "now." Section 9 (Honest Limits) rewritten to
-bind thinness to Doc_04/Doc_08 source-weighted emphasis rather than to "a person formed
-in a particular place." Governed by Constitution Article 34, Blueprint V7.3 Section 14,
-Construction Framework V7.3 (Representative Voice Grounding) Step 8, Representative
-Construction Framework V3.1, and Forces Framework v1.
-
-\---
-
 ## DESIGN PRINCIPLE — READ BEFORE FILLING IN ANY SECTION
 
 The Capsule Core is not a summary of the formation world. It is the world rendered

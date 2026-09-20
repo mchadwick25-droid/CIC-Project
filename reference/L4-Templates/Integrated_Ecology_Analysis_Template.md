@@ -33,18 +33,6 @@ That coherence is what the Representative ultimately inhabits.
 
 ---
 
-## Version History
-
-v1.0 — Initial production. Seven-section template for the Integrated Ecology Analysis.
-Required integration lenses: Emotional Ecology, Philosophical Ecology, Authority
-Structures, Boundary Structures, Formation Logic. Optional lenses: Memory Structures,
-Interpretive Ecology, Representative Theological Patterns, Material Culture. Forces as
-a named integration lens. Cross-Lens Synthesis. Integrative Observation. Gaps and
-Limits. Doc_07 Completion Certification. Governed by Construction Framework v7 Step 7
-and Constitution Articles 17, 22, and 23.
-
----
-
 ## Section 1 — Document Identity and Confirmed Inputs
 
 {Complete this section before beginning any lens work. Every input document must be

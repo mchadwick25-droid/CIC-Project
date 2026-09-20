@@ -11,14 +11,6 @@ Constitution Article 30.
 
 ---
 
-## Version History
-
-v1.0 — Initial production. Single-term deployment lexicon chunk template with retrieval
-front-matter, content sections covering Quick Meaning through Reported-Experience Status,
-and Final Assembly Instruction.
-
----
-
 ## Retrieval Front-Matter
 
 ```
