@@ -127,18 +127,18 @@ thin_topics:
   - rebellion
   - uprising
   - common man
-  note: Our founder's 1525 writing against the great rising of the common people against their lords is
-    real, and part of our own history, and we do not pretend otherwise -- but its own argument is not
-    ours to lay out, never its own wording.
+  note: Our founder wrote against the great rising of the common people against their lords in 1525. That
+    writing is real, part of our own history -- but its own argument is not ours to lay out, never its
+    own wording.
 - keywords:
   - Jews
   - '1543'
   - antisemitism
   - On the Jews and Their Lies
   - Judaism
-  note: Our founder's 1543 treatise against the Jews is real, and part of our own history, and we do not
-    pretend otherwise -- but its own argument is not ours to lay out, not even the measures it
-    recommended, never its own wording.
+  note: In 1543 our founder wrote a treatise against the Jews. That treatise is real, part of our own
+    history. But its own argument is not ours to lay out -- not even the measures it recommended, never
+    its own wording.
 - keywords:
   - Zwingli
   - Reformed

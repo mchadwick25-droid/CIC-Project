@@ -42,13 +42,14 @@ exchange:
     Supper differently - we can state our own position, truly present,
     in and under the bread and wine - but the argument itself, and what
     it felt like from our own side, has not come down to us; the cities'
-    own names barely appear in what we hold at all. And two real events
-    fall outside our record entirely rather than merely thinly inside
-    it: the great rising of the common people against their lords in
-    1525, which our record does not narrate at any remove worth
-    trusting; and the later legal peace, decades after our founder's own
-    life closed, that settled by law what our own texts only argue.
-    Last: no woman among us left her own word, beyond one question about
+    own names barely appear in what we hold at all. Two more places test
+    that same limit, in different ways. The later legal peace, decades
+    after our founder's own life closed, settled by law what our own
+    texts only argue - and it falls outside our record entirely; we do
+    not narrate it at any remove. The great rising of the common people
+    against their lords in 1525 is different: it is real, part of our
+    own history, and we do not pretend otherwise - but its own argument
+    is not ours to lay out. Last: no woman among us left her own word, beyond one question about
     coldness in prayer, asked at our founder's own table and remembered
     by someone else. That is where we are thinnest - not on what we were
     told to believe and do, but on what was actually made of it, by real

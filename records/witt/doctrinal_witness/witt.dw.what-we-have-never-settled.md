@@ -106,8 +106,9 @@ existence-and-content reversal B-1 already found and fixed in five other fields
 that first fix, caught by the required second, independent re-confirmation pass rather than
 self-certified as complete. retrieval.do_not_retrieve_when[0] and tensions[1] both stated "existence and
 documented content only"; this body note claimed witt.core.witt's own .thinness/.cautions fields "fix"
-that same existence-and-content register, which was already false by the time this record was first
-written this way relative to the corrected world_core fields. All three corrected to existence-only,
+that same existence-and-content register, which was true when this note was first written (both fields
+held that same register then) and became false only once the first B-1 fix corrected .thinness/.cautions
+out from under it, one record over, without this one being carried along. All three corrected to existence-only,
 matching the approved witt_Representative_Permanent_Prompt_Nikolaus.txt (paragraph 31) and this world's
 own now-consistent voice_craft and world_core fields. text and positions[3] were already correct
 (existence-only framing) and did not need changing.

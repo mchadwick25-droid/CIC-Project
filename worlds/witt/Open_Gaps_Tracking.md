@@ -1345,6 +1345,69 @@ packages/witt/2026-09-19T23-30-27Z/records/` empty; `engine.m9.cli check` clean;
 0 new defects (23 accepted-open); all 19 M1 gates `overall_pass: true`, 0 findings; voice_craft word
 budget 1457/1500, worst field FK 9.74 (both within bar); full pytest suite green.
 
+**Third independent re-confirmation pass, 2026-09-19.** Same discipline: cold, no access to the fixing
+thread's reasoning, every claim re-derived from on-disk artifacts. Verdict on the H-1 reconciliation
+above: B-1 (the sixth location) genuinely **RESOLVED**; H-1 **NOT RESOLVED**, for reasons the fix above
+had not covered:
+- **A fourth location**, `records/witt/demonstration/witt.demo.record-thinnest.md`'s own `exchange[1].text`
+  (compiled verbatim into `prompt.txt` as a model-facing few-shot example), paired 1525 with 1555 as
+  events that "fall outside our record entirely" and said our record "does not narrate [1525] at any
+  remove worth trusting" — a stronger false-absence claim than the one just retired, and one that directly
+  contradicts `witt.force.absent-inputs-1525-and-1555.md`'s own Widely Accepted tag on the 1525 tracts'
+  content.
+- **A readability regression the reframe itself introduced**, unmeasured because `world_core` is the one
+  compiled record type `gate_readability` does not grade: `.thin_topics[peasants/1525]` went from FK 8.53
+  (two short sentences) to FK 17.09 (one 44-word compound), well outside CLAUDE.md's 8–10 band and
+  "nothing... running past ~25 words" rule. The parallel Jews/1543 entry was already at FK 17.12,
+  pre-existing and also unmeasured.
+- **A pronoun/antecedent slip** in `voice_craft`'s `honest-limits` note: "our founder wrote against it,
+  and it is real" left "it" ambiguously pointing at *the rising* rather than *the writing/tract* — the
+  noun whose "own argument" the sentence exists to bar.
+- **The documentary root cause, untouched**: `worlds/witt/witt_World_Profile.md` §8 still carried the
+  reversed formula verbatim in both its "Ecological basis" and "How the Representative handles it"
+  entries — the passage `witt_Doc10_Review_Round1.md` §4 had already traced the defect's first occurrence
+  to, and the passage `records/witt/world_core/witt.core.witt.md`'s own body note (line 164) names as the
+  source `.thinness`/`.cautions`/`.thin_topics` were built from. **And a live re-infection vector**:
+  `worlds/witt/scripts/wb_witt_s21.py`, the script that generates `records/witt/world_core/`, still
+  contained all four pre-fix strings verbatim — nothing runs it today, but re-running it would silently
+  restore a BLOCKING finding in a world that is already `admitted` with live access.
+- Two minor items: the dw record's own CORRECTION note mis-stated when its cross-reference became false
+  (said "already false... when this record was first written," when it was accurate then and became false
+  only once the first B-1 fix changed `world_core` out from under it); an orphan package manifest left
+  tracked after a repin, against `.gitignore`'s own stated cleanup rule.
+- `OG-24` itself (the version this pass read) was checked line by line and found accurate on every
+  verifiable claim, with one overstatement: "applied to every location carrying the... claim... not only
+  the one this review named" was true of the two phrasings named, not of the claim, which the fourth
+  location and the generator script both still carried.
+
+**This entry's own further fix, addressing all of the above:**
+- `witt.demo.record-thinnest.md`: 1525 and 1555 split apart and re-framed separately — 1555 (a true,
+  total absence per the force record's own "Not Attested... at any confidence") keeps the
+  falls-outside-our-record framing; 1525 (real tertiary content, barred from the Representative's own
+  voice) takes the same "real, part of our history... but its own argument is not ours to lay out" shape
+  as everywhere else.
+- `witt.core.witt.md`'s `.thin_topics[peasants/1525]` and `[Jews/1543]` both reworded to short, plain
+  sentences: FK 7.66 (was 17.09) and FK 6.12 (was 17.12, pre-existing and also brought into line), both
+  well inside the 8–10 band's spirit.
+- `witt.voice.craft.md`'s `honest-limits` 1525 sentence reworded so the bar attaches to "our founder's
+  writing," not "the rising" — matching the shape `thin_topics[peasants]` already used correctly.
+- `witt_World_Profile.md` §8 corrected at both entries (existence acknowledged; argument/content
+  Facilitator-carried, never the Representative's), logged as a dated change order in the document's own
+  Document Log rather than a quiet edit or a reopened review round.
+- `worlds/witt/witt_Doc_02_Source_Ecology.md` §12.3 — one level further back, the source Doc_07/Doc_08
+  themselves carried forward — given a dated SUPERSEDED-IN-PART note rather than rewritten, since its own
+  historical/evidentiary content is not in question, only its closing instruction to the Representative.
+- `wb_witt_s21.py` brought into sync with the corrected records (verified by direct string extraction, not
+  by eye) plus a code comment explaining why, so a future re-run reproduces the current correct state
+  rather than the old defect.
+- The dw record's CORRECTION note corrected to state its own history accurately; the orphaned package
+  manifests (`2026-09-19T05-06-48Z`, `2026-09-19T23-00-26Z`, `2026-09-19T23-30-27Z`, all superseded)
+  `git rm`'d per `.gitignore`'s own stated policy.
+- Verified: valid YAML on every edited record; package rebuilt and re-pinned (`2026-09-19T23-57-37Z`);
+  `diff -rq records/witt/ packages/witt/2026-09-19T23-57-37Z/records/` empty; `engine.m9.cli check` clean;
+  `engine.m1.cross_world` 0 new defects (23 accepted-open); all 19 M1 gates `overall_pass: true`, 0
+  findings; full pytest suite green.
+
 **Still open — not decided or built in this entry:**
 1. **The Facilitator boundary-disclosure turn type (B-1 item 4).** No turn in
    `engine/m4/facilitator_turns.py` (`threshold`, `door`, `safety` x2, `system_nature`, `etic`, `close`,
@@ -1352,13 +1415,18 @@ budget 1457/1500, worst field FK 9.74 (both within bar); full pytest suite green
    question, not a records fix, and has not been raised with the project lead for direction yet. Tracked
    here as the open item rather than a fleet-level `ACCEPTED_OPEN` waiver, since it is not a check
    `cross_world` or `m9` currently runs against.
-2. **A third independent re-confirmation pass** is still required — the second pass explicitly could not
-   close what it was reporting, and neither B-1 item 4 nor this entry's own H-1 fix has been independently
-   re-checked yet.
-3. **H-2, H-3, and the round's MEDIUM/LOW findings** remain entirely unaddressed beyond this entry; not
+2. **H-1's own third close condition — re-run the 1525 probe live and confirm the reframed wording
+   produces a real, non-refusal-narration turn.** Not blocked by B-2 (the 1525 probe already routes
+   correctly to `voice_with_directive`; only the 1543 probe is misrouted). Requires real Bedrock spend and
+   the project lead's own per-run authorization, per this project's standing live-testing discipline — not
+   run in this entry, surfaced separately rather than run unilaterally.
+3. **A fourth independent re-confirmation pass** is required before B-1/H-1 can be marked closed — the
+   third pass explicitly could not close what it was reporting. Per CLAUDE.md's capped-review-cycle rule,
+   if this fourth pass does not clear, that is itself an "unresolved tension the pipeline can't close on
+   its own" and the next step is escalation, not a fifth attempt.
+4. **H-2, H-3, and the round's MEDIUM/LOW findings** remain entirely unaddressed beyond this entry; not
    yet raised with the project lead for direction on whether/when to fix them.
-4. **B-2** (`engine/m5/routing.py`'s routing-classifier misclassification of in-scope-but-declined
+5. **B-2** (`engine/m5/routing.py`'s routing-classifier misclassification of in-scope-but-declined
    messages as `system_nature_turn`, fleet-wide, already symptom-patched once in gallic) remains
-   untouched, per the project lead's explicit "hold off on B-2." Confirmed untouched by the
-   re-confirmation pass itself (`git diff 157c2269 HEAD -- engine/` empty), and by this entry (`git diff
-   157c2269 HEAD -- engine/` still empty after this entry's own edits).
+   untouched, per the project lead's explicit "hold off on B-2." Confirmed untouched by both re-confirmation
+   passes and by this entry (`git diff 157c2269 HEAD -- engine/` still empty).

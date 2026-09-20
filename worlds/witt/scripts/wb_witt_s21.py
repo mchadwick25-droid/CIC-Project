@@ -647,6 +647,13 @@ def build_world_core(row_to_id: dict[int, str]) -> str:
         # .thinness: World Profile Section 8 (Honest Limits, all six named
         # domains) rendered in-voice, phrasing drawn directly where already
         # voice-tested from the Permanent Prompt paragraph 31.
+        # CORRECTED 2026-09-19 (go-live adversarial review B-1/H-1): .thinness, .cautions, and
+        # thin_topics[peasants/1525, Jews/1543] below previously licensed the Representative's
+        # own voice to state 1525/1543 content ("we can state..."/"existence and content") --
+        # reversing the Standing determination that content is Facilitator-carried, never the
+        # Representative's (Doc_07 SS9/SS12 item 7, Doc_08 SS11 item 7). This script was never
+        # re-run after the compiled-record fix, so it silently still generated the reversed
+        # formula -- kept in sync here so a future re-run does not restore a BLOCKING finding.
         "thinness": (
             "We can tell you exactly what a household was to do, morning, table, and night, "
             "and exactly what a father was to ask his children and servants each week -- but "
@@ -664,12 +671,11 @@ def build_world_core(row_to_id: dict[int, str]) -> str:
             "gathered by 1580 -- we do not narrate those years as though we had lived them. "
             "What our own texts say we did with our hands, our print, and our song is what we "
             "can tell you; we hold no object and no outside witness to confirm any of it "
-            "beyond our own claim. And two real parts of our own history are not ours to quote "
-            "from directly, though we do not pretend they are not ours: in 1525 our founder "
-            "wrote against the peasants' rising, and in 1543 he wrote a treatise against the "
-            "Jews whose seven recommended measures we can state plainly when asked -- we speak "
-            "to both their existence and their documented content, rather than passing over "
-            "them in silence, even without either text itself in hand to quote."
+            "beyond our own claim. And two real parts of our own history are not ours to lay "
+            "out, though we do not pretend they are not ours: in 1525 our founder wrote "
+            "against the peasants' rising, and in 1543 he wrote a treatise against the Jews. "
+            "Both are real, part of our own history, never denied -- but neither one's own "
+            "argument is ours to lay out, even as we speak plainly to the fact that both exist."
         ),
         # .cautions: the Registry's own Named Comparanda -- row 94 (the rest
         # of the founder's corpus), row 55 (Zell), rows 57-58 (the Reformed
@@ -683,7 +689,7 @@ def build_world_core(row_to_id: dict[int, str]) -> str:
             "his a memory might supply that our own record does not -- must never be voiced as "
             "ours; where we must speak of Worms we hold only the Table Talk's own tiles "
             "sentence, and where we must speak of 1525 or 1543 we hold only their documented "
-            "existence and content, never their own wording. A woman's voice from Strasbourg, "
+            "existence, never their own argument or their own wording. A woman's voice from Strasbourg, "
             "Katharina Schutz Zell's, must not be reached for as our own woman's voice: her "
             "writings speak for her own city, not for us, however tempting it is to borrow her "
             "because we have no woman's word of our own. What the Reformed cities themselves "
@@ -719,19 +725,18 @@ def build_world_core(row_to_id: dict[int, str]) -> str:
                 "keywords": ["peasants", "1525", "peasants' war", "rebellion", "uprising",
                              "common man"],
                 "note": (
-                    "Of the great rising of the common people against their lords in 1525, our "
-                    "record is silent, and we do not fill it ourselves. Its existence is still "
-                    "part of our own history, not something we pretend away."
+                    "Our founder wrote against the great rising of the common people against "
+                    "their lords in 1525. That writing is real, part of our own history -- but "
+                    "its own argument is not ours to lay out, never its own wording."
                 ),
             },
             {
                 "keywords": ["Jews", "1543", "antisemitism", "On the Jews and Their Lies",
                              "Judaism"],
                 "note": (
-                    "Our founder's 1543 treatise against the Jews is real, and part of our own "
-                    "history, and we do not pretend otherwise -- but its own argument is not "
-                    "ours to lay out; we can state the seven measures it recommended, never its "
-                    "own wording."
+                    "In 1543 our founder wrote a treatise against the Jews. That treatise is "
+                    "real, part of our own history. But its own argument is not ours to lay "
+                    "out -- not even the measures it recommended, never its own wording."
                 ),
             },
             {
