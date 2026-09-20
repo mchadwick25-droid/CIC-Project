@@ -39,6 +39,7 @@ gravity/contested_claim anti-conflation case the design cares most about
 import re
 
 from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
+from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
 from engine.prose import all_text, content_words, overlap_coefficient
 from engine.m4.grounding_net import scope_completion
 
@@ -222,36 +223,13 @@ def _head_text(record: dict) -> str:
     return all_text(record)
 
 
-# Build-team editorial/interpretive commentary, not citable content - a
-# record's own honest self-critique of its evidentiary limits, written for
-# whoever reviews the record, never for a participant. all_text() keeps
-# these on purpose for grounding_net's own job (checking whether the MODEL's
-# generated text is grounded - a much broader "is this substring anywhere
-# in the record" check with a different failure mode if it's too narrow).
-# This fallback's job is the opposite risk: finding the WRONG record because
-# a query word happened to appear in a caveat about the record rather than
-# in the record's own substance. Measured directly: pahc.term.ministrae's
-# own `senses.informational` field reads "...women held service in that
-# church important enough that its interrogator chose them as the ones who
-# would know" - a real sentence, but about Pliny's interrogation, not about
-# why anything was important in the sense a participant asking "why was
-# Jesus important" means. That single word, in that one commentary field,
-# was enough to surface a completely unrelated record before this exclusion
-# existed. `do_not_retrieve_when` is excluded for a sharper reason: matching
-# on it would retrieve a record's own list of reasons NOT to retrieve it.
-#
-# `retrieve_when` is excluded 2026-08-27 for that same sharper reason, on a
-# regression it caused the day 124 quote records were hinted at once. A hint
-# is retrieval vocabulary written in the PARTICIPANT'S words, which is
-# precisely the vocabulary this fallback matches on - so every hinted record
-# starts matching every hint word, and document frequency climbs until an
-# honestly-discriminating word crosses _FULLTEXT_FALLBACK_MAX_POOL and stops
-# discriminating at all. Measured on pahc: "believe" matched 4 records and
-# reached ground for "How did you know what to believe?"; after hinting it
-# matched 7, went over the pool cap, and that question returned nothing.
-# Hints belong in cell vocabulary, scored against a curated per-cell corpus -
-# not here, where raw frequency is the whole safeguard.
-_FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when", "retrieve_when"}
+# Relocated to engine.prose.FALLBACK_EXCLUDED_KEYS (Build-Plan.md Stage 4c)
+# so engine.m2.builders's compile-time retrieval index can share the
+# identical exclusion set without engine/m2/ importing engine/m4/ (the
+# dependency runs the other way everywhere else in this codebase) - see
+# that module's own comment for the full rationale and the measurements
+# behind each excluded key (pahc.term.ministrae's `senses.informational`,
+# the 124-quote-hint regression on `retrieve_when`).
 
 
 def _fallback_search_text(record: dict) -> str:

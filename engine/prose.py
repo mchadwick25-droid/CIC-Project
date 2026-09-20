@@ -68,7 +68,7 @@ import re
 # must not be invented. This is the same category formation_claim_barred
 # below is already in - a forbidden claim's own text is not "prose that
 # might ground a real answer," it is the opposite.
-_NON_PROSE_KEYS = {
+NON_PROSE_KEYS = {
     "id", "world_id", "record_type", "schema_version", "status", "register",
     "_path", "_body", "world_word", "license", "narrative_tier",
     "formation_claim_barred", "citation_specificity", "verification_state",
@@ -76,6 +76,42 @@ _NON_PROSE_KEYS = {
     "canon_cells", "source_id", "target", "canon_question_id",
     "do_not_retrieve_when",
 }
+
+
+# Build-team editorial/interpretive commentary, not citable content - a
+# record's own honest self-critique of its evidentiary limits, written for
+# whoever reviews the record, never for a participant. all_text() (and
+# NON_PROSE_KEYS above) keeps these on purpose for grounding_net's own job
+# (checking whether the MODEL's generated text is grounded - a much broader
+# "is this substring anywhere in the record" check with a different failure
+# mode if it's too narrow). A RETRIEVAL ranking's job is the opposite risk:
+# finding the WRONG record because a query word happened to appear in a
+# caveat about the record rather than in the record's own substance.
+# Measured directly (engine.m4.evidence's Stage A2 fallback, 2026-08-27):
+# pahc.term.ministrae's own `senses.informational` field reads "...women
+# held service in that church important enough that its interrogator chose
+# them as the ones who would know" - a real sentence, but about Pliny's
+# interrogation, not about why anything was important in the sense a
+# participant asking "why was Jesus important" means. That single word, in
+# that one commentary field, was enough to surface a completely unrelated
+# record before this exclusion existed. `do_not_retrieve_when` is excluded
+# for a sharper reason: matching on it would retrieve a record's own list of
+# reasons NOT to retrieve it. `retrieve_when` is excluded for that same
+# sharper reason, on a regression it caused the day 124 quote records were
+# hinted at once: a hint is retrieval vocabulary written in the
+# PARTICIPANT'S words, which is precisely the vocabulary a retrieval ranking
+# matches on, so every hinted record started matching every hint word and
+# document frequency climbed until an honestly-discriminating word stopped
+# discriminating at all (measured: "believe" went from matching 4 records to
+# 7 on pahc, and a real question lost its answer). Hints belong in cell
+# vocabulary, scored against a curated per-cell corpus - not in a general
+# retrieval ranking, where raw frequency is the whole safeguard.
+#
+# Shared by every retrieval-ranking consumer so they can't drift apart:
+# engine.m4.evidence's Stage A2 fulltext fallback (the original use case
+# this was measured against) and engine.m2.builders's compile-time
+# retrieval index (Build-Plan.md Stage 4c) both exclude the identical set.
+FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when", "retrieve_when"}
 
 
 _STOPWORDS = {
@@ -157,7 +193,7 @@ def all_text(rec: dict) -> str:
 
     def walk(value, key=None):
         if isinstance(value, str):
-            if key not in _NON_PROSE_KEYS:
+            if key not in NON_PROSE_KEYS:
                 parts.append(value)
         elif isinstance(value, dict):
             for k, v in value.items():
@@ -168,6 +204,21 @@ def all_text(rec: dict) -> str:
 
     walk(rec)
     return " ".join(parts)
+
+
+def short_head(text: str) -> str:
+    """The title of a work/locus string before its scholarly apparatus. The
+    corpus writes both fields title-first, apparatus after: work as "The
+    Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE
+    per Niederwimmer..." and locus as "Trallians 9 (the 'truly born...truly
+    raised' chain)" - or, in a source's own locus entries, a trailing
+    vendored-filename parenthetical never meant as prose at all. Shared by
+    engine.m4.citation_cards (the participant-facing headline; the full
+    string stays in the card's sources[] untouched) and engine.m2.builders's
+    compile-time retrieval index (Build-Plan.md Stage 4c) - a retrieval
+    ranking scoring the untruncated string would search on exactly the
+    apparatus text `_quote_label` already knows not to show a participant."""
+    return (text or "").split(";")[0].split(" (")[0].strip()
 
 
 def content_words(text: str) -> set[str]:

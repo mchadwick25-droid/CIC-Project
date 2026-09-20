@@ -8,7 +8,15 @@ import hashlib
 import re
 
 from engine.m1 import canon
-from engine.prose import DEMONSTRATION_TAG_FLOOR, content_words, quote_aware_sentences
+from engine.m1.spoken_fields import fields_with_role
+from engine.prose import (
+    DEMONSTRATION_TAG_FLOOR,
+    FALLBACK_EXCLUDED_KEYS,
+    NON_PROSE_KEYS,
+    content_words,
+    quote_aware_sentences,
+    short_head,
+)
 
 from .canonical import canonical_json
 
@@ -668,7 +676,73 @@ def build_indexes(records: dict) -> dict[str, bytes]:
     return {
         "compiled/indexes/lexicon.faiss": _index_blob(lexicon_entries),
         "compiled/indexes/story.faiss": _index_blob(story_entries),
+        "compiled/retrieval.json": build_retrieval_json(records),
     }
+
+
+# ---- compiled/retrieval.json ----------------------------------------------
+# Build-Plan.md Stage 4c. A deterministic lexical index: one word set per
+# record, scoped to engine.m1.spoken_fields's own registry (the fields that
+# actually reach a participant or the model that speaks to them) so this
+# reads the same "what does this record actually say" every other
+# participant-facing surface already agrees on, rather than re-deriving a
+# field list of its own - the exact drift this project spent Stage 2's own
+# registry work closing. "instruction" fields (voice_craft/fleet_voice
+# scaffolding - never a claim about the world, never itself retrievable
+# ground) are deliberately excluded; every other role (voice-diet,
+# evidence-head, participant-label) is included, since a participant could
+# plausibly type any of that content back at the voice, including a
+# citation-card label like a term's own world_word.
+#
+# FALLBACK_EXCLUDED_KEYS and NON_PROSE_KEYS are both applied on top,
+# defensively, even though a spoken field and either exclusion set are
+# already near-disjoint at the TOP level in practice - a spoken field can
+# still nest one of them one level down. `quote.sources` is itself a
+# spoken, participant-label field, but its own list items carry
+# `source_id` (NON_PROSE_KEYS - "a dotted id tokenizes into ordinary
+# words") and its `locus` strings follow the identical "title; scholarly
+# apparatus" convention `engine.m4.citation_cards` already knows to
+# truncate before showing a participant (source.work is the same shape) -
+# short_head() applies that same truncation here, so this index is never
+# wider than what a participant would actually be shown. Found by running
+# this builder for real against alx before landing it: without both, a
+# quote's own vendored-filename apparatus ("...(anf04_tertullian4-
+# minucius-felix-commodian-origen1-2.xml)") and its source's own dotted id
+# fragments ("alx", "origen") were leaking into that quote's word set.
+#
+# Not yet read by the live turn loop (engine.m4.evidence's own Stage B2
+# fill is separate, later work) - the same "land the compile-time artifact
+# before the read exists" order compiled/indexes/canon-map.json already
+# used, deliberately: a bug in an unread file breaks nothing.
+_RETRIEVAL_ROLES = ("voice-diet", "evidence-head", "participant-label")
+_EXCLUDED_RETRIEVAL_KEYS = FALLBACK_EXCLUDED_KEYS | NON_PROSE_KEYS
+_TRUNCATED_RETRIEVAL_KEYS = {"work", "locus"}
+
+
+def _retrieval_words(record: dict) -> list[str]:
+    parts: list[str] = []
+
+    def walk(value, key=None):
+        if key in _EXCLUDED_RETRIEVAL_KEYS:
+            return
+        if isinstance(value, str):
+            parts.append(short_head(value) if key in _TRUNCATED_RETRIEVAL_KEYS else value)
+        elif isinstance(value, dict):
+            for k, v in value.items():
+                walk(v, k)
+        elif isinstance(value, list):
+            for item in value:
+                walk(item, key)
+
+    for field in fields_with_role(record.get("record_type"), *_RETRIEVAL_ROLES):
+        if field in record:
+            walk(record[field], field)
+
+    return sorted(content_words(" ".join(parts)))
+
+
+def build_retrieval_json(records: dict) -> bytes:
+    return canonical_json({r["id"]: _retrieval_words(r) for r in sorted(records.values(), key=lambda r: r["id"])})
 
 
 # ---- compiled/quotes.json, figures.json, repository.json ----------------

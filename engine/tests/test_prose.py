@@ -28,7 +28,7 @@ def test_all_text_walks_nested_records():
 
 def test_all_text_drops_the_build_notes_body():
     """engine/m1/loader.py: "The body is provenance/build notes only - never
-    read by any builder." _body is in _NON_PROSE_KEYS, so no amount of
+    read by any builder." _body is in NON_PROSE_KEYS, so no amount of
     build-note prose can leak into a keyword corpus or a citation."""
     rec = {"text": "real prose", "_body": "how this record was built"}
     assert prose.all_text(rec) == "real prose"
