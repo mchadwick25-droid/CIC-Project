@@ -20,7 +20,7 @@
 **World name:** Gallic Monastic-Ascetic Christianity
 **World code:** `gallic`
 **Representative name:** PENDING — not named until Representative Emergence (Step 10), which occurs after this document (matching Doc_08 Section 1's own `[TBD]` field).
-**Doc_09 completion date:** PENDING (draft 2026-09-10; completion follows review)
+**Doc_09 completion date:** 2026-09-10 (Approved to proceed)
 **Builder:** the build thread's Fable-class drafting agent, under the `cic-build-cycle` and `cic-story-repository` disciplines
 **Doc_02 (Source Ecology) version this inventory draws from:** `gallic_Doc02_Source_Ecology.md`, Approved to Proceed (with the 2026-09-09 §13A addendum and the 2026-09-10 self-containment restoration); `gallic_Source_Registry.md`, 44 rows.
 **Doc_04 (Historical Gravity) version this inventory draws from:** `gallic_Doc04_Gravity_Discovery.md`, Approved to Proceed — G1–G10 (3 Primary / 5 Supporting / 2 Tensional), which every story's Formation Ecology Connection names specifically.

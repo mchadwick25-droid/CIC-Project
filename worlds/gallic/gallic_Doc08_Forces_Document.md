@@ -18,7 +18,7 @@
 
 **Representative name:** [TBD — not yet named; Representative Emergence occurs after Doc_08 per the template's own v1.1 note]
 
-**Doc_08 completion date:** PENDING (draft 2026-09-10; completion follows review)
+**Doc_08 completion date:** 2026-09-10 (Approved to proceed)
 
 **Builder:** the build thread's Fable-class drafting agent, under the `cic-build-cycle` and `cic-forces-index` disciplines
 
