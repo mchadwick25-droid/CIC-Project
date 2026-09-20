@@ -25,10 +25,7 @@ work: 'Bibliotheca Sanctorum Patrum et Scriptorum Ecclesiasticorum, Series VII (
   Voluminis I Pars I: Sancti Gregorii Magni Epistolae Selectae'
 edition: 'Rome: Apud Directionem Bibliothecae Ss. Patrum, 1907; vendored as cic/texts/gregory-great_epistolae-selectae_turchi1907.txt'
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
-  by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
-  vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by
-  this compilation pass.
+rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attributed. The front matter states directly that the text and annotations are taken
   FROM the Ewald-Hartmann critical edition, and every included letter carries the editors' own explicit
   concordance to it.

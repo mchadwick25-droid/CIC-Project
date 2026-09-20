@@ -18,9 +18,7 @@ author: Andreas Karlstadt
 work: theses and sermons of 1521 — as quoted in Steimle's introduction to R15
 edition: not independently vendored; embedded within "luther_works-v2-selected_jacobs-spaeth1916.txt" (see rights_status)
 kind: unvendored
-rights_status: Not independently vendored; this work reaches the build only as quoted or embedded within
-  a vendored text (cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt), per Source Registry row
-  43, marked (context).
+rights_status: "Not independently vendored; this work reaches the build only as quoted or embedded within a vendored text, marked (context)"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 43; v2 file; 2026-09-15
 external_ids:

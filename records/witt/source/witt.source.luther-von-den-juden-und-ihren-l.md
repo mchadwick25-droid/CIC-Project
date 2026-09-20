@@ -21,8 +21,7 @@ edition: '(1543) — Luther''s Works vol. 47 (Fortress, 1971; trans. Martin H. B
   edited the volume; Revision 0''s "minor discrepancy" was not one and is closed, Round 1 C6) — NOT VENDORED,
   genuinely blocked (G1 Part B)'
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 49; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; content verified WebFetch (tertiary); Source Registry row
   49; 2026-09-15

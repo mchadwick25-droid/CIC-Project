@@ -19,8 +19,7 @@ work: 'The Theses Were Not Posted: Luther between Reform and Reformation'
 edition: '(Boston: Beacon, 1968; German Luthers Thesenanschlag — Tatsache oder Legende?, 1962; first argued
   1961)'
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 76; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 76; WebSearch; 2026-09-15
 external_ids:

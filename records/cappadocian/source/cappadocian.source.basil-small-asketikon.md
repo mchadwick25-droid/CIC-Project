@@ -20,9 +20,7 @@ work: 'Basil''s Small Asketikon (non-Greek: Rufinus'' Latin translation, 397; a 
 edition: Named witnesses only (Rufinus' 397 Latin translation; a dated Syriac manuscript tradition) --
   no open English translation located this session or previously
 kind: unvendored
-rights_status: not independently verified this session; row not yet acquired as an open text -- named
-  for completeness per the Source Registry's own checkpoint rule (every source a Doc_02 claim rests on
-  gets a row, acquired or not).
+rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 19; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

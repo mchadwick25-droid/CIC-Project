@@ -18,11 +18,7 @@ relations: []
 author: Theodore Beza
 work: Beza's own works generally (letters, the Tabula praedestinationis, the Genevan Psalter's own co-authorship)
 edition: No specific edition identified or searched this pass - NOT YET ACQUIRED
-rights_status: Native to this world's own boundary but NOT YET ACQUIRED (Source_Registry.md's own words,
-  rows 13-17). Confidence D/E - a real, disclosed acquisition gap (Source_Acquisition_Manifest.md; Open_Gaps_Tracking.md
-  items 4-6), not a rights refusal and not a claim this compilation pass can resolve. Nothing is vendored
-  or quoted from this row; every field below states what is currently known about the work itself, not
-  its content.
+rights_status: "Native to this world's own boundary but not yet acquired - a real, disclosed acquisition gap, not a rights refusal. Nothing is vendored or quoted from this row; every field below states what is currently known about the work itself, not its content"
 attribution_status: attributed to Theodore Beza; no specific edition currently held or actively searched.
 discovery_channel: Source_Registry.md row 16, added 2026-09-15; named in the census's own `voices` field;
   a missing-voices item under Article 20 (Doc_02 SS6) - not itself a marginalized-voice case in the Constitution's

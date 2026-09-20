@@ -18,8 +18,7 @@ author: Julian (Roman emperor)
 work: Julian, the Rescript on Christian Teachers (Epistle 36), within Julian's Letters 1-73
 edition: Wright's 1923 translation, vendored as cic/texts/julian_letters-1-73_wright1923.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ and independently verified (identity, completeness,
-  provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 72; the file itself was independently
   verified for identity, completeness, and provenance by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md

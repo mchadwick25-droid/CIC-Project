@@ -21,9 +21,7 @@ edition: CONFIRMED PRESENT in the vendored npnf207 edition -- corrected 2026-09-
   review, from this record's own stale "not within" claim -- Letters XLVIII, XLIX ("To Basil.
   (The Praises of Quiet.)"), L, and LVIII all present, div3 ids iv.iii.xviii-xxi
 kind: unvendored
-rights_status: public-domain; vendored in cic/texts/, rights independently confirmed
-  (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session
-  (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 40; corrected 2026-09-08, Round 4
   Opus review, after this record was found stale against row 40's own Round 1 correction (direct

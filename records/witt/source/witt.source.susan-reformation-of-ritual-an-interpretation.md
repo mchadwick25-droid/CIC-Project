@@ -18,8 +18,7 @@ author: Susan C. Karant-Nunn
 work: 'The Reformation of Ritual: An Interpretation of Early Modern Germany'
 edition: '(London: Routledge, 1997)'
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 73; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 73; WebSearch; 2026-09-15
 external_ids:

@@ -18,8 +18,7 @@ author: Heiko A. Oberman
 work: 'Luther: Man between God and the Devil'
 edition: (1989; German 1982)
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 82; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 82; 2026-09-15
 external_ids:

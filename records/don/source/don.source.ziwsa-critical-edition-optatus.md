@@ -19,11 +19,7 @@ work: S. Optati Milevitani libri VII, Corpus Scriptorum Ecclesiasticorum Latinor
   1893)
 edition: cic/texts/optatus_libri-vii-critical_ziwsa1893.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
-  directly checked the vendored file's own provenance header for every file cited below (grep for 'public
-  domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC
-  BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows
-  cite -- not assumed from the Registry's or corpus map's own prose alone.
+rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed
 discovery_channel: Source Registry row 38; builder-prior-knowledge, cross-checked via WebSearch, 2026-09-01
 external_ids:

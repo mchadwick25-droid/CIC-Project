@@ -19,8 +19,7 @@ work: On the Jews and Their Lies
 edition: and "Against the Murderous, Thieving Hordes of Peasants" — tertiary, used only as G1 Part B itself
   suggested for the content of two unvendored texts
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 83; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: WebFetch; Source Registry row 83; 2026-09-15
 external_ids:

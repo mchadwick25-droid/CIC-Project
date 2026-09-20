@@ -19,8 +19,7 @@ work: Gregory of Nyssa, On Virginity
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 5 (Gregory of Nyssa: Dogmatic, Ascetic, and
   Moral Treatises, Letters), ed. Schaff, vendored as cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt'
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
-  in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 50; a named, vendored text already sitting
   in cic/texts/ (present since an earlier session), not reopened to recheck this specific citation this

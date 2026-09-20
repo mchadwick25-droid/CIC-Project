@@ -19,9 +19,7 @@ work: Selections from Luther's Prefaces to His Works, 1539 and 1545
 edition: (1539 Preface to the German Works; 1545 "Dr. Martin Luther to the Christian Reader," excerpt),
   trans. C. M. Jacobs, Philadelphia Ed. vol. I; vendored as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt
 kind: vendored
-rights_status: Vendored in this build at cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt; rights
-  basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently
-  re-checked at the rights level by this authoring pass) -- Source Registry row 1.
+rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 1; v1 file; 2026-09-15
 external_ids:

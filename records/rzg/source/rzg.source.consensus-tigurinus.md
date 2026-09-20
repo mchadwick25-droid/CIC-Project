@@ -19,9 +19,7 @@ work: Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/
 edition: English translation by Henry Beveridge (1844), vendored as cic/texts/calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
   (a bounded extract, pp. 195-244 of the printed volume - see the file's own intake header for the exact
   boundary against the volume's other, distinct contents)
-rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
-  by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note
-  column, checked directly against cic/texts/ this pass).
+rights_status: "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself"
 attribution_status: jointly authored and signed by representatives of Bullinger's own Zurich and Calvin's
   Geneva - the documented Zurich/Geneva doctrinal bridge itself (Doc_01 SS5, Strand Determination evidence).
   Not to be confused with the same source volume's separate, later 'Second Defence of the Sacraments...

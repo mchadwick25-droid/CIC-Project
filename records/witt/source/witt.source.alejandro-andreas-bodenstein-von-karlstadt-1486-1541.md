@@ -20,8 +20,7 @@ edition: biographical essay for the Kritische Gesamtausgabe der Schriften und Br
   von Karlstadt (Karlstadt-Edition, Göttingen Academy / Herzog August Bibliothek; PDF dated 2015 on the
   edition's site)
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 91; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: WebSearch (listing only; page blocked); Source Registry row 91; 2026-09-15 (Revision
   1)

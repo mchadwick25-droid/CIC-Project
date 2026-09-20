@@ -19,9 +19,7 @@ work: bull Exsurge Domine
 edition: (15 June 1520) — forty-one condemned articles, as answered article by article in R17; full English
   in "Jacobs, Luther, Appendix I" per the editor; not independently vendored, embedded within "luther_works-v3-selected_various1930.txt" (see rights_status)
 kind: unvendored
-rights_status: Not independently vendored; this work reaches the build only as quoted or embedded within
-  a vendored text (cic/texts/luther_works-v3-selected_various1930.txt), per Source Registry row 40, marked
-  (context).
+rights_status: "Not independently vendored; this work reaches the build only as quoted or embedded within a vendored text, marked (context)"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 40; v3 file; 2026-09-15
 external_ids:

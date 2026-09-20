@@ -19,8 +19,7 @@ work: Basil's canonical letters as a body, addressed to Amphilochius of Iconium 
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff,
   vendored as cic/texts/npnf208_basil-letters-select-works.xml'
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
-  in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 6; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

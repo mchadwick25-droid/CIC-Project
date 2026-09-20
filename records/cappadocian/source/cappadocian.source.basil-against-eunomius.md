@@ -39,9 +39,7 @@ edition: 'No open edition of the complete treatise acquired -- no open-license E
   the heretic"), a distinct, shorter letter genuinely vendored within cic/texts/npnf208_basil-letters-select-works.xml''s
   Letters division, covering adjacent epistemological ground in Basil''s own voice.'
 kind: vendored
-rights_status: not applicable to the treatise itself -- no text of it is vendored or acquired to hold rights
-  over; an eventual acquisition would need its own independent rights assessment. (Epistle XVI, genuinely
-  vendored, carries npnf208's own already-confirmed public-domain status.)
+rights_status: "not applicable to the treatise itself - no text of it is vendored or acquired to hold rights over (a separately vendored epistle by the same author carries public-domain status)"
 attribution_status: attributed
 discovery_channel: 'Correction, B-2 term-authoring pass (2026-08-31): direct inspection of npnf208''s own
   div1 structure (same method as the B-1a discovery sweep) found no division for the three-book treatise

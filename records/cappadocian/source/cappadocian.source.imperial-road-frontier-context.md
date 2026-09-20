@@ -18,9 +18,7 @@ author: No single named author -- general regional/imperial history
 work: The imperial road-and-frontier context (Armenian frontier military traffic)
 edition: General regional history, no specific text acquired or identified
 kind: unvendored
-rights_status: not applicable in the ordinary sense -- no single specific text has been identified for
-  this row; it names a person, general pattern, or unlocated corpus rather than a held text. Not independently
-  verified this session.
+rights_status: "not applicable - no single specific text has been identified for this row; it names a person, general pattern, or unlocated corpus rather than a held text"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 86; a general regional/period pattern
   with no single named author or text of its own.

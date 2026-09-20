@@ -21,8 +21,7 @@ edition: '(Wittenberg, 22 February 1546) and his Preface to the second Wittenber
   Contemporary Biography (Concordia; in copyright) and, for the oration, a 1546 English rendering attributed
   to John Bale (search result, not examined) — NOT VENDORED'
 kind: unvendored
-rights_status: In-copyright; not vendored in this build -- access blocked, per Source Registry row 93
-  (G1 Part B).
+rights_status: "In-copyright; not vendored - access blocked"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; existence verified WebSearch; Source Registry row 93; 2026-09-15
   (Revision 1)
