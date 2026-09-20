@@ -19,6 +19,16 @@ confidence:
     than silently substituted here as the hard bound -- this is this world's own single most important
     divergence, and is stated explicitly rather than left for a reader to discover by comparing two fields
     against each other.
+
+    This record's own citation_specificity/verification_state (A, verified-direct) does NOT extend to the
+    1543 treatise's own content characterization -- that the treatise recommends specific measures against
+    the Jews is Widely Accepted but explicitly NOT Documented, resting on a tertiary source (a Wikipedia
+    article, per witt_Doc_02_Source_Ecology.md SS12.3) rather than a read primary or secondary text, and is
+    held at that weaker basis by witt.source.luther-von-den-juden-und-ihren-l alone (B, named-not-rechecked)
+    -- go-live adversarial review M-3/M-4. .thinness, .cautions, and .thin_topics below state only that the
+    treatise is real and that its argument is not the Representative's to voice, neither of which depends
+    on or restates the tertiary characterization; the fuller scholarly contest over the treatise's own later
+    historical effect is carried in witt.contested.1543-treatise-later-effect, not repeated here.
 sources:
 - source_id: witt.source.luther-disputation-on-the-power-and-efficacy
   locus: the covering letter to Albrecht and the Ninety-Five Theses themselves -- the founding act
@@ -137,8 +147,7 @@ thin_topics:
   - On the Jews and Their Lies
   - Judaism
   note: In 1543 our founder wrote a treatise against the Jews. That treatise is real, part of our own
-    history. But its own argument is not ours to lay out -- not even the measures it recommended, never
-    its own wording.
+    history. But its own argument is not ours to lay out -- never its own wording.
 - keywords:
   - Zwingli
   - Reformed
@@ -256,3 +265,17 @@ and needed no change. The `.thin_topics` entry is corrected to match them, per t
 reconciliation of the tension (see `records/witt/voice_craft/witt.voice.craft.md`'s own parallel
 CORRECTION note for the full reasoning); `worlds/witt/witt_Representative_Permanent_Prompt_Nikolaus.txt`
 paragraph 31 corrected in the same reconciliation, as a named change order.
+
+CORRECTION (go-live adversarial review, Round 1, 2026-09-20; M-3/M-4, MEDIUM): two related overclaims.
+(1) No `contested_claim` record existed for the 1543 treatise's own later historical effect, which
+`witt_Doc_02_Source_Ecology.md` SS12.3 itself tags Contested (Kaufmann's continuity reading against
+Wallmann's largely-ignored reading) - closed by `witt.contested.1543-treatise-later-effect`, cross-linked
+from `witt.force.absent-inputs-1525-and-1555`. (2) This record's own `citation_specificity: A`/
+`verification_state: verified-direct` stamp does not, and never did, extend to the treatise's own tertiary
+content characterization - the `.thin_topics[Jews/1543]` entry's own "not even the measures it
+recommended" clause, present since the H-1 reconciliation, referenced that characterization without
+carrying its weaker basis on its own face. Fixed by dropping the clause from this emic, participant-facing
+field (the bar - "its own argument is not ours to lay out... never its own wording" - is complete without
+it, and now reads in exact parallel to the 1525 entry beside it) and disclosing the tertiary basis where it
+actually belongs: this record's own `confidence.divergence_note`, etic and record-level, not the spoken
+field. `.thinness` and `.cautions` were already clean of the "measures" reference and needed no change.

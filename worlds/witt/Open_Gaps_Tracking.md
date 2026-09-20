@@ -1632,3 +1632,81 @@ L-1 through L-5 from the original review (not addressed — outside this entry's
 B-2 (`git diff 157c2269 HEAD -- engine/` still empty on the *witt-specific* diff — this entry's own
 `engine/m4/` changes are fleet infrastructure unrelated to B-2's `engine/m5/routing.py`, and B-2 itself
 remains untouched, per explicit instruction).
+
+## OG-26. M-1 through M-4 fixed
+
+Per the project lead's explicit "keep going on M-1 through M-4."
+
+**M-1 — a chronological conflation rode a scaffold exemption past the grounding net, fleet-wide.**
+`engine/m4/grounding_net.py`'s honesty-scaffolding exemption exempted a WHOLE sentence the moment any
+`SCAFFOLD_MARKERS` phrase appeared anywhere in it — so a live witt turn's own closing sentence ("...our
+founder wrote against the peasants' rising, and that writing is part of our own history even when we
+cannot speak its own words") rode a false "same years" conflation of 1525/1529/1530 past the net on the
+strength of four words at its own tail. Fixed, fleet-wide (not witt-specific — this is the same class of
+infrastructure fix as H-3's): the exemption now narrows to the clause(s) actually carrying the scaffold
+phrase — split on the same clause-level punctuation the defect's own construction used — and checks what's
+left the same way any other sentence is checked; a citation tag counts as a checkable claim too, on the
+same basis the module's own tag-overlap branch already treats a tag as an assertion, since punctuation
+alone doesn't catch a scaffold phrase grammatically FUSED with its claim ("we must be honest THAT x
+[[tag]]"). A genuinely pure scaffold sentence still exempts cleanly — verified against all three sentences
+witt's actual live-run history (the original go-live testing, both re-probes, and the memory-integrity
+battery) ever exempted; the two that remain exempt carry no independent checkable claim, and the one that
+didn't (this M-1 sentence, reconstructed verbatim) now correctly withholds. 6 new regression tests in
+`engine/m4/tests/test_grounding_net.py`, all 34 in that file green, including one that documents the exact
+boundary of the fix rather than overclaiming it (a scaffold phrase fused with an UNTAGGED, proper-noun-free
+claim still exempts — but such a claim carries no independently checkable content either way, tag or no
+tag, so this isn't a live gap).
+
+**M-2 — `witt.quote.article-ii-of-original-sin` closed a quotation where the source doesn't.** The `text`
+field ended "...who deny that original depravity is sin." with a substituted period; the vendored source
+(`cic/texts/melanchthon_augsburg-confession_anon-pg275.txt` lines 200-203) continues into the sentence's
+own more load-bearing half — the Pelagian error of claiming justification by one's own strength and reason
+rather than Christ's merit, this world's own central conviction. Per the review's own explicit instruction
+("do not resolve this by strengthening the body note"), fixed by extending the quotation to the sentence's
+actual end in both `text` and `modern_rendering`, not adding an ellipsis — the continuation is short,
+theologically substantive, and a closed sentence reads more cleanly to a participant. `modern_rendering`
+FK checked directly (5.85, well inside the readability gate's own ceiling).
+
+**M-3 — no `contested_claim` record existed for the 1543 treatise's own later historical effect**, which
+`witt_Doc_02_Source_Ecology.md` SS12.3 itself tags Contested (Kaufmann's continuity-into-modern-
+antisemitism reading against Wallmann's largely-ignored-until-later-rediscovery reading) — the highest-
+stakes of this world's contests was the one left as a silence while three lower-stakes ones got records.
+Closed: `witt.contested.1543-treatise-later-effect`, built entirely from three source records this world
+had already authored and verified (`witt.source.thomas-luthers-jews-a-journey-into-anti`,
+`witt.source.johannes-reception-of-luthers-writings`, `witt.source.wikipedia-on-the-jews-and-their-lies`)
+— no primary text re-opened, since neither Kaufmann's nor Wallmann's own monograph is vendored or has been
+read by any pass of this build; that two-hop remove (primary text → tertiary Wikipedia summary → this
+record) is stated on the record's own face rather than smoothed into an ordinary Contested tag. Not
+compiled into any package (`contested_claim` is not a compiled type, per `engine/m1/gates.py`'s own
+comment) — scholarly apparatus, not participant-facing content; its purpose is exactly CLAUDE.md's own
+stated one, so the contest is written down rather than settled by silence if B-1/B-2 both resolve enough
+for this topic to ever reach a participant. `relations[]` links to `witt.force.absent-inputs-1525-and-
+1555` (the one existing witt record already engaging the treatise as its own subject), with the required
+reciprocal entry added there per `gate_reciprocity`.
+
+**M-4 — `witt.core.witt`'s record-level `citation_specificity: A`/`verification_state: verified-direct`
+stamp did not distinguish its own A-grade content from one field resting on a weaker, tertiary basis.**
+The `.thin_topics[Jews/1543]` entry's "not even the measures it recommended" clause (added during the H-1
+reconciliation) referenced the treatise's tertiary-sourced content characterization without carrying that
+weaker basis on its own face — the same evidentiary-tier gap M-4 named, narrower now than at the original
+review (the specific "seven measures" enumeration was already removed by B-1) but still real. Fixed by
+dropping the clause from this emic, participant-facing field — the bar itself ("its own argument is not
+ours to lay out... never its own wording") is complete without it, and now reads in exact parallel to the
+1525 entry beside it — and disclosing the tertiary basis where it actually belongs: a new paragraph in
+this record's own `confidence.divergence_note`, etic and record-level, naming `witt.source.luther-von-den-
+juden-und-ihren-l`'s own weaker (B, named-not-rechecked) basis explicitly and cross-referencing
+`witt.contested.1543-treatise-later-effect` for the fuller scholarly contest. `.thinness` and `.cautions`
+were already clean of the "measures" reference and needed no change.
+
+Verified throughout: valid YAML on every edited/new record; package rebuilt and re-pinned
+(`2026-09-20T01-11-15Z`, superseding `2026-09-20T00-53-50Z`, removed per `.gitignore`'s own repin-cleanup
+policy); `diff -rq records/witt/ packages/witt/2026-09-20T01-11-15Z/records/` empty; `engine.m9.cli check`
+clean; `engine.m1.cross_world` 0 new defects (23 accepted-open); all 19 M1 gates `overall_pass: true`, 0
+findings; full pytest suite green (690 passed after the M-1 engine fix alone, before this entry's own
+record-only changes, which need no new test coverage).
+
+**Still open, unchanged:** the Facilitator boundary-disclosure turn type (B-1 item 4); L-1 through L-5 from
+the original review (not addressed — the project lead's own instruction was M-1 through M-4 specifically);
+B-2 (`git diff 157c2269 HEAD -- engine/` on the routing-classifier file itself still empty — this entry's
+own `engine/m4/grounding_net.py` change is fleet infrastructure unrelated to B-2's `engine/m5/routing.py`,
+and B-2 remains untouched per explicit instruction).

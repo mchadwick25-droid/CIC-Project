@@ -25,6 +25,8 @@ sources:
 relations:
 - type: associated-with
   target: witt.gravity.two-governments
+- type: associated-with
+  target: witt.contested.1543-treatise-later-effect
 name: '1525 and 1555: the two external events at which this world''s boundaries were decided, outside
   every vendored text -- absent inputs, Layer 1 only [3A - ending-transforming/external]'
 kind: ending

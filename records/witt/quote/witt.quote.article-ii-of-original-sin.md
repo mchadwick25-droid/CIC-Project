@@ -20,7 +20,7 @@ confidence:
     condemnation clause that term record's own coverage note discloses it had not separately gathered.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: "Article II: Of Original Sin (cic:melanchthon_augsburg-confession_anon-pg275.txt lines 192-201): 'all men begotten in the natural way are born with sin... bringing eternal death upon those not born again through Baptism and the Holy Ghost'"
+  locus: "Article II: Of Original Sin (cic:melanchthon_augsburg-confession_anon-pg275.txt lines 192-203): 'all men begotten in the natural way are born with sin... bringing eternal death upon those not born again through Baptism and the Holy Ghost' through 'argue that man can be justified before God by his own strength and reason'"
   license: public-domain
 retrieval:
   tier: 1
@@ -36,7 +36,9 @@ text: >-
   upon those not born again through Baptism and the Holy Ghost.
 
   They Condemn the Pelagians and others who deny that original depravity
-  is sin.
+  is sin, and who, to obscure the glory of Christ's merit and benefits,
+  argue that man can be justified before God by his own strength and
+  reason.
 speaker_or_author: "the Augsburg Confession, Article II -- the same confession read before the Emperor at the 1530 Diet of Augsburg"
 license: verbatim
 modern_lens_note: >-
@@ -53,7 +55,9 @@ modern_rendering: >-
   wrong way. This flaw we are born with is truly sin. Even now it brings condemnation. It brings death
   without end, on everyone not born again through baptism and the Holy Spirit.
 
-  We reject what the Pelagians and others teach: that this inborn flaw is not really sin.
+  We reject what the Pelagians and others teach: that this inborn flaw is not really sin, and that a
+  person could obscure Christ's own merit by claiming to be made right with God through their own
+  strength and reason instead.
 relations:
 - type: associated-with
   target: witt.dw.born-in-sin-fed-at-the-table
@@ -65,14 +69,26 @@ the vendored cic/texts/melanchthon_augsburg-confession_anon-pg275.txt. `grep -n 
 Sin\|bringing eternal death upon those not born again\|They Condemn the Pelagians"` returns the article
 heading at line 192, "of origin, is truly sin, even now condemning and bringing eternal death" at line
 197, and "They Condemn the Pelagians and others who deny that original depravity" at line 200. `sed -n
-'192,201p'` confirms the whole span: heading at 192, the article's own definition at 194-198 (opening
-"Also they teach that since the fall of Adam" at 194, closing "the Holy Ghost." at 198), and the opening
-clause of the condemnation at 200-201 ("They Condemn the Pelagians and others who deny that original
-depravity / is sin"). The `text` field closes the condemnation clause at "is sin" (the end of line 201)
-and drops the sentence's own continuation into the Pelagians' further error (line 202 onward, "and who,
-to obscure the glory of Christ's merit and benefits..."), which is a separate charge (denying grace's own
-necessity) not needed to state the doctrine itself. No word added, dropped, substituted, or reordered
-within the quoted span.
+'192,203p'` confirms the whole span: heading at 192, the article's own definition at 194-198 (opening
+"Also they teach that since the fall of Adam" at 194, closing "the Holy Ghost." at 198), and the full
+condemnation clause at 200-203 ("They Condemn the Pelagians and others who deny that original depravity /
+is sin, and who, to obscure the glory of Christ's merit and benefits, / argue that man can be justified
+before God by his own strength and reason."). The `text` field quotes the condemnation clause to the
+sentence's own actual end. No word added, dropped, substituted, or reordered within the quoted span.
+
+CORRECTION (go-live adversarial review, Round 1, 2026-09-20; M-2, MEDIUM): this record's `text` field
+previously closed the condemnation clause at "is sin," with no ellipsis and a substituted terminal
+period, silently dropping the sentence's own continuation into the second Pelagian error (denying that
+Christ's own merit, not human strength and reason, justifies) - the more load-bearing half for a
+Lutheran confession, and this world's own central conviction (faith alone, apart from works). The prior
+body note characterized the cut clause as "a separate charge... not needed to state the doctrine itself"
+and disclosed it in full - this was not the rzg-class defect (no invented composite, no splice across
+distant loci) - but a silently re-punctuated boundary in a participant-facing `text` field is a defect
+under this project's own "every quote is re-verified verbatim" rule even when disclosed elsewhere, per
+CLAUDE.md's own explicit instruction not to resolve this by strengthening the body note. Fixed by
+extending the quotation to the sentence's actual end, in `text` and `modern_rendering` both, rather than
+adding an ellipsis - the continuation is short, directly bears on this world's own faith-alone conviction,
+and a closed sentence reads more cleanly to a participant than a mid-sentence ellipsis would.
 
 This is the fuller span behind witt.term.sin's own informational sense, which already carries "born with
 sin, that is, without the fear of God, without trust in God, and with concupiscence" from this same

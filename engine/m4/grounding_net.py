@@ -219,6 +219,41 @@ def _thin_topic_hits(sentence_lower: str, thin_topics: list[dict] | None) -> lis
     return hits
 
 
+# M-1 (witt go-live adversarial review, 2026-09-20). The scaffold exemption
+# below used to exempt an entire sentence the moment ANY SCAFFOLD_MARKERS
+# phrase appeared anywhere in it - so "...our founder wrote against the
+# peasants' rising, and that writing is part of our own history EVEN WHEN
+# WE CANNOT speak its own words" rode a chronological conflation past the
+# net on the strength of four words at its own tail. The fix narrows the
+# exemption to the clause that actually carries the honesty-scaffolding
+# phrase, not an arbitrary-length sentence attached to it: split on the
+# same clause-level punctuation English prose already uses to separate
+# independent claims, drop only the clause(s) containing a marker, and
+# check what's LEFT the same way any other sentence would be checked. A
+# genuinely pure scaffold sentence ("We must be careful here, and honest
+# about the shape of what we actually hold.") still exempts cleanly - its
+# residual carries no proper noun, number, or enumeration either. A tag
+# counts too, on the same basis check_turn's own tag-overlap branch
+# already uses ("THE TAG IS THE CLAIM"): a scaffold phrase grammatically
+# FUSED with its claim ("We must be honest THAT x [[tag]]") defeats the
+# punctuation split, but the tag still forces the check regardless of
+# which clause it sits in. This does not change entry["sentence"] or the
+# withhold/ok granularity anywhere else in this module: a sentence still
+# streams or doesn't as a whole, exactly as the design already works:
+# this only changes whether the decision to skip checking it gets made
+# honestly.
+_CLAUSE_SPLIT = re.compile(r"[,;:]|--|—")
+
+
+def _scaffold_residual(text: str) -> str:
+    clauses = _CLAUSE_SPLIT.split(text)
+    kept = [
+        c for c in clauses
+        if not any(m in c.lower() for m in SCAFFOLD_MARKERS) and SELF_NAMING_MARKER not in c.lower()
+    ]
+    return " ".join(kept)
+
+
 def check_turn(
     tagged_text: str,
     repository_records: dict[str, dict],
@@ -256,8 +291,21 @@ def check_turn(
         results.append(entry)
 
         if any(m in lower for m in SCAFFOLD_MARKERS) or SELF_NAMING_MARKER in lower:
-            entry["why"] = "exempt: honesty scaffolding / sanctioned self-naming"
-            continue
+            residual = _scaffold_residual(text)
+            # A tag is itself a claim ("this sentence came from that
+            # record" - the tag-overlap branch below exists for exactly
+            # this), so a tagged sentence needs the same check whether or
+            # not a scaffold phrase also sits in it somewhere.
+            residual_markers = bool(tags) or bool(claim_markers(residual)) or bool(figure_names & content_words(residual))
+            if not residual_markers:
+                entry["why"] = "exempt: honesty scaffolding / sanctioned self-naming"
+                continue
+            # Something besides the scaffold phrase itself still makes a
+            # checkable claim - fall through to the same pipeline every
+            # other sentence goes through, over the FULL sentence text
+            # (the scaffold clause's own words carry no proper noun,
+            # number, or enumeration, so they cannot themselves trip a
+            # withhold; whatever fires below is the real content).
 
         unknown = [t for t in tags if t not in repository_records]
         if unknown:
