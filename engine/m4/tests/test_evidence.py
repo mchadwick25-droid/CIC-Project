@@ -180,6 +180,188 @@ def test_select_cell_candidates_head_text_uses_compiler_facing_fields():
     assert by_id["fix.limit.jesus"]["head"] == LIMIT["statement"]
 
 
+# ---- Stage B2 (Build-Plan.md Stage 4c, part 2) -----------------------------
+
+
+def test_retrieval_fill_only_fires_when_the_coverage_list_is_wholly_empty():
+    """F1-E's own coverage entry lists zero terms at all - a structural
+    absence, not a low score - so Stage B2 widens the search to the whole
+    repository and finds fix.term.baptisma by shared words alone, even
+    though that record's own canon_cells never names F1-E."""
+    selected = select_cell_candidates(
+        cell="F1-E", coverage_entry=COVERAGE["F1-E"], repository_records=REPOSITORY,
+        message="the washing that marks entry", asks=None,
+    )
+    by_id = {c["id"]: c for c in selected}
+    assert "fix.term.baptisma" in by_id
+    assert by_id["fix.term.baptisma"]["retrieval_fill"] is True
+
+
+def test_retrieval_fill_never_fires_for_a_type_the_coverage_list_already_has():
+    """C-E's own coverage entry already lists both terms - Stage B's own
+    coverage-seeded ranking is the whole answer for that slot, and Stage B2
+    must never widen an already-served slot."""
+    selected = select_cell_candidates(
+        cell="C-E", coverage_entry=COVERAGE["C-E"], repository_records=REPOSITORY,
+        message="the community's memory of the thanksgiving meal", asks=None,
+    )
+    terms = [c for c in selected if c["record_type"] == "term"]
+    assert terms
+    assert all("retrieval_fill" not in t for t in terms)
+
+
+def test_retrieval_fill_never_touches_honest_limit():
+    """honest_limit is never a key in _TYPE_FLOORS - a wholly empty
+    coverage_entry["honest_limit"] must stay empty, never widened to the
+    whole repository the way an ordinary type is (see the module comment
+    on why that type is unconditional and cell-scoped only)."""
+    selected = select_cell_candidates(
+        cell="F1-E", coverage_entry=COVERAGE["F1-E"], repository_records=REPOSITORY,
+        message="Jesus", asks=None,
+    )
+    assert not [c for c in selected if c["record_type"] == "honest_limit"]
+
+
+def test_retrieval_fill_never_fires_on_an_off_canon_query():
+    """A query sharing no words with anything in the repository must not
+    force a fill just because the slot is empty - Stage B2 only ever adds
+    real, matched evidence, the same "report only what was found"
+    discipline as the fulltext fallback one stage up."""
+    selected = select_cell_candidates(
+        cell="F1-E", coverage_entry=COVERAGE["F1-E"], repository_records=REPOSITORY,
+        message="What is the weather like today?", asks=None,
+    )
+    assert selected == []
+
+
+_FILL_REPOSITORY = {
+    **REPOSITORY,
+    **{
+        f"fix.term.extra-{i}": {
+            "id": f"fix.term.extra-{i}",
+            "record_type": "term",
+            "canon_cells": ["Z9-Q"],
+            "plain_meaning": f"An unrelated washing-themed entry, variant {i}, for the fleet's own washing rite.",
+        }
+        for i in range(1, 5)
+    },
+}
+
+
+def test_retrieval_fill_is_capped_at_the_type_own_floor():
+    """Five term records in the repository share the query's words
+    (baptisma plus four synthetic extras), but the term floor is 3 - Stage
+    B2 fills the identical slot count Stage B itself would, never more."""
+    selected = select_cell_candidates(
+        cell="F1-E", coverage_entry=COVERAGE["F1-E"], repository_records=_FILL_REPOSITORY,
+        message="washing entry", asks=None,
+    )
+    terms = [c for c in selected if c["record_type"] == "term"]
+    assert len(terms) == 3
+    assert all(c.get("retrieval_fill") for c in terms)
+
+
+def test_assemble_evidence_signature_is_unchanged_by_stage_b2():
+    """Build-Plan.md Stage 4c's own Done criterion: assemble_evidence's
+    signature stays unchanged - Stage B2 is entirely internal to
+    select_cell_candidates, reading nothing assemble_evidence's own callers
+    don't already pass it (repository_records alone)."""
+    evidence = assemble_evidence(
+        message="How does baptism actually work for your community, the washing that marks entry?",
+        asks=None,
+        canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE,
+        repository_records=REPOSITORY,
+    )
+    ids = [c["id"] for c in evidence["candidates"]]
+    assert "fix.term.baptisma" in ids
+
+
+# ---- Stage 4d: tier prior (Build-Plan.md) ----------------------------------
+
+# Identical plain_meaning on both records ties their raw overlap score
+# exactly - any ordering difference below can only come from the tier
+# prior. Ids are deliberately chosen so the LOW-tier record would win the
+# tie-break's own alphabetical fallback ("aaa" < "zzz") if the prior did
+# nothing - isolating the prior's effect from that incidental fallback.
+_TIER_HIGH = {
+    "id": "fix.term.zzz-high-tier", "record_type": "term", "canon_cells": ["Z9-Q"],
+    "plain_meaning": "The community remembers something old kept safe.",
+    "retrieval": {"tier": 1},
+}
+_TIER_LOW = {
+    "id": "fix.term.aaa-low-tier", "record_type": "term", "canon_cells": ["Z9-Q"],
+    "plain_meaning": "The community remembers something old kept safe.",
+}
+_TIER_QUERY = "the community remembers something old kept safe"
+_TIER_COVERAGE_ENTRY = {
+    "doctrinal_witness": [], "terms": ["fix.term.zzz-high-tier", "fix.term.aaa-low-tier"],
+    "stories": [], "quotes": [], "honest_limit": [], "gravities": [], "forces": [], "contested_claims": [],
+}
+_TIER_REPOSITORY = {r["id"]: r for r in (_TIER_HIGH, _TIER_LOW)}
+
+
+def test_tier_prior_breaks_a_genuine_tie_toward_the_lower_tier_number():
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=_TIER_COVERAGE_ENTRY, repository_records=_TIER_REPOSITORY,
+        message=_TIER_QUERY, asks=None,
+    )
+    terms = [c["id"] for c in selected if c["record_type"] == "term"]
+    assert terms == ["fix.term.zzz-high-tier", "fix.term.aaa-low-tier"]
+
+
+def test_tier_prior_never_overrides_a_clearly_stronger_content_match():
+    """A tier-1 record with weak overlap must not outrank an untiered
+    record with strong overlap - the prior is bounded well under any
+    meaningful score gap (see _TIER_PRIOR's own comment)."""
+    strong_untiered = {
+        "id": "fix.term.strong-match", "record_type": "term", "canon_cells": ["Z9-Q"],
+        "plain_meaning": "The community remembers something old kept safe.",
+    }
+    weak_tier_one = {
+        "id": "fix.term.weak-but-tier-one", "record_type": "term", "canon_cells": ["Z9-Q"],
+        "plain_meaning": "A short note about something else.",
+        "retrieval": {"tier": 1},
+    }
+    repo = {r["id"]: r for r in (strong_untiered, weak_tier_one)}
+    coverage_entry = {**_TIER_COVERAGE_ENTRY, "terms": [strong_untiered["id"], weak_tier_one["id"]]}
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=coverage_entry, repository_records=repo,
+        message=_TIER_QUERY, asks=None,
+    )
+    terms = [c["id"] for c in selected if c["record_type"] == "term"]
+    assert terms[0] == "fix.term.strong-match"
+
+
+def test_tier_prior_also_applies_inside_the_stage_b2_fill():
+    """The same lean, in the same direction, when Stage B2's whole-world
+    scan is what's doing the ranking (an empty coverage slot) - one prior,
+    not two independently-tuned copies."""
+    empty_coverage = {
+        "doctrinal_witness": [], "terms": [], "stories": [], "quotes": [],
+        "honest_limit": [], "gravities": [], "forces": [], "contested_claims": [],
+    }
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=empty_coverage, repository_records=_TIER_REPOSITORY,
+        message=_TIER_QUERY, asks=None,
+    )
+    terms = [c["id"] for c in selected if c["record_type"] == "term"]
+    assert terms[0] == "fix.term.zzz-high-tier"
+    assert all(c.get("retrieval_fill") for c in selected if c["record_type"] == "term")
+
+
+def test_tier_3_and_unset_tier_are_treated_identically():
+    tier_three = {**_TIER_LOW, "id": "fix.term.explicit-tier-three", "retrieval": {"tier": 3}}
+    repo = {_TIER_LOW["id"]: _TIER_LOW, tier_three["id"]: tier_three}
+    coverage_entry = {**_TIER_COVERAGE_ENTRY, "terms": [_TIER_LOW["id"], tier_three["id"]]}
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=coverage_entry, repository_records=repo,
+        message=_TIER_QUERY, asks=None,
+    )
+    scores = {c["id"]: c["score"] for c in selected if c["record_type"] == "term"}
+    assert scores["fix.term.aaa-low-tier"] == scores["fix.term.explicit-tier-three"]
+
+
 # ---- Stage D ---------------------------------------------------------------
 
 

@@ -8,14 +8,11 @@ import hashlib
 import re
 
 from engine.m1 import canon
-from engine.m1.spoken_fields import fields_with_role
 from engine.prose import (
     DEMONSTRATION_TAG_FLOOR,
-    FALLBACK_EXCLUDED_KEYS,
-    NON_PROSE_KEYS,
     content_words,
     quote_aware_sentences,
-    short_head,
+    retrieval_words,
 )
 
 from .canonical import canonical_json
@@ -710,39 +707,16 @@ def build_indexes(records: dict) -> dict[str, bytes]:
 # minucius-felix-commodian-origen1-2.xml)") and its source's own dotted id
 # fragments ("alx", "origen") were leaking into that quote's word set.
 #
-# Not yet read by the live turn loop (engine.m4.evidence's own Stage B2
-# fill is separate, later work) - the same "land the compile-time artifact
-# before the read exists" order compiled/indexes/canon-map.json already
-# used, deliberately: a bug in an unread file breaks nothing.
-_RETRIEVAL_ROLES = ("voice-diet", "evidence-head", "participant-label")
-_EXCLUDED_RETRIEVAL_KEYS = FALLBACK_EXCLUDED_KEYS | NON_PROSE_KEYS
-_TRUNCATED_RETRIEVAL_KEYS = {"work", "locus"}
-
-
-def _retrieval_words(record: dict) -> list[str]:
-    parts: list[str] = []
-
-    def walk(value, key=None):
-        if key in _EXCLUDED_RETRIEVAL_KEYS:
-            return
-        if isinstance(value, str):
-            parts.append(short_head(value) if key in _TRUNCATED_RETRIEVAL_KEYS else value)
-        elif isinstance(value, dict):
-            for k, v in value.items():
-                walk(v, k)
-        elif isinstance(value, list):
-            for item in value:
-                walk(item, key)
-
-    for field in fields_with_role(record.get("record_type"), *_RETRIEVAL_ROLES):
-        if field in record:
-            walk(record[field], field)
-
-    return sorted(content_words(" ".join(parts)))
+# The word-extraction itself (retrieval_words) now lives in engine.prose,
+# not here - Stage 4c part 2 has engine.m4.evidence's own Stage B2 fill
+# score against the identical set, so the two can't drift apart the way
+# seven independently-maintained field lists already did once (see
+# engine.m1.spoken_fields's own docstring). This file still owns the
+# artifact's shape (one word list per record, keyed by id, sorted).
 
 
 def build_retrieval_json(records: dict) -> bytes:
-    return canonical_json({r["id"]: _retrieval_words(r) for r in sorted(records.values(), key=lambda r: r["id"])})
+    return canonical_json({r["id"]: retrieval_words(r) for r in sorted(records.values(), key=lambda r: r["id"])})
 
 
 # ---- compiled/quotes.json, figures.json, repository.json ----------------
