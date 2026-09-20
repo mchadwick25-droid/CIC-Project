@@ -486,6 +486,7 @@ worlds/rzg/Review-Artifacts/ValidationLayer_Round2_Review.md: World-Builds/Donat
 worlds/rzg/Review-Artifacts/ValidationLayer_Round2_Review.md: World-Builds/Donatism/don_Validation_Layer.md
 worlds/rzg/Review-Artifacts/WorldProfile_Round1_Review.md: World-Builds/Donatism/don_World_Profile.md
 worlds/rzg/Review-Artifacts/WorldProfile_Round2_Review.md: World-Builds/Reformed-Zurich-and-Geneva
+worlds/rzg/rzg_Decision_Log.md: packages/rzg/2026-09-19T16-36-24Z
 worlds/rzg/rzg_Representative_Construction_Notes_Theophilus.md: cic-poc/backend/wrs/parameters.yaml
 worlds/rzg/rzg_Representative_Phase6_Facilitator_Coordination.md: World-Builds/Donatism/Representative/don_Rep_Phase6_Facilitator_Coordination_Round1.md
 worlds/rzg/rzg_Representative_Phase6_Facilitator_Coordination.md: World-Builds/Reformed-Zurich-and-Geneva
@@ -507,6 +508,7 @@ worlds/witt/Open_Gaps_Tracking.md: packages/witt/2026-09-19T23-57-37Z/records
 worlds/witt/Open_Gaps_Tracking.md: packages/witt/2026-09-20T00-30-21Z/records
 worlds/witt/Open_Gaps_Tracking.md: packages/witt/2026-09-20T00-53-50Z/records
 worlds/witt/Open_Gaps_Tracking.md: packages/witt/2026-09-20T01-11-15Z/records
+worlds/witt/Open_Gaps_Tracking.md: packages/witt/2026-09-20T01-20-24Z/records
 worlds/witt/witt_B1a_B1b_Coverage_Check.md: World-Builds/Lutheran-Wittenberg
 worlds/witt/witt_B8_Build_Note.md: cic-poc/backend
 worlds/witt/witt_B8_Build_Note.md: packages/witt/2026-09-19T05-06-48Z
