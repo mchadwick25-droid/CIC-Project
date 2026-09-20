@@ -204,68 +204,68 @@
   "Selected - Not Yet Built": {
    "chip": "sel",
    "glyph": "sel",
-   "shortWord": "Chosen — not yet built",
-   "description": "One of the traditions chosen for its era after a completed survey. Construction has not begun."
+   "shortWord": "Not yet available",
+   "description": "There's no built conversation for this tradition here yet."
   },
   "Deferred by Step 0": {
    "chip": "def",
    "glyph": "def",
-   "shortWord": "Deferred — reasons on record",
-   "description": "Considered for its era and held for a later one — the reasons are on record."
+   "shortWord": "Not yet available",
+   "description": "There's no built conversation for this tradition here yet."
   },
   "Possible Future World (on record)": {
    "chip": "def",
    "glyph": "pfw",
-   "shortWord": "Possible future tradition — on record",
-   "description": "Named as a live future candidate or a voice we considered and set aside, with our reasoning on record — not yet chosen, not forgotten."
+   "shortWord": "Not yet available",
+   "description": "There's no built conversation for this tradition here yet."
   },
   "Pre-Survey Candidate": {
    "chip": "psc",
    "glyph": "psc",
-   "shortWord": "Not yet assessed",
-   "description": "The survey for this era has not yet run. No verdict exists — and none is implied."
+   "shortWord": "Not yet available",
+   "description": "There's no built conversation for this tradition here yet."
   },
   "Floor Question (register)": {
    "chip": "psc",
    "glyph": "flq",
-   "shortWord": "Creedal question — not yet resolved",
-   "description": "Carries a named creedal question for a future Step 0 to answer — stated as a question, not a verdict."
+   "shortWord": "An open theological question",
+   "description": "Historians and Christians themselves are divided on whether this group's core beliefs fall inside the historic Christian creeds."
   },
   "Contested - Evidentiary": {
    "chip": "cev",
    "glyph": "cev",
-   "shortWord": "Contested evidence",
-   "description": "The record is genuinely disputed. This entry carries the question, not a verdict."
+   "shortWord": "Disputed history",
+   "description": "What's actually known about this group is genuinely disputed among historians."
   },
   "Excluded - Doctrinal Floor (C1)": {
    "chip": "exc",
    "glyph": "exc",
-   "shortWord": "Excluded — creedal grounds stated",
-   "description": "Excluded on a stated creedal ground you can read in full. Exclusion is not a judgment of unimportance."
+   "shortWord": "Outside historic Christian belief",
+   "description": "This group's own core teaching falls outside the beliefs shared by the historic Christian creeds."
   },
   "Excluded - Person-Defined (C2)": {
    "chip": "exc",
    "glyph": "exc",
-   "shortWord": "Excluded — person-defined movement",
-   "description": "Excluded because its authority rests on one person's revelation or standing — the theology was not the problem."
+   "shortWord": "Built on one person's authority",
+   "description": "This group's authority rests on one individual's own claimed revelation, not on the shared Christian tradition."
   },
   "Within Another World (A5)": {
    "chip": "exc",
    "glyph": "a5",
-   "shortWord": "Named within another tradition's story",
-   "description": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone."
+   "shortWord": "Part of another tradition's story",
+   "description": "This group's story is told as part of another tradition here, rather than as its own entry."
   },
   "Outside Article 4 Scope": {
    "chip": "str",
    "glyph": "exc",
-   "shortWord": "Outside this project's scope",
-   "description": "Outside the Constitution's own sense of a Christian movement — named and explained, never silently dropped."
+   "shortWord": "Not a Christian movement",
+   "description": "This doesn't identify as, or historically function as, a Christian movement."
   },
   "Label - Assessed Per Body (A3)": {
    "chip": "exc",
    "glyph": "a5",
-   "shortWord": "A label, not one movement",
-   "description": "A broad label spanning many different bodies. The project's method assesses each body on its own confession — never the label as a whole."
+   "shortWord": "A label, not one group",
+   "description": "This name covers many different, distinct groups, each with its own separate history - not one single movement."
   }
  },
  "edges": [
@@ -792,7 +792,7 @@
     "worldName": "The Scattered Households",
     "subtitle": "Post-Apostolic Household-Church Christianity",
     "color": "#955FF0",
-    "tile": "In Antioch, Asia Minor, and Rome, between about 70 and 200 CE, house churches grew up on their own. No single power ruled over them \u2014 letters carried by couriers held the network together instead. Once the apostles died, how to lead a church was never settled. Some followed a single bishop with elders beside him, others a council of elders alone. In Corinth, some elders were removed from office \u2014 an account that survives only in Rome's own letter asking for them back. That letter used real command language \u2014 \u201csubmit,\u201d \u201creceive correction\u201d \u2014 but Rome claimed no formal power to force it. Corinth's own side is not preserved. They marked the Lord's Supper in different ways, too. One early manual gives thanks over the cup before the bread. Neither blessing tells the story of the Last Supper. Following Jesus could mean real danger: in one province, a governor had members questioned under torture, and in another, a bishop was marched under armed guard toward Rome. But this danger came and went \u2014 never constant, never empire-wide.",
+    "tile": "In Antioch, Asia Minor, and Rome, between about 70 and 200 CE, house churches grew up on their own. No single power ruled over them — letters carried by couriers held the network together instead. Once the apostles died, how to lead a church was never settled. Some followed a single bishop with elders beside him, others a council of elders alone. In Corinth, some elders were removed from office — an account that survives only in Rome's own letter asking for them back. That letter used real command language — “submit,” “receive correction” — but Rome claimed no formal power to force it. Corinth's own side is not preserved. They marked the Lord's Supper in different ways, too. One early manual gives thanks over the cup before the bread. Neither blessing tells the story of the Last Supper. Following Jesus could mean real danger: in one province, a governor had members questioned under torture, and in another, a bishop was marched under armed guard toward Rome. But this danger came and went — never constant, never empire-wide.",
     "icon": "assets/world-icons/house-churches.svg"
    },
    "longDescription": "In the generations following the apostles, the earliest Christian movement had no documented church buildings and no single leadership structure. They had the Old Testament. The gospels and letters of the apostles moved between communities as copies were made and passed along, though no fixed collection had been settled yet. It was a network of faithful households, scattered across Antioch, Asia Minor, and Rome, meeting wherever they could. New believers were taught the Two Ways on the road to baptism; only then were they brought into the fellowship to share the weekly breaking of bread and prayer. Across long distances, these household communities were held together by carried letters.\n\nSome communities were guided by a single bishop alongside elders and deacons, others by a circle of elders alone—both forms were real, and neither was settled. The questions they wrestled with had no easy answers: How do we make room for genuine doubt? How should conflict within the community be resolved? What did women's leadership look like? Following Jesus routinely meant loss of social standing, suspicion from neighbors, and periodic waves of official violence.\n\nIn his surviving letters, Ignatius of Antioch describes writing to sister churches while being marched toward Rome under armed guard — soldiers he called 'ten leopards,' who, in his own words, 'show themselves all the worse' the more kindly he treats them. Justin, who told his imperial interrogator that he taught above a public bathhouse in Rome, wrote down the earliest record of what their Sunday actually looked like—the reading of the memoirs, the common loaf and cup, and the collection gathered for orphans, widows, and travelers. Justin was executed for refusing to abandon his Lord; tradition has it that Ignatius met the same end.\n\nThe earliest outside account of these communities comes from Roman authority, not from inside the movement. Around 112 CE, the governor Pliny the Younger wrote to the emperor Trajan describing an investigation: believers who had recanted told him, under threat of ordinary punishment, that these communities met before dawn to sing a hymn to Christ 'as God,' bound themselves by oath against theft and adultery, then met again later for a meal they called 'common yet harmless.' Still unsatisfied, Pliny had two enslaved women who held office among them — titled ministrae, deacons — questioned under torture. He learned, he wrote, only 'a superstition depraved and immoderate.' Their names do not survive; his letter is the earliest outside evidence that women held a formal title here at all.",
@@ -1455,7 +1455,7 @@
     "worldName": "Alexandrian Christianity",
     "subtitle": "Alexandrian Catechetical Tradition",
     "color": "#3B83BF",
-    "tile": "In Alexandria, from about 150 to 400 CE, teachers led seekers through a shared reading of Scripture. They read for a deeper meaning beneath the surface, one that opened onto the Logos himself. This teaching reached the literate few. Ordinary believers met the same faith another way \u2014 through baptism, the shared meal, and the yearly round of fasts and feasts. Some call this one continuous school, led by one teacher after another. Others say it was simply a series of private teachers, grouped together only in hindsight. When plague struck the city, Bishop Dionysius wrote to his own church, praising his people for nursing the sick and burying the dead. Others, he wrote, fled the city instead. Persecution could reach the school's own teachers, not only the wider community. Origen himself was imprisoned and tortured under the emperor Decius, and he died a few years later. It had already touched his boyhood, too. His father was martyred in an earlier persecution, when Origen was still just a boy.",
+    "tile": "In Alexandria, from about 150 to 400 CE, teachers led seekers through a shared reading of Scripture. They read for a deeper meaning beneath the surface, one that opened onto the Logos himself. This teaching reached the literate few. Ordinary believers met the same faith another way — through baptism, the shared meal, and the yearly round of fasts and feasts. Some call this one continuous school, led by one teacher after another. Others say it was simply a series of private teachers, grouped together only in hindsight. When plague struck the city, Bishop Dionysius wrote to his own church, praising his people for nursing the sick and burying the dead. Others, he wrote, fled the city instead. Persecution could reach the school's own teachers, not only the wider community. Origen himself was imprisoned and tortured under the emperor Decius, and he died a few years later. It had already touched his boyhood, too. His father was martyred in an earlier persecution, when Origen was still just a boy.",
     "icon": "assets/world-icons/alexandria.svg"
    },
    "longDescription": "Alexandria was the ancient world's great city of libraries and lecture halls, and Christianity there took the same shape: a school. Teachers received enquirers, catechumens preparing for baptism, and educated pagans curious about this new philosophy, and walked them through Scripture as a text with a surface and a depth: the letter first, then the moral sense, then the spiritual meaning that opens onto the Logos himself.\n\nClement wrote for cultivated Greeks who wanted to know whether a Christian could keep his learning. Origen, who succeeded him, wrote commentaries across most of Scripture and produced the Hexapla, a six-column parallel edition of the Old Testament assembled to see what the Hebrew actually said — before falling out with his bishop and moving his teaching to Caesarea around 231. Historians still argue about how formal the whole thing was — whether Alexandria had one continuous institution with a succession of appointed heads, as Eusebius later described it, or a looser sequence of private Christian schools whose teachers happened to be remembered together. That tidy succession comes almost entirely from Eusebius: Clement's own writings never once describe a formal school that he headed.\n\nThe allegorical way of reading Scripture is this tradition's best-known signature, but it was never uncontested even at home. Nepos, a bishop out in the Egyptian countryside at Arsinoe, wrote a book refuting the allegorists and won real support for a plainer, literal reading — until Dionysius, by then bishop of Alexandria, spent three days in patient public conversation with Nepos's own community and brought them back around.",
@@ -3561,7 +3561,7 @@
     "worldName": "Church and Empire",
     "subtitle": "Imperial and Juridical Christianity",
     "color": "#C36060",
-    "tile": "Bishops in Rome, Constantinople, and Milan lived through a real change. It ran from Constantine's victory in 312 to the Council of Chalcedon in 451. They stopped being outlaws beneath the sword. They became office-holders beside a throne instead \u2014 settling their own disputes in council, managing imperial funds, summoned to councils at the emperor's own expense. This was not only a fight over power. At Chalcedon in 451, the council took a letter from Leo of Rome as the final word on what it means to say Christ has two natures. Whole regions, starting in Egypt, rejected that settlement at once. The split never healed. The same council also extended Constantinople's own claim to rank second among the churches, over the protest of Rome's own delegates. Three rival grounds of authority rose across this whole window. Rome claimed it from Peter. Constantinople claimed it from nearness to the throne. And Ambrose of Milan claimed that the emperor stood inside the church, not over it. The question was never settled. This world's worst hours were caused, not suffered. One was Damasus's own disputed election to the bishopric of Rome, so violent that a hundred and thirty-seven people died in a single day. Another was Theodosius's massacre at Thessalonica. His own bishop refused him the sacrament over it until he repented. Ambrose used that same refusal two years earlier for the opposite end. He shielded a bishop who had incited a mob to burn the synagogue at Callinicum. The bishop never had to pay to rebuild it, and that community got no recourse.",
+    "tile": "Bishops in Rome, Constantinople, and Milan lived through a real change. It ran from Constantine's victory in 312 to the Council of Chalcedon in 451. They stopped being outlaws beneath the sword. They became office-holders beside a throne instead — settling their own disputes in council, managing imperial funds, summoned to councils at the emperor's own expense. This was not only a fight over power. At Chalcedon in 451, the council took a letter from Leo of Rome as the final word on what it means to say Christ has two natures. Whole regions, starting in Egypt, rejected that settlement at once. The split never healed. The same council also extended Constantinople's own claim to rank second among the churches, over the protest of Rome's own delegates. Three rival grounds of authority rose across this whole window. Rome claimed it from Peter. Constantinople claimed it from nearness to the throne. And Ambrose of Milan claimed that the emperor stood inside the church, not over it. The question was never settled. This world's worst hours were caused, not suffered. One was Damasus's own disputed election to the bishopric of Rome, so violent that a hundred and thirty-seven people died in a single day. Another was Theodosius's massacre at Thessalonica. His own bishop refused him the sacrament over it until he repented. Ambrose used that same refusal two years earlier for the opposite end. He shielded a bishop who had incited a mob to burn the synagogue at Callinicum. The bishop never had to pay to rebuild it, and that community got no recourse.",
     "icon": "assets/world-icons/empire.svg"
    },
    "longDescription": "For nearly three centuries the church had been an illegal association. Then, between Constantine's toleration in 313 and Theodosius's legislation at the century's end, it became first protected, then privileged, then the empire's official religion — and had to work out, very fast, what to do with that. Bishops found themselves hearing civil lawsuits, administering public building funds, and travelling to councils at imperial expense; emperors found themselves summoning those councils and expecting the results to hold.\n\nThree answers competed for where final authority over the church now actually lay, and this world's own window closes without settling which was right. Rome traced its authority to Peter; Constantinople claimed rank because it sat beside the throne — a claim the Council of Chalcedon extended in 451 over the protest of Rome's own delegates, at the same council that received, as the last word on Christ's two natures, a letter Leo of Rome had written two years before. Ambrose of Milan staked a third claim entirely: that the emperor stood inside the church, not over it. He said those exact words from inside his own basilica in 386, besieged by the soldiers of a Homoian imperial court that wanted the building for its own worship. He would not give it up, and his congregation stayed inside with him — prepared, an eyewitness later wrote, to die with their bishop. It was there, waiting through the night, that Milan's people first sang hymns the way the Eastern churches did, a custom that, by that eyewitness's account, never stopped and spread to churches across the world. Four years later Ambrose proved the same claim again, against Theodosius himself, refusing the emperor the sacrament until he did public penance for a massacre at Thessalonica.\n\nThe hardest evidence against this world is not what was done to it, but what it did. In 366, a disputed election to the bishopric of Rome left the city so violent that a hundred and thirty-seven people were killed in a single day — the same Damasus whose reign then built the city's great martyr shrines. The same sacramental refusal that later humbled an emperor over Thessalonica had already been used once before, two years earlier, for the opposite end: protecting a bishop who had incited a mob to burn a synagogue at Callinicum from having to pay for it, and leaving the burned community no recourse at all.",
@@ -4595,7 +4595,7 @@
     "worldName": "The Monk-Bishops of Gaul",
     "subtitle": "Gallic Monastic-Ascetic Christianity",
     "color": "#8FA3AC",
-    "tile": "This tradition grew up around bishops who never stopped living as monks, and around wisdom first learned in the deserts of Egypt. Its first figure, Martin, was a Roman soldier. Almost everything we know of him comes from one admirer's writing \u2014 Sulpitius Severus was not present for the events he describes. Martin told Caesar that he was now a soldier of Christ, and asked to leave the army; he even offered to walk unarmed toward the enemy line. By about 360, he had gathered a few companions near Poitiers. Some years later, the people of Tours seized him and made him their bishop. He kept living as a monk outside the city walls. Two generations later, Honoratus founded a monastery on the island of L\u00e9rins, off the Mediterranean coast. He became bishop of Arles himself, and other monks from the island followed him into the office, at Arles and at Riez. Around the same years, John Cassian founded two houses at Marseilles. He had spent years among the fathers of Egypt. He wrote down what he had learned there, adapting their customs to a colder climate and a different church. At L\u00e9rins, the monk Vincent wrote a rule for telling real growth in the faith from a corruption dressed up as one. Augustine had written to a monastery in North Africa about grace and human effort. Word of his treatise reached Gaul. It was the monks of Marseilles, not Martin's own Tours, who pushed back hardest. Augustine then wrote two more treatises answering them directly. Through the southern houses ran one argument, never fully settled: how much of a monk's progress comes from God's own gift, and how much from his own effort. The story ends around the year 450, with that question still open.",
+    "tile": "This tradition grew up around bishops who never stopped living as monks, and around wisdom first learned in the deserts of Egypt. Its first figure, Martin, was a Roman soldier. Almost everything we know of him comes from one admirer's writing — Sulpitius Severus was not present for the events he describes. Martin told Caesar that he was now a soldier of Christ, and asked to leave the army; he even offered to walk unarmed toward the enemy line. By about 360, he had gathered a few companions near Poitiers. Some years later, the people of Tours seized him and made him their bishop. He kept living as a monk outside the city walls. Two generations later, Honoratus founded a monastery on the island of Lérins, off the Mediterranean coast. He became bishop of Arles himself, and other monks from the island followed him into the office, at Arles and at Riez. Around the same years, John Cassian founded two houses at Marseilles. He had spent years among the fathers of Egypt. He wrote down what he had learned there, adapting their customs to a colder climate and a different church. At Lérins, the monk Vincent wrote a rule for telling real growth in the faith from a corruption dressed up as one. Augustine had written to a monastery in North Africa about grace and human effort. Word of his treatise reached Gaul. It was the monks of Marseilles, not Martin's own Tours, who pushed back hardest. Augustine then wrote two more treatises answering them directly. Through the southern houses ran one argument, never fully settled: how much of a monk's progress comes from God's own gift, and how much from his own effort. The story ends around the year 450, with that question still open.",
     "icon": "assets/portraits/gallic.jpg"
    },
    "longDescription": "About 360, a soldier named Martin told Caesar he was now a soldier of Christ, and asked to leave the army. He gathered a few companions near Poitiers, in western Gaul. Some years later, the people of Tours seized him and made him their bishop, and he kept the habits of a monk even in that office. His story survives because a wealthy Aquitanian lawyer, Sulpitius Severus, gave up his career, attached himself to Martin, and wrote his Life while he was still alive. Two other houses complete the picture. Around 410, Honoratus founded a monastery on a small island off the coast near Cannes, Lérins. Honoratus became bishop of Arles, and Hilary, who succeeded him there, wrote his Life; another monk formed on the island, Faustus, later became bishop of Riez. And around 415, John Cassian, who had spent years among the Egyptian monks, founded two houses at Marseilles and wrote down what he had learned there - the Institutes on how a monastery is run, the Conferences on what the Egyptian elders actually said. It was the monks of Marseilles who resisted Augustine's late teaching on grace and human effort. Augustine answered them in two treatises, after a third one - addressed to a different monastery, in Africa - had first provoked their objection.",
