@@ -59,58 +59,6 @@ unsettled either way). Goehring cited here per this world's standing
 rule (never alone; jointly with Kellia and Nepheros, per
 desert.source.goehring-ascetics).
 
-Step3b Review Round 1, Finding S1: an earlier draft of this record
-stated, in three places, that the Nepheros archive is simply "unrated"
-and that this claim was "carried into this build's own
-desert.source.nepheros-archive record" - checkable and false; that
-record rates the archive Documented (verified-via-authority). Corrected
-in the locus, the divergence_note, and this body note to the accurate,
-narrower point above, without weakening the Tensional classification's
-real basis (representativeness, not existence, is what's unsettled).
-Finding C3: "commercial buildings" (plural) overstated the source
-record's own "at least one commercial center" - corrected.
-
-Step3b Review Round 2, Finding S1: the Round 1 fix's own opening clause
-("Kellia's excavated infrastructure is Documented and verified-direct")
-was itself false - desert.source.kellia-excavations rates
-verification_state verified-via-authority, not verified-direct, with no
-vendored file, exactly like Nepheros. The genuine asymmetry between the
-two sources is not their verification method (both identical) but the
-caveat riding on the rating (Kellia's carries none; Nepheros's carries
-the representativeness caveat) - corrected in the divergence_note and
-the Kellia locus, and propagated to GRAVITY-INDEX.md. Finding M7: the
-body note's characterization of Doc_04's own text as narrower than "the
-archive is unrated" was itself a gloss - Doc_04 SS6 does say exactly
-that, flatly, with no Doc_02 qualifier in that sentence. Corrected to
-state plainly that this build's own re-derivation improves on Doc_04's
-flat statement rather than merely restating a narrower reading of it.
-Finding C4: the Nepheros locus dropped "general character" from the
-three elements its own source record rates Documented for (existence,
-Melitian association, general character) - restored. Finding M6: the
-Nepheros locus carried only the first of that source's two mandatory
-standing cautions - the second (organizationally intermediary, no
-clean fit to this world's three strands) added. Finding M10: the
-forces clause narrowed Doc_04 SS4's own "holds steady... under the
-named forces" (the whole set of four) to "under the generating force"
-specifically - broadened back to match.
-
-Step3b Review Round 3, Finding M3: the Nepheros second caution landed
-in the locus only - added to the manifestation too, alongside the
-first. Finding M6: the description still said "two independent
-evidence types of uneven confidence," the phrasing the S1 correction
-established is not accurate against this build's own registered
-records (the two ARE identically rated; the caveats differ) - reworded
-to match the corrected divergence_note.
-
-Step3b Review Round 5, Finding S3: Doc_04 SS5's own finding that this
-gravity's Strand C attestation is "provisional and Nepheros-derived
-specifically," distinct from Kellia's more securely located
-archaeological evidence, was carried nowhere in this record or the
-index's cross-strand column - a finding Doc_04's own Round 1 review had
-to force into existence after catching an earlier draft silently
-absorbing Nepheros into Strand C. Added to the description; the index's
-master table corrected to match.
-
 Step3c: the Nepheros organizationally-intermediary complication this
 record and its own source record both carry is now the full
 contested_claim record desert.contested.strand-porousness - reciprocal

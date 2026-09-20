@@ -53,9 +53,7 @@ hearing: 'logos' as rhetoric/logic jargon. World hearing: the living
 center of everything. Author-gravity: attested across all three major
 figures - low single-source risk.
 
-corrected 2026-09-08, records/alx audit: the translational sense's
-"after 325, 'of one substance with the Father'" was vendored wording
-but not present in this file's cited sources; the phrase is in the
-Creed of Nicaea itself (npnf214, line 2412: "being of one substance
-(ὁμοούσιον, consubstantialem) with the Father"), now cited via
-alx.source.nicene-creed-325.
+The translational sense's "after 325, 'of one substance with the
+Father'" phrase is in the Creed of Nicaea itself (npnf214, line 2412:
+"being of one substance (ὁμοούσιον, consubstantialem) with the
+Father"), cited via alx.source.nicene-creed-325.

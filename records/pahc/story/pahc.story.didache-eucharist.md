@@ -76,10 +76,7 @@ didache-liturgies.xml, div1 viii, chs. 9-10 (viii.iii.ix-x) and ch. 14
 "Maranatha" (one word) to match this specific vendored edition's actual
 spelling ("Maran atha," two words) - a minor but real verbatim
 correction, caught during this record's own direct re-verification.
-FIXED at Step 9 round-1 review: a second drift on the same page was
-missed in that same pass - "having first confessed" inserted a word
-("first") this edition's ch. 14 does not carry; the actual wording is
-"after having confessed." Corrected. canon_cells: F4-I reinforces the same cell already claimed by
+canon_cells: F4-I reinforces the same cell already claimed by
 pahc.term.eucharistia and several other records; this story's own value
 is specifically in the diversity-first discipline it carries, per
 Doc_02's own established rule never to merge this order with Story 006

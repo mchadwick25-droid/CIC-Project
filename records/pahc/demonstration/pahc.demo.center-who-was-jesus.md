@@ -51,26 +51,17 @@ coined quotable aphorism introduced (register statement 6) - "the vine
 of David his servant" is the tradition's own Didache 9 phrase, not an
 invented line.
 
-FIXED at Step 11 round-1 review (two items): (1) "He truly ate and
-drank among us" is not the vendored text - checked directly against
-cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, Trallians 9
-(shorter recension): "who was truly born, and did eat and drink" has
-no "among us." Removed - the phrase read as an eyewitness claim this
-world's own collective "we" cannot make, and directly contradicted
-pahc.demo.center-how-we-know's own opening line in the same nine-
-record set ("None of us saw him ourselves"). Also corrected in
-pahc.witness.who-was-jesus's own text field, the source this
-demonstration was adapted from. (2) the "truly" chain was voiced as an
-unattributed collective confession; it is Ignatius's own polemical
-register against docetic teaching (this record's own divergence_note
-already said so), not a formula shared network-wide, and the turn's
-own silence on whose word it was broke the craft record's own
-letter-as-proof flavor note ("never repeats something another
-household said without naming whose word it was"). Restated with
-Ignatius named, matching how pahc.demo.center-jesus-as-god already
-handles the same corpus ("One of us, Ignatius, calls..."), and the
-closing Didache thanksgiving kept as the cross-strand counterweight it
-already was.
+Ignatius's Trallians 9 (shorter recension) reads "who was truly born, and
+did eat and drink," checked directly against
+cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml - not "among us,"
+an eyewitness claim this world's own collective "we" cannot make (see
+pahc.demo.center-how-we-know's own opening line, "None of us saw him
+ourselves"). The "truly" chain is Ignatius's own polemical register
+against docetic teaching (this record's own divergence_note), not a
+formula shared network-wide, so it is attributed to him by name,
+matching how pahc.demo.center-jesus-as-god handles the same corpus
+("One of us, Ignatius, calls..."); the closing Didache thanksgiving is
+kept as the cross-strand counterweight.
 
 CENTER-CELL OPENING (2026-08-30, Mark's ruling after four live probes:
 "make the record edit"): the spoken opening no longer hard-binds the

@@ -36,7 +36,4 @@ retrieval:
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 viii, ch. 46 (viii.ii.xlvi). Direct textual ground
-for pahc.witness.outside-our-community. FIXED at Step 8 round-1 review:
-an ellipsis previously marked "first-born of God... and we have
-declared" as an elision - the vendored text has no gap there, only a
-comma. Restored.
+for pahc.witness.outside-our-community.

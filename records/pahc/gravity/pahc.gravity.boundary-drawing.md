@@ -109,8 +109,8 @@ actively defended, not inherited already-drawn. THE NEW associated-with
 EDGE TO pahc.force.state-pressure (added at Step 6, Doc_08 build):
 realizes Doc_08 Section 4's Connection 5, a force-level synthesis Doc_08
 itself discloses as its own new reading rather than an inherited Doc_04
-finding - see the description's own Interaction paragraph, revised at
-Step 6 round-1 review to state this explicitly rather than reading as a
+finding - see the description's own Interaction paragraph, which states
+this explicitly rather than reading as a
 contradiction of Doc_04's unchanged gravity-level "no demonstrated
 relationship with state-pressure" finding. THE UNDEFEATED-RIVALS
 DISCLOSURE OBLIGATION (Doc_01 SS8.3, carried here at full strength):

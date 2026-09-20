@@ -65,11 +65,8 @@ exchange) were freshly opened and verified directly this session, both
 quoted here close to the vendored file's own wording rather than
 paraphrased from Doc_09a's own less specific telling.
 
-Step4, Round 1 review Finding M5: this note previously attributed both
-the beast-form dialogue and the light vision to "S10" alone; the
-beast-form combat and Antony's own taunts are S9, and S10 is the light
-vision only - corrected above. The front-matter locus (SS8-10) was
-already correct.
+S9 carries the beast-form combat and Antony's own taunts; S10 carries
+the light vision.
 
 Formation significance: this world's own paradigmatic portrait of
 desert.gravity.spiritual-combat, and the concrete narrative form

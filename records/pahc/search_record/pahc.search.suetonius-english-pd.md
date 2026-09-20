@@ -40,5 +40,5 @@ directly: the fire-to-Christians link this world's own records have
 always treated as Inferential-Thin appears only in this edition's own
 1909 editorial footnote to ch. 39, never inside Suetonius's own ch. 16
 text - the vendored file itself now carries the evidence for a caution
-this build had previously had to take on faith from secondary
+this build once had to take on faith from secondary
 description.

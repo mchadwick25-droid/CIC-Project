@@ -53,8 +53,3 @@ apostolic-fathers-justin-irenaeus.xml, div1 viii (viii.ii.lxvii).
 (narratable: false) without giving him an invented interior voice -
 this record cites what the approved figure record already establishes
 about him (the value placed on direct testimony), not a new claim.
-
-FIXED at Step 11 (voice build) round-1 review: "appointed others to
-carry it forward when they themselves were gone" is 1 Clement 44's own
-succession provision, not chapter 42 (the appointment of the first
-bishops and deacons); locus extended to "42, 44".

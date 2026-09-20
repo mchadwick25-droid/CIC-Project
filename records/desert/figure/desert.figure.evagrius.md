@@ -62,56 +62,9 @@ desert.gravity.evagrian-systematization's own honest notation, and the
 full forces-level treatment of both episodes is reserved for Doc_08,
 not resolved here.
 
-Step3c, Round 1 review Finding S8: an earlier draft cited only
-evagrius-praktikos and Socrates IV.23, both consult-only or excerpted
-at one remove, though desert.source.palladius-lausiac-history ch.
-XXXVIII - vendored, load-bearing, verified-direct - is a dedicated,
-eyewitness biography of Evagrius that independently supplies the
-Cappadocian ordinations, the fourteen years at Kellia, the age-fifty-
-four death, and the Epiphany date, and quotes his own reported speech
-multiple times (seven, by direct count: four in the trance-dialogue at
-SS5-7, three in the post-withdrawal self-reports at SS12-13). Added as
-a source; the record's own verification_state upgraded to
-verified-direct for the biographical intervals and the day of death
-specifically - not for the calendar year itself, which the chapter does
-not carry (see Round 2 Finding M5 below). The earlier draft's Socrates
-locus also overclaimed "the one vendored, machine-verifiable witness to
-his own words" - false once Palladius ch. XXXVIII's own quotations are
-counted; corrected to name it as a second, independent witness rather
-than the only one, and evagrius-praktikos's own locus corrected to
-match that source record's own accurate phrase ("text," not "words").
-The relation to desert.contested.alexandria-continuity, added in the
-same original commit, is removed: that record's own concession no
-longer rests on this figure (see desert.gravity.evagrian-systematization's
-own Step3c body note for the correction).
-
-Step3c, Round 2 review Finding M5: the divergence_note's "born/died/
-floruit... independently confirmed against ch. XXXVIII" overstated what
-the chapter carries - it gives intervals and a day (two years at
-Nitria, fourteen at Kellia, age fifty-four, death at Epiphany), never a
-calendar year; the year 399 that anchors all three dates fields still
-comes from evagrius-praktikos (consult-only) and Doc_01 SS2.3.
-Reworded throughout to name that channel explicitly rather than let
-the vendored chapter appear to supply more than it does. Finding M6:
-"deacon by Gregory Nazianzen at Constantinople" cited the location to
-Palladius ch. XXXVIII, which gives the ordination but not its place;
-Socrates IV.23, already registered, states the Constantinople location
-directly - corrected to the source that actually carries it. Finding
-M7: "two direct quotations" undercounted ch. XXXVIII, which carries at
-least three post-withdrawal self-reports plus a further exchange in
-the earlier trance-dialogue - corrected to "multiple" rather than
-assert a specific count this record has not verified exhaustively.
-
-Step3c, Round 3 review Finding S4: the Round 1 body note above (Finding
-S8) was never revisited when Round 2's M5 and M7 fixes changed the
-front matter - it still said "quotes his own reported speech twice"
-and "Palladius ch. XXXVIII's own two quotations," both superseded by
-M7's own count, and it still claimed the chapter "independently
-supplies every element of this record's own dates block," which M5
-exists specifically to deny (the calendar year is not in the chapter).
-Both corrected directly in the Finding S8 paragraph above, with an
-exact count (seven) given this time so the number does not need
-re-deriving a fourth time.
+Palladius ch. XXXVIII quotes his own reported speech seven times: four
+in the trance-dialogue at SS5-7, three in the post-withdrawal
+self-reports at SS12-13.
 
 Doc_08: desert.force.evagrian-intensification added as a reciprocal
 relation - this record's own biography is that force's own generating

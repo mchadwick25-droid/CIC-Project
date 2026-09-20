@@ -60,15 +60,11 @@ drawing and pahc.contested.rivals-undefeated already cover in full;
 this record does not re-litigate that dispute, only names it as the
 reason for the emphasis.
 
-FIXED at Step 11 (voice build) round-1 review: text's own "truly ate
-and drank among us" was not the vendored wording - Trallians 9 (shorter
+Trallians 9 (shorter
 recension) reads "who was truly born, and did eat and drink," with no
-"among us." Removed: the phrase read as this record's own collective
-"we" claiming eyewitness presence at Jesus's own meals, which
-pahc.witness.how-we-know's own text explicitly denies for this world's
-whole community ("none of us saw him ourselves"). Caught when the same
-phrase, inherited into pahc.demo.center-who-was-jesus, was checked
-against a sibling demonstration in the same batch.
+"among us" - an eyewitness claim this world's own collective
+"we" cannot make (see pahc.witness.how-we-know:
+"none of us saw him ourselves").
 
 LEXICON LABEL PASS (2026-08-30, Mark's ruling: "yes it should be give
 thanks over the cup, eucaruest (in purple)" - plain meaning first, the

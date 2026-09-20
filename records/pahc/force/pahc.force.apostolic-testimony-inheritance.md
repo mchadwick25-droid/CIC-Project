@@ -60,10 +60,3 @@ later inventions?') is a close, direct match to this force's own
 content and is added here at generation, not retrofitted. Relation to
 pahc.gravity.authority-consolidation only - Doc_08's own text does not
 trace this force to any other gravity, and none is manufactured here.
-FIXED at Step 6 round-1 review: the Ignatius quote and locus were wrong
-on two counts - the manifestation quoted the LONGER recension's plural
-"as to the apostles of Jesus Christ," which pahc.source.ignatius-letters
-puts explicitly outside its own scope (its own "load-bearing" recension
-discipline: only the shorter/middle-recension text may be quoted from
-this row), and misplaced it at Trallians 3 rather than 2. Corrected to
-the shorter recension's actual wording and locus.

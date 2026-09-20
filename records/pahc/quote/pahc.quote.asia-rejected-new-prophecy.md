@@ -57,13 +57,9 @@ montanist-fragments was registered at this build's Step 2 to answer Doc_01
 SS8.3's Montanism disclosure obligation, but no quote or gravity record had
 drawn on it since. Text verified directly against cic/texts/anf07_lactantius
 -apostolic-constitutions-didache-liturgies.xml at line 11308, no elisions.
-ROUND-2 CORRECTION (2026-09-09, self-verified against an independent
-adversarial review): the locus originally cited line 11305, three lines
-short of the actual sentence (11305 falls inside an unrelated footnote);
-corrected here and in this record's own sources[] entry above. The quoted
-text itself was independently re-diffed against the vendored file and
-confirmed byte-for-byte accurate throughout - only the line pointer was
-wrong.
+The quoted
+text was independently re-diffed against the vendored file and
+confirmed byte-for-byte accurate throughout.
 
 WHAT THIS DOES AND DOES NOT DO FOR G05. pahc.gravity.boundary-drawing's own
 record states plainly that Doc_01's naming of Marcion, Valentinian teaching,

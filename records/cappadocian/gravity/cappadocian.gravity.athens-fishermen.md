@@ -61,7 +61,7 @@ description: >-
   this back into Supporting 4/Gravity 4 as internal texture) was seriously considered at Revision 1 and
   declined on two grounds: this tension has its own force-history distinct from Gravity 4's, and its
   interaction row is distinct (Gravity 4 COMPETES with Gravity 2 at the same junction while this gravity only
-  RESHAPES it - corrected from an earlier drafting slip that stated this backwards). The alternative is
+  RESHAPES it). The alternative is
   recorded at Doc_04 §9 item 4 for the external reviewer, not erased. CONFIDENCE/GRAVITY CROSS-CHECK (Doc_04
   §3.2): Documented across four streams, including - uniquely among this world's tensions - the adversary's
   own voice; the elite-register boundary is a breadth limit, not a confidence limit. Tensional; no

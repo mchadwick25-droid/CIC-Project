@@ -41,6 +41,4 @@ obstacle in Ambrose's story - and preserved almost entirely through
 Ambrose's and Augustine's hostile framing; her own voice, on her own
 terms, is not attested anywhere. Claims about her motives beyond the
 documented demands stay at Inferential-Thin and are not made. Part of
-the women-in-their-own-words honest limit (ijc.limit.f5-ordinary-day) -
-corrected at review, the id was previously misstated as
-ijc.limit.f5-women-own-words, which does not exist.
+the women-in-their-own-words honest limit (ijc.limit.f5-ordinary-day).

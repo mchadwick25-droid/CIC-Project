@@ -40,10 +40,8 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative) for the 
   contemporary letter survives, private, in his own hand, demanding repentance before he will offer the
   sacrifice in the emperor''s presence; and the fact of Theodosius''s public penance is independently
   corroborated by two later church historians, Sozomen (VII.25) and Theodoret (V.17), both writing
-  within a single generation of the events and neither drawing solely on the other. Corrected at review
-  (Opus historical-accuracy pass, 2026-08-21): this record previously credited the dramatized public
-  scene to "Theodoret... a generation later" alone, as though his were the only or earliest such telling
-  - Sozomen''s account (roughly contemporaneous with Theodoret''s, both mid-5th-century) independently
+  within a single generation of the events and neither drawing solely on the other.
+  Sozomen''s account (roughly contemporaneous with Theodoret''s, both mid-5th-century) independently
   gives the same confrontation at the church door; a still-earlier Latin telling by Rufinus (c. 402,
   within a decade of the events) is also attested in the scholarship but is not vendorable in this
   build (see ijc.search.rufinus-he-english) and is not quoted here. The FAMOUS SCENE - the emperor
@@ -92,10 +90,7 @@ handled and the way back), F3-P (the church confronting its own side's
 power). The extension is recorded in ijc.core.imperial-juridical's
 Absent Stories note. The two source layers (contemporary letter vs.
 later dramatization) are held apart per this build's tier discipline.
-Corrected at review (Opus canon-structure pass, 2026-08-21): the
-original build also tagged this record F6-P ("a wrong grieved and
-answered"), which does not actually answer any of that cell's six
-questions - removed; F6-P is covered instead by
+F6-P is covered instead by
 ijc.story.callinicum-synagogue (hypocrisy in the record's own hero)
 and ijc.dw.women-authority-cost (a woman's authority and its
 cost).

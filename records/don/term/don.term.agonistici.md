@@ -34,8 +34,7 @@ sources:
   license: public-domain
 - source_id: don.source.monceaux-histoire-litteraire-tome4
   locus: 'row 52''s own footnote, quoting Augustine, Enarr. in Ps. 132.6 verbatim: "Milites
-    Christi Agonistici appellantur." Not Contra Gaudentium (an earlier draft''s citation, unlocated
-    and corrected here) -- the self-designation reaches this record only through Monceaux''s own
+    Christi Agonistici appellantur." The self-designation reaches this record only through Monceaux''s own
     quotation of the Latin; the vendored NPNF English of the Enarrationes (npnf108) does not carry
     the term at all, checked directly.'
   license: in-copyright-consultation

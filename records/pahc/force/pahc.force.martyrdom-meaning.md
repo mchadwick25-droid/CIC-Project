@@ -58,11 +58,8 @@ consolidation already reciprocates with pahc.gravity.martyrdom-meaning
 at the gravity level. Declaring them again here would be a redundant
 duplicate, not a new finding.
 
-FIXED at Step 6 round-1 review: the description quoted the Martyrdom of
-Polycarp bone-collection passage as "more precious than the finest
-jewels" (this record's own manifestations[1], 20 lines below, always
-had the correct wording, "most exquisite jewels" - checked directly
-against the vendored ANF text, ch. XVIII). The description now matches.
-Doc_08 Force 2B-3's own Layer 1 carries the identical "finest jewels"
-paraphrase - worth a future Doc_08 touch, not a reason to hold this
-record, since this record does not need Doc_08 reopened to be correct.
+The bone-collection passage's correct wording, checked directly
+against the vendored ANF text (ch. XVIII), is "most exquisite jewels."
+Doc_08 Force 2B-3's own Layer 1 carries the paraphrase "finest jewels"
+- worth a future Doc_08 touch, though this record does not need Doc_08
+reopened to be correct.
