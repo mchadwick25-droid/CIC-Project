@@ -131,7 +131,13 @@ ACCEPTED_OPEN: dict[str, str] = {
     # (witt's accent color reused from cic-website/table.html's own
     # already-fixed #579C40, contrast independently recomputed against both
     # dark-mode thresholds rather than assumed). Not left stale.
-    "site-portrait/witt": "Phase C recon, 2026-09-19: as app-world-assets/witt - the cic-website/traditions/lutheran-wittenberg-and-its-congregations.html portrait page needs the same now-approved Representative portrait wired in, belonging to this go-live pipeline's own Phase C pass. witt.yaml's own census_id is already set (unlike gallic's own B-8/B-9 window, which lacked one entirely) - only the wiring itself is outstanding. UPDATED, 2026-09-19 (later same day): the page itself now exists, grounded in this world's own records, quotes independently re-verified - what remains is purely the portrait image FILE (Mark placing Nikolaus_Portrait.png into the repo directly, the same way he did for the other 8 Representatives), not the page or its wiring. UPDATED, 2026-09-20: cic-poc/frontend/src/data/worlds.ts's own WORLD_ASSETS/WORLD_ORDER entries are now wired (see app-world-assets/witt, CLOSED, above) - this entry stays open for the website's own traditions/lutheran-wittenberg-and-its-congregations.html <img> and both live-serving asset folders, which still resolve to a file that does not exist on disk. Still Mark's own step, not this pipeline's to fabricate.",
+    # site-portrait/witt CLOSED 2026-09-20: opened during Phase C recon
+    # for the portrait image FILE this comment block's own prior text named
+    # as the one outstanding piece (the page and its wiring were already
+    # done). Mark placed Nikolaus_Portrait.jpg into the repo the same way
+    # he did for the other 8 Representatives (PR #323, "Wire in Nikolaus's
+    # portrait") - both live-serving asset locations and the traditions
+    # page's own <img> now resolve. Not left stale.
     # census-id/witt CLOSED 2026-09-19: opened for the real admitted-but-
     # not-yet-synced gap right after witt's own admission; closed the same
     # day once `python -m engine.m6.cli sync` actually ran (Mark's own

@@ -1,20 +1,27 @@
-"""Tests for engine.m2.builders.build_retrieval_json / _retrieval_words
-(Build-Plan.md Stage 4c). Synthetic fixture records, same discipline as
-test_demo_tagging.py's own - these are pinned edge cases (a real leak found
-and fixed while building this module), which a hand-built fixture makes
-exact and reproducible rather than dependent on whichever real record
-happens to still exhibit the shape.
-"""
+"""Tests for engine.m2.builders.build_retrieval_json / engine.prose.
+retrieval_words (Build-Plan.md Stage 4c). Synthetic fixture records, same
+discipline as test_demo_tagging.py's own - these are pinned edge cases (a
+real leak found and fixed while building this module), which a hand-built
+fixture makes exact and reproducible rather than dependent on whichever
+real record happens to still exhibit the shape.
+
+retrieval_words itself now lives in engine.prose (Stage 4c part 2, so
+engine.m4.evidence's own Stage B2 fill can score against the identical
+word set) - these tests stay here rather than moving to test_prose.py
+because they are really pinning build_retrieval_json's own contract, not
+exercising a general prose primitive; not one behaviour changed with the
+relocation."""
 import json
 
-from engine.m2.builders import _retrieval_words, build_retrieval_json
+from engine.m2.builders import build_retrieval_json
 from engine.m2.compiler import compile_and_hash
+from engine.prose import retrieval_words
 
 
 def test_voice_diet_field_is_indexed():
     term = {"id": "fix.term.logos", "record_type": "term", "plain_meaning": "The Word, God's own reason made speech."}
-    assert "reason" in _retrieval_words(term)
-    assert "speech" in _retrieval_words(term)
+    assert "reason" in retrieval_words(term)
+    assert "speech" in retrieval_words(term)
 
 
 def test_instruction_role_field_is_never_indexed():
@@ -22,7 +29,7 @@ def test_instruction_role_field_is_never_indexed():
     retrievable ground, so it must produce an empty word set regardless of
     how much text it carries."""
     craft = {"id": "fix.voice.craft", "record_type": "voice_craft", "identity": "Speak always as a monk of the desert."}
-    assert _retrieval_words(craft) == []
+    assert retrieval_words(craft) == []
 
 
 def test_a_field_not_declared_for_this_record_type_is_ignored():
@@ -30,7 +37,7 @@ def test_a_field_not_declared_for_this_record_type_is_ignored():
     a story carrying a stray world_word (or any field its own type never
     declares) must not leak it in."""
     story = {"id": "fix.story.one", "record_type": "story", "tellable_as": "A monk left everything.", "world_word": "should never appear"}
-    words = _retrieval_words(story)
+    words = retrieval_words(story)
     assert "never" not in words and "appear" not in words
 
 
@@ -46,7 +53,7 @@ def test_dotted_source_id_never_leaks_into_a_quotes_own_words():
         "text": "A real spoken sentence.",
         "sources": [{"source_id": "alx.source.origen-contra-celsum", "locus": "Book II"}],
     }
-    words = _retrieval_words(quote)
+    words = retrieval_words(quote)
     assert "alx" not in words
     assert "celsum" not in words
 
@@ -63,13 +70,13 @@ def test_locus_and_work_are_truncated_before_their_scholarly_apparatus():
         "text": "Another real spoken sentence.",
         "sources": [{"source_id": "fix.source.one", "locus": "Answering the charge (anf04_obscure-filename-fragment.xml)"}],
     }
-    words = _retrieval_words(quote)
+    words = retrieval_words(quote)
     assert "answering" in words and "charge" in words
     assert "anf04_obscure" not in " ".join(words)
     assert "filename" not in words
 
     source = {"id": "fix.source.two", "record_type": "source", "work": "The Real Title; a scholarly apparatus nobody types"}
-    words = _retrieval_words(source)
+    words = retrieval_words(source)
     assert "real" in words and "title" in words
     assert "scholarly" not in words and "apparatus" not in words
 
@@ -86,7 +93,7 @@ def test_build_retrieval_json_is_one_entry_per_record_sorted_by_id():
 
 def test_a_record_with_no_declared_spoken_fields_present_is_an_empty_list_not_an_error():
     honest = {"id": "fix.honest.one", "record_type": "honest_limit"}
-    assert _retrieval_words(honest) == []
+    assert retrieval_words(honest) == []
 
 
 def test_deterministic_and_every_real_record_type_reaches_at_least_one_word_on_alx():
