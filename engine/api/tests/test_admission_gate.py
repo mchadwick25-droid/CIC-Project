@@ -1,10 +1,10 @@
-"""The admission gate (stage-10 enforcement; 2026-08-28). The 2026-08-26
-audit's headline finding: the running engine never checked registry state -
+"""The admission gate (stage-10 enforcement). An
+audit found the running engine never checked registry state -
 create_session served any `built` world. The gate exists now, off by
-default (declared deferral), and CIC_ENFORCE_ADMISSION=1 is Mark's
+default (declared deferral), and CIC_ENFORCE_ADMISSION=1 is the
 doors-open flip. Both directions are pinned here against test-CONSTRUCTED
 registry states (the live registry's stage moves - all six formation
-worlds were admitted by Mark on 2026-08-28 - and these tests must hold at
+worlds have been admitted - and these tests must hold at
 every stage): enforcement refuses `built`, admits `admitted`/`open`, and
 the default leaves current behavior unchanged (every other test in this
 suite runs with the default and would scream otherwise)."""

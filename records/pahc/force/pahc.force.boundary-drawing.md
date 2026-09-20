@@ -53,10 +53,3 @@ community's own were the same act'). The other gravity-level
 connections this force shares with G05 (rival movements/2A-2, state
 pressure/2A-1 as Doc_08's own new synthesis, authority-consolidation)
 are already declared from those other records and not re-declared here.
-
-FIXED at Step 6 round-1 review: divergence_note previously read "the
-underlying phenomenon... is well-evidenced, but the evidence for it is
-substantively one voice" - self-contradicting on its face, and Doc_08's
-own text attaches "well-evidenced" specifically to the EXTERNAL rival-
-movements condition (Force 2A-2), not to this force. Restored to the
-gravity twin's own framing.

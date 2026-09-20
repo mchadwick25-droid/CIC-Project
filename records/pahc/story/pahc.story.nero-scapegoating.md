@@ -75,15 +75,13 @@ relations: associated-with pahc.force.neronian-persecution, the force
 record built directly from this same event - this story is that
 force's own narrative form, not a duplicate claim.
 
-FIXED at Step 9 round-1 review: Doc_09 Section 3's own connection data
+Doc_09 Section 3's own connection data
 for this story names three gravity links - G01 (authority-
 consolidation) as a generative trigger, plus G03 (state-pressure) and
-G04 (martyrdom-meaning) as background. Only the force-level relation
-was carried into this record's own front matter; disclosed here rather
-than silently dropped. The G01 link is now restated directly as a
+G04 (martyrdom-meaning) as background. The G01 link is a
 schema edge (associated-with pahc.gravity.authority-consolidation,
 reciprocated on that record). The G03 and G04 background links are
-deliberately routed through the existing pahc.force.neronian-
+routed through the existing pahc.force.neronian-
 persecution relation instead of asserted as direct story-gravity edges
 - this event's own state-pressure and martyrdom-meaning content is
 already carried at the force level, and duplicating it here as two

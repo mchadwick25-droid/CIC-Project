@@ -29,16 +29,6 @@ discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md
   a fleet cross-world research thread's handoff, acted on and verified directly by this thread"
 external_ids: {}
 ---
-Previously FAILED CLOSED FOR QUOTATION, per this build's own convention
-for a found-but-unvendored source (see ijc.source.paulinus-vita-ambrosii
-for the identical case, closed the same day): everything drawn from
-Ammianus in this build had been Tier 3 attributed tradition via the
-standard scholarship, never a verbatim quotation. Registered originally
-so that ijc.search.ammianus-english's result: found was backed by an
-actual source_id rather than an empty found_sources list, corrected at
-review (Opus quote-fidelity pass, 2026-08-21) for consistency with the
-Paulinus precedent.
-
 VENDORED 2026-09-13: the fleet's own cross-world research thread
 independently found and verified the Yonge edition on the Internet
 Archive (reachable from this sandbox even where ccel.org/newadvent.org/

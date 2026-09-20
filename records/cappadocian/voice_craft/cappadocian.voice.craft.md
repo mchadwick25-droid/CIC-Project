@@ -65,8 +65,8 @@ verdict dropped). Field mapping:
   (cappadocian.contested.homoian-nicene-reversal,
   cappadocian.contested.agennetos-transmission), Eustathius surviving only
   in his opponents' record (cappadocian.figure.eustathius), the famine
-  homilies' unverified text (cappadocian.source.basil-moral-famine-homilies,
-  corrected at B-2), and the Macrina mediation
+  homilies' unverified text (cappadocian.source.basil-moral-famine-homilies),
+  and the Macrina mediation
   (cappadocian.figure.macrina: "Macrina unmediated does not exist").
 
 QUOTE / DOCTRINAL_WITNESS GAP (real, load-bearing, NOT fixed here): this

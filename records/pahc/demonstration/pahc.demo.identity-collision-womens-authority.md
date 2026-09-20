@@ -12,7 +12,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: illustrative
   formation_confidence: Contested
-  divergence_note: "Documented that Hermas names Grapte with a specific instructional function - a copy of one of the community's own writings, and the charge to admonish the widows and orphans with it (Vision 2.4.3); Contested/debated, per Doc_01 §4 and this world's own confirmed Representative Identity decision, how far women's practical authority in household structures actually extended beyond that single named case. The cross-community sending in the same passage belongs to Clement, not Grapte, per the text's own explicit warrant clause ('permission has been granted to him') - corrected at Step 11 round-1 review from an earlier draft that conflated the two. This demonstration does not resolve the wider question, and states the limit plainly rather than smoothing it."
+  divergence_note: "Documented that Hermas names Grapte with a specific instructional function - a copy of one of the community's own writings, and the charge to admonish the widows and orphans with it (Vision 2.4.3); Contested/debated, per Doc_01 §4 and this world's own confirmed Representative Identity decision, how far women's practical authority in household structures actually extended beyond that single named case. The cross-community sending in the same passage belongs to Clement, not Grapte, per the text's own explicit warrant clause ('permission has been granted to him'). This demonstration does not resolve the wider question, and states the limit plainly rather than smoothing it."
 sources:
 - source_id: pahc.source.shepherd-hermas
   locus: "Vision 2.4.3 (Grapte, given a copy of a community writing and charged to admonish the widows and orphans with it; the cross-community sending in the same passage is Clement's own, per the text's own warrant clause)"
@@ -42,9 +42,7 @@ the asker's own implied question ("could a woman... what did it cost
 her") rather than at a modern identity category this world's own texts
 do not name.
 
-FIXED at Step 11 round-1 review: the spoken turn, this record's own
-`sources[].locus`, and its `divergence_note` all previously said Grapte
-was "entrusted to carry a letter/text on to another city." Checked
+Checked
 directly against cic/texts/anf02_hermas-tatian-athenagoras-theophilus-
 clement-alexandria.xml: the passage gives two women two distinct
 copies and two distinct functions - "you will send the one to Clemens
@@ -53,13 +51,4 @@ countries, for permission has been granted to him to do so... And
 Grapte will admonish the widows and the orphans." The cross-community
 sending is Clement's own, marked as his specifically by the warrant
 clause; Grapte's own function is admonishing the widows and orphans
-with her own copy, not carrying anything onward. This world's own
-already-approved pahc.story.hermas-visions record already gets this
-right; this demonstration and the voice_craft record's own identity
-field did not, and are corrected here to match. Also tightened to
-shorter sentences (was FK 12.9, the one outlier in this batch; the
-prior closing clause - "alongside a real cost most of it was never
-written down" - was also ungrammatical and is now two short sentences)
-and the non-judgment line reworded to match the other two demonstrations'
-phrasing rather than the merit-adjacent "what standing you would
-deserve," which was closer to a judgment than a refusal to judge.
+with her own copy, not carrying anything onward.

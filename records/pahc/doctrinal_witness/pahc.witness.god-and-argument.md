@@ -74,17 +74,12 @@ full authority-question content; this record answers the cell
 substantively and cross-references it by relation rather than
 duplicating its own analysis.
 
-FIXED at Step 8 round-1 review: an earlier draft claimed "that whole
-mechanism belongs to a later world" without qualification - false
-against this build's own approved pahc.source.anti-montanist-fragments,
-which documents synods of Asia Minor bishops meeting, repeatedly, over
+pahc.source.anti-montanist-fragments
+documents synods of Asia Minor bishops meeting, repeatedly, over
 the New Prophecy right at this world's own closing edge (verified
 directly in cic/texts/npnf201_eusebius-church-history-life-of-
 constantine.xml, HE V.16.10: "the faithful in Asia met often in many
-places throughout Asia to consider this matter"). Since F1-I's own
-f1-i-03 asks directly about councils, added the synod content and a
-relation to pahc.contested.rivals-undefeated (which already holds the
-fuller anti-Montanist material) rather than leaving the claim
-overbroad. The narrower, still-true claim survives: no gathering of
+places throughout Asia to consider this matter"). The narrower,
+still-true claim survives: no gathering of
 this world's own decided a question about God's own nature - only
 whether to receive a movement.

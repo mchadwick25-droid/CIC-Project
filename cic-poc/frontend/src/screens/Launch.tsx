@@ -1,10 +1,10 @@
 /**
- * The launch system (Mark's ruling, 2026-08-28): the world cards launch
- * BOTH kinds of conversation, with clear differentiation - the Interview
- * is one click and you are in the room; the Table is convened on purpose,
- * from here and only here, with guidance on what sits well together.
- * The friction gradient is deliberate: the easy thing is the cheap thing,
- * and a Table is a fuller sitting.
+ * The launch system: the world cards launch BOTH kinds of conversation,
+ * with clear differentiation - the Interview is one click and you are in
+ * the room; the Table is convened on purpose, from here and only here,
+ * with guidance on what sits well together. The friction gradient is
+ * deliberate: the easy thing is the cheap thing, and a Table is a fuller
+ * sitting.
  */
 import { ArrivingLockup } from '../components/ArrivingLockup';
 import { PAIRINGS, suggestionsFor } from '../data/pairings';

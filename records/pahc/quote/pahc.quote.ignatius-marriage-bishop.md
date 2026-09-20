@@ -38,7 +38,3 @@ Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 v, To Polycarp ch. 5 (v.viii.v), shorter recension -
 the recension discipline pahc.source.ignatius-letters names as
 load-bearing. Direct textual ground for pahc.witness.marriage-and-wealth.
-FIXED at Step 8 round-1 review: restored the sentence-initial "But,"
-silently dropped in an earlier draft, matching this batch's own
-convention (elsewhere) of marking every elision rather than trimming
-silently.

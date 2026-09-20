@@ -1,9 +1,5 @@
 /**
- * Text input for participant messages. The old version's "Don't know what
- * to ask?" guided-starters sheet is dropped here, not ported: its content
- * (src/data/guided_starters.json) is real and grounded but its own status
- * field says "DRAFT - awaiting Mark's review. Not deployed," and engine/api
- * has no endpoint to serve it either way.
+ * Text input for participant messages.
  *
  * "Leave for now" (not "End the conversation"): MessageRequest is only
  * {text, client_msg_id} - there is no close-intent field, so this can only

@@ -212,7 +212,7 @@ def test_safety_abandonment_is_review(tmp_path):
 
 
 def test_register_frame_catches_all_three_families(tmp_path):
-    """The three real cases: Mark's screen (syr, 'To this world Jesus
+    """The three real cases: a review read (syr, 'To this world Jesus
     is...'), P1-L4 (Papnoute in the third person), F1-L4 (the
     'Papnoute (Desert Monasticism):' label echo)."""
     store = Store(tmp_path / "events.db")
@@ -277,7 +277,7 @@ def test_cross_voice_echo_catches_template_openings(tmp_path):
 
 
 def test_quoted_spans_exempt_from_plain_band():
-    """Mark's ruling: the band governs our words, never the tradition's.
+    """The band governs our words, never the tradition's.
     A turn heavy with an archaic quote scores on its own prose."""
     plain = ("Aphrahat said it plainly for all of us. " * 4).strip()
     archaic = (' "hear thou these things from me without wrangling; whatsoever thou '
@@ -366,8 +366,8 @@ def test_cli_audit_writes_all_layers_and_keeps_participant_text_out_of_fleet(tmp
 
 
 def test_utilization_counts_distinct_cited_against_shelf(tmp_path):
-    """Mark, 2026-08-29: 'what percentage of the current sources are being
-    accessed' - distinct cited ids per world vs the citable shelf; record
+    """What percentage of the current sources are being
+    accessed - distinct cited ids per world vs the citable shelf; record
     ids only, so the block rides the fleet layer."""
     from engine.m7.report import build_rollup, build_utilization
     store, i_sid, t_sid = _sessions(tmp_path)

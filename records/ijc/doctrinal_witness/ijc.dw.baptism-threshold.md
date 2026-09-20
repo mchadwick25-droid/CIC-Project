@@ -60,10 +60,7 @@ relations:
 F4-T's "born again" question answered through the record's three great
 documented baptisms - the world's real material for the translational
 ask, with the inward-experience gap stated rather than filled.
-Corrected at review (Opus canon-structure pass, 2026-08-21): this note
-previously claimed the tithe question was genuinely thin ("church
-funding in this record is imperial patronage and endowment, not
-tithe-discipline") - false; Leo's own Sermons IX-X preach a real
+Leo's own Sermons IX-X preach a real
 proportional-giving discipline (see ijc.dw.collections-discipline).
 Only the end-times question remains genuinely thin: speculation about
 the end is not this record's genre, and no comparable material was

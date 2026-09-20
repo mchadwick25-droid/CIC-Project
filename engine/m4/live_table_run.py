@@ -4,7 +4,7 @@ gate calls, real turn-selector calls, real voice generations, the
 grounding net over real model output, per-world usage attribution read
 back from the usage store. Real, billed Bedrock calls - like
 engine/provider/preflight.py and engine/m4/live_turn_run.py, a by-hand,
-credentialed run under Mark's explicit per-run authorization, never a CI
+credentialed run under explicit per-run authorization, never a CI
 job.
 
 Deliberately drives engine.api.table_wiring itself (create_table_session /
@@ -75,9 +75,9 @@ def _turn_summary(result) -> dict:
             "degraded_by_net": voice.get("degraded_by_net", False),
             "output_defects": voice.get("output_defects", []),
             "text": voice["text"],
-            # The transparency apparatus, whole (added after Mark asked to
-            # SEE it and the first three reports turned out to have
-            # summarized it away): per-sentence citations with their
+            # The transparency apparatus, whole (the first three reports
+            # turned out to have summarized it away, when it needs to be
+            # visible): per-sentence citations with their
             # resolved sources, lexicon glosses, figure bridges, quote
             # offers. This is participant-facing data the engine produces
             # on every turn - a run report that drops it hides the

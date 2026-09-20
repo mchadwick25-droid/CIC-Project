@@ -64,6 +64,3 @@ athenagoras-theophilus-clement-alexandria.xml, div1 ii (ii.iii.iv).
 This record deliberately holds the Justin/Two-Ways tension unresolved
 in both positions and text, per the verification discipline's own rule
 against silently resolving what this world's own sources leave open.
-FIXED at Step 8 round-1 review: added the Didache's own representativeness
-limit ("one community's church-order manual... must not be silently
-generalized to network-wide practice"), previously dropped here.

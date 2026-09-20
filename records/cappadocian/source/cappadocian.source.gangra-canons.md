@@ -24,7 +24,7 @@ edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 14 (The Seven Ecumenic
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed to the council collectively; date genuinely Contested across a wide range
-  (c. 340s-370s, not 'within a decade' as an earlier draft claimed)
+  (c. 340s-370s)
 discovery_channel: builder-prior-knowledge; Source Registry row 60; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either
   its own specific locus was not reopened in an already-vendored file, or the named text has not yet been

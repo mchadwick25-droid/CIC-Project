@@ -73,23 +73,18 @@ canon_cells: F6-E (f6-e-01, "The clearest outside account of your
 worship came from torturing two enslaved women...") is a near-verbatim
 match to this story's own content.
 
-FIXED at Step 9 round-1 review: this note previously misnamed the
-prior F6-E claimants as pahc.gravity.state-pressure (which actually
-claims F3-I) and pahc.limit.material-remains (which actually
-claims F5-E). The actual prior F6-E claimants this record reinforces
+The F6-E claimants
+this record reinforces
 are pahc.force.martyrdom-meaning, pahc.gravity.martyrdom-meaning, and
 pahc.term.ministrae. USAGE NOTE carried from Doc_09: this
 story must never be offered as if it were the ministrae's own story -
 see the same disclosure already carried in pahc.figure.ministrae and
 pahc.term.ministrae.
 
-FIXED at Step 9 round-1 review (second item on this record): this
-record's own text previously dropped Doc_09's own inline disclosure
-that ministrae is "a term some read as a functional title... though
-this is contested" - the vendored NPNF2 rendering itself uses the
+The vendored NPNF2 rendering itself uses the
 interpretive "deaconesses" gloss with no caveat attached at that point
-in the English translation. Restored a half-clause naming the
-contested reading directly in this record's own text, rather than
+in the English translation; this record's own text names the
+contested reading directly, rather than
 relying solely on the disclosure already carried in
 pahc.term.ministrae and pahc.figure.ministrae.
 

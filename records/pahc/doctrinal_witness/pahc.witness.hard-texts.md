@@ -73,18 +73,3 @@ answers honestly that they are silent on it, then offers the nearest
 real, sourced material (Marcion's contemporary reaction, as his
 opponents report it; the Two Ways' own concrete teaching mode) rather
 than inventing a feeling no source attests.
-
-FIXED at Step 8 round-1 review, two defects: (1) the record originally
-cited Tertullian, Adversus Marcionem 1.19, for the "harsher God" and
-"trimmed Gospel and Paul" claims - I.19 is about dating Marcion's break,
-not his theology or his editing of scripture; re-sourced to Irenaeus
-I.27, which actually carries both claims and is licensed for exactly
-this disclosure. (2) The record stated Marcion's own belief and editing
-flatly, without the hostile-witness hedge pahc.contested.rivals-
-undefeated (this record's own related claim) already discloses -
-positions, tensions, and text now all carry that hedge inline, not only
-in this body. (3) The Two Ways teaching content is now explicitly
-scoped to "at least one of our own communities," per pahc.source.
-didache's own representativeness limit ("binding on every record citing
-this row... must not be silently generalized to network-wide
-practice"), previously dropped in this record.

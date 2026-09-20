@@ -52,13 +52,3 @@ representativeness caveat is this record's own honest limit, carried
 in the tensions field rather than smoothed over - matches the
 discipline already established at pahc.core.house-church's own
 thinness field (every surviving voice is literate, leadership-tier).
-
-FIXED at Step 11 (voice build) round-1 review: positions[] and text
-both reduced Justin's own three joined conditions ("if you have any
-concern for yourself, and if you are eagerly looking for salvation,
-and if you believe in God, you may... become acquainted with the
-Christ of God") to one, and added a gloss - "not only those already
-sure" - that specifically negated the third condition Justin actually
-states. The trailing body already quoted the full sentence correctly;
-positions[] and text did not match it. Restored all three conditions
-in both fields, in plain English.

@@ -68,8 +68,7 @@ Budge vol. 2 and it is vendored. What it settles, precisely:
   that does has no public-domain English. So this world's gender axis is
   NARROWED, not closed. NOTE ON WHERE THAT IS RECORDED: this world has no
   `f5-women-own-words` honest_limit - that record belongs to syr and to
-  alx, and an earlier draft of this note named it here in error. Desert
-  carries the caution instead in its registry thinness_statement ("women's
+  alx. Desert carries the caution instead in its registry thinness_statement ("women's
   own voices - a small number of amma sayings, not a fuller corpus"), in
   desert.figure.sarah, and in
   desert.demo.identity-collision-womens-authority. Those are the records

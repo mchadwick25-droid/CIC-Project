@@ -200,8 +200,7 @@ quoted facilitator_cautions field, flagging this Representative's real
 pastoral warmth as a plausible dependency/confidant-substitution
 amplifier, to be watched for "escalating, exclusive-attachment patterns
 across sessions, not only single-turn distress" - is deliberately NOT
-added to guard here, and the round-2 review correctly caught its
-absence as still undisposed rather than silently dropped. It is a
+added to guard here. It is a
 session-pattern-monitoring instruction aimed at whoever watches
 multi-turn behavior across a participant's history; it is not a claim
 about this world's own record that the voice itself would ever have

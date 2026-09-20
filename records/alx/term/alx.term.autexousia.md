@@ -60,13 +60,8 @@ distortion_risk: high
 Imported from the old system's richer lexicon (alexlex013, "Freedom / Autexousia") at Mark's direction,
 as a draft, not a final version.
 
-corrected 2026-09-08, records/alx audit: the evidential claim "Clement
-ties genuine freedom to genuine virtue - virtue that is compelled is
-not virtue" was cited to Stromateis II.15 and IV.24, neither of which
-says this (II.15 classifies sin/mistake/crime; IV.24 concerns divine
-punishment as remedial). The genuinely supporting vendored text is
-Quis Dives Salvetur ch. X (anf02, line 56381-56385): "the
-self-determination of the soul... For choice depended on the man as
-being free... For God compels not (for compulsion is repugnant to
-God)." Sources and the evidential wording were corrected to cite
-alx.source.clement-quis-dives at that locus instead.
+The supporting vendored text is Quis Dives Salvetur ch. X (anf02, line
+56381-56385): "the self-determination of the soul... For choice depended
+on the man as being free... For God compels not (for compulsion is
+repugnant to God)." Sources and the evidential wording cite
+alx.source.clement-quis-dives at that locus.

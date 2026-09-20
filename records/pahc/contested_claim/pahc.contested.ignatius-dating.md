@@ -42,7 +42,4 @@ rather than living only in scattered caution notes. canon_cells: F2-E
 library?', _fleet.canon.f2-e-01) is a close, direct match - this
 world's single largest honest answer to that exact question is that its
 most load-bearing corpus sits under a three-way authenticity dispute,
-which is precisely this record's own content. FIXED at Step 7 round-1
-review: an earlier draft left canon_cells empty, tested only against
-the narrower "is your own source authentic" phrasing rather than F2-E's
-actual four questions, and missed f2-e-01's real match.
+which is precisely this record's own content.

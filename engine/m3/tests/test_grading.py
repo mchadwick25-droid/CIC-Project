@@ -78,7 +78,7 @@ def test_omitting_evidence_status_ids_keeps_the_strict_behavior():
 
 
 def test_register_coined_aphorism_is_advisory_never_gating():
-    """Mark's ruling, 2026-08-28: register statement 6 is direction, not a
+    """Register statement 6 is direction, not a
     gate - the heuristic keeps detecting (the finding lands, visibly) but
     the check passes. The selftest's seeded-defect proof counts detection
     through this advisory channel."""
@@ -110,10 +110,10 @@ def test_register_plain_prose_stays_silent():
 
 
 def test_miscopied_address_downgrades_to_review_fabrication_still_fails():
-    """Option A (Mark's ruling, 2026-08-29): an invented ADDRESS on a
+    """An invented ADDRESS on a
     sentence whose content lives in the world's records passes with a
     review finding; invented CONTENT still fails. Fixtures are the two
-    real cases from live-admission-report-revert-final-2026-08-29."""
+    real cases from a live admission report."""
     from engine.m3.grading import source_boundedness_check
     from engine.m3.masking import mask_for_grading
 

@@ -64,9 +64,6 @@ distortion_risk: high
 Imported from the old system's richer lexicon (alexlex024, "Word of God") at Mark's direction, as a
 draft, not a final version.
 
-corrected 2026-09-08, records/alx audit: the evidential claim's
-philosophy strand was cited to Protrepticus locus "1, 10", but chapter
-X (~29,566 chars) has zero occurrences of "philosoph*". The philosophy
-strand is actually Protrepticus Chapter VI ("By Divine Inspiration
-Philosophers Sometimes Hit on the Truth", anf02 line 17067); locus
-corrected from "1, 10" to "I, VI".
+The evidential claim's philosophy strand is Protrepticus Chapter VI ("By
+Divine Inspiration Philosophers Sometimes Hit on the Truth", anf02 line
+17067); locus is "I, VI".

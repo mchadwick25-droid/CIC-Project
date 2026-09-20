@@ -12,14 +12,6 @@ direction calls for additional ecological depth on a specific topic.
 
 ---
 
-## Version History
-
-v1.0 — Initial production. Single-topic World Context Layer chunk template with
-retrieval front-matter, inhabited second-person primary content, gravity connections,
-confidence note, and Final Assembly Instruction.
-
----
-
 ## Retrieval Front-Matter
 
 ```

@@ -62,21 +62,15 @@ me?' - a man the world would have written off, taught and remembered
 anyway) and F5-I (sickness/disability in the community's life: not
 cured, not excluded - taught).
 
-corrected 2026-09-08, records/alx audit, three findings: (1) 'He told
-Palladius the number of his years himself' overstated Palladius's own
-attribution - Palladius line 211 reads 'He was 85 years old when he
-died. He was blind, having lost his sight at the age of four, so he
-told me' - 'so he told me' grammatically attaches to the age he was
-blinded, not his age at death (which Palladius, writing after Didymus's
-death, could not have learned from him directly). Narrowed to the age
-of blinding. (2) 'still the teacher of the church's school', 'the
-Scripture he had taught for half a century', and 'Students came to
-him from everywhere' were not supported by this record's own cited
-loci (Palladius IV calls him 'the blind author'; Jerome De Viris 109
-is a works-list plus an age notice; neither mentions a school, a
-half-century span, or students coming from everywhere). The only
-vendored text calling him head of the school is an NPNF editor's
-introduction (npnf203, line ~44086), not primary-source text. All
-three claims are removed or softened rather than reworded onto an
-uncited basis. (3) The 'seer' epithet's citation is corrected - see
-absent_detail.
+Palladius line 211 reads 'He was 85 years old when he died. He was
+blind, having lost his sight at the age of four, so he told me' - 'so he
+told me' grammatically attaches to the age he was blinded, not his age
+at death (which Palladius, writing after Didymus's death, could not have
+learned from him directly); the text attributes to Palladius only the
+age of blinding. This record's own cited loci (Palladius IV, which calls
+him 'the blind author'; Jerome De Viris 109, a works-list plus an age
+notice) do not mention a school, a half-century span, or students coming
+from everywhere; the only vendored text calling him head of the school
+is an NPNF editor's introduction (npnf203, line ~44086), not
+primary-source text, and this record does not rest on it. The 'seer'
+epithet's citation is discussed in absent_detail.

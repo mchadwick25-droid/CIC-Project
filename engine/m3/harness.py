@@ -18,9 +18,9 @@ class ProbeResult:
     passed: bool
     checks: list[dict]
     error: str | None = None
-    # The answer as graded (2026-08-28): the f2-p register flag arrived with
-    # only the regex fragment on record - nothing for Mark's register read,
-    # which is the instrument the heuristic stands in for. Grading blindness
+    # The answer as graded: the f2-p register flag arrived with
+    # only the regex fragment on record - nothing for the human register
+    # read, which is the instrument the heuristic stands in for. Grading blindness
     # is untouched (checks still run on the masked transcript only); this
     # rides AFTER grading. Callers persisting reports decide what to keep -
     # live_admission_run keeps it for FAILING probes only, a seal-conscious
@@ -41,8 +41,8 @@ def _transitive_source_ids(records: dict[str, dict]) -> set[str]:
     hop differs. Resolving transitively fixes the false failures on the
     second convention without loosening what counts as grounded: a citation
     that doesn't trace to any real source record, by any path, still fails.
-    Mark's decision (2026-08-26, over two costlier alternatives that would
-    have meant re-tagging content across four worlds): fix the checker, not
+    The decision here, over two costlier alternatives that would
+    have meant re-tagging content across four worlds: fix the checker, not
     the data.
 
     Memoized and cycle-guarded - the corpus is a DAG in the intended case

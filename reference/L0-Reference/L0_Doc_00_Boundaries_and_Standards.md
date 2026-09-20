@@ -1,8 +1,7 @@
 # L0 Doc_00 — Boundaries and Standards for the Level 0 Reference Archive
 
-**Status: Approved to proceed** (Mark, 2026-07-28, in direct conversation — verbatim: "yes lets impliment your recommendation," confirming the recommendation as stated: approve as Approved to proceed rather than Frozen, since Frozen specifically requires Mark having seen the complete document and complete review artifacts himself, which had not yet happened at decision time; reopening later to Freeze it remains normal process, not a failure, per the Build Protocol's own rule). Round 1 independent review complete, findings applied; Round 2 incorporated a fourth governing input the project lead surfaced after that review (the Pre-Step-0 Survey — not itself a review finding, logged separately below); Round 3 applied that integration. **This was a Governance-level escalation per the Build Protocol's own categories ("Governance or methodology decisions — anything that changes how the build process itself works") — the disposition above is the project lead's own direct decision, not a self-certification.** See Section 7 for the companion coach-thread decision made in the same conversation.
+**Status: Approved to proceed** (Mark, 2026-07-28). See Section 7 for the companion coach-thread governance decision made in the same conversation.
 **Governed by:** Constitution Articles 4, 17, 20, 31, 35; Step 0 Movement-Scope Methodology V1.0; the Step 0 Conclusion (`reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx`); the Pre-Step-0 Survey (`Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_PreStep0_Survey_V0_1.md`); `reference/Project-Reference/CiC_OneDocAtATime_Build_Protocol_2026-07-06.md`; `reference/Project-Reference/CiC_Governance_Standing_Rules.md`.
-**Revision round:** 3 (Round 1 review findings applied in Round 2; Pre-Step-0 Survey integration applied in Round 3, below).
 
 ---
 
@@ -117,21 +116,3 @@ See `reference/Project-Reference/CiC_OneDocAtATime_Build_Protocol_2026-07-06.md`
 - PLRE/Connecting Late Antiquities' open-access status: **resolved in Round 1 review** — independently confirmed live and free (Section 4), with the institutional attribution corrected. No longer an open item.
 - The exact field-by-field cross-walk between this document's Sourcing Provenance tags and `world-census.json`'s own existing fields (`sourcing`, `floorNote`) is Step 1's own job, not resolved here — note that the Pre-Step-0 Survey's own prose fields (Sourcing signal, Ecology signal, Floor note, Relations) are very likely the direct source those census fields were generated from; Step 1 should confirm this rather than assume it, since it changes whether Step 1 treats the Survey document or the census JSON as the primary artifact to cross-walk against.
 
----
-
-## Revision Log
-
-### Round 1 → Round 2
-
-Round 1 was reviewed by an independent adversarial pass (`L0_Doc_00_Review_Round1.md`), which returned findings on four points, all applied directly below (no finding rose to a full re-review requirement, but per the Build Protocol's own substantial/cosmetic threshold, three of the four — a scope-boundary omission, a mis-citation, and an overclaimed sourcing confidence — count as substantial and are logged as such here, not smoothed over as cosmetic):
-
-1. **Geographic scope (Section 2) omitted Bethlehem** (world #9's own stated region) despite Section 2 claiming to be the complete union of all nine worlds' regions at "Documented" confidence. Added.
-2. **"Sasanian Adiabene" (Section 2) was misattributed to the Step 0 Conclusion**, which does not contain that phrase — the actual source is the Syriac world's own Doc_01. Re-cited correctly.
-3. **PLRE's institutional attribution (Section 4) was wrong** — described as a British Academy project hosted by Cambridge University Press; direct verification of `connectinglateantiquities.org` shows the actual funders (DFG, AHRC) and partners (Bonn, Exeter, London/SAS), hosted by Exeter Digital Humanities Lab. The underlying claim that Volume 1 is free and live now is independently confirmed and stands; the attribution is corrected. This also resolves Section 4's contradiction with Section 8, which had (correctly) called the same fact unconfirmed — Section 8 updated to reflect resolution.
-4. **Section 3's Desert/Alexandria status parenthetical was already stale** (Alexandria has since reached its own freeze declaration; Syriac reached one the same day). Reworded to rely on the underlying rule rather than a status snapshot, which is the more durable fix given how quickly this project's build statuses are currently moving.
-
-Per this document's own status line, these fixes do not constitute self-certification — the project lead makes the actual disposition call on this document, per its governance-level status (Section 7).
-
-### Round 2 → Round 3
-
-Not a review finding — the project lead directly surfaced a fourth existing input this document had not accounted for: the Pre-Step-0 Survey (`CiC_World_Atlas_PreStep0_Survey_V0_1.md`), a real, substantial, era-by-era candidate survey across all ten Atlas eras, already checked once against the academic field via a separate external-review pass. Applied: Section 0 names it as a fourth governing input; Section 1's "Eras 4–10 out of scope" claim is corrected to a narrower, more accurate one (out of scope for this build's *verification effort*, not for the archive's *awareness* — the Survey's candidate pool is a live input from the start); Section 3 adds an explicit division-of-labor statement (the Survey identifies candidates and signals across all history; Level 0 verifies specific claims to citation-grade and does the figure/text layer the Survey never attempts); Section 5 adds a new provenance tag, `Internal-Survey-Signal (needs upgrade)`, distinct from `Web-Lead` because this is the project's own careful work, not an external tertiary source, even though it isn't yet citation-grade either.

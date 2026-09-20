@@ -27,4 +27,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 104; a specific 
 external_ids:
   cappadocian_source_registry_row: 104
 ---
-Messalianism specifically, SS5 debate (8) -- previously credited to Caner alone (row 104).
+Messalianism specifically, SS5 debate (8) (row 104).

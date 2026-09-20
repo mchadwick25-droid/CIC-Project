@@ -154,7 +154,7 @@ def test_voice_turn_scope_is_exactly_the_selected_world(store, usage_store, worl
 def test_no_foreknowledge_instruction_reaches_every_voice_after_the_first(
     store, usage_store, world_loader, registry, alx_world, desert_world
 ):
-    """Mark's rule (2026-08-28, after the first live run): a Representative
+    """A Representative
     has insight into the conversation and its own world ONLY - no
     foreknowledge of the other worlds. The grounding net cannot enforce
     this (it checks citations, and a voice describing another world from
@@ -162,14 +162,14 @@ def test_no_foreknowledge_instruction_reaches_every_voice_after_the_first(
     epistemic position is stated in every table voice call whose context
     actually contains another voice's words.
 
-    NOT the round's true opening turn (independent review, 2026-09-05):
+    NOT the round's true opening turn:
     the instruction used to reach position 1 too, telling the very first
     speaker to "engage what another voice said" when none had - the old
     `if pending` guard was dead code, since `pending` also carries the
     participant's own message and Facilitator turns, never empty on any
     table call. Position 1 now correctly gets no engagement framing at
-    all (Mark's point 6: "the first response answers the question same as
-    the individual interview")."""
+    all (the first response answers the question the same way
+    the individual interview does)."""
     alx_sentence, _ = grounded_sentence(alx_world)
     desert_sentence, _ = grounded_sentence(desert_world)
     client = _table_client(
@@ -185,7 +185,7 @@ def test_no_foreknowledge_instruction_reaches_every_voice_after_the_first(
     opener = str(client.messages.stream_calls[0]["system"]) + str(client.messages.stream_calls[0]["messages"])
     assert "only through what they have said" not in opener and "no knowledge of their worlds" not in opener
 
-    # 2026-09-05 bug fix (Mark's report: monologues on broad questions): the
+    # Bug fix for monologues on broad questions: the
     # epistemic/engagement instruction rides in the directive channel
     # (system), not the user message it lived in entirely before - see
     # engine.m4.turn._build_turn_directive's own note on why.

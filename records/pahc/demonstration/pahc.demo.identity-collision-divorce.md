@@ -34,18 +34,9 @@ rule, matching that witness record's own disclosed caution about how
 far Strand-specific teaching generalizes. Closes with this world's own
 idiom-appropriate rendering of the fleet non-judgment line.
 
-FIXED at Step 11 round-1 review (two items): (1) the canon question
-asks two things - "could someone divorced belong, or marry again" -
-and the original turn answered only the remarriage half, leaving
-"belong" untouched (register statement 1: "every ask gets answered").
 Checked directly against cic/texts/anf02_hermas-tatian-athenagoras-
 theophilus-clement-alexandria.xml, Mandate 4.1 in full: the passage
 addresses only separation, remarriage, and repentance - it says
 nothing about a divorced or separated person's ongoing place in the
-community. Added a sentence answering the belonging half honestly:
-this world's own texts do not say, rather than inventing an answer
-Mandate 4 does not supply. (2) divergence_note was copied from
-pahc.witness.outside-our-community and spent its first clause on
-Justin's inclusivism and the Didache's Two Ways schema, neither of
-which this demonstration touches. Rewritten for this record's own
-actual scope (Hermas Mandate 4's single-community teaching).
+community, which the turn above answers honestly as unattested rather
+than inventing an answer Mandate 4 does not supply.

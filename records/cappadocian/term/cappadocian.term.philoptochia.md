@@ -14,7 +14,7 @@ confidence:
   divergence_note: 'Documented via Nazianzen''s and Nyssen''s own poverty orations, both genuinely vendored.
     Basil''s own famine and wealth homilies -- the era''s sharpest, most-quoted lines on this theme --
     are a separate case: no open-license translation of that specific homily set is vendored anywhere
-    in this project (Source Registry row 16, corrected 2026-08-31); the historical fact that Basil preached
+    in this project (Source Registry row 16); the historical fact that Basil preached
     on these themes in the famine of 368/9 is Widely Accepted, but any specific wording attributed to
     those homilies rests on general scholarly knowledge, not a checkable primary text.'
 sources:

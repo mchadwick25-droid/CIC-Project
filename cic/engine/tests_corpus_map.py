@@ -26,13 +26,13 @@ vita = [w for d in docs.values() for w in (d.get("works") or []) if "Vita Antoni
 results.append(check("a work may be assigned to several entries (checked by design, not by count)",
                      len(vita) >= 1))
 
-# Pre-Survey Candidate entries are valid targets - Mark, 2026-08-26.
+# Pre-Survey Candidate entries are valid targets.
 results.append(check("pre-survey entries are assignable",
                      any(s == "Pre-Survey Candidate" for s in ids.values()) and corpus_map._ANY_STATUS))
 
 
 
-# --- the staging -> bucket merge (added with the Fable handoff, 2026-08-26) ---
+# --- the staging -> bucket merge ---
 import corpus_map_merge  # noqa: E402
 
 rows, rulings, merge_findings = corpus_map_merge.load_staging()
@@ -69,7 +69,7 @@ results.append(check("every author ruling is used by some assignment",
 
 
 
-# --- the `antecedent` role (added with the Cyprian ruling, 2026-08-26) ---
+# --- the `antecedent` role ---
 buckets2, _ = corpus_map_merge.merge(write=False)
 ante = [(a, w) for a, ws in buckets2.items() for w in ws if w.get("role") == "antecedent"]
 results.append(check(f"the antecedent role is in use ({len(ante)} row(s))", bool(ante)))
@@ -90,7 +90,7 @@ results.append(check(f"antecedent stays a narrow relation ({len(ante)}/{total_ro
 
 
 
-# --- the `transmission` role (Mark's ruling, 2026-08-26) ---
+# --- the `transmission` role ---
 buckets3, _ = corpus_map_merge.merge(write=False)
 trans = [(a, w) for a, ws in buckets3.items() for w in ws if w.get("role") == "transmission"]
 results.append(check(f"the transmission role is in use ({len(trans)} row(s))", bool(trans)))

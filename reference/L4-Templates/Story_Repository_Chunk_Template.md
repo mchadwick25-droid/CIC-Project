@@ -10,14 +10,6 @@ for deployment retrieval, one file per story.
 
 ---
 
-## Version History
-
-v1.0 — Initial production. Single-story deployment chunk template with retrieval
-front-matter, story text in tier-appropriate register, formation ecology connection,
-tier justification, usage guidance, and Final Assembly Instruction.
-
----
-
 ## Retrieval Front-Matter
 
 ```

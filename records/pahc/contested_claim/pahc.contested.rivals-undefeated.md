@@ -49,15 +49,13 @@ here since this record's documented factual core (these movements were
 in-window and geographically overlapping) is what those two records'
 own content already answers substantively.
 
-FIXED at Step 7 round-1 review: claim was previously written as a
-normative instruction ("must be read as...") while formation_confidence
-stayed Documented - a normative instruction cannot itself be Documented,
-only the underlying fact pattern can. Restated claim as the documented
-factual core; the "must be read as... not as... " framing instruction
-now lives in concedes, explicitly marked as this build's own further,
+A normative instruction cannot itself be Documented,
+only the underlying fact pattern can: claim states the documented
+factual core, and the "must be read as... not as..." framing instruction
+lives in concedes, marked as this build's own further,
 undocumented methodological corrective rather than a second Documented
 fact. This is the same split pahc.contested.two-strand-packaging
-already handles correctly (there, by dropping to Inferential-Thin
+handles (there, by dropping to Inferential-Thin
 instead); this record keeps Documented because, unlike the two-strand
 frame, the factual core alone - not the framing instruction - is what
-formation_confidence now rates.
+formation_confidence rates.

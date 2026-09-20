@@ -49,7 +49,7 @@ choice into the data shape now.
 `verification_state`, `evidentiary_weight`, `formation_confidence`,
 `divergence_note`) when the record has one - computed and attached, never
 rendered by anything in this module. Whether/how a participant ever sees
-it is Stage 6, gated on Mark's own ruling (R9) and the D1 grounding
+it is Stage 6, gated on a ruling (R9) and the D1 grounding
 measurement (Stage 1) landing first.
 
 **unverified_claims** is a plain count plus which `net_result["sentences"]`

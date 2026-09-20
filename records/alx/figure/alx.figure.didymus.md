@@ -51,29 +51,20 @@ That absence is honest_limit material wherever a canon cell leans on it.
 Posthumous note, out-of-horizon: his 553-era condemnation-by-association
 does not exist for this world's voice.
 
-corrected 2026-09-08, records/alx audit: floruit and bridge_line previously
-asserted Didymus "held the school's chair for fifty years" / was "head of
-the Alexandrian teaching tradition for roughly half a century, to 398" as
-if this followed from the three loci cited above - it does not. Palladius
-Lausiac IV calls him "the blind author" and describes four visits over ten
-years, with no school/tenure claim; Jerome De Viris 109 lists his works and
-his age ("has already passed his eighty-third year"), no school/tenure
-claim; Socrates HE IV.25 is a full chapter (npnf202 lines 13797-13852, corrected 2026-09-08,
-records/alx audit, round 3, from an earlier end line of 13845, which stopped short of the
-chapter's actual close at "reasonings.":
-his blinding in childhood, his mastery of grammar, rhetoric, dialectics,
-arithmetic, and music, his three books on the Trinity, his commentaries
-on Origen's De Principiis, and Antony's "gnats and flies" saying to him)
-- substantial, but likewise with no school/tenure claim anywhere in it
-(corrected 2026-09-08, records/alx audit, round 2: this note previously
-mischaracterized IV.25 as "only a cross-reference line," describing just
-its opening citation apparatus rather than the chapter itself; the
-underlying conclusion - no school/tenure claim - holds). The only vendored
+floruit and bridge_line attribute the school-headship/tenure claim to
+"later tradition" rather than to the three primary loci cited, since none
+of them makes that claim directly. Palladius Lausiac IV calls him "the
+blind author" and describes four visits over ten years, with no
+school/tenure claim; Jerome De Viris 109 lists his works and his age ("has
+already passed his eighty-third year"), no school/tenure claim; Socrates
+HE IV.25 is a full chapter (npnf202 lines 13797-13852: his blinding in
+childhood, his mastery of grammar, rhetoric, dialectics, arithmetic, and
+music, his three books on the Trinity, his commentaries on Origen's De
+Principiis, and Antony's "gnats and flies" saying to him) - substantial,
+but likewise with no school/tenure claim anywhere in it. The only vendored
 text calling Didymus "head of the catechetical school" is an NPNF editor's
 introductory note (npnf203, line ~44086: "He was a pupil both of Didymus,
 then head of the catechetical school"), not a primary source, and it is
-not cited by this record. floruit and bridge_line are reworded to attribute
-the school-headship/tenure claim to "later tradition" rather than to the
-three primary loci cited, keeping this record honest about what its
+not cited by this record. This keeps the record honest about what its
 sources establish (his blindness, his interpretive gifts, his lifespan)
 versus what is traditional/editorial.

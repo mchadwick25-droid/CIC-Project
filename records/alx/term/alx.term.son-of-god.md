@@ -67,9 +67,7 @@ draft, not a final version. The old record also carried the Homoousios contest (
 alx.term.homoousios), which is not repeated here to avoid duplicating a contest already stated at its
 governing record.
 
-corrected 2026-09-08, records/alx audit: the informational sense's
-"confessed the Son as of one substance with the Father" was not
-present in any of this file's cited sources; the wording is the
-Creed of Nicaea's own (npnf214, line 2412: "being of one substance
-(ὁμοούσιον, consubstantialem) with the Father"), now cited via
-alx.source.nicene-creed-325.
+The informational sense's "confessed the Son as of one substance with
+the Father" wording is the Creed of Nicaea's own (npnf214, line 2412:
+"being of one substance (ὁμοούσιον, consubstantialem) with the
+Father"), cited via alx.source.nicene-creed-325.

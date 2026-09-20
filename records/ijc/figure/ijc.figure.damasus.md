@@ -45,9 +45,7 @@ Strand A's consolidating figure. THE HARD FACT CARRIED WITH HIM: his
 election was violently contested - Socrates IV.29's own narrative
 records that "many lives were sacrificed in this contention" between
 his and Ursinus's parties, not merely the disputed election's chapter
-heading ("Sedition and Loss of Life"), corrected at review (Opus
-historical-accuracy pass, 2026-08-21) from a prior draft that quoted
-the heading as if it were Socrates's own sentence. Ammianus's own fuller
+heading ("Sedition and Loss of Life"). Ammianus's own fuller
 pagan account (27.3) is now vendored and quoted directly
 (ijc.quote.ammianus-sicininus-massacre, ijc.quote.ammianus-roman-luxury;
 added 2026-09-13) - the casualty figure, 137 citizens killed in a single

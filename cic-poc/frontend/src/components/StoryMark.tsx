@@ -4,10 +4,10 @@
  * sourcing" is listed as its own track, distinct from "inline citations
  * (the ✲ marker)"). Before this, a cited story or quote fell through to
  * the generic CitationMark and read exactly like any other citation -
- * author/work/locus, nothing naming it as a story. Mark's own correction
- * (2026-08-25): a story's mark should hover with what a participant
- * actually wants to check for a story specifically - its reference code,
- * the English source it's drawn from, and the story's own title.
+ * author/work/locus, nothing naming it as a story. A story's mark should
+ * hover with what a participant actually wants to check for a story
+ * specifically - its reference code, the English source it's drawn from,
+ * and the story's own title.
  *
  * Same purple, same ✲, same InlineBridge grammar as every other track -
  * only the content and the record_types it fires for (story, quote) are

@@ -102,10 +102,10 @@ class TableRoundNotOpen(Exception):
 
 class TableAdvanceInFlight(Exception):
     """Another advance (message or /continue) for this table session is
-    already running in this process - the overlap the 2026-08-28 audit
-    found: a mid-round reload's auto-resume racing the original tab's
-    loop, each advancing the same round and doubling voice turns and
-    spend. Refused as a 409; the client simply keeps continuing."""
+    already running in this process - a mid-round reload's auto-resume can
+    race the original tab's loop, each advancing the same round and
+    doubling voice turns and spend. Refused as a 409; the client simply
+    keeps continuing."""
 
 
 class TableRoundStillOpen(Exception):
@@ -844,18 +844,12 @@ def _advance_open_round(
 
     turns_now = position
     if config.cap_reached(turns_now, num_seats=num_seats):
-        # PRE-EXISTING BUG (found by independent review, 2026-09-05; dates
-        # to 436128f1, 2026-08-30 - not introduced by this session's round-
-        # length work, fixed while already in this function with the
-        # context loaded). `state` still reflects pre-turn bookkeeping, and
-        # round_no/turn_count are unchanged by a voice_turn fold - but
-        # _close_round's own governance_summary(state.transcript, ...) read
-        # the STALE transcript, silently missing the turn just written two
-        # lines above. A cap-closed round's own round_closed.governance
-        # undercounted whichever voice closes it by exactly one turn, on
-        # every cap-forced close - the M7 audit surface's per-voice
-        # turn/word shares were wrong on the one path this project's own
-        # dominance detector most needs to be right on.
+        # `state` still reflects pre-turn bookkeeping, and round_no/turn_count
+        # are unchanged by a voice_turn fold - so _close_round must re-project
+        # fresh (project_fresh below) rather than pass state.transcript
+        # directly, or governance_summary silently misses the turn just
+        # written two lines above, undercounting whichever voice closes a
+        # cap-forced round by exactly one turn.
         turn_no = _close_round(store, project_fresh(session_id, store), reason="cap", turns=turns_now)
         return TableMessageResult(
             **common, round_open=False, turn_selected=selected_payload, voice=voice_event, position=position, turn_no=turn_no

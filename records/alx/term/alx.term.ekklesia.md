@@ -60,15 +60,9 @@ distortion_risk: high
 Imported from the old system's richer lexicon (alexlex043, "Church / Ekklesia") at Mark's direction, as
 a draft, not a final version.
 
-corrected 2026-09-08, records/alx audit: the evidential claim was
-cited to Quis Dives Salvetur "(whole)", but that work is an exposition
-on wealth and salvation with "Church" appearing only 5 times, mostly
-in its closing narrative, and does not support the "genuine knowledge
-and love actually develop" framing. Stromateis VII.5 ("The Holy Soul a
-More Excellent Temple Than Any Edifice Built by Man") directly
-supports it: "how shall we not with propriety call the Church holy,
-through knowledge... For it is not now the place, but the assemblage
-of the elect, that I call the Church." Sources and wording were
-corrected to cite alx.source.clement-stromateis at VII.5; the Quis
-Dives citation, doing no other work in this file, was removed rather
-than kept for a narrower point.
+Stromateis VII.5 ("The Holy Soul a More Excellent Temple Than Any
+Edifice Built by Man") directly supports the evidential claim: "how
+shall we not with propriety call the Church holy, through knowledge...
+For it is not now the place, but the assemblage of the elect, that I
+call the Church." Sources and wording cite alx.source.clement-stromateis
+at VII.5.

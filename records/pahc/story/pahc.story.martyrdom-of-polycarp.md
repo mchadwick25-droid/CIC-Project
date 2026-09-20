@@ -78,17 +78,8 @@ dagger and "there came forth a dove... and a great quantity of blood,
 so that the fire was extinguished" - the dove's own textual status is
 independently disputed even in the ANF edition's own footnote, and is
 not asserted here as settled); ch. 18 ("more precious than the most
-exquisite jewels, and more purified than gold" - corrected from an
-earlier paraphrase error in the approved Doc_09 chunk itself, which
-read "finest gold," conflating jewels and gold; the actual vendored
-wording is used here). canon_cells: F6-E (f6-e-02) reinforces pahc.
+exquisite jewels, and more purified than gold"). canon_cells: F6-E (f6-e-02) reinforces pahc.
 force.martyrdom-meaning and pahc.gravity.martyrdom-meaning, the same
 cell both already claim.
-
-FIXED at Step 9 round-1 review: "the Lord permitting" (ch. 18) was not
-this vendored edition's own wording - grepped the full stripped ANF
-vol. 1 and found zero occurrences of that phrase anywhere in the
-volume. Corrected to the edition's actual phrase at that point in the
-same sentence, "as opportunity is allowed us."
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

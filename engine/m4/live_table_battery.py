@@ -1,12 +1,12 @@
 """The Table validation battery (C5; Artifact-7 SS8) - the successor to the
 poc's S4.4a battery, run against the new engine's real table path. Real,
-billed Bedrock calls under Mark's explicit authorization, never CI (the
+billed Bedrock calls under explicit authorization, never CI (the
 deterministic halves of everything probed here are already CI:
 test_table_isolation, test_table_governance, test_table_api).
 
-RESHAPED (2026-09-17, closing the 2026-09-05 STALE flag this replaces):
+RESHAPED (closing the STALE flag this replaces):
 the original six probes ran one session of five real rounds against
-TABLE_SESSION_ROUND_CAP=5; Mark resized the cap to 3 the same day this
+TABLE_SESSION_ROUND_CAP=5; the cap was resized to 3 the same day this
 battery was last touched, and L4/L5 would now run past it - round.py's
 own cap check refuses any round once rounds_completed >= 3, before
 either probe ever spent a call. Dropping L4/L5 to fit one 3-round
@@ -41,8 +41,8 @@ than assumed to generalize from one.
                                     commits with turns 0
   L4  no-foreknowledge probe        RECORDED - a voice asked directly
                                     about another seated world should
-                                    claim only what it heard here
-                                    (Mark's rule, 2026-08-28); graded by
+                                    claim only what it heard here;
+                                    graded by
                                     read, isolation sweep still AUTO
   L5  cross-voice memory            RECORDED - who said what, attributed
                                     accurately across rounds, from
@@ -325,7 +325,7 @@ def run(region: str, *, world_keys: list[str]) -> dict:
     r0 = results[0]
     record_b(
         "L4-no-foreknowledge",
-        f"{names[first]} claims only what it has heard at this Table about {names[second]}'s world (Mark's rule, 2026-08-28); graded by read",
+        f"{names[first]} claims only what it has heard at this Table about {names[second]}'s world; graded by read",
         f"first speaker {r0.voice and r0.voice['speaker']}, direct-address routing {'yes' if r0.turn_selected and 'direct address' in r0.turn_selected['reason'] else 'no'}",
         "RECORDED",
         results,

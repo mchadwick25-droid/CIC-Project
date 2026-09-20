@@ -52,50 +52,11 @@ manifestations:
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 10, SS2
 row 10, SS3, SS4, SS5 row 10, SS6 (gravity 10). Generated and tested as
-a full candidate in its own right, not asserted only at classification -
-Doc_04's own Round 1 review caught and corrected exactly that failure
-mode in an earlier draft (a tenth "gravity" introduced at the
-classification stage without running any of the six tests). The
-generating quotation is Doc_01 SS4's own finding that the two models
+a full candidate in its own right, not asserted only at classification.
+The generating quotation is Doc_01 SS4's own finding that the two models
 represent "two different operative models of how legitimate spiritual
 authority is constituted and transmitted, coexisting within the same
-world in the same decades" (citation corrected to SS4, not SS6, per
-Doc_04's own Round 2 review, Finding NEW-2).
-
-Step3b Review Round 1, Finding M8: the office-based model was
-illustrated by name ("housemaster, steward") without naming its
-channel or registering a source that carries it - neither vendored
-witness supplies the office names (Palladius XXXII has "the Superior"
-and "the second"; Sozomen III.14 has none), so the names reached this
-record through unregistered consult-only scholarship, against
-desert.source.pachomian-corpus's own standing rule to name a
-Rule-content claim's actual channel. Palladius, Sozomen, and Rousseau
-registered above. Finding S8: no forces-connection notation was stated
-in this record's own text - added.
-
-Step3b Review Round 2, Finding M3: the Round 1 fix's own phrasing
-("as Rousseau's scholarship names them") named the modern reader as
-the channel rather than desert.source.pachomian-corpus's own second
-form ("as the Latin Rule transmits", via consult-only scholarship) -
-corrected to the rule's own channel language, with Rousseau as the
-specific scholarship within it. The Round 1 note's claim to be
-"matching desert.term.koinonia's own sourcing for the identical claim"
-was itself inaccurate - that record's informational sense states the
-offices with no in-text attribution at all, a difference in convention
-between an institutional description and this record's own analytic
-citation, not a genuine match - removed. Finding M2: the office-based
-model's evidence rested partly on Sozomen without that source's own
-dependence screen ("where Sozomen tracks Socrates, he is not a second
-witness") - added to the Sozomen locus. Finding S5: the Apophthegmata's
-structure was offered as evidence unscreened, the same move fixed on
-elder-authority and spiritual-combat in the previous round but missed
-here though this record was edited in that same commit - added.
-
-Step3b Review Round 3, Findings S1/S2: the Round 2 fix's Sozomen locus
-asserted Sozomen III.14 "tracks Socrates" - checked directly against
-the vendored file's own editorial source-note for that chapter, which
-does not list Socrates among its sources but does list Palladius's
-Lausiac History. Corrected to name the real dependence.
+world in the same decades."
 
 Step3c: desert.figure.pachomius added as associated-with, not
 tension-with - the founder of the office-based pole is himself

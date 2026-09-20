@@ -49,8 +49,8 @@ def write_session_audit(out_dir: Path, audit: dict) -> Path:
 
 
 def build_utilization(audits: list[dict], shelves: dict[str, dict] | None) -> dict | None:
-    """Corpus utilization per world (Mark, 2026-08-29: "what percentage of
-    the current sources are being accessed"): the union of every record id
+    """Corpus utilization per world - what percentage of
+    the current sources are being accessed: the union of every record id
     cited across these sessions, against each world's citable shelf.
     `shelves` maps world_key -> {"citable_ids": [...], "by_type": {type:
     [ids...]}} (the CLI builds it from the pinned packages, read-only).
@@ -208,7 +208,7 @@ def write_digest(out_dir: Path, rollup: dict) -> Path:
 def write_canon_candidates(out_dir: Path, audits: list[dict], min_count: int = 2) -> Path:
     """canon-candidates.json - operator-only (participant-authored asks).
     An ask recurring across sessions (or min_count times overall) is raw
-    material for the Question Canon; Mark decides what enters (spec stage
+    material for the Question Canon; a human decides what enters (spec stage
     9: 'a real question enters the canon' - a person rules, this file only
     counts)."""
     out_dir.mkdir(parents=True, exist_ok=True)

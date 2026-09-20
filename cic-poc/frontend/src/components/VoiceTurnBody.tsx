@@ -25,18 +25,16 @@
  *
  * A citation's own sources (engine.m4.citation_cards.resolve_source_card)
  * carry record_type, which is what routes each cited record to its own
- * track (Mark's own correction, 2026-08-25 - the asterisks "don't make
- * sense where they're placed"):
+ * track rather than a single generic asterisk placed without regard to
+ * what's actually being cited:
  *   - story/quote sources get their own inline mark (StoryMark), right
  *     where the generic citation mark used to sit.
  *   - doctrinal_witness sources get their own inline mark too
- *     (WitnessMark, added 2026-09-09) - same reasoning, different copy: a
- *     witness sentence is the build's own reviewed synthesis of real
- *     sources, not a story or a verbatim quote, and reads as freely
- *     generated when its sourcing only shows up in the collapsed
- *     end-of-turn list (Mark's own live catch - a load-bearing synthesis
- *     line he'd approved on review read, months later, as an ungrounded
- *     AI tell, because nothing inline said otherwise).
+ *     (WitnessMark) - same reasoning, different copy: a witness sentence
+ *     is the build's own reviewed synthesis of real sources, not a story
+ *     or a verbatim quote, and reads as freely generated when its
+ *     sourcing only shows up in the collapsed end-of-turn list instead of
+ *     inline, even when the underlying synthesis is fully grounded.
  *   - a term/figure source already carrying a word-level mark ANYWHERE
  *     EARLIER IN THIS TURN is not marked again - the word itself is the
  *     mark, so a General-Reference entry for the same id later in the
@@ -184,14 +182,12 @@ export function VoiceTurnBody({ text, citations, figuresUsed = [], glosses = [] 
   };
 
   // ONE ✲ per story/quote source per turn, after the telling ends -
-  // never one per cited sentence (Mark, live pilot, 2026-08-30: "its
-  // just a bunch of astric... that is not the design" - a story told
-  // across four sentences drew four identical marks, because the
-  // engine's per-sentence citation grain was rendered 1:1. The design's
-  // own grammar is sparse: dotted-underline words plus the ✲, and his
-  // 2026-08-25 correction places a story's mark after THE sentence that
-  // told it - singular). A card renders at the last segment of the
-  // contiguous run of sentences citing its record; a non-consecutive
+  // never one per cited sentence. Rendering the engine's per-sentence
+  // citation grain 1:1 would draw one identical mark per sentence for a
+  // story told across several sentences - the design's own grammar is
+  // sparse: dotted-underline words plus the ✲, placed after THE sentence
+  // that told the story - singular. A card renders at the last segment of
+  // the contiguous run of sentences citing its record; a non-consecutive
   // re-cite later in the turn renders nothing more. The citation DATA
   // is untouched - verification stays per-sentence; only the marks
   // thin out.

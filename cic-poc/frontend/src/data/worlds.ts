@@ -26,11 +26,10 @@ export interface WorldAssets {
 // differently). A world_key GET /api/worlds returns that isn't listed here
 // has no known assets yet and is left off the list rather than shown
 // without a portrait. Eleven formation worlds as of 2026-09-20 (witt added
-// once its own package was admitted; its Representative portrait, Nikolaus
-// - approved 2026-09-19, "lock it in" - Mark placed into GitHub as
-// nikolaus.jpg, per site-portrait/witt's own now-CLOSED cross_world entry;
-// copied here to match, since this file previously pointed at nikolaus.png,
-// which was never the real file's own extension).
+// once its own package was admitted; its Representative portrait, Nikolaus,
+// lives in GitHub as nikolaus.jpg, per site-portrait/witt's own now-CLOSED
+// cross_world entry; copied here to match, since this file previously
+// pointed at nikolaus.png, which was never the real file's own extension).
 export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic', 'don', 'rzg', 'witt'];
 
 // 2026-09-17 dark-mode change order: every accentColor below was lightened
@@ -53,13 +52,13 @@ export const WORLD_ASSETS: Record<string, WorldAssets> = {
   hal: { portraitImage: '/images/portraits/bethlehem.png', accentColor: '#B77889' },
   syr: { portraitImage: '/images/portraits/syriac.png', accentColor: '#5493A0' },
   ijc: { portraitImage: '/images/portraits/empire.png', accentColor: '#B67D50' },
-  // Seventh world, added 2026-09-01 once Chilo's portrait was locked (Mark: "yes, lock it in").
+  // Seventh world, added 2026-09-01 once Chilo's portrait was locked in.
   // Light-mode color was #A0522D (a warm sienna/terracotta, echoing the loaf's own baked crust) -
   // checked against every color above and the two reserved semantic tokens (--color-tyrian
   // #6B3FA0, the lexicon/transparency apparatus's own pigment; --color-participant/"lapis"
   // #1E40AF) for a distinct hue.
   cappadocian: { portraitImage: '/images/portraits/cappadocian.jpg', accentColor: '#CB7247' },
-  // Eighth world, added 2026-09-13 once Renatus's portrait was locked (Mark: "yes, lock it in").
+  // Eighth world, added 2026-09-13 once Renatus's portrait was locked in.
   // Light-mode color was #5A6B74 (a cool slate blue-grey, grounded in this world's own repeated
   // cold-of-Gaul theme) - checked against every color above and the two reserved semantic tokens
   // for a distinct hue and temperature (per gallic_Representative_Portrait_Grounding_Brief.md).

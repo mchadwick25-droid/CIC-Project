@@ -36,8 +36,7 @@ Ch. 48 preserves the actual text of the 313 Milan agreement ("when we,
 Constantine and Licinius, emperors, had an interview at Milan..." -
 verified against this file directly; NOT the "When I, Constantine
 Augustus, and I, Licinius Augustus..." wording, which is a different
-translation of a different work, Eusebius HE X.5 in npnf201, this
-build's own error caught at review and corrected here), making this the
+translation of a different work, Eusebius HE X.5 in npnf201), making this the
 world's most direct witness to its own legal beginning. Two surviving
 transmissions of the same document exist in this build's own registry:
 Lactantius's (this record) and Eusebius's (ijc.source.eusebius-historia-ecclesiastica,

@@ -27,4 +27,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 91; a specific n
 external_ids:
   cappadocian_source_registry_row: 91
 ---
-The self-fashioning/self-reporting caution on Nazianzen, SS1.2/SS5 debate (6) -- the position an earlier draft wrongly attributed to McGuckin instead (row 91).
+The self-fashioning/self-reporting caution on Nazianzen, SS1.2/SS5 debate (6), attributed to McLynn (row 91).

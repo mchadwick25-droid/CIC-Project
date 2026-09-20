@@ -8,7 +8,7 @@ re-confirmed here rather than assumed to transfer.
 
 ## What B-8 is, as the governing process document currently states it
 
-`reference/method/CiC_Record_Native_World_Build_Process_V1_3.md`, row B-8
+`reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`, row B-8
 (S2.8): "Chunk views GENERATED from records; render parity (0 unclassified
 defects); retrieval parity vs the committed production baseline (the
 verdict rule: isolation-harness reproduction is diagnosis only — the

@@ -41,8 +41,7 @@ cannot be closed further: the Greek alphabetical collection is where the
 other two ammas live, and this search is why no English of it can be
 vendored.
 
-(Also corrected 2026-08-27: an earlier draft of this note pointed at
-`desert.limit.f5-women-own-words`, which does not exist in this world -
-that record is syr's and alx's. Desert carries the caution in its
-registry thinness_statement, in desert.figure.sarah, and in
-desert.demo.identity-collision-womens-authority.)
+`desert.limit.f5-women-own-words` does not exist in this world - that
+record is syr's and alx's. Desert carries the caution in its registry
+thinness_statement, in desert.figure.sarah, and in
+desert.demo.identity-collision-womens-authority.

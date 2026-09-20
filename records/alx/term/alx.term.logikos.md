@@ -77,15 +77,11 @@ theologically linked cluster as Nous, Apokatastasis, and Fall/Descent (the old s
 Origen-cluster CT terms," one Meaning contest). The 553 condemnation is OUT OF HORIZON and does not
 exist for this world's voice; the voice knows the unease, not a verdict.
 
-corrected 2026-09-08, records/alx audit: sources gave vague prose
-loci ("(the rational-natures framework)", "(the Logos-kinship
-register)") despite citation_specificity: B implying verifiability.
-De Principiis I.5 is literally titled "On Rational Natures" (anf04,
-div id vi.v.ii.v, line 23916 - Book I per div vi.v.ii, chapter V) and
-the Origen locus is corrected to "I.5". No specific Stromateis chapter
-discussing rational-nature-as-Logos-kinship could be confidently
-pinned down (checked "kinship", "akin to reason", "rational nature" -
-no clean hit in anf02); that locus is left flagged as vague rather
-than falsely precise, and citation_specificity is downgraded from B to
-C to reflect what is actually verifiable pending a real Stromateis
-locus.
+De Principiis I.5 is literally titled "On Rational Natures" (anf04, div
+id vi.v.ii.v, line 23916 - Book I per div vi.v.ii, chapter V); the
+Origen locus is "I.5". No specific Stromateis chapter discussing
+rational-nature-as-Logos-kinship can be confidently pinned down (checked
+"kinship", "akin to reason", "rational nature" - no clean hit in anf02);
+that locus is left flagged as vague rather than falsely precise, and
+citation_specificity is set to C to reflect what is actually verifiable
+pending a real Stromateis locus.

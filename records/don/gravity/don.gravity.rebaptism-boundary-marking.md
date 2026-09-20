@@ -64,7 +64,7 @@ description: 'Doc_04 SS3.2: PRIMARY, 6/6 tests PASS (strong). Repetition: Doc_02
   drew sustained imperial legal attention (rebaptizing Catholics was itself a targeted legal offense)
   and the specific content of the 411 Conference''s own concerns. Persistence: attested from origin through
   the 411 Conference; Doc_01 SS2 additionally names Gregory the Great''s 590s correspondence bearing on
-  Donatist rebaptism specifically in Numidia -- now partially vendored (Registry row 54, corrected 2026-09-08)
+  Donatist rebaptism specifically in Numidia -- now partially vendored (Registry row 54)
   and directly confirming rebaptism as a live Donatist practice in Numidia through 592, though this document
   does not extend that into a claim about the practice''s own scale or character at that date beyond the
   letters'' own words. Interaction: reinforces G1 (its doctrinal ground); reshaped by T2; the specific

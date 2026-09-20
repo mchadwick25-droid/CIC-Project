@@ -139,7 +139,7 @@ class WorldSummary(BaseModel):
     census_id: str | None
     display_name: str | None
     # The friendly participant-facing name; display_name is the scholarly
-    # one (both registers, Mark's ruling 2026-08-28).
+    # one. Both registers are kept.
     card_name: str | None = None
     representative: dict | None
     time_window: dict | None

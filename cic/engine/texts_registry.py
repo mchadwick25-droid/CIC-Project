@@ -31,7 +31,7 @@ scanning the records: when it arrived, who supplied it, and free-form notes
 (the editorial content that used to live only in the hand-maintained
 README - e.g. "this volume's own Julius is Africanus, not Rome" - preserved
 here so it survives being folded into a generated document instead of a
-hand-edited one). Moved out of this module 2026-09-02 (Mark's sign-off) to
+hand-edited one). Moved out of this module to
 cic/texts/REGISTRY.yaml - same fields, same discipline, same "only what a
 file can't say about itself" rule - see that file's own header for the
 schema. This module still reads it, still validates it against what's

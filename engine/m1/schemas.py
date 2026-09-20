@@ -63,9 +63,9 @@ _SOURCE_REF_SCHEMA = {
         "source_id": {"type": "string"},
         "locus": {"type": "string"},
         "license": {"type": "string"},
-        # Optional, additive (2026-09-02, Mark's sign-off: "new address field,
-        # locus untouched" + "optional/best-effort, existing where possible").
-        # The canonical passage address defined this session, form
+        # Optional, additive: a new address field,
+        # locus untouched, optional/best-effort, existing where possible.
+        # The canonical passage address, form
         # `cic:<file-stem>:<locus>` (see cic/corpus-map/README.md's addressing
         # note and cic/engine/works_registry.py's own parse_address()) - a
         # machine-checkable pointer alongside locus's free-text citation form,
@@ -112,12 +112,12 @@ ENVELOPE_PROPERTIES = {
     "register": {"enum": ["emic", "etic", "emic-unavailable"]},
     "canon_cells": {"type": "array", "items": {"type": "string"}},
     # Authored opt-out from M2's demo auto-tagging (engine/m2/builders.py's
-    # _demonstration_candidates(), added 2026-08-29, craft cycle 2): a
+    # _demonstration_candidates()): a
     # record whose own framing vocabulary ("we cannot tell you", "plainly")
     # false-tags unrelated demo sentences at the shipping floor sets
     # `demo_tag: exclude` rather than being silently mistagged. Real,
-    # load-bearing field (5 honest_limit records use it fleet-wide as of
-    # 2026-09-02) that was simply missing from this schema until now -
+    # load-bearing field (5 honest_limit records use it fleet-wide)
+    # that was simply missing from this schema until now -
     # every record carrying it was failing gate_schema_validation, the
     # same shape of gap quote.modern_rendering was in before it. Spans
     # every type builders.py's own _DEMO_CANDIDATE_TYPES lists (not just
@@ -179,8 +179,8 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "attribution_status": {"type": "string"},
         "discovery_channel": {"type": "string"},
         "external_ids": {"type": "object"},
-        # Optional, additive (2026-09-02, Mark's sign-off: "optional/best
-        # effort and existing where possible"): foreign key into
+        # Optional, additive, best effort and existing where possible:
+        # foreign key into
         # cic/corpus-map/WORKS.yaml's own work_id, cross-checked by
         # cic/engine/works_registry.py's record_work_id_problems(), not by
         # this schema (a typo'd id is still a well-formed string). Not yet

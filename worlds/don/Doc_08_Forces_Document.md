@@ -14,7 +14,7 @@
 **World name:** Donatism
 **World code:** `don`
 **Representative name:** PENDING — not named until Representative Emergence (Step 10), which occurs after this document.
-**Doc_08 completion date:** DRAFT, 2026-09-02
+**Doc_08 completion date:** 2026-09-02 (Approved to proceed)
 **Builder:** Donatism build thread
 **Doc_02 (Source Ecology) version this analysis draws from:** `Doc_02_Source_Ecology.md`, Approved to proceed (revised 2026-09-02 for the G1–G7 acquisition round)
 **Doc_04 (Historical Gravity) version this analysis draws from:** `Doc_04_Gravity_Discovery.md`, Approved to proceed

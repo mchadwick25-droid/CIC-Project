@@ -64,7 +64,7 @@ def test_a_quote_attributed_to_a_bare_figure_id_resolves_to_the_figures_real_nam
     string "alx.figure.clement" - the corpus's own "sometimes an id,
     sometimes prose" convention for this field. Before this fix every
     such quote's label was that raw id, verbatim, to the participant.
-    Since the source-first relabel (Mark's pilot read, 2026-08-30) the
+    Since the source-first relabel, the
     resolved figure name is the attribution half, after the work."""
     repo = _real_repository("alx")
     card = resolve_source_card("alx.quote.clement-new-song", repo)
@@ -72,8 +72,8 @@ def test_a_quote_attributed_to_a_bare_figure_id_resolves_to_the_figures_real_nam
 
 
 def test_a_quote_with_sources_labels_source_first_speaker_as_attribution():
-    """Mark's pilot read (2026-08-30): "the links are to ignatious, not
-    the source." The quote card's headline was the speaker; now it is
+    """A pilot read found the links pointed to the person, not
+    the source. The quote card's headline was the speaker; now it is
     the work and passage, with the speaker after the dash - the same
     correction the figure bridge already carries. The headline takes the
     title half of work/locus (before the scholarly apparatus); the full

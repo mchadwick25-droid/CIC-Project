@@ -427,7 +427,7 @@ def test_secondary_context_defaults_to_none_and_changes_nothing():
 
 
 def test_already_bridged_figures_reach_the_voice_as_an_already_introduced_line():
-    """Mark's pilot read (2026-08-30): both Chloe turns opened "One of us,
+    """A pilot read found both Chloe turns opened "One of us,
     Ignatius" - already_bridged_figure_ids kept the second UI mark from
     firing but never reached the voice. The set now also resolves to
     spoken names and rides in the evidence block, so the voice knows the
