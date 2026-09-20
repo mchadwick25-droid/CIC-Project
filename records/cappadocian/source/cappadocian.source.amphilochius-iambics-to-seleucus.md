@@ -47,11 +47,7 @@ edition: >-
   translating the original as it is found in Beveridge's Synodicon, Tom. II., p. 179" --
   and notes the passage is also in Aristenus' Epitome, with no Balsamon scholion on it.
 kind: vendored
-rights_status: >-
-  public-domain; vendored in cic/texts/, present in the shared library since 2026-08-15.
-  The extract's own presence, heading, locus and full wording were read directly out of
-  the vendored file, and its word counts measured from it, rather than taken from any
-  prior document's or index's description of it.
+rights_status: "public-domain; vendored, present in the shared library since 2026-08-15"
 attribution_status: attributed
 discovery_channel: >-
   independent verification pass, 2026-09-09, of a discovery-sweep finding that this world's

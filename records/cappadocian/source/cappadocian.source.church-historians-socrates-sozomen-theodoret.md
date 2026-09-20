@@ -20,8 +20,7 @@ work: The church historians' Ecclesiastical Histories -- secondary narrative sou
 edition: Socrates and Sozomen vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml;
   Theodoret vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
-  in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 62; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

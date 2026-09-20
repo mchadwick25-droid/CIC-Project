@@ -18,8 +18,7 @@ author: n/a -- no individual author named for this work in the Source Registry r
 work: Encyclopaedia Britannica
 edition: (online), "Andreas Karlstadt" — tertiary
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 89; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)
 discovery_channel: WebSearch (summaries only; page blocked); Source Registry row 89; 2026-09-15 (Revision
   1)

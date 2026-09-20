@@ -19,8 +19,7 @@ work: Formula Missae
 edition: (1523) and Deutsche Messe und Ordnung des Gottesdiensts (1526) as service orders — NOT VENDORED
   (only the German Sanctus, hymn XXV, is in R27)
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 59; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: builder-direct-read of references; Source Registry row 59; 2026-09-15
 external_ids:

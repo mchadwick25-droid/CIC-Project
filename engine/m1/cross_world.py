@@ -123,15 +123,26 @@ ACCEPTED_OPEN: dict[str, str] = {
     "figure-dates-keys/ijc": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
     "figure-dates-keys/syr": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
     "figure-dates-keys/witt": "F-04-analogue - all 6 witt figure records key figure.dates as `display` (one-sentence prose covering dates this world's own sources leave contested or partial - e.g. Luther's own record gives no birth date and states his death year only as this world's already-established closing boundary; the Brussels martyrs record gives a burning date corrected from a printed heading's own misprint and states plainly that no birth date or age survives for either man) - none of the six reduce cleanly to born/died/floruit without losing the disclosed uncertainty itself. Found 2026-09-19 during Phase C recon; same disclosed-not-fixed disposition as pahc's, cappadocian's, gallic's, and don's own instances, not a mass rewrite improvised under this step - belongs to a witt build thread.",
-    # app-world-assets/witt and app-world-order/witt CLOSED 2026-09-20: both
-    # opened 2026-09-19 for the same frontend-deployment-wiring gap this
-    # comment block described as "the actual remaining work"; closed the
+    # app-world-assets/witt, app-world-order/witt, and site-portrait/witt
+    # CLOSED 2026-09-20: all three opened 2026-09-19 for the same
+    # frontend-deployment-wiring gap this comment block described as "the
+    # actual remaining work". app-world-assets/app-world-order closed the
     # same go-live pipeline's own merge pass once cic-poc/frontend/src/data/
     # worlds.ts actually got its WORLD_ORDER entry and WORLD_ASSETS entry
     # (witt's accent color reused from cic-website/table.html's own
     # already-fixed #579C40, contrast independently recomputed against both
-    # dark-mode thresholds rather than assumed). Not left stale.
-    "site-portrait/witt": "Phase C recon, 2026-09-19: as app-world-assets/witt - the cic-website/traditions/lutheran-wittenberg-and-its-congregations.html portrait page needs the same now-approved Representative portrait wired in, belonging to this go-live pipeline's own Phase C pass. witt.yaml's own census_id is already set (unlike gallic's own B-8/B-9 window, which lacked one entirely) - only the wiring itself is outstanding. UPDATED, 2026-09-19 (later same day): the page itself now exists, grounded in this world's own records, quotes independently re-verified - what remains is purely the portrait image FILE (Mark placing Nikolaus_Portrait.png into the repo directly, the same way he did for the other 8 Representatives), not the page or its wiring. UPDATED, 2026-09-20: cic-poc/frontend/src/data/worlds.ts's own WORLD_ASSETS/WORLD_ORDER entries are now wired (see app-world-assets/witt, CLOSED, above) - this entry stays open for the website's own traditions/lutheran-wittenberg-and-its-congregations.html <img> and both live-serving asset folders, which still resolve to a file that does not exist on disk. Still Mark's own step, not this pipeline's to fabricate.",
+    # dark-mode thresholds rather than assumed). site-portrait/witt CLOSED
+    # 2026-09-20: opened during Phase C recon for the portrait image FILE
+    # this comment block's own prior text named as the one outstanding
+    # piece. Mark placed the actual file - as nikolaus.jpg, not the .png
+    # this tracking's own earlier notes assumed - into cic-website/assets/
+    # portraits/ (PR #323, "Wire in Nikolaus's portrait") and the
+    # traditions page's own <img src> was updated to match; that closed
+    # the public site's own side. cic-poc/frontend's own separate
+    # live-serving copy and worlds.ts's portraitImage path (which still
+    # pointed at the old .png guess) were the one piece still open after
+    # that PR and have been corrected here to match the real file. Not
+    # left stale.
     # census-id/witt CLOSED 2026-09-19: opened for the real admitted-but-
     # not-yet-synced gap right after witt's own admission; closed the same
     # day once `python -m engine.m6.cli sync` actually ran (Mark's own

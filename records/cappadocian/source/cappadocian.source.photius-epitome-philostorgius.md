@@ -22,8 +22,7 @@ work: Photius' Epitome of Philostorgius' Ecclesiastical History -- the one survi
   frame
 edition: Walford's 1855 translation, vendored as cic/texts/philostorgius_ecclesiastical-history_walford1855.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ and independently verified (identity, completeness,
-  provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed to Philostorgius, filtered through Photius' own hostile epitome -- carry
   that filtering forward at every use
 discovery_channel: builder-prior-knowledge; Source Registry row 63; the file itself was independently

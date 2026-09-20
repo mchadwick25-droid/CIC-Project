@@ -19,8 +19,7 @@ work: Basil's Epistle 8
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff,
   vendored as cic/texts/npnf208_basil-letters-select-works.xml'
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
-  in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: contested (generally attributed to Evagrius Ponticus, not Basil, though transmitted
   under Basil's name -- Doc_02 SS1.1's own attribution-discipline claim)
 discovery_channel: builder-prior-knowledge; Source Registry row 26; a named, vendored text already sitting

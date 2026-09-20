@@ -18,8 +18,7 @@ author: Luther
 work: Das Newe Testament Deutzsch
 edition: (September 1522) and the German Bible (1534) — NOT VENDORED
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 60; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: builder-direct-read of references; Source Registry row 60; 2026-09-15
 external_ids:

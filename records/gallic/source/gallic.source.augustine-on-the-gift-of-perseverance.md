@@ -20,8 +20,7 @@ edition: 'Nicene and Post-Nicene Fathers, 1st series, vol. 5 (Augustine: Anti-Pe
   Peter Holmes and Robert Ernest Wallis, ed. Philip Schaff, Introduction by Benjamin B. Warfield, vendored
   as cic/texts/npnf105_augustine-anti-pelagian-writings.xml'
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, rights confirmed as part of this world's own corpus-map
-  assignment; not independently re-checked at the rights level by this authoring pass specifically.
+rights_status: "public-domain; vendored, rights confirmed as part of this world's own corpus-map assignment"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 16; a specific named source (author, translator,
   edition, or witness) whose full text this build session did not independently read -- either its own

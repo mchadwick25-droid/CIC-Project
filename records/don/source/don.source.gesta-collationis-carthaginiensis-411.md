@@ -27,9 +27,7 @@ edition: 'The modern critical editions -- Serge Lancel (ed.), Actes de la Confer
   route actually held is the Migne Patrologia Latina Tomus XI printing, vendored as cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
   (Registry row 55).'
 kind: vendored
-rights_status: in-copyright; confirmed unavailable in the public domain and recorded not requested (Source_Acquisition_Manifest.md
-  SS2). Not vendored, and not a vendoring candidate -- committing it would be redistribution, per cic/texts/README.md's
-  own rule. Consultable through a library without being vendored, which is a different thing from unusable.
+rights_status: "in-copyright; confirmed unavailable in the public domain. Not vendored and not a vendoring candidate - committing it would be redistribution. Consultable through a library without being vendored"
 attribution_status: documentary -- an imperial court transcript, not an authored work. Its mediation is
   a notary's own choices about what to record, not an adversary's selection for the purpose of refutation
   (Doc_02 SS6).

@@ -20,8 +20,7 @@ edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem,
   Schaff, vendored as cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml (covers the Orations; among
   the ~245 letters, only Epp. 101, 102, 202)
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
-  in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 35; a named, vendored text already sitting
   in cic/texts/ (present since an earlier session), not reopened to recheck this specific citation this

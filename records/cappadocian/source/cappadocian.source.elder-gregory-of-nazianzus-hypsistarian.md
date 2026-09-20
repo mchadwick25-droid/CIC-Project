@@ -20,8 +20,7 @@ work: The elder Gregory of Nazianzus' (bishop-father) biography and former Hypsi
 edition: Within cappadocian.source.gregory-nazianzus-funeral-orations-caesarius-gorgonia-elder-gregory
   (NPNF207, row 38) -- no independent text
 kind: unvendored
-rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
-  in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 70; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

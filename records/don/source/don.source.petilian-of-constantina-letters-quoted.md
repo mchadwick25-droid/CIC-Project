@@ -20,11 +20,7 @@ work: Petilian's own letters, as quoted and answered inside Augustine's Answer t
 edition: 'Nicene and Post-Nicene Fathers, 1st series, vol. 4 (Augustine: Anti-Manichaean, Anti-Donatist
   Writings), ed. Schaff, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml'
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
-  directly checked the vendored file's own provenance header for every file cited below (grep for 'public
-  domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC
-  BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows
-  cite -- not assumed from the Registry's or corpus map's own prose alone.
+rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed, but recoverable only through his opponent's own selection and framing
   -- no independent text of Petilian's own letters survives outside this quotation
 discovery_channel: Source Registry row 12; corpus map / cic/corpus-map/donatism.yaml (via row 4's own

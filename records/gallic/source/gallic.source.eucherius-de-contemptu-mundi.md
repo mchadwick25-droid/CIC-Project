@@ -19,9 +19,7 @@ work: De Contemptu Mundi ('The World Contemned')
 edition: Eucherius of Lyon, De Contemptu Mundi ("The World Contemned"), tr. Henry Vaughan (1654), vendored
   as cic/texts/eucherius-lyon_de-contemptu-mundi_vaughan1654.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ 2026-09-09 and independently rights-verified (archive.org
-  public-domain/rights metadata directly checked; title, editor, date, and contents independently re-verified)
-  within the same build session that produced this world's own Source Registry.
+rights_status: "public-domain; vendored 2026-09-09 and independently rights-verified (archive.org public-domain/rights metadata directly checked; title, editor, date, and contents independently re-verified)"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 25; the passage or text at issue was read
   directly, in full or at its own specific locus, within this world's own Source Registry build session.

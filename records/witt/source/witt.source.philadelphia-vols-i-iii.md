@@ -20,9 +20,7 @@ edition: '(e.g., v1 344–346: "[5] Des Pabats Drecet and Drecketal. Luther make
   — the official names for the decrees of the Pope") — the library''s only period-term apparatus; vendored
   as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt'
 kind: vendored
-rights_status: Vendored in this build at cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt; rights
-  basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently
-  re-checked at the rights level by this authoring pass) -- Source Registry row 87.
+rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 87; v1 file; builder-prior-knowledge for the
   Grimm lead; 2026-09-15 (restructured Revision 1)

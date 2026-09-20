@@ -108,6 +108,75 @@ separate hint/canon passes over real calendar time, which is Stage 4's
 (and beyond) work, not this one's. Nothing here should read as "ready for
 the same tuning six had" without that same measured effort.
 
+Build-Plan.md STAGE 4C, PART 2 (2026-09-20): engine.m4.evidence.
+select_cell_candidates gained Stage B2 - when a matched cell's own
+compiled/coverage.json entry has literally zero candidates of some record
+type (a structural absence, not a low score), the slot is now filled from
+a whole-world scan scored against engine.prose.retrieval_words (the same
+word set compiled/retrieval.json caches, landed unread in part 1 - see
+that module's own comment), capped at that type's own floor, and never
+touching honest_limit. This measures the exact same 118 questions cited
+above, changing no question and no record - the numbers below are what
+part 1's cache was compiled for and part 2 finally reads. Every world
+moved up, zero regressions, zero empty (unchanged), cell count unchanged
+(Stage A is untouched by this stage):
+
+    world        qs  ground   avg  cells  empty  quotes
+    alx          10      88   8.8     10      0      15
+    cappadocian  15      91   6.1      9      0      14
+    desert       10     106  10.6     12      0      22
+    don          15     170  11.3     24      0      18
+    gallic       14     207  14.8     28      0       7
+    hal          10      83   8.3      9      0      14
+    ijc          10      99   9.9     11      0      21
+    pahc         10      81   8.1     13      0      16
+    rzg          14     121   8.6     14      0      16
+    syr          10     106  10.6     14      0      22
+    TOTAL       118    1152   9.8    144      0     165
+
+Build-Plan.md STAGE 4D (2026-09-20): a tier prior. `retrieval.tier`
+(Artifact-1-Record-Schema.md: "1 core / 2 supporting / 3 ambient",
+authored on roughly half the fleet's own records) had sat unread by any
+ranking here - select_cell_candidates now adds a small, bounded lean
+toward the lower tier number (+0.05 for tier 1, +0.02 for tier 2, +0 for
+tier 3/unset) on top of the relevance score, in both the ordinary
+coverage-seeded ranking and Stage B2's own whole-world fill.
+
+THIS CARRIES A REGRESSION, same discipline as the Evagrius/Macarius entry
+above: left visible, not rounded away. 4 of 118 questions moved (3 down,
+1 up); net -2 ground fleet-wide:
+
+    world        qs  ground   avg  cells  empty  quotes
+    alx          10      88   8.8     10      0      15
+    cappadocian  15      91   6.1      9      0      14
+    desert       10     106  10.6     12      0      22
+    don          15     169  11.3     24      0      18
+    gallic       14     205  14.6     28      0       7
+    hal          10      83   8.3      9      0      14
+    ijc          10      99   9.9     11      0      21
+    pahc         10      81   8.1     13      0      16
+    rzg          14     122   8.7     14      0      16
+    syr          10     106  10.6     14      0      22
+    TOTAL       118    1150   9.7    144      0     165
+
+Root-caused, not shrugged off: every affected question hit
+select_cell_candidates' own shared per-cell `budget_chars` (9000). A
+tier-1 record's own head text outran a tier-2 record's own shorter one it
+displaced, on a GENUINE tie in relevance score (both 0.2, tier prior's
+only job) - the extra characters occasionally pushed a later type's own
+pick past the same turn's shared budget. Confirmed this is not the prior
+over-reaching: the identical swaps reproduce under the most conservative
+possible design (an exact-float-tie-break with no additive lean at all),
+so a narrower prior would not have avoided this. Zero questions went
+empty; net is still far ahead of the pre-4c baseline (813) this file
+opened with. Mark's own call, shown the numbers plainly: ship it.
+
+Spot-checked, not just counted: gallic's "Why did you leave the army?"
+picked up gallic.force.army-and-rank-before ("Each founding narrative at
+each house begins with a departure from Roman service or rank") purely
+from this fill - real, on-topic ground a fully empty force slot withheld
+before this stage existed.
+
 Run: python3 engine/m4/reports/retrieval_bench.py
 """
 import json, sys, pathlib

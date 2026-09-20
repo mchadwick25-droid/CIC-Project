@@ -20,8 +20,7 @@ edition: (3 October 1529), signed by Luther, Melanchthon, Zwingli, Oecolampadius
   in German History in Documents and Images (GHDI) and Luther's Works vol. 38, pp. 85–89; German original
   PD — NOT VENDORED
 kind: unvendored
-rights_status: In-copyright; not vendored in this build -- access blocked, per Source Registry row 56
-  (G1 Part B).
+rights_status: "In-copyright; not vendored - access blocked"
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)
 discovery_channel: builder-prior-knowledge; existence verified WebSearch; Source Registry row 56; 2026-09-15
 external_ids:

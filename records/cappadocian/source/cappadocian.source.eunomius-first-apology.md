@@ -19,8 +19,7 @@ work: Eunomius, the First Apology
 edition: Whiston's 1711 translation, re-edited by Roger Pearse with Vaggione's chapter numbering, vendored
   as cic/texts/eunomius_first-apology_whiston1711.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ and independently verified (identity, completeness,
-  provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 57; the file itself was independently
   verified for identity, completeness, and provenance by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md

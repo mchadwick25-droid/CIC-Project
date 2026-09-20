@@ -18,8 +18,7 @@ author: Luther
 work: De votis monasticis
 edition: / Treatise on Monastic Vows (1521) — Philadelphia Ed. vol. IV — NOT VENDORED; embedded within "luther_works-v3-selected_various1930.txt"
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 61; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 61; v3 file; 2026-09-15
 external_ids:

@@ -19,8 +19,7 @@ work: The Book of Concord
 edition: (1580), incl. the Smalcald Articles and the Formula of Concord — ed. Kolb & Wengert (Fortress,
   2000) — NOT VENDORED (AC, Apology, LC, SC vendored separately)
 kind: unvendored
-rights_status: In-copyright; not vendored in this build -- access blocked, per Source Registry row 53
-  (G1 Part B).
+rights_status: "In-copyright; not vendored - access blocked"
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)
 discovery_channel: census; existence verified WebSearch; Source Registry row 53; 2026-09-15
 external_ids:

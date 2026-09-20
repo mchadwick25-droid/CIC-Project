@@ -18,9 +18,7 @@ author: John McGuckin
 work: 'St Gregory of Nazianzus: An Intellectual Biography'
 edition: In-copyright modern scholarship, not vendored
 kind: unvendored
-rights_status: in-copyright modern scholarship or translation; deliberately excluded from the vendoring
-  manifest on rights grounds, not merely unacquired (Source Registry Part F note) -- not independently
-  verified this session.
+rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 90; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

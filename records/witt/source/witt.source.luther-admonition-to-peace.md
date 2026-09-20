@@ -21,8 +21,7 @@ edition: '(April 1525); Against the Murderous, Thieving Hordes of Peasants (May 
   PD lead: Philadelphia Ed. vol. IV (1931, trans. C. M. Jacobs), renewal check pending (G1 Part B) — NOT
   VENDORED'
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 48; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; existence verified WebSearch; Source Registry row 48; WebFetch;
   2026-09-15

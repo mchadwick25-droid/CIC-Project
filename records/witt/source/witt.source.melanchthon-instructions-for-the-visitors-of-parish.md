@@ -19,8 +19,7 @@ work: Instructions for the Visitors of Parish Pastors in Electoral Saxony
 edition: '(1528) — English: Luther''s Works vol. 40, pp. 263–320 (trans. Bergendoff, 1958); Complete Works
   of Philipp Melanchthon vol. III (recent, rights unknown) — NOT VENDORED'
 kind: unvendored
-rights_status: In-copyright; not vendored in this build -- access blocked, per Source Registry row 51
-  (G1 Part B).
+rights_status: "In-copyright; not vendored - access blocked"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; existence verified WebSearch; Source Registry row 51; 2026-09-15
 external_ids:

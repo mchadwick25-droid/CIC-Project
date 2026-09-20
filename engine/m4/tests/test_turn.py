@@ -154,10 +154,11 @@ def test_acute_distress_second_firing_in_session_gets_the_lighter_continuation()
     assert "I want to step in for a moment" not in text  # not the a1 script
 
 
-def test_harmful_dynamic_signal_names_the_dynamic_and_keeps_the_voice():
-    """Track B is a dependency dynamic, not a crisis: no resources, and
-    Program-Spec SS8's "explicit continue path back to the voice" means the
-    message is NOT withheld the way an acute signal withholds it."""
+def test_harmful_dynamic_signal_names_the_dynamic_and_silences_the_voice():
+    """Track B is a dependency dynamic, not a crisis: no resources - but per
+    Program-Spec SS8's 2026-09-20 amendment, the voice is silenced here the
+    same way Track A silences it below; no "explicit continue path back to
+    the voice" within the same turn any more."""
     client = FakeBedrockClient(
         safety_response=_safety("HARMFUL_DYNAMIC_SIGNAL"), reader_response=_reader(),
         stream_chunks=["We kept the meal together [[fix.witness.who-is-jesus]]."],
@@ -168,7 +169,9 @@ def test_harmful_dynamic_signal_names_the_dynamic_and_keeps_the_voice():
     assert facilitator["kind"] == "safety"
     assert facilitator["resources_appended"] is False   # Track B never appends
     assert "not Vera" in facilitator["text"]  # names the Representative from world.frame, not a placeholder
-    assert result.voice_event is not None               # the voice still answers
+    assert result.voice_event is None                   # the voice never runs, same as Track A
+    assert len(result.usage_records) == 2                # safety, reader - no voice call at all, same as the crisis path
+    assert {r.call_kind for r in result.usage_records} == {"safety_call", "reader_call"}
 
 
 def test_ambiguous_low_confidence_checks_in_and_does_not_answer():

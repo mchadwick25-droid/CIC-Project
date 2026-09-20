@@ -23,9 +23,7 @@ work: 'Donatisten und Katholiken: soziale, wirtschaftliche und politische Aspekt
   Kirchenspaltung (Goteborg: Elanders, 1964)'
 edition: Elanders, 1964 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)
 kind: unvendored
-rights_status: in-copyright modern scholarship; consultation-only, never vendored (Source_Acquisition_Manifest.md
-  SS3). Cited and paraphrased by this build, never quoted as licensed vendored material. Bibliographic
-  record only -- the volume itself was not opened by this compilation pass.
+rights_status: "in-copyright modern scholarship; consultation-only, never vendored. Cited and paraphrased, never quoted as licensed vendored material - a bibliographic record only"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge / field knowledge / 2026-09-01. Registry row 46. Flagged in
   the Registry's own priority second-opinion review list.

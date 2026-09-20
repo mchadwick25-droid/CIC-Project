@@ -26,10 +26,7 @@ work: Numidian basilica archaeology, general
 edition: No edition. No specific site report, excavation record, or publication is named anywhere in Source_Registry.md,
   Doc_02_Source_Ecology.md, or Source_Acquisition_Manifest.md.
 kind: unvendored
-rights_status: No rights position is stated, because no edition or publication is named for this row anywhere
-  in Source_Registry.md or Source_Acquisition_Manifest.md. Not vendored; nothing to vendor until a specific
-  edition or publication is identified. Recorded as an honest negative rather than defaulted to a plausible-sounding
-  status this build has not established.
+rights_status: "No rights position is stated, because no edition or publication is named for this row. Not vendored - nothing to vendor until a specific edition or publication is identified"
 attribution_status: none -- no publication, excavator, or site report is named, so there is nothing to
   attribute.
 discovery_channel: builder-prior-knowledge (recognized field category) / field knowledge / 2026-09-01.

@@ -18,8 +18,7 @@ author: Robert Kolb & James A. Nestingen (eds.)
 work: Sources and Contexts of the Book of Concord
 edition: (Fortress, 2001) — contains the English Confutation (R39)
 kind: unvendored
-rights_status: In-copyright; not vendored in this build -- access blocked, per Source Registry row 80
-  (G1 Part B).
+rights_status: "In-copyright; not vendored - access blocked"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 80; WebSearch; 2026-09-15
 external_ids:

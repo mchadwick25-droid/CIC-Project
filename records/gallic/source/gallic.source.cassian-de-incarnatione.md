@@ -19,8 +19,7 @@ work: The Seven Books on the Incarnation of the Lord, Against Nestorius
 edition: Corpus-map assigned; specific vendored file/edition not independently confirmed by this authoring
   pass (see body note).
 kind: unvendored
-rights_status: public-domain; vendored in cic/texts/, rights confirmed as part of this world's own corpus-map
-  assignment; not independently re-checked at the rights level by this authoring pass specifically.
+rights_status: "public-domain; vendored, rights confirmed as part of this world's own corpus-map assignment"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 12; a specific named source (author, translator,
   edition, or witness) whose full text this build session did not independently read -- either its own

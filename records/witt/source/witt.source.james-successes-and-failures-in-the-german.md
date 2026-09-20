@@ -18,8 +18,7 @@ author: James M. Kittelson
 work: 'Successes and Failures in the German Reformation: The Report from Strasbourg'
 edition: Archiv für Reformationsgeschichte 73 (1982), pp. 153–175 — from prior knowledge
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 72; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 72; 2026-09-15
 external_ids:

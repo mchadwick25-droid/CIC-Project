@@ -19,11 +19,7 @@ work: The Book of Rules of Tyconius, Newly Edited from the MSS., Texts and Studi
   Press, 1894)
 edition: cic/texts/tyconius_liber-regularum_burkitt1894.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
-  directly checked the vendored file's own provenance header for every file cited below (grep for 'public
-  domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC
-  BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows
-  cite -- not assumed from the Registry's or corpus map's own prose alone.
+rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed
 discovery_channel: Source Registry row 41; builder-prior-knowledge, file identity and rights basis confirmed
   via direct file check, 2026-09-01
