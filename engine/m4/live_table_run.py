@@ -31,6 +31,7 @@ from engine.api.table_wiring import (
     handle_table_message,
 )
 from engine.m1.registry import load_registry
+from engine.m4.output_check import find_shipped_defects
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader
@@ -190,7 +191,17 @@ def main() -> int:
     out.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"report written: {out}")
     print(f"isolation violations: {len(report['isolation_violations'])}")
-    return 0
+
+    # H-3 (witt go-live adversarial review, 2026-09-19) - see
+    # engine.m4.output_check.find_shipped_defects for why this is checked
+    # here rather than left to a reviewer reading the raw JSON.
+    shipped_defects = find_shipped_defects(report)
+    if shipped_defects:
+        print(f"SHIPPED OUTPUT DEFECT(S): {len(shipped_defects)} - see output_defects in the report above", flush=True)
+        for d in shipped_defects:
+            print(f"  [round {d.get('round_no')} pos {d.get('position')}] {d.get('family')}: {d.get('finding')}", flush=True)
+
+    return 0 if not report["isolation_violations"] and not shipped_defects else 1
 
 
 if __name__ == "__main__":

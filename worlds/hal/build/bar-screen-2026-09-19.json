@@ -1,0 +1,835 @@
+{
+  "world": "hal",
+  "generated": "2026-09-19",
+  "fields": {
+    "demonstration.exchange": {
+      "count": 10,
+      "fk_grade_median": 6.67,
+      "fk_grade_max": 7.56,
+      "longest_sentence_words_max": 56,
+      "worst_record": "hal.demo.marriage-ending"
+    },
+    "doctrinal_witness.text": {
+      "count": 16,
+      "fk_grade_median": 6.85,
+      "fk_grade_max": 7.61,
+      "longest_sentence_words_max": 41,
+      "worst_record": "hal.dw.record"
+    },
+    "honest_limit.statement": {
+      "count": 4,
+      "fk_grade_median": 4.81,
+      "fk_grade_max": 7.7,
+      "longest_sentence_words_max": 21,
+      "worst_record": "hal.limit.martyrdom"
+    },
+    "story.tellable_as": {
+      "count": 12,
+      "fk_grade_median": 10.49,
+      "fk_grade_max": 19.01,
+      "longest_sentence_words_max": 27,
+      "worst_record": "hal.story.day-at-monastery"
+    },
+    "story.text": {
+      "count": 12,
+      "fk_grade_median": 11.02,
+      "fk_grade_max": 14.4,
+      "longest_sentence_words_max": 71,
+      "worst_record": "hal.story.rufinus-rupture"
+    },
+    "term.plain_meaning": {
+      "count": 23,
+      "fk_grade_median": 7.36,
+      "fk_grade_max": 10.0,
+      "longest_sentence_words_max": 25,
+      "worst_record": "hal.term.nosocomium"
+    },
+    "term.quick_meaning": {
+      "count": 23,
+      "fk_grade_median": 7.63,
+      "fk_grade_max": 9.82,
+      "longest_sentence_words_max": 17,
+      "worst_record": "hal.term.monasterium"
+    },
+    "world_core.cautions": {
+      "count": 1,
+      "fk_grade_median": 14.1,
+      "fk_grade_max": 14.1,
+      "longest_sentence_words_max": 29,
+      "worst_record": "hal.core.hieronymian"
+    },
+    "world_core.formation_logic": {
+      "count": 1,
+      "fk_grade_median": 21.36,
+      "fk_grade_max": 21.36,
+      "longest_sentence_words_max": 51,
+      "worst_record": "hal.core.hieronymian"
+    },
+    "world_core.horizon": {
+      "count": 1,
+      "fk_grade_median": 17.49,
+      "fk_grade_max": 17.49,
+      "longest_sentence_words_max": 38,
+      "worst_record": "hal.core.hieronymian"
+    },
+    "world_core.thinness": {
+      "count": 1,
+      "fk_grade_median": 26.76,
+      "fk_grade_max": 26.76,
+      "longest_sentence_words_max": 68,
+      "worst_record": "hal.core.hieronymian"
+    }
+  },
+  "records": {
+    "world_core.horizon": [
+      {
+        "record_id": "hal.core.hieronymian",
+        "words": 120,
+        "sentences": 5,
+        "longest_sentence_words": 38,
+        "fk_grade": 17.49
+      }
+    ],
+    "world_core.formation_logic": [
+      {
+        "record_id": "hal.core.hieronymian",
+        "words": 99,
+        "sentences": 3,
+        "longest_sentence_words": 51,
+        "fk_grade": 21.36
+      }
+    ],
+    "world_core.thinness": [
+      {
+        "record_id": "hal.core.hieronymian",
+        "words": 97,
+        "sentences": 2,
+        "longest_sentence_words": 68,
+        "fk_grade": 26.76
+      }
+    ],
+    "world_core.cautions": [
+      {
+        "record_id": "hal.core.hieronymian",
+        "words": 222,
+        "sentences": 10,
+        "longest_sentence_words": 29,
+        "fk_grade": 14.1
+      }
+    ],
+    "demonstration.exchange": [
+      {
+        "record_id": "hal.demo.believe",
+        "words": 190,
+        "sentences": 14,
+        "longest_sentence_words": 28,
+        "fk_grade": 5.4
+      },
+      {
+        "record_id": "hal.demo.born-again",
+        "words": 131,
+        "sentences": 8,
+        "longest_sentence_words": 33,
+        "fk_grade": 6.14
+      },
+      {
+        "record_id": "hal.demo.born-again",
+        "words": 122,
+        "sentences": 11,
+        "longest_sentence_words": 23,
+        "fk_grade": 5.77
+      },
+      {
+        "record_id": "hal.demo.hell",
+        "words": 178,
+        "sentences": 13,
+        "longest_sentence_words": 27,
+        "fk_grade": 6.99
+      },
+      {
+        "record_id": "hal.demo.jesus",
+        "words": 226,
+        "sentences": 12,
+        "longest_sentence_words": 56,
+        "fk_grade": 7.14
+      },
+      {
+        "record_id": "hal.demo.marriage-ending",
+        "words": 240,
+        "sentences": 14,
+        "longest_sentence_words": 34,
+        "fk_grade": 7.56
+      },
+      {
+        "record_id": "hal.demo.someone-like-me",
+        "words": 258,
+        "sentences": 18,
+        "longest_sentence_words": 30,
+        "fk_grade": 5.31
+      },
+      {
+        "record_id": "hal.demo.suffering",
+        "words": 265,
+        "sentences": 17,
+        "longest_sentence_words": 27,
+        "fk_grade": 6.92
+      },
+      {
+        "record_id": "hal.demo.woman-authority",
+        "words": 214,
+        "sentences": 14,
+        "longest_sentence_words": 24,
+        "fk_grade": 6.67
+      },
+      {
+        "record_id": "hal.demo.women-own-words",
+        "words": 185,
+        "sentences": 11,
+        "longest_sentence_words": 30,
+        "fk_grade": 6.16
+      }
+    ],
+    "doctrinal_witness.text": [
+      {
+        "record_id": "hal.dw.apostolic",
+        "words": 166,
+        "sentences": 12,
+        "longest_sentence_words": 28,
+        "fk_grade": 6.72
+      },
+      {
+        "record_id": "hal.dw.authority",
+        "words": 138,
+        "sentences": 10,
+        "longest_sentence_words": 39,
+        "fk_grade": 7.41
+      },
+      {
+        "record_id": "hal.dw.believe",
+        "words": 165,
+        "sentences": 11,
+        "longest_sentence_words": 30,
+        "fk_grade": 6.56
+      },
+      {
+        "record_id": "hal.dw.church-failure",
+        "words": 184,
+        "sentences": 12,
+        "longest_sentence_words": 34,
+        "fk_grade": 6.48
+      },
+      {
+        "record_id": "hal.dw.doubt",
+        "words": 161,
+        "sentences": 12,
+        "longest_sentence_words": 29,
+        "fk_grade": 5.52
+      },
+      {
+        "record_id": "hal.dw.empire",
+        "words": 166,
+        "sentences": 14,
+        "longest_sentence_words": 32,
+        "fk_grade": 7.53
+      },
+      {
+        "record_id": "hal.dw.hell",
+        "words": 172,
+        "sentences": 13,
+        "longest_sentence_words": 28,
+        "fk_grade": 7.35
+      },
+      {
+        "record_id": "hal.dw.inner-life",
+        "words": 190,
+        "sentences": 13,
+        "longest_sentence_words": 28,
+        "fk_grade": 6.38
+      },
+      {
+        "record_id": "hal.dw.jesus",
+        "words": 175,
+        "sentences": 12,
+        "longest_sentence_words": 25,
+        "fk_grade": 5.86
+      },
+      {
+        "record_id": "hal.dw.marriage-ending",
+        "words": 194,
+        "sentences": 14,
+        "longest_sentence_words": 35,
+        "fk_grade": 7.03
+      },
+      {
+        "record_id": "hal.dw.one-church",
+        "words": 167,
+        "sentences": 13,
+        "longest_sentence_words": 27,
+        "fk_grade": 6.95
+      },
+      {
+        "record_id": "hal.dw.practices",
+        "words": 183,
+        "sentences": 14,
+        "longest_sentence_words": 41,
+        "fk_grade": 5.42
+      },
+      {
+        "record_id": "hal.dw.record",
+        "words": 175,
+        "sentences": 13,
+        "longest_sentence_words": 24,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "hal.dw.sin-grace",
+        "words": 177,
+        "sentences": 13,
+        "longest_sentence_words": 31,
+        "fk_grade": 6.85
+      },
+      {
+        "record_id": "hal.dw.suffering",
+        "words": 178,
+        "sentences": 15,
+        "longest_sentence_words": 25,
+        "fk_grade": 5.41
+      },
+      {
+        "record_id": "hal.dw.was-jesus-god",
+        "words": 171,
+        "sentences": 11,
+        "longest_sentence_words": 38,
+        "fk_grade": 7.02
+      }
+    ],
+    "honest_limit.statement": [
+      {
+        "record_id": "hal.limit.f5-enslaved",
+        "words": 35,
+        "sentences": 3,
+        "longest_sentence_words": 21,
+        "fk_grade": 4.81
+      },
+      {
+        "record_id": "hal.limit.f5-material-remains",
+        "words": 40,
+        "sentences": 3,
+        "longest_sentence_words": 14,
+        "fk_grade": 4.07
+      },
+      {
+        "record_id": "hal.limit.f5-women-own-words",
+        "words": 44,
+        "sentences": 4,
+        "longest_sentence_words": 20,
+        "fk_grade": 3.11
+      },
+      {
+        "record_id": "hal.limit.martyrdom",
+        "words": 56,
+        "sentences": 3,
+        "longest_sentence_words": 20,
+        "fk_grade": 7.7
+      }
+    ],
+    "story.tellable_as": [
+      {
+        "record_id": "hal.story.attack-416",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 9.13
+      },
+      {
+        "record_id": "hal.story.ciceronian-dream",
+        "words": 23,
+        "sentences": 1,
+        "longest_sentence_words": 23,
+        "fk_grade": 8.01
+      },
+      {
+        "record_id": "hal.story.day-at-monastery",
+        "words": 21,
+        "sentences": 1,
+        "longest_sentence_words": 21,
+        "fk_grade": 19.01
+      },
+      {
+        "record_id": "hal.story.desert-romances",
+        "words": 23,
+        "sentences": 1,
+        "longest_sentence_words": 23,
+        "fk_grade": 12.36
+      },
+      {
+        "record_id": "hal.story.journey-to-bethlehem",
+        "words": 27,
+        "sentences": 1,
+        "longest_sentence_words": 27,
+        "fk_grade": 12.42
+      },
+      {
+        "record_id": "hal.story.marcella-death",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 5.88
+      },
+      {
+        "record_id": "hal.story.marcella-standing",
+        "words": 22,
+        "sentences": 1,
+        "longest_sentence_words": 22,
+        "fk_grade": 8.9
+      },
+      {
+        "record_id": "hal.story.oea-gourd",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 10.44
+      },
+      {
+        "record_id": "hal.story.paula-epitaph",
+        "words": 20,
+        "sentences": 1,
+        "longest_sentence_words": 20,
+        "fk_grade": 10.45
+      },
+      {
+        "record_id": "hal.story.rome-crisis",
+        "words": 25,
+        "sentences": 1,
+        "longest_sentence_words": 25,
+        "fk_grade": 10.49
+      },
+      {
+        "record_id": "hal.story.rufinus-rupture",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 13.95
+      },
+      {
+        "record_id": "hal.story.translating-a-book",
+        "words": 25,
+        "sentences": 1,
+        "longest_sentence_words": 25,
+        "fk_grade": 13.44
+      }
+    ],
+    "story.text": [
+      {
+        "record_id": "hal.story.attack-416",
+        "words": 153,
+        "sentences": 6,
+        "longest_sentence_words": 49,
+        "fk_grade": 11.57
+      },
+      {
+        "record_id": "hal.story.ciceronian-dream",
+        "words": 211,
+        "sentences": 11,
+        "longest_sentence_words": 34,
+        "fk_grade": 7.85
+      },
+      {
+        "record_id": "hal.story.day-at-monastery",
+        "words": 182,
+        "sentences": 7,
+        "longest_sentence_words": 54,
+        "fk_grade": 11.02
+      },
+      {
+        "record_id": "hal.story.desert-romances",
+        "words": 144,
+        "sentences": 6,
+        "longest_sentence_words": 47,
+        "fk_grade": 12.04
+      },
+      {
+        "record_id": "hal.story.journey-to-bethlehem",
+        "words": 183,
+        "sentences": 6,
+        "longest_sentence_words": 57,
+        "fk_grade": 11.73
+      },
+      {
+        "record_id": "hal.story.marcella-death",
+        "words": 184,
+        "sentences": 8,
+        "longest_sentence_words": 36,
+        "fk_grade": 9.79
+      },
+      {
+        "record_id": "hal.story.marcella-standing",
+        "words": 217,
+        "sentences": 9,
+        "longest_sentence_words": 43,
+        "fk_grade": 10.37
+      },
+      {
+        "record_id": "hal.story.oea-gourd",
+        "words": 164,
+        "sentences": 7,
+        "longest_sentence_words": 46,
+        "fk_grade": 12.5
+      },
+      {
+        "record_id": "hal.story.paula-epitaph",
+        "words": 203,
+        "sentences": 8,
+        "longest_sentence_words": 71,
+        "fk_grade": 9.91
+      },
+      {
+        "record_id": "hal.story.rome-crisis",
+        "words": 157,
+        "sentences": 8,
+        "longest_sentence_words": 53,
+        "fk_grade": 9.08
+      },
+      {
+        "record_id": "hal.story.rufinus-rupture",
+        "words": 179,
+        "sentences": 7,
+        "longest_sentence_words": 39,
+        "fk_grade": 14.4
+      },
+      {
+        "record_id": "hal.story.translating-a-book",
+        "words": 184,
+        "sentences": 8,
+        "longest_sentence_words": 41,
+        "fk_grade": 9.66
+      }
+    ],
+    "term.plain_meaning": [
+      {
+        "record_id": "hal.term.bibliotheca",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 9.26
+      },
+      {
+        "record_id": "hal.term.epistula",
+        "words": 23,
+        "sentences": 3,
+        "longest_sentence_words": 11,
+        "fk_grade": 5.36
+      },
+      {
+        "record_id": "hal.term.epitaphium",
+        "words": 20,
+        "sentences": 2,
+        "longest_sentence_words": 14,
+        "fk_grade": 5.42
+      },
+      {
+        "record_id": "hal.term.exegesis-as-practiced-authority",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.7
+      },
+      {
+        "record_id": "hal.term.grammaticus",
+        "words": 18,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 9.85
+      },
+      {
+        "record_id": "hal.term.hebraica-veritas",
+        "words": 28,
+        "sentences": 2,
+        "longest_sentence_words": 16,
+        "fk_grade": 4.2
+      },
+      {
+        "record_id": "hal.term.matrona",
+        "words": 21,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.49
+      },
+      {
+        "record_id": "hal.term.monachus",
+        "words": 10,
+        "sentences": 1,
+        "longest_sentence_words": 10,
+        "fk_grade": 7.59
+      },
+      {
+        "record_id": "hal.term.monasterium",
+        "words": 23,
+        "sentences": 3,
+        "longest_sentence_words": 11,
+        "fk_grade": 6.38
+      },
+      {
+        "record_id": "hal.term.nosocomium",
+        "words": 25,
+        "sentences": 1,
+        "longest_sentence_words": 25,
+        "fk_grade": 10.0
+      },
+      {
+        "record_id": "hal.term.origenism",
+        "words": 22,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 4.79
+      },
+      {
+        "record_id": "hal.term.patrocinium",
+        "words": 21,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 6.4
+      },
+      {
+        "record_id": "hal.term.pelagianism",
+        "words": 25,
+        "sentences": 2,
+        "longest_sentence_words": 13,
+        "fk_grade": 5.33
+      },
+      {
+        "record_id": "hal.term.peregrinatio",
+        "words": 21,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 4.8
+      },
+      {
+        "record_id": "hal.term.praeceptor",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 9.09
+      },
+      {
+        "record_id": "hal.term.praefatio",
+        "words": 20,
+        "sentences": 2,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.19
+      },
+      {
+        "record_id": "hal.term.propositum",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 8.35
+      },
+      {
+        "record_id": "hal.term.renuntiatio",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 7.7
+      },
+      {
+        "record_id": "hal.term.scriptorium",
+        "words": 14,
+        "sentences": 2,
+        "longest_sentence_words": 8,
+        "fk_grade": 7.37
+      },
+      {
+        "record_id": "hal.term.vidua",
+        "words": 23,
+        "sentences": 2,
+        "longest_sentence_words": 14,
+        "fk_grade": 7.36
+      },
+      {
+        "record_id": "hal.term.virginitas",
+        "words": 17,
+        "sentences": 2,
+        "longest_sentence_words": 14,
+        "fk_grade": 7.85
+      },
+      {
+        "record_id": "hal.term.vulgata",
+        "words": 24,
+        "sentences": 3,
+        "longest_sentence_words": 14,
+        "fk_grade": 5.72
+      },
+      {
+        "record_id": "hal.term.xenodochium",
+        "words": 17,
+        "sentences": 3,
+        "longest_sentence_words": 8,
+        "fk_grade": 8.83
+      }
+    ],
+    "term.quick_meaning": [
+      {
+        "record_id": "hal.term.bibliotheca",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 9.26
+      },
+      {
+        "record_id": "hal.term.epistula",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 9.45
+      },
+      {
+        "record_id": "hal.term.epitaphium",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 8.54
+      },
+      {
+        "record_id": "hal.term.exegesis-as-practiced-authority",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.73
+      },
+      {
+        "record_id": "hal.term.grammaticus",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 8.54
+      },
+      {
+        "record_id": "hal.term.hebraica-veritas",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 9.09
+      },
+      {
+        "record_id": "hal.term.matrona",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 5.21
+      },
+      {
+        "record_id": "hal.term.monachus",
+        "words": 10,
+        "sentences": 1,
+        "longest_sentence_words": 10,
+        "fk_grade": 7.59
+      },
+      {
+        "record_id": "hal.term.monasterium",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 9.82
+      },
+      {
+        "record_id": "hal.term.nosocomium",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "hal.term.origenism",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 7.77
+      },
+      {
+        "record_id": "hal.term.patrocinium",
+        "words": 13,
+        "sentences": 2,
+        "longest_sentence_words": 9,
+        "fk_grade": 4.19
+      },
+      {
+        "record_id": "hal.term.pelagianism",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 6.78
+      },
+      {
+        "record_id": "hal.term.peregrinatio",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 8.41
+      },
+      {
+        "record_id": "hal.term.praeceptor",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 6.73
+      },
+      {
+        "record_id": "hal.term.praefatio",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 8.41
+      },
+      {
+        "record_id": "hal.term.propositum",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 9.14
+      },
+      {
+        "record_id": "hal.term.renuntiatio",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 6.79
+      },
+      {
+        "record_id": "hal.term.scriptorium",
+        "words": 9,
+        "sentences": 1,
+        "longest_sentence_words": 9,
+        "fk_grade": 7.59
+      },
+      {
+        "record_id": "hal.term.vidua",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.63
+      },
+      {
+        "record_id": "hal.term.virginitas",
+        "words": 13,
+        "sentences": 2,
+        "longest_sentence_words": 10,
+        "fk_grade": 8.73
+      },
+      {
+        "record_id": "hal.term.vulgata",
+        "words": 15,
+        "sentences": 2,
+        "longest_sentence_words": 10,
+        "fk_grade": 3.86
+      },
+      {
+        "record_id": "hal.term.xenodochium",
+        "words": 16,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 6.71
+      }
+    ]
+  }
+}

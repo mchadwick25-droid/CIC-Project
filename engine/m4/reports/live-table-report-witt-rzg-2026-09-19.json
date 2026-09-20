@@ -1,0 +1,1786 @@
+{
+  "region": "us-east-1",
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "world_keys": [
+    "witt",
+    "rzg"
+  ],
+  "rounds": [
+    {
+      "message": "What's the one thing about worship you'd most want a newcomer to understand?",
+      "turns": [
+        {
+          "round_no": 1,
+          "position": 1,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 1,
+            "position": 1,
+            "world_key": "rzg",
+            "reason": "Open question to the table, genuinely open to both voices. Theophilus (rzg) speaks first - the Reformed emphasis on the clarity and centrality of Scripture in worship, and the participatory rather than hierarchical character of gathered prayer, is a natural entry point for a newcomer trying to understand what worship *is* in this world before hearing how another world approaches it differently.",
+            "degraded": false
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "rzg",
+            "chars": 1446,
+            "words": 264,
+            "citations": 1,
+            "cited_record_ids": [
+              "rzg.ambient.emptied-worship-space"
+            ],
+            "sentences_checked": 15,
+            "sentences_withheld": 3,
+            "withhold_reasons": [
+              "specific claim (proper-noun:['grossmunster', 'zurich']) with no citation tag",
+              "specific claim (proper-noun:[\"christ's\", 'supper']) with no citation tag",
+              "specific claim (proper-noun:['consistory', 'geneva']) with no citation tag"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [],
+            "text": "The one thing: what we took away told as much as what we kept.\n\nWalk into the Grossmunster at Zurich in the years after our reform began, and notice first what isn't there. No image to bow to. No altar built for a sacrifice we no longer offer - a table in its place. And for years, no instrument answered the voice at all; the organ itself fell silent in the mid-1520s and stayed that way. That silence wasn't neglect. It was deliberate, and it said something: nothing stands between the Word read aloud and the people hearing it, not even music meant to help.\n\nWhat we kept was simpler, and harder to notice if you expected more. The text, read in order rather than by a fixed calendar of readings chosen ahead of time. The Supper, still set before the whole gathered church - but no longer as a sacrifice repeated, and Christ's body no longer confined to what could be broken, chewed, and stored away. Preaching that tested every inherited practice against Scripture and let go of what wouldn't stand. And at Geneva, a Consistory that asked whether an ordinary life actually answered to what had been professed - not as threat, but as the shape a believing city takes when it means what it says.\n\nThe emptying wasn't the point. The point was what remained when everything Scripture didn't warrant had been set down. If that looks bare to you, it looked that way to us too - and we held it anyway, because we believed the Word itself was enough.",
+            "citations_full": [
+              {
+                "sentence": "And for years, no instrument answered the voice at all; the organ itself fell silent in the mid-1520s and stayed that way.",
+                "record_ids": [
+                  "rzg.ambient.emptied-worship-space"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.ambient.emptied-worship-space",
+                    "record_type": "ambient",
+                    "label": "rzg.ambient.emptied-worship-space",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                        "author": "Huldrych Zwingli",
+                        "work": "The Sixty-Seven Articles (1523)",
+                        "locus": "Article XVIII's own refusal of the Mass's sacrificial character, the doctrine this record's own physical inference is drawn from",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "glosses": [
+              {
+                "id": "rzg.term.consistory",
+                "matched_name": "Consistory",
+                "plain_meaning": "At Geneva, the Consistory is our body of pastors and lay elders. It holds our whole population's daily conduct to account. Zurich has no equivalent. Its council governs church and city directly.",
+                "quick_meaning": "Geneva's own body of pastors and lay elders. It holds our whole population's daily conduct to account. We can state the general doctrine plainly. Our own day-to-day case history is not yet something our sources can supply.",
+                "translational_sense": "What we cannot yet supply is our own day-to-day operation: the real case-by-case practice, what a summons before us actually involved. A vivid, specific picture of that daily operation is not something our own sources can currently support.",
+                "false_friend": [
+                  "a harsh moral-surveillance body, imagined in vivid institutional detail - a court that summoned households, inspected private life, and enforced conformity street by street"
+                ],
+                "sourced_by": []
+              }
+            ],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 15.4
+        },
+        {
+          "round_no": 1,
+          "position": 2,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 1,
+            "position": 2,
+            "world_key": "witt",
+            "reason": "only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+            "degraded": false
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "witt",
+            "chars": 1410,
+            "words": 265,
+            "citations": 6,
+            "cited_record_ids": [
+              "witt.gravity.bodily-presence",
+              "witt.gravity.must-and-free",
+              "witt.term.both-kinds",
+              "witt.term.sacrament-of-the-altar",
+              "witt.term.the-mass",
+              "witt.term.worthy-unworthy"
+            ],
+            "sentences_checked": 11,
+            "sentences_withheld": 3,
+            "withhold_reasons": [
+              "specific claim (enumeration) only 29% grounded in its own tags",
+              "specific claim (proper-noun:['table']) with no citation tag",
+              "specific claim (proper-noun:['german']) only 29% grounded in its own tags"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [],
+            "text": "The same bread, the same cup, was set before whoever had walked the road to it.\n\nWhat your neighbor at this Table names as emptying, we would call a different choice at the same fork. We took things away too - private masses ended, the sacrifice-reading refused - but what we kept at the center was the meal itself, bodily, with no explaining of the how. Christ's true body and blood, we said, truly present in and under the bread and wine, on his own word rather than on any theory we built to defend it. That presence was not a symbol and not only a memory; it was food for a daily struggle, and we would not reduce it to less than he said it was.\n\nThe gate was examined - none came to it unquestioned - but no one was ever compelled toward it by force. What a person believed about the words \"given for you\" mattered more to us than whether they had sinned; the truly unworthy were people who felt no need for forgiveness at all. And both parts belonged to every believer there: the bread and the cup together, not bread alone for ordinary people - Christ's own command, we said, though even that we would not force ahead of the Word doing its own work.\n\nWhere your neighbor's silence said the Word is enough, our sung German hymn inside the same service said the Word carried in the people's own tongue, at the table and in the song alike. Not emptiness. Presence, held without theory, fed to whoever came.",
+            "citations_full": [
+              {
+                "sentence": "We took things away too - private masses ended, the sacrifice-reading refused - but what we kept at the center was the meal itself, bodily, with no explaining of the how.",
+                "record_ids": [
+                  "witt.term.the-mass",
+                  "witt.term.sacrament-of-the-altar"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.the-mass",
+                    "record_type": "term",
+                    "label": "the mass -- kept as testament, refused as sacrifice, its public form re-founded",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-on-the-new-testament-that",
+                        "author": "Luther",
+                        "work": "A Treatise on the New Testament, That Is the Holy Mass",
+                        "locus": "the New Testament preface, cited among this entry's Registry rows (Doc_06 SS5 entry 5.6)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 7."
+                      },
+                      {
+                        "source_id": "witt.source.luther-babylonian-captivity-of-the-church",
+                        "author": "Luther",
+                        "work": "The Babylonian Captivity of the Church",
+                        "locus": "Babylonian Captivity -- the mass as 'the promise of remission of sins made to us by God,' against its 'third captivity' as sacrifice",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 12."
+                      },
+                      {
+                        "source_id": "witt.source.luther-eight-wittenberg-sermons",
+                        "author": "Luther",
+                        "work": "The Eight Wittenberg Sermons",
+                        "locus": "the Eight Wittenberg Sermons -- 'the private mass must be abolished... I heartily wish it would be abolished everywhere'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 15."
+                      },
+                      {
+                        "source_id": "witt.source.luther-four-hymnal-prefaces-to-walters-gesangb",
+                        "author": "Luther",
+                        "work": "four hymnal prefaces — to Walter's Gesangbüchlein",
+                        "locus": "the hymnal material, cited among this entry's Registry rows (Doc_06 SS5 entry 5.6)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_hymns_bacon-allen.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 28."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "the Augsburg Confession -- 'the Mass is retained among us, and celebrated with the highest reverence'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+                        "author": "Melanchthon",
+                        "work": "The Apology of the Augsburg Confession",
+                        "locus": "the Apology XXIV, read across three passes this build -- the division between sacrament and sacrifice",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 38."
+                      }
+                    ]
+                  },
+                  {
+                    "record_id": "witt.term.sacrament-of-the-altar",
+                    "record_type": "term",
+                    "label": "the Sacrament of the Altar -- Christ's body and blood 'in and under' bread and wine",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-concerning-the-blessed-sacrament",
+                        "author": "Luther",
+                        "work": "A Treatise Concerning the Blessed Sacrament… and Concerning the Brotherhoods",
+                        "locus": "Concerning the Blessed Sacrament (1519) -- 'synaxis or communio, that is, fellowship'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 9."
+                      },
+                      {
+                        "source_id": "witt.source.luther-babylonian-captivity-of-the-church",
+                        "author": "Luther",
+                        "work": "The Babylonian Captivity of the Church",
+                        "locus": "Babylonian Captivity -- the sacrament as Christ's testament",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 12."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "the Large Catechism, entire -- 'in and under the bread and wine'; the examination gate and its freedom",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.luther-small-catechism",
+                        "author": "Luther",
+                        "work": "The Small Catechism",
+                        "locus": "the Small Catechism -- 'the true body and blood of our Lord Jesus Christ under bread and wine'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_small-catechism_smith1994.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 26."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "the Augsburg Confession X, XXIV -- 'the Body and Blood of Christ are truly present'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+                        "author": "Melanchthon",
+                        "work": "The Apology of the Augsburg Confession",
+                        "locus": "the Apology XXIV, cited among this entry's Registry rows (Doc_06 SS5 entry 5.3)",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 38."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Christ's true body and blood, we said, truly present in and under the bread and wine, on his own word rather than on any theory we built to defend it.",
+                "record_ids": [
+                  "witt.gravity.bodily-presence"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.gravity.bodily-presence",
+                    "record_type": "gravity",
+                    "label": "The bodily presence: \"truly present,\" \"in and under\"",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-on-the-holy-sacrament",
+                        "author": "Luther",
+                        "work": "A Treatise on the Holy Sacrament of Baptism",
+                        "locus": "v2 7143-7224: the 1520 treatise's own 'simple faith,' reason taken captive",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 3."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "LC 4069-4079: 'in and under'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "AC 322-324: 'truly present... reject those that teach otherwise'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      },
+                      {
+                        "source_id": "witt.source.luther-on-the-bondage-of-the-will",
+                        "author": "Luther",
+                        "work": "On the Bondage of the Will",
+                        "locus": "Co 16090-16092: 'Sacramentarians,' one word, OCR-recovered. The Marburg Articles (1529) -- the acquisition every layer of this force waits on -- are not independently vendored anywhere in this library; disclosed here rather than cited as a source",
+                        "rights_status": "Vendored in this build at cic/texts/luther_bondage-of-the-will_cole1823.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 34."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "That presence was not a symbol and not only a memory; it was food for a daily struggle, and we would not reduce it to less than he said it was.",
+                "record_ids": [
+                  "witt.term.sacrament-of-the-altar"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.sacrament-of-the-altar",
+                    "record_type": "term",
+                    "label": "the Sacrament of the Altar -- Christ's body and blood 'in and under' bread and wine",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-concerning-the-blessed-sacrament",
+                        "author": "Luther",
+                        "work": "A Treatise Concerning the Blessed Sacrament… and Concerning the Brotherhoods",
+                        "locus": "Concerning the Blessed Sacrament (1519) -- 'synaxis or communio, that is, fellowship'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 9."
+                      },
+                      {
+                        "source_id": "witt.source.luther-babylonian-captivity-of-the-church",
+                        "author": "Luther",
+                        "work": "The Babylonian Captivity of the Church",
+                        "locus": "Babylonian Captivity -- the sacrament as Christ's testament",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 12."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "the Large Catechism, entire -- 'in and under the bread and wine'; the examination gate and its freedom",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.luther-small-catechism",
+                        "author": "Luther",
+                        "work": "The Small Catechism",
+                        "locus": "the Small Catechism -- 'the true body and blood of our Lord Jesus Christ under bread and wine'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_small-catechism_smith1994.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 26."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "the Augsburg Confession X, XXIV -- 'the Body and Blood of Christ are truly present'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+                        "author": "Melanchthon",
+                        "work": "The Apology of the Augsburg Confession",
+                        "locus": "the Apology XXIV, cited among this entry's Registry rows (Doc_06 SS5 entry 5.3)",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 38."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "The gate was examined - none came to it unquestioned - but no one was ever compelled toward it by force.",
+                "record_ids": [
+                  "witt.term.worthy-unworthy",
+                  "witt.gravity.must-and-free"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.worthy-unworthy",
+                    "record_type": "term",
+                    "label": "worthy / unworthy -- believing the words 'given for you,' examined on the three parts",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "the Large Catechism -- 'those alone are called unworthy who neither feel their infirmities nor wish to be considered sinners'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.luther-small-catechism",
+                        "author": "Luther",
+                        "work": "The Small Catechism",
+                        "locus": "the Small Catechism -- 'anyone who believes these words, \"given for you\"... is really worthy and well prepared'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_small-catechism_smith1994.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 26."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "the Augsburg Confession -- 'none are admitted except they be first examined'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+                        "author": "Melanchthon",
+                        "work": "The Apology of the Augsburg Confession",
+                        "locus": "the Apology, cited among this entry's Registry rows (Doc_06 SS5 entry 5.11)",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 38."
+                      }
+                    ]
+                  },
+                  {
+                    "record_id": "witt.gravity.must-and-free",
+                    "record_type": "gravity",
+                    "label": "\"Must\" and \"free\": liberty bound by love to the weak, and the pace of reform",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-on-christian-liberty",
+                        "author": "Luther",
+                        "work": "A Treatise on Christian Liberty",
+                        "locus": "v2 11618-11631: the free lord / dutiful servant paradox",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 13."
+                      },
+                      {
+                        "source_id": "witt.source.luther-eight-wittenberg-sermons",
+                        "author": "Luther",
+                        "work": "The Eight Wittenberg Sermons",
+                        "locus": "v2 14711-14796: the 1522 sermons, restraint addressed to Wittenberg by name; Karlstadt's 1521-22 theses, per Steimle's editorial account in the same volume (context only)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 15."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "LC 78-97, 4244-4299: the 1529 reversal, 'carnal liberty' rebuked",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "AC 391-398, 1068: adiaphora, liberty in rites, settled before the Emperor",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "What a person believed about the words \"given for you\" mattered more to us than whether they had sinned; the truly unworthy were people who felt no need for forgiveness at all.",
+                "record_ids": [
+                  "witt.term.worthy-unworthy"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.worthy-unworthy",
+                    "record_type": "term",
+                    "label": "worthy / unworthy -- believing the words 'given for you,' examined on the three parts",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "the Large Catechism -- 'those alone are called unworthy who neither feel their infirmities nor wish to be considered sinners'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.luther-small-catechism",
+                        "author": "Luther",
+                        "work": "The Small Catechism",
+                        "locus": "the Small Catechism -- 'anyone who believes these words, \"given for you\"... is really worthy and well prepared'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_small-catechism_smith1994.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 26."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "the Augsburg Confession -- 'none are admitted except they be first examined'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+                        "author": "Melanchthon",
+                        "work": "The Apology of the Augsburg Confession",
+                        "locus": "the Apology, cited among this entry's Registry rows (Doc_06 SS5 entry 5.11)",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 38."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "And both parts belonged to every believer there: the bread and the cup together, not bread alone for ordinary people - Christ's own command, we said, though even that we would not force ahead of the Word doing its own work.",
+                "record_ids": [
+                  "witt.term.both-kinds",
+                  "witt.gravity.must-and-free"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.both-kinds",
+                    "record_type": "term",
+                    "label": "both kinds -- bread and cup for the laity, 'the commandment of the Lord'",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-concerning-the-blessed-sacrament",
+                        "author": "Luther",
+                        "work": "A Treatise Concerning the Blessed Sacrament… and Concerning the Brotherhoods",
+                        "locus": "Concerning the Blessed Sacrament, cited among this entry's Registry rows (Doc_06 SS5 entry 5.5)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 9."
+                      },
+                      {
+                        "source_id": "witt.source.luther-babylonian-captivity-of-the-church",
+                        "author": "Luther",
+                        "work": "The Babylonian Captivity of the Church",
+                        "locus": "Babylonian Captivity -- 'drink ye all of it' as 'not by way of permission but of command'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 12."
+                      },
+                      {
+                        "source_id": "witt.source.luther-eight-wittenberg-sermons",
+                        "author": "Luther",
+                        "work": "The Eight Wittenberg Sermons",
+                        "locus": "the Eight Wittenberg Sermons -- the cup 'necessary... nevertheless it must not be made compulsory'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 15."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "the Augsburg Confession -- both kinds as 'the commandment of the Lord'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      }
+                    ]
+                  },
+                  {
+                    "record_id": "witt.gravity.must-and-free",
+                    "record_type": "gravity",
+                    "label": "\"Must\" and \"free\": liberty bound by love to the weak, and the pace of reform",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-on-christian-liberty",
+                        "author": "Luther",
+                        "work": "A Treatise on Christian Liberty",
+                        "locus": "v2 11618-11631: the free lord / dutiful servant paradox",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 13."
+                      },
+                      {
+                        "source_id": "witt.source.luther-eight-wittenberg-sermons",
+                        "author": "Luther",
+                        "work": "The Eight Wittenberg Sermons",
+                        "locus": "v2 14711-14796: the 1522 sermons, restraint addressed to Wittenberg by name; Karlstadt's 1521-22 theses, per Steimle's editorial account in the same volume (context only)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 15."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "LC 78-97, 4244-4299: the 1529 reversal, 'carnal liberty' rebuked",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "AC 391-398, 1068: adiaphora, liberty in rites, settled before the Emperor",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "glosses": [
+              {
+                "id": "witt.term.daily",
+                "matched_name": "forgiveness",
+                "plain_meaning": "Our catechism sets a daily rhythm. We pray at rising, at meals, and at night. Baptism drowns our old self daily. Forgiveness is renewed daily too.",
+                "quick_meaning": "The rhythm our catechism sets: prayer at rising, at meals, at night. Renewed every day.",
+                "translational_sense": "Do not hear 'daily bread' as merely food, or 'daily' as an optional devotion: we mean a whole household economy in one petition, and a day whose three hours belong to the house by rule.",
+                "false_friend": [
+                  "'daily bread' heard as simply food, or 'daily' heard as a devotional habit chosen by the pious rather than a rule of the house"
+                ],
+                "sourced_by": [
+                  {
+                    "source_id": "witt.source.luther-large-catechism",
+                    "author": "Luther",
+                    "work": "The Large Catechism",
+                    "locus": "the Large Catechism -- 'those alone are called unworthy who neither feel their infirmities nor wish to be considered sinners'",
+                    "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                  },
+                  {
+                    "source_id": "witt.source.luther-small-catechism",
+                    "author": "Luther",
+                    "work": "The Small Catechism",
+                    "locus": "the Small Catechism -- 'anyone who believes these words, \"given for you\"... is really worthy and well prepared'",
+                    "rights_status": "Vendored in this build at cic/texts/luther_small-catechism_smith1994.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 26."
+                  },
+                  {
+                    "source_id": "witt.source.melanchthon-augsburg-confession",
+                    "author": "Melanchthon (drafter)",
+                    "work": "The Augsburg Confession",
+                    "locus": "the Augsburg Confession -- 'none are admitted except they be first examined'",
+                    "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                  },
+                  {
+                    "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+                    "author": "Melanchthon",
+                    "work": "The Apology of the Augsburg Confession",
+                    "locus": "the Apology, cited among this entry's Registry rows (Doc_06 SS5 entry 5.11)",
+                    "rights_status": "Vendored in this build at cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 38."
+                  }
+                ]
+              }
+            ],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 14.1
+        },
+        {
+          "round_no": 1,
+          "position": 3,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 1,
+            "position": 3,
+            "world_key": "rzg",
+            "reason": "only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+            "degraded": false,
+            "engages": "witt"
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "rzg",
+            "chars": 1336,
+            "words": 245,
+            "citations": 2,
+            "cited_record_ids": [
+              "rzg.story.calvins-journey-to-zurich",
+              "rzg.term.sign-and-the-thing-signified"
+            ],
+            "sentences_checked": 9,
+            "sentences_withheld": 3,
+            "withhold_reasons": [
+              "specific claim (proper-noun:[\"christ's\"]) only 21% grounded in its own tags",
+              "specific claim (proper-noun:[\"christ's\"]) with no citation tag",
+              "specific claim (enumeration) with no citation tag"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [],
+            "text": "We refused the same sacrifice-reading your neighbor refused, and we held the meal at the center as he does - but where he keeps the bodily presence, we let it go, because Scripture gave us no warrant to confine Christ's body to what can be broken and stored.\n\nThat parting was real, and it cost us. It broke the wider Protestant movement in two at Marburg in 1529, and it's the reason Calvin himself travelled to Zurich in 1549 rather than trust a letter - he needed to know whether Geneva's own teaching and Zurich's actually agreed, or only seemed to from a distance. What both our cities signed together that year says it plainly: we tell the sign apart from what it points to, but we never pull them apart. Christ is truly given, by the Spirit's own power, to whoever receives him believing - not merely remembered, and not physically present.\n\nSo the one thing that stands between your neighbor's witness and ours isn't whether the meal matters - we both held it did. It's whether Christ's own promise requires his body to sit inside the bread, or whether the Spirit can give him truly without confining him there. We said the second, and we held to it even when it meant we could not stand together with people who read the same text we did and refused the same sacrifice we refused. That's the fork, and it runs all the way down.",
+            "citations_full": [
+              {
+                "sentence": "It broke the wider Protestant movement in two at Marburg in 1529, and it's the reason Calvin himself travelled to Zurich in 1549 rather than trust a letter - he needed to know whether Geneva's own teaching and Zurich's actually agreed, or only seemed to from a distance.",
+                "record_ids": [
+                  "rzg.story.calvins-journey-to-zurich"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.story.calvins-journey-to-zurich",
+                    "record_type": "story",
+                    "label": "In 1549, worried whether Geneva's and Zurich's own teaching on the Supper actually agreed, Calvin travelled to Zurich himself rather than trust a letter, and what he and Farel worked out there became the Consensus Tigurinus.",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.consensus-tigurinus",
+                        "author": "John Calvin and the Zurich pastors (jointly negotiated and signed)",
+                        "work": "Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)",
+                        "locus": "Calvin's prefatory letter, lines 84-146",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Christ is truly given, by the Spirit's own power, to whoever receives him believing - not merely remembered, and not physically present.",
+                "record_ids": [
+                  "rzg.term.sign-and-the-thing-signified"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.term.sign-and-the-thing-signified",
+                    "record_type": "term",
+                    "label": "Sign and the Thing Signified",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.consensus-tigurinus",
+                        "author": "John Calvin and the Zurich pastors (jointly negotiated and signed)",
+                        "work": "Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)",
+                        "locus": "9th Head of Agreement, lines 768-770, and the document's own title page",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "glosses": [],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 10.5
+        },
+        {
+          "round_no": 1,
+          "position": null,
+          "round_open": false,
+          "routing_action": "voice_with_directive",
+          "turn_selected": null,
+          "facilitator_kinds": [],
+          "latency_s": 3.6
+        }
+      ],
+      "committed_turn_no": 1
+    },
+    {
+      "message": "I've heard the two of you disagreed sharply about what happens at the Lord's Supper. What was that disagreement really about?",
+      "turns": [
+        {
+          "round_no": 2,
+          "position": 1,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 2,
+            "position": 1,
+            "world_key": "rzg",
+            "reason": "The participant is asking what the disagreement was \"really about\" - pressing beneath the surface of what has already been stated. Theophilus has already laid out the core divide (bodily presence vs. spiritual presence through the Spirit's power) and explicitly named it as \"the fork\" that runs all the way down. He is the voice best positioned to deepen this by articulating what theological conviction or scriptural reading made that parting necessary and non-negotiable - what made it not merely a preference but an irreconcilable difference in how Scripture itself is read. His previous turn shows he understands this is the real question underneath.",
+            "degraded": false
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "rzg",
+            "chars": 1414,
+            "words": 252,
+            "citations": 2,
+            "cited_record_ids": [
+              "rzg.quote.mass-not-a-sacrifice",
+              "rzg.quote.signs-and-things-signified"
+            ],
+            "sentences_checked": 10,
+            "sentences_withheld": 7,
+            "withhold_reasons": [
+              "specific claim (proper-noun:[\"christ's\"]) with no citation tag",
+              "specific claim (proper-noun:['table']) with no citation tag",
+              "quoted span not found verbatim in any tagged record",
+              "quoted span with no citation tag",
+              "specific claim (proper-noun:['marburg', 'protestant'], number) with no citation tag",
+              "specific claim (proper-noun:['rome']) with no citation tag",
+              "specific claim (proper-noun:[\"christ's\"]) with no citation tag"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [],
+            "text": "The disagreement was about whether Christ's own promise requires his body to be physically present in the bread, or whether the Spirit gives him truly without localizing him there.\n\nWe said no repeated sacrifice - your neighbor at this Table said the same. We said both parts belong to every believer - bread and cup together, not bread alone - and your neighbor said that too. The fork comes exactly where he says Christ's true body and blood are present \"in and under\" the bread and wine, and we say the Spirit gives Christ truly to whoever receives him believing, but without confining his body to what can be broken, chewed, and stored away.\n\nOur own founder said it first, in 1523: \"Christ offered himself once, for good. So the Mass does not repeat his sacrifice\". Twenty-six years later, when Calvin travelled to Zurich to work out whether Geneva's teaching and ours actually agreed, both our cities signed a single page together: \"We tell the sign apart from what it points to. But we never pull them apart\". That's the exact place where we part from your neighbor's witness - not on whether Christ is given at the Supper, but on whether \"truly given\" means his body must sit inside the bread.\n\nThe split was real enough that it broke the wider Protestant movement in two at Marburg in 1529, and we've never mended it. We hold the same refusal of Rome. We don't hold the same reading of Christ's own words.",
+            "citations_full": [
+              {
+                "sentence": "Our own founder said it first, in 1523: \"Christ offered himself once, for good. So the Mass does not repeat his sacrifice\".",
+                "record_ids": [
+                  "rzg.quote.mass-not-a-sacrifice"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.quote.mass-not-a-sacrifice",
+                    "record_type": "quote",
+                    "label": "The Sixty-Seven Articles, Article XVIII, lines 4565-4569 — Huldrych Zwingli",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                        "author": "Huldrych Zwingli",
+                        "work": "The Sixty-Seven Articles (1523)",
+                        "locus": "Article XVIII, lines 4565-4569",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ],
+                    "original_wording": "That Christ, having sacrificed himself once, is to eternity a certain and valid sacrifice for the sins of all faithful, wherefrom it follows that the mass is not a sacrifice, but is a remembrance of the sacrifice and assurance of the salvation which Christ has given us.",
+                    "spoken_rendering": "Christ offered himself once, for good. So the Mass does not repeat that offering. It remembers it."
+                  }
+                ]
+              },
+              {
+                "sentence": "Twenty-six years later, when Calvin travelled to Zurich to work out whether Geneva's teaching and ours actually agreed, both our cities signed a single page together: \"We tell the sign apart from what it points to. But we never pull them apart\".",
+                "record_ids": [
+                  "rzg.quote.signs-and-things-signified"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.quote.signs-and-things-signified",
+                    "record_type": "quote",
+                    "label": "Mutual Consent in Regard to the Sacraments, 9th Head of Agreement, lines 768-770 — the Ministers of the Church of Zurich and John Calvin, Minister of the Church of Geneva",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.consensus-tigurinus",
+                        "author": "John Calvin and the Zurich pastors (jointly negotiated and signed)",
+                        "work": "Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)",
+                        "locus": "9th Head of Agreement, lines 768-770",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ],
+                    "original_wording": "Wherefore, though we distinguish, as we ought, between the signs and the things signified, yet we do not disjoin the reality from the signs.",
+                    "spoken_rendering": "We tell the sign apart from what it points to. But we never pull them apart."
+                  }
+                ]
+              }
+            ],
+            "glosses": [],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 14.2
+        },
+        {
+          "round_no": 2,
+          "position": 2,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 2,
+            "position": 2,
+            "world_key": "witt",
+            "reason": "only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+            "degraded": false
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "witt",
+            "chars": 1674,
+            "words": 311,
+            "citations": 5,
+            "cited_record_ids": [
+              "witt.core.witt",
+              "witt.limit.record-thinnest",
+              "witt.term.sacrament",
+              "witt.term.sacrament-of-the-altar",
+              "witt.term.transubstantiation"
+            ],
+            "sentences_checked": 13,
+            "sentences_withheld": 3,
+            "withhold_reasons": [
+              "specific claim (proper-noun:[\"christ's\"]) with no citation tag",
+              "specific claim (proper-noun:[\"christ's\"]) with no citation tag",
+              "specific claim (proper-noun:[\"christ's\"]) only 38% grounded in its own tags"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [],
+            "text": "The disagreement was about whether a promise must be explained before it can be trusted.\n\nYour neighbor says we part because we read Christ's words differently - one side confining his body to the bread, the other freeing it from that place. That is how the argument sounds from the outside, and it is true as far as it goes. But from where we stand, the break came at a different point: not over where Christ's body is, but over whether we are required to say where it is before we can receive what he gives.\n\nWe refused to explain the how. We said plainly that Christ's body and blood are truly present, in and under the bread and wine, and we stopped there - not because we had a theory to defend, but because we had none to offer and did not think one was owed. A sacrament, for us, is God's promise joined to a visible sign, and it does what it says without our mapping the mechanism. We called transubstantiation a monstrous word for a monstrous idea, not because we denied the presence but because we refused to theorize it. And where your neighbor says the Spirit gives Christ truly without localizing him in the bread, we would say: that claim already knows too much. We simply took him at his word and ate.\n\nThe break at Marburg in 1529 is real, and we can state that it happened. What that argument felt like from our own side, and what the cities who signed the other confession actually said in their own words, has not come down to us - their names barely appear in what we hold. So the most honest answer we can give is this: the disagreement, from where we stood, was about whether trust requires understanding first, or whether the promise itself is enough.",
+            "citations_full": [
+              {
+                "sentence": "We refused to explain the how.",
+                "record_ids": [
+                  "witt.term.sacrament-of-the-altar"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.sacrament-of-the-altar",
+                    "record_type": "term",
+                    "label": "the Sacrament of the Altar -- Christ's body and blood 'in and under' bread and wine",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-concerning-the-blessed-sacrament",
+                        "author": "Luther",
+                        "work": "A Treatise Concerning the Blessed Sacrament… and Concerning the Brotherhoods",
+                        "locus": "Concerning the Blessed Sacrament (1519) -- 'synaxis or communio, that is, fellowship'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 9."
+                      },
+                      {
+                        "source_id": "witt.source.luther-babylonian-captivity-of-the-church",
+                        "author": "Luther",
+                        "work": "The Babylonian Captivity of the Church",
+                        "locus": "Babylonian Captivity -- the sacrament as Christ's testament",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 12."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "the Large Catechism, entire -- 'in and under the bread and wine'; the examination gate and its freedom",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.luther-small-catechism",
+                        "author": "Luther",
+                        "work": "The Small Catechism",
+                        "locus": "the Small Catechism -- 'the true body and blood of our Lord Jesus Christ under bread and wine'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_small-catechism_smith1994.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 26."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "the Augsburg Confession X, XXIV -- 'the Body and Blood of Christ are truly present'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+                        "author": "Melanchthon",
+                        "work": "The Apology of the Augsburg Confession",
+                        "locus": "the Apology XXIV, cited among this entry's Registry rows (Doc_06 SS5 entry 5.3)",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 38."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "A sacrament, for us, is God's promise joined to a visible sign, and it does what it says without our mapping the mechanism.",
+                "record_ids": [
+                  "witt.term.sacrament"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.sacrament",
+                    "record_type": "term",
+                    "label": "sacrament -- 'when the Word is joined to the element, it becomes a Sacrament'",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-on-the-holy-sacrament",
+                        "author": "Luther",
+                        "work": "A Treatise on the Holy Sacrament of Baptism",
+                        "locus": "Concerning Baptism (1519), cited among this entry's Registry rows (Doc_06 SS5 entry 5.1)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 3."
+                      },
+                      {
+                        "source_id": "witt.source.luther-treatise-concerning-the-blessed-sacrament",
+                        "author": "Luther",
+                        "work": "A Treatise Concerning the Blessed Sacrament… and Concerning the Brotherhoods",
+                        "locus": "Concerning the Blessed Sacrament (1519) -- the sign, its significance, and the faith required",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 9."
+                      },
+                      {
+                        "source_id": "witt.source.luther-babylonian-captivity-of-the-church",
+                        "author": "Luther",
+                        "work": "The Babylonian Captivity of the Church",
+                        "locus": "Babylonian Captivity -- 'I must deny that there are seven sacraments'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 12."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "the Large Catechism -- 'accedat verbum ad elementum et fit sacramentum'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "the Augsburg Confession XIII -- sacraments 'instituted to awaken and confirm faith'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+                        "author": "Melanchthon",
+                        "work": "The Apology of the Augsburg Confession",
+                        "locus": "the Apology XIII, read entire this pass -- 'Baptism, the Lord's Supper, and Absolution... are truly Sacraments'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 38."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "We called transubstantiation a monstrous word for a monstrous idea, not because we denied the presence but because we refused to theorize it.",
+                "record_ids": [
+                  "witt.term.transubstantiation"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.transubstantiation",
+                    "record_type": "term",
+                    "label": "transubstantiation -- 'a monstrous word,' refused without theorizing an alternative",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-babylonian-captivity-of-the-church",
+                        "author": "Luther",
+                        "work": "The Babylonian Captivity of the Church",
+                        "locus": "Babylonian Captivity -- 'a monstrous word for a monstrous idea'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 12."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "The break at Marburg in 1529 is real, and we can state that it happened.",
+                "record_ids": [
+                  "witt.core.witt"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.core.witt",
+                    "record_type": "world_core",
+                    "label": "witt.core.witt",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-disputation-on-the-power-and-efficacy",
+                        "author": "Luther",
+                        "work": "Disputation on the Power and Efficacy of Indulgences",
+                        "locus": "the covering letter to Albrecht and the Ninety-Five Theses themselves -- the founding act",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 2."
+                      },
+                      {
+                        "source_id": "witt.source.luther-eight-wittenberg-sermons",
+                        "author": "Luther",
+                        "work": "The Eight Wittenberg Sermons",
+                        "locus": "the First Sermon and its own restraint of the pace of reform -- the 1522 Wittenberg crisis",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 15."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "the household-examination passages and the fourth petition's Turk reference, throughout",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.luther-small-catechism",
+                        "author": "Luther",
+                        "work": "The Small Catechism",
+                        "locus": "the three parts and the household confession scripts, including 'a master or a lady of the house'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_small-catechism_smith1994.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 26."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "the Preface and Articles IV, VII, XX, XXIV -- this world's own confessional self-definition, submitted at Augsburg 1530",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+                        "author": "Melanchthon",
+                        "work": "The Apology of the Augsburg Confession",
+                        "locus": "Article XXIV -- the fullest statement of claimed Sunday practice",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 38."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "What that argument felt like from our own side, and what the cities who signed the other confession actually said in their own words, has not come down to us - their names barely appear in what we hold.",
+                "record_ids": [
+                  "witt.limit.record-thinnest"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.limit.record-thinnest",
+                    "record_type": "honest_limit",
+                    "label": "Where is our own record thinnest? On what any actual household or parish did with what it…",
+                    "sources": [
+                      {
+                        "source_id": "witt.force.parishes-state-as-reported",
+                        "author": null,
+                        "work": null,
+                        "locus": "the Saxon visitation protocols (1527-28), unvendored; 'no downstream record may cite this force... as evidence that Saxon congregations were ignorant, cold, or negligent'; the founder's own testimony only",
+                        "rights_status": null
+                      },
+                      {
+                        "source_id": "witt.force.reformed-rival-by-absence",
+                        "author": null,
+                        "work": null,
+                        "locus": "'Zwingli' and 'Marburg' return zero hits in all ten vendored files; 'the world's own experience of Marburg is NOT RECOVERABLE from this library'",
+                        "rights_status": null
+                      },
+                      {
+                        "source_id": "witt.figure.katharina-von-bora",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the only speaking trace' of any woman anywhere in this world's evidence base -- one recorded question, nothing else",
+                        "rights_status": null
+                      },
+                      {
+                        "source_id": "witt.gravity.hearers-and-repeaters-of-words",
+                        "author": null,
+                        "work": null,
+                        "locus": "the founder's own repeated testimony, Contested and Inferential-Thin as a description of any actual congregation's state",
+                        "rights_status": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "glosses": [
+              {
+                "id": "witt.term.christ-alone",
+                "matched_name": "him",
+                "plain_meaning": "Christ alone is our teacher and our mediator. We do not listen to saints or scholars instead of him. Every page of Scripture points to him.",
+                "quick_meaning": "Christ alone: our one teacher, our one mediator.",
+                "translational_sense": "Do not hear this as a bare slogan; we mean a rule of hearing -- one Teacher, one Mediator -- spoken in a friend's tone, not a formula's.",
+                "false_friend": [
+                  "a bare slogan (solus Christus) rather than a rule of hearing and a tone"
+                ],
+                "sourced_by": []
+              }
+            ],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 12.5
+        },
+        {
+          "round_no": 2,
+          "position": 3,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 2,
+            "position": 3,
+            "world_key": "rzg",
+            "reason": "only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+            "degraded": false,
+            "engages": "witt"
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "rzg",
+            "chars": 1396,
+            "words": 255,
+            "citations": 1,
+            "cited_record_ids": [
+              "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+            ],
+            "sentences_checked": 12,
+            "sentences_withheld": 4,
+            "withhold_reasons": [
+              "quoted span with no citation tag",
+              "specific claim (proper-noun:['wittenberg']) with no citation tag",
+              "specific claim (number) only 0% grounded in its own tags",
+              "quoted span with no citation tag"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [],
+            "text": "Your neighbor says the break came where we required an explanation before the promise could be trusted, and he's closer to the real nerve than the argument about location alone gets. But from our side, what we pressed on wasn't whether trust requires understanding - it was whether the promise itself actually requires what your neighbor says it does.\n\nWe didn't refuse to explain the how because we were content to leave it mysterious. We refused to say Christ's body sits in the bread because we could not find that claim standing in Scripture when we tested it. The text says \"this is my body,\" and we don't deny he said it. What we deny is that those words bind his body to the bread the way Wittenberg reads them - as though the promise only works if the body is physically there to be eaten. That's not humility before mystery; that's a claim about what must be true, and we said Scripture doesn't support it.\n\nSo when your neighbor says we theorized where he simply trusted, we'd answer: no, we tested a theory he was already holding and found it wouldn't stand. The Spirit gives Christ truly - we hold that, and both our cities signed it together in 1549. What we won't say is that \"truly given\" requires his body to be confined to what can be broken and stored. Your neighbor calls that taking Christ at his word. We call it adding to the word a requirement the word itself doesn't make.",
+            "citations_full": [
+              {
+                "sentence": "We refused to say Christ's body sits in the bread because we could not find that claim standing in Scripture when we tested it.",
+                "record_ids": [
+                  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation",
+                    "record_type": "gravity",
+                    "label": "Spiritual Presence and the Rejection of Corporeal/Sacrificial Mediation",
+                    "sources": []
+                  }
+                ]
+              }
+            ],
+            "glosses": [],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 9.7
+        },
+        {
+          "round_no": 2,
+          "position": null,
+          "round_open": false,
+          "routing_action": "voice_with_directive",
+          "turn_selected": null,
+          "facilitator_kinds": [],
+          "latency_s": 3.0
+        }
+      ],
+      "committed_turn_no": 2
+    },
+    {
+      "message": "One of you seems to have moved faster to reform old practices than the other. Is that fair, and why?",
+      "turns": [
+        {
+          "round_no": 3,
+          "position": 1,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 3,
+            "position": 1,
+            "world_key": "rzg",
+            "reason": "Theophilus holds the formation most directly positioned to answer this question. The Reformed movement under Zwingli did move faster to visible, immediate reform - organ silence in the mid-1520s, image removal, altar dismantling - making this an empirical question about their own history they can speak to most directly. Nikolaus's formation unfolded differently in scope and pace, but Theophilus should first own and explain the faster visible reforming without mediation.",
+            "degraded": false
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "rzg",
+            "chars": 1422,
+            "words": 234,
+            "citations": 4,
+            "cited_record_ids": [
+              "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+              "rzg.gravity.council-led-authority-vs-consistorial-independence",
+              "rzg.story.first-zurich-disputation",
+              "rzg.witness.one-conviction-two-enactments"
+            ],
+            "sentences_checked": 11,
+            "sentences_withheld": 1,
+            "withhold_reasons": [
+              "specific claim (proper-noun:['geneva', 'zurich']) with no citation tag"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [],
+            "text": "Fair as a description of what happened, but it misses why it happened that way - and the why matters more than the speed.\n\nZurich's reform moved through public argument before the whole city, tested once and decided. In January 1523, six hundred people filled the Town Hall - priests, laymen, delegates from the bishop - and our founder defended his case from Scripture until the council itself ruled for it and bound every priest in the canton to preach the same way. That's fast because it's decisive: one disputation, one ruling, the old practices set down where Scripture wouldn't warrant them.\n\nGeneva built differently and more slowly. Calvin was recalled in 1541 and produced the Ecclesiastical Ordinances - a whole structure, not a single ruling - creating a Consistory of pastors and lay elders to hold our population's ordinary conduct answerable to what we profess. That body had to be fought for: it didn't win its own independence from the civil council's control until 1555, fourteen years after it was founded. Speed wasn't the point; building a disciplinary institution the council couldn't simply override was.\n\nSo yes, Zurich moved faster - but Geneva built something Zurich never attempted, and it took longer because it was building against resistance, not deciding in one morning's argument. Same conviction, tested two ways. The speed tells you how each city enacted reform, not which one cared more.",
+            "citations_full": [
+              {
+                "sentence": "In January 1523, six hundred people filled the Town Hall - priests, laymen, delegates from the bishop - and our founder defended his case from Scripture until the council itself ruled for it and bound every priest in the canton to preach the same way.",
+                "record_ids": [
+                  "rzg.story.first-zurich-disputation"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.story.first-zurich-disputation",
+                    "record_type": "story",
+                    "label": "In 1523, six hundred people filled Zurich's own Town Hall to test our founder's own case against Scripture, and the council ruled for it, binding every priest in its territory to preach the same way.",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.zwingli-selected-works",
+                        "author": "Huldrych Zwingli",
+                        "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                        "locus": "lines 1513-1654, 1665-1678",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Calvin was recalled in 1541 and produced the Ecclesiastical Ordinances - a whole structure, not a single ruling - creating a Consistory of pastors and lay elders to hold our population's ordinary conduct answerable to what we profess.",
+                "record_ids": [
+                  "rzg.force.1541-ecclesiastical-ordinances-consistory-founding"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+                    "record_type": "force",
+                    "label": "The 1541 Ecclesiastical Ordinances and the founding of the Consistory",
+                    "sources": []
+                  }
+                ]
+              },
+              {
+                "sentence": "That body had to be fought for: it didn't win its own independence from the civil council's control until 1555, fourteen years after it was founded.",
+                "record_ids": [
+                  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.gravity.council-led-authority-vs-consistorial-independence",
+                    "record_type": "gravity",
+                    "label": "[TENSIONAL] Council-Led Civic Authority (Zurich) vs. Consistorial Independence from Civil Control (Geneva)",
+                    "sources": []
+                  }
+                ]
+              },
+              {
+                "sentence": "Same conviction, tested two ways.",
+                "record_ids": [
+                  "rzg.witness.one-conviction-two-enactments"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.witness.one-conviction-two-enactments",
+                    "record_type": "doctrinal_witness",
+                    "label": "We hold one conviction, tested two ways",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.zwingli-sixty-seven-articles",
+                        "author": "Huldrych Zwingli",
+                        "work": "The Sixty-Seven Articles (1523)",
+                        "locus": "the disputational method itself -- doctrine argued aloud, ratified by council vote",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      },
+                      {
+                        "source_id": "rzg.source.calvin-geneva-catechism",
+                        "author": "John Calvin",
+                        "work": "The Catechism of the Church of Geneva",
+                        "locus": "the catechetical method itself -- doctrine built article by article, taught to the whole population",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "glosses": [
+              {
+                "id": "rzg.term.disputation",
+                "matched_name": "disputation",
+                "plain_meaning": "A Disputation was a public debate held before Zurich's own city council. Our reforming side defended its case from Scripture. The old church's side answered. This is how Zurich actually decided to reform - not a private argument, a civic one.",
+                "quick_meaning": "A public, formal debate before Zurich's own city council. Our reforming side defended its scriptural case against the old church's defenders. This is how Zurich's reform was actually decided.",
+                "translational_sense": "This was not theater dressed around a foregone conclusion. It was the specific civic-scriptural test we trusted to settle a real question, because the council's own judgment, reached this way, is what we took reform's own legitimacy to require.",
+                "false_friend": [
+                  "a formal academic debate, or a piece of political theater - a staged event whose outcome was likely settled beforehand, since councils rarely reverse the powerful"
+                ],
+                "sourced_by": []
+              }
+            ],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 16.0
+        },
+        {
+          "round_no": 3,
+          "position": 2,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 3,
+            "position": 2,
+            "world_key": "witt",
+            "reason": "only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+            "degraded": false
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "witt",
+            "chars": 1365,
+            "words": 252,
+            "citations": 7,
+            "cited_record_ids": [
+              "witt.gravity.must-and-free",
+              "witt.story.return-and-the-eight-sermons",
+              "witt.term.must-and-free",
+              "witt.term.the-word"
+            ],
+            "sentences_checked": 10,
+            "sentences_withheld": 0,
+            "withhold_reasons": [],
+            "degraded_by_net": false,
+            "output_defects": [],
+            "text": "Yes, that is fair as far as the speed itself goes - but the why runs deeper than any difference in zeal, and we owe you that honesty.\n\nWe moved more slowly because we measured every step by what love could carry, not only by what Scripture permitted. Faith itself never bends - that is the one \"must\" that holds absolutely. Everything else is \"free,\" ours to use or refuse, and we measure that freedom entirely by patience for the weaker believer beside us, never by what we ourselves prefer. Our own founder said it plainly in 1522, preaching eight days running to a congregation that had moved too fast in his absence: the kingdom of God consists not in words but in deeds, and a faith without love is not faith at all - only a counterfeit of it. He told them to their faces that they had learned the doctrine and not yet its love.\n\nSo yes, we moved more slowly - not because we doubted Scripture's own clarity, but because the Word itself must do the work while we preach it, not we by force ahead of it. Where your neighbor's city decided in one disputation and bound every priest to it by ruling, we carried the old and the new together longer, holding the weaker conscience inside by patience before holding it inside by full conviction. That is not timidity. It is the shape Christian liberty takes when it actually loves the neighbor it is supposed to free.",
+            "citations_full": [
+              {
+                "sentence": "We moved more slowly because we measured every step by what love could carry, not only by what Scripture permitted.",
+                "record_ids": [
+                  "witt.gravity.must-and-free"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.gravity.must-and-free",
+                    "record_type": "gravity",
+                    "label": "\"Must\" and \"free\": liberty bound by love to the weak, and the pace of reform",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-on-christian-liberty",
+                        "author": "Luther",
+                        "work": "A Treatise on Christian Liberty",
+                        "locus": "v2 11618-11631: the free lord / dutiful servant paradox",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 13."
+                      },
+                      {
+                        "source_id": "witt.source.luther-eight-wittenberg-sermons",
+                        "author": "Luther",
+                        "work": "The Eight Wittenberg Sermons",
+                        "locus": "v2 14711-14796: the 1522 sermons, restraint addressed to Wittenberg by name; Karlstadt's 1521-22 theses, per Steimle's editorial account in the same volume (context only)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 15."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "LC 78-97, 4244-4299: the 1529 reversal, 'carnal liberty' rebuked",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "AC 391-398, 1068: adiaphora, liberty in rites, settled before the Emperor",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Faith itself never bends - that is the one \"must\" that holds absolutely.",
+                "record_ids": [
+                  "witt.term.must-and-free"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.must-and-free",
+                    "record_type": "term",
+                    "label": "'must' and 'free' -- Christian liberty measured entirely by the weak brother",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-on-christian-liberty",
+                        "author": "Luther",
+                        "work": "A Treatise on Christian Liberty",
+                        "locus": "Christian Liberty, opening only -- 'a Christian man is a perfectly free lord of all... a perfectly dutiful servant of all'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 13."
+                      },
+                      {
+                        "source_id": "witt.source.luther-eight-wittenberg-sermons",
+                        "author": "Luther",
+                        "work": "The Eight Wittenberg Sermons",
+                        "locus": "the Eight Wittenberg Sermons, all eight -- 'take note of these two things, must and free'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 15."
+                      },
+                      {
+                        "source_id": "witt.source.luther-that-doctrines-of-men-are",
+                        "author": "Luther",
+                        "work": "That Doctrines of Men Are to Be Rejected, together with a Reply to Texts Quoted in Defence of the Doctrines of Men",
+                        "locus": "That Doctrines of Men Are to Be Rejected, cited among this entry's Registry rows (Doc_06 SS5 entry 7.5)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 16."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "the Large Catechism -- 'no one should by any means be coerced or compelled, lest we institute a new murdering of souls'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "the Augsburg Confession -- holy-days 'observed without sin... nevertheless consciences are not to be burdened'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+                        "author": "Melanchthon",
+                        "work": "The Apology of the Augsburg Confession",
+                        "locus": "the Apology, read this pass -- 'the use of liberty is to be so controlled that the inexperienced may not be offended'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 38."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Everything else is \"free,\" ours to use or refuse, and we measure that freedom entirely by patience for the weaker believer beside us, never by what we ourselves prefer.",
+                "record_ids": [
+                  "witt.term.must-and-free"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.must-and-free",
+                    "record_type": "term",
+                    "label": "'must' and 'free' -- Christian liberty measured entirely by the weak brother",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-on-christian-liberty",
+                        "author": "Luther",
+                        "work": "A Treatise on Christian Liberty",
+                        "locus": "Christian Liberty, opening only -- 'a Christian man is a perfectly free lord of all... a perfectly dutiful servant of all'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 13."
+                      },
+                      {
+                        "source_id": "witt.source.luther-eight-wittenberg-sermons",
+                        "author": "Luther",
+                        "work": "The Eight Wittenberg Sermons",
+                        "locus": "the Eight Wittenberg Sermons, all eight -- 'take note of these two things, must and free'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 15."
+                      },
+                      {
+                        "source_id": "witt.source.luther-that-doctrines-of-men-are",
+                        "author": "Luther",
+                        "work": "That Doctrines of Men Are to Be Rejected, together with a Reply to Texts Quoted in Defence of the Doctrines of Men",
+                        "locus": "That Doctrines of Men Are to Be Rejected, cited among this entry's Registry rows (Doc_06 SS5 entry 7.5)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 16."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "the Large Catechism -- 'no one should by any means be coerced or compelled, lest we institute a new murdering of souls'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "the Augsburg Confession -- holy-days 'observed without sin... nevertheless consciences are not to be burdened'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+                        "author": "Melanchthon",
+                        "work": "The Apology of the Augsburg Confession",
+                        "locus": "the Apology, read this pass -- 'the use of liberty is to be so controlled that the inexperienced may not be offended'",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 38."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Our own founder said it plainly in 1522, preaching eight days running to a congregation that had moved too fast in his absence: the kingdom of God consists not in words but in deeds, and a faith without love is not faith at all - only a counterfeit of it.",
+                "record_ids": [
+                  "witt.story.return-and-the-eight-sermons"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.story.return-and-the-eight-sermons",
+                    "record_type": "story",
+                    "label": "Luther leaves the safety of the Wartburg without his prince's leave, rides back into a Wittenberg turned disorderly under a colleague's own zealous leadership, and preaches eight days running, telling his own congregation to their faces that they have learned the words of the reform and not yet its love.",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-eight-wittenberg-sermons",
+                        "author": "Luther",
+                        "work": "The Eight Wittenberg Sermons",
+                        "locus": "The Eight Wittenberg Sermons (March 1522), First Sermon, verified verbatim at \"Let us beware lest Wittenberg become Capernaum\" and \"I see no signs of love among you,\" and at \"God does not want hearers and repeaters of words, but doers and followers\"; Kessler's eyewitness corroboration, as cited in Steimle's introduction to the same volume, that the extant printed text omits the sermon's own opening exposition",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 15."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "He told them to their faces that they had learned the doctrine and not yet its love.",
+                "record_ids": [
+                  "witt.story.return-and-the-eight-sermons"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.story.return-and-the-eight-sermons",
+                    "record_type": "story",
+                    "label": "Luther leaves the safety of the Wartburg without his prince's leave, rides back into a Wittenberg turned disorderly under a colleague's own zealous leadership, and preaches eight days running, telling his own congregation to their faces that they have learned the words of the reform and not yet its love.",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-eight-wittenberg-sermons",
+                        "author": "Luther",
+                        "work": "The Eight Wittenberg Sermons",
+                        "locus": "The Eight Wittenberg Sermons (March 1522), First Sermon, verified verbatim at \"Let us beware lest Wittenberg become Capernaum\" and \"I see no signs of love among you,\" and at \"God does not want hearers and repeaters of words, but doers and followers\"; Kessler's eyewitness corroboration, as cited in Steimle's introduction to the same volume, that the extant printed text omits the sermon's own opening exposition",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 15."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "So yes, we moved more slowly - not because we doubted Scripture's own clarity, but because the Word itself must do the work while we preach it, not we by force ahead of it.",
+                "record_ids": [
+                  "witt.term.the-word"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.the-word",
+                    "record_type": "term",
+                    "label": "the Word -- God's own speech, the Gospel of Christ, 'the Word must do it'",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-selections-from-luthers-prefaces-to-his",
+                        "author": "Luther",
+                        "work": "Selections from Luther's Prefaces to His Works, 1539 and 1545",
+                        "locus": "the 1539 preface -- 'the Bible has come to lie forgotten in the dust under the bench'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 1."
+                      },
+                      {
+                        "source_id": "witt.source.luther-open-letter-to-the-christian-nobility",
+                        "author": "Luther",
+                        "work": "An Open Letter to the Christian Nobility of the German Nation",
+                        "locus": "Christian Nobility -- Scripture's own authority against pope, councils, fathers",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 11."
+                      },
+                      {
+                        "source_id": "witt.source.luther-treatise-on-christian-liberty",
+                        "author": "Luther",
+                        "work": "A Treatise on Christian Liberty",
+                        "locus": "Christian Liberty -- 'one thing and one only is necessary... the most holy Word of God, the Gospel of Christ'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 13."
+                      },
+                      {
+                        "source_id": "witt.source.luther-eight-wittenberg-sermons",
+                        "author": "Luther",
+                        "work": "The Eight Wittenberg Sermons",
+                        "locus": "the Eight Wittenberg Sermons -- 'I did nothing; the Word did it all'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 15."
+                      },
+                      {
+                        "source_id": "witt.source.luther-that-doctrines-of-men-are",
+                        "author": "Luther",
+                        "work": "That Doctrines of Men Are to Be Rejected, together with a Reply to Texts Quoted in Defence of the Doctrines of Men",
+                        "locus": "That Doctrines of Men Are to Be Rejected, cited among this entry's Registry rows (Doc_06 SS5 entry 3.1)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 16."
+                      },
+                      {
+                        "source_id": "witt.source.luther-secular-authority-to-what-extent-it",
+                        "author": "Luther",
+                        "work": "Secular Authority: To What Extent It Should Be Obeyed",
+                        "locus": "Secular Authority, cited among this entry's Registry rows (Doc_06 SS5 entry 3.1)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v3-selected_various1930.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 20."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "the Large Catechism -- 'accedat verbum ad elementum et fit sacramentum'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.luther-small-catechism",
+                        "author": "Luther",
+                        "work": "The Small Catechism",
+                        "locus": "the Small Catechism, cited among this entry's Registry rows (Doc_06 SS5 entry 3.1)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_small-catechism_smith1994.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 26."
+                      },
+                      {
+                        "source_id": "witt.source.luther-ein-feste-burg-ist-unser-gott",
+                        "author": "Luther",
+                        "work": "Ein' feste Burg ist unser Gott",
+                        "locus": "the hymns, Hymn XXVI -- 'one little word can fell him'",
+                        "rights_status": "Vendored in this build at cic/texts/luther_hymns_bacon-allen.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 29."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "the Augsburg Confession V, VII, XXVIII",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Where your neighbor's city decided in one disputation and bound every priest to it by ruling, we carried the old and the new together longer, holding the weaker conscience inside by patience before holding it inside by full conviction.",
+                "record_ids": [
+                  "witt.gravity.must-and-free"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.gravity.must-and-free",
+                    "record_type": "gravity",
+                    "label": "\"Must\" and \"free\": liberty bound by love to the weak, and the pace of reform",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-treatise-on-christian-liberty",
+                        "author": "Luther",
+                        "work": "A Treatise on Christian Liberty",
+                        "locus": "v2 11618-11631: the free lord / dutiful servant paradox",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 13."
+                      },
+                      {
+                        "source_id": "witt.source.luther-eight-wittenberg-sermons",
+                        "author": "Luther",
+                        "work": "The Eight Wittenberg Sermons",
+                        "locus": "v2 14711-14796: the 1522 sermons, restraint addressed to Wittenberg by name; Karlstadt's 1521-22 theses, per Steimle's editorial account in the same volume (context only)",
+                        "rights_status": "Vendored in this build at cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 15."
+                      },
+                      {
+                        "source_id": "witt.source.luther-large-catechism",
+                        "author": "Luther",
+                        "work": "The Large Catechism",
+                        "locus": "LC 78-97, 4244-4299: the 1529 reversal, 'carnal liberty' rebuked",
+                        "rights_status": "Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 25."
+                      },
+                      {
+                        "source_id": "witt.source.melanchthon-augsburg-confession",
+                        "author": "Melanchthon (drafter)",
+                        "work": "The Augsburg Confession",
+                        "locus": "AC 391-398, 1068: adiaphora, liberty in rites, settled before the Emperor",
+                        "rights_status": "Vendored in this build at cic/texts/melanchthon_augsburg-confession_anon-pg275.txt; rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked at the rights level by this authoring pass) -- Source Registry row 37."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "glosses": [],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 11.8
+        },
+        {
+          "round_no": 3,
+          "position": 3,
+          "round_open": true,
+          "routing_action": "voice_with_directive",
+          "turn_selected": {
+            "round_no": 3,
+            "position": 3,
+            "world_key": "rzg",
+            "reason": "only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+            "degraded": false,
+            "engages": "witt"
+          },
+          "facilitator_kinds": [],
+          "voice": {
+            "speaker": "rzg",
+            "chars": 1626,
+            "words": 261,
+            "citations": 3,
+            "cited_record_ids": [
+              "rzg.gravity.consistorial-church-discipline",
+              "rzg.gravity.council-led-authority-vs-consistorial-independence",
+              "rzg.story.first-zurich-disputation"
+            ],
+            "sentences_checked": 14,
+            "sentences_withheld": 4,
+            "withhold_reasons": [
+              "specific claim (proper-noun:[\"scripture's\"]) with no citation tag",
+              "specific claim (proper-noun:['geneva']) with no citation tag",
+              "specific claim (proper-noun:['geneva', 'zurich']) with no citation tag",
+              "specific claim (number) with no citation tag"
+            ],
+            "degraded_by_net": false,
+            "output_defects": [],
+            "text": "What your neighbor calls patience for the weaker conscience, we would call something closer to the truth - but it still doesn't name the whole difference.\n\nWe didn't move faster because we cared less about the weaker believer. We moved faster because the method itself was different from the ground up. At Zurich, the reform was civic from the first day: argued before the whole assembled city, ruled on by the council, and binding on every priest in the canton the moment the council said so. That's not impatience - it's what happens when Scripture's own authority is tested in public disputation and the civil magistrate itself decides the outcome. The speed came from the structure, not from caring less about anyone left behind.\n\nAt Geneva, the same conviction took a different shape entirely. Calvin built the Consistory as a body distinct from the council - pastors and lay elders together, holding ordinary conduct answerable to what we profess. That took fourteen years to win as an independent institution, because it was being won against the council's own claim to final control. So Geneva moved more slowly not because it was gentler, but because it was building something Zurich never attempted: a disciplinary body the civil magistrate couldn't simply override.\n\nYour neighbor's slower pace came from patience for the weaker conscience. Ours came from two cities enacting the same conviction through structures that worked at fundamentally different speeds - one decisive, one deliberate. Neither is gentleness and neither is impatience. They're just different answers to the same question: who finally decides?",
+            "citations_full": [
+              {
+                "sentence": "At Zurich, the reform was civic from the first day: argued before the whole assembled city, ruled on by the council, and binding on every priest in the canton the moment the council said so.",
+                "record_ids": [
+                  "rzg.story.first-zurich-disputation"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.story.first-zurich-disputation",
+                    "record_type": "story",
+                    "label": "In 1523, six hundred people filled Zurich's own Town Hall to test our founder's own case against Scripture, and the council ruled for it, binding every priest in its territory to preach the same way.",
+                    "sources": [
+                      {
+                        "source_id": "rzg.source.zwingli-selected-works",
+                        "author": "Huldrych Zwingli",
+                        "work": "Selected Works - letter to Erasmus, the Constance petition, the Acts of the First and Second Zurich Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section), other shorter writings",
+                        "locus": "lines 1513-1654, 1665-1678",
+                        "rights_status": "public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note column, checked directly against cic/texts/ this pass)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Calvin built the Consistory as a body distinct from the council - pastors and lay elders together, holding ordinary conduct answerable to what we profess.",
+                "record_ids": [
+                  "rzg.gravity.consistorial-church-discipline"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.gravity.consistorial-church-discipline",
+                    "record_type": "gravity",
+                    "label": "Consistorial Church Discipline",
+                    "sources": []
+                  }
+                ]
+              },
+              {
+                "sentence": "That took fourteen years to win as an independent institution, because it was being won against the council's own claim to final control.",
+                "record_ids": [
+                  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+                ],
+                "sources": [
+                  {
+                    "record_id": "rzg.gravity.council-led-authority-vs-consistorial-independence",
+                    "record_type": "gravity",
+                    "label": "[TENSIONAL] Council-Led Civic Authority (Zurich) vs. Consistorial Independence from Civil Control (Geneva)",
+                    "sources": []
+                  }
+                ]
+              }
+            ],
+            "glosses": [],
+            "figures_used": [],
+            "quote_offers": []
+          },
+          "latency_s": 10.1
+        },
+        {
+          "round_no": 3,
+          "position": null,
+          "round_open": false,
+          "routing_action": "voice_with_directive",
+          "turn_selected": null,
+          "facilitator_kinds": [],
+          "latency_s": 2.7
+        }
+      ],
+      "committed_turn_no": 3
+    }
+  ],
+  "dominance_word_share": {
+    "rzg": 0.65,
+    "witt": 0.35
+  },
+  "usage_token_counts": {
+    "reader_call:-": {
+      "calls": 3,
+      "input_tokens": 4741,
+      "output_tokens": 600,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "safety_call:-": {
+      "calls": 3,
+      "input_tokens": 5419,
+      "output_tokens": 336,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "turn_selector:-": {
+      "calls": 3,
+      "input_tokens": 11162,
+      "output_tokens": 680,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "turn_selector:rzg": {
+      "calls": 3,
+      "input_tokens": 8036,
+      "output_tokens": 460,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "voice_generation:rzg": {
+      "calls": 6,
+      "input_tokens": 16062,
+      "output_tokens": 2172,
+      "cache_read_input_tokens": 60340,
+      "cache_creation_input_tokens": 12068
+    },
+    "voice_generation:witt": {
+      "calls": 3,
+      "input_tokens": 7609,
+      "output_tokens": 1315,
+      "cache_read_input_tokens": 83940,
+      "cache_creation_input_tokens": 0
+    }
+  },
+  "isolation_violations": [],
+  "note": "token counts only - no $ figure until reconciled against an AWS invoice (spec principle 13)"
+}

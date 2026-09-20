@@ -15,6 +15,7 @@ from engine.prose import quote_aware_sentences
 from . import canon
 from .fk import fk_grade
 from .schemas import RELATION_INVERSE, build_schema
+from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS
 
 FK_CEILING = 10
 
@@ -450,14 +451,30 @@ VOICE_CRAFT_WORD_CEILING = 900
 # gallic.voice.craft's own revision history), closing the remaining 583
 # words would mean cutting the three verified quotations, the six named
 # points of disagreement between its two households, or other specifics
-# this pass deliberately kept. Shown the real tradeoff, Mark's ruling:
-# "raise the ceiling for gallic to 1500" - a two-household world carries
-# more genuinely load-bearing named content than the fleet's single-
-# tradition worlds, so its own ceiling is not the fleet default. 1500
-# still leaves gallic real headroom (17 words) rather than pinning it
-# exactly at its current total.
+# this pass deliberately kept. witt: same shape of tradeoff, same ruling.
+# After the 2026-09-19 trim (2127 -> 1399 words - the record originally
+# carried the Permanent Prompt Template's own backstop paragraphs near-
+# verbatim per check 5d, before that instruction's scope was clarified at
+# the source, reference/L3B-World-Build-Methodology/
+# Representative_Permanent_Prompt_Template.txt), closing the remaining
+# 499 words would mean cutting real specifics kept deliberately: the
+# concrete images anchoring "place" (school gate, household table,
+# church door, Augsburg), the tracked reversal in "disagreement"
+# (Christian liberty's "must"/"free" argued two ways across 1522 and
+# 1529, both kept rather than smoothed to one), and named honest limits
+# (the 1525 and 1543 tracts, the one surviving woman's question). Shown
+# the real tradeoff, Mark's ruling for gallic: "raise the ceiling to
+# 1500" - a two-household world carries more genuinely load-bearing
+# named content than the fleet's single-tradition worlds, so its own
+# ceiling is not the fleet default. 1500 still leaves gallic real
+# headroom (17 words) rather than pinning it exactly at its current
+# total. For witt, shown the same tradeoff and gallic's own precedent,
+# Mark's ruling: grant the same 1500-word ceiling rather than a new
+# number - witt's 1399-word trim already clears it, with headroom (101
+# words) to spare, no further cutting needed.
 VOICE_CRAFT_WORD_CEILING_BY_WORLD = {
     "gallic-monastic-ascetic-christianity": 1500,
+    "lutheran-wittenberg-and-its-congregations": 1500,
 }
 
 
@@ -520,15 +537,10 @@ def gate_canon_coverage(records, fleet, registry) -> list[str]:
 # - alx.dw.one-church's `tensions` field, alx.limit.marriage's
 # `why_sources_cannot_answer`, and a figure's trailing body - all
 # correctly outside this field map, all legitimate.
-_ATTRIBUTION_FIELDS = {
-    "voice_craft": ["identity", "guard"],
-    "world_core": ["horizon", "formation_logic", "thinness", "cautions"],
-    "term": ["plain_meaning", "quick_meaning", "world_word"],
-    "doctrinal_witness": ["text"],
-    "honest_limit": ["statement"],
-    "story": ["tellable_as", "text"],
-    "fleet_voice": ["pronoun_rule", "citation_contract", "limit_discipline"],
-}
+# Relocated to engine/m1/spoken_fields.py (ATTRIBUTION_FIELDS) 2026-09-19 -
+# one declared spoken-field registry instead of six/seven independent
+# lists; see that module's own docstring. Same values, same behavior.
+_ATTRIBUTION_FIELDS = ATTRIBUTION_FIELDS
 
 # Each pattern below is justified by one of the 4 real leaks found in the
 # 2026-08-21 hand audit (world/alexandria c0a105a), not a generic guess:
@@ -627,13 +639,9 @@ def gate_no_build_attribution(records, fleet, registry) -> list[str]:
 # already first-person we-voice by construction (build_prompt()'s own
 # instruct() vs emit() split - see its comment above). Full trace:
 # CiC_Cross_System_Analysis_Tracking.md, 2026-09-04 entry.
-_PERSPECTIVE_FIELDS = {
-    "term": ["plain_meaning", "quick_meaning"],
-    "story": ["tellable_as", "text"],
-    "ambient": ["detail"],
-    "doctrinal_witness": ["text"],
-    "honest_limit": ["statement"],
-}
+# Relocated to engine/m1/spoken_fields.py (PERSPECTIVE_FIELDS) 2026-09-19 -
+# same registry as _ATTRIBUTION_FIELDS above. Same values, same behavior.
+_PERSPECTIVE_FIELDS = PERSPECTIVE_FIELDS
 
 # Form 1: the builder's-eye phrase itself - "this world[,'s]" - a name for
 # a world from outside it, never an inhabitant's own way of naming their

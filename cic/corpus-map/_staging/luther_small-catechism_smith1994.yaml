@@ -1,0 +1,21 @@
+# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
+# the Lutheran Wittenberg build (Atlas VI.1), per this world's own
+# Source Readiness Dossier.
+source_file: luther_small-catechism_smith1994.txt
+
+assignments:
+  - work: The Small Catechism of Martin Luther
+    author: luther
+    locus: "whole file"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: assigned
+    note: >
+      1529, the household/congregational catechism - Luther's own most
+      widely used and most elementary doctrinal voice, a direct source for
+      how this world's own Representative would actually teach a lay
+      congregant. RIGHTS FLAG carried from REGISTRY.yaml: this is a modern
+      (1994/2002/2004) translation, not PD by publication date - see the
+      registry entry's own rights-basis note before this file is cited in
+      any rights-sensitive context.

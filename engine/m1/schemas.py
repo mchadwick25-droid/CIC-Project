@@ -238,6 +238,39 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # concepts projected backward). Optional: many world_words are
         # coinages with no meaningful prior secular sense to record.
         "prior_sense": {"type": "string"},
+        # Build-Plan.md Stage 3d / Adjusted-Design.md item 8: per-form
+        # classification for engine.m4.term_glosses's firing rule. A
+        # foreign/technical form ("Logos", "hesychia", "virtus") is
+        # distinctive enough that its bare appearance in the voice's own
+        # text is real signal - fires on sight, the 2026-08-30 design.
+        # An ordinary-English form this world's own world_word happens to
+        # use ("the world", "power", "elder") is common enough in
+        # unrelated prose that the same bare-appearance rule mislights -
+        # gated back to firing only inside a sentence the turn already
+        # cited to this term record. Optional and per-form (one term can
+        # mix both kinds, e.g. gallic.term.virtus's "virtus" vs "power");
+        # a form this list doesn't name - including every term record
+        # fleet-wide that predates this field - defaults to "technical",
+        # its exact current behavior. Authoring rule, drafted here rather
+        # than folded into the L4 template (flagged, not this stage's to
+        # edit: reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md)
+        # - when writing or reviewing a term's world_word, mark a form
+        # "ordinary" if it is a common English word or phrase that could
+        # plausibly appear in a participant's or the voice's own ordinary
+        # sentence with no connection to this term; leave it (or every
+        # form, if the field is simply omitted) "technical" otherwise.
+        "gloss_forms": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "form": {"type": "string"},
+                    "kind": {"type": "string", "enum": ["technical", "ordinary"]},
+                },
+                "required": ["form", "kind"],
+                "additionalProperties": False,
+            },
+        },
     },
     "story": {
         "narrative_tier": {"type": "integer"},

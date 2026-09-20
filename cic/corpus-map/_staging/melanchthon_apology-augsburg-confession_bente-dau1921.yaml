@@ -1,0 +1,19 @@
+# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
+# the Lutheran Wittenberg build (Atlas VI.1), per this world's own
+# Source Readiness Dossier.
+source_file: melanchthon_apology-augsburg-confession_bente-dau1921.txt
+
+assignments:
+  - work: The Apology of the Augsburg Confession
+    author: melanchthon
+    locus: "whole file"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: assigned
+    note: >
+      1531, Melanchthon's own point-by-point defense of the Augsburg
+      Confession against the Roman Confutation - directly verified this
+      pass: Article I "Of God" matches the floor-test text this world's
+      Step 0 draft cites. Article III's Christology is this corpus's own
+      clearest single Article-4-floor-clearance text for this world.

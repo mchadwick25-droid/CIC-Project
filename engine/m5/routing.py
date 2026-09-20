@@ -7,12 +7,55 @@ schema - never free-composed by a model" (Artifact-4 SS3): assemble_directive
 below is the one place a directive is built, and it only ever copies fields
 out of the reader's own structured output.
 """
+import re
 from dataclasses import dataclass, field, replace
 
 from .anachronism import mentions_term
 
 ACUTE_SIGNALS = {"ACUTE_DISTRESS", "HARMFUL_DYNAMIC_SIGNAL"}
 PRESSABLE_CLASSES = {"later_age", "other_tradition"}
+
+# B-2 (witt go-live adversarial review, 2026-09-19). "What exactly did your
+# founder write in his 1543 book about Jewish people?" was classified
+# system_nature on every phrasing tried, live, on witt - a message that
+# names no system, bot, or "how were you built"-shaped question at all.
+# live_calls.py's own READER_SYSTEM_PROMPT already states system_nature
+# applies "ONLY when the participant is explicitly asking what THIS SYSTEM
+# technically is or how it works" - so the reader was not missing an honest
+# option (the correct answer, "none", was and is available), it returned
+# the wrong one. `system_nature` was the one class that lets a Haiku-class
+# model produce a non-answer without the shape of a refusal, and nothing
+# downstream ever checked whether the claim was even plausible given the
+# words actually used - a single reader field was treated as dispositive.
+# This is the routing-side half of the fix (the reader's own prompt got
+# the other half, in live_calls.py's own READER_SYSTEM_PROMPT): a
+# deterministic backstop, not a classifier of its own. It does not decide
+# what system_nature MEANS - live_calls.py's prompt still owns that - it
+# only refuses to trust the reader's claim when the participant's own
+# message contains none of the question shapes the reader was actually
+# told to use ("are you an AI?", "is this a bot?", "how were you built?",
+# "is this real or a script?"). Deliberately modeled on those four
+# examples rather than a loose word list: a bare word like "real" or
+# "built" appears constantly in ordinary historical-theological content
+# ("was the temple really built", "is the resurrection real"), so this
+# requires the SHAPE of those examples (a yes/no question addressed to
+# "you" or "this") before trusting the classification - "checking is
+# downstream and exact" (engine/m4/output_check.py's own phrase for the
+# identical discipline applied to generated text, not a reader field).
+# Deliberately does not include a bare "ai" token: this project's own
+# formation worlds include Old Testament content, and "Ai" (Joshua 7-8) is
+# a real place name that would otherwise collide with it.
+_SYSTEM_NATURE_SHAPE = re.compile(
+    r"\b(?:are|is|were|was)\b[^.?!]{0,30}\b(?:you|this)\b[^.?!]{0,30}\b"
+    r"(?:a\.?i\.?|bot|chatbot|robot|real|fake|human|script(?:ed)?|"
+    r"program(?:med)?|built|made|created|coded|simulated|"
+    r"artificial|algorithm|software|llm)\b",
+    re.IGNORECASE,
+)
+
+
+def _plausible_system_nature(message: str) -> bool:
+    return bool(_SYSTEM_NATURE_SHAPE.search(message or ""))
 
 
 @dataclass(frozen=True)
@@ -65,10 +108,28 @@ def directive_without_terms(reader: dict, display_terms: list[str]) -> Directive
     return replace(directive, asks=asks, ambiguity_options=options)
 
 
-def route(*, safety: dict | None, reader: dict, pressed: dict[str, bool], anachronistic_term_ids: set[str]) -> RoutingDecision:
+def route(
+    *, safety: dict | None, reader: dict | None, pressed: dict[str, bool], anachronistic_term_ids: set[str], message: str
+) -> RoutingDecision:
     """safety=None means the safety call is unavailable this turn (failed/
     timed out) - callers get here via failure.py's fail-open path, never by
-    skipping the safety call on purpose."""
+    skipping the safety call on purpose.
+
+    reader=None means the reader call failed/timed out but safety alone was
+    decisive (ACUTE_DISTRESS, HARMFUL_DYNAMIC_SIGNAL, or AMBIGUOUS_LOW_CONFIDENCE
+    - failure.py's _SAFETY_DECISIVE_SIGNALS). Safe only because those three
+    branches below return before this function ever dereferences `reader`;
+    every other branch requires a real reader dict and failure.py never calls
+    route() with reader=None unless one of those three signals is already
+    confirmed present.
+
+    message is the participant's own text this turn - required, not
+    defaulted, so a caller that hasn't been updated fails loudly (a
+    TypeError) rather than silently routing every system_nature claim
+    through _plausible_system_nature("") and never trusting it (B-2). Unused
+    on the reader=None path above, since that path always returns before
+    reaching the message-dependent system_nature branch - still required in
+    the signature so every caller passes a real value uniformly."""
     if safety is not None and safety["signal"] in ACUTE_SIGNALS:
         reason = f"safety signal {safety['signal']}"
         risk_subject = safety.get("risk_subject")
@@ -92,7 +153,15 @@ def route(*, safety: dict | None, reader: dict, pressed: dict[str, bool], anachr
         return RoutingDecision(action="check_in_turn", reason="safety signal AMBIGUOUS_LOW_CONFIDENCE")
 
     if reader["out_of_scope"]["class"] == "system_nature":
-        return RoutingDecision(action="system_nature_turn", reason="participant asked about the system's nature")
+        if _plausible_system_nature(message):
+            return RoutingDecision(action="system_nature_turn", reason="participant asked about the system's nature")
+        # B-2: the reader's own claim doesn't hold up against the words the
+        # participant actually used - fall through to the rest of this
+        # function's own priority order instead of trusting it. Not
+        # silently dropped: engine.m4.turn's own gate_decision event still
+        # carries the reader's raw output, so this override is visible in
+        # the audit trail even though it changes nothing this function
+        # returns to the caller directly.
 
     term_ids = {t["term_id"] for t in reader.get("modern_terms") or []}
     if term_ids & anachronistic_term_ids:

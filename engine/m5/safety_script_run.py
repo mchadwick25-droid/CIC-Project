@@ -287,7 +287,10 @@ def run(region: str, scenarios: list[dict]) -> dict:
             entry["grade"] = {"signal_ok": False, "acute_level_ok": False, "passed": False, "call_failed": safety_outcome.status}
 
         if safety_outcome.status == "ok" and reader_outcome.status == "ok":
-            gate_result = resolve_gate(safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed={}, anachronistic_term_ids=set())
+            gate_result = resolve_gate(
+                safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed={},
+                anachronistic_term_ids=set(), message=scenario["message"],
+            )
             entry["routing"] = {"action": gate_result.routing.action, "reason": gate_result.routing.reason, "degraded": gate_result.degraded}
 
         results.append(entry)

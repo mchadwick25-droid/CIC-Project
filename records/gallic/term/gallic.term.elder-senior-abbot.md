@@ -80,6 +80,11 @@ plain_meaning: >-
   father Cassian reports. At Tours the same place is held by one master, Martin, who himself consults
   "his elders, whether among the presbyters or clerics."
 world_word: elder / senior / abbot
+gloss_forms:
+- form: elder
+  kind: ordinary
+- form: senior
+  kind: ordinary
 false_friend:
 - abbot as the canonical head of a Benedictine abbey, elected for life, with jurisdiction and a crozier
 - elder as a church officer or simply an old man

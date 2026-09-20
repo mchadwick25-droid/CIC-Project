@@ -13,6 +13,7 @@ from pathlib import Path
 
 from engine.api.wiring import history_from_transcript
 from engine.m1.registry import load_registry
+from engine.m4.output_check import find_shipped_defects
 from engine.m4.turn import run_turn
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.usage import SYSTEM_SESSION_ID
@@ -163,7 +164,20 @@ def main() -> int:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps(report, indent=2, ensure_ascii=False))
-    return 0 if report["crisis_append_proven"] is not False else 1
+
+    # H-3 (witt go-live adversarial review, 2026-09-19): a report can carry
+    # a non-empty output_defects[] - already-shipped, participant-facing
+    # text a defect was found on - while every turn's own `degraded` reads
+    # false, so nothing here flagged it until a reviewer read the raw JSON
+    # by hand. Surfaced loudly and gated, not silently folded into
+    # crisis_append_proven, which tests something else entirely.
+    shipped_defects = find_shipped_defects(report)
+    if shipped_defects:
+        print(f"\nSHIPPED OUTPUT DEFECT(S): {len(shipped_defects)} - see output_defects in the report above", flush=True)
+        for d in shipped_defects:
+            print(f"  [{d.get('id')}] {d.get('family')}: {d.get('finding')}", flush=True)
+
+    return 0 if report["crisis_append_proven"] is not False and not shipped_defects else 1
 
 
 if __name__ == "__main__":

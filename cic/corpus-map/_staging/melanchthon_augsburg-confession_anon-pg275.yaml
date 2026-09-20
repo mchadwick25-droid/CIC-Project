@@ -1,0 +1,23 @@
+# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
+# the Lutheran Wittenberg build (Atlas VI.1), per this world's own
+# Source Readiness Dossier.
+source_file: melanchthon_augsburg-confession_anon-pg275.txt
+
+assignments:
+  - work: The Augsburg Confession
+    author: melanchthon
+    locus: "whole file"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: assigned
+    note: >
+      1530, submitted to Charles V at the Diet of Augsburg - this movement's
+      own founding confessional document, drafted by Melanchthon on behalf
+      of the Lutheran Electors and Princes. TRANSLATOR UNCONFIRMED, carried
+      from REGISTRY.yaml: Gutenberg's own bibrec metadata credits no
+      translator or source edition, and this file is not confirmed to be
+      the same Bente/Dau translation as the companion Apology
+      (melanchthon_apology-augsburg-confession_bente-dau1921.txt) despite a
+      stylistic resemblance - flag before treating the two as one matched
+      translation pair in any Doc_02 citation.

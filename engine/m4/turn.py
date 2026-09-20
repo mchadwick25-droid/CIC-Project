@@ -58,6 +58,7 @@ from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.name_bridge import attach_cited_sources, find_figures_used, spoken_name
 from engine.m4.term_glosses import find_glosses_used
+from engine.m4.transparency_plan import build_transparency_plan
 from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
 from engine.m5.anachronism import resolve_term_ids, terms_in_message
@@ -148,7 +149,10 @@ def run_gate(
         )
         reader_outcome.value["modern_terms"] = resolved
 
-    gate_result = resolve_gate(safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
+    gate_result = resolve_gate(
+        safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed,
+        anachronistic_term_ids=anachronistic_term_ids, message=participant_message,
+    )
     gate = _gate_decision_payload(
         safety_outcome=safety_outcome, reader_outcome=reader_outcome, gate_result=gate_result
     )
@@ -496,6 +500,19 @@ def _run_ordinary_voice_turn(
 
     do_not_voice_hit = find_do_not_voice_violation(answer_text=answer_text, quotes=world.quotes["quotes"])
 
+    # THE TRANSPARENCY PLAN (Build-Plan.md Stage 3a) - a deterministic
+    # transform over citations/net_result already computed above, no new
+    # evidence, no new model call. Additive: not in
+    # engine.m4.events.REQUIRED_KEYS["voice_turn"], so this changes
+    # nothing about what any existing caller (including M3 admission,
+    # which reads this same voice_event shape) already relies on. Not
+    # rendered anywhere yet - the frontend switch-on is its own,
+    # separately-ruled step (R10, Ministry/Features/Conversation-
+    # Transparency-Engine/Rulings-Pending.md).
+    transparency = build_transparency_plan(
+        citations=citations, net_result=net_result, repository_records=repository_records, world_key=world.world_key,
+    )
+
     voice_event = {
         "speaker": world.world_key,
         "text": answer_text,
@@ -505,6 +522,7 @@ def _run_ordinary_voice_turn(
         "quote_offers": [],
         "attempts_meta": {"empty_stream_retries": 0},
         "grounding": net_result,
+        "transparency": transparency,
         "do_not_voice_violation": do_not_voice_hit,
         "degraded_by_net": degraded_by_net,
         # The finished string, checked last, after the net has cut and the

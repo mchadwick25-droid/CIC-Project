@@ -1,0 +1,1612 @@
+{
+  "world": "gallic",
+  "generated": "2026-09-19",
+  "fields": {
+    "demonstration.exchange": {
+      "count": 9,
+      "fk_grade_median": 7.8,
+      "fk_grade_max": 8.55,
+      "longest_sentence_words_max": 73,
+      "worst_record": "gallic.demo.record-thinnest"
+    },
+    "doctrinal_witness.text": {
+      "count": 4,
+      "fk_grade_median": 7.51,
+      "fk_grade_max": 7.96,
+      "longest_sentence_words_max": 75,
+      "worst_record": "gallic.dw.the-christ-who-bears-the-wounds"
+    },
+    "honest_limit.statement": {
+      "count": 2,
+      "fk_grade_median": 5.57,
+      "fk_grade_max": 5.57,
+      "longest_sentence_words_max": 47,
+      "worst_record": "gallic.limit.only-on-paper"
+    },
+    "story.tellable_as": {
+      "count": 15,
+      "fk_grade_median": 19.0,
+      "fk_grade_max": 22.89,
+      "longest_sentence_words_max": 54,
+      "worst_record": "gallic.story.paphnutius-and-the-hidden-book"
+    },
+    "story.text": {
+      "count": 15,
+      "fk_grade_median": 12.98,
+      "fk_grade_max": 22.57,
+      "longest_sentence_words_max": 123,
+      "worst_record": "gallic.story.bishop-archebius"
+    },
+    "term.plain_meaning": {
+      "count": 83,
+      "fk_grade_median": 7.22,
+      "fk_grade_max": 9.98,
+      "longest_sentence_words_max": 42,
+      "worst_record": "gallic.term.perseverance"
+    },
+    "term.quick_meaning": {
+      "count": 83,
+      "fk_grade_median": 6.27,
+      "fk_grade_max": 9.8,
+      "longest_sentence_words_max": 29,
+      "worst_record": "gallic.term.compunction"
+    },
+    "world_core.cautions": {
+      "count": 1,
+      "fk_grade_median": 23.46,
+      "fk_grade_max": 23.46,
+      "longest_sentence_words_max": 82,
+      "worst_record": "gallic.core.gallic"
+    },
+    "world_core.formation_logic": {
+      "count": 1,
+      "fk_grade_median": 21.91,
+      "fk_grade_max": 21.91,
+      "longest_sentence_words_max": 99,
+      "worst_record": "gallic.core.gallic"
+    },
+    "world_core.horizon": {
+      "count": 1,
+      "fk_grade_median": 21.51,
+      "fk_grade_max": 21.51,
+      "longest_sentence_words_max": 69,
+      "worst_record": "gallic.core.gallic"
+    },
+    "world_core.thinness": {
+      "count": 1,
+      "fk_grade_median": 16.71,
+      "fk_grade_max": 16.71,
+      "longest_sentence_words_max": 53,
+      "worst_record": "gallic.core.gallic"
+    }
+  },
+  "records": {
+    "world_core.horizon": [
+      {
+        "record_id": "gallic.core.gallic",
+        "words": 148,
+        "sentences": 3,
+        "longest_sentence_words": 69,
+        "fk_grade": 21.51
+      }
+    ],
+    "world_core.formation_logic": [
+      {
+        "record_id": "gallic.core.gallic",
+        "words": 270,
+        "sentences": 5,
+        "longest_sentence_words": 99,
+        "fk_grade": 21.91
+      }
+    ],
+    "world_core.thinness": [
+      {
+        "record_id": "gallic.core.gallic",
+        "words": 250,
+        "sentences": 6,
+        "longest_sentence_words": 53,
+        "fk_grade": 16.71
+      }
+    ],
+    "world_core.cautions": [
+      {
+        "record_id": "gallic.core.gallic",
+        "words": 297,
+        "sentences": 6,
+        "longest_sentence_words": 82,
+        "fk_grade": 23.46
+      }
+    ],
+    "demonstration.exchange": [
+      {
+        "record_id": "gallic.demo.faith-alone",
+        "words": 372,
+        "sentences": 20,
+        "longest_sentence_words": 42,
+        "fk_grade": 7.05
+      },
+      {
+        "record_id": "gallic.demo.never-settled",
+        "words": 370,
+        "sentences": 22,
+        "longest_sentence_words": 73,
+        "fk_grade": 7.8
+      },
+      {
+        "record_id": "gallic.demo.power-against-dissent",
+        "words": 447,
+        "sentences": 22,
+        "longest_sentence_words": 43,
+        "fk_grade": 8.42
+      },
+      {
+        "record_id": "gallic.demo.quiet-the-mind",
+        "words": 379,
+        "sentences": 20,
+        "longest_sentence_words": 36,
+        "fk_grade": 6.77
+      },
+      {
+        "record_id": "gallic.demo.record-thinnest",
+        "words": 359,
+        "sentences": 16,
+        "longest_sentence_words": 47,
+        "fk_grade": 8.55
+      },
+      {
+        "record_id": "gallic.demo.someone-like-me",
+        "words": 397,
+        "sentences": 18,
+        "longest_sentence_words": 37,
+        "fk_grade": 8.23
+      },
+      {
+        "record_id": "gallic.demo.want-to-leave",
+        "words": 446,
+        "sentences": 27,
+        "longest_sentence_words": 41,
+        "fk_grade": 6.83
+      },
+      {
+        "record_id": "gallic.demo.who-chose-bishops",
+        "words": 392,
+        "sentences": 20,
+        "longest_sentence_words": 52,
+        "fk_grade": 8.44
+      },
+      {
+        "record_id": "gallic.demo.women-own-words",
+        "words": 240,
+        "sentences": 15,
+        "longest_sentence_words": 33,
+        "fk_grade": 6.52
+      }
+    ],
+    "doctrinal_witness.text": [
+      {
+        "record_id": "gallic.dw.christ-in-the-beggar-and-the-guest",
+        "words": 315,
+        "sentences": 23,
+        "longest_sentence_words": 25,
+        "fk_grade": 5.03
+      },
+      {
+        "record_id": "gallic.dw.laughed-at-and-reported",
+        "words": 350,
+        "sentences": 23,
+        "longest_sentence_words": 42,
+        "fk_grade": 7.51
+      },
+      {
+        "record_id": "gallic.dw.one-person-two-substances",
+        "words": 357,
+        "sentences": 21,
+        "longest_sentence_words": 71,
+        "fk_grade": 6.69
+      },
+      {
+        "record_id": "gallic.dw.the-christ-who-bears-the-wounds",
+        "words": 464,
+        "sentences": 21,
+        "longest_sentence_words": 75,
+        "fk_grade": 7.96
+      }
+    ],
+    "honest_limit.statement": [
+      {
+        "record_id": "gallic.limit.no-one-who-saw-him",
+        "words": 204,
+        "sentences": 16,
+        "longest_sentence_words": 31,
+        "fk_grade": 3.37
+      },
+      {
+        "record_id": "gallic.limit.only-on-paper",
+        "words": 188,
+        "sentences": 12,
+        "longest_sentence_words": 47,
+        "fk_grade": 5.57
+      }
+    ],
+    "story.tellable_as": [
+      {
+        "record_id": "gallic.story.bishop-archebius",
+        "words": 46,
+        "sentences": 1,
+        "longest_sentence_words": 46,
+        "fk_grade": 19.79
+      },
+      {
+        "record_id": "gallic.story.brictio-in-the-courtyard",
+        "words": 41,
+        "sentences": 2,
+        "longest_sentence_words": 41,
+        "fk_grade": 9.62
+      },
+      {
+        "record_id": "gallic.story.circuses-amid-the-ruins",
+        "words": 49,
+        "sentences": 1,
+        "longest_sentence_words": 49,
+        "fk_grade": 22.57
+      },
+      {
+        "record_id": "gallic.story.death-of-martin-at-condate",
+        "words": 54,
+        "sentences": 1,
+        "longest_sentence_words": 54,
+        "fk_grade": 21.71
+      },
+      {
+        "record_id": "gallic.story.discharge-before-caesar",
+        "words": 38,
+        "sentences": 1,
+        "longest_sentence_words": 38,
+        "fk_grade": 16.38
+      },
+      {
+        "record_id": "gallic.story.election-at-tours",
+        "words": 44,
+        "sentences": 1,
+        "longest_sentence_words": 44,
+        "fk_grade": 19.54
+      },
+      {
+        "record_id": "gallic.story.germanus-scruple-at-morning-service",
+        "words": 51,
+        "sentences": 3,
+        "longest_sentence_words": 47,
+        "fk_grade": 7.12
+      },
+      {
+        "record_id": "gallic.story.honoratus-and-the-island",
+        "words": 39,
+        "sentences": 2,
+        "longest_sentence_words": 39,
+        "fk_grade": 9.21
+      },
+      {
+        "record_id": "gallic.story.paesius-and-john",
+        "words": 27,
+        "sentences": 2,
+        "longest_sentence_words": 27,
+        "fk_grade": 5.85
+      },
+      {
+        "record_id": "gallic.story.paphnutius-and-the-hidden-book",
+        "words": 54,
+        "sentences": 1,
+        "longest_sentence_words": 54,
+        "fk_grade": 22.89
+      },
+      {
+        "record_id": "gallic.story.raising-of-the-catechumen",
+        "words": 46,
+        "sentences": 1,
+        "longest_sentence_words": 46,
+        "fk_grade": 19.53
+      },
+      {
+        "record_id": "gallic.story.the-angel-and-the-twelve-psalms",
+        "words": 47,
+        "sentences": 1,
+        "longest_sentence_words": 47,
+        "fk_grade": 20.31
+      },
+      {
+        "record_id": "gallic.story.the-cloak-at-amiens",
+        "words": 32,
+        "sentences": 1,
+        "longest_sentence_words": 32,
+        "fk_grade": 12.38
+      },
+      {
+        "record_id": "gallic.story.the-three-lentil-beans",
+        "words": 43,
+        "sentences": 2,
+        "longest_sentence_words": 43,
+        "fk_grade": 10.86
+      },
+      {
+        "record_id": "gallic.story.trier-and-the-ithacian-communion",
+        "words": 45,
+        "sentences": 1,
+        "longest_sentence_words": 45,
+        "fk_grade": 19.0
+      }
+    ],
+    "story.text": [
+      {
+        "record_id": "gallic.story.bishop-archebius",
+        "words": 385,
+        "sentences": 7,
+        "longest_sentence_words": 119,
+        "fk_grade": 22.57
+      },
+      {
+        "record_id": "gallic.story.brictio-in-the-courtyard",
+        "words": 464,
+        "sentences": 15,
+        "longest_sentence_words": 89,
+        "fk_grade": 14.11
+      },
+      {
+        "record_id": "gallic.story.circuses-amid-the-ruins",
+        "words": 344,
+        "sentences": 15,
+        "longest_sentence_words": 50,
+        "fk_grade": 10.82
+      },
+      {
+        "record_id": "gallic.story.death-of-martin-at-condate",
+        "words": 804,
+        "sentences": 27,
+        "longest_sentence_words": 65,
+        "fk_grade": 12.64
+      },
+      {
+        "record_id": "gallic.story.discharge-before-caesar",
+        "words": 375,
+        "sentences": 13,
+        "longest_sentence_words": 86,
+        "fk_grade": 12.43
+      },
+      {
+        "record_id": "gallic.story.election-at-tours",
+        "words": 406,
+        "sentences": 16,
+        "longest_sentence_words": 68,
+        "fk_grade": 11.69
+      },
+      {
+        "record_id": "gallic.story.germanus-scruple-at-morning-service",
+        "words": 549,
+        "sentences": 19,
+        "longest_sentence_words": 77,
+        "fk_grade": 12.17
+      },
+      {
+        "record_id": "gallic.story.honoratus-and-the-island",
+        "words": 464,
+        "sentences": 15,
+        "longest_sentence_words": 68,
+        "fk_grade": 14.34
+      },
+      {
+        "record_id": "gallic.story.paesius-and-john",
+        "words": 167,
+        "sentences": 3,
+        "longest_sentence_words": 87,
+        "fk_grade": 22.3
+      },
+      {
+        "record_id": "gallic.story.paphnutius-and-the-hidden-book",
+        "words": 587,
+        "sentences": 17,
+        "longest_sentence_words": 87,
+        "fk_grade": 13.71
+      },
+      {
+        "record_id": "gallic.story.raising-of-the-catechumen",
+        "words": 424,
+        "sentences": 14,
+        "longest_sentence_words": 66,
+        "fk_grade": 12.98
+      },
+      {
+        "record_id": "gallic.story.the-angel-and-the-twelve-psalms",
+        "words": 452,
+        "sentences": 14,
+        "longest_sentence_words": 89,
+        "fk_grade": 13.92
+      },
+      {
+        "record_id": "gallic.story.the-cloak-at-amiens",
+        "words": 457,
+        "sentences": 16,
+        "longest_sentence_words": 61,
+        "fk_grade": 11.87
+      },
+      {
+        "record_id": "gallic.story.the-three-lentil-beans",
+        "words": 393,
+        "sentences": 9,
+        "longest_sentence_words": 123,
+        "fk_grade": 18.19
+      },
+      {
+        "record_id": "gallic.story.trier-and-the-ithacian-communion",
+        "words": 692,
+        "sentences": 25,
+        "longest_sentence_words": 77,
+        "fk_grade": 12.81
+      }
+    ],
+    "term.plain_meaning": [
+      {
+        "record_id": "gallic.term.accidie",
+        "words": 76,
+        "sentences": 4,
+        "longest_sentence_words": 38,
+        "fk_grade": 8.9
+      },
+      {
+        "record_id": "gallic.term.anathema",
+        "words": 31,
+        "sentences": 2,
+        "longest_sentence_words": 19,
+        "fk_grade": 8.35
+      },
+      {
+        "record_id": "gallic.term.anchorite-hermit",
+        "words": 69,
+        "sentences": 4,
+        "longest_sentence_words": 36,
+        "fk_grade": 8.41
+      },
+      {
+        "record_id": "gallic.term.angels",
+        "words": 29,
+        "sentences": 2,
+        "longest_sentence_words": 20,
+        "fk_grade": 9.26
+      },
+      {
+        "record_id": "gallic.term.antichrist",
+        "words": 24,
+        "sentences": 2,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.28
+      },
+      {
+        "record_id": "gallic.term.apostolic-authority",
+        "words": 30,
+        "sentences": 2,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.97
+      },
+      {
+        "record_id": "gallic.term.apostolic-see-pope",
+        "words": 33,
+        "sentences": 3,
+        "longest_sentence_words": 19,
+        "fk_grade": 7.75
+      },
+      {
+        "record_id": "gallic.term.bagaudae",
+        "words": 34,
+        "sentences": 3,
+        "longest_sentence_words": 19,
+        "fk_grade": 7.22
+      },
+      {
+        "record_id": "gallic.term.beginning-of-a-good-will",
+        "words": 34,
+        "sentences": 3,
+        "longest_sentence_words": 13,
+        "fk_grade": 4.45
+      },
+      {
+        "record_id": "gallic.term.blessing",
+        "words": 32,
+        "sentences": 1,
+        "longest_sentence_words": 32,
+        "fk_grade": 9.48
+      },
+      {
+        "record_id": "gallic.term.bloodless-martyrdom-confessor",
+        "words": 64,
+        "sentences": 6,
+        "longest_sentence_words": 18,
+        "fk_grade": 6.67
+      },
+      {
+        "record_id": "gallic.term.brethren",
+        "words": 20,
+        "sentences": 2,
+        "longest_sentence_words": 20,
+        "fk_grade": 5.5
+      },
+      {
+        "record_id": "gallic.term.catechumen",
+        "words": 36,
+        "sentences": 2,
+        "longest_sentence_words": 30,
+        "fk_grade": 7.49
+      },
+      {
+        "record_id": "gallic.term.catholic",
+        "words": 29,
+        "sentences": 2,
+        "longest_sentence_words": 17,
+        "fk_grade": 8.83
+      },
+      {
+        "record_id": "gallic.term.cell",
+        "words": 58,
+        "sentences": 3,
+        "longest_sentence_words": 30,
+        "fk_grade": 8.28
+      },
+      {
+        "record_id": "gallic.term.church-or-circus",
+        "words": 22,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 5.31
+      },
+      {
+        "record_id": "gallic.term.co-operation",
+        "words": 38,
+        "sentences": 3,
+        "longest_sentence_words": 16,
+        "fk_grade": 2.3
+      },
+      {
+        "record_id": "gallic.term.combat-athlete",
+        "words": 69,
+        "sentences": 5,
+        "longest_sentence_words": 39,
+        "fk_grade": 6.18
+      },
+      {
+        "record_id": "gallic.term.commonitory-peregrinus",
+        "words": 34,
+        "sentences": 3,
+        "longest_sentence_words": 18,
+        "fk_grade": 4.79
+      },
+      {
+        "record_id": "gallic.term.communion",
+        "words": 34,
+        "sentences": 4,
+        "longest_sentence_words": 13,
+        "fk_grade": 5.08
+      },
+      {
+        "record_id": "gallic.term.compunction",
+        "words": 61,
+        "sentences": 5,
+        "longest_sentence_words": 27,
+        "fk_grade": 7.55
+      },
+      {
+        "record_id": "gallic.term.conference",
+        "words": 65,
+        "sentences": 4,
+        "longest_sentence_words": 24,
+        "fk_grade": 7.81
+      },
+      {
+        "record_id": "gallic.term.contemplation",
+        "words": 59,
+        "sentences": 7,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.9
+      },
+      {
+        "record_id": "gallic.term.conversion",
+        "words": 57,
+        "sentences": 3,
+        "longest_sentence_words": 28,
+        "fk_grade": 9.62
+      },
+      {
+        "record_id": "gallic.term.council-synod",
+        "words": 36,
+        "sentences": 3,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.77
+      },
+      {
+        "record_id": "gallic.term.customs-of-the-monasteries",
+        "words": 64,
+        "sentences": 5,
+        "longest_sentence_words": 22,
+        "fk_grade": 6.92
+      },
+      {
+        "record_id": "gallic.term.disciple-master",
+        "words": 66,
+        "sentences": 5,
+        "longest_sentence_words": 24,
+        "fk_grade": 8.15
+      },
+      {
+        "record_id": "gallic.term.disclosure-of-thoughts",
+        "words": 63,
+        "sentences": 5,
+        "longest_sentence_words": 19,
+        "fk_grade": 6.74
+      },
+      {
+        "record_id": "gallic.term.discretion",
+        "words": 69,
+        "sentences": 5,
+        "longest_sentence_words": 28,
+        "fk_grade": 7.41
+      },
+      {
+        "record_id": "gallic.term.doctor-expositor",
+        "words": 37,
+        "sentences": 3,
+        "longest_sentence_words": 28,
+        "fk_grade": 5.48
+      },
+      {
+        "record_id": "gallic.term.eight-principal-faults",
+        "words": 57,
+        "sentences": 5,
+        "longest_sentence_words": 17,
+        "fk_grade": 7.95
+      },
+      {
+        "record_id": "gallic.term.elder-senior-abbot",
+        "words": 62,
+        "sentences": 4,
+        "longest_sentence_words": 30,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "gallic.term.example-imitation",
+        "words": 48,
+        "sentences": 3,
+        "longest_sentence_words": 25,
+        "fk_grade": 7.06
+      },
+      {
+        "record_id": "gallic.term.fear-hope-love",
+        "words": 32,
+        "sentences": 2,
+        "longest_sentence_words": 21,
+        "fk_grade": 5.6
+      },
+      {
+        "record_id": "gallic.term.free-will",
+        "words": 56,
+        "sentences": 4,
+        "longest_sentence_words": 20,
+        "fk_grade": 7.78
+      },
+      {
+        "record_id": "gallic.term.gaul",
+        "words": 33,
+        "sentences": 3,
+        "longest_sentence_words": 15,
+        "fk_grade": 4.43
+      },
+      {
+        "record_id": "gallic.term.goal-and-end",
+        "words": 71,
+        "sentences": 3,
+        "longest_sentence_words": 41,
+        "fk_grade": 9.43
+      },
+      {
+        "record_id": "gallic.term.government-of-god",
+        "words": 28,
+        "sentences": 2,
+        "longest_sentence_words": 17,
+        "fk_grade": 6.31
+      },
+      {
+        "record_id": "gallic.term.grace",
+        "words": 66,
+        "sentences": 4,
+        "longest_sentence_words": 28,
+        "fk_grade": 7.47
+      },
+      {
+        "record_id": "gallic.term.grace-as-charism",
+        "words": 32,
+        "sentences": 2,
+        "longest_sentence_words": 24,
+        "fk_grade": 6.06
+      },
+      {
+        "record_id": "gallic.term.heathen-rustics",
+        "words": 30,
+        "sentences": 3,
+        "longest_sentence_words": 18,
+        "fk_grade": 6.01
+      },
+      {
+        "record_id": "gallic.term.heretic-heresy",
+        "words": 39,
+        "sentences": 4,
+        "longest_sentence_words": 16,
+        "fk_grade": 3.95
+      },
+      {
+        "record_id": "gallic.term.humility",
+        "words": 71,
+        "sentences": 5,
+        "longest_sentence_words": 33,
+        "fk_grade": 5.9
+      },
+      {
+        "record_id": "gallic.term.illusion",
+        "words": 35,
+        "sentences": 3,
+        "longest_sentence_words": 16,
+        "fk_grade": 3.79
+      },
+      {
+        "record_id": "gallic.term.junior-novice",
+        "words": 77,
+        "sentences": 5,
+        "longest_sentence_words": 42,
+        "fk_grade": 8.19
+      },
+      {
+        "record_id": "gallic.term.kingdom-within",
+        "words": 32,
+        "sentences": 2,
+        "longest_sentence_words": 22,
+        "fk_grade": 5.03
+      },
+      {
+        "record_id": "gallic.term.lukewarmness",
+        "words": 64,
+        "sentences": 6,
+        "longest_sentence_words": 16,
+        "fk_grade": 6.79
+      },
+      {
+        "record_id": "gallic.term.massilians",
+        "words": 26,
+        "sentences": 2,
+        "longest_sentence_words": 19,
+        "fk_grade": 8.09
+      },
+      {
+        "record_id": "gallic.term.merit",
+        "words": 33,
+        "sentences": 3,
+        "longest_sentence_words": 15,
+        "fk_grade": 4.08
+      },
+      {
+        "record_id": "gallic.term.monastery-coenobium",
+        "words": 63,
+        "sentences": 5,
+        "longest_sentence_words": 23,
+        "fk_grade": 6.93
+      },
+      {
+        "record_id": "gallic.term.monk-bishop",
+        "words": 55,
+        "sentences": 3,
+        "longest_sentence_words": 25,
+        "fk_grade": 8.55
+      },
+      {
+        "record_id": "gallic.term.monk-solitary",
+        "words": 61,
+        "sentences": 3,
+        "longest_sentence_words": 29,
+        "fk_grade": 6.46
+      },
+      {
+        "record_id": "gallic.term.mortification",
+        "words": 83,
+        "sentences": 5,
+        "longest_sentence_words": 33,
+        "fk_grade": 8.8
+      },
+      {
+        "record_id": "gallic.term.novelty-antiquity",
+        "words": 59,
+        "sentences": 5,
+        "longest_sentence_words": 26,
+        "fk_grade": 6.87
+      },
+      {
+        "record_id": "gallic.term.obedience",
+        "words": 80,
+        "sentences": 4,
+        "longest_sentence_words": 38,
+        "fk_grade": 9.26
+      },
+      {
+        "record_id": "gallic.term.pelagians-as-foil",
+        "words": 24,
+        "sentences": 1,
+        "longest_sentence_words": 24,
+        "fk_grade": 9.8
+      },
+      {
+        "record_id": "gallic.term.penance-satisfaction",
+        "words": 36,
+        "sentences": 3,
+        "longest_sentence_words": 23,
+        "fk_grade": 3.84
+      },
+      {
+        "record_id": "gallic.term.perfection",
+        "words": 84,
+        "sentences": 8,
+        "longest_sentence_words": 19,
+        "fk_grade": 4.96
+      },
+      {
+        "record_id": "gallic.term.perseverance",
+        "words": 27,
+        "sentences": 1,
+        "longest_sentence_words": 27,
+        "fk_grade": 9.98
+      },
+      {
+        "record_id": "gallic.term.possessed-exorcism",
+        "words": 31,
+        "sentences": 2,
+        "longest_sentence_words": 22,
+        "fk_grade": 8.35
+      },
+      {
+        "record_id": "gallic.term.predestination",
+        "words": 32,
+        "sentences": 3,
+        "longest_sentence_words": 16,
+        "fk_grade": 4.8
+      },
+      {
+        "record_id": "gallic.term.profession",
+        "words": 51,
+        "sentences": 4,
+        "longest_sentence_words": 19,
+        "fk_grade": 7.43
+      },
+      {
+        "record_id": "gallic.term.progress-vs-alteration",
+        "words": 32,
+        "sentences": 3,
+        "longest_sentence_words": 12,
+        "fk_grade": 4.05
+      },
+      {
+        "record_id": "gallic.term.purity-of-heart",
+        "words": 54,
+        "sentences": 3,
+        "longest_sentence_words": 20,
+        "fk_grade": 9.79
+      },
+      {
+        "record_id": "gallic.term.renunciation",
+        "words": 68,
+        "sentences": 4,
+        "longest_sentence_words": 33,
+        "fk_grade": 7.35
+      },
+      {
+        "record_id": "gallic.term.sackcloth-and-ashes",
+        "words": 29,
+        "sentences": 2,
+        "longest_sentence_words": 18,
+        "fk_grade": 8.38
+      },
+      {
+        "record_id": "gallic.term.sarabaite",
+        "words": 33,
+        "sentences": 2,
+        "longest_sentence_words": 21,
+        "fk_grade": 6.94
+      },
+      {
+        "record_id": "gallic.term.sign-of-the-cross",
+        "words": 69,
+        "sentences": 6,
+        "longest_sentence_words": 14,
+        "fk_grade": 4.97
+      },
+      {
+        "record_id": "gallic.term.soldier-of-christ",
+        "words": 53,
+        "sentences": 4,
+        "longest_sentence_words": 17,
+        "fk_grade": 5.58
+      },
+      {
+        "record_id": "gallic.term.the-deposit",
+        "words": 34,
+        "sentences": 3,
+        "longest_sentence_words": 26,
+        "fk_grade": 3.72
+      },
+      {
+        "record_id": "gallic.term.the-devil-demons",
+        "words": 30,
+        "sentences": 3,
+        "longest_sentence_words": 12,
+        "fk_grade": 6.01
+      },
+      {
+        "record_id": "gallic.term.the-fathers-elders",
+        "words": 49,
+        "sentences": 5,
+        "longest_sentence_words": 16,
+        "fk_grade": 8.46
+      },
+      {
+        "record_id": "gallic.term.the-monks-dress",
+        "words": 34,
+        "sentences": 2,
+        "longest_sentence_words": 26,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "gallic.term.the-religious",
+        "words": 27,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 3.66
+      },
+      {
+        "record_id": "gallic.term.the-rule",
+        "words": 52,
+        "sentences": 4,
+        "longest_sentence_words": 17,
+        "fk_grade": 8.77
+      },
+      {
+        "record_id": "gallic.term.the-world-secular",
+        "words": 55,
+        "sentences": 3,
+        "longest_sentence_words": 27,
+        "fk_grade": 6.73
+      },
+      {
+        "record_id": "gallic.term.theotocos",
+        "words": 30,
+        "sentences": 3,
+        "longest_sentence_words": 17,
+        "fk_grade": 7.19
+      },
+      {
+        "record_id": "gallic.term.thoughts",
+        "words": 76,
+        "sentences": 5,
+        "longest_sentence_words": 30,
+        "fk_grade": 6.97
+      },
+      {
+        "record_id": "gallic.term.tradition",
+        "words": 64,
+        "sentences": 6,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.42
+      },
+      {
+        "record_id": "gallic.term.trial",
+        "words": 34,
+        "sentences": 2,
+        "longest_sentence_words": 18,
+        "fk_grade": 6.58
+      },
+      {
+        "record_id": "gallic.term.unceasing-prayer",
+        "words": 60,
+        "sentences": 3,
+        "longest_sentence_words": 30,
+        "fk_grade": 8.34
+      },
+      {
+        "record_id": "gallic.term.virgin-virginity",
+        "words": 27,
+        "sentences": 3,
+        "longest_sentence_words": 11,
+        "fk_grade": 6.28
+      },
+      {
+        "record_id": "gallic.term.virtus",
+        "words": 64,
+        "sentences": 4,
+        "longest_sentence_words": 29,
+        "fk_grade": 7.61
+      }
+    ],
+    "term.quick_meaning": [
+      {
+        "record_id": "gallic.term.accidie",
+        "words": 28,
+        "sentences": 2,
+        "longest_sentence_words": 19,
+        "fk_grade": 4.1
+      },
+      {
+        "record_id": "gallic.term.anathema",
+        "words": 26,
+        "sentences": 2,
+        "longest_sentence_words": 14,
+        "fk_grade": 6.28
+      },
+      {
+        "record_id": "gallic.term.anchorite-hermit",
+        "words": 35,
+        "sentences": 2,
+        "longest_sentence_words": 19,
+        "fk_grade": 6.07
+      },
+      {
+        "record_id": "gallic.term.angels",
+        "words": 28,
+        "sentences": 2,
+        "longest_sentence_words": 19,
+        "fk_grade": 7.59
+      },
+      {
+        "record_id": "gallic.term.antichrist",
+        "words": 32,
+        "sentences": 3,
+        "longest_sentence_words": 21,
+        "fk_grade": 5.95
+      },
+      {
+        "record_id": "gallic.term.apostolic-authority",
+        "words": 35,
+        "sentences": 2,
+        "longest_sentence_words": 21,
+        "fk_grade": 7.7
+      },
+      {
+        "record_id": "gallic.term.apostolic-see-pope",
+        "words": 31,
+        "sentences": 3,
+        "longest_sentence_words": 16,
+        "fk_grade": 8.37
+      },
+      {
+        "record_id": "gallic.term.bagaudae",
+        "words": 52,
+        "sentences": 3,
+        "longest_sentence_words": 23,
+        "fk_grade": 6.54
+      },
+      {
+        "record_id": "gallic.term.beginning-of-a-good-will",
+        "words": 35,
+        "sentences": 3,
+        "longest_sentence_words": 14,
+        "fk_grade": 4.47
+      },
+      {
+        "record_id": "gallic.term.blessing",
+        "words": 35,
+        "sentences": 2,
+        "longest_sentence_words": 29,
+        "fk_grade": 7.7
+      },
+      {
+        "record_id": "gallic.term.bloodless-martyrdom-confessor",
+        "words": 29,
+        "sentences": 4,
+        "longest_sentence_words": 10,
+        "fk_grade": 3.92
+      },
+      {
+        "record_id": "gallic.term.brethren",
+        "words": 24,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 4.82
+      },
+      {
+        "record_id": "gallic.term.catechumen",
+        "words": 30,
+        "sentences": 4,
+        "longest_sentence_words": 9,
+        "fk_grade": 4.25
+      },
+      {
+        "record_id": "gallic.term.catholic",
+        "words": 32,
+        "sentences": 5,
+        "longest_sentence_words": 11,
+        "fk_grade": 4.24
+      },
+      {
+        "record_id": "gallic.term.cell",
+        "words": 26,
+        "sentences": 1,
+        "longest_sentence_words": 26,
+        "fk_grade": 8.79
+      },
+      {
+        "record_id": "gallic.term.church-or-circus",
+        "words": 41,
+        "sentences": 2,
+        "longest_sentence_words": 21,
+        "fk_grade": 7.25
+      },
+      {
+        "record_id": "gallic.term.co-operation",
+        "words": 36,
+        "sentences": 3,
+        "longest_sentence_words": 19,
+        "fk_grade": 3.46
+      },
+      {
+        "record_id": "gallic.term.combat-athlete",
+        "words": 26,
+        "sentences": 2,
+        "longest_sentence_words": 14,
+        "fk_grade": 6.27
+      },
+      {
+        "record_id": "gallic.term.commonitory-peregrinus",
+        "words": 30,
+        "sentences": 2,
+        "longest_sentence_words": 17,
+        "fk_grade": 7.15
+      },
+      {
+        "record_id": "gallic.term.communion",
+        "words": 39,
+        "sentences": 3,
+        "longest_sentence_words": 27,
+        "fk_grade": 5.21
+      },
+      {
+        "record_id": "gallic.term.compunction",
+        "words": 24,
+        "sentences": 1,
+        "longest_sentence_words": 24,
+        "fk_grade": 9.8
+      },
+      {
+        "record_id": "gallic.term.conference",
+        "words": 24,
+        "sentences": 2,
+        "longest_sentence_words": 14,
+        "fk_grade": 5.8
+      },
+      {
+        "record_id": "gallic.term.contemplation",
+        "words": 28,
+        "sentences": 2,
+        "longest_sentence_words": 18,
+        "fk_grade": 6.28
+      },
+      {
+        "record_id": "gallic.term.conversion",
+        "words": 27,
+        "sentences": 2,
+        "longest_sentence_words": 17,
+        "fk_grade": 4.97
+      },
+      {
+        "record_id": "gallic.term.council-synod",
+        "words": 38,
+        "sentences": 3,
+        "longest_sentence_words": 17,
+        "fk_grade": 8.29
+      },
+      {
+        "record_id": "gallic.term.customs-of-the-monasteries",
+        "words": 24,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.28
+      },
+      {
+        "record_id": "gallic.term.disciple-master",
+        "words": 24,
+        "sentences": 3,
+        "longest_sentence_words": 14,
+        "fk_grade": 5.23
+      },
+      {
+        "record_id": "gallic.term.disclosure-of-thoughts",
+        "words": 26,
+        "sentences": 2,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.69
+      },
+      {
+        "record_id": "gallic.term.discretion",
+        "words": 26,
+        "sentences": 2,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.18
+      },
+      {
+        "record_id": "gallic.term.doctor-expositor",
+        "words": 25,
+        "sentences": 3,
+        "longest_sentence_words": 19,
+        "fk_grade": 5.12
+      },
+      {
+        "record_id": "gallic.term.eight-principal-faults",
+        "words": 28,
+        "sentences": 3,
+        "longest_sentence_words": 22,
+        "fk_grade": 4.96
+      },
+      {
+        "record_id": "gallic.term.elder-senior-abbot",
+        "words": 31,
+        "sentences": 2,
+        "longest_sentence_words": 17,
+        "fk_grade": 7.58
+      },
+      {
+        "record_id": "gallic.term.example-imitation",
+        "words": 24,
+        "sentences": 1,
+        "longest_sentence_words": 24,
+        "fk_grade": 9.8
+      },
+      {
+        "record_id": "gallic.term.fear-hope-love",
+        "words": 30,
+        "sentences": 3,
+        "longest_sentence_words": 16,
+        "fk_grade": 2.42
+      },
+      {
+        "record_id": "gallic.term.free-will",
+        "words": 29,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.15
+      },
+      {
+        "record_id": "gallic.term.gaul",
+        "words": 36,
+        "sentences": 3,
+        "longest_sentence_words": 19,
+        "fk_grade": 5.48
+      },
+      {
+        "record_id": "gallic.term.goal-and-end",
+        "words": 29,
+        "sentences": 3,
+        "longest_sentence_words": 13,
+        "fk_grade": 4.05
+      },
+      {
+        "record_id": "gallic.term.government-of-god",
+        "words": 40,
+        "sentences": 3,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.13
+      },
+      {
+        "record_id": "gallic.term.grace",
+        "words": 28,
+        "sentences": 2,
+        "longest_sentence_words": 20,
+        "fk_grade": 5.41
+      },
+      {
+        "record_id": "gallic.term.grace-as-charism",
+        "words": 32,
+        "sentences": 4,
+        "longest_sentence_words": 16,
+        "fk_grade": 3.04
+      },
+      {
+        "record_id": "gallic.term.heathen-rustics",
+        "words": 29,
+        "sentences": 2,
+        "longest_sentence_words": 21,
+        "fk_grade": 7.15
+      },
+      {
+        "record_id": "gallic.term.heretic-heresy",
+        "words": 34,
+        "sentences": 3,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.22
+      },
+      {
+        "record_id": "gallic.term.humility",
+        "words": 22,
+        "sentences": 2,
+        "longest_sentence_words": 13,
+        "fk_grade": 5.86
+      },
+      {
+        "record_id": "gallic.term.illusion",
+        "words": 35,
+        "sentences": 2,
+        "longest_sentence_words": 23,
+        "fk_grade": 5.27
+      },
+      {
+        "record_id": "gallic.term.junior-novice",
+        "words": 30,
+        "sentences": 2,
+        "longest_sentence_words": 20,
+        "fk_grade": 7.97
+      },
+      {
+        "record_id": "gallic.term.kingdom-within",
+        "words": 40,
+        "sentences": 4,
+        "longest_sentence_words": 21,
+        "fk_grade": 2.77
+      },
+      {
+        "record_id": "gallic.term.lukewarmness",
+        "words": 23,
+        "sentences": 2,
+        "longest_sentence_words": 14,
+        "fk_grade": 8.55
+      },
+      {
+        "record_id": "gallic.term.massilians",
+        "words": 29,
+        "sentences": 3,
+        "longest_sentence_words": 18,
+        "fk_grade": 6.8
+      },
+      {
+        "record_id": "gallic.term.merit",
+        "words": 27,
+        "sentences": 3,
+        "longest_sentence_words": 12,
+        "fk_grade": 3.22
+      },
+      {
+        "record_id": "gallic.term.monastery-coenobium",
+        "words": 27,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.27
+      },
+      {
+        "record_id": "gallic.term.monk-bishop",
+        "words": 26,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.73
+      },
+      {
+        "record_id": "gallic.term.monk-solitary",
+        "words": 31,
+        "sentences": 2,
+        "longest_sentence_words": 20,
+        "fk_grade": 5.3
+      },
+      {
+        "record_id": "gallic.term.mortification",
+        "words": 26,
+        "sentences": 2,
+        "longest_sentence_words": 14,
+        "fk_grade": 6.73
+      },
+      {
+        "record_id": "gallic.term.novelty-antiquity",
+        "words": 32,
+        "sentences": 4,
+        "longest_sentence_words": 12,
+        "fk_grade": 3.0
+      },
+      {
+        "record_id": "gallic.term.obedience",
+        "words": 30,
+        "sentences": 2,
+        "longest_sentence_words": 22,
+        "fk_grade": 8.78
+      },
+      {
+        "record_id": "gallic.term.pelagians-as-foil",
+        "words": 25,
+        "sentences": 4,
+        "longest_sentence_words": 12,
+        "fk_grade": 5.26
+      },
+      {
+        "record_id": "gallic.term.penance-satisfaction",
+        "words": 40,
+        "sentences": 3,
+        "longest_sentence_words": 27,
+        "fk_grade": 5.25
+      },
+      {
+        "record_id": "gallic.term.perfection",
+        "words": 25,
+        "sentences": 2,
+        "longest_sentence_words": 18,
+        "fk_grade": 6.34
+      },
+      {
+        "record_id": "gallic.term.perseverance",
+        "words": 31,
+        "sentences": 2,
+        "longest_sentence_words": 26,
+        "fk_grade": 4.81
+      },
+      {
+        "record_id": "gallic.term.possessed-exorcism",
+        "words": 37,
+        "sentences": 3,
+        "longest_sentence_words": 13,
+        "fk_grade": 3.57
+      },
+      {
+        "record_id": "gallic.term.predestination",
+        "words": 32,
+        "sentences": 2,
+        "longest_sentence_words": 18,
+        "fk_grade": 6.82
+      },
+      {
+        "record_id": "gallic.term.profession",
+        "words": 21,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 5.92
+      },
+      {
+        "record_id": "gallic.term.progress-vs-alteration",
+        "words": 30,
+        "sentences": 3,
+        "longest_sentence_words": 20,
+        "fk_grade": 7.19
+      },
+      {
+        "record_id": "gallic.term.purity-of-heart",
+        "words": 30,
+        "sentences": 2,
+        "longest_sentence_words": 16,
+        "fk_grade": 6.78
+      },
+      {
+        "record_id": "gallic.term.renunciation",
+        "words": 33,
+        "sentences": 2,
+        "longest_sentence_words": 24,
+        "fk_grade": 5.03
+      },
+      {
+        "record_id": "gallic.term.sackcloth-and-ashes",
+        "words": 30,
+        "sentences": 3,
+        "longest_sentence_words": 18,
+        "fk_grade": 8.12
+      },
+      {
+        "record_id": "gallic.term.sarabaite",
+        "words": 30,
+        "sentences": 3,
+        "longest_sentence_words": 16,
+        "fk_grade": 5.62
+      },
+      {
+        "record_id": "gallic.term.sign-of-the-cross",
+        "words": 24,
+        "sentences": 1,
+        "longest_sentence_words": 24,
+        "fk_grade": 9.8
+      },
+      {
+        "record_id": "gallic.term.soldier-of-christ",
+        "words": 28,
+        "sentences": 1,
+        "longest_sentence_words": 28,
+        "fk_grade": 9.36
+      },
+      {
+        "record_id": "gallic.term.the-deposit",
+        "words": 30,
+        "sentences": 3,
+        "longest_sentence_words": 17,
+        "fk_grade": 4.46
+      },
+      {
+        "record_id": "gallic.term.the-devil-demons",
+        "words": 34,
+        "sentences": 4,
+        "longest_sentence_words": 12,
+        "fk_grade": 4.73
+      },
+      {
+        "record_id": "gallic.term.the-fathers-elders",
+        "words": 23,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.36
+      },
+      {
+        "record_id": "gallic.term.the-monks-dress",
+        "words": 34,
+        "sentences": 2,
+        "longest_sentence_words": 26,
+        "fk_grade": 9.44
+      },
+      {
+        "record_id": "gallic.term.the-religious",
+        "words": 24,
+        "sentences": 3,
+        "longest_sentence_words": 19,
+        "fk_grade": 2.77
+      },
+      {
+        "record_id": "gallic.term.the-rule",
+        "words": 34,
+        "sentences": 2,
+        "longest_sentence_words": 21,
+        "fk_grade": 7.35
+      },
+      {
+        "record_id": "gallic.term.the-world-secular",
+        "words": 29,
+        "sentences": 2,
+        "longest_sentence_words": 22,
+        "fk_grade": 6.72
+      },
+      {
+        "record_id": "gallic.term.theotocos",
+        "words": 30,
+        "sentences": 2,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.2
+      },
+      {
+        "record_id": "gallic.term.thoughts",
+        "words": 29,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 5.12
+      },
+      {
+        "record_id": "gallic.term.tradition",
+        "words": 30,
+        "sentences": 2,
+        "longest_sentence_words": 20,
+        "fk_grade": 5.99
+      },
+      {
+        "record_id": "gallic.term.trial",
+        "words": 36,
+        "sentences": 3,
+        "longest_sentence_words": 20,
+        "fk_grade": 4.17
+      },
+      {
+        "record_id": "gallic.term.unceasing-prayer",
+        "words": 26,
+        "sentences": 2,
+        "longest_sentence_words": 17,
+        "fk_grade": 6.27
+      },
+      {
+        "record_id": "gallic.term.virgin-virginity",
+        "words": 31,
+        "sentences": 3,
+        "longest_sentence_words": 12,
+        "fk_grade": 6.33
+      },
+      {
+        "record_id": "gallic.term.virtus",
+        "words": 24,
+        "sentences": 2,
+        "longest_sentence_words": 13,
+        "fk_grade": 6.85
+      }
+    ]
+  }
+}
