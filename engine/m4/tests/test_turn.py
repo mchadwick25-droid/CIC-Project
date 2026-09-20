@@ -10,7 +10,7 @@ from types import SimpleNamespace
 
 
 from engine.m4 import turn as turn_module
-from engine.m4.turn import run_turn
+from engine.m4.turn import run_turn, run_voice_turn_for_world
 from engine.m4.world_loader import LoadedWorld
 
 
@@ -346,6 +346,84 @@ def test_ordinary_turn_wires_a_real_evidence_block_into_the_user_message():
     assert "## Ground for this turn" in user_message
     assert "[[fix.witness.who-is-jesus]]" in user_message
     assert ask_text in user_message  # the participant's own message still rides alongside the evidence block
+
+
+def test_secondary_context_reaches_evidence_assembly_and_fills_a_gap_cell():
+    """Stage 4f (Build-Plan.md): run_voice_turn_for_world's own
+    secondary_context param (the table's additions - None on every
+    interview call) threads through to evidence.assemble_evidence and can
+    find ground an off-canon participant_message alone would not. Same
+    real-fleet-canon discipline as the evidence-block wiring test above,
+    not a synthetic cell id."""
+    from engine.m1.loader import load_fleet_records
+    from engine.m4.evidence import match_asks_to_cells
+
+    secondary_text = "who was Jesus, to you and your people"
+    canon_questions = load_fleet_records()
+    matches = match_asks_to_cells(message="", asks=[{"text": secondary_text}], canon_questions=canon_questions, top_n=1)
+    assert matches, "the real fleet canon should match at least one cell for this ask - if not, the fixture ask needs updating, not this test"
+    cell = matches[0]["cell"]
+
+    world = LoadedWorld(
+        world_key="fix",
+        manifest_hash="sha256:test",
+        prompt_text="## Identity\nVera, Witness.",
+        capsule_text="capsule",
+        repository={"records": [{"id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "text": "We did not claim to have seen him ourselves."}]},
+        quotes={"quotes": []},
+        figures={},
+        coverage={cell: {"doctrinal_witness": ["fix.witness.who-is-jesus"], "terms": [], "stories": [], "quotes": [], "honest_limit": [], "gravities": [], "forces": [], "contested_claims": []}},
+        frame={},
+    )
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=world,
+        participant_message="What is the weather like today?", directive=None, session_id="test-session",
+        secondary_context=secondary_text,
+    )
+
+    system, messages = client.messages.captured_stream_calls[0]
+    user_message = messages[0]["content"]
+    assert "[[fix.witness.who-is-jesus]]" in user_message
+
+
+def test_secondary_context_defaults_to_none_and_changes_nothing():
+    """Every interview call omits secondary_context - confirms the default
+    keeps run_voice_turn_for_world byte-identical to before this stage."""
+    from engine.m1.loader import load_fleet_records
+    from engine.m4.evidence import match_asks_to_cells
+
+    ask_text = "who was Jesus, to you and your people"
+    canon_questions = load_fleet_records()
+    matches = match_asks_to_cells(message="", asks=[{"text": ask_text}], canon_questions=canon_questions, top_n=1)
+    cell = matches[0]["cell"]
+
+    world = LoadedWorld(
+        world_key="fix",
+        manifest_hash="sha256:test",
+        prompt_text="## Identity\nVera, Witness.",
+        capsule_text="capsule",
+        repository={"records": [{"id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "text": "We did not claim to have seen him ourselves."}]},
+        quotes={"quotes": []},
+        figures={},
+        coverage={cell: {"doctrinal_witness": ["fix.witness.who-is-jesus"], "terms": [], "stories": [], "quotes": [], "honest_limit": [], "gravities": [], "forces": [], "contested_claims": []}},
+        frame={},
+    )
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(asks=[{"order": 1, "text": ask_text}]),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=world,
+        participant_message=ask_text, directive=None, session_id="test-session",
+    )
+    system, messages = client.messages.captured_stream_calls[0]
+    assert "[[fix.witness.who-is-jesus]]" in messages[0]["content"]
 
 
 def test_already_bridged_figures_reach_the_voice_as_an_already_introduced_line():
