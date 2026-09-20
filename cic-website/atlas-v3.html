@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Church in History — Church in Conversation</title>
+<title>Church Family Tree — Church in Conversation</title>
 <meta name="description" content="Twenty centuries of Christian traditions as one living map — every movement in its era, its family color, its honest status; hover to meet it, click for its full entry.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <style>
@@ -51,7 +51,16 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
   border:1px solid var(--rule);border-radius:3px;padding:.35rem .7rem;cursor:pointer}
 .topbar button:hover{border-color:var(--gold-leaf)}
 .topbar button:focus-visible{outline:2px solid var(--madder);outline-offset:1px}
-#scopeNote{position:fixed;top:2.6rem;left:0;right:0;z-index:19;font-size:.74rem;
+/* top is set in JS (positionScopeNote), not fixed here -- .topbar's own
+   height is itself dynamic (wraps to 2-3 lines on a narrow screen), so a
+   hardcoded offset drifts out of sync with it exactly like #scopeNote's did. */
+.feature-bar{position:fixed;top:2.9rem;left:0;right:0;z-index:20;display:flex;flex-wrap:wrap;
+  gap:.5rem;padding:.4rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
+.feature-btn{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;font-weight:700;
+  color:var(--iron-gall);text-decoration:none;padding:.35rem .85rem;border:1px solid var(--rule);
+  border-radius:999px}
+.feature-btn:hover,.feature-btn:focus-visible,.feature-btn[aria-current="page"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
+#scopeNote{position:fixed;top:5rem;left:0;right:0;z-index:19;font-size:.74rem;
   color:var(--ink-faded);background:var(--tyrian-wash);border-bottom:1px solid var(--rule);
   padding:.4rem .9rem;line-height:1.5}
 #scopeNote b{color:var(--tyrian)}
@@ -92,15 +101,17 @@ svg#world{display:block;overflow:visible}
    river passing under this corner at full pigment can otherwise erase the label --
    same-color-on-same-color has no edge to see. A paper-toned outline keeps it legible
    over whatever's underneath, the way a map halos its place-names.
-   Fixed (not theme-variable) colors throughout: the break band behind this text
-   is its own small light card in both themes now (soft purple in light mode,
-   whiteish in dark), so the caption stays dark-ink-on-light-card regardless of
-   the page's own light/dark tokens -- following --iron-gall/--ink-faded into
-   dark mode would hand back the same light-on-light problem this was fixed for. */
-.era-label,.era-tag,.era-context{paint-order:stroke;stroke:#F6F6F2;stroke-width:5px;stroke-linejoin:round}
-.era-label{font-family:"Cinzel",serif;font-size:22px;letter-spacing:.06em;fill:#B45309}
-.era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:14px;fill:#6C6257}
-.era-context{font-family:"Alegreya",Georgia,serif;font-size:13px;fill:#2A2521}
+   2026-09-17: was fixed (not theme-variable) dark-ink-on-light-card colors, written
+   for the old era break band -- a light card that always sat behind this text (see
+   the Decision-Log). That card is gone (it blocked the map); this text now sits
+   directly over the rivers like every other label on the map, so it follows the
+   same var()-based theme tokens and the same 3px halo width .lbl below already
+   uses, rather than the old fixed dark fill + thick 5px light halo, which read as
+   blurry once there was no longer a light card to halo against. */
+.era-label,.era-tag,.era-context{paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round}
+.era-label{font-family:"Cinzel",serif;font-size:26px;letter-spacing:.06em;fill:var(--gold-leaf)}
+.era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:16px;fill:var(--ink-faded)}
+.era-context{font-family:"Alegreya",Georgia,serif;font-size:15px;fill:var(--iron-gall)}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
   user-select:none}
@@ -359,20 +370,26 @@ svg#world{display:block;overflow:visible}
 
 <div class="topbar">
   <a class="home" href="index.html">Church in Conversation</a>
-  <h1>Water on the Page</h1>
+  <h1>Church Family Tree</h1>
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to today</span>
   <div class="spacer"></div>
   <button id="resetBtn" type="button">Reset view</button>
+</div>
+<div class="feature-bar" aria-label="Main features">
+  <a class="feature-btn" href="atlas-v3.html" aria-current="page">Church Family Tree</a>
+  <a class="feature-btn" href="index.html#who">Conversation with One</a>
+  <a class="feature-btn" href="table.html">Build a Table</a>
 </div>
 <div id="scopeNote">
   <button id="scopeClose" type="button" aria-label="Dismiss">&times;</button>
   This map traces the movements, schisms, and revivals of Christian history as
   rivers that wind and widen across time. Click any name — or any river — to
   read its story: who carried it, what it believed, and where the account
-  comes from. A handful of worlds are fully built, each with its own guide you
-  can meet. The thin lines crossing between worlds mark real, documented
-  relationships. Drag to pan, scroll or pinch to zoom, hover a name for a
-  glimpse, click for the full story.
+  comes from. A growing number of Christian Traditions are fully built, each
+  with its own representative voice you can have a conversation with. The
+  thin lines crossing between worlds mark real, documented relationships.
+  Drag to pan, scroll or pinch to zoom,
+  hover a name for a glimpse, click for the full story.
 </div>
 
 <div id="stage">
@@ -39826,13 +39843,18 @@ eraH=eraH.map(h=>h/hSum*TOTAL_H); // renormalize after the floor
 // at an era's first year lands at eraY0[i] by construction, the same few
 // pixels the caption prints on, so the text and the very worlds it's
 // introducing (Alexandria, the Desert...) fought for the same ground. A
-// fixed gutter -- sized to the tallest of the ten header blocks (era I's
-// three-line caption, ~146px) plus real breathing room -- reserves that
-// space at the top of every band for text alone; no movement is plotted
-// inside it (see the yearToY and per-y density-sampling changes below),
-// so the streams entering the band are visible passing under the caption
-// without a single world's dot or label competing with it.
-const HEADER_GUTTER=190;
+// fixed gutter -- sized to the tallest of the ten header blocks -- reserves
+// that space at the top of every band for text alone; no movement is
+// plotted inside it (see the yearToY and per-y density-sampling changes
+// below), so the streams entering the band are visible passing under the
+// caption without a single world's dot or label competing with it.
+// 2026-09-17: raised 190->230 alongside the era-header font-size/wrap
+// changes above (bigger text, narrower context wrap so lines fit on
+// screen when zoomed in) -- the tallest header block is now up to 5
+// context lines at the new sizing (computed: worst case ~184px to the
+// divider), not the old ~146px three-line max this constant was
+// originally sized for.
+const HEADER_GUTTER=230;
 eraH=eraH.map(h=>h+HEADER_GUTTER);
 let eraY0=[]; {let y=40; eras.forEach((e,i)=>{eraY0.push(y); y+=eraH[i];});}
 const CANVAS_H=eraY0[eraY0.length-1]+eraH[eraH.length-1]+60;
@@ -40160,18 +40182,11 @@ function el(tag,attrs){const e=document.createElementNS(NS,tag); for(const k in 
 
 const gRoot=el('g',{id:'pan-zoom'}); svg.appendChild(gRoot);
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
-// The era break band sits between the era-body ground and the rivers, not
-// with the caption text in gLabels (which stays last/topmost) -- it was
-// found painting the band there put it on top of the rivers too, tinting
-// every one of the 13 family hues by whatever the band's own color was
-// instead of letting them show through, worst for hues close to the
-// band's own purple. A river genuinely passing through the header gutter
-// should read at its own real color, same as the code above already
-// claims it does.
-const gBreakBand=el('g',{id:'break-band'}); gRoot.appendChild(gBreakBand);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
-// Sits directly above the rivers and nothing else -- edges/nodes/labels
-// stay crisp on top of it, only the river gets the band-edge fade.
+// The era divider (a thin line, not the old thick break band -- see the
+// eras.forEach loop below) sits directly above the rivers and nothing
+// else, so edges/nodes/labels stay crisp on top of it and the divider
+// itself stays crisp regardless of what color river crosses under it.
 const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);
 const gEdges=el('g',{id:'edges'}); gRoot.appendChild(gEdges);
 const gNodes=el('g',{id:'nodes'}); gRoot.appendChild(gNodes);
@@ -40205,23 +40220,6 @@ const defs=el('defs',{});
 const portraitClip=el('clipPath',{id:'portraitClip'});
 portraitClip.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R}));
 defs.appendChild(portraitClip);
-// Mark, live-site review: a river cutting straight through an era break
-// band at full color read as the band being interrupted rather than the
-// river passing under it -- but painting the whole band on top of the
-// rivers (tried before, see the gBreakBand-vs-gRivers ordering note below)
-// tinted every family hue with the band's own purple, worst for the hues
-// already close to it. This gradient is the middle path: transparent
-// through the band's own middle (rivers keep their true color there,
-// same as today), fading to the band tint only in a strip right at each
-// edge, so a river reads as ducking under the band at the seam without
-// losing its color across the band's full height. objectBoundingBox
-// (the SVG default) means one gradient works for every era's rect
-// regardless of its absolute y position.
-const bandFadeGrad=el('linearGradient',{id:'bandFade',x1:'0',y1:'0',x2:'0',y2:'1'});
-['0','0.18','0.82','1'].forEach((offset,i)=>{
-  bandFadeGrad.appendChild(el('stop',{offset,'data-edge':(i===0||i===3)?'1':'0'}));
-});
-defs.appendChild(bandFadeGrad);
 svg.appendChild(defs);
 
 // Orientation for readers with no map of church history to hang this on. Each
@@ -40246,6 +40244,11 @@ const WORLD_CONTEXT={
   9:"Christianity globalizes under empire's shadow and against it. The era's honest theme is entanglement: mission and colonialism, revival and respectability, liberation and paternalism, held together rather than resolved.",
   10:"Christianity's center of gravity moves south and east, and the Pentecostal/Spirit-movement family becomes the largest new Christian reality since the Reformation. For scale: World War I (1914–18) breaks out early in this band."
 };
+// Era header context wrap width, in characters (2026-09-17, was a fixed 200
+// inlined at each call site): narrow enough that a wrapped line fits on
+// screen at a comfortable reading zoom rather than spanning near the full
+// width of the map, which only worked at the fully-zoomed-out view.
+const ERA_CONTEXT_WRAP=65;
 
 // Per-river background, researched by the Fable model against this exact set
 // of member movements (not the map's own primary census, and not carrying
@@ -40369,17 +40372,8 @@ function wrapText(str,maxChars){
 }
 
 function render(){
-  gBands.innerHTML=''; gBreakBand.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
+  gBands.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
   lastOrganic=null; // force the next applyDetail() to re-apply to the freshly rebuilt elements
-
-  // Same color/opacity the break band itself uses (see below) -- kept in
-  // sync here since both need to match for the fade to read as "the same
-  // band, thinning out" rather than two different tints.
-  const bandFadeColor=isDark()?'#F6F6F2':'#C9B8E0', bandFadeOp=isDark()?0.92:0.45;
-  document.querySelectorAll('#bandFade stop').forEach(s=>{
-    s.setAttribute('stop-color',bandFadeColor);
-    s.setAttribute('stop-opacity',s.dataset.edge==='1'?bandFadeOp:0);
-  });
 
   // Era bands -- passthrough grounding, never a container (rule 4)
   eras.forEach((e,i)=>{
@@ -40398,30 +40392,34 @@ function render(){
     // body -- painting it is a no-op (10 full-width rects that render
     // nothing), so skip it there; dark mode's real cycling still paints.
     if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i],fill:eraGround(i),opacity:0.75}));
-    // The break band: bled past the canvas edges (same trick as the era
-    // body above) so it crosses the full screen at any zoom/pan instead of
-    // stopping at the caption text's own width. Soft light purple in light
-    // mode, whiteish against the dark theme's near-black canvas ("on
-    // black" gets a bright break, not a dark-on-dark purple one). Opacity
-    // is deliberately asymmetric: 0.45 of an already-light color over an
-    // already-light page still composites light, but the same 0.45 of
-    // near-white over near-black only reaches mid-gray (measured ~#7F7C76)
-    // -- nowhere near light enough for the fixed-dark-ink caption text
-    // below, which measured 1.2-1.4:1 contrast there (WCAG AA needs
-    // 4.5:1). 0.92 in dark mode composites to ~#E5E4E0, clearing 4.5:1+
-    // for the description text and 3.9-4.7:1 for the title/dates (backed
-    // further by their own stroke halo, same as everywhere else in the
-    // file text sits over a variable background). Both are light surfaces
-    // now, which is why the caption text is fixed dark ink in both themes
-    // rather than following the page's own light/dark text tokens.
-    gBreakBand.appendChild(el('rect',{x:BLEED_X,y:eraY0[i]+6,width:BLEED_W,height:120,fill:isDark()?'#F6F6F2':'#C9B8E0',opacity:isDark()?0.92:0.45}));
-    // Same rect, same band, painted again on top of the rivers -- but
-    // filled with the band-fade gradient (transparent through its own
-    // middle) instead of a flat tint, so only the ~22px right at the top
-    // and bottom edges actually shows here; the band's own middle keeps
-    // showing whatever the rivers already painted beneath it.
-    gBandFade.appendChild(el('rect',{x:BLEED_X,y:eraY0[i]+6,width:BLEED_W,height:120,fill:'url(#bandFade)'}));
-    const lbl=el('text',{x:24,y:eraY0[i]+34,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
+    // Era divider (Mark, 2026-09-17: the old break band was a thick,
+    // ~120px-tall, near-opaque bar bled across the full width -- it read
+    // as a wall blocking the map underneath it, not a divider). Replaced
+    // with a thin line, not a block that competes with the rivers for the
+    // whole gutter.
+    // 2026-09-17: Mark's next report -- the text was crisp now but too
+    // small to read comfortably, and zooming in to read it ran the
+    // (still-wrapped-wide) lines off the screen. Font sizes bumped (see
+    // the .era-label/.era-tag/.era-context rules above) and the context
+    // wrap narrowed from 200 to ERA_CONTEXT_WRAP chars so a line stays
+    // short enough to fit on screen at a comfortable reading zoom instead
+    // of spanning the whole map's width.
+    // 2026-09-18: Mark's next report -- the line sat *under* the header
+    // text, which put the text right against the previous era's own
+    // content with nothing marking it as the start of a new one; the line
+    // only separated the text from this era's own rivers below it, so the
+    // text read as trailing the era above rather than opening the era
+    // below. Flipped: the line now sits right at the top of the era
+    // band, and the header text drops below it -- the line marks where
+    // the era starts, and the text reads as inside it.
+    const dividerY=eraY0[i]+16;
+    // Drawn on top of the rivers (band-fade's old spot) so the line stays
+    // crisp regardless of what color river crosses under it, with a slim,
+    // low-opacity wash behind it only so the line has something to sit on
+    // against a busy stretch of the map -- not a return of the old block.
+    gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY-9,width:BLEED_W,height:18,fill:isDark()?'#F6F6F2':'#2A2521',opacity:isDark()?0.1:0.06}));
+    gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY,width:BLEED_W,height:1.5,fill:isDark()?'#F6F6F2':'#6B5D4A',opacity:isDark()?0.85:0.65}));
+    const lbl=el('text',{x:24,y:dividerY+38,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
     gLabels.appendChild(lbl);
     // e.tag is one thread's narrative (usually the imperial/mainstream one), not
     // the whole band -- Era II's own tag ("Constantine's revolution to Chalcedon")
@@ -40429,17 +40427,18 @@ function render(){
     // Aksumite or Armenian churches', or six other lanes running the same years.
     // A single line can't speak for a band this plural, so the header states only
     // what's true of the whole band: how many movements, across how many lanes.
-    const tag=el('text',{x:24,y:eraY0[i]+56,class:'era-tag'});
+    const tag=el('text',{x:24,y:dividerY+64,class:'era-tag'});
     tag.textContent=`${e.dates} — ${eraCounts[i]} movements across ${eraLaneCounts[i]} lanes`;
     gLabels.appendChild(tag);
     if(WORLD_CONTEXT[e.num]){
-      const ctx=el('text',{x:24,y:eraY0[i]+78,class:'era-context'});
-      // Wrapped wide enough to run most of the way across the band -- the
-      // header gutter above gives it a lane-free strip to do that in -- rather
-      // than stacking into a tall narrow column at the left margin, which is
-      // what forced the gutter this deep in the first place.
-      wrapText(WORLD_CONTEXT[e.num],200).forEach((line,li)=>{
-        const tspan=el('tspan',{x:24,dy:li===0?0:16});
+      const ctx=el('text',{x:24,y:dividerY+90,class:'era-context'});
+      // Narrow enough (ERA_CONTEXT_WRAP chars) that a line fits on screen
+      // at a comfortable reading zoom, not just at the fully-zoomed-out
+      // view -- was wrapped at 200 chars, close to the full width of the
+      // map itself, which ran off-screen the moment anyone zoomed in
+      // enough to actually read the smaller text (Mark, 2026-09-17).
+      wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{
+        const tspan=el('tspan',{x:24,dy:li===0?0:19});
         tspan.textContent=line;
         ctx.appendChild(tspan);
       });
@@ -41400,8 +41399,8 @@ function centerView(){
   // sits right under it; together they run up to ~148px on a narrow window
   // before it's dismissed, hiding era 1's header behind fixed chrome for any
   // first-time visitor. Measure the real chrome instead of assuming its height.
-  const topbar=document.querySelector('.topbar'), note=document.getElementById('scopeNote');
-  const chrome=(topbar?topbar.offsetHeight:0)+(note?note.offsetHeight:0);
+  const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar'), note=document.getElementById('scopeNote');
+  const chrome=(topbar?topbar.offsetHeight:0)+(featureBar?featureBar.offsetHeight:0)+(note?note.offsetHeight:0);
   ty=Math.max(40,chrome+12);
   applyTransform(); applyDetail();
 }
@@ -41461,10 +41460,19 @@ document.getElementById('scopeClose').addEventListener('click',()=>document.getE
 // wraps to two (or three) lines instead -- the note then starts underneath
 // where the topbar used to end, and its own dismiss button (float:right on
 // the note's first line) lands behind the now-taller topbar, unreachable.
-// Measure the topbar's real height instead of assuming one.
+// Measure the real chrome above it instead of assuming a fixed height --
+// 2026-09-18: .feature-bar (Church Family Tree / Conversation with One /
+// Build a Table) sits between the topbar and this note now, and has the
+// exact same problem the topbar always had (its own height isn't fixed --
+// it wraps on a narrow screen too), so it gets the same treatment: measured,
+// not assumed.
 function positionScopeNote(){
+  const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
+  const topbarH=topbar?topbar.offsetHeight:0;
+  if(featureBar)featureBar.style.top=topbarH+'px';
+  const featureBarH=featureBar?featureBar.offsetHeight:0;
   const note=document.getElementById('scopeNote');
-  if(note)note.style.top=document.querySelector('.topbar').offsetHeight+'px';
+  if(note)note.style.top=(topbarH+featureBarH)+'px';
 }
 positionScopeNote();
 window.addEventListener('resize',positionScopeNote);

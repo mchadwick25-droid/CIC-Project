@@ -60,8 +60,8 @@ relations:
 - type: illustrates
   target: gallic.story.circuses-amid-the-ruins
 plain_meaning: >-
-  Salvian's complaint that ordinary Christians in the cities he knew would leave church mid-service,
-  or skip it outright, the moment they learned public games were on the same day.
+  Salvian's complaint: Christians in his own cities left church mid-service. Or skipped it outright,
+  the moment they heard the games were on.
 world_word: church or circus
 false_friend:
 - an exaggeration with nothing behind it - Salvian names it as an observed, repeated pattern, not a
@@ -100,9 +100,9 @@ senses:
     who had just promised, at their own baptism, to renounce exactly this, walked out mid-service the
     moment they heard the games had started, on the same day they were supposedly keeping a feast.
 quick_meaning: >-
-  Salvian's charge against ordinary Christians in the cities: church emptied, circus filled, the
-  moment the two competed on the same day - the one description in this world's record of what
-  ordinary lay worship actually looked like, and how often it lost.
+  Salvian's own charge against us: on a feast day, when the games ran too, church emptied and the
+  circus filled. The one place in our own record that shows what lay worship really looked like -
+  and how often it lost.
 distortion_risk: medium
 ---
 New term, authored 2026-09-14, not part of the original 81-term Doc_06 lexicon batch. Built directly

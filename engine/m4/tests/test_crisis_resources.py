@@ -73,9 +73,24 @@ def test_a2_is_the_escalation_script_on_a_first_firing():
 def test_already_fired_wins_the_continuation_turn_even_on_an_a2_reading():
     """SS4.4's "sustained attention": already_fired is a property of the
     SESSION, not of this turn's own escalation reading - it outranks
-    acute_level."""
+    acute_level. (Whether it should keep doing so is a separate, open
+    governance question - not decided by this test.)"""
     resources = resources_for_signal("ACUTE_DISTRESS", acute_level="a2", already_fired=True)
-    assert resources.text == "I'm still right here with you. The offer I made a moment ago still stands, whenever you're ready for it."
+    assert "I'm still right here with you" in resources.text
+
+
+def test_continuation_still_carries_an_actual_redirect():
+    """Regression for the 2026-09-19 fix (Opus adversarial review finding
+    D5): the prior continuation text read in full as "I'm still right here
+    with you. The offer I made a moment ago still stands, whenever you're
+    ready for it." - no redirect at all, on every Track A turn in a session
+    after the first. Fixed to always carry the same redirect language A1/A2
+    do."""
+    resources = resources_for_signal("ACUTE_DISTRESS", acute_level="a1", already_fired=True)
+    assert "reach out to someone real" in resources.text
+    text = resources.text.format(representative_name="Vera")
+    assert "not Vera" not in text  # continuation never claims to be Vera speaking
+    assert "Vera" in text  # but still names the Representative in the reopen offer
 
 
 def test_non_acute_signal_gets_no_resources_regardless_of_level_or_already_fired():

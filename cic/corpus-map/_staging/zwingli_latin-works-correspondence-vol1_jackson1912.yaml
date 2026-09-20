@@ -1,0 +1,19 @@
+# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
+# the Reformed Cities build (Atlas VI.2), per this world's own Source
+# Readiness Dossier.
+source_file: zwingli_latin-works-correspondence-vol1_jackson1912.txt
+
+assignments:
+  - work: "The Latin Works and the Correspondence of Huldreich Zwingli,
+      Vol. I (early treatises and letters)"
+    author: zwingli
+    locus: "whole file"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      A second, independent volume of Zwingli's own voice alongside the
+      Selected Works (Jackson 1901) - not individually itemized by work
+      within this row; the file's own intake header discloses this as a
+      multi-work compilation.

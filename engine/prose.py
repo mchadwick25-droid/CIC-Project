@@ -50,14 +50,31 @@ import re
 # side, overlap_coefficient, the M1 cell keyword corpus, M2's demonstration
 # tagging and M4's Stage B ranking all read all_text().
 #
-# retrieval hints (retrieve_when / do_not_retrieve_when) are deliberately NOT
-# here: those were authored to be matched on.
+# retrieval hints (retrieve_when) are deliberately NOT here: that field was
+# authored to be matched on.
+#
+# do_not_retrieve_when IS excluded (fixed 2026-09-19, Opus adversarial review
+# finding D1). It was previously reasoned about together with retrieve_when
+# above and left in all_text()'s pool, but reading the real records shows it
+# holds a genuine anti-fabrication guard species alongside its redirect
+# species - e.g. "our vendored evidence does not say [X], and the
+# Representative must not supply it." Leaving that text in all_text() means
+# grounding_ratio's own word-overlap check can score a FABRICATED version of
+# exactly the barred claim as well-grounded, because the guard sentence that
+# forbids the claim necessarily shares the claim's own vocabulary - measured
+# directly: a fabricated "Brictio succeeded Martin as bishop" scored a
+# perfect 1.0 grounding ratio against gallic.story.brictio-in-the-courtyard,
+# whose own do_not_retrieve_when says exactly that this is not attested and
+# must not be invented. This is the same category formation_claim_barred
+# below is already in - a forbidden claim's own text is not "prose that
+# might ground a real answer," it is the opposite.
 _NON_PROSE_KEYS = {
     "id", "world_id", "record_type", "schema_version", "status", "register",
     "_path", "_body", "world_word", "license", "narrative_tier",
     "formation_claim_barred", "citation_specificity", "verification_state",
     "evidentiary_weight", "formation_confidence",
     "canon_cells", "source_id", "target", "canon_question_id",
+    "do_not_retrieve_when",
 }
 
 

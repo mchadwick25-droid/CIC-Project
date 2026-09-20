@@ -139,6 +139,50 @@ defects:
     mutation: {op: add_field, path: modern_rendering, value: "The unmediated testimonial witness persisted irrepressibly notwithstanding the deponent's own non-observation of the underlying event."}
     expected_failure: "modern_rendering exceeds FK grade 10 (Artifact-1 §6 readability gate) - text itself, the verbatim Level-3 wording, is never graded"
 
+  - id: readability-voice-craft-identity-too-dense
+    gate: readability
+    layer: M1
+    target_record: records/fix/voice_craft/fix.craft.vera-voice.md
+    mutation: {op: set_field, path: identity, value: "The unmediated testimonial persona instantiates a composite epistemic witness whose evidentiary posture remains irreducibly bounded by the non-observation constraints inherent to secondhand transmission across the fixture's own bifurcated source ecology."}
+    expected_failure: "voice_craft.identity exceeds FK grade 10 (readability gate, extended 2026-09-19 to voice_craft - this field compiles into every turn's own prompt, engine/m2/builders.py build_prompt())"
+
+  - id: voice-craft-prompt-budget-flavor-notes-bloat
+    gate: voice-craft-prompt-budget
+    layer: M1
+    target_record: records/fix/voice_craft/fix.craft.vera-voice.md
+    mutation:
+      op: set_field
+      path: flavor_notes
+      value:
+        - {segment: pad-0, tag: bloat-test, note: "what belonging asked of the ones who stayed after the parting: the shared meal kept smaller, the names spoken quietly, the friends who no longer called, the work continued anyway without complaint or announcement"}
+        - {segment: pad-1, tag: bloat-test, note: "the door kept open a little longer than seemed wise, the waiting that had no promised end attached to it, the small daily choosing that never once felt heroic to the one doing it"}
+        - {segment: pad-2, tag: bloat-test, note: "what could honestly be claimed as seen against what was only heard secondhand from another's mouth, the difference held plainly, never blurred to make an answer sound larger than the evidence allowed"}
+        - {segment: pad-3, tag: bloat-test, note: "the cost counted in ordinary hours rather than one dramatic moment: meals missed, work postponed, old friendships gone quiet, a name no longer spoken at the family table, none of it named as suffering"}
+        - {segment: pad-4, tag: bloat-test, note: "the difference between a memory kept faithfully and a story reshaped afterward to sound more finished than the actual remembered event ever was, and the discipline of saying so plainly when the two had drifted"}
+        - {segment: pad-5, tag: bloat-test, note: "the small daily choosing that added up to something only much later, never in a single dramatic turn but in a hundred unremarked mornings where the easier path was available and was not taken"}
+        - {segment: pad-6, tag: bloat-test, note: "the naming of what was not known rather than a confident filling of the gap with something that merely sounded plausible enough to satisfy a listener who wanted a tidier answer than the record allowed"}
+        - {segment: pad-7, tag: bloat-test, note: "the particular ache of being asked to explain a conviction in words that never quite carried the weight the conviction itself had carried when it was first formed, admitted rather than papered over"}
+        - {segment: pad-8, tag: bloat-test, note: "the way an old friendship changed shape without ending outright, the visits growing further apart, the conversation turning careful, neither side naming aloud what both could plainly feel had shifted between them"}
+        - {segment: pad-9, tag: bloat-test, note: "the quiet refusal to perform certainty for an audience that wanted the story simpler than it actually was, holding instead to the plainer and less satisfying true account of what had actually happened"}
+        - {segment: pad-10, tag: bloat-test, note: "the particular weight of a promise kept past the point where anyone was left to notice it was being kept at all, continued anyway out of a loyalty that asked for no witness"}
+        - {segment: pad-11, tag: bloat-test, note: "the slow, unglamorous work of staying rather than the single dramatic act of arriving, counted in the unremarked returns rather than in any one memorable entrance anyone later chose to retell afterward"}
+        - {segment: pad-12, tag: bloat-test, note: "the discipline of distinguishing a genuinely shared memory from one merely repeated so often between friends that it had come, over time, to feel shared even where it plainly was not so"}
+        - {segment: pad-13, tag: bloat-test, note: "the honest naming of a silence in the record rather than a confident guess dressed up to sound like knowledge, spoken once and then set aside rather than returned to again and again"}
+        - {segment: pad-14, tag: bloat-test, note: "the plain fact that a witness who was not present says so directly, without hedging it into vagueness or dressing the gap up as a kind of modesty it was never meant to be"}
+        - {segment: pad-15, tag: bloat-test, note: "the weight of an ordinary Tuesday spent doing the same small tasks as before, unremarked and unrewarded, carried without any expectation that it would ever be noticed or named by anyone else at all"}
+        - {segment: pad-16, tag: bloat-test, note: "the honest distance between what a witness wants to be true and what the witness can actually stand behind as seen, held apart deliberately rather than allowed to blur into one comfortable account"}
+        - {segment: pad-17, tag: bloat-test, note: "the long habit of returning to the same small kindness on the same hard days, not because it solved anything but because it was the one thing that could honestly still be offered"}
+        - {segment: pad-18, tag: bloat-test, note: "the particular loneliness of holding a conviction that most of the old friends had quietly stopped sharing, carried without bitterness and without the need to argue anyone back into agreement"}
+        - {segment: pad-19, tag: bloat-test, note: "the plain, unglamorous fact that most of what mattered here happened in rooms with no one else present to record it, which is itself part of what this witness can and cannot claim"}
+        - {segment: pad-20, tag: bloat-test, note: "the way a shared meal grew quieter over the years without either side naming why, each still arriving, each still leaving a little earlier than the year before, neither one saying it aloud"}
+        - {segment: pad-21, tag: bloat-test, note: "the plain difference between a thing remembered and a thing merely repeated so many times among friends that it had begun, wrongly, to feel remembered, a distinction worth holding even when it cost something"}
+        - {segment: pad-22, tag: bloat-test, note: "the ordinary discipline of saying only as much as could honestly be stood behind, turned away from the temptation to round a thin account up into something that sounded more finished than it was"}
+        - {segment: pad-23, tag: bloat-test, note: "the long patience of continuing a small daily kindness with no expectation it would ever be seen, recorded, or thanked, offered simply because it was still the one honest thing left to give"}
+        - {segment: pad-24, tag: bloat-test, note: "the honest admission that some questions this witness cannot answer at all, not from modesty but because the record itself, carefully checked again and again, simply does not reach that far"}
+        - {segment: pad-25, tag: bloat-test, note: "the difference between a doubt spoken plainly and a doubt dressed up as a question meant only to be answered away, held apart deliberately so neither one is mistaken for the other"}
+        - {segment: pad-26, tag: bloat-test, note: "the small unglamorous cost of a promise kept quietly for years after anyone else had stopped expecting it to be kept at all, carried on without complaint and without any need to be seen doing it"}
+    expected_failure: "identity+guard+flavor_notes+characteristic_concerns totals well over 900 words (voice-craft-prompt-budget gate, added 2026-09-19 after gallic's own live-site complaint traced to exactly this failure mode - a record can pass readability field-by-field while still being far too long in total, since gate_readability grades individual sentences, not the compiled whole)"
+
   - id: canon-coverage-blank-cell
     gate: canon-coverage
     layer: M1

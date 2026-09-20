@@ -127,6 +127,22 @@
       ]
     },
     {
+      "id": "readability-voice-craft-identity-too-dense",
+      "gate": "readability",
+      "status": "caught",
+      "findings": [
+        "fix.craft.vera-voice: identity scores FK grade 26.2, above the ceiling of 10"
+      ]
+    },
+    {
+      "id": "voice-craft-prompt-budget-flavor-notes-bloat",
+      "gate": "voice-craft-prompt-budget",
+      "status": "caught",
+      "findings": [
+        "fix.craft.vera-voice: identity+guard+flavor_notes+characteristic_concerns total 961 words, above the ceiling of 900 (this compiles into every turn's own prompt - see build_prompt())"
+      ]
+    },
+    {
       "id": "canon-coverage-blank-cell",
       "gate": "canon-coverage",
       "status": "caught",

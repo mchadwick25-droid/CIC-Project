@@ -3124,6 +3124,85 @@ two lines again at desktop widths — the two lines span close to the
 full container width rather than a narrow column, which is what
 avoided "square" the first time. Mark confirmed from the screenshot
 before this shipped.
+
+## 2026-09-17 (cont. 17) — System-wide scan for leftover old background/branding; fixed everything live, left retired pages alone
+
+Mark asked for a scan of the whole system for any place the old light
+background or old branding was still present. Investigated every live
+`cic-website/` page directly (not just the ones this session had
+already touched) rather than assuming the earlier dark-mode passes
+covered everything. **Instruction on scope, given directly:** "fix
+everything that is part of the current build (dont bother with
+previous versions) anything that is directly being used on the website
+now."
+
+**Real findings, fixed:**
+- **`pilot-feedback.html`** — the feedback form's own input/select/
+  textarea fields and the `.optin` consent box were still
+  `background:var(--vellum);color:var(--iron-gall)` (the light-mode
+  values `--vellum`/`--iron-gall` still hold, per this file's own prior
+  comment, since only specific text colors were patched directly
+  before, not these backgrounds). Fixed to `#1E1913`/`#F1E9DD`,
+  matching the rest of the site's dark surface/text. This page is
+  genuinely live — linked from `about.html`, `index.html`,
+  `privacy.html`, `story.html`, `support.html`, `table.html`, and
+  `whats-next.html`.
+- **`atlas-v3.html`**'s own `<title>` tag still read "Church in
+  History — Church in Conversation" — the one real miss from this
+  session's earlier Church Family Tree rename (nav label, homepage
+  card, and alt text were all caught at the time; the browser tab
+  title wasn't). Fixed.
+- **`whats-next.html`** — two body-copy sentences called the feature
+  "Church in History" in the present tense, describing it as it exists
+  today. Fixed both to "Church Family Tree."
+- **`atlas.html` and `world-atlas.html`** (instant `<meta refresh>`
+  redirect stubs to `atlas-v3.html`, kept live so old bookmarks/links
+  still land) — both hardcoded old, untokenized colors
+  (`#f3ecdc`/`#3a3020`, with a `prefers-color-scheme` dark variant that
+  the rest of the site deliberately stopped relying on — see the
+  "Dark is the site's default appearance" reasoning already in
+  `atlas-v3.html`, since the media query can't tell "OS explicitly
+  light" from "OS never touched") and both still said "Church in
+  History" in the title, a comment, and the visible link text. Made
+  dark unconditional (`#17130F`/`#F1E9DD`/`#E08C74`, the same tokens
+  used everywhere else) and renamed both.
+
+**Checked and confirmed already correct, not touched:**
+- `assets/style.css` (the shared stylesheet `about.html`,
+  `pilot-feedback.html`, `privacy.html`, `support.html`, `tour.html`,
+  and `whats-next.html` all link) looked light-only on a first read of
+  its own `:root` block — but a full read found a dark-mode override
+  section already appended at the bottom (`git log` confirms a prior
+  commit, "Make dark the default appearance site-wide"), correctly
+  overriding body/header/footer/`.world-card`/`.callout`/links to the
+  same dark tokens as the rest of the site. Verified live with a
+  screenshot of `about.html` — genuinely already dark. This is why the
+  fix above only needed to touch the two remaining pieces
+  (`pilot-feedback.html`'s own page-specific form styles) that this
+  shared override doesn't reach.
+- `atlas-v3.html`'s own `:root` looked light on a `grep` for
+  `background:var(--parchment)` — but `--parchment` there resolves to
+  `#1d1811` (dark) by default; the confusing part is only the variable
+  name being kept from before the site went dark. Already correct.
+- One "Church in History" hit inside `atlas-v3.html` is a real 1982
+  academic journal title in a source citation, not this project's own
+  branding — left untouched.
+
+**Deliberately left alone, per Mark's own scope instruction:**
+- **`tour.html`** — still has ~15 raw `var(--vellum)`/`var(--parchment)`/
+  `var(--iron-gall)` usages throughout its own embedded Table-mockup
+  styles, genuinely still light in several spots. Not fixed: the
+  page's own header comment records that it was already pulled from
+  the live site 2026-07-20 and 2026-07-22 by Mark's own direction ("the
+  Hosted Tour / Tour Experience Module feature this page previews is
+  descoped to Phase 2+... out of the current build cycle entirely"),
+  no page currently links to it, and it's reachable only by someone
+  typing the exact URL. This is exactly a "previous version," not
+  "directly being used on the website now."
+- **`story.html`**'s changelog line ("Church in History (the Timeline)
+  has been completely rebuilt") is a past-tense record of what a
+  feature was called at the time of that update, not current-state
+  copy — left as the historical record it is.
 priority.
 
 ## 2026-09-19 — facilitator_brief: two schema questions resolved before authoring starts

@@ -1,0 +1,667 @@
+{
+  "world": "syr",
+  "generated": "2026-09-19",
+  "fields": {
+    "demonstration.exchange": {
+      "count": 10,
+      "fk_grade_median": 6.27,
+      "fk_grade_max": 9.23,
+      "longest_sentence_words_max": 51,
+      "worst_record": "syr.demo.someone-like-me"
+    },
+    "doctrinal_witness.text": {
+      "count": 22,
+      "fk_grade_median": 6.93,
+      "fk_grade_max": 9.72,
+      "longest_sentence_words_max": 38,
+      "worst_record": "syr.dw.gospel-harmony"
+    },
+    "honest_limit.statement": {
+      "count": 4,
+      "fk_grade_median": 7.07,
+      "fk_grade_max": 7.15,
+      "longest_sentence_words_max": 29,
+      "worst_record": "syr.limit.marriage"
+    },
+    "story.tellable_as": {
+      "count": 10,
+      "fk_grade_median": 8.41,
+      "fk_grade_max": 14.37,
+      "longest_sentence_words_max": 22,
+      "worst_record": "syr.story.qyama-morning"
+    },
+    "story.text": {
+      "count": 10,
+      "fk_grade_median": 7.15,
+      "fk_grade_max": 9.51,
+      "longest_sentence_words_max": 53,
+      "worst_record": "syr.story.jacob-nicaea"
+    },
+    "term.plain_meaning": {
+      "count": 10,
+      "fk_grade_median": 6.72,
+      "fk_grade_max": 8.44,
+      "longest_sentence_words_max": 25,
+      "worst_record": "syr.term.memra"
+    },
+    "term.quick_meaning": {
+      "count": 10,
+      "fk_grade_median": 7.22,
+      "fk_grade_max": 8.9,
+      "longest_sentence_words_max": 21,
+      "worst_record": "syr.term.ihidaya"
+    },
+    "world_core.cautions": {
+      "count": 1,
+      "fk_grade_median": 16.38,
+      "fk_grade_max": 16.38,
+      "longest_sentence_words_max": 62,
+      "worst_record": "syr.core.syriac"
+    },
+    "world_core.formation_logic": {
+      "count": 1,
+      "fk_grade_median": 14.5,
+      "fk_grade_max": 14.5,
+      "longest_sentence_words_max": 46,
+      "worst_record": "syr.core.syriac"
+    },
+    "world_core.horizon": {
+      "count": 1,
+      "fk_grade_median": 17.45,
+      "fk_grade_max": 17.45,
+      "longest_sentence_words_max": 54,
+      "worst_record": "syr.core.syriac"
+    },
+    "world_core.thinness": {
+      "count": 1,
+      "fk_grade_median": 28.17,
+      "fk_grade_max": 28.17,
+      "longest_sentence_words_max": 66,
+      "worst_record": "syr.core.syriac"
+    }
+  },
+  "records": {
+    "world_core.horizon": [
+      {
+        "record_id": "syr.core.syriac",
+        "words": 113,
+        "sentences": 4,
+        "longest_sentence_words": 54,
+        "fk_grade": 17.45
+      }
+    ],
+    "world_core.formation_logic": [
+      {
+        "record_id": "syr.core.syriac",
+        "words": 164,
+        "sentences": 6,
+        "longest_sentence_words": 46,
+        "fk_grade": 14.5
+      }
+    ],
+    "world_core.thinness": [
+      {
+        "record_id": "syr.core.syriac",
+        "words": 110,
+        "sentences": 2,
+        "longest_sentence_words": 66,
+        "fk_grade": 28.17
+      }
+    ],
+    "world_core.cautions": [
+      {
+        "record_id": "syr.core.syriac",
+        "words": 383,
+        "sentences": 14,
+        "longest_sentence_words": 62,
+        "fk_grade": 16.38
+      }
+    ],
+    "demonstration.exchange": [
+      {
+        "record_id": "syr.demo.authority",
+        "words": 158,
+        "sentences": 11,
+        "longest_sentence_words": 27,
+        "fk_grade": 6.27
+      },
+      {
+        "record_id": "syr.demo.jesus",
+        "words": 183,
+        "sentences": 14,
+        "longest_sentence_words": 20,
+        "fk_grade": 4.11
+      },
+      {
+        "record_id": "syr.demo.marriage-ending",
+        "words": 170,
+        "sentences": 9,
+        "longest_sentence_words": 32,
+        "fk_grade": 7.76
+      },
+      {
+        "record_id": "syr.demo.physician",
+        "words": 166,
+        "sentences": 10,
+        "longest_sentence_words": 30,
+        "fk_grade": 6.13
+      },
+      {
+        "record_id": "syr.demo.room-for-doubt",
+        "words": 141,
+        "sentences": 10,
+        "longest_sentence_words": 30,
+        "fk_grade": 5.46
+      },
+      {
+        "record_id": "syr.demo.room-for-doubt",
+        "words": 130,
+        "sentences": 10,
+        "longest_sentence_words": 32,
+        "fk_grade": 4.26
+      },
+      {
+        "record_id": "syr.demo.someone-like-me",
+        "words": 259,
+        "sentences": 12,
+        "longest_sentence_words": 51,
+        "fk_grade": 9.23
+      },
+      {
+        "record_id": "syr.demo.suffering",
+        "words": 199,
+        "sentences": 14,
+        "longest_sentence_words": 26,
+        "fk_grade": 6.38
+      },
+      {
+        "record_id": "syr.demo.unsettled",
+        "words": 177,
+        "sentences": 13,
+        "longest_sentence_words": 26,
+        "fk_grade": 5.57
+      },
+      {
+        "record_id": "syr.demo.woman-authority",
+        "words": 243,
+        "sentences": 13,
+        "longest_sentence_words": 40,
+        "fk_grade": 6.62
+      }
+    ],
+    "doctrinal_witness.text": [
+      {
+        "record_id": "syr.dw.adam-grace",
+        "words": 154,
+        "sentences": 11,
+        "longest_sentence_words": 27,
+        "fk_grade": 6.42
+      },
+      {
+        "record_id": "syr.dw.apostolic",
+        "words": 134,
+        "sentences": 10,
+        "longest_sentence_words": 29,
+        "fk_grade": 7.7
+      },
+      {
+        "record_id": "syr.dw.authority-lived",
+        "words": 149,
+        "sentences": 11,
+        "longest_sentence_words": 26,
+        "fk_grade": 6.15
+      },
+      {
+        "record_id": "syr.dw.born-again-endtimes",
+        "words": 175,
+        "sentences": 14,
+        "longest_sentence_words": 34,
+        "fk_grade": 5.94
+      },
+      {
+        "record_id": "syr.dw.corpus-and-its-edges",
+        "words": 169,
+        "sentences": 12,
+        "longest_sentence_words": 36,
+        "fk_grade": 7.43
+      },
+      {
+        "record_id": "syr.dw.cost-distance",
+        "words": 154,
+        "sentences": 9,
+        "longest_sentence_words": 33,
+        "fk_grade": 7.47
+      },
+      {
+        "record_id": "syr.dw.death-judgment",
+        "words": 167,
+        "sentences": 10,
+        "longest_sentence_words": 37,
+        "fk_grade": 7.59
+      },
+      {
+        "record_id": "syr.dw.decides",
+        "words": 150,
+        "sentences": 10,
+        "longest_sentence_words": 23,
+        "fk_grade": 6.93
+      },
+      {
+        "record_id": "syr.dw.doubt",
+        "words": 171,
+        "sentences": 12,
+        "longest_sentence_words": 31,
+        "fk_grade": 5.89
+      },
+      {
+        "record_id": "syr.dw.failures",
+        "words": 152,
+        "sentences": 13,
+        "longest_sentence_words": 18,
+        "fk_grade": 6.66
+      },
+      {
+        "record_id": "syr.dw.god",
+        "words": 138,
+        "sentences": 9,
+        "longest_sentence_words": 25,
+        "fk_grade": 7.66
+      },
+      {
+        "record_id": "syr.dw.gospel-harmony",
+        "words": 162,
+        "sentences": 8,
+        "longest_sentence_words": 30,
+        "fk_grade": 9.72
+      },
+      {
+        "record_id": "syr.dw.jesus",
+        "words": 140,
+        "sentences": 7,
+        "longest_sentence_words": 32,
+        "fk_grade": 7.6
+      },
+      {
+        "record_id": "syr.dw.one-church",
+        "words": 137,
+        "sentences": 13,
+        "longest_sentence_words": 28,
+        "fk_grade": 4.97
+      },
+      {
+        "record_id": "syr.dw.outsiders-empire",
+        "words": 132,
+        "sentences": 11,
+        "longest_sentence_words": 28,
+        "fk_grade": 6.98
+      },
+      {
+        "record_id": "syr.dw.penitence-prayer",
+        "words": 133,
+        "sentences": 12,
+        "longest_sentence_words": 25,
+        "fk_grade": 5.51
+      },
+      {
+        "record_id": "syr.dw.physician",
+        "words": 138,
+        "sentences": 9,
+        "longest_sentence_words": 30,
+        "fk_grade": 6.11
+      },
+      {
+        "record_id": "syr.dw.reading",
+        "words": 144,
+        "sentences": 11,
+        "longest_sentence_words": 26,
+        "fk_grade": 6.82
+      },
+      {
+        "record_id": "syr.dw.remains",
+        "words": 127,
+        "sentences": 11,
+        "longest_sentence_words": 25,
+        "fk_grade": 6.39
+      },
+      {
+        "record_id": "syr.dw.suffering",
+        "words": 159,
+        "sentences": 11,
+        "longest_sentence_words": 30,
+        "fk_grade": 6.96
+      },
+      {
+        "record_id": "syr.dw.unsettled",
+        "words": 143,
+        "sentences": 9,
+        "longest_sentence_words": 38,
+        "fk_grade": 6.27
+      },
+      {
+        "record_id": "syr.dw.was-jesus-god",
+        "words": 155,
+        "sentences": 9,
+        "longest_sentence_words": 36,
+        "fk_grade": 7.62
+      }
+    ],
+    "honest_limit.statement": [
+      {
+        "record_id": "syr.limit.f5-enslaved",
+        "words": 57,
+        "sentences": 5,
+        "longest_sentence_words": 19,
+        "fk_grade": 4.38
+      },
+      {
+        "record_id": "syr.limit.f5-women-own-words",
+        "words": 62,
+        "sentences": 5,
+        "longest_sentence_words": 29,
+        "fk_grade": 3.84
+      },
+      {
+        "record_id": "syr.limit.marriage",
+        "words": 68,
+        "sentences": 4,
+        "longest_sentence_words": 23,
+        "fk_grade": 7.15
+      },
+      {
+        "record_id": "syr.limit.ritual-sequence",
+        "words": 115,
+        "sentences": 6,
+        "longest_sentence_words": 27,
+        "fk_grade": 7.07
+      }
+    ],
+    "story.tellable_as": [
+      {
+        "record_id": "syr.story.abgar-addai-legend",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 8.41
+      },
+      {
+        "record_id": "syr.story.basil-legend",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 12.29
+      },
+      {
+        "record_id": "syr.story.choirs-tradition",
+        "words": 21,
+        "sentences": 1,
+        "longest_sentence_words": 21,
+        "fk_grade": 10.58
+      },
+      {
+        "record_id": "syr.story.edessa-flood-201",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.0
+      },
+      {
+        "record_id": "syr.story.ephrem-famine-death",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 8.35
+      },
+      {
+        "record_id": "syr.story.ephrem-roll-and-vine",
+        "words": 22,
+        "sentences": 1,
+        "longest_sentence_words": 22,
+        "fk_grade": 6.4
+      },
+      {
+        "record_id": "syr.story.jacob-deliverance",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 8.41
+      },
+      {
+        "record_id": "syr.story.jacob-nicaea",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 7.77
+      },
+      {
+        "record_id": "syr.story.qyama-morning",
+        "words": 19,
+        "sentences": 1,
+        "longest_sentence_words": 19,
+        "fk_grade": 14.37
+      },
+      {
+        "record_id": "syr.story.simeon-martyrdom",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.63
+      }
+    ],
+    "story.text": [
+      {
+        "record_id": "syr.story.abgar-addai-legend",
+        "words": 186,
+        "sentences": 11,
+        "longest_sentence_words": 53,
+        "fk_grade": 7.2
+      },
+      {
+        "record_id": "syr.story.basil-legend",
+        "words": 131,
+        "sentences": 10,
+        "longest_sentence_words": 23,
+        "fk_grade": 6.45
+      },
+      {
+        "record_id": "syr.story.choirs-tradition",
+        "words": 116,
+        "sentences": 8,
+        "longest_sentence_words": 20,
+        "fk_grade": 7.15
+      },
+      {
+        "record_id": "syr.story.edessa-flood-201",
+        "words": 126,
+        "sentences": 7,
+        "longest_sentence_words": 33,
+        "fk_grade": 7.07
+      },
+      {
+        "record_id": "syr.story.ephrem-famine-death",
+        "words": 143,
+        "sentences": 9,
+        "longest_sentence_words": 35,
+        "fk_grade": 5.69
+      },
+      {
+        "record_id": "syr.story.ephrem-roll-and-vine",
+        "words": 202,
+        "sentences": 15,
+        "longest_sentence_words": 29,
+        "fk_grade": 4.62
+      },
+      {
+        "record_id": "syr.story.jacob-deliverance",
+        "words": 126,
+        "sentences": 9,
+        "longest_sentence_words": 23,
+        "fk_grade": 6.45
+      },
+      {
+        "record_id": "syr.story.jacob-nicaea",
+        "words": 87,
+        "sentences": 5,
+        "longest_sentence_words": 27,
+        "fk_grade": 9.51
+      },
+      {
+        "record_id": "syr.story.qyama-morning",
+        "words": 163,
+        "sentences": 9,
+        "longest_sentence_words": 25,
+        "fk_grade": 8.24
+      },
+      {
+        "record_id": "syr.story.simeon-martyrdom",
+        "words": 184,
+        "sentences": 12,
+        "longest_sentence_words": 25,
+        "fk_grade": 8.09
+      }
+    ],
+    "term.plain_meaning": [
+      {
+        "record_id": "syr.term.anti-jewish-polemic",
+        "words": 15,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 5.08
+      },
+      {
+        "record_id": "syr.term.catholicos",
+        "words": 28,
+        "sentences": 2,
+        "longest_sentence_words": 20,
+        "fk_grade": 5.04
+      },
+      {
+        "record_id": "syr.term.ewangeliyon-da-mhallete",
+        "words": 46,
+        "sentences": 3,
+        "longest_sentence_words": 19,
+        "fk_grade": 7.83
+      },
+      {
+        "record_id": "syr.term.ihidaya",
+        "words": 54,
+        "sentences": 4,
+        "longest_sentence_words": 23,
+        "fk_grade": 6.72
+      },
+      {
+        "record_id": "syr.term.madrasha",
+        "words": 44,
+        "sentences": 3,
+        "longest_sentence_words": 21,
+        "fk_grade": 7.29
+      },
+      {
+        "record_id": "syr.term.mar",
+        "words": 29,
+        "sentences": 2,
+        "longest_sentence_words": 25,
+        "fk_grade": 6.31
+      },
+      {
+        "record_id": "syr.term.memra",
+        "words": 41,
+        "sentences": 2,
+        "longest_sentence_words": 25,
+        "fk_grade": 8.44
+      },
+      {
+        "record_id": "syr.term.qyama",
+        "words": 51,
+        "sentences": 4,
+        "longest_sentence_words": 20,
+        "fk_grade": 5.8
+      },
+      {
+        "record_id": "syr.term.raza-shrara",
+        "words": 54,
+        "sentences": 5,
+        "longest_sentence_words": 18,
+        "fk_grade": 3.04
+      },
+      {
+        "record_id": "syr.term.tahwyata",
+        "words": 46,
+        "sentences": 4,
+        "longest_sentence_words": 17,
+        "fk_grade": 7.11
+      }
+    ],
+    "term.quick_meaning": [
+      {
+        "record_id": "syr.term.anti-jewish-polemic",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 8.39
+      },
+      {
+        "record_id": "syr.term.catholicos",
+        "words": 26,
+        "sentences": 2,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.18
+      },
+      {
+        "record_id": "syr.term.ewangeliyon-da-mhallete",
+        "words": 25,
+        "sentences": 2,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.22
+      },
+      {
+        "record_id": "syr.term.ihidaya",
+        "words": 21,
+        "sentences": 1,
+        "longest_sentence_words": 21,
+        "fk_grade": 8.9
+      },
+      {
+        "record_id": "syr.term.madrasha",
+        "words": 20,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 4.24
+      },
+      {
+        "record_id": "syr.term.mar",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "syr.term.memra",
+        "words": 21,
+        "sentences": 2,
+        "longest_sentence_words": 13,
+        "fk_grade": 3.11
+      },
+      {
+        "record_id": "syr.term.qyama",
+        "words": 24,
+        "sentences": 2,
+        "longest_sentence_words": 14,
+        "fk_grade": 7.28
+      },
+      {
+        "record_id": "syr.term.raza-shrara",
+        "words": 27,
+        "sentences": 2,
+        "longest_sentence_words": 19,
+        "fk_grade": 3.78
+      },
+      {
+        "record_id": "syr.term.tahwyata",
+        "words": 20,
+        "sentences": 3,
+        "longest_sentence_words": 9,
+        "fk_grade": 4.71
+      }
+    ]
+  }
+}

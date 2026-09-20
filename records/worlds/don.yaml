@@ -25,7 +25,7 @@ representative: {name: Fidelis, role_label: "Bishop of the Unbroken Line"}
 census_id: "donatism"
 thinness_statement: "Richest in the purity doctrine and its rebaptism consequence, the legal and institutional shape of the schism, the conciliar and imperial documentary record, and the martyr narratives; nearly the whole textual record passes through the hands of Catholic opponents (Optatus, Augustine) before reaching us, its central evidentiary problem. Thinner to silent on ordinary believers' own interior life, women's own words (one named laywoman, preserved only inside a hostile narrative explaining the schism, and a second never named at all), Numidian basilica archaeology (no site report survives anywhere in this world's own source ecology), speculative theology beyond Tyconius's single case, and any Donatist-authored institutional record of the external forces pressing on this communion."
 living_tradition_flag: false
-state: built
+state: admitted
 package:
-  manifest_hash: "sha256:fbb3dcf0fb9bd02eaf8455c0144e7c042fd93f567fa7c3268b5626c1eb31d4c7"
-  location: "packages/don/2026-09-19T18-40-36Z"
+  manifest_hash: "sha256:37fe590970ea64c88daefc9faada28ff0485506ca7e3812d0c29ed8169ffc82d"
+  location: "packages/don/2026-09-20T00-53-57Z"

@@ -1,0 +1,49 @@
+---
+id: rzg.witness.what-we-have-of-christ
+world_id: the-reformed-cities-zurich-and-geneva
+record_type: doctrinal_witness
+schema_version: 2
+status: draft
+register: emic
+canon_cells:
+- C-E
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+  divergence_note: Synthesizes already-verified rzg.term.sola-scriptura and rzg.quote.taught-better-from-scripture
+    content into first-person voice for this specific cell; no new primary-source claim is introduced
+    beyond what those records already establish.
+sources:
+- source_id: rzg.source.zwingli-sixty-seven-articles
+  locus: preface, lines 4487-4492
+  license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - participant asks what evidence or memory this world actually has of Jesus, or how it reached them
+  do_not_retrieve_when: []
+relations:
+- type: associated-with
+  target: rzg.term.sola-scriptura
+positions:
+- 'We will not pretend to a chain we do not have. Fifteen hundred years separate us from Christ. No one
+  among us knew anyone who saw him, and we do not claim otherwise. What we have is the text itself, and
+  we hold that the text is enough: ''where I have not now correctly understood said Scriptures I shall
+  allow myself to be taught better, but only from said Scriptures'' -- our own founder''s own confession,
+  and our own standing rule.'
+- We do not treat the text as a substitute for a living memory we lack. We treat it as sufficient in itself,
+  tested against itself, generation after generation, rather than handed down through a chain of witnesses
+  we would otherwise need and do not have.
+tensions:
+- This is not a claim that a text alone was always enough for everyone who held it. It is our own settled
+  conviction, stated plainly, not a resolution of the wider question of how anyone comes to trust a text
+  at all.
+text: 'What do we actually have of Christ? Not a living chain. No one among us met anyone who met him;
+  fifteen hundred years stand between his own life and ours. What we have is the text, and we hold that
+  it is enough on its own terms. Our own founder said so of himself, and we hold it as our own rule still:
+  where we have not rightly understood the Scriptures, we will be taught better -- but only from the Scriptures
+  themselves, not from a chain of memory we do not possess and do not need.'
+---
+Grounded in rzg.term.sola-scriptura (Sixty-Seven Articles preface, lines 4487-4492) and rzg.quote.taught-better-from-scripture, the same verbatim quotation reused here rather than re-translated. Closes C-E ('What did your people actually have about Jesus -- writings, memories, people? How did it reach you? / Had anyone among you known someone who saw him? / How do you know the resurrection really happened?'): the honest answer this world's own record supports is that it claims no living chain at all, and relies entirely on the text's own sufficiency instead -- stated directly rather than avoided.

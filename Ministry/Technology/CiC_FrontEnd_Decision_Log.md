@@ -3349,3 +3349,107 @@ disk - derived build output, gitignored) are identical in both runs.
 None outstanding from this finding. Built-World Voice Alignment continues
 with touchpoints 1-3 (homepage tile, Atlas panel, tradition page) and the
 still-open doctrine-field/workstream-home questions.
+
+---
+
+## 2026-09-17 — Change order: dark mode adopted for the conversation app, superseding the FINAL deferral
+
+**Mark's instruction, given directly:** the chair and table conversation
+backgrounds were still light while the rest of the website is dark;
+change them to match, "ensuring the readability of the conversation is
+excellent and visible in contrast." When told this reverses a FINAL
+brand-record ruling (`CiC_Full_UX_Design_V1_0.md` §2.1, "Dark mode:
+deferred, stated plainly"), **Mark's ruling: "that was an old approach
+we changed in the redesign, i am superseding those instructions."** A
+real change order, not a quiet edit — logged here, and §2.1 itself
+updated in place with a pointer back to this entry, the superseded text
+kept underneath in a collapsed block rather than deleted.
+
+**Where the color scheme lives:** `cic-poc/frontend/src/app.css`'s
+`:root` block — one file, ~29 CSS custom properties, no other CSS file
+or Tailwind config in the app. Chair (`Conversation.tsx`) and table
+(`TableRoom.tsx`) share the exact same classes and tokens; there was
+never a separate light theme for one and not the other.
+
+**Every new value is script-computed against real WCAG contrast math,
+not eyeballed** — continuing the same discipline the file's own
+2026-08-28 a11y sweep already established (that sweep is quoted
+verbatim in the file and left untouched):
+
+- Ground/surface/text/muted are `cic-website`'s own shipping dark
+  tokens (`--ground` `#17130F`, `--surface` `#1E1913`, `--text`
+  `#F1E9DD`, `--muted` `#B8AEA1`), reused verbatim — this is the most
+  literal reading of "match the rest of the website," and keeps one
+  single dark palette across the whole product rather than a third,
+  separately-invented one. (The FINAL doc's own "old leather" map/tour
+  precedent was considered and set aside for this reason — it names a
+  different demo palette, not this shipping one.)
+- **Every FINAL accent hue fails AA as text on this dark ground when
+  used unlightened** — measured, not assumed: madder 2.85:1, gold-leaf
+  3.68:1, tyrian 2.50:1, lapis 2.12:1, graphite 4.94:1 (this one
+  barely passes), the error red 3.40:1. Each needed its own dark-safe
+  derivation:
+  - **Participant (lapis) and the lexicon apparatus (tyrian)** reuse
+    `cic-website/table.html`'s own already-shipping, already-verified
+    dark-safe variants verbatim: `--lapis-text` `#9DB4F0` (8.99:1) and
+    `--tyrian-text` `#C9A6E8` (8.89:1) — no new color invented.
+  - **The Facilitator (graphite)** reuses `cic-website`'s `--control`
+    `#A39B92` (6.74:1) rather than just the muted/secondary text tone,
+    keeping the FINAL doc's own "one unpigmented voice" distinction
+    from ordinary muted text.
+  - **The Representative (gold-leaf)** needed a genuinely new
+    derivation (no existing website token covers it): `#DC9A3E`
+    (7.69:1 against the ground, 6.65:1 against its own new message-wash
+    background `#2A2013`).
+  - **Madder/primary stayed unchanged** (`#A13E2B`) — it only fails as
+    standalone text on dark, and nothing in `app.css` uses it that way;
+    every use is a button *fill* with light text on top
+    (`color: var(--color-surface)`), which still measures 5.38–7.53:1.
+  - **The error red** got its own dark-safe value, `#E56A5E` (5.77:1),
+    and its wash background changed from a light pink
+    (`#FBEAEA`) to a dark red-brown (`#2E1A17`, 5.14:1 with the new
+    error text on top).
+  - **The Arriving mark's seat dot** — previously borrowed
+    `--color-primary`, which fails the 3:1 non-text floor on dark
+    (2.85:1) now that primary stays raw madder. Given its own token,
+    `--color-mark-dot`, reusing `cic-website`'s own `--mark-dot`
+    `#CB6E52` (5.18:1) — the identical mark element already solved
+    once, not re-solved differently.
+  - **Card/panel drop shadows** (five `box-shadow` rules) were tinted
+    to the *light*-mode ink color (`rgba(42, 37, 33, …)`), which reads
+    as invisible on a near-black ground — changed to black-based
+    shadows at higher opacity (0.3–0.5) for actual visible depth on
+    dark surfaces.
+- **The 8 built worlds' per-world accent colors**
+  (`cic-poc/frontend/src/data/worlds.ts`) are used both as text
+  (`.turn__speaker`, `.arrival__seat-detail`) *and* as a solid fill with
+  dark text on top (`.world-card__interview`, `.arrival__seat-portrait`)
+  — two different contrast constraints pulling on the same value. All 8
+  originals failed the ground-contrast test outright (2.71–3.68:1).
+  Each was lightened in HSL space (hue and relative saturation held
+  fixed, lightness raised via binary search) until it cleared **both**
+  ≥4.5:1 as text on the dark ground *and* ≥4.5:1 for dark surface-text
+  laid on top of it as a button fill — landed at a ≥5.3:1 / ≥5.0:1
+  margin on both counts for all 8, not a bare pass. Original light-mode
+  hex values and their own hue-selection reasoning are kept in the
+  file's comments for provenance; nothing was deleted.
+
+**Verified, not just computed:** `npm run build` (tsc + vite build)
+passes clean. The dev server was actually run and screenshotted — the
+Launch screen (including a real `.conversation__error` state, hit
+live because no local backend was running) renders the full dark
+theme correctly end to end: mark, cards, muted/error/accent text all
+visibly correct and legible. The actual in-conversation turn colors
+(`.turn--voice`, `.turn--participant`, `.turn--facilitator`,
+`.citation-mark`) could not be screenshotted live without a running
+engine/api backend, but every one of their text/background pairings is
+covered by the contrast numbers above.
+
+### Next action
+
+Carry this same token set into whatever the engine/api's own
+integration or visual tests check against, if any hardcode the old
+light-mode hex values. Promote through this project's normal `main` →
+`live` pipeline for `cic-poc/frontend` (confirm with `render.yaml`
+which service/branch that actually is before merging — do not assume
+it matches `cic-website`'s Cloudflare pipeline).

@@ -8,9 +8,17 @@ model.
 """
 from dataclasses import dataclass
 
-from .routing import RoutingDecision, route
+from .routing import ACUTE_SIGNALS, RoutingDecision, route
 
 FAILURE_STATUSES = {"timeout", "error", "parse_failure"}
+
+# route() never touches its `reader` argument until after the safety-signal
+# checks (routing.py lines ~72-92) - a call carrying one of these signals
+# resolves to safety_turn/check_in_turn without ever dereferencing reader.
+# So when the reader call fails but safety succeeded and returned one of
+# these, routing can and must proceed on safety alone - reader=None is safe
+# specifically because these signals never reach the reader-dependent branches.
+_SAFETY_DECISIVE_SIGNALS = ACUTE_SIGNALS | {"AMBIGUOUS_LOW_CONFIDENCE"}
 
 
 @dataclass(frozen=True)
@@ -35,10 +43,23 @@ def resolve_gate(
     *, safety_outcome: CallOutcome, reader_outcome: CallOutcome, pressed: dict[str, bool], anachronistic_term_ids: set[str]
 ) -> GateResult:
     if reader_outcome.failed:
-        # Reader fails/times out -> pass-through: the voice answers the raw
-        # message with no directive (the pre-guard state). Safety's own
-        # outcome doesn't change this - "both fail" collapses to the same
-        # pass-through, per spec.
+        # Reader fails/times out. A successful safety classification is NOT
+        # discarded just because the reader also failed: a reader timeout on
+        # the same turn a participant discloses real risk must never silently
+        # erase that finding (fixed 2026-09-19 - the prior version returned
+        # voice_pass_through unconditionally here, which meant a correctly-
+        # classified ACUTE_DISTRESS turn could still reach the voice, live,
+        # if the unrelated reader call happened to time out the same turn).
+        # Only genuinely reader-dependent rules (system_nature/bridge/etic/
+        # ordinary) actually need a reader; safety_turn and check_in_turn do
+        # not, so routing on safety alone here is safe, not a guess.
+        if not safety_outcome.failed and safety_outcome.value["signal"] in _SAFETY_DECISIVE_SIGNALS:
+            routing = route(safety=safety_outcome.value, reader=None, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
+            return GateResult(routing=routing, degraded=True, needs_async_safety_reclassification=False)
+        # Reader failed and safety has nothing decisive to say (safety also
+        # failed, or safety succeeded with NO_SIGNAL) -> pass-through: the
+        # voice answers the raw message with no directive (the pre-guard
+        # state).
         return GateResult(
             routing=RoutingDecision(action="voice_pass_through", reason="reader failed/timed out - pass-through"),
             degraded=True,

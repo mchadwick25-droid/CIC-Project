@@ -1,0 +1,667 @@
+{
+  "world": "ijc",
+  "generated": "2026-09-19",
+  "fields": {
+    "demonstration.exchange": {
+      "count": 11,
+      "fk_grade_median": 7.87,
+      "fk_grade_max": 9.37,
+      "longest_sentence_words_max": 41,
+      "worst_record": "ijc.demo.argued-about"
+    },
+    "doctrinal_witness.text": {
+      "count": 12,
+      "fk_grade_median": 7.94,
+      "fk_grade_max": 9.04,
+      "longest_sentence_words_max": 43,
+      "worst_record": "ijc.dw.women-authority-cost"
+    },
+    "honest_limit.statement": {
+      "count": 7,
+      "fk_grade_median": 6.54,
+      "fk_grade_max": 7.84,
+      "longest_sentence_words_max": 31,
+      "worst_record": "ijc.limit.f5-ordinary-day"
+    },
+    "story.tellable_as": {
+      "count": 11,
+      "fk_grade_median": 9.46,
+      "fk_grade_max": 15.43,
+      "longest_sentence_words_max": 23,
+      "worst_record": "ijc.story.callinicum-synagogue"
+    },
+    "story.text": {
+      "count": 11,
+      "fk_grade_median": 7.87,
+      "fk_grade_max": 9.18,
+      "longest_sentence_words_max": 40,
+      "worst_record": "ijc.story.emperor-builds-another-basilica"
+    },
+    "term.plain_meaning": {
+      "count": 12,
+      "fk_grade_median": 6.44,
+      "fk_grade_max": 7.86,
+      "longest_sentence_words_max": 23,
+      "worst_record": "ijc.term.presbeia"
+    },
+    "term.quick_meaning": {
+      "count": 12,
+      "fk_grade_median": 6.96,
+      "fk_grade_max": 9.14,
+      "longest_sentence_words_max": 21,
+      "worst_record": "ijc.term.presbeia"
+    },
+    "world_core.cautions": {
+      "count": 1,
+      "fk_grade_median": 13.61,
+      "fk_grade_max": 13.61,
+      "longest_sentence_words_max": 58,
+      "worst_record": "ijc.core.imperial-juridical"
+    },
+    "world_core.formation_logic": {
+      "count": 1,
+      "fk_grade_median": 23.68,
+      "fk_grade_max": 23.68,
+      "longest_sentence_words_max": 96,
+      "worst_record": "ijc.core.imperial-juridical"
+    },
+    "world_core.horizon": {
+      "count": 1,
+      "fk_grade_median": 24.97,
+      "fk_grade_max": 24.97,
+      "longest_sentence_words_max": 88,
+      "worst_record": "ijc.core.imperial-juridical"
+    },
+    "world_core.thinness": {
+      "count": 1,
+      "fk_grade_median": 30.82,
+      "fk_grade_max": 30.82,
+      "longest_sentence_words_max": 83,
+      "worst_record": "ijc.core.imperial-juridical"
+    }
+  },
+  "records": {
+    "world_core.horizon": [
+      {
+        "record_id": "ijc.core.imperial-juridical",
+        "words": 93,
+        "sentences": 2,
+        "longest_sentence_words": 88,
+        "fk_grade": 24.97
+      }
+    ],
+    "world_core.formation_logic": [
+      {
+        "record_id": "ijc.core.imperial-juridical",
+        "words": 206,
+        "sentences": 4,
+        "longest_sentence_words": 96,
+        "fk_grade": 23.68
+      }
+    ],
+    "world_core.thinness": [
+      {
+        "record_id": "ijc.core.imperial-juridical",
+        "words": 118,
+        "sentences": 2,
+        "longest_sentence_words": 83,
+        "fk_grade": 30.82
+      }
+    ],
+    "world_core.cautions": [
+      {
+        "record_id": "ijc.core.imperial-juridical",
+        "words": 305,
+        "sentences": 16,
+        "longest_sentence_words": 58,
+        "fk_grade": 13.61
+      }
+    ],
+    "demonstration.exchange": [
+      {
+        "record_id": "ijc.demo.argued-about",
+        "words": 191,
+        "sentences": 10,
+        "longest_sentence_words": 30,
+        "fk_grade": 9.37
+      },
+      {
+        "record_id": "ijc.demo.bread-and-cup",
+        "words": 159,
+        "sentences": 10,
+        "longest_sentence_words": 34,
+        "fk_grade": 7.9
+      },
+      {
+        "record_id": "ijc.demo.hypocrisy",
+        "words": 245,
+        "sentences": 16,
+        "longest_sentence_words": 37,
+        "fk_grade": 8.54
+      },
+      {
+        "record_id": "ijc.demo.never-settled",
+        "words": 270,
+        "sentences": 16,
+        "longest_sentence_words": 41,
+        "fk_grade": 8.2
+      },
+      {
+        "record_id": "ijc.demo.ordinary-day",
+        "words": 114,
+        "sentences": 7,
+        "longest_sentence_words": 23,
+        "fk_grade": 7.84
+      },
+      {
+        "record_id": "ijc.demo.reading-confusion",
+        "words": 124,
+        "sentences": 8,
+        "longest_sentence_words": 26,
+        "fk_grade": 5.61
+      },
+      {
+        "record_id": "ijc.demo.reading-confusion",
+        "words": 102,
+        "sentences": 8,
+        "longest_sentence_words": 25,
+        "fk_grade": 5.22
+      },
+      {
+        "record_id": "ijc.demo.someone-like-me",
+        "words": 179,
+        "sentences": 10,
+        "longest_sentence_words": 30,
+        "fk_grade": 7.2
+      },
+      {
+        "record_id": "ijc.demo.want-to-believe",
+        "words": 181,
+        "sentences": 13,
+        "longest_sentence_words": 23,
+        "fk_grade": 5.24
+      },
+      {
+        "record_id": "ijc.demo.who-was-jesus",
+        "words": 214,
+        "sentences": 12,
+        "longest_sentence_words": 38,
+        "fk_grade": 7.87
+      },
+      {
+        "record_id": "ijc.demo.woman-authority",
+        "words": 312,
+        "sentences": 19,
+        "longest_sentence_words": 33,
+        "fk_grade": 8.4
+      }
+    ],
+    "doctrinal_witness.text": [
+      {
+        "record_id": "ijc.dw.ancient-custom",
+        "words": 221,
+        "sentences": 14,
+        "longest_sentence_words": 30,
+        "fk_grade": 8.72
+      },
+      {
+        "record_id": "ijc.dw.baptism-threshold",
+        "words": 231,
+        "sentences": 13,
+        "longest_sentence_words": 29,
+        "fk_grade": 8.55
+      },
+      {
+        "record_id": "ijc.dw.bread-made-body",
+        "words": 148,
+        "sentences": 11,
+        "longest_sentence_words": 43,
+        "fk_grade": 6.4
+      },
+      {
+        "record_id": "ijc.dw.collections-discipline",
+        "words": 206,
+        "sentences": 12,
+        "longest_sentence_words": 27,
+        "fk_grade": 7.94
+      },
+      {
+        "record_id": "ijc.dw.how-we-read",
+        "words": 195,
+        "sentences": 12,
+        "longest_sentence_words": 29,
+        "fk_grade": 7.77
+      },
+      {
+        "record_id": "ijc.dw.jesus",
+        "words": 161,
+        "sentences": 9,
+        "longest_sentence_words": 35,
+        "fk_grade": 7.95
+      },
+      {
+        "record_id": "ijc.dw.marriage-ranked",
+        "words": 144,
+        "sentences": 11,
+        "longest_sentence_words": 28,
+        "fk_grade": 6.23
+      },
+      {
+        "record_id": "ijc.dw.original-sin-transmitted",
+        "words": 159,
+        "sentences": 9,
+        "longest_sentence_words": 35,
+        "fk_grade": 8.58
+      },
+      {
+        "record_id": "ijc.dw.received-not-seen",
+        "words": 185,
+        "sentences": 15,
+        "longest_sentence_words": 29,
+        "fk_grade": 7.33
+      },
+      {
+        "record_id": "ijc.dw.record-under-question",
+        "words": 175,
+        "sentences": 12,
+        "longest_sentence_words": 26,
+        "fk_grade": 7.7
+      },
+      {
+        "record_id": "ijc.dw.room-for-hesitation",
+        "words": 172,
+        "sentences": 13,
+        "longest_sentence_words": 20,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "ijc.dw.women-authority-cost",
+        "words": 272,
+        "sentences": 17,
+        "longest_sentence_words": 38,
+        "fk_grade": 9.04
+      }
+    ],
+    "honest_limit.statement": [
+      {
+        "record_id": "ijc.limit.earlier-windows",
+        "words": 123,
+        "sentences": 9,
+        "longest_sentence_words": 18,
+        "fk_grade": 6.24
+      },
+      {
+        "record_id": "ijc.limit.f5-ordinary-day",
+        "words": 114,
+        "sentences": 7,
+        "longest_sentence_words": 23,
+        "fk_grade": 7.84
+      },
+      {
+        "record_id": "ijc.limit.inner-life",
+        "words": 127,
+        "sentences": 9,
+        "longest_sentence_words": 24,
+        "fk_grade": 5.89
+      },
+      {
+        "record_id": "ijc.limit.jesus-to-you",
+        "words": 58,
+        "sentences": 4,
+        "longest_sentence_words": 17,
+        "fk_grade": 6.54
+      },
+      {
+        "record_id": "ijc.limit.later-questions",
+        "words": 95,
+        "sentences": 5,
+        "longest_sentence_words": 29,
+        "fk_grade": 7.79
+      },
+      {
+        "record_id": "ijc.limit.marriage-money",
+        "words": 124,
+        "sentences": 9,
+        "longest_sentence_words": 27,
+        "fk_grade": 6.06
+      },
+      {
+        "record_id": "ijc.limit.reading-alone",
+        "words": 77,
+        "sentences": 5,
+        "longest_sentence_words": 31,
+        "fk_grade": 7.43
+      }
+    ],
+    "story.tellable_as": [
+      {
+        "record_id": "ijc.story.altar-of-victory",
+        "words": 23,
+        "sentences": 1,
+        "longest_sentence_words": 23,
+        "fk_grade": 9.46
+      },
+      {
+        "record_id": "ijc.story.bees-of-milan",
+        "words": 23,
+        "sentences": 1,
+        "longest_sentence_words": 23,
+        "fk_grade": 11.23
+      },
+      {
+        "record_id": "ijc.story.callinicum-synagogue",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 15.43
+      },
+      {
+        "record_id": "ijc.story.dream-before-battle",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 8.54
+      },
+      {
+        "record_id": "ijc.story.emperor-builds-another-basilica",
+        "words": 20,
+        "sentences": 1,
+        "longest_sentence_words": 20,
+        "fk_grade": 8.73
+      },
+      {
+        "record_id": "ijc.story.emperor-penance",
+        "words": 23,
+        "sentences": 1,
+        "longest_sentence_words": 23,
+        "fk_grade": 13.37
+      },
+      {
+        "record_id": "ijc.story.eutropius-at-the-altar",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.0
+      },
+      {
+        "record_id": "ijc.story.letter-that-outranked-a-council",
+        "words": 19,
+        "sentences": 1,
+        "longest_sentence_words": 19,
+        "fk_grade": 10.48
+      },
+      {
+        "record_id": "ijc.story.tome-that-would-not-bend",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 8.35
+      },
+      {
+        "record_id": "ijc.story.vigil-in-basilica",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 9.26
+      },
+      {
+        "record_id": "ijc.story.vision-and-alliance",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 11.17
+      }
+    ],
+    "story.text": [
+      {
+        "record_id": "ijc.story.altar-of-victory",
+        "words": 153,
+        "sentences": 11,
+        "longest_sentence_words": 27,
+        "fk_grade": 6.8
+      },
+      {
+        "record_id": "ijc.story.bees-of-milan",
+        "words": 96,
+        "sentences": 7,
+        "longest_sentence_words": 26,
+        "fk_grade": 5.97
+      },
+      {
+        "record_id": "ijc.story.callinicum-synagogue",
+        "words": 187,
+        "sentences": 12,
+        "longest_sentence_words": 39,
+        "fk_grade": 9.17
+      },
+      {
+        "record_id": "ijc.story.dream-before-battle",
+        "words": 82,
+        "sentences": 5,
+        "longest_sentence_words": 37,
+        "fk_grade": 7.92
+      },
+      {
+        "record_id": "ijc.story.emperor-builds-another-basilica",
+        "words": 160,
+        "sentences": 9,
+        "longest_sentence_words": 26,
+        "fk_grade": 9.18
+      },
+      {
+        "record_id": "ijc.story.emperor-penance",
+        "words": 212,
+        "sentences": 13,
+        "longest_sentence_words": 40,
+        "fk_grade": 8.75
+      },
+      {
+        "record_id": "ijc.story.eutropius-at-the-altar",
+        "words": 210,
+        "sentences": 14,
+        "longest_sentence_words": 38,
+        "fk_grade": 6.59
+      },
+      {
+        "record_id": "ijc.story.letter-that-outranked-a-council",
+        "words": 171,
+        "sentences": 11,
+        "longest_sentence_words": 30,
+        "fk_grade": 7.71
+      },
+      {
+        "record_id": "ijc.story.tome-that-would-not-bend",
+        "words": 223,
+        "sentences": 13,
+        "longest_sentence_words": 30,
+        "fk_grade": 7.87
+      },
+      {
+        "record_id": "ijc.story.vigil-in-basilica",
+        "words": 186,
+        "sentences": 10,
+        "longest_sentence_words": 33,
+        "fk_grade": 8.08
+      },
+      {
+        "record_id": "ijc.story.vision-and-alliance",
+        "words": 153,
+        "sentences": 11,
+        "longest_sentence_words": 31,
+        "fk_grade": 6.49
+      }
+    ],
+    "term.plain_meaning": [
+      {
+        "record_id": "ijc.term.basilica",
+        "words": 32,
+        "sentences": 2,
+        "longest_sentence_words": 19,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "ijc.term.communio",
+        "words": 35,
+        "sentences": 3,
+        "longest_sentence_words": 21,
+        "fk_grade": 4.45
+      },
+      {
+        "record_id": "ijc.term.concilium",
+        "words": 35,
+        "sentences": 3,
+        "longest_sentence_words": 22,
+        "fk_grade": 5.82
+      },
+      {
+        "record_id": "ijc.term.haeresis",
+        "words": 32,
+        "sentences": 2,
+        "longest_sentence_words": 23,
+        "fk_grade": 6.82
+      },
+      {
+        "record_id": "ijc.term.homoios",
+        "words": 36,
+        "sentences": 3,
+        "longest_sentence_words": 22,
+        "fk_grade": 5.82
+      },
+      {
+        "record_id": "ijc.term.homoousios",
+        "words": 36,
+        "sentences": 3,
+        "longest_sentence_words": 17,
+        "fk_grade": 4.13
+      },
+      {
+        "record_id": "ijc.term.imperator-intra-ecclesiam",
+        "words": 44,
+        "sentences": 4,
+        "longest_sentence_words": 14,
+        "fk_grade": 6.44
+      },
+      {
+        "record_id": "ijc.term.martyrium",
+        "words": 28,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.73
+      },
+      {
+        "record_id": "ijc.term.nea-rhome",
+        "words": 26,
+        "sentences": 2,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.22
+      },
+      {
+        "record_id": "ijc.term.presbeia",
+        "words": 29,
+        "sentences": 3,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.86
+      },
+      {
+        "record_id": "ijc.term.primatus",
+        "words": 37,
+        "sentences": 3,
+        "longest_sentence_words": 19,
+        "fk_grade": 5.48
+      },
+      {
+        "record_id": "ijc.term.tomus",
+        "words": 35,
+        "sentences": 3,
+        "longest_sentence_words": 17,
+        "fk_grade": 5.14
+      }
+    ],
+    "term.quick_meaning": [
+      {
+        "record_id": "ijc.term.basilica",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 6.79
+      },
+      {
+        "record_id": "ijc.term.communio",
+        "words": 21,
+        "sentences": 1,
+        "longest_sentence_words": 21,
+        "fk_grade": 6.96
+      },
+      {
+        "record_id": "ijc.term.concilium",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 6.73
+      },
+      {
+        "record_id": "ijc.term.haeresis",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "ijc.term.homoios",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 6.88
+      },
+      {
+        "record_id": "ijc.term.homoousios",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 5.62
+      },
+      {
+        "record_id": "ijc.term.imperator-intra-ecclesiam",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 8.35
+      },
+      {
+        "record_id": "ijc.term.martyrium",
+        "words": 18,
+        "sentences": 1,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.7
+      },
+      {
+        "record_id": "ijc.term.nea-rhome",
+        "words": 11,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 8.78
+      },
+      {
+        "record_id": "ijc.term.presbeia",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 9.14
+      },
+      {
+        "record_id": "ijc.term.primatus",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 4.91
+      },
+      {
+        "record_id": "ijc.term.tomus",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 5.21
+      }
+    ]
+  }
+}

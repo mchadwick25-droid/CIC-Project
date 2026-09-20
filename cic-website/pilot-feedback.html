@@ -16,15 +16,19 @@ form.feedback label:first-of-type{margin-top:0}
 form.feedback .hint{font-family:'Alegreya Sans',sans-serif;font-size:.86rem;color:#B8AEA1;font-weight:400;display:block;margin-top:.15rem}
 form.feedback input, form.feedback select, form.feedback textarea{
   width:100%;font-family:'Alegreya',Georgia,serif;font-size:1rem;padding:.7rem .8rem;
-  border:1px solid var(--rule);border-radius:5px;background:var(--vellum);color:var(--iron-gall)}
+  border:1px solid var(--rule);border-radius:5px;background:#1E1913;color:#F1E9DD}
 form.feedback textarea{min-height:5rem;resize:vertical}
-.optin{background:var(--vellum);border:1px solid var(--rule);border-left:3px solid var(--gold-leaf);
+.optin{background:#1E1913;border:1px solid var(--rule);border-left:3px solid var(--gold-leaf);
   border-radius:0 6px 6px 0;padding:1.1rem 1.3rem;margin:0 0 1.8rem;font-size:.96rem;color:#B8AEA1}
 .submit-row{text-align:center;margin-top:1.8rem}
 .mailto-fallback{font-family:'Alegreya Sans',sans-serif;font-size:.86rem;color:#B8AEA1;margin-top:.8rem}
-/* Dark is the default site-wide; .optin, .hint, and .mailto-fallback are
-   colored for that directly rather than through --muted, which still holds
-   its light-mode value everywhere on this site. */
+/* Dark is the default site-wide; .optin, .hint, .mailto-fallback, and the
+   form fields/textarea below are all colored for that directly rather than
+   through --vellum/--iron-gall/--muted, which still hold their light-mode
+   values everywhere on this site (2026-09-17: form fields and .optin's
+   background were the last light leftovers here - --iron-gall text on a
+   --vellum field would have gone invisible once the field itself went
+   dark, so both were fixed together). */
 </style>
 </head>
 <body>
@@ -41,13 +45,21 @@ form.feedback textarea{min-height:5rem;resize:vertical}
       </span>
       <span class="wordmark">Church in Conversation</span>
     </a>
-    <nav class="site-nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="whats-next.html">What's Next</a>
-      <a href="atlas-v3.html">Church Family Tree</a>
-      <a href="support.html">Get Involved</a>
+    <nav class="feature-bar" aria-label="Main features">
+      <a class="feature-btn" href="atlas-v3.html">Church Family Tree</a>
+      <a class="feature-btn" href="index.html#who">Conversation with One</a>
+      <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <div class="menu">
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
+        Menu
+        <svg class="menu-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <nav class="site-nav" id="site-menu" aria-label="Site">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
   </div>
 </header>
 
@@ -104,7 +116,7 @@ form.feedback textarea{min-height:5rem;resize:vertical}
 
     <div id="copyFallback" hidden style="margin-top:1.4rem">
       <p class="mailto-fallback">Your answers are long enough that a mailto link might cut them off in some email apps. Copy everything below and paste it into a new email to <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a> instead:</p>
-      <textarea id="copyFallbackText" readonly style="width:100%;min-height:12rem;font-family:'Alegreya',Georgia,serif;font-size:.9rem;padding:.7rem .8rem;border:1px solid var(--rule);border-radius:5px;background:var(--vellum);color:var(--iron-gall)"></textarea>
+      <textarea id="copyFallbackText" readonly style="width:100%;min-height:12rem;font-family:'Alegreya',Georgia,serif;font-size:.9rem;padding:.7rem .8rem;border:1px solid var(--rule);border-radius:5px;background:#1E1913;color:#F1E9DD"></textarea>
     </div>
   </section>
 </main>
@@ -174,6 +186,29 @@ form.addEventListener('submit', function(e){
   }
   window.location.href = mailto;
 });
+
+var menu = document.querySelector('.menu');
+var menuToggle = document.getElementById('menu-toggle');
+if (menu && menuToggle) {
+  menuToggle.addEventListener('click', function(ev){
+    ev.stopPropagation();
+    var isOpen = menu.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.addEventListener('click', function(ev){
+    if (!menu.contains(ev.target)) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('keydown', function(ev){
+    if (ev.key === 'Escape' && menu.classList.contains('open')) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.focus();
+    }
+  });
+}
 })();
 </script>
 

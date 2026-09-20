@@ -95,3 +95,41 @@ def test_cap_close_never_reopens(tmp_path):
     state = project_fresh(sid, store)
     assert state.closed is True
     assert state.close_reason == "cap"
+
+
+def test_voice_turn_transparency_plan_folds_into_transcript(tmp_path):
+    """Build-Plan.md Stage 3b: the transparency plan attached to a
+    voice_turn event (engine.m4.transparency_plan, Stage 3a) has to
+    reach state.transcript for a replayed session to carry it, same as
+    citations/glosses/figures_used already do - this is the one place
+    Stage 3a's addition wasn't wired through yet."""
+    store = Store(tmp_path / "events.db")
+    sid = str(uuid.uuid4())
+    _seed(store, sid)
+    plan = {"world_key": "fix", "anchors": [{"record_id": "fix.source.witness-scroll"}], "references": [], "unverified_claims": {"count": 0, "sentence_indexes": []}}
+    store.append(
+        session_id=sid,
+        event_uuid=str(uuid.uuid4()),
+        event_type="voice_turn",
+        payload={"speaker": "Vera", "text": "Again.", "citations": [], "glosses": [], "figures_used": [], "quote_offers": [], "attempts_meta": {}, "transparency": plan},
+    )
+
+    state = project_fresh(sid, store)
+    voice_entries = [t for t in state.transcript if t["speaker"] == "Vera"]
+    assert voice_entries[0]["transparency"] is None  # the seeded turn, logged before this field existed
+    assert voice_entries[1]["transparency"] == plan
+
+
+def test_voice_turn_without_transparency_key_still_folds_cleanly(tmp_path):
+    """A voice_turn logged before Stage 3a existed has no 'transparency'
+    key at all (it was never added to events.REQUIRED_KEYS) - the fold
+    must not KeyError on it. This is Build-Plan.md's own Stage 3b
+    acceptance criterion: 'pre-change transcripts still load.'"""
+    store = Store(tmp_path / "events.db")
+    sid = str(uuid.uuid4())
+    _seed(store, sid)  # _seed's own voice_turn payload carries no "transparency" key
+
+    state = project_fresh(sid, store)
+    voice_entries = [t for t in state.transcript if t["speaker"] == "Vera"]
+    assert len(voice_entries) == 1
+    assert voice_entries[0]["transparency"] is None
