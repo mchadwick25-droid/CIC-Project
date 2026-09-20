@@ -1920,3 +1920,113 @@ restore` `"pass": true` fleet-wide, all 12 worlds.
 **Still open:** the Facilitator boundary-disclosure turn type (B-1 item 4); L-1 (readability-scoring
 methodology); the `Nikolaus_Portrait.png` file itself (Mark's own step, per `site-portrait/witt`,
 `ACCEPTED_OPEN`). `check_paths.py` is closed by this entry, not open — corrected and clean.
+
+## OG-30. Card/tile teaser copy naming gap, found and fixed fleet-wide (witt, gallic, desert, pahc)
+
+Mark's own observation on the public site's own homepage "chairs": *"some of them are not using names, i
+think we are striving for accuracy not partial answers to draw people in."* Investigated before touching
+anything — every card's `<h4>` already carries the Representative's own name; the actual gap is one level
+down, in the narrative `.tile` teaser paragraph beneath it, which on four of eleven cards never names the
+single real, well-documented historical figure the paragraph is unmistakably describing. Confirmed against
+each world's own already-approved Representative Construction Notes (the "is a voice, not a person who
+lived" paragraph on each tradition page, which already names these same figures) before writing anything,
+so no new research or invention was needed — only carrying an already-vetted name into a sibling document
+that had dropped it.
+
+**Root cause, two different failure modes, not one:**
+- **witt and gallic:** the omission originates in the registry's own canonical `doorway_description` field
+  (`records/worlds/<code>.yaml`) — read live by `engine/api/wiring.py` for the actual app, per
+  `engine/m1/registry.py`'s own "sole reader" design. witt's own field never named Martin Luther anywhere,
+  including in its own "is a voice" paragraph, an omission unique to witt among all eleven worlds (every
+  other "whole documented life" world — Reformed Cities, Donatism — still names its own real figures
+  somewhere on the page). gallic's own field used deliberately unnamed narrative phrasing ("a soldier who
+  left the army," "one of them," "another") that was never reconciled against the same world's own later
+  Representative-construction step, which correctly named Martin of Tours, John Cassian, and Vincent of
+  Lérins in a sibling paragraph on the same page.
+- **desert:** the registry's own `doorway_description` was already correct (names Antony and Pachomius
+  directly) — the gap is specific to `cic-website`'s own hand-authored copy, which is not generated from
+  the registry and had independently drifted into a shorter, unnamed paraphrase.
+
+Both failure modes share one real cause: `cic-website`'s own static pages (`index.html`, `table.html`, each
+`traditions/*.html`) are hand-duplicated copies of registry content with no mechanical link back to it and
+no check enforcing consistency between a world's own `doorway_description`, its Representative Construction
+Notes, and its public teaser copy — the same "second copy, hand-copied, nothing here is invented but
+nothing keeps it honest either" pattern this file's own OG-29 entry already found once in
+`cic-poc/frontend/src/data/worlds.ts` and fixed by wiring it to the live API instead. The static marketing
+site has no such live wiring (by design — it is the pre-conversation public site, not the app), so the fix
+here is manual convergence, not a structural one.
+
+A recurrence check across the other eight worlds' own `doorway_description` did turn up a fifth instance:
+**pahc** never names Ignatius ("a bishop under guard wrote ahead to the churches on his road to execution")
+or Clement of Rome ("Rome wrote at length to settle a quarrel in Corinth") in its own `doorway_description`,
+despite naming both in its own "is a voice" paragraph, the same registry-level pattern as witt and gallic.
+Unlike those two, though, pahc's own public-site copy (both `index.html`'s tile and `table.html`'s own
+one-line teaser) never reproduces this specific content in the first place — it describes the bishop/council
+leadership structure across several communities instead, a genuinely different, non-name-shaped point — so
+only `records/worlds/pahc.yaml` needed the fix; no card actually reads as cryptic here, since neither static
+surface makes the same unnamed claim the registry field did. alx, hal, syr, ijc, cappadocian, don, and rzg
+were each checked directly against their own already-read `index.html` tiles and, separately, their own
+`doorway_description` text: all seven already name at least one real figure somewhere on the page (don's own
+`doorway_description` is the one partial exception — it doesn't name Caecilian the way its own `index.html`
+tile already does — but since the card itself already carries the name, this wasn't treated as the same
+defect and was left alone rather than widening this entry's own scope past what was asked). Nothing
+currently catches a sixth instance if one is introduced later.
+
+**Fixed, all eleven cards reviewed:** `records/worlds/witt.yaml` and `records/worlds/gallic.yaml`'s own
+`doorway_description` now name Martin Luther and (Martin of Tours, John Cassian, Vincent of Lérins)
+respectively, at the exact point each was already unnamed — no other wording changed. Propagated the same
+correction into every static copy: `cic-website/index.html`'s own three tiles (witt, gallic, desert),
+each world's own `cic-website/traditions/*.html` tile paragraph, and `cic-website/table.html`'s one-line
+teasers for gallic and desert (witt's own `table.html` line does not reference an unnamed person and did
+not need a change). `records/worlds/pahc.yaml`'s own `doorway_description` now names Ignatius and Clement
+of Rome at the two points identified above — registry-only, since neither static surface reproduced the
+unnamed content. Chloe's own card (Scattered Households) was checked and left alone on purpose — its
+teaser describes a structural pattern across several communities' own letters, not one concealed
+protagonist, so forcing a single name in would be less accurate, not more. Donatism's card was also
+checked — it already names Caecilian, so it does not read as evasive the way the other four did.
+
+One authoring bug caught and fixed in the same pass: the `cic-website/table.html` edit for desert first
+used straight apostrophes (`Antony's`, `Pachomius's`) inside a single-quoted JS string literal, which
+breaks the string — that file's own established convention is a curly apostrophe (`’`) for any apostrophe
+inside string content, exactly to avoid this. Caught by validating the script block with `node --check` and
+by evaluating the `WORLDS` array literal directly before treating the edit as done, not by inspection alone.
+
+**Side finding, not acted on:** checking these three tiles' own readability against the project's `fk_grade`
+scorer turned up FK grades of 17.2 (witt), 11.5 (gallic), and 15.8 (desert) — all well above this project's
+own CEFR B2 / grade 8–10 target. Confirmed this is pre-existing, not something this pass's own edits caused
+(original FK grades were 17.0, 11.2, and 15.0 respectively — the name insertions moved them by well under a
+point). Neither `doorway_description` nor `cic-website`'s own static copy is read by `gate_readability` or
+any other M1 gate, so this was never caught by the pipeline that catches it for `records/<world>/*.md`
+content. Out of scope for this entry — a readability rewrite of already-approved public-facing prose is its
+own editorial decision, not a naming-accuracy fix, and belongs in front of Mark rather than done quietly.
+Flagged here so it does not go quiet, per this file's own standing rule.
+
+Verified: full pytest suite 748/748 passed; `engine.m1.cross_world` 0 new defects; `engine.m2.cli restore`
+`"pass": true` fleet-wide; `tools/check_paths.py --baseline` 0 new unresolved citations (re-verified against
+an actually-cleaned `packages/` tree, not a locally-contaminated one, after OG-29's own check_paths mistake
+repeated itself once more mid-session and was caught and corrected the same way).
+
+## OG-31. OG-30's own deferred readability finding, fixed on Mark's direct instruction
+
+OG-30 flagged, but explicitly did not act on, a readability gap on the three tiles it edited: FK 17.2
+(witt), 11.5 (gallic), 15.8 (desert) against this project's own CEFR B2 / grade 8-10 target, confirmed
+pre-existing and undisturbed by the naming fix itself. That entry's own words: "a readability rewrite of
+already-approved public-facing prose is its own editorial decision... belongs in front of Mark rather than
+done quietly." Brought to Mark directly with three options (rewrite all three carefully; fix the worst
+offender only; leave as-is for now); his own instruction, direct: "Fix all three carefully."
+
+Rewrote each at its own root - `records/worlds/witt.yaml` and `records/worlds/gallic.yaml`'s own
+`doorway_description` (desert's own was already correct at FK 8.7 and untouched) - and propagated to every
+static copy: `cic-website/index.html`'s three tiles, each world's own `cic-website/traditions/*.html` tile
+paragraph, and `table.html`'s own one-line teasers for witt and desert (gallic's own line was already fine
+at FK 6.3). Same method as this session's own earlier rzg guard-field fix: short sentences at existing
+clause boundaries, no fact cut or added, checked against the original sentence by sentence before applying.
+Final FK: witt 8.99, gallic 8.65, desert tile 9.43 (table.html's own two short one-liners land at 9.86 and
+9.84 - a known FK-formula quirk where a short line with a few polysyllabic proper nouns, "Wittenberg,"
+"Electoral Saxony," scores paradoxically high regardless of sentence simplicity; both are as simple as the
+facts allow without dropping the place name itself).
+
+Verified: full pytest suite 748/748 passed; `engine.m1.cross_world` 0 new defects; `engine.m2.cli restore`
+`"pass": true` fleet-wide; `tools/check_paths.py --baseline` 0 new unresolved citations (checked against an
+actually-cleaned `packages/` tree again, per the now-standing discipline from OG-29/OG-30); `table.html`'s
+own `WORLDS` array literal re-validated with `node --check` and a direct `eval` after editing.

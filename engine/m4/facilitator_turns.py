@@ -107,7 +107,10 @@ CHECK_IN = FacilitatorTurn(
 # Program-Spec SS8: Track B is "harmful-dynamic/dependency, accumulating
 # across the session" - a dependency dynamic, not a crisis, so no resources
 # (engine.m4.crisis_resources.resources_for_signal returns None for it by
-# design) and "an explicit continue path back to the voice".
+# design). Amendment 2026-09-20: the voice no longer speaks alongside this
+# turn either - it stands alone, same as Track A's own crisis turn. Written
+# to read correctly either way: "you're welcome to keep talking with
+# {representative_name}" already meant the NEXT message, not this one.
 DEPENDENCY_CHECK = FacilitatorTurn(
     kind="safety",
     text=(

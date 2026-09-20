@@ -26,14 +26,11 @@ export interface WorldAssets {
 // differently). A world_key GET /api/worlds returns that isn't listed here
 // has no known assets yet and is left off the list rather than shown
 // without a portrait. Eleven formation worlds as of 2026-09-20 (witt added
-// once its own package was admitted; its Representative portrait decision,
-// Nikolaus - approved 2026-09-19, "lock it in" - is locked, but per OG-20
-// (worlds/witt/Open_Gaps_Tracking.md) the image file itself is Mark's own
-// to place into GitHub, the same way he did for the other eight, so
-// nikolaus.png does not exist in either portrait folder yet - this entry
-// wires the same path convention every other world uses and resolves as
-// soon as the file lands, matching table.html's own already-wired
-// reference to the same not-yet-present path).
+// once its own package was admitted; its Representative portrait, Nikolaus
+// - approved 2026-09-19, "lock it in" - Mark placed into GitHub as
+// nikolaus.jpg, per site-portrait/witt's own now-CLOSED cross_world entry;
+// copied here to match, since this file previously pointed at nikolaus.png,
+// which was never the real file's own extension).
 export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic', 'don', 'rzg', 'witt'];
 
 // 2026-09-17 dark-mode change order: every accentColor below was lightened
@@ -97,7 +94,7 @@ export const WORLD_ASSETS: Record<string, WorldAssets> = {
   // ground #17130F (clears >=5.3:1) and 5.18:1 vs --color-surface #1E1913 as dark text on top of it
   // as a fill (clears >=5.0:1) - both actually verified here, not assumed from table.html's own
   // prior use of the same hex value.
-  witt: { portraitImage: '/images/portraits/nikolaus.png', accentColor: '#579C40' },
+  witt: { portraitImage: '/images/portraits/nikolaus.jpg', accentColor: '#579C40' },
 };
 
 export interface WorldStarter {
