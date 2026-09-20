@@ -9,6 +9,9 @@ Ministry/Features/Atlas-World-Map/Design/CiC_World_Map_Integration_Assessment_V0
 Ministry/Features/Atlas-World-Map/Integration-Notes.md: Ministry/Technology/CiC_Website_Alexandria_Status_Fix_Thread_Launch_2026-07-20.md
 Ministry/Features/Backend/CiC_Session_Recovery_and_World_Ceiling_Design_V0_1_DRAFT.md: cic-poc/backend/app/transcript_logging.py
 Ministry/Features/Backend/README.md: cic-poc/backend
+Ministry/Features/Conversation-Transparency-Engine/Adjusted-Design.md: engine/m4/reports/grounding-fooling-
+Ministry/Features/Conversation-Transparency-Engine/Adjusted-Design.md: engine/m5/reports/safety-script-run-1..8.json
+Ministry/Features/Conversation-Transparency-Engine/Build-Plan.md: engine/m9/holdings.py
 Ministry/Features/Front-End-Integration-Strategy/Design/CiC_FrontEnd_Brand_Alignment_Review_V0_1.md: Ministry/Operations/CiC_Prototype_Testing_Pilot_Plan_DRAFT_V0_1.md
 Ministry/Features/Front-End-Integration-Strategy/Design/CiC_FrontEnd_Brand_Alignment_Review_V0_1.md: Ministry/Technology/World-Orientation-Map/CiC_World_Map_Interactive_Demo.html
 Ministry/Features/Front-End-Integration-Strategy/Design/CiC_FrontEnd_Brand_Alignment_Review_V0_1.md: cic-poc/frontend/src/components/OnboardingScreen.tsx
@@ -59,7 +62,10 @@ Ministry/Features/Tour-Experience-Module-Phase2/CiC_Tour_Build_Spec_V0_1_DRAFT.m
 Ministry/Features/Tour-Experience-Module-Phase2/CiC_Tour_Experience_Module_Strategy_V0_3.md: cic-poc/backend/data
 Ministry/Features/Tour-Experience-Module-Phase2/CiC_Tour_Experience_Module_Strategy_V0_3.md: worlds/Nicene-Cappadocian
 Ministry/Features/Tour-Experience-Module-Phase2/Integration-Notes.md: cic-poc/backend/app
+Ministry/Features/Website-V2/CiC_Website_V2_Storyboard.md: cic-website/assets/tour-captures/theon-confidence.png
+Ministry/Features/Website-V2/Sandbox/CiC_Website_V2_D0_Inheritance_Note.md: cic-website/tour.html
 Ministry/Features/Website-V2/Sandbox/D1-directions/05-product-led-clarity/README.md: records/worlds.yaml
+Ministry/Features/Website-V2/Sandbox/D2-struggle/05-product-led-clarity-defense.md: cic-website/assets/tour-captures
 Ministry/Technology/table_phase0/Texts_Acquisition_Wantlist.md: cic/records
 Ministry/Technology/table_phase0/Texts_Scrub_alexandria.md: cic/records/alexandria/source/srcALX001
 README.md: records/worlds.yaml

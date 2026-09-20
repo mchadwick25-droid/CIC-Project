@@ -15,6 +15,18 @@ SAFETY_OK = CallOutcome(
     status="ok",
     value={"signal": "NO_SIGNAL", "acute_level": "none", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "high"},
 )
+SAFETY_ACUTE = CallOutcome(
+    status="ok",
+    value={"signal": "ACUTE_DISTRESS", "acute_level": "a1", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "high"},
+)
+SAFETY_HARMFUL = CallOutcome(
+    status="ok",
+    value={"signal": "HARMFUL_DYNAMIC_SIGNAL", "acute_level": "none", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "high"},
+)
+SAFETY_AMBIGUOUS = CallOutcome(
+    status="ok",
+    value={"signal": "AMBIGUOUS_LOW_CONFIDENCE", "acute_level": "none", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "low"},
+)
 
 
 def test_both_ok_routes_normally_not_degraded():
@@ -54,6 +66,55 @@ def test_safety_failure_alone_fails_open_but_still_routes():
     assert result.routing.action == "voice_with_directive"  # reader-based routing still applies
     assert result.degraded is True
     assert result.needs_async_safety_reclassification is True
+
+
+def test_reader_timeout_never_discards_a_successful_acute_classification():
+    """Regression for the 2026-09-19 fix: a reader-call failure must not
+    silently erase a successful ACUTE_DISTRESS finding from the safety call
+    on the same turn. Before the fix, resolve_gate returned
+    voice_pass_through unconditionally whenever the reader failed, so the
+    Representative could answer a real crisis message directly if the
+    unrelated reader call happened to time out."""
+    result = resolve_gate(
+        safety_outcome=SAFETY_ACUTE, reader_outcome=CallOutcome(status="timeout"), pressed={}, anachronistic_term_ids=set(),
+        message="who was Jesus",
+    )
+    assert result.routing.action == "safety_turn"
+    assert result.degraded is True
+    assert result.needs_async_safety_reclassification is False
+
+
+def test_reader_timeout_never_discards_a_successful_harmful_dynamic_classification():
+    result = resolve_gate(
+        safety_outcome=SAFETY_HARMFUL, reader_outcome=CallOutcome(status="parse_failure"), pressed={}, anachronistic_term_ids=set(),
+        message="who was Jesus",
+    )
+    assert result.routing.action == "safety_turn"
+    assert result.degraded is True
+    assert result.needs_async_safety_reclassification is False
+
+
+def test_reader_timeout_still_routes_a_successful_ambiguous_classification():
+    result = resolve_gate(
+        safety_outcome=SAFETY_AMBIGUOUS, reader_outcome=CallOutcome(status="timeout"), pressed={}, anachronistic_term_ids=set(),
+        message="who was Jesus",
+    )
+    assert result.routing.action == "check_in_turn"
+    assert result.degraded is True
+    assert result.needs_async_safety_reclassification is False
+
+
+def test_reader_timeout_with_safety_no_signal_still_falls_to_pass_through():
+    """The companion case: when safety succeeds but has nothing decisive to
+    say (NO_SIGNAL), a reader failure still correctly falls through to
+    pass-through - this is not a blanket "always trust safety" change."""
+    result = resolve_gate(
+        safety_outcome=SAFETY_OK, reader_outcome=CallOutcome(status="timeout"), pressed={}, anachronistic_term_ids=set(),
+        message="who was Jesus",
+    )
+    assert result.routing.action == "voice_pass_through"
+    assert result.degraded is True
+    assert result.needs_async_safety_reclassification is False
 
 
 def test_both_fail_collapses_to_pass_through():

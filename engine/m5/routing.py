@@ -109,16 +109,27 @@ def directive_without_terms(reader: dict, display_terms: list[str]) -> Directive
 
 
 def route(
-    *, safety: dict | None, reader: dict, pressed: dict[str, bool], anachronistic_term_ids: set[str], message: str
+    *, safety: dict | None, reader: dict | None, pressed: dict[str, bool], anachronistic_term_ids: set[str], message: str
 ) -> RoutingDecision:
     """safety=None means the safety call is unavailable this turn (failed/
     timed out) - callers get here via failure.py's fail-open path, never by
     skipping the safety call on purpose.
 
+    reader=None means the reader call failed/timed out but safety alone was
+    decisive (ACUTE_DISTRESS, HARMFUL_DYNAMIC_SIGNAL, or AMBIGUOUS_LOW_CONFIDENCE
+    - failure.py's _SAFETY_DECISIVE_SIGNALS). Safe only because those three
+    branches below return before this function ever dereferences `reader`;
+    every other branch requires a real reader dict and failure.py never calls
+    route() with reader=None unless one of those three signals is already
+    confirmed present.
+
     message is the participant's own text this turn - required, not
     defaulted, so a caller that hasn't been updated fails loudly (a
     TypeError) rather than silently routing every system_nature claim
-    through _plausible_system_nature("") and never trusting it (B-2)."""
+    through _plausible_system_nature("") and never trusting it (B-2). Unused
+    on the reader=None path above, since that path always returns before
+    reaching the message-dependent system_nature branch - still required in
+    the signature so every caller passes a real value uniformly."""
     if safety is not None and safety["signal"] in ACUTE_SIGNALS:
         reason = f"safety signal {safety['signal']}"
         risk_subject = safety.get("risk_subject")

@@ -38,6 +38,7 @@ import sys
 
 from engine.m1.loader import RECORDS_ROOT, load_world_records
 from engine.m1.registry import REPO_ROOT, formation_world_keys, load_registry
+from engine.m1.spoken_fields import PARTICIPANT_FIELDS
 
 CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 APP_WORLDS_TS = REPO_ROOT / "cic-poc" / "frontend" / "src" / "data" / "worlds.ts"
@@ -122,9 +123,15 @@ ACCEPTED_OPEN: dict[str, str] = {
     "figure-dates-keys/ijc": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
     "figure-dates-keys/syr": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
     "figure-dates-keys/witt": "F-04-analogue - all 6 witt figure records key figure.dates as `display` (one-sentence prose covering dates this world's own sources leave contested or partial - e.g. Luther's own record gives no birth date and states his death year only as this world's already-established closing boundary; the Brussels martyrs record gives a burning date corrected from a printed heading's own misprint and states plainly that no birth date or age survives for either man) - none of the six reduce cleanly to born/died/floruit without losing the disclosed uncertainty itself. Found 2026-09-19 during Phase C recon; same disclosed-not-fixed disposition as pahc's, cappadocian's, gallic's, and don's own instances, not a mass rewrite improvised under this step - belongs to a witt build thread.",
-    "app-world-assets/witt": "Phase C recon, 2026-09-19: witt is registered (B-8, 2026-09-19) at state: built without also being frontend-wired - the same in-between window gallic's own B-9 note first named (SS71-89 above). UPDATED, 2026-09-19: the Nikolaus portrait this entry originally named as not-yet-decided is now approved (Mark, 2026-09-19: \"lock it in\" - see Open_Gaps_Tracking.md and Ministry/Features/In-App-Icons-Graphics/Decision-Log.md); the block was the decision, not the asset, and the decision is resolved. Deployment wiring (cic-poc/frontend/src/data/worlds.ts WORLD_ASSETS entry) is the actual remaining work, belonging to this go-live pipeline's own Phase C pass, not a defect to close by waiver.",
-    "app-world-order/witt": "Phase C recon, 2026-09-19: as app-world-assets/witt - the WORLD_ORDER array entry is the same frontend-wiring step, now unblocked on the decision side, belonging to this go-live pipeline's own Phase C pass.",
-    "site-portrait/witt": "Phase C recon, 2026-09-19: as app-world-assets/witt - the cic-website/traditions/lutheran-wittenberg-and-its-congregations.html portrait page needs the same now-approved Representative portrait wired in, belonging to this go-live pipeline's own Phase C pass. witt.yaml's own census_id is already set (unlike gallic's own B-8/B-9 window, which lacked one entirely) - only the wiring itself is outstanding. UPDATED, 2026-09-19 (later same day): the page itself now exists, grounded in this world's own records, quotes independently re-verified - what remains is purely the portrait image FILE (Mark placing Nikolaus_Portrait.png into the repo directly, the same way he did for the other 8 Representatives), not the page or its wiring.",
+    # app-world-assets/witt and app-world-order/witt CLOSED 2026-09-20: both
+    # opened 2026-09-19 for the same frontend-deployment-wiring gap this
+    # comment block described as "the actual remaining work"; closed the
+    # same go-live pipeline's own merge pass once cic-poc/frontend/src/data/
+    # worlds.ts actually got its WORLD_ORDER entry and WORLD_ASSETS entry
+    # (witt's accent color reused from cic-website/table.html's own
+    # already-fixed #579C40, contrast independently recomputed against both
+    # dark-mode thresholds rather than assumed). Not left stale.
+    "site-portrait/witt": "Phase C recon, 2026-09-19: as app-world-assets/witt - the cic-website/traditions/lutheran-wittenberg-and-its-congregations.html portrait page needs the same now-approved Representative portrait wired in, belonging to this go-live pipeline's own Phase C pass. witt.yaml's own census_id is already set (unlike gallic's own B-8/B-9 window, which lacked one entirely) - only the wiring itself is outstanding. UPDATED, 2026-09-19 (later same day): the page itself now exists, grounded in this world's own records, quotes independently re-verified - what remains is purely the portrait image FILE (Mark placing Nikolaus_Portrait.png into the repo directly, the same way he did for the other 8 Representatives), not the page or its wiring. UPDATED, 2026-09-20: cic-poc/frontend/src/data/worlds.ts's own WORLD_ASSETS/WORLD_ORDER entries are now wired (see app-world-assets/witt, CLOSED, above) - this entry stays open for the website's own traditions/lutheran-wittenberg-and-its-congregations.html <img> and both live-serving asset folders, which still resolve to a file that does not exist on disk. Still Mark's own step, not this pipeline's to fabricate.",
     # census-id/witt CLOSED 2026-09-19: opened for the real admitted-but-
     # not-yet-synced gap right after witt's own admission; closed the same
     # day once `python -m engine.m6.cli sync` actually ran (Mark's own
@@ -711,14 +718,10 @@ _BUILD_REF = re.compile(r"\bDoc_\d|\bArtifact-\d|\bBUILD-LOG\b|\bthis build\b|\b
 # attribution scopes itself to build_prompt()'s own field contract:
 # commentary fields are a LEGITIMATE home for build language, and scanning
 # them would bury the real findings.
-_PARTICIPANT_FIELDS = {
-    "figure": ["bridge_line"],
-    "term": ["world_word"],
-    "story": ["tellable_as"],
-    "gravity": ["name"],
-    "force": ["name"],
-    "contested_claim": ["claim"],
-}
+# Relocated to engine/m1/spoken_fields.py (PARTICIPANT_FIELDS) 2026-09-19 -
+# one declared spoken-field registry instead of six/seven independent
+# lists; see that module's own docstring. Same values, same behavior.
+_PARTICIPANT_FIELDS = PARTICIPANT_FIELDS
 
 
 def check_participant_field_leaks(*, records, worlds, **_) -> list[Finding]:

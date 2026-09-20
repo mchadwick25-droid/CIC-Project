@@ -1850,3 +1850,73 @@ confirm no records-level drift, though none was expected from an engine-only cha
 
 **Still open, unchanged:** the Facilitator boundary-disclosure turn type (B-1 item 4); L-1 (fleet-level
 readability-scoring methodology question).
+
+## OG-29. Merge to `main`: routing.py conflict resolved; a self-caused fleet-wide package-staleness defect found and fixed; frontend wiring completed; a pre-existing, unrelated `check_paths` debt disclosed, not fixed
+
+Per Mark's "Let's merge and promote witt to live," merged `origin/main` into `witt-go-live`.
+
+**`engine/m5/routing.py` conflict, resolved by combining both changes.** `origin/main` had independently
+added `reader: dict | None` support to `route()` the same week (2026-09-19, unrelated safety fix: "a reader
+timeout on the same turn a participant discloses real risk must never silently erase that finding"), while
+this branch's own B-2 fix added a required `message: str` parameter — both touched the same signature and
+docstring. Combined signature: `safety`, `reader` (both `dict | None`), `pressed`, `anachronistic_term_ids`,
+`message: str`; combined docstring documents all three conditions. `engine/m5/failure.py`'s own new
+`reader=None` call site (added by main, for the safety-decisive-signal path) was missing `message=message`
+— added. `engine/m5/tests/test_failure.py`'s 4 new reader-timeout tests (added by main) were missing the
+now-required `message=` argument — added to each.
+
+**A self-caused fleet-wide defect, found during post-merge verification, fixed.** `engine.m2.cli restore`
+against the full registry (the same command a real deploy runs, since compiled package bytes are gitignored
+and rebuilt on demand, not committed) found 10 of 12 registered worlds — every currently-admitted world
+except `witt` and the sealed `fix` fixture — refusing to restore: `validation/signoffs.json` mismatched
+each world's own pinned `manifest_hash`. Root cause: OG-25/OG-26's own L-3 fix (`build_signoffs()` no longer
+hardcoding `"This world is state=built"`) is fleet-wide engine code, correctly flagged at the time as such
+("Fleet-wide fix; other worlds' already-built packages are untouched by this entry - their next rebuild
+picks it up") — but that "next rebuild" was never actually run for any world besides witt. Every other
+admitted world's git-committed manifest pin was computed under the old (bugged) compiler behavior, so a
+truly fresh restore — exactly what a real production deploy does — would have failed to load `alx`,
+`cappadocian`, `desert`, `don`, `gallic`, `hal`, `ijc`, `pahc`, `rzg`, and `syr`, breaking the whole
+already-live fleet's own API on its next deploy, independent of whether witt merges at all. Fixed
+mechanically, no content changes: rebuilt and re-pinned all 10 (`engine.m2.cli build <world>` per world,
+`records/worlds/<code>.yaml` updated to the new `location`/`manifest_hash`, the now-superseded manifest
+`git rm`'d per `.gitignore`'s own stated repin-cleanup discipline). `engine.m2.cli restore` against the full
+registry now reports `"pass": true` for all 12 worlds.
+
+**Frontend wiring completed.** `cic-poc/frontend/src/data/worlds.ts` had no `witt` entry in either
+`WORLD_ORDER` or `WORLD_ASSETS` — the gap OG-20 (`worlds/witt/Open_Gaps_Tracking.md`, referenced above)
+already named as the real remaining step once Nikolaus's portrait decision itself was approved. Added both,
+reusing the accent color already fixed in `cic-website/table.html` (`#579C40`) rather than picking a new
+one; contrast independently recomputed (not assumed) against this file's own two dark-mode thresholds:
+5.49:1 vs the dark ground `#17130F` (clears ≥5.3:1), 5.18:1 vs `--color-surface` `#1E1913` as dark text on
+top of it as a fill (clears ≥5.0:1). This closed two now-stale `ACCEPTED_OPEN` waivers in
+`engine/m1/cross_world.py` (`app-world-assets/witt`, `app-world-order/witt`) — removed, per CLAUDE.md's own
+"a stale waiver for something already fixed also fails - remove it." **`site-portrait/witt` stays open**:
+the actual portrait image file (`Nikolaus_Portrait.png`) still does not exist anywhere in the repository —
+per `Nikolaus_Portrait_Prompt.md`'s own disposition, Mark places this file into GitHub directly, the same
+way he did for the other eight Representatives. Not fabricated or substituted here. `cic-website/table.html`
+and `cic-website/traditions/lutheran-wittenberg-and-its-congregations.html` were already correctly wired to
+the same not-yet-present path from earlier session work — confirmed, not re-done.
+
+**`tools/check_paths.py`: 544 unresolved path citations found, disclosed, not fixed.** Run as part of this
+merge's own verification battery (per rzg's own precedent, item 16 of this pipeline's task list: "full test
+battery (pytest, cross_world, check_paths)"). Almost none of this is witt's own or this merge's own doing:
+only 45 of 544 are `worlds/witt/*` documents, and those 45 are pre-existing review-round documents (e.g.
+`witt_Doc01_Review_Round1.md`, `witt_B1a_B1b_Coverage_Check.md`) citing the old `World-Builds/
+Lutheran-Wittenberg/` staging path from before this world had a registry code — stale since the 2026-09-15
+repo-structure-cleanup-phase-2 migration named in the root `CLAUDE.md`, which predates this go-live pipeline
+entirely. The remaining ~499 are `Ministry/`-wide documentation citing paths from further back still (e.g.
+`records/worlds.yaml`, split per-world by the unrelated "Library Access Gate increment 1" commit). Not
+attempted here: no single thread owns this scope, judging 544 citations individually as
+legitimate-historical-reference vs. genuinely-broken is real work, and none of it gates this merge (`
+check_paths.py` is a standalone advisory tool, not wired into `pytest`). Surfaced to Mark alongside L-1 and
+the Facilitator boundary-disclosure turn type as a third item needing direction — likely its own dedicated
+documentation-hygiene thread, not a witt-go-live fix.
+
+Verified: full pytest suite 734/734 passed (up from 691, reflecting main's own independent work merged in);
+`engine.m9.cli check` clean; `engine.m1.cross_world` 0 new defects, every `ACCEPTED_OPEN` waiver live and
+current (confirmed by `test_every_accepted_open_entry_still_describes_a_real_finding`); `engine.m2.cli
+restore` `"pass": true` fleet-wide, all 12 worlds.
+
+**Still open:** the Facilitator boundary-disclosure turn type (B-1 item 4); L-1 (readability-scoring
+methodology); the `check_paths.py` documentation-hygiene backlog (this entry); the `Nikolaus_Portrait.png`
+file itself (Mark's own step, per `site-portrait/witt`, `ACCEPTED_OPEN`).
