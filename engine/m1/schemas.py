@@ -461,7 +461,22 @@ TYPE_PROPERTIES: dict[str, dict] = {
                 "additionalProperties": False,
             },
         },
-        "dates": {"type": "object"},
+        # born/died typed as string, not left to `{"type": "object"}`'s own
+        # implicit anything-goes: cic-website/assets/orientation-render.mjs's
+        # own figureDateSpan() calls .split(" (") on both unconditionally, so
+        # a bare YAML integer (e.g. `died: 1531`, parsed as an int, not a
+        # string) passes this schema silently and then throws at render time
+        # - found live via rzg.figure.zwingli's own `died: 1531` (found and
+        # fixed to `died: "1531"` the same session this constraint was
+        # added), the only fleet-wide instance when checked directly against
+        # every world's own figure records.
+        "dates": {
+            "type": "object",
+            "properties": {
+                "born": {"type": ["string", "null"]},
+                "died": {"type": ["string", "null"]},
+            },
+        },
         "narratable": {"type": "boolean"},
         "bridge_line": {"type": "string"},
     },
