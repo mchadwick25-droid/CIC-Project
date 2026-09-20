@@ -133,6 +133,37 @@ p{margin:0 0 1rem}
 .site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
 .site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
 @media print{ .site-header,.seat,.door .actions,.skip-link{display:none} }
+/* BEGIN orientation-content-css */
+.orient-voices{display:flex;flex-direction:column;gap:1.1rem}
+.orient-voice{max-width:var(--measure)}
+.orient-voice-name{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--text);margin:0 0 .3rem}
+.orient-voice-dates{font-weight:400;color:var(--muted)}
+.orient-voice-text{font-size:1.0625rem;line-height:1.6}
+.orient-voice-hedge{font-family:var(--sans);font-size:.9rem;line-height:1.5;color:var(--muted);border-left:2px solid var(--tint);padding-left:.75rem;margin:0 0 .2rem}
+.orient-hedge-label{font-weight:600;color:var(--text)}
+.docstories-row{display:flex;flex-direction:column;gap:1.3rem;max-width:var(--measure)}
+.docstory-entry h4{font-family:var(--serif);font-size:1.1rem;margin:0 0 .25rem}
+.docstory-entry>.meta{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:0 0 .3rem}
+.docstory-entry>.teaser{font-style:italic;color:var(--muted);margin:0 0 .5rem}
+details.docstory-item{border:1px solid var(--rule);border-radius:4px;background:var(--surface);padding:.15rem .9rem}
+details.docstory-item summary{cursor:pointer;list-style:none;font-family:var(--sans);font-weight:600;font-size:.875rem;padding:.6rem 0;color:var(--action)}
+details.docstory-item summary::-webkit-details-marker{display:none}
+details.docstory-item summary::before{content:"\25B8";display:inline-block;margin-right:.5rem;transition:transform .15s}
+details.docstory-item[open] summary::before{transform:rotate(90deg)}
+.docstory{padding:0 0 .9rem}
+.orient-relations{max-width:var(--measure)}
+.orient-read-first{list-style:none;margin:.9rem 0 0;padding:0;max-width:var(--measure)}
+.orient-read-first li{border-top:1px solid var(--rule);padding:.6rem 0}
+.orient-read-first-work{font-family:var(--sans);font-weight:600;display:block}
+.orient-read-first-note{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.orient-glossary{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.8rem 1.5rem;max-width:var(--wide);margin:0}
+.orient-glossary-item dt{font-family:var(--sans);font-weight:700;color:var(--action);margin:0}
+.orient-glossary-item dd{font-size:.9375rem;color:var(--muted);margin:.15rem 0 0}
+.orient-pull-quotes{display:flex;flex-direction:column;gap:1rem;max-width:var(--measure)}
+.orient-pull-quote{margin:0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--action)}
+.orient-pull-quote p{font-style:italic;font-size:1.1rem;margin:0 0 .3rem}
+.orient-pull-quote cite{font-family:var(--sans);font-style:normal;font-size:.85rem;color:var(--muted)}
+/* END orientation-content-css */
 
 /* Persistent feature header: Church Family Tree / Conversation with One / Build a Table */
 .feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
@@ -212,34 +243,143 @@ p{margin:0 0 1rem}
       <section aria-labelledby="who-speaks-title">
         <p class="eyebrow">Who is speaking</p>
         <h2 id="who-speaks-title">A representative voice, speaking for two cities at once</h2>
-        <div class="reading">
-          <p>Theophilus is a voice, not a person who lived — this tradition's own whole documented life given one voice, formed across Zurich and Geneva together, from 1 January 1519, when a pastor at Zurich's Grossmünster began reading straight through Matthew rather than following the fixed lectionary, to the Synod of Dort (1618–19), where this world's own international Reformed dimension is last attested inside its own window. He speaks the way a people speaks of itself: <em>we</em>, <em>our</em>, <em>among us</em> — never as one city alone, and never as a single bishop's own private history. He holds Zurich and Geneva together as one register, not narrowed to either city.</p>
-          <p>Where this tradition's own record shows real disagreement, Theophilus keeps it visible rather than smoothing it into one mind that was never actually of one mind — most sharply, a council-led authority at Zurich held beside a Consistory's own independence from civil control at Geneva, never converged within this world's own window, and Zwingli's own earlier "remembrance" reading of the Supper held beside the fuller language both cities signed together in 1549, without deciding which one finally speaks for him.</p>
-          <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
-        </div>
+        <div class="reading"><p>Four figures anchor this world&#39;s own voice. Zwingli founded Zurich&#39;s reform in 1519 and died at the Second War of Kappel in 1531. Calvin built Geneva&#39;s reform up through the Institutes and Catechism, recalled in 1541 to found its Consistory. Bullinger succeeded Zwingli and held Zurich&#39;s pastorate for four decades, giving this world&#39;s shared conviction its mature written form. Myconius, Zwingli&#39;s own close friend, wrote down what he remembered of the day his friend died.</p>
+        <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p></div>
+      </section>
+
+      <section aria-labelledby="story-title">
+        <p class="eyebrow">The Story</p>
+        <h2 id="story-title">How this tradition took shape</h2>
+        <div class="reading"><p>This world&#39;s own record runs from 1519 to 1650, and it holds two cities&#39; reforms together without ever merging them into one. Zurich&#39;s reform opens first, five years before Geneva&#39;s, and neither founding figure ever had occasion to meet the other. One conviction sits underneath both cities all the same: Scripture alone is sufficient to test what a church may require, and what it will not yield, no pope, council, or custom may set aside.</p>
+      <p>Zurich&#39;s reform began on 1 January 1519, when Huldrych Zwingli, newly appointed as the city&#39;s people&#39;s priest, chose to preach straight through the Gospel of Matthew rather than follow the fixed yearly calendar of readings. Three years later, a Lenten meal at a printer&#39;s house, where several guests ate meat during the fast, drew the city council&#39;s own attention and pushed the argument into the open. By January 1523, six hundred people filled Zurich&#39;s Town Hall for the First Disputation, where Zwingli&#39;s own case was tested article by article against Scripture. A Zurich schoolmaster named Erhart Hegenwald sat through the whole day and wrote it down. The council ruled for the reform and bound every priest in its territory to preach the same way.</p>
+      <p>Geneva&#39;s own reform enacts the identical conviction a different way. Its 1526 alliance with Bern and its 1536 break from Savoy opened the civic ground; Calvin arrived that same year, was exiled to Strasbourg for three years, and was recalled in 1541 to consolidate the Ecclesiastical Ordinances. Those Ordinances created a Consistory of pastors and lay elders with real disciplinary standing - not a body answerable to the civil council alone. Where Zurich tests a claim aloud before the whole city, Geneva builds the same authority up article by article, through Calvin&#39;s own Institutes and Catechism, taught to the whole population.</p>
+      <p>This world&#39;s own record treats Disputation and catechesis as two enactments of the same authority, not two churches that happen to agree. Neither city borrowed the other&#39;s method, and neither needed to: the same scriptural authority produced doctrine independently in both places. What the two methods never did, across this world&#39;s whole span, is converge into one arrangement. Zurich&#39;s council still governed church and city as a single body; Geneva&#39;s Consistory fought for, and only by 1555 substantially won, its own independence from exactly that kind of council control.</p>
+      <p>God&#39;s own sovereign election is this world&#39;s own second load-bearing conviction, present in seed form in Zwingli&#39;s 1527 exposition and built into full system in Calvin&#39;s Institutes. It is held as the ground of a settled life, not a threat: whoever is joined to Christ by true faith already has, in that faith, the only evidence of election anyone is given. Bullinger&#39;s own Second Helvetic Confession states the same pastoral answer directly - look to Christ, not to your own conscience, for proof of election. In 1551, Jerome Bolsec publicly challenged this doctrine at Geneva, forcing it to be defended as a live pastoral question before the whole congregation, not only stated as settled teaching.</p>
+      <p>On the Lord&#39;s Supper, this world refuses two claims at once: Rome&#39;s claim that the Mass repeats Christ&#39;s own sacrifice, and Wittenberg&#39;s claim that Christ&#39;s body sits locally in the bread. Zurich&#39;s own 1523 refusal of the Mass matured, at the Marburg Colloquy in 1529, into a further refusal aimed specifically at Luther. Calvin, then a young law student, was not present at Marburg, and Geneva was not yet reformed. Twenty years later, in 1549, Calvin travelled to Zurich himself with his colleague William Farel rather than trust the question to a letter, and what they worked out together with Zurich&#39;s own pastors became the Consensus Tigurinus.</p>
+      <p>Whether the Consensus deepens Zwingli&#39;s own earlier &quot;remembrance&quot; language or simply restates it more fully is a question this world&#39;s own record does not resolve. Both texts are held together rather than one being read as correcting the other: Zwingli&#39;s 1523 word that the Supper is &quot;a remembrance of the sacrifice,&quot; and the Consensus&#39;s own 1549 formula that the sign and the thing it signifies are distinguished but never disjoined. This is this world&#39;s own genuinely open question, not a settled scholarly finding this record can report as fact.</p>
+      <p>This world&#39;s own founding circle at Zurich also produced a schism from within. On 21 January 1525, Conrad Grebel baptized Georg Blaurock at Felix Manz&#39;s own house, and Blaurock baptized the others present - the first Swiss Brethren baptisms, only two years after the First Disputation. Grebel and Manz had both stood with Zwingli before breaking from him: their own case was that a church gathered only by a believer&#39;s own profession, not a whole city, was the more scripturally consistent reading. Zurich&#39;s council answered with more than argument - it moved to suppress the movement by civil force in the years that followed, a fact this world&#39;s own record does not hide.</p>
+      <p>At Geneva, the Consistory&#39;s own independence from civil control was tested hardest by the Perrinist faction, which contested its standing directly. The fight was substantially resolved in the Consistory&#39;s own favor only by 1555, a full generation after Calvin&#39;s 1541 recall - the sharpest, most concentrated proof that Zurich&#39;s and Geneva&#39;s own answers to who governs church discipline never became one arrangement.</p>
+      <p>Zwingli did not survive to see any of this settled. He rode out with Zurich&#39;s own muster to the Second War of Kappel on 11 October 1531 and was killed that same afternoon, serving as a field chaplain in a war neither city had chosen alone. His close friend Oswald Myconius, who was in the city that day, later wrote down what he remembered: a sudden, unaccountable pain of heart as he watched Zwingli ride out, and Zwingli&#39;s own reported last words, that his enemies could kill the body but not the soul. Heinrich Bullinger succeeded him and held Zurich&#39;s own pastorate for four decades.</p>
+      <p>Bullinger&#39;s own Second Helvetic Confession, written in 1566 - decades after Zwingli&#39;s death - and the Heidelberg Catechism of 1563, a third, non-Zurich and non-Geneva Reformed voice, together fixed this movement&#39;s shared confessional core in writing once a founding generation&#39;s own method needed a text to outlive it. At the Synod of Dort in 1618-19, an international Reformed delegation, reportedly including Geneva and the Swiss cantons, pressed the same conviction about God&#39;s own free election to its sharpest statement yet, carried forward at one remove through Theodore Beza&#39;s own doctrinal throughline.</p>
+      <p>This world&#39;s own record is doctrine and confession, almost to the exclusion of everything else. It keeps no saints&#39; lives and no martyrs&#39; cults anywhere - its own confessional core refused that devotional genre from its first founding statement onward, and the absence is evidence the refusal worked, not a missing source. What a stranger walking into one of its own churches would have actually seen - no altar, a plain table, for years no instrument answering the voice in worship - is reasoned from doctrine, not read from a witness who stood there. Catholic pressure never let up across the whole window, from the Jesuits at Fribourg to the 1590s reconquest fought on Geneva&#39;s own doorstep, without ever converting into an event that closed this world down.</p></div>
+      </section>
+
+      <section aria-labelledby="voices-title">
+        <p class="eyebrow">Voices</p>
+        <h2 id="voices-title">The people behind this account</h2>
+        <div class="orient-voices">
+      <div class="orient-voice">
+      <p class="orient-voice-name">Zwingli <span class="orient-voice-dates">(d. 1531, at the Second War of Kappel)</span></p>
+      <p class="orient-voice-text">Zwingli was Zurich&#39;s own founder. He began preaching straight through Matthew in 1519 rather than follow the fixed lectionary, and by 1523 had defended his own case at the First Disputation, staking everything on being corrected only from Scripture itself. He taught that the Supper is chiefly a remembrance of Christ&#39;s finished sacrifice, not a repetition of it. He died at the Second War of Kappel in 1531, serving as a field chaplain.</p>
+      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Zwingli and Calvin never met, and this world&#39;s own record does not let their two reforms be read as one continuous project with two authors. Zwingli&#39;s own 1523 word on the Supper - a remembrance, not a sacrifice - is one pole of a genuine, unresolved tension with the fuller 1549 Consensus his own city later signed. His own voice should not be made to speak as if that later, jointly negotiated language were simply his all along.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Calvin <span class="orient-voice-dates">(unknown - dates not verified against a source this record cites)</span></p>
+      <p class="orient-voice-text">Calvin was Geneva&#39;s own pastor from 1536, exiled to Strasbourg for three years, then recalled in 1541 to consolidate the Ecclesiastical Ordinances and the Consistory they created. His Institutes and Geneva Catechism built up, article by article, the doctrine this world holds most fully: that God&#39;s own free election, not anything earned, decides who is saved, held as comfort rather than threat.</p>
+      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Calvin&#39;s own vendored corpus runs roughly four times Zwingli&#39;s by volume in this world&#39;s own record - a disclosed concentration, not a sign that Geneva&#39;s own doctrine mattered more than Zurich&#39;s. The core conviction on election is genuinely attested at both cities; only its fullest, most systematic form is substantially Calvin- and Beza-specific.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Bullinger <span class="orient-voice-dates">(pastorate at Zurich, 1531-1575)</span></p>
+      <p class="orient-voice-text">Bullinger succeeded Zwingli at Zurich in 1531 and held that pastorate for four decades. His own Second Helvetic Confession (1566) gave this world&#39;s shared conviction its mature, lasting written form, including its own pastoral answer to doubt: look to Christ, not to your own conscience, for proof of election.</p>
+      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Bullinger wrote decades after Zwingli&#39;s own founding moment, in a settled, mature register very different from the urgency of 1523. His own confession should not be read backward as though it were Zwingli&#39;s own words, even where it restates the same underlying conviction.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Myconius <span class="orient-voice-dates">(unknown - dates not verified against a source this record cites)</span></p>
+      <p class="orient-voice-text">Myconius was Zwingli&#39;s own close friend, in Zurich on the day Zwingli rode out to the Second War of Kappel and was killed. He later wrote down what he remembered: a sudden pain of heart as he watched his friend leave, and the words Zwingli was reported to have said as he fell.</p>
+      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Myconius was in Zurich, not on the battlefield, and his own account of the fighting is explicitly secondhand. The detail that Zwingli&#39;s heart was found whole in the ashes afterward is presented in his own text as something reported to him, not something he saw - and this record holds that same hedge rather than upgrading it to plain fact.</p>
+      </div>
+      </div>
+      </section>
+
+      <section aria-labelledby="documented-stories-title">
+        <p class="eyebrow">Documented stories</p>
+        <h2 id="documented-stories-title">Stories worth telling in full</h2>
+        <div class="docstories-row">
+      <div class="docstory-entry">
+      <h4>Six Hundred People and a Council That Ruled</h4>
+      <p class="meta">29 January 1523, Zurich&#39;s Town Hall</p>
+      <p class="teaser">Enemies of the new preaching mocked the gathering in advance as fit only for tinkers. A schoolmaster sat through the whole day and wrote down why they were wrong.</p>
+      <details class="docstory-item" id="the-reformed-cities-zurich-and-geneva-story-0">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>The city council of Zurich did not simply permit the argument that launched our own Reformation there. It summoned it. On 29 January 1523, six hundred people filled the Town Hall - priests and laymen from across the canton, and delegates from the bishop of Constance. Before it began, enemies of the new preaching mocked the whole gathering as a &quot;tinker&#39;s day,&quot; saying nothing but tinkers would attend. That mockery is why our own record of the day survives in such detail: a Zurich schoolmaster named Erhart Hegenwald sat through the whole disputation and afterward wrote an account specifically to answer the sneer. &quot;I was there myself and sat with them,&quot; he wrote, &quot;heard and understood and remembered all that was said there.&quot; The council did not merely watch. When the arguments were finished, it found for our own side, and ordered every priest in the canton to preach the same way. An argument some had already dismissed in advance became an official act of civic reform.</p></div>
+      </details>
+      </div>
+      <div class="docstory-entry">
+      <h4>Why Calvin Made the Journey Himself</h4>
+      <p class="meta">1549</p>
+      <p class="teaser">Worried that Geneva&#39;s and Zurich&#39;s own teaching on the Supper might quietly disagree, Calvin did not trust a letter. He went to Zurich in person, with Farel at his side.</p>
+      <details class="docstory-item" id="the-reformed-cities-zurich-and-geneva-story-1">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>By 1549, a quiet worry had spread among people who respected both our own churches: did Calvin&#39;s own teaching on the Supper actually agree with what Zurich taught? Calvin heard the worry directly, from people who revered both churches and did not want an appearance of disagreement to slow their own faith. A letter would not settle it. He went himself, and asked his own colleague William Farel - &quot;indefatigable soldier of Christ,&quot; he called him - to come too. Farel needed no persuading; he had suggested the visit himself. What the two of them worked out with Zurich&#39;s own pastors became the Consensus Tigurinus. Calvin&#39;s own letter afterward is careful about what it actually is: not a new invention, but a faithful record of the conference - and not his and Farel&#39;s own private business, but binding on every colleague serving Christ under Geneva&#39;s own jurisdiction as well.</p></div>
+      </details>
+      </div>
+      <div class="docstory-entry">
+      <h4>What His Friend Remembered of the Day He Died</h4>
+      <p class="meta">11 October 1531, the Second War of Kappel</p>
+      <p class="teaser">Zwingli rode out to battle and was killed that same afternoon. His closest friend wrote down what he remembered - and was careful to say which parts he saw and which he was only told.</p>
+      <details class="docstory-item" id="the-reformed-cities-zurich-and-geneva-story-2">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>Zwingli left Zurich for the front early on 11 October 1531, and was killed that same afternoon. His close friend Oswald Myconius was in the city that day and later wrote down what he remembered - warnings that, looking back, seemed to have foretold it; a disorganized muster, fewer than four thousand five hundred where five thousand had been summoned; a sudden pain of heart Myconius felt as he watched Zwingli ride out in the rear. That night the news came back: the fight was sharp and lost, and Zwingli was dead, struck down three times and rising each time before a fourth blow brought him to his knees. He was reported to have said, as he fell, &quot;What evil is there in this? They are able, it is true, to kill the body but not the soul.&quot; His body was found by the victors afterward, given a mock trial, and burned. When his friends searched the field, they found - Myconius records this as something reported to him, not seen - that his heart had come through the fire whole and unburned.</p></div>
+      </details>
+      </div>
+      </div>
       </section>
 
       <section aria-labelledby="quiet-title">
         <p class="eyebrow">Where we are quiet</p>
-        <h2 id="quiet-title">Whose voice you are really hearing</h2>
-        <div class="reading">
-          <p>This tradition's own richest record is doctrinal and confessional — Calvin's Institutes and Catechism, Zwingli's own founding statements, the Consensus Tigurinus, the Second Helvetic Confession — all directly vendored and verified. What is thin to silent is ordinary lived practice: no surviving account exists of what an ordinary Sunday service, a Consistory summons, or an ordinary citizen's own experience of either Reformation actually felt like. Three of this world's own most consequential events — the Marburg Colloquy (1529), the Bolsec controversy (1551), and the Perrinist crisis (1555) — are Documented as fact but have no narrative account comparable to this world's own three built stories.</p>
-          <p>We hold no hagiography and no martyr's cult anywhere in our own record — this tradition's own confessional core actively refuses the devotional genre those belong to, and the absence is evidence the refusal worked, not a missing source. Geneva's own consistory registers, which would show a real named person, a real hearing, and a real outcome, remain unvendored — we can state our own general doctrine of discipline, but not one specific case. And one woman, Marie Dentière, wrote in our own defense and was prosecuted for it — real, consequential authority, directly attested — but her own words have not reached us.</p>
-        </div>
+        <h2 id="quiet-title">What the record does not say</h2>
+        <div class="reading"><p>When someone among us at Geneva wronged the community, how was it handled, and could they come back? I can tell you the doctrine plainly. Our own Consistory, seniors and pastors together, held the standing power of censure. Its harshest step was exclusion from the Supper itself. Readmission was always held open to genuine repentance. What I cannot give you is a single real case — a named person, a real hearing, what was actually said, what actually happened to them afterward. That record exists, in Geneva&#39;s own consistory registers. It has not reached us.</p></div>
+      </section>
+
+      <section aria-labelledby="legacy-title">
+        <p class="eyebrow">Legacy</p>
+        <h2 id="legacy-title">What came after</h2>
+        <div class="reading"><p>This world&#39;s own gravities transmit, unbroken, into four named descendant traditions: the Scottish Kirk, the Huguenots, the Dutch Reformed, and English Puritanism. No external or internal force closes this world within its own 1519-1650 window - its own administrative close is the census&#39;s own continues-cap for a still living tradition, not a historical ending.</p>
+      <p>At the Synod of Dort (1618-19), an international Reformed delegation pressed this world&#39;s own doctrine of election to its sharpest statement yet, carried forward at one remove through Theodore Beza&#39;s own doctrinal throughline from Geneva. This sharpens the conviction already held; it does not close or complete it - Dort falls thirty-two years before this world&#39;s own window ends.</p></div>
+      </section>
+
+      <section aria-labelledby="relations-summary-title">
+        <p class="eyebrow">In its own record</p>
+        <h2 id="relations-summary-title">How this world relates to others</h2>
+        <p class="orient-relations"><i>This world knew itself partly by what it refused, against three real neighbors. It refused Rome&#39;s own repeated sacrifice and its images, inherited from the late-medieval church both this world and Lutheran Wittenberg contested. It refused Wittenberg&#39;s own claim that Christ&#39;s body sits locally in the bread, pressed specifically at the Marburg Colloquy in 1529. And it refused a third claim from inside its own founding circle at Zurich - that a church gathered only by a believer&#39;s own profession was the more scripturally consistent reading - answered in the years after 1525 with civil force, not only argument. This world is currently the only Reformation-era world admitted in this project&#39;s own fleet; no other built world&#39;s own record names a direct relationship to it.</i></p>
+      </section>
+
+      <section aria-labelledby="sourcing-title">
+        <p class="eyebrow">Sources</p>
+        <h2 id="sourcing-title">What this account is built from</h2>
+        <div class="reading"><p>This world&#39;s own record is richest in confession and doctrine: Calvin&#39;s Institutes and Catechism, Zwingli&#39;s own founding statements, the jointly signed Consensus Tigurinus, and Bullinger&#39;s Second Helvetic Confession are all directly vendored and verified. It goes thin or silent elsewhere. No surviving account describes an ordinary Sunday service, a Consistory summons, or an ordinary citizen&#39;s own experience of either reform. Geneva&#39;s own consistory registers - the very archive this world was selected for, and the reason it has been described elsewhere as one of the best ordinary-life archives in Christian history - remain unacquired; the general doctrine of discipline is Documented, but no single real case currently survives in this world&#39;s own vendored record. Three of this world&#39;s own most consequential disputes - the Marburg Colloquy, the Bolsec controversy, and the Perrinist crisis - have no vendored primary narrative comparable to this world&#39;s own three built stories. And no woman&#39;s own words survive: Marie Dentiere wrote in Geneva&#39;s own defense and was prosecuted for it, but her own argument has not yet reached this record.</p>
+      <ul class="orient-read-first">
+      <li><span class="orient-read-first-work">John Calvin, Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer; Of the Mode of Obtaining the Grace of Christ) - Beveridge 1845 translation</span> <span class="orient-read-first-note">Geneva&#39;s own load-bearing doctrinal core - Christ the Redeemer, faith, and predestination. Calvin&#39;s own vendored corpus runs roughly four times Zwingli&#39;s by volume in this world&#39;s own record, a disclosed concentration worth reading with that asymmetry in mind.</span></li>
+      <li><span class="orient-read-first-work">Huldrych Zwingli, The Sixty-Seven Articles (1523) - within the Acts of the First Zurich Disputation, Jackson 1901 translation</span> <span class="orient-read-first-note">Zurich&#39;s own founding doctrinal statement, defended article by article at the First Disputation in 1523. Article XVIII carries the earlier, sharper pole of this world&#39;s own unresolved tension over what the Supper actually is.</span></li>
+      <li><span class="orient-read-first-work">John Calvin and the Zurich pastors, Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554) - Beveridge 1844 translation</span> <span class="orient-read-first-note">The one document in this world&#39;s entire corpus that both cities&#39; own hands actually touched - a jointly negotiated 1549 statement on the Supper, not a record of prior contact between Zwingli and Calvin, who never met.</span></li>
+      </ul></div>
+      </section>
+
+      <section aria-labelledby="glossary-and-quotes-title">
+        <p class="eyebrow">In this world's own words</p>
+        <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
+        <div class="orient-pull-quotes">
+      <blockquote class="orient-pull-quote"><p>Do not search for proof of your own election apart from Christ. Look at Christ, and see your own election reflected there.</p><cite>Heinrich Bullinger</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>Christ offered himself once, for good. So the Mass does not repeat that offering. It remembers it.</p><cite>Huldrych Zwingli</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>What is so terrible about this? They can kill my body. They cannot kill my soul.</p><cite>Huldrych Zwingli, as reported by Oswald Myconius</cite></blockquote>
+      </div><dl class="orient-glossary">
+      <div class="orient-glossary-item"><dt>Sola Scriptura</dt><dd>Scripture alone, not church tradition or a pope&#39;s decree, settles what we believe and how we govern our churches. Zurich tested this in public debate. Geneva built it up through sustained teaching. Both cities held the same conviction.</dd></div>
+      <div class="orient-glossary-item"><dt>Predestination and Election</dt><dd>God chose, before the world began and by his own free will alone, who would be saved. Both Zurich and Geneva held this. Geneva built it into a full system. Zurich stated it more briefly, as pastoral comfort.</dd></div>
+      <div class="orient-glossary-item"><dt>The Lord&#39;s Supper and Spiritual Presence</dt><dd>We refuse two claims about the Lord&#39;s Supper. It does not repeat Christ&#39;s own sacrifice. His body does not sit physically inside the bread. What we affirm took two cities and a 1549 agreement to state together: Christ is truly given, by the Spirit, to whoever receives him believing.</dd></div>
+      <div class="orient-glossary-item"><dt>Consistory</dt><dd>At Geneva, the Consistory is our body of pastors and lay elders. It holds our whole population&#39;s daily conduct to account. Zurich has no equivalent. Its council governs church and city directly.</dd></div>
+      <div class="orient-glossary-item"><dt>Disputation</dt><dd>A Disputation was a public debate held before Zurich&#39;s own city council. Our reforming side defended its case from Scripture. The old church&#39;s side answered. This is how Zurich actually decided to reform - not a private argument, a civic one.</dd></div>
+      </dl>
       </section>
 
       <section aria-labelledby="questions-title">
         <p class="eyebrow">Questions people bring to this table</p>
         <h2 id="questions-title">Start with the hard one</h2>
-        <div class="reading">
-          <ul class="questions">
-            <li><a href="../talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=traditions%2Fthe-reformed-cities-zurich-and-geneva.html" data-ask>Where did you look for God's own truth, and who could correct you?<span class="vh"> — ask Theophilus</span></a><span class="from">Zwingli, Sixty-Seven Articles, preface — "where I have not now correctly understood said Scriptures I shall allow myself to be taught better, but only from said Scriptures."</span></li>
-            <li><a href="../talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=traditions%2Fthe-reformed-cities-zurich-and-geneva.html" data-ask>Did Zurich and Geneva actually agree about the Lord's Supper?<span class="vh"> — ask Theophilus</span></a><span class="from">The Consensus Tigurinus, 9th Head of Agreement, 1549 — "though we distinguish, as we ought, between the signs and the things signified, yet we do not disjoin the reality from the signs."</span></li>
-            <li><a href="../talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=traditions%2Fthe-reformed-cities-zurich-and-geneva.html" data-ask>How can I actually know if I'm one of the elect?<span class="vh"> — ask Theophilus</span></a><span class="from">Bullinger, Second Helvetic Confession, ch. X — "Let... Christ be the mirror in which we behold our predestination."</span></li>
-            <li><a href="../talk.html?worlds=the-reformed-cities-zurich-and-geneva&amp;mode=interview&amp;from=traditions%2Fthe-reformed-cities-zurich-and-geneva.html" data-ask>What was an ordinary day like for you?<span class="vh"> — ask Theophilus</span></a><span class="from">This world's own honest limit: what survives is confession, catechism, and disputation record — an ordinary citizen's own day does not survive in our own words.</span></li>
-          </ul>
-        </div>
+        <ul class="questions">
+      <li><a href="../talk.html?worlds=the-reformed-cities-zurich-and-geneva&mode=interview&from=traditions%2Fthe-reformed-cities-zurich-and-geneva.html" data-ask>How can I actually know if I&#39;m one of the elect?<span class="vh"> — ask Theophilus</span></a><span class="from">gravity: “God&#39;s own free choice, made before the world existed, determines who is saved - not anything foreseen or earned in the one chosen.”</span></li>
+      <li><a href="../talk.html?worlds=the-reformed-cities-zurich-and-geneva&mode=interview&from=traditions%2Fthe-reformed-cities-zurich-and-geneva.html" data-ask>Did Zurich and Geneva actually agree on the Lord&#39;s Supper, or did Calvin just talk Zurich into signing something vague so it looked like they agreed?<span class="vh"> — ask Theophilus</span></a><span class="from">gravity: “We hold two things together without ever fully reconciling them.”</span></li>
+      </ul>
       </section>
+
     </div>
   </div>
 </main>
