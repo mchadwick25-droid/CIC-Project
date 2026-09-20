@@ -1,4 +1,6 @@
-"""Retrieval reach benchmark - 60 participant questions, ten per world.
+"""Retrieval reach benchmark - 118 participant questions across ten worlds
+(the original six carry ten each; cappadocian/don/gallic/rzg carry 14-15,
+added Build-Plan.md Stage 2e, see the history entry below).
 
 WRITTEN BEFORE THE RECORDS IT MEASURES. The questions in bench/ were
 composed on 2026-08-27 from each world's own subject matter, and locked,
@@ -8,9 +10,9 @@ retrieval vocabulary, so anyone who writes a hint after seeing a question
 fail can make that question pass without retrieval getting better. See
 cic/corpus-map/RETRIEVAL-HINTS.md, rule 2.
 
-Reports, per world: total ground records over the ten questions, the
-average, how many canon cells were matched, how many questions returned
-an ENTIRELY EMPTY ground, and how many quote records surfaced.
+Reports, per world: total ground records over that world's own questions,
+the average, how many canon cells were matched, how many questions
+returned an ENTIRELY EMPTY ground, and how many quote records surfaced.
 
 Baseline on the day it was written (entity routing in, no quote hints):
     214 ground / 3.6 avg / 19 cells / 11 empty / 25 quotes
@@ -69,6 +71,43 @@ it stranded; putting it in a canon question - F3-E, "What did your
 neighbours say about you - what were you accused of?" - made it a word
 the router trusts on its own.
 
+Build-Plan.md STAGE 2E (2026-09-20): the fleet's four remaining worlds -
+cappadocian, don, gallic, rzg - had no bench file at all, so this
+instrument covered six of ten worlds and Stage 4c's own Done criterion
+("bench on ten worlds") could not be measured. Wrote bench/{cappadocian,
+don,gallic,rzg}.json (14-15 questions each) from each world's own
+doorway_description/thinness_statement in records/worlds/<code>.yaml -
+not from its compiled records or any existing retrieval.retrieve_when
+hint, per this file's own rule 2 discipline above. Every draft question
+was run once, unmodified, against that world's real compiled package;
+four came back with an EMPTY ground (cappadocian's "What was a household
+like in your congregation?", gallic's "What was Marseilles like?", and
+two of rzg's) and were rephrased plainer and re-run before locking - the
+same "write it, measure it" order rule 2 asks of a hint, applied here to
+a question instead. Added this file's own world list (six -> ten); no
+retrieval code changed. Locked result, all ten worlds, zero empty:
+
+    world        qs  ground   avg  cells  empty  quotes
+    alx          10      77   7.7     10      0      15
+    cappadocian  15      40   2.7      9      0      12
+    desert       10      88   8.8     12      0      20
+    don          15     107   7.1     24      0       5
+    gallic       14      93   6.6     28      0       1
+    hal          10      73   7.3      9      0      14
+    ijc          10      76   7.6     11      0      15
+    pahc         10      65   6.5     13      0      12
+    rzg          14      97   6.9     14      0      11
+    syr          10      97   9.7     14      0      20
+    TOTAL       118     813   6.9    144      0     125
+
+cappadocian's low average (2.7) and gallic's near-absence of quotes (1)
+are read here as honest measurements of where each world's own coverage/
+canon-cell seeding currently sits, not as defects this stage fixes - the
+six-world history above shows that kind of gap closing through many
+separate hint/canon passes over real calendar time, which is Stage 4's
+(and beyond) work, not this one's. Nothing here should read as "ready for
+the same tuning six had" without that same measured effort.
+
 Run: python3 engine/m4/reports/retrieval_bench.py
 """
 import json, sys, pathlib
@@ -80,7 +119,7 @@ cq = {r:v for r,v in fleet.items() if v.get("record_type")=="canon_question"}
 S = pathlib.Path(__file__).resolve().parent / "bench"
 tot_g=tot_q=tot_empty=tot_cells=0
 per=[]
-for w in ["alx","desert","hal","ijc","pahc","syr"]:
+for w in ["alx","cappadocian","desert","don","gallic","hal","ijc","pahc","rzg","syr"]:
     pkgs=sorted(pathlib.Path(f"packages/{w}").iterdir())
     C=pkgs[-1]/"compiled"
     recs=ev.repository_records_by_id(json.loads((C/"repository.json").read_text()))
