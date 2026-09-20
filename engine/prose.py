@@ -29,6 +29,8 @@ it actually gates. See their comment below.
 """
 import re
 
+from engine.m1.spoken_fields import fields_with_role
+
 
 # Keys whose string values are structure, not prose. all_text() is
 # deliberately generic - it walks every string in a record so it works across
@@ -291,6 +293,53 @@ def overlap_coefficient(query_words: set[str], record: dict) -> float:
         return 0.0
     shared = query_words & words
     return len(shared) / min(len(query_words), len(words))
+
+
+# Relocated from engine.m2.builders._retrieval_words (Build-Plan.md Stage
+# 4c, part 2) so engine.m4.evidence can score against the identical
+# participant-facing word set engine.m2.builders compiles into
+# compiled/retrieval.json, without engine/m4/ and engine/m2/ each keeping
+# their own copy to drift apart - the same reason short_head/
+# FALLBACK_EXCLUDED_KEYS/NON_PROSE_KEYS already made that move. Narrower
+# than all_text() on purpose: scoped to engine.m1.spoken_fields's own
+# registry (voice-diet/evidence-head/participant-label roles only - never
+# "instruction" scaffolding, which is never a claim about the world) and
+# excludes FALLBACK_EXCLUDED_KEYS/NON_PROSE_KEYS on top, truncating
+# work/locus through short_head() first - see engine.m2.builders'
+# build_retrieval_json for the two real leaks (a quote's own dotted
+# source_id, a source's own vendored-filename apparatus) measured before
+# both exclusions were combined here.
+_RETRIEVAL_ROLES = ("voice-diet", "evidence-head", "participant-label")
+_EXCLUDED_RETRIEVAL_KEYS = FALLBACK_EXCLUDED_KEYS | NON_PROSE_KEYS
+_TRUNCATED_RETRIEVAL_KEYS = {"work", "locus"}
+
+
+def retrieval_words(record: dict) -> list[str]:
+    """A record's own retrieval-safe word set - what compiled/retrieval.json
+    caches per record at build time, and what engine.m4.evidence's Stage B2
+    scores live against for a cell match whose own coverage has nothing at
+    all for some record type (see that module's own comment on why a
+    whole-world scan needs this narrower net rather than all_text's wider
+    one)."""
+    parts: list[str] = []
+
+    def walk(value, key=None):
+        if key in _EXCLUDED_RETRIEVAL_KEYS:
+            return
+        if isinstance(value, str):
+            parts.append(short_head(value) if key in _TRUNCATED_RETRIEVAL_KEYS else value)
+        elif isinstance(value, dict):
+            for k, v in value.items():
+                walk(v, k)
+        elif isinstance(value, list):
+            for item in value:
+                walk(item, key)
+
+    for field in fields_with_role(record.get("record_type"), *_RETRIEVAL_ROLES):
+        if field in record:
+            walk(record[field], field)
+
+    return sorted(content_words(" ".join(parts)))
 
 # "one" deliberately excluded - overwhelmingly used as a pronoun/article
 # ("the one asking", "one thing") rather than a quantity, which made it the
