@@ -441,3 +441,400 @@ Stated fairly: the wording is ported verbatim from the approved Permanent Prompt
 3. A further independent re-confirmation of (1) and (2). This pass cannot close what it is reporting.
 
 H-1 additionally needs the project-lead reconciliation it asked for, and B-2 remains open and untouched.
+
+---
+
+## Second re-confirmation pass, 2026-09-19 — commit `8307d8da` (B-1 sixth location; H-1 reconciliation)
+
+**Reviewer context:** cold and independent. No memory of either fixing thread, no access to their reasoning. Nothing in `8307d8da`'s commit message, in `OG-24`, or in either record's own CORRECTION note was accepted on its word — every claim below was re-derived from the on-disk artifacts in their current state, every record read in full rather than from a diff, every gate and check re-run by me. Nothing was fixed, edited or committed by this pass; `git status` is clean at `8307d8da` and the one scratch package I built to test byte-identity was removed.
+
+**Under re-confirmation:** commit `8307d8da` on `witt-go-live`, against (1) the three items in this file's own "What would close B-1," and (2) finding H-1's three "Required to close" items.
+
+---
+
+# Verdicts
+
+## B-1 (the sixth location) — **RESOLVED** at the record and runtime layer
+
+## H-1 (the reconciliation) — **NOT RESOLVED**
+
+Stated separately because they fail for different reasons, and because B-1's resolution is real and should be credited as such. B-1's *finding* should nonetheless not be marked closed while three uncorrected upstream artifacts still carry the defect verbatim — see N-2 and N-3, which are the actual root cause and a live re-infection vector, and which neither fix commit nor `OG-24` names.
+
+---
+
+## 1. B-1 — verified fixed, in the current files
+
+**The sixth location is closed.** `records/witt/doctrinal_witness/witt.dw.what-we-have-never-settled.md`, read in full on disk:
+
+| Line | Field | Current text |
+|---|---|---|
+| 43 | `retrieval.do_not_retrieve_when[0]` | "...our record states their **existence only, never their own argument or their own wording**, and this record does not extend past that limit" |
+| 83 | `tensions[1]` | "the 1525 and 1543 material is disclosed at **existence only**, per this world's own standing discipline; this record does not go further into either text's own argument or wording than our library allows" |
+| 98–100 | body cross-reference | "carried at exactly the **existence-only** register witt.core.witt's own .thinness and .cautions fields **now fix** (corrected 2026-09-19...)" |
+
+The third was the false cross-reference. It is now true: `.thinness` (lines 84–88) reads "Both are real, part of our own history, never denied — but neither one's own argument is ours to lay out, even as we speak plainly to the fact that both exist," and `.cautions` (lines 93–94) reads "we hold only their documented existence, never their own argument or their own wording." The note's claim matches what those two fields now say.
+
+**No field anywhere in `records/witt/` still licenses stating the 1543 content.** I did not rely on the brief's suggested string list. I parsed the YAML frontmatter of every record in `records/witt/` and walked every string value recursively, printing every field mentioning `1525|1543|peasant|Jews|Juden` — 74 fields across 30 records. Every one is either existence-only, a wording/language bar, a provenance disclosure, or unrelated (hymnal prefaces, Turk lists, the 1522 `insurrection` term, quote line-offsets). Nothing licenses content, measures, or argument. I then grepped the same tree for the review's own vocabulary (`documented content`, `existence and content`, `seven measures`, `seven recommended`, `record is silent`, `record says nothing`, `we add nothing`, `what it says`) and checked every hit's context: all are either unrelated (the door-posting "says nothing of a door"), or CORRECTION notes in record *bodies* quoting the old text for disclosure.
+
+**The runtime surface is entirely clean — verified directly, not inferred.** `packages/witt/2026-09-19T23-30-27Z/compiled/` returns **zero hits** for any of that vocabulary. I loaded `compiled/repository.json` (the record store the engine actually loads) and confirmed it carries frontmatter only — keys for the dw record are `canon_cells, confidence, id, positions, record_type, register, relations, retrieval, schema_version, sources, status, tensions, text, world_id`, with **no** `prose`/`body`. So the CORRECTION notes are not in the runtime store, are not in `all_text()`, and are not in `_fallback_search_text()`. `json.dumps(repository.json).count()` is **0** for each of `seven measures`, `seven recommended`, `documented content`, `record is silent`, `existence and content`. The second-order path the previous pass traced (`tensions` reaching `prose.all_text()` and the grounding net's cited-side corpus) is closed, because `tensions[1]` itself is corrected.
+
+**The `thin_topics` rider is a bar, not a licence.** Jews/1543 (lines 139–141): "its own argument is not ours to lay out, not even the measures it recommended, never its own wording." This is the string `engine/m4/evidence.py` `thin_topic_riders()` injects verbatim when a participant types "Jews" or "1543".
+
+**B-1 item 4 is now registered.** `OG-24` (`worlds/witt/Open_Gaps_Tracking.md` lines 1268–1364) carries the Facilitator boundary-disclosure turn-type gap as open item 1. B-1 item 4's condition was "an `Open_Gaps_Tracking.md` entry **or** an `ACCEPTED_OPEN` waiver"; the entry exists. I re-read `engine/m4/facilitator_turns.py`: the gap itself is unchanged — still no boundary-disclosure turn — which is what `OG-24` says.
+
+So all three items in this file's "What would close B-1" are met: (1) fixed and rebuilt, (2) registered, (3) this pass.
+
+## 2. Package and gates — re-derived, not read from the commit
+
+- `records/worlds/witt.yaml` pins `packages/witt/2026-09-19T23-30-27Z`, `manifest_hash: sha256:5007ea31…34be`. I recomputed it with `engine.m2.manifest.manifest_hash` against the pinned manifest: **exact match**.
+- `diff -rq records/witt/ packages/witt/2026-09-19T23-30-27Z/records/` → **no differences**.
+- I rebuilt from scratch (`python -m engine.m2.cli build witt`) and compared the new package to the pinned one file by file. After normalising only `package_id`, the 40-hex commit stamp and ISO timestamps, **every file is byte-identical**: `compiled/prompt.txt`, `capsule.md`, all `compiled/chunks/*` and `records/*` are identical even before normalising. The manifest differs only in the per-file hashes of the files that embed the package id. So the pinned package is a faithful compile of the post-`8307d8da` records. (`manifest.json` still stamps `records_commit: 5a0b5cdf…` — its own parent — which is the fleet's standing build-time-HEAD pattern the previous pass already noted, not a content problem. I then deleted my scratch build.)
+- `packages/witt/2026-09-19T23-30-27Z/validation/gates-report.json`: `overall_pass: true`, **19/19 gates pass, 0 findings** in every one.
+- `python3 -m engine.m9.cli check` → "library access gate: clean - every finding is waived, every waiver is live and current", exit 0.
+- `python3 -m engine.m1.cross_world` → "0 new defect(s), 23 accepted-open, 88 observation(s)", exit 0.
+- `python3 -m pytest -q` → **678 passed**, exit 0. (215s. The commit's "678/678" is exact.)
+
+## 3. B-2 — confirmed untouched
+
+`git diff 157c2269 HEAD -- engine/` is **empty (0 lines)**. The complete `git diff --name-status 157c2269 HEAD` is nine paths: three witt record files, `records/worlds/witt.yaml`, `Open_Gaps_Tracking.md`, this review file, the Permanent Prompt, and two package manifests. No engine file was touched by either fix commit. The project lead's "hold off on B-2" held.
+
+## 4. Word budget and readability for `witt.voice.craft` — recomputed
+
+Computed directly from the parsed frontmatter, mirroring `gate_voice_craft_prompt_budget`'s own formula (`identity + guard + flavor_notes[].note + characteristic_concerns[]`) and `gate_readability`'s field list with `MIN_WORDS_FOR_READABILITY_CHECK = 12`:
+
+**1457 / 1500 words.** Worst graded field `characteristic_concerns[2]` at **FK 9.74**; next `characteristic_concerns[8]` 9.36, `flavor_notes[disagreement]` 9.32, `flavor_notes[quotation]` 9.32, `identity` 9.26, `guard` 9.19. **No field over FK 10.** The commit's "1457/1500, worst field FK 9.74" is exactly right. Against the previous pass's numbers, the reframe cost 21 words (1436 → 1457), moved `guard` 9.01 → 9.19 and `honest-limits` 6.78 → 7.25. No regression in this record. See N-4 for the field the commit did not measure.
+
+## 5. H-1 — why it is NOT RESOLVED
+
+The substantive core **is** achieved, and I want that on the record: the three mutually incompatible instructions H-1 named are now one. Instruction 2 ("existence and content") is gone everywhere. Instruction 1's blanket-silence pole is reframed. Instruction 3 (`witt.force.absent-inputs-1525-and-1555.description`: "the world's boundary against the peasants is carried by the Facilitator apparatus as disclosure, never as Representative content") is compatible with the reframe, under Doc_10 §3 State 3's approved split — existence to the Representative, content to the Facilitator. The reframe was a project-lead decision in an always-ask category, and it was applied to `guard`, the `honest-limits` flavor_note, `.thin_topics[peasants]` and Permanent Prompt ¶31 as a named change order. `.thinness` and `.cautions` were genuinely already correct and genuinely were not touched (I diffed `5a0b5cdf..8307d8da` to confirm).
+
+It still does not close, for four reasons.
+
+**H-1.1 — H-1's third close condition is simply undone.** H-1's "Required to close" reads: "Reconcile the three instructions to one, at the project-lead level… Restore explicit scoping in the `guard` for 1525, whatever the ruling. **Re-run the 1525 probe and require that the turn not consist of refusal-narration.**" The first two are done. The third is not. `engine/m4/reports/` still holds exactly two witt reports, both from before the review (`live-turn-report-witt.json`, `live-table-report-witt-rzg-2026-09-19.json`, last touched by commits `03cd0b30`/`8293c0a8`); `git log 157c2269..HEAD -- engine/m4/reports/` is empty. The reframed wording has never been exercised against the voice. This one is **not blocked by B-2** — `message-3`, the 1525 probe, routed correctly to `voice_with_directive` on the first try; only the 1543 probe is misrouted. So the one probe H-1 asks for is available and was not run. H-1 explicitly upgraded the narrated-refusal defect "from a named concern to observed behaviour," and the fix to the instruction that produced it has not been tested against the behaviour.
+
+**H-1.2 — a fourth location still carries the blanket-absence claim the project lead ruled against, and it is in the shipping prompt.** `records/witt/demonstration/witt.demo.record-thinnest.md`, `exchange[1].text`, lines 45–50:
+
+> "And two real events **fall outside our record entirely rather than merely thinly inside it**: the great rising of the common people against their lords in 1525, **which our record does not narrate at any remove worth trusting**; and the later legal peace…"
+
+This compiles verbatim into `packages/witt/2026-09-19T23-30-27Z/compiled/prompt.txt` **line 750**, under `## Demonstration (cite as [[witt.demo.record-thinnest]])` — a model-facing few-shot exemplar of how to answer a thinness question, present in the context on every turn.
+
+It fails the project lead's own stated test. The reconciliation's reason, as both CORRECTION notes record it, is that a blanket silence claim is "factually inaccurate against `witt.force.absent-inputs-1525-and-1555.md`'s own real, tertiary-sourced, undocumented Layer-1 characterization." That record's `description` tags that characterization **"Widely Accepted as to content and timing, Dominant Modern Reconstruction for Blickle's frame"** — Widely Accepted being the *top* tier of this project's own five-level vocabulary. "Does not narrate at any remove worth trusting" contradicts a Widely Accepted tag directly, and "fall outside our record entirely" is a stronger absence claim than the "our record is silent" sentence that was just retired from four other fields.
+
+Note also that this demonstration goes further than the honest_limit record on the same cell: `witt.limit.record-thinnest`'s `statement` (prompt line 602) names three thin places and does not mention 1525 at all. The demonstration adds the claim on its own.
+
+The commit message asserts the reframe was "Applied everywhere the inaccurate claim appeared, **not only where the review found it**," and `OG-24` line 1331 repeats it. `OG-24`'s narrower wording ("every location carrying the 'silent'/'says nothing' claim") survives literally, since this record uses neither phrase. The broader claim does not.
+
+**H-1.3 — the reframe introduced a readability regression in the one field the engine injects on the trigger, and nothing measured it.** `witt.core.witt.thin_topics[peasants/1525]`, before and after, computed with `engine.m1.fk.fk_grade`:
+
+| | words | FK grade |
+|---|---|---|
+| before (`"…our record is silent, and we do not fill it ourselves. Its existence is still part of our own history, not something we pretend away."`) | 38 (2 sentences) | **8.53** |
+| after (`"Our founder's 1525 writing against the great rising of the common people against their lords is real, and part of our own history, and we do not pretend otherwise -- but its own argument is not ours to lay out, never its own wording."`) | 44 (**1 sentence**) | **17.09** |
+
+CLAUDE.md's bar is FK grade 8–10 with "nothing nested or running past ~25 words." The old sentence sat inside it; the new one is a single 44-word compound at grade 17. This string is injected verbatim as THIN GROUND whenever a participant types "peasants", "1525", "peasants' war", "rebellion", "uprising" or "common man". It is not caught by anything: `gate_readability` covers `term`/`honest_limit`/`quote`/`voice_craft` only, and `world_core` — the previous pass's own observation — is the one compiled record type no gate grades. The commit's verification line measured `voice_craft` only. For context, the current `world_core` compiled fields are `.thinness` FK 17.67, `.cautions` 28.04, `thin_topics[Jews]` 17.12 — so the reframe brought 1525 into *shape* parity with 1543 by bringing it down to 1543's readability level, rather than the reverse. This is a real hit on the second of this project's two governing priorities, introduced by this commit, and it is the kind of thing that only shows up if someone measures.
+
+**H-1.4 — the new `honest-limits` 1525 sentence attaches its bar to the wrong noun.** `records/witt/voice_craft/witt.voice.craft.md` line 26, compiled at `prompt.txt` **line 53**:
+
+> "**Of the 1525 rising against the lords, our founder wrote against it, and it is real; we state that it exists, never its own argument or its own words.**"
+
+The grammatical subject and the antecedent of every subsequent "it"/"its" is *the rising*, not the tract. A rising has no "own argument" or "own words." As compiled, this sentence does not state the bar it exists to state — the thing whose argument must not be laid out is the tract, and the tract is present here only as the object of a subordinate clause. Compare the parallel 1543 sentence in the same note, which is clean ("Our founder's 1543 treatise against the Jews is real too; we state that it exists…"), and `thin_topics[peasants]`, which is also clean ("Our founder's 1525 **writing** against the great rising… its own argument is not ours to lay out"). In practice the model has two unambiguous statements of the same bar elsewhere in the prompt, so I do not read this as a live fabrication licence — but it is an imprecision introduced by this commit in the one kind of field whose whole job is to state a boundary exactly, and the pre-fix sentence, whatever else was wrong with it, was unambiguous. "Precise language beats impressive language" is the project's own rule, and this is a place where the precision was lost in the edit.
+
+---
+
+## 6. New findings — not named by either prior pass
+
+**N-1. `worlds/witt/witt_World_Profile.md` §8 still carries the full B-1 reversed formula, twice, and it is the named upstream source of the fields that were fixed. This is the root cause, and it is untouched.**
+
+Line 689, *Ecological basis*: "This is a **binding disclosure**, carried by the Facilitator apparatus rather than smoothed into an undifferentiated account of the founder's later career; **the Representative must be able to acknowledge both texts' existence and, for the 1543 treatise, its documented seven-point programme**, from the secondary characterization this construction has in hand." (Those two clauses contradict each other inside one sentence — Facilitator-carried, *and* the Representative must be able to state the programme. That internal contradiction is where the whole defect starts.)
+
+Line 691, *How the Representative handles it*: "…in 1543 he wrote a treatise against the Jews **whose actual recommendations we can state; we speak to their existence and their documented content plainly when asked**, rather than passing over them in silence…"
+
+Why this matters and is not a documentation quibble:
+- `records/witt/world_core/witt.core.witt.md`'s own body note (line 164) names this document as the source of the fixed fields: "*Section 8 (Honest Limits, all six domains carried into `.thinness` and, split by topic, into `.thin_topics`)*."
+- `witt_Doc10_Review_Round1.md` §4 traced the first occurrence of this defect to exactly this line: "*This is adapted closely and accurately from World Profile §8, which reads (line 691)…*"
+- The World Profile was approved **after** Doc_07 and Doc_08 (`OG-13` sits between `OG-12`/Doc_08 and `OG-14`/Doc_09). So the most recent approved statement of "How the Representative handles it" is still the reversed one, and it post-dates the Standing determination it contradicts.
+- `witt_Doc10_Review_Round1.md`'s own recommendation anticipated this: option (b) required logging the resolution "back into Doc_07 §9/§12 and Doc_08 §11, which currently stand uncorrected." Option (a) was taken, but the symmetric obligation — correcting the documents that state the *opposite* direction — was never discharged.
+
+B-1 has now recurred **twice** from this single uncorrected paragraph: once into the Doc_10 prompt draft (caught at Doc_10 Round 1, corrected in the prompt only), and once into the compiled records (caught at this go-live review). CLAUDE.md's "find and fix the root cause, not the symptom" and "no fix on a fix" both point here. Nothing in `OG-24` mentions the World Profile.
+
+`worlds/witt/witt_Doc_02_Source_Ecology.md` §12.3 (line 269) is the same class, one level further back: "A Representative for this world **must be able to acknowledge this treatise's existence and content when asked**, from this secondary characterization, and must never be built so as to smooth it into 'Luther's later career.'" This one is at least arguably discharged by Doc_07 §9's later restatement (content → Facilitator), but it carries no supersession note, and combined with the still-absent Facilitator turn type it means this build's own binding requirement is now satisfiable by **neither** party. `OG-24` registers the turn-type gap; it does not register that the requirement itself now has no owner.
+
+**N-2. `worlds/witt/scripts/wb_witt_s21.py` — the generator that writes `records/witt/world_core/` — still contains all four pre-fix strings verbatim. Re-running it restores B-1 in full.**
+
+The script's own docstring: "*Converts this world's completed Phase A documents… into WRS records under `records/witt/{source,world_core}/`*", and it writes with `path.write_text(...)` at line 795. Current contents:
+
+- line 670–671 (`.thinness`): "*Jews **whose seven recommended measures we can state plainly when asked** -- we speak **to both their existence and their documented content**, rather than passing over them in silence*"
+- line 686 (`.cautions`): "*where we must speak of 1525 or 1543 we hold only their documented **existence and content**, never their own wording*"
+- line 723 (`.thin_topics` peasants/1525): "*our **record is silent, and we do not fill it ourselves**. Its existence is still part of our own history…*" — the exact sentence the project lead just ruled against
+- line 733 (`.thin_topics` Jews/1543): "*its own argument is not ours to lay out; **we can state the seven measures it recommended**, never its own wording*" — the original B-1 reversed formula, unchanged
+
+Nothing runs this script today, so it is not a runtime defect. It is a loaded re-infection vector for a BLOCKING finding, sitting one command away, in a world that is already `admitted` with live API access. A scripts directory is the fleet pattern (`worlds/{cappadocian,don,gallic,rzg,witt}/scripts`), so the *existence* of a generator is not drift; the *content* is, because it is the only remaining copy of the exact instruction this review ruled unfulfillable.
+
+**N-3. The dw record's new CORRECTION note states its own history incorrectly.** `records/witt/doctrinal_witness/witt.dw.what-we-have-never-settled.md` lines 108–110: "*this body note claimed witt.core.witt's own .thinness/.cautions fields "fix" that same existence-and-content register, **which was already false by the time this record was first written this way** relative to the corrected world_core fields.*" It was not. I checked `git show 157c2269:` — at the time the note was written, `.thinness` and `.cautions` did say "existence and documented content", so the cross-reference was accurate then and became false only at `5a0b5cdf`, which is exactly what the previous pass reported ("*the identical defect class the fix did correct in `world_core`'s own `LIVING_TRADITIONS` note, left uncorrected one record over*"). The trailing qualifier does not rescue the sentence. Small, but it is a factual claim inside a note whose only purpose is accurate disclosure.
+
+**N-4. Both fix commits added review narration to canonical `records/` files, which CLAUDE.md names as corruption to remove, not add to.** `8307d8da` added ~45 lines of CORRECTION prose across `witt.voice.craft.md` (lines 247–262), `witt.core.witt.md` (lines 248–258) and the dw record (lines 102–113); `5a0b5cdf` added two more. CLAUDE.md: "*`records/`… contain only what runs the program or constitutes the finished record — no notes, commentary, change history, review discussion, or process narration… If you find commentary, changelog cruft, or leftover process notes in a live/canonical file, treat that as corruption: remove it, don't add to it.*" Finding L-4 already flagged the pre-existing instance of this in the same file. Mitigating: bodies are not in `repository.json`, so there is no runtime effect, and the disclosure itself is valuable — but `OG-24` now carries the same reasoning in its correct home, so the record-body copies are duplicative of correctly-placed material. Also unchanged and still false on its face: `witt.voice.craft.md` lines 121–124, "*this world's store holds zero quote records and zero doctrinal_witness records (records/witt/quote/ and records/witt/doctrinal_witness/ do not exist, confirmed by direct search)*" — there are 7 and 14. That is L-4's own example, still open.
+
+**N-5. The repin left a tracked orphan manifest.** `git ls-files packages/witt/` shows three manifests; the registry pins one. `5a0b5cdf` did `git rm` its predecessor (git records it as a rename, `19-24-16Z` → `23-00-26Z`); `8307d8da` added `23-30-27Z` without removing `23-00-26Z`. `.gitignore`'s own stated discipline: "*after a repin, `git rm` the manifest the pin left behind*" — a rule written in response to a 181-orphan accumulation found in the 2026-08-28 foundation audit. Trivial to fix, non-urgent, listed for completeness.
+
+**N-6 (observation, not a finding). The reframe is now formulaic across six compiled surfaces.** "not ours to lay out" appears three times in 63 words inside `guard` alone, and again in `.thinness`, both `thin_topics` entries, the `honest-limits` note, the dw `do_not_retrieve_when`, and ¶31. `guard`'s topic sentence — "Two parts of our history are real but not ours to lay out" — also overstates, since the *parts* are ours; only their arguments are off-limits, which the next two sentences then say correctly. Porting the approved ¶31 wording verbatim was the right call on fidelity grounds and I would not trade that away; but the repetition is the kind of thing CLAUDE.md's "distinctive" leg and its "no AI tells" bar are about, and it is worth a pass by whoever next touches these fields.
+
+---
+
+## 7. `OG-24` — checked line by line against the files
+
+Accurate, and unusually so. Every verifiable claim in it holds: the five-field/`5a0b5cdf` account; the sixth location and the three spots inside it; the package lineage including that `2026-09-19T23-19-35Z` was removed and never committed (confirmed — three package directories on disk, three tracked manifests, none of them that one); "`.thinness` and `.cautions` were already correctly framed… and needed no change" (confirmed by diff); all 19 gates, `m9`, `cross_world`, the 1457/1500 budget and FK 9.74, and `git diff 157c2269 HEAD -- engine/` still empty. The "Still open" list correctly separates H-1 (closed by project-lead decision) from the four genuinely open items — the Facilitator turn type, the third re-confirmation pass, H-2/H-3/MEDIUM/LOW, and B-2.
+
+Two things in it do not fully hold:
+
+1. **Line 1331–1335**: "Applied to every location carrying the 'silent'/'says nothing' claim for 1525, **not only the one this review named**." Literally true of those two phrasings; not true of the claim. `witt.demo.record-thinnest` (H-1.2) and `wb_witt_s21.py:723` (N-2) both still carry it.
+2. **Omission, not a false claim**: `OG-24` locates B-1's root in "a post-draft fix during Doc_10's own build" that "never propagated into the compiled records." On the documentary record the root is one level further up — World Profile §8, which both the Doc_10 draft and the `world_core` script independently and faithfully copied. As written, `OG-24` will read to a future thread as though the records were the last place the defect lived.
+
+One governance item `OG-24` handles defensibly but that should be named: it logs B-2 as an open item in witt's own file rather than as a fleet-level `ACCEPTED_OPEN` waiver. B-2's own "Required to close" item 3 conditioned the waiver on "if it is not fixed before **any further world goes live**" — witt is already `admitted` with live access, so that condition is arguably already met. The project lead deferred B-2 explicitly, so this is a decision to surface, not drift to charge.
+
+---
+
+## 8. On the substantive question — is "not ours to lay out" actually consistent with the force record?
+
+I read `records/witt/force/witt.force.absent-inputs-1525-and-1555.md` in full and judged this independently.
+
+**The reframe is materially more accurate than "silent," and it is the right direction.** "Silent" was a negative claim about the library that the library contradicts — the same defect shape as H-2, and one the project's own rule ("an overclaimed gap is as much a misrepresentation of the evidence as an overclaimed certainty") condemns. "Not ours to lay out" makes no claim about what the library holds; it states a scope rule about the voice. That is a true statement, and it is the only one of the available options that is true.
+
+**But it does not dissolve the underlying asymmetry, and the brief's suspicion is well founded.** The force record's `description` — which is precisely what `_head_text()` returns for a `force` record (`engine/m4/evidence.py:218`), and forces are scored as Stage-B retrieval candidates — contains: *"the charge of three sins, the call on the princes to put the rebels down by force, the tract 'appearing as the princes' armies were already winning'."* That is not adjacent material. The three-sins charge **is** the tract's argument and the call on the princes **is** its central demand. So a participant asking about 1525 can cause the engine to hand the model a two-sentence summary of the very argument the Representative has just been told is not its to lay out. The instruction and the evidence point in opposite directions on the same turn — structurally the inverse of the original B-1 defect, and a live tension the reframe does not close.
+
+Three things keep this from being a fabrication risk today, and I want them stated as carefully as the risk:
+1. The same `description` ends with its own bar — *"the world's boundary against the peasants is carried by the Facilitator apparatus as disclosure, never as Representative content"* — so a model reading the head text reads the prohibition alongside the content.
+2. It carries its own evidentiary flags on its face: "characterized only at a tertiary remove", "NOT DOCUMENTED", "no phrase quoted (R94)".
+3. Forces are not compiled into `prompt.txt` at all (I checked; there is no Forces section), so this is a retrieval-time exposure, not a standing instruction.
+
+The honest summary: renaming "silent" to "not ours to lay out" does not paper over anything — it removes a false claim and replaces it with a true one. What it does not do is decide what happens when retrieval surfaces the force record on a 1525 turn. That case has never been tested live (H-1.1), and until it is, the reconciliation is a wording fix whose behavioural effect is unknown.
+
+---
+
+## 9. What is still required to close
+
+**For B-1 (finding-level closure, beyond the sixth location, which is closed):**
+1. Correct `worlds/witt/witt_World_Profile.md` §8, lines 689 and 691, to the reconciled shape, as a named change order against an approved document — the same treatment ¶31 just received. This is the root cause and the only remaining Representative-voice statement of the reversed formula in the approved chain.
+2. Correct or annotate `worlds/witt/scripts/wb_witt_s21.py` lines 670–671, 686, 723 and 733. Until then, re-running witt's own `world_core` generator silently restores a BLOCKING finding.
+3. Add a supersession note at `witt_Doc_02_Source_Ecology.md` §12.3, or record the ruling that its content-disclosure requirement is Facilitator-discharged — which, with the turn type still absent, means recording that it is currently discharged by no one.
+
+**For H-1:**
+4. Bring `records/witt/demonstration/witt.demo.record-thinnest.md` `exchange[1].text` lines 45–50 into line with the ruling, and rebuild. It ships in `prompt.txt` line 750.
+5. Re-run the 1525 probe live and check the turn against H-1's own condition (not refusal-narration) and against `witt.voice.craft`'s `self-reference` bar. Not blocked by B-2.
+6. Re-word `thin_topics[peasants/1525]` to the FK 8–10 band and under ~25 words per sentence, and re-word the `honest-limits` 1525 sentence so the bar attaches to the tract rather than to the rising (`thin_topics[peasants]`'s own "Our founder's 1525 **writing** against…" is the shape that already works). Ideally re-measure `thin_topics[Jews/1543]` (FK 17.12) at the same time.
+
+**Already required and unchanged:** the Facilitator boundary-disclosure turn type (B-1 item 4, registered as open in `OG-24`); B-2; H-2, H-3 and the round's MEDIUM/LOW findings.
+
+**Not required, listed for whoever does the above:** the dw CORRECTION note's mis-stated history (N-3); the record-body narration growing under a rule that says to remove it (N-4); the orphan manifest (N-5); the "not ours to lay out" repetition (N-6).
+
+---
+
+**Scope note.** This pass did not test B-2, did not touch `engine/`, and did not re-open H-2, H-3, M-1 through M-4, or L-1 through L-5 except where a fix commit's own edits bore on them. Nothing was fixed, edited or committed. The working tree is clean at `8307d8da`.
+
+---
+
+## Third re-confirmation pass, 2026-09-20 — commit `c78f959c` (B-1 root cause; H-1 completion)
+
+**Reviewer context:** cold and independent. No memory of any fixing thread's reasoning. Every claim below was re-derived from the on-disk artifacts at `c78f959c` in their current state — not from a commit message, not from `OG-24`'s own account, not from any prior pass's disposition. Where a prior pass stated a number, I recomputed it rather than quoting it. Nothing was fixed, edited, committed, or pushed; `git status` is clean and `HEAD` is unchanged at `c78f959c`.
+
+**Under re-confirmation:** commit `c78f959c` on `witt-go-live`, against finding H-1 and against the second re-confirmation pass's own "required to close" list (immediately above).
+
+**Note on numbering:** this pass self-identified as the "Fourth independent re-confirmation pass" when dispatched (counting the original review as pass 1, the first appended re-confirmation as pass 2, the pass immediately above as pass 3, and itself as pass 4). Renumbered here to "Third re-confirmation pass" for consistency with this file's own section titles, which count re-confirmation passes specifically rather than all passes including the original review. No content below is altered by the renumbering.
+
+---
+
+# Verdict
+
+## H-1's substance: RESOLVED. H-1 as a finding: NOT CLOSED — escalate; do not attempt a fifth fix.
+
+These are two different statements and both matter, so I am stating them separately rather than collapsing them into one word.
+
+**The substantive defect H-1 named is genuinely, verifiably gone.** The three mutually incompatible instructions for 1525 are reconciled to one; the `guard`'s dangling 1525 clause carries a real instruction again; the false-absence claim is retired from every location including the fourth the second re-confirmation pass found; the documentary root cause (`witt_World_Profile.md` §8) is corrected as a disclosed change order; the re-infection vector (`wb_witt_s21.py`) is genuinely in sync. I verified each of these independently and by different means than the commit used. This fix round did real work and did it correctly.
+
+**H-1 nonetheless cannot be marked closed,** for two reasons, and — this is the load-bearing point — **neither is something a fifth record-editing round could settle:**
+
+1. **H-1's own third close condition has never been attempted.** The review requires: *"Re-run the 1525 probe and require that the turn not consist of refusal-narration."* `git diff 157c2269 HEAD -- engine/m4/reports/` is empty; the live evidence is untouched since `03cd0b30`. `OG-24` discloses this honestly as open item 2 and correctly declines to run it unilaterally — it needs the project lead's per-run Bedrock spend authorization. **A build thread cannot close this condition no matter how many more rounds it runs.**
+2. **One residual defect introduced by `c78f959c` itself**, in the compiled shipping prompt, of exactly the class that same commit claimed to eliminate (detailed below).
+
+Per CLAUDE.md's capped-review-cycle rule, this is the fourth substantial attempt on this finding. **I recommend escalation to the project lead, not a fifth fix attempt.** What needs his judgment is named precisely at the end of this report.
+
+**B-1's sixth-location fix: re-confirmed RESOLVED.** I re-derived it independently and found no evidence casting doubt on the second re-confirmation pass's verdict. See "B-1 re-check" below.
+
+---
+
+## Verified fixed — checked directly, in the current files, by independent method
+
+### 1. `worlds/witt/witt_World_Profile.md` §8 — correctly scoped, and logged as a real change order
+
+Read on disk at lines 687–691, not from the diff. Both entries are now existence-only:
+
+- **Ecological basis:** *"…the Representative must be able to acknowledge both texts' existence and that they are real, part of this world's own history — **but neither text's own argument or content is the Representative's to lay out; that belongs to the Facilitator alone.**"*
+- **How the Representative handles it:** *"…Both are real, and we say so plainly when asked; **but neither text's own argument or content is ours to lay out**, and we do not hold either text itself to quote from directly. **That disclosure belongs to the Facilitator, never to us.**"*
+
+The prior instruction — *"must be able to acknowledge both texts' existence and, for the 1543 treatise, its documented seven-point programme"* — is gone. This matches Doc_07 §9/§12 item 7 and Doc_08 §11 item 7 exactly.
+
+**It is a disclosed change order, not a silent rewrite.** `witt_World_Profile.md`'s Document Log line 795 carries a dated 2026-09-19 entry that quotes the superseded wording verbatim, names the Standing determination it reversed, names the two downstream artifacts that copied it (`witt_Doc10_Review_Round1.md` §4 and `wb_witt_s21.py`), and states why this is a correction rather than a reopened review round. This is the right shape and it is genuinely reasoned, not a post-hoc justification.
+
+### 2. `worlds/witt/scripts/wb_witt_s21.py` — genuinely in sync, verified by AST extraction
+
+I did not read this by eye and I did not take the commit's word. I parsed the script with `ast`, `literal_eval`'d the `thinness`, `cautions` and `thin_topics` literals out of the generator dict, parsed the record's YAML frontmatter, whitespace-normalised both, and compared:
+
+| Field | Result |
+|---|---|
+| `thinness` | **MATCH** — 1661 chars both sides |
+| `cautions` | **MATCH** — 1175 chars both sides |
+| `thin_topics` | **6/6 entries, keywords and notes all MATCH** |
+
+The re-infection vector is genuinely closed, and closed across all six `thin_topics` entries, not only the two under review. A code comment at lines 650–656 explains why, so a future re-run reproduces the corrected state.
+
+### 3. `records/witt/demonstration/witt.demo.record-thinnest.md` — 1525 and 1555 correctly split
+
+The pairing is broken apart. 1555 keeps the total-absence framing (*"it falls outside our record entirely; we do not narrate it at any remove"*), which is correct — the force record tags 1555 `Not Attested` at any confidence. "does not narrate at any remove worth trusting" is gone from 1525. The `falls outside our record entirely` grep hit at line 48 is the **1555** sentence, and it belongs there.
+
+### 4. FK grades — recomputed, and the claimed numbers are exactly right
+
+I computed these myself with `engine.m1.fk.fk_grade` across all four commits rather than trusting 7.66/6.12:
+
+| Commit | `thin_topics[peasants/1525]` | `thin_topics[Jews/1543]` |
+|---|---|---|
+| `157c2269` (review) | 8.53 | 17.65 |
+| `5a0b5cdf` | 8.53 | 17.12 |
+| `8307d8da` | **17.09** | 17.12 |
+| `c78f959c` / worktree | **7.66** | **6.12** |
+
+The claimed numbers are exact. The regression the second re-confirmation pass found was real and is fixed, and the pre-existing Jews/1543 problem was fixed alongside it. **No accuracy was lost** — both entries still name the founder's act, the reality of the text, its place in this world's history, the bar on its argument, the bar on its wording, and (for 1543) the explicit "not even the measures it recommended." See Observation O-2 for two caveats on these two strings.
+
+### 5. `records/witt/voice_craft/witt.voice.craft.md` `honest-limits` — pronoun genuinely fixed
+
+Before: *"Of the 1525 rising against the lords, our founder wrote against it, and it is real…"* — "it" resolving to the rising.
+Now: *"**Our founder's writing** against the 1525 rising is real; we state that **it** exists, never **its** own argument or its own words."*
+
+"it"/"its" now unambiguously take "Our founder's writing" as antecedent. Correct, and it matches the shape `thin_topics[peasants]` uses.
+
+### 6. `worlds/witt/witt_Doc_02_Source_Ecology.md` §12.3 — accurate SUPERSEDED note, original text preserved
+
+Read on disk at line 271 ff. The note is dated, cites the finding (`go-live adversarial review, Round 1; B-1, BLOCKING; H-1`), and is accurate about scope: it supersedes **only** the section's closing sentence (*"must be able to acknowledge this treatise's existence and content when asked"*), and explicitly preserves the section's historical and evidentiary content — the tertiary sourcing, the `[Widely Accepted]`/`[Contested]` tags, the seven-measure characterization itself. **The original approved text is left verbatim and intact**; nothing was rewritten out from under the approved record. This is the correct disposition for this document, and the better of the two available options: a log-only note would have left §12.3 reading as live instruction. (One omission — see F-2.)
+
+### 7. The runtime surfaces are clean — the strongest single check
+
+I swept the compiled `repository.json` (the record store the engine actually loads) for every string of the reversed formula:
+
+| Probe | `repository.json` |
+|---|---|
+| `existence and content` | **absent** |
+| `documented content` | **absent** |
+| `seven measures` | **absent** |
+| `seven recommended measures` | **absent** |
+
+Then I extracted and read **every one of the 60 strings in `repository.json` that mention 1525 or 1543**, field by field. All are consistent with existence-only. The only record holding the 1525 tract's Layer-1 content is `witt.force.absent-inputs-1525-and-1555`'s `description`, which is coherent as *evidence the voice is barred from speaking* — the same shape `.cautions` already uses ("must never be voiced as ours"). H-1's third instruction is now compatible with the reconciled shape rather than contradicting it.
+
+I then traced the actual injection path end to end by calling `engine.m4.evidence.thin_topic_riders()` against the compiled store with three real probe phrasings:
+
+- *"What exactly did your founder write in his 1543 book about Jewish people?"* → rider: *"…its own argument is not ours to lay out -- not even the measures it recommended, never its own wording."*
+- *"What did the treatise On the Jews and Their Lies actually recommend?"* → same rider.
+- *"Tell me about the peasants' war of 1525 and what Luther said."* → rider: *"…its own argument is not ours to lay out, never its own wording."*
+
+**The mechanism B-1 and H-1 were about is gone, verified at runtime rather than inferred from record text.**
+
+### 8. Package, pin, gates, tests — all re-run, not read
+
+- **Package reproducibility, verified the hard way.** I called `engine.m2.compiler.compile_and_hash()` in memory with the pinned package's own `package_id` and `records_commit`, and compared all 364 files byte-for-byte against the package on disk: **zero differing files, zero files only on one side**, and the recomputed manifest hash is `sha256:b19b8bd5…88bb49` — **identical to `records/worlds/witt.yaml`'s pin**. The pinned package genuinely is a build of the post-`c78f959c` records. (I did this in memory specifically so as not to write a package or trigger an auto-repin.)
+- `diff -rq records/witt/ packages/witt/2026-09-19T23-57-37Z/records/` — no differences.
+- `packages/witt/2026-09-19T23-57-37Z/validation/gates-report.json` read directly: `overall_pass: true`, **19/19 gates pass, 0 findings on every one.**
+- `python3 -m engine.m9.cli check` → *"library access gate: clean - every finding is waived, every waiver is live and current"*, exit 0.
+- `python3 -m engine.m1.cross_world` → *"0 new defect(s), 23 accepted-open, 88 observation(s)"*, exit 0.
+- `python3 -m pytest -q` → **678 passed**, 1 unrelated deprecation warning, 214s.
+- **B-2 untouched, confirmed:** `git diff 157c2269 HEAD -- engine/` is **empty**. The project lead's "hold off on B-2" has been honoured through all three fix commits.
+- Working tree clean; `packages/witt/` holds exactly one package; only its `manifest.json` is tracked, per `.gitignore`.
+
+### B-1 re-check (sixth location) — RESOLVED, no new evidence against the second re-confirmation pass
+
+`records/witt/doctrinal_witness/witt.dw.what-we-have-never-settled.md`, read fresh:
+- `tensions[1]`: *"the 1525 and 1543 material is disclosed at **existence only**, per this world's own standing discipline…"*
+- `retrieval.do_not_retrieve_when[0]`: *"…our record states **their existence only**, never their own argument or their own wording…"*
+- The body cross-reference is corrected and is no longer false on its face.
+
+Confirmed resolved. Not re-litigated further.
+
+---
+
+## Still wrong
+
+### F-1 — `witt.demo.record-thinnest`'s new 1525 sentence reintroduces, in the shipping prompt, the exact pronoun defect this same commit fixed twice elsewhere; and the rewrite breaks the passage's own count
+
+This is a live defect in compiled, model-facing text. `records/witt/demonstration/witt.demo.record-thinnest.md`, `exchange[1].text`, lines 49–52, compiled verbatim into `packages/witt/2026-09-19T23-57-37Z/compiled/prompt.txt` **line 750**, under the heading `## Demonstration (cite as [[witt.demo.record-thinnest]])` — a worked example the model is shown on every turn.
+
+**(a) The antecedent points at the wrong noun.**
+
+> "**The great rising of the common people against their lords in 1525** is different: **it** is real, part of our own history, and we do not pretend otherwise - but **its own argument** is not ours to lay out."
+
+The subject is *the rising*. "it is real" = the rising is real. "**its** own argument" = **the rising's** argument. The founder's act of writing — the thing whose argument the sentence exists to bar — **is not mentioned in the sentence at all.**
+
+Every other corrected location names it: the `guard` (*"our founder **wrote** against the peasants' rising"*), `honest-limits` (*"**Our founder's writing** against the 1525 rising"*), `thin_topics[peasants]` (*"Our founder **wrote** against… **That writing** is real"*), `.thinness` (*"our founder **wrote** against the peasants' rising… **neither one's** own argument"*), Permanent Prompt ¶31, and the corrected World Profile §8 (*"neither **text's** own argument or content"*). The demonstration record alone does not.
+
+This is precisely the defect `c78f959c`'s own commit message describes fixing in `voice_craft`: *"left 'it' pointing at the rising rather than the writing/tract."* It was removed from one field and written into another in the same commit.
+
+The consequence is not cosmetic: the exemplar models an answer in which the Representative declines to lay out *the peasants' rising's* argument. That is a different limit from the one this world's governance actually imposes, and it is the one exemplar in the prompt for the question type ("Where is your own record thinnest?") that most directly touches the binding disclosure.
+
+**(b) The rewrite breaks the passage's arithmetic against its own source record.**
+
+The demonstration's only cited record, `records/witt/honest_limit/witt.limit.record-thinnest.md`, has a clean structure: *"**Two other places are just as thin.** [Marburg]… **And no woman among us left her own word.**"* — two places, two delivered.
+
+The demonstration inherited that sentence and, before `c78f959c`, kept the 1525/1555 material in a deliberately separate category: *"And two real events fall outside our record entirely **rather than merely thinly inside it**."* That parsed.
+
+`c78f959c` replaced it with *"**Two more places test that same limit**, in different ways"* — re-categorising 1525/1555 as *places testing that same limit*, which now collides with the inherited count. The passage as shipped reads: "Two other places are just as thin." → **one** place (Marburg) → "Two more places test that same limit" → two places → "Last:" → a fourth. The first "two" is never delivered.
+
+Under CLAUDE.md's "no AI tells… if a participant can hear the chatbot instead of the world's own voice, that's a defect," a worked example with a broken count in participant register is a craft defect, and it teaches the model that discourse pattern.
+
+**This is not a "could be stronger" finding.** The referent is wrong and the count is wrong — both checkable, both in the shipping prompt, both introduced by the commit under re-confirmation.
+
+### F-2 — `witt_Doc_02_Source_Ecology.md`'s own Document Log (§17) has no entry for the §12.3 supersession
+
+The change is disclosed inline at §12.3 and in `OG-24`, which is most of what matters. But §17 is this document's own designed change record, and it meticulously logs five review rounds, two 2026-09-16 "post-disposition technical corrections," and a "post-Revision-5 mechanical verification" — changes considerably smaller than superseding a binding disclosure's closing instruction. A reader auditing Doc_02 through its Document Log will not learn that §12.3 was superseded in part.
+
+Note the inconsistency inside the same commit: `witt_World_Profile.md` got a Document Log entry and no inline marker; `witt_Doc_02` got an inline marker and no Document Log entry. Each treatment is individually defensible given what happened to each text (one replaced, one preserved-and-marked), but the asymmetry was not reasoned anywhere.
+
+### F-3 — This chain's own re-confirmation reports were, at the time of this pass, not fully appended to this file as this project's own discipline requires
+
+`c78f959c`'s message opens: *"The third independent re-confirmation pass **(appended to witt_GoLive_Adversarial_Review_Round1.md)**…"*. At the time this pass ran, the second re-confirmation pass (reviewing `8307d8da`) was not appended here — its substance survived only in `Open_Gaps_Tracking.md`'s own summary. Both this pass's own report and the second re-confirmation pass's report have since been appended to this file directly, closing this gap.
+
+---
+
+## Observations — checked, not findings
+
+- **O-1. The two trigger-injected riders dropped the "never denied" half of the project lead's own ruled shape.** Mark's ruling was to reframe as *"real, part of our history, **never denied** — but its own argument is not ours to lay out."* `8307d8da` rendered "never denied" emically as "and we do not pretend otherwise." `c78f959c`'s readability rewrite removed that clause from **both** `thin_topics` notes — the two strings `thin_topic_riders()` injects on the keyword trigger. The anti-evasion half of the ruled shape survives in the `guard` ("never denied", twice) and in `.thinness`, so it is in the prompt on every turn; it is absent from the two strings the engine adds precisely when a participant raises the topic. Not a defect — the riders remain disclosure-positive ("real, part of our own history") — but it is a small drift from what was actually ruled, made in a readability pass, and worth a deliberate decision rather than a silent loss.
+- **O-2. Both "fixed" FK numbers are below CLAUDE.md's stated floor, and `OG-24`'s first draft overstated them (corrected since).** `OG-24` originally said "FK 7.66… and FK 6.12… both well inside the 8–10 band's spirit." Neither is inside 8–10; CLAUDE.md says *"Treat grade 8 as a floor worth staying above."* 6.12 is nearly two grades under it. Relatedly, these two strings now sit at 7.66 and 6.12 beside untouched siblings in the same record at FK 21.33 (`woman`), 16.83 (`Zwingli`), 12.24, 11.57, with `.cautions` at 28.04, `.thinness` at 17.67, `.horizon` at 17.49 and `.formation_logic` at 16.97. The fix improved two of seven strings and made nothing worse, but it left `witt.core.witt` internally uneven in register — the two boundary-topic riders now read markedly plainer and choppier than every other field around them. This is downstream of the original review's own standing observation that `world_core` is the one compiled record type `gate_readability` does not grade; it remains ungraded.
+- **O-3. The package manifest stamps `records_commit: 8307d8da…` on a package built from `c78f959c`'s records.** Third recurrence in this chain. The second re-confirmation pass documented this as the fleet's standing pattern (a package records HEAD at build time, i.e. its own parent commit), and the compiled content is verified correct, so it is a stamp problem and not a content problem. Noting it only because the stamp is now wrong about content that was itself a BLOCKING fix: `validation/gates-report.json`'s `_generated_by` line makes the same claim, and anyone re-deriving this package from the commit it names would get the pre-fix records back.
+- **O-4. Inert documentary residue in `records/witt/source/witt.source.luther-von-den-juden-und-ihren-l.md`.** Its body (line 32, after the frontmatter terminator) still reads *"its seven recommended measures characterized from tertiary description at Doc_02 §12.3; never quoted; a Representative must be able to acknowledge **it** and must never smooth it over."* I confirmed record bodies are stripped from `repository.json` — this string is **absent** from the runtime store and from `prompt.txt`, so it is inert. "acknowledge it" most naturally takes "the treatise," and the original review quoted this note approvingly. But it is a stale echo of the superseded Doc_02 sentence, one level below where the change order reached, and it is the kind of body narration the original review already flagged at L-4.
+- **O-5. `witt.dw.what-we-have-never-settled`'s participant-facing `text` is unchanged and remains the loosest formulation in the prompt.** `prompt.txt` line 594: *"We say only what is documented, and we do not soften either fact by silence."* Strictly this is consistent with existence-only, since Doc_02 §12.3 tags the content `[Widely Accepted]` and explicitly **not** Documented. The second re-confirmation pass flagged it as the loosest surviving statement of the rule and declined to overturn B-1's clearing of it; three fix rounds have now passed it over. I am not overturning it either — flagging that it is the one participant-facing sentence on this topic that does not carry the reconciled wording.
+- **O-6. The two rewritten demonstration sentences carry no auto-citation tag.** Every sibling sentence in that turn ends `[[witt.limit.record-thinnest]]`. I reproduced the mechanism by running `engine.m2.builders._tag_representative_text()` on both the pre-fix and post-fix text with the real candidate set: the tags are auto-derived and require ≥3 shared content words with a candidate record's head text. **Before: 9/10 sentences tagged, 1 untagged. After: 10/12 tagged, 2 untagged.** The cause is that the honest_limit record the demo cites does not mention 1525 or 1543 at all, so those sentences have nothing to score against. Pre-existing, marginally worsened by the split, not introduced. Worth naming because `builders.py`'s own comment says these examples teach the live model how a correctly cited turn looks — and the untagged ones are the boundary-topic sentences.
+- **O-7. `witt_Representative_Permanent_Prompt_Nikolaus.txt` ¶31 was correctly changed without an in-file note.** The file is a 37-line pure prompt artifact with no header, log, or metadata; an in-file change-order note would corrupt it and would violate CLAUDE.md's live/canonical-surface rule. The change order is recorded in `OG-24` and in `8307d8da`'s message, which is the right place. Checked so this would not be mistaken for a silent rewrite: it is not.
+- **O-8. `OG-24` is accurate on every other verifiable claim I checked**, including the FK numbers, the script-sync claim, the package/pin/gate/test results, the three superseded package manifests (all three are gone from the tree; git renders one delete/add pair as a rename, which is immaterial), and its own honest statement at "Still open" item 3 that a failed fourth pass means escalation rather than a fifth attempt. Its only overstatement is O-2's "well inside the 8–10 band's spirit" (since corrected).
+
+---
+
+## What remains genuinely open beyond H-1, so the record is complete
+
+1. **The Facilitator boundary-disclosure turn type (B-1 item 4)** — still unbuilt. No turn in `engine/m4/facilitator_turns.py` can carry the disclosure Doc_07 §12 item 7 assigns to the Facilitator. Now correctly **registered** in `OG-24` "Still open" item 1, which satisfies CLAUDE.md's "an unlisted defect is new drift" requirement. The content remains unreachable by either route: the Representative is correctly barred, and the Facilitator has no turn in which to speak it. Not raised with the project lead for direction yet.
+2. **The live 1525 re-probe (H-1 close condition 3)** — never run at the time of this pass; needs per-run spend authorization. `OG-24` correctly notes it is *not* blocked by B-2, since the 1525 probe already routed to `voice_with_directive`; only the 1543 probe is misrouted.
+3. **B-2** — untouched, per explicit instruction; `git diff 157c2269 HEAD -- engine/` empty. Fleet-wide, still unwaived as an `ACCEPTED_OPEN`.
+4. **H-2** (`witt.dw.cold-and-careless-among-us` telling the participant the library lacks Luther's answer, which TT 3147–3151 carries verbatim) and **H-3** (non-empty `output_defects[]` shipped alongside `degraded: false`) — entirely unaddressed.
+5. **M-1 through M-4 and L-1 through L-5** — unaddressed. M-3 (no `contested_claim` record for the 1543 reception dispute) and M-4 (`witt.core.witt` at `A`/`verified-direct` over a tertiary basis) both still bear on this same topic.
+6. **The `admitted` → `built` rollback question** — the original review's disposition put this to the project lead "now rather than after the fixes." `records/worlds/witt.yaml` is still `state: admitted`; witt still has live API access.
+7. **F-1, F-2 above.**
+
+---
+
+## Recommended escalation — what needs the project lead's own judgment
+
+Per CLAUDE.md's capped-review-cycle rule, this was the fourth substantial attempt on H-1 and it has not cleared. **I am not recommending a fifth fix round.** I am recommending these go to the project lead as decisions, because none of them is a record edit a build thread can self-certify:
+
+1. **Authorize or waive the live 1525 re-probe.** This is H-1's own third close condition and the only thing standing between the corrected wording and a demonstrated result. It needs a spend decision. If it is to be waived, the waiver should be written down as such rather than left as an open item, so H-1 is not left permanently un-closable.
+2. **Rule on F-1.** The substantive question is not *whether* the demonstration sentence is wrong — it is, and precisely — but whether fixing it opens a fifth cycle or is batched into a single consolidated round with H-2, H-3 and the MEDIUM/LOW findings, which are all still outstanding and several of which touch this same topic. My recommendation is the batch: F-1 is real but it is a wording defect in one exemplar, not a fabrication risk or a reversal of the standing determination, and the instruction layer around it is now correct.
+3. **Direct the Facilitator boundary-disclosure turn type (B-1 item 4).** This is a new engine feature, not a records fix, and it is the one thing that would make the determination Doc_07 §12 item 7 marked *Standing* actually operable. It has never been raised with him.
+4. **B-2, and the `admitted`/`built` question** — both already his, both still open.
+
+**What I am explicitly *not* saying:** that this fix round failed. It did not. The three fixes traced a defect from five compiled fields, to a sixth, to a fourth false-absence location, to its documentary root in an approved World Profile, to the generator script that would have silently restored it — and closed every one of them, verifiably. The escalation is because H-1's remaining close condition needs an authorization only the project lead can give, plus one residual defect the capped-cycle rule says should not be chased in a fifth round. That is a different outcome from "the pipeline cannot get this right."
+
+---
+
+*Nothing in this pass was fixed, edited, committed or pushed. `HEAD` is `c78f959c`; the working tree is clean. Gates, cross-world, m9, pytest and the package hash were all re-run by this pass rather than read from any prior report; the package was re-derived in memory rather than rebuilt to disk, so no repin was triggered.*
