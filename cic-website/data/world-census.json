@@ -3152,7 +3152,7 @@
     {
      "work": "Optatus of Milevis, Against the Donatists",
      "type": "primary",
-     "note": "The earliest sustained Catholic answer to the schism, written roughly five decades after the founding events it narrates; its own appended dossier of documents is this world's single richest source."
+     "note": "The earliest sustained Catholic answer to the schism, written roughly five decades after the founding events it narrates; its own appended dossier of documents is the richest surviving source for the conflict."
     },
     {
      "work": "Augustine, Answer to the Letters of Petilian",
@@ -3172,7 +3172,7 @@
     {
      "work": "Gesta Collationis Carthaginiensis anno 411 (Acts of the Conference of Carthage)",
      "type": "primary",
-     "note": "The transcript of the great trial at Carthage, taken down by imperial notaries — the one place in this world's whole record where its bishops argue their own standing in their own recorded words."
+     "note": "The transcript of the great trial at Carthage, taken down by imperial notaries — the one place in the whole surviving record where the Donatist bishops argue their own standing in their own recorded words."
     },
     {
      "work": "Codex Theodosianus, Book 16",
@@ -11115,33 +11115,32 @@
    "sources": [
     {
      "work": "The Zurich leg: Zwingli's writings (Sixty-Seven Articles 1523; On True and False Religion 1525; LCC Zwingli and Bullinger), disputation records, the Prophezei and Zurich Bible (1531)",
-     "type": "primary",
-     "note": "[S] edition details from knowledge."
+     "type": "primary"
     },
     {
      "work": "Calvin's corpus: Institutes (1559; trans. Battles, ed. McNeill, LCC 1960), Ecclesiastical Ordinances (1541), Geneva Catechism, sermons and letters",
      "type": "primary",
-     "note": "Teaching-and-order layer, kept distinct from the discipline texture. [S] edition details from knowledge."
+     "note": "Teaching-and-order layer, kept distinct from the discipline texture."
     },
     {
      "work": "Registers of the Consistory of Geneva in the Time of Calvin, vol. 1: 1542-1544 (ed. Kingdon, Lambert & Watt, trans. McDonald, Eerdmans, 2000)",
      "type": "primary",
-     "note": "Verified. The census's named archive - ordinary-discipline texture. Institutional filter flagged (minutes by the disciplining body). Access flag: only vol. 1 in English; later years untranslated (Kingdon's 300 Cases selection reaches 1564) [S]."
+     "note": "Minutes kept by the very body doing the disciplining — an institutional record, not a neutral one."
     },
     {
      "work": "The Genevan Psalter as lived piety: Marot and Beze metrical psalms (complete 1562), La Forme des prieres (1542), psalm-singing practice",
      "type": "primary",
-     "note": "The movement's ordinary devotional voice. [S] edition details from knowledge."
+     "note": "The movement's ordinary devotional voice."
     },
     {
      "work": "Scott Manetsch, Calvin's Company of Pastors (OUP, 2013), with Bruce Gordon, Calvin (Yale, 2009)",
      "type": "secondary",
-     "note": "[S] neither individually verified this session. Current standards, the first built on the registers."
+     "note": "Current standards, the first built on the registers."
     },
     {
      "work": "Cambridge History of Christianity vol. 6, ch. 6 (Kingdon, Calvin/Geneva), with ch. 5 (Blickle) and ch. 7 (Greengrass)",
      "type": "reference",
-     "note": "Chapters in the recovered TOC; [S] exact ch. 6 title varies between recovered listings. Reference author is also the registers' editor."
+     "note": "Reference author is also the registers' editor."
     }
    ],
    "streams": [
