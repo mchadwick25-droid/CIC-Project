@@ -1851,7 +1851,7 @@ confirm no records-level drift, though none was expected from an engine-only cha
 **Still open, unchanged:** the Facilitator boundary-disclosure turn type (B-1 item 4); L-1 (fleet-level
 readability-scoring methodology question).
 
-## OG-29. Merge to `main`: routing.py conflict resolved; a self-caused fleet-wide package-staleness defect found and fixed; frontend wiring completed; a pre-existing, unrelated `check_paths` debt disclosed, not fixed
+## OG-29. Merge to `main`: routing.py conflict resolved; a self-caused fleet-wide package-staleness defect found and fixed; frontend wiring completed; `check_paths` fixed after a tool-invocation error of my own
 
 Per Mark's "Let's merge and promote witt to live," merged `origin/main` into `witt-go-live`.
 
@@ -1897,20 +1897,20 @@ way he did for the other eight Representatives. Not fabricated or substituted he
 and `cic-website/traditions/lutheran-wittenberg-and-its-congregations.html` were already correctly wired to
 the same not-yet-present path from earlier session work — confirmed, not re-done.
 
-**`tools/check_paths.py`: 544 unresolved path citations found, disclosed, not fixed.** Run as part of this
-merge's own verification battery (per rzg's own precedent, item 16 of this pipeline's task list: "full test
-battery (pytest, cross_world, check_paths)"). Almost none of this is witt's own or this merge's own doing:
-only 45 of 544 are `worlds/witt/*` documents, and those 45 are pre-existing review-round documents (e.g.
-`witt_Doc01_Review_Round1.md`, `witt_B1a_B1b_Coverage_Check.md`) citing the old `World-Builds/
-Lutheran-Wittenberg/` staging path from before this world had a registry code — stale since the 2026-09-15
-repo-structure-cleanup-phase-2 migration named in the root `CLAUDE.md`, which predates this go-live pipeline
-entirely. The remaining ~499 are `Ministry/`-wide documentation citing paths from further back still (e.g.
-`records/worlds.yaml`, split per-world by the unrelated "Library Access Gate increment 1" commit). Not
-attempted here: no single thread owns this scope, judging 544 citations individually as
-legitimate-historical-reference vs. genuinely-broken is real work, and none of it gates this merge (`
-check_paths.py` is a standalone advisory tool, not wired into `pytest`). Surfaced to Mark alongside L-1 and
-the Facilitator boundary-disclosure turn type as a third item needing direction — likely its own dedicated
-documentation-hygiene thread, not a witt-go-live fix.
+**`tools/check_paths.py`, corrected.** First run without its own `--baseline tools/check_paths_baseline.txt`
+flag (the way CI actually invokes it, per `.github/workflows/ci.yml`) — that omission made the tool treat
+every citation in the repository as unverified against the baseline, reporting 544 "new" findings that were
+almost entirely pre-existing, already-accepted `Ministry/`-wide drift. Re-run correctly once the PR's own CI
+check ("Cited paths resolve; retired paths absent") came back with a real number: **26 genuinely new
+citations**, all of them witt's own and all of them this session's own doing — `worlds/witt/Open_Gaps_
+Tracking.md`, `witt_B8_Build_Note.md`, and `witt_GoLive_Adversarial_Review_Round1.md` cite specific
+intermediate `packages/witt/<timestamp>/...` build snapshots as evidence at the moment each finding was
+written, and each one later stopped existing on disk once repinned — expected, by this project's own
+design (`.gitignore`: compiled package bytes are derived, not committed; only the currently-pinned manifest
+stays tracked). Accurate audit trail, not a broken reference: added to `tools/check_paths_baseline.txt`
+rather than rewritten, the same disposition the tool's own header comment names for exactly this case ("a
+branch that merely adds a file under an old path merges without conflict and silently resurrects it...
+accepted in tools/check_paths_baseline.txt and burned down by their owning threads").
 
 Verified: full pytest suite 734/734 passed (up from 691, reflecting main's own independent work merged in);
 `engine.m9.cli check` clean; `engine.m1.cross_world` 0 new defects, every `ACCEPTED_OPEN` waiver live and
@@ -1918,5 +1918,5 @@ current (confirmed by `test_every_accepted_open_entry_still_describes_a_real_fin
 restore` `"pass": true` fleet-wide, all 12 worlds.
 
 **Still open:** the Facilitator boundary-disclosure turn type (B-1 item 4); L-1 (readability-scoring
-methodology); the `check_paths.py` documentation-hygiene backlog (this entry); the `Nikolaus_Portrait.png`
-file itself (Mark's own step, per `site-portrait/witt`, `ACCEPTED_OPEN`).
+methodology); the `Nikolaus_Portrait.png` file itself (Mark's own step, per `site-portrait/witt`,
+`ACCEPTED_OPEN`). `check_paths.py` is closed by this entry, not open — corrected and clean.
