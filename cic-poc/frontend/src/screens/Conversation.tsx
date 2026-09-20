@@ -72,7 +72,7 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
                 <img className="turn__avatar" src={world.portraitImage} alt="" />
                 {world.representativeName} · {world.cardName}
               </div>
-              <VoiceTurnBody text={turn.text} citations={turn.citations ?? []} figuresUsed={turn.figuresUsed ?? []} glosses={turn.glosses ?? []} />
+              <VoiceTurnBody text={turn.text} citations={turn.citations ?? []} figuresUsed={turn.figuresUsed ?? []} glosses={turn.glosses ?? []} transparency={turn.transparency} />
             </div>
           );
         })}
