@@ -179,6 +179,24 @@ _COVERAGE_KEY_BY_TYPE = {
     "contested_claim": "contested_claims",
 }
 
+# Stage 4d (Build-Plan.md): tier prior. `retrieval.tier` (Artifact-1-
+# Record-Schema.md: "1 core / 2 supporting / 3 ambient") is an authored
+# importance signal - authored on roughly half the fleet's own records -
+# that no ranking here has ever read; a record's centrality to its own
+# world has had zero effect on which of two candidates wins a slot. A
+# PRIOR, not an override: bounded well under overlap_coefficient's own
+# smallest meaningful gap, so it can only ever reorder candidates whose
+# relevance scores were already close, never promote a weak, merely-core
+# match over a genuinely stronger one that happens to carry no tier or a
+# lower one. Tier 3 and an unset tier both get zero - "ambient" makes no
+# claim to priority, and neither does a record nobody has tiered yet.
+_TIER_PRIOR = {1: 0.05, 2: 0.02}
+
+
+def _tier_prior(record: dict) -> float:
+    tier = (record.get("retrieval") or {}).get("tier")
+    return _TIER_PRIOR.get(tier, 0.0)
+
 # Stage A2 (added 2026-08-25, Mark's own diagnosis of a live turn): a
 # genuinely last-resort net under Stage A, not a replacement for it. Fires
 # from assemble_evidence ONLY when match_asks_to_cells found no cell at
@@ -651,7 +669,7 @@ def _retrieval_fill_scores(*, record_type: str, query_words: set[str], repositor
         shared = query_words & words
         if not shared:
             continue
-        scored.append((rid, len(shared) / min(len(query_words), len(words))))
+        scored.append((rid, len(shared) / min(len(query_words), len(words)) + _tier_prior(record)))
     scored.sort(key=lambda t: (-t[1], t[0]))
     return scored
 
@@ -663,11 +681,12 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
     simplification against the design's whole-world expansion prose).
     Returns an ordered list of {"id", "record_type", "score", "head",
     "confidence", "classification"} dicts; score is None for honest_limit
-    (unconditional, never ranked away - see _TYPE_FLOORS comment). An entry
-    also carries "retrieval_fill": True when the coverage entry had no
-    candidates of that type at all and Stage B2 filled the slot instead
-    (see the comment on _retrieval_fill_scores) - absent, not False, on
-    every ordinary coverage-seeded entry."""
+    (unconditional, never ranked away - see _TYPE_FLOORS comment), else the
+    relevance score plus this record's own tier prior (see _tier_prior;
+    Stage 4d). An entry also carries "retrieval_fill": True when the
+    coverage entry had no candidates of that type at all and Stage B2
+    filled the slot instead (see the comment on _retrieval_fill_scores) -
+    absent, not False, on every ordinary coverage-seeded entry."""
     query_words = _query_words(message, asks)
     selected: list[dict] = []
     used_chars = 0
@@ -705,7 +724,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
                 record = repository_records.get(rid)
                 if record is None:
                     continue
-                scored.append((rid, overlap_coefficient(query_words, record)))
+                scored.append((rid, overlap_coefficient(query_words, record) + _tier_prior(record)))
             scored.sort(key=lambda t: (-t[1], t[0]))
         used_keys = {
             _source_key(repository_records[rid])
