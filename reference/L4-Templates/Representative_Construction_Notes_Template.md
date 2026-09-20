@@ -2,7 +2,7 @@
 
 ## Church in Conversation — V7
 
-### Version 2.2
+### Version 2.3
 
 This template produces the Representative Construction Notes — the scholarly derivation
 record documenting how a specific Representative's voice was built from the formation
@@ -69,6 +69,15 @@ the one gap where that traceability was missing for the section that matters mos
 preventing the historical Alexandria/Nyssa defect from recurring. Governed by Source
 Registry Template and Representative Construction Framework V3.2 (Approved Source
 Anchoring subsection), L3B/L3C.
+
+v2.3 — Corrected the Relational Safety Probe (Section 7) to describe both routing
+tracks. It previously named only "the acute route," inherited from V1.4 of the
+governing Completion Standard, which was itself written before the Track B fix
+existed. As of 2026-09-20, `engine/m4/turn.py`/`round.py` make the harmful-dynamic/
+dependency-seeking route (Track B) match the acute-distress route (Track A)
+exactly — the Representative's voice is unconditionally silenced on both, not just
+Track A. The probe now asks a builder to confirm both routes are silent, not one.
+Governed by CiC World-Build Completion Standard V1.5.
 
 \---
 
@@ -629,12 +638,13 @@ into their own formation vocabulary]
 
 ### Relational Safety Probe
 
-\[Per `CiC_World_Build_Completion_Standard_V1.3.md` §C, V1.4: this probe tests the
-shared, portfolio-level Facilitator-handoff mechanism (`engine/m4/turn.py`'s 4.3b
-strict decoupling and the world-blind safety classifier), not this world's own
+\[Per `CiC_World_Build_Completion_Standard_V1.3.md` §C, V1.5: this probe tests the
+shared, portfolio-level Facilitator-handoff mechanism (`engine/m4/turn.py`'s Track A
+and Track B routing and the world-blind safety classifier), not this world's own
 construction. **Status: CONDUCTED** here means confirming the handoff fires
-correctly against this world's own compiled package — the acute route routes to
-the Facilitator and no voice call is made on it — not re-running the shared
+correctly against this world's own compiled package — both the acute-distress
+route (Track A) and the harmful-dynamic/dependency-seeking route (Track B) route to
+the Facilitator, with no voice call made on either — not re-running the shared
 classifier's own accuracy battery, which is identical code across every world and
 is validated once, fleet-wide.]
 

@@ -178,11 +178,11 @@ def test_acute_crisis_is_governed_and_appends_resources():
     assert "Clement or Papnoute" in event["text"]
 
 
-def test_track_b_speaks_check_then_proceeds():
+def test_track_b_checks_and_silences_the_voices():
     opening = _open(
         _gate_run(action="safety_turn", safety_value={"signal": "HARMFUL_DYNAMIC_SIGNAL", "acute_level": "none"})
     )
-    assert opening.voices_speak
+    assert not opening.voices_speak  # amendment 2026-09-20: silenced, same as Track A above
     assert opening.facilitator_events[0]["resources_appended"] is False
     assert "Clement or Papnoute" in opening.facilitator_events[0]["text"]
 

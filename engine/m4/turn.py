@@ -58,6 +58,7 @@ from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.name_bridge import attach_cited_sources, find_figures_used, spoken_name
 from engine.m4.term_glosses import find_glosses_used
+from engine.m4.transparency_plan import build_transparency_plan
 from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
 from engine.m5.anachronism import resolve_term_ids, terms_in_message
@@ -148,7 +149,10 @@ def run_gate(
         )
         reader_outcome.value["modern_terms"] = resolved
 
-    gate_result = resolve_gate(safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
+    gate_result = resolve_gate(
+        safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed,
+        anachronistic_term_ids=anachronistic_term_ids, message=participant_message,
+    )
     gate = _gate_decision_payload(
         safety_outcome=safety_outcome, reader_outcome=reader_outcome, gate_result=gate_result
     )
@@ -496,6 +500,19 @@ def _run_ordinary_voice_turn(
 
     do_not_voice_hit = find_do_not_voice_violation(answer_text=answer_text, quotes=world.quotes["quotes"])
 
+    # THE TRANSPARENCY PLAN (Build-Plan.md Stage 3a) - a deterministic
+    # transform over citations/net_result already computed above, no new
+    # evidence, no new model call. Additive: not in
+    # engine.m4.events.REQUIRED_KEYS["voice_turn"], so this changes
+    # nothing about what any existing caller (including M3 admission,
+    # which reads this same voice_event shape) already relies on. Not
+    # rendered anywhere yet - the frontend switch-on is its own,
+    # separately-ruled step (R10, Ministry/Features/Conversation-
+    # Transparency-Engine/Rulings-Pending.md).
+    transparency = build_transparency_plan(
+        citations=citations, net_result=net_result, repository_records=repository_records, world_key=world.world_key,
+    )
+
     voice_event = {
         "speaker": world.world_key,
         "text": answer_text,
@@ -505,6 +522,7 @@ def _run_ordinary_voice_turn(
         "quote_offers": [],
         "attempts_meta": {"empty_stream_retries": 0},
         "grounding": net_result,
+        "transparency": transparency,
         "do_not_voice_violation": do_not_voice_hit,
         "degraded_by_net": degraded_by_net,
         # The finished string, checked last, after the net has cut and the
@@ -628,23 +646,23 @@ def run_turn(
         if signal != "ACUTE_DISTRESS":
             # Track B: a dependency dynamic, not a crisis. No resources
             # (crisis_resources.resources_for_signal already refuses them for
-            # this signal) and no session freeze - Program-Spec SS8 asks for
-            # "an explicit continue path back to the voice after non-acute
-            # signals", so the voice is not silenced and the message is not
-            # withheld from it.
-            voice_event, voice_usage_records = _run_ordinary_voice_turn(
-                voice_client=voice_client, voice_model_id=voice_model_id, world=world,
-                participant_message=participant_message, directive=gate_result.routing.directive,
-                session_id=session_id, already_told_ids=already_told_ids,
-                already_bridged_figure_ids=already_bridged_figure_ids,
-                already_bridged_gloss_ids=already_bridged_gloss_ids, history=history,
-            )
+            # this signal) and no session freeze. Governed (Program-Spec SS8,
+            # amendment 2026-09-20, Mark's own ruling: "the rule should be
+            # never respond, let the facilitator handle it") - the voice is
+            # silenced here exactly as it already is on Track A below, and
+            # the message is withheld from it the same way. Before this
+            # amendment the voice spoke "alongside" the Facilitator's own
+            # dependency_check_turn, which meant a per-world voice_craft
+            # guard line was needed to stop it freelancing outside-help
+            # language - a rule only 2 of 11 worlds ever carried. With the
+            # voice never called here, that per-world prohibition is
+            # unnecessary by construction, not merely unneeded to restate.
             return TurnResult(
                 routing_action=action, routing_reason=gate_result.routing.reason,
                 gate=gate, safety_state_events=safety_states,
                 facilitator_events=[facilitator_turns.dependency_check_turn(world.frame["representative"]["name"])],
-                voice_event=voice_event, degraded=gate_result.degraded,
-                usage_records=usage_records + voice_usage_records,
+                voice_event=None, degraded=gate_result.degraded,
+                usage_records=usage_records,
             )
 
         # Governed (CiC_System_Hub_Decision_Log.md, portfolio decision

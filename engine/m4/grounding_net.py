@@ -67,9 +67,52 @@ from engine.prose import (
 # inside a tag.
 _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 
+# An opener with no closing "]]" anywhere after it - not a malformed tag
+# (engine.m4.output_check's _ANY_TAG already reports those; a different,
+# already-handled defect, since that one still has both brackets). This is
+# what a generation call cut off mid-tag leaves behind: Bedrock's own
+# stream ending inside "[[world.type.slug" with no "]]" ever sent. _TAG's
+# grammar requires the close - deliberately, so a tag it resolves and a
+# tag strip_tags removes can never disagree about what counts as one - so
+# an opener that never closed is never matched by either, and unlike
+# _ANY_TAG (which needs no closing bracket to be well-formed, just to be
+# present) there is no complete pattern here to widen to catch it. Found
+# 2026-09-19, rebuilding a Table transcript for transparency markup: one
+# turn's raw text ended inside an unclosed "[[don.dw.room-for-diss", which
+# strip_tags' own re.sub below left untouched, verbatim, brackets and all.
+_DANGLING_TAG = re.compile(r"\[\[[a-z0-9_.-]*\Z")
+
+
+def _drop_truncated_tail(text: str) -> tuple[str, bool]:
+    """Back a generation cut off mid-tag off to the last sentence this turn
+    actually finished, so the one shape _TAG's own grammar can never catch
+    (an opener with no matching close) never reaches a participant as raw
+    "[[..." syntax.
+
+    This module's design always places a tag BEFORE its sentence's
+    terminal punctuation (this file's own top docstring), so an opener
+    with no close means that sentence's own close was cut too - the same
+    truncation event, not two separate defects. An unclosed tag can only
+    ever occur at the very end of a raw stream (that is where generation
+    stopped), so the one thing known for certain is the last `.`/`!`/`?`
+    before it: the last sentence the voice actually finished. Everything
+    after that boundary was never confirmed complete and does not stream.
+
+    Returns (text, truncated) rather than truncating quietly - REPORTS,
+    NEVER EDITS is this module's own rule, and a report that never fires
+    when an edit happens is not honouring it. Ordinary text with no
+    dangling opener returns unchanged, truncated=False."""
+    match = _DANGLING_TAG.search(text)
+    if not match:
+        return text, False
+    kept = text[: match.start()]
+    last_stop = max(kept.rfind("."), kept.rfind("!"), kept.rfind("?"))
+    return (kept[: last_stop + 1] if last_stop != -1 else ""), True
+
 
 def strip_tags(text: str) -> str:
     """The display transform: what the participant-facing stream emits."""
+    text, _ = _drop_truncated_tail(text)
     return re.sub(r"\s*\[\[[a-z0-9_.-]+\]\]", "", text)
 
 
@@ -82,13 +125,22 @@ def strip_tags(text: str) -> str:
 # the question, the net withheld the echo, and the `---` under it survived
 # glued to the next sentence.
 #
-# Residual [[...]] has never been observed, but it is here because the
-# citation contract makes an explicit promise - "the tags themselves are
-# never shown to the participant" - that strip_tags only keeps for tags the
-# model spells correctly: its pattern is [a-z0-9_.-] with no spaces, so a
-# malformed one like [[THIN GROUND: ...]] passes straight through untouched.
-# One such sentence was withheld for an unrelated reason in testing; nothing
-# would have caught it if it had not been.
+# Residual [[...]] was observed exactly once before this comment was
+# updated (2026-09-19, an unclosed [[don.dw.room-for-diss left by a
+# generation call cut off mid-tag - see _DANGLING_TAG and
+# _drop_truncated_tail above, which now back strip_tags off past it). What
+# is still true, and still here because the citation contract makes an
+# explicit promise - "the tags themselves are never shown to the
+# participant" - that strip_tags only keeps for tags the model spells
+# correctly: a COMPLETE but malformed tag, spelled outside strip_tags'
+# [a-z0-9_.-] pattern (like [[THIN GROUND: ...]], both brackets present),
+# still passes straight through this module untouched. That shape is
+# caught downstream instead, reported (not edited) by
+# engine.m4.output_check's own _ANY_TAG - a deliberate division of labour,
+# not a gap: _drop_truncated_tail only ever had one unambiguous signal to
+# act on (an opener with no close, which can only mean a cut stream), and
+# widening it to cover other malformed spellings would mean guessing at
+# text the model actually finished, which this module does not do.
 #
 # Reports, never edits. Rewriting a turn's text after the fact is the one
 # thing this whole design refuses to do (the fallback ladder appends, it
@@ -167,6 +219,41 @@ def _thin_topic_hits(sentence_lower: str, thin_topics: list[dict] | None) -> lis
     return hits
 
 
+# M-1 (witt go-live adversarial review, 2026-09-20). The scaffold exemption
+# below used to exempt an entire sentence the moment ANY SCAFFOLD_MARKERS
+# phrase appeared anywhere in it - so "...our founder wrote against the
+# peasants' rising, and that writing is part of our own history EVEN WHEN
+# WE CANNOT speak its own words" rode a chronological conflation past the
+# net on the strength of four words at its own tail. The fix narrows the
+# exemption to the clause that actually carries the honesty-scaffolding
+# phrase, not an arbitrary-length sentence attached to it: split on the
+# same clause-level punctuation English prose already uses to separate
+# independent claims, drop only the clause(s) containing a marker, and
+# check what's LEFT the same way any other sentence would be checked. A
+# genuinely pure scaffold sentence ("We must be careful here, and honest
+# about the shape of what we actually hold.") still exempts cleanly - its
+# residual carries no proper noun, number, or enumeration either. A tag
+# counts too, on the same basis check_turn's own tag-overlap branch
+# already uses ("THE TAG IS THE CLAIM"): a scaffold phrase grammatically
+# FUSED with its claim ("We must be honest THAT x [[tag]]") defeats the
+# punctuation split, but the tag still forces the check regardless of
+# which clause it sits in. This does not change entry["sentence"] or the
+# withhold/ok granularity anywhere else in this module: a sentence still
+# streams or doesn't as a whole, exactly as the design already works:
+# this only changes whether the decision to skip checking it gets made
+# honestly.
+_CLAUSE_SPLIT = re.compile(r"[,;:]|--|—")
+
+
+def _scaffold_residual(text: str) -> str:
+    clauses = _CLAUSE_SPLIT.split(text)
+    kept = [
+        c for c in clauses
+        if not any(m in c.lower() for m in SCAFFOLD_MARKERS) and SELF_NAMING_MARKER not in c.lower()
+    ]
+    return " ".join(kept)
+
+
 def check_turn(
     tagged_text: str,
     repository_records: dict[str, dict],
@@ -186,7 +273,15 @@ def check_turn(
 
     Citation-badge display stays engine.m4.grounding's job (excerpt match
     gates decoration) - this check decides only what may stream at all.
+
+    tagged_text is backed off past any generation cut off mid-tag
+    (_drop_truncated_tail) before it is split into sentences at all, the
+    same normalization strip_tags applies to the text turn.apply_net
+    actually displays - so this function's own sentence list can never
+    describe a fragment the participant was never shown. result["truncated"]
+    is that normalization's own report, not a silent edit.
     """
+    tagged_text, truncated = _drop_truncated_tail(tagged_text)
     figure_names = build_figure_lexicon(repository_records)
     results = []
     for sent in parse_tagged(tagged_text):
@@ -196,8 +291,21 @@ def check_turn(
         results.append(entry)
 
         if any(m in lower for m in SCAFFOLD_MARKERS) or SELF_NAMING_MARKER in lower:
-            entry["why"] = "exempt: honesty scaffolding / sanctioned self-naming"
-            continue
+            residual = _scaffold_residual(text)
+            # A tag is itself a claim ("this sentence came from that
+            # record" - the tag-overlap branch below exists for exactly
+            # this), so a tagged sentence needs the same check whether or
+            # not a scaffold phrase also sits in it somewhere.
+            residual_markers = bool(tags) or bool(claim_markers(residual)) or bool(figure_names & content_words(residual))
+            if not residual_markers:
+                entry["why"] = "exempt: honesty scaffolding / sanctioned self-naming"
+                continue
+            # Something besides the scaffold phrase itself still makes a
+            # checkable claim - fall through to the same pipeline every
+            # other sentence goes through, over the FULL sentence text
+            # (the scaffold clause's own words carry no proper noun,
+            # number, or enumeration, so they cannot themselves trip a
+            # withhold; whatever fires below is the real content).
 
         unknown = [t for t in tags if t not in repository_records]
         if unknown:
@@ -277,7 +385,7 @@ def check_turn(
             )
 
     substantive_survives = any(r["verdict"] == "ok" and r["tags"] for r in results)
-    return {"sentences": results, "substantive_survives": substantive_survives}
+    return {"sentences": results, "substantive_survives": substantive_survives, "truncated": truncated}
 
 
 def scope_completion(record_ids: list[str], repository_records: dict[str, dict]) -> list[str]:

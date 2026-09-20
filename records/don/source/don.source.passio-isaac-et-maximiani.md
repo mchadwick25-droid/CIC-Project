@@ -24,10 +24,7 @@ work: Passio Isaac et Maximiani -- in the vendored text, Macrobius's own letter 
 edition: J.-P. Migne (ed.), Patrologia Latina vol. 8, the Monumenta Vetera ad Donatistarum historiam pertinentia;
   vendored (relevant excerpt only) as cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
-  by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
-  vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by
-  this compilation pass.
+rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: 'attributed to Macrobius by the work''s own rubric (''PASSIO MAXIMIANI ET ISAAC DONATISTARUM
   AUCTORE MACROBIO'') and its own explicit (''Explicit epistola beatissimi martyris Macrobi ad plebem
   Karthaginis...''). This corrects the row''s own conventional title: it is Macrobius''s own letter to

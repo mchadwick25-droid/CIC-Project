@@ -23,9 +23,7 @@ work: Petilian's letters, surviving only as quoted -- clause by clause -- inside
 edition: No independent edition exists. Held within cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
   inside its refutation.
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ as part of the shared patristic library since an
-  earlier session, rights basis established there (the file's own provenance header states Public Domain)
-  and not re-checked by this compilation pass.
+rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed to Petilian of Constantina by Augustine's own quotation. No independent
   manuscript transmission survives; paraphrase is distinguished from direct quotation only where the containing
   text makes that checkable (Registry row 12).

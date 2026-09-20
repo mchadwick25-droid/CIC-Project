@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Church of the Martyrs — Church in Conversation</title>
+<meta name="description" content="Fidelis is a representative voice for the Donatist church of Roman North Africa, c. 311 to 439 CE. Where the record is quiet, the questions people bring, and what he is built from.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --lapis-text:#9DB4F0;
+  --control:#A39B92;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --tint:#4C946A;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0 0 1rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.sans{font-family:var(--sans)}
+.muted{color:var(--muted)}
+/* Logo, wordmark, the three feature buttons, and the site nav all in one
+   row (Mark, 2026-09-19): the nav collapses into a "Menu" dropdown since
+   all four don't fit alongside the rest in one row at this header's own
+   1024px width. */
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.menu{position:relative;margin-left:auto}
+/* Centered in the space actually available between the logo and the menu
+   button, not naive full-row-width centering (that ignores the wordmark's
+   and menu button's own widths and can visually collide with the
+   wordmark) -- Mark, 2026-09-19: "can you center them". Grid's
+   max-content/1fr/max-content sizes the outer two columns to the
+   wordmark's and menu's own content exactly, so the middle column is
+   whatever's genuinely left, with no risk of overlapping either side --
+   only turned on above the width where the whole row fits unwrapped. */
+@media (min-width:1000px){
+  .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
+  .menu{margin-left:0}
+  .feature-bar{justify-self:center}
+}
+.menu-toggle{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--text);background:none;border:1px solid var(--rule);border-radius:999px;padding:.5rem 1.1rem;min-height:38px;display:inline-flex;align-items:center;gap:.4rem;cursor:pointer}
+.menu-toggle:hover,.menu-toggle:focus-visible,.menu-toggle[aria-expanded="true"]{border-color:var(--action);color:var(--action)}
+.menu-caret{width:.65rem;height:.65rem;flex:0 0 auto;transition:transform .15s ease}
+.menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
+/* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
+   real gap is a dead zone the pointer crosses with no element under it,
+   which drops :hover before the pointer reaches the menu (Mark, 2026-09-19:
+   "you shouldn't have to click to get it to allow you to move in the hover
+   mode"). The ::before bridges the .5rem visual gap so :hover survives the
+   crossing while keeping the breathing room. */
+.site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
+.site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
+.menu:hover .site-nav,.menu.open .site-nav{display:flex}
+.site-nav a{color:var(--text);text-decoration:none;padding:.65rem .8rem;border-radius:6px;min-height:44px;display:flex;align-items:center}
+.site-nav a:hover,.site-nav a:focus-visible{background:rgba(241,233,221,.08)}
+.site-nav a[aria-current="page"]{color:var(--action)}
+.site-nav a[hidden]{display:none}
+.page{max-width:var(--col);margin:0 auto;padding:0 1.25rem}
+.crumbs{font-family:var(--sans);font-size:.875rem;color:var(--muted);padding:1rem 0 0}
+.crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem .5rem}
+.crumbs li+li::before{content:"›";margin-right:.5rem}
+.crumbs a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+.titleblock{display:grid;gap:1.5rem;padding:1.2rem 0 1.4rem;align-items:start}
+@media (min-width:900px){ .titleblock{grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:3rem} }
+.titleblock .ident{font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 .5rem}
+.titleblock h1{font-size:clamp(2.1rem,4.8vw,3.2rem);line-height:1.05;margin:0 0 .5rem}
+.titleblock .formal{font-style:italic;color:var(--muted);margin:0 0 1rem}
+.titleblock .tile{font-size:1.15rem;line-height:1.5;max-width:var(--measure)}
+.status{font-family:var(--sans);font-size:.875rem;color:var(--text);border-left:3px solid var(--tint);padding-left:.7rem;margin:0 0 1rem}
+.plate{max-width:20rem}
+.plate figure{margin:0}
+.plate img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;border:1px solid var(--rule);background:var(--surface)}
+.plate figcaption{font-family:var(--sans);font-size:.875rem;color:var(--muted);line-height:1.45;margin-top:.6rem}
+.plate figcaption b{color:var(--text);font-weight:600}
+.ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 0 1.1rem}
+.held{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--lapis-text);border-radius:0 3px 3px 0;padding:.9rem 1.1rem;margin:0 0 1.1rem;max-width:var(--measure)}
+.held .k{font-family:var(--sans);font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--lapis-text);margin:0 0 .25rem}
+.held .q{font-style:italic;font-size:1.15rem;margin:0 0 .35rem}
+.held .edit{font-family:var(--sans);font-size:.9rem}
+.seat{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:.9rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1.4rem;font-family:var(--sans);font-size:.95rem}
+.seat .seated{margin:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:600;font-size:.95rem;line-height:1.2;padding:.6rem 1.1rem;min-height:44px;border-radius:3px;text-decoration:none;cursor:pointer;border:1.5px solid var(--btn-edge);background:var(--btn-fill);color:var(--btn-text)}
+.btn:hover,.btn:focus-visible{background:var(--madder-deep);color:var(--btn-text)}
+.btn.quiet{background:transparent;color:var(--action);border-color:var(--action)}
+.btn.quiet:hover,.btn.quiet:focus-visible{background:transparent;color:var(--action-hover);border-color:var(--action-hover)}
+.seat .also{color:var(--muted)}
+.seat .also a{display:inline-flex;align-items:center;min-height:44px}
+.article{padding:1.6rem 0 .5rem}
+.article>section{padding:1.4rem 0 1.2rem;border-top:1px solid var(--rule)}
+.article>section:first-child{border-top:none;padding-top:.6rem}
+.reading{max-width:var(--measure);font-size:1.125rem;line-height:1.6}
+.reading p{text-wrap:pretty}
+.article h2{font-size:clamp(1.5rem,3vw,1.9rem);margin:0 0 .3rem}
+.distress{font-family:var(--sans);font-size:.95rem;color:var(--muted);max-width:var(--measure)}
+.questions{list-style:none;margin:.5rem 0 0;padding:0;border-top:1px solid var(--rule)}
+.questions li{border-bottom:1px solid var(--rule);padding:.5rem 0}
+.questions a{display:flex;align-items:flex-start;gap:.6rem;color:var(--text);text-decoration:none;font-style:italic;font-size:1.1rem;line-height:1.4;padding:.5rem .1rem;min-height:44px}
+.questions a::before{content:"—";color:var(--action);font-style:normal;flex:0 0 auto}
+.questions a::after{content:"→";color:var(--action);font-style:normal;margin-left:auto;padding-left:.6rem;flex:0 0 auto}
+.questions a:hover,.questions a:focus-visible{color:var(--action-hover);text-decoration:underline;text-decoration-color:var(--action)}
+.questions .from{display:block;font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:.1rem 0 .3rem 1.5rem;line-height:1.45}
+.door{border-top:1px solid var(--rule);background:var(--surface);text-align:center;padding:2.5rem 1.25rem 2.5rem}
+.door h2{font-size:clamp(1.7rem,3vw,2.3rem);margin:0 0 .7rem}
+.door p{max-width:var(--measure);margin-left:auto;margin-right:auto}
+.door .actions{display:flex;justify-content:center;flex-wrap:wrap;gap:.8rem;margin:1.2rem 0 1rem}
+.door .also{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.door .also a{display:inline-flex;align-items:center;min-height:44px}
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
+.site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+@media print{ .site-header,.seat,.door .actions,.skip-link{display:none} }
+
+/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table */
+.feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
+.feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--vellum);background:var(--madder);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--madder);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
+.feature-btn:hover,.feature-btn:focus-visible{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}
+.feature-btn[aria-current="page"]{border-color:var(--action)}
+@media (max-width:640px){.feature-bar{gap:.5rem}.feature-btn{font-size:.8rem;padding:.45rem .9rem}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="row">
+    <a class="wordmark" href="../index.html">Church <em>in</em> Conversation</a>
+    <nav class="feature-bar" aria-label="Main features">
+      <a class="feature-btn" href="../atlas-v3.html">Church Family Tree</a>
+      <a class="feature-btn" href="../index.html#who">Conversation with One</a>
+      <a class="feature-btn" href="../table.html">Build a Table</a>
+    </nav>
+    <div class="menu">
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
+        Menu
+        <svg class="menu-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <nav class="site-nav" id="site-menu" aria-label="Site">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="page">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#who">Who's at the table</a></li>
+        <li aria-current="page">The Church of the Martyrs</li>
+      </ol>
+    </nav>
+
+    <div class="titleblock">
+      <div>
+        <p class="ident">The Imperial Church Era · c. 311–439 CE · Carthage &amp; Numidia, Roman North Africa</p>
+        <h1>The Church of the Martyrs</h1>
+        <p class="formal">Donatism</p>
+        <p class="status">Open for conversation — you can sit down with this tradition now.</p>
+        <p class="tile">In 311/312, Caecilian was consecrated bishop of Carthage by a man accused of surrendering his copy of the scriptures when ordered to — and a rival was consecrated beside him because of it, not in his place. From that day the same see held two bishops at once, two parallel hierarchies contesting town after town across Roman North Africa, each holding its own basilicas and its own unbroken line of ordination. This is the rigorist alternative communion that grew from that refusal: not a doctrinal heresy — its confession is standard North African Latin Trinitarian and Christological orthodoxy — but a communion built on one unyielding conviction, that a tainted hand cannot give what it claims to give, lived out through rebaptism, the martyrs' graves read aloud once a year, and a refusal of the Christian emperor's own standing to judge the church. It closes in 439, when a Vandal army took Carthage and removed the Roman state this whole refusal was defined against.</p>
+      </div>
+      <aside class="plate" aria-label="Portrait">
+        <figure>
+          <img src="../assets/portraits/donatism.png" alt="Fidelis: a North African bishop in late middle age, olive-to-brown complexion, short close-cropped dark hair and beard touched with grey, in plain unbleached wool garments with no jewelry, both bare hands cupped together at his chest as though administering a rite, painted against a warm neutral ground." width="748" height="748">
+          <figcaption><b>Fidelis, Bishop of the Unbroken Line.</b> A representative voice for the Donatist church — the rigorist communion of Roman North Africa built on the conviction that a tainted hand cannot give what it claims to give.</figcaption>
+        </figure>
+      </aside>
+    </div>
+
+    <p class="ai-line">Fidelis is a representative voice for this tradition, not a person who lived — built from its own letters and records, and honest about where they run out.</p>
+
+    <div class="held" id="held" hidden>
+      <p class="k">Your question, held:</p>
+      <p class="q" id="held-q"></p>
+      <a class="edit" id="held-edit" href="../index.html">Edit it</a>
+    </div>
+
+    <div class="seat" role="region" aria-label="Fidelis is seated">
+      <p class="seated">Fidelis is seated. Begin when you're ready — or read on.</p>
+      <a class="btn quiet" id="seat-begin" href="../talk.html?worlds=donatism&amp;mode=interview&amp;from=traditions%2Fdonatism.html" data-ask>Begin a conversation with Fidelis</a>
+      <span class="also"><a id="seat-bring" href="../table.html?worlds=donatism">Bring Fidelis to the Table →</a></span>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="article">
+      <section aria-labelledby="who-speaks-title">
+        <p class="eyebrow">Who is speaking</p>
+        <h2 id="who-speaks-title">A representative voice, speaking for a century of two rival churches</h2>
+        <div class="reading">
+          <p>Fidelis is a voice, not a person who lived — this communion's own whole documented life given one voice, formed across Carthage, Numidia, and Cirta, from the year a bishop of Carthage was accused of surrendering the scriptures under persecution and a rival was consecrated beside him because of it (311 or 312), to the year an invading army took Carthage from the empire that had so often ruled against this communion (439). He speaks the way a people speaks of itself: <em>we</em>, <em>our</em>, <em>among us</em> — never as the memory of one witness within it, and never claiming a single see or a private history of his own.</p>
+          <p>Where this communion's own record shows real disagreement, Fidelis keeps it visible rather than smoothing it into one mind that was never actually of one mind — most sharply, a purity doctrine held at full strength beside the Maximianist clergy this communion received back without repeating the rebaptism it otherwise insists on, and a refusal of any emperor's standing to judge the church held beside the three separate times this same communion turned to that same imperial power when it served its own case.</p>
+          <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="quiet-title">
+        <p class="eyebrow">Where we are quiet</p>
+        <h2 id="quiet-title">Whose voice you are really hearing</h2>
+        <div class="reading">
+          <p>So much of this communion's own richest, most quotable record — Augustine's, Optatus's — survives only because it was composed to attack this communion, not to form it. Fidelis reaches for a word or an image only from what actually formed this communion's own life, never from the hand that argued against it, however more vivid that hand's own words might be.</p>
+          <p>We cannot walk you through a day. Not one of us wrote a morning down — no letter describes a meal, a field, a workshop, or a bed where someone lay dying. For long stretches we were the larger church in Africa, not a minority within it, so the voices missing here are not a few poor cousins at the edge of the record; they are nearly all of us. Of our women you have one name, Lucilla, and one more woman nobody troubled to name at all — both reaching you inside a book written to blame them for the schism. What we can hand you instead is one day: every year, on the day one of our own was killed, we stood at the grave and heard the account of that death read out again. The other three hundred and sixty-four we cannot.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="questions-title">
+        <p class="eyebrow">Questions people bring to this table</p>
+        <h2 id="questions-title">Start with the hard one</h2>
+        <div class="reading">
+          <ul class="questions">
+            <li><a href="../talk.html?worlds=donatism&amp;mode=interview&amp;from=traditions%2Fdonatism.html" data-ask>What business does the emperor have with your church?<span class="vh"> — ask Fidelis</span></a><span class="from">Donatus, quoted in Optatus, <i>Against the Donatists</i> III — "What has the Emperor to do with the Church?"</span></li>
+            <li><a href="../talk.html?worlds=donatism&amp;mode=interview&amp;from=traditions%2Fdonatism.html" data-ask>What actually made a sacrament valid to you?<span class="vh"> — ask Fidelis</span></a><span class="from">Petilian, quoted in Augustine, <i>Answer to the Letters of Petilian</i> II.3 — "What we look for is the conscience of the giver, to cleanse that of the recipient."</span></li>
+            <li><a href="../talk.html?worlds=donatism&amp;mode=interview&amp;from=traditions%2Fdonatism.html" data-ask>What did you say that no enemy of yours ever wrote down?<span class="vh"> — ask Fidelis</span></a><span class="from">CIL VIII 17732, cut into two pillars near Bagai — "DEO LAVDES," praise to God, this communion's own acclamation against the rival church's "Deo gratias."</span></li>
+            <li><a href="../talk.html?worlds=donatism&amp;mode=interview&amp;from=traditions%2Fdonatism.html" data-ask>What was an ordinary day like for you?<span class="vh"> — ask Fidelis</span></a><span class="from">This world's own honest limit: not one of us wrote a morning down — the ordinary day does not survive in our own record.</span></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<section class="door" aria-labelledby="door-title">
+  <p class="eyebrow">The Table</p>
+  <h2 id="door-title">Come and join us at the Table</h2>
+  <div class="actions">
+    <a class="btn" id="door-begin" href="../talk.html?worlds=donatism&amp;mode=interview&amp;from=traditions%2Fdonatism.html" data-ask>Begin a conversation with Fidelis</a>
+    <a class="btn quiet" id="door-bring" href="../table.html?worlds=donatism">Bring Fidelis to the Table</a>
+  </div>
+  <p class="also">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
+  <p class="also"><a href="../index.html#who">The other eight chairs →</a></p>
+</section>
+
+<footer class="site-footer">
+  <div class="row">
+    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav aria-label="Footer">
+      <a href="../about.html">About</a>
+      <a href="../pilot-feedback.html">Feedback</a>
+      <a href="../privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+Array.prototype.forEach.call(document.querySelectorAll('a[data-ask]'), function(a){ a.dataset.hrefBase = a.href; });
+function readHash(){
+  var h = window.location.hash;
+  if (h.indexOf('#q=') !== 0) return '';
+  var text;
+  try { text = decodeURIComponent(h.slice(3)); } catch(e){ return ''; }
+  return text.trim().slice(0, 280);
+}
+var heldText = readHash();
+if (heldText) {
+  document.getElementById('held-q').textContent = heldText;
+  document.getElementById('held').hidden = false;
+  document.getElementById('held-edit').href = '../index.html#q=' + encodeURIComponent(heldText);
+  try { history.replaceState(null, '', '#q=' + encodeURIComponent(heldText)); } catch(e){}
+  Array.prototype.forEach.call(document.querySelectorAll('a[data-ask]'), function(a){
+    a.href = a.dataset.hrefBase + '#q=' + encodeURIComponent(heldText);
+  });
+}
+var menu = document.querySelector('.menu');
+var menuToggle = document.getElementById('menu-toggle');
+if (menu && menuToggle) {
+  menuToggle.addEventListener('click', function(ev){
+    ev.stopPropagation();
+    var isOpen = menu.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.addEventListener('click', function(ev){
+    if (!menu.contains(ev.target)) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('keydown', function(ev){
+    if (ev.key === 'Escape' && menu.classList.contains('open')) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.focus();
+    }
+  });
+}
+})();
+</script>
+</body>
+</html>

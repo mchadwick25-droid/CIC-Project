@@ -1,0 +1,27 @@
+---
+id: witt.source.luther-treatise-on-good-works
+world_id: lutheran-wittenberg-and-its-congregations
+record_type: source
+schema_version: 2
+status: draft
+register: etic
+canon_cells: []
+confidence:
+  citation_specificity: B
+  verification_state: named-not-rechecked
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+  divergence_note: null
+sources: []
+relations: []
+author: Luther
+work: A Treatise on Good Works
+edition: (1520), to Duke John, trans. Steinhaeuser, vol. I; vendored as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt
+kind: vendored
+rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
+attribution_status: attributed
+discovery_channel: builder-direct-read; Source Registry row 6; v1 contents; 2026-09-15
+external_ids:
+  witt_source_registry_row: 6
+---
+Faith/works; Decalogue exposition (catechesis gravity precursor). (Source Registry row 6; Confidence B.)

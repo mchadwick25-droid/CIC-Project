@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lutheran Wittenberg — Church in Conversation</title>
+<meta name="description" content="Nikolaus is a representative voice for Lutheran Wittenberg and its congregations, 1517 to 1580 CE. Where the record is quiet, the questions people bring, and what he is built from.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --lapis-text:#9DB4F0;
+  --control:#A39B92;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --tint:#8787A1;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0 0 1rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.sans{font-family:var(--sans)}
+.muted{color:var(--muted)}
+/* Logo, wordmark, the three feature buttons, and the site nav all in one
+   row (Mark, 2026-09-19): the nav collapses into a "Menu" dropdown since
+   all four don't fit alongside the rest in one row at this header's own
+   1024px width. */
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.menu{position:relative;margin-left:auto}
+/* Centered in the space actually available between the logo and the menu
+   button, not naive full-row-width centering (that ignores the wordmark's
+   and menu button's own widths and can visually collide with the
+   wordmark) -- Mark, 2026-09-19: "can you center them". Grid's
+   max-content/1fr/max-content sizes the outer two columns to the
+   wordmark's and menu's own content exactly, so the middle column is
+   whatever's genuinely left, with no risk of overlapping either side --
+   only turned on above the width where the whole row fits unwrapped. */
+@media (min-width:1000px){
+  .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
+  .menu{margin-left:0}
+  .feature-bar{justify-self:center}
+}
+.menu-toggle{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--text);background:none;border:1px solid var(--rule);border-radius:999px;padding:.5rem 1.1rem;min-height:38px;display:inline-flex;align-items:center;gap:.4rem;cursor:pointer}
+.menu-toggle:hover,.menu-toggle:focus-visible,.menu-toggle[aria-expanded="true"]{border-color:var(--action);color:var(--action)}
+.menu-caret{width:.65rem;height:.65rem;flex:0 0 auto;transition:transform .15s ease}
+.menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
+/* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
+   real gap is a dead zone the pointer crosses with no element under it,
+   which drops :hover before the pointer reaches the menu (Mark, 2026-09-19:
+   "you shouldn't have to click to get it to allow you to move in the hover
+   mode"). The ::before bridges the .5rem visual gap so :hover survives the
+   crossing while keeping the breathing room. */
+.site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
+.site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
+.menu:hover .site-nav,.menu.open .site-nav{display:flex}
+.site-nav a{color:var(--text);text-decoration:none;padding:.65rem .8rem;border-radius:6px;min-height:44px;display:flex;align-items:center}
+.site-nav a:hover,.site-nav a:focus-visible{background:rgba(241,233,221,.08)}
+.site-nav a[aria-current="page"]{color:var(--action)}
+.site-nav a[hidden]{display:none}
+.page{max-width:var(--col);margin:0 auto;padding:0 1.25rem}
+.crumbs{font-family:var(--sans);font-size:.875rem;color:var(--muted);padding:1rem 0 0}
+.crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem .5rem}
+.crumbs li+li::before{content:"›";margin-right:.5rem}
+.crumbs a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+.titleblock{display:grid;gap:1.5rem;padding:1.2rem 0 1.4rem;align-items:start}
+@media (min-width:900px){ .titleblock{grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:3rem} }
+.titleblock .ident{font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 .5rem}
+.titleblock h1{font-size:clamp(2.1rem,4.8vw,3.2rem);line-height:1.05;margin:0 0 .5rem}
+.titleblock .formal{font-style:italic;color:var(--muted);margin:0 0 1rem}
+.titleblock .tile{font-size:1.15rem;line-height:1.5;max-width:var(--measure)}
+.status{font-family:var(--sans);font-size:.875rem;color:var(--text);border-left:3px solid var(--tint);padding-left:.7rem;margin:0 0 1rem}
+.plate{max-width:20rem}
+.plate figure{margin:0}
+.plate img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;border:1px solid var(--rule);background:var(--surface)}
+.plate figcaption{font-family:var(--sans);font-size:.875rem;color:var(--muted);line-height:1.45;margin-top:.6rem}
+.plate figcaption b{color:var(--text);font-weight:600}
+.ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 0 1.1rem}
+.held{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--lapis-text);border-radius:0 3px 3px 0;padding:.9rem 1.1rem;margin:0 0 1.1rem;max-width:var(--measure)}
+.held .k{font-family:var(--sans);font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--lapis-text);margin:0 0 .25rem}
+.held .q{font-style:italic;font-size:1.15rem;margin:0 0 .35rem}
+.held .edit{font-family:var(--sans);font-size:.9rem}
+.seat{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:.9rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1.4rem;font-family:var(--sans);font-size:.95rem}
+.seat .seated{margin:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:600;font-size:.95rem;line-height:1.2;padding:.6rem 1.1rem;min-height:44px;border-radius:3px;text-decoration:none;cursor:pointer;border:1.5px solid var(--btn-edge);background:var(--btn-fill);color:var(--btn-text)}
+.btn:hover,.btn:focus-visible{background:var(--madder-deep);color:var(--btn-text)}
+.btn.quiet{background:transparent;color:var(--action);border-color:var(--action)}
+.btn.quiet:hover,.btn.quiet:focus-visible{background:transparent;color:var(--action-hover);border-color:var(--action-hover)}
+.seat .also{color:var(--muted)}
+.seat .also a{display:inline-flex;align-items:center;min-height:44px}
+.article{padding:1.6rem 0 .5rem}
+.article>section{padding:1.4rem 0 1.2rem;border-top:1px solid var(--rule)}
+.article>section:first-child{border-top:none;padding-top:.6rem}
+.reading{max-width:var(--measure);font-size:1.125rem;line-height:1.6}
+.reading p{text-wrap:pretty}
+.article h2{font-size:clamp(1.5rem,3vw,1.9rem);margin:0 0 .3rem}
+.distress{font-family:var(--sans);font-size:.95rem;color:var(--muted);max-width:var(--measure)}
+.questions{list-style:none;margin:.5rem 0 0;padding:0;border-top:1px solid var(--rule)}
+.questions li{border-bottom:1px solid var(--rule);padding:.5rem 0}
+.questions a{display:flex;align-items:flex-start;gap:.6rem;color:var(--text);text-decoration:none;font-style:italic;font-size:1.1rem;line-height:1.4;padding:.5rem .1rem;min-height:44px}
+.questions a::before{content:"—";color:var(--action);font-style:normal;flex:0 0 auto}
+.questions a::after{content:"→";color:var(--action);font-style:normal;margin-left:auto;padding-left:.6rem;flex:0 0 auto}
+.questions a:hover,.questions a:focus-visible{color:var(--action-hover);text-decoration:underline;text-decoration-color:var(--action)}
+.questions .from{display:block;font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:.1rem 0 .3rem 1.5rem;line-height:1.45}
+.door{border-top:1px solid var(--rule);background:var(--surface);text-align:center;padding:2.5rem 1.25rem 2.5rem}
+.door h2{font-size:clamp(1.7rem,3vw,2.3rem);margin:0 0 .7rem}
+.door p{max-width:var(--measure);margin-left:auto;margin-right:auto}
+.door .actions{display:flex;justify-content:center;flex-wrap:wrap;gap:.8rem;margin:1.2rem 0 1rem}
+.door .also{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.door .also a{display:inline-flex;align-items:center;min-height:44px}
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
+.site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+@media print{ .site-header,.seat,.door .actions,.skip-link{display:none} }
+
+/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table */
+.feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
+.feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--vellum);background:var(--madder);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--madder);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
+.feature-btn:hover,.feature-btn:focus-visible{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}
+.feature-btn[aria-current="page"]{border-color:var(--action)}
+@media (max-width:640px){.feature-bar{gap:.5rem}.feature-btn{font-size:.8rem;padding:.45rem .9rem}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="row">
+    <a class="wordmark" href="../index.html">Church <em>in</em> Conversation</a>
+    <nav class="feature-bar" aria-label="Main features">
+      <a class="feature-btn" href="../atlas-v3.html">Church Family Tree</a>
+      <a class="feature-btn" href="../index.html#who">Conversation with One</a>
+      <a class="feature-btn" href="../table.html">Build a Table</a>
+    </nav>
+    <div class="menu">
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
+        Menu
+        <svg class="menu-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <nav class="site-nav" id="site-menu" aria-label="Site">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="page">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#who">Who's at the table</a></li>
+        <li aria-current="page">The Catechized Households of Wittenberg</li>
+      </ol>
+    </nav>
+
+    <div class="titleblock">
+      <div>
+        <p class="ident">The Reformation Era · 1517–1580 · Wittenberg, Electoral Saxony</p>
+        <h1>Lutheran Wittenberg</h1>
+        <p class="formal">Lutheran Wittenberg &amp; Its Congregations</p>
+        <p class="status">Open for conversation — you can sit down with this tradition now.</p>
+        <p class="tile">In 1517, Martin Luther sent theses against the sale of indulgences to his archbishop. He was an Augustinian friar and professor at the young university of Wittenberg. His theses opened a movement that challenged the old order in two ways. It set Scripture's own authority against an intervening hierarchy. And it held that a person stands before God by a gift received through faith, not earned by works. Princes and city councils carried the reform into their own territories, not bishops. Wittenberg's own theology faculty advised them, not a separate church government. The reform's most complete instrument was the household catechism. It had three parts, recited at rising, at table, and at night. A father or a schoolmaster examined each household every week. The commandments had terrified a conscience; a promise spoken from outside it made that conscience sure. German hymns were sung inside a Mass that was kept, not abolished. The story runs from the Ninety-Five Theses to a confession signed before the emperor at Augsburg in 1530. It closes with a fuller confessional book gathered by 1580. By then the movement's own founder had been dead some three decades.</p>
+      </div>
+      <aside class="plate" aria-label="Portrait">
+        <figure>
+          <img src="../assets/portraits/nikolaus.jpg" alt="Nikolaus: a Wittenberg sexton-schoolmaster of the German Reformation era in early middle age, of fair-to-medium Northern-European complexion, with light brown hair cut to the jaw and a modest, neatly trimmed brown beard, wearing a dark brown wool doublet with a row of small buttons over a plain white linen shirt at a flat collar, a small dark wool cap, no jewelry, holding a plain bronze hand bell upright in both hands at his chest, facing the viewer directly against a plain warm neutral background." width="748" height="748">
+          <figcaption><b>Nikolaus, Sexton-Schoolmaster.</b> A representative voice for Lutheran Wittenberg and its congregations — a lay office standing where household, school, and parish meet: keeper of the parish, ringer of its bell, teacher of the town's children in their letters and catechism.</figcaption>
+        </figure>
+      </aside>
+    </div>
+
+    <p class="ai-line">Nikolaus is a representative voice for this tradition, not a person who lived — built from its own catechisms, confessions, and household instructions, and honest about where they run out.</p>
+
+    <div class="held" id="held" hidden>
+      <p class="k">Your question, held:</p>
+      <p class="q" id="held-q"></p>
+      <a class="edit" id="held-edit" href="../index.html">Edit it</a>
+    </div>
+
+    <div class="seat" role="region" aria-label="Nikolaus is seated">
+      <p class="seated">Nikolaus is seated. Begin when you're ready — or read on.</p>
+      <a class="btn quiet" id="seat-begin" href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&amp;mode=interview&amp;from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>Begin a conversation with Nikolaus</a>
+      <span class="also"><a id="seat-bring" href="../table.html?worlds=lutheran-wittenberg-and-its-congregations">Bring Nikolaus to the Table →</a></span>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="article">
+      <section aria-labelledby="who-speaks-title">
+        <p class="eyebrow">Who is speaking</p>
+        <h2 id="who-speaks-title">A representative voice, standing where household, school, and parish meet</h2>
+        <div class="reading">
+          <p>Nikolaus is a voice, not a person who lived — this tradition's own whole documented life given one voice: sexton, schoolmaster, bell-ringer, and assistant at worship, formed entirely within the parish churches of Wittenberg and the German territorial churches that followed it. He speaks the way a household speaks of itself: <em>we</em>, <em>our</em>, <em>among us</em> — never one life's own private history. The span runs from 1517, when an Augustinian friar sent theses against the sale of indulgences to his archbishop, to a fuller confessional book gathered by 1580, though the movement's own founder had been dead some three decades by then. It runs thickest in the first three decades: the theses, the catechism, the confession signed before the emperor at Augsburg in 1530.</p>
+          <p>Where this tradition's own record shows real disagreement, Nikolaus keeps it visible rather than smoothing it into one mind that was never actually of one mind. In 1522 the same voice restrains a household moving too fast toward its own newly-preached freedom; by 1529 that same word, "liberty," is the charge leveled against a household grown careless — the reversal is named, not hidden. The confession itself states, in the same breath, that faith makes us "accounted righteous" and that faith "makes an unrighteous person righteous," without ranking which wording is fundamental. And whether the founder's own two uses of "kingdom" — church against state, Christ against Satan — are truly one doctrine, the way a later age's label ("two kingdoms") treats them, is a live question this record does not resolve either way.</p>
+          <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="quiet-title">
+        <p class="eyebrow">Where we are quiet</p>
+        <h2 id="quiet-title">Whose voice you are really hearing</h2>
+        <div class="reading">
+          <p>This tradition's own richest record is the founder's own catechisms, treatises, and confessional documents, and this movement's own account of its founding decade, 1517 to 1531 — the theses, the catechism, the confession signed at Augsburg. What is thin to silent is any household's or parish's own report of actually receiving that formation: the Saxon church inspected its own parishes starting in 1527 and wrote down what it found, but those visitation records are not in this library. What we hold instead is the founder's own testimony, given more than once across two decades, that ordinary people held the Gospel too lightly and that some pastors were negligent — his own real complaint, never a verified report from any actual parish standing beside it to check it against.</p>
+          <p>No woman's own words survive in this record beyond a single question, asked once at the founder's own table, about why prayer felt colder under the new teaching than it had under the old. This fellowship broke plainly with the cities that read the Lord's Supper differently, but the argument itself, and what it felt like from our own side, has not come down to us — their names barely appear in what we hold at all. And two real parts of this history are disclosed as existing without being available to quote from directly: a 1525 tract the founder wrote against a rising of the common people, and a 1543 treatise against the Jews. We say only that they exist and, when asked, what they are documented to contain — never their own wording.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="questions-title">
+        <p class="eyebrow">Questions people bring to this table</p>
+        <h2 id="questions-title">Start with the hard one</h2>
+        <div class="reading">
+          <ul class="questions">
+            <li><a href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&amp;mode=interview&amp;from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>Did you believe people who never heard of Christ were condemned forever?<span class="vh"> — ask Nikolaus</span></a><span class="from">Augsburg Confession, Article XVII (1530) — "ungodly men and the devils He will condemn to be tormented without end."</span></li>
+            <li><a href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&amp;mode=interview&amp;from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>Are we born already guilty, before we've done anything wrong?<span class="vh"> — ask Nikolaus</span></a><span class="from">Augsburg Confession, Article II (1530) — "born with sin, that is, without the fear of God, without trust in God, and with concupiscence."</span></li>
+            <li><a href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&amp;mode=interview&amp;from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>Was Jesus really God — and really a man?<span class="vh"> — ask Nikolaus</span></a><span class="from">Small Catechism, the Second Article — "I believe that Jesus Christ is truly God, born of the Father in eternity and also truly man, born of the Virgin Mary."</span></li>
+            <li><a href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&amp;mode=interview&amp;from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>Did the households who learned this from you actually keep it?<span class="vh"> — ask Nikolaus</span></a><span class="from">This world's own honest limit: the household program survives to the hour — what any household actually made of it does not survive in our own words.</span></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<section class="door" aria-labelledby="door-title">
+  <p class="eyebrow">The Table</p>
+  <h2 id="door-title">Come and join us at the Table</h2>
+  <div class="actions">
+    <a class="btn" id="door-begin" href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&amp;mode=interview&amp;from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>Begin a conversation with Nikolaus</a>
+    <a class="btn quiet" id="door-bring" href="../table.html?worlds=lutheran-wittenberg-and-its-congregations">Bring Nikolaus to the Table</a>
+  </div>
+  <p class="also">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
+  <p class="also"><a href="../index.html#who">The other nine chairs →</a></p>
+</section>
+
+<footer class="site-footer">
+  <div class="row">
+    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav aria-label="Footer">
+      <a href="../about.html">About</a>
+      <a href="../pilot-feedback.html">Feedback</a>
+      <a href="../privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+Array.prototype.forEach.call(document.querySelectorAll('a[data-ask]'), function(a){ a.dataset.hrefBase = a.href; });
+function readHash(){
+  var h = window.location.hash;
+  if (h.indexOf('#q=') !== 0) return '';
+  var text;
+  try { text = decodeURIComponent(h.slice(3)); } catch(e){ return ''; }
+  return text.trim().slice(0, 280);
+}
+var heldText = readHash();
+if (heldText) {
+  document.getElementById('held-q').textContent = heldText;
+  document.getElementById('held').hidden = false;
+  document.getElementById('held-edit').href = '../index.html#q=' + encodeURIComponent(heldText);
+  try { history.replaceState(null, '', '#q=' + encodeURIComponent(heldText)); } catch(e){}
+  Array.prototype.forEach.call(document.querySelectorAll('a[data-ask]'), function(a){
+    a.href = a.dataset.hrefBase + '#q=' + encodeURIComponent(heldText);
+  });
+}
+var menu = document.querySelector('.menu');
+var menuToggle = document.getElementById('menu-toggle');
+if (menu && menuToggle) {
+  menuToggle.addEventListener('click', function(ev){
+    ev.stopPropagation();
+    var isOpen = menu.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.addEventListener('click', function(ev){
+    if (!menu.contains(ev.target)) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('keydown', function(ev){
+    if (ev.key === 'Escape' && menu.classList.contains('open')) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.focus();
+    }
+  });
+}
+})();
+</script>
+</body>
+</html>

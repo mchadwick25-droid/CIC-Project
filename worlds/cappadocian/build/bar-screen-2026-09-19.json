@@ -1,0 +1,1206 @@
+{
+  "world": "cappadocian",
+  "generated": "2026-09-19",
+  "fields": {
+    "demonstration.exchange": {
+      "count": 9,
+      "fk_grade_median": 7.83,
+      "fk_grade_max": 8.95,
+      "longest_sentence_words_max": 59,
+      "worst_record": "cappadocian.demo.taught-most"
+    },
+    "doctrinal_witness.text": {
+      "count": 26,
+      "fk_grade_median": 12.02,
+      "fk_grade_max": 16.4,
+      "longest_sentence_words_max": 81,
+      "worst_record": "cappadocian.dw.not-later-formulas"
+    },
+    "honest_limit.statement": {
+      "count": 2,
+      "fk_grade_median": 6.34,
+      "fk_grade_max": 6.34,
+      "longest_sentence_words_max": 42,
+      "worst_record": "cappadocian.limit.no-stones-to-show"
+    },
+    "story.tellable_as": {
+      "count": 19,
+      "fk_grade_median": 12.95,
+      "fk_grade_max": 16.95,
+      "longest_sentence_words_max": 34,
+      "worst_record": "cappadocian.story.gregory-constantinople"
+    },
+    "story.text": {
+      "count": 19,
+      "fk_grade_median": 16.43,
+      "fk_grade_max": 20.75,
+      "longest_sentence_words_max": 73,
+      "worst_record": "cappadocian.story.julian-schools"
+    },
+    "term.plain_meaning": {
+      "count": 39,
+      "fk_grade_median": 7.56,
+      "fk_grade_max": 9.8,
+      "longest_sentence_words_max": 38,
+      "worst_record": "cappadocian.term.philotimia"
+    },
+    "term.quick_meaning": {
+      "count": 39,
+      "fk_grade_median": 7.57,
+      "fk_grade_max": 9.82,
+      "longest_sentence_words_max": 19,
+      "worst_record": "cappadocian.term.eikon"
+    },
+    "world_core.cautions": {
+      "count": 1,
+      "fk_grade_median": 20.59,
+      "fk_grade_max": 20.59,
+      "longest_sentence_words_max": 99,
+      "worst_record": "cappadocian.core.cappadocian"
+    },
+    "world_core.formation_logic": {
+      "count": 1,
+      "fk_grade_median": 23.89,
+      "fk_grade_max": 23.89,
+      "longest_sentence_words_max": 57,
+      "worst_record": "cappadocian.core.cappadocian"
+    },
+    "world_core.horizon": {
+      "count": 1,
+      "fk_grade_median": 15.75,
+      "fk_grade_max": 15.75,
+      "longest_sentence_words_max": 65,
+      "worst_record": "cappadocian.core.cappadocian"
+    },
+    "world_core.thinness": {
+      "count": 1,
+      "fk_grade_median": 23.1,
+      "fk_grade_max": 23.1,
+      "longest_sentence_words_max": 100,
+      "worst_record": "cappadocian.core.cappadocian"
+    }
+  },
+  "records": {
+    "world_core.horizon": [
+      {
+        "record_id": "cappadocian.core.cappadocian",
+        "words": 329,
+        "sentences": 12,
+        "longest_sentence_words": 65,
+        "fk_grade": 15.75
+      }
+    ],
+    "world_core.formation_logic": [
+      {
+        "record_id": "cappadocian.core.cappadocian",
+        "words": 240,
+        "sentences": 5,
+        "longest_sentence_words": 57,
+        "fk_grade": 23.89
+      }
+    ],
+    "world_core.thinness": [
+      {
+        "record_id": "cappadocian.core.cappadocian",
+        "words": 212,
+        "sentences": 5,
+        "longest_sentence_words": 100,
+        "fk_grade": 23.1
+      }
+    ],
+    "world_core.cautions": [
+      {
+        "record_id": "cappadocian.core.cappadocian",
+        "words": 513,
+        "sentences": 13,
+        "longest_sentence_words": 99,
+        "fk_grade": 20.59
+      }
+    ],
+    "demonstration.exchange": [
+      {
+        "record_id": "cappadocian.demo.hardest-true-thing",
+        "words": 237,
+        "sentences": 15,
+        "longest_sentence_words": 34,
+        "fk_grade": 6.83
+      },
+      {
+        "record_id": "cappadocian.demo.never-settled",
+        "words": 269,
+        "sentences": 14,
+        "longest_sentence_words": 36,
+        "fk_grade": 8.5
+      },
+      {
+        "record_id": "cappadocian.demo.someone-like-me",
+        "words": 247,
+        "sentences": 12,
+        "longest_sentence_words": 39,
+        "fk_grade": 7.99
+      },
+      {
+        "record_id": "cappadocian.demo.taught-most",
+        "words": 261,
+        "sentences": 11,
+        "longest_sentence_words": 59,
+        "fk_grade": 8.95
+      },
+      {
+        "record_id": "cappadocian.demo.want-to-believe",
+        "words": 231,
+        "sentences": 14,
+        "longest_sentence_words": 40,
+        "fk_grade": 5.91
+      },
+      {
+        "record_id": "cappadocian.demo.was-jesus-god",
+        "words": 287,
+        "sentences": 15,
+        "longest_sentence_words": 33,
+        "fk_grade": 8.04
+      },
+      {
+        "record_id": "cappadocian.demo.where-was-god",
+        "words": 314,
+        "sentences": 16,
+        "longest_sentence_words": 43,
+        "fk_grade": 6.86
+      },
+      {
+        "record_id": "cappadocian.demo.who-was-jesus",
+        "words": 262,
+        "sentences": 14,
+        "longest_sentence_words": 39,
+        "fk_grade": 7.83
+      },
+      {
+        "record_id": "cappadocian.demo.woman-authority",
+        "words": 274,
+        "sentences": 19,
+        "longest_sentence_words": 38,
+        "fk_grade": 6.56
+      }
+    ],
+    "doctrinal_witness.text": [
+      {
+        "record_id": "cappadocian.dw.a-stranger-weather",
+        "words": 201,
+        "sentences": 7,
+        "longest_sentence_words": 54,
+        "fk_grade": 12.93
+      },
+      {
+        "record_id": "cappadocian.dw.authority-and-spread",
+        "words": 219,
+        "sentences": 9,
+        "longest_sentence_words": 55,
+        "fk_grade": 12.36
+      },
+      {
+        "record_id": "cappadocian.dw.baptism-and-new-birth",
+        "words": 140,
+        "sentences": 4,
+        "longest_sentence_words": 47,
+        "fk_grade": 15.82
+      },
+      {
+        "record_id": "cappadocian.dw.becoming-one-of-us",
+        "words": 200,
+        "sentences": 6,
+        "longest_sentence_words": 53,
+        "fk_grade": 14.47
+      },
+      {
+        "record_id": "cappadocian.dw.catholic-and-its-rivals",
+        "words": 186,
+        "sentences": 7,
+        "longest_sentence_words": 44,
+        "fk_grade": 12.88
+      },
+      {
+        "record_id": "cappadocian.dw.confession-not-a-vote",
+        "words": 216,
+        "sentences": 11,
+        "longest_sentence_words": 44,
+        "fk_grade": 8.53
+      },
+      {
+        "record_id": "cappadocian.dw.cost-and-the-letters-that-held-us",
+        "words": 175,
+        "sentences": 7,
+        "longest_sentence_words": 54,
+        "fk_grade": 12.48
+      },
+      {
+        "record_id": "cappadocian.dw.customs-from-the-apostles",
+        "words": 174,
+        "sentences": 7,
+        "longest_sentence_words": 39,
+        "fk_grade": 11.14
+      },
+      {
+        "record_id": "cappadocian.dw.doubt-and-unfinished-growth",
+        "words": 190,
+        "sentences": 7,
+        "longest_sentence_words": 39,
+        "fk_grade": 12.02
+      },
+      {
+        "record_id": "cappadocian.dw.holy-spirit-honored",
+        "words": 212,
+        "sentences": 8,
+        "longest_sentence_words": 48,
+        "fk_grade": 11.12
+      },
+      {
+        "record_id": "cappadocian.dw.how-it-reached-us",
+        "words": 191,
+        "sentences": 11,
+        "longest_sentence_words": 37,
+        "fk_grade": 7.0
+      },
+      {
+        "record_id": "cappadocian.dw.macrina-and-its-cost",
+        "words": 231,
+        "sentences": 12,
+        "longest_sentence_words": 38,
+        "fk_grade": 8.83
+      },
+      {
+        "record_id": "cappadocian.dw.marriage-ending",
+        "words": 183,
+        "sentences": 6,
+        "longest_sentence_words": 81,
+        "fk_grade": 14.73
+      },
+      {
+        "record_id": "cappadocian.dw.not-a-death-wish",
+        "words": 205,
+        "sentences": 9,
+        "longest_sentence_words": 52,
+        "fk_grade": 9.97
+      },
+      {
+        "record_id": "cappadocian.dw.not-later-formulas",
+        "words": 191,
+        "sentences": 5,
+        "longest_sentence_words": 65,
+        "fk_grade": 16.4
+      },
+      {
+        "record_id": "cappadocian.dw.ordinary-day",
+        "words": 210,
+        "sentences": 6,
+        "longest_sentence_words": 58,
+        "fk_grade": 14.4
+      },
+      {
+        "record_id": "cappadocian.dw.power-and-its-discipline",
+        "words": 209,
+        "sentences": 7,
+        "longest_sentence_words": 64,
+        "fk_grade": 13.44
+      },
+      {
+        "record_id": "cappadocian.dw.psalms-teach-the-singer",
+        "words": 151,
+        "sentences": 7,
+        "longest_sentence_words": 36,
+        "fk_grade": 9.57
+      },
+      {
+        "record_id": "cappadocian.dw.reading-scripture",
+        "words": 182,
+        "sentences": 5,
+        "longest_sentence_words": 63,
+        "fk_grade": 16.08
+      },
+      {
+        "record_id": "cappadocian.dw.stillness-and-the-summons",
+        "words": 186,
+        "sentences": 7,
+        "longest_sentence_words": 60,
+        "fk_grade": 11.34
+      },
+      {
+        "record_id": "cappadocian.dw.unwritten-carries-too",
+        "words": 192,
+        "sentences": 8,
+        "longest_sentence_words": 42,
+        "fk_grade": 10.94
+      },
+      {
+        "record_id": "cappadocian.dw.want-to-believe",
+        "words": 194,
+        "sentences": 11,
+        "longest_sentence_words": 34,
+        "fk_grade": 8.07
+      },
+      {
+        "record_id": "cappadocian.dw.was-jesus-god",
+        "words": 205,
+        "sentences": 13,
+        "longest_sentence_words": 38,
+        "fk_grade": 7.18
+      },
+      {
+        "record_id": "cappadocian.dw.wealth-answerable-to-the-poor",
+        "words": 191,
+        "sentences": 6,
+        "longest_sentence_words": 50,
+        "fk_grade": 14.61
+      },
+      {
+        "record_id": "cappadocian.dw.where-record-thinnest",
+        "words": 221,
+        "sentences": 9,
+        "longest_sentence_words": 47,
+        "fk_grade": 11.18
+      },
+      {
+        "record_id": "cappadocian.dw.who-was-jesus",
+        "words": 215,
+        "sentences": 8,
+        "longest_sentence_words": 45,
+        "fk_grade": 10.78
+      }
+    ],
+    "honest_limit.statement": [
+      {
+        "record_id": "cappadocian.limit.no-stones-to-show",
+        "words": 163,
+        "sentences": 9,
+        "longest_sentence_words": 42,
+        "fk_grade": 6.34
+      },
+      {
+        "record_id": "cappadocian.limit.whose-voice-we-lack",
+        "words": 233,
+        "sentences": 15,
+        "longest_sentence_words": 30,
+        "fk_grade": 5.86
+      }
+    ],
+    "story.tellable_as": [
+      {
+        "record_id": "cappadocian.story.athens-friendship",
+        "words": 26,
+        "sentences": 1,
+        "longest_sentence_words": 26,
+        "fk_grade": 9.74
+      },
+      {
+        "record_id": "cappadocian.story.basil-death-funeral",
+        "words": 19,
+        "sentences": 1,
+        "longest_sentence_words": 19,
+        "fk_grade": 10.44
+      },
+      {
+        "record_id": "cappadocian.story.brotherhood-day",
+        "words": 27,
+        "sentences": 1,
+        "longest_sentence_words": 27,
+        "fk_grade": 13.16
+      },
+      {
+        "record_id": "cappadocian.story.doxology-stand",
+        "words": 25,
+        "sentences": 1,
+        "longest_sentence_words": 25,
+        "fk_grade": 12.57
+      },
+      {
+        "record_id": "cappadocian.story.famine-open-barns",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 10.56
+      },
+      {
+        "record_id": "cappadocian.story.forty-sebaste",
+        "words": 22,
+        "sentences": 1,
+        "longest_sentence_words": 22,
+        "fk_grade": 6.94
+      },
+      {
+        "record_id": "cappadocian.story.gregory-constantinople",
+        "words": 34,
+        "sentences": 1,
+        "longest_sentence_words": 34,
+        "fk_grade": 16.95
+      },
+      {
+        "record_id": "cappadocian.story.julian-schools",
+        "words": 31,
+        "sentences": 1,
+        "longest_sentence_words": 31,
+        "fk_grade": 14.39
+      },
+      {
+        "record_id": "cappadocian.story.macrina-deathbed",
+        "words": 24,
+        "sentences": 1,
+        "longest_sentence_words": 24,
+        "fk_grade": 12.95
+      },
+      {
+        "record_id": "cappadocian.story.macrina-refusal",
+        "words": 28,
+        "sentences": 1,
+        "longest_sentence_words": 28,
+        "fk_grade": 13.73
+      },
+      {
+        "record_id": "cappadocian.story.money-changers-unbegotten",
+        "words": 24,
+        "sentences": 1,
+        "longest_sentence_words": 24,
+        "fk_grade": 9.01
+      },
+      {
+        "record_id": "cappadocian.story.naucratius-wilderness",
+        "words": 24,
+        "sentences": 1,
+        "longest_sentence_words": 24,
+        "fk_grade": 10.49
+      },
+      {
+        "record_id": "cappadocian.story.nyssa-exile",
+        "words": 24,
+        "sentences": 1,
+        "longest_sentence_words": 24,
+        "fk_grade": 14.42
+      },
+      {
+        "record_id": "cappadocian.story.panegyris-shrine",
+        "words": 28,
+        "sentences": 1,
+        "longest_sentence_words": 28,
+        "fk_grade": 11.98
+      },
+      {
+        "record_id": "cappadocian.story.poorhouse-famine-month",
+        "words": 25,
+        "sentences": 1,
+        "longest_sentence_words": 25,
+        "fk_grade": 15.89
+      },
+      {
+        "record_id": "cappadocian.story.sasima-wound",
+        "words": 20,
+        "sentences": 1,
+        "longest_sentence_words": 20,
+        "fk_grade": 11.68
+      },
+      {
+        "record_id": "cappadocian.story.slave-market-sermon",
+        "words": 34,
+        "sentences": 1,
+        "longest_sentence_words": 34,
+        "fk_grade": 13.01
+      },
+      {
+        "record_id": "cappadocian.story.thaumaturgus-legend",
+        "words": 25,
+        "sentences": 1,
+        "longest_sentence_words": 25,
+        "fk_grade": 13.51
+      },
+      {
+        "record_id": "cappadocian.story.valens-caesarea",
+        "words": 32,
+        "sentences": 1,
+        "longest_sentence_words": 32,
+        "fk_grade": 16.07
+      }
+    ],
+    "story.text": [
+      {
+        "record_id": "cappadocian.story.athens-friendship",
+        "words": 195,
+        "sentences": 7,
+        "longest_sentence_words": 41,
+        "fk_grade": 14.77
+      },
+      {
+        "record_id": "cappadocian.story.basil-death-funeral",
+        "words": 163,
+        "sentences": 5,
+        "longest_sentence_words": 58,
+        "fk_grade": 16.43
+      },
+      {
+        "record_id": "cappadocian.story.brotherhood-day",
+        "words": 277,
+        "sentences": 8,
+        "longest_sentence_words": 71,
+        "fk_grade": 14.96
+      },
+      {
+        "record_id": "cappadocian.story.doxology-stand",
+        "words": 369,
+        "sentences": 13,
+        "longest_sentence_words": 51,
+        "fk_grade": 12.11
+      },
+      {
+        "record_id": "cappadocian.story.famine-open-barns",
+        "words": 169,
+        "sentences": 9,
+        "longest_sentence_words": 51,
+        "fk_grade": 9.18
+      },
+      {
+        "record_id": "cappadocian.story.forty-sebaste",
+        "words": 226,
+        "sentences": 6,
+        "longest_sentence_words": 63,
+        "fk_grade": 16.79
+      },
+      {
+        "record_id": "cappadocian.story.gregory-constantinople",
+        "words": 225,
+        "sentences": 7,
+        "longest_sentence_words": 50,
+        "fk_grade": 17.38
+      },
+      {
+        "record_id": "cappadocian.story.julian-schools",
+        "words": 270,
+        "sentences": 6,
+        "longest_sentence_words": 73,
+        "fk_grade": 20.75
+      },
+      {
+        "record_id": "cappadocian.story.macrina-deathbed",
+        "words": 236,
+        "sentences": 9,
+        "longest_sentence_words": 55,
+        "fk_grade": 13.47
+      },
+      {
+        "record_id": "cappadocian.story.macrina-refusal",
+        "words": 158,
+        "sentences": 5,
+        "longest_sentence_words": 51,
+        "fk_grade": 16.14
+      },
+      {
+        "record_id": "cappadocian.story.money-changers-unbegotten",
+        "words": 198,
+        "sentences": 6,
+        "longest_sentence_words": 59,
+        "fk_grade": 16.8
+      },
+      {
+        "record_id": "cappadocian.story.naucratius-wilderness",
+        "words": 150,
+        "sentences": 6,
+        "longest_sentence_words": 31,
+        "fk_grade": 14.14
+      },
+      {
+        "record_id": "cappadocian.story.nyssa-exile",
+        "words": 137,
+        "sentences": 4,
+        "longest_sentence_words": 57,
+        "fk_grade": 18.7
+      },
+      {
+        "record_id": "cappadocian.story.panegyris-shrine",
+        "words": 229,
+        "sentences": 6,
+        "longest_sentence_words": 69,
+        "fk_grade": 17.62
+      },
+      {
+        "record_id": "cappadocian.story.poorhouse-famine-month",
+        "words": 297,
+        "sentences": 8,
+        "longest_sentence_words": 59,
+        "fk_grade": 18.33
+      },
+      {
+        "record_id": "cappadocian.story.sasima-wound",
+        "words": 194,
+        "sentences": 7,
+        "longest_sentence_words": 55,
+        "fk_grade": 14.98
+      },
+      {
+        "record_id": "cappadocian.story.slave-market-sermon",
+        "words": 221,
+        "sentences": 6,
+        "longest_sentence_words": 63,
+        "fk_grade": 17.76
+      },
+      {
+        "record_id": "cappadocian.story.thaumaturgus-legend",
+        "words": 201,
+        "sentences": 5,
+        "longest_sentence_words": 47,
+        "fk_grade": 19.11
+      },
+      {
+        "record_id": "cappadocian.story.valens-caesarea",
+        "words": 216,
+        "sentences": 8,
+        "longest_sentence_words": 57,
+        "fk_grade": 13.56
+      }
+    ],
+    "term.plain_meaning": [
+      {
+        "record_id": "cappadocian.term.adelphotes",
+        "words": 47,
+        "sentences": 4,
+        "longest_sentence_words": 14,
+        "fk_grade": 7.07
+      },
+      {
+        "record_id": "cappadocian.term.agennetos",
+        "words": 43,
+        "sentences": 3,
+        "longest_sentence_words": 16,
+        "fk_grade": 8.93
+      },
+      {
+        "record_id": "cappadocian.term.akatalepsia",
+        "words": 35,
+        "sentences": 3,
+        "longest_sentence_words": 22,
+        "fk_grade": 5.14
+      },
+      {
+        "record_id": "cappadocian.term.anastasis",
+        "words": 34,
+        "sentences": 2,
+        "longest_sentence_words": 27,
+        "fk_grade": 9.09
+      },
+      {
+        "record_id": "cappadocian.term.apatheia",
+        "words": 39,
+        "sentences": 3,
+        "longest_sentence_words": 20,
+        "fk_grade": 7.33
+      },
+      {
+        "record_id": "cappadocian.term.askesis",
+        "words": 44,
+        "sentences": 3,
+        "longest_sentence_words": 20,
+        "fk_grade": 8.63
+      },
+      {
+        "record_id": "cappadocian.term.baptisma-photisma",
+        "words": 40,
+        "sentences": 3,
+        "longest_sentence_words": 20,
+        "fk_grade": 7.87
+      },
+      {
+        "record_id": "cappadocian.term.basileias",
+        "words": 37,
+        "sentences": 5,
+        "longest_sentence_words": 15,
+        "fk_grade": 5.38
+      },
+      {
+        "record_id": "cappadocian.term.chorepiskopos",
+        "words": 30,
+        "sentences": 4,
+        "longest_sentence_words": 10,
+        "fk_grade": 7.79
+      },
+      {
+        "record_id": "cappadocian.term.diastema",
+        "words": 47,
+        "sentences": 2,
+        "longest_sentence_words": 24,
+        "fk_grade": 9.64
+      },
+      {
+        "record_id": "cappadocian.term.doxologia",
+        "words": 46,
+        "sentences": 4,
+        "longest_sentence_words": 20,
+        "fk_grade": 5.83
+      },
+      {
+        "record_id": "cappadocian.term.eikon",
+        "words": 47,
+        "sentences": 2,
+        "longest_sentence_words": 38,
+        "fk_grade": 9.14
+      },
+      {
+        "record_id": "cappadocian.term.epektasis",
+        "words": 36,
+        "sentences": 2,
+        "longest_sentence_words": 22,
+        "fk_grade": 9.46
+      },
+      {
+        "record_id": "cappadocian.term.epinoia-energeia",
+        "words": 34,
+        "sentences": 3,
+        "longest_sentence_words": 23,
+        "fk_grade": 6.18
+      },
+      {
+        "record_id": "cappadocian.term.eusebeia",
+        "words": 49,
+        "sentences": 3,
+        "longest_sentence_words": 20,
+        "fk_grade": 8.36
+      },
+      {
+        "record_id": "cappadocian.term.exoria",
+        "words": 35,
+        "sentences": 3,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.17
+      },
+      {
+        "record_id": "cappadocian.term.hesychia",
+        "words": 47,
+        "sentences": 3,
+        "longest_sentence_words": 18,
+        "fk_grade": 8.35
+      },
+      {
+        "record_id": "cappadocian.term.homoousios",
+        "words": 40,
+        "sentences": 2,
+        "longest_sentence_words": 24,
+        "fk_grade": 9.56
+      },
+      {
+        "record_id": "cappadocian.term.kanon-kanonikai",
+        "words": 35,
+        "sentences": 3,
+        "longest_sentence_words": 23,
+        "fk_grade": 8.01
+      },
+      {
+        "record_id": "cappadocian.term.koinonia",
+        "words": 41,
+        "sentences": 4,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.11
+      },
+      {
+        "record_id": "cappadocian.term.martys-martyrion",
+        "words": 43,
+        "sentences": 3,
+        "longest_sentence_words": 24,
+        "fk_grade": 7.56
+      },
+      {
+        "record_id": "cappadocian.term.mysterion",
+        "words": 44,
+        "sentences": 5,
+        "longest_sentence_words": 11,
+        "fk_grade": 5.81
+      },
+      {
+        "record_id": "cappadocian.term.oikonomos",
+        "words": 35,
+        "sentences": 3,
+        "longest_sentence_words": 14,
+        "fk_grade": 6.83
+      },
+      {
+        "record_id": "cappadocian.term.orge",
+        "words": 22,
+        "sentences": 2,
+        "longest_sentence_words": 17,
+        "fk_grade": 6.4
+      },
+      {
+        "record_id": "cappadocian.term.ousia-hypostasis",
+        "words": 44,
+        "sentences": 3,
+        "longest_sentence_words": 22,
+        "fk_grade": 6.49
+      },
+      {
+        "record_id": "cappadocian.term.paideia-philosophia",
+        "words": 40,
+        "sentences": 3,
+        "longest_sentence_words": 23,
+        "fk_grade": 7.58
+      },
+      {
+        "record_id": "cappadocian.term.panegyris",
+        "words": 35,
+        "sentences": 2,
+        "longest_sentence_words": 23,
+        "fk_grade": 8.39
+      },
+      {
+        "record_id": "cappadocian.term.paradosis",
+        "words": 47,
+        "sentences": 3,
+        "longest_sentence_words": 26,
+        "fk_grade": 6.59
+      },
+      {
+        "record_id": "cappadocian.term.parrhesia",
+        "words": 42,
+        "sentences": 2,
+        "longest_sentence_words": 31,
+        "fk_grade": 9.46
+      },
+      {
+        "record_id": "cappadocian.term.penthos-paraklesis",
+        "words": 42,
+        "sentences": 2,
+        "longest_sentence_words": 30,
+        "fk_grade": 9.67
+      },
+      {
+        "record_id": "cappadocian.term.philanthropia",
+        "words": 39,
+        "sentences": 2,
+        "longest_sentence_words": 22,
+        "fk_grade": 8.44
+      },
+      {
+        "record_id": "cappadocian.term.philoptochia",
+        "words": 46,
+        "sentences": 4,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.54
+      },
+      {
+        "record_id": "cappadocian.term.philotimia",
+        "words": 37,
+        "sentences": 2,
+        "longest_sentence_words": 25,
+        "fk_grade": 9.8
+      },
+      {
+        "record_id": "cappadocian.term.phthonos",
+        "words": 34,
+        "sentences": 3,
+        "longest_sentence_words": 14,
+        "fk_grade": 4.79
+      },
+      {
+        "record_id": "cappadocian.term.pleonexia",
+        "words": 49,
+        "sentences": 5,
+        "longest_sentence_words": 14,
+        "fk_grade": 5.09
+      },
+      {
+        "record_id": "cappadocian.term.psalmodia",
+        "words": 36,
+        "sentences": 3,
+        "longest_sentence_words": 17,
+        "fk_grade": 7.12
+      },
+      {
+        "record_id": "cappadocian.term.symbolon",
+        "words": 31,
+        "sentences": 2,
+        "longest_sentence_words": 21,
+        "fk_grade": 7.97
+      },
+      {
+        "record_id": "cappadocian.term.theologia-oikonomia",
+        "words": 46,
+        "sentences": 4,
+        "longest_sentence_words": 14,
+        "fk_grade": 7.36
+      },
+      {
+        "record_id": "cappadocian.term.theosis",
+        "words": 44,
+        "sentences": 4,
+        "longest_sentence_words": 13,
+        "fk_grade": 6.94
+      }
+    ],
+    "term.quick_meaning": [
+      {
+        "record_id": "cappadocian.term.adelphotes",
+        "words": 13,
+        "sentences": 2,
+        "longest_sentence_words": 9,
+        "fk_grade": 7.82
+      },
+      {
+        "record_id": "cappadocian.term.agennetos",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 8.35
+      },
+      {
+        "record_id": "cappadocian.term.akatalepsia",
+        "words": 19,
+        "sentences": 1,
+        "longest_sentence_words": 19,
+        "fk_grade": 4.86
+      },
+      {
+        "record_id": "cappadocian.term.anastasis",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 9.45
+      },
+      {
+        "record_id": "cappadocian.term.apatheia",
+        "words": 14,
+        "sentences": 2,
+        "longest_sentence_words": 10,
+        "fk_grade": 7.37
+      },
+      {
+        "record_id": "cappadocian.term.askesis",
+        "words": 15,
+        "sentences": 2,
+        "longest_sentence_words": 14,
+        "fk_grade": 7.37
+      },
+      {
+        "record_id": "cappadocian.term.baptisma-photisma",
+        "words": 14,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 8.21
+      },
+      {
+        "record_id": "cappadocian.term.basileias",
+        "words": 13,
+        "sentences": 2,
+        "longest_sentence_words": 8,
+        "fk_grade": 7.79
+      },
+      {
+        "record_id": "cappadocian.term.chorepiskopos",
+        "words": 8,
+        "sentences": 2,
+        "longest_sentence_words": 6,
+        "fk_grade": 8.78
+      },
+      {
+        "record_id": "cappadocian.term.diastema",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 9.74
+      },
+      {
+        "record_id": "cappadocian.term.doxologia",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 6.88
+      },
+      {
+        "record_id": "cappadocian.term.eikon",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 9.82
+      },
+      {
+        "record_id": "cappadocian.term.epektasis",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.88
+      },
+      {
+        "record_id": "cappadocian.term.epinoia-energeia",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "cappadocian.term.eusebeia",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "cappadocian.term.exoria",
+        "words": 12,
+        "sentences": 2,
+        "longest_sentence_words": 9,
+        "fk_grade": 9.37
+      },
+      {
+        "record_id": "cappadocian.term.hesychia",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "cappadocian.term.homoousios",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 6.78
+      },
+      {
+        "record_id": "cappadocian.term.kanon-kanonikai",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 9.09
+      },
+      {
+        "record_id": "cappadocian.term.koinonia",
+        "words": 14,
+        "sentences": 2,
+        "longest_sentence_words": 10,
+        "fk_grade": 6.53
+      },
+      {
+        "record_id": "cappadocian.term.martys-martyrion",
+        "words": 14,
+        "sentences": 2,
+        "longest_sentence_words": 9,
+        "fk_grade": 8.21
+      },
+      {
+        "record_id": "cappadocian.term.mysterion",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 8.41
+      },
+      {
+        "record_id": "cappadocian.term.oikonomos",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 4.82
+      },
+      {
+        "record_id": "cappadocian.term.orge",
+        "words": 9,
+        "sentences": 2,
+        "longest_sentence_words": 8,
+        "fk_grade": 7.14
+      },
+      {
+        "record_id": "cappadocian.term.ousia-hypostasis",
+        "words": 19,
+        "sentences": 1,
+        "longest_sentence_words": 19,
+        "fk_grade": 5.48
+      },
+      {
+        "record_id": "cappadocian.term.paideia-philosophia",
+        "words": 12,
+        "sentences": 2,
+        "longest_sentence_words": 7,
+        "fk_grade": 7.4
+      },
+      {
+        "record_id": "cappadocian.term.panegyris",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.61
+      },
+      {
+        "record_id": "cappadocian.term.paradosis",
+        "words": 13,
+        "sentences": 1,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "cappadocian.term.parrhesia",
+        "words": 12,
+        "sentences": 1,
+        "longest_sentence_words": 12,
+        "fk_grade": 6.79
+      },
+      {
+        "record_id": "cappadocian.term.penthos-paraklesis",
+        "words": 9,
+        "sentences": 3,
+        "longest_sentence_words": 3,
+        "fk_grade": 7.87
+      },
+      {
+        "record_id": "cappadocian.term.philanthropia",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 3.72
+      },
+      {
+        "record_id": "cappadocian.term.philoptochia",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "cappadocian.term.philotimia",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 9.14
+      },
+      {
+        "record_id": "cappadocian.term.phthonos",
+        "words": 11,
+        "sentences": 1,
+        "longest_sentence_words": 11,
+        "fk_grade": 8.01
+      },
+      {
+        "record_id": "cappadocian.term.pleonexia",
+        "words": 16,
+        "sentences": 1,
+        "longest_sentence_words": 16,
+        "fk_grade": 6.78
+      },
+      {
+        "record_id": "cappadocian.term.psalmodia",
+        "words": 12,
+        "sentences": 2,
+        "longest_sentence_words": 8,
+        "fk_grade": 8.73
+      },
+      {
+        "record_id": "cappadocian.term.symbolon",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "cappadocian.term.theologia-oikonomia",
+        "words": 14,
+        "sentences": 1,
+        "longest_sentence_words": 14,
+        "fk_grade": 9.14
+      },
+      {
+        "record_id": "cappadocian.term.theosis",
+        "words": 14,
+        "sentences": 2,
+        "longest_sentence_words": 8,
+        "fk_grade": 7.37
+      }
+    ]
+  }
+}

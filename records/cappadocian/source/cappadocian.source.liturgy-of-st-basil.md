@@ -18,9 +18,7 @@ author: Attributed to Basil of Caesarea (split attribution; see attribution_stat
 work: The 'Liturgy of St Basil' (transmitted anaphora)
 edition: No vendored or independently locatable edition this session
 kind: unvendored
-rights_status: not applicable in the ordinary sense -- no single specific text has been identified for
-  this row; it names a person, general pattern, or unlocated corpus rather than a held text. Not independently
-  verified this session.
+rights_status: "not applicable - no single specific text has been identified for this row; it names a person, general pattern, or unlocated corpus rather than a held text"
 attribution_status: contested (a Basilian core, argued substantially from the Egyptian recension E-BAS,
   is Dominant Modern Reconstruction; the transmitted Byzantine text's exact wording as Basil's own is
   Contested -- this record deliberately does not resolve the split further)

@@ -39,7 +39,8 @@ gravity/contested_claim anti-conflation case the design cares most about
 import re
 
 from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
-from engine.prose import all_text, content_words, overlap_coefficient
+from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
+from engine.prose import all_text, content_words, overlap_coefficient, retrieval_words
 from engine.m4.grounding_net import scope_completion
 
 __all__ = [
@@ -178,6 +179,24 @@ _COVERAGE_KEY_BY_TYPE = {
     "contested_claim": "contested_claims",
 }
 
+# Stage 4d (Build-Plan.md): tier prior. `retrieval.tier` (Artifact-1-
+# Record-Schema.md: "1 core / 2 supporting / 3 ambient") is an authored
+# importance signal - authored on roughly half the fleet's own records -
+# that no ranking here has ever read; a record's centrality to its own
+# world has had zero effect on which of two candidates wins a slot. A
+# PRIOR, not an override: bounded well under overlap_coefficient's own
+# smallest meaningful gap, so it can only ever reorder candidates whose
+# relevance scores were already close, never promote a weak, merely-core
+# match over a genuinely stronger one that happens to carry no tier or a
+# lower one. Tier 3 and an unset tier both get zero - "ambient" makes no
+# claim to priority, and neither does a record nobody has tiered yet.
+_TIER_PRIOR = {1: 0.05, 2: 0.02}
+
+
+def _tier_prior(record: dict) -> float:
+    tier = (record.get("retrieval") or {}).get("tier")
+    return _TIER_PRIOR.get(tier, 0.0)
+
 # Stage A2 (added 2026-08-25, Mark's own diagnosis of a live turn): a
 # genuinely last-resort net under Stage A, not a replacement for it. Fires
 # from assemble_evidence ONLY when match_asks_to_cells found no cell at
@@ -222,36 +241,13 @@ def _head_text(record: dict) -> str:
     return all_text(record)
 
 
-# Build-team editorial/interpretive commentary, not citable content - a
-# record's own honest self-critique of its evidentiary limits, written for
-# whoever reviews the record, never for a participant. all_text() keeps
-# these on purpose for grounding_net's own job (checking whether the MODEL's
-# generated text is grounded - a much broader "is this substring anywhere
-# in the record" check with a different failure mode if it's too narrow).
-# This fallback's job is the opposite risk: finding the WRONG record because
-# a query word happened to appear in a caveat about the record rather than
-# in the record's own substance. Measured directly: pahc.term.ministrae's
-# own `senses.informational` field reads "...women held service in that
-# church important enough that its interrogator chose them as the ones who
-# would know" - a real sentence, but about Pliny's interrogation, not about
-# why anything was important in the sense a participant asking "why was
-# Jesus important" means. That single word, in that one commentary field,
-# was enough to surface a completely unrelated record before this exclusion
-# existed. `do_not_retrieve_when` is excluded for a sharper reason: matching
-# on it would retrieve a record's own list of reasons NOT to retrieve it.
-#
-# `retrieve_when` is excluded 2026-08-27 for that same sharper reason, on a
-# regression it caused the day 124 quote records were hinted at once. A hint
-# is retrieval vocabulary written in the PARTICIPANT'S words, which is
-# precisely the vocabulary this fallback matches on - so every hinted record
-# starts matching every hint word, and document frequency climbs until an
-# honestly-discriminating word crosses _FULLTEXT_FALLBACK_MAX_POOL and stops
-# discriminating at all. Measured on pahc: "believe" matched 4 records and
-# reached ground for "How did you know what to believe?"; after hinting it
-# matched 7, went over the pool cap, and that question returned nothing.
-# Hints belong in cell vocabulary, scored against a curated per-cell corpus -
-# not here, where raw frequency is the whole safeguard.
-_FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when", "retrieve_when"}
+# Relocated to engine.prose.FALLBACK_EXCLUDED_KEYS (Build-Plan.md Stage 4c)
+# so engine.m2.builders's compile-time retrieval index can share the
+# identical exclusion set without engine/m2/ importing engine/m4/ (the
+# dependency runs the other way everywhere else in this codebase) - see
+# that module's own comment for the full rationale and the measurements
+# behind each excluded key (pahc.term.ministrae's `senses.informational`,
+# the 124-quote-hint regression on `retrieve_when`).
 
 
 def _fallback_search_text(record: dict) -> str:
@@ -634,6 +630,50 @@ def _diverse_take(
     return take
 
 
+# Stage B2 (Build-Plan.md Stage 4c, part 2). Stage B's own candidate pool
+# is deliberately the matched cell's own compiled/coverage.json entry, per
+# the module docstring's named simplification - and most of the time that
+# is exactly right: a cell match is curated evidence about what belongs to
+# THIS cell, and letting a query wander the whole world would reintroduce
+# the door-line style conflation Stage C already exists to police. But a
+# coverage entry can have LITERALLY ZERO records of some type - not a low
+# score, a structural absence - and Stage B then has nothing to rank at
+# all for that slot, silently, even on a world whose repository holds
+# records of that type elsewhere that the query's own words would
+# recognize. This fires ONLY there: never for a type the coverage entry
+# already has something for (that is a relevance question Stage B's own
+# ranking already answers), and never for honest_limit (unconditional,
+# fed to the §6.3 fallback ladder by its own separate, cell-scoped
+# mechanism above - see _TYPE_FLOORS comment on why that type is never
+# ranked away or filled generically).
+#
+# Scored against engine.prose.retrieval_words, not all_text() - the same
+# narrower, participant-facing, id/apparatus-safe word set
+# compiled/retrieval.json caches at build time, and for the identical
+# reason Stage A2's own fulltext fallback (see _fallback_search_text)
+# needs a narrower net than Stage B's own cell-curated ranking does: an
+# uncurated, whole-world scan is exactly the case a stray build-commentary
+# word or a dotted id fragment could surface the wrong record for, with no
+# curated coverage entry standing between the query and every record in
+# the world.
+def _retrieval_fill_scores(*, record_type: str, query_words: set[str], repository_records: dict[str, dict]) -> list[tuple[str, float]]:
+    if not query_words:
+        return []
+    scored = []
+    for rid, record in repository_records.items():
+        if record.get("record_type") != record_type:
+            continue
+        words = set(retrieval_words(record))
+        if not words:
+            continue
+        shared = query_words & words
+        if not shared:
+            continue
+        scored.append((rid, len(shared) / min(len(query_words), len(words)) + _tier_prior(record)))
+    scored.sort(key=lambda t: (-t[1], t[0]))
+    return scored
+
+
 def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000, already_told_ids: set[str] | list[str] | None = None) -> list[dict]:
     """Stage B (design §3.2): cell -> candidates -> rank. coverage_entry is
     compiled/coverage.json's own entry for this cell - the seed pool every
@@ -641,7 +681,12 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
     simplification against the design's whole-world expansion prose).
     Returns an ordered list of {"id", "record_type", "score", "head",
     "confidence", "classification"} dicts; score is None for honest_limit
-    (unconditional, never ranked away - see _TYPE_FLOORS comment)."""
+    (unconditional, never ranked away - see _TYPE_FLOORS comment), else the
+    relevance score plus this record's own tier prior (see _tier_prior;
+    Stage 4d). An entry also carries "retrieval_fill": True when the
+    coverage entry had no candidates of that type at all and Stage B2
+    filled the slot instead (see the comment on _retrieval_fill_scores) -
+    absent, not False, on every ordinary coverage-seeded entry."""
     query_words = _query_words(message, asks)
     selected: list[dict] = []
     used_chars = 0
@@ -669,13 +714,18 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
 
     for record_type, floor in _TYPE_FLOORS.items():
         cov_key = _COVERAGE_KEY_BY_TYPE[record_type]
-        scored = []
-        for rid in coverage_entry.get(cov_key) or []:
-            record = repository_records.get(rid)
-            if record is None:
-                continue
-            scored.append((rid, overlap_coefficient(query_words, record)))
-        scored.sort(key=lambda t: (-t[1], t[0]))
+        cov_ids = coverage_entry.get(cov_key) or []
+        retrieval_fill = not cov_ids
+        if retrieval_fill:
+            scored = _retrieval_fill_scores(record_type=record_type, query_words=query_words, repository_records=repository_records)
+        else:
+            scored = []
+            for rid in cov_ids:
+                record = repository_records.get(rid)
+                if record is None:
+                    continue
+                scored.append((rid, overlap_coefficient(query_words, record) + _tier_prior(record)))
+            scored.sort(key=lambda t: (-t[1], t[0]))
         used_keys = {
             _source_key(repository_records[rid])
             for rid in (already_told_ids or ())
@@ -687,6 +737,8 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             entry = _entry(rid, record_type, score)
             if entry is None:
                 continue
+            if retrieval_fill:
+                entry["retrieval_fill"] = True
             selected.append(entry)
             used_chars += len(entry["head"])
 

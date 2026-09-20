@@ -84,6 +84,11 @@ plain_meaning: >-
   We name it from the far side of the renunciation, as a warfare one has been discharged from and a
   sea one has come out of. We never name it as a place from which God is absent.
 world_word: the world / secular
+gloss_forms:
+- form: the world
+  kind: ordinary
+- form: secular
+  kind: ordinary
 false_friend:
 - secular as the non-religious sphere, or secular government versus the Church
 - society to be despised, or the created order as such

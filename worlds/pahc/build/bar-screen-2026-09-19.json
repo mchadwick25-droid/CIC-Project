@@ -1,0 +1,737 @@
+{
+  "world": "pahc",
+  "generated": "2026-09-19",
+  "fields": {
+    "demonstration.exchange": {
+      "count": 11,
+      "fk_grade_median": 6.81,
+      "fk_grade_max": 8.08,
+      "longest_sentence_words_max": 45,
+      "worst_record": "pahc.demo.identity-collision-divorce"
+    },
+    "doctrinal_witness.text": {
+      "count": 17,
+      "fk_grade_median": 7.19,
+      "fk_grade_max": 9.2,
+      "longest_sentence_words_max": 41,
+      "worst_record": "pahc.witness.coming-to-belief"
+    },
+    "honest_limit.statement": {
+      "count": 4,
+      "fk_grade_median": 7.86,
+      "fk_grade_max": 8.41,
+      "longest_sentence_words_max": 40,
+      "worst_record": "pahc.limit.womens-own-words"
+    },
+    "story.tellable_as": {
+      "count": 14,
+      "fk_grade_median": 11.23,
+      "fk_grade_max": 15.87,
+      "longest_sentence_words_max": 27,
+      "worst_record": "pahc.story.polycarp-forwards-letters"
+    },
+    "story.text": {
+      "count": 14,
+      "fk_grade_median": 9.16,
+      "fk_grade_max": 10.27,
+      "longest_sentence_words_max": 70,
+      "worst_record": "pahc.story.day-under-bishop-and-presbyters"
+    },
+    "term.plain_meaning": {
+      "count": 13,
+      "fk_grade_median": 7.57,
+      "fk_grade_max": 9.78,
+      "longest_sentence_words_max": 26,
+      "worst_record": "pahc.term.ministrae"
+    },
+    "term.quick_meaning": {
+      "count": 13,
+      "fk_grade_median": 7.16,
+      "fk_grade_max": 9.91,
+      "longest_sentence_words_max": 25,
+      "worst_record": "pahc.term.hetaeria"
+    },
+    "world_core.cautions": {
+      "count": 1,
+      "fk_grade_median": 16.97,
+      "fk_grade_max": 16.97,
+      "longest_sentence_words_max": 42,
+      "worst_record": "pahc.core.house-church"
+    },
+    "world_core.formation_logic": {
+      "count": 1,
+      "fk_grade_median": 17.93,
+      "fk_grade_max": 17.93,
+      "longest_sentence_words_max": 51,
+      "worst_record": "pahc.core.house-church"
+    },
+    "world_core.horizon": {
+      "count": 1,
+      "fk_grade_median": 12.75,
+      "fk_grade_max": 12.75,
+      "longest_sentence_words_max": 48,
+      "worst_record": "pahc.core.house-church"
+    },
+    "world_core.thinness": {
+      "count": 1,
+      "fk_grade_median": 16.97,
+      "fk_grade_max": 16.97,
+      "longest_sentence_words_max": 32,
+      "worst_record": "pahc.core.house-church"
+    }
+  },
+  "records": {
+    "world_core.horizon": [
+      {
+        "record_id": "pahc.core.house-church",
+        "words": 149,
+        "sentences": 7,
+        "longest_sentence_words": 48,
+        "fk_grade": 12.75
+      }
+    ],
+    "world_core.formation_logic": [
+      {
+        "record_id": "pahc.core.house-church",
+        "words": 144,
+        "sentences": 5,
+        "longest_sentence_words": 51,
+        "fk_grade": 17.93
+      }
+    ],
+    "world_core.thinness": [
+      {
+        "record_id": "pahc.core.house-church",
+        "words": 141,
+        "sentences": 6,
+        "longest_sentence_words": 32,
+        "fk_grade": 16.97
+      }
+    ],
+    "world_core.cautions": [
+      {
+        "record_id": "pahc.core.house-church",
+        "words": 318,
+        "sentences": 12,
+        "longest_sentence_words": 42,
+        "fk_grade": 16.97
+      }
+    ],
+    "demonstration.exchange": [
+      {
+        "record_id": "pahc.demo.becoming-one-of-us",
+        "words": 152,
+        "sentences": 9,
+        "longest_sentence_words": 36,
+        "fk_grade": 6.09
+      },
+      {
+        "record_id": "pahc.demo.becoming-one-of-us",
+        "words": 122,
+        "sentences": 10,
+        "longest_sentence_words": 22,
+        "fk_grade": 3.48
+      },
+      {
+        "record_id": "pahc.demo.center-coming-to-belief",
+        "words": 123,
+        "sentences": 7,
+        "longest_sentence_words": 28,
+        "fk_grade": 7.38
+      },
+      {
+        "record_id": "pahc.demo.center-how-we-know",
+        "words": 121,
+        "sentences": 7,
+        "longest_sentence_words": 29,
+        "fk_grade": 7.32
+      },
+      {
+        "record_id": "pahc.demo.center-jesus-as-god",
+        "words": 99,
+        "sentences": 7,
+        "longest_sentence_words": 22,
+        "fk_grade": 5.39
+      },
+      {
+        "record_id": "pahc.demo.center-who-was-jesus",
+        "words": 162,
+        "sentences": 8,
+        "longest_sentence_words": 34,
+        "fk_grade": 7.89
+      },
+      {
+        "record_id": "pahc.demo.honest-limit-material-remains",
+        "words": 151,
+        "sentences": 14,
+        "longest_sentence_words": 24,
+        "fk_grade": 5.84
+      },
+      {
+        "record_id": "pahc.demo.identity-collision-divorce",
+        "words": 120,
+        "sentences": 6,
+        "longest_sentence_words": 45,
+        "fk_grade": 8.08
+      },
+      {
+        "record_id": "pahc.demo.identity-collision-someone-like-me",
+        "words": 114,
+        "sentences": 6,
+        "longest_sentence_words": 36,
+        "fk_grade": 7.0
+      },
+      {
+        "record_id": "pahc.demo.identity-collision-womens-authority",
+        "words": 149,
+        "sentences": 10,
+        "longest_sentence_words": 32,
+        "fk_grade": 6.22
+      },
+      {
+        "record_id": "pahc.demo.lament-suffering",
+        "words": 218,
+        "sentences": 12,
+        "longest_sentence_words": 35,
+        "fk_grade": 6.81
+      }
+    ],
+    "honest_limit.statement": [
+      {
+        "record_id": "pahc.limit.enslaved-voices",
+        "words": 145,
+        "sentences": 9,
+        "longest_sentence_words": 33,
+        "fk_grade": 6.35
+      },
+      {
+        "record_id": "pahc.limit.material-remains",
+        "words": 163,
+        "sentences": 16,
+        "longest_sentence_words": 24,
+        "fk_grade": 5.41
+      },
+      {
+        "record_id": "pahc.limit.ordinary-majority",
+        "words": 134,
+        "sentences": 7,
+        "longest_sentence_words": 40,
+        "fk_grade": 7.86
+      },
+      {
+        "record_id": "pahc.limit.womens-own-words",
+        "words": 140,
+        "sentences": 7,
+        "longest_sentence_words": 36,
+        "fk_grade": 8.41
+      }
+    ],
+    "story.tellable_as": [
+      {
+        "record_id": "pahc.story.day-under-bishop-and-presbyters",
+        "words": 38,
+        "sentences": 3,
+        "longest_sentence_words": 20,
+        "fk_grade": 8.84
+      },
+      {
+        "record_id": "pahc.story.didache-eucharist",
+        "words": 45,
+        "sentences": 2,
+        "longest_sentence_words": 27,
+        "fk_grade": 11.23
+      },
+      {
+        "record_id": "pahc.story.first-clement-corinthian-dispute",
+        "words": 33,
+        "sentences": 2,
+        "longest_sentence_words": 19,
+        "fk_grade": 9.8
+      },
+      {
+        "record_id": "pahc.story.grandsons-before-domitian",
+        "words": 15,
+        "sentences": 1,
+        "longest_sentence_words": 15,
+        "fk_grade": 8.35
+      },
+      {
+        "record_id": "pahc.story.hermas-visions",
+        "words": 40,
+        "sentences": 2,
+        "longest_sentence_words": 24,
+        "fk_grade": 10.21
+      },
+      {
+        "record_id": "pahc.story.ignatius-guarded-journey",
+        "words": 36,
+        "sentences": 2,
+        "longest_sentence_words": 24,
+        "fk_grade": 11.72
+      },
+      {
+        "record_id": "pahc.story.justin-sunday-gathering",
+        "words": 38,
+        "sentences": 2,
+        "longest_sentence_words": 21,
+        "fk_grade": 10.45
+      },
+      {
+        "record_id": "pahc.story.martyrdom-of-polycarp",
+        "words": 38,
+        "sentences": 2,
+        "longest_sentence_words": 22,
+        "fk_grade": 10.45
+      },
+      {
+        "record_id": "pahc.story.mutual-aid-prisoner",
+        "words": 39,
+        "sentences": 2,
+        "longest_sentence_words": 22,
+        "fk_grade": 14.1
+      },
+      {
+        "record_id": "pahc.story.nero-scapegoating",
+        "words": 25,
+        "sentences": 1,
+        "longest_sentence_words": 25,
+        "fk_grade": 14.46
+      },
+      {
+        "record_id": "pahc.story.one-eucharist-under-bishop",
+        "words": 28,
+        "sentences": 2,
+        "longest_sentence_words": 18,
+        "fk_grade": 11.36
+      },
+      {
+        "record_id": "pahc.story.pliny-interrogation",
+        "words": 29,
+        "sentences": 2,
+        "longest_sentence_words": 21,
+        "fk_grade": 12.04
+      },
+      {
+        "record_id": "pahc.story.polycarp-forwards-letters",
+        "words": 25,
+        "sentences": 1,
+        "longest_sentence_words": 25,
+        "fk_grade": 15.87
+      },
+      {
+        "record_id": "pahc.story.two-ways-catechumen",
+        "words": 47,
+        "sentences": 2,
+        "longest_sentence_words": 24,
+        "fk_grade": 9.89
+      }
+    ],
+    "story.text": [
+      {
+        "record_id": "pahc.story.day-under-bishop-and-presbyters",
+        "words": 240,
+        "sentences": 14,
+        "longest_sentence_words": 27,
+        "fk_grade": 10.27
+      },
+      {
+        "record_id": "pahc.story.didache-eucharist",
+        "words": 292,
+        "sentences": 13,
+        "longest_sentence_words": 44,
+        "fk_grade": 9.9
+      },
+      {
+        "record_id": "pahc.story.first-clement-corinthian-dispute",
+        "words": 149,
+        "sentences": 9,
+        "longest_sentence_words": 29,
+        "fk_grade": 9.89
+      },
+      {
+        "record_id": "pahc.story.grandsons-before-domitian",
+        "words": 215,
+        "sentences": 12,
+        "longest_sentence_words": 46,
+        "fk_grade": 6.51
+      },
+      {
+        "record_id": "pahc.story.hermas-visions",
+        "words": 201,
+        "sentences": 13,
+        "longest_sentence_words": 26,
+        "fk_grade": 7.42
+      },
+      {
+        "record_id": "pahc.story.ignatius-guarded-journey",
+        "words": 266,
+        "sentences": 14,
+        "longest_sentence_words": 41,
+        "fk_grade": 8.63
+      },
+      {
+        "record_id": "pahc.story.justin-sunday-gathering",
+        "words": 173,
+        "sentences": 10,
+        "longest_sentence_words": 39,
+        "fk_grade": 7.89
+      },
+      {
+        "record_id": "pahc.story.martyrdom-of-polycarp",
+        "words": 309,
+        "sentences": 16,
+        "longest_sentence_words": 35,
+        "fk_grade": 9.1
+      },
+      {
+        "record_id": "pahc.story.mutual-aid-prisoner",
+        "words": 266,
+        "sentences": 14,
+        "longest_sentence_words": 40,
+        "fk_grade": 10.06
+      },
+      {
+        "record_id": "pahc.story.nero-scapegoating",
+        "words": 167,
+        "sentences": 11,
+        "longest_sentence_words": 28,
+        "fk_grade": 8.85
+      },
+      {
+        "record_id": "pahc.story.one-eucharist-under-bishop",
+        "words": 186,
+        "sentences": 10,
+        "longest_sentence_words": 34,
+        "fk_grade": 9.65
+      },
+      {
+        "record_id": "pahc.story.pliny-interrogation",
+        "words": 238,
+        "sentences": 16,
+        "longest_sentence_words": 39,
+        "fk_grade": 8.84
+      },
+      {
+        "record_id": "pahc.story.polycarp-forwards-letters",
+        "words": 142,
+        "sentences": 7,
+        "longest_sentence_words": 46,
+        "fk_grade": 10.13
+      },
+      {
+        "record_id": "pahc.story.two-ways-catechumen",
+        "words": 305,
+        "sentences": 15,
+        "longest_sentence_words": 70,
+        "fk_grade": 9.16
+      }
+    ],
+    "term.plain_meaning": [
+      {
+        "record_id": "pahc.term.agape-label",
+        "words": 24,
+        "sentences": 2,
+        "longest_sentence_words": 16,
+        "fk_grade": 7.77
+      },
+      {
+        "record_id": "pahc.term.baptisma",
+        "words": 27,
+        "sentences": 3,
+        "longest_sentence_words": 10,
+        "fk_grade": 6.28
+      },
+      {
+        "record_id": "pahc.term.diakonos",
+        "words": 19,
+        "sentences": 1,
+        "longest_sentence_words": 19,
+        "fk_grade": 8.59
+      },
+      {
+        "record_id": "pahc.term.ekklesia",
+        "words": 28,
+        "sentences": 3,
+        "longest_sentence_words": 12,
+        "fk_grade": 7.3
+      },
+      {
+        "record_id": "pahc.term.episkopos",
+        "words": 35,
+        "sentences": 2,
+        "longest_sentence_words": 22,
+        "fk_grade": 9.44
+      },
+      {
+        "record_id": "pahc.term.eucharistia",
+        "words": 30,
+        "sentences": 2,
+        "longest_sentence_words": 17,
+        "fk_grade": 7.57
+      },
+      {
+        "record_id": "pahc.term.hetaeria",
+        "words": 23,
+        "sentences": 2,
+        "longest_sentence_words": 13,
+        "fk_grade": 7.88
+      },
+      {
+        "record_id": "pahc.term.ministrae",
+        "words": 28,
+        "sentences": 2,
+        "longest_sentence_words": 19,
+        "fk_grade": 9.78
+      },
+      {
+        "record_id": "pahc.term.pertinacia",
+        "words": 27,
+        "sentences": 2,
+        "longest_sentence_words": 26,
+        "fk_grade": 7.18
+      },
+      {
+        "record_id": "pahc.term.presbyterion",
+        "words": 23,
+        "sentences": 2,
+        "longest_sentence_words": 16,
+        "fk_grade": 4.8
+      },
+      {
+        "record_id": "pahc.term.presbyteros",
+        "words": 28,
+        "sentences": 2,
+        "longest_sentence_words": 19,
+        "fk_grade": 8.83
+      },
+      {
+        "record_id": "pahc.term.prophetes",
+        "words": 28,
+        "sentences": 3,
+        "longest_sentence_words": 15,
+        "fk_grade": 6.17
+      },
+      {
+        "record_id": "pahc.term.two-ways",
+        "words": 34,
+        "sentences": 3,
+        "longest_sentence_words": 14,
+        "fk_grade": 4.79
+      }
+    ],
+    "term.quick_meaning": [
+      {
+        "record_id": "pahc.term.agape-label",
+        "words": 20,
+        "sentences": 2,
+        "longest_sentence_words": 10,
+        "fk_grade": 7.19
+      },
+      {
+        "record_id": "pahc.term.baptisma",
+        "words": 19,
+        "sentences": 2,
+        "longest_sentence_words": 12,
+        "fk_grade": 6.93
+      },
+      {
+        "record_id": "pahc.term.diakonos",
+        "words": 19,
+        "sentences": 1,
+        "longest_sentence_words": 19,
+        "fk_grade": 7.16
+      },
+      {
+        "record_id": "pahc.term.ekklesia",
+        "words": 22,
+        "sentences": 2,
+        "longest_sentence_words": 11,
+        "fk_grade": 9.3
+      },
+      {
+        "record_id": "pahc.term.episkopos",
+        "words": 25,
+        "sentences": 3,
+        "longest_sentence_words": 13,
+        "fk_grade": 6.07
+      },
+      {
+        "record_id": "pahc.term.eucharistia",
+        "words": 20,
+        "sentences": 1,
+        "longest_sentence_words": 20,
+        "fk_grade": 8.33
+      },
+      {
+        "record_id": "pahc.term.hetaeria",
+        "words": 20,
+        "sentences": 1,
+        "longest_sentence_words": 20,
+        "fk_grade": 9.91
+      },
+      {
+        "record_id": "pahc.term.ministrae",
+        "words": 27,
+        "sentences": 3,
+        "longest_sentence_words": 11,
+        "fk_grade": 6.71
+      },
+      {
+        "record_id": "pahc.term.pertinacia",
+        "words": 17,
+        "sentences": 1,
+        "longest_sentence_words": 17,
+        "fk_grade": 9.82
+      },
+      {
+        "record_id": "pahc.term.presbyterion",
+        "words": 16,
+        "sentences": 2,
+        "longest_sentence_words": 9,
+        "fk_grade": 6.71
+      },
+      {
+        "record_id": "pahc.term.presbyteros",
+        "words": 25,
+        "sentences": 3,
+        "longest_sentence_words": 11,
+        "fk_grade": 6.07
+      },
+      {
+        "record_id": "pahc.term.prophetes",
+        "words": 24,
+        "sentences": 2,
+        "longest_sentence_words": 16,
+        "fk_grade": 6.34
+      },
+      {
+        "record_id": "pahc.term.two-ways",
+        "words": 25,
+        "sentences": 1,
+        "longest_sentence_words": 25,
+        "fk_grade": 9.01
+      }
+    ],
+    "doctrinal_witness.text": [
+      {
+        "record_id": "pahc.witness.apostolic-practice",
+        "words": 107,
+        "sentences": 6,
+        "longest_sentence_words": 35,
+        "fk_grade": 7.05
+      },
+      {
+        "record_id": "pahc.witness.coming-to-belief",
+        "words": 133,
+        "sentences": 6,
+        "longest_sentence_words": 28,
+        "fk_grade": 9.2
+      },
+      {
+        "record_id": "pahc.witness.doubt-and-asking",
+        "words": 106,
+        "sentences": 6,
+        "longest_sentence_words": 33,
+        "fk_grade": 7.19
+      },
+      {
+        "record_id": "pahc.witness.god-and-argument",
+        "words": 156,
+        "sentences": 10,
+        "longest_sentence_words": 37,
+        "fk_grade": 7.81
+      },
+      {
+        "record_id": "pahc.witness.hard-texts",
+        "words": 226,
+        "sentences": 11,
+        "longest_sentence_words": 29,
+        "fk_grade": 8.47
+      },
+      {
+        "record_id": "pahc.witness.how-we-know",
+        "words": 92,
+        "sentences": 5,
+        "longest_sentence_words": 33,
+        "fk_grade": 7.46
+      },
+      {
+        "record_id": "pahc.witness.jesus-as-god",
+        "words": 87,
+        "sentences": 6,
+        "longest_sentence_words": 27,
+        "fk_grade": 5.74
+      },
+      {
+        "record_id": "pahc.witness.marriage-and-wealth",
+        "words": 136,
+        "sentences": 8,
+        "longest_sentence_words": 34,
+        "fk_grade": 6.46
+      },
+      {
+        "record_id": "pahc.witness.our-own-failures",
+        "words": 123,
+        "sentences": 9,
+        "longest_sentence_words": 30,
+        "fk_grade": 6.04
+      },
+      {
+        "record_id": "pahc.witness.outside-our-community",
+        "words": 193,
+        "sentences": 10,
+        "longest_sentence_words": 39,
+        "fk_grade": 7.51
+      },
+      {
+        "record_id": "pahc.witness.outsider-view",
+        "words": 189,
+        "sentences": 12,
+        "longest_sentence_words": 41,
+        "fk_grade": 6.2
+      },
+      {
+        "record_id": "pahc.witness.prayer-and-struggle",
+        "words": 153,
+        "sentences": 7,
+        "longest_sentence_words": 28,
+        "fk_grade": 8.95
+      },
+      {
+        "record_id": "pahc.witness.reading-scripture",
+        "words": 128,
+        "sentences": 8,
+        "longest_sentence_words": 32,
+        "fk_grade": 6.4
+      },
+      {
+        "record_id": "pahc.witness.scholarly-standing",
+        "words": 129,
+        "sentences": 9,
+        "longest_sentence_words": 31,
+        "fk_grade": 6.83
+      },
+      {
+        "record_id": "pahc.witness.scripture-and-testimony",
+        "words": 111,
+        "sentences": 9,
+        "longest_sentence_words": 18,
+        "fk_grade": 7.43
+      },
+      {
+        "record_id": "pahc.witness.what-we-never-settled",
+        "words": 184,
+        "sentences": 9,
+        "longest_sentence_words": 26,
+        "fk_grade": 8.23
+      },
+      {
+        "record_id": "pahc.witness.who-was-jesus",
+        "words": 135,
+        "sentences": 7,
+        "longest_sentence_words": 32,
+        "fk_grade": 6.66
+      }
+    ]
+  }
+}

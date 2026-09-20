@@ -1,4 +1,6 @@
-"""Retrieval reach benchmark - 60 participant questions, ten per world.
+"""Retrieval reach benchmark - 118 participant questions across ten worlds
+(the original six carry ten each; cappadocian/don/gallic/rzg carry 14-15,
+added Build-Plan.md Stage 2e, see the history entry below).
 
 WRITTEN BEFORE THE RECORDS IT MEASURES. The questions in bench/ were
 composed on 2026-08-27 from each world's own subject matter, and locked,
@@ -8,9 +10,9 @@ retrieval vocabulary, so anyone who writes a hint after seeing a question
 fail can make that question pass without retrieval getting better. See
 cic/corpus-map/RETRIEVAL-HINTS.md, rule 2.
 
-Reports, per world: total ground records over the ten questions, the
-average, how many canon cells were matched, how many questions returned
-an ENTIRELY EMPTY ground, and how many quote records surfaced.
+Reports, per world: total ground records over that world's own questions,
+the average, how many canon cells were matched, how many questions
+returned an ENTIRELY EMPTY ground, and how many quote records surfaced.
 
 Baseline on the day it was written (entity routing in, no quote hints):
     214 ground / 3.6 avg / 19 cells / 11 empty / 25 quotes
@@ -69,6 +71,112 @@ it stranded; putting it in a canon question - F3-E, "What did your
 neighbours say about you - what were you accused of?" - made it a word
 the router trusts on its own.
 
+Build-Plan.md STAGE 2E (2026-09-20): the fleet's four remaining worlds -
+cappadocian, don, gallic, rzg - had no bench file at all, so this
+instrument covered six of ten worlds and Stage 4c's own Done criterion
+("bench on ten worlds") could not be measured. Wrote bench/{cappadocian,
+don,gallic,rzg}.json (14-15 questions each) from each world's own
+doorway_description/thinness_statement in records/worlds/<code>.yaml -
+not from its compiled records or any existing retrieval.retrieve_when
+hint, per this file's own rule 2 discipline above. Every draft question
+was run once, unmodified, against that world's real compiled package;
+four came back with an EMPTY ground (cappadocian's "What was a household
+like in your congregation?", gallic's "What was Marseilles like?", and
+two of rzg's) and were rephrased plainer and re-run before locking - the
+same "write it, measure it" order rule 2 asks of a hint, applied here to
+a question instead. Added this file's own world list (six -> ten); no
+retrieval code changed. Locked result, all ten worlds, zero empty:
+
+    world        qs  ground   avg  cells  empty  quotes
+    alx          10      77   7.7     10      0      15
+    cappadocian  15      40   2.7      9      0      12
+    desert       10      88   8.8     12      0      20
+    don          15     107   7.1     24      0       5
+    gallic       14      93   6.6     28      0       1
+    hal          10      73   7.3      9      0      14
+    ijc          10      76   7.6     11      0      15
+    pahc         10      65   6.5     13      0      12
+    rzg          14      97   6.9     14      0      11
+    syr          10      97   9.7     14      0      20
+    TOTAL       118     813   6.9    144      0     125
+
+cappadocian's low average (2.7) and gallic's near-absence of quotes (1)
+are read here as honest measurements of where each world's own coverage/
+canon-cell seeding currently sits, not as defects this stage fixes - the
+six-world history above shows that kind of gap closing through many
+separate hint/canon passes over real calendar time, which is Stage 4's
+(and beyond) work, not this one's. Nothing here should read as "ready for
+the same tuning six had" without that same measured effort.
+
+Build-Plan.md STAGE 4C, PART 2 (2026-09-20): engine.m4.evidence.
+select_cell_candidates gained Stage B2 - when a matched cell's own
+compiled/coverage.json entry has literally zero candidates of some record
+type (a structural absence, not a low score), the slot is now filled from
+a whole-world scan scored against engine.prose.retrieval_words (the same
+word set compiled/retrieval.json caches, landed unread in part 1 - see
+that module's own comment), capped at that type's own floor, and never
+touching honest_limit. This measures the exact same 118 questions cited
+above, changing no question and no record - the numbers below are what
+part 1's cache was compiled for and part 2 finally reads. Every world
+moved up, zero regressions, zero empty (unchanged), cell count unchanged
+(Stage A is untouched by this stage):
+
+    world        qs  ground   avg  cells  empty  quotes
+    alx          10      88   8.8     10      0      15
+    cappadocian  15      91   6.1      9      0      14
+    desert       10     106  10.6     12      0      22
+    don          15     170  11.3     24      0      18
+    gallic       14     207  14.8     28      0       7
+    hal          10      83   8.3      9      0      14
+    ijc          10      99   9.9     11      0      21
+    pahc         10      81   8.1     13      0      16
+    rzg          14     121   8.6     14      0      16
+    syr          10     106  10.6     14      0      22
+    TOTAL       118    1152   9.8    144      0     165
+
+Build-Plan.md STAGE 4D (2026-09-20): a tier prior. `retrieval.tier`
+(Artifact-1-Record-Schema.md: "1 core / 2 supporting / 3 ambient",
+authored on roughly half the fleet's own records) had sat unread by any
+ranking here - select_cell_candidates now adds a small, bounded lean
+toward the lower tier number (+0.05 for tier 1, +0.02 for tier 2, +0 for
+tier 3/unset) on top of the relevance score, in both the ordinary
+coverage-seeded ranking and Stage B2's own whole-world fill.
+
+THIS CARRIES A REGRESSION, same discipline as the Evagrius/Macarius entry
+above: left visible, not rounded away. 4 of 118 questions moved (3 down,
+1 up); net -2 ground fleet-wide:
+
+    world        qs  ground   avg  cells  empty  quotes
+    alx          10      88   8.8     10      0      15
+    cappadocian  15      91   6.1      9      0      14
+    desert       10     106  10.6     12      0      22
+    don          15     169  11.3     24      0      18
+    gallic       14     205  14.6     28      0       7
+    hal          10      83   8.3      9      0      14
+    ijc          10      99   9.9     11      0      21
+    pahc         10      81   8.1     13      0      16
+    rzg          14     122   8.7     14      0      16
+    syr          10     106  10.6     14      0      22
+    TOTAL       118    1150   9.7    144      0     165
+
+Root-caused, not shrugged off: every affected question hit
+select_cell_candidates' own shared per-cell `budget_chars` (9000). A
+tier-1 record's own head text outran a tier-2 record's own shorter one it
+displaced, on a GENUINE tie in relevance score (both 0.2, tier prior's
+only job) - the extra characters occasionally pushed a later type's own
+pick past the same turn's shared budget. Confirmed this is not the prior
+over-reaching: the identical swaps reproduce under the most conservative
+possible design (an exact-float-tie-break with no additive lean at all),
+so a narrower prior would not have avoided this. Zero questions went
+empty; net is still far ahead of the pre-4c baseline (813) this file
+opened with. Mark's own call, shown the numbers plainly: ship it.
+
+Spot-checked, not just counted: gallic's "Why did you leave the army?"
+picked up gallic.force.army-and-rank-before ("Each founding narrative at
+each house begins with a departure from Roman service or rank") purely
+from this fill - real, on-topic ground a fully empty force slot withheld
+before this stage existed.
+
 Run: python3 engine/m4/reports/retrieval_bench.py
 """
 import json, sys, pathlib
@@ -80,7 +188,7 @@ cq = {r:v for r,v in fleet.items() if v.get("record_type")=="canon_question"}
 S = pathlib.Path(__file__).resolve().parent / "bench"
 tot_g=tot_q=tot_empty=tot_cells=0
 per=[]
-for w in ["alx","desert","hal","ijc","pahc","syr"]:
+for w in ["alx","cappadocian","desert","don","gallic","hal","ijc","pahc","rzg","syr"]:
     pkgs=sorted(pathlib.Path(f"packages/{w}").iterdir())
     C=pkgs[-1]/"compiled"
     recs=ev.repository_records_by_id(json.loads((C/"repository.json").read_text()))

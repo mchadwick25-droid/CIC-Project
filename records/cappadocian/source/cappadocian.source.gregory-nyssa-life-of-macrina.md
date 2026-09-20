@@ -25,8 +25,7 @@ edition: Clarke's 1916 translation, vendored as cic/texts/gregory-nyssa_life-of-
   (superseding an earlier introduction-only upload, cic/texts/gregory-nyssa_life-of-macrina-introduction-only_clarke1916.txt,
   kept per the Registry's own no-deletion practice, redundant with this row)
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ and independently verified (identity, completeness,
-  provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 48; the file itself was independently
   verified for identity, completeness, and provenance by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md

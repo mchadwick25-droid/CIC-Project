@@ -20,8 +20,7 @@ work: The creed attributed to Gregory Thaumaturgus, transmitted only via Gregory
 edition: Transmitted solely inside cappadocian.source.gregory-nyssa-life-of-gregory-thaumaturgus (NPNF205,
   row 51)
 kind: unvendored
-rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
-  in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: contested (authenticity Contested, per Doc_01 SS1)
 discovery_channel: builder-prior-knowledge; Source Registry row 68; a named, vendored text already sitting
   in cic/texts/ (present since an earlier session), not reopened to recheck this specific citation this

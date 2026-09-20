@@ -66,6 +66,9 @@ plain_meaning: >-
   The monks of a house or circle as one body, and the address between named friends - "holy
   brother Helladius."
 world_word: brethren (fratres) / brother
+gloss_forms:
+- form: brethren
+  kind: ordinary
 false_friend: []
 senses:
   informational: >-

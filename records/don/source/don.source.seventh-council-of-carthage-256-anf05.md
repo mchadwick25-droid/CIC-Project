@@ -21,9 +21,7 @@ work: The Seventh Council of Carthage under Cyprian (September 256), on the bapt
   recorded within the Cyprianic corpus
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ as part of the shared patristic library since an
-  earlier session, rights basis established there (the file's own provenance header states Public Domain)
-  and not re-checked by this compilation pass.
+rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed
 discovery_channel: corpus map / cic/corpus-map/donatism.yaml / 2026-09-01; corpus map role `antecedent`,
   corpus-map confidence `assigned`. Registry row 10.

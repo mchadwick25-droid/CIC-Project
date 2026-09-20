@@ -1,0 +1,38 @@
+kind: formation
+world_id: the-reformed-cities-zurich-and-geneva
+display_name: "The Reformed Cities - Zurich & Geneva"
+time_window: {start: 1519, end: 1650}
+place: "Zurich and Geneva, in the Swiss Confederacy"
+doorway_place: "Zurich's Grossmunster and Geneva's own Consistory"
+doorway_description: >-
+  On 1 January 1519, Huldrych Zwingli, newly appointed Leutpriester at
+  Zurich's Grossmunster, began preaching straight through the Gospel of
+  Matthew rather than following the fixed lectionary - the first act of a
+  reform that tested every inherited practice against Scripture and kept
+  only what the text would warrant. The First and Second Zurich
+  Disputations (1523) carried that testing into public, civic argument
+  before the whole city; Zwingli died in battle at the Second War of
+  Kappel in 1531, and his successor Heinrich Bullinger held Zurich's own
+  pastorate for four decades after him. Geneva's own reform opened
+  separately - its 1526 alliance with Bern, its 1536 break from Savoy -
+  and was joined that same year by John Calvin, whose ministry, once
+  consolidated under the 1541 Ecclesiastical Ordinances, built a
+  Consistory of pastors and lay elders to hold the whole city's ordinary
+  conduct to account. Zwingli and Calvin never met; their ministries did
+  not overlap. What formally bridges the two cities is the Consensus
+  Tigurinus (1549), a jointly negotiated statement on the Lord's Supper -
+  evidence of two reforms arriving independently at language neither could
+  disown, not of any earlier contact between their founders. The window's
+  close at 1650 is the census's own administrative continues-cap for a
+  still-living tradition, not a historical rupture: this pattern continues
+  unbroken into the Scottish Kirk, the Huguenots, the Dutch Reformed, and
+  English Puritanism.
+card_name: "The Reformed Cities"
+representative: {name: Theophilus, role_label: Pastor}
+census_id: "the-reformed-cities-zurich-and-geneva"
+thinness_statement: "Richest in confessional and doctrinal content: Calvin's Institutes and Catechism, Zwingli's own founding statements and later writings, the Consensus Tigurinus, the Second Helvetic Confession - all directly vendored and verified. Thin to silent on ordinary lived practice and daily texture: no surviving account of what an ordinary Sunday service, a Consistory summons, or an ordinary citizen's own experience of either Reformation actually felt like - a genre asymmetry between richly vendored doctrinal content and almost entirely absent daily-practice content, not a gap filled with invention. No Tier 2, 3, or 4 story material survives or is built - this world's own confessional core actively refuses the devotional genre hagiography belongs to, and the absence is evidence the refusal worked, not a missing source. Three of this world's own most consequential documented events - the Marburg Colloquy (1529), the Bolsec controversy (1551), and the Perrinist crisis (1555) - have no vendored primary narrative source comparable to this world's own three built stories. Geneva's own specific institutional detail (the Consistory's weekly case-by-case operation) remains Confidence E pending the Ecclesiastical Ordinances' own acquisition; Calvin's own vendored corpus runs roughly four times Zwingli's, a disclosed Author-Gravity concentration distinct from the genre asymmetry above."
+living_tradition_flag: true
+state: admitted
+package:
+  manifest_hash: "sha256:3232fbc07f959c0362ddf52f272edbba50f880e4dd1e0160d5d8673f874e680c"
+  location: "packages/rzg/2026-09-20T14-06-20Z"

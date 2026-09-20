@@ -8,7 +8,12 @@ import hashlib
 import re
 
 from engine.m1 import canon
-from engine.prose import DEMONSTRATION_TAG_FLOOR, content_words, quote_aware_sentences
+from engine.prose import (
+    DEMONSTRATION_TAG_FLOOR,
+    content_words,
+    quote_aware_sentences,
+    retrieval_words,
+)
 
 from .canonical import canonical_json
 
@@ -668,7 +673,50 @@ def build_indexes(records: dict) -> dict[str, bytes]:
     return {
         "compiled/indexes/lexicon.faiss": _index_blob(lexicon_entries),
         "compiled/indexes/story.faiss": _index_blob(story_entries),
+        "compiled/retrieval.json": build_retrieval_json(records),
     }
+
+
+# ---- compiled/retrieval.json ----------------------------------------------
+# Build-Plan.md Stage 4c. A deterministic lexical index: one word set per
+# record, scoped to engine.m1.spoken_fields's own registry (the fields that
+# actually reach a participant or the model that speaks to them) so this
+# reads the same "what does this record actually say" every other
+# participant-facing surface already agrees on, rather than re-deriving a
+# field list of its own - the exact drift this project spent Stage 2's own
+# registry work closing. "instruction" fields (voice_craft/fleet_voice
+# scaffolding - never a claim about the world, never itself retrievable
+# ground) are deliberately excluded; every other role (voice-diet,
+# evidence-head, participant-label) is included, since a participant could
+# plausibly type any of that content back at the voice, including a
+# citation-card label like a term's own world_word.
+#
+# FALLBACK_EXCLUDED_KEYS and NON_PROSE_KEYS are both applied on top,
+# defensively, even though a spoken field and either exclusion set are
+# already near-disjoint at the TOP level in practice - a spoken field can
+# still nest one of them one level down. `quote.sources` is itself a
+# spoken, participant-label field, but its own list items carry
+# `source_id` (NON_PROSE_KEYS - "a dotted id tokenizes into ordinary
+# words") and its `locus` strings follow the identical "title; scholarly
+# apparatus" convention `engine.m4.citation_cards` already knows to
+# truncate before showing a participant (source.work is the same shape) -
+# short_head() applies that same truncation here, so this index is never
+# wider than what a participant would actually be shown. Found by running
+# this builder for real against alx before landing it: without both, a
+# quote's own vendored-filename apparatus ("...(anf04_tertullian4-
+# minucius-felix-commodian-origen1-2.xml)") and its source's own dotted id
+# fragments ("alx", "origen") were leaking into that quote's word set.
+#
+# The word-extraction itself (retrieval_words) now lives in engine.prose,
+# not here - Stage 4c part 2 has engine.m4.evidence's own Stage B2 fill
+# score against the identical set, so the two can't drift apart the way
+# seven independently-maintained field lists already did once (see
+# engine.m1.spoken_fields's own docstring). This file still owns the
+# artifact's shape (one word list per record, keyed by id, sorted).
+
+
+def build_retrieval_json(records: dict) -> bytes:
+    return canonical_json({r["id"]: retrieval_words(r) for r in sorted(records.values(), key=lambda r: r["id"])})
 
 
 # ---- compiled/quotes.json, figures.json, repository.json ----------------

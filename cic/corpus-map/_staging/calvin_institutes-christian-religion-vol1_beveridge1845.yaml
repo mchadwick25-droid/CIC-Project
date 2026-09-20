@@ -1,0 +1,19 @@
+# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
+# the Reformed Cities build (Atlas VI.2), per this world's own Source
+# Readiness Dossier. No cross-link opportunities found against sibling
+# Era VII/VI candidates (dossier §5).
+source_file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
+
+assignments:
+  - work: "Institutes of the Christian Religion, Book I (Of the Knowledge
+      of God the Creator)"
+    author: calvin
+    locus: "whole file - Book First"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Calvin's own systematic theology, 1559 final Latin edition, in the
+      standard-cited Beveridge 1845 English translation. Book I: the
+      knowledge of God as Creator, the created order, providence.

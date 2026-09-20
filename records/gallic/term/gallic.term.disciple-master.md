@@ -81,6 +81,11 @@ plain_meaning: >-
   Sulpitius mourning "our master, Martin." The south keeps it as elder and junior. Vincent turns it on
   doctrine: the true Catholic is "not a teacher but a disciple, not a leader but a follower."
 world_word: disciple / master
+gloss_forms:
+- form: disciple
+  kind: ordinary
+- form: master
+  kind: ordinary
 false_friend:
 - a student and a teacher of doctrine
 - discipleship as a program or curriculum

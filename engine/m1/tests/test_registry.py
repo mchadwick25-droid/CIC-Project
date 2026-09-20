@@ -34,3 +34,26 @@ def test_a_formation_world_is_not_told_its_touchpoints_are_waived():
     # neither ever claims a touchpoint happened
     for payload in (real, fixture):
         assert payload["identity_touchpoint"] is None and payload["admission_read"] is None
+
+
+def test_signoffs_reports_the_worlds_own_actual_registry_state():
+    """L-3 (witt go-live adversarial review, 2026-09-20): `state` used to be
+    hardcoded to the literal string "built" regardless of the world's own
+    real registry state - every admitted or open world's own signoffs.json
+    contradicted itself. Confirmed present in witt's, rzg's, don's and
+    gallic's packages alike before this fix."""
+    from engine.m2.validation import build_signoffs
+    import json
+    built = json.loads(build_signoffs("witt", is_fixture=False, state="built"))
+    assert "state=built" in built["note"] or "(built)" in built["note"]
+    admitted = json.loads(build_signoffs("witt", is_fixture=False, state="admitted"))
+    assert "admitted" in admitted["note"]
+    assert "state=built" not in admitted["note"]
+    # the default (no state passed) still reads "built" - the pre-fix
+    # behaviour for any caller that hasn't been updated, not a silent
+    # behaviour change for code this fix doesn't touch
+    default = json.loads(build_signoffs("witt", is_fixture=False))
+    assert "built" in default["note"]
+    # the four touchpoints are still OUTSTANDING regardless of state
+    for payload in (built, admitted, default):
+        assert "OUTSTANDING, not waived" in payload["note"]

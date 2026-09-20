@@ -22,10 +22,7 @@ work: Acts of the Abitinian Martyrs (Acta Saturnini) -- the 304 Diocletianic per
 edition: No edition is named. Not vendored; no specific printing, translation, or manuscript basis is
   identified anywhere in Source_Registry.md or Source_Acquisition_Manifest.md.
 kind: unvendored
-rights_status: No rights position is stated, because no edition or publication is named for this row anywhere
-  in Source_Registry.md or Source_Acquisition_Manifest.md. Not vendored; nothing to vendor until a specific
-  edition or publication is identified. Recorded as an honest negative rather than defaulted to a plausible-sounding
-  status this build has not established.
+rights_status: "No rights position is stated, because no edition or publication is named for this row. Not vendored - nothing to vendor until a specific edition or publication is identified"
 attribution_status: anonymous, and the transmission history itself is genuinely contested in the scholarship
   -- whether the surviving text is a Donatist or a Catholic transmission is not settled. Step0_Movement_Scope_Confirmation.md
   SS3 B2 directs that it be treated as contested, not as a clean witness for either party.

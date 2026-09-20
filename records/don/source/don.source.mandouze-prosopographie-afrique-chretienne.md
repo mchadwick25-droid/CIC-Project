@@ -24,9 +24,7 @@ work: 'Prosopographie chretienne du Bas-Empire, I: Prosopographie de l''Afrique 
   CNRS, 1982)'
 edition: CNRS, 1982 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)
 kind: unvendored
-rights_status: in-copyright modern scholarship; consultation-only, never vendored (Source_Acquisition_Manifest.md
-  SS3). Cited and paraphrased by this build, never quoted as licensed vendored material. Bibliographic
-  record only -- the volume itself was not opened by this compilation pass.
+rights_status: "in-copyright modern scholarship; consultation-only, never vendored. Cited and paraphrased, never quoted as licensed vendored material - a bibliographic record only"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge / field knowledge / 2026-09-01. Registry row 42. Flagged in
   the Registry's own priority second-opinion review list.

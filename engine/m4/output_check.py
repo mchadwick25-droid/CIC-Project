@@ -311,3 +311,44 @@ def check_output(text: str, *, history: list[dict] | None = None, participant_me
         + _premise_findings(text, participant_message, said)
         + _pronoun_findings(text)
     )
+
+
+def find_shipped_defects(report: dict) -> list[dict]:
+    """Every output_defects[] entry that actually shipped in a live-test
+    report - engine.m4.live_turn_run's or engine.m4.live_table_run's own
+    report shape, read directly rather than re-derived, so this can never
+    disagree with what the report itself recorded.
+
+    WHY THIS EXISTS (H-3, witt go-live adversarial review, 2026-09-19). A
+    live-turn report carried a false conversational-memory defect
+    (check_output's own family, this module's ONE perfectly-decidable
+    class) on a turn presented as `degraded: false`. `degraded` on these
+    reports means "a gate call failed," not "the turn was good" - it says
+    nothing about output_defects, and nothing else read the field before a
+    reviewer had to open the raw JSON by hand to find it. This module's
+    own REPORTS, NEVER EDITS stance is right for a live participant turn
+    (the module's header explains why); it does not follow that a REVIEW
+    of an already-shipped report should have the same blind spot. A gate
+    reading a finished report is downstream of generation, not upstream of
+    it - checking it does not soften the module's own "asking is upstream
+    and probabilistic, checking is downstream and exact" division.
+
+    Every finding returned here already shipped to a participant (or would
+    have, on a real run) - this cannot be waived away as "the model might
+    have declined," because by the time it reaches this function, it did
+    not decline.
+    """
+    found = []
+    for r in report.get("results", []):  # live_turn_run.py's own shape
+        voice = (r.get("result") or {}).get("voice_event") or {}
+        for defect in voice.get("output_defects") or []:
+            found.append({"id": r.get("id"), "message": r.get("message"), **defect})
+    for round_ in report.get("rounds", []):  # live_table_run.py's own shape
+        for turn in round_.get("turns", []):
+            voice = turn.get("voice") or {}
+            for defect in voice.get("output_defects") or []:
+                found.append({
+                    "round_no": turn.get("round_no"), "position": turn.get("position"),
+                    "turn_selected": turn.get("turn_selected"), **defect,
+                })
+    return found

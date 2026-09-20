@@ -61,5 +61,7 @@ step 2 actually flips it.
 
 `cic-website` (the public site, Atlas) deploys via Cloudflare Workers Build, a separate
 pipeline this runbook does not touch. Cloudflare already builds a preview per branch
-(D3's own text notes this); whether its *production* deployment should also move from
-`main` to `live` is a separate decision, not yet made — flagged here, not decided.
+(D3's own text notes this). Its *production* deployment stays on `main`, not `live` —
+settled, not an open question: Mark tracks `live` as the deliberate, reviewed signal for
+what has actually shipped; Cloudflare tracking `main` directly is how the public site
+stays current in the background without needing its own promotion step (Mark, 2026-09-20).

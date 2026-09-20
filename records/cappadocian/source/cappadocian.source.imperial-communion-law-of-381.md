@@ -47,13 +47,7 @@ edition: >-
   substance and its bishop list, which three witnesses agree on; it is not a basis for any claim turning
   on an exact variant reading
 kind: unvendored
-rights_status: >-
-  public-domain (the Latin text; the Pharr English translation is separately in-copyright and excluded,
-  row 80). Independently verified 2026-09-09 by direct reading of both Latin witnesses, and both are now
-  acquired into this repository's own cic/texts/ (theodosianus-16_mommsen-meyer1905.txt and
-  codex-theodosianus_latinlibrary.txt, the source-library-integration merge) -- confirmed present at
-  Book 16, Title 1, Law 3 in each, textually matching this row's own named bishops. Corpus-map staging
-  entry at cic/corpus-map/_staging/theodosianus-16_mommsen-meyer1905.yaml.
+rights_status: "public-domain (the Latin text; the Pharr English translation is separately in-copyright and excluded). Independently verified 2026-09-09 by direct reading of both Latin witnesses, confirmed present and textually matching this row's own named bishops"
 attribution_status: attributed
 discovery_channel: >-
   builder-prior-knowledge; Source Registry row 79. Independently checked against primary

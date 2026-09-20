@@ -7,6 +7,7 @@ manual step recorded in the session's own commit history, not repeated
 here as a hermetic test.
 """
 from engine.m4.grounding_net import build_figure_lexicon, check_turn, parse_tagged, scope_completion, strip_tags
+from engine.m4.grounding_net import _drop_truncated_tail
 
 TERM_RECORD = {
     "id": "fix.term.eucharistia",
@@ -230,3 +231,139 @@ def test_an_untagged_sentence_with_no_marker_is_still_never_checked():
     sentence = check_turn("But it was never the whole of us.", {})["sentences"][0]
     assert sentence["verdict"] == "ok"
     assert sentence["why"] == "no checkable claim - interpretive/connective framing"
+
+
+# ---- truncation (2026-09-19) -----------------------------------------------
+# A generation call cut off by Bedrock's own stop mid-tag leaves an opener
+# with no closing "]]" anywhere after it - a shape _TAG's own well-formed
+# grammar can never match, so it used to reach strip_tags' output verbatim.
+# Real case, don's round-1 turn-1 of the 2026-09-19 rzg+don Table round:
+# "...never to preach it again [[don.dw.room-for-diss" with nothing after.
+
+_TRUNCATED_REAL_CASE = (
+    "In the second room, a layman of ours named Tyconius worked out from "
+    "Scripture that the church is spread across the whole earth - which, if "
+    "true, meant we were the ones who had cut ourselves off from something "
+    "real. He was told by our own bishop at Carthage never to preach it "
+    "again [[don.dw.room-for-diss"
+)
+
+
+def test_drop_truncated_tail_backs_off_to_last_finished_sentence():
+    text, truncated = _drop_truncated_tail(_TRUNCATED_REAL_CASE)
+    assert truncated is True
+    assert text == (
+        "In the second room, a layman of ours named Tyconius worked out from "
+        "Scripture that the church is spread across the whole earth - which, if "
+        "true, meant we were the ones who had cut ourselves off from something "
+        "real."
+    )
+    # the unfinished clause and the dangling tag are both gone
+    assert "[[" not in text
+    assert "He was told" not in text
+
+
+def test_drop_truncated_tail_leaves_ordinary_text_unchanged():
+    text = "A complete turn with a real tag [[fix.term.eucharistia]]."
+    assert _drop_truncated_tail(text) == (text, False)
+
+
+def test_drop_truncated_tail_on_an_all_fragment_turn_returns_empty():
+    # No prior sentence ever finished, so nothing is confirmed complete.
+    text, truncated = _drop_truncated_tail("Something cut off mid [[fix.term.eu")
+    assert truncated is True
+    assert text == ""
+
+
+def test_strip_tags_removes_a_dangling_unclosed_tag_and_its_fragment():
+    result = strip_tags(_TRUNCATED_REAL_CASE)
+    assert "[[" not in result
+    assert "He was told" not in result
+    assert result.endswith("something real.")
+
+
+def test_check_turn_reports_truncation_and_never_sees_the_dropped_fragment():
+    result = check_turn(_TRUNCATED_REAL_CASE, {})
+    assert result["truncated"] is True
+    joined = " ".join(s["sentence"] for s in result["sentences"])
+    assert "He was told" not in joined
+    assert "[[" not in joined
+
+
+def test_check_turn_reports_no_truncation_on_an_ordinary_turn():
+    result = check_turn("But it was never the whole of us.", {})
+    assert result["truncated"] is False
+
+
+# M-1 (witt go-live adversarial review, 2026-09-20): the scaffold exemption
+# used to cover a whole sentence the moment any SCAFFOLD_MARKERS phrase
+# appeared anywhere in it - real cases from that live run.
+
+def test_a_chronological_claim_riding_a_scaffold_phrase_is_no_longer_exempt():
+    """The exact defect: 'we cannot speak its own words' at the sentence's
+    own tail used to wave through an embedded, ungrounded year/place claim
+    earlier in the same sentence."""
+    text = (
+        "What we can say is only this: in 1525, in the same years when we were "
+        "forming households around the catechism and defending our teaching at "
+        "Augsburg, our founder wrote against the peasants' rising, and that "
+        "writing is part of our own history even when we cannot speak its own words."
+    )
+    result = check_turn(text, {})
+    entry = result["sentences"][0]
+    assert entry["verdict"] == "withhold"
+    assert "no citation tag" in entry["why"]
+
+
+def test_a_pure_scaffold_sentence_with_no_other_claim_still_exempts():
+    text = "We must be careful here, and honest about the shape of what we actually hold."
+    result = check_turn(text, {})
+    assert result["sentences"][0]["why"] == "exempt: honesty scaffolding / sanctioned self-naming"
+
+
+def test_a_scaffold_sentence_whose_marker_clause_is_first_still_exempts():
+    text = (
+        "We do not have the records that would tell us whether he was right "
+        "about how bad it really was, only that he believed it and said so."
+    )
+    result = check_turn(text, {})
+    assert result["sentences"][0]["why"] == "exempt: honesty scaffolding / sanctioned self-naming"
+
+
+def test_the_sanctioned_self_naming_line_still_exempts():
+    text = "I am a representative of Lutheran Wittenberg and its congregations."
+    result = check_turn(text, {})
+    assert result["sentences"][0]["why"] == "exempt: honesty scaffolding / sanctioned self-naming"
+
+
+def test_a_grounded_claim_beside_a_scaffold_phrase_still_passes_on_its_own_tag():
+    """Narrowing the exemption must not start withholding sentences that
+    were always properly grounded - a real tagged claim in its own clause,
+    beside a scaffold phrase, should clear the normal pipeline rather than
+    get caught by the fallout."""
+    text = (
+        "We must be honest: the thanksgiving meal of bread and cup at the "
+        "heart of the community's worship is what reached everyone [[fix.term.eucharistia]]."
+    )
+    result = check_turn(text, REPOSITORY)
+    entry = result["sentences"][0]
+    assert entry["verdict"] == "ok"
+    assert entry["why"] != "exempt: honesty scaffolding / sanctioned self-naming"
+
+
+def test_a_scaffold_phrase_grammatically_fused_with_a_tagged_claim_still_gets_checked():
+    """The clause splitter works on punctuation (M-1's own actual defect
+    shape - a dangling clause joined by a comma), not on subordinating
+    conjunctions, so 'We must be honest THAT x' fuses the marker and the
+    claim into one un-split clause and the punctuation-based residual
+    alone would miss it. Caught anyway here because the sentence carries a
+    citation tag - a tag is itself a claim ("this sentence came from that
+    record"), checked on that basis regardless of what clause it sits in."""
+    text = (
+        "We must be honest that the thanksgiving meal of bread and cup at the "
+        "heart of the community's worship is what reached everyone [[fix.term.eucharistia]]."
+    )
+    result = check_turn(text, REPOSITORY)
+    entry = result["sentences"][0]
+    assert entry["verdict"] == "ok"
+    assert entry["why"] == "tagged claim, shares ground with its own records"

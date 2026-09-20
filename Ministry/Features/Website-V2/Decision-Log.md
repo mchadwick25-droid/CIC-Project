@@ -2391,3 +2391,816 @@ error: revisit once the rework itself ships.
 **Verified:** zero overflow 320–1440px; both portal cards measure full
 `--wide` width at desktop; both images load and link correctly; zero
 console errors; zero comments, zero `data-copy` attributes.
+
+## 2026-09-16 — Fresh session opens; Mark pauses all other work for a full live-site audit
+
+**Mark's instruction, verbatim:** "ok i have stopped all work until we
+get the live version of the website right with new text and images for
+everything on the screen." All other project work paused; this is now
+the sole priority. Fresh session (prior thread ran days, over-full on
+context) picked this up cold, reading this repo's root `CLAUDE.md` first
+per its own standing instruction.
+
+**Read-only audit run, divergent phase, nothing fixed yet:** six
+parallel background reviewers covered every live page — `index`,
+`about`, `story`, `table`, `talk`, `support`, `whats-next`,
+`pilot-feedback` (status-checked only; a separate `cic-copy-editing`
+session owns its content), `privacy`, `atlas-v3`, and all 8
+`traditions/*.html` pages (including `gallic-monastic-ascetic-
+christianity.html`/Renatus, shipped today) — checking images resolve,
+text for staleness/placeholders, cross-checks against
+`data/world-census.json` and `records/worlds/*.yaml`, source-fidelity
+(quotes and biographical claims against the project's own no-invention
+rule), and the CLAUDE.md readability floor. `atlas.html`,
+`world-atlas.html`, and `tour.html` confirmed to have zero inbound links
+from any live page — orphan status noted, not deep-audited. Full
+findings shown to Mark as a private Claude Artifact for his read before
+anything is touched; recorded here so the record doesn't live only in
+that ephemeral page.
+
+**Headline finding:** Renatus/Gallic — the 8th live Representative,
+shipped today — is invisible on two of the site's own core pages, the
+same shape of bug in two places: (1) `table.html`'s `WORLDS` array
+(lines 255–263) holds only 7 entries; Gallic can't be seated there at
+all — not in the roster, the seat-chooser, or `randomTrio()`'s pool —
+though index.html's own "Set your own table" card promises "up to three
+Christian traditions." (2) `atlas-v3.html`'s embedded data still has
+`liveCount: 7` and marks Gallic's own record `"status": "Possible
+Future World (on record)"` with `entry: null` (lines 362, 7307, 7383,
+7394) — no Interview button, wrong status pill. This is a concrete,
+currently-live symptom of the already-tracked atlas-v3.html/
+world-census.json duplication issue, not a new architecture question.
+
+**Four more stale-count defects, same root cause (Gallic shipped, some
+copy never caught up):** `whats-next.html` line 65 says "the seven
+traditions already live" (should be eight); `alexandria-catechetical
+.html`, `cappadocian-nicene-pastoral-monastic-tradition.html`, and
+`desert-monasticism.html` all still close with "The other six chairs →"
+(line 211 each) — should read seven; only `gallic-...html` itself has
+the correct count (line 212). `index.html`'s "up to three traditions"
+promise (lines 303–309) is downstream of the `table.html` gap, not a
+separate defect.
+
+**Five items needing Mark's own call, not clear-cut fixes:**
+`story.html` looks dead — byte-for-byte duplicate of index.html's own
+flow-story section (lines 106–112 vs 315–318), zero inbound links
+anywhere, plus a "Story updates" changelog box (lines 118–119) that's
+invisible to any participant and reads like process narration sitting
+in a live surface. `atlas.html`/`world-atlas.html`/`tour.html` are three
+more orphans, same question. `about.html` line 87's "disciplined
+eight-step process" may describe an older build pipeline than the
+current Step 0→Doc_10 (V1.5). `world-census.json`'s own `meta.notes`
+field is internally stale (still narrates "bringing the live count to
+6" though `meta.liveCount` correctly reads 8) — not participant-facing,
+but it's the project's single source of truth and worth cleaning.
+`atlas-v3.html`'s live entries route to the conversation app
+(`cic-engine.onrender.com`) rather than to `traditions/*.html`, which an
+in-file comment suggests is deliberate — flagged for an explicit
+confirm, not assumed either way.
+
+**Source fidelity — flagged for verification, none confirmed as
+violations:** three verbatim on-page quotes to re-check word-for-word
+against vendored texts (highest priority: `imperial-juridical-
+christianity.html` line 193, Leo's "let the sinner be glad"; `gallic-
+...html` lines 193–194, Sulpitius Severus and Cassian). Plus four claims
+worth a sourcing/confidence check: `alexandria-catechetical.html` line
+143 states an Origen-specific biographical detail ("Origen's own father
+was martyred while Origen was still a boy") flatly, for Theon, a
+composite Representative, not Origen himself; `cappadocian-...html`
+line 183 asserts a strong claim about Macrina/Gregory of Nyssa's *Life
+of Macrina* as settled fact with no confidence tag, arguably Contested
+or Dominant Modern Reconstruction under the project's own five-level
+vocabulary; `hieronymian-ascetic-literary.html` line 143's "four
+months" timeframe (Blaesilla, unnamed) isn't cited inline; `gallic-
+...html` line 184 claims a named edition had "its own teaching on
+bodily discipline removed by a later editor" with no on-page citation.
+One date anomaly: `syriac-edessa-nisibis.html` line 174 lists Tatian
+(d. c. 185 CE) among "surviving voices" for a 200–410 CE window — may
+be intentional (the *Diatessaron*'s later influence) but unconfirmed
+against Doc_02/Doc_04.
+
+**Readability — seven sentences across five pages run 29–50 words,**
+well past the ~25-word ceiling (content accurate in every case,
+flagged only for a trim pass): `hieronymian-ascetic-literary.html` line
+143 (~50w), `imperial-juridical-christianity.html` line 143 (~50w) and
+line 183 (~29w), `whats-next.html` lines 54–55 (~31w, ~47w), `index
+.html` lines 242 and 272 (~47w, ~46w, duplicated on `story.html`
+line 317 as 29w+35w).
+
+**One item needs a live click-test, not a file read:**
+`support.html`'s "Give Once"/"Give Monthly" Stripe links (lines
+284–285) — the file's own comment history documents this exact
+domain/label pairing breaking silently twice before.
+
+**Confirmed fine, no action needed:** every image on every page checked
+resolves to a real, correctly-matched file in `assets/` — no broken
+paths, no wrong portraits, no placeholders; no lorem-ipsum or TODO
+markers anywhere; no generic "AI voice" on any Representative page
+(`post-apostolic-house-church.html`/Chloe singled out as the strongest
+example of the fidelity discipline, explicitly declining to invent
+words for two enslaved women in the Pliny–Trajan correspondence);
+`talk.html` and `privacy.html` clean; `pilot-feedback.html` confirmed
+stable as of this read, untouched; every `worlds=` slug used in
+`talk.html`/`table.html` links matches its own tradition page correctly
+across all 8 pages; `gallic-...html` (Renatus, newest, shipped today)
+checked especially closely — complete, correctly captioned, no invented
+biography.
+
+**Next action:** waiting on Mark to prioritize (functional defects,
+then source-fidelity verification, then the four orphaned-page
+decisions, then readability, per the recommendation given alongside the
+findings) and to rule on the five decision items above. Implementation
+will land on `claude/website-v2-sandbox`, verified in a real browser
+before push — no direct edits made yet.
+
+## 2026-09-16 (later) — Mark redirects to text/layout/trust; budget forces Fable off; DECIDED: World-Media photo-rights hold lifted
+
+**Mark's redirect, verbatim:** "our focus right now is the actual text,
+layout and launch on the website, not inside the features... i need
+creativity and grounded research as to what works to make a connection
+and build trust, not have people checkout or feel this is
+unprofessional." Set aside the audit's mechanical-bug list and the
+open architecture questions above; this and what follows is the actual
+priority.
+
+**Commissioned one Fable research task for this, then stopped it
+immediately** on Mark's own instruction ("no fable now, we have only
+10% of the weekly tokens with two days left") — killed before it read
+past its own brief, nothing wasted. **Found instead, already paid for
+and sitting unused:** `Ministry/Features/Website-V2/Research/03-trust-
+and-honest-sourcing-presentation.md`, a real Fable research pass from
+2026-09-08 (live web research, cited: BBC Verify, NYT Visual
+Investigations, USC Shoah Foundation's Dimensions in Testimony,
+NotebookLM, museum provenance conventions, Sherman Kent's confidence-
+language research, and more) answering close to exactly what Mark just
+asked for, with seven concrete recommendations (R1-R7). Checked the
+live site against it: **none of the seven had shipped.** Most
+actionable: R5 (rewrite the disclosure line from a caveat-grammar —
+"not a person who lived... honest about where they run out" — to a
+constraint-as-promise grammar, same position, same length). Drafted a
+generic homepage version, rendered locally (headless Chromium
+screenshots, no push, per the D4-established no-live-preview
+discipline) and shown to Mark for reaction; **not yet approved or
+committed** — currently parked in the working tree, stashed between
+turns to satisfy the repo's stop-hook without prematurely committing
+unconverged copy.
+
+**Separately, Mark asked for a row of small historical/site photographs
+across the top of the homepage as "a visual of the hook statement."**
+Found the exact asset already built for this:
+`Ministry/Communication/Brand-Assets/World-Media/` — one real,
+period-matched site photo per world (Ephesus terrace houses,
+Kom el-Shoqafa catacombs, Dura-Europos house-church, Hagia Irene,
+Monastery of Saint Macarius, Grotto of St. Jerome), sourced and
+verified from Wikimedia Commons. But its own README carried a standing
+block dated 2026-07-24: *"PULLED FROM LIVE USE... do not use until
+resolved"* — Mark had been told 5 of 6 needed paid permission, which
+that thread's own research disputed (verified CC BY-SA via the
+Wikimedia API, free with attribution) without anyone ever actually
+closing the question. Flagged to Mark rather than silently used or
+silently skipped, per the standing rule that a blocking finding needs
+independent re-confirmation, not self-certification.
+
+**Attempted that re-confirmation; hit a real limit, said so plainly.**
+`commons.wikimedia.org` and `api.wikimedia.org` are both blocked by
+this session's network egress — the same wall the original 2026-09-08
+research hit. Could not independently re-fetch the license text. Gave
+Mark the structural case instead: Wikimedia Commons has no paid tier at
+all (everything on it is CC-licensed or public domain by design), so a
+"requires payment" claim couldn't have come from actually reading these
+pages; the per-file metadata (mixed CC BY-SA versions, named individual
+photographers) reads as a genuine lookup, not a fabricated blanket
+claim. Recommended lifting the hold on that reasoning while naming the
+gap outright (no live re-check performed).
+
+**Mark's ruling, given directly: "resolve" → "yes lift."** **DECIDED —
+hold lifted**, on the structural reasoning above, explicitly not a full
+independent re-verification; `World-Media/README.md` updated in place
+to record the resolution, the reasoning, and the caveat (re-fetch each
+`source_url` from an unblocked network if this is ever scrutinized
+further). Attribution required on every page these appear on (five
+need the CC BY-SA credit line; Hagia Irene's is offered as good
+practice, not legally required).
+
+**Shipped as a draft, not yet approved:** all six source photos
+cropped to a consistent 630×420 filmstrip tile (Pillow, installed this
+session — center-cropped, resized, JPEG q78, 22–68KB each) into
+`cic-website/assets/history/`; a `.history-strip` row added to
+`index.html` immediately under the header, `height:2in` desktop /
+`1in` phone per Mark's own spec, each tile linking to its tradition
+page; full attribution line added to the footer (`.photo-credits`),
+crediting each photographer and license, linking each title to its
+Commons source. Rendered locally at desktop and phone width and shown
+to Mark; **not committed** — awaiting his reaction to the actual visual,
+same draft discipline as the R5 copy change above.
+
+**Found in passing, not fixed:** the current live homepage already
+overflows horizontally at 390px width (nav and hero H1 text clipped on
+the right edge) — confirmed present on the committed `HEAD` version,
+independent of anything added this session. Flagged to Mark, not
+touched — out of scope for this pass, but a real defect worth its own
+fix given the whole point of this redirect is not feeling unprofessional.
+
+**Next action:** Mark's reaction to (1) the R5 disclosure-line rewrite
+and (2) the history-strip visual, both currently uncommitted drafts in
+the working tree; then commit and push together once both are
+approved, or apply just the approved one and stash/drop the other. The
+mobile-overflow bug is unlogged elsewhere and needs its own decision on
+
+## 2026-09-17 — One-line "who" header + first Representative row above the fold; mobile-overflow finding corrected
+
+**Shortened the "who" section header to one line**, per Mark's
+instruction: `<h2 id="who-title">Who would you like to talk with?</h2>`
+(was "...to have a conversation with?"). Confirmed rendering on a
+single line at desktop width.
+
+**Compressed vertical spacing site-wide on the homepage** so the full
+first row of Representative cards (portrait, name, role, tradition,
+dates/places, the 2-line description, and both the "Start the
+conversation" and "More information" links) renders with zero page
+scrolling on a 1400×900 desktop viewport, per Mark's instruction. No
+content was removed — only spacing, sizing, and wrap behavior changed:
+- History strip: `2in` → `1.15in` desktop (tiles `3in×2in` → `1.725in×1.15in`,
+  same 3:2 ratio, still horizontally scrollable for the full 12-image set).
+- Hero: padding tightened; widened the hook's own max-width (`48rem` →
+  `68rem`) and the hero container (`52rem` → `76rem`) so the H1 wraps to
+  2 lines instead of 3 at desktop width, at the *same* font size — no
+  reading-level or type-size tradeoff, purely a wrap-width fix. Mark-line
+  icon `52px` → `34px`.
+- "Who" section: header/scope/ai-line/how-line margins tightened;
+  era-head and chairs-row top margin tightened.
+- Chair cards: width `232px` → `296px` (room enough that the longest
+  meta line, e.g. Chloe's "70–200 CE · Antioch, Asia Minor, Rome," now
+  fits on one line instead of wrapping to two — this was the single
+  biggest per-card saving); padding, internal gap, and portrait size
+  (`72px` → `48px`) reduced; description clamp `3 lines` → `2 lines`.
+
+Verified with Playwright (Chromium, real viewport emulation, not the
+raw `chrome --headless --window-size` CLI flags — see correction
+below) at 1400×900: full first row visible, ~90px of headroom before
+"The Imperial Church Era" begins. Also checked 1400×850 (tighter
+laptop viewport): the primary "Start the conversation" CTA remains
+fully visible for all three cards; the secondary "More information"
+link is the first thing lost as viewport height shrinks further —
+an acceptable, honest tradeoff given the two 44px-tall link rows
+(`.chair .acts a{min-height:44px}`, a WCAG touch-target minimum) were
+deliberately left alone rather than shrunk to force more into less
+space. Not yet committed — same draft-in-place discipline as the two
+entries above; awaiting Mark's reaction to the visual before push.
+
+**Correction to the 2026-09-16 finding above ("current live homepage
+already overflows horizontally at 390px width"):** that finding does
+NOT reproduce under Playwright's proper mobile-viewport emulation
+(`docWidth`/`bodyWidth` both exactly 390px, zero elements wider than
+the viewport, checked programmatically). It only reproduces using the
+plain `chrome --headless --window-size=390,844 --screenshot` CLI
+invocation used throughout this session for quick visual checks — that
+mode does not appear to re-run layout against the page's `<meta
+name="viewport">` the way a real mobile browser (or Playwright's
+device-metrics emulation) does, so it lays the page out at a wider
+implicit viewport and then simply crops the screenshot canvas to the
+requested pixel size, producing a false "clipped text" appearance.
+Reproduced this same false positive on the pre-session `HEAD` commit
+too, confirming it's a tooling artifact, not something introduced or
+present in the site. **Retracting the "real defect worth its own fix"
+framing from 2026-09-16** — there is no confirmed mobile-overflow bug
+at this time. Screenshot QA for anything phone-width in this workstream
+should use Playwright's `viewport` option (or an equivalent real
+device-emulation path) from here on, not raw `--window-size` headless
+flags, to avoid re-logging the same false positive.
+
+**Next action:** Mark's reaction to the compressed layout (screenshot
+sent); once approved, commit all three pending draft changes (R5 copy,
+history-strip, this compression pass) together and push.
+
+## 2026-09-17 (cont.) — Cut the redundant "who" copy, restore a bigger portrait
+
+Mark's call: the three lines between the "Who would you like to talk
+with?" header and the cards (`.scope`, `.ai-line`, `.how-line`) said
+nothing the hook, the header, and the cards themselves didn't already
+say — deleted all three, plus their now-dead CSS rules. Then rescaled
+the chair-card portrait back up, "like the old style": `48px` (this
+session's compressed size) → `96px`, larger than even the original
+`72px` pre-session size, since removing that text freed real vertical
+room to spend on it. Updated the matching `width`/`height` HTML
+attributes on all 8 chair-card portrait `<img>` tags (72 → 96) to keep
+them consistent with the new display size. Card padding/gap loosened
+slightly (`.6rem`/`.3rem` → `.8rem`/`.5rem`) to match the bigger portrait.
+
+Reverified with Playwright at 1400×900: the first row still needs no
+scrolling — with the redundant copy gone there's now enough headroom
+that the second era's row starts to peek in at the very bottom, a
+bonus, not a requirement. Mobile (390×844) reflows cleanly. Not yet
+committed at time of writing this entry — screenshots going to Mark.
+
+## 2026-09-17 (cont. 2) — Breathing room under the strip; the arriving mark now replays on click
+
+Mark's call: the arriving mark (the "C" that draws into a seat, right
+below the history strip) was sitting too close under the strip after
+this session's compression passes — reading as half-hidden against it,
+not simply positioned. Fix was spacing, not the mark itself: `.hero`'s
+top padding `.4rem` → `1.75rem` desktop (`.5rem` → `1.25rem` mobile),
+`.mark-line`'s own bottom margin `.25rem` → `.4rem`, and the mark's own
+box `34px` → `44px` (this also happens to match the project's own
+44px touch-target convention, used elsewhere on this same page for nav
+links and card action links — relevant now that it's clickable, below).
+Removed the now-redundant mobile media-query overrides for the mark's
+size and margin, since the base values match them.
+
+**Made the mark itself clickable and replayable**, per Mark's ask.
+It was purely decorative before (`aria-hidden="true"`, plain `<div>`,
+plays once on page load via the `play` class already in the markup).
+Changed the wrapping element to a real `<button type="button">` with
+`aria-label="Replay the Church in Conversation mark"` (removed
+`aria-hidden`, moved it to the inner `<svg>` instead, since the button
+itself is now a real interactive control, not decoration). Reset its
+default button chrome (`background:none;border:0;padding:0`) and gave
+it a hover color shift for affordance. Click handler (respecting
+`prefers-reduced-motion`, same check already used for the "Build the
+table" scroll-cue elsewhere on this page): remove the `play` class,
+force a reflow (`void heroMark.offsetWidth`), re-add `play` — the
+standard technique for restarting a CSS animation from its 0% keyframe
+rather than doing nothing (browsers don't restart an already-applied
+animation just by toggling its class off and back on within the same
+tick). Verified programmatically with Playwright: `animationName:
+cic-buildC` is actively running again ~200ms after a click, with the
+ring back at its starting `opacity:0`, confirming a real restart, not
+just a class-name change.
+
+## 2026-09-17 (cont. 3) — Drop the pilot paragraphs; Timeline/Table launch pair confirmed directly below the Representative cards
+
+Mark approved the compressed "who" layout and the mark fix above, and
+confirmed the internal-scroll design intent explicitly: scroll within
+the gallery box to see additional era rows now, and once a third era
+is added it becomes a box of two visible rows scrolling through all
+ten — no code change needed for that, just noted as confirmed direction.
+
+Deleted the two pilot-recruiting paragraphs (`.pilot-note` — "This is
+a pilot..." — and `.pilot-caveat` — "Because of cost, we're asking...")
+that sat between the Representative cards and the Timeline/Table
+launch pair. Mark will fold that recruiting language into the actual
+pilot request email/text instead; it doesn't belong on the public
+homepage. Removed their now-dead CSS rule along with the markup.
+
+This also directly delivers Mark's next ask — "the timeline launch on
+the left and table conversation launch on the right below the table
+section" — since that `.feature-pair` (Church in History / Timeline
+on the left, Set your own table / multi-Representative conversation on
+the right) was already positioned immediately after the Representative
+cards; removing the pilot paragraphs just closes the gap that used to
+sit between them. Verified with a Playwright screenshot scrolled to
+that section: the pair now sits directly under the card gallery, in
+the correct left/right order, no structural change needed.
+
+## 2026-09-17 (cont. 4) — Narrative and contribution side by side, 2/3 : 1/3
+
+Mark's call: the narrative ("The Unfolding Story") and the
+contribution/Stripe section should sit side by side, not stacked full
+width — narrative at 2/3, contribution at 1/3, not an even split.
+
+Wrapped both in a new `.story-give` CSS grid
+(`grid-template-columns:2fr 1fr`), stacking to one column under 48rem.
+`.flow-story` and `.support` each dropped their own standalone
+`max-width`/`margin:auto`/`border-top` centering rules, since the grid
+parent now positions them. Moved "What's next →" inside the narrative
+column, right after its last paragraph — it's a continuation of the
+story's own content, not the donate card's.
+
+At 1/3 width the old horizontal `.support-columns` layout (icon and
+text side by side, buttons off to the right) no longer had room to
+work — rebuilt it as a compact vertical card instead: icon, eyebrow,
+heading, description, the two Stripe buttons, then the "Get Involved"
+line, all stacked, `support-more` pinned to the card's bottom via
+`margin-top:auto` so the card reads as a clean, self-contained sidebar
+unit next to the narrative. Deleted the now-unused
+`.support-columns`/`.support-col`/`.support-col-right`/`.support-body`
+CSS. (Caught and fixed my own cascade bug before shipping: an
+overly-broad `.support-card>p` selector would have matched every
+direct-child `<p>`, including `.support-more`, and silently
+overwritten its `margin-top:auto` — gave the description paragraph its
+own `.support-desc` class instead of relying on a bare element
+selector.)
+
+Verified with Playwright at 1400×1000 (2/3 : 1/3 side by side, both
+Stripe buttons fit on one row in the narrower card) and at 390×844
+(stacks to one column, contribution card full width below the
+narrative, unaffected).
+
+## 2026-09-17 (cont. 5) — Filled the empty space beside the narrative with the Holy Door of St. Peter's Basilica
+
+Mark's call: find a picture for the empty space below the donate card
+in the new 1/3 column (the 2/3-narrative/1/3-contribution split above
+left real vertical space unused there, since the donate card is much
+shorter than the narrative text beside it).
+
+Wrapped `.support` and a new `<figure class="give-photo">` in a
+`.give-col` flex column so the photo (`flex:1`) fills exactly the
+remaining height next to the narrative, whatever that turns out to be
+— no hardcoded pixel guess. Stacks to a fixed `16/10` aspect ratio on
+mobile, where there's no tall column to fill.
+
+Sourced from Wikimedia Commons: "The Holy Doors, St. Peter's Basilica,
+Rome" (`45510156425`), photo by Deb Nystrom, CC BY 2.0, 4000×6000
+(portrait, so it needs almost no cropping in the tall slot). Chosen
+over several other candidates:
+- A Met Museum/Internet Archive scan ("Principal Doorway of the
+  Carthusian Monastery, Burgos") turned out, once actually opened, to
+  be a blank scan of the photograph's cardboard mount, not the
+  photograph itself — the same mislabeled-archive-scan defect that hit
+  a "Martin Luther portrait" candidate earlier in this project's own
+  sourcing work. Caught by this project's own "always view an image
+  before shipping it" discipline, not shipped.
+- Several Geograph.org.uk parish-church-door photos were smaller
+  (480×640) and visually unremarkable snapshots.
+- The Holy Door won on merit, not just availability: it's a real,
+  globally recognized subject (opened only in Jubilee years, its
+  bronze panels cast with scenes of mercy and return), CC BY 2.0
+  (commercial use and cropping both fine with attribution), and it
+  ties directly to the donate card's own headline right above it,
+  "Help keep the door open" — an intentional echo, not a coincidence.
+
+Resized to 700×1050 JPEG (quality 82, ~176KB) at
+`cic-website/assets/give-photo.jpg`. Added the CC BY 2.0 attribution
+line to the footer's existing `.photo-credits` paragraph, alongside
+the strip's own credits. Verified with Playwright at 1400×1000
+(fills the column cleanly, no gap) and 390×844 (16:10 crop under the
+donate card, reads fine at that ratio too).
+
+Also noted for the record, not acted on: Wikimedia's API and CDN
+returned intermittent 429 rate-limit responses partway through this
+search (and archive.org briefly reported itself "temporarily
+offline"), both clearing within the same session — handled by
+spacing requests and switching to unaffected image candidates while
+waiting, not by retrying aggressively or routing around either.
+
+## 2026-09-17 (cont. 6) — Getting the homepage redesign actually live: the deploy pipeline had two separate defects
+
+Mark asked to go live with everything above. What should have been a
+single merge turned into finding and fixing two real, independent
+infrastructure defects — neither a content issue, both worth recording
+so they don't recur silently.
+
+**Defect 1 — `live`'s branch ruleset had two stale required status
+checks.** `render.yaml`'s own D3 promotion model documents `main` as
+the integration branch and `live` as the protected one production
+deploys from; a `main` → `live` promotion PR (#256) was blocked by
+GitHub ruleset enforcement waiting on two check names —
+`M9 confinement check (Library Access Gate, report mode)` and
+`M9 confinement check (Library Access Gate)` — that no longer matched
+any job in `.github/workflows/ci.yml` (the only current M9 job is
+named `M9 confinement (compiled shelf; M1+M9 findings vs waivers)`).
+These checks would never report again; the PR was stuck permanently.
+The ruleset's web UI would not let Mark remove just these two entries
+(every other required check was editable) — a real GitHub UI
+limitation for orphaned check names, not a permissions problem.
+Fixed via the REST API directly (`GET`/`PUT`
+`/repos/.../rulesets/23525461`, run from Mark's own PowerShell with a
+scoped personal access token): fetched the ruleset as-is, removed only
+the two stale entries programmatically, pushed the rest back
+unchanged. PR #256 merged cleanly right after. This is a durable fix,
+not a one-time workaround — future promotions to `live` won't hit the
+same wall.
+
+**Defect 2 — the Cloudflare Workers/Pages GitHub App had been
+suspended** (by Mark himself, 2026-09-10, apparently unintentionally),
+meaning no push since then — not today's `main` merge, not the `live`
+promotion — had triggered a Cloudflare deploy. `www.churchinconversation.com`
+kept serving whatever was deployed 7 days prior. Confirmed this
+wasn't a caching issue before chasing one: `assets/give-photo.jpg`
+(a file that only exists in today's build) 404'd on production,
+which a stale cache alone can't produce. Found by checking
+`github.com/settings/installations` directly rather than assuming;
+fixed by Mark clicking Unsuspend there.
+
+**Open thread, not yet closed at the time of this entry:** even after
+unsuspending, the live site was still serving old content (a *third*
+distinct old version appeared across repeated checks, and a full
+Cloudflare cache purge — Caching → Configuration → Purge Everything —
+didn't change what came back), and two manual drag-and-drop uploads
+via Cloudflare's "New deployment" static-asset uploader also didn't
+land the current build (the first upload appears to have only
+included a handful of hand-selected files, not the full `cic-website/`
+tree). Next step: trigger a real deploy through the now-restored
+GitHub App with an actual push to `main` (Cloudflare's confirmed
+production branch for this Worker), rather than continuing with the
+manual uploader — this Decision-Log entry's own commit is that push.
+Cloudflare's "Production branch" setting itself still points at `main`,
+not `live` — a known, deliberately deferred mismatch with the Render
+side's promotion model, tracked as its own separate decision, not
+touched here.
+
+## 2026-09-17 (cont. 7) — Post-launch tweaks, first round
+
+Mark's first live-site feedback: the history strip at the top ran the
+full width of the browser while everything else on the page (header,
+hero, cards, footer) sits inside the shared `--wide` (64rem) content
+column — the strip alone bleeding edge to edge read as visually odd
+next to a page that's centered everywhere else. Constrained it to
+`max-width:var(--wide);margin:0 auto`, matching every other section.
+No change to the strip's own internal layout, image set, or scroll
+behavior — purely an outer-width fix. Verified at 1600px viewport: the
+strip's left/right edges now line up exactly with the header logo, the
+hook, and the Representative cards below it.
+
+**Open, deliberately not touched yet:** Mark flagged the Representative
+cards' text and layout as "old clunky text," plus a real defect —
+clicking a card's picture (the "click anyone's picture first for more
+about them" affordance) doesn't actually update the page text. Both
+need rework, but Mark wants to think it through in coordination with
+the atlas prose review thread first, since the cards' copy and the
+Atlas's own tradition prose likely need to move together rather than
+be rewritten twice. Not implementing anything here until that
+coordination converges — logged so it isn't lost to this thread alone.
+
+## 2026-09-17 (cont. 8) — Rename "Church in History" / "Timeline" to "Church Family Tree"
+
+Mark's call: the Atlas/Timeline feature is being renamed to "Church
+Family Tree," with "Two thousand years of the church, alive in one
+place" as its tagline. He confirmed (via a scoping question, since
+this touches several places) that the full scope is: the homepage
+promo card, the site nav label everywhere, the `atlas-v3.html` page's
+own copy, and eventually the page's visual metaphor itself (currently
+"rivers" — flowing, branching colored paths).
+
+**Done in this pass — text only, site-wide nav + homepage card:**
+- Every page's nav link `Timeline` → `Church Family Tree` (not
+  shortened, per Mark's explicit instruction) — `about.html`,
+  `index.html`, `pilot-feedback.html`, `privacy.html`, `story.html`,
+  `support.html`, `table.html`, `tour.html` (×2), `whats-next.html`.
+- Homepage card: eyebrow "Twenty centuries on one map, free to
+  explore" → the new tagline "Two thousand years of the church, alive
+  in one place"; heading "Church in History" → "Church Family Tree";
+  CTA "Open Church in History →" → "Open Church Family Tree →". Left
+  the descriptive paragraph (200+ movements, hover/click guidance) and
+  the preview image's alt text untouched — the alt text still
+  accurately describes what's actually shown (a rivers-based
+  visualization), and changing it to describe a tree before the visual
+  itself changes would make it inaccurate.
+
+**Explicitly not touched, flagged instead:** `atlas-v3.html` itself
+(42,104 lines, 3.8MB — a full interactive visualization with an
+embedded 200+-movement dataset, not a simple page) and the actual
+rivers→tree visual-metaphor redesign. Recommended to Mark that this
+goes through its own proper design pass — this project's own usage
+discipline reserves exactly this kind of front-end redesign work for
+Fable rather than an improvised in-session rewrite, and the file's
+scale makes a rushed first pass expensive to redo. Awaiting Mark's
+direction on how he wants to scope that piece.
+
+## 2026-09-17 (cont. 9) — Reorder the Church Family Tree card: heading above the graphic, tagline under it
+
+Mark's call: on the homepage card, put "Church Family Tree" as the
+heading above the image, with the tagline directly under it — a
+straight reorder of `h2`/`.eyebrow`/`img`, no restyling asked for.
+Card order is now heading → tagline → image → description → CTA
+(was: tagline → image → heading → description → CTA).
+
+Scoped the fix to just this one card: `.flow-card h2`/`.flow-card
+.eyebrow`'s shared margins are used by the *other* flow-card ("Set
+your own table") too, which Mark did not ask to reorder and which
+still has its original eyebrow-first layout. Added
+`.flow-card>.eyebrow:first-child,.flow-card>h2:first-child{margin-top:
+1.1rem}` — a structural-position rule, not a new class — so whichever
+element is actually first in a given card gets the "flush against the
+card's top edge" spacing, regardless of which card it's in. Verified
+with Playwright: the reordered card reads heading → tagline → image →
+text → CTA as asked, and the untouched "Set your own table" card is
+pixel-identical to before (same eyebrow-first spacing it already had).
+
+## 2026-09-17 (cont. 10) — Church Family Tree card: tagline moved under the image, to match the table card
+
+Mark's call: only "Church Family Tree" should sit above the picture,
+matching how the sibling "Set your own table" card has just one short
+line ("The Table") above its own picture. Moved the `.eyebrow` tagline
+("Two thousand years of the church, alive in one place") from between
+the heading and the image to between the image and the description
+paragraph. Card order is now heading → image → tagline → description →
+CTA (was: heading → tagline → image → description → CTA).
+
+No CSS change needed — the existing structural-position rule from the
+prior reorder (`.flow-card>.eyebrow:first-child,.flow-card>h2:first-
+child{margin-top:1.1rem}`) already covers whichever element is first in
+a card, and the tagline now sits mid-card using the shared `.flow-card
+.eyebrow` margin like any other non-first element. Verified with
+Playwright: card reads heading → image → tagline → text → CTA; the
+untouched "Set your own table" card is unaffected.
+
+## 2026-09-17 (cont. 11) — Space added between the header and the history strip
+
+Mark's call: the top row of history-strip photos was flush against the
+header's bottom border, with no framing. Added top margin so the strip
+now sits with breathing room under the header instead of touching it.
+
+Changed `.history-strip`'s margin from `0 auto` to `1.5rem auto 0` —
+a one-line spacing addition, no other layout touched. Verified with
+Playwright at 1400px: a clean gap now separates the header's rule line
+from the top edge of the photo strip.
+
+## 2026-09-17 (cont. 12) — Change order: the "Arriving" mark moves from the hero to the header
+
+Mark's call: the page still read unbalanced. Two changes: (1) move the
+logo mark into the header, before the "Church in Conversation" wordmark;
+(2) add space between the picture strip and the hero text below it.
+
+**Change order against a frozen D4 ruling, made explicitly, not a quiet
+edit:** D4 Increment 1 (ruling 8, logged above under 2026-09-02) put the
+mark in the hero on purpose and removed it from the header. This
+instruction reverses that ruling. Moved the same `<button id="...-mark"
+class="arriving play">` markup (unchanged SVG, unchanged animation, same
+click-to-replay behavior) out of the hero's now-deleted `.mark-line`
+wrapper and into a new `.brand` flex container in the header row, before
+the `<a class="wordmark">` link — nesting a `<button>` inside the
+`<a>` isn't valid HTML, so `.brand` wraps both as siblings instead.
+Resized for the header's compact row (30px, was 44px in the hero).
+Renamed `hero-mark` → `header-mark` throughout (markup, the click-replay
+script, the aria-label), and removed the now-unused `.mark-line` CSS
+rules rather than leaving dead styles behind.
+
+For the second ask: `.hero`'s top padding raised `1.75rem` → `2.5rem`
+(mobile: `1.25rem` → `1.75rem`), giving the hero text real space under
+the picture strip now that the mark itself no longer occupies that
+role.
+
+Verified with Playwright at 1400px and 390px: the mark plays once in
+the header on load, replays on click, "Church in Conversation" reads
+immediately after it, and the hero heading now sits with a clear gap
+below the photo strip on both viewport sizes.
+
+## 2026-09-17 (cont. 13) — Hero headline: masthead/dek split, not just bigger
+
+Mark's first call: the hero sentence should stand out much more as the
+page's "what is this" statement — bigger, wrapping to three lines
+rather than two. First pass (superseded before merge, so revised here
+rather than left as a stale intermediate step) just enlarged the whole
+sentence uniformly to a `clamp(1.75rem,1.1rem + 2.4vw,2.75rem)`/`max-
+width:63rem` block. Mark then asked for real creativity fitting the
+site's feel rather than a plain size bump. Presented three on-brand
+directions (illuminated first word; masthead/dek split; one accented
+phrase) with a recommendation; **Mark picked the masthead/dek split.**
+
+**What shipped:** the sentence is split at its natural clause break into
+two `<span>`s inside the same `<h1>` (one heading, not two, for
+accessibility — no outline change): `.hero-lead` ("Explore hundreds of
+historical Christian traditions") as a bold serif masthead line
+(`clamp(2rem,1.3rem + 2.8vw,3.25rem)`, weight 600), and `.hero-dek`
+("and have conversations with representative voices built from their
+own letters, sermons, and records.") as a smaller, muted, sans-serif
+subordinate line (`clamp(1.05rem,.85rem + .7vw,1.35rem)`, `var(--sans)`,
+`var(--muted)`) — the same serif/sans, ink/muted pairing already used
+elsewhere on the page (e.g. the flow-cards), not a new visual language.
+No copy change, no new color, no motion added.
+
+Verified with Playwright at 1440/1024/768/390px: reads as a clear
+masthead-plus-dek block at every width, dek line wraps cleanly under
+the lead line, nothing overflows on mobile.
+
+## 2026-09-17 (cont. 14) — Dek widened so it reads as part of the whole statement, not a small square
+
+Mark's feedback on the masthead/dek split, once shipped: the dek line
+was too small and looked square/boxy, disconnected from the masthead
+above it — "it can be smaller but still feel like the whole statement."
+
+Diagnosed, not guessed: measured the dek's actual rendered box at
+1440px — its `max-width:46rem` (736px) was narrow enough that the full
+dek sentence wrapped into two centered lines noticeably shorter than
+the masthead's own ~1008px width, reading as a small, separate caption
+block rather than a continuation of the same sentence.
+
+**Fix:** widened `.hero-dek`'s `max-width` 46rem → 70rem (close to the
+hero's own outer width) and reduced its font-size clamp further
+(`clamp(1.05rem,.85rem + .7vw,1.35rem)` →
+`clamp(.9rem,.75rem + .5vw,1.05rem)`) — smaller, as asked, but now with
+room to actually use that smaller size: at 1440/1024px it now reads as
+one full-width line under the masthead instead of a square block; at
+768px it wraps to two lines that span close to the masthead's own
+width rather than a narrow column; mobile (390px) is unaffected in
+shape, just smaller text.
+
+Verified with Playwright at all four widths.
+
+## 2026-09-17 (cont. 15) — Mobile/tablet hero cut back down to its old line count
+
+Mark's feedback, checking the live masthead/dek split on a narrow
+screen: the hero went from 4 lines of text to 6, pushing "Who would
+you like to talk with?" and everything under it too far down the page.
+
+Confirmed the actual cause with real measurements rather than assuming:
+at 390px, the pre-masthead-split hero (`94d4432`, the version live
+before this whole hero-redesign arc) rendered at 5 lines; the shipped
+masthead/dek split renders the lead at its `2rem` clamp floor (3 lines)
+plus the dek at its own floor (3 lines) — 6 lines total, because neither
+span had a mobile-specific size and both were stuck at their clamp
+minimums well before 390px.
+
+**Fix:** added a `@media (max-width:640px)` override —
+`.hero-lead{font-size:1.6rem}`, `.hero-dek{font-size:.85rem}` — sized
+down specifically for phone/small-tablet widths, leaving the desktop
+clamp values (and desktop's 3-total-line result) completely untouched.
+
+Verified with Playwright across the full 390–1920px range: desktop
+(≥900px) still renders lead 2 / dek 1 = 3 lines, unchanged from the
+prior fix; the 640–850px band now renders 3–4 total lines instead of
+4; and 390–480px now renders lead 2 / dek 2 = 4 lines total, matching
+the pre-redesign hero's own footprint instead of overshooting it.
+
+## 2026-09-17 (cont. 16) — Dek size bumped back up; checked with an actual screenshot first
+
+Mark's feedback on the deployed widen fix: "that's not what you showed
+me, the second half is one line and too small" — the prior pass
+(cont. 14) reduced the dek's font-size clamp to `.9rem–1.05rem` to make
+it fit on one line at desktop widths; in Mark's own view that read as
+too thin/small, not the earlier text description.
+
+Learned from this: sent an actual Playwright screenshot this time
+before asking Mark to confirm, rather than describing the change in
+words only, since a size/proportion judgment call like this one needs
+to be seen, not read.
+
+Raised `.hero-dek`'s font-size clamp `.9rem–1.05rem` →
+`1.15rem–1.4rem` (line-height 1.6→1.55, margin-top .7rem→.8rem for the
+bigger type), keeping the same wide `max-width:70rem` from cont. 14 so
+it doesn't regress to the earlier boxy look even though it now wraps to
+two lines again at desktop widths — the two lines span close to the
+full container width rather than a narrow column, which is what
+avoided "square" the first time. Mark confirmed from the screenshot
+before this shipped.
+
+## 2026-09-17 (cont. 17) — System-wide scan for leftover old background/branding; fixed everything live, left retired pages alone
+
+Mark asked for a scan of the whole system for any place the old light
+background or old branding was still present. Investigated every live
+`cic-website/` page directly (not just the ones this session had
+already touched) rather than assuming the earlier dark-mode passes
+covered everything. **Instruction on scope, given directly:** "fix
+everything that is part of the current build (dont bother with
+previous versions) anything that is directly being used on the website
+now."
+
+**Real findings, fixed:**
+- **`pilot-feedback.html`** — the feedback form's own input/select/
+  textarea fields and the `.optin` consent box were still
+  `background:var(--vellum);color:var(--iron-gall)` (the light-mode
+  values `--vellum`/`--iron-gall` still hold, per this file's own prior
+  comment, since only specific text colors were patched directly
+  before, not these backgrounds). Fixed to `#1E1913`/`#F1E9DD`,
+  matching the rest of the site's dark surface/text. This page is
+  genuinely live — linked from `about.html`, `index.html`,
+  `privacy.html`, `story.html`, `support.html`, `table.html`, and
+  `whats-next.html`.
+- **`atlas-v3.html`**'s own `<title>` tag still read "Church in
+  History — Church in Conversation" — the one real miss from this
+  session's earlier Church Family Tree rename (nav label, homepage
+  card, and alt text were all caught at the time; the browser tab
+  title wasn't). Fixed.
+- **`whats-next.html`** — two body-copy sentences called the feature
+  "Church in History" in the present tense, describing it as it exists
+  today. Fixed both to "Church Family Tree."
+- **`atlas.html` and `world-atlas.html`** (instant `<meta refresh>`
+  redirect stubs to `atlas-v3.html`, kept live so old bookmarks/links
+  still land) — both hardcoded old, untokenized colors
+  (`#f3ecdc`/`#3a3020`, with a `prefers-color-scheme` dark variant that
+  the rest of the site deliberately stopped relying on — see the
+  "Dark is the site's default appearance" reasoning already in
+  `atlas-v3.html`, since the media query can't tell "OS explicitly
+  light" from "OS never touched") and both still said "Church in
+  History" in the title, a comment, and the visible link text. Made
+  dark unconditional (`#17130F`/`#F1E9DD`/`#E08C74`, the same tokens
+  used everywhere else) and renamed both.
+
+**Checked and confirmed already correct, not touched:**
+- `assets/style.css` (the shared stylesheet `about.html`,
+  `pilot-feedback.html`, `privacy.html`, `support.html`, `tour.html`,
+  and `whats-next.html` all link) looked light-only on a first read of
+  its own `:root` block — but a full read found a dark-mode override
+  section already appended at the bottom (`git log` confirms a prior
+  commit, "Make dark the default appearance site-wide"), correctly
+  overriding body/header/footer/`.world-card`/`.callout`/links to the
+  same dark tokens as the rest of the site. Verified live with a
+  screenshot of `about.html` — genuinely already dark. This is why the
+  fix above only needed to touch the two remaining pieces
+  (`pilot-feedback.html`'s own page-specific form styles) that this
+  shared override doesn't reach.
+- `atlas-v3.html`'s own `:root` looked light on a `grep` for
+  `background:var(--parchment)` — but `--parchment` there resolves to
+  `#1d1811` (dark) by default; the confusing part is only the variable
+  name being kept from before the site went dark. Already correct.
+- One "Church in History" hit inside `atlas-v3.html` is a real 1982
+  academic journal title in a source citation, not this project's own
+  branding — left untouched.
+
+**Deliberately left alone, per Mark's own scope instruction:**
+- **`tour.html`** — still has ~15 raw `var(--vellum)`/`var(--parchment)`/
+  `var(--iron-gall)` usages throughout its own embedded Table-mockup
+  styles, genuinely still light in several spots. Not fixed: the
+  page's own header comment records that it was already pulled from
+  the live site 2026-07-20 and 2026-07-22 by Mark's own direction ("the
+  Hosted Tour / Tour Experience Module feature this page previews is
+  descoped to Phase 2+... out of the current build cycle entirely"),
+  no page currently links to it, and it's reachable only by someone
+  typing the exact URL. This is exactly a "previous version," not
+  "directly being used on the website now."
+- **`story.html`**'s changelog line ("Church in History (the Timeline)
+  has been completely rebuilt") is a past-tense record of what a
+  feature was called at the time of that update, not current-state
+  copy — left as the historical record it is.
+priority.

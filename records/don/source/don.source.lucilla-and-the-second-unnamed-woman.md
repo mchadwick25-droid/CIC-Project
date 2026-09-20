@@ -29,10 +29,7 @@ work: 'The Lucilla material: Optatus, Against the Donatists I.16 (''The quarrel 
   SS26 (a.d. 397)'
 edition: Within cic/texts/optatus_against-the-donatists.txt and cic/texts/npnf101_augustine-confessions-letters.xml
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
-  by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
-  vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by
-  this compilation pass.
+rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attested, not authored. Neither woman left a text; both reach us entirely inside hostile
   narrative, and the second is never named at all.
 discovery_channel: direct text search and read against cic/texts/optatus_against-the-donatists.txt (13

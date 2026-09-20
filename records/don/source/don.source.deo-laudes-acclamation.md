@@ -23,10 +23,7 @@ work: 'The Deo laudes acclamation: CIL VIII 17732 (two pillars near Bagai, now p
 edition: Within CIL VIII, Supplementum, Pars II (Cagnat and Schmidt, 1894), vendored as cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt
   (Registry row 48)
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
-  by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
-  vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by
-  this compilation pass.
+rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: 'anonymous and epigraphic. The Donatist identification is the CIL editors'' own, stated
   in their note on 17732: ''Uti [Deo] gratias... catholicorum, ita [Deo] laudes signum ac tessera fuit
   Donatistarum, quorum sedes primariae erant Bagai et Thamugadi.'''

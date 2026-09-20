@@ -108,6 +108,9 @@ plain_meaning: >-
   bishop. At Marseilles Cassian uses the same word for moral virtue, and declines on principle to
   "weave a tale of God's miracles and signs."
 world_word: virtus / power
+gloss_forms:
+- form: power
+  kind: ordinary
 false_friend:
 - virtue as moral excellence or character, read as the whole meaning
 - miracle as a suspension of natural law to be believed or disbelieved, a question of evidence
