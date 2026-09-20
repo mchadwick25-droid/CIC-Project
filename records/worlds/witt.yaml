@@ -5,22 +5,23 @@ time_window: {start: 1517, end: 1580}
 place: "Wittenberg, in Electoral Saxony, expanding into other German territorial states and, at the census's own confidence, toward Scandinavia"
 doorway_place: "Wittenberg, in Electoral Saxony, and the German territorial churches that followed it"
 doorway_description: >-
-  In 1517 Martin Luther - an Augustinian friar and professor at the young
-  university of Wittenberg - sent theses against the sale of indulgences
-  to his archbishop, and a movement began that argued Scripture's own authority
-  against an intervening hierarchy, and a person's own standing before
-  God as a gift received by faith, not earned by works. Princes and city
-  councils, not bishops, carried the reform into their own territories,
-  advised by Wittenberg's own theology faculty rather than ruled by a
-  separate church government. Its most fully specified instrument was
-  the household catechism: three parts recited at rising, at table, and
-  at night, examined weekly by a father or a schoolmaster, until a
-  conscience the commandments had terrified was made sure by a promise
-  spoken from outside it. German hymns were sung inside a Mass that was
-  kept, not abolished. The story runs from the Ninety-Five Theses
-  through a confession signed before the emperor at Augsburg in 1530, to
-  a fuller confessional book gathered by 1580 - though the movement's
-  own founder had been dead some three decades by then.
+  In 1517, Martin Luther sent theses against the sale of indulgences to
+  his archbishop. He was an Augustinian friar and professor at the young
+  university of Wittenberg. His theses opened a movement that challenged
+  the old order in two ways. It set Scripture's own authority against an
+  intervening hierarchy. And it held that a person stands before God by
+  a gift received through faith, not earned by works. Princes and city
+  councils carried the reform into their own territories, not bishops.
+  Wittenberg's own theology faculty advised them, not a separate church
+  government. The reform's most complete instrument was the household
+  catechism. It had three parts, recited at rising, at table, and at
+  night. A father or a schoolmaster examined each household every week.
+  The commandments had terrified a conscience; a promise spoken from
+  outside it made that conscience sure. German hymns were sung inside a
+  Mass that was kept, not abolished. The story runs from the Ninety-Five
+  Theses to a confession signed before the emperor at Augsburg in 1530.
+  It closes with a fuller confessional book gathered by 1580. By then
+  the movement's own founder had been dead some three decades.
 card_name: "The Catechized Households of Wittenberg"
 representative: {name: Nikolaus, role_label: Sexton-Schoolmaster}
 state: admitted
