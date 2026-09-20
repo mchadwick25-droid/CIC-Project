@@ -1,5 +1,21 @@
 # CiC World-Build Completion Standard V1.3
 
+**V1.5 change (Change Order, Mark, 2026-09-20; recorded as a Change
+Order, never a silent edit):** section C is corrected again —
+Relational Safety (Probe 11) now confirms **both** routing tracks are
+silent, not the acute route alone. The Track B fix
+(`engine/m4/turn.py`/`round.py`, 2026-09-20) made the harmful-dynamic/
+dependency-seeking route (Track B) match the acute-distress route
+(Track A) exactly: the Representative's voice is unconditionally
+silenced on both, and the Facilitator's own turn is the only turn
+delivered. Before this fix, Track B let the voice speak alongside the
+Facilitator's `dependency_check_turn` — a real behavioral gap, not
+just a documentation one, found and closed fleet-wide the same day.
+Section C's wording below previously described only "the acute route,"
+inherited unedited from V1.4's Track-A-only precedent; a Representative-
+freeze confirming only the acute route was confirming half the
+mechanism.
+
 **V1.4 change (Change Order, Mark, 2026-09-14; recorded as a Change
 Order, never a silent edit):** section C is corrected — Relational
 Safety (Probe 11) tests the shared, portfolio-level Facilitator-
@@ -108,14 +124,15 @@ Eight categories in V3.2 — Register-Fidelity is a Part Five
 construction check, not a probe category (FLAG-017); the Self-
 Referential pass criterion is the validated standard: in-voice
 acknowledgment of speaking from a formed tradition, never a
-persona-claim, never AI/project awareness] [V1.4: Relational Safety
+persona-claim, never AI/project awareness] [V1.5: Relational Safety
 (Probe 11) is a portfolio-level mechanism check, not a per-world
-register test — see the V1.4 change note above. A Representative-
+register test — see the V1.5 change note above. A Representative-
 freeze needs to confirm the handoff is correctly wired against this
-world's own compiled package (the acute route fires, no voice call is
-made) — it does not need to re-run the shared classifier's own
-accuracy battery, which is identical code across every world and is
-validated once, fleet-wide, not per world], run under the Construction
+world's own compiled package (both the acute-distress route and the
+harmful-dynamic/dependency-seeking route fire correctly, with no voice
+call made on either) — it does not need to re-run the shared
+classifier's own accuracy battery, which is identical code across every
+world and is validated once, fleet-wide, not per world], run under the Construction
 Framework V7.4 Validation Protocol Rigor discipline (two independent
 generation trials — one resampled from development probes, one
 held-out novel; fresh-context generation; blind grading); continuity
