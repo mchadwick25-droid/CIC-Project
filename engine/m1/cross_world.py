@@ -131,14 +131,18 @@ ACCEPTED_OPEN: dict[str, str] = {
     # worlds.ts actually got its WORLD_ORDER entry and WORLD_ASSETS entry
     # (witt's accent color reused from cic-website/table.html's own
     # already-fixed #579C40, contrast independently recomputed against both
-    # dark-mode thresholds rather than assumed). site-portrait closed once
-    # Mark placed the actual file - as nikolaus.jpg, not the .png this
-    # tracking's own earlier notes assumed - into cic-website/assets/
-    # portraits/ directly and updated the traditions page's own <img src>
-    # to match; cic-poc/frontend's own live-serving copy and worlds.ts's
-    # portraitImage path (which still pointed at the old .png guess) were
-    # the one piece this pipeline still owed and have been corrected to
-    # match the real file. Not left stale.
+    # dark-mode thresholds rather than assumed). site-portrait/witt CLOSED
+    # 2026-09-20: opened during Phase C recon for the portrait image FILE
+    # this comment block's own prior text named as the one outstanding
+    # piece. Mark placed the actual file - as nikolaus.jpg, not the .png
+    # this tracking's own earlier notes assumed - into cic-website/assets/
+    # portraits/ (PR #323, "Wire in Nikolaus's portrait") and the
+    # traditions page's own <img src> was updated to match; that closed
+    # the public site's own side. cic-poc/frontend's own separate
+    # live-serving copy and worlds.ts's portraitImage path (which still
+    # pointed at the old .png guess) were the one piece still open after
+    # that PR and have been corrected here to match the real file. Not
+    # left stale.
     # census-id/witt CLOSED 2026-09-19: opened for the real admitted-but-
     # not-yet-synced gap right after witt's own admission; closed the same
     # day once `python -m engine.m6.cli sync` actually ran (Mark's own
