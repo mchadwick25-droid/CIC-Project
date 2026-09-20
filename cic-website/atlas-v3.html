@@ -41640,8 +41640,7 @@ function openPanel(m){
   // status/edges template as an unbuilt entry.
   if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b>, ${esc(entry.representativeTitle)} — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>
     <button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
-  h+=`<p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>
-    <span class="statuspill">${esc(statusLabel(m))}</span>`;
+  h+=`<p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>`;
   // Lead with the tradition itself, not with this project's own build plan for
   // it: the summary first, then the story and everything else a participant
   // would come here to learn. The "where this stands" statement (m.why) moves
@@ -41721,6 +41720,14 @@ function openPanel(m){
   // Very last, on purpose: this project's own plan for the tradition -- built,
   // chosen, deferred, excluded, or not yet assessed -- in plain participant
   // language, after everything the tradition's own record has said for itself.
+  // The short status pill that used to sit here (and, before that, at the very
+  // top of the panel) is gone outright, not just moved again: every one of the
+  // 292 movements carries a `why` paragraph that already states the same fact
+  // in plain sentences ("This tradition is fully built...", "Chosen for a
+  // future build, not yet started..."), so the pill's own terse, internal-
+  // sounding build-planning label ("Deferred -- reasons on record", "Excluded
+  // -- creedal grounds stated") was pure duplication once it landed next to
+  // the paragraph that already says it better.
   if(m.why){
     h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
     if(entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
