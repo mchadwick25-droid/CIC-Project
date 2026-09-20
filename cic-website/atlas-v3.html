@@ -267,6 +267,20 @@ svg#world{display:block;overflow:visible}
 #zoomHint{position:fixed;right:.8rem;bottom:.8rem;z-index:20;font-size:.7rem;
   color:var(--ink-faded);background:var(--vellum);border:1px solid var(--rule);
   border-radius:3px;padding:.4rem .6rem;max-width:190px;text-align:right}
+/* A compact plus-shaped d-pad, not a full 3x3 grid of buttons -- only four
+   cells are ever populated, the other five stay empty grid tracks so the
+   arrows land in a real cross rather than a solid block. */
+#panControls{display:grid;grid-template-columns:repeat(3,26px);grid-template-rows:repeat(3,26px);
+  gap:2px;justify-content:end;margin:0 0 .4rem}
+.pan-btn{background:var(--vellum);color:var(--iron-gall);border:1px solid var(--rule);
+  border-radius:3px;cursor:pointer;font-size:.85rem;line-height:1;padding:0;
+  display:flex;align-items:center;justify-content:center;font-family:inherit}
+.pan-btn:hover{border-color:var(--gold-leaf);color:var(--gold-leaf)}
+.pan-btn:focus-visible{outline:2px solid var(--madder);outline-offset:1px}
+#panUp{grid-column:2;grid-row:1}
+#panLeft{grid-column:1;grid-row:2}
+#panRight{grid-column:3;grid-row:2}
+#panDown{grid-column:2;grid-row:3}
 @media (prefers-reduced-motion:reduce){.river-calm,.river-organic,#panel{transition:none!important}}
 
 /* ---- Touch tap targets ----
@@ -317,6 +331,8 @@ svg#world{display:block;overflow:visible}
     align-items:center;justify-content:center}
   #panel .act{min-height:44px}
   #legendToggle{min-height:44px;display:flex;align-items:center}
+  #panControls{grid-template-columns:repeat(3,44px);grid-template-rows:repeat(3,44px)}
+  .pan-btn{font-size:1.1rem}
 }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -364,7 +380,15 @@ svg#world{display:block;overflow:visible}
      an invisible control that appeared to do nothing. -->
 <div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div></div>
 <div id="legend"></div>
-<div id="zoomHint">Scroll or pinch to zoom &middot; drag to pan</div>
+<div id="zoomHint">
+  <div id="panControls" role="group" aria-label="Pan the map">
+    <button type="button" class="pan-btn" id="panUp" aria-label="Pan up">&uarr;</button>
+    <button type="button" class="pan-btn" id="panLeft" aria-label="Pan left">&larr;</button>
+    <button type="button" class="pan-btn" id="panRight" aria-label="Pan right">&rarr;</button>
+    <button type="button" class="pan-btn" id="panDown" aria-label="Pan down">&darr;</button>
+  </div>
+  Scroll or pinch to zoom &middot; drag or use the arrows to pan
+</div>
 
 <script>
 "use strict";
@@ -42043,10 +42067,59 @@ stage.addEventListener('wheel',(ev)=>{
   applyTransform(); applyDetail();
 },{passive:false});
 
+// Pointer Events with capture, not mousedown/mousemove/mouseup on window --
+// Mark, 2026-09-20: "hard to do the hand and grab scroll". Without capture, a
+// drag that outruns the mouse's own hit-testing (a fast flick, or the pointer
+// crossing another element like #legend/#panel) can silently drop the
+// in-progress drag; setPointerCapture pins move/up delivery to #stage
+// regardless of what's under the pointer afterward, the same fix a native
+// scrollbar thumb gets for free. Touch keeps its own dedicated multi-touch
+// pan/pinch handler below (real two-finger pinch-zoom math no single-pointer
+// path can replace) -- this path is explicitly mouse/pen only.
 let dragging=false, lastX=0, lastY=0;
-stage.addEventListener('mousedown',(ev)=>{dragging=true; lastX=ev.clientX; lastY=ev.clientY; stage.classList.add('grabbing');});
-window.addEventListener('mousemove',(ev)=>{if(!dragging)return; tx+=ev.clientX-lastX; ty+=ev.clientY-lastY; lastX=ev.clientX; lastY=ev.clientY; applyTransform();});
-window.addEventListener('mouseup',()=>{dragging=false; stage.classList.remove('grabbing');});
+stage.addEventListener('pointerdown',(ev)=>{
+  if(ev.pointerType==='touch')return;
+  dragging=true; lastX=ev.clientX; lastY=ev.clientY;
+  stage.classList.add('grabbing');
+  stage.setPointerCapture(ev.pointerId);
+});
+stage.addEventListener('pointermove',(ev)=>{
+  if(!dragging||ev.pointerType==='touch')return;
+  tx+=ev.clientX-lastX; ty+=ev.clientY-lastY; lastX=ev.clientX; lastY=ev.clientY; applyTransform();
+});
+function endDrag(ev){
+  if(ev.pointerType==='touch')return;
+  dragging=false; stage.classList.remove('grabbing');
+}
+stage.addEventListener('pointerup',endDrag);
+stage.addEventListener('pointercancel',endDrag);
+
+// Manual pan controls -- Mark, 2026-09-20: the atlas had no way to move
+// around besides drag or scroll-to-zoom, and drag alone read as hard to use.
+// A fixed pixel nudge per press/hold, independent of zoom level, the same
+// units the drag handlers above already use for tx/ty.
+const PAN_STEP=90;
+function nudge(dx,dy){ tx+=dx; ty+=dy; applyTransform(); }
+{
+  const dirs={panUp:[0,PAN_STEP],panDown:[0,-PAN_STEP],panLeft:[PAN_STEP,0],panRight:[-PAN_STEP,0]};
+  Object.keys(dirs).forEach(id=>{
+    const btn=document.getElementById(id);
+    if(!btn)return;
+    const [dx,dy]=dirs[id];
+    let holdTimer=null, holdInterval=null;
+    function stopHold(){ clearTimeout(holdTimer); clearInterval(holdInterval); holdTimer=holdInterval=null; }
+    btn.addEventListener('click',()=>nudge(dx,dy));
+    // Press-and-hold repeats the nudge, the same affordance a native scrollbar
+    // arrow gives -- a short delay before repeat starts so a plain click/tap
+    // (already handled above) doesn't also fire one extra repeat nudge.
+    btn.addEventListener('pointerdown',(ev)=>{
+      if(ev.pointerType==='mouse'&&ev.button!==0)return;
+      stopHold();
+      holdTimer=setTimeout(()=>{ holdInterval=setInterval(()=>nudge(dx,dy),60); },350);
+    });
+    ['pointerup','pointerleave','pointercancel'].forEach(evt=>btn.addEventListener(evt,stopHold));
+  });
+}
 
 let touches={};
 stage.addEventListener('touchstart',(ev)=>{
