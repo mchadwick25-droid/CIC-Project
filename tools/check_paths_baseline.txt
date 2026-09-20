@@ -292,6 +292,8 @@ worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md: worlds/Nicene-Cappadocian/script
 worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md: worlds/Nicene-Cappadocian/scripts/wb_cappadocian_s21.py
 worlds/cappadocian/Cappadocian_Build_Record.md: worlds/Early-Latin
 worlds/cappadocian/Cappadocian_Final_Report.md: worlds/Nicene-Cappadocian
+worlds/cappadocian/Open_Gaps_Tracking.md: records/worlds.yaml
+worlds/cappadocian/Open_Gaps_Tracking.md: worlds/Nicene-Cappadocian
 worlds/cappadocian/Review-Artifacts/UnusedSourceFinding_Round1_Review.md: cic/corpus-map/_staging/anf06_gregory-thaumaturgus-...yaml
 worlds/cappadocian/Review-Artifacts/UnusedSourceFinding_Round1_Review.md: records/doctrinal_witness/cappadocian.dw.how-it-reached-us.md
 worlds/cappadocian/Review-Artifacts/UnusedSourceFinding_Round1_Review.md: records/figure/cappadocian.figure.amphilochius.md
@@ -310,6 +312,8 @@ worlds/desert/CiC_W3_Living_Tradition_Differentiation_Review.md: records/worlds.
 worlds/desert/CiC_W3_Phase6_Facilitation_Brief_DRAFT.md: cic-poc/backend/app/graph/nodes.py
 worlds/desert/CiC_W3_Phase6_Facilitation_Brief_DRAFT.md: cic-poc/backend/data/desert_world/desert_Representative_Permanent_Prompt_Papnoute.txt
 worlds/desert/Doc_03_Review_Round1.md: worlds/Alexandria
+worlds/desert/Open_Gaps_Tracking.md: Ministry/Technology/Pass2/gates/S6.2
+worlds/desert/Open_Gaps_Tracking.md: packages/desert/2026-09-09T03-17-52Z
 worlds/desert/build/DECISION-LOG.md: packages/desert/2026-09-09T03-17-52Z
 worlds/desert/build/DECISION-LOG.md: records/manifest
 worlds/desert/build/DECISION-LOG.md: records/worlds.yaml
@@ -348,6 +352,9 @@ worlds/grkap/Review-Artifacts/Step0_Round3_Review.md: records/lpc
 worlds/grkap/Review-Artifacts/Step0_Round4_Review.md: cic/corpus-map/tertullian-s-voice.yaml
 worlds/grkap/Review-Artifacts/Step0_Round4_Review.md: records/lpc
 worlds/grkap/Review-Artifacts/Step0_Round5_Review.md: records/lpc
+worlds/hal/Open_Gaps_Tracking.md: Archive/.../S6.2_HAL_FREEZE_DECLARATION.md
+worlds/hal/Open_Gaps_Tracking.md: cic-poc/backend/data/hieronymian_world
+worlds/hal/Open_Gaps_Tracking.md: records/worlds.yaml
 worlds/hal/hal_Phase6_Facilitation_Brief_DRAFT.md: cic-poc/backend/app/graph/nodes.py
 worlds/ijc/CiC_Imperial_Juridical_Christianity_World_Build_Thread_Launch_2026-07-19.md: reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4_DRAFT.docx
 worlds/ijc/Doc_01_World_Identification_Boundaries_Orientation.md: worlds/history
