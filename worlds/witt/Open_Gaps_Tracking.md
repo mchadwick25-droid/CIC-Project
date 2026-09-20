@@ -1430,3 +1430,63 @@ had not covered:
    messages as `system_nature_turn`, fleet-wide, already symptom-patched once in gallic) remains
    untouched, per the project lead's explicit "hold off on B-2." Confirmed untouched by both re-confirmation
    passes and by this entry (`git diff 157c2269 HEAD -- engine/` still empty).
+
+**Fourth independent re-confirmation pass, 2026-09-20.** Same cold, independent discipline. Verdict:
+H-1's substance genuinely **RESOLVED** (every check re-derived independently: `witt_World_Profile.md` §8
+correctly scoped and logged as a real change order; `wb_witt_s21.py` verified byte-equivalent to the
+current records by AST extraction, not by eye; the demonstration record's 1525/1555 split correct; both
+reworded `thin_topics` FK grades recomputed and confirmed exact; the `honest-limits` pronoun fix confirmed
+unambiguous; the runtime store swept end-to-end with zero hits for the reversed formula; the package
+reproduced byte-for-byte in memory from the pinned commit; all gates, `m9`, `cross_world`, and pytest
+re-run clean; B-2 confirmed still untouched). B-1's sixth-location fix re-confirmed with no new doubt.
+
+But H-1 as a **finding** was held **NOT CLOSED**, for two reasons neither of which a further record-edit
+round can settle — and the pass explicitly recommended escalation over a fifth fix attempt, per CLAUDE.md's
+capped-review-cycle rule:
+- **H-1's own third close condition** ("re-run the 1525 probe and require the turn not consist of
+  refusal-narration") had never been attempted — correctly declined as something only the project lead's
+  own per-run spend authorization can unlock, not something a build thread runs unilaterally.
+- **F-1 (new): this round's own demonstration-record fix reintroduced the same pronoun defect it had just
+  fixed twice elsewhere, in a different field, plus broke a "two places" count against its own cited
+  source.** `records/witt/demonstration/witt.demo.record-thinnest.md`'s new 1525 sentence — "The great
+  rising... is different: it is real... but its own argument is not ours to lay out" — has "it"/"its"
+  pointing at *the rising*, not the founder's writing, exactly the class of error just corrected in
+  `voice_craft`'s `honest-limits` note. And the rewrite's own new sentence ("Two more places test that
+  same limit") collides with the inherited "Two other places are just as thin" from
+  `witt.limit.record-thinnest`, so the passage as shipped implies four thin places where its own count
+  promises two. This is live, compiled text (`prompt.txt` line 750, a model-facing few-shot exemplar) —
+  real, but a craft/register defect, not a governance reversal or fabrication. The pass's own
+  recommendation: **batch this fix with H-2/H-3/MEDIUM-LOW rather than mount a fifth dedicated B-1/H-1
+  round** — a decision surfaced to the project lead rather than made here.
+
+Also flagged, not required to close B-1/H-1: **F-2** (the §12.3 supersession has no entry in
+`witt_Doc_02_Source_Ecology.md`'s own Document Log, though it is disclosed inline and in this file);
+**F-3** (the third re-confirmation pass's own report was never appended to
+`witt_GoLive_Adversarial_Review_Round1.md` as this project's "review rounds exist as files, not claims"
+discipline requires — its substance survives only in this file's own account above; `c78f959c`'s commit
+message inaccurately claims it was appended there). Plus observations: O-1 (the "never denied" clause
+Mark's own ruling specified is present in `guard`/`.thinness` but absent from the two trigger-injected
+`thin_topics` riders after the readability rewrite); O-2 (the two fixed FK grades, 7.66 and 6.12, are both
+*below* CLAUDE.md's stated floor of 8, not "within the 8-10 band" as this file previously said — corrected
+here); O-4 (`witt.source.luther-von-den-juden-und-ihren-l.md`'s own body note still echoes the superseded
+Doc_02 sentence — inert, not in the runtime store, but stale); O-5/O-6 (pre-existing, not worsened here).
+
+**Live re-probe run, 2026-09-20, per the project lead's explicit authorization** ("yes, run it now").
+`engine.m4.live_turn_run --region us-east-1 --world witt --message "What did your founder's 1525 pamphlet
+against the rebelling peasants actually say?"` — the exact probe from the original go-live testing,
+re-run against the corrected package (`2026-09-19T23-57-37Z`). **Result: inconclusive, and unexpectedly
+so.** The turn did not reach the Representative's voice at all — `routing_action: "system_nature_turn"`,
+`voice_event: null` — the same misrouting symptom B-2 names, previously believed (by both this file and
+both prior re-confirmation passes, on the strength of the original pre-fix report) to affect only the
+1543 probe. The pre-fix report (`03cd0b30`, `message-3`) shows this exact probe routing correctly to
+`voice_with_directive` and reaching the voice — with the refusal-narration H-1 flagged ("we hold no
+summary of its arguments detailed enough to tell you what it actually said, point by point") **and**,
+independently, an H-3-class hallucinated "said before" claim on a zero-prior-turns exchange ("we have
+named it plainly, more than once, as real"). So H-1's third close condition genuinely cannot be verified
+by this run: the reframed wording was never exercised, because the message never reached it. Whether this
+is a one-off classification variance or a real, reproducible widening of B-2's own scope to include the
+1525 probe is not established by a single run and was not investigated further, per the standing "hold
+off on B-2" instruction — surfaced as new information for the project lead rather than diagnosed
+unilaterally. Report: `engine/m4/reports/live-turn-report-witt.json` (overwrites the prior 4-message
+report on each run, per the tool's own fixed output path; the superseded prior results are preserved
+above and in `witt_GoLive_Adversarial_Review_Round1.md`'s own quotations of them).
