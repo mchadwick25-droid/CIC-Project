@@ -19,9 +19,7 @@ work: 'Secular Authority: To What Extent It Should Be Obeyed'
 edition: (dated Dec. 25, 1522; publ. March 1523), dedicated to Duke John, intro./trans. Schindel, vol.
   III; vendored as cic/texts/luther_works-v3-selected_various1930.txt
 kind: vendored
-rights_status: Vendored in this build at cic/texts/luther_works-v3-selected_various1930.txt; rights basis
-  as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked
-  at the rights level by this authoring pass) -- Source Registry row 20.
+rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 20; v3 file; 2026-09-15
 external_ids:

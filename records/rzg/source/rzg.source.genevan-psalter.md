@@ -19,11 +19,7 @@ relations: []
 author: Clement Marot and Theodore Beza (versification); various (tunes)
 work: The Genevan Psalter (complete 1562)
 edition: No edition searched or identified this pass - NOT YET ACQUIRED
-rights_status: Native to this world's own boundary but NOT YET ACQUIRED (Source_Registry.md's own words,
-  rows 13-17). Confidence D/E - a real, disclosed acquisition gap (Source_Acquisition_Manifest.md; Open_Gaps_Tracking.md
-  items 4-6), not a rights refusal and not a claim this compilation pass can resolve. Nothing is vendored
-  or quoted from this row; every field below states what is currently known about the work itself, not
-  its content.
+rights_status: "Native to this world's own boundary but not yet acquired - a real, disclosed acquisition gap, not a rights refusal. Nothing is vendored or quoted from this row; every field below states what is currently known about the work itself, not its content"
 attribution_status: versified by Marot and Beza; the underlying Psalter itself is Native to this world,
   but no specific edition is currently held or searched.
 discovery_channel: Source_Registry.md row 15, added 2026-09-15; not searched this pass beyond the general-knowledge

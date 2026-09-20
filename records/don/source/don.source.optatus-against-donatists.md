@@ -18,11 +18,7 @@ author: Optatus of Milevis
 work: Against the Donatists, Books I-VII (c. 366-367; a revised second edition c. 385)
 edition: English translation by O.R. Vassall-Phillips (Longmans, Green & Co., 1917), vendored as cic/texts/optatus_against-the-donatists.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/. This script's own authoring session (2026-09-10)
-  directly checked the vendored file's own provenance header for every file cited below (grep for 'public
-  domain' / 'cc by' against each file's own text) and confirmed each states Public Domain, with no CC
-  BY or other open-license marker found in any of the seventeen distinct files this world's Registry rows
-  cite -- not assumed from the Registry's or corpus map's own prose alone.
+rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed
 discovery_channel: 'Source Registry row 1; corpus map / cic/corpus-map/donatism.yaml, role: context'
 external_ids:

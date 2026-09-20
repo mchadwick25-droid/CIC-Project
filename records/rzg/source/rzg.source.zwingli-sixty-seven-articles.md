@@ -18,9 +18,7 @@ author: Huldrych Zwingli
 work: The Sixty-Seven Articles (1523)
 edition: Within the collective volume Selected Works (Jackson 1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt,
   lines approx. 4485-4700 within the Acts of the First Zurich Disputation
-rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
-  by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note
-  column, checked directly against cic/texts/ this pass).
+rights_status: "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself"
 attribution_status: attributed to Huldrych Zwingli. No attribution dispute exists for this work.
 discovery_channel: Source_Registry.md row 6, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.
 external_ids:

@@ -19,8 +19,7 @@ work: The family estate-shrine at Annisa (Vita Macrinae's own description -- tex
   not excavated certainty)
 edition: Within cappadocian.source.gregory-nyssa-life-of-macrina (row 48, verified-direct this session)
 kind: unvendored
-rights_status: public-domain; vendored in cic/texts/ and independently verified (identity, completeness,
-  provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 113; a named, vendored text already sitting
   in cic/texts/ (present since an earlier session), not reopened to recheck this specific citation this

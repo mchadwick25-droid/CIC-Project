@@ -22,9 +22,7 @@ work: Work on Augustine's epistolography, general -- no specific title is named 
 edition: No specific edition named; consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3)
 kind: unvendored
-rights_status: in-copyright modern scholarship; consultation-only, never vendored (Source_Acquisition_Manifest.md
-  SS3). Cited and paraphrased by this build, never quoted as licensed vendored material. Bibliographic
-  record only -- the volume itself was not opened by this compilation pass.
+rights_status: "in-copyright modern scholarship; consultation-only, never vendored. Cited and paraphrased, never quoted as licensed vendored material - a bibliographic record only"
 attribution_status: attributed
 discovery_channel: carried forward from Step0_Movement_Scope_Confirmation.md SS4 item 5's own binding
   source-matrix correction / Step0 build thread / 2026-09-01. Registry row 34. NOT builder-prior-knowledge,

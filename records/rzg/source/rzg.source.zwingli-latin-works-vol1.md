@@ -19,9 +19,7 @@ relations: []
 author: Huldrych Zwingli
 work: The Latin Works and the Correspondence of Huldreich Zwingli, Vol. I
 edition: Translated and edited by Samuel Macauley Jackson (1912), vendored as cic/texts/zwingli_latin-works-correspondence-vol1_jackson1912.txt
-rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
-  by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note
-  column, checked directly against cic/texts/ this pass).
+rights_status: "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself"
 attribution_status: attributed to Huldrych Zwingli, in Jackson's own 1912 English translation and editorial
   arrangement; this volume also carries, embedded within it, Oswald Myconius's own 'Original Life of Zwingli'
   (Section XII narrates Zwingli's own death at the Second Battle of Kappel, 1531, in near-eyewitness detail)

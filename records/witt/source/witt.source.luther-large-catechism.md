@@ -18,9 +18,7 @@ author: Luther
 work: The Large Catechism
 edition: (1529), trans. Bente & Dau, Concordia Triglotta (1921); vendored as cic/texts/luther_large-catechism_bente-dau1921.txt
 kind: vendored
-rights_status: Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt; rights basis
-  as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked
-  at the rights level by this authoring pass) -- Source Registry row 25.
+rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 25; LC file; 2026-09-15
 external_ids:

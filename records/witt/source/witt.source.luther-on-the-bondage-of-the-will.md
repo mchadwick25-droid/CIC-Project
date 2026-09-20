@@ -19,9 +19,7 @@ work: On the Bondage of the Will
 edition: '(1525), trans. Henry Cole (London: Bensley for Simpkin & Marshall, 1823) — OCR materially degraded;
   vendored as cic/texts/luther_bondage-of-the-will_cole1823.txt'
 kind: vendored
-rights_status: Vendored in this build at cic/texts/luther_bondage-of-the-will_cole1823.txt; rights basis
-  as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked
-  at the rights level by this authoring pass) -- Source Registry row 34.
+rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 34; Cole file; 2026-09-15
 external_ids:

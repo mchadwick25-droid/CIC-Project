@@ -19,8 +19,7 @@ work: Gregory Thaumaturgus, the Address of Thanksgiving to Origen
 edition: Ante-Nicene Fathers, vol. 6 (Gregory Thaumaturgus, Dionysius, Julius Africanus, Methodius, Arnobius),
   ed. Roberts & Donaldson, vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
-  in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: contested (attribution questioned in recent scholarship, per Doc_02 SS1.6/SS9)
 discovery_channel: builder-prior-knowledge; Source Registry row 67; a named, vendored text already sitting
   in cic/texts/ (present since an earlier session), not reopened to recheck this specific citation this

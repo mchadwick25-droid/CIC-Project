@@ -23,9 +23,7 @@ work: 'Optatus: Against the Donatists, Translated Texts for Historians 27'
 edition: Liverpool University Press, 1997 -- in copyright, recorded not requested (Source_Acquisition_Manifest.md
   SS2). Not vendored.
 kind: unvendored
-rights_status: in-copyright; confirmed unavailable in the public domain and recorded not requested (Source_Acquisition_Manifest.md
-  SS2). Not vendored, and not a vendoring candidate -- committing it would be redistribution, per cic/texts/README.md's
-  own rule. Consultable through a library without being vendored, which is a different thing from unusable.
+rights_status: "in-copyright; confirmed unavailable in the public domain. Not vendored and not a vendoring candidate - committing it would be redistribution. Consultable through a library without being vendored"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge / field knowledge / 2026-09-01. Registry row 45.
 external_ids:

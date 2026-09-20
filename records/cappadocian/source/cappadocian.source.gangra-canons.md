@@ -22,8 +22,7 @@ work: The Gangra canons (twenty canons censuring 'those around Eustathius')
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 14 (The Seven Ecumenical Councils), ed. Schaff,
   vendored as cic/texts/npnf214_seven-ecumenical-councils.xml
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
-  in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed to the council collectively; date genuinely Contested across a wide range
   (c. 340s-370s, not 'within a decade' as an earlier draft claimed)
 discovery_channel: builder-prior-knowledge; Source Registry row 60; a specific named source (author, translator,

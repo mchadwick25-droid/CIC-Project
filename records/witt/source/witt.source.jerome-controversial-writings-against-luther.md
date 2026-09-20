@@ -20,9 +20,7 @@ edition: '(1519–1521: letter to Zack; A venatione…; To the Wittenberg Bull; 
   to the German Nobility; Quadruplica) and Thomas Murner''s tracts — as quoted and characterized in Steimle''s
   introduction and Luther''s replies; not independently vendored, embedded within "luther_works-v3-selected_various1930.txt" (see rights_status)'
 kind: unvendored
-rights_status: Not independently vendored; this work reaches the build only as quoted or embedded within
-  a vendored text (cic/texts/luther_works-v3-selected_various1930.txt), per Source Registry row 41, marked
-  (context).
+rights_status: "Not independently vendored; this work reaches the build only as quoted or embedded within a vendored text, marked (context)"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 41; v3 file; 2026-09-15
 external_ids:

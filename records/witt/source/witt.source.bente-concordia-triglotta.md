@@ -19,9 +19,7 @@ work: Concordia Triglotta
 edition: '(St. Louis: Concordia, 1921) — translation and bracketed German-text insertions in R25 and R38;
   vendored as cic/texts/luther_large-catechism_bente-dau1921.txt, cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt'
 kind: vendored
-rights_status: Vendored in this build at cic/texts/luther_large-catechism_bente-dau1921.txt, cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt;
-  rights basis as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently
-  re-checked at the rights level by this authoring pass) -- Source Registry row 64.
+rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 64; LC, Apology files; 2026-09-15
 external_ids:

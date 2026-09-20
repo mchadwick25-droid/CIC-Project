@@ -21,10 +21,7 @@ edition: (three editions, 1517), The Papacy at Rome (twelve editions; Lotther, P
   reprints; vendored as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt, cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt,
   cic/texts/luther_works-v3-selected_various1930.txt, cic/texts/luther_hymns_bacon-allen.txt
 kind: vendored
-rights_status: Vendored in this build at cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt, cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt,
-  cic/texts/luther_works-v3-selected_various1930.txt, cic/texts/luther_hymns_bacon-allen.txt; rights basis
-  as recorded in this world's own G1 Source Acquisition Manifest and Doc_01 SS10 (not independently re-checked
-  at the rights level by this authoring pass) -- Source Registry row 85.
+rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)
 discovery_channel: builder-direct-read; Source Registry row 85; v1, v2, v3, hymns files; 2026-09-15
 external_ids:

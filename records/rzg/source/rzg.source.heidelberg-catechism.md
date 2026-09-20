@@ -23,9 +23,7 @@ author: Zacharias Ursinus and Caspar Olevianus (traditional joint attribution)
 work: The Heidelberg Catechism (1563)
 edition: Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 69
   (original pp. 529-554), within Philip Schaff's compiled Creeds of Christendom (1919 printing)
-rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
-  by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note
-  column, checked directly against cic/texts/ this pass).
+rights_status: "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself"
 attribution_status: traditional joint attribution to Ursinus and Olevianus; Olevianus's own share is disputed
   in current scholarship (Doc_01 SS2) - this row does not adjudicate that question.
 discovery_channel: Source_Registry.md row 10, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.

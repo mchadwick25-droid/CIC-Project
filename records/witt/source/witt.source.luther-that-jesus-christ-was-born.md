@@ -18,8 +18,7 @@ author: Luther
 work: That Jesus Christ Was Born a Jew
 edition: (1523) — Luther's Works vol. 45 (from prior knowledge) — NOT VENDORED
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 50; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 50; WebSearch; 2026-09-15
 external_ids:

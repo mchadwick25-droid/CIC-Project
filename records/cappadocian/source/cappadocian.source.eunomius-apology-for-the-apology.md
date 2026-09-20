@@ -21,8 +21,7 @@ work: Eunomius, the Apology for the Apology (survives only as quoted inside Greg
 edition: Accessed only via cappadocian.source.gregory-nyssa-against-eunomius (NPNF205) -- adversarial
   transmission, no independent text exists to verify against
 kind: unvendored
-rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
-  in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed (Eunomius); transmitted only via hostile quotation -- flag adversarial
   transmission at every use
 discovery_channel: builder-prior-knowledge; Source Registry row 58; a specific named source (author, translator,

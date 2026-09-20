@@ -17,10 +17,7 @@ relations: []
 author: Bruce Gordon
 work: Calvin
 edition: 'New Haven: Yale University Press, 2009'
-rights_status: in-copyright modern scholarship; consultation-only, never vendored. Named in the census's
-  own `sources` field and cited for Author Gravity Assessment background only (Doc_02 SS2), never quoted
-  as licensed vendored material. Bibliographic record only - the volume itself was not opened by this
-  compilation pass, matching Source_Registry.md's own Verification Note for this row.
+rights_status: "in-copyright modern scholarship; consultation-only, never vendored. Cited for background only, never quoted as licensed vendored material - a bibliographic record only, the volume itself was not opened"
 attribution_status: attributed to Bruce Gordon. In-copyright modern scholarship.
 discovery_channel: Source_Registry.md row 11, added 2026-09-15; named in the census's own `sources` field,
   verified directly against that field this pass; not checked against the actual book.

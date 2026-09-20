@@ -19,9 +19,7 @@ work: Historia Pelagiana (1673)
 edition: No specific edition identified; known only via a quoted clause inside an already-vendored text
   (see body note).
 kind: unvendored
-rights_status: not applicable in the ordinary sense -- no single specific text has been identified for
-  this row; it names a general pattern, or a work known only via a single quoted clause inside another
-  vendored text, rather than a held text of its own. Not independently verified this session.
+rights_status: "not applicable - no single specific text has been identified for this row; it names a general pattern, or a work known only via a single quoted clause inside another vendored text, rather than a held text of its own"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 39; a specific named source (author, translator,
   edition, or witness) whose full text this build session did not independently read -- either its own

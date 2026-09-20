@@ -18,8 +18,7 @@ author: Lyndal Roper
 work: 'Martin Luther: Renegade and Prophet'
 edition: (2016)
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 79; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 79; WebSearch; 2026-09-15
 external_ids:

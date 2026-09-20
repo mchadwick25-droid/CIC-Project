@@ -20,9 +20,7 @@ work: Julian's own general project of reclaiming Greek learning for the old gods
 edition: General characterization drawn from Julian's own corpus (rows 71-72) and the secondary literature,
   not a separately citable primary text of its own
 kind: unvendored
-rights_status: not applicable in the ordinary sense -- no single specific text has been identified for
-  this row; it names a person, general pattern, or unlocated corpus rather than a held text. Not independently
-  verified this session.
+rights_status: "not applicable - no single specific text has been identified for this row; it names a person, general pattern, or unlocated corpus rather than a held text"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 88; a general regional/period pattern
   with no single named author or text of its own.

@@ -19,8 +19,7 @@ work: Philadelphia Edition vols. IV
 edition: (1931), V (1931), VI (1932) — archive.org identifiers per G1 Part B — HELD BACK pending copyright-renewal
   check
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 62; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)
 discovery_channel: G1 manifest; Source Registry row 62; 2026-09-15
 external_ids:

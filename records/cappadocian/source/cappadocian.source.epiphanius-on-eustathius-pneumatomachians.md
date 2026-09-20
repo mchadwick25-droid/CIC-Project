@@ -19,9 +19,7 @@ work: Epiphanius on Eustathius and the Pneumatomachians
 edition: Not independently located as a vendored text this session; a named author, no specific work title
   given
 kind: unvendored
-rights_status: not independently verified this session; row not yet acquired as an open text -- named
-  for completeness per the Source Registry's own checkpoint rule (every source a Doc_02 claim rests on
-  gets a row, acquired or not).
+rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 61; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

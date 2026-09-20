@@ -19,8 +19,7 @@ work: The Saxon visitation protocols
 edition: (1527–28 ff.) and the church ordinances in Emil Sehling (ed.), Die evangelischen Kirchenordnungen
   des XVI. Jahrhunderts (1902 ff.) — NOT VENDORED; untranslated
 kind: unvendored
-rights_status: Rights status as characterized in Source Registry row 52; not independently re-verified
-  by this authoring pass.
+rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)
 discovery_channel: census; builder-prior-knowledge; Source Registry row 52; 2026-09-15
 external_ids:

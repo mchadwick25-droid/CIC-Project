@@ -24,9 +24,7 @@ work: Selected Works - letter to Erasmus, the Constance petition, the Acts of th
   Disputations, the 1527 Refutation of the Tricks of the Baptists (incl. its own 'On Election' section),
   other shorter writings
 edition: Translated and edited by Samuel Macauley Jackson (1901), vendored as cic/texts/zwingli_selected-works_jackson1901.txt
-rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
-  by this compilation pass against the vendored file itself (Source_Registry.md's own Verification Note
-  column, checked directly against cic/texts/ this pass).
+rights_status: "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself"
 attribution_status: attributed to Huldrych Zwingli, in Jackson's own 1901 English translation and editorial
   arrangement.
 discovery_channel: Source_Registry.md row 7, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.

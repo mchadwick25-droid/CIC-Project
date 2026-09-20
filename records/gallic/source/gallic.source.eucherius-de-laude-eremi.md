@@ -19,9 +19,7 @@ work: De Laude Eremi (to Hilary of Arles, c. 428)
 edition: Eucherius of Lyon, De Laude Eremi (to Hilary of Arles, c. 428), Latin, extracted from Migne Patrologia
   Latina 50 (1846), vendored as cic/texts/eucherius-lyon_de-laude-eremi_migne-pl50.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ 2026-09-09 and independently rights-verified (archive.org
-  public-domain/rights metadata directly checked; title, editor, date, and contents independently re-verified)
-  within the same build session that produced this world's own Source Registry.
+rights_status: "public-domain; vendored 2026-09-09 and independently rights-verified (archive.org public-domain/rights metadata directly checked; title, editor, date, and contents independently re-verified)"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 26; a specific named source (author, translator,
   edition, or witness) whose full text this build session did not independently read -- either its own
