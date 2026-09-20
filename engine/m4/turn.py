@@ -149,7 +149,10 @@ def run_gate(
         )
         reader_outcome.value["modern_terms"] = resolved
 
-    gate_result = resolve_gate(safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
+    gate_result = resolve_gate(
+        safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed,
+        anachronistic_term_ids=anachronistic_term_ids, message=participant_message,
+    )
     gate = _gate_decision_payload(
         safety_outcome=safety_outcome, reader_outcome=reader_outcome, gate_result=gate_result
     )

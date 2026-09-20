@@ -40,11 +40,22 @@ def build_admission_results(world_key: str) -> bytes:  # noqa: D401
     )
 
 
-def build_signoffs(world_key: str, *, is_fixture: bool = False) -> bytes:
+def build_signoffs(world_key: str, *, is_fixture: bool = False, state: str = "built") -> bytes:
     # The fixture's note used to be written into EVERY world's package, so
     # alexandria's own signoffs.json said "alx is a synthetic fixture world -
     # none of Mark's four per-world touchpoints apply to it". They do apply,
     # and none of them has happened yet: outstanding is not inapplicable.
+    #
+    # L-3 (witt go-live adversarial review, 2026-09-20): `state` used to be
+    # hardcoded to the literal string "built" here, so every admitted or
+    # open world's own signoffs.json contradicted its own registry entry -
+    # confirmed present, byte-identical, in witt's, rzg's, don's and
+    # gallic's packages alike. The four touchpoints this note is actually
+    # about are independent of registry state at any value (`built`,
+    # `admitted`, or `open` are each their own mechanical, gate-based
+    # transition - M1's gate battery, M3's admission battery - never one of
+    # Mark's own four touchpoints), so the fix is to report the world's
+    # real state rather than assume the earliest one.
     note = (
         f"{world_key} is the synthetic fixture world (spec stage 0.6) - none of Mark's four "
         "per-world touchpoints (spec SS4.3) apply to it; it is never admitted or opened for real."
@@ -52,8 +63,9 @@ def build_signoffs(world_key: str, *, is_fixture: bool = False) -> bytes:
         else (
             f"{world_key} is a formation world. All four of Mark's per-world touchpoints (spec "
             "SS4.3 - identity, the living-tradition determination, the freeze, the admission read) "
-            "are OUTSTANDING, not waived. This world is state=built: gates green with a compiled "
-            "package, which is a mechanical transition and not a judgement about the world."
+            f"are OUTSTANDING, not waived, regardless of this world's own registry state ({state}) "
+            "- state reflects mechanical, gate-based transitions (the M1 gate battery, the M3 "
+            "admission battery), never one of Mark's own four touchpoints."
         )
     )
     return canonical_json(

@@ -775,3 +775,106 @@ Chloe, Theon, Yausep, Fidelis, Marius, Papnoute, Albina.
 `Brand-Assets/Representative-Portraits/README.md` updated to list all seven and
 their correct chronological group-image ordering (Donatism's 311 start predates
 Church and Empire's 312, so Fidelis slots in ahead of Marius, not at the end).
+
+---
+
+## 2026-09-19 — Nikolaus (Lutheran Wittenberg) profile portrait built and approved: eight of eight Representatives now have profiles
+
+**Full research and drafting record kept in its own file, not duplicated here:**
+`Brand-Assets/Representative-Portraits/witt/Nikolaus_Portrait_Prompt.md` — Part
+One (appearance research, grounded in Lucas Cranach the Elder's own Wittenberg
+portraiture — the single best time-and-place-matched external source available
+anywhere in this portfolio, since Cranach worked in Wittenberg itself through this
+exact span), Part Two (held-object comparative reasoning), and Part Three (the
+finished, corrected generation prompt).
+
+**A genuinely different visual register, not a recolored version of the other
+seven.** Witt's own 1517-1580 window sits over a thousand years later than any
+other world in this portfolio (the other seven all fall between 70 and 451 CE),
+moving the whole convention from late-antique Mediterranean draped dress to
+Northern-Renaissance German burgher dress. Nikolaus is also the first
+Northern-European-grounded Representative in the set (all seven others are
+Mediterranean, North African, or Levantine/Parthian) and the first explicitly lay
+office pictured this close to (but distinct from) the pulpit — no clerical
+vestment of any kind belongs on this figure, per `witt.voice.craft.md`'s own
+"lay, standard across the whole territorial-church window" language.
+
+**Held-object search grounded directly in the already-approved identity record,**
+not invented: `witt.voice.craft.md` names Nikolaus directly as "ringer of its
+bell" and "teacher of the town's children in their letters and catechism." A
+household-catechism book and a German hymnal were both considered and rejected —
+both collide with three of the seven existing Representatives' own book-family
+objects (Theon's scroll, Yausep's codex, Marius's scroll-case), the same
+structural objection that ruled out Fidelis's own first-choice codex. A large
+iron church key (echoing "keeper of the parish") was considered and set aside in
+favor of a hand bell, since the bell alone speaks to both halves of the composite
+"sexton-schoolmaster" office — the same bell calls the school to lessons and the
+parish to worship — where the key would represent only the custodial half. See
+the prompt file for the full per-candidate reasoning.
+
+**Two corrections made on the generated image itself, both real catches, not
+polish:** (1) the first draft's hair ran well past shoulder-length against the
+brief's own "worn loose to the jaw or collar" grounding — corrected to end
+explicitly at the jaw/collar, matching real period portrait convention rather
+than a generic Renaissance-courtier default. (2) Mark's own direct catch: "the
+color and sweater... seem modern." Confirmed — the coat read as smooth, unstructured
+knitwear in a flat, cool charcoal grey, a modern dye/textile convention rather
+than a period-grounded one. Corrected to a warm dark brown-black wool doublet with
+a visible button closure and structured, padded shoulders (a genuine
+Northern-Renaissance doublet convention, visible in Cranach's and Dürer's own
+portraiture of this era) worn over a separately visible white linen shirt. Both
+fixes confirmed resolved on regeneration; the beret's fuller, rounded shape and a
+slightly pronounced shoulder puff were flagged as non-blocking observations
+(both genuinely attested in real period portraiture) rather than required fixes.
+**Mark's own word: "lock it in."**
+
+**Disposition:** Nikolaus's profile portrait **approved.** All eight
+Representatives now have approved profile portraits: Chloe, Theon, Yausep,
+Fidelis, Marius, Papnoute, Albina, Nikolaus.
+`Brand-Assets/Representative-Portraits/README.md` updated to list all eight and
+their correct chronological group-image ordering (Nikolaus's 1517 start is more
+than a thousand years after any other world's, so he takes the final slot, not
+an arbitrary one). Mark is placing the approved image into GitHub directly, the
+same way he did for the other seven.
+
+---
+
+## 2026-09-19 — Nikolaus (Lutheran Wittenberg) accent color: script-computed, `#579C40`
+
+Ninth world's own accent color, following the same dark-mode methodology as
+every value in `cic-poc/frontend/src/data/worlds.ts`'s own `WORLD_ASSETS`
+(>=5.3:1 contrast as text against the dark ground `#17130F`, >=5.0:1 as dark
+surface-text laid on top of it as a fill, hue checked for distance against
+every existing world and the two reserved semantic tokens).
+
+**Hue-slot analysis first, not a color picked and then defended.** Mapping
+every current world's hue found one genuinely wide-open gap: desert's own
+olive-tan sits at H=47.8deg, pahc's own green at H=154.9deg — a 107-degree
+span with nothing in it, by far the largest gap on the wheel (every other
+gap is under 50 degrees, several under 10). Witt's own accent belongs
+somewhere in that span.
+
+**Grounded, not arbitrary, within that span:** Electoral Saxony's own
+traditional heraldry — the Wettin arms' green crancelin (a bendwise wreath
+of rue) — is where records/worlds/witt.yaml's own `place` field puts this
+world ("Wittenberg, in Electoral Saxony"), giving a real, place-grounded
+reason to land near true green (H=100-110) rather than picking a number
+inside the open span with no connection to this world's own material.
+
+**Script-computed lightness/saturation**, same method as every other entry:
+H=105deg, S=42% first clears both thresholds at L=43% — `#579C40`,
+contrast 5.49:1 vs ground, 5.18:1 vs surface (comparable margin to alx's
+5.32/5.03 and don's 5.37/5.07). Hue distance checked against all ten
+existing worlds and the two reserved tokens (`--color-tyrian` #6B3FA0,
+H=267.2deg; `--color-participant`/"lapis" #1E40AF, H=225.9deg) — nearest
+neighbor is pahc at 49.9deg, more than double the fleet's own tightest
+existing gap (alx/ijc, both near H=26deg, 0.3deg apart).
+
+**Applied to `cic-website/table.html`'s own `WORLDS` array** (this session,
+alongside the new `cic-website/traditions/lutheran-wittenberg-and-its-congregations.html`
+page). **Not yet applied to `cic-poc/frontend/src/data/worlds.ts`'s own
+`WORLD_ASSETS`/`WORLD_ORDER`** — deliberately deferred, since Mark's own
+in-progress sandbox file for the chair-card vertical scroll may be actively
+touching that same area; wiring witt into `worlds.ts` should follow once
+that work and this color are both confirmed, using this same `#579C40`
+value rather than re-deriving it.

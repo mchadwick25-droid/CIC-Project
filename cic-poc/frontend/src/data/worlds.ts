@@ -25,11 +25,16 @@ export interface WorldAssets {
 // registry's own file order (which interleaves desert and pahc
 // differently). A world_key GET /api/worlds returns that isn't listed here
 // has no known assets yet and is left off the list rather than shown
-// without a portrait. Ten formation worlds as of 2026-09-18 (rzg added
-// once its own package was admitted and its Representative portrait,
-// Theophilus - approved 2026-09-18 - was wired to the two live-serving
-// asset locations).
-export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic', 'don', 'rzg'];
+// without a portrait. Eleven formation worlds as of 2026-09-20 (witt added
+// once its own package was admitted; its Representative portrait decision,
+// Nikolaus - approved 2026-09-19, "lock it in" - is locked, but per OG-20
+// (worlds/witt/Open_Gaps_Tracking.md) the image file itself is Mark's own
+// to place into GitHub, the same way he did for the other eight, so
+// nikolaus.png does not exist in either portrait folder yet - this entry
+// wires the same path convention every other world uses and resolves as
+// soon as the file lands, matching table.html's own already-wired
+// reference to the same not-yet-present path).
+export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic', 'don', 'rzg', 'witt'];
 
 // 2026-09-17 dark-mode change order: every accentColor below was lightened
 // from its original Stage 7.5 light-mode hex (kept in each comment for
@@ -86,6 +91,13 @@ export const WORLD_ASSETS: Record<string, WorldAssets> = {
   // #1E40AF) for hue distance; nearest neighbor is lapis at 14.1deg, low collision risk
   // given the near-fourfold saturation gap between them.
   rzg: { portraitImage: '/images/portraits/theophilus.jpg', accentColor: '#8787A1' },
+  // Eleventh world, admitted 2026-09-20. Reuses the accent color already fixed for this world in
+  // cic-website/table.html rather than picking a new one - #579C40, a moderate forest green.
+  // Script-computed just now against this file's own two dark-mode thresholds: 5.49:1 vs the dark
+  // ground #17130F (clears >=5.3:1) and 5.18:1 vs --color-surface #1E1913 as dark text on top of it
+  // as a fill (clears >=5.0:1) - both actually verified here, not assumed from table.html's own
+  // prior use of the same hex value.
+  witt: { portraitImage: '/images/portraits/nikolaus.png', accentColor: '#579C40' },
 };
 
 export interface WorldStarter {

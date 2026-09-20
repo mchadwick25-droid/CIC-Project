@@ -3,7 +3,7 @@ false positive that would make the check useless."""
 import pytest
 
 from engine.m4 import events
-from engine.m4.output_check import check_output
+from engine.m4.output_check import check_output, find_shipped_defects
 
 
 def _families(findings):
@@ -146,3 +146,57 @@ def test_a_traditions_phrasing_is_not_a_claim_about_this_conversation():
         participant_message="How were you saved?",
     )
     assert [f for f in findings if f["family"] == "conversational"] == []
+
+
+# find_shipped_defects: H-3 (witt go-live adversarial review, 2026-09-19).
+# A defect check_output() already caught reached engine.m4.live_turn_run's
+# own report with `degraded: false` on the same turn - nothing read
+# output_defects back before this. These cases are the report shapes
+# themselves, not the text-level check already covered above.
+
+def _defect(finding="false: claims something was already said, on a turn with no prior turns"):
+    return {"family": "conversational", "finding": finding, "sentence": "We have named it plainly, more than once."}
+
+
+def test_clean_turn_run_report_has_no_shipped_defects():
+    report = {"results": [{"id": "message-1", "message": "hi", "result": {"voice_event": {"output_defects": []}}}]}
+    assert find_shipped_defects(report) == []
+
+
+def test_turn_run_report_surfaces_a_shipped_defect():
+    report = {"results": [{"id": "message-3", "message": "What did your founder write?",
+                            "result": {"voice_event": {"output_defects": [_defect()]}}}]}
+    found = find_shipped_defects(report)
+    assert len(found) == 1
+    assert found[0]["id"] == "message-3"
+    assert found[0]["family"] == "conversational"
+
+
+def test_turn_run_report_with_no_voice_event_is_clean():
+    """A facilitator-only turn (e.g. safety_turn) has voice_event: None."""
+    report = {"results": [{"id": "message-1", "message": "hi", "result": {"voice_event": None}}]}
+    assert find_shipped_defects(report) == []
+
+
+def test_table_run_report_surfaces_a_shipped_defect():
+    report = {"rounds": [{"message": "hi", "turns": [
+        {"round_no": 2, "position": 1, "turn_selected": {"world_key": "witt"}, "voice": {"output_defects": [_defect()]}},
+    ]}]}
+    found = find_shipped_defects(report)
+    assert len(found) == 1
+    assert found[0]["round_no"] == 2
+    assert found[0]["position"] == 1
+
+
+def test_table_run_report_with_no_voice_this_position_is_clean():
+    """A closed/facilitator-only table turn has no 'voice' key at all."""
+    report = {"rounds": [{"message": "hi", "turns": [{"round_no": 1, "position": 0, "turn_selected": None}]}]}
+    assert find_shipped_defects(report) == []
+
+
+def test_multiple_defects_across_both_report_shapes_all_surface():
+    report = {
+        "results": [{"id": "message-1", "message": "a", "result": {"voice_event": {"output_defects": [_defect(), _defect("false: second")]}}}],
+        "rounds": [{"message": "b", "turns": [{"round_no": 1, "position": 0, "voice": {"output_defects": [_defect("false: third")]}}]}],
+    }
+    assert len(find_shipped_defects(report)) == 3

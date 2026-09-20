@@ -40,7 +40,12 @@ class GateResult:
 
 
 def resolve_gate(
-    *, safety_outcome: CallOutcome, reader_outcome: CallOutcome, pressed: dict[str, bool], anachronistic_term_ids: set[str]
+    *,
+    safety_outcome: CallOutcome,
+    reader_outcome: CallOutcome,
+    pressed: dict[str, bool],
+    anachronistic_term_ids: set[str],
+    message: str,
 ) -> GateResult:
     if reader_outcome.failed:
         # Reader fails/times out. A successful safety classification is NOT
@@ -54,7 +59,13 @@ def resolve_gate(
         # ordinary) actually need a reader; safety_turn and check_in_turn do
         # not, so routing on safety alone here is safe, not a guess.
         if not safety_outcome.failed and safety_outcome.value["signal"] in _SAFETY_DECISIVE_SIGNALS:
-            routing = route(safety=safety_outcome.value, reader=None, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
+            routing = route(
+                safety=safety_outcome.value,
+                reader=None,
+                pressed=pressed,
+                anachronistic_term_ids=anachronistic_term_ids,
+                message=message,
+            )
             return GateResult(routing=routing, degraded=True, needs_async_safety_reclassification=False)
         # Reader failed and safety has nothing decisive to say (safety also
         # failed, or safety succeeded with NO_SIGNAL) -> pass-through: the
@@ -74,10 +85,12 @@ def resolve_gate(
         # responsible for actually scheduling the async re-classification
         # and, if it retroactively fires acute, interjecting on the next
         # event with the safety turn.
-        routing = route(safety=None, reader=reader, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
+        routing = route(safety=None, reader=reader, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids, message=message)
         return GateResult(routing=routing, degraded=True, needs_async_safety_reclassification=True)
 
-    routing = route(safety=safety_outcome.value, reader=reader, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
+    routing = route(
+        safety=safety_outcome.value, reader=reader, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids, message=message
+    )
     return GateResult(routing=routing, degraded=False, needs_async_safety_reclassification=False)
 
 
