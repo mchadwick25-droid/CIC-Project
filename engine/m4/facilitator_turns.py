@@ -5,15 +5,15 @@ Same discipline as engine.m4.crisis_resources, and for the same reason: the
 Facilitator speaks for the system, not for a world, so its words are not a
 model's to compose and not a world's to hold. A fixed table, never a prompt.
 
-STATUS, 2026-08-24: SYSTEM_NATURE, CHECK_IN, DEPENDENCY_CHECK, and both
-_ETIC_TEXT entries are Mark-approved participant-facing text - picked from
+SYSTEM_NATURE, CHECK_IN, DEPENDENCY_CHECK, and both
+_ETIC_TEXT entries are approved participant-facing text - picked from
 drafted options after an analysis pass against CiC_L3D_Facilitator_
 Governance_V3.6/V3.7 and CiC-Program-Spec.md SS71/76-77/210. This replaces
 the earlier placeholder text a participant asking "are you an AI?" (and
 three of the other six routes) used to receive.
 
-STATUS, 2026-08-25: DOOR is also now Mark-approved - picked as "Option A"
-from a two-draft choice (the fuller "door metaphor" draft was Option B,
+DOOR is also approved - picked
+from a two-draft choice (the fuller "door metaphor" draft was
 not carried into code) logged in Ministry/Technology/
 CiC_FrontEnd_Decision_Log.md. Closes a different gap than the six routing
 turns above: those replace placeholder text an existing route already
@@ -27,7 +27,7 @@ call time from `world.frame["representative"]["name"]`/`["role_label"]`
 and `world.frame["display_name"]` - the same registry-authored fields
 records/worlds.yaml carries per world (compiled into compiled/frame.json
 by engine.m2.builders.build_frame_json) and already used for the doorway
-screen. Mark's own ruling: the Facilitator names itself plainly as "the
+screen. The Facilitator names itself plainly as "the
 Facilitator" - no invented persona name for the Facilitator itself - while
 the Representative is named by its own registry name, so the participant
 can tell the two presences apart in the one moment they speak in the same
@@ -37,8 +37,7 @@ One thing below is NOT yet finished, flagged rather than hidden:
 
 - bridge_turn's frame now deliberately speaks the term's own
   `underlying_subject` to the participant, not only to the voice - a
-  considered visibility change Mark approved the same day this note was
-  written, not an oversight of the general "the Facilitator does not
+  considered visibility change, not an oversight of the general "the Facilitator does not
   narrate its own mechanics" rule.
 
 What is NOT placeholder, and must not be rewritten as though it were: the
@@ -211,16 +210,16 @@ SESSION_CAP = FacilitatorTurn(
 
 
 def session_cap_turn(representative_name: str) -> dict:
-    """DRAFT TEXT, not yet Mark-approved - see this module's own STATUS note
+    """DRAFT TEXT, not yet approved - see this module's own note
     on what that approval process looks like for every other facilitator
     text here. Wired in now so the mechanism (reference/Redesign-Spec/Artifact-6-
     Operations.md's "per-session turn cap", DECIDABLE default 40, resolved
-    to 10 by Mark 2026-08-25) is complete and tested; the copy itself is
+    to 10) is complete and tested; the copy itself is
     swappable without touching engine.m4.turn's routing.
 
-    Names its own cost honestly (Mark's direction, 2026-08-25: "we need to
-    be honest about cost, each round adding to the cost, still gracious but
-    may inspire giving") rather than only naming the limit - and points to
+    Names its own cost honestly - honest about cost, each round adding to
+    the cost, still gracious but meant to inspire giving - rather than only
+    naming the limit, and points to
     cic-website/support.html, the project's own already-published Get
     Involved page (Faithways Studio, Inc.), rather than inventing new
     giving mechanics here. Deliberately carries no specific dollar figure:
@@ -229,8 +228,8 @@ def session_cap_turn(representative_name: str) -> dict:
     turn cap governs (engine/m8/live_cost_run.py measured roughly $0.25/hour
     for that path) - a real discrepancy to reconcile before either number
     appears in participant-facing text, not something to paper over here by
-    picking one. Also names a future paid option for longer conversations,
-    per the same direction - not yet built, stated as a direction, not a
+    picking one. Also names a future paid option for longer conversations -
+    not yet built, stated as a direction, not a
     promise of a date or price.
 
     representative_name comes from world.frame["representative"]["name"],
@@ -239,9 +238,9 @@ def session_cap_turn(representative_name: str) -> dict:
     return {"kind": SESSION_CAP.kind, "text": text}
 
 
-# --- Table variants (Artifact-7 SS1-2; C1 decided 2026-08-28: fixed
+# --- Table variants (Artifact-7 SS1-2; C1: fixed
 # templates parameterized by the seated worlds, never a live facilitator
-# generation). DRAFT TEXT, not yet Mark-approved - same wired-now/
+# generation). DRAFT TEXT, not yet approved - same wired-now/
 # swappable-copy discipline session_cap_turn documents. The interview
 # texts above are untouched; a table session simply calls these instead
 # where the interview's text names exactly one representative.
@@ -251,7 +250,7 @@ def names_or_phrase(names: list[str]) -> str:
     """"Clement", "Clement or Papnoute", "Clement, Papnoute, or Ephrem" -
     for dropping a table's representatives into a text slot that reads
     naturally with an or-joined singular ("this is the Facilitator, not
-    Clement or Papnoute"). Used to fill crisis_resources' Mark-approved
+    Clement or Papnoute"). Used to fill crisis_resources' approved
     {representative_name} slot for a table WITHOUT altering that approved
     text itself."""
     if not names:

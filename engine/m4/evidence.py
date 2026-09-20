@@ -62,8 +62,8 @@ __all__ = [
 # model" precedent as engine.m4.crisis_resources.ACUTE_DISTRESS_RESOURCES,
 # for the one case that precedent doesn't cover: no cell matched this turn
 # at all, or the matched cell carries no honest_limit record to speak
-# instead. Same craft-pass caveat crisis_resources.py states about its own
-# text: real, honest, correct, NOT yet a Mark-approved participant-facing
+# instead. Same caveat crisis_resources.py states about its own
+# text: real, honest, correct, NOT yet approved participant-facing
 # line - flag again before any world that opens ships this literal text.
 # Owned here (not engine.m4.turn, where it originated) because both a live
 # participant turn and engine.m3's LiveModelAnswerer degrade the same way,
@@ -197,7 +197,7 @@ def _tier_prior(record: dict) -> float:
     tier = (record.get("retrieval") or {}).get("tier")
     return _TIER_PRIOR.get(tier, 0.0)
 
-# Stage A2 (added 2026-08-25, Mark's own diagnosis of a live turn): a
+# Stage A2: a
 # genuinely last-resort net under Stage A, not a replacement for it. Fires
 # from assemble_evidence ONLY when match_asks_to_cells found no cell at
 # all - never when a cell matched but session-exclusion emptied it
@@ -226,7 +226,7 @@ def _head_text(record: dict) -> str:
         return record.get("tellable_as") or record.get("text") or ""
     if record_type in ("quote",):
         # The speakable form: the build-authored modern_rendering where one
-        # exists (Mark's ruling, 2026-08-28 - archaic quotes are translated
+        # exists (archaic quotes are translated
         # in the build, never improvised live), the original otherwise. The
         # original stays reachable to the net via all_text either way.
         return record.get("modern_rendering") or record.get("text") or ""
@@ -587,9 +587,9 @@ def _diverse_take(
     floor: int,
     session_used_keys: set[str] | None = None,
 ) -> list[tuple[str, float]]:
-    """Breadth-first by source family, best-first within (Mark's ruling,
-    2026-08-29: 'i want the drawing from other sources to be a system
-    funtion not a forced thing for one question'). The measured failure
+    """Breadth-first by source family, best-first within: drawing from
+    other sources is meant to be a system function, not something forced
+    for one question. The measured failure
     this replaces: a divinity question's quote slots both filled from
     Ignatius because his material out-scores everything, while Pliny's
     and Justin's witness sat in the same cell unseen - the voice can only
@@ -598,10 +598,10 @@ def _diverse_take(
     COMPOSITION changes, and only when the cell actually holds more than
     one source family.
 
-    `session_used_keys` is the second half of the same ruling (Mark, same
-    day: 'the priority of a reference name is downgraded when they are
-    used already... not that they are banned, but the system looks to
-    others first'): source families this voice has already drawn on THIS
+    `session_used_keys` follows the same principle: the priority of a
+    reference source is downgraded once it has already been used - not
+    banned, but the system looks to others first. Source families this
+    voice has already drawn on THIS
     SESSION are considered last, never excluded. Deterministic passes, in
     order: (1) best of each family that is new both this turn and this
     session; (2) best of each family new this turn (session-used families
@@ -896,7 +896,7 @@ def assemble_evidence(
     session's own prior turns already introduced - resolved by the caller
     from the same already_bridged_figure_ids set the UI's first-occurrence
     mark grammar already threads (engine.m4.turn.run_turn's docstring on
-    that param). Mark's pilot read (2026-08-30): both Chloe turns opened
+    that param). A pilot read found both Chloe turns opened
     "One of us, Ignatius" - the session knew he was introduced, but that
     knowledge only ever suppressed the second underline; the voice itself
     was never told, and its own record text carries the introduction

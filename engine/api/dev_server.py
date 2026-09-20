@@ -1,11 +1,11 @@
 """No-spend local dev server for exercising the real engine/api surface
-against the real (Mark-approved) Facilitator text and a real compiled world
+against the real, approved Facilitator text and a real compiled world
 package, with zero Bedrock calls - a fixed FakeBedrockClient standing in for
 both roles, same pattern engine/api/tests/conftest.py already proves.
 
 This is a development tool only, never imported by app.py or shipped in
 engine/Dockerfile's image. GATE 3's live-turn requirement and GATE 4's real
-conversation both still need Mark's explicit per-stage go-ahead against real
+conversation both still need an explicit per-stage human go-ahead against real
 Bedrock credentials (PHASE-1-LAUNCH.md standing rule 3) - this script exists
 so the frontend build itself can be clicked through before that spend, not
 instead of it.

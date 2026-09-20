@@ -504,7 +504,7 @@ def test_render_evidence_block_includes_thin_ground_line():
 
 
 def test_render_evidence_block_names_figures_already_introduced():
-    """Mark's pilot read (2026-08-30): both Chloe turns opened "One of us,
+    """A pilot read found both Chloe turns opened "One of us,
     Ignatius" - the session's already_bridged_figure_ids suppressed the
     UI's second underline but never reached the voice. The evidence block
     is where the voice learns session state (same channel Stage E's
@@ -939,7 +939,7 @@ def test_a_first_turn_has_no_history_to_inherit_from():
 
 
 def test_diverse_take_breadth_first_by_source():
-    """Mark's ruling (2026-08-29): source breadth is a system function of
+    """Source breadth is a system function of
     selection, never a per-record hand-fix. Same slot count; composition
     prefers one-per-source-family before seconds from the same family."""
     from engine.m4.evidence import _diverse_take, _source_key
@@ -961,7 +961,7 @@ def test_diverse_take_breadth_first_by_source():
 
 
 def test_diverse_take_downgrades_session_used_families():
-    """Mark's ruling (2026-08-29): a reference already drawn on this session
+    """A reference already drawn on this session
     is looked to LAST, never banned - Ignatius yields the first slot to a
     fresh family once he has spoken, and still fills slots nothing else can."""
     from engine.m4.evidence import _diverse_take

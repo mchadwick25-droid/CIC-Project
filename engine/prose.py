@@ -160,8 +160,8 @@ _STOPWORDS = {
     "you'd", "you're", "you've",
 }
 
-# Updated 2026-08-21 for the fleet-wide pronoun rule (strict we-voice,
-# always - see the exemplar transcript and alx.voice.craft's superseding
+# The fleet-wide pronoun rule (strict we-voice,
+# always - see the exemplar transcript and alx.voice.craft's own
 # ruling): vocational-honesty scaffolding now reads "we", not "I". The one
 # sanctioned "I" left in the corpus - "I am a representative of [world]" -
 # gets its own exemption below, not folded in here, since it isn't honesty-

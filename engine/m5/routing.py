@@ -142,11 +142,11 @@ def route(
         return RoutingDecision(action="safety_turn", reason=reason)
 
     if safety is not None and safety["signal"] == "AMBIGUOUS_LOW_CONFIDENCE":
-        # Live safety-script batch 2 (2026-08-21, scenario s9) surfaced this
+        # Live safety-script batch 2 (scenario s9) surfaced this
         # gap: an adversarial hypothetical-framed disclosure was correctly
         # classified AMBIGUOUS_LOW_CONFIDENCE, then fell through to ordinary
-        # (non-safety) routing since AMBIGUOUS wasn't in ACUTE_SIGNALS. Mark's
-        # ruling: give it its own softer route - a check-in turn, short of
+        # (non-safety) routing since AMBIGUOUS wasn't in ACUTE_SIGNALS. The
+        # fix: give it its own softer route - a check-in turn, short of
         # the full safety turn - ranked above system_nature/bridge/etic so a
         # possible disclosure still gets a safety-aware response even when
         # the reader also reads the message as e.g. a system-nature question.

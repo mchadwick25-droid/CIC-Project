@@ -68,7 +68,7 @@ from engine.m5.routing import Directive, directive_without_terms
 from engine.m8.usage import UsageRecord, record_usage
 
 
-SESSION_TURN_CAP = 10  # reference/Redesign-Spec/Artifact-6-Operations.md "per-session turn cap" (was DECIDABLE, default 40) - resolved to 10 by Mark, 2026-08-25, after the live memory-growth measurement (engine/m8/live_memory_growth_run.py) showed real per-turn cost climbing, not flat, as session history accumulates. Counted in completed VOICE turns (len(history)//2), the same unit that actually drives the cost growth - a session's history is built by engine.api.wiring.history_from_transcript, which only pairs a participant message with a turn that got a real Representative reply, so facilitator-only turns (safety check-ins, system-nature, etc.) do not themselves consume the cap.
+SESSION_TURN_CAP = 10  # reference/Redesign-Spec/Artifact-6-Operations.md "per-session turn cap" (was DECIDABLE, default 40) - resolved to 10 after the live memory-growth measurement (engine/m8/live_memory_growth_run.py) showed real per-turn cost climbing, not flat, as session history accumulates. Counted in completed VOICE turns (len(history)//2), the same unit that actually drives the cost growth - a session's history is built by engine.api.wiring.history_from_transcript, which only pairs a participant message with a turn that got a real Representative reply, so facilitator-only turns (safety check-ins, system-nature, etc.) do not themselves consume the cap.
 
 
 class UnhandledRoutingAction(NotImplementedError):
@@ -273,9 +273,9 @@ def _build_turn_directive(
     holds (see stream_voice_turn's docstring). This text changes every
     turn, so it must never be concatenated onto the cached half.
 
-    table_engagement (bug fix, 2026-09-05, Mark's report: "Table mode gives
+    table_engagement (bug fix for Table mode giving
     independent monologues instead of cross-voice engagement on broad
-    questions"): the Table's per-turn behavioral rule - engage what another
+    questions): the Table's per-turn behavioral rule - engage what another
     voice just said, stay in your own witness, keep it compact - belongs
     HERE, not in the user-message context_prefix it used to live in
     entirely. That was the actual bug: the ambiguity_options note below
@@ -431,9 +431,9 @@ def _run_ordinary_voice_turn(
     canon_questions = load_fleet_records()
     # The same set that keeps the UI's figure mark first-occurrence-only,
     # resolved to spoken names and put where the VOICE can see it too
-    # (Mark's pilot read, 2026-08-30: "when we use the same name in the
-    # conversation it should be ignatious also talked about..." - the
-    # session tracked the introduction, but only the screen knew).
+    # (a pilot read found the session tracked a figure's introduction to
+    # the conversation, but only the screen knew - the voice itself was
+    # never told).
     figures_already_named = [
         name
         for figure in (world.figures.get("figures") or [])
@@ -468,7 +468,7 @@ def _run_ordinary_voice_turn(
 
     answer_text, citations, net_result = apply_net(stream_outcome.value.text, repository_records=repository_records, thin_topics=thin_topics)
 
-    # Real, checkable source references (Mark's own correction, see
+    # Real, checkable source references (see
     # citation_cards' module docstring) - resolved once here and reused
     # for both the citations a sentence already carries and whichever
     # figure mention that same sentence names.
@@ -485,7 +485,7 @@ def _run_ordinary_voice_turn(
     # TERM/CONCEPT GLOSSES (VR_1A's other track; the original live-site
     # complaint this whole audit started from). A text scan against the
     # world's own lexicon - the same design as the name bridge above,
-    # per Mark's ruling (2026-08-30: "it is the heart of the depth");
+    # since the lexicon is the heart of the depth;
     # the module docstring carries the history of the firing rule.
     glosses = find_glosses_used(answer_text, citations, repository_records, already_bridged_ids=already_bridged_gloss_ids)
 
@@ -579,9 +579,9 @@ def run_turn(
     transcript already shows in a prior turn's figures_used, so a name
     bridged once does not fire again (Full UX Design §2.4/§5.7's
     "first-occurrence term" grammar, applied to names the same as lexicon
-    terms). Since 2026-08-30 the same set also reaches the VOICE: it is
+    terms). The same set also reaches the VOICE: it is
     resolved to spoken names and rendered into the evidence block as an
-    already-introduced line (Mark's pilot read - both Chloe turns opened
+    already-introduced line (a pilot read found both Chloe turns opened
     "One of us, Ignatius"; the screen knew he was introduced, the voice
     did not). Caller-supplied for the identical reason as
     already_told_ids; omitting it means every matching figure fires every
@@ -647,8 +647,7 @@ def run_turn(
             # Track B: a dependency dynamic, not a crisis. No resources
             # (crisis_resources.resources_for_signal already refuses them for
             # this signal) and no session freeze. Governed (Program-Spec SS8,
-            # amendment 2026-09-20, Mark's own ruling: "the rule should be
-            # never respond, let the facilitator handle it") - the voice is
+            # amendment: never respond, let the facilitator handle it) - the voice is
             # silenced here exactly as it already is on Track A below, and
             # the message is withheld from it the same way. Before this
             # amendment the voice spoke "alongside" the Facilitator's own

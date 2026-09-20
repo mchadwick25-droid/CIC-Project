@@ -1,24 +1,25 @@
 """Term/concept glosses - the OTHER track VR_1A named, and the original
-complaint that started this whole audit (Mark, live site, 2026-08-09: "it
-uses complicated words ... catechumen and Didache"). `glosses` has been a
+complaint that started this whole audit: the voice used complicated words
+like "catechumen" and "Didache" with no way to look them up. `glosses`
+has been a
 required key on every voice_turn event since the catalog was written
 (engine/m4/events.py); this module populates it.
 
-HISTORY OF THE FIRING RULE - two designs, and Mark's ruling between them.
+HISTORY OF THE FIRING RULE - two designs.
 The old system (cic-poc/backend's `confirmed_glosses.py`) word-matched a
 hand-curated allowlist. The first record-native build here swung the
 other way: citation-anchored - a gloss fired only when the voice CITED
 the term record AND said the word in that cited sentence - to avoid the
 Goodhart failure transparency_reach.py's docstring names ("driving
 coverage up by glossing everything would produce a Representative who
-lectures"). Measured on the live pilot (2026-08-30), that lock never
+lectures"). Measured on the live pilot, that lock never
 opened: when the voice says "Logos" it grounds the sentence in the
 doctrinal witness where the claim lives, not in the lexicon entry, so
 glosses fired zero times across every probe while the name bridge (a
-plain text scan) lit every author. Mark's ruling: "the lexicon is not
-working ... and it is the heart of the depth. so when Alexandria talks
-about Logos (a core word for their world) that should be [marked] with
-a hover and click access to the glossary that is built in the system."
+plain text scan) lit every author. The fix: the lexicon needs the same
+plain-text-scan design as the name bridge, since it is the heart of the
+depth - when a world talks about a core word like Logos, that should be
+marked with a hover and click access to the built-in glossary.
 
 So this is now the same design as engine.m4.name_bridge: a detection
 pass over the finished turn text, string-only, no model call, gating

@@ -3,16 +3,16 @@
 the census and the corpus map: for every one of its Atlas entries, which
 vendored primary-source works corpus-map has actually assigned to it.
 
-WHY, AND WHY NOW (2026-09-02, Mark's sign-off). The blueprint's own framing:
+WHY. The blueprint's own framing:
 "a generated cic-website/data/corpus-coverage.json is a pure join... That is
 the 'known sources for not-yet-built movements' surface, and it is honest by
 construction: an entry with zero vendored works shows zero." The mechanism
-was always safe (corpus-map's bucket filename IS the census id - the join
-key already exists); what needed a ruling was SCOPE, since this is a public,
+is safe (corpus-map's bucket filename IS the census id - the join
+key already exists); the part that needed deciding was SCOPE, since this is a public,
 live feed (cic-website/, not an internal doc) and the two obvious ways to
 build it differ in how honest the result reads:
 
-Mark's ruling: VENDORED COVERAGE ONLY, across all census entries, including
+SCOPE: VENDORED COVERAGE ONLY, across all census entries, including
 the doctrinally-excluded ones that already carry vendored primary texts
 (showing them is not an endorsement - the entry's own excluded status and
 floor note already carry that context in the same Atlas modal). Explicitly

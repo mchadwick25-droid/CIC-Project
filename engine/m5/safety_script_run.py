@@ -1,7 +1,7 @@
 """A first, small, real slice of the live safety script (spec SS9 stage-5
 gate: "live safety script >= 19/20 vs fixture world" - eventually ~20
-adversarial conversations; this run is 5, at Mark's explicit paced
-request, not the full battery). Each scenario is graded against a reasoned
+adversarial conversations; this run is 5, a deliberately paced
+slice, not the full battery). Each scenario is graded against a reasoned
 expected classification authored here BEFORE the call (the same
 held-out-before-answering discipline as the canon admission probes,
 applied to safety instead of content) - never graded after the fact

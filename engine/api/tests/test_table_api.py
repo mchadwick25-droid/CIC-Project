@@ -148,7 +148,7 @@ def test_create_table_session_bad_shapes(store, usage_store, world_loader, regis
 
 
 def test_create_table_session_rejects_bad_seat_count_directly(store, world_loader, registry):
-    """Independent review, 2026-09-05: the HTTP layer's own 2-3-distinct-
+    """The HTTP layer's own 2-3-distinct-
     seats check (engine.api.app) isn't the only caller -
     engine.m4.live_table_run and engine.m4.live_table_battery call
     create_table_session directly with an unvalidated --worlds split, and
@@ -171,8 +171,8 @@ def test_create_table_session_rejects_bad_seat_count_directly(store, world_loade
 def test_selector_presentation_order_is_shuffled_not_the_session_seating(
     monkeypatch, store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
 ):
-    """Mark's report, 2026-09-05: "it always answers in the same order...
-    can we simply randomize the order with everyone still participating."
+    """Voices always answered in the same presentation order; the fix
+    randomizes that order while everyone still participates.
     The session's own canonical seating (state.world_keys - what worlds,
     labels, and direct-address detection all read) is untouched; only the
     COPY shown to the turn selector each call is freshly shuffled, so a
@@ -249,8 +249,7 @@ def test_round_turn_at_a_time_to_selector_close(store, usage_store, world_loader
     speakers = [t["speaker"] for t in transcript["transcript"]]
     assert speakers == ["facilitator", "participant", "alx", "desert", "alx"]
 
-    # Mark's own question, 2026-09-05 ("why isn't it reaching second
-    # passes?"): the real selector's own stated reason for closing used to
+    # The real selector's own stated reason for closing used to
     # be discarded entirely - round_closed.reason is only the fixed ENUM
     # category ("selector_closed"), never the model's actual free-text
     # justification. It's logged now, in the raw event.
@@ -299,8 +298,8 @@ def test_round_close_reasons_endpoint_surfaces_selector_reason(store, usage_stor
 
 
 def test_round_cap_closes_at_five_for_two_seats(store, usage_store, world_loader, registry, alx_world, desert_world):
-    """Mark's ruling, 2026-09-05: 'for 2 voices and a participant, the max
-    turns should be 5' (RoundConfig.cap_for(2) == 5, superseding the old
+    """For 2 voices and a participant, the max
+    turns is 5 (RoundConfig.cap_for(2) == 5, replacing the old
     flat cap of 4 this test used to pin)."""
     alx_sentence, _ = grounded_sentence(alx_world)
     desert_sentence, _ = grounded_sentence(desert_world)
@@ -328,11 +327,11 @@ def test_round_cap_closes_at_five_for_two_seats(store, usage_store, world_loader
 def test_round_cap_closes_at_six_for_three_seats(
     store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
 ):
-    """Mark's ruling, 2026-09-05: 'for 3 voices the cap is 6'
+    """For 3 voices the cap is 6
     (RoundConfig.cap_for(3) == 6). At three seats there is never a forced
     move (two voices are always eligible, excluding only the last
     speaker), so all six turns are real selector picks; the 3-seat floor
-    (5 - raised a second time the same day, on live evidence that the
+    (5 - raised on live evidence that the
     engagement-scoping fix genuinely worked but round length was an
     independent problem it didn't touch) makes close legal only from
     position 6's decision onward - the same decision the cap forces
@@ -388,7 +387,7 @@ def test_round_cap_closes_at_six_for_three_seats(
 def test_second_pass_turn_only_sees_its_engaged_voice_not_every_prior_answer(
     store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
 ):
-    """Independent review, 2026-09-05, the finding that actually mattered:
+    """The finding that actually mattered:
     naming one voice in the directive is not structural scoping if the
     turn's own context still hands it every other voice's full answer
     regardless of what one sentence asks it not to do with it. alx's
@@ -434,7 +433,7 @@ def test_second_pass_turn_only_sees_its_engaged_voice_not_every_prior_answer(
 def test_a_first_time_speaker_landing_on_the_cap_turn_gets_the_final_turn_framing(
     store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
 ):
-    """Independent review, 2026-09-05 - the exact scenario its own live
+    """The exact scenario a live
     probe demonstrated as broken: at 3 seats, alx/desert alternate through
     positions 1-5 (both legal - no immediate self-repeat only excludes the
     LAST speaker, not every prior one) and pahc speaks for the first time
@@ -473,7 +472,7 @@ def test_a_first_time_speaker_landing_on_the_cap_turn_gets_the_final_turn_framin
     rendered = str(final_call["system"])
     assert "last turn before the participant speaks again" in rendered
     assert "leave the floor open for the participant" in rendered
-    # A pre-existing vacuous assertion here (independent review, 2026-09-05)
+    # A pre-existing vacuous assertion here
     # checked for a substring with a semicolon the code never produces.
     # "drawn back in every time" is the non-final ending's own phrase -
     # genuinely absent from a final turn.
@@ -611,8 +610,7 @@ def test_round_closed_carries_governance_summary(store, usage_store, world_loade
 def test_cap_closed_round_governance_includes_the_cap_turn_itself(
     store, usage_store, world_loader, registry, alx_world, desert_world
 ):
-    """PRE-EXISTING BUG, found by independent review, 2026-09-05 (dates to
-    436128f1, 2026-08-30 - not introduced by this session's round-length
+    """PRE-EXISTING BUG (not introduced by this session's round-length
     work). A cap-forced close built its governance_summary from the `state`
     projected at the TOP of _advance_open_round, before the cap-triggering
     voice_turn was written - the round_closed payload's own `turns` count
@@ -647,9 +645,8 @@ def test_table_voice_payload_matches_interview_shape(store, usage_store, world_l
     bridges - engine/m4/citation_cards.py and the shipped VoiceTurnBody
     UI) consumes the interview's voice payload. A table voice turn must
     hand it the identical shape, so the same rendering carries the same
-    apparatus at a table with zero UI changes - Mark's requirement,
-    2026-08-28: the transparency program 'will need to be part of the
-    conversation' at the Table."""
+    apparatus at a table with zero UI changes - the transparency program
+    needs to be part of the conversation at the Table too."""
     from engine.api.tests.conftest import FakeBedrockClient
 
     alx_sentence, _ = grounded_sentence(alx_world)

@@ -2,8 +2,8 @@
 compiled repository content throughout, same discipline as
 test_name_bridge.py and test_citation_cards.py.
 
-The firing rule under test is the 2026-08-30 design (Mark: "the lexicon
-... is the heart of the depth"): a text scan of the finished turn against
+The firing rule under test is the design where the lexicon
+is the heart of the depth: a text scan of the finished turn against
 the world's own term records - the same contract as the name bridge -
 replacing the citation-anchored lock that measured zero fires on the
 live pilot. See the module docstring for the full history.

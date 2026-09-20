@@ -52,12 +52,11 @@ OBSERVATION = "observation"
 # this one is known, it is written up, and it is somebody's named next step -
 # not that it is acceptable. See the audit doc for each finding's evidence.
 ACCEPTED_OPEN: dict[str, str] = {
-    "census-living-flag/alx": "F-06 - census `living` says false, registry says true; which is correct is Mark's own per-world Living Tradition touchpoint, not a build thread's to settle",
+    "census-living-flag/alx": "F-06 - census `living` says false, registry says true; which is correct is a per-world Living Tradition touchpoint, not a build thread's to settle",
     "census-living-flag/pahc": "F-06 - as alx",
     "census-living-flag/hal": "F-06 - as alx",
     "census-living-flag/ijc": "F-06 - as alx",
-    # F-07/F-08 CLOSED 2026-08-28 by Mark's identity ruling ("the registry
-    # wins"): the census now derives its representative name/title from
+    # F-07/F-08 CLOSED 2026-08-28: the registry wins - the census now derives its representative name/title from
     # records/worlds.yaml (syr's registry entry took the ruled values Mar
     # Yausep / Teacher of the Covenant Order), so these five accepted-open
     # entries are deleted and the checks ENFORCE - identity drift between
@@ -84,7 +83,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     # accuracy, the traditions page, the index.html homepage card) closed
     # the same day; and the status flip itself (world-census.json's
     # `status` -> "Built & Live", `entry` block populated) closed 2026-09-13
-    # too, on Mark's own explicit word ("yes, flip it") after the frontend
+    # too, after the frontend
     # card was confirmed to link to a deep link that could not yet resolve
     # without it - matching Cappadocian's own distinct SS30-SS32 sequence.
     # All four gallic entries this dict once carried are gone, not left
@@ -99,8 +98,8 @@ ACCEPTED_OPEN: dict[str, str] = {
     # cic-poc/frontend/src/data/worlds.ts, and traditions/donatism.html
     # built grounded in this world's own records. Not left stale.
     # census-id/don CLOSED 2026-09-16: opened for the real admitted-but-
-    # not-yet-open gap between don's admission and Mark's explicit "Flip
-    # don to open"; closed the same day once `python -m engine.m6.cli
+    # not-yet-open gap between don's admission and its open-state flip;
+    # closed the same day once `python -m engine.m6.cli
     # sync` actually ran against the open state. Not left stale.
     #
     # figure-dates-keys/{alx,desert,hal,ijc,syr}: NOT a new defect in any
@@ -134,7 +133,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     # dark-mode thresholds rather than assumed). site-portrait/witt CLOSED
     # 2026-09-20: opened during Phase C recon for the portrait image FILE
     # this comment block's own prior text named as the one outstanding
-    # piece. Mark placed the actual file - as nikolaus.jpg, not the .png
+    # piece. The actual file was placed - as nikolaus.jpg, not the .png
     # this tracking's own earlier notes assumed - into cic-website/assets/
     # portraits/ (PR #323, "Wire in Nikolaus's portrait") and the
     # traditions page's own <img src> was updated to match; that closed
@@ -145,13 +144,12 @@ ACCEPTED_OPEN: dict[str, str] = {
     # left stale.
     # census-id/witt CLOSED 2026-09-19: opened for the real admitted-but-
     # not-yet-synced gap right after witt's own admission; closed the same
-    # day once `python -m engine.m6.cli sync` actually ran (Mark's own
-    # explicit "yes, run the census sync"), the same day-of pattern don's
-    # own census-id/don entry showed. Not left stale.
+    # day once `python -m engine.m6.cli sync` actually ran, the same
+    # day-of pattern don's own census-id/don entry showed. Not left stale.
 }
 
 
-# FIRST-PASS coverage ranges, asserted here for Mark's correction, not derived.
+# FIRST-PASS coverage ranges, asserted here to be checked and corrected, not derived.
 # A volume's own dates cannot be read off the file mechanically, and guessing
 # them silently would be worse than stating them where they can be argued
 # with. Range = the span the volume's contents actually testify to, so a
@@ -271,12 +269,11 @@ COVERAGE = {
 }
 BY_DESIGN = {"webbe", "anf10"}
 
-# Geography, added on Mark's ruling 2026-08-26 ("if geography is a defining
-# element of the christian tradition, then yes add it"). It is - and it does
+# Geography is a defining element of the christian tradition, and it does
 # work dates cannot: `pahc` is Greek-speaking Antioch and Asia Minor while
 # `syr` is Syriac-speaking Mesopotamia, two different worlds that overlap
 # almost entirely in time. Tags are FIRST-PASS, asserted for correction like
-# COVERAGE, and they RANK rather than exclude: Mark's standard is that a
+# COVERAGE, and they RANK rather than exclude: the standard is that a
 # resource may be ranked low and never ignored, so a region mismatch demotes
 # a volume in the worklist and never removes it.
 REGIONS = {
@@ -365,9 +362,9 @@ WORLD_REGIONS = {
 
 # WHY THERE IS NO THIRD, THEOLOGICAL AXIS HERE, and why one must not be added.
 #
-# Mark, 2026-08-26: "there has to be a theological center, as the gnostics are
+# There has to be a theological center: the gnostics are
 # the same time and place as alexandria but they are not a part of the
-# christian tradition." Correct, and the project already enforces it - twice,
+# christian tradition. The project already enforces it - twice,
 # and in the right places, neither of which is corpus scope:
 #
 #   * At WORLD level: cic-website/data/world-census.json carries `beyondFloor`
@@ -405,7 +402,7 @@ WORLD_REGIONS = {
 
 
 def corpus_tier(filename: str, world_key: str, world_window: dict, *, named: bool) -> str:
-    """Mark's ranking, in one place. Nothing here returns "excluded"."""
+    """The corpus tier ranking, in one place. Nothing here returns "excluded"."""
     key = corpus_key(filename)
     if key in BY_DESIGN:
         return "by design"
@@ -603,8 +600,8 @@ def check_census_agreement(*, registry, worlds, **_) -> list[Finding]:
             findings.append(_defect("census-display-name", w, f"census name {entry['name']!r} != registry display_name {registry[w].get('display_name')!r}"))
         # The friendly card name (entry.worldName - what the homepage card
         # and Atlas sheet actually display) was the ONE participant-facing
-        # identity field nothing compared (2026-08-28 foundation audit,
-        # F-16). Mark's same-day ruling: both name registers live in the
+        # identity field nothing compared (foundation audit,
+        # F-16). Both name registers live in the
         # registry - card_name friendly, display_name scholarly - and the
         # census derives.
         if e.get("worldName") and registry[w].get("card_name") and e["worldName"] != registry[w]["card_name"]:
@@ -842,7 +839,7 @@ def check_table_html_worlds(*, registry, worlds, **_) -> list[Finding]:
     (id/name/trad/portrait/tint/description) for the Table's seat-picker -
     a third registration point independent of both the app's WORLD_ASSETS
     and the site's traditions pages, and the one no check here has ever
-    covered. Found live (Mark, 2026-09-17): Renatus/gallic worked for the
+    covered. Found live: Renatus/gallic worked for the
     Atlas card and Interview but was silently absent from the Table's own
     picker for four days after admission, because nobody added it here.
     A world missing from this file is fully admitted, fully wired
@@ -949,7 +946,7 @@ def observe_uncompiled_required_fields(*, records, worlds, **_) -> list[Finding]
 
 
 def observe_second_hand_sources(*, records, worlds, **_) -> list[Finding]:
-    """Mark's standard, 2026-08-26: every world should reach every available
+    """The standard: every world should reach every available
     resource - they can be ranked, but never ignored.
 
     The runtime cannot deliver that by ranking. engine/m4 never opens a file
@@ -991,14 +988,14 @@ def observe_second_hand_sources(*, records, worlds, **_) -> list[Finding]:
 
 
 def observe_corpus_map(*, registry, worlds, **_) -> list[Finding]:
-    """Progress against Mark's standard - *"each world built and representing
-    the sources of the christian tradition"* - read from the corpus map, not
+    """Progress toward every world built and representing
+    the sources of the christian tradition, read from the corpus map, not
     inferred here.
 
-    This replaced `observe_corpus_review` on 2026-08-26. That observer read a
-    per-world `corpus_review` record, and when Mark ruled the assignment work
-    stays OUT of the built worlds (*"lets keep this separate from the built
-    worlds with clear buckets that align"*) the record type went with it - so
+    This replaced `observe_corpus_review`. That observer read a
+    per-world `corpus_review` record, and once the assignment work moved to
+    stay OUT of the built worlds - kept separate, with clear buckets that
+    align - the record type went with it - so
     the observer reported "no corpus_review record" six times, forever, about
     a thing deliberately removed. Six lines of standing noise is how a standing
     check stops being read, so it is repointed at the structure that now

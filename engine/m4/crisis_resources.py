@@ -4,12 +4,12 @@ appended by code, never recalled by a model"). This is the one place that
 text exists in this codebase - a fixed dict, not a prompt, not something any
 model call is ever asked to produce or paraphrase.
 
-STATUS, 2026-08-24: ACUTE_DISTRESS_RESOURCES.text below is Mark-approved
+ACUTE_DISTRESS_RESOURCES.text below is approved,
 participant-facing text, replacing the earlier placeholder that named 988
 and the Crisis Text Line by number. That placeholder was never actually
-correct against this project's own standing decision: Mark ruled on
-2026-08-05 (`Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`,
-CO-022) that the Facilitator's crisis redirect names no specific
+correct against this project's own standing decision
+(`Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`,
+CO-022): the Facilitator's crisis redirect names no specific
 organization, hotline, or number ("Option A" of
 `reference/L3D-Encounter-Methodology/CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md`) - a
 portfolio-level decision this module's text simply hadn't inherited yet.
@@ -21,13 +21,13 @@ The `{representative_name}` slot is filled at call time by engine.m4.turn
 from `world.frame["representative"]["name"]` - the same registry-authored
 name records/worlds.yaml carries per world, compiled into
 compiled/frame.json (engine.m2.builders.build_frame_json) and already used
-for the doorway portrait caption. Mark's own ruling: the Facilitator names
+for the doorway portrait caption. The Facilitator names
 itself plainly as "the Facilitator" - no invented persona name for the
 Facilitator itself - while the Representative is named by its own registry
 name, so the participant can tell the two presences apart in the one
 moment they speak in the same beat (SS4.3a).
 
-STATUS, 2026-08-24 (later same day): A2 (explicit-plan/imminent-risk
+A2 (explicit-plan/imminent-risk
 escalation) and the continuation turn (a second Track A firing in the same
 session) are wired now too. resources_for_signal selects among the three
 using acute_level (Artifact-4 SS1's Call A schema field) and already_fired
@@ -51,9 +51,9 @@ continuation line below is generic on purpose; flagging this rather than
 silently dropping the bracket unremarked, since it is a real simplification
 of the approved draft, not just a formatting choice.
 
-FIXED, 2026-09-19 (Opus adversarial review finding D5, narrow content fix
+FIXED (Opus adversarial review finding D5, narrow content fix
 only - the already_fired-always-wins SELECTION rule above is untouched and
-remains open for Mark's own ruling, not decided here): the prior
+remains open, not decided here): the prior
 ACUTE_DISTRESS_CONTINUATION text read in full as "I'm still right here
 with you. The offer I made a moment ago still stands, whenever you're
 ready for it." - warm, but containing no actual redirect at all. Read

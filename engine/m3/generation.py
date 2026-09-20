@@ -43,8 +43,7 @@ class AnswerResult:
     source_record_type: str | None
     # Per-sentence {sentence, record_ids} entries from apply_net - the
     # live path carries them so grading can tell a MISCOPIED ADDRESS on a
-    # verifiable sentence from a fabrication (Option A, Mark's ruling
-    # 2026-08-29). Fixture answers leave this None.
+    # verifiable sentence from a fabrication. Fixture answers leave this None.
     citation_entries: list[dict] | None = None
 
 

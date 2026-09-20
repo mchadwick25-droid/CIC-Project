@@ -30,9 +30,9 @@ def _load_m3_defects() -> list[dict]:
 
 def _advisory_register_findings(battery) -> list[str]:
     """Findings the register heuristic recorded without failing the probe -
-    Mark's 2026-08-28 ruling made that check advisory (direction, not a
+    that check is advisory (direction, not a
     gate; engine.m3.grading.register_check's own docstring carries the
-    ruling). The seeded-defect proof and the anti-inertness proof both
+    reasoning). The seeded-defect proof and the anti-inertness proof both
     survive with "flag" meaning DETECTED: a seeded register defect must
     surface as an advisory finding, and the clean fixture must surface
     none."""

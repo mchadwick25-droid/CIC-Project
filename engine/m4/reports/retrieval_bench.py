@@ -169,7 +169,7 @@ over-reaching: the identical swaps reproduce under the most conservative
 possible design (an exact-float-tie-break with no additive lean at all),
 so a narrower prior would not have avoided this. Zero questions went
 empty; net is still far ahead of the pre-4c baseline (813) this file
-opened with. Mark's own call, shown the numbers plainly: ship it.
+opened with. Shown the numbers plainly, the call is to ship it.
 
 Spot-checked, not just counted: gallic's "Why did you leave the army?"
 picked up gallic.force.army-and-rank-before ("Each founding narrative at

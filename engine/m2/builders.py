@@ -99,8 +99,7 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None
     statements = sorted(record.get("register_statements") or [], key=lambda s: s["number"])
     if statements:
         body = "\n".join(f"{s['number']}. {s['statement']}" for s in statements)
-        # register_hold: how the seven hold under load (Mark-approved
-        # wording, 2026-08-28 register & reach pass) - emitted beneath the
+        # register_hold: how the seven hold under load - emitted beneath the
         # numbered statements, never as an eighth statement.
         hold = (record.get("register_hold") or "").strip()
         if hold:
@@ -113,8 +112,8 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None
         emit("Pronoun rule", pronoun_rule.replace("{world}", world_name))
 
     emit("Citation contract", _fill_citation_example(record.get("citation_contract") or "", records or {}))
-    # Stories and quotes are never screened by the register (Mark's ruling,
-    # 2026-08-28): stories arrive through their own tellable_as retellings;
+    # Stories and quotes are never screened by the register:
+    # stories arrive through their own tellable_as retellings;
     # quotes speak their build-authored modern_rendering where one exists,
     # originals on the click page.
     emit("Stories and quotes", record.get("story_quote_reach"))
@@ -226,7 +225,7 @@ def _candidate_head_text(record: dict) -> str:
 _MIN_SHARED_WORDS = 3
 
 # Records can opt out of demo auto-tagging with `demo_tag: exclude` -
-# added 2026-08-29 (craft cycle 2) when four new honest_limit records,
+# needed because some honest_limit records,
 # whose statements necessarily speak in framing vocabulary ("we cannot
 # tell you", "plainly"), false-tagged unrelated demo sentences at the
 # shipping floor ("It says plainly that we do not commend those who give
@@ -287,8 +286,8 @@ def _quote_speaker(quote: dict) -> str:
 
 def _quote_opening(quote: dict, width: int = 60) -> str:
     # The opening words shown are the SPEAKABLE form - the build-authored
-    # modern_rendering where one exists (Mark's ruling, 2026-08-28:
-    # archaic quotes are translated in the build, originals on the click
+    # modern_rendering where one exists (archaic quotes are translated
+    # in the build, originals on the click
     # page), the original text otherwise - so the index matches what the
     # voice would actually say at the table.
     text = " ".join((quote.get("modern_rendering") or quote.get("text") or "").split())
@@ -605,7 +604,7 @@ def build_capsule(records: dict, registry_entry: dict) -> bytes:
 # SS3 lists doctrinal_witness as a fourth chunk-feeding (retrieval-block)
 # type. Adding a fourth directory that follows the same one-file-per-record
 # pattern is the minimal, fully-determined resolution of that gap - DECIDABLE
-# (Build-Blueprint.md SS4), not a spec contradiction needing Mark's input.
+# (Build-Blueprint.md SS4), not a spec contradiction needing a ruling.
 
 
 def _chunk_text(record: dict) -> str:
@@ -727,8 +726,8 @@ def build_quotes_json(records: dict) -> bytes:
         {
             "id": q["id"],
             "text": q.get("text"),
-            # Build-authored translation for archaic originals (Mark's
-            # ruling, 2026-08-28): the spoken form; text above stays the
+            # Build-authored translation for archaic originals:
+            # the spoken form; text above stays the
             # original for the click page. Absent when the original's
             # English is already plain.
             "modern_rendering": q.get("modern_rendering"),
@@ -756,9 +755,9 @@ def build_figures_json(records: dict) -> bytes:
     return canonical_json({"figures": figures})
 
 
-# BUILD PROVENANCE NEVER SHIPS (Mark's ruling, 2026-08-30: "all world
-# build and active files ... need to be clean for exactly what they exist
-# to do"). The record STORE is the workshop - bodies, search records, and
+# BUILD PROVENANCE NEVER SHIPS: all world
+# build and active files need to be clean for exactly what they exist
+# to do. The record STORE is the workshop - bodies, search records, and
 # reviewer-facing fields are its mandated audit trail and stay untouched.
 # The compiled PACKAGE is the instrument, and two kinds of build residue
 # were shipping in it, measured fleet-wide before this change (~250
