@@ -1710,3 +1710,73 @@ the original review (not addressed — the project lead's own instruction was M-
 B-2 (`git diff 157c2269 HEAD -- engine/` on the routing-classifier file itself still empty — this entry's
 own `engine/m4/grounding_net.py` change is fleet infrastructure unrelated to B-2's `engine/m5/routing.py`,
 and B-2 remains untouched per explicit instruction).
+
+## OG-27. L-1 through L-5 triaged — L-3 and L-4 fixed; L-2 and L-5 confirmed already clean; L-1 surfaced for direction
+
+Per the project lead's explicit "keep going on L-1 through L-5."
+
+**L-2 — confirmed no action needed.** The review's own point was informational only ("noted so that
+nobody later reads this report as having proven the append path"), and witt's own tracking never miscites
+it: `live-turn-report-witt.json`'s `crisis_append_proven: null` is correctly never cited anywhere in
+`Open_Gaps_Tracking.md` as proof of the crisis-append path — checked directly (`grep -n
+"crisis_append_proven"` across this file returns only this entry's own reference to the field, describing
+an unrelated H-3 engine change). No fix required.
+
+**L-5 — confirmed no action needed.** `witt.quote.congregation-of-saints` already discloses the dropped
+"Eph. 4, 5. 6." as publisher's chapter-and-verse apparatus, not the Confession's own spoken words, matching
+gallic's own established precedent for the identical class of citation-locus drop — read in full and
+confirmed the disclosure is accurate and complete. The review's own framing ("raising only for completeness
+of the quote audit") already signaled this wasn't a required fix, unlike M-2's genuinely dropped doctrinal
+clause.
+
+**L-3 fixed — a real fleet-level bug, in `engine/m2/`, not witt-specific drift.** `signoffs.json`'s own
+`note` field hardcoded the literal string "This world is state=built" regardless of the world's own actual
+registry state — confirmed present, byte-identical, in witt's, rzg's, don's and gallic's packages alike
+before this fix, so witt's own package claimed `state=built` while `records/worlds/witt.yaml` already read
+`admitted`. Root cause: `engine/m2/validation.py`'s `build_signoffs()` never received the world's actual
+state, only `world_key` and `is_fixture`. Fixed at the source: `build_signoffs()` now takes a `state`
+parameter (defaulting to `"built"` for any caller not yet updated, not a silent behavior change), and
+`engine/m2/compiler.py`'s own call site passes `registry_entry.get("state", "built")` through. Mark's four
+real touchpoints (identity, living-tradition determination, freeze, admission read) remain correctly
+reported OUTSTANDING regardless of state — state reflects only mechanical, gate-based transitions (the M1
+gate battery, the M3 admission battery), never one of those four. 2 new regression tests
+(`engine/m1/tests/test_registry.py`), plus the existing signoffs test still passes unchanged. Fleet-wide
+fix, fleet-wide effect: every world's *next* rebuild picks this up; other worlds' already-built,
+already-pinned packages are untouched by this entry (rebuilding them is a decision for their own threads,
+not this one).
+
+**L-4 fixed.** `witt.voice.craft.md`'s own body carried a stale, now-false gap note claiming "this world's
+store holds zero quote records and zero doctrinal_witness records" — false since the Answer-the-Canon pass
+(there are 7 and 14 respectively), and never updated despite the same paragraph's own prediction that it
+would need narrowing once that pass ran. Fixed by marking the paragraph HISTORICAL, dated, and corrected to
+state the current counts plainly, rather than stripped outright — the paragraph documents real B-7
+authoring-pass reasoning (why the batch's nine demonstrations cite only term/story/figure/gravity/force/
+contested_claim records) that several other records still reference, and wholesale removal risked breaking
+those cross-references without the broader, deliberate doc-hygiene migration CLAUDE.md's own rule would
+actually call for. One residual, real gap surfaced and correctly *not* claimed closed in the same edit:
+the founder's "tiles" saying (Worms) is grounded only in `witt.story.worms-1521`, not in a dedicated
+quote/doctrinal_witness record — checked directly (`grep -rl "tiles" records/witt/quote/
+records/witt/doctrinal_witness/` returns no hits) rather than assumed closed alongside the general gap.
+Body-only edit (below the record's own YAML frontmatter) — confirmed not compiled into the runtime store
+either before or after, so no participant-facing behavior changed.
+
+**L-1 — surfaced, not built.** Live output is never readability-scored: `gate_readability` covers only
+`term`/`honest_limit`/`quote`/`voice_craft` *records*, never the actual generated text a participant
+receives, and CLAUDE.md's own pointer to "the actual per-turn scoring and hard-fail enforcement" in
+`phase2_checkpoint.py` names a file that does not exist anywhere in this repository — confirmed by the
+original review and re-confirmed here. This is exactly the class of decision CLAUDE.md's own escalation
+table marks always-ask ("Governance or methodology change"), and the original reviewer explicitly flagged
+it as fleet-level and not this thread's to fix unilaterally. Not attempted here; put to the project lead
+directly rather than built or silently deferred without a decision.
+
+Verified throughout: valid YAML on every edited record; package rebuilt and re-pinned
+(`2026-09-20T01-20-24Z`, superseding `2026-09-20T01-11-15Z`, removed per `.gitignore`'s own repin-cleanup
+policy); `diff -rq records/witt/ packages/witt/2026-09-20T01-20-24Z/records/` empty; `engine.m9.cli check`
+clean; `engine.m1.cross_world` 0 new defects (23 accepted-open); all 19 M1 gates `overall_pass: true`, 0
+findings; witt's own `signoffs.json` confirmed correctly reads "registry state (admitted)"; `engine/m2/`
+test suite (24 tests) and the registry test file (both old and new tests) green.
+
+**Still open, unchanged:** the Facilitator boundary-disclosure turn type (B-1 item 4); L-1 (surfaced above,
+awaiting the project lead's direction); B-2 (`git diff 157c2269 HEAD -- engine/m5/routing.py` still empty —
+this entry's own `engine/m2/` change is unrelated fleet infrastructure, and B-2 remains untouched per
+explicit instruction).

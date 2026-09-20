@@ -118,26 +118,33 @@ and cappadocian.voice.craft's own discipline:
   and the 1525/1543 existence-only discipline (witt.core.witt.thinness/.cautions/.thin_topics, and
   Construction Notes Section 3's own three-state correction history on this exact point).
 
-QUOTE / DOCTRINAL_WITNESS GAP (real, load-bearing, NOT fixed here): this world's store holds zero quote
-records and zero doctrinal_witness records (records/witt/quote/ and records/witt/doctrinal_witness/ do
-not exist, confirmed by direct search at the time of this authoring pass) - the same situation
-gallic.voice.craft's and cappadocian.voice.craft's own B-7 found and documented, before either world's
-own later Answer-the-Canon pass closed it. Consequence carried into the compiled fields above: the
-"quotation" flavor note bars verbatim quotation outright (there is no vetted wording to speak in
-quotation marks), and every demonstration in this same batch cites only term/story/figure/gravity/force/
-contested_claim records in sources[] - the ijc/cappadocian/gallic B-7 pattern, run here for the identical
-reason. The gap itself is flagged for the build thread; it is out of B-7's scope to author those record
-types. Per the Gallic/Cappadocian precedent, a later inserted step (Answer-the-Canon, between B-7 and
-B-8) is expected to close it, and when it does the "quotation" note above should be narrowed rather than
-left standing as a then-false blanket bar, and the demonstration-citation pattern named here becomes
-historical - a description of these nine B-7 demonstrations, not a constraint on later ones. Specific
-items this world's own record already names that have no term, story, quote, or doctrinal_witness record
-behind their exact wording anywhere in this world's store: the founder's own remembered saying about the
-tiles (the only material this world's own guard permits for speaking of Worms at all, per Construction
-Notes Section 2A's Named Comparandum resolution) and Vincent-class attributed material generally - these
-are standing instruction in the prompt and this record, compiled from here, but no demonstration in this
-batch could cite them, and they are natural ground for any future C-cell or F1-I-class answer this world
-can honestly give once quote/doctrinal_witness records exist.
+QUOTE / DOCTRINAL_WITNESS GAP (HISTORICAL - CLOSED at the Answer-the-Canon pass, 2026-09-19; corrected
+go-live adversarial review, Round 1, L-4, 2026-09-20). At the time this B-7 record was first authored,
+this world's store held zero quote records and zero doctrinal_witness records (records/witt/quote/ and
+records/witt/doctrinal_witness/ did not yet exist) - the same situation gallic.voice.craft's and
+cappadocian.voice.craft's own B-7 found and documented, before either world's own later Answer-the-Canon
+pass closed it. This is no longer the current state: this world's store now holds 7 quote records and 14
+doctrinal_witness records, and the "quotation" flavor note above (identity/flavor_notes) already reads
+the corrected, current wording ("real now, once the Answer-the-Canon pass closed our own former quote
+gap"). The paragraph below is kept as the historical record of what B-7 actually faced and why its own
+nine demonstrations cite only term/story/figure/gravity/force/contested_claim records in sources[] - the
+ijc/cappadocian/gallic B-7 pattern, run here for the identical reason - not as a description of this
+world's current store.
+
+Consequence carried into the compiled fields above, AT THAT TIME: the "quotation" flavor note barred
+verbatim quotation outright (there was no vetted wording to speak in quotation marks), and every
+demonstration in this same batch cited only term/story/figure/gravity/force/contested_claim records in
+sources[]. The gap itself was flagged for the build thread; it was out of B-7's own scope to author those
+record types. Specific items this world's own record already named that had no term, story, quote, or
+doctrinal_witness record behind their exact wording anywhere in this world's store at that time: the
+founder's own remembered saying about the tiles (the only material this world's own guard permits for
+speaking of Worms at all, per Construction Notes Section 2A's Named Comparandum resolution) and
+Vincent-class attributed material generally - standing instruction in the prompt and this record, compiled
+from here, but uncited by any B-7 demonstration for want of a quote/doctrinal_witness record to ground it.
+The tiles saying itself remains grounded only in witt.story.worms-1521 (a story record, quoted there
+verbatim against cic/texts/luther_table-talk_bell1886.txt), not in a dedicated quote/doctrinal_witness
+record of its own - checked directly (`grep -rl "tiles" records/witt/quote/ records/witt/doctrinal_witness/`
+returns no hits) rather than assumed closed alongside the general gap.
 
 CANON CELLS COVERED BY THIS BATCH'S DEMONSTRATIONS (nine): F6-P (someone-like-me, the required
 identity-collision cell), F4-I (the-way-in), F1-T (faith-alone; bread-and-cup), F3-I (who-held-authority),
