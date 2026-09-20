@@ -262,14 +262,16 @@ def open_table_round(
         return RoundOpening(routing_action=action, **common, facilitator_events=[facilitator_event], voices_speak=False)
 
     if action == "safety_turn":
-        # Track B non-acute: a dependency dynamic, not a crisis - the check
-        # is spoken and the round proceeds ordinarily (the explicit continue
-        # path back to the voices, Program-Spec SS8).
+        # Track B non-acute: a dependency dynamic, not a crisis - no
+        # resources and no session freeze, same as the interview. Governed
+        # (Program-Spec SS8, amendment 2026-09-20): the voices are silenced
+        # here exactly as at is_acute_crisis above, not kept speaking
+        # alongside the check the way this branch used to.
         return RoundOpening(
             routing_action=action,
             **common,
             facilitator_events=[facilitator_turns.table_dependency_check_turn(representative_names)],
-            voices_speak=True,
+            voices_speak=False,
         )
 
     if action == "check_in_turn":

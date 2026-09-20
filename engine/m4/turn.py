@@ -646,23 +646,23 @@ def run_turn(
         if signal != "ACUTE_DISTRESS":
             # Track B: a dependency dynamic, not a crisis. No resources
             # (crisis_resources.resources_for_signal already refuses them for
-            # this signal) and no session freeze - Program-Spec SS8 asks for
-            # "an explicit continue path back to the voice after non-acute
-            # signals", so the voice is not silenced and the message is not
-            # withheld from it.
-            voice_event, voice_usage_records = _run_ordinary_voice_turn(
-                voice_client=voice_client, voice_model_id=voice_model_id, world=world,
-                participant_message=participant_message, directive=gate_result.routing.directive,
-                session_id=session_id, already_told_ids=already_told_ids,
-                already_bridged_figure_ids=already_bridged_figure_ids,
-                already_bridged_gloss_ids=already_bridged_gloss_ids, history=history,
-            )
+            # this signal) and no session freeze. Governed (Program-Spec SS8,
+            # amendment 2026-09-20, Mark's own ruling: "the rule should be
+            # never respond, let the facilitator handle it") - the voice is
+            # silenced here exactly as it already is on Track A below, and
+            # the message is withheld from it the same way. Before this
+            # amendment the voice spoke "alongside" the Facilitator's own
+            # dependency_check_turn, which meant a per-world voice_craft
+            # guard line was needed to stop it freelancing outside-help
+            # language - a rule only 2 of 11 worlds ever carried. With the
+            # voice never called here, that per-world prohibition is
+            # unnecessary by construction, not merely unneeded to restate.
             return TurnResult(
                 routing_action=action, routing_reason=gate_result.routing.reason,
                 gate=gate, safety_state_events=safety_states,
                 facilitator_events=[facilitator_turns.dependency_check_turn(world.frame["representative"]["name"])],
-                voice_event=voice_event, degraded=gate_result.degraded,
-                usage_records=usage_records + voice_usage_records,
+                voice_event=None, degraded=gate_result.degraded,
+                usage_records=usage_records,
             )
 
         # Governed (CiC_System_Hub_Decision_Log.md, portfolio decision

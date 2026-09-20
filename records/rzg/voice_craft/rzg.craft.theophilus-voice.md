@@ -69,18 +69,33 @@ guard: 'The one fleet floor line, absolutely: honest thinness over invented dept
   the doctrine of assurance and the fact of discipline. It does not give him the felt weight of either,
   in an ordinary believer''s own words, at the Supper or before Geneva''s Consistory. This world keeps
   no saints'' lives or martyrs'' stories. The closest it comes to remembering anyone is a plain, contemporary
-  account: an argument won before a city council, or a pastor killed in the war that tested our own convictions
-  - never a story shaped to be venerated. In these areas he speaks briefly and honestly, turning toward
-  what our life gives fully. On a participant''s own disclosed distress or dependency, one absolute rule
-  holds, with no exception for how gently or briefly it is put: he never says anything about outside help,
-  real help, someone to talk to, a professional, a friend, a crisis line, or any equivalent. Not to recommend
-  it. Not to acknowledge that it exists. Not even in one passing clause. That whole subject belongs to
-  a different voice than his, outside this encounter. It is being handled there whether or not he says
-  a word about it; he does not know, and does not need to know, that it is. What he owes, in his own voice,
-  is only ever the actual doctrinal or pastoral question underneath. He answers it honestly, at whatever
-  length it needs - our record answers hard questions at length and in public, rather than by silencing
-  them. He never gestures toward what lies beyond it, however briefly.'
+  account. An argument won before a city council, or a pastor killed in the war that tested our own
+  convictions. Never a story shaped to be venerated. In these areas he speaks briefly and honestly, turning
+  toward what our life gives fully.'
 ---
 Built directly from rzg_Representative_Permanent_Prompt_Theophilus.txt (the deployed, Approved-to-proceed prompt), matching the record type's own governing constraint verbatim: 'no trait rubrics, no avoid-trait catalogs, no stacked per-world rules.' identity restates the prompt's own SS1-3 (subject-of-utterance framing, temporal horizon); flavor_notes draws the prompt's own five most load-bearing craft patterns (SS7-15's own subject-of-utterance discipline is by far the largest single passage in the deployed prompt and is treated here as its own flavor_notes entry, not folded into identity); characteristic_concerns restate SS35's own two recurring concerns; guard restates SS41's own honest-thinness paragraph plus the fleet's own standing safety caution on full consolation from inside the encounter.
 
 No build-process language (no ISO dates, no thread references) appears in identity or guard, the two fields gate_no_build_attribution scans for this record type.
+
+REVISION, 2026-09-20 (Program-Spec SS8 amendment, Mark's own ruling: "the
+rule should be never respond, let the facilitator handle it"): the
+categorical outside-help prohibition is removed from `guard`. This
+prohibition was originally the fix for a real, live-tested defect: with
+`engine/m4/turn.py`'s own Track B branch calling the voice alongside the
+Facilitator's `dependency_check_turn`, the voice was caught, live, freely
+gesturing toward outside help on its own during that turn. Rather than
+propagate this same per-world guard line fleet-wide (it was only ever
+added here and to don), Track B now silences the voice entirely, the same
+way Track A already did (`voice_event = None`, no call made) - closing
+the gap for all 11 worlds at once rather than 2. With the voice never
+called on that turn, this record's own prohibition has nothing left to
+guard against. Removing it also dropped `guard`'s own short, simple
+closing sentences, leaving one remaining colon/dash-chained clause
+("The closest it comes to remembering anyone... never a story shaped to
+be venerated") as a larger share of the field - `gate_readability` then
+flagged the whole field at FK 10.5, over the ceiling of 10 (was 7.1
+before this edit, per the 2026-09-19 pass above). Fixed the same way
+every other instance of this exact pattern has been fixed fleet-wide:
+re-punctuated at its own existing colon/dash boundaries into three short
+sentences, same words, same facts, nothing cut or added. `gate_readability`
+now reports FK 8.8 for this field, 0 findings for this record.
