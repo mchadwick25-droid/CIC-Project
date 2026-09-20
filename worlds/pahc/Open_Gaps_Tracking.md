@@ -108,26 +108,43 @@ current `CiC_W1_Representative_Ecology_Assessment.md`, `..._Formation_Calibratio
 `..._Voice_Construction.md`, `..._Engagement_Architecture.md`, `..._World_Capsule_Core.md`,
 and the file now named `CiC_W1_Representative_Permanent_Prompt_Chloe.txt` all read
 "Chloe" throughout with zero remaining occurrences of "Amma." **No document records when
-this correction was made, who made it, or why** — it is visible only as a fact about the
-current file contents compared against the (still-present) review artifacts, which
-correctly preserve "Amma" as a historical snapshot of what was actually reviewed.
+this correction was made, who made it, or why** — it was visible only as a fact about the
+current file contents compared against the review artifacts, which at the time this gap
+was first found (2026-09-20) still preserved "Amma" as a historical snapshot of what was
+actually reviewed. Those review artifacts have since also been corrected to "Chloe" — see
+the Status note below.
 
-The correction was not completed everywhere: `CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md`
-(still filenamed DRAFT) calls the Representative "Chloe" in its own prose (e.g. "Chloe's
-base register is built to a plain, accessible standard") while in the same document citing
-the stale filename `CiC_W1_Representative_Permanent_Prompt_Amma.txt` as a source three
-separate times. `CiC_W1_Phase6_FacilitationBrief_SectionA_B7_Verification_Round2.md`, a
-later verification pass, also still writes "Amma" throughout its findings.
+The correction was not completed everywhere at the time this gap was first found:
+`CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md` (still filenamed DRAFT) called the
+Representative "Chloe" in its own prose while in the same document citing the stale
+filename `CiC_W1_Representative_Permanent_Prompt_Amma.txt` as a source three separate
+times; `CiC_W1_Phase6_FacilitationBrief_SectionA_B7_Verification_Round2.md`, a later
+verification pass, also still wrote "Amma" throughout its findings — as did the five
+cold-review artifacts themselves (`RepEcologyAssessment_Cold_Review_Round1`,
+`FormationCalibration_Cold_Review_Round1`, `VoiceConstruction_Cold_Review_Round1`,
+`EngagementArchitecture_Cold_Review_Round1`, `CapsuleCore_PermanentPrompt_Cold_Review_Round1`,
+`Phase6_FacilitationBrief_Cold_Review_Round1`), the two Phase 5 Boundary Testing documents,
+and the Phase 5 Relational Safety retest.
 
-**Status: OPEN, disclosed here for the first time on this record.** Practical
-consequence: the entire Phase 5 Boundary Testing evidentiary record — the actual
-adversarial safety and fidelity testing this world has ever received under the old
-framework, including the FAIL finding at OG-1 — was run against a Representative that
-self-identified with a different name than the one the project lead approved, and was
-never rerun to confirm the substance holds under "Chloe." The new records-build pipeline's
-Step 11 (see below) independently re-derives the voice from scratch under the correct name
-and does not inherit this specific defect, but Step 11 tests voice content, not
-relational-safety/boundary behavior — OG-1 is not closed by it.
+**Status: CLOSED, 2026-09-20 — at the project lead's direct instruction.** All 117 remaining
+"Amma" occurrences across the 12 documents above were replaced with "Chloe" (verified: 0
+occurrences remain in `worlds/pahc/`, apart from the historical fact of the mistake being
+named in this entry). The project lead's explicit direction was to correct the name in place
+and keep the documents — not archive or delete them — since two of them
+(`CiC_W1_Phase5_BoundaryTesting_Independent_Verification_Round1.md` and
+`CiC_W1_Phase5_RelationalSafety_Retest_Against_Proposed_Mechanism_DRAFT.md`) are cited as
+evidence by the still-unmerged `reference/L3D-Encounter-Methodology/
+CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md`, by `don`'s own Phase 6
+Facilitator Coordination document, and by several Ministry-level audit trail documents —
+deleting them would have broken that evidence chain. **Practical consequence, unchanged by
+this fix:** the entire Phase 5 Boundary Testing evidentiary record — the actual adversarial
+safety and fidelity testing this world has ever received under the old framework, including
+the FAIL finding at OG-1 — was run against a Representative that self-identified with a
+different name than the one the project lead approved, and this correction did not rerun
+that testing under "Chloe." The new records-build pipeline's Step 11 (see below)
+independently re-derives the voice from scratch under the correct name and does not inherit
+this specific defect, but Step 11 tests voice content, not relational-safety/boundary
+behavior — OG-1 is not closed by it.
 
 ### OG-3. External Scholarly Review (Article 31) — outstanding under the old framework; status under the new pipeline not found in the material reviewed.
 
