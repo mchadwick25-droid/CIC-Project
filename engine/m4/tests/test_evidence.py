@@ -277,6 +277,91 @@ def test_assemble_evidence_signature_is_unchanged_by_stage_b2():
     assert "fix.term.baptisma" in ids
 
 
+# ---- Stage 4d: tier prior (Build-Plan.md) ----------------------------------
+
+# Identical plain_meaning on both records ties their raw overlap score
+# exactly - any ordering difference below can only come from the tier
+# prior. Ids are deliberately chosen so the LOW-tier record would win the
+# tie-break's own alphabetical fallback ("aaa" < "zzz") if the prior did
+# nothing - isolating the prior's effect from that incidental fallback.
+_TIER_HIGH = {
+    "id": "fix.term.zzz-high-tier", "record_type": "term", "canon_cells": ["Z9-Q"],
+    "plain_meaning": "The community remembers something old kept safe.",
+    "retrieval": {"tier": 1},
+}
+_TIER_LOW = {
+    "id": "fix.term.aaa-low-tier", "record_type": "term", "canon_cells": ["Z9-Q"],
+    "plain_meaning": "The community remembers something old kept safe.",
+}
+_TIER_QUERY = "the community remembers something old kept safe"
+_TIER_COVERAGE_ENTRY = {
+    "doctrinal_witness": [], "terms": ["fix.term.zzz-high-tier", "fix.term.aaa-low-tier"],
+    "stories": [], "quotes": [], "honest_limit": [], "gravities": [], "forces": [], "contested_claims": [],
+}
+_TIER_REPOSITORY = {r["id"]: r for r in (_TIER_HIGH, _TIER_LOW)}
+
+
+def test_tier_prior_breaks_a_genuine_tie_toward_the_lower_tier_number():
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=_TIER_COVERAGE_ENTRY, repository_records=_TIER_REPOSITORY,
+        message=_TIER_QUERY, asks=None,
+    )
+    terms = [c["id"] for c in selected if c["record_type"] == "term"]
+    assert terms == ["fix.term.zzz-high-tier", "fix.term.aaa-low-tier"]
+
+
+def test_tier_prior_never_overrides_a_clearly_stronger_content_match():
+    """A tier-1 record with weak overlap must not outrank an untiered
+    record with strong overlap - the prior is bounded well under any
+    meaningful score gap (see _TIER_PRIOR's own comment)."""
+    strong_untiered = {
+        "id": "fix.term.strong-match", "record_type": "term", "canon_cells": ["Z9-Q"],
+        "plain_meaning": "The community remembers something old kept safe.",
+    }
+    weak_tier_one = {
+        "id": "fix.term.weak-but-tier-one", "record_type": "term", "canon_cells": ["Z9-Q"],
+        "plain_meaning": "A short note about something else.",
+        "retrieval": {"tier": 1},
+    }
+    repo = {r["id"]: r for r in (strong_untiered, weak_tier_one)}
+    coverage_entry = {**_TIER_COVERAGE_ENTRY, "terms": [strong_untiered["id"], weak_tier_one["id"]]}
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=coverage_entry, repository_records=repo,
+        message=_TIER_QUERY, asks=None,
+    )
+    terms = [c["id"] for c in selected if c["record_type"] == "term"]
+    assert terms[0] == "fix.term.strong-match"
+
+
+def test_tier_prior_also_applies_inside_the_stage_b2_fill():
+    """The same lean, in the same direction, when Stage B2's whole-world
+    scan is what's doing the ranking (an empty coverage slot) - one prior,
+    not two independently-tuned copies."""
+    empty_coverage = {
+        "doctrinal_witness": [], "terms": [], "stories": [], "quotes": [],
+        "honest_limit": [], "gravities": [], "forces": [], "contested_claims": [],
+    }
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=empty_coverage, repository_records=_TIER_REPOSITORY,
+        message=_TIER_QUERY, asks=None,
+    )
+    terms = [c["id"] for c in selected if c["record_type"] == "term"]
+    assert terms[0] == "fix.term.zzz-high-tier"
+    assert all(c.get("retrieval_fill") for c in selected if c["record_type"] == "term")
+
+
+def test_tier_3_and_unset_tier_are_treated_identically():
+    tier_three = {**_TIER_LOW, "id": "fix.term.explicit-tier-three", "retrieval": {"tier": 3}}
+    repo = {_TIER_LOW["id"]: _TIER_LOW, tier_three["id"]: tier_three}
+    coverage_entry = {**_TIER_COVERAGE_ENTRY, "terms": [_TIER_LOW["id"], tier_three["id"]]}
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=coverage_entry, repository_records=repo,
+        message=_TIER_QUERY, asks=None,
+    )
+    scores = {c["id"]: c["score"] for c in selected if c["record_type"] == "term"}
+    assert scores["fix.term.aaa-low-tier"] == scores["fix.term.explicit-tier-three"]
+
+
 # ---- Stage D ---------------------------------------------------------------
 
 
