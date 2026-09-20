@@ -3,7 +3,7 @@
 **Reviewed document:** `CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md` — Section A (Participant Menu Card) and B7 (Cautions) only.
 **Reviewer:** Independent adversarial reviewer — zero visibility into drafting, no stake in a favorable outcome.
 **Scope:** B1–B6 already cleared independent review in Round 1 (`CiC_W1_Phase6_FacilitationBrief_Cold_Review_Round1.md`) and were not re-reviewed here, except as consistency-check context for Section A and B7's own claims.
-**Method:** Read the full reviewed document; read `World_Facilitation_Brief_Template.md` v1.1 in full; read `CiC_W1_Phase5_BoundaryTesting_Transcripts_Round1.md` and `CiC_W1_Phase5_BoundaryTesting_Independent_Verification_Round1.md` in full; read `CiC_W1_Representative_Permanent_Prompt_Amma.txt`, `CiC_W1_Representative_Identity_Preliminary_Decision.md`, `CiC_W1_Representative_Formation_Calibration.md`, `CiC_W1_Representative_Ecology_Assessment.md`, `CiC_W1_World_Profile.md`, `CiC_W1_Validation_Testing.md` in full; located and checked Constitution Article 33 and Representative Construction Framework Part Seven verbatim against source documents; read `CiC_W1_Phase6_FacilitationBrief_Cold_Review_Round1.md` for calibration; verified CO-023/CO-024 directly against the live Change Orders Register.
+**Method:** Read the full reviewed document; read `World_Facilitation_Brief_Template.md` v1.1 in full; read `CiC_W1_Phase5_BoundaryTesting_Transcripts_Round1.md` and `CiC_W1_Phase5_BoundaryTesting_Independent_Verification_Round1.md` in full; read `CiC_W1_Representative_Permanent_Prompt_Chloe.txt`, `CiC_W1_Representative_Identity_Preliminary_Decision.md`, `CiC_W1_Representative_Formation_Calibration.md`, `CiC_W1_Representative_Ecology_Assessment.md`, `CiC_W1_World_Profile.md`, `CiC_W1_Validation_Testing.md` in full; located and checked Constitution Article 33 and Representative Construction Framework Part Seven verbatim against source documents; read `CiC_W1_Phase6_FacilitationBrief_Cold_Review_Round1.md` for calibration; verified CO-023/CO-024 directly against the live Change Orders Register.
 
 ---
 
@@ -43,11 +43,11 @@ Article 33 has two distinct clauses with two different subjects: Facilitator ste
 
 ### Finding 5 (Moderate) — Section A's grounding footnote miscategorizes "the danger of the Name" as an "open question" alongside genuinely-argued theological questions
 
-Formation Calibration §4 explicitly requires distinguishing ancient/genuine unresolvedness (G01 authority, G05 docetism) from modern-reconstruction-limit unresolvedness (G03 state pressure, G04 martyrdom), which Amma carries with no in-world hedging. The footnote groups "the danger of the Name" (G03) with authority/forgiveness/docetism as one undifferentiated set of "open questions" — repeating a flattening this build has corrected multiple times elsewhere. (Section A's actual participant-facing prose gets this right; only the internal footnote miscategorizes it.)
+Formation Calibration §4 explicitly requires distinguishing ancient/genuine unresolvedness (G01 authority, G05 docetism) from modern-reconstruction-limit unresolvedness (G03 state pressure, G04 martyrdom), which Chloe carries with no in-world hedging. The footnote groups "the danger of the Name" (G03) with authority/forgiveness/docetism as one undifferentiated set of "open questions" — repeating a flattening this build has corrected multiple times elsewhere. (Section A's actual participant-facing prose gets this right; only the internal footnote miscategorizes it.)
 
 **Fix:** Revise the footnote to describe "the danger of the Name" as a lived risk, not an open question.
 
-### Finding 6 (Minor) — B7's central quotation splices two separate Amma turns without disclosing the splice
+### Finding 6 (Minor) — B7's central quotation splices two separate Chloe turns without disclosing the splice
 
 "you are not idle in coming to my door tonight" (first turn) and "you are missing from no table of mine tonight... I'm not going anywhere" (second turn) are joined via ellipsis without noting they span two turns, unlike this document's own established practice for its other composite quotation (the "FAIL... blocking" splice, disclosed in the Scope Note).
 
