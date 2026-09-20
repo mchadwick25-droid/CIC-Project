@@ -9,13 +9,12 @@ import type { CreateSessionResponse, MessageResponse, TableMessageResponse, Tran
 const API_BASE = '/api';
 
 /**
- * The error-language layer (2026-08-28 foundation audit): eleven raw
- * backend strings could reach a participant verbatim - "invalid session",
- * "provider call failed", "Bad Gateway". The Facilitator's own prose is
- * careful and warm; the error layer was a different register from a
- * different author, and it was the register a participant met on a bad
- * day. Every message below is participant-facing prose, inventoried in
- * the decision log for Mark's read. The raw detail is preserved on
+ * The error-language layer: eleven raw backend strings could reach a
+ * participant verbatim - "invalid session", "provider call failed", "Bad
+ * Gateway". The Facilitator's own prose is careful and warm; the error
+ * layer was a different register from a different author, and it was the
+ * register a participant met on a bad day. Every message below is
+ * rewritten as participant-facing prose. The raw detail is preserved on
  * `.detail` and logged to the console for diagnosis - it just never
  * becomes the sentence a person reads.
  *

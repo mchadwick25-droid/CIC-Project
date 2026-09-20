@@ -9,8 +9,7 @@
  */
 :root {
   /* 2026-09-17 dark-mode change order (supersedes CiC_Full_UX_Design_V1_0.md
-     §2.1's "Dark mode: deferred" - Mark's ruling, logged in
-     Ministry/Technology/CiC_FrontEnd_Decision_Log.md). Ground/surface/text/
+     §2.1's "Dark mode: deferred"). Ground/surface/text/
      muted are cic-website's own shipping dark tokens (--ground/--surface/
      --text/--muted), reused verbatim so the app matches the site exactly.
      Every accent below is a lightened, contrast-recomputed variant of its
@@ -18,9 +17,8 @@
      FINAL values (madder 2.85:1, gold-leaf 3.68:1, tyrian 2.50:1, lapis
      2.12:1 against this ground) all fail WCAG AA as text on a dark ground.
      Every value below is verified >=4.5:1 against both --color-background
-     and --color-surface (script-computed, not eyeballed - see the
-     Decision-Log entry for the numbers), continuing the same discipline as
-     the 2026-08-28 a11y sweep below. */
+     and --color-surface (script-computed, not eyeballed), continuing the
+     same discipline as the 2026-08-28 a11y sweep below. */
   --color-background: #17130F;
   --color-surface: #1E1913;
   --color-text: #F1E9DD;
@@ -205,8 +203,7 @@ button {
 /* ============================================================
    World list (Program.dc.html)
    ============================================================ */
-/* Horizontal scrolling choice (replaces the old vertical stack, 2026-09-01,
-   Mark: "replace all the old with the new true to the new design") - same
+/* Horizontal scrolling choice (replaces the old vertical stack) - same
    scroll-snap pattern cic-website's own reps carousel already proved
    (index.html's .reps-carousel), so the two apps feel like one family
    rather than two different pickers. Native browser scrolling only -
@@ -502,10 +499,9 @@ button {
 }
 
 /* StoryMark's Level-2/Level-3 content (VoiceTurnBody.tsx) - reference
-   code + English source + story title, per Mark's own spec for the
-   story/quote track (2026-08-25). Shares .level2-card__body's own
-   `p { margin: 0 }`, so spacing between the three lines is set here,
-   not there. */
+   code + English source + story title, per the story/quote track's own
+   spec. Shares .level2-card__body's own `p { margin: 0 }`, so spacing
+   between the three lines is set here, not there. */
 .story-mark__entry + .story-mark__entry {
   margin-top: 8px;
 }
@@ -521,8 +517,8 @@ button {
   color: var(--color-text-muted);
 }
 
-/* Original wording of a quote spoken in its modern rendering (Mark's
-   ruling, 2026-08-28): the click page carries both forms. */
+/* Original wording of a quote spoken in its modern rendering: the click
+   page carries both forms. */
 .story-mark__original {
   margin-top: 8px;
 }
@@ -564,11 +560,10 @@ button {
 }
 
 /* General References (GeneralReferences.tsx) - the fourth track,
-   deliberately NOT the InlineBridge grammar: Mark's own correction
-   (2026-08-25) that a reference belongs at the end of the answer, never
-   as an asterisk inside the running text; collapsed behind one
-   disclosure line per his read of the first live conversation
-   (2026-08-28, "we want the conversation thread clean"). */
+   deliberately NOT the InlineBridge grammar: a reference belongs at the
+   end of the answer, never as an asterisk inside the running text;
+   collapsed behind one disclosure line so it doesn't crowd the
+   conversation thread. */
 .turn__general-references {
   margin-top: var(--spacing-md);
   padding-top: var(--spacing-sm);
@@ -926,9 +921,9 @@ button {
 }
 
 /* ============================================================
-   Launch system (Mark's ruling 2026-08-28): the cards launch both
-   conversation shapes - Interview one click, Table convened on
-   purpose from the table field below the cards.
+   Launch system: the cards launch both conversation shapes -
+   Interview one click, Table convened on purpose from the table
+   field below the cards.
    ============================================================ */
 .world-card--seated {
   outline: 2px solid var(--color-representative);
@@ -1356,8 +1351,8 @@ button {
   cursor: pointer;
 }
 
-/* Both name registers (Mark's ruling 2026-08-28): the friendly name leads;
-   the scholarly name shows the rigor, quietly, at arrival. */
+/* Both name registers: the friendly name leads; the scholarly name shows
+   the rigor, quietly, at arrival. */
 .arrival__scholarly {
   font-size: 0.72rem;
   color: var(--color-text-muted);

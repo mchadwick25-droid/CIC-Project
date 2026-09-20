@@ -24,9 +24,9 @@ export interface SourceCard {
   record_type: string;
   label: string;
   sources: SourceReference[];
-  // Quote records spoken in a build-authored modern rendering (Mark's
-  // ruling, 2026-08-28) carry both forms: what was said at the table and
-  // the original wording, shown on the click page.
+  // Quote records spoken in a build-authored modern rendering carry both
+  // forms: what was said at the table and the original wording, shown on
+  // the click page.
   spoken_rendering?: string | null;
   original_wording?: string | null;
 }
@@ -154,7 +154,7 @@ export interface WorldSummary {
   census_id: string | null;
   display_name: string | null;
   // Friendly participant-facing name; display_name is the scholarly one
-  // (both registers, Mark's ruling 2026-08-28).
+  // (both registers are kept, for different contexts).
   card_name: string | null;
   representative: { name: string; role_label: string } | null;
   time_window: { start: number; end: number } | null;

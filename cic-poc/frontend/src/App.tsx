@@ -20,8 +20,7 @@ const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
 
 /**
  * The deep-link grammar - the ONE contract between the discovery surfaces
- * (cic-website's world cards, the Atlas) and this app (Mark's launch
- * ruling, 2026-08-28; Table mode's auto-start reversal, 2026-09-06):
+ * (cic-website's world cards, the Atlas) and this app:
  *
  *   ?worlds=<id>&mode=interview      -> straight into the conversation, no
  *                                       waiting place (arrival happens
@@ -29,11 +28,10 @@ const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
  *   ?worlds=a,b[,c]&mode=table       -> straight into the table
  *                                       conversation, same as interview -
  *                                       2 or 3 named seats is enough to
- *                                       convene on arrival (2026-09-06:
- *                                       Mark reversed the original "a
- *                                       Table is CONVENED, never
- *                                       auto-started" rule - "it should go
- *                                       straight to the conversation")
+ *                                       convene on arrival: a Table with
+ *                                       that many seats goes straight into
+ *                                       the conversation rather than
+ *                                       waiting to be convened
  *   ?worlds=<one id>&mode=table,       -> too few seats to convene - the
  *   ?mode=table                          launch screen's Table field, with
  *                                        that one seat (or none) chosen
@@ -100,25 +98,25 @@ function App() {
       .map((w) => w.worldKey);
     // A fresh deep link explicitly asking for a DIFFERENT mode than
     // whatever's left over in this tab's storage is the participant
-    // choosing to start something new (2026-09-05 live bug, Mark hit it
-    // directly: an earlier interview left mode:'interview' in storage,
-    // and a subsequent Table deep link - a genuinely different request -
-    // never got its one chance to fire, because resuming the stale
-    // interview always ran first and always succeeded, since that old
-    // session was still open server-side; parseDeepLink was only ever
-    // reached once resume came back empty). Only resume when the
-    // incoming request agrees with (or says nothing explicit about) what
-    // is stored - a bare reload of an already-open room still carries no
-    // conflicting params and resumes exactly as before.
+    // choosing to start something new. Without this check: an earlier
+    // interview left mode:'interview' in storage, and a subsequent Table
+    // deep link - a genuinely different request - never got its one
+    // chance to fire, because resuming the stale interview always ran
+    // first and always succeeded, since that old session was still open
+    // server-side; parseDeepLink was only ever reached once resume came
+    // back empty. Only resume when the incoming request agrees with (or
+    // says nothing explicit about) what is stored - a bare reload of an
+    // already-open room still carries no conflicting params and resumes
+    // exactly as before.
     const hasExplicitDeepLink = deepLink.censusIds.length > 0 || new URLSearchParams(window.location.search).has('mode');
     const storedModeConflicts = hasExplicitDeepLink && stored !== null && deepLink.mode !== stored.mode;
     // A SAME-mode deep link naming a different world (interview) or a
     // different lineup (table) than what's stored is just as much a fresh
-    // request as a mode switch - the check above only ever looked at mode
-    // (2026-09-09 live bug, Mark hit it directly: back out of an interview
-    // with one voice, click a different voice - both land on mode:
-    // 'interview', so nothing noticed the world itself had changed, and the
-    // OLD interview resumed instead of the newly-picked one starting).
+    // request as a mode switch - the check above only ever looked at mode.
+    // Without this check: back out of an interview with one voice, click a
+    // different voice - both land on mode: 'interview', so nothing noticed
+    // the world itself had changed, and the OLD interview resumed instead
+    // of the newly-picked one starting.
     const storedWorldConflicts =
       !storedModeConflicts &&
       hasExplicitDeepLink &&
@@ -146,15 +144,13 @@ function App() {
       if (mode === 'table') {
         const uniqueLinked = [...new Set(linked)].slice(0, 3);
         if (uniqueLinked.length >= 2) {
-          // 2026-09-06: auto-convene, same as interview's frictionless
-          // arrival - Mark's reversal of the original "never auto-creates
-          // a session" rule. Optimistic, mirroring beginInterview two
-          // lines below exactly: setScreen('table') fires before
-          // convene()'s round trip even starts, not inside its .then() -
-          // the first version set it only on success, which left the full
-          // Launch screen (hero, every world card) rendered and sitting
-          // there for the round trip, then swapped out - a visible flash
-          // (Mark, live test). TableRoom already renders sensibly on
+          // Auto-convene, same as interview's frictionless arrival.
+          // Optimistic, mirroring beginInterview two lines below exactly:
+          // setScreen('table') fires before convene()'s round trip even
+          // starts, not inside its .then() - setting it only on success
+          // leaves the full Launch screen (hero, every world card)
+          // rendered and sitting there for the round trip, then swapped
+          // out, a visible flash. TableRoom already renders sensibly on
           // table.isLoading with seatedWorlds falling back to `seated`
           // before table.worldKeys exists, same as Conversation does
           // mid-beginInterview. Reverting to 'launch' below is still the

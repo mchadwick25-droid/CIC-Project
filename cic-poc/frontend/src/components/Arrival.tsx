@@ -1,11 +1,11 @@
 /**
- * Arrival happens inside the room (Mark's ruling, 2026-08-28): the
- * identity-and-disclosure content the retired Doorway screen carried now
- * opens the conversation itself, above the Facilitator's door turn - one
- * click fewer, nothing undisclosed. Every quoted line below is carried
- * VERBATIM from that screen, whose own header traced each sentence to the
- * Program-Spec (SS9/SS165/SS166) and Mark's own approval discipline - this
- * move relocates approved prose, it does not compose new prose.
+ * Arrival happens inside the room: the identity-and-disclosure content
+ * the retired Doorway screen carried now opens the conversation itself,
+ * above the Facilitator's door turn - one click fewer, nothing
+ * undisclosed. Every quoted line below is carried VERBATIM from that
+ * screen, whose own header traced each sentence to the Program-Spec
+ * (SS9/SS165/SS166) - this move relocates approved prose, it does not
+ * compose new prose.
  */
 import type { WorldEntry } from '../data/worlds';
 
@@ -23,9 +23,9 @@ export function Arrival({ world }: ArrivalProps) {
         {world.cardName} · c. {world.eraStart}–{world.eraEnd}
       </div>
       {/* The scholarly register earns its line only when it's a genuinely
-          different name (Mark's screen read, 2026-08-28: syr's "studied as
-          Syriac Christianity (Edessa/Nisibis)" merely restated the kicker
-          plus a parenthetical the place line already carries). */}
+          different name - e.g. syr's "studied as Syriac Christianity
+          (Edessa/Nisibis)" merely restated the kicker plus a parenthetical
+          the place line already carries. */}
       {!world.displayName.startsWith(world.cardName) && (
         <div className="arrival__scholarly sans">studied as {world.displayName}</div>
       )}

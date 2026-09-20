@@ -32,102 +32,62 @@ from engine.m5.routing import Directive, directive_without_terms
 
 @dataclass(frozen=True)
 class RoundConfig:
-    """C3 (decided 2026-08-28): floor ships as configuration - originally a
-    single flat 3, binding the selector's close option (Table Process V1.0
-    SS2: it never forces every voice to speak).
+    """Floor and cap ship as per-seat-count configuration, not flat values -
+    binding the selector's close option (Table Process V1.0 SS2: it never
+    forces every voice to speak). Two and three are the only seatings a
+    table ever has (Artifact-7 SS1: world_keys 2-3), so these are plain
+    authored mappings, not formulas with a principle behind them.
 
-    SEAT-SCALED CAP (Mark's ruling, 2026-09-05, superseding this thread's
-    own first pass at a broad-only 5/6 minimum): "for 2 voices and a
-    participant, the max turns should be 5... for 3 voices the cap is 6" -
-    applied to EVERY round regardless of how it opened (his explicit
-    scoping, walked through and confirmed), not only a genuinely-open one.
-    The "4 / 5 being the ultimate zone" language in that same ruling was
-    first built as guidance only (engine.m4.turn_selector.round_facts),
-    never a second code-enforced gate - his own point 3 ("no hard cap or
-    post-conversation monitoring... just a small increased pressure").
+    Cap: 5 for a 2-seat table, 6 for a 3-seat table - applied to every
+    round regardless of how it opened, not only a genuinely-open one. A
+    softer "4/5 being the ultimate zone" signal exists separately as
+    guidance only (engine.m4.turn_selector.round_facts), never a second
+    code-enforced gate - just a small increased pressure toward closing,
+    with no hard cap or post-conversation monitoring of its own.
 
-    FLOOR SEAT-SCALED TOO (Mark's ruling, 2026-09-05, later the same day,
-    reversing the "soft target only" call above for the floor
-    specifically): investigated why 3-seat rounds were consistently
-    closing right after the first pass, never reaching a second look -
-    confirmed from the selector's own logged reasoning (round_closed.
-    selector_reason, added the same day for exactly this question), not
-    guessed. The real mechanism: the OLD flat floor of 3 happens to land
-    past first-pass completion at 2 seats (forcing one bridging turn,
-    which a live proof showed becoming genuine second-pass synthesis -
-    "Theon then demonstrated how both voices confessed the same Lord
-    despite different doors of entry") but landed EXACTLY at first-pass
-    completion at 3 seats (no forced bridge - "each Representative has
-    given a substantive account... another turn would risk restating").
-    Not a wording weakness the softer target guidance could fix - a
-    structural fact about how the floor interacts with seat count. Mark's
-    call, once the data was in front of him: "raise the floor to 4" for a
-    3-seat table specifically, restoring the SAME mechanical bridge a
-    2-seat table already had by construction. The 2-seat floor (3) is
-    untouched - it already does what the 3-seat floor now does on
-    purpose.
+    Floor: 3 for a 2-seat table, 5 for a 3-seat table. A flat floor of 3
+    lands past first-pass completion at 2 seats, forcing one bridging turn
+    that produces genuine second-pass synthesis - but lands exactly at
+    first-pass completion at 3 seats, where every voice has already spoken
+    once and no bridge is forced. Seat-scaling the floor restores that
+    same forced-bridge mechanism at 3 seats. The specific value (5, not 4)
+    keeps a genuine floor/cap gap (5/6) for the selector's own judgment to
+    use, rather than closing it entirely: content quality (which voices a
+    return turn can see - engine.m4.turn_selector.Selection.engages plus
+    engine.api.table_wiring._scoped_pending) and round length are
+    independent axes, so scoping a return turn to one voice's point
+    doesn't by itself change when the selector judges a round ready to
+    close.
 
-    FLOOR RAISED AGAIN, SAME DAY, ON ISOLATED EVIDENCE (Mark's ruling,
-    after a live round at floor 4 closed with a full-table synthesis -
-    "the three of us are saying one thing, from different rooms in the
-    same house"): his first response, rejected on his own explicit
-    instruction ("i dont want fix on fix, this should be a base program
-    than generates this, not after fixes"), was to raise the floor again
-    AND patch the directive's prose - the same reactive pattern twice
-    over in one day. The actual fix built instead:
-    engine.m4.turn_selector.Selection.engages plus
-    engine.api.table_wiring._scoped_pending, so a return turn structurally
-    cannot see a non-engaged voice's content, not merely told not to use
-    it. A live proof against real Bedrock (same seating and question that
-    surfaced the bug) then isolated two independent things: the scoping
-    fix genuinely works (the returning voice engaged one specific named
-    voice's one point, extending it, with zero mention of the third voice
-    or any declared consensus) - but the round still closed at turn 4,
-    the selector's own judgment unmoved by what the returning turn was
-    scoped to. Content quality and round length were never one root
-    cause. Only now, with that isolation as real evidence rather than a
-    guess, did Mark rule "raise the floor to 5" - his own original
-    "5 being the ultimate zone" target for a 3-seat table, restoring a
-    genuine floor/cap gap (5/6) for the selector's own judgment to use
-    rather than closing it entirely.
-
-    Two seats and three are the only seatings a table ever has
-    (Artifact-7 SS1: world_keys 2-3), so plain mappings are honest about
-    these being authored numbers, not formulas with a principle behind
-    them.
-
-    EXIT CONDITION (Mark's own check, 2026-09-05, confirmed already true of
-    this design rather than newly built): the moment cap_reached fires -
-    turn 5 for a 2-seat table, turn 6 for a 3-seat table - the round loop
+    Exit condition: the moment cap_reached fires - turn 5 for a 2-seat
+    table, turn 6 for a 3-seat table - the round loop
     (engine.api.table_wiring._advance_open_round) writes round_closed in
     that same request and returns round_open: False. There is no
     subsequent generation of any kind until a new participant_message
     opens the next round (Artifact-7 SS6's turn-at-a-time transport:
-    /continue on a closed round is a 409, not a retry point) - the
-    generation cycle ends unambiguously there and the system waits.
+    /continue on a closed round is a 409, not a retry point).
 
-    CONTEXT PASSING (Mark's own check, same date, also already true): each
-    voice turn is one real request against the persisted event log, not a
-    batch of turns generated from one snapshot - _advance_open_round
-    re-projects the FULL transcript from the store (project_fresh) on
-    every single call, so turn 4 is built from turns 1-3 exactly as they
-    were actually written, never from a stale copy taken before turn 1 ran.
+    Context passing: each voice turn is one real request against the
+    persisted event log, not a batch of turns generated from one snapshot
+    - _advance_open_round re-projects the full transcript from the store
+    (project_fresh) on every single call, so turn N is built from turns
+    1..N-1 exactly as they were actually written, never from a stale copy.
     This is inherent to the production architecture (Artifact-3's
-    event-sourced store), not a property of any one round-length change."""
-    # Tuples of pairs, not dicts (independent review, 2026-09-05): a
-    # mutable dict field on a frozen dataclass defeats `frozen` twice over -
-    # instances become unhashable, AND `cap_by_seats[2] = 99` mutates the
-    # config out from under `frozen`'s own guarantee, silently, with no
-    # error. A tuple of pairs is a real value, not a mutable container.
+    event-sourced store)."""
+    # Tuples of pairs, not dicts: a mutable dict field on a frozen
+    # dataclass defeats `frozen` twice over - instances become unhashable,
+    # AND `cap_by_seats[2] = 99` mutates the config out from under
+    # `frozen`'s own guarantee, silently, with no error. A tuple of pairs
+    # is a real value, not a mutable container.
     floor_by_seats: tuple = ((2, 3), (3, 5))
     default_floor: int = 3  # unreached in practice - every real table seats 2 or 3
     cap_by_seats: tuple = ((2, 5), (3, 6))
     default_cap: int = 4  # unreached in practice - every real table seats 2 or 3
 
     def __post_init__(self):
-        # The §6 ceiling the turn-cap incident verified (Process V1.0 §6)
-        # applies to every configured floor/cap pair, not just the old
-        # single floor/cap fields they used to be.
+        # The §6 ceiling (Process V1.0 §6) applies to every configured
+        # floor/cap pair, not just the old single floor/cap fields they
+        # used to be.
         floors = dict(self.floor_by_seats)
         caps = dict(self.cap_by_seats)
         seats = set(floors) | set(caps)
@@ -169,39 +129,29 @@ class RoundOpening:
     session_capped: bool = False
 
 
-# C4 RESOLVED (2026-08-28, Mark's delegation of the full C4 range): the
-# table session cap is counted in COMPLETED ROUNDS, not voice turns. The
-# interview's voice-turn unit was the right cost proxy for a mode where one
-# exchange is one voice turn; at a table one participant exchange spends
-# several voice turns, and capping the session at 10 voice turns would have
-# handed a participant roughly three questions - a cost unit leaking into
-# the participant's experience. Rounds are what a participant actually
-# spends. The NUMBER was originally set from a measured live run (token
-# counts, engine/m4/reports/live-table-report-2.json): a compact-turn round
-# ran ~1.8k output tokens across 3 voice turns, sizing 5 rounds against the
-# interview's measured 10-turn cap - an implicit ~9k output-token, ~15
-# voice-turn budget for a full session.
+# The table session cap is counted in COMPLETED ROUNDS, not voice turns.
+# The interview's voice-turn unit is the right cost proxy for a mode where
+# one exchange is one voice turn; at a table one participant exchange
+# spends several voice turns, and capping the session at 10 voice turns
+# would hand a participant roughly three questions - a cost unit leaking
+# into the participant's experience. Rounds are what a participant
+# actually spends.
 #
-# RE-SIZED (2026-09-05, Mark's call from real data, not a guess - see
-# Ministry/Operations/Standing/CiC_Cross_System_Analysis_Tracking.md's
-# "Table-mode cost estimate" entry the same day): the seat-scaled
-# floor/cap redesign moved a round from ~3 voice turns to 5-6 (floor
-# 5/cap 6 at 3 seats), leaving the 5-round figure above sized on a round
-# length the code no longer produces - real measured per-round output now
-# runs ~1.7-1.9x the original basis, the range the prior flag guessed
-# without yet resolving. Rather than re-derive a new cap from scratch,
-# Mark's fix restores the ORIGINAL ~9k output-token / ~15 voice-turn
-# session budget arithmetically: 3 rounds at the new ~5-turn floor is
-# 5x3 = 3x5 voice turns, and real measured output confirms it (~3.1-3.4k
-# tokens/round now x 3 rounds =~ 9.6k, against the original ~1.8k x 5 =
-# 9k) - close enough to call it the same budget, not a new one. Priced
-# against the same real usage data and published rate card the cost
-# estimate used: a 3-round session now runs ~$0.51 (1 measured cold round
-# + 2 measured-average warm rounds), against ~$0.70 for the un-resized
-# 5-round figure this replaces. Still config, not constant law -
-# swappable without touching round semantics; a live continuous-session
-# measurement remains the more rigorous check if this ever needs
-# re-deriving from first principles rather than by ratio.
+# The value (3) is derived from measured live-run token counts
+# (engine/m4/reports/live-table-report-2.json), sized to match the
+# interview's ~9k output-token / ~15 voice-turn full-session budget: at
+# the seat-scaled floor/cap design (a round now runs 5-6 voice turns, not
+# the original 3), 3 rounds at the ~5-turn floor is the same 15 voice
+# turns the original 5-round figure targeted at ~3 turns/round. Real
+# measured output confirms it (~3.1-3.4k tokens/round x 3 rounds ~= 9.6k,
+# against the original ~1.8k x 5 = 9k) - close enough to call it the same
+# budget. Priced against the same rate card: a 3-round session now runs
+# ~$0.51, against ~$0.70 for the un-resized 5-round figure this replaces.
+#
+# Still config, not constant law - swappable without touching round
+# semantics; a live continuous-session measurement is the more rigorous
+# check if this ever needs re-deriving from first principles rather than
+# by ratio.
 TABLE_SESSION_ROUND_CAP = 3
 
 

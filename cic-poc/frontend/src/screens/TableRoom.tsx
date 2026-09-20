@@ -7,8 +7,8 @@
  *
  * The seated-arrival strip relocates the Doorway's approved disclosure
  * prose the same way the interview Arrival does; the one adaptation is
- * the names sentence pluralized ("These names are ours…"), flagged for
- * Mark's read in the decision log rather than treated as new prose.
+ * the names sentence pluralized ("These names are ours…"), flagged as an
+ * adaptation of approved prose rather than treated as new prose.
  */
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
