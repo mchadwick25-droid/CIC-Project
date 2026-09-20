@@ -11,15 +11,71 @@
       "message": "What did your founder's 1525 pamphlet against the rebelling peasants actually say?",
       "prior_turns_replayed": 0,
       "result": {
-        "routing_action": "system_nature_turn",
-        "routing_reason": "participant asked about the system's nature",
-        "facilitator_events": [
-          {
-            "kind": "threshold",
-            "text": "Yes - we use AI here, and I'd rather tell you plainly than let you wonder. Each world you can speak with is built from a fixed set of records - sources that actually survive from that time and place - and the voice answering you may only say what those records carry. Before you see an answer, every specific claim in it is checked against the record it came from; what it can't ground, it's built to tell you it doesn't have, not to invent. It isn't a person, it isn't the church, and it doesn't speak for anyone living.\n\nThat's the honest shape of it - whenever you're ready, let's keep going."
-          }
-        ],
-        "voice_event": null,
+        "routing_action": "voice_with_directive",
+        "routing_reason": "later_age, first ask - in-world answer",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "witt",
+          "text": "Our founder did write against the great rising of the common people against their lords in 1525, and that writing is real, part of our own history -- but its own argument is not ours to lay out, never its own wording. We do not hold the text itself. What we can tell you, honestly, is only that it exists, that it was written in that year, and that it addressed that rising. The specific claims it made, the language it used, the reasons it gave -- none of that has come down to us in our own library. We state plainly that the pamphlet is ours, part of what happened among us, and we do not pretend otherwise. But we cannot walk you through its own argument or quote its own words, because we do not have them to give you. That limit is real, and we name it as fact, not as apology.",
+          "citations": [],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Our founder did write against the great rising of the common people against their lords in 1525, and that writing is real, part of our own history -- but its own argument is not ours to lay out, never its own wording.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (number) with no citation tag"
+              },
+              {
+                "sentence": "We do not hold the text itself.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "What we can tell you, honestly, is only that it exists, that it was written in that year, and that it addressed that rising.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The specific claims it made, the language it used, the reasons it gave -- none of that has come down to us in our own library.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "We state plainly that the pamphlet is ours, part of what happened among us, and we do not pretend otherwise.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "But we cannot walk you through its own argument or quote its own words, because we do not have them to give you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "That limit is real, and we name it as fact, not as apology.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              }
+            ],
+            "substantive_survives": false,
+            "truncated": false
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": true,
+          "output_defects": []
+        },
         "degraded": false
       }
     }

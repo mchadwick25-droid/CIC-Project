@@ -1490,3 +1490,45 @@ off on B-2" instruction — surfaced as new information for the project lead rat
 unilaterally. Report: `engine/m4/reports/live-turn-report-witt.json` (overwrites the prior 4-message
 report on each run, per the tool's own fixed output path; the superseded prior results are preserved
 above and in `witt_GoLive_Adversarial_Review_Round1.md`'s own quotations of them).
+
+**Reproducibility check and F-1 fix, 2026-09-20, per the project lead's own three explicit decisions**
+("run it once more," "fix it now," "keep it admitted/live"):
+
+**The routing miss did not reproduce.** Same probe, same message, run again against the same package:
+this time `routing_action: "voice_with_directive"`, reaching the voice cleanly. The turn states the 1525
+writing's existence plainly, states it is real and part of this world's own history, declines to lay out
+its argument or wording, and gives no refusal-narration — it explains what is and isn't known and why,
+rather than narrating its own act of declining. `output_defects: []` — clean, including no recurrence of
+the H-3-class hallucinated "said before" claim the pre-fix report showed on this same probe.
+`do_not_voice_violation: null`. **H-1's third close condition is now satisfied**: the reframed wording,
+tested live, produces the turn H-1 asked for. The single earlier miss is most likely a one-off
+classification variance rather than a reproducible widening of B-2 — one data point either way, not
+investigated further, per "hold off on B-2." **H-1 is now RESOLVED**, on all three close conditions.
+
+**F-1 fixed.** `records/witt/demonstration/witt.demo.record-thinnest.md`'s `exchange[1].text`: the
+transition sentence restored to explicitly separate the 1525/1555 "fall outside our record entirely" pair
+from the "two other places [Marburg, no woman's word] are just as thin" count — the same category
+distinction the original pre-B-1 text carried via "rather than merely thinly inside it," which this
+round's earlier rewrite had dropped, collapsing two distinct categories into what read as one
+under-fulfilled count. The 1525 sentence's pronoun fixed the same way the `honest-limits` note already
+was: "our founder wrote against it [the rising], and that writing is real... but its own argument is not
+ours to lay out" — "it" now correctly resolves within its own clause, and "that writing"/"its own
+argument" unambiguously track the founder's writing rather than the rising itself. Verified: valid YAML;
+package rebuilt and re-pinned (`2026-09-20T00-30-21Z`); `diff -rq records/witt/
+packages/witt/2026-09-20T00-30-21Z/records/` empty; `engine.m9.cli check` clean; `engine.m1.cross_world` 0
+new defects (23 accepted-open); all 19 M1 gates `overall_pass: true`, 0 findings; full pytest suite green;
+compiled `prompt.txt` checked directly — all 12 sentences in the exemplar still auto-tagged
+`[[witt.limit.record-thinnest]]`.
+
+**Access state: witt stays `admitted`/live**, per the project lead's own explicit call — the fabrication-
+risk defect (B-1) is fixed and independently re-confirmed at the content layer across three cold passes;
+what remains (the Facilitator turn type, H-2, H-3, MEDIUM/LOW, B-2) are real but narrower issues, not an
+open governance reversal.
+
+**B-1 and H-1: both now RESOLVED**, across four independent cold re-confirmation passes in total (one
+per fix commit) plus this final live-probe verification. What remains open, unchanged by this entry:
+the Facilitator boundary-disclosure turn type (B-1 item 4, a new engine-feature question, not yet raised
+for direction); H-2, H-3, and the round's MEDIUM/LOW findings (not yet addressed); B-2 itself (untouched,
+`git diff 157c2269 HEAD -- engine/` still empty, held per explicit instruction — and now carrying one
+additional, unreproduced data point suggesting its scope may be wider than the original review's own
+"1543 probe only" characterization, worth keeping in view whenever B-2 is picked up).
