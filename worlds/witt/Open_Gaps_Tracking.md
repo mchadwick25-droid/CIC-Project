@@ -2005,3 +2005,28 @@ Verified: full pytest suite 748/748 passed; `engine.m1.cross_world` 0 new defect
 `"pass": true` fleet-wide; `tools/check_paths.py --baseline` 0 new unresolved citations (re-verified against
 an actually-cleaned `packages/` tree, not a locally-contaminated one, after OG-29's own check_paths mistake
 repeated itself once more mid-session and was caught and corrected the same way).
+
+## OG-31. OG-30's own deferred readability finding, fixed on Mark's direct instruction
+
+OG-30 flagged, but explicitly did not act on, a readability gap on the three tiles it edited: FK 17.2
+(witt), 11.5 (gallic), 15.8 (desert) against this project's own CEFR B2 / grade 8-10 target, confirmed
+pre-existing and undisturbed by the naming fix itself. That entry's own words: "a readability rewrite of
+already-approved public-facing prose is its own editorial decision... belongs in front of Mark rather than
+done quietly." Brought to Mark directly with three options (rewrite all three carefully; fix the worst
+offender only; leave as-is for now); his own instruction, direct: "Fix all three carefully."
+
+Rewrote each at its own root - `records/worlds/witt.yaml` and `records/worlds/gallic.yaml`'s own
+`doorway_description` (desert's own was already correct at FK 8.7 and untouched) - and propagated to every
+static copy: `cic-website/index.html`'s three tiles, each world's own `cic-website/traditions/*.html` tile
+paragraph, and `table.html`'s own one-line teasers for witt and desert (gallic's own line was already fine
+at FK 6.3). Same method as this session's own earlier rzg guard-field fix: short sentences at existing
+clause boundaries, no fact cut or added, checked against the original sentence by sentence before applying.
+Final FK: witt 8.99, gallic 8.65, desert tile 9.43 (table.html's own two short one-liners land at 9.86 and
+9.84 - a known FK-formula quirk where a short line with a few polysyllabic proper nouns, "Wittenberg,"
+"Electoral Saxony," scores paradoxically high regardless of sentence simplicity; both are as simple as the
+facts allow without dropping the place name itself).
+
+Verified: full pytest suite 748/748 passed; `engine.m1.cross_world` 0 new defects; `engine.m2.cli restore`
+`"pass": true` fleet-wide; `tools/check_paths.py --baseline` 0 new unresolved citations (checked against an
+actually-cleaned `packages/` tree again, per the now-standing discipline from OG-29/OG-30); `table.html`'s
+own `WORLDS` array literal re-validated with `node --check` and a direct `eval` after editing.
