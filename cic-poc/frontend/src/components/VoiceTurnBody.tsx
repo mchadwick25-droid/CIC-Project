@@ -50,8 +50,20 @@
  *     verbatim in the finished text (splitIntoSegments' own `orphaned`
  *     list) - its sources still deserve disclosure, just not an inline
  *     position to anchor a mark to.
+ *
+ * TWO RENDERERS LIVE HERE (Build-Plan.md Stage 3c, added 2026-09-20).
+ * `renderLegacy` is everything above, unchanged, and stays the default:
+ * it reconstructs marks/General References by searching the finished text
+ * for each citation's own sentence - real, but with a measured
+ * completeness gap (see renderFromTransparencyPlan's own comment).
+ * `renderFromTransparencyPlan` reads engine.m4.transparency_plan's own
+ * `anchors`/`references` instead, which the engine computes with a
+ * completeness guarantee no client-side reconstruction can match. Behind
+ * `useAnchorRenderer` (lib/flags.ts) until R10 and label copy are ruled -
+ * see that flag's own docstring for why it defaults off.
  */
-import type { Citation, FigureUsed, GlossUsed, SourceCard } from '../types/conversation';
+import type { Citation, FigureUsed, GlossUsed, SourceCard, TransparencyAnchor, TransparencyPlan } from '../types/conversation';
+import { useAnchorRenderer } from '../lib/flags';
 import { FigureBridgeMark } from './FigureBridgeMark';
 import { GeneralReferences } from './GeneralReferences';
 import { GlossMark } from './GlossMark';
@@ -63,6 +75,7 @@ interface VoiceTurnBodyProps {
   citations: Citation[];
   figuresUsed?: FigureUsed[];
   glosses?: GlossUsed[];
+  transparency?: TransparencyPlan;
 }
 
 interface Segment {
@@ -165,7 +178,18 @@ function splitCitationSources(sources: SourceCard[]): { storySources: SourceCard
   return { storySources, witnessSources, otherSources };
 }
 
-export function VoiceTurnBody({ text, citations, figuresUsed = [], glosses = [] }: VoiceTurnBodyProps) {
+// THE LEGACY RENDERER (kept byte-for-byte; default until the flag below is
+// explicitly on). Reconstructs marks and General References client-side by
+// searching for each citation's own sentence in the finished text - the
+// approach Build-Plan.md Stage 3c replaces, because it has a real,
+// measured completeness gap: engine.m4.transparency_plan's own docstring
+// names it directly - a non-consecutive repeat citation of the same story
+// or witness record is silently dropped (renderedStoryIds/
+// renderedWitnessIds correctly suppress a second inline mark, but
+// story/witness sources are never passed to addReference, so the repeat's
+// sourcing disappears rather than moving to General References). See
+// renderFromTransparencyPlan below for the fix.
+function renderLegacy({ text, citations, figuresUsed = [], glosses = [] }: VoiceTurnBodyProps) {
   const { segments, orphaned } = splitIntoSegments(text, citations);
   const usedIds = new Set<string>();
   const generalReferences: SourceCard[] = [];
@@ -252,4 +276,111 @@ export function VoiceTurnBody({ text, citations, figuresUsed = [], glosses = [] 
       <GeneralReferences references={generalReferences} />
     </div>
   );
+}
+
+// THE ANCHOR-DRIVEN RENDERER (Build-Plan.md Stage 3c; behind
+// useAnchorRenderer until R10 + label copy are ruled). Same visual
+// grammar as the legacy renderer above - same StoryMark/WitnessMark/
+// GeneralReferences, same word-level figure/gloss marks - only the
+// ROUTING changes: which record gets which mark, and what's left for
+// General References, is read directly from transparency.anchors/
+// transparency.references (engine.m4.transparency_plan's own completeness
+// guarantee) instead of reconstructed by searching the finished text.
+//
+// Every anchor - including a REPEAT one - gets its own mark at its own
+// run's end. That's the actual fix: the legacy renderer's
+// renderedStoryIds/renderedWitnessIds suppress a second, non-consecutive
+// citation of the same record turn-wide, which is exactly the completeness
+// gap transparency_plan.py's own docstring names. Nothing here invents a
+// distinct "repeat" glyph - Rulings-Pending.md R10 leaves that choice
+// open; this renderer's only job is to never silently lose a citation
+// regardless of which way R10 resolves.
+interface IndexedSegment {
+  text: string;
+  citation: Citation;
+  citationIndex: number; // this citation's own position in the ORIGINAL citations array - what transparency.anchors' run_end_sentence indexes into. Orphaned citations (sentence not found in text) are simply absent here; their sources still reach General References unconditionally via transparency.references.
+}
+
+function splitIntoIndexedSegments(text: string, citations: Citation[]): { segments: IndexedSegment[]; trailingText: string } {
+  const segments: IndexedSegment[] = [];
+  let remaining = text;
+  citations.forEach((citation, citationIndex) => {
+    const idx = remaining.indexOf(citation.sentence);
+    if (idx === -1) return;
+    const before = remaining.slice(0, idx + citation.sentence.length);
+    segments.push({ text: before, citation, citationIndex });
+    remaining = remaining.slice(idx + citation.sentence.length);
+  });
+  return { segments, trailingText: remaining };
+}
+
+function renderFromTransparencyPlan({ text, citations, figuresUsed = [], glosses = [], transparency }: VoiceTurnBodyProps & { transparency: TransparencyPlan }) {
+  const { segments, trailingText } = splitIntoIndexedSegments(text, citations);
+  const wordMarkedIds = new Set<string>();
+
+  const anchorsByRunEnd = new Map<number, TransparencyAnchor[]>();
+  for (const anchor of transparency.anchors) {
+    const list = anchorsByRunEnd.get(anchor.run_end_sentence) ?? [];
+    list.push(anchor);
+    anchorsByRunEnd.set(anchor.run_end_sentence, list);
+  }
+  const referenceById = new Map(transparency.references.map((card) => [card.record_id, card]));
+  const inlineMarkedIds = new Set<string>();
+
+  const rendered = segments.map((segment, i) => {
+    const nodes = renderSegmentText(segment.text, figuresUsed, glosses, wordMarkedIds, `seg${i}`);
+
+    const marks: React.ReactNode[] = [];
+    const storyCards: SourceCard[] = [];
+    const witnessCards: SourceCard[] = [];
+    for (const anchor of anchorsByRunEnd.get(segment.citationIndex) ?? []) {
+      const card = referenceById.get(anchor.record_id);
+      if (!card) continue; // resolve_source_card found nothing - report only, never mark a card that isn't there
+      if (STORY_RECORD_TYPES.has(anchor.record_type)) storyCards.push(card);
+      else if (WITNESS_RECORD_TYPES.has(anchor.record_type)) witnessCards.push(card);
+      // everything else has no word or story to attach to - the General
+      // References filter below covers it, nothing to do inline here
+    }
+    if (storyCards.length) {
+      storyCards.forEach((card) => inlineMarkedIds.add(card.record_id));
+      marks.push(<StoryMark key="story" sources={storyCards} />);
+    }
+    if (witnessCards.length) {
+      witnessCards.forEach((card) => inlineMarkedIds.add(card.record_id));
+      marks.push(<WitnessMark key="witness" sources={witnessCards} />);
+    }
+
+    return (
+      <span key={i}>
+        {nodes}
+        {marks}
+      </span>
+    );
+  });
+
+  if (trailingText) {
+    rendered.push(<span key="trailing">{renderSegmentText(trailingText, figuresUsed, glosses, wordMarkedIds, 'trailing')}</span>);
+  }
+
+  // A word mark (figure/gloss) also counts as "already shown inline" for
+  // General References, same as the legacy renderer's own rule - checked
+  // once, after every segment has had its chance to word-mark a candidate,
+  // rather than per-segment (wordMarkedIds only grows, so the end state is
+  // the complete set regardless of when it's read).
+  wordMarkedIds.forEach((id) => inlineMarkedIds.add(id));
+  const generalReferences = transparency.references.filter((card) => !inlineMarkedIds.has(card.record_id));
+
+  return (
+    <div className="turn__body">
+      <div>{rendered}</div>
+      <GeneralReferences references={generalReferences} />
+    </div>
+  );
+}
+
+export function VoiceTurnBody(props: VoiceTurnBodyProps) {
+  if (useAnchorRenderer && props.transparency) {
+    return renderFromTransparencyPlan({ ...props, transparency: props.transparency });
+  }
+  return renderLegacy(props);
 }

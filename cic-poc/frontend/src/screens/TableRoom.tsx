@@ -114,7 +114,7 @@ export function TableRoom({
               <div className="turn__speaker sans" style={world ? { color: world.accentColor } : undefined}>
                 {world ? `${world.representativeName} · ${world.cardName}` : turn.speaker}
               </div>
-              <VoiceTurnBody text={turn.text} citations={turn.citations ?? []} figuresUsed={turn.figuresUsed ?? []} glosses={turn.glosses ?? []} />
+              <VoiceTurnBody text={turn.text} citations={turn.citations ?? []} figuresUsed={turn.figuresUsed ?? []} glosses={turn.glosses ?? []} transparency={turn.transparency} />
             </div>
           );
         })}

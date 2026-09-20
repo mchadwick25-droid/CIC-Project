@@ -20,7 +20,7 @@ function turnsFromAdvance(advance: TableMessageResponse): ConversationTurn[] {
   }
   const v = advance.voice as VoiceTurn | null;
   if (v) {
-    appended.push({ speaker: v.speaker, text: v.text, citations: v.citations, figuresUsed: v.figures_used, glosses: v.glosses });
+    appended.push({ speaker: v.speaker, text: v.text, citations: v.citations, figuresUsed: v.figures_used, glosses: v.glosses, transparency: v.transparency });
   }
   return appended;
 }

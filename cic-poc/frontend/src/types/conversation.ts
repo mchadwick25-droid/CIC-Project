@@ -74,6 +74,35 @@ export interface FacilitatorTurn {
   text: string;
 }
 
+// engine/m4/transparency_plan.py's build_transparency_plan (Build-Plan.md
+// Stage 3a/3c) - one complete, deterministic record of every citation this
+// turn actually made, computed once by the engine instead of left for this
+// frontend to reconstruct with its own indexOf-based guessing. `anchors`
+// indexes into this turn's own `citations` array (run_start_sentence/
+// run_end_sentence are positions in that list, not character offsets - the
+// engine adds nothing that would require re-finding a span in the raw
+// text). The completeness invariant: every record_id appearing anywhere in
+// `citations` appears in `references` exactly once, by construction - the
+// defect this closes is a non-consecutive repeat citation of the same
+// story/witness record being silently dropped by the old client-side
+// dedup logic (see VoiceTurnBody.tsx's own note on the flag gating this).
+export interface TransparencyAnchor {
+  record_id: string;
+  record_type: string;
+  world_key: string;
+  run_start_sentence: number;
+  run_end_sentence: number;
+  repeat: boolean;
+  confidence: Record<string, unknown> | null;
+}
+
+export interface TransparencyPlan {
+  world_key: string;
+  anchors: TransparencyAnchor[];
+  references: SourceCard[];
+  unverified_claims: { count: number; sentence_indexes: number[] };
+}
+
 export interface VoiceTurn {
   speaker: string; // the world_key, e.g. "alx"
   text: string;
@@ -82,6 +111,10 @@ export interface VoiceTurn {
   figures_used: FigureUsed[];
   quote_offers: unknown[];
   attempts_meta: Record<string, unknown>;
+  // Additive (Stage 3a/3b) - absent on a transcript entry replayed from
+  // before this field existed, present on every turn since. Optional here
+  // for that reason, not because a current turn might lack it.
+  transparency?: TransparencyPlan;
 }
 
 export interface CreateSessionResponse {
