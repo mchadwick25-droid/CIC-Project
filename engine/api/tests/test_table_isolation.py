@@ -144,6 +144,11 @@ def test_voice_turn_scope_is_exactly_the_selected_world(store, usage_store, worl
     second_call = calls[1]
     assert second_call["world"].world_key == "alx"
     assert "since your last turn" in second_call["context_prefix"]
+    # Stage 4f (Build-Plan.md): the same pending speech reaches evidence
+    # assembly too, at secondary weight - unwrapped, so retrieval scoring
+    # never matches on context_prefix's own framing sentences.
+    assert second_call["secondary_context"] is not None
+    assert "since your last turn" not in second_call["secondary_context"]
 
 
 def test_no_foreknowledge_instruction_reaches_every_voice_after_the_first(

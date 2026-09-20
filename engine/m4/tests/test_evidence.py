@@ -362,6 +362,64 @@ def test_tier_3_and_unset_tier_are_treated_identically():
     assert scores["fix.term.aaa-low-tier"] == scores["fix.term.explicit-tier-three"]
 
 
+# ---- Stage 4f: secondary-weight table context (Build-Plan.md) -------------
+
+
+def test_secondary_context_fills_an_empty_cell_slot():
+    """An off-canon message alone reaches no cell; the table's own recent
+    speech (what another voice just said) can still find one, at secondary
+    weight - exactly the "conversation-aware" gap this stage closes."""
+    evidence_result = assemble_evidence(
+        message="What is the weather like today?",
+        asks=None,
+        canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE,
+        repository_records=REPOSITORY,
+        secondary_context="How does baptism actually work for your community - what does it require?",
+    )
+    cells = [c["cell"] for c in evidence_result["cells"]]
+    assert "F1-E" in cells
+    matched = next(c for c in evidence_result["cells"] if c["cell"] == "F1-E")
+    assert matched.get("from_secondary_context") is True
+
+
+def test_secondary_context_never_displaces_a_real_match():
+    """A message that already fills every top_n_cells slot on its own is
+    left exactly as it was - secondary_context only ever fills a gap, never
+    competes for a slot the participant's own words already won."""
+    q = "What does your community remember of Jesus?"
+    without = match_asks_to_cells(message=q, asks=None, canon_questions=CANON_QUESTIONS, top_n=1)
+    evidence_result = assemble_evidence(
+        message=q, asks=None, canon_questions=CANON_QUESTIONS, coverage=COVERAGE,
+        repository_records=REPOSITORY, top_n_cells=1,
+        secondary_context="How does baptism actually work for your community - what does it require?",
+    )
+    assert evidence_result["cells"] == without
+    assert all("from_secondary_context" not in c for c in evidence_result["cells"])
+
+
+def test_secondary_context_respects_the_top_n_cells_cap():
+    evidence_result = assemble_evidence(
+        message="What is the weather like today?",
+        asks=None,
+        canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE,
+        repository_records=REPOSITORY,
+        top_n_cells=2,
+        secondary_context="How does baptism actually work for your community, and what does your community remember of Jesus?",
+    )
+    assert len(evidence_result["cells"]) <= 2
+
+
+def test_secondary_context_absent_is_byte_identical_to_before_this_stage():
+    q = "What does your community remember of Jesus?"
+    with_default = assemble_evidence(message=q, asks=None, canon_questions=CANON_QUESTIONS, coverage=COVERAGE, repository_records=REPOSITORY)
+    without_param = assemble_evidence(
+        message=q, asks=None, canon_questions=CANON_QUESTIONS, coverage=COVERAGE, repository_records=REPOSITORY, secondary_context=None,
+    )
+    assert with_default == without_param
+
+
 # ---- Stage D ---------------------------------------------------------------
 
 

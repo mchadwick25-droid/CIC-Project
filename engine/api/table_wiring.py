@@ -327,6 +327,22 @@ def _context_prefix(pending: list[str]) -> str | None:
     )
 
 
+def _secondary_context_text(pending: list[str]) -> str | None:
+    """Stage 4f (Build-Plan.md): the same at-the-Table speech
+    _context_prefix wraps for the model, unwrapped - retrieval-facing, not
+    participant-facing. Passed to evidence.assemble_evidence's own
+    secondary_context parameter, where it can only ever fill a cell slot
+    the participant's own message left empty. _context_prefix's own framing
+    sentences ("What has been said at the Table...", "You are being
+    brought in now...") stay out on purpose: retrieval scoring is a literal
+    word-overlap match, and words like "table" or "message" are noise no
+    real cell vocabulary should ever match on. Same `pending` the caller
+    already computed (and, on a return turn, already scoped down via
+    _scoped_pending) - no new read, the identical isolation-respecting text
+    context_prefix itself shows the model."""
+    return "\n\n".join(pending) if pending else None
+
+
 def _scoped_pending(pending: list[str], *, keep_labels: set[str]) -> list[str]:
     """A return turn's OWN cut of `pending` (independent review, 2026-09-05,
     the finding that actually mattered): naming one voice in the directive
@@ -795,6 +811,7 @@ def _advance_open_round(
             already_bridged_gloss_ids=already_glosses,
             history=history,
             context_prefix=_context_prefix(pending) if other_voice_has_spoken else None,
+            secondary_context=_secondary_context_text(pending) if other_voice_has_spoken else None,
             table_engagement=(
                 _table_engagement_directive(
                     own_world_is_subject=_own_world_named(selection.world_key, worlds, voice_message),

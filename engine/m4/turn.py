@@ -398,22 +398,32 @@ def _run_ordinary_voice_turn(
     already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
     context_prefix: str | None = None,
+    secondary_context: str | None = None,
     table_engagement: str | None = None,
     usage_world_key: str | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
-    """context_prefix, table_engagement, and usage_world_key are the table's
-    additions (Artifact-7 SS3-4, SS7), all None on every interview call so
-    that path is byte-identical to before they existed. context_prefix
-    carries the attributed at-the-Table speech since this voice's last
-    turn - it rides in the per-turn user message only (never the cached
-    system prefix, same cache discipline as the evidence block) and is
-    deliberately NOT part of the message evidence assembly matches against:
-    retrieval stays focused on the participant's own ask, not on what
-    another voice said. table_engagement carries the behavioral rule about
-    that speech (engage it, stay compact, no foreknowledge) into
+    """context_prefix, secondary_context, table_engagement, and
+    usage_world_key are the table's additions (Artifact-7 SS3-4, SS7; Stage
+    4f, Build-Plan.md), all None on every interview call so that path is
+    byte-identical to before they existed. context_prefix carries the
+    attributed at-the-Table speech since this voice's last turn - it rides
+    in the per-turn user message only (never the cached system prefix, same
+    cache discipline as the evidence block) and is deliberately NOT part of
+    the message evidence assembly matches against: retrieval stays focused
+    on the participant's own ask, not on what another voice said - EXCEPT at
+    the secondary weight secondary_context supplies below, when the ask
+    alone leaves a real gap. table_engagement carries the behavioral rule
+    about that speech (engage it, stay compact, no foreknowledge) into
     _build_turn_directive's channel instead - see that function's own note
     on why the instruction and the content it's about now ride separately.
-    usage_world_key tags this call's UsageRecord with the speaking world."""
+    usage_world_key tags this call's UsageRecord with the speaking world.
+
+    secondary_context is the same at-the-Table speech context_prefix
+    carries, unwrapped (no model-facing framing sentences), passed straight
+    through to evidence.assemble_evidence's own parameter of the same name -
+    fills only the cell slots the participant's own message left empty,
+    never displaces a real match. Same repository_records this call already
+    has; no new read, no model call, no per-turn cost growth."""
     usage_records = []
     repository_records = evidence.repository_records_by_id(world.repository)
     thin_topics = evidence.thin_topics_for(repository_records)
@@ -450,6 +460,7 @@ def _run_ordinary_voice_turn(
         already_told_ids=already_told_ids,
         history=history,
         figures_already_named=figures_already_named,
+        secondary_context=secondary_context,
     )
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message

@@ -883,6 +883,7 @@ def assemble_evidence(
     top_n_cells: int = 2,
     history: list[dict] | None = None,
     figures_already_named: list[str] | None = None,
+    secondary_context: str | None = None,
 ) -> dict:
     """The full pipeline, Stages A -> E, deterministic, no model call.
     Returns {"cells": [...Stage A...], "candidates": [...B+C+E...],
@@ -902,7 +903,19 @@ def assemble_evidence(
     was never told, and its own record text carries the introduction
     formula, so it reintroduced him. Same design as Stage E's
     already-told annotation: session state made visible, the voice finds
-    its own words - never a forced saying."""
+    its own words - never a forced saying.
+
+    secondary_context (Stage 4f, Build-Plan.md): plain text conversational
+    context this turn stands inside, distinct from the participant's own
+    message - at the Table, what other seated voices just said (the same
+    text table_wiring._context_prefix shows the model, unwrapped). None on
+    every interview call, and every other caller. Fills only the top_n_cells
+    slots the participant's own message (and, on a follow-up, the inherited
+    prior subject) left EMPTY - never displaces either, the identical "fills
+    only remaining slots" discipline retrieval_hint_keywords already uses
+    one level down for a record's own hints. Scoped to THIS call's own
+    repository_records like everything else here; nothing about isolation
+    changes - a caller only ever passes its own world's context."""
     cell_matches = match_asks_to_cells(
         message=message, asks=asks, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n_cells
     )
@@ -915,6 +928,19 @@ def assemble_evidence(
         if carried:
             own = [m for m in cell_matches if m["cell"] not in {c["cell"] for c in carried}]
             cell_matches = (carried + own)[:top_n_cells]
+
+    if secondary_context and len(cell_matches) < top_n_cells:
+        seen_cells = {m["cell"] for m in cell_matches}
+        for m in match_asks_to_cells(
+            message=secondary_context, asks=None, canon_questions=canon_questions,
+            repository_records=repository_records, top_n=top_n_cells,
+        ):
+            if len(cell_matches) >= top_n_cells:
+                break
+            if m["cell"] in seen_cells:
+                continue
+            cell_matches.append({**m, "from_secondary_context": True})
+            seen_cells.add(m["cell"])
 
     selected: list[dict] = []
     seen_ids: set[str] = set()
