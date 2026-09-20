@@ -18,7 +18,9 @@ SAFETY_OK = CallOutcome(
 
 
 def test_both_ok_routes_normally_not_degraded():
-    result = resolve_gate(safety_outcome=SAFETY_OK, reader_outcome=READER_OK, pressed={}, anachronistic_term_ids=set())
+    result = resolve_gate(
+        safety_outcome=SAFETY_OK, reader_outcome=READER_OK, pressed={}, anachronistic_term_ids=set(), message="who was Jesus"
+    )
     assert result.degraded is False
     assert result.routing.action == "voice_with_directive"
     assert result.needs_async_safety_reclassification is False
@@ -26,7 +28,8 @@ def test_both_ok_routes_normally_not_degraded():
 
 def test_reader_timeout_is_pass_through_and_degraded():
     result = resolve_gate(
-        safety_outcome=SAFETY_OK, reader_outcome=CallOutcome(status="timeout"), pressed={}, anachronistic_term_ids=set()
+        safety_outcome=SAFETY_OK, reader_outcome=CallOutcome(status="timeout"), pressed={}, anachronistic_term_ids=set(),
+        message="who was Jesus",
     )
     assert result.routing.action == "voice_pass_through"
     assert result.routing.directive is None
@@ -36,7 +39,8 @@ def test_reader_timeout_is_pass_through_and_degraded():
 
 def test_reader_parse_failure_is_a_failure_not_salvaged():
     result = resolve_gate(
-        safety_outcome=SAFETY_OK, reader_outcome=CallOutcome(status="parse_failure"), pressed={}, anachronistic_term_ids=set()
+        safety_outcome=SAFETY_OK, reader_outcome=CallOutcome(status="parse_failure"), pressed={}, anachronistic_term_ids=set(),
+        message="who was Jesus",
     )
     assert result.routing.action == "voice_pass_through"
     assert result.degraded is True
@@ -44,7 +48,8 @@ def test_reader_parse_failure_is_a_failure_not_salvaged():
 
 def test_safety_failure_alone_fails_open_but_still_routes():
     result = resolve_gate(
-        safety_outcome=CallOutcome(status="timeout"), reader_outcome=READER_OK, pressed={}, anachronistic_term_ids=set()
+        safety_outcome=CallOutcome(status="timeout"), reader_outcome=READER_OK, pressed={}, anachronistic_term_ids=set(),
+        message="who was Jesus",
     )
     assert result.routing.action == "voice_with_directive"  # reader-based routing still applies
     assert result.degraded is True
@@ -53,7 +58,8 @@ def test_safety_failure_alone_fails_open_but_still_routes():
 
 def test_both_fail_collapses_to_pass_through():
     result = resolve_gate(
-        safety_outcome=CallOutcome(status="error"), reader_outcome=CallOutcome(status="timeout"), pressed={}, anachronistic_term_ids=set()
+        safety_outcome=CallOutcome(status="error"), reader_outcome=CallOutcome(status="timeout"), pressed={},
+        anachronistic_term_ids=set(), message="who was Jesus",
     )
     assert result.routing.action == "voice_pass_through"
     assert result.degraded is True

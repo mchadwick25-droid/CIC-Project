@@ -32,7 +32,12 @@ class GateResult:
 
 
 def resolve_gate(
-    *, safety_outcome: CallOutcome, reader_outcome: CallOutcome, pressed: dict[str, bool], anachronistic_term_ids: set[str]
+    *,
+    safety_outcome: CallOutcome,
+    reader_outcome: CallOutcome,
+    pressed: dict[str, bool],
+    anachronistic_term_ids: set[str],
+    message: str,
 ) -> GateResult:
     if reader_outcome.failed:
         # Reader fails/times out -> pass-through: the voice answers the raw
@@ -53,10 +58,12 @@ def resolve_gate(
         # responsible for actually scheduling the async re-classification
         # and, if it retroactively fires acute, interjecting on the next
         # event with the safety turn.
-        routing = route(safety=None, reader=reader, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
+        routing = route(safety=None, reader=reader, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids, message=message)
         return GateResult(routing=routing, degraded=True, needs_async_safety_reclassification=True)
 
-    routing = route(safety=safety_outcome.value, reader=reader, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
+    routing = route(
+        safety=safety_outcome.value, reader=reader, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids, message=message
+    )
     return GateResult(routing=routing, degraded=False, needs_async_safety_reclassification=False)
 
 

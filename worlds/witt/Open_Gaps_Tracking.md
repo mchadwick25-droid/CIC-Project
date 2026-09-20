@@ -1777,6 +1777,76 @@ findings; witt's own `signoffs.json` confirmed correctly reads "registry state (
 test suite (24 tests) and the registry test file (both old and new tests) green.
 
 **Still open, unchanged:** the Facilitator boundary-disclosure turn type (B-1 item 4); L-1 (surfaced above,
-awaiting the project lead's direction); B-2 (`git diff 157c2269 HEAD -- engine/m5/routing.py` still empty —
-this entry's own `engine/m2/` change is unrelated fleet infrastructure, and B-2 remains untouched per
-explicit instruction).
+awaiting the project lead's direction).
+
+## OG-28. B-2 fixed at the root, fleet-wide, per Mark's explicit "Let's do B-2 now"
+
+The last BLOCKING finding from the original go-live review. Design work, per the review's own instruction
+("divergent/groan/convergent, not auto mode") — put to Mark directly with three named options after
+reading `engine/m5/routing.py`, `engine/m5/live_calls.py`, and `engine/m5/failure.py` in full. What that
+reading actually showed reframed the review's own three candidate root causes: the `out_of_scope` enum
+was never missing an honest option for a sensitive-but-in-scope ask — `"none"` already is that option, and
+already routes correctly. The reader was avoiding it, not lacking it; `system_nature` was the nearest
+available non-answer for a Haiku-class model's own trained caution around difficult material, exactly the
+review's own candidate (b). Mark's decision: fix both (b) and the review's own candidate (c) together — a
+prompt-level fix addressing why the misclassification happens, plus a code-level backstop catching it if
+it happens anyway, mirroring this codebase's own established "asking is upstream and probabilistic,
+checking is downstream and exact" pattern (`engine/m4/output_check.py`'s own phrase, already applied to
+generated text; this is the identical discipline applied to a reader field for the first time).
+
+**(b) — `engine/m5/live_calls.py`'s `READER_SYSTEM_PROMPT`.** A new paragraph added before the bulleted
+field list, general and fleet-wide rather than a third topic-specific carve-out (which CLAUDE.md forbids
+by name, and which the 2026-08-28 conversation-memory fix already was once): states structurally that the
+reader's own classification carries zero responsibility for what the voice eventually says, that an
+ordinary historical question about violence, prejudice, or persecution is still an ordinary reading task,
+and that reaching for `out_of_scope.class` to avoid a difficult topic is itself a misclassification, not a
+safe default. Addresses the mechanism, not the topic — applies to any sensitive-but-in-scope subject any
+world's own record might raise, not just witt's 1543 material.
+
+**(c) — `engine/m5/routing.py`'s new `_plausible_system_nature()` backstop.** `route()` no longer trusts a
+`system_nature` claim outright: it now requires the participant's own message to carry the question SHAPE
+the reader was actually told to use (`are/is/were/was` ... `you/this` ... an AI/bot/script/built/real-class
+word), modeled directly on `live_calls.py`'s own four canonical examples rather than a loose word list —
+deliberately excludes a bare `"ai"` token, since "Ai" (Joshua 7-8) is a real place name this fleet's own
+worlds may discuss. When the claim doesn't hold up, routing falls through to the rest of `route()`'s own
+priority order instead of honoring it; nothing is silently dropped — `engine.m4.turn`'s own `gate_decision`
+event still carries the reader's raw `out_of_scope` field, so the override is visible in the audit trail
+even though it changes what the function returns. Required a `message` parameter added through `route()`,
+`resolve_gate()`, and both of `resolve_gate`'s own callers (`engine/m4/turn.py`,
+`engine/m5/safety_script_run.py`) — made required, not defaulted, so any caller not yet updated fails
+loudly (a `TypeError`) rather than silently routing every `system_nature` claim through an empty string
+and never trusting it, which would have been a worse bug than the one being fixed.
+
+**Verified two ways.** Unit tests: 43 in `engine/m5/tests/` (2 new in `test_registry.py`'s own sibling
+file were unrelated; the real additions are in `test_routing.py` and `test_failure.py`) — the exact B-2
+reproduction (the 1543 message, reader-misclassified, now correctly falls through to
+`voice_with_directive`), all four of the reader's own canonical examples still routing correctly to
+`system_nature_turn` (confirming the backstop doesn't break genuine system-nature questions), the Ai
+place-name collision deliberately tested and confirmed non-triggering, and a bare-word-without-question-
+shape case (`"real"`/`"built"` alone) confirmed non-triggering. Live: per Mark's own explicit
+authorization, re-ran the exact original 1543 probe plus two further phrasings against witt's current
+package (real, billed Bedrock calls) — **all three now route to `voice_with_directive` and reach the
+voice**, `output_defects: []` on all three, content correctly existence-only (no argument/wording stated).
+Report: `engine/m4/reports/live-turn-report-witt.json` (overwrites the prior single-message report, per
+the tool's own fixed output path).
+
+**Required-to-close item 2's second half — "add at least one such probe to every world's standard
+live-turn battery"** — is a fleet-wide testing-methodology change touching every admitted world, not a
+witt-specific fix; no single "standard battery" file exists to edit (each world's own go-live testing has
+been ad-hoc, per-world commands run by hand). Not attempted here. Flagged as a recommendation for whoever
+next runs a world through go-live testing, or for a dedicated methodology thread, rather than retroactively
+applied to already-admitted worlds on this entry's own account. **Item 3 (register an `ACCEPTED_OPEN`
+waiver if not fixed)** is moot — the finding is fixed, not left open, so no waiver applies.
+
+This closes every BLOCKING and HIGH finding from the original go-live review. What remains from the whole
+review: the Facilitator boundary-disclosure turn type (B-1 item 4, a new engine feature, still awaiting
+direction) and L-1 (live-output readability scoring, a fleet-level methodology question, still awaiting
+direction).
+
+Verified: valid YAML n/a (no records touched — this is an `engine/` and test-only entry); `engine/m5/`
+test suite 66/66 passed, `engine/m4/` test suite 310/310 passed, full pytest suite 695/695 passed;
+`engine.m9.cli check` clean; `engine.m1.cross_world` 0 new defects (23 accepted-open) — both re-run to
+confirm no records-level drift, though none was expected from an engine-only change.
+
+**Still open, unchanged:** the Facilitator boundary-disclosure turn type (B-1 item 4); L-1 (fleet-level
+readability-scoring methodology question).
