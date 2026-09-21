@@ -28,6 +28,8 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.gravity.martyrdom-meaning
+- type: associated-with
+  target: pahc.story.quintus-recantation
 narrative_tier: 3
 narrative_tier_justification: "This world's clearest Tier 3 case. Attributed to a specific figure and moment - Polycarp's arrest and death - and transmitted by the receiving community, framed within its own text as a letter from Smyrna to Philomelium, rather than direct documentation by Polycarp himself or a contemporaneous outside witness. Shaped throughout by recognizable hagiographic and martyrological convention (the theatrically staged arrest and death, the dies natalis framing, the bone-collection scene at ch. 18 explicitly echoing relic-veneration language). The text's own concluding chapters (20-22) are independently regarded as later additions - not smoothed over here."
 tellable_as: >-
@@ -92,3 +94,13 @@ volume. Corrected to the edition's actual phrase at that point in the
 same sentence, "as opportunity is allowed us."
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
+
+RELATION ADDED 2026-09-19 (pahc `world_front` build): reciprocal
+`associated-with` edge to the new `pahc.story.quintus-recantation`
+(same underlying letter, chs. 4-7, a different passage and a different
+point - reconciling a `documentedStories` entry on the live site with
+no existing story record). Checked directly against that new record
+for consistency: no contradiction found, and this record's own "betrayed
+by someone in his own household, under torture" already agrees with
+the new record's more granular "two young men... one of them,
+tortured."

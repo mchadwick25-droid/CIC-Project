@@ -56,6 +56,8 @@ relations:
   target: desert.quote.antony-not-worsted
 - type: associated-with
   target: desert.quote.antony-nicene-formula
+- type: associated-with
+  target: desert.story.antony-secret-burial
 ---
 SYSTEMIC AUTHOR-GRAVITY FLAG (this world's own version of the risk
 Doc_03's Author Gravity discipline names generally): Antony's own
@@ -125,3 +127,10 @@ to "his associated gravity records" (withdrawal, spiritual-combat) a
 does-not-threaten-classification statement that elder-authority - not
 spiritual-combat - actually carries. Reworded to state each fact
 separately without merging which records say what.
+
+World_front pilot (2026-09-19): reciprocal associated-with relation
+added to desert.story.antony-secret-burial, a new story record on
+Antony's death and burial instructions (Vita SS89-92), reconciling
+cic-website/atlas-v3.html's own "Antony Has Himself Buried Where No One
+Will Find Him" documentedStories entry against this world's own record
+set.

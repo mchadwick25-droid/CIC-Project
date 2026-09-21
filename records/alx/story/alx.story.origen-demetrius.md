@@ -29,6 +29,8 @@ relations:
   target: alx.force.origen-demetrius-conflict
 - type: illustrates
   target: alx.gravity.teacher-bishop-tension
+- type: associated-with
+  target: alx.story.origen-daring-deed
 narrative_tier: 2
 narrative_tier_justification: Tier 2 (collected traditional material) for the structural facts (the departure,
   the condemnation, the disruption - Widely Accepted); the particulars are Eusebius-mediated at HIGH author-gravity
@@ -61,5 +63,13 @@ settled) and F3-I (who held authority - the tension made visible). The
 telling is structural-only by design: the screen is in the tier
 justification and the absent_detail, and any expansion must come from
 the sources, not from filling.
+
+Reciprocal relation added 2026-09-20 (alx `world_front` build,
+documented_stories reconciliation): `alx.story.origen-daring-deed`, a
+new sibling record covering the incident-level detail (Origen's youthful
+act on Matthew 19:12) this record deliberately leaves out, declares
+`associated-with` this record; this record now declares the reciprocal
+back (gate_reciprocity). No change to this record's own text, tier, or
+screen - it stays structural-only exactly as built.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

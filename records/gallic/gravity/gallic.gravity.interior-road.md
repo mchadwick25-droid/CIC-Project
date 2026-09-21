@@ -87,38 +87,25 @@ relations:
 name: "The interior road: purity of heart, discretion, the faults [SUPPORTING]"
 classification: supporting
 description: >-
-  Purity of heart as the goal, discretion as its regulator, the eight faults as its combats - the
-  whole southern formation program: 'the immediate aim or goal, is purity of heart, without which no
-  one can gain that end' (Conf. I.4); fastings, vigils, and renunciation 'are not perfection, but
-  aids to perfection' (I.7); 'discretion is the mother of all virtues, as well as their guardian and
-  regulator' (II.4); the eight faults 'and the remedies for them according to their traditions'
-  (Inst. Pref.); vainglory that 'creates a wish to take holy orders' (Inst. XI.14). In Tours, the
-  THING without the vocabulary - Martin's discernment of Anatolius's robe and of the purple-robed
-  'Christ' (Vita XXIII-XXIV) - but 'no "purity of heart," no "discretion," no fault-list.'
-  Lukewarmness (Doc_03 3.11) is folded in as its named failure-mode. AUTHOR GRAVITY FLAG AT
-  GENERATION (Doc_04 §2.1): SINGLE-VOICE (Cassian), and a WORLD-ATTRIBUTION RISK - received Egyptian
-  teaching; 'may be desert-monasticism's gravity rather than this world's.' SIX-TEST SUMMARY (Doc_04
-  §3): Repetition passes across streams (C, Gn, AP) but is one voice's; Dependency passes in the
-  south (Institutes V-XII, Conferences I-II, Cassian's whole formation program, G3 argued inside
-  it); Formation passes pervasively in the south, partially in the north as practice; Explanatory
-  passes for the south (why fasting is not the goal, why the cell, why disclosure of thoughts, why
-  clerical office is suspect); Persistence FAILS across nodes as vocabulary and program, partial as
-  practice; Interaction full - no '-' cell. WORLD-ATTRIBUTION QUESTION (Doc_03 §9.1), answered as
-  Doc_04 leaves it: Cassian frames every element as received; what is this world's own is the
-  adaptation frame (G2) and the argument that defends it (G3), not the content; classified as a
-  gravity of this world 'because Cassian's Gallic readers were formed by it' (Pref. III: monks
-  receive the Conferences 'into their cells'), while its content is listed as a cross-build item
-  with desert-monasticism. CROSS-NODE: node-bound (southern) - the practice visible in Tours, the
-  program not. CLASSIFICATION: SUPPORTING - 'arguably Primary within Marseilles' but functioning
-  inside the context G2 establishes, single-voice, and not persisting across nodes.
-  CONFIDENCE/GRAVITY CROSS-CHECK: divergence stated - southern organizing strength Primary-grade,
-  attribution Inferential, reach fails one node. FORCES NOTATION (Doc_04 §3; Doc_08 §5): held;
-  defended; partially suppressed in transmission - it is the content the initiating force imported;
-  under the grace controversy it is what G3 defends ('Conf. XIII exists because the interior road
-  presupposes that effort matters'); adapted by the cold (Inst. I.10, IV.10-11); its severity
-  sustained by the fear of cooling; set against G6 by the south's refusal of wonders; and under
-  transmission as a force it fractured 'at exactly its body-and-sexuality edge' - Conf. XII and
-  XXII, two of its own conferences, and Inst. VI absent from this world's vendored English text.
+  Purity of heart as the goal, discretion as its regulator, the eight
+  faults as its combats - the whole southern formation program: 'the
+  immediate aim or goal, is purity of heart, without which no one can
+  gain that end' (Conf. I.4); fastings, vigils, and renunciation 'are
+  not perfection, but aids to perfection' (I.7); 'discretion is the
+  mother of all virtues, as well as their guardian and regulator'
+  (II.4); the eight faults 'and the remedies for them according to
+  their traditions' (Inst. Pref.); vainglory that 'creates a wish to
+  take holy orders' (Inst. XI.14). In Tours, the thing without the
+  vocabulary - Martin's discernment of Anatolius's robe and of the
+  purple-robed 'Christ' (Vita XXIII-XXIV) - but 'no "purity of heart,"
+  no "discretion," no fault-list.' Cassian frames every element of
+  this program as received from Egypt, not his own invention; what
+  Gaul contributed was the adaptation - carried west and adapted for a
+  colder climate (Inst. I.10, IV.10-11), its severity sustained by a
+  real fear of spiritual cooling. Two of Cassian's own conferences on
+  this program, on chastity and on nocturnal illusions, and one book
+  of the Institutes, do not survive in the English edition this
+  account draws on.
 manifestations:
 - "Purity of heart as 'the immediate aim or goal,' fixed on 'as if on a definite mark' (Conf. I.4); the practices 'aids to perfection,' not perfection (I.7)"
 - "Discretion, 'by the judgment of the blessed Antony,' as 'the mother of all virtues' (Conf. II.4); the money-changer testing every thought (I.20); disclosure to the elder"
