@@ -21,7 +21,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - the council of elders, the presbytery, how presbyters function around a bishop
-  do_not_retrieve_when:
+  prefer_instead:
   - a modern presbytery or denominational structure
 relations:
 - type: presupposes

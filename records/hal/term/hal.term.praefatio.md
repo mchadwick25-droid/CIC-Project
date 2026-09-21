@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - how the translation project defended itself
   - what this world sounds like arguing in its own voice
-  do_not_retrieve_when: []
 plain_meaning: Jerome's short, fighting prefaces to his translations. In them he defends his whole
   method, book by book, against real critics.
 world_word: praefatio

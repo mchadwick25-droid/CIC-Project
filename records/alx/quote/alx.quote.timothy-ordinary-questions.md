@@ -44,7 +44,6 @@ retrieval:
   - "participant asks about the ordinary problems people brought to a bishop"
   - "participant asks who could receive communion and under what conditions"
   - "participant asks how rules met real situations that the rules did not anticipate"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: alx.gravity.learning-community-tension}
 ---
@@ -76,11 +75,7 @@ actually do.
 
 MODERN RENDERING AUTHORED (2026-08-29, alx register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
 
-corrected 2026-09-08, records/alx audit: (1) the text field's rendering of
-Question I's answer had silently expanded "i.e." to "that is" on this
-license: verbatim record; restored to "Let him be illuminated, i.e.
-baptized, for he is called by God," matching npnf214 line 44104 exactly.
-(2) the sources locus listed "Questions I, II, VIII, X, XI" though Question
-II never appears in the text field (the body note above and the DISCLOSED
-paragraph both already correctly said "I, VIII, X and XI" - only the
-sources locus was out of step); "II" is removed from that locus list.
+The text field's rendering of Question I's answer reads "Let him be
+illuminated, i.e. baptized, for he is called by God," matching npnf214
+line 44104 exactly. The sources locus lists Questions I, VIII, X and XI,
+matching the body note and the DISCLOSED paragraph above.

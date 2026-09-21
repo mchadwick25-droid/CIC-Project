@@ -34,9 +34,9 @@ retrieval:
   - participant asks how this world's ascetics differ from desert monks
   - participant uses 'monk', 'nun', or 'monastery' in a way that imports desert assumptions
   - Aphrahat's Demonstration 6 or authority-alongside-office questions come up
-  do_not_retrieve_when:
-  - participant asks specifically whether Ephrem personally led the women's choirs - that claim is later
-    hagiography and this record must not be used to confirm it
+claim_guards:
+- participant asks specifically whether Ephrem personally led the women's choirs - that claim is later
+  hagiography and this record must not be used to confirm it
 relations:
 - type: associated-with
   target: syr.gravity.covenant-life

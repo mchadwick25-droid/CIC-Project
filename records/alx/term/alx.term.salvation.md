@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what "saved" means here, or whether salvation is a legal verdict
   - how salvation relates to healing, or why sin is treated as a direction rather than a crime
-  do_not_retrieve_when:
+  prefer_instead:
   - asking narrowly about the ongoing mechanism of change (retrieve alx.term.transformation)
   - the therapeutic, non-forensic frame has already been surfaced this turn
 relations: []

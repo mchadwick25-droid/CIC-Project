@@ -47,6 +47,7 @@ from engine.m4 import events, facilitator_turns, session_code
 from engine.m4.entrance import open_session
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.round import (
+    TABLE_SESSION_ROUND_CAP,
     RoundConfig,
     open_table_round,
     voice_message_for_round,
@@ -102,10 +103,10 @@ class TableRoundNotOpen(Exception):
 
 class TableAdvanceInFlight(Exception):
     """Another advance (message or /continue) for this table session is
-    already running in this process - the overlap the 2026-08-28 audit
-    found: a mid-round reload's auto-resume racing the original tab's
-    loop, each advancing the same round and doubling voice turns and
-    spend. Refused as a 409; the client simply keeps continuing."""
+    already running in this process - a mid-round reload's auto-resume can
+    race the original tab's loop, each advancing the same round and
+    doubling voice turns and spend. Refused as a 409; the client simply
+    keeps continuing."""
 
 
 class TableRoundStillOpen(Exception):
@@ -325,6 +326,32 @@ def _context_prefix(pending: list[str]) -> str | None:
         + "\n\n".join(pending)
         + "\n\n(You are being brought in now. Respond as yourself to the participant's message below.)"
     )
+
+
+def _secondary_context_text(pending: list[str]) -> str | None:
+    """Stage 4f (Build-Plan.md): the same at-the-Table speech
+    _context_prefix wraps for the model, unwrapped - retrieval-facing, not
+    participant-facing. Passed to evidence.assemble_evidence's own
+    secondary_context parameter, where it can only ever fill a cell slot
+    the participant's own message left empty. _context_prefix's own framing
+    sentences ("What has been said at the Table...", "You are being
+    brought in now...") stay out on purpose: retrieval scoring is a literal
+    word-overlap match, and words like "table" or "message" are noise no
+    real cell vocabulary should ever match on. Same `pending` the caller
+    already computed (and, on a return turn, already scoped down via
+    _scoped_pending) - no new read, the identical isolation-respecting text
+    context_prefix itself shows the model."""
+    return "\n\n".join(pending) if pending else None
+
+
+def round_cap_for(mode: str | None) -> int | None:
+    """Stage 0c (Build-Plan.md): the root of the number TableRoom.tsx used
+    to hardcode ("a Table holds five rounds" - the real cap is 3, so the
+    old copy was flatly wrong, not just hardcoded). None for an interview
+    session (no round cap applies); TABLE_SESSION_ROUND_CAP for a table
+    session, so the frontend renders the true configured number instead of
+    a guess baked into src/."""
+    return TABLE_SESSION_ROUND_CAP if mode == "table" else None
 
 
 def _scoped_pending(pending: list[str], *, keep_labels: set[str]) -> list[str]:
@@ -795,6 +822,7 @@ def _advance_open_round(
             already_bridged_gloss_ids=already_glosses,
             history=history,
             context_prefix=_context_prefix(pending) if other_voice_has_spoken else None,
+            secondary_context=_secondary_context_text(pending) if other_voice_has_spoken else None,
             table_engagement=(
                 _table_engagement_directive(
                     own_world_is_subject=_own_world_named(selection.world_key, worlds, voice_message),
@@ -827,18 +855,12 @@ def _advance_open_round(
 
     turns_now = position
     if config.cap_reached(turns_now, num_seats=num_seats):
-        # PRE-EXISTING BUG (found by independent review, 2026-09-05; dates
-        # to 436128f1, 2026-08-30 - not introduced by this session's round-
-        # length work, fixed while already in this function with the
-        # context loaded). `state` still reflects pre-turn bookkeeping, and
-        # round_no/turn_count are unchanged by a voice_turn fold - but
-        # _close_round's own governance_summary(state.transcript, ...) read
-        # the STALE transcript, silently missing the turn just written two
-        # lines above. A cap-closed round's own round_closed.governance
-        # undercounted whichever voice closes it by exactly one turn, on
-        # every cap-forced close - the M7 audit surface's per-voice
-        # turn/word shares were wrong on the one path this project's own
-        # dominance detector most needs to be right on.
+        # `state` still reflects pre-turn bookkeeping, and round_no/turn_count
+        # are unchanged by a voice_turn fold - so _close_round must re-project
+        # fresh (project_fresh below) rather than pass state.transcript
+        # directly, or governance_summary silently misses the turn just
+        # written two lines above, undercounting whichever voice closes a
+        # cap-forced round by exactly one turn.
         turn_no = _close_round(store, project_fresh(session_id, store), reason="cap", turns=turns_now)
         return TableMessageResult(
             **common, round_open=False, turn_selected=selected_payload, voice=voice_event, position=position, turn_no=turn_no

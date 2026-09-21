@@ -27,7 +27,6 @@ retrieval:
   - "participant asks how anyone could tell whether the discipline was working"
   - "participant asks how you knew you were making progress, or getting anywhere"
   - "participant asks what apatheia felt like or how it was recognised"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.apatheia

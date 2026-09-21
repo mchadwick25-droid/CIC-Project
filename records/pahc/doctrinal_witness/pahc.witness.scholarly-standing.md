@@ -26,7 +26,6 @@ retrieval:
   - "participant asks how scholarly this world's own record actually is"
   - "participant asks whether this world's own texts are legend"
   - "participant asks whether some gospels were suppressed or left out"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.contested.ignatius-dating
@@ -57,16 +56,3 @@ forward caution 10 (OUT-OF-WINDOW TRAP: no closed canon exists in this
 world's own window) to correct the "suppressed gospels" premise
 honestly rather than answering a question this world cannot actually
 be asked in its own terms.
-
-FIXED at Step 8 round-1 review, two defects: (1) text closed with "what
-we still received directly from them [the apostles]" - contradicted
-pahc.witness.how-we-know's own tensions field, which states plainly
-that none of this world's own primary voices claims direct personal
-contact with an eyewitness and "the chain is always at least one
-remove." Aligned with the sibling record pahc.witness.scripture-and-
-testimony's own correct phrasing ("apostolic testimony," a chain, not a
-person). (2) The relation to pahc.contested.martyrdom-polycarp-dating
-was retargeted to pahc.contested.didache-dating: this record's own
-content discusses the Ignatius three-way split and the Didache's
-single-manuscript dependency, never the Martyrdom of Polycarp
-specifically.

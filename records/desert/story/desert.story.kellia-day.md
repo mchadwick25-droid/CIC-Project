@@ -29,7 +29,6 @@ retrieval:
   - "participant asks what an ordinary day actually looked like in this world"
   - "participant asks about the cell, the settlement, or what physical remains would show"
   - "participant asks how prayer, work, and communal gathering fit together in the daily rhythm"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.gravity.withdrawal

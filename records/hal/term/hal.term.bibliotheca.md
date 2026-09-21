@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what books or texts Jerome actually worked from
   - Jerome's scholarly reputation and what it rested on
-  do_not_retrieve_when:
+  prefer_instead:
   - imagining a large, modern-library-scale institution
 relations: []
 plain_meaning: The books Jerome gathered and worked from, central to his reputation as a scholar.

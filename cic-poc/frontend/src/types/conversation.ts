@@ -24,9 +24,9 @@ export interface SourceCard {
   record_type: string;
   label: string;
   sources: SourceReference[];
-  // Quote records spoken in a build-authored modern rendering (Mark's
-  // ruling, 2026-08-28) carry both forms: what was said at the table and
-  // the original wording, shown on the click page.
+  // Quote records spoken in a build-authored modern rendering carry both
+  // forms: what was said at the table and the original wording, shown on
+  // the click page.
   spoken_rendering?: string | null;
   original_wording?: string | null;
 }
@@ -74,6 +74,35 @@ export interface FacilitatorTurn {
   text: string;
 }
 
+// engine/m4/transparency_plan.py's build_transparency_plan (Build-Plan.md
+// Stage 3a/3c) - one complete, deterministic record of every citation this
+// turn actually made, computed once by the engine instead of left for this
+// frontend to reconstruct with its own indexOf-based guessing. `anchors`
+// indexes into this turn's own `citations` array (run_start_sentence/
+// run_end_sentence are positions in that list, not character offsets - the
+// engine adds nothing that would require re-finding a span in the raw
+// text). The completeness invariant: every record_id appearing anywhere in
+// `citations` appears in `references` exactly once, by construction - the
+// defect this closes is a non-consecutive repeat citation of the same
+// story/witness record being silently dropped by the old client-side
+// dedup logic (see VoiceTurnBody.tsx's own note on the flag gating this).
+export interface TransparencyAnchor {
+  record_id: string;
+  record_type: string;
+  world_key: string;
+  run_start_sentence: number;
+  run_end_sentence: number;
+  repeat: boolean;
+  confidence: Record<string, unknown> | null;
+}
+
+export interface TransparencyPlan {
+  world_key: string;
+  anchors: TransparencyAnchor[];
+  references: SourceCard[];
+  unverified_claims: { count: number; sentence_indexes: number[] };
+}
+
 export interface VoiceTurn {
   speaker: string; // the world_key, e.g. "alx"
   text: string;
@@ -82,11 +111,18 @@ export interface VoiceTurn {
   figures_used: FigureUsed[];
   quote_offers: unknown[];
   attempts_meta: Record<string, unknown>;
+  // Additive (Stage 3a/3b) - absent on a transcript entry replayed from
+  // before this field existed, present on every turn since. Optional here
+  // for that reason, not because a current turn might lack it.
+  transparency?: TransparencyPlan;
 }
 
 export interface CreateSessionResponse {
   session_id: string;
   session_code: string; // shown once; required as `Authorization: Session <code>` on every later request
+  // Stage 0c (Build-Plan.md): null for an interview session (no round cap
+  // applies); the table session round cap for a table session.
+  round_cap: number | null;
 }
 
 export interface MessageResponse {
@@ -115,6 +151,8 @@ export interface TranscriptResponse {
   mode: string | null;
   world_keys: string[] | null;
   round_open: boolean;
+  // Stage 0c (Build-Plan.md): same rule as CreateSessionResponse above.
+  round_cap: number | null;
 }
 
 // POST /message on a table session, and every POST /continue: one
@@ -154,7 +192,7 @@ export interface WorldSummary {
   census_id: string | null;
   display_name: string | null;
   // Friendly participant-facing name; display_name is the scholarly one
-  // (both registers, Mark's ruling 2026-08-28).
+  // (both registers are kept, for different contexts).
   card_name: string | null;
   representative: { name: string; role_label: string } | null;
   time_window: { start: number; end: number } | null;

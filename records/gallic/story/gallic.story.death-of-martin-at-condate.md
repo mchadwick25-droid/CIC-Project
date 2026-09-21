@@ -40,7 +40,7 @@ retrieval:
   - participant asks how Martin died, what a good death looked like among us, why sackcloth and ashes mattered, or how the cult of Martin began
   - participant uses "deathbed," "funeral," "relics," "example"
   - conversation reaches formation by example at its last instance, virtus passing from the living saint to psalm and relic, the soldier of Christ at the funeral, or grief permitted and policed
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking about the later cult of Martin at Tours, the basilica, or Gregory of Tours - outside our window and evidence
   - participant wants the south's teaching on death or judgment (retrieve gallic.term.fear-hope-love or gallic.term.antichrist)
   - participant is asking about women's presence at Tours specifically - the "choir of virgins" here is a trace, carried at its proper strength

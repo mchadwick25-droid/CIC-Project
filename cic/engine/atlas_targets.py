@@ -44,7 +44,7 @@ def render() -> str:
         "`cic-website/data/world-census.json`. **Assign to the `id` column** - it is also the "
         "filename of the corpus-map bucket, which is the whole alignment mechanism.\n",
         f"All {total} entries are valid targets. That includes the {pre_survey} marked "
-        "*Pre-Survey Candidate* (Mark, 2026-08-26: material plainly belonging to one of them "
+        "*Pre-Survey Candidate* (material plainly belonging to one of them "
         "belongs there rather than held back - placing a source is not a claim that the era's "
         f"survey has run), and the {excluded} marked ⛔ *Excluded - Doctrinal Floor*, which will "
         "never be built as worlds but still need a home for the heresiological material the "

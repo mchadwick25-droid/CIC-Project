@@ -21,9 +21,7 @@ edition: Confirmed absent from the vendored npnf205 -- independently confirmed b
   of cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt (zero occurrences of 'Forty Martyrs' or 'XL
   Martyres')
 kind: vendored
-rights_status: not independently verified this session; row not yet acquired as an open text -- named
-  for completeness per the Source Registry's own checkpoint rule (every source a Doc_02 claim rests on
-  gets a row, acquired or not).
+rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 82; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either
@@ -32,4 +30,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 82; a specific n
 external_ids:
   cappadocian_source_registry_row: 82
 ---
-SS6.1's against-the-grain evidence of a woman's formation-agency; the Annisa estate-shrine material-culture record (row 113) (row 82). A specific named work, grouped with row 53 rather than duplicating it as a separate acquisition target -- an earlier draft wrongly claimed this text was within the vendored npnf205, directly contradicted by row 41's and row 53's own notes and by this direct search.
+SS6.1's against-the-grain evidence of a woman's formation-agency; the Annisa estate-shrine material-culture record (row 113) (row 82). A specific named work, grouped with row 53 rather than duplicating it as a separate acquisition target -- confirmed absent from the vendored npnf205, consistent with row 41's and row 53's own notes and this direct search.

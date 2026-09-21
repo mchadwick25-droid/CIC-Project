@@ -20,7 +20,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - whether Ephrem founded or led the women's choirs; how the later tradition remembered him
-  do_not_retrieve_when:
+  prefer_instead:
   - questions about what this world's own record directly attests (the two-layer split must lead)
 relations:
 - type: associated-with

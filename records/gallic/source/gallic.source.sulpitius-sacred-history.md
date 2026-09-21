@@ -20,8 +20,7 @@ edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 11 (Sulpitius Severus,
   Cassian), tr. Alexander Roberts / C. A. Heurtley / Edgar C. S. Gibson, ed. Schaff and Wace, vendored
   as cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, rights confirmed as part of this world's own corpus-map
-  assignment; not independently re-checked at the rights level by this authoring pass specifically.
+rights_status: "public-domain; vendored, rights confirmed as part of this world's own corpus-map assignment"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 6; a specific named source (author, translator,
   edition, or witness) whose full text this build session did not independently read -- either its own

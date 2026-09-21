@@ -43,7 +43,6 @@ retrieval:
   retrieve_when:
   - "participant asks why it mattered whether the Holy Spirit was equal to the Father and the Son, or just a lesser, ministering presence"
   - "participant asks what Basil argued against people who wanted to rank the Spirit below the Father and the Son"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.holy-spirit-honored

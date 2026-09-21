@@ -24,7 +24,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks how this world knew its practices traced to the apostles"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.force.apostolic-testimony-inheritance
@@ -53,7 +52,4 @@ constitutions-didache-liturgies.xml div1 viii, "The Teaching of the
 Twelve Apostles"). Closes the cell pahc.force.apostolic-testimony-
 inheritance already grounds at the force level but cannot itself close
 (canon.substantive_types() does not count force canon_cells) - this
-record is that force's participant-facing completion. FIXED at Step 8
-round-1 review: added a relations edge to pahc.contested.didache-dating,
-already named in this record's own divergence_note prose but not
-previously linked as a schema relation.
+record is that force's participant-facing completion.

@@ -28,7 +28,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - a participant calls this movement a schism, or asks who split from whom
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about later or unrelated church schisms
 relations:
 - type: associated-with

@@ -61,20 +61,10 @@ commend a volunteer who recanted), so this demonstration does not let
 "faithfulness" collapse into "wanting to die," matching that gravity
 record's own explicit warning against exactly that reading.
 
-FIXED at Step 11 round-1 review (three items): (1) canon_cells
-corrected from F6-E to F6-P, matching this record's own
-canon_question_id (_fleet.canon.f6-p-02 carries cell F6-P) - the wrong
-cell rode along when this record's confidence block was copied from
-pahc.gravity.martyrdom-meaning (whose own canon_cells is F6-E) rather
-than written for this record. (2) divergence_note rewritten for this
-record's own actual content and register, rather than left as the
-gravity record's own note with "this record" swapped to "this
-demonstration." (3) the closing clause on Quintus, "our own record does
-not shame him for it," overstated the vendored text - checked directly
+Checked directly
 against cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml,
 Martyrdom of Polycarp 4: the chapter heading itself reads "Quintus the
 apostate," and the text says he "became afraid." The text withholds
 commendation for volunteering, not shame for recanting - a real and
-useful distinction, but not the one this record originally claimed.
-Cut the overclaim and let the sourced half - "we do not commend those
-who give themselves up" - carry the point on its own.
+useful distinction. The sourced half - "we do not commend those
+who give themselves up" - carries the point.

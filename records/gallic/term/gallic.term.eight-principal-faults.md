@@ -32,7 +32,7 @@ retrieval:
   - in what order the faults were fought, or what "vainglory" and "dejection" are
   - participant uses "deadly sins," "vices," "capital sins," "passions," or "temptations"
   - the Institutes' books V-XII, the full belly, vainglory's wish for holy orders, or pride's wish to rule
-  do_not_retrieve_when:
+  prefer_instead:
   - accidie in particular (retrieve accidie)
   - the combat idiom as such (retrieve combat / athlete)
   - the later Western "seven deadly sins" - a different, later list, and not ours

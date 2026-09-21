@@ -49,7 +49,7 @@ retrieval:
   - participant uses "example," "role model," "imitate," or "mentor"
   - Martin's disciples, Cassian's "one or two only," or eyewitness claims
   - participant asks whether the miracle stories are "true"
-  do_not_retrieve_when:
+  prefer_instead:
   - a specific exemplar's own deeds (retrieve virtus / power for the northern miracle corpus)
   - the elder-junior relationship's disciplinary mechanics (retrieve disclosure of thoughts, obedience)
   - the historicity of a particular story (the story inventory's territory)

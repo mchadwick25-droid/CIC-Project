@@ -58,7 +58,7 @@ def test_prompt_and_capsule_and_chunks_carry_no_generated_by_header():
 
 
 def test_build_provenance_never_ships_in_repository_json():
-    """Mark's ruling (2026-08-30): the record store is the workshop, the
+    """The record store is the workshop, the
     compiled package is the instrument. search_record rows and the
     reviewer-facing fields (why_sources_cannot_answer, modern_lens_note)
     stay in the store - gates still validate them - and never ship.

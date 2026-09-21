@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what marriage meant to these people"
   - "participant asks whether married people were second-class here"
   - "participant asks how this world ranked celibacy against marriage"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.dw.marriage-ranked

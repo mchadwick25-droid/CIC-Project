@@ -43,7 +43,6 @@ retrieval:
   - "participant asks about sleeping, washing, and the ordinary handling of the body"
   - "participant asks how close people lived and what was forbidden between them"
   - "participant asks whether touch or privacy were regulated"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.spiritual-combat

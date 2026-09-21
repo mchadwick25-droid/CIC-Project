@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - "participant says they want to believe and cannot"
   - "participant asks whether this world had room for someone who could not simply decide to believe"
-  do_not_retrieve_when: []
 text: >-
   We built a whole way of thinking about God around one honest admission:
   no mind grasps him completely. Every word we use for him reaches him

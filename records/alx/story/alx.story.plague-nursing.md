@@ -28,7 +28,6 @@ retrieval:
   retrieve_when:
   - sickness, death, plague, care for the dying
   - how the community treated outsiders' judgment
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.quote.dionysius-plague
@@ -59,7 +58,3 @@ modern_contrast: >
 Every element in the text is in the letter (the fearless visiting, the
 joyful dying, the pagan contrast, the festival occasion); nothing is
 invented. Companion quote: alx.quote.dionysius-plague.
-
-corrected 2026-09-08, records/alx audit: the sources locus (lines
-41084-41098) under-covered this record's own text - see the sources
-block for the extended range and the two elements it now reaches.

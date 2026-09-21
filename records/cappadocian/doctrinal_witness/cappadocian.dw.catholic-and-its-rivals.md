@@ -42,7 +42,6 @@ retrieval:
   - "participant asks whether this world's church was Catholic, or whether a church today is theirs"
   - "participant asks whether this world had denominations, or other communities calling on Christ
     differently"
-  do_not_retrieve_when: []
 text: >-
   We had real neighbors who called on Christ differently than we did, not
   straw men invented for argument. Some confessed the Son merely like the

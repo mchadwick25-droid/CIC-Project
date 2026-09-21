@@ -61,6 +61,8 @@ def test_create_session_explicit_world(store, usage_store, world_loader, registr
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
     resp = http.post("/api/session", json={"world_key": "fix"})
     assert resp.status_code == 201
+    # Stage 0c (Build-Plan.md): no round cap applies to an interview session.
+    assert resp.json()["round_cap"] is None
 
 
 def test_create_session_unknown_world(store, usage_store, world_loader, registry):
@@ -155,6 +157,8 @@ def test_transcript_reflects_committed_turns(store, usage_store, world_loader, r
     assert body["turn_count"] == 1
     assert body["transcript"][0]["kind"] == "door"
     assert body["transcript"][1] == {"speaker": "participant", "text": "who was Jesus"}
+    # Stage 0c (Build-Plan.md): no round cap applies to an interview session.
+    assert body["round_cap"] is None
 
 
 def test_transcript_missing_session_401(store, usage_store, world_loader, registry):

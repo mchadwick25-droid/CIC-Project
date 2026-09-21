@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
   divergence_note: The homily against envy is part of the same named, unacquired homily set as the famine/wealth
-    preaching (Source Registry row 16, corrected 2026-08-31); the historical fact that this world preached
+    preaching (Source Registry row 16); the historical fact that this world preached
     against envy by name is Widely Accepted, but the specific text is unverified.
 sources:
 - source_id: cappadocian.source.basil-moral-famine-homilies
@@ -22,7 +22,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - envy as a specifically named vice in this world's preaching
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: We preached a whole sermon against envy by name. Envy, we said, is a sin that comes
   from the devil. It is the vice of a heart that cannot bear someone else's good fortune.

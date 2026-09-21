@@ -24,7 +24,7 @@ retrieval:
   retrieve_when:
   - women in leadership or service, Pliny's letter
   - female ministers in early Christianity
-  do_not_retrieve_when:
+  prefer_instead:
   - modern deaconess orders with no historical connection to this period
 relations:
 - type: associated-with

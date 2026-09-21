@@ -43,7 +43,7 @@ retrieval:
   - why Martin left the army, or whether monks were pacifists
   - the monk's dress, the order in which the faults are fought, or the oath taken on entering
   - participant assumes the language is only a metaphor, or that it licenses violence
-  do_not_retrieve_when:
+  prefer_instead:
   - actual Roman military service or late-Roman army history as such
   - the conversation is really about a specific fault (retrieve that entry)
   - the sign of the cross as an act of power (retrieve sign of the cross or virtus / power)

@@ -48,7 +48,7 @@ retrieval:
   - what "nocturnal illusions" were
   - participant uses "illusion," "delusion," "false vision," "deception," "dream," "discernment of spirits"
   - Anatolius's robe; the crowned Christ; Heron's angel; Abbot John's illusion; the missing Conference XXII
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the faculty that detects it (retrieve discretion)
   - the question is about the devil in general (retrieve the devil / demons)
   - the content of Conf. XXII - absent from our English text; state the absence, do not fill it

@@ -46,7 +46,7 @@ retrieval:
   - whether Martin had "students," or who taught whom at Lerins
   - participant uses "disciple," "master," "mentor," "student," "spiritual father," or "apprentice"
   - Marmoutier's eighty, Clarus, Paulinus as "the object of our imitation," Vincent's "not a teacher but a disciple," or Chaeremon's authority "fixed in the heart of his hearer"
-  do_not_retrieve_when:
+  prefer_instead:
   - the mechanism of imitation as such (retrieve example / imitation)
   - the senior's judgment of thoughts (retrieve elder / senior / abbot, disclosure of thoughts)
   - Christ's own disciples in Scripture
@@ -81,6 +81,11 @@ plain_meaning: >-
   Sulpitius mourning "our master, Martin." The south keeps it as elder and junior. Vincent turns it on
   doctrine: the true Catholic is "not a teacher but a disciple, not a leader but a follower."
 world_word: disciple / master
+gloss_forms:
+- form: disciple
+  kind: ordinary
+- form: master
+  kind: ordinary
 false_friend:
 - a student and a teacher of doctrine
 - discipleship as a program or curriculum

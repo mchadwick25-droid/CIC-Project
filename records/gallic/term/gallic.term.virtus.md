@@ -53,7 +53,7 @@ retrieval:
   - what "virtue" meant, or why Cassian tells no miracle stories
   - participant uses "miracle," "power," "virtue," "healing," "exorcism," or "signs"
   - Martin raising the dead, the power lost as bishop or after the Ithacian communion, the skeptic of Letter I, Brictio's sneer, or Nesteros on exorcists
-  do_not_retrieve_when:
+  prefer_instead:
   - moral virtue in Cassian's sense as such (retrieve humility, perfection, the eight principal faults)
   - the grace of God in the Massilian argument (retrieve grace)
   - whether a particular miracle "really happened" - this record carries Reported-Experience Status and does not assess historicity
@@ -108,6 +108,9 @@ plain_meaning: >-
   bishop. At Marseilles Cassian uses the same word for moral virtue, and declines on principle to
   "weave a tale of God's miracles and signs."
 world_word: virtus / power
+gloss_forms:
+- form: power
+  kind: ordinary
 false_friend:
 - virtue as moral excellence or character, read as the whole meaning
 - miracle as a suspension of natural law to be believed or disbelieved, a question of evidence

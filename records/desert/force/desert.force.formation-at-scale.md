@@ -39,9 +39,7 @@ relations:
 - type: associated-with
   target: desert.quote.no-one-seize-the-hand
 ---
-Re-derived from the prior build's cleared Doc_08 Cell 1B-iii, added at
-that document's own Round 1 review after an earlier draft retro-traced
-gravity 6 to forces that did not actually generate it. Directly
+Re-derived from the prior build's cleared Doc_08 Cell 1B-iii. Directly
 generates desert.gravity.koinonia (Supporting). Per Cross-Cell
 Connection (Doc_08's own governing principle): this same force is the
 origin-point of desert.force.authority-tension-ongoing's own ongoing
@@ -53,51 +51,16 @@ kind: initiating maps Doc_08's own Cell 1B (initiating/internal); the
 cell code is carried in this record's own name, per the convention
 established at desert.force.martyrdom-unavailable's own body note.
 
-Doc08, Round 1 review Finding S3: the office names "housemaster,
-steward" were stated with no channel named, against
-desert.source.pachomian-corpus's own standing rule that every
-Rule-content claim must name its actual channel. pachomian-corpus's own
-locus and manifestations[1] above now route the office names to "as the
-Latin Rule tradition transmits" via Rousseau's own scholarship, and
-rousseau-pachomius's locus now states that role explicitly, matching
-desert.gravity.authority-tension's own citation of the same source for
-the identical claim.
-
-Doc08, Round 2 review Finding S3: the Round 1 fix left "the founding
-narrative" and "the Rule" themselves unchanneled in the pachomian-corpus
-locus, and its "not as this source directly supplies their names"
-implied a directness that source's own NO-VENDORED-EDITION status
-denies for any of its content. The Rule/offices are now routed to
+The office names ("housemaster," "steward") and the Rule are routed to
 Doc_02 SS1.2/SS3, matching Doc_08's own Cell 2B-i Layer 2 citation for
-the identical claim; the founding narrative is separately routed to
+the identical claim. The founding narrative is separately routed to
 desert.source.palladius-lausiac-history ch. XXXII, the vendored,
 hagiographic channel that source's own standing rule names for exactly
-this kind of claim - verified directly against the vendored file (cic/texts/palladius_lausiac-history_clarke1918.txt,
-line 397), which carries the angel/vision/brass-tablet account
-addressed to Pachomius alone. The prior draft of this manifestation
-also named "his brother John and further companions" as part of the
-same Palladius citation; ch. XXXII does not mention John or any
-companion by name (only "collect all the young monks"), so that detail
-was removed here rather than left mis-attributed to Palladius.
-
-Doc08, Round 3 review Finding M7: removing "brother John" outright
-deleted a detail this corpus already carries correctly channelled, in a
-cleared Step-3c record this force declares a relation to
-(desert.figure.pachomius's own `floruit` and `pachomian-corpus` locus,
-both citing the Lives tradition with the same incident-level-reliability
-hedge Doc_01 SS2.1 also carries). Re-channelled rather than left out:
-the detail is restored above, cited to desert.source.pachomian-corpus
-(already registered) with that same hedge, matching
-desert.figure.pachomius's own wording rather than Palladius's. Finding
-M4: the description's "establishing a written Rule, common property,
-and formal offices" carried no channel - added above (Palladius for the
-vision, Doc_02 SS1.2/SS3 for the Rule and offices). Finding M8: the
-rousseau-pachomius locus had claimed this source "underlies" Doc_02
-SS1.2/SS3's own citation, which state their claims on their own
-authority and name Rousseau only for the version-priority debate -
-corrected to state Rousseau's actual role, matching
-desert.gravity.authority-tension's own citation of it. Finding C5: the
-Palladius locus quoted the vendored file verbatim without a translator
-credit, the first quotation from that file in this step - "in Clarke's
-translation" added, matching desert.gravity.evagrian-systematization's
-own Socrates locus practice ("in Zenos's English").
+this kind of claim - verified directly against the vendored file
+(cic/texts/palladius_lausiac-history_clarke1918.txt, line 397), which
+carries the angel/vision/brass-tablet account addressed to Pachomius
+alone. "His brother John and further companions" is cited to
+desert.source.pachomian-corpus (the Lives tradition), with the same
+incident-level-reliability hedge Doc_01 SS2.1 carries, matching
+desert.figure.pachomius's own wording - ch. XXXII itself names no
+companion (only "collect all the young monks").

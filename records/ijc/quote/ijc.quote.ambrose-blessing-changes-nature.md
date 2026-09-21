@@ -33,7 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they held about the bread and the cup"
   - "participant asks whether something happened to the elements"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.dw.bread-made-body}
 ---

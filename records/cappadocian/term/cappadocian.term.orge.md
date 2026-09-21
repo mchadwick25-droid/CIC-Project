@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
   divergence_note: Part of the same named, unacquired homily set as the famine/wealth and envy preaching
-    (Source Registry row 16, corrected 2026-08-31); the historical fact that this world preached against
+    (Source Registry row 16); the historical fact that this world preached against
     anger by name is Widely Accepted, but the specific text is unverified.
 sources:
 - source_id: cappadocian.source.basil-moral-famine-homilies
@@ -22,7 +22,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - anger as a specifically named and disciplined vice
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: We preached against anger directly. Anger, we said, is a passion that dresses itself
   up as justice, while it does real harm.

@@ -168,7 +168,17 @@ def main() -> int:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(graded, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps(graded, indent=2, ensure_ascii=False))
-    return 0
+
+    # H-3 (witt go-live adversarial review, 2026-09-19): _verdict() above
+    # already computes FAILED for exactly the defect this whole battery
+    # exists to catch, but nothing read it back - a reviewer had to scan
+    # the JSON for the string by hand. Wired to the exit code now, the same
+    # way engine.m4.live_turn_run and engine.m4.live_table_run gate on
+    # engine.m4.output_check.find_shipped_defects.
+    failed = [t for t in graded["turns"] if t["verdict"].startswith("FAILED")]
+    if failed:
+        print(f"\nFAILED: {len(failed)} turn(s) - {[t['kind'] for t in failed]}", flush=True)
+    return 0 if not failed else 1
 
 
 if __name__ == "__main__":

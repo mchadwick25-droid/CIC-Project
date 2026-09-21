@@ -1,0 +1,24 @@
+# Worker: Lutheran Wittenberg build thread, 2026-09-15. G1 Source
+# Acquisition Manifest pass (Atlas VI.1), vendored directly per the
+# V3 launch prompt's self-disposed G1 discipline.
+source_file: luther_hymns_bacon-allen.txt
+
+assignments:
+  - work: "Dr. Martin Luther's Deutsche Geistliche Lieder (The Hymns of Martin Luther)"
+    author: luther
+    locus: "whole file"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: assigned
+    note: >
+      Bilingual German/English hymnal, including Luther's own 1543 Preface
+      to all good Hymn Books. Directly fills the gap Doc_01 named as this
+      world's own most consequential missing register for worship-as-lived
+      practice (Augsburg Confession Article XXIV describes German hymns
+      "interspersed" into the Mass "to teach the people"; this file is the
+      hymns themselves, not only the confessional description of the
+      practice). RIGHTS FLAG carried from REGISTRY.yaml: original print
+      edition's exact year not independently confirmed - rights basis
+      rests on Project Gutenberg's own PD determination, not this
+      project's own by-date rule.

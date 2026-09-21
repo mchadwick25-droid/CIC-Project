@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - Lactantius's version of Constantine's conversion
   - the two conversion accounts' divergence
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants the fuller Eusebian narrative (the vision story instead)
 relations:
 - {type: illustrated-by, target: ijc.quote.lactantius-dream}

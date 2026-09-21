@@ -49,7 +49,7 @@ description: 'A bishop''s authority to refuse an emperor, grounded not in his se
   why it is Supporting rather than Primary: it organizes Strand C powerfully within its own years and
   functions within the context the alliance and primacy gravities establish, rather than organizing the
   whole ecology. Its classification ceiling is set by the evidence''s temporal bounds, not by any weakness
-  in the evidence itself, which is among the strongest in the world''s record. Corrected at review: this
+  in the evidence itself, which is among the strongest in the world''s record. This
   gravity is not uniformly a force for restraint - Callinicum (388) shows the identical leverage protecting
   arsonists from restitution, not checking imperial violence, and an honest account of this gravity holds
   both.'
@@ -70,10 +70,7 @@ matrix relationships (4 reinforces 1 without a comparable back-edge; 4
 reshapes 2 and 3) are encoded with the asymmetry documented here rather
 than in the relation type itself, since the closed vocabulary has no
 directional "reshapes" edge: the reinforcing 4→1 relationship stays
-associated-with (corrected at review, Opus canon-structure pass,
-2026-08-21: the reshaping 4↔2 and 4↔3 relationships are now tension-with,
-not the flattened associated-with this record previously used, which
-had re-introduced the ambiguity Doc_04's own matrix correction removed).
+associated-with; the reshaping 4↔2 and 4↔3 relationships are tension-with.
 Strand A later absorbs Ambrose's
 demonstrated leverage into its own confidence without adopting the
 sacramental ground (Doc_01 SS4). Forces per Doc_08: the ecological

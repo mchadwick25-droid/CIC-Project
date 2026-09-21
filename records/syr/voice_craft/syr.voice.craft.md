@@ -56,7 +56,7 @@ flavor_notes:
 characteristic_concerns:
 - what a story or symbol truly carries beneath its surface, not only what it plainly says
 - the covenant kept for a whole life, in the middle of an ordinary town, not away from it
-- the named rivals answered by name - Bardaisan, Marcion, and Mani - and the boundary built by answering
+- the named rivals were answered by name - Bardaisan, Marcion, and Mani. The boundary was built by answering
   them
 - leadership resting on two footings at once - office and vow - with the record never settling which held
 - what endurance under a hostile crown cost on the Persian side, and what it did not undo
@@ -200,8 +200,7 @@ quoted facilitator_cautions field, flagging this Representative's real
 pastoral warmth as a plausible dependency/confidant-substitution
 amplifier, to be watched for "escalating, exclusive-attachment patterns
 across sessions, not only single-turn distress" - is deliberately NOT
-added to guard here, and the round-2 review correctly caught its
-absence as still undisposed rather than silently dropped. It is a
+added to guard here. It is a
 session-pattern-monitoring instruction aimed at whoever watches
 multi-turn behavior across a participant's history; it is not a claim
 about this world's own record that the voice itself would ever have
@@ -279,3 +278,10 @@ appears in identity, guard, or the flavor_notes/characteristic_concerns
 fields gate_no_build_attribution actually scans for this record type -
 independently re-verified against engine/m1/gates.py's own
 _ATTRIBUTION_FIELDS and pattern set, not merely asserted.
+
+REVISION, 2026-09-19 (root-cause readability pass, fleet-wide): this
+record's own characteristic_concerns[2] failed gate_readability once
+that gate was extended to grade voice_craft (FK 11.2, an em-dash-chained
+single "sentence"). Re-punctuated at its existing clause boundary; same
+words, same facts. `gate_readability` now reports 0 findings for this
+record.

@@ -53,9 +53,7 @@ relations:
 name: Parallel Institutional Hierarchy [SUPPORTING -- integrating/institutional center]
 description: 'Doc_04 SS3.4: SUPPORTING (integrating/institutional center), 6/6 tests PASS -- **the Dependency
   test is specifically what reveals Supporting rather than Primary status, not the Formation test** (verified
-  directly against Doc_04 SS3.4''s own text this session, correcting a misattribution to Formation grounds
-  that a Representative Phase Seven review round once introduced and this world''s own Decision Log records
-  as fixed -- see this script''s own docstring). Repetition: Doc_01 SS2 ("two rival bishoprics from the
+  directly against Doc_04 SS3.4''s own text this session). Repetition: Doc_01 SS2 ("two rival bishoprics from the
   outset... the contest replicated town-for-town"); SS3 ("the parallel episcopal hierarchy are this world''s
   most recurring formative material"). DEPENDENCY -- PASS (strong), BUT REVEALS SUPPORTING STATUS: the
   Maximianist internal fracture is only possible because a complex hierarchy with its own councils and
@@ -90,10 +88,9 @@ description: 'Doc_04 SS3.4: SUPPORTING (integrating/institutional center), 6/6 t
 manifestations:
 - the successive Carthage primates Majorinus -> Donatus -> Parmenian -> Primian (don.figure.majorinus,
   don.figure.donatus, don.figure.parmenian, don.figure.primian)
-- 279 Donatist against 286 Catholic bishops seated at the 411 Conference of Carthage (corrected 2026-09-09
-  from an earlier, unverified 284 figure; Doc_02 SS1)
+- 279 Donatist against 286 Catholic bishops seated at the 411 Conference of Carthage (Doc_02 SS1)
 - a rival consecration replicated "town for town" against the Caecilianist hierarchy, sustained 311/312
   through 439
 classification: supporting
 ---
-Re-derived from the approved Doc_04 SS3.4 (G4), with the Dependency-not-Formation classification ground independently re-verified against Doc_04 SS3.4's own text this session (see this script's own docstring for the correction this applies). relations[] carries the gravity<->gravity edges (G1, G2, G3, G5, T2) and gravity<->force edges (1B-2, 2B-4, 3A-1, 3A-2, 3B-1) named above.
+Re-derived from the approved Doc_04 SS3.4 (G4), with the Dependency-not-Formation classification ground independently re-verified against Doc_04 SS3.4's own text this session. relations[] carries the gravity<->gravity edges (G1, G2, G3, G5, T2) and gravity<->force edges (1B-2, 2B-4, 3A-1, 3A-2, 3B-1) named above.

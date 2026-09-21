@@ -54,7 +54,7 @@ def test_create_session_unknown_world_raises(store, world_loader, registry):
 
 
 def test_a_repin_mid_session_does_not_refuse_the_in_flight_session(store, usage_store, world_loader, registry, tmp_path):
-    """Regression, 2026-09-04: a live bug Mark hit on turn 3 of a real
+    """Regression: a live bug hit on turn 3 of a real
     conversation, root-caused to _load_world() always resolving the package
     DIRECTORY through the registry's CURRENT pointer rather than the one a
     session actually verified against at open. A repin between session-open

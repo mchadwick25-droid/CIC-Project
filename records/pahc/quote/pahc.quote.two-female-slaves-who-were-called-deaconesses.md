@@ -39,7 +39,6 @@ retrieval:
   - "participant asks whether women held office or leadership here"
   - "participant asks what physical or documentary evidence survives about this world"
   - "participant asks about the hardest thing in this world's record"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.outsider-view

@@ -8,34 +8,66 @@
  * request/response per turn (see hooks/useConversation.ts).
  */
 :root {
-  --color-background: #F7F3EB;
-  --color-surface: #FEFCF8;
-  --color-text: #2A2521;
-  --color-text-muted: #6C6257;
+  /* 2026-09-17 dark-mode change order (supersedes CiC_Full_UX_Design_V1_0.md
+     §2.1's "Dark mode: deferred"). Ground/surface/text/
+     muted are cic-website's own shipping dark tokens (--ground/--surface/
+     --text/--muted), reused verbatim so the app matches the site exactly.
+     Every accent below is a lightened, contrast-recomputed variant of its
+     FINAL light-mode hue, not a lift of the FINAL hex itself - the raw
+     FINAL values (madder 2.85:1, gold-leaf 3.68:1, tyrian 2.50:1, lapis
+     2.12:1 against this ground) all fail WCAG AA as text on a dark ground.
+     Every value below is verified >=4.5:1 against both --color-background
+     and --color-surface (script-computed, not eyeballed), continuing the
+     same discipline as the 2026-08-28 a11y sweep below. */
+  --color-background: #17130F;
+  --color-surface: #1E1913;
+  --color-text: #F1E9DD;
+  --color-text-muted: #B8AEA1;
   /* 2026-08-28 a11y sweep: was #8A837C - 3.38:1 on the cream background,
      below AA, and it carried load-bearing copy (the Facilitator's own
      disclosure turns, the exit button, placeholders, waiting notes).
-     #6C6257 (the muted tone already in this palette) measures 5.39:1. */
-  --color-text-light: #6C6257;
+     #6C6257 (the muted tone already in this palette) measured 5.39:1 on
+     the light ground; #B8AEA1 (this dark palette's own muted tone)
+     measures 8.45:1 on the new dark ground. */
+  --color-text-light: #B8AEA1;
 
-  --color-facilitator: #6C6257; /* same a11y fix - the Facilitator's words were at 3.38:1 */
+  /* Dark-safe graphite: reuses cic-website's --control (#A39B92, 6.74:1) -
+     the Facilitator stays the one unpigmented voice, distinct from the
+     muted/secondary tone above, same as the FINAL palette intends. */
+  --color-facilitator: #A39B92;
 
-  --color-representative: #B45309;
-  --color-representative-bg: #FBF2E2;
+  --color-representative: #DC9A3E;
+  --color-representative-bg: #2A2013;
 
-  --color-participant: #1E40AF;
+  /* Reuses cic-website's own --lapis-text (table.html), already verified
+     at 8.99:1 against this exact ground. */
+  --color-participant: #9DB4F0;
 
+  /* Unchanged: raw madder still works as a button FILL against light text
+     on top (5.38:1, .doorway__begin/.world-card__interview's own color:
+     var(--color-surface) rule) - it only fails as standalone text on the
+     dark ground, and nothing here uses it that way. */
   --color-primary: #A13E2B;
   --color-primary-hover: #7E2F20;
-  --color-border: #E6DFD3;
-  --color-error: #C0392B;
+  --color-border: rgba(241, 233, 221, 0.16);
+  --color-error: #E56A5E;
 
   /* The lexicon/transparency apparatus's own pigment (CiC_Full_UX_Design_
      V1_0.md §2.1) - the name/figure bridge, and later the lexicon gloss
      it shares a grammar with, both wear this, never the representative's
-     gold or the participant's lapis. */
-  --color-tyrian: #6B3FA0;
-  --color-tyrian-wash: #F3EFFA;
+     gold or the participant's lapis. Reuses cic-website's own
+     --tyrian-text (table.html), verified at 8.89:1 against this ground -
+     used here for both text and its paired border (line ~615), since
+     nothing in this file uses --color-tyrian as a large fill needing the
+     deeper raw purple. */
+  --color-tyrian: #C9A6E8;
+  --color-tyrian-wash: #211A29;
+
+  /* The "Arriving" mark's seat dot (.arriving-seat) - reuses cic-website's
+     own --mark-dot (5.18:1 against this ground). Previously borrowed
+     --color-primary, which fails even the 3:1 non-text floor here
+     (2.85:1) once --color-primary stays raw madder for button fills. */
+  --color-mark-dot: #CB6E52;
 
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
@@ -129,7 +161,7 @@ button {
 }
 
 .arriving-seat {
-  fill: var(--color-primary);
+  fill: var(--color-mark-dot);
   transform-origin: 88.5px 50px;
   transform: translate(0, 0);
 }
@@ -171,8 +203,7 @@ button {
 /* ============================================================
    World list (Program.dc.html)
    ============================================================ */
-/* Horizontal scrolling choice (replaces the old vertical stack, 2026-09-01,
-   Mark: "replace all the old with the new true to the new design") - same
+/* Horizontal scrolling choice (replaces the old vertical stack) - same
    scroll-snap pattern cic-website's own reps carousel already proved
    (index.html's .reps-carousel), so the two apps feel like one family
    rather than two different pickers. Native browser scrolling only -
@@ -216,7 +247,7 @@ button {
   cursor: pointer;
   font: inherit;
   color: inherit;
-  box-shadow: 0 1px 6px rgba(42, 37, 33, 0.08);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
@@ -230,7 +261,7 @@ button {
 .world-card:hover,
 .world-card:focus-visible {
   border-color: var(--color-text-light);
-  box-shadow: 0 4px 14px rgba(42, 37, 33, 0.14);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
 }
 
 .world-card__portrait {
@@ -285,14 +316,38 @@ button {
   margin: 2px 0 6px;
 }
 
+/* Collapsed by default (Build-Plan.md thinness-UX change, 2026-09):
+   what a world is richest in and thinnest on sits behind one click,
+   same convention as GeneralReferences.tsx's .turn__general-references,
+   so it never reads as an unprompted caveat before a question is asked. */
 .world-card__thinness {
+  margin: 0;
+}
+
+.world-card__thinness-label {
+  font-family: var(--font-family-ui);
+  font-size: 0.72rem;
+  color: var(--color-text-light);
+  cursor: pointer;
+  list-style: none;
+}
+
+.world-card__thinness-label::before {
+  content: '▸ ';
+}
+
+.world-card__thinness[open] > .world-card__thinness-label::before {
+  content: '▾ ';
+}
+
+.world-card__thinness-label::-webkit-details-marker {
+  display: none;
+}
+
+.world-card__thinness p {
   font-size: 0.85rem;
   line-height: 1.5;
-  margin: 0;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  margin: 6px 0 0;
 }
 
 /* .doorway__begin survives its retired screen: the closed-state
@@ -468,10 +523,9 @@ button {
 }
 
 /* StoryMark's Level-2/Level-3 content (VoiceTurnBody.tsx) - reference
-   code + English source + story title, per Mark's own spec for the
-   story/quote track (2026-08-25). Shares .level2-card__body's own
-   `p { margin: 0 }`, so spacing between the three lines is set here,
-   not there. */
+   code + English source + story title, per the story/quote track's own
+   spec. Shares .level2-card__body's own `p { margin: 0 }`, so spacing
+   between the three lines is set here, not there. */
 .story-mark__entry + .story-mark__entry {
   margin-top: 8px;
 }
@@ -487,8 +541,8 @@ button {
   color: var(--color-text-muted);
 }
 
-/* Original wording of a quote spoken in its modern rendering (Mark's
-   ruling, 2026-08-28): the click page carries both forms. */
+/* Original wording of a quote spoken in its modern rendering: the click
+   page carries both forms. */
 .story-mark__original {
   margin-top: 8px;
 }
@@ -530,11 +584,10 @@ button {
 }
 
 /* General References (GeneralReferences.tsx) - the fourth track,
-   deliberately NOT the InlineBridge grammar: Mark's own correction
-   (2026-08-25) that a reference belongs at the end of the answer, never
-   as an asterisk inside the running text; collapsed behind one
-   disclosure line per his read of the first live conversation
-   (2026-08-28, "we want the conversation thread clean"). */
+   deliberately NOT the InlineBridge grammar: a reference belongs at the
+   end of the answer, never as an asterisk inside the running text;
+   collapsed behind one disclosure line so it doesn't crowd the
+   conversation thread. */
 .turn__general-references {
   margin-top: var(--spacing-md);
   padding-top: var(--spacing-sm);
@@ -615,7 +668,7 @@ button {
   border: 1px solid var(--color-tyrian);
   border-radius: var(--border-radius);
   padding: 10px 12px;
-  box-shadow: 0 4px 14px rgba(42, 37, 33, 0.16);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
   font-family: var(--font-family-ui);
   font-size: 0.85rem;
   line-height: 1.5;
@@ -662,7 +715,7 @@ button {
   position: fixed;
   z-index: 30;
   background: var(--color-surface);
-  box-shadow: -4px 0 20px rgba(42, 37, 33, 0.18);
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
 }
@@ -688,7 +741,7 @@ button {
   max-height: 55vh;
   border-top: 1px solid var(--color-border);
   border-radius: 14px 14px 0 0;
-  box-shadow: 0 -4px 20px rgba(42, 37, 33, 0.18);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .level3__header {
@@ -842,7 +895,10 @@ button {
 .conversation__error {
   margin: 0 var(--spacing-lg);
   padding: var(--spacing-sm) var(--spacing-md);
-  background: #FBEAEA;
+  /* dark-mode change order, 2026-09-17: was #FBEAEA (light pink); this
+     dark red-brown wash keeps --color-error at 5.14:1 on top of it,
+     matching the subtlety of the other washes in this file. */
+  background: #2E1A17;
   border: 1px solid var(--color-error);
   border-radius: var(--border-radius);
   color: var(--color-error);
@@ -889,9 +945,9 @@ button {
 }
 
 /* ============================================================
-   Launch system (Mark's ruling 2026-08-28): the cards launch both
-   conversation shapes - Interview one click, Table convened on
-   purpose from the table field below the cards.
+   Launch system: the cards launch both conversation shapes -
+   Interview one click, Table convened on purpose from the table
+   field below the cards.
    ============================================================ */
 .world-card--seated {
   outline: 2px solid var(--color-representative);
@@ -1142,20 +1198,31 @@ button {
   letter-spacing: 0.08em;
   font-size: 0.68rem;
   color: var(--color-text-light);
-  margin-bottom: 6px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.arrival__thinness-label::before {
+  content: '▸ ';
+}
+
+.arrival__thinness[open] > .arrival__thinness-label::before {
+  content: '▾ ';
+}
+
+.arrival__thinness-label::-webkit-details-marker {
+  display: none;
 }
 
 .arrival__thinness p {
   font-size: 0.88rem;
   line-height: 1.55;
-  margin: 0 0 6px;
-}
-
-.arrival__thinness p:last-child {
-  margin-bottom: 0;
+  margin: 6px 0 0;
 }
 
 .arrival__living-tradition {
+  width: 100%;
+  text-align: left;
   font-style: italic;
   color: var(--color-text-muted);
 }
@@ -1319,8 +1386,8 @@ button {
   cursor: pointer;
 }
 
-/* Both name registers (Mark's ruling 2026-08-28): the friendly name leads;
-   the scholarly name shows the rigor, quietly, at arrival. */
+/* Both name registers: the friendly name leads; the scholarly name shows
+   the rigor, quietly, at arrival. */
 .arrival__scholarly {
   font-size: 0.72rem;
   color: var(--color-text-muted);

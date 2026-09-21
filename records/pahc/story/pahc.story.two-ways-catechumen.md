@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks how someone joined this world's community"
   - "participant asks about the Two Ways ethical schema specifically"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs this presented as a network-wide, universal initiation pattern"
 relations:
 - type: associated-with
@@ -79,15 +79,10 @@ representativeness caveat pahc.term.two-ways already established
 (specific sequence Didache-only; general shape now cross-strand
 corroborated), rather than restating it more loosely.
 
-FIXED at Step 9 round-1 review: this record's own text previously
-dropped the Way of Life's actual moral inventory - the specific
-prohibitions and the almsgiving instruction the Formation Ecology
-Connection this record draws on actually depends on - naming only the
-Golden-Rule-as-restraint opening. Restored a clause naming the
+The Way of Life's moral inventory - the
 prohibitions (murder, adultery, pederasty, fornication, theft, magic,
 witchcraft, abortion, false swearing, false witness) and the
 almsgiving instruction ("thou shalt not turn away from him that is in
-want, but thou shalt share all things with thy brother"), both checked
+want, but thou shalt share all things with thy brother") - is checked
 directly against this same vendored edition, ch. 2 (viii.iii.ii) and
-ch. 4 (viii.iii.iv). Locus extended from "1:1-2; 7" to cover the
-chapters this content actually comes from.
+ch. 4 (viii.iii.iv).

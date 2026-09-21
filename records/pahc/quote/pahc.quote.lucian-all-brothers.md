@@ -46,7 +46,6 @@ retrieval:
   retrieve_when:
   - "participant asks what outsiders thought they believed"
   - "participant asks whether they really held property in common and were unafraid to die"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: pahc.gravity.martyrdom-meaning

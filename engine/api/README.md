@@ -35,6 +35,39 @@ doors-open switch (`"1"` = only admitted/open worlds are listed or seated;
 2026-08-28 audit found this one shipped-but-undocumented; this list is the
 config surface, so it lives here now.
 
+## Pinning `CIC_API_SAFETY_MODEL_PATTERN` (Stage 0d, Build-Plan.md)
+
+Left at its code default, `CIC_API_SAFETY_MODEL_PATTERN` is a loose
+substring pattern (`us.anthropic.claude-haiku-4-5`) that
+`engine.provider.bedrock.resolve_model_id` matches against whatever
+inference profiles actually exist in the account at deploy time. That is
+right for a pattern nothing has ever validated against a specific dated
+profile — but the safety classifier *has*: `engine/m5/safety_script_run.py`
+runs a real, credentialed, by-hand battery (`--all` runs every committed
+batch and prints one combined tally against the eventual ~19/20 floor;
+never run in CI, never automated) and scores it against a reasoned expected
+classification per scenario. A loose pattern could silently start
+resolving to a newer dated profile between one tally and the next, meaning
+production would run a model version the battery never actually scored.
+
+`render.yaml`'s two services (`cic-engine`, `cic-engine-staging`) both pin
+`CIC_API_SAFETY_MODEL_PATTERN` to the exact resolved profile id the last
+tally ran against instead — `resolve_model_id` still requires exactly one
+live match, so an exact id is refused loudly the day it stops existing in
+the account, rather than drifting quietly. **Repin only alongside a fresh
+`--all` tally**, never on its own: run
+
+```bash
+python -m engine.m5.safety_script_run --region us-east-1 --all
+```
+
+by hand with a real credential, confirm the printed tally, then update
+both `render.yaml` env-var blocks to the run's own `model_id` and log the
+tally's report path in `Ministry/Features/Conversation-Transparency-
+Engine/Decision-Log.md`. If the currently-pinned id and the last tally's
+own `model_id` ever disagree, that is an escalation (Build-Plan.md Stage
+0d's own instruction), not something to quietly repin.
+
 ## Endpoints
 
 ```bash

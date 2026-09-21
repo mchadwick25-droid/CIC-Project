@@ -43,7 +43,6 @@ retrieval:
   - participant asks whether we believed Jesus was God, or believed in the Trinity
   - participant asks whether Jesus died in our place to take our punishment
   - participant asks whether we would call Jesus our personal Lord and Savior
-  do_not_retrieve_when: []
 text: >-
   Yes. Father, Son and Holy Spirit, one God - we held that as plainly as
   the men we spent a century fighting held it, and in the same Latin

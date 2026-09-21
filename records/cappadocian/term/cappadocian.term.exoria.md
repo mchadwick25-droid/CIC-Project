@@ -20,7 +20,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - exile or banishment of bishops under hostile rulers
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: Among us, holding the wrong position at the wrong moment could mean banishment. Bishops
   were sent away from their own cities under hostile rulers. Some sees were held only by whoever could

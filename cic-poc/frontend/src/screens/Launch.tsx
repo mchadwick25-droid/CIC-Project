@@ -1,10 +1,10 @@
 /**
- * The launch system (Mark's ruling, 2026-08-28): the world cards launch
- * BOTH kinds of conversation, with clear differentiation - the Interview
- * is one click and you are in the room; the Table is convened on purpose,
- * from here and only here, with guidance on what sits well together.
- * The friction gradient is deliberate: the easy thing is the cheap thing,
- * and a Table is a fuller sitting.
+ * The launch system: the world cards launch BOTH kinds of conversation,
+ * with clear differentiation - the Interview is one click and you are in
+ * the room; the Table is convened on purpose, from here and only here,
+ * with guidance on what sits well together. The friction gradient is
+ * deliberate: the easy thing is the cheap thing, and a Table is a fuller
+ * sitting.
  */
 import { ArrivingLockup } from '../components/ArrivingLockup';
 import { PAIRINGS, suggestionsFor } from '../data/pairings';
@@ -66,7 +66,10 @@ export function Launch({
                   </div>
                 </div>
                 <div className="world-card__subtitle">{world.place}</div>
-                <p className="world-card__thinness">{world.thinnessStatement}</p>
+                <details className="world-card__thinness">
+                  <summary className="world-card__thinness-label">What this voice knows well</summary>
+                  <p>{world.thinnessStatement}</p>
+                </details>
                 <div className="world-card__actions">
                   <button
                     type="button"
@@ -96,8 +99,8 @@ export function Launch({
         <h2 className="table-field__title">Convene a Table</h2>
         <p className="table-field__intro">
           A Table seats two or three of these voices in one conversation. Each question you bring is answered around
-          the table in turn — genuinely different ways of thinking, side by side — for a sitting of five rounds. It
-          asks a little more of you than an interview, and gives back more than one world at a time.
+          the table in turn — genuinely different ways of thinking, side by side — for a bounded sitting of several
+          rounds. It asks a little more of you than an interview, and gives back more than one world at a time.
         </p>
 
         {suggestions.length > 0 && (

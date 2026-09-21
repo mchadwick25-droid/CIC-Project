@@ -22,12 +22,14 @@ retrieval:
   retrieve_when:
   - "participant asks what a formed life looks like when tested to its limit"
   - "participant asks about martyrdom as an ideal within this tradition"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs this presented as verified historical reporting of specific events"
   - "participant is in a state where martyrdom content requires particular pastoral caution"
 relations:
 - type: associated-with
   target: pahc.gravity.martyrdom-meaning
+- type: associated-with
+  target: pahc.story.quintus-recantation
 narrative_tier: 3
 narrative_tier_justification: "This world's clearest Tier 3 case. Attributed to a specific figure and moment - Polycarp's arrest and death - and transmitted by the receiving community, framed within its own text as a letter from Smyrna to Philomelium, rather than direct documentation by Polycarp himself or a contemporaneous outside witness. Shaped throughout by recognizable hagiographic and martyrological convention (the theatrically staged arrest and death, the dies natalis framing, the bone-collection scene at ch. 18 explicitly echoing relic-veneration language). The text's own concluding chapters (20-22) are independently regarded as later additions - not smoothed over here."
 tellable_as: >-
@@ -78,17 +80,18 @@ dagger and "there came forth a dove... and a great quantity of blood,
 so that the fire was extinguished" - the dove's own textual status is
 independently disputed even in the ANF edition's own footnote, and is
 not asserted here as settled); ch. 18 ("more precious than the most
-exquisite jewels, and more purified than gold" - corrected from an
-earlier paraphrase error in the approved Doc_09 chunk itself, which
-read "finest gold," conflating jewels and gold; the actual vendored
-wording is used here). canon_cells: F6-E (f6-e-02) reinforces pahc.
+exquisite jewels, and more purified than gold"). canon_cells: F6-E (f6-e-02) reinforces pahc.
 force.martyrdom-meaning and pahc.gravity.martyrdom-meaning, the same
 cell both already claim.
 
-FIXED at Step 9 round-1 review: "the Lord permitting" (ch. 18) was not
-this vendored edition's own wording - grepped the full stripped ANF
-vol. 1 and found zero occurrences of that phrase anywhere in the
-volume. Corrected to the edition's actual phrase at that point in the
-same sentence, "as opportunity is allowed us."
-
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
+
+RELATION ADDED 2026-09-19 (pahc `world_front` build): reciprocal
+`associated-with` edge to the new `pahc.story.quintus-recantation`
+(same underlying letter, chs. 4-7, a different passage and a different
+point - reconciling a `documentedStories` entry on the live site with
+no existing story record). Checked directly against that new record
+for consistency: no contradiction found, and this record's own "betrayed
+by someone in his own household, under torture" already agrees with
+the new record's more granular "two young men... one of them,
+tortured."

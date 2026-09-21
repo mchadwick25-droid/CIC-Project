@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they held about how God became human"
   - "participant asks about Mary and the birth"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Homily on Our Lord). The Ihidaya made brother of many - the incarnation in this world's own key.
 

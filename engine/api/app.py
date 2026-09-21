@@ -68,6 +68,10 @@ class SessionCreateRequest(BaseModel):
 class SessionCreateResponse(BaseModel):
     session_id: str
     session_code: str
+    # Stage 0c (Build-Plan.md): None for an interview session (no round cap
+    # applies); the table session round cap for a table session - so the
+    # frontend can render the real configured number instead of guessing.
+    round_cap: int | None = None
 
 
 class MessageRequest(BaseModel):
@@ -112,6 +116,8 @@ class TranscriptResponse(BaseModel):
     mode: str | None = None
     world_keys: list[str] | None = None
     round_open: bool = False
+    # Stage 0c (Build-Plan.md): same rule as SessionCreateResponse above.
+    round_cap: int | None = None
 
 
 class RoundCloseReasonsResponse(BaseModel):
@@ -139,7 +145,7 @@ class WorldSummary(BaseModel):
     census_id: str | None
     display_name: str | None
     # The friendly participant-facing name; display_name is the scholarly
-    # one (both registers, Mark's ruling 2026-08-28).
+    # one. Both registers are kept.
     card_name: str | None = None
     representative: dict | None
     time_window: dict | None
@@ -281,7 +287,7 @@ def create_app(
                 logger.warning("table session refused: package unavailable worlds=%s", req.world_keys)
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
-            return SessionCreateResponse(session_id=session_id, session_code=code)
+            return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"))
         if req.world_key is None:
             # Foundation audit (2026-08-28): POST {} used to fall through to
             # default_world_key - configured in production as the synthetic
@@ -397,6 +403,7 @@ def create_app(
         return TranscriptResponse(
             session_id=session_id, world_key=state.world_key, turn_count=state.turn_count, closed=state.closed, transcript=state.transcript,
             mode=state.mode, world_keys=state.world_keys, round_open=state.round_open,
+            round_cap=table_wiring.round_cap_for(state.mode),
         )
 
     @app.get("/api/session/{session_id}/round-close-reasons", response_model=RoundCloseReasonsResponse)

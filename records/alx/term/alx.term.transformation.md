@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - what formation is for, or spiritual growth framed as self-improvement
   - whether change is effort or grace
-  do_not_retrieve_when:
+  prefer_instead:
   - transformation meant in an unrelated technical sense
   - participation or theosis is the more precise term already surfaced
 relations: []

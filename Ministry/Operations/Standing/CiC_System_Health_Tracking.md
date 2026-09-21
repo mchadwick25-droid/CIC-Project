@@ -829,3 +829,222 @@ uses of "from scratch." Nothing to flag.
 
 All other previously-open PRs (#247, #248, #244, #241, #240, #234, #233,
 #230, #229) checked green.
+
+---
+
+## 2026-09-21 00:31 UTC — Periodic sweep: document-hygiene scrub's PR #333 closed
+## out clean; four previously-untracked PRs found and subscribed; fleet size now 11
+
+**PR #333** (the full document-hygiene scrub — `reference/`, `engine/`,
+`cic/engine/`, `cic-poc/frontend/`, `records/` 134 files, `worlds/lpc`,
+`worlds/gallic` 9 Doc files — plus the fleet-wide package repin it
+required) merged clean this sweep: all 18 CI checks green, no blocking
+reviews, `mergeable_state: clean`. Closes out the multi-entry arc this
+file has been tracking since Mark's "strip all attribution" ruling.
+`main`'s tip (`bb1ef7552`) confirmed green on GitHub Actions CI; the
+Cloudflare Workers Build check on `main`'s own tip specifically wasn't
+independently reachable this sweep (no open PR currently sits at that
+exact SHA to check through) — same known tooling gap as before, not a
+finding.
+
+**Re-listed open PRs fresh (15 total, all subscribed and all CI green):**
+`#225` and `#243` — both tracked as PR-owned CI issues in the previous
+entry — are no longer in the open list (resolved, merged, or closed;
+not independently confirmed which, not this thread's to chase). Four
+PRs found genuinely new to this thread's tracking and subscribed:
+`#300` (stale world-list fix in `gen_corpus_table.py`, green), `#282`
+(Atlas era-break-band removal, green), `#254` and `#253` (era-spanning
+homepage image sourcing, green — both disclose real, honest sourcing
+gaps in their own bodies, not CI problems). `#246` (Atlas era1 prose
+review) still open, still the same PR previously logged as CI-trigger-
+missed; unchanged, not re-diagnosed. Every other previously-known PR
+(`#250`, `#248`, `#247`, `#244`, `#240`, `#234`, `#233`, `#230`, `#229`,
+`#197`) reconfirmed green.
+
+**Document-hygiene spot-check (step 5):** read the diffs of the most
+recent non-merge commits on `main` (`9321610b6`, a mechanical jsdom-
+version CI fix; `a88ba7d24`, Transparency Engine Stage 3c). Both clean
+— the jsdom fix is exactly the kind of repo-wide mechanical break this
+thread would otherwise have picked up, already fixed directly by its
+own thread. No stray notes, scratch files, or WIP commentary found.
+
+**Fleet-size watch (step 7):** **11** formation-kind admitted/built
+worlds (fixture excluded) — up from 9 at the last count, still below
+the 15 threshold. No action per the routine's own instruction; logged
+here only because the count changed, not as a "found something" event.
+
+---
+
+## 2026-09-21 06:31 UTC — Periodic sweep: PR #346's red CI is its own
+## large live-merge, not a repo-wide break — flagged, not touched
+
+**`main`'s tip** (`f98aeb390`) confirmed green on GitHub Actions CI.
+Recent commits are all clean Transparency Engine work (Stage 0c through
+Stage 1, plus Decision-Log entries) from its own active thread,
+including two mechanical CI fixes (`d041530d7`, missing
+`engine/m4/requirements.txt` install; `dff79cdec`, a `test_prose.py`
+regression) already fixed directly by that thread — nothing left for
+this thread to pick up.
+
+**One new PR found and subscribed: `#346`** ("Merge who-is-at-the-table
+card redesign to live"). Its own body discloses a deliberate,
+hand-resolved merge of two branches diverged by 165 commits one way and
+116 the other, with explicit per-world choices about which side's
+`records/worlds/<code>.yaml` package pin to keep. **7 of 20 CI checks
+are red** (`Cited paths resolve`, `M2 staleness sweep`, `M2 compiler
+checks`, `M3 admission harness`, `M4 event log`, `Docker build`,
+`engine/api tests`). Checked out the branch locally and reproduced
+both root causes directly, rather than guessing from the check names:
+
+- `check_paths.py` finds 4 new unresolved citations, at least one
+  (`records/rzg/.../rzg.facilitator_brief...md` citing `worlds/rzg.yaml`)
+  a pre-repo-structure-cleanup path that no longer exists post-phase-3.
+- `engine.m2.cli staleness-check` reports **all 12 fleet worlds
+  stale**, with large `records/`-and-`compiled/` diffs per world — the
+  expected, mechanical consequence of merging two branches this
+  divergent, not a new defect either side introduced alone.
+
+**Neither reproduces on `main`'s own tip** (confirmed clean, both
+checks, same session) — this is entirely caused by PR #346's own diff,
+not a repo-wide break, so per this thread's own mandate it is **flagged,
+not fixed**. It's also exactly the territory Mark asked the dedicated
+live-site/website thread to own (2026-09-20, "I'll have the live site
+audit and amp thread look at it, we are constantly working on the live
+website") — a fleet-wide repin here would mean guessing at judgment
+calls (which world's package pin is actually correct post-merge) that
+belong to the thread doing the merge, not this one. Left entirely
+untouched; local diagnostic checkout discarded without pushing
+anything.
+
+**Fleet-size watch:** still **11**, unchanged, below threshold — no log
+needed on its own.
+
+**All 15 previously-known open PRs** (`#300`, `#282`, `#254`, `#253`,
+`#250`, `#248`, `#247`, `#246`, `#244`, `#240`, `#234`, `#233`, `#230`,
+`#229`, `#197`) unchanged since the last sweep — no failure
+notifications arrived for any of them between sweeps, consistent with
+still green.
+
+---
+
+## 2026-09-21 — PR #346 merged directly into `live`: promotion procedure
+## bypassed, flagged as an accepted exception, not unwound
+
+**What happened:** PR #346 (previous entry, above) was merged directly into
+`live` at commit `e693b048` (merged_at 2026-09-21T09:34:15Z), base `5a9938c9`.
+Confirmed via the GitHub API directly, not taken on the handoff's word: the
+PR's `merged_by` is `mchadwick25-droid` — the same account that authored the
+PR and owns this repository — so the merge was executed by Mark's own GitHub
+account. This bypassed the procedure in `CiC_Promotion_Runbook.md` in full:
+no PR from `main` into `live`, no verification pass on `cic-engine-staging`
+first. The runbook's own text is explicit that this is the one procedure
+meant to gate everything reaching `live`: "Nothing merges to `live` directly."
+
+**Why:** a prior session on this same thread believed `live` was the branch
+Cloudflare deploys the public website (`cic-website/`) from, and merged
+directly to get the who-is-at-the-table card redesign live faster. That
+belief was wrong — confirmed against `README.md` and the runbook itself:
+`live` drives only `cic-engine` (Render, the backend); `cic-website`
+deploys via Cloudflare Workers Build, a separate pipeline the runbook
+explicitly does not touch, and whose branch is a decision the runbook
+says outright is "not yet made." Mark authorized and executed the direct
+merge himself, aware it was going into `live` rather than through the
+normal `main` → `live` path.
+
+**Decision (Mark's, explicit, this thread):** leave `live`'s history as
+committed rather than revert or unwind the merge. Log this as a flagged,
+accepted exception rather than treat it as an emergency requiring
+correction. The website-relevant subset of the same content was
+separately brought to `main` (where Cloudflare's production deployment
+actually reads from) via PR #351, opened the same day — that PR does not
+fix or touch anything about this exception; it is a parallel, independent
+action.
+
+**Open, unresolved (at the time this entry was first written):** whether
+`cic-engine` (Render) is actually pointed at `live` at all right now
+cannot be confirmed from this sandbox — Render's dashboard is not
+reachable here (egress-blocked, per the runbook's own 2026-09-15 note),
+and the runbook's own one-time setup steps that would make `live` the
+real production branch are dashboard-only and stated as not yet
+confirmed done. Per the runbook's own caveat, `cic-engine` "keeps
+deploying from whatever branch Render's dashboard already has it connected
+to, almost certainly still `main`" until that setup is complete. If that
+is still the case, this exception's real production impact is smaller
+than the bypassed procedure would suggest — but that can only be settled
+by Mark checking Render's dashboard directly, not from here. Stated as an
+open unknown, not assumed either way.
+
+---
+
+## 2026-09-21 — Render confirmed: `cic-engine` deploys from `live`
+
+**Closes the open question above.** Mark checked Render's dashboard
+directly (this sandbox still cannot reach it) and confirmed: the
+`cic-engine` service's Settings → Build & Deploy branch is set to `live`,
+with a green (healthy) status at the top of the service page. The
+promotion runbook's one-time setup (`CiC_Promotion_Runbook.md`'s step 2,
+pointing `cic-engine` at `live` via the Render Blueprint sync) has
+happened — this is no longer the "almost certainly still `main`" default
+state the runbook's own caveat assumed.
+
+Practical effect on the exception logged above: PR #346's direct merge
+into `live` did reach real participant-facing production, not a branch
+Render was ignoring. The exception itself is unchanged (still logged,
+still not reverted, per Mark's own decision above) - this entry only
+corrects the previously-open question about its actual production impact,
+which is no longer smaller than the bypassed procedure would suggest.
+
+---
+
+## 2026-09-21 20:15 UTC — Total system check: `cic/engine` corpus-map self-test not wired into CI, 4/13 checks failing
+
+Requested full cross-module health sweep, wider than the routine's own
+7-step check. Main CI green (run 1117); fleet size unchanged at 11;
+`engine/` test suite clean (769/769, 0 skips, no TODO/FIXME debt);
+`staleness-check` clean across all 12 packages. One earlier-today
+Decision-Log entry (Entry 13, commit `1f13808ed`, 05:45 UTC) logged a
+failing run (740 passed / 6 failed / 23 errors, blamed on a "pre-existing
+Stage 0c package-completeness gap") - confirmed that commit predates the
+same day's Stage 4a fleet-wide package rebuild (18:51-19:22 UTC), so this
+is already resolved by that later work, not a live problem.
+
+One genuine, currently-uncaught gap found: `cic/engine/tests_corpus_map.py`
+is not pytest-collected and not wired into CI at all - it only runs if
+someone invokes it directly. Run directly, 4 of its ~13 checks fail:
+
+- `tests_corpus_map.py:18` - every map filename is a census movement id
+- `tests_corpus_map.py:45` - every bucket on disk is reproducible from staging
+- `tests_corpus_map.py:67` - every author ruling is used by some assignment
+- `tests_corpus_map.py:112` - every transmitted work has its voice assigned
+  somewhere else (named orphan: "Festal Letter XXXIX (367)")
+
+This is corpus/source-research territory (`cic/corpus-map/`), not a
+repo-wide mechanical break for this thread to fix directly - flagged here,
+not fixed. Whether these four are real data defects or a stale self-test
+assertion is a judgment call for that thread, and separately, someone
+should decide whether this file belongs in the pytest-collected suite so a
+real regression here isn't silent going forward.
+
+Everything else surveyed (Ministry workstream status, world-fleet build
+stage, frontend/website, `live` branch activity) matched already-known
+state - see conversation record for the full breakdown; not duplicated
+here since none of it changed anything actionable.
+
+---
+
+## 2026-09-21 20:05 UTC — Facilitator safety-redirect mechanism: logged done (Mark's call)
+
+Mark's direct call: the Facilitator safety mechanism is done, logged here
+as of now. Worlds stay quiet and in-character; the Facilitator recognizes
+a real safety event and handles the redirect itself, per the live
+governing doc (`CiC_L3D_Facilitator_Governance_V3.6`) - a Representative
+never handles real crisis or distress itself, and never steps out of its
+world to do so.
+
+**Scope, stated plainly so this isn't misread later:** this is the safety
+half only - participant protection during a live conversation. It is NOT
+Article 31 (external, human, qualified scholarly review of a world's
+content accuracy), which is a separate gate, remains open fleet-wide, and
+is untouched by this entry. No world's `Open_Gaps_Tracking.md` or waiver
+file was changed by this entry. Raised and clarified in conversation
+before logging, to avoid exactly this conflation.

@@ -21,9 +21,7 @@ author: Maureen A. Tilley
 work: 'The Bible in Christian North Africa: The Donatist World (Fortress Press, 1997)'
 edition: Fortress Press, 1997 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)
 kind: unvendored
-rights_status: in-copyright modern scholarship; consultation-only, never vendored (Source_Acquisition_Manifest.md
-  SS3). Cited and paraphrased by this build, never quoted as licensed vendored material. Bibliographic
-  record only -- the volume itself was not opened by this compilation pass.
+rights_status: "in-copyright modern scholarship; consultation-only, never vendored. Cited and paraphrased, never quoted as licensed vendored material - a bibliographic record only"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge / field knowledge, with the bibliographic record externally
   verified / 2026-09-01. Registry row 25. Flagged in the Registry's own priority second-opinion review

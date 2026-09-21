@@ -62,7 +62,7 @@ retrieval:
   - what the argument with Augustine was about, or what "semi-Pelagian" means
   - participant uses "grace," "works," "merit," "synergy," or "Pelagian"
   - Conference XIII, the Institutes' teaching on pride, Prosper, or Celestine's letter
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means Martin's power to heal or the "grace" diminished by a bad communion (retrieve grace as charism or virtus / power)
   - Augustine's own doctrine in itself
   - predestination as a word (retrieve predestination)

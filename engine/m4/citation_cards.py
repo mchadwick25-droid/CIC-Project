@@ -1,8 +1,8 @@
 """Resolves a cited record_id into a real, checkable source reference -
 author, work, locus, rights status - instead of the bare record id a
-citation used to be (Mark, reviewing the first name/figure bridge build:
-"the point is not just who Origen is, but the reference of what he is
-saying [so] the participant can actually look at the source document").
+citation used to be. The point is not just who Origen is, but the
+reference for what he is saying, so the participant can actually look at
+the source document.
 
 Every record's own `sources[]` (envelope field, Artifact-1 SS3) already
 names a `source_id` + `locus`; every `source` record already names its
@@ -36,6 +36,8 @@ the SAME figure-label lookup a figure's own card uses, rather than a
 cruder id-to-slug fallback.
 """
 import re
+
+from engine.prose import short_head
 
 _NAME_TAXONOMY_SUFFIX = re.compile(r"\s*\[[^\]]*\]\s*$")
 
@@ -87,29 +89,21 @@ def _quote_speaker_label(record: dict, repository_records: dict) -> str | None:
     return raw
 
 
-def _short_head(text: str) -> str:
-    """The title of a work/locus string before its scholarly apparatus.
-    The corpus writes both fields title-first, apparatus after: work as
-    "The Didache (The Teaching of the Twelve Apostles); final form c.
-    80-120 CE per Niederwimmer..." and locus as "Trallians 9 (the 'truly
-    born...truly raised' chain)". The full strings stay in the card's
-    sources[] untouched - this only builds the headline."""
-    return (text or "").split(";")[0].split(" (")[0].strip()
-
-
 def _quote_label(record: dict, repository_records: dict) -> str | None:
-    """Source first, person as attribution (Mark's pilot read, 2026-08-30:
-    "the links are to ignatious, not the source" - the quote card's
-    headline was the speaker, with the work below it in small text; the
-    same correction he already made once for the figure bridge, "the
-    point is not just who Origen is, but the reference of what he is
-    saying"). A quote with no sources[] still labels by its speaker -
-    honest attribution beats a blank."""
+    """Source first, person as attribution: the quote card's
+    headline used to be the speaker, with the work below it in small text,
+    and the links pointed to the person rather than the source - the
+    same correction already made once for the figure bridge: the
+    point is not just who is speaking, but the reference for what they are
+    saying. A quote with no sources[] still labels by its speaker -
+    honest attribution beats a blank. The full work/locus strings stay in
+    the card's sources[] untouched (engine.prose.short_head only builds
+    this headline)."""
     speaker = _quote_speaker_label(record, repository_records)
     entry = next(iter(record.get("sources") or []), {})
     source_record = repository_records.get(entry.get("source_id")) or {}
-    work = _short_head(source_record.get("work") or "")
-    locus = _short_head(entry.get("locus") or "")
+    work = short_head(source_record.get("work") or "")
+    locus = short_head(entry.get("locus") or "")
     head = ", ".join(part for part in (work, locus) if part)
     if head and speaker:
         return f"{head} — {speaker}"
@@ -162,7 +156,7 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
         "sources": sources,
     }
     if record.get("record_type") == "quote" and record.get("modern_rendering"):
-        # Mark's ruling (2026-08-28): a quote spoken in its build-authored
+        # A quote spoken in its build-authored
         # modern rendering carries its original wording on the click page.
         card["original_wording"] = record.get("text")
         card["spoken_rendering"] = record.get("modern_rendering")

@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - fasting, discipline, or ascetic practice generally
   - why extreme ascetics would be corrected rather than praised
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.adelphotes

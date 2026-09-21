@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - this world's earliest attested trace, or how old the Edessa church is
   - how the community's own past was preserved (archive versus testimony)
-  do_not_retrieve_when:
+  prefer_instead:
   - requests for eyewitness or first-person accounts of the flood (none exist)
 relations:
 - type: associated-with

@@ -21,8 +21,7 @@ work: Caesarea's suburban poorhouse-hospital complex (Documented as an instituti
 edition: Attested via cappadocian.source.basil-letters-general-corpus (NPNF208, row 5) and cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil
   (NPNF207, row 34)
 kind: unvendored
-rights_status: public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py)
-  in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9).
+rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 85; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

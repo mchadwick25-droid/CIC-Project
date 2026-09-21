@@ -45,9 +45,9 @@ class Settings:
     # exists; this flag is when it BITES: only admitted/open worlds are
     # listed or seated, interview and table alike. The code default stays
     # off (local dev and tests construct their own stages), but the
-    # DEPLOYED value is "1": Mark flipped the doors open on 2026-08-28
-    # ("open the doors, flip the switch"), the same day he admitted all
-    # six worlds - render.yaml carries the flip and its record; the
+    # DEPLOYED value is "1": the doors are open,
+    # the same day all six worlds were admitted - render.yaml carries the
+    # flip and its record; the
     # declared deferral this flag was born with is ended.
     enforce_admission: bool
     # Gates /api/admin/pilot-summary (2026-09-05: "how many pilot

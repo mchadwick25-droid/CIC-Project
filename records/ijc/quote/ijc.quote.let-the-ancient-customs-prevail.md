@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what this world treated as authoritative and how it read it"
   - "participant asks how church authority was decided or justified here"
   - "participant asks whether the bishop of Rome was in charge"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.dw.how-we-read

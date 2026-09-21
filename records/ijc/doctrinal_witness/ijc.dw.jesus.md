@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   To us, Jesus was the one the whole argument was about, and the
   argument itself was our devotion. Who was he? The creed answers: very God

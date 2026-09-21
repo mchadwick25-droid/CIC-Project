@@ -54,7 +54,6 @@ retrieval:
   - participant asks what actually happened when we gathered, or what we said
   - participant asks for something of ours that did not pass through our enemies' hands
   - participant asks how one church could be told from the other in daily life
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: don.dw.two-churches-in-one-town

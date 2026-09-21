@@ -40,7 +40,7 @@ retrieval:
   - participant asks about the Macarian persecution of 347-348
   - participant wants our fullest account in the hagiographic register, as against the more documentary
     don.story.macrobius-letter
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants a minimally embellished account of the same persecution - don.story.macrobius-letter
     has a named author writing close to the events
   - participant is testing whether the rival communion accepted these deaths as martyrdom; it did not,
@@ -113,15 +113,12 @@ marculi.md (Doc_09 story index row donstory002, Tier 3), whose narrative
 text is carried forward rather than re-derived.
 
 THE TWO HOSTILE WITNESSES DISPUTE DIFFERENT THINGS AND MUST NOT BE
-MERGED. Doc_09's Round 1 review (H2) found the chunk's first draft had
-attributed the martyrdom-versus-self-destruction dispute to "Optatus's
-own text, which Augustine quotes." It is not a citation chain: Optatus
+MERGED. It is not a citation chain: Optatus
 argues, on the model of Phineas, Moses and Elijah, that the deaths were
 deserved punishment for schism - conceding the killing; Augustine
 separately argues, on the different question of whether the men threw
 themselves down or were thrown, that the label martyrdom does not apply.
-Two authors, two arguments, two works. The corrected attribution is the
-one carried in sources[] above.
+Two authors, two arguments, two works, as carried in sources[] above.
 
 ANOTHER DONATUS, NOT DONATUS THE GREAT. Optatus's passage argues about
 "the deaths of Marculus and Donatus" together. Which Donatus that is, is

@@ -4,7 +4,7 @@ gate calls, real turn-selector calls, real voice generations, the
 grounding net over real model output, per-world usage attribution read
 back from the usage store. Real, billed Bedrock calls - like
 engine/provider/preflight.py and engine/m4/live_turn_run.py, a by-hand,
-credentialed run under Mark's explicit per-run authorization, never a CI
+credentialed run under explicit per-run authorization, never a CI
 job.
 
 Deliberately drives engine.api.table_wiring itself (create_table_session /
@@ -31,6 +31,7 @@ from engine.api.table_wiring import (
     handle_table_message,
 )
 from engine.m1.registry import load_registry
+from engine.m4.output_check import find_shipped_defects
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader
@@ -74,9 +75,9 @@ def _turn_summary(result) -> dict:
             "degraded_by_net": voice.get("degraded_by_net", False),
             "output_defects": voice.get("output_defects", []),
             "text": voice["text"],
-            # The transparency apparatus, whole (added after Mark asked to
-            # SEE it and the first three reports turned out to have
-            # summarized it away): per-sentence citations with their
+            # The transparency apparatus, whole (the first three reports
+            # turned out to have summarized it away, when it needs to be
+            # visible): per-sentence citations with their
             # resolved sources, lexicon glosses, figure bridges, quote
             # offers. This is participant-facing data the engine produces
             # on every turn - a run report that drops it hides the
@@ -190,7 +191,17 @@ def main() -> int:
     out.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"report written: {out}")
     print(f"isolation violations: {len(report['isolation_violations'])}")
-    return 0
+
+    # H-3 (witt go-live adversarial review, 2026-09-19) - see
+    # engine.m4.output_check.find_shipped_defects for why this is checked
+    # here rather than left to a reviewer reading the raw JSON.
+    shipped_defects = find_shipped_defects(report)
+    if shipped_defects:
+        print(f"SHIPPED OUTPUT DEFECT(S): {len(shipped_defects)} - see output_defects in the report above", flush=True)
+        for d in shipped_defects:
+            print(f"  [round {d.get('round_no')} pos {d.get('position')}] {d.get('family')}: {d.get('finding')}", flush=True)
+
+    return 0 if not report["isolation_violations"] and not shipped_defects else 1
 
 
 if __name__ == "__main__":

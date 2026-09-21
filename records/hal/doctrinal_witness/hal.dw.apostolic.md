@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Did our practices go back to the apostles? Our baptism, our
   eucharist, and our scriptures came from the whole church, and those we

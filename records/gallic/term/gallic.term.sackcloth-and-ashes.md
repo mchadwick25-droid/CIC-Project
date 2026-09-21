@@ -40,7 +40,7 @@ retrieval:
   - why Cassian's Egyptians disapproved of sackcloth
   - participant uses "sackcloth," "hair shirt," "ashes," "penitential garment," "cilice"
   - Martin before Valentinian; the exorcism posture; the deathbed; threads from the sackcloth; Inst. I.2
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the monk's dress as a system (retrieve the monk's dress)
   - the question is about penance for a fault (retrieve penance / satisfaction)
   - later penitential practice

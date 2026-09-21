@@ -26,7 +26,6 @@ retrieval:
   - "participant asks what difference Jesus made, or what changed because of him"
   - "participant asks what the cross meant to this world"
   - "participant asks why these people were not afraid to die"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.jesus

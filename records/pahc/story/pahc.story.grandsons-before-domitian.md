@@ -28,7 +28,6 @@ retrieval:
   - what ordinary Christians were like - poor, working, unlettered
   - whether the first Christians were rich or educated
   - what happened to Jesus' own family
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: pahc.gravity.state-pressure}
 narrative_tier: 1

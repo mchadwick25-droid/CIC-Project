@@ -30,17 +30,15 @@ retrieval:
   retrieve_when:
   - "participant asks whether there was room for doubt among them"
   - "participant asks what someone did who could not believe what they were told"
-  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf02_hermas-tatian-athenagoras-
 theophilus-clement-alexandria.xml, div1 ii, section iii (ii.iii.ix).
 Excerpted with ellipses from a longer single-speaker passage; each
 retained clause is contiguous verbatim text from the vendored file, not
 a composite. Direct textual ground for pahc.witness.doubt-and-asking.
-FIXED at Step 8 round-1 review: speaker_or_author previously attributed
-this speech to Hermas himself; the vendored text opens "He says to me"
+The vendored text opens "He says to me"
 - the speaker is the Shepherd (Hermas's own angelic guide throughout
 the work), and Hermas is the one addressed. No separate pahc.figure
-record exists for the Shepherd, so speaker_or_author is now a
+record exists for the Shepherd, so speaker_or_author is a
 descriptive string rather than a figure-id claim this build cannot
 back with its own figure record.

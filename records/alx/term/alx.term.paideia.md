@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - suffering-as-teaching questions
   - formation frame questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.suffering

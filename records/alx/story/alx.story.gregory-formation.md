@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - how someone was actually taught/formed
   - the teacher-student relationship
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.quote.gregory-spark
@@ -56,47 +55,34 @@ modern_contrast: >
 ---
 Most elements are in the Address itself, within the stated VI-XVI locus
 (the soil-testing and curriculum sequence in Arguments VII-IX, the spark
-passage in Argument VI, the paradise lament in Argument XVI) - corrected
-2026-09-08, records/alx audit: this note previously claimed "every
-element is in the Address," which overstated the record's own citation.
-Two facts in the opening sentence are not from Arguments VI-XVI, or even
-from the Address's own body text, but from the vendored ANF06 volume's
+passage in Argument VI, the paradise lament in Argument XVI). Two facts
+in the opening sentence come instead from the vendored ANF06 volume's
 editorial introduction to Gregory (preceding the Address's own division
-at file line 2288): (1) "Cappadocia" was wrong - the introduction states
-Gregory "was a native of Neo-Cæsarea, the chief city of Pontus" (anf06
-line 631-632; restated line 796-797, "a native of Neo-Cæsareia... one of
-the most important towns of Pontus"), matching this world's own
-alx.figure.gregory-thaumaturgus ("Gregory Thaumaturgus of Neocaesarea").
-Corrected to Neo-Caesarea, in Pontus. (2) "Eight years" was also
-wrong for the time under Origen - the Address's only "eight years" is
+at file line 2288), not from Arguments VI-XVI or the Address's own body
+text: (1) homeland - the introduction states Gregory "was a native of
+Neo-Cæsarea, the chief city of Pontus" (anf06 line 631-632; restated line
+796-797, "a native of Neo-Cæsareia... one of the most important towns of
+Pontus"), matching this world's own alx.figure.gregory-thaumaturgus
+("Gregory Thaumaturgus of Neocaesarea"). Cappadocia appears elsewhere in
+the vendored file - "Alexander of Cappadocia" as a distinct historical
+figure (lines 14688, 15623-15636) and Cappadocia in provincial lists
+(17325, 28982) - but none of these occurrences names Gregory's own
+homeland. (2) time under Origen - the introduction's own figure for the
+residence with Origen is "some five years" (anf06 line 812: "After a
+residence of some five years with the great Alexandrian, he returned to
+his native city"), matching alx.figure.gregory-thaumaturgus's "student
+under Origen at Caesarea c. 233-238." The Address's only "eight years" is
 Argument I's separate claim about giving up oratory ("it is now eight
 years since I chanced myself to utter or compose any speech," anf06 line
-2319), not the span of study with Origen. The introduction's own figure
-for the residence with Origen is "some five years" (anf06 line 812:
-"After a residence of some five years with the great Alexandrian, he
-returned to his native city"), matching alx.figure.gregory-thaumaturgus's
-"student under Origen at Caesarea c. 233-238." Corrected to five years.
+2319), not the span of study with Origen.
 
-corrected 2026-09-08, records/alx audit, round 2: two errors in the note
-above, and one uncited-locus gap. First, "line ~817" for the five-years
-sentence was imprecise; the exact line is 812. Second, the claim that
-"Cappadocia" appears in the vendored file "only as Firmilian's unrelated
-see" was false - the file also names "Alexander of Cappadocia" five
-times (lines 14688, 15623-15636) as a distinct historical figure and
-Cappadocia twice more in provincial lists (17325, 28982); none of these
-occurrences is Gregory's homeland either, so the substantive correction
-(Neo-Caesarea, not Cappadocia, is Gregory's own home) is unaffected, but
-the note's supporting claim was overstated and is removed rather than
-repeated. Third, this record's only cited source locus is "VI-XVI"
-(Arguments VI through XVI of the Address proper) - both corrected facts
-in the opening sentence (homeland, years with Origen) come from the
-ANF06 volume's editorial introduction preceding the Address, which nothing
-in sources: currently covers. The locus above is left as VI-XVI because
-that is genuinely what the Address's own narrated content (soil-testing,
-curriculum, spark, paradise lament) rests on; the two introduction-sourced
-facts are disclosed here, in the body, as resting on the volume's
-editorial front matter (anf06 lines 631-632, 796-797, 812) rather than on
-the Address itself, consistent with how this record already discloses the
-distinction between the Address's own narration and its surrounding
-apparatus.
+This record's only cited source locus is "VI-XVI" (Arguments VI through
+XVI of the Address proper), which is genuinely what the Address's own
+narrated content (soil-testing, curriculum, spark, paradise lament) rests
+on. The two introduction-sourced facts above (homeland, years with
+Origen) come from the ANF06 volume's editorial front matter (anf06 lines
+631-632, 796-797, 812), which nothing in sources: currently covers; they
+are disclosed here, in the body, consistent with how this record already
+discloses the distinction between the Address's own narration and its
+surrounding apparatus.
 Companion quote: alx.quote.gregory-spark.

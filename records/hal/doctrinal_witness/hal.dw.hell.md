@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Do you believe people like me are going to hell? Here is what we
   actually held, without softening. We believed in real judgment and real

@@ -16,11 +16,10 @@ confidence:
   divergence_note: 'The bare institutional fact of a complete parallel hierarchy is undisputed even by the hostile
     sources reporting it (Doc_04 SS5, G4''s Cross-Voice pass). What remains hostile-mediated is everything beyond
     that bare fact -- individual bishops'' conduct and motives reach this record through Optatus''s and Augustine''s
-    characterisation (Doc_02 SS2). One figure is corrected here rather than repeated: the 411 Conference seated
-    279 Donatist bishops against 286 Catholic, a correction Doc_01 SS2 and Doc_04 SS3.4 both carry from an earlier,
-    unverified 284; the deployment chunk `donlex015_bishop-episcopus.md` still says 284 in its own World Meaning
-    and Distortion Risk sections while its Key Sources note states the correction, and this record follows the
-    corrected figure.'
+    characterisation (Doc_02 SS2). The 411 Conference seated
+    279 Donatist bishops against 286 Catholic (Doc_01 SS2, Doc_04 SS3.4); the deployment chunk `donlex015_bishop-episcopus.md` still says 284 in its own World Meaning
+    and Distortion Risk sections while its Key Sources note states 279, and this record follows the
+    279 figure.'
 sources:
 - source_id: don.source.gesta-collationis-carthaginiensis-411
   locus: the 411 Conference -- 279 Donatist against 286 Catholic bishops seated
@@ -40,7 +39,7 @@ retrieval:
   - a participant asks how these churches were organised, or why one city had two bishops
   - a participant asks about a specific council, the Maximianist affair, or the 411 Conference
   - the conversation reaches who holds legitimate church office
-  do_not_retrieve_when:
+  prefer_instead:
   - the office of bishop is being asked about generically, with no bearing on the rival-hierarchy situation
 relations:
 - type: presupposes

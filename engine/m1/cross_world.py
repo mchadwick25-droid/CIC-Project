@@ -36,12 +36,17 @@ import json
 import re
 import sys
 
+import statistics
+
 from engine.m1.loader import RECORDS_ROOT, load_world_records
 from engine.m1.registry import REPO_ROOT, formation_world_keys, load_registry
+from engine.m1.spoken_fields import PARTICIPANT_FIELDS, SPOKEN_FIELDS, fields_with_role
+from engine.m7.instruments import _strip_quoted
 
 CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 APP_WORLDS_TS = REPO_ROOT / "cic-poc" / "frontend" / "src" / "data" / "worlds.ts"
 SITE_TRADITIONS_DIR = REPO_ROOT / "cic-website" / "traditions"
+SITE_TABLE_HTML = REPO_ROOT / "cic-website" / "table.html"
 
 DEFECT = "defect"
 OBSERVATION = "observation"
@@ -50,12 +55,12 @@ OBSERVATION = "observation"
 # this one is known, it is written up, and it is somebody's named next step -
 # not that it is acceptable. See the audit doc for each finding's evidence.
 ACCEPTED_OPEN: dict[str, str] = {
-    "census-living-flag/alx": "F-06 - census `living` says false, registry says true; which is correct is Mark's own per-world Living Tradition touchpoint, not a build thread's to settle",
-    "census-living-flag/pahc": "F-06 - as alx",
-    "census-living-flag/hal": "F-06 - as alx",
-    "census-living-flag/ijc": "F-06 - as alx",
-    # F-07/F-08 CLOSED 2026-08-28 by Mark's identity ruling ("the registry
-    # wins"): the census now derives its representative name/title from
+    # F-06 CLOSED for alx/pahc/ijc 2026-09-21 (website-card-redesign-to-main): each
+    # world's own world_front/world_core build resolved its Living Tradition
+    # determination, and the compiled census `living` flag now matches the
+    # registry's `living_tradition_flag` for all three - the waiver no longer fires.
+    "census-living-flag/hal": "F-06 - census `living` says false, registry says true; which is correct is a per-world Living Tradition touchpoint, not a build thread's to settle",
+    # F-07/F-08 CLOSED 2026-08-28: the registry wins - the census now derives its representative name/title from
     # records/worlds.yaml (syr's registry entry took the ruled values Mar
     # Yausep / Teacher of the Covenant Order), so these five accepted-open
     # entries are deleted and the checks ENFORCE - identity drift between
@@ -82,19 +87,73 @@ ACCEPTED_OPEN: dict[str, str] = {
     # accuracy, the traditions page, the index.html homepage card) closed
     # the same day; and the status flip itself (world-census.json's
     # `status` -> "Built & Live", `entry` block populated) closed 2026-09-13
-    # too, on Mark's own explicit word ("yes, flip it") after the frontend
+    # too, after the frontend
     # card was confirmed to link to a deep link that could not yet resolve
     # without it - matching Cappadocian's own distinct SS30-SS32 sequence.
     # All four gallic entries this dict once carried are gone, not left
     # stale.
     "figure-dates-keys/don": "F-04-analogue - all 24 don figure records key figure.dates as `display`, the same pattern and the same reason as figure-dates-keys/cappadocian above: this world's own dating is pervasively contested or multi-clause (two Marcellinuses roughly a century apart, three Felixes, disputed Passio dating with two vendored authorities disagreeing by over two decades) and does not reduce to born/died/floruit without losing the disclosed uncertainty itself. Same disclosed-not-fixed disposition, found compiling the world rather than wiring a portrait - belongs to a don build thread, not a mass rewrite improvised here.",
-    "app-world-assets/don": "Record-native compilation, 2026-09-10: Phase C deployment wiring (app/world_manifest.py, WORLD_ASSETS, frontend hand-sync points) was never in scope for the record-native compile (Phase B) this entry covers - it is the next, separate phase per reference/method/CiC_Record_Native_World_Build_Process_V1_3.md SS4, and belongs to whoever picks up Donatism's own go-live work.",
-    "app-world-order/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
-    "site-portrait/don": "Record-native compilation, 2026-09-10: as app-world-assets/don - the traditions/donatism.html portrait page is deployment wiring, out of scope for this compile, deferred to Donatism's own Phase C work.",
+    # app-world-assets/don, app-world-order/don, site-portrait/don CLOSED
+    # 2026-09-16: the deployment wiring these named as deferred (frontend
+    # worlds.ts registration, the Fidelis portrait, the traditions page) is
+    # done - the approved Fidelis portrait (locked 2026-09-10, sitting
+    # unshipped in Ministry/Communication/Brand-Assets/ until now) shipped
+    # to both live-serving asset locations, don registered in
+    # cic-poc/frontend/src/data/worlds.ts, and traditions/donatism.html
+    # built grounded in this world's own records. Not left stale.
+    # census-id/don CLOSED 2026-09-16: opened for the real admitted-but-
+    # not-yet-open gap between don's admission and its open-state flip;
+    # closed the same day once `python -m engine.m6.cli
+    # sync` actually ran against the open state. Not left stale.
+    #
+    # figure-dates-keys/{alx,desert,hal,ijc,syr}: NOT a new defect in any
+    # of these five worlds' own content - a pure side effect of rzg's own
+    # admission as the fleet's 10th formation world, found by this world's
+    # own go-live test battery, 2026-09-18. check_figure_dates_keys()'s own
+    # threshold is a STRICT majority (more than half of all worlds), not
+    # "the most common key" - with 9 formation worlds, 'born' at 5/9 cleared
+    # it; with rzg's own addition (which uses died/floruit only, no birth
+    # dates independently verified this pass) the fleet is now 10 worlds,
+    # and 5/10 no longer clears strict-majority (5 is not > 5). The same
+    # five worlds' own figure.dates content is unchanged; only the fleet-
+    # size denominator moved. Belongs to whichever world's own build thread
+    # eventually revisits figure.dates fleet-wide, not a rewrite improvised
+    # here - the same "disclosed, not silently fixed" disposition every
+    # other figure-dates-keys entry above already uses.
+    "figure-dates-keys/alx": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
+    "figure-dates-keys/desert": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
+    "figure-dates-keys/hal": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
+    "figure-dates-keys/ijc": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
+    "figure-dates-keys/syr": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
+    "figure-dates-keys/witt": "F-04-analogue - all 6 witt figure records key figure.dates as `display` (one-sentence prose covering dates this world's own sources leave contested or partial - e.g. Luther's own record gives no birth date and states his death year only as this world's already-established closing boundary; the Brussels martyrs record gives a burning date corrected from a printed heading's own misprint and states plainly that no birth date or age survives for either man) - none of the six reduce cleanly to born/died/floruit without losing the disclosed uncertainty itself. Found 2026-09-19 during Phase C recon; same disclosed-not-fixed disposition as pahc's, cappadocian's, gallic's, and don's own instances, not a mass rewrite improvised under this step - belongs to a witt build thread.",
+    # app-world-assets/witt, app-world-order/witt, and site-portrait/witt
+    # CLOSED 2026-09-20: all three opened 2026-09-19 for the same
+    # frontend-deployment-wiring gap this comment block described as "the
+    # actual remaining work". app-world-assets/app-world-order closed the
+    # same go-live pipeline's own merge pass once cic-poc/frontend/src/data/
+    # worlds.ts actually got its WORLD_ORDER entry and WORLD_ASSETS entry
+    # (witt's accent color reused from cic-website/table.html's own
+    # already-fixed #579C40, contrast independently recomputed against both
+    # dark-mode thresholds rather than assumed). site-portrait/witt CLOSED
+    # 2026-09-20: opened during Phase C recon for the portrait image FILE
+    # this comment block's own prior text named as the one outstanding
+    # piece. The actual file was placed - as nikolaus.jpg, not the .png
+    # this tracking's own earlier notes assumed - into cic-website/assets/
+    # portraits/ (PR #323, "Wire in Nikolaus's portrait") and the
+    # traditions page's own <img src> was updated to match; that closed
+    # the public site's own side. cic-poc/frontend's own separate
+    # live-serving copy and worlds.ts's portraitImage path (which still
+    # pointed at the old .png guess) were the one piece still open after
+    # that PR and have been corrected here to match the real file. Not
+    # left stale.
+    # census-id/witt CLOSED 2026-09-19: opened for the real admitted-but-
+    # not-yet-synced gap right after witt's own admission; closed the same
+    # day once `python -m engine.m6.cli sync` actually ran, the same
+    # day-of pattern don's own census-id/don entry showed. Not left stale.
 }
 
 
-# FIRST-PASS coverage ranges, asserted here for Mark's correction, not derived.
+# FIRST-PASS coverage ranges, asserted here to be checked and corrected, not derived.
 # A volume's own dates cannot be read off the file mechanically, and guessing
 # them silently would be worse than stating them where they can be argued
 # with. Range = the span the volume's contents actually testify to, so a
@@ -214,12 +273,11 @@ COVERAGE = {
 }
 BY_DESIGN = {"webbe", "anf10"}
 
-# Geography, added on Mark's ruling 2026-08-26 ("if geography is a defining
-# element of the christian tradition, then yes add it"). It is - and it does
+# Geography is a defining element of the christian tradition, and it does
 # work dates cannot: `pahc` is Greek-speaking Antioch and Asia Minor while
 # `syr` is Syriac-speaking Mesopotamia, two different worlds that overlap
 # almost entirely in time. Tags are FIRST-PASS, asserted for correction like
-# COVERAGE, and they RANK rather than exclude: Mark's standard is that a
+# COVERAGE, and they RANK rather than exclude: the standard is that a
 # resource may be ranked low and never ignored, so a region mismatch demotes
 # a volume in the worklist and never removes it.
 REGIONS = {
@@ -308,9 +366,9 @@ WORLD_REGIONS = {
 
 # WHY THERE IS NO THIRD, THEOLOGICAL AXIS HERE, and why one must not be added.
 #
-# Mark, 2026-08-26: "there has to be a theological center, as the gnostics are
+# There has to be a theological center: the gnostics are
 # the same time and place as alexandria but they are not a part of the
-# christian tradition." Correct, and the project already enforces it - twice,
+# christian tradition. The project already enforces it - twice,
 # and in the right places, neither of which is corpus scope:
 #
 #   * At WORLD level: cic-website/data/world-census.json carries `beyondFloor`
@@ -348,7 +406,7 @@ WORLD_REGIONS = {
 
 
 def corpus_tier(filename: str, world_key: str, world_window: dict, *, named: bool) -> str:
-    """Mark's ranking, in one place. Nothing here returns "excluded"."""
+    """The corpus tier ranking, in one place. Nothing here returns "excluded"."""
     key = corpus_key(filename)
     if key in BY_DESIGN:
         return "by design"
@@ -546,8 +604,8 @@ def check_census_agreement(*, registry, worlds, **_) -> list[Finding]:
             findings.append(_defect("census-display-name", w, f"census name {entry['name']!r} != registry display_name {registry[w].get('display_name')!r}"))
         # The friendly card name (entry.worldName - what the homepage card
         # and Atlas sheet actually display) was the ONE participant-facing
-        # identity field nothing compared (2026-08-28 foundation audit,
-        # F-16). Mark's same-day ruling: both name registers live in the
+        # identity field nothing compared (foundation audit,
+        # F-16). Both name registers live in the
         # registry - card_name friendly, display_name scholarly - and the
         # census derives.
         if e.get("worldName") and registry[w].get("card_name") and e["worldName"] != registry[w]["card_name"]:
@@ -672,14 +730,10 @@ _BUILD_REF = re.compile(r"\bDoc_\d|\bArtifact-\d|\bBUILD-LOG\b|\bthis build\b|\b
 # attribution scopes itself to build_prompt()'s own field contract:
 # commentary fields are a LEGITIMATE home for build language, and scanning
 # them would bury the real findings.
-_PARTICIPANT_FIELDS = {
-    "figure": ["bridge_line"],
-    "term": ["world_word"],
-    "story": ["tellable_as"],
-    "gravity": ["name"],
-    "force": ["name"],
-    "contested_claim": ["claim"],
-}
+# Relocated to engine/m1/spoken_fields.py (PARTICIPANT_FIELDS) 2026-09-19 -
+# one declared spoken-field registry instead of six/seven independent
+# lists; see that module's own docstring. Same values, same behavior.
+_PARTICIPANT_FIELDS = PARTICIPANT_FIELDS
 
 
 def check_participant_field_leaks(*, records, worlds, **_) -> list[Finding]:
@@ -784,6 +838,32 @@ def check_site_portraits(*, registry, worlds, **_) -> list[Finding]:
     return findings
 
 
+def check_table_html_worlds(*, registry, worlds, **_) -> list[Finding]:
+    """cic-website/table.html carries its OWN hand-maintained `WORLDS` array
+    (id/name/trad/portrait/tint/description) for the Table's seat-picker -
+    a third registration point independent of both the app's WORLD_ASSETS
+    and the site's traditions pages, and the one no check here has ever
+    covered. Found live: Renatus/gallic worked for the
+    Atlas card and Interview but was silently absent from the Table's own
+    picker for four days after admission, because nobody added it here.
+    A world missing from this file is fully admitted, fully wired
+    everywhere else, and simply never offered as a seat - no error, no
+    broken image, just absent."""
+    findings = []
+    if not SITE_TABLE_HTML.is_file():
+        return [_defect("table-html-file", "fleet", f"{SITE_TABLE_HTML} not found")]
+    text = SITE_TABLE_HTML.read_text(encoding="utf-8")
+    array_match = re.search(r"var\s+WORLDS\s*=\s*\[(.*?)\n\];", text, re.S)
+    ids = set(re.findall(r"id:\s*'([^']+)'", array_match.group(1))) if array_match else set()
+    for w in worlds:
+        cid = registry[w].get("census_id")
+        if not cid:
+            continue
+        if cid not in ids:
+            findings.append(_defect("table-html-world", w, f"census_id {cid!r} has no entry in table.html's own WORLDS array - never offered as a Table seat, though it may work fine for Interview"))
+    return findings
+
+
 # --------------------------------------------------------------------------
 # observations: measured, never thresholded
 # --------------------------------------------------------------------------
@@ -870,7 +950,7 @@ def observe_uncompiled_required_fields(*, records, worlds, **_) -> list[Finding]
 
 
 def observe_second_hand_sources(*, records, worlds, **_) -> list[Finding]:
-    """Mark's standard, 2026-08-26: every world should reach every available
+    """The standard: every world should reach every available
     resource - they can be ranked, but never ignored.
 
     The runtime cannot deliver that by ranking. engine/m4 never opens a file
@@ -911,15 +991,151 @@ def observe_second_hand_sources(*, records, worlds, **_) -> list[Finding]:
     return findings
 
 
+def observe_outside_help_guard(*, records, worlds, **_) -> list[Finding]:
+    """Stage 0e (Build-Plan.md): does this world's voice_craft.guard carry
+    a categorical prohibition against measuring a participant's own
+    disclosed distress against the world's own history? don's own guard
+    field (records/don/voice_craft/don.craft.fidelis-voice.md) is the
+    exemplar: "A participant's own disclosed distress is never measured
+    against our martyrs'. Not 'what presses on you now is not the same
+    weight.' Not any weighing of a living person's trouble against a death
+    we commemorate." That matters because a guard that lets a voice
+    minimize or compare a participant's trouble to historical suffering
+    works against exactly what Safety comes first (CLAUDE.md) asks for -
+    it risks discouraging the one participant a real crisis moment needs
+    to reach toward help, not obviously less so than an invented personal
+    quirk would.
+
+    A keyword scan over guard's own free text, not a semantic judgment - it
+    can only ever say a guard field NAMES this concern in roughly don's own
+    words, never that a world's actual behavior honors it. Report-only:
+    nothing here fails a build. The printed world list is filed under R19
+    in Rulings-Pending.md for a real ruling on whether and how to promote
+    this to a gate.
+    """
+    signals = ("measured against", "weigh", "not the same weight", "weighing")
+    findings = []
+    for w in worlds:
+        crafts = [r for r in records[w].values() if r["record_type"] == "voice_craft"]
+        guard_text = " ".join(str(r.get("guard") or "") for r in crafts).lower()
+        hit = any(s in guard_text for s in signals)
+        findings.append(_observation(
+            "outside-help-guard", w,
+            f"voice_craft.guard {'carries' if hit else 'does not carry'} don-style distress-comparison language"
+            + ("" if crafts else " (no voice_craft record found)")))
+    return findings
+
+
+_SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
+
+
+def _content_word_count(text: str) -> int:
+    """Word count with a bare `-`/`–`/`—` token (a spaced dash used as
+    punctuation, not a word) excluded - matches how a participant would
+    actually count words in the sentence."""
+    return sum(1 for tok in text.split() if tok.strip("-–—") != "")
+
+
+def _field_texts(world_records: dict, record_type: str, field_name: str) -> list[str]:
+    """Every spoken string a field contributes, one entry per record. A
+    plain string field contributes itself; a list field contributes each
+    string item, or each dict item's own `text` (the only list-of-dict
+    voice-diet field today is `demonstration.exchange`, `{speaker, text}`)."""
+    texts = []
+    for r in world_records.values():
+        if r.get("record_type") != record_type:
+            continue
+        v = r.get(field_name)
+        if isinstance(v, str) and v.strip():
+            texts.append(v)
+        elif isinstance(v, list):
+            for item in v:
+                if isinstance(item, str) and item.strip():
+                    texts.append(item)
+                elif isinstance(item, dict) and isinstance(item.get("text"), str) and item["text"].strip():
+                    texts.append(item["text"])
+    return texts
+
+
+def _register_profile(texts: list[str]) -> dict:
+    """Median words, longest sentence, fragment ratio, and dash density
+    across a field's own texts for one world - same math as
+    engine.m7.instruments.register_mechanical's own cadence metrics
+    (spaced-dash density, the <=5-word fragment share), applied here to
+    the compiled record layer instead of a live conversation turn, and
+    reusing its own `_strip_quoted`: quotes are the tradition's own words,
+    exempt from the plain band (reference/method/
+    CiC_Register_Bar_2026-08-29.md), never screened at this layer either.
+    `median_low` (the lower of the two middle values on an even count)
+    rather than an interpolated average - a real record's own word count,
+    never a number no record actually has."""
+    stripped = [_strip_quoted(t) for t in texts]
+    word_counts = [_content_word_count(t) for t in stripped]
+    sentences = [s.strip() for t in stripped for s in _SENTENCE_SPLIT.split(t) if s.strip()]
+    sentence_lens = [_content_word_count(s) for s in sentences]
+    total_words = sum(word_counts)
+    total_dashes = sum(t.count(" - ") for t in stripped)
+    return {
+        "n": len(texts),
+        "median_words": statistics.median_low(word_counts) if word_counts else 0,
+        "longest_sentence": max(sentence_lens) if sentence_lens else 0,
+        "fragment_ratio": round(sum(1 for n in sentence_lens if n <= 5) / len(sentence_lens), 2) if sentence_lens else 0.0,
+        "dash_per_100w": round(100 * total_dashes / total_words, 2) if total_words else 0.0,
+    }
+
+
+# alx and hal read as the fleet's own best-behaved worlds on every metric
+# below (Rulings-Pending.md R6: "the ceilings proposed will be the fleet's
+# own exemplars, not an arbitrary number") - printed once as the context a
+# proposed ceiling is measured against, not a pass/fail line of their own.
+_EXEMPLAR_WORLDS = ("alx", "hal")
+
+
+def observe_register_profile(*, records, worlds, **_) -> list[Finding]:
+    """Stage 2c (Build-Plan.md): per world, per voice-diet spoken field -
+    median words, longest sentence, fragment ratio, dash density
+    (`_register_profile`, above). OBSERVATION only, exactly like this
+    module's other `observe_*` checks: nothing here fails a build. Gate
+    promotion is explicitly blocked on R6 (Rulings-Pending.md) - a real
+    ruling on scope (which fields screen) and on whether numbers ever gate
+    at all, not this stage's to decide.
+
+    `alx`/`hal` print first, unscored, as the exemplar context a proposed
+    ceiling is read against; every world (`alx`/`hal` included) then gets
+    its own per-field line. A field with zero texts in a world (an empty
+    optional field) is skipped rather than printed as a false zero.
+    """
+    findings = []
+    ordered_worlds = list(_EXEMPLAR_WORLDS) + [w for w in worlds if w not in _EXEMPLAR_WORLDS]
+    for w in ordered_worlds:
+        if w not in worlds:
+            continue
+        tag = "exemplar" if w in _EXEMPLAR_WORLDS else "world"
+        for record_type, field_roles in SPOKEN_FIELDS.items():
+            for field_name in fields_with_role(record_type, "voice-diet"):
+                texts = _field_texts(records[w], record_type, field_name)
+                if not texts:
+                    continue
+                p = _register_profile(texts)
+                findings.append(_observation(
+                    "register-profile", w,
+                    f"[{tag}] {record_type}.{field_name}: median {p['median_words']}w, "
+                    f"longest sentence {p['longest_sentence']}w, "
+                    f"fragment ratio {p['fragment_ratio']}, "
+                    f"dash/100w {p['dash_per_100w']} (n={p['n']})"
+                ))
+    return findings
+
+
 def observe_corpus_map(*, registry, worlds, **_) -> list[Finding]:
-    """Progress against Mark's standard - *"each world built and representing
-    the sources of the christian tradition"* - read from the corpus map, not
+    """Progress toward every world built and representing
+    the sources of the christian tradition, read from the corpus map, not
     inferred here.
 
-    This replaced `observe_corpus_review` on 2026-08-26. That observer read a
-    per-world `corpus_review` record, and when Mark ruled the assignment work
-    stays OUT of the built worlds (*"lets keep this separate from the built
-    worlds with clear buckets that align"*) the record type went with it - so
+    This replaced `observe_corpus_review`. That observer read a
+    per-world `corpus_review` record, and once the assignment work moved to
+    stay OUT of the built worlds - kept separate, with clear buckets that
+    align - the record type went with it - so
     the observer reported "no corpus_review record" six times, forever, about
     a thing deliberately removed. Six lines of standing noise is how a standing
     check stops being read, so it is repointed at the structure that now
@@ -984,12 +1200,15 @@ CHECKS = [
     check_quote_speaker_labels,
     check_app_world_assets,
     check_site_portraits,
+    check_table_html_worlds,
     observe_retrieval_hints,
     observe_unread_retrieval_config,
     observe_optional_field_adoption,
     observe_source_licensing,
     observe_uncompiled_required_fields,
     observe_second_hand_sources,
+    observe_outside_help_guard,
+    observe_register_profile,
     observe_corpus_map,
 ]
 

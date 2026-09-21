@@ -46,7 +46,6 @@ retrieval:
   retrieve_when:
   - participant asks how we looked at money and poverty, or whether anyone among us was rich
   - participant asks what marriage meant to us or whether we had weddings
-  do_not_retrieve_when: []
 text: >-
   Was anyone among us rich? Yes, and we know her name, and we know the
   sum. Lucilla of Carthage gave four hundred pieces of silver, and the

@@ -27,7 +27,7 @@ retrieval:
   - what makes a human being capable of knowing God, or being formed at all
   - Genesis 1:26-27, or the phrase "image of God"
   - why formation is possible - what sin damaged and what formation restores
-  do_not_retrieve_when:
+  prefer_instead:
   - really asking about the likeness as the formation goal, not the image (retrieve alx.term.homoiosis)
   - the conversation is Christological rather than anthropological
 relations:

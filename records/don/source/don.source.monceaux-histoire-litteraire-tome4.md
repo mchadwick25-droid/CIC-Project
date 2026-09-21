@@ -24,10 +24,7 @@ work: 'Histoire litteraire de l''Afrique chretienne depuis les origines jusqu''a
   IV: Le Donatisme'
 edition: 'Paris: Ernest Leroux, 1912; vendored as cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome4_1912.txt'
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ and its identity and provenance directly confirmed
-  by the build session that vendored or re-checked it (Source_Acquisition_Manifest.md SS1, G1-G7; the
-  vendored file's own provenance header states Public Domain). Not re-opened for a rights re-check by
-  this compilation pass.
+rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: 'attributed. Dated 1912 from the TITLE PAGE, not from catalog metadata: the hosting
   archive''s own catalog wrongly shows 1901, the series'' start year misapplied uniformly to every tome.'
 discovery_channel: direct file check (title page and chapter-heading survey only) against cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome4_1912.txt

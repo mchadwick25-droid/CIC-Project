@@ -42,7 +42,6 @@ retrieval:
   - participant asks whether we believed outsiders were going to hell
   - participant asks whether Christianity is too narrow, or one way out of many
   - participant asks what we held about divorce and remarriage
-  do_not_retrieve_when: []
 text: >-
   Our narrowness was real, and it did not point where you expect. We were
   not chiefly concerned with the people outside. We were concerned with

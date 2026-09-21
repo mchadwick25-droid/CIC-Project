@@ -2,13 +2,13 @@
 ## Round 2 Independent Adversarial Review — quality, impact, and integration of the Round 1 fix pass
 
 **Documents reviewed (working tree, branch `claude/record-native-world-build-v2-yq11wl`):**
-- `worlds/lpc/Doc_03_Lexicon_Candidate_List.md` (82 lines) — read in full; all fourteen table rows parsed programmatically to seven cells each and each cell read individually and word-counted
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_03_Lexicon_Candidate_List.md` (82 lines) — read in full; all fourteen table rows parsed programmatically to seven cells each and each cell read individually and word-counted
 - `Doc_01_World_Identification_Boundaries_Orientation.md` — §1 (short description), §2 (boundaries, the two ordination pathways), §3 (the four named candidate gravities), §4 (the three authority axes; "what stays constant"), §5 (strand determination, the Article 3 argument, Cyprian's rebaptism rigor), §6 (the "what was it refusing" paragraph in full, and the six-cell sketch), §7 (the withdrawn *episcopatus unus est* citation, the three-phase coercion arc), §8 items 7, 9, 10, 12
 - `Doc_02_Source_Ecology.md` — §1 (primary sources, Possidius, rows 191–212), §2 (all four Author Gravity assessments), §4, §5, §6 (Article 20 discharge, the Article 23 routing note), §9 items 6, 7, 11, §10
 - `Source_Registry.md` (212 rows) — rows 1, 2, 3, 4, 5, 7, 9, 11, 12, 13, 15, 18, 19, 22, 23, 26, 29, 42, 43, 192 and 191–212 parsed cell-by-cell from the raw table; Licensed-For and Verification columns read in full
-- `reference/L3B-World-Build-Methodology/CiC_L3B_Interpretive_Lexicon_Development_Framework_V2.1.docx` — extracted verbatim (zipfile + regex on `word/document.xml`); Foundational Principles and Parts I–V read in full
-- `reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` — same extraction; Step 3 read verbatim, Steps 2 and 4–6 read for placement
-- `worlds/ijc/Doc_03_Lexicon_Candidate_List.md` — read in full as peer precedent
+- `L3B-World-Build-Methodology/CiC_L3B_Interpretive_Lexicon_Development_Framework_V2.1.docx` — extracted verbatim (zipfile + regex on `word/document.xml`); Foundational Principles and Parts I–V read in full
+- `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` — same extraction; Step 3 read verbatim, Steps 2 and 4–6 read for placement
+- `World-Builds/Imperial-Juridical-Christianity/Doc_03_Lexicon_Candidate_List.md` — read in full as peer precedent
 - `Review-Artifacts/Doc03_Round1_Review.md` — read in full as the fix-pass baseline and as this folder's format reference
 - `lpc_Decision_Log.md` — the 2026-09-09 Doc_03 entry in full, and the 2026-09-08 banner-stripping entries (Rounds 26–27) for the standing rule's own recorded width
 - `cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml` — the Cyprian section (`div1 id="iv"`, 1.73M characters) swept programmatically for candidate-term attestation

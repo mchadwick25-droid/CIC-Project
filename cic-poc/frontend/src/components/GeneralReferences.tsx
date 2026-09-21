@@ -6,15 +6,14 @@
  * figure record cited without the sentence actually saying that term or
  * name (so nothing in the text itself is what earned the citation).
  *
- * Mark's own correction (2026-08-25): these belong at the end of the
- * answer, never as an asterisk inside the running text - a reference is
- * not the same claim on the reader's attention as a word worth stopping
- * on mid-sentence. Refined by his read of the first live conversation
- * (2026-08-28): the open list still crowded the thread ("the long
- * bibliography should be a click... we want the conversation thread
- * clean"), so the list now sits collapsed behind one disclosure line and
- * opens on click. No InlineBridge here on purpose: once opened this is
- * already the fullest disclosure (same SourceList used everywhere else).
+ * These belong at the end of the answer, never as an asterisk inside the
+ * running text - a reference is not the same claim on the reader's
+ * attention as a word worth stopping on mid-sentence. The list sits
+ * collapsed behind one disclosure line and opens on click, rather than
+ * sitting open by default, so a long bibliography doesn't crowd the
+ * conversation thread. No InlineBridge here on purpose: once opened this
+ * is already the fullest disclosure (same SourceList used everywhere
+ * else).
  */
 import type { SourceCard } from '../types/conversation';
 import { SourceList } from './SourceList';

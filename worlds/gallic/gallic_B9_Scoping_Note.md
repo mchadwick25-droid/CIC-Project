@@ -8,7 +8,7 @@ the repository, not assumed to transfer from Cappadocian's precedent.
 
 ## What B-9 is, as the governing process document currently states it
 
-`reference/method/CiC_Record_Native_World_Build_Process_V1_3.md` (moved
+`reference/method/CiC_Record_Native_World_Build_Process_V1.5.md` (moved
 there by the later repo reorganization; path corrected 2026-09-14), row B-9
 (S2.9): "Change-order decisions + chunk swap. The swap makes the record store
 drive this world's production. Post-swap: render identity, full production

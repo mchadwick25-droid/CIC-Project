@@ -595,3 +595,177 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-13 (Project Gutenberg's own \"Public domain in the USA\" tag, translator, and full-text downloadability all confirmed against the host directly)"
     status: not-yet-downloaded
+
+  - title: "Institutes of the Christian Religion, 3 vols."
+    author: "John Calvin"
+    translator: "Henry Beveridge"
+    year: 1845
+    world: "the-reformed-cities-zurich-and-geneva"
+    why: >
+      Surfaced by the proactive source-research pass for the Era VII/VI
+      six-world batch, 2026-09-15 (see this world's own Source Readiness
+      Dossier), and vendored the same day ahead of this world's Doc_01.
+      The standard cited English edition per the dossier.
+    url: "https://archive.org/details/institutesofchrbeve01calv (vol. 1); institutesofchribeve02calv (vol. 2); institutesofchrbeve03calv (vol. 3)"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes); archive.org's own metadata API \"possible-copyright-status\": \"NOT_IN_COPYRIGHT\" confirmed for all three volumes"
+    status: downloaded
+
+  - title: "The Catechism of the Church of Geneva"
+    author: "John Calvin"
+    translator: "Elijah Waterman"
+    year: 1815
+    world: "the-reformed-cities-zurich-and-geneva"
+    why: >
+      Same batch and pass as the Institutes above.
+    url: "https://archive.org/details/catechismofchurc00calv"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes); archive.org's own metadata API NOT_IN_COPYRIGHT confirmed"
+    status: downloaded
+
+  - title: "Selected Works of Huldreich Zwingli (1484-1531), the Reformer of German Switzerland"
+    author: "Huldreich (Ulrich) Zwingli"
+    translator: "Samuel Macauley Jackson"
+    year: 1901
+    world: "the-reformed-cities-zurich-and-geneva"
+    why: >
+      Same batch and pass as the entries above. Confirms a dossier item
+      flagged unconfirmed: this volume does contain The Sixty-Seven
+      Articles of Zwingli (1523) in full, directly verified this pass.
+    url: "https://archive.org/details/translationsrepr01pennuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes); archive.org's own metadata API NOT_IN_COPYRIGHT confirmed"
+    status: downloaded
+
+  - title: "The Latin Works and the Correspondence of Huldreich Zwingli, Vol. I"
+    author: "Huldreich (Ulrich) Zwingli"
+    translator: "ed. Samuel Macauley Jackson"
+    year: 1912
+    world: "the-reformed-cities-zurich-and-geneva"
+    why: >
+      Same batch and pass as the entries above.
+    url: "https://archive.org/details/latinworkscorres01zwin"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes); archive.org's own metadata API NOT_IN_COPYRIGHT confirmed"
+    status: downloaded
+
+  - title: "The Second Helvetic Confession (1566) and The Heidelberg Catechism (1563), extracted from The Creeds of Christendom, Vol. III"
+    author: "Heinrich Bullinger; Zacharias Ursinus and Caspar Olevianus"
+    translator: "ed. Philip Schaff"
+    year: 1919
+    world: "the-reformed-cities-zurich-and-geneva"
+    why: >
+      Same batch and pass as the entries above - this world's own
+      floor-clearance text (ch. III Trinity, ch. XI Christology of the
+      Second Helvetic Confession), cited directly in its Step 0 draft.
+      Deliberately vendored as a partial extract (two sections, ~27,000
+      words) rather than the full ~475,000-word multi-creed reference
+      volume, whose other contents are not assigned to any world by this
+      pass - see REGISTRY.yaml's own note.
+    url: "https://archive.org/details/creedschristend07schagoog"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes, full volume, then mechanically extracted to two sections); archive.org's own metadata API NOT_IN_COPYRIGHT confirmed"
+    status: downloaded
+
+  - title: "Works of Martin Luther, with Introductions and Notes, Vol. I (95 Theses, Treatise on Baptism, Discussion of Confession, Fourteen of Consolation, Treatise on Good Works, and others)"
+    author: "Martin Luther"
+    translator: "ed. Henry Eyster Jacobs and Adolph Spaeth, individual translators per work"
+    year: 1915
+    world: "lutheran-wittenberg-and-its-congregations"
+    why: >
+      Surfaced by the proactive source-research pass for the Era VII/VI
+      six-world batch, 2026-09-15 (see this world's own Source Readiness
+      Dossier), and vendored the same day ahead of this world's Doc_01.
+    url: "https://www.gutenberg.org/ebooks/31604"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes, not WebFetch, to avoid any summarization-model paraphrase touching the wording); Gutenberg's own PD tag and START/END markers confirmed"
+    status: downloaded
+
+  - title: "Works of Martin Luther, with Introductions and Notes, Vol. II (An Open Letter to the Christian Nobility of the German Nation; On the Babylonian Captivity of the Church; A Treatise on Christian Liberty; and others)"
+    author: "Martin Luther"
+    translator: "ed. Adolph Spaeth, individual translators per work"
+    year: 1916
+    world: "lutheran-wittenberg-and-its-congregations"
+    why: >
+      Same batch and pass as Vol. I above.
+    url: "https://www.gutenberg.org/ebooks/34904"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes); Gutenberg's own PD tag and START/END markers confirmed"
+    status: downloaded
+
+  - title: "The Large Catechism of Martin Luther"
+    author: "Martin Luther"
+    translator: "F. Bente and W. H. T. Dau (Concordia Triglotta)"
+    year: 1921
+    world: "lutheran-wittenberg-and-its-congregations"
+    why: >
+      Same batch and pass as the two Works volumes above.
+    url: "https://www.gutenberg.org/ebooks/1722"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes); Gutenberg's own PD tag and START/END markers confirmed"
+    status: downloaded
+
+  - title: "Luther's Little Instruction Book: The Small Catechism of Martin Luther"
+    author: "Martin Luther"
+    translator: "Robert E. Smith, Project Wittenberg (1994, rev. 2002/2004)"
+    year: 1994
+    world: "lutheran-wittenberg-and-its-congregations"
+    why: >
+      Same batch and pass as the entries above. RIGHTS FLAG: a modern
+      translation, not PD by publication date - PD status rests on the
+      translator's own release for free distribution, certified by
+      Gutenberg's own hosting of it as a formal eBook. See this file's
+      own REGISTRY.yaml entry for the full rights-basis note.
+    url: "https://www.gutenberg.org/ebooks/1670"
+    rights_basis: transcriber-pd-declaration
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes); Gutenberg's own PD tag and START/END markers confirmed"
+    status: downloaded
+
+  - title: "The Apology of the Augsburg Confession"
+    author: "Philipp Melanchthon"
+    translator: "F. Bente and W. H. T. Dau (Concordia Triglotta)"
+    year: 1921
+    world: "lutheran-wittenberg-and-its-congregations"
+    why: >
+      Same batch and pass as the entries above. Article I "Of God"
+      directly verified this pass to match the floor-test text cited in
+      this world's Step 0 draft.
+    url: "https://www.gutenberg.org/ebooks/6744"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes); Gutenberg's own PD tag and START/END markers confirmed"
+    status: downloaded
+
+  - title: "The Augsburg Confession"
+    author: "Philipp Melanchthon (drafter)"
+    translator: "uncredited by Gutenberg's own bibrec metadata - NOT confirmed to be the same Bente/Dau translation as the companion Apology above"
+    year: 1530
+    world: "lutheran-wittenberg-and-its-congregations"
+    why: >
+      Same batch and pass as the entries above. Translator flagged
+      unconfirmed rather than assumed - see this file's own REGISTRY.yaml
+      entry.
+    url: "https://www.gutenberg.org/ebooks/275"
+    rights_basis: pd-us-by-date
+    verified_by: "direct curl fetch, 2026-09-15 (raw bytes; also independently checked the eBook's own bibrec HTML page directly for a translator field - none found)"
+    status: downloaded
+
+  - title: "The Pilgrimage of Etheria"
+    author: "Egeria (Etheria)"
+    translator: "M. L. McClure and C. L. Feltoe"
+    year: 1919
+    world: "palestinian-ascetic-monasticism-early"
+    why: >
+      Surfaced during the source-readiness dossier pass on I.34
+      (2026-09-21). Already named as a candidate by an unrelated prior
+      search - hal's own hal.search.egeria-pilgrimage.md (2026-08-21),
+      logged there as an open P3 acquisition request scoped to Bethlehem
+      context only, "never evidence about this world's own practice." For
+      this candidate the fit is closer, not merely adjacent: Egeria's own
+      journey (380s) runs the Sinai road and the Judean desert by name -
+      the census's own I.34 `region` field, verbatim - and she describes
+      monks and hermits she met along it directly, inside this candidate's
+      own c. 330-450 window. Not yet vendored anywhere in this corpus.
+    url: "https://archive.org/details/pilgrimageofethe00mccliala"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch against the archive.org details page, 2026-09-21 - page states NOT_IN_COPYRIGHT; corroborated by a separate archive.org item, a 2018 LibriVox recording of the same 1919 McClure/Feltoe translation, independently carrying a Public Domain Mark 1.0 license"
+    status: not-yet-downloaded

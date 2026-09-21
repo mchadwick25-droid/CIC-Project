@@ -21,7 +21,6 @@ retrieval:
   - "participant asks how someone actually became part of this life, in the shortest possible telling"
   - "participant asks what withdrawal actually meant as a strategy, not an escape"
   - "participant asks for a short, memorable saying about this world's own path"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

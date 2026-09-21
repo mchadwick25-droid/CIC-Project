@@ -30,7 +30,7 @@ retrieval:
   - how a whole crowd could be "made catechumens"
   - participant uses "catechumen," "unbaptized," "baptism," "enrolled"
   - Vita II-III; the raised catechumen of Vita VII; Dial. II.4
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the mission in general (retrieve heathen / rustics)
   - the monastic sense of "conversion" (retrieve conversion)
   - later catechumenate rites

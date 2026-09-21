@@ -53,68 +53,11 @@ manifestations:
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 6, SS2
 row 6, SS3, SS4, SS5 row 6, SS6 (gravity 6). Held at Supporting on the
 same Persistence-test basis as gravity 9 (Evagrian systematization),
-not on evidential grounds - Doc_04's own corrected finding (its Round 1
-review caught an earlier draft mislabeling this as a confidence
-problem). The tension-with relation to gravity 10 records the
-authority-tension gravity's own finding that it is the named friction
-between this gravity's office-based model and gravity 3's person-based
-one - declared here rather than directly against gravity 3, matching
-that record's own relations.
-
-Step3b Review Round 1, Finding S6: the index asserted an Author Gravity
-flag for this record while promising the column is read off the
-records themselves; this record carried none - added above, matching
-Doc_04 SS1's own generation-stage flag ("candidate 6 (koinonia,
-Pachomian-corpus-specific)... resting substantially on one
-author-cluster"). Finding M7: the house-count manifestation credited
-"the vendored population figures," which desert.term.koinonia's own
-Step3a Round 8 fix (Finding D3) established do not carry a house count
-at all - Palladius XXXII and Sozomen III.14 both give population
-figures only. Corrected here to match that record's own language, and
-the Rousseau locus reworded to name the specific claim it covers
-rather than the generic claim-type. Finding S8: no forces-connection
-notation was stated in this record's own text - added.
-
-Step3b Review Round 2, Finding M2: the angel-tablet manifestation
-presented Palladius and Sozomen as a matched pair without their
-source record's own dependence screen ("where Sozomen tracks Socrates,
-he is not a second witness - corroborating weight only") - added.
-Finding M11: the Author Gravity flag's provenance line attributed the
-requirement to "Doc_04's own... criterion"; Doc_04 SS1's own sentence
-attributes it to "Framework requirement," not to Doc_04 itself -
-corrected to match, and to match evagrian-systematization's own
-corrected attribution.
-
-Step3b Review Round 3, Findings S1/S2: the Round 2 fix asserted that
-Sozomen III.14 "tracks Socrates" - checked directly against the
-vendored file's own editorial source-note for that chapter, which
-lists Rufinus, Palladius's Lausiac History, Syrian biographies,
-Ephraim, Athanasius's Vita Antonii, Jerome, Evagrius, Philippus of
-Side, and Sulpicius Severus, and does NOT list Socrates. The genuine
-dependence - the one Round 2's own M2 named - is that Sozomen draws on
-Palladius himself, which is the sharper reason the two are not
-independent witnesses. The same fix also demoted Palladius (a source
-this build rates load-bearing/verified-direct, "the principal
-narrative-history source for this world") to "corroborating weight,"
-which the source record does not say. Both corrected to the
-vendored file's actual declared sources and to Palladius's own
-registered weight.
-
-Step3b Review Round 4, Finding M4: that correction's own "this world's
-load-bearing narrative-history source" (definite article) promoted
-Palladius's own record, which names it "the principal narrative-history
-source for this world alongside the Historia Monachorum" - a
-registered, distinct source - from one of two to the only one.
-Corrected to name both.
-
-Step3b Review Round 5, Finding S1: that fix's own "two load-bearing
-narrative-history sources" applied a controlled evidentiary_weight enum
-value to a source it did not open - desert.source.historia-monachorum
-rates evidentiary_weight corroborating, not load-bearing, the identical
-weight the same sentence uses to mark Sozomen down two clauses later.
-Corrected to the two source records' own shared language ("principal,"
-"the shallower of the two"), which was available verbatim and needed
-no schema term at all.
+not on evidential grounds. The tension-with relation to gravity 10
+records the authority-tension gravity's own finding that it is the
+named friction between this gravity's office-based model and gravity
+3's person-based one - declared here rather than directly against
+gravity 3, matching that record's own relations.
 
 Step3c: desert.figure.pachomius added - this gravity's own dates and
 scale figures are that record's own generating evidence.

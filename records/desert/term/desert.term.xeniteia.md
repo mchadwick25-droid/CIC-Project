@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - a participant speaks of being far from everyone they love
   - questions about leaving family, homeland, or belonging
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.anachoresis

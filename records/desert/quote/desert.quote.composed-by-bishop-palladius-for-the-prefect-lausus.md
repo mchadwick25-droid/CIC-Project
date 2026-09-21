@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether the sayings are legend collected long after the fact"
   - "participant asks how much of this world's account would survive scholarly checking"
   - "participant asks who actually wrote these sayings down and when"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.apophthegma

@@ -2,10 +2,10 @@
 ## Round 15 Independent Adversarial Review — scoped to the 2026-09-08 source-integration revision
 
 **Documents reviewed (working-tree state, not a commit — `git status --porcelain` shows 50 uncommitted paths on top of `c803529`, branch `claude/record-native-world-build-v2-yq11wl`):**
-- `worlds/lpc/Doc_02_Source_Ecology.md` (147 lines)
-- `worlds/lpc/Source_Registry.md` (329 lines; 212 rows)
-- `worlds/lpc/Source_Acquisition_Manifest.md` (85 lines; G1–G9)
-- `worlds/lpc/lpc_Decision_Log.md` (316 lines; last four entries dated 2026-09-08 read in full)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md` (147 lines)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Registry.md` (329 lines; 212 rows)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Acquisition_Manifest.md` (85 lines; G1–G9)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md` (316 lines; last four entries dated 2026-09-08 read in full)
 - `Doc_01_World_Identification_Boundaries_Orientation.md` (302 lines), for the cross-document checks at §5 and §7
 - The 19 newly-vendored files in `cic/texts/`, `cic/texts/REGISTRY.yaml` (88 entries), `cic/texts/INTAKE.md`, and `cic/corpus-map/latin-pastoral-congregational-christianity.yaml` (99 entries)
 

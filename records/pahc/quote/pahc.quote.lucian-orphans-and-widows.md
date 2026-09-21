@@ -57,7 +57,6 @@ retrieval:
   - "participant asks what they did for prisoners, widows and orphans"
   - "participant asks how an unfriendly outsider described their behaviour"
   - "participant asks how organised they actually were"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: pahc.gravity.translocal-network

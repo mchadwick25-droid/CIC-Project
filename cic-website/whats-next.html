@@ -32,13 +32,21 @@
       </span>
       <span class="wordmark">Church in Conversation</span>
     </a>
-    <nav class="site-nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="whats-next.html" aria-current="page">What's Next</a>
-      <a href="atlas-v3.html">Church Family Tree</a>
-      <a href="support.html">Get Involved</a>
+    <nav class="feature-bar" aria-label="Main features">
+      <a class="feature-btn" href="atlas-v3.html">Church Family Tree</a>
+      <a class="feature-btn" href="index.html#who">Conversation with One</a>
+      <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <div class="menu">
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
+        Menu
+        <svg class="menu-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <nav class="site-nav" id="site-menu" aria-label="Site">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
   </div>
 </header>
 
@@ -74,13 +82,13 @@
   <section class="page-section" id="academic-review">
     <p class="eyebrow">Academic Review</p>
     <h2>Forming an advisory board for independent academic review</h2>
-    <p>We're putting together an advisory board to facilitate independent academic review of each tradition and Church in History itself. This is a top priority, and it needs real support to happen — both funding and volunteers. If you can help with either, we'd like to hear from you: <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
+    <p>We're putting together an advisory board to facilitate independent academic review of each tradition and Church Family Tree itself. This is a top priority, and it needs real support to happen — both funding and volunteers. If you can help with either, we'd like to hear from you: <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
   </section>
 
   <section class="page-section" id="access">
     <p class="eyebrow">User Access</p>
     <h2>Open to more people, including in more languages</h2>
-    <p>Accessibility is one of our values. The real challenge: every conversation costs something to run, and that cost currently limits how many people can use the basic platform and Church in History. We're building a reserve toward that — the Accessibility Fund — so the basic experience can open up to more people, including translation into other languages. See <a href="support.html">Get Involved</a> if you'd like to help it grow.</p>
+    <p>Accessibility is one of our values. The real challenge: every conversation costs something to run, and that cost currently limits how many people can use the basic platform and Church Family Tree. We're building a reserve toward that — the Accessibility Fund — so the basic experience can open up to more people, including translation into other languages.</p>
   </section>
 </main>
 
@@ -96,5 +104,32 @@
   </div>
 </footer>
 
+<script>
+(function(){
+"use strict";
+var menu = document.querySelector('.menu');
+var menuToggle = document.getElementById('menu-toggle');
+if (menu && menuToggle) {
+  menuToggle.addEventListener('click', function(ev){
+    ev.stopPropagation();
+    var isOpen = menu.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.addEventListener('click', function(ev){
+    if (!menu.contains(ev.target)) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('keydown', function(ev){
+    if (ev.key === 'Escape' && menu.classList.contains('open')) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.focus();
+    }
+  });
+}
+})();
+</script>
 </body>
 </html>

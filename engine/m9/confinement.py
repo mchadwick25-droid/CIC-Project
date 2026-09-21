@@ -185,7 +185,7 @@ def gate_verbatim_in_shelf(records: dict, shelf: Shelf) -> list[str]:
 def gate_voicing_pair(records: dict, shelf: Shelf) -> list[str]:
     """For every emic citable record, each cited source record that
     resolves to a row (kind: vendored, a real shelf_row) is either
-    role: tradition, or a non-tradition row that clears BOTH gates Mark's
+    role: tradition, or a non-tradition row that clears BOTH gates the
     R-1/R-2/R-3 ruling requires: its voice_of forms a pair with this
     world's own census_id ruled mutual-awareness in PAIRS.yaml, AND the
     row's own documented_exchange is 'confirmed' - a pair makes voicing

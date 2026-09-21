@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - a participant asks about intrusive thoughts, temptation, or an unquiet mind
   - questions about demons and spiritual struggle
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.quote.the-eight-generic-thoughts

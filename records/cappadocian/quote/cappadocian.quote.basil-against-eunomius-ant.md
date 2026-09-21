@@ -53,7 +53,6 @@ retrieval:
   retrieve_when:
   - "participant asks why this world thought claiming to fully understand God was itself the deeper problem, worse than doubt"
   - "participant asks what Basil actually said against the rival teacher who claimed to grasp God's own essence"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.want-to-believe
@@ -81,23 +80,12 @@ anatomical questions about the ant - skeleton, sinews, gall bladder,
 mode of reproduction, and so on) - kept out only for spoken length, not
 because it says anything different; both halves kept are read
 contiguously in the source, joined only across the omitted middle, with
-no wording added, dropped, or reordered within either kept half. (An
-earlier draft of this record dropped one sentence - "Next let him give
-us a similar physiological account of the power that transcends all
-human intelligence" - from the closing half without marking it; caught
-on a second direct re-check against the source and restored before this
-record was finalized.) Double-spacing in the source file's own
-typesetting normalized to single spaces.
+no wording added, dropped, or reordered within either kept half.
+Double-spacing in the source file's own typesetting normalized to single
+spaces.
 
-This replaces an earlier draft of this same C-P slot that quoted
-Basil's "Address to Young Men" (a closing paragraph about staying open
-to ongoing moral counsel). That passage was genuine and verbatim, but a
-cold adversarial review correctly found it did not actually back this
-dw's own specific claim - divine incomprehensibility as a deliberate
-epistemology, argued directly against a rival teacher's claim to grasp
-God's own essence completely, plus the separate pastoral note on
-delayed baptism. This Letter XVI passage is that exact argument, aimed
-at that exact rival (Eunomius), in Basil's own words - drawn from the
+This Letter XVI passage is Basil's own argument aimed directly at
+Eunomius's claim to grasp God's own essence completely - drawn from the
 source this world's own cappadocian.source.basil-against-eunomius
 record identifies as the one genuinely vendored piece of Basil's
 anti-Eunomian corpus (the three-book treatise itself is not vendored;

@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - the violence at the monastery
   - suffering at Christian hands
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.force.pelagian-attack

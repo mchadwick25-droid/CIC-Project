@@ -47,7 +47,7 @@ retrieval:
   - the same word used of a miracle and of salvation
   - participant uses "gift," "charism," "charisma," "spiritual gifts," "gift of healing"
   - Vita XVI; Dial. III.13-14; Abbot John's prophecy; Nesteros on divine gifts
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the grace of God in the argument with Augustine (retrieve grace (of God)) - collapsing the two makes the argument unreadable
   - the question is the saint's power as such (retrieve virtus / power)
   - the question is about later charismatic movements

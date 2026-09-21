@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether force was used against Christians who disagreed"
   - "participant asks how they justified compelling anyone"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}
 - {type: illustrates, target: ijc.gravity.church-state-alliance}

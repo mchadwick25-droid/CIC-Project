@@ -28,7 +28,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - Trinity/council questions
-  do_not_retrieve_when:
+  prefer_instead:
   - pre-Nicene contexts - the word does not exist yet
 relations:
 - type: associated-with
@@ -58,14 +58,10 @@ non-scriptural - the objection is part of the record, and the term is
 STRICTLY post-325 (never retrojected). Modern hearing: philosophical
 jargon. World hearing: the line that kept the gospel the gospel.
 
-corrected 2026-09-08, records/alx audit: plain_meaning's "'Of one
-substance'" was cited only to De Decretis 19-20, which defends the
-term but never uses that literal phrase; the vendored wording is in
-the Creed of Nicaea itself (npnf214, line 2412: "being of one
-substance...with the Father"), now cited via
-alx.source.nicene-creed-325. The informational sense's "Athanasius
-spent forty-six years defending it" was likewise uncited in this
-file; the figure is Socrates HE IV.20 ("having governed that church
-amidst the greatest perils forty-six years"), now cited via
-alx.source.socrates-historia-ecclesiastica. The De Decretis 19-20
-claim itself was found clean and is unchanged.
+plain_meaning's "'Of one substance'" wording is in the Creed of Nicaea
+itself (npnf214, line 2412: "being of one substance...with the
+Father"), cited via alx.source.nicene-creed-325. The informational
+sense's "Athanasius spent forty-six years defending it" figure is
+Socrates HE IV.20 ("having governed that church amidst the greatest
+perils forty-six years"), cited via
+alx.source.socrates-historia-ecclesiastica.

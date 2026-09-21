@@ -93,7 +93,6 @@ Anything for Mark to review or approve — options to choose between, a draft to
 | CI/infra mechanical fix (config, workflow YAML, build script) | Just do it |
 | Package rebuild after a `records/` edit | Just do it |
 | Doc-hygiene fix on content that isn't your own thread's | Flag it, don't touch it |
-| Representative identity, title, or voice decision | Always ask |
 | Cross-world or portfolio-level decision | Always ask |
 | Governance or methodology change | Always ask |
 

@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks about conflict, disappointment, or disagreement between this world's own leaders"
   - "participant asks whether friendship in this world survived ambition and church politics"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants Basil's own perspective on this appointment - it is not recorded anywhere in this world's evidence"
 relations:
 - type: associated-with

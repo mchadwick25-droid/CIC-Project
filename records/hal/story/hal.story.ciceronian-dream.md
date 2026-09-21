@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - the pull between beautiful books and plain scripture
   - finding the Bible dull or hard
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.gravity.hebraica-veritas

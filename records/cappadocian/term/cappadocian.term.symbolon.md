@@ -20,7 +20,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - the Nicene Creed itself, or 'the faith of the 318'
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.baptisma-photisma

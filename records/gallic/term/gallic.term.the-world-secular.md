@@ -46,7 +46,7 @@ retrieval:
   - what "secular" meant, or whether laypeople "in the world" could be holy
   - participant uses "the world," "worldly," "secular," "society," or "civilization"
   - Vincent's "secular warfare," Martin's counsel to Sulpitius, the layman who casts out a demon, or the steward's cupboard of worldly clothes
-  do_not_retrieve_when:
+  prefer_instead:
   - the act of leaving it (retrieve renunciation)
   - the Roman province and its ruin as such (retrieve Gaul, the government of God)
   - secular in the modern sense of non-religious or of secular government
@@ -84,6 +84,11 @@ plain_meaning: >-
   We name it from the far side of the renunciation, as a warfare one has been discharged from and a
   sea one has come out of. We never name it as a place from which God is absent.
 world_word: the world / secular
+gloss_forms:
+- form: the world
+  kind: ordinary
+- form: secular
+  kind: ordinary
 false_friend:
 - secular as the non-religious sphere, or secular government versus the Church
 - society to be despised, or the created order as such

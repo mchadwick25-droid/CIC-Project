@@ -33,7 +33,7 @@ retrieval:
   retrieve_when:
   - a participant asks who led this communion, or whether it had a head
   - a participant asks about Donatus, Parmenian or Primian by name
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about later Western primacy or the papacy
 relations:
 - type: associated-with

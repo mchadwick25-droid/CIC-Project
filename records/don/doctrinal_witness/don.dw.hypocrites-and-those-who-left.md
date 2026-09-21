@@ -45,7 +45,6 @@ retrieval:
   - participant asks whether any of us ever wanted to leave, or what we would say to someone who did
   - participant asks where God was when they suffered, or whether a woman could carry authority among
     us
-  do_not_retrieve_when: []
 text: >-
   Did that happen among us? It is in the court record. A charge came
   against one of our bishops, and another bishop wrote to him privately -

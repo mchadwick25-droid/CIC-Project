@@ -94,11 +94,10 @@ def test_round_config_is_genuinely_immutable():
 
 
 def test_round_config_seat_scaled_cap():
-    """Mark's ruling, 2026-09-05: 'for 2 voices and a participant, the max
-    turns should be 5... for 3 voices the cap is 6' - applied to every
-    round, not gated behind any 'is this broad' judgment (his own explicit
-    scoping, superseding this thread's first pass at a broad-only 5/6
-    minimum)."""
+    """For 2 voices and a participant, the max
+    turns is 5; for 3 voices the cap is 6 - applied to every
+    round, not gated behind any 'is this broad' judgment, replacing an
+    earlier broad-only 5/6 minimum."""
     config = RoundConfig()
     assert config.cap_for(2) == 5
     assert config.cap_for(3) == 6
@@ -112,22 +111,22 @@ def test_round_config_seat_scaled_cap():
 
 
 def test_round_config_seat_scaled_floor():
-    """Mark's ruling, 2026-09-05, later the same day, reversing the "soft
-    target only" call for the floor specifically: investigated (root-
-    caused from real selector_reason data, not guessed) why 3-seat rounds
+    """Reversing the "soft
+    target only" call for the floor specifically: root-caused (from real
+    selector_reason data, not guessed) why 3-seat rounds
     consistently closed right after the first pass while 2-seat rounds
     reliably reached a real second pass. The mechanism: the OLD flat floor
     of 3 happens to land past first-pass completion at 2 seats (forcing
     one bridging turn) but exactly at first-pass completion at 3 seats (no
-    forced bridge). The first fix, "raise the floor to 4", restored that
+    forced bridge). The first fix, raising the floor to 4, restored that
     bridge - but a live round then closed AT that new floor too, on a
     full-table synthesis, and a structural fix for the synthesis itself
     (engine.m4.turn_selector.Selection.engages,
     engine.api.table_wiring._scoped_pending) proved on a live re-run that
     content quality and round length are independent: the returning turn
     engaged one voice genuinely, and the round still closed at 4 anyway.
-    Only then, on that isolated evidence, did Mark rule "raise the floor
-    to 5" - his own original "ultimate zone" target for a 3-seat table.
+    Only then, on that isolated evidence, was the floor raised
+    to 5 - the original "ultimate zone" target for a 3-seat table.
     The 2-seat floor (3) is untouched - it was never observed closing
     early relative to its own cap."""
     config = RoundConfig()
@@ -173,16 +172,16 @@ def test_acute_crisis_is_governed_and_appends_resources():
     assert not opening.voices_speak
     event = opening.facilitator_events[0]
     assert event["resources_appended"]
-    # The Mark-approved slot filled with the or-joined names, text otherwise
+    # The approved slot filled with the or-joined names, text otherwise
     # untouched.
     assert "Clement or Papnoute" in event["text"]
 
 
-def test_track_b_speaks_check_then_proceeds():
+def test_track_b_checks_and_silences_the_voices():
     opening = _open(
         _gate_run(action="safety_turn", safety_value={"signal": "HARMFUL_DYNAMIC_SIGNAL", "acute_level": "none"})
     )
-    assert opening.voices_speak
+    assert not opening.voices_speak  # amendment 2026-09-20: silenced, same as Track A above
     assert opening.facilitator_events[0]["resources_appended"] is False
     assert "Clement or Papnoute" in opening.facilitator_events[0]["text"]
 

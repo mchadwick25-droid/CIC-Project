@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - the cost of belonging
   - persecution as lived experience
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: alx.gravity.martyrdom-contemplative-tension

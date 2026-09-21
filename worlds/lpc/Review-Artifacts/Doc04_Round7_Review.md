@@ -7,9 +7,9 @@
 
 **Documents reviewed, at commit `3a107ff5` (prior state `9b2ed519`), branch `lpc-doc04-round2`, working tree clean:**
 
-- `worlds/lpc/Doc_04_Gravity_Discovery.md` (239 lines)
-- `worlds/lpc/Review-Artifacts/Doc04_Gesta_Targeted_Read_2026-09-14.md` (the withdrawal notice and the version-2 text it is attached to)
-- `worlds/lpc/lpc_Decision_Log.md` (all three 2026-09-14 entries)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_04_Gravity_Discovery.md` (239 lines)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Doc04_Gesta_Targeted_Read_2026-09-14.md` (the withdrawal notice and the version-2 text it is attached to)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md` (all three 2026-09-14 entries)
 
 **Read for context and used as the test standard, not reviewed:** `Source_Registry.md` row 65 in full; `cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt`; `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` (Gravity Classification block and Confidence/Gravity Cross-Check, extracted from `word/document.xml`); `L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx` (Layer 3 and Section 4's Step 4 entry); `Doc04_Round3_Review.md`, `Doc04_Round4_Review.md`, `Doc04_Round5_Review.md`, `Doc04_Round6_Review.md`; the Doc_04 blobs at `b2e93cac`, `c3b31c8b`, `27ed339a`.
 

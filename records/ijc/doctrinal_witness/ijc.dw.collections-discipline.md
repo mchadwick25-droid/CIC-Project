@@ -20,7 +20,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Did we tithe, and how did we decide what to give? We had a real
   giving discipline. It was preached at least twice in the sermons that

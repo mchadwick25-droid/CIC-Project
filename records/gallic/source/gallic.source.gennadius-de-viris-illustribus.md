@@ -19,8 +19,7 @@ work: De Viris Illustribus
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 3 (Theodoret, Jerome, Gennadius, Rufinus), tr.
   Ernest Cushing Richardson, ed. Schaff and Wace, vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, rights confirmed as part of this world's own corpus-map
-  assignment; not independently re-checked at the rights level by this authoring pass specifically.
+rights_status: "public-domain; vendored, rights confirmed as part of this world's own corpus-map assignment"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 30; the passage or text at issue was read
   directly, in full or at its own specific locus, within this world's own Source Registry build session.

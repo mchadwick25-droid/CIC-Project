@@ -23,7 +23,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - classical education, philosophy, or pagan learning and Christian faith
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.akatalepsia

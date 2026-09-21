@@ -1,18 +1,16 @@
 /**
- * The term/concept gloss's inline mark - the OTHER track VR_1A named, and
- * the original complaint that started this whole audit (Mark, live site,
- * 2026-08-09: "it uses complicated words ... catechumen and Didache").
- * Same InlineBridge grammar as the name/figure bridge, same "sourced from"
- * lead per Mark's correction on that track.
+ * The term/concept gloss's inline mark - the OTHER track VR_1A named,
+ * addressing complicated vocabulary a participant may not know (e.g.
+ * catechumen, Didache). Same InlineBridge grammar as the name/figure
+ * bridge, same "sourced from" lead.
  *
  * `translational_sense` is the actual point of this whole system, not a
  * side effect: engine.m4.term_glosses reads it straight from the term
  * record's own `senses.translational` field, written specifically to
  * answer a modern-phrased question in the world's own terms - e.g.
  * alx.term.allegoria's: "'Was Jesus God?' - this world answers through
- * the Logos..." Mark's own framing for the whole project: "we may think
- * differently or understand words differently. its deeper discovery."
- * This is that discovery, not a dictionary definition.
+ * the Logos..." The point is surfacing how a world understands a question
+ * in its own terms, not supplying a dictionary definition.
  */
 import type { GlossUsed } from '../types/conversation';
 import { InlineBridge } from './InlineBridge';

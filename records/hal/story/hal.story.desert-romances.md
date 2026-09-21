@@ -24,7 +24,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - the hero-tales this world told about the ascetic life
-  do_not_retrieve_when:
+  prefer_instead:
   - never as history about the named individuals
 relations:
 - type: illustrates

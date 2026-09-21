@@ -19,7 +19,7 @@ confidence:
     anecdote about a woman and a chalice, prayer through one account of a gathering being broken up, and
     fasting through a single martyr's fast before execution, which is not evidence of a communal rule.
     No liturgical text of ours survives, and no account of what undergoing the washing was like survives
-    from anyone who underwent it. Added 2026-09-14, corrected 2026-09-14 after independent review: whether
+    from anyone who underwent it. Whether
     entry was ever compelled rather than chosen is named here at the same level of generality
     `don.limit.bagai-violence-no-account` already uses for this world's hardest charges - it does not
     repeat that record's own specific, dated, hostile-only allegation, only cross-references it, because
@@ -65,7 +65,6 @@ retrieval:
   - participant asks whether joining us was ever forced rather than chosen
   - participant asks how wrongdoing in the community was handled and whether someone could come back
   - participant asks about our prayer, our fasting, or the meal we shared
-  do_not_retrieve_when: []
 text: >-
   Walk it through. You come to us from the other communion, and we put
   you in the water. That is the step, and everything else follows from
@@ -181,59 +180,20 @@ principled exception."
 Paired with `don.quote.petilian-conscience-of-the-giver` (which also pairs with
 `don.dw.walking-to-one-font`); reciprocal relations declared on the quote.
 
-**Revised 2026-09-14, `donatism-ordinary-believer` build thread.** A fleet-wide
-source-fidelity audit found this record answered F4-I's "how did a person
-become one of us" entirely as a chosen rite, with no place in the corpus
-answering "was I even asked."
+Donatist laity's own reluctance to rebaptize is sourced to Augustine,
+*On Baptism* I.5.6 (`cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml`
+line 12744), using the source's own quantifiers, "almost all" and "many."
+A Donatist bishop's own words at the 411 Conference are sourced to
+`don.source.migne-pl11-collatio-carthaginiensis`, first cognitio act 154,
+lines 121373-121387. The Adeodatus material is kept because it is this
+world's own bishop's own recorded words, not an opponent's
+characterization.
 
-**First pass, corrected after independent review.** The first version of
-this revision narrated the specific content of two hostile-only allegations
-(Crispinus of Calama's forced mass rebaptism, and a mirror charge against
-our own bishop Petilian) directly in this record's own voice, including
-quoted numbers and a named location. An independent review caught two real
-problems with that: (1) `Doc_09_Story_Inventory.md` SS8 item 3 had already,
-deliberately, declined to narrate the Crispinus/Mappalian allegation's own
-particulars anywhere in this world's build, and the first pass reopened
-that choice without naming that it was doing so; (2) the narration itself
-had drifted from its sources - "in a single day" was not in the Latin
-(`uno terroris impetu`, "by a single onset of terror," is what the
-NPNF phrase "under the sole influence of terror" already renders, correctly,
-two clauses later); "eighty tenants" imported "tenants" from Letter 66,
-a source this record never opened, when the actual locus (Answer to
-Petilian II.84.184) says only "eighty souls"; "young" was an invented age
-for the Petilian catechumen; and calling the charge against Petilian "the
-identical charge the other way" was simply wrong - Crispinus and Petilian
-were both Donatist bishops accused by the same opponent, not opposing
-sides. The review is quoted in full in
-`Review-Artifacts/OrdinaryBeliever_Round1_Review.md`, findings F-3 through
-F-7. This revision reverts to naming the charges' existence
-only, cross-referencing `don.limit.bagai-violence-no-account` rather than
-repeating its content, which is both more accurate and more consistent
-with this world's own established discipline.
-
-**What survives from the first pass, independently re-verified again:**
-Donatist laity's own reluctance to rebaptize (Augustine, *On Baptism* I.5.6,
-`cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml` line 12744
-- corrected to "almost all" and "many," the source's own quantifiers, not
-the first pass's softened "most" and "some"); and a Donatist bishop's own
-words at the 411 Conference (`don.source.migne-pl11-collatio-carthaginiensis`,
-first cognitio act 154, lines 121373-121387). The Adeodatus material is
-kept because it is this world's own bishop's own recorded words, not an
-opponent's characterization - unlike the Crispinus/Petilian allegations,
-there is no established-discipline reason to withhold it. Its own tone is
-now read as a boast rather than left as an unresolved boast-or-admission
-binary, since on either reading the bishop's own word for what secured the
-place is fear; the transcript's genuinely poor OCR (this corpus's worst,
-per `don.core.donatism` caution 2) and this record's own unofficial
-translation are now disclosed in `confidence.divergence_note`, not only in
-the body text.
-
-**Left deliberately unused, unchanged from the first pass:** the mirror
-charge against Petilian (Augustine, *Sermo ad Caesarienses* SS8) is
-withdrawn entirely rather than narrated or cross-referenced, since no
-existing honest_limit record names it and adding one is a judgment about
-how far this world's established restraint should extend - a question for
-the project lead, not this pass. Letter 66 to the Mappalians, a further
-411 Conference roll-call exchange (Severianus vs. Adeodatus), and material
-from `Contra Cresconium`/`Contra Petilianum` on congregations changing
-sides under fear of Gildo's soldiers remain identified but not drawn in.
+The mirror charge against Petilian (Augustine, *Sermo ad Caesarienses*
+SS8) is not drawn on here, since no existing honest_limit record names it
+and adding one is a judgment about how far this world's established
+restraint should extend - a question for the project lead. Letter 66 to
+the Mappalians, a further 411 Conference roll-call exchange (Severianus
+vs. Adeodatus), and material from `Contra Cresconium`/`Contra Petilianum`
+on congregations changing sides under fear of Gildo's soldiers remain
+identified but not drawn in.

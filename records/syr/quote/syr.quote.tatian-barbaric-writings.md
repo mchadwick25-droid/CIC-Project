@@ -35,7 +35,6 @@ retrieval:
   - "participant asks what they looked for in the scriptures and what they found there"
   - "participant asks what they made of Greek philosophy and learning"
   - "participant asks how someone came to believe in the first place"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: syr.gravity.diatessaron-normative}
 ---

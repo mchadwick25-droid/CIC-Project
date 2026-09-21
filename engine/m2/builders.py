@@ -8,7 +8,12 @@ import hashlib
 import re
 
 from engine.m1 import canon
-from engine.prose import DEMONSTRATION_TAG_FLOOR, content_words, quote_aware_sentences
+from engine.prose import (
+    DEMONSTRATION_TAG_FLOOR,
+    content_words,
+    quote_aware_sentences,
+    retrieval_words,
+)
 
 from .canonical import canonical_json
 
@@ -94,8 +99,7 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None
     statements = sorted(record.get("register_statements") or [], key=lambda s: s["number"])
     if statements:
         body = "\n".join(f"{s['number']}. {s['statement']}" for s in statements)
-        # register_hold: how the seven hold under load (Mark-approved
-        # wording, 2026-08-28 register & reach pass) - emitted beneath the
+        # register_hold: how the seven hold under load - emitted beneath the
         # numbered statements, never as an eighth statement.
         hold = (record.get("register_hold") or "").strip()
         if hold:
@@ -108,8 +112,8 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None
         emit("Pronoun rule", pronoun_rule.replace("{world}", world_name))
 
     emit("Citation contract", _fill_citation_example(record.get("citation_contract") or "", records or {}))
-    # Stories and quotes are never screened by the register (Mark's ruling,
-    # 2026-08-28): stories arrive through their own tellable_as retellings;
+    # Stories and quotes are never screened by the register:
+    # stories arrive through their own tellable_as retellings;
     # quotes speak their build-authored modern_rendering where one exists,
     # originals on the click page.
     emit("Stories and quotes", record.get("story_quote_reach"))
@@ -221,7 +225,7 @@ def _candidate_head_text(record: dict) -> str:
 _MIN_SHARED_WORDS = 3
 
 # Records can opt out of demo auto-tagging with `demo_tag: exclude` -
-# added 2026-08-29 (craft cycle 2) when four new honest_limit records,
+# needed because some honest_limit records,
 # whose statements necessarily speak in framing vocabulary ("we cannot
 # tell you", "plainly"), false-tagged unrelated demo sentences at the
 # shipping floor ("It says plainly that we do not commend those who give
@@ -282,8 +286,8 @@ def _quote_speaker(quote: dict) -> str:
 
 def _quote_opening(quote: dict, width: int = 60) -> str:
     # The opening words shown are the SPEAKABLE form - the build-authored
-    # modern_rendering where one exists (Mark's ruling, 2026-08-28:
-    # archaic quotes are translated in the build, originals on the click
+    # modern_rendering where one exists (archaic quotes are translated
+    # in the build, originals on the click
     # page), the original text otherwise - so the index matches what the
     # voice would actually say at the table.
     text = " ".join((quote.get("modern_rendering") or quote.get("text") or "").split())
@@ -600,7 +604,7 @@ def build_capsule(records: dict, registry_entry: dict) -> bytes:
 # SS3 lists doctrinal_witness as a fourth chunk-feeding (retrieval-block)
 # type. Adding a fourth directory that follows the same one-file-per-record
 # pattern is the minimal, fully-determined resolution of that gap - DECIDABLE
-# (Build-Blueprint.md SS4), not a spec contradiction needing Mark's input.
+# (Build-Blueprint.md SS4), not a spec contradiction needing a ruling.
 
 
 def _chunk_text(record: dict) -> str:
@@ -668,7 +672,50 @@ def build_indexes(records: dict) -> dict[str, bytes]:
     return {
         "compiled/indexes/lexicon.faiss": _index_blob(lexicon_entries),
         "compiled/indexes/story.faiss": _index_blob(story_entries),
+        "compiled/retrieval.json": build_retrieval_json(records),
     }
+
+
+# ---- compiled/retrieval.json ----------------------------------------------
+# Build-Plan.md Stage 4c. A deterministic lexical index: one word set per
+# record, scoped to engine.m1.spoken_fields's own registry (the fields that
+# actually reach a participant or the model that speaks to them) so this
+# reads the same "what does this record actually say" every other
+# participant-facing surface already agrees on, rather than re-deriving a
+# field list of its own - the exact drift this project spent Stage 2's own
+# registry work closing. "instruction" fields (voice_craft/fleet_voice
+# scaffolding - never a claim about the world, never itself retrievable
+# ground) are deliberately excluded; every other role (voice-diet,
+# evidence-head, participant-label) is included, since a participant could
+# plausibly type any of that content back at the voice, including a
+# citation-card label like a term's own world_word.
+#
+# FALLBACK_EXCLUDED_KEYS and NON_PROSE_KEYS are both applied on top,
+# defensively, even though a spoken field and either exclusion set are
+# already near-disjoint at the TOP level in practice - a spoken field can
+# still nest one of them one level down. `quote.sources` is itself a
+# spoken, participant-label field, but its own list items carry
+# `source_id` (NON_PROSE_KEYS - "a dotted id tokenizes into ordinary
+# words") and its `locus` strings follow the identical "title; scholarly
+# apparatus" convention `engine.m4.citation_cards` already knows to
+# truncate before showing a participant (source.work is the same shape) -
+# short_head() applies that same truncation here, so this index is never
+# wider than what a participant would actually be shown. Found by running
+# this builder for real against alx before landing it: without both, a
+# quote's own vendored-filename apparatus ("...(anf04_tertullian4-
+# minucius-felix-commodian-origen1-2.xml)") and its source's own dotted id
+# fragments ("alx", "origen") were leaking into that quote's word set.
+#
+# The word-extraction itself (retrieval_words) now lives in engine.prose,
+# not here - Stage 4c part 2 has engine.m4.evidence's own Stage B2 fill
+# score against the identical set, so the two can't drift apart the way
+# seven independently-maintained field lists already did once (see
+# engine.m1.spoken_fields's own docstring). This file still owns the
+# artifact's shape (one word list per record, keyed by id, sorted).
+
+
+def build_retrieval_json(records: dict) -> bytes:
+    return canonical_json({r["id"]: retrieval_words(r) for r in sorted(records.values(), key=lambda r: r["id"])})
 
 
 # ---- compiled/quotes.json, figures.json, repository.json ----------------
@@ -679,8 +726,8 @@ def build_quotes_json(records: dict) -> bytes:
         {
             "id": q["id"],
             "text": q.get("text"),
-            # Build-authored translation for archaic originals (Mark's
-            # ruling, 2026-08-28): the spoken form; text above stays the
+            # Build-authored translation for archaic originals:
+            # the spoken form; text above stays the
             # original for the click page. Absent when the original's
             # English is already plain.
             "modern_rendering": q.get("modern_rendering"),
@@ -708,9 +755,9 @@ def build_figures_json(records: dict) -> bytes:
     return canonical_json({"figures": figures})
 
 
-# BUILD PROVENANCE NEVER SHIPS (Mark's ruling, 2026-08-30: "all world
-# build and active files ... need to be clean for exactly what they exist
-# to do"). The record STORE is the workshop - bodies, search records, and
+# BUILD PROVENANCE NEVER SHIPS: all world
+# build and active files need to be clean for exactly what they exist
+# to do. The record STORE is the workshop - bodies, search records, and
 # reviewer-facing fields are its mandated audit trail and stay untouched.
 # The compiled PACKAGE is the instrument, and two kinds of build residue
 # were shipping in it, measured fleet-wide before this change (~250
@@ -731,10 +778,29 @@ def build_figures_json(records: dict) -> bytes:
 #   other fields; none of these four has a runtime consumer (verified by
 #   grep outside gates/schemas; the fallback already excluded
 #   modern_lens_note by name) and all are stripped at compile.
+# - facilitator_brief rows (added 2026-09-21, website-card-redesign-to-main):
+#   `audience: facilitator` by the record's own schema - a compiled brief
+#   for the human Facilitator, never a claim the Representative's own voice
+#   speaks from (CLAUDE.md's "Safety comes first": redirect and crisis
+#   handling are Facilitator-governed, never the Representative's). The
+#   same unfiltered fulltext fallback that motivated excluding search_record
+#   applies here with higher stakes - excluded from the package entirely,
+#   same as search_record, until a real Facilitator-surface consumer needs
+#   its own dedicated, audience-checked read path.
+# - world_front rows (added 2026-09-21, website-card-redesign-to-main): each
+#   one's own divergence_note calls it "a compiled front door over this
+#   world's own already-rated records," and its `export.include_types`
+#   names exactly those already-retrievable atomic types (story, quote,
+#   figure, term, contested_claim, honest_limit, doctrinal_witness,
+#   gravity, force, source) it rolls up. The operative, individually-cited
+#   ground already ships via those records; shipping the rollup too would
+#   let a live turn retrieve and cite its etic, third-person Atlas-panel
+#   prose instead of the primary record it was built from. Excluded from
+#   the package entirely, same reasoning as the four stripped fields above.
 #
 # M1 gates still validate everything on the records themselves - this
 # changes what ships, never what is authored or checked.
-_PACKAGE_EXCLUDED_RECORD_TYPES = {"search_record"}
+_PACKAGE_EXCLUDED_RECORD_TYPES = {"search_record", "facilitator_brief", "world_front"}
 _PACKAGE_STRIPPED_FIELDS = {"why_sources_cannot_answer", "modern_lens_note", "discovery_channel", "narrative_tier_justification"}
 
 

@@ -36,7 +36,6 @@ retrieval:
   - "participant asks what ordinary people thought of the ascetic life"
   - "participant asks whether the fasting went too far and whether anyone died of it"
   - "participant asks whether the neighbours were hostile"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 39 sec. 6,
 div v.XXXIX). ATTRIBUTION SHAPE: the Roman funeral crowd's whispers as

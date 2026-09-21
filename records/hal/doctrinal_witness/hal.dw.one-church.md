@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Was our church Catholic? We used exactly that word for ourselves.
   Catholic meant the one church spread through the whole world, holding the

@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - how a person actually joined this life
   - questions about money, property, and giving things up
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.anachoresis

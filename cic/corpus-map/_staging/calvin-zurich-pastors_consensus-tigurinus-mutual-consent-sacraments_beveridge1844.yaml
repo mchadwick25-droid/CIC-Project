@@ -1,0 +1,45 @@
+# Worker: this build thread (Doc_02 preparation), 2026-09-15. This session
+# had working outbound access to archive.org (contrary to this project's
+# general note that Reformation/patristic text hosts are sandbox-blocked)
+# and used it to close the single most significant open acquisition item
+# named in this world's own Doc_01 (Sec8 item 2) and Open_Gaps_Tracking.md
+# (item 3): the Consensus Tigurinus, the actual documented Zurich/Geneva
+# doctrinal bridge this world's Strand Determination rests on.
+source_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+
+authors_ruled:
+  calvin-zurich-pastors:
+    kind: metadata-omission
+    evidence: >
+      Not CCEL-derived markup (a plain-text archive.org extract), so no
+      automatic author slug exists. The file's own title page reads
+      "Mutual Consent in Regard to the Sacraments... Between the
+      Ministers of the Church of Zurich and John Calvin, Minister of the
+      Church of Geneva" - a genuinely joint document, drafted
+      substantively by Calvin but negotiated and issued together with the
+      Zurich pastors (chiefly Bullinger) until agreement, published under
+      both parties' names. A joint-author slug, the same pattern this
+      corpus already uses for other two-party single works
+      (ursinus-olevianus).
+    from_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+
+assignments:
+  - work: "Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)"
+    author: calvin-zurich-pastors
+    locus: "whole file"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      The formal 1549 doctrinal agreement between Bullinger's Zurich and
+      Calvin's Geneva on the Lord's Supper, published 1554 - genuinely
+      the single document this world's own Strand Determination (Doc_01
+      Sec5) names as most directly evidencing the Zurich/Geneva bridge.
+      Its own acquisition was flagged as genuinely open in the Source
+      Readiness Dossier and carried as a binding item through Doc_01's
+      own review rounds; this file closes that gap. Contains Calvin's
+      prefatory letter to the Zurich pastors, the Zurich pastors' own
+      reply, the 26 "Heads of Agreement" themselves, and Calvin's own
+      appended exposition - the Consensus proper, per the file's own
+      intake header.

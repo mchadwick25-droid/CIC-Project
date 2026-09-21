@@ -34,7 +34,7 @@ retrieval:
     on this subject
   - participant presses on what was actually argued against Jewish practice, beyond the plain fact that
     it happened
-  do_not_retrieve_when:
+  prefer_instead:
   - a general question about Judaism with no connection to this world's own record
   - asking about present-day Jewish-Christian relations, which this record makes no claim about
 relations: []

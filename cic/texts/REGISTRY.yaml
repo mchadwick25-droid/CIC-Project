@@ -1983,6 +1983,117 @@
     above. Raw djvu OCR text, same whitespace-only normalization applied, no wording
     changed. Book XXVII.3.12-13 verified directly against this file and now carries its
     own verbatim quote record, ijc.quote.ammianus-sicininus-massacre.
+- filename: calvin_institutes-christian-religion-vol1_beveridge1845.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    Institutes of the Christian Religion, Vol. I, John Calvin, trans. Henry Beveridge
+    (Edinburgh: The Calvin Translation Society, 1845) - the standard cited English edition
+    per the dossier. Fetched directly (curl, raw bytes) from Internet Archive, identifier
+    institutesofchrbeve01calv, "possible-copyright-status": "NOT_IN_COPYRIGHT" confirmed via
+    the item's own metadata API. RIGHTS: public domain by date, an 1845 publication. Raw
+    djvu OCR text; runs of 2+ spaces collapsed to one throughout, no wording changed;
+    library accession/stamp noise left as-is per this corpus's standing practice for
+    archive.org scans.
+- filename: calvin_institutes-christian-religion-vol2_beveridge1845.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    Institutes of the Christian Religion, Vol. II, same edition and vendoring basis as Vol.
+    I above. Internet Archive identifier institutesofchribeve02calv, "NOT_IN_COPYRIGHT"
+    confirmed via the item's own metadata API.
+- filename: calvin_institutes-christian-religion-vol3_beveridge1845.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    Institutes of the Christian Religion, Vol. III, same edition and vendoring basis as
+    Vols. I-II above. Internet Archive identifier institutesofchrbeve03calv, "NOT_IN_COPYRIGHT"
+    confirmed via the item's own metadata API. Completes the full Beveridge 1845 three-volume
+    set.
+- filename: calvin_geneva-catechism_waterman1815.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    The Catechism of the Church of Geneva, John Calvin, trans. Elijah Waterman (Hartford,
+    Conn.: Sheldon & Goodwin, 1815). Fetched directly (curl, raw bytes) from Internet
+    Archive, identifier catechismofchurc00calv, "possible-copyright-status":
+    "NOT_IN_COPYRIGHT" confirmed via the item's own metadata API. RIGHTS: public domain by
+    date, an 1815 publication. Raw djvu OCR of an early-19th-century small volume - denser
+    OCR noise than this batch's later editions; runs of 2+ spaces collapsed to one
+    throughout, no wording changed.
+- filename: zwingli_selected-works_jackson1901.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    Selected Works of Huldreich Zwingli (1484-1531), the Reformer of German Switzerland, ed.
+    Samuel Macauley Jackson (Philadelphia: University of Pennsylvania, 1901) - a multi-work
+    compilation. Fetched directly (curl, raw bytes) from Internet Archive, identifier
+    translationsrepr01pennuoft, "possible-copyright-status": "NOT_IN_COPYRIGHT" confirmed via
+    the item's own metadata API. RIGHTS: public domain by date, a 1901 publication.
+    CONFIRMS a dossier item flagged unconfirmed: this volume does contain The Sixty-Seven
+    Articles of Zwingli (1523) in full, directly verified this pass. Raw djvu OCR text;
+    runs of 2+ spaces collapsed to one throughout, no wording changed.
+- filename: zwingli_latin-works-correspondence-vol1_jackson1912.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    The Latin Works and the Correspondence of Huldreich Zwingli, Together with Selections
+    from His German Works, Vol. I, ed. Samuel Macauley Jackson (New York: G. P. Putnam's
+    Sons / Philadelphia: Heidelberg Press, 1912) - a multi-work compilation of early
+    treatises and letters. Fetched directly (curl, raw bytes) from Internet Archive,
+    identifier latinworkscorres01zwin, "possible-copyright-status": "NOT_IN_COPYRIGHT"
+    confirmed via the item's own metadata API. RIGHTS: public domain by date, a 1912
+    publication. Raw djvu OCR text; runs of 2+ spaces collapsed to one throughout, no
+    wording changed.
+- filename: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
+    Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    A PARTIAL EXTRACT, not a full volume: Sec. 55 "The Second Helvetic Confession, A.D.
+    1566" (Bullinger) and Sec. 69 "The Heidelberg Catechism, A.D. 1563" (Ursinus/Olevianus),
+    mechanically extracted from Philip Schaff, The Creeds of Christendom, with a History and
+    Critical Notes, Vol. III: The Evangelical Protestant Creeds, with Translations (New
+    York: Harper & Brothers, 1919 printing, orig. 1877). This is the movement's own
+    floor-clearance text (ch. III Trinity, ch. XI Christology of the Second Helvetic
+    Confession) cited directly in this world's Step 0 draft. The full source volume
+    (~475,000 words, covering many creeds this world does not need - the Augsburg
+    Confession, the Belgic Confession, the Thirty-Nine Articles, the Westminster Standards,
+    and others) was deliberately NOT vendored whole; only these two sections were extracted,
+    to avoid bloating the corpus with unassigned content. Fetched directly (curl, raw bytes)
+    from Internet Archive, identifier creedschristend07schagoog, "possible-copyright-status":
+    "NOT_IN_COPYRIGHT" confirmed via the item's own metadata API - a Google Books scan, its
+    own inserted PD disclaimer page kept in the extracted text rather than stripped, per
+    this corpus's standing practice. RIGHTS: public domain by date, a 1919 publication. Raw
+    djvu OCR text; runs of 2+ spaces collapsed to one throughout, no wording changed.
+- filename: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+  supplied_by: Claude (this build thread; this session had working outbound access to
+    archive.org, contrary to this project's general note that patristic/Reformation text
+    hosts are sandbox-blocked - flagged in Doc_02 for a coach thread's attention, since it
+    may be worth re-testing for other worlds rather than assumed still blocked)
+  date_added: '2026-09-15'
+  notes: >-
+    Mutual Consent in Regard to the Sacraments, Between the Ministers of the Church of
+    Zurich and John Calvin, Minister of the Church of Geneva (the Consensus Tigurinus,
+    1549, published 1554), trans. Henry Beveridge, in Tracts Relating to the Reformation,
+    Vol. II (Edinburgh: The Calvin Translation Society, 1844). This is the single most
+    significant open acquisition item named in this world's own Doc_01 (Sec8 item 2) and
+    Open_Gaps_Tracking.md (item 3) - the actual documented Zurich/Geneva doctrinal bridge
+    this world's own Strand Determination rests on. Fetched directly (curl, raw bytes) from
+    Internet Archive, identifier tractsrelatingto2calv. No explicit copyright-status
+    metadata field on this item; RIGHTS: public domain by date, an 1844 publication. Raw
+    djvu OCR text; runs of 2+ spaces collapsed to one throughout, no wording changed. This
+    is a BOUNDED EXTRACT (pp. 195-244 of the printed volume) covering the Consensus proper
+    (Calvin's prefatory letter, the Zurich pastors' reply, the 26 Heads of Agreement, and
+    Calvin's own appended exposition) - not the volume's other contents (an earlier Short
+    Treatise on the Lord's Supper, or Calvin's later, separate Second Defence against
+    Westphal, which immediately follows in the same volume).
 - filename: bell_jews-christians-egypt-meletian-papyri_1924.txt
   supplied_by: Claude (fleet cross-world research thread identified the item; this build
     thread fetched, verified, and vendored it)
@@ -2007,3 +2118,166 @@
     (1924, clears this corpus's "to ~1929"/rolling-95-year rule) in the US, but NOT yet
     under a life+70 jurisdiction (Bell d. 1967, reaches 2038) - the mirror image of the
     Budge Paradise caution already on file (Budge d. 1934, life+70 already elapsed).
+- filename: luther_works-v1-selected_jacobs-spaeth1915.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Lutheran
+    Wittenberg build per lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    Works of Martin Luther, with Introductions and Notes, Volume I, ed. Henry Eyster
+    Jacobs and Adolph Spaeth (Philadelphia: A. J. Holman Company, 1915) - a multi-work
+    compilation: the Ninety-Five Theses/Disputation on the Power of Indulgences, A
+    Treatise on Baptism, A Discussion of Confession, Fourteen of Consolation, A Treatise
+    on Good Works, and other 1517-1520 writings, each individually addressable by its own
+    heading inside the file. Fetched directly (curl, raw bytes - not WebFetch, to avoid
+    any risk of summarization-model paraphrase touching the wording) from Project
+    Gutenberg eBook #31604 (www.gutenberg.org/ebooks/31604), released 2010-03-12,
+    produced by Michael McDermott from Internet Archive scans. RIGHTS: public domain by
+    date, a 1915 publication. Gutenberg's own boilerplate license/donation material
+    stripped mechanically at the *** START OF *** / *** END OF *** markers; body text
+    otherwise unaltered. A bibliographic header (matching this corpus's established
+    convention) was prepended.
+- filename: luther_works-v2-selected_jacobs-spaeth1916.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Lutheran
+    Wittenberg build per lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    Works of Martin Luther, with Introductions and Notes, Volume II, ed. Adolph Spaeth
+    (Philadelphia: A. J. Holman Company, 1916) - a multi-work compilation: An Open Letter
+    to the Christian Nobility of the German Nation (1520) and On the Babylonian Captivity
+    of the Church (1520) among other works, each individually addressable by its own
+    heading. Fetched directly (curl, raw bytes) from Project Gutenberg eBook #34904
+    (www.gutenberg.org/ebooks/34904), released 2011-01-10, produced by Michael McDermott
+    from Internet Archive scans. RIGHTS: public domain by date, a 1916 publication.
+    Gutenberg boilerplate stripped mechanically at its own START/END markers; body text
+    otherwise unaltered. A bibliographic header was prepended.
+- filename: luther_large-catechism_bente-dau1921.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Lutheran
+    Wittenberg build per lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    The Large Catechism of Martin Luther, trans. F. Bente and W. H. T. Dau, from Triglot
+    Concordia: The Symbolical Books of the Ev. Lutheran Church (St. Louis: Concordia
+    Publishing House, 1921), pp. 565-773. Fetched directly (curl, raw bytes) from Project
+    Gutenberg eBook #1722 (www.gutenberg.org/ebooks/1722), released 1999-04-01, prepared
+    by Rev. Bob Smith. RIGHTS: public domain by date, a 1921 publication. Gutenberg
+    boilerplate stripped mechanically at its own START/END markers; body text otherwise
+    unaltered. A bibliographic header was prepended.
+- filename: luther_small-catechism_smith1994.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Lutheran
+    Wittenberg build per lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    Luther's Little Instruction Book: The Small Catechism of Martin Luther, trans. Robert
+    E. Smith (Project Wittenberg, Walther Library, Concordia Theological Seminary; 1994,
+    revised 2002, revised and expanded 2004), translated from the German text as printed
+    in Concordia Triglotta (1921). RIGHTS FLAGGED, not the corpus's usual by-date basis:
+    this is a modern (1994/2002/2004) translation, not itself a 95-years-old-or-more
+    publication - PD status rests on the translator's own release for free distribution
+    via Project Wittenberg, certified by Project Gutenberg's own hosting of it as a formal
+    eBook, per Gutenberg eBook #1670 (www.gutenberg.org/ebooks/1670), released 1999-01-01.
+    Recorded here explicitly so a later session does not misapply the by-date rule to this
+    one file. Fetched directly (curl, raw bytes); Gutenberg boilerplate stripped
+    mechanically at its own START/END markers, body text otherwise unaltered.
+- filename: melanchthon_apology-augsburg-confession_bente-dau1921.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Lutheran
+    Wittenberg build per lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    The Apology of the Augsburg Confession, Philipp Melanchthon, trans. F. Bente and
+    W. H. T. Dau, from the same Concordia Triglotta (1921) edition and translator team as
+    the companion Large Catechism above (matched by style and translator credit, not
+    independently confirmed against a title page naming both together). Verified this
+    pass: Article I "Of God" matches the floor-test text cited in the Lutheran Wittenberg
+    Step 0 draft. Fetched directly (curl, raw bytes) from Project Gutenberg eBook #6744
+    (www.gutenberg.org/ebooks/6744), released 2004-10-01, produced by Michael Pullen and
+    David Klinge. RIGHTS: public domain by date, a 1921 publication. Gutenberg boilerplate
+    stripped mechanically at its own START/END markers; body text otherwise unaltered.
+- filename: melanchthon_augsburg-confession_anon-pg275.txt
+  supplied_by: Claude (proactive source-research thread, vendored ahead of the Lutheran
+    Wittenberg build per lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md)
+  date_added: '2026-09-15'
+  notes: >-
+    The Augsburg Confession - The Confession of Faith Which Was Submitted to His Imperial
+    Majesty Charles V at the Diet of Augsburg in the Year 1530, drafted by Philipp
+    Melanchthon on behalf of the Lutheran Electors and Princes. TRANSLATOR FLAGGED, not
+    closed: Project Gutenberg's own bibrec metadata for this edition credits no
+    translator and no source print edition anywhere - independently checked directly
+    against the bibrec HTML page this pass, confirmed no translator field exists. NOT
+    confirmed to be the same Bente/Dau Concordia Triglotta translation as the companion
+    Apology (Gutenberg #6744) above, despite a stylistic resemblance - recorded as
+    unconfirmed rather than assumed. Fetched directly (curl, raw bytes) from Project
+    Gutenberg eBook #275 (www.gutenberg.org/ebooks/275), released 2008-06-29, produced by
+    Allen Mulvey and David Widger. RIGHTS: public domain by date, standard Gutenberg
+    hosting of a historical confessional text. Gutenberg boilerplate stripped mechanically
+    at its own START/END markers; body text otherwise unaltered.
+- filename: luther_hymns_bacon-allen.txt
+  supplied_by: Claude (Lutheran Wittenberg build thread, G1 Source Acquisition Manifest pass)
+  date_added: '2026-09-15'
+  notes: >-
+    Dr. Martin Luther's Deutsche Geistliche Lieder (The Hymns of Martin Luther, Set to
+    Their Original Melodies, With an English Version), ed. Leonard Woolsey Bacon,
+    assisted by Nathan H. Allen. Bilingual German/English hymnal, including Luther's own
+    1543 Preface to all good Hymn Books. RIGHTS FLAGGED: the original print edition's
+    exact year is not independently confirmed by this project (editor dates bound it to
+    the 19th/early 20th century); rights basis therefore rests on Project Gutenberg's own
+    public-domain determination for its library, not this project's own by-date rule -
+    recorded explicitly so a later session does not treat this as a confirmed by-date
+    entry. Fetched directly (curl, raw bytes) from Project Gutenberg eBook #417
+    (www.gutenberg.org/ebooks/417), released 1996-02-01, most recently updated
+    2015-04-01. Gutenberg boilerplate stripped mechanically at its own START/END markers
+    (plus one stray editorial version marker immediately following the START marker);
+    body text otherwise unaltered.
+- filename: luther_table-talk_bell1886.txt
+  supplied_by: Claude (Lutheran Wittenberg build thread, G1 Source Acquisition Manifest pass)
+  date_added: '2026-09-15'
+  notes: >-
+    Selections from the Table Talk of Martin Luther, trans. Captain Henry Bell (1646),
+    this edition ed. Henry Morley, Cassell's National Library (Cassell & Company,
+    Limited: London, Paris, New York & Melbourne, 1886). A SELECTION, not the complete
+    Table Talk - stated in the work's own title. Fetched directly (curl, raw bytes) from
+    Project Gutenberg eBook #9841 (www.gutenberg.org/ebooks/9841), released 2006-02-01,
+    most recently updated 2014-08-10, prepared by Les Bowler. RIGHTS: public domain by
+    date, an 1886 publication. Gutenberg boilerplate stripped mechanically at its own
+    START/END markers; body text otherwise unaltered.
+- filename: luther_works-v3-selected_various1930.txt
+  supplied_by: Claude (Lutheran Wittenberg build thread, G1 Source Acquisition Manifest pass)
+  date_added: '2026-09-15'
+  notes: >-
+    Works of Martin Luther, with Introductions and Notes - The Philadelphia Edition,
+    Volume Three (Muhlenberg Press / Board of Publication, United Lutheran Church in
+    America, 1930), various translators (Jacobs, Steinhaeuser, Steimle, Lambert,
+    Schindel) by individual work - see this file's own Contents. CORRECTS an assumption
+    carried from this world's own Step 0 dossier that the Philadelphia Edition's later
+    volumes carry the A. J. Holman Company imprint throughout: this volume's own title
+    page instead names Muhlenberg Press / the United Lutheran Church's own Board of
+    Publication - checked directly against the file, not assumed. RIGHTS: public domain
+    by date, a 1930 publication (the file's own copyright page states "Copyright, 1930,
+    by Board of Publication, United Lutheran Church in America"). OCR QUALITY FLAG: the
+    main treatise body reads cleanly on spot-check; the Contents page and some
+    back-matter are significantly OCR-degraded - any quotation must be independently
+    re-verified character-by-character against this file before use, more so than this
+    world's other vendored Philadelphia Edition volumes (I, II). Fetched directly (curl,
+    raw bytes) from Internet Archive item worksofmartinlut03luth
+    (archive.org/details/worksofmartinlut03luth); pre-title-page cover/spine OCR noise
+    stripped, body text otherwise unaltered including its own OCR errors.
+- filename: luther_bondage-of-the-will_cole1823.txt
+  supplied_by: Claude (Lutheran Wittenberg build thread, G1 Source Acquisition Manifest pass)
+  date_added: '2026-09-15'
+  notes: >-
+    Martin Luther on the Bondage of the Will: Written in Answer to the Diatribe of
+    Erasmus on Free-Will, trans. Rev. Henry Cole (London: T. Bensley for W. Simpkin and
+    R. Marshall, 1823). RESOLVES (for this one identifier) this world's own previously
+    disclosed acquisition discrepancy (Doc_01 §10; Step 0's own dossier named three
+    archive.org identifiers with conflicting accounts of which had been tried). RIGHTS:
+    public domain by date, an 1823 publication, independently corroborated by the
+    Internet Archive item's own catalog metadata (possible-copyright-status:
+    NOT_IN_COPYRIGHT). OCR QUALITY FLAG, disclosed plainly: this is a Google Books scan
+    with a materially higher character-level OCR error rate than any other file in this
+    world's own library - genuinely readable with effort, but every quotation must be
+    independently re-checked character-by-character before use, more so than this
+    project's usual standard. Fetched directly (curl, raw bytes) from Internet Archive
+    item martinlutheronb00colegoog (archive.org/details/martinlutheronb00colegoog);
+    Google Books' own standard rights/usage-guidelines front matter stripped, body text
+    otherwise unaltered including its own OCR errors. The other two identifiers this
+    world's own dossier named (bondagewill00colegoog, bondageofwill00mart) were not
+    independently checked this pass and remain open if a cleaner scan is ever wanted.

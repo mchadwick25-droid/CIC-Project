@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether they believed in demons and what one was like to meet"
   - "participant asks what frightened them at night and how they answered fear"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.antony-tomb-combat

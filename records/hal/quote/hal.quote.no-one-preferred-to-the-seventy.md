@@ -45,7 +45,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether other Christians accepted the new translation"
   - "participant asks who thought the old Greek version had more authority and why"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.force.augustine-dispute

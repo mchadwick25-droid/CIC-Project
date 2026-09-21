@@ -46,7 +46,6 @@ retrieval:
   retrieve_when:
   - participant asks whether we held the Bible as the only authority
   - participant asks whether we read Genesis as modern people argue about it
-  do_not_retrieve_when: []
 text: >-
   No, and the evidence for that is what our opponents had to say to beat
   us. Our case ran on two legs. One was scripture. The other was

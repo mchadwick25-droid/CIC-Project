@@ -1,0 +1,33 @@
+kind: formation
+world_id: lutheran-wittenberg-and-its-congregations
+display_name: "Lutheran Wittenberg & Its Congregations"
+time_window: {start: 1517, end: 1580}
+place: "Wittenberg, in Electoral Saxony, expanding into other German territorial states and, at the census's own confidence, toward Scandinavia"
+doorway_place: "Wittenberg, in Electoral Saxony, and the German territorial churches that followed it"
+doorway_description: >-
+  In 1517, Martin Luther sent theses against the sale of indulgences to
+  his archbishop. He was an Augustinian friar and professor at the young
+  university of Wittenberg. His theses opened a movement that challenged
+  the old order in two ways. It set Scripture's own authority against an
+  intervening hierarchy. And it held that a person stands before God by
+  a gift received through faith, not earned by works. Princes and city
+  councils carried the reform into their own territories, not bishops.
+  Wittenberg's own theology faculty advised them, not a separate church
+  government. The reform's most complete instrument was the household
+  catechism. It had three parts, recited at rising, at table, and at
+  night. A father or a schoolmaster examined each household every week.
+  The commandments had terrified a conscience; a promise spoken from
+  outside it made that conscience sure. German hymns were sung inside a
+  Mass that was kept, not abolished. The story runs from the Ninety-Five
+  Theses to a confession signed before the emperor at Augsburg in 1530.
+  It closes with a fuller confessional book gathered by 1580. By then
+  the movement's own founder had been dead some three decades.
+card_name: "The Catechized Households of Wittenberg"
+representative: {name: Nikolaus, role_label: Sexton-Schoolmaster}
+state: admitted
+census_id: "lutheran-wittenberg-and-its-congregations"
+thinness_statement: "Richest in the founder's own catechisms, treatises, and confessional documents and in the movement's own account of its founding decade (1517-1531); thinner on any household's or parish's own report of receiving that formation (the Saxon visitation records exist but are not in this library), women's own formation and voice (no text a woman wrote survives here), the felt experience of the 1529 Marburg break with the Reformed cities, the years after 1531 within the window's own declared close of 1580, material culture and lived worship independent of the movement's own account of itself, and the 1525 tract against the peasants and the 1543 treatise against the Jews - both real and disclosed as this world's own history, but not available here to quote from directly."
+living_tradition_flag: true
+package:
+  manifest_hash: "sha256:55761b8ab1e8a761aa1aad062a4353f545955f2adebc26e1a266943f85c7dedb"
+  location: "packages/witt/2026-09-21T19-39-30Z"

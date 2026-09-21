@@ -158,21 +158,6 @@
   simpler, rounder pair in the same $/hour framing this page has always
   used, in the same ballpark as (though not equal to) what this session
   actually measured.
-
-  Sixth pass, same day: "Creating less expensive features" bullet said
-  "we're also building guided tours," present-progressive, as though tours
-  were active development alongside the Atlas. Mark's roadmap update:
-  tours are on hold for a while - priority is getting the interview,
-  Atlas, and multi-voice conversation up, running, and refined, plus a
-  few other features still to be explored, before tours are picked back
-  up. Reworded to state tours as planned-for-later rather than in
-  progress. Checked the rest of cic-website/ for the same stale-tense
-  problem: whats-next.html and index.html don't mention tours at all, so
-  no other page needed this fix. cic-website/tour.html itself (its own
-  landing page, "status-chip building" on the Living Table slides) was
-  flagged in this same conversation as something that will need an
-  update once multi-voice actually ships - left untouched here, since
-  it's still accurate today and is a separate, later piece of work.
 -->
 
 <!-- DRAFT, pending Mark's review before this is treated as final -
@@ -217,13 +202,21 @@
       </span>
       <span class="wordmark">Church in Conversation</span>
     </a>
-    <nav class="site-nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="whats-next.html">What's Next</a>
-      <a href="atlas-v3.html">Church Family Tree</a>
-      <a href="support.html" aria-current="page">Get Involved</a>
+    <nav class="feature-bar" aria-label="Main features">
+      <a class="feature-btn" href="atlas-v3.html">Church Family Tree</a>
+      <a class="feature-btn" href="index.html#who">Conversation with One</a>
+      <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <div class="menu">
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
+        Menu
+        <svg class="menu-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <nav class="site-nav" id="site-menu" aria-label="Site">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
   </div>
 </header>
 
@@ -265,7 +258,7 @@
          even more" for the Table sentence - not itemized wording, just
          a plainer register; replaced with "increase that cost" on his
          own pick among three options offered. -->
-    <p>Every conversation has a real cost, turn by turn. Multi-voice Table conversations increase that cost, since each additional voice generates its own response. That's not the whole picture, either. Keeping this running also means hosting, storage, and the ongoing work of maintaining it. And as we grow — adding more Christian traditions and reaching more people — those costs grow with us. We've worked diligently to bring what we can down, so the door can stay open to as many people as possible. Keeping it that way is where we need your help.</p>
+    <p>Every conversation has a real cost, turn by turn. Multi-voice Table conversations increase that cost, since each additional voice generates its own response. That's not the whole picture, either. Keeping this running also means hosting, storage, and the ongoing work of maintaining it. And as we grow — adding more Christian traditions and reaching more people — those costs grow with us. Keeping the door open to as many people as possible is where we need your help.</p>
   </section>
 
   <section class="page-section" id="response">
@@ -302,5 +295,32 @@
   </div>
 </footer>
 
+<script>
+(function(){
+"use strict";
+var menu = document.querySelector('.menu');
+var menuToggle = document.getElementById('menu-toggle');
+if (menu && menuToggle) {
+  menuToggle.addEventListener('click', function(ev){
+    ev.stopPropagation();
+    var isOpen = menu.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.addEventListener('click', function(ev){
+    if (!menu.contains(ev.target)) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('keydown', function(ev){
+    if (ev.key === 'Escape' && menu.classList.contains('open')) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.focus();
+    }
+  });
+}
+})();
+</script>
 </body>
 </html>

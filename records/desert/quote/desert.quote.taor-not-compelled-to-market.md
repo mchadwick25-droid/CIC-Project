@@ -44,7 +44,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they wore and whether clothing mattered"
   - "participant asks whether they went out, into town or to market, and how often"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

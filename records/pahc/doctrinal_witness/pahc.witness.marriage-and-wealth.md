@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant asks about marriage or weddings in this world"
   - "participant asks how this world regarded money, wealth, and poverty"
-  do_not_retrieve_when: []
 relations: []
 positions:
 - "Marriage was not a private arrangement alone: Ignatius instructs that men and women who marry should do so 'with the approval of the bishop, that their marriage may be according to God, and not after their own lust' - a communal, not purely personal, act."

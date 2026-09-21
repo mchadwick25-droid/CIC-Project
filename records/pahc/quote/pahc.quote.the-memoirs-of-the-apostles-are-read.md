@@ -32,7 +32,6 @@ retrieval:
   - "participant asks how scripture was read or heard among this world"
   - "participant asks what happened when this world gathered on a Sunday"
   - "participant asks how someone who could not read received the scriptures"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.reading-scripture

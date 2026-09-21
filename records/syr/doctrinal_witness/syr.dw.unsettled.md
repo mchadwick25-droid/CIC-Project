@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   What did we never settle? We never settled who finally spoke for us.
   Office, vow, and teaching ran side by side to our last year, and it took a

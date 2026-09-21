@@ -20,7 +20,7 @@ function turnsFromAdvance(advance: TableMessageResponse): ConversationTurn[] {
   }
   const v = advance.voice as VoiceTurn | null;
   if (v) {
-    appended.push({ speaker: v.speaker, text: v.text, citations: v.citations, figuresUsed: v.figures_used, glosses: v.glosses });
+    appended.push({ speaker: v.speaker, text: v.text, citations: v.citations, figuresUsed: v.figures_used, glosses: v.glosses, transparency: v.transparency });
   }
   return appended;
 }
@@ -35,6 +35,9 @@ interface TableState {
   isLoading: boolean;
   error: string | null;
   errorRecoverable: boolean;
+  // Stage 0c (Build-Plan.md): the real table session round cap, from the
+  // API - null only before a session/transcript response has arrived.
+  roundCap: number | null;
 }
 
 const initialState: TableState = {
@@ -47,6 +50,7 @@ const initialState: TableState = {
   isLoading: false,
   error: null,
   errorRecoverable: false,
+  roundCap: null,
 };
 
 export function useTable() {
@@ -99,7 +103,7 @@ export function useTable() {
   const convene = useCallback(async (worldKeys: string[]) => {
     setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false }));
     try {
-      const { session_id, session_code } = await createTableSession(worldKeys);
+      const { session_id, session_code, round_cap } = await createTableSession(worldKeys);
       sessionRef.current = { sessionId: session_id, sessionCode: session_code };
       writeStored({ sessionId: session_id, sessionCode: session_code, mode: 'table', worldKeys });
       // create_table_session already appends the Facilitator's door turn,
@@ -115,6 +119,7 @@ export function useTable() {
         isLoading: false,
         error: null,
         errorRecoverable: false,
+        roundCap: round_cap,
       });
       return session_id;
     } catch (error) {
@@ -169,6 +174,7 @@ export function useTable() {
         isLoading: false,
         error: null,
         errorRecoverable: false,
+        roundCap: transcript.round_cap,
       });
       // A round left open by a mid-round reload is resumable - keep
       // continuing it so the table finishes what it was saying.
@@ -210,6 +216,7 @@ export function useTable() {
     worldKeys: state.worldKeys,
     turns: state.turns,
     roundOpen: state.roundOpen,
+    roundCap: state.roundCap,
     closed: state.closed,
     isLoading: state.isLoading,
     error: state.error,

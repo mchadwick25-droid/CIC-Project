@@ -23,7 +23,7 @@ retrieval:
   retrieve_when:
   - what baptism is or does, or what changes when a person is baptized
   - whether baptism is only a public announcement of a decision already made
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about catechesis as the preparation stage rather than the crossing itself
   - asking about a modern denominational baptism debate in its own terms
 relations: []

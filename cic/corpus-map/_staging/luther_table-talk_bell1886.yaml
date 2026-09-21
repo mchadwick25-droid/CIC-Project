@@ -1,0 +1,23 @@
+# Worker: Lutheran Wittenberg build thread, 2026-09-15. G1 Source
+# Acquisition Manifest pass (Atlas VI.1), vendored directly per the
+# V3 launch prompt's self-disposed G1 discipline.
+source_file: luther_table-talk_bell1886.txt
+
+assignments:
+  - work: Selections from the Table Talk of Martin Luther
+    author: luther
+    locus: "whole file"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: assigned
+    note: >
+      Trans. Captain Henry Bell (1646), this edition ed. Henry Morley
+      (Cassell, 1886). Luther's own informal, conversational register -
+      distinct from the treatise, catechetical, and confessional voices
+      already vendored, and directly useful for Doc_02's own founder/
+      congregation register work and for Doc_10 Representative voice
+      construction later in the build. A SELECTION, not the complete
+      Table Talk - stated in the work's own title; this file should not
+      be cited as though it were exhaustive of Luther's recorded table
+      conversation.

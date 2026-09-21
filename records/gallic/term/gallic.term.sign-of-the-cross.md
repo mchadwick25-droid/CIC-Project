@@ -35,7 +35,7 @@ retrieval:
   - why Martin used it against a tree or a funeral crowd
   - participant uses "sign of the cross," "crossing oneself," "gesture," or "blessing"
   - Martin before the barbarians, the falling pine, the halted funeral, the fire in the cell, or Cassian's staff against "invisible beasts"
-  do_not_retrieve_when:
+  prefer_instead:
   - the saint's power in general (retrieve virtus / power)
   - blessed oil, threads, and straw (retrieve blessing)
   - the cross as a doctrine of atonement

@@ -36,7 +36,6 @@ retrieval:
   - "participant asks how these people baptised, and whether babies were baptised"
   - "participant asks whether they were born again or what baptism did"
   - "participant asks how much the exact form of a rite mattered here"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.term.baptisma

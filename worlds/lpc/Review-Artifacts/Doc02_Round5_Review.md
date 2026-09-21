@@ -2,9 +2,9 @@
 ## Round 5 Independent Adversarial Review
 
 **Documents reviewed:**
-- `worlds/lpc/Doc_02_Source_Ecology.md` (revision of 2026-09-02, commit `ce8246f2`)
-- `worlds/lpc/Source_Registry.md` (same revision)
-- `worlds/lpc/Source_Acquisition_Manifest.md` (same revision)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md` (revision of 2026-09-02, commit `ce8246f2`)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Registry.md` (same revision)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Acquisition_Manifest.md` (same revision)
 - and, for the post-disposition edits it has now received and the disclosure record attached to them, `Doc_01_World_Identification_Boundaries_Orientation.md` lines 3, 94, 186 and 280, together with `lpc_Decision_Log.md` (all five entries)
 
 **Review date:** 2026-09-02
@@ -250,7 +250,7 @@ Read alongside the findings. The Round 4 fix pass got its hardest fix right at s
 
 **The priority-flag section, re-run against all 70 rows.** On the test the section actually applies — Confidence C or below and licensing a claim this document actually makes — the flag list is complete and correct: rows 8, 31–35, 37, 38, 40, 45–55, 57–69 flagged; rows 6, 25, 27, 41 exempted with a stated basis; row 42 addressed by name with its reverted widening; rows 28, 29 and 70 addressed as Excluded; row 56 exempted with a stated basis (the defect at L1 is that the row itself still says otherwise). The standing rule's restatement (Round 4's L2) correctly replaces "non-empty Licensed-For" with the test that was actually applied, and correctly keeps the coach referral above it rather than presenting the reading as settled.
 
-**Structural sweeps.** A programmatic duplicate-sentence sweep (>90 characters, sentence-split) across all three documents returned no repeated or stranded sentence — the single apparent hit is a sentence-splitting artifact on "F. Tempsky" in the Goldbacher citation, which legitimately appears at row 61 and at Manifest G4. Fifth consecutive round clean on that sweep. No Tier 5 material and no invented or illustrative narrative on a full read. §8's Confidence Map uses Article 17's fixed vocabulary and contains none of the prohibited language. §7's century-gap disclosure discharges Doc_01 §8 item 1 including the harder half. All three documents sit in the canonical `worlds/lpc/` folder per CO-022's *Draft* rule; no competing Approved-to-proceed or Frozen Doc_02 for this world exists anywhere in the tree; the working tree is clean and matches `ce8246f2`.
+**Structural sweeps.** A programmatic duplicate-sentence sweep (>90 characters, sentence-split) across all three documents returned no repeated or stranded sentence — the single apparent hit is a sentence-splitting artifact on "F. Tempsky" in the Goldbacher citation, which legitimately appears at row 61 and at Manifest G4. Fifth consecutive round clean on that sweep. No Tier 5 material and no invented or illustrative narrative on a full read. §8's Confidence Map uses Article 17's fixed vocabulary and contains none of the prohibited language. §7's century-gap disclosure discharges Doc_01 §8 item 1 including the harder half. All three documents sit in the canonical `World-Builds/Latin-Pastoral-Congregational-Christianity/` folder per CO-022's *Draft* rule; no competing Approved-to-proceed or Frozen Doc_02 for this world exists anywhere in the tree; the working tree is clean and matches `ce8246f2`.
 
 **Forces integration (CO-022's six integration points; FF V1.1 §4 Step 2).** Present and substantive. §6's closing paragraph answers all three Step 2 questions with content rather than labels; Transmission History is a named, non-trivial dimension for all three voices; Pontius receives a full five-dimension entry as a narrative source per CF V7.4's Expanded Author Gravity Assessment.
 

@@ -36,8 +36,8 @@ from fastapi.responses import JSONResponse
 CREATE_LIMIT = (60.0, 6)
 CONVERSE_LIMIT = (60.0, 40)
 
-# Participant-facing words (inventoried for Mark's read in the decision
-# log, alongside the move-3 error layer): plain, no blame, says what to do.
+# Participant-facing words (full inventory in the decision log, alongside
+# the move-3 error layer): plain, no blame, says what to do.
 RETRY_DETAIL = "The room is full for a moment - please wait a little and try again."
 
 

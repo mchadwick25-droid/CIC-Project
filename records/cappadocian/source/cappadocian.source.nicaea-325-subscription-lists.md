@@ -19,9 +19,7 @@ work: Nicaea (325), subscription lists
 edition: No open edition of the subscription lists themselves located; attested via secondary literature
   rather than an acquired primary edition
 kind: unvendored
-rights_status: not independently verified this session; row not yet acquired as an open text -- named
-  for completeness per the Source Registry's own checkpoint rule (every source a Doc_02 claim rests on
-  gets a row, acquired or not).
+rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 77; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

@@ -30,7 +30,7 @@ retrieval:
   - participant asks how a Donatist bishop argued procedure before an imperially-convened tribunal
   - conversation reaches the 411 Conference of Carthage and needs a specific, directly-quoted moment of
     a Donatist bishop's own voice, not only a description of the event
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the Conference's own outcome or scale (this quote is one procedural objection at
     one act, not a summary of the whole three-day proceeding, which this world's own build has not yet
     read in full -- Doc_09 SS8 item 2)

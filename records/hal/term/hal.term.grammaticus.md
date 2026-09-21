@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - Jerome's education and what made the scholarship possible
   - children's schooling and classical training
-  do_not_retrieve_when: []
 plain_meaning: The Roman grammar-school stage of training in Latin language and literature. Jerome
   trained under the famous grammarian Donatus.
 world_word: grammaticus

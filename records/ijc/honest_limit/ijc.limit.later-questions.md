@@ -28,11 +28,9 @@ statement: >-
 why_sources_cannot_answer: 'The faith-alone/works question is a Reformation-era formulation (Pauline
   grace-versus-law material exists in the record''s own quotations of Paul, but never framed as a
   contest between "faith alone" and "works" the way later controversy states it); this world''s window
-  closes before that framing exists to be argued. Corrected at review (Opus canon-structure pass,
-  2026-08-21): the record does directly engage original sin (Leo, Ep. LIX.4, transmission of guilt from
+  closes before that framing exists to be argued. The record does directly engage original sin (Leo, Ep. LIX.4, transmission of guilt from
   Adam) and the nature of the eucharistic elements (Ambrose, De Mysteriis IX, a real change of nature by
-  consecration) - this honest_limit previously claimed both were absent from the record, which was
-  false, and is narrowed here to the one question that genuinely remains unanswered.'
+  consecration); this honest_limit is narrowed here to the one question that genuinely remains unanswered.'
 nearest_material:
 - ijc.term.homoousios
 - ijc.dw.baptism-threshold

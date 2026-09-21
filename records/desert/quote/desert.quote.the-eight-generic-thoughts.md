@@ -28,7 +28,6 @@ retrieval:
   - "participant describes unwanted thoughts they cannot stop, or thoughts they hate having"
   - "participant asks where the seven deadly sins came from"
   - "participant asks whether a bad thought is already a sin"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.logismoi

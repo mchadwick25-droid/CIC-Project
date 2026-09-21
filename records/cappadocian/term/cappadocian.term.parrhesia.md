@@ -25,7 +25,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - boldness before God in prayer, or courage before civil power
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.eusebeia

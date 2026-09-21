@@ -21,7 +21,6 @@ retrieval:
   retrieve_when:
   - "participant asks what an outsider would have found strangest about this world's own practice"
   - "participant asks what total renunciation and physical seclusion actually looked like"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.quote.three-hundred-acres-to-the-villagers

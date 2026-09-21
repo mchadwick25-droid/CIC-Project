@@ -20,7 +20,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - ambition or status-seeking inside the church specifically
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.hesychia

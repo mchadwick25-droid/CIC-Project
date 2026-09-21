@@ -50,49 +50,14 @@ kind: ongoing maps Doc_08's own Cell 2B (ongoing/internal); the cell
 code is carried in this record's own name, per the convention
 established at desert.force.martyrdom-unavailable's own body note.
 
-Doc08, Round 1 review Finding S3: this record stated "housemaster,
-steward" as the Rule's own offices with no channel named, against
-desert.source.pachomian-corpus's own standing rule - and against
-desert.gravity.authority-tension, the very record this force declares
-a relation to, which states in two separate fields that neither
-vendored witness supplies those names and that Rousseau is the named
-authority. desert.source.rousseau-pachomius added to sources[] above,
-and every office-name claim now routed through it, matching that
-gravity record's own channel (the same two-source pattern; the exact
-phrasing was revised at Round 2 and Round 3 below). Finding M8: the
-Apophthegmata locus and first manifestation now carry that source's own
-compiler screen, which every sibling gravity record citing it already
-carries and this record previously omitted.
-
-Doc08, Round 2 review Finding S3: the Round 1 fix channelled only the
-office names, leaving the "obedience to an office" clause itself - the
-exact clause Round 1 quoted - unchanneled in the pachomian-corpus locus,
-and its new contrast ("not as this source directly supplies their
-names") implied pachomian-corpus directly supplies other content in the
-same locus, when that source's own edition field states NO VENDORED
-EDITION for any of it. Both the obedience clause and the office names
-are now routed to Doc_02 SS1.2/SS3 (the coordinates Doc_08's own Cell
-2B-i Layer 2 cites for this exact claim) via Rousseau's consult-only
-scholarship, with no claim of direct supply from either source. Finding
-M3 (Round 1's C4, misapplied): manifestations[0] and [2] were a
-near-verbatim restatement of sources[0].locus and the description; [0]
-now folds in the father-elder observation from the former [2] as a
-second, genuine addition rather than two restatements standing side by
-side.
-
-Doc08, Round 3 review Finding M4/M5: the Round 2 merge filed the
-father-elder observation under apophthegmata-patrum's own compiler
-screen, though that observation is Pachomian Lives-tradition content
-(Doc_05 SS1; Doc_07 SS3, per Doc_08's own Cell 2B-i Layer 2 citation),
-not the Apophthegmata's, and left it unchanneled against
-desert.source.pachomian-corpus's own standing rule. Split back into its
-own manifestation with its own channel above; the sayings-tradition
-manifestation reworded to avoid restating sources[0].locus verbatim.
-Finding M8: the rousseau-pachomius locus had claimed this source
-"underlies" Doc_02 SS1.2/SS3's own citation; Doc_02 SS1.2 states the
-Latin-transmission claim on its own authority and names Rousseau only
-for the separate version-priority debate, and SS3 names no authority at
-all - corrected to state Rousseau's actual role (the named modern
-authority this build uses on top of the vendored witnesses), matching
-that source record's own body and desert.gravity.authority-tension's
-own citation of it.
+The office names ("housemaster," "steward") and the "obedience to an
+office" clause are routed to Doc_02 SS1.2/SS3 (the coordinates Doc_08's
+own Cell 2B-i Layer 2 cites for this exact claim) via
+desert.source.rousseau-pachomius's consult-only scholarship, with no
+claim of direct supply from desert.source.pachomian-corpus itself,
+matching desert.gravity.authority-tension's own citation of the same
+source for the identical claim. The Apophthegmata locus and the
+sayings-tradition manifestation carry that source's own compiler
+screen. The father-elder observation is Pachomian Lives-tradition
+content (Doc_05 SS1; Doc_07 SS3, per Doc_08's own Cell 2B-i Layer 2
+citation), not the Apophthegmata's, and is channelled accordingly.

@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant asks what the rule actually required of a member day to day"
   - "participant asks how food, work and prayer were apportioned"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.pachomius-founding

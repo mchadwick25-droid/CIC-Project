@@ -32,7 +32,7 @@ names:
   tag: scholarly
 dates:
   born: 'c. 331 (Kelly) or c. 347 (Rebenich) - contested between the two standard modern
-    reconstructions; this record does not pick'
+    reconstructions; neither is favored here'
   died: '420 (year Widely Accepted); the traditional day, 30 September, rests on liturgical
     feast tradition and Prosper''s chronicle, not a contemporary record - Inferential-Thin'
   floruit: 'Rome 382-385 (secretary and scriptural adviser to Damasus; the Aventine circle);

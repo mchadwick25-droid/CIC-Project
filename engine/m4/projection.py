@@ -76,7 +76,7 @@ def _fold(session_id: str, events: list[StoredEvent]) -> SessionState:
         payload = event.payload
         if state.closed and state.close_reason == "idle" and event.event_type != "session_closed":
             # An idle close is reporting-only, not a hard stop like the
-            # turn/round cap (Mark's call, 2026-09-06, after the pilot-
+            # turn/round cap (the pilot-
             # summary endpoint surfaced that every real session showed
             # "open" forever since nothing ever wrote session_closed's own
             # declared "idle" reason) - engine.m4.idle_close only marks a
@@ -123,6 +123,14 @@ def _fold(session_id: str, events: list[StoredEvent]) -> SessionState:
                     "citations": payload["citations"],
                     "glosses": payload["glosses"],
                     "figures_used": payload["figures_used"],
+                    # Additive (Build-Plan.md Stage 3b): absent on any
+                    # voice_turn logged before engine.m4.transparency_plan
+                    # existed, since it was never added to
+                    # engine.m4.events.REQUIRED_KEYS - .get() so a
+                    # pre-change transcript still replays, just without a
+                    # plan for that one turn, rather than KeyError-ing on
+                    # every session opened before this landed.
+                    "transparency": payload.get("transparency"),
                 }
             )
             if state.mode == "table" and state.round_open:

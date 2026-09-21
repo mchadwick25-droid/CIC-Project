@@ -32,7 +32,6 @@ retrieval:
     church was
   - conversation is ready to hold the refusal of imperial legitimacy alongside the specific moments this
     world turned to that same power
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: don.gravity.principled-refusal-vs-pragmatic-recourse

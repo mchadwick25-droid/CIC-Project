@@ -11,14 +11,6 @@ guidance that govern audio deployment.
 
 ---
 
-## Version History
-
-v1.0 — Initial production. Single-Representative voice configuration template covering
-model selection, voice parameters, pronunciation guidance for world-specific vocabulary,
-register notes, and configuration status.
-
----
-
 ## Section 1 — Representative Identification
 
 **Representative name:** [REPRESENTATIVE NAME — as it appears in the Permanent Prompt]

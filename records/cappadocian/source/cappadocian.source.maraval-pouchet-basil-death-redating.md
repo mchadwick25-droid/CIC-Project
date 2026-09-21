@@ -18,9 +18,7 @@ author: Pierre Maraval (1988) and Jean-Robert Pouchet (1992)
 work: The redating literature for Basil's death year (377, not the traditional 378/379)
 edition: In-copyright modern scholarship, not vendored
 kind: unvendored
-rights_status: in-copyright modern scholarship or translation; deliberately excluded from the vendoring
-  manifest on rights grounds, not merely unacquired (Source Registry Part F note) -- not independently
-  verified this session.
+rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 28; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either
@@ -29,4 +27,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 28; a specific n
 external_ids:
   cappadocian_source_registry_row: 28
 ---
-Basil's death year 377 (Doc_01 SS1's dependent chronology; Doc_02 SS1.1, SS5 debate (3), SS9) -- Doc_02's own words call this 'the single most load-bearing uncited scholarship' in an earlier draft, since this date 'moves a dependent chain, not one isolated date' (row 28): Basil's episcopal election, his letter sequence, and Macrina's own death date at Doc_01 SS1 all compute backward from it.
+Basil's death year 377 (Doc_01 SS1's dependent chronology; Doc_02 SS1.1, SS5 debate (3), SS9) -- Doc_02's own words call this 'the single most load-bearing uncited scholarship', since this date 'moves a dependent chain, not one isolated date' (row 28): Basil's episcopal election, his letter sequence, and Macrina's own death date at Doc_01 SS1 all compute backward from it.

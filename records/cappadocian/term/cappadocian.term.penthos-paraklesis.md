@@ -23,7 +23,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - grief, mourning, or comfort after a death
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.anastasis

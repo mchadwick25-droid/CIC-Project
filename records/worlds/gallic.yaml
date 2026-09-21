@@ -6,18 +6,19 @@ place: "Gaul - the Loire valley around Tours, and the island of Lerins and the c
 doorway_place: "The Loire valley and the Mediterranean coast of Gaul"
 doorway_description: >-
   This is the church of the ascetic bishop and the received wisdom of
-  Egypt, carried west. In the Loire valley, a soldier who left the army
-  gathered followers in the woods and became a bishop who never stopped
-  living like a monk. Two generations later, on an island off the
-  Mediterranean coast and in the city of Marseilles, monks who had lived
-  among the fathers of Egypt built communities that trained abbots and
-  bishops for the churches of southern Gaul. One of them adapted the
-  customs of the Egyptian desert for a colder climate and a different
-  church. Another wrote a rule for telling the true faith from every
-  novelty. Through both households ran one argument, never fully
-  settled: how much of a monk's progress is God's own gift, and how much
-  is his own effort. The story closes around the year 450, before that
-  argument hardened into fixed positions on either side.
+  Egypt, carried west. In the Loire valley, a soldier named Martin of
+  Tours left the army. He gathered followers in the woods and became a
+  bishop. He never stopped living like a monk. Two generations later,
+  monks built communities on an island off the Mediterranean coast and
+  in the city of Marseilles. These monks had lived among the fathers of
+  Egypt. Their communities trained abbots and bishops for the churches
+  of southern Gaul. One of them, John Cassian, adapted the customs of
+  the Egyptian desert for a colder climate and a different church.
+  Another, Vincent of Lerins, wrote a rule for telling the true faith
+  from every novelty. Through both households ran one argument, never
+  fully settled: how much of a monk's progress is God's own gift, and
+  how much is his own effort. The story closes around the year 450,
+  before that argument hardened into fixed positions on either side.
 card_name: "The Monk-Bishops of Gaul"
 representative: {name: Renatus, role_label: Bishop}
 state: admitted
@@ -25,5 +26,5 @@ census_id: "gallic-monastic-ascetic-christianity"
 thinness_statement: "Richest in the ascetic bishop's own hagiography and the received teaching of the Egyptian fathers as Cassian carried it west; thinner on the island's own daily customs, women's own words (none survive), and the sexual-discipline material a later editor removed from the one edition this build can read."
 living_tradition_flag: true
 package:
-  manifest_hash: "sha256:d2d4b9d188e088713d32d5f652961fecd305bffbe659ae649324203f6d17ea51"
-  location: "packages/gallic/2026-09-15T14-50-43Z"
+  manifest_hash: "sha256:a65da59c7fdd3afcc4607c534ee12d784eb809ce9575e440c5cad0ca90120b13"
+  location: "packages/gallic/2026-09-21T19-39-23Z"

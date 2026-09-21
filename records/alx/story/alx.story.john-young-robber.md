@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - falling away and coming back
   - being given up on / not given up on
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.lapsi

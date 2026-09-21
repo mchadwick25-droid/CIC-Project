@@ -46,7 +46,7 @@ retrieval:
   - how Rome related to the grace argument
   - participant uses "Pope," "papacy," "Rome," "Apostolic See," "papal authority"
   - Comm. ch. 6 and ch. 32; Inst. Preface's dedication; Celestine's letter to the Gallican bishops
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about bishops in general (retrieve bishop / the monk-bishop)
   - the question is about councils (retrieve council / synod)
   - the papacy as a later constitutional office - the title's later restriction to Rome is exactly the hearing this entry corrects

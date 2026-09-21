@@ -24,7 +24,6 @@ retrieval:
   - whether the church could ever stand against the emperor, or only serve him
   - sanctuary, asylum, or protecting someone the state wants
   - showing mercy to a powerful person who has fallen, or to an enemy of the church
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 - {type: illustrates, target: ijc.gravity.episcopal-independence}

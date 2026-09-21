@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   What did we have about Jesus? First and above everything, the
   writings. The Gospels and the whole of scripture were copied, compared,

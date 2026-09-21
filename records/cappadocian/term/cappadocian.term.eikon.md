@@ -29,7 +29,6 @@ retrieval:
   - human dignity, the image of God, or why every person matters
   - the era's stance toward slavery
   - the theological ground under care for the poor
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.anastasis

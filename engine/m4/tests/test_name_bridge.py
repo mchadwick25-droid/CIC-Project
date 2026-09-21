@@ -123,7 +123,7 @@ def _real_repository(world_key: str) -> dict[str, dict]:
 
 
 def test_attach_cited_sources_finds_the_source_behind_what_the_figure_is_saying():
-    """Mark's own correction: not just who Origen is, but what he's
+    """Not just who Origen is, but what he's
     saying here and what backs it. "Origen taught us..." names Origen and
     is tagged with alx.term.allegoria, whose own sources are Origen's
     Philocalia, Clement's Stromateis, and Eusebius's Historia
@@ -163,7 +163,7 @@ def test_spoken_name_is_the_head_of_the_first_recorded_name():
 
 
 def test_a_comma_role_epithet_bridges_on_its_bare_head_name():
-    """Measured on Mark's own pilot transcript (2026-08-30): both Chloe
+    """Measured on a pilot transcript: both Chloe
     turns said "Ignatius", both recorded forms are "Ignatius, bishop of
     Antioch" / "Ignatius of Antioch (...)", zero bridges fired. The comma
     head is what the voice says; the role after the comma never is."""

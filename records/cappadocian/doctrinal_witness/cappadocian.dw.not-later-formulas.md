@@ -36,7 +36,6 @@ retrieval:
   - "participant asks whether this world believed in original sin"
   - "participant asks whether the bread and cup were what modern people call transubstantiation"
   - "participant asks whether this world believed in salvation by faith alone, not works"
-  do_not_retrieve_when: []
 text: >-
   Original sin, in the shape you are asking it - are people born already
   guilty - is not a question our own record answers in those terms; that

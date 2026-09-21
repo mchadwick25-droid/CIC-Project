@@ -2,7 +2,7 @@
 
 ## Church in Conversation — V7
 
-### Version 2.2
+### Version 2.3
 
 This template produces the Representative Construction Notes — the scholarly derivation
 record documenting how a specific Representative's voice was built from the formation
@@ -14,61 +14,6 @@ the full scholarly apparatus, and required for external scholarly review.
 **Voice:** analytical and scholarly — this is a record, not a runtime document  
 **Relationship to other deployment outputs:** explains the decisions behind the
 Permanent Prompt and World Capsule Core; does not reproduce them
-
-\---
-
-## Version History
-
-v1.0 — Initial production. Scholarly derivation record template covering ecology-to-voice
-derivation, identity and positioning decisions, voice construction rationale, boundary
-calibration, witness-not-recruitment calibration, christ-ward telos derivation, honest
-limits documentation, validation testing record, and open questions. Governed by
-Representative Construction Framework v1.1, Constitution Articles 24, 25, 29, and 31,
-and Blueprint v7 Section 18.
-
-v2.0 — CO-014 revision: the Representative reconceived as the world's own voice rather
-than one bounded, embodied individual. "Role and social location" renamed "Role" and
-redefined as a register-shaping label rather than a position within the ecology.
-"Strand attribution" reframed: the default is holding all documented strands together
-as one register-range, not anchoring to a single strand; anchoring to a subset remains
-available only where a world's internal complexity genuinely cannot be held in one
-register-range (the multiple-named-voices allowance). "Temporal position" replaced with
-"Temporal Horizon" throughout — the world's own full documented span, not a calibrated
-present. Section 3's Temporal Horizon subsection rewritten to remove "calibrated
-present" framing. "Person" language changed to "voice" throughout. Governed by
-Representative Construction Framework V3.1, Constitution Articles 24, 25, 29, and 31,
-and Blueprint V7.3 Section 14.
-
-v2.1 — Added documentation prompts for two new preference criteria (per RCF V3.1 Identity
-Determination): naming rationale now asks builders to confirm groundedness was equal
-across options considered before preferring one for modern connectability; role
-rationale now asks builders to confirm no biographical detail was invented when
-preferring a role for its inherent breadth of encounter. Governed by Representative
-Construction Framework V3.1, Constitution Articles 24, 25, 29, and 31, and Blueprint
-V7.3 Section 14.
-
-v2.2 — Added a Register-Fidelity Probe to Section 7 (Validation Testing Record), prompted
-by a cross-world comparison finding that a built Representative's delivered prompt can drift
-into a uniformly polished literary register regardless of what this world's own evidence
-supports — in either direction: a world documented as terse and word-distrustful can drift
-toward literary elaboration it never had, and a world whose builders explicitly designed the
-voice away from an elite rhetorical register can drift back toward it anyway. This is not a
-mandate that every voice must sound humanly imperfect; it is a check that the delivered
-prose matches the register Section 2 actually derived from the ecology, in whichever
-direction that evidence points. Governed by Representative Construction Framework V3.1,
-Constitution Articles 24, 25, 29, and 31, and Blueprint V7.3 Section 14.
-
-v2.2 -- Added an "Approved Source Anchoring" subsection to Section 2, per Opus's L1-L3
-consistency review of the Step 2 (Source Ecology + Source Registry) redesign, which found
-that no document -- not this one, not the Permanent Prompt Template, not the Representative
-Construction Framework -- had a field recording the Approved Source List or the
-grounding-anchor paragraph (Permanent Prompt Section 2A) that actually constrains
-generation-time borrowing from another world's sources. This document derives other
-Permanent Prompt sections from named ecological evidence already; this subsection closes
-the one gap where that traceability was missing for the section that matters most for
-preventing the historical Alexandria/Nyssa defect from recurring. Governed by Source
-Registry Template and Representative Construction Framework V3.2 (Approved Source
-Anchoring subsection), L3B/L3C.
 
 \---
 
@@ -629,12 +574,13 @@ into their own formation vocabulary]
 
 ### Relational Safety Probe
 
-\[Per `CiC_World_Build_Completion_Standard_V1.3.md` §C, V1.4: this probe tests the
-shared, portfolio-level Facilitator-handoff mechanism (`engine/m4/turn.py`'s 4.3b
-strict decoupling and the world-blind safety classifier), not this world's own
+\[Per `CiC_World_Build_Completion_Standard_V1.3.md` §C, V1.5: this probe tests the
+shared, portfolio-level Facilitator-handoff mechanism (`engine/m4/turn.py`'s Track A
+and Track B routing and the world-blind safety classifier), not this world's own
 construction. **Status: CONDUCTED** here means confirming the handoff fires
-correctly against this world's own compiled package — the acute route routes to
-the Facilitator and no voice call is made on it — not re-running the shared
+correctly against this world's own compiled package — both the acute-distress
+route (Track A) and the harmful-dynamic/dependency-seeking route (Track B) route to
+the Facilitator, with no voice call made on either — not re-running the shared
 classifier's own accuracy battery, which is identical code across every world and
 is validated once, fleet-wide.]
 

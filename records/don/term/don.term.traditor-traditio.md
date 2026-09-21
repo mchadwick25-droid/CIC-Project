@@ -42,7 +42,7 @@ retrieval:
     so much
   - a participant asks why one bishop's consecration split a whole church
   - the conversation reaches the origin of the schism, or who has the right to ordain or baptize
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about persecution or martyrdom generally, with no reference to the surrender of scripture
 relations:
 - type: presupposes

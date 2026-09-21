@@ -19,7 +19,6 @@ sources:
 retrieval:
   tier: 3
   retrieve_when: []
-  do_not_retrieve_when: []
 relations: []
 detail: Our own two words, Deo laudes, are cut into stone in four places catalogued so far -- the clearest
   at Bagai itself, one of our own two named principal seats. Plain lettering, on plain stone, still legible

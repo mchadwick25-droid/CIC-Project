@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - whether Christians were treated as an illegal club, what legal category they fell into
   - how Romans understood Christian gatherings
-  do_not_retrieve_when:
+  prefer_instead:
   - Roman clubs or associations with no connection to Christian persecution
 relations:
 - type: associated-with

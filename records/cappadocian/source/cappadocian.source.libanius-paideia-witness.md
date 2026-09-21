@@ -20,9 +20,7 @@ work: Libanius' genuine relevance as an external witness to the paideia network,
 edition: No independently vendored Libanius text; his relevance rests on his general historical role,
   per Doc_02 SS1.6
 kind: unvendored
-rights_status: not applicable in the ordinary sense -- no single specific text has been identified for
-  this row; it names a person, general pattern, or unlocated corpus rather than a held text. Not independently
-  verified this session.
+rights_status: "not applicable - no single specific text has been identified for this row; it names a person, general pattern, or unlocated corpus rather than a held text"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 75; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

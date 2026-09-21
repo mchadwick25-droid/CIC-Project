@@ -22,7 +22,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - questions about answering temptation with scripture
-  do_not_retrieve_when:
+  prefer_instead:
   - do not present as the whole movement's general method - single-author, single-text in origin
 relations:
 - type: associated-with

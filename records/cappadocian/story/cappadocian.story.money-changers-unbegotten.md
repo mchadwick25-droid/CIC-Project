@@ -20,7 +20,7 @@ retrieval:
   retrieve_when:
   - "participant asks how far or how deep this world's doctrinal disputes actually reached socially"
   - "participant wants color on how ordinary the Trinitarian controversy felt to those living through it"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants a literal social-historical claim about Constantinople's tradespeople - this is a preacher's rhetorical complaint, not a census"
 relations:
 - type: associated-with

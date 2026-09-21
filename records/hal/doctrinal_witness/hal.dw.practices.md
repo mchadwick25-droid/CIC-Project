@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Born again - is that how we would put what happened to us?
   We spoke of baptism as the washing that makes new. And conversion, for us,

@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - the Origenist controversy as lived
   - the broken friendship
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.force.origenist-controversy

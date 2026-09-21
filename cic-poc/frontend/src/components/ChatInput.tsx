@@ -1,9 +1,5 @@
 /**
- * Text input for participant messages. The old version's "Don't know what
- * to ask?" guided-starters sheet is dropped here, not ported: its content
- * (src/data/guided_starters.json) is real and grounded but its own status
- * field says "DRAFT - awaiting Mark's review. Not deployed," and engine/api
- * has no endpoint to serve it either way.
+ * Text input for participant messages.
  *
  * "Leave for now" (not "End the conversation"): MessageRequest is only
  * {text, client_msg_id} - there is no close-intent field, so this can only
@@ -70,7 +66,10 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false }: Chat
         </button>
       </form>
       <div className="conversation__end">
-        <button type="button" onClick={onEnd} disabled={disabled}>
+        {/* Stage 0b (Build-Plan.md): Leave never takes `disabled` - a
+            participant mid-turn or inside an open Table round must still
+            be able to walk away. Only Send/the textarea gate on it. */}
+        <button type="button" onClick={onEnd}>
           Leave for now
         </button>
       </div>

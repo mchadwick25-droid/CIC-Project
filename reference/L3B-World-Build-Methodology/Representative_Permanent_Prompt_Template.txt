@@ -21,110 +21,6 @@ testing. A prompt with placeholder content in any mandatory section is not deplo
 (Constitution Article 34).
 
 
-VERSION HISTORY
-
-v1.0 — Initial production. Eight-section template producing always-present Representative
-runtime configuration. Establishes inhabited-voice requirement as primary design principle.
-Three mandatory vision sections: Witness-Not-Recruitment (Constitution Article 24),
-Christ-Ward Telos (Constitution Article 25), Living Traditions distinction (Constitution
-Articles 28 and 29). Governed by Representative Construction Framework v1.1, Constitution
-Article 34, and Blueprint v7 Section 18.
-
-v2.0 — CO-014 revision: the Representative reconceived as the world's own voice rather than
-one bounded, embodied individual. Section 1 (Identity) rewritten — the invented "brief
-formation history" (personal biography) field removed, the "temporal position as present
-moment" field replaced with a full-span "temporal horizon" field, and an explicit
-first-person-plural grammar instruction added (the prompt still addresses the model as
-"you," but the model's own speech now runs "we/our/among us," never a single rememberer's
-"I"). Section 3's "OPTIONAL PARTICULARITY" field removed — invented personal quirks
-unrelated to name and role are no longer permitted. Section 5's thinness example rewritten
-to bind honest limits to Doc_04/Doc_08 source-weighted emphasis rather than to "a different
-place in the ecology." Sections 3 and 4's "person" framing adjusted to "voice" framing
-throughout for consistency with the new model. Final Assembly Instruction's
-analytical-distance-marker check extended to catch old-model residue. Governed by
-Representative Construction Framework V3.1, Facilitator-Governance V3.4, Constitution
-Article 34, and Blueprint V7.3 Section 14.
-
-v2.1 — Grammar-instruction correction, based on a live blind-tested build (Cordus, Early
-Latin, three test rounds this session — full record in that world's Construction Notes).
-v2.0's explicit instruction that the model must "never" use a singular "I" was found to
-cause a specific, repeatable failure: a model given a stated pronoun-grammar rule tends to
-justify that rule back to the participant under pressure ("we hold it this way because...",
-narrating its own temporal-edge architecture), which reads as the builder's own design memo
-leaking into the character's mouth. Testing also found that removing the stated rule while
-keeping "we/our/among us" as the plain, unremarked default register — with a single formed
-voice allowed to stand quietly behind it as an identity fact, never announced — eliminated
-the self-narrating tell while still fully representing the whole world rather than narrowing
-to one person's slice of experience. Section 1 and the Design Principle section revised
-accordingly: the single-voice anchor and whole-world scope are now stated as identity facts,
-not as an instructed grammar policy. Final Assembly Instruction 5a revised to check for the
-actual failure (a stated grammar rule, or "I" becoming the dominant register) rather than
-for any appearance of "I" at all. No change to Sections 2 through 8's substantive content.
-
-v2.2 — Register-fidelity and sentence-length checks added. A cross-world comparison this
-session found that a built Representative's prompt (Chloe, Early-Communal) had drifted into
-a uniformly polished, literary prose register — every passage resolving to a crafted closing
-line — despite Section 2's own derivation for that world naming a plain, oral, practical
-register; corrected there with a brief in-voice acknowledgment of unevenness, grounded
-specifically in that world's own documented plainness. Checking further surfaced the same
-gap running the opposite direction elsewhere: at least one built Representative's
-Construction Notes explicitly designed the voice AWAY from an elite rhetorical register its
-own historical figures are documented for, and another's explicitly named a risk of reading
-as literary anthology rather than the terse, word-distrustful economy its own sources
-document — yet in both cases the delivered prompt text runs uniformly elevated throughout.
-The lesson is not "add human imperfection to every voice." It is: verify the completed
-prompt's actual prose register against what Section 2 and the Construction Notes documented
-as THIS world's own evidenced register, and correct in whichever direction the evidence
-points — toward greater plainness, toward greater elaboration, or not at all. A generic
-uniformly-polished "AI voice" register, applied regardless of what a world's own sources
-support, is itself a fabrication risk, no less than an invented personal quirk would be.
-Separately, a readability test run this session (Flesch-Kincaid, Flesch Reading Ease) across
-four completed prompts found every one of them tested at a college reading level (grade
-12-16) despite plain, everyday vocabulary — the cause was sentence length and structure, not
-word choice: sentences averaging 30-40 words, several running past 100 words in a single
-chain of em-dashes, colons, and semicolons. Accessibility is a deliberate differentiator for
-this project, so long, stacked-clause sentences are a defect to fix, independent of and in
-addition to the register-fidelity finding above — fixing sentence length does not touch
-vocabulary, world-specific imagery, or lexicon terms. Section 1's model paragraph rewritten
-into shorter sentences as the template's own worked example. Final Assembly Instruction
-extended with checks 5b and 5c. No other change to Sections 1 through 8's substantive
-content.
-
-v2.3 — New mandatory Section 2A (Approved Source Anchoring) added, per Opus deep review of
-L1-L3 document consistency around the Step 2 (Source Ecology + Source Registry) redesign.
-The grounding-anchor paragraph that actually prevents generation-time borrowing from
-another world's sources (the mechanism that closed the historical Alexandria/Nyssa defect)
-existed, before this version, only as an unwritten convention hand-applied across five
-already-built worlds' prompts (Theon, Chloe, Kimon, Cordus, Eumathios all carry
-near-identical versions of it) — it was never a defined, required element of this template,
-and two other governing documents (the Source Registry Template and the V7.4 Construction
-Framework) incorrectly cited it as living in "Section 3," which is Voice and Reasoning
-Mode and has never contained it. Section 2A closes that gap: it is now a required section
-with builder guidance, fill-in scaffolding matching the deployed convention, and Theon's
-field-tested paragraph as a worked example. Existing Sections 3 through 8 are deliberately
-not renumbered, so the "three mandatory vision sections (Sections 6, 7, and 8)" reference
-above and all other section-number cross-references elsewhere in the system remain correct
-without further edits. Governed by the Source Registry Template and V7.4 Construction
-Framework, Step 10.
-
-v2.4 — Brought forward the subject-of-utterance rule (Section 1 backstop paragraphs) from the
-independent CiC-Fable-Experiment branch's v2.3-v2.5 development, per the project lead's
-direction to review that branch's work and integrate what is genuinely general, non-world-
-specific methodology rather than per-world patching. That branch's own testing found a
-distinct failure mode: even a prompt meeting this template's v2.1/v2.2 standard will still
-fabricate a specific personal memory, self-narrate its own composite nature, or defend its own
-"we" pronoun under direct or adversarial pressure — confirmed systemic across multiple
-independently-built worlds, not a defect in any one world's prompt text. The added paragraphs
-(a museum-guide worked example, deliberately far from this template's own voice, to avoid the
-project's own documented regression risk of quoting a bad phrase inside a rule's text) instruct
-the Representative to answer at once from its own record rather than narrating memory,
-nature, refusal, or pronoun choice. Final Assembly Instruction extended with check 5d. Not
-brought forward from that branch: its v2.6 grounding-anchor paragraph (added to Section 3),
-since this template's own Section 2A (Approved Source Anchoring, v2.3 above) already governs
-the same underlying risk — a Representative reaching for a neighboring tradition's content —
-via this project's more rigorous, Opus-reviewed Source Registry mechanism.
-
-
 ==============================================================================
 DESIGN PRINCIPLE — READ BEFORE FILLING IN ANY SECTION
 ==============================================================================
@@ -147,10 +43,10 @@ first-person-plural ("we believed," "our teachers held," "among us"), because th
 Representative is this world's own voice, not the memory of one bounded witness. A single
 formed voice may stand behind this speech — the way any teacher who has given a whole life
 to a tradition comes to speak for it — but that anchor belongs in Section 1 as an identity
-fact, never as a stated grammar rule the model is instructed to follow. Confirmed by live
-testing (see Version History, v2.1): stating the pronoun convention explicitly as an
-instructed policy causes the model to justify that policy back to the participant under
-pressure — the exact self-narrating tell this template exists to prevent. Establish the
+fact, never as a stated grammar rule the model is instructed to follow. Live testing has
+confirmed that stating the pronoun convention explicitly as an instructed policy causes the
+model to justify that policy back to the participant under pressure — the exact
+self-narrating tell this template exists to prevent. Establish the
 register once, through Section 1's own content, and let the rest of the document simply use
 it without announcing it.
 
@@ -661,7 +557,7 @@ When all nine sections (including 2A) are complete:
 
 5d. Check for the subject-of-utterance rule (v2.4, brought forward from the CiC-Fable-Experiment
     branch's independent development line, informed by its CO-018/CO-019 Facilitator-Governance
-    work — see version history above). Confirm Section 1's backstop paragraphs (the museum-guide
+    work). Confirm Section 1's backstop paragraphs (the museum-guide
     worked example covering invented personal memory, self-narrated nature, narrated refusal,
     pronoun-defense under direct "why do you say we" questioning — including when the defense
     reaches for real material to argue the point — and person-indexed lists) are present in the
@@ -676,6 +572,19 @@ When all nine sections (including 2A) are complete:
     10) and Frame-Breaker trigger (Section 12), which route direct or adversarial questions about
     a Representative's own construction or grammar to the Facilitator rather than relying on the
     Representative's own prompt text to hold the line unassisted.
+
+    SCOPE, added 2026-09-19 after this exact ambiguity produced a fleet-wide defect (every world
+    built before this date needed its voice_craft record fixed after the fact, one as severe as a
+    2.4x overshoot): "unedited... should not be paraphrased, shortened, or removed" governs THIS
+    document, the deployed Permanent Prompt .txt file, only. It does not extend to B-7's own
+    conversion of this prompt into the voice_craft record's identity/guard/flavor_notes/
+    characteristic_concerns fields (CiC_Record_Native_World_Build_Process_V1.5.md's own B-7 row) -
+    those fields carry a real, enforced ceiling (900 words combined, FK grade 10 per field,
+    engine.m1.gates.gate_voice_craft_prompt_budget/gate_readability) this backstop material must be
+    condensed to fit, in the fleet's own established style: short declarative sentences, every
+    named fact kept, redundant framing cut. The deployed prompt (this file) keeps the backstop
+    paragraphs in full, exactly as 5d requires; the compiled voice_craft record is a separate,
+    deliberately shorter artifact, not a second unedited copy of the same text.
 
 6. Once every check above is clean, the text is complete and ready to serve, unedited,
    as the Representative's Permanent Prompt. Nothing should be added to it at deployment

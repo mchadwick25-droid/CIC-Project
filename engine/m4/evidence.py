@@ -39,7 +39,8 @@ gravity/contested_claim anti-conflation case the design cares most about
 import re
 
 from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
-from engine.prose import all_text, content_words, overlap_coefficient
+from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
+from engine.prose import all_text, content_words, overlap_coefficient, retrieval_words
 from engine.m4.grounding_net import scope_completion
 
 __all__ = [
@@ -61,8 +62,8 @@ __all__ = [
 # model" precedent as engine.m4.crisis_resources.ACUTE_DISTRESS_RESOURCES,
 # for the one case that precedent doesn't cover: no cell matched this turn
 # at all, or the matched cell carries no honest_limit record to speak
-# instead. Same craft-pass caveat crisis_resources.py states about its own
-# text: real, honest, correct, NOT yet a Mark-approved participant-facing
+# instead. Same caveat crisis_resources.py states about its own
+# text: real, honest, correct, NOT yet approved participant-facing
 # line - flag again before any world that opens ships this literal text.
 # Owned here (not engine.m4.turn, where it originated) because both a live
 # participant turn and engine.m3's LiveModelAnswerer degrade the same way,
@@ -178,7 +179,67 @@ _COVERAGE_KEY_BY_TYPE = {
     "contested_claim": "contested_claims",
 }
 
-# Stage A2 (added 2026-08-25, Mark's own diagnosis of a live turn): a
+# Stage 4d (Build-Plan.md): tier prior. `retrieval.tier` (Artifact-1-
+# Record-Schema.md: "1 core / 2 supporting / 3 ambient") is an authored
+# importance signal - authored on roughly half the fleet's own records -
+# that no ranking here has ever read; a record's centrality to its own
+# world has had zero effect on which of two candidates wins a slot. A
+# PRIOR, not an override: bounded well under overlap_coefficient's own
+# smallest meaningful gap, so it can only ever reorder candidates whose
+# relevance scores were already close, never promote a weak, merely-core
+# match over a genuinely stronger one that happens to carry no tier or a
+# lower one. Tier 3 and an unset tier both get zero - "ambient" makes no
+# claim to priority, and neither does a record nobody has tiered yet.
+_TIER_PRIOR = {1: 0.05, 2: 0.02}
+
+
+def _tier_prior(record: dict) -> float:
+    tier = (record.get("retrieval") or {}).get("tier")
+    return _TIER_PRIOR.get(tier, 0.0)
+
+
+# R11's redirect half (Rulings-Pending.md; Decision-Log.md Entries 21-25):
+# "prefer_instead demotes, never excludes" (Build-Plan.md Stage 4a). Each
+# note is free text - a condition ("participant asks X") plus its own
+# " - retrieve <id>" redirect - authored for a human reader, not a
+# machine-parseable rule, so this asks the identical word-overlap question
+# every other scoring pass here already asks rather than attempting real
+# NLU: does the participant's own query share content words with the
+# note's condition half? A hit means a better-matching record almost
+# certainly exists for what was actually asked (the note's own author
+# already named it), so THIS record's relevance is halved - proportional,
+# not a flat penalty, so a strongly-relevant record can still surface if
+# its redirect target isn't in the same candidate pool, and a marginal
+# one correctly falls away. Applied to overlap_coefficient's own share of
+# the score only, never to _tier_prior - a record's tier is a property of
+# the record, not of whether this one query happened to match a redirect
+# note.
+_PREFER_INSTEAD_DEMOTION_FACTOR = 0.5
+
+# The note-authoring convention itself, not a real participant's own
+# words - measured directly (fleet-wide, 702 real prefer_instead notes):
+# over a third open with "participant"/"the participant"/"a participant",
+# and "question"/"asking"/"wants"/"needs"/"asks" are close behind as the
+# condition's own scaffolding verbs, none of them in engine.prose's
+# global _STOPWORDS (that set is tuned against ordinary prose, not this
+# note format's own meta-language). Left in, "What do you all believe
+# about baptism?" would match ANY note opening "the participant asks..."
+# on "asks" alone, demoting a record for a reason that has nothing to do
+# with what was actually asked - scoped to this one function, not added
+# to the global stopword list, since nothing else in this file scores
+# against text written in this authoring convention.
+_PREFER_INSTEAD_CONDITION_STOPWORDS = {"participant", "question", "asking", "asks", "wants", "needs"}
+
+
+def _prefer_instead_demotes(query_words: set[str], record: dict) -> bool:
+    for note in (record.get("retrieval") or {}).get("prefer_instead") or []:
+        condition = note.split(" - retrieve", 1)[0]
+        condition_words = content_words(condition) - _PREFER_INSTEAD_CONDITION_STOPWORDS
+        if query_words & condition_words:
+            return True
+    return False
+
+# Stage A2: a
 # genuinely last-resort net under Stage A, not a replacement for it. Fires
 # from assemble_evidence ONLY when match_asks_to_cells found no cell at
 # all - never when a cell matched but session-exclusion emptied it
@@ -207,7 +268,7 @@ def _head_text(record: dict) -> str:
         return record.get("tellable_as") or record.get("text") or ""
     if record_type in ("quote",):
         # The speakable form: the build-authored modern_rendering where one
-        # exists (Mark's ruling, 2026-08-28 - archaic quotes are translated
+        # exists (archaic quotes are translated
         # in the build, never improvised live), the original otherwise. The
         # original stays reachable to the net via all_text either way.
         return record.get("modern_rendering") or record.get("text") or ""
@@ -222,36 +283,13 @@ def _head_text(record: dict) -> str:
     return all_text(record)
 
 
-# Build-team editorial/interpretive commentary, not citable content - a
-# record's own honest self-critique of its evidentiary limits, written for
-# whoever reviews the record, never for a participant. all_text() keeps
-# these on purpose for grounding_net's own job (checking whether the MODEL's
-# generated text is grounded - a much broader "is this substring anywhere
-# in the record" check with a different failure mode if it's too narrow).
-# This fallback's job is the opposite risk: finding the WRONG record because
-# a query word happened to appear in a caveat about the record rather than
-# in the record's own substance. Measured directly: pahc.term.ministrae's
-# own `senses.informational` field reads "...women held service in that
-# church important enough that its interrogator chose them as the ones who
-# would know" - a real sentence, but about Pliny's interrogation, not about
-# why anything was important in the sense a participant asking "why was
-# Jesus important" means. That single word, in that one commentary field,
-# was enough to surface a completely unrelated record before this exclusion
-# existed. `do_not_retrieve_when` is excluded for a sharper reason: matching
-# on it would retrieve a record's own list of reasons NOT to retrieve it.
-#
-# `retrieve_when` is excluded 2026-08-27 for that same sharper reason, on a
-# regression it caused the day 124 quote records were hinted at once. A hint
-# is retrieval vocabulary written in the PARTICIPANT'S words, which is
-# precisely the vocabulary this fallback matches on - so every hinted record
-# starts matching every hint word, and document frequency climbs until an
-# honestly-discriminating word crosses _FULLTEXT_FALLBACK_MAX_POOL and stops
-# discriminating at all. Measured on pahc: "believe" matched 4 records and
-# reached ground for "How did you know what to believe?"; after hinting it
-# matched 7, went over the pool cap, and that question returned nothing.
-# Hints belong in cell vocabulary, scored against a curated per-cell corpus -
-# not here, where raw frequency is the whole safeguard.
-_FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when", "retrieve_when"}
+# Relocated to engine.prose.FALLBACK_EXCLUDED_KEYS (Build-Plan.md Stage 4c)
+# so engine.m2.builders's compile-time retrieval index can share the
+# identical exclusion set without engine/m2/ importing engine/m4/ (the
+# dependency runs the other way everywhere else in this codebase) - see
+# that module's own comment for the full rationale and the measurements
+# behind each excluded key (pahc.term.ministrae's `senses.informational`,
+# the 124-quote-hint regression on `retrieve_when`).
 
 
 def _fallback_search_text(record: dict) -> str:
@@ -591,9 +629,9 @@ def _diverse_take(
     floor: int,
     session_used_keys: set[str] | None = None,
 ) -> list[tuple[str, float]]:
-    """Breadth-first by source family, best-first within (Mark's ruling,
-    2026-08-29: 'i want the drawing from other sources to be a system
-    funtion not a forced thing for one question'). The measured failure
+    """Breadth-first by source family, best-first within: drawing from
+    other sources is meant to be a system function, not something forced
+    for one question. The measured failure
     this replaces: a divinity question's quote slots both filled from
     Ignatius because his material out-scores everything, while Pliny's
     and Justin's witness sat in the same cell unseen - the voice can only
@@ -602,10 +640,10 @@ def _diverse_take(
     COMPOSITION changes, and only when the cell actually holds more than
     one source family.
 
-    `session_used_keys` is the second half of the same ruling (Mark, same
-    day: 'the priority of a reference name is downgraded when they are
-    used already... not that they are banned, but the system looks to
-    others first'): source families this voice has already drawn on THIS
+    `session_used_keys` follows the same principle: the priority of a
+    reference source is downgraded once it has already been used - not
+    banned, but the system looks to others first. Source families this
+    voice has already drawn on THIS
     SESSION are considered last, never excluded. Deterministic passes, in
     order: (1) best of each family that is new both this turn and this
     session; (2) best of each family new this turn (session-used families
@@ -634,6 +672,53 @@ def _diverse_take(
     return take
 
 
+# Stage B2 (Build-Plan.md Stage 4c, part 2). Stage B's own candidate pool
+# is deliberately the matched cell's own compiled/coverage.json entry, per
+# the module docstring's named simplification - and most of the time that
+# is exactly right: a cell match is curated evidence about what belongs to
+# THIS cell, and letting a query wander the whole world would reintroduce
+# the door-line style conflation Stage C already exists to police. But a
+# coverage entry can have LITERALLY ZERO records of some type - not a low
+# score, a structural absence - and Stage B then has nothing to rank at
+# all for that slot, silently, even on a world whose repository holds
+# records of that type elsewhere that the query's own words would
+# recognize. This fires ONLY there: never for a type the coverage entry
+# already has something for (that is a relevance question Stage B's own
+# ranking already answers), and never for honest_limit (unconditional,
+# fed to the §6.3 fallback ladder by its own separate, cell-scoped
+# mechanism above - see _TYPE_FLOORS comment on why that type is never
+# ranked away or filled generically).
+#
+# Scored against engine.prose.retrieval_words, not all_text() - the same
+# narrower, participant-facing, id/apparatus-safe word set
+# compiled/retrieval.json caches at build time, and for the identical
+# reason Stage A2's own fulltext fallback (see _fallback_search_text)
+# needs a narrower net than Stage B's own cell-curated ranking does: an
+# uncurated, whole-world scan is exactly the case a stray build-commentary
+# word or a dotted id fragment could surface the wrong record for, with no
+# curated coverage entry standing between the query and every record in
+# the world.
+def _retrieval_fill_scores(*, record_type: str, query_words: set[str], repository_records: dict[str, dict]) -> list[tuple[str, float]]:
+    if not query_words:
+        return []
+    scored = []
+    for rid, record in repository_records.items():
+        if record.get("record_type") != record_type:
+            continue
+        words = set(retrieval_words(record))
+        if not words:
+            continue
+        shared = query_words & words
+        if not shared:
+            continue
+        base = len(shared) / min(len(query_words), len(words))
+        if _prefer_instead_demotes(query_words, record):
+            base *= _PREFER_INSTEAD_DEMOTION_FACTOR
+        scored.append((rid, base + _tier_prior(record)))
+    scored.sort(key=lambda t: (-t[1], t[0]))
+    return scored
+
+
 def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000, already_told_ids: set[str] | list[str] | None = None) -> list[dict]:
     """Stage B (design §3.2): cell -> candidates -> rank. coverage_entry is
     compiled/coverage.json's own entry for this cell - the seed pool every
@@ -641,7 +726,16 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
     simplification against the design's whole-world expansion prose).
     Returns an ordered list of {"id", "record_type", "score", "head",
     "confidence", "classification"} dicts; score is None for honest_limit
-    (unconditional, never ranked away - see _TYPE_FLOORS comment)."""
+    (unconditional, never ranked away - see _TYPE_FLOORS comment), else the
+    relevance score plus this record's own tier prior (see _tier_prior;
+    Stage 4d). An entry also carries "retrieval_fill": True when the
+    coverage entry had no candidates of that type at all and Stage B2
+    filled the slot instead (see the comment on _retrieval_fill_scores) -
+    absent, not False, on every ordinary coverage-seeded entry. An entry
+    also carries "claim_guards": [...] when the record has any - R11's
+    guard half (Rulings-Pending.md), rendered as a rider on this exact
+    candidate's own line by render_evidence_block, not a separate section
+    - absent, not an empty list, on every record with none."""
     query_words = _query_words(message, asks)
     selected: list[dict] = []
     used_chars = 0
@@ -651,7 +745,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
         if record is None:
             return None
         head = _head_text(record)
-        return {
+        entry = {
             "id": rid,
             "record_type": record_type,
             "score": round(score, 3) if score is not None else None,
@@ -659,23 +753,41 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             "confidence": (record.get("confidence") or {}).get("formation_confidence"),
             "classification": record.get("classification"),
         }
+        guards = record.get("claim_guards")
+        if guards:
+            entry["claim_guards"] = guards
+        return entry
+
+    def _entry_chars(entry: dict) -> int:
+        # The rider rides inside the same budget it's counted against -
+        # Build-Plan.md Stage 4a's own "riders in render_evidence_block
+        # inside existing budget_chars" - never a separate allowance.
+        return len(entry["head"]) + sum(len(g) for g in entry.get("claim_guards") or [])
 
     for rid in coverage_entry.get("honest_limit") or []:
         entry = _entry(rid, "honest_limit", None)
         if entry is None:
             continue
         selected.append(entry)
-        used_chars += len(entry["head"])
+        used_chars += _entry_chars(entry)
 
     for record_type, floor in _TYPE_FLOORS.items():
         cov_key = _COVERAGE_KEY_BY_TYPE[record_type]
-        scored = []
-        for rid in coverage_entry.get(cov_key) or []:
-            record = repository_records.get(rid)
-            if record is None:
-                continue
-            scored.append((rid, overlap_coefficient(query_words, record)))
-        scored.sort(key=lambda t: (-t[1], t[0]))
+        cov_ids = coverage_entry.get(cov_key) or []
+        retrieval_fill = not cov_ids
+        if retrieval_fill:
+            scored = _retrieval_fill_scores(record_type=record_type, query_words=query_words, repository_records=repository_records)
+        else:
+            scored = []
+            for rid in cov_ids:
+                record = repository_records.get(rid)
+                if record is None:
+                    continue
+                base = overlap_coefficient(query_words, record)
+                if _prefer_instead_demotes(query_words, record):
+                    base *= _PREFER_INSTEAD_DEMOTION_FACTOR
+                scored.append((rid, base + _tier_prior(record)))
+            scored.sort(key=lambda t: (-t[1], t[0]))
         used_keys = {
             _source_key(repository_records[rid])
             for rid in (already_told_ids or ())
@@ -687,8 +799,10 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             entry = _entry(rid, record_type, score)
             if entry is None:
                 continue
+            if retrieval_fill:
+                entry["retrieval_fill"] = True
             selected.append(entry)
-            used_chars += len(entry["head"])
+            used_chars += _entry_chars(entry)
 
     return selected
 
@@ -831,6 +945,7 @@ def assemble_evidence(
     top_n_cells: int = 2,
     history: list[dict] | None = None,
     figures_already_named: list[str] | None = None,
+    secondary_context: str | None = None,
 ) -> dict:
     """The full pipeline, Stages A -> E, deterministic, no model call.
     Returns {"cells": [...Stage A...], "candidates": [...B+C+E...],
@@ -844,13 +959,25 @@ def assemble_evidence(
     session's own prior turns already introduced - resolved by the caller
     from the same already_bridged_figure_ids set the UI's first-occurrence
     mark grammar already threads (engine.m4.turn.run_turn's docstring on
-    that param). Mark's pilot read (2026-08-30): both Chloe turns opened
+    that param). A pilot read found both Chloe turns opened
     "One of us, Ignatius" - the session knew he was introduced, but that
     knowledge only ever suppressed the second underline; the voice itself
     was never told, and its own record text carries the introduction
     formula, so it reintroduced him. Same design as Stage E's
     already-told annotation: session state made visible, the voice finds
-    its own words - never a forced saying."""
+    its own words - never a forced saying.
+
+    secondary_context (Stage 4f, Build-Plan.md): plain text conversational
+    context this turn stands inside, distinct from the participant's own
+    message - at the Table, what other seated voices just said (the same
+    text table_wiring._context_prefix shows the model, unwrapped). None on
+    every interview call, and every other caller. Fills only the top_n_cells
+    slots the participant's own message (and, on a follow-up, the inherited
+    prior subject) left EMPTY - never displaces either, the identical "fills
+    only remaining slots" discipline retrieval_hint_keywords already uses
+    one level down for a record's own hints. Scoped to THIS call's own
+    repository_records like everything else here; nothing about isolation
+    changes - a caller only ever passes its own world's context."""
     cell_matches = match_asks_to_cells(
         message=message, asks=asks, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n_cells
     )
@@ -863,6 +990,19 @@ def assemble_evidence(
         if carried:
             own = [m for m in cell_matches if m["cell"] not in {c["cell"] for c in carried}]
             cell_matches = (carried + own)[:top_n_cells]
+
+    if secondary_context and len(cell_matches) < top_n_cells:
+        seen_cells = {m["cell"] for m in cell_matches}
+        for m in match_asks_to_cells(
+            message=secondary_context, asks=None, canon_questions=canon_questions,
+            repository_records=repository_records, top_n=top_n_cells,
+        ):
+            if len(cell_matches) >= top_n_cells:
+                break
+            if m["cell"] in seen_cells:
+                continue
+            cell_matches.append({**m, "from_secondary_context": True})
+            seen_cells.add(m["cell"])
 
     selected: list[dict] = []
     seen_ids: set[str] = set()
@@ -994,7 +1134,17 @@ def render_evidence_block(evidence: dict) -> str:
             descriptors.append("scope completion")
         if candidate.get("already_told_this_session"):
             descriptors.append("already told this session")
-        lines.append(f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}")
+        line = f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}"
+        guards = candidate.get("claim_guards")
+        if guards:
+            # R11's guard half, rendered as a rider on this exact
+            # candidate's own line (Adjusted-Design.md: "Guards render as
+            # a rider on the candidate line inside the existing evidence
+            # budget - upstream prevention, the mechanism that actually
+            # works") - directly beside the one record it barred a claim
+            # about, never a separate section a skim could miss.
+            line += " | MUST NOT ASSERT: " + "; ".join(guards)
+        lines.append(line)
     for topic in evidence["thin_ground"]:
         keywords = ", ".join(topic.get("keywords") or [])
         lines.append(f"- THIN GROUND (do not claim past it): {keywords} — {topic.get('note')}")

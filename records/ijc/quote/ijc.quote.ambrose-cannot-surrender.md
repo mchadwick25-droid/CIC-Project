@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether a bishop could refuse an emperor and survive"
   - "participant asks what happened when the court demanded a church building"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
 ---

@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - how Christians read the Old Testament, or why a passage not about Christ is read as being about him
   - what makes Christian interpretation different from Jewish interpretation, or typology
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about the allegorical method as a technique (retrieve alx.term.allegoria)
   - asking about a specific passage rather than the interpretive orientation
 relations: []

@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - worship/meal questions
   - transubstantiation translational questions
-  do_not_retrieve_when: []
 plain_meaning: 'The thanksgiving: the shared meal of bread and cup at the heart of the community''s worship.'
 world_word: eucharistia
 false_friend:
@@ -45,11 +44,8 @@ Modern hearing: denominational dispute vocabulary. World hearing: the
 meal that made the community one body. The whole-community formation
 channel's center - the practice that reached past literacy.
 
-corrected 2026-09-08, records/alx audit: plain_meaning and
-informational say "bread and cup", but the sole cited locus, Paedagogus
-II.2 ("On Drinking"), is about the cup only ("blood" appears ~11
-times, "bread" only once incidentally). A genuine bread locus exists
-earlier in the same work: Paedagogus I.6 ("the bread which I will
-give is My flesh... the bread of heaven absorbs the blood," anf02
-lines 19760-19777). Added I.6 alongside II.2 in sources so "bread and
-cup" is fully supported by both loci.
+plain_meaning and informational say "bread and cup"; Paedagogus II.2
+("On Drinking") supports the cup, and Paedagogus I.6 ("the bread which I
+will give is My flesh... the bread of heaven absorbs the blood," anf02
+lines 19760-19777) supports the bread. Both loci are in sources so
+"bread and cup" is fully supported.

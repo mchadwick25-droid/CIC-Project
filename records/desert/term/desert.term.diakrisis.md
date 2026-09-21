@@ -24,7 +24,6 @@ retrieval:
   - how much fasting, solitude, or discipline was right for a person
   - how anyone knew whose counsel to trust
   - questions about judgment, moderation, or self-deception
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.geron-abba-amma

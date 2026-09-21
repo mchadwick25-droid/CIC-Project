@@ -102,7 +102,9 @@ def compile_world(
     validation_files = {
         "validation/gates-report.json": validation.build_gates_report(records, fleet, registry),
         "validation/admission/results.json": validation.build_admission_results(world_key),
-        "validation/signoffs.json": validation.build_signoffs(world_key, is_fixture=is_fixture(registry_entry)),
+        "validation/signoffs.json": validation.build_signoffs(
+            world_key, is_fixture=is_fixture(registry_entry), state=registry_entry.get("state", "built")
+        ),
     }
 
     frozen_records = _frozen_records_copy(world_key, records, records_root=records_root)

@@ -34,7 +34,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether they were ever attacked, and who intervened"
   - "participant asks what happened to the women of the household in a raid"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 137, div
 v.CXXXVII; 'Paula' here is the younger Paula, Eustochium's niece, per the

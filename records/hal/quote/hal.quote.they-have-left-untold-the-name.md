@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether anyone here was martyred, or died for the faith"
   - "participant asks about violence suffered by this community"
   - "participant asks how reliable this world's account of its own worst events is"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.limit.martyrdom

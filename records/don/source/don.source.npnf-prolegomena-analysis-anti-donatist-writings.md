@@ -26,9 +26,7 @@ work: '''Chapter II. -- An Analysis of Augustin''s Writings Against the Donatist
   Series I vol. IV'
 edition: Within cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/ as part of the shared patristic library since an
-  earlier session, rights basis established there (the file's own provenance header states Public Domain)
-  and not re-checked by this compilation pass.
+rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: editorial -- a nineteenth-century scholarly synthesis, not a primary Donatist or Maximianist
   voice. Typed S in the Registry accordingly, and not a substitute for acquiring the primary texts themselves.
 discovery_channel: direct text search and read against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml

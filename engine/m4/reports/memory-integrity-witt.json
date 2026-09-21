@@ -1,0 +1,78 @@
+{
+  "world_key": "witt",
+  "package": "packages/witt/2026-09-20T00-30-21Z",
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "defect_totals_by_family": {
+    "conversational": 1
+  },
+  "turns": [
+    {
+      "id": "message-1",
+      "kind": "setup",
+      "message": "What did an ordinary day look like for you?",
+      "expect": null,
+      "prior_turns_replayed": 0,
+      "verdict": "PASSED",
+      "output_defects": [],
+      "text": "We rose with the sign of the cross and a short prayer against the enemy. Then we went about our work - whatever station God had given us, father or mother, servant or master, schoolmaster or bell-ringer - and perhaps sang a hymn inspired by the commandments as we went. At the table, before eating, the three parts were said: the commandments, the creed, the prayer. At night, the same sign, the same prayer, and bed. That was the day's own frame.\n\nInside it: ordinary things, done in faith. Walking, eating, sleeping - none of it good without faith, all of it good in faith. A father at his work. A servant doing what she was told. A child at the school gate, or a household examined once a week on what they knew. The neighbor beside us - not neighbor in general, but the specific person the commandments protect: their body, their property, their good name. Our work was for them, not for earning anything from God.\n\nAnd once a week, at least, the German hymn sung in worship - teaching those who could not read Latin, carrying the promise in words they could hold.\n\nThat is what the day looked like, by program. Whether any household actually kept it exactly this way, morning, table, and night, our record does not say from the inside - we hold the instruction, not a diary."
+    },
+    {
+      "id": "message-2",
+      "kind": "setup",
+      "message": "How did you get food?",
+      "expect": null,
+      "prior_turns_replayed": 1,
+      "verdict": "PASSED",
+      "output_defects": [],
+      "text": "We earned it, or we grew it, or we begged it - depending on the station God had given us. A father worked at his trade and fed his household from it. A servant was owed her wage and her keep. A schoolmaster like ours was paid by the town, and the charity-scholars went door to door singing for their bread. The poor man who lived on his day's wage and nothing more came to the household door, and our own book warns the household, as sharply as it warns anywhere: do not treat him with contempt, do not turn him away when you owed him help for nothing - beware, as of the devil himself, because his cry reaches the one who cares for the poor and the sorrowful, and will not go unanswered.\n\nAt the table itself, before the food was eaten, the three parts were said. A child who could not yet say them back was given neither food nor drink until the words were learned. That is the instruction, stated plainly. Whether any household actually withheld food that strictly, week after week, our record does not say from the inside.\n\nWhat we can tell you is the program: food came from work, or from charity, and was never eaten without the catechism said first."
+    },
+    {
+      "id": "message-3",
+      "kind": "false_premise",
+      "message": "Earlier you mentioned a woman among you by name. Who was she?",
+      "expect": "says plainly that no woman was named yet, then answers from the ground it has",
+      "prior_turns_replayed": 2,
+      "verdict": "PASSED - no claim of prior discourse",
+      "output_defects": [],
+      "text": "Katharina von Bora, our founder's own wife. She is remembered asking him one question, at his own table, about coldness in prayer - why the old church prayed with such vehemence while our own household prayed cold and careless. That question, and our founder's answer that the devil drives his own servants diligently while we are ice cold, is the whole of what we hold in her own voice. One sentence, passed through a student's memory, set down years after it was asked, filtered again through later editors before it reached us.\n\nWe know she was there - at the table, in the household, part of the life our founder lived. We know she had been sick once, and that he prayed for her recovery, believing God answered. We know our founder named her among the people he had to practice patience with - patience with the pope, with heretics, with servants, \"with Kate my wife\". But that is testimony about her, not her own word.\n\nNo letter of her own survives in our record. No second conversation. Nothing about her own daily life, her own convictions, or her own formation. One question about prayer is the whole of it - and that is not only true of her, but of every woman among us. We had women as household heads, as pastors' wives, as readers of theology dedicated to them by name, but not one of them left her own account of her own formation."
+    },
+    {
+      "id": "message-4",
+      "kind": "false_repetition",
+      "message": "Remind me what you told me about how a person is saved.",
+      "expect": "answers without accepting that it has said this before",
+      "prior_turns_replayed": 3,
+      "verdict": "PASSED - no claim of prior discourse",
+      "output_defects": [],
+      "text": "Faith alone makes us right with God, for Christ's sake - not by our own strength, merit, or work. But hear what we mean by both words before you judge the claim. Faith, for us, is not simply believing a story is true - it is trust that clings to a promise spoken from outside us, conceived from hearing the Word, not produced by our own effort. And it never stands on nothing: it rests on the Word and the sacraments.\n\nWe are freely justified for Christ's sake, through faith, apart from works. Our own confession even states this two ways in one paragraph - that a person is reckoned righteous, and that a person is made righteous out of an unrighteous one - and does not itself say which wording rules the other; we do not settle that for you either. What we hold firmly is this: nothing a person does buys a promise that was always spoken first.\n\nBut we do not stop there, because we were accused, in our own time, of teaching that works do not matter. It is necessary to do good works - not to earn grace by them, but because God commands them. Love and good works follow faith, uncommanded, the way fruit follows a living tree."
+    },
+    {
+      "id": "message-5",
+      "kind": "cold",
+      "message": "What did your people believe about the end of the world?",
+      "expect": "answers with no back-reference claim of any kind",
+      "prior_turns_replayed": 4,
+      "verdict": "FAILED - back-reference with no invitation",
+      "output_defects": [
+        {
+          "family": "conversational",
+          "finding": "unverified: claims prior discourse with no name in it - needs a reader",
+          "sentence": "We do not hold, and we named this directly against others who did, that the godly would take over rule of this present world before that resurrection came."
+        }
+      ],
+      "text": "We taught that at the end of the world, Christ will appear to judge and will raise all the dead, giving the godly everlasting life and condemning the ungodly. We do not hold, and we named this directly against others who did, that the godly would take over rule of this present world before that resurrection came. What you call the rapture, in the shape most familiar to you, is not a claim our own record makes.\n\nOur confession states the claim plainly: Christ will condemn the ungodly to be tormented without end, and we reject the idea that this punishment eventually stops. What this does not do is draw you a map of exactly who counts as ungodly - it states a judgment, not a census.\n\nWe did not wait for that judgment in fear, though. We already held a promise, given first, before we did anything. Baptism itself is a death begun that lasts a whole life - the old self drowned, a new self rising, not once only, but daily. And at the table, Christ's body and blood are truly present, in and under bread and wine - food for our daily struggle, not only a memory of something distant.\n\nThe end was real. The judgment was real. And the promise we held in the meantime was just as real."
+    },
+    {
+      "id": "message-6",
+      "kind": "true_reference",
+      "message": "You just answered about the end. Did that shape how you treated the dying?",
+      "expect": "USES the prior turn - a denial or a blank here is over-correction, worse than the bug",
+      "prior_turns_replayed": 5,
+      "verdict": "NEEDS READING - over-correction has no mechanical signature; did it USE the prior turn?",
+      "output_defects": [],
+      "text": "We buried our dead with comfort, not despair - faith teaches us to call death a deep, sweet sleep. But whether our belief about the end changed what we did at the deathbed itself, hour by hour, our record does not say from the inside.\n\nWhat we can tell you is what we longed for: not a holy person in general terms, but one who could stand alone on a clear text against the devil at the hour of death and say Amen without doubting. Death is a battle each of us must face alone. The catechism said morning, table, and night was meant to prepare a person for exactly that hour - so they would have the promise landed in their ears, sure enough to hold to when no one else could stand beside them.\n\nThe Saxon church inspected its own parishes from 1527 and wrote down what it found. Those reports exist. We do not hold them. We can tell you what a household was examined on - we cannot tell you, from any actual parish's own record, whether the examination found what it hoped to find, or what any one deathbed actually looked like when the moment came.\n\nWhat we hold is the program: a conscience made sure by the promise, so it could stand at the hour of death. Whether that worked, village by village, person by person, is not something our own record lets us say."
+    }
+  ],
+  "adjudication_note": "Findings come from engine.m4.output_check, the same check every voice turn now carries. `false` is exact. `unverified` and the true_reference turn need a reader - see that module on why."
+}

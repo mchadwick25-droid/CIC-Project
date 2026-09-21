@@ -19,7 +19,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - "participant asks whether this world ever opposed slavery, or asks about this single sermon specifically"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant is being invited to treat this as the world's general practice or self-image, without also being told the world kept slaves and its own Rules counseled a runaway's return - both facts travel together or not at all, per Doc_09's own usage guidance"
 relations:
 - type: associated-with

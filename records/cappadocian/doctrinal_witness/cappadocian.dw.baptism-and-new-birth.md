@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world would call what happened to them being born again"
   - "participant asks whether this world baptised babies or only adults who chose it for themselves"
-  do_not_retrieve_when: []
 text: >-
   Most of the baptisms we can actually document were adult ones, and many
   were delayed on purpose - some of us waited until we were dying, hoping

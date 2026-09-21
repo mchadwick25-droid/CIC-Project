@@ -20,7 +20,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks who appointed or ordained the bishops and teachers"
-  do_not_retrieve_when: []
 relations:
 - type: precondition-for
   target: alx.gravity.soul-transformation

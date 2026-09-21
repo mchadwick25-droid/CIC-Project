@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - the Nicene Creed's central claim
   - Leo's Tome or the councils' doctrinal content directly
-  do_not_retrieve_when:
+  prefer_instead:
   - the conversation is really about the Homoian establishment (homoios instead)
 relations:
 - {type: associated-with, target: ijc.term.homoios}

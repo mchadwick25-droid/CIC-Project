@@ -31,7 +31,6 @@ retrieval:
   - "participant asks how the gospel first reached this region and who brought it"
   - "participant asks whether their king was a Christian, and how early"
   - "participant asks whether the founding stories can be believed"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Phillips's translation of the Doctrina Addai).
 LEGEND LICENSE: quotable only inside the told-as-legend frame

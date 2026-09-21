@@ -2946,4 +2946,261 @@ discipline reserves exactly this kind of front-end redesign work for
 Fable rather than an improvised in-session rewrite, and the file's
 scale makes a rushed first pass expensive to redo. Awaiting Mark's
 direction on how he wants to scope that piece.
+
+## 2026-09-17 (cont. 9) — Reorder the Church Family Tree card: heading above the graphic, tagline under it
+
+Mark's call: on the homepage card, put "Church Family Tree" as the
+heading above the image, with the tagline directly under it — a
+straight reorder of `h2`/`.eyebrow`/`img`, no restyling asked for.
+Card order is now heading → tagline → image → description → CTA
+(was: tagline → image → heading → description → CTA).
+
+Scoped the fix to just this one card: `.flow-card h2`/`.flow-card
+.eyebrow`'s shared margins are used by the *other* flow-card ("Set
+your own table") too, which Mark did not ask to reorder and which
+still has its original eyebrow-first layout. Added
+`.flow-card>.eyebrow:first-child,.flow-card>h2:first-child{margin-top:
+1.1rem}` — a structural-position rule, not a new class — so whichever
+element is actually first in a given card gets the "flush against the
+card's top edge" spacing, regardless of which card it's in. Verified
+with Playwright: the reordered card reads heading → tagline → image →
+text → CTA as asked, and the untouched "Set your own table" card is
+pixel-identical to before (same eyebrow-first spacing it already had).
+
+## 2026-09-17 (cont. 10) — Church Family Tree card: tagline moved under the image, to match the table card
+
+Mark's call: only "Church Family Tree" should sit above the picture,
+matching how the sibling "Set your own table" card has just one short
+line ("The Table") above its own picture. Moved the `.eyebrow` tagline
+("Two thousand years of the church, alive in one place") from between
+the heading and the image to between the image and the description
+paragraph. Card order is now heading → image → tagline → description →
+CTA (was: heading → tagline → image → description → CTA).
+
+No CSS change needed — the existing structural-position rule from the
+prior reorder (`.flow-card>.eyebrow:first-child,.flow-card>h2:first-
+child{margin-top:1.1rem}`) already covers whichever element is first in
+a card, and the tagline now sits mid-card using the shared `.flow-card
+.eyebrow` margin like any other non-first element. Verified with
+Playwright: card reads heading → image → tagline → text → CTA; the
+untouched "Set your own table" card is unaffected.
+
+## 2026-09-17 (cont. 11) — Space added between the header and the history strip
+
+Mark's call: the top row of history-strip photos was flush against the
+header's bottom border, with no framing. Added top margin so the strip
+now sits with breathing room under the header instead of touching it.
+
+Changed `.history-strip`'s margin from `0 auto` to `1.5rem auto 0` —
+a one-line spacing addition, no other layout touched. Verified with
+Playwright at 1400px: a clean gap now separates the header's rule line
+from the top edge of the photo strip.
+
+## 2026-09-17 (cont. 12) — Change order: the "Arriving" mark moves from the hero to the header
+
+Mark's call: the page still read unbalanced. Two changes: (1) move the
+logo mark into the header, before the "Church in Conversation" wordmark;
+(2) add space between the picture strip and the hero text below it.
+
+**Change order against a frozen D4 ruling, made explicitly, not a quiet
+edit:** D4 Increment 1 (ruling 8, logged above under 2026-09-02) put the
+mark in the hero on purpose and removed it from the header. This
+instruction reverses that ruling. Moved the same `<button id="...-mark"
+class="arriving play">` markup (unchanged SVG, unchanged animation, same
+click-to-replay behavior) out of the hero's now-deleted `.mark-line`
+wrapper and into a new `.brand` flex container in the header row, before
+the `<a class="wordmark">` link — nesting a `<button>` inside the
+`<a>` isn't valid HTML, so `.brand` wraps both as siblings instead.
+Resized for the header's compact row (30px, was 44px in the hero).
+Renamed `hero-mark` → `header-mark` throughout (markup, the click-replay
+script, the aria-label), and removed the now-unused `.mark-line` CSS
+rules rather than leaving dead styles behind.
+
+For the second ask: `.hero`'s top padding raised `1.75rem` → `2.5rem`
+(mobile: `1.25rem` → `1.75rem`), giving the hero text real space under
+the picture strip now that the mark itself no longer occupies that
+role.
+
+Verified with Playwright at 1400px and 390px: the mark plays once in
+the header on load, replays on click, "Church in Conversation" reads
+immediately after it, and the hero heading now sits with a clear gap
+below the photo strip on both viewport sizes.
+
+## 2026-09-17 (cont. 13) — Hero headline: masthead/dek split, not just bigger
+
+Mark's first call: the hero sentence should stand out much more as the
+page's "what is this" statement — bigger, wrapping to three lines
+rather than two. First pass (superseded before merge, so revised here
+rather than left as a stale intermediate step) just enlarged the whole
+sentence uniformly to a `clamp(1.75rem,1.1rem + 2.4vw,2.75rem)`/`max-
+width:63rem` block. Mark then asked for real creativity fitting the
+site's feel rather than a plain size bump. Presented three on-brand
+directions (illuminated first word; masthead/dek split; one accented
+phrase) with a recommendation; **Mark picked the masthead/dek split.**
+
+**What shipped:** the sentence is split at its natural clause break into
+two `<span>`s inside the same `<h1>` (one heading, not two, for
+accessibility — no outline change): `.hero-lead` ("Explore hundreds of
+historical Christian traditions") as a bold serif masthead line
+(`clamp(2rem,1.3rem + 2.8vw,3.25rem)`, weight 600), and `.hero-dek`
+("and have conversations with representative voices built from their
+own letters, sermons, and records.") as a smaller, muted, sans-serif
+subordinate line (`clamp(1.05rem,.85rem + .7vw,1.35rem)`, `var(--sans)`,
+`var(--muted)`) — the same serif/sans, ink/muted pairing already used
+elsewhere on the page (e.g. the flow-cards), not a new visual language.
+No copy change, no new color, no motion added.
+
+Verified with Playwright at 1440/1024/768/390px: reads as a clear
+masthead-plus-dek block at every width, dek line wraps cleanly under
+the lead line, nothing overflows on mobile.
+
+## 2026-09-17 (cont. 14) — Dek widened so it reads as part of the whole statement, not a small square
+
+Mark's feedback on the masthead/dek split, once shipped: the dek line
+was too small and looked square/boxy, disconnected from the masthead
+above it — "it can be smaller but still feel like the whole statement."
+
+Diagnosed, not guessed: measured the dek's actual rendered box at
+1440px — its `max-width:46rem` (736px) was narrow enough that the full
+dek sentence wrapped into two centered lines noticeably shorter than
+the masthead's own ~1008px width, reading as a small, separate caption
+block rather than a continuation of the same sentence.
+
+**Fix:** widened `.hero-dek`'s `max-width` 46rem → 70rem (close to the
+hero's own outer width) and reduced its font-size clamp further
+(`clamp(1.05rem,.85rem + .7vw,1.35rem)` →
+`clamp(.9rem,.75rem + .5vw,1.05rem)`) — smaller, as asked, but now with
+room to actually use that smaller size: at 1440/1024px it now reads as
+one full-width line under the masthead instead of a square block; at
+768px it wraps to two lines that span close to the masthead's own
+width rather than a narrow column; mobile (390px) is unaffected in
+shape, just smaller text.
+
+Verified with Playwright at all four widths.
+
+## 2026-09-17 (cont. 15) — Mobile/tablet hero cut back down to its old line count
+
+Mark's feedback, checking the live masthead/dek split on a narrow
+screen: the hero went from 4 lines of text to 6, pushing "Who would
+you like to talk with?" and everything under it too far down the page.
+
+Confirmed the actual cause with real measurements rather than assuming:
+at 390px, the pre-masthead-split hero (`94d4432`, the version live
+before this whole hero-redesign arc) rendered at 5 lines; the shipped
+masthead/dek split renders the lead at its `2rem` clamp floor (3 lines)
+plus the dek at its own floor (3 lines) — 6 lines total, because neither
+span had a mobile-specific size and both were stuck at their clamp
+minimums well before 390px.
+
+**Fix:** added a `@media (max-width:640px)` override —
+`.hero-lead{font-size:1.6rem}`, `.hero-dek{font-size:.85rem}` — sized
+down specifically for phone/small-tablet widths, leaving the desktop
+clamp values (and desktop's 3-total-line result) completely untouched.
+
+Verified with Playwright across the full 390–1920px range: desktop
+(≥900px) still renders lead 2 / dek 1 = 3 lines, unchanged from the
+prior fix; the 640–850px band now renders 3–4 total lines instead of
+4; and 390–480px now renders lead 2 / dek 2 = 4 lines total, matching
+the pre-redesign hero's own footprint instead of overshooting it.
+
+## 2026-09-17 (cont. 16) — Dek size bumped back up; checked with an actual screenshot first
+
+Mark's feedback on the deployed widen fix: "that's not what you showed
+me, the second half is one line and too small" — the prior pass
+(cont. 14) reduced the dek's font-size clamp to `.9rem–1.05rem` to make
+it fit on one line at desktop widths; in Mark's own view that read as
+too thin/small, not the earlier text description.
+
+Learned from this: sent an actual Playwright screenshot this time
+before asking Mark to confirm, rather than describing the change in
+words only, since a size/proportion judgment call like this one needs
+to be seen, not read.
+
+Raised `.hero-dek`'s font-size clamp `.9rem–1.05rem` →
+`1.15rem–1.4rem` (line-height 1.6→1.55, margin-top .7rem→.8rem for the
+bigger type), keeping the same wide `max-width:70rem` from cont. 14 so
+it doesn't regress to the earlier boxy look even though it now wraps to
+two lines again at desktop widths — the two lines span close to the
+full container width rather than a narrow column, which is what
+avoided "square" the first time. Mark confirmed from the screenshot
+before this shipped.
+
+## 2026-09-17 (cont. 17) — System-wide scan for leftover old background/branding; fixed everything live, left retired pages alone
+
+Mark asked for a scan of the whole system for any place the old light
+background or old branding was still present. Investigated every live
+`cic-website/` page directly (not just the ones this session had
+already touched) rather than assuming the earlier dark-mode passes
+covered everything. **Instruction on scope, given directly:** "fix
+everything that is part of the current build (dont bother with
+previous versions) anything that is directly being used on the website
+now."
+
+**Real findings, fixed:**
+- **`pilot-feedback.html`** — the feedback form's own input/select/
+  textarea fields and the `.optin` consent box were still
+  `background:var(--vellum);color:var(--iron-gall)` (the light-mode
+  values `--vellum`/`--iron-gall` still hold, per this file's own prior
+  comment, since only specific text colors were patched directly
+  before, not these backgrounds). Fixed to `#1E1913`/`#F1E9DD`,
+  matching the rest of the site's dark surface/text. This page is
+  genuinely live — linked from `about.html`, `index.html`,
+  `privacy.html`, `story.html`, `support.html`, `table.html`, and
+  `whats-next.html`.
+- **`atlas-v3.html`**'s own `<title>` tag still read "Church in
+  History — Church in Conversation" — the one real miss from this
+  session's earlier Church Family Tree rename (nav label, homepage
+  card, and alt text were all caught at the time; the browser tab
+  title wasn't). Fixed.
+- **`whats-next.html`** — two body-copy sentences called the feature
+  "Church in History" in the present tense, describing it as it exists
+  today. Fixed both to "Church Family Tree."
+- **`atlas.html` and `world-atlas.html`** (instant `<meta refresh>`
+  redirect stubs to `atlas-v3.html`, kept live so old bookmarks/links
+  still land) — both hardcoded old, untokenized colors
+  (`#f3ecdc`/`#3a3020`, with a `prefers-color-scheme` dark variant that
+  the rest of the site deliberately stopped relying on — see the
+  "Dark is the site's default appearance" reasoning already in
+  `atlas-v3.html`, since the media query can't tell "OS explicitly
+  light" from "OS never touched") and both still said "Church in
+  History" in the title, a comment, and the visible link text. Made
+  dark unconditional (`#17130F`/`#F1E9DD`/`#E08C74`, the same tokens
+  used everywhere else) and renamed both.
+
+**Checked and confirmed already correct, not touched:**
+- `assets/style.css` (the shared stylesheet `about.html`,
+  `pilot-feedback.html`, `privacy.html`, `support.html`, `tour.html`,
+  and `whats-next.html` all link) looked light-only on a first read of
+  its own `:root` block — but a full read found a dark-mode override
+  section already appended at the bottom (`git log` confirms a prior
+  commit, "Make dark the default appearance site-wide"), correctly
+  overriding body/header/footer/`.world-card`/`.callout`/links to the
+  same dark tokens as the rest of the site. Verified live with a
+  screenshot of `about.html` — genuinely already dark. This is why the
+  fix above only needed to touch the two remaining pieces
+  (`pilot-feedback.html`'s own page-specific form styles) that this
+  shared override doesn't reach.
+- `atlas-v3.html`'s own `:root` looked light on a `grep` for
+  `background:var(--parchment)` — but `--parchment` there resolves to
+  `#1d1811` (dark) by default; the confusing part is only the variable
+  name being kept from before the site went dark. Already correct.
+- One "Church in History" hit inside `atlas-v3.html` is a real 1982
+  academic journal title in a source citation, not this project's own
+  branding — left untouched.
+
+**Deliberately left alone, per Mark's own scope instruction:**
+- **`tour.html`** — still has ~15 raw `var(--vellum)`/`var(--parchment)`/
+  `var(--iron-gall)` usages throughout its own embedded Table-mockup
+  styles, genuinely still light in several spots. Not fixed: the
+  page's own header comment records that it was already pulled from
+  the live site 2026-07-20 and 2026-07-22 by Mark's own direction ("the
+  Hosted Tour / Tour Experience Module feature this page previews is
+  descoped to Phase 2+... out of the current build cycle entirely"),
+  no page currently links to it, and it's reachable only by someone
+  typing the exact URL. This is exactly a "previous version," not
+  "directly being used on the website now."
+- **`story.html`**'s changelog line ("Church in History (the Timeline)
+  has been completely rebuilt") is a past-tense record of what a
+  feature was called at the time of that update, not current-state
+  copy — left as the historical record it is.
 priority.

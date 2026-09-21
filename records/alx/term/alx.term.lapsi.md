@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - failure and restoration questions
   - church discipline questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.story.john-young-robber

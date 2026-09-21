@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether these people thought Jesus was God"
   - "participant asks how they spoke about Christ"
   - "participant asks whether they believed in the Trinity"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.jesus-as-god

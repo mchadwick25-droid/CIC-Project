@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - "participant asks how a council reached a decision and what the room was like"
   - "participant asks how much weight Rome's letter carried at a council"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 ---

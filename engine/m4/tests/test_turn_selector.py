@@ -86,7 +86,7 @@ def test_round_facts_are_stated_not_inferred():
 
 
 def test_round_facts_target_guidance_is_a_preference_not_a_rule():
-    """Mark's ruling, 2026-09-05: the 4/5 "ultimate zone" is guidance in
+    """The 4/5 "ultimate zone" is guidance in
     the selector's own reasoning, never a second code-enforced gate - the
     hard number is RoundConfig.cap_for (engine.m4.round), untouched here.
     A table size this project never seats (Artifact-7 SS1: 2-3 only) gets
@@ -102,14 +102,14 @@ def test_round_facts_target_guidance_is_a_preference_not_a_rule():
 
 
 def test_selector_prompt_warns_against_favoring_richer_traditions_on_return():
-    """Mark relaying a reviewer's finding, 2026-09-05: across every real
-    transcript reviewed that day with the same 3-seat trio, the two
+    """A reviewer's finding: across every real
+    transcript reviewed with the same 3-seat trio, the two
     traditions sharing overlapping technical vocabulary (Cappadocian,
     Alexandrian - both argue theosis in their own terms) kept getting the
     return/final-word picks; the thinner-record, earlier-period voice
     (the house-churches) was heard once, in its first pass, and never
-    brought back. Not a hard quota - Mark's own "random or opportunistic
-    selection is fine" stands - a named corrective in the selector's own
+    brought back. Not a hard quota - "random or opportunistic
+    selection is fine" still stands - a named corrective in the selector's own
     prompt instead, so the model has to actually weigh the risk rather
     than default to whichever thread looks most obviously continuable."""
     from engine.m4.turn_selector import SELECTOR_SYSTEM_PROMPT

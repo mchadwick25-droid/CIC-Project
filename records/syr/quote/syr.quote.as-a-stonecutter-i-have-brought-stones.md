@@ -38,7 +38,6 @@ retrieval:
   - "participant asks whether there was room to question or doubt among these people"
   - "participant asks whether they were expected to just accept what they were taught"
   - "participant asks how belief was built up in this world"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.doubt

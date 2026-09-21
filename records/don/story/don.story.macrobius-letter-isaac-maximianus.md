@@ -28,7 +28,7 @@ retrieval:
   - participant asks about the Macarian persecution from a source closer to documentary than hagiographic
     register
   - conversation needs a contrast case against don.story.passio-marculi's fuller hagiographic register
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the fullest hagiographic-convention martyrdom account (don.story.passio-marculi
     serves that need more precisely)
   - participant's question is about the anniversary sermon's own commemoration practice rather than this

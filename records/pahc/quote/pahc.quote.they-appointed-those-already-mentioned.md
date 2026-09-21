@@ -31,7 +31,6 @@ retrieval:
   - "participant asks how this world knew what it knew about Jesus and the apostles"
   - "participant asks whether there was a chain back to the apostles"
   - "participant asks who was allowed to lead and on what authority"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.how-we-know

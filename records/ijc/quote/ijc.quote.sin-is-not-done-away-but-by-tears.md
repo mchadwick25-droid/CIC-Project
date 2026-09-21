@@ -31,7 +31,6 @@ retrieval:
   - "participant asks how to forgive someone who is not sorry"
   - "participant asks what repentance was understood to require here"
   - "participant asks whether forgiveness could be given before it was asked for"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.limit.inner-life

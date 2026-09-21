@@ -48,6 +48,7 @@ placed on TurnResult.voice_event. When a real per-token transport is
 built, sentence-gating moves into that layer; the check itself does not
 change.
 """
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 
 from engine.m1.loader import load_fleet_records
@@ -58,6 +59,7 @@ from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.name_bridge import attach_cited_sources, find_figures_used, spoken_name
 from engine.m4.term_glosses import find_glosses_used
+from engine.m4.transparency_plan import build_transparency_plan
 from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
 from engine.m5.anachronism import resolve_term_ids, terms_in_message
@@ -67,7 +69,7 @@ from engine.m5.routing import Directive, directive_without_terms
 from engine.m8.usage import UsageRecord, record_usage
 
 
-SESSION_TURN_CAP = 10  # reference/Redesign-Spec/Artifact-6-Operations.md "per-session turn cap" (was DECIDABLE, default 40) - resolved to 10 by Mark, 2026-08-25, after the live memory-growth measurement (engine/m8/live_memory_growth_run.py) showed real per-turn cost climbing, not flat, as session history accumulates. Counted in completed VOICE turns (len(history)//2), the same unit that actually drives the cost growth - a session's history is built by engine.api.wiring.history_from_transcript, which only pairs a participant message with a turn that got a real Representative reply, so facilitator-only turns (safety check-ins, system-nature, etc.) do not themselves consume the cap.
+SESSION_TURN_CAP = 10  # reference/Redesign-Spec/Artifact-6-Operations.md "per-session turn cap" (was DECIDABLE, default 40) - resolved to 10 after the live memory-growth measurement (engine/m8/live_memory_growth_run.py) showed real per-turn cost climbing, not flat, as session history accumulates. Counted in completed VOICE turns (len(history)//2), the same unit that actually drives the cost growth - a session's history is built by engine.api.wiring.history_from_transcript, which only pairs a participant message with a turn that got a real Representative reply, so facilitator-only turns (safety check-ins, system-nature, etc.) do not themselves consume the cap.
 
 
 class UnhandledRoutingAction(NotImplementedError):
@@ -116,10 +118,20 @@ def run_gate(
     engine.m5.safety_accumulation's own module docstring)."""
     usage_records: list[UsageRecord] = []
 
-    safety_outcome = live_calls.call_safety(safety_client, safety_model_id, message=participant_message, recent_window=[], accumulator={})
+    # Concurrent, not sequential (Build-Plan.md Stage 0a): the two calls
+    # share no state and the httpx-based Bedrock SDK client is thread-safe,
+    # so there is nothing to serialize here. Submitted together, then
+    # resolved in the same fixed order (safety, reader) the rest of this
+    # function - and usage_records - has always assumed, regardless of
+    # which future actually completes first.
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        safety_future = pool.submit(live_calls.call_safety, safety_client, safety_model_id, message=participant_message, recent_window=[], accumulator={})
+        reader_future = pool.submit(live_calls.call_reader, safety_client, safety_model_id, message=participant_message)
+        safety_outcome = safety_future.result()
+        reader_outcome = reader_future.result()
+
     if rec := _maybe_record_usage(safety_outcome, session_id=session_id, call_kind="safety_call", model_id=safety_model_id):
         usage_records.append(rec)
-    reader_outcome = live_calls.call_reader(safety_client, safety_model_id, message=participant_message)
     if rec := _maybe_record_usage(reader_outcome, session_id=session_id, call_kind="reader_call", model_id=safety_model_id):
         usage_records.append(rec)
 
@@ -148,7 +160,10 @@ def run_gate(
         )
         reader_outcome.value["modern_terms"] = resolved
 
-    gate_result = resolve_gate(safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
+    gate_result = resolve_gate(
+        safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed,
+        anachronistic_term_ids=anachronistic_term_ids, message=participant_message,
+    )
     gate = _gate_decision_payload(
         safety_outcome=safety_outcome, reader_outcome=reader_outcome, gate_result=gate_result
     )
@@ -269,9 +284,9 @@ def _build_turn_directive(
     holds (see stream_voice_turn's docstring). This text changes every
     turn, so it must never be concatenated onto the cached half.
 
-    table_engagement (bug fix, 2026-09-05, Mark's report: "Table mode gives
+    table_engagement (bug fix for Table mode giving
     independent monologues instead of cross-voice engagement on broad
-    questions"): the Table's per-turn behavioral rule - engage what another
+    questions): the Table's per-turn behavioral rule - engage what another
     voice just said, stay in your own witness, keep it compact - belongs
     HERE, not in the user-message context_prefix it used to live in
     entirely. That was the actual bug: the ambiguity_options note below
@@ -394,22 +409,32 @@ def _run_ordinary_voice_turn(
     already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
     context_prefix: str | None = None,
+    secondary_context: str | None = None,
     table_engagement: str | None = None,
     usage_world_key: str | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
-    """context_prefix, table_engagement, and usage_world_key are the table's
-    additions (Artifact-7 SS3-4, SS7), all None on every interview call so
-    that path is byte-identical to before they existed. context_prefix
-    carries the attributed at-the-Table speech since this voice's last
-    turn - it rides in the per-turn user message only (never the cached
-    system prefix, same cache discipline as the evidence block) and is
-    deliberately NOT part of the message evidence assembly matches against:
-    retrieval stays focused on the participant's own ask, not on what
-    another voice said. table_engagement carries the behavioral rule about
-    that speech (engage it, stay compact, no foreknowledge) into
+    """context_prefix, secondary_context, table_engagement, and
+    usage_world_key are the table's additions (Artifact-7 SS3-4, SS7; Stage
+    4f, Build-Plan.md), all None on every interview call so that path is
+    byte-identical to before they existed. context_prefix carries the
+    attributed at-the-Table speech since this voice's last turn - it rides
+    in the per-turn user message only (never the cached system prefix, same
+    cache discipline as the evidence block) and is deliberately NOT part of
+    the message evidence assembly matches against: retrieval stays focused
+    on the participant's own ask, not on what another voice said - EXCEPT at
+    the secondary weight secondary_context supplies below, when the ask
+    alone leaves a real gap. table_engagement carries the behavioral rule
+    about that speech (engage it, stay compact, no foreknowledge) into
     _build_turn_directive's channel instead - see that function's own note
     on why the instruction and the content it's about now ride separately.
-    usage_world_key tags this call's UsageRecord with the speaking world."""
+    usage_world_key tags this call's UsageRecord with the speaking world.
+
+    secondary_context is the same at-the-Table speech context_prefix
+    carries, unwrapped (no model-facing framing sentences), passed straight
+    through to evidence.assemble_evidence's own parameter of the same name -
+    fills only the cell slots the participant's own message left empty,
+    never displaces a real match. Same repository_records this call already
+    has; no new read, no model call, no per-turn cost growth."""
     usage_records = []
     repository_records = evidence.repository_records_by_id(world.repository)
     thin_topics = evidence.thin_topics_for(repository_records)
@@ -427,9 +452,9 @@ def _run_ordinary_voice_turn(
     canon_questions = load_fleet_records()
     # The same set that keeps the UI's figure mark first-occurrence-only,
     # resolved to spoken names and put where the VOICE can see it too
-    # (Mark's pilot read, 2026-08-30: "when we use the same name in the
-    # conversation it should be ignatious also talked about..." - the
-    # session tracked the introduction, but only the screen knew).
+    # (a pilot read found the session tracked a figure's introduction to
+    # the conversation, but only the screen knew - the voice itself was
+    # never told).
     figures_already_named = [
         name
         for figure in (world.figures.get("figures") or [])
@@ -446,6 +471,7 @@ def _run_ordinary_voice_turn(
         already_told_ids=already_told_ids,
         history=history,
         figures_already_named=figures_already_named,
+        secondary_context=secondary_context,
     )
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
@@ -464,7 +490,7 @@ def _run_ordinary_voice_turn(
 
     answer_text, citations, net_result = apply_net(stream_outcome.value.text, repository_records=repository_records, thin_topics=thin_topics)
 
-    # Real, checkable source references (Mark's own correction, see
+    # Real, checkable source references (see
     # citation_cards' module docstring) - resolved once here and reused
     # for both the citations a sentence already carries and whichever
     # figure mention that same sentence names.
@@ -481,7 +507,7 @@ def _run_ordinary_voice_turn(
     # TERM/CONCEPT GLOSSES (VR_1A's other track; the original live-site
     # complaint this whole audit started from). A text scan against the
     # world's own lexicon - the same design as the name bridge above,
-    # per Mark's ruling (2026-08-30: "it is the heart of the depth");
+    # since the lexicon is the heart of the depth;
     # the module docstring carries the history of the firing rule.
     glosses = find_glosses_used(answer_text, citations, repository_records, already_bridged_ids=already_bridged_gloss_ids)
 
@@ -496,6 +522,19 @@ def _run_ordinary_voice_turn(
 
     do_not_voice_hit = find_do_not_voice_violation(answer_text=answer_text, quotes=world.quotes["quotes"])
 
+    # THE TRANSPARENCY PLAN (Build-Plan.md Stage 3a) - a deterministic
+    # transform over citations/net_result already computed above, no new
+    # evidence, no new model call. Additive: not in
+    # engine.m4.events.REQUIRED_KEYS["voice_turn"], so this changes
+    # nothing about what any existing caller (including M3 admission,
+    # which reads this same voice_event shape) already relies on. Not
+    # rendered anywhere yet - the frontend switch-on is its own,
+    # separately-ruled step (R10, Ministry/Features/Conversation-
+    # Transparency-Engine/Rulings-Pending.md).
+    transparency = build_transparency_plan(
+        citations=citations, net_result=net_result, repository_records=repository_records, world_key=world.world_key,
+    )
+
     voice_event = {
         "speaker": world.world_key,
         "text": answer_text,
@@ -505,6 +544,7 @@ def _run_ordinary_voice_turn(
         "quote_offers": [],
         "attempts_meta": {"empty_stream_retries": 0},
         "grounding": net_result,
+        "transparency": transparency,
         "do_not_voice_violation": do_not_voice_hit,
         "degraded_by_net": degraded_by_net,
         # The finished string, checked last, after the net has cut and the
@@ -512,7 +552,10 @@ def _run_ordinary_voice_turn(
         # actually reads, and until now nothing looked at it. Reports,
         # never edits (Program-Spec M4: never by editing a live response);
         # a finding here means something UPSTREAM is wrong.
-        "output_defects": check_output(answer_text, history=history, participant_message=participant_message),
+        "output_defects": check_output(
+            answer_text, history=history, participant_message=participant_message,
+            citations=citations, repository_records=repository_records,
+        ),
     }
     return voice_event, usage_records
 
@@ -561,9 +604,9 @@ def run_turn(
     transcript already shows in a prior turn's figures_used, so a name
     bridged once does not fire again (Full UX Design §2.4/§5.7's
     "first-occurrence term" grammar, applied to names the same as lexicon
-    terms). Since 2026-08-30 the same set also reaches the VOICE: it is
+    terms). The same set also reaches the VOICE: it is
     resolved to spoken names and rendered into the evidence block as an
-    already-introduced line (Mark's pilot read - both Chloe turns opened
+    already-introduced line (a pilot read found both Chloe turns opened
     "One of us, Ignatius"; the screen knew he was introduced, the voice
     did not). Caller-supplied for the identical reason as
     already_told_ids; omitting it means every matching figure fires every
@@ -628,23 +671,22 @@ def run_turn(
         if signal != "ACUTE_DISTRESS":
             # Track B: a dependency dynamic, not a crisis. No resources
             # (crisis_resources.resources_for_signal already refuses them for
-            # this signal) and no session freeze - Program-Spec SS8 asks for
-            # "an explicit continue path back to the voice after non-acute
-            # signals", so the voice is not silenced and the message is not
-            # withheld from it.
-            voice_event, voice_usage_records = _run_ordinary_voice_turn(
-                voice_client=voice_client, voice_model_id=voice_model_id, world=world,
-                participant_message=participant_message, directive=gate_result.routing.directive,
-                session_id=session_id, already_told_ids=already_told_ids,
-                already_bridged_figure_ids=already_bridged_figure_ids,
-                already_bridged_gloss_ids=already_bridged_gloss_ids, history=history,
-            )
+            # this signal) and no session freeze. Governed (Program-Spec SS8,
+            # amendment: never respond, let the facilitator handle it) - the voice is
+            # silenced here exactly as it already is on Track A below, and
+            # the message is withheld from it the same way. Before this
+            # amendment the voice spoke "alongside" the Facilitator's own
+            # dependency_check_turn, which meant a per-world voice_craft
+            # guard line was needed to stop it freelancing outside-help
+            # language - a rule only 2 of 11 worlds ever carried. With the
+            # voice never called here, that per-world prohibition is
+            # unnecessary by construction, not merely unneeded to restate.
             return TurnResult(
                 routing_action=action, routing_reason=gate_result.routing.reason,
                 gate=gate, safety_state_events=safety_states,
                 facilitator_events=[facilitator_turns.dependency_check_turn(world.frame["representative"]["name"])],
-                voice_event=voice_event, degraded=gate_result.degraded,
-                usage_records=usage_records + voice_usage_records,
+                voice_event=None, degraded=gate_result.degraded,
+                usage_records=usage_records,
             )
 
         # Governed (CiC_System_Hub_Decision_Log.md, portfolio decision

@@ -31,7 +31,6 @@ retrieval:
   - "participant asks who had the authority to settle disputed belief in this world"
   - "participant asks how the church here got a settled order, and when"
   - "participant asks what the Persian king had to do with the church"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.decides

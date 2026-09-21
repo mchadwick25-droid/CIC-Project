@@ -39,7 +39,6 @@ retrieval:
   - "participant asks how this world used its scriptures in an argument"
   - "participant asks whether the writings were quoted accurately"
   - "participant asks how leaders came to be appointed"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.scripture-and-testimony

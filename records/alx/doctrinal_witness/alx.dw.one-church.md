@@ -28,7 +28,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Was your church 'Catholic'? Is there a church today that is yours? In
   our own time we called ourselves part of the catholic church. The word

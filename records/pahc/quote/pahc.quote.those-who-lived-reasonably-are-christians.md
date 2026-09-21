@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what these people believed about God"
   - "participant asks what they thought of people outside their faith"
   - "participant asks whether God was at work beyond their own community"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.god-and-argument

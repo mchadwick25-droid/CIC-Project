@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant says prayer feels like silence"
   - "participant asks how to forgive someone who isn't sorry"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.put-away-doubting-from-you
@@ -59,8 +58,4 @@ bread, and give thanksgiving after having confessed your
 transgressions... let no one that is at variance with his fellow come
 together with you, until they be reconciled." The tensions field
 honestly names what this world's own practice does not address, rather
-than stretching it to answer a question it cannot. FIXED at Step 8
-round-1 review: added the Didache's own representativeness limit
-("one community's own manual... must not be silently generalized to
-network-wide practice"), previously dropped here and generalized to
-"our own practice."
+than stretching it to answer a question it cannot.

@@ -786,3 +786,103 @@ a registry reader needs quickly:
   cache-write / 966,519 cache-read); no $/token or $/turn figure
   quoted, per spec principle 13, until reconciled against a real AWS
   invoice.
+
+## don (Donatism)
+
+Everything about this world's own build - the `donatism-main-integration`
+merge-reconciliation, the ordinary-believer coverage pass, and every
+review round behind both - is tracked in full in `worlds/don/
+don_Decision_Log.md`; that log is the record of truth for this world's
+build, per its own established convention of using the Decision Log as
+its `Open_Gaps_Tracking.md` equivalent throughout. Nothing further is
+duplicated here except the admission fact a registry reader needs
+quickly.
+
+`representative`: Fidelis, Bishop of the Unbroken Line - carried forward
+from this world's own construction (Representative Construction Phases
+One-Seven, `worlds/don/Representative/`), Phase Seven's retrospective
+audit finding no drift toward content-volume/doctrinal-coverage framing
+across any of the six prior phases. `census_id`/`living_tradition_flag`
+(false - the one extinct formation-type in the fleet, closed in 439 with
+no living heir) were both already set at build time, unchanged by
+admission.
+
+**ADMITTED, 2026-09-16.** Mark's own word, in the Go-Live Pipeline
+Coordinator thread, in direct response to the M3 report below: "Admit
+don." M3 admission run authorized in the same thread ("Start don's
+admission read"): live Bedrock preflight confirmed cache engagement
+first (write, read, and streaming call all engaged), then the sealed
+28-probe battery ran against `us.anthropic.claude-sonnet-4-5-20250929-v1:0`
+(us-east-1), `LiveModelAnswerer`, one probe per canon cell (28/28 cells).
+**28/28 passed, 0 failing.** Report:
+`engine/m3/reports/live-admission-report-don-2026-09-16.json`. Package
+(`packages/don/2026-09-15T15-15-17Z`, `manifest_hash
+sha256:541b397a8b3288b4ceec02af2e7cd2b1e91e718feaab93a0c94b1efdd4202677`)
+restored from records first (packages are derived, not tracked in git)
+and reconfirmed non-stale by a fresh fleet `staleness-check` before the
+live run, so the battery ran against exactly what the registry pins, not
+an assumed-current copy.
+
+**Known, disclosed, not blocking:** the pre-existing `reciprocity` gate
+finding (52 one-directional `associated-with` links, confirmed unchanged
+since the 2026-09-14 ordinary-believer merge, not fleet-wide - see the
+merge-reconciliation and ordinary-believer entries in `don_Decision_Log.md`)
+is the same class of disclosed-not-blocking finding pahc and gallic
+carried into their own admissions. **Still open, not resolved by
+admission:** the Axido/Fasir Article 23 question (whether Circumcellion
+debt-relief/master-slave-reversal material may ever be built into a
+deployable record) remains reserved for the project lead, as it has been
+since Doc_09 - admission does not touch it either way.
+
+`state: admitted` in `records/worlds/don.yaml`; `admitted` -> `open` is a
+separate, later call, not made here.
+
+**OPEN, 2026-09-16.** Mark's own word, in the same thread, in direct
+response to the admission entry above: "Flip don to open." `state:
+admitted` -> `state: open` in `records/worlds/don.yaml`, nothing else in
+that file touched - the same discipline the admission flip used.
+
+**First real use of `open` in this fleet, worth naming rather than
+treating as routine.** Every one of this project's other eight admitted,
+publicly-live worlds still carries `state: admitted` in its own registry
+entry - none has ever been flipped to `open`, even though all eight have
+been serving real participant traffic and appearing as "Built & Live" on
+the public Atlas since their own admission days. Checked directly, not
+assumed: `engine/api/wiring.py`'s `ADMITTED_STATES = frozenset({"admitted",
+"open"})` and `engine/m6/census_sync.py`'s `LIVE_STATES = {"admitted",
+"open"}` both already treat the two states identically for serving and
+census-eligibility purposes - so this flip changes no runtime behavior on
+its own; it exercises a registry state (`Artifact-1-Record-Schema.md`:
+"`admitted`->`open` (registry flip = the door opens)") the fleet has
+carried in its own spec since the beginning but never actually used.
+Recorded here so a future reader does not mistake don's `open` value for
+a bug or an inconsistency against its seven admitted-but-not-yet-open-
+in-name siblings.
+
+**Census synced the same pass, not held back.** `python -m
+engine.m6.cli sync` - a module this world's own admission entry above
+did not yet know existed (built 2026-09-15, commit `2d2b9735`, superseding
+the by-hand census-edit process every earlier admitted world's own entry
+describes) - brought `cic-website/data/world-census.json`'s donatism
+entry from `"Selected - Not Yet Built"` to `"Built & Live"`
+(`chip: "live"`, `statusWord: "Open for conversation"`, representative
+name/title and world name populated from the registry) and recomputed
+`meta.liveCount` (8 -> 9) and `meta.statusCounts`. Run rather than held
+for a separate ask because `engine/m6/tests/test_census_sync.py`'s own
+regression-lock test treats registry/census drift as a real defect the
+moment the registry changes, not a separate future task, and the sync
+touches only registry-derivable fields (never `living`,
+`entry.color/tile/icon`, `why`, `longDescription`, or hand-authored
+content) - the mechanical completion of the `open` decision Mark already
+made, not a new one. Validated with `node tools/validate-census.mjs`
+(0 errors) and a full `engine.m1.cross_world` re-run (0 new defects, 17
+accepted-open - `census-id/don` closed the same pass, not left stale).
+`engine/m1/tests/test_cross_world.py`, `engine/m6/tests/test_census_sync.py`,
+and the rest of the `engine/m1`/`engine/m2`/`engine/m6`/`engine/m4` suites
+all pass (337 total).
+
+**Still not done - deliberately not attempted in this pass:** WO-1
+object-storage upload (R2 configuration status unchecked), merging any
+of don's own PRs to `main` (already merged - PR #190, PR #194 - so
+likely a no-op, not verified here), and the `main` -> `live` promotion
+PR. Each is its own separate step and its own separate call.

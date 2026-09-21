@@ -41,10 +41,9 @@ matrix_cell: 1B
 ---
 Re-derived from cleared Doc_08 cell 1B-1. Formation confidence Dominant
 Modern Reconstruction for the household's functioning multi-woman status
-(Doc_01's corrected two-claim analysis: her PERSONAL commitment is Widely
+(Doc_01's two-claim analysis: her PERSONAL commitment is Widely
 Accepted via Ep. 127; the household as formation site is best placed in
-the decades before 382, without false precision). Cross-connection carried
-as corrected at Doc_08 Round 1: her initiative persists on its own terms -
+the decades before 382, without false precision). Cross-connection: her initiative persists on its own terms -
 NOT routed through the praefatio/epistula apparatus - until terminated
 directly by the sack (3A-1). Canon_cells at authoring: F5-I (the women's
 daily life - this force's own content is the practice of that household).

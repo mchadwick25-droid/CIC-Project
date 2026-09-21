@@ -31,7 +31,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Who had the right to decide, when belief was disputed? And how did it
   actually work? Our own history shows three ways of deciding. Early on,

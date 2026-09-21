@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world treated the Bible as its only authority"
   - "participant asks whether this world read Genesis as science"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.moses-is-more-ancient

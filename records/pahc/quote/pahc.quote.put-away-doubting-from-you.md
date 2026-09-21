@@ -31,7 +31,6 @@ retrieval:
   - "participant says they pray and nothing happens"
   - "participant says they feel too unworthy or too sinful to pray"
   - "participant asks what these people did when prayer felt useless"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.prayer-and-struggle

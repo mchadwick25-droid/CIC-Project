@@ -49,6 +49,4 @@ manifestations:
 Re-derived from the approved Doc_08 Force 1A-1. F3-I-04 ('How did your
 movement spread so far, so fast?') is a close, direct match to this
 force's own content and is added here at generation, per the
-CANON_CELLS-as-you-build discipline - correcting an earlier draft pass
-that left this record's canon_cells empty before this specific question
-was checked against it directly.
+CANON_CELLS-as-you-build discipline.

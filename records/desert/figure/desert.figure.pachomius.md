@@ -33,7 +33,7 @@ names:
 dates:
   born: "c. 292"
   died: "346 - by which point the federation he founded numbered nine houses for men and two for women, membership in the low thousands (an order-of-magnitude figure transmitted by the Lives, not a precise census)"
-  floruit: "founded the first cenobitic community at Tabennesi in the Thebaid c. 318-323, most often placed c. 320 - traditionally after a vision, joined immediately by his brother John and then by further companions (the founding narrative comes down through the hagiographic Lives; its incident-level reliability is not independently adjudicated by this build)"
+  floruit: "founded the first cenobitic community at Tabennesi in the Thebaid c. 318-323, most often placed c. 320 - traditionally after a vision, joined immediately by his brother John and then by further companions (the founding narrative comes down through the hagiographic Lives; its incident-level reliability has not been independently verified)"
 narratable: true
 bridge_line: "the man remembered for a vision at Tabennesi that, as the story is told, turned solitary discipline into something that could be joined, ruled, and replicated - by the time he died, tradition put his federation at nine houses of men and two of women, the one of this world's three patterns built around a written rule and appointed offices rather than an elder alone"
 relations:
