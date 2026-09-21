@@ -77,5 +77,5 @@ Table scene gets rebuilt around these portraits.
 are now merged, as part of reconciling lpc's diverged build branches. The image's
 content was approved by the project lead on 2026-09-15; this update only fixes
 its file location and merges it to `main` — it does not itself mean lpc is live.
-lpc is still unregistered in `records/worlds.yaml` and its Representative
+lpc is still unregistered in `records/worlds/` and its Representative
 construction (Datus) is far from complete; see `worlds/lpc/lpc_Decision_Log.md`.
