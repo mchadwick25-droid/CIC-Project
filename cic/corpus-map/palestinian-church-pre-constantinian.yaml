@@ -59,13 +59,16 @@ works:
   author: maximus-of-jerusalem
   locus: div2 10.9
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Bishop of Jerusalem, A.D. 185-196 per the notice, On the Origin of Evil. No 2nd-century
     Jerusalem entry exists (the Jerusalem entry begins 325); pahc is a stand-in. The attribution
     of this large fragment is itself disputed (it circulates with Methodius'' material), which
     the notice acknowledges. Re-pointed 2026-08-26: palestinian-church-pre-constantinian (era
     1, c. 185-312) was added on record. Works flagged in THREE separate piles turned out to
     be this one hole - Alexandria was standing in for it on the strength of correspondence
-    with Origen, who himself moved to Caesarea around 231. STILL `needs-ruling`: the attribution
-    doubt in this note is untouched by a new entry.'
+    with Origen, who himself moved to Caesarea around 231. Mark''s ruling 2026-09-21 (NEEDS-RULING.md):
+    keep as assigned -- the placement (2nd-century Jerusalem material) is sound regardless
+    of authorship, so the disputed attribution to Maximus vs. Methodius is not a reason to
+    keep the corpus-map entry itself unresolved. The authorship question is tracked separately,
+    not here -- see Open_Gaps_Tracking.md.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

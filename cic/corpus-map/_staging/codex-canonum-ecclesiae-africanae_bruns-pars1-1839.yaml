@@ -22,12 +22,12 @@ assignments:
     atlas_ids:
       - donatism
     role: context
-    confidence: needs-ruling
+    confidence: assigned
     note: >
-      Not a claim this staging entry is positioned to argue well -- flagged
-      because the Council of Carthage 419 sits inside the Donatist
-      controversy's own chronology (post-Conference-of-Carthage-411
-      settlement period) and that world's own build thread has not been
-      asked, from outside, whether this text belongs there as context,
-      antecedent, or something narrower. Named per corpus-map's own
-      non-exclusivity principle rather than silently omitted.
+      Mark's ruling 2026-09-21 (NEEDS-RULING.md): context, not antecedent --
+      African episcopal legislation from the post-Conference-of-Carthage-411
+      settlement period is the catholic church's own response to the
+      controversy, not the Donatists' own voice, and nothing shows Donatism's
+      vendored sources arguing FROM this text the way antecedent would
+      require. Previously flagged for that world's own build thread to weigh
+      in from inside its Doc_01/Doc_02 boundary; ruled from outside instead.

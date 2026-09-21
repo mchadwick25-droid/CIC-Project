@@ -28,11 +28,10 @@ assignments:
     atlas_ids:
       - donatism
     role: context
-    confidence: needs-ruling
+    confidence: assigned
     note: >
-      Not a claim this staging entry is positioned to argue well -- flagged
-      because the same year-439 entry (the Vandal capture of Carthage) bears
-      directly on that world's own closing chronology too, and that world's
-      own build thread has not been asked, from outside, whether or how this
-      text belongs there. Named per corpus-map's own non-exclusivity
-      principle rather than silently omitted.
+      Mark's ruling 2026-09-21 (NEEDS-RULING.md): context -- a contemporary
+      external chronicle bearing on Donatism's closing chronology (the 439
+      Vandal capture of Carthage entry), not the movement's own voice and not
+      shown to be argued FROM by its vendored sources. Same role already
+      assigned for this work's lpc entry above, on the same reasoning.

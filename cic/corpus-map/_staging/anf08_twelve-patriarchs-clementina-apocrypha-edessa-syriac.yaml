@@ -338,19 +338,20 @@ assignments:
   author: excerpts-of-theodotus
   locus: div2 4.3
   atlas_ids:
-  - valentinian-and-other-gnostic-christianities
+  - montanism-the-new-prophecy
   role: context
-  confidence: needs-ruling
-  note: 'Corrected 2026-09-08, records/alx audit (see alx.source.excerpts-of-theodotus.md): this
-    row previously carried this text here as "actual Valentinian voice"; that is disproven. Despite
+  confidence: provisional
+  note: 'Corrected 2026-09-08, records/alx audit (see alx.source.excerpts-of-theodotus.md): despite
     its ANF title, the text is the Eclogae Propheticae, not the genuine Excerpta ex Theodoto - a
     full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad, and
     "Theodotus" appears only in the editorial title, which the ANF editor''s own headnote disowns
     ("corrupt or forged documents, for which Clement''s name has been borrowed"), guessing an
-    unknown Montanist compiler instead. Downgraded to needs-ruling: whether this text belongs in
-    this entry at all, now that its Valentinian content is disproven, is a question for Mark - held
-    here rather than dropped per the no-atlas_ids convention above. Do not cite this as a
-    Valentinian source; the genuine Excerpta ex Theodoto is not vendored anywhere in this corpus.
+    unknown Montanist compiler instead. Do not cite this as a Valentinian source; the genuine
+    Excerpta ex Theodoto is not vendored anywhere in this corpus. Mark''s ruling 2026-09-21
+    (NEEDS-RULING.md): re-pointed from valentinian-and-other-gnostic-christianities (disproven)
+    to montanism-the-new-prophecy, confidence provisional - the ANF editor''s own guessed Montanist
+    attribution is the only actual textual clue pointing anywhere, but it remains a guess, not
+    established authorship.
 
     '
 - work: Two Epistles Concerning Virginity
@@ -1111,15 +1112,18 @@ assignments:
   atlas_ids:
   - palestinian-church-pre-constantinian
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Bishop of Jerusalem, A.D. 185-196 per the notice, On the Origin of Evil. No 2nd-century
     Jerusalem entry exists (the Jerusalem entry begins 325); pahc is a stand-in. The attribution
     of this large fragment is itself disputed (it circulates with Methodius'' material), which
     the notice acknowledges. Re-pointed 2026-08-26: palestinian-church-pre-constantinian (era
     1, c. 185-312) was added on record. Works flagged in THREE separate piles turned out to
     be this one hole - Alexandria was standing in for it on the strength of correspondence
-    with Origen, who himself moved to Caesarea around 231. STILL `needs-ruling`: the attribution
-    doubt in this note is untouched by a new entry.'
+    with Origen, who himself moved to Caesarea around 231. Mark''s ruling 2026-09-21
+    (NEEDS-RULING.md): keep as assigned -- the placement (2nd-century Jerusalem material) is
+    sound regardless of authorship, so the disputed attribution to Maximus vs. Methodius is
+    not a reason to keep the corpus-map entry itself unresolved. The authorship question is
+    tracked separately, not here -- see Open_Gaps_Tracking.md.'
 - work: Fragments of Claudius Apollinaris
   author: claudius-apollinaris
   locus: div2 10.10

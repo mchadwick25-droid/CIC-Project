@@ -17,25 +17,6 @@ works:
 
     '
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: Excerpts of Theodotus
-  author: excerpts-of-theodotus
-  locus: div2 4.3
-  role: context
-  confidence: needs-ruling
-  note: 'Corrected 2026-09-08, records/alx audit (see alx.source.excerpts-of-theodotus.md):
-    this row previously carried this text here as "actual Valentinian voice"; that is disproven.
-    Despite its ANF title, the text is the Eclogae Propheticae, not the genuine Excerpta ex
-    Theodoto - a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad,
-    and "Theodotus" appears only in the editorial title, which the ANF editor''s own headnote
-    disowns ("corrupt or forged documents, for which Clement''s name has been borrowed"),
-    guessing an unknown Montanist compiler instead. Downgraded to needs-ruling: whether this
-    text belongs in this entry at all, now that its Valentinian content is disproven, is a
-    question for Mark - held here rather than dropped per the no-atlas_ids convention above.
-    Do not cite this as a Valentinian source; the genuine Excerpta ex Theodoto is not vendored
-    anywhere in this corpus.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
   locus: div2 3.3 - Books I, IV-X (II-III lost)

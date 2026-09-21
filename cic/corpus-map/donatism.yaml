@@ -207,12 +207,13 @@ works:
   author: council-of-carthage-419
   locus: pp. 155-202 of the printed volume
   role: context
-  confidence: needs-ruling
-  note: 'Not a claim this staging entry is positioned to argue well -- flagged because the
-    Council of Carthage 419 sits inside the Donatist controversy''s own chronology (post-Conference-of-Carthage-411
-    settlement period) and that world''s own build thread has not been asked, from outside,
-    whether this text belongs there as context, antecedent, or something narrower. Named per
-    corpus-map''s own non-exclusivity principle rather than silently omitted.
+  confidence: assigned
+  note: 'Mark''s ruling 2026-09-21 (NEEDS-RULING.md): context, not antecedent -- African episcopal
+    legislation from the post-Conference-of-Carthage-411 settlement period is the catholic
+    church''s own response to the controversy, not the Donatists'' own voice, and nothing
+    shows Donatism''s vendored sources arguing FROM this text the way antecedent would require.
+    Previously flagged for that world''s own build thread to weigh in from inside its Doc_01/Doc_02
+    boundary; ruled from outside instead.
 
     '
   source_file: codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt
@@ -424,12 +425,11 @@ works:
   author: prosper
   locus: pp. 385-485 of the printed volume
   role: context
-  confidence: needs-ruling
-  note: 'Not a claim this staging entry is positioned to argue well -- flagged because the
-    same year-439 entry (the Vandal capture of Carthage) bears directly on that world''s own
-    closing chronology too, and that world''s own build thread has not been asked, from outside,
-    whether or how this text belongs there. Named per corpus-map''s own non-exclusivity principle
-    rather than silently omitted.
+  confidence: assigned
+  note: 'Mark''s ruling 2026-09-21 (NEEDS-RULING.md): context -- a contemporary external chronicle
+    bearing on Donatism''s closing chronology (the 439 Vandal capture of Carthage entry),
+    not the movement''s own voice and not shown to be argued FROM by its vendored sources.
+    Same role already assigned for this work''s lpc entry above, on the same reasoning.
 
     '
   source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
@@ -450,24 +450,20 @@ works:
   author: theodosian-code-compilers
   locus: whole text
   role: context
-  confidence: needs-ruling
-  note: 'Not a claim this staging entry is positioned to argue well — flagged for that world''s
-    own build thread to rule on. CORRECTED 2026-09-09 (lpc Round 28 fix pass, at the project
-    lead''s explicit direction): this note previously stated, on the authority of Source_Registry.md
-    row 44, that the Donatism build''s G3 request for the Mommsen-Meyer edition was "not acquired
-    after five attempts" and that "that build settled for a substitute, Boyd''s 1905 translation
-    of the ecclesiastical edicts." That is no longer true and the clause is withdrawn. Donatism''s
-    own Decision Log records G3 FULLY DISCHARGED on 2026-09-07: the correct text volume (Voluminis
-    I Pars Posterior, archive.org item theodosianilibr01sirmgoog) was located and vendored
-    on that branch as cic/texts/theodosianus-16_mommsen-meyer1905.txt. Boyd remains a valid
-    corroborating secondary source but is no longer that build''s sole primary-text route.
-    This entry''s own earlier claim that Donatism''s corpus-map bucket "does not yet list
-    this work" is withdrawn as self-refuting inside the generated file (Round 29''s own C2):
-    once merged, this assignment IS that bucket''s listing of the work, so the sentence denied
-    itself at the site a reader meets it. It was true of the bucket as it stood before this
-    staging entry was first written. Whether it belongs there as context, antecedent, or something
-    narrower — CTh 16.5/16.6 carry the anti-Donatist and anti-heretic legislation most likely
-    relevant — is a call for that world''s own build thread, not asserted here from outside.
+  confidence: assigned
+  note: 'Mark''s ruling 2026-09-21 (NEEDS-RULING.md): context, not antecedent -- imperial
+    legislation acting on the controversy from outside (CTh 16.5/16.6 carry the anti-Donatist
+    and anti-heretic provisions most directly relevant), not the Donatists'' own voice and
+    not shown to be argued FROM by their vendored sources. CORRECTED 2026-09-09 (lpc Round
+    28 fix pass, at the project lead''s explicit direction): this note previously stated,
+    on the authority of Source_Registry.md row 44, that the Donatism build''s G3 request for
+    the Mommsen-Meyer edition was "not acquired after five attempts" and that "that build
+    settled for a substitute, Boyd''s 1905 translation of the ecclesiastical edicts." That
+    is no longer true and the clause is withdrawn. Donatism''s own Decision Log records G3
+    FULLY DISCHARGED on 2026-09-07: the correct text volume (Voluminis I Pars Posterior, archive.org
+    item theodosianilibr01sirmgoog) was located and vendored on that branch as cic/texts/theodosianus-16_mommsen-meyer1905.txt.
+    Boyd remains a valid corroborating secondary source but is no longer that build''s sole
+    primary-text route.
 
     '
   source_file: codex-theodosianus_latinlibrary.txt

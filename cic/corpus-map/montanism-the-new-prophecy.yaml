@@ -75,6 +75,25 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- work: Excerpts of Theodotus
+  author: excerpts-of-theodotus
+  locus: div2 4.3
+  role: context
+  confidence: provisional
+  note: 'Corrected 2026-09-08, records/alx audit (see alx.source.excerpts-of-theodotus.md):
+    despite its ANF title, the text is the Eclogae Propheticae, not the genuine Excerpta ex
+    Theodoto - a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad,
+    and "Theodotus" appears only in the editorial title, which the ANF editor''s own headnote
+    disowns ("corrupt or forged documents, for which Clement''s name has been borrowed"),
+    guessing an unknown Montanist compiler instead. Do not cite this as a Valentinian source;
+    the genuine Excerpta ex Theodoto is not vendored anywhere in this corpus. Mark''s ruling
+    2026-09-21 (NEEDS-RULING.md): re-pointed from valentinian-and-other-gnostic-christianities
+    (disproven) to montanism-the-new-prophecy, confidence provisional - the ANF editor''s
+    own guessed Montanist attribution is the only actual textual clue pointing anywhere, but
+    it remains a guess, not established authorship.
+
+    '
+  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
   locus: div2 3.3 - Books I, IV-X (II-III lost)

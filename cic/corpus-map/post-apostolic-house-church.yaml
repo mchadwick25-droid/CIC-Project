@@ -354,10 +354,15 @@ works:
   author: juliusafricanus
   locus: div2 5.6
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'A Roman martyr act (Hadrianic setting) transmitted under Africanus'' name on thin
-    grounds. Shelved with the Roman entry its subject belongs to; both the attribution and
-    the shelf need a ruling.
+    grounds. Shelved with the Roman entry its subject belongs to. Mark''s ruling 2026-09-21
+    (NEEDS-RULING.md): keep as assigned -- the shelf (post-apostolic-house-church) was already
+    settled by the pahc sweep''s own account (README.md), which treats this as the one work
+    whose problem was never the shelf, only the author attribution. Per the project''s own
+    pseudepigrapha ruling elsewhere in NEEDS-RULING.md, a work circulating under a name that
+    is not demonstrably its author''s does not get re-attributed on that basis alone. The
+    thin attribution to Julius Africanus is tracked separately, not here -- see Open_Gaps_Tracking.md.
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
