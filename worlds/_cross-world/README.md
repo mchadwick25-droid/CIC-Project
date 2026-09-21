@@ -67,12 +67,23 @@ citations (see that dossier's own §4). None of these six had anything
 vendored before this pass — the first real test of the dossier process
 on a corpus starting from zero rather than one already 82 files deep.
 
-**Backlog — not yet written:** `greek-apologists-second-century` (I.35) and
-`latin-apologists` (I.43), both Tier 1 with a Step 0 already on file but no
-dossier yet; `palestinian-ascetic-monasticism-early` (I.34), not yet
-researched at all. `donatism` (I.4) and `gallic-monastic-ascetic-christianity`
-(I.27) are far enough into their own builds that a retroactive dossier is
-lower priority than closing the backlog above.
+**21 as of 2026-09-21** — `greek-apologists-second-century` (I.35) and
+`latin-apologists` (I.43), both Tier 1 with a Step 0 already on file
+(`worlds/grkap/`, `worlds/latap/`, each five-to-six-round independently
+reviewed). Both dossiers found the corpus-map already comprehensively
+assigned — Step 0's own B1/B3 work had already done most of a dossier's
+job in the course of movement-scope testing — but the pass still found
+and fixed one real defect: a staging file for Perpetua's Latin/Greek
+second witness (Robinson 1891) still pointed at the retired
+`tertullian-s-voice` atlas_id after Mark's 2026-09-10 merger, missed by
+that merger's own repointing run. Re-pointed to `latin-apologists` and
+re-merged as part of this pass.
+
+**Backlog — not yet written:** `palestinian-ascetic-monasticism-early`
+(I.34), not yet researched at all. `donatism` (I.4) and
+`gallic-monastic-ascetic-christianity` (I.27) are far enough into their
+own builds that a retroactive dossier is lower priority than closing the
+backlog above.
 
 ## Regenerating
 
