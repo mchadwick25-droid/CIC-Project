@@ -3204,3 +3204,54 @@ now."
   feature was called at the time of that update, not current-state
   copy — left as the historical record it is.
 priority.
+
+## 2026-09-19 — facilitator_brief: two schema questions resolved before authoring starts
+
+Starting the `facilitator_brief` records (the M1 schema stub added
+2026-09-19 alongside `world_front`, `933d165d` — never yet carried into
+any world build). Research before writing content found: (1) the schema's
+`redirect_notes` field has zero precedent anywhere outside its own schema
+comment — not in the live Facilitator Governance doc, not in the older
+hand-authored `World_Facilitation_Brief_Template.md` (v1.1) this record
+type replaces Section B of — and its name is close enough to
+crisis-redirect vocabulary to risk the wrong content landing there; (2)
+that same template's B6 ("Representative Introduction Language") has no
+counterpart field in the new schema, dropped with no explanation on
+record.
+
+Put both to Mark directly rather than assume, since one is
+safety-adjacent-by-name and the other is a schema-completeness question
+that touches every future world. Decided:
+
+- **`redirect_notes`** holds ordinary content-limit handoff guidance — how
+  a Facilitator hands off when *this world's own formation* runs thin on
+  a topic. Not crisis/acute-distress content: that redirect stays
+  fleet-wide and template-anchored per CLAUDE.md's own standing rule,
+  never freely generated per world. Authored the same way as every other
+  field (mode-1/mode-3 unit, grounded in real records).
+- **B6 stays dropped.** Proceeding with the schema's existing 8 fields
+  (`world_identity`, `formation_strengths`, `formation_limitations`,
+  `participant_type_fit`, `pairing_guidance`, `cautions`,
+  `living_tradition_handling`, `redirect_notes`) as-is. No schema change.
+  If a world's own hand-authored Facilitation Brief has real B6 content
+  worth keeping, it stays in that document rather than being migrated
+  anywhere new.
+
+Two pre-existing infrastructure gaps surfaced during this research, logged
+here rather than left to go quiet: `gate_referential`'s own docstring
+claims it validates a `facilitator_brief`'s reference ids alongside
+`world_front`'s, but the actual code only checks `record_type ==
+"world_front"` — a `facilitator_brief`'s `grounded_in`/`from` ids can
+dangle with nothing catching it. And `gate_completion_per_type` has no
+entry for `facilitator_brief` at all, so no field beyond the envelope
+floor is actually required. Neither blocks starting content — they're
+pre-existing gaps in infrastructure nobody has exercised yet, not
+regressions from this decision — but both need fixing once the pilot
+record below exists to test them against.
+
+**Pilot:** syr, migrating `worlds/syr/Syriac_Phase6_Facilitator_Coordination_DRAFT.md`
+(approved to proceed 2026-07-08, cleared two independent adversarial
+reviews) into the new record schema, grounding each unit in syr's actual
+M1 records (gravity/force/honest_limit/contested_claim/figure) rather than
+re-citing that document's own Doc_0X/Phase-N prose sources, which are not
+records the compiler can resolve.

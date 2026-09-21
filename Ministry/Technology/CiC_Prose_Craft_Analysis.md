@@ -517,6 +517,93 @@ Verified counts across the corpus:
 
 ---
 
+## 10. One claim per sentence
+
+**Provenance, stated plainly since it breaks this document's own rule about
+itself:** sections 1–9 above are derived only from the pahc corpus named in
+this document's header. This section is not — it comes from a separate,
+later episode: Mark's direct ruling during the Built-World Voice Alignment
+workstream (2026-09-18), reviewing redrafts of two homepage tiles, `ijc`
+("Church and Empire") and `hal` ("The Bethlehem Circle"), then generalizing
+it in his own words: *"now use this same principle in all writing."*
+Recorded here so it governs future writing project-wide, not only those two
+tiles — but flagged honestly as a different source than the rest of this
+document, per this project's own rule against misattributing where a claim
+comes from.
+
+**Principle.** When a sentence carries two or more distinct claims stitched
+together with a dash, semicolon, or coordinating conjunction, split it into
+separate sentences — one claim, one job, per sentence — rather than
+shortening words or cutting content. A sentence is doing too many jobs when
+it answers more than one of: where, when, who, what happened, what it
+caused, what it's evidence of, what remains unsettled. This is
+**redistribution, not compression** — total word count should barely move;
+what changes is sentence count and the longest sentence's length.
+
+**Worked example 1 (`ijc` tile).** Before (52 words, three jobs — where,
+when, what changed — stitched with a comma chain and a dash):
+
+> "In Rome, Constantinople, and Milan, from Constantine's toleration of the
+> church in 312 to the Council of Chalcedon in 451, Christian bishops became
+> office-holders beside a throne rather than outlaws beneath a sword —
+> hearing lawsuits, administering imperial funds, summoned to councils at
+> the emperor's own expense."
+
+After (two sentences, one job each — where/when, then what changed plus its
+own concrete specifics, which stay together per §3's concreteness-ratio
+rule since that is one job, not two):
+
+> "Bishops in Rome, Constantinople, and Milan lived through a real change
+> between Constantine's toleration of the church in 312 and the Council of
+> Chalcedon in 451. They stopped being outlaws beneath the sword and became
+> office-holders beside a throne — hearing lawsuits, managing imperial
+> funds, summoned to councils at the emperor's own expense."
+
+**Worked example 2 (`hal` tile).** A 46-word sentence stitched a
+funding/founding/pressing-with-questions claim to its own honest
+complication (Jerome wrote nearly every surviving page himself) to the open
+question that complication leaves, all via one semicolon and one `but`:
+
+> "The women funded it, founded it, and by Jerome's own account pressed him
+> with scriptural questions for decades; but Jerome wrote nearly every
+> surviving page himself, and how much independent authority his account of
+> them actually reflects is a question this world's own record cannot
+> settle."
+
+Split into three, one claim per sentence, so the complication lands as its
+own short sentence rather than riding in on a `but`:
+
+> "The women funded it, founded it, and — by Jerome's own account — pressed
+> him with scriptural questions for decades. But Jerome wrote nearly every
+> surviving page himself. How much independent authority his account of
+> them actually reflects is a question this world's own record cannot
+> settle."
+
+**Net effect, both cases:** `ijc`'s tile went from 3 sentences / 132 words
+to 7 sentences / 126 words; `hal`'s went from 3 sentences / 134 words to 9
+sentences / 135 words. Longest sentence dropped from 46–52 words to 26–31.
+No fact cut, none added, in either case.
+
+**Note on drift (flagged 2026-09-18 by the fleet-wide Opus review, fixed
+here):** the two worked examples above capture this rule's own founding
+episode — the state of each tile at the moment the principle was derived
+from it. Both tiles were revised further afterward (an ecology pass added
+material to each; a later fleet-wide review round then corrected several
+source-fidelity defects and re-tightened sentence structure again). The
+worked examples above are accurate history of how the rule was discovered
+and should not be read as a live snapshot of either tile's current text —
+check `cic-website/data/world-census.json` for what is actually shipped.
+
+**When this does NOT apply.** A sentence combining a claim with its own
+single supporting concrete detail is not "stitched" — that is §3's own
+established pattern ("every abstraction gets cashed in the same sentence or
+the next one") and should stay combined. The test is jobs, not punctuation
+count: two dashes doing one job (a concrete inventory, per §9's own
+dash-use rule) is fine as one sentence; two dashes doing two unrelated jobs
+is the violation this section names.
+
+---
+
 ## Generative checklist
 
 - **Median 18 words. One long sentence per paragraph (35–46) and buy it with a short
@@ -553,3 +640,7 @@ Verified counts across the corpus:
   interface copy, zero adjective whose only job is warmth.** One-word metaphor is
   allowed only when it carries a distinction the literal phrase loses — and never
   extended past its clause.
+- **One claim per sentence (§10).** A sentence answering more than one of
+  where/when/who/what-happened/what-it-caused/what-remains-unsettled is doing too many
+  jobs — split along the claims, not by cutting words. Redistribution, not
+  compression: total length should barely move.
