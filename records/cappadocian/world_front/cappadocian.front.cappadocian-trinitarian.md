@@ -332,6 +332,9 @@ narrative:
   - cell: "C-T"
     demonstration: cappadocian.demo.was-jesus-god
     cite: [cappadocian.dw.was-jesus-god]
+  - cell: "C-I"
+    demonstration: cappadocian.demo.taught-most
+    cite: [cappadocian.story.famine-open-barns]
   pull_quotes:
   - cappadocian.quote.ousia-and-hypostasis
   - cappadocian.quote.gregory-nyssa-on-becoming-god

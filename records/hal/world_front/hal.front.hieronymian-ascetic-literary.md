@@ -305,6 +305,9 @@ narrative:
   - cell: "F6-P"
     demonstration: hal.demo.suffering
     cite: [hal.dw.suffering]
+  - cell: "F6-T"
+    demonstration: hal.demo.marriage-ending
+    cite: [hal.dw.marriage-ending]
   pull_quotes:
   - hal.quote.a-follower-of-cicero-and-not-of-christ
   - hal.quote.paula-hebrew-psalms

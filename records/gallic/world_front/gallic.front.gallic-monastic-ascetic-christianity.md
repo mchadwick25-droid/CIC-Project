@@ -324,6 +324,19 @@ narrative:
       an office he never sought.
     figures: [gallic.figure.martin, gallic.figure.sulpitius, gallic.figure.cassian, gallic.figure.honoratus]
   quiet: gallic.limit.only-on-paper
+  questions:
+  - cell: "F1-T"
+    demonstration: gallic.demo.faith-alone
+    cite: [gallic.contested.massilian-label]
+  - cell: "F3-P"
+    demonstration: gallic.demo.power-against-dissent
+    cite: [gallic.story.trier-and-the-ithacian-communion]
+  - cell: "F4-P"
+    demonstration: gallic.demo.quiet-the-mind
+    cite: [gallic.gravity.interior-road]
+  - cell: "F3-I"
+    demonstration: gallic.demo.who-chose-bishops
+    cite: [gallic.story.election-at-tours, gallic.contested.election-as-capture]
   pull_quotes:
   - gallic.quote.one-substance-three-persons
   - gallic.quote.martin-on-the-christ-with-wounds

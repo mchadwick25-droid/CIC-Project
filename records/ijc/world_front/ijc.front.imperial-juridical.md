@@ -347,6 +347,12 @@ narrative:
   - cell: "F6-I"
     demonstration: ijc.demo.never-settled
     cite: [ijc.story.tome-that-would-not-bend]
+  - cell: "F1-T"
+    demonstration: ijc.demo.bread-and-cup
+    cite: [ijc.dw.bread-made-body]
+  - cell: "F6-P"
+    demonstration: ijc.demo.hypocrisy
+    cite: [ijc.story.callinicum-synagogue]
   pull_quotes:
   - ijc.quote.ambrose-dare-not-offer
   - ijc.quote.eutropius-right-of-refuge
