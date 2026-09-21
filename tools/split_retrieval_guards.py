@@ -12,15 +12,17 @@ quietly carrying both -
   itself, so any record type can carry one; inserted as a new top-level
   key right after the (now-shorter) `retrieval:` block.
 
-Classification reuses `engine.m4.reports.grounding_fooling_measure`'s own
-`GUARD_MARKERS` keyword set rather than building a second, independent
-classifier: that set is what Stage 1's own D1 measurement actually ran
-against (13 of 714 lines fleet-wide are genuine guard clauses - see
-Decision-Log.md and Rulings-Pending.md's R11 entry), and a fresh
-classifier here would either have to reproduce that same judgment or risk
-disagreeing with the one number this ruling was measured against. This is
-a considered substitution for Build-Plan.md's literal "Haiku classifier"
-language, not a silent deviation - logged as such in Decision-Log.md.
+Classification reuses `engine.prose.GUARD_MARKERS` (the single shared
+keyword set - also used by `engine/m4/reports/grounding_fooling_measure.py`
+and `engine/m1/gates.py`'s `retrieval-negatives-structured` gate) rather
+than building a second, independent classifier: that set is what Stage 1's
+own D1 measurement actually ran against (13 of 714 lines fleet-wide are
+genuine guard clauses - see Decision-Log.md and Rulings-Pending.md's R11
+entry), and a fresh classifier here would either have to reproduce that
+same judgment or risk disagreeing with the one number this ruling was
+measured against. This is a considered substitution for Build-Plan.md's
+literal "Haiku classifier" language, not a silent deviation - logged as
+such in Decision-Log.md.
 
 `do_not_retrieve_when` is deleted outright on any record touched: every
 line it held moves to exactly one of `prefer_instead` or `claim_guards`,
@@ -47,19 +49,13 @@ import yaml
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
-from engine.m4.reports.grounding_fooling_measure import GUARD_MARKERS  # noqa: E402
+from engine.prose import is_guard_marker_line as is_guard  # noqa: E402
 
 RECORDS_ROOT = REPO_ROOT / "records"
 _FRONTMATTER = re.compile(r"^---\n(.*?\n)---\n", re.DOTALL)
 _DNRW_LINE = re.compile(r"^  do_not_retrieve_when:\s*$")
 _DNRW_EMPTY_INLINE_LINE = re.compile(r"^  do_not_retrieve_when:\s*\[\s*\]\s*$")
 _ITEM_PREFIX = "  - "
-
-
-def is_guard(value: str) -> bool:
-    """Same test `grounding_fooling_measure.collect_guard_lines()` already
-    uses and Stage 1's D1 measurement was run against."""
-    return any(marker in value.lower() for marker in GUARD_MARKERS)
 
 
 def _retrieval_block_end(lines: list[str], retrieval_at: int) -> int:

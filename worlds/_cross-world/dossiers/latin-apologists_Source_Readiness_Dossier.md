@@ -92,7 +92,7 @@ directory listing, not just the volumes Step 0 already used.**
   for the Passion of Perpetua, already vendored and already correctly
   role/confidence-matched to the English witness — but its `atlas_ids`
   still pointed to `tertullian-s-voice`, the census entry Mark's
-  2026-09-10 ruling merged into this candidate (`worlds/latap/Step0_...md`
+  2026-09-10 ruling merged into this candidate (`worlds/latap/Step0_Movement_Scope_Confirmation.md`
   Rev. 6). Every one of Tertullian's own 32 works in the `anf03`/`anf04`
   staging files was repointed by that ruling's own merge run; this one
   sibling file, holding a different work by a different (transmitted)

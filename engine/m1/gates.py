@@ -10,7 +10,7 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
-from engine.prose import quote_aware_sentences
+from engine.prose import is_guard_marker_line, quote_aware_sentences
 
 from . import canon
 from .fk import fk_grade
@@ -224,6 +224,53 @@ def gate_alias_safety(records, fleet, registry) -> list[str]:
                         f"{rid}: false_friend {alias!r} exactly matches {other_id}'s world_word with no "
                         f"disambiguating context - unsafe alias collision"
                     )
+    return findings
+
+
+def gate_retrieval_negatives_structured(records, fleet, registry) -> list[str]:
+    """Build-Plan.md Stage 4a. R11 (Rulings-Pending.md, ruled (a)
+    2026-09-21; Decision-Log.md Entries 21-24) split the one field that
+    used to carry both an ordinary retrieval-scoping redirect and a barred-
+    claim honesty guard into two real fields with two different jobs:
+    `retrieval.prefer_instead` (redirect) and envelope-level `claim_guards`
+    (guard). `do_not_retrieve_when` stays in the schema only for
+    additive-only compatibility (engine/m1/schemas.py) - it is never
+    populated by real authoring again, and nothing else in the gate
+    battery enforces that on its own (schema-validation alone would happily
+    accept a populated one). Three structural invariants, not just field
+    presence:
+
+    1. `do_not_retrieve_when` must stay empty/absent - a populated one is a
+       regression to the pre-split shape this stage retired.
+    2. every `claim_guards` entry must read as a genuine barred-claim guard
+       (matches `engine.prose.GUARD_MARKERS`, the same keyword set Stage
+       1's own D1 measurement was run against) - not a retrieval-scoping
+       note that landed in the wrong field.
+    3. no `retrieval.prefer_instead` entry may read as a guard clause - the
+       mirror check, catching a guard clause that leaked back into the
+       redirect-only field and would go unenforced there.
+    """
+    findings = []
+    for rid, rec in records.items():
+        retrieval = rec.get("retrieval") or {}
+        dnrw = retrieval.get("do_not_retrieve_when")
+        if dnrw:
+            findings.append(
+                f"{rid}: retrieval.do_not_retrieve_when is populated ({len(dnrw)} line(s)) - R11's split "
+                f"retired this field; move each line to prefer_instead or claim_guards"
+            )
+        for guard in rec.get("claim_guards") or []:
+            if not is_guard_marker_line(guard):
+                findings.append(
+                    f"{rid}: claim_guards entry does not read as a barred-claim guard "
+                    f"(no GUARD_MARKERS phrase): {guard!r}"
+                )
+        for redirect in retrieval.get("prefer_instead") or []:
+            if is_guard_marker_line(redirect):
+                findings.append(
+                    f"{rid}: prefer_instead entry reads as a guard clause, not a redirect "
+                    f"(matches GUARD_MARKERS): {redirect!r} - move it to claim_guards"
+                )
     return findings
 
 
@@ -838,6 +885,7 @@ GATES = {
     "quote-recording": gate_quote_recording,
     "alias-safety": gate_alias_safety,
     "distribution-health": gate_distribution_health,
+    "retrieval-negatives-structured": gate_retrieval_negatives_structured,
     "confidence-crosscheck": gate_confidence_crosscheck,
     "rights": gate_rights,
     "edition-rights-consistency": gate_edition_rights_consistency,
