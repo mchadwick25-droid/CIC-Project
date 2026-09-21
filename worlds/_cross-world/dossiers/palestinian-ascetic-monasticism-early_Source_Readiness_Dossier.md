@@ -52,17 +52,43 @@ directory listing.**
   movement's own voice, at the same weight as Jerome's participant-observer
   Hilarion and Malchus, is a Doc_02 gravity-informed judgement this dossier
   pass is not positioned to make alone.
-- **Sozomen's *Ecclesiastical History* — named, not verified, real enough to
-  flag rather than drop.** Already assigned to `desert-monasticism` (context),
-  whose own note reads "I.12-14, III.14 and VI.28-34 are extended accounts of
-  Egyptian (and Palestinian/Syrian) monasticism naming Antony, Pachomius and
-  the Nitrian fathers." The volume (`npnf202_socrates-sozomen-ecclesiastical-
-  histories.xml`) contains 93 occurrences of "Palestine" fleetwide, but this
-  pass did not isolate which, if any, fall inside those specific chapter
-  spans and describe this candidate's own region rather than Egypt — the
-  named authors in the existing note are all Egyptian. A future pass should
-  read I.12–14, III.14, and VI.28–34 directly before adding or declining a
-  cross-link here; not done this pass for time.
+- **Sozomen's *Ecclesiastical History* — real, unassigned, directly
+  re-verified against the vendored text this pass (upgraded from an earlier,
+  independent dossier pass's own "named, not verified" flag).** Currently
+  assigned only to `desert-monasticism` (context); zero assignment to this
+  candidate in `cic/corpus-map/_staging/npnf202_socrates-sozomen-ecclesiastical-histories.yaml`.
+  Two loci in `npnf202_socrates-sozomen-ecclesiastical-histories.xml` checked
+  directly, div-id by div-id, not from memory or from the prior pass's own
+  account of them: **Book III, ch. 14** (div `iii.viii.xiv`, "Of the Holy Men
+  who flourished about this time in Egypt... Hilarion, and a Register of many
+  other Saints") states in Sozomen's own words, independent of Jerome's
+  *Life*, that Hilarion "was a native of Thabatha... a village situated near
+  the town of Gaza, towards the south, and hard by a torrent which falls into
+  the sea" (the editorial apparatus separately notes Jerome's own "five miles
+  from Gaza" figure in a footnote — that specific figure is the *editor's*
+  gloss on Jerome, not Sozomen's own text, a distinction the prior pass's
+  account blurred). **Book V, ch. 15** (div `iii.x.xv`, "...Mention of the
+  Ancestors of the Author") is Sozomen writing in the first person: his own
+  grandfather's household, together with the household of a neighbor named
+  Alaphion, "had been the first to embrace Christianity in Bethelia, a
+  populous town near Gaza," converted "through the instrumentality of the
+  monk Hilarion" after Hilarion healed Alaphion of demonic possession — a
+  direct family memory, not a secondhand report. `CORPUS-USE.md` tier: same
+  time, same place (Gaza region, 4th–5th c.) — a near-contemporary
+  independent witness corroborating Jerome's hagiography from outside it,
+  the same footing this project's corpus-map already gives comparable
+  cross-links elsewhere. A third locus both this pass and the prior one
+  cited from `desert-monasticism.yaml`'s own existing note, "VI.28–34,"
+  turns out not to exist in this vendored edition — checked directly:
+  Book VI in `npnf202_socrates-sozomen-ecclesiastical-histories.xml` has
+  24 chapters (i–xxiv only), so a citation to chapters 28–34 is a locus
+  error already live in `desert-monasticism.yaml`'s own note, not a
+  chapter this pass simply failed to open. Named here as a fleet-level
+  defect (an already-built world's corpus-map citing a nonexistent locus),
+  not fixed from this dossier since `desert-monasticism` is not this
+  candidate's own world.
+  Whether to assign III.14 and V.15 as `context` or `tradition` is a
+  Doc_02 judgment call, not made here.
 - **Chrysostom's ascetic material — checked and confirmed not a gap.** The
   census's own `why` field names "Chrysostom's ascetic treatises" as one of
   two piles that originally landed on `desert-monasticism` for lack of a
@@ -101,6 +127,18 @@ directory listing.**
   monks, on the model of Jerome's participant-observer status or on a
   lighter, more external footing. A Doc_02 gravity pass, not this dossier,
   is positioned to weigh it.
+- **The verified Sozomen cross-link (§2) is named, not added** — whether
+  III.14 and V.15 should be assigned `context` or `tradition`, and whether
+  to also touch `desert-monasticism`'s own existing Sozomen row (which
+  currently claims III.14 as Egyptian-only content, not naming its Hilarion/
+  Gaza material at all), is for whoever next edits either world's corpus-map,
+  not decided here.
+- **A fleet-level defect, not this candidate's to fix:** `desert-monasticism.yaml`'s
+  own live note cites Sozomen "VI.28–34" for Egyptian/Nitrian monastic
+  material; Book VI of the vendored edition has only 24 chapters (i–xxiv),
+  so that locus does not exist. Flagged per `CLAUDE.md`'s "track gaps
+  explicitly" rule for whoever owns `desert-monasticism`'s own corpus-map
+  entry to check.
 - **The duplicate census entry noted in `NEEDS-RULING.md`**
   (`cyrilline-miaphysite-egyptian-tradition` vs.
   `cyrilline-miaphysite-egyptian-christianity`) does not touch this
