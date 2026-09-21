@@ -449,3 +449,38 @@ Still not in this or any prior Stage 4a PR, and not yet started: the new
 `prefer_instead` (demoting a candidate, never excluding it, inside the
 existing `budget_chars` budget). Those are the stage's remaining open
 work.
+
+**Entry 25 — 2026-09-21.** Stage 4a's `retrieval-negatives-structured`
+gate merged (PR #366, commit `6251ae43`): `engine/m1/gates.py`'s new
+`gate_retrieval_negatives_structured`, registered in `GATES`, enforcing
+three structural invariants schema-validation alone can't (
+`do_not_retrieve_when` stays in the schema only for additive-only
+compatibility, so a populated one passes schema checks cleanly) -
+(1) `retrieval.do_not_retrieve_when` must stay empty/absent, a populated
+one being a regression to the pre-R11-split shape; (2) every
+`claim_guards` entry must read as a genuine barred-claim guard (matches
+`GUARD_MARKERS`); (3) no `prefer_instead` entry may read as a guard
+clause, the mirror check. `GUARD_MARKERS` and a new `is_guard_marker_line`
+moved to `engine/prose.py` as the single shared source of truth in the
+same PR - previously duplicated in `grounding_fooling_measure.py` and
+`tools/split_retrieval_guards.py`, both switched to import from there.
+One seeded defect (`fixtures/seeded_defects.yaml`), following this file's
+own one-defect-per-gate convention; confirmed caught, silent on the clean
+fixture, and not inert.
+
+The new gate found **zero findings across the real 11-world fleet** -
+independent confirmation that PRs #360/#361's migration is genuinely
+clean by this gate's own three checks, not just by inspection. Adding a
+gate changes every world's own `validation/gates-report.json` content, so
+all 11 fleet worlds + `fix` needed a repin even though no record content
+changed; orphaned prior manifests removed. `retrieval_bench.py`
+byte-identical to baseline; `staleness-check` and `engine.m9.cli check`
+both clean; full suite 517/517. CI green (19/19 checks, 2 correctly
+skipped by path filter); confirmed zero file overlap with concurrent
+parallel-session work merged to `main` in between branch creation and
+merge.
+
+Still not started: the `evidence.py` riders that let
+`render_evidence_block` actually read `prefer_instead` (demoting a
+candidate, never excluding it, inside the existing `budget_chars`
+budget) - Stage 4a's one remaining item.
