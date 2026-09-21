@@ -100,7 +100,15 @@ Fixed by hand. (c) Full regeneration.
 this project has run has actually gone. Blocked on R6.
 
 ### R8 — CLAUDE.md names a confidence level ("Not Attested") the code doesn't have
-**Status:** PENDING
+**Status:** RULED 2026-09-21 — amend the rules to the code's five, and say
+what "Not Attested" really is. `CLAUDE.md`'s stated confidence vocabulary
+becomes the five the schema enforces (Documented / Widely Accepted /
+Dominant Modern Reconstruction / Contested / Inferential-Thin), adding
+Documented. One sentence records that "Not Attested" is the disposition
+of a claim the sources do not make — already modeled as honest-limit and
+absent-detail records — not a confidence rating on a claim that exists.
+No schema change, no migration. The `CLAUDE.md` edit is a governance
+change authorized by this ruling. See Decision-Log.md.
 (a) Add a sixth confidence enum value to match. (b) Amend CLAUDE.md down
 to the code's real five. (c) Amend CLAUDE.md to say what's actually true:
 "Not Attested" describes an absent claim (already modeled elsewhere as an
@@ -110,7 +118,16 @@ that exists.
 different kind of thing, and (a)/(b) both paper over that.
 
 ### R9 — A distinct mark for contested or thin-evidence claims
-**Status:** PENDING — sequencing gate, not a real decision yet
+**Status:** RULED 2026-09-21 — a quiet variant of the existing mark, for
+both Contested and Inferential-Thin. Same mark family, one subtle cue
+(hollow/open form or light dashed underline — the renderer thread
+proposes the exact form for Mark's pick), on any sentence citing a
+record whose `formation_confidence` is Contested or Inferential-Thin.
+Tap reveals the world's emic hedge and the plain confidence phrase at
+Level 2. No new color, no new verb, no inline label. Counts inside the
+R17 cap as a mark, not a new kind. Source of truth is the record's
+confidence tag, never the runtime grounding check (Stage 1 measured
+contested claims spoken as settled at 100% fooled). See Decision-Log.md.
 Comes back for a real ruling only after the Stage 1 measurement is in
 front of Mark and R16/R17 are settled — the display design itself is
 already agreed, this is purely a sequencing gate.
@@ -118,7 +135,13 @@ already agreed, this is purely a sequencing gate.
 variant of the existing mark — not a new color, not a new verb.
 
 ### R10 — Where a story's citation mark lands: first sentence or end of the telling
-**Status:** PENDING
+**Status:** RULED (c) 2026-09-21 — first sentence for a witness quote, end
+of the run for a story; a repeated re-citation gets the lighter "ibid"
+glyph. The anchor renderer (Stage 3c, behind
+`VITE_TRANSPARENCY_ANCHOR_RENDERER`) may switch on once its label copy
+is worded by Mark — the build thread proposes the copy in its PR;
+nothing participant-facing merges until Mark words it. See
+Decision-Log.md.
 (a) End of the telling, as built today. (b) First sentence, uniformly.
 (c) First sentence for a witness quote, end-of-run for a story. A
 repeated re-citation gets the lighter "ibid" glyph under any of the
@@ -175,7 +198,15 @@ mechanism reports only, exactly as it does today. Not revisited later.
 by disclosure type.
 
 ### R16 — Every record fleet-wide is still marked "draft" — what does that mean for confidence display?
-**Status:** PENDING
+**Status:** RULED 2026-09-21 — promote by admission now, and split the
+fields. `ready` is defined mechanically: a record is `ready` when it sits
+in an admitted world's currently pinned package and passes every m1
+gate; `frozen` remains Mark's alone. A Haiku pass applies this across all
+eleven admitted worlds. Confidence display reads only
+`formation_confidence`, never `status`. Rationale: admission is already
+a stronger gate than any per-record review; this restores the label's
+integrity in a day and unblocks Stage 6 fleet-wide at once. See
+Decision-Log.md.
 (a) Define what "ready" actually means and run a per-world promotion pass
 keyed to review rounds already on record. (b) Rule that `status` is pure
 workflow bookkeeping and confidence display should draw only from the
@@ -186,7 +217,17 @@ its next real touch.
 once that world has actually been through its promotion pass.
 
 ### R17 — A hard budget on how many new transparency elements can stack on one screen
-**Status:** PENDING
+**Status:** RULED 2026-09-21 — the cap is a house rule, enforced by test.
+Inline marks per turn: one per two sentences, floor 3, ceiling 8 (set at
+the busiest tenth of 195 logged turns; median turn untouched). Over the
+cap, marks drop in a fixed order — glosses, then figures, then stories,
+never witness quotes — and every dropped mark still appears in the
+single collapsed references line. One references line, not a scattered
+list. At most one Facilitator interjection per turn. No new mark kinds
+beyond the quiet contested variant (R9). The unverified-claims count
+never renders. Enforced by an M7 instrument counting Level-1 elements
+per turn and a renderer fixture test asserting the cap. Mark's own
+seeker read-through precedes Stage 6 shipping. See Decision-Log.md.
 Proposal on the table: at most a small, capped number of inline marks per
 turn (scaling gently with sentence count), one collapsed references line
 instead of a scattered list, no new mark types beyond the one
@@ -197,7 +238,20 @@ test so no future change can silently stack past it — plus Mark's own
 read-through as a seeker with no background before Stage 6 ever ships.
 
 ### R18 — The onboarding text overclaims what the honesty check actually does
-**Status:** PENDING
+**Status:** RULED (a) 2026-09-21 — reword now to what the check does;
+Mark worded the text himself. `SYSTEM_NATURE`
+(`engine/m4/facilitator_turns.py`), middle sentence, becomes: "Before you
+see an answer, each claim in it is checked to make sure its words come
+from the record it names. The record itself was checked against the
+sources when the world was built. Where the record is silent, the voice
+is built to say so, not to fill the gap." The rest of the turn is
+unchanged. `cic-website/about.html` "How It Works" sentence becomes: "We
+check every quotation and claim in that record directly against those
+sources, and label each for how well it's attested." Any other surface
+making the runtime-truth claim (check `support.html` around line 125)
+gets the same tightening; none gets a limitation disclaimer. Wording
+ruled; the code/copy edit itself is separate follow-on work. See
+Decision-Log.md.
 Today's line tells a participant every claim is "checked against the
 record it came from" — true only in the sense of word-overlap, not
 truth-verification. (a) Reword now to describe what the mechanism

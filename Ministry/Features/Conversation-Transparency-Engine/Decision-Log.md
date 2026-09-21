@@ -594,3 +594,31 @@ family... Feeds R14") is fully built. R14 itself (Rulings-Pending.md) was
 already ruled CLOSED (Decision-Log.md Entry 3): an output-side check may
 never remove a sentence, only report - which this family, like every
 other in `output_check.py`, already does by construction.
+
+**Entry 28 — 2026-09-21.** Six rulings taken by Mark in the reviewer
+thread ("CiC — Tech Review & Funding Readiness Prep"), one at a time
+with options and a recommendation per CLAUDE.md, after the Stage 1
+measurement was put in front of him: R16 (promote by admission, split
+status from confidence), R17 (element cap as a house rule, 1 per 2
+sentences, floor 3, ceiling 8, fixed drop order, one references line,
+enforced by test), R9 (quiet variant of the existing mark for Contested
+and Inferential-Thin, from the record tag), R8 (rules amended to the
+code's five; "Not Attested" defined as the disposition of an absent
+claim), R10 (first sentence for a witness quote, end of run for a story,
+ibid glyph on repeats), R18 (SYSTEM_NATURE and the about page reworded to
+what the check does; text worded by Mark). Status lines updated in
+`Rulings-Pending.md`. Stage 6 is fully unblocked (Stage 1 +
+R8/R9/R16/R17). The anchor renderer switch-on is unblocked on R10
+pending label copy. Stage 7 (streaming) is unblocked on R10 with R14
+closed as report-only. R18 is ruled and worded. Evidence used: 2,194
+draft / 0 ready records outside the fixture; 195 logged turns, median 3
+marks / 11 sentences, p90 10 marks; 251 Contested and 48
+Inferential-Thin records fleet-wide; `grounding-fooling-2026-09-21.json`
+corpus B `contested_claim` 68/68 fooled.
+
+**Numbering note:** this ruling package's own draft text labeled itself
+"Entry 25," written before Entries 25-27 (the `retrieval-negatives-
+structured` gate, the `evidence.py` riders, and Stage 4b) existed in this
+log. Per this file's own append-only rule, no past entry is renumbered;
+this ruling lands as Entry 28, the next free number, rather than
+overwriting Entry 25's existing content.
