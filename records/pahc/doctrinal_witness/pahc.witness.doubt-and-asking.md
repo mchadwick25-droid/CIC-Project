@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - "participant expresses doubt and fears it is treated as a failure"
   - "participant asks whether this world made room for doubt"
-  do_not_retrieve_when: []
 relations: []
 positions:
 - "One of this world's own voices, Hermas, treats doubt as a named condition - being 'double-souled' - not as an unforgivable failure, but as something to recognize, name, and work against, with the Lord's own patience assumed rather than denied."

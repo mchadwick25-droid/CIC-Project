@@ -7,9 +7,9 @@
 
 **Documents reviewed, at commit `c8ea0a4f` (prior state `0166fd55`), branch `lpc-doc04-round2`, working tree clean:**
 
-- `worlds/lpc/Doc_04_Gravity_Discovery.md` (241 lines)
-- `worlds/lpc/lpc_Decision_Log.md` (all four 2026-09-14 entries, and the two in-place correction notices added this pass)
-- `worlds/lpc/Review-Artifacts/Doc04_Gesta_Targeted_Read_2026-09-14.md` (withdrawal notice only)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_04_Gravity_Discovery.md` (241 lines)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md` (all four 2026-09-14 entries, and the two in-place correction notices added this pass)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Doc04_Gesta_Targeted_Read_2026-09-14.md` (withdrawal notice only)
 
 **Read for context and used as the test standard, not reviewed:** `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx`, Part III in full, re-extracted independently from `word/document.xml`; `L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md` (governing constraint, §3, §4, §7); `Source_Registry.md` row 65; `Doc04_Round5_Review.md`, `Doc04_Round6_Review.md`, `Doc04_Round7_Review.md`; `Doc_01`, `Doc_02`, `Doc_03`, `Step0` (swept for cross-document propagation); the Doc_04 blobs at `27ed339a`, `3a107ff5`, `0166fd55`.
 

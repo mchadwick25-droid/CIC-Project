@@ -36,7 +36,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks whether someone divorced could belong among this world's people, or marry again"
-  do_not_retrieve_when: []
 text: >-
   Yes - though we will be honest that our own practice here was a
   concession, not an endorsement. A second marriage, after a first one had

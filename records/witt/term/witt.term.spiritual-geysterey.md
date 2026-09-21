@@ -39,7 +39,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - '''spiritual'' or ''spirituality'' as a claimed monastic status'
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the spiritual estate as a structural pairing (retrieve spiritual estate/temporal
     estate)
 relations:

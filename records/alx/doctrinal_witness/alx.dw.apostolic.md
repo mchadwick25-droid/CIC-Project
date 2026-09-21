@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   How do you know your practices went back to the apostles, and were not later
   inventions? Our honest answer: we received them, and we kept the

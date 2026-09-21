@@ -36,7 +36,7 @@ retrieval:
   retrieve_when:
   - obedience
   - when we may or must disobey
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the sword's own institutional power (retrieve the sword)
 relations:
 - type: associated-with

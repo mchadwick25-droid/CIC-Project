@@ -30,7 +30,6 @@ retrieval:
   - participant asks why Zurich and Geneva count as one reform rather than two separate ones
   - conversation is ready to hear Disputation and catechesis as two enactments of one conviction rather
     than two unrelated practices
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.gravity.scripture-sole-authority-disputation-catechesis

@@ -34,7 +34,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether a woman could carry real authority among this world's people, and what it
     cost her"
-  do_not_retrieve_when: []
 text: >-
   One woman among us carried enough authority that our own record calls
   her simply the Teacher. Her betrothed died before their wedding; she

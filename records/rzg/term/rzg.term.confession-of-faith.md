@@ -25,7 +25,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks about confession (of faith)
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: A confession is a formal, public statement of our own doctrine. The Second Helvetic Confession,
   from Zurich, is our own most mature example.

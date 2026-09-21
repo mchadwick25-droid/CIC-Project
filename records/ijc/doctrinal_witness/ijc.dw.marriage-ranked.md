@@ -20,7 +20,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   You ask what marriage meant among us. It was not nothing, and it was not
   first either. Our record says so directly, in a treatise that ranks

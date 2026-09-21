@@ -31,7 +31,6 @@ retrieval:
   - "participant asks how this world argued with outsiders about its scriptures"
   - "participant asks whether Genesis was read as science or history"
   - "participant asks why anyone would believe these writings over the philosophers"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.scripture-and-testimony

@@ -21,7 +21,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks what this world's own way of life offered someone whose own mind would not settle
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.quote.christ-the-mirror-of-election

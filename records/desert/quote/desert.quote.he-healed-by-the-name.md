@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant asks how the healings in these stories were understood"
   - "participant asks whether the name of Jesus was used, and how"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.jesus

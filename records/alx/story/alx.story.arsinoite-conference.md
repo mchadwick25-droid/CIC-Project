@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - disagreement inside the church and how it was handled
   - end-times/millennium questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.contested.allegory-from-within

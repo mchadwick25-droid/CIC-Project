@@ -38,7 +38,6 @@ retrieval:
   - "participant asks what this world expected about the end of the world"
   - "participant asks whether anything here resembles the rapture"
   - "participant asks what Christ's death did to death"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.born-again-endtimes

@@ -47,7 +47,6 @@ retrieval:
   - "participant asks whether this world believed Jesus was God, or believed in the Trinity"
   - "participant asks whether this world believed Jesus died to take their punishment in their place"
   - "participant asks whether this world called Jesus their personal Lord and Savior"
-  do_not_retrieve_when: []
 text: >-
   Was Jesus God? We would find the question strange only in being asked as
   open. We were born after the great council had already spoken, and we

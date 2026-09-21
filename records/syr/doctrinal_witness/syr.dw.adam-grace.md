@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Are people born already guilty? We said that from Adam's
   transgression, death has ruled over everyone - even over those who had not

@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   To someone who wants to believe and cannot, we offer what we
   actually had: people whose belief was divided, wounded, or publicly ruined -

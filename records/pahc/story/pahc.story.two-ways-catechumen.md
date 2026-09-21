@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks how someone joined this world's community"
   - "participant asks about the Two Ways ethical schema specifically"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs this presented as a network-wide, universal initiation pattern"
 relations:
 - type: associated-with

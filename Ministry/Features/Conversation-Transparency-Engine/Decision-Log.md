@@ -331,3 +331,121 @@ actual `--all` run. Per the stage's own instruction ("Escalate if pinned
 id ≠ last tally's id"), this still needs to be run and logged before the
 pin should be treated as trustworthy. Logged here retroactively, same as
 Entry 14.
+
+**Entry 19 — 2026-09-21.** Stage 2c merged (PR #349, commit `c19283d28`):
+new `engine.m1.cross_world.observe_register_profile` — per world, per
+voice-diet spoken field, median words/longest sentence/fragment
+ratio/dash density, reusing `engine.m7.instruments`'s own cadence math
+(`_strip_quoted`, spaced-dash density, the ≤5-word fragment share) at the
+compiled record layer instead of a live conversation turn. OBSERVATION
+only. `alx`/`hal` print first as the exemplar context. Verified against
+Build-Plan.md's own cited numbers: hal 21 / cappadocian 25 / don 34
+matched exactly; gallic 42 against the plan's cited 43, a one-word gap
+consistent with real data drift since the plan was written. Ceiling
+proposal filed under R6, scoped to the two label-shaped fields
+(`story.tellable_as`, `term.quick_meaning`) with concrete per-world
+exceedance counts — gallic worst on all four numbers. Gate promotion
+stays blocked on R6. Full suite (`test_cross_world.py` 11/11, `engine/m7`
+63/63), `cross_world`/`staleness-check` clean, CI green.
+
+**Entry 20 — 2026-09-21.** Stage 2d merged (PR #350, commit `b4d05b0a7`):
+new `engine/m9/holdings.py` + `holdings` CLI subcommand — one row per
+vendored file per world (`in_scope`, `named_in_records`, `drawn_on`,
+`disposition` from a closed six-value vocabulary), mechanically derived
+from `engine.m1.cross_world`'s own `corpus_tier` rather than duplicating
+its judgment. `drawn_on` reuses `cic/engine/texts_registry.py`'s own
+full-text-scan technique, scoped to one world. Verified against the
+stage's own literal Done bar: gallic shows exactly 19 files disposition
+`"not yet assessed"`, matching Build-Plan.md's own cited number exactly.
+**Known gap, named not hidden:** the COVERAGE/REGIONS/AUTHORS relocation
+into `cic/corpus-map/` and `observe_second_hand_sources` reading
+`AUTHORS.md`/`AUTHOR-IDS.yaml` directly (also part of this stage's own
+spec) was deliberately not attempted in this pass — that data is
+load-bearing for `worlds/_cross-world/gen_corpus_table.py` and several
+worlds' own Review-Artifacts, and deserves its own careful pass rather
+than a rushed tail-end rewrite. `engine/m9/tests` 60/60 (5 new), `m9 cli
+check` clean, manually confirmed on all 11 built worlds, CI green.
+
+**Entry 21 — 2026-09-21.** R11 ruled: **(a) split it** — a redirect half
+and a separate honesty-guard half, per Rulings-Pending.md's own
+recommendation. Mark's direct ruling, given the Stage 1 D1 measurement
+already in front of him (13 of 714 `do_not_retrieve_when` lines are
+genuine guard clauses; those 13, fabricated, were caught only 2/13 times
+by the grounding checker). Unblocks Stage 4a ("the split") and, after it,
+4b (`guard_proximity`). Rulings-Pending.md's own R11 entry updated in the
+same edit.
+
+**Entry 22 — 2026-09-21.** Stage 4a (part 1) merged (PR #359, commit
+`cdaf9f3b`): additive schema for R11's split. `engine/m1/schemas.py` gets
+`retrieval.prefer_instead` (the redirect half, inside `_RETRIEVAL_SCHEMA`)
+and envelope-level `claim_guards` (the honesty-guard half, on
+`ENVELOPE_PROPERTIES` like `retrieval` itself); `engine/prose.py` gets
+`claim_guards` added to both `NON_PROSE_KEYS` and `FALLBACK_EXCLUDED_KEYS`
+**before** a single `claim_guards` value exists anywhere, per the stage's
+own ordering, with a test pinning both exclusions. `engine/m1/tests` +
+`engine/tests` + `engine/m4/tests` 415/415; `staleness-check` clean (purely
+additive, no compiled-byte impact); CI green.
+
+**Correction, logged rather than hidden:** this PR's own commit message
+and PR title described the `NON_PROSE_KEYS`/`FALLBACK_EXCLUDED_KEYS`
+exclusion mechanism as a "safety net." Mark's direct correction, given
+after this PR had already merged: that phrase names the Facilitator-only
+crisis/distress mechanism specifically, and must never describe anything
+on the Representative side — this exclusion list is a citation/
+fabrication-prevention mechanism, a different thing entirely, never the
+Facilitator's job and never described in its vocabulary. The PR is already
+merged into `main`; its title and commit message are not rewritten (shared
+history, per this project's own discipline against rewriting a published
+branch), but every PR, commit, and record from here on says "exclusion
+list," never "safety net," for this mechanism.
+
+**Entry 23 — 2026-09-21.** Stage 4a (part 2, gallic pilot) merged (PR #360,
+commit `8d6d0fc6`): `tools/split_retrieval_guards.py` — splits every
+record's `retrieval.do_not_retrieve_when` into `retrieval.prefer_instead`
+or envelope-level `claim_guards`, via a raw-text line splice (pattern:
+`tools/set_source_kind.py` — never a YAML dumper round-trip, so every
+retained line keeps its own original quoting/wrapping). Classification
+reuses `engine.m4.reports.grounding_fooling_measure`'s own `GUARD_MARKERS`
+keyword set rather than building a fresh Haiku classifier. Build-Plan.md's
+own literal Stage 4a text names "Haiku migration tool"; this is a
+considered substitution, not a silent deviation — `GUARD_MARKERS` is the
+exact classifier Stage 1's own D1 measurement (13 of 714 lines) was run
+against, so reusing it keeps the split accountable to the same number R11
+was actually ruled on, rather than risking a second, independent
+classifier disagreeing with it.
+
+Piloted on gallic first, per the stage's own "gallic first" ordering: 105
+records touched, 0 skipped, and exactly the 5 known guard records
+(Rulings-Pending.md's own R11 entry) land in `claim_guards` — everything
+else becomes `prefer_instead` in place. `python -m engine.m2.cli build
+gallic` + repin (`records/worlds/gallic.yaml`); `retrieval_bench.py`
+byte-identical to the pre-migration baseline (TOTAL 118 qs / 1152 ground /
+9.8 avg / 0 empty); `staleness-check` and `engine.m9.cli check` both
+clean; full suite 516/516. CI green (19/19 checks, 2 correctly skipped by
+path filter).
+
+**Entry 24 — 2026-09-21.** Stage 4a (part 3, remaining fleet) merged (PR
+#361, commit `5d866a3f`): the same tool run for real against the other 10
+built worlds (alx, cappadocian, desert, don, hal, ijc, pahc, rzg, syr,
+witt) — 829 records touched fleet-wide, 0 skipped. Mid-run, discovered the
+tool's first version (validated only against gallic's own real shape)
+would have silently skipped the fleet's actual dominant shape:
+`do_not_retrieve_when: []`, an inline empty flow list (525 records
+fleet-wide) that gallic itself happens not to use at all. Fixed
+`split_frontmatter` to recognize and drop this shape (nothing to redirect
+or guard either way) before trusting any world beyond gallic; covered by a
+new test before the fix was trusted. All 11 built worlds now carry zero
+`do_not_retrieve_when` records — Stage 4a's own Done bar ("all worlds
+migrated") is met. `records/worlds/<world>.yaml` repinned for all 10 (each
+world's package rebuilt fresh, orphaned prior manifests removed).
+`retrieval_bench.py` byte-identical to the pre-migration baseline across
+the whole fleet (TOTAL 118 qs / 1152 ground / 9.8 avg / 0 empty);
+`staleness-check` and `engine.m9.cli check` both clean; full suite
+517/517. CI green (19/19 checks, 2 correctly skipped by path filter).
+
+Still not in this or any prior Stage 4a PR, and not yet started: the new
+`retrieval-negatives-structured` gate with its seeded defect, and the
+`evidence.py` riders that let `render_evidence_block` actually read
+`prefer_instead` (demoting a candidate, never excluding it, inside the
+existing `budget_chars` budget). Those are the stage's remaining open
+work.

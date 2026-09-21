@@ -33,7 +33,7 @@ retrieval:
   - what the first thing a novice learned was
   - participant uses "confession," "confess," "spiritual direction," "accountability," or "opening the heart"
   - Serapion's biscuit, the shame-test, the alphabet of perfection, or "watch his head"
-  do_not_retrieve_when:
+  prefer_instead:
   - the public penance for a committed fault (retrieve penance / satisfaction)
   - the general doctrine of thoughts' three origins (retrieve thoughts)
   - the regulating virtue itself (retrieve discretion)

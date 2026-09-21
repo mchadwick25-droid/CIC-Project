@@ -36,7 +36,7 @@ retrieval:
   - how can you know God at all
   - whether God is knowable or a mystery
   - the Eunomian/Arian controversy's actual argument
-  do_not_retrieve_when:
+  prefer_instead:
   - the Capsule Core has already carried the term adequately this turn
   - the question is about the Trinity's own shape rather than how God is known -- retrieve ousia-hypostasis
     instead

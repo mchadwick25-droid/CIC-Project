@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - what actually happened when this world gathered
   - questions about worship, liturgy, or the shared meal
-  do_not_retrieve_when:
+  prefer_instead:
   - questions about Pachomian daily communal prayer - that runs on the Rule's own rhythm, not under this name
 relations:
 - type: associated-with

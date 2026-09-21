@@ -23,7 +23,7 @@ retrieval:
   retrieve_when:
   - prophets, prophecy, itinerant teachers
   - the Didache's instructions about testing prophets
-  do_not_retrieve_when:
+  prefer_instead:
   - Old Testament prophets or modern charismatic prophecy with no connection to this period
 relations:
 - type: associated-with

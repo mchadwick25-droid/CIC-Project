@@ -22,7 +22,6 @@ retrieval:
   - "participant asks how someone actually became part of this life, step by step"
   - "participant asks whether belonging here cost something - family, community, standing"
   - "participant asks why someone who sought solitude kept moving further away from people"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - the dispute over grace and human capacity
   - the violence at the monastery gates
-  do_not_retrieve_when: []
 plain_meaning: The fight over grace, free will, and whether people can live without sin. For
   us it ended in a mob attack on our own monastery.
 world_word: the Pelagian controversy

@@ -26,7 +26,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - how this world told its own founding; King Abgar, Addai, the apostolic claim
-  do_not_retrieve_when:
+  prefer_instead:
   - a participant asking whether it happened as history - the honest answer (legend, c. 200 attested start)
     leads, with syr.contested.edessa-origins
   - any request to include the image-not-made-by-hands (post-window tradition)

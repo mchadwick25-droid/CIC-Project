@@ -45,7 +45,7 @@ retrieval:
   retrieve_when:
   - church, congregation, fellowship, or Gemeinde
   - what makes us the Church, and where it is found
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means Christendom's wider, inclusive extent specifically (retrieve Christendom)
 relations:
 - type: associated-with

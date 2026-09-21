@@ -22,7 +22,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - martyrs, or the two youths burnt at Brussels
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants a broader account of persecution among us -- our library holds only this one
     ballad
 relations:

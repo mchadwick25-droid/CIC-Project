@@ -30,7 +30,7 @@ retrieval:
   retrieve_when:
   - a participant asks who the two Brussels martyrs were
   - a participant asks whether this world can name anyone who died for its teaching
-  do_not_retrieve_when:
+  prefer_instead:
   - drawing any individual distinction between John and Henry - the vendored text gives them no individually
     distinguishing detail beyond their two names and their shared fate
   - narrating either man's age, family, or personal history - none is attested

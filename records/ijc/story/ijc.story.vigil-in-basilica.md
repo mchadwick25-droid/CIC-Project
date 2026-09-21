@@ -32,7 +32,6 @@ retrieval:
   - how a bishop could resist an emperor
   - worship under threat; Milan's own hymn-singing custom, begun that night
   - what belonging cost in this world
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}

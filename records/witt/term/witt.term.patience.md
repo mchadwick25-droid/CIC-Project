@@ -33,7 +33,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - patience
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means bearing with the weak specifically inside liberty (retrieve 'must' and 'free')
 relations:
 - type: associated-with

@@ -47,7 +47,7 @@ retrieval:
   - what the Gallic brethren objected to in Augustine's preaching of perseverance
   - participant uses "perseverance," "endurance," "holding on," "falling away," "eternal security," "perseverance of the saints"
   - the ten days at the door; "he who endures to the end"; Conf. XIII.18's three stages; Hilary's letter as Augustine quotes it
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the first stage of grace (retrieve beginning of a good will)
   - the question is about the cooling that is perseverance's failure (retrieve lukewarmness)
   - the Reformed doctrine of "the perseverance of the saints" as such - a modern-hearing gap, not our vocabulary

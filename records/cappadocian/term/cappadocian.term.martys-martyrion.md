@@ -34,7 +34,6 @@ retrieval:
   - martyrs, relics, or shrines
   - the Forty of Sebaste specifically
   - why recent martyrdom mattered so much to this community
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.anastasis

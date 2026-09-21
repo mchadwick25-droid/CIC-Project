@@ -40,7 +40,7 @@ retrieval:
   retrieve_when:
   - baptism, or 'die Taufe'
   - what baptism means for daily life, not only at the font
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the sacrament's general definition (retrieve sacrament)
 relations:
 - type: associated-with

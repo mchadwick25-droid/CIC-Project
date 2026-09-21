@@ -34,7 +34,7 @@ retrieval:
     church was
   - conversation reaches the Principled-Refusal-vs-Pragmatic-Recourse tension and needs the founding quotation
     it is built on
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking about the Council of Cirta as an example of this movement's own rigor or resolve
     -- Cirta is a real complication in this movement's own early history, not a confirming example, and
     this quote should not be offered as if it resolved that different, harder question

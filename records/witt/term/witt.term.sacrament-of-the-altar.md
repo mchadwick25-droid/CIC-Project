@@ -44,7 +44,7 @@ retrieval:
   - the Sacrament of the Altar, the Lord's Supper, or 'the bread'
   - '''in and under'''
   - who may or may not come to the table
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants our own account of the Marburg Colloquy or the Reformed controversy -- our library
     does not narrate it
 relations:

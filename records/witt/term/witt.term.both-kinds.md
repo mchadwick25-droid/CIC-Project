@@ -31,7 +31,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - both kinds, or the cup for the laity
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Supper's whole doctrine broadly (retrieve Sacrament of the Altar)
 relations:
 - type: associated-with

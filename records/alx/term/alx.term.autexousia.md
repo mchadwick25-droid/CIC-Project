@@ -27,7 +27,7 @@ retrieval:
   - 'freedom or free will, in relation to formation, grace, or Christian life'
   - whether formation is something done to a person or something they choose
   - anxiety that if God is doing the forming, human freedom isn't real
-  do_not_retrieve_when:
+  prefer_instead:
   - means freedom in a political or civic sense
   - means freedom from sin rather than freedom as the condition of formation
 relations:

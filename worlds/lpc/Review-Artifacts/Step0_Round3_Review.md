@@ -1,7 +1,7 @@
 # Step 0 — Movement-Scope Confirmation: Latin Pastoral-Congregational Christianity
 ## Round 3 Independent Adversarial Review
 
-**Document reviewed:** `worlds/lpc/Step0_Movement_Scope_Confirmation.md` (second revision, commit `94a28404`, dated 2026-09-01)
+**Document reviewed:** `World-Builds/Latin-Pastoral-Congregational-Christianity/Step0_Movement_Scope_Confirmation.md` (second revision, commit `94a28404`, dated 2026-09-01)
 **Review date:** 2026-09-01
 **Reviewer:** independent adversarial review thread; did not draft the document under review and did not write the Round 1 or Round 2 reviews
 **Governed by:** `cic-build-cycle` (CO-022) *Review* section, and this project's standing rule that a revision's own claim to have fixed something is not evidence of a fix. Every Round 2 finding was re-checked directly against the actual source file — the Constitution extract, the Methodology extract, the Step 0 Conclusion extract, CF V7.4, the three corpus-map files, IJC's and Hieronymian's built documents and record sets, the Donatism sibling-branch draft read via `git show`, and the `cic-build-cycle` SKILL text — not against Round 1's or Round 2's account of any of them. The Round 1 and Round 2 review files were re-read in full before §6's revision history was assessed.
@@ -88,7 +88,7 @@ Two problems with the fix itself: the rule is misquoted (NEW-2), and the sentenc
 
 ### N6 (Low) — branch-state rationale in §2 A5 — **FIX VERIFIED GENUINE**
 
-The branch-unmergedness rationale is gone. §2 A5 now reads: *"What actually limits full cross-checking is not branch-unmergedness — the sibling branch is fully readable via `git show`, and was read that way for this document (§0) — but that Donatism currently has only its own Step 0 confirmation to check against, not yet a Doc_01 or Doc_02."* I re-ran `git show origin/claude/record-native-world-build-v2-e2s0dt:worlds/don/Step0_Movement_Scope_Confirmation.md` myself (132 lines, byte-identical to the copy already extracted for this session). Its §3 B3, line 94, reads *"Not built yet, so no live cross-document check was possible"* — the document now quotes that exactly and attributes the reason correctly to the other document. Fixed.
+The branch-unmergedness rationale is gone. §2 A5 now reads: *"What actually limits full cross-checking is not branch-unmergedness — the sibling branch is fully readable via `git show`, and was read that way for this document (§0) — but that Donatism currently has only its own Step 0 confirmation to check against, not yet a Doc_01 or Doc_02."* I re-ran `git show origin/claude/record-native-world-build-v2-e2s0dt:World-Builds/Donatism/Step0_Movement_Scope_Confirmation.md` myself (132 lines, byte-identical to the copy already extracted for this session). Its §3 B3, line 94, reads *"Not built yet, so no live cross-document check was possible"* — the document now quotes that exactly and attributes the reason correctly to the other document. Fixed.
 
 I also re-diffed the long Donatism A5 quotation in §2 A5 against the branch file: **exact**, with three ellipses eliding only the Caecilian/Optatus apposition, the "(a persecuted 'Church of the Martyrs'...)" parenthetical plus "not merely cite Optatus and Augustine as neutral sources", and "(Homoian Christianity as World #6's internal opponent)". None changes the meaning.
 

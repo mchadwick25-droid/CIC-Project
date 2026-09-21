@@ -106,8 +106,6 @@ p{margin:0 0 1rem}
 .btn:hover,.btn:focus-visible{background:var(--madder-deep);color:var(--btn-text)}
 .btn.quiet{background:transparent;color:var(--action);border-color:var(--action)}
 .btn.quiet:hover,.btn.quiet:focus-visible{background:transparent;color:var(--action-hover);border-color:var(--action-hover)}
-.seat .also{color:var(--muted)}
-.seat .also a{display:inline-flex;align-items:center;min-height:44px}
 .article{padding:1.6rem 0 .5rem}
 .article>section{padding:1.4rem 0 1.2rem;border-top:1px solid var(--rule)}
 .article>section:first-child{border-top:none;padding-top:.6rem}
@@ -133,8 +131,37 @@ p{margin:0 0 1rem}
 .site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
 .site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
 @media print{ .site-header,.seat,.door .actions,.skip-link{display:none} }
+/* BEGIN orientation-content-css */
+.orient-voices{display:flex;flex-direction:column;gap:1.1rem}
+.orient-voice{max-width:var(--measure)}
+.orient-voice-name{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--text);margin:0 0 .3rem}
+.orient-voice-dates{font-weight:400;color:var(--muted)}
+.orient-voice-text{font-size:1.0625rem;line-height:1.6}
+.docstories-row{display:flex;flex-direction:column;gap:1.3rem;max-width:var(--measure)}
+.docstory-entry h4{font-family:var(--serif);font-size:1.1rem;margin:0 0 .25rem}
+.docstory-entry>.meta{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:0 0 .3rem}
+.docstory-entry>.teaser{font-style:italic;color:var(--muted);margin:0 0 .5rem}
+details.docstory-item{border:1px solid var(--rule);border-radius:4px;background:var(--surface);padding:.15rem .9rem}
+details.docstory-item summary{cursor:pointer;list-style:none;font-family:var(--sans);font-weight:600;font-size:.875rem;padding:.6rem 0;color:var(--action)}
+details.docstory-item summary::-webkit-details-marker{display:none}
+details.docstory-item summary::before{content:"\25B8";display:inline-block;margin-right:.5rem;transition:transform .15s}
+details.docstory-item[open] summary::before{transform:rotate(90deg)}
+.docstory{padding:0 0 .9rem}
+.orient-relations{max-width:var(--measure)}
+.orient-read-first{list-style:none;margin:.9rem 0 0;padding:0;max-width:var(--measure)}
+.orient-read-first li{border-top:1px solid var(--rule);padding:.6rem 0}
+.orient-read-first-work{font-family:var(--sans);font-weight:600;display:block}
+.orient-read-first-note{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.orient-glossary{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.8rem 1.5rem;max-width:var(--wide);margin:0}
+.orient-glossary-item dt{font-family:var(--sans);font-weight:700;color:var(--action);margin:0}
+.orient-glossary-item dd{font-size:.9375rem;color:var(--muted);margin:.15rem 0 0}
+.orient-pull-quotes{display:flex;flex-direction:column;gap:1rem;max-width:var(--measure)}
+.orient-pull-quote{margin:0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--action)}
+.orient-pull-quote p{font-style:italic;font-size:1.1rem;margin:0 0 .3rem}
+.orient-pull-quote cite{font-family:var(--sans);font-style:normal;font-size:.85rem;color:var(--muted)}
+/* END orientation-content-css */
 
-/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table */
+/* Persistent feature header: Church Family Tree / Conversation with One */
 .feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
 .feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--vellum);background:var(--madder);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--madder);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
 .feature-btn:hover,.feature-btn:focus-visible{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}
@@ -151,7 +178,6 @@ p{margin:0 0 1rem}
     <nav class="feature-bar" aria-label="Main features">
       <a class="feature-btn" href="../atlas-v3.html">Church Family Tree</a>
       <a class="feature-btn" href="../index.html#who">Conversation with One</a>
-      <a class="feature-btn" href="../table.html">Build a Table</a>
     </nav>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
@@ -182,7 +208,7 @@ p{margin:0 0 1rem}
         <h1>The Scattered Households</h1>
         <p class="formal">Post-Apostolic Household-Church Christianity</p>
         <p class="status">Open for conversation — you can sit down with this tradition now.</p>
-        <p class="tile">An uncommon faith in scattered households lived as one body, connected by letters and a shared table. Once the apostles were gone, some were led by a single bishop and elders, others by a council of elders. Following Jesus meant loss of status, suspicion from neighbors, and even outright persecution at times.</p>
+        <p class="tile">In Antioch, Asia Minor, and Rome, between about 70 and 200 CE, house churches grew up on their own. No single power ruled over them — letters carried by couriers held the network together instead. Once the apostles died, how to lead a church was never settled. Some followed a single bishop with elders beside him, others a council of elders alone. In Corinth, some elders were removed from office — an account that survives only in Rome's own letter asking for them back. That letter used real command language — “submit,” “receive correction” — but Rome claimed no formal power to force it. Corinth's own side is not preserved. They marked the Lord's Supper in different ways, too. One early manual gives thanks over the cup before the bread. Neither blessing tells the story of the Last Supper. Following Jesus could mean real danger: in one province, a governor had members questioned under torture, and in another, a bishop was marched under armed guard toward Rome. But this danger came and went — never constant, never empire-wide.</p>
       </div>
       <aside class="plate" aria-label="Portrait">
         <figure>
@@ -203,42 +229,146 @@ p{margin:0 0 1rem}
     <div class="seat" role="region" aria-label="Chloe is seated">
       <p class="seated">Chloe is seated. Begin when you're ready — or read on.</p>
       <a class="btn quiet" id="seat-begin" href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html" data-ask>Begin a conversation with Chloe</a>
-      <span class="also"><a id="seat-bring" href="../table.html?worlds=post-apostolic-house-church">Bring Chloe to the Table →</a></span>
     </div>
   </div>
 
   <div class="page">
     <div class="article">
-      <section aria-labelledby="who-speaks-title">
-        <p class="eyebrow">Who is speaking</p>
-        <h2 id="who-speaks-title">A representative voice, speaking for a whole people</h2>
-        <div class="reading">
-          <p>Chloe is a voice, not a person who lived — this tradition's own surviving witnesses (Ignatius, Polycarp, Clement of Rome, Hermas, Justin, the Didache) given one voice, speaking the way a people speaks of itself: <em>we</em>, <em>our</em>, <em>among us</em>.</p>
-          <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
-        </div>
+      <!-- Kept standalone when the "Who is speaking" section (its original home)
+           was cut in the 2026-09-21 card redesign: this is a safety disclosure,
+           not gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves - see cic-website/traditions/*.html's
+           pre-redesign `who_speaks` section for its prior placement. -->
+      <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+
+      <section aria-labelledby="story-title">
+        <p class="eyebrow">The Story</p>
+        <h2 id="story-title">How this tradition took shape</h2>
+        <div class="reading"><p>This world&#39;s own record runs from about 70 to 200 CE. It covers Antioch and Syria, the cities of western Asia Minor, and Rome. The apostles had died, one by one, in the years right before this account opens. No one could simply point to someone who had walked with Jesus anymore. What replaced that direct link was argument: a letter insisting its own writer carried the apostles&#39; own teaching forward, a bishop insisting his own office did the same. This was not a settled inheritance, quietly received. It was something actively and urgently claimed, community by community, letter by letter.</p>
+      <p>Who should lead, once the apostles were gone? This world never agreed. In the communities behind Ignatius&#39;s own letters, one bishop stood at the center, with elders and deacons beside him. Obeying him was the very shape of staying united - one letter compares it to strings tuned to a harp. In Rome, a council of elders governed together instead, and nothing was felt to be missing from that arrangement. The same man, Polycarp, was addressed as a bishop by one correspondent while naming himself, in his own letter, only as one of the elders beside him. Both patterns held, side by side, for this whole world&#39;s own life. Neither one ever settled the question for the other.</p>
+      <p>What actually held these scattered households together was letters, not any office. Rome wrote a long letter to Corinth after Corinth removed some of its own elders from office. Rome insisted the men be restored - though Rome had no real power to force it. Ignatius wrote seven letters of his own. He wrote them across a guarded journey toward his own execution. Polycarp forwarded a collected copy of those letters on to Philippi, simply because Philippi had asked for them. None of these three events depended on the others. Each shows the same thing on its own: this world stayed one people by writing to each other, whenever there was reason to.</p>
+      <p>The one thing every community did was give thanks over bread and cup - and the shape of that thanksgiving varied from house to house. One manual gives thanks over the cup before the bread, and tells no story of a betrayal or a body given at all; its prayer is about the vine of David and the knowledge God made known. In the communities Ignatius addressed, only the bishop&#39;s own eucharist was considered valid, and refusing any other was inseparable from staying loyal to him. In Rome, Justin describes something fuller still: reading, a sermon, common prayer, a collection for the needy. The table stayed constant. Its exact shape never did.</p>
+      <p>This world also had to decide what it would not accept. Ignatius wrote against a rival teaching that said Christ&#39;s body only seemed real - not truly born, not truly suffering, not truly raised. He answered it as hard as it could be answered: truly born, truly crucified, truly raised. But this argument survives from essentially one voice. Whether the same danger felt as urgent in Rome, or only in the cities Ignatius wrote to directly, this world&#39;s own record does not say.</p>
+      <p>Danger from the state was real. But it never became constant, and it never covered the whole empire. A fire in Rome gave Nero a group to blame. Christians were executed with real cruelty - though no source names a single one of them. Decades later, a governor in a different province had two enslaved women tortured to learn what these communities actually did. He found, in his own words, only &quot;a crude and excessive superstition.&quot; Ignatius himself was marched under armed guard the length of Asia Minor, toward his own execution in Rome. Three very different provinces. Three very different moments. No single, standing policy connects them.</p>
+      <p>For some in this world, dying for the name became the clearest sign that a whole life had been well spent. Ignatius, on his own way to execution, wrote that he wanted to be ground like wheat between the teeth of wild beasts, so that he might be found the pure bread of Christ. Another community kept its own bishop&#39;s bones afterward. It gathered every year at the place they were kept. But that same community recorded a caution too, right beside its own admiration. It remembers a man who volunteered for trial and then lost his nerve. The community&#39;s own verdict on him is plain: wanting to die was never the thing it held up to imitate. Both witnesses come from exactly two moments, both from the same region. Whether Rome held anything like this same belief, this world&#39;s own record does not say.</p>
+      <p>This world&#39;s own record ends around 200 CE. Its central question was never settled from the inside. By then, one bishop had become the common pattern almost everywhere, even in Rome. Rome had once been led by a council of elders instead. No text says how or when that change was actually felt. Only the older, argued option&#39;s own quiet disappearance is visible. At almost the same time, in regions this world never mentions, a new kind of argument appeared. It argued from an already-secured chain back to the apostles. This world&#39;s own letters, by contrast, were still actively building that chain, community by community. This world could not survive its own defining question actually being settled. And by the time that settling began to arrive, this world&#39;s own way of holding the question was already ending.</p></div>
       </section>
 
-      <section aria-labelledby="quiet-title">
-        <p class="eyebrow">Where we are quiet</p>
-        <h2 id="quiet-title">The enslaved among us</h2>
-        <div class="reading">
-          <p>Enslaved people were among us. Our instruction speaks to them directly, in the same breath as everyone else. Two enslaved women among us were called ministrae — servants, deacons — and when a Roman governor wanted to know what we did, it was those two he had tortured for answers. So we can tell you they were here. We can tell you they served, and that they suffered for us. What we cannot give you is a single word any of them chose to write or say for themselves. Everything we know of them passed through other hands. We would rather tell you that plainly than put words in their mouths now.</p>
-        </div>
+      <section aria-labelledby="voices-title">
+        <p class="eyebrow">Voices</p>
+        <h2 id="voices-title">The people behind this account</h2>
+        <div class="orient-voices">
+      <div class="orient-voice">
+      <p class="orient-voice-name">Ignatius, bishop of Antioch</p>
+      <p class="orient-voice-text">Ignatius was bishop of Antioch. He was taken under armed guard toward execution in Rome. Along the way, he wrote seven letters that survive. He urged every community he addressed to gather around one bishop, one altar, one eucharist. He read his own coming death as the completion of a life already given over, not as something to fear.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Hermas</p>
+      <p class="orient-voice-text">Hermas was a freedman in Rome. He wrote down a series of visions. They came to him through an elderly woman who turned out to be the Church itself, and later through a figure called the Shepherd. Their message: one further chance to repent after baptism, offered now, before that door closes.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Justin <span class="orient-voice-dates">(c. 165)</span></p>
+      <p class="orient-voice-text">Justin was a philosopher. He kept wearing his philosopher&#39;s cloak after he came to believe. He described what a Sunday gathering in Rome actually looked like: reading, a sermon, prayer, the thanksgiving over bread and cup, a collection for those in need. He wrote it all in an open letter to the emperor himself. He died for the name he defended.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Polycarp of Smyrna <span class="orient-voice-dates">(c. 155-156)</span></p>
+      <p class="orient-voice-text">Polycarp led the church at Smyrna. His own letter to the Philippians names him only alongside its other elders, never as bishop - though Ignatius, writing separately, addresses him as one. When his own city turned on him, he refused to curse Christ and was burned. Before his own courage is told, the same letter names a different man who volunteered for trial and lost his nerve when the moment came.</p>
+      </div>
+      </div>
+      </section>
+
+      <section aria-labelledby="documented-stories-title">
+        <p class="eyebrow">Documented stories</p>
+        <h2 id="documented-stories-title">Stories worth telling in full</h2>
+        <div class="docstories-row">
+      <div class="docstory-entry">
+      <h4>A Condemned Bishop Asks Rome Not to Save Him</h4>
+      <p class="meta">c. 107-117 (traditional dating; a three-way scholarly dispute over authenticity and dating is carried at full strength)</p>
+      <p class="teaser">Marched under armed guard toward execution, a bishop writes ahead to forbid the church at Rome from trying to save him.</p>
+      <details class="docstory-item" id="post-apostolic-house-church-story-0">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>In his letters, Ignatius, bishop of Antioch, records that he was condemned and sent under armed guard on the long overland journey toward Rome. There he expected to be thrown to the beasts in the arena. He calls the soldiers &#39;ten leopards&#39; - &#39;who, even when they receive benefits, show themselves all the worse.&#39; Writing from stops along the route, he tells us that churches came out to meet him. Delegations from Ephesus, Magnesia, and Tralles met him at Smyrna. The church at Rome received a letter sent ahead of him, urging them not to intervene to save his life: &#39;Suffer me to become food for the wild beasts, through whose instrumentality it will be granted me to attain to God. I am the wheat of God, and let me be ground by the teeth of the wild beasts, that I may be found the pure bread of Christ.&#39; Along the way he wrote at least seven letters that survive. They address troubles in the churches he passed or heard from, insisting that each community gather around one bishop, one altar, one eucharist. He pressed the instruction with real urgency, as a man who believed his approaching death gave his words unusual weight. He asks Polycarp, bishop of Smyrna, to write on his behalf to the churches ahead. And he thanks the community at Smyrna by name for its hospitality. This is a condemned man&#39;s own account, written on the road. It tells what he believed his death would mean - and what he believed the churches receiving his letters needed to hear before it happened.</p></div>
+      </details>
+      </div>
+      <div class="docstory-entry">
+      <h4>Two Farmers Before the Emperor</h4>
+      <p class="meta">c. 90-96 (under Domitian)</p>
+      <p class="teaser">An emperor fearing a rival king summons two grandsons of Jesus&#39; own family - and finds two callus-handed smallholders not worth his attention.</p>
+      <details class="docstory-item" id="post-apostolic-house-church-story-1">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>Domitian was told that some of Jesus&#39; own family were still alive - grandsons of Judas, who was called his brother - and that they were of the line of David. That was the part that mattered to him: he feared a claimant, the way Herod had. So they were brought to Rome and questioned. Were they of David&#39;s family? They said they were. What did they own? They answered that between them they had nine thousand denaria, and not in money either, but as the value of a piece of land of some thirty-nine plethra, out of which they still had to pay the dues, and that they lived by working it themselves. And they held out their hands to show him - the roughness of the skin, the corns raised by constant labour. Then he asked them about Christ&#39;s kingdom, what it was and when it would come, and they told him it was not of this world or of the earth but belonged to heaven and the angels, and would appear at the end of time. Domitian passed no sentence. He treated them with contempt, as too mean to be worth his notice, and let them go; and he called off the persecution. They went home and became leaders of the churches.</p></div>
+      </details>
+      </div>
+      <div class="docstory-entry">
+      <h4>The Man Who Volunteered and Broke</h4>
+      <p class="meta">c. 155-156 (traditional dating; Eusebius&#39;s Chronicon gives 167)</p>
+      <p class="teaser">Before it honors its own bishop&#39;s courage, a community&#39;s letter names a man who came forward for trial on his own and lost his nerve when he saw the beasts.</p>
+      <details class="docstory-item" id="post-apostolic-house-church-story-2">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>This is how the community at Smyrna told it, in the same letter that honors Polycarp&#39;s own death. Before that letter praises him, it names someone else first. A man named Quintus, a Phrygian who had lately come to the city, forced himself - and some others with him - to come forward for trial of his own will. But when he actually saw the wild beasts, he lost his nerve. After much urging, the proconsul persuaded him to swear the oath and offer sacrifice. The community&#39;s own letter draws the lesson plainly, without softening it: &quot;we do not commend those who give themselves up, since the Gospel does not teach so.&quot; Polycarp did the opposite. When he first heard that he was being sought, he was not troubled at all. At his own community&#39;s urging, he agreed to leave the city for a quiet house in the country, where he spent his last days praying. He did not go looking for arrest. He was found only after two young men in his own household were seized. One of them, tortured, told his pursuers where he was. The letter sets these two men side by side on purpose. One went looking for the test, and failed it. The other simply kept living faithfully, was found where he was, and held firm once he was.</p></div>
+      </details>
+      </div>
+      </div>
+      </section>
+
+      <section aria-labelledby="legacy-title">
+        <p class="eyebrow">Legacy</p>
+        <h2 id="legacy-title">What came after</h2>
+        <div class="reading"><p>This world&#39;s own authority question did not stay open forever. By around 200 CE, one bishop had become the common pattern almost everywhere, including in Rome. Rome had once been led by a council of elders, with nothing felt to be missing. No text says how or when that change was actually felt. Only the older, argued option&#39;s own quiet disappearance is visible.</p>
+      <p>This world&#39;s own texts did not survive evenly. Ignatius&#39;s letters mattered so much to the later, settled office he argued for that it took a two-century scholarly fight just to prove they were genuine. First Clement was copied into a great Bible manuscript. The Shepherd of Hermas was once read as scripture by three major later teachers. Later, it was moved instead to the shelf newcomers were given to read - a real demotion, though not the outright ban later memory sometimes assumes. The Didache, this world&#39;s own teaching manual, disappeared from use for roughly eighteen centuries. What survived best was not always what mattered most at the time. It was what a later settlement found useful to keep.</p></div>
+      </section>
+
+      <section aria-labelledby="relations-summary-title">
+        <p class="eyebrow">In its own record</p>
+        <h2 id="relations-summary-title">How this world relates to others</h2>
+        <p class="orient-relations"><i>This world&#39;s own record closes just as a different Christian world takes shape in Alexandria. That world formed people through one teacher&#39;s close relationship with a student, not through letters and household worship. This world&#39;s own texts never mention it at all. One figure here, Justin, also belongs to a second, not-yet-built tradition: philosophers who argued directly with Roman emperors. This world uses only what his writing happens to say about worship and about rival teachers. It does not use his fuller philosophical argument.</i></p>
+      </section>
+
+      <section aria-labelledby="sourcing-title">
+        <p class="eyebrow">Sources</p>
+        <h2 id="sourcing-title">What this account is built from</h2>
+        <div class="reading"><p>This world&#39;s record is moderate to rich on communal life - letters, church order, worship practice - but its most vivid material leans on one contested corpus: Ignatius&#39;s seven letters, whose authorship and dating remain a genuine, three-way dispute among scholars. Individual, first-person voice stays thin throughout. No woman speaks in her own words. No enslaved member does either - two enslaved women are named only by their torturer&#39;s own word for their office. No non-literate believer, who made up most of this movement, speaks for themselves at all. What survives is a city record, written by the literate few.</p>
+      <ul class="orient-read-first">
+      <li><span class="orient-read-first-work">Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below), The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split</span> <span class="orient-read-first-note">This world&#39;s sharpest surviving voice, and its most contested - a corpus urgently arguing for one-bishop unity, under a genuine three-way scholarly dispute over who wrote it and when.</span></li>
+      <li><span class="orient-read-first-work">Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text), First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron&#39;s minority position argues pre-70)</span> <span class="orient-read-first-note">Rome&#39;s own long letter correcting a sister church, in a plural elders&#39; own voice - this world&#39;s earliest surviving Christian writing outside the New Testament, and its clearest picture of a council-governed community.</span></li>
+      <li><span class="orient-read-first-work">Pliny the Younger (Roman governor of Bithynia-Pontus), with Trajan&#39;s rescript in reply, Letters 10.96-10.97, c. 111-113 CE - the earliest Roman administrative document on Christians; shows no prior standing law, and Trajan&#39;s reply forbids seeking Christians out</span> <span class="orient-read-first-note">The one outside account of this world&#39;s worship, and its harshest evidence: what a Roman governor learned about a Sunday gathering by torturing two enslaved women, and the emperor&#39;s own reply telling him not to go looking for more.</span></li>
+      </ul></div>
+      </section>
+
+      <!-- Judgment call (flagged in this generator's own report): the glossary
+           and pull-quotes fields are the two world_front units with no section
+           of their own in the old hand-built pages. Rather than two more
+           full-width sections, they share one compact strip - pull quotes as
+           blockquotes, then a small glossary grid - placed after Sources and
+           before the closing Questions section. -->
+
+      <section aria-labelledby="glossary-and-quotes-title">
+        <p class="eyebrow">In this world's own words</p>
+        <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
+        <div class="orient-pull-quotes">
+      <blockquote class="orient-pull-quote"><p>So I decided I had to get the truth by questioning two female slaves, the ones called deaconesses. I questioned them under torture. I found nothing but a crude and excessive superstition. So I have put off any further investigation, and I am turning to you for advice.</p><cite>Pliny the Younger, governor of Bithynia, to the emperor Trajan</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>There are two ways: one of life and one of death, and there is a great difference between the two ways. The way of life is this. First, you shall love God, who made you; second, your neighbor as yourself. And whatever you would not want to happen to you, do not do to another.</p><cite>the manual known as the Didache, or the Teaching of the Twelve Apostles</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>Now about the Thanksgiving - the Eucharist. Give thanks this way. First, over the cup: We thank you, our Father, for the holy vine of David your servant, which you made known to us through Jesus your Servant. To you be the glory forever.</p><cite>the manual known as the Didache</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>As for us, we keep the exact day, adding nothing and taking nothing away. Great lights of the faith have died here in Asia, and they will rise again on the day the Lord comes. I, Polycrates, the least of you all, follow the tradition of my family. Seven of my relatives were bishops, and I am the eighth. I am sixty-five years old in the Lord, brothers. I have met believers from all over the world, and I have read the whole of Holy Scripture. And I am not frightened by threats. Men greater than I have said: &#39;We ought to obey God rather than men.&#39;</p><cite>Polycrates, bishop of Ephesus, writing to Victor of Rome</cite></blockquote>
+      </div><dl class="orient-glossary">
+      <div class="orient-glossary-item"><dt>episkopos</dt><dd>The overseer: the one who watches over a community&#39;s table and its unity. Whether every church should have one such man, or whether the elders share that trust together, is a question still being argued.</dd></div>
+      <div class="orient-glossary-item"><dt>presbyteros</dt><dd>The elders who share the governing of a community. In some churches they are a council holding the whole trust themselves; in others they gather around one overseer.</dd></div>
+      <div class="orient-glossary-item"><dt>eucharistia</dt><dd>The thanksgiving: the meal of bread and cup over which thanks is given. The community returns to this table again and again, to be formed once more into one body.</dd></div>
+      <div class="orient-glossary-item"><dt>the Two Ways</dt><dd>Before the water, the teaching of the two ways. A way of life and a way of death lie open before every person. Walking one rather than the other is a choice kept daily.</dd></div>
+      <div class="orient-glossary-item"><dt>ministrae (Pliny&#39;s word, not the community&#39;s own)</dt><dd>The Latin word a Roman magistrate used for two enslaved women he tortured - Christians in some recognized service. What they themselves called that service, no one kept.</dd></div>
+      </dl>
       </section>
 
       <section aria-labelledby="questions-title">
         <p class="eyebrow">Questions people bring to this table</p>
         <h2 id="questions-title">Start with the hard one</h2>
-        <div class="reading">
-          <ul class="questions">
-            <li><a href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html" data-ask>Was there room among your people for doubt?<span class="vh"> — ask Chloe</span></a><span class="from">Hermas, <i>Mandate</i> 9.</span></li>
-            <li><a href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html" data-ask>How did you decide who should lead once the apostles were gone?<span class="vh"> — ask Chloe</span></a><span class="from">Ignatius's letters; <i>1 Clement</i> 42, 44.</span></li>
-            <li><a href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html" data-ask>What did women's leadership look like among your people?<span class="vh"> — ask Chloe</span></a><span class="from">Pliny, <i>Letters</i> 10.96; Hermas, <i>Vision</i> 2.4.</span></li>
-            <li><a href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html" data-ask>What did it mean when a letter arrived from a church you had never seen?<span class="vh"> — ask Chloe</span></a><span class="from">Ignatius, <i>Epistle to the Ephesians</i>; Polycarp, <i>Epistle to the Philippians</i> 13.</span></li>
-            <li><a href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html" data-ask>What actually happened when you gathered to share the bread and cup?<span class="vh"> — ask Chloe</span></a><span class="from">Justin Martyr, <i>First Apology</i> 65-67.</span></li>
-          </ul>
-        </div>
+        <ul class="questions">
+      <li><a href="../talk.html?worlds=post-apostolic-house-church&mode=interview&from=traditions%2Fpost-apostolic-house-church.html" data-ask>Who was Jesus, to you and your people?<span class="vh"> — ask Chloe</span></a><span class="from">doctrinal witness: “We did not invent him out of an idea. We say he was truly born - of Mary, from the line of David. We say he truly ate and drank.”</span></li>
+      <li><a href="../talk.html?worlds=post-apostolic-house-church&mode=interview&from=traditions%2Fpost-apostolic-house-church.html" data-ask>Was Jesus God? Did you believe in the Trinity?<span class="vh"> — ask Chloe</span></a><span class="from">doctrinal witness: “Ignatius calls Jesus Christ our God again and again - in how he opens his letters, and in how he closes them.”</span></li>
+      <li><a href="../talk.html?worlds=post-apostolic-house-church&mode=interview&from=traditions%2Fpost-apostolic-house-church.html" data-ask>I want to believe in Jesus, but I can&#39;t. What would you say to me?<span class="vh"> — ask Chloe</span></a><span class="from">doctrinal witness: “We cannot promise you a moment of sudden certainty, because it was not sudden for the one among us who wrote about it.”</span></li>
+      </ul>
       </section>
+
     </div>
   </div>
 </main>
@@ -248,7 +378,6 @@ p{margin:0 0 1rem}
   <h2 id="door-title">Come and join us at the Table</h2>
   <div class="actions">
     <a class="btn" id="door-begin" href="../talk.html?worlds=post-apostolic-house-church&amp;mode=interview&amp;from=traditions%2Fpost-apostolic-house-church.html" data-ask>Begin a conversation with Chloe</a>
-    <a class="btn quiet" id="door-bring" href="../table.html?worlds=post-apostolic-house-church">Bring Chloe to the Table</a>
   </div>
   <p class="also">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
   <p class="also"><a href="../index.html#who">The other six chairs →</a></p>

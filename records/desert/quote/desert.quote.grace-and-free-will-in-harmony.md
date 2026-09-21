@@ -30,7 +30,6 @@ retrieval:
   - "participant asks whether salvation comes by faith or by works"
   - "participant asks where grace comes into a life this disciplined"
   - "participant asks whether these people thought they earned anything"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.grace-and-effort

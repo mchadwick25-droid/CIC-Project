@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether our church is 'Catholic,' or whether it is a different church from Rome's"
   - "participant asks what actually makes a church one church, in our own definition"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks about the Reformed break specifically, or about Marburg -- retrieve the Reformed-rival material instead; this record states our own definition, not our boundary with Zurich or Geneva"
 text: >-
   Also they teach that one holy Church is to continue forever. The Church

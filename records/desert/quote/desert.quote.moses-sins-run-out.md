@@ -30,7 +30,6 @@ retrieval:
   - "participant asks what happened when someone did wrong and the others found out"
   - "participant asks whether they judged each other, and how forgiveness worked"
   - "participant asks whether anyone was ever put out of the community"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.moses-leaking-jug

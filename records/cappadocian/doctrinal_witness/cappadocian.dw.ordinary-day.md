@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks what an ordinary day looked like among this world's people"
   - "participant asks what happened when someone was sick or dying, or what people did for work"
-  do_not_retrieve_when: []
 text: >-
   Picture one of our own brotherhoods, since that is where our record lets
   us reconstruct a whole day - no single brother left us a diary of one

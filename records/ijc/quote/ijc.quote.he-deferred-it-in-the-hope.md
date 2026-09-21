@@ -31,7 +31,6 @@ retrieval:
   - "participant asks when people here were baptised, or whether babies were"
   - "participant asks whether the emperors were really Christians"
   - "participant asks what baptism did for a person in this world"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.dw.baptism-threshold

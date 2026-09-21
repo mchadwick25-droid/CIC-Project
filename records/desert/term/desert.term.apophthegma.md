@@ -23,7 +23,6 @@ retrieval:
   - how this world's teaching was given and passed on
   - whether the sayings are legend collected centuries later
   - questions about why the record is made of short sayings
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.quote.composed-by-bishop-palladius-for-the-prefect-lausus

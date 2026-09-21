@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - participant uses "disputation" or asks how Zurich's reform was actually decided
   - participant asks why a city council, not a bishop or pope, settled a doctrinal question
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking about Geneva's own reform process, which did not proceed by this mechanism
 relations:
 - type: associated-with

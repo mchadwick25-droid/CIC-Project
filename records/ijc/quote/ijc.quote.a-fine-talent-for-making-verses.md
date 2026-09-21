@@ -32,7 +32,6 @@ retrieval:
   - "participant asks what physically survives of this world, or what a dig would find"
   - "participant asks whether this world's church is the same as any church today"
   - "participant asks how the martyrs were remembered or marked"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.term.primatus

@@ -29,7 +29,7 @@ retrieval:
   - whether excommunication was practised
   - participant uses "anathema," "accursed," "excommunicate," "cast out"
   - Comm. chs. 8-9, ch. 16's list; the priest who would have anathematized a virgin
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about who is a heretic (retrieve heretic / heresy)
   - the withholding of fellowship as such (retrieve communion)
   - later canonical procedure

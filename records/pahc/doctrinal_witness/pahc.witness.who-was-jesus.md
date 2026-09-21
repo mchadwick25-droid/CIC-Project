@@ -28,7 +28,7 @@ retrieval:
   retrieve_when:
   - "participant asks who Jesus was to this world's own communities"
   - "participant asks what this world believed happened to Jesus"
-  do_not_retrieve_when:
+  prefer_instead:
   - "a modern systematic Christology question with no connection to this period"
 relations: []
 positions:

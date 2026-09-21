@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what virtue is here, or how it differs from Aristotle's account of virtue as habit
   - whether virtue is formation's goal or something formation produces as a side effect
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about wisdom specifically (retrieve alx.term.sophia)
   - asking about love specifically (retrieve alx.term.agape)
 relations: []

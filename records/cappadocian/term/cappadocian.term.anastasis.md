@@ -23,7 +23,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - resurrection, the afterlife, or hope in the face of death
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.eikon

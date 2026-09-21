@@ -36,7 +36,7 @@ retrieval:
   retrieve_when:
   - fasting, or meats and fast-days
   - whether we abolished fasting
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means Christian liberty broadly (retrieve 'must' and 'free')
 relations:
 - type: associated-with

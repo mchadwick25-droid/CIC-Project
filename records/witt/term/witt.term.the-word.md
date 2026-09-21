@@ -55,7 +55,7 @@ retrieval:
   - why we would not force reform with a sword
   - what makes a sacrament a sacrament
   - authority over pope, councils, or fathers
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means Scripture's authority specifically against named human traditions (retrieve
     Scripture against Fathers, Councils and pope)
 relations:

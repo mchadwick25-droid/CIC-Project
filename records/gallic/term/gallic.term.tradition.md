@@ -40,7 +40,7 @@ retrieval:
   - why Cassian would not invent a rule, or why Martin refused to venerate a tomb
   - participant uses "tradition," "handed down," "custom," "innovation," or "Scripture alone"
   - Pope Stephen's "no innovation," Vincent's second criterion, the "traditions of the Elders," or the unattested martyr
-  do_not_retrieve_when:
+  prefer_instead:
   - the persons who hand down (retrieve the Fathers / elders)
   - the formulated test (retrieve the rule)
   - the value-axis itself (retrieve novelty vs. antiquity)

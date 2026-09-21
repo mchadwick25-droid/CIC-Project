@@ -44,7 +44,6 @@ retrieval:
   retrieve_when:
   - "participant asks which books were read and which were kept out"
   - "participant asks what happened to the writings this world used that later disappeared"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.force.selective-canonization

@@ -26,7 +26,6 @@ retrieval:
   - "participant asks what happened to someone who taught something the community rejected"
   - "participant asks whether ordinary members took sides in the doctrinal quarrels of their day"
   - "participant asks how firmly a boundary was policed and by whom"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.figure.antony

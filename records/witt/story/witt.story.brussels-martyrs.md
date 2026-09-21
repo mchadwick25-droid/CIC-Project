@@ -32,7 +32,7 @@ retrieval:
   retrieve_when:
   - a participant asks about persecution, martyrdom, or the cost of conviction in this world
   - a participant asks whether anyone actually died for this movement's teaching
-  do_not_retrieve_when:
+  prefer_instead:
   - narrating the stake-side dialogue or the martyrs' reported last words as verified reportage rather
     than the ballad's own commemorative voice
   - a participant asks about the Peasants' War or any other 1525 event - no story in this inventory covers

@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether they were ever attacked, and by whom"
   - "participant asks what a doctrinal quarrel cost them in practice"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 139, div
 v.CXXXIX; the file's editorial gloss identifying 'our house' as the

@@ -31,7 +31,6 @@ retrieval:
   - "participant asks how historians know anything about ordinary life in this world"
   - "participant asks how a record like this survived at all"
   - "participant asks how reliable the sources for this community are"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.remains

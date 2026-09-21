@@ -32,7 +32,7 @@ retrieval:
   - why elders gave absurd commands, or whether the Patermucius story is abuse
   - participant uses "obedience," "obey," "authority," "submission," or "blind obedience"
   - John watering the dry stick, the cruse of oil, the boy at the river, the count's son with his baskets, or Sulpitius at Martin's table
-  do_not_retrieve_when:
+  prefer_instead:
   - whom one obeys as an office (retrieve elder / senior / abbot)
   - obedience to bishops or councils (retrieve bishop / the monk-bishop, council / synod)
   - free will in the grace argument as such (retrieve free will)

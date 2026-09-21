@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - worship/meal questions
   - transubstantiation translational questions
-  do_not_retrieve_when: []
 plain_meaning: 'The thanksgiving: the shared meal of bread and cup at the heart of the community''s worship.'
 world_word: eucharistia
 false_friend:

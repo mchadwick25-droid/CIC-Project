@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - the letter and the spirit
   - whether Scripture has a hidden meaning beneath the plain one
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means Law and Gospel as two kinds of speech (retrieve Law and Gospel) -- this is one
     sense, not two kinds
 relations:

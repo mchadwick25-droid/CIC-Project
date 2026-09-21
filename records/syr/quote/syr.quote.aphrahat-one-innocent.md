@@ -27,6 +27,5 @@ retrieval:
   retrieve_when:
   - "participant asks whether they thought anyone could be good"
   - "participant asks what they held about human nature and being born flawed"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Dem VII.1). The ground of the physician-of-penitence welcome: no one else is unwounded.

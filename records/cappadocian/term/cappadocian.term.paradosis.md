@@ -28,7 +28,6 @@ retrieval:
   - tradition versus the Bible
   - why unwritten customs would carry doctrinal weight
   - where this world's practices (facing east, standing to pray) came from
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.baptisma-photisma

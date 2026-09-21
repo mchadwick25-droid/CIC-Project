@@ -40,7 +40,6 @@ retrieval:
   - "participant asks whether anyone here struggled to give up what they loved"
   - "participant says their faith and their real interests pull in different directions"
   - "participant asks what the discipline of this world actually demanded of a person inside"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.inner-life

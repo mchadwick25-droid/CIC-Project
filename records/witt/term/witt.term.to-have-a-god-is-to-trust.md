@@ -30,7 +30,7 @@ retrieval:
   retrieve_when:
   - what makes something a 'god' or an 'idol' for us
   - Mammon
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means faith's own definition broadly (retrieve faith)
 relations:
 - type: associated-with

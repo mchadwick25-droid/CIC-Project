@@ -23,7 +23,7 @@ retrieval:
   - "participant asks why words in worship matter, or what the Holy Spirit controversy was about"
   - "participant asks why anyone would fight over one word or preposition in a prayer"
   - "participant asks for the story behind the creed's article on the Holy Spirit"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks about the Trinity-terms themselves as concepts (retrieve the relevant term record instead)"
   - "participant asks about the whole imperial-pressure arc rather than this one episode (retrieve cappadocian.story.valens-caesarea instead)"
 relations:

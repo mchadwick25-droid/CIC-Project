@@ -106,8 +106,6 @@ p{margin:0 0 1rem}
 .btn:hover,.btn:focus-visible{background:var(--madder-deep);color:var(--btn-text)}
 .btn.quiet{background:transparent;color:var(--action);border-color:var(--action)}
 .btn.quiet:hover,.btn.quiet:focus-visible{background:transparent;color:var(--action-hover);border-color:var(--action-hover)}
-.seat .also{color:var(--muted)}
-.seat .also a{display:inline-flex;align-items:center;min-height:44px}
 .article{padding:1.6rem 0 .5rem}
 .article>section{padding:1.4rem 0 1.2rem;border-top:1px solid var(--rule)}
 .article>section:first-child{border-top:none;padding-top:.6rem}
@@ -133,8 +131,37 @@ p{margin:0 0 1rem}
 .site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
 .site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
 @media print{ .site-header,.seat,.door .actions,.skip-link{display:none} }
+/* BEGIN orientation-content-css */
+.orient-voices{display:flex;flex-direction:column;gap:1.1rem}
+.orient-voice{max-width:var(--measure)}
+.orient-voice-name{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--text);margin:0 0 .3rem}
+.orient-voice-dates{font-weight:400;color:var(--muted)}
+.orient-voice-text{font-size:1.0625rem;line-height:1.6}
+.docstories-row{display:flex;flex-direction:column;gap:1.3rem;max-width:var(--measure)}
+.docstory-entry h4{font-family:var(--serif);font-size:1.1rem;margin:0 0 .25rem}
+.docstory-entry>.meta{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:0 0 .3rem}
+.docstory-entry>.teaser{font-style:italic;color:var(--muted);margin:0 0 .5rem}
+details.docstory-item{border:1px solid var(--rule);border-radius:4px;background:var(--surface);padding:.15rem .9rem}
+details.docstory-item summary{cursor:pointer;list-style:none;font-family:var(--sans);font-weight:600;font-size:.875rem;padding:.6rem 0;color:var(--action)}
+details.docstory-item summary::-webkit-details-marker{display:none}
+details.docstory-item summary::before{content:"\25B8";display:inline-block;margin-right:.5rem;transition:transform .15s}
+details.docstory-item[open] summary::before{transform:rotate(90deg)}
+.docstory{padding:0 0 .9rem}
+.orient-relations{max-width:var(--measure)}
+.orient-read-first{list-style:none;margin:.9rem 0 0;padding:0;max-width:var(--measure)}
+.orient-read-first li{border-top:1px solid var(--rule);padding:.6rem 0}
+.orient-read-first-work{font-family:var(--sans);font-weight:600;display:block}
+.orient-read-first-note{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.orient-glossary{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.8rem 1.5rem;max-width:var(--wide);margin:0}
+.orient-glossary-item dt{font-family:var(--sans);font-weight:700;color:var(--action);margin:0}
+.orient-glossary-item dd{font-size:.9375rem;color:var(--muted);margin:.15rem 0 0}
+.orient-pull-quotes{display:flex;flex-direction:column;gap:1rem;max-width:var(--measure)}
+.orient-pull-quote{margin:0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--action)}
+.orient-pull-quote p{font-style:italic;font-size:1.1rem;margin:0 0 .3rem}
+.orient-pull-quote cite{font-family:var(--sans);font-style:normal;font-size:.85rem;color:var(--muted)}
+/* END orientation-content-css */
 
-/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table */
+/* Persistent feature header: Church Family Tree / Conversation with One */
 .feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
 .feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--vellum);background:var(--madder);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--madder);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
 .feature-btn:hover,.feature-btn:focus-visible{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}
@@ -151,7 +178,6 @@ p{margin:0 0 1rem}
     <nav class="feature-bar" aria-label="Main features">
       <a class="feature-btn" href="../atlas-v3.html">Church Family Tree</a>
       <a class="feature-btn" href="../index.html#who">Conversation with One</a>
-      <a class="feature-btn" href="../table.html">Build a Table</a>
     </nav>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
@@ -182,7 +208,7 @@ p{margin:0 0 1rem}
         <h1>The Cappadocian Churches</h1>
         <p class="formal">Cappadocian Pastoral-Monastic and Trinitarian Tradition</p>
         <p class="status">Open for conversation — you can sit down with this tradition now.</p>
-        <p class="tile">The Nicene-confessing churches of Cappadocia and Pontus, from about 325 to 394 CE, were carried by one family and one friendship: Basil of Caesarea, his sister Macrina, his brother Gregory of Nyssa, and Basil's friend Gregory of Nazianzus. A radical ascetic ferment had already dissolved households and turned slaves against masters before Basil built something else instead: brotherhoods bound by rule, obedience, and an open guest-door. Julian's brief pagan revival cost them a martyr at Caesarea in 362; the Homoian church that followed under Valens drove Gregory of Nyssa into exile, before this Nicene minority inherited the empire's favor in 381.</p>
+        <p class="tile">The Nicene-confessing churches of Cappadocia and Pontus lasted from about 325 to 394 CE. One family and one friendship stood at their center. They were Basil of Caesarea; his sister, Macrina; his brother, Gregory of Nyssa; and Basil's friend, Gregory of Nazianzus. Basil, Gregory of Nyssa, and Gregory of Nazianzus argued the century's hardest question. Is the Son fully God, the same way the Father is? Is the Spirit God in that same way, too? Macrina turned the family estate into an ascetic household of her own. The council that later censured them made a claim about ascetic radicals in the region. It said the radicals had already broken up households and urged enslaved people to leave their owners. Basil did not condemn that impulse. Instead, he gave it a rule to follow. It came with a vow of obedience, and a household that welcomed guests. A famine struck the region around 368. Basil, still a priest at the time, preached against the local landowners who hoarded grain, and named them. Once he became bishop, he built a complex outside Caesarea. It fed the poor, housed travelers, treated the sick, and sheltered people with leprosy. Places like it already existed elsewhere, so it was not the first. What made it unusual was its size, and how openly it stood inside the city. This world buried a martyr too. Eupsychius of Caesarea was executed under Julian in 362. Under Valens, Gregory of Nyssa was deposed and sent into exile. The charge: mishandling money. His brother Basil called it trumped up, but no record survives from the side that brought the charge. Gregory returned two years later, once political pressure on Nicene bishops eased. Then, in 381, this Nicene minority finally won the empire's favor.</p>
       </div>
       <aside class="plate" aria-label="Portrait">
         <figure>
@@ -203,41 +229,156 @@ p{margin:0 0 1rem}
     <div class="seat" role="region" aria-label="Chilo is seated">
       <p class="seated">Chilo is seated. Begin when you're ready — or read on.</p>
       <a class="btn quiet" id="seat-begin" href="../talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview&amp;from=traditions%2Fcappadocian-nicene-pastoral-monastic-tradition.html" data-ask>Begin a conversation with Chilo</a>
-      <span class="also"><a id="seat-bring" href="../table.html?worlds=cappadocian-nicene-pastoral-monastic-tradition">Bring Chilo to the Table →</a></span>
     </div>
   </div>
 
   <div class="page">
     <div class="article">
-      <section aria-labelledby="who-speaks-title">
-        <p class="eyebrow">Who is speaking</p>
-        <h2 id="who-speaks-title">A representative voice, speaking for a whole people</h2>
-        <div class="reading">
-          <p>Chilo is a voice, not a person who lived — this tradition's own surviving voices (Basil of Caesarea, Macrina, Gregory of Nazianzus, Gregory of Nyssa, Emmelia, Eupsychius of Caesarea, Eustathius of Sebaste) given one voice, speaking the way a people speaks of itself: <em>we</em>, <em>our</em>, <em>among us</em>.</p>
-          <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
-        </div>
+      <!-- Kept standalone when the "Who is speaking" section (its original home)
+           was cut in the 2026-09-21 card redesign: this is a safety disclosure,
+           not gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves - see cic-website/traditions/*.html's
+           pre-redesign `who_speaks` section for its prior placement. -->
+      <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+
+      <section aria-labelledby="story-title">
+        <p class="eyebrow">The Story</p>
+        <h2 id="story-title">How this tradition took shape</h2>
+        <div class="reading"><p>This world&#39;s own record runs from about 325 to 394 CE. It covers Cappadocia and nearby Pontus. It once called itself the peace after the last martyrs. That description was wrong. Eupsychius, a Christian of Caesarea, was executed under the emperor Julian, in 362. That falls well inside this world&#39;s own lifetime. One family carried most of what survives. So did one circle of student friends. The family: Basil of Caesarea, his sister Macrina, and his younger brother Gregory of Nyssa. The friend: Gregory of Nazianzus, Basil&#39;s own friend from student days.</p>
+      <p>At the center of this world&#39;s life stood one confession. The Son and the Holy Spirit are fully what the Father is, not merely similar to him. Basil defended it under real pressure. At evening prayer, he began giving glory to the Father together with the Son, together with the Holy Spirit. Some worshippers objected. That one small word, they said, claimed too much for the Spirit. Basil wrote a whole book in answer. But inside that book, he chose his own words carefully. He never once, in his own surviving voice, plainly called the Spirit God outright. His own allies argued about that at the time. Was his reserve wisdom, or was it a kind of failure? The confession still held. Years later, bishops gathered again. They wrote the creed the way this world had already been singing it.</p>
+      <p>The same exactness reordered ordinary life. Basil organized ascetic brotherhoods around a written rule. Prayer had fixed hours. Manual labor was its own discipline. Goods were held in common. A guest-door fed any traveler the same food the house itself ate. Members obeyed a leader. This was not for hierarchy&#39;s own sake. The rule argued that obedience itself teaches a humility no one learns alone. Members brought real, ordinary questions to that leader. How far should hospitality stretch? Could a brother fast beyond the house&#39;s own measure? The rule was legislation for a live, arguing community. It was not a settled ideal handed down from on high.</p>
+      <p>That ordering answered something wilder. Before Basil built his own brotherhoods, a wilder ascetic movement was already loose in the region. It was tied in part to Eustathius of Sebaste. He was once Basil&#39;s own mentor and friend. A council at Gangra named this circle and censured it. Marriages were broken up. Enslaved people were urged to leave their households. Fasts were kept against the church&#39;s own feast days. Basil did not condemn the impulse itself. Instead, he gave it a rule, an obedience, and an open door. Eustathius left no writing of his own. His side of the story cannot be recovered. Neither can his later break with Basil, over the Spirit&#39;s own honor. Only the wound survives, in Basil&#39;s own words.</p>
+      <p>Basil was already a public patron before he ever became bishop. In 368, drought struck Caesarea&#39;s own countryside. Grain grew scarce. Landowners with full storehouses held their grain back. They were waiting for a higher price. Basil, then only a priest, preached against them. He did not soften the charge: to hoard a neighbor&#39;s bread while the neighbor starves is theft, whatever the law calls it. The preaching did not stay preaching. Granaries opened. Relief was organized for as long as the crisis lasted. Once he became bishop, he built a permanent complex outside the city walls. His own ascetics staffed it. He negotiated for it directly with hostile governors. His friend Gregory of Nazianzus called it simply the new city. A later, admiring nickname, &quot;the Basileias,&quot; is not this world&#39;s own period phrase. And this world&#39;s own record does not claim the complex was the first such institution anywhere.</p>
+      <p>Leadership in this world rose out of converted households. One household did more than any other. Macrina, the eldest of the family, turned the family estate at Annisa into a community of ascetic women. In 379, her brother Gregory of Nyssa found her dying there. She lay not on a bed but on planks set on the ground. Their last conversation became a philosophical dialogue. He wrote it afterward, in her voice. He was genuinely present, and genuinely grieving - he says so plainly. But how much of the argument he gives her is really hers? That is not settled. It may be his own composition, staged at her deathbed. No line of Macrina&#39;s own survives outside her brother&#39;s telling.</p>
+      <p>Basil and Gregory of Nazianzus met as students, most likely at Athens. Gregory later called what grew between them one soul lodged in two bodies. They treated their classical education the way a bee treats a flower: taking only what would make honey. They trained their pagan learning for a Christian purpose. That use of Greek learning was contested from two directions. The emperor Julian was once schooled in Cappadocia himself. Later, he ruled that Christian teachers must either believe the old myths they taught, or stop teaching them at all. This struck directly at the education this world&#39;s own leaders had built their lives on. From inside, plainer voices asked a different question. Did fishermen ever need philosophy to know God? This is one of the rare disputes where both sides survive in their own words: Julian&#39;s own edict, and Gregory of Nazianzus&#39;s furious reply after Julian&#39;s death.</p>
+      <p>This world kept its martyrs close. Around 320, forty Roman soldiers at Sebaste were condemned for their faith. They were left exposed all night on a frozen lake. A warm bath waited on the shore, for anyone who would deny Christ and step off the ice. Tradition says one man broke. The guard watching over them took his place, so the number stayed forty. This was fresh memory for this world, not a story from a distant past - it fell within their own grandparents&#39; generation. Basil&#39;s and Macrina&#39;s own mother, Emmelia, is credited with gathering relics of the Forty. She built the family&#39;s own chapel around them. This world buried a martyr from inside its own lifetime too. Eupsychius of Caesarea was executed under Julian in 362. He is remembered every year at an annual feast. No sermon about him has survived - only the feast itself.</p>
+      <p>For most of this world&#39;s span, the imperial court was hostile. Under Valens, a prefect named Modestus threatened Basil. He named the threats plainly: seized property, exile, torture, death. Basil answered him just as plainly. A man who owns nothing has nothing left to take, he said. Gregory of Nyssa was Basil&#39;s own younger brother. Under the same hostile court, he was removed from his post. The charge was money mismanagement. His own family called the charge invented. He spent roughly two years in exile. He came home only once the political pressure eased.</p>
+      <p>The cost fell on friendship too. In 372, Basil made his own closest friend a bishop. The posting was Sasima, a small, dusty crossroads. Basil did this to secure his own authority in a local dispute. His friend, Gregory of Nazianzus, felt betrayed. He never fully forgave him for it. Still, the friendship survived, in a damaged form. Years later, Gregory of Nazianzus carried the same argument into a hostile capital, Constantinople. He preached there from a rented house, to a small, embattled congregation. Once the argument was finally won, he was given the bishopric himself. Almost at once, worn out by the whole fight, he resigned it.</p>
+      <p>In 381, the political weather finally turned, for good. The emperor Theodosius established the Nicene faith by law. The Council of Constantinople confirmed the confession this world had fought two generations to hold. This world&#39;s own record puts the change plainly. The word held through the winters became the law of the nations. Those who had held it found the victory strange. Even the letter most often cited as proof of agreement is itself disputed today. Did Basil write it, or did Gregory of Nyssa? Modern scholars disagree. So even this world&#39;s own agreement with itself may be less settled than it looks.</p></div>
       </section>
 
-      <section aria-labelledby="quiet-title">
-        <p class="eyebrow">Where we are quiet</p>
-        <h2 id="quiet-title">Whose voice you are really hearing</h2>
-        <div class="reading">
-          <p>Almost everything you have from us was written down by one big family and one small circle of friends who went to school together. No woman among us left one line in her own hand. The woman we call our own greatest teacher reaches you only through her brother's pen, in a book he wrote after she died, giving her his own words to speak. We are not saying sorry for this. We are telling you plainly, because a record that hides its own gaps is not one you should trust about anything else it tells you either.</p>
-        </div>
+      <section aria-labelledby="voices-title">
+        <p class="eyebrow">Voices</p>
+        <h2 id="voices-title">The people behind this account</h2>
+        <div class="orient-voices">
+      <div class="orient-voice">
+      <p class="orient-voice-name">Basil, bishop of Caesarea</p>
+      <p class="orient-voice-text">Basil helped the hungry before he was ever a bishop. As a young priest, he preached against local landowners who hoarded grain. That preaching led to real relief for the poor. Once he became bishop, he built something lasting. Outside Caesarea&#39;s own walls, he built a poorhouse, a hospital, and a workhouse together. His own monks ran it. He also gave the region&#39;s monks a written rule to live by. And he defended the Holy Spirit&#39;s own honor, against a hostile court - choosing his own words with great care, even then.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Gregory, bishop of Nazianzus, called the Theologian</p>
+      <p class="orient-voice-text">Gregory of Nazianzus wanted a quiet life of study and prayer. His closest friend, Basil, had other plans. Basil made him a bishop instead, at a dusty crossroads. Gregory never fully forgave him for it - in letters, and later in verse. He still carried the Trinity argument into a hostile Constantinople. He preached there from a rented house, until the tide finally turned. He was then given the bishopric there himself. He resigned it almost at once, worn out by the whole fight.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Gregory, bishop of Nyssa</p>
+      <p class="orient-voice-text">Gregory of Nyssa was the youngest of the three brothers. He was also the most speculative thinker among them. Basil&#39;s own letters complain that his brother had no head for politics. When Gregory of Nyssa found his sister Macrina dying, he did something striking. He turned their last talk into a full written dialogue, on the soul and life after death. He was later removed from his post and sent into exile, by a hostile emperor. He came home once the pressure eased. He then finished a reply to a rival that Basil had left unfinished at his own death.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Macrina, called the Teacher (hē didaskalos)</p>
+      <p class="orient-voice-text">Macrina was the eldest of the family. She turned the household estate at Annisa into a community of ascetic women. When her brother Gregory of Nyssa found her dying, she was not lying on a bed. She lay on bare planks, on the ground, with no possessions of her own around her. She spent her last hours teaching him, about the soul and the resurrection. She also rebuked his grief for their brother Basil.</p>
+      </div>
+      </div>
+      </section>
+
+      <section aria-labelledby="documented-stories-title">
+        <p class="eyebrow">Documented stories</p>
+        <h2 id="documented-stories-title">Stories worth telling in full</h2>
+        <div class="docstories-row">
+      <div class="docstory-entry">
+      <h4>Basil Preaches Against the Grain-Hoarders</h4>
+      <p class="meta">368/9, a regional drought and famine, before Basil&#39;s own episcopate</p>
+      <p class="teaser">A young priest tells the men holding back grain in a famine that hoarding a neighbor&#39;s bread is theft, whatever the law calls it.</p>
+      <details class="docstory-item" id="cappadocian-nicene-pastoral-monastic-tradition-story-0">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>In the years before Basil became bishop, drought struck Caesarea and its countryside. The harvest failed, and grain grew scarce and dear. Those who had storehouses full held their grain back, waiting for the price to climb higher before they would sell. Basil, then a priest, preached against them without softening the charge: to hoard a neighbor&#39;s bread while the neighbor starves is theft, whatever the law calls it, and the man who tore down his barns to build bigger ones, in the Gospel&#39;s own parable, learned that lesson too late to matter. He preached against lending at interest for the same reason - profiting from another&#39;s desperate need is no different in kind. The preaching did not stay preaching. Granaries opened. Relief was organized for the hungry, funded and distributed for as long as the crisis lasted. When his own funeral oration recalled it years later, it was named as proof of the kind of bishop we already knew he would be, before he ever held the office.</p></div>
+      </details>
+      </div>
+      <div class="docstory-entry">
+      <h4>Macrina Teaches Her Brother From the Floor Where She Is Dying</h4>
+      <p class="meta">379, Macrina&#39;s death, per her brother&#39;s own account</p>
+      <p class="teaser">Gregory of Nyssa finds his sister dying on bare planks, and their last conversation becomes a book on the soul and the resurrection.</p>
+      <details class="docstory-item" id="cappadocian-nicene-pastoral-monastic-tradition-story-1">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>In 379, Gregory of Nyssa traveled to see his sister Macrina - the eldest of his siblings, whom we called simply the Teacher, hē didaskalos - and found her already dying. She lay not on a couch but on a plank set on the ground, wrapped in a rough garment, with no possessions around her. As she was dying, brother and sister talked - about the soul, about the resurrection, about whether death should be feared - and Gregory later shaped that last conversation into a full philosophical dialogue, On the Soul and Resurrection, staged at her deathbed in the deliberate manner of Plato&#39;s own account of Socrates&#39; last hours. She died that evening. Gregory records his own grief plainly: he says he wept, and struggled through the funeral rites that followed. A crowd gathered for her burial at the family&#39;s estate chapel at Annisa, where earlier generations of the family already lay, together, in Gregory&#39;s own account, with a company of virgins she had gathered and led as the community&#39;s own mother-figure. Everything in this scene comes through Gregory&#39;s own literary hand - the Life of Macrina, composed shortly after, and the dialogue shaped from their last conversation. He was present and grieving. What we hear is a bereaved, literarily accomplished brother&#39;s account of his sister&#39;s death, in words he gives her, so far as any of them can be called hers rather than his.</p></div>
+      </details>
+      </div>
+      <div class="docstory-entry">
+      <h4>Basil Makes His Own Best Friend a Bishop of a Dusty Crossroads</h4>
+      <p class="meta">372, after Cappadocia was divided into two provinces</p>
+      <p class="teaser">To win a jurisdictional fight, Basil consecrates his closest friend to a posting with no water and no people of its own. Gregory never fully forgives him.</p>
+      <details class="docstory-item" id="cappadocian-nicene-pastoral-monastic-tradition-story-2">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>In 372, after Cappadocia was divided into two provinces, Basil moved to secure his own metropolitan authority against a rival bishop&#39;s competing claims over the new province&#39;s territory. He created new sees and consecrated allies to hold them - among them Sasima, a small, ill-favored posting at a dusty crossroads. He named his own close friend, Gregory of Nazianzus, to it. Gregory experienced the appointment as a wound: pressed into an office he had not sought, in a place he described with open contempt - a waystation, he said, without a people or a spirit of its own - and pressed there, as he understood it, more for Basil&#39;s jurisdictional need than for Gregory&#39;s own sake. He effectively refused the post, spending little time there before withdrawing to help his own aging father, then bishop of Nazianzus. What survives is entirely Gregory&#39;s own account - his bitter letters, his poems, the autobiographical De vita sua written years afterward - and no comparable record from Basil&#39;s own side has survived at all. A friendship forged in their student years at Athens, and never simply ended by this, carried the wound into everything that came after.</p></div>
+      </details>
+      </div>
+      </div>
+      </section>
+
+      <section aria-labelledby="legacy-title">
+        <p class="eyebrow">Legacy</p>
+        <h2 id="legacy-title">What came after</h2>
+        <div class="reading"><p>This world&#39;s own teachers did not stay local. Their names and their arguments became curriculum, liturgy, and law for later traditions. Those traditions trace themselves back through the councils this world lived through, and helped write. Orthodox, Catholic, and, more distantly, Protestant teaching all still argue in vocabulary this circle fought to place. But one thing is not so simple. Did the three teachers ever share one single, settled scheme? Or were these three related projects that later tradition flattened into one tidy story? That is now a live scholarly dispute. Even the letter most often used to prove their agreement is disputed, between two of them.</p></div>
+      </section>
+
+      <section aria-labelledby="relations-summary-title">
+        <p class="eyebrow">In its own record</p>
+        <h2 id="relations-summary-title">How this world relates to others</h2>
+        <p class="orient-relations"><i>This world had real neighbors who called on Christ differently. They were not invented opponents. One rival confessed the Son as merely like the Father. The imperial court backed that rival for most of this world&#39;s own lifetime. A sharper rival claimed one word could capture God&#39;s whole essence. It built its own rebaptizing church on that claim. A third rival was once close enough to have been this world&#39;s own ascetic reformer. He came to deny the Spirit&#39;s full standing. Basil&#39;s and Gregory of Nyssa&#39;s own treatises against the second rival survive. That rival&#39;s own voice survives almost nowhere else, except for one intact work of its own.</i></p>
+      </section>
+
+      <section aria-labelledby="sourcing-title">
+        <p class="eyebrow">Sources</p>
+        <h2 id="sourcing-title">What this account is built from</h2>
+        <div class="reading"><p>This world&#39;s record is richest in one place: the letters, sermons, and writings of Basil, Gregory of Nazianzus, and Gregory of Nyssa. That is one family, and one circle of friends. The record goes thin, or silent, in other places. No woman&#39;s own words survive on their own. The plateau countryside shows up only as crowds: fed in famine, or gathered at a feast. It never speaks for itself. Enslaved people appear only through laws about them, never in their own voice. And the losing side of nearly every fight here survives only inside the winning side&#39;s own case against it.</p>
+      <ul class="orient-read-first">
+      <li><span class="orient-read-first-work">Basil of Caesarea (c. 329/30-377), Basil&#39;s Letters, general corpus (300+ letters, c. 360s-370s)</span> <span class="orient-read-first-note">This world&#39;s single largest surviving voice - letters covering famine relief, ascetic legislation, imperial confrontation, and doctrine together. Treat its sheer volume as a named risk, not automatic corroboration: it is one man&#39;s own record of his own world.</span></li>
+      <li><span class="orient-read-first-work">Gregory of Nazianzus (c. 329/30-c. 390), Gregory of Nazianzus, Orations (general corpus; among ~245 letters, covers only Epp. 101, 102, 202)</span> <span class="orient-read-first-note">The most interior voice in this world&#39;s own record, including the funeral oration for Basil that also, unmistakably, still carries an old wound.</span></li>
+      <li><span class="orient-read-first-work">Gregory of Nyssa, Gregory of Nyssa, the Life of St. Macrina</span> <span class="orient-read-first-note">The only extended portrait of this world&#39;s most celebrated woman - entirely her brother&#39;s own literary composition, written after her death.</span></li>
+      </ul></div>
+      </section>
+
+      <!-- Judgment call (flagged in this generator's own report): the glossary
+           and pull-quotes fields are the two world_front units with no section
+           of their own in the old hand-built pages. Rather than two more
+           full-width sections, they share one compact strip - pull quotes as
+           blockquotes, then a small glossary grid - placed after Sources and
+           before the closing Questions section. -->
+
+      <section aria-labelledby="glossary-and-quotes-title">
+        <p class="eyebrow">In this world's own words</p>
+        <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
+        <div class="orient-pull-quotes">
+      <blockquote class="orient-pull-quote"><p>Here is what I mean. What is spoken of in a special, particular way is named by the word hypostasis. Suppose we say &quot;a human being&quot; - the word is vague; it points to the nature in general, but not to any one particular person who exists. Suppose instead we say &quot;Paul.&quot; Now, by the name itself, we point to a particular, existing nature.</p><cite>Letter XXXVIII, To his brother Gregory (transmitted as Basil&#39;s; a substantial body of modern scholarship reassigns it to Gregory of Nyssa - see divergence_note)</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>It shouldn&#39;t strike anyone as strange that God was born into our nature. Not if you actually look at the universe and see God present in everything - holding it all together, filling it. Everything that exists depends on him. Nothing exists apart from him. So why call it scandalous that God was born among us - the same God who was never really absent from us to begin with?
+
+      Here is the difference. Before, he sustained our nature invisibly, from within it. Now, at the incarnation, he was poured directly into our nature - so that our nature itself, through that union, might become divine. Rescued from death, and placed beyond the reach of our enemy&#39;s schemes. His own rising from death becomes, for the rest of us mortals, the beginning of our own rising into unending life.</p><cite>Gregory, bishop of Nyssa</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>When the young man died, the marriage her father had arranged for her was undone. But she said the arrangement itself counted as good as an actual marriage. So she resolved to stay single from then on, as if the marriage had really taken place. Her resolve held firmer than anyone would have expected from someone her age.
+
+      Her parents kept bringing her fresh proposals - her beauty attracted many suitors. Each time, she said the same thing. It made no sense, she said, and it wasn&#39;t right, to break faith with the marriage her father had already arranged, just to consider someone else. By nature, she said, a person has only one marriage. Just as they have one birth and one death.
+
+      She insisted that the man bound to her by her parents&#39; arrangement was not dead. Because of the hope of the resurrection, she believed he was alive with God - only away, not gone. So it would be wrong, she said, not to stay faithful to a husband who was merely absent.</p><cite>Gregory of Nyssa, narrating Macrina&#39;s own reasoning</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>Some of you try to get out of work by claiming prayer or psalm-singing needs the time instead. But understand: every task has its own proper hour, just as Ecclesiastes says, &quot;There is a time for everything.&quot; Prayer and psalm-singing are different. Any hour at all will do for those.
+
+      So we can praise God with psalms, hymns, and spiritual songs while our hands stay busy at work. Aloud, if the task allows it, and it won&#39;t pull anyone else&#39;s mind off the faith. Silently in the heart, if it won&#39;t. Either way, we give thanks to the God who gave us the strength to work with our hands, and the sense to know how. He also supplied the tools we use and the trade we practice, whatever that work may be. And we pray, too, that what our hands make will be aimed at pleasing him.</p><cite>Basil, bishop of Caesarea</cite></blockquote>
+      </div><dl class="orient-glossary">
+      <div class="orient-glossary-item"><dt>ousia / hypostasis</dt><dd>Ousia means what God is: one being. Hypostasis means who God is: Father, Son, and Holy Spirit, each a real, distinct someone. Together the two words let us confess one God in three, without three gods and without blurring the three into one costume.</dd></div>
+      <div class="orient-glossary-item"><dt>homoousios</dt><dd>We did not invent the word homoousios -- we inherited it from the Council of Nicaea and treated it as a banner to defend. It meant the Son is fully, exactly what the Father is, not merely similar to him.</dd></div>
+      <div class="orient-glossary-item"><dt>eusebeia</dt><dd>We had one word for our whole aim: eusebeia, reverence. The same word covers a careful, exact confession of God and a right, generous use of money and power. Getting a doctrine wrong and hoarding grain from the hungry were, in our own accusation, failures of the same virtue.</dd></div>
+      <div class="orient-glossary-item"><dt>hēsychia</dt><dd>Our own greatest figures loved a retreat where prayer, work, and reading Scripture ordered a whole quiet day. But the same men were pulled, again and again, from that quiet into ordination and public office. We never let stillness become the whole goal of a Christian life.</dd></div>
+      <div class="orient-glossary-item"><dt>philoptōchia</dt><dd>We preached that the poor bear the image of God. Whatever a person keeps beyond their own need, we said, already belongs to the hungry. In famine, that belief became grain shamed out of hoarders. Outside one city, it became a permanent guest-house, infirmary, and leper-house.</dd></div>
+      </dl>
       </section>
 
       <section aria-labelledby="questions-title">
         <p class="eyebrow">Questions people bring to this table</p>
         <h2 id="questions-title">Start with the hard one</h2>
-        <div class="reading">
-          <ul class="questions">
-            <li><a href="../talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview&amp;from=traditions%2Fcappadocian-nicene-pastoral-monastic-tradition.html" data-ask>Was the Spirit God too, in the same sense the Father is?<span class="vh"> — ask Chilo</span></a><span class="from">Basil, <i>On the Holy Spirit</i> — the doxology that split a congregation.</span></li>
-            <li><a href="../talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview&amp;from=traditions%2Fcappadocian-nicene-pastoral-monastic-tradition.html" data-ask>How did you come to believe in Jesus?<span class="vh"> — ask Chilo</span></a><span class="from">Gregory of Nazianzus, <i>Oration</i> 28.</span></li>
-            <li><a href="../talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview&amp;from=traditions%2Fcappadocian-nicene-pastoral-monastic-tradition.html" data-ask>What did women's leadership look like among your people?<span class="vh"> — ask Chilo</span></a><span class="from">Gregory of Nyssa, <i>Life of Macrina</i>.</span></li>
-            <li><a href="../talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview&amp;from=traditions%2Fcappadocian-nicene-pastoral-monastic-tradition.html" data-ask>How did your people make sense of suffering?<span class="vh"> — ask Chilo</span></a><span class="from">Basil and Gregory of Nyssa, homilies on the Forty Martyrs of Sebaste.</span></li>
-          </ul>
-        </div>
+        <ul class="questions">
+      <li><a href="../talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&mode=interview&from=traditions%2Fcappadocian-nicene-pastoral-monastic-tradition.html" data-ask>Who was Jesus, to you and your people?<span class="vh"> — ask Chilo</span></a><span class="from">doctrinal witness: “Jesus was the ground everything else in our life stood on. At the font we were signed into his name, Father, Son, and Holy Spirit together, and taught to…”</span></li>
+      <li><a href="../talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&mode=interview&from=traditions%2Fcappadocian-nicene-pastoral-monastic-tradition.html" data-ask>Was Jesus God? Did you believe in the Trinity?<span class="vh"> — ask Chilo</span></a><span class="from">doctrinal witness: “Was Jesus God? We would find the question strange only in being asked as open.”</span></li>
+      <li><a href="../talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&mode=interview&from=traditions%2Fcappadocian-nicene-pastoral-monastic-tradition.html" data-ask>What did Jesus teach that mattered most among you?<span class="vh"> — ask Chilo</span></a><span class="from">story: “In the years before Basil became bishop, drought struck Caesarea and its countryside. The harvest failed, and grain grew scarce and dear.”</span></li>
+      </ul>
       </section>
+
     </div>
   </div>
 </main>
@@ -247,7 +388,6 @@ p{margin:0 0 1rem}
   <h2 id="door-title">Come and join us at the Table</h2>
   <div class="actions">
     <a class="btn" id="door-begin" href="../talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview&amp;from=traditions%2Fcappadocian-nicene-pastoral-monastic-tradition.html" data-ask>Begin a conversation with Chilo</a>
-    <a class="btn quiet" id="door-bring" href="../table.html?worlds=cappadocian-nicene-pastoral-monastic-tradition">Bring Chilo to the Table</a>
   </div>
   <p class="also">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
   <p class="also"><a href="../index.html#who">The other six chairs →</a></p>

@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - "participant asks about persecution, deposition, or exile suffered by this world's own leaders"
   - "participant asks how the imperial contest reached this world's clergy directly"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.figure.gregory-of-nyssa

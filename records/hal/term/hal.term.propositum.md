@@ -25,7 +25,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - what a vowed ascetic resolve or way of life was called in this period
-  do_not_retrieve_when:
+  prefer_instead:
   - presenting this as a term directly quoted from Jerome about these specific four women
 relations: []
 plain_meaning: The vow behind a chosen ascetic life - real period wording, not quoted for these four

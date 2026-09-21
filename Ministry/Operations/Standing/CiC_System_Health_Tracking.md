@@ -924,3 +924,72 @@ needed on its own.
 `#229`, `#197`) unchanged since the last sweep — no failure
 notifications arrived for any of them between sweeps, consistent with
 still green.
+
+---
+
+## 2026-09-21 — PR #346 merged directly into `live`: promotion procedure
+## bypassed, flagged as an accepted exception, not unwound
+
+**What happened:** PR #346 (previous entry, above) was merged directly into
+`live` at commit `e693b048` (merged_at 2026-09-21T09:34:15Z), base `5a9938c9`.
+Confirmed via the GitHub API directly, not taken on the handoff's word: the
+PR's `merged_by` is `mchadwick25-droid` — the same account that authored the
+PR and owns this repository — so the merge was executed by Mark's own GitHub
+account. This bypassed the procedure in `CiC_Promotion_Runbook.md` in full:
+no PR from `main` into `live`, no verification pass on `cic-engine-staging`
+first. The runbook's own text is explicit that this is the one procedure
+meant to gate everything reaching `live`: "Nothing merges to `live` directly."
+
+**Why:** a prior session on this same thread believed `live` was the branch
+Cloudflare deploys the public website (`cic-website/`) from, and merged
+directly to get the who-is-at-the-table card redesign live faster. That
+belief was wrong — confirmed against `README.md` and the runbook itself:
+`live` drives only `cic-engine` (Render, the backend); `cic-website`
+deploys via Cloudflare Workers Build, a separate pipeline the runbook
+explicitly does not touch, and whose branch is a decision the runbook
+says outright is "not yet made." Mark authorized and executed the direct
+merge himself, aware it was going into `live` rather than through the
+normal `main` → `live` path.
+
+**Decision (Mark's, explicit, this thread):** leave `live`'s history as
+committed rather than revert or unwind the merge. Log this as a flagged,
+accepted exception rather than treat it as an emergency requiring
+correction. The website-relevant subset of the same content was
+separately brought to `main` (where Cloudflare's production deployment
+actually reads from) via PR #351, opened the same day — that PR does not
+fix or touch anything about this exception; it is a parallel, independent
+action.
+
+**Open, unresolved (at the time this entry was first written):** whether
+`cic-engine` (Render) is actually pointed at `live` at all right now
+cannot be confirmed from this sandbox — Render's dashboard is not
+reachable here (egress-blocked, per the runbook's own 2026-09-15 note),
+and the runbook's own one-time setup steps that would make `live` the
+real production branch are dashboard-only and stated as not yet
+confirmed done. Per the runbook's own caveat, `cic-engine` "keeps
+deploying from whatever branch Render's dashboard already has it connected
+to, almost certainly still `main`" until that setup is complete. If that
+is still the case, this exception's real production impact is smaller
+than the bypassed procedure would suggest — but that can only be settled
+by Mark checking Render's dashboard directly, not from here. Stated as an
+open unknown, not assumed either way.
+
+---
+
+## 2026-09-21 — Render confirmed: `cic-engine` deploys from `live`
+
+**Closes the open question above.** Mark checked Render's dashboard
+directly (this sandbox still cannot reach it) and confirmed: the
+`cic-engine` service's Settings → Build & Deploy branch is set to `live`,
+with a green (healthy) status at the top of the service page. The
+promotion runbook's one-time setup (`CiC_Promotion_Runbook.md`'s step 2,
+pointing `cic-engine` at `live` via the Render Blueprint sync) has
+happened — this is no longer the "almost certainly still `main`" default
+state the runbook's own caveat assumed.
+
+Practical effect on the exception logged above: PR #346's direct merge
+into `live` did reach real participant-facing production, not a branch
+Render was ignoring. The exception itself is unchanged (still logged,
+still not reverted, per Mark's own decision above) - this entry only
+corrects the previously-open question about its actual production impact,
+which is no longer smaller than the bypassed procedure would suggest.

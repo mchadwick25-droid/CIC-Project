@@ -26,7 +26,6 @@ retrieval:
   - "participant asks how the stages of this life fitted together"
   - "participant asks what the fasting, the silence and the discipline were actually for"
   - "participant asks what apatheia was for, or what came after it"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.apatheia

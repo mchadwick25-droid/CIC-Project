@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - what a formed life looked like to this world
   - Paula's life and death as remembered
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.gravity.ascetic-renunciation

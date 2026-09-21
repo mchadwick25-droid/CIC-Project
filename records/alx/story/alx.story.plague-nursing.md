@@ -28,7 +28,6 @@ retrieval:
   retrieve_when:
   - sickness, death, plague, care for the dying
   - how the community treated outsiders' judgment
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.quote.dionysius-plague

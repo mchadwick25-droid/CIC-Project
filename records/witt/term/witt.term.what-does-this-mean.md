@@ -25,7 +25,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - the catechism's own question-and-answer form
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the catechism's content broadly (retrieve catechism)
 relations:
 - type: associated-with

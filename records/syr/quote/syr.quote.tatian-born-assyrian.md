@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether they felt themselves outsiders to the Greek world"
   - "participant asks what it cost to belong to a people the empire thought barbarian"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: syr.gravity.diatessaron-normative}
 ---

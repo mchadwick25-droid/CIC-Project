@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Was there room for doubt? There was room for questions - hard ones, pressed
   hard. The most learned woman in Rome made a habit of refusing to accept the

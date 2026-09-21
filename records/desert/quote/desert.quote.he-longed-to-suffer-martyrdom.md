@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether wanting to die as a martyr was a death wish"
   - "participant asks what these people thought about dying for the faith"
   - "participant asks whether they sought out persecution"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.death-wish

@@ -41,7 +41,7 @@ retrieval:
   - sacrament, in general
   - how many sacraments we count, and why
   - what makes something a sacrament
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means one specific sacrament's own content (retrieve baptism, or Sacrament of the
     Altar, or confession/absolution)
 relations:

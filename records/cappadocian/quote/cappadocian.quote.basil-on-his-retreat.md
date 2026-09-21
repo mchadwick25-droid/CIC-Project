@@ -46,7 +46,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world's way of life has anything for someone who can't quiet their
     own head"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.stillness-and-the-summons

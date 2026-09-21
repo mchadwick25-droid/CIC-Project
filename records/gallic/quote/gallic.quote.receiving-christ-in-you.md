@@ -28,7 +28,7 @@ retrieval:
   - "participant asks whether Jesus would have wanted anything to do with someone like them, or how a stranger was received"
   - "participant asks about hospitality, guests, or when a fast could be broken"
   - "participant asks how this world saw Christ in other people"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant is asking what a house in Gaul did with a guest - the setting here is Egypt, and Cassian records no Gallic instance"
 text: >-
   The opportunity for fasting is always with me. But as I am going to

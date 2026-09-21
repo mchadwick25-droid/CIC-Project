@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether a woman could question a teacher and argue back"
   - "participant asks what study together actually looked like"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 127 sec.
 7; 'them' = the scriptures, from the preceding sentence). Marcella's

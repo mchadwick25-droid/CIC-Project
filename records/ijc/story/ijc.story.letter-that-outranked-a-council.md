@@ -23,7 +23,7 @@ retrieval:
   retrieve_when:
   - the earliest evidence for Rome's primacy claim
   - Julius, or how Rome reviewed another church's judgment
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant asks about Athanasius's own theology or career, which belong to other worlds
 relations:
 - {type: illustrates, target: ijc.gravity.primacy-claiming}

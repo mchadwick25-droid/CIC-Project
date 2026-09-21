@@ -46,7 +46,7 @@ retrieval:
   retrieve_when:
   - the pope, papacy, or 'Antichrist'
   - why we speak of the pope differently in different settings
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the devil generally, of whom the pope is one instrument (retrieve the devil)
 relations:
 - type: associated-with

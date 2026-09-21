@@ -21,7 +21,6 @@ retrieval:
   retrieve_when:
   - singing, psalms, or the night vigil practice
   - how ordinary, non-literate believers learned doctrine
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.doxologia

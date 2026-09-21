@@ -2,7 +2,7 @@
 ## Round 26 Independent Adversarial Review — scoped to the banner-stripping rewrite of `Doc_02_Source_Ecology.md` (commit `acb3396`) against its own pre-rewrite text, and to the self-reported figures in the new Decision Log entry that records it
 
 **Documents reviewed (committed state — `git status --porcelain` clean, 0 lines, at `acb3396`, "lpc: strip inline correction banners from Doc_02, by project lead's direction", 2026-09-08 12:08:05 UTC, on branch `claude/record-native-world-build-v2-yq11wl`):**
-- `worlds/lpc/Doc_02_Source_Ecology.md` at `acb3396` (156 lines, 12,280 words) read in full, §1 through §10
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md` at `acb3396` (156 lines, 12,280 words) read in full, §1 through §10
 - The same file at `1e01153` (162 lines, 15,596 words), extracted with `git show 1e01153:…` — the pre-rewrite text Round 25's own fix pass left in place — and compared against HEAD hunk by hunk at word level (`git diff --word-diff=plain --word-diff-regex='[^[:space:]]+' -U0`, 32 hunks, every one read)
 - `lpc_Decision_Log.md` (364 lines) — the new final entry, "2026-09-08 — Doc_02 rewritten to remove inline correction banners, by the project lead's own direction," read clause by clause, and every one of its six numeric/structural self-claims recomputed independently; the log's own entry headings enumerated and counted by date
 - `Source_Registry.md` (212 rows re-parsed by leading numeric cell; line 8 read directly for the §3 checkpoint-rule cross-reference) and `Source_Acquisition_Manifest.md` (read for inbound references to Doc_02 §10)

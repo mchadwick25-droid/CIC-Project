@@ -20,7 +20,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Could someone divorced belong here? Could they marry again? We did
   not answer with a ruling. Our answer was Fabiola, and we kept her story

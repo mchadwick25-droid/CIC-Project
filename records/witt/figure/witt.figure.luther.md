@@ -53,9 +53,9 @@ retrieval:
   tier: 1
   retrieve_when:
   - a participant asks who Luther was, or wants any of the nine stories this library holds him in
-  do_not_retrieve_when:
-  - a participant wants a biographical detail this library does not attest - no birth date, no physical
-    description, no personal anecdote beyond what the nine linked stories themselves state
+claim_guards:
+- a participant wants a biographical detail this library does not attest - no birth date, no physical
+  description, no personal anecdote beyond what the nine linked stories themselves state
 names:
 - name: Doctor Martin Luther
   tag: in-world

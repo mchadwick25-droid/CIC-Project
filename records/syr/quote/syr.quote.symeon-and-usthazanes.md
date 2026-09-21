@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what outsiders or rulers thought of these people"
   - "participant asks whether they were persecuted and why"
   - "participant asks how they got along with the empire they lived under"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.outsiders-empire

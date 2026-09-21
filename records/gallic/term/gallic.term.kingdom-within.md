@@ -30,7 +30,7 @@ retrieval:
   - why walls and deserts cannot protect an impatient heart
   - participant uses "kingdom within," "Luke 17:21," "interior kingdom"
   - Conf. I.13 or XVIII.16
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the goal/end pair (retrieve goal and end)
   - the kingdom as eschatological end only
   - Tours, where the reading is not used

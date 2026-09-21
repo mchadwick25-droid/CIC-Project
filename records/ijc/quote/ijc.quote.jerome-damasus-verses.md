@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - "participant asks how Rome advanced its own standing"
   - "participant asks what a bishop did with the tombs of the martyrs"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
 ---

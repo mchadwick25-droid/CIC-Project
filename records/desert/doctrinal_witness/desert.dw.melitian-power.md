@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - "participant asks about a rival or schismatic community and how this world treated them"
   - "participant asks whether this world recognized other ascetic groups as fellow participants"
-  do_not_retrieve_when: []
 text: >-
   There was another community near us, holding to a different bishop after an
   old dispute, and we did not treat them as fellow ascetics. The one we

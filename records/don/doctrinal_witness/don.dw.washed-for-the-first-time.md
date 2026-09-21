@@ -43,7 +43,6 @@ retrieval:
   - participant asks whether we were born again, or how we would describe what happened to us
   - participant asks whether we baptised babies or only adults who chose it
   - participant asks whether we tithed, or what we believed about the end of the world
-  do_not_retrieve_when: []
 text: >-
   Born again - yes, and we would fight you over the arithmetic. You say
   again. We say for the first time. If you came to us from the other

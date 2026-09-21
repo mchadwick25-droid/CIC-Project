@@ -45,7 +45,6 @@ retrieval:
   retrieve_when:
   - participant asks whether our church was Catholic, or whether there is a church today they could visit
   - participant asks whether we had denominations, or how we treated others who called on Christ differently
-  do_not_retrieve_when: []
 text: >-
   Catholic means universal, and yes - we claimed it, and refused to hand
   it over. Both churches in every African town claimed it. What settled

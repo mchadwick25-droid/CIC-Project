@@ -24,7 +24,6 @@ retrieval:
   - Callinicum, or Ambrose's leverage used to shield wrongdoing rather than restrain it
   - whether sacramental leverage in this world was ever used for something other than restraining state violence
   - the church's own treatment of Jewish communities in this window
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}

@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - baptism questions
   - born-again translational questions
-  do_not_retrieve_when: []
 plain_meaning: 'Illumination: the light given at baptism. To be baptized was called being enlightened.'
 world_word: photismos
 false_friend:

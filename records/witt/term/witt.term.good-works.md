@@ -35,7 +35,7 @@ retrieval:
   retrieve_when:
   - good works
   - whether faith alone means works do not matter
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means merit specifically (retrieve merit)
 relations:
 - type: associated-with

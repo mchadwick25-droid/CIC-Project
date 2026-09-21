@@ -30,7 +30,6 @@ retrieval:
   - "participant asks who Jesus was to this world in practice, not in doctrine"
   - "participant asks whether these people thought their own holiness did the work"
   - "participant asks what these people thought Jesus was still doing among them"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.quote.when-the-cross-of-christ-arose

@@ -30,7 +30,7 @@ retrieval:
   retrieve_when:
   - "participant asks how belief disputes were actually decided among us, and who had the right to decide"
   - "participant has heard that a council 'voted Jesus into being God'"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants our own eyewitness account of the Diet's own proceedings -- our library holds the Confession's own text and signatures, not a narrated account of the room"
 text: >-
   When belief was disputed in our own history, no council of bishops sat

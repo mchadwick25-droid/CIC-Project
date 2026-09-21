@@ -34,7 +34,6 @@ retrieval:
   - "participant asks how a bishop was chosen and what happened when it was contested"
   - "participant asks whether these elections turned violent"
   - "participant presses this world on violence done from inside it"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
 - {type: associated-with, target: ijc.limit.earlier-windows}

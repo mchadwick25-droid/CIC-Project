@@ -28,6 +28,5 @@ retrieval:
   retrieve_when:
   - "participant asks whether their buildings survived and what happened to them"
   - "participant asks about disaster, flood, or destruction in their city"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Cowper's translation). The oldest hard line of this world's existence; the interpolation dispute (Bauer vs Barnard) is carried in syr.story.edessa-flood-201.

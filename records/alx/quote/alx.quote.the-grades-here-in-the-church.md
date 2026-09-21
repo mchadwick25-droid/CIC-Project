@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether this world's church is the same as any church today"
   - "participant asks what their leaders were called and how they were ranked"
   - "participant asks whether they had bishops"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.episkopos

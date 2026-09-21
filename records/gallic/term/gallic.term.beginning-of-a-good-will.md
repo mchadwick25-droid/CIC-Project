@@ -50,7 +50,7 @@ retrieval:
   - Conf. XIII.11's question - Paul and Matthew against Zaccheus and the thief
   - the spark struck from flint
   - Praed. ch. 3
-  do_not_retrieve_when:
+  prefer_instead:
   - the broader doctrine of grace or free will is the question (retrieve grace (of God) or free will)
   - the participant means the beginning of the monastic life (retrieve conversion)
   - any attempt to source this term from Salvian - his text is not licensed for the grace question

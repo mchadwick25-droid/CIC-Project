@@ -33,7 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks what ordinary people did when their church was threatened"
   - "participant asks what they sang and why singing started"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
 ---

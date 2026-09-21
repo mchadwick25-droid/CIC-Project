@@ -25,7 +25,7 @@ retrieval:
   - participant asks what this movement actually believed made a sacrament valid or invalid
   - participant asks for this movement's own core doctrine in its own words, not a paraphrase
   - conversation reaches the traditor-purity doctrine and needs its own founding statement
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants Augustine's own counter-argument rather than Petilian's own proposition (this record
     quotes only Petilian's own words, not Augustine's reply, though don.figure.augustine is linked as
     the transmitting author)

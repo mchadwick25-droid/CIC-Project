@@ -40,7 +40,7 @@ retrieval:
   - participant asks about the Macarian persecution of 347-348
   - participant wants our fullest account in the hagiographic register, as against the more documentary
     don.story.macrobius-letter
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants a minimally embellished account of the same persecution - don.story.macrobius-letter
     has a named author writing close to the events
   - participant is testing whether the rival communion accepted these deaths as martyrdom; it did not,

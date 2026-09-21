@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - participant asks how Zwingli actually died
   - participant asks what it was like in Zurich on the day of the Second Battle of Kappel
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the doctrinal content of what Zwingli taught
 relations:
 - type: associated-with

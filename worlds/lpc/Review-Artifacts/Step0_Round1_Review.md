@@ -1,7 +1,7 @@
 # Step 0 — Movement-Scope Confirmation: Latin Pastoral-Congregational Christianity
 ## Round 1 Independent Adversarial Review
 
-**Document reviewed:** `worlds/lpc/Step0_Movement_Scope_Confirmation.md` (DRAFT, dated 2026-09-01)
+**Document reviewed:** `World-Builds/Latin-Pastoral-Congregational-Christianity/Step0_Movement_Scope_Confirmation.md` (DRAFT, dated 2026-09-01)
 **Review date:** 2026-09-01
 **Reviewer:** independent adversarial review thread; did not draft the document under review
 **Governed by:** `cic-build-cycle` (CO-022) *Review* section — factual/historical accuracy of every substantive claim, internal consistency, source-attribution discipline, and whether the document does the job this stage requires
@@ -97,7 +97,7 @@ That section also records that an earlier hal draft was **corrected for a method
 **What's wrong.** The category is real; the citation around it is not.
 
 - "Formation Narrative Sources" is a genuine Construction Framework term — but it is a **Step 2 / Doc_02** activity, not a Step 0 Section B criterion. In CF V7.4, "Assess Formation Narrative Sources" appears in the activity list under "Step 2 — Source Ecology and Source Registry," and the evaluation guidance ("For each formation narrative source evaluate: authorship and date, proximity to the events or persons described, genre conventions...") sits in Part II — Evidence Development, which is Step 2's part, not Step 0's. Step 0 is described in CF V7.4 at the top of the step sequence and produces a seed list only.
-- **Neither Hieronymian nor Desert Monasticism has a B1 score.** Neither world has a per-world Step 0 confirmation document — the only two files of this type in the entire repository are `worlds/ijc/Step0_Movement_Scope_Confirmation.md` and the document under review. A repository-wide search for Section-B "B1" reasoning returns exactly those two files (all other `B1` hits are Facilitation Brief section headings, an unrelated business-plan item, and one Atlas spec line that explicitly says "A signal, not a B1 score"). The portfolio-level Step 0 Conclusion records no per-criterion scores for any of the nine selected worlds.
+- **Neither Hieronymian nor Desert Monasticism has a B1 score.** Neither world has a per-world Step 0 confirmation document — the only two files of this type in the entire repository are `World-Builds/Imperial-Juridical-Christianity/Step0_Movement_Scope_Confirmation.md` and the document under review. A repository-wide search for Section-B "B1" reasoning returns exactly those two files (all other `B1` hits are Facilitation Brief section headings, an unrelated business-plan item, and one Atlas spec line that explicitly says "A signal, not a B1 score"). The portfolio-level Step 0 Conclusion records no per-criterion scores for any of the nine selected worlds.
 - The two places "formation narrative source" is genuinely used for these worlds confirm the misattribution: `records/hal/source/hal.source.jerome-vita-hilarionis.md` and `...vita-malchi.md` both give `discovery_channel: "prior HAL build Doc_02 section 5 (formation narrative sources)"` — Doc_02, not Step 0.
 
 **Why it matters.** This is a bare fabrication of a prior project finding, offered as corroboration in the criterion the document rates most strongly ("arguably the strongest of any world confirmed so far"). CO-022 exists in its current form partly because of this exact failure class; the Step 0 Conclusion itself adopted a "Provenance-accuracy discipline" rule in direct response to one instance of it: "A finding may not be described as 'confirmed against' a source, or as a pre-existing mechanism rather than a new proposal, unless that is actually verifiable in the named source."
@@ -233,7 +233,7 @@ A seven-book anti-Donatist polemic is currently assigned to **this world**, as `
 
 **Where.** §0: IJC is "**the only other world so far** to run this per-world confirmation pattern against the formal Methodology text." §3 B3 and §4 item 2: Donatism "is, per this session's own discovery, under active parallel construction on a sibling branch not visible to this working tree."
 
-**What's wrong.** The Donatism build was verified during this review and the claim about it is true — `worlds/don/` exists on `origin/claude/record-native-world-build-v2-e2s0dt`. But the entire contents of that directory is **one file**: `Step0_Movement_Scope_Confirmation.md`, dated 2026-09-01, in this same format, following the same IJC precedent (its §0 cites `worlds/ijc/Step0_Movement_Scope_Confirmation.md` by path as "the first per-world confirmation run against the formally codified Section A/B text").
+**What's wrong.** The Donatism build was verified during this review and the claim about it is true — `World-Builds/Donatism/` exists on `origin/claude/record-native-world-build-v2-e2s0dt`. But the entire contents of that directory is **one file**: `Step0_Movement_Scope_Confirmation.md`, dated 2026-09-01, in this same format, following the same IJC precedent (its §0 cites `World-Builds/Imperial-Juridical-Christianity/Step0_Movement_Scope_Confirmation.md` by path as "the first per-world confirmation run against the formally codified Section A/B text").
 
 So the discovery §3 reports *is* the discovery of a third instance of the pattern — which §0 denies in the same document.
 
@@ -245,7 +245,7 @@ So the discovery §3 reports *is* the discovery of a third instance of the patte
 
 **Where.** §2, A5: "so no live cross-document check is possible; the boundary is logged here as binding on Doc_01/Doc_02, to be reconciled against Donatism's own build when the two branches are eventually merged." Repeated in §3 B3 and §4 item 2.
 
-**What's wrong.** The branch is fetched into this repository and its contents are readable without merging or checking out — `git show origin/claude/record-native-world-build-v2-e2s0dt:worlds/don/Step0_Movement_Scope_Confirmation.md` returns the file. "Not visible to this working tree" is true of the working directory and false of the repository.
+**What's wrong.** The branch is fetched into this repository and its contents are readable without merging or checking out — `git show origin/claude/record-native-world-build-v2-e2s0dt:World-Builds/Donatism/Step0_Movement_Scope_Confirmation.md` returns the file. "Not visible to this working tree" is true of the working directory and false of the repository.
 
 CO-022's *Review* section: "**A review finding is never dismissed as a tooling or environment artifact — a stale cache, a mount discrepancy, and so on — without independent re-verification that actually confirms the dismissal.**" The same standard applies to a builder dismissing a check as impossible for an environment reason.
 
@@ -359,13 +359,13 @@ The following were verified directly rather than assumed, and no defect was foun
 
 **Build-status claims — all correct:** Alexandria (`alx`), Hieronymian (`hal`), and IJC (`ijc`) are built (present in `records/` and `packages/`); Donatism (#4) and Cappadocian (#5) are "Selected, Not Yet Built" per `cic/corpus-map/ATLAS-TARGETS.md` and the Atlas spec.
 
-**The Donatism parallel-build claim is TRUE, not fabricated.** `worlds/don/` exists on `origin/claude/record-native-world-build-v2-e2s0dt`. This was specifically suspected as an unverifiable session-assertion and checked; it holds up. The finding at M7 concerns the *impossibility* claim attached to it, not the existence claim.
+**The Donatism parallel-build claim is TRUE, not fabricated.** `World-Builds/Donatism/` exists on `origin/claude/record-native-world-build-v2-e2s0dt`. This was specifically suspected as an unverifiable session-assertion and checked; it holds up. The finding at M7 concerns the *impossibility* claim attached to it, not the existence claim.
 
 **CO-022 named failure modes:**
 - **(a) Attribution to "the project lead"/"Mark" without a verbatim, sourced quote — CLEAN.** The strings "Mark" and "project lead" do not appear anywhere in the document. Nothing is attributed to the project lead, directly or by implication. (Note for the revision: the Optatus row at M5 *does* carry an open question addressed to Mark in the corpus map — surfacing it would be a legitimate carry-forward, not an attribution.)
 - **(b) Content described as "shown" or "checked" that wasn't — NOT clean.** See H1, H2, H3, and M7. The document's four "shown"/"as shown above" usages all refer accurately to its own §2 reasoning; the failures are in "on a live check," "No live overlap check needed," "strengthened... B1 scores," and "no live cross-document check is possible."
 - **(c) Fabricated citation or fact — one instance, H3.** The `formation narrative source` / B1-scores claim. Everything else that looked like a candidate fabrication (the `ijc.source.augustine-confessions` identifier, the corpus-map file, the Donatism parallel build, the CF "Strand is a finding" quote, the "Framework Part II" attribution) turned out to be real; the identifier and the CF quotation in particular are correct. H3 is the sole clean fabrication.
-- **(d) Build output outside the canonical folder — CLEAN.** The document is at `worlds/lpc/`, which is correct.
+- **(d) Build output outside the canonical folder — CLEAN.** The document is at `World-Builds/Latin-Pastoral-Congregational-Christianity/`, which is correct.
 
 **Disposition discipline — CLEAN.** The status line reads "DRAFT — pending independent adversarial review," no disposition is self-assigned, "Frozen" is not claimed, and §6 correctly closes with "Pending: independent adversarial review (Round 1). Not yet dispositioned."
 

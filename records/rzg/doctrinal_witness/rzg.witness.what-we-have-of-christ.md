@@ -23,7 +23,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks what evidence or memory this world actually has of Jesus, or how it reached them
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.term.sola-scriptura

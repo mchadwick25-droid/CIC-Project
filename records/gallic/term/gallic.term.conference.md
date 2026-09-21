@@ -38,7 +38,7 @@ retrieval:
   - what happened after supper in an Egyptian cell
   - participant uses "conference," "conversation," "dialogue," "discourse," or "Q&A"
   - Serapion's confession at "the customary Conference," Cassian's monks receiving the fathers "into their cells," or Gennadius's word for the Dialogues
-  do_not_retrieve_when:
+  prefer_instead:
   - a Church council (retrieve council / synod)
   - a modern conference or meeting
   - Vincent's "Collatio" etymology of Symbolum, a trap for anyone searching the Latin

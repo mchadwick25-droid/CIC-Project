@@ -20,7 +20,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - how village-level church oversight worked
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: Our villages had their own lesser bishops. Each answered to the bishop of the
   nearest major city. Basil's own letters discipline this office directly. He forbids ordinations sold

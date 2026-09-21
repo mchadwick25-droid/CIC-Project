@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - "participant asks what an ordinary day actually looked like in one of this world's own brotherhoods"
   - "participant asks how prayer, work, obedience, and hospitality fit together in the daily rhythm"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: cappadocian.gravity.ascetic-reordering

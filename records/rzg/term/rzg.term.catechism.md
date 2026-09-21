@@ -28,7 +28,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks about catechism
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.term.sola-scriptura

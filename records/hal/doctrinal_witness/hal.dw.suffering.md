@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Where was God when it happened? We were not spared the question. We
   wrote from inside it. Rome fell in our own lifetime - the scholar's voice

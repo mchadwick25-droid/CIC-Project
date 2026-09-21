@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether these practices went back to the apostles or were invented later"
   - "participant asks who started this way of life"
   - "participant asks how old this discipline actually was"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.apostolic

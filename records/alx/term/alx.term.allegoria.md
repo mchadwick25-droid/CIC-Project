@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - how they read Scripture
   - Genesis/science and difficult-passage questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.quote.no-sun-no-moon-no-sky

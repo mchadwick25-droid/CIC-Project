@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant asks what this world never settled among itself"
   - "participant asks the hardest true thing about this world"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.they-appointed-the-first-fruits

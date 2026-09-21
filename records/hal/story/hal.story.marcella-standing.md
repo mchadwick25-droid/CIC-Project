@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - a woman's authority in this world
   - Marcella's standing among the Roman clergy
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.gravity.marcella-authority

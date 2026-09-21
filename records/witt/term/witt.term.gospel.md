@@ -38,7 +38,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - the Gospel specifically as content, not as 'the Bible'
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Word broadly (retrieve the Word)
   - the participant means Law and Gospel as the reading-grammar (retrieve Law and Gospel)
 relations:

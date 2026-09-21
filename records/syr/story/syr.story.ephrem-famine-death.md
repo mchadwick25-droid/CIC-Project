@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - how Ephrem died, or his last years at Edessa
   - concrete acts of charity, care for the sick, wealth and poverty in this world
-  do_not_retrieve_when:
+  prefer_instead:
   - questions about Ephrem's literary method (use the raza/madrasha material)
 relations:
 - type: illustrates

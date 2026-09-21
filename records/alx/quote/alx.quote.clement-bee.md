@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks how a teacher taught and what a class was like"
   - "participant asks who someone learned from and how teaching passed on"
-  do_not_retrieve_when: []
 ---
 Clement's tribute to his final teacher. PRECISION CAUTION (from the
 figure record): Clement does not name him; the identification with

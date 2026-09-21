@@ -33,7 +33,7 @@ retrieval:
   - participant asks about single-minded devotion, consecrated singleness, or celibate identity
   - participant asks about Christ as 'Only-Begotten' and its connections in this world's vocabulary
   - the relation of ascetic identity to Christ comes up
-  do_not_retrieve_when:
+  prefer_instead:
   - the qyama record alone already answers the question and the double meaning adds nothing
 relations:
 - type: associated-with

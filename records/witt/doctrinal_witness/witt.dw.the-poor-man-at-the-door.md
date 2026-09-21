@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - "participant asks what marriage meant to us, or whether we had weddings"
   - "participant asks how we looked at money and poverty, or whether we would call anyone among us rich"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants a description of an actual wedding day among us -- our library holds no such account"
 text: >-
   What did marriage mean to us -- did we have weddings? Marriage itself

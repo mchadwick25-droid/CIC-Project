@@ -43,7 +43,7 @@ retrieval:
   - the mass
   - whether we abolished the mass
   - sacrifice versus sacrament
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Supper's doctrine of presence specifically (retrieve Sacrament of the Altar)
 relations:
 - type: associated-with

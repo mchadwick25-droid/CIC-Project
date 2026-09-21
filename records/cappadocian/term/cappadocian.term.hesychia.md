@@ -30,7 +30,6 @@ retrieval:
   - the pull between solitude and public duty or service
   - why someone might flee then accept church office
   - burnout, retreat, or the desire to withdraw
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.askesis

@@ -1,0 +1,163 @@
+<!--
+  CIC tradition-page CONTENT template (Website V2 world_front design,
+  site cutover stage; project owner's ruling 2026-09-19: the rebuilt
+  tradition pages render the world_front's FULL content, not the old
+  3-section page).
+
+  This is not a whole HTML document and is never served on its own. It is
+  read and filled by tools/generate_tradition_pages.py, which splices the
+  result into the <div class="article"> block of each built world's own
+  EXISTING page at cic-website/traditions/<slug>.html - the title block,
+  portrait, ai-line, seat/CTA, door, footer and script (everything this
+  file does not contain) is that world's own chrome, preserved byte for
+  byte, never regenerated from this template or from any formula. See the
+  generator script's own module docstring for why: two of that chrome's
+  own fields (the portrait's alt text and the figcaption/ai-line prose)
+  exist nowhere as structured data, and a Representative's own identity
+  is a decision this project always asks about, never guesses at from a
+  formula (CLAUDE.md).
+
+  Simple string substitution, matching this codebase's own "no build
+  step" constraint (cic-website/README.md) - no templating engine, no
+  client-side rendering. Two marker conventions, both handled by the
+  generator:
+    {{TOKEN}}                         replaced with that section's own
+                                       rendered HTML (from
+                                       cic-website/assets/orientation-
+                                       render.mjs, run once at generation
+                                       time via tools/render_orientation_
+                                       cli.mjs - never re-rendered in the
+                                       browser).
+    <!--SECTION:key--> ... <!--/SECTION:key-->
+                                       the whole block is dropped for a
+                                       world whose compiled JSON has
+                                       nothing for that section (e.g. a
+                                       world_front that deliberately
+                                       leaves orientation.relations_summary
+                                       absent, per its own body notes).
+
+  The CSS below is additive only - new component classes this content
+  needs (the docstory-item disclosure convention shared with
+  atlas-v3.html's own panel, the glossary/pull-quote strip). It is
+  inserted once before each page's own closing </style>; every rule
+  already in a world's own <style> block is left untouched.
+
+  Card redesign (2026-09-21, project owner's ruling): the full card leads
+  with identity and substance, not evidentiary caution. Two sections that
+  used to run here are gone outright - "Who is speaking" (who_speaks, a
+  meta-summary of the voice roster) and "Where we are quiet" (quiet, a
+  section built entirely around evidentiary silence) - and the Voices
+  section below renders without its "This world's own hedge" callout
+  (tools/render_orientation_cli.mjs passes {showHedge: false} to
+  renderVoices for this template only; the Atlas panel keeps hedges,
+  since it imports the renderer directly with no opts). Gap/thinness
+  content isn't deleted from the project - it's exactly what a
+  participant reaches by asking the Representative directly - it's just
+  no longer pushed into the card's own default reading flow.
+-->
+<style id="tradition-content-css">
+.orient-voices{display:flex;flex-direction:column;gap:1.1rem}
+.orient-voice{max-width:var(--measure)}
+.orient-voice-name{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--text);margin:0 0 .3rem}
+.orient-voice-dates{font-weight:400;color:var(--muted)}
+.orient-voice-text{font-size:1.0625rem;line-height:1.6}
+.docstories-row{display:flex;flex-direction:column;gap:1.3rem;max-width:var(--measure)}
+.docstory-entry h4{font-family:var(--serif);font-size:1.1rem;margin:0 0 .25rem}
+.docstory-entry>.meta{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:0 0 .3rem}
+.docstory-entry>.teaser{font-style:italic;color:var(--muted);margin:0 0 .5rem}
+details.docstory-item{border:1px solid var(--rule);border-radius:4px;background:var(--surface);padding:.15rem .9rem}
+details.docstory-item summary{cursor:pointer;list-style:none;font-family:var(--sans);font-weight:600;font-size:.875rem;padding:.6rem 0;color:var(--action)}
+details.docstory-item summary::-webkit-details-marker{display:none}
+details.docstory-item summary::before{content:"\25B8";display:inline-block;margin-right:.5rem;transition:transform .15s}
+details.docstory-item[open] summary::before{transform:rotate(90deg)}
+.docstory{padding:0 0 .9rem}
+.orient-relations{max-width:var(--measure)}
+.orient-read-first{list-style:none;margin:.9rem 0 0;padding:0;max-width:var(--measure)}
+.orient-read-first li{border-top:1px solid var(--rule);padding:.6rem 0}
+.orient-read-first-work{font-family:var(--sans);font-weight:600;display:block}
+.orient-read-first-note{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.orient-glossary{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.8rem 1.5rem;max-width:var(--wide);margin:0}
+.orient-glossary-item dt{font-family:var(--sans);font-weight:700;color:var(--action);margin:0}
+.orient-glossary-item dd{font-size:.9375rem;color:var(--muted);margin:.15rem 0 0}
+.orient-pull-quotes{display:flex;flex-direction:column;gap:1rem;max-width:var(--measure)}
+.orient-pull-quote{margin:0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--action)}
+.orient-pull-quote p{font-style:italic;font-size:1.1rem;margin:0 0 .3rem}
+.orient-pull-quote cite{font-family:var(--sans);font-style:normal;font-size:.85rem;color:var(--muted)}
+</style>
+
+<!-- Kept standalone when the "Who is speaking" section (its original home)
+     was cut in the 2026-09-21 card redesign: this is a safety disclosure,
+     not gap/thinness content, and CLAUDE.md's own safety priority holds
+     regardless of what else moves - see cic-website/traditions/*.html's
+     pre-redesign `who_speaks` section for its prior placement. -->
+<p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+
+<!--SECTION:story-->
+<section aria-labelledby="story-title">
+  <p class="eyebrow">The Story</p>
+  <h2 id="story-title">How this tradition took shape</h2>
+  <div class="reading">{{STORY}}</div>
+</section>
+<!--/SECTION:story-->
+
+<!--SECTION:voices-->
+<section aria-labelledby="voices-title">
+  <p class="eyebrow">Voices</p>
+  <h2 id="voices-title">The people behind this account</h2>
+  {{VOICES}}
+</section>
+<!--/SECTION:voices-->
+
+<!--SECTION:documented_stories-->
+<section aria-labelledby="documented-stories-title">
+  <p class="eyebrow">Documented stories</p>
+  <h2 id="documented-stories-title">Stories worth telling in full</h2>
+  {{DOCUMENTED_STORIES}}
+</section>
+<!--/SECTION:documented_stories-->
+
+<!--SECTION:legacy-->
+<section aria-labelledby="legacy-title">
+  <p class="eyebrow">Legacy</p>
+  <h2 id="legacy-title">What came after</h2>
+  <div class="reading">{{LEGACY}}</div>
+</section>
+<!--/SECTION:legacy-->
+
+<!--SECTION:relations_summary-->
+<section aria-labelledby="relations-summary-title">
+  <p class="eyebrow">In its own record</p>
+  <h2 id="relations-summary-title">How this world relates to others</h2>
+  {{RELATIONS_SUMMARY}}
+</section>
+<!--/SECTION:relations_summary-->
+
+<!--SECTION:sourcing-->
+<section aria-labelledby="sourcing-title">
+  <p class="eyebrow">Sources</p>
+  <h2 id="sourcing-title">What this account is built from</h2>
+  <div class="reading">{{SOURCING}}</div>
+</section>
+<!--/SECTION:sourcing-->
+
+<!-- Judgment call (flagged in this generator's own report): the glossary
+     and pull-quotes fields are the two world_front units with no section
+     of their own in the old hand-built pages. Rather than two more
+     full-width sections, they share one compact strip - pull quotes as
+     blockquotes, then a small glossary grid - placed after Sources and
+     before the closing Questions section. -->
+<!--SECTION:glossary_and_quotes-->
+<section aria-labelledby="glossary-and-quotes-title">
+  <p class="eyebrow">In this world's own words</p>
+  <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
+  {{PULL_QUOTES}}{{GLOSSARY}}
+</section>
+<!--/SECTION:glossary_and_quotes-->
+
+<!--SECTION:questions-->
+<section aria-labelledby="questions-title">
+  <p class="eyebrow">Questions people bring to this table</p>
+  <h2 id="questions-title">Start with the hard one</h2>
+  {{QUESTIONS}}
+</section>
+<!--/SECTION:questions-->

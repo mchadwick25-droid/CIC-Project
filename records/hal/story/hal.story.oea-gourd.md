@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - what the translation project cost in real congregations
   - the argument with Augustine
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.force.augustine-dispute

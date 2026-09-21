@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - what formation is ultimately aimed at, or what Christian maturity looks like
   - 'becoming like God, or the difference between what creation gave and what formation grows toward'
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about the image as the ontological ground, not the likeness (retrieve alx.term.eikon)
   - asking primarily about theosis as the eschatological horizon
 relations:

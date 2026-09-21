@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Was there room for doubt? Our teachers built their whole method on
   questions. Clement insisted that faith is the foundation and not the

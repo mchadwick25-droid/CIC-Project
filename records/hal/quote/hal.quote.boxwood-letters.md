@@ -27,7 +27,6 @@ retrieval:
   retrieve_when:
   - "participant asks how children were taught to read and by whom"
   - "participant asks what they thought education should start with"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 107 sec. 4,
 div v.CVII). The community's pedagogy at its most concrete and humane - an

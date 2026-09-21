@@ -28,7 +28,6 @@ retrieval:
   - Symmachus, or whether pagans got to speak
   - religious tolerance and its limits in this world
   - "participant asks what was done with the pagan temples, shrines and idols"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 narrative_tier: 1

@@ -32,7 +32,6 @@ retrieval:
   - "participant asks what this world meant by the heart"
   - "participant says they behave well but feel unchanged inside"
   - "participant asks whether keeping the rules was enough"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.the-heart-and-the-spirit

@@ -25,7 +25,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - spiritual growth, perfection, or whether a finished, arrived-at holiness is even possible
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.akatalepsia

@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - Word of God used to mean the Bible, or asked whether it means Scripture or something else
   - John 1:1 and what "the Word" names, or how creation and Scripture relate as God's address
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about Scripture's interpretive method (retrieve alx.term.allegoria or alx.term.christological-reading)
   - asking about Christ as the Anointed, or the Son's ontological status specifically (retrieve
     alx.term.christ or alx.term.son-of-god)

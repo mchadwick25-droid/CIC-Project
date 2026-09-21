@@ -29,7 +29,7 @@ retrieval:
   - participant asks what 'the Gospel' meant in this world - four books or one
   - participant asks about the Diatessaron by name
   - Aphrahat's or Ephrem's Gospel text comes up
-  do_not_retrieve_when:
+  prefer_instead:
   - participant asks about the Peshitta - a later standard text, not this world's own vocabulary
 relations:
 - type: associated-with

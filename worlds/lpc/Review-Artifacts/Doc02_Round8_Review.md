@@ -2,9 +2,9 @@
 ## Round 8 Independent Adversarial Review
 
 **Documents reviewed:**
-- `worlds/lpc/Doc_02_Source_Ecology.md` (current revision, commit `9adbe666`, 139 lines)
-- `worlds/lpc/Source_Registry.md` (same revision — 108 rows)
-- `worlds/lpc/Source_Acquisition_Manifest.md` (same revision — G1–G9)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md` (current revision, commit `9adbe666`, 139 lines)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Registry.md` (same revision — 108 rows)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Acquisition_Manifest.md` (same revision — G1–G9)
 - and, for the post-disposition edit record and the disclosure mechanism Doc_01 now points to in place of a count, `Doc_01_World_Identification_Boundaries_Orientation.md` lines 3 and 186, together with `lpc_Decision_Log.md` (all nine entries)
 
 **Review date:** 2026-09-02

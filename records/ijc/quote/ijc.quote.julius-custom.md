@@ -28,7 +28,6 @@ retrieval:
   retrieve_when:
   - "participant asks what the customary procedure was when a bishop was deposed"
   - "participant asks whether Rome expected to be consulted"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.letter-that-outranked-a-council}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}

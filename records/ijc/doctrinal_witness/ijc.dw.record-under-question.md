@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   How much of our story would hold up in a library? More than most
   ancient worlds, and the places where it would not are known by name. The

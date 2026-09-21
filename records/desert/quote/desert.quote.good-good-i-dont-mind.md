@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether someone whose marriage ended could belong here"
   - "participant asks what happened to people whose families broke apart"
   - "participant asks how this world treated divorce or betrayal"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.marriage-ending

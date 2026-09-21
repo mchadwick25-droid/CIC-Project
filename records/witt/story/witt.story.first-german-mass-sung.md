@@ -28,7 +28,7 @@ retrieval:
   retrieve_when:
   - a participant asks how the German Mass, or congregational hymn-singing, began
   - a participant asks whether anyone besides Luther himself left an account of worship in this world
-  do_not_retrieve_when:
+  prefer_instead:
   - presenting Walter's words as his own unmediated eyewitness account - the three-hand transmission (Walter
     to Praetorius to Rambach to Bacon) must be named
   - a participant wants a full order of service - no vendored service order survives in this library

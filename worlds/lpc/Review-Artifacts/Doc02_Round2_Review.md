@@ -2,9 +2,9 @@
 ## Round 2 Independent Adversarial Review
 
 **Documents reviewed:**
-- `worlds/lpc/Doc_02_Source_Ecology.md` (revision of 2026-09-01, commit `4796ee34`)
-- `worlds/lpc/Source_Registry.md` (same revision)
-- `worlds/lpc/Source_Acquisition_Manifest.md` (same revision)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md` (revision of 2026-09-01, commit `4796ee34`)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Registry.md` (same revision)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Acquisition_Manifest.md` (same revision)
 
 **Review date:** 2026-09-01
 **Reviewer:** independent adversarial review thread. Did not draft any of the three documents, did not draft this world's Step 0, Doc_01, or any prior revision, and did not write Round 1 of this document or any of Doc_01's nine rounds. **Round 1's own findings were treated as claims to be re-derived, not as authority** — this is the reciprocal of the discipline Round 1 applied to Doc_01's nine rounds, and it was not a formality: one of Round 1's own supporting factual claims is wrong, was adopted into the revision without re-derivation, and is now live in the file (H1 below). Every primary-source quotation named below was re-located in the vendored XML this session with the containing `div3` recomputed by walking the markup. Both corpus-map files were parsed programmatically. Every archive.org and bibliographic claim added this round was re-checked by live WebSearch.
@@ -271,7 +271,7 @@ This is a long list and should be read alongside the findings. The revision did 
 
 **Forces integration (CO-022's six integration points; FF V1.1 §4 Step 2).** Present and substantive. §6's closing paragraph answers all three of the Forces Framework's Step 2 questions, and Transmission History is a named dimension for all three voices, as FF §4 requires in terms. §2's Pontius entry is a full five-dimension Author Gravity entry for a narrative source, which is what CF V7.4's Expanded Author Gravity Assessment requires of hagiographers functioning as secondary narrative sources.
 
-**Other requirements met.** No Tier 5 material and no invented or illustrative narrative on a full read of all three documents. §8's Confidence Map uses Article 17's fixed five-level vocabulary correctly and uses none of the prohibited language. §7's century-gap disclosure discharges Doc_01 §8 item 1 precisely, including the harder half. The Jerome double-placement is stated at §1 and row 10, discharging item 4. The Article 20/23 routing note is correct and well placed. A programmatic stranded-duplicate sweep across all three documents found no orphaned or duplicated sentence — the only repeated strings are the intended boilerplate closing rows 33–35 and 38. All three documents sit in the canonical `worlds/lpc/` folder per CO-022's *Draft* rule, and no competing Approved-to-proceed or Frozen Doc_02 exists anywhere in the tree.
+**Other requirements met.** No Tier 5 material and no invented or illustrative narrative on a full read of all three documents. §8's Confidence Map uses Article 17's fixed five-level vocabulary correctly and uses none of the prohibited language. §7's century-gap disclosure discharges Doc_01 §8 item 1 precisely, including the harder half. The Jerome double-placement is stated at §1 and row 10, discharging item 4. The Article 20/23 routing note is correct and well placed. A programmatic stranded-duplicate sweep across all three documents found no orphaned or duplicated sentence — the only repeated strings are the intended boilerplate closing rows 33–35 and 38. All three documents sit in the canonical `World-Builds/Latin-Pastoral-Congregational-Christianity/` folder per CO-022's *Draft* rule, and no competing Approved-to-proceed or Frozen Doc_02 exists anywhere in the tree.
 
 ---
 

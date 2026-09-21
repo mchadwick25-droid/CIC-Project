@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant asks what writings or scriptures this world actually had"
   - "participant asks how scripture was used day to day - studied academically, or applied directly"
-  do_not_retrieve_when: []
 text: >-
   We had the same Scriptures the wider church had. Nothing more, and nothing
   of our own alongside them. What made us look different was not what we held

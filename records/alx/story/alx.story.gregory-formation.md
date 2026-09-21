@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - how someone was actually taught/formed
   - the teacher-student relationship
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.quote.gregory-spark

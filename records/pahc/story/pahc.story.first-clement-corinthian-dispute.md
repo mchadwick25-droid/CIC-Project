@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks how disputes between church leaders were handled"
   - "participant asks about Strand B (Rome/plural-presbyter) governance"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant has just received Story 001 and a second correspondence-network example would be redundant"
 relations:
 - type: associated-with

@@ -30,7 +30,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - "participant asks whether we believed the Bible was the only authority"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks whether we read Genesis the way modern people argue about it, as science -- our library gives no answer to that question at all"
 text: >-
   Did we believe the Bible was the only authority? Yes, though we said

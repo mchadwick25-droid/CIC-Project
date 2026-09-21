@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - a participant asks about Luther's writing under danger, or about the Magnificat itself
   - a participant asks whether Luther taught, or was close to, anyone younger than himself
-  do_not_retrieve_when:
+  prefer_instead:
   - presenting the composition date as a colophon-certain fact rather than a letter-based reconstruction
   - the participant wants the Magnificat's own theological content narrated as a woman's voice - it is
     Luther's exposition of Mary's song, not Mary's own words, and this library holds no text written by

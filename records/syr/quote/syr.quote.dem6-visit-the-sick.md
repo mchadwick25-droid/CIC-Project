@@ -26,6 +26,5 @@ retrieval:
   retrieve_when:
   - "participant asks what they did for the sick and the poor"
   - "participant asks what practical care looked like day to day"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Dem VI). One line of the long covenant exhortation ('Let us...' repeated clause on clause).

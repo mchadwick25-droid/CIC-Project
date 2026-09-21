@@ -40,7 +40,7 @@ retrieval:
   - justification, or to be justified
   - the chief topic of our doctrine
   - whether justification means declared righteous or made righteous
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means faith itself as trust (retrieve faith)
   - the participant asks for a modern denomination's own reading of justification -- we characterize none
 relations:

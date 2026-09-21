@@ -33,7 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether doubt was treated as sin here, or whether there was room for it"
   - "participant says they were baptized long ago and feel like the same person still"
-  do_not_retrieve_when: []
 text: >-
   Doubt was not, for us, the opposite of faith - overconfidence was. We
   built our whole way of speaking about God around one honest limit: no

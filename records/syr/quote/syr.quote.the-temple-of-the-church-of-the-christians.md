@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what would be found if the place this community met were excavated"
   - "participant asks whether there is physical or documentary evidence of a church building this early"
   - "participant asks what outsiders recorded about this community"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.remains

@@ -32,7 +32,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks how we know our own practices went back to the apostles, or weren't later inventions"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants an argument built on unbroken ordination back to the apostles -- our own claim is doctrinal continuity with Scripture and the ancient Church, not a chain of ordination"
 text: >-
   How do we know our practices went back to the apostles and weren't

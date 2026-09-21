@@ -46,7 +46,7 @@ retrieval:
   - what "the government of God" means, or why Salvian wrote
   - participant uses "providence," "judgment," "the fall of Rome," "barbarians," "why does God allow"
   - Salvian's helmsman; the Belgae in flames; "we are judged by the ever-present judgment of God"
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the last judgment or Antichrist's nearness (retrieve Antichrist)
   - the question is about grace and free will - Salvian's text is not licensed for that argument and this term never touches it
   - the question is about "government" as politics or the state

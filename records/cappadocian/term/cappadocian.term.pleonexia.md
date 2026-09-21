@@ -24,7 +24,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - greed, hoarding, or usury preached against by name
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.basileias

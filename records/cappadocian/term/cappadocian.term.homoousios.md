@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - the Nicene Creed's own key word
   - why 'same being' versus 'like being' mattered
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.doxologia

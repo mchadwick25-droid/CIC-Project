@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - "participant asks how this world knew what it knew about Jesus"
   - "participant asks whether anyone in this world had known an eyewitness"
-  do_not_retrieve_when:
+  prefer_instead:
   - "a question about modern historical-critical method with no connection to this world's own texts"
 relations:
 - type: associated-with

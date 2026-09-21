@@ -20,7 +20,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - stewardship of church property or resources
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.story.poorhouse-famine-month

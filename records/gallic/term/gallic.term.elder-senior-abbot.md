@@ -41,7 +41,7 @@ retrieval:
   - whom a monk obeyed or confessed to, or how authority inside the house worked
   - participant uses "abbot," "superior," "elder," "senior," "spiritual father," "prior," or "dean"
   - the senior's judgment of thoughts, Cassian's "Abbot Moses," the dean over ten, or Martin consulting his elders
-  do_not_retrieve_when:
+  prefer_instead:
   - the Fathers as the source of received teaching in general (retrieve the Fathers / elders)
   - the bishop's office (retrieve bishop / the monk-bishop)
   - the Benedictine abbot as a canonical office, a century downstream

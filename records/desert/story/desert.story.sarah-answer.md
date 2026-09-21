@@ -21,7 +21,6 @@ retrieval:
   - "participant asks whether a woman could carry real authority in this world"
   - "participant asks for a specific example of a woman's own teaching voice, or a direct challenge to her standing"
   - "participant asks about discernment (diakrisis) exercised under social challenge"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.elder-authority
@@ -34,7 +33,7 @@ relations:
 narrative_tier: 2
 narrative_tier_justification: "Tier 2 (Collected and Traditional Material), same basis as desert.story.moses-leaking-jug and desert.story.arsenius-flee: attributed to a named amma, transmitted through the compiled tradition rather than a contemporary datable text."
 tellable_as: "some monks came to test her, a woman - she answered them as one man answers another"
-text: "The tradition tells that some elder monks once came to visit Amma Sarah meaning to humble her, and said as much to her directly - that she was, after all, only a woman. She answered them: by nature I am a woman, yes - but not by my own thoughts. It is I who am the man here, and you who are the women."
+text: "The tradition tells that some elder monks once came to visit Amma Sarah meaning to humble her, and said as much to her directly - that she was, after all, only a woman. She answered them: it is I who am the man, and you who are the women."
 absent_detail: "This is one of a small number of sayings this world's own surviving record attributes to a named amma by name - genuinely thin material, not evidence of a fuller corpus that happens not to have been included here. Whether the specific visit happened as narrated, or the saying survived detached from any single occasion, is not something this document can settle."
 modern_contrast: "A modern reader may hear a woman's decisive rebuff of men who came to test her as a straightforward claim of equality, in the modern sense of gender being beside the point. This world's own record makes a narrower and stranger claim: it accepts the era's own coding of courage and steadfastness as \"manly\" and weakness as \"womanly,\" and Sarah's own answer works by claiming the first category for herself, not by rejecting the coding itself - a real distinction desert.demo.identity-collision-womens-authority's own trailing note already holds to (this world's own record does not show that challenge put to any man)."
 ---
@@ -62,3 +61,20 @@ could a woman carry real authority...") directly: a woman answering a
 challenge to her own place with the same discernment the tradition
 elsewhere credits to men, not by denying the challenge's terms but by
 inverting them.
+
+CORRECTED 2026-09-20, found by an Opus adversarial review of an unrelated
+system-design document that spot-checked this record against
+desert.quote.sarah-man-among-you. This record's own `text` still carried
+"by nature I am a woman, yes - but not by my own thoughts" before "It is
+I who am the man here, and you who are the women" - the exact Greek-
+alphabetical-collection clause desert.quote.sarah-man-among-you's own
+2026-08-27 correction found is NOT in the vendored Budge/Syriac recension
+and declared unquotable, since no public-domain English of the Greek
+exists to check it against. That correction was never carried over to
+this sibling record, so this record kept shipping the barred clause -
+and a participant-facing page (cic-website/traditions/desert-monasticism.
+html) rendered it in quotation marks as of 2026-09-19. Both are now fixed:
+this record's `text` now matches desert.quote.sarah-man-among-you's own
+modern_rendering ("It is I who am the man, and you who are the women"),
+and the site copy was corrected to match. Logged in
+worlds/desert/Open_Gaps_Tracking.md.

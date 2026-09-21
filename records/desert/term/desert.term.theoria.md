@@ -23,7 +23,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - questions about contemplation or the higher reaches of prayer
-  do_not_retrieve_when:
+  prefer_instead:
   - questions about ordinary daily prayer across the movement - the Psalter, not this term, is that answer
 relations:
 - type: associated-with

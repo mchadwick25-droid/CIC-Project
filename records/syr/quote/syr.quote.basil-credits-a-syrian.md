@@ -44,7 +44,6 @@ retrieval:
   - "participant asks whether Greek Christians respected their language or looked down on it"
   - "participant asks whether their tongue reached anything Greek could not"
   - "participant asks how outsiders described them"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.story.basil-legend

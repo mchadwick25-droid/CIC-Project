@@ -34,7 +34,7 @@ retrieval:
   retrieve_when:
   - the sword, or secular authority
   - whether the Church may wield force
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the two governments' whole doctrine (retrieve the two governments)
 relations:
 - type: associated-with

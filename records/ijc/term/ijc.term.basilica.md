@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - the physical building at the center of the 386 Milan standoff
   - what archaeology would show of this world's churches
-  do_not_retrieve_when:
+  prefer_instead:
   - the real question is the standoff's meaning or Ambrose's formula (imperator-intra-ecclesiam instead)
 relations:
 - {type: associated-with, target: ijc.term.imperator-intra-ecclesiam}

@@ -45,7 +45,7 @@ retrieval:
   retrieve_when:
   - comfort, or consolation
   - what our whole doctrine is 'for'
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means assurance/certainty specifically as a separate word (retrieve assurance)
 relations:
 - type: associated-with

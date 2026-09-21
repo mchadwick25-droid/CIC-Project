@@ -37,7 +37,6 @@ retrieval:
   - "participant asks what a newcomer to this world was actually taught"
   - "participant asks how this world handled the hard or frightening parts of its teaching"
   - "participant asks what this world thought the moral life came down to"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.hard-texts

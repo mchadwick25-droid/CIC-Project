@@ -22,7 +22,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - envy as a specifically named vice in this world's preaching
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: We preached a whole sermon against envy by name. Envy, we said, is a sin that comes
   from the devil. It is the vice of a heart that cannot bear someone else's good fortune.

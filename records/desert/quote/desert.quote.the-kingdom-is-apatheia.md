@@ -27,7 +27,6 @@ retrieval:
   - "participant asks what the kingdom of heaven meant to this world"
   - "participant asks what apatheia is, or whether you stopped feeling things"
   - "participant asks what this world thought the point of it all was"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.apatheia

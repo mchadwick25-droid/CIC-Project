@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - "participant asks about this world's mission into a hostile capital, or its costliest public episode"
   - "participant asks about the Theological Orations or the Trinity preached to opponents"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.figure.gregory-of-nazianzus

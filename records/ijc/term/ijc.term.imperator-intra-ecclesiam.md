@@ -27,7 +27,7 @@ retrieval:
   - how a bishop could stand against an emperor
   - the 386 Milan basilica standoff, Callinicum, or Thessalonica
   - whether this world's church was simply an arm of the state
-  do_not_retrieve_when:
+  prefer_instead:
   - the question concerns Rome's or Constantinople's rank claims, which rest on different ground (primatus or presbeia instead)
 relations:
 - {type: associated-with, target: ijc.term.communio}

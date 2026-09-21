@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - how a community split between Rome and Bethlehem held together
   - distance, absence, and staying connected
-  do_not_retrieve_when: []
 plain_meaning: The letter. Among us it was not just a record of life. It was how teaching, guidance,
   and belonging actually moved across distance.
 world_word: epistula

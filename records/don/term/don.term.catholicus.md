@@ -34,7 +34,7 @@ retrieval:
   retrieve_when:
   - a participant asks who the 'Catholics' were in this dispute, or whether that word settles anything
   - a participant asks how the word 'catholic' was used or contested here
-  do_not_retrieve_when:
+  prefer_instead:
   - '''Catholic'' is being used for the later Roman Catholic Church as a modern institution'
 relations:
 - type: associated-with

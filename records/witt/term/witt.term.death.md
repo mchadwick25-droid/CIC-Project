@@ -36,7 +36,7 @@ retrieval:
   retrieve_when:
   - death, or burial
   - how we face death, or how we bury our dead
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means purgatory specifically (retrieve purgatory)
 relations:
 - type: associated-with

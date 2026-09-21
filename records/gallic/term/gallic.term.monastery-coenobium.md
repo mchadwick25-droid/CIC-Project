@@ -44,7 +44,7 @@ retrieval:
   - what "coenobium" means
   - participant uses "monastery," "abbey," "convent," "cloister," or "community"
   - Marmoutier's caves, Castor's new house, Gennadius's "two monasteries," or the coenobite-then-anchorite sequence
-  do_not_retrieve_when:
+  prefer_instead:
   - who counts as a monk (retrieve monk / solitary)
   - the solitary's own dwelling (retrieve cell)
   - the received customs kept inside the house (retrieve the customs of the monasteries)

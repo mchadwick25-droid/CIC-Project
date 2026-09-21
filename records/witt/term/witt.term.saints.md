@@ -38,7 +38,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - saints, or invocation of the saints
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means Christ's own unique role specifically (retrieve Christ alone)
 relations:
 - type: associated-with

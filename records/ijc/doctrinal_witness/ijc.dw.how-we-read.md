@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   We read our scriptures the way we read everything else: as binding
   authority. Where other Christian eras read the Bible for private

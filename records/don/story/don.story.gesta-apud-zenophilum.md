@@ -34,7 +34,7 @@ retrieval:
     rather than a later account
   - participant asks whether the traditio-era financial disputes were ever formally investigated
   - participant wants a fact two independent sources agree on rather than one witness's word
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the earlier narrative of how the treasury dispute and the rival consecration arose
     - don.story.lucilla-affair is the origin and is best offered alongside this
   - participant is asking about the forgery investigation into Felix of Aptungi - don.story.acta-purgationis-felicis

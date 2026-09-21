@@ -36,7 +36,7 @@ retrieval:
   retrieve_when:
   - a participant asks how the martyrs were actually remembered, or what happened on the day
   - a participant asks about the liturgical calendar or graveside gatherings
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about later saints' calendars or feast days generally
 relations:
 - type: illustrates

@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether the state ever executed Christians for heresy"
   - "participant asks whether anyone objected to handing a church matter to a court"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}

@@ -90,7 +90,14 @@ text, not assumed from a chapter title. Also surfaced and verified a
 public-domain acquisition lead, Egeria's *Pilgrimage* (McClure & Feltoe,
 1919, confirmed `NOT_IN_COPYRIGHT` on `archive.org`), whose own 380s
 journey runs "the Sinai road" — this candidate's own census `region`
-field, verbatim — added to `download-queue-seed.yaml`.
+field, verbatim — added to `download-queue-seed.yaml`. A second,
+independent dossier pass on this same candidate (PR #233, superseded by
+this one) had separately host-verified a real Sozomen cross-link this
+branch's own first draft had only named, not checked; re-verified directly
+against the vendored XML before merging and folded in rather than lost —
+see the dossier's own §2 and §5, which also flags a real locus error the
+verification turned up in `desert-monasticism.yaml`'s own existing Sozomen
+note (a citation to Book VI chapters that don't exist in this edition).
 
 **Backlog — not yet written:** none at Era 1/2 Tier 1 as of 2026-09-21.
 `donatism` (I.4) and `gallic-monastic-ascetic-christianity` (I.27) are far
@@ -98,7 +105,10 @@ enough into their own builds that a retroactive dossier is lower priority
 than a fresh candidate would be; the coverage target in
 `SOURCE-READINESS.md` is every "Possible Future World" or "Selected - Not
 Yet Built" candidate, so the next pass should check the full census for
-anything newer than this list rather than assume it's exhausted.
+anything newer than this list rather than assume it's exhausted. (A
+separate, not-yet-merged branch has already done exactly that sweep and
+found two more: `latin-pastoral-congregational-christianity` (I.8) and
+`roman-church-gregorian` (II.18) — see that branch's own PR once opened.)
 
 ## Regenerating
 

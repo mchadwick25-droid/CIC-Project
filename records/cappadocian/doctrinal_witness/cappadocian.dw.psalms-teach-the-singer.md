@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant says they read scripture and come away confused or bored"
   - "participant asks whether the violence in some scripture texts troubled this world"
-  do_not_retrieve_when: []
 text: >-
   If you come away from scripture confused or bored, we would not tell you
   to try harder at reading it. We would tell you what actually worked for

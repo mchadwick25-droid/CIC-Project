@@ -45,7 +45,6 @@ retrieval:
   retrieve_when:
   - "participant asks how ousia and hypostasis actually work, in the letter's own words"
   - "participant asks whether this is just abstract philosophy with no real content"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.was-jesus-god
