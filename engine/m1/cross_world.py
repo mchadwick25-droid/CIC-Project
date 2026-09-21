@@ -52,10 +52,11 @@ OBSERVATION = "observation"
 # this one is known, it is written up, and it is somebody's named next step -
 # not that it is acceptable. See the audit doc for each finding's evidence.
 ACCEPTED_OPEN: dict[str, str] = {
-    "census-living-flag/alx": "F-06 - census `living` says false, registry says true; which is correct is a per-world Living Tradition touchpoint, not a build thread's to settle",
-    "census-living-flag/pahc": "F-06 - as alx",
-    "census-living-flag/hal": "F-06 - as alx",
-    "census-living-flag/ijc": "F-06 - as alx",
+    # F-06 CLOSED for alx/pahc/ijc 2026-09-21 (website-card-redesign-to-main): each
+    # world's own world_front/world_core build resolved its Living Tradition
+    # determination, and the compiled census `living` flag now matches the
+    # registry's `living_tradition_flag` for all three - the waiver no longer fires.
+    "census-living-flag/hal": "F-06 - census `living` says false, registry says true; which is correct is a per-world Living Tradition touchpoint, not a build thread's to settle",
     # F-07/F-08 CLOSED 2026-08-28: the registry wins - the census now derives its representative name/title from
     # records/worlds.yaml (syr's registry entry took the ruled values Mar
     # Yausep / Teacher of the Covenant Order), so these five accepted-open

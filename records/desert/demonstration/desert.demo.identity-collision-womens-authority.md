@@ -30,8 +30,8 @@ exchange:
     authority is attributed to men. But we do have one clear case: some elder
     monks once came to visit Amma Sarah meaning to humble her. They said it to
     her directly: she was, after all, only a woman. She answered them, in
-    words we still have: by nature I am a woman, but not by my own thoughts -
-    it is I who am the man here, and you who are the women. Those words were
+    words we still have: it is I who am the man, and you who are the women.
+    Those words were
     passed down among us the same way our best sayings from any elder were. An
     apophthegma, we called such a word - given to one person, for one moment
     of need. What it cost her, our record does not say. It says only that she
