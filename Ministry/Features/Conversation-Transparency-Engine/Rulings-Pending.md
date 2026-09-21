@@ -128,7 +128,7 @@ the real fix is the completeness guarantee underneath, not which option
 gets picked here.
 
 ### R11 — Split the dead retrieval-exclusion field into a real guard record type
-**Status:** PENDING
+**Status:** RULED (a) — 2026-09-21. Stage 4a unblocked; see Decision-Log.md.
 (a) Split it, as designed: a redirect half and a separate honesty-guard
 half. (b) Leave the field as-is, rely only on the existing exclusion-list
 fix.

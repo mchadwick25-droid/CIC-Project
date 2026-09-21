@@ -331,3 +331,46 @@ actual `--all` run. Per the stage's own instruction ("Escalate if pinned
 id ≠ last tally's id"), this still needs to be run and logged before the
 pin should be treated as trustworthy. Logged here retroactively, same as
 Entry 14.
+
+**Entry 19 — 2026-09-21.** Stage 2c merged (PR #349, commit `c19283d28`):
+new `engine.m1.cross_world.observe_register_profile` — per world, per
+voice-diet spoken field, median words/longest sentence/fragment
+ratio/dash density, reusing `engine.m7.instruments`'s own cadence math
+(`_strip_quoted`, spaced-dash density, the ≤5-word fragment share) at the
+compiled record layer instead of a live conversation turn. OBSERVATION
+only. `alx`/`hal` print first as the exemplar context. Verified against
+Build-Plan.md's own cited numbers: hal 21 / cappadocian 25 / don 34
+matched exactly; gallic 42 against the plan's cited 43, a one-word gap
+consistent with real data drift since the plan was written. Ceiling
+proposal filed under R6, scoped to the two label-shaped fields
+(`story.tellable_as`, `term.quick_meaning`) with concrete per-world
+exceedance counts — gallic worst on all four numbers. Gate promotion
+stays blocked on R6. Full suite (`test_cross_world.py` 11/11, `engine/m7`
+63/63), `cross_world`/`staleness-check` clean, CI green.
+
+**Entry 20 — 2026-09-21.** Stage 2d merged (PR #350, commit `b4d05b0a7`):
+new `engine/m9/holdings.py` + `holdings` CLI subcommand — one row per
+vendored file per world (`in_scope`, `named_in_records`, `drawn_on`,
+`disposition` from a closed six-value vocabulary), mechanically derived
+from `engine.m1.cross_world`'s own `corpus_tier` rather than duplicating
+its judgment. `drawn_on` reuses `cic/engine/texts_registry.py`'s own
+full-text-scan technique, scoped to one world. Verified against the
+stage's own literal Done bar: gallic shows exactly 19 files disposition
+`"not yet assessed"`, matching Build-Plan.md's own cited number exactly.
+**Known gap, named not hidden:** the COVERAGE/REGIONS/AUTHORS relocation
+into `cic/corpus-map/` and `observe_second_hand_sources` reading
+`AUTHORS.md`/`AUTHOR-IDS.yaml` directly (also part of this stage's own
+spec) was deliberately not attempted in this pass — that data is
+load-bearing for `worlds/_cross-world/gen_corpus_table.py` and several
+worlds' own Review-Artifacts, and deserves its own careful pass rather
+than a rushed tail-end rewrite. `engine/m9/tests` 60/60 (5 new), `m9 cli
+check` clean, manually confirmed on all 11 built worlds, CI green.
+
+**Entry 21 — 2026-09-21.** R11 ruled: **(a) split it** — a redirect half
+and a separate honesty-guard half, per Rulings-Pending.md's own
+recommendation. Mark's direct ruling, given the Stage 1 D1 measurement
+already in front of him (13 of 714 `do_not_retrieve_when` lines are
+genuine guard clauses; those 13, fabricated, were caught only 2/13 times
+by the grounding checker). Unblocks Stage 4a ("the split") and, after it,
+4b (`guard_proximity`). Rulings-Pending.md's own R11 entry updated in the
+same edit.
