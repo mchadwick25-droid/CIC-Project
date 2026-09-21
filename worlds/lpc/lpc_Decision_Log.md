@@ -1933,3 +1933,15 @@ Applied by a fresh thread on the instruction that the failure mode to avoid was 
 **What this unblocks.** Step 10, Representative Emergence. `Doc_01`–`Doc_09` and the World Profile are all at *Approved to proceed*; the Representative's identity was settled on 2026-09-15 (Datus, *Bishop of the Kept Flock*); and the Article 29 adoption of 2026-09-16 gives the Permanent Prompt's Living Traditions section real source text, so Article 33's bar on placeholder content is satisfiable.
 
 ---
+
+### 2026-09-21 — Branch reconciliation applied (project lead approved)
+
+**Context.** The Go-Live Pipeline Coordinator thread raised a go-live plan for lpc; the project lead's standing instruction had been *"wait, then reconcile — not now"* (2026-09-16/17). Presented with the diverged-branch problem directly, the project lead approved reconciling now, as the first step, before further Representative-construction work (Option A of the plan raised).
+
+**Applied**, on branch `lpc-reconcile-branches` (pushed to `origin`, not yet merged to `main`):
+1. `worlds/lpc/` (stale on `main` through Doc_05 only) replaced with PR #197's (`lpc-doc04-round2`) content — verified first that the old line's Decision Log and Review-Artifacts are a strict subset of the new line's before replacing it, so nothing is lost.
+2. Datus's portrait image and its research/generation-prompt brief, previously stranded on `mchadwick25-droid-patch-1` at the wrong path and filename, merged to `Ministry/Communication/Brand-Assets/Representative-Portraits/lpc/`. That folder name follows the short-registry-code convention `rzg/` and `witt/` actually use, not the README's literal (and now corrected) "full `world_id`" wording.
+
+**Not applied: registration in `records/worlds.yaml`.** Every existing `records/worlds/*.yaml` entry carries a `state` field, and the only state values in use (`built`, `admitted`, `open`) begin at first compile — after world-freeze. `lpc` has not reached world-freeze. A registry entry with no `state`, or an invented one, would be a new registry shape with no fleet precedent — routed back to the project lead rather than decided inside this reconciliation pass. PR #197 and the portrait branch (`mchadwick25-droid-patch-1`) are both now superseded by this reconciliation and should be closed once it merges.
+
+---
