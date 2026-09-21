@@ -97,6 +97,13 @@ defects:
     mutation: {op: set_field, path: retrieval.tier, value: 1, note: "applied to every chunk-feeding record in the copy, not just one"}
     expected_failure: "world's retrieval-tier distribution is degenerate (all tier 1, no tier 2/3 spread) - a report-only-turned-blocking signal per the fixture's designed spread"
 
+  - id: retrieval-negatives-structured-dnrw-regression
+    gate: retrieval-negatives-structured
+    layer: M1
+    target_record: records/fix/term/fix.term.the-way.md
+    mutation: {op: set_field, path: retrieval.do_not_retrieve_when, value: ["participant asks about baptism - retrieve fix.term.the-three instead"]}
+    expected_failure: "retrieval.do_not_retrieve_when is populated - R11's split (Rulings-Pending.md) retired this field; the schema keeps it only for additive-only compatibility, and a populated one is a regression to the pre-split shape"
+
   - id: confidence-crosscheck-unjustified-null-divergence
     gate: confidence-crosscheck
     layer: M1
