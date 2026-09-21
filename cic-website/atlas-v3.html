@@ -41441,10 +41441,72 @@ stage.addEventListener('wheel',(ev)=>{
   applyTransform(); applyDetail();
 },{passive:false});
 
-let dragging=false, lastX=0, lastY=0;
-stage.addEventListener('mousedown',(ev)=>{dragging=true; lastX=ev.clientX; lastY=ev.clientY; stage.classList.add('grabbing');});
-window.addEventListener('mousemove',(ev)=>{if(!dragging)return; tx+=ev.clientX-lastX; ty+=ev.clientY-lastY; lastX=ev.clientX; lastY=ev.clientY; applyTransform();});
-window.addEventListener('mouseup',()=>{dragging=false; stage.classList.remove('grabbing');});
+// Pointer Events with capture, not mousedown/mousemove/mouseup on window --
+// Mark, 2026-09-20: "hard to do the hand and grab scroll". Without capture, a
+// drag that outruns the mouse's own hit-testing (a fast flick, or the pointer
+// crossing another element like #legend/#panel) can silently drop the
+// in-progress drag; setPointerCapture pins move/up delivery to #stage
+// regardless of what's under the pointer afterward, the same fix a native
+// scrollbar thumb gets for free. Touch keeps its own dedicated multi-touch
+// pan/pinch handler below (real two-finger pinch-zoom math no single-pointer
+// path can replace) -- this path is explicitly mouse/pen only.
+//
+// Capturing on pointerdown itself broke every node/river/story click: once
+// setPointerCapture runs, the browser resolves the matching pointerup (and
+// the click it synthesizes from that up) against the capture target (#stage)
+// instead of the actual element under the pointer, so a plain tap on a node
+// never reached that node's own click listener -- a mousedown-to-mouseup
+// click with zero movement was being treated as a drag from the first pixel.
+// Arm on pointerdown but only start dragging, and only capture, once the
+// pointer has actually moved past a small threshold; a click that never
+// moves that far leaves capture untouched and resolves normally.
+const DRAG_THRESHOLD=4;
+let dragArmedId=null, dragging=false, downX=0, downY=0, lastX=0, lastY=0;
+stage.addEventListener('pointerdown',(ev)=>{
+  if(ev.pointerType==='touch')return;
+  dragArmedId=ev.pointerId; downX=lastX=ev.clientX; downY=lastY=ev.clientY;
+});
+stage.addEventListener('pointermove',(ev)=>{
+  if(ev.pointerType==='touch'||ev.pointerId!==dragArmedId)return;
+  if(!dragging){
+    if(Math.hypot(ev.clientX-downX,ev.clientY-downY)<DRAG_THRESHOLD)return;
+    dragging=true; stage.classList.add('grabbing'); stage.setPointerCapture(ev.pointerId);
+  }
+  tx+=ev.clientX-lastX; ty+=ev.clientY-lastY; lastX=ev.clientX; lastY=ev.clientY; applyTransform();
+});
+function endDrag(ev){
+  if(ev.pointerType==='touch')return;
+  dragArmedId=null; dragging=false; stage.classList.remove('grabbing');
+}
+stage.addEventListener('pointerup',endDrag);
+stage.addEventListener('pointercancel',endDrag);
+
+// Manual pan controls -- Mark, 2026-09-20: the atlas had no way to move
+// around besides drag or scroll-to-zoom, and drag alone read as hard to use.
+// A fixed pixel nudge per press/hold, independent of zoom level, the same
+// units the drag handlers above already use for tx/ty.
+const PAN_STEP=90;
+function nudge(dx,dy){ tx+=dx; ty+=dy; applyTransform(); }
+{
+  const dirs={panUp:[0,PAN_STEP],panDown:[0,-PAN_STEP],panLeft:[PAN_STEP,0],panRight:[-PAN_STEP,0]};
+  Object.keys(dirs).forEach(id=>{
+    const btn=document.getElementById(id);
+    if(!btn)return;
+    const [dx,dy]=dirs[id];
+    let holdTimer=null, holdInterval=null;
+    function stopHold(){ clearTimeout(holdTimer); clearInterval(holdInterval); holdTimer=holdInterval=null; }
+    btn.addEventListener('click',()=>nudge(dx,dy));
+    // Press-and-hold repeats the nudge, the same affordance a native scrollbar
+    // arrow gives -- a short delay before repeat starts so a plain click/tap
+    // (already handled above) doesn't also fire one extra repeat nudge.
+    btn.addEventListener('pointerdown',(ev)=>{
+      if(ev.pointerType==='mouse'&&ev.button!==0)return;
+      stopHold();
+      holdTimer=setTimeout(()=>{ holdInterval=setInterval(()=>nudge(dx,dy),60); },350);
+    });
+    ['pointerup','pointerleave','pointercancel'].forEach(evt=>btn.addEventListener(evt,stopHold));
+  });
+}
 
 let touches={};
 stage.addEventListener('touchstart',(ev)=>{

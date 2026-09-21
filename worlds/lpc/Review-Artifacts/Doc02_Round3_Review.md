@@ -2,9 +2,9 @@
 ## Round 3 Independent Adversarial Review
 
 **Documents reviewed:**
-- `worlds/lpc/Doc_02_Source_Ecology.md` (revision of 2026-09-01, commit `252a0dd7`)
-- `worlds/lpc/Source_Registry.md` (same revision)
-- `worlds/lpc/Source_Acquisition_Manifest.md` (same revision)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md` (revision of 2026-09-01, commit `252a0dd7`)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Registry.md` (same revision)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Acquisition_Manifest.md` (same revision)
 - and, for the two post-disposition edits it received in the same commit, `Doc_01_World_Identification_Boundaries_Orientation.md` lines 3 and 186
 
 **Review date:** 2026-09-01
@@ -256,7 +256,7 @@ Read alongside the findings. Most of what the Round 2 fix pass claimed, it did �
 
 **Corpus-map numbers, all re-counted.** 73 works ✓; 65 `assigned` / 8 `provisional` ✓; the author breakdown ✓; the `source_file` breakdown ✓; 82 Cyprian epistles by `div3` count ✓; ~97 sermons, ~695,000 words, 124 tractates, 138 letters / ~258,018 words, 17 letters / ~52,892 words — all matching the map's own loci ✓. 73 is the largest census of any atlas file: I parsed all 56 files carrying a `works` key (57 `.yaml` files, one of which, `UNATTRIBUTED.yaml`, carries `authors` instead), next largest post-apostolic-house-church 68, alexandria-catechetical 65 ✓. All eight `provisional` markers carried at rows 5, 8 (×2), 23, 25, 27, 28, 42 ✓.
 
-**Structural sweeps.** A programmatic duplicate-sentence sweep (>80 characters, sentence-split) across all three documents returned **zero** stranded or repeated sentences — the specific failure mode a large multi-site fix pass is most likely to produce. No Tier 5 material and no invented or illustrative narrative on a full read. §8's Confidence Map uses Article 17's five-level vocabulary correctly and contains none of the prohibited language, and now carries the conciliar-authority item under Contested. §7's century-gap disclosure discharges Doc_01 §8 item 1 including the harder half. §9 item 11's enumeration of Doc_01 §8 items 1–5, and of item 2's three sub-parts, is accurate against Doc_01 §8's actual text, which I read — Round 2's L2 discharged. All three documents sit in the canonical `worlds/lpc/` folder per CO-022's *Draft* rule, and no competing Approved-to-proceed or Frozen Doc_02 exists anywhere in the tree.
+**Structural sweeps.** A programmatic duplicate-sentence sweep (>80 characters, sentence-split) across all three documents returned **zero** stranded or repeated sentences — the specific failure mode a large multi-site fix pass is most likely to produce. No Tier 5 material and no invented or illustrative narrative on a full read. §8's Confidence Map uses Article 17's five-level vocabulary correctly and contains none of the prohibited language, and now carries the conciliar-authority item under Contested. §7's century-gap disclosure discharges Doc_01 §8 item 1 including the harder half. §9 item 11's enumeration of Doc_01 §8 items 1–5, and of item 2's three sub-parts, is accurate against Doc_01 §8's actual text, which I read — Round 2's L2 discharged. All three documents sit in the canonical `World-Builds/Latin-Pastoral-Congregational-Christianity/` folder per CO-022's *Draft* rule, and no competing Approved-to-proceed or Frozen Doc_02 exists anywhere in the tree.
 
 **Forces integration (CO-022's six integration points; FF V1.1 §4 Step 2).** Present and substantive. §6's closing paragraph answers all three Step 2 questions with real content rather than labels, and Transmission History is a named, non-trivial dimension for all three voices. Pontius receives a full five-dimension entry as a narrative source, which is what CF V7.4's Expanded Author Gravity Assessment requires.
 

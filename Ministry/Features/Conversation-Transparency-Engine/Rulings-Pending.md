@@ -58,6 +58,40 @@ promoted to a gate.
 and the ceilings proposed will be the fleet's own exemplars, not an
 arbitrary number.
 
+**Stage 2c ceiling proposal (2026-09-21):** `engine.m1.bar_screen` and now
+`engine.m1.cross_world observe_register_profile` (report-only, per-world
+per-field median words / longest sentence / fragment ratio / dash
+density) give the real numbers this ruling needs. `alx` and `hal` read as
+the fleet's own best-behaved worlds on every field; their own worst
+values set the exemplar baseline. Not every voice-diet field is the same
+shape, though: `story.tellable_as` and `term.quick_meaning` are short,
+label-like fields (`tellable_as` is literally what `StoryMark.tsx` shows
+as a hover-card title) — a genuinely different shape from a prose field
+like `story.text` or `doctrinal_witness.text`, which the Register Bar's
+own "100-150 words a turn... pressure, never a cap" already treats as
+allowed to run long. This proposal is scoped to the two label-shaped
+fields only; a prose-field ceiling isn't measured here and isn't part of
+this proposal.
+
+- **`story.tellable_as` longest sentence ≤ 30 words** (hal's own worst is
+  27). 5 of 11 built worlds exceed it: cappadocian (33), don (54), gallic
+  (53), rzg (36), witt (65).
+- **`story.tellable_as` median words ≤ 25** (cappadocian, the least-drifted
+  of the worlds over the line, sits exactly at 25). 5 of 11 exceed it:
+  don (34), gallic (42), pahc (36), rzg (35), witt (50).
+- **`term.quick_meaning` longest sentence ≤ 20 words** (ijc and syr sit
+  exactly at the line). 3 of 11 exceed it: gallic (28), pahc (24), rzg
+  (25).
+- **`term.quick_meaning` median words ≤ 16** (hal's own worst is 14). 4 of
+  11 exceed it: gallic (28), pahc (19), rzg (24), syr (20).
+
+gallic is the worst offender on every one of the four numbers above,
+consistent with R7's own framing of it as the fleet's already-drifted
+world. These are proposed absolute ceilings for R6 to rule on — not
+applied anywhere, not gating anything; `observe_register_profile` stays
+OBSERVATION until R6 actually rules, per this stage's own "Gate promotion
+... only after R6" bar.
+
 ### R7 — Fixing the fleet's already-drifted `tellable_as` text
 **Status:** PENDING
 (a) A Sonnet thread does a capped-round pass per affected world. (b)

@@ -36,9 +36,12 @@ import json
 import re
 import sys
 
+import statistics
+
 from engine.m1.loader import RECORDS_ROOT, load_world_records
 from engine.m1.registry import REPO_ROOT, formation_world_keys, load_registry
-from engine.m1.spoken_fields import PARTICIPANT_FIELDS
+from engine.m1.spoken_fields import PARTICIPANT_FIELDS, SPOKEN_FIELDS, fields_with_role
+from engine.m7.instruments import _strip_quoted
 
 CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 APP_WORLDS_TS = REPO_ROOT / "cic-poc" / "frontend" / "src" / "data" / "worlds.ts"
@@ -1023,6 +1026,107 @@ def observe_outside_help_guard(*, records, worlds, **_) -> list[Finding]:
     return findings
 
 
+_SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
+
+
+def _content_word_count(text: str) -> int:
+    """Word count with a bare `-`/`–`/`—` token (a spaced dash used as
+    punctuation, not a word) excluded - matches how a participant would
+    actually count words in the sentence."""
+    return sum(1 for tok in text.split() if tok.strip("-–—") != "")
+
+
+def _field_texts(world_records: dict, record_type: str, field_name: str) -> list[str]:
+    """Every spoken string a field contributes, one entry per record. A
+    plain string field contributes itself; a list field contributes each
+    string item, or each dict item's own `text` (the only list-of-dict
+    voice-diet field today is `demonstration.exchange`, `{speaker, text}`)."""
+    texts = []
+    for r in world_records.values():
+        if r.get("record_type") != record_type:
+            continue
+        v = r.get(field_name)
+        if isinstance(v, str) and v.strip():
+            texts.append(v)
+        elif isinstance(v, list):
+            for item in v:
+                if isinstance(item, str) and item.strip():
+                    texts.append(item)
+                elif isinstance(item, dict) and isinstance(item.get("text"), str) and item["text"].strip():
+                    texts.append(item["text"])
+    return texts
+
+
+def _register_profile(texts: list[str]) -> dict:
+    """Median words, longest sentence, fragment ratio, and dash density
+    across a field's own texts for one world - same math as
+    engine.m7.instruments.register_mechanical's own cadence metrics
+    (spaced-dash density, the <=5-word fragment share), applied here to
+    the compiled record layer instead of a live conversation turn, and
+    reusing its own `_strip_quoted`: quotes are the tradition's own words,
+    exempt from the plain band (reference/method/
+    CiC_Register_Bar_2026-08-29.md), never screened at this layer either.
+    `median_low` (the lower of the two middle values on an even count)
+    rather than an interpolated average - a real record's own word count,
+    never a number no record actually has."""
+    stripped = [_strip_quoted(t) for t in texts]
+    word_counts = [_content_word_count(t) for t in stripped]
+    sentences = [s.strip() for t in stripped for s in _SENTENCE_SPLIT.split(t) if s.strip()]
+    sentence_lens = [_content_word_count(s) for s in sentences]
+    total_words = sum(word_counts)
+    total_dashes = sum(t.count(" - ") for t in stripped)
+    return {
+        "n": len(texts),
+        "median_words": statistics.median_low(word_counts) if word_counts else 0,
+        "longest_sentence": max(sentence_lens) if sentence_lens else 0,
+        "fragment_ratio": round(sum(1 for n in sentence_lens if n <= 5) / len(sentence_lens), 2) if sentence_lens else 0.0,
+        "dash_per_100w": round(100 * total_dashes / total_words, 2) if total_words else 0.0,
+    }
+
+
+# alx and hal read as the fleet's own best-behaved worlds on every metric
+# below (Rulings-Pending.md R6: "the ceilings proposed will be the fleet's
+# own exemplars, not an arbitrary number") - printed once as the context a
+# proposed ceiling is measured against, not a pass/fail line of their own.
+_EXEMPLAR_WORLDS = ("alx", "hal")
+
+
+def observe_register_profile(*, records, worlds, **_) -> list[Finding]:
+    """Stage 2c (Build-Plan.md): per world, per voice-diet spoken field -
+    median words, longest sentence, fragment ratio, dash density
+    (`_register_profile`, above). OBSERVATION only, exactly like this
+    module's other `observe_*` checks: nothing here fails a build. Gate
+    promotion is explicitly blocked on R6 (Rulings-Pending.md) - a real
+    ruling on scope (which fields screen) and on whether numbers ever gate
+    at all, not this stage's to decide.
+
+    `alx`/`hal` print first, unscored, as the exemplar context a proposed
+    ceiling is read against; every world (`alx`/`hal` included) then gets
+    its own per-field line. A field with zero texts in a world (an empty
+    optional field) is skipped rather than printed as a false zero.
+    """
+    findings = []
+    ordered_worlds = list(_EXEMPLAR_WORLDS) + [w for w in worlds if w not in _EXEMPLAR_WORLDS]
+    for w in ordered_worlds:
+        if w not in worlds:
+            continue
+        tag = "exemplar" if w in _EXEMPLAR_WORLDS else "world"
+        for record_type, field_roles in SPOKEN_FIELDS.items():
+            for field_name in fields_with_role(record_type, "voice-diet"):
+                texts = _field_texts(records[w], record_type, field_name)
+                if not texts:
+                    continue
+                p = _register_profile(texts)
+                findings.append(_observation(
+                    "register-profile", w,
+                    f"[{tag}] {record_type}.{field_name}: median {p['median_words']}w, "
+                    f"longest sentence {p['longest_sentence']}w, "
+                    f"fragment ratio {p['fragment_ratio']}, "
+                    f"dash/100w {p['dash_per_100w']} (n={p['n']})"
+                ))
+    return findings
+
+
 def observe_corpus_map(*, registry, worlds, **_) -> list[Finding]:
     """Progress toward every world built and representing
     the sources of the christian tradition, read from the corpus map, not
@@ -1104,6 +1208,7 @@ CHECKS = [
     observe_uncompiled_required_fields,
     observe_second_hand_sources,
     observe_outside_help_guard,
+    observe_register_profile,
     observe_corpus_map,
 ]
 

@@ -1,12 +1,12 @@
 # Step 0 — Movement-Scope Confirmation: Latin Pastoral-Congregational Christianity
 ## Round 5 Independent Adversarial Review
 
-**Document reviewed:** `worlds/lpc/Step0_Movement_Scope_Confirmation.md` (fourth revision, commit `450e87aa`, dated 2026-09-01)
+**Document reviewed:** `World-Builds/Latin-Pastoral-Congregational-Christianity/Step0_Movement_Scope_Confirmation.md` (fourth revision, commit `450e87aa`, dated 2026-09-01)
 **Review date:** 2026-09-01
 **Reviewer:** independent adversarial review thread; did not draft the document under review and did not write the Round 1, 2, 3 or 4 reviews.
 **Governed by:** `cic-build-cycle` (CO-022) *Review* and *Revision decision* sections, and this project's standing rule that a revision's own claim to have fixed something is not evidence of a fix.
 
-**Method note.** Nothing in Rounds 1–4 was taken on trust. Every check below was re-derived from the primary artifact: the four governing `.docx` files re-extracted in this session (Constitution V2.2, Step 0 Methodology V1.0, Step 0 Conclusion FINAL v2, CF V7.4); the live `cic-build-cycle` SKILL at `/root/.claude/skills/synced/…/cic-build-cycle/SKILL.md` (102 lines, per Round 4's procedural note — the scratchpad copy Rounds 1–3 cited is stale); the four corpus-map YAMLs; `cic/texts/` and `cic/texts/README.md`; IJC's and Hieronymian's built documents; all of `records/ijc/`; the Donatism sibling-branch draft read via `git show origin/claude/record-native-world-build-v2-e2s0dt:worlds/don/Step0_Movement_Scope_Confirmation.md` (132 lines); and the Round 1–4 review files in full. The `f194c269 → 450e87aa` diff was read directly, so every edit made in this revision is accounted for.
+**Method note.** Nothing in Rounds 1–4 was taken on trust. Every check below was re-derived from the primary artifact: the four governing `.docx` files re-extracted in this session (Constitution V2.2, Step 0 Methodology V1.0, Step 0 Conclusion FINAL v2, CF V7.4); the live `cic-build-cycle` SKILL at `/root/.claude/skills/synced/…/cic-build-cycle/SKILL.md` (102 lines, per Round 4's procedural note — the scratchpad copy Rounds 1–3 cited is stale); the four corpus-map YAMLs; `cic/texts/` and `cic/texts/README.md`; IJC's and Hieronymian's built documents; all of `records/ijc/`; the Donatism sibling-branch draft read via `git show origin/claude/record-native-world-build-v2-e2s0dt:World-Builds/Donatism/Step0_Movement_Scope_Confirmation.md` (132 lines); and the Round 1–4 review files in full. The `f194c269 → 450e87aa` diff was read directly, so every edit made in this revision is accounted for.
 
 ---
 
@@ -60,7 +60,7 @@ The string `do not extend this license... [the rest] belong[s]` is gone from the
 
 ### R4-3 (Cosmetic) — "only existing" → "only other" — **APPLIED**
 
-§3 B1 line 87 now reads *"the only other per-world Step 0 confirmations, IJC's and the parallel Donatism draft."* Substance re-checked, not assumed: `find` returns exactly two `Step0_Movement_Scope_Confirmation.md` files in this working tree (IJC's and this one) and one on the sibling branch; neither `worlds/hal/` nor `worlds/desert/` holds a Step 0 confirmation of any kind. The wording is also now consistent with §0's *"the one prior document of this exact type"* — "prior" for IJC (2026-07-19), "other" for the same-day Donatism draft. Both are true and they no longer pull against each other.
+§3 B1 line 87 now reads *"the only other per-world Step 0 confirmations, IJC's and the parallel Donatism draft."* Substance re-checked, not assumed: `find` returns exactly two `Step0_Movement_Scope_Confirmation.md` files in this working tree (IJC's and this one) and one on the sibling branch; neither `World-Builds/Hieronymian-Ascetic-Literary/` nor `World-Builds/Desert-Monasticism/` holds a Step 0 confirmation of any kind. The wording is also now consistent with §0's *"the one prior document of this exact type"* — "prior" for IJC (2026-07-19), "other" for the same-day Donatism draft. Both are true and they no longer pull against each other.
 
 ### R4-4 (Cosmetic) — the truncated Donatism A5 quotation — **ADDRESSED, by extension rather than by ellipsis**
 
@@ -237,7 +237,7 @@ Every internal pointer re-walked after the §4 item 2 expansion: §1 → §4 ite
 - **(a) Attribution to "the project lead"/"Mark" without a verbatim sourced quote — CLEAN.** The single "Mark" occurrence is the verbatim Optatus corpus-map note, correctly marked as a quotation of that file.
 - **(b) Content described as checked that wasn't — CLEAN in every substantive claim.** I independently re-ran every check the document reports: the twelve-record IJC locus sweep, all four corpus-map files, the hal Doc_01 §8.1 read, the Donatism branch read via `git show`, the IJC Doc_01/Doc_02 Cyprian searches, the IJC Step 0 A1/status check, the repository-wide Step 0 confirmation search, and the System Hub template search. **All return what the document says they return.** The one place a claim outruns the fact is R5-1's "in full" — a claim about a quotation's extent, not about a check.
 - **(c) Fabricated citation or fact — CLEAN.** Nothing unsourced remains; the last constructed phrase (Round 3's NEW-4) is gone and is disclosed in the document's own words rather than quietly deleted.
-- **(d) Build output outside the canonical folder — CLEAN.** Document and all five review artifacts sit under `worlds/lpc/`.
+- **(d) Build output outside the canonical folder — CLEAN.** Document and all five review artifacts sit under `World-Builds/Latin-Pastoral-Congregational-Christianity/`.
 
 ### Revision history, re-checked against the actual Round 1–4 files
 

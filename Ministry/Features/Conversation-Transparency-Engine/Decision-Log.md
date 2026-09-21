@@ -259,3 +259,75 @@ fixed before merge, not routed around. Full suite 740 passed / 6 failed /
 23 errors — the failures are the pre-existing Stage 0c package-completeness
 gap (root cause reconfirmed here), unrelated to this branch. Fleet gates
 green. Full numbers: `engine/m4/reports/grounding-fooling-2026-09-21.json`.
+
+**Entry 14 — 2026-09-20.** Stage 0a merged (PR #339, commit `0175b5be6`):
+`engine/m4/turn.py`'s `run_gate()` called `call_safety` then `call_reader`
+strictly sequentially, paying both latencies back to back on every turn
+even though neither call's input depends on the other's output. Both now
+run on a 2-worker `ThreadPoolExecutor`; the httpx-based Bedrock SDK client
+is thread-safe, so there was nothing to serialize. Each call keeps its own
+existing 4s timeout; `usage_records` still append in the same fixed order
+(safety, reader) regardless of which future completes first, matching
+every existing caller's assumption. `engine/m4/tests/test_turn.py`
+extended (+32 lines) proving both calls invoked and routing byte-identical
+to sequential for every existing scenario; the table path inherits the fix
+via `run_gate` with no separate wiring needed. Logged here retroactively —
+found genuinely done during this session's own re-verification, matching
+the Entry 4-12 pattern of merged-but-undocumented work.
+
+**Entry 15 — 2026-09-20.** Stage 0b merged (PR #340, commit `460b5194f`):
+`cic-poc/frontend/src/components/ChatInput.tsx`'s Leave button took the
+same `disabled` prop as Send/the textarea, so a participant mid-turn
+(`Conversation.tsx`'s `isLoading`) or inside an open Table round
+(`TableRoom.tsx`'s `isLoading || roundOpen`) could not leave until the
+in-flight call resolved. Leave no longer takes `disabled` at all; Send and
+the textarea are unchanged. New `ChatInput.test.tsx` proves both halves.
+Confirmed directly on disk: Leave (~line 73) carries no `disabled` prop
+while Send (~line 64) still does. Logged here retroactively, same as
+Entry 14.
+
+**Entry 16 — 2026-09-20.** Stage 0c merged (PR #341, commit `9ddc9c843`):
+`TableRoom.tsx` hardcoded "a Table holds five rounds" in participant-
+facing copy — and it was wrong on its own terms, not just hardcoded:
+`engine.m4.round.TABLE_SESSION_ROUND_CAP` is 3. Session-create and
+transcript API responses now carry the real value (`round_cap: int |
+None`, `null` for an interview session where no cap applies) via a new
+`engine/api/table_wiring.py` `round_cap_for(mode)` helper, plumbed through
+`engine/api/app.py`'s response models, `types/conversation.ts`, and
+`useTable.ts`; `TableRoom.tsx` renders the real number instead of the old
+guess. `test_table_api.py` asserts the field (+15 lines); confirmed no
+literal round count remains anywhere in `src/`. Logged here retroactively,
+same as Entry 14.
+
+**Entry 17 — 2026-09-20.** Stage 0e merged (PR #342, commit `bdc7cf252`):
+new `engine.m1.cross_world.observe_outside_help_guard` — per world, does
+`voice_craft.guard` carry don's own categorical distress-comparison
+prohibition, scanned by keyword (not a semantic judgment, per its own
+docstring), report-only, registered in `CHECKS` alongside the fleet's
+other `observe_*` functions. Findings are already carried under R19 in
+`Rulings-Pending.md`: of the 11 built worlds, only **don** and **rzg**
+carry the language; the other 9 (alx, cappadocian, desert, gallic, hal,
+ijc, pahc, syr, witt) do not. Logged here retroactively, same as Entry 14.
+
+**Entry 18 — 2026-09-20.** Stage 0d merged (PR #343, commit `11e2093c5`):
+`engine/m5/safety_script_run.py` gained `--all` (runs every committed
+batch, prints one combined tally; the existing per-batch `--batch <n>`
+mode and `BATCHES` itself are unchanged). `render.yaml` pins
+`CIC_API_SAFETY_MODEL_PATTERN` to the exact resolved profile id
+(`us.anthropic.claude-haiku-4-5-20251001-v1:0`) rather than the loose
+default pattern, with `engine/api/README.md` documenting the rationale and
+the repin discipline (repin only alongside a fresh `--all` tally). CLI
+unit-tested with a fake client (`test_safety_script_run.py`, +74 lines); a
+same-PR CI fix (commit `d041530d7`) installed `engine/m4/requirements.txt`
+for `anthropic`, needed because the new test imports
+`engine.m5.live_calls` at module level, which imports `anthropic` itself.
+
+**Known gap, named not hidden:** the stage's own Done bar requires "the
+live tally is by-hand, credentialed, never CI; tally path in
+`Decision-Log.md`" before the pin can be relied on — that by-hand tally
+has not been run or logged anywhere in this workstream as of this entry.
+The pinned model id is asserted by the PR, not yet verified against an
+actual `--all` run. Per the stage's own instruction ("Escalate if pinned
+id ≠ last tally's id"), this still needs to be run and logged before the
+pin should be treated as trustworthy. Logged here retroactively, same as
+Entry 14.

@@ -106,6 +106,48 @@ def test_a_participant_facing_field_carrying_a_record_id_is_caught():
     assert "wld.source.some-edition" in findings[0].message
 
 
+def test_register_profile_math_on_a_constructed_example():
+    """`_register_profile`'s own arithmetic, pinned against hand-counted
+    input rather than trusted from the fleet's own numbers alone: a
+    three-word fragment, a quoted aside exempt from the plain band (the
+    Register Bar's own rule), and one spaced dash."""
+    texts = [
+        'Too short.',
+        'A longer sentence that runs on a while - and then keeps going, saying "a quoted run that should not count toward word length" before it finally stops.',
+    ]
+    p = cross_world._register_profile(texts)
+    assert p["n"] == 2
+    # word counts: "Too short." = 2; the second text, quoted span stripped
+    # and its bare dash token excluded, = 17. median_low of [2, 17] is 2.
+    assert p["median_words"] == 2
+    # each text is one sentence (the quoted span's own period is gone with
+    # it); the longer one is the 17-word one above.
+    assert p["longest_sentence"] == 17
+    assert p["fragment_ratio"] == 0.5
+    # one spaced " - " across 2 + 17 = 19 total words.
+    assert p["dash_per_100w"] == round(100 * 1 / 19, 2)
+
+
+def test_register_profile_skips_a_field_no_record_in_the_world_uses():
+    """A field with zero texts in a world (an unused optional field) must
+    not print a false zero - `_field_texts` returning `[]` should mean the
+    field is left out of the report entirely, not scored as empty."""
+    assert cross_world._field_texts({}, "story", "tellable_as") == []
+
+
+def test_observe_register_profile_runs_clean_on_the_real_fleet():
+    """Report-only per this stage's own bar: must never raise, and every
+    finding it emits stays an OBSERVATION, never a DEFECT that could fail
+    a build ahead of R6's own ruling."""
+    registry = cross_world.load_registry()
+    worlds = cross_world.formation_world_keys(registry)
+    records = {w: cross_world.load_world_records(w) for w in worlds}
+    findings = cross_world.observe_register_profile(records=records, worlds=worlds)
+    assert findings
+    assert all(f.severity == cross_world.OBSERVATION for f in findings)
+    assert any(f.scope == "hal" and "story.tellable_as" in f.message for f in findings)
+
+
 def test_every_check_defined_in_the_module_is_wired_into_the_report():
     """A check that exists but is missing from CHECKS runs nowhere and fails
     nothing - the quietest way for this file to stop doing its job. Cheap

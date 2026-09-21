@@ -1,10 +1,13 @@
 # Representative Portraits — drop folder
 
-One subfolder per world (named by the same `world_id` the flat icons in
-`../World-Icons/` already use), plus one `group/` folder for images with more than
-one Representative together. This lets the web-building thread look things up by
-`world_id` the same way it already does elsewhere, while filenames stay
-human-readable.
+One subfolder per world, plus one `group/` folder for images with more than one
+Representative together. Folder naming has drifted from the original plan of
+matching `world_id` exactly (`../World-Icons/`'s own scheme) toward the world's
+short registry code — the same short form `records/worlds/<code>.yaml`'s own
+filename uses. The two most recently added folders, `rzg/` and `witt/`, both
+follow the short-code form; `lpc/` (added 2026-09-21) follows the same
+precedent rather than the longer, literal `world_id`. Filenames stay
+human-readable either way.
 
 ## Per-world folders
 
@@ -19,6 +22,7 @@ human-readable.
 | `bethlehem/` | Albina | Bethlehem Circle (Hieronymian) |
 | `rzg/` | Theophilus | The Reformed Cities: Zurich & Geneva |
 | `witt/` | Nikolaus | Lutheran Wittenberg & Its Congregations |
+| `lpc/` | Datus | Latin Pastoral-Congregational Christianity |
 
 Inside each, files are named `Name_Portrait.png` (e.g. `Chloe_Portrait.png`) for the
 standalone profile portrait — the actual convention in place as of 2026-07-24, not
@@ -66,3 +70,12 @@ carried here rather than silently dropped when Nikolaus's own status was merged 
 
 No `_Table` or `group/` images have been built yet — those come after the Living
 Table scene gets rebuilt around these portraits.
+
+## Update, 2026-09-21 — lpc/Datus
+
+`lpc/Datus_Portrait.jpg` and its research brief (`lpc/Datus_Portrait_Prompt.md`)
+are now merged, as part of reconciling lpc's diverged build branches. The image's
+content was approved by the project lead on 2026-09-15; this update only fixes
+its file location and merges it to `main` — it does not itself mean lpc is live.
+lpc is still unregistered in `records/worlds/` and its Representative
+construction (Datus) is far from complete; see `worlds/lpc/lpc_Decision_Log.md`.

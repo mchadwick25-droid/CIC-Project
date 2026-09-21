@@ -7,12 +7,12 @@
 
 **Documents reviewed, at commit `3c3cbe88` (prior state `1a2d36a8`), branch `lpc-doc04-round2`:**
 
-- `worlds/lpc/Doc_05_Ecological_Reconstruction.md` (398 lines)
-- `worlds/lpc/lpc_Decision_Log.md` — the 2026-09-14 (eleventh) entry added by the same commit
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_05_Ecological_Reconstruction.md` (398 lines)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md` — the 2026-09-14 (eleventh) entry added by the same commit
 
 **Read as governing standard, not reviewed:** `CiC_L3A_Forces_Framework_V1.1.docx`, `CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` and `CiC_L1_Constitution_V2_2.docx`, each unzipped and extracted from `word/document.xml` in full; `CLAUDE.md`; `Doc_01_World_Identification_Boundaries_Orientation.md` §§1, 2, 5, 6; `Doc_04_Gravity_Discovery.md` §2 and §7; `Review-Artifacts/Doc05_Round1_Review.md` in full; `Review-Artifacts/Doc04_Round11_Review.md` (form and the quoted adequacy sentence only).
 
-**Read at source and independently re-run:** the eight vendored Augustine volumes `npnf101`–`npnf108`; `anf05_hippolytus-cyprian-caius-novatian.xml` at lines 23552, 27373–59723 and 56865–56880; `npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml` at 43470–43560 and 44383; `npnf101_augustine-confessions-letters.xml` at 487–654; `npnf108_augustine-exposition-psalms.xml` at 447–455; every `Doc_05_Ecological_Reconstruction.md` in `worlds/` across all twelve worlds.
+**Read at source and independently re-run:** the eight vendored Augustine volumes `npnf101`–`npnf108`; `anf05_hippolytus-cyprian-caius-novatian.xml` at lines 23552, 27373–59723 and 56865–56880; `npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml` at 43470–43560 and 44383; `npnf101_augustine-confessions-letters.xml` at 487–654; `npnf108_augustine-exposition-psalms.xml` at 447–455; every `Doc_05_Ecological_Reconstruction.md` in `World-Builds/` across all twelve worlds.
 
 ### Method
 
@@ -27,7 +27,7 @@ Per `CLAUDE.md`'s round-2 rule this is a targeted recheck, not a re-review. The 
 5. **Every newly quoted string was located in the source and character-checked** — eighteen in §2.3, the Forces Framework Step 5 sentence in the header, the Framework's against-the-grain gloss at §1.4, and the full 256-preface endnote at §4.2.
 6. **The new prose was checked for what it broke**, not only for what it fixed: §0's count, §9.6's count, §0.7's coverage claims against each subsection's actual text, and the §6.8 paragraph's claims against Doc_01, Doc_02 and Doc_04 at the cited sections.
 7. **Round 1 was treated as a suspect object.** Its per-volume table, its "at least four missing" claim, its flock re-count, and its claim about what does and does not occur in the Forces Framework were all re-derived independently. One of them is false, and the fix pass propagated it.
-8. **The ruling's application was swept portfolio-wide**: every `Doc_05` file in `worlds/`, including the differently-prefixed `cappadocian_Doc_05_…`, was counted for both terms.
+8. **The ruling's application was swept portfolio-wide**: every `Doc_05` file in `World-Builds/`, including the differently-prefixed `cappadocian_Doc_05_…`, was counted for both terms.
 
 ---
 
@@ -56,7 +56,7 @@ Nothing else found is large. Three LOW findings and two COSMETIC are corrections
 9. **The §6.8 addition's load-bearing claim about Doc_04 is accurate.** Doc_04 §2 reads: *"nothing in this world's own ecology organizes around the coercive-capacity shift itself"* and *"considered, not advanced as its own candidate gravity."* §6.8's *"Doc_04 §2 declined to advance the illegal-to-established shift as its own gravity, finding that nothing in this ecology organises around it"* is a fair rendering, and §0.1's "two candidates considered and not advanced" matches Doc_04 §2's two entries.
 10. **M2(b)'s target is real and is now answered.** CF V7.4 Part III names four points under this dimension — *History's Impact on the World / The World's Impact on History / Position, Power & Influence / Effects on Formation, Interpretation & Theology*. §6.8 now treats the fourth under its own name, with a separate finding for each of formation, interpretation and theology.
 11. **The ruling is applied consistently and attributed correctly.** "Boundary Structures" is the lens name at the §6.1 heading, the §0.7 table, and the header; "Boundary Ecology" appears only where the document is describing CF V7.4's wording (lines 9, 378, 398). The ruling is attributed to *"the project lead"* at all three sites and is nowhere claimed by the build thread, and both §11 item 15 and the Disposition state what it does not settle.
-12. **The three-sibling-worlds claim is exactly right.** Sweeping every `Doc_05` file in `worlds/`, exactly three others use *Boundary Ecology* — Alexandria-Catechetical-School (1), Donatism (2) and Cappadocian (1, at `cappadocian_Doc_05_Ecological_Reconstruction.md`). Imperial-Juridical (2) and Syriac (3) already use *Boundary Structures*; Hieronymian uses neither. I initially scored this claim as false because my first glob missed the prefixed Cappadocian filename; re-running the sweep by content rather than by filename confirms the document is right and my check was wrong.
+12. **The three-sibling-worlds claim is exactly right.** Sweeping every `Doc_05` file in `World-Builds/`, exactly three others use *Boundary Ecology* — Alexandria-Catechetical-School (1), Donatism (2) and Cappadocian (1, at `cappadocian_Doc_05_Ecological_Reconstruction.md`). Imperial-Juridical (2) and Syriac (3) already use *Boundary Structures*; Hieronymian uses neither. I initially scored this claim as false because my first glob missed the prefixed Cappadocian filename; re-running the sweep by content rather than by filename confirms the document is right and my check was wrong.
 13. **Document Log and Disposition self-report accurately on the review they name.** The new log row `REVISION REQUIRED — 2H 3M 2L 1C` matches Round 1's verdict block, and the Disposition's quotation of Round 1 (*"a single fix pass addressing H1, H2, and the three MEDIUM findings should be sufficient, without restructuring the document"*) is verbatim. The header's quotation of `Doc04_Round11_Review.md` line 393 is also verbatim.
 14. **No stale figure survives.** "Seventeen" appears only where the document is naming its own earlier error (§2.3's correction notice at line 116, §11 item 4 at line 360); "four kinds" and "four-category" appear nowhere at all. No bare "Inferential" survives anywhere.
 
