@@ -993,3 +993,39 @@ Render was ignoring. The exception itself is unchanged (still logged,
 still not reverted, per Mark's own decision above) - this entry only
 corrects the previously-open question about its actual production impact,
 which is no longer smaller than the bypassed procedure would suggest.
+
+---
+
+## 2026-09-21 20:15 UTC — Total system check: `cic/engine` corpus-map self-test not wired into CI, 4/13 checks failing
+
+Requested full cross-module health sweep, wider than the routine's own
+7-step check. Main CI green (run 1117); fleet size unchanged at 11;
+`engine/` test suite clean (769/769, 0 skips, no TODO/FIXME debt);
+`staleness-check` clean across all 12 packages. One earlier-today
+Decision-Log entry (Entry 13, commit `1f13808ed`, 05:45 UTC) logged a
+failing run (740 passed / 6 failed / 23 errors, blamed on a "pre-existing
+Stage 0c package-completeness gap") - confirmed that commit predates the
+same day's Stage 4a fleet-wide package rebuild (18:51-19:22 UTC), so this
+is already resolved by that later work, not a live problem.
+
+One genuine, currently-uncaught gap found: `cic/engine/tests_corpus_map.py`
+is not pytest-collected and not wired into CI at all - it only runs if
+someone invokes it directly. Run directly, 4 of its ~13 checks fail:
+
+- `tests_corpus_map.py:18` - every map filename is a census movement id
+- `tests_corpus_map.py:45` - every bucket on disk is reproducible from staging
+- `tests_corpus_map.py:67` - every author ruling is used by some assignment
+- `tests_corpus_map.py:112` - every transmitted work has its voice assigned
+  somewhere else (named orphan: "Festal Letter XXXIX (367)")
+
+This is corpus/source-research territory (`cic/corpus-map/`), not a
+repo-wide mechanical break for this thread to fix directly - flagged here,
+not fixed. Whether these four are real data defects or a stale self-test
+assertion is a judgment call for that thread, and separately, someone
+should decide whether this file belongs in the pytest-collected suite so a
+real regression here isn't silent going forward.
+
+Everything else surveyed (Ministry workstream status, world-fleet build
+stage, frontend/website, `live` branch activity) matched already-known
+state - see conversation record for the full breakdown; not duplicated
+here since none of it changed anything actionable.
