@@ -66,17 +66,45 @@ Nothing else. No `bedrock:*`, no other service, no wildcard action.
 `render.yaml`'s own comment on `cic-engine-staging`'s AWS keys already
 calls for **separate credentials, not separate scope** — staging and prod
 call the exact same two models in the exact same region, so the same
-policy document is correct for both; the separation that matters is
-blast radius (a compromised staging key should reach nothing prod's key
-can), which comes from two distinct IAM users/access keys, not two
-different policies.
+policy document is correct for both.
+
+**Correction (closing adversarial review, 2026-09-21):** be precise about
+what two distinct IAM users actually buy here, because it's less than
+`render.yaml`'s own comment implies. Two access keys under an identical
+policy give **rotation granularity and CloudTrail attribution** — you can
+tell which service made a given call, and revoke one without touching the
+other. They do **not** give blast-radius containment: a compromised
+staging key can invoke the exact same two models, in the same region,
+billed to the same account, at the same rate this policy permits either
+identity to invoke at. If a compromised-staging-key scenario is a real
+concern worth defending against specifically (not just detecting after
+the fact), that needs an actual difference between the two policies — a
+narrower model set on staging, a `aws:RequestedRegion` condition, or a
+separate AWS Budget/alarm scoped to the staging user — not implied by
+anything in this runbook as written. Rotation and attribution are still
+worth having on their own; just don't read them as containment.
 
 ## Setup steps (Mark, in the AWS console — nothing here is executable from a build thread)
 
-1. **Fill in the account id.** `iam-policy-cic-bedrock-prod.json` has
-   `<AWS_ACCOUNT_ID>` in six places — replace with the real 12-digit
-   account id (IAM console, top-right account menu, or `aws sts
-   get-caller-identity`).
+1. **Fill in the account id — in exactly the two `inference-profile/` ARNs,
+   not the six `foundation-model/` ones.** `iam-policy-cic-bedrock-prod.json`
+   has `<AWS_ACCOUNT_ID>` in the `InvokeThePinnedInferenceProfiles`
+   statement's two resources only — replace with the real 12-digit account
+   id (IAM console, top-right account menu, or `aws sts
+   get-caller-identity`). **Bedrock foundation-model ARNs have no account
+   segment at all** (`arn:aws:bedrock:${Region}::foundation-model/${id}` —
+   AWS-owned, not account-owned resources, note the empty field between the
+   two colons before `foundation-model`); the six ARNs in
+   `InvokeTheProfilesUnderlyingFoundationModels` are already written that
+   way and must stay that way. A closing adversarial review of this
+   package (2026-09-21) caught an earlier draft of this file that put the
+   account id in all eight ARNs — that draft would have granted the
+   inference-profile statement correctly and the foundation-model
+   statement *nothing at all* (an account-scoped ARN can never match an
+   AWS-owned, account-less resource), producing exactly the intermittent,
+   region-dependent `AccessDenied` this runbook's own step 8 warns about,
+   for a reason step 8's own troubleshooting hint (adjust the region list)
+   would not have led anyone to.
 2. **Verify the cross-region geography** (see above) before applying —
    adjust the foundation-model region list if the live account's inference
    profile disagrees with the assumption stated here.

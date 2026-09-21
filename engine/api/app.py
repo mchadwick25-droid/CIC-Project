@@ -18,7 +18,7 @@ from pathlib import Path
 from fastapi import FastAPI, Header, HTTPException, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 from engine.api import ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
@@ -74,8 +74,21 @@ class SessionCreateResponse(BaseModel):
     round_cap: int | None = None
 
 
+_MAX_MESSAGE_LENGTH = 4000  # ~800-1000 words - generous for a real participant turn, bounded against a payload attack
+
+
 class MessageRequest(BaseModel):
-    text: str
+    # 2026-09-21, closing adversarial review of Tech-Readiness P1-Security:
+    # unbounded before this. Nothing anywhere in the request path - not
+    # this model, not engine/m4/turn.py, not the Dockerfile - capped
+    # participant input length; every message is forwarded to Bedrock
+    # TWICE per turn (the safety gate, then voice generation) and stored
+    # verbatim, at up to 40 messages/min per IP. Output was already
+    # bounded (max_tokens on the generation call); input wasn't - textbook
+    # OWASP LLM Top 10 "unbounded consumption," and cheaper for an
+    # attacker to hit than the session-creation path this package's own
+    # anonymous-cap work (item 3) addresses.
+    text: str = Field(max_length=_MAX_MESSAGE_LENGTH)
     client_msg_id: str | None = None
 
 
