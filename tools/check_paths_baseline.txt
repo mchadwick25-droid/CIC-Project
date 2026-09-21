@@ -111,6 +111,7 @@ records/alx/term/alx.term.sophia.md: cic-poc/backend/wrs/records/alexandria_worl
 records/alx/world_core/alx.core.alexandria.md: records/worlds.yaml
 records/cappadocian/voice_craft/cappadocian.voice.craft.md: World-Builds/Nicene-Cappadocian/cappadocian_Representative_Permanent_Prompt_Eumathios.txt
 records/cappadocian/voice_craft/cappadocian.voice.craft.md: records/worlds.yaml
+records/desert/facilitator_brief/desert.facilitator_brief.desert-monasticism.md: cic-poc/backend/app
 records/desert/gravity/desert.gravity.diakrisis.md: World-Builds/Desert-Monasticism
 records/desert/quote/desert.quote.eight-principal-faults.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
 records/desert/quote/desert.quote.equal-measure-of-strength.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
@@ -139,6 +140,7 @@ records/don/story/don.story.passio-donati-sermon.md: World-Builds/Donatism/Story
 records/don/story/don.story.passio-marculi.md: World-Builds/Donatism/Story-Chunks/donstory002_passio-
 records/don/story/don.story.tyconius-condemnation.md: World-Builds/Donatism/Story-Chunks/donstory009_tyconius-
 records/don/world_core/don.core.donatism.md: records/worlds.yaml
+records/don/world_front/don.front.donatism.md: records/latin-pastoral-
 records/fix/world_core/fix.core.fixture-world.md: records/worlds.yaml
 records/gallic/voice_craft/gallic.voice.craft.md: World-Builds/Gallic-Monastic-Ascetic-Christianity/gallic_Representative_Permanent_Prompt_Renatus.txt
 records/gallic/voice_craft/gallic.voice.craft.md: records/worlds.yaml
@@ -507,8 +509,8 @@ worlds/syr/build/LEGACY-PARTICIPANT-CARD-REFERENCE.md: cic-poc/backend/app/world
 worlds/syr/build/LEGACY-PARTICIPANT-CARD-REFERENCE.md: records/worlds.yaml
 worlds/syr/build/REVIEW-ROUND-1.md: records/worlds.yaml
 worlds/syr/build/VOICE-CRAFT-REVIEW-ROUND-1.md: records/worlds.yaml
-worlds/syr/build/VOICE-CRAFT-REVIEW-ROUND-2.md: reference/Redesign-Spec/BUILD-HANDOFF.md
 worlds/syr/build/VOICE-CRAFT-REVIEW-ROUND-2.md: records/worlds.yaml
+worlds/syr/build/VOICE-CRAFT-REVIEW-ROUND-2.md: reference/Redesign-Spec/BUILD-HANDOFF.md
 worlds/witt/Open_Gaps_Tracking.md: World-Builds/Alexandria-Catechetical-School/Open_Gaps_Tracking.md
 worlds/witt/Open_Gaps_Tracking.md: World-Builds/Lutheran-Wittenberg
 worlds/witt/Open_Gaps_Tracking.md: packages/witt/2026-09-19T05-06-48Z
