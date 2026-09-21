@@ -1,0 +1,33 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "InvokeThePinnedInferenceProfiles",
+      "Effect": "Allow",
+      "Action": ["bedrock:InvokeModel", "bedrock:InvokeModelWithResponseStream"],
+      "Resource": [
+        "arn:aws:bedrock:us-east-1:<AWS_ACCOUNT_ID>:inference-profile/us.anthropic.claude-haiku-4-5-20251001-v1:0",
+        "arn:aws:bedrock:us-east-1:<AWS_ACCOUNT_ID>:inference-profile/us.anthropic.claude-sonnet-4-5-*"
+      ]
+    },
+    {
+      "Sid": "InvokeTheProfilesUnderlyingFoundationModels",
+      "Effect": "Allow",
+      "Action": ["bedrock:InvokeModel", "bedrock:InvokeModelWithResponseStream"],
+      "Resource": [
+        "arn:aws:bedrock:us-east-1:<AWS_ACCOUNT_ID>:foundation-model/anthropic.claude-haiku-4-5-20251001-v1:0",
+        "arn:aws:bedrock:us-east-2:<AWS_ACCOUNT_ID>:foundation-model/anthropic.claude-haiku-4-5-20251001-v1:0",
+        "arn:aws:bedrock:us-west-2:<AWS_ACCOUNT_ID>:foundation-model/anthropic.claude-haiku-4-5-20251001-v1:0",
+        "arn:aws:bedrock:us-east-1:<AWS_ACCOUNT_ID>:foundation-model/anthropic.claude-sonnet-4-5-*",
+        "arn:aws:bedrock:us-east-2:<AWS_ACCOUNT_ID>:foundation-model/anthropic.claude-sonnet-4-5-*",
+        "arn:aws:bedrock:us-west-2:<AWS_ACCOUNT_ID>:foundation-model/anthropic.claude-sonnet-4-5-*"
+      ]
+    },
+    {
+      "Sid": "ResolveModelIdsAtStartup",
+      "Effect": "Allow",
+      "Action": "bedrock:ListInferenceProfiles",
+      "Resource": "*"
+    }
+  ]
+}

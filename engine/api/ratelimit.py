@@ -7,6 +7,13 @@ is both an open wallet and a trivial denial-of-service (saturate the
 thread pool and the whole surface — static pages included — stops
 answering).
 
+A third bucket (2026-09-21, Tech-Readiness P1-Security item 6) covers
+/api/admin/* - not spend-bearing, but its Bearer token
+(engine.api.app._authenticate_admin) had no anti-automation control at
+all: hmac.compare_digest is constant-time against a KNOWN token, but
+nothing stopped an attacker from simply trying tokens at unlimited rate.
+Same mechanism, different reason (ASVS V2.2.1, not spend).
+
 In-process and dependency-free on purpose: one instance serves all
 traffic today (the SQLite session store already pins us there), so a
 shared limiter store would be scaffolding for a topology that doesn't
@@ -32,9 +39,14 @@ from fastapi.responses import JSONResponse
 
 # window, max requests. Create: 6/min covers a household retrying; no
 # real participant creates sessions faster. Converse: 40/min per IP is
-# ~4x the fastest real table pace.
+# ~4x the fastest real table pace. Admin: 10/min per IP - generous for
+# the one legitimate operator polling pilot-summary, hostile to guessing
+# a token by brute force (a real token is a long random string; even an
+# attacker with no rate limit at all would need an astronomical number
+# of attempts, but zero throttle meant zero cost to trying anyway).
 CREATE_LIMIT = (60.0, 6)
 CONVERSE_LIMIT = (60.0, 40)
+ADMIN_LIMIT = (60.0, 10)
 
 # Participant-facing words (full inventory in the decision log, alongside
 # the move-3 error layer): plain, no blame, says what to do.
@@ -75,23 +87,28 @@ def client_ip(request: Request) -> str:
 
 
 def install(app):
-    """HTTP middleware: session creation and conversation traffic each get
-    their own per-IP bucket; everything else (worlds list, transcript,
-    health, static files) passes untouched. 429 carries Retry-After and a
-    participant-appropriate detail string."""
+    """HTTP middleware: session creation, conversation traffic, and admin
+    requests each get their own per-IP bucket; everything else (worlds
+    list, transcript, health, static files) passes untouched. 429 carries
+    Retry-After and a participant-appropriate detail string."""
     create_limiter = SlidingWindowLimiter(*CREATE_LIMIT)
     converse_limiter = SlidingWindowLimiter(*CONVERSE_LIMIT)
+    admin_limiter = SlidingWindowLimiter(*ADMIN_LIMIT)
 
     @app.middleware("http")
     async def _rate_limit(request: Request, call_next):
         if request.method == "POST" and request.url.path.startswith("/api/session"):
             limiter = create_limiter if request.url.path == "/api/session" else converse_limiter
-            if not limiter.allow(client_ip(request)):
-                return JSONResponse(
-                    status_code=429,
-                    content={"detail": RETRY_DETAIL},
-                    headers={"Retry-After": str(int(limiter.window))},
-                )
+        elif request.url.path.startswith("/api/admin"):
+            limiter = admin_limiter
+        else:
+            return await call_next(request)
+        if not limiter.allow(client_ip(request)):
+            return JSONResponse(
+                status_code=429,
+                content={"detail": RETRY_DETAIL},
+                headers={"Retry-After": str(int(limiter.window))},
+            )
         return await call_next(request)
 
     return app
