@@ -21,7 +21,7 @@ sources: []
 relations: []
 author: Augustine of Hippo
 work: Answer to the Letters of Petilian, the Donatist (Contra litteras Petiliani), 3 books (Book I c.
-  400, Book III c. 401-402 on the NPNF Prolegomena's own dating, Registry row 31)
+  400, Book III c. 401-402 on the NPNF Prolegomena's own dating)
 edition: Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml.
   The critical Latin text (CSEL 52, Pars II) is confirmed ABSENT from the vendored Petschenig scan (Registry
   row 39) -- checked directly, found only as a cross-reference abbreviation.

@@ -182,9 +182,18 @@ export function renderQuiet(compiled) {
 // off mid-clause; only when no sentence end falls in range does it fall
 // back to the nearest word boundary. See this generator's own report for
 // this judgment call.
+// Most record_type values already read fine to a participant once
+// underscores become spaces ("contested_claim" -> "contested claim").
+// "gravity" is this project's own internal term (Doc_04 Gravity
+// Discovery - a world's core theological conviction) and reads as
+// jargon on its own, so it gets an explicit participant-facing label
+// here rather than a hand-edited copy of the citation text, which
+// would only need doing again on every recompile.
+const RECORD_TYPE_LABELS = { gravity: "core conviction" };
 function citeExcerpt(cite, maxLen) {
   if (!cite || !cite.text) return "";
-  const label = (cite.record_type || "").replace(/_/g, " ");
+  const rawType = cite.record_type || "";
+  const label = RECORD_TYPE_LABELS[rawType] || rawType.replace(/_/g, " ");
   const full = cite.text.trim();
   let text = full;
   if (full.length > maxLen) {

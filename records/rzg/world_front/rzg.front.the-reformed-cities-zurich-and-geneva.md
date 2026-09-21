@@ -17,26 +17,28 @@ export:
 skim:
   tile:
     text: >-
-      Two Swiss cities, five years apart, tested every inherited church
-      practice against one standard: what Scripture will actually warrant.
-      At Zurich in 1519, Huldrych Zwingli began preaching straight through
-      Matthew instead of the fixed church calendar, and by 1523 a public
-      Disputation before the city council had made that method into law.
-      At Geneva, joined by John Calvin in 1536, the same conviction was
-      built up a different way: doctrine taught article by article through
-      a Catechism, and a Consistory of pastors and lay elders set to test
-      it against ordinary conduct. Zwingli and Calvin never met. What
-      bridges the two cities is a document, not a friendship: the
-      Consensus Tigurinus of 1549, a jointly signed statement on the
-      Lord's Supper. Both cities refused Rome's repeated sacrifice and
-      Wittenberg's claim that Christ's body sits in the bread. Both held
-      that God's own free choice, not anything earned, decides who is
-      saved - a doctrine offered as comfort, not threat. This world argued
-      hard with itself, too: a schism from inside Zwingli's own circle at
-      Zurich, and a fight over who finally governs church discipline that
-      Geneva's Consistory only won by 1555. This record is richest in
-      confession and doctrine. It is almost silent on what an ordinary
-      Sunday actually felt like.
+      Two Swiss cities, five years apart, tested every inherited
+      church practice against one standard: what Scripture will
+      actually warrant. At Zurich in 1519, Huldrych Zwingli began
+      preaching straight through Matthew instead of the fixed church
+      calendar, and by 1523 a public Disputation before the city
+      council had made that method into law. At Geneva, joined by John
+      Calvin in 1536, the same conviction was built up a different
+      way: doctrine taught article by article through a Catechism, and
+      a Consistory of pastors and lay elders set to test it against
+      ordinary conduct. Zwingli and Calvin never met. What bridges the
+      two cities is a document, not a friendship: the Consensus
+      Tigurinus of 1549, a jointly signed statement on the Lord's
+      Supper. Both cities refused Rome's repeated sacrifice and
+      Wittenberg's claim that Christ's body sits in the bread. Both
+      held that God's own free choice, not anything earned, decides
+      who is saved - a doctrine offered as comfort, not threat. This
+      world argued hard with itself, too: a schism from inside
+      Zwingli's own circle at Zurich, and a fight over who finally
+      governs church discipline that Geneva's Consistory only won by
+      1555. This world's own record is richest in confession and
+      doctrine. It is almost silent on what an ordinary Sunday
+      actually felt like.
     grounded_in: [rzg.core.the-reformed-cities-zurich-and-geneva]
 orientation:
   story:
@@ -112,15 +114,15 @@ orientation:
       Zurich's own pastors became the Consensus Tigurinus.
     grounded_in: [rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation, rzg.force.marburg-colloquy, rzg.story.calvins-journey-to-zurich, rzg.figure.farel]
   - text: >-
-      Whether the Consensus deepens Zwingli's own earlier "remembrance"
-      language or simply restates it more fully is a question this
-      world's own record does not resolve. Both texts are held together
-      rather than one being read as correcting the other: Zwingli's 1523
-      word that the Supper is "a remembrance of the sacrifice," and the
-      Consensus's own 1549 formula that the sign and the thing it signifies
-      are distinguished but never disjoined. This is this world's own
-      genuinely open question, not a settled scholarly finding this record
-      can report as fact.
+      Whether the Consensus deepens Zwingli's own earlier
+      "remembrance" language or simply restates it more fully is a
+      question this world's own record does not resolve. Both texts
+      are held together rather than one being read as correcting the
+      other: Zwingli's 1523 word that the Supper is "a remembrance of
+      the sacrifice," and the Consensus's own 1549 formula that the
+      sign and the thing it signifies are distinguished but never
+      disjoined. This is this world's own genuinely open question, not
+      a settled scholarly finding that can be reported as fact.
     grounded_in: [rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus, rzg.contested.sign-and-the-thing-signified]
   - text: >-
       This world's own founding circle at Zurich also produced a schism
@@ -218,7 +220,13 @@ orientation:
       world holds most fully: that God's own free election, not anything
       earned, decides who is saved, held as comfort rather than threat.
     grounded_in: [rzg.figure.calvin, rzg.force.genevas-1526-bern-alliance-1536-break-calvins-arrival, rzg.force.1541-ecclesiastical-ordinances-consistory-founding]
-    hedge: "Calvin's own vendored corpus runs roughly four times Zwingli's by volume in this world's own record - a disclosed concentration, not a sign that Geneva's own doctrine mattered more than Zurich's. The core conviction on election is genuinely attested at both cities; only its fullest, most systematic form is substantially Calvin- and Beza-specific."
+    hedge: >-
+      Calvin's own surviving corpus runs roughly four times Zwingli's
+      by volume in this world's own record - a disclosed
+      concentration, not a sign that Geneva's own doctrine mattered
+      more than Zurich's. The core conviction on election is genuinely
+      attested at both cities; only its fullest, most systematic form
+      is substantially Calvin- and Beza-specific.
   - figure: rzg.figure.bullinger
     text: >-
       Bullinger succeeded Zwingli at Zurich in 1531 and held that
@@ -236,7 +244,13 @@ orientation:
       watched his friend leave, and the words Zwingli was reported to
       have said as he fell.
     grounded_in: [rzg.figure.myconius, rzg.story.myconius-account-of-zwinglis-death, rzg.quote.zwinglis-last-words]
-    hedge: "Myconius was in Zurich, not on the battlefield, and his own account of the fighting is explicitly secondhand. The detail that Zwingli's heart was found whole in the ashes afterward is presented in his own text as something reported to him, not something he saw - and this record holds that same hedge rather than upgrading it to plain fact."
+    hedge: >-
+      Myconius was in Zurich, not on the battlefield, and his own
+      account of the fighting is explicitly secondhand. The detail
+      that Zwingli's heart was found whole in the ashes afterward is
+      presented in his own text as something reported to him, not
+      something he saw - and that same hedge is held here rather than
+      upgraded to plain fact.
   floor_note:
     text: >-
       On who Jesus is, this world says what the whole church says - that
@@ -252,10 +266,10 @@ orientation:
   legacy:
   - text: >-
       This world's own gravities transmit, unbroken, into four named
-      descendant traditions: the Scottish Kirk, the Huguenots, the Dutch
-      Reformed, and English Puritanism. No external or internal force
-      closes this world within its own 1519-1650 window - its own
-      administrative close is the census's own continues-cap for a still
+      descendant traditions: the Scottish Kirk, the Huguenots, the
+      Dutch Reformed, and English Puritanism. No external or internal
+      force closes this world within its own 1519-1650 window - its
+      own administrative close is an editorial boundary for a still
       living tradition, not a historical ending.
     grounded_in: [rzg.force.selective-reception-four-descendant-traditions, rzg.force.no-external-ending-force]
   - text: >-
@@ -268,43 +282,42 @@ orientation:
     grounded_in: [rzg.force.synod-of-dort-international-dimension, rzg.figure.beza]
   relations_summary:
     text: >-
-      This world knew itself partly by what it refused, against three real
-      neighbors. It refused Rome's own repeated sacrifice and its images,
-      inherited from the late-medieval church both this world and
-      Lutheran Wittenberg contested. It refused Wittenberg's own claim
-      that Christ's body sits locally in the bread, pressed specifically
-      at the Marburg Colloquy in 1529. And it refused a third claim from
-      inside its own founding circle at Zurich - that a church gathered
-      only by a believer's own profession was the more scripturally
-      consistent reading - answered in the years after 1525 with civil
-      force, not only argument. This world is currently the only
-      Reformation-era world admitted in this project's own fleet; no other
-      built world's own record names a direct relationship to it.
+      This world knew itself partly by what it refused, against three
+      real neighbors. It refused Rome's own repeated sacrifice and its
+      images, inherited from the late-medieval church both this world
+      and Lutheran Wittenberg contested. It refused Wittenberg's own
+      claim that Christ's body sits locally in the bread, pressed
+      specifically at the Marburg Colloquy in 1529. And it refused a
+      third claim from inside its own founding circle at Zurich - that
+      a church gathered only by a believer's own profession was the
+      more scripturally consistent reading - answered in the years
+      after 1525 with civil force, not only argument.
     grounded_in: [rzg.witness.triple-refusal, rzg.force.marburg-colloquy, rzg.contested.anabaptist-schism-legitimacy, rzg.force.counter-reformation-sustained-pressure]
   sourcing:
     text: >-
       This world's own record is richest in confession and doctrine:
-      Calvin's Institutes and Catechism, Zwingli's own founding statements,
-      the jointly signed Consensus Tigurinus, and Bullinger's Second
-      Helvetic Confession are all directly vendored and verified. It goes
-      thin or silent elsewhere. No surviving account describes an ordinary
-      Sunday service, a Consistory summons, or an ordinary citizen's own
-      experience of either reform. Geneva's own consistory registers - the
-      very archive this world was selected for, and the reason it has been
+      Calvin's Institutes and Catechism, Zwingli's own founding
+      statements, the jointly signed Consensus Tigurinus, and
+      Bullinger's Second Helvetic Confession all survive and are well
+      documented. It goes thin or silent elsewhere. No surviving
+      account describes an ordinary Sunday service, a Consistory
+      summons, or an ordinary citizen's own experience of either
+      reform. Geneva's own consistory registers - the very archive
+      this world was selected for, and the reason it has been
       described elsewhere as one of the best ordinary-life archives in
       Christian history - remain unacquired; the general doctrine of
-      discipline is Documented, but no single real case currently survives
-      in this world's own vendored record. Three of this world's own most
-      consequential disputes - the Marburg Colloquy, the Bolsec
-      controversy, and the Perrinist crisis - have no vendored primary
-      narrative comparable to this world's own three built stories. And no
-      woman's own words survive: Marie Dentiere wrote in Geneva's own
-      defense and was prosecuted for it, but her own argument has not yet
-      reached this record.
+      discipline is Documented, but no single real case currently
+      survives in this world's own record. Three of this world's own
+      most consequential disputes - the Marburg Colloquy, the Bolsec
+      controversy, and the Perrinist crisis - have no surviving
+      primary narrative comparable to this world's own three built
+      stories. And no woman's own words survive: Marie Dentiere wrote
+      in Geneva's own defense and was prosecuted for it, but her own
+      argument has not yet reached us.
     grounded_in: [rzg.core.the-reformed-cities-zurich-and-geneva, rzg.limit.consistory-case-narrative, rzg.limit.marburg-bolsec-perrinist-narrative, rzg.limit.dentiere-and-womens-voice]
   read_first:
   - source: rzg.source.calvin-institutes-books2-3
-    note: "Geneva's own load-bearing doctrinal core - Christ the Redeemer, faith, and predestination. Calvin's own vendored corpus runs roughly four times Zwingli's by volume in this world's own record, a disclosed concentration worth reading with that asymmetry in mind."
+    note: "Geneva's own load-bearing doctrinal core - Christ the Redeemer, faith, and predestination. Calvin's own surviving corpus runs roughly four times Zwingli's by volume in this world's own record, a disclosed concentration worth reading with that asymmetry in mind."
   - source: rzg.source.zwingli-sixty-seven-articles
     note: "Zurich's own founding doctrinal statement, defended article by article at the First Disputation in 1523. Article XVIII carries the earlier, sharper pole of this world's own unresolved tension over what the Supper actually is."
   - source: rzg.source.consensus-tigurinus

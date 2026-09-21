@@ -213,7 +213,14 @@ orientation:
       to live by. And he defended the Holy Spirit's own honor, against a
       hostile court - choosing his own words with great care, even then.
     grounded_in: [cappadocian.figure.basil, cappadocian.story.famine-open-barns, cappadocian.story.doxology-stand]
-    hedge: "This world's biggest surviving voice is Basil's own. This record treats that as a risk, not free proof. Some writings long read as Basil's own work are now in doubt. One letter, Epistle 38, is this world's own top citation on being and person. Many modern scholars now give it to Gregory of Nyssa instead. A whole set of letters with the pagan writer Libanius is very likely a fake. And even Basil's own death date is disputed."
+    hedge: >-
+      This world's biggest surviving voice is Basil's own. That should
+      be treated as a risk, not free proof. Some writings long read as
+      Basil's own work are now in doubt. One letter, Epistle 38, is
+      this world's own top citation on being and person. Many modern
+      scholars now give it to Gregory of Nyssa instead. A whole set of
+      letters with the pagan writer Libanius is very likely a fake.
+      And even Basil's own death date is disputed.
   - figure: cappadocian.figure.gregory-of-nazianzus
     text: >-
       Gregory of Nazianzus wanted a quiet life of study and prayer. His
@@ -249,7 +256,12 @@ orientation:
       the soul and the resurrection. She also rebuked his grief for
       their brother Basil.
     grounded_in: [cappadocian.figure.macrina, cappadocian.story.macrina-deathbed]
-    hedge: "No word of Macrina's own survives, apart from her brother's portrait of her. Can any of her real voice be recovered from inside his writing at all? That is itself an open scholarly question. Scholars argue it both ways. This record does not settle it."
+    hedge: >-
+      No word of Macrina's own survives, apart from her brother's
+      portrait of her. Can any of her real voice be recovered from
+      inside his writing at all? That is itself an open scholarly
+      question. Scholars argue it both ways, and it is not settled
+      here.
   floor_note:
     text: >-
       This world held the same confession the Nicene council put into

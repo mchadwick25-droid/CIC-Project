@@ -36,14 +36,15 @@ orientation:
   story:
   - text: >-
       This world's own record runs from about 70 to 200 CE. It covers
-      Antioch and Syria, the cities of western Asia Minor, and Rome. The
-      apostles had died, one by one, in the years right before this record
-      opens. No one could simply point to someone who had walked with Jesus
-      anymore. What replaced that direct link was argument: a letter
-      insisting its own writer carried the apostles' own teaching forward, a
-      bishop insisting his own office did the same. This was not a settled
-      inheritance, quietly received. It was something actively and urgently
-      claimed, community by community, letter by letter.
+      Antioch and Syria, the cities of western Asia Minor, and Rome.
+      The apostles had died, one by one, in the years right before
+      this account opens. No one could simply point to someone who had
+      walked with Jesus anymore. What replaced that direct link was
+      argument: a letter insisting its own writer carried the
+      apostles' own teaching forward, a bishop insisting his own
+      office did the same. This was not a settled inheritance, quietly
+      received. It was something actively and urgently claimed,
+      community by community, letter by letter.
     grounded_in: [pahc.core.house-church, pahc.force.apostolic-testimony-inheritance]
   - text: >-
       Who should lead, once the apostles were gone? This world never agreed.

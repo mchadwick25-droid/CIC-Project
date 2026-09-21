@@ -214,7 +214,13 @@ orientation:
       own election, in 366, turned violent. A hostile pagan witness
       records a hundred and thirty-seven dead, in one church, in one day.
     grounded_in: [ijc.figure.damasus]
-    hedge: "This world tells that hard fact about Damasus's own election. It does not hide it. A body of decrees also circulates under his name. This record does not use them. Modern scholarship judges much of that corpus a later forgery, backdated to look older than it is. His genuine synodical letters, and his own verse-inscriptions, carry his record instead."
+    hedge: >-
+      This world tells that hard fact about Damasus's own election. It
+      does not hide it. A body of decrees also circulates under his
+      name. They are not used here. Modern scholarship judges much of
+      that corpus a later forgery, backdated to look older than it is.
+      His genuine synodical letters, and his own verse-inscriptions,
+      carry his record instead.
   - figure: ijc.figure.leo
     text: >-
       Leo, bishop of Rome, wrote the letter that closed this world's own
@@ -233,7 +239,12 @@ orientation:
       moved through her court. Merchants in the city were fined. People
       were locked up during Lent.
     grounded_in: [ijc.figure.justina, ijc.story.vigil-in-basilica]
-    hedge: "Justina reaches this record only through the writing of the bishop who defeated her. His own letter names the emperor, not her, as the one who used that force. It is this record's own chronology that names her instead. This world states that difference. It does not resolve it."
+    hedge: >-
+      Justina reaches us only through the writing of the bishop who
+      defeated her. His own letter names the emperor, not her, as the
+      one who used that force. It is only this account's own
+      chronology that names her instead. This world states that
+      difference. It does not resolve it.
   - figure: ijc.figure.pulcheria
     text: >-
       Pulcheria became empress in 414. She was one of two people whose

@@ -17,23 +17,25 @@ export:
 skim:
   tile:
     text: >-
-      Between about 360 and 450 CE, two households in Roman Gaul lived out
-      one shared idea in different ways: a monk does not stop being a monk
-      just because the Church makes him a bishop. In the Loire valley, a
-      soldier named Martin left the army to serve Christ instead. He
-      gathered followers in the woods near Tours, and the townspeople later
-      seized him and made him their bishop. He never gave up his monk's
-      life. Two generations later, on an island called Lérins off the
-      Mediterranean coast, and in the nearby city of Marseilles, other monks
-      built communities of their own. One of them, John Cassian, had lived
-      among the monks of Egypt. He wrote down what he learned there and
-      adapted it for a colder land and a different church. Another, Vincent,
-      wrote a short rule for telling true growth in the faith from a
-      corruption dressed up as one. Running through both households was one
-      argument, never fully settled: how much of a monk's progress is God's
-      own gift, and how much is his own effort. The two households never had
-      any contact with each other that this record can show. The story
-      closes around 450, before that argument hardened into fixed camps.
+      Between about 360 and 450 CE, two households in Roman Gaul lived
+      out one shared idea in different ways: a monk does not stop
+      being a monk just because the Church makes him a bishop. In the
+      Loire valley, a soldier named Martin left the army to serve
+      Christ instead. He gathered followers in the woods near Tours,
+      and the townspeople later seized him and made him their bishop.
+      He never gave up his monk's life. Two generations later, on an
+      island called Lérins off the Mediterranean coast, and in the
+      nearby city of Marseilles, other monks built communities of
+      their own. One of them, John Cassian, had lived among the monks
+      of Egypt. He wrote down what he learned there and adapted it for
+      a colder land and a different church. Another, Vincent, wrote a
+      short rule for telling true growth in the faith from a
+      corruption dressed up as one. Running through both households
+      was one argument, never fully settled: how much of a monk's
+      progress is God's own gift, and how much is his own effort. The
+      two households never had any contact with each other that the
+      surviving evidence can show. The story closes around 450, before
+      that argument hardened into fixed camps.
     grounded_in: [gallic.core.gallic]
 orientation:
   story:
@@ -187,20 +189,21 @@ orientation:
       households. It states it plainly and leaves it standing.
     grounded_in: [gallic.gravity.authority-ambivalence, gallic.story.trier-and-the-ithacian-communion, gallic.story.brictio-in-the-courtyard, gallic.figure.martin]
   - text: >-
-      Almost everything this world's northern half knows comes from one
-      writer. Sulpitius Severus was a wealthy layman who gave up his own
-      career to follow Martin. He was never present for any of the events
-      he describes, and he says so himself. His real sources were Martin's
-      own household, and sometimes Martin himself. That single-author risk
-      runs through every Tours story in this record. When Martin's own
-      death drew near, he traveled to make peace among quarreling clergy
-      in a nearby town. He already knew he was dying. His own monks wanted
-      to lay him on a soft bed of straw. He refused. He chose sackcloth
-      and ashes instead, saying he had sinned if he left his monks a
-      different example to follow. He was carried back to Tours. A crowd
-      the record puts at two thousand buried him: monks, old men, young
-      soldiers who had just sworn service to Christ, and a choir of
-      consecrated women who held back their own tears out of modesty.
+      Almost everything this world's northern half knows comes from
+      one writer. Sulpitius Severus was a wealthy layman who gave up
+      his own career to follow Martin. He was never present for any of
+      the events he describes, and he says so himself. His real
+      sources were Martin's own household, and sometimes Martin
+      himself. That single-author risk runs through every surviving
+      Tours story. When Martin's own death drew near, he traveled to
+      make peace among quarreling clergy in a nearby town. He already
+      knew he was dying. His own monks wanted to lay him on a soft bed
+      of straw. He refused. He chose sackcloth and ashes instead,
+      saying he had sinned if he left his monks a different example to
+      follow. He was carried back to Tours. A crowd the record puts at
+      two thousand buried him: monks, old men, young soldiers who had
+      just sworn service to Christ, and a choir of consecrated women
+      who held back their own tears out of modesty.
     grounded_in: [gallic.gravity.named-example, gallic.figure.sulpitius, gallic.story.death-of-martin-at-condate]
   documented_stories:
   - story_id: gallic.story.discharge-before-caesar
@@ -236,7 +239,11 @@ orientation:
       from: how much of a monk's progress is God's own gift, and how much
       is his own effort.
     grounded_in: [gallic.figure.cassian, gallic.gravity.interior-road, gallic.gravity.grace-and-effort]
-    hedge: "Cassian never mentions Martin, and no story in this record shows a Gallic monk actually keeping the Egyptian program he wrote down. By his own complaint, no one in his own monasteries kept it even for a year."
+    hedge: >-
+      Cassian never mentions Martin, and no surviving story shows a
+      Gallic monk actually keeping the Egyptian program he wrote down.
+      By his own complaint, no one in his own monasteries kept it even
+      for a year.
   - figure: gallic.figure.honoratus
     text: >-
       Honoratus went alone to an island so overrun with snakes that no one
@@ -245,7 +252,11 @@ orientation:
       of bishop found him anyway, and he ended his life leading the church
       at Arles instead of the island he founded.
     grounded_in: [gallic.figure.honoratus, gallic.story.honoratus-and-the-island]
-    hedge: "The only story told of Honoratus comes from a funeral sermon preached by his own disciple, read today only in rough, hard-to-read Latin. This record can tell how he arrived on the island and how he left it - nothing of what happened in between."
+    hedge: >-
+      The only story told of Honoratus comes from a funeral sermon
+      preached by his own disciple, read today only in rough,
+      hard-to-read Latin. What survives can tell how he arrived on the
+      island and how he left it - nothing of what happened in between.
   - figure: gallic.figure.sulpitius
     text: >-
       Sulpitius Severus was rich and well-educated. He gave up his own
@@ -294,15 +305,15 @@ orientation:
     text: >-
       This world's record is richest in one man's telling of another.
       Sulpitius Severus wrote about Martin. Cassian wrote down what
-      Egypt's monks taught him. Both households left rich writing about
-      ideas and virtues. But both leave two things almost entirely dark:
-      the island's own daily life, and Tours's own daily worship. No one
-      wrote down what the brethren sang, or when. No woman's own word
-      survives from either house, though both kept communities of women
-      alongside the men. And a later editor cut three whole sections on
-      the body's own discipline from the one edition of Cassian this
-      record can read. That is a gap in what survives, not in what this
-      world itself said.
+      Egypt's monks taught him. Both households left rich writing
+      about ideas and virtues. But both leave two things almost
+      entirely dark: the island's own daily life, and Tours's own
+      daily worship. No one wrote down what the brethren sang, or
+      when. No woman's own word survives from either house, though
+      both kept communities of women alongside the men. And a later
+      editor cut three whole sections on the body's own discipline
+      from the one edition of Cassian that survives. That is a gap in
+      what survives, not in what this world itself said.
     grounded_in: [gallic.core.gallic, gallic.limit.only-on-paper]
   read_first:
   - source: gallic.source.sulpitius-vita-martini
@@ -331,9 +342,6 @@ narrative:
   - cell: "F3-P"
     demonstration: gallic.demo.power-against-dissent
     cite: [gallic.story.trier-and-the-ithacian-communion]
-  - cell: "F4-P"
-    demonstration: gallic.demo.quiet-the-mind
-    cite: [gallic.gravity.interior-road]
   - cell: "F3-I"
     demonstration: gallic.demo.who-chose-bishops
     cite: [gallic.story.election-at-tours, gallic.contested.election-as-capture]

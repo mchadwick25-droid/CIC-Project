@@ -17,7 +17,7 @@ sources:
   locus: "Conference X (On the Method of Prayer), ch. III - Abbot Sarapion's own outcry on realizing, in the middle of communal prayer, that the bodily image of God he had always held before his mind was gone from his heart"
   license: public-domain
 text: "Alas! wretched man that I am! they have taken away my God from me, and I have now none to lay hold of; and whom to worship and address I know not."
-speaker_or_author: "Abbot Sarapion of Scete, as Cassian records him - a different named elder from the Abbot Serapion of Conference V (the eight-principal-faults teaching); the vendored text marks the two with different spellings"
+speaker_or_author: "Abbot Sarapion of Scete, as Cassian records him - a different named elder from the Abbot Serapion of Conference V (the eight-principal-faults teaching); the surviving text marks the two with different spellings"
 license: verbatim
 modern_rendering: >-
   I am a wretched man! They have taken my God away from me. Now I have

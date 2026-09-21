@@ -241,16 +241,17 @@ orientation:
     grounded_in: [hal.dw.was-jesus-god, hal.quote.ever-let-the-bridegroom-sport-with-you, hal.contested.origenist-substance]
   legacy:
   - text: >-
-      This world's own record does not follow its central labor past its
-      own span. It shows an argument that was still open the moment the
-      last translator died. Within a few years, a respected fellow
-      scholar, Augustine, made the strongest case for the other side, in
-      writing. He agreed with every point of the Hebrew scholarship. He
-      still refused the conclusion. The churches of Christ, he wrote,
-      should trust the old Greek translators, not one modern scholar's own
-      work, however sound. Did the Hebrew-based translation ever become
-      this world's own settled Bible? That question sits outside what this
-      record can answer. Its own witness ends with the argument still
+      This world's own record does not follow its central labor past
+      its own span. It shows an argument that was still open the
+      moment the last translator died. Within a few years, a respected
+      fellow scholar, Augustine, made the strongest case for the other
+      side, in writing. He agreed with every point of the Hebrew
+      scholarship. He still refused the conclusion. The churches of
+      Christ, he wrote, should trust the old Greek translators, not
+      one modern scholar's own work, however sound. Did the
+      Hebrew-based translation ever become this world's own settled
+      Bible? That question sits outside what the surviving evidence
+      can answer. Its own witness ends with the argument still
       unresolved.
     grounded_in: [hal.term.vulgata, hal.quote.no-one-preferred-to-the-seventy, hal.force.transmission-ending]
   relations_summary:
@@ -279,7 +280,7 @@ orientation:
   - source: hal.source.jerome-ep108
     note: "The epitaph for Paula - this world's richest single witness, and the clearest example of its own besetting problem: an admiring memorial, written by the one man behind nearly every account we have."
   - source: hal.source.jerome-ep127
-    note: "The memorial for Marcella, written two years after her death - the sole source for the single strongest claim of an independent woman's own scriptural authority anywhere in this record."
+    note: "The memorial for Marcella, written two years after her death - the sole source for the single strongest claim of an independent woman's own scriptural authority anywhere in this world's surviving record."
   - source: hal.source.palladius-lausiac
     note: "The one substantial outside witness to this circle, hostile to Jerome and disagreeing with his own account of the Paula partnership at exactly the point that matters most."
 narrative:

@@ -153,12 +153,13 @@ orientation:
   - text: >-
       Almost everything above comes from one narrow group: literate,
       Greek-educated men. Did the same Scripture, and the same change,
-      also shape the whole community? What about rural believers, people
-      who could not read, or people held as slaves? That is a real, open
-      question. This world's own record cannot answer it from the inside.
-      The whole-community channel itself is well attested: baptism, the
-      shared meal, the yearly fasts. What that channel actually felt like
-      from within it is not, and this record does not pretend otherwise.
+      also shape the whole community? What about rural believers,
+      people who could not read, or people held as slaves? That is a
+      real, open question. This world's own record cannot answer it
+      from the inside. The whole-community channel itself is well
+      attested: baptism, the shared meal, the yearly fasts. What that
+      channel actually felt like from within it is not, and this
+      world's own record does not pretend otherwise.
     grounded_in: [alx.contested.ecology-wide-primacy, alx.gravity.learning-community-tension, alx.core.alexandria]
   documented_stories:
   - story_id: alx.story.plague-nursing
@@ -222,7 +223,13 @@ orientation:
       him. Later tradition remembers him as the last head of this world's
       teaching line, closing out its final generation.
     grounded_in: [alx.figure.didymus, alx.story.didymus-meeting]
-    hedge: "No primary account actually calls Didymus the head of a school. That claim comes only from a later editor's own note, not an eyewitness. And almost none of his own books survive in a form this project can read. They were lost for over fifteen centuries, then found buried in the Egyptian sand. Their Greek has still not been translated into English."
+    hedge: >-
+      No primary account actually calls Didymus the head of a school.
+      That claim comes only from a later editor's own note, not an
+      eyewitness. And almost none of his own books survive in a form
+      anyone can read today. They were lost for over fifteen
+      centuries, then found buried in the Egyptian sand. Their Greek
+      has still not been translated into English.
   floor_note:
     text: >-
       This world held the same faith the Nicene council later put into
@@ -261,14 +268,15 @@ orientation:
     grounded_in: [alx.contested.desert-attribution]
   sourcing:
     text: >-
-      This world's record is richest in teaching and argument: the works
-      of Clement, Origen, and Athanasius above all. It thins in a few
-      important places. Clement's fullest treatment of marriage survives
-      only in his own Greek; no public-domain English version has ever
-      been made of it. Whether Alexandria's teaching tradition was one
-      continuous, official school is itself live scholarly dispute, not a
-      settled fact this record can simply report. And no woman's own
-      words survive anywhere in this world's corpus.
+      This world's record is richest in teaching and argument: the
+      works of Clement, Origen, and Athanasius above all. It thins in
+      a few important places. Clement's fullest treatment of marriage
+      survives only in his own Greek; no public-domain English version
+      has ever been made of it. Whether Alexandria's teaching
+      tradition was one continuous, official school is itself live
+      scholarly dispute, not something that can simply be reported as
+      settled fact. And no woman's own words survive anywhere in this
+      world's corpus.
     grounded_in: [alx.core.alexandria, alx.limit.marriage, alx.contested.didaskaleion-institution, alx.limit.f5-women-own-words]
   read_first:
   - source: alx.source.clement-stromateis

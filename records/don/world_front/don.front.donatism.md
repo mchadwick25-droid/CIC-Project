@@ -107,11 +107,11 @@ orientation:
       world's own founding generation more than any opponent's own
       argument does. Letters from its own bishops, read into a court
       record in 320, urge each other to keep a true accusation quiet
-      rather than let it reach a public court. One admits outright that
-      he knows the charge against a fellow bishop, Silvanus of Cirta,
-      is true. This world's own record does not hide the letters. It
-      keeps them, because hiding them was never the discipline this
-      build holds itself to.
+      rather than let it reach a public court. One admits outright
+      that he knows the charge against a fellow bishop, Silvanus of
+      Cirta, is true. This world's own record does not hide the
+      letters. It keeps them, because hiding them was never this
+      world's own discipline.
     grounded_in: [don.story.gesta-apud-zenophilum, don.figure.silvanus-of-cirta, don.figure.purpurius]
   - text: >-
       The doctrine had one enacted consequence, repeated for a century:
@@ -230,22 +230,22 @@ orientation:
       that had already given the name to the other side.
     grounded_in: [don.story.conference-of-carthage-411, don.figure.petilian, don.figure.emeritus, don.quote.emeritus-magno-argumento]
   - text: >-
-      The window this record covers closes in 439, not because the
+      The window this account covers closes in 439, not because the
       two-party contest itself ended there but because that year a
       Vandal army took Carthage and removed the one power - the Roman,
       Catholic-aligned imperial state - this world's whole refusal was
-      defined against. The contest itself went on for a further century
-      and a half under Vandal and then Byzantine rule, still legislated
-      against, until Pope Gregory the Great wrote letters in the 590s
-      pressing for an inquiry into Donatist rebaptism still being
-      practiced in Numidia. After that, this world's own record simply
-      falls silent. No line from it to any communion a person could
-      visit today is documented anywhere, and this world's own Living
-      Tradition Status has never been confirmed. Almost everything
-      recounted above was written down by two men arguing against this
-      world, not by this world itself - and of the handful of women its
-      own record allows any real agency to, not one left a word in her
-      own voice.
+      defined against. The contest itself went on for a further
+      century and a half under Vandal and then Byzantine rule, still
+      legislated against, until Pope Gregory the Great wrote letters
+      in the 590s pressing for an inquiry into Donatist rebaptism
+      still being practiced in Numidia. After that, this world's own
+      record simply falls silent. No line from it to any communion a
+      person could visit today is documented anywhere, and this
+      world's own Living Tradition Status has never been confirmed.
+      Almost everything recounted above was written down by two men
+      arguing against this world, not by this world itself - and of
+      the handful of women its own record allows any real agency to,
+      not one left a word in her own voice.
     grounded_in: [don.core.donatism, don.limit.womens-own-voice]
   documented_stories:
   - story_id: don.story.gesta-apud-zenophilum
@@ -275,7 +275,13 @@ orientation:
       it: what has the emperor to do with the church? He was exiled
       after the Macarian repression of 347-348 and died in exile.
     grounded_in: [don.figure.donatus, don.quote.donatus-quid-est-imperatori]
-    hedge: "Almost everything said of Donatus reaches this record through a hostile source arguing against him. The proposal that he personally preached the annual commemorative sermon read every twelfth of March is a modern scholarly hypothesis, floated and then hedged by the man who made it - never an attested fact, and not adopted here."
+    hedge: >-
+      Almost everything said of Donatus reaches this record through a
+      hostile source arguing against him. The proposal that he
+      personally preached the annual commemorative sermon read every
+      twelfth of March is a modern scholarly hypothesis, floated and
+      then hedged by the man who made it - never an attested fact, and
+      not adopted here.
   - figure: don.figure.petilian
     text: >-
       Petilian became bishop of Constantina, the renamed Cirta, in the
@@ -287,7 +293,15 @@ orientation:
       refusing it, because Christ himself had not refused to stand
       before his own governor.
     grounded_in: [don.figure.petilian, don.quote.petilian-conscience-of-the-giver, don.story.conference-of-carthage-411]
-    hedge: "Petilian's letters are visible only in the clauses Augustine chose to quote in order to answer them - a preservation mechanism that selects for what is answerable, not for completeness. The 411 transcript is a real exception, since nobody there was choosing his words for him, but the vendored scan of it carries the worst OCR damage in this world's whole corpus, so even his recorded speech there is a careful reading of a difficult copy, not a certified text."
+    hedge: >-
+      Petilian's letters are visible only in the clauses Augustine
+      chose to quote in order to answer them - a preservation
+      mechanism that selects for what is answerable, not for
+      completeness. The 411 transcript is a real exception, since
+      nobody there was choosing his words for him, but the surviving
+      scan of it carries the worst OCR damage in this world's whole
+      corpus, so even his recorded speech there is a careful reading
+      of a difficult copy, not a certified text.
   - figure: don.figure.emeritus
     text: >-
       Emeritus, bishop of Caesarea in Mauretania, carried this
@@ -301,7 +315,13 @@ orientation:
       again and again with the same qualified formula: his appeal
       reserved.
     grounded_in: [don.figure.emeritus, don.quote.emeritus-magno-argumento, don.story.conference-of-carthage-411]
-    hedge: "Even this best-attested voice has real limits. The transcript survives in this corpus's single worst-damaged scan, and this world's own construction read roughly nineteen hundred of its 144,733 lines - a systematic search on Emeritus's own name, not the whole document. His later dialogue with Augustine in 418 is a separate work that has not been read into this build at all."
+    hedge: >-
+      Even this best-attested voice has real limits. The transcript
+      survives in this corpus's single worst-damaged scan, and only
+      roughly nineteen hundred of its 144,733 lines have been read so
+      far - a systematic search on Emeritus's own name, not the whole
+      document. His later dialogue with Augustine in 418 is a separate
+      work that has not yet been incorporated here at all.
   - figure: don.figure.marculus
     text: >-
       This world remembers Marculus as a man who had already given up
@@ -312,7 +332,15 @@ orientation:
       of a cup, a crown, and a palm. He was thrown from the cliff before
       dawn.
     grounded_in: [don.figure.marculus, don.story.passio-marculi]
-    hedge: "The bare fact of his death is corroborated even by hostile witnesses, though for two different and incompatible reasons: one argues the killing was deserved punishment for schism, the other disputes whether the word martyr even applies. The vision, the unbroken fall, and the light over the place afterward are this world's own testimony about what his death meant, not independently verified events, and this record does not present them as more."
+    hedge: >-
+      The bare fact of his death is corroborated even by hostile
+      witnesses, though for two different and incompatible reasons:
+      one argues the killing was deserved punishment for schism, the
+      other disputes whether the word martyr even applies. The vision,
+      the unbroken fall, and the light over the place afterward are
+      this world's own testimony about what his death meant, not
+      independently verified events, and they are not presented here
+      as more.
   - figure: don.figure.tyconius
     text: >-
       Tyconius was the one systematic theologian this world produced,
@@ -323,7 +351,16 @@ orientation:
       other side either; he kept saying it from inside the party that
       had told him to stop, and was cut off for good.
     grounded_in: [don.figure.tyconius, don.story.tyconius-condemnation]
-    hedge: "His own seven Rules for reading Scripture survive complete and are vendored among this world's own sources - but this build has not read them in depth, and everything said of their content here runs through a 1920 secondary chapter rather than through Tyconius's own Latin. The mechanism of his condemnation carries Augustine's own reporting hedge, 'it is reported,' which this record keeps rather than smoothing into settled fact. His own formal standing inside this communion, before or after the rupture, is deliberately left open by this world's own construction record."
+    hedge: >-
+      His own seven Rules for reading Scripture survive complete among
+      this world's own sources - but they have not been read in depth
+      here, and everything said of their content here runs through a
+      1920 secondary chapter rather than through Tyconius's own Latin.
+      The mechanism of his condemnation carries Augustine's own
+      reporting hedge, 'it is reported,' which is kept here rather
+      than smoothed into settled fact. His own formal standing inside
+      this communion, before or after the rupture, is deliberately
+      left open by this world's own construction record.
   floor_note:
     text: >-
       This world confessed the same faith the councils of its own
@@ -348,15 +385,15 @@ orientation:
       record does not explain and does not claim to.
     grounded_in: [don.term.liber-regularum, don.figure.tyconius, don.story.tyconius-condemnation]
   - text: >-
-      The two-party contest itself did not end when this record's own
+      The two-party contest itself did not end when this world's own
       window closes in 439. It continued under Vandal and then
       Byzantine rule for roughly a further century and a half, still
-      legislated against, until Pope Gregory the Great wrote letters in
-      the 590s pressing for an inquiry into Donatist rebaptism still
-      being practiced in Numidia. After that, this world's own record
-      simply falls silent. No line from it to any communion a person
-      could visit today is documented anywhere, and this world's own
-      Living Tradition Status has never been confirmed.
+      legislated against, until Pope Gregory the Great wrote letters
+      in the 590s pressing for an inquiry into Donatist rebaptism
+      still being practiced in Numidia. After that, this world's own
+      record simply falls silent. No line from it to any communion a
+      person could visit today is documented anywhere, and this
+      world's own Living Tradition Status has never been confirmed.
     grounded_in: [don.core.donatism, don.term.refusal-of-imperial-legitimacy]
   relations_summary:
     text: >-
@@ -381,22 +418,22 @@ orientation:
       directly it can be checked without a hostile hand mediating it.
       Nearly the whole textual record passed through two Catholic
       writers, Optatus of Milevis and Augustine of Hippo, before
-      reaching this compilation - and that concentration is named as
-      this world's own central evidentiary problem, not a background
-      caveat. Four short texts speak as this communion rather than
-      about it, plus the transcript of the 411 Conference, where for
-      once no adversary chose which words to keep. The clearest
-      exception of all was never a text to begin with: two words, Deo
-      laudes, cut into stone. What this world's own record cannot
-      supply at all is any specific report, excavation, or plan of the
-      rooms these words were spoken in - Numidian basilica archaeology
-      remains honestly undone in this world's own source ecology, so
-      this world knows its own shout far better than the room it was
+      reaching us - and that concentration is named as this world's
+      own central evidentiary problem, not a background caveat. Four
+      short texts speak as this communion rather than about it, plus
+      the transcript of the 411 Conference, where for once no
+      adversary chose which words to keep. The clearest exception of
+      all was never a text to begin with: two words, Deo laudes, cut
+      into stone. What this world's own record cannot supply at all is
+      any specific report, excavation, or plan of the rooms these
+      words were spoken in - Numidian basilica archaeology remains
+      honestly undone in this world's own source ecology, so this
+      world knows its own shout far better than the room it was
       shouted in. And one further live scholarly contest runs through
       the whole record rather than sitting in one place: whether the
       hostile portrait of this world's rural members, the
       Circumcellions, reflects their real character or mainly their
-      opponents' polemic. This build does not adjudicate it.
+      opponents' polemic. That question is not adjudicated here.
     grounded_in: [don.core.donatism, don.limit.the-room-we-cannot-show-you, don.contested.circumcellion-character]
   read_first:
   - source: don.source.optatus-against-the-donatists
