@@ -342,6 +342,9 @@ narrative:
   - cell: "F3-P"
     demonstration: gallic.demo.power-against-dissent
     cite: [gallic.story.trier-and-the-ithacian-communion]
+  - cell: "F4-P"
+    demonstration: gallic.demo.quiet-the-mind
+    cite: [gallic.gravity.interior-road]
   - cell: "F3-I"
     demonstration: gallic.demo.who-chose-bishops
     cite: [gallic.story.election-at-tours, gallic.contested.election-as-capture]
