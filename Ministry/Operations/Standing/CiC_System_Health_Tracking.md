@@ -872,3 +872,55 @@ own thread. No stray notes, scratch files, or WIP commentary found.
 worlds (fixture excluded) — up from 9 at the last count, still below
 the 15 threshold. No action per the routine's own instruction; logged
 here only because the count changed, not as a "found something" event.
+
+---
+
+## 2026-09-21 06:31 UTC — Periodic sweep: PR #346's red CI is its own
+## large live-merge, not a repo-wide break — flagged, not touched
+
+**`main`'s tip** (`f98aeb390`) confirmed green on GitHub Actions CI.
+Recent commits are all clean Transparency Engine work (Stage 0c through
+Stage 1, plus Decision-Log entries) from its own active thread,
+including two mechanical CI fixes (`d041530d7`, missing
+`engine/m4/requirements.txt` install; `dff79cdec`, a `test_prose.py`
+regression) already fixed directly by that thread — nothing left for
+this thread to pick up.
+
+**One new PR found and subscribed: `#346`** ("Merge who-is-at-the-table
+card redesign to live"). Its own body discloses a deliberate,
+hand-resolved merge of two branches diverged by 165 commits one way and
+116 the other, with explicit per-world choices about which side's
+`records/worlds/<code>.yaml` package pin to keep. **7 of 20 CI checks
+are red** (`Cited paths resolve`, `M2 staleness sweep`, `M2 compiler
+checks`, `M3 admission harness`, `M4 event log`, `Docker build`,
+`engine/api tests`). Checked out the branch locally and reproduced
+both root causes directly, rather than guessing from the check names:
+
+- `check_paths.py` finds 4 new unresolved citations, at least one
+  (`records/rzg/.../rzg.facilitator_brief...md` citing `worlds/rzg.yaml`)
+  a pre-repo-structure-cleanup path that no longer exists post-phase-3.
+- `engine.m2.cli staleness-check` reports **all 12 fleet worlds
+  stale**, with large `records/`-and-`compiled/` diffs per world — the
+  expected, mechanical consequence of merging two branches this
+  divergent, not a new defect either side introduced alone.
+
+**Neither reproduces on `main`'s own tip** (confirmed clean, both
+checks, same session) — this is entirely caused by PR #346's own diff,
+not a repo-wide break, so per this thread's own mandate it is **flagged,
+not fixed**. It's also exactly the territory Mark asked the dedicated
+live-site/website thread to own (2026-09-20, "I'll have the live site
+audit and amp thread look at it, we are constantly working on the live
+website") — a fleet-wide repin here would mean guessing at judgment
+calls (which world's package pin is actually correct post-merge) that
+belong to the thread doing the merge, not this one. Left entirely
+untouched; local diagnostic checkout discarded without pushing
+anything.
+
+**Fleet-size watch:** still **11**, unchanged, below threshold — no log
+needed on its own.
+
+**All 15 previously-known open PRs** (`#300`, `#282`, `#254`, `#253`,
+`#250`, `#248`, `#247`, `#246`, `#244`, `#240`, `#234`, `#233`, `#230`,
+`#229`, `#197`) unchanged since the last sweep — no failure
+notifications arrived for any of them between sweeps, consistent with
+still green.
