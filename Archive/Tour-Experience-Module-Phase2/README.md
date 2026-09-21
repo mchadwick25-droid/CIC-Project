@@ -1,5 +1,11 @@
 # Tour Experience Module (Phase Two)
 
+> **Moved to Archive/ (2026-09-21).** Mark's own call: it'll be a while
+> before this workstream is picked back up, and likely under a different
+> approach when it is. Moved from `Ministry/Features/` rather than deleted —
+> everything below, including the SUPERSEDED history already on record,
+> stays as-is.
+
 > **Status: SUPERSEDED (2026-08-03).** This entire design — Strategy V0.3, the
 > L4 Tour Manifest Template, the Build Spec, the Eligibility Gate — was built
 > around live-hosted-inside-an-encounter as its load-bearing assumption

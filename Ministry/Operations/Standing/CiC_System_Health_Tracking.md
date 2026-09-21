@@ -1029,3 +1029,22 @@ Everything else surveyed (Ministry workstream status, world-fleet build
 stage, frontend/website, `live` branch activity) matched already-known
 state - see conversation record for the full breakdown; not duplicated
 here since none of it changed anything actionable.
+
+---
+
+## 2026-09-21 20:05 UTC — Facilitator safety-redirect mechanism: logged done (Mark's call)
+
+Mark's direct call: the Facilitator safety mechanism is done, logged here
+as of now. Worlds stay quiet and in-character; the Facilitator recognizes
+a real safety event and handles the redirect itself, per the live
+governing doc (`CiC_L3D_Facilitator_Governance_V3.6`) - a Representative
+never handles real crisis or distress itself, and never steps out of its
+world to do so.
+
+**Scope, stated plainly so this isn't misread later:** this is the safety
+half only - participant protection during a live conversation. It is NOT
+Article 31 (external, human, qualified scholarly review of a world's
+content accuracy), which is a separate gate, remains open fleet-wide, and
+is untouched by this entry. No world's `Open_Gaps_Tracking.md` or waiver
+file was changed by this entry. Raised and clarified in conversation
+before logging, to avoid exactly this conflation.

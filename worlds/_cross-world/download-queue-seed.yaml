@@ -748,3 +748,24 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct curl fetch, 2026-09-15 (raw bytes; also independently checked the eBook's own bibrec HTML page directly for a translator field - none found)"
     status: downloaded
+
+  - title: "The Pilgrimage of Etheria"
+    author: "Egeria (Etheria)"
+    translator: "M. L. McClure and C. L. Feltoe"
+    year: 1919
+    world: "palestinian-ascetic-monasticism-early"
+    why: >
+      Surfaced during the source-readiness dossier pass on I.34
+      (2026-09-21). Already named as a candidate by an unrelated prior
+      search - hal's own hal.search.egeria-pilgrimage.md (2026-08-21),
+      logged there as an open P3 acquisition request scoped to Bethlehem
+      context only, "never evidence about this world's own practice." For
+      this candidate the fit is closer, not merely adjacent: Egeria's own
+      journey (380s) runs the Sinai road and the Judean desert by name -
+      the census's own I.34 `region` field, verbatim - and she describes
+      monks and hermits she met along it directly, inside this candidate's
+      own c. 330-450 window. Not yet vendored anywhere in this corpus.
+    url: "https://archive.org/details/pilgrimageofethe00mccliala"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch against the archive.org details page, 2026-09-21 - page states NOT_IN_COPYRIGHT; corroborated by a separate archive.org item, a 2018 LibriVox recording of the same 1919 McClure/Feltoe translation, independently carrying a Public Domain Mark 1.0 license"
+    status: not-yet-downloaded
