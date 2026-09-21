@@ -754,3 +754,28 @@ that world's own holdings check is the first candidate for R13's
 blocking promotion. Nothing in the standing gate set enforces this yet;
 promoting it from report-only to blocking is separate, later work this
 entry does not do.
+
+**Entry 31 — 2026-09-21.** Correcting Entry 28's own retrofit list before
+starting R19's actual work: `observe_outside_help_guard`
+(`engine/m1/cross_world.py`) had a real false positive, found and fixed
+while beginning the retrofit, not a hypothetical one. The scan matched
+the bare substring `"weigh"`, which silently matched inside rzg's own
+guard text - "It does not give him the felt **weigh**t of either" -
+honest-thinness prose about doctrine, with no distress-comparison content
+of any kind. Read directly
+(`records/rzg/voice_craft/rzg.craft.theophilus-voice.md`): rzg's guard
+never mentions martyrs, weighing, or comparison at all. Fixed with a
+word-boundary regex (`\bweigh(?:s|ed|ing)?\b`), which cannot match inside
+"weight"/"weighted"/"outweigh" while still catching "weigh"/"weighs"/
+"weighed"/"weighing" as their own words. Three new tests pin this
+(`engine/m1/tests/test_cross_world.py`): the false positive itself, a
+real match still firing, and the real fleet's corrected state.
+
+**The corrected finding: don is the only one of the 11 built worlds whose
+guard actually carries this language.** Entry 28's "9 worlds" retrofit
+list (alx, cappadocian, desert, gallic, hal, ijc, pahc, syr, witt) is
+short one world - **rzg needs the retrofit too**, same as the other nine.
+R19's own ruling (extend fleet-wide, each world's own voice) is
+unaffected by this correction; only the list of which worlds still need
+it changes, from 9 to 10. Rulings-Pending.md's R19 entry updated in the
+same edit to carry the corrected list.

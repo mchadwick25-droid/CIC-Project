@@ -148,6 +148,48 @@ def test_observe_register_profile_runs_clean_on_the_real_fleet():
     assert any(f.scope == "hal" and "story.tellable_as" in f.message for f in findings)
 
 
+def _voice_craft(guard: str) -> dict:
+    return {"record_type": "voice_craft", "guard": guard}
+
+
+def test_outside_help_guard_does_not_false_positive_on_felt_weight():
+    """R19's own retrofit list depends on this scan being right. A first
+    version matched the bare substring "weigh", which silently caught
+    rzg's real guard text ("the felt weight of either") - honest-thinness
+    prose with no distress-comparison content at all - and produced a
+    wrong RULED list. Pinned here so that regression can't come back."""
+    records = {"w": {"r1": _voice_craft("It does not give him the felt weight of either.")}}
+    findings = cross_world.observe_outside_help_guard(records=records, worlds=["w"])
+    assert findings[0].message == "voice_craft.guard does not carry don-style distress-comparison language"
+
+
+def test_outside_help_guard_still_catches_a_real_match():
+    """The fix must not overcorrect into never matching anything - "weigh"
+    and its own real inflections, as a whole word, still fire."""
+    records = {
+        "measures": {"r1": _voice_craft("Never measured against our own dead.")},
+        "weighs": {"r1": _voice_craft("A trouble is never weighed against a martyr's death.")},
+        "weighing": {"r1": _voice_craft("No weighing of a living person's grief against ours.")},
+    }
+    findings = cross_world.observe_outside_help_guard(records=records, worlds=["measures", "weighs", "weighing"])
+    assert all(f.message == "voice_craft.guard carries don-style distress-comparison language" for f in findings)
+
+
+def test_observe_outside_help_guard_on_the_real_fleet_finds_only_don():
+    """The corrected, real fleet state (2026-09-21, after the false-positive
+    fix above): don is the only one of the 11 built worlds whose guard
+    actually carries this language - rzg's earlier "carries" finding was
+    the false positive test_outside_help_guard_does_not_false_positive_on_
+    felt_weight now pins. This is R19's own real retrofit list: every OTHER
+    world here is a gap."""
+    registry = cross_world.load_registry()
+    worlds = cross_world.formation_world_keys(registry)
+    records = {w: cross_world.load_world_records(w) for w in worlds}
+    findings = cross_world.observe_outside_help_guard(records=records, worlds=worlds)
+    carries = {f.scope for f in findings if "carries" in f.message}
+    assert carries == {"don"}
+
+
 def test_every_check_defined_in_the_module_is_wired_into_the_report():
     """A check that exists but is missing from CHECKS runs nowhere and fails
     nothing - the quietest way for this file to stop doing its job. Cheap

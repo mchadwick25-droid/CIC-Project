@@ -991,6 +991,19 @@ def observe_second_hand_sources(*, records, worlds, **_) -> list[Finding]:
     return findings
 
 
+# Word-boundary matched, not a bare substring: a first version matched
+# "weigh" as a substring, which silently caught rzg's guard on "the felt
+# WEIGHt of either" (honest-thinness prose, no distress-comparison content
+# at all) - a real false positive, not a hypothetical one, found while
+# starting R19's retrofit and confirmed by reading rzg's guard field
+# directly (records/rzg/voice_craft/rzg.craft.theophilus-voice.md). \b
+# boundaries block a match inside "weight"/"weighted"/"outweigh" while
+# still catching "weigh"/"weighs"/"weighed"/"weighing" as their own words.
+_OUTSIDE_HELP_GUARD_SIGNALS = re.compile(
+    r"measured against|not the same weight|\bweigh(?:s|ed|ing)?\b", re.IGNORECASE
+)
+
+
 def observe_outside_help_guard(*, records, worlds, **_) -> list[Finding]:
     """Stage 0e (Build-Plan.md): does this world's voice_craft.guard carry
     a categorical prohibition against measuring a participant's own
@@ -1008,17 +1021,19 @@ def observe_outside_help_guard(*, records, worlds, **_) -> list[Finding]:
 
     A keyword scan over guard's own free text, not a semantic judgment - it
     can only ever say a guard field NAMES this concern in roughly don's own
-    words, never that a world's actual behavior honors it. Report-only:
+    words, never that a world's actual behavior honors it (and, being a
+    keyword scan, can still miss a world that names the same concern in
+    genuinely different words - see _OUTSIDE_HELP_GUARD_SIGNALS' own note
+    on the one false positive already found and fixed here). Report-only:
     nothing here fails a build. The printed world list is filed under R19
     in Rulings-Pending.md for a real ruling on whether and how to promote
     this to a gate.
     """
-    signals = ("measured against", "weigh", "not the same weight", "weighing")
     findings = []
     for w in worlds:
         crafts = [r for r in records[w].values() if r["record_type"] == "voice_craft"]
-        guard_text = " ".join(str(r.get("guard") or "") for r in crafts).lower()
-        hit = any(s in guard_text for s in signals)
+        guard_text = " ".join(str(r.get("guard") or "") for r in crafts)
+        hit = bool(_OUTSIDE_HELP_GUARD_SIGNALS.search(guard_text))
         findings.append(_observation(
             "outside-help-guard", w,
             f"voice_craft.guard {'carries' if hit else 'does not carry'} don-style distress-comparison language"

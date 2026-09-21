@@ -232,17 +232,22 @@ decided once is that every world must have *some* honest version of it.
 Three-part scope, enforcement mechanism, and open engineering question
 (the keyword-scan check's own reliability across worlds with genuinely
 different wording) — full detail in Decision-Log.md Entry 28. Retrofit of
-the 9 gap worlds (alx, cappadocian, desert, gallic, hal, ijc, pahc, syr,
-witt) is still outstanding Representative-voice authoring work, not done
-by this ruling itself.
+the **10** gap worlds (alx, cappadocian, desert, gallic, hal, ijc, pahc,
+rzg, syr, witt — corrected from 9, see Decision-Log.md Entry 31) is still
+outstanding Representative-voice authoring work, not done by this ruling
+itself.
 
 **Stage 0e observation pass (2026-09-21), `engine.m1.cross_world`'s new
-`observe_outside_help_guard` (report-only, keyword scan, not a semantic
+`observe_outside_help_guard`** (report-only, keyword scan, not a semantic
 judgment — see its own docstring): of the 11 built worlds, only **don**
-and **rzg** carry don-style distress-comparison language
-("measured against" / "weigh" / "not the same weight" / "weighing") in
-`voice_craft.guard`. The other 9 do not: **alx, cappadocian, desert,
-gallic, hal, ijc, pahc, syr, witt**. This is the concrete list R19's
-ruling needs — still unruled; editing any `voice_craft.guard` field is a
-Representative-voice change (`Build-Plan.md`'s own escalation category),
-so no world's guard text is touched here.
+carries don-style distress-comparison language ("measured against" /
+whole-word "weigh"/"weighs"/"weighed"/"weighing" / "not the same weight")
+in `voice_craft.guard`. The other 10 do not: **alx, cappadocian, desert,
+gallic, hal, ijc, pahc, rzg, syr, witt**. This is the concrete list R19's
+ruling needs. (An earlier version of this scan matched "weigh" as a bare
+substring, which false-positived on rzg's own "felt weight" — a
+doctrine-thinness phrase, not a distress comparison — and wrongly counted
+rzg as already covered. Fixed word-boundary, per Decision-Log.md Entry
+31; rzg moved from "carries" to the gap list here.) Editing any
+`voice_craft.guard` field is a Representative-voice change (`Build-Plan.md`'s
+own escalation category), so no world's guard text is touched here.
