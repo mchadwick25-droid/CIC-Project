@@ -139,8 +139,6 @@ p{margin:0 0 1rem}
 .orient-voice-name{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--text);margin:0 0 .3rem}
 .orient-voice-dates{font-weight:400;color:var(--muted)}
 .orient-voice-text{font-size:1.0625rem;line-height:1.6}
-.orient-voice-hedge{font-family:var(--sans);font-size:.9rem;line-height:1.5;color:var(--muted);border-left:2px solid var(--tint);padding-left:.75rem;margin:0 0 .2rem}
-.orient-hedge-label{font-weight:600;color:var(--text)}
 .docstories-row{display:flex;flex-direction:column;gap:1.3rem;max-width:var(--measure)}
 .docstory-entry h4{font-family:var(--serif);font-size:1.1rem;margin:0 0 .25rem}
 .docstory-entry>.meta{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:0 0 .3rem}
@@ -240,11 +238,12 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 
   <div class="page">
     <div class="article">
-      <section aria-labelledby="who-speaks-title">
-        <p class="eyebrow">Who is speaking</p>
-        <h2 id="who-speaks-title">A representative voice, speaking for a whole people</h2>
-        <div class="reading"><p>Four figures anchor this world&#39;s own voice. Origen was its greatest and most contested teacher, imprisoned and tortured near the end of his life. Athanasius was bishop for forty-six years, defending one confession through five exiles. Dionysius studied under Origen, then became bishop himself, leading the church through persecution and plague. Didymus, blind from the age of four, closed out this world&#39;s teaching line, holding all of Scripture in memory instead of on a page.</p><p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p></div>
-      </section>
+      <!-- Kept standalone when the "Who is speaking" section (its original home)
+           was cut in the 2026-09-21 card redesign: this is a safety disclosure,
+           not gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves - see cic-website/traditions/*.html's
+           pre-redesign `who_speaks` section for its prior placement. -->
+      <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
 
       <section aria-labelledby="story-title">
         <p class="eyebrow">The Story</p>
@@ -260,7 +259,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <p>When plague struck Alexandria, Bishop Dionysius wrote to his own churches about who had stayed. Most of his people, he wrote, did not flee. They nursed the sick without fear, day after day, and many caught the disease and died from it. He wrote that they died gladly, carrying their neighbors&#39; suffering onto themselves. He also wrote, in the same letter, that many of the city&#39;s pagans thrust their own sick out into the street at the first sign of illness. That difference, he said, was not an argument. It was a practice the whole city could see.</p>
       <p>For most of this world&#39;s life, the church confessed Jesus as God&#39;s own Word without needing a single fixed formula. That changed under real pressure. When Arius taught that the Son was the highest created being, not truly God, the council of Nicaea answered with one new word: homoousios, of one same substance with the Father. Athanasius, bishop for forty-six embattled years, defended that word through five exiles. The word was new. The worship it defended, this world&#39;s own record insists, was not.</p>
       <p>This world&#39;s teaching tradition closes with Didymus, blind since the age of four, too young ever to have read a written word himself. He held the whole of Scripture in memory instead, weighed and ordered by ear. Visitors came to him for decades. Later tradition remembers him heading the school in its final generation, though no eyewitness account actually says so. His own books, once thought entirely lost, turned up centuries later, buried in the Egyptian sand. Even now, most of them still cannot be read in English.</p>
-      <p>Almost everything above comes from one narrow group: literate, Greek-educated men. Did the same Scripture, and the same change, also shape the whole community? What about rural believers, people who could not read, or people held as slaves? That is a real, open question. This world&#39;s own record cannot answer it from the inside. The whole-community channel itself is well attested: baptism, the shared meal, the yearly fasts. What that channel actually felt like from within it is not, and this record does not pretend otherwise.</p></div>
+      <p>Almost everything above comes from one narrow group: literate, Greek-educated men. Did the same Scripture, and the same change, also shape the whole community? What about rural believers, people who could not read, or people held as slaves? That is a real, open question. This world&#39;s own record cannot answer it from the inside. The whole-community channel itself is well attested: baptism, the shared meal, the yearly fasts. What that channel actually felt like from within it is not, and this world&#39;s own record does not pretend otherwise.</p></div>
       </section>
 
       <section aria-labelledby="voices-title">
@@ -270,22 +269,18 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <div class="orient-voice">
       <p class="orient-voice-name">Origen <span class="orient-voice-dates">(c. 185–c. 253/4, Tyre, after imprisonment and torture under Decius - &#39;At this time Origen died, being sixty-nine years of age&#39;)</span></p>
       <p class="orient-voice-text">Origen was this world&#39;s greatest and most contested teacher. He took over the school as a very young man, after his own father was martyred. As a youth he acted on a hard verse from Matthew far too literally, and his bishop, Demetrius, first admired him for it, then later used the same act against him. Origen wrote commentaries across almost all of Scripture, argued at length with pagan critics, and was finally imprisoned and tortured under the emperor Decius. He died of it a few years later.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Origen&#39;s own surviving writing is a huge share of everything this world left behind. So the risk of mistaking his voice for the whole world&#39;s voice is real, and constant. Much of what he wrote survives only through translators with their own agenda. One, Rufinus, softened suspect passages. Another, Jerome, later quoted him unfavorably. Inside this world&#39;s own span, Origen was inherited and argued over, never condemned. A church condemned some of his ideas three centuries after this world&#39;s own record ends.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Athanasius <span class="orient-voice-dates">(c. 296-298–373)</span></p>
       <p class="orient-voice-text">Athanasius was bishop of Alexandria for forty-six years, through five separate exiles. He defended one confession under real threat: the Son is truly God, of one substance with the Father. Arius had called the Son merely the highest creature. Near the end of this world&#39;s story, Athanasius put the hope of that confession into one line: God became human so that humans could share God&#39;s own life. He also wrote the best-known portrait of Antony, the desert&#39;s founding figure, holding him up as this city&#39;s own picture of a formed life.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Athanasius writes as a bishop in the middle of a fight. He is not a neutral historian. His decades of conflict can make doctrine look like this whole world&#39;s center, when it was really the loudest part of a longer, quieter story of teaching and worship. And Antony himself belongs at least as much to a different, later-forming world as to this one. Athanasius&#39;s own portrait is Alexandria&#39;s use of him, not the desert&#39;s own self-understanding.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Dionysius <span class="orient-voice-dates">(c. 264/5)</span></p>
       <p class="orient-voice-text">Dionysius studied under Origen before becoming bishop himself. He led the church through two of this world&#39;s hardest tests: the Decian persecution and a citywide plague. He wrote that his own people nursed the dying without fear, while others in the city fled. When whole villages in the Egyptian countryside took up a teaching he thought was wrong, he did not condemn them from a distance. He traveled out, sat with them for three days, and won them back through patient argument.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Dionysius&#39;s own writings survive only as fragments. Later writers quoted him, kept what interested them, and let the rest go. His account of the three-day conference is his own telling of his own success. The side he argued against left no account of its own.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Didymus <span class="orient-voice-dates">(c. 309-313–c. 398)</span></p>
       <p class="orient-voice-text">Didymus was blind from the age of four, too young to have ever read a written word himself. He held the whole of Scripture in memory, and taught from it for decades. Visitors came from far away to hear him. Later tradition remembers him as the last head of this world&#39;s teaching line, closing out its final generation.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> No primary account actually calls Didymus the head of a school. That claim comes only from a later editor&#39;s own note, not an eyewitness. And almost none of his own books survive in a form this project can read. They were lost for over fifteen centuries, then found buried in the Egyptian sand. Their Greek has still not been translated into English.</p>
       </div>
       </div>
       </section>
@@ -324,12 +319,6 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </div>
       </section>
 
-      <section aria-labelledby="quiet-title">
-        <p class="eyebrow">Where we are quiet</p>
-        <h2 id="quiet-title">What the record does not say</h2>
-        <div class="reading"><p>You ask what the women among us said of their own lives. The writings we have are men&#39;s. The women are present in them - taught, baptized, remembered, and some died bravely for the faith - but their own words were not saved.</p></div>
-      </section>
-
       <section aria-labelledby="legacy-title">
         <p class="eyebrow">Legacy</p>
         <h2 id="legacy-title">What came after</h2>
@@ -345,7 +334,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <section aria-labelledby="sourcing-title">
         <p class="eyebrow">Sources</p>
         <h2 id="sourcing-title">What this account is built from</h2>
-        <div class="reading"><p>This world&#39;s record is richest in teaching and argument: the works of Clement, Origen, and Athanasius above all. It thins in a few important places. Clement&#39;s fullest treatment of marriage survives only in his own Greek; no public-domain English version has ever been made of it. Whether Alexandria&#39;s teaching tradition was one continuous, official school is itself live scholarly dispute, not a settled fact this record can simply report. And no woman&#39;s own words survive anywhere in this world&#39;s corpus.</p>
+        <div class="reading"><p>This world&#39;s record is richest in teaching and argument: the works of Clement, Origen, and Athanasius above all. It thins in a few important places. Clement&#39;s fullest treatment of marriage survives only in his own Greek; no public-domain English version has ever been made of it. Whether Alexandria&#39;s teaching tradition was one continuous, official school is itself live scholarly dispute, not something that can simply be reported as settled fact. And no woman&#39;s own words survive anywhere in this world&#39;s corpus.</p>
       <ul class="orient-read-first">
       <li><span class="orient-read-first-work">Clement of Alexandria (c. 150-215 CE), Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only</span> <span class="orient-read-first-note">Clement&#39;s flagship work for cultivated Greek readers - though its third book, on marriage and the body, survives in this edition only in Latin, not English.</span></li>
       <li><span class="orient-read-first-work">Origen (c. 185-254 CE), De Principiis (On First Principles) - English of Rufinus&#39;s Latin translation, with its known doctrinal softening</span> <span class="orient-read-first-note">Origen&#39;s boldest speculative work, reaching us only through Rufinus&#39;s own softened Latin translation - read alongside the Greek-derived Philocalia where the two overlap.</span></li>
@@ -380,6 +369,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <ul class="questions">
       <li><a href="../talk.html?worlds=alexandria-catechetical&mode=interview&from=traditions%2Falexandria-catechetical.html" data-ask>Who was Jesus, to you and your people?<span class="vh"> — ask Theon</span></a><span class="from">doctrinal witness: “To us Jesus is the Logos - God&#39;s own Word, through whom all things were made - come in flesh.”</span></li>
       <li><a href="../talk.html?worlds=alexandria-catechetical&mode=interview&from=traditions%2Falexandria-catechetical.html" data-ask>What did you do when you couldn&#39;t believe what your own church taught?<span class="vh"> — ask Theon</span></a><span class="from">doctrinal witness: “Was there room for doubt? Our teachers built their whole method on questions. Clement insisted that faith is the foundation and not the ceiling.”</span></li>
+      <li><a href="../talk.html?worlds=alexandria-catechetical&mode=interview&from=traditions%2Falexandria-catechetical.html" data-ask>Do you believe people like me — people outside your community — are going to hell?<span class="vh"> — ask Theon</span></a><span class="from">contested claim: “Origen himself held, as settled doctrine, the positions later condemned under his name: the pre-existence of souls, apokatastasis (universal restoration),…”</span></li>
       </ul>
       </section>
 

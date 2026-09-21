@@ -139,8 +139,6 @@ p{margin:0 0 1rem}
 .orient-voice-name{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--text);margin:0 0 .3rem}
 .orient-voice-dates{font-weight:400;color:var(--muted)}
 .orient-voice-text{font-size:1.0625rem;line-height:1.6}
-.orient-voice-hedge{font-family:var(--sans);font-size:.9rem;line-height:1.5;color:var(--muted);border-left:2px solid var(--tint);padding-left:.75rem;margin:0 0 .2rem}
-.orient-hedge-label{font-weight:600;color:var(--text)}
 .docstories-row{display:flex;flex-direction:column;gap:1.3rem;max-width:var(--measure)}
 .docstory-entry h4{font-family:var(--serif);font-size:1.1rem;margin:0 0 .25rem}
 .docstory-entry>.meta{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:0 0 .3rem}
@@ -240,11 +238,12 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 
   <div class="page">
     <div class="article">
-      <section aria-labelledby="who-speaks-title">
-        <p class="eyebrow">Who is speaking</p>
-        <h2 id="who-speaks-title">A representative voice, speaking for a whole people</h2>
-        <div class="reading"><p>Six figures anchor this world&#39;s own voice. Constantine began the alliance that made everything else here possible. Ambrose, bishop of Milan, held a basilica against an emperor&#39;s own soldiers. He used that same sacramental leverage twice more. Once, to force an emperor into public penance. Once, to shield men who had burned a synagogue. Damasus built Rome&#39;s own claim into martyr-shrine stone. His own election was so violent it left more than a hundred dead. Leo was Rome&#39;s fullest voice. He sent a letter that closed this world&#39;s own argument over Christ&#39;s two natures. Then he refused a council&#39;s own ruling on where authority itself belonged. Justina and Pulcheria are the two women this world&#39;s record shows wielding real command. One was defeated. One convened the council that closed the age. Neither left us her own words.</p><p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p></div>
-      </section>
+      <!-- Kept standalone when the "Who is speaking" section (its original home)
+           was cut in the 2026-09-21 card redesign: this is a safety disclosure,
+           not gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves - see cic-website/traditions/*.html's
+           pre-redesign `who_speaks` section for its prior placement. -->
+      <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
 
       <section aria-labelledby="story-title">
         <p class="eyebrow">The Story</p>
@@ -269,32 +268,26 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <div class="orient-voice">
       <p class="orient-voice-name">Constantine <span class="orient-voice-dates">(c. 272/273–337, baptized on his deathbed)</span></p>
       <p class="orient-voice-text">Constantine won the battle that made him sole ruler of the West, and turned an empire that had hunted the church into one that funded it. Within a year of his victory, toleration was law. He convened the council of Nicaea and called himself a bishop of those outside the church. He was baptized only on his deathbed, decades later.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Two accounts of what turned Constantine toward Christ survive. This world&#39;s own record does not force them to agree. One was written within a few years, by a Christian at his own court. The other came decades later, from his own admiring biographer. That later account has Constantine and his whole army seeing a vision at midday. What is certain is the alliance that followed - not the experience behind it.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Ambrose <span class="orient-voice-dates">(c. 339–397)</span></p>
       <p class="orient-voice-text">Ambrose, bishop of Milan, held a basilica against an emperor&#39;s own soldiers. He preached that the emperor stands inside the church, not above it. Four years later, he used that same sacramental leverage again. This time he forced an emperor into public penance for a massacre. And two years before that, he used the same leverage a third time. That time, he shielded men who had burned a synagogue - so they never had to pay for it.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Almost everything we know of Ambrose comes from his own account of his own fights. The 386 standoff does have a real witness from outside - Augustine&#39;s own memory. Not every event does. And this world&#39;s own record will not let him look good every time. The same tool that once made an emperor kneel also once shielded men who had burned a Jewish community&#39;s synagogue.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Damasus <span class="orient-voice-dates">(c. 305–384, &quot;in the reign of the Emperor Theodosius&quot;)</span></p>
       <p class="orient-voice-text">Damasus, bishop of Rome, built the see&#39;s own claim into stone. He paid for verses to be carved at the martyrs&#39; graves. Pilgrims could then read Rome&#39;s own memory of its descent from the apostles. His own election, in 366, turned violent. A hostile pagan witness records a hundred and thirty-seven dead, in one church, in one day.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> This world tells that hard fact about Damasus&#39;s own election. It does not hide it. A body of decrees also circulates under his name. This record does not use them. Modern scholarship judges much of that corpus a later forgery, backdated to look older than it is. His genuine synodical letters, and his own verse-inscriptions, carry his record instead.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Leo <span class="orient-voice-dates">(unknown–461 - a decade past this world&#39;s own 451 close; his death is outside the window and nothing after Chalcedon&#39;s immediate aftermath is this world&#39;s to narrate)</span></p>
       <p class="orient-voice-text">Leo, bishop of Rome, wrote the letter that closed this world&#39;s own argument over Christ&#39;s two natures. It was read aloud at Chalcedon. Those who received it well heard it as the see of Peter speaking. Leo then refused that same council&#39;s ruling on Constantinople&#39;s own rank. He wrote to the emperor, the empress, and the bishop alike, to say so.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Leo&#39;s own letters assert the very authority they are offered as evidence for. A bishop of Rome states his own standing, in his own words. Did the wider church actually accept that claim as settled? Or was it only ever stated, never fully agreed? This world&#39;s own closing argument, Canon 28, leaves that question open.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Justina <span class="orient-voice-dates">(unknown–c. 388)</span></p>
       <p class="orient-voice-text">Justina was the mother of the young emperor Valentinian II. She was the real power behind him. She held the Homoian faith herself, and demanded a Milan basilica for it. When Ambrose refused, real force moved through her court. Merchants in the city were fined. People were locked up during Lent.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Justina reaches this record only through the writing of the bishop who defeated her. His own letter names the emperor, not her, as the one who used that force. It is this record&#39;s own chronology that names her instead. This world states that difference. It does not resolve it.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Pulcheria <span class="orient-voice-dates">(399–453)</span></p>
       <p class="orient-voice-text">Pulcheria became empress in 414. She was one of two people whose own convening power actually brought about the Council of Chalcedon, in 451. Leo himself records that she commanded the council to be held. He had asked to hold it in Italy instead. She refused. He answered by sending his legates anyway, without protest.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Leo&#39;s letters address Pulcheria as a real political power, not as a courtesy. That is direct evidence of her own agency. But nothing of her own words survives anywhere in this world&#39;s record - not on her own terms, not anywhere.</p>
       </div>
       </div>
       </section>
@@ -333,12 +326,6 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </div>
       </section>
 
-      <section aria-labelledby="quiet-title">
-        <p class="eyebrow">Where we are quiet</p>
-        <h2 id="quiet-title">What the record does not say</h2>
-        <div class="reading"><p>You ask for an ordinary day among us: the food, the work, the children, the women&#39;s own lives, the sick and the dying. Here is our problem. Our record comes from courts and bishops, and it noticed ordinary people mostly when they filled a basilica or a riot. We know the crowds of our cities were there. On one besieged night they enter the record singing, and for a moment we hear them. The only women our record shows acting are two empresses, and even they speak only through other men&#39;s accounts. The daily bread, the household, the deathbed of an ordinary believer: those were lived, not written, and we will not invent them.</p></div>
-      </section>
-
       <section aria-labelledby="legacy-title">
         <p class="eyebrow">Legacy</p>
         <h2 id="legacy-title">What came after</h2>
@@ -358,7 +345,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <div class="reading"><p>This world&#39;s record is richest in one shape: the paper trail of office. Council acts, church laws, imperial laws, and letters between bishops and emperors carry nearly everything that survives. Elsewhere, it runs thin, or falls silent. No ordinary believer&#39;s own words about any event survive. Only bishops, emperors, and their courts speak. Women show up as real political powers, not just as obstacles. But they never speak in their own words. Even the two who held real, proven power reach us only through men with their own stake in the story. And for roughly two decades, the empire&#39;s own church held a creed whose own fullest voice barely survives at all. We know it mostly through the side that later beat it.</p>
       <ul class="orient-read-first">
       <li><span class="orient-read-first-work">Ambrose of Milan (c. 339-397, bishop 374-397), Selected Epistles: Ep. 17-18 (against Symmachus&#39;s plea for the Altar of Victory, with Symmachus&#39;s own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)</span> <span class="orient-read-first-note">This world&#39;s richest single voice on the alliance&#39;s own limits - the basilica standoff, Callinicum, and the emperor&#39;s penance all told from inside. One man&#39;s own record of his own confrontations; treat its consistency as a risk, not automatic proof.</span></li>
-      <li><span class="orient-read-first-work">Leo I, bishop of Rome (440-461), Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon&#39;s Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus&#39;s own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build&#39;s own primary-text material on enslaved persons</span> <span class="orient-read-first-note">The see of Rome&#39;s fullest surviving voice, closing in the Tome and the Canon 28 rejection - documents that assert the very authority they are offered as evidence for.</span></li>
+      <li><span class="orient-read-first-work">Leo I, bishop of Rome (440-461), Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon&#39;s Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin); also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - primary-text material on enslaved persons</span> <span class="orient-read-first-note">The see of Rome&#39;s fullest surviving voice, closing in the Tome and the Canon 28 rejection - documents that assert the very authority they are offered as evidence for.</span></li>
       <li><span class="orient-read-first-work">The Council of Chalcedon (451) - convened by Marcian and Pulcheria, The Definition of Faith, the Canons (esp. Canon 28), and Percival&#39;s extracts from the Acts of the Fourth Ecumenical Council - the world&#39;s own closing event in its own conciliar record</span> <span class="orient-read-first-note">This world&#39;s own closing scene in its own words: the Tome received, and the canon Rome&#39;s own legates refused on the spot, both preserved in the same conciliar record.</span></li>
       </ul></div>
       </section>
@@ -393,6 +380,8 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <ul class="questions">
       <li><a href="../talk.html?worlds=imperial-juridical-christianity&mode=interview&from=traditions%2Fimperial-juridical-christianity.html" data-ask>Who was Jesus, to you and your people?<span class="vh"> — ask Marius</span></a><span class="from">doctrinal witness: “To us, Jesus was the one the whole argument was about, and the argument itself was our devotion. Who was he?”</span></li>
       <li><a href="../talk.html?worlds=imperial-juridical-christianity&mode=interview&from=traditions%2Fimperial-juridical-christianity.html" data-ask>What did your people never settle?<span class="vh"> — ask Marius</span></a><span class="from">story: “Leo did not go to Chalcedon; his letter went in his place. When the Tome was read to the assembled bishops, the session record has them crying out: This is the…”</span></li>
+      <li><a href="../talk.html?worlds=imperial-juridical-christianity&mode=interview&from=traditions%2Fimperial-juridical-christianity.html" data-ask>What was the bread and cup to you — is that what we call transubstantiation?<span class="vh"> — ask Marius</span></a><span class="from">doctrinal witness: “You ask what the bread and cup were to us, and whether we already held what your age calls transubstantiation. We would not have used your word.”</span></li>
+      <li><a href="../talk.html?worlds=imperial-juridical-christianity&mode=interview&from=traditions%2Fimperial-juridical-christianity.html" data-ask>The people who taught me the faith turned out to be hypocrites. Did that happen among you?<span class="vh"> — ask Marius</span></a><span class="from">story: “At Callinicum, on the eastern frontier, a Christian mob burned the town&#39;s synagogue - at the local bishop&#39;s own urging.”</span></li>
       </ul>
       </section>
 

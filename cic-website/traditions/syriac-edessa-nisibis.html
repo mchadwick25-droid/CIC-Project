@@ -139,8 +139,6 @@ p{margin:0 0 1rem}
 .orient-voice-name{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--text);margin:0 0 .3rem}
 .orient-voice-dates{font-weight:400;color:var(--muted)}
 .orient-voice-text{font-size:1.0625rem;line-height:1.6}
-.orient-voice-hedge{font-family:var(--sans);font-size:.9rem;line-height:1.5;color:var(--muted);border-left:2px solid var(--tint);padding-left:.75rem;margin:0 0 .2rem}
-.orient-hedge-label{font-weight:600;color:var(--text)}
 .docstories-row{display:flex;flex-direction:column;gap:1.3rem;max-width:var(--measure)}
 .docstory-entry h4{font-family:var(--serif);font-size:1.1rem;margin:0 0 .25rem}
 .docstory-entry>.meta{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:0 0 .3rem}
@@ -240,11 +238,12 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 
   <div class="page">
     <div class="article">
-      <section aria-labelledby="who-speaks-title">
-        <p class="eyebrow">Who is speaking</p>
-        <h2 id="who-speaks-title">A representative voice, speaking for a whole people</h2>
-        <div class="reading"><p>Four figures anchor this world&#39;s own voice. Ephrem was its most prolific hymn-writer, turning doctrine into song for a congregation to sing back. Jacob of Nisibis was the bishop his besieged city remembered praying on its own walls. Marutha was the frontier bishop whose diplomacy helped bring the Persian church its first settled structure. Simeon bar Sabbae was the Persian bishop who refused to worship the sun, and paid for that refusal with his life.</p><p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p></div>
-      </section>
+      <!-- Kept standalone when the "Who is speaking" section (its original home)
+           was cut in the 2026-09-21 card redesign: this is a safety disclosure,
+           not gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves - see cic-website/traditions/*.html's
+           pre-redesign `who_speaks` section for its prior placement. -->
+      <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
 
       <section aria-labelledby="story-title">
         <p class="eyebrow">The Story</p>
@@ -266,22 +265,18 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <div class="orient-voice">
       <p class="orient-voice-name">Ephrem <span class="orient-voice-dates">(c. 306–373, at Edessa)</span></p>
       <p class="orient-voice-text">Ephrem was a deacon, first at Nisibis and then, after 363, at Edessa - and this world&#39;s most prolific poet. Hundreds of his teaching hymns carried this world&#39;s doctrine straight into congregational song. In the last year of his life, famine struck Edessa. He came out of his quiet cell, took charge of relief for the whole city, and died within a month of the famine&#39;s end.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> A later tradition, composed more than a century after his death, credits Ephrem with personally founding and leading the women&#39;s choirs that sang his hymns. This world&#39;s own record attests only that the choirs performed the hymns - not that Ephrem organized them himself.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Jacob <span class="orient-voice-dates">(338 vs 350 - the Martyrologium Hieronymianum implies 338)</span></p>
       <p class="orient-voice-text">Jacob was bishop of Nisibis from about 309. He signed the Nicene Creed himself, at the council in 325. When a Persian army besieged his city, tradition remembers him climbing the wall to pray. He prayed not for the army&#39;s destruction, but for its withdrawal.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> This world&#39;s own record cannot even agree on when Jacob died - one chronicle says 338, during the first siege; another has him still defending the city in 350. The gnat-swarm detail itself comes from a historian writing about a century afterward; Ephrem&#39;s own hymns, written at the time, describe the same deliverance without it.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Marutha <span class="orient-voice-dates">(unknown)</span></p>
       <p class="orient-voice-text">Marutha was a Roman bishop on the frontier. His embassies to the Persian court helped open the way to a lasting settlement. His diplomacy with King Yazdegerd I helped bring about the synod of 410. That synod finally gave the Persian church one settled structure.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> The surviving account of his embassies includes miracle elements - a cured headache, an exposed fraud - told in the church&#39;s own memory of him, not as verified reporting.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Simeon <span class="orient-voice-dates">(traditionally 341; Kosinski and Burgess argue c. 344 - the anchor date for the whole chronicle-derived succession, held open and never resolved either way)</span></p>
       <p class="orient-voice-text">Simeon bar Sabbae was bishop of Seleucia-Ctesiphon. King Shapur II ordered Persia&#39;s Christians taxed into ruin. Simeon refused to collect that tax. He also refused to worship the sun. He was executed along with his own clergy. This world remembers him as the first of the persecution&#39;s bishops to die for the faith.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> The year of his death is genuinely disputed - 341 by the traditional count, with some historians arguing for about 344 instead - and the fullest surviving account of his martyrdom is a Greek historian&#39;s reworking of the original Syriac tradition, written decades later.</p>
       </div>
       </div>
       </section>
@@ -320,12 +315,6 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </div>
       </section>
 
-      <section aria-labelledby="quiet-title">
-        <p class="eyebrow">Where we are quiet</p>
-        <h2 id="quiet-title">What the record does not say</h2>
-        <div class="reading"><p>You ask what the women among us said of their own lives. The writings we have are men&#39;s. The daughters of the covenant sang our teaching in every church - their voices carried our faith - yet not one line written by one of them was kept. We can tell you how men praised them. We cannot give you their own words.</p></div>
-      </section>
-
       <section aria-labelledby="legacy-title">
         <p class="eyebrow">Legacy</p>
         <h2 id="legacy-title">What came after</h2>
@@ -339,7 +328,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <ul class="orient-read-first">
       <li><span class="orient-read-first-work">Ephrem the Syrian (c. 306-373 CE), Nisibene Hymns (Carmina Nisibena) - 46 of the original 77 hymns; I-XXI (the Nisibis-and-its-bishops cycle) complete, with selections from the rest including the Death-and-Satan cycle</span> <span class="orient-read-first-note">This world&#39;s greatest hymn-writer remembering the siege of his own city and its bishops in verse - the closest thing this world has to an eyewitness account, and sung rather than told.</span></li>
       <li><span class="orient-read-first-work">Aphrahat, &#39;the Persian Sage&#39; (fl. c. 337-345; a 510 CE colophon calls him &#39;Mar Jacob, the Persian sage&#39;; the name &#39;Aphrahat&#39; first appears in the tenth century), Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times</span> <span class="orient-read-first-note">The Persian side&#39;s own primary voice - dated letters written from inside the empire, the last of them composed while the persecution was already underway.</span></li>
-      <li><span class="orient-read-first-work">Tatian (composed c. 172 CE); the vendored text is an English rendering of the Arabic recension, The Diatessaron of Tatian - the single continuous-narrative Gospel harmony that served as this world&#39;s standard Gospel text until the early fifth century</span> <span class="orient-read-first-note">The one woven Gospel this whole world read as &#39;the Gospel&#39; for two centuries - though this particular English text stands several steps removed from Tatian&#39;s own lost Syriac wording.</span></li>
+      <li><span class="orient-read-first-work">Tatian (composed c. 172 CE); the surviving text is an English rendering of the Arabic recension, The Diatessaron of Tatian - the single continuous-narrative Gospel harmony that served as this world&#39;s standard Gospel text until the early fifth century</span> <span class="orient-read-first-note">The one woven Gospel this whole world read as &#39;the Gospel&#39; for two centuries - though this particular English text stands several steps removed from Tatian&#39;s own lost Syriac wording.</span></li>
       </ul></div>
       </section>
 
@@ -373,6 +362,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <ul class="questions">
       <li><a href="../talk.html?worlds=syriac-edessa-nisibis&mode=interview&from=traditions%2Fsyriac-edessa-nisibis.html" data-ask>Who was Jesus, to you and your people?<span class="vh"> — ask Mar Yausep</span></a><span class="from">doctrinal witness: “To us, Jesus is the Only-Begotten of God - the Ihidaya, our own name for him.”</span></li>
       <li><a href="../talk.html?worlds=syriac-edessa-nisibis&mode=interview&from=traditions%2Fsyriac-edessa-nisibis.html" data-ask>Who held authority among you, and how did anyone come to have it?<span class="vh"> — ask Mar Yausep</span></a><span class="from">doctrinal witness: “Who held authority among us? Shepherds, first of all - bishops. Nisibis sang of its own, Jacob and Babu and Valgash, as the city&#39;s fathers and the ones who…”</span></li>
+      <li><a href="../talk.html?worlds=syriac-edessa-nisibis&mode=interview&from=traditions%2Fsyriac-edessa-nisibis.html" data-ask>I grew up being told doubt was sin. Was there room among your people for doubt?<span class="vh"> — ask Mar Yausep</span></a><span class="from">doctrinal witness: “Was there room for doubt among us? Our word for the life of belief was not certainty but faith.”</span></li>
       </ul>
       </section>
 

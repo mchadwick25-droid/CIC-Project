@@ -139,8 +139,6 @@ p{margin:0 0 1rem}
 .orient-voice-name{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--text);margin:0 0 .3rem}
 .orient-voice-dates{font-weight:400;color:var(--muted)}
 .orient-voice-text{font-size:1.0625rem;line-height:1.6}
-.orient-voice-hedge{font-family:var(--sans);font-size:.9rem;line-height:1.5;color:var(--muted);border-left:2px solid var(--tint);padding-left:.75rem;margin:0 0 .2rem}
-.orient-hedge-label{font-weight:600;color:var(--text)}
 .docstories-row{display:flex;flex-direction:column;gap:1.3rem;max-width:var(--measure)}
 .docstory-entry h4{font-family:var(--serif);font-size:1.1rem;margin:0 0 .25rem}
 .docstory-entry>.meta{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:0 0 .3rem}
@@ -240,11 +238,12 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 
   <div class="page">
     <div class="article">
-      <section aria-labelledby="who-speaks-title">
-        <p class="eyebrow">Who is speaking</p>
-        <h2 id="who-speaks-title">A representative voice, speaking for a whole people</h2>
-        <div class="reading"><p>Four figures anchor this world&#39;s own voice. But only one of them speaks in words we can actually check. Jerome wrote nearly everything this world left behind: the translations, the letters, the memorials. Paula gave a fortune to build Bethlehem. She governed its women&#39;s community for nineteen years. But her portrait survives only in Jerome&#39;s own telling. Eustochium led that same community to this world&#39;s own end. No word of hers survives either, though one of her own reports is attested, and lost. Marcella gathered the circle Jerome later joined. After he left, disputed scripture went to her own house, by his account - a claim resting on his memorial for her alone.</p><p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p></div>
-      </section>
+      <!-- Kept standalone when the "Who is speaking" section (its original home)
+           was cut in the 2026-09-21 card redesign: this is a safety disclosure,
+           not gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves - see cic-website/traditions/*.html's
+           pre-redesign `who_speaks` section for its prior placement. -->
+      <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
 
       <section aria-labelledby="story-title">
         <p class="eyebrow">The Story</p>
@@ -269,22 +268,18 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <div class="orient-voice">
       <p class="orient-voice-name">Jerome <span class="orient-voice-dates">(c. 331–420)</span></p>
       <p class="orient-voice-text">Jerome came to Rome in 382 as secretary to Pope Damasus. He stayed to become this world&#39;s central scholar, translator, and letter-writer. He spent decades turning the Old Testament into Latin, straight from the Hebrew. He defended nearly every hard word choice, in a preface of its own. He argued fiercely with anyone who challenged him: a fellow scholar, an old friend, a hostile bishop. Almost everything left behind by this world passed through his own hand first.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> This world&#39;s record is almost entirely Jerome&#39;s own. He is the hand behind nearly every account of the women&#39;s own agency. His self-telling is embellished at known points, too. His own account of his Hebrew skill is contested by modern scholars. And his memorials for the women he outlived praise them the way that kind of writing always does.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Paula <span class="orient-voice-dates">(347–404, Bethlehem - Ep. 108 dates her death precisely and gives her age; buried by the Church of the Nativity)</span></p>
       <p class="orient-voice-text">Paula was a widow of the oldest Roman blood. She gave away a great fortune. She spent it building Bethlehem: a monastery for men, houses for women, and a hostel for travelers. She led the women&#39;s community she founded for nineteen years. She learned Hebrew well enough to chant the psalms in it. She died in 404, and was buried beneath the Church of the Nativity.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Everything known of Paula comes through Jerome&#39;s own hand. His long memorial letter, written after her death, is the main source. One independent witness describes her partnership with him too: the historian Palladius. He says the opposite of Jerome&#39;s own account. He claims Jerome held her back out of jealousy, so she could never surpass him. Neither telling is neutral. This world&#39;s own record cannot say which one is closer to true.</p>
       </div>
       <div class="orient-voice">
-      <p class="orient-voice-name">Eustochium <span class="orient-voice-dates">(c. 368–418, 419, or 420 - contested across a three-year window depending on the reference consulted; never resolved to a single year in this record set)</span></p>
+      <p class="orient-voice-name">Eustochium <span class="orient-voice-dates">(c. 368–418, 419, or 420 - contested across a three-year window depending on the reference consulted; never resolved to a single year here)</span></p>
       <p class="orient-voice-text">Eustochium was consecrated to a virgin&#39;s life from her youth. Jerome addressed one of his most famous letters to her. Her mother, Paula, died in 404. After that, Eustochium led the Bethlehem women&#39;s community for the rest of this world&#39;s own span. In 416, an attack burned the monasteries. Eustochium and her young niece, also named Paula, wrote to Rome to report what had happened.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> No word Eustochium wrote in her own hand survives. Her report of the 416 attack is attested, though - a pope&#39;s reply to it is what we still have, not her own letter. Even the year of her death is disputed, across a three-year span. What we know of her, like Paula, comes to us through Jerome&#39;s pen.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Marcella <span class="orient-voice-dates">(c. 325/330–410, Rome - shortly after the Gothic sack, following rough treatment in her own house)</span></p>
       <p class="orient-voice-text">Marcella gathered a circle of ascetic, scripture-serious women on the Aventine hill. She did this years before Jerome ever reached Rome. He joined a household she had already built - not the other way around. After he left for Bethlehem, disputed questions about scripture in Rome went to her house to be settled, Jerome wrote. She died in 410, not long after Alaric&#39;s soldiers broke into that same house. They were looking for treasure she had already given away.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> The strongest proof of a woman&#39;s own independent authority here is also entirely Jerome&#39;s own framing. He wrote it as her memorial, two years after her death. Modern scholars read this partly as his own defense - not only as praise of her. What she carried was real. How independently she carried it is a question this world&#39;s own record cannot close.</p>
       </div>
       </div>
       </section>
@@ -323,16 +318,10 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </div>
       </section>
 
-      <section aria-labelledby="quiet-title">
-        <p class="eyebrow">Where we are quiet</p>
-        <h2 id="quiet-title">What the record does not say</h2>
-        <div class="reading"><p>You ask for the women&#39;s own words. Not one written word of theirs was kept. They wrote - questions, letters, a report of the fire that reached a pope - and every page is lost. What remains is what one man wrote about them.</p></div>
-      </section>
-
       <section aria-labelledby="legacy-title">
         <p class="eyebrow">Legacy</p>
         <h2 id="legacy-title">What came after</h2>
-        <div class="reading"><p>This world&#39;s own record does not follow its central labor past its own span. It shows an argument that was still open the moment the last translator died. Within a few years, a respected fellow scholar, Augustine, made the strongest case for the other side, in writing. He agreed with every point of the Hebrew scholarship. He still refused the conclusion. The churches of Christ, he wrote, should trust the old Greek translators, not one modern scholar&#39;s own work, however sound. Did the Hebrew-based translation ever become this world&#39;s own settled Bible? That question sits outside what this record can answer. Its own witness ends with the argument still unresolved.</p></div>
+        <div class="reading"><p>This world&#39;s own record does not follow its central labor past its own span. It shows an argument that was still open the moment the last translator died. Within a few years, a respected fellow scholar, Augustine, made the strongest case for the other side, in writing. He agreed with every point of the Hebrew scholarship. He still refused the conclusion. The churches of Christ, he wrote, should trust the old Greek translators, not one modern scholar&#39;s own work, however sound. Did the Hebrew-based translation ever become this world&#39;s own settled Bible? That question sits outside what the surviving evidence can answer. Its own witness ends with the argument still unresolved.</p></div>
       </section>
 
       <section aria-labelledby="relations-summary-title">
@@ -347,7 +336,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <div class="reading"><p>This world&#39;s record is richer in one man&#39;s own writing than in almost anything else. Jerome&#39;s letters, prefaces, and attacks on rivals carry nearly everything that survives. That includes nearly every account of the women&#39;s own lives. The record goes silent in a few places, though. No word by Paula, Eustochium, Marcella, or Fabiola survives in her own hand - though we know all of them wrote. People held as slaves in these same homes are never named or heard at all. And no one knows what the ground at Bethlehem might show: no stone, coin, or dug-up wall tied to these homes has ever been found.</p>
       <ul class="orient-read-first">
       <li><span class="orient-read-first-work">Jerome (c. 331/347-420 CE), Epistula 108, to Eustochium (404): Epitaphium Sanctae Paulae - the obituary-epitaph for Paula, and the single richest source for her biography, the 385-386 journey to the Holy Land and Egypt, the Bethlehem foundations (monasteries and pilgrim hospice), and the women&#39;s community&#39;s discipline</span> <span class="orient-read-first-note">The epitaph for Paula - this world&#39;s richest single witness, and the clearest example of its own besetting problem: an admiring memorial, written by the one man behind nearly every account we have.</span></li>
-      <li><span class="orient-read-first-work">Jerome (c. 331/347-420 CE), Epistula 127, to Principia (412): obituary for Marcella - her early widowhood and refusal of remarriage, the Aventine household&#39;s ascetic life, her scriptural learning and the Roman clergy&#39;s consultations of her after 385, and her death following the 410 Gothic sack of Rome</span> <span class="orient-read-first-note">The memorial for Marcella, written two years after her death - the sole source for the single strongest claim of an independent woman&#39;s own scriptural authority anywhere in this record.</span></li>
+      <li><span class="orient-read-first-work">Jerome (c. 331/347-420 CE), Epistula 127, to Principia (412): obituary for Marcella - her early widowhood and refusal of remarriage, the Aventine household&#39;s ascetic life, her scriptural learning and the Roman clergy&#39;s consultations of her after 385, and her death following the 410 Gothic sack of Rome</span> <span class="orient-read-first-note">The memorial for Marcella, written two years after her death - the sole source for the single strongest claim of an independent woman&#39;s own scriptural authority anywhere in this world&#39;s surviving record.</span></li>
       <li><span class="orient-read-first-work">Palladius of Galatia (c. 363/364 - c. 420s), Historia Lausiaca (c. 419-420), chs. 36 (Posidonius: Jerome&#39;s &#39;qualities of temper so disastrous&#39;, the prophecy about Paula) and 41 (Holy Women: Paula &#39;hindered by a certain Jerome from Dalmatia... he hindered her by his jealousy&#39;; Eustochium at Bethlehem with &#39;a convent of fifty virgins&#39;) - the principal hostile independent near-contemporary witness to this world</span> <span class="orient-read-first-note">The one substantial outside witness to this circle, hostile to Jerome and disagreeing with his own account of the Paula partnership at exactly the point that matters most.</span></li>
       </ul></div>
       </section>
@@ -382,6 +371,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <ul class="questions">
       <li><a href="../talk.html?worlds=hieronymian-ascetic-literary&mode=interview&from=traditions%2Fhieronymian-ascetic-literary.html" data-ask>Who was Jesus, to you and your people?<span class="vh"> — ask Albina</span></a><span class="from">doctrinal witness: “To us Jesus is the Word of God made flesh - and made flesh in the very place where we chose to live and die.”</span></li>
       <li><a href="../talk.html?worlds=hieronymian-ascetic-literary&mode=interview&from=traditions%2Fhieronymian-ascetic-literary.html" data-ask>Why does God allow suffering like this? Where was he when it happened to your people — and to mine?<span class="vh"> — ask Albina</span></a><span class="from">doctrinal witness: “Where was God when it happened? We were not spared the question. We wrote from inside it.”</span></li>
+      <li><a href="../talk.html?worlds=hieronymian-ascetic-literary&mode=interview&from=traditions%2Fhieronymian-ascetic-literary.html" data-ask>What did your people hold about a marriage ending — could someone divorced belong, or marry again?<span class="vh"> — ask Albina</span></a><span class="from">doctrinal witness: “Could someone divorced belong here? Could they marry again? We did not answer with a ruling.”</span></li>
       </ul>
       </section>
 

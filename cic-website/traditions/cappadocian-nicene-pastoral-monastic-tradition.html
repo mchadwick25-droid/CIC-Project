@@ -139,8 +139,6 @@ p{margin:0 0 1rem}
 .orient-voice-name{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--text);margin:0 0 .3rem}
 .orient-voice-dates{font-weight:400;color:var(--muted)}
 .orient-voice-text{font-size:1.0625rem;line-height:1.6}
-.orient-voice-hedge{font-family:var(--sans);font-size:.9rem;line-height:1.5;color:var(--muted);border-left:2px solid var(--tint);padding-left:.75rem;margin:0 0 .2rem}
-.orient-hedge-label{font-weight:600;color:var(--text)}
 .docstories-row{display:flex;flex-direction:column;gap:1.3rem;max-width:var(--measure)}
 .docstory-entry h4{font-family:var(--serif);font-size:1.1rem;margin:0 0 .25rem}
 .docstory-entry>.meta{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:0 0 .3rem}
@@ -240,11 +238,12 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 
   <div class="page">
     <div class="article">
-      <section aria-labelledby="who-speaks-title">
-        <p class="eyebrow">Who is speaking</p>
-        <h2 id="who-speaks-title">A representative voice, speaking for a whole people</h2>
-        <div class="reading"><p>Four figures anchor this world&#39;s own voice. Basil of Caesarea built groups of monks under one rule. He built its lasting poorhouse and hospital too. He defended the Holy Spirit&#39;s own honor under a hostile court. Gregory of Nazianzus was his closest friend from student days. He carried the same Trinity fight into a hostile capital. Then he walked away from the bishop&#39;s seat he was finally given. Gregory of Nyssa was Basil&#39;s own younger brother. He was the deepest thinker of the three. He wrote the fullest surviving picture of their sister. Macrina was that sister. She turned the family estate into a home for ascetic women. We know her only through her brother&#39;s account, never in her own words.</p><p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p></div>
-      </section>
+      <!-- Kept standalone when the "Who is speaking" section (its original home)
+           was cut in the 2026-09-21 card redesign: this is a safety disclosure,
+           not gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves - see cic-website/traditions/*.html's
+           pre-redesign `who_speaks` section for its prior placement. -->
+      <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
 
       <section aria-labelledby="story-title">
         <p class="eyebrow">The Story</p>
@@ -269,22 +268,18 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <div class="orient-voice">
       <p class="orient-voice-name">Basil, bishop of Caesarea</p>
       <p class="orient-voice-text">Basil helped the hungry before he was ever a bishop. As a young priest, he preached against local landowners who hoarded grain. That preaching led to real relief for the poor. Once he became bishop, he built something lasting. Outside Caesarea&#39;s own walls, he built a poorhouse, a hospital, and a workhouse together. His own monks ran it. He also gave the region&#39;s monks a written rule to live by. And he defended the Holy Spirit&#39;s own honor, against a hostile court - choosing his own words with great care, even then.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> This world&#39;s biggest surviving voice is Basil&#39;s own. This record treats that as a risk, not free proof. Some writings long read as Basil&#39;s own work are now in doubt. One letter, Epistle 38, is this world&#39;s own top citation on being and person. Many modern scholars now give it to Gregory of Nyssa instead. A whole set of letters with the pagan writer Libanius is very likely a fake. And even Basil&#39;s own death date is disputed.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Gregory, bishop of Nazianzus, called the Theologian</p>
       <p class="orient-voice-text">Gregory of Nazianzus wanted a quiet life of study and prayer. His closest friend, Basil, had other plans. Basil made him a bishop instead, at a dusty crossroads. Gregory never fully forgave him for it - in letters, and later in verse. He still carried the Trinity argument into a hostile Constantinople. He preached there from a rented house, until the tide finally turned. He was then given the bishopric there himself. He resigned it almost at once, worn out by the whole fight.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Gregory of Nazianzus picked and kept his own letters before he died. So later readers inherit just the record he wanted kept. His own story of Sasima, of fleeing ordination, and of his time at Constantinople is all looking-back writing. Each piece makes a case for its own author. None of it is a plain, neutral record of events.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Gregory, bishop of Nyssa</p>
       <p class="orient-voice-text">Gregory of Nyssa was the youngest of the three brothers. He was also the most speculative thinker among them. Basil&#39;s own letters complain that his brother had no head for politics. When Gregory of Nyssa found his sister Macrina dying, he did something striking. He turned their last talk into a full written dialogue, on the soul and life after death. He was later removed from his post and sent into exile, by a hostile emperor. He came home once the pressure eased. He then finished a reply to a rival that Basil had left unfinished at his own death.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> Did a later, uneasy reputation really shape what survives of his own writing? That claim is itself in doubt. It rests on one disputed theory about changed old copies, not on settled agreement among scholars. In his own lifetime, no one condemned him for anything. A much later council even praised him by name.</p>
       </div>
       <div class="orient-voice">
       <p class="orient-voice-name">Macrina, called the Teacher (hē didaskalos)</p>
       <p class="orient-voice-text">Macrina was the eldest of the family. She turned the household estate at Annisa into a community of ascetic women. When her brother Gregory of Nyssa found her dying, she was not lying on a bed. She lay on bare planks, on the ground, with no possessions of her own around her. She spent her last hours teaching him, about the soul and the resurrection. She also rebuked his grief for their brother Basil.</p>
-      <p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> No word of Macrina&#39;s own survives, apart from her brother&#39;s portrait of her. Can any of her real voice be recovered from inside his writing at all? That is itself an open scholarly question. Scholars argue it both ways. This record does not settle it.</p>
       </div>
       </div>
       </section>
@@ -321,12 +316,6 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </details>
       </div>
       </div>
-      </section>
-
-      <section aria-labelledby="quiet-title">
-        <p class="eyebrow">Where we are quiet</p>
-        <h2 id="quiet-title">What the record does not say</h2>
-        <div class="reading"><p>What did we never settle? Whose voice you are really hearing, most of the time. Almost everything you have from us was written down by one big family and one small circle of friends who went to school together. No woman among us left one line in her own hand. The woman we call our own greatest teacher reaches you only through her brother&#39;s pen, in a book he wrote after she died, giving her his own words to speak. Our sharpest foes survive almost only inside our own case against them. One alone left us words we did not write for him. The country villages beyond our own great towns show up in our record only as crowds fed in a famine, or crowds at a feast day. They never speak for themselves. We will not tell you this is a small gap at the edge of an otherwise full record. It sits closer to the center than that. The letter most often used to prove our three greatest teachers agreed with each other about God is itself argued over between two of them. So even our own agreement may be one man&#39;s own work, not a shared one. We are not saying sorry for this. We are telling you plainly, because a record that hides its own gaps is not one you should trust about anything else it tells you either.</p></div>
       </section>
 
       <section aria-labelledby="legacy-title">
@@ -390,6 +379,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <ul class="questions">
       <li><a href="../talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&mode=interview&from=traditions%2Fcappadocian-nicene-pastoral-monastic-tradition.html" data-ask>Who was Jesus, to you and your people?<span class="vh"> — ask Chilo</span></a><span class="from">doctrinal witness: “Jesus was the ground everything else in our life stood on. At the font we were signed into his name, Father, Son, and Holy Spirit together, and taught to…”</span></li>
       <li><a href="../talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&mode=interview&from=traditions%2Fcappadocian-nicene-pastoral-monastic-tradition.html" data-ask>Was Jesus God? Did you believe in the Trinity?<span class="vh"> — ask Chilo</span></a><span class="from">doctrinal witness: “Was Jesus God? We would find the question strange only in being asked as open.”</span></li>
+      <li><a href="../talk.html?worlds=cappadocian-nicene-pastoral-monastic-tradition&mode=interview&from=traditions%2Fcappadocian-nicene-pastoral-monastic-tradition.html" data-ask>What did Jesus teach that mattered most among you?<span class="vh"> — ask Chilo</span></a><span class="from">story: “In the years before Basil became bishop, drought struck Caesarea and its countryside. The harvest failed, and grain grew scarce and dear.”</span></li>
       </ul>
       </section>
 
