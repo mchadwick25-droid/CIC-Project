@@ -1,3 +1,7 @@
+**Partly superseded.** The four boundaries and the Phase 5 fork are decisions and stand. Phases 1–3 reference cic-poc and a 60-turn cap; the live engine is M8 on Bedrock with a 10-turn cap. See the 2026-09-21 entry in `Ministry/Funding/CiC_Org_Funding_Decision_Log.md`.
+
+---
+
 # Church in Conversation — Business Roadmap V0.1
 
 **2026-07-22 · Funding Strategy thread · a partial convergence, at Mark's own signal**
