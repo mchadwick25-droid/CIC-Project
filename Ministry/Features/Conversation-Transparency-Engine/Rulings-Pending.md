@@ -207,13 +207,22 @@ affordance that would make the current wording accurate.
 right, independent of anything else in this workstream, and doesn't need
 to wait on Stage 1's measurement to fix.
 
-### R19 — Should every world's own voice carry the same "don't recommend outside help" guard clause?
+### R19 — Should every world's own voice carry the same distress-minimization guard clause?
 **Status:** PENDING
 Once the observation pass (Stage 0e) names which worlds are missing don's
 own categorical clause: extend it fleet-wide as one packaged decision, or
 word it per world individually. Note: this is a Representative-voice
-authoring question (does the world's own voice defer to outside help
-appropriately), not part of the closed Facilitator-mechanism scope above.
+authoring question — the guard is a prohibition on the Representative
+comparing or minimizing a participant's own disclosed distress against
+the world's own historical suffering ("not the same weight as our
+martyrs"), staying entirely in the world's own voice and period. It does
+not direct a Representative toward outside help or any language outside
+its world/time — that stays Facilitator-only, governed outside any
+world's own voice, per Safety comes first (CLAUDE.md). This ruling is not
+part of the closed Facilitator-mechanism scope above, and does not touch
+it. (Earlier drafts of this entry called it a "don't recommend outside
+help" guard clause — that was the wrong name for what the mechanism
+actually does and has been corrected here.)
 **Recommend extending fleet-wide** once the observation names the gap —
 this is exactly the kind of cross-world consistency question CLAUDE.md
 already asks to be decided once, not world by world.
