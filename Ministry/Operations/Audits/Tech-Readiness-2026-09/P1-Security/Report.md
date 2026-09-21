@@ -371,6 +371,25 @@ round-trip, so the cookie path shipped unverified.
 harvesting exploit and the double-charge ordering bug, plus the fixed
 `https://` base URL that made the existing cookie tests meaningful).
 
+**New escalation surface, raised by Mark, analyzed 2026-09-21 —
+`Anon-Cap-Safety-Interaction.md` (this directory):** does a turn refused
+by the daily cap suppress a genuine Facilitator crisis redirect? Yes, as
+built — `anon_cap`'s 429 fires as HTTP middleware, before the safety
+classification call, `routing.route()`, or
+`crisis_resources.append_crisis_resources_turn()` ever execute, so a
+capped turn is never classified, routed, redirected, or even stored.
+`engine/m4/turn.py`'s own `SESSION_TURN_CAP` already solved the identical
+problem — its own comment states the rule directly ("THE CAP OVERRIDES
+EVERYTHING EXCEPT A REAL CRISIS... checked after routing") — by checking
+its cap *after* the safety gate runs, with a crisis exemption `anon_cap`
+doesn't have. Three options proposed (move the turn-cap check to the same
+post-gate point `SESSION_TURN_CAP` uses, mirroring its exemption —
+recommended; drop the standalone turn cap and rely on session-cap ×
+`SESSION_TURN_CAP`'s existing bound instead — simpler fallback; a
+copy-only fix — not sufficient alone). **No safety code touched**;
+this needs deciding alongside the mechanism/numbers escalation above,
+before the flag is ever turned on — it changes what "capped" means.
+
 ---
 
 ## Item 4 — Prompt-injection probe set
@@ -439,15 +458,25 @@ current tree.
 
 The picture changed: 5 findings (3 moderate, 1 high, 1 **critical** —
 `GHSA-5xrq-8626-4rwp`, arbitrary file read/execution when vitest's UI
-server is listening), still all devDependency-only. Unlike the previous
-round's 2 waived findings, `npm audit fix --force` (vite 5→8, vitest
-2→5) this time verified **fully clean**: both `npm run build` and `npm
-test` (`vitest run`, the mode CI actually uses) pass with no changes
-needed beyond the version bump. Took the full fix rather than waiving —
-`npm audit` now reports **0 vulnerabilities**. The `@vitejs/plugin-react`
-peer-range warning from the previous round is still present (it doesn't
-officially list vite 8 yet) but no longer blocks taking the fix once
-build and test are both empirically confirmed passing on it.
+server is listening), still all devDependency-only. `npm audit fix
+--force` (vite 5→8, vitest 2→5) resolved all 5 — `npm audit` reported 0
+vulnerabilities — but the verification at the time (`npm run build` and
+`npm test`) missed the one command that actually gates this repo's CI
+and Docker image: **`npm ci`**, which does not override the unresolved
+`@vitejs/plugin-react@4.7.0` peer conflict `npm install`/`--force`
+silently does. This PR's tip was briefly red — both the Docker build and
+Frontend tests CI jobs failed with `ERESOLVE` — until Mark caught it in
+review.
+
+**Corrected a second time (2026-09-21, same day):** bumped
+`@vitejs/plugin-react` to `^6.1.1`, which declares `vite: "^8.0.0"` as
+its own peer — resolving the conflict for real rather than forcing past
+it. Re-verified with the exact sequence CI and `engine/Dockerfile`
+actually run (`rm -rf node_modules && npm ci`, twice; `npm run build`;
+`npm test`) and confirmed directly against the PR's own GitHub check
+runs, not assumed. **Current state: `npm audit` 0 vulnerabilities, CI
+green.** Full narrative including the mistake: `Decision-Log.md` entry
+9a.
 
 ---
 
@@ -520,18 +549,30 @@ after every fix documented above and in `Decision-Log.md` entry 8.
       applied; Mark's own account action**
 - [ ] Anonymous cap — code fixed (was fully bypassable; now bounded, see
       item 3 above) and 4 PRs open, **none merged yet** — options
-      presented to Mark, not yet decided (item 3 — **open escalation**,
-      Decision-Log entry 4)
+      presented to Mark, not yet decided (item 3 — **open escalation,
+      now including the crisis-redirect interaction analyzed in
+      `Anon-Cap-Safety-Interaction.md`**, Decision-Log entries 4 and 9b)
 - [ ] Probe results with response excerpts (item 4) — **live run against
       a real model not done**, structural harness proven and its own
       world-choice bug fixed, handed forward explicitly
 - [x] Dependency audit clean (item 5 — re-run against current `main`
       after the closing review caught the original run was stale; 0
-      vulnerabilities, no waiver needed anymore)
+      vulnerabilities. **Corrected a second time same day**: the fix that
+      produced those 0 vulnerabilities briefly broke this repo's actual
+      CI — verification had used `npm install`/`--force`, not `npm ci`,
+      the command CI and `engine/Dockerfile` really run. Mark caught it;
+      fixed properly and re-verified with `npm ci` itself; CI green on
+      the current tip, checked directly against the PR's check runs.
+      Decision-Log entry 9a.)
 - [x] Closing Opus adversarial review run — findings above; every
       BLOCKING and SHOULD-FIX finding addressed in a follow-up commit on
       its own PR, see `Decision-Log.md` entry 8 for the full list and
       what's fixed vs. accepted-open
+- [x] **Mark's follow-up round (2026-09-21, same day)**: 3 items, all
+      addressed — PR #376's CI-red fixed (above), the anon-cap/crisis-
+      redirect interaction analyzed (item 3, above), and this log's own
+      entry 2 corrected after it made a false claim about a workstream
+      directory not existing. Decision-Log entries 9a-9c.
 
 ### For the reviewer thread
 
