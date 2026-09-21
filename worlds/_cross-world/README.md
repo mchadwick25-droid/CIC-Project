@@ -67,12 +67,36 @@ citations (see that dossier's own §4). None of these six had anything
 vendored before this pass — the first real test of the dossier process
 on a corpus starting from zero rather than one already 82 files deep.
 
+**21 as of 2026-09-21** — a census-wide sweep of every "Possible Future
+World (on record)" / "Selected - Not Yet Built" candidate (not just a
+previously-named backlog list) found two more in scope that nobody had
+flagged: `latin-pastoral-congregational-christianity` (I.8, "Selected - Not
+Yet Built" — and, the dossier itself found, already deep into its own build
+at `worlds/lpc/` through Doc_05, despite the census's own "construction has
+not yet begun" framing being stale) and `roman-church-gregorian` (II.18),
+the fleet's first Era 3 candidate to reach dossier scope. Real cross-link
+and acquisition findings from both: lpc gained a freshly-found Latin
+critical-edition cross-link (Petschenig's Augustine anti-Donatist corpus,
+vendored on the sibling Donatism branch 2026-09-14, never linked back);
+roman-church-gregorian gained two verified public-domain acquisition leads
+closing a gap the census itself named (Gregory's Dialogues, including the
+only surviving Life of St. Benedict, and the Moralia in Job — neither
+previously vendored anywhere in the corpus) plus one cross-link parallel to
+lpc's own finding (Gregory's own Latin letters to the Donatist remnant,
+currently `context`-only on the Donatism branch with no `tradition` row
+back to his own entry).
+
 **Backlog — not yet written:** `greek-apologists-second-century` (I.35) and
-`latin-apologists` (I.43), both Tier 1 with a Step 0 already on file but no
-dossier yet; `palestinian-ascetic-monasticism-early` (I.34), not yet
-researched at all. `donatism` (I.4) and `gallic-monastic-ascetic-christianity`
-(I.27) are far enough into their own builds that a retroactive dossier is
-lower priority than closing the backlog above.
+`latin-apologists` (I.43), both Tier 1 with a Step 0 already on file, and
+`palestinian-ascetic-monasticism-early` (I.34) — all three drafted on
+unmerged branches as of 2026-09-21 (`source-readiness-dossiers-grkap-latap-2026-09-21`,
+`source-readiness-dossier-palestinian-monasticism-2026-09-21`), pending
+Mark's merge decision; note two *older* open PRs (#247, #233) cover
+earlier, thinner passes at the same two topics and should not be merged
+alongside the newer ones without reconciling which supersedes which.
+`donatism` (I.4) and `gallic-monastic-ascetic-christianity` (I.27) are far
+enough into their own builds that a retroactive dossier is lower priority
+than closing the backlog above.
 
 ## Regenerating
 
