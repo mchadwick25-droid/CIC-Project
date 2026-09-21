@@ -161,7 +161,9 @@ currently overclaims this, no engineering change needed.
 
 ### R13 — Should the new "unused source" holdings check block a world from shipping?
 **Status:** RULED (report-only for one cycle, then promote) — 2026-09-21.
-See Decision-Log.md Entry 29.
+See Decision-Log.md Entry 29. **Cycle 1 started 2026-09-21** — fleet-wide
+baseline captured, see Decision-Log.md Entry 30. Promotion to blocking is
+keyed to the next world admitted after this date; not yet built.
 Report-only for one build cycle, then promoted to blocking for new
 worlds — or blocking starting day one.
 **Recommend report-only for one cycle first** — lets Mark see the real
