@@ -64,10 +64,12 @@ SYSTEM_NATURE = FacilitatorTurn(
     text=(
         "Yes - we use AI here, and I'd rather tell you plainly than let you wonder. Each world you can "
         "speak with is built from a fixed set of records - sources that actually survive from that time "
-        "and place - and the voice answering you may only say what those records carry. Before you see "
-        "an answer, every specific claim in it is checked against the record it came from; what it can't "
-        "ground, it's built to tell you it doesn't have, not to invent. It isn't a person, it isn't the "
-        "church, and it doesn't speak for anyone living.\n\n"
+        "and place - and the voice answering you may only say what those records carry. After it "
+        "answers, we compare its wording against those same records to catch anything that doesn't "
+        "trace back to them - not a judgment on whether the history itself is true, just whether the "
+        "words match what we actually have on file. What the records don't cover, it's built to tell "
+        "you it doesn't have, not to invent. It isn't a person, it isn't the church, and it doesn't "
+        "speak for anyone living.\n\n"
         "That's the honest shape of it - whenever you're ready, let's keep going."
     ),
 )

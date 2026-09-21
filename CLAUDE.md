@@ -16,7 +16,7 @@ This program succeeds or fails on exactly two things: scholarly rigor and clear,
 - No invented family, age, personal history, or anecdote for a Representative. If a detail isn't derivable from the completed world, it doesn't belong.
 - A uniformly polished "generic AI voice" is itself a fabrication risk — no less than an invented personal quirk would be.
 - Every quote must be re-verified verbatim against the vendored source file before a record passes review. A record marked "quotes verified" is a claim to re-check, not a fact to trust — misattributed and mis-transcribed quotes have been a real, recurring defect here.
-- Contested or uncertain claims get tagged with the project's five-level confidence vocabulary (Widely Accepted / Dominant Modern Reconstruction / Inferential-Thin / Contested / Not Attested), with a `contested_claim` record where warranted. Never present a disputed claim as settled.
+- Contested or uncertain claims get tagged with the project's five-level `formation_confidence` vocabulary (Documented / Widely Accepted / Dominant Modern Reconstruction / Contested / Inferential-Thin), with a `contested_claim` record where warranted. Never present a disputed claim as settled. "Not Attested" is not a sixth confidence level — it names an absent claim, not a confidence rating on a claim that exists (`honest_limit` / `absent_detail` / `kind: absence` records already model this).
 
 ## Accessible and rigorous — participant-facing content
 
