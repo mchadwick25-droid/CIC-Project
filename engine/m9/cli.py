@@ -17,6 +17,7 @@ from engine.m1.registry import load_registry
 from engine.m4.grounding_net import _normalize, _quoted_spans
 
 from .confinement import run_all
+from .holdings import report as holdings_report
 from .loader import load_shelf, read_complement_units
 from .shelf import Shelf
 
@@ -194,6 +195,11 @@ def cmd_shelf(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_holdings(args: argparse.Namespace) -> int:
+    print(holdings_report(args.world_key))
+    return 0
+
+
 def cmd_selftest(args: argparse.Namespace) -> int:
     from . import selftest
 
@@ -218,6 +224,10 @@ def main(argv: list[str] | None = None) -> int:
     shelf.add_argument("world_key")
     shelf.add_argument("--stdout", action="store_true", help="print instead of writing worlds/<code>/SHELF.md")
     shelf.set_defaults(func=cmd_shelf)
+
+    holdings_p = sub.add_parser("holdings", help="one row per vendored file for a world: in_scope, named_in_records, drawn_on, disposition (Stage 2d, Build-Plan.md; report-only)")
+    holdings_p.add_argument("world_key")
+    holdings_p.set_defaults(func=cmd_holdings)
 
     selftest_p = sub.add_parser("selftest", help="M1-selftest-shaped proof: the clean fixture is clean, every seeded M9 defect fires its named check")
     selftest_p.set_defaults(func=cmd_selftest)
