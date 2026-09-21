@@ -89,3 +89,32 @@ updated to chase a moving target; the divergence categories and the
 promotion PR sequencing they support are unaffected by this specific
 advance (none of the four new commits touch `engine/m2/`, `engine/m6/`,
 `cic-website/`, or the `lpc` world's own registration status).
+
+**Entry 8 — 2026-09-21.** `origin/main` advanced twice more
+(`4bd45804` → `5834aae3`, the R8/R9/R10/R13/R19-guard-fix rulings) before
+this PR merged, each landing its own append to the transparency-engine's
+Decision-Log.md concurrently with this package's own single append. Merged
+both times; this package's entry moved from Entry 28 (first draft) to
+Entry 30 (Entry 6 above) to its final number **Entry 32**, renumbered each
+time on merge per that file's own "never renumber a past entry" rule — the
+later arrival renumbers itself, never the entries already on `main`. Entry
+6 above is left as originally written (its own "Entry 30" was accurate at
+the time) rather than edited, per this log's own append-only rule; this
+entry is the correction.
+
+**Entry 9 — 2026-09-21.** Mark found `CiC_Alerting_Runbook.md` §2 cited
+`.github/workflows/health-check.yml` as if it already existed — it doesn't
+(signal 2 is spec-only, "Not built this pass," same as signals 3/5/6) — and
+`tools/check_paths.py`'s CI job (`Cited paths resolve; retired paths
+absent`) correctly failed on it: that file only exempts paths in dated
+records, and this runbook isn't one. Fixed by rewording the example to
+describe the workflow rather than name a specific, not-yet-created path
+(no baseline-entry addition — the citation was simply wrong to make, not a
+real pre-existing gap worth tracking). Verified locally: `python3
+tools/check_paths.py --baseline tools/check_paths_baseline.txt` exits 0,
+"0 new unresolved path citation(s)" (the run also reports one unrelated,
+pre-existing baseline entry that now resolves — `Ministry/Communication/
+CiC_Demo_Conversation_Captures_V0_1.md`'s own citation of
+`.claude/launch.json` — left untouched: it predates this package, belongs
+to whichever thread owns that file, and the check tool itself only reports
+it rather than failing on it).

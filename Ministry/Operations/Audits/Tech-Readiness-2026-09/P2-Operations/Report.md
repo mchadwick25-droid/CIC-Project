@@ -225,6 +225,18 @@ Budgets (signal 4, ready today). Full readiness table in the runbook itself;
 summary: **2 of 6 signals are wire-it-up-today; 1 more is half-ready; 3 name
 the exact small follow-on piece needed, not silently assumed built.**
 
+**Pre-merge fix (2026-09-21):** signal 2's own dashboard steps cited
+`.github/workflows/health-check.yml` as if it already existed, which
+`tools/check_paths.py`'s CI job (`Cited paths resolve; retired paths
+absent`) correctly caught — that workflow is spec-only, not built this pass
+(same as signals 3/5/6), so citing it as a real path was wrong to write.
+Reworded to describe the workflow instead of naming a not-yet-created path;
+no `tools/check_paths_baseline.txt` entry was needed, since the citation was
+simply incorrect rather than a real pre-existing gap. Confirmed green
+locally: `python3 tools/check_paths.py --baseline
+tools/check_paths_baseline.txt` exits 0, 0 new unresolved citations. Full
+account: this package's own Decision-Log, Entry 9.
+
 ## 5. Rollback drill and incident runbook
 
 Full runbook: `Ministry/Operations/Standing/CiC_Incident_Rollback_Runbook.md`.

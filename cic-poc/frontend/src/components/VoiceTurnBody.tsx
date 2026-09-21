@@ -88,6 +88,21 @@ type Mark = { start: number; end: number; matchedName: string; kind: 'figure'; f
 const STORY_RECORD_TYPES = new Set(['story', 'quote']);
 const WITNESS_RECORD_TYPES = new Set(['doctrinal_witness']);
 
+// R9 (RULED a, 2026-09-21): "Contested" and "Inferential-Thin" are two of
+// the five formation_confidence values (CLAUDE.md's own vocabulary,
+// engine/m1/schemas.py) that name real scholarly uncertainty rather than
+// a well-attested claim - the two this ruling's "contested or thin-
+// evidence claims" covers. transparency.anchors carries each cited
+// record's confidence envelope verbatim (transparency_plan.py), computed
+// but never rendered until this ruling; nothing else in this module reads
+// or renders any other confidence field.
+const THIN_EVIDENCE_CONFIDENCE_LEVELS = new Set(['Contested', 'Inferential-Thin']);
+
+function isContested(confidence: Record<string, unknown> | null): boolean {
+  const level = confidence?.formation_confidence;
+  return typeof level === 'string' && THIN_EVIDENCE_CONFIDENCE_LEVELS.has(level);
+}
+
 function splitIntoSegments(text: string, citations: Citation[]): { segments: Segment[]; orphaned: Citation[] } {
   const segments: Segment[] = [];
   const orphaned: Citation[] = [];
@@ -287,14 +302,31 @@ function renderLegacy({ text, citations, figuresUsed = [], glosses = [] }: Voice
 // transparency.references (engine.m4.transparency_plan's own completeness
 // guarantee) instead of reconstructed by searching the finished text.
 //
-// Every anchor - including a REPEAT one - gets its own mark at its own
-// run's end. That's the actual fix: the legacy renderer's
+// Every anchor - including a REPEAT one - gets its own mark, at its own
+// run's placement. That's the actual fix: the legacy renderer's
 // renderedStoryIds/renderedWitnessIds suppress a second, non-consecutive
 // citation of the same record turn-wide, which is exactly the completeness
-// gap transparency_plan.py's own docstring names. Nothing here invents a
-// distinct "repeat" glyph - Rulings-Pending.md R10 leaves that choice
-// open; this renderer's only job is to never silently lose a citation
-// regardless of which way R10 resolves.
+// gap transparency_plan.py's own docstring names.
+//
+// R10 (RULED c, 2026-09-21): a witness quote's mark sits at the FIRST
+// sentence of its citing run - a participant should see "this is someone
+// else's words" before reading them, not after. A story's mark stays at
+// the run's END, the natural pause once the telling is actually done.
+// Both run_start_sentence and run_end_sentence exist on every anchor for
+// exactly this reason (transparency_plan.py's own docstring: "the plan
+// carries both... so the renderer choice is a flag", Adjusted-Design.md
+// item 6) - this is that choice, made here, not a data-shape change. A
+// repeat citation (anchor.repeat) gets the same mark at reduced opacity
+// (.citation-mark--repeat, app.css) rather than a distinct glyph - R10's
+// own ruling left the repeat glyph unspecified beyond "lighter," and nothing
+// here invents a new symbol or verb for it (Full UX Design §5.7: "one
+// grammar, five applications, no feature may introduce a sixth verb").
+//
+// R9 (RULED a, 2026-09-21): a citation whose record's formation_confidence
+// reads Contested or Inferential-Thin gets the same mark rendered hollow
+// (.citation-mark--contested, app.css) - the design already agreed before
+// this ruling landed ("hollow glyph, no new color, no new verb",
+// Adjusted-Design.md item 1) and nothing more than that is built here.
 interface IndexedSegment {
   text: string;
   citation: Citation;
@@ -318,11 +350,15 @@ function renderFromTransparencyPlan({ text, citations, figuresUsed = [], glosses
   const { segments, trailingText } = splitIntoIndexedSegments(text, citations);
   const wordMarkedIds = new Set<string>();
 
-  const anchorsByRunEnd = new Map<number, TransparencyAnchor[]>();
+  // R10's placement split: a witness anchor groups by where its run
+  // STARTS, a story anchor (and everything else with an inline mark) by
+  // where its run ENDS.
+  const anchorsByPlacement = new Map<number, TransparencyAnchor[]>();
   for (const anchor of transparency.anchors) {
-    const list = anchorsByRunEnd.get(anchor.run_end_sentence) ?? [];
+    const placementIndex = WITNESS_RECORD_TYPES.has(anchor.record_type) ? anchor.run_start_sentence : anchor.run_end_sentence;
+    const list = anchorsByPlacement.get(placementIndex) ?? [];
     list.push(anchor);
-    anchorsByRunEnd.set(anchor.run_end_sentence, list);
+    anchorsByPlacement.set(placementIndex, list);
   }
   const referenceById = new Map(transparency.references.map((card) => [card.record_id, card]));
   const inlineMarkedIds = new Set<string>();
@@ -333,21 +369,32 @@ function renderFromTransparencyPlan({ text, citations, figuresUsed = [], glosses
     const marks: React.ReactNode[] = [];
     const storyCards: SourceCard[] = [];
     const witnessCards: SourceCard[] = [];
-    for (const anchor of anchorsByRunEnd.get(segment.citationIndex) ?? []) {
+    let storyRepeat = false;
+    let storyContested = false;
+    let witnessRepeat = false;
+    let witnessContested = false;
+    for (const anchor of anchorsByPlacement.get(segment.citationIndex) ?? []) {
       const card = referenceById.get(anchor.record_id);
       if (!card) continue; // resolve_source_card found nothing - report only, never mark a card that isn't there
-      if (STORY_RECORD_TYPES.has(anchor.record_type)) storyCards.push(card);
-      else if (WITNESS_RECORD_TYPES.has(anchor.record_type)) witnessCards.push(card);
+      if (STORY_RECORD_TYPES.has(anchor.record_type)) {
+        storyCards.push(card);
+        storyRepeat = storyRepeat || anchor.repeat;
+        storyContested = storyContested || isContested(anchor.confidence);
+      } else if (WITNESS_RECORD_TYPES.has(anchor.record_type)) {
+        witnessCards.push(card);
+        witnessRepeat = witnessRepeat || anchor.repeat;
+        witnessContested = witnessContested || isContested(anchor.confidence);
+      }
       // everything else has no word or story to attach to - the General
       // References filter below covers it, nothing to do inline here
     }
     if (storyCards.length) {
       storyCards.forEach((card) => inlineMarkedIds.add(card.record_id));
-      marks.push(<StoryMark key="story" sources={storyCards} />);
+      marks.push(<StoryMark key="story" sources={storyCards} repeat={storyRepeat} contested={storyContested} />);
     }
     if (witnessCards.length) {
       witnessCards.forEach((card) => inlineMarkedIds.add(card.record_id));
-      marks.push(<WitnessMark key="witness" sources={witnessCards} />);
+      marks.push(<WitnessMark key="witness" sources={witnessCards} repeat={witnessRepeat} contested={witnessContested} />);
     }
 
     return (

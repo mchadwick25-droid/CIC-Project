@@ -58,9 +58,11 @@ existing Actions minutes) hitting `https://cic-engine.onrender.com/health`
 every 5 minutes.
 
 **Dashboard steps (GitHub Actions option, zero new account):**
-1. New workflow, e.g. `.github/workflows/health-check.yml`, `schedule: cron:
-   '*/5 * * * *'`, one step: `curl -f https://cic-engine.onrender.com/health
-   || exit 1`.
+1. A new workflow file under `.github/workflows/` (not yet created — this
+   is the spec, not the build, per "Not built this pass" below), named
+   for what it does (e.g. a health-check workflow), on a `schedule: cron:
+   '*/5 * * * *'` trigger, one step: `curl -f
+   https://cic-engine.onrender.com/health || exit 1`.
 2. On failure, GitHub already emails the repository owner for a failed
    scheduled workflow run by default (Settings → Notifications →
    Actions) — no extra wiring needed for the alert itself.

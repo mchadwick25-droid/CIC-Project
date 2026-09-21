@@ -709,7 +709,78 @@ report-only cycle; R16 and R17 unblock Stage 6 scoping, which has not
 started. Stages 6-9 remain the largest actual remaining work in
 Build-Plan.md - now unblocked by ruling, not yet built.
 
-**Entry 30 — 2026-09-21.** Tech-Readiness Package 2 (Operations,
+**Entry 30 — 2026-09-21.** R13's report-only cycle started: fleet-wide
+holdings baseline captured, `engine.m9.holdings` run for all 11 built
+worlds (alx, cappadocian, desert, don, gallic, hal, ijc, pahc, rzg, syr,
+witt - `fix` excluded, permanently out of scope) and saved as
+`engine/m9/reports/holdings-cycle-1-2026-09-21.json`. No code change -
+`holdings_for`/`report` (engine/m9/holdings.py) and the `engine.m9.cli
+holdings <world>` command were already built exactly report-only, per
+Stage 2d's own bar; this entry is the cycle's own dated start, the thing
+R13's ruling itself waits on before a blocking bar can be set for new
+worlds.
+
+Same 138 vendored files fleet-wide (the shared corpus), classified
+differently per world's own scope. The number R13's ruling actually
+turns on - in-scope but not drawn on ("not yet assessed" + "in scope,
+unread") - varies widely: witt (3) and rzg (11) sit lowest, gallic (77)
+and alx (76) highest. gallic's 19 "not yet assessed" matches Build-Plan.md
+Stage 2d's own Done-bar citation ("19 unopened volumes") exactly, cross-
+confirming the count.
+
+| World | Unused, in scope | Drawn on | Total in scope |
+|---|---|---|---|
+| witt | 3 | 10 | 13 |
+| rzg | 11 | 8 | 19 |
+| pahc | 14 | 13 | 27 |
+| hal | 62 | 10 | 72 |
+| ijc | 61 | 19 | 80 |
+| don | 62 | 19 | 81 |
+| cappadocian | 61 | 21 | 82 |
+| desert | 69 | 15 | 84 |
+| gallic | 77 | 9 | 86 |
+| syr | 74 | 16 | 90 |
+| alx | 76 | 13 | 89 |
+
+**Known gap, carried forward, not this entry's to fix:** the same
+COVERAGE/REGIONS/AUTHORS relocation Stage 2d's own docstring already
+names (Decision-Log.md Entry 20) - `holdings.py` reuses
+`engine.m1.cross_world`'s existing tables as-is, so this baseline
+inherits that gap rather than resolving it.
+
+**What "one cycle" means in practice, not ruled here, only noted:** the
+natural marker is the next world admitted to the fleet after this date -
+that world's own holdings check is the first candidate for R13's
+blocking promotion. Nothing in the standing gate set enforces this yet;
+promoting it from report-only to blocking is separate, later work this
+entry does not do.
+
+**Entry 31 — 2026-09-21.** Correcting Entry 28's own retrofit list before
+starting R19's actual work: `observe_outside_help_guard`
+(`engine/m1/cross_world.py`) had a real false positive, found and fixed
+while beginning the retrofit, not a hypothetical one. The scan matched
+the bare substring `"weigh"`, which silently matched inside rzg's own
+guard text - "It does not give him the felt **weigh**t of either" -
+honest-thinness prose about doctrine, with no distress-comparison content
+of any kind. Read directly
+(`records/rzg/voice_craft/rzg.craft.theophilus-voice.md`): rzg's guard
+never mentions martyrs, weighing, or comparison at all. Fixed with a
+word-boundary regex (`\bweigh(?:s|ed|ing)?\b`), which cannot match inside
+"weight"/"weighted"/"outweigh" while still catching "weigh"/"weighs"/
+"weighed"/"weighing" as their own words. Three new tests pin this
+(`engine/m1/tests/test_cross_world.py`): the false positive itself, a
+real match still firing, and the real fleet's corrected state.
+
+**The corrected finding: don is the only one of the 11 built worlds whose
+guard actually carries this language.** Entry 28's "9 worlds" retrofit
+list (alx, cappadocian, desert, gallic, hal, ijc, pahc, syr, witt) is
+short one world - **rzg needs the retrofit too**, same as the other nine.
+R19's own ruling (extend fleet-wide, each world's own voice) is
+unaffected by this correction; only the list of which worlds still need
+it changes, from 9 to 10. Rulings-Pending.md's R19 entry updated in the
+same edit to carry the corrected list.
+
+**Entry 32 — 2026-09-21.** Tech-Readiness Package 2 (Operations,
 `Ministry/Operations/Audits/Tech-Readiness-2026-09/P2-Operations/Report.md`)
 inventoried the full divergence between `main` (`c9b09ea1`) and `live`
 (`e693b048`) ahead of the next promotion: this workstream's own Stages
@@ -726,8 +797,9 @@ doesn't have either. The report's proposed fix is a reconciliation PR
 promotion — drafted, not performed, and outside both this workstream's and
 that Operations package's own hard-rule scope, so it is handed to Mark to
 assign rather than claimed by either. No file in this workstream's own
-directories beyond this one entry was touched by that report. (Numbered 30,
-not 28 as that report's own branch first drafted it — Entries 28–29 above
-landed on `main` concurrently with that report's own work; renumbered on
-merge per this file's own "never renumber a past entry" rule, which binds
-the later arrival, not the one already on `main`.)
+directories beyond this one entry was touched by that report. (Numbered 32,
+not 28 as that report's own branch first drafted it, then 30 after its
+first merge — this workstream landed Entries 28–31 above concurrently with
+that report's own work across two separate merges; renumbered each time
+per this file's own "never renumber a past entry" rule, which binds the
+later arrival, not the entries already on `main`.)
