@@ -16,18 +16,37 @@ identity. Read `CLAUDE.md`, `render.yaml`, `engine/api/README.md`,
 CiC_Promotion_Runbook.md` first, per the brief's own instruction.
 
 **2. 2026-09-21 — Coordination check: no touch needed on the
-Conversation-Transparency-Engine's guarded files.** The brief named
+Conversation-Transparency-Engine's guarded files.** ~~That directory does
+not exist in this repo~~ — **wrong when originally written, corrected
+2026-09-21 after Mark flagged it.** `Ministry/Features/
+Conversation-Transparency-Engine/` exists on `main` (`README.md`,
+`Build-Plan.md`, `Adjusted-Design.md`, `Rulings-Pending.md`,
+`Decision-Log.md`) and was already there at the commit this package's
+own work is based on (`c9b09ea1`, confirmed via `git ls-tree -d
+c9b09ea1 Ministry/Features/` — the directory is listed) — the original
+`find Ministry/Features -maxdepth 1 -type d` search that produced the
+"no match" claim was simply wrong; the directory was there to find. Not
+a timing issue (it wasn't created by concurrent work after this check;
+`git log` shows files at this path as far back as 2026-09-19, two days
+before this session started) — this package's own search failed, and the
+claim went into this log unverified a second time.
+
+**What actually matters — re-checked properly this time — still holds:**
+the coordination rule requires a Decision-Log entry there before *editing*
 `engine/m1/gates.py`, `engine/m1/schemas.py`, `engine/m2/`, `engine/m4/`,
-`records/`, and `cic-poc/frontend/src/components/VoiceTurnBody.tsx` as
-requiring a Decision-Log entry in `Ministry/Features/
-Conversation-Transparency-Engine/Decision-Log.md` before any edit. That
-directory does not exist in this repo as of this audit — searched
-`Ministry/Features/` in full, no match. Nothing in this package touched
-any of the named files anyway (confirmed by reading `engine/api/wiring.py`:
-session creation calls `_load_world`/`open_session`, never `run_turn()` —
-it is not the turn path the brief was protecting), so this is a
-non-blocking observation, not a finding this package can resolve. Flagged
-here for whoever owns that workstream's naming.
+`records/`, or `cic-poc/frontend/src/components/VoiceTurnBody.tsx`, not
+before reading them. `git diff c9b09ea1..origin/<branch> --stat -- <those
+six paths>` returns empty for all four of this package's branches
+(`p1-security/dependency-audit`, `p1-security/anon-visitor-cap`,
+`p1-security/prompt-injection-probes`,
+`p1-security/docs-asvs-iam-logging`) — checked directly, not inferred.
+`engine/api/wiring.py` was read (not edited) to confirm session creation
+never reaches `run_turn()`, and `engine/m4/crisis_resources.py` /
+`engine/m4/turn.py` / `engine/m5/routing.py` were read (not edited) for
+entry 9's safety-interaction analysis. No entry was owed in that
+workstream's own Decision-Log because nothing in it was ever edited —
+that conclusion is unchanged, but it now rests on an actual diff check
+against a directory confirmed to exist, not on a search that missed it.
 
 **3. 2026-09-21 — PR #376 (item 5, dependency audit).** `pip-audit` clean
 on both files the production Dockerfile installs. `npm audit` found 8
@@ -208,3 +227,71 @@ All four PRs (#376, #377, #378, #379) carry a follow-up commit addressing
 this review and are pushed. None are merged. Mark's decision on item 3's
 cap mechanism/numbers (entry 4) remains the one open item this session
 cannot close on its own.
+
+**9. 2026-09-21 — Mark's follow-up round: three items, all addressed.**
+He caught three things after reviewing the package: PR #376 was red on
+its own tip commit (Docker build + Frontend tests CI jobs both failing),
+he asked for an analysis of how `anon_cap`'s turn-level 429 interacts
+with the Facilitator crisis redirect, and he caught this log's own
+entry 2 making a false claim about `Ministry/Features/
+Conversation-Transparency-Engine/` not existing. All three below.
+
+**9a — PR #376 CI red, fixed.** Root cause: entry 8's dependency
+re-audit was verified with `npm install`/`npm audit fix --force`, which
+silently overrides an unresolved peer-dependency conflict — `npm ci`
+(what both `engine/Dockerfile` line 46 and `.github/workflows/ci.yml`'s
+"Frontend tests" job actually run) does not, and failed immediately:
+`@vitejs/plugin-react@4.7.0`'s peer range never included vite 8. Pulled
+both jobs' actual failure logs from the PR's check runs to confirm
+before touching anything. Fixed by bumping `@vitejs/plugin-react` to
+`^6.1.1` (declares `vite: "^8.0.0"` as its own peer — the certified
+pairing that didn't exist when the original audit ran), regenerated the
+lockfile with a plain `npm install`, then verified with the exact
+sequence CI/Docker run: `rm -rf node_modules && npm ci` (clean, 0
+vulnerabilities, no ERESOLVE — run twice), `npm run build`, `npm test`
+(9/9). Node engine check done explicitly this time:
+`@vitejs/plugin-react@6.x` needs `^20.19.0 || >=22.12.0`; CI's Frontend
+tests job runs Node 20.20.2 (satisfies it), Dockerfile's frontend-build
+stage is `node:20-slim` (resolves to a current 20.x patch, also
+satisfies it). PR description and comment corrected to state plainly
+that the previous "verified clean" claim was true but incomplete — it
+never ran the one command that actually gates CI.
+
+**9b — anon-cap 429 vs. crisis redirect, analyzed.** Full trace and
+proposed rule: `Anon-Cap-Safety-Interaction.md` (on
+`p1-security/anon-visitor-cap`, PR #377 — that's where the code this
+analyzes actually lives). Summary: `anon_cap`'s turn-level 429 fires as
+HTTP middleware, before `call_next()` runs, which is before the safety
+classification call, `engine.m5.routing.route()`, or
+`crisis_resources.append_crisis_resources_turn()` ever execute — a
+capped turn is never classified, never routed, never redirected, and
+never stored. `engine/m4/turn.py`'s own `SESSION_TURN_CAP` already
+solved the identical problem (its own comment: "THE CAP OVERRIDES
+EVERYTHING EXCEPT A REAL CRISIS... checked after routing") by checking
+its cap *after* the gate call, with a `not is_acute_crisis` guard that
+structurally cannot fire on a real crisis turn. `anon_cap` does the
+opposite — cap-checks before any classification exists to consult.
+Proposed: three options (A, move the turn-cap check to the same
+post-gate/pre-generation point `SESSION_TURN_CAP` already uses, mirroring
+its exemption — recommended; B, drop the standalone turn cap and rely on
+session-cap × `SESSION_TURN_CAP`'s existing bound instead — simpler
+fallback; C, a copy-only fix that doesn't actually close the gap — listed,
+not recommended alone). **No safety code touched** —
+`engine/m4/crisis_resources.py` and `engine/m5/routing.py` were read
+only, confirmed via diff (see entry 2's correction above). This is now
+part of the same open escalation as item 3's mechanism/numbers decision
+(entry 4) — it changes what "capped" means, not just the thresholds, so
+it needs deciding in the same conversation, not after the fact.
+
+**9c — Entry 2 corrected.** See the strikethrough and correction inline
+in entry 2, above. Root issue: an unverified negative claim ("does not
+exist... searched in full, no match") went into an append-only log
+without the search actually being re-checked against the real
+git-tracked contents at the commit this package's own work was based
+on. Re-checked properly this time (`git ls-tree -d c9b09ea1
+Ministry/Features/` — lists the directory; `git diff c9b09ea1..origin/
+<branch> --stat -- <the six guarded paths>` — empty for all four
+branches). The substantive conclusion (nothing in this package edited
+any guarded file, so no entry was owed in that workstream's own log)
+was and remains correct — it just wasn't actually verified the first
+time it was written down.
