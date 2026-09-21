@@ -960,15 +960,36 @@ actually reads from) via PR #351, opened the same day — that PR does not
 fix or touch anything about this exception; it is a parallel, independent
 action.
 
-**Open, unresolved:** whether `cic-engine` (Render) is actually pointed at
-`live` at all right now cannot be confirmed from this sandbox — Render's
-dashboard is not reachable here (egress-blocked, per the runbook's own
-2026-09-15 note), and the runbook's own one-time setup steps that would
-make `live` the real production branch are dashboard-only and stated as
-not yet confirmed done. Per the runbook's own caveat, `cic-engine` "keeps
+**Open, unresolved (at the time this entry was first written):** whether
+`cic-engine` (Render) is actually pointed at `live` at all right now
+cannot be confirmed from this sandbox — Render's dashboard is not
+reachable here (egress-blocked, per the runbook's own 2026-09-15 note),
+and the runbook's own one-time setup steps that would make `live` the
+real production branch are dashboard-only and stated as not yet
+confirmed done. Per the runbook's own caveat, `cic-engine` "keeps
 deploying from whatever branch Render's dashboard already has it connected
 to, almost certainly still `main`" until that setup is complete. If that
 is still the case, this exception's real production impact is smaller
 than the bypassed procedure would suggest — but that can only be settled
 by Mark checking Render's dashboard directly, not from here. Stated as an
 open unknown, not assumed either way.
+
+---
+
+## 2026-09-21 — Render confirmed: `cic-engine` deploys from `live`
+
+**Closes the open question above.** Mark checked Render's dashboard
+directly (this sandbox still cannot reach it) and confirmed: the
+`cic-engine` service's Settings → Build & Deploy branch is set to `live`,
+with a green (healthy) status at the top of the service page. The
+promotion runbook's one-time setup (`CiC_Promotion_Runbook.md`'s step 2,
+pointing `cic-engine` at `live` via the Render Blueprint sync) has
+happened — this is no longer the "almost certainly still `main`" default
+state the runbook's own caveat assumed.
+
+Practical effect on the exception logged above: PR #346's direct merge
+into `live` did reach real participant-facing production, not a branch
+Render was ignoring. The exception itself is unchanged (still logged,
+still not reverted, per Mark's own decision above) - this entry only
+corrects the previously-open question about its actual production impact,
+which is no longer smaller than the bypassed procedure would suggest.
