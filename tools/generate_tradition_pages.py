@@ -53,10 +53,12 @@ CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 RENDER_CLI = REPO_ROOT / "tools" / "render_orientation_cli.mjs"
 TEMPLATE_PATH = REPO_ROOT / "cic-website" / "templates" / "tradition.html"
 
-# The 8 built worlds this cutover covers (registry code -> nothing else
+# The 10 built worlds this cutover covers (registry code -> nothing else
 # hardcoded; census_id, representative name and the existing page all
 # come from the registry / world-census.json / the file already on disk).
-BUILT_WORLD_KEYS = ["alx", "cappadocian", "desert", "gallic", "hal", "ijc", "pahc", "syr"]
+# don and rzg were built after the original 8-world cutover and are added
+# here for the 2026-09-21 card redesign regen.
+BUILT_WORLD_KEYS = ["alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "rzg", "syr"]
 
 ARTICLE_OPEN = '<div class="article">'
 # The literal boilerplate that follows the article's own closing </div> in
@@ -73,11 +75,9 @@ ARTICLE_CLOSE_ANCHOR = "\n    </div>\n  </div>\n</main>"
 # (non-"reading"-wrapped) HTML - the template's own markup decides that,
 # not this script.
 TOKEN_TO_SECTION = {
-    "WHO_SPEAKS": "who_speaks",
     "STORY": "story",
     "VOICES": "voices",
     "DOCUMENTED_STORIES": "documented_stories",
-    "QUIET": "quiet",
     "LEGACY": "legacy",
     "RELATIONS_SUMMARY": "relations_summary",
     "SOURCING": "sourcing",
@@ -91,11 +91,9 @@ TOKEN_TO_SECTION = {
 # world_front that deliberately leaves orientation.relations_summary
 # absent, per its own body notes - desert's pilot report explains why).
 SECTION_GATE_TOKENS = {
-    "who_speaks": ["WHO_SPEAKS"],
     "story": ["STORY"],
     "voices": ["VOICES"],
     "documented_stories": ["DOCUMENTED_STORIES"],
-    "quiet": ["QUIET"],
     "legacy": ["LEGACY"],
     "relations_summary": ["RELATIONS_SUMMARY"],
     "sourcing": ["SOURCING"],

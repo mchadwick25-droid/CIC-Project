@@ -219,6 +219,9 @@ narrative:
   - cell: "F3-I"
     demonstration: syr.demo.authority
     cite: [syr.dw.authority-lived]
+  - cell: "F1-P"
+    demonstration: syr.demo.room-for-doubt
+    cite: [syr.dw.doubt]
   pull_quotes:
   - syr.quote.ephrem-keeper-of-strangers
   - syr.quote.pearl-mysteries

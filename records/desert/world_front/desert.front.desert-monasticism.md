@@ -229,6 +229,12 @@ narrative:
   - cell: "C-E"
     demonstration: desert.demo.center-how-we-know
     cite: [desert.dw.writings]
+  - cell: "F4-P"
+    demonstration: desert.demo.quiet-head
+    cite: [desert.dw.the-heart-and-the-spirit]
+  - cell: "F6-P"
+    demonstration: desert.demo.identity-collision-someone-like-me
+    cite: [desert.dw.someone-like-me]
   pull_quotes:
   - desert.quote.sarah-man-among-you
   - desert.quote.equal-measure-of-strength

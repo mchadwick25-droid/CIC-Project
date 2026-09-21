@@ -27,9 +27,22 @@ if (!jsonPath || !slug || !representativeName) {
 
 const compiled = JSON.parse(readFileSync(jsonPath, "utf-8"));
 
+// Tradition pages drop the inline "This world's own hedge" callout under
+// each Voice (Website V2 world_front card redesign, 2026-09-21: the
+// project owner asked that gap/thinness content not be pushed as default
+// card reading) - the Atlas panel keeps it, since it imports RENDERERS
+// directly in the browser and calls renderVoices(compiled) with no opts,
+// which still defaults to showHedge: true. This CLI is the tradition-page
+// path only, so this is the one place that default gets overridden.
 const out = {};
 for (const [name, fn] of Object.entries(RENDERERS)) {
-  out[name] = name === "documented_stories" ? fn(compiled, { idPrefix: `${slug}-story` }) : fn(compiled);
+  if (name === "documented_stories") {
+    out[name] = fn(compiled, { idPrefix: `${slug}-story` });
+  } else if (name === "voices") {
+    out[name] = fn(compiled, { showHedge: false });
+  } else {
+    out[name] = fn(compiled);
+  }
 }
 out.questions = renderQuestions(compiled, { slug, representativeName });
 

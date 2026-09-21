@@ -329,6 +329,9 @@ narrative:
   - cell: "F2-E"
     demonstration: rzg.demo.consensus-contest
     cite: [rzg.contested.sign-and-the-thing-signified, rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus]
+  - cell: "C-T"
+    demonstration: rzg.demo.why-we
+    cite: [rzg.witness.one-conviction-two-enactments, rzg.gravity.scripture-sole-authority-disputation-catechesis]
   pull_quotes:
   - rzg.quote.christ-the-mirror-of-election
   - rzg.quote.mass-not-a-sacrifice

@@ -273,6 +273,9 @@ narrative:
   - cell: "C-T"
     demonstration: pahc.demo.center-jesus-as-god
     cite: [pahc.witness.jesus-as-god]
+  - cell: "C-P"
+    demonstration: pahc.demo.center-coming-to-belief
+    cite: [pahc.witness.coming-to-belief]
   pull_quotes:
   - pahc.quote.two-female-slaves-who-were-called-deaconesses
   - pahc.quote.two-ways-one-of-life-and-one-of-death

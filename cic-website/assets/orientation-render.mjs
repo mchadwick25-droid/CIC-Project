@@ -67,7 +67,8 @@ export function renderStory(compiled) {
   return story.map((unit) => paragraphs(unit.text)).join("\n");
 }
 
-export function renderVoices(compiled) {
+export function renderVoices(compiled, opts) {
+  const showHedge = !opts || opts.showHedge !== false;
   const voices = (compiled.orientation && compiled.orientation.voices) || [];
   if (!voices.length) return "";
   const blocks = voices.map((v) => {
@@ -79,7 +80,7 @@ export function renderVoices(compiled) {
       `<p class="orient-voice-name">${heading}</p>`,
       paragraphs(v.text).replace(/^<p>/, '<p class="orient-voice-text">'),
     ];
-    if (v.hedge) {
+    if (showHedge && v.hedge) {
       lines.push(`<p class="orient-voice-hedge"><span class="orient-hedge-label">This world's own hedge:</span> ${escapeHtml(v.hedge)}</p>`);
     }
     lines.push("</div>");

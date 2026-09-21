@@ -430,6 +430,9 @@ narrative:
   - cell: "F6-I"
     demonstration: don.demo.never-settled
     cite: [don.dw.what-we-never-settled]
+  - cell: "F3-E"
+    demonstration: don.demo.did-the-empire-change-you
+    cite: [don.dw.the-emperor-and-the-church]
   pull_quotes:
   - don.quote.deo-laudes
   - don.quote.donatus-quid-est-imperatori

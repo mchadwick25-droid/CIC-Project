@@ -37,10 +37,23 @@
                                        absent, per its own body notes).
 
   The CSS below is additive only - new component classes this content
-  needs (voices-with-hedge, the docstory-item disclosure convention
-  shared with atlas-v3.html's own panel, the glossary/pull-quote strip).
-  It is inserted once before each page's own closing </style>; every rule
+  needs (the docstory-item disclosure convention shared with
+  atlas-v3.html's own panel, the glossary/pull-quote strip). It is
+  inserted once before each page's own closing </style>; every rule
   already in a world's own <style> block is left untouched.
+
+  Card redesign (2026-09-21, project owner's ruling): the full card leads
+  with identity and substance, not evidentiary caution. Two sections that
+  used to run here are gone outright - "Who is speaking" (who_speaks, a
+  meta-summary of the voice roster) and "Where we are quiet" (quiet, a
+  section built entirely around evidentiary silence) - and the Voices
+  section below renders without its "This world's own hedge" callout
+  (tools/render_orientation_cli.mjs passes {showHedge: false} to
+  renderVoices for this template only; the Atlas panel keeps hedges,
+  since it imports the renderer directly with no opts). Gap/thinness
+  content isn't deleted from the project - it's exactly what a
+  participant reaches by asking the Representative directly - it's just
+  no longer pushed into the card's own default reading flow.
 -->
 <style id="tradition-content-css">
 .orient-voices{display:flex;flex-direction:column;gap:1.1rem}
@@ -48,8 +61,6 @@
 .orient-voice-name{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--text);margin:0 0 .3rem}
 .orient-voice-dates{font-weight:400;color:var(--muted)}
 .orient-voice-text{font-size:1.0625rem;line-height:1.6}
-.orient-voice-hedge{font-family:var(--sans);font-size:.9rem;line-height:1.5;color:var(--muted);border-left:2px solid var(--tint);padding-left:.75rem;margin:0 0 .2rem}
-.orient-hedge-label{font-weight:600;color:var(--text)}
 .docstories-row{display:flex;flex-direction:column;gap:1.3rem;max-width:var(--measure)}
 .docstory-entry h4{font-family:var(--serif);font-size:1.1rem;margin:0 0 .25rem}
 .docstory-entry>.meta{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:0 0 .3rem}
@@ -74,13 +85,12 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 .orient-pull-quote cite{font-family:var(--sans);font-style:normal;font-size:.85rem;color:var(--muted)}
 </style>
 
-<!--SECTION:who_speaks-->
-<section aria-labelledby="who-speaks-title">
-  <p class="eyebrow">Who is speaking</p>
-  <h2 id="who-speaks-title">A representative voice, speaking for a whole people</h2>
-  <div class="reading">{{WHO_SPEAKS}}<p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p></div>
-</section>
-<!--/SECTION:who_speaks-->
+<!-- Kept standalone when the "Who is speaking" section (its original home)
+     was cut in the 2026-09-21 card redesign: this is a safety disclosure,
+     not gap/thinness content, and CLAUDE.md's own safety priority holds
+     regardless of what else moves - see cic-website/traditions/*.html's
+     pre-redesign `who_speaks` section for its prior placement. -->
+<p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
 
 <!--SECTION:story-->
 <section aria-labelledby="story-title">
@@ -105,14 +115,6 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
   {{DOCUMENTED_STORIES}}
 </section>
 <!--/SECTION:documented_stories-->
-
-<!--SECTION:quiet-->
-<section aria-labelledby="quiet-title">
-  <p class="eyebrow">Where we are quiet</p>
-  <h2 id="quiet-title">What the record does not say</h2>
-  <div class="reading">{{QUIET}}</div>
-</section>
-<!--/SECTION:quiet-->
 
 <!--SECTION:legacy-->
 <section aria-labelledby="legacy-title">

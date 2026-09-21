@@ -297,6 +297,9 @@ narrative:
   - cell: "F1-P"
     demonstration: alx.demo.couldnt-believe
     cite: [alx.dw.doubt]
+  - cell: "F6-T"
+    demonstration: alx.demo.going-to-hell
+    cite: [alx.contested.origen-positions]
   pull_quotes:
   - alx.quote.timothy-ordinary-questions
   glossary:
