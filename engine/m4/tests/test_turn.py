@@ -6,11 +6,12 @@ CiC_System_Hub_Decision_Log.md), and its crisis-resources append fires
 unconditionally regardless of what the fake client is configured to
 stream.
 """
+import threading
 from types import SimpleNamespace
 
 
 from engine.m4 import turn as turn_module
-from engine.m4.turn import run_turn, run_voice_turn_for_world
+from engine.m4.turn import run_gate, run_turn, run_voice_turn_for_world
 from engine.m4.world_loader import LoadedWorld
 
 
@@ -976,3 +977,32 @@ def test_a_capped_turn_still_attributes_its_gate_calls():
     )
     assert {r.call_kind for r in result.usage_records} == {"safety_call", "reader_call"}
     assert all(r.session_id == "test-session" for r in result.usage_records)
+
+
+def test_gate_calls_run_concurrently_not_sequentially():
+    """Stage 0a (Build-Plan.md): call_safety and call_reader used to run
+    strictly sequentially inside run_gate. A two-party barrier blocks each
+    fake call until both have actually started - if the two calls were
+    still sequential, the first would block forever waiting for a second
+    call that cannot start until the first returns, and the barrier would
+    time out with BrokenBarrierError. Concurrent execution clears it
+    immediately, proving both calls are genuinely in flight at once, not
+    merely that both eventually happen."""
+    barrier = threading.Barrier(2, timeout=2.0)
+
+    class _BarrierMessages:
+        def create(self, *, model, max_tokens, tools, tool_choice, messages, system=None, timeout=None):
+            barrier.wait()
+            name = tool_choice["name"]
+            responses = {"submit_safety_classification": _safety("NO_SIGNAL"), "submit_reader_output": _reader()}
+            return SimpleNamespace(content=[_FakeToolUse(name, responses[name])], usage=_FAKE_USAGE)
+
+    client = SimpleNamespace(messages=_BarrierMessages())
+    gate_run = run_gate(
+        session_id="test-session", safety_client=client, safety_model_id="m",
+        participant_message="who was Jesus", pressed={}, anachronistic_term_ids=set(),
+    )
+    assert gate_run.safety_outcome.status == "ok"
+    assert gate_run.reader_outcome.status == "ok"
+    # Fixed append order regardless of which future actually completed first.
+    assert [r.call_kind for r in gate_run.usage_records] == ["safety_call", "reader_call"]
