@@ -1135,6 +1135,23 @@ assignments:
   author: claudius-apollinaris
   locus: div2 10.10
   atlas_ids:
+  - greek-apologists-second-century
+  role: tradition
+  confidence: assigned
+  note: 'Cross-linked 2026-09-16 from a Source Readiness Dossier finding: this same div
+    is headed in the source itself "Claudius Apollinaris, Bishop of Hierapolis, and Apologist,"
+    and states directly that he "addressed his Apology... to M. Antoninus, the emperor" and
+    also wrote Adversus Gentes and De Veritate. The surviving fragment quoted here (via Eusebius,
+    HE v.5) is the Thundering Legion narrative - an apologetic argument that Christian soldiers''
+    prayer, not the emperor''s virtue, brought the rain that saved Marcus Aurelius'' army against
+    the Quadi (174 CE). Distinct from the anti-Montanist material the other two rows at this
+    locus correctly cover; this row captures the apologetic content specifically.
+
+    '
+- work: Fragments of Claudius Apollinaris
+  author: claudius-apollinaris
+  locus: div2 10.10
+  atlas_ids:
   - montanism-the-new-prophecy
   role: context
   confidence: assigned
