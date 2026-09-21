@@ -47,6 +47,7 @@ from engine.m4 import events, facilitator_turns, session_code
 from engine.m4.entrance import open_session
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.round import (
+    TABLE_SESSION_ROUND_CAP,
     RoundConfig,
     open_table_round,
     voice_message_for_round,
@@ -341,6 +342,16 @@ def _secondary_context_text(pending: list[str]) -> str | None:
     _scoped_pending) - no new read, the identical isolation-respecting text
     context_prefix itself shows the model."""
     return "\n\n".join(pending) if pending else None
+
+
+def round_cap_for(mode: str | None) -> int | None:
+    """Stage 0c (Build-Plan.md): the root of the number TableRoom.tsx used
+    to hardcode ("a Table holds five rounds" - the real cap is 3, so the
+    old copy was flatly wrong, not just hardcoded). None for an interview
+    session (no round cap applies); TABLE_SESSION_ROUND_CAP for a table
+    session, so the frontend renders the true configured number instead of
+    a guess baked into src/."""
+    return TABLE_SESSION_ROUND_CAP if mode == "table" else None
 
 
 def _scoped_pending(pending: list[str], *, keep_labels: set[str]) -> list[str]:

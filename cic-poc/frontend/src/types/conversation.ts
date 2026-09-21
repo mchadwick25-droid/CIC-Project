@@ -120,6 +120,9 @@ export interface VoiceTurn {
 export interface CreateSessionResponse {
   session_id: string;
   session_code: string; // shown once; required as `Authorization: Session <code>` on every later request
+  // Stage 0c (Build-Plan.md): null for an interview session (no round cap
+  // applies); the table session round cap for a table session.
+  round_cap: number | null;
 }
 
 export interface MessageResponse {
@@ -148,6 +151,8 @@ export interface TranscriptResponse {
   mode: string | null;
   world_keys: string[] | null;
   round_open: boolean;
+  // Stage 0c (Build-Plan.md): same rule as CreateSessionResponse above.
+  round_cap: number | null;
 }
 
 // POST /message on a table session, and every POST /continue: one

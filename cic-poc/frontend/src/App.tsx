@@ -272,6 +272,7 @@ function App() {
           sessionCode={table.sessionCode}
           closed={table.closed}
           roundOpen={table.roundOpen}
+          roundCap={table.roundCap}
           isLoading={table.isLoading}
           error={table.error}
           errorRecoverable={table.errorRecoverable}

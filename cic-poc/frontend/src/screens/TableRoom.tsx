@@ -3,7 +3,9 @@
  * screen - the differences are exactly the Table's own: seated-voices
  * arrival, per-voice speaker attribution (accent color and name), the
  * round-in-progress state while voices answer in turn, and the sitting's
- * own close (the five-round cap) rather than an open-ended end.
+ * own close (the table session round cap, engine.m4.round.
+ * TABLE_SESSION_ROUND_CAP, surfaced from the API rather than a guessed
+ * number - Stage 0c, Build-Plan.md) rather than an open-ended end.
  *
  * The seated-arrival strip relocates the Doorway's approved disclosure
  * prose the same way the interview Arrival does; the one adaptation is
@@ -22,6 +24,7 @@ interface TableRoomProps {
   sessionCode: string | null;
   closed: boolean;
   roundOpen: boolean;
+  roundCap: number | null;
   isLoading: boolean;
   error: string | null;
   errorRecoverable: boolean;
@@ -36,7 +39,7 @@ function facilitatorParagraphs(text: string): string[] {
 }
 
 export function TableRoom({
-  seatedWorlds, turns, sessionCode, closed, roundOpen, isLoading, error, errorRecoverable, onSend, onResumeRound, onEnd, onRestart,
+  seatedWorlds, turns, sessionCode, closed, roundOpen, roundCap, isLoading, error, errorRecoverable, onSend, onResumeRound, onEnd, onRestart,
 }: TableRoomProps) {
   const byKey = new Map(seatedWorlds.map((w) => [w.worldKey, w]));
   const anyLivingTradition = seatedWorlds.some((w) => w.livingTraditionFlag);
@@ -141,7 +144,9 @@ export function TableRoom({
       {closed ? (
         <div className="conversation__composer">
           <p className="conversation__bar-note sans" style={{ marginBottom: 'var(--spacing-sm)' }}>
-            The sitting has ended — a Table holds five rounds, and this one is complete.
+            {roundCap != null
+              ? `The sitting has ended — a Table holds ${roundCap} rounds, and this one is complete.`
+              : 'The sitting has ended — this one is complete.'}
           </p>
           <button type="button" className="doorway__begin" onClick={onRestart}>
             Return to the worlds

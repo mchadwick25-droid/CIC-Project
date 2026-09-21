@@ -14,6 +14,7 @@ from engine.api.tests.conftest import reader_response, safety_response
 from engine.api.wiring import _load_world
 from engine.m4.grounding_net import all_text, content_words
 from engine.m4 import evidence
+from engine.m4.round import TABLE_SESSION_ROUND_CAP
 
 _FAKE_USAGE = SimpleNamespace(input_tokens=100, output_tokens=50, cache_creation_input_tokens=0, cache_read_input_tokens=0)
 
@@ -135,6 +136,20 @@ def test_create_table_session_and_door(store, usage_store, world_loader, registr
     assert door["speaker"] == "facilitator"
     assert alx_world.frame["representative"]["name"] in door["text"]
     assert desert_world.frame["representative"]["name"] in door["text"]
+
+
+def test_table_session_round_cap_is_surfaced_from_the_root(store, usage_store, world_loader, registry, alx_world, desert_world):
+    """Stage 0c (Build-Plan.md): the frontend used to hardcode a literal
+    round count in participant-facing copy. Both the session-create
+    response and the transcript now carry the real
+    engine.m4.round.TABLE_SESSION_ROUND_CAP value instead."""
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+                 client=_table_client(selector_script=[], stream_scripts=[]))
+    resp = http.post("/api/session", json={"world_keys": ["alx", "desert"]})
+    assert resp.json()["round_cap"] == TABLE_SESSION_ROUND_CAP
+    session_id, auth = _create_table(http)
+    transcript = http.get(f"/api/session/{session_id}/transcript", headers=auth).json()
+    assert transcript["round_cap"] == TABLE_SESSION_ROUND_CAP
 
 
 def test_create_table_session_bad_shapes(store, usage_store, world_loader, registry):
