@@ -103,49 +103,95 @@ class DailyVisitorLimiter:
         self._counts: dict[str, _DailyCounts] = {}
         self._lock = threading.Lock()
 
-    def _bucket(self, visitor_id: str) -> _DailyCounts:
+    def _bucket_locked(self, key: str) -> _DailyCounts:
+        """Caller must already hold self._lock."""
         today = _today()
-        bucket = self._counts.get(visitor_id)
+        bucket = self._counts.get(key)
         if bucket is None or bucket.day != today:
             bucket = _DailyCounts(day=today)
-            self._counts[visitor_id] = bucket
+            self._counts[key] = bucket
             # Same opportunistic trim ratelimit.py uses - only matters
-            # under sustained real traffic, cheap when it doesn't.
+            # under sustained real traffic, cheap when it doesn't. Run on
+            # every new key, not just past the threshold, since every key
+            # here is attacker-choosable (a harvested/forged-then-rejected
+            # token id, or a spoofed ip: value) in a way ratelimit.py's own
+            # per-real-IP keys aren't as cheaply multiplied.
             if len(self._counts) > 50_000:
                 stale = [k for k, v in self._counts.items() if v.day != today]
                 for k in stale:
                     del self._counts[k]
         return bucket
 
-    def allow_session(self, visitor_id: str) -> bool:
+    def allow_session(self, key: str) -> bool:
         with self._lock:
-            bucket = self._bucket(visitor_id)
+            bucket = self._bucket_locked(key)
             if bucket.sessions >= self.daily_session_limit:
                 return False
             bucket.sessions += 1
             return True
 
-    def allow_turn(self, visitor_id: str) -> bool:
+    def allow_turn(self, key: str) -> bool:
         with self._lock:
-            bucket = self._bucket(visitor_id)
+            bucket = self._bucket_locked(key)
             if bucket.turns >= self.daily_turn_limit:
                 return False
             bucket.turns += 1
             return True
 
+    def mint_seeded_token(self, ip: str, secret: str) -> str:
+        """Mint a fresh visitor token, seeded from the ip: bucket's CURRENT
+        count rather than starting at zero (2026-09-21, closing a review
+        finding: minting a pristine, zero-count bucket on every cookie-less
+        request let an attacker who never returns a cookie harvest an
+        effectively unlimited supply of fresh daily allowances - delete
+        the cookie, get a new empty-bucket token, repeat). Seeding from the
+        ip bucket bounds the exploit instead of eliminating the mint: an
+        attacker who harvests N tokens before the ip: bucket itself caps
+        out can still redeem some leftover headroom on each one (the
+        tokens were seeded at increasing counts, so each has some room
+        below the daily limit) - bounded by daily_session_limit^2 in the
+        worst case, not unlimited, and that whole harvest still has to
+        happen at ratelimit.py's 6-creates/min burst rate. This does NOT
+        alias the new token's bucket to the ip bucket's own object (a
+        stricter fix that would close the gap completely) because that
+        would also collapse every DIFFERENT real visitor behind a shared/
+        NAT'd IP onto the exact same daily allowance before any of them
+        has even sent a cookie back - the one thing a pure per-IP daily
+        limit (rejected as Option C in the report) does wrong and this
+        module exists to avoid. Documented as an accepted, bounded,
+        rate-limited residual - not claimed as fully closed."""
+        with self._lock:
+            ip_bucket = self._bucket_locked(f"ip:{ip}")
+            token = issue_token(secret)
+            visitor_id = token.split(_SEPARATOR, 1)[0]
+            self._counts[visitor_id] = _DailyCounts(day=ip_bucket.day, sessions=ip_bucket.sessions, turns=ip_bucket.turns)
+            return token
+
 
 def install(app, *, secret: str, daily_session_limit: int = DEFAULT_DAILY_SESSION_LIMIT, daily_turn_limit: int = DEFAULT_DAILY_TURN_LIMIT):
     """HTTP middleware, only ever installed when CIC_API_ANON_CAP_ENABLED
-    is on (see engine.api.app._build_real_app). Runs after ratelimit's own
-    middleware in the stack (installed after it in app.py) - the cheaper,
-    IP-only, no-cookie-read check stays the first line.
+    is on (see engine.api.app._build_real_app). Installed BEFORE
+    ratelimit.install() in engine.api.app.create_app so that ratelimit's
+    own middleware ends up OUTERMOST and runs first (Starlette middleware
+    is LIFO: the last one registered wraps, and therefore runs ahead of,
+    everything registered before it) - the cheaper, IP-only, no-cookie-
+    read burst check stays the actual first line, exactly as originally
+    intended, and a request the burst limiter would reject never reaches
+    this module (and so never spends daily quota it wouldn't otherwise
+    have consumed) at all.
 
     Falls back to client_ip(request) as the bucket key on a request with no
     valid cookie: the first request from a genuinely new visitor (or one
     who cleared cookies) is still counted against SOMETHING before its own
     token is minted and returned, rather than getting one free unbounded
-    request. The Set-Cookie response still issues a fresh per-visitor token
-    for every subsequent request either way."""
+    request. A fresh token is only ever minted on the ALLOWED path (never
+    on a 429 - minting there was a real bug: it let an attacker harvest an
+    unlimited supply of fresh, empty-bucket tokens purely by getting
+    rejected repeatedly, never needing a single request to actually
+    succeed) and is seeded from the ip: bucket's current count rather than
+    starting at zero (DailyVisitorLimiter.mint_seeded_token's own
+    docstring has the full reasoning and the accepted, bounded residual
+    this still leaves)."""
     limiter = DailyVisitorLimiter(daily_session_limit, daily_turn_limit)
 
     @app.middleware("http")
@@ -160,16 +206,16 @@ def install(app, *, secret: str, daily_session_limit: int = DEFAULT_DAILY_SESSIO
         raw_cookie = request.cookies.get(COOKIE_NAME)
         visitor_id = verify_token(raw_cookie, secret) if raw_cookie else None
         needs_new_token = visitor_id is None
-        bucket_key = visitor_id or f"ip:{client_ip(request)}"
+        ip = client_ip(request)
+        bucket_key = visitor_id or f"ip:{ip}"
 
         allowed = limiter.allow_session(bucket_key) if is_create else limiter.allow_turn(bucket_key)
         if not allowed:
-            response = JSONResponse(status_code=429, content={"detail": CAP_DETAIL if is_create else TURN_CAP_DETAIL})
-        else:
-            response = await call_next(request)
+            return JSONResponse(status_code=429, content={"detail": CAP_DETAIL if is_create else TURN_CAP_DETAIL})
 
+        response = await call_next(request)
         if needs_new_token:
-            token = issue_token(secret)
+            token = limiter.mint_seeded_token(ip, secret)
             response.set_cookie(
                 COOKIE_NAME, token, max_age=60 * 60 * 24 * 2, httponly=True, samesite="lax", secure=True, path="/api",
             )

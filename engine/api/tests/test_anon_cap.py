@@ -49,7 +49,10 @@ def test_limiter_visitors_are_independent():
     assert not limiter.allow_session("v1")
 
 
-def _app(*, anon_cap_enabled, secret, daily_session_limit=5, daily_turn_limit=150, store, usage_store, world_loader, registry):
+def _app(
+    *, anon_cap_enabled, secret, daily_session_limit=5, daily_turn_limit=150, rate_limit=False,
+    store, usage_store, world_loader, registry,
+):
     from fastapi.testclient import TestClient
 
     from engine.api.app import create_app
@@ -66,12 +69,46 @@ def _app(*, anon_cap_enabled, secret, daily_session_limit=5, daily_turn_limit=15
         world_loader=world_loader,
         registry=registry,
         default_world_key="fix",
+        rate_limit=rate_limit,
         anon_cap_enabled=anon_cap_enabled,
         anon_visitor_secret=secret,
         anon_daily_session_limit=daily_session_limit,
         anon_daily_turn_limit=daily_turn_limit,
     )
-    return TestClient(app)
+    # base_url must be https: the visitor cookie is Secure (correctly, per
+    # this service always sitting behind Render's TLS termination), and
+    # httpx's cookie jar - matching every real browser - never returns a
+    # Secure cookie over a plain-http connection. Building this TestClient
+    # against the default http://testserver silently never round-trips
+    # the cookie at all, which is exactly the gap that let the real
+    # minting bug (see the harvest-then-redeem tests below) ship with a
+    # suite that was "green" - every request landed in the ip: fallback
+    # bucket instead of ever exercising the cookie path.
+    return TestClient(app, base_url="https://testserver")
+
+
+def test_burst_limiter_runs_first_a_429_from_it_never_touches_the_daily_bucket(store, usage_store, world_loader, registry):
+    """Middleware ordering (2026-09-21 review finding): ratelimit's cheap
+    per-IP burst check must run BEFORE anon_cap's daily-quota accounting,
+    so a request the burst limiter was always going to reject doesn't
+    also burn a chunk of the participant's daily allowance - a flaky
+    connection retrying past the burst limit shouldn't cost them their
+    whole day. Uses a daily limit well above the burst limit so if
+    ordering were backwards (daily checked first), this would still pass
+    the daily check every time and the test wouldn't catch the bug -
+    instead this asserts on the CREATE_LIMIT burst count of 429s appearing
+    with the daily cap high enough that they can only be burst-limiter
+    429s, never daily-cap ones."""
+    from engine.api.ratelimit import CREATE_LIMIT
+
+    _, max_creates = CREATE_LIMIT
+    client = _app(
+        anon_cap_enabled=True, secret="s3cret", daily_session_limit=1000, rate_limit=True, store=store, usage_store=usage_store,
+        world_loader=world_loader, registry=registry,
+    )
+    codes = [client.post("/api/session", json={"world_key": "fix"}).status_code for _ in range(max_creates + 3)]
+    assert codes.count(429) >= 3
+    assert codes[:max_creates] == [201] * max_creates
 
 
 def test_default_app_is_not_capped(store, usage_store, world_loader, registry):
@@ -102,7 +139,10 @@ def test_capped_app_refuses_the_session_after_the_daily_limit_with_a_stable_cook
         registry=registry,
     )
     # TestClient persists Set-Cookie across requests on the same client -
-    # this is one "visitor" across all three calls.
+    # this is one "visitor" across all three calls. Requires the https
+    # base_url from _app() above; the cookie is Secure and won't round-trip
+    # over plain http (this test used to pass over http anyway, for the
+    # wrong reason - see _app()'s own comment).
     codes = [client.post("/api/session", json={"world_key": "fix"}).status_code for _ in range(3)]
     assert codes == [201, 201, 429]
 
@@ -131,3 +171,87 @@ def test_a_forged_or_tampered_cookie_is_treated_as_no_cookie_at_all(store, usage
     # bucket and gets a fresh, correctly-signed token minted for it.
     assert response.status_code == 201
     assert verify_token(response.cookies[COOKIE_NAME], "s3cret") is not None
+
+
+def test_a_rejected_request_is_never_issued_a_fresh_token(store, usage_store, world_loader, registry):
+    """The bug a 2026-09-21 adversarial review found: minting happened on
+    EVERY request, including the ones the cap itself just refused with a
+    429 - so an attacker never had to succeed even once to harvest an
+    unlimited supply of fresh, empty-bucket tokens. A 429 must never carry
+    a new Set-Cookie for a visitor who didn't already have a valid one."""
+    client = _app(
+        anon_cap_enabled=True, secret="s3cret", daily_session_limit=1, store=store, usage_store=usage_store, world_loader=world_loader,
+        registry=registry,
+    )
+    first = client.post("/api/session", json={"world_key": "fix"})
+    assert first.status_code == 201
+    assert COOKIE_NAME in first.cookies
+    # Same client (cookie already set and over the cap) - but simulate the
+    # harvesting attack directly: a cookie-LESS request past the cap.
+    client.cookies.clear()
+    second = client.post("/api/session", json={"world_key": "fix"})
+    assert second.status_code == 429
+    assert COOKIE_NAME not in second.cookies
+
+
+def test_harvesting_tokens_by_repeatedly_dropping_the_cookie_is_bounded_not_unlimited(
+    store, usage_store, world_loader, registry,
+):
+    """Direct repro of the review's B1 finding, run to completion: an
+    attacker who never sends a cookie back (deletes it every time) used to
+    get a brand-new, zero-count token on every single request, each good
+    for a full fresh daily allowance - unbounded. Now each new token is
+    seeded from the ip: bucket's own current count, so harvesting N tokens
+    before the ip bucket itself caps out leaves only bounded leftover
+    headroom across all of them (DailyVisitorLimiter.mint_seeded_token's
+    own docstring has the exact bound: at most daily_session_limit from
+    the ip-path itself, plus at most daily_session_limit*(daily_session_
+    limit-1)/2 redeemable extra across every harvested token - finite and
+    small, not unlimited)."""
+    from fastapi.testclient import TestClient
+
+    from engine.api.app import create_app
+    from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety_response
+
+    limit = 5
+    fake = FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
+    app = create_app(
+        voice_client=fake, voice_model_id="m", safety_client=fake, safety_model_id="m", store=store, usage_store=usage_store,
+        world_loader=world_loader, registry=registry, default_world_key="fix", anon_cap_enabled=True, anon_visitor_secret="s3cret",
+        anon_daily_session_limit=limit, anon_daily_turn_limit=150,
+    )
+    client = TestClient(app, base_url="https://testserver")
+
+    # Phase 1: harvest by never sending a cookie back, until the ip:
+    # bucket itself refuses (bounded at `limit` successes; further
+    # cookie-less attempts just 429 per the fix above, minting nothing).
+    harvested = []
+    for _ in range(limit + 3):
+        client.cookies.clear()
+        resp = client.post("/api/session", json={"world_key": "fix"})
+        if resp.status_code == 201 and COOKIE_NAME in resp.cookies:
+            harvested.append(resp.cookies[COOKIE_NAME])
+    assert len(harvested) == limit  # the ip: bucket's own cap, exactly
+
+    # Phase 2: redeem every harvested token for whatever headroom its seed
+    # left it (each was seeded from the ip bucket's count AT mint time, so
+    # earlier tokens have more headroom than later ones).
+    extra_successes = 0
+    for token in harvested:
+        for _ in range(limit):  # each token can be tried at most `limit` times
+            client.cookies.clear()
+            client.cookies.set(COOKIE_NAME, token)
+            resp = client.post("/api/session", json={"world_key": "fix"})
+            if resp.status_code == 201:
+                extra_successes += 1
+            else:
+                break
+
+    # The bound the docstring promises: at most limit*(limit-1)/2 extra
+    # successes beyond the ip-path's own `limit`. NOT unlimited (the
+    # pre-fix bug), and nowhere close to the harvested-token count times
+    # the daily limit (what a naive "just seed nothing" mint would allow).
+    assert extra_successes <= limit * (limit - 1) // 2
+    total = limit + extra_successes
+    assert total <= limit + limit * (limit - 1) // 2  # the exact documented bound
+    assert total < limit * limit  # nowhere near the pre-fix "one full allowance per harvested token" shape

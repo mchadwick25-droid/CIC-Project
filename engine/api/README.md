@@ -39,12 +39,17 @@ config surface, so it lives here now.
 `engine/api/anon_cap.py`'s own module docstring has the full rationale):
 `"1"` turns on a per-visitor daily cap on session creation and conversation
 turns, on top of `ratelimit.py`'s per-IP burst limiter. **Off in every
-deployment today** — the mechanism and its default numbers
-(`CIC_API_ANON_DAILY_SESSION_LIMIT`, default 5; `CIC_API_ANON_DAILY_TURN_LIMIT`,
-default 150) are a proposal from that audit, not yet a decision Mark has
-made; see the package's own `Report.md`. Turning it on requires
-`CIC_API_ANON_VISITOR_SECRET` (any random string — signs the visitor
-cookie) or the app refuses to start.
+deployment today** (`render.yaml` declares it explicitly as `"0"`, not left
+unset, so the switch has a visible, reviewable home once a decision is
+made rather than existing only as an undocumented dashboard toggle) — the
+mechanism and its default numbers (`CIC_API_ANON_DAILY_SESSION_LIMIT`,
+default 5; `CIC_API_ANON_DAILY_TURN_LIMIT`, default 150) are a proposal
+from that audit, not yet a decision Mark has made; see the package's own
+`Report.md`. Turning it on **requires** `CIC_API_ANON_VISITOR_SECRET`
+(any random string — signs the visitor cookie) to already be set — without
+it, `create_app` raises at construction time and the process never comes
+up at all (not a graceful "feature disabled" fallback). Set both together,
+never the flag alone.
 
 ## Pinning `CIC_API_SAFETY_MODEL_PATTERN` (Stage 0d, Build-Plan.md)
 

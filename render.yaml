@@ -142,6 +142,19 @@ services:
       # accidentally ship a guessable one.
       - key: CIC_API_ADMIN_TOKEN
         sync: false
+      # Anonymous per-visitor daily cap (Tech-Readiness P1-Security item 3,
+      # 2026-09-21 - engine/api/anon_cap.py). Declared here, explicitly
+      # off, rather than left unset entirely: this is the escalation this
+      # package raised (mechanism/numbers proposed, not yet decided by
+      # Mark - see that package's Report.md), so the switch should have a
+      # visible, reviewable home in config-as-code once he decides, not a
+      # dashboard-only toggle nobody else can see the state of. Flipping
+      # to "1" also requires setting CIC_API_ANON_VISITOR_SECRET below (any
+      # random string) - the app refuses to start otherwise.
+      - key: CIC_API_ANON_CAP_ENABLED
+        value: "0"
+      - key: CIC_API_ANON_VISITOR_SECRET
+        sync: false
       - key: CIC_API_PACKAGE_CACHE_DIR
         value: /data/packages-cache
       - key: CIC_API_PACKAGE_BUCKET
@@ -201,6 +214,11 @@ services:
       - key: AWS_SECRET_ACCESS_KEY
         sync: false
       - key: CIC_API_ADMIN_TOKEN
+        sync: false
+      # Same feature, own secret - see cic-engine's own comment above.
+      - key: CIC_API_ANON_CAP_ENABLED
+        value: "0"
+      - key: CIC_API_ANON_VISITOR_SECRET
         sync: false
       - key: CIC_API_PACKAGE_CACHE_DIR
         value: /data/packages-cache

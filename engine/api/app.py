@@ -249,12 +249,19 @@ def create_app(
     if anon_cap_enabled and not anon_visitor_secret:
         raise MissingAnonCapSecret("CIC_API_ANON_CAP_ENABLED is on but CIC_API_ANON_VISITOR_SECRET is unset")
     app = FastAPI(title="CiC engine/api (minimal test backend)")
-    if rate_limit:
-        ratelimit.install(app)
+    # Registration order matters: Starlette's middleware stack is LIFO
+    # (the last one registered ends up outermost and runs first), so
+    # anon_cap is installed BEFORE ratelimit here on purpose - the cheap,
+    # no-cookie-read burst check stays the actual first line a request
+    # meets (see anon_cap.install's own docstring for why that matters -
+    # a burst-rejected request should never reach anon_cap's daily-quota
+    # accounting at all).
     if anon_cap_enabled:
         anon_cap.install(
             app, secret=anon_visitor_secret, daily_session_limit=anon_daily_session_limit, daily_turn_limit=anon_daily_turn_limit,
         )
+    if rate_limit:
+        ratelimit.install(app)
     app.state.deps = Deps(
         voice_client=voice_client,
         voice_model_id=voice_model_id,
