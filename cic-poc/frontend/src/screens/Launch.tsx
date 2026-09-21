@@ -66,7 +66,10 @@ export function Launch({
                   </div>
                 </div>
                 <div className="world-card__subtitle">{world.place}</div>
-                <p className="world-card__thinness">{world.thinnessStatement}</p>
+                <details className="world-card__thinness">
+                  <summary className="world-card__thinness-label">What this voice knows well</summary>
+                  <p>{world.thinnessStatement}</p>
+                </details>
                 <div className="world-card__actions">
                   <button
                     type="button"

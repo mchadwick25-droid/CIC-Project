@@ -68,17 +68,17 @@ export function TableRoom({
               </div>
             ))}
           </div>
-          <div className="arrival__thinness">
-            <div className="arrival__thinness-label sans">What each voice knows well — and doesn't</div>
+          <details className="arrival__thinness">
+            <summary className="arrival__thinness-label sans">What each voice knows well — and doesn't</summary>
             {seatedWorlds.map((w) => (
               <p key={w.worldKey}>
                 <strong>{w.representativeName}:</strong> {w.thinnessStatement}
               </p>
             ))}
-            {anyLivingTradition && (
-              <p className="arrival__living-tradition">These are bounded historical reconstructions, not today's churches of the same names.</p>
-            )}
-          </div>
+          </details>
+          {anyLivingTradition && (
+            <p className="arrival__living-tradition">These are bounded historical reconstructions, not today's churches of the same names.</p>
+          )}
           <div className="arrival__disclosure sans">
             <p>
               The system exists to reveal Jesus through the witness of his church across history. Every other outcome
