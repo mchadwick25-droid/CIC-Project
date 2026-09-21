@@ -37,11 +37,22 @@ marked PASS on assertion alone.
   controls are aspirational, not implemented. The threat model needs a
   refresh pass to describe what's actually running, or it stops being a
   reliable audit input.
-- **FAIL** — the threat model states "5/min + 20/day per-IP" limits
-  (Artifact-6-Operations.md line 24); the shipped limiter
-  (`engine/api/ratelimit.py` lines 36–37, post this package's own change)
-  is 6/min create, 40/min converse, 10/min admin — no daily bucket at
-  all (see item 3, which proposes one, not yet decided).
+- **Correction, closing adversarial review:** the original draft of this
+  item cited the threat model's "5/min + 20/day per-IP attempt limits"
+  (Artifact-6-Operations.md line 24) as a general volume-limit spec the
+  shipped limiter under-delivers on, and drew the wrong conclusion from
+  it. That line is the **session-code guessing** row of the threat
+  model's own table — i.e. an *authentication anti-automation* control,
+  not a spend-volume one. Read correctly, it pointed at a real gap this
+  package had otherwise missed: `GET /transcript` and
+  `/round-close-reasons` both guess a session code through the identical
+  401 the message/continue POSTs use, and neither was in
+  `engine/api/ratelimit.py`'s own path match before this PR — an
+  unlimited-rate credential-guessing surface. **Fixed**: both GETs now
+  share the conversation-traffic bucket (see item 6 below). The separate,
+  still-open question — no *daily* ceiling on spend-bearing traffic at
+  all — is item 3's own subject, not this citation's, and remains not yet
+  decided.
 
 ### V2 — Authentication
 - **PASS** — session code: 128-bit CSPRNG (`engine/m4/session_code.py`
@@ -61,12 +72,15 @@ marked PASS on assertion alone.
   at all (ASVS V2.2.1, anti-automation on authentication): zero cost to
   an attacker trying tokens at unlimited rate. Fixed — see item 6 below
   and `engine/api/ratelimit.py`'s new `ADMIN_LIMIT` bucket (this PR).
-- **FAIL (gap, not fixed)** — no minimum-entropy/format validation on
-  `CIC_API_ADMIN_TOKEN` at load time (`engine/api/config.py`,
-  `Settings.from_env`) — an operator could set a short, low-entropy
-  token and the app would accept it silently. Low severity (operator-set,
-  not participant-facing), noted rather than fixed to keep this PR
-  minimal; a one-line length check (e.g. refuse to start below 32 chars)
+- **FAIL, fixed after the closing adversarial review** — no minimum-
+  entropy/format validation on `CIC_API_ADMIN_TOKEN` at load time
+  (`engine/api/config.py`, `Settings.from_env`) — an operator could set a
+  short, low-entropy token and the app would accept it silently. Flagged
+  by the review as interacting multiplicatively with the admin rate
+  limiter above (a limiter's whole point is making a weak token
+  infeasible to brute-force in reasonable time — irrelevant against a
+  token short enough to guess outright). Fixed: `Settings.from_env` now
+  raises `WeakAdminTokenError` on a set-but-under-32-char token.
   is a reasonable follow-up.
 
 ### V3 — Session Management
@@ -96,7 +110,19 @@ marked PASS on assertion alone.
   all free of session/operator data.
 
 ### V5 — Validation, Sanitization and Encoding
-- **PASS** — every request body is a typed Pydantic model.
+- **Correction, closing adversarial review — was PASS, now FAIL-then-fixed:**
+  the original draft marked this PASS on "every request body is a typed
+  Pydantic model." Typed is not validated, and the review caught the real
+  gap this glossed over: `MessageRequest.text` (`engine/api/app.py`) had
+  **no length bound anywhere in the request path** — not this model, not
+  `engine/m4/turn.py`, not the Dockerfile. Every participant message is
+  forwarded to Bedrock twice per turn (the safety gate, then voice
+  generation) and stored verbatim, at up to 40 messages/min per IP
+  (`engine/api/ratelimit.py`'s own `CONVERSE_LIMIT`). Output was already
+  bounded (`max_tokens` on the generation call); input wasn't — textbook
+  OWASP LLM Top 10 "unbounded consumption," and cheaper for an attacker to
+  reach than the session-creation path item 3 addresses. **Fixed**:
+  `MessageRequest.text` now carries `Field(max_length=4000)`.
 - **PASS** — zero raw string interpolation into SQL anywhere in
   `engine/m4/store.py` / `engine/m8/log_store.py`; every query uses `?`
   placeholders with bound values.
@@ -227,14 +253,29 @@ marked PASS on assertion alone.
 
 | Result | Count | Notes |
 |---|---|---|
-| PASS | 20 | |
-| FAIL — fixed in this package | 2 | admin rate limiting (V2/V14 adjacent) |
+| PASS | 25 | |
+| FAIL — fixed in this package | 4 | admin rate limiting, admin token entropy, message-length cap (V5), session-code-guessing GETs unprotected (V1 correction) |
 | FAIL — real gap, handed off or flagged for follow-up | 6 | encryption at rest (→Package 6), security headers, Cache-Control, dependency pinning, threat-model drift (x2) |
-| NOT-APPLICABLE | 3 | logout, file upload, threat-model-vs-reality noted separately |
+| NOT-APPLICABLE | 2 | logout, file upload |
 | UNVERIFIED | 3 | V5 prompt-injection code trace, V7 500-handler shape, V14 server header |
+
+(The IAM policy's ARN syntax error is a defect in item 2's own artifact, not an ASVS checklist line — counted separately below, not in this table.)
 
 No item above is a silent pass. Every FAIL either has a fix in this
 package's own PRs or a named owner/destination below.
+
+**A closing adversarial review (Opus, 2026-09-21 — full findings in
+`Decision-Log.md` entry 8) found three genuinely blocking defects across
+this package's own PRs, all now fixed**: this PR's IAM policy had an ARN
+syntax error that would have made its own "least-privilege" grant
+authorize nothing at the foundation-model layer (see item 2 below); PR
+#377's anonymous cap was fully bypassable via unlimited token harvesting
+(the cap didn't cap); and PR #376's dependency audit had been run against
+a tree that no longer matched `main`. The review also caught a client-IP-
+spoofing bypass of every rate limiter in this file (including this PR's
+own admin fix) and the two V2/V5 findings folded into the counts above.
+Every item below reflects the POST-review, fixed state, not the original
+draft.
 
 ---
 
@@ -250,8 +291,25 @@ inference profile's constituent regions (required for cross-region
 routing to actually authorize — a common, easy-to-miss Bedrock IAM
 mistake), plus `bedrock:ListInferenceProfiles` for the startup resolution
 call. One policy, two separate IAM users/credentials (`cic-bedrock-prod`,
-`cic-bedrock-staging`) — separate blast radius, not separate scope, since
-both services call the exact same models.
+`cic-bedrock-staging`) for rotation and CloudTrail-attribution separation.
+
+**Corrected after the closing adversarial review:** the original draft
+put `<AWS_ACCOUNT_ID>` in all eight resource ARNs. Bedrock foundation-
+model ARNs have no account segment at all
+(`arn:aws:bedrock:${Region}::foundation-model/${id}` — AWS-owned, not
+account-owned resources) — applied as originally written, the policy
+would have authorized correctly at the inference-profile layer and
+granted **nothing** at the foundation-model layer, producing exactly the
+intermittent, region-dependent `AccessDenied` the runbook's own
+troubleshooting section warns about, for a reason its own hint (adjust
+the region list) would never have led anyone to. Fixed: the account id
+now appears only on the two `inference-profile/` ARNs. Also corrected:
+the runbook's "two identities, one policy" section originally claimed
+this setup gives blast-radius containment between prod and staging — it
+doesn't (both credentials can invoke the exact same models, region, and
+account); reworded to claim only what two access keys actually buy
+(rotation and attribution), and to say plainly what would be needed for
+real containment if that's ever wanted.
 
 **Not applied.** Creating the IAM user and policy in AWS, and setting the
 resulting keys in the Render dashboard, is Mark's own account action —
@@ -278,6 +336,40 @@ sessions/day, 150 turns/day) need Mark's decision before
 `CIC_API_ANON_CAP_ENABLED` is ever set anywhere. Per `CLAUDE.md`'s
 escalation table, participant-facing flow is always-ask, and this
 package didn't pick silently — see Decision-Log entry 4.
+`CIC_API_ANON_CAP_ENABLED`/`_VISITOR_SECRET` are now declared explicitly
+in `render.yaml` as `"0"`/`sync: false` (not left unset), so the pending
+decision has a visible, reviewable config-as-code home once Mark makes it.
+
+**Corrected after the closing adversarial review — the built option A did
+not actually cap anything.** Three blocking defects, all traced to one
+gap: no test in the original suite ever exercised a real HTTPS cookie
+round-trip, so the cookie path shipped unverified.
+1. A fresh, empty-bucket token was minted on **every** request, including
+   ones the cap had just refused with a 429 — an attacker deleting their
+   cookie before each request harvested an unbounded supply of tokens
+   without ever needing to succeed once. Fixed: minting only happens on
+   the allowed path now, and a new token is seeded from the requesting
+   IP's own current count rather than starting at zero — bounds the
+   exploit to a small, rate-limited residual instead of eliminating the
+   cap outright (exact bound in `DailyVisitorLimiter.mint_seeded_token`'s
+   own docstring).
+2. Middleware registration order was backwards (Starlette's stack is
+   LIFO), so the daily-quota check actually ran *before* the cheap per-IP
+   burst check, meaning a request the burst limiter was always going to
+   reject still spent daily quota first. Fixed by swapping registration
+   order in `create_app`.
+3. The test suite's `TestClient` used the default `http://` base URL; the
+   visitor cookie is (correctly) `Secure`, and no `Secure` cookie ever
+   round-trips over plain HTTP in a real client — so "cookie persists
+   across requests" tests were silently landing in the IP-fallback bucket
+   instead of exercising the real per-visitor path the whole time. Fixed,
+   plus two new tests that directly reproduce the harvesting exploit and
+   pin it bounded, not unlimited.
+
+113 tests now pass on this branch (full `engine/api/` suite), including
+16 in `test_anon_cap.py` (7 new — two direct regression tests for the
+harvesting exploit and the double-charge ordering bug, plus the fixed
+`https://` base URL that made the existing cookie tests meaningful).
 
 ---
 
@@ -305,8 +397,28 @@ redirect talk-down), `probes/probes.yaml` + `probes/run_probes.py`.
 (does the real model resist these 40 probes) has no answer yet. Handing
 this forward explicitly: whoever has network access to
 `cic-engine-staging` needs to run `probes/run_probes.py --base-url
-https://cic-engine-staging.onrender.com` and grade each
+https://cic-engine-staging.onrender.com --world alx` (a real, admitted
+world — **not** `--world fix`, see below) and grade each
 `response_excerpt` against its `expect` line.
+
+**Corrected after the closing adversarial review:** the hand-off command
+above originally named `--world fix`, the synthetic fixture world, which
+`engine/api/app.py`'s own comment says must never be participant-
+reachable. `fix` has no real Representative persona (defeats the 9 PB
+probes), nothing sealed behind it (defeats the 6 SEAL probes), and none
+of the historical-otherness texture 9 of the FRT probes' `expect` lines
+depend on — the live run would have completed and reported success while
+testing almost nothing the categories actually name. Fixed the example
+and added the same warning to `run_probes.py`'s own usage docstring, at
+the point anyone would actually read it before invoking the script.
+
+Also flagged by the review, documented but not built in this pass (see
+`probes/RESULTS.md`'s own "Known limitation" section): all 40 probes are
+direct injection through the participant's own message. Indirect
+injection via retrieved corpus content, and probes aimed at the safety
+classifier itself rather than at talking a voice model out of an
+already-fired redirect, are both real, higher-value gaps — recommended as
+a named, separate follow-up probe set rather than built blind here.
 
 ---
 
@@ -314,12 +426,28 @@ https://cic-engine-staging.onrender.com` and grade each
 
 PR #376. `pip-audit` clean on both files the production Dockerfile
 installs (`engine/api/requirements.txt`, `engine/m1/requirements.txt`).
-`npm audit` on `cic-poc/frontend`: 8 findings, all in devDependencies
-(vite's build toolchain), none reaching the served `dist/` bundle. 6/8
-fixed non-breaking (`npm audit fix`), build and typecheck verified clean
-after. Remaining 2 (esbuild/vite, coupled) need an uncertified vite 5→8
-major bump — **waived: ACCEPTED_OPEN, owner Mark, dated 2026-09-21**,
-revisit when `@vitejs/plugin-react` certifies vite 8 support.
+
+**Corrected after the closing adversarial review — the original audit was
+run against a stale tree.** This branch was the only one of the
+package's four not based on current `main`; its merge-base predated
+`main`'s own commit `9321610b` ("Fix frontend-tests CI: jsdom 30.x
+requires Node >=22, CI runs Node 20"), which added `vitest`, `jsdom`,
+`@testing-library/react`, and `@testing-library/jest-dom` as new
+devDependencies — none of which were in scope when the original `npm
+audit` ran. Merged `main` in and re-ran the audit against the real
+current tree.
+
+The picture changed: 5 findings (3 moderate, 1 high, 1 **critical** —
+`GHSA-5xrq-8626-4rwp`, arbitrary file read/execution when vitest's UI
+server is listening), still all devDependency-only. Unlike the previous
+round's 2 waived findings, `npm audit fix --force` (vite 5→8, vitest
+2→5) this time verified **fully clean**: both `npm run build` and `npm
+test` (`vitest run`, the mode CI actually uses) pass with no changes
+needed beyond the version bump. Took the full fix rather than waiving —
+`npm audit` now reports **0 vulnerabilities**. The `@vitejs/plugin-react`
+peer-range warning from the previous round is still present (it doesn't
+officially list vite 8 yet) but no longer blocks taking the fix once
+build and test are both empirically confirmed passing on it.
 
 ---
 
@@ -331,7 +459,19 @@ guess the token at unlimited rate with zero cost per attempt.
 `engine/api/ratelimit.py` now covers `/api/admin/*` with its own 10/min
 per-IP bucket, same mechanism as the existing session/conversation
 limiters. This is genuinely this package's own scope (ASVS V2.2.1,
-directly security-relevant, small), not a hand-off.
+directly security-relevant, small), not a hand-off. Also fixed, both
+caught by the closing adversarial review: `client_ip()` (the same
+function every limiter in this file keys on) trusted the *first*
+`X-Forwarded-For` entry, which a standard reverse proxy (Render's edge
+included) appends the real peer onto rather than replacing — so the
+first entry is exactly the part a client controls directly, and trusting
+it let anyone bypass every limiter in this file, this PR's own admin fix
+included, with one request header. Now takes the last entry. And the two
+GET endpoints (`/transcript`, `/round-close-reasons`) that guess a
+session code through the identical 401 the message/continue POSTs use
+were never in this limiter's own path match at all — same ASVS V2.2.1
+class, the participant-facing instance rather than the operator-facing
+one, closed the same way.
 
 **Findings, not fixed here — handed to Package 2 (Operations) and
 Package 6 (Privacy) by name**, per this package's own instruction that
@@ -368,27 +508,54 @@ item 6 is findings-plus-trivial-fixes only:
 
 ## Done bar
 
+**Corrected after the closing adversarial review** — two lines below were
+checked off before they were actually true (the review caught this too,
+as its own finding S10). Both are accurate now, reflecting the state
+after every fix documented above and in `Decision-Log.md` entry 8.
+
 - [x] ASVS L1 checklist on file, no unexplained fails (item 1, above —
       every FAIL has a fix, an owner, or an explicit follow-up)
-- [x] IAM policy document and runbook steps written (item 2) — **not
+- [x] IAM policy document and runbook steps written, and corrected for
+      the ARN-syntax defect the closing review caught (item 2) — **not
       applied; Mark's own account action**
-- [x] Anonymous cap merged behind a flag, options presented to Mark,
-      not yet decided (item 3 — **open escalation**, Decision-Log entry 4)
-- [x] Probe results with response excerpts (item 4) — **live run against
-      a real model not done**, structural harness proven, handed forward
-      explicitly
-- [x] Dependency audit clean or waived with an owner and date (item 5)
-- [x] Closing Opus adversarial review — see Decision-Log entry 8 once run
+- [ ] Anonymous cap — code fixed (was fully bypassable; now bounded, see
+      item 3 above) and 4 PRs open, **none merged yet** — options
+      presented to Mark, not yet decided (item 3 — **open escalation**,
+      Decision-Log entry 4)
+- [ ] Probe results with response excerpts (item 4) — **live run against
+      a real model not done**, structural harness proven and its own
+      world-choice bug fixed, handed forward explicitly
+- [x] Dependency audit clean (item 5 — re-run against current `main`
+      after the closing review caught the original run was stale; 0
+      vulnerabilities, no waiver needed anymore)
+- [x] Closing Opus adversarial review run — findings above; every
+      BLOCKING and SHOULD-FIX finding addressed in a follow-up commit on
+      its own PR, see `Decision-Log.md` entry 8 for the full list and
+      what's fixed vs. accepted-open
 
 ### For the reviewer thread
 
-Checked against ASVS L1: 20 PASS, 2 FAILs fixed in-package, 6 real gaps
-named with an owner or explicit follow-up (none silently dropped), 3
+Checked against ASVS L1: 25 PASS, 4 FAILs fixed in-package (2 of them —
+the message-length cap and the session-code-guessing GETs — found only
+by the closing adversarial review, not the original pass), 6 real gaps
+named with an owner or explicit follow-up (none silently dropped), 2
 architectural not-applicables, 3 explicitly UNVERIFIED rather than
 guessed either way. Checked against the LLM Top 10: unbounded consumption
-has a proposed, not-yet-decided fix (item 3) plus this package's own
-rate-limiting fix (item 6/admin); prompt injection has a 40-probe set
-whose live-model run is not yet complete (item 4); sensitive-information
-disclosure has one real open gap (encryption at rest, handed to Package
-6) and no other findings from this pass. AWS least-privilege identity has
-a written policy and runbook, not yet applied (item 2, Mark's action).
+has this package's own rate-limiting and message-length fixes (item 6)
+plus a proposed, not-yet-decided daily-cap mechanism whose code was
+fully bypassable until the closing review caught it — now bounded, not
+yet merged (item 3); prompt injection has a 40-probe set whose live-model
+run is not yet complete, and whose hand-off command pointed at the wrong
+world until corrected (item 4); sensitive-information disclosure has one
+real open gap (encryption at rest, handed to Package 6) and no other
+findings from this pass. AWS least-privilege identity has a written
+policy and runbook — corrected after the review found an ARN-syntax
+error that would have made the policy authorize nothing at the
+foundation-model layer — not yet applied (item 2, Mark's action).
+
+**None of this package's four PRs are merged.** All four (#376, #377,
+#378, #379) carry a follow-up commit addressing the closing review's
+findings and are ready for Mark's review; none should be treated as
+"done" until actually merged, and #377 (the anonymous cap) additionally
+needs his mechanism/numbers decision before `CIC_API_ANON_CAP_ENABLED`
+is ever set to `"1"` anywhere.

@@ -93,5 +93,118 @@ get-inference-profile` before applying. **Creating the IAM user/policy
 in AWS and setting it in the Render dashboard is Mark's own account
 action, not done here.**
 
-**8. 2026-09-21 — Closing Opus adversarial review.** [To be appended once
-run — see Report.md's own closing section for the outcome.]
+**8. 2026-09-21 — Closing Opus adversarial review: 3 blocking, 8
+should-fix, 5 nice-to-have findings, all triaged and addressed.** Run
+against all four branches (checked out in an isolated worktree, diffed
+against `main`, several findings empirically reproduced with a live
+FastAPI TestClient rather than reasoned about). Full findings text is in
+the review agent's own report (not duplicated here in full — this entry
+is the disposition of each one). Headline: the review found this
+package's own artifacts didn't do what they claimed in three places, all
+now fixed:
+
+- **BLOCKING, fixed (PR #377):** `anon_cap.py` minted a fresh, empty-
+  bucket visitor token on every request, including ones the cap itself
+  had just refused with a 429 — an attacker who deletes their cookie
+  before each request harvested an unbounded supply of tokens without
+  ever needing to succeed once, so the daily cap enforced nothing against
+  a deliberate attacker. Fixed: minting only on the allowed path, seeded
+  from the requesting IP's current count rather than zero (bounds the
+  residual instead of eliminating it — accepted, documented tradeoff, see
+  `mint_seeded_token`'s own docstring). Also fixed in the same commit:
+  middleware registration order was backwards (daily-quota check ran
+  before the cheap burst check, double-charging quota on requests the
+  burst limiter would reject anyway), and the test suite's `TestClient`
+  never actually round-tripped the (correctly) `Secure` cookie over its
+  default `http://` base URL, so the cookie path had shipped unverified.
+  Added 7 regression tests, 2 of them direct reproductions of the
+  harvesting exploit and the double-charge bug.
+- **BLOCKING, fixed (PR #379):** `iam-policy-cic-bedrock-prod.json`'s
+  foundation-model ARNs carried `<AWS_ACCOUNT_ID>`, which Bedrock
+  foundation-model ARNs don't have (they're AWS-owned, account-less
+  resources). Applied as written, the policy would have authorized at
+  the inference-profile layer and failed with `AccessDenied` at the
+  actual model call — exactly the intermittent, region-dependent failure
+  `IAM-Runbook.md`'s own step 8 warns about, for a reason its own
+  troubleshooting hint wouldn't have found. Fixed the JSON and the
+  runbook's incorrect "six places" instruction.
+- **BLOCKING, fixed (PR #376):** the dependency-audit branch was the only
+  one of the four not based on current `main` — its audit predated
+  `main`'s own addition of `vitest`/`jsdom`/testing-library
+  (`9321610b`), so none of those new devDependencies were ever actually
+  audited. Merged `main` in and re-ran: the real current tree has 5
+  findings including one CRITICAL (`GHSA-5xrq-8626-4rwp`). Unlike the
+  original 2 waived findings, this round's `npm audit fix --force`
+  verified fully clean end to end (build + `vitest run`, the mode CI
+  uses) — took the full fix. `npm audit` now reports 0 vulnerabilities;
+  the earlier ACCEPTED_OPEN waiver (entry 3, above) is superseded and no
+  longer needed.
+
+**SHOULD-FIX, all addressed:**
+- `client_ip()` trusted the *first* X-Forwarded-For entry; a standard
+  reverse proxy appends the real peer rather than replacing the header,
+  so the first entry is attacker-controlled — bypassed every limiter in
+  `ratelimit.py`, this package's own admin fix included, with one request
+  header. Fixed: takes the last entry now (PR #379).
+- `GET /transcript` and `/round-close-reasons` guess a session code
+  through the identical 401 the message/continue POSTs use but were never
+  in the rate limiter's path match — unlimited-rate credential guessing,
+  same ASVS class as the admin-token finding this package already fixed,
+  just the participant-facing instance of it. Fixed: both GETs now share
+  the conversation-traffic bucket (PR #379).
+- No bound anywhere on participant message length — unbounded input
+  forwarded to Bedrock twice per turn, textbook OWASP LLM Top 10
+  "unbounded consumption," and the ASVS checklist had marked the relevant
+  item PASS on "typed" without checking "validated." Fixed: `Field(
+  max_length=4000)` on `MessageRequest.text` (PR #379).
+- `CIC_API_ADMIN_TOKEN` had no minimum length, which interacts
+  multiplicatively with the admin rate limiter this package added (a
+  limiter's job is making a weak token infeasible to brute-force in
+  reasonable time — irrelevant against a token short enough to guess
+  outright). Fixed: `Settings.from_env` refuses a set-but-under-32-char
+  token (PR #379).
+- The IAM runbook's "two identities, one policy" section claimed
+  blast-radius containment between prod and staging credentials; two
+  access keys under an identical policy give rotation and CloudTrail
+  attribution, not containment (both can invoke the same models, region,
+  account). Reworded to claim only what's actually true (PR #379).
+- The probe hand-off command named `--world fix` (the synthetic fixture
+  world, which must never be participant-reachable) — a live run against
+  it would have completed and reported success while testing almost
+  nothing the PB/SEAL/FRT categories actually name. Fixed the example and
+  `run_probes.py`'s own usage docstring (PR #378).
+- `Report.md`'s Done bar had two items checked off before they were true
+  ("merged" for an unmerged PR, the review itself checked off before it
+  ran). Fixed (this PR).
+- A thread-continuation bug in `run_probes.py`: if a threaded probe's
+  first session failed to create, later members of the same thread
+  silently opened their own unrelated sessions instead of surfacing that
+  the thread never happened as designed. Fixed (PR #378).
+
+**NICE-TO-HAVE, addressed where cheap, logged where not:**
+- `RESULTS.md`'s "20/8/8/6/9/9" summed to 60, not 40 (the correct
+  8/8/6/9/9 was already right elsewhere in the same file) — fixed.
+- `run_probes.py`'s docstring advertised a `--admin-token` flag that was
+  never actually registered — removed.
+- **ACCEPTED_OPEN, not built in this pass:** the 40-probe set is entirely
+  direct-injection-via-participant-text; indirect injection via retrieved
+  corpus content, and probes targeting the safety classifier itself
+  (rather than talking a voice model out of an already-fired redirect),
+  are both real, higher-value gaps this package didn't have the corpus-
+  injection surface mapped well enough to test blind. Documented in
+  `probes/RESULTS.md` as a named follow-up (a second, smaller probe set),
+  owner: whoever picks up item 4's live run. Dated 2026-09-21.
+- **FALSE ALARMS the review checked and confirmed fine, not touched:**
+  the visitor cookie's `secure=True` flag (correct — Render always
+  terminates TLS, and this only ever broke the test harness, which is
+  where it was fixed); `bedrock:ListInferenceProfiles` with `Resource:
+  "*"` (correct — it's an unscopable list action); the cross-region
+  constituent-region claim in the IAM runbook (substantively correct AWS
+  behavior); the admin endpoint's response body (no participant data);
+  eleven separate ASVS PASS spot-checks; no credential leaks in any of
+  the four diffs; no fail-open logic introduced anywhere.
+
+All four PRs (#376, #377, #378, #379) carry a follow-up commit addressing
+this review and are pushed. None are merged. Mark's decision on item 3's
+cap mechanism/numbers (entry 4) remains the one open item this session
+cannot close on its own.
