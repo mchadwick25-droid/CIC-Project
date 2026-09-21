@@ -66,7 +66,10 @@ export function ChatInput({ onSend, onEnd, placeholder, disabled = false }: Chat
         </button>
       </form>
       <div className="conversation__end">
-        <button type="button" onClick={onEnd} disabled={disabled}>
+        {/* Stage 0b (Build-Plan.md): Leave never takes `disabled` - a
+            participant mid-turn or inside an open Table round must still
+            be able to walk away. Only Send/the textarea gate on it. */}
+        <button type="button" onClick={onEnd}>
           Leave for now
         </button>
       </div>
