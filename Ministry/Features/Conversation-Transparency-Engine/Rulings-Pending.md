@@ -101,6 +101,22 @@ fix.
 **Recommend (a)** — a one-line confirmation, not really a groan-zone
 decision; D1 makes the honesty half load-bearing rather than cosmetic.
 
+**Stage 1 D1 measurement (2026-09-21):** confirmed concretely, not just in
+principle. Of 714 `do_not_retrieve_when` lines fleet-wide, only 13 (1.8%)
+are genuine honesty-guard clauses (a barred proposition, e.g. Brictio's
+succession) — the other 701 are ordinary retrieval-scoping notes ("ask
+about X instead, retrieve that record"), a different purpose entirely. The
+field really is dead for the honesty purpose today: one shared field
+quietly carrying two unrelated jobs, the smaller one almost invisible
+inside the larger. Separately (see Decision-Log.md's own Stage 1 entry):
+even those 13 real guard clauses, fabricated as flat assertions and
+tagged to their own record, were caught by `check_turn()` only 2 times in
+13 — both catches rode on a proper noun the fabrication introduced, not on
+the guard clause itself being read at all. A structural split (this
+ruling) makes the honesty half a real, addressable field; it does not by
+itself make the checker enforce it — that is further engineering, not
+this ruling's own scope.
+
 ### R12 — What "library accessed live" should actually mean
 **Status:** PENDING
 Live full-text access to the vendored sources during a conversation (a
