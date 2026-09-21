@@ -69,7 +69,23 @@ workstream cleanly and is handed to Mark to assign, not claimed by this one.
 
 **Entry 6 — 2026-09-21.** Report and this log published; an entry appended
 to `Ministry/Features/Conversation-Transparency-Engine/Decision-Log.md`
-(that workstream's own Entry 28) naming the divergence inventory and the
-promotion PR set now in front of Mark, per the launch brief's own
-instruction to hand this to both Mark and that workstream. No file inside
-that workstream's own directory was edited beyond that one append.
+(drafted as that workstream's own Entry 28, landed as **Entry 30** — a
+merge from `origin/main` picked up two of that workstream's own entries,
+R19's ruling and ten more rulings (Entries 28–29), concurrently added while
+this report was being written; renumbered on merge, per that file's own
+"never renumber a past entry" rule, since this package's entry was the
+later arrival) naming the divergence inventory and the promotion PR set now
+in front of Mark, per the launch brief's own instruction to hand this to
+both Mark and that workstream. No file inside that workstream's own
+directory was edited beyond that one append.
+
+**Entry 7 — 2026-09-21.** While resolving the Entry 6 merge conflict, noted
+that `origin/main` had advanced again since the divergence inventory in
+`Report.md` §1 was written (`c9b09ea1` → `4bd45804`, the R19/R5–R18 rulings
+above) — a normal, expected consequence of an active concurrent workstream,
+not a defect in the report. `Report.md`'s own commit-hash citations
+(`c9b09ea1`/`e693b048`) are left as the commits actually compared, not
+updated to chase a moving target; the divergence categories and the
+promotion PR sequencing they support are unaffected by this specific
+advance (none of the four new commits touch `engine/m2/`, `engine/m6/`,
+`cic-website/`, or the `lpc` world's own registration status).
