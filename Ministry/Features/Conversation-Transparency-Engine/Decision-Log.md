@@ -136,3 +136,80 @@ Node ≥22, crashing every test file at import under CI's pinned Node 20 —
 reproduced locally on both Node 20 and 22, fixed by pinning `jsdom` to
 `26.1.0`. Full suite + fleet gates green; `npx tsc --noEmit` and the new
 `npm test` clean on both Node versions.
+
+**Entry 8 — 2026-09-19.** Stage 2a merged (direct-to-main commit
+`ee5a4a64e`, predates the branch-protection rule requiring PRs): new
+`engine/m1/spoken_fields.py` (`SPOKEN_FIELDS` registry, roles
+`voice-diet | evidence-head | participant-label | instruction`), one
+source of truth in place of seven separate field lists previously
+scattered across `engine/m2/builders.py`, `engine/m4/evidence.py`,
+`engine/m4/citation_cards.py`, `engine/m1/gates.py`, and
+`engine/m1/cross_world.py` — all rewired to import from it (old
+locations carry "Relocated 2026-09-19" markers). AST test in
+`engine/m1/tests/test_spoken_fields.py` fails on any undeclared
+spoken-field read. Compiled bytes unchanged; determinism-check and
+staleness-check green with no repin, per the stage's own bar. Logged
+here retroactively — found genuinely done during a Build-Plan status
+audit, undocumented until now.
+
+**Entry 9 — 2026-09-19.** Stage 2b merged (direct-to-main commit
+`d78347389`): new `engine/m1/bar_screen.py` (`python -m
+engine.m1.bar_screen <world>`), reusing `engine/m7/instruments.py`
+primitives and `engine/m1/fk.py`. Fixture artifacts committed for all
+ten worlds: `worlds/<code>/build/bar-screen-2026-09-19.json`. Logged
+here retroactively, same as Entry 8.
+
+**Entry 10 — 2026-09-20.** Stage 3d merged (direct-to-main commit
+`b95315148`, 01:34 UTC, before the same day's 4c/4d/4f/3c PRs): new
+`gloss_forms` field on `term` records (`engine/m1/schemas.py`,
+additive, `technical | ordinary` per form) and the gating logic in
+`engine/m4/term_glosses.py` — an `ordinary` form only fires when the
+sentence citing it already cites that term's own record; everything
+else (including every pre-existing term) defaults to `technical` and
+fires on sight, unchanged. All five gallic records named in the
+stage's own Done bar carry the new field:
+`gallic.term.the-world-secular` ("the world", "secular"),
+`gallic.term.virtus` ("power"), `gallic.term.elder-senior-abbot`
+("elder", "senior"), `gallic.term.brethren` ("brethren"),
+`gallic.term.disciple-master` ("disciple", "master") —
+`engine/m4/tests/test_term_glosses.py` proves those five no longer
+fire uncited while Logos/hesychia/allegoria still do. Authoring rule
+drafted and flagged; `reference/L4-Templates/*` untouched, per the
+stage's own instruction. Logged here retroactively, same as Entry 8.
+
+**Entry 11 — 2026-09-20.** Stage 2e merged (direct-to-main commit
+`1329536a1`, 02:23 UTC): golden retrieval benchmark sets for the four
+worlds `Build-Plan.md` named as missing (cappadocian, don, gallic,
+rzg), 12–20 questions each, added to
+`engine/m4/reports/bench/{cappadocian,don,gallic,rzg}.json` alongside
+the six already committed — all ten worlds now covered — and baselines
+appended to `retrieval_bench.py`'s history. Per the stage's own rule
+("committed before any Stage 4 change"), this landed before the same
+day's Stage 4c Part 2/4d/4f work. Logged here retroactively, same as
+Entry 8.
+
+**Entry 12 — 2026-09-20.** Build-Plan status audit (this session,
+following up on the Entry 4-7 backfill finding that Decision-Log
+entries had gone missing before): a full re-check of every Stage 0, 1,
+2, and 3d sub-stage against its own literal "Done:" bar — not just
+whether a plausibly-named file exists — found Entries 8-11 above
+(2a, 2b, 2e, 3d) genuinely done and merely undocumented, matching the
+4-7 pattern. It also found eight sub-stages genuinely **not** built,
+not just unlogged: **0a** (concurrent `call_safety`/`call_reader` in
+`run_gate` — still fully sequential), **0b** (Leave button — still
+takes `disabled` in `ChatInput.tsx`, contradicting the stage's own bar
+verbatim; both callers pass a disabling prop), **0c** (`round_cap` —
+not exposed anywhere in the API/types/frontend, and `TableRoom.tsx`
+still hardcodes a literal round count in participant-facing copy,
+which the stage explicitly forbids), **0d** (`safety_script_run.py`
+has no `--all` combined-tally mode, only per-batch `--batch <n>`),
+**0e** (`observe_outside_help_guard` does not exist), **1** (D1
+grounding measurement — `grounding_fooling_measure.py` does not
+exist), **2c** (`observe_register_profile` does not exist; R6 has no
+filed ceiling proposal), **2d** (`engine/m9/holdings.py` does not
+exist; `COVERAGE`/`REGIONS`/`AUTHORS` were never relocated out of
+`cross_world.py`). R11 (gates Stage 4a/4b) confirmed still PENDING in
+`Rulings-Pending.md` — 4a/4b correctly untouched. Full detail in the
+audit transcript; this entry is the durable record. Next work: Stage 0
+(all sub-stages NOW, unblocked, no ruling required) in its own written
+order.
