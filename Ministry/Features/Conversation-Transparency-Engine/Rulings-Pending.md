@@ -36,9 +36,10 @@ stays fully memoryless; no replacement mechanism of any kind is built.
 frequency tuning beyond what already exists.
 
 ### R5 — A real "interrupt the round" affordance in Table mode
-**Status:** PENDING — this is general Table-mode UX (a participant leaving
-a multi-Representative round mid-way), not a safety-mechanism question;
-unaffected by the scope correction.
+**Status:** RULED (a) — 2026-09-21. See Decision-Log.md Entry 29.
+This is general Table-mode UX (a participant leaving a multi-Representative
+round mid-way), not a safety-mechanism question; unaffected by the scope
+correction.
 (a) A participant message sent mid-round simply closes that round
 server-side and the new message proceeds — no new UI control needed.
 (b) A dedicated, explicit Interrupt button. (c) Both.
@@ -46,7 +47,7 @@ server-side and the new message proceeds — no new UI control needed.
 new one.
 
 ### R6 — Register-drift scope, and whether numbers ever gate a build
-**Status:** PENDING
+**Status:** RULED (a) and (iii) — 2026-09-21. See Decision-Log.md Entry 29.
 Scope: (a) only the source's own original words are exempt from register
 screening; our own retellings are screened. (b) all story/quote fields
 stay exempt. (c) exempt everything except a `tellable_as` length/shape
@@ -93,14 +94,13 @@ OBSERVATION until R6 actually rules, per this stage's own "Gate promotion
 ... only after R6" bar.
 
 ### R7 — Fixing the fleet's already-drifted `tellable_as` text
-**Status:** PENDING
+**Status:** RULED (a) — 2026-09-21. See Decision-Log.md Entry 29. Was
+blocked on R6, now cleared by R6's own ruling in the same session.
 (a) A Sonnet thread does a capped-round pass per affected world. (b)
 Fixed by hand. (c) Full regeneration.
-**Recommend (a)** — matches how every other fleet-wide readability pass
-this project has run has actually gone. Blocked on R6.
 
 ### R8 — CLAUDE.md names a confidence level ("Not Attested") the code doesn't have
-**Status:** PENDING
+**Status:** RULED (c) — 2026-09-21. See Decision-Log.md Entry 29.
 (a) Add a sixth confidence enum value to match. (b) Amend CLAUDE.md down
 to the code's real five. (c) Amend CLAUDE.md to say what's actually true:
 "Not Attested" describes an absent claim (already modeled elsewhere as an
@@ -110,15 +110,14 @@ that exists.
 different kind of thing, and (a)/(b) both paper over that.
 
 ### R9 — A distinct mark for contested or thin-evidence claims
-**Status:** PENDING — sequencing gate, not a real decision yet
-Comes back for a real ruling only after the Stage 1 measurement is in
-front of Mark and R16/R17 are settled — the display design itself is
-already agreed, this is purely a sequencing gate.
-**Provisional** recommendation once unblocked: a quiet, non-alarming
-variant of the existing mark — not a new color, not a new verb.
+**Status:** RULED (a) — 2026-09-21. See Decision-Log.md Entry 29. Was a
+sequencing gate on the Stage 1 measurement plus R16/R17, all now cleared;
+proceeding with the design already agreed: a quiet, non-alarming hollow
+glyph — not a new color, not a new verb.
 
 ### R10 — Where a story's citation mark lands: first sentence or end of the telling
-**Status:** PENDING
+**Status:** RULED (c) — 2026-09-21. See Decision-Log.md Entry 29. Unblocks
+Stage 3c's renderer switch-on (label copy is still a separate step).
 (a) End of the telling, as built today. (b) First sentence, uniformly.
 (c) First sentence for a witness quote, end-of-run for a story. A
 repeated re-citation gets the lighter "ibid" glyph under any of the
@@ -152,7 +151,8 @@ itself make the checker enforce it — that is further engineering, not
 this ruling's own scope.
 
 ### R12 — What "library accessed live" should actually mean
-**Status:** PENDING
+**Status:** RULED (live resolution only) — 2026-09-21. See Decision-Log.md
+Entry 29.
 Live full-text access to the vendored sources during a conversation (a
 real architectural change), or live resolution of citations/evidence
 only, as already built.
@@ -160,7 +160,8 @@ only, as already built.
 currently overclaims this, no engineering change needed.
 
 ### R13 — Should the new "unused source" holdings check block a world from shipping?
-**Status:** PENDING
+**Status:** RULED (report-only for one cycle, then promote) — 2026-09-21.
+See Decision-Log.md Entry 29.
 Report-only for one build cycle, then promoted to blocking for new
 worlds — or blocking starting day one.
 **Recommend report-only for one cycle first** — lets Mark see the real
@@ -175,7 +176,7 @@ mechanism reports only, exactly as it does today. Not revisited later.
 by disclosure type.
 
 ### R16 — Every record fleet-wide is still marked "draft" — what does that mean for confidence display?
-**Status:** PENDING
+**Status:** RULED (c) — 2026-09-21. See Decision-Log.md Entry 29.
 (a) Define what "ready" actually means and run a per-world promotion pass
 keyed to review rounds already on record. (b) Rule that `status` is pure
 workflow bookkeeping and confidence display should draw only from the
@@ -186,7 +187,8 @@ its next real touch.
 once that world has actually been through its promotion pass.
 
 ### R17 — A hard budget on how many new transparency elements can stack on one screen
-**Status:** PENDING
+**Status:** RULED (approved as house rule) — 2026-09-21. See
+Decision-Log.md Entry 29.
 Proposal on the table: at most a small, capped number of inline marks per
 turn (scaling gently with sentence count), one collapsed references line
 instead of a scattered list, no new mark types beyond the one
@@ -197,7 +199,7 @@ test so no future change can silently stack past it — plus Mark's own
 read-through as a seeker with no background before Stage 6 ever ships.
 
 ### R18 — The onboarding text overclaims what the honesty check actually does
-**Status:** PENDING
+**Status:** RULED (a) — 2026-09-21. See Decision-Log.md Entry 29.
 Today's line tells a participant every claim is "checked against the
 record it came from" — true only in the sense of word-overlap, not
 truth-verification. (a) Reword now to describe what the mechanism
