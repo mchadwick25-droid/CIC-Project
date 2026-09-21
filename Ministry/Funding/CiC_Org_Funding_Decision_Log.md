@@ -352,6 +352,6 @@ worth a plan, not just a hope.
 
 **Tech-readiness program dispatched** (Mark: "they stand, dispatch wave 1"): P1 Security (OWASP ASVS L1, LLM Top 10), P2 Operations (SRE, Well-Architected Reliability), P3 Fidelity as a machine gate (NIST AI 600-1, Article 31). Six transparency-engine rulings taken by Mark one at a time (R16, R17, R9, R8, R10, R18) and handed to the existing transparency thread. Reports go to `Ministry/Operations/Audits/Tech-Readiness-2026-09/`.
 
-**Ministry tree triaged** (this PR): early-days strategy drafts to `Archive/Ministry-Early-Days-2026-07/`; five documents kept with supersession banners; FAQ and Letter to Friends kept as source material with their standing status written on them; the Covenant's always-free line carried into the Business Roadmap.
+**Ministry tree triaged** (this PR): early-days strategy drafts to `Archive/Ministry-Early-Days-2026-07/`; five documents kept with supersession banners; FAQ and Letter to Friends kept as source material with their standing status written on them; the Organizational Covenant's Article 2 commitment ("Money Buys Access, Never Voice" — core access stays free, money only widens the Table, never gates or influences) extracted and quoted with full attribution into `CiC_Business_Roadmap_V0_1.md` under "What stays true across every phase"; the Covenant itself moved to `Archive/Ministry-Early-Days-2026-07/Organization/`.
 
 **Next action:** Mark's answer on what the supplement pays for; reviewer thread reads the three wave-1 reports against their standards.

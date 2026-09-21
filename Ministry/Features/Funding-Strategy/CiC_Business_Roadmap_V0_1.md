@@ -111,6 +111,12 @@ IPO or venture-scale growth trajectory.
 
 ## What stays true across every phase
 
+Core access to the Table stays free. The Organizational Covenant (V0.1, Article 2 — "Money Buys
+Access, Never Voice") commits: *"Every dollar exists to widen the Table. No gift, grant, license,
+or sponsorship — of any size — selects worlds, shapes a Representative, softens a world's
+testimony, gates the transparency apparatus, or touches participant data."* Money's only role is
+to expand access for others, never to gate core participation or influence the encounter.
+
 Rigor and sourcing are never for sale. Sponsorship confers honor, never influence. No single
 institutional partner carries outsized weight or its appearance. Every pre-existing draft is
 source material until reworked and confirmed. Prove each rung with real signal before building
