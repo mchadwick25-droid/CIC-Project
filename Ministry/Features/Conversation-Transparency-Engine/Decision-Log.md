@@ -72,3 +72,144 @@ of broken things"). Stages 0, 2, 3, 4 of `Build-Plan.md` (conversation/
 transparency engine work — retrieval, library connection, citation/
 confidence display) are unaffected and continue. Stage 5 is removed from
 the build plan entirely, not just reordered.
+
+**Entry 4 — 2026-09-20.** Stage 4c Part 2 merged (PR #325, commit
+`2cb5efdad`): `retrieval_words()` relocated from `engine/m2/builders.py`'s
+private `_retrieval_words` to public `engine.prose.retrieval_words()` so
+`engine/m4/evidence.py` (runtime) and `engine/m2/` (compile-time) score
+against the identical retrieval-safe word set without `m4` importing
+`m2`. New Stage B2 fill in `select_cell_candidates`: when a cell's own
+coverage has zero candidates of a type, fill from whole-repository
+`retrieval_words()` overlap, capped at that type's `_TYPE_FLOORS`, tagged
+`retrieval_fill: True`. `retrieval_bench` fleet reach: 813 → 1152. Same
+PR also fixed a stale `ACCEPTED_OPEN` waiver (`site-portrait/witt`) in
+`engine/m1/cross_world.py`, found as a side effect of an unrelated CI
+investigation and confirmed pre-existing on `main` via git-worktree
+reproduction — root-cause fixed per the file's own "CLOSED" convention,
+not worked around. Full suite + fleet gates green.
+
+**Entry 5 — 2026-09-20.** Stage 4d merged (PR #326, commit `402153909`):
+`_tier_prior()` (`engine/m4/evidence.py`) adds +0.05/+0.02/+0 by
+`retrieval.tier` (1/2/other) to `select_cell_candidates`'s per-cell
+ranking, breaking near-ties toward "core" material. `retrieval_bench`:
+1152 → 1150 — a small, real, measured regression (4/118 questions moved),
+traced to the shared per-cell `budget_chars` interacting with tier-prior
+reordering on genuine score ties, and verified not an over-tuning
+artifact (identical swaps reproduce under the most conservative possible
+tie-break-only design). Surfaced to Mark via options rather than shipped
+or reverted silently; his ruling: ship it, document the tradeoff here.
+Full suite + fleet gates green.
+
+**Entry 6 — 2026-09-20.** Stage 4f merged (PR #334, commit `114925866`):
+`assemble_evidence` gained a new `secondary_context: str | None = None`
+parameter (deliberately not reusing the existing `history` list, which
+is shared with the live model call's own conversational memory and would
+have duplicated content already visible via `context_prefix`) — fills
+remaining `top_n_cells` slots from table-conversation context at lower
+priority than the participant's own message, tagged
+`from_secondary_context: True`. Wired from `table_wiring.py` via new
+`_secondary_context_text()`. `retrieval_bench`: byte-identical at 1150
+(interview mode never sets `secondary_context`, so the fixture-world
+bench is unaffected by design). Full suite, M8 hermetic usage check
+(no per-turn growth), and fleet gates green.
+
+**Entry 7 — 2026-09-20.** Stage 3c merged (PR #335, commit `bb1ef7552`):
+new `engine/m4/transparency_plan.py` work (Stage 3a/3b) was already
+merged in a prior session window; this PR closed the renderer half.
+Root cause of the "recurring, inconsistent" citation-mark dropout Mark
+had been describing: `VoiceTurnBody.tsx`'s legacy renderer reconstructed
+marks by searching finished text for each citation's own sentence, using
+three ad hoc dedup structures — `renderedStoryIds`/`renderedWitnessIds`
+suppressed a SECOND, non-consecutive citation of the same story/witness
+record turn-wide, and because story/witness sources were never passed to
+`addReference`, the repeat's sourcing was dropped entirely, not just its
+mark — the exact defect `transparency_plan.py`'s own docstring names.
+Fix: a new anchor-driven renderer reading the engine-computed
+`transparency` plan (every run, including repeats, gets its own mark via
+`anchorsByRunEnd`), dispatched behind `VITE_TRANSPARENCY_ANCHOR_RENDERER`
+(default off — current behavior — until R10 and label copy are ruled).
+Added `vitest` + `@testing-library/react`, a `test` script, and a
+`frontend-tests` CI job. A same-day follow-up push to this PR
+(`9321610b6`) fixed a real, unrelated CI failure found while verifying:
+`jsdom@30.1.0`'s bundled `undici` calls a webidl API only present on
+Node ≥22, crashing every test file at import under CI's pinned Node 20 —
+reproduced locally on both Node 20 and 22, fixed by pinning `jsdom` to
+`26.1.0`. Full suite + fleet gates green; `npx tsc --noEmit` and the new
+`npm test` clean on both Node versions.
+
+**Entry 8 — 2026-09-19.** Stage 2a merged (direct-to-main commit
+`ee5a4a64e`, predates the branch-protection rule requiring PRs): new
+`engine/m1/spoken_fields.py` (`SPOKEN_FIELDS` registry, roles
+`voice-diet | evidence-head | participant-label | instruction`), one
+source of truth in place of seven separate field lists previously
+scattered across `engine/m2/builders.py`, `engine/m4/evidence.py`,
+`engine/m4/citation_cards.py`, `engine/m1/gates.py`, and
+`engine/m1/cross_world.py` — all rewired to import from it (old
+locations carry "Relocated 2026-09-19" markers). AST test in
+`engine/m1/tests/test_spoken_fields.py` fails on any undeclared
+spoken-field read. Compiled bytes unchanged; determinism-check and
+staleness-check green with no repin, per the stage's own bar. Logged
+here retroactively — found genuinely done during a Build-Plan status
+audit, undocumented until now.
+
+**Entry 9 — 2026-09-19.** Stage 2b merged (direct-to-main commit
+`d78347389`): new `engine/m1/bar_screen.py` (`python -m
+engine.m1.bar_screen <world>`), reusing `engine/m7/instruments.py`
+primitives and `engine/m1/fk.py`. Fixture artifacts committed for all
+ten worlds: `worlds/<code>/build/bar-screen-2026-09-19.json`. Logged
+here retroactively, same as Entry 8.
+
+**Entry 10 — 2026-09-20.** Stage 3d merged (direct-to-main commit
+`b95315148`, 01:34 UTC, before the same day's 4c/4d/4f/3c PRs): new
+`gloss_forms` field on `term` records (`engine/m1/schemas.py`,
+additive, `technical | ordinary` per form) and the gating logic in
+`engine/m4/term_glosses.py` — an `ordinary` form only fires when the
+sentence citing it already cites that term's own record; everything
+else (including every pre-existing term) defaults to `technical` and
+fires on sight, unchanged. All five gallic records named in the
+stage's own Done bar carry the new field:
+`gallic.term.the-world-secular` ("the world", "secular"),
+`gallic.term.virtus` ("power"), `gallic.term.elder-senior-abbot`
+("elder", "senior"), `gallic.term.brethren` ("brethren"),
+`gallic.term.disciple-master` ("disciple", "master") —
+`engine/m4/tests/test_term_glosses.py` proves those five no longer
+fire uncited while Logos/hesychia/allegoria still do. Authoring rule
+drafted and flagged; `reference/L4-Templates/*` untouched, per the
+stage's own instruction. Logged here retroactively, same as Entry 8.
+
+**Entry 11 — 2026-09-20.** Stage 2e merged (direct-to-main commit
+`1329536a1`, 02:23 UTC): golden retrieval benchmark sets for the four
+worlds `Build-Plan.md` named as missing (cappadocian, don, gallic,
+rzg), 12–20 questions each, added to
+`engine/m4/reports/bench/{cappadocian,don,gallic,rzg}.json` alongside
+the six already committed — all ten worlds now covered — and baselines
+appended to `retrieval_bench.py`'s history. Per the stage's own rule
+("committed before any Stage 4 change"), this landed before the same
+day's Stage 4c Part 2/4d/4f work. Logged here retroactively, same as
+Entry 8.
+
+**Entry 12 — 2026-09-20.** Build-Plan status audit (this session,
+following up on the Entry 4-7 backfill finding that Decision-Log
+entries had gone missing before): a full re-check of every Stage 0, 1,
+2, and 3d sub-stage against its own literal "Done:" bar — not just
+whether a plausibly-named file exists — found Entries 8-11 above
+(2a, 2b, 2e, 3d) genuinely done and merely undocumented, matching the
+4-7 pattern. It also found eight sub-stages genuinely **not** built,
+not just unlogged: **0a** (concurrent `call_safety`/`call_reader` in
+`run_gate` — still fully sequential), **0b** (Leave button — still
+takes `disabled` in `ChatInput.tsx`, contradicting the stage's own bar
+verbatim; both callers pass a disabling prop), **0c** (`round_cap` —
+not exposed anywhere in the API/types/frontend, and `TableRoom.tsx`
+still hardcodes a literal round count in participant-facing copy,
+which the stage explicitly forbids), **0d** (`safety_script_run.py`
+has no `--all` combined-tally mode, only per-batch `--batch <n>`),
+**0e** (`observe_outside_help_guard` does not exist), **1** (D1
+grounding measurement — `grounding_fooling_measure.py` does not
+exist), **2c** (`observe_register_profile` does not exist; R6 has no
+filed ceiling proposal), **2d** (`engine/m9/holdings.py` does not
+exist; `COVERAGE`/`REGIONS`/`AUTHORS` were never relocated out of
+`cross_world.py`). R11 (gates Stage 4a/4b) confirmed still PENDING in
+`Rulings-Pending.md` — 4a/4b correctly untouched. Full detail in the
+audit transcript; this entry is the durable record. Next work: Stage 0
+(all sub-stages NOW, unblocked, no ruling required) in its own written
+order.
