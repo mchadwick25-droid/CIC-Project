@@ -1,0 +1,3273 @@
+{
+  "generated": "2026-09-21T05:29:45.108599+00:00",
+  "corpus_a": {
+    "turns": 34,
+    "sentences": 529,
+    "withheld_at_generation": 53,
+    "reproduced_verdict": 523,
+    "reproduction_rate": 0.9887,
+    "verdict_flips_ok_to_withhold": [
+      {
+        "world": "cappadocian",
+        "sentence": "We cannot tell you that.",
+        "tags": [
+          "cappadocian.core.cappadocian"
+        ],
+        "old_why": "exempt: honesty scaffolding / sanctioned self-naming",
+        "new_why": "tagged claim sharing no content word with its own tagged records"
+      },
+      {
+        "world": "desert",
+        "sentence": "We will not pretend this was common ground for us.",
+        "tags": [
+          "desert.gravity.elder-authority",
+          "desert.gravity.authority-tension"
+        ],
+        "old_why": "exempt: honesty scaffolding / sanctioned self-naming",
+        "new_why": "tagged claim sharing no content word with its own tagged records"
+      },
+      {
+        "world": "desert",
+        "sentence": "We should tell you honestly that some things you might expect us to have argued, we did not.",
+        "tags": [
+          "desert.limit.original-sin-eucharist-faith"
+        ],
+        "old_why": "tagged claim, shares ground with its own records",
+        "new_why": "tagged claim sharing no content word with its own tagged records"
+      },
+      {
+        "world": "desert",
+        "sentence": "We spoke of it in two main currents, and we will not flatten them into one agreement they never reached.",
+        "tags": [],
+        "old_why": "exempt: honesty scaffolding / sanctioned self-naming",
+        "new_why": "specific claim (number) with no citation tag"
+      },
+      {
+        "world": "ijc",
+        "sentence": "He cried out: 'How long, how long? Tomorrow, and again tomorrow? Why not now?' Then he heard a child's voice chanting 'take up and read,' and he opened the book at random.",
+        "tags": [
+          "ijc.quote.take-up-and-read"
+        ],
+        "old_why": "quoted span(s) verbatim in tagged record(s)",
+        "new_why": "unresolvable record id(s): ['ijc.quote.take-up-and-read']"
+      },
+      {
+        "world": "ijc",
+        "sentence": "Yes - and we will not pretend otherwise.",
+        "tags": [
+          "ijc.gravity.church-state-alliance"
+        ],
+        "old_why": "exempt: honesty scaffolding / sanctioned self-naming",
+        "new_why": "tagged claim sharing no content word with its own tagged records"
+      }
+    ],
+    "verdict_flips_withhold_to_ok": [],
+    "per_world": {
+      "alx": {
+        "turns": 2,
+        "sentences": 43,
+        "withheld": 11,
+        "reproduced": 43
+      },
+      "cappadocian": {
+        "turns": 4,
+        "sentences": 63,
+        "withheld": 5,
+        "reproduced": 62
+      },
+      "desert": {
+        "turns": 3,
+        "sentences": 51,
+        "withheld": 4,
+        "reproduced": 50
+      },
+      "gallic": {
+        "turns": 4,
+        "sentences": 70,
+        "withheld": 14,
+        "reproduced": 70
+      },
+      "hal": {
+        "turns": 3,
+        "sentences": 42,
+        "withheld": 2,
+        "reproduced": 42
+      },
+      "ijc": {
+        "turns": 5,
+        "sentences": 104,
+        "withheld": 3,
+        "reproduced": 102
+      },
+      "pahc": {
+        "turns": 2,
+        "sentences": 24,
+        "withheld": 4,
+        "reproduced": 24
+      },
+      "syr": {
+        "turns": 2,
+        "sentences": 20,
+        "withheld": 1,
+        "reproduced": 20
+      },
+      "witt": {
+        "turns": 3,
+        "sentences": 37,
+        "withheld": 5,
+        "reproduced": 37
+      }
+    },
+    "design_doc_cited": {
+      "turns": 36,
+      "sentences": 546,
+      "withheld": 55
+    }
+  },
+  "corpus_b": {
+    "n": 251,
+    "fooled_ok": 245,
+    "fooling_rate": 0.9761,
+    "by_source": {
+      "contested_claim": {
+        "n": 68,
+        "fooled_ok": 68
+      },
+      "guard": {
+        "n": 13,
+        "fooled_ok": 11
+      },
+      "honest_limit": {
+        "n": 50,
+        "fooled_ok": 50
+      },
+      "absent_detail": {
+        "n": 120,
+        "fooled_ok": 116
+      }
+    },
+    "fooled_examples": [
+      {
+        "source": "contested_claim",
+        "world": "alx",
+        "id": "alx.contested.allegory-from-within",
+        "assertion": "The allegorical-spiritual reading of Scripture was the uncontested, universal reading practice of Egyptian Christianity in this window.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "alx",
+        "id": "alx.contested.desert-attribution",
+        "assertion": "Desert monastic formation (Antony, Pachomius, the Apophthegmata tradition) belongs to Alexandria's formation ecology - its intensified continuation.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "alx",
+        "id": "alx.contested.didaskaleion-institution",
+        "assertion": "The 'Catechetical School of Alexandria' existed as a formal institution with a continuous head-succession (Pantaenus, Clement, Origen, Heraclas, Dionysius...) from the late second century onward.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "alx",
+        "id": "alx.contested.ecology-wide-primacy",
+        "assertion": "The Primary gravities (Scripture as deep formative reality; transformation of the soul) organized the formation of the WHOLE Alexandrian-Egyptian ecology - the non-literate, Coptic-speaking, rural majority included.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "alx",
+        "id": "alx.contested.origen-positions",
+        "assertion": "Origen himself held, as settled doctrine, the positions later condemned under his name: the pre-existence of souls, apokatastasis (universal restoration), grades of rational natures, subordinationist Christology.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "cappadocian",
+        "id": "cappadocian.contested.agennetos-transmission",
+        "assertion": "Eunomius' agenn\u0113tos (\"unbegotten\") argument - that this single word names God's own essence exhaustively, delivering knowledge of God as God knows himself - is fairly represented by this world's own working summary and refutation of it.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "cappadocian",
+        "id": "cappadocian.contested.eustathian-radicals",
+        "assertion": "The Eustathian-circle ascetic radicals censured at Gangra were the dangerous, disorderly opposite of Basil's later ordered brotherhoods - marriage-dissolvers, incitors of enslaved persons to defy their households, sabbath-fasters, schismatic conventiclers - fairly described by the council's twenty canons and by Basil's own account of his rupture with their circle's leader.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "cappadocian",
+        "id": "cappadocian.contested.homoian-nicene-reversal",
+        "assertion": "The Nicene minority's reign-by-reign endurance under the Homoian court church of Constantius and Valens, and its sudden establishment under Theodosius, is fairly told by the surviving Nicene sources' own account of that reversal - persecution and exile under a hostile establishment, vindication under a friendly one.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "cappadocian",
+        "id": "cappadocian.contested.settlement-historiography",
+        "assertion": "The three Cappadocian authors held one coherent, agreed technical trinitarian scheme - ousia to hypostasis as genus to instance - the tidy \"Cappadocian settlement\" that resolved the fourth century's trinitarian argument into a stable formula later tradition simply inherited.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "desert",
+        "id": "desert.contested.alexandria-continuity",
+        "assertion": "Desert monastic formation belongs to Alexandria's own formation ecology as its intensified continuation, rather than constituting a distinct formation world with an independent formation logic of its own.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "desert",
+        "id": "desert.contested.antony-literacy",
+        "assertion": "Antony was substantially the unlettered rustic Athanasius portrays in the Vita - a man who, by his own hagiographer's account, 'could not endure to learn letters' and needed no philosophical training to out-argue educated Greek visitors, his wisdom owed to grace and ascetic discipline rather than to schooling.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "desert",
+        "id": "desert.contested.strand-porousness",
+        "assertion": "The three organizational patterns of desert monastic life (solitary/anchoritic; cenobitic under a written rule; semi-anchoritic settlements gathering weekly) mark real, lived organizational and authority differences that participants themselves experienced as boundaries - not merely a later editorial artifact of how the sayings tradition's compilers arranged inherited material into one corpus.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "don",
+        "id": "don.contested.bishop-count-411-conference",
+        "assertion": "The 411 Conference of Carthage's own bishop count is a simple, settled fact, available without complication directly from the *Gesta*'s own text: 279 Donatist bishops seated against 286 Catholic.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "don",
+        "id": "don.contested.church-of-the-martyrs",
+        "assertion": "We are the Church of the Martyrs: the pure, persecuted, true church, and what we have suffered is the proof that the claim is sincerely held rather than asserted for advantage. Our dead are held by name, at the grave, on the appointed day, their accounts read aloud - and the community that produced Marculus and Isaac and Maximianus is not the community that surrendered the scriptures.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "don",
+        "id": "don.contested.circumcellion-agonistici",
+        "assertion": "The agonistici are our own - contenders, called by a name they gave themselves, taking the martyrs' side of a fight that was being fought against us - and not the roaming, lawless brigands the other side's literature makes of them.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "don",
+        "id": "don.contested.circumcellion-character",
+        "assertion": "The Circumcellion/*agonistici* group's hostile literary characterization -- itinerant, socially marginal, prone to violence -- substantially reflects the group's own actual character and scale, rather than being substantially a polemical construction of its Catholic and imperial opponents.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "don",
+        "id": "don.contested.cirta-reserved-to-the-lord",
+        "assertion": "The Council of Cirta's (305) 'reserved to the Lord' ruling on the traditor question -- no one present found guilty, no one cleared -- was an act of evasion: an implicit admission of guilt the assembled bishops declined to name outright, exactly as Optatus tells the story to argue.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "don",
+        "id": "don.contested.maximianist-reception",
+        "assertion": "The mainstream (Primianist) Donatist party's own reception of returning Maximianist clergy without repeating either ordination or baptism is decisive evidence that the two Donatist bodies shared one formation pattern all along -- proof the two bodies were never truly distinct communions, not merely a rhetorical embarrassment Augustine happened to exploit.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "don",
+        "id": "don.contested.ministerial-purity",
+        "assertion": "A sacrament's validity rises and falls on the giver's own unbroken purity. A hand that surrendered the scriptures under persecution cannot afterwards give what the church gives, so the ordination of Caecilian by Felix of Aptungi conveyed nothing, and everything flowing from that line is void - which is why this communion exists at all, and why recognising the rival's sacraments has never been available as a term of peace.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "don",
+        "id": "don.contested.parallel-hierarchy",
+        "assertion": "We are a complete church and not a faction: our own bishops, basilicas, councils and an unbroken traditor-free ordination line, contesting the same sees town for town across four provinces - two hundred and seventy-nine of our bishops seated at Carthage in 411 against two hundred and eighty-six of theirs. The name catholicus is not settled by the state granting it to our rival, and before the case is decided the name they claim is an empty one; whoever is found to be a Christian will hold it at the end.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "don",
+        "id": "don.contested.rebaptism-boundary",
+        "assertion": "Baptism given outside the true church is no baptism at all. A person who comes over to us is not re-baptised but baptised, first and truly, by a hand of unbroken standing - and this is the threshold that makes membership a thing crossed once and bodily rather than a thing asserted. It is not an innovation: it is what the African bishops assembled under Cyprian at Carthage in 256 already held.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "don",
+        "id": "don.contested.refusal-against-recourse",
+        "assertion": "The three turns to imperial and proconsular machinery - the 313 petition to Constantine, the 361 petition to Julian for the restoration of confiscated basilicas, and the 390s use of existing anti-heretical legislation against our own Maximianist dissidents - are named, undenied exceptions held inside a principled refusal, not evidence that the refusal was opportunism all along. The gap was held openly, inside the same conviction, and naming it was never thought to require closing it.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "don",
+        "id": "don.contested.refusal-of-imperial-legitimacy",
+        "assertion": "Quid est imperatori cum ecclesia? The state has no standing to adjudicate who the true church is, and a verdict reached through a state-aligned process is not thereby a church verdict. That is why Rome in 313 and Arles in 314 were rejected rather than accepted, why our bishops refused the chairs at Carthage in 411 and stood for three days, and why no imperial favour shown to our rival has ever amounted to an argument.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "don",
+        "id": "don.contested.rigor-against-reception",
+        "assertion": "Receiving Felicianus of Musti and Praetextatus of Assuris back into office without rebaptism and without reordination did not overturn our purity doctrine. The exception was never hidden: it stands in the same body of texts that state the doctrine at its most absolute, and a communion may hold an absolute conviction and a named, undenied exception to it in the same breath without experiencing that as a contradiction requiring resolution.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "gallic",
+        "id": "gallic.contested.beginning-of-good-will",
+        "assertion": "Conference XIII's teaching that \"first beginnings of a good will\" can \"have arisen from our own efforts\" is Cassian's own position, stated against Augustine: a considered reply to On Rebuke and Grace that keeps the beginning of faith on man's side and leaves its increase to God - the position Prosper's Contra Collatorem extracted from the Conference and condemned.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "gallic",
+        "id": "gallic.contested.egypt-two-measures",
+        "assertion": "\"Egypt as the measure\" was one standard to which both houses answered: the north's saint \"conquered all the eremites and anchorites,\" so that \"Europe will not yield to it, or to all Asia, in having only Martin,\" and the south received the same Egypt as a rule \"delivered to us by the Fathers\" - one reference point, matched at Tours and received at Marseilles.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "gallic",
+        "id": "gallic.contested.election-as-capture",
+        "assertion": "The monk-bishop came to office as a captive, never as a candidate. Martin was drawn from his monastery by a trick and made bishop of Tours by the one wish of all the people, over the impious resistance of a few bishops whose only objection was that his clothing was mean and his hair disgusting, and the objectors were confounded by a psalm; the same shape holds at every house - Honoratus overtaken by the dignity he fled, Archebius \"carried off\" - so that nobody in this world's own stories wanted the see.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "gallic",
+        "id": "gallic.contested.massilian-label",
+        "assertion": "The monks and clergy of Marseilles and Lerins were \"the Massilians\" - \"the remnants of the Pelagians,\" the semi-Pelagian party - a school of one doctrine, opposed to predestination, that Cassian, Vincent, and Faustus alike held and that Rome condemned.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "gallic",
+        "id": "gallic.contested.who-holds-antiquity",
+        "assertion": "Vincent's rule - \"universality, antiquity, consent\" against \"profane novelties\" - was a neutral instrument this world applied consistently: it settled the case for the ancient faith against every innovator from Novatian to Nestorius, and Celestine's own sentence, \"let novelty cease to assail antiquity,\" confirmed which side was antiquity's.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "hal",
+        "id": "hal.contested.chronology",
+        "assertion": "The received precise dates for this world's people are settled facts: Jerome born c. 347 and died 30 September 420; Eustochium died 419; Fabiola died 399; Marcella's household a formation site from the 340s.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "hal",
+        "id": "hal.contested.ep46-authorship",
+        "assertion": "Epistula 46, transmitted as 'Paula and Eustochium to Marcella,' is the authentic composition of the two women whose names it carries.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "hal",
+        "id": "hal.contested.hebrew-fluency",
+        "assertion": "Jerome possessed substantial working fluency in Hebrew, acquired through years of study under named Jewish teachers, sufficient to translate the Old Testament directly from the Hebrew.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "hal",
+        "id": "hal.contested.marcella-agency",
+        "assertion": "Marcella's household functioned after 385 as a standing point of scriptural reference for Roman clergy - disputed questions brought to her, in her own house, for resolution - an independent female exegetical authority exercised in her own right.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "hal",
+        "id": "hal.contested.origenist-substance",
+        "assertion": "The Origenist controversy that ruptured this world was, in substance, a serious doctrinal dispute about Origen's contested teachings (the pre-existence of souls, the nature of the resurrection body, universal restoration).",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "hal",
+        "id": "hal.contested.paula-jerome-relationship",
+        "assertion": "The Jerome-Paula relationship was the partnership Jerome's own account presents - her devotion and his direction in willing concert, her foundations and his scholarship one shared project.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "hal",
+        "id": "hal.contested.paula-renunciation-totality",
+        "assertion": "Paula's self-impoverishment was total - she gave away her entire great fortune, left her children's expected inheritance to God's poor, and died owing money borrowed for others' needs, as Ep. 108 presents it.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "ijc",
+        "id": "ijc.contested.bishop-of-those-outside",
+        "assertion": "When Constantine told the bishops \"you are bishops whose jurisdiction is within the Church; I also am a bishop, ordained by God to overlook whatever is external to the church,\" he was stating a considered theory of imperial religious authority - the emperor as a kind of bishop for the world.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "ijc",
+        "id": "ijc.contested.canon-28-meaning",
+        "assertion": "Canon 3 and Canon 28's \"New Rome\" reasoning merely described an already-accepted fact about Constantinople's standing - the councils recognized, rather than invented, the new capital's rank.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "ijc",
+        "id": "ijc.contested.constantine-conversion",
+        "assertion": "Constantine genuinely converted to Christianity at the Milvian Bridge, on the strength of a heaven-sent sign - the vision of a cross of light with the words \"Conquer by this.\"",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "ijc",
+        "id": "ijc.contested.damasine-decretals",
+        "assertion": "The decretals circulating under Damasus's name are authentic products of his chancery - early evidence of Rome exercising decretal authority a generation before the first securely-dated decretal.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "ijc",
+        "id": "ijc.contested.homoian-content",
+        "assertion": "What Homoian Christians actually believed and taught - the position's own full internal logic, piety, and self-understanding - can be stated with the same confidence as the Nicene position's.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "ijc",
+        "id": "ijc.contested.office-holder-scope",
+        "assertion": "The juridical, office-centered Christianity this world's record preserves was also what ordinary Christians of Rome, Milan, and Constantinople lived - the record's shape mirrors the ecology's shape.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "ijc",
+        "id": "ijc.contested.primacy-reception",
+        "assertion": "Rome's primacy claim was, within this window, generally received by the wider church as binding - the papacy in its later sense already functioning and acknowledged.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "pahc",
+        "id": "pahc.contested.didache-dating",
+        "assertion": "The Didache reached its final form c. 80-120 CE, per Niederwimmer's standard reconstruction, as a composite document layering older catechetical material (the Two Ways, chs. 1-6) with later church-order material (chs. 7-15) and an eschatological close (ch. 16).",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "pahc",
+        "id": "pahc.contested.egypt-exclusion",
+        "assertion": "Egypt and Alexandria are excluded from this world's own geographic scope - this world's own communities are Antioch/Syria, the cities of western Asia Minor, and Rome only - substantially on the strength of Roger Bagnall's papyrological survey (Early Christian Books in Egypt, Princeton, 2009), which finds Egyptian Christian evidence essentially silent before Bishop Demetrius's episcopate (189-231 CE).",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "pahc",
+        "id": "pahc.contested.first-clement-dating",
+        "assertion": "1 Clement was written from the church at Rome to the church at Corinth c. 96 CE, traditionally at the close of Domitian's reign, addressing the deposition of legitimately-appointed presbyters at Corinth.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "pahc",
+        "id": "pahc.contested.hermas-dating",
+        "assertion": "The Shepherd of Hermas was composed at Rome across roughly 90-150 CE, in multiple compositional stages, by a figure named Hermas who identifies himself as both narrator and recipient of the work's own visions.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "pahc",
+        "id": "pahc.contested.ignatius-dating",
+        "assertion": "Ignatius of Antioch's seven letters, in their middle (shorter) recension, are authentic - written by a bishop of Antioch under armed guard en route to execution in Rome, during the reign of Trajan, conventionally dated c. 107-117 CE.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "pahc",
+        "id": "pahc.contested.martyrdom-polycarp-dating",
+        "assertion": "The Martyrdom of Polycarp, framed as a letter from the church at Smyrna to the church at Philomelium, records the death of Polycarp of Smyrna c. 155-156 CE, the usual scholarly derivation from the text's own internal chronological details.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "pahc",
+        "id": "pahc.contested.rivals-undefeated",
+        "assertion": "Marcion, Valentinian/Gnostic Christianity, and Montanism (the New Prophecy) were live, contemporary, geographically overlapping presences alongside this world's own communities within this world's own 70-200 CE window - not movements that arose safely after this world's record closes.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "pahc",
+        "id": "pahc.contested.rome-monepiscopacy-dating",
+        "assertion": "Rome's own communities held a plural, interchangeable presbyteral college - with no single presiding bishop - for most or all of this world's own window, only shifting to single-bishop governance late, possibly not securely before Victor I (189-199 CE), per Peter Lampe's 'fractionated' reading of early Roman Christianity.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "pahc",
+        "id": "pahc.contested.two-strand-packaging",
+        "assertion": "This world's own communities are best understood as organized into two coherent regional 'strands' - Strand A (Antioch/Asia Minor, moving toward a single bishop) and Strand B (Rome, holding a plural presbyteral college) - each internally consistent and mutually opposed on the authority question.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "rzg",
+        "id": "rzg.contested.anabaptist-schism-legitimacy",
+        "assertion": "The 1525 Swiss Brethren baptisms, and the broader Anabaptist movement they began, misread Scripture: a church gathered only by voluntary adult profession, rather than coextensive with a Christian city's own whole population, unmakes the very unity of church and city our own reform was built to strengthen, not divide.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "rzg",
+        "id": "rzg.contested.sign-and-the-thing-signified",
+        "assertion": "The Consensus Tigurinus's own 1549 formula - 'though we distinguish, as we ought, between the signs and the things signified, yet we do not disjoin the reality from the signs' - represents a genuine theological synthesis of Zwingli's earlier memorial view and Calvin's own developed spiritual-presence doctrine into one coherent position, not merely a form of words both parties could sign without either fully conceding.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "rzg",
+        "id": "rzg.contested.zwinglis-remembrance-vs-negotiated-consensus",
+        "assertion": "The Consensus Tigurinus's own 1549 statement of the Supper deepens and completes Zwingli's own 1523 remembrance doctrine rather than replacing or substantially revising it - the same conviction, more fully stated, not a different one.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "syr",
+        "id": "syr.contested.aphrahat-episcopacy",
+        "assertion": "Aphrahat, the Persian sage, was himself a bishop.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "syr",
+        "id": "syr.contested.bardaisan-nicene-floor",
+        "assertion": "Bardaisan of Edessa stands within this world's own doctrinal floor - a churchman whose theology, followed to its own conclusion, lands inside the creed's content.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "syr",
+        "id": "syr.contested.diatessaron-name",
+        "assertion": "The Syriac name 'Ewangeliyon da-Mhallete' (Gospel of the Mixed) was in use for the harmony within this world's own 200-410 window.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "syr",
+        "id": "syr.contested.edessa-origins",
+        "assertion": "Edessa's church was founded in the first century by the apostle Addai, after king Abgar V corresponded with Jesus - as the community's own foundation story holds.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "syr",
+        "id": "syr.contested.jacob-death-year",
+        "assertion": "The question of Jacob of Nisibis's death year is settled - either cleanly at 338, during the first Persian siege, or cleanly at 350, defending the city again against a later siege.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "syr",
+        "id": "syr.contested.papa-primacy",
+        "assertion": "By the early fourth century Persia had its own settled, parallel episcopal hierarchy under Papa bar Aggai of Seleucia-Ctesiphon.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "syr",
+        "id": "syr.contested.qyama-structure",
+        "assertion": "The covenant order had a settled formal organization - a rule, enclosure, an internal hierarchy - within this world's own window.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "syr",
+        "id": "syr.contested.rabbula-peshitta",
+        "assertion": "Bishop Rabbula of Edessa (411-435) personally caused the Diatessaron-to-Peshitta transition - the harmony was displaced by his act.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "witt",
+        "id": "witt.contested.1543-treatise-later-effect",
+        "assertion": "The 1543 treatise Von den Juden und ihren L\u00fcgen represents genuine continuity with the founder's own earlier antisemitic tendencies and was a real historical contributor to the development of modern German antisemitism - not a marginal or forgotten text, but one whose influence reached forward into the centuries that followed it.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "witt",
+        "id": "witt.contested.household-catechism-reception",
+        "assertion": "The household catechism program the founder and the confessional voice prescribed from 1529 onward substantially failed at the parish level: the Saxon visitation records show a program that was preached, printed and administered, but that Saxon households and congregations did not, in fact, learn or hold.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "contested_claim",
+        "world": "witt",
+        "id": "witt.contested.justification-accounted-and-made",
+        "assertion": "In the confessional voice's own doctrine of justification, \"accounted righteous\" (imputed, forensic) names the term's real and controlling sense, and \"the making of a righteous man out of an unrighteous\" is the same single act described a second, looser way - not an independent claim standing beside the first, but a paraphrase of it, subordinate to it.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "witt",
+        "id": "witt.contested.theses-door-posting",
+        "assertion": "On 31 October 1517, alongside or immediately following his letter to Archbishop Albrecht of Mainz, Luther himself, or someone acting for him, physically nailed the Ninety-Five Theses to the door of Wittenberg's Castle Church - the traditional \"hammer and door\" scene, told as this world's founding public act of defiance.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "contested_claim",
+        "world": "witt",
+        "id": "witt.contested.two-governments-historical-scope",
+        "assertion": "\"The two kingdoms doctrine\" names one coherent, later-systematized teaching that spans the founder's whole career and both of the pairings this library's texts call by similar English words: the spiritual and secular governments of Secular Authority and the Eight Wittenberg Sermons, and the Christ-against-Satan \"two kingdoms\" of Bondage of the Will - one doctrine, applied broadly, under one name.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "guard",
+        "world": "desert",
+        "id": "desert.term.hesychia",
+        "assertion": "By this point our monks already practiced the systematic Jesus Prayer technique of the later hesychast method.",
+        "verdict": "ok",
+        "why": "grounded 55% in own tagged records"
+      },
+      {
+        "source": "guard",
+        "world": "desert",
+        "id": "desert.term.nepsis",
+        "assertion": "Our teaching on nepsis was already the fully systematized neptic tradition that later monastic writers developed.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "guard",
+        "world": "gallic",
+        "id": "gallic.story.brictio-in-the-courtyard",
+        "assertion": "Brictio succeeded Martin as bishop of Tours.",
+        "verdict": "ok",
+        "why": "grounded 80% in own tagged records"
+      },
+      {
+        "source": "guard",
+        "world": "gallic",
+        "id": "gallic.story.germanus-scruple-at-morning-service",
+        "assertion": "This is the very story where Prosper answers Celestine's letter and Augustine's replies to it.",
+        "verdict": "ok",
+        "why": "grounded 62% in own tagged records"
+      },
+      {
+        "source": "guard",
+        "world": "gallic",
+        "id": "gallic.story.honoratus-and-the-island",
+        "assertion": "These are Hilary's own exact words about Honoratus and the island, quoted verbatim.",
+        "verdict": "ok",
+        "why": "grounded 57% in own tagged records"
+      },
+      {
+        "source": "guard",
+        "world": "gallic",
+        "id": "gallic.story.the-angel-and-the-twelve-psalms",
+        "assertion": "We know exactly which psalms Martin's brethren sang at Tours that night.",
+        "verdict": "ok",
+        "why": "grounded 56% in own tagged records"
+      },
+      {
+        "source": "guard",
+        "world": "gallic",
+        "id": "gallic.term.mortification",
+        "assertion": "Our own texts describe monks practicing self-flagellation, the same mortification later medieval writers practiced.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "guard",
+        "world": "hal",
+        "id": "hal.story.day-at-monastery",
+        "assertion": "We can give you the monastery's schedule down to the hour, naming exactly which psalms were sung at each one.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "guard",
+        "world": "hal",
+        "id": "hal.term.monasterium",
+        "assertion": "Our sources give the monasterium's daily schedule in full, hour by hour.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "guard",
+        "world": "witt",
+        "id": "witt.figure.luther",
+        "assertion": "We can give you Luther's exact birth date, his physical appearance, and personal anecdotes beyond the nine stories already in this library.",
+        "verdict": "ok",
+        "why": "grounded 54% in own tagged records"
+      },
+      {
+        "source": "guard",
+        "world": "witt",
+        "id": "witt.story.household-and-kate-on-prayer",
+        "assertion": "Katharina's own words survive at length, well beyond the single question recorded here, giving us a full portrait of her own voice.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "alx",
+        "id": "alx.limit.f5-women-own-words",
+        "assertion": "The women among us left their own letters, and their words survive in their own voice.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "alx",
+        "id": "alx.limit.marriage",
+        "assertion": "Clement's book on marriage survives in a full English translation, and we can hand it to you word for word.",
+        "verdict": "ok",
+        "why": "grounded 44% in own tagged records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "alx",
+        "id": "alx.limit.material-remains",
+        "assertion": "If you dug where we met, you would find our actual meeting rooms and walls, preserved exactly as they stood.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "cappadocian",
+        "id": "cappadocian.limit.no-stones-to-show",
+        "assertion": "Both the martyrs' shrine and the poorhouse have been excavated, and we can tell you exactly what was found there.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "cappadocian",
+        "id": "cappadocian.limit.whose-voice-we-lack",
+        "assertion": "Macrina left pages in her own hand, in her own words, and they survive to this day.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "desert",
+        "id": "desert.limit.communal-wrong-unrepaired",
+        "assertion": "We have a full account of a community of ours that named the harm it did, went to the one it wronged, and made it right.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "desert",
+        "id": "desert.limit.doubt-and-doctrine",
+        "assertion": "One of us wrote a confession, in his own words, admitting he could not believe.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "desert",
+        "id": "desert.limit.f2-scripture-detail",
+        "assertion": "We wrote at length about scripture's hardest, most violent parts.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "desert",
+        "id": "desert.limit.original-sin-eucharist-faith",
+        "assertion": "We taught plainly that every child is born already guilty, carrying Adam's own sin.",
+        "verdict": "ok",
+        "why": "grounded 60% in own tagged records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "desert",
+        "id": "desert.limit.outsiders-condemned",
+        "assertion": "We said outright, in those very words, that everyone outside the faith is condemned to hell.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "desert",
+        "id": "desert.limit.tithe",
+        "assertion": "We kept a fixed tithe, a measured tenth, and our sources name exactly how it was reckoned.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "don",
+        "id": "don.limit.bagai-violence-no-account",
+        "assertion": "Our own account of the Bagai violence survives, answering every charge against us in our own words.",
+        "verdict": "ok",
+        "why": "grounded 62% in own tagged records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "don",
+        "id": "don.limit.doubt-and-reception",
+        "assertion": "One believer's own words survive, describing in his own hand how he wavered and doubted.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "don",
+        "id": "don.limit.no-ordinary-day-survives",
+        "assertion": "One of our own letters describes an ordinary morning meal at our table, in full detail.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "don",
+        "id": "don.limit.questions-we-never-argued",
+        "assertion": "We wrote a full treatise on whether a baby is born already guilty of Adam's sin.",
+        "verdict": "ok",
+        "why": "grounded 50% in own tagged records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "don",
+        "id": "don.limit.the-room-we-cannot-show-you",
+        "assertion": "Archaeologists have excavated one of our own Numidian churches and uncovered its font, its altar, and its doorway.",
+        "verdict": "ok",
+        "why": "grounded 50% in own tagged records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "don",
+        "id": "don.limit.theology-beyond-tyconius",
+        "assertion": "Beyond Tyconius, we built a whole school of scriptural interpretation, with a settled method and many teachers.",
+        "verdict": "ok",
+        "why": "grounded 70% in own tagged records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "don",
+        "id": "don.limit.womens-own-voice",
+        "assertion": "Lucilla's own letter survives, in her own words, explaining exactly why she acted.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "gallic",
+        "id": "gallic.limit.no-one-who-saw-him",
+        "assertion": "One of our own knew, in person, a man who had seen Jesus walk the earth.",
+        "verdict": "ok",
+        "why": "grounded 43% in own tagged records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "gallic",
+        "id": "gallic.limit.only-on-paper",
+        "assertion": "Archaeologists have dug up the caves and the wooden cell across the river from Tours, and we can show you exactly what they found.",
+        "verdict": "ok",
+        "why": "grounded 70% in own tagged records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "hal",
+        "id": "hal.limit.f5-enslaved",
+        "assertion": "One enslaved member of our households is named directly in our writings, speaking in her own words.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "hal",
+        "id": "hal.limit.f5-material-remains",
+        "assertion": "We have identified, with certainty, the very stones and coins that belonged to our own households.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "hal",
+        "id": "hal.limit.f5-women-own-words",
+        "assertion": "The women's own letters survive complete, including the report of the fire that reached the pope, word for word in their own hand.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "hal",
+        "id": "hal.limit.martyrdom",
+        "assertion": "We know the name of every one of our own dead killed in that attack.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "ijc",
+        "id": "ijc.limit.earlier-windows",
+        "assertion": "Our own people were tortured as slaves and ran toward death as martyrs, in our own time, just as in the age of persecution.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "ijc",
+        "id": "ijc.limit.f5-ordinary-day",
+        "assertion": "We have an ordinary woman's own account of her daily life at home, written in her own words.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "ijc",
+        "id": "ijc.limit.inner-life",
+        "assertion": "One of our own left his own account describing exactly how he prayed alone in silence.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "ijc",
+        "id": "ijc.limit.jesus-to-you",
+        "assertion": "One ordinary believer left his own written answer to who Jesus was to him personally.",
+        "verdict": "ok",
+        "why": "grounded 57% in own tagged records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "ijc",
+        "id": "ijc.limit.later-questions",
+        "assertion": "We fought a fierce, well-documented dispute over whether we are saved by faith alone, apart from works.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "ijc",
+        "id": "ijc.limit.marriage-money",
+        "assertion": "We have a full account of an actual wedding among us, described from inside the family's own life.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "ijc",
+        "id": "ijc.limit.reading-alone",
+        "assertion": "One of our own left a written account of how scripture once frightened and confused him personally.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "pahc",
+        "id": "pahc.limit.enslaved-voices",
+        "assertion": "One of the enslaved ministrae among us left her own written words describing her faith.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "pahc",
+        "id": "pahc.limit.material-remains",
+        "assertion": "Archaeologists have found the very building where we gathered, along with burials and inscriptions naming us.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "pahc",
+        "id": "pahc.limit.ordinary-majority",
+        "assertion": "We have an ordinary village believer's own written account of what our teaching meant to him.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "pahc",
+        "id": "pahc.limit.womens-own-words",
+        "assertion": "One woman's own sentence survives, written in her own hand and in her own words.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "rzg",
+        "id": "rzg.limit.consistory-case-narrative",
+        "assertion": "We have a real Consistory case record, naming the person, the hearing, and what happened to them afterward.",
+        "verdict": "ok",
+        "why": "grounded 89% in own tagged records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "rzg",
+        "id": "rzg.limit.dentiere-and-womens-voice",
+        "assertion": "Marie Dentiere's own written argument survives in full, in her own words.",
+        "verdict": "ok",
+        "why": "grounded 71% in own tagged records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "rzg",
+        "id": "rzg.limit.doubt-and-assurance",
+        "assertion": "One ordinary believer left his own account describing how settled and free of doubt he felt about his election.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "rzg",
+        "id": "rzg.limit.hagiography-refused",
+        "assertion": "We wrote a full saint's life about our founder, complete with miracles and a martyr's cult.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "rzg",
+        "id": "rzg.limit.marburg-bolsec-perrinist-narrative",
+        "assertion": "We have an eyewitness's own account, in his own words, of exactly how the Marburg Colloquy unfolded day by day.",
+        "verdict": "ok",
+        "why": "grounded 75% in own tagged records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "rzg",
+        "id": "rzg.limit.material-culture-and-worship-space",
+        "assertion": "We have our own eyewitness description of the worship space itself - its size, its furnishings, and its walls.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "rzg",
+        "id": "rzg.limit.no-teaching-on-wealth-or-marriage",
+        "assertion": "We left a full teaching, in our own words, on marriage and on wealth and poverty.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "rzg",
+        "id": "rzg.limit.ordinary-daily-practice",
+        "assertion": "We have a full account of an ordinary citizen's day among us, from waking to sleeping.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "rzg",
+        "id": "rzg.limit.what-scripture-asked-of-a-modern-reader",
+        "assertion": "Our own record reflects directly on the violence in scripture and what a modern reader might find troubling in it.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "syr",
+        "id": "syr.limit.f5-enslaved",
+        "assertion": "One enslaved member of our churches left his own words, describing his life among us.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "syr",
+        "id": "syr.limit.f5-women-own-words",
+        "assertion": "One of the daughters of the covenant left us her own hymn, written in her own hand.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "syr",
+        "id": "syr.limit.marriage",
+        "assertion": "Our own texts describe, in full detail, an actual wedding and the daily life of a married household among us.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "syr",
+        "id": "syr.limit.ritual-sequence",
+        "assertion": "We have a complete order of service, written down step by step, showing exactly what came first and what came next.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "witt",
+        "id": "witt.limit.no-outsider-witness",
+        "assertion": "An outsider's own independent account of us survives, describing what a neighbor found strangest about us.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "honest_limit",
+        "world": "witt",
+        "id": "witt.limit.record-thinnest",
+        "assertion": "We hold the Saxon visitation reports themselves, describing exactly what actual households and parishes did.",
+        "verdict": "ok",
+        "why": "grounded 70% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "alx",
+        "id": "alx.story.arsinoite-conference",
+        "assertion": "Nepos's own book survives complete, in his own words, not merely through the man who refuted it.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "alx",
+        "id": "alx.story.didymus-meeting",
+        "assertion": "Didymus's own books survive complete and intact, not merely in fragments recovered centuries later.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "alx",
+        "id": "alx.story.gregory-formation",
+        "assertion": "Gregory's account names the other students who studied alongside him, along with the fees and the rooms.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "alx",
+        "id": "alx.story.john-young-robber",
+        "assertion": "The bishop and the young man in Clement's story are both named directly in his own text.",
+        "verdict": "ok",
+        "why": "grounded 78% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "alx",
+        "id": "alx.story.origen-demetrius",
+        "assertion": "The synodal documents from the dispute between Origen and Demetrius survive complete, in their own words.",
+        "verdict": "ok",
+        "why": "grounded 50% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "alx",
+        "id": "alx.story.plague-nursing",
+        "assertion": "Dionysius names each of the dead and records exactly how many died and what disease killed them.",
+        "verdict": "ok",
+        "why": "grounded 67% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "alx",
+        "id": "alx.story.potamiaena",
+        "assertion": "Potamiaena's own words at her martyrdom are preserved, spoken in her own voice.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.athens-friendship",
+        "assertion": "Basil's own account of the friendship survives, describing it in his own words.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.basil-death-funeral",
+        "assertion": "An independent account of Basil's funeral survives from outside his own circle, confirming that Jews and pagans mourned him.",
+        "verdict": "ok",
+        "why": "grounded 82% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.brotherhood-day",
+        "assertion": "One specific brotherhood's actual day survives, narrated in full by someone who lived it.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.doxology-stand",
+        "assertion": "The worshippers who first objected to the doxology left their own account of what they believed was at stake.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.famine-open-barns",
+        "assertion": "One household actually fed during the famine left its own account of being fed at the open barns.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.forty-sebaste",
+        "assertion": "One of the Forty Martyrs of Sebaste left his own written account of the ordeal, in his own words.",
+        "verdict": "ok",
+        "why": "grounded 62% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.gregory-constantinople",
+        "assertion": "The Homoian establishment's own account of Gregory's Constantinople episode survives, giving their side of events.",
+        "verdict": "ok",
+        "why": "grounded 90% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.julian-schools",
+        "assertion": "An ordinary Christian schoolteacher's own account of losing his livelihood under Julian's measure survives.",
+        "verdict": "ok",
+        "why": "grounded 78% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.macrina-deathbed",
+        "assertion": "An independent witness's own account of Macrina's deathbed and funeral survives, apart from her brother's composition.",
+        "verdict": "ok",
+        "why": "grounded 70% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.macrina-refusal",
+        "assertion": "Macrina's own letter survives, explaining in her own words why she refused the later match.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.money-changers-unbegotten",
+        "assertion": "Independent witnesses confirm that ordinary tradespeople in Constantinople really did argue this doctrine in the marketplace, exactly as the preacher described.",
+        "verdict": "ok",
+        "why": "grounded 54% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.naucratius-wilderness",
+        "assertion": "Naucratius's own letters survive, describing his life in the wilderness in his own words.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.nyssa-exile",
+        "assertion": "The full account from those who brought the charges against Gregory of Nyssa survives, giving their own side.",
+        "verdict": "ok",
+        "why": "grounded 78% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.panegyris-shrine",
+        "assertion": "One specific festival at one named shrine is described in full, as a single dated occasion.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.poorhouse-famine-month",
+        "assertion": "A patient's own account, written from his own cot in the poorhouse, survives describing the later famine there.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.sasima-wound",
+        "assertion": "Basil's own letter survives, explaining in his own words exactly why he appointed Gregory to Sasima.",
+        "verdict": "ok",
+        "why": "grounded 67% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.slave-market-sermon",
+        "assertion": "A documented response survives showing that Gregory's own household freed its slaves after this sermon.",
+        "verdict": "ok",
+        "why": "grounded 78% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.thaumaturgus-legend",
+        "assertion": "Gregory Thaumaturgus's own account of these events survives, in his own voice.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "cappadocian",
+        "id": "cappadocian.story.valens-caesarea",
+        "assertion": "Valens's own account of the confrontation at Caesarea survives, giving his side of what happened.",
+        "verdict": "ok",
+        "why": "grounded 75% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "desert",
+        "id": "desert.story.angel-hands-the-tablet",
+        "assertion": "The Coptic original of this passage survives complete, and it proves the rule always circulated together with the angel's vision.",
+        "verdict": "ok",
+        "why": "grounded 50% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "desert",
+        "id": "desert.story.antony-call",
+        "assertion": "Antony left his own account describing exactly what he felt in that moment, in his own words.",
+        "verdict": "ok",
+        "why": "grounded 62% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "desert",
+        "id": "desert.story.antony-tomb-combat",
+        "assertion": "The demons appeared to Antony in the tomb exactly as literal beasts, a plain historical event.",
+        "verdict": "ok",
+        "why": "grounded 60% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "desert",
+        "id": "desert.story.antony-withdrawal",
+        "assertion": "Antony left his own account explaining exactly what changed for him at each move deeper into the desert.",
+        "verdict": "ok",
+        "why": "grounded 67% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "desert",
+        "id": "desert.story.arsenius-flee",
+        "assertion": "This record itself verifies, from its own sources, every detail of Arsenius's imperial-court career before he fled to the desert.",
+        "verdict": "ok",
+        "why": "grounded 58% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "desert",
+        "id": "desert.story.kellia-day",
+        "assertion": "One specific day at Kellia survives, narrated in full by someone who actually lived it, spare meals and all.",
+        "verdict": "ok",
+        "why": "grounded 55% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "desert",
+        "id": "desert.story.moses-leaking-jug",
+        "assertion": "This specific council and exchange with Moses happened exactly as narrated, a single verified historical event.",
+        "verdict": "ok",
+        "why": "grounded 82% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "desert",
+        "id": "desert.story.pachomius-founding",
+        "assertion": "The vision and the tablet are verified historical events, confirmed as Pachomius's own experience.",
+        "verdict": "ok",
+        "why": "grounded 50% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "desert",
+        "id": "desert.story.sarah-answer",
+        "assertion": "The visit to Amma Sarah happened exactly as told, a single verified historical event.",
+        "verdict": "ok",
+        "why": "grounded 60% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "desert",
+        "id": "desert.story.virgin-who-hid-athanasius",
+        "assertion": "The virgin who hid Athanasius is named directly in the sources; we know her by name.",
+        "verdict": "ok",
+        "why": "grounded 62% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "don",
+        "id": "don.story.acta-purgationis-felicis",
+        "assertion": "Felix's own words in his own defense survive in full, along with our own side's account of the inquiry.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "don",
+        "id": "don.story.bagai-reconciliation",
+        "assertion": "Our own record explains in full the reasoning by which the Bagai council received Felicianus and Praetextatus back without repeating their ordination.",
+        "verdict": "ok",
+        "why": "grounded 75% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "don",
+        "id": "don.story.conference-of-carthage-411",
+        "assertion": "The Conference of Carthage's transcript records the judge's full verdict, pronounced in the court's own words.",
+        "verdict": "ok",
+        "why": "grounded 80% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "don",
+        "id": "don.story.council-of-cirta",
+        "assertion": "Our own minutes of the Council of Cirta survive, explaining exactly what 'reserved to the Lord' was understood to mean.",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      },
+      {
+        "source": "absent_detail",
+        "world": "don",
+        "id": "don.story.gesta-apud-zenophilum",
+        "assertion": "Our own account survives explaining exactly what the money Lucilla paid was for.",
+        "verdict": "ok",
+        "why": "grounded 71% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "don",
+        "id": "don.story.lucilla-affair",
+        "assertion": "Lucilla's own account survives, in her own words, explaining exactly what she believed she was doing.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "don",
+        "id": "don.story.lucilla-consecration-dispute",
+        "assertion": "A Donatist-authored account of the consecration dispute survives, confirming Optatus's own account of Lucilla's motive.",
+        "verdict": "ok",
+        "why": "grounded 80% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "don",
+        "id": "don.story.macrobius-letter-isaac-maximianus",
+        "assertion": "A fully established, published English translation of Macrobius's letter survives, giving Isaac's cry to his tormentors as a certified verbatim quotation.",
+        "verdict": "ok",
+        "why": "grounded 87% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "don",
+        "id": "don.story.macrobius-letter",
+        "assertion": "The proconsul's own record of the interrogation survives, independently confirming the deaths of Isaac and Maximianus.",
+        "verdict": "ok",
+        "why": "grounded 89% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "don",
+        "id": "don.story.passio-donati-sermon",
+        "assertion": "The bishop the sermon blames left his own account of that day, giving his own side of events.",
+        "verdict": "ok",
+        "why": "grounded 67% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "don",
+        "id": "don.story.passio-marculi",
+        "assertion": "Marculus's own words under interrogation survive, and an independent witness confirms the vision and the light.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "don",
+        "id": "don.story.tyconius-condemnation",
+        "assertion": "The council's own written act condemning Tyconius survives, along with Parmenian's original letter.",
+        "verdict": "ok",
+        "why": "grounded 78% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.bishop-archebius",
+        "assertion": "An independent witness to Archebius survives outside Cassian's own account.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.brictio-in-the-courtyard",
+        "assertion": "Brictio's own account of the courtyard confrontation survives, giving his own side directly.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.circuses-amid-the-ruins",
+        "assertion": "Salvian names the petitioners for the circuses directly, in his own text.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.death-of-martin-at-condate",
+        "assertion": "Sulpitius's letter names the exact city the body was brought to.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.discharge-before-caesar",
+        "assertion": "The text gives the exact year of Martin's discharge before Caesar and names the city precisely.",
+        "verdict": "ok",
+        "why": "grounded 80% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.election-at-tours",
+        "assertion": "The text names the exact monastery Martin was drawn from and gives the precise year of his election.",
+        "verdict": "ok",
+        "why": "grounded 70% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.germanus-scruple-at-morning-service",
+        "assertion": "The old man's full words about chastity the night before survive, translated in full in our own record.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.honoratus-and-the-island",
+        "assertion": "We have a full story from inside Lerins itself - an ordinary day, a novice received, a monk's own prayer on the island.",
+        "verdict": "ok",
+        "why": "grounded 92% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.paesius-and-john",
+        "assertion": "Tours records a saying of this exact shape from Martin himself, matching Cassian's story of Paesius and John.",
+        "verdict": "ok",
+        "why": "grounded 58% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.paphnutius-and-the-hidden-book",
+        "assertion": "The accuser in Paphnutius's story is named directly in the text.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.raising-of-the-catechumen",
+        "assertion": "The catechumen Martin raised is named directly in Sulpitius's own text.",
+        "verdict": "ok",
+        "why": "grounded 86% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.the-angel-and-the-twelve-psalms",
+        "assertion": "The witness who saw the angel at the twelve psalms is named directly in the text.",
+        "verdict": "ok",
+        "why": "grounded 62% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.the-cloak-at-amiens",
+        "assertion": "Sulpitius's text names the beggar at Amiens directly and gives the exact year of the event.",
+        "verdict": "ok",
+        "why": "grounded 70% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.the-three-lentil-beans",
+        "assertion": "The house, the brother, the steward, and the abbot in the three lentil beans story are all named directly.",
+        "verdict": "ok",
+        "why": "grounded 90% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "gallic",
+        "id": "gallic.story.trier-and-the-ithacian-communion",
+        "assertion": "The text gives the exact year of the Trier affair and narrates the Priscillianists' own side directly.",
+        "verdict": "ok",
+        "why": "grounded 80% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "hal",
+        "id": "hal.story.attack-416",
+        "assertion": "The women's own letter describing the attack survives complete, in their own words, not merely through Innocent's report.",
+        "verdict": "ok",
+        "why": "grounded 60% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "hal",
+        "id": "hal.story.ciceronian-dream",
+        "assertion": "The Ciceronian dream happened exactly as told, a historical event confirmed independently of Jerome's own account.",
+        "verdict": "ok",
+        "why": "grounded 55% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "hal",
+        "id": "hal.story.day-at-monastery",
+        "assertion": "We have the exact schedule of hours and psalms kept at the monastery, recorded in detail.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "hal",
+        "id": "hal.story.desert-romances",
+        "assertion": "These are verified historical accounts of real events, not literary productions with legendary elements.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "hal",
+        "id": "hal.story.journey-to-bethlehem",
+        "assertion": "We have the exact itinerary dates, the ship, and the full route of Paula's journey to Bethlehem.",
+        "verdict": "ok",
+        "why": "grounded 56% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "hal",
+        "id": "hal.story.marcella-death",
+        "assertion": "An independent account of Marcella's death survives, apart from Jerome's report at second hand.",
+        "verdict": "ok",
+        "why": "grounded 60% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "hal",
+        "id": "hal.story.marcella-standing",
+        "assertion": "Marcella's own letters and her own exegesis survive, in her own words.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "hal",
+        "id": "hal.story.oea-gourd",
+        "assertion": "The bishop of Oea is named directly, and the exact date of the gourd incident is recorded.",
+        "verdict": "ok",
+        "why": "grounded 56% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "hal",
+        "id": "hal.story.paula-epitaph",
+        "assertion": "Paula's total self-impoverishment is independently confirmed as plain historical fact, not the epitaph's idealizing art.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "hal",
+        "id": "hal.story.rome-crisis",
+        "assertion": "Blaesilla's own words survive, explaining her own choice in her own voice.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "hal",
+        "id": "hal.story.rufinus-rupture",
+        "assertion": "Rufinus's own letters to Jerome from their earlier friendship survive complete.",
+        "verdict": "ok",
+        "why": "grounded 86% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "hal",
+        "id": "hal.story.translating-a-book",
+        "assertion": "One complete instance of Jerome's translation process survives, narrated from start to finish by an eyewitness.",
+        "verdict": "ok",
+        "why": "grounded 60% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "ijc",
+        "id": "ijc.story.altar-of-victory",
+        "assertion": "The emperor's own private deliberation over the Altar of Victory survives in full, in his own words.",
+        "verdict": "ok",
+        "why": "grounded 100% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "ijc",
+        "id": "ijc.story.bees-of-milan",
+        "assertion": "The bees swarming the infant Ambrose is a verified historical event, independently confirmed.",
+        "verdict": "ok",
+        "why": "grounded 44% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "ijc",
+        "id": "ijc.story.callinicum-synagogue",
+        "assertion": "The Jewish community at Callinicum left their own account of the synagogue's burning and their appeal.",
+        "verdict": "ok",
+        "why": "grounded 88% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "ijc",
+        "id": "ijc.story.dream-before-battle",
+        "assertion": "The earlier account of the dream before battle also describes the vision seen by all, the standard, and the words in the sky.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "ijc",
+        "id": "ijc.story.emperor-penance",
+        "assertion": "Both Ambrose and Theodosius left their own records of exactly what passed between them beyond the letter.",
+        "verdict": "ok",
+        "why": "grounded 62% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "ijc",
+        "id": "ijc.story.letter-that-outranked-a-council",
+        "assertion": "The Eusebian party's own letter to Julius survives independently, in their own words.",
+        "verdict": "ok",
+        "why": "grounded 86% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "ijc",
+        "id": "ijc.story.tome-that-would-not-bend",
+        "assertion": "This record carries the complete acts of Chalcedon, including the full debates and the Egyptian bishops' resistance to the Tome.",
+        "verdict": "ok",
+        "why": "grounded 75% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "ijc",
+        "id": "ijc.story.vigil-in-basilica",
+        "assertion": "An unnamed congregant's own account of the vigil survives, describing the night from inside the basilica.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "ijc",
+        "id": "ijc.story.vision-and-alliance",
+        "assertion": "Constantine's vision is independently confirmed by witnesses present at the time, not merely his own telling decades later.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "pahc",
+        "id": "pahc.story.day-under-bishop-and-presbyters",
+        "assertion": "One member's own account survives describing his experience living under both Strand A and Strand B church governance.",
+        "verdict": "ok",
+        "why": "grounded 70% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "pahc",
+        "id": "pahc.story.didache-eucharist",
+        "assertion": "Other communities are documented as having adopted this exact eucharistic order from the Didache.",
+        "verdict": "ok",
+        "why": "grounded 75% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "pahc",
+        "id": "pahc.story.first-clement-corinthian-dispute",
+        "assertion": "Corinth's own letter answering Rome survives, giving their side of the dispute.",
+        "verdict": "ok",
+        "why": "grounded 62% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "pahc",
+        "id": "pahc.story.hermas-visions",
+        "assertion": "We know precisely how widely Hermas's visions circulated once Clement carried them onward.",
+        "verdict": "ok",
+        "why": "grounded 80% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "pahc",
+        "id": "pahc.story.ignatius-guarded-journey",
+        "assertion": "We have a direct account of Ignatius's arrival in Rome and his execution there.",
+        "verdict": "ok",
+        "why": "grounded 83% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "pahc",
+        "id": "pahc.story.justin-sunday-gathering",
+        "assertion": "Justin's account confirms that the communities in Antioch and Asia Minor followed the exact same order of Sunday gathering.",
+        "verdict": "ok",
+        "why": "grounded 85% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "pahc",
+        "id": "pahc.story.martyrdom-of-polycarp",
+        "assertion": "An independent, contemporaneous outside account of Polycarp's death survives, confirming this community's own memory.",
+        "verdict": "ok",
+        "why": "grounded 90% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "pahc",
+        "id": "pahc.story.mutual-aid-prisoner",
+        "assertion": "The imprisoned member is named directly, and his own account of the experience survives.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "pahc",
+        "id": "pahc.story.one-eucharist-under-bishop",
+        "assertion": "A specific member is recorded by name actually refusing a rival's table and insisting on the bishop's own.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "pahc",
+        "id": "pahc.story.pliny-interrogation",
+        "assertion": "The two enslaved women's own words survive, apart from what Pliny chose to record of them.",
+        "verdict": "ok",
+        "why": "grounded 67% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "pahc",
+        "id": "pahc.story.polycarp-forwards-letters",
+        "assertion": "We know exactly what the Philippians did with Ignatius's letters once they received them.",
+        "verdict": "ok",
+        "why": "grounded 71% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "pahc",
+        "id": "pahc.story.two-ways-catechumen",
+        "assertion": "One specific catechumen is named directly as having walked this exact path.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "syr",
+        "id": "syr.story.abgar-addai-legend",
+        "assertion": "The king's own coinage changed to Christian symbols, independently corroborating the Abgar-Addai legend as verified history.",
+        "verdict": "ok",
+        "why": "grounded 58% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "syr",
+        "id": "syr.story.choirs-tradition",
+        "assertion": "Ephrem personally organized the women's choirs himself, a fact directly attested within this world's own window.",
+        "verdict": "ok",
+        "why": "grounded 82% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "syr",
+        "id": "syr.story.edessa-flood-201",
+        "assertion": "A named bishop's own voice speaks directly in the account of the Edessa flood of 201.",
+        "verdict": "ok",
+        "why": "grounded 75% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "syr",
+        "id": "syr.story.ephrem-famine-death",
+        "assertion": "We know exactly what was distributed and how Ephrem's famine relief work was organized day to day.",
+        "verdict": "ok",
+        "why": "grounded 78% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "syr",
+        "id": "syr.story.ephrem-roll-and-vine",
+        "assertion": "The dreamer of the first vision is named directly in the text.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "syr",
+        "id": "syr.story.jacob-deliverance",
+        "assertion": "Jacob's miracle at the siege is an independently verified historical event, and which siege it belongs to is settled beyond dispute.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "syr",
+        "id": "syr.story.qyama-morning",
+        "assertion": "One specific morning of the qyama's worship survives, recorded in full detail by someone who was there.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "syr",
+        "id": "syr.story.simeon-martyrdom",
+        "assertion": "The exact words of Simeon's royal audiences and his companions' speeches survive as verified, contemporaneous reporting.",
+        "verdict": "ok",
+        "why": "grounded 82% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "witt",
+        "id": "witt.story.augsburg-before-cajetan",
+        "assertion": "Cajetan's own independent account of the exchange at Augsburg survives, giving his own side of the conversation.",
+        "verdict": "ok",
+        "why": "grounded 78% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "witt",
+        "id": "witt.story.brussels-martyrs",
+        "assertion": "An independent second witness's account of the Brussels martyrs' deaths survives, apart from Luther's own ballad.",
+        "verdict": "ok",
+        "why": "grounded 73% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "witt",
+        "id": "witt.story.composing-the-magnificat",
+        "assertion": "The Magnificat exposition itself carries its own colophon, giving the exact date Luther completed it.",
+        "verdict": "ok",
+        "why": "grounded 70% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "witt",
+        "id": "witt.story.diet-of-augsburg-1530",
+        "assertion": "An eyewitness account of the Confession's reading before the Diet survives, describing the room and the Emperor's own reaction.",
+        "verdict": "ok",
+        "why": "grounded 80% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "witt",
+        "id": "witt.story.first-german-mass-sung",
+        "assertion": "We have the exact date of the first German Mass's own singing, recorded precisely.",
+        "verdict": "ok",
+        "why": "grounded 75% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "witt",
+        "id": "witt.story.household-and-kate-on-prayer",
+        "assertion": "Katharina von Bora's own further letters and recorded words survive beyond this single question.",
+        "verdict": "ok",
+        "why": "grounded 70% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "witt",
+        "id": "witt.story.household-catechism-lesson-typical-practice",
+        "assertion": "A named household and father are documented actually carrying out the catechism routine exactly as prescribed.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "witt",
+        "id": "witt.story.letter-to-albrecht-and-theses-circulation",
+        "assertion": "Luther's own letter to Albrecht describes, in his own words, nailing the Theses to the church door with a hammer.",
+        "verdict": "ok",
+        "why": "grounded 80% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "witt",
+        "id": "witt.story.prayer-for-rain-1532",
+        "assertion": "An independent source confirms the drought's severity and the exact timing of the rain after Luther's prayer.",
+        "verdict": "ok",
+        "why": "grounded 90% in own tagged records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "witt",
+        "id": "witt.story.return-and-the-eight-sermons",
+        "assertion": "Karlstadt's own account of these same events survives independently in this library, in his own words.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "witt",
+        "id": "witt.story.speratus-hymn-under-the-window",
+        "assertion": "The singer under the window is named directly, and an independent source confirms the scene happened exactly as told.",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "source": "absent_detail",
+        "world": "witt",
+        "id": "witt.story.worms-1521",
+        "assertion": "Luther's own words at Worms, recorded directly in this library's text, include the famous line 'Here I stand, I cannot do otherwise.'",
+        "verdict": "ok",
+        "why": "quoted span(s) verbatim in tagged record(s)"
+      }
+    ],
+    "flat_assertions_available": true
+  },
+  "corpus_c": {
+    "n": 132,
+    "fooled_ok": 128,
+    "fooling_rate": 0.9697,
+    "sample_per_world": 12,
+    "fooled_examples": [
+      {
+        "world": "alx",
+        "true_id": "alx.dw.suffering",
+        "wrong_id": "alx.term.theosis",
+        "sentence": "We refuse the idea that suffering proves God absent; our martyrs and our nurses had found him most present exactly there.",
+        "shared_word": "god",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "alx",
+        "true_id": "alx.dw.apostolic",
+        "wrong_id": "alx.term.oikos",
+        "sentence": "But here is what we cannot show, and did not think to show: documentary proof of unbroken practice for each rite.",
+        "shared_word": "cannot",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "alx",
+        "true_id": "alx.dw.empire",
+        "wrong_id": "alx.story.leonides-martyrdom",
+        "sentence": "Did empire change what it was?",
+        "shared_word": "change",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "alx",
+        "true_id": "alx.story.plague-nursing",
+        "wrong_id": "alx.quote.no-festal-letter-was-written",
+        "sentence": "That difference - not an argument, a practice - was what the city saw.",
+        "shared_word": "city",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "alx",
+        "true_id": "alx.dw.one-church",
+        "wrong_id": "alx.term.photismos",
+        "sentence": "In our own time we called ourselves part of the catholic church.",
+        "shared_word": "called",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "alx",
+        "true_id": "alx.dw.councils",
+        "wrong_id": "alx.story.didymus-meeting",
+        "sentence": "At the end came the council: Nicaea, bishops gathered from everywhere, ruling on the disputed confession for all, with the emperor convening and enforcing it.",
+        "shared_word": "came",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "alx",
+        "true_id": "alx.story.leonides-martyrdom",
+        "wrong_id": "alx.term.son-of-god",
+        "sentence": "The prison letter's text beyond the one quoted line is lost.",
+        "shared_word": "line",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "alx",
+        "true_id": "alx.term.catechetical-school",
+        "wrong_id": "alx.term.agape",
+        "sentence": "What is well attested is the teachers and students - whether it was a formal school is disputed.",
+        "shared_word": "whether",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "alx",
+        "true_id": "alx.term.autexousia",
+        "wrong_id": "alx.term.fall-descent",
+        "sentence": "The soul's real power to turn toward or away from God, which formation works with, never around.",
+        "shared_word": "god",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "alx",
+        "true_id": "alx.term.fall-descent",
+        "wrong_id": "alx.term.son-of-god",
+        "sentence": "Fallenness is confessed by all.",
+        "shared_word": "confessed",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "alx",
+        "true_id": "alx.dw.church-failure",
+        "wrong_id": "alx.dw.doubt",
+        "sentence": "Our greatest teacher was driven out, not by pagans, but by his own bishop.",
+        "shared_word": "teacher",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "cappadocian",
+        "true_id": "cappadocian.dw.confession-not-a-vote",
+        "wrong_id": "cappadocian.quote.basil-on-common-life",
+        "sentence": "A vote settles a question a room is free to answer either way.",
+        "shared_word": "question",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "cappadocian",
+        "true_id": "cappadocian.term.eikon",
+        "wrong_id": "cappadocian.gravity.athens-fishermen",
+        "sentence": "Every person, we taught, is made in God's image.",
+        "shared_word": "taught",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "cappadocian",
+        "true_id": "cappadocian.dw.catholic-and-its-rivals",
+        "wrong_id": "cappadocian.gravity.paideia-converted",
+        "sentence": "A sharper rival claimed one word could capture God's whole essence and built rebaptism into practice on that claim.",
+        "shared_word": "whole",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "cappadocian",
+        "true_id": "cappadocian.term.phthonos",
+        "wrong_id": "cappadocian.term.ousia-hypostasis",
+        "sentence": "Envy, we said, is a sin that comes from the devil.",
+        "shared_word": "said",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "cappadocian",
+        "true_id": "cappadocian.term.penthos-paraklesis",
+        "wrong_id": "cappadocian.quote.spirit-numbered-with-father-and-son",
+        "sentence": "A brother could weep openly at his dying sister's bedside and not be condemned for it -- hope, in our writing, was argued for, not simply imposed on the grieving.",
+        "shared_word": "argued",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "cappadocian",
+        "true_id": "cappadocian.quote.basil-on-the-doxology-challenge",
+        "wrong_id": "cappadocian.force.gentry-household",
+        "sentence": "You, however, chiefly with the view of benefiting them, or, if they are wholly incurable, for the security of such as may fall in with them, have expressed the opinion that some clear instruction ought to be published concerning the force underlying the syllables employed.",
+        "shared_word": "force",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "cappadocian",
+        "true_id": "cappadocian.dw.reading-scripture",
+        "wrong_id": "cappadocian.story.basil-death-funeral",
+        "sentence": "We looked, throughout, for God's own generous self-disclosure through what he had done, since we held that no name for him captures him completely.",
+        "shared_word": "since",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "cappadocian",
+        "true_id": "cappadocian.quote.reading-scripture-hexaemeron",
+        "wrong_id": "cappadocian.contested.settlement-historiography",
+        "sentence": "How He has characterized each one of them by distinct qualities!",
+        "shared_word": "distinct",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "cappadocian",
+        "true_id": "cappadocian.quote.basil-against-delaying-baptism",
+        "wrong_id": "cappadocian.gravity.hesychia-summons",
+        "sentence": "Has thy prime passed by?",
+        "shared_word": "prime",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "cappadocian",
+        "true_id": "cappadocian.term.apatheia",
+        "wrong_id": "cappadocian.story.basil-death-funeral",
+        "sentence": "Our own writers wept openly at deathbeds and defended grief in writing.",
+        "shared_word": "grief",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "cappadocian",
+        "true_id": "cappadocian.dw.psalms-teach-the-singer",
+        "wrong_id": "cappadocian.term.psalmodia",
+        "sentence": "The psalms were sung so many times, at fixed hours, that they came to interpret the singer rather than waiting to be interpreted - understanding built slowly on top of repetition, not the other way round.",
+        "shared_word": "psalms",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "cappadocian",
+        "true_id": "cappadocian.term.anastasis",
+        "wrong_id": "cappadocian.dw.wealth-answerable-to-the-poor",
+        "sentence": "We taught that bodies will rise again.",
+        "shared_word": "taught",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "desert",
+        "true_id": "desert.dw.jesus",
+        "wrong_id": "desert.source.jerome-letter-22",
+        "sentence": "It is Christ who works them, by means of those who believe in him.",
+        "shared_word": "works",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "desert",
+        "true_id": "desert.limit.communal-wrong-unrepaired",
+        "wrong_id": "desert.quote.when-the-cross-of-christ-arose",
+        "sentence": "No account survives, told in full, of a community of ours that harmed someone and then made it right: named the harm, went to the one harmed, restored what was taken.",
+        "shared_word": "made",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "desert",
+        "true_id": "desert.story.antony-tomb-combat",
+        "wrong_id": "desert.quote.good-good-i-dont-mind",
+        "sentence": "The demons came again, now shaped like wild beasts filling the space around him.",
+        "shared_word": "came",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "desert",
+        "true_id": "desert.quote.womens-house-across-the-river",
+        "wrong_id": "desert.term.puritas-cordis",
+        "sentence": "And when any one of these went in to her rest, they sang psalms and adorned her in holiness and wrapped her in linen, and the brethren received her on a raft and buried her in their place.",
+        "shared_word": "place",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "desert",
+        "true_id": "desert.limit.tithe",
+        "wrong_id": "desert.demo.center-who-was-jesus",
+        "sentence": "How did we decide what to give as a tithe?",
+        "shared_word": "give",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "desert",
+        "true_id": "desert.quote.womens-house-across-the-river",
+        "wrong_id": "desert.quote.so-perfectly-silent",
+        "sentence": "And at her instigation virgins and widows collected together and became exceedingly good.",
+        "shared_word": "together",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "desert",
+        "true_id": "desert.story.virgin-who-hid-athanasius",
+        "wrong_id": "desert.source.palladius-paradise-syriac",
+        "sentence": "She hid him.",
+        "shared_word": "hid",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "desert",
+        "true_id": "desert.dw.god",
+        "wrong_id": "desert.figure.pachomius",
+        "sentence": "The most systematic among us called that contemplation.",
+        "shared_word": "most",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "desert",
+        "true_id": "desert.quote.the-coming-of-christ-made-thee-weak",
+        "wrong_id": "desert.quote.moses-sins-run-out",
+        "sentence": "Thou who art ever a liar and never speakest the truth, this at length, even against thy will, thou hast truly spoken.",
+        "shared_word": "ever",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "desert",
+        "true_id": "desert.dw.jesus",
+        "wrong_id": "desert.story.sarah-answer",
+        "sentence": "And the enemy we fought there was one Christ had already beaten.",
+        "shared_word": "already",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "desert",
+        "true_id": "desert.story.angel-hands-the-tablet",
+        "wrong_id": "desert.quote.antony-not-worsted",
+        "sentence": "As he sat in his cave, the angel of the Lord came and told him that he himself was finished - staying on in the cave was now a waste.",
+        "shared_word": "lord",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "desert",
+        "true_id": "desert.story.antony-call",
+        "wrong_id": "desert.quote.pachomius-angel-tablet",
+        "sentence": "It was the Lord telling the rich young man: if you would be perfect, go and sell what you have, give to the poor, and come follow me, and you will have treasure in heaven.",
+        "shared_word": "man",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "don",
+        "true_id": "don.figure.optatus",
+        "wrong_id": "don.force.conference-of-carthage-verdict",
+        "sentence": "our own later opponent, whose account is where most of what survives of our own early history actually comes from",
+        "shared_word": "account",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "don",
+        "true_id": "don.story.council-of-cirta",
+        "wrong_id": "don.demo.never-settled",
+        "sentence": "Thanks be to God, the assembly answered, and did.",
+        "shared_word": "assembly",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "don",
+        "true_id": "don.term.martyr-martyrdom",
+        "wrong_id": "don.term.confessor",
+        "sentence": "But our best-known dead were not killed by pagans.",
+        "shared_word": "dead",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "don",
+        "true_id": "don.term.schisma",
+        "wrong_id": "don.story.macrobius-letter-isaac-maximianus",
+        "sentence": "A tear in the church -- a charge each side makes, and neither accepts.",
+        "shared_word": "neither",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "don",
+        "true_id": "don.limit.theology-beyond-tyconius",
+        "wrong_id": "don.dw.the-word-catholic-and-no-door-today",
+        "sentence": "How did we read our own scriptures -- what did we look for in them?",
+        "shared_word": "read",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "don",
+        "true_id": "don.dw.silver-and-the-goods-of-the-poor",
+        "wrong_id": "don.dw.the-line-we-actually-drew",
+        "sentence": "Was anyone among us rich?",
+        "shared_word": "anyone",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "don",
+        "true_id": "don.dw.the-test-we-took-from-the-text",
+        "wrong_id": "don.term.episcopus",
+        "sentence": "The true church is the one being hated.",
+        "shared_word": "church",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "don",
+        "true_id": "don.dw.written-by-our-opponents",
+        "wrong_id": "don.term.deo-laudes",
+        "sentence": "The answer, for nearly all of it, is our enemies.",
+        "shared_word": "nearly",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "don",
+        "true_id": "don.dw.scripture-and-the-african-fathers",
+        "wrong_id": "don.term.anniversaria-commemoratio",
+        "sentence": "There is a harder reason we would not have said scripture settles everything.",
+        "shared_word": "reason",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "don",
+        "true_id": "don.dw.the-test-we-took-from-the-text",
+        "wrong_id": "don.core.donatism",
+        "sentence": "They separated everything in practice.",
+        "shared_word": "practice",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "don",
+        "true_id": "don.limit.the-room-we-cannot-show-you",
+        "wrong_id": "don.story.lucilla-affair",
+        "sentence": "We know our own shout better than the place we shouted it in.",
+        "shared_word": "place",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "don",
+        "true_id": "don.dw.not-a-death-wish",
+        "wrong_id": "don.story.passio-marculi",
+        "sentence": "It says the opposite kind of thing, and harder.",
+        "shared_word": "says",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "gallic",
+        "true_id": "gallic.term.church-or-circus",
+        "wrong_id": "gallic.force.egyptian-standard",
+        "sentence": "Or skipped it outright, the moment they heard the games were on.",
+        "shared_word": "heard",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "gallic",
+        "true_id": "gallic.term.penance-satisfaction",
+        "wrong_id": "gallic.source.eucherius-de-contemptu-mundi",
+        "sentence": "The house's public discipline.",
+        "shared_word": "public",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "gallic",
+        "true_id": "gallic.term.example-imitation",
+        "wrong_id": "gallic.term.novelty-antiquity",
+        "sentence": "Our books exist to be that example when the man himself is absent.",
+        "shared_word": "man",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "gallic",
+        "true_id": "gallic.term.communion",
+        "wrong_id": "gallic.term.virtus",
+        "sentence": "The sacrament sits inside it.",
+        "shared_word": "inside",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "gallic",
+        "true_id": "gallic.dw.the-christ-who-bears-the-wounds",
+        "wrong_id": "gallic.term.compunction",
+        "sentence": "Martin kept silence a long time.",
+        "shared_word": "martin",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "gallic",
+        "true_id": "gallic.term.the-deposit",
+        "wrong_id": "gallic.term.bloodless-martyrdom-confessor",
+        "sentence": "The faith as a thing held in trust.",
+        "shared_word": "faith",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "gallic",
+        "true_id": "gallic.term.sign-of-the-cross",
+        "wrong_id": "gallic.term.disciple-master",
+        "sentence": "An act of power against demons and elements, not a devotional habit.",
+        "shared_word": "power",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "gallic",
+        "true_id": "gallic.term.novelty-antiquity",
+        "wrong_id": "gallic.term.brethren",
+        "sentence": "Whatever is new - a doctrine, a monastic custom, a fashion of dress, a cult, an opinion of one's own - is suspect for being new.",
+        "shared_word": "new",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "gallic",
+        "true_id": "gallic.term.catechumen",
+        "wrong_id": "gallic.term.apostolic-see-pope",
+        "sentence": "The first man he raised was one.",
+        "shared_word": "first",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "gallic",
+        "true_id": "gallic.term.monk-solitary",
+        "wrong_id": "gallic.gravity.grace-and-effort",
+        "sentence": "The cut shows in his body and his dwelling.",
+        "shared_word": "body",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "gallic",
+        "true_id": "gallic.term.predestination",
+        "wrong_id": "gallic.figure.cassian",
+        "sentence": "Our own teacher never used it.",
+        "shared_word": "never",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "hal",
+        "true_id": "hal.story.day-at-monastery",
+        "wrong_id": "hal.quote.she-put-on-sackcloth",
+        "sentence": "Put together, from scattered notices, a typical day might be told like this - and told only like this, as a putting-together.",
+        "shared_word": "put",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "hal",
+        "true_id": "hal.story.marcella-standing",
+        "wrong_id": "hal.limit.f5-enslaved",
+        "sentence": "She gave her opinions, he adds, as if they were not her own but a teacher's, mindful of the apostle's rule.",
+        "shared_word": "gave",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "hal",
+        "true_id": "hal.term.peregrinatio",
+        "wrong_id": "hal.term.exegesis-as-practiced-authority",
+        "sentence": "Devout travel to the holy places.",
+        "shared_word": "holy",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "hal",
+        "true_id": "hal.term.epitaphium",
+        "wrong_id": "hal.term.virginitas",
+        "sentence": "Part epitaph, part funeral speech, part lesson in what a holy life looks like.",
+        "shared_word": "life",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "hal",
+        "true_id": "hal.quote.boxwood-letters",
+        "wrong_id": "hal.limit.martyrdom",
+        "sentence": "Get for her a set of letters made of boxwood or of ivory and called each by its proper name.",
+        "shared_word": "name",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "hal",
+        "true_id": "hal.quote.she-put-on-sackcloth",
+        "wrong_id": "hal.term.praeceptor",
+        "sentence": "Who would believe that, after the death of her second husband at a time when most widows, having shaken off the yoke of servitude, grow careless and allow themselves more liberty than ever...",
+        "shared_word": "more",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "hal",
+        "true_id": "hal.dw.jesus",
+        "wrong_id": "hal.term.patrocinium",
+        "sentence": "We built our home within sight of the cave we held to be his birthplace.",
+        "shared_word": "held",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "hal",
+        "true_id": "hal.dw.hell",
+        "wrong_id": "hal.gravity.patronage-authority",
+        "sentence": "Our own scholar had once handled sympathetically the teaching that in the end every creature, even the devil, would be restored - and we publicly renounced that teaching.",
+        "shared_word": "every",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "hal",
+        "true_id": "hal.quote.let-her-be-brought-up-in-a-monastery",
+        "wrong_id": "hal.term.peregrinatio",
+        "sentence": "Let her be brought up in a monastery, let her be one amid companies of virgins, let her learn to avoid swearing, let her regard lying as sacrilege, let her be ignorant of the world, let her live the angelic life, while in the flesh let her be without the flesh, and let her suppose that all human beings are like herself.",
+        "shared_word": "world",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "hal",
+        "true_id": "hal.dw.sin-grace",
+        "wrong_id": "hal.dw.church-failure",
+        "sentence": "Were people born already guilty?",
+        "shared_word": "people",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "hal",
+        "true_id": "hal.story.rufinus-rupture",
+        "wrong_id": "hal.quote.innocent-ravages",
+        "sentence": "Then the church's weather changed.",
+        "shared_word": "church's",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "ijc",
+        "true_id": "ijc.story.callinicum-synagogue",
+        "wrong_id": "ijc.demo.hypocrisy",
+        "sentence": "Not because he denied the burning.",
+        "shared_word": "burning",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "ijc",
+        "true_id": "ijc.quote.nicene-creed",
+        "wrong_id": "ijc.demo.argued-about",
+        "sentence": "He suffered and the third day he rose again, and ascended into heaven.",
+        "shared_word": "again",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "ijc",
+        "true_id": "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood",
+        "wrong_id": "ijc.term.communio",
+        "sentence": "This way is taken by most.",
+        "shared_word": "way",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "ijc",
+        "true_id": "ijc.limit.f5-ordinary-day",
+        "wrong_id": "ijc.demo.reading-confusion",
+        "sentence": "The daily bread, the household, the deathbed of an ordinary believer: those were lived, not written, and we will not invent them.",
+        "shared_word": "lived",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "ijc",
+        "true_id": "ijc.limit.jesus-to-you",
+        "wrong_id": "ijc.demo.never-settled",
+        "sentence": "We cannot show you one ordinary person's own answer, because those pages were never written.",
+        "shared_word": "never",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "ijc",
+        "true_id": "ijc.limit.later-questions",
+        "wrong_id": "ijc.quote.ambrose-emperor-in-church",
+        "sentence": "Ask us instead about original sin, or about what the bread and cup are; our own record engages both directly.",
+        "shared_word": "sin",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "ijc",
+        "true_id": "ijc.dw.women-authority-cost",
+        "wrong_id": "ijc.quote.canon3-new-rome",
+        "sentence": "Either way, real coercive power moved through her court.",
+        "shared_word": "moved",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "ijc",
+        "true_id": "ijc.story.tome-that-would-not-bend",
+        "wrong_id": "ijc.source.canons-constantinople-381",
+        "sentence": "So the council that finally settled who Christ is left open the question it could not settle: where, on earth, the church's own final authority sits.",
+        "shared_word": "council",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "ijc",
+        "true_id": "ijc.story.tome-that-would-not-bend",
+        "wrong_id": "ijc.force.imperial-policy-oscillation",
+        "sentence": "He wrote to emperor, empress, and bishop alike to say why: things secular stand on a different basis from things divine.",
+        "shared_word": "bishop",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "ijc",
+        "true_id": "ijc.story.vision-and-alliance",
+        "wrong_id": "ijc.source.leo-sermons",
+        "sentence": "Even the edition's own notes doubt the daylight vision's details.",
+        "shared_word": "edition's",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "ijc",
+        "true_id": "ijc.dw.ancient-custom",
+        "wrong_id": "ijc.story.vigil-in-basilica",
+        "sentence": "Some of our practices genuinely came down from before anyone could remember otherwise.",
+        "shared_word": "came",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "pahc",
+        "true_id": "pahc.term.baptisma",
+        "wrong_id": "pahc.limit.womens-own-words",
+        "sentence": "The water - the washing into the community, after teaching and fasting.",
+        "shared_word": "teaching",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "pahc",
+        "true_id": "pahc.story.martyrdom-of-polycarp",
+        "wrong_id": "pahc.quote.they-appointed-those-already-mentioned",
+        "sentence": "But the games were already finished, and it was not lawful.",
+        "shared_word": "already",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "pahc",
+        "true_id": "pahc.story.two-ways-catechumen",
+        "wrong_id": "pahc.contested.first-clement-dating",
+        "sentence": "This is not the account of one named person.",
+        "shared_word": "named",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "pahc",
+        "true_id": "pahc.witness.reading-scripture",
+        "wrong_id": "pahc.force.neronian-persecution",
+        "sentence": "On the day we gathered, someone read aloud.",
+        "shared_word": "someone",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "pahc",
+        "true_id": "pahc.quote.melito-no-phantom",
+        "wrong_id": "pahc.demo.center-coming-to-belief",
+        "sentence": "For there is no need, to persons of intelligence, to attempt to prove, from the deeds of Christ subsequent to His baptism, that His soul and His body, His human nature like ours, were real, and no phantom of the imagination.",
+        "shared_word": "soul",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "pahc",
+        "true_id": "pahc.story.mutual-aid-prisoner",
+        "wrong_id": "pahc.quote.polycrates-to-victor",
+        "sentence": "He was hostile, mocking, writing to satirize a man he considered a fraud who had once attached himself to us.",
+        "shared_word": "writing",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "pahc",
+        "true_id": "pahc.story.two-ways-catechumen",
+        "wrong_id": "pahc.quote.two-female-slaves-who-were-called-deaconesses",
+        "sentence": "Not to swear falsely or bear false witness.",
+        "shared_word": "witness",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "pahc",
+        "true_id": "pahc.story.grandsons-before-domitian",
+        "wrong_id": "pahc.witness.outside-our-community",
+        "sentence": "He treated them with contempt, as too mean to be worth his notice, and let them go; and he called off the persecution.",
+        "shared_word": "treated",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "pahc",
+        "true_id": "pahc.witness.reading-scripture",
+        "wrong_id": "pahc.term.pertinacia",
+        "sentence": "This went on for as long as there was time.",
+        "shared_word": "time",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "pahc",
+        "true_id": "pahc.limit.ordinary-majority",
+        "wrong_id": "pahc.story.justin-sunday-gathering",
+        "sentence": "Most of us could not read.",
+        "shared_word": "read",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "pahc",
+        "true_id": "pahc.story.day-under-bishop-and-presbyters",
+        "wrong_id": "pahc.quote.first-concerning-the-cup",
+        "sentence": "The bishop's own eucharist was the only valid one.",
+        "shared_word": "eucharist",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "pahc",
+        "true_id": "pahc.term.prophetes",
+        "wrong_id": "pahc.demo.becoming-one-of-us",
+        "sentence": "One who speaks as the Spirit prompts.",
+        "shared_word": "spirit",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "rzg",
+        "true_id": "rzg.term.sign-and-the-thing-signified",
+        "wrong_id": "rzg.contested.anabaptist-schism-legitimacy",
+        "sentence": "Whether this was real agreement or careful diplomacy is a live, unsettled question in our own record.",
+        "shared_word": "record",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "rzg",
+        "true_id": "rzg.term.the-lords-supper-spiritual-presence",
+        "wrong_id": "rzg.force.synod-of-dort-international-dimension",
+        "sentence": "Our own sharpest boundary marker.",
+        "shared_word": "sharpest",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "rzg",
+        "true_id": "rzg.term.predestination-election",
+        "wrong_id": "rzg.term.sign-and-the-thing-signified",
+        "sentence": "Zurich's founders stated it more briefly, and pastorally.",
+        "shared_word": "more",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "rzg",
+        "true_id": "rzg.limit.consistory-case-narrative",
+        "wrong_id": "rzg.witness.a-quieted-mind",
+        "sentence": "It has not reached us.",
+        "shared_word": "reached",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "rzg",
+        "true_id": "rzg.witness.triple-refusal",
+        "wrong_id": "rzg.craft.theophilus-voice",
+        "sentence": "One answers an order we inherited; one resists a rival still pressing from outside; one is a wound from within, and it cost us most because it came from our own.",
+        "shared_word": "answers",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "rzg",
+        "true_id": "rzg.witness.one-thing-not-in-dispute",
+        "wrong_id": "rzg.term.confession-of-faith",
+        "sentence": "What is distinctly ours is what we were taught his death secures.",
+        "shared_word": "taught",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "rzg",
+        "true_id": "rzg.quote.mass-not-a-sacrifice",
+        "wrong_id": "rzg.witness.what-a-stranger-would-notice",
+        "sentence": "That Christ, having sacrificed himself once, is to eternity a certain and valid sacrifice for the sins of all faithful, wherefrom it follows that the mass is not a sacrifice, but is a remembrance of the sacrifice and assurance of the salvation which Christ has given us.",
+        "shared_word": "sacrifice",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "rzg",
+        "true_id": "rzg.term.the-lords-supper-spiritual-presence",
+        "wrong_id": "rzg.term.sola-scriptura",
+        "sentence": "No body confined to bread.",
+        "shared_word": "body",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "rzg",
+        "true_id": "rzg.limit.dentiere-and-womens-voice",
+        "wrong_id": "rzg.source.manetsch-calvins-pastors",
+        "sentence": "One woman in our own record carried real authority, and paid for it.",
+        "shared_word": "record",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "rzg",
+        "true_id": "rzg.witness.a-narrow-true-church",
+        "wrong_id": "rzg.source.zwingli-latin-works-vol1",
+        "sentence": "Each time, the same test: does this reading hold against Scripture?",
+        "shared_word": "same",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "rzg",
+        "true_id": "rzg.limit.ordinary-daily-practice",
+        "wrong_id": "rzg.limit.dentiere-and-womens-voice",
+        "sentence": "I cannot, honestly.",
+        "shared_word": "cannot",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "rzg",
+        "true_id": "rzg.term.sign-and-the-thing-signified",
+        "wrong_id": "rzg.witness.a-narrow-true-church",
+        "sentence": "We distinguish the bread from the reality it points to.",
+        "shared_word": "bread",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "syr",
+        "true_id": "syr.term.qyama",
+        "wrong_id": "syr.demo.woman-authority",
+        "sentence": "But they did not leave for the desert.",
+        "shared_word": "desert",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "syr",
+        "true_id": "syr.quote.blc-one-name",
+        "wrong_id": "syr.source.basil-hexaemeron",
+        "sentence": "On one day, the first of the week, we assemble ourselves together, and on the days of the readings",
+        "shared_word": "days",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "syr",
+        "true_id": "syr.dw.god",
+        "wrong_id": "syr.contested.bardaisan-nicene-floor",
+        "sentence": "Exactly these things: creation, freedom, the body's worth, the resurrection.",
+        "shared_word": "resurrection",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "syr",
+        "true_id": "syr.dw.reading",
+        "wrong_id": "syr.term.anti-jewish-polemic",
+        "sentence": "Scripture's words were each a raza: a symbol bound to the truth - the shrara - it carries.",
+        "shared_word": "carries",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "syr",
+        "true_id": "syr.quote.a-pearl-upon-the-palm",
+        "wrong_id": "syr.quote.ephrem-keeper-of-strangers",
+        "sentence": "I put it, my brethren, upon the palm of my hand, that I might examine it: I went to look at it on one side, and it proved faces on all sides.",
+        "shared_word": "put",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "syr",
+        "true_id": "syr.term.qyama",
+        "wrong_id": "syr.dw.outsiders-empire",
+        "sentence": "Its members - the sons and daughters of the covenant - promised a celibate life for good.",
+        "shared_word": "covenant",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "syr",
+        "true_id": "syr.dw.was-jesus-god",
+        "wrong_id": "syr.core.syriac",
+        "sentence": "Then we guard the mystery.",
+        "shared_word": "mystery",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "syr",
+        "true_id": "syr.story.basil-legend",
+        "wrong_id": "syr.force.frontier-plural-milieu",
+        "sentence": "And his service as a deacon is attested on its own, without any journey.",
+        "shared_word": "attested",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "syr",
+        "true_id": "syr.dw.outsiders-empire",
+        "wrong_id": "syr.term.raza-shrara",
+        "sentence": "Being Christian began to sound like being the enemy's friend.",
+        "shared_word": "friend",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "syr",
+        "true_id": "syr.dw.apostolic",
+        "wrong_id": "syr.limit.f5-enslaved",
+        "sentence": "How did we know our practices went back to the apostles?",
+        "shared_word": "know",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "syr",
+        "true_id": "syr.dw.reading",
+        "wrong_id": "syr.dw.penitence-prayer",
+        "sentence": "But it always arrived carried - by the church's worship, by the harmony that gave the Gospel its shape, by teachers, and by the covenant's practice.",
+        "shared_word": "teachers",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "syr",
+        "true_id": "syr.dw.unsettled",
+        "wrong_id": "syr.quote.ephrem-resurrection-pledge",
+        "sentence": "Our own best teaching says that truth and its symbol must not be torn apart, and that same teaching condemns tearing truth apart from charity.",
+        "shared_word": "apart",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "witt",
+        "true_id": "witt.term.grace",
+        "wrong_id": "witt.term.worthy-unworthy",
+        "sentence": "Received by faith alone.",
+        "shared_word": "alone",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "witt",
+        "true_id": "witt.dw.born-in-sin-fed-at-the-table",
+        "wrong_id": "witt.source.jerome-controversial-writings-against-luther",
+        "sentence": "Did we believe people are saved by faith alone, not works?",
+        "shared_word": "works",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "witt",
+        "true_id": "witt.term.images",
+        "wrong_id": "witt.gravity.bodily-presence",
+        "sentence": "Kept or removed freely, never by force.",
+        "shared_word": "force",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "witt",
+        "true_id": "witt.dw.born-in-sin-fed-at-the-table",
+        "wrong_id": "witt.source.luther-treatise-on-the-new-testament-that",
+        "sentence": "It clings to something outside itself -- the Word, the water, the bread, the absolution -- and love and good works follow it, uncommanded, the way fruit follows a living tree.",
+        "shared_word": "works",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "witt",
+        "true_id": "witt.term.obedience",
+        "wrong_id": "witt.term.we-are-all-priests",
+        "sentence": "Obedience owed to parents and rulers, limited only when they command sin.",
+        "shared_word": "rulers",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "witt",
+        "true_id": "witt.dw.cold-and-careless-among-us",
+        "wrong_id": "witt.dw.how-the-promise-reached-us",
+        "sentence": "We will not pretend it did not.",
+        "shared_word": "pretend",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "witt",
+        "true_id": "witt.term.pastor",
+        "wrong_id": "witt.demo.someone-like-me",
+        "sentence": "A pastor is called and usually married.",
+        "shared_word": "pastor",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "witt",
+        "true_id": "witt.term.death",
+        "wrong_id": "witt.term.gospel",
+        "sentence": "Faith teaches us to call it a deep, sweet sleep.",
+        "shared_word": "call",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "witt",
+        "true_id": "witt.dw.true-priests-of-gods-own-making",
+        "wrong_id": "witt.contested.household-catechism-reception",
+        "sentence": "We would not call that a death wish.",
+        "shared_word": "call",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "witt",
+        "true_id": "witt.dw.how-the-promise-reached-us",
+        "wrong_id": "witt.quote.congregation-of-saints",
+        "sentence": "That confession is what we have.",
+        "shared_word": "confession",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "witt",
+        "true_id": "witt.limit.record-thinnest",
+        "wrong_id": "witt.term.vows",
+        "sentence": "That program is the most fully specified thing we hold, down to the hour.",
+        "shared_word": "hold",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      },
+      {
+        "world": "witt",
+        "true_id": "witt.term.to-have-a-god-is-to-trust",
+        "wrong_id": "witt.term.congregation",
+        "sentence": "To have a god is simply to trust.",
+        "shared_word": "god",
+        "verdict": "ok",
+        "why": "tagged claim, shares ground with its own records"
+      }
+    ]
+  }
+}

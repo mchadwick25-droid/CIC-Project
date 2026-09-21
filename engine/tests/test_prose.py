@@ -316,11 +316,17 @@ def test_the_two_floors_gate_different_measurements():
 def test_the_runtime_net_uses_the_shared_ratio_not_its_own_copy():
     """grounding_net.py carried a second, identical implementation of
     grounding_ratio inline. One formula, owned once - otherwise the tests
-    above pin a function the live path does not call."""
+    above pin a function the live path does not call.
+
+    Build-Plan.md Stage 1: check_turn()'s own per-sentence body (where this
+    call originally lived) was factored out into verdict_for_sentence() -
+    a pure extraction, so the one shared call moved with it rather than
+    being duplicated. check_turn() itself now just loops and delegates."""
     import inspect
 
     from engine.m4 import grounding_net
 
-    source = inspect.getsource(grounding_net.check_turn)
+    source = inspect.getsource(grounding_net.verdict_for_sentence)
     assert "grounding_ratio(text, cited_words)" in source
     assert "/ len(words)" not in source
+    assert "grounding_ratio(text, cited_words)" not in inspect.getsource(grounding_net.check_turn)

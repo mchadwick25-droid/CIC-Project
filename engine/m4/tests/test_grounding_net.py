@@ -6,7 +6,7 @@ verification (against the current alx/pahc/ijc packages) is a separate,
 manual step recorded in the session's own commit history, not repeated
 here as a hermetic test.
 """
-from engine.m4.grounding_net import build_figure_lexicon, check_turn, parse_tagged, scope_completion, strip_tags
+from engine.m4.grounding_net import build_figure_lexicon, check_turn, parse_tagged, scope_completion, strip_tags, verdict_for_sentence
 from engine.m4.grounding_net import _drop_truncated_tail
 
 TERM_RECORD = {
@@ -367,3 +367,37 @@ def test_a_scaffold_phrase_grammatically_fused_with_a_tagged_claim_still_gets_ch
     entry = result["sentences"][0]
     assert entry["verdict"] == "ok"
     assert entry["why"] == "tagged claim, shares ground with its own records"
+
+
+def test_verdict_for_sentence_matches_check_turn_called_on_the_same_sentence():
+    """Build-Plan.md Stage 1 (D1 grounding measurement) needs to run the
+    exact per-sentence verdict logic directly against a constructed
+    (sentence, tags) pair, without round-tripping through tagged-text
+    reconstruction and re-parsing - this is the seam that makes that
+    possible. Proven here by equivalence, not just by check_turn's own
+    tests still passing unchanged: the same sentence run both ways must
+    land on the identical verdict."""
+    text = "What reached everyone was the thanksgiving meal of bread and cup at the heart of the community's worship [[fix.term.eucharistia]]."
+    via_check_turn = check_turn(text, REPOSITORY)["sentences"][0]
+
+    figure_names = build_figure_lexicon(REPOSITORY)
+    parsed = parse_tagged(text)[0]
+    direct = verdict_for_sentence(
+        parsed["text"], parsed["tags"],
+        repository_records=REPOSITORY, figure_names=figure_names,
+        thin_topics=None, grounding_floor=0.4,
+    )
+
+    assert direct == via_check_turn
+
+
+def test_verdict_for_sentence_withholds_an_unresolvable_tag_with_no_turn_context_needed():
+    """The whole point of the extraction: callable for a single synthetic
+    sentence with no surrounding turn at all."""
+    entry = verdict_for_sentence(
+        "This claims a record that does not exist.", ["fix.term.nonexistent"],
+        repository_records=REPOSITORY, figure_names=set(),
+        thin_topics=None, grounding_floor=0.4,
+    )
+    assert entry["verdict"] == "withhold"
+    assert "unresolvable" in entry["why"]
