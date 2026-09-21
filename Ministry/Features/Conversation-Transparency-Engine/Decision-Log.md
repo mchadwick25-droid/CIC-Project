@@ -540,3 +540,57 @@ structured` gate (PR #366), and these riders - every item Build-Plan.md's
 own Stage 4a line named. Next in the build plan: Stage 4b
 (`guard_proximity`), blocked on 4a being ruled shipped, or Stage 6-9 per
 `Rulings-Pending.md`'s own remaining open rulings.
+
+**Entry 27 — 2026-09-21.** Stage 4b merged (PR #374, commit `0155da66`):
+`engine/m4/output_check.py`'s fourth family, `guard_proximity` - a
+sentence that cites a record carrying `claim_guards` (R11's guard half)
+and shares that guard's own barred proposition's subject matter. A second,
+independent net alongside `grounding_net`'s own per-sentence check - Stage
+1's own D1 measurement found that check caught a fabricated guard
+violation only 2 of 13 times. `_guard_proposition()` strips `GUARD_MARKERS`'
+own framing and the note-authoring boilerplate from a guard's text, and
+excludes its own proper nouns from the required overlap - two names
+sharing a sentence (e.g. Brictio/Martin, the story's own two subjects) is
+not itself the barred claim; only sharing what the claim actually asserts
+about them is. Threshold (≥2 shared words) is the real floor measured
+against Stage 1's own 13 fabricated flat assertions, not a guess: the
+smallest overlap among all 13 is exactly 2.
+
+**Verified against real data, both directions.** Catches 13/13 of Stage
+1's own fabricated flat assertions
+(`grounding_fooling_measure.GUARD_FLAT_ASSERTIONS`). The design's own
+false-positive test found a real problem before it shipped: an earlier
+version (combined word overlap, no proper-noun exclusion) flagged
+"Brictio was in the courtyard when Martin confronted him" - a true
+sentence naming the story's own two subjects with no succession claim at
+all. Excluding proper nouns from the required overlap fixed that false
+positive without losing any of the 13.
+
+`check_output()` gained optional `citations`/`repository_records` params
+(backward compatible - a caller with neither gets the first three
+families exactly as before), wired at the one real call site,
+`engine/m4/turn.py`. `engine/m7/instruments.py` gained a dedicated
+`guard_proximity(s)` instrument at **defect** severity (the one
+`output_check` family that is a live fabrication risk, not cosmetic/
+register) - excluded from `unread_outputs()`'s own generic
+`output_defects`/review bucket so the same finding isn't reported twice
+at two different severities.
+
+**Known, accepted limits, named not hidden** (report-only, human-reviewed,
+never a block, per R14, same as every family in this module): a decline
+phrased outside `GUARD_MARKERS`' own register (e.g. "we don't say" vs.
+"does not say") may not be recognized as declining; a paraphrase avoiding
+the guard's own specific words may not be caught. This is a second net
+alongside `grounding_net`'s own check, not the only one.
+
+39 new tests (7 in `test_output_check.py`, 1 dedicated in `test_audit.py`,
+the rest incidental). Full suite 564/564; `staleness-check` and
+`engine.m9.cli check` both clean, **no repin needed** - none of the three
+touched files are part of any world's compiled package bytes;
+`retrieval_bench.py` unaffected (1154, unchanged).
+
+**Stage 4b is now done** - Build-Plan.md's own line ("guard_proximity
+family... Feeds R14") is fully built. R14 itself (Rulings-Pending.md) was
+already ruled CLOSED (Decision-Log.md Entry 3): an output-side check may
+never remove a sentence, only report - which this family, like every
+other in `output_check.py`, already does by construction.
