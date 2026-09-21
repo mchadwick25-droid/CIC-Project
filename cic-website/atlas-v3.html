@@ -42076,20 +42076,33 @@ stage.addEventListener('wheel',(ev)=>{
 // scrollbar thumb gets for free. Touch keeps its own dedicated multi-touch
 // pan/pinch handler below (real two-finger pinch-zoom math no single-pointer
 // path can replace) -- this path is explicitly mouse/pen only.
-let dragging=false, lastX=0, lastY=0;
+//
+// Capturing on pointerdown itself broke every node/river/story click: once
+// setPointerCapture runs, the browser resolves the matching pointerup (and
+// the click it synthesizes from that up) against the capture target (#stage)
+// instead of the actual element under the pointer, so a plain tap on a node
+// never reached that node's own click listener -- a mousedown-to-mouseup
+// click with zero movement was being treated as a drag from the first pixel.
+// Arm on pointerdown but only start dragging, and only capture, once the
+// pointer has actually moved past a small threshold; a click that never
+// moves that far leaves capture untouched and resolves normally.
+const DRAG_THRESHOLD=4;
+let dragArmedId=null, dragging=false, downX=0, downY=0, lastX=0, lastY=0;
 stage.addEventListener('pointerdown',(ev)=>{
   if(ev.pointerType==='touch')return;
-  dragging=true; lastX=ev.clientX; lastY=ev.clientY;
-  stage.classList.add('grabbing');
-  stage.setPointerCapture(ev.pointerId);
+  dragArmedId=ev.pointerId; downX=lastX=ev.clientX; downY=lastY=ev.clientY;
 });
 stage.addEventListener('pointermove',(ev)=>{
-  if(!dragging||ev.pointerType==='touch')return;
+  if(ev.pointerType==='touch'||ev.pointerId!==dragArmedId)return;
+  if(!dragging){
+    if(Math.hypot(ev.clientX-downX,ev.clientY-downY)<DRAG_THRESHOLD)return;
+    dragging=true; stage.classList.add('grabbing'); stage.setPointerCapture(ev.pointerId);
+  }
   tx+=ev.clientX-lastX; ty+=ev.clientY-lastY; lastX=ev.clientX; lastY=ev.clientY; applyTransform();
 });
 function endDrag(ev){
   if(ev.pointerType==='touch')return;
-  dragging=false; stage.classList.remove('grabbing');
+  dragArmedId=null; dragging=false; stage.classList.remove('grabbing');
 }
 stage.addEventListener('pointerup',endDrag);
 stage.addEventListener('pointercancel',endDrag);
