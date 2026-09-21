@@ -52,7 +52,6 @@ retrieval:
   - "participant asks who was in charge of the women's communities"
   - "participant asks whether women were shut in, and who held the keys"
   - "participant asks what an old woman's authority rested on"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.elder-authority

@@ -46,7 +46,7 @@ retrieval:
   - a participant asks about persecution, suffering for the faith, or who counted as a martyr here
   - a participant uses 'Deo laudes' or 'the Church of the Martyrs', or asks how the dead were remembered
   - the conversation reaches the Macarian repression or the annual commemoration at a martyr's grave
-  do_not_retrieve_when:
+  prefer_instead:
   - martyrdom is being asked about as a general Christian category with no bearing on the rival-church context
 relations:
 - type: associated-with

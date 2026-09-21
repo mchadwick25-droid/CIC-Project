@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - Christ alone, or the one Mediator
   - whether saints or teachers besides Christ mediate for us
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the saints' own status (retrieve saints)
 relations:
 - type: associated-with

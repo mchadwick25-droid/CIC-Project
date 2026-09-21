@@ -43,7 +43,6 @@ retrieval:
   - participant asks whether Constantine or the empire corrupted the church
   - participant asks whether Christians hid in the catacombs
   - participant asks what outsiders and neighbours said about us, or found strangest
-  do_not_retrieve_when: []
 text: >-
   Did the empire change what the church was? That is not a question to
   us. That is our whole case, and we are the party that answered yes.

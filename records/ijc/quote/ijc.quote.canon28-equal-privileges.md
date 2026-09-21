@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks how the great cities ranked against each other"
   - "participant asks whether a council could raise one see over another"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.force.leo-rejects-canon-28}
 ---

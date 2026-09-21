@@ -39,7 +39,7 @@ retrieval:
   - "participant asks whether anything about our own community troubled us"
   - "participant asks what our people never settled"
   - "participant asks the hardest true thing about our people"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants our own felt account of the 1525 rising or the 1543 treatise -- our record states their existence only, never their own argument or their own wording, and this record does not extend past that limit"
 text: >-
   Was there anything about our own community that troubled us? Yes, and

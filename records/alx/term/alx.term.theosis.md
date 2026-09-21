@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - salvation/goal-of-faith questions
   - the made-God line
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.gravity.soul-transformation

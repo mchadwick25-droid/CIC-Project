@@ -29,7 +29,7 @@ retrieval:
   - participant asks how this world understood communion
   - participant uses "spiritual presence," "remembrance," or asks whether Christ is really present in
     the bread and wine
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking specifically about the Consensus Tigurinus's own formal technical language
 relations:
 - type: associated-with

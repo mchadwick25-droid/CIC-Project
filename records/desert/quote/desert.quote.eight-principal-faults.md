@@ -41,7 +41,6 @@ retrieval:
   - "participant asks what temptations they worried about most"
   - "participant asks whether anger, money, food, or sex were the trouble, and how they named such things"
   - "participant asks whether they had a list or a scheme of the passions"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---

@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - a participant asks about Luther facing church authority before Worms
   - a participant asks what happened when Rome first tried to make Luther recant in person
-  do_not_retrieve_when:
+  prefer_instead:
   - a participant wants a verbatim transcript of 1518 - this is Luther's own later memory of it, not a
     contemporary record
   - the participant is really asking about Worms (retrieve witt.story.worms-1521 instead; this is the

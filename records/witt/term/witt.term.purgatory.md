@@ -31,7 +31,7 @@ retrieval:
   retrieve_when:
   - purgatory
   - what happened to the idea of purgatory over our own history
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means indulgences themselves (retrieve indulgence)
 relations:
 - type: associated-with

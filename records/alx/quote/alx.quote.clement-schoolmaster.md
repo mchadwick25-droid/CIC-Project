@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they made of Greek philosophy and pagan learning"
   - "participant asks whether people outside the church had anything true"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: alx.force.platonic-environment

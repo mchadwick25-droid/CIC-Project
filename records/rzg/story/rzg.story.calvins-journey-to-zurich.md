@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - participant asks how the Zurich/Geneva doctrinal bridge actually came about
   - participant asks about Farel's own role in this world
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the Consensus's own actual doctrinal content
 relations:
 - type: illustrates

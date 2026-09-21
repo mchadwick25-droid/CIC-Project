@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what God's work in salvation is ultimately doing, or what formation is restoring the soul toward
   - whether restoration means returning to a prior state or reaching something further ahead
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is really about universal salvation or Origen's apokatastasis specifically (retrieve
     alx.term.apokatastasis)
   - asking about transformation as the ongoing moment-by-moment process (retrieve alx.term.transformation)

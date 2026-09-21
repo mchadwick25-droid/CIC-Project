@@ -37,7 +37,7 @@ retrieval:
   retrieve_when:
   - grace, or 'a gracious God'
   - whether grace is earned
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means justification's technical shape (retrieve justification)
 relations:
 - type: associated-with

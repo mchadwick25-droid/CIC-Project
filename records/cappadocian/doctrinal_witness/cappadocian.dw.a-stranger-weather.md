@@ -40,7 +40,6 @@ retrieval:
   - "participant asks whether Christians in this world hid in catacombs"
   - "participant asks whether Constantine's empire corrupted the church"
   - "participant asks what an outsider found strangest, or what this world's own neighbours accused them of"
-  do_not_retrieve_when: []
 text: >-
   We did not hide in catacombs. The storm of persecution had only just
   ended when our own story opens - our own grandparents' generation still

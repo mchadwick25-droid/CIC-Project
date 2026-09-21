@@ -31,7 +31,7 @@ retrieval:
   - participant asks about women's roles in the founding dispute
   - conversation reaches the founding-moment forces and needs the specific human dispute those forces
     trace back to
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the later legal resolution of the same treasury grievance (don.story.gesta-apud-zenophilum
     is the courtroom sequel and should be retrieved alongside it, not instead of it)
   - participant is asking about the traditio accusation against Felix of Aptungi specifically (don.story.acta-purgationis-felicis

@@ -38,7 +38,6 @@ retrieval:
   retrieve_when:
   - participant asks what we looked for in the scriptures that a modern reader might miss
   - participant asks whether the violence in the biblical texts troubled us
-  do_not_retrieve_when: []
 text: >-
   What would you miss? That we were not reading for comfort or for
   doctrine. We were reading for a test we could apply on a Tuesday, in a

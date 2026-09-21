@@ -34,7 +34,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether belief was made compulsory by law"
   - "participant asks what happened to people who held a different faith"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}
 ---

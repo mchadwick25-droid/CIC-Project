@@ -38,7 +38,6 @@ retrieval:
   retrieve_when:
   - "participant asks how this world regarded money and poverty, or whether anyone among them was rich"
   - "participant asks what marriage meant to this world, or whether they had weddings"
-  do_not_retrieve_when: []
 text: >-
   Yes, some among us were rich - great landed estates were real here, and
   so was a famine that struck while the barns of the wealthy stayed full

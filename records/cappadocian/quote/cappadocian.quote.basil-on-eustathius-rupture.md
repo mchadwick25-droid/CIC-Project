@@ -48,7 +48,6 @@ retrieval:
   retrieve_when:
   - "participant asks why Basil broke off communion with his old friend and mentor Eustathius"
   - "participant asks what the actual doctrinal disagreement over the Holy Spirit was about"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.catholic-and-its-rivals

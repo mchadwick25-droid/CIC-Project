@@ -31,7 +31,6 @@ retrieval:
   - "participant asks which writings this world treated as scripture"
   - "participant asks how the canon was decided or who decided it"
   - "participant asks about books that did not make it into the Bible"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.apostolic

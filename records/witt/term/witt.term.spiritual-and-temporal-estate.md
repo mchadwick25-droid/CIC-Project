@@ -45,7 +45,7 @@ retrieval:
   retrieve_when:
   - spiritual estate, or temporal estate
   - whether clergy hold a higher station than others
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the priesthood-of-all-believers claim itself (retrieve we-are-all-priests)
 relations:
 - type: associated-with

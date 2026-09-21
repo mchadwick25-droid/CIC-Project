@@ -21,7 +21,6 @@ retrieval:
   - "participant is judging themselves or someone else harshly and asks if this way of life has anything to say to that"
   - "participant asks what discernment (diakrisis) actually looked like in practice"
   - "participant asks for a short, memorable saying about self-judgment"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.diakrisis

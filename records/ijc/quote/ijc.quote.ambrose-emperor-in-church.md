@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether the emperor was inside the church or above it"
   - "participant asks what a bishop said to an emperor's face"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.story.vigil-in-basilica}

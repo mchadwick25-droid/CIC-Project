@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether the empire changed the church once it became Christian"
   - "participant asks whether Christians were ever in hiding, and from whom"
   - "participant asks what a Christian emperor did to bishops who disagreed"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.empire

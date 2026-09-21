@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what mystery or mysterion meant to the early church
   - why Scripture or a practice seems to hold depths beyond what can be explained
-  do_not_retrieve_when:
+  prefer_instead:
   - mystery is meant in the ordinary sense of an unsolved puzzle or detective story
   - asking about allegory as a reading method rather than mystery as such (retrieve alx.term.allegoria)
 relations: []

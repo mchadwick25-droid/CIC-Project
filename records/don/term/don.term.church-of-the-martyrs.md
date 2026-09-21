@@ -37,7 +37,7 @@ retrieval:
   retrieve_when:
   - a participant asks what this communion called itself, in positive rather than oppositional terms
   - a participant asks why suffering counted as proof of being the true church
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about a specific martyr or a specific persecution episode rather than the self-description
 relations:
 - type: associated-with

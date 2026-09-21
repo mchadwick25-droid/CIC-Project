@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - how this world remembered its dead
   - how reliable the accounts of the women's lives are
-  do_not_retrieve_when: []
 plain_meaning: The letter written when someone died. Part epitaph, part funeral speech, part lesson
   in what a holy life looks like.
 world_word: epitaphium

@@ -31,7 +31,7 @@ retrieval:
   - what the imperial church believed under Constantius II or Valens
   - why orthodoxy seems to shift with the reigning emperor
   - Ambrose's confrontation with Justina's court
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about Arius's own original teaching, which this world's record does not directly reconstruct
 relations:
 - {type: associated-with, target: ijc.term.homoousios}

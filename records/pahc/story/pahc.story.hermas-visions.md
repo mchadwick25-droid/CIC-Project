@@ -24,7 +24,7 @@ retrieval:
   - "participant asks whether someone who wronged the community could come back"
   - "participant asks about G01 from the Roman plural-presbyter angle"
   - "participant asks what heaven, life after death, or the Church's ultimate future meant to this community"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs a straightforward historical-narrative register without the genre disclosure this story requires"
 relations:
 - type: associated-with

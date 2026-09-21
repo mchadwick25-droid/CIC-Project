@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Christians hiding in the catacombs? Not in our day. Our churches
   stood open and crowded. Our bishops ate dinner with senators. Travelers

@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they read scripture and what they looked for in it"
   - "participant asks whether they read a text literally or found other meanings beneath it"
-  do_not_retrieve_when: []
 ---
 The multi-sense reading doctrine in the GREEK-derived transmission (the
 Philocalia), preferred over the Rufinus-mediated ANF text per the

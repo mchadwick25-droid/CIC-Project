@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - the founding journey and why Bethlehem
   - the holy places and what they meant
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.gravity.ascetic-renunciation

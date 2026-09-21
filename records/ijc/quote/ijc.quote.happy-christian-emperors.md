@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether having Christian emperors was good for the church"
   - "participant asks how they judged a ruler's success"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 - {type: illustrates, target: ijc.gravity.episcopal-independence}

@@ -46,7 +46,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether learning and education mattered, or whether simplicity was better"
   - "participant asks what they made of pagan philosophy and secular study"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.gravity.scriptural-engagement

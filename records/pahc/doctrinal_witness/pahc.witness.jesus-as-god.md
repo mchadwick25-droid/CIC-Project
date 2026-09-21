@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world believed Jesus was God"
   - "participant asks about the Trinity"
-  do_not_retrieve_when:
+  prefer_instead:
   - "a question specifically about later conciliar Trinitarian formulas, which this world's own voices do not use"
 relations:
 - type: associated-with

@@ -32,7 +32,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Could a woman carry real authority among us, and what did it cost her? Yes,
   twice on the record's own terms, and both times the cost was steep. Justina

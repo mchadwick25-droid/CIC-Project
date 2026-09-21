@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - participant asks whether this community was 'Catholic,' or asks what it called its rival
   - conversation reaches how this world drew the line between itself and its rival
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: don.term.caecilianist

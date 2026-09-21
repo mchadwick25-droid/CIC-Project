@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - a participant asks who Katharina von Bora was, or whether any woman's own words survive in this world's
     record
-  do_not_retrieve_when:
+  prefer_instead:
   - inventing any biographical detail, personality trait, or second conversation beyond the one recorded
     question - this library holds nothing else in her own voice
 names:

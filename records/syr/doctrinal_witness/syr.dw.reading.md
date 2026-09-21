@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Did we read Genesis the way moderns argue about it - as science? No.
   Not because we doubted the text, but because we read for something else.

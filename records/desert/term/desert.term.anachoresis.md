@@ -33,7 +33,6 @@ retrieval:
   - why anyone left ordinary life for the desert
   - what joining this movement cost or required
   - questions about escape, retreat, or running away
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.apotage

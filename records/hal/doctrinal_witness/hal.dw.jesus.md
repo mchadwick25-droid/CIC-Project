@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   To us Jesus is the Word of God made flesh - and made flesh in the
   very place where we chose to live and die. We built our home

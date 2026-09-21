@@ -52,7 +52,6 @@ retrieval:
     their own"
   - "participant asks why the brotherhood held goods and necessities in common rather than each member
     keeping their own"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.becoming-one-of-us

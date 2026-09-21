@@ -28,7 +28,6 @@ retrieval:
   - "participant says they want to quit, walk away, or leave the life they have chosen"
   - "participant asks what this world did about despair in the cell"
   - "participant asks about the noonday demon or acedia"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.logismoi

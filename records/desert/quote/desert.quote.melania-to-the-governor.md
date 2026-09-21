@@ -47,7 +47,6 @@ retrieval:
   - "participant asks what wealthy people did with their money and property"
   - "participant asks whether rank and family still counted after someone gave everything away"
   - "participant asks how they dealt with officials and the authorities"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

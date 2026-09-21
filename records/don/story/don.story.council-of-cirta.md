@@ -34,7 +34,7 @@ retrieval:
     Caecilian and Felix
   - participant asks how hard the traditor question actually was to settle in practice
   - participant wants a case that complicates our founding self-image rather than confirming it
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants a story in which our founding figures come through straightforwardly vindicated;
     this account is told by our opponent and emphasises their mutual vulnerability
 relations:

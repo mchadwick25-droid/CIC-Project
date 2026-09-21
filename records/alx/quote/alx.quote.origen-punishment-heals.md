@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether they believed in hell and everlasting punishment"
   - "participant asks whether God's severity was thought to be for the person's good"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.apokatastasis

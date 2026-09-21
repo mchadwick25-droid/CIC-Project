@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what this world actually had about Jesus and how it knew"
   - "participant asks how the creed was arrived at and what authority it claimed"
   - "participant asks whether a council could invent or change doctrine"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.dw.received-not-seen

@@ -46,7 +46,7 @@ retrieval:
   - conscience, terrified or anxious
   - what the whole doctrine of faith is 'for'
   - what binds a conscience wrongly
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means guilt as a feeling in general, outside our own theological frame
 relations:
 - type: associated-with

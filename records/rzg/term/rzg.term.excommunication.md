@@ -25,7 +25,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks about excommunication
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.term.consistory

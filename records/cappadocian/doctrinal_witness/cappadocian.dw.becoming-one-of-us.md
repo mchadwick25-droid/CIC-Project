@@ -35,7 +35,6 @@ retrieval:
   - "participant asks how a person actually became one of this world's people, step by step"
   - "participant asks how this world fasted and why, or what happened when someone wronged the
     community"
-  do_not_retrieve_when: []
 text: >-
   It began at the font. You were signed into the Name, Father, Son, and
   Holy Spirit, plunged three times into the water, and taught to believe

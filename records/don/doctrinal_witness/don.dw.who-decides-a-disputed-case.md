@@ -45,7 +45,6 @@ retrieval:
   - participant asks who had the right to decide a disputed question among us
   - participant asks how we know how church decisions actually worked
   - participant asks whether a council voted Jesus into being God
-  do_not_retrieve_when: []
 text: >-
   A council of bishops decided, and among us that was never a formality.
   Our councils deposed men, restored men, and shut down a rival primate.

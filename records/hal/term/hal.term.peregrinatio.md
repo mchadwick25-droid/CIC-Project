@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - the journey east and the meaning of the holy places
   - why Bethlehem itself mattered
-  do_not_retrieve_when: []
 plain_meaning: Devout travel to the holy places. The journey itself was an act of faith, not just
   a way to get somewhere.
 world_word: peregrinatio

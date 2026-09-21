@@ -33,7 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks why anyone would leave people behind to live alone"
   - "participant asks what silence was for and whether it was lonely"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.arsenius-flee

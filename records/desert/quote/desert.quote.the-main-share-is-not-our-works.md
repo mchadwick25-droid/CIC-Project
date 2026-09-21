@@ -26,7 +26,6 @@ retrieval:
   - "participant asks whether salvation is earned by discipline or given"
   - "participant asks whether these people thought their own effort saved them"
   - "participant asks about grace"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.grace-and-effort

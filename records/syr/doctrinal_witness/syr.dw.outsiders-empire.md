@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Were these Christians hiding in catacombs? No - that is another city's
   story. In Edessa, a church building stood early enough to be destroyed in

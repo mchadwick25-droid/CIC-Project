@@ -25,7 +25,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - participant asks about antistes
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: Antistes is Zurich's own senior pastoral title. Bullinger held it after Zwingli died.
 world_word: Antistes

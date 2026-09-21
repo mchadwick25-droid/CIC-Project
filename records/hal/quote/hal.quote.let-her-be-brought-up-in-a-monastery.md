@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether people here chose this life or were raised into it"
   - "participant asks how children were brought up in this world"
   - "participant asks what being born again or converted meant here"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.sin-grace

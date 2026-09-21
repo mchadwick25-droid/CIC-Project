@@ -27,7 +27,7 @@ retrieval:
   - 'intellect or the mind, used in a spiritual sense'
   - what faculty perceives God, when "intellect" is heard as ordinary reasoning
   - contemplation, or the image of God as the soul's highest part
-  do_not_retrieve_when:
+  prefer_instead:
   - means "mind" in a modern cognitive-science sense with no bearing on contemplative perception
 relations:
 - type: associated-with

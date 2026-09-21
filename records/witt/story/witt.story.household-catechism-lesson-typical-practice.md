@@ -38,7 +38,7 @@ retrieval:
   retrieve_when:
   - a participant asks what a household's ordinary catechism practice looked like
   - a participant asks how children and servants were actually taught the catechism, week to week
-  do_not_retrieve_when:
+  prefer_instead:
   - naming any individual as this scene's subject, or presenting any single detail without a traceable
     source - every concrete element here must point to the Small Catechism, the Large Catechism, or Table
     Talk

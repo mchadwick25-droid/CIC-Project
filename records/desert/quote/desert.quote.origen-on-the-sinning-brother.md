@@ -45,7 +45,6 @@ retrieval:
   - "participant asks how a brother who had done wrong was corrected, judged, or put out"
   - "participant asks whether this world had any procedure for discipline, or only the elders' judgement"
   - "participant asks what the tradition before this world said about correcting a fellow Christian"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.moses-leaking-jug

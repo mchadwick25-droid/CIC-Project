@@ -44,7 +44,6 @@ retrieval:
   retrieve_when:
   - participant asks what troubled us about our own community
   - participant asks what we never settled, or what the hardest true thing about us is
-  do_not_retrieve_when: []
 text: >-
   Three things, and we will give them to you in the order that hurts.
 

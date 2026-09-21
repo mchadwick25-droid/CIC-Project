@@ -27,7 +27,6 @@ retrieval:
   retrieve_when:
   - how human words can reach a God beyond words
   - the technical machinery behind divine incomprehensibility
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.agennetos

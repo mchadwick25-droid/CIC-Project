@@ -32,7 +32,7 @@ retrieval:
   - church leadership, bishops, who leads the community, authority in the early church
   - the relationship between bishops and elders
   - "participant asks who appointed or ordained the bishops, and who chose them"
-  do_not_retrieve_when:
+  prefer_instead:
   - modern denominational bishop structures with no connection to this period
 relations:
 - type: associated-with

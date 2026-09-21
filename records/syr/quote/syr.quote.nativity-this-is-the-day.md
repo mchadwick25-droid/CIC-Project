@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they kept the feasts and what they sang at them"
   - "participant asks what the birth of Jesus meant to them"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Nativity Hymn I, Morris's translation as revised by Gwynn).
 

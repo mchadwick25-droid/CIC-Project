@@ -31,7 +31,6 @@ retrieval:
   - Thessalonica, or Ambrose and Theodosius
   - how the church answered state violence
   - penance, forgiveness, or whether power was ever held to account
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrated-by, target: ijc.quote.ambrose-dare-not-offer}

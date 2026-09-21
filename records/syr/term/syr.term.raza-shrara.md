@@ -33,7 +33,7 @@ retrieval:
   - participant uses 'symbol' or 'mystery' in the modern representational sense
   - typological reading of the Old Testament comes up
   - participant asks how this world's teaching method differs from Greek theological argument
-  do_not_retrieve_when:
+  prefer_instead:
   - participant means a modern semiotic or mathematical sense of 'symbol' with no connection to Scripture
 relations:
 - type: associated-with

@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks what the women of the household actually did with their days"
   - "participant asks whether women learned the languages too"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108; the
 same passage carries the claim for Eustochium: 'The same accomplishment

@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - "participant asks what role the emperor claimed in the church"
   - "participant asks whether a ruler could call himself a kind of bishop"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.contested.bishop-of-those-outside}
 ---

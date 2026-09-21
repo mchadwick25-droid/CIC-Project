@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - sin, or original sin
   - what 'born with sin' means among us
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means a single wrongful act they are asking about morally, not doctrinally
 relations:
 - type: associated-with

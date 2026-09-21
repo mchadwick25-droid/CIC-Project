@@ -27,7 +27,6 @@ retrieval:
   - "participant asks whether you had to already believe to start"
   - "participant asks how love and discipline related for this world"
   - "participant asks whether God was thought to be at work in unbelievers"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.quote.the-ladder-from-faith-to-love

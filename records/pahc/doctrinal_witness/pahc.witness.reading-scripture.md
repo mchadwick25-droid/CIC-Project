@@ -23,7 +23,6 @@ retrieval:
   - "participant asks how this world read its scriptures"
   - "participant asks which writings this world treated as scripture"
   - "participant asks how someone who could not read received the scriptures"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.the-memoirs-of-the-apostles-are-read

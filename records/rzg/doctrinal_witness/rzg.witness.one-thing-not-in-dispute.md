@@ -21,7 +21,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks who Jesus was to this world, what the good news was, or what his death meant
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.gravity.sovereignty-of-god-predestination-election

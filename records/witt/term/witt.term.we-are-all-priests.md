@@ -37,7 +37,7 @@ retrieval:
   retrieve_when:
   - '''we are all priests,'' or the priesthood of all believers'
   - who may preach or administer the sacraments publicly
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the office's own definition apart from this claim (retrieve office)
 relations:
 - type: associated-with

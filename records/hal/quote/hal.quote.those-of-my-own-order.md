@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether the church here had failures or hypocrisy"
   - "participant says the people who taught them the faith turned out to be hypocrites"
   - "participant asks whether anyone here criticised their own clergy"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.church-failure

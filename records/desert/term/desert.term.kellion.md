@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - what an ordinary day or dwelling looked like
   - what archaeologists actually found
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.synaxis

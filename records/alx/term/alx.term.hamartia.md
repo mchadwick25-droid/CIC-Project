@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what is wrong with human beings that formation is correcting
   - the relation between wrong acts and a deeper condition, or "the fall"
-  do_not_retrieve_when:
+  prefer_instead:
   - asking narrowly about forgiveness, or specifically about repentance as a practice (retrieve alx.term.metanoia)
   - the conversation is about a specific moral failure rather than the underlying condition
 relations: []

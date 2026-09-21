@@ -21,7 +21,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world would have described conversion or entry as being 'born again'"
   - "participant asks if that specific modern phrase was ever actually used"
-  do_not_retrieve_when: []
 text: >-
   One of us, Philoromus - from Galatia rather than Egypt, but living the same
   discipline - put it in exactly those words once, late in his life. From the

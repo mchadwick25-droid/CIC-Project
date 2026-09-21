@@ -36,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks what the creed says and who wrote it"
   - "participant asks whether a council voted on who Jesus was"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 ---

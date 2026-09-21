@@ -23,7 +23,6 @@ retrieval:
   - "participant asks about catacombs"
   - "participant asks about Constantine"
   - "participant asks what an outsider would have found strangest"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.two-female-slaves-who-were-called-deaconesses

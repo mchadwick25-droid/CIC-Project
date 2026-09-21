@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Was there room for doubt here? There is documented room for hesitation, at
   the highest level, about the deepest things. Eusebius of Caesarea signed the

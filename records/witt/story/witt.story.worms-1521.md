@@ -38,7 +38,7 @@ retrieval:
   retrieve_when:
   - a participant asks about Worms, conscience, or standing against authority
   - a participant asks what Luther actually said at Worms, or whether he really said "Here I stand"
-  do_not_retrieve_when:
+  prefer_instead:
   - using "Here I stand" without disclosing its separate, weaker Carlyle-transmitted provenance
   - the participant wants the earlier, smaller Augsburg confrontation (retrieve witt.story.augsburg-before-cajetan
     instead)

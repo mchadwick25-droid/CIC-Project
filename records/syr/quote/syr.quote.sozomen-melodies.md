@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they sang and whether the tunes survived"
   - "participant asks what actually happened when they gathered to worship"
-  do_not_retrieve_when: []
 ---
 Verified verbatim. The genre-contest witness: Bardaisanite song answered in kind. canon_cells empty; grounds syr.term.madrasha's evidential sense.
 

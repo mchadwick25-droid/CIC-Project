@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - what this world's whole formation aimed at
   - why a wrong doctrine and a hoarded granary would be treated as the same kind of failure
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.akatalepsia

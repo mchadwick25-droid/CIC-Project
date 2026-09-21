@@ -36,7 +36,7 @@ retrieval:
   - a participant asks what this group called itself, or whether 'Donatist' is its own name
   - a participant asks about Donatus himself and what naming a church after a man meant
   - the conversation reaches the naming contest between the two African hierarchies
-  do_not_retrieve_when:
+  prefer_instead:
   - '''Donatist'' is being used as a neutral historical shorthand and the naming question is not in play'
 relations:
 - type: associated-with

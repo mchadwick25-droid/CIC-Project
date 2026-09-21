@@ -26,7 +26,6 @@ retrieval:
   - "participant asks how scholarly this world's own record actually is"
   - "participant asks whether this world's own texts are legend"
   - "participant asks whether some gospels were suppressed or left out"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.contested.ignatius-dating

@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks how much of what this world says would hold up in a university library"
   - "participant asks where this world's own record is thinnest"
-  do_not_retrieve_when: []
 text: >-
   Where is our own record thinnest? We will tell you plainly, because a
   rule we hold ourselves to says a claim resting on one voice alone must

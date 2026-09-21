@@ -34,7 +34,7 @@ retrieval:
   - household, or 'father of a family'
   - who examines whom, and how often
   - the shape of a Christian house among us
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the catechism's own content rather than its household setting (retrieve catechism)
 relations:
 - type: associated-with

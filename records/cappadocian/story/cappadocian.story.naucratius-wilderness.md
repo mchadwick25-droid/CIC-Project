@@ -20,7 +20,7 @@ retrieval:
   retrieve_when:
   - "participant asks about ascetic withdrawal before this world's own rules and brotherhoods existed"
   - "participant asks about sudden death, grief, or a family's loss in this world"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks about the later, ordered brotherhoods (retrieve cappadocian.story.brotherhood-day instead) - Naucratius's own life predates that ordering"
 relations:
 - type: associated-with

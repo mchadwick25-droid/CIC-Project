@@ -42,7 +42,7 @@ retrieval:
   retrieve_when:
   - Scripture's authority over Fathers, councils, or the pope
   - '''under the bench'''
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Word's broader power (retrieve the Word)
 relations:
 - type: associated-with

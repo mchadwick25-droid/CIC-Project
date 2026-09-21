@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - the women's social rank and what it made possible
   - wealth, households, and Roman aristocratic life
-  do_not_retrieve_when: []
 plain_meaning: A Roman woman of high rank. She had inherited wealth, a great family name, and real
   power over a large household.
 world_word: matrona

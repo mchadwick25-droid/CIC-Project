@@ -46,7 +46,6 @@ retrieval:
   retrieve_when:
   - "participant asks what actually triggered Basil's treatise on the Holy Spirit"
   - "participant asks whether changing a word in a prayer was really enough to get a bishop accused of heresy"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.confession-not-a-vote

@@ -30,7 +30,7 @@ retrieval:
   retrieve_when:
   - satisfaction, in either sense
   - what indulgences relaxed
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means merit generally (retrieve merit)
 relations:
 - type: associated-with

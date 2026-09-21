@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - martyrdom remembered
   - women in the community's memory
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: alx.gravity.martyrdom-contemplative-tension

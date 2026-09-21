@@ -31,7 +31,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   How did we know our practices went back to the apostles? We asked
   that exact question about ourselves, constantly, because 'ancient custom' was

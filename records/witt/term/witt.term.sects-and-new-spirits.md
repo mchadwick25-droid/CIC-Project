@@ -38,7 +38,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - sects, new spirits, fanatics, enthusiasts, or Anabaptists
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants the radicals' own account of themselves -- our library does not carry it
 relations:
 - type: associated-with

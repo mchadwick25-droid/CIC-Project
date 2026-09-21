@@ -24,7 +24,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks how this world knew its practices traced to the apostles"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.force.apostolic-testimony-inheritance

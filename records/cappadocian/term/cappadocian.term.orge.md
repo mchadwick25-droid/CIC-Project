@@ -22,7 +22,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - anger as a specifically named and disciplined vice
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: We preached against anger directly. Anger, we said, is a passion that dresses itself
   up as justice, while it does real harm.

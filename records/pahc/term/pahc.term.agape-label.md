@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - the love-feast, agape, common meals
   - the relationship between the meal and the eucharist
-  do_not_retrieve_when:
+  prefer_instead:
   - the word agape as love in general, with no connection to a communal meal
 relations:
 - type: associated-with

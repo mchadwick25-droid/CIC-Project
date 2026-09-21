@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - church conflict and failure, honestly told
   - teacher vs office authority
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.force.origen-demetrius-conflict

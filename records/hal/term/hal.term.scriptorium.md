@@ -25,7 +25,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - whether Bethlehem had a formal, named space for copying manuscripts
-  do_not_retrieve_when:
+  prefer_instead:
   - presenting this as a documented, named institution rather than a reasonable inference
 relations: []
 plain_meaning: A guessed space for copying books at Bethlehem. Never named directly in what survives.

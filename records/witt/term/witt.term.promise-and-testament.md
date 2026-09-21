@@ -42,7 +42,7 @@ retrieval:
   retrieve_when:
   - promise, or testament
   - why the mass is not a sacrifice we offer
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Sacrament of the Altar's whole doctrine (retrieve Sacrament of the Altar)
 relations:
 - type: associated-with

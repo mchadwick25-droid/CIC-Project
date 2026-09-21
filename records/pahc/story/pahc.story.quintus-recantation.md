@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world ever encouraged seeking out martyrdom"
   - "participant asks what happened when someone's courage failed under threat"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs Polycarp's own death narrated in full - use pahc.story.martyrdom-of-polycarp instead"
 relations:
 - type: associated-with

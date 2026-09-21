@@ -22,7 +22,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - transubstantiation specifically
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the presence doctrine generally (retrieve Sacrament of the Altar)
 relations:
 - type: associated-with

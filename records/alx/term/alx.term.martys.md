@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - persecution/martyrdom questions
   - death-wish challenge questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.gravity.martyrdom-contemplative-tension

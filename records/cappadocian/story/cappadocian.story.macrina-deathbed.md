@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - "participant asks about death, dying well, or grief and hope held together in this world"
   - "participant asks about Macrina, or about this world's one prominent woman teacher"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.figure.macrina

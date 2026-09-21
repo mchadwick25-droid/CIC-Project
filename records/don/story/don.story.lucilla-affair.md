@@ -34,7 +34,7 @@ retrieval:
     rather than doctrine
   - participant asks about women's roles in the founding dispute
   - participant asks where our own parallel line of bishops starts
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the later legal proceeding over the same money - don.story.gesta-apud-zenophilum
     is the sequel and is best offered alongside this, not instead of it
   - participant is asking about the traditio accusation against Felix of Aptungi specifically - don.story.acta-purgationis-felicis

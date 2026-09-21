@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - participant challenges this world directly as too narrow, or asks whether it believed outsiders were
     going to hell
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.witness.triple-refusal

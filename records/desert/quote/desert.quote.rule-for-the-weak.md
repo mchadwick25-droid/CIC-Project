@@ -46,7 +46,6 @@ retrieval:
   - "participant asks whether the discipline was as severe as it sounds"
   - "participant asks whether beginners and the advanced were held to the same measure"
   - "participant asks who a rule is for when the best do not need it"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.authority-tension

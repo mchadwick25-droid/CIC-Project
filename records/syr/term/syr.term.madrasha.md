@@ -29,7 +29,7 @@ retrieval:
   - participant asks how this world's theology was taught or passed on
   - participant asks about Ephrem's hymns
   - sung versus written theology comes up, or Ephrem's answer to Bardaisan and Mani
-  do_not_retrieve_when:
+  prefer_instead:
   - participant asks about Aphrahat's writings - his Demonstrations are prose (see tahwyata)
 relations:
 - type: associated-with

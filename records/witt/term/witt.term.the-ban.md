@@ -29,7 +29,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - the ban, or excommunication
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the temporal sword's own power (retrieve the sword)
 relations:
 - type: associated-with

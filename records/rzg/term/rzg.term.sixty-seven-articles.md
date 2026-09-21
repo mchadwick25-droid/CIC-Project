@@ -25,7 +25,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - participant asks about the sixty-seven articles
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.term.disputation

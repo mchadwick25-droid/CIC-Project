@@ -30,7 +30,6 @@ retrieval:
   - "participant asks what difference the coming of Jesus made to this world"
   - "participant asks how these people understood the fight against demons or thoughts"
   - "participant asks whether Jesus is spoken of as present, not only remembered"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.jesus

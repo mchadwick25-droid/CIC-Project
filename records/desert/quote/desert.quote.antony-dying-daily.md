@@ -26,7 +26,6 @@ retrieval:
   - "participant asks how anyone kept going day after day at something this hard"
   - "participant asks whether they thought about dying, and whether that thought helped or frightened"
   - "participant asks what kept the practice from going stale"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.gravity.withdrawal

@@ -32,7 +32,6 @@ retrieval:
   - "participant asks who decided what was true or right among these people"
   - "participant asks what this world did about groups it disagreed with"
   - "participant asks whether these people used power against other Christians"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.councils

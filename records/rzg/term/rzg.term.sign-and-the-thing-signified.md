@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - participant asks about the exact 1549 Consensus Tigurinus language
   - participant asks whether the Zurich/Geneva agreement was a real breakthrough or a diplomatic fudge
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking generally about the Supper doctrine without reference to this specific formula
 relations:
 - type: associated-with

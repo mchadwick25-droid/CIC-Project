@@ -47,7 +47,7 @@ retrieval:
   - marriage, or the married estate
   - clerical marriage
   - whether marriage or celibacy is holier
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants a woman's own voice on marriage among us -- our library holds none
 relations:
 - type: associated-with

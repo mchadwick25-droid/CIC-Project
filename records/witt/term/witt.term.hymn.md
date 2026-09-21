@@ -50,7 +50,7 @@ retrieval:
   - hymns, or singing in German
   - what our hymns were for
   - '''A Mighty Fortress'''
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants a specific hymn's full text -- our library holds only openings and fragments
 relations:
 - type: associated-with

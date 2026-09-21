@@ -37,7 +37,7 @@ retrieval:
   - "participant asks whether people are born already guilty"
   - "participant asks what the bread and cup were to us, or whether that is transubstantiation"
   - "participant asks whether we believed people are saved by faith alone, not works"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants a full philosophical treatment of transubstantiation as a rival theory -- we refuse to theorize the how at all, on either side"
 text: >-
   Are people born already guilty? Yes, we teach this plainly, and we do

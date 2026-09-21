@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - "participant asks who they held Jesus to be, and whether he was really human"
   - "participant asks what they said against people teaching otherwise"
-  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 v (Trallians, shorter/middle recension column, ch.

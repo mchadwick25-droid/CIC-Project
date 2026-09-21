@@ -32,7 +32,7 @@ retrieval:
   retrieve_when:
   - office, or office-holder
   - whether ordination confers a permanent status
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the priesthood claim itself (retrieve we-are-all-priests)
 relations:
 - type: associated-with

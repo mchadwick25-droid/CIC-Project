@@ -34,7 +34,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - images, icons, or iconoclasm
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means saints or their invocation as the primary subject (retrieve saints)
 relations:
 - type: associated-with

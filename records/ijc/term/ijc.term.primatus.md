@@ -35,7 +35,7 @@ retrieval:
   - participant says "pope," "papacy," or "papal authority" of this world
   - Damasus, Leo, or the Petrine texts
   - why one see would outrank another
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is really about Constantinople's own claim (presbeia instead)
 relations:
 - type: associated-with

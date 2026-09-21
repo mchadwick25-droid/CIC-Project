@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   To us, Jesus is the Only-Begotten of God - the Ihidaya, our own name
   for him. He left his place with God and made his home in the Virgin, and by

@@ -21,7 +21,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - the gap between Creator and creature, or why growth toward God never finishes
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.epektasis

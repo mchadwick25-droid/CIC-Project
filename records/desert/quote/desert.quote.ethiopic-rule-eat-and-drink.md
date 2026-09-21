@@ -44,7 +44,6 @@ retrieval:
   - "participant asks what they ate and how much, and whether fasting was required"
   - "participant asks whether everyone was held to the same standard or treated differently"
   - "participant asks how food and work were matched to a person"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.koinonia

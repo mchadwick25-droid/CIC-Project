@@ -27,7 +27,7 @@ retrieval:
   - 'soul, used in any formational or theological sense'
   - whether Christian life is about the soul or the whole person, or the role of the body
   - what survives death, or what the resurrection restores
-  do_not_retrieve_when:
+  prefer_instead:
   - means the nous specifically, as the faculty of spiritual perception (retrieve alx.term.nous)
   - asks specifically about what was given in creation (retrieve alx.term.eikon)
 relations:

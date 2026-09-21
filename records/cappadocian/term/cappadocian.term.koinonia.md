@@ -32,7 +32,7 @@ retrieval:
   - monasticism, community, or whether faith can be private
   - why these people lived together or held goods in common
   - the hermit ideal versus community
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is specifically about the poorhouse and charity -- retrieve philoptochia/Basileias instead
 relations:
 - type: associated-with

@@ -45,7 +45,7 @@ retrieval:
   - faith, or 'faith alone'
   - whether works matter at all
   - what faith is not -- belief in a story, a feeling, a work
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means justification's own technical shape (retrieve justification)
   - the participant means the free will question (retrieve free will)
 relations:

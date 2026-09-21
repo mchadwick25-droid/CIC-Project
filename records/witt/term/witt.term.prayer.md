@@ -44,7 +44,7 @@ retrieval:
   retrieve_when:
   - prayer, or the Lord's Prayer
   - whether prayer must follow a set form
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means temptation as the occasion for prayer specifically (retrieve temptation)
 relations:
 - type: associated-with

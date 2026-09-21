@@ -31,7 +31,6 @@ retrieval:
   - "participant asks how this world handled its own leaders' failures"
   - "participant asks whether the tradition hid conflict between its teachers and its bishops"
   - "participant asks why Origen left Alexandria"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.church-failure

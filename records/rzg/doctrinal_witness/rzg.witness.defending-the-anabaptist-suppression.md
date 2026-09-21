@@ -23,7 +23,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant challenges this world directly over its own use of civil power against the Anabaptists
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.contested.anabaptist-schism-legitimacy

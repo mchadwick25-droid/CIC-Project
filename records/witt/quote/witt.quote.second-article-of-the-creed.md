@@ -29,7 +29,7 @@ retrieval:
   - "participant asks whether Jesus died to pay for sin, in the participant's place"
   - "participant asks whether Jesus is a personal Lord and Savior, or asks what our record actually holds about Jesus"
   - "participant asks how we know the resurrection happened"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants the whole Apostles' Creed recited in order -- this record holds only the Second Article"
   - "participant wants an eyewitness or historical-critical argument for the resurrection -- this is a confession, not an apologetic argument"
 text: >-

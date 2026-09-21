@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - Damasus's building or inscription program
   - martyr shrines and pilgrimage in this world specifically
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about martyr devotion broadly - a fuller devotional treatment belongs to another world's lexicon, not this one
 relations:
 - type: associated-with

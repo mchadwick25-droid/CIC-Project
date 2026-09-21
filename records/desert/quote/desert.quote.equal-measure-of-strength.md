@@ -48,7 +48,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether women were thought capable of this life"
   - "participant asks how the men writing these accounts spoke about women"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.spiritual-combat

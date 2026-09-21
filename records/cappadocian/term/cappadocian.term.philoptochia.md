@@ -33,7 +33,6 @@ retrieval:
   - the poorhouse, almsgiving, or care for the poor
   - whether faith and social justice are separate concerns
   - the famine preaching
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.basileias

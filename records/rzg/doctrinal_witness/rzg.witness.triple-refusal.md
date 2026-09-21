@@ -27,7 +27,6 @@ retrieval:
   - participant asks what this community refused, or how it handled other communities who called on Christ
     differently
   - conversation reaches the Anabaptist schism specifically
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.force.anabaptist-schism

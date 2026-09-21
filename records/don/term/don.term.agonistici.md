@@ -53,7 +53,7 @@ retrieval:
   - a participant uses 'Circumcellion' or 'agonistici', or asks about the rural itinerant members and their reputation
   - a participant asks whether the violent portrait of this group is accurate
   - the conversation reaches Numidia specifically, or the group's relation to the wider hierarchy
-  do_not_retrieve_when:
+  prefer_instead:
   - ordinary Numidian believers are being asked about generally, with no reference to this specific contested
     group
 relations:

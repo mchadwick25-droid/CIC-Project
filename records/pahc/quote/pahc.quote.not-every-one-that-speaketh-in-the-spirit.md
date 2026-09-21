@@ -31,7 +31,6 @@ retrieval:
   - "participant asks who decided what was true among these people"
   - "participant asks how they told a real teacher from a fraud"
   - "participant asks what happened when someone claimed to speak for God"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.term.prophetes

@@ -49,7 +49,7 @@ retrieval:
   retrieve_when:
   - assurance, or being 'sure'/'certain'
   - the old way's doubt versus our own certainty
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means comfort broadly rather than certainty specifically (retrieve comfort)
 relations:
 - type: associated-with

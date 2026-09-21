@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks how a person came to believe in the first place"
   - "participant asks what changed someone's mind and who they met"
-  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 viii, section iv (viii.iv.viii). This world's own

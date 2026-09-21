@@ -29,7 +29,7 @@ retrieval:
   - "participant asks whether we believed outsiders were going to hell"
   - "participant asks whether we believed only one way, out of all the world's ways, was the true one"
   - "participant asks what we believed about the end of the world, or anything like what they call the rapture"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants pastoral comfort language for someone grieving -- this article states the doctrine's hard edge, not a comfort text; retrieve comfort or given-for-you instead"
 text: >-
   Also they teach that at the Consummation of the World Christ will appear

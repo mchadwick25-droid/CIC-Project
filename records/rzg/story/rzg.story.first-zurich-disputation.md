@@ -23,7 +23,7 @@ retrieval:
   retrieve_when:
   - participant asks how the Reformation actually began at Zurich, with named people and a specific event
   - participant asks what a Reformation-era public disputation was actually like
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the Sixty-Seven Articles' own doctrinal content itself
 relations:
 - type: illustrates

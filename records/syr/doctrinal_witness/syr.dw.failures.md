@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Did we have failures? Our own record shows some, and we will not hide
   them. Our greatest teacher's gift for poetry was also a gift for scorn.

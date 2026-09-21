@@ -25,7 +25,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - participant asks about reformation
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: Reformation is our own name for our whole central project. We test every inherited practice
   against Scripture. We let go of what will not stand.

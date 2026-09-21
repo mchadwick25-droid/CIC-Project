@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether people outside the community were lost"
   - "participant asks what they made of good people who had never heard of Christ"
-  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 viii, ch. 46 (viii.ii.xlvi). Direct textual ground

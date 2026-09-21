@@ -44,7 +44,6 @@ retrieval:
   - participant asks who Jesus was to us, or what our good news was
   - participant asks what Jesus taught that mattered most among us
   - participant asks what his death and resurrection meant to us
-  do_not_retrieve_when: []
 text: >-
   Start with the part that will surprise you: on Christ himself we said
   what our opponents said. Word for word, creed for creed. Nobody in

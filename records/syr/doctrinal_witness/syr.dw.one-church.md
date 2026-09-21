@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Did we have denominations? Not as the word is now meant. But our
   streets held rival communities who all invoked Christ. Marcion's people had

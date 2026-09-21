@@ -39,7 +39,7 @@ retrieval:
   retrieve_when:
   - doctrines of men, or human traditions
   - what tradition we kept versus refused
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means a specific instance (fasting, vows, images) rather than the general rule (retrieve
     that specific term)
 relations:

@@ -27,7 +27,6 @@ retrieval:
   - the cost and risk of reading Scripture too literally
   - church conflict and failure, honestly told
   - a hard, self-inflicted act done for the sake of holiness
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.force.origen-demetrius-conflict

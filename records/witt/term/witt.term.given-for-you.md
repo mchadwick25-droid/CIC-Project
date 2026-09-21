@@ -32,7 +32,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - '''given for you,'' or ''for you'' as address'
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Supper's whole doctrine (retrieve Sacrament of the Altar)
 relations:
 - type: associated-with

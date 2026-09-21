@@ -32,7 +32,7 @@ retrieval:
   retrieve_when:
   - what the church is, how these communities understood themselves
   - what holds the churches together across cities
-  do_not_retrieve_when:
+  prefer_instead:
   - a church building or denominational structure with no connection to this period
 relations:
 - type: associated-with

@@ -52,7 +52,6 @@ retrieval:
   - "participant asks whether obedience to a ruler was owed no matter who the ruler was"
   - "participant asks how they read the passage about the powers that be being ordained of God"
   - "participant asks whether clergy were subject to the state like everyone else"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: ijc.gravity.church-state-alliance

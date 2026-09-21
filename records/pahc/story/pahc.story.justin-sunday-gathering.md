@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks what a Sunday gathering actually looked like"
   - "participant wants a directly-attested, not reconstructed, worship description"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs Strand A's eucharistic material - use pahc.story.one-eucharist-under-bishop instead, without blending the two"
 relations:
 - type: associated-with

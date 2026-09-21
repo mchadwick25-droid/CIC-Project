@@ -25,7 +25,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks about memorial / commemoration
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.term.the-lords-supper-spiritual-presence

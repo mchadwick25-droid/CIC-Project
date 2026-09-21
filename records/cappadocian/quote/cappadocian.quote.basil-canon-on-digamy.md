@@ -41,7 +41,6 @@ retrieval:
   retrieve_when:
   - "participant asks how long the penance for a second marriage actually lasted, in this world's own terms"
   - "participant asks whether this world treated second and third marriages the same way"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.marriage-ending
