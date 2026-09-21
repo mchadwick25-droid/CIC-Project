@@ -67,7 +67,7 @@ citations (see that dossier's own §4). None of these six had anything
 vendored before this pass — the first real test of the dossier process
 on a corpus starting from zero rather than one already 82 files deep.
 
-**21 as of 2026-09-21** — `greek-apologists-second-century` (I.35) and
+**22 as of 2026-09-21** — `greek-apologists-second-century` (I.35) and
 `latin-apologists` (I.43), both Tier 1 with a Step 0 already on file
 (`worlds/grkap/`, `worlds/latap/`, each five-to-six-round independently
 reviewed). Both dossiers found the corpus-map already comprehensively
@@ -77,13 +77,38 @@ and fixed one real defect: a staging file for Perpetua's Latin/Greek
 second witness (Robinson 1891) still pointed at the retired
 `tertullian-s-voice` atlas_id after Mark's 2026-09-10 merger, missed by
 that merger's own repointing run. Re-pointed to `latin-apologists` and
-re-merged as part of this pass.
+re-merged as part of that pass.
 
-**Backlog — not yet written:** `palestinian-ascetic-monasticism-early`
-(I.34), not yet researched at all. `donatism` (I.4) and
-`gallic-monastic-ascetic-christianity` (I.27) are far enough into their
-own builds that a retroactive dossier is lower priority than closing the
-backlog above.
+Then `palestinian-ascetic-monasticism-early` (I.34), the same day — the
+first of this backlog with no Step 0 confirmation on file at all, so
+closer to first-pass research than its two siblings. Found and added a
+real cross-link this pass: seven consecutive chapters of Palladius'
+*Lausiac History* (already vendored, assigned only to `desert-monasticism`)
+turn out to be set in the Judean desert and Jericho, with Palladius
+himself an eyewitness resident — checked directly against the vendored
+text, not assumed from a chapter title. Also surfaced and verified a
+public-domain acquisition lead, Egeria's *Pilgrimage* (McClure & Feltoe,
+1919, confirmed `NOT_IN_COPYRIGHT` on `archive.org`), whose own 380s
+journey runs "the Sinai road" — this candidate's own census `region`
+field, verbatim — added to `download-queue-seed.yaml`. A second,
+independent dossier pass on this same candidate (PR #233, superseded by
+this one) had separately host-verified a real Sozomen cross-link this
+branch's own first draft had only named, not checked; re-verified directly
+against the vendored XML before merging and folded in rather than lost —
+see the dossier's own §2 and §5, which also flags a real locus error the
+verification turned up in `desert-monasticism.yaml`'s own existing Sozomen
+note (a citation to Book VI chapters that don't exist in this edition).
+
+**Backlog — not yet written:** none at Era 1/2 Tier 1 as of 2026-09-21.
+`donatism` (I.4) and `gallic-monastic-ascetic-christianity` (I.27) are far
+enough into their own builds that a retroactive dossier is lower priority
+than a fresh candidate would be; the coverage target in
+`SOURCE-READINESS.md` is every "Possible Future World" or "Selected - Not
+Yet Built" candidate, so the next pass should check the full census for
+anything newer than this list rather than assume it's exhausted. (A
+separate, not-yet-merged branch has already done exactly that sweep and
+found two more: `latin-pastoral-congregational-christianity` (I.8) and
+`roman-church-gregorian` (II.18) — see that branch's own PR once opened.)
 
 ## Regenerating
 
