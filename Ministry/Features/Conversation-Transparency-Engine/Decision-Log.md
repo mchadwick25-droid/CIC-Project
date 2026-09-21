@@ -213,3 +213,49 @@ exist; `COVERAGE`/`REGIONS`/`AUTHORS` were never relocated out of
 audit transcript; this entry is the durable record. Next work: Stage 0
 (all sub-stages NOW, unblocked, no ruling required) in its own written
 order.
+
+**Entry 13 — 2026-09-21.** Stage 1 (D1 grounding measurement) merged
+(PR #344, commit `86be79c4c`): `check_turn()` refactored into a public
+`verdict_for_sentence()` (pure extraction, zero behavior change, proven
+by an equivalence test) so the new `engine/m4/reports/
+grounding_fooling_measure.py` can run the real per-sentence verdict logic
+directly against a constructed `(sentence, tags)` pair. Three corpora, all
+zero live-model-call:
+
+- **Corpus A** (real logged turns, re-run against current packages): 34
+  turns / 529 sentences (the design doc's own cited "36/546" is stale, not
+  forced to match) — 98.87% verdict reproduction; all 6 changed verdicts
+  moved toward more caution, zero regressions.
+- **Corpus B** (constructed fabrications, tagged to their own source
+  record): 251 items — 97.6% fooled overall (`contested_claim` 100%,
+  guard-species `do_not_retrieve_when` 84.6%, `honest_limit` 100%,
+  `absent_detail` 96.7%). The `honest_limit`/`absent_detail` flat
+  assertions (170 of the 251) were authored in a one-time pass rather than
+  templated — that free-form prose resisted a safe mechanical negation-flip
+  (full reasoning in the script's own docstring).
+- **Corpus C** (one-shared-word mis-tagging): 132 pairs, no proper noun,
+  exactly one shared content word — 96.97% passed as "ok" anyway.
+
+Also found and logged separately in `Rulings-Pending.md`'s R11: only 13 of
+714 `do_not_retrieve_when` lines fleet-wide (1.8%) are genuine
+honesty-guard clauses; the rest are unrelated retrieval-scoping notes.
+
+Structural conclusion (per the design doc, unchanged by this measurement):
+`grounding_ratio` is provenance — word overlap with a cited record — not
+truth-verification; mitigations are upstream (riders, guards, honest-limit
+records) and reporting, and any UI element implying per-sentence truth
+verification overclaims. No threshold (`WITHHOLD_FLOOR` etc.) was changed;
+this stage was read-only measurement throughout.
+
+**Known gap, named not hidden:** the design doc's *optional* one-time
+Sonnet labeling pass over Corpus A's real withheld + stratified-ok
+sentences (an FP/FN rate against actual source support, not just verdict
+reproduction) was not run in this pass — only the *required*,
+zero-model-call baseline shipped. A real regression from the
+`verdict_for_sentence` extraction was caught by the existing test suite
+(`test_prose.py` pinned `grounding_ratio`'s call site to `check_turn()`'s
+own source; fixed to point at the function it actually moved to) and
+fixed before merge, not routed around. Full suite 740 passed / 6 failed /
+23 errors — the failures are the pre-existing Stage 0c package-completeness
+gap (root cause reconfirmed here), unrelated to this branch. Fleet gates
+green. Full numbers: `engine/m4/reports/grounding-fooling-2026-09-21.json`.
