@@ -194,6 +194,89 @@ def test_table_run_report_with_no_voice_this_position_is_clean():
     assert find_shipped_defects(report) == []
 
 
+# ---- guard_proximity: R11's guard half (Build-Plan.md Stage 4b) -----------
+# The real guard text and the real fabricated assertion Stage 1's own D1
+# measurement (Rulings-Pending.md) used - gallic.story.brictio-in-the-
+# courtyard, one of the 13 real guard clauses, caught only 2/13 times by
+# grounding_net's own per-sentence check.
+
+_BRICTIO_GUARD = (
+    "participant is asking whether Brictio succeeded Martin as bishop - our "
+    "vendored evidence does not say, and the Representative must not supply it"
+)
+_BRICTIO_RECORD = {"id": "gallic.story.brictio-in-the-courtyard", "record_type": "story", "claim_guards": [_BRICTIO_GUARD]}
+_BRICTIO_RECORDS = {_BRICTIO_RECORD["id"]: _BRICTIO_RECORD}
+
+
+def _cited(sentence):
+    return [{"sentence": sentence, "record_ids": [_BRICTIO_RECORD["id"]]}]
+
+
+def test_the_real_stage_1_fabrication_is_caught():
+    sentence = "Brictio succeeded Martin as bishop of Tours."
+    findings = check_output(sentence, citations=_cited(sentence), repository_records=_BRICTIO_RECORDS)
+    hits = [f for f in findings if f["family"] == "guard_proximity"]
+    assert len(hits) == 1
+    assert _BRICTIO_RECORD["id"] in hits[0]["finding"]
+
+
+def test_a_reworded_sentence_sharing_the_claims_own_words_is_still_caught():
+    """Different sentence structure, same barred claim - this is a
+    keyword-overlap check, not real NLU, so it catches a reworded
+    assertion that still uses the claim's own words ("succeeded",
+    "bishop"), not every possible paraphrase. A rewording that avoids
+    both words entirely (e.g. "took his place") is a known, accepted gap
+    of this family - report-only, reviewed by a human, never the only
+    net (grounding_net's own per-sentence check runs independently)."""
+    sentence = "It was Brictio who succeeded as bishop, once Martin had died."
+    findings = check_output(sentence, citations=_cited(sentence), repository_records=_BRICTIO_RECORDS)
+    assert "guard_proximity" in _families(findings)
+
+
+def test_merely_naming_both_figures_together_is_not_flagged():
+    """THE FALSE POSITIVE THAT WOULD MAKE THIS FAMILY USELESS: Brictio and
+    Martin are the two people the story is actually about, so their names
+    alone co-occur in every truthful sentence about it - only a sentence
+    sharing the claim's own non-name vocabulary (what it actually says
+    about them, not just who they are) is asserting the barred claim."""
+    sentence = "Brictio was in the courtyard when Martin confronted him about his conduct."
+    findings = check_output(sentence, citations=_cited(sentence), repository_records=_BRICTIO_RECORDS)
+    assert "guard_proximity" not in _families(findings)
+
+
+def test_a_different_true_claim_about_the_same_names_is_not_flagged():
+    sentence = "Martin never named a successor before he died."
+    findings = check_output(sentence, citations=_cited(sentence), repository_records=_BRICTIO_RECORDS)
+    assert "guard_proximity" not in _families(findings)
+
+
+def test_a_sentence_declining_the_barred_claim_is_not_flagged():
+    """The voice correctly saying it must not supply this is the opposite
+    of the defect - GUARD_MARKERS' own phrases are what claim_guards
+    notes are written in, so a sentence using the identical honesty
+    register is framing a limit, not asserting one."""
+    sentence = "Our own sources do not say who succeeded Martin as bishop, and we must not supply an answer."
+    findings = check_output(sentence, citations=_cited(sentence), repository_records=_BRICTIO_RECORDS)
+    assert "guard_proximity" not in _families(findings)
+
+
+def test_a_sentence_citing_a_different_record_is_not_checked_against_this_guard():
+    sentence = "Brictio succeeded Martin as bishop of Tours."
+    citations = [{"sentence": sentence, "record_ids": ["gallic.story.unrelated"]}]
+    findings = check_output(sentence, citations=citations, repository_records=_BRICTIO_RECORDS)
+    assert "guard_proximity" not in _families(findings)
+
+
+def test_no_citations_or_no_repository_records_is_a_quiet_no_op():
+    """A caller that never learned about citations/records (a bare-text
+    check) gets the other three families exactly as before this one
+    existed - never an error."""
+    sentence = "Brictio succeeded Martin as bishop of Tours."
+    assert check_output(sentence, history=[]) == []
+    assert check_output(sentence, history=[], citations=_cited(sentence)) == []
+    assert check_output(sentence, history=[], repository_records=_BRICTIO_RECORDS) == []
+
+
 def test_multiple_defects_across_both_report_shapes_all_surface():
     report = {
         "results": [{"id": "message-1", "message": "a", "result": {"voice_event": {"output_defects": [_defect(), _defect("false: second")]}}}],
