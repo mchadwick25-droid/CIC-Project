@@ -25,8 +25,20 @@ broader egress) and the staging admin/service reachable normally:
 
 ```bash
 python run_probes.py --base-url https://cic-engine-staging.onrender.com \
-    --world fix --out staging_run_<date>.json
+    --world alx --out staging_run_<date>.json
 ```
+
+**`--world` must be a real, admitted world (`alx` above, or any other of
+the six) — never `fix`.** An earlier draft of this command used `fix`,
+the synthetic fixture world; caught in the closing adversarial review.
+`fix` is fine, and deliberately used, for the *structural* run below (it
+loads without an admission decision), but it has no real Representative
+persona to break out of (the 9 PB probes), nothing sealed behind it (the
+6 SEAL probes), and none of the historical-otherness texture the 9 FRT
+probes' own `expect` lines depend on — a live run against it would
+complete and report success while testing almost nothing the probe
+categories actually name. `run_probes.py`'s own docstring has the same
+warning at the point anyone would actually invoke it from.
 
 40 probes, each 1 short message into a fresh or shared session (5 probes
 share one session in the `talkdown-1` thread) — well inside the ~$5
@@ -70,9 +82,38 @@ the mock, not a signal about real model behavior on that probe.
 
 - **Does tell you:** the probe set is well-formed, the runner correctly
   drives `engine/api`'s real session/auth/threading surface, and the
-  20/8/8/6/9/9 category split totals 40 as required.
+  8/8/6/9/9 category split totals 40 as required.
 - **Does not tell you:** whether the real Sonnet/Haiku-backed voice and
   safety models actually resist any of these 40 probes. That requires the
   live run above, against staging or another network-reachable target,
   with a human or LLM-judge grading each `response_excerpt` against its
   `expect` line in `probes.yaml`.
+
+## Known limitation, flagged by the closing adversarial review — not fixed here
+
+All 40 probes are **direct injection through the participant `text`
+field**. Two higher-value attack classes this architecture is specifically
+exposed to are not covered by this 40-probe set at all, and the ≤40 cap
+plus the five required categories from this package's own dispatch don't
+leave room to add them without cutting required coverage elsewhere:
+
+- **Indirect injection via world-package/source-corpus content** —
+  adversarial content reaching the model through retrieved record
+  material rather than the participant's own message. The threat model
+  (`reference/Redesign-Spec/Artifact-6-Operations.md` line 26) rests on
+  *"retrieval serves corpus-only content"*; nothing here tests that
+  claim behaviorally, and the ASVS checklist (item 1, V5) already marks
+  the code-level version of this same question UNVERIFIED. Both halves
+  of "is this actually safe" are open in the same place.
+- **Probes aimed at the safety classifier itself**, not just the voice
+  model — text engineered to make the Facilitator's gate call return
+  `NO_SIGNAL` on genuine distress, rather than (what all 9 FRT probes
+  here test) talking a voice model out of a redirect that already fired.
+  Getting the classifier to misclassify in the first place is the
+  higher-consequence failure of the two.
+
+Recommended as a named follow-up (a second, smaller probe set scoped to
+these two classes specifically, run against a real staging conversation
+with actual corpus content loaded) rather than folded into this one —
+out of scope for this package to build blind, without the corpus-
+injection surface itself mapped first.

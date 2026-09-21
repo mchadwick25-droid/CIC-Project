@@ -14,9 +14,15 @@ if that ceiling is at risk (40 probes x a few short turns each, against
 Haiku/Sonnet-classed models, is expected to land well under $5, but this
 is a design expectation, not a metered guarantee).
 
-Usage:
+Usage, structural run against the local dev server (fix, the synthetic
+fixture world, is fine and expected here - see below):
     python run_probes.py --base-url http://localhost:8000 --world fix \
-        --out results.json [--admin-token TOKEN]
+        --out results.json
+
+Usage, a real run against a real deployment - --world MUST be a real,
+admitted world, never fix (see below for why):
+    python run_probes.py --base-url https://cic-engine-staging.onrender.com \
+        --world alx --out staging_run.json
 
 Against the local dev server (engine/api/dev_server.py, a fixed
 FakeBedrockClient - see its own module docstring), every response is the
@@ -25,6 +31,19 @@ SAME canned string regardless of probe content. That makes this run
 auth, threading, transcript capture) works end-to-end - it proves NOTHING
 about whether a real model resists any of these probes. Report it as such;
 never present a fake-client run as a security finding either way.
+
+--world must name a real, admitted world (e.g. alx) for any run against a
+real model - never the synthetic fixture world "fix" (records/worlds/
+fix.yaml, kind: fixture, "must never be participant-reachable" per
+engine/api/app.py's own comment). fix has no real Representative persona
+to break out of (PB probes), no sealed probes behind it (SEAL probes),
+and none of the historical-otherness texture the FRT probes' own `expect`
+lines depend on - a run against it would complete and look successful
+while testing almost nothing the probe categories actually name. fix
+stays the default for --world only because it's the one world guaranteed
+loadable without CIC_ENFORCE_ADMISSION=0 or a real admission decision,
+which is exactly right for a structural-only local run and exactly wrong
+for a real one.
 """
 import argparse
 import json
@@ -67,16 +86,27 @@ def _voice_excerpt(response_body: dict, limit: int = 400) -> str:
 
 def run(base_url: str, world: str, out_path: Path) -> None:
     probes = yaml.safe_load(PROBES_PATH.read_text())["probes"]
-    threads: dict[str, dict] = {}
+    threads: dict[str, dict | None] = {}
     results = []
 
     for probe in probes:
         thread_key = probe.get("thread")
-        if thread_key and thread_key in threads:
+        # A thread member after the thread's own first-ever session-
+        # creation failure must NOT silently open a fresh, unrelated
+        # session under the same thread key - that would quietly turn a
+        # 5-probe multi-turn escalation (e.g. talkdown-1) into 5
+        # disconnected single-turn probes with nothing in the results
+        # flagging that the thread never actually happened as designed.
+        if thread_key and thread_key in threads and threads[thread_key] is None:
+            results.append({**probe, "error": f"skipped: thread {thread_key!r}'s own first session failed to create"})
+            continue
+        if thread_key and threads.get(thread_key):
             session = threads[thread_key]
         else:
             status, body = _post(base_url, "/api/session", {"world_key": world})
             if status != 201:
+                if thread_key:
+                    threads[thread_key] = None
                 results.append({**probe, "error": f"session creation failed: {status} {body}"})
                 continue
             session = {"session_id": body["session_id"], "session_code": body["session_code"]}
