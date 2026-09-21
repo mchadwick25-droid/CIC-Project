@@ -208,24 +208,29 @@ right, independent of anything else in this workstream, and doesn't need
 to wait on Stage 1's measurement to fix.
 
 ### R19 — Should every world's own voice carry the same distress-minimization guard clause?
-**Status:** PENDING
-Once the observation pass (Stage 0e) names which worlds are missing don's
-own categorical clause: extend it fleet-wide as one packaged decision, or
-word it per world individually. Note: this is a Representative-voice
-authoring question — the guard is a prohibition on the Representative
-comparing or minimizing a participant's own disclosed distress against
-the world's own historical suffering ("not the same weight as our
-martyrs"), staying entirely in the world's own voice and period. It does
-not direct a Representative toward outside help or any language outside
-its world/time — that stays Facilitator-only, governed outside any
-world's own voice, per Safety comes first (CLAUDE.md). This ruling is not
-part of the closed Facilitator-mechanism scope above, and does not touch
-it. (Earlier drafts of this entry called it a "don't recommend outside
-help" guard clause — that was the wrong name for what the mechanism
-actually does and has been corrected here.)
-**Recommend extending fleet-wide** once the observation names the gap —
-this is exactly the kind of cross-world consistency question CLAUDE.md
-already asks to be decided once, not world by world.
+**Status:** RULED — 2026-09-21. See Decision-Log.md Entry 28.
+Note: this is a Representative-voice authoring question — the guard is a
+prohibition on the Representative comparing or minimizing a participant's
+own disclosed distress against the world's own historical suffering ("not
+the same weight as our martyrs"), staying entirely in the world's own
+voice and period. It does not direct a Representative toward outside help
+or any language outside its world/time — that stays Facilitator-only,
+governed outside any world's own voice, per Safety comes first
+(CLAUDE.md). This ruling is not part of the closed Facilitator-mechanism
+scope above, and does not touch it. (Earlier drafts of this entry called
+it a "don't recommend outside help" guard clause — that was the wrong
+name for what the mechanism actually does and has been corrected here.)
+
+**Ruled: extend fleet-wide, each world's own voice, folded into the
+standing build-cycle discipline, existing gap worlds retrofitted.** Not
+identical text — every world resolves the question in its own idiom; what's
+decided once is that every world must have *some* honest version of it.
+Three-part scope, enforcement mechanism, and open engineering question
+(the keyword-scan check's own reliability across worlds with genuinely
+different wording) — full detail in Decision-Log.md Entry 28. Retrofit of
+the 9 gap worlds (alx, cappadocian, desert, gallic, hal, ijc, pahc, syr,
+witt) is still outstanding Representative-voice authoring work, not done
+by this ruling itself.
 
 **Stage 0e observation pass (2026-09-21), `engine.m1.cross_world`'s new
 `observe_outside_help_guard` (report-only, keyword scan, not a semantic

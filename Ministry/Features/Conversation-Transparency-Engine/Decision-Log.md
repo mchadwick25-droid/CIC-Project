@@ -594,3 +594,47 @@ family... Feeds R14") is fully built. R14 itself (Rulings-Pending.md) was
 already ruled CLOSED (Decision-Log.md Entry 3): an output-side check may
 never remove a sentence, only report - which this family, like every
 other in `output_check.py`, already does by construction.
+
+**Entry 28 — 2026-09-21.** R19 ruled: **extend fleet-wide, each world's
+own voice, folded into the standing build-cycle discipline, existing gap
+worlds retrofitted.** Mark's direct ruling, after two corrections to the
+question as first posed:
+
+1. R19's own title and body in Rulings-Pending.md were wrong. They named
+   this a "don't recommend outside help" guard clause. The real mechanism
+   (don's own `voice_craft.guard` text, and `observe_outside_help_guard`'s
+   docstring) is a prohibition on the Representative comparing or
+   minimizing a participant's disclosed distress against the world's own
+   historical suffering ("not the same weight as our martyrs") - it never
+   directs a Representative toward outside help or any language outside
+   its own world and period. The actual redirect stays Facilitator-only
+   per CLAUDE.md's Safety comes first section, untouched by this ruling
+   either way. Rulings-Pending.md's R19 entry renamed and reworded to
+   match (commit `4f2881af`, branch `transparency-engine-r19-title-fix`).
+2. "Extend fleet-wide" does not mean identical text pasted into every
+   world - each world authors its own version in its own idiom, the same
+   Representative-voice care any `voice_craft.guard` edit requires. What's
+   decided once, fleet-wide, is that every world must have *some* honest
+   version of this protection - not what it says.
+
+**Scope of the ruling, three parts:**
+- **Retrofit now:** the 9 worlds Stage 0e's observation found missing it
+  - alx, cappadocian, desert, gallic, hal, ijc, pahc, syr, witt (don and
+    rzg already carry it). This is Representative-voice authoring, not a
+    mechanical edit - per Build-Plan.md's own escalation-category list,
+    still needs its own pass per world, not done in this entry.
+- **Standing build-cycle requirement, going forward:** every future
+  world's Representative-voice construction (Doc_07 / `voice_craft`)
+  must consider and resolve this, the same way it already resolves
+  readability and source-fidelity requirements - so the next worlds built
+  don't reopen the same gap by omission.
+- **Enforcement mechanism, deliberately left open:** `observe_outside_help_guard`
+  today is a keyword scan tuned to don's own specific phrasing
+  ("measured against" / "weigh" / "not the same weight" / "weighing") -
+  reliable for confirming don's exemplar, not reliable as a pass/fail gate
+  once 15+ worlds each express the same principle in their own genuinely
+  different words (a real risk of false "missing" reports on a world that
+  handled it correctly in different language). Promoting it to an
+  automated gate is further engineering, not ruled on here. Until then,
+  fold it into the build-cycle discipline as a required manual
+  check-off, not an automated block.
