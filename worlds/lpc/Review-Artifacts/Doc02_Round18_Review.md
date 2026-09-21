@@ -2,7 +2,7 @@
 ## Round 18 Independent Adversarial Review — scoped to verifying the Round 17 fix pass, plus a cold read of the whole document
 
 **Documents reviewed (committed state — `git status --porcelain` clean at `6fd4973`, "lpc: fix Doc_02 revision per Round 17 independent adversarial review", 2026-09-08 07:10:35 UTC, on branch `claude/record-native-world-build-v2-yq11wl`):**
-- `worlds/lpc/Doc_02_Source_Ecology.md` (156 lines — *not* 157, as Rounds 16 and 17 both stated; `wc -l` returns 156 at `d3db35a`, `0f7ca8a` and `HEAD` alike. Read in full, §1 through §10, cold, without reference to any prior round's characterization of any section)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md` (156 lines — *not* 157, as Rounds 16 and 17 both stated; `wc -l` returns 156 at `d3db35a`, `0f7ca8a` and `HEAD` alike. Read in full, §1 through §10, cold, without reference to any prior round's characterization of any section)
 - `Source_Registry.md` (329 lines; all 212 rows re-parsed by column position, plus the Saturation statement read in full)
 - `Source_Acquisition_Manifest.md` (85 lines)
 - `lpc_Decision_Log.md` (330 lines; the 2026-09-08 Rounds 15/16/17 entry read in full and checked against the diffs and artifacts it describes)

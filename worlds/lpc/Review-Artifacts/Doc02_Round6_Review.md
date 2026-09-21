@@ -2,9 +2,9 @@
 ## Round 6 Independent Adversarial Review
 
 **Documents reviewed:**
-- `worlds/lpc/Doc_02_Source_Ecology.md` (revision of 2026-09-02, commit `8360e103`)
-- `worlds/lpc/Source_Registry.md` (same revision)
-- `worlds/lpc/Source_Acquisition_Manifest.md` (same revision)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md` (revision of 2026-09-02, commit `8360e103`)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Registry.md` (same revision)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Acquisition_Manifest.md` (same revision)
 - and, for the post-disposition edits it has now received and the disclosure record attached to them, `Doc_01_World_Identification_Boundaries_Orientation.md` lines 3, 94, 186 and 280, together with `lpc_Decision_Log.md` (all six entries)
 
 **Review date:** 2026-09-02
@@ -319,7 +319,7 @@ Read alongside the findings. The substantive core of this document set is in goo
 
 **Attribution discipline.** Nothing is attributed to the project lead anywhere in the three documents without a checkable record. Every "Mark's ruling" (rows 6, 10, 24, 27) is quoted from an on-disk corpus-map note; the Decision Log's first entry quotes him verbatim and states narrowly what the instruction does and does not settle. The defects at M2–M4 are miscounts and pointers inside the log, not attribution failures.
 
-**Structural sweeps.** No Tier 5 material, no invented or illustrative narrative, on a full read of all three documents. §8's Confidence Map uses Article 17's fixed vocabulary. §7's century-gap disclosure discharges Doc_01 §8 item 1, and I independently confirmed no Registry row and no source named at §1 falls inside 258–391. Forces integration (CO-022's six integration points; FF V1.1 §4 Step 2) is present and substantive at §6's closing paragraph, answering all three Step 2 questions with content rather than labels, with Transmission History a real dimension for all three voices. All three documents sit in the canonical `worlds/lpc/` folder; no competing Approved-to-proceed or Frozen Doc_02 for this world exists in the tree; working tree clean and matching `8360e103`.
+**Structural sweeps.** No Tier 5 material, no invented or illustrative narrative, on a full read of all three documents. §8's Confidence Map uses Article 17's fixed vocabulary. §7's century-gap disclosure discharges Doc_01 §8 item 1, and I independently confirmed no Registry row and no source named at §1 falls inside 258–391. Forces integration (CO-022's six integration points; FF V1.1 §4 Step 2) is present and substantive at §6's closing paragraph, answering all three Step 2 questions with content rather than labels, with Transmission History a real dimension for all three voices. All three documents sit in the canonical `World-Builds/Latin-Pastoral-Congregational-Christianity/` folder; no competing Approved-to-proceed or Frozen Doc_02 for this world exists in the tree; working tree clean and matching `8360e103`.
 
 **The Registry's own disclosures of what it has not done remain honest.** No `search_record` was kept and the Discovery methodology note says so plainly rather than reconstructing one. The field-bibliography sweep CF V7.4 assigns to Step 2 is disclosed as unrun, five times over, and the recall test is correctly described as *"a start on it rather than a substitute."* The priority-flag section's coach referral on the Template-versus-CF-V7.4 trigger divergence is still a referral and still says the reading is *"not a governance ruling."* This is the right handling of all three and it has held for five rounds.
 

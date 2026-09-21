@@ -1,7 +1,7 @@
 # Step 0 — Movement-Scope Confirmation: Latin Pastoral-Congregational Christianity
 ## Round 4 Independent Adversarial Review
 
-**Document reviewed:** `worlds/lpc/Step0_Movement_Scope_Confirmation.md` (third revision, commit `f194c269`, dated 2026-09-01)
+**Document reviewed:** `World-Builds/Latin-Pastoral-Congregational-Christianity/Step0_Movement_Scope_Confirmation.md` (third revision, commit `f194c269`, dated 2026-09-01)
 **Review date:** 2026-09-01
 **Reviewer:** independent adversarial review thread; did not draft the document under review and did not write the Round 1, Round 2, or Round 3 reviews.
 **Governed by:** `cic-build-cycle` (CO-022) *Review* section, and this project's standing rule that a revision's own claim to have fixed something is not evidence of a fix.
@@ -96,7 +96,7 @@ The correct full quotation was **appended**, not substituted. The sentence now q
 
 **What changed.** This sentence is unedited from the prior revision. In the prior revision it followed the blanket statement (*"never 'the schism-crisis angle'"*), and it was accurate: both documents stated the boundary in that same blanket form. The Round-3-driven edit replaced the sentence it refers back to. "This boundary" now most immediately names **the scoped reading** — "stated precisely, not as a world-level rule… that parenthetical qualifies *Cyprian's own characterization*" — and on that reading the sentence is false.
 
-**The divergence is real and checkable.** I read the Donatism sibling-branch draft directly (`git show origin/claude/record-native-world-build-v2-e2s0dt:worlds/don/Step0_Movement_Scope_Confirmation.md`, 132 lines). Its §3 B3, line 94:
+**The divergence is real and checkable.** I read the Donatism sibling-branch draft directly (`git show origin/claude/record-native-world-build-v2-e2s0dt:World-Builds/Donatism/Step0_Movement_Scope_Confirmation.md`, 132 lines). Its §3 B3, line 94:
 
 > "World #8's own entry states the boundary directly: **Cyprian and Augustine's ordinary pastoral office and sacramental care**, 'not the schism-crisis angle, which belongs to world #4,' with Donatism explicitly named as 'occupying and contesting the interval' between them."
 

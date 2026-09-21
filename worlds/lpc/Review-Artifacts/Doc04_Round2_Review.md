@@ -2,7 +2,7 @@
 ## Round 2 Independent Adversarial Review — fix-pass verification of Round 1's 38 findings, plus a fresh adversarial read
 
 **Documents reviewed (working tree, branch `lpc-doc04-round2`, at `5da8b89c`):**
-- `worlds/lpc/Doc_04_Gravity_Discovery.md` (216 lines) — read in full; both tables parsed programmatically cell-by-cell; all 28 Interaction Matrix pairs checked for symmetry against each candidate's own §3 Interaction bullet; the pre-fix draft retrieved from git (`dff7ef12`) and diffed line-by-line against the fix pass (`fde29975`) so that every "addressed" claim could be tested against what actually changed rather than against the Document Log's account of it
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_04_Gravity_Discovery.md` (216 lines) — read in full; both tables parsed programmatically cell-by-cell; all 28 Interaction Matrix pairs checked for symmetry against each candidate's own §3 Interaction bullet; the pre-fix draft retrieved from git (`dff7ef12`) and diffed line-by-line against the fix pass (`fde29975`) so that every "addressed" claim could be tested against what actually changed rather than against the Document Log's account of it
 - `Review-Artifacts/Doc04_Round1_Review.md` (375 lines) — read in full; every one of the 38 findings (H1–H6, M1–M14, L1–L14, C1–C4) checked individually at its own named site
 - `Doc_01_World_Identification_Boundaries_Orientation.md` — read in full, with §1 (Core Identity), §3 (the four named candidate gravities, in order), §4 (all three authority axes, the "what stays constant" argument, the two deferred World Separation questions, and the Conclusion), §5 (Strand Determination, all three Article 21 criteria, the Article 3 argument in full, the governing-consequence paragraph and the reopening caveat), §6 (the "what was it refusing" paragraph, the six-cell sketch, the placement note), §8 items 6, 7, 10 read verbatim against every Doc_04 sentence citing them; grepped directly for "Article 3", "readmission", "individual-believer", "permanent exclusion", "right of communion"
 - `Doc_02_Source_Ecology.md` — read in full at §1, §2 (both Author Gravity assessments), §5, §6, §8; grepped directly for "Article 3" (0 hits), "plenary" (1 hit, §2), "right of communion" (0 hits), "lay-confessor" (0 hits), "coherence"
@@ -13,7 +13,7 @@
 - `L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx` — same extraction; Section 2 (both axes, all six cells) and Section 4's Step 4 entry read verbatim
 - `L1-Foundation/CiC_L1_Constitution_V2_2.docx` — same extraction; Articles 21 and 22 read verbatim
 - `L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md` — read in full, §§1–9
-- `worlds/ijc/Doc_04_Gravity_Discovery.md` — read in full as peer precedent, including §2, Candidates 3/4/5, Open Items 3–5, and the Disposition/revision history
+- `World-Builds/Imperial-Juridical-Christianity/Doc_04_Gravity_Discovery.md` — read in full as peer precedent, including §2, Candidates 3/4/5, Open Items 3–5, and the Disposition/revision history
 - `CLAUDE.md` (repo root) — read in full
 - `cic/corpus-map/latin-pastoral-congregational-christianity.yaml` and `git show c19523fd` (PR #177) — checked directly for the *Gesta Collationis Carthaginiensis* assignment; `git ls-files cic/texts/` used to confirm which shared texts are tracked at HEAD
 

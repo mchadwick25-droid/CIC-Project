@@ -7,9 +7,9 @@
 
 **Documents reviewed, at commits `f5cae1a5` + `f564ce28` (prior state `4b1b5625`), branch `lpc-doc04-round2`, working tree clean:**
 
-- `worlds/lpc/Doc_04_Gravity_Discovery.md` (244 lines)
-- `worlds/lpc/lpc_Decision_Log.md` (all five 2026-09-14 entries, and all five in-place `[CORRECTION, 2026-09-14]` notices)
-- `worlds/lpc/Review-Artifacts/Doc04_Gesta_Targeted_Read_2026-09-14.md` (withdrawal notice and heading block only)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_04_Gravity_Discovery.md` (244 lines)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md` (all five 2026-09-14 entries, and all five in-place `[CORRECTION, 2026-09-14]` notices)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Doc04_Gesta_Targeted_Read_2026-09-14.md` (withdrawal notice and heading block only)
 
 **Read for context and used as the test standard, not reviewed:** `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` — Part III extracted in full and independently from `word/document.xml`, paragraphs 276–326, plus the Step 4 and Step 5 entries at paragraphs 640–663; `L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx`, extracted in full; `L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md`; `cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt` at lines 121760–121772; `Doc04_Round5_Review.md`, `Doc04_Round6_Review.md`, `Doc04_Round7_Review.md`, `Doc04_Round8_Review.md`; `Doc_01`, `Doc_02`, `Doc_03`, `Step0`, `Source_Registry.md` (swept); the Doc_04 and Decision Log blobs at `b419357b`, `27ed339a`, `3a107ff5`, `0166fd55`, `c8ea0a4f`, `4b1b5625`.
 

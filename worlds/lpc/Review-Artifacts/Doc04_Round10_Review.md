@@ -7,9 +7,9 @@
 
 **Documents reviewed, at commit `9c70765b` (prior state `e6c6dd71`), branch `lpc-doc04-round2`, working tree clean:**
 
-- `worlds/lpc/Doc_04_Gravity_Discovery.md` (248 lines, 66,965 bytes)
-- `worlds/lpc/Doc_04_Superseded_Claims.md` (59 lines, 7,826 bytes) — **new this pass**
-- `worlds/lpc/lpc_Decision_Log.md` (all six 2026-09-14 entries and all four in-place `[CORRECTION]` notices)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_04_Gravity_Discovery.md` (248 lines, 66,965 bytes)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_04_Superseded_Claims.md` (59 lines, 7,826 bytes) — **new this pass**
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md` (all six 2026-09-14 entries and all four in-place `[CORRECTION]` notices)
 
 **Read for context and used as the test standard, not reviewed:** `L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx` — decompressed and paragraph-split in full from `word/document.xml` (272 paragraphs); `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` — likewise, paragraphs 300–320 read in position; `L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md` §§4, 5, 9; `cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt` at lines 117490–117495 and 121760–121772, and the band 118500–125499 counted directly; `Doc_01_World_Identification_Boundaries_Orientation.md` §§3, 4, 5, 8; `Source_Registry.md` row 65; `Doc04_Round1_Review.md` through `Doc04_Round9_Review.md`; the Doc_04 blob at `e6c6dd71`.
 
