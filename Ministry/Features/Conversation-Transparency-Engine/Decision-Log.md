@@ -423,3 +423,29 @@ byte-identical to the pre-migration baseline (TOTAL 118 qs / 1152 ground /
 9.8 avg / 0 empty); `staleness-check` and `engine.m9.cli check` both
 clean; full suite 516/516. CI green (19/19 checks, 2 correctly skipped by
 path filter).
+
+**Entry 24 — 2026-09-21.** Stage 4a (part 3, remaining fleet) merged (PR
+#361, commit `5d866a3f`): the same tool run for real against the other 10
+built worlds (alx, cappadocian, desert, don, hal, ijc, pahc, rzg, syr,
+witt) — 829 records touched fleet-wide, 0 skipped. Mid-run, discovered the
+tool's first version (validated only against gallic's own real shape)
+would have silently skipped the fleet's actual dominant shape:
+`do_not_retrieve_when: []`, an inline empty flow list (525 records
+fleet-wide) that gallic itself happens not to use at all. Fixed
+`split_frontmatter` to recognize and drop this shape (nothing to redirect
+or guard either way) before trusting any world beyond gallic; covered by a
+new test before the fix was trusted. All 11 built worlds now carry zero
+`do_not_retrieve_when` records — Stage 4a's own Done bar ("all worlds
+migrated") is met. `records/worlds/<world>.yaml` repinned for all 10 (each
+world's package rebuilt fresh, orphaned prior manifests removed).
+`retrieval_bench.py` byte-identical to the pre-migration baseline across
+the whole fleet (TOTAL 118 qs / 1152 ground / 9.8 avg / 0 empty);
+`staleness-check` and `engine.m9.cli check` both clean; full suite
+517/517. CI green (19/19 checks, 2 correctly skipped by path filter).
+
+Still not in this or any prior Stage 4a PR, and not yet started: the new
+`retrieval-negatives-structured` gate with its seeded defect, and the
+`evidence.py` riders that let `render_evidence_block` actually read
+`prefer_instead` (demoting a candidate, never excluding it, inside the
+existing `budget_chars` budget). Those are the stage's remaining open
+work.
