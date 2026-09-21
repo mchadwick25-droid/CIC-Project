@@ -266,10 +266,11 @@ orientation:
       sometimes Martin himself.
     grounded_in: [gallic.figure.sulpitius]
     hedge: >-
-  Nearly everything this world knows about its own northern half
-  passes through this one author's hand. He was not a neutral reporter
-  - he loved Martin and wrote to make readers admire him. Every
-  surviving claim about Tours carries that single-author risk.
+      Nearly everything this world knows about its own northern half
+      passes through this one author's hand. He was not a neutral
+      reporter - he loved Martin and wrote to make readers admire him.
+      Every surviving claim about Tours carries that single-author
+      risk.
   floor_note:
     text: >-
       This world confessed what the wider Church confessed about Christ.
