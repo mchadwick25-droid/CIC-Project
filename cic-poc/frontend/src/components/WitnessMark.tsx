@@ -19,8 +19,16 @@
  *
  * Same purple, same ✲, same InlineBridge grammar, same one-mark-per-run
  * dedup as StoryMark - a multi-sentence answer built on one witness record
- * gets one mark at the end of the run, not one per sentence, matching the
- * same rule already applied to story/quote.
+ * gets one mark, not one per sentence, matching the same rule already
+ * applied to story/quote. Placed at the run's FIRST sentence, not its
+ * last (R10, RULED c, 2026-09-21) - a participant should see "this is
+ * someone else's words" before reading them, the opposite of a story's
+ * own placement at the run's end.
+ *
+ * `repeat` and `contested` are CSS-only modifiers (app.css
+ * .citation-mark--repeat/--contested) - same glyph, same color, same
+ * verb, per R9's and R10's own design constraints; see VoiceTurnBody.tsx's
+ * renderFromTransparencyPlan for where these are computed.
  */
 import type { SourceCard } from '../types/conversation';
 import { InlineBridge } from './InlineBridge';
@@ -28,13 +36,18 @@ import { SourceList } from './SourceList';
 
 interface WitnessMarkProps {
   sources: SourceCard[]; // pre-filtered by the caller to record_type "doctrinal_witness"
+  repeat?: boolean;
+  contested?: boolean;
 }
 
-export function WitnessMark({ sources }: WitnessMarkProps) {
+export function WitnessMark({ sources, repeat, contested }: WitnessMarkProps) {
+  const markClassName = ['citation-mark', 'witness-mark', repeat && 'citation-mark--repeat', contested && 'citation-mark--contested']
+    .filter(Boolean)
+    .join(' ');
   return (
     <InlineBridge
       label=" ✲"
-      markClassName="citation-mark witness-mark"
+      markClassName={markClassName}
       ariaLabel="Where this comes from"
       level2={
         <>
