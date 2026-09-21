@@ -594,3 +594,117 @@ family... Feeds R14") is fully built. R14 itself (Rulings-Pending.md) was
 already ruled CLOSED (Decision-Log.md Entry 3): an output-side check may
 never remove a sentence, only report - which this family, like every
 other in `output_check.py`, already does by construction.
+
+**Entry 28 — 2026-09-21.** R19 ruled: **extend fleet-wide, each world's
+own voice, folded into the standing build-cycle discipline, existing gap
+worlds retrofitted.** Mark's direct ruling, after two corrections to the
+question as first posed:
+
+1. R19's own title and body in Rulings-Pending.md were wrong. They named
+   this a "don't recommend outside help" guard clause. The real mechanism
+   (don's own `voice_craft.guard` text, and `observe_outside_help_guard`'s
+   docstring) is a prohibition on the Representative comparing or
+   minimizing a participant's disclosed distress against the world's own
+   historical suffering ("not the same weight as our martyrs") - it never
+   directs a Representative toward outside help or any language outside
+   its own world and period. The actual redirect stays Facilitator-only
+   per CLAUDE.md's Safety comes first section, untouched by this ruling
+   either way. Rulings-Pending.md's R19 entry renamed and reworded to
+   match (commit `4f2881af`, branch `transparency-engine-r19-title-fix`).
+2. "Extend fleet-wide" does not mean identical text pasted into every
+   world - each world authors its own version in its own idiom, the same
+   Representative-voice care any `voice_craft.guard` edit requires. What's
+   decided once, fleet-wide, is that every world must have *some* honest
+   version of this protection - not what it says.
+
+**Scope of the ruling, three parts:**
+- **Retrofit now:** the 9 worlds Stage 0e's observation found missing it
+  - alx, cappadocian, desert, gallic, hal, ijc, pahc, syr, witt (don and
+    rzg already carry it). This is Representative-voice authoring, not a
+    mechanical edit - per Build-Plan.md's own escalation-category list,
+    still needs its own pass per world, not done in this entry.
+- **Standing build-cycle requirement, going forward:** every future
+  world's Representative-voice construction (Doc_07 / `voice_craft`)
+  must consider and resolve this, the same way it already resolves
+  readability and source-fidelity requirements - so the next worlds built
+  don't reopen the same gap by omission.
+- **Enforcement mechanism, deliberately left open:** `observe_outside_help_guard`
+  today is a keyword scan tuned to don's own specific phrasing
+  ("measured against" / "weigh" / "not the same weight" / "weighing") -
+  reliable for confirming don's exemplar, not reliable as a pass/fail gate
+  once 15+ worlds each express the same principle in their own genuinely
+  different words (a real risk of false "missing" reports on a world that
+  handled it correctly in different language). Promoting it to an
+  automated gate is further engineering, not ruled on here. Until then,
+  fold it into the build-cycle discipline as a required manual
+  check-off, not an automated block.
+
+**Entry 29 — 2026-09-21.** Ten more rulings landed in the same session,
+one at a time per CLAUDE.md's own ground rules (real options, a
+recommendation, never a flat conclusion). Rulings-Pending.md's own Status
+lines updated in the same edit as this entry. All ten followed the
+recommendation already on record in Rulings-Pending.md unless noted.
+
+- **R5** (Table-mode interrupt affordance) ruled **(a)** - a mid-round
+  participant message simply closes the round and proceeds; no dedicated
+  Interrupt button built.
+- **R6** (register-drift scope and gating) ruled **(a) and (iii)** - only
+  the source's own original words stay exempt from register screening,
+  our own retellings are screened; the Stage 2c ceiling proposal
+  (`story.tellable_as` longest sentence <=30 / median <=25 words;
+  `term.quick_meaning` longest sentence <=20 / median <=16 words) goes
+  advisory for one build cycle, then promotes to a gate.
+- **R7** (fixing the fleet's already-drifted `tellable_as` text) ruled
+  **(a)** - a capped-round Sonnet revision pass per affected world (5
+  flagged by R6's own ceilings: cappadocian, don, gallic, rzg, witt).
+  Cleared by R6 landing in the same session; not yet executed.
+- **R8** (CLAUDE.md naming a confidence level, "Not Attested," the code
+  doesn't have) ruled **(c)** - CLAUDE.md gets corrected to describe "Not
+  Attested" as an absent-claim marker (`honest_limit`/`absent_detail`),
+  not a sixth `formation_confidence` value. CLAUDE.md itself not yet
+  edited.
+- **R9** (a distinct mark for contested/thin-evidence claims) ruled
+  **(a)** - proceed with the design already agreed before this sequencing
+  gate: a quiet hollow-glyph variant of the existing citation mark, no
+  new color, no new verb. Unblocked by the Stage 1 measurement (Entry 13)
+  plus R16/R17, both ruled in this same entry.
+- **R10** (citation mark placement) ruled **(c)** - first sentence for a
+  witness quote, end-of-run for a story; a repeated re-citation gets the
+  lighter "ibid" glyph either way. Unblocks Stage 3c's renderer
+  switch-on; label copy is still a separate remaining step before that
+  flag flips on.
+- **R12** (what "library accessed live" means) ruled **live resolution
+  only** - citations and evidence resolve live against the vendored
+  records, as already built; no live full-text architecture. Fixes an
+  overclaiming topology sentence, no engineering change.
+- **R13** (should the holdings "unused source" check block a world from
+  shipping) ruled **report-only for one build cycle, then promoted to
+  blocking for new worlds** - lets the real distribution surface before
+  the bar is set.
+- **R16** (fleet-wide "draft" status and confidence display) ruled **(c)**
+  - confidence display draws only from the confidence field, never
+  `status` (ruled now, unblocking); per-world status-promotion passes
+  happen as each world comes up for its next real touch, not as a
+  dedicated fleet-wide project.
+- **R17** (hard budget on transparency elements per screen) ruled
+  **approved as a house rule** - a small capped number of inline marks
+  per turn (scaling gently with sentence count), one collapsed references
+  line instead of a scattered list, no new mark types beyond R9's
+  hollow-glyph variant, the unverified-claims count never rendered to a
+  participant - enforced by an automated test, plus Mark's own
+  read-through as a seeker with no background before Stage 6 ships.
+- **R18** (onboarding text overclaiming the honesty check) ruled **(a)** -
+  reword now to describe what the mechanism actually does (word-overlap
+  checking against the source record, not truth-verification); doesn't
+  wait on Stage 1's measurement or on Stages 6-9. Copy not yet edited.
+
+**Net effect:** every ruling in Rulings-Pending.md that was PENDING or
+sequencing-gated at the start of this session is now RULED. Remaining
+CLOSED items (R1-R4, R14, R15) and already-RULED items (R11, R19) are
+unaffected. What's left is execution, not decision: R6's ceilings need
+promoting from proposal to enforced numbers after one cycle; R7's revision
+pass, R8's and R18's copy edits, R9's hollow-glyph mark, and R10's citation
+placement fix are none of them built yet; R13's holdings check needs its
+report-only cycle; R16 and R17 unblock Stage 6 scoping, which has not
+started. Stages 6-9 remain the largest actual remaining work in
+Build-Plan.md - now unblocked by ruling, not yet built.
