@@ -8,6 +8,20 @@ and where to stop.
 Written 2026-08-24 at the close of the build thread, at
 `build/phase-1` = `9d9f2a5f`.
 
+**Currency note (Tech-Readiness Package 2, reviewed 2026-09-21).** Every
+stage below is DONE or closed-by-decision — this runbook has no more "what
+to do next" content, and nothing below should be read as describing today's
+deploy path. The single-branch deploy model Stage 5/6 describe (`main`
+deploying straight to `cic-engine`) was superseded 2026-09-15 by the
+two-branch `main` → `live` promotion model: `render.yaml` now carries two
+services (`cic-engine` on `branch: live`, `cic-engine-staging` on
+`branch: main`), and `Ministry/Operations/Standing/CiC_Promotion_Runbook.md`
+is the current procedure for reaching participants. Kept in place, not
+archived, because it remains the accurate historical record of how Phase 1
+actually shipped (2026-08-24–25) and because several since-closed decisions
+(Stage 2's model choice, Stage 6's cic-poc retirement) are referenced
+elsewhere by their gate numbers here.
+
 ---
 
 ## Standing rules for this work

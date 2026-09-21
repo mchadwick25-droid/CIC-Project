@@ -594,3 +594,22 @@ family... Feeds R14") is fully built. R14 itself (Rulings-Pending.md) was
 already ruled CLOSED (Decision-Log.md Entry 3): an output-side check may
 never remove a sentence, only report - which this family, like every
 other in `output_check.py`, already does by construction.
+
+**Entry 28 — 2026-09-21.** Tech-Readiness Package 2 (Operations,
+`Ministry/Operations/Audits/Tech-Readiness-2026-09/P2-Operations/Report.md`)
+inventoried the full divergence between `main` (`c9b09ea1`) and `live`
+(`e693b048`) ahead of the next promotion: this workstream's own Stages
+0a–4b above (Entries 4–27) are on `main` only, `live` predates all of them
+(`live`'s own copy of this Decision-Log has 3 entries, not 27). `live`
+separately carries atlas-sync tooling and the who-is-at-the-table card
+redesign (PR #346) that never made it back onto `main`. That Operations
+report's own finding, for this workstream's record: a plain `main` → `live`
+promotion would risk the merge resolving `engine/m2/`, `engine/m6/`, and
+`cic-website/` toward `main`'s side, silently reverting the card redesign
+and atlas tooling in production, since `main` doesn't have either. The
+report's proposed fix is a reconciliation PR (bringing `live`'s own atlas/
+card work onto `main` first) before the real promotion — drafted, not
+performed, and outside both this workstream's and that Operations package's
+own hard-rule scope, so it is handed to Mark to assign rather than claimed
+by either. No file in this workstream's own directories beyond this one
+entry was touched by that report.
