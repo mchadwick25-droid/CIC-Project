@@ -167,3 +167,14 @@ appropriately), not part of the closed Facilitator-mechanism scope above.
 **Recommend extending fleet-wide** once the observation names the gap —
 this is exactly the kind of cross-world consistency question CLAUDE.md
 already asks to be decided once, not world by world.
+
+**Stage 0e observation pass (2026-09-21), `engine.m1.cross_world`'s new
+`observe_outside_help_guard` (report-only, keyword scan, not a semantic
+judgment — see its own docstring): of the 11 built worlds, only **don**
+and **rzg** carry don-style distress-comparison language
+("measured against" / "weigh" / "not the same weight" / "weighing") in
+`voice_craft.guard`. The other 9 do not: **alx, cappadocian, desert,
+gallic, hal, ijc, pahc, syr, witt**. This is the concrete list R19's
+ruling needs — still unruled; editing any `voice_craft.guard` field is a
+Representative-voice change (`Build-Plan.md`'s own escalation category),
+so no world's guard text is touched here.

@@ -987,6 +987,41 @@ def observe_second_hand_sources(*, records, worlds, **_) -> list[Finding]:
     return findings
 
 
+def observe_outside_help_guard(*, records, worlds, **_) -> list[Finding]:
+    """Stage 0e (Build-Plan.md): does this world's voice_craft.guard carry
+    a categorical prohibition against measuring a participant's own
+    disclosed distress against the world's own history? don's own guard
+    field (records/don/voice_craft/don.craft.fidelis-voice.md) is the
+    exemplar: "A participant's own disclosed distress is never measured
+    against our martyrs'. Not 'what presses on you now is not the same
+    weight.' Not any weighing of a living person's trouble against a death
+    we commemorate." That matters because a guard that lets a voice
+    minimize or compare a participant's trouble to historical suffering
+    works against exactly what Safety comes first (CLAUDE.md) asks for -
+    it risks discouraging the one participant a real crisis moment needs
+    to reach toward help, not obviously less so than an invented personal
+    quirk would.
+
+    A keyword scan over guard's own free text, not a semantic judgment - it
+    can only ever say a guard field NAMES this concern in roughly don's own
+    words, never that a world's actual behavior honors it. Report-only:
+    nothing here fails a build. The printed world list is filed under R19
+    in Rulings-Pending.md for a real ruling on whether and how to promote
+    this to a gate.
+    """
+    signals = ("measured against", "weigh", "not the same weight", "weighing")
+    findings = []
+    for w in worlds:
+        crafts = [r for r in records[w].values() if r["record_type"] == "voice_craft"]
+        guard_text = " ".join(str(r.get("guard") or "") for r in crafts).lower()
+        hit = any(s in guard_text for s in signals)
+        findings.append(_observation(
+            "outside-help-guard", w,
+            f"voice_craft.guard {'carries' if hit else 'does not carry'} don-style distress-comparison language"
+            + ("" if crafts else " (no voice_craft record found)")))
+    return findings
+
+
 def observe_corpus_map(*, registry, worlds, **_) -> list[Finding]:
     """Progress toward every world built and representing
     the sources of the christian tradition, read from the corpus map, not
@@ -1067,6 +1102,7 @@ CHECKS = [
     observe_source_licensing,
     observe_uncompiled_required_fields,
     observe_second_hand_sources,
+    observe_outside_help_guard,
     observe_corpus_map,
 ]
 
