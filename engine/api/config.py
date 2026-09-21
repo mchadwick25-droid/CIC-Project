@@ -17,6 +17,8 @@ _DEFAULT_SAFETY_MODEL_PATTERN = "us.anthropic.claude-haiku-4-5"
 _DEFAULT_EVENTS_DB = "./cic_api_events.db"
 _DEFAULT_USAGE_DB = "./cic_api_usage.db"
 _DEFAULT_WORLD_KEY = "fix"
+_DEFAULT_ANON_DAILY_SESSION_LIMIT = 5
+_DEFAULT_ANON_DAILY_TURN_LIMIT = 150
 
 
 class MissingConfigError(Exception):
@@ -72,6 +74,17 @@ class Settings:
     # rule region already follows above, so duplicating those fields
     # here would just be a second place for them to drift.
     package_cache_dir: Path
+    # Anonymous per-visitor daily cap (Tech-Readiness P1-Security item 3,
+    # 2026-09-21) - OFF by default everywhere, including a real deploy that
+    # hasn't opted in yet. See engine.api.anon_cap's own module docstring:
+    # the mechanism and the two numbers below are the PROPOSED default from
+    # that package's report, not yet a decision Mark has made. Flipping
+    # this on with no secret set is a hard failure (below), not a silent
+    # skip - same "never guess" posture as region/admin_token above.
+    anon_cap_enabled: bool
+    anon_visitor_secret: str | None
+    anon_daily_session_limit: int
+    anon_daily_turn_limit: int
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -94,4 +107,10 @@ class Settings:
             admin_token=os.environ.get("CIC_API_ADMIN_TOKEN") or None,
             world_idle_unload_seconds=_float_or_none(os.environ.get("CIC_API_WORLD_IDLE_UNLOAD_SECONDS")),
             package_cache_dir=Path(os.environ.get("CIC_API_PACKAGE_CACHE_DIR", str(REPO_ROOT / "packages"))),
+            anon_cap_enabled=os.environ.get("CIC_API_ANON_CAP_ENABLED", "") in ("1", "true", "yes"),
+            anon_visitor_secret=os.environ.get("CIC_API_ANON_VISITOR_SECRET") or None,
+            anon_daily_session_limit=int(
+                os.environ.get("CIC_API_ANON_DAILY_SESSION_LIMIT", _DEFAULT_ANON_DAILY_SESSION_LIMIT)
+            ),
+            anon_daily_turn_limit=int(os.environ.get("CIC_API_ANON_DAILY_TURN_LIMIT", _DEFAULT_ANON_DAILY_TURN_LIMIT)),
         )

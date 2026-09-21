@@ -35,6 +35,17 @@ doors-open switch (`"1"` = only admitted/open worlds are listed or seated;
 2026-08-28 audit found this one shipped-but-undocumented; this list is the
 config surface, so it lives here now.
 
+`CIC_API_ANON_CAP_ENABLED` (2026-09-21, Tech-Readiness P1-Security item 3 —
+`engine/api/anon_cap.py`'s own module docstring has the full rationale):
+`"1"` turns on a per-visitor daily cap on session creation and conversation
+turns, on top of `ratelimit.py`'s per-IP burst limiter. **Off in every
+deployment today** — the mechanism and its default numbers
+(`CIC_API_ANON_DAILY_SESSION_LIMIT`, default 5; `CIC_API_ANON_DAILY_TURN_LIMIT`,
+default 150) are a proposal from that audit, not yet a decision Mark has
+made; see the package's own `Report.md`. Turning it on requires
+`CIC_API_ANON_VISITOR_SECRET` (any random string — signs the visitor
+cookie) or the app refuses to start.
+
 ## Pinning `CIC_API_SAFETY_MODEL_PATTERN` (Stage 0d, Build-Plan.md)
 
 Left at its code default, `CIC_API_SAFETY_MODEL_PATTERN` is a loose

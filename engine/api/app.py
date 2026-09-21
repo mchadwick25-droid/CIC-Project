@@ -20,7 +20,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from engine.api import ratelimit, table_wiring, wiring
+from engine.api import anon_cap, ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
 from engine.m1.registry import load_registry
 from engine.m4 import idle_close, session_code
@@ -29,6 +29,12 @@ from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
 from engine.m7 import scheduler as m7_scheduler
 from engine.m8.log_store import UsageLogStore
+
+class MissingAnonCapSecret(Exception):
+    """Raised at app construction when anon_cap_enabled=True but no secret
+    was given - same "never guess, fail loudly" posture as MissingConfigError
+    in engine.api.config for region."""
+
 
 _INVALID_SESSION_DETAIL = "invalid session"
 _WORLD_UNAVAILABLE_DETAIL = "world temporarily unavailable"
@@ -215,6 +221,10 @@ def create_app(
     rate_limit: bool = False,
     admin_token: str | None = None,
     package_cache_dir: Path | None = None,
+    anon_cap_enabled: bool = False,
+    anon_visitor_secret: str | None = None,
+    anon_daily_session_limit: int = anon_cap.DEFAULT_DAILY_SESSION_LIMIT,
+    anon_daily_turn_limit: int = anon_cap.DEFAULT_DAILY_TURN_LIMIT,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -228,10 +238,23 @@ def create_app(
     admin_token defaults None, same disabled-by-default posture: unset in
     a test app (or a real deploy that hasn't configured one yet) means
     /api/admin/pilot-summary 404s outright rather than existing in a
-    permanently-unauthorizable state."""
+    permanently-unauthorizable state.
+
+    anon_cap_enabled defaults False, same posture again (see
+    engine.api.anon_cap's own module docstring for what this is and why
+    it's proposed, not decided, even once code-complete). Enabling it with
+    no secret is refused loudly, not silently skipped - a caller opting in
+    without providing the one thing that makes the token unforgeable is a
+    misconfiguration, not a valid "off" state."""
+    if anon_cap_enabled and not anon_visitor_secret:
+        raise MissingAnonCapSecret("CIC_API_ANON_CAP_ENABLED is on but CIC_API_ANON_VISITOR_SECRET is unset")
     app = FastAPI(title="CiC engine/api (minimal test backend)")
     if rate_limit:
         ratelimit.install(app)
+    if anon_cap_enabled:
+        anon_cap.install(
+            app, secret=anon_visitor_secret, daily_session_limit=anon_daily_session_limit, daily_turn_limit=anon_daily_turn_limit,
+        )
     app.state.deps = Deps(
         voice_client=voice_client,
         voice_model_id=voice_model_id,
@@ -510,6 +533,10 @@ def _build_real_app() -> FastAPI:
         rate_limit=True,
         admin_token=settings.admin_token,
         package_cache_dir=settings.package_cache_dir,
+        anon_cap_enabled=settings.anon_cap_enabled,
+        anon_visitor_secret=settings.anon_visitor_secret,
+        anon_daily_session_limit=settings.anon_daily_session_limit,
+        anon_daily_turn_limit=settings.anon_daily_turn_limit,
     )
 
 
