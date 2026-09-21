@@ -99,8 +99,8 @@ export function Launch({
         <h2 className="table-field__title">Convene a Table</h2>
         <p className="table-field__intro">
           A Table seats two or three of these voices in one conversation. Each question you bring is answered around
-          the table in turn — genuinely different ways of thinking, side by side — for a sitting of five rounds. It
-          asks a little more of you than an interview, and gives back more than one world at a time.
+          the table in turn — genuinely different ways of thinking, side by side — for a bounded sitting of several
+          rounds. It asks a little more of you than an interview, and gives back more than one world at a time.
         </p>
 
         {suggestions.length > 0 && (
