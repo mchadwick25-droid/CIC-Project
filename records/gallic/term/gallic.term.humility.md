@@ -50,7 +50,7 @@ retrieval:
   - why a famous abbot fled to be a novice, or why Martin sat on a stool
   - participant uses "humility," "humble," "modesty," "low self-esteem," or "pride"
   - the ten signs, Pinufius, the count's son, Nesteros on miracles, Martin washing his guest's feet, or "Not I, but the grace of God with me"
-  do_not_retrieve_when:
+  prefer_instead:
   - the regulating virtue discretion draws from it (retrieve discretion)
   - pride as the eighth fault specifically (retrieve the eight principal faults)
   - humility as a modern psychological trait

@@ -38,7 +38,7 @@ retrieval:
   - what "practical" and "theoretical" mean in Cassian, or how they read Scripture in senses
   - participant uses "contemplation," "contemplative," "mysticism," "meditation," "theory vs. practice," or "allegory"
   - Martha and Mary, Nesteros's two knowledges, or the fourfold sense
-  do_not_retrieve_when:
+  prefer_instead:
   - the office and unceasing prayer as a practice (retrieve unceasing prayer)
   - the goal itself (retrieve purity of heart)
   - the words practical and theoretical in their modern sense

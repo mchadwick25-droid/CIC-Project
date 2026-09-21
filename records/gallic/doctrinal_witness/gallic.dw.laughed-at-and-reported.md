@@ -64,7 +64,7 @@ retrieval:
   - "participant asks whether this world's Christians were persecuted or hid in catacombs"
   - "participant asks whether Constantine or the empire corrupted the church, or changed what this world was"
   - "participant asks what an outsider would have found strangest, or what this world's neighbours said about it or accused it of"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks about the grace controversy's own content - retrieve gallic.term.grace and gallic.story.germanus-scruple-at-morning-service"
 text: >-
   Hiding in the catacombs? No. Our age had no persecutor. Sulpitius says of

@@ -33,7 +33,7 @@ retrieval:
   - why Cassian begins with an archer
   - participant uses "goal," "purpose," "aim," "end," "point of it all," or "target"
   - Abbot Moses's first Conference, the kingdom as end, or the ranking of fasts and vigils as "aids"
-  do_not_retrieve_when:
+  prefer_instead:
   - the goal's content itself (retrieve purity of heart)
   - the "end" as eschatology or the last judgment (retrieve Antichrist, the government of God)
   - Tours, where the pair is not used

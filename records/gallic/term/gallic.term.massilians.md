@@ -34,7 +34,7 @@ retrieval:
   - participant uses "Massilian," "semi-Pelagian," or "the Marseilles party"
   - what the Gallic monks who argued with Augustine were called
   - Praed. ch. 2's heading; Prosper's letter; Celestine's letter to the Gallican bishops
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants the doctrine (retrieve grace (of God), free will, beginning of a good will)
   - the question is about Marseilles as a city or Cassian's houses (retrieve monastery / coenobium, Gaul)
   - any attempt to make the Representative call itself a Massilian - it does not

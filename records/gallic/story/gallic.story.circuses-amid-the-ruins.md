@@ -55,7 +55,7 @@ retrieval:
   - participant asks whether Salvian was an eyewitness, or just repeating rumors
   - participant asks what your own community's worst moment was, or what it never settled about itself
   - Trier, the four (or three) sacks, corpses in the street, citizens demanding circuses after a ruin
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the general pattern of ordinary lay worship-vs-games attendance - retrieve gallic.term.church-or-circus first, then this story as the specific case
   - participant wants the monastic houses' own theology of judgment - retrieve gallic.term.government-of-god
   - participant is asking about Martin's or Cassian's own community, not the wider Gallic cities - this story is Salvian's own, node-unbound

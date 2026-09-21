@@ -40,7 +40,7 @@ retrieval:
   - whether monks were alone, or why leaving the cell was a fault
   - participant uses "cell," "cave," "hut," "hermitage," or "room"
   - Marmoutier's caves, Martin's closed door, accidie's disgust with the cell, or Cassian's "harbour"
-  do_not_retrieve_when:
+  prefer_instead:
   - the house as a whole (retrieve monastery / coenobium)
   - the prison sense of "cell"
   - the desert hermit's cell as such (retrieve anchorite / hermit)

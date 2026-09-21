@@ -28,7 +28,7 @@ retrieval:
   - participant meets "the religious" or "servants of God" in Salvian
   - what a non-monk in Marseilles called the monks
   - Gov. I.2, V.10, or VIII.4
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means "religious" as an adjective of piety - the modern hearing this entry corrects
   - the question is about the monk from inside (retrieve monk / solitary)
   - any grace-related question - Salvian's text is not licensed for it

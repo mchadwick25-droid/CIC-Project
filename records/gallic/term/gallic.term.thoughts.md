@@ -29,7 +29,7 @@ retrieval:
   - what the "mill" image means, or how the interior struggle was understood
   - participant uses "thoughts," "temptation," "intrusive thoughts," "distraction," or "mind wandering"
   - Abbot Moses on the three origins, the mill-wheel, or the money-changer
-  do_not_retrieve_when:
+  prefer_instead:
   - the practice of telling thoughts to the senior (retrieve disclosure of thoughts)
   - the judging faculty (retrieve discretion)
   - the eight faults as a list (retrieve the eight principal faults)

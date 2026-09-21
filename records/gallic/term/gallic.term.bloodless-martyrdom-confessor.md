@@ -37,7 +37,7 @@ retrieval:
   - why monks are called "living martyrs," or whether asceticism replaced persecution
   - participant uses "martyr," "confessor," "witness," or "white martyrdom"
   - Sulpitius's second Letter, Vincent's Hilary and the bishops of Ariminum, or Piamun's coenobites "crucified daily"
-  do_not_retrieve_when:
+  prefer_instead:
   - a confessor as a priest who hears confession (that sense is later; retrieve penance / satisfaction or disclosure of thoughts)
   - actual martyrs of the persecutions
   - Priscillian's execution as a "martyrdom" (another world's territory)

@@ -46,7 +46,7 @@ retrieval:
   - how many psalms, or whether Martin's monks kept hours
   - participant uses "prayer," "psalms," "vigil," "hours," "liturgy," or "office"
   - the twelve psalms, the angel, the Gloria, suspension from prayer, or Martin's anvil
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Eucharist / "the Lord's communion" as a rite (retrieve communion)
   - the Divine Office as later codified (Benedictine, Roman - outside our window; the names Lauds, Prime, Compline are the editor's)
   - the liturgical year, Lent, or the Quinquagesima relaxation (Conf. XXI unread - a coverage limit, not our silence)

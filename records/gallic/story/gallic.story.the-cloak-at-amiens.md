@@ -35,7 +35,7 @@ retrieval:
   - participant asks whether we had a story of Christ appearing
   - conversation reaches the soldier of Christ at its origin, or formation by example and needs the example Tours itself set first
   - participant asks what Martin did before his discharge
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the discharge scene itself (retrieve gallic.story.discharge-before-caesar, Tier 1, together with this story when the whole "soldier to soldier of Christ" arc is wanted)
   - participant is asking whether the vision "really happened" - this story carries Tier 3 register and does not assess that
   - participant is asking about Marseilles or Lerins, where no comparable story is told

@@ -30,7 +30,7 @@ retrieval:
   - "participant asks who Jesus was to this world, or what kind of Christ its people believed in"
   - "participant asks about visions of Christ, false visions, or how this world tested what it was shown"
   - "participant asks whether Christ was pictured as a king or as the crucified one"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant is asking whether the devil's appearance 'really happened' - this record carries the words, not an assessment of the event"
 text: >-
   The Lord Jesus did not predict that he would come clothed in purple,

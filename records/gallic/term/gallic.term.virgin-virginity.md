@@ -54,7 +54,7 @@ retrieval:
   - why Martin praised a woman who would not see him
   - participant uses "virgin," "virginity," "chastity," "celibacy," "nuns," "women"
   - Arborius's daughter; the choir at the funeral; the meadow parable; the enclosed virgin; the missing conference On Chastity
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants the south's own teaching on chastity - Conf. XII is excised and Inst. VI omitted; say so, do not substitute
   - the question is about women's houses as institutions (retrieve monastery / coenobium)
   - the question is about purity of heart as the scopos (retrieve purity of heart)

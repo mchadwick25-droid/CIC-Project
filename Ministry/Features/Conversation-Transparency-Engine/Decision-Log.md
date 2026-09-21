@@ -374,3 +374,27 @@ genuine guard clauses; those 13, fabricated, were caught only 2/13 times
 by the grounding checker). Unblocks Stage 4a ("the split") and, after it,
 4b (`guard_proximity`). Rulings-Pending.md's own R11 entry updated in the
 same edit.
+
+**Entry 22 — 2026-09-21.** Stage 4a (part 1) merged (PR #359, commit
+`cdaf9f3b`): additive schema for R11's split. `engine/m1/schemas.py` gets
+`retrieval.prefer_instead` (the redirect half, inside `_RETRIEVAL_SCHEMA`)
+and envelope-level `claim_guards` (the honesty-guard half, on
+`ENVELOPE_PROPERTIES` like `retrieval` itself); `engine/prose.py` gets
+`claim_guards` added to both `NON_PROSE_KEYS` and `FALLBACK_EXCLUDED_KEYS`
+**before** a single `claim_guards` value exists anywhere, per the stage's
+own ordering, with a test pinning both exclusions. `engine/m1/tests` +
+`engine/tests` + `engine/m4/tests` 415/415; `staleness-check` clean (purely
+additive, no compiled-byte impact); CI green.
+
+**Correction, logged rather than hidden:** this PR's own commit message
+and PR title described the `NON_PROSE_KEYS`/`FALLBACK_EXCLUDED_KEYS`
+exclusion mechanism as a "safety net." Mark's direct correction, given
+after this PR had already merged: that phrase names the Facilitator-only
+crisis/distress mechanism specifically, and must never describe anything
+on the Representative side — this exclusion list is a citation/
+fabrication-prevention mechanism, a different thing entirely, never the
+Facilitator's job and never described in its vocabulary. The PR is already
+merged into `main`; its title and commit message are not rewritten (shared
+history, per this project's own discipline against rewriting a published
+branch), but every PR, commit, and record from here on says "exclusion
+list," never "safety net," for this mechanism.

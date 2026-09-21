@@ -39,7 +39,7 @@ retrieval:
   - why Cassian calls one virtue the mother of the rest
   - participant uses "discretion," "discernment," "moderation," "balance," "prudence," or "judgment"
   - Antony's council of elders, Heron's fall into the well, the money-changer, or the royal road
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means tact, prudence, or confidentiality ("at your discretion")
   - the practice of telling thoughts to the senior as such (retrieve disclosure of thoughts)
   - the goal discretion regulates (retrieve purity of heart)

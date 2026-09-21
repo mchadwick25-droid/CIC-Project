@@ -29,7 +29,7 @@ retrieval:
   - what "Peregrinus" means; what happened to the second book
   - participant uses "Commonitory," "Vincent's book," "Peregrinus," "pilgrim," "memorandum"
   - Comm. ch. 1's stated purpose; Gennadius's notice of the theft
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the rule the book states (retrieve the rule)
   - the question is about the deposit (retrieve the deposit)
   - the pseudonym's motive - unknown; Heurtley's speculation is editorial

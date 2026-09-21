@@ -38,7 +38,7 @@ retrieval:
   - whether one could go straight to the desert
   - participant uses "hermit," "anchorite," "recluse," "solitary," or "desert"
   - Piamun's kinds of monk, the boy Martin's wish, Marmoutier's solitude, or "you have conquered all the eremites"
-  do_not_retrieve_when:
+  prefer_instead:
   - what a monk is in general (retrieve monk / solitary)
   - the cell as a dwelling (retrieve cell)
   - Egypt's own hermits as such (Dialogue I is Registry-Excluded, and desert-monasticism's own territory)
