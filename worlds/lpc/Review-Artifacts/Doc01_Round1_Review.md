@@ -1,7 +1,7 @@
 # Doc_01 — World Identification, Boundaries, and Orientation: Latin Pastoral-Congregational Christianity
 ## Round 1 Independent Adversarial Review
 
-**Document reviewed:** `worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md` (DRAFT, commit `bf0094c0`, 2026-09-01)
+**Document reviewed:** `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_01_World_Identification_Boundaries_Orientation.md` (DRAFT, commit `bf0094c0`, 2026-09-01)
 **Review date:** 2026-09-01
 **Reviewer:** independent adversarial review thread. Did not draft the document under review, did not draft this world's Step 0, and did not write any of the five Step 0 review rounds.
 **Governed by:** `cic-build-cycle` (CO-022) *Review* and *Revision decision* sections; Construction Framework V7.4 Part I and Step 1; Constitution V2.2 Articles 3, 15, 20, 21, 22, 23, 29; Forces Framework Section 4.
@@ -32,13 +32,13 @@ Separately, the document does not run two of Part I's own required criterion set
 
 Nothing was taken on the document's own word. Every claim below was re-derived from primary artifacts in this session:
 
-- **Governing text, re-extracted from `.docx` directly:** `reference/L1-Foundation/CiC_L1_Constitution_V2_2.docx` (Articles 3, 4, 15, 20, 21, 22, 23, 29 read in full from the extracted XML) and `reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` (Part I criterion sets and the Step 1 entry read in full). `Archive/Superseded-Housekeeping/Forces_Framework_v1.docx` Section 4 Step 1 entry and the Layer 1–3 definitions.
-- **The live `cic-build-cycle` (CO-022) skill**, extracted from `Archive/Superseded-Housekeeping/cic_build_cycle_co022.skill`.
+- **Governing text, re-extracted from `.docx` directly:** `L1-Foundation/CiC_L1_Constitution_V2_2.docx` (Articles 3, 4, 15, 20, 21, 22, 23, 29 read in full from the extracted XML) and `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` (Part I criterion sets and the Step 1 entry read in full). `Archive/Superseded-Housekeeping/Forces_Framework_v1.docx` Section 4 Step 1 entry and the Layer 1–3 definitions.
+- **The live `cic-build-cycle` (CO-022) skill**, extracted from `cic_build_cycle_co022.skill`.
 - **This world's own Step 0** in full, and all of its §4 carry-forward items 1–8 traced individually against Doc_01.
-- **`worlds/ijc/Doc_01_...md`** in full (its §4 strand reasoning, its §6, and its §8 disposition), plus **IJC's Step 0 §4 item 3** and **IJC's `Open_Gaps_Tracking.md` item 16** read at source.
-- **`worlds/hal/hal_Doc_01_...md`** in full, §8.1 and §0 in particular.
+- **`World-Builds/Imperial-Juridical-Christianity/Doc_01_...md`** in full (its §4 strand reasoning, its §6, and its §8 disposition), plus **IJC's Step 0 §4 item 3** and **IJC's `Open_Gaps_Tracking.md` item 16** read at source.
+- **`World-Builds/Hieronymian-Ascetic-Literary/hal_Doc_01_...md`** in full, §8.1 and §0 in particular.
 - **`cic/corpus-map/latin-pastoral-congregational-christianity.yaml`** — the Augustine–Jerome, Optatus, Council of Carthage 419, Council of Carthage under Cyprian, and *On Baptism* rows read verbatim.
-- **The Donatism sibling Step 0**, read via `git show origin/claude/record-native-world-build-v2-e2s0dt:worlds/don/Step0_Movement_Scope_Confirmation.md` (132 lines).
+- **The Donatism sibling Step 0**, read via `git show origin/claude/record-native-world-build-v2-e2s0dt:World-Builds/Donatism/Step0_Movement_Scope_Confirmation.md` (132 lines).
 - **The governing launch and process documents:** `Ministry/Operations/Standing/Launch-Prompts/CiC_New_World_Build_Record_Native_Launch_V1_2026-08-01.md` and `Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md`.
 - **Independent historical verification** on: Augustine's *De Baptismo* treatment of Cyprian; the Council of Carthage 419; Hippo Regius's civil vs. ecclesiastical province; the timing of the Felicissimus schism; Cyprian Ep. 67; Augustine's 391 ordination and Valerius's preaching licence; the distribution of the *Sermones ad populum*; Cyprian's episcopal date range; Augustine Ep. 185.
 
@@ -73,7 +73,7 @@ Recorded because this project's reviews document both sides, and because several
 
 **CO-022 failure-mode checks:**
 - **(a) Attribution to "the project lead"/"Mark":** clean. There is no quotation, decision, or instruction attributed to Mark anywhere in the document. (The unsourced "this build's own launch instructions" reference is adjacent to this concern and is logged at M8, but it is not an attribution to the project lead.)
-- **(d) Canonical folder:** clean. `worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md` matches the IJC precedent exactly, `Review-Artifacts/` exists alongside it, and nothing has landed in a thread-local or scratch path.
+- **(d) Canonical folder:** clean. `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_01_World_Identification_Boundaries_Orientation.md` matches the IJC precedent exactly, `Review-Artifacts/` exists alongside it, and nothing has landed in a thread-local or scratch path.
 - **Status line discipline:** clean. "DRAFT — pending independent adversarial review," no disposition claimed, Frozen not claimed, Living Tradition Status honestly PENDING.
 
 **On the honest-acknowledgment question specifically:** §4's paragraph beginning "Honestly named, not smoothed over" is real and does the thing it claims — it concedes that the Donatists claimed Cyprian, and concedes that on baptismal rigor Cyprian's actual position sits closer to theirs than to Augustine's. That concession is not hedged and is to the document's credit. What follows it, however, quietly takes back what it gave (H8).

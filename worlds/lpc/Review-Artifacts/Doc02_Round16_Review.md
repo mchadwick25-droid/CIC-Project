@@ -2,10 +2,10 @@
 ## Round 16 Independent Adversarial Review — scoped to verifying the Round 15 fix pass
 
 **Documents reviewed (committed state — `git status --porcelain` clean at `d3db35a`, "lpc: fix Doc_02 revision per Round 15 independent adversarial review", 2026-09-08 06:20:36 UTC, on branch `claude/record-native-world-build-v2-yq11wl`):**
-- `worlds/lpc/Doc_02_Source_Ecology.md` (157 lines)
-- `worlds/lpc/Source_Registry.md` (329 lines; 212 rows)
-- `worlds/lpc/Source_Acquisition_Manifest.md` (85 lines)
-- `worlds/lpc/lpc_Decision_Log.md` (316 lines)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md` (157 lines)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Registry.md` (329 lines; 212 rows)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Acquisition_Manifest.md` (85 lines)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md` (316 lines)
 - `Doc_01_World_Identification_Boundaries_Orientation.md` (302 lines), for the §5 and §1 cross-document checks
 - `Review-Artifacts/Doc02_Round15_Review.md`, read in full before any other file
 - The vendored files in `cic/texts/` bearing on each finding, `cic/corpus-map/latin-pastoral-congregational-christianity.yaml`, and all 56 atlas files in `cic/corpus-map/`

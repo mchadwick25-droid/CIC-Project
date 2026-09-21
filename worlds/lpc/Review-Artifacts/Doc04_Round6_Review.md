@@ -7,9 +7,9 @@
 
 **Documents reviewed, at commit `27ed339a` (prior state `9fcc001d`), working tree clean:**
 
-- `worlds/lpc/Doc_04_Gravity_Discovery.md`
-- `worlds/lpc/Review-Artifacts/Doc04_Gesta_Targeted_Read_2026-09-14.md` (**second version**, rewritten after `Doc04_Round5_Review.md`)
-- `worlds/lpc/lpc_Decision_Log.md` (both 2026-09-14 entries)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_04_Gravity_Discovery.md`
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Review-Artifacts/Doc04_Gesta_Targeted_Read_2026-09-14.md` (**second version**, rewritten after `Doc04_Round5_Review.md`)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md` (both 2026-09-14 entries)
 
 **Read for context and used as the test standard, not reviewed:** `Doc_01_World_Identification_Boundaries_Orientation.md` §4, §5, §8 items 7 and 10, §9; `Source_Registry.md` row 65; `Doc04_Round5_Review.md`; `L1-Foundation/CiC_L1_Constitution_V2_2.docx` Article 21; `cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt`.
 
