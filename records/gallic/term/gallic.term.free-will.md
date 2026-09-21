@@ -50,7 +50,7 @@ retrieval:
   - whether monks "earned" anything, or what "free will" meant to us
   - participant uses "free will," "choice," "effort," "works," or "human nature"
   - Germanus's question, the "seeds of goodness," or Pelagius
-  do_not_retrieve_when:
+  prefer_instead:
   - grace as such (retrieve grace - the two records are a pair, and this one presupposes that one)
   - predestination as Augustine's word (retrieve predestination)
   - modern philosophical free will (determinism, compatibilism), which is not our question

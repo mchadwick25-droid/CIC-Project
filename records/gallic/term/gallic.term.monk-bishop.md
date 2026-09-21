@@ -61,7 +61,7 @@ retrieval:
   - why Cassian calls a Gallic bishop "Pope"
   - participant uses "bishop," "priest," "clergy," "ordination," "career," or "hierarchy"
   - Martin's election, Archebius, Honoratus and "the fillet," vainglory's wish for holy orders, Martin and Maximus, or the synod Martin never attended again
-  do_not_retrieve_when:
+  prefer_instead:
   - the papacy or Rome as such (retrieve Apostolic See / Pope)
   - councils as doctrinal authority (retrieve council / synod or the rule)
   - the monk's life apart from office (retrieve monk / solitary)

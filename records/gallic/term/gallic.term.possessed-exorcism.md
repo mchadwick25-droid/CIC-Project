@@ -41,7 +41,7 @@ retrieval:
   - why a good monk should not "profess himself an exorcist"
   - participant uses "exorcism," "exorcist," "possessed," "possession," "deliverance"
   - Martin's appointment by Hilary; the possessed hanging in the air; the formula over the oil; Nesteros on exorcists; the married layman's power
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the devil as such (retrieve the devil / demons)
   - the question is about the saint's power generally (retrieve virtus / power)
   - later rites of exorcism

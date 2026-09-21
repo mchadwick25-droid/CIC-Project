@@ -29,7 +29,7 @@ retrieval:
   - why noon was dangerous, or what "the noonday demon" means
   - participant uses "acedia," "sloth," "boredom," "depression," "listlessness," "burnout," or "restlessness"
   - Institutes X, the monk gazing at the sun, the pretext of visiting the sick, or the deserter "entangled in secular business"
-  do_not_retrieve_when:
+  prefer_instead:
   - the general cooling of fervour (retrieve lukewarmness)
   - the list as a whole (retrieve the eight principal faults)
   - clinical depression as a modern category

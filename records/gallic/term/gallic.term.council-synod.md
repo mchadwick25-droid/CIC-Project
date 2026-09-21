@@ -38,7 +38,7 @@ retrieval:
   - why Martin refused to attend synods
   - participant uses "council," "synod," "ecumenical," "bishops meeting," "Ephesus," "Nicaea"
   - Comm. ch. 3 or chs. 29-31; the angel who reported the synod at Nemausus; Saragossa; "never again did he attend a synod"
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the bishop's office (retrieve bishop / the monk-bishop)
   - the question is about the rule's three criteria (retrieve the rule)
   - the question is about the elder's after-supper conference (retrieve conference)

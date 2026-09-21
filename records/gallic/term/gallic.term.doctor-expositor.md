@@ -30,7 +30,7 @@ retrieval:
   - whether a bishop's or martyr's opinion binds
   - participant uses "doctor of the Church," "theologian," "teacher," "expositor," "commentator"
   - Comm. ch. 22, ch. 28; "a private fancy of his own"
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about "the Fathers" as received authority in general (retrieve the Fathers / elders)
   - the question is about the monastic master (retrieve disciple / master)
   - the later title "Doctor of the Church" as a formal honour

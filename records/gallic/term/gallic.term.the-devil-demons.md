@@ -49,7 +49,7 @@ retrieval:
   - how a thought is known to be "from the devil"
   - participant uses "devil," "demon," "Satan," "evil spirit," "temptation," "the enemy"
   - Martin on the road; the devil as Jupiter and Mercury; the Ethiopian; Heron's angel of light; the deathbed "bloody monster"
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about exorcism as a practice (retrieve the possessed / exorcism)
   - the question is about the devil's false appearances as such (retrieve illusion)
   - the devil as a metaphor for psychology - that is the hearing this entry exists to correct

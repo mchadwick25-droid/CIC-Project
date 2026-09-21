@@ -42,7 +42,7 @@ retrieval:
   - why "tradition" mattered so much
   - participant uses "new," "innovation," "tradition," "conservative," "progress," or "old-fashioned"
   - Vincent's title, Stephen's "no innovation," Cassian on dress or a monk's "own inventions," Martin and the false martyr's tomb, or the new morning office
-  do_not_retrieve_when:
+  prefer_instead:
   - the three-part procedure itself (retrieve the rule)
   - who the fathers were (retrieve the Fathers / elders)
   - Vincent's growth-of-the-body analogy specifically (retrieve progress vs. alteration)

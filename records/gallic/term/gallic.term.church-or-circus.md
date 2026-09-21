@@ -46,7 +46,7 @@ retrieval:
   - participant asks whether Christians of that time were really more devout than today
   - participant uses "backsliding," "going through the motions," "church attendance," or "the games"
   - the church emptied and the circus filled; leaving Christ alone on the altar
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about a monk's own interior discipline or fervor - retrieve gallic.term.lukewarmness
   - the question is about persecution or outside hostility to Christians - retrieve gallic.dw.laughed-at-and-reported
   - the participant wants the specific Trier episode - retrieve gallic.story.circuses-amid-the-ruins

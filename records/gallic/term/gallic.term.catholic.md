@@ -48,7 +48,7 @@ retrieval:
   - why Cassian calls a monastic custom "Catholic"
   - participant uses "Catholic," "catholicity," "universal," "orthodox," "the Church"
   - Vincent's definition; "the approved Catholic fathers"; Inst. I.2's "Catholic rule"; the Priscillianists' revolt "from the Catholics"
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the rule itself (retrieve the rule)
   - the question is about the axis of novelty and antiquity (retrieve novelty vs. antiquity)
   - the question is about the Roman see (retrieve Apostolic See / Pope)

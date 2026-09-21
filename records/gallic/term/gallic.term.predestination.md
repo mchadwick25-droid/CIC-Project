@@ -44,7 +44,7 @@ retrieval:
   - what Augustine said the brethren were "in darkness" about
   - participant uses "predestination," "election," "the elect," "double predestination," "determinism," "Calvinist"
   - Conf. XIII.7; Praed. ch. 2; the objection that predestination undercuts exhortation
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the grace teaching itself (retrieve grace (of God))
   - the question is about Augustine's own doctrine in itself (his treatises are context only here)
   - any attempt to source this term from Salvian

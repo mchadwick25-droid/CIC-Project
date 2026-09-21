@@ -47,7 +47,7 @@ retrieval:
   - what "the Vincentian canon" is
   - participant uses "rule," "canon," "tradition," "orthodoxy," "consensus," or "everywhere always by all"
   - Vincent's three tests, the collation of the ancients, Ephesus as the model, or Stephen's "no innovation"
-  do_not_retrieve_when:
+  prefer_instead:
   - a monastic rule - Cassian's received customs (retrieve the customs of the monasteries) or the Rule of Benedict (outside our window)
   - the rule's later career in Anglican, Roman Catholic, or Orthodox argument as such (the encounter should stay inside our own use)
   - novelty as a value in itself (retrieve novelty vs. antiquity)

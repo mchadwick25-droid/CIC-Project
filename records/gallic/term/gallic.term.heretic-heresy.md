@@ -40,7 +40,7 @@ retrieval:
   - why Martin defended the Priscillianists
   - participant uses "heretic," "heresy," "orthodox," "Priscillian," "Arian," "persecution"
   - Vincent's "definite name ... place ... time"; Trier and the sword; Cassian's monk enticed by "grace of style"
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the rule that detects heresy (retrieve the rule)
   - the question is about the specific foil (retrieve Pelagians as foil)
   - Priscillianism's own content - another world's territory
