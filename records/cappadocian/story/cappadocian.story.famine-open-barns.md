@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks what this world believed wealth was for, or how it treated the poor"
   - "participant asks about famine, drought, hoarding, or usury in this world"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks about the poorhouse-hospital complex specifically - that is a later, separate institution (retrieve cappadocian.story.poorhouse-famine-month instead)"
 relations:
 - type: associated-with

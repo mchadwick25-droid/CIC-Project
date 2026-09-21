@@ -29,7 +29,7 @@ retrieval:
   - participant uses "predestination," "election," or "the elect"
   - participant asks why salvation doesn't depend on their own effort or worthiness
   - participant asks whether Zurich and Geneva taught the same thing about God's own choice
-  do_not_retrieve_when:
+  prefer_instead:
   - participant asks generally about God's own providence over ordinary events without reference to salvation
     specifically
 relations:

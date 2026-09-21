@@ -32,7 +32,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - the Turk specifically
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the devil generally (retrieve the devil)
 relations:
 - type: associated-with

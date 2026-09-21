@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   To the one who wants to believe and cannot, or who fears Jesus would want
   nothing to do with them, we answer with our favorite name for him:

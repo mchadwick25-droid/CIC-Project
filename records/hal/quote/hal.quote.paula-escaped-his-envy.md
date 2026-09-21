@@ -51,7 +51,6 @@ retrieval:
   retrieve_when:
   - "participant asks what outsiders made of the relationship at the centre of this circle"
   - "participant asks whether the man was as difficult as his enemies said"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.quote.hindered-by-jerome

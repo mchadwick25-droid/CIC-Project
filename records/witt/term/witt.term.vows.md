@@ -46,7 +46,7 @@ retrieval:
   retrieve_when:
   - vows, or monastic vows
   - whether we condemned monastic life as such
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means chastity specifically (retrieve chastity)
 relations:
 - type: associated-with

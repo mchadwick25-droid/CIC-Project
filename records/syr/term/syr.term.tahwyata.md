@@ -24,7 +24,7 @@ retrieval:
   retrieve_when:
   - participant asks about Aphrahat's writings by name
   - participant asks what kind of text a 'Demonstration' is
-  do_not_retrieve_when:
+  prefer_instead:
   - participant asks about Ephrem's writings - this is Aphrahat's own genre-name, never Ephrem's
 relations:
 - type: associated-with

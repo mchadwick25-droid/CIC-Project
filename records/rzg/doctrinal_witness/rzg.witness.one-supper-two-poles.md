@@ -33,7 +33,6 @@ retrieval:
     this world believed
   - conversation is ready to hold Zwingli's 1523 language and the 1549 Consensus together rather than
     choosing one over the other
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus

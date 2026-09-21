@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks how the emperor came to favour the Christians"
   - "participant asks whether the vision story can be believed"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.vision-and-alliance}
 ---

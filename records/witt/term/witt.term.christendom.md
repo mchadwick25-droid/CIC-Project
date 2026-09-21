@@ -39,7 +39,7 @@ retrieval:
   retrieve_when:
   - Christendom
   - whether Christians outside our own confirmation still count as Christians to us
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means our own local congregation specifically (retrieve congregation)
 relations:
 - type: associated-with

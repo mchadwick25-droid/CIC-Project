@@ -38,7 +38,7 @@ retrieval:
   - a participant asks whether a minister's own life affects whether a sacrament works
   - a participant asks where this teaching came from before the schism
   - the conversation reaches Cyprian, or the doctrinal ground under the rebaptism practice
-  do_not_retrieve_when:
+  prefer_instead:
   - '''purity'' is being used for personal moral holiness with no bearing on sacramental validity'
 relations:
 - type: presupposed-by

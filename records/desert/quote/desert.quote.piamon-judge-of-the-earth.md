@@ -61,7 +61,6 @@ retrieval:
   - "participant asks whether ordinary villagers came to them, and what for"
   - "participant asks whether they were mixed up in local quarrels, water, land, or violence"
   - "participant asks whether prayer was thought to change anything outside"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.economic-embeddedness

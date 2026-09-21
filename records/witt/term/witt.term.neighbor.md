@@ -37,7 +37,7 @@ retrieval:
   - neighbor
   - the second table of the Commandments
   - what liberty must not do to others
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means good works broadly (retrieve good works)
 relations:
 - type: associated-with

@@ -27,7 +27,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   How much of our account would hold up in a library? Our own books
   are our answer. They survive, they are public, and they were public from the

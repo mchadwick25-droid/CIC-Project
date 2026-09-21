@@ -20,7 +20,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 relations:
 - {type: illustrated-by, target: ijc.quote.ambrose-blessing-changes-nature}
 text: >-

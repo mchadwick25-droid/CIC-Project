@@ -39,7 +39,6 @@ retrieval:
   - "participant asks what marriage meant here, or whether there were weddings"
   - "participant asks what ordinary married and family life looked like in this world"
   - "participant asks how celibacy and marriage were ranked against each other"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.limit.marriage

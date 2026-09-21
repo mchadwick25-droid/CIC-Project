@@ -398,3 +398,28 @@ merged into `main`; its title and commit message are not rewritten (shared
 history, per this project's own discipline against rewriting a published
 branch), but every PR, commit, and record from here on says "exclusion
 list," never "safety net," for this mechanism.
+
+**Entry 23 — 2026-09-21.** Stage 4a (part 2, gallic pilot) merged (PR #360,
+commit `8d6d0fc6`): `tools/split_retrieval_guards.py` — splits every
+record's `retrieval.do_not_retrieve_when` into `retrieval.prefer_instead`
+or envelope-level `claim_guards`, via a raw-text line splice (pattern:
+`tools/set_source_kind.py` — never a YAML dumper round-trip, so every
+retained line keeps its own original quoting/wrapping). Classification
+reuses `engine.m4.reports.grounding_fooling_measure`'s own `GUARD_MARKERS`
+keyword set rather than building a fresh Haiku classifier. Build-Plan.md's
+own literal Stage 4a text names "Haiku migration tool"; this is a
+considered substitution, not a silent deviation — `GUARD_MARKERS` is the
+exact classifier Stage 1's own D1 measurement (13 of 714 lines) was run
+against, so reusing it keeps the split accountable to the same number R11
+was actually ruled on, rather than risking a second, independent
+classifier disagreeing with it.
+
+Piloted on gallic first, per the stage's own "gallic first" ordering: 105
+records touched, 0 skipped, and exactly the 5 known guard records
+(Rulings-Pending.md's own R11 entry) land in `claim_guards` — everything
+else becomes `prefer_instead` in place. `python -m engine.m2.cli build
+gallic` + repin (`records/worlds/gallic.yaml`); `retrieval_bench.py`
+byte-identical to the pre-migration baseline (TOTAL 118 qs / 1152 ground /
+9.8 avg / 0 empty); `staleness-check` and `engine.m9.cli check` both
+clean; full suite 516/516. CI green (19/19 checks, 2 correctly skipped by
+path filter).

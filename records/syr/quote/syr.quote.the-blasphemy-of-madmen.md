@@ -37,7 +37,6 @@ retrieval:
   - "participant asks what this world did with its own failures"
   - "participant asks how this community treated Christians who disagreed with it"
   - "participant asks whether the other side of these disputes can still be heard"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.failures

@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - participant asks why this world rejected the Pope's or a council's own authority
   - participant asks what actually settled a doctrinal dispute here
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking specifically about the Zurich Disputation as an event
 relations:
 - type: associated-with

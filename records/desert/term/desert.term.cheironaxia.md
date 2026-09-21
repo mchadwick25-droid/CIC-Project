@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - what people did for work and how they lived
   - questions about money, self-support, or giving to the poor
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.anachoresis

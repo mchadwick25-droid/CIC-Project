@@ -23,7 +23,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - why the incarnation and almsgiving would be linked by the same word
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.eikon

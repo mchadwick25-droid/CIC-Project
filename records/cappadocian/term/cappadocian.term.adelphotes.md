@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - how monastic communities actually formed and were organized
   - women's ascetic communities specifically
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.askesis

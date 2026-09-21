@@ -28,7 +28,6 @@ retrieval:
   retrieve_when:
   - "participant asks about Julian, or a pagan emperor's own case against Christians"
   - "participant asks why classical education mattered to, or was contested for, this world"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.figure.julian

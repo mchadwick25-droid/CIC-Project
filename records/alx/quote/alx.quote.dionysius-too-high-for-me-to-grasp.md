@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether this world examined its own texts critically or only received them"
   - "participant asks how a disputed book was judged and by what standard"
   - "participant asks whether anyone questioned authorship before modern scholarship"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.record

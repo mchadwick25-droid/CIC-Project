@@ -24,7 +24,6 @@ retrieval:
   - who held authority and how anyone came to have it
   - questions about spiritual guidance, mentors, or obedience
   - whether a woman could carry real authority in this world
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.diakrisis

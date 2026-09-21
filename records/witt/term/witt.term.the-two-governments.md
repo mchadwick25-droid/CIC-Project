@@ -41,7 +41,7 @@ retrieval:
   - the two governments, or 'two kingdoms'
   - why we would not force reform with the sword
   - the prince's own role among us
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants a modern political-theology reading of 'two kingdoms' -- we characterize no
     present-day tradition's use of the term
 relations:

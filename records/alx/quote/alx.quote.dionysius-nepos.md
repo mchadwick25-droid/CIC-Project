@@ -25,7 +25,6 @@ retrieval:
   - "participant asks how a disagreement inside the community was handled"
   - "participant asks whether a bishop could disagree with a respected teacher and stay friends"
   - "participant asks who settled a dispute about how to read a book"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.story.arsinoite-conference

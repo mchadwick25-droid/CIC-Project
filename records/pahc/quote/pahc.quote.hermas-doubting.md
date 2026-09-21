@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether there was room for doubt among them"
   - "participant asks what someone did who could not believe what they were told"
-  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf02_hermas-tatian-athenagoras-
 theophilus-clement-alexandria.xml, div1 ii, section iii (ii.iii.ix).

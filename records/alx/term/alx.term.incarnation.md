@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - why God became human, or what the Incarnation was for
   - how the Incarnation connects to theosis or to the Nicene confession
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about the Son's ontological status specifically (retrieve alx.term.son-of-god)
   - asking about Christ's resurrection specifically (retrieve alx.term.anastasis)
 relations: []

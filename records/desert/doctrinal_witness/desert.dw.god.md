@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - "participant asks what this world actually believed about who God or Christ is"
   - "participant asks how God was known or experienced - through argument, or through contemplative stillness"
-  do_not_retrieve_when: []
 text: >-
   Most of us did not argue about God for a living. We were formed to see him.
   But when it mattered, one of us was called on to say plainly what we held:

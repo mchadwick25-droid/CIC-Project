@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether scripture was the only authority here"
   - "participant asks what a person had to know before they could read the Bible well"
   - "participant asks how the creed stood in relation to the Bible"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.term.tomus

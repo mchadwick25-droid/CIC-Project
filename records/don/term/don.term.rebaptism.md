@@ -41,7 +41,7 @@ retrieval:
   - a participant uses 'rebaptism' or 'baptized again', or asks why anyone would need baptism twice
   - a participant asks what the two rival African churches actually fought over
   - the conversation reaches what makes a baptism real, or how someone crosses from one communion to the other
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about baptism as a general Christian rite, with no bearing on the boundary-crossing question
 relations:
 - type: presupposes

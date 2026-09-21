@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Was there room for doubt among us? Our word for the life of
   belief was not certainty but faith. Faith, the sage taught, is a building:

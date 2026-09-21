@@ -24,7 +24,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks directly whether this world baptised infants or only believing adults
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.contested.anabaptist-schism-legitimacy

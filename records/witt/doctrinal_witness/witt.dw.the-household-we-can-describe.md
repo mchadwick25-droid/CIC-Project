@@ -30,7 +30,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks how historians even know about daily life like ours"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks about a specific archaeological site or excavation -- our library engages none"
 text: >-
   If someone dug up the place we met, what would they find? We cannot

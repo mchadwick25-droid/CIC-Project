@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - knowledge/knowing God questions
   - Gnosticism questions
-  do_not_retrieve_when: []
 plain_meaning: 'Knowledge of God: not facts about him, but a knowing that changes the knower.'
 world_word: gnosis
 false_friend:

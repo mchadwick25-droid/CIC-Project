@@ -38,7 +38,7 @@ retrieval:
   - "participant asks whether we would say we were 'born again'"
   - "participant asks what we believed about the end of the world, or anything like the rapture"
   - "participant asks whether, or how, we tithed"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants our own account of any household's actual giving -- our library does not hold one"
 text: >-
   Did we baptize babies, or only adults who chose it for themselves? We

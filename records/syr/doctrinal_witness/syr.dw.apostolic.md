@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   How did we know our practices went back to the apostles? Our own
   answer was a story. Addai the apostle came to Edessa, healed the king, and

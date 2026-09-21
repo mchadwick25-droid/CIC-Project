@@ -26,8 +26,8 @@ retrieval:
   retrieve_when:
   - the Bethlehem communities' shape and organization
   - who led whom at Bethlehem
-  do_not_retrieve_when:
-  - do not supply schedule-level daily detail (not attested)
+claim_guards:
+- do not supply schedule-level daily detail (not attested)
 plain_meaning: The monastery. At Bethlehem it meant two linked houses under one project. Jerome led
   the men's house; Paula, then Eustochium, led the women's.
 world_word: monasterium

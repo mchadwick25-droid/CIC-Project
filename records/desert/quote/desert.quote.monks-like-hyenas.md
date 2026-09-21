@@ -46,7 +46,6 @@ retrieval:
   - "participant asks whether anyone failed, fell away, or lived a double life inside a monastery"
   - "participant asks what the communities said about their own decay or hypocrisy"
   - "participant asks whether these houses ever criticised themselves"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.authority-tension

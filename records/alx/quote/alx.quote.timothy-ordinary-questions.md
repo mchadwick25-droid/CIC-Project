@@ -44,7 +44,6 @@ retrieval:
   - "participant asks about the ordinary problems people brought to a bishop"
   - "participant asks who could receive communion and under what conditions"
   - "participant asks how rules met real situations that the rules did not anticipate"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: alx.gravity.learning-community-tension}
 ---

@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   What did we actually have about Jesus? Inheritance, not memory.
   Three hundred years separated us from Jesus, and no one alive

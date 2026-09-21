@@ -21,7 +21,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks about Strand A's eucharistic practice specifically"
-  do_not_retrieve_when:
+  prefer_instead:
   - "do not blend with pahc.story.justin-sunday-gathering or pahc.story.didache-eucharist"
 relations:
 - type: associated-with

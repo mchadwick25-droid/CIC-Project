@@ -47,7 +47,6 @@ retrieval:
   - "participant asks whether you baptised babies, infants or children, or only adults"
   - "participant asks who could be baptised and at what age"
   - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
-  do_not_retrieve_when: []
 ---
 Added at review (Opus canon-structure pass, 2026-08-21): the prior
 honest_limit for F1-T (ijc.limit.later-questions) claimed this

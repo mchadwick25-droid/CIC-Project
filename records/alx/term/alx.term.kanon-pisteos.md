@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - authority questions
   - Bible-alone translational questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.quote.ecclesiastical-and-apostolical-tradition

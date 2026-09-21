@@ -41,7 +41,7 @@ retrieval:
   - pastor, or preacher
   - clerical marriage
   - what a pastor owes his congregation, and is owed
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means calling as a general concept (retrieve calling)
 relations:
 - type: associated-with

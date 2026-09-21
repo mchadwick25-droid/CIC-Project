@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - what a bishop's role is, or what grounds episcopal authority here
   - Athanasius as a formation figure, or the bishop's relationship to the Eucharist
-  do_not_retrieve_when:
+  prefer_instead:
   - asking primarily about the teacher's formation function (retrieve alx.term.didaskalos)
   - asking about the Eucharist's own formation function rather than who presides at it
 relations:

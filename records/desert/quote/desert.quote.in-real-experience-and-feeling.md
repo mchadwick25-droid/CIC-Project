@@ -27,7 +27,6 @@ retrieval:
   - "participant says they have never felt anything of God"
   - "participant asks who or what the Holy Spirit was to this world"
   - "participant asks whether God can be felt, or whether faith should feel like anything"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.the-heart-and-the-spirit

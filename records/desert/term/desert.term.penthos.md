@@ -22,7 +22,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - questions about tears, sorrow over sin, or compunction
-  do_not_retrieve_when:
+  prefer_instead:
   - a participant disclosing their own present grief or depression - that is the safety layer's ground first, and this term is never offered as a prescription
 relations:
 - type: associated-with

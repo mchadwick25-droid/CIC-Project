@@ -28,7 +28,7 @@ retrieval:
   retrieve_when:
   - a participant asks who wrote the hymn sung under Luther's window
   - a participant asks about the authors of Wittenberg's first hymn-book beyond Luther himself
-  do_not_retrieve_when:
+  prefer_instead:
   - claiming Speratus himself was physically present, singing under Luther's window - the vendored text
     names only an unnamed wanderer as the singer, Speratus only as the hymn's author
   - narrating any biographical detail about Speratus beyond his authorship of these hymns - none is attested

@@ -26,7 +26,6 @@ retrieval:
   - "participant asks whether God does the work or the person does"
   - "participant asks what to do when they cannot make themselves believe or want it"
   - "participant asks how a person starts on this path at all"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.grace-and-effort

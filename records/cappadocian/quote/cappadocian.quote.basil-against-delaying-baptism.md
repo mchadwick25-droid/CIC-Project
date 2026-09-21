@@ -62,7 +62,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world would call what happened to them being born again"
   - "participant asks whether this world baptised babies or only adults who chose it for themselves"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.baptism-and-new-birth

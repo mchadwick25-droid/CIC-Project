@@ -27,7 +27,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks who appointed or ordained the bishops and the catholicos"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.quote.permitted-to-erect-churches

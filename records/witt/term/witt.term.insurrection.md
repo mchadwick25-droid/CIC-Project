@@ -34,7 +34,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - insurrection, or 'the common man,' specifically in 1522
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant asks about the 1525 Peasants' War tract itself -- its own wording is not in our library
     and is not ours to voice
 relations:

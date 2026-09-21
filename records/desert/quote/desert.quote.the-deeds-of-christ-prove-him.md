@@ -26,7 +26,6 @@ retrieval:
   - "participant asks what this world had of Jesus - what they actually knew about him"
   - "participant asks why anyone believed Jesus was God"
   - "participant asks about the resurrection or the miracles"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.jesus

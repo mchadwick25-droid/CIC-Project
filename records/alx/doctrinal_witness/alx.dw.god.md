@@ -24,7 +24,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   What did we believe about God? One God, the maker of all things. He
   is good, and beyond every image and every clever description. And he is

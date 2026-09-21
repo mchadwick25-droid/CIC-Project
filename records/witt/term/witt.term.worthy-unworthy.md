@@ -32,7 +32,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - worthiness, or examination before the Sacrament
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the household's own weekly examination generally, apart from the Sacrament (retrieve
     household)
 relations:

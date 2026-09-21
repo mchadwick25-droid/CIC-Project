@@ -51,7 +51,6 @@ retrieval:
   retrieve_when:
   - "participant asks what it was actually like to be in the room during the gathering"
   - "participant asks what the word for their weekly gathering meant or where it came from"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.term.synaxis}
 ---

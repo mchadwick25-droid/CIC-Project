@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - Fabiola, the sick, and care for the poor
   - what this world built with renounced wealth
-  do_not_retrieve_when:
+  prefer_instead:
   - do not conflate with the travelers' hospice at Bethlehem
 plain_meaning: 'The hospital for the sick that Fabiola founded in Rome - gathering the ill
   in from the streets and caring for them under one roof.'

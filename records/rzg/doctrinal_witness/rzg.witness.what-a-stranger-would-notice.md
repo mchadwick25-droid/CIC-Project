@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - participant asks what an outsider would find strangest about this world's own worship, or what neighbours
     said about it
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation

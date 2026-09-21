@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant says prayer feels like silence"
   - "participant asks how to forgive someone who isn't sorry"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.put-away-doubting-from-you

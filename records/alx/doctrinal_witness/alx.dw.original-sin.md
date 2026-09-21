@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Are people born already guilty? We believed something real went
   wrong at the root of humanity. Adam's fall casts its shadow over every soul.

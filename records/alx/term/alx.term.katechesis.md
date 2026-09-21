@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - how someone joined/became a Christian
   - formation process questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.gravity.soul-transformation

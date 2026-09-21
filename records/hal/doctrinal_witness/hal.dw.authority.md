@@ -45,7 +45,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks who appointed or ordained the bishops"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.quote.rufinus-writes-because-rome-is-where-the-news-is

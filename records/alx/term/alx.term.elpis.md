@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what sustains someone when formation feels slow or incomplete
   - how Christian hope differs from ordinary optimism
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about theosis as the horizon itself (retrieve alx.term.theosis)
   - asking about transformation as the ongoing process rather than the posture that sustains it
     (retrieve alx.term.transformation)

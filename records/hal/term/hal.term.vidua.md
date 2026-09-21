@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - the widowed women's path - Paula, Marcella, Fabiola
   - remarriage pressure and its refusal
-  do_not_retrieve_when: []
 plain_meaning: A Christian widow who refuses to remarry and takes up a strict, devout life. This
   was the path of Paula, Marcella, and Fabiola.
 world_word: vidua

@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they believed happened after death"
   - "participant asks what they hoped for and what they feared"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Homily on Our Lord).
 

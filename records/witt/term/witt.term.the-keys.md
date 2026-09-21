@@ -38,7 +38,7 @@ retrieval:
   retrieve_when:
   - the keys, or the power of the keys
   - who holds the authority to forgive sins among us
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means confession's own two parts (retrieve confession/absolution)
 relations:
 - type: associated-with

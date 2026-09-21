@@ -26,7 +26,6 @@ retrieval:
   - "participant asks who Jesus was, or what this world held about him"
   - "participant asks what the incarnation meant, or why God became man"
   - "participant asks what Jesus saves people from or saves them for"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.jesus

@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - participant asks whether Zwingli's own death at Kappel was a sought martyrdom, or presses the 'death
     wish' framing directly
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.story.myconius-account-of-zwinglis-death

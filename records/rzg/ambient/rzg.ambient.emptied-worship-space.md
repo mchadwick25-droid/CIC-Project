@@ -20,7 +20,6 @@ sources:
 retrieval:
   tier: 3
   retrieve_when: []
-  do_not_retrieve_when: []
 relations: []
 detail: By most accounts, the Grossmunster's own organ at Zurich fell silent in the mid-1520s, and no
   voice or instrument answered it in worship for years after. Where an altar once stood, our own churches

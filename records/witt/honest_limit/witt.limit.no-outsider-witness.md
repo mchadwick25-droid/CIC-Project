@@ -31,7 +31,7 @@ retrieval:
   - "participant asks whether Constantine corrupted the church, or whether empire changed what we were"
   - "participant asks what an outsider would have found strangest about us"
   - "participant asks what our neighbours said about us, or what we were accused of"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants our own confessional self-definition of the Church -- retrieve witt.dw.one-holy-church-forever instead, which states our own position rather than an outsider's view of us"
 statement: >-
   Were we really hiding in the catacombs? That question belongs to a

@@ -34,7 +34,7 @@ retrieval:
   retrieve_when:
   - a participant asks about those who suffered for the faith and survived
   - a participant asks what a confessor was, as distinct from a martyr
-  do_not_retrieve_when:
+  prefer_instead:
   - '''confessor'' is being used in the later sense of a priest who hears confession'
 relations:
 - type: associated-with

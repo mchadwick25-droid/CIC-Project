@@ -33,7 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether wanting to die for the faith was healthy or a death wish"
   - "participant asks whether they ever thought someone went looking for martyrdom too eagerly"
-  do_not_retrieve_when: []
 ---
 The world's own answer to the 'martyrdom is a death wish' charge (F6-E):
 its greatest teacher CENSURED rushing on death - witness is not

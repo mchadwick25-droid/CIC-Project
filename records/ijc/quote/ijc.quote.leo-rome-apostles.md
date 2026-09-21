@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks what Rome claimed for itself and on what grounds"
   - "participant asks why Peter and Paul mattered to that claim"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}

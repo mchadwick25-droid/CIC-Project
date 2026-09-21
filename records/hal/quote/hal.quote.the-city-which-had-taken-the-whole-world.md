@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether there was a moment everything changed for these people"
   - "participant asks what the fall of Rome meant to this world"
   - "participant asks how this world would describe being made new"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.practices

@@ -19,7 +19,6 @@ sources:
 retrieval:
   tier: 3
   retrieve_when: []
-  do_not_retrieve_when: []
 relations: []
 detail: 'In many towns of Roman North Africa, two churches stood where most towns elsewhere had one: one
   congregation gathered under a bishop of our own communion, another under a bishop of the rival, sometimes

@@ -36,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether a ruler could be refused communion"
   - "participant asks how a bishop disciplined someone more powerful than himself"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.emperor-penance}
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}

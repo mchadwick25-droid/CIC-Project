@@ -31,7 +31,7 @@ retrieval:
   retrieve_when:
   - elders, presbyters, the council of elders, church leadership
   - Polycarp's self-designation
-  do_not_retrieve_when:
+  prefer_instead:
   - priestly ordination in a later sacramental sense with no connection to this period
 relations:
 - type: associated-with

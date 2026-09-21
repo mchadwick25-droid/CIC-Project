@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - the sack of Rome as this world lived it
   - Marcella's end
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.force.sack-of-rome

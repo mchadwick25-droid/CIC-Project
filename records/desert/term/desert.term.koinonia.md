@@ -28,7 +28,7 @@ retrieval:
   retrieve_when:
   - questions about the organized communities, their rule, and their offices
   - how authority worked in the Pachomian houses
-  do_not_retrieve_when:
+  prefer_instead:
   - questions about the solitary or semi-solitary life - this term is the Pachomian federation's own name for its own institution, not the whole world's
 relations:
 - type: associated-with

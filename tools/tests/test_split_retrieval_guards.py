@@ -1,7 +1,8 @@
-"""Stage 4a (part 2), R11: pins split_retrieval_guards.split_frontmatter's
+"""Stage 4a (parts 2-3), R11: pins split_retrieval_guards.split_frontmatter's
 raw-text splice against constructed examples first (exact line shape, not
-just parsed content), then checks the real gallic pilot's counts match the
-5 guard records Stage 1's own D1 measurement already named."""
+just parsed content), then checks the real fleet-wide migration's counts
+match the 5 guard records Stage 1's own D1 measurement already named, and
+that all 11 built worlds are genuinely done."""
 from pathlib import Path
 
 import yaml
@@ -133,12 +134,16 @@ def test_migrate_world_finds_nothing_left_to_do_on_the_already_migrated_gallic()
     assert migrate_world("gallic", dry_run=True) == []
 
 
-def test_every_rewritten_don_frontmatter_still_parses_as_valid_yaml():
-    """don is not migrated yet (gallic is still the only pilot world) - a
-    dry pass over its real do_not_retrieve_when records is exactly the
-    check to run before the next world's own real migration."""
+def test_every_rewritten_fix_frontmatter_still_parses_as_valid_yaml():
+    """fix (the fixture world used by the M1 gate battery selftest) is
+    deliberately out of scope for the real fleet migration - it is not one
+    of the 11 built worlds Build-Plan.md and Decision-Log.md's own "714
+    lines fleet-wide" count ever refers to - so it stays real,
+    do_not_retrieve_when-bearing, and permanently unmigrated. A durable
+    dry-run target for this shape check, unlike a real fleet world (all 11
+    are migrated for real as of this stage)."""
     touched = 0
-    for path in sorted((REPO_ROOT / "records" / "don").glob("*/*.md")):
+    for path in sorted((REPO_ROOT / "records" / "fix").glob("*/*.md")):
         text = path.read_text(encoding="utf-8")
         m = _FRONTMATTER.match(text)
         if not m or "do_not_retrieve_when:" not in m.group(1):
@@ -150,4 +155,14 @@ def test_every_rewritten_don_frontmatter_still_parses_as_valid_yaml():
         doc = yaml.safe_load(new_fm)
         assert isinstance(doc, dict)
         assert "do_not_retrieve_when" not in (doc.get("retrieval") or {})
-    assert touched > 0  # don genuinely has do_not_retrieve_when records to check against
+    assert touched > 0  # fix genuinely has do_not_retrieve_when records to check against
+
+
+_FLEET_WORLDS = ("alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "rzg", "syr", "witt")
+
+
+def test_the_whole_fleet_is_migrated_with_nothing_left_to_do():
+    for world in _FLEET_WORLDS:
+        assert migrate_world(world, dry_run=True) == [], world
+        for path in sorted((REPO_ROOT / "records" / world).glob("*/*.md")):
+            assert "do_not_retrieve_when:" not in path.read_text(encoding="utf-8"), path

@@ -30,7 +30,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - perfection, or 'evangelical counsels'
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means vows specifically (retrieve vows)
 relations:
 - type: associated-with

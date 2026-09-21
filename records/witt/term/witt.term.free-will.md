@@ -36,7 +36,7 @@ retrieval:
   retrieve_when:
   - free will, or bondage of the will
   - the Erasmus debate
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means predestination as a separate question, which our library does not develop
 relations:
 - type: associated-with

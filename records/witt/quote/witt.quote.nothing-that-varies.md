@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - "participant asks how we know our own practices go back to the apostles, or are not later inventions"
   - "participant asks whether we broke with the ancient Church or only with certain abuses"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants a specific practice defended point by point -- this is the Confession's own summary claim, not an item-by-item case"
 text: >-
   Nor has anything been here said

@@ -37,7 +37,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they kept their mind from wandering"
   - "participant asks what they did about distraction, boredom, or a restless head during prayer"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---

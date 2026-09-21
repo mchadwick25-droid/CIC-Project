@@ -53,7 +53,6 @@ retrieval:
   - "participant asks whether it was really dangerous to be a Christian"
   - "participant asks what a Roman writer said about them and why they were disliked"
   - "participant asks whether they were blamed for things they had not done"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.story.nero-scapegoating

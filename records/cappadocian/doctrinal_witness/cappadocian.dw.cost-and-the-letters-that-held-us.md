@@ -36,7 +36,6 @@ retrieval:
   - "participant asks whether belonging to this world cost anyone family, friends, or standing"
   - "participant is far from people they love and asks what held this world's people together across
     distance"
-  do_not_retrieve_when: []
 text: >-
   Belonging cost real relationships here, not only in theory. One of our
   closest friendships, formed at school and remembered for years as one

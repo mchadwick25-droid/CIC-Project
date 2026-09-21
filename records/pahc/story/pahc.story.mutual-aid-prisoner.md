@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - "participant asks how communities supported members under legal threat or imprisonment"
   - "participant asks what outside, even hostile, evidence exists for internal community solidarity"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks specifically about 'Peregrinus' as a figure - this story does not narrate him as protagonist"
 relations: []
 narrative_tier: 4

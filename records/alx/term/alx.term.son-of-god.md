@@ -33,7 +33,7 @@ retrieval:
   - Son of God or the Son used in a theological sense, or asked whether Jesus was God or only close to
     God
   - what was at stake at Nicaea, or why the Son's status matters for theosis
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about Christ as the Anointed rather than the Son's ontological status (retrieve alx.term.christ)
   - asking about the Son's speech-character in creation and Scripture (retrieve alx.term.word-of-god)
 relations:

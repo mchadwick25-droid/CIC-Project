@@ -40,7 +40,7 @@ retrieval:
   - indulgence, pardon, or 'letters of pardon'
   - whether we still sell or believe in indulgences
   - the Ninety-Five Theses' own target
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means purgatory itself (retrieve purgatory)
   - the participant means merit or satisfaction generally (retrieve merit or satisfaction)
 relations:

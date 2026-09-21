@@ -27,7 +27,6 @@ retrieval:
   retrieve_when:
   - the specific word 'unbegotten' and why it mattered
   - Eunomius' own claim, as opposed to his opponents' summary of it
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.akatalepsia

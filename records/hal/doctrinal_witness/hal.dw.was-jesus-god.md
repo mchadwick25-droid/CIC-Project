@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Was Jesus God? To us it would be strange to hear that asked as an
   open question. We were born after the great council had settled it, and we

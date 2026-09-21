@@ -27,7 +27,7 @@ retrieval:
   - a participant asks who helped Luther set the German Mass to music
   - a participant asks whether any account of Wittenberg's worship survives from someone other than Luther
     himself
-  do_not_retrieve_when:
+  prefer_instead:
   - presenting Walter's own words as an unmediated, contemporaneous eyewitness account - the three-hand
     transmission chain must be named
 names:

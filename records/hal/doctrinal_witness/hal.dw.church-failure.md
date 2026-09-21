@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Our failures are not hidden in our record. They are most of it.
   Our churches had clergy who chased money and reputation, and we

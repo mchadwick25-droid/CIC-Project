@@ -36,7 +36,7 @@ retrieval:
   retrieve_when:
   - merit, or meritum congrui/condigni
   - what earns grace, if anything
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means satisfaction specifically (retrieve satisfaction)
 relations:
 - type: associated-with

@@ -36,7 +36,6 @@ retrieval:
   - "participant asks what the bread and cup meant to these people"
   - "participant asks whether this was communion or the eucharist as we know it"
   - "participant asks about transubstantiation or the real presence"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.term.eucharistia

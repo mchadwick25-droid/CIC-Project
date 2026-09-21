@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether they were persecuted and how they made sense of it"
   - "participant asks how they read their own suffering against the scriptures"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: syr.gravity.persecution-endurance

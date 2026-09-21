@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks when it stopped being illegal and what changed"
   - "participant asks what the law actually said"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 ---

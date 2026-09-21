@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they ranked the books they read"
   - "participant asks what they looked for in a gospel"
-  do_not_retrieve_when: []
 ---
 How the tradition ranked what it read: all Scripture, the Gospels its
 firstfruits, John the firstfruits of the Gospels. Verified verbatim.

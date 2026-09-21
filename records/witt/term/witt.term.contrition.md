@@ -32,7 +32,7 @@ retrieval:
   retrieve_when:
   - contrition or attrition
   - whether feeling sorry enough is what matters
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means repentance's whole shape (retrieve repentance)
 relations:
 - type: associated-with

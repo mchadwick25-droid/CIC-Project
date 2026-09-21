@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - catechesis, moral teaching, preparation for baptism
   - the Didache's opening chapters
-  do_not_retrieve_when:
+  prefer_instead:
   - a modern catechesis program with no connection to this period
 relations:
 - type: associated-with

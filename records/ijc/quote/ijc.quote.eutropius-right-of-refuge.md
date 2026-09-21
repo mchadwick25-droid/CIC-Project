@@ -40,7 +40,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether the church sheltered people the state wanted"
   - "participant asks what happened to a fallen official who fled to the altar"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.quote.no-power-but-of-god

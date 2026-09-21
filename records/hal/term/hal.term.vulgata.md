@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - the translation project, its stages, its reception
   - questions assuming "the Vulgate" as a finished standard text
-  do_not_retrieve_when: []
 plain_meaning: Jerome's decades-long labor of translating and correcting the Latin Bible. In our own
   time it had no settled name yet - not "the Vulgate."
 world_word: the translation labor (later called the Vulgata)

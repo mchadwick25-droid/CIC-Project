@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks who people went to when they disagreed about a text"
   - "participant asks whether a woman held any recognised authority"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 127 sec. 7).
 THE sole attestation of Marcella's post-385 standing - Documented as

@@ -44,7 +44,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world believed the Bible was the only authority"
   - "participant asks how a bishop could defend a change to a prayer that wasn't written down anywhere"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.unwritten-carries-too

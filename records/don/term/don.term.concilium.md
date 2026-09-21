@@ -37,7 +37,7 @@ retrieval:
   retrieve_when:
   - a participant asks how disputes inside this communion were settled
   - a participant asks about Cebarsussi or Bagai
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the ecumenical councils of the same century
 relations:
 - type: enabled-by

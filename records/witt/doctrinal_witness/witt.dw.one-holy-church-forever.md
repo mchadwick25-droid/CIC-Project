@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether our church was 'Catholic,' or whether there is a church today they could visit that's ours"
   - "participant asks whether we had denominations, or how we handled other communities who called on Christ differently"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants our own felt account of the argument at Marburg -- our library states our position, not what that dispute felt like from inside"
 text: >-
   Was our church "Catholic"? In the sense you likely mean the word --

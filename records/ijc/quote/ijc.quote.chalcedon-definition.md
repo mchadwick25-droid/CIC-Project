@@ -34,7 +34,6 @@ retrieval:
   retrieve_when:
   - "participant asks what the councils actually decided about Jesus"
   - "participant asks how they put together his being God and being human"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 ---

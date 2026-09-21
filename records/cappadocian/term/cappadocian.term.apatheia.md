@@ -25,7 +25,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - controlling emotion, grief, or whether ascetic discipline means suppressing feeling
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.askesis

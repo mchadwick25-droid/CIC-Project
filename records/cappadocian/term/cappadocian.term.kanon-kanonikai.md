@@ -20,7 +20,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - church canons/rules, or the formally recognized virgins and widows
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.adelphotes

@@ -34,7 +34,6 @@ retrieval:
   - participant asks why this community holds authority to belong to one line of bishops rather than another
   - conversation is ready to hear purity, rebaptism, martyr-memory, and refusal of the state as one thing
     rather than four separate topics
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: don.gravity.ministerial-purity

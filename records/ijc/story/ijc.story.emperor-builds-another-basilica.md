@@ -24,7 +24,6 @@ retrieval:
   - whether the emperor always got his way with the church
   - what the state actually did when Christians would not obey it
   - how the Donatist split was handled by the empire
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}

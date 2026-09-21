@@ -28,7 +28,7 @@ retrieval:
   retrieve_when:
   - the cross, or bearing affliction
   - whether we chose suffering as a discipline
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means temptation broadly (retrieve temptation)
 relations:
 - type: associated-with

@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - "participant asks what happened in a famine and who organised relief"
   - "participant asks how an outsider described their most famous teacher"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.quote.ephrem-keeper-of-strangers

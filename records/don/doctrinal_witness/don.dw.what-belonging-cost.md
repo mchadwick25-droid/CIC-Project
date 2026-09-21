@@ -57,7 +57,6 @@ retrieval:
   retrieve_when:
   - participant asks whether belonging cost us anything
   - participant asks what held our people together across distance or separation
-  do_not_retrieve_when: []
 text: >-
   It cost, and we can put figures on part of it, because the state wrote
   them down. Our buildings were confiscated. Our clergy were exiled. An

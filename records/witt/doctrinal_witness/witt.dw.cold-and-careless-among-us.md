@@ -28,7 +28,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks whether the people who taught us the faith turned out to be hypocrites"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks what our people would have made of someone like the participant specifically -- retrieve witt.demo.someone-like-me instead, the identity-collision content this record does not repeat"
   - "participant means whether a woman could carry real authority among us -- our record does not answer that honestly beyond a single question, per witt.voice.craft's own declined-cells reasoning"
 text: >-

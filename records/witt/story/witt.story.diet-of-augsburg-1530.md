@@ -26,7 +26,7 @@ retrieval:
   - a participant asks how the movement confessed itself institutionally, or what happened at Augsburg
     in 1530
   - a participant asks who signed the Augsburg Confession, or why
-  do_not_retrieve_when:
+  prefer_instead:
   - personalizing it as one figure's own drama - it is a signed, corporate act, and Luther himself was
     not among its signatories in this library's own record
   - a participant wants a village congregation's own experience of the confession - no such account survives

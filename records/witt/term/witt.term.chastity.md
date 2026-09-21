@@ -33,7 +33,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - chastity, or celibacy
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means vows generally (retrieve vows)
 relations:
 - type: associated-with

@@ -26,7 +26,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - shrine festivals, pilgrimage, or the countryside's religious calendar
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.martys-martyrion

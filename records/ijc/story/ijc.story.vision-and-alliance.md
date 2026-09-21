@@ -24,7 +24,7 @@ retrieval:
   - how this world's alliance with imperial power began
   - Constantine's conversion
   - the Milvian Bridge or the Edict of Milan
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant asks specifically about Lactantius's differently-detailed account (the dream story instead, or both together if the divergence itself is the question)
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}

@@ -32,7 +32,7 @@ retrieval:
   retrieve_when:
   - what an ordinary act of worship actually looked like; how vow, choir, hymn, and Gospel fit together
     in practice
-  do_not_retrieve_when:
+  prefer_instead:
   - a specific named historical worship event (this is typical/composite)
   - post-363 Edessa or the Persian side specifically (the calendar detail does not travel)
 relations:

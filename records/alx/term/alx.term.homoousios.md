@@ -28,7 +28,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - Trinity/council questions
-  do_not_retrieve_when:
+  prefer_instead:
   - pre-Nicene contexts - the word does not exist yet
 relations:
 - type: associated-with

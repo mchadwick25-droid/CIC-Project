@@ -58,7 +58,6 @@ retrieval:
   retrieve_when:
   - "participant asks who Jesus was to this world, or what mattered most about him"
   - "participant asks what the good news actually was here, or what his death and resurrection meant"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.who-was-jesus

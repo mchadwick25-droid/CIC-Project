@@ -52,7 +52,6 @@ retrieval:
   retrieve_when:
   - "participant asks what an ordinary workday actually looked like, hour by hour, among this world's ascetics"
   - "participant asks whether manual labor and prayer competed with each other or how the two actually fit together"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.ordinary-day

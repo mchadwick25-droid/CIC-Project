@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what was strangest or hardest to believe about these people"
   - "participant asks what they actually gave up to live this way"
   - "participant asks whether they were poor to begin with"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.strangest

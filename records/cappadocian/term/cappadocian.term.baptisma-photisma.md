@@ -23,7 +23,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - baptism, delay of baptism, or the words used at baptism
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.doxologia

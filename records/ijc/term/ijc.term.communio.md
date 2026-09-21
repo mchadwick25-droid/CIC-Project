@@ -28,7 +28,7 @@ retrieval:
   - what "excommunicated" or "in communion" meant in this world
   - how a bishop's authority was actually enforced
   - a specific dispute's mechanics (Damasus and Ursinus, the Canon 28 refusal, the exclusion of an emperor)
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the Eucharist as sacramental rite rather than communion as standing with a see
 relations:
 - {type: associated-with, target: ijc.term.primatus}

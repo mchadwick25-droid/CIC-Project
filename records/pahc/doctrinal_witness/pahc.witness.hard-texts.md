@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant says they find scripture confusing or boring"
   - "participant says violence in scripture troubles them"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.two-ways-one-of-life-and-one-of-death

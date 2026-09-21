@@ -31,7 +31,7 @@ retrieval:
   - Canon 3 of 381 or Canon 28 of 451
   - why a see's importance would follow the emperor's residence
   - the dispute at Chalcedon over rank
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is really about Rome's differently-grounded claim (primatus instead)
 relations:
 - {type: associated-with, target: ijc.term.primatus}

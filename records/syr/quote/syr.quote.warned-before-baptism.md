@@ -40,7 +40,6 @@ retrieval:
   - "participant asks whether babies were baptised or only adults who chose it"
   - "participant asks what baptism actually required of a person here"
   - "participant asks whether they would call what happened to them being born again"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.born-again-endtimes

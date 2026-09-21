@@ -36,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks where a beginner started and what came next"
   - "participant asks whether there were stages, and what the whole thing was aiming at"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---

@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks how Christians in different countries related to one another"
   - "participant asks what held people together across such distances and customs"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Book of the Laws of Divers Countries, ANF 8).
 COMPARANDUM DISCIPLINE: the words stand in the dialogue Philip

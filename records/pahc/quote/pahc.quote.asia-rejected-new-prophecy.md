@@ -47,7 +47,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether other Christian groups besides this one were considered dangerous or false"
   - "participant asks how disputes with rival Christian movements were actually settled"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks specifically about the docetic controversy - this passage does not address it"
 relations:
 - {type: illustrates, target: pahc.gravity.boundary-drawing}

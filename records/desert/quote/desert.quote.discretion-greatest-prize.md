@@ -37,7 +37,6 @@ retrieval:
   - "participant asks how anyone judged what was right when the rules ran out"
   - "participant asks whether it was possible to go too far in this life"
   - "participant asks who decided how much was enough"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.diakrisis}
 ---

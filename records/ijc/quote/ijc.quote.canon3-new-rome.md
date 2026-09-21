@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - "participant asks how the great cities ranked against each other"
   - "participant asks what difference it made that the capital moved"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
 ---

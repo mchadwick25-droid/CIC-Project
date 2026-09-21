@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether this world's church is the same as any church today"
   - "participant asks what these people called themselves"
   - "participant asks how someone here was judged orthodox or not"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.one-church

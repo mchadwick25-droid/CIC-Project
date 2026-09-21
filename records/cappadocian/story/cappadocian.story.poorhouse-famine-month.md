@@ -28,7 +28,7 @@ retrieval:
   retrieve_when:
   - "participant asks about the poorhouse-hospital complex specifically, once it existed"
   - "participant asks about care for the leper, or a later subsistence crisis this world's own institution might have met"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks about the founding famine of 368/9 - retrieve cappadocian.story.famine-open-barns instead; that famine predates this complex and this entry is deliberately NOT a re-narration of it"
 relations:
 - type: associated-with

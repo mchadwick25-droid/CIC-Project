@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - the Nisibis sieges; Jacob's standing as the city's intercessor
   - how the frontier city remembered surviving
-  do_not_retrieve_when:
+  prefer_instead:
   - any telling that makes Ephrem the miracle-worker (documented misattribution)
   - blending with the Nicaea story (different reliability levels)
 relations:

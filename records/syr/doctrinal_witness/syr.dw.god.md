@@ -29,7 +29,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   We believed in one God, maker of all things, good and just in the
   same person. And we believed this out loud, against neighbors who taught

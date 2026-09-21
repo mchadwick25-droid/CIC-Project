@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks what a formed life looks like when tested to its limit"
   - "participant asks about martyrdom as an ideal within this tradition"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs this presented as verified historical reporting of specific events"
   - "participant is in a state where martyrdom content requires particular pastoral caution"
 relations:

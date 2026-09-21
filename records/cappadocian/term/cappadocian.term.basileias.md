@@ -37,7 +37,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - the poorhouse complex specifically, or institutionalized care for the poor and sick
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.koinonia

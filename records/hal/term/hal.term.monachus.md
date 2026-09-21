@@ -21,7 +21,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - the men of the monastic communities generally
-  do_not_retrieve_when: []
 plain_meaning: 'The ordinary word for a male ascetic - a monk.'
 world_word: monachus
 false_friend: []

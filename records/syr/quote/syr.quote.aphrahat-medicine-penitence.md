@@ -37,7 +37,6 @@ retrieval:
   - "participant asks what happened to someone who fell and wanted to come back"
   - "participant asks whether sin was treated as a wound to be healed or a crime to be punished"
   - "participant asks who a person confessed to and what followed"
-  do_not_retrieve_when: []
 ---
 Verified verbatim against the vendored Hallock text (Dem VII.2).
 

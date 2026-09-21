@@ -35,7 +35,7 @@ retrieval:
   retrieve_when:
   - calling, or 'regularly called'
   - whether any station is holier than another
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means office as a structural term rather than calling as vocation (retrieve office)
 relations:
 - type: associated-with

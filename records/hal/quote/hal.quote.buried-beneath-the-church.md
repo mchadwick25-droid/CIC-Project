@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what would be found if this place were dug up today"
   - "participant asks what physically survives of this community"
   - "participant asks what languages were spoken among these people"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.limit.f5-material-remains

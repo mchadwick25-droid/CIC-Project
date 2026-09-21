@@ -21,7 +21,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world traced an unbroken line back to the apostles"
   - "participant asks where this world's own practice actually came from - invented, or inherited"
-  do_not_retrieve_when: []
 text: >-
   We did not claim an unbroken line back to the apostles for our way of life,
   the way some claim it for an office or a rite. What we can honestly say is

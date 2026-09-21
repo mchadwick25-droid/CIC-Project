@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - how the translation work was actually done
   - scholarly work as daily labor
-  do_not_retrieve_when:
+  prefer_instead:
   - never as a specific attested episode - this is typical practice, one man's
 relations:
 - type: illustrates

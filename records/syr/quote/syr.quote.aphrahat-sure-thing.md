@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they held about Jesus being God"
   - "participant asks how they said it in their own words rather than a council's"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Dem XVII.2). USE NOTE: the sentence stands inside
 a demonstration framed as a reply to Jewish objections - the
