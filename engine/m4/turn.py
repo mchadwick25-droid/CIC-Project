@@ -48,6 +48,7 @@ placed on TurnResult.voice_event. When a real per-token transport is
 built, sentence-gating moves into that layer; the check itself does not
 change.
 """
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 
 from engine.m1.loader import load_fleet_records
@@ -117,10 +118,20 @@ def run_gate(
     engine.m5.safety_accumulation's own module docstring)."""
     usage_records: list[UsageRecord] = []
 
-    safety_outcome = live_calls.call_safety(safety_client, safety_model_id, message=participant_message, recent_window=[], accumulator={})
+    # Concurrent, not sequential (Build-Plan.md Stage 0a): the two calls
+    # share no state and the httpx-based Bedrock SDK client is thread-safe,
+    # so there is nothing to serialize here. Submitted together, then
+    # resolved in the same fixed order (safety, reader) the rest of this
+    # function - and usage_records - has always assumed, regardless of
+    # which future actually completes first.
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        safety_future = pool.submit(live_calls.call_safety, safety_client, safety_model_id, message=participant_message, recent_window=[], accumulator={})
+        reader_future = pool.submit(live_calls.call_reader, safety_client, safety_model_id, message=participant_message)
+        safety_outcome = safety_future.result()
+        reader_outcome = reader_future.result()
+
     if rec := _maybe_record_usage(safety_outcome, session_id=session_id, call_kind="safety_call", model_id=safety_model_id):
         usage_records.append(rec)
-    reader_outcome = live_calls.call_reader(safety_client, safety_model_id, message=participant_message)
     if rec := _maybe_record_usage(reader_outcome, session_id=session_id, call_kind="reader_call", model_id=safety_model_id):
         usage_records.append(rec)
 
