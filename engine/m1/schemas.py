@@ -89,6 +89,13 @@ _RETRIEVAL_SCHEMA = {
         # alone, with no separate hand rule needed.
         "retrieve_when": {"type": "array", "items": {"type": "string"}},
         "do_not_retrieve_when": {"type": "array", "items": {"type": "string"}},
+        # R11 (Rulings-Pending.md, ruled 2026-09-21): the redirect half of
+        # do_not_retrieve_when's own split - "ask about X instead, retrieve
+        # that record" - 701 of the field's 714 fleet-wide lines were
+        # actually this, not an honesty guard (see Stage 1's D1
+        # measurement). Same shape as the field it's split from; demotes a
+        # candidate in ranking, never excludes it.
+        "prefer_instead": {"type": "array", "items": {"type": "string"}},
     },
     "additionalProperties": False,
 }
@@ -312,6 +319,14 @@ ENVELOPE_PROPERTIES = {
     "confidence": _CONFIDENCE_SCHEMA,
     "sources": {"type": "array", "items": _SOURCE_REF_SCHEMA},
     "retrieval": _RETRIEVAL_SCHEMA,
+    # R11 (Rulings-Pending.md, ruled 2026-09-21): the honesty-guard half of
+    # do_not_retrieve_when's own split - a barred proposition the voice must
+    # never assert (13 of 714 fleet-wide lines, per Stage 1's D1
+    # measurement), structurally separate from ordinary retrieval-scoping
+    # notes (retrieval.prefer_instead, above). Envelope-level like
+    # `retrieval` itself: any record type can carry a claim it must not
+    # make, not just the ones with a `retrieval` block already in use.
+    "claim_guards": {"type": "array", "items": {"type": "string"}},
     "relations": {"type": "array", "items": _RELATION_SCHEMA},
     # loader-added, never authored, never part of any gate's subject matter
     "_path": {"type": "string"},

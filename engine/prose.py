@@ -77,6 +77,13 @@ NON_PROSE_KEYS = {
     "evidentiary_weight", "formation_confidence",
     "canon_cells", "source_id", "target", "canon_question_id",
     "do_not_retrieve_when",
+    # R11 (Rulings-Pending.md, ruled 2026-09-21): claim_guards is the split
+    # field's own honesty-guard half - a barred claim's own text is exactly
+    # the same "opposite of prose that might ground a real answer" category
+    # do_not_retrieve_when (above) and formation_claim_barred already are,
+    # for the identical reason: a forbidding sentence necessarily shares the
+    # forbidden claim's own vocabulary.
+    "claim_guards",
 }
 
 
@@ -113,7 +120,7 @@ NON_PROSE_KEYS = {
 # engine.m4.evidence's Stage A2 fulltext fallback (the original use case
 # this was measured against) and engine.m2.builders's compile-time
 # retrieval index (Build-Plan.md Stage 4c) both exclude the identical set.
-FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when", "retrieve_when"}
+FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when", "retrieve_when", "claim_guards"}
 
 
 _STOPWORDS = {
