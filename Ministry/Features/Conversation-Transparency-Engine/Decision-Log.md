@@ -484,3 +484,59 @@ Still not started: the `evidence.py` riders that let
 `render_evidence_block` actually read `prefer_instead` (demoting a
 candidate, never excluding it, inside the existing `budget_chars`
 budget) - Stage 4a's one remaining item.
+
+**Entry 26 — 2026-09-21.** Stage 4a's `evidence.py` riders merged (PR
+#372, commit `b707c2b4`) - the stage's last remaining item.
+`do_not_retrieve_when`'s replacement fields had been authored fleet-wide
+(PRs #360/#361) and structurally enforced (PR #366) since Stage 1's own
+`observe_unread_retrieval_config` finding that the field was "read by no
+runtime path" (Decision-Log.md's own Entry 4-era finding) - this PR is
+what actually wires `prefer_instead`/`claim_guards` into real retrieval
+behavior for the first time.
+
+`engine/m4/evidence.py`:
+- `claim_guards` renders as a rider directly on its own candidate's line
+  in `render_evidence_block` (`MUST NOT ASSERT: ...`), per Adjusted-
+  Design.md's own "upstream prevention, the mechanism that actually
+  works" - never a separate section a skim could miss. Counted into
+  `select_cell_candidates`'s own `used_chars` budget accounting (a new
+  `_entry_chars()` helper, head + guard length together), so the rider
+  rides inside the existing `budget_chars`, never a separate allowance -
+  Build-Plan.md's own literal wording.
+- `prefer_instead` demotes a matching candidate's relevance score by half
+  (`_PREFER_INSTEAD_DEMOTION_FACTOR = 0.5`, applied to the word-overlap
+  share only, never to `_tier_prior`) when the participant's own query
+  shares content words with the note's own condition text - proportional,
+  never a hard exclusion, so a strongly-relevant record can still surface
+  if its redirect target isn't in the same candidate pool. Wired into
+  both scoring paths (`select_cell_candidates`'s main loop and
+  `_retrieval_fill_scores`'s own Stage B2 fill), one shared helper, not
+  two copies that could drift apart.
+- A real, measured false-positive risk found and fixed before trusting
+  the mechanism: over a third of the fleet's 702 real `prefer_instead`
+  notes open with "participant"/"the participant" boilerplate (the
+  note-authoring convention itself, not a real participant's own words),
+  and "question"/"asking"/"wants"/"needs"/"asks" are close behind -
+  keyword-overlap demotion without excluding them would misfire on any
+  query sharing only that scaffolding, not the actual topic. Fixed with a
+  small stopword set scoped to this one function (`_PREFER_INSTEAD_
+  CONDITION_STOPWORDS`), not added to `engine.prose`'s global
+  `_STOPWORDS` (tuned for ordinary prose, not this note format).
+
+8 new tests in `engine/m4/tests/test_evidence.py` (constructed examples,
+same fixture discipline as the file's own Stage 4d tier-prior tests) plus
+direct verification against real gallic data before trusting the
+mechanism. `retrieval_bench.py`: 1152 → 1154 (0 empty, matching Build-
+Plan.md's own "equal or better" bar) - a small, real improvement, not
+noise: `select_cell_candidates` now lets a genuinely better-matching
+redirect target win a floor slot a demoted candidate previously held.
+`staleness-check` stays green with **no repin** - `evidence.py` is
+runtime scoring logic, never part of any world's compiled package bytes,
+unlike the schema/gate changes earlier in this stage. Full suite 525/525.
+
+**Stage 4a is now fully done**: schema (PR #359), gallic pilot (PR #360),
+remaining-10-worlds migration (PR #361), the `retrieval-negatives-
+structured` gate (PR #366), and these riders - every item Build-Plan.md's
+own Stage 4a line named. Next in the build plan: Stage 4b
+(`guard_proximity`), blocked on 4a being ruled shipped, or Stage 6-9 per
+`Rulings-Pending.md`'s own remaining open rulings.
