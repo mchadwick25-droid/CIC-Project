@@ -829,3 +829,46 @@ uses of "from scratch." Nothing to flag.
 
 All other previously-open PRs (#247, #248, #244, #241, #240, #234, #233,
 #230, #229) checked green.
+
+---
+
+## 2026-09-21 00:31 UTC — Periodic sweep: document-hygiene scrub's PR #333 closed
+## out clean; four previously-untracked PRs found and subscribed; fleet size now 11
+
+**PR #333** (the full document-hygiene scrub — `reference/`, `engine/`,
+`cic/engine/`, `cic-poc/frontend/`, `records/` 134 files, `worlds/lpc`,
+`worlds/gallic` 9 Doc files — plus the fleet-wide package repin it
+required) merged clean this sweep: all 18 CI checks green, no blocking
+reviews, `mergeable_state: clean`. Closes out the multi-entry arc this
+file has been tracking since Mark's "strip all attribution" ruling.
+`main`'s tip (`bb1ef7552`) confirmed green on GitHub Actions CI; the
+Cloudflare Workers Build check on `main`'s own tip specifically wasn't
+independently reachable this sweep (no open PR currently sits at that
+exact SHA to check through) — same known tooling gap as before, not a
+finding.
+
+**Re-listed open PRs fresh (15 total, all subscribed and all CI green):**
+`#225` and `#243` — both tracked as PR-owned CI issues in the previous
+entry — are no longer in the open list (resolved, merged, or closed;
+not independently confirmed which, not this thread's to chase). Four
+PRs found genuinely new to this thread's tracking and subscribed:
+`#300` (stale world-list fix in `gen_corpus_table.py`, green), `#282`
+(Atlas era-break-band removal, green), `#254` and `#253` (era-spanning
+homepage image sourcing, green — both disclose real, honest sourcing
+gaps in their own bodies, not CI problems). `#246` (Atlas era1 prose
+review) still open, still the same PR previously logged as CI-trigger-
+missed; unchanged, not re-diagnosed. Every other previously-known PR
+(`#250`, `#248`, `#247`, `#244`, `#240`, `#234`, `#233`, `#230`, `#229`,
+`#197`) reconfirmed green.
+
+**Document-hygiene spot-check (step 5):** read the diffs of the most
+recent non-merge commits on `main` (`9321610b6`, a mechanical jsdom-
+version CI fix; `a88ba7d24`, Transparency Engine Stage 3c). Both clean
+— the jsdom fix is exactly the kind of repo-wide mechanical break this
+thread would otherwise have picked up, already fixed directly by its
+own thread. No stray notes, scratch files, or WIP commentary found.
+
+**Fleet-size watch (step 7):** **11** formation-kind admitted/built
+worlds (fixture excluded) — up from 9 at the last count, still below
+the 15 threshold. No action per the routine's own instruction; logged
+here only because the count changed, not as a "found something" event.
