@@ -94,17 +94,18 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[3]))
 from engine.m1 import loader
 from engine.m4 import evidence as ev
 from engine.m4 import grounding_net as gn
-from engine.prose import claim_markers, content_words, all_text, quote_aware_sentences
+from engine.prose import GUARD_MARKERS, claim_markers, content_words, all_text, quote_aware_sentences
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parents[3]
 REPORTS_DIR = pathlib.Path(__file__).resolve().parent
 WORLDS = ["alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "rzg", "syr", "witt"]
 
-# Corpus B, guard-species: keyword-matched against the design doc's own
-# quoted examples. 701 of 714 do_not_retrieve_when lines fleet-wide are
-# retrieval-scoping notes this marker set correctly excludes; these 13 are
-# genuine honesty-guard clauses (R11's still-open ruling names the split).
-GUARD_MARKERS = ("does not say", "must not supply", "not attested", "do not invent", "does not attest", "no source", "must not")
+# GUARD_MARKERS is now engine.prose's own (single source of truth - see
+# that module's comment): keyword-matched against the design doc's own
+# quoted examples, this is what correctly separated the fleet's 13 genuine
+# honesty-guard clauses from 701 ordinary do_not_retrieve_when redirects,
+# the measurement R11's ruling (now applied - see Decision-Log.md Entries
+# 21-24) was actually run against.
 
 # Hand-authored (see this file's own docstring for why: 13 is small enough
 # to read and phrase correctly rather than risk a regex mis-extracting the
