@@ -316,14 +316,38 @@ button {
   margin: 2px 0 6px;
 }
 
+/* Collapsed by default (Build-Plan.md thinness-UX change, 2026-09):
+   what a world is richest in and thinnest on sits behind one click,
+   same convention as GeneralReferences.tsx's .turn__general-references,
+   so it never reads as an unprompted caveat before a question is asked. */
 .world-card__thinness {
+  margin: 0;
+}
+
+.world-card__thinness-label {
+  font-family: var(--font-family-ui);
+  font-size: 0.72rem;
+  color: var(--color-text-light);
+  cursor: pointer;
+  list-style: none;
+}
+
+.world-card__thinness-label::before {
+  content: '▸ ';
+}
+
+.world-card__thinness[open] > .world-card__thinness-label::before {
+  content: '▾ ';
+}
+
+.world-card__thinness-label::-webkit-details-marker {
+  display: none;
+}
+
+.world-card__thinness p {
   font-size: 0.85rem;
   line-height: 1.5;
-  margin: 0;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  margin: 6px 0 0;
 }
 
 /* .doorway__begin survives its retired screen: the closed-state
@@ -1174,20 +1198,31 @@ button {
   letter-spacing: 0.08em;
   font-size: 0.68rem;
   color: var(--color-text-light);
-  margin-bottom: 6px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.arrival__thinness-label::before {
+  content: '▸ ';
+}
+
+.arrival__thinness[open] > .arrival__thinness-label::before {
+  content: '▾ ';
+}
+
+.arrival__thinness-label::-webkit-details-marker {
+  display: none;
 }
 
 .arrival__thinness p {
   font-size: 0.88rem;
   line-height: 1.55;
-  margin: 0 0 6px;
-}
-
-.arrival__thinness p:last-child {
-  margin-bottom: 0;
+  margin: 6px 0 0;
 }
 
 .arrival__living-tradition {
+  width: 100%;
+  text-align: left;
   font-style: italic;
   color: var(--color-text-muted);
 }
