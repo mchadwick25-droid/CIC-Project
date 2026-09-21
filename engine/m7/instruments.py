@@ -43,8 +43,20 @@ def _record_ids(citations: list) -> list[str]:
     return ids
 
 
+def _defect_family(d) -> str | None:
+    return d.get("family") if isinstance(d, dict) else None
+
+
 def unread_outputs(s: AuditSession) -> list[Finding]:
-    """§3.1 - the four formerly-unread outputs, surfaced."""
+    """§3.1 - the four formerly-unread outputs, surfaced.
+
+    guard_proximity entries are excluded from this generic bucket - they
+    get their own dedicated instrument (guard_proximity, below) at defect
+    severity, since a barred-claim proximity hit is the one output_check
+    family that is a live fabrication risk, not a cosmetic/register issue
+    like the other three; reporting the identical finding twice at two
+    different severities in the same audit would be noise, not signal.
+    """
     findings = []
     for t in s.voice_turns:
         if t.do_not_voice_violation:
@@ -52,6 +64,8 @@ def unread_outputs(s: AuditSession) -> list[Finding]:
                                     f"content-licensing violation on {t.speaker}'s turn (seq {t.seq}): {t.do_not_voice_violation}",
                                     excerpt=t.text[:200]))
         for d in t.output_defects:
+            if _defect_family(d) == "guard_proximity":
+                continue
             findings.append(Finding("output_defects", "review", s.session_id,
                                     f"output defect on {t.speaker}'s turn (seq {t.seq}): {d}"))
         if t.grounding:
@@ -64,6 +78,24 @@ def unread_outputs(s: AuditSession) -> list[Finding]:
         if t.degraded_by_net:
             findings.append(Finding("degraded_by_net", "info", s.session_id,
                                     f"{t.speaker}'s turn (seq {t.seq}) had no substantive survivor"))
+    return findings
+
+
+def guard_proximity(s: AuditSession) -> list[Finding]:
+    """Build-Plan.md Stage 4b: the guard_proximity family
+    (engine.m4.output_check), read at defect severity - the one
+    output_check family that is a live fabrication risk (a sentence
+    sharing a cited record's own barred claim), not a cosmetic/register
+    issue like the other three. Feeds R14 (Rulings-Pending.md): reports
+    only, same as every instrument in this module, never a block."""
+    findings = []
+    for t in s.voice_turns:
+        for d in t.output_defects:
+            if _defect_family(d) != "guard_proximity":
+                continue
+            findings.append(Finding("guard_proximity", "defect", s.session_id,
+                                    f"{t.speaker}'s turn (seq {t.seq}): {d.get('finding')}",
+                                    excerpt=(d.get("sentence") or "")[:200]))
     return findings
 
 
@@ -342,6 +374,7 @@ def run_all(s: AuditSession, names: dict[str, list[str]] | None = None) -> dict:
         unread_outputs(s) + isolation(s) + reg_findings + ask_coverage(s)
         + repetition(s) + cross_voice_echo(s) + safety_review(s)
         + register_frame(s, names) + encounter_openings(s) + governance(s)
+        + guard_proximity(s)
     )
     return {
         "session_id": s.session_id,

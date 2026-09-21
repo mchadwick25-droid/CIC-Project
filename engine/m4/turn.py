@@ -552,7 +552,10 @@ def _run_ordinary_voice_turn(
         # actually reads, and until now nothing looked at it. Reports,
         # never edits (Program-Spec M4: never by editing a live response);
         # a finding here means something UPSTREAM is wrong.
-        "output_defects": check_output(answer_text, history=history, participant_message=participant_message),
+        "output_defects": check_output(
+            answer_text, history=history, participant_message=participant_message,
+            citations=citations, repository_records=repository_records,
+        ),
     }
     return voice_event, usage_records
 

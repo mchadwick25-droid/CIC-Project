@@ -15,6 +15,7 @@ from engine.m7.instruments import (
     cross_voice_echo,
     encounter_openings,
     governance,
+    guard_proximity,
     isolation,
     offer_rates,
     register_frame,
@@ -179,6 +180,39 @@ def test_unread_outputs_all_three_severities(tmp_path):
     assert by["net_withheld"].severity == "info"
     assert by["net_withheld"].record_ids == ["des.source.apophthegmata-9"]
     assert by["degraded_by_net"].severity == "info"
+
+
+def test_guard_proximity_reads_at_defect_severity_and_leaves_the_generic_bucket(tmp_path):
+    """Build-Plan.md Stage 4b: a guard_proximity output_defect gets its own
+    dedicated instrument at defect severity, and is excluded from the
+    generic output_defects/review bucket - reported once, at the severity
+    that matches what it actually is (a live fabrication risk), not
+    twice at two different severities."""
+    store = Store(tmp_path / "events.db")
+    sid = "guard-" + uuid.uuid4().hex[:8]
+    _append(store, sid, "session_started", {
+        "mode": "interview", "frame": "general_seeker", "code_hash": "abc",
+        "world_key": "gallic", "package_manifest_hash": "sha256:x",
+    })
+    guard_defect = {
+        "family": "guard_proximity",
+        "finding": "cites gallic.story.brictio-in-the-courtyard, barred from asserting the succession claim",
+        "sentence": "Brictio succeeded Martin as bishop of Tours.",
+    }
+    _append(store, sid, "voice_turn", _voice(
+        "gallic", "Brictio succeeded Martin as bishop of Tours.", [],
+        output_defects=[guard_defect],
+    ))
+    session = read_session(store, sid)
+
+    gp_findings = guard_proximity(session)
+    assert len(gp_findings) == 1
+    assert gp_findings[0].severity == "defect"
+    assert gp_findings[0].instrument == "guard_proximity"
+    assert "brictio-in-the-courtyard" in gp_findings[0].detail
+
+    generic_findings = unread_outputs(session)
+    assert not [f for f in generic_findings if f.instrument == "output_defects"]
 
 
 def test_isolation_flags_foreign_citation_only(tmp_path):
