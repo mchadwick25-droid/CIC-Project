@@ -1067,4 +1067,4 @@ session's own pre-compaction working notes, not in anything Mark
 actually ruled - flagged rather than built against, the same
 discipline Entry 38 (PR #395) applied to Stage 6c. Mark's own number,
 once set, is what the renderer fixture test (R17's other engineering
-half) will assert against; that test is not yet written. PR #396.
+half) will assert against; that test is not yet written. PR #397.
