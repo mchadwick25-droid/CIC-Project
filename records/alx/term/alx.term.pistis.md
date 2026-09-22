@@ -3,7 +3,7 @@ id: alx.term.pistis
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what faith is here, or whether faith is opposed to knowledge or to doubt
   - what the beginning of formation looks like
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about the Reformation doctrine of justification by faith alone
   - asking primarily about gnosis as the developed form faith grows into (retrieve alx.term.gnosis)
 relations: []

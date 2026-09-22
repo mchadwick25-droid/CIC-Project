@@ -3,7 +3,7 @@ id: syr.dw.unsettled
 world_id: syriac-edessa-nisibis
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   What did we never settle? We never settled who finally spoke for us.
   Office, vow, and teaching ran side by side to our last year, and it took a

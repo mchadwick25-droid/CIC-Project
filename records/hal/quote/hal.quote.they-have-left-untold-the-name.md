@@ -3,7 +3,7 @@ id: hal.quote.they-have-left-untold-the-name
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether anyone here was martyred, or died for the faith"
   - "participant asks about violence suffered by this community"
   - "participant asks how reliable this world's account of its own worst events is"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.limit.martyrdom

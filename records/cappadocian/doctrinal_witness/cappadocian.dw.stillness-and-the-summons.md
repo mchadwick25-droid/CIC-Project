@@ -3,7 +3,7 @@ id: cappadocian.dw.stillness-and-the-summons
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world's way of life has anything for someone who can't quiet their
     own head"
-  do_not_retrieve_when: []
 text: >-
   We know that struggle by its opposite: some of our own greatest teachers
   wanted stillness badly and rarely kept it for long. One of them wrote the

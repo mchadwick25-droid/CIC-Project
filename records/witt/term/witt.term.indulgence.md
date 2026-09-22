@@ -3,7 +3,7 @@ id: witt.term.indulgence
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -40,7 +40,7 @@ retrieval:
   - indulgence, pardon, or 'letters of pardon'
   - whether we still sell or believe in indulgences
   - the Ninety-Five Theses' own target
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means purgatory itself (retrieve purgatory)
   - the participant means merit or satisfaction generally (retrieve merit or satisfaction)
 relations:

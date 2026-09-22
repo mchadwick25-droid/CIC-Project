@@ -3,7 +3,7 @@ id: alx.force.apostolic-tradition
 world_id: alexandria-catechetical
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-E]
 confidence:
@@ -20,7 +20,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks who appointed or ordained the bishops and teachers"
-  do_not_retrieve_when: []
 relations:
 - type: precondition-for
   target: alx.gravity.soul-transformation

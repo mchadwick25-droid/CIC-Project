@@ -3,7 +3,7 @@ id: hal.quote.a-man-truly-catholic
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether this world's church is the same as any church today"
   - "participant asks what these people called themselves"
   - "participant asks how someone here was judged orthodox or not"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.one-church

@@ -3,7 +3,7 @@ id: hal.quote.helmeted-preface
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - "participant asks which books they counted as scripture and why"
   - "participant asks how they defended a new translation to people who disliked it"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Prefaces to the
 Vulgate OT, div vii.iii). The continuation naming names is verified in the

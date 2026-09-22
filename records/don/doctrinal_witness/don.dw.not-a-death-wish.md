@@ -3,7 +3,7 @@ id: don.dw.not-a-death-wish
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -45,7 +45,6 @@ retrieval:
   retrieve_when:
   - participant asks what the clearest outside account of our worship is
   - participant challenges the martyr ideal as a death wish dressed up as faith
-  do_not_retrieve_when: []
 text: >-
   The clearest outside account of how we worshipped is a book written to
   destroy us, and we would still hand it to you first. Seven books by a

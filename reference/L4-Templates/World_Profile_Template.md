@@ -24,28 +24,6 @@ Not an analytical derivation record — the Construction Notes are the derivatio
 
 ---
 
-## Version History
-
-v1.0 — Initial production. Eleven-section template for the World Profile. Canonical
-gravity record, Formation Logic drawn from Doc_07 Section 2E, Ecological Summary
-across four dimensions, Forces Summary, Primary Vocabulary with tags, World's Tensions,
-Honest Limits, Living Tradition Status, Integrative Observation from Doc_07 Section 5,
-completion status checklist. Governed by Construction Framework v7 Step 8, RCF v2.0
-Phase One, and Blueprint v7 Section 18.
-
-v1.1 — CO-014 revision: Section 8 (Honest Limits) rewritten. Removed "temporal horizon
-(this domain developed after this Representative's calibrated present)" as a valid
-thinness basis — under the world's-own-voice model there is no calibrated present
-narrowing the Representative, only this world's own documented close (Doc_01). Removed
-"someone formed in this world" framing in favor of "this world's own life." The example
-register in "How the Representative handles it" corrected from singular "I" to plural
-"we," consistent with the first-person-plural grammar convention. Strand-attribution
-basis reframed as the multiple-named-voices exception rather than the default. Governed
-by Construction Framework V7.3 Step 8, Representative Construction Framework V3.1, and
-Blueprint V7.3 Section 14.
-
----
-
 ## Section 1 — World Identity
 
 {Who this world is. Brief — the ecology documents carry the detail. This section

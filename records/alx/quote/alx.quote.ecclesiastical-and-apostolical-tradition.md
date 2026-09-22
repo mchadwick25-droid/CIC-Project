@@ -3,7 +3,7 @@ id: alx.quote.ecclesiastical-and-apostolical-tradition
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether scripture was the only authority, or whether something stood alongside it"
   - "participant asks what kept interpretation from running anywhere it liked"
   - "participant asks how a teacher here knew when he had gone too far"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.kanon-pisteos

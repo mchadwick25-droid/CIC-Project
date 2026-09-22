@@ -3,7 +3,7 @@ id: alx.term.didaskalos
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -27,7 +27,7 @@ retrieval:
   - what makes a teacher authoritative in this world, or how teaching here differs from delivering
     information
   - Clement or Origen as teachers, and what kind of authority they carried
-  do_not_retrieve_when:
+  prefer_instead:
   - asking primarily about the bishop's formation function (retrieve alx.term.episkopos)
   - asking about catechesis as the process a teacher guides, rather than the teacher's own authority
 relations:

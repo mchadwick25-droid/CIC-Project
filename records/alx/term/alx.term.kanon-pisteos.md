@@ -3,7 +3,7 @@ id: alx.term.kanon-pisteos
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - authority questions
   - Bible-alone translational questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.quote.ecclesiastical-and-apostolical-tradition

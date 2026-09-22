@@ -3,7 +3,7 @@ id: desert.quote.never-held-communion-with-the-schismatics
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -32,7 +32,6 @@ retrieval:
   - "participant asks who decided what was true or right among these people"
   - "participant asks what this world did about groups it disagreed with"
   - "participant asks whether these people used power against other Christians"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.councils

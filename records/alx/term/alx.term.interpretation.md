@@ -3,7 +3,7 @@ id: alx.term.interpretation
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what interpreting Scripture means here, or how it differs from analysis or study
   - why the same text seems to yield more to some readers than others
-  do_not_retrieve_when:
+  prefer_instead:
   - asking specifically about the allegorical method (retrieve alx.term.allegoria)
   - asking about the Christological orientation of reading specifically (retrieve
     alx.term.christological-reading)

@@ -3,7 +3,7 @@ id: ijc.term.concilium
 world_id: imperial-juridical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - how doctrinal disputes were actually resolved
   - a specific council (Nicaea, Constantinople, Ephesus, Chalcedon)
-  do_not_retrieve_when:
+  prefer_instead:
   - the question concerns one council's specific doctrinal content rather than the conciliar mechanism itself
 relations:
 - {type: associated-with, target: ijc.term.primatus}

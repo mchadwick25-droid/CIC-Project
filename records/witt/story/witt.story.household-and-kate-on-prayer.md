@@ -3,7 +3,7 @@ id: witt.story.household-and-kate-on-prayer
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -29,12 +29,13 @@ retrieval:
   retrieve_when:
   - a participant asks about Luther's own household or family devotion
   - a participant asks whether any woman's own words appear anywhere in this world's record
-  do_not_retrieve_when:
-  - expanding Katharina's voice or role beyond the one recorded question - this is the only trace of her
-    own speech this library holds, and it must not be elaborated into a fuller portrait than the source
-    supports
+  prefer_instead:
   - a participant wants a typical household's catechism practice, not Luther's own specifically (retrieve
     witt.story.household-catechism-lesson-typical-practice instead)
+claim_guards:
+- expanding Katharina's voice or role beyond the one recorded question - this is the only trace of her
+  own speech this library holds, and it must not be elaborated into a fuller portrait than the source
+  supports
 relations:
 - type: associated-with
   target: witt.figure.luther

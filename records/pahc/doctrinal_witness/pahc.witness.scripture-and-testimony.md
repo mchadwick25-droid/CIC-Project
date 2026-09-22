@@ -3,7 +3,7 @@ id: pahc.witness.scripture-and-testimony
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world treated the Bible as its only authority"
   - "participant asks whether this world read Genesis as science"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.moses-is-more-ancient

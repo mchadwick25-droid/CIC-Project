@@ -3,7 +3,7 @@ id: hal.term.epistula
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - how a community split between Rome and Bethlehem held together
   - distance, absence, and staying connected
-  do_not_retrieve_when: []
 plain_meaning: The letter. Among us it was not just a record of life. It was how teaching, guidance,
   and belonging actually moved across distance.
 world_word: epistula

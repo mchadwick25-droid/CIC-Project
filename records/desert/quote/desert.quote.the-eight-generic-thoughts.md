@@ -3,7 +3,7 @@ id: desert.quote.the-eight-generic-thoughts
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -28,7 +28,6 @@ retrieval:
   - "participant describes unwanted thoughts they cannot stop, or thoughts they hate having"
   - "participant asks where the seven deadly sins came from"
   - "participant asks whether a bad thought is already a sin"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.logismoi

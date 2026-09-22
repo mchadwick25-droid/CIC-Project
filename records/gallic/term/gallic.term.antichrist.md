@@ -3,7 +3,7 @@ id: gallic.term.antichrist
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -40,7 +40,7 @@ retrieval:
   - why Vincent wrote in "awful expectation"
   - participant uses "Antichrist," "end times," "apocalypse," "last judgment," "Nero"
   - the false Christs in Spain and the East; Dial. II.14's "eighth year"; Comm. ch. 1
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means judgment executed now in the barbarian ruin (retrieve the government of God)
   - the question is about the devil's false appearances (retrieve illusion)
   - later apocalyptic systems

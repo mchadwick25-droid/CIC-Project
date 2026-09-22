@@ -3,7 +3,7 @@ id: ijc.quote.secular-ruler-ecclesiastical-cause
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether the state ever executed Christians for heresy"
   - "participant asks whether anyone objected to handing a church matter to a court"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}

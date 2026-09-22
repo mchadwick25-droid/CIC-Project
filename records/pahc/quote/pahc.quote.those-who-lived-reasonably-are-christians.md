@@ -3,7 +3,7 @@ id: pahc.quote.those-who-lived-reasonably-are-christians
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what these people believed about God"
   - "participant asks what they thought of people outside their faith"
   - "participant asks whether God was at work beyond their own community"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.god-and-argument

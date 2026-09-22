@@ -3,7 +3,7 @@ id: alx.term.photismos
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - baptism questions
   - born-again translational questions
-  do_not_retrieve_when: []
 plain_meaning: 'Illumination: the light given at baptism. To be baptized was called being enlightened.'
 world_word: photismos
 false_friend:

@@ -336,7 +336,16 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-          cache-dependency-path: engine/m1/requirements.txt
+          cache-dependency-path: |
+            engine/m4/requirements.txt
+            engine/m1/requirements.txt
+      # Same reason as m4-event-log's own identical comment above:
+      # Stage 0d's test_safety_script_run.py imports engine.m5.
+      # safety_script_run -> engine.m5.live_calls -> anthropic transitively
+      # (call_safety/call_reader's real exception handling, exercised even
+      # against a fake client) - m1's requirements.txt has no reason to
+      # know that and shouldn't.
+      - run: pip install -r engine/m4/requirements.txt
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/m5/tests -q
 
@@ -555,6 +564,32 @@ jobs:
           push: false
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+  frontend-tests:
+    needs: changes
+    if: needs.changes.outputs.frontend == 'true'
+    # Build-Plan.md Stage 3c: "Add vitest + @testing-library/react, a test
+    # script, and a frontend-tests CI job in .github/workflows/ci.yml gated
+    # on the existing frontend path filter." tsc --noEmit is the same type
+    # check `npm run build` runs first; `npm test` (vitest run) is
+    # everything under src/**/*.test.tsx, hermetic (jsdom, no live API, no
+    # model call) - same "never a live call in CI" discipline every other
+    # job here already holds.
+    name: Frontend tests (vitest)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cic-poc/frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: cic-poc/frontend/package-lock.json
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - run: npm test
 
   site-staleness-check:
     needs: changes

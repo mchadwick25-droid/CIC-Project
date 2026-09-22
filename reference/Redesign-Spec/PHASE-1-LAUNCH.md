@@ -1,18 +1,34 @@
 # Phase 1 launch runbook
 
-**Read this first, then `BUILD-HANDOFF.md`'s current-stage section.** That
+**Read this first, then `Archive/Superseded-Housekeeping/BUILD-HANDOFF.md`'s
+current-stage section.** That
 note says what was built and why. This says what to do next, in what order,
 and where to stop.
 
 Written 2026-08-24 at the close of the build thread, at
 `build/phase-1` = `9d9f2a5f`.
 
+**Currency note (Tech-Readiness Package 2, reviewed 2026-09-21).** Every
+stage below is DONE or closed-by-decision — this runbook has no more "what
+to do next" content, and nothing below should be read as describing today's
+deploy path. The single-branch deploy model Stage 5/6 describe (`main`
+deploying straight to `cic-engine`) was superseded 2026-09-15 by the
+two-branch `main` → `live` promotion model: `render.yaml` now carries two
+services (`cic-engine` on `branch: live`, `cic-engine-staging` on
+`branch: main`), and `Ministry/Operations/Standing/CiC_Promotion_Runbook.md`
+is the current procedure for reaching participants. Kept in place, not
+archived, because it remains the accurate historical record of how Phase 1
+actually shipped (2026-08-24–25) and because several since-closed decisions
+(Stage 2's model choice, Stage 6's cic-poc retirement) are referenced
+elsewhere by their gate numbers here.
+
 ---
 
 ## Standing rules for this work
 
 These are not preferences. Every one of them was earned by something going
-wrong on this project, and the reasoning is in `BUILD-HANDOFF.md`.
+wrong on this project, and the reasoning is in
+`Archive/Superseded-Housekeeping/BUILD-HANDOFF.md`.
 
 1. **`baseline/pilot-2026-08-24` is the undo.** Frozen at `8b23f46e` - the
    exact tree behind the voice quality Mark signed off on. Every package
@@ -306,7 +322,8 @@ far more than their model. The model is one candidate cause among several,
 and the cheaper ones (the Facilitator's placeholder text, a thin world,
 retrieval missing the right record) should be ruled out first.
 
-If it really is the model, `BUILD-HANDOFF.md`'s Sonnet 5 section has the
+If it really is the model, `Archive/Superseded-Housekeeping/BUILD-HANDOFF.md`'s
+Sonnet 5 section has the
 blockers in full. In short: **raise `max_tokens` first**
 (`engine/m4/generation.py:39` is tuned for 4.5 prose, adaptive thinking is
 on by default on Sonnet 5, and the new tokenizer needs ~30% more tokens

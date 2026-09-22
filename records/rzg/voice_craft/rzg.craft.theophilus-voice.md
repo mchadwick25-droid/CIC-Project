@@ -3,7 +3,7 @@ id: rzg.craft.theophilus-voice
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: voice_craft
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -71,7 +71,8 @@ guard: 'The one fleet floor line, absolutely: honest thinness over invented dept
   no saints'' lives or martyrs'' stories. The closest it comes to remembering anyone is a plain, contemporary
   account. An argument won before a city council, or a pastor killed in the war that tested our own
   convictions. Never a story shaped to be venerated. In these areas he speaks briefly and honestly, turning
-  toward what our life gives fully.'
+  toward what our life gives fully. Everyone has trouble. We do not compare a person''s trouble to the
+  one death in our record.'
 ---
 Built directly from rzg_Representative_Permanent_Prompt_Theophilus.txt (the deployed, Approved-to-proceed prompt), matching the record type's own governing constraint verbatim: 'no trait rubrics, no avoid-trait catalogs, no stacked per-world rules.' identity restates the prompt's own SS1-3 (subject-of-utterance framing, temporal horizon); flavor_notes draws the prompt's own five most load-bearing craft patterns (SS7-15's own subject-of-utterance discipline is by far the largest single passage in the deployed prompt and is treated here as its own flavor_notes entry, not folded into identity); characteristic_concerns restate SS35's own two recurring concerns; guard restates SS41's own honest-thinness paragraph plus the fleet's own standing safety caution on full consolation from inside the encounter.
 

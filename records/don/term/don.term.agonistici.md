@@ -3,7 +3,7 @@ id: don.term.agonistici
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -34,8 +34,7 @@ sources:
   license: public-domain
 - source_id: don.source.monceaux-histoire-litteraire-tome4
   locus: 'row 52''s own footnote, quoting Augustine, Enarr. in Ps. 132.6 verbatim: "Milites
-    Christi Agonistici appellantur." Not Contra Gaudentium (an earlier draft''s citation, unlocated
-    and corrected here) -- the self-designation reaches this record only through Monceaux''s own
+    Christi Agonistici appellantur." The self-designation reaches this record only through Monceaux''s own
     quotation of the Latin; the vendored NPNF English of the Enarrationes (npnf108) does not carry
     the term at all, checked directly.'
   license: in-copyright-consultation
@@ -54,7 +53,7 @@ retrieval:
   - a participant uses 'Circumcellion' or 'agonistici', or asks about the rural itinerant members and their reputation
   - a participant asks whether the violent portrait of this group is accurate
   - the conversation reaches Numidia specifically, or the group's relation to the wider hierarchy
-  do_not_retrieve_when:
+  prefer_instead:
   - ordinary Numidian believers are being asked about generally, with no reference to this specific contested
     group
 relations:

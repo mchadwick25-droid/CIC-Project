@@ -3,7 +3,7 @@ id: alx.term.prayer
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -23,7 +23,7 @@ retrieval:
   retrieve_when:
   - what prayer is or does, or what happens when someone prays
   - whether prayer is mainly speaking to God or something else
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about fasting as bodily preparation for prayer (retrieve alx.term.fasting)
   - asking about a specific liturgical text rather than prayer's own character
 relations:

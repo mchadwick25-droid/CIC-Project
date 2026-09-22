@@ -3,7 +3,7 @@ id: gallic.contested.who-holds-antiquity
 world_id: gallic-monastic-ascetic-christianity
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

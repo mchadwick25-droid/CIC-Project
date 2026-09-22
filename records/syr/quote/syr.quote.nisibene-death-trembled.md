@@ -3,7 +3,7 @@ id: syr.quote.nisibene-death-trembled
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -30,6 +30,5 @@ retrieval:
   retrieve_when:
   - "participant asks what they held about death and hell being defeated"
   - "participant asks how they spoke about Satan and the grave"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Nisibene Hymn XXXV). The death-cycle's dramatized triumph: the underworld's own panic at Jesus.

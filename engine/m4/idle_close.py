@@ -1,11 +1,11 @@
 """Marks a session session_closed/reason="idle" after a period of no new
-activity - built 2026-09-06, after the admin pilot-summary endpoint
+activity, after the admin pilot-summary endpoint
 (engine.api.wiring.get_pilot_summary) surfaced that every real pilot
 session showed "open" forever: engine.m4.events' own schema had always
 declared "idle" as a legal session_closed reason, but no code anywhere
 ever wrote one.
 
-Reporting-only by Mark's own call, not a hard stop like the turn/round
+Reporting-only, not a hard stop like the turn/round
 cap: a participant resuming a "closed" idle session with their session
 code is never refused (engine.api.wiring.handle_message and
 engine.api.table_wiring's own gates look past close_reason=="idle"
@@ -37,7 +37,7 @@ from .store import Store
 
 logger = logging.getLogger("cic.api")
 
-# Mark's call, 2026-09-06 (Ministry/Operations/Standing/
+# IDLE_AFTER (Ministry/Operations/Standing/
 # CiC_Cross_System_Analysis_Tracking.md, "Pilot-summary endpoint confirmed
 # live" entry): generous enough that a participant picking a conversation
 # back up a few days later never finds their own session idle-closed.

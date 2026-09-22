@@ -3,7 +3,7 @@ id: pahc.demo.center-coming-to-belief
 world_id: post-apostolic-house-church
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P
@@ -33,17 +33,13 @@ belief's own already-approved text; "a flame kindled in my soul" is
 Justin's own words (Dialogue 8), not an invented quotable line
 (register statement 6).
 
-FIXED at Step 11 round-1 review: Justin's own three joined conditions
+Justin's own three joined conditions
 ("if you have any concern for yourself, and if you are eagerly looking
 for salvation, and if you believe in God, you may... become acquainted
 with the Christ of God" - Dialogue 8, checked directly against
-cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml) had been
-reduced to one ("anyone with real concern for their own life") with an
-added gloss, "not only those already sure," that specifically negated
-the third condition Justin actually states (belief in God already).
-Restored all three conditions in plain English. This matters
+cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml) are stated in
+plain English above, in full. This matters
 specifically because this is the C-P demonstration answering "I want
 to believe in Jesus, but I can't" - the turn should not land on a
 reassurance Justin did not in fact offer to someone in the
-participant's position. Inherited from pahc.witness.coming-to-belief,
-corrected there too.
+participant's position.

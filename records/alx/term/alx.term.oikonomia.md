@@ -3,7 +3,7 @@ id: alx.term.oikonomia
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - what God's overall plan or purpose in history is called here
   - how creation, the Incarnation, and the community's own formation fit one arrangement
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about economic life in the practical sense, or church administration
   - asking about the Incarnation as a specific event rather than the whole plan (retrieve
     alx.term.incarnation)

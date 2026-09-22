@@ -3,7 +3,7 @@ id: pahc.quote.melito-no-phantom
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -59,7 +59,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - "participant asks whether more than one person made this argument about Christ's body being real"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks for settled proof that Melito himself said this - the attribution is contested"
 relations:
 - {type: illustrates, target: pahc.gravity.boundary-drawing}

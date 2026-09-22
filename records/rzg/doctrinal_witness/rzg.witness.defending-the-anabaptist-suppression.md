@@ -3,7 +3,7 @@ id: rzg.witness.defending-the-anabaptist-suppression
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -23,7 +23,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant challenges this world directly over its own use of civil power against the Anabaptists
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.contested.anabaptist-schism-legitimacy

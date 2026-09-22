@@ -1,12 +1,12 @@
 """The Table validation battery (C5; Artifact-7 SS8) - the successor to the
 poc's S4.4a battery, run against the new engine's real table path. Real,
-billed Bedrock calls under Mark's explicit authorization, never CI (the
+billed Bedrock calls under explicit authorization, never CI (the
 deterministic halves of everything probed here are already CI:
 test_table_isolation, test_table_governance, test_table_api).
 
-RESHAPED (2026-09-17, closing the 2026-09-05 STALE flag this replaces):
+RESHAPED (closing the STALE flag this replaces):
 the original six probes ran one session of five real rounds against
-TABLE_SESSION_ROUND_CAP=5; Mark resized the cap to 3 the same day this
+TABLE_SESSION_ROUND_CAP=5; the cap was resized to 3 the same day this
 battery was last touched, and L4/L5 would now run past it - round.py's
 own cap check refuses any round once rounds_completed >= 3, before
 either probe ever spent a call. Dropping L4/L5 to fit one 3-round
@@ -41,8 +41,8 @@ than assumed to generalize from one.
                                     commits with turns 0
   L4  no-foreknowledge probe        RECORDED - a voice asked directly
                                     about another seated world should
-                                    claim only what it heard here
-                                    (Mark's rule, 2026-08-28); graded by
+                                    claim only what it heard here;
+                                    graded by
                                     read, isolation sweep still AUTO
   L5  cross-voice memory            RECORDED - who said what, attributed
                                     accurately across rounds, from
@@ -213,8 +213,9 @@ def run(region: str, *, world_keys: list[str]) -> dict:
         return session_id, call_kwargs
 
     def post_run_sweeps(session_id):
-        """Isolation, governance, and convergence over ONE session's own
-        transcript - each belongs to the conversation it happened in."""
+        """Isolation, governance, convergence, and seat-identity catches
+        over ONE session's own transcript - each belongs to the
+        conversation it happened in."""
         state = project_fresh(session_id, store)
         violations = []
         for t in state.transcript:
@@ -227,9 +228,15 @@ def run(region: str, *, world_keys: list[str]) -> dict:
             f"{names.get(t.get('speaker'), t.get('speaker'))}: {t.get('text')}" for t in state.transcript if t.get("text")
         )
         convergence = call_convergence_check(client, safety_model_id, transcript_text)
-        return violations, governance, convergence
+        # The seat-identity guard's own catch record (Decision-Log.md Entry
+        # 47, 2026-09-22, item 4: "run the live table battery once and
+        # report catch count") - every seat_identity_violation event this
+        # session's own real, live turns produced, read straight back from
+        # the log rather than re-derived.
+        seat_identity_catches = [e.payload for e in state.raw_events if e.event_type == "seat_identity_violation"]
+        return violations, governance, convergence, seat_identity_catches
 
-    def session_report(session_id, probes, violations, governance, convergence):
+    def session_report(session_id, probes, violations, governance, convergence, seat_identity_catches):
         auto = [p for p in probes if p["grade"] in ("PASS", "FAIL")]
         return {
             "session_id": session_id,
@@ -238,6 +245,7 @@ def run(region: str, *, world_keys: list[str]) -> dict:
             "isolation_violations": violations,
             "governance_per_round": governance,
             "convergence_check": {"status": convergence.status, "finding": convergence.value},
+            "seat_identity_violations": seat_identity_catches,
         }
 
     # --- Session A: L1, L2, L5 (L5 needs L2 in the same session), cap close.
@@ -295,7 +303,7 @@ def run(region: str, *, world_keys: list[str]) -> dict:
         "PASS" if l6a_pass else "FAIL",
         [r0],
     )
-    viol_a, gov_a, conv_a = post_run_sweeps(session_a_id)
+    viol_a, gov_a, conv_a, seat_a = post_run_sweeps(session_a_id)
 
     # --- Session B: L3, L4, L1b (fills the reshape's own spare round), cap close.
     probes_b: list[dict] = []
@@ -325,7 +333,7 @@ def run(region: str, *, world_keys: list[str]) -> dict:
     r0 = results[0]
     record_b(
         "L4-no-foreknowledge",
-        f"{names[first]} claims only what it has heard at this Table about {names[second]}'s world (Mark's rule, 2026-08-28); graded by read",
+        f"{names[first]} claims only what it has heard at this Table about {names[second]}'s world; graded by read",
         f"first speaker {r0.voice and r0.voice['speaker']}, direct-address routing {'yes' if r0.turn_selected and 'direct address' in r0.turn_selected['reason'] else 'no'}",
         "RECORDED",
         results,
@@ -358,10 +366,10 @@ def run(region: str, *, world_keys: list[str]) -> dict:
         "PASS" if l6b_pass else "FAIL",
         [r0],
     )
-    viol_b, gov_b, conv_b = post_run_sweeps(session_b_id)
+    viol_b, gov_b, conv_b, seat_b = post_run_sweeps(session_b_id)
 
-    session_a = session_report(session_a_id, probes_a, viol_a, gov_a, conv_a)
-    session_b = session_report(session_b_id, probes_b, viol_b, gov_b, conv_b)
+    session_a = session_report(session_a_id, probes_a, viol_a, gov_a, conv_a, seat_a)
+    session_b = session_report(session_b_id, probes_b, viol_b, gov_b, conv_b, seat_b)
 
     usage = defaultdict(lambda: {"calls": 0, "input_tokens": 0, "output_tokens": 0})
     for sid in (session_a_id, session_b_id):
@@ -378,6 +386,7 @@ def run(region: str, *, world_keys: list[str]) -> dict:
         "sessions": {"A": session_a, "B": session_b},
         "auto_graded_total": f"{sum(1 for p in all_auto if p['grade'] == 'PASS')}/{len(all_auto)} PASS",
         "isolation_violations_total": len(viol_a) + len(viol_b),
+        "seat_identity_violations_total": len(seat_a) + len(seat_b),
         "usage_token_counts": dict(sorted(usage.items())),
         "note": "token counts only - no $ figure until a reconciled AWS invoice (spec principle 13)",
     }
@@ -396,7 +405,10 @@ def main() -> int:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"report written: {out}")
-    print(f"auto-graded (both sessions): {report['auto_graded_total']}; isolation violations: {report['isolation_violations_total']}")
+    print(
+        f"auto-graded (both sessions): {report['auto_graded_total']}; isolation violations: {report['isolation_violations_total']}; "
+        f"seat-identity catches: {report['seat_identity_violations_total']}"
+    )
     return 0
 
 

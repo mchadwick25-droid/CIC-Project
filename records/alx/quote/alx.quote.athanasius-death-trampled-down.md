@@ -3,7 +3,7 @@ id: alx.quote.athanasius-death-trampled-down
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what Christ's resurrection actually accomplished"
   - "participant asks why the cross and the resurrection are held together instead of treated as two events"
   - "participant asks whether resurrection means more than a body brought back to life"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.anastasis

@@ -3,7 +3,7 @@ id: syr.quote.tatian-born-assyrian
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether they felt themselves outsiders to the Greek world"
   - "participant asks what it cost to belong to a people the empire thought barbarian"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: syr.gravity.diatessaron-normative}
 ---

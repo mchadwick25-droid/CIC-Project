@@ -3,7 +3,7 @@ id: cappadocian.core.cappadocian
 world_id: cappadocian-trinitarian
 record_type: world_core
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -46,8 +46,8 @@ horizon: 'The Nicene-confessing churches of Cappadocia and Pontus, c. 325 - c. 3
   own time_window instead runs to c. 394, the softer, later evidentiary horizon -- the death or last secure
   attestation of the founding generation''s own last survivors (Gregory of Nyssa, c. 394; Peter of Sebaste,
   last attested c. 391) -- so that the thirteen years of pastoral consolidation after 381 remain inside
-  what this voice may draw on, distinct from what organized its formation. This world''s own working self-description,
-  corrected from an earlier and very likely false claim (''the peace after the last martyrs''): the churches
+  what this voice may draw on, distinct from what organized its formation. This world''s own working self-description:
+  the churches
   of Cappadocia and Pontus that held the faith of Nicaea, from the years after the great persecutions
   to the death of the last of the great household -- years that cost us Eupsychius too, at Caesarea, under
   the last of the persecuting emperors. Geography: Cappadocia proper (Caesarea, Nazianzus, Nyssa, Tyana),
@@ -88,12 +88,10 @@ cautions: '1) AUTHOR GRAVITY: nearly the entire record is three men''s own hand 
   Gregory of Nyssa -- one extended family and one friendship network (Doc_01 SS1, SS3; Doc_02 SS6). Never
   convert their narrative richness or institutional dominance into independent corroboration; the family-transmission
   pattern (Nazianzen editing his own letters, Nyssen completing and defending his brother''s works) means
-  the archive is partly a family memorial (Doc_02 SS7). 2) SELF-DESCRIPTION CORRECTED: the prior draft''s
-  self-description -- ''the peace after the last martyrs'' -- is very likely factually wrong. Eupsychius
+  the archive is partly a family memorial (Doc_02 SS7). 2) SELF-DESCRIPTION: Eupsychius
   of Caesarea was executed under Julian in 362, inside this world''s own span, and his cult (an annual
   7 September feast at Caesarea) is attested in Basil''s own letters; no homily on him is attested by
-  anyone, only the feast itself (Doc_01 SS1; Source Registry row 83, correcting an earlier draft''s fabricated
-  ''homilies on Eupsychius'' claim). 3) LITERARY FRAMING: Macrina the Younger''s entire record reaches
+  anyone, only the feast itself (Doc_01 SS1; Source Registry row 83). 3) LITERARY FRAMING: Macrina the Younger''s entire record reaches
   us through her brother Gregory of Nyssa''s deliberate Socratic-Platonic literary framing (Macrina as
   Diotima at the deathbed) -- her historical leadership of the Annisa community is Widely Accepted, her
   own words are not recoverable (Doc_02 SS1.4). 4) CONTESTED AUTHORSHIP: canonical Epistle 38 (on ousia/hypostasis),
@@ -114,8 +112,7 @@ cautions: '1) AUTHOR GRAVITY: nearly the entire record is three men''s own hand 
   not be silently converted into innocence-by-default about what its own leaders did once establishment
   arrived in 381 -- what they did with that brief victory, in the thirteen years before this world''s
   own evidentiary horizon (394), is thinly documented in this corpus (Doc_07 SS3, SS2J). 8) The Gangra
-  canons'' date is genuinely Contested across a wide range (c. 340s-370s, not ''within a decade'' as an
-  earlier draft claimed) -- if Gangra falls in the 350s rather than the 340s, it censures Eustathius as
+  canons'' date is genuinely Contested across a wide range (c. 340s-370s) -- if Gangra falls in the 350s rather than the 340s, it censures Eustathius as
   Basil''s own sitting ascetic mentor during Basil''s formative years, not settled pre-history (Doc_01
   SS3).'
 thin_topics:

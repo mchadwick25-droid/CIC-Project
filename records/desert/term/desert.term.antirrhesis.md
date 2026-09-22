@@ -3,7 +3,7 @@ id: desert.term.antirrhesis
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F2-I]
 confidence:
@@ -22,7 +22,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - questions about answering temptation with scripture
-  do_not_retrieve_when:
+  prefer_instead:
   - do not present as the whole movement's general method - single-author, single-text in origin
 relations:
 - type: associated-with

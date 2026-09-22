@@ -3,7 +3,7 @@ id: pahc.quote.moses-is-more-ancient
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks how this world argued with outsiders about its scriptures"
   - "participant asks whether Genesis was read as science or history"
   - "participant asks why anyone would believe these writings over the philosophers"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.scripture-and-testimony

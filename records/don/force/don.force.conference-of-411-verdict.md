@@ -3,7 +3,7 @@ id: don.force.conference-of-411-verdict
 world_id: donatism
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -12,14 +12,13 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as event (Doc_08 Cell 3A, Layer 1; SS7), including the corrected bishop count of 279 Donatist
-    against 286 Catholic - corrected 2026-09-09 from an earlier, unverified 284 figure. What is NOT recoverable,
+    Documented as event (Doc_08 Cell 3A, Layer 1; SS7), including the bishop count of 279 Donatist
+    against 286 Catholic. What is NOT recoverable,
     and is stated as an absence rather than inferred, is this world's own reception of the verdict: Doc_08
     SS7 marks this force's Layer 2 as not recoverable from surviving sources and assigns it no confidence
     level at all, because no inference is offered in its place. That absence is now bounded rather than absolute:
     the Gesta Collationis Carthaginiensis, which records Emeritus of Caesarea and the other Donatist bishops
-    speaking at length on their own side of the exchange, IS vendored (Registry row 55, 2026-09-07 - corrected
-    2026-09-08 from a stale 'remains unvendored' claim), so the material exists; it has simply not been read
+    speaking at length on their own side of the exchange, IS vendored (Registry row 55), so the material exists; it has simply not been read
     into a specific claim, and its vendored scan carries this corpus's worst OCR on record for a text of that
     significance. Doc_08 names this a real, currently-open integration task and declines to let the hostile
     record's own account of the verdict stand in for it. This record holds the same line.

@@ -3,7 +3,7 @@ id: hal.dw.church-failure
 world_id: hieronymian-ascetic-literary
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Our failures are not hidden in our record. They are most of it.
   Our churches had clergy who chased money and reputation, and we

@@ -3,7 +3,7 @@ id: cappadocian.quote.basil-on-common-life
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -52,7 +52,6 @@ retrieval:
     their own"
   - "participant asks why the brotherhood held goods and necessities in common rather than each member
     keeping their own"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.becoming-one-of-us

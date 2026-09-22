@@ -3,7 +3,7 @@ id: cappadocian.story.macrina-refusal
 world_id: cappadocian-trinitarian
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -20,7 +20,7 @@ retrieval:
   retrieve_when:
   - "participant asks how or why Macrina's household became an ascetic community"
   - "participant asks about vows, fidelity, or resolve in the face of loss in this world"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants a chronicle-level, unhedged biographical fact rather than the community's own remembered founding resolve"
 relations:
 - type: associated-with

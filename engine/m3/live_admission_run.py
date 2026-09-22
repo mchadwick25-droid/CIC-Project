@@ -1,6 +1,6 @@
 """Live (real Bedrock spend) M3 admission run against alx and desert -
-Mark's explicit authorization, 2026-08-28: "authorize the live M3 run
-against alx and desert." Every prior run of this battery in this repo
+requires explicit per-run authorization, named on the command line.
+Every prior run of this battery in this repo
 (selftest.py, the CI admission-harness check, M2's own compile-time
 validation.build_admission_results) has used FixtureRecordAnswerer, the
 deterministic no-model stand-in - this is the first time the identical
@@ -43,12 +43,11 @@ from engine.provider.bedrock import make_client, normalize_usage, resolve_model_
 REPO_ROOT = Path(__file__).resolve().parents[2]
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "live-admission-report.json"
 
-# Per-run authorization is Mark's, every time, named on the command line.
-# The original hardcoded ["alx", "desert"] scope (his 2026-08-28
-# authorization for the first run) became a --worlds argument when he
-# authorized the remaining four ("lets do the other four worlds single
-# admission", same date) - the authorization discipline is unchanged: the
-# person running this passes exactly the worlds Mark authorized, and the
+# Per-run authorization is required every time, named on the command line.
+# The original hardcoded ["alx", "desert"] scope became a --worlds argument
+# once the remaining four worlds needed single admission too - the
+# authorization discipline is unchanged: the
+# person running this passes exactly the worlds authorized for the run, and the
 # report records which they were.
 DEFAULT_WORLD_KEYS = ["alx", "desert"]
 
@@ -139,7 +138,7 @@ def run(region: str, world_keys: list[str] | None = None) -> dict:
                 "checks": r.checks,
                 "usage": asdict(u),
                 # Failing probes keep their answer text so a register flag
-                # can actually be READ (Mark's read is the instrument; the
+                # can actually be READ (a human read is the instrument; the
                 # heuristic is its stand-in). Failing only, and never the
                 # probe text: an answer can paraphrase its sealed probe,
                 # so the bound stays as tight as the read requires.
@@ -170,7 +169,7 @@ def run(region: str, world_keys: list[str] | None = None) -> dict:
             "call, once per probe, for every probe in the sealed battery, per world. Token counts "
             "are measured directly from each call's own usage; no $/token or $/turn figure is quoted "
             "here (spec principle 13 - that waits on a reconciled AWS invoice, not an estimate). "
-            "Run under Mark's explicit per-run authorization for exactly the worlds listed above."
+            "Run under explicit per-run authorization for exactly the worlds listed above."
         ),
     }
     return report
@@ -180,7 +179,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--region", required=True)
     parser.add_argument("--worlds", default=",".join(DEFAULT_WORLD_KEYS),
-                        help="comma-separated world keys, exactly as Mark authorized for this run")
+                        help="comma-separated world keys, exactly as authorized for this run")
     parser.add_argument("--out", default=str(REPORT_PATH),
                         help="report path - use a distinct file so prior runs' records survive")
     args = parser.parse_args()

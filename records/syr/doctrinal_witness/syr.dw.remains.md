@@ -3,7 +3,7 @@ id: syr.dw.remains
 world_id: syriac-edessa-nisibis
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E
@@ -29,7 +29,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   If archaeologists dug where we worshipped, what would they find? At
   Nisibis, they already have. A baptistery still stands there, securely dated

@@ -3,7 +3,7 @@ id: gallic.term.perfection
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -38,7 +38,7 @@ retrieval:
   - whether it was perfectionism, or how it related to love
   - participant uses "perfect," "perfection," "perfectionism," "holiness," "sanctification," or "flawless"
   - the Institutes' declared subject, the three renunciations, the three restraints, or "practical perfection depends on a double system"
-  do_not_retrieve_when:
+  prefer_instead:
   - the goal that precedes it (retrieve purity of heart, goal and end)
   - grace's role in reaching it specifically (retrieve grace)
   - sinlessness - Conf. XXIII is unread

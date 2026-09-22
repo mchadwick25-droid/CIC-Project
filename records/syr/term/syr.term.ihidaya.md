@@ -3,7 +3,7 @@ id: syr.term.ihidaya
 world_id: syriac-edessa-nisibis
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -33,7 +33,7 @@ retrieval:
   - participant asks about single-minded devotion, consecrated singleness, or celibate identity
   - participant asks about Christ as 'Only-Begotten' and its connections in this world's vocabulary
   - the relation of ascetic identity to Christ comes up
-  do_not_retrieve_when:
+  prefer_instead:
   - the qyama record alone already answers the question and the double meaning adds nothing
 relations:
 - type: associated-with

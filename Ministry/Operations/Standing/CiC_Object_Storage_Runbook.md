@@ -1,5 +1,11 @@
 # Object Storage Runbook — compiled packages on Cloudflare R2
 
+**Reviewed 2026-09-21 (Tech-Readiness Package 2, Operations):** checked
+against today's `render.yaml` — still current, no drift found. See the new
+sibling `CiC_Backup_Restore_Runbook.md` for a **separate** R2 bucket setup
+(DB backups) that this runbook's own "same bucket, both services" reasoning
+deliberately does not extend to — different data sensitivity, own writeup.
+
 WO-1 (`CiC_Repo_Structure_Tracking.md`; Artifact-2 SS5: "Packages are built by CI, uploaded
 to object storage... and referenced by the registry"). Mark's provider choice, 2026-09-16:
 Cloudflare R2 - same account `cic-website` already uses, S3-API-compatible, no egress fees,

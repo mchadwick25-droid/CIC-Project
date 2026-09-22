@@ -3,7 +3,7 @@ id: alx.dw.was-jesus-god
 world_id: alexandria-catechetical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -39,7 +39,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.homoousios

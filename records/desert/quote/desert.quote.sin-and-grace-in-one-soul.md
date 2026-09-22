@@ -3,7 +3,7 @@ id: desert.quote.sin-and-grace-in-one-soul
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-P, F1-T]
 confidence:
@@ -33,7 +33,6 @@ retrieval:
   - "participant asks whether a believer still sins, or still struggles years later"
   - "participant asks what happens to someone who dies still fighting"
   - "participant says they converted and nothing changed, or that they feel unchanged"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.the-heart-and-the-spirit

@@ -3,7 +3,7 @@ id: witt.gravity.german-for-the-people
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

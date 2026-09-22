@@ -34,8 +34,10 @@
 # AWS_SESSION_TOKEN if the identity uses temporary credentials).
 # PHASE-1-LAUNCH.md Stage 3's own caution still holds: cic-bedrock-dev is
 # a DEV identity - production wants its own, scoped to Bedrock invoke on
-# the models actually used (CIC_API_VOICE_MODEL_PATTERN/
-# CIC_API_SAFETY_MODEL_PATTERN, left at their code defaults).
+# the models actually used. CIC_API_VOICE_MODEL_PATTERN is still left at
+# its code default; CIC_API_SAFETY_MODEL_PATTERN is pinned below (Stage
+# 0d, Build-Plan.md) to the exact profile id the safety battery was last
+# tallied against, not the loose pattern.
 #
 # TWO SERVICES, one blueprint, D3's promotion model (Repo Structure
 # Cleanup phase 3, 2026-09-15 - Ministry/Operations/Standing/
@@ -84,6 +86,25 @@
 # Scheduled WITH persistence, not after it: retention/TTL and the
 # deletion_requested writer (audit move 6) - persistence without
 # retention converts data LOSS into unbounded GROWTH.
+#
+# Backups (Tech-Readiness Package 2, 2026-09-21 -
+# Ministry/Operations/Standing/CiC_Backup_Restore_Runbook.md). The disk
+# above is the only copy of events.db/usage.db until this is set up - a
+# 1GB Render Disk is not itself a backup target (it IS the primary; a
+# backup that lives beside what it backs up protects against nothing).
+# engine/api/db_backup.py runs a daily in-process online backup (same
+# in-process-daily-thread pattern as engine/m7/scheduler.py and
+# engine/m4/idle_close.py, for the same reason: a Render Cron Job or
+# one-off Job cannot reach a disk already attached to this service) and
+# uploads to a SEPARATE Cloudflare R2 bucket from CIC_API_PACKAGE_BUCKET
+# above - these backups carry real participant transcripts and usage
+# records, a different sensitivity class from compiled world packages,
+# so they get their own credential rather than widening the package
+# bucket's own blast radius. sync: false, unset until Mark completes the
+# runbook's one-time bucket setup; until then the daily thread backs up
+# locally, verifies, and discards without uploading (logged, not fatal -
+# same deferred-until-configured pattern CIC_API_PACKAGE_BUCKET already
+# uses above).
 services:
   - type: web
     name: cic-engine
@@ -103,6 +124,19 @@ services:
         value: /data/cic_api_events.db
       - key: CIC_API_USAGE_DB
         value: /data/cic_api_usage.db
+      # Stage 0d (Build-Plan.md): pinned to the EXACT profile id the safety
+      # battery's last real tally ran against (engine/m5/reports/safety-
+      # script-run-*.json), not left at the loose "us.anthropic.claude-
+      # haiku-4-5" pattern (engine/api/config.py's code default), which
+      # would silently resolve to whatever dated profile matches that
+      # substring at deploy time - including one the battery never ran
+      # against. resolve_model_id (engine/provider/bedrock.py) still
+      # requires exactly one live match, so this exact id is refused, loud,
+      # the day it stops existing in the account rather than quietly
+      # drifting. Repin only alongside a fresh --all tally
+      # (engine/api/README.md has the full rationale).
+      - key: CIC_API_SAFETY_MODEL_PATTERN
+        value: us.anthropic.claude-haiku-4-5-20251001-v1:0
       # THE ADMISSION GATE - ON. The doors were opened by Mark, 2026-08-28,
       # in session ("open the doors, flip the switch"), the same day he
       # admitted all six worlds ("yes i admit all six worlds") on the
@@ -127,6 +161,19 @@ services:
       # accidentally ship a guessable one.
       - key: CIC_API_ADMIN_TOKEN
         sync: false
+      # Anonymous per-visitor daily cap (Tech-Readiness P1-Security item 3,
+      # 2026-09-21 - engine/api/anon_cap.py). Declared here, explicitly
+      # off, rather than left unset entirely: this is the escalation this
+      # package raised (mechanism/numbers proposed, not yet decided by
+      # Mark - see that package's Report.md), so the switch should have a
+      # visible, reviewable home in config-as-code once he decides, not a
+      # dashboard-only toggle nobody else can see the state of. Flipping
+      # to "1" also requires setting CIC_API_ANON_VISITOR_SECRET below (any
+      # random string) - the app refuses to start otherwise.
+      - key: CIC_API_ANON_CAP_ENABLED
+        value: "0"
+      - key: CIC_API_ANON_VISITOR_SECRET
+        sync: false
       - key: CIC_API_PACKAGE_CACHE_DIR
         value: /data/packages-cache
       - key: CIC_API_PACKAGE_BUCKET
@@ -136,6 +183,17 @@ services:
       - key: CIC_API_PACKAGE_BUCKET_ACCESS_KEY_ID
         sync: false
       - key: CIC_API_PACKAGE_BUCKET_SECRET_ACCESS_KEY
+        sync: false
+      # DB backups (see this file's top-of-file note) - own bucket, own
+      # credential, never CIC_API_PACKAGE_BUCKET*'s. Unset until Mark
+      # completes CiC_Backup_Restore_Runbook.md's one-time setup.
+      - key: CIC_API_BACKUP_BUCKET
+        sync: false
+      - key: CIC_API_BACKUP_BUCKET_ENDPOINT
+        sync: false
+      - key: CIC_API_BACKUP_BUCKET_ACCESS_KEY_ID
+        sync: false
+      - key: CIC_API_BACKUP_BUCKET_SECRET_ACCESS_KEY
         sync: false
 
   # STAGING (D3, phase 3, 2026-09-15). Deploys every push to `main` -
@@ -169,6 +227,12 @@ services:
         value: /data/cic_api_usage.db
       - key: CIC_ENFORCE_ADMISSION
         value: "0"
+      # Same pin, same reason, as cic-engine's own CIC_API_SAFETY_MODEL_
+      # PATTERN comment above (Stage 0d, Build-Plan.md) - staging validates
+      # against the same tallied model production runs, not a floating
+      # pattern that could quietly diverge from it.
+      - key: CIC_API_SAFETY_MODEL_PATTERN
+        value: us.anthropic.claude-haiku-4-5-20251001-v1:0
       # Own credentials, own scope - never the prod keys pointed at a
       # second service. PHASE-1-LAUNCH.md Stage 3's caution (a DEV
       # identity is not a production one) runs the other direction here:
@@ -180,6 +244,11 @@ services:
       - key: AWS_SECRET_ACCESS_KEY
         sync: false
       - key: CIC_API_ADMIN_TOKEN
+        sync: false
+      # Same feature, own secret - see cic-engine's own comment above.
+      - key: CIC_API_ANON_CAP_ENABLED
+        value: "0"
+      - key: CIC_API_ANON_VISITOR_SECRET
         sync: false
       - key: CIC_API_PACKAGE_CACHE_DIR
         value: /data/packages-cache
@@ -196,4 +265,19 @@ services:
       - key: CIC_API_PACKAGE_BUCKET_ACCESS_KEY_ID
         sync: false
       - key: CIC_API_PACKAGE_BUCKET_SECRET_ACCESS_KEY
+        sync: false
+      # DB backups - own bucket, distinct from BOTH cic-engine's backup
+      # bucket AND this service's own CIC_API_PACKAGE_BUCKET above, unlike
+      # the package bucket's sharing above: staging's events.db is
+      # synthetic verification traffic, never a real participant
+      # transcript, and has no legitimate reason to read or write into
+      # prod's own backup history - same "own credentials, own scope"
+      # reasoning this service's AWS keys already follow, applied here.
+      - key: CIC_API_BACKUP_BUCKET
+        sync: false
+      - key: CIC_API_BACKUP_BUCKET_ENDPOINT
+        sync: false
+      - key: CIC_API_BACKUP_BUCKET_ACCESS_KEY_ID
+        sync: false
+      - key: CIC_API_BACKUP_BUCKET_SECRET_ACCESS_KEY
         sync: false

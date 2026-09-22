@@ -3,7 +3,7 @@ id: cappadocian.term.agennetos
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -27,7 +27,6 @@ retrieval:
   retrieve_when:
   - the specific word 'unbegotten' and why it mattered
   - Eunomius' own claim, as opposed to his opponents' summary of it
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.akatalepsia

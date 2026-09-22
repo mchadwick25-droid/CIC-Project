@@ -3,7 +3,7 @@ id: gallic.term.customs-of-the-monasteries
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -43,7 +43,7 @@ retrieval:
   - why Gallic monks did things differently from Egyptians
   - participant uses "rule," "institutes," "customs," "Egypt," or "the East"
   - the climate clause, the dress, the entrance procedure, or Cassian's criticisms of Gallic practice
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means Vincent's rule of faith (retrieve the rule)
   - the Rule of Benedict or any later codified Rule, outside our window
   - a specific custom in its own right (retrieve the monk's dress, unceasing prayer, or junior / novice)

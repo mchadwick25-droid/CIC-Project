@@ -3,7 +3,7 @@ id: cappadocian.term.theosis
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -27,7 +27,7 @@ retrieval:
   - what salvation is or is for in this world
   - whether 'becoming god' is really the teaching
   - why the Spirit's own divinity mattered so much
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the image of God in OTHERS rather than one's own salvation -- retrieve eikon
     instead
   - the question is specifically about endless progress with no final arrival -- retrieve epektasis, which

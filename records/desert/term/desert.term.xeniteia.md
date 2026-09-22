@@ -3,7 +3,7 @@ id: desert.term.xeniteia
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F5-P]
 confidence:
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - a participant speaks of being far from everyone they love
   - questions about leaving family, homeland, or belonging
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.anachoresis

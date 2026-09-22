@@ -9,7 +9,7 @@ transfer from either precedent.
 
 ## What B-9 is, as the governing process document currently states it
 
-`reference/method/CiC_Record_Native_World_Build_Process_V1_3.md`, row B-9
+`reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`, row B-9
 (S2.9): "Change-order decisions + chunk swap. The swap makes the record
 store drive this world's production. Post-swap: render identity, full
 production eval metric-identical, baseline saved. Prompt guards added ONLY

@@ -3,7 +3,7 @@ id: cappadocian.term.eikon
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -29,7 +29,6 @@ retrieval:
   - human dignity, the image of God, or why every person matters
   - the era's stance toward slavery
   - the theological ground under care for the poor
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.anastasis

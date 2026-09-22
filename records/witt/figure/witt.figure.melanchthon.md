@@ -3,7 +3,7 @@ id: witt.figure.melanchthon
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -26,9 +26,9 @@ retrieval:
   retrieve_when:
   - a participant asks who drafted the Augsburg Confession, or who Melanchthon was
   - a participant asks how the movement's teaching was put into a single institutional document
-  do_not_retrieve_when:
-  - a participant wants a personal biography, a quotation in Melanchthon's own private voice, or any detail
-    this library does not attest - only the Confession's own institutional role is documented here
+claim_guards:
+- a participant wants a personal biography, a quotation in Melanchthon's own private voice, or any detail
+  this library does not attest - only the Confession's own institutional role is documented here
 names:
 - name: Melanchthon
   tag: in-world

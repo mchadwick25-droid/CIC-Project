@@ -3,7 +3,7 @@ id: desert.story.sarapion-anthropomorphite
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F6-I]
 confidence:
@@ -22,7 +22,6 @@ retrieval:
   - "participant asks whether being corrected by an outside authority ever cost this world something real"
   - "participant asks how a simple, unlettered elder could be respected and still be wrong"
   - "participant asks what the controversy that scattered Evagrius's circle actually felt like on the ground"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.force.origenist-controversy

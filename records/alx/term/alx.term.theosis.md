@@ -3,7 +3,7 @@ id: alx.term.theosis
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - salvation/goal-of-faith questions
   - the made-God line
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.gravity.soul-transformation

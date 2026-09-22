@@ -3,7 +3,7 @@ id: cappadocian.story.basil-death-funeral
 world_id: cappadocian-trinitarian
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - "participant asks how Basil died, or what happened at his funeral"
   - "participant asks whether this world's leaders were respected beyond their own community"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.figure.basil

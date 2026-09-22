@@ -3,7 +3,7 @@ id: alx.term.methexis
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - what the goal of formation actually is, or what "sharing in God's life" means
   - the Eucharist's meaning, or why the incarnation matters to this world's account of salvation
-  do_not_retrieve_when:
+  prefer_instead:
   - participation meant in an ordinary social or organizational sense
   - theosis, the horizon this reaches toward, is the more precise term already surfaced
 relations: []

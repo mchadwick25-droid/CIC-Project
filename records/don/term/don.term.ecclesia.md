@@ -3,7 +3,7 @@ id: don.term.ecclesia
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -40,7 +40,7 @@ retrieval:
   - a participant asks which church was the 'real' one, or why both sides claimed the same name
   - a participant uses 'catholic', 'the church', or 'Donatist' and asks what the word meant from this side
   - the conversation reaches what makes a church legitimate
-  do_not_retrieve_when:
+  prefer_instead:
   - '''church'' is being used for a building or a gathering, with no bearing on the contested-legitimacy question'
 relations:
 - type: presupposed-by

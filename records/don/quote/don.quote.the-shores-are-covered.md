@@ -3,7 +3,7 @@ id: don.quote.the-shores-are-covered
 world_id: donatism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -61,7 +61,7 @@ retrieval:
   - participant asks what we never settled, or what troubled us about ourselves
   - participant asks how we treated a group that broke away from us
   - participant asks whether we lived up to our own rule
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking about an actual shipwreck, drowning, or violent death - the imagery is figurative
 relations:
 - type: associated-with

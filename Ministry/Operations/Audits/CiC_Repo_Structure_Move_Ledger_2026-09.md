@@ -173,3 +173,80 @@ per this project's own default-actions rule for CI/path fixes).
   audit entries describing an intentionally non-existent `worlds/Alexandria/` path
   (`CiC_Cleaning_Pattern_Log.md`, `desert`'s own Doc_03 review) — all baselined, not
   edited, since editing them would falsify what they correctly say.
+
+---
+
+## Housekeeping — Ministry tree triage — 2026-09-21 — PR branch `housekeeping/ministry-archive-2026-09-21`
+
+Mark's tech-review stress test (thread "CiC — Tech Review & Funding Readiness Prep") identified all early-days strategy drafts (prior to 2026-08-20 system redesign) as superseded material. Files moved per Mark's one-at-a-time review: six categories decided, three document types with special handling, tracked below. Convention: files moved to `Archive/Ministry-Early-Days-2026-07/` preserving the Ministry subpath structure (e.g., `Ministry/Funding/FILE` → `Archive/Ministry-Early-Days-2026-07/Funding/FILE`), except Hosted-Tour which goes beside existing archive at `Archive/Tour-Experience-Module-Phase2/Hosted-Tour-Phase1/`.
+
+**Category A. Move to Archive (90 files + folders)**
+
+| from | to | kind | count |
+|---|---|---|---|
+| `Ministry/Funding/CiC_Ministry_Funding_Strategy_v1_0.docx` | `Archive/Ministry-Early-Days-2026-07/Funding/CiC_Ministry_Funding_Strategy_v1_0.docx` | file | 13 |
+| `Ministry/Funding/CiC_Org_Funding_Bridge_Memo_V0_1_DRAFT.docx` | `Archive/Ministry-Early-Days-2026-07/Funding/...` | file | |
+| `Ministry/Funding/CiC_Org_Funding_Strategy_Scoping_2026-07-07.md` | `Archive/Ministry-Early-Days-2026-07/Funding/...` | file | |
+| `Ministry/Funding/CiC_OrgFunding_Thread_Launch_2026-07-07.md` | `Archive/Ministry-Early-Days-2026-07/Funding/...` | file | |
+| `Ministry/Funding/CiC_Church_Designated_Fund_OnePager_V0_1_DRAFT.docx` | `Archive/Ministry-Early-Days-2026-07/Funding/...` | file | |
+| `Ministry/Funding/CiC_World_Sponsorship_OnePager_V0_1_DRAFT.docx` | `Archive/Ministry-Early-Days-2026-07/Funding/...` | file | |
+| `Ministry/Funding/CiC_Wabash_Pilot_OnePager_V0_1_DRAFT.docx` | `Archive/Ministry-Early-Days-2026-07/Funding/...` | file | |
+| `Ministry/Funding/CiC_Seminary_Alignment_Analysis_V0_1_DRAFT.docx` | `Archive/Ministry-Early-Days-2026-07/Funding/...` | file | |
+| `Ministry/Funding/CiC_Growth_Plan_V0_1_DRAFT.docx` | `Archive/Ministry-Early-Days-2026-07/Funding/...` | file | |
+| `Ministry/Funding/CiC_Ministry_Proposal_Packet_V0_1_DRAFT.docx` | `Archive/Ministry-Early-Days-2026-07/Funding/...` | file | |
+| `Ministry/Funding/CiC_BuildApproach_Budget_Proposals_V1_0.xlsx` | `Archive/Ministry-Early-Days-2026-07/Funding/...` | file | |
+| `Ministry/Funding/CiC_Phase1_Budget_V0_1_DRAFT.xlsx` | `Archive/Ministry-Early-Days-2026-07/Funding/...` | file | |
+| `Ministry/Funding/CiC_Funding_Docs_Brand_Alignment_Change_Log_2026-07-18.md` | `Archive/Ministry-Early-Days-2026-07/Funding/...` | file | |
+| `Ministry/Marketplace/*` (3 files) | `Archive/Ministry-Early-Days-2026-07/Marketplace/` | files | 3 |
+| `Ministry/Organization/*` (7 files; see byte check below) | `Archive/Ministry-Early-Days-2026-07/Organization/` | files | 7 |
+| `Ministry/Scholarly-Review/*` (6 files; V0_2 kept) | `Archive/Ministry-Early-Days-2026-07/Scholarly-Review/` | files | 6 |
+| `Ministry/Features/Funding-Strategy/*` (4 files) | `Archive/Ministry-Early-Days-2026-07/Features/Funding-Strategy/` | files | 4 |
+| `Ministry/Features/Website/*` (3 files; Decision-Log.md and README.md kept; note: 3 files not found) | `Archive/Ministry-Early-Days-2026-07/Features/Website/` | files | 0 |
+| `Ministry/Features/Increment-1-Build/` | `Archive/Ministry-Early-Days-2026-07/Features/Increment-1-Build/` | dir | 3 |
+| `Ministry/Features/Level2-Mobile-Popover/` | `Archive/Ministry-Early-Days-2026-07/Features/Level2-Mobile-Popover/` | dir | 3 |
+| `Ministry/Features/Hosted-Tour/` | `Archive/Tour-Experience-Module-Phase2/Hosted-Tour-Phase1/` | dir | 4 |
+| `Ministry/Features/Prototype-Testing/CiC_Prototype_Testing_Pilot_Plan_DRAFT_V0_1.md` | `Archive/Ministry-Early-Days-2026-07/Features/Prototype-Testing/...` | file | 1 |
+| `Ministry/Operations/Standing/Launch-Prompts/*` (33 files; 5 kept: launched 2026-09-16 or later, or with 2026-09-21+ date) | `Archive/Ministry-Early-Days-2026-07/Operations/Standing/Launch-Prompts/` | files | 33 |
+| `Ministry/Operations/Markup-Queue/` | `Archive/Ministry-Early-Days-2026-07/Operations/Markup-Queue/` | dir | 3 |
+| `Ministry/Communication/*` (19 files; 6 kept: live kit and decision logs) | `Archive/Ministry-Early-Days-2026-07/Communication/` | files | 19 |
+
+**Total Category A: 90 files and 4 directories moved.**
+
+**Byte check (Category A, PDF uniqueness test):**
+
+| pair | result | detail |
+|---|---|---|
+| `Faithways_Studio_Bylaws_and_Resolutions_SIGNABLE.pdf` vs `Faithways_Studio_Bylaws_and_Organizational_Resolutions_SIGNABLE_2026-07-27.pdf` | DIFFERENT | 104028 vs 8214 bytes |
+| `Faithways_Studio_IP_Assignment_Agreement_SIGNABLE.pdf` vs `Faithways_Studio_IP_Assignment_Agreement_SIGNABLE_2026-07-27.pdf` | DIFFERENT | 95421 vs 5846 bytes |
+| `Faithways_Studio_Shareholder_Agreement_SIGNABLE.pdf` vs `Faithways_Studio_Shareholder_Agreement_SIGNABLE_2026-07-27.pdf` | DIFFERENT | 70784 vs 5235 bytes |
+
+**Decision:** per instructions "when in doubt leave it," the undated versions were not moved; both versions stay in place as originals.
+
+**Files not found (expected, already archived or renamed):**
+
+- `Ministry/Features/Website/CiC_Website_Alexandria_Status_Fix_Thread_Launch_2026-07-20.md`
+- `Ministry/Features/Website/CiC_Website_Simple_Landing_Thread_Launch_2026-07-24.md`
+- `Ministry/Features/Website/CiC_Website_Thread_Launch_2026-07-19.md`
+
+**Category B. Supersession banners added (5 files kept in place):**
+
+| file | banner | location |
+|---|---|---|
+| `CiC_Go_Live_Cost_Model_V0_1.md` | "Superseded 2026-08-24..." | `Ministry/Funding/` |
+| `CiC_LLM_Provider_Cost_Options_2026-08-09.md` | "Premised on the retired cic-poc..." | `Ministry/Technology/` |
+| `CiC_Business_Roadmap_V0_1.md` | "Partly superseded..." | `Ministry/Features/Funding-Strategy/` |
+| `CiC_Cost_Study_Per_Transaction_V0_1.md` | "cic-poc measurement..." | `Ministry/Features/Funding-Strategy/` |
+| `CiC_Cost_Reduction_Feasibility_Study_V0_1.md` | "cic-poc; Answer Bank recommendation..." | `Ministry/Features/Funding-Strategy/` |
+
+**Category C. Small edits (5 tasks):**
+
+- **C1:** Created `Ministry/Communication/README.md` with standing-status notice for FAQ and Letter-to-Friends docx files (python-docx unavailable; fallback per instructions).
+- **C2:** Extracted Organizational Covenant for "always-free core access" sentence — text searched, phrase not found in extracted XML; noted in PR description. Covenant remains in place; roadmap already references this as an open task (line 54).
+- **C3:** Updated `Ministry/Features/README.md` to annotate Hosted-Tour, Increment-1-Build, Level2-Mobile-Popover archive moves.
+- **C4:** Appended 2026-09-21 decision log entry to `Ministry/Funding/CiC_Org_Funding_Decision_Log.md` (tech-review verdict, entity supplement exploration, tech-readiness program dispatch).
+- **C5:** This ledger entry; added tracking file entry; updated `Ministry/Operations/README.md` to note Markup-Queue archived 2026-09-21.
+
+**Path check:**
+
+`python3 tools/check_paths.py --baseline tools/check_paths_baseline.txt`: 0 new unresolved citations, 0 retired paths present. Executed without --baseline first to gather the delta; all 90 moves produced citations within the expected Ministry/Operations audit and decision-log files describing them. Baseline regenerated with `--regenerate` after verifying all are Ministry-internal prose references or file-move audit records.
+

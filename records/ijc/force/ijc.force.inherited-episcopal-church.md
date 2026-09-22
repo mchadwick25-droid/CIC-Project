@@ -3,7 +3,7 @@ id: ijc.force.inherited-episcopal-church
 world_id: imperial-juridical
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I

@@ -3,7 +3,7 @@ id: pahc.quote.in-living-water
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -36,7 +36,6 @@ retrieval:
   - "participant asks how these people baptised, and whether babies were baptised"
   - "participant asks whether they were born again or what baptism did"
   - "participant asks how much the exact form of a rite mattered here"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.term.baptisma

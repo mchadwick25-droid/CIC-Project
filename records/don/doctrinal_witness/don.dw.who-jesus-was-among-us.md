@@ -3,7 +3,7 @@ id: don.dw.who-jesus-was-among-us
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -44,7 +44,6 @@ retrieval:
   - participant asks who Jesus was to us, or what our good news was
   - participant asks what Jesus taught that mattered most among us
   - participant asks what his death and resurrection meant to us
-  do_not_retrieve_when: []
 text: >-
   Start with the part that will surprise you: on Christ himself we said
   what our opponents said. Word for word, creed for creed. Nobody in

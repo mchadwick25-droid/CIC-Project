@@ -3,7 +3,7 @@ id: syr.dw.born-again-endtimes
 world_id: syriac-edessa-nisibis
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -29,7 +29,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Were we born again - is that how we would put it? We would recognize the
   words at once. Our churches sang of baptism as a womb, of the shining

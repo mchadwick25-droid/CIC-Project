@@ -3,7 +3,7 @@ id: desert.quote.taor-not-compelled-to-market
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -44,7 +44,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they wore and whether clothing mattered"
   - "participant asks whether they went out, into town or to market, and how often"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

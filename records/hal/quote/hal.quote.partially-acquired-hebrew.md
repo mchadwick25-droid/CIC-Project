@@ -3,7 +3,7 @@ id: hal.quote.partially-acquired-hebrew
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -28,7 +28,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they learned Hebrew and how well"
   - "participant asks how confident they really were in the languages they used"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108, the
 passage on Paula's Hebrew; the file's line-wrap artifact in 'unceasingly'

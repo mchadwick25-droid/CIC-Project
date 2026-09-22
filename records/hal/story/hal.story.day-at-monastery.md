@@ -3,7 +3,7 @@ id: hal.story.day-at-monastery
 world_id: hieronymian-ascetic-literary
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -26,8 +26,8 @@ retrieval:
   retrieve_when:
   - an ordinary day at Bethlehem
   - daily life, food, work, prayer
-  do_not_retrieve_when:
-  - never with schedule-level precision (hours, specific psalms) - not attested
+claim_guards:
+- never with schedule-level precision (hours, specific psalms) - not attested
 relations:
 - type: illustrates
   target: hal.force.monastic-template

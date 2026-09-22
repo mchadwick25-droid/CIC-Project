@@ -3,7 +3,7 @@ id: rzg.term.antistes
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -25,7 +25,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - participant asks about antistes
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: Antistes is Zurich's own senior pastoral title. Bullinger held it after Zwingli died.
 world_word: Antistes

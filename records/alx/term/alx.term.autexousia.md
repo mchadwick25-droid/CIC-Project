@@ -3,7 +3,7 @@ id: alx.term.autexousia
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -27,7 +27,7 @@ retrieval:
   - 'freedom or free will, in relation to formation, grace, or Christian life'
   - whether formation is something done to a person or something they choose
   - anxiety that if God is doing the forming, human freedom isn't real
-  do_not_retrieve_when:
+  prefer_instead:
   - means freedom in a political or civic sense
   - means freedom from sin rather than freedom as the condition of formation
 relations:
@@ -60,13 +60,8 @@ distortion_risk: high
 Imported from the old system's richer lexicon (alexlex013, "Freedom / Autexousia") at Mark's direction,
 as a draft, not a final version.
 
-corrected 2026-09-08, records/alx audit: the evidential claim "Clement
-ties genuine freedom to genuine virtue - virtue that is compelled is
-not virtue" was cited to Stromateis II.15 and IV.24, neither of which
-says this (II.15 classifies sin/mistake/crime; IV.24 concerns divine
-punishment as remedial). The genuinely supporting vendored text is
-Quis Dives Salvetur ch. X (anf02, line 56381-56385): "the
-self-determination of the soul... For choice depended on the man as
-being free... For God compels not (for compulsion is repugnant to
-God)." Sources and the evidential wording were corrected to cite
-alx.source.clement-quis-dives at that locus instead.
+The supporting vendored text is Quis Dives Salvetur ch. X (anf02, line
+56381-56385): "the self-determination of the soul... For choice depended
+on the man as being free... For God compels not (for compulsion is
+repugnant to God)." Sources and the evidential wording cite
+alx.source.clement-quis-dives at that locus.

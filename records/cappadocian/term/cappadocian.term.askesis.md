@@ -3,7 +3,7 @@ id: cappadocian.term.askesis
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - fasting, discipline, or ascetic practice generally
   - why extreme ascetics would be corrected rather than praised
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.adelphotes

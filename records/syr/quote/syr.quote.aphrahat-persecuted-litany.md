@@ -3,7 +3,7 @@ id: syr.quote.aphrahat-persecuted-litany
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether they were persecuted and how they made sense of it"
   - "participant asks how they read their own suffering against the scriptures"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: syr.gravity.persecution-endurance

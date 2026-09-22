@@ -3,7 +3,7 @@ id: pahc.story.justin-sunday-gathering
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks what a Sunday gathering actually looked like"
   - "participant wants a directly-attested, not reconstructed, worship description"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs Strand A's eucharistic material - use pahc.story.one-eucharist-under-bishop instead, without blending the two"
 relations:
 - type: associated-with

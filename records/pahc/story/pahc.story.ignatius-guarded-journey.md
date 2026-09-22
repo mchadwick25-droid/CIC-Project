@@ -3,7 +3,7 @@ id: pahc.story.ignatius-guarded-journey
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -26,7 +26,7 @@ retrieval:
   - "participant asks about martyrdom or facing death for faith"
   - "participant asks how early leaders understood church authority"
   - "participant wants a concrete example of the correspondence network in action"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant is in acute personal crisis around death, dying, or grief"
   - "encounter is too early-stage to responsibly hold the authenticity dispute"
 relations:
@@ -93,24 +93,11 @@ retrofitted. All five gravity relations restated from Doc_09's own
 Section 2/3 connection data (G01, G02, G04, G05, G07) - this is this
 world's single most gravity-concentrated story.
 
-FIXED at Step 9 round-1 review: this record's own absent_detail
-previously claimed no source confirms Ignatius's death occurred as
-anticipated, full stop - contradicted by Polycarp's own letter to the
-Philippians (already registered as pahc.source.polycarp-philippians),
-which speaks of Ignatius in ch. 9 as already "in their due place in
-the presence of the Lord, with whom also they suffered," alongside
-Zosimus and Rufus. Both quotations checked directly against
-cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml. Restated to
-disclose the actual tension: ch. 9 implies Ignatius's death had
-already occurred, while ch. 13 of the same letter still asks for
-"more certain information... respecting both Ignatius himself, and
-those that were with him" - a tension the source's own compositional-
-unity question (chs. 1-12 usually dated earlier than chs. 13-14)
-already carries, not resolved here. pahc.source.polycarp-philippians
-added to this record's own sources list accordingly. Per that source
-record's own transmission caveat, the ch. 13 quotation rests on the
-Latin transmission (the Greek breaks off mid-sentence at 9.2, fused to
-Barnabas 5.7) - disclosed here rather than presented as equally
-Greek-attested alongside the ch. 9 quotation.
+Both quotations checked directly against
+cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml. Per
+pahc.source.polycarp-philippians's own transmission caveat, the ch. 13
+quotation rests on the Latin transmission (the Greek breaks off
+mid-sentence at 9.2, fused to Barnabas 5.7), disclosed here rather than
+presented as equally Greek-attested alongside the ch. 9 quotation.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

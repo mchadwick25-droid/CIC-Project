@@ -3,7 +3,7 @@ id: alx.story.leonides-martyrdom
 world_id: alexandria-catechetical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - the cost of belonging
   - persecution as lived experience
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: alx.gravity.martyrdom-contemplative-tension

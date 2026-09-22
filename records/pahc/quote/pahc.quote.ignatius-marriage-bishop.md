@@ -3,7 +3,7 @@ id: pahc.quote.ignatius-marriage-bishop
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -32,13 +32,8 @@ retrieval:
   retrieve_when:
   - "participant asks what marriage meant to them and whether there were weddings"
   - "participant asks how far a leader's approval reached into private life"
-  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 v, To Polycarp ch. 5 (v.viii.v), shorter recension -
 the recension discipline pahc.source.ignatius-letters names as
 load-bearing. Direct textual ground for pahc.witness.marriage-and-wealth.
-FIXED at Step 8 round-1 review: restored the sentence-initial "But,"
-silently dropped in an earlier draft, matching this batch's own
-convention (elsewhere) of marking every elision rather than trimming
-silently.

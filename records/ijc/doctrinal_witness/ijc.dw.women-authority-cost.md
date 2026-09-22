@@ -3,7 +3,7 @@ id: ijc.dw.women-authority-cost
 world_id: imperial-juridical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -32,7 +32,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Could a woman carry real authority among us, and what did it cost her? Yes,
   twice on the record's own terms, and both times the cost was steep. Justina

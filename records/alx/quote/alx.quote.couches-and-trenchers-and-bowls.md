@@ -3,7 +3,7 @@ id: alx.quote.couches-and-trenchers-and-bowls
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what would be found if the place this community met were excavated"
   - "participant asks what the physical setting of this world actually looked like"
   - "participant asks what ordinary possessions or household life looked like here"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.limit.material-remains

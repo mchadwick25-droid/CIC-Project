@@ -3,7 +3,7 @@ id: rzg.ambient.disputation-crowd-scale
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: ambient
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -19,7 +19,6 @@ sources:
 retrieval:
   tier: 3
   retrieve_when: []
-  do_not_retrieve_when: []
 relations: []
 detail: On the appointed day, six hundred people filled Zurich's own Town Hall -- priests and laymen from
   across the canton, together with delegates sent by the bishop of Constance himself -- to hear a dispute

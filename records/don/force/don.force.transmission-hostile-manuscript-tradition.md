@@ -3,7 +3,7 @@ id: don.force.transmission-hostile-manuscript-tradition
 world_id: donatism
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F2-E

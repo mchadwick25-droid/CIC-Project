@@ -3,7 +3,7 @@ id: desert.quote.when-the-cross-of-christ-arose
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-I]
 confidence:
@@ -26,7 +26,6 @@ retrieval:
   - "participant asks what difference Jesus made, or what changed because of him"
   - "participant asks what the cross meant to this world"
   - "participant asks why these people were not afraid to die"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.jesus

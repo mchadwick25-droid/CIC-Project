@@ -3,7 +3,7 @@ id: gallic.term.the-monks-dress
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -36,7 +36,7 @@ retrieval:
   - why Cassian changed the Egyptian dress for Gaul
   - participant uses "habit," "robe," "cowl," "tunic," "uniform," "clothing"
   - Institutes I; the climate clause; Marmoutier's camel's hair; the stripping and reclothing of the novice
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about sackcloth specifically (retrieve sackcloth and ashes)
   - the Benedictine or later "habit" as a uniform - a Named Comparandum, outside our window
   - the novice's reclothing as a rite (retrieve junior / novice)

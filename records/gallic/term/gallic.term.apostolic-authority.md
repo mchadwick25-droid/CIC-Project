@@ -3,7 +3,7 @@ id: gallic.term.apostolic-authority
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -46,7 +46,7 @@ retrieval:
   - what "apostolic" means in each writer
   - participant uses "apostolic," "apostle," "apostolic succession," "like the apostles"
   - Vita VII; Vita XX before Maximus; Inst. IV.43's ladder; Piamun on the coenobium's origin; Vincent's Apostolic See
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means Rome specifically (retrieve Apostolic See / Pope)
   - the saint's power as such (retrieve virtus / power)
   - '"apostolic succession" as a later doctrine of orders - not our vocabulary'

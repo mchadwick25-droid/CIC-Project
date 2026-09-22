@@ -4,43 +4,59 @@
  * sourcing" is listed as its own track, distinct from "inline citations
  * (the ✲ marker)"). Before this, a cited story or quote fell through to
  * the generic CitationMark and read exactly like any other citation -
- * author/work/locus, nothing naming it as a story. Mark's own correction
- * (2026-08-25): a story's mark should hover with what a participant
- * actually wants to check for a story specifically - its reference code,
- * the English source it's drawn from, and the story's own title.
+ * author/work/locus, nothing naming it as a story. A story's mark should
+ * hover with what a participant actually wants to check for a story
+ * specifically - its reference code, the English source it's drawn from,
+ * and the story's own title.
  *
  * Same purple, same ✲, same InlineBridge grammar as every other track -
  * only the content and the record_types it fires for (story, quote) are
  * different. Placed exactly where CitationMark used to sit for these
- * citations: right after the sentence that told the story.
+ * citations: right after the sentence that told the story (R10, RULED c,
+ * 2026-09-21 - a story's mark stays at the run's end).
+ *
+ * `repeat` and `contested` are CSS-only modifiers (app.css
+ * .citation-mark--repeat/--contested) - same glyph, same color, same
+ * verb, per R9's and R10's own design constraints; see VoiceTurnBody.tsx's
+ * renderFromTransparencyPlan for where these are computed.
  */
 import type { SourceCard } from '../types/conversation';
+import { confidencePhrase } from '../lib/confidence';
 import { InlineBridge } from './InlineBridge';
 import { SourceList } from './SourceList';
 
 interface StoryMarkProps {
   sources: SourceCard[]; // pre-filtered by the caller to record_type "story" | "quote"
+  repeat?: boolean;
+  contested?: boolean;
 }
 
-export function StoryMark({ sources }: StoryMarkProps) {
+export function StoryMark({ sources, repeat, contested }: StoryMarkProps) {
+  const markClassName = ['citation-mark', 'story-mark', repeat && 'citation-mark--repeat', contested && 'citation-mark--contested']
+    .filter(Boolean)
+    .join(' ');
   return (
     <InlineBridge
       label=" ✲"
-      markClassName="citation-mark story-mark"
+      markClassName={markClassName}
       ariaLabel={`Where this ${sources.length === 1 ? 'story' : 'story and quote'} comes from`}
       level2={
         <>
-          {sources.map((card) => (
-            <div key={card.record_id} className="story-mark__entry">
-              <p className="story-mark__title">{card.label}</p>
-              {card.sources.map((s) => (
-                <p key={s.source_id} className="story-mark__source">
-                  {s.work ?? s.source_id}
-                  {s.author && ` — ${s.author}`}
-                </p>
-              ))}
-            </div>
-          ))}
+          {sources.map((card) => {
+            const phrase = confidencePhrase(card.confidence);
+            return (
+              <div key={card.record_id} className="story-mark__entry">
+                <p className="story-mark__title">{card.label}</p>
+                {card.sources.map((s) => (
+                  <p key={s.source_id} className="story-mark__source">
+                    {s.work ?? s.source_id}
+                    {s.author && ` — ${s.author}`}
+                  </p>
+                ))}
+                {phrase && <p className="story-mark__confidence">{phrase}</p>}
+              </div>
+            );
+          })}
         </>
       }
       level3Title="Where this story comes from"

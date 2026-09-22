@@ -3,7 +3,7 @@ id: witt.term.promise-and-testament
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -42,7 +42,7 @@ retrieval:
   retrieve_when:
   - promise, or testament
   - why the mass is not a sacrifice we offer
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Sacrament of the Altar's whole doctrine (retrieve Sacrament of the Altar)
 relations:
 - type: associated-with

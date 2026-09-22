@@ -3,7 +3,7 @@ id: witt.term.saints
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -38,7 +38,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - saints, or invocation of the saints
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means Christ's own unique role specifically (retrieve Christ alone)
 relations:
 - type: associated-with

@@ -3,7 +3,7 @@ id: desert.quote.three-kinds-of-monks
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -41,7 +41,6 @@ retrieval:
   - "participant asks whether everyone lived the same way or there were different kinds"
   - "participant asks about the difference between living alone and living together"
   - "participant asks whether some ways of living were looked down on"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.withdrawal}
 ---

@@ -3,7 +3,7 @@ id: alx.term.sophia
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what formation is for, or how to tell someone has been formed
   - whether intellectual depth and holiness go together
-  do_not_retrieve_when:
+  prefer_instead:
   - wisdom meant only as practical prudence or good decision-making
   - the conversation is specifically about the knowledge/gnosis stage that precedes wisdom
 relations: []

@@ -3,7 +3,7 @@ id: cappadocian.dw.cost-and-the-letters-that-held-us
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -36,7 +36,6 @@ retrieval:
   - "participant asks whether belonging to this world cost anyone family, friends, or standing"
   - "participant is far from people they love and asks what held this world's people together across
     distance"
-  do_not_retrieve_when: []
 text: >-
   Belonging cost real relationships here, not only in theory. One of our
   closest friendships, formed at school and remembered for years as one

@@ -3,7 +3,7 @@ id: don.dw.silver-and-the-goods-of-the-poor
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -46,7 +46,6 @@ retrieval:
   retrieve_when:
   - participant asks how we looked at money and poverty, or whether anyone among us was rich
   - participant asks what marriage meant to us or whether we had weddings
-  do_not_retrieve_when: []
 text: >-
   Was anyone among us rich? Yes, and we know her name, and we know the
   sum. Lucilla of Carthage gave four hundred pieces of silver, and the

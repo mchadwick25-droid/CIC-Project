@@ -3,7 +3,7 @@ id: cappadocian.dw.not-a-death-wish
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether wanting to die as a martyr and calling it faithfulness is really just a
     death wish"
-  do_not_retrieve_when: []
 text: >-
   We did not go looking for it. The martyrs we honored most were soldiers
   condemned under one of the last empire-wide persecutions and left to

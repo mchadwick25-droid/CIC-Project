@@ -3,7 +3,7 @@ id: hal.quote.dispute-to-learn
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether a woman could question a teacher and argue back"
   - "participant asks what study together actually looked like"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 127 sec.
 7; 'them' = the scriptures, from the preceding sentence). Marcella's

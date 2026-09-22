@@ -3,7 +3,7 @@ id: pahc.witness.outside-our-community
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -30,7 +30,6 @@ retrieval:
   - "participant asks whether this world's own way was too narrow"
   - "participant asks about divorce"
   - "participant asks what the neighbours thought of them, and what was said about them locally"
-  do_not_retrieve_when: []
 relations: []
 positions:
 - "One of us, Justin, argued that anyone who 'lived reasonably' - even Socrates, even Heraclitus, even the barbarians' own righteous figures, born before Christ - was in some real sense already a Christian, whether or not they were ever thought so."
@@ -64,6 +63,3 @@ athenagoras-theophilus-clement-alexandria.xml, div1 ii (ii.iii.iv).
 This record deliberately holds the Justin/Two-Ways tension unresolved
 in both positions and text, per the verification discipline's own rule
 against silently resolving what this world's own sources leave open.
-FIXED at Step 8 round-1 review: added the Didache's own representativeness
-limit ("one community's church-order manual... must not be silently
-generalized to network-wide practice"), previously dropped here.

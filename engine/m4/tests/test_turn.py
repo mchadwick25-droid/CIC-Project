@@ -6,11 +6,12 @@ CiC_System_Hub_Decision_Log.md), and its crisis-resources append fires
 unconditionally regardless of what the fake client is configured to
 stream.
 """
+import threading
 from types import SimpleNamespace
 
 
 from engine.m4 import turn as turn_module
-from engine.m4.turn import run_turn
+from engine.m4.turn import run_gate, run_turn, run_voice_turn_for_world
 from engine.m4.world_loader import LoadedWorld
 
 
@@ -348,8 +349,86 @@ def test_ordinary_turn_wires_a_real_evidence_block_into_the_user_message():
     assert ask_text in user_message  # the participant's own message still rides alongside the evidence block
 
 
+def test_secondary_context_reaches_evidence_assembly_and_fills_a_gap_cell():
+    """Stage 4f (Build-Plan.md): run_voice_turn_for_world's own
+    secondary_context param (the table's additions - None on every
+    interview call) threads through to evidence.assemble_evidence and can
+    find ground an off-canon participant_message alone would not. Same
+    real-fleet-canon discipline as the evidence-block wiring test above,
+    not a synthetic cell id."""
+    from engine.m1.loader import load_fleet_records
+    from engine.m4.evidence import match_asks_to_cells
+
+    secondary_text = "who was Jesus, to you and your people"
+    canon_questions = load_fleet_records()
+    matches = match_asks_to_cells(message="", asks=[{"text": secondary_text}], canon_questions=canon_questions, top_n=1)
+    assert matches, "the real fleet canon should match at least one cell for this ask - if not, the fixture ask needs updating, not this test"
+    cell = matches[0]["cell"]
+
+    world = LoadedWorld(
+        world_key="fix",
+        manifest_hash="sha256:test",
+        prompt_text="## Identity\nVera, Witness.",
+        capsule_text="capsule",
+        repository={"records": [{"id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "text": "We did not claim to have seen him ourselves."}]},
+        quotes={"quotes": []},
+        figures={},
+        coverage={cell: {"doctrinal_witness": ["fix.witness.who-is-jesus"], "terms": [], "stories": [], "quotes": [], "honest_limit": [], "gravities": [], "forces": [], "contested_claims": []}},
+        frame={},
+    )
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=world,
+        participant_message="What is the weather like today?", directive=None, session_id="test-session",
+        secondary_context=secondary_text,
+    )
+
+    system, messages = client.messages.captured_stream_calls[0]
+    user_message = messages[0]["content"]
+    assert "[[fix.witness.who-is-jesus]]" in user_message
+
+
+def test_secondary_context_defaults_to_none_and_changes_nothing():
+    """Every interview call omits secondary_context - confirms the default
+    keeps run_voice_turn_for_world byte-identical to before this stage."""
+    from engine.m1.loader import load_fleet_records
+    from engine.m4.evidence import match_asks_to_cells
+
+    ask_text = "who was Jesus, to you and your people"
+    canon_questions = load_fleet_records()
+    matches = match_asks_to_cells(message="", asks=[{"text": ask_text}], canon_questions=canon_questions, top_n=1)
+    cell = matches[0]["cell"]
+
+    world = LoadedWorld(
+        world_key="fix",
+        manifest_hash="sha256:test",
+        prompt_text="## Identity\nVera, Witness.",
+        capsule_text="capsule",
+        repository={"records": [{"id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "text": "We did not claim to have seen him ourselves."}]},
+        quotes={"quotes": []},
+        figures={},
+        coverage={cell: {"doctrinal_witness": ["fix.witness.who-is-jesus"], "terms": [], "stories": [], "quotes": [], "honest_limit": [], "gravities": [], "forces": [], "contested_claims": []}},
+        frame={},
+    )
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(asks=[{"order": 1, "text": ask_text}]),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=world,
+        participant_message=ask_text, directive=None, session_id="test-session",
+    )
+    system, messages = client.messages.captured_stream_calls[0]
+    assert "[[fix.witness.who-is-jesus]]" in messages[0]["content"]
+
+
 def test_already_bridged_figures_reach_the_voice_as_an_already_introduced_line():
-    """Mark's pilot read (2026-08-30): both Chloe turns opened "One of us,
+    """A pilot read found both Chloe turns opened "One of us,
     Ignatius" - already_bridged_figure_ids kept the second UI mark from
     firing but never reached the voice. The set now also resolves to
     spoken names and rides in the evidence block, so the voice knows the
@@ -898,3 +977,32 @@ def test_a_capped_turn_still_attributes_its_gate_calls():
     )
     assert {r.call_kind for r in result.usage_records} == {"safety_call", "reader_call"}
     assert all(r.session_id == "test-session" for r in result.usage_records)
+
+
+def test_gate_calls_run_concurrently_not_sequentially():
+    """Stage 0a (Build-Plan.md): call_safety and call_reader used to run
+    strictly sequentially inside run_gate. A two-party barrier blocks each
+    fake call until both have actually started - if the two calls were
+    still sequential, the first would block forever waiting for a second
+    call that cannot start until the first returns, and the barrier would
+    time out with BrokenBarrierError. Concurrent execution clears it
+    immediately, proving both calls are genuinely in flight at once, not
+    merely that both eventually happen."""
+    barrier = threading.Barrier(2, timeout=2.0)
+
+    class _BarrierMessages:
+        def create(self, *, model, max_tokens, tools, tool_choice, messages, system=None, timeout=None):
+            barrier.wait()
+            name = tool_choice["name"]
+            responses = {"submit_safety_classification": _safety("NO_SIGNAL"), "submit_reader_output": _reader()}
+            return SimpleNamespace(content=[_FakeToolUse(name, responses[name])], usage=_FAKE_USAGE)
+
+    client = SimpleNamespace(messages=_BarrierMessages())
+    gate_run = run_gate(
+        session_id="test-session", safety_client=client, safety_model_id="m",
+        participant_message="who was Jesus", pressed={}, anachronistic_term_ids=set(),
+    )
+    assert gate_run.safety_outcome.status == "ok"
+    assert gate_run.reader_outcome.status == "ok"
+    # Fixed append order regardless of which future actually completed first.
+    assert [r.call_kind for r in gate_run.usage_records] == ["safety_call", "reader_call"]

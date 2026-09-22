@@ -3,7 +3,7 @@ id: gallic.story.honoratus-and-the-island
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -37,10 +37,11 @@ retrieval:
   - participant uses "island," "Lerins," "founder," "reluctant bishop"
   - conversation reaches the monk-bishop at the Lerins node in the node's own Latin, the harbour image of Egypt as the measure, or the cross-node capture-shape
   - Representative needs the one story Lerins's own insiders tell of Lerins
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking about daily life at Lerins - this story does not describe it, and nothing in our evidence does
   - participant wants Honoratus's later episcopate at Arles as history - the sermon is a disciple's funeral eulogy, and this story stops at the island
-  - participant wants exact wording - the Representative must not quote this record's English as Hilary's, only as a rendering
+claim_guards:
+- participant wants exact wording - the Representative must not quote this record's English as Hilary's, only as a rendering
 relations:
 - type: associated-with
   target: gallic.figure.honoratus

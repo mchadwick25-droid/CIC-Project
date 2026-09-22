@@ -35,6 +35,33 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- work: An Address to Demetrianus (Ad Demetrianum)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise V
+  role: tradition
+  confidence: assigned
+  note: 'Cross-linked 2026-09-16 from a Source Readiness Dossier finding. Cyprian himself
+    is not one of this entry''s core authors (Tertullian, Felix, Arnobius, Lactantius, Commodian);
+    this is the first Cyprian material in this bucket. A genuine apology addressed to a hostile
+    pagan outsider (Demetrianus, a proconsul blaming Christians for plague, famine, and war)
+    - squarely the genre this entry exists to hold, not merely an adjacent congregational
+    text.
+
+    '
+  source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: On the Vanity of Idols (Quod Idola Dii Non Sint)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise VI
+  role: transmission
+  confidence: provisional
+  note: 'Cross-linked 2026-09-16 from a Source Readiness Dossier finding. Filed as transmission,
+    not tradition, given the same disputed authorship already noted above - but that dependency
+    cuts both ways for this entry specifically: it compiles Tertullian and Minucius Felix,
+    both already primary authors here, which makes it a plausible transmission-tier link even
+    while its own authorship stays contested.
+
+    '
+  source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: The Octavius of Minucius Felix
   author: felix
   locus: div2 4.3 - The Octavius of Minucius Felix
@@ -136,6 +163,30 @@ works:
     a separate entry - the choice it made (Carthage/Tertullian''s corpus over the New Prophecy
     guess) is unaffected and still stands.'
   source_file: anf03_tertullian.xml
+- work: The Passion of the Holy Martyrs Perpetua and Felicitas
+  author: passion_of_perpetua
+  locus: pp. 60-95 of the printed volume
+  role: tradition
+  confidence: assigned
+  note: 'Latin/Greek second witness for the ALREADY-PRESENT English-language entry in latin-apologists.yaml
+    (source_file anf03_tertullian.xml, corrected here, independent review Round 25''s own
+    L5, from an earlier draft''s own "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml,"
+    carried over by mistake from the sibling Scillitan-Martyrs assignment above in this same
+    file; anf03_tertullian.xml carries the work in full, printed as an Appendix, while anf09
+    names it only in editorial footnotes), per Mark''s own 2026-08-26 ruling assigning this
+    work there rather than to any Latin-pastoral bucket. This file does not reassign it --
+    mirrors the existing ruling exactly. Re-pointed 2026-09-21 (source-readiness dossier pass
+    on the Greek and Latin apologist candidates): the atlas_id tertullian-s-voice this entry
+    named is retired -- Mark''s 2026-09-10 ruling (recorded in worlds/latap/Step0_Movement_Scope_Confirmation.md
+    Rev. 6) merged tertullian-s-voice (I.17) into latin-apologists (I.43), and every one of
+    Tertullian''s own 32 works in anf03/anf04 was repointed accordingly by that ruling''s
+    own merge run -- this single sibling file was missed. (Contrary to this file''s own accompanying
+    task brief, which described Perpetua''s Passion as "not yet assigned to any world''s corpus
+    map" -- independently checked before writing this entry and found already assigned, per
+    the ruling cited above; corrected here rather than silently re-asserted.)
+
+    '
+  source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
 - work: A Treatise on the Soul (De Anima)
   author: tertullian
   locus: div2 4.11 under div1 'Apologetic.'

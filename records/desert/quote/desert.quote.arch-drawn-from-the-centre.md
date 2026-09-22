@@ -3,7 +3,7 @@ id: desert.quote.arch-drawn-from-the-centre
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -37,7 +37,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they kept their mind from wandering"
   - "participant asks what they did about distraction, boredom, or a restless head during prayer"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---

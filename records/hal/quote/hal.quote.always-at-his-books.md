@@ -3,7 +3,7 @@ id: hal.quote.always-at-his-books
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-E
@@ -28,7 +28,6 @@ retrieval:
   retrieve_when:
   - "participant asks what an ordinary day of work looked like"
   - "participant asks how a visitor described the household from outside"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf211. An outside
 visitor's eyewitness sketch of the Bethlehem scholar at work, c. 400 - the

@@ -3,7 +3,7 @@ id: witt.story.prayer-for-rain-1532
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -30,7 +30,7 @@ retrieval:
   - a participant asks about the whole congregation, communal prayer, or this world's anxiety about complacency
   - a participant asks whether ordinary people, not just Luther and his students, ever appear together
     in this library
-  do_not_retrieve_when:
+  prefer_instead:
   - presenting the rain's timing as independently verified meteorological fact
   - a participant wants a story of a village's own ordinary Sunday - this is a documented public event,
     not typical parish life (see witt-ABS-01, the refused candidate, for why no such story exists)

@@ -3,7 +3,7 @@ id: hal.term.origenism
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - what this world argued about among itself
   - the broken friendship with Rufinus
-  do_not_retrieve_when: []
 plain_meaning: The fight in the 390s over the teachings of Origen. It broke our oldest friendship
   and set us against our own bishop.
 world_word: the Origenist controversy

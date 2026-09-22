@@ -3,7 +3,7 @@ id: gallic.term.renunciation
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -39,7 +39,7 @@ retrieval:
   - why a renunciant could still become a bishop
   - participant uses "renounce," "give up," "leave the world," "detachment," or "poverty"
   - Pinufius's charge to the new monk, Abraham's "Get thee out," Martin's counsel to Sulpitius, or Salvian's half-renounced rich
-  do_not_retrieve_when:
+  prefer_instead:
   - conversion as the day of entry (retrieve conversion)
   - the baptismal renunciation of the devil as such - Salvian's referent, universal and pre-monastic
   - the goal the renunciation serves (retrieve purity of heart)

@@ -3,7 +3,7 @@ id: alx.quote.origen-gospel-firstfruits
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they ranked the books they read"
   - "participant asks what they looked for in a gospel"
-  do_not_retrieve_when: []
 ---
 How the tradition ranked what it read: all Scripture, the Gospels its
 firstfruits, John the firstfruits of the Gospels. Verified verbatim.

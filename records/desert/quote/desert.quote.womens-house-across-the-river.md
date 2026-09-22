@@ -3,7 +3,7 @@ id: desert.quote.womens-house-across-the-river
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -52,7 +52,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether there were women's communities and where they were"
   - "participant asks how men and women in this world were kept apart, and what crossed between them"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.koinonia

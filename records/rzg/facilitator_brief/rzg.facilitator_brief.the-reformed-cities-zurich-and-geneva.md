@@ -395,8 +395,8 @@ Anabaptist/exclusivity item grounded in `rzg.witness.defending-the-
 anabaptist-suppression` and `rzg.witness.a-narrow-true-church`, both of
 which state plainly, in first person, that the suppression was not
 argument alone and that the refused alternatives were held to be
-actually wrong; the Zwingli/Calvin item grounded directly in `records/
-worlds/rzg.yaml`'s own `doorway_description`.
+actually wrong; the Zwingli/Calvin item grounded directly in
+`records/worlds/rzg.yaml`'s own `doorway_description`.
 
 `living_tradition_handling`: grounded in `rzg.force.no-external-ending-
 force`, `rzg.force.selective-reception-four-descendant-traditions`, and

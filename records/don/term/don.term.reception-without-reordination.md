@@ -3,7 +3,7 @@ id: don.term.reception-without-reordination
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic-unavailable
 canon_cells:
 - F6-I
@@ -36,7 +36,7 @@ retrieval:
   - a participant asks whether the purity doctrine was ever applied inconsistently
   - a participant asks about the Maximianist schism and how it ended
   - the conversation reaches the strongest objection the opposing side actually made
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about rebaptism as a practice generally, without reaching the internal exception
 relations:
 - type: tension-with

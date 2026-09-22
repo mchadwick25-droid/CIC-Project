@@ -3,7 +3,7 @@ id: don.force.diocletianic-traditio-demand
 world_id: donatism
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

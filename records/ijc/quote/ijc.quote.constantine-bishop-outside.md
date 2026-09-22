@@ -3,7 +3,7 @@ id: ijc.quote.constantine-bishop-outside
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - "participant asks what role the emperor claimed in the church"
   - "participant asks whether a ruler could call himself a kind of bishop"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.contested.bishop-of-those-outside}
 ---

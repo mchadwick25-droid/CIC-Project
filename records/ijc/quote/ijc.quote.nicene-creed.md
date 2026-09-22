@@ -3,7 +3,7 @@ id: ijc.quote.nicene-creed
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -36,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks what the creed says and who wrote it"
   - "participant asks whether a council voted on who Jesus was"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 ---

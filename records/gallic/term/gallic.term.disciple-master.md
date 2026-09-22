@@ -3,7 +3,7 @@ id: gallic.term.disciple-master
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -46,7 +46,7 @@ retrieval:
   - whether Martin had "students," or who taught whom at Lerins
   - participant uses "disciple," "master," "mentor," "student," "spiritual father," or "apprentice"
   - Marmoutier's eighty, Clarus, Paulinus as "the object of our imitation," Vincent's "not a teacher but a disciple," or Chaeremon's authority "fixed in the heart of his hearer"
-  do_not_retrieve_when:
+  prefer_instead:
   - the mechanism of imitation as such (retrieve example / imitation)
   - the senior's judgment of thoughts (retrieve elder / senior / abbot, disclosure of thoughts)
   - Christ's own disciples in Scripture

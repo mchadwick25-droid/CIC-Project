@@ -3,7 +3,7 @@ id: desert.quote.antony-on-living-near-kin
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -44,7 +44,6 @@ retrieval:
   - "participant asks whether you had to leave your family to live this way"
   - "participant asks whether the life could be lived at home, in a town, among relatives"
   - "participant asks what was owed to parents and kin"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.withdrawal}
 ---

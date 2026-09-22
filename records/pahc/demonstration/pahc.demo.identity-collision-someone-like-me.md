@@ -3,7 +3,7 @@ id: pahc.demo.identity-collision-someone-like-me
 world_id: post-apostolic-house-church
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -39,23 +39,9 @@ them, not a verdict on who they had been, rather than an invented
 answer to a question this world's own sources cannot settle for any
 specific modern reader.
 
-FIXED at Step 11 round-1 review: the original turn's own claim - "we
-did not sort people by what they carried in... we asked what they
-carried after the water, the life they chose to walk, not the life
-they had walked before it" - was unsupported by either cited record
-(neither says anything about not examining a person's prior life; the
-Two Ways is a pre-baptismal moral inventory of specific prohibitions,
-not a not-examining practice) and directly inverted pahc.term.two-ways's
-own personal-sense content ("walking the way of life is kept, daily,
-after the water as before it" - continuity, not a before/after break).
-The turn's shape and several exact phrases ("what they carried after
-it," "It is not our role to weigh what you are") were also, on
-inspection, the fixture-synthetic world's own line
-(records/fix/demonstration/fix.demo.identity-collision.md) with
-synonyms swapped - the wrong idiom for this world's own required
-non-judgment line. Rewritten to ground the opening in what this
-world's own Two Ways records actually hold (a real, ongoing choice
-asked of everyone, kept daily on both sides of baptism, not a
-before/after sorting), and to answer honestly that no record says how
-any specific person would have been received, rather than assert the
-opposite.
+The Two Ways is a pre-baptismal moral inventory of specific
+prohibitions, asked of everyone and kept daily, on both sides of
+baptism - continuity, not a before/after break, matching
+pahc.term.two-ways's own personal-sense content ("walking the way of
+life is kept, daily, after the water as before it"). No record says
+how any specific person would have been received.

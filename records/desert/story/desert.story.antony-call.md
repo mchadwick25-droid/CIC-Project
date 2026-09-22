@@ -3,7 +3,7 @@ id: desert.story.antony-call
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -25,7 +25,6 @@ retrieval:
   - "participant asks how someone actually became part of this world - what the process looked like"
   - "participant asks how scripture was read or heard, or what people looked for in it"
   - "participant asks what a total, irrevocable commitment actually looked like in practice"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.scriptural-engagement

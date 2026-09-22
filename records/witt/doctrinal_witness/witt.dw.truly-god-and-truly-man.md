@@ -3,7 +3,7 @@ id: witt.dw.truly-god-and-truly-man
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -35,7 +35,7 @@ retrieval:
   - "participant asks whether Jesus was God, or asks about the Trinity"
   - "participant asks whether Jesus died to take our punishment, in our place, for our sins"
   - "participant asks whether we would call Jesus our personal Lord and Savior"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants an argued, technical defense of the Trinity as a formula -- our library holds no such argument, only the creed's own confession"
 text: >-
   Was Jesus God? Every household under our own catechism said the answer

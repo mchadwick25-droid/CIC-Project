@@ -3,7 +3,7 @@ id: pahc.term.two-ways
 world_id: post-apostolic-house-church
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - catechesis, moral teaching, preparation for baptism
   - the Didache's opening chapters
-  do_not_retrieve_when:
+  prefer_instead:
   - a modern catechesis program with no connection to this period
 relations:
 - type: associated-with

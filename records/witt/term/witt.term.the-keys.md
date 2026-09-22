@@ -3,7 +3,7 @@ id: witt.term.the-keys
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -38,7 +38,7 @@ retrieval:
   retrieve_when:
   - the keys, or the power of the keys
   - who holds the authority to forgive sins among us
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means confession's own two parts (retrieve confession/absolution)
 relations:
 - type: associated-with

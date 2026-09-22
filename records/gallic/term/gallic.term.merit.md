@@ -3,7 +3,7 @@ id: gallic.term.merit
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -41,7 +41,7 @@ retrieval:
   - why a miracle is asked "by his merits"
   - participant uses "merit," "earn," "deserve," "works-righteousness," "reward"
   - Conf. XIII.12's warning about the merits of the saints; Conf. I.15; the dumb girl healed "by his pious merits"
-  do_not_retrieve_when:
+  prefer_instead:
   - the broader doctrine is the question (retrieve grace (of God))
   - the participant means the saint's power as such (retrieve virtus / power)
   - any attempt to source this term from Salvian

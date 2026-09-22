@@ -38,7 +38,7 @@ class WorldNotAdmitted(Exception):
 # The registry states a participant-facing session may be built on once
 # enforcement is on (Artifact-1 SS2's lifecycle: built -> admitted -> open;
 # `built` means gates-green + compiled, NOT validated by the live admission
-# battery or Mark's read). The fixture world never reaches these states, so
+# battery or human review). The fixture world never reaches these states, so
 # enforcement also closes the fixture-session hole for free.
 ADMITTED_STATES = frozenset({"admitted", "open"})
 
@@ -208,13 +208,13 @@ def list_worlds(*, world_loader: LazyWorldLoader, registry: dict, require_admitt
                 "world_key": world_key,
                 "census_id": entry.get("census_id"),
                 "display_name": frame.get("display_name"),
-                # BOTH name registers (Mark's ruling, 2026-08-28): card_name
+                # BOTH name registers are kept: card_name
                 # is the friendly participant-facing name ("the right
                 # picture in their mind"), display_name the scholarly one
                 # ("to show rigor"). The registry owns both.
                 "card_name": entry.get("card_name") or frame.get("display_name"),
-                # Registry-owned participant-facing doorway paragraph (Mark's
-                # plain-English direction, 2026-08-28), same registry-first
+                # Registry-owned participant-facing doorway paragraph, plain
+                # English, same registry-first
                 # pattern as card_name. `horizon` below is the world_core's
                 # model-facing self-description and stays served as the
                 # fallback for a registry entry that hasn't authored one.

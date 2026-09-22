@@ -3,7 +3,7 @@ id: alx.quote.demetrius-accused-him-bitterly
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-P
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks how this world handled its own leaders' failures"
   - "participant asks whether the tradition hid conflict between its teachers and its bishops"
   - "participant asks why Origen left Alexandria"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.church-failure

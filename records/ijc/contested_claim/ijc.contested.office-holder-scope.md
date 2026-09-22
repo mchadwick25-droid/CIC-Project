@@ -3,7 +3,7 @@ id: ijc.contested.office-holder-scope
 world_id: imperial-juridical
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F5-I

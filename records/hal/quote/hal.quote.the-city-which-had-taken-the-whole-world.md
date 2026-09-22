@@ -3,7 +3,7 @@ id: hal.quote.the-city-which-had-taken-the-whole-world
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether there was a moment everything changed for these people"
   - "participant asks what the fall of Rome meant to this world"
   - "participant asks how this world would describe being made new"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.practices

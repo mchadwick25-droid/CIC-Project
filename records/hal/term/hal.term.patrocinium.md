@@ -3,7 +3,7 @@ id: hal.term.patrocinium
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - who held authority in this world and how
   - how the scholarship and the monasteries were paid for
-  do_not_retrieve_when: []
 plain_meaning: The voluntary, wealth-based bond by which a patron sustains a scholar's work. Among
   us it stood where church office stands elsewhere.
 world_word: patrocinium

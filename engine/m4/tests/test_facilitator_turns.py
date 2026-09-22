@@ -9,6 +9,7 @@ Christianity" vs. its card_name "Church and Empire")."""
 from engine.api.wiring import ADMITTED_STATES
 from engine.m1.registry import formation_world_keys, load_registry
 from engine.m4 import facilitator_turns
+from engine.m4.facilitator_turns import SYSTEM_NATURE
 
 
 def test_door_turn_interpolates_world_name_not_display_name():
@@ -43,3 +44,41 @@ def test_every_admitted_formation_world_has_a_card_name():
     assert admitted  # sanity: the assertion below actually exercises something
     missing = [k for k in admitted if not registry[k].get("card_name")]
     assert missing == []
+
+
+"""SYSTEM_NATURE's own words are participant-facing honesty text, ruled
+directly by Mark (R18, Decision-Log.md Entry 29, corrected wording ruled
+2026-09-22) - not free for a future edit to drift back toward
+overclaiming ("checked against the record it came from") without
+noticing. Pins the ruled middle sentences exactly; PR #383 shipped an
+earlier reword with no such pin, which is how the wording needed a
+second correction the same week."""
+
+
+def test_system_nature_states_the_ruled_verification_sentences():
+    assert (
+        "Before you see an answer, each claim in it is checked to make sure "
+        "its words come from the record it names."
+    ) in SYSTEM_NATURE.text
+    assert "The record itself was checked against the sources when the world was built." in SYSTEM_NATURE.text
+    assert (
+        "Where the record is silent, the voice is built to say so, not to fill the gap."
+    ) in SYSTEM_NATURE.text
+
+
+def test_system_nature_does_not_overclaim_truth_verification():
+    """The R18 defect PR #383 first fixed: wording that reads as verifying
+    the underlying history, not just the record's own wording."""
+    assert "checked against the record it came from" not in SYSTEM_NATURE.text
+    assert "every specific claim in it is checked against the record" not in SYSTEM_NATURE.text
+
+
+def test_table_seat_correction_turn_names_the_seat_and_carries_its_own_kind():
+    """The seat-identity guard's fallback line (Decision-Log.md Entry 47) -
+    pinned so a future edit can't silently drop the seat's own name or
+    drift its kind back onto an existing one ("safety" is a different,
+    unrelated situation - TABLE_DEPENDENCY_CHECK's own)."""
+    event = facilitator_turns.table_seat_correction_turn("Papnoute")
+    assert event["kind"] == "seat_correction"
+    assert "Papnoute" in event["text"]
+    assert "Facilitator" in event["text"]

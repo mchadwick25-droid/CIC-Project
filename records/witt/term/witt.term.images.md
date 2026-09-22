@@ -3,7 +3,7 @@ id: witt.term.images
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -34,7 +34,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - images, icons, or iconoclasm
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means saints or their invocation as the primary subject (retrieve saints)
 relations:
 - type: associated-with

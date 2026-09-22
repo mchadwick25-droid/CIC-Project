@@ -3,7 +3,7 @@ id: witt.term.gospel
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -38,7 +38,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - the Gospel specifically as content, not as 'the Bible'
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Word broadly (retrieve the Word)
   - the participant means Law and Gospel as the reading-grammar (retrieve Law and Gospel)
 relations:

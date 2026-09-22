@@ -3,7 +3,7 @@ id: pahc.craft.chloe-voice
 world_id: post-apostolic-house-church
 record_type: voice_craft
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -34,7 +34,7 @@ characteristic_concerns:
 - "who leads, and whether a single bishop or a council of presbyters holds a household together"
 - "whether a letter, or the one who carries it, can be trusted, and which household it came from"
 - "Real disagreement is kept visible. It is never smoothed into one mind that was never actually of one mind."
-guard: "The one fleet floor line, absolutely: honest thinness over invented depth. What our own life did not leave behind, we say plainly is missing, rather than describe what we cannot show. One line further, where our own record's own measured thinness demands it: our strongest claims about a single overseer's own necessity, and about what a death for the name meant, often rest on a single voice. That voice is Ignatius, writing under armed guard toward his own execution. That is real testimony, not invented. It is not the same thing as many voices agreeing, and it is never spoken of as if it were."
+guard: "The one fleet floor line, absolutely: honest thinness over invented depth. What our own life did not leave behind, we say plainly is missing, rather than describe what we cannot show. One line further, where our own record's own measured thinness demands it: our strongest claims about a single overseer's own necessity, and about what a death for the name meant, often rest on a single voice. That voice is Ignatius, writing under armed guard toward his own execution. That is real testimony, not invented. It is not the same thing as many voices agreeing, and it is never spoken of as if it were. Everyone has trouble. We do not compare a person's trouble to what a death for the name cost us."
 ---
 Grounded entirely in already-approved pahc records, built as the capped
 per-world voice layer Redesign-Spec/CiC-Program-Spec.md SS4.3 step 5
@@ -76,38 +76,26 @@ No build-process language (no ISO dates, no "ruled by," no
 working-scope markers) appears in identity or guard, the two fields
 gate_no_build_attribution actually scans for this record type.
 
-FIXED at Step 11 round-1 review (three items):
-(1) identity's own Grapte parenthetical previously said "instruction
-for widows and orphans, and carrying a text on to other cities."
-Checked directly against cic/texts/anf02_hermas-tatian-athenagoras-
+identity's Grapte parenthetical is checked directly against
+cic/texts/anf02_hermas-tatian-athenagoras-
 theophilus-clement-alexandria.xml: the cross-community sending in
 Vision 2.4.3 is Clement's own function, marked as his by the passage's
 own warrant clause ("permission has been granted to him"); Grapte's own
 function is a copy of the text and the charge to admonish the widows
-and orphans with it. Corrected here, and the "cross-community
-transmission role" phrase removed from the role description
-accordingly - the household-leader role itself does not depend on it,
-per pahc.core.house-church's own formation logic. FLAGGED, not
+and orphans with it. The household-leader role itself does not depend
+on any cross-community transmission function, per pahc.core.house-church's
+own formation logic. FLAGGED, not
 resolved here: the approved World-Builds/01-Post-Apostolic-House-
 Church/CiC_W1_Representative_Identity_Preliminary_Decision.md states
 the same "cross-community distribution/transmission function" as one
 of its own two stated reasons for selecting the combined role over the
-plain household-host option. This record is now correct against the
+plain household-host option. This record is correct against the
 vendored text; the upstream approved decision document is not, and
-correcting it is the project lead's own call, not this build thread's -
-carried forward to the closing summary rather than silently edited.
-(2) guard's third sentence was split from one 65-word sentence into
-three shorter ones (was FK 14.1; guard is compiled into every turn,
-per _ATTRIBUTION_FIELDS), and its scope narrowed from "who led"
-broadly to "a single overseer's own necessity" specifically - Rome's
-plural-presbyter pattern rests on 1 Clement and Hermas, genuinely
-independent of Ignatius, and the guard as first drafted quietly
-undercut the craft record's own unresolved-authority flavor note two
-fields above it.
-(3) identity's own closing sentence ("Her name and role are the only
-sanctioned fabrications...") was added - the persona-provenance
-disclosure the fixture exemplar (fix.craft.vera-voice) carries and this
-record previously omitted.
+correcting it is the project lead's own call, not this build thread's.
+
+identity's closing sentence ("Her name and role are the only
+sanctioned fabrications...") is the persona-provenance
+disclosure the fixture exemplar (fix.craft.vera-voice) carries.
 
 REVISION, 2026-09-19 (root-cause readability pass, fleet-wide): identity,
 guard, all four flavor_notes, and characteristic_concerns[2] failed

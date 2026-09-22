@@ -3,7 +3,7 @@ id: desert.quote.never-kneel-saturday-to-sunday
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F4-I
@@ -45,7 +45,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks what prayer actually looked like, physically, during the weekly gathering"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks whether this posture rule was distinctive to ascetic communities - it was ordinary early-church practice, not a monastic invention"
 relations:
 - {type: illustrates, target: desert.term.synaxis}

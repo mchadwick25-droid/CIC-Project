@@ -3,7 +3,7 @@ id: don.gravity.parallel-hierarchy
 world_id: donatism
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -15,8 +15,7 @@ confidence:
     Doc_04 SS3.4: CONSISTENT. The BARE INSTITUTIONAL FACT - that two complete, rival hierarchies existed and
     contested the same sees - is Documented to an unusually high degree even by this world's hostile-source
     standards: Optatus, Augustine, and the imperial and conciliar record all agree it happened, down to precise
-    bishop counts at the 411 Conference (279 Donatist against 286 Catholic, corrected 2026-09-09 from an earlier
-    unverified 284 figure). What remains hostile-mediated is INDIVIDUAL BISHOPS' OWN CONDUCT AND MOTIVES -
+    bishop counts at the 411 Conference (279 Donatist against 286 Catholic). What remains hostile-mediated is INDIVIDUAL BISHOPS' OWN CONDUCT AND MOTIVES -
     Optatus Gildonianus's characterisation is Doc_04's own example - and the two must not be merged. The institutional
     fact itself carries no comparable Author Gravity risk. Separately, and disclosed rather than smoothed:
     this record's confidence about the hierarchy's institutional continuity ends precisely where the vendored

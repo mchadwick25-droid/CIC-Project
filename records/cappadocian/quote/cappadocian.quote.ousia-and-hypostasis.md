@@ -3,7 +3,7 @@ id: cappadocian.quote.ousia-and-hypostasis
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -45,7 +45,6 @@ retrieval:
   retrieve_when:
   - "participant asks how ousia and hypostasis actually work, in the letter's own words"
   - "participant asks whether this is just abstract philosophy with no real content"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.was-jesus-god

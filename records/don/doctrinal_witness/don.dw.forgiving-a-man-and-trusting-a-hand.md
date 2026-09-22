@@ -3,7 +3,7 @@ id: don.dw.forgiving-a-man-and-trusting-a-hand
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -39,7 +39,6 @@ retrieval:
   - participant asks how to forgive someone who is not sorry
   - participant asks what our way of life offered someone whose mind would not quiet
   - participant asks whether we knew the silence of praying and getting nothing
-  do_not_retrieve_when: []
 text: >-
   How do you forgive someone who is not sorry? We can meet you on that
   one, because it is the question we spent a century on - though you may

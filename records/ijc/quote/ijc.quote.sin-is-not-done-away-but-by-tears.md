@@ -3,7 +3,7 @@ id: ijc.quote.sin-is-not-done-away-but-by-tears
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks how to forgive someone who is not sorry"
   - "participant asks what repentance was understood to require here"
   - "participant asks whether forgiveness could be given before it was asked for"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.limit.inner-life

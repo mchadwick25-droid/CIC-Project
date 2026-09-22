@@ -3,7 +3,7 @@ id: ijc.quote.no-power-but-of-god
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -52,7 +52,6 @@ retrieval:
   - "participant asks whether obedience to a ruler was owed no matter who the ruler was"
   - "participant asks how they read the passage about the powers that be being ordained of God"
   - "participant asks whether clergy were subject to the state like everyone else"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: ijc.gravity.church-state-alliance

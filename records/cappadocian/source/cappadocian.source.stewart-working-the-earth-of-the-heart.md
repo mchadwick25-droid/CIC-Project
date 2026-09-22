@@ -3,7 +3,7 @@ id: cappadocian.source.stewart-working-the-earth-of-the-heart
 world_id: cappadocian-trinitarian
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -27,4 +27,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 104; a specific 
 external_ids:
   cappadocian_source_registry_row: 104
 ---
-Messalianism specifically, SS5 debate (8) -- previously credited to Caner alone (row 104).
+Messalianism specifically, SS5 debate (8) (row 104).

@@ -3,7 +3,7 @@ id: gallic.term.junior-novice
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -32,7 +32,7 @@ retrieval:
   - what a new monk had to do first, or what "novice" meant
   - participant uses "novice," "postulant," "novitiate," "beginner," or "junior"
   - the ten days at the door, the search for a coin, the stripping and reclothing, the guest-house year, or the dean over ten
-  do_not_retrieve_when:
+  prefer_instead:
   - Tours, which has "disciples" and "the brethren of younger years" but no probationary grade (retrieve disciple / master)
   - the Benedictine novitiate as a canonical year
   - the elder's side of the relationship (retrieve elder / senior / abbot)

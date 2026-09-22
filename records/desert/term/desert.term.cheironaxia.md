@@ -3,7 +3,7 @@ id: desert.term.cheironaxia
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F5-I, F5-T]
 confidence:
@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - what people did for work and how they lived
   - questions about money, self-support, or giving to the poor
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.anachoresis

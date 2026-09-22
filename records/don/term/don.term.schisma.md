@@ -3,7 +3,7 @@ id: don.term.schisma
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -28,7 +28,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - a participant calls this movement a schism, or asks who split from whom
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about later or unrelated church schisms
 relations:
 - type: associated-with

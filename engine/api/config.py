@@ -17,10 +17,27 @@ _DEFAULT_SAFETY_MODEL_PATTERN = "us.anthropic.claude-haiku-4-5"
 _DEFAULT_EVENTS_DB = "./cic_api_events.db"
 _DEFAULT_USAGE_DB = "./cic_api_usage.db"
 _DEFAULT_WORLD_KEY = "fix"
+_DEFAULT_ANON_DAILY_SESSION_LIMIT = 5
+_DEFAULT_ANON_DAILY_TURN_LIMIT = 150
 
 
 class MissingConfigError(Exception):
     """Raised on a required env var that's absent - never silently defaulted."""
+
+
+class WeakAdminTokenError(Exception):
+    """Raised on a set-but-too-short CIC_API_ADMIN_TOKEN (2026-09-21,
+    closing adversarial review of Tech-Readiness P1-Security). The route
+    this token gates is now rate-limited (engine/api/ratelimit.py,
+    ADMIN_LIMIT), but that limiter's whole job is making a short, weak
+    token infeasible to brute-force in a reasonable time by slowing an
+    attacker down - a token short enough to guess outright makes the
+    limiter irrelevant, not redundant-but-safe. 32 chars is a floor, not
+    a target: `python -c "import secrets; print(secrets.token_urlsafe(32))"`
+    comfortably clears it."""
+
+
+_MIN_ADMIN_TOKEN_LENGTH = 32
 
 
 def _float_or_none(raw: str | None) -> float | None:
@@ -45,9 +62,9 @@ class Settings:
     # exists; this flag is when it BITES: only admitted/open worlds are
     # listed or seated, interview and table alike. The code default stays
     # off (local dev and tests construct their own stages), but the
-    # DEPLOYED value is "1": Mark flipped the doors open on 2026-08-28
-    # ("open the doors, flip the switch"), the same day he admitted all
-    # six worlds - render.yaml carries the flip and its record; the
+    # DEPLOYED value is "1": the doors are open,
+    # the same day all six worlds were admitted - render.yaml carries the
+    # flip and its record; the
     # declared deferral this flag was born with is ended.
     enforce_admission: bool
     # Gates /api/admin/pilot-summary (2026-09-05: "how many pilot
@@ -72,6 +89,17 @@ class Settings:
     # rule region already follows above, so duplicating those fields
     # here would just be a second place for them to drift.
     package_cache_dir: Path
+    # Anonymous per-visitor daily cap (Tech-Readiness P1-Security item 3,
+    # 2026-09-21) - OFF by default everywhere, including a real deploy that
+    # hasn't opted in yet. See engine.api.anon_cap's own module docstring:
+    # the mechanism and the two numbers below are the PROPOSED default from
+    # that package's report, not yet a decision Mark has made. Flipping
+    # this on with no secret set is a hard failure (below), not a silent
+    # skip - same "never guess" posture as region/admin_token above.
+    anon_cap_enabled: bool
+    anon_visitor_secret: str | None
+    anon_daily_session_limit: int
+    anon_daily_turn_limit: int
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -82,6 +110,12 @@ class Settings:
                 "(same rule every other live script in this repo follows)"
             )
         worlds_yaml_path = Path(os.environ.get("CIC_API_WORLDS_YAML", str(REPO_ROOT / "records" / "worlds")))
+        admin_token = os.environ.get("CIC_API_ADMIN_TOKEN") or None
+        if admin_token is not None and len(admin_token) < _MIN_ADMIN_TOKEN_LENGTH:
+            raise WeakAdminTokenError(
+                f"CIC_API_ADMIN_TOKEN is set but only {len(admin_token)} chars - "
+                f"needs at least {_MIN_ADMIN_TOKEN_LENGTH} (e.g. secrets.token_urlsafe(32))"
+            )
         return cls(
             region=region,
             voice_model_pattern=os.environ.get("CIC_API_VOICE_MODEL_PATTERN", _DEFAULT_VOICE_MODEL_PATTERN),
@@ -91,7 +125,13 @@ class Settings:
             worlds_yaml_path=worlds_yaml_path,
             default_world_key=os.environ.get("CIC_API_DEFAULT_WORLD_KEY", _DEFAULT_WORLD_KEY),
             enforce_admission=os.environ.get("CIC_ENFORCE_ADMISSION", "") in ("1", "true", "yes"),
-            admin_token=os.environ.get("CIC_API_ADMIN_TOKEN") or None,
+            admin_token=admin_token,
             world_idle_unload_seconds=_float_or_none(os.environ.get("CIC_API_WORLD_IDLE_UNLOAD_SECONDS")),
             package_cache_dir=Path(os.environ.get("CIC_API_PACKAGE_CACHE_DIR", str(REPO_ROOT / "packages"))),
+            anon_cap_enabled=os.environ.get("CIC_API_ANON_CAP_ENABLED", "") in ("1", "true", "yes"),
+            anon_visitor_secret=os.environ.get("CIC_API_ANON_VISITOR_SECRET") or None,
+            anon_daily_session_limit=int(
+                os.environ.get("CIC_API_ANON_DAILY_SESSION_LIMIT", _DEFAULT_ANON_DAILY_SESSION_LIMIT)
+            ),
+            anon_daily_turn_limit=int(os.environ.get("CIC_API_ANON_DAILY_TURN_LIMIT", _DEFAULT_ANON_DAILY_TURN_LIMIT)),
         )

@@ -3,7 +3,7 @@ id: gallic.term.the-religious
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -28,7 +28,7 @@ retrieval:
   - participant meets "the religious" or "servants of God" in Salvian
   - what a non-monk in Marseilles called the monks
   - Gov. I.2, V.10, or VIII.4
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means "religious" as an adjective of piety - the modern hearing this entry corrects
   - the question is about the monk from inside (retrieve monk / solitary)
   - any grace-related question - Salvian's text is not licensed for it

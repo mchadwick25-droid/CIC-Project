@@ -3,7 +3,7 @@ id: rzg.witness.one-conviction-two-enactments
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -30,7 +30,6 @@ retrieval:
   - participant asks why Zurich and Geneva count as one reform rather than two separate ones
   - conversation is ready to hear Disputation and catechesis as two enactments of one conviction rather
     than two unrelated practices
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.gravity.scripture-sole-authority-disputation-catechesis

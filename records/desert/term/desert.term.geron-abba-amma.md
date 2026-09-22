@@ -3,7 +3,7 @@ id: desert.term.geron-abba-amma
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F3-I, F6-P]
 confidence:
@@ -24,7 +24,6 @@ retrieval:
   - who held authority and how anyone came to have it
   - questions about spiritual guidance, mentors, or obedience
   - whether a woman could carry real authority in this world
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.diakrisis

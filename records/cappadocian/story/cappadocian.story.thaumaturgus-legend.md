@@ -3,7 +3,7 @@ id: cappadocian.story.thaumaturgus-legend
 world_id: cappadocian-trinitarian
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks about this world's own origin story or founding legend"
   - "participant asks how the region came to be Christian at all"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants a historically checkable account rather than this world's own founding legend, told as legend"
 relations:
 - type: associated-with

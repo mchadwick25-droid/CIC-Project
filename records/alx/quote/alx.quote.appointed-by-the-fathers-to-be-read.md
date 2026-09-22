@@ -3,7 +3,7 @@ id: alx.quote.appointed-by-the-fathers-to-be-read
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks which writings this world treated as scripture"
   - "participant asks how the canon was decided or who decided it"
   - "participant asks about books that did not make it into the Bible"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.apostolic

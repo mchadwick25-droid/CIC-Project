@@ -3,7 +3,7 @@ id: syr.story.edessa-flood-201
 world_id: syriac-edessa-nisibis
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - this world's earliest attested trace, or how old the Edessa church is
   - how the community's own past was preserved (archive versus testimony)
-  do_not_retrieve_when:
+  prefer_instead:
   - requests for eyewitness or first-person accounts of the flood (none exist)
 relations:
 - type: associated-with

@@ -3,7 +3,7 @@ id: pahc.contested.martyrdom-polycarp-dating
 world_id: post-apostolic-house-church
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F2-E
@@ -42,12 +42,9 @@ four dating-disputed sources, given its own genre markers (hagiographic
 convention, later redactional layers) - a closer fit than for the
 Didache or 1 Clement dating disputes, which are authorship/composition-
 date disputes about non-legendary genres and remain uncovered by this
-specific question. FIXED at Step 7 round-1 review: this note previously
-reasoned as if F2-E's other three questions (f2-e-01, f2-e-03, f2-e-04)
-were also ruled out by the same "not legendary" logic, when in fact
-f2-e-01 is a genuine, separate match for pahc.contested.ignatius-dating
-(now claimed there) - this record's own exclusion reasoning is scoped
-to f2-e-02 only, not to the whole cell.
+specific question. This record's own exclusion reasoning is scoped
+to f2-e-02 only, not to the whole cell; f2-e-01 is a separate match
+claimed by pahc.contested.ignatius-dating.
 
 confidence block downgraded to B/named-not-rechecked at the same
 review, for consistency with this batch's other three dating-dispute

@@ -20,12 +20,6 @@ entire session.
 
 ---
 
-## Version History
-
-v1.0 — Initial production. Created for Change Order CO-013 (eleven-output expansion).
-
----
-
 ## Builder Instructions — Read Before Filling
 
 *This document is not a summary of the whole world — that is what the Context Layer and

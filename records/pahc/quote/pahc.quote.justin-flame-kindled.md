@@ -3,7 +3,7 @@ id: pahc.quote.justin-flame-kindled
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P
@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks how a person came to believe in the first place"
   - "participant asks what changed someone's mind and who they met"
-  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 viii, section iv (viii.iv.viii). This world's own

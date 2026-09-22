@@ -3,7 +3,7 @@ id: desert.quote.they-have-taken-away-my-god
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F6-I]
 confidence:
@@ -34,7 +34,6 @@ retrieval:
   - "participant asks whether correction from an outside authority ever cost someone something real"
   - "participant asks how a simple, deeply devoted person experienced being corrected by someone more educated"
   - "participant asks whether losing a comforting picture of God can feel like losing God"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.sarapion-anthropomorphite

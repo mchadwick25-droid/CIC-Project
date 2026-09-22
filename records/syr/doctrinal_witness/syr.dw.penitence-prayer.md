@@ -3,7 +3,7 @@ id: syr.dw.penitence-prayer
 world_id: syriac-edessa-nisibis
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   For the one who cannot quiet their own head, who prays into silence, who
   cannot forgive - our pastoral craft was the medicine of penitence.

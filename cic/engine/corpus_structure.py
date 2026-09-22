@@ -2,7 +2,7 @@
 """The corpus's structural outline - what works are in which volume, and where.
 
 WHY THIS EXISTS. The assignment job (BRIEF-corpus-assignment-thread.md) is
-Mark's words *"primarily a parsing exercise"*, and the thing being parsed is
+primarily a parsing exercise, and the thing being parsed is
 176 MB of CCEL ThML across 46 volumes, several of them 5-6 MB. Nothing can
 read that directly. What the job actually needs is not the text but the
 SHELF: which works sit in which volume, under which author section, how long

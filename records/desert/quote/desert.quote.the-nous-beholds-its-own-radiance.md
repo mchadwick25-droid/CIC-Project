@@ -3,7 +3,7 @@ id: desert.quote.the-nous-beholds-its-own-radiance
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -27,7 +27,6 @@ retrieval:
   - "participant asks how anyone could tell whether the discipline was working"
   - "participant asks how you knew you were making progress, or getting anywhere"
   - "participant asks what apatheia felt like or how it was recognised"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.apatheia

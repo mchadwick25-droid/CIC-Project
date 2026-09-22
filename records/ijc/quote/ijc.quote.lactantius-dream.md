@@ -3,7 +3,7 @@ id: ijc.quote.lactantius-dream
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks how the emperor came to favour the Christians"
   - "participant asks whether the conversion story can be believed"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.dream-before-battle}
 ---

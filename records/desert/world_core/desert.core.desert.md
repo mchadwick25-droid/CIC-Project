@@ -3,7 +3,7 @@ id: desert.core.desert
 world_id: desert-monasticism
 record_type: world_core
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -62,18 +62,14 @@ SS5, restated here in this record's own words rather than quoted, since
 this build's own Doc_09 equivalent has not yet been built): the stories
 this material conspicuously does not have, and why. (1) No named
 woman's own extended first-person narrative, comparable to the founding
-account centered on the movement's paradigmatic solitary figure. AMENDED on opening
-the Syriac Paradise (desert.source.palladius-paradise-syriac, vendored
-and opened 2026-08-27): this previously read "named women's sayings
-survive; a comparable narrative does not", and the second half of that
-was false. About fifteen narrated lives of named women do
-survive, several with reported speech, and the Pachomian Rule's own Part
-II legislates a women's house of a hundred and eighty across the river
-from three hundred and forty men. What is genuinely absent is narrower
-and harder: a woman's own voice at length, in her own person. The reason
-is unchanged - the surviving literary record was overwhelmingly produced
-by and about men - but the shape of the absence was being overstated, and
-overstating an absence is its own kind of inaccuracy about this world. (2) No Melitian
+account centered on the movement's paradigmatic solitary figure. About
+fifteen narrated lives of named women survive (desert.source.palladius-paradise-syriac,
+vendored and opened 2026-08-27), several with reported speech, and the
+Pachomian Rule's own Part II legislates a women's house of a hundred and
+eighty across the river from three hundred and forty men. What is
+genuinely absent is narrower and harder: a woman's own voice at length,
+in her own person. The reason is that the surviving literary record was
+overwhelmingly produced by and about men. (2) No Melitian
 ascetic's own first-person account - only documentary evidence of that
 community's ordinary business survives, and the silence is itself
 informative about whose literary output this world's own dominant,
@@ -101,35 +97,3 @@ what either open question alone shows. Caution (4) remains carried at
 its source, desert.source.nepheros-archive's own standing caution, and
 at Doc_01 SS11 item 1/Doc_05 SS4 - a genuinely open item without a
 contested_claim record of its own, not an oversight.
-
-Step3c, Round 1 review Finding S6: an earlier draft of the paragraph
-above wired caution (4) to desert.contested.strand-porousness alongside
-caution (5), contradicting that record's own explicit disclaimer of the
-ecclesial-identity axis (quoted above) - corrected to name only caution
-(5). Finding S10: thinness's material/economic strength claim covered
-the Nepheros letter archive without either of that source's two
-mandatory cautions and without registering the source at all - both
-fixed above (thinness reworded; desert.source.nepheros-archive added to
-sources[]). Finding M12: caution (6) placed the 399-400 controversy
-itself out of horizon; Doc_01 SS2.3 treats it as occurring inside the
-horizon and as one of the very reasons the horizon closes when it does
-- only the 553 condemnation is genuinely past the edge. Corrected above.
-
-Step3c, Round 2 review Finding M9: the Round 1 fix to thinness added
-"named in caution 4 below" - an internal apparatus pointer into a
-compiled-facing, gate-covered field, the one field this build's own
-Round 1 review had singled out as the cleanest of any world_core
-against exactly this pattern, and the pointer itself was inaccurate
-(caution 4's own in-world text names no community). Removed; the
-description is now stated in plain terms directly, with no pointer.
-Finding M10: caution (2)'s organizationally-intermediary complication
-was carried only in sources[].locus, not in thinness itself, where the
-economic-strength claim actually sits - added directly to thinness
-above, so the caveat travels with the claim it qualifies rather than
-only with the apparatus field, per the Step3a Round 8 B2 ruling.
-
-Step3c, Round 3 review Finding M5: the M10 fix's own new clause ("does
-not obviously fit any of the three organizational patterns described
-above") wrote a fresh positional self-reference into thinness, the same
-compiled-facing field M9 had just been cleared of one in the same
-commit - "described above" removed; the sentence stands on its own.

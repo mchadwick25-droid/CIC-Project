@@ -3,7 +3,7 @@ id: alx.term.word-of-god
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - Word of God used to mean the Bible, or asked whether it means Scripture or something else
   - John 1:1 and what "the Word" names, or how creation and Scripture relate as God's address
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about Scripture's interpretive method (retrieve alx.term.allegoria or alx.term.christological-reading)
   - asking about Christ as the Anointed, or the Son's ontological status specifically (retrieve
     alx.term.christ or alx.term.son-of-god)
@@ -64,9 +64,6 @@ distortion_risk: high
 Imported from the old system's richer lexicon (alexlex024, "Word of God") at Mark's direction, as a
 draft, not a final version.
 
-corrected 2026-09-08, records/alx audit: the evidential claim's
-philosophy strand was cited to Protrepticus locus "1, 10", but chapter
-X (~29,566 chars) has zero occurrences of "philosoph*". The philosophy
-strand is actually Protrepticus Chapter VI ("By Divine Inspiration
-Philosophers Sometimes Hit on the Truth", anf02 line 17067); locus
-corrected from "1, 10" to "I, VI".
+The evidential claim's philosophy strand is Protrepticus Chapter VI ("By
+Divine Inspiration Philosophers Sometimes Hit on the Truth", anf02 line
+17067); locus is "I, VI".

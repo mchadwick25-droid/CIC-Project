@@ -3,7 +3,7 @@ id: hal.quote.those-of-my-own-order
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether the church here had failures or hypocrisy"
   - "participant says the people who taught them the faith turned out to be hypocrites"
   - "participant asks whether anyone here criticised their own clergy"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.church-failure

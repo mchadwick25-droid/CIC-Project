@@ -3,7 +3,7 @@ id: desert.term.anachoresis
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-I, F5-P]
 confidence:
@@ -33,7 +33,6 @@ retrieval:
   - why anyone left ordinary life for the desert
   - what joining this movement cost or required
   - questions about escape, retreat, or running away
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.apotage

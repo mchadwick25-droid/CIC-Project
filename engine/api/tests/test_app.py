@@ -61,6 +61,8 @@ def test_create_session_explicit_world(store, usage_store, world_loader, registr
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
     resp = http.post("/api/session", json={"world_key": "fix"})
     assert resp.status_code == 201
+    # Stage 0c (Build-Plan.md): no round cap applies to an interview session.
+    assert resp.json()["round_cap"] is None
 
 
 def test_create_session_unknown_world(store, usage_store, world_loader, registry):
@@ -87,6 +89,26 @@ def test_message_happy_path(store, usage_store, world_loader, registry):
     body = resp.json()
     assert body["routing_action"] == "voice_with_directive"
     assert body["voice"]["text"] == "We did not claim to have seen him ourselves."
+
+
+def test_message_over_the_length_cap_is_refused_before_any_provider_call(store, usage_store, world_loader, registry):
+    """2026-09-21, closing adversarial review: participant text had no
+    length bound anywhere in the request path - unbounded input forwarded
+    to Bedrock twice per turn (safety gate + voice) is exactly what OWASP
+    LLM Top 10 calls unbounded consumption. Pydantic's own validation
+    rejects an over-length body before the route handler (and so before
+    any provider call) ever runs."""
+    from engine.api.app import _MAX_MESSAGE_LENGTH
+
+    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
+    created = http.post("/api/session", json={"world_key": "fix"}).json()
+
+    resp = http.post(
+        f"/api/session/{created['session_id']}/message",
+        headers={"Authorization": f"Session {created['session_code']}"},
+        json={"text": "x" * (_MAX_MESSAGE_LENGTH + 1)},
+    )
+    assert resp.status_code == 422
 
 
 def test_message_wrong_code_and_missing_session_are_identical_401(store, usage_store, world_loader, registry):
@@ -155,6 +177,8 @@ def test_transcript_reflects_committed_turns(store, usage_store, world_loader, r
     assert body["turn_count"] == 1
     assert body["transcript"][0]["kind"] == "door"
     assert body["transcript"][1] == {"speaker": "participant", "text": "who was Jesus"}
+    # Stage 0c (Build-Plan.md): no round cap applies to an interview session.
+    assert body["round_cap"] is None
 
 
 def test_transcript_missing_session_401(store, usage_store, world_loader, registry):

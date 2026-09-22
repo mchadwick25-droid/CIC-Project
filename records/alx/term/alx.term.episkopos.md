@@ -3,7 +3,7 @@ id: alx.term.episkopos
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - what a bishop's role is, or what grounds episcopal authority here
   - Athanasius as a formation figure, or the bishop's relationship to the Eucharist
-  do_not_retrieve_when:
+  prefer_instead:
   - asking primarily about the teacher's formation function (retrieve alx.term.didaskalos)
   - asking about the Eucharist's own formation function rather than who presides at it
 relations:
@@ -68,15 +68,10 @@ Imported from the old system's richer lexicon (alexlex030, "Bishop / Episkopos")
 as a draft, not a final version. The old record's citation of Ignatius of Antioch's Letters is omitted
 here since no corresponding source record exists yet in the new registry.
 
-corrected 2026-09-08, records/alx audit: the personal sense said the
-bishop's authority "rests on an office that outlasts any one person's
-gifts," cited to Stromateis VI.13 - but VI.13 argues the opposite:
-"Such an one is in reality a presbyter of the Church... not as being
-ordained by men, nor regarded righteous because a presbyter, but
-enrolled in the presbyterate because righteous" (anf02, Book VI ch.
-XIII, lines 47856-47867) - the office is grounded IN the person's own
-righteousness, not in something that outlasts it. The personal sense
-is rewritten to match what VI.13 actually argues; the associated
-evidential claim about "the grades here in the Church" (matching
-alx.quote.the-grades-here-in-the-church) was found clean and is
-unchanged.
+The personal sense matches what Stromateis VI.13 argues: "Such an one is
+in reality a presbyter of the Church... not as being ordained by men, nor
+regarded righteous because a presbyter, but enrolled in the presbyterate
+because righteous" (anf02, Book VI ch. XIII, lines 47856-47867) - the
+office is grounded IN the person's own righteousness, not in something
+that outlasts it. The associated evidential claim about "the grades here
+in the Church" matches alx.quote.the-grades-here-in-the-church.

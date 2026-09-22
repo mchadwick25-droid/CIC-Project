@@ -3,7 +3,7 @@ id: hal.story.rome-crisis
 world_id: hieronymian-ascetic-literary
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - what belonging cost this world
   - why Jerome left Rome
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.force.clerical-precarity

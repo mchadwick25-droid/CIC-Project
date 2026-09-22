@@ -3,7 +3,7 @@ id: rzg.ambient.consensus-single-page
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: ambient
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -19,7 +19,6 @@ sources:
 retrieval:
   tier: 3
   retrieve_when: []
-  do_not_retrieve_when: []
 relations: []
 detail: 'One page, in 1549, carried two names where our own record otherwise shows two cities acting apart:
   ''the Ministers of the Church of Zurich'' on one line, ''John Calvin, Minister of the Church of Geneva''

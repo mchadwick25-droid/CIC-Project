@@ -3,7 +3,7 @@ id: desert.story.sarah-answer
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F6-P]
 confidence:
@@ -21,7 +21,6 @@ retrieval:
   - "participant asks whether a woman could carry real authority in this world"
   - "participant asks for a specific example of a woman's own teaching voice, or a direct challenge to her standing"
   - "participant asks about discernment (diakrisis) exercised under social challenge"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.elder-authority

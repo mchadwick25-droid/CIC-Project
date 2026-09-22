@@ -3,7 +3,7 @@ id: cappadocian.term.chorepiskopos
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -20,7 +20,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - how village-level church oversight worked
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: Our villages had their own lesser bishops. Each answered to the bishop of the
   nearest major city. Basil's own letters discipline this office directly. He forbids ordinations sold

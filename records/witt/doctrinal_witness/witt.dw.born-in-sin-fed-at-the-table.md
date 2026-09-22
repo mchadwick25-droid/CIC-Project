@@ -3,7 +3,7 @@ id: witt.dw.born-in-sin-fed-at-the-table
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -37,7 +37,7 @@ retrieval:
   - "participant asks whether people are born already guilty"
   - "participant asks what the bread and cup were to us, or whether that is transubstantiation"
   - "participant asks whether we believed people are saved by faith alone, not works"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants a full philosophical treatment of transubstantiation as a rival theory -- we refuse to theorize the how at all, on either side"
 text: >-
   Are people born already guilty? Yes, we teach this plainly, and we do

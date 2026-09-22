@@ -3,7 +3,7 @@ id: alx.quote.dionysius-plague
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what happened in an epidemic and what Christians did"
   - "participant asks how they cared for the dying and buried the dead"
   - "participant asks what outsiders noticed about their behaviour in a crisis"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.story.plague-nursing

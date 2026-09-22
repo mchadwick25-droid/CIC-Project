@@ -3,7 +3,7 @@ id: alx.story.origen-demetrius
 world_id: alexandria-catechetical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - church conflict and failure, honestly told
   - teacher vs office authority
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.force.origen-demetrius-conflict

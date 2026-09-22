@@ -3,7 +3,7 @@ id: hal.dw.empire
 world_id: hieronymian-ascetic-literary
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Christians hiding in the catacombs? Not in our day. Our churches
   stood open and crowded. Our bishops ate dinner with senators. Travelers

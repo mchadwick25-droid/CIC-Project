@@ -3,7 +3,7 @@ id: witt.term.catechism
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -45,7 +45,7 @@ retrieval:
   - the catechism, or 'the three parts'/'the five parts'
   - what every household is to know
   - why the catechism was written -- what failure prompted it
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the household as an institution rather than the book (retrieve household)
   - the participant means one specific part's own content (retrieve that part, e.g. to have a god)
 relations:

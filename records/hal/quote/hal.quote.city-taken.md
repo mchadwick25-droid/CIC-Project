@@ -3,7 +3,7 @@ id: hal.quote.city-taken
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks what happened when Rome fell and how they took the news"
   - "participant asks how they wrote about catastrophe"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 127 sec.
 12, div v.CXXVII; one editorial footnote insertion in the file - 'By

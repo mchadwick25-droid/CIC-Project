@@ -3,7 +3,7 @@ id: gallic.dw.christ-in-the-beggar-and-the-guest
 world_id: gallic-monastic-ascetic-christianity
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P
@@ -52,7 +52,7 @@ retrieval:
   - "participant asks whether Jesus would have wanted anything to do with someone like them"
   - "participant asks how this world's people came to believe in Jesus"
   - "participant asks who Jesus is to the voice itself, not to its church"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks what this world would have made of them at its own door - retrieve gallic.demo.someone-like-me"
 text: >-
   Would Jesus have wanted anything to do with someone like you? Here is

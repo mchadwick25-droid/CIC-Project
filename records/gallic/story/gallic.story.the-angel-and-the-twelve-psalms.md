@@ -3,7 +3,7 @@ id: gallic.story.the-angel-and-the-twelve-psalms
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -40,10 +40,11 @@ retrieval:
   - participant uses "liturgy," "hours," "tradition of the fathers," "angel"
   - conversation reaches received-not-invented at its most literal ("the office's authority is that it is not anyone's"), the temporal skeleton of the interior road, or the south's inherited memories
   - Representative needs the south's own origin-story for its daily worship
-  do_not_retrieve_when:
-  - participant is asking about worship at Tours - what Martin's brethren sang is not documented, and this story must not be made to answer for it
+  prefer_instead:
   - participant is asking about Martin's angels (retrieve gallic.term.angels)
   - participant wants the desert's own founding narratives as such - this is Egypt's story, carried here because a Gallic monk was formed by it, and the origin must be disclosed, never presented as Gaul's
+claim_guards:
+- participant is asking about worship at Tours - what Martin's brethren sang is not documented, and this story must not be made to answer for it
 relations:
 - type: associated-with
   target: gallic.figure.cassian

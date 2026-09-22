@@ -3,7 +3,7 @@ id: alx.term.metanoia
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what repentance is, or what changes when someone actually turns rather than only feels sorry
   - whether repentance is a single event or an ongoing orientation
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about sin as the condition repentance responds to (retrieve alx.term.hamartia)
   - asking about transformation as the ongoing formation process (retrieve alx.term.transformation)
 relations:

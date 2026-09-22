@@ -3,7 +3,7 @@ id: witt.term.office
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -32,7 +32,7 @@ retrieval:
   retrieve_when:
   - office, or office-holder
   - whether ordination confers a permanent status
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the priesthood claim itself (retrieve we-are-all-priests)
 relations:
 - type: associated-with

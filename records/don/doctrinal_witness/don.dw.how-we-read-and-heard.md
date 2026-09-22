@@ -3,7 +3,7 @@ id: don.dw.how-we-read-and-heard
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -48,7 +48,6 @@ retrieval:
   - participant asks how we read our scriptures and what we looked for in them
   - participant asks which writings we treated as scripture
   - participant asks how someone who could not read received the scriptures
-  do_not_retrieve_when: []
 text: >-
   Before anything about how we read them: notice what they were. Objects.
   Heavy ones. A magistrate could demand that a bishop carry them out of a

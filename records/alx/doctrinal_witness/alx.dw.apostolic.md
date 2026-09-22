@@ -3,7 +3,7 @@ id: alx.dw.apostolic
 world_id: alexandria-catechetical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   How do you know your practices went back to the apostles, and were not later
   inventions? Our honest answer: we received them, and we kept the

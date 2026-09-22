@@ -3,7 +3,7 @@ id: pahc.force.authority-consolidation
 world_id: post-apostolic-house-church
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-I
@@ -57,11 +57,8 @@ manifestations:
 Re-derived from the approved Doc_08 Force 2B-1. THIS FORCE IS
 pahc.gravity.authority-consolidation (G01) ITSELF - sources and core
 confidence mirror that gravity record, with the gravity's own closing
-Cross-Check sentence condensed rather than reproduced verbatim. FIXED
-at Step 6 round-1 review: an earlier draft cited the Didache 15:1
-source row in sources[] without a matching manifestation, leaving that
-row cited but unused in this record's own prose - added the fourth
-manifestation above so it is not orphaned. canon_cells reuse F3-I
+Cross-Check sentence condensed rather than reproduced verbatim.
+canon_cells reuse F3-I
 from the gravity record for the identical reason. The one relation
 added here, to liturgical-practice, is NOT a duplicate of the gravity
 record's own five-way relation set: it is the specific connection

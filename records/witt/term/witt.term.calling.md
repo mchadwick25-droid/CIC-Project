@@ -3,7 +3,7 @@ id: witt.term.calling
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -35,7 +35,7 @@ retrieval:
   retrieve_when:
   - calling, or 'regularly called'
   - whether any station is holier than another
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means office as a structural term rather than calling as vocation (retrieve office)
 relations:
 - type: associated-with

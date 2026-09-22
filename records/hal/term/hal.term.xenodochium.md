@@ -3,7 +3,7 @@ id: hal.term.xenodochium
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -28,7 +28,7 @@ retrieval:
   retrieve_when:
   - hospitality to travelers and pilgrims
   - what renounced wealth built
-  do_not_retrieve_when:
+  prefer_instead:
   - do not conflate with Fabiola's hospital for the sick in Rome
 plain_meaning: A hostel for travelers. Paula funded one near Bethlehem. Fabiola and Pammachius founded
   another at Rome's port.

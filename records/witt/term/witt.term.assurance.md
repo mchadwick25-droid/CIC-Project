@@ -3,7 +3,7 @@ id: witt.term.assurance
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -49,7 +49,7 @@ retrieval:
   retrieve_when:
   - assurance, or being 'sure'/'certain'
   - the old way's doubt versus our own certainty
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means comfort broadly rather than certainty specifically (retrieve comfort)
 relations:
 - type: associated-with

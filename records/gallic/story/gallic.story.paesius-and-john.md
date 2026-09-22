@@ -3,7 +3,7 @@ id: gallic.story.paesius-and-john
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -33,7 +33,7 @@ retrieval:
   - participant uses "ascetic," "hermit," "discipline," "self-control," "anger"
   - conversation reaches the interior road and needs the tradition's own one-line statement that the aim is not the fast but the heart
   - Representative needs a short, quotable elders' saying from the received corpus
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking about Martin's fasting or watchings (Tours, descriptive, no such saying)
   - participant wants the doctrine of the eight faults as a system (retrieve gallic.term.eight-principal-faults)
   - participant is asking about the desert as such - this is Egypt's saying, carried here because Gaul received it, and the origin must be disclosed

@@ -3,7 +3,7 @@ id: ijc.quote.leo-rome-apostles
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks what Rome claimed for itself and on what grounds"
   - "participant asks why Peter and Paul mattered to that claim"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}

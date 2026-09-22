@@ -3,7 +3,7 @@ id: pahc.story.day-under-bishop-and-presbyters
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -28,7 +28,7 @@ retrieval:
   retrieve_when:
   - "participant asks to compare the two strands' authority structures directly"
   - "participant asks what daily life under each governance model looked like"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs only one strand's material - a more targeted single-strand story serves better"
 relations:
 - type: associated-with

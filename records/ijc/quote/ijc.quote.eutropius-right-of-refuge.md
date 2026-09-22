@@ -3,7 +3,7 @@ id: ijc.quote.eutropius-right-of-refuge
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -40,7 +40,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether the church sheltered people the state wanted"
   - "participant asks what happened to a fallen official who fled to the altar"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.quote.no-power-but-of-god

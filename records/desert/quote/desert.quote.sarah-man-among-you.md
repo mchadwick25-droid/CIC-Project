@@ -3,7 +3,7 @@ id: desert.quote.sarah-man-among-you
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks how men in this world spoke to and about a woman"
   - "participant asks whether a woman was ever tested or challenged, and how she answered"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.sarah-answer

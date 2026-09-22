@@ -3,7 +3,7 @@ id: don.source.codex-theodosianus-book-16
 world_id: donatism
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

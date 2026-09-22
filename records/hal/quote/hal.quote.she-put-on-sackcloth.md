@@ -3,7 +3,7 @@ id: hal.quote.she-put-on-sackcloth
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether someone divorced or remarried could belong here"
   - "participant asks what happened to people who broke this world's rules"
   - "participant asks whether there was a way back after a public failure"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.marriage-ending

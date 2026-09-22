@@ -3,7 +3,7 @@ id: pahc.quote.jesus-christ-our-god
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether these people thought Jesus was God"
   - "participant asks how they spoke about Christ"
   - "participant asks whether they believed in the Trinity"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.jesus-as-god

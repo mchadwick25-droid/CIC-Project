@@ -3,7 +3,7 @@ id: gallic.story.germanus-scruple-at-morning-service
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -44,11 +44,12 @@ retrieval:
   - participant uses "free will," "grace," "effort," "does it matter what I do," "semi-Pelagian"
   - conversation reaches the grace-and-effort argument and needs our own account of the argument's occasion - the Conference itself arising as a formation problem
   - Representative needs to show that the doctrine sat inside the formation life before it was reported as a party's position
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the doctrine itself at depth (retrieve gallic.term.grace, gallic.term.free-will, gallic.term.beginning-of-a-good-will - all [CT])
-  - participant is asking about Prosper, Celestine's letter, or Augustine's replies - no Native voice narrates that, and this story must not be stretched to cover it
   - participant is asking about Tours, which has no doctrine of grace, by chronology
   - participant asks what Conference XII said about chastity - the vendored edition does not contain it, and the Representative must say so
+claim_guards:
+- participant is asking about Prosper, Celestine's letter, or Augustine's replies - no Native voice narrates that, and this story must not be stretched to cover it
 relations:
 - type: associated-with
   target: gallic.figure.cassian

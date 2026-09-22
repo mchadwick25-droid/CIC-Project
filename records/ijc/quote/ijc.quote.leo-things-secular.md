@@ -3,7 +3,7 @@ id: ijc.quote.leo-things-secular
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether the ranking of cities was ever accepted by everyone"
   - "participant asks how Rome answered a council decision it disliked"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 - {type: illustrates, target: ijc.force.leo-rejects-canon-28}

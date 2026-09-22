@@ -3,7 +3,7 @@ id: pahc.contested.didache-dating
 world_id: post-apostolic-house-church
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -37,9 +37,3 @@ asks participant-facing "when exactly was your own manual written," and
 this dispute is closely bound to the single-community representativeness
 limit already carried by pahc.term.two-ways and pahc.force.two-ways-
 catechetical-inheritance rather than to any cell of its own.
-
-FIXED at Step 7 round-1 review: concedes previously stated the Didache's
-provenance as settled ("plausibly Syrian") rather than reproducing
-pahc.source.didache's own more careful "Syria likely, Egypt argued";
-restored the caveat and named the resulting, previously unnoticed
-tension with pahc.contested.egypt-exclusion, drafted in the same batch.

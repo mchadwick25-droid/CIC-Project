@@ -3,7 +3,7 @@ id: ijc.quote.compelled-to-come-in
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether force was used against Christians who disagreed"
   - "participant asks how they justified compelling anyone"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}
 - {type: illustrates, target: ijc.gravity.church-state-alliance}

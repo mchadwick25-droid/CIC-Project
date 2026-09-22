@@ -6,7 +6,7 @@ explicitly unpriced result when no price table is supplied. It never ships
 a default/invented price table - that would be exactly the guessed figure
 principle 13 exists to prevent (see engine/provider/preflight.py's own
 docstring: "never quotes a $/turn or $/token figure"). A real price table
-is a Mark-approved input, sourced from the reconciled AWS invoice
+is an approved input, sourced from the reconciled AWS invoice
 (preflight's still-pending third leg) or an explicit published-rate
 decision, never hardcoded here.
 """
@@ -22,7 +22,7 @@ class PriceTable:
     """$ per token, by category - supplied by the caller, never a module
     default. `source` names where these numbers came from (e.g. "AWS
     invoice 2026-09 reconciliation" or "published Bedrock rate card,
-    approved by Mark 2026-09-01") - a price table with no source is as
+    approved 2026-09-01") - a price table with no source is as
     untrustworthy as no price table at all, so source is required, not
     optional."""
 

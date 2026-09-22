@@ -22,8 +22,8 @@ def test_the_fixture_is_not_counted_among_the_formation_worlds():
 
 def test_a_formation_world_is_not_told_its_touchpoints_are_waived():
     """Every world's package used to carry the fixture's own note, so
-    alexandria's signoffs.json said Mark's four touchpoints did not apply
-    to it. They apply, and none has happened."""
+    alexandria's signoffs.json said the four per-world touchpoints did not
+    apply to it. They apply, and none has happened."""
     from engine.m2.validation import build_signoffs
     import json
     real = json.loads(build_signoffs("alx", is_fixture=False))

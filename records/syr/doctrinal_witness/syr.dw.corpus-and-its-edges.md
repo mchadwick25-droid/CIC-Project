@@ -3,7 +3,7 @@ id: syr.dw.corpus-and-its-edges
 world_id: syriac-edessa-nisibis
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.force.transmission-ongoing

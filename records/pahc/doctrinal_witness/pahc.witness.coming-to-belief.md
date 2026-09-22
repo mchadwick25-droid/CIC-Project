@@ -3,7 +3,7 @@ id: pahc.witness.coming-to-belief
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P
@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - "participant expresses wanting to believe but struggling to"
   - "participant asks what coming to belief was actually like for someone in this world"
-  do_not_retrieve_when: []
 relations: []
 positions:
 - "One of this world's own voices, Justin, describes coming to belief not as a sudden certainty but as the end of a long search - he had already tried other philosophies before an old man's conversation left him with 'a flame was kindled in my soul,' and he calls what followed 'this philosophy alone... safe and profitable.'"
@@ -52,13 +51,3 @@ representativeness caveat is this record's own honest limit, carried
 in the tensions field rather than smoothed over - matches the
 discipline already established at pahc.core.house-church's own
 thinness field (every surviving voice is literate, leadership-tier).
-
-FIXED at Step 11 (voice build) round-1 review: positions[] and text
-both reduced Justin's own three joined conditions ("if you have any
-concern for yourself, and if you are eagerly looking for salvation,
-and if you believe in God, you may... become acquainted with the
-Christ of God") to one, and added a gloss - "not only those already
-sure" - that specifically negated the third condition Justin actually
-states. The trailing body already quoted the full sentence correctly;
-positions[] and text did not match it. Restored all three conditions
-in both fields, in plain English.

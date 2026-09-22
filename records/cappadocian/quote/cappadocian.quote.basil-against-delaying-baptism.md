@@ -3,7 +3,7 @@ id: cappadocian.quote.basil-against-delaying-baptism
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -62,7 +62,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world would call what happened to them being born again"
   - "participant asks whether this world baptised babies or only adults who chose it for themselves"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.baptism-and-new-birth

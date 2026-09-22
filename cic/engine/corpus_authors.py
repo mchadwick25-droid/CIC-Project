@@ -2,9 +2,9 @@
 """The corpus's author index - who is actually IN the vendored volumes.
 
 WHY THIS EXISTS. The vendored files are volumes, and a volume is the wrong
-unit for almost every question worth asking of this corpus. Mark, 2026-08-26:
-"the sources i downloaded often have multiple influensers in each volum, so
-we need to do it by person, not book." He is right, and a first attempt at
+unit for almost every question worth asking of this corpus - the sources
+often carry multiple authors in a single volume, so indexing has to work
+by person, not by book. A first attempt at
 assignment was keyed by file and therefore wrong: one `out-of-region` ruling
 on `anf02` would have declined Clement of Alexandria - the single most
 important author for the alx world - along with Tatian, who belongs to syr's

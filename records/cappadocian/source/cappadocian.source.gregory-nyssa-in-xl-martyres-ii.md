@@ -3,7 +3,7 @@ id: cappadocian.source.gregory-nyssa-in-xl-martyres-ii
 world_id: cappadocian-trinitarian
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -30,4 +30,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 82; a specific n
 external_ids:
   cappadocian_source_registry_row: 82
 ---
-SS6.1's against-the-grain evidence of a woman's formation-agency; the Annisa estate-shrine material-culture record (row 113) (row 82). A specific named work, grouped with row 53 rather than duplicating it as a separate acquisition target -- an earlier draft wrongly claimed this text was within the vendored npnf205, directly contradicted by row 41's and row 53's own notes and by this direct search.
+SS6.1's against-the-grain evidence of a woman's formation-agency; the Annisa estate-shrine material-culture record (row 113) (row 82). A specific named work, grouped with row 53 rather than duplicating it as a separate acquisition target -- confirmed absent from the vendored npnf205, consistent with row 41's and row 53's own notes and this direct search.

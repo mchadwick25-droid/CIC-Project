@@ -3,7 +3,7 @@ id: witt.term.christendom
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -39,7 +39,7 @@ retrieval:
   retrieve_when:
   - Christendom
   - whether Christians outside our own confirmation still count as Christians to us
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means our own local congregation specifically (retrieve congregation)
 relations:
 - type: associated-with

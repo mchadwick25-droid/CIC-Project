@@ -3,7 +3,7 @@ id: gallic.gravity.egypt-as-measure
 world_id: gallic-monastic-ascetic-christianity
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

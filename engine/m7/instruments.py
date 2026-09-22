@@ -4,7 +4,7 @@ them a bar"). Every instrument takes an AuditSession and returns findings
 and/or metrics; none calls a model, none writes anywhere.
 
 Severity vocabulary (Artifact-8 §3): defect (the build must fix), review
-(Mark or a build thread should read), info (a tracked tendency). Findings
+(a human or a build thread should read), info (a tracked tendency). Findings
 name record ids wherever the evidence does, so routing to a fix is a
 lookup (Artifact-8 §6).
 """
@@ -43,8 +43,20 @@ def _record_ids(citations: list) -> list[str]:
     return ids
 
 
+def _defect_family(d) -> str | None:
+    return d.get("family") if isinstance(d, dict) else None
+
+
 def unread_outputs(s: AuditSession) -> list[Finding]:
-    """§3.1 - the four formerly-unread outputs, surfaced."""
+    """§3.1 - the four formerly-unread outputs, surfaced.
+
+    guard_proximity entries are excluded from this generic bucket - they
+    get their own dedicated instrument (guard_proximity, below) at defect
+    severity, since a barred-claim proximity hit is the one output_check
+    family that is a live fabrication risk, not a cosmetic/register issue
+    like the other three; reporting the identical finding twice at two
+    different severities in the same audit would be noise, not signal.
+    """
     findings = []
     for t in s.voice_turns:
         if t.do_not_voice_violation:
@@ -52,6 +64,8 @@ def unread_outputs(s: AuditSession) -> list[Finding]:
                                     f"content-licensing violation on {t.speaker}'s turn (seq {t.seq}): {t.do_not_voice_violation}",
                                     excerpt=t.text[:200]))
         for d in t.output_defects:
+            if _defect_family(d) == "guard_proximity":
+                continue
             findings.append(Finding("output_defects", "review", s.session_id,
                                     f"output defect on {t.speaker}'s turn (seq {t.seq}): {d}"))
         if t.grounding:
@@ -64,6 +78,24 @@ def unread_outputs(s: AuditSession) -> list[Finding]:
         if t.degraded_by_net:
             findings.append(Finding("degraded_by_net", "info", s.session_id,
                                     f"{t.speaker}'s turn (seq {t.seq}) had no substantive survivor"))
+    return findings
+
+
+def guard_proximity(s: AuditSession) -> list[Finding]:
+    """Build-Plan.md Stage 4b: the guard_proximity family
+    (engine.m4.output_check), read at defect severity - the one
+    output_check family that is a live fabrication risk (a sentence
+    sharing a cited record's own barred claim), not a cosmetic/register
+    issue like the other three. Feeds R14 (Rulings-Pending.md): reports
+    only, same as every instrument in this module, never a block."""
+    findings = []
+    for t in s.voice_turns:
+        for d in t.output_defects:
+            if _defect_family(d) != "guard_proximity":
+                continue
+            findings.append(Finding("guard_proximity", "defect", s.session_id,
+                                    f"{t.speaker}'s turn (seq {t.seq}): {d.get('finding')}",
+                                    excerpt=(d.get("sentence") or "")[:200]))
     return findings
 
 
@@ -84,9 +116,9 @@ _QUOTED_SPAN = re.compile(r"[\"“][^\"”]{3,}[\"”]|(?<!\w)'[^']{15,}'(?!\w)"
 
 
 def _strip_quoted(text: str) -> str:
-    """The tradition's own words are exempt from the plain band (Mark's
-    ruling, 2026-08-28: quotes are never screened by readability - the
-    band governs OUR words, never theirs). Straight-single-quote spans
+    """The tradition's own words are exempt from the plain band: quotes
+    are never screened by readability - the
+    band governs OUR words, never theirs. Straight-single-quote spans
     only count at length, so contractions survive."""
     return _QUOTED_SPAN.sub(" ", text)
 
@@ -95,7 +127,7 @@ def register_mechanical(s: AuditSession) -> tuple[list[Finding], list[dict]]:
     """§3.3 - FK/FRE per voice turn and the first-sentence-answers-first-ask
     overlap ratio. All info; short turns report unscored, never clean.
     Primary numbers are measured with quoted spans stripped (the plain band
-    has no jurisdiction over quoted material - Mark's ruling, 2026-08-28);
+    has no jurisdiction over quoted material);
     whole-turn numbers ride alongside as fk_grade_whole/fre_whole."""
     metrics = []
     gate_by_seq = sorted(s.gate_decisions, key=lambda g: g["seq"])
@@ -132,6 +164,74 @@ def register_mechanical(s: AuditSession) -> tuple[list[Finding], list[dict]]:
                 )
         metrics.append(entry)
     return [], metrics
+
+
+_STORY_RECORD_TYPES = frozenset({"story", "quote"})
+_WITNESS_RECORD_TYPES = frozenset({"doctrinal_witness"})
+
+
+def level1_element_density(s: AuditSession) -> list[dict]:
+    """Stage 6d / R17 (Rulings-Pending.md, Decision-Log.md Entry 29): "an M7
+    instrument counting Level-1 elements per turn" (Adjusted-Design.md's
+    N2) - the engineering half of a ruling whose actual cap NUMBER is
+    still Mark's to set ("RULING R17 on numbers", Adjusted-Design.md's own
+    wording). Report-only, no findings (principle 10: report-only
+    instruments stay report-only until data earns them a bar) - this
+    measures, it does not enforce. Metrics only, same shape as
+    register_mechanical's own metrics half.
+
+    A "Level-1 element" is an inline mark visible directly in the running
+    text, never a Level-2/3 tap-through:
+    - a story/witness citation mark (cic-poc/frontend/src/components/
+      VoiceTurnBody.tsx's StoryMark/WitnessMark, one per same-placement,
+      same-family run) - reproduced here from transparency.anchors by the
+      same run_start_sentence/run_end_sentence/record_type grouping the
+      renderer itself uses (WITNESS_RECORD_TYPES groups by run_start,
+      everything else groups by run_end), not by re-parsing HTML;
+    - a figure mark (one per figures_used entry - already deduped to
+      first occurrence this session, per name_bridge.find_figures_used's
+      own docstring);
+    - a gloss mark (one per glosses entry, same dedup guarantee via
+      term_glosses.find_glosses_used).
+
+    Known limitation, named not hidden: this reproduces the renderer's
+    grouping logic independently rather than sharing code with it (this
+    module is Python, the renderer is TypeScript) - the two could in
+    principle drift. This instrument's numbers are the evidence base for
+    Mark's still-open cap decision; a renderer-side fixture test enforcing
+    whatever number he sets is the other, separate half of R17's own
+    engineering ask.
+    """
+    metrics = []
+    for t in s.voice_turns:
+        transparency = t.transparency or {}
+        anchors = transparency.get("anchors") or []
+        placements: set[tuple[int, str]] = set()
+        for a in anchors:
+            record_type = a.get("record_type")
+            if record_type in _WITNESS_RECORD_TYPES:
+                family = "witness"
+                placement = a.get("run_start_sentence")
+            elif record_type in _STORY_RECORD_TYPES:
+                family = "story"
+                placement = a.get("run_end_sentence")
+            else:
+                continue  # no inline mark for this family - see StoryMark/WitnessMark's own caller
+            placements.add((placement, family))
+        citation_marks = len(placements)
+        figure_marks = len(t.figures_used)
+        gloss_marks = len(t.glosses)
+        sentence_count = len([x for x in re.split(r"(?<=[.!?])\s+", t.text.strip()) if x.strip()])
+        metrics.append({
+            "seq": t.seq,
+            "speaker": t.speaker,
+            "citation_marks": citation_marks,
+            "figure_marks": figure_marks,
+            "gloss_marks": gloss_marks,
+            "level1_total": citation_marks + figure_marks + gloss_marks,
+            "sentence_count": sentence_count,
+        })
+    return metrics
 
 
 def ask_coverage(s: AuditSession) -> list[Finding]:
@@ -194,8 +294,7 @@ def safety_review(s: AuditSession) -> list[Finding]:
 
 
 def cited_ids(s: AuditSession) -> list[str]:
-    """§3.7's utilization half (added 2026-08-29, Mark: "yes add the
-    utilization instrument"): every distinct record id this session's
+    """§3.7's utilization half: every distinct record id this session's
     voices actually cited. Record ids carry no participant text, so the
     list rides the fleet layer; the rollup unions these per world against
     each world's citable shelf to answer "what share of what we built do
@@ -247,8 +346,7 @@ def cross_voice_echo(s: AuditSession) -> list[Finding]:
 
 
 def register_frame(s: AuditSession, names: dict[str, list[str]] | None = None) -> list[Finding]:
-    """§3.3's frame half, added 2026-08-28 after the first live participant
-    conversation: a voice standing OUTSIDE its own world's witness. Mark's
+    """§3.3's frame half: a voice standing OUTSIDE its own world's witness. A
     read of syr's first answer ("To this world Jesus is...") named it -
     "this should be first person plural" - and the pairing batteries had
     already shown the same family twice (P1-L4 Papnoute in the third
@@ -344,6 +442,7 @@ def run_all(s: AuditSession, names: dict[str, list[str]] | None = None) -> dict:
         unread_outputs(s) + isolation(s) + reg_findings + ask_coverage(s)
         + repetition(s) + cross_voice_echo(s) + safety_review(s)
         + register_frame(s, names) + encounter_openings(s) + governance(s)
+        + guard_proximity(s)
     )
     return {
         "session_id": s.session_id,
@@ -360,6 +459,7 @@ def run_all(s: AuditSession, names: dict[str, list[str]] | None = None) -> dict:
         },
         "findings": findings,
         "register_metrics": reg_metrics,
+        "level1_element_density": level1_element_density(s),
         "offer_rates": offer_rates(s),
         "cited_record_ids": cited_ids(s),
         "canon_asks": canon_candidate_asks(s),

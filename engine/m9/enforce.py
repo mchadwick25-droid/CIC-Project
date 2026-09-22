@@ -29,8 +29,8 @@ the same project-wide CM-1 gap every one of the worlds above also
 carries, blocked on infrastructure that does not exist yet for any world,
 not a quality gap specific to rzg. `witt` (2026-09-19) was added the same
 way and for the identical reason - `m9:shelf-row` only, same CM-1 gap,
-same project-lead sign-off (Mark: "we want the best quality, whatever it
-takes" - given in answer to whether to also waive witt's own
+same project-lead sign-off - the standard held is the best quality,
+whatever it takes - given in answer to whether to also waive witt's own
 `m9:emic-vendored-only` findings the same way rzg's shelf-row exception
 did; the answer there was no, fix the 27 records, so witt's own
 grandfathering stays scoped to shelf-row alone, same as rzg's). Every

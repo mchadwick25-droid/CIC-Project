@@ -3,7 +3,7 @@ id: desert.term.nepsis
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -25,8 +25,8 @@ retrieval:
   tier: 2
   retrieve_when:
   - questions about attention, vigilance, or catching thoughts early
-  do_not_retrieve_when:
-  - do not equate with modern mindfulness practice - the systematized neptic tradition belongs to a much later world and must not be retrojected
+claim_guards:
+- do not equate with modern mindfulness practice - the systematized neptic tradition belongs to a much later world and must not be retrojected
 relations:
 - type: associated-with
   target: desert.quote.the-nous-beholds-its-own-radiance

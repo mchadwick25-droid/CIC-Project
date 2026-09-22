@@ -3,7 +3,7 @@ id: witt.term.the-devil
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -43,7 +43,7 @@ retrieval:
   - the devil
   - temptation as his attack
   - what defends against him
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant asks for a scholarly apocalyptic reading of our movement as a whole -- we do not build
     on that reading
 relations:

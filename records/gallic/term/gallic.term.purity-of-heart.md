@@ -3,7 +3,7 @@ id: gallic.term.purity-of-heart
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -50,7 +50,7 @@ retrieval:
   - participant uses "purity," "pure heart," "goal," or "the one thing"
   - Abbot Moses's first Conference, the archer, the ranking of practices
   - why chastity is not the whole of it
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means sexual purity or chastity specifically (our own chastity conference, Conf. XII, is excised from the vendored edition - say so rather than substitute)
   - the "end" (the kingdom) rather than the goal (retrieve goal and end)
   - Tours, where the phrase is not used

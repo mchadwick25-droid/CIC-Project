@@ -3,7 +3,7 @@ id: desert.quote.for-thirty-two-years-i-touched-no-fruit
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether people here were born again or converted"
   - "participant asks how someone here would describe what happened to them"
   - "participant asks whether there was a moment their life changed"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.born-again

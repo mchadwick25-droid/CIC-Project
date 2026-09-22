@@ -3,7 +3,7 @@ id: don.story.macrobius-letter
 world_id: donatism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -34,7 +34,7 @@ retrieval:
   - participant asks about the Macarian persecution from something nearer a documentary register than a
     hagiographic one
   - participant asks what a story like this was actually for, pastorally, in its own moment
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the fullest hagiographic register - don.story.passio-marculi serves that
   - participant's question concerns the annual commemoration practice rather than these two deaths
 relations:

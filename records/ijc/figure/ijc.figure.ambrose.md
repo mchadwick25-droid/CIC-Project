@@ -3,7 +3,7 @@ id: ijc.figure.ambrose
 world_id: imperial-juridical
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -57,8 +57,7 @@ predecessor at Milan, Auxentius, held the see as a Homoian appointee
 for roughly two decades - the Homoian establishment was local history,
 not rumor, for his congregation.
 
-TWO Auxentii, not three - corrected at review after this record's first
-draft over-split them. (1) Auxentius, the elder Homoian bishop of Milan
+TWO Auxentii, not three. (1) Auxentius, the elder Homoian bishop of Milan
 (d. 374), Ambrose's own predecessor in the see. (2) Mercurinus Auxentius
 of Durostorum, Ulfila's own pupil and the author of the Ulfila letter
 (ijc.source.auxentius-letter-ulfila) - on the dominant scholarly

@@ -3,7 +3,7 @@ id: witt.term.the-ban
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -29,7 +29,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - the ban, or excommunication
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the temporal sword's own power (retrieve the sword)
 relations:
 - type: associated-with

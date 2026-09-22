@@ -3,7 +3,7 @@ id: ijc.quote.sozomen-thessalonica-law
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -34,7 +34,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether belief was made compulsory by law"
   - "participant asks what happened to people who held a different faith"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}
 ---

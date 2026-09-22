@@ -3,7 +3,7 @@ id: pahc.quote.first-clement-apostolic-chain
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they knew their practice went back to the apostles"
   - "participant asks who appointed leaders and on whose authority"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.they-appointed-the-first-fruits

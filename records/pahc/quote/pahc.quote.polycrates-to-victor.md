@@ -3,7 +3,7 @@ id: pahc.quote.polycrates-to-victor
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -49,7 +49,6 @@ retrieval:
   - "participant asks whether churches in different places did things differently"
   - "participant asks what happened when Rome told another church it was wrong"
   - "participant asks how they worked out when to keep a feast"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: pahc.gravity.translocal-network}
 - {type: illustrates, target: pahc.gravity.authority-consolidation}

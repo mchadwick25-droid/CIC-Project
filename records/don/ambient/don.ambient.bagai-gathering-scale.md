@@ -3,7 +3,7 @@ id: don.ambient.bagai-gathering-scale
 world_id: donatism
 record_type: ambient
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -19,7 +19,6 @@ sources:
 retrieval:
   tier: 3
   retrieve_when: []
-  do_not_retrieve_when: []
 relations: []
 detail: 'At Bagai, in 394, more of our own bishops gathered in one place than most towns of Roman North
   Africa saw in a generation: three hundred and ten of them, meeting as a single council in one place,

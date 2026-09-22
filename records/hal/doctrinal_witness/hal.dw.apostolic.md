@@ -3,7 +3,7 @@ id: hal.dw.apostolic
 world_id: hieronymian-ascetic-literary
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Did our practices go back to the apostles? Our baptism, our
   eucharist, and our scriptures came from the whole church, and those we

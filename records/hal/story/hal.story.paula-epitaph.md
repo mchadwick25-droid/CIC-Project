@@ -3,7 +3,7 @@ id: hal.story.paula-epitaph
 world_id: hieronymian-ascetic-literary
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - what a formed life looked like to this world
   - Paula's life and death as remembered
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.gravity.ascetic-renunciation

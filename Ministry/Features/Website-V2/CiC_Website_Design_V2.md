@@ -30,7 +30,7 @@ every stretch of it is named below as a ruling) · the defended hybrid
 `homepage.html`, `tradition-chloe.html`) as the reference implementation ·
 its review and defense (`Sandbox/D2-struggle/06-hybrid-open-door-review.md`,
 `-defense.md`) · the five D1 directions and their ten D2 files, for what was
-tried and killed · the live site (`cic-website/`) and
+tried and killed (see `Archive/Ministry-Early-Days-2026-07/Scholarly-Review/CiC_World1_Brief_for_Reviewers_Source.md`) · the live site (`cic-website/`) and
 `data/world-census.json`.
 
 The hybrid's two mockup files stand as the reference implementation. This

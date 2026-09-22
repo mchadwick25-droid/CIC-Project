@@ -3,7 +3,7 @@ id: desert.quote.the-heart-is-a-deep-gulf
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P, F1-P]
 confidence:
@@ -32,7 +32,6 @@ retrieval:
   - "participant asks what this world meant by the heart"
   - "participant says they behave well but feel unchanged inside"
   - "participant asks whether keeping the rules was enough"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.the-heart-and-the-spirit

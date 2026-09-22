@@ -3,7 +3,7 @@ id: ijc.quote.hymns-and-psalms-should-be-sung
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -32,7 +32,6 @@ retrieval:
   - "participant asks whether this world's practices went back to the apostles"
   - "participant asks where a practice like hymn-singing actually came from"
   - "participant asks what it was like inside one of their gatherings"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.dw.ancient-custom

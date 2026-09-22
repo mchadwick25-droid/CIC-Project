@@ -3,7 +3,7 @@ id: desert.quote.the-noonday-demon
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -28,7 +28,6 @@ retrieval:
   - "participant says they want to quit, walk away, or leave the life they have chosen"
   - "participant asks what this world did about despair in the cell"
   - "participant asks about the noonday demon or acedia"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.logismoi

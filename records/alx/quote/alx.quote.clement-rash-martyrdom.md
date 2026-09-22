@@ -3,7 +3,7 @@ id: alx.quote.clement-rash-martyrdom
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -33,7 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether wanting to die for the faith was healthy or a death wish"
   - "participant asks whether they ever thought someone went looking for martyrdom too eagerly"
-  do_not_retrieve_when: []
 ---
 The world's own answer to the 'martyrdom is a death wish' charge (F6-E):
 its greatest teacher CENSURED rushing on death - witness is not
@@ -41,13 +40,8 @@ volunteering to die, and the tradition itself drew that line. The
 parenthesis targets rigorist/heterodox groups; the polemical edge is
 part of the record, not smoothed. Verified verbatim.
 
-corrected 2026-09-08, records/alx audit: text previously truncated the
-sentence at "...give themselves up to a vain death." with a period
-substituted for the vendored comma, presenting a truncated clause as if
-it were the complete sentence with no ellipsis to signal the cut. The
-vendored text (anf02 line 37827) continues: "...but give themselves up to
-a vain death, as the Gymnosophists of the Indians to useless fire." The
-text field is extended to the full sentence verbatim. (The word
-"Demiurgus" attached mid-sentence to "the Creator" is a separate editor's
-footnote, not primary text, and was already correctly excluded before
-this correction - it stays excluded.)
+The vendored text (anf02 line 37827) reads in full: "...but give
+themselves up to a vain death, as the Gymnosophists of the Indians to
+useless fire." The text field matches this full sentence verbatim. (The
+word "Demiurgus" attached mid-sentence to "the Creator" is a separate
+editor's footnote, not primary text, and is excluded.)

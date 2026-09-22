@@ -3,7 +3,7 @@ id: gallic.term.monastery-coenobium
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -44,7 +44,7 @@ retrieval:
   - what "coenobium" means
   - participant uses "monastery," "abbey," "convent," "cloister," or "community"
   - Marmoutier's caves, Castor's new house, Gennadius's "two monasteries," or the coenobite-then-anchorite sequence
-  do_not_retrieve_when:
+  prefer_instead:
   - who counts as a monk (retrieve monk / solitary)
   - the solitary's own dwelling (retrieve cell)
   - the received customs kept inside the house (retrieve the customs of the monasteries)

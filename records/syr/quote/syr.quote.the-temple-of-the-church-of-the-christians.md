@@ -3,7 +3,7 @@ id: syr.quote.the-temple-of-the-church-of-the-christians
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what would be found if the place this community met were excavated"
   - "participant asks whether there is physical or documentary evidence of a church building this early"
   - "participant asks what outsiders recorded about this community"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.remains

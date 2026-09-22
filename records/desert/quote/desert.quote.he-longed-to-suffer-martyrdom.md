@@ -3,7 +3,7 @@ id: desert.quote.he-longed-to-suffer-martyrdom
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether wanting to die as a martyr was a death wish"
   - "participant asks what these people thought about dying for the faith"
   - "participant asks whether they sought out persecution"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.death-wish

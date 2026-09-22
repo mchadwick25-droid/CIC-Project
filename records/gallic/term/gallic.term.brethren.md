@@ -3,7 +3,7 @@ id: gallic.term.brethren
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -38,7 +38,7 @@ retrieval:
   - why Cassian addresses bishops as "holy brothers"
   - participant uses "brother," "brethren," "the community," "fellow monks"
   - Vita X; Inst. IV.5; the dedications
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the monk as such (retrieve monk / solitary)
   - the participant means Vincent's "holy brethren" of Comm. ch. 11 - the faithful at large
 relations:

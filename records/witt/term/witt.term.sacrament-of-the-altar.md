@@ -3,7 +3,7 @@ id: witt.term.sacrament-of-the-altar
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -44,7 +44,7 @@ retrieval:
   - the Sacrament of the Altar, the Lord's Supper, or 'the bread'
   - '''in and under'''
   - who may or may not come to the table
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants our own account of the Marburg Colloquy or the Reformed controversy -- our library
     does not narrate it
 relations:

@@ -3,7 +3,7 @@ id: syr.term.ewangeliyon-da-mhallete
 world_id: syriac-edessa-nisibis
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -29,7 +29,7 @@ retrieval:
   - participant asks what 'the Gospel' meant in this world - four books or one
   - participant asks about the Diatessaron by name
   - Aphrahat's or Ephrem's Gospel text comes up
-  do_not_retrieve_when:
+  prefer_instead:
   - participant asks about the Peshitta - a later standard text, not this world's own vocabulary
 relations:
 - type: associated-with

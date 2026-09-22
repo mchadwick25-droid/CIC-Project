@@ -3,7 +3,7 @@ id: ijc.quote.jerome-damasus-verses
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - "participant asks how Rome advanced its own standing"
   - "participant asks what a bishop did with the tombs of the martyrs"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
 ---

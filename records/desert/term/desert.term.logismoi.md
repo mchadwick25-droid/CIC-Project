@@ -3,7 +3,7 @@ id: desert.term.logismoi
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - a participant asks about intrusive thoughts, temptation, or an unquiet mind
   - questions about demons and spiritual struggle
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.quote.the-eight-generic-thoughts

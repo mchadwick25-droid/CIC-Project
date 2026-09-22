@@ -3,7 +3,7 @@ id: pahc.term.ministrae
 world_id: post-apostolic-house-church
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic-unavailable
 canon_cells:
 - F5-I
@@ -24,7 +24,7 @@ retrieval:
   retrieve_when:
   - women in leadership or service, Pliny's letter
   - female ministers in early Christianity
-  do_not_retrieve_when:
+  prefer_instead:
   - modern deaconess orders with no historical connection to this period
 relations:
 - type: associated-with

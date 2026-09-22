@@ -3,7 +3,7 @@ id: witt.term.marriage
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -47,7 +47,7 @@ retrieval:
   - marriage, or the married estate
   - clerical marriage
   - whether marriage or celibacy is holier
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants a woman's own voice on marriage among us -- our library holds none
 relations:
 - type: associated-with

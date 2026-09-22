@@ -3,7 +3,7 @@ id: gallic.term.theotocos
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -33,7 +33,7 @@ retrieval:
   - what these writers said about Mary as "Mother of God," about Nestorius, or about the two natures
   - participant uses "Theotokos," "Mother of God," "Nestorian," "two natures," "Christology"
   - Comm. chs. 12-16; Cassian's books against Nestorius
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the formation ecology's own concerns - Christology is peripheral to us as read
   - the participant wants the content of Cassian's De Incarnatione - unread by this build; state the limit
   - later Marian doctrine

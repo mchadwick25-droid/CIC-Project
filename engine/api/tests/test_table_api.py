@@ -14,6 +14,7 @@ from engine.api.tests.conftest import reader_response, safety_response
 from engine.api.wiring import _load_world
 from engine.m4.grounding_net import all_text, content_words
 from engine.m4 import evidence
+from engine.m4.round import TABLE_SESSION_ROUND_CAP
 
 _FAKE_USAGE = SimpleNamespace(input_tokens=100, output_tokens=50, cache_creation_input_tokens=0, cache_read_input_tokens=0)
 
@@ -137,6 +138,20 @@ def test_create_table_session_and_door(store, usage_store, world_loader, registr
     assert desert_world.frame["representative"]["name"] in door["text"]
 
 
+def test_table_session_round_cap_is_surfaced_from_the_root(store, usage_store, world_loader, registry, alx_world, desert_world):
+    """Stage 0c (Build-Plan.md): the frontend used to hardcode a literal
+    round count in participant-facing copy. Both the session-create
+    response and the transcript now carry the real
+    engine.m4.round.TABLE_SESSION_ROUND_CAP value instead."""
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+                 client=_table_client(selector_script=[], stream_scripts=[]))
+    resp = http.post("/api/session", json={"world_keys": ["alx", "desert"]})
+    assert resp.json()["round_cap"] == TABLE_SESSION_ROUND_CAP
+    session_id, auth = _create_table(http)
+    transcript = http.get(f"/api/session/{session_id}/transcript", headers=auth).json()
+    assert transcript["round_cap"] == TABLE_SESSION_ROUND_CAP
+
+
 def test_create_table_session_bad_shapes(store, usage_store, world_loader, registry):
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
                  client=_table_client(selector_script=[], stream_scripts=[]))
@@ -148,7 +163,7 @@ def test_create_table_session_bad_shapes(store, usage_store, world_loader, regis
 
 
 def test_create_table_session_rejects_bad_seat_count_directly(store, world_loader, registry):
-    """Independent review, 2026-09-05: the HTTP layer's own 2-3-distinct-
+    """The HTTP layer's own 2-3-distinct-
     seats check (engine.api.app) isn't the only caller -
     engine.m4.live_table_run and engine.m4.live_table_battery call
     create_table_session directly with an unvalidated --worlds split, and
@@ -171,8 +186,8 @@ def test_create_table_session_rejects_bad_seat_count_directly(store, world_loade
 def test_selector_presentation_order_is_shuffled_not_the_session_seating(
     monkeypatch, store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
 ):
-    """Mark's report, 2026-09-05: "it always answers in the same order...
-    can we simply randomize the order with everyone still participating."
+    """Voices always answered in the same presentation order; the fix
+    randomizes that order while everyone still participates.
     The session's own canonical seating (state.world_keys - what worlds,
     labels, and direct-address detection all read) is untouched; only the
     COPY shown to the turn selector each call is freshly shuffled, so a
@@ -249,8 +264,7 @@ def test_round_turn_at_a_time_to_selector_close(store, usage_store, world_loader
     speakers = [t["speaker"] for t in transcript["transcript"]]
     assert speakers == ["facilitator", "participant", "alx", "desert", "alx"]
 
-    # Mark's own question, 2026-09-05 ("why isn't it reaching second
-    # passes?"): the real selector's own stated reason for closing used to
+    # The real selector's own stated reason for closing used to
     # be discarded entirely - round_closed.reason is only the fixed ENUM
     # category ("selector_closed"), never the model's actual free-text
     # justification. It's logged now, in the raw event.
@@ -299,8 +313,8 @@ def test_round_close_reasons_endpoint_surfaces_selector_reason(store, usage_stor
 
 
 def test_round_cap_closes_at_five_for_two_seats(store, usage_store, world_loader, registry, alx_world, desert_world):
-    """Mark's ruling, 2026-09-05: 'for 2 voices and a participant, the max
-    turns should be 5' (RoundConfig.cap_for(2) == 5, superseding the old
+    """For 2 voices and a participant, the max
+    turns is 5 (RoundConfig.cap_for(2) == 5, replacing the old
     flat cap of 4 this test used to pin)."""
     alx_sentence, _ = grounded_sentence(alx_world)
     desert_sentence, _ = grounded_sentence(desert_world)
@@ -328,11 +342,11 @@ def test_round_cap_closes_at_five_for_two_seats(store, usage_store, world_loader
 def test_round_cap_closes_at_six_for_three_seats(
     store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
 ):
-    """Mark's ruling, 2026-09-05: 'for 3 voices the cap is 6'
+    """For 3 voices the cap is 6
     (RoundConfig.cap_for(3) == 6). At three seats there is never a forced
     move (two voices are always eligible, excluding only the last
     speaker), so all six turns are real selector picks; the 3-seat floor
-    (5 - raised a second time the same day, on live evidence that the
+    (5 - raised on live evidence that the
     engagement-scoping fix genuinely worked but round length was an
     independent problem it didn't touch) makes close legal only from
     position 6's decision onward - the same decision the cap forces
@@ -388,7 +402,7 @@ def test_round_cap_closes_at_six_for_three_seats(
 def test_second_pass_turn_only_sees_its_engaged_voice_not_every_prior_answer(
     store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
 ):
-    """Independent review, 2026-09-05, the finding that actually mattered:
+    """The finding that actually mattered:
     naming one voice in the directive is not structural scoping if the
     turn's own context still hands it every other voice's full answer
     regardless of what one sentence asks it not to do with it. alx's
@@ -434,7 +448,7 @@ def test_second_pass_turn_only_sees_its_engaged_voice_not_every_prior_answer(
 def test_a_first_time_speaker_landing_on_the_cap_turn_gets_the_final_turn_framing(
     store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
 ):
-    """Independent review, 2026-09-05 - the exact scenario its own live
+    """The exact scenario a live
     probe demonstrated as broken: at 3 seats, alx/desert alternate through
     positions 1-5 (both legal - no immediate self-repeat only excludes the
     LAST speaker, not every prior one) and pahc speaks for the first time
@@ -473,7 +487,7 @@ def test_a_first_time_speaker_landing_on_the_cap_turn_gets_the_final_turn_framin
     rendered = str(final_call["system"])
     assert "last turn before the participant speaks again" in rendered
     assert "leave the floor open for the participant" in rendered
-    # A pre-existing vacuous assertion here (independent review, 2026-09-05)
+    # A pre-existing vacuous assertion here
     # checked for a substring with a semicolon the code never produces.
     # "drawn back in every time" is the non-final ending's own phrase -
     # genuinely absent from a final turn.
@@ -611,8 +625,7 @@ def test_round_closed_carries_governance_summary(store, usage_store, world_loade
 def test_cap_closed_round_governance_includes_the_cap_turn_itself(
     store, usage_store, world_loader, registry, alx_world, desert_world
 ):
-    """PRE-EXISTING BUG, found by independent review, 2026-09-05 (dates to
-    436128f1, 2026-08-30 - not introduced by this session's round-length
+    """PRE-EXISTING BUG (not introduced by this session's round-length
     work). A cap-forced close built its governance_summary from the `state`
     projected at the TOP of _advance_open_round, before the cap-triggering
     voice_turn was written - the round_closed payload's own `turns` count
@@ -647,9 +660,8 @@ def test_table_voice_payload_matches_interview_shape(store, usage_store, world_l
     bridges - engine/m4/citation_cards.py and the shipped VoiceTurnBody
     UI) consumes the interview's voice payload. A table voice turn must
     hand it the identical shape, so the same rendering carries the same
-    apparatus at a table with zero UI changes - Mark's requirement,
-    2026-08-28: the transparency program 'will need to be part of the
-    conversation' at the Table."""
+    apparatus at a table with zero UI changes - the transparency program
+    needs to be part of the conversation at the Table too."""
     from engine.api.tests.conftest import FakeBedrockClient
 
     alx_sentence, _ = grounded_sentence(alx_world)
@@ -695,3 +707,77 @@ def test_usage_records_carry_world_attribution(store, usage_store, world_loader,
     assert {r.world_key for r in by_kind["reader_call"]} == {None}
     assert {r.world_key for r in by_kind["turn_selector"]} == {"alx"}
     assert {r.world_key for r in by_kind["voice_generation"]} == {"alx"}
+
+
+# --- seat-identity guard (Decision-Log.md Entry 47, 2026-09-22) ---
+
+
+def test_seat_identity_guard_regenerates_once_then_ships_the_clean_retry(store, usage_store, world_loader, registry, alx_world, desert_world):
+    clean_sentence, rid = grounded_sentence(alx_world)
+    violating = "The Facilitator: I will speak for both of us now."
+    client = _table_client(
+        selector_script=[{"next": "alx", "reason": "opening"}],
+        stream_scripts=[[violating], [clean_sentence]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+
+    result = http.post(f"/api/session/{session_id}/message", json={"text": "who is jesus"}, headers=auth).json()
+    assert result["voice"]["speaker"] == "alx"
+    # The clean regenerated text ships, not the caught first attempt.
+    assert "Facilitator" not in result["voice"]["text"]
+    assert rid in [c["record_ids"][0] for c in result["voice"]["citations"]]
+
+    violations = [e for e in store.read_events(session_id) if e.event_type == "seat_identity_violation"]
+    assert len(violations) == 1
+    assert violations[0].payload["attempt"] == "first"
+    assert violations[0].payload["offending_prefix"] == "The Facilitator:"
+    assert violations[0].payload["world_key"] == "alx"
+    assert violations[0].payload["round_no"] == 1 and violations[0].payload["position"] == 1
+
+    # Two real stream calls were made for this one turn - the guard's one
+    # regeneration actually happened, not silently skipped.
+    assert len(client.messages.stream_calls) == 2
+
+    # No facilitator fallback fired - the retry succeeded.
+    assert not any(f["kind"] == "seat_correction" for f in result["facilitator"])
+
+
+def test_seat_identity_guard_exhausted_hands_the_turn_to_the_facilitator(store, usage_store, world_loader, registry, alx_world, desert_world):
+    desert_label = f"{desert_world.frame['representative']['name']} ({desert_world.frame['display_name']})"
+    violating_1 = "The Facilitator: I will speak for both of us now."
+    violating_2 = f"{desert_label}: I agree with what was just said."
+    client = _table_client(
+        selector_script=[{"next": "alx", "reason": "opening"}],
+        stream_scripts=[[violating_1], [violating_2]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+
+    result = http.post(f"/api/session/{session_id}/message", json={"text": "who is jesus"}, headers=auth).json()
+    assert result["voice"]["speaker"] == "alx"
+    # The voice's text is not shown.
+    assert result["voice"]["text"] == ""
+    # The round still advanced (position/turn bookkeeping intact) rather than stalling.
+    assert result["position"] == 1 and result["round_open"]
+
+    fallback = [f for f in result["facilitator"] if f["kind"] == "seat_correction"]
+    assert len(fallback) == 1
+    assert alx_world.frame["representative"]["name"] in fallback[0]["text"]
+
+    violations = [e for e in store.read_events(session_id) if e.event_type == "seat_identity_violation"]
+    assert [v.payload["attempt"] for v in violations] == ["first", "regenerated"]
+    assert [v.payload["offending_prefix"] for v in violations] == ["The Facilitator:", f"{desert_label}:"]
+
+    stored_facilitator_events = [
+        e for e in store.read_events(session_id) if e.event_type == "facilitator_turn" and e.payload["kind"] == "seat_correction"
+    ]
+    assert len(stored_facilitator_events) == 1
+
+    # Round bookkeeping stayed intact: alx counts as having spoken this
+    # round (the voice_turn event was still written, empty text and all),
+    # which is what keeps the next selection from immediately re-picking
+    # the same seat that just failed (turn_selector's own no-immediate-
+    # self-repeat rule, engine.m4.turn_selector.eligible_worlds).
+    projected = [e for e in store.read_events(session_id) if e.event_type == "voice_turn"]
+    assert len(projected) == 1 and projected[0].payload["speaker"] == "alx"

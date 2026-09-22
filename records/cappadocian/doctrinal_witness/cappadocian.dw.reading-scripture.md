@@ -3,7 +3,7 @@ id: cappadocian.dw.reading-scripture
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -28,7 +28,6 @@ retrieval:
   retrieve_when:
   - "participant asks how this world read scripture, or what it looked for there"
   - "participant asks how someone who could not read received the scriptures"
-  do_not_retrieve_when: []
 text: >-
   Most of us could not read at all, so scripture reached us first as
   something sung, not something opened on a page. The psalms were repeated

@@ -3,7 +3,7 @@ id: witt.term.good-works
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -35,7 +35,7 @@ retrieval:
   retrieve_when:
   - good works
   - whether faith alone means works do not matter
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means merit specifically (retrieve merit)
 relations:
 - type: associated-with

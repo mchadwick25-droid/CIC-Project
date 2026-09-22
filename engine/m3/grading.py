@@ -19,7 +19,7 @@ foundation audit's own rule about patches outliving their causes. See
 engine/m1/canon.py's tombstone note.)
 
 register is NOT mechanical in general - spec module M3 says outright that
-"Mark's reading is the instrument for register" (spec SS5, threshold
+human reading is the instrument for register (spec SS5, threshold
 discipline), and the register floor rule (spec O2 statement 6: "the voice
 never coins quotable lines of its own - when something deserves to be
 quotable, it *is* a quote") is a judgment about voice, not a checkable
@@ -29,7 +29,7 @@ metaphor-as-definition construction ("X is the Y that...") and checks
 whether the flagged text is grounded in a real, sourced quote. It is
 DELIBERATELY NARROW - built and tested against exactly the one seeded
 register defect this stage's gate names, not offered as a general register
-grader. Real register grading is Mark's read (or, later, a model call once
+grader. Real register grading is a human read (or, later, a model call once
 one is configured) - this heuristic exists only so the mechanical harness
 has something to run today, and it says so everywhere it appears.
 """
@@ -86,8 +86,7 @@ def source_boundedness_check(
     citations = transcript["citations"]
     unresolved = [c for c in citations if c not in known_source_ids and c not in evidence_status_ids]
     if unresolved:
-        # Option A (Mark's ruling, 2026-08-29, "option A, run it"): an
-        # unresolvable ADDRESS on a sentence whose content verifies
+        # An unresolvable ADDRESS on a sentence whose content verifies
         # against the world's own records is a MISCOPIED ADDRESS - a
         # review finding routed to the build - not a fabrication. Five
         # battery runs characterized the split: every invented address
@@ -114,7 +113,7 @@ def source_boundedness_check(
                     findings=[
                         f"probe {transcript['probe_id']}: MISCOPIED ADDRESS (review, route to build): {rid} does not "
                         f"exist, but its sentence's content verifies against {hits[:4]} - an address error on real "
-                        f"content, not a fabrication (Option A, Mark's ruling 2026-08-29)"
+                        f"content, not a fabrication"
                         for rid, hits in miscopies
                     ],
                 )
@@ -139,14 +138,13 @@ def source_boundedness_check(
 
 
 def register_check(transcript: MaskedTranscript, known_quote_texts: set[str]) -> CheckResult:
-    """ADVISORY, NEVER GATING - Mark's ruling, 2026-08-28, after the third
-    live run flagged a third free-composed line ("It is the posture that")
-    on a probe that had passed twice: register statement 6 is "direction to
-    keep things at a conversation level, not I'm-trying-to-be-clever-or-
-    memorable... there may be something that comes out that is memorable
-    because it's good conversation. I don't want to waste time and money
-    figuring out what is good conversation and what is memorable. Good
-    direction that doesn't need to be gated."
+    """ADVISORY, NEVER GATING: a live run flagged a free-composed line
+    ("It is the posture that") on a probe that had passed twice, exposing
+    that register statement 6 gives direction to keep things at a
+    conversation level, not deliberately clever or memorable - something
+    coming out memorable because it's good conversation is fine; this
+    isn't meant to police what counts as memorable. Good direction that
+    doesn't need to be gated.
 
     So the statement stays exactly where it always worked - in the compiled
     prompt, as the voice's own standing direction - and this heuristic
@@ -155,7 +153,7 @@ def register_check(transcript: MaskedTranscript, known_quote_texts: set[str]) ->
     A regex cannot tell a coined maxim from a line that is memorable
     because the conversation is good, and admission stops pretending it
     can. Real register judgment remains what this module's own header
-    always said it was: Mark's read."""
+    always said it was: a human read."""
     assert_blind(transcript)
     text = transcript["answer_text"]
     match = _COINED_APHORISM_PATTERN.search(text)
@@ -168,7 +166,7 @@ def register_check(transcript: MaskedTranscript, known_quote_texts: set[str]) ->
         check="register_coined_aphorism_heuristic",
         passed=True,
         findings=[
-            f"probe {transcript['probe_id']}: ADVISORY (direction, not a gate - Mark's ruling 2026-08-28): "
+            f"probe {transcript['probe_id']}: ADVISORY (direction, not a gate): "
             f"answer contains a metaphor-as-definition construction ({match.group(0)!r}) not grounded in "
             f"any sourced quote - register statement 6's direction is conversational register, recorded "
             f"here for review, never failing the probe"

@@ -3,7 +3,7 @@ id: pahc.force.transmission-network
 world_id: post-apostolic-house-church
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F2-E
@@ -68,11 +68,7 @@ which portions of this world's own self-understanding are recoverable
 today at all") and is the same cell claimed by this force's Cell-3B
 counterpart, pahc.force.selective-canonization - the same underlying
 mechanism at its ongoing and ending stages respectively, both correctly
-grounding the same cell. FIXED at Step 6 round-1 review: an earlier
-draft of this trailing body claimed "no other cell in the fleet canon
-asks this force's specific question" and left canon_cells empty - false
-on its face given the sibling record's own F2-E claim, checked here
-directly against _fleet.canon.f2-e-03. F5-E (material remains / how
+grounding the same cell. F5-E (material remains / how
 historians know about daily life) remains deliberately NOT claimed: it
 is reserved for a future honest_limit or contested_claim citing the G06
 household-rejection finding directly, and no force record in this

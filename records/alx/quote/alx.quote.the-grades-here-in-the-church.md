@@ -3,7 +3,7 @@ id: alx.quote.the-grades-here-in-the-church
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether this world's church is the same as any church today"
   - "participant asks what their leaders were called and how they were ranked"
   - "participant asks whether they had bishops"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.episkopos

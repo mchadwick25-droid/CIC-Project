@@ -3,7 +3,7 @@ id: alx.quote.no-festal-letter-was-written
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether the empire changed the church once it became Christian"
   - "participant asks whether Christians were ever in hiding, and from whom"
   - "participant asks what a Christian emperor did to bishops who disagreed"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.empire

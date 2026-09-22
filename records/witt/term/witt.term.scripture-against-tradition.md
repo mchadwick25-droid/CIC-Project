@@ -3,7 +3,7 @@ id: witt.term.scripture-against-tradition
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -42,7 +42,7 @@ retrieval:
   retrieve_when:
   - Scripture's authority over Fathers, councils, or the pope
   - '''under the bench'''
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Word's broader power (retrieve the Word)
 relations:
 - type: associated-with

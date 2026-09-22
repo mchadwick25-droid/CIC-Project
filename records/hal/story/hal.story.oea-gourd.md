@@ -3,7 +3,7 @@ id: hal.story.oea-gourd
 world_id: hieronymian-ascetic-literary
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - what the translation project cost in real congregations
   - the argument with Augustine
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.force.augustine-dispute

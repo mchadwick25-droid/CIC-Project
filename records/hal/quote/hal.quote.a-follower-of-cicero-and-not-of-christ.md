@@ -3,7 +3,7 @@ id: hal.quote.a-follower-of-cicero-and-not-of-christ
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -40,7 +40,6 @@ retrieval:
   - "participant asks whether anyone here struggled to give up what they loved"
   - "participant says their faith and their real interests pull in different directions"
   - "participant asks what the discipline of this world actually demanded of a person inside"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.inner-life

@@ -3,7 +3,7 @@ id: pahc.term.baptisma
 world_id: post-apostolic-house-church
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -32,7 +32,7 @@ retrieval:
   - "participant asks whether you baptised babies, infants or children, or only adults"
   - "participant asks who could be baptised and what baptism required of them"
   - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
-  do_not_retrieve_when:
+  prefer_instead:
   - infant-baptism debates or modern baptismal theology with no connection to this period
 relations:
 - type: associated-with

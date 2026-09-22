@@ -3,7 +3,7 @@ id: witt.term.must-and-free
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -45,7 +45,7 @@ retrieval:
   - '''must'' and ''free,'' or Christian liberty'
   - the weak in faith
   - whether liberty means doing whatever one wants
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means one specific 'free' thing on its own (retrieve fasting, images, marriage, or
     vows as fits)
 relations:

@@ -3,7 +3,7 @@ id: alx.quote.clement-schoolmaster
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they made of Greek philosophy and pagan learning"
   - "participant asks whether people outside the church had anything true"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: alx.force.platonic-environment

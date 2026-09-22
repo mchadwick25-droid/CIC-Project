@@ -9,7 +9,7 @@ surfaced and disclosed, not silently patched.
 
 ## What the governing process document says, and why it doesn't apply as written
 
-`reference/method/CiC_Record_Native_World_Build_Process_V1_3.md` (moved
+`reference/method/CiC_Record_Native_World_Build_Process_V1.5.md` (moved
 there by the later repo reorganization; path corrected 2026-09-14) §4
 ("Phase C — Deployment wiring") describes: an `app/world_manifest.py` entry,
 two hand-synced frontend points (`SpeakerName` union, `MessageBubble.tsx`

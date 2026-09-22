@@ -3,7 +3,7 @@ id: desert.term.synaxis
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F3-I, F4-I]
 confidence:
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - what actually happened when this world gathered
   - questions about worship, liturgy, or the shared meal
-  do_not_retrieve_when:
+  prefer_instead:
   - questions about Pachomian daily communal prayer - that runs on the Rule's own rhythm, not under this name
 relations:
 - type: associated-with

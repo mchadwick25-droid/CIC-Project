@@ -3,7 +3,7 @@ id: cappadocian.term.mysterion
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -20,7 +20,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - what 'mystery' meant in worship or in speaking about God
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: This word named something hidden that becomes truly present. It stays hidden even so, never
   fully explained. This could be what happens in a sacred rite. It could be a depth in Scripture. It could

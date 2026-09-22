@@ -3,7 +3,7 @@ id: witt.term.the-sword
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -34,7 +34,7 @@ retrieval:
   retrieve_when:
   - the sword, or secular authority
   - whether the Church may wield force
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the two governments' whole doctrine (retrieve the two governments)
 relations:
 - type: associated-with

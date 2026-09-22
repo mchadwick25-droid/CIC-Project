@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """The corpus map: which works belong to which Atlas entry.
 
-Mark, 2026-08-26: *"lets keep this separate from the built worlds with clear
-buckets that align, then we can figure out how best to integrate this into
-each world after we do the parsing and organizing."*
+This stays separate from the built worlds, with clear buckets that align,
+so it can be integrated into each world later, after the parsing and
+organizing is done.
 
 So this lives at `cic/corpus-map/`, outside `records/` entirely - beside the
 texts it describes and the tooling that reads them, and touched by nothing in
@@ -22,7 +22,7 @@ a join on a key that already matches:
 
 Three rulings are enforced here rather than left to memory:
 
-  PER WORK (Mark, 2026-08-26). Not per volume - anf02 holds five authors
+  PER WORK. Not per volume - anf02 holds five authors
       belonging to different traditions. Not per author either - Athanasius'
       Vita Antonii belongs to desert while his Against the Arians belongs to
       Alexandria. The unit is the work.
@@ -35,7 +35,7 @@ Three rulings are enforced here rather than left to memory:
 
   ROLE: TRADITION | CONTEXT | ANTECEDENT | TRANSMISSION.
 
-      `transmission` was added 2026-08-26 on Mark's ruling, after three works
+      `transmission` was added after three works
       in the Syriac pile turned out to be saying the same thing in different
       words: `syr` was marking WHERE A TEXT WAS PRESERVED, not whose voice it
       is. The Ambrose hypomnemata is a Greek apology that survives only
@@ -95,10 +95,10 @@ Three rulings are enforced here rather than left to memory:
       lived through and argued against - the same author, two relations, which
       is the point of having the field at all.
 
-  ROLE: TRADITION | CONTEXT (Mark, 2026-08-26: "it carries a context marker
-      for that world"). Julian, Porphyry, Libanius and Ammianus are assigned
-      to the entry they SURROUND, marked context. They are the view from
-      outside, which no Christian source can supply. The half of that ruling
+  ROLE: TRADITION | CONTEXT. Julian, Porphyry, Libanius and Ammianus are assigned
+      to the entry they SURROUND, marked context - each carries a context
+      marker for that world. They are the view from
+      outside, which no Christian source can supply. The half of that rule
       this file can check is structural; the other half - that no `register:
       emic` record ever cites a context work - becomes checkable at
       integration, and is named in the brief so it is not forgotten.
@@ -127,7 +127,7 @@ ROLES = {"tradition", "context", "antecedent", "transmission"}
 CONFIDENCES = {"assigned", "provisional", "needs-ruling"}
 REQUIRED = ("work", "author", "source_file", "role", "confidence")
 
-# Pre-Survey Candidate entries ARE valid targets - Mark, 2026-08-26. 215 of the
+# Pre-Survey Candidate entries ARE valid targets. 215 of the
 # census's 274 movements sit in eras whose Step 0 survey has not run, and
 # material plainly belonging to one of them should be placed there rather than
 # held back. Placing a source is not a claim that the era's survey has run.

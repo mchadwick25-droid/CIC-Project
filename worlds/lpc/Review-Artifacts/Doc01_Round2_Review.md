@@ -1,7 +1,7 @@
 # Doc_01 — World Identification, Boundaries, and Orientation: Latin Pastoral-Congregational Christianity
 ## Round 2 Independent Adversarial Review
 
-**Document reviewed:** `worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md` (DRAFT — revision responding to Round 1, 2026-09-01)
+**Document reviewed:** `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_01_World_Identification_Boundaries_Orientation.md` (DRAFT — revision responding to Round 1, 2026-09-01)
 **Review date:** 2026-09-01
 **Reviewer:** independent adversarial review thread. Did not draft the document under review, did not draft this world's Step 0, did not write the Step 0 review rounds, and **did not write the Round 1 Doc_01 review** — Round 1's own findings and its suggested fixes were treated as claims to be re-derived, not as authority. (This matters: two defects below are Round 1's own errors, imported into the revision on trust.)
 **Governed by:** `cic-build-cycle` (CO-022) *Review* and *Revision decision* sections; Construction Framework V7.4 Part I and Step 1; Constitution V2.2 Articles 3, 4, 15, 21, 22, 23, 29; Forces Framework V1.1 Section 4; RCF V3.2 Part Four.
@@ -34,11 +34,11 @@ It nonetheless fails at Round 2, on one dominant ground and three supporting one
 
 Nothing was taken on either the document's or Round 1's word. Re-derived from source in this session:
 
-- **Governing text, re-extracted from `.docx`:** `reference/L1-Foundation/CiC_L1_Constitution_V2_2.docx` (Articles 3, 4, 15, 20, 21, 22, 23, 29 read in full); `reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` (Part I criterion sets, Part III Gravity Discovery, the Step 1 entry); `reference/L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx` (Layer 1–3 definitions, Section 4 Step 1 entry); `reference/L3C-Representative-Methodology/CiC_L3C_Representative_Construction_Framework_V3.2.docx` Part Four (Temporal Horizon, Depth Calibration).
+- **Governing text, re-extracted from `.docx`:** `L1-Foundation/CiC_L1_Constitution_V2_2.docx` (Articles 3, 4, 15, 20, 21, 22, 23, 29 read in full); `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` (Part I criterion sets, Part III Gravity Discovery, the Step 1 entry); `L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx` (Layer 1–3 definitions, Section 4 Step 1 entry); `L3C-Representative-Methodology/CiC_L3C_Representative_Construction_Framework_V3.2.docx` Part Four (Temporal Horizon, Depth Calibration).
 - **The live `cic-build-cycle` skill** (CO-022 and CO-024b), extracted from the `.skill` archives — the four escalation categories read verbatim.
 - **The vendored primary corpus, read directly, not from memory:** `cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml` — *On Baptism* I.1.2 (ordination in schism), II.3 (councils corrected by plenary councils; Cyprian's 256 preface quoted by Augustine), III.2 and VI (**both quotations in §5 located to their actual books** — one of them is not where the document says it is), Ep. 185's Nebuchadnezzar/kings-enact-laws argument. `cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml` — *De Unitate* 5 ("The episcopate is one, each part of which is held by each one for the whole"), the Council of Carthage 256 preface ("bishop of bishops"), and Epistle LXVII (= Oxford Ep. lxvii, a.d. 257) in full context.
 - **This world's own Step 0** in full, all eight §4 carry-forwards traced individually against the revision.
-- **`worlds/ijc/Doc_01_...md`** §4 (Strands A/B/C), §6, §8; **IJC Step 0 §4 item 3**; **`worlds/hal/hal_Doc_01_...md`** §3.3, §4, §8.1.
+- **`World-Builds/Imperial-Juridical-Christianity/Doc_01_...md`** §4 (Strands A/B/C), §6, §8; **IJC Step 0 §4 item 3**; **`World-Builds/Hieronymian-Ascetic-Literary/hal_Doc_01_...md`** §3.3, §4, §8.1.
 - **Donatism's sibling-branch Step 0**, read via `git show origin/claude/record-native-world-build-v2-e2s0dt:...` — §2 A5, §3 B3, §4 item 4.
 - **`cic/corpus-map/latin-pastoral-congregational-christianity.yaml`** — the Ep. 185 row (`confidence: assigned`, confirmed) and the Council of Carthage 419 row.
 - **`Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md`** — checkpoint M2 confirmed at source.

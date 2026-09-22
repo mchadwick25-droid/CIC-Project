@@ -3,7 +3,7 @@ id: hal.figure.rufinus
 world_id: hieronymian-ascetic-literary
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -46,11 +46,9 @@ patronage, translation, ascetic community - a structural parallel the
 record notes without developing (Melania's circle belongs to no built
 world yet).
 
-CORRECTED per independent review Round 1 (2026-08-21): the preface's own
-heading dates it 397, not 400 as an earlier draft of this record stated;
-and the preface itself does not name Jerome - the NPNF editor's own
-headnote states Jerome is "not named" though "clearly described," matching
-this record set's own hal.story.rufinus-rupture ("named no one, and
-everyone knew he meant Jerome"), which the earlier wording of this record
-contradicted. Re-verified directly against cic/texts/npnf203_theodoret-
-jerome-gennadius-rufinus.xml before this correction.
+The preface's own heading dates it 397; and the preface itself does not
+name Jerome - the NPNF editor's own headnote states Jerome is "not named"
+though "clearly described," matching this record set's own
+hal.story.rufinus-rupture ("named no one, and everyone knew he meant
+Jerome"). Verified directly against cic/texts/npnf203_theodoret-
+jerome-gennadius-rufinus.xml.

@@ -3,7 +3,7 @@ id: alx.term.pneuma-hagion
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what the Holy Spirit does here, or whether the Spirit is present only in special moments
   - how the Spirit relates to Scripture, prayer, illumination, or transformation
-  do_not_retrieve_when:
+  prefer_instead:
   - asking primarily about charismatic gifts or tongues in a modern Pentecostal sense
   - asking about the Spirit only as an item of Trinity doctrine, apart from formation
 relations: []

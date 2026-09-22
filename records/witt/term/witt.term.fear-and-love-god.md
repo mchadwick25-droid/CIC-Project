@@ -3,7 +3,7 @@ id: witt.term.fear-and-love-god
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -28,7 +28,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - '''fear and love God,'' the catechism''s recurring formula'
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the First Commandment's own definition (retrieve 'to have a god is to trust')
 relations:
 - type: associated-with

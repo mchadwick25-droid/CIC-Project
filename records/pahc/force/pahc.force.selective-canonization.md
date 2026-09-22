@@ -3,7 +3,7 @@ id: pahc.force.selective-canonization
 world_id: post-apostolic-house-church
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F2-E
@@ -65,11 +65,9 @@ relations:
 - type: associated-with
   target: pahc.quote.appointed-to-be-read
 ---
-Re-derived from the approved Doc_08 Force 3B-2. FIXED at Step 6 round-1
-review: the causal-synthesis hedge previously lived only in
-divergence_note; the description asserted the causal claim flatly. Now
-disclosed inline in the description's own FORMATION IMPACT layer too,
-matching the house pattern already used at pahc.force.contemporary-
+Re-derived from the approved Doc_08 Force 3B-2. The causal-synthesis
+hedge is disclosed inline in the description's own FORMATION IMPACT
+layer, matching the house pattern already used at pahc.force.contemporary-
 rival-movements. canon_cells: F2-E
 ('Where is your own record thinnest?') is a close, direct match to this
 force's own content and is added here at generation. relations left
@@ -80,21 +78,17 @@ G02); this record does not manufacture a connection Doc_08 itself does
 not state. It is the ending-stage counterpart to that same mechanism,
 noted here in prose rather than as a formal schema relation.
 
-CORRECTED 2026-08-27, on the fleet unopened-volume sweep
-(pahc.search.unopened-volume-sweep). This record had said Hermas was
-"excluded by Athanasius" and listed that as a manifestation. It is not
-what the Festal Letter of 367 does. Athanasius names a second class of
+Athanasius names a second class of
 books - Wisdom, Sirach, Esther, Judith, Tobit, the Teaching of the
 Apostles and the Shepherd - "not indeed included in the Canon, but
 appointed by the Fathers to be read by those who newly join us", and
 puts both of this world's own nearly-lost texts in it.
 
-The correction strengthens this record rather than weakening it. A book
+A book
 moved from the church's reading to the catechumens' is a book whose
 survival now depends on a much smaller and more occasional demand for
 copies, which is a better mechanism for the thinning this record
-describes than a straightforward ban would be. The claim was directionally
-right and specifically wrong, and the specifics were doing work.
+describes than a straightforward ban would be.
 
 Opened at pahc.source.athanasius-festal-39; the passage is quoted at
 pahc.quote.appointed-to-be-read. The letter is 367 and this world closes

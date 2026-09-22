@@ -3,7 +3,7 @@ id: cappadocian.dw.macrina-and-its-cost
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -34,7 +34,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether a woman could carry real authority among this world's people, and what it
     cost her"
-  do_not_retrieve_when: []
 text: >-
   One woman among us carried enough authority that our own record calls
   her simply the Teacher. Her betrothed died before their wedding; she

@@ -3,7 +3,7 @@ id: witt.term.law-and-gospel
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -39,7 +39,7 @@ retrieval:
   - Law and Gospel, or 'commands and promises'
   - why we read Scripture the way we do
   - what the Law is for, if not to save
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Gospel's own content specifically (retrieve Gospel)
 relations:
 - type: associated-with

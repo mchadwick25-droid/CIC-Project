@@ -3,7 +3,7 @@ id: witt.term.what-does-this-mean
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -25,7 +25,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - the catechism's own question-and-answer form
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the catechism's content broadly (retrieve catechism)
 relations:
 - type: associated-with

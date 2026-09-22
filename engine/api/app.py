@@ -18,9 +18,9 @@ from pathlib import Path
 from fastapi import FastAPI, Header, HTTPException, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
-from engine.api import ratelimit, table_wiring, wiring
+from engine.api import anon_cap, db_backup, ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
 from engine.m1.registry import load_registry
 from engine.m4 import idle_close, session_code
@@ -29,6 +29,12 @@ from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
 from engine.m7 import scheduler as m7_scheduler
 from engine.m8.log_store import UsageLogStore
+
+class MissingAnonCapSecret(Exception):
+    """Raised at app construction when anon_cap_enabled=True but no secret
+    was given - same "never guess, fail loudly" posture as MissingConfigError
+    in engine.api.config for region."""
+
 
 _INVALID_SESSION_DETAIL = "invalid session"
 _WORLD_UNAVAILABLE_DETAIL = "world temporarily unavailable"
@@ -68,10 +74,27 @@ class SessionCreateRequest(BaseModel):
 class SessionCreateResponse(BaseModel):
     session_id: str
     session_code: str
+    # Stage 0c (Build-Plan.md): None for an interview session (no round cap
+    # applies); the table session round cap for a table session - so the
+    # frontend can render the real configured number instead of guessing.
+    round_cap: int | None = None
+
+
+_MAX_MESSAGE_LENGTH = 4000  # ~800-1000 words - generous for a real participant turn, bounded against a payload attack
 
 
 class MessageRequest(BaseModel):
-    text: str
+    # 2026-09-21, closing adversarial review of Tech-Readiness P1-Security:
+    # unbounded before this. Nothing anywhere in the request path - not
+    # this model, not engine/m4/turn.py, not the Dockerfile - capped
+    # participant input length; every message is forwarded to Bedrock
+    # TWICE per turn (the safety gate, then voice generation) and stored
+    # verbatim, at up to 40 messages/min per IP. Output was already
+    # bounded (max_tokens on the generation call); input wasn't - textbook
+    # OWASP LLM Top 10 "unbounded consumption," and cheaper for an
+    # attacker to hit than the session-creation path this package's own
+    # anonymous-cap work (item 3) addresses.
+    text: str = Field(max_length=_MAX_MESSAGE_LENGTH)
     client_msg_id: str | None = None
 
 
@@ -112,6 +135,8 @@ class TranscriptResponse(BaseModel):
     mode: str | None = None
     world_keys: list[str] | None = None
     round_open: bool = False
+    # Stage 0c (Build-Plan.md): same rule as SessionCreateResponse above.
+    round_cap: int | None = None
 
 
 class RoundCloseReasonsResponse(BaseModel):
@@ -139,7 +164,7 @@ class WorldSummary(BaseModel):
     census_id: str | None
     display_name: str | None
     # The friendly participant-facing name; display_name is the scholarly
-    # one (both registers, Mark's ruling 2026-08-28).
+    # one. Both registers are kept.
     card_name: str | None = None
     representative: dict | None
     time_window: dict | None
@@ -209,6 +234,10 @@ def create_app(
     rate_limit: bool = False,
     admin_token: str | None = None,
     package_cache_dir: Path | None = None,
+    anon_cap_enabled: bool = False,
+    anon_visitor_secret: str | None = None,
+    anon_daily_session_limit: int = anon_cap.DEFAULT_DAILY_SESSION_LIMIT,
+    anon_daily_turn_limit: int = anon_cap.DEFAULT_DAILY_TURN_LIMIT,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -222,8 +251,28 @@ def create_app(
     admin_token defaults None, same disabled-by-default posture: unset in
     a test app (or a real deploy that hasn't configured one yet) means
     /api/admin/pilot-summary 404s outright rather than existing in a
-    permanently-unauthorizable state."""
+    permanently-unauthorizable state.
+
+    anon_cap_enabled defaults False, same posture again (see
+    engine.api.anon_cap's own module docstring for what this is and why
+    it's proposed, not decided, even once code-complete). Enabling it with
+    no secret is refused loudly, not silently skipped - a caller opting in
+    without providing the one thing that makes the token unforgeable is a
+    misconfiguration, not a valid "off" state."""
+    if anon_cap_enabled and not anon_visitor_secret:
+        raise MissingAnonCapSecret("CIC_API_ANON_CAP_ENABLED is on but CIC_API_ANON_VISITOR_SECRET is unset")
     app = FastAPI(title="CiC engine/api (minimal test backend)")
+    # Registration order matters: Starlette's middleware stack is LIFO
+    # (the last one registered ends up outermost and runs first), so
+    # anon_cap is installed BEFORE ratelimit here on purpose - the cheap,
+    # no-cookie-read burst check stays the actual first line a request
+    # meets (see anon_cap.install's own docstring for why that matters -
+    # a burst-rejected request should never reach anon_cap's daily-quota
+    # accounting at all).
+    if anon_cap_enabled:
+        anon_cap.install(
+            app, secret=anon_visitor_secret, daily_session_limit=anon_daily_session_limit, daily_turn_limit=anon_daily_turn_limit,
+        )
     if rate_limit:
         ratelimit.install(app)
     app.state.deps = Deps(
@@ -281,7 +330,7 @@ def create_app(
                 logger.warning("table session refused: package unavailable worlds=%s", req.world_keys)
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
-            return SessionCreateResponse(session_id=session_id, session_code=code)
+            return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"))
         if req.world_key is None:
             # Foundation audit (2026-08-28): POST {} used to fall through to
             # default_world_key - configured in production as the synthetic
@@ -397,6 +446,7 @@ def create_app(
         return TranscriptResponse(
             session_id=session_id, world_key=state.world_key, turn_count=state.turn_count, closed=state.closed, transcript=state.transcript,
             mode=state.mode, world_keys=state.world_keys, round_open=state.round_open,
+            round_cap=table_wiring.round_cap_for(state.mode),
         )
 
     @app.get("/api/session/{session_id}/round-close-reasons", response_model=RoundCloseReasonsResponse)
@@ -489,6 +539,19 @@ def _build_real_app() -> FastAPI:
     # docstring). Reporting-only: never blocks a participant resuming.
     idle_close.start_background_scheduler(settings.events_db_path)
 
+    # DB backup sweep (Tech-Readiness Package 2, 2026-09-21): a third
+    # daily background thread, same reason as the two above - a Cron Job
+    # service cannot reach this service's own Persistent Disk (module
+    # docstring, engine/api/db_backup.py). Online-backs-up both SQLite
+    # stores and uploads to CIC_API_BACKUP_BUCKET when configured; a no-op
+    # upload (logged, not fatal) until Mark completes that bucket's own
+    # one-time setup (Ministry/Operations/Standing/
+    # CiC_Backup_Restore_Runbook.md), same deferred-until-configured
+    # pattern as CIC_API_PACKAGE_BUCKET.
+    db_backup.start_background_scheduler(
+        settings.events_db_path, settings.usage_db_path, Path(settings.events_db_path).parent / "backups-staging"
+    )
+
     return create_app(
         voice_client=client,
         voice_model_id=voice_model_id,
@@ -503,6 +566,10 @@ def _build_real_app() -> FastAPI:
         rate_limit=True,
         admin_token=settings.admin_token,
         package_cache_dir=settings.package_cache_dir,
+        anon_cap_enabled=settings.anon_cap_enabled,
+        anon_visitor_secret=settings.anon_visitor_secret,
+        anon_daily_session_limit=settings.anon_daily_session_limit,
+        anon_daily_turn_limit=settings.anon_daily_turn_limit,
     )
 
 

@@ -254,6 +254,122 @@ def _scaffold_residual(text: str) -> str:
     return " ".join(kept)
 
 
+def verdict_for_sentence(
+    text: str,
+    tags: list[str],
+    *,
+    repository_records: dict[str, dict],
+    figure_names: set[str],
+    thin_topics: list[dict] | None,
+    grounding_floor: float,
+) -> dict:
+    """One sentence's verdict - check_turn()'s own per-sentence logic,
+    factored out (Build-Plan.md Stage 1, D1 grounding measurement) so a
+    single constructed (sentence, tags) pair can be run directly, without
+    round-tripping through tagged-text reconstruction and re-parsing. Pure
+    extraction: no behavior change, verified against test_grounding_net.py
+    unchanged. check_turn() below is now this function called once per
+    parse_tagged() sentence; see its own docstring for the verdict
+    vocabulary and the fallback ladder this implements."""
+    lower = text.lower()
+    entry = {"sentence": text, "tags": tags, "verdict": "ok", "why": None}
+
+    if any(m in lower for m in SCAFFOLD_MARKERS) or SELF_NAMING_MARKER in lower:
+        residual = _scaffold_residual(text)
+        # A tag is itself a claim ("this sentence came from that
+        # record" - the tag-overlap branch below exists for exactly
+        # this), so a tagged sentence needs the same check whether or
+        # not a scaffold phrase also sits in it somewhere.
+        residual_markers = bool(tags) or bool(claim_markers(residual)) or bool(figure_names & content_words(residual))
+        if not residual_markers:
+            entry["why"] = "exempt: honesty scaffolding / sanctioned self-naming"
+            return entry
+        # Something besides the scaffold phrase itself still makes a
+        # checkable claim - fall through to the same pipeline every
+        # other sentence goes through, over the FULL sentence text
+        # (the scaffold clause's own words carry no proper noun,
+        # number, or enumeration, so they cannot themselves trip a
+        # withhold; whatever fires below is the real content).
+
+    unknown = [t for t in tags if t not in repository_records]
+    if unknown:
+        entry["verdict"], entry["why"] = "withhold", f"unresolvable record id(s): {unknown}"
+        return entry
+    tagged_records = [repository_records[t] for t in tags]
+
+    spans = _quoted_spans(text)
+    if spans:
+        # Register statement 6, mechanical: quoted words either live
+        # verbatim in a tagged record or they don't stream.
+        if tags and all(_span_in_records(s, tagged_records) for s in spans):
+            entry["why"] = "quoted span(s) verbatim in tagged record(s)"
+            return entry
+        entry["verdict"] = "withhold"
+        entry["why"] = "quoted span not found verbatim in any tagged record" if tags else "quoted span with no citation tag"
+        return entry
+
+    markers = claim_markers(text)
+    if not markers and figure_names & content_words(text):
+        markers = [f"figure-name:{sorted(figure_names & content_words(text))}"]
+    cited_words: set[str] = set()
+    for rec in tagged_records:
+        cited_words |= content_words(all_text(rec))
+
+    if not markers:
+        if not tags:
+            entry["why"] = "no checkable claim - interpretive/connective framing"
+            return entry
+        # THE TAG IS THE CLAIM. claim_markers only sees a proper noun, a
+        # number, or a repeated phrase, and over 36 live turns that left
+        # 242 of 388 sentences unexamined - the citation contract reads
+        # as a guarantee over the turn and was a guarantee over the third
+        # of it that happened to name someone or count something.
+        #
+        # 192 of those unexamined sentences carried a tag. A tag is the
+        # voice asserting THIS SENTENCE CAME FROM THAT RECORD, which is
+        # checkable by definition, and the net was throwing that
+        # assertion away. Honouring it takes the examined share from 32%
+        # to 78% without inventing a marker.
+        #
+        # Gated on overlap, NOT on grounding_floor. That floor was
+        # calibrated on name-and-number sentences, which sit lexically
+        # close to their source; applied to this population it strips
+        # roughly 29 legitimate citations to catch 10 over-tags -
+        # "Origen's interpretations mattered because he could show his
+        # work" scores 29% and is a real claim, penalised for being long.
+        # Zero shared words is the one line here that is not a chosen
+        # number: a citation to a record with which the sentence shares
+        # not one content word asserts nothing. Seven of the 192 were
+        # that, every one framing - "That is what mattered most." tagged
+        # to hal.gravity.hebraica-veritas.
+        if content_words(text) & cited_words:
+            entry["why"] = "tagged claim, shares ground with its own records"
+            return entry
+        entry["verdict"] = "withhold"
+        entry["why"] = "tagged claim sharing no content word with its own tagged records"
+        return entry
+
+    if not tags:
+        entry["verdict"] = "withhold"
+        entry["why"] = f"specific claim ({', '.join(markers)}) with no citation tag"
+        return entry
+
+    # the shared implementation, not a second copy of the same formula
+    ratio = grounding_ratio(text, cited_words)
+    entry["ratio"] = round(ratio, 2)
+
+    if ratio >= grounding_floor:
+        entry["why"] = f"grounded {ratio:.0%} in own tagged records"
+    else:
+        thin = _thin_topic_hits(lower, thin_topics)
+        entry["verdict"] = "withhold"
+        entry["why"] = (
+            f"specific claim ({', '.join(markers)}) only {ratio:.0%} grounded in its own tags"
+            + (f"; inside a named thin topic: {'; '.join(thin)}" if thin else "")
+        )
+    return entry
+
+
 def check_turn(
     tagged_text: str,
     repository_records: dict[str, dict],
@@ -283,107 +399,16 @@ def check_turn(
     """
     tagged_text, truncated = _drop_truncated_tail(tagged_text)
     figure_names = build_figure_lexicon(repository_records)
-    results = []
-    for sent in parse_tagged(tagged_text):
-        text, tags = sent["text"], sent["tags"]
-        lower = text.lower()
-        entry = {"sentence": text, "tags": tags, "verdict": "ok", "why": None}
-        results.append(entry)
-
-        if any(m in lower for m in SCAFFOLD_MARKERS) or SELF_NAMING_MARKER in lower:
-            residual = _scaffold_residual(text)
-            # A tag is itself a claim ("this sentence came from that
-            # record" - the tag-overlap branch below exists for exactly
-            # this), so a tagged sentence needs the same check whether or
-            # not a scaffold phrase also sits in it somewhere.
-            residual_markers = bool(tags) or bool(claim_markers(residual)) or bool(figure_names & content_words(residual))
-            if not residual_markers:
-                entry["why"] = "exempt: honesty scaffolding / sanctioned self-naming"
-                continue
-            # Something besides the scaffold phrase itself still makes a
-            # checkable claim - fall through to the same pipeline every
-            # other sentence goes through, over the FULL sentence text
-            # (the scaffold clause's own words carry no proper noun,
-            # number, or enumeration, so they cannot themselves trip a
-            # withhold; whatever fires below is the real content).
-
-        unknown = [t for t in tags if t not in repository_records]
-        if unknown:
-            entry["verdict"], entry["why"] = "withhold", f"unresolvable record id(s): {unknown}"
-            continue
-        tagged_records = [repository_records[t] for t in tags]
-
-        spans = _quoted_spans(text)
-        if spans:
-            # Register statement 6, mechanical: quoted words either live
-            # verbatim in a tagged record or they don't stream.
-            if tags and all(_span_in_records(s, tagged_records) for s in spans):
-                entry["why"] = "quoted span(s) verbatim in tagged record(s)"
-                continue
-            entry["verdict"] = "withhold"
-            entry["why"] = "quoted span not found verbatim in any tagged record" if tags else "quoted span with no citation tag"
-            continue
-
-        markers = claim_markers(text)
-        if not markers and figure_names & content_words(text):
-            markers = [f"figure-name:{sorted(figure_names & content_words(text))}"]
-        cited_words: set[str] = set()
-        for rec in tagged_records:
-            cited_words |= content_words(all_text(rec))
-
-        if not markers:
-            if not tags:
-                entry["why"] = "no checkable claim - interpretive/connective framing"
-                continue
-            # THE TAG IS THE CLAIM. claim_markers only sees a proper noun, a
-            # number, or a repeated phrase, and over 36 live turns that left
-            # 242 of 388 sentences unexamined - the citation contract reads
-            # as a guarantee over the turn and was a guarantee over the third
-            # of it that happened to name someone or count something.
-            #
-            # 192 of those unexamined sentences carried a tag. A tag is the
-            # voice asserting THIS SENTENCE CAME FROM THAT RECORD, which is
-            # checkable by definition, and the net was throwing that
-            # assertion away. Honouring it takes the examined share from 32%
-            # to 78% without inventing a marker.
-            #
-            # Gated on overlap, NOT on grounding_floor. That floor was
-            # calibrated on name-and-number sentences, which sit lexically
-            # close to their source; applied to this population it strips
-            # roughly 29 legitimate citations to catch 10 over-tags -
-            # "Origen's interpretations mattered because he could show his
-            # work" scores 29% and is a real claim, penalised for being long.
-            # Zero shared words is the one line here that is not a chosen
-            # number: a citation to a record with which the sentence shares
-            # not one content word asserts nothing. Seven of the 192 were
-            # that, every one framing - "That is what mattered most." tagged
-            # to hal.gravity.hebraica-veritas.
-            if content_words(text) & cited_words:
-                entry["why"] = "tagged claim, shares ground with its own records"
-                continue
-            entry["verdict"] = "withhold"
-            entry["why"] = "tagged claim sharing no content word with its own tagged records"
-            continue
-
-        if not tags:
-            entry["verdict"] = "withhold"
-            entry["why"] = f"specific claim ({', '.join(markers)}) with no citation tag"
-            continue
-
-        # the shared implementation, not a second copy of the same formula
-        ratio = grounding_ratio(text, cited_words)
-        entry["ratio"] = round(ratio, 2)
-
-        if ratio >= grounding_floor:
-            entry["why"] = f"grounded {ratio:.0%} in own tagged records"
-        else:
-            thin = _thin_topic_hits(lower, thin_topics)
-            entry["verdict"] = "withhold"
-            entry["why"] = (
-                f"specific claim ({', '.join(markers)}) only {ratio:.0%} grounded in its own tags"
-                + (f"; inside a named thin topic: {'; '.join(thin)}" if thin else "")
-            )
-
+    results = [
+        verdict_for_sentence(
+            sent["text"], sent["tags"],
+            repository_records=repository_records,
+            figure_names=figure_names,
+            thin_topics=thin_topics,
+            grounding_floor=grounding_floor,
+        )
+        for sent in parse_tagged(tagged_text)
+    ]
     substantive_survives = any(r["verdict"] == "ok" and r["tags"] for r in results)
     return {"sentences": results, "substantive_survives": substantive_survives, "truncated": truncated}
 

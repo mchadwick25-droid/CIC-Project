@@ -3,7 +3,7 @@ id: desert.quote.three-years-a-servant
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -41,7 +41,6 @@ retrieval:
   retrieve_when:
   - "participant asks how someone joined and how long it took to belong"
   - "participant asks whether newcomers were tested, and what they did while waiting"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.koinonia

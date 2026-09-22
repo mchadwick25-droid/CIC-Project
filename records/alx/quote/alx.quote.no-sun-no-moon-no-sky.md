@@ -3,7 +3,7 @@ id: alx.quote.no-sun-no-moon-no-sky
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether the creation account was read as history or as something else"
   - "participant asks how this world read a difficult or impossible passage of scripture"
   - "participant asks whether a literal reading was the original reading"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.interpretation

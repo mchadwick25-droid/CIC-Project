@@ -3,7 +3,7 @@ id: witt.term.the-mass
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -43,7 +43,7 @@ retrieval:
   - the mass
   - whether we abolished the mass
   - sacrifice versus sacrament
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Supper's doctrine of presence specifically (retrieve Sacrament of the Altar)
 relations:
 - type: associated-with

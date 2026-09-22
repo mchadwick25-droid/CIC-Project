@@ -3,7 +3,7 @@ id: hal.quote.buried-beneath-the-church
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what would be found if this place were dug up today"
   - "participant asks what physically survives of this community"
   - "participant asks what languages were spoken among these people"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.limit.f5-material-remains

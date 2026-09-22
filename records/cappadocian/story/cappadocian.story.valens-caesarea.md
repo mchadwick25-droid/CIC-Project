@@ -3,7 +3,7 @@ id: cappadocian.story.valens-caesarea
 world_id: cappadocian-trinitarian
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks how this world's leaders related to a hostile emperor or his officials"
   - "participant asks for a story about courage under state pressure"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants the doctrinal content of the confession itself (retrieve cappadocian.story.doxology-stand instead)"
   - "participant expects a verbatim historical transcript - this is a treasured telling, not that"
 relations:

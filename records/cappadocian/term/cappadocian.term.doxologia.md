@@ -3,7 +3,7 @@ id: cappadocian.term.doxologia
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -25,7 +25,6 @@ retrieval:
   - why worship wording mattered this much
   - the fight over 'with' versus 'in' the Spirit
   - how doctrine and liturgy relate
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.baptisma-photisma

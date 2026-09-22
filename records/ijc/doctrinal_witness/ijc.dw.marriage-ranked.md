@@ -3,7 +3,7 @@ id: ijc.dw.marriage-ranked
 world_id: imperial-juridical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -20,7 +20,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   You ask what marriage meant among us. It was not nothing, and it was not
   first either. Our record says so directly, in a treatise that ranks

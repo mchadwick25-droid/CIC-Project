@@ -3,7 +3,7 @@ id: cappadocian.dw.customs-from-the-apostles
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant asks how this world knew its practices went back to the apostles and weren't later
     inventions"
-  do_not_retrieve_when: []
 text: >-
   Time would fail us to name every unwritten practice we kept. We faced
   east at prayer, most of us not even knowing why - we were seeking, our

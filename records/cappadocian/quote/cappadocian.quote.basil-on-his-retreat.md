@@ -3,7 +3,7 @@ id: cappadocian.quote.basil-on-his-retreat
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -46,7 +46,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world's way of life has anything for someone who can't quiet their
     own head"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.stillness-and-the-summons

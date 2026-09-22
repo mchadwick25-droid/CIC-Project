@@ -3,7 +3,7 @@ id: desert.quote.the-soul-becomes-all-eye
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-I]
 confidence:
@@ -26,7 +26,6 @@ retrieval:
   - "participant asks who or what the Holy Spirit was to this world"
   - "participant asks whether God was thought to live inside a person"
   - "participant asks what became of someone who went far in this life"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.the-heart-and-the-spirit

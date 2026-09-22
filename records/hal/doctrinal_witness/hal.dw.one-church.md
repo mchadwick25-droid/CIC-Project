@@ -3,7 +3,7 @@ id: hal.dw.one-church
 world_id: hieronymian-ascetic-literary
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Was our church Catholic? We used exactly that word for ourselves.
   Catholic meant the one church spread through the whole world, holding the

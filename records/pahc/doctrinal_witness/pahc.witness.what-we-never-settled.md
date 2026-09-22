@@ -3,7 +3,7 @@ id: pahc.witness.what-we-never-settled
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant asks what this world never settled among itself"
   - "participant asks the hardest true thing about this world"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.they-appointed-the-first-fruits

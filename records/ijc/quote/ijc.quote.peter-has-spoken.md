@@ -3,7 +3,7 @@ id: ijc.quote.peter-has-spoken
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - "participant asks how a council reached a decision and what the room was like"
   - "participant asks how much weight Rome's letter carried at a council"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 ---

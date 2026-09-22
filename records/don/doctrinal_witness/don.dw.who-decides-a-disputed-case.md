@@ -3,7 +3,7 @@ id: don.dw.who-decides-a-disputed-case
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -45,7 +45,6 @@ retrieval:
   - participant asks who had the right to decide a disputed question among us
   - participant asks how we know how church decisions actually worked
   - participant asks whether a council voted Jesus into being God
-  do_not_retrieve_when: []
 text: >-
   A council of bishops decided, and among us that was never a formality.
   Our councils deposed men, restored men, and shut down a rival primate.

@@ -3,7 +3,7 @@ id: desert.quote.he-puts-into-us-the-beginnings
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-T, C-P]
 confidence:
@@ -26,7 +26,6 @@ retrieval:
   - "participant asks whether God does the work or the person does"
   - "participant asks what to do when they cannot make themselves believe or want it"
   - "participant asks how a person starts on this path at all"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.grace-and-effort

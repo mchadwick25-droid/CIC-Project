@@ -3,7 +3,7 @@ id: witt.term.free-will
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -36,7 +36,7 @@ retrieval:
   retrieve_when:
   - free will, or bondage of the will
   - the Erasmus debate
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means predestination as a separate question, which our library does not develop
 relations:
 - type: associated-with

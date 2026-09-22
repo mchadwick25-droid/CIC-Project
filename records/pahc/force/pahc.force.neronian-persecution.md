@@ -3,7 +3,7 @@ id: pahc.force.neronian-persecution
 world_id: post-apostolic-house-church
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -55,8 +55,4 @@ not itself a participant-facing question this world's canon asks about
 directly (the Nero/persecution QUESTIONS the canon does ask - F3-I-03
 "Was it actually dangerous to be a Christian, day to day, or is that
 exaggerated?" and F6-E - are answered by the state-pressure and
-martyrdom-meaning records, not this originating-event force). FIXED at
-Step 6 round-1 review: this note previously cited F3-E, which contains
-no Nero or persecution question (its own three cells are catacombs,
-Constantine, and outsider strangeness) and is not claimed by
-pahc.gravity.state-pressure (F3-I). Corrected to the actual cell.
+martyrdom-meaning records, not this originating-event force).

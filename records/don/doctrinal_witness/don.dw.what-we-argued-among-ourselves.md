@@ -3,7 +3,7 @@ id: don.dw.what-we-argued-among-ourselves
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -43,7 +43,6 @@ retrieval:
   - participant asks what we believed about God, or what we argued about among ourselves
   - participant asks what our councils decided and why it mattered
   - participant asks what we meant by the heart, or who the Holy Spirit was to us
-  do_not_retrieve_when: []
 text: >-
   What did we argue about among ourselves? Two things, and we lost badly
   at both.

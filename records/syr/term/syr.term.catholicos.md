@@ -3,7 +3,7 @@ id: syr.term.catholicos
 world_id: syriac-edessa-nisibis
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - participant asks who led the Persian church, or uses 'Catholicos' as if it were this world's own contemporary
     title
-  do_not_retrieve_when:
+  prefer_instead:
   - participant asks about the Roman/Edessene side, where the title has no relevance
   - participant asks about the period after 410, where 'Catholicos' is accurate and not anachronistic
 plain_meaning: 'A caution more than a word of ours: ''Catholicos'' is the later title for the head

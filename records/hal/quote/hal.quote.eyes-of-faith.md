@@ -3,7 +3,7 @@ id: hal.quote.eyes-of-faith
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -36,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks what it was like to visit the holy places"
   - "participant asks how they imagined the events of the gospel"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108 sec. 10,
 div v.CVIII). ATTRIBUTION SHAPE: Jerome reporting Paula's protestation at

@@ -6,11 +6,11 @@
  * Level 3 leads with what's actually being said here and where it comes
  * from (`sourced_by` - the real primary sources behind this sentence, per
  * engine.m4.name_bridge.attach_cited_sources), not with the figure's own
- * biography - Mark's own correction on the first build: "the point is not
- * just who Origen is, but the reference of what he is saying [so] the
- * participant can actually look at the source document." Who-this-is
- * (both recorded names, whichever the voice actually said, and the
- * dates) stays, but as the second thing, not the point.
+ * biography: the point is not just who a named figure is, but the
+ * reference behind what they're saying, so a participant can actually
+ * look at the source document. Who-this-is (both recorded names,
+ * whichever the voice actually said, and the dates) stays, but as the
+ * second thing, not the point.
  */
 import type { FigureUsed } from '../types/conversation';
 import { InlineBridge } from './InlineBridge';

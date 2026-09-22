@@ -3,7 +3,7 @@ id: syr.quote.a-pearl-upon-the-palm
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-P
@@ -37,7 +37,6 @@ retrieval:
   - "participant says they find scripture confusing, dry, or boring and asks what they are missing"
   - "participant asks how this world read a text for meaning rather than for information"
   - "participant asks why so much of this world's teaching is poetry"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.term.raza-shrara

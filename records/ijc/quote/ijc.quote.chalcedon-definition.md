@@ -3,7 +3,7 @@ id: ijc.quote.chalcedon-definition
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -34,7 +34,6 @@ retrieval:
   retrieve_when:
   - "participant asks what the councils actually decided about Jesus"
   - "participant asks how they put together his being God and being human"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 ---

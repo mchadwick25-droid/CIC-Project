@@ -3,7 +3,7 @@ id: hal.term.scriptorium
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -25,7 +25,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - whether Bethlehem had a formal, named space for copying manuscripts
-  do_not_retrieve_when:
+  prefer_instead:
   - presenting this as a documented, named institution rather than a reasonable inference
 relations: []
 plain_meaning: A guessed space for copying books at Bethlehem. Never named directly in what survives.

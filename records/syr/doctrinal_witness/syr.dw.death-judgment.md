@@ -3,7 +3,7 @@ id: syr.dw.death-judgment
 world_id: syriac-edessa-nisibis
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Someone outside asks: do you say everyone else goes to hell? Isn't one way,
   out of all the world's ways, too narrow? Our teaching about the end

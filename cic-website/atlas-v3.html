@@ -306,20 +306,6 @@ svg#world{display:block;overflow:visible}
 #zoomHint{position:fixed;right:.8rem;bottom:.8rem;z-index:20;font-size:.7rem;
   color:var(--ink-faded);background:var(--vellum);border:1px solid var(--rule);
   border-radius:3px;padding:.4rem .6rem;max-width:190px;text-align:right}
-/* A compact plus-shaped d-pad, not a full 3x3 grid of buttons -- only four
-   cells are ever populated, the other five stay empty grid tracks so the
-   arrows land in a real cross rather than a solid block. */
-#panControls{display:grid;grid-template-columns:repeat(3,26px);grid-template-rows:repeat(3,26px);
-  gap:2px;justify-content:end;margin:0 0 .4rem}
-.pan-btn{background:var(--vellum);color:var(--iron-gall);border:1px solid var(--rule);
-  border-radius:3px;cursor:pointer;font-size:.85rem;line-height:1;padding:0;
-  display:flex;align-items:center;justify-content:center;font-family:inherit}
-.pan-btn:hover{border-color:var(--gold-leaf);color:var(--gold-leaf)}
-.pan-btn:focus-visible{outline:2px solid var(--madder);outline-offset:1px}
-#panUp{grid-column:2;grid-row:1}
-#panLeft{grid-column:1;grid-row:2}
-#panRight{grid-column:3;grid-row:2}
-#panDown{grid-column:2;grid-row:3}
 @media (prefers-reduced-motion:reduce){.river-calm,.river-organic,#panel{transition:none!important}}
 
 /* ---- Touch tap targets ----
@@ -370,8 +356,6 @@ svg#world{display:block;overflow:visible}
     align-items:center;justify-content:center}
   #panel .act{min-height:44px}
   #legendToggle{min-height:44px;display:flex;align-items:center}
-  #panControls{grid-template-columns:repeat(3,44px);grid-template-rows:repeat(3,44px)}
-  .pan-btn{font-size:1.1rem}
 }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -419,15 +403,7 @@ svg#world{display:block;overflow:visible}
      an invisible control that appeared to do nothing. -->
 <div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div></div>
 <div id="legend"></div>
-<div id="zoomHint">
-  <div id="panControls" role="group" aria-label="Pan the map">
-    <button type="button" class="pan-btn" id="panUp" aria-label="Pan up">&uarr;</button>
-    <button type="button" class="pan-btn" id="panLeft" aria-label="Pan left">&larr;</button>
-    <button type="button" class="pan-btn" id="panRight" aria-label="Pan right">&rarr;</button>
-    <button type="button" class="pan-btn" id="panDown" aria-label="Pan down">&darr;</button>
-  </div>
-  Scroll or pinch to zoom &middot; drag or use the arrows to pan
-</div>
+<div id="zoomHint">Scroll or pinch to zoom &middot; drag to pan</div>
 
 <script>
 "use strict";
@@ -41474,20 +41450,33 @@ stage.addEventListener('wheel',(ev)=>{
 // scrollbar thumb gets for free. Touch keeps its own dedicated multi-touch
 // pan/pinch handler below (real two-finger pinch-zoom math no single-pointer
 // path can replace) -- this path is explicitly mouse/pen only.
-let dragging=false, lastX=0, lastY=0;
+//
+// Capturing on pointerdown itself broke every node/river/story click: once
+// setPointerCapture runs, the browser resolves the matching pointerup (and
+// the click it synthesizes from that up) against the capture target (#stage)
+// instead of the actual element under the pointer, so a plain tap on a node
+// never reached that node's own click listener -- a mousedown-to-mouseup
+// click with zero movement was being treated as a drag from the first pixel.
+// Arm on pointerdown but only start dragging, and only capture, once the
+// pointer has actually moved past a small threshold; a click that never
+// moves that far leaves capture untouched and resolves normally.
+const DRAG_THRESHOLD=4;
+let dragArmedId=null, dragging=false, downX=0, downY=0, lastX=0, lastY=0;
 stage.addEventListener('pointerdown',(ev)=>{
   if(ev.pointerType==='touch')return;
-  dragging=true; lastX=ev.clientX; lastY=ev.clientY;
-  stage.classList.add('grabbing');
-  stage.setPointerCapture(ev.pointerId);
+  dragArmedId=ev.pointerId; downX=lastX=ev.clientX; downY=lastY=ev.clientY;
 });
 stage.addEventListener('pointermove',(ev)=>{
-  if(!dragging||ev.pointerType==='touch')return;
+  if(ev.pointerType==='touch'||ev.pointerId!==dragArmedId)return;
+  if(!dragging){
+    if(Math.hypot(ev.clientX-downX,ev.clientY-downY)<DRAG_THRESHOLD)return;
+    dragging=true; stage.classList.add('grabbing'); stage.setPointerCapture(ev.pointerId);
+  }
   tx+=ev.clientX-lastX; ty+=ev.clientY-lastY; lastX=ev.clientX; lastY=ev.clientY; applyTransform();
 });
 function endDrag(ev){
   if(ev.pointerType==='touch')return;
-  dragging=false; stage.classList.remove('grabbing');
+  dragArmedId=null; dragging=false; stage.classList.remove('grabbing');
 }
 stage.addEventListener('pointerup',endDrag);
 stage.addEventListener('pointercancel',endDrag);

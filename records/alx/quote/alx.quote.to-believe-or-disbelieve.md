@@ -3,7 +3,7 @@ id: alx.quote.to-believe-or-disbelieve
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether there was room for doubt among these people"
   - "participant was told doubt was sin and asks whether that held here"
   - "participant asks whether belief was thought to be a choice"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.autexousia

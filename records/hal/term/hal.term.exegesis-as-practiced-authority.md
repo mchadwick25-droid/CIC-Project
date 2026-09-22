@@ -3,7 +3,7 @@ id: hal.term.exegesis-as-practiced-authority
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - whether scriptural authority here required ordination or clerical office
   - Marcella's own standing after Jerome left for the Holy Land
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about ordained clerical authority generally, rather than this specific non-office standing
 relations: []
 plain_meaning: The right to be trusted on hard Bible questions - earned by learning, not by holding an

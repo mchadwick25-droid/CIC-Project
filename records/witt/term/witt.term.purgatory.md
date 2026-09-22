@@ -3,7 +3,7 @@ id: witt.term.purgatory
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -31,7 +31,7 @@ retrieval:
   retrieve_when:
   - purgatory
   - what happened to the idea of purgatory over our own history
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means indulgences themselves (retrieve indulgence)
 relations:
 - type: associated-with

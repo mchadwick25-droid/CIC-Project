@@ -3,7 +3,7 @@ id: cappadocian.quote.what-is-the-written-source
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -44,7 +44,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world believed the Bible was the only authority"
   - "participant asks how a bishop could defend a change to a prayer that wasn't written down anywhere"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.unwritten-carries-too

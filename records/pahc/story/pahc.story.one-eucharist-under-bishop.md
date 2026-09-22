@@ -3,7 +3,7 @@ id: pahc.story.one-eucharist-under-bishop
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -21,7 +21,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks about Strand A's eucharistic practice specifically"
-  do_not_retrieve_when:
+  prefer_instead:
   - "do not blend with pahc.story.justin-sunday-gathering or pahc.story.didache-eucharist"
 relations:
 - type: associated-with

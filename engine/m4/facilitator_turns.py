@@ -5,15 +5,15 @@ Same discipline as engine.m4.crisis_resources, and for the same reason: the
 Facilitator speaks for the system, not for a world, so its words are not a
 model's to compose and not a world's to hold. A fixed table, never a prompt.
 
-STATUS, 2026-08-24: SYSTEM_NATURE, CHECK_IN, DEPENDENCY_CHECK, and both
-_ETIC_TEXT entries are Mark-approved participant-facing text - picked from
+SYSTEM_NATURE, CHECK_IN, DEPENDENCY_CHECK, and both
+_ETIC_TEXT entries are approved participant-facing text - picked from
 drafted options after an analysis pass against CiC_L3D_Facilitator_
 Governance_V3.6/V3.7 and CiC-Program-Spec.md SS71/76-77/210. This replaces
 the earlier placeholder text a participant asking "are you an AI?" (and
 three of the other six routes) used to receive.
 
-STATUS, 2026-08-25: DOOR is also now Mark-approved - picked as "Option A"
-from a two-draft choice (the fuller "door metaphor" draft was Option B,
+DOOR is also approved - picked
+from a two-draft choice (the fuller "door metaphor" draft was
 not carried into code) logged in Ministry/Technology/
 CiC_FrontEnd_Decision_Log.md. Closes a different gap than the six routing
 turns above: those replace placeholder text an existing route already
@@ -47,8 +47,7 @@ One thing below is NOT yet finished, flagged rather than hidden:
 
 - bridge_turn's frame now deliberately speaks the term's own
   `underlying_subject` to the participant, not only to the voice - a
-  considered visibility change Mark approved the same day this note was
-  written, not an oversight of the general "the Facilitator does not
+  considered visibility change, not an oversight of the general "the Facilitator does not
   narrate its own mechanics" rule.
 
 What is NOT placeholder, and must not be rewritten as though it were: the
@@ -76,8 +75,9 @@ SYSTEM_NATURE = FacilitatorTurn(
         "Yes - we use AI here, and I'd rather tell you plainly than let you wonder. Each world you can "
         "speak with is built from a fixed set of records - sources that actually survive from that time "
         "and place - and the voice answering you may only say what those records carry. Before you see "
-        "an answer, every specific claim in it is checked against the record it came from; what it can't "
-        "ground, it's built to tell you it doesn't have, not to invent. It isn't a person, it isn't the "
+        "an answer, each claim in it is checked to make sure its words come from the record it names. "
+        "The record itself was checked against the sources when the world was built. Where the record "
+        "is silent, the voice is built to say so, not to fill the gap. It isn't a person, it isn't the "
         "church, and it doesn't speak for anyone living.\n\n"
         "That's the honest shape of it - whenever you're ready, let's keep going."
     ),
@@ -233,16 +233,16 @@ SESSION_CAP = FacilitatorTurn(
 
 
 def session_cap_turn(representative_name: str) -> dict:
-    """DRAFT TEXT, not yet Mark-approved - see this module's own STATUS note
+    """DRAFT TEXT, not yet approved - see this module's own note
     on what that approval process looks like for every other facilitator
     text here. Wired in now so the mechanism (reference/Redesign-Spec/Artifact-6-
     Operations.md's "per-session turn cap", DECIDABLE default 40, resolved
-    to 10 by Mark 2026-08-25) is complete and tested; the copy itself is
+    to 10) is complete and tested; the copy itself is
     swappable without touching engine.m4.turn's routing.
 
-    Names its own cost honestly (Mark's direction, 2026-08-25: "we need to
-    be honest about cost, each round adding to the cost, still gracious but
-    may inspire giving") rather than only naming the limit - and points to
+    Names its own cost honestly - honest about cost, each round adding to
+    the cost, still gracious but meant to inspire giving - rather than only
+    naming the limit, and points to
     cic-website/support.html, the project's own already-published Get
     Involved page (Faithways Studio, Inc.), rather than inventing new
     giving mechanics here. Deliberately carries no specific dollar figure:
@@ -251,8 +251,8 @@ def session_cap_turn(representative_name: str) -> dict:
     turn cap governs (engine/m8/live_cost_run.py measured roughly $0.25/hour
     for that path) - a real discrepancy to reconcile before either number
     appears in participant-facing text, not something to paper over here by
-    picking one. Also names a future paid option for longer conversations,
-    per the same direction - not yet built, stated as a direction, not a
+    picking one. Also names a future paid option for longer conversations -
+    not yet built, stated as a direction, not a
     promise of a date or price.
 
     representative_name comes from world.frame["representative"]["name"],
@@ -261,9 +261,9 @@ def session_cap_turn(representative_name: str) -> dict:
     return {"kind": SESSION_CAP.kind, "text": text}
 
 
-# --- Table variants (Artifact-7 SS1-2; C1 decided 2026-08-28: fixed
+# --- Table variants (Artifact-7 SS1-2; C1: fixed
 # templates parameterized by the seated worlds, never a live facilitator
-# generation). DRAFT TEXT, not yet Mark-approved - same wired-now/
+# generation). DRAFT TEXT, not yet approved - same wired-now/
 # swappable-copy discipline session_cap_turn documents. The interview
 # texts above are untouched; a table session simply calls these instead
 # where the interview's text names exactly one representative.
@@ -273,7 +273,7 @@ def names_or_phrase(names: list[str]) -> str:
     """"Clement", "Clement or Papnoute", "Clement, Papnoute, or Ephrem" -
     for dropping a table's representatives into a text slot that reads
     naturally with an or-joined singular ("this is the Facilitator, not
-    Clement or Papnoute"). Used to fill crisis_resources' Mark-approved
+    Clement or Papnoute"). Used to fill crisis_resources' approved
     {representative_name} slot for a table WITHOUT altering that approved
     text itself."""
     if not names:
@@ -365,6 +365,33 @@ def table_session_cap_turn(representative_names: list[str]) -> dict:
     cuts the other way here and is still unreconciled."""
     text = TABLE_SESSION_CAP.text.format(names_phrase=names_or_phrase(representative_names))
     return {"kind": TABLE_SESSION_CAP.kind, "text": text}
+
+
+TABLE_SEAT_CORRECTION = FacilitatorTurn(
+    kind="seat_correction",
+    text=(
+        "This is the Facilitator, stepping in for a moment - {representative_name}'s last answer didn't "
+        "hold together the way it should have, so I'm setting it aside rather than passing it on to you. "
+        "Ask again, or bring another voice into it - the Table is still open."
+    ),
+)
+
+
+def table_seat_correction_turn(representative_name: str) -> dict:
+    """The seat-identity guard's own fallback line (Decision-Log.md Entry
+    47, 2026-09-22): engine.m4.seat_identity_guard caught a generated turn
+    writing itself as the Facilitator or another seated voice, regenerated
+    once, and caught it again - so this voice's own text is never shown
+    (engine.api.table_wiring writes that turn's voice_turn event with an
+    empty text, same as any other genuinely empty stream; this facilitator
+    turn is what the participant actually reads instead).
+
+    DRAFT COPY, not yet Mark's own word - same discipline Stage 6b/6c/6e's
+    own participant-facing text followed (Decision-Log.md Entries 39, 41):
+    the mechanism ships enforcing now, per Mark's own instruction, with
+    this line as its working default pending his confirmation of the exact
+    words."""
+    return {"kind": TABLE_SEAT_CORRECTION.kind, "text": TABLE_SEAT_CORRECTION.text.format(representative_name=representative_name)}
 
 
 def bridge_turn(terms: list[dict]) -> tuple[dict, str]:

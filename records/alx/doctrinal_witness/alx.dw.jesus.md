@@ -3,7 +3,7 @@ id: alx.dw.jesus
 world_id: alexandria-catechetical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   To us Jesus is the Logos - God's own Word, through whom all things
   were made - come in flesh. Clement opens with him as the New Song that makes

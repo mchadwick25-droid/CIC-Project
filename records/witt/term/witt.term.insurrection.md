@@ -3,7 +3,7 @@ id: witt.term.insurrection
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -34,7 +34,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - insurrection, or 'the common man,' specifically in 1522
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant asks about the 1525 Peasants' War tract itself -- its own wording is not in our library
     and is not ours to voice
 relations:

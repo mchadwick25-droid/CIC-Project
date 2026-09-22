@@ -77,6 +77,13 @@ NON_PROSE_KEYS = {
     "evidentiary_weight", "formation_confidence",
     "canon_cells", "source_id", "target", "canon_question_id",
     "do_not_retrieve_when",
+    # R11 (Rulings-Pending.md, ruled 2026-09-21): claim_guards is the split
+    # field's own honesty-guard half - a barred claim's own text is exactly
+    # the same "opposite of prose that might ground a real answer" category
+    # do_not_retrieve_when (above) and formation_claim_barred already are,
+    # for the identical reason: a forbidding sentence necessarily shares the
+    # forbidden claim's own vocabulary.
+    "claim_guards",
 }
 
 
@@ -113,7 +120,23 @@ NON_PROSE_KEYS = {
 # engine.m4.evidence's Stage A2 fulltext fallback (the original use case
 # this was measured against) and engine.m2.builders's compile-time
 # retrieval index (Build-Plan.md Stage 4c) both exclude the identical set.
-FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when", "retrieve_when"}
+FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when", "retrieve_when", "claim_guards"}
+
+
+# R11's own honesty-guard/redirect classifier (Rulings-Pending.md;
+# Decision-Log.md's Stage 1 D1 measurement and Entries 21-24): the marker
+# set that correctly separated the fleet's 13 genuine guard clauses from
+# 701 ordinary do_not_retrieve_when redirects, keyword-matched against the
+# design doc's own quoted examples. Single source of truth - the migration
+# tool (tools/split_retrieval_guards.py), the Stage 1 measurement
+# (engine/m4/reports/grounding_fooling_measure.py), and the
+# retrieval-negatives-structured gate (engine/m1/gates.py) all import it
+# from here rather than keeping their own copies that could drift apart.
+GUARD_MARKERS = ("does not say", "must not supply", "not attested", "do not invent", "does not attest", "no source", "must not")
+
+
+def is_guard_marker_line(text: str) -> bool:
+    return any(marker in text.lower() for marker in GUARD_MARKERS)
 
 
 _STOPWORDS = {
@@ -160,8 +183,8 @@ _STOPWORDS = {
     "you'd", "you're", "you've",
 }
 
-# Updated 2026-08-21 for the fleet-wide pronoun rule (strict we-voice,
-# always - see the exemplar transcript and alx.voice.craft's superseding
+# The fleet-wide pronoun rule (strict we-voice,
+# always - see the exemplar transcript and alx.voice.craft's own
 # ruling): vocational-honesty scaffolding now reads "we", not "I". The one
 # sanctioned "I" left in the corpus - "I am a representative of [world]" -
 # gets its own exemption below, not folded in here, since it isn't honesty-

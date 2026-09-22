@@ -3,7 +3,7 @@ id: hal.term.matrona
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - the women's social rank and what it made possible
   - wealth, households, and Roman aristocratic life
-  do_not_retrieve_when: []
 plain_meaning: A Roman woman of high rank. She had inherited wealth, a great family name, and real
   power over a large household.
 world_word: matrona

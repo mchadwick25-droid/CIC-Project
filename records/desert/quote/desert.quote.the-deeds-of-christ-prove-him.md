@@ -3,7 +3,7 @@ id: desert.quote.the-deeds-of-christ-prove-him
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-I, C-E]
 confidence:
@@ -26,7 +26,6 @@ retrieval:
   - "participant asks what this world had of Jesus - what they actually knew about him"
   - "participant asks why anyone believed Jesus was God"
   - "participant asks about the resurrection or the miracles"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.jesus

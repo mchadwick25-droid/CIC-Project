@@ -3,7 +3,7 @@ id: witt.term.worthy-unworthy
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -32,7 +32,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - worthiness, or examination before the Sacrament
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the household's own weekly examination generally, apart from the Sacrament (retrieve
     household)
 relations:

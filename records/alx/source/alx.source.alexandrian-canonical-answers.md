@@ -3,7 +3,7 @@ id: alx.source.alexandrian-canonical-answers
 world_id: alexandria-catechetical
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -28,10 +28,8 @@ Domain). Loci verified directly at the lines given.
 WHAT IT ANSWERS IN THIS WORLD'S OWN THINNESS STATEMENT. This world's
 registry entry says it is "richest in teaching, argument, and the
 theology of formation; thinner on women's own words, ordinary
-believers, and rural Coptic Egypt." Its 25 sources (corrected 2026-09-08,
-records/alx audit: was stated as "twenty," a stale count - the actual
-current count is the number of files in records/alx/source/) are Clement,
-Origen, Athanasius, and the historians who wrote about them - a corpus
+believers, and rural Coptic Egypt." Its 25 sources (the current count of files in records/alx/source/) are
+Clement, Origen, Athanasius, and the historians who wrote about them - a corpus
 of teaching and controversy. These canons are the only documents in it
 where the Alexandrian church says what an ordinary person should
 actually do on an ordinary difficulty.

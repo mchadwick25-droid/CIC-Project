@@ -3,7 +3,7 @@ id: hal.quote.hail-bethlehem
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -29,7 +29,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks why they settled where they did and what the place meant to them"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108 sec. 10;
 the file's editorial footnote on the Hebrew meaning of Bethlehem elided

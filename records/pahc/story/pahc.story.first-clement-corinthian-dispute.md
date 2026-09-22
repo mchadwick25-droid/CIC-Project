@@ -3,7 +3,7 @@ id: pahc.story.first-clement-corinthian-dispute
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks how disputes between church leaders were handled"
   - "participant asks about Strand B (Rome/plural-presbyter) governance"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant has just received Story 001 and a second correspondence-network example would be redundant"
 relations:
 - type: associated-with

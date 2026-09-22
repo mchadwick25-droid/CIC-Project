@@ -3,7 +3,7 @@ id: gallic.term.mortification
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -34,11 +34,12 @@ retrieval:
   - what the girdle or the tunic signified, or what "dead to the world" means
   - participant uses "mortification," "self-denial," "asceticism," "penance," "crucify the flesh," or "dying to self"
   - Pinufius's charge, the girdle of dead skin, or "the fear of the Lord is our cross"
-  do_not_retrieve_when:
+  prefer_instead:
   - the act of giving things up (retrieve renunciation)
   - the north's sackcloth and ashes as practices (retrieve sackcloth and ashes)
   - public penance for a fault (retrieve penance / satisfaction)
-  - self-flagellation and later medieval practices not attested here
+claim_guards:
+- self-flagellation and later medieval practices not attested here
 relations:
 - type: associated-with
   target: gallic.term.purity-of-heart

@@ -3,7 +3,7 @@ id: cappadocian.quote.gregory-nyssa-on-becoming-god
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -58,7 +58,6 @@ retrieval:
   retrieve_when:
   - "participant asks who Jesus was to this world, or what mattered most about him"
   - "participant asks what the good news actually was here, or what his death and resurrection meant"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.who-was-jesus

@@ -3,7 +3,7 @@ id: pahc.term.hetaeria
 world_id: post-apostolic-house-church
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-I
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - whether Christians were treated as an illegal club, what legal category they fell into
   - how Romans understood Christian gatherings
-  do_not_retrieve_when:
+  prefer_instead:
   - Roman clubs or associations with no connection to Christian persecution
 relations:
 - type: associated-with

@@ -3,7 +3,7 @@ id: desert.dw.apostolic
 world_id: desert-monasticism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-E]
 confidence:
@@ -21,7 +21,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world traced an unbroken line back to the apostles"
   - "participant asks where this world's own practice actually came from - invented, or inherited"
-  do_not_retrieve_when: []
 text: >-
   We did not claim an unbroken line back to the apostles for our way of life,
   the way some claim it for an office or a rite. What we can honestly say is

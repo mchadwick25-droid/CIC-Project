@@ -3,7 +3,7 @@ id: gallic.term.sarabaite
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -26,7 +26,7 @@ retrieval:
   - what Cassian's third kind of monk was
   - participant uses "Sarabaite," "fake monk," "monks who live on their own," "no abbot"
   - Conf. XVIII.7
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about monks in general (retrieve monk / solitary)
   - the question is about the house as such (retrieve monastery / coenobium)
   - Tours, where the word is not used

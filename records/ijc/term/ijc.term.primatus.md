@@ -3,7 +3,7 @@ id: ijc.term.primatus
 world_id: imperial-juridical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -35,7 +35,7 @@ retrieval:
   - participant says "pope," "papacy," or "papal authority" of this world
   - Damasus, Leo, or the Petrine texts
   - why one see would outrank another
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is really about Constantinople's own claim (presbeia instead)
 relations:
 - type: associated-with

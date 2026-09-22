@@ -3,7 +3,7 @@ id: pahc.witness.jesus-as-god
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world believed Jesus was God"
   - "participant asks about the Trinity"
-  do_not_retrieve_when:
+  prefer_instead:
   - "a question specifically about later conciliar Trinitarian formulas, which this world's own voices do not use"
 relations:
 - type: associated-with
@@ -63,27 +63,14 @@ a quote record's license field would - the recension discipline
 pahc.source.ignatius-letters names as load-bearing is honored by not
 overclaiming a single citation. Carries forward pahc.core.house-church's
 own caution 10 (OUT-OF-WINDOW TRAP: the word "Trinity" is unknown to
-this world's own voices) - restricted, after Step 8 round-1 review, to
-the claim caution 10 actually supports. FIXED: an earlier draft claimed
-the word "Trinity" itself "comes from a gathering that happened after
-our own time closed" - false: no council coined it (Tertullian's Latin
+this world's own voices), restricted to
+the claim caution 10 actually supports: no council coined the word - Tertullian's Latin
 "trinitas" is c. 213, and the Greek "trias" is attested earlier still,
 including in this same build's own vendored corpus - Theophilus of
 Antioch, To Autolycus II.15, c. 180 CE, inside this world's own window
-and inside Antioch/Syria, one of its three core regions). The record's
-substantive claim survives intact (none of this world's own six primary
-voices uses the word or works out a developed doctrine); only the
-false etymology has been removed.
-
-FIXED at Step 11 (voice build) round-1 review: text's own "None of us
-reaches for the word Trinity" was unscoped, unlike positions[] two
-fields above it ("none of this world's own six primary voices"). Under
-this world's own voice_craft definition of "us" (the whole surviving
-community, not only the six primary voices), the unscoped absolute is
-false inside this world's own window - Theophilus of Antioch (To
-Autolycus II.15, c. 180 CE) is inside both the window and Antioch/
-Syria, per this same record's own trailing body two paragraphs above.
-Scoped to match positions[].
+and inside Antioch/Syria, one of its three core regions. The record's
+substantive claim: none of this world's own six primary
+voices uses the word or works out a developed doctrine.
 
 CENTER-CELL OPENING (2026-08-30, Mark's ruling after four live probes:
 "make the record edit"): the spoken opening no longer hard-binds the

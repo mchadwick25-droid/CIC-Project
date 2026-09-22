@@ -3,7 +3,7 @@ id: witt.story.speratus-hymn-under-the-window
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -37,7 +37,7 @@ retrieval:
   retrieve_when:
   - a participant asks for a story about hymn-singing's felt power, or whether a hymn ever reached Luther
     himself from outside his own circle
-  do_not_retrieve_when:
+  prefer_instead:
   - presenting this as verified historical fact about a specific dated encounter
   - claiming Speratus himself was the singer under the window - the vendored text names only "a wanderer
     from Prussia," not Speratus in person

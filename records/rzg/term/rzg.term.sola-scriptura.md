@@ -3,7 +3,7 @@ id: rzg.term.sola-scriptura
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - participant asks why this world rejected the Pope's or a council's own authority
   - participant asks what actually settled a doctrinal dispute here
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking specifically about the Zurich Disputation as an event
 relations:
 - type: associated-with

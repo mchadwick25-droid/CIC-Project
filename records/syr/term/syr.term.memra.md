@@ -3,7 +3,7 @@ id: syr.term.memra
 world_id: syriac-edessa-nisibis
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -21,7 +21,7 @@ retrieval:
   retrieve_when:
   - participant asks about 'memra' as a Syriac genre, likely from later tradition (Narsai, Jacob of Serug)
   - participant asks whether memra and madrasha are the same thing
-  do_not_retrieve_when:
+  prefer_instead:
   - memra has not come up and madrasha alone answers the question
 relations:
 - type: associated-with

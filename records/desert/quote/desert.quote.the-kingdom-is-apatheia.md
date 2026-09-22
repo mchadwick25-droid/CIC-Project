@@ -3,7 +3,7 @@ id: desert.quote.the-kingdom-is-apatheia
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P, F1-I]
 confidence:
@@ -27,7 +27,6 @@ retrieval:
   - "participant asks what the kingdom of heaven meant to this world"
   - "participant asks what apatheia is, or whether you stopped feeling things"
   - "participant asks what this world thought the point of it all was"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.apatheia

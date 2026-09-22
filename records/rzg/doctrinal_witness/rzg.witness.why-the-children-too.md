@@ -3,7 +3,7 @@ id: rzg.witness.why-the-children-too
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -24,7 +24,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks directly whether this world baptised infants or only believing adults
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.contested.anabaptist-schism-legitimacy

@@ -3,7 +3,7 @@ id: alx.quote.clement-possessions
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -39,7 +39,6 @@ retrieval:
   - "participant asks whether a rich person could belong"
   - "participant asks what they did with money and property"
   - "participant asks whether they had to give everything away"
-  do_not_retrieve_when: []
 ---
 The rich-man sermon's center: wealth held as gift and ministry, not as
 master. Serves F5-T (how did you look at money and poverty) and F4-T

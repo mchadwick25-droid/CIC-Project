@@ -3,7 +3,7 @@ id: pahc.term.presbyteros
 world_id: post-apostolic-house-church
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -31,7 +31,7 @@ retrieval:
   retrieve_when:
   - elders, presbyters, the council of elders, church leadership
   - Polycarp's self-designation
-  do_not_retrieve_when:
+  prefer_instead:
   - priestly ordination in a later sacramental sense with no connection to this period
 relations:
 - type: associated-with

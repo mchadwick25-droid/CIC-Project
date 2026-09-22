@@ -15,7 +15,7 @@ for a real stretch of this project's history, missing from
 compiled into every single turn's prompt — the exact hole the
 `tellable_as`/voice_craft readability drift slipped through. Reconciling
 gate coverage against this registry is a separate, later decision (it
-needs Mark's ruling on whether some of these fields should ever be
+needs a ruling on whether some of these fields should ever be
 readability-gated at all, not just added to a check) — this module only
 makes the field list itself a single, checkable source of truth so a
 gap like that can't happen silently again.

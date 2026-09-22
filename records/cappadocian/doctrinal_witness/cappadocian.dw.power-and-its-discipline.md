@@ -3,7 +3,7 @@ id: cappadocian.dw.power-and-its-discipline
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world's church protected people who caused harm"
   - "participant asks this world to defend using power against Christians who disagreed"
-  do_not_retrieve_when: []
 text: >-
   We will not soften this. Once the empire that had pressed a different
   creed on us finally backed our own instead, the law it wrote named our

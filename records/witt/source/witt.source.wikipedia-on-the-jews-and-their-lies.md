@@ -3,7 +3,7 @@ id: witt.source.wikipedia-on-the-jews-and-their-lies
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

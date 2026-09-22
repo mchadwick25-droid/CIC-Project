@@ -3,7 +3,7 @@ id: witt.term.pope-and-antichrist
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -46,7 +46,7 @@ retrieval:
   retrieve_when:
   - the pope, papacy, or 'Antichrist'
   - why we speak of the pope differently in different settings
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the devil generally, of whom the pope is one instrument (retrieve the devil)
 relations:
 - type: associated-with

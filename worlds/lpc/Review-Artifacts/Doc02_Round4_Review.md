@@ -2,9 +2,9 @@
 ## Round 4 Independent Adversarial Review
 
 **Documents reviewed:**
-- `worlds/lpc/Doc_02_Source_Ecology.md` (revision of 2026-09-02, commit `aa8ee17b`)
-- `worlds/lpc/Source_Registry.md` (same revision)
-- `worlds/lpc/Source_Acquisition_Manifest.md` (same revision)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md` (revision of 2026-09-02, commit `aa8ee17b`)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Registry.md` (same revision)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Acquisition_Manifest.md` (same revision)
 - and, for the two post-disposition edits it has received and the disclosure record now attached to them, `Doc_01_World_Identification_Boundaries_Orientation.md` lines 3 and 186, together with `lpc_Decision_Log.md`
 
 **Review date:** 2026-09-02
@@ -236,7 +236,7 @@ Read alongside the findings. The Round 3 fix pass did most of what it claimed, a
 
 **Doc_01's two post-disposition edits are both present and both correct on the point they were made for.** §9 line 186 reads "all **nine** rounds have their own file" and names all nine, so the Disposition paragraph's "named in full at the head of this section" is true; §5's and §9's Epistle XXXIX corrections are in place; the only occurrences of "Ep. XL" anywhere in the world folder are inside correction notes and inside the review artifacts that record the error. Doc_01 was not edited at `aa8ee17b`. The finding at L3 is about the completeness of the disclosure, not about the edits.
 
-**Structural sweeps.** A programmatic duplicate-sentence sweep (>90 characters, sentence-split) across all three documents returned **zero** repeated or stranded sentences — the failure mode a large multi-site fix pass is most likely to produce, and the fourth consecutive round in which it comes back clean. No Tier 5 material and no invented or illustrative narrative on a full read. §8's Confidence Map uses Article 17's five-level vocabulary correctly. §7's century-gap disclosure discharges Doc_01 §8 item 1 including the harder half. All three documents sit in the canonical `worlds/lpc/` folder per CO-022's *Draft* rule; no competing Approved-to-proceed or Frozen Doc_02 for this world exists anywhere in the tree; the working tree is clean and matches `aa8ee17b`.
+**Structural sweeps.** A programmatic duplicate-sentence sweep (>90 characters, sentence-split) across all three documents returned **zero** repeated or stranded sentences — the failure mode a large multi-site fix pass is most likely to produce, and the fourth consecutive round in which it comes back clean. No Tier 5 material and no invented or illustrative narrative on a full read. §8's Confidence Map uses Article 17's five-level vocabulary correctly. §7's century-gap disclosure discharges Doc_01 §8 item 1 including the harder half. All three documents sit in the canonical `World-Builds/Latin-Pastoral-Congregational-Christianity/` folder per CO-022's *Draft* rule; no competing Approved-to-proceed or Frozen Doc_02 for this world exists anywhere in the tree; the working tree is clean and matches `aa8ee17b`.
 
 **Forces integration (CO-022's six integration points; FF V1.1 §4 Step 2, extracted and read this session).** FF V1.1's Step 2 entry requires that the ecology *"explicitly address forces"* — which sources speak to external forces, what the silences reveal, what survivorship patterns indicate — and that *"Author Gravity assessment (Article 26) must include transmission history as a named dimension at Step 2."* Doc_02 §6's closing paragraph answers all three questions with content rather than labels, and Transmission History is a named, substantive dimension for all three voices, with Pontius receiving a full five-dimension entry as a narrative source per CF V7.4's Expanded Author Gravity Assessment. Present and substantive.
 

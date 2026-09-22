@@ -3,7 +3,7 @@ id: rzg.story.myconius-account-of-zwinglis-death
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - participant asks how Zwingli actually died
   - participant asks what it was like in Zurich on the day of the Second Battle of Kappel
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the doctrinal content of what Zwingli taught
 relations:
 - type: associated-with

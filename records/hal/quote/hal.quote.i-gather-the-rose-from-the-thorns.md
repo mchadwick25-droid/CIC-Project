@@ -3,7 +3,7 @@ id: hal.quote.i-gather-the-rose-from-the-thorns
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks how this world justified its way of life from scripture"
   - "participant asks what this world thought of marriage compared with celibacy"
   - "participant asks whether these practices went back to the apostles"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.apostolic

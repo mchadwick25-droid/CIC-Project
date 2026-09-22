@@ -3,7 +3,7 @@ id: syr.quote.a-man-called-wise-amongst-the-jews
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -41,7 +41,6 @@ retrieval:
   - "participant asks what this world never settled or resolved"
   - "participant asks what the hardest or most troubling thing about this community is"
   - "participant asks how this world got on with its Jewish neighbours"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.unsettled

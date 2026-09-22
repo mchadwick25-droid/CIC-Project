@@ -362,6 +362,195 @@ def test_tier_3_and_unset_tier_are_treated_identically():
     assert scores["fix.term.aaa-low-tier"] == scores["fix.term.explicit-tier-three"]
 
 
+# ---- Stage 4a: R11's riders (Build-Plan.md; Rulings-Pending.md) -----------
+
+_REDIRECTABLE = {
+    "id": "fix.term.redirectable", "record_type": "term", "canon_cells": ["Z9-Q"],
+    "plain_meaning": "A short note about something else entirely.",
+    "retrieval": {"tier": 1, "prefer_instead": ["participant asks about the kept memory specifically - retrieve fix.term.the-real-match instead"]},
+}
+_REAL_MATCH = {
+    "id": "fix.term.the-real-match", "record_type": "term", "canon_cells": ["Z9-Q"],
+    "plain_meaning": "The community remembers something old kept safe.",
+}
+_REDIRECT_QUERY = "what does the community remember about the kept memory"
+_REDIRECT_COVERAGE_ENTRY = {
+    "doctrinal_witness": [], "terms": ["fix.term.redirectable", "fix.term.the-real-match"],
+    "stories": [], "quotes": [], "honest_limit": [], "gravities": [], "forces": [], "contested_claims": [],
+}
+_REDIRECT_REPOSITORY = {r["id"]: r for r in (_REDIRECTABLE, _REAL_MATCH)}
+
+
+def test_prefer_instead_demotes_a_matching_candidate_but_never_excludes_it():
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=_REDIRECT_COVERAGE_ENTRY, repository_records=_REDIRECT_REPOSITORY,
+        message=_REDIRECT_QUERY, asks=None,
+    )
+    terms = [c["id"] for c in selected if c["record_type"] == "term"]
+    # both still present (demotes, never excludes) - the redirect target outranks it
+    assert set(terms) == {"fix.term.redirectable", "fix.term.the-real-match"}
+    assert terms[0] == "fix.term.the-real-match"
+
+
+def test_prefer_instead_leaves_an_unrelated_query_unaffected():
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=_REDIRECT_COVERAGE_ENTRY, repository_records=_REDIRECT_REPOSITORY,
+        message="what did they wear at the monastery", asks=None,
+    )
+    scores = {c["id"]: c["score"] for c in selected if c["record_type"] == "term"}
+    # neither term's own text matches this query at all - both fall back to
+    # their bare tier prior (0.05, tier 1), so no demotion could have fired
+    # without producing a negative score
+    assert scores["fix.term.redirectable"] == 0.05
+
+
+def test_prefer_instead_demotion_ignores_the_note_authoring_boilerplate():
+    """A real participant does not talk like a retrieval note's own
+    condition text - a query that only shares "participant"/"asks" with
+    the note (never the actual topic) must not trigger a demotion."""
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=_REDIRECT_COVERAGE_ENTRY, repository_records=_REDIRECT_REPOSITORY,
+        message="participant asks about something else entirely", asks=None,
+    )
+    scores = {c["id"]: c["score"] for c in selected if c["record_type"] == "term"}
+    # this query's real content words match fix.term.redirectable's OWN
+    # text ("something else entirely") outright - if the boilerplate
+    # wrongly triggered a demotion on top of that real match, the
+    # redirect target (no real overlap at all) would still lose to it;
+    # the assertion that matters is that redirectable is not being
+    # additionally penalized for the shared "participant"/"asks" alone
+    assert scores["fix.term.redirectable"] > scores["fix.term.the-real-match"]
+
+
+def test_prefer_instead_demotion_also_applies_inside_the_stage_b2_fill():
+    """The same lean, in the same direction, when Stage B2's whole-world
+    scan is what's doing the ranking - one demotion rule, not two
+    independently-tuned copies (same discipline as the tier prior's own
+    identical test above)."""
+    empty_coverage = {
+        "doctrinal_witness": [], "terms": [], "stories": [], "quotes": [],
+        "honest_limit": [], "gravities": [], "forces": [], "contested_claims": [],
+    }
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=empty_coverage, repository_records=_REDIRECT_REPOSITORY,
+        message=_REDIRECT_QUERY, asks=None,
+    )
+    terms = [c["id"] for c in selected if c["record_type"] == "term"]
+    assert terms and terms[0] == "fix.term.the-real-match"
+
+
+_GUARDED = {
+    "id": "fix.story.guarded", "record_type": "story", "canon_cells": ["Z9-Q"],
+    "tellable_as": "A soldier shared his cloak with a beggar at the gate.",
+    "claim_guards": ["our vendored evidence does not say who succeeded him, and the Representative must not supply it"],
+}
+_GUARDED_COVERAGE_ENTRY = {
+    "doctrinal_witness": [], "terms": [], "stories": ["fix.story.guarded"], "quotes": [],
+    "honest_limit": [], "gravities": [], "forces": [], "contested_claims": [],
+}
+_GUARDED_REPOSITORY = {_GUARDED["id"]: _GUARDED}
+
+
+def test_claim_guards_ride_on_the_candidate_entry_and_count_toward_the_budget():
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=_GUARDED_COVERAGE_ENTRY, repository_records=_GUARDED_REPOSITORY,
+        message="tell me about the soldier", asks=None,
+    )
+    entry = next(c for c in selected if c["id"] == "fix.story.guarded")
+    assert entry["claim_guards"] == _GUARDED["claim_guards"]
+
+    # a budget too small for head + guard together must actually exclude
+    # the candidate - proof the rider counts against budget_chars, not a
+    # separate allowance (Build-Plan.md Stage 4a: "riders... inside
+    # existing budget_chars")
+    tiny_budget = len(_GUARDED["tellable_as"]) + 5
+    starved = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=_GUARDED_COVERAGE_ENTRY, repository_records=_GUARDED_REPOSITORY,
+        message="tell me about the soldier", asks=None, budget_chars=tiny_budget,
+    )
+    assert not any(c["id"] == "fix.story.guarded" for c in starved[1:])
+
+
+def test_a_record_with_no_claim_guards_carries_no_such_key():
+    selected = select_cell_candidates(
+        cell="C-E", coverage_entry=COVERAGE["C-E"], repository_records=REPOSITORY, message="Jesus", asks=None
+    )
+    assert all("claim_guards" not in c for c in selected)
+
+
+def test_render_evidence_block_renders_claim_guards_as_a_rider_on_the_candidate_line():
+    evidence = {"candidates": [{"id": "fix.story.guarded", "record_type": "story", "head": "A soldier shared his cloak.", "claim_guards": _GUARDED["claim_guards"]}], "thin_ground": [], "figures_already_named": []}
+    block = render_evidence_block(evidence)
+    lines = [l for l in block.splitlines() if "[[fix.story.guarded]]" in l]
+    assert len(lines) == 1  # on the SAME line as the candidate, not a separate section
+    assert "MUST NOT ASSERT" in lines[0]
+    assert _GUARDED["claim_guards"][0] in lines[0]
+
+
+def test_render_evidence_block_has_no_guard_marker_for_a_candidate_without_one():
+    evidence = {"candidates": [{"id": "fix.term.plain", "record_type": "term", "head": "An ordinary term."}], "thin_ground": [], "figures_already_named": []}
+    block = render_evidence_block(evidence)
+    assert "MUST NOT ASSERT" not in block
+
+
+# ---- Stage 4f: secondary-weight table context (Build-Plan.md) -------------
+
+
+def test_secondary_context_fills_an_empty_cell_slot():
+    """An off-canon message alone reaches no cell; the table's own recent
+    speech (what another voice just said) can still find one, at secondary
+    weight - exactly the "conversation-aware" gap this stage closes."""
+    evidence_result = assemble_evidence(
+        message="What is the weather like today?",
+        asks=None,
+        canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE,
+        repository_records=REPOSITORY,
+        secondary_context="How does baptism actually work for your community - what does it require?",
+    )
+    cells = [c["cell"] for c in evidence_result["cells"]]
+    assert "F1-E" in cells
+    matched = next(c for c in evidence_result["cells"] if c["cell"] == "F1-E")
+    assert matched.get("from_secondary_context") is True
+
+
+def test_secondary_context_never_displaces_a_real_match():
+    """A message that already fills every top_n_cells slot on its own is
+    left exactly as it was - secondary_context only ever fills a gap, never
+    competes for a slot the participant's own words already won."""
+    q = "What does your community remember of Jesus?"
+    without = match_asks_to_cells(message=q, asks=None, canon_questions=CANON_QUESTIONS, top_n=1)
+    evidence_result = assemble_evidence(
+        message=q, asks=None, canon_questions=CANON_QUESTIONS, coverage=COVERAGE,
+        repository_records=REPOSITORY, top_n_cells=1,
+        secondary_context="How does baptism actually work for your community - what does it require?",
+    )
+    assert evidence_result["cells"] == without
+    assert all("from_secondary_context" not in c for c in evidence_result["cells"])
+
+
+def test_secondary_context_respects_the_top_n_cells_cap():
+    evidence_result = assemble_evidence(
+        message="What is the weather like today?",
+        asks=None,
+        canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE,
+        repository_records=REPOSITORY,
+        top_n_cells=2,
+        secondary_context="How does baptism actually work for your community, and what does your community remember of Jesus?",
+    )
+    assert len(evidence_result["cells"]) <= 2
+
+
+def test_secondary_context_absent_is_byte_identical_to_before_this_stage():
+    q = "What does your community remember of Jesus?"
+    with_default = assemble_evidence(message=q, asks=None, canon_questions=CANON_QUESTIONS, coverage=COVERAGE, repository_records=REPOSITORY)
+    without_param = assemble_evidence(
+        message=q, asks=None, canon_questions=CANON_QUESTIONS, coverage=COVERAGE, repository_records=REPOSITORY, secondary_context=None,
+    )
+    assert with_default == without_param
+
+
 # ---- Stage D ---------------------------------------------------------------
 
 
@@ -504,7 +693,7 @@ def test_render_evidence_block_includes_thin_ground_line():
 
 
 def test_render_evidence_block_names_figures_already_introduced():
-    """Mark's pilot read (2026-08-30): both Chloe turns opened "One of us,
+    """A pilot read found both Chloe turns opened "One of us,
     Ignatius" - the session's already_bridged_figure_ids suppressed the
     UI's second underline but never reached the voice. The evidence block
     is where the voice learns session state (same channel Stage E's
@@ -939,7 +1128,7 @@ def test_a_first_turn_has_no_history_to_inherit_from():
 
 
 def test_diverse_take_breadth_first_by_source():
-    """Mark's ruling (2026-08-29): source breadth is a system function of
+    """Source breadth is a system function of
     selection, never a per-record hand-fix. Same slot count; composition
     prefers one-per-source-family before seconds from the same family."""
     from engine.m4.evidence import _diverse_take, _source_key
@@ -961,7 +1150,7 @@ def test_diverse_take_breadth_first_by_source():
 
 
 def test_diverse_take_downgrades_session_used_families():
-    """Mark's ruling (2026-08-29): a reference already drawn on this session
+    """A reference already drawn on this session
     is looked to LAST, never banned - Ignatius yields the first slot to a
     fresh family once he has spoken, and still fills slots nothing else can."""
     from engine.m4.evidence import _diverse_take

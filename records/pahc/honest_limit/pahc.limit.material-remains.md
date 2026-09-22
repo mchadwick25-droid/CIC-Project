@@ -3,7 +3,7 @@ id: pahc.limit.material-remains
 world_id: post-apostolic-house-church
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E
@@ -60,14 +60,7 @@ premature honest_limit on a cell this world's sources CAN answer would
 be a false claim in the opposite direction from the one this discipline
 exists to prevent.
 
-FIXED at Step 7 round-1 review: the Pliny source locus previously called
-10.96-97 "the nearest thing this world has to an outside eyewitness
-description of a meeting place" - wrong on both counts against this
-world's own figure/source records (Pliny's detail comes from two
-enslaved ministrae under torture, not eyewitness observation, and the
-letter is silent on any physical place), and self-contradicting for a
-material-remains record whose own statement says "no building tied to
-us survives." Corrected. why_sources_cannot_answer's "two independent
-methods" also corrected to "two different methods," matching
+why_sources_cannot_answer's phrase "two different
+methods" matches
 GRAVITY-INDEX.md's own deliberate wording exactly (that index chose
 "different" specifically to block an "independent" reading).

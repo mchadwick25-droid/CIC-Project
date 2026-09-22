@@ -24,9 +24,10 @@ fallback ladder appends, it never revises). A finding is a signal that
 something upstream is wrong, not something to paper over on the way out.
 So nothing here mutates text, and the findings ride on the voice event.
 
-THREE FAMILIES, chosen because each is EXACTLY decidable on the finished
-text. Register in general is not (engine/m3/grading.py says so about
-itself, and it is right); these three are.
+FOUR FAMILIES, chosen because each is EXACTLY decidable on the finished
+text (given, for the fourth, the citations and records the turn already
+resolved). Register in general is not (engine/m3/grading.py says so about
+itself, and it is right); these four are.
 
   display        markup that was never meant for a person. Residual
                  [[...]] in any spelling, literal asterisks, a markdown
@@ -39,6 +40,17 @@ itself, and it is right); these three are.
   pronoun        the strict we-voice. First-person singular outside the one
                  sanctioned self-naming line, and outside quoted historical
                  speech, which keeps its own original wording by rule.
+  guard_proximity a sentence that cites a record R11 (Rulings-Pending.md)
+                 marked with a claim_guards entry - a barred proposition -
+                 and shares that barred proposition's own subject matter
+                 (Build-Plan.md Stage 4b). Stage 1's own D1 measurement
+                 found grounding_net's per-sentence check caught a
+                 fabricated version of exactly such a claim only 2 times
+                 in 13 (Decision-Log.md); this is a second, independent
+                 net at the one place both the sentence and its own
+                 citation are already known together. Feeds R14 - reports
+                 only, same as every family here, never removes a
+                 sentence.
 
 WHAT IT DELIBERATELY DOES NOT DO: stop the model writing any of this. That
 is the prompt's job, and the prompt will sometimes fail. The value here is
@@ -46,7 +58,7 @@ that a failure becomes visible instead of silent.
 """
 import re
 
-from engine.prose import QUOTE_CLOSE, QUOTE_OPEN, SELF_NAMING_MARKER, content_words, sentences
+from engine.prose import GUARD_MARKERS, QUOTE_CLOSE, QUOTE_OPEN, SELF_NAMING_MARKER, content_words, is_guard_marker_line, sentences
 
 # Anything in tag position, however it is spelled. grounding_net.strip_tags
 # matches [a-z0-9_.-]+ ONLY, because it must also resolve what it strips -
@@ -292,7 +304,96 @@ def _pronoun_findings(text: str) -> list[dict]:
     return out
 
 
-def check_output(text: str, *, history: list[dict] | None = None, participant_message: str | None = None) -> list[dict]:
+# The note-authoring convention itself (R11's own migration - Rulings-
+# Pending.md; tools/split_retrieval_guards.py), measured the same way
+# engine/m4/evidence.py's own _PREFER_INSTEAD_CONDITION_STOPWORDS was:
+# "participant is asking whether...", "the Representative must not...",
+# "our vendored evidence..." are the note's own scaffolding, not part of
+# the barred proposition. A different set from evidence.py's own (guard
+# notes and redirect notes share an origin but not identical phrasing),
+# kept local rather than imported - each module's own scaffolding list
+# stays honest about what it was actually measured against.
+_GUARD_PROXIMITY_BOILERPLATE = {
+    "participant", "question", "asking", "asks", "wants", "needs", "wanted",
+    "whether", "representative", "vendored", "evidence", "record", "record's",
+    "story", "native", "voice",
+}
+_PROPER_NOUN = re.compile(r"\b[A-Z][a-z]{2,}\b")
+
+# Below this, a shared word or two is closer to coincidence than to
+# asserting the same claim - measured directly: every one of Stage 1's own
+# 13 fabricated flat assertions shares at least 2 claim words with its own
+# guard's proposition (_guard_proposition below) once boilerplate and
+# proper nouns are stripped; the smallest observed overlap among all 13 is
+# exactly 2, so this is the real floor the data supports, not a guess.
+_GUARD_PROXIMITY_MIN_SHARED_WORDS = 2
+
+
+def _guard_proposition(guard_text: str) -> set[str]:
+    """A claim_guards entry's own barred subject matter - what it actually
+    asserts, not who or what it is about. GUARD_MARKERS' own honesty-
+    framing phrases and the note-authoring boilerplate are stripped first,
+    and its own proper nouns are excluded from the result entirely.
+
+    PROPER NOUNS ARE EXCLUDED ON PURPOSE. Two names sharing a sentence is
+    not itself the barred claim - "Brictio" and "Martin" appear together
+    in every truthful sentence about their courtyard scene, since that is
+    who the scene is about. A sentence is asserting the barred proposition
+    only when it shares the claim's own non-name vocabulary (what it
+    actually says about them - "succeeded", "bishop" - not just their
+    names). Measured against a constructed false positive before this
+    exclusion existed: "Brictio was in the courtyard when Martin
+    confronted him" shared 2 words with this guard's own full text on a
+    flat, unsplit count - the same threshold that correctly catches all 13
+    of Stage 1's own fabricated flat assertions on the split, name-
+    excluded set. Excluding proper nouns fixed the false positive without
+    losing any of the 13 (a stricter design that also required an
+    OVERLAPPING proper noun was tried first and tested worse: it missed a
+    real case where the fabrication named none of the guard's own proper
+    nouns at all).
+    """
+    stripped = guard_text
+    for marker in GUARD_MARKERS:
+        stripped = re.sub(re.escape(marker), " ", stripped, flags=re.IGNORECASE)
+    all_words = content_words(stripped) - _GUARD_PROXIMITY_BOILERPLATE
+    proper = {p.lower() for p in _PROPER_NOUN.findall(stripped)}
+    return all_words - proper
+
+
+def _guard_proximity_findings(text: str, citations: list[dict] | None, repository_records: dict[str, dict] | None) -> list[dict]:
+    if not citations or not repository_records:
+        return []
+    out = []
+    for citation in citations:
+        sentence = (citation.get("sentence") or "").strip()
+        if not sentence or is_guard_marker_line(sentence):
+            continue  # the voice is honestly declining or framing a limit, not asserting one
+        sentence_words = content_words(sentence)
+        for rid in citation.get("record_ids") or []:
+            record = repository_records.get(rid) or {}
+            for guard in record.get("claim_guards") or []:
+                shared = sentence_words & _guard_proposition(guard)
+                if len(shared) < _GUARD_PROXIMITY_MIN_SHARED_WORDS:
+                    continue
+                out.append(
+                    _finding(
+                        "guard_proximity",
+                        f"cites {rid}, barred from asserting {guard!r} - this sentence shares "
+                        f"{len(shared)} content word(s) with the barred claim's own subject matter: {sorted(shared)}",
+                        sentence,
+                    )
+                )
+    return out
+
+
+def check_output(
+    text: str,
+    *,
+    history: list[dict] | None = None,
+    participant_message: str | None = None,
+    citations: list[dict] | None = None,
+    repository_records: dict[str, dict] | None = None,
+) -> list[dict]:
     """Every defect found on the finished text. Empty list is the clean case.
 
     `history` is the Messages-API turn list the generation call was given
@@ -300,7 +401,13 @@ def check_output(text: str, *, history: list[dict] | None = None, participant_me
     re-derived, so the check and the call can never disagree about what the
     voice had actually said. `participant_message` is the turn being
     answered: half of a false-premise defect lives there, and no pattern
-    over the reply alone can reach it.
+    over the reply alone can reach it. `citations` is engine.m4.
+    citation_cards.resolve_citation_sources's own output (per-sentence
+    entries with resolved `record_ids`) and `repository_records` is the
+    world's own compiled records by id - both optional, both needed
+    together for the guard_proximity family; a caller with neither (e.g.
+    a bare-text check) gets the first three families only, exactly as
+    before this family existed.
     """
     if not (text or "").strip():
         return []
@@ -310,6 +417,7 @@ def check_output(text: str, *, history: list[dict] | None = None, participant_me
         + _conversational_findings(text, history)
         + _premise_findings(text, participant_message, said)
         + _pronoun_findings(text)
+        + _guard_proximity_findings(text, citations, repository_records)
     )
 
 

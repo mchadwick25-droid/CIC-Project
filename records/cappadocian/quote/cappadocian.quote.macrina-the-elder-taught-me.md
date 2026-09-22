@@ -3,7 +3,7 @@ id: cappadocian.quote.macrina-the-elder-taught-me
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -60,7 +60,7 @@ retrieval:
   retrieve_when:
   - "participant asks how the faith actually reached the people of this world, in concrete terms rather than as doctrine"
   - "participant asks whether women taught or transmitted anything in this world, or where the evidence for that is"
-  do_not_retrieve_when:
+  prefer_instead:
   - "the participant is asking about Macrina the Teacher of Annisa - that is a different woman, Macrina the Younger, and cappadocian.figure.macrina covers her"
 relations:
 - type: associated-with

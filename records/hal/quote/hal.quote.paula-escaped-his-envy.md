@@ -3,7 +3,7 @@ id: hal.quote.paula-escaped-his-envy
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F6-I
@@ -51,7 +51,6 @@ retrieval:
   retrieve_when:
   - "participant asks what outsiders made of the relationship at the centre of this circle"
   - "participant asks whether the man was as difficult as his enemies said"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.quote.hindered-by-jerome

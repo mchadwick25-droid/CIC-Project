@@ -3,7 +3,7 @@ id: hal.quote.rome-resounded
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - "participant asks why they left the city and what happened to their reputation"
   - "participant asks whether they were ever popular, and what changed"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 45 sec. 3,
 div v.XLV; the file's editorial footnote on the Latin elided). Written on

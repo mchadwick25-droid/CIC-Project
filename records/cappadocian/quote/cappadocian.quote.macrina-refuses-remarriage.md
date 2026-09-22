@@ -3,7 +3,7 @@ id: cappadocian.quote.macrina-refuses-remarriage
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -57,7 +57,7 @@ retrieval:
   - "participant asks why Macrina never married, or what happened when her betrothed died"
   - "participant asks what reasoning or argument stands behind Macrina's refusal of remarriage, in
     the source's own words"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants a direct first-person quotation from Macrina herself rather than her
     brother's narration of her reasoning"
 relations:

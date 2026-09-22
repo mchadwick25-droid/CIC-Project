@@ -3,7 +3,7 @@ id: pahc.story.hermas-visions
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -24,7 +24,7 @@ retrieval:
   - "participant asks whether someone who wronged the community could come back"
   - "participant asks about G01 from the Roman plural-presbyter angle"
   - "participant asks what heaven, life after death, or the Church's ultimate future meant to this community"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs a straightforward historical-narrative register without the genre disclosure this story requires"
 relations:
 - type: associated-with
@@ -67,24 +67,4 @@ created first of all... for her sake was the world made" and the
 Clement/Grapte instruction ("along with the presbyters who preside
 over the Church") both checked directly against cic/texts/anf02_
 hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, div1 ii.
-FIXED at Step 9 round-1 review: three corrections, all in this record's
-own front matter. (1) locus corrected - the old-woman-is-the-Church
-exchange quoted in this record's own text is Vision 2.4.1, not Vision
-2.2 (which is separate limits-of-repentance material this record does
-not actually draw on); the "grows younger" detail is Vision 3, which
-the locus previously omitted entirely. (2) canon_cells corrected from
-F1-P to F4-I: neither f1-p-01 nor f1-p-02 is about repentance after
-wrongdoing, and this record's own prior justification cited Mandate 9
-content this record does not contain. F4-I (f4-i-05, "When someone
-wronged the community, how was it handled - and could they come
-back?") is the genuine match to this story's own mercy-and-repentance
-content, given this world's own thin general material on that
-question specifically. (3) formation_confidence corrected from
-Contested to Widely Accepted, matching this record's own
-divergence_note (which already stated Widely Accepted on authorship/
-attestation, Contested only on composition dating) and Doc_09 Story
-007's own stated confidence - every sibling record with this same
-split sets the leading value; only this one had set the trailing
-value instead.
-
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

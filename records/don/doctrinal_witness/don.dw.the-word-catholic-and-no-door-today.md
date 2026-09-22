@@ -3,7 +3,7 @@ id: don.dw.the-word-catholic-and-no-door-today
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -45,7 +45,6 @@ retrieval:
   retrieve_when:
   - participant asks whether our church was Catholic, or whether there is a church today they could visit
   - participant asks whether we had denominations, or how we treated others who called on Christ differently
-  do_not_retrieve_when: []
 text: >-
   Catholic means universal, and yes - we claimed it, and refused to hand
   it over. Both churches in every African town claimed it. What settled

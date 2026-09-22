@@ -3,7 +3,7 @@ id: desert.quote.eight-principal-faults
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -41,7 +41,6 @@ retrieval:
   - "participant asks what temptations they worried about most"
   - "participant asks whether anger, money, food, or sex were the trouble, and how they named such things"
   - "participant asks whether they had a list or a scheme of the passions"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---

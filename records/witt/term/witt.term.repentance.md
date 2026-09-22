@@ -3,7 +3,7 @@ id: witt.term.repentance
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -43,7 +43,7 @@ retrieval:
   - contrition, confession, or satisfaction as parts of penance
   - why we kept confession but refused indulgences
   - what baptism means daily
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means contrition alone (retrieve contrition)
   - the participant means the sacrament of confession's own mechanics (retrieve confession/absolution)
 relations:

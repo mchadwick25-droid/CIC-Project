@@ -3,7 +3,7 @@ id: cappadocian.story.panegyris-shrine
 world_id: cappadocian-trinitarian
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - "participant asks what a martyr's feast day actually looked like, or what happened at a shrine"
   - "participant asks whether worship and ordinary commerce or crowds mixed in this world"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.figure.basil

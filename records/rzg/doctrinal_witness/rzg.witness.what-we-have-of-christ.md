@@ -3,7 +3,7 @@ id: rzg.witness.what-we-have-of-christ
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -23,7 +23,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks what evidence or memory this world actually has of Jesus, or how it reached them
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.term.sola-scriptura

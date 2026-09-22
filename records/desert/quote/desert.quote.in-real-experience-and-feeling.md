@@ -3,7 +3,7 @@ id: desert.quote.in-real-experience-and-feeling
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-I, F1-P]
 confidence:
@@ -27,7 +27,6 @@ retrieval:
   - "participant says they have never felt anything of God"
   - "participant asks who or what the Holy Spirit was to this world"
   - "participant asks whether God can be felt, or whether faith should feel like anything"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.the-heart-and-the-spirit

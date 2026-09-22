@@ -3,7 +3,7 @@ id: ijc.quote.canon3-new-rome
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - "participant asks how the great cities ranked against each other"
   - "participant asks what difference it made that the capital moved"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
 ---

@@ -3,7 +3,7 @@ id: hal.quote.rufinus-writes-because-rome-is-where-the-news-is
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks who had the right to settle a dispute about belief, and how that worked"
   - "participant asks whether a council or a bishop simply decided doctrine"
   - "participant asks how an accusation of heresy actually reached someone"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.authority

@@ -3,7 +3,7 @@ id: hal.quote.oea-tumult
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - "participant asks what happened when a congregation heard an unfamiliar reading"
   - "participant asks whether changing a familiar text caused trouble"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf101 (div
 vii.1.LXXI). The Oea gourd incident in Augustine's own hand - the

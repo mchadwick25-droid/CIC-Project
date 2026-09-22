@@ -3,7 +3,7 @@ id: don.story.conference-of-carthage-411
 world_id: donatism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -54,7 +54,7 @@ retrieval:
     than through an opponent's quotation
   - participant asks about Emeritus of Caesarea, or about how a court proceeding felt from the side that
     expected to lose it
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the founding dispute of 311-312 rather than its final adjudication a century later
   - participant expects a verdict scene - the numbered acts read for this record break off before any sentence
     is pronounced

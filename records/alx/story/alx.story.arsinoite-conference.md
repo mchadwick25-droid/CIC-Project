@@ -3,7 +3,7 @@ id: alx.story.arsinoite-conference
 world_id: alexandria-catechetical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - disagreement inside the church and how it was handled
   - end-times/millennium questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.contested.allegory-from-within
@@ -77,24 +76,19 @@ alx.quote.dionysius-nepos, alx.contested.allegory-from-within.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
 
-corrected 2026-09-08, records/alx audit, two findings: (1) the sources
-locus (VII.24, npnf201 lines 41290-41320) under-covered this record's own
-subject - that range reaches only Nepos's identification and the
-Refutation of Allegorists material, not the conference narrative itself
-("three successive days," line 41358; Dionysius's rejoicing, line 41361;
-Coracion named, line 41375). Extended to 41290-41382. (2) The closing
-sentence previously had Dionysius saying "this is what he rejoiced in
-most" about the final outcome - agreement reached in the open. The
-vendored HE VII.24.8-9 has Dionysius's own stated rejoicing (§8) directed
-at "the constancy, sincerity, docility, and intelligence of the
-brethren... as we considered in order and with moderation the questions
-and the difficulties and the points of agreement" - i.e. over the manner
-of the three days' arguing, which comes before Coracion's recantation,
-not after. The satisfaction at the harmonious final outcome ("the spirit
-of conciliation and harmony which all had manifested") is attributed in
-§9 to "some of the other brethren," not claimed by Dionysius for
-himself, and the added superlative "what he rejoiced in most" is not in
-the text. Rewritten so Dionysius's own rejoicing is over the brethren's
-manner during the examining, placed before Coracion's recantation, and
-the satisfaction at the outcome is attributed to "some of the other
-brethren" per the vendored text.
+The sources locus (VII.24, npnf201 lines 41290-41382) covers Nepos's
+identification and the Refutation of Allegorists material (41290-41320)
+as well as the conference narrative itself ("three successive days,"
+line 41358; Dionysius's rejoicing, line 41361; Coracion named, line
+41375). The vendored HE VII.24.8-9 has Dionysius's own stated rejoicing
+(§8) directed at "the constancy, sincerity, docility, and intelligence of
+the brethren... as we considered in order and with moderation the
+questions and the difficulties and the points of agreement" - i.e. over
+the manner of the three days' arguing, which comes before Coracion's
+recantation, not after. The satisfaction at the harmonious final outcome
+("the spirit of conciliation and harmony which all had manifested") is
+attributed in §9 to "some of the other brethren," not claimed by
+Dionysius for himself. The text keeps Dionysius's own rejoicing over the
+brethren's manner during the examining, placed before Coracion's
+recantation, with the satisfaction at the outcome attributed to "some of
+the other brethren" per the vendored text.

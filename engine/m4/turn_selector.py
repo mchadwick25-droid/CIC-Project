@@ -23,8 +23,8 @@ directly positioned" first, with the breadth-of-voice preference - favor a
 voice that has not yet spoken this round when the question is genuinely
 open to all, without making rotation a rule.
 
-REPRESENTATIONAL FAIRNESS ON RETURN PICKS (2026-09-05, Mark relaying a
-reviewer's finding): across every real transcript reviewed that day with
+REPRESENTATIONAL FAIRNESS ON RETURN PICKS: a reviewer's finding, across
+every real transcript reviewed with
 the same 3-seat trio, the two traditions carrying more elaborated,
 cross-referencing technical vocabulary (Cappadocian, Alexandrian - both
 argue theosis in their own terms) kept getting the return/final-word
@@ -36,8 +36,8 @@ real contribution is practice, embodiment, or its own admitted
 uncertainty. Small, non-randomized sample (same worlds, same broad
 question, informal repeats) - real enough to name directly in the prompt
 rather than wait for a designed study, and not a hard quota: rotation is
-still never forced, per Mark's own explicit "random or opportunistic
-selection is fine."
+still never forced - random or opportunistic
+selection is fine.
 """
 from dataclasses import dataclass
 
@@ -169,8 +169,8 @@ def fallback_world(eligible: list[str], transcript_speakers: list[str]) -> str:
     (2026-09-05 fix), never `eligible`'s own incoming order. It used to be
     the latter, and "same choice" was only ever true because every caller
     happened to pass `eligible` in a stable seating order - the moment
-    table_wiring started reshuffling that order per call (Mark's report:
-    "it always answers in the same order... randomize it"), this function's
+    table_wiring started reshuffling that order per call to fix responses
+    always coming in the same order, this function's
     own documented guarantee broke silently. A tie-break keyed to the
     caller's incoming order was never really deterministic; it was
     borrowing determinism from a caller invariant this function had no way
@@ -184,16 +184,16 @@ def fallback_world(eligible: list[str], transcript_speakers: list[str]) -> str:
     return min(eligible, key=lambda k: (last_spoken_index(k), k))
 
 
-# TARGET LENGTH (Mark's ruling, 2026-09-05, on a design enhancement pass:
-# "for 2 voices and a participant, the max turns should be 5, 4 being the
-# ultimate zone... for 3 voices the cap is 6, 5 being the ultimate zone").
+# TARGET LENGTH: for 2 voices and a participant, the max turns is 5, 4
+# being the ultimate zone; for 3 voices the cap is 6, 5 being the
+# ultimate zone.
 # Deliberately a SECOND, softer number from the hard cap the round loop
-# itself enforces (engine.m4.round.RoundConfig.cap_for) - his own point 3
-# ("no hard cap or post conversation monitoring... just a small increased
-# pressure") and his direct confirmation both place this as guidance here,
+# itself enforces (engine.m4.round.RoundConfig.cap_for) - no hard cap or
+# post-conversation monitoring, just a small increased
+# pressure placed as guidance here,
 # in the selector's own reasoning, never a second code-enforced gate. Only
 # two table sizes exist (Artifact-7 SS1: world_keys 2-3), so this is a
-# plain lookup of his two authored numbers, not a formula.
+# plain lookup of two authored numbers, not a formula.
 _TARGET_TURNS_BY_SEATS = {2: 4, 3: 5}
 
 

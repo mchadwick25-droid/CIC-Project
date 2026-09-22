@@ -3,7 +3,7 @@ id: syr.term.mar
 world_id: syriac-edessa-nisibis
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -21,7 +21,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - participant uses 'Mar' as a title prefix or asks what it means
-  do_not_retrieve_when:
+  prefer_instead:
   - participant asks about a formal office or title of authority (see the Catholicos record for that anachronism
     risk)
 plain_meaning: Mar means 'my lord'. It is the Syriac title of honor set before the names of bishops, saints,

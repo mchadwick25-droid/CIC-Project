@@ -3,7 +3,7 @@ id: ijc.quote.julius-custom
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -28,7 +28,6 @@ retrieval:
   retrieve_when:
   - "participant asks what the customary procedure was when a bishop was deposed"
   - "participant asks whether Rome expected to be consulted"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.letter-that-outranked-a-council}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}

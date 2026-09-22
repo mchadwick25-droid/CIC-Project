@@ -105,9 +105,7 @@ record exactly, or **[NEW]** when it's connective narration written for
 this exemplar alone. Everything below is VERBATIM except the facilitator's
 framing lines and one clearly marked bridging sentence.
 
-**A note on the speaker label below (fixed after v3's first pass, which
-still said "Vera" — a leftover from the fixture draft, wrong on its own
-terms once the content changed):** the transcript now correctly labels the
+**A note on the speaker label below:** the transcript labels the
 speaker **Theon, Catechetical Teacher** — Alexandria's own registry
 identity, ruled by Mark on the world-build thread. That name is a label for
 this document's readability only, the same way a chat header names who

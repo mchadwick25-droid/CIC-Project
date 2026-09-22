@@ -3,7 +3,7 @@ id: ijc.quote.ambrose-blessing-changes-nature
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -33,7 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they held about the bread and the cup"
   - "participant asks whether something happened to the elements"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.dw.bread-made-body}
 ---

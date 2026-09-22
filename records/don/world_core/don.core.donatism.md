@@ -3,7 +3,7 @@ id: don.core.donatism
 world_id: donatism
 record_type: world_core
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

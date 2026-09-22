@@ -3,7 +3,7 @@ id: cappadocian.quote.basil-canon-on-digamy
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -41,7 +41,6 @@ retrieval:
   retrieve_when:
   - "participant asks how long the penance for a second marriage actually lasted, in this world's own terms"
   - "participant asks whether this world treated second and third marriages the same way"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.marriage-ending
@@ -57,11 +56,8 @@ Verified verbatim 2026-09-02 directly against the vendored
 npnf208_basil-letters-select-works.xml (the div's own XML id is
 "ix.clxxxix", but its printed heading at line 34733 reads "Letter
 CLXXXVIII." - the div id runs one notch ahead of the letter's own
-printed number, the same drift pattern seen elsewhere in this file;
-corrected here after an independent adversarial review caught the
-mismatch between the printed "CLXXXIX" this record originally cited and
-the "Ep. 188" already correctly named alongside it). Traditionally
-Epistle 188, the First Canonical Letter - the same letter cappadocian.dw.marriage-
+printed number, the same drift pattern seen elsewhere in this file.
+Traditionally Epistle 188, the First Canonical Letter - the same letter cappadocian.dw.marriage-
 ending's own sources[] already cites for "the First Canonical Letter's
 own provisions on digamy, penance, and the custom governing blame after
 separation." Canon IV, found via `grep -n "In the case of trigamy and
@@ -70,18 +66,11 @@ Double-spacing in the source file's own typesetting normalized to single
 spaces; inline footnote markers stripped; no wording added, dropped, or
 reordered.
 
-This replaces an earlier draft of this same F6-T slot that quoted
-Gregory of Nyssa's "On the Soul and the Resurrection" (a passage naming
-sexual union, aging, and death as part of the mortal "skin of a brute"
-that does not survive into the resurrected state). That passage is
-genuine and verbatim, but it answers a different question - Gregory's
-own eschatology of the resurrection body - not the specific claim this
-dw record actually makes, which is about this world's own canonical
-practice governing second and third marriages during this life (penance
-terms, and the shift from "marriage" to "polygamy"/"limited
-fornication" language at the third). Canon IV states that practice
-directly, in Basil's own words, and is the better-fitting citation for
-this cell.
+Canon IV states this world's own canonical practice governing second and
+third marriages during this life (penance terms, and the shift from
+"marriage" to "polygamy"/"limited fornication" language at the third)
+directly, in Basil's own words, matching the specific claim
+cappadocian.dw.marriage-ending makes.
 
 MODERN RENDERING AUTHORED (2026-09-02): the spoken form is a modern-
 English translation, never the archaic original; the original stays as

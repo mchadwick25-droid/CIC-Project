@@ -3,7 +3,7 @@ id: cappadocian.figure.gregory-of-nyssa
 world_id: cappadocian-trinitarian
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: "Documented as a corpus and a career. Contested (downgraded from an earlier draft's 'Widely Accepted', Doc_02 §1.3): how much later 'Origenist unease' actually shaped his own transmission - the claim rests substantially on one contested thesis about doctored manuscript passages, not a settled consensus; he was never condemned in his own era and was cited approvingly at the Second Council of Nicaea centuries later."
+  divergence_note: "Documented as a corpus and a career. Contested (Doc_02 §1.3): how much later 'Origenist unease' actually shaped his own transmission - the claim rests substantially on one contested thesis about doctored manuscript passages, not a settled consensus; he was never condemned in his own era and was cited approvingly at the Second Council of Nicaea centuries later."
 sources:
 - source_id: cappadocian.source.gregory-nyssa-life-of-macrina
   locus: "his own account of his sister's death"

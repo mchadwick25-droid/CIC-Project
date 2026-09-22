@@ -3,7 +3,7 @@ id: cappadocian.quote.we-look-to-the-east
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -36,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks how this world knew its practices went back to the apostles"
   - "participant asks why they faced a particular direction or stood rather than knelt to pray"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.customs-from-the-apostles

@@ -3,7 +3,7 @@ id: desert.quote.equal-measure-of-strength
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -48,7 +48,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether women were thought capable of this life"
   - "participant asks how the men writing these accounts spoke about women"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.spiritual-combat

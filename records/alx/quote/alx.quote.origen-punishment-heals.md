@@ -3,7 +3,7 @@ id: alx.quote.origen-punishment-heals
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether they believed in hell and everlasting punishment"
   - "participant asks whether God's severity was thought to be for the person's good"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.apokatastasis

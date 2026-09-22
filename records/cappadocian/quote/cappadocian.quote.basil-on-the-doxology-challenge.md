@@ -3,7 +3,7 @@ id: cappadocian.quote.basil-on-the-doxology-challenge
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -46,7 +46,6 @@ retrieval:
   retrieve_when:
   - "participant asks what actually triggered Basil's treatise on the Holy Spirit"
   - "participant asks whether changing a word in a prayer was really enough to get a bishop accused of heresy"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.confession-not-a-vote

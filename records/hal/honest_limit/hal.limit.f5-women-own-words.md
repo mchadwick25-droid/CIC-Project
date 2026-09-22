@@ -3,7 +3,7 @@ id: hal.limit.f5-women-own-words
 world_id: hieronymian-ascetic-literary
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I

@@ -3,7 +3,7 @@ id: desert.story.moses-leaking-jug
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -21,7 +21,6 @@ retrieval:
   - "participant is judging themselves or someone else harshly and asks if this way of life has anything to say to that"
   - "participant asks what discernment (diakrisis) actually looked like in practice"
   - "participant asks for a short, memorable saying about self-judgment"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.diakrisis

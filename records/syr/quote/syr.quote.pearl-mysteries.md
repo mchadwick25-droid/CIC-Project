@@ -3,7 +3,7 @@ id: syr.quote.pearl-mysteries
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they read a thing in the world as pointing to God"
   - "participant asks why so much of their teaching is in images rather than argument"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: syr.gravity.raza-shrara-method

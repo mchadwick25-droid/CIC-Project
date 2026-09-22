@@ -3,7 +3,7 @@ id: ijc.term.haeresis
 world_id: imperial-juridical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - how a teaching came to be legally excluded
   - the relationship between imperial law and doctrinal boundary-drawing
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is really about a specific confession's own content (homoios instead)
 relations:
 - {type: associated-with, target: ijc.term.homoios}

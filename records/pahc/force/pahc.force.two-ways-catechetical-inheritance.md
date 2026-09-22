@@ -3,7 +3,7 @@ id: pahc.force.two-ways-catechetical-inheritance
 world_id: post-apostolic-house-church
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F4-I
@@ -45,10 +45,7 @@ manifestations:
 - "the same two-ways schema, independently, in Barnabas 18-20"
 - "catechesis given household by household, adaptable to whoever is receiving it, answering to no central office"
 ---
-Re-derived from the approved Doc_08 Force 1B-2. FIXED at Step 6 round-1
-review: manifestations[0] misquoted Didache 1:1 ("and great is the
-difference" for the ANF edition's own "but a great difference"),
-corrected to the vendored file's exact wording. canon_cells: F4-I ('How
+Re-derived from the approved Doc_08 Force 1B-2. canon_cells: F4-I ('How
 did a person actually become one of you? Walk me through it.') is the
 same cell already covering pahc.term.two-ways, appropriately reused
 here for the same underlying content viewed as a formative force rather

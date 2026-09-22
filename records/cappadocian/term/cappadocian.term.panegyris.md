@@ -3,7 +3,7 @@ id: cappadocian.term.panegyris
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -26,7 +26,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - shrine festivals, pilgrimage, or the countryside's religious calendar
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.martys-martyrion

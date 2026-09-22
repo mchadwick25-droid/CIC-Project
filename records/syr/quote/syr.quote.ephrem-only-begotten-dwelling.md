@@ -3,7 +3,7 @@ id: syr.quote.ephrem-only-begotten-dwelling
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they held about how God became human"
   - "participant asks about Mary and the birth"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Homily on Our Lord). The Ihidaya made brother of many - the incarnation in this world's own key.
 

@@ -3,7 +3,7 @@ id: cappadocian.source.gregory-nazianzus-epistle-197-theosebia
 world_id: cappadocian-trinitarian
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -11,21 +11,19 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: 'Corrected 2026-09-08, Round 1 Opus review: this record was stale, claiming
-    absence for a letter directly confirmed present.'
+  divergence_note: 'Letter CXCVII is directly confirmed present in the vendored npnf207 edition
+    (Source Registry row 39).'
 sources: []
 relations: []
 author: Gregory of Nazianzus
 work: Gregory of Nazianzus, Epistle 197 (consolation to Gregory of Nyssa, honoring Theosebia)
-edition: CONFIRMED PRESENT in the vendored npnf207 edition -- corrected 2026-09-08, Round 1 Opus
-  review, from this record's own stale "not within" claim -- Letter CXCVII, div4 id iv.iv.ii.viii,
+edition: CONFIRMED PRESENT in the vendored npnf207 edition -- Letter CXCVII, div4 id iv.iv.ii.viii,
   "A Letter of Condolence on the Death of His Sister Theosebia"
 kind: unvendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
-discovery_channel: builder-prior-knowledge; Source Registry row 39; corrected 2026-09-08, Round 4
-  Opus review, after this record was found stale against row 39's own Round 1 correction (direct
-  text search / grep and read against the vendored file).
+discovery_channel: builder-prior-knowledge; Source Registry row 39; confirmed by direct text
+  search / grep and read against the vendored file.
 external_ids:
   cappadocian_source_registry_row: 39
 ---

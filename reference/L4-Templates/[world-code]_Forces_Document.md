@@ -10,17 +10,6 @@ Version 1.1
 
 ---
 
-## Version History
-
-v1.1 — Section 1 Representative-name field marked PENDING-tolerant; the Representative is not named until Representative Emergence (the final build step), which occurs after Doc_08 is produced.
-
-v1.0 — Initial production. Per-world forces analysis template. Six-cell matrix with
-three-layer documentation for each force. Forces-and-Gravities Synthesis. Transmission
-dimension in Cells 2B and 3B. Five governing principles checklist. Doc_08 completion
-certification.
-
----
-
 ## What This Document Is
 
 Doc_08 is the complete forces analysis for one specific formation world. It records what

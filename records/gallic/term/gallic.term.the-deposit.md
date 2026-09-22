@@ -3,7 +3,7 @@ id: gallic.term.the-deposit
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -33,7 +33,7 @@ retrieval:
   - what a teacher is allowed to add
   - participant uses "deposit," "deposit of faith," "entrusted," "hand on," "keep"
   - 1 Timothy 6:20; "not an author but a keeper"; "gold for gold"
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the three-part test (retrieve the rule)
   - the question is about legitimate growth (retrieve progress vs. alteration)
   - the later dogmatic phrase "deposit of faith" as a technical term of a living tradition - outside our window

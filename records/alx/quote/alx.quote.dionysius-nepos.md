@@ -3,7 +3,7 @@ id: alx.quote.dionysius-nepos
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -25,7 +25,6 @@ retrieval:
   - "participant asks how a disagreement inside the community was handled"
   - "participant asks whether a bishop could disagree with a respected teacher and stay friends"
   - "participant asks who settled a dispute about how to read a book"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.story.arsinoite-conference
@@ -47,9 +46,7 @@ and alx.story.arsinoite-conference). Serves F6-I (what troubled/
 never settled) and F1-E (who had the right to decide - and how it was
 actually done). Verified verbatim.
 
-corrected 2026-09-08, records/alx audit, round 2: an intermediate fix
-restored "I confess that in many other respects" in full, but the
-vendored edition's own endnote at that exact point (npnf201, line 41310)
+The vendored edition's own endnote at this point (npnf201, line 41310)
 reads "The words 'I confess that' are not in the original, but the
 insertion of some clause of the kind is necessary to complete the
 sentence" - i.e. the edition itself disclaims those three words as
@@ -57,8 +54,8 @@ translator supply, not Dionysius's own wording, even though they are
 printed inline. On a license: verbatim record attributed to Dionysius by
 name, that disclaimed clause is excluded, matching how this registry
 already excludes bracketed/footnoted editorial supply elsewhere. The
-text field again opens at "in many other respects," which IS genuine
-vendored translation (line 41312) and carries the qualifier by which
-Dionysius limits his approval - the substantive point this record exists
-to preserve. Locus range 41310-41318 is kept (41310 is where the
+text field opens at "in many other respects," which IS genuine vendored
+translation (line 41312) and carries the qualifier by which Dionysius
+limits his approval - the substantive point this record exists to
+preserve. Locus range 41310-41318 is kept (41310 is where the
 disclaiming endnote sits, useful context for anyone checking the locus).

@@ -3,7 +3,7 @@ id: don.term.caecilianist
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - a participant asks what this communion called the other side
   - a participant asks why the rival is not simply called 'the Catholics'
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about Caecilian the man and his consecration, rather than about the naming practice
 relations:
 - type: presupposes

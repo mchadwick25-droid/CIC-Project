@@ -3,7 +3,7 @@ id: witt.term.temptation
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -39,7 +39,7 @@ retrieval:
   retrieve_when:
   - temptation, or trial
   - why hardship comes, in our own understanding
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the devil specifically as an agent (retrieve the devil)
 relations:
 - type: associated-with

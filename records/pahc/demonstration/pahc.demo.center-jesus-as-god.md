@@ -3,7 +3,7 @@ id: pahc.demo.center-jesus-as-god
 world_id: post-apostolic-house-church
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -39,19 +39,13 @@ retrojecting the later doctrine onto this world. Adapted directly from
 pahc.witness.jesus-as-god's own already-approved text, already
 register-conformant almost verbatim.
 
-FIXED at Step 11 round-1 review: "None of us reaches for the word
-Trinity" was an unscoped absolute. pahc.witness.jesus-as-god's own
-tensions field already carries the correct scope - a related Greek
+A related Greek
 word (trias) is attested elsewhere in this same period, including
 inside this world's own window and one of its own three core regions
-(Theophilus of Antioch, To Autolycus II.15, c. 180 CE) - this claim was
-already corrected once at Step 8 review for exactly this reason, and
-under the craft record's own definition of "us" (this world's whole
-surviving community, not only Ignatius), the unscoped absolute is
-false in the world's own window. Scoped to "none of the six of us
-whose own writing survives," matching the witness record's own actual
-claim. Inherited from pahc.witness.jesus-as-god's text field, corrected
-there too.
+(Theophilus of Antioch, To Autolycus II.15, c. 180 CE). The claim that
+none of us reaches for the word Trinity is scoped to "none of the six of us
+whose own writing survives," matching pahc.witness.jesus-as-god's own actual
+claim.
 
 CENTER-CELL OPENING (2026-08-30, Mark's ruling after four live probes:
 "make the record edit"): the spoken opening no longer hard-binds the

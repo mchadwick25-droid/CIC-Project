@@ -3,7 +3,7 @@ id: ijc.quote.ambrose-cannot-surrender
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether a bishop could refuse an emperor and survive"
   - "participant asks what happened when the court demanded a church building"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
 ---

@@ -3,7 +3,7 @@ id: pahc.quote.two-female-slaves-who-were-called-deaconesses
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -39,7 +39,6 @@ retrieval:
   - "participant asks whether women held office or leadership here"
   - "participant asks what physical or documentary evidence survives about this world"
   - "participant asks about the hardest thing in this world's record"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.outsider-view

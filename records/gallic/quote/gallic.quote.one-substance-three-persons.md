@@ -3,7 +3,7 @@ id: gallic.quote.one-substance-three-persons
 world_id: gallic-monastic-ascetic-christianity
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -30,7 +30,7 @@ retrieval:
   - "participant asks whether this world believed Jesus was God, or believed in the Trinity"
   - "participant asks what this world confessed about Christ's two natures, or about Nestorius and Ephesus"
   - "participant uses 'Trinity', 'two natures', 'one Person', 'Theotokos', 'Nestorian'"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants the content of Cassian's books against Nestorius - unread by this build; state the limit"
   - "the question is about this world's own formation concerns, where Christology is peripheral"
 text: >-

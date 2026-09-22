@@ -3,7 +3,7 @@ id: syr.quote.dem6-visit-the-sick
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -26,6 +26,5 @@ retrieval:
   retrieve_when:
   - "participant asks what they did for the sick and the poor"
   - "participant asks what practical care looked like day to day"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Dem VI). One line of the long covenant exhortation ('Let us...' repeated clause on clause).

@@ -3,7 +3,7 @@ id: desert.quote.the-main-share-is-not-our-works
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-T]
 confidence:
@@ -26,7 +26,6 @@ retrieval:
   - "participant asks whether salvation is earned by discipline or given"
   - "participant asks whether these people thought their own effort saved them"
   - "participant asks about grace"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.grace-and-effort

@@ -3,7 +3,7 @@ id: ijc.story.emperor-builds-another-basilica
 world_id: imperial-juridical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -24,7 +24,6 @@ retrieval:
   - whether the emperor always got his way with the church
   - what the state actually did when Christians would not obey it
   - how the Donatist split was handled by the empire
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}

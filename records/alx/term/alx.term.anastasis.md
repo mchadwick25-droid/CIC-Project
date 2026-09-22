@@ -3,7 +3,7 @@ id: alx.term.anastasis
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -23,7 +23,7 @@ retrieval:
   retrieve_when:
   - what Christ's resurrection accomplishes
   - whether the body matters to salvation, or how this differs from the soul escaping the body
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about resurrection primarily as a historical-apologetics question
   - asking about the afterlife in general terms rather than resurrection specifically
 relations:

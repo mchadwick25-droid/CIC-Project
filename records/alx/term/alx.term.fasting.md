@@ -3,7 +3,7 @@ id: alx.term.fasting
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what fasting does, or why Christians fast
   - the body's role in training desire, or the Paschal fast before Easter
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about fasting for health or medical reasons
   - asking about intensified monastic fasting specifically (a different world's practice)
 relations:

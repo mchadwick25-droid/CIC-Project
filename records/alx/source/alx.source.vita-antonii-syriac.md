@@ -3,7 +3,7 @@ id: alx.source.vita-antonii-syriac
 world_id: alexandria-catechetical
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -45,10 +45,7 @@ else received it, which for a text whose whole significance is its
 transport is a strange thing to be missing.
 
 Here it is in Syriac, at about 60% the length of the Greek-based Life
-proper (corrected 2026-09-08, records/alx audit: the divergence_note field
-above previously compared against npnf204's whole entry including
-Robertson's Prolegomena, overstating this to "about half"), in a
-manuscript copied at Mosul and read in a church that had its own monastic
+proper, in a manuscript copied at Mosul and read in a church that had its own monastic
 literature and its own reasons to want this one. The abridgement is the evidence: what a
 different tradition kept and what it did not think it needed is a
 measurement of what the book was FOR outside the city that wrote it -

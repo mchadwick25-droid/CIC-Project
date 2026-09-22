@@ -3,7 +3,7 @@ id: rzg.term.the-lords-supper-spiritual-presence
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -29,7 +29,7 @@ retrieval:
   - participant asks how this world understood communion
   - participant uses "spiritual presence," "remembrance," or asks whether Christ is really present in
     the bread and wine
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking specifically about the Consensus Tigurinus's own formal technical language
 relations:
 - type: associated-with

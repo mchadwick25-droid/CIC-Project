@@ -3,7 +3,7 @@ id: witt.gravity.promise-and-sign
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

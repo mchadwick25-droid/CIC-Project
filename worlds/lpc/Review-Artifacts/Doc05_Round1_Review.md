@@ -5,7 +5,7 @@
 
 **Review date:** 2026-09-14.
 
-**Document reviewed:** `worlds/lpc/Doc_05_Ecological_Reconstruction.md` (374 lines), DRAFT, no prior review round.
+**Document reviewed:** `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_05_Ecological_Reconstruction.md` (374 lines), DRAFT, no prior review round.
 
 **Read as governing standard, not reviewed:** `Doc_01_World_Identification_Boundaries_Orientation.md`; `Doc_02_Source_Ecology.md`; `Doc_03_Lexicon_Candidate_List.md`; `Doc_04_Gravity_Discovery.md` (full) and `Doc_04_Superseded_Claims.md` (full); `Source_Registry.md` rows 1, 2, 4, 7, 11, 13, 19, 65, 122, 192; `Doc04_Round9_Review.md` and `Doc04_Round11_Review.md` (targeted); `CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` Part III and Part VII Step 4/5 (extracted from `word/document.xml`); `CiC_L3A_Forces_Framework_V1.1.docx` Step 5 and Step 7 (extracted); `CiC_L1_Constitution_V2_2.docx` Articles 19, 20, 21, 22, 23 (extracted); `Donatism/Doc_05_Ecological_Reconstruction.md` (structural comparison only).
 

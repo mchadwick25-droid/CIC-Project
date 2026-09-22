@@ -3,7 +3,7 @@ id: alx.dw.god
 world_id: alexandria-catechetical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -24,7 +24,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   What did we believe about God? One God, the maker of all things. He
   is good, and beyond every image and every clever description. And he is

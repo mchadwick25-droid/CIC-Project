@@ -3,7 +3,7 @@ id: alx.dw.record
 world_id: alexandria-catechetical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -27,7 +27,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   How much of our account would hold up in a library? Our own books
   are our answer. They survive, they are public, and they were public from the

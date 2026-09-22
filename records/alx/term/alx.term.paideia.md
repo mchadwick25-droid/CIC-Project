@@ -3,7 +3,7 @@ id: alx.term.paideia
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - suffering-as-teaching questions
   - formation frame questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.suffering

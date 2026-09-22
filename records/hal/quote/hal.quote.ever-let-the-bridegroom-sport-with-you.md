@@ -3,7 +3,7 @@ id: hal.quote.ever-let-the-bridegroom-sport-with-you
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -38,7 +38,6 @@ retrieval:
   - "participant asks who Jesus was to the people of this world"
   - "participant asks whether Christ was someone they related to personally"
   - "participant asks what prayer and reading were for here"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.was-jesus-god

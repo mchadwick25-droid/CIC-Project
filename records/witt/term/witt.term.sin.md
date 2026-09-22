@@ -3,7 +3,7 @@ id: witt.term.sin
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - sin, or original sin
   - what 'born with sin' means among us
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means a single wrongful act they are asking about morally, not doctrinally
 relations:
 - type: associated-with

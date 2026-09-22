@@ -3,7 +3,7 @@ id: cappadocian.dw.a-stranger-weather
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -40,7 +40,6 @@ retrieval:
   - "participant asks whether Christians in this world hid in catacombs"
   - "participant asks whether Constantine's empire corrupted the church"
   - "participant asks what an outsider found strangest, or what this world's own neighbours accused them of"
-  do_not_retrieve_when: []
 text: >-
   We did not hide in catacombs. The storm of persecution had only just
   ended when our own story opens - our own grandparents' generation still

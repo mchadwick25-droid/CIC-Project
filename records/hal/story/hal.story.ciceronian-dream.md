@@ -3,7 +3,7 @@ id: hal.story.ciceronian-dream
 world_id: hieronymian-ascetic-literary
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-P
@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - the pull between beautiful books and plain scripture
   - finding the Bible dull or hard
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.gravity.hebraica-veritas

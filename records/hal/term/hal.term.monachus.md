@@ -3,7 +3,7 @@ id: hal.term.monachus
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -21,7 +21,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - the men of the monastic communities generally
-  do_not_retrieve_when: []
 plain_meaning: 'The ordinary word for a male ascetic - a monk.'
 world_word: monachus
 false_friend: []

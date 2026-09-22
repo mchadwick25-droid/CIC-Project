@@ -3,7 +3,7 @@ id: cappadocian.quote.julian-galilaeans
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-E
@@ -38,7 +38,6 @@ retrieval:
   retrieve_when:
   - "participant asks what an outsider or a former insider found strangest or most objectionable about this world"
   - "participant asks what this world's neighbours actually said about them, in their own words"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.a-stranger-weather

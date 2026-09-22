@@ -36,12 +36,12 @@ relations:
 name: The 411 Conference of Carthage's Verdict and the Penal Legislation That Followed
 kind: ending
 description: 'Doc_08 Cell 3A, Force 3A-1. LAYER 1 -- HISTORICAL EVENT: the imperially-convened 411 Conference
-  of Carthage, Marcellinus presiding, seated 279 Donatist against 286 Catholic bishops (corrected 2026-09-09
-  from an earlier, unverified 284 figure; Doc_02 SS1) and ruled against the Donatist party; the verdict
+  of Carthage, Marcellinus presiding, seated 279 Donatist against 286 Catholic bishops (Doc_02 SS1)
+  and ruled against the Donatist party; the verdict
   was followed by sustained penal legislation. Documented (Doc_01 SS2). Emeritus of Caesarea and the other
   Donatist bishops present are recorded, per the Gesta Collationis Carthaginiensis, speaking at length
-  on their own side of the exchange, and that text itself is now vendored (Registry row 55, corrected
-  2026-09-08), so their own words on the verdict itself are now directly readable in this world''s own
+  on their own side of the exchange, and that text itself is now vendored (Registry row 55),
+  so their own words on the verdict itself are now directly readable in this world''s own
   corpus, though not yet read into a specific claim by Doc_08. LAYER 2 -- WORLD''S OWN EXPERIENCE: this
   world''s own record does not preserve a direct account of how its own participants received this specific
   verdict. What this world''s own broader record does state is that a council''s verdict, even one this
@@ -60,8 +60,7 @@ description: 'Doc_08 Cell 3A, Force 3A-1. LAYER 1 -- HISTORICAL EVENT: the imper
   this verdict is now recoverable in principle (the Gesta is vendored) but has not yet been read into
   a specific claim -- a real, currently-open integration task, not resolved by this record.'
 manifestations:
-- 279 Donatist against 286 Catholic bishops seated (corrected 2026-09-09 from an earlier, unverified 284
-  figure)
+- 279 Donatist against 286 Catholic bishops seated
 - Emeritus of Caesarea speaking at length on the Donatist side of the exchange (don.figure.emeritus, don.quote.emeritus-magno-argumento)
 matrix_cell: 3A
 ---

@@ -3,7 +3,7 @@ id: alx.quote.clement-new-song
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -33,7 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they described what the gospel does to people"
   - "participant asks what they said to someone who had never heard of it"
-  do_not_retrieve_when: []
 ---
 The id matches the Artifact-1 SS5 worked example (alx.quote.clement-new-
 song), deliberately. Christ as the New Song who re-makes people and

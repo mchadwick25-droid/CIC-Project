@@ -3,7 +3,7 @@ id: gallic.term.disclosure-of-thoughts
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -33,7 +33,7 @@ retrieval:
   - what the first thing a novice learned was
   - participant uses "confession," "confess," "spiritual direction," "accountability," or "opening the heart"
   - Serapion's biscuit, the shame-test, the alphabet of perfection, or "watch his head"
-  do_not_retrieve_when:
+  prefer_instead:
   - the public penance for a committed fault (retrieve penance / satisfaction)
   - the general doctrine of thoughts' three origins (retrieve thoughts)
   - the regulating virtue itself (retrieve discretion)

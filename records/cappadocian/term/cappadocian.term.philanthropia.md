@@ -3,7 +3,7 @@ id: cappadocian.term.philanthropia
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -23,7 +23,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - why the incarnation and almsgiving would be linked by the same word
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.eikon

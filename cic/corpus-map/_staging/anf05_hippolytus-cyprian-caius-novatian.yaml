@@ -320,6 +320,20 @@ assignments:
     from inside the Latin pastoral world.
 
     '
+- work: An Address to Demetrianus (Ad Demetrianum)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise V
+  atlas_ids:
+  - latin-apologists
+  role: tradition
+  confidence: assigned
+  note: 'Cross-linked 2026-09-16 from a Source Readiness Dossier finding. Cyprian himself
+    is not one of this entry''s core authors (Tertullian, Felix, Arnobius, Lactantius, Commodian);
+    this is the first Cyprian material in this bucket. A genuine apology addressed to a hostile
+    pagan outsider (Demetrianus, a proconsul blaming Christians for plague, famine, and war)
+    - squarely the genre this entry exists to hold, not merely an adjacent congregational text.
+
+    '
 - work: On the Vanity of Idols (Quod Idola Dii Non Sint)
   author: cyprian
   locus: div3 under 4.5 - Treatise VI
@@ -329,6 +343,20 @@ assignments:
   confidence: provisional
   note: 'Authenticity has been questioned (it compiles Tertullian and Minucius Felix), but
     it is transmitted in the Cyprianic corpus and CCEL prints it among the genuine treatises.
+
+    '
+- work: On the Vanity of Idols (Quod Idola Dii Non Sint)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise VI
+  atlas_ids:
+  - latin-apologists
+  role: transmission
+  confidence: provisional
+  note: 'Cross-linked 2026-09-16 from a Source Readiness Dossier finding. Filed as transmission,
+    not tradition, given the same disputed authorship already noted above - but that dependency
+    cuts both ways for this entry specifically: it compiles Tertullian and Minucius Felix, both
+    already primary authors here, which makes it a plausible transmission-tier link even while
+    its own authorship stays contested.
 
     '
 - work: On the Mortality (De Mortalitate)

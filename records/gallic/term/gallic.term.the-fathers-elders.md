@@ -3,7 +3,7 @@ id: gallic.term.the-fathers-elders
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -44,7 +44,7 @@ retrieval:
   - Cassian's claim that the Institutes are "not mine but the fathers'"
   - Vincent's consent of the doctors, or Martin's consultation of his elders about a tomb
   - participant assumes "the Fathers" means a fixed patristic canon
-  do_not_retrieve_when:
+  prefer_instead:
   - a specific elder's disciplinary role over a junior (retrieve elder / senior / abbot or disclosure of thoughts)
   - the three-part test of faith as such (retrieve the rule)
   - the value-axis of old versus new as such (retrieve novelty vs. antiquity)

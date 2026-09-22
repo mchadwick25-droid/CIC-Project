@@ -3,7 +3,7 @@ id: pahc.quote.the-memoirs-of-the-apostles-are-read
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -32,7 +32,6 @@ retrieval:
   - "participant asks how scripture was read or heard among this world"
   - "participant asks what happened when this world gathered on a Sunday"
   - "participant asks how someone who could not read received the scriptures"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.reading-scripture

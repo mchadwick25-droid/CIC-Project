@@ -63,9 +63,9 @@ _SOURCE_REF_SCHEMA = {
         "source_id": {"type": "string"},
         "locus": {"type": "string"},
         "license": {"type": "string"},
-        # Optional, additive (2026-09-02, Mark's sign-off: "new address field,
-        # locus untouched" + "optional/best-effort, existing where possible").
-        # The canonical passage address defined this session, form
+        # Optional, additive: a new address field,
+        # locus untouched, optional/best-effort, existing where possible.
+        # The canonical passage address, form
         # `cic:<file-stem>:<locus>` (see cic/corpus-map/README.md's addressing
         # note and cic/engine/works_registry.py's own parse_address()) - a
         # machine-checkable pointer alongside locus's free-text citation form,
@@ -89,6 +89,13 @@ _RETRIEVAL_SCHEMA = {
         # alone, with no separate hand rule needed.
         "retrieve_when": {"type": "array", "items": {"type": "string"}},
         "do_not_retrieve_when": {"type": "array", "items": {"type": "string"}},
+        # R11 (Rulings-Pending.md, ruled 2026-09-21): the redirect half of
+        # do_not_retrieve_when's own split - "ask about X instead, retrieve
+        # that record" - 701 of the field's 714 fleet-wide lines were
+        # actually this, not an honesty guard (see Stage 1's D1
+        # measurement). Same shape as the field it's split from; demotes a
+        # candidate in ranking, never excludes it.
+        "prefer_instead": {"type": "array", "items": {"type": "string"}},
     },
     "additionalProperties": False,
 }
@@ -295,12 +302,12 @@ ENVELOPE_PROPERTIES = {
     "register": {"enum": ["emic", "etic", "emic-unavailable"]},
     "canon_cells": {"type": "array", "items": {"type": "string"}},
     # Authored opt-out from M2's demo auto-tagging (engine/m2/builders.py's
-    # _demonstration_candidates(), added 2026-08-29, craft cycle 2): a
+    # _demonstration_candidates()): a
     # record whose own framing vocabulary ("we cannot tell you", "plainly")
     # false-tags unrelated demo sentences at the shipping floor sets
     # `demo_tag: exclude` rather than being silently mistagged. Real,
-    # load-bearing field (5 honest_limit records use it fleet-wide as of
-    # 2026-09-02) that was simply missing from this schema until now -
+    # load-bearing field (5 honest_limit records use it fleet-wide)
+    # that was simply missing from this schema until now -
     # every record carrying it was failing gate_schema_validation, the
     # same shape of gap quote.modern_rendering was in before it. Spans
     # every type builders.py's own _DEMO_CANDIDATE_TYPES lists (not just
@@ -312,6 +319,14 @@ ENVELOPE_PROPERTIES = {
     "confidence": _CONFIDENCE_SCHEMA,
     "sources": {"type": "array", "items": _SOURCE_REF_SCHEMA},
     "retrieval": _RETRIEVAL_SCHEMA,
+    # R11 (Rulings-Pending.md, ruled 2026-09-21): the honesty-guard half of
+    # do_not_retrieve_when's own split - a barred proposition the voice must
+    # never assert (13 of 714 fleet-wide lines, per Stage 1's D1
+    # measurement), structurally separate from ordinary retrieval-scoping
+    # notes (retrieval.prefer_instead, above). Envelope-level like
+    # `retrieval` itself: any record type can carry a claim it must not
+    # make, not just the ones with a `retrieval` block already in use.
+    "claim_guards": {"type": "array", "items": {"type": "string"}},
     "relations": {"type": "array", "items": _RELATION_SCHEMA},
     # loader-added, never authored, never part of any gate's subject matter
     "_path": {"type": "string"},
@@ -362,8 +377,8 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "attribution_status": {"type": "string"},
         "discovery_channel": {"type": "string"},
         "external_ids": {"type": "object"},
-        # Optional, additive (2026-09-02, Mark's sign-off: "optional/best
-        # effort and existing where possible"): foreign key into
+        # Optional, additive, best effort and existing where possible:
+        # foreign key into
         # cic/corpus-map/WORKS.yaml's own work_id, cross-checked by
         # cic/engine/works_registry.py's record_work_id_problems(), not by
         # this schema (a typo'd id is still a well-formed string). Not yet

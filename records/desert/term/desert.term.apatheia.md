@@ -3,7 +3,7 @@ id: desert.term.apatheia
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - questions about the goal of all this discipline
   - questions about freedom from anger, craving, or compulsion
-  do_not_retrieve_when:
+  prefer_instead:
   - do not let the term stand unglossed - the apathy false-cognate is near-certain
 relations:
 - type: associated-with

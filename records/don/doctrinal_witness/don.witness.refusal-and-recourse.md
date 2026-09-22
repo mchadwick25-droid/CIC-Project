@@ -3,7 +3,7 @@ id: don.witness.refusal-and-recourse
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -32,7 +32,6 @@ retrieval:
     church was
   - conversation is ready to hold the refusal of imperial legitimacy alongside the specific moments this
     world turned to that same power
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: don.gravity.principled-refusal-vs-pragmatic-recourse

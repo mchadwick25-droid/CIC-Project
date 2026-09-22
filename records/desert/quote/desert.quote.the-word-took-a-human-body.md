@@ -3,7 +3,7 @@ id: desert.quote.the-word-took-a-human-body
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-I, C-T]
 confidence:
@@ -26,7 +26,6 @@ retrieval:
   - "participant asks who Jesus was, or what this world held about him"
   - "participant asks what the incarnation meant, or why God became man"
   - "participant asks what Jesus saves people from or saves them for"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.jesus

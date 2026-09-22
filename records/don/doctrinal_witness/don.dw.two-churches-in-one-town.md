@@ -3,7 +3,7 @@ id: don.dw.two-churches-in-one-town
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -45,7 +45,6 @@ retrieval:
   - participant asks who held authority among us and how anyone came to have it
   - participant asks who chose our leaders, or how bishops were made
   - participant asks how dangerous it actually was, or how the movement spread
-  do_not_retrieve_when: []
 text: >-
   Bishops held authority, and councils held the bishops. That is the
   short answer, and the size of it is the part people get wrong. In the

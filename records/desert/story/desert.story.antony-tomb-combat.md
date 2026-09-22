@@ -3,7 +3,7 @@ id: desert.story.antony-tomb-combat
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -22,7 +22,7 @@ retrieval:
   - "participant says they can't quiet their own mind, or asks if this way of life has anything for someone struggling internally"
   - "participant asks what spiritual combat or fighting temptation actually looked like"
   - "participant asks for the most extreme example of what this world's own discipline demanded"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant is in acute personal crisis around self-harm, psychiatric crisis, or dissociation - this story's own violent imagery is not meant as guidance for a real mental-health emergency"
 relations:
 - type: associated-with
@@ -65,11 +65,8 @@ exchange) were freshly opened and verified directly this session, both
 quoted here close to the vendored file's own wording rather than
 paraphrased from Doc_09a's own less specific telling.
 
-Step4, Round 1 review Finding M5: this note previously attributed both
-the beast-form dialogue and the light vision to "S10" alone; the
-beast-form combat and Antony's own taunts are S9, and S10 is the light
-vision only - corrected above. The front-matter locus (SS8-10) was
-already correct.
+S9 carries the beast-form combat and Antony's own taunts; S10 carries
+the light vision.
 
 Formation significance: this world's own paradigmatic portrait of
 desert.gravity.spiritual-combat, and the concrete narrative form

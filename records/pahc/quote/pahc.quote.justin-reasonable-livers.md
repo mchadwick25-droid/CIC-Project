@@ -3,7 +3,7 @@ id: pahc.quote.justin-reasonable-livers
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -32,11 +32,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether people outside the community were lost"
   - "participant asks what they made of good people who had never heard of Christ"
-  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 viii, ch. 46 (viii.ii.xlvi). Direct textual ground
-for pahc.witness.outside-our-community. FIXED at Step 8 round-1 review:
-an ellipsis previously marked "first-born of God... and we have
-declared" as an elision - the vendored text has no gap there, only a
-comma. Restored.
+for pahc.witness.outside-our-community.

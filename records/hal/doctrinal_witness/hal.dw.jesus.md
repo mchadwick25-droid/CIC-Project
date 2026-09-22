@@ -3,7 +3,7 @@ id: hal.dw.jesus
 world_id: hieronymian-ascetic-literary
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   To us Jesus is the Word of God made flesh - and made flesh in the
   very place where we chose to live and die. We built our home

@@ -3,7 +3,7 @@ id: gallic.story.bishop-archebius
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -38,7 +38,7 @@ retrieval:
   - participant uses "reluctant bishop," "vocation," "unworthy"
   - conversation reaches the monk-bishop in its southern, received form, the office as loss in its Egyptian valence, or the finding that every house narrates the founder's elevation as capture
   - Representative needs the southern counterpart of the election at Tours and of Honoratus and the island
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking about Gallic bishops as such (retrieve gallic.term.monk-bishop, gallic.story.election-at-tours, or gallic.story.honoratus-and-the-island)
   - participant wants Cassian's doctrine that the desire for office is vainglory (retrieve gallic.term.monk-bishop, Marseilles half)
   - participant is asking about Egypt for its own sake - this is an Egyptian bishop's story, told by the man who founded Marseilles's houses, and the origin must be disclosed

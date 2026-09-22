@@ -3,7 +3,7 @@ id: rzg.witness.what-we-have-not-agreed
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -21,7 +21,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks what this world never settled, or what the hardest true thing about it is
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.gravity.council-led-authority-vs-consistorial-independence

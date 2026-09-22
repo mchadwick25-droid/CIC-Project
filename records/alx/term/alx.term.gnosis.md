@@ -3,7 +3,7 @@ id: alx.term.gnosis
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - knowledge/knowing God questions
   - Gnosticism questions
-  do_not_retrieve_when: []
 plain_meaning: 'Knowledge of God: not facts about him, but a knowing that changes the knower.'
 world_word: gnosis
 false_friend:

@@ -3,7 +3,7 @@ id: desert.quote.three-renunciations-solomon
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-P
@@ -37,7 +37,6 @@ retrieval:
   retrieve_when:
   - "participant asks which parts of scripture they read and what they got from each"
   - "participant asks how they used the Old Testament wisdom books"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.scriptural-engagement}
 ---

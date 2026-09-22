@@ -3,7 +3,7 @@ id: gallic.term.fear-hope-love
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -29,7 +29,7 @@ retrieval:
   - what "hireling" means in Cassian
   - participant uses "fear of God," "fear of hell," "stages," "motivation," "servile fear"
   - Conf. XI.6-8; Inst. IV.39's end
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about perfection as a whole (retrieve perfection)
   - the question is about compunction specifically (retrieve compunction)
   - the last judgment as expectation (retrieve Antichrist)

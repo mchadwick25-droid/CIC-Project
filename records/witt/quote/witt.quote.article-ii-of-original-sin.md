@@ -3,7 +3,7 @@ id: witt.quote.article-ii-of-original-sin
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -26,7 +26,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - "participant asks what we believed about original sin, or whether people are born already guilty"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant means a single wrongful act, not the doctrinal condition -- retrieve the sin term instead"
 text: >-
   Also they teach that since the fall of Adam all men begotten in the

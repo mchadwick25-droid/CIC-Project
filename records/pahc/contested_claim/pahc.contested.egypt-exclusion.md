@@ -3,7 +3,7 @@ id: pahc.contested.egypt-exclusion
 world_id: post-apostolic-house-church
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -44,24 +44,9 @@ left empty: no fleet canon question asks participant-facing "why does
 your own world exclude Egypt," and this is a build-scoping decision
 rather than a question this world's own voice would be asked directly.
 
-FIXED at Step 7 round-1 review, three corrections: (1) held_against and
-divergence_note previously overstated this as a pure single-source
-dependency with "no second, independent corroborating line" - false
-against this build's own records: Doc_01 SS8.2's formation-logic
-distinction and the Step 0 Conclusion's independent c. 190-254 CE dating
-of the Alexandrian tradition (carried forward at Step 6 in
-pahc.force.alexandria-emergence, built with no reliance on Bagnall at
-all) are a second, genuinely independent line - corrected to caution 7's
-own "substantially," not "entirely." (2) The former held_against[2] was
-a procedural defense of the build's own scope authority, not a
-counter-position, and has been removed - the same point already lives
-in this note. (3) The claim's own silence-window was corrected from
-this world's whole 70-200 CE span to what Doc_01 SS3 actually states:
-essentially silent before Bishop Demetrius's episcopate (189-231 CE),
-and the monograph is now named so the disclosure is independently
-checkable. Separately: pahc.contested.didache-dating now discloses a
+pahc.contested.didache-dating discloses a
 live tension this exclusion creates with the Didache's own unresolved
 Syria/Egypt provenance - if an Egyptian provenance for the Didache is
 right, this world's central catechetical text traces to the one region
 this exclusion removes from scope. Neither record resolves that
-tension; both now name it.
+tension; both name it.

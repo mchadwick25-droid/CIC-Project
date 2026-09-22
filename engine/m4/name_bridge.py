@@ -31,8 +31,7 @@ specific figure matched). No new compiler builder, no records/ change.
 
 A standing note for whoever writes a figure record's own `bridge_line`
 (the text this module hands the frontend as the mark's short Level-2
-line - FigureBridgeMark.tsx): Mark's own rule (2026-08-25), given while
-fixing how this mark renders. More than a generic category label -
+line - FigureBridgeMark.tsx): more than a generic category label -
 "the school's greatest and most contested teacher," not "a historical
 figure." But not abstract personification either - a line implying the
 figure is somehow still present ("his voice is still here, but he
@@ -67,8 +66,8 @@ def _matchable_forms(figure: dict) -> list[str]:
     The comma-role epithet is the same shape as the parenthetical aside
     and gets the same treatment: "Ignatius, bishop of Antioch" is a name
     whose HEAD ("Ignatius") is what a voice actually says, and the role
-    after the comma is what it never says verbatim. Measured on Mark's
-    own pilot transcript (2026-08-30): both Chloe turns named Ignatius,
+    after the comma is what it never says verbatim. Measured on a
+    pilot transcript: both Chloe turns named Ignatius,
     and zero bridges fired, because neither recorded form's paren-head is
     the bare name. The comma head rides as an ADDITIONAL form after the
     full one, so a longer, earlier match still wins on position; checked
@@ -95,7 +94,7 @@ def spoken_name(figure: dict) -> str | None:
     of _matchable_forms (in-world first, as stored; the same element-0
     convention that function's own docstring promises callers). Public
     because the evidence layer needs a display name for a figure the
-    session has already introduced (Mark's pilot read, 2026-08-30: both
+    session has already introduced (a pilot read found both
     Chloe turns opened "One of us, Ignatius" - the session tracked the
     introduction, but only to suppress the UI's second mark; the voice
     itself was never told), and resolving it here keeps one naming
@@ -173,8 +172,7 @@ def find_figures_used(text: str, figures: list[dict], *, already_bridged_ids: se
 
 
 def attach_cited_sources(figures_used: list[dict], citations_with_sources: list[dict]) -> list[dict]:
-    """The real point of the bridge, per Mark's own correction on the first
-    build: not just who the figure is, but what is being said about or by
+    """The real point of the bridge: not just who the figure is, but what is being said about or by
     them here, and where a participant can check it. Each figure entry
     gains `sourced_by` - the underlying primary sources (author, work,
     locus - citation_cards.resolve_source_card's own `sources[]`) of

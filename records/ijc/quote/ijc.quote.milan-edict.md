@@ -3,7 +3,7 @@ id: ijc.quote.milan-edict
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks when it stopped being illegal and what changed"
   - "participant asks what the law actually said"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 ---

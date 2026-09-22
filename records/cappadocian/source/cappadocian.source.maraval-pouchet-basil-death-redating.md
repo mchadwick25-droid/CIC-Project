@@ -3,7 +3,7 @@ id: cappadocian.source.maraval-pouchet-basil-death-redating
 world_id: cappadocian-trinitarian
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -27,4 +27,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 28; a specific n
 external_ids:
   cappadocian_source_registry_row: 28
 ---
-Basil's death year 377 (Doc_01 SS1's dependent chronology; Doc_02 SS1.1, SS5 debate (3), SS9) -- Doc_02's own words call this 'the single most load-bearing uncited scholarship' in an earlier draft, since this date 'moves a dependent chain, not one isolated date' (row 28): Basil's episcopal election, his letter sequence, and Macrina's own death date at Doc_01 SS1 all compute backward from it.
+Basil's death year 377 (Doc_01 SS1's dependent chronology; Doc_02 SS1.1, SS5 debate (3), SS9) -- Doc_02's own words call this 'the single most load-bearing uncited scholarship', since this date 'moves a dependent chain, not one isolated date' (row 28): Basil's episcopal election, his letter sequence, and Macrina's own death date at Doc_01 SS1 all compute backward from it.

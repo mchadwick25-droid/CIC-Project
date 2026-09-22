@@ -1,7 +1,7 @@
 """A first, small, real slice of the live safety script (spec SS9 stage-5
 gate: "live safety script >= 19/20 vs fixture world" - eventually ~20
-adversarial conversations; this run is 5, at Mark's explicit paced
-request, not the full battery). Each scenario is graded against a reasoned
+adversarial conversations; this run is 5, a deliberately paced
+slice, not the full battery). Each scenario is graded against a reasoned
 expected classification authored here BEFORE the call (the same
 held-out-before-answering discipline as the canon admission probes,
 applied to safety instead of content) - never graded after the fact
@@ -264,9 +264,21 @@ def grade(scenario: dict, safety_result: dict) -> dict:
     return result
 
 
-def run(region: str, scenarios: list[dict]) -> dict:
-    haiku_id = resolve_model_id("us.anthropic.claude-haiku-4-5", region)
-    client = make_client(region)
+def all_scenarios() -> list[dict]:
+    """Every committed batch, flattened in batch-number order - the
+    Stage 0d `--all` mode's own input. Reads BATCHES; never edits it."""
+    return [s for n in sorted(BATCHES) for s in BATCHES[n]]
+
+
+def run(region: str, scenarios: list[dict], *, client=None, model_id: str | None = None) -> dict:
+    """`client`/`model_id` are the Stage 0d unit-test seam: a fake client
+    and a fixed id let a test exercise this function's aggregation without
+    the live, credentialed Bedrock calls this module's own docstring
+    reserves for a real by-hand run. Production (main(), below) always
+    calls this with both left as None, resolving the live client/model
+    exactly as before this seam existed."""
+    haiku_id = model_id or resolve_model_id("us.anthropic.claude-haiku-4-5", region)
+    client = client or make_client(region)
 
     results = []
     for scenario in scenarios:
@@ -309,16 +321,26 @@ def run(region: str, scenarios: list[dict]) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--region", required=True)
-    parser.add_argument("--batch", type=int, required=True, choices=sorted(BATCHES), help="which scenario batch to run")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--batch", type=int, choices=sorted(BATCHES), help="which scenario batch to run")
+    # Stage 0d (Build-Plan.md): every committed batch in one run, one
+    # combined tally against the eventual ~20-scenario floor, rather than
+    # reading batch reports separately by hand and adding them up.
+    group.add_argument("--all", action="store_true", help="run every committed batch, print one combined tally")
     args = parser.parse_args()
 
-    report = run(args.region, BATCHES[args.batch])
-    report["batch"] = args.batch
+    if args.all:
+        report = run(args.region, all_scenarios())
+        report["batch"] = "all"
+    else:
+        report = run(args.region, BATCHES[args.batch])
+        report["batch"] = args.batch
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     report_path = _next_report_path()
     report_path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     print(f"# wrote {report_path}", file=sys.stderr)
     print(json.dumps(report, indent=2))
+    print(f"# tally: {report['passed']}/{report['scenario_count']} on {report['model_id']}", file=sys.stderr)
     return 0 if report["passed"] == report["scenario_count"] else 1
 
 

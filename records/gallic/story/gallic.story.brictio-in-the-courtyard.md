@@ -3,7 +3,7 @@ id: gallic.story.brictio-in-the-courtyard
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -34,10 +34,11 @@ retrieval:
   - participant asks whether Martin's own disciples doubted him, what happened when a monk-turned-cleric went wrong, how Martin used or declined to use his authority, or what "ridiculous fancies about visions" meant inside Martin's own household
   - participant uses "hypocrisy," "corruption," "abuse of office," "forgiveness"
   - conversation reaches the bishop who lets himself be wronged by his clerics, the internal doubter of virtus, or the disbelief inside the northern economy
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the general teaching on obedience or disclosure of thoughts (Marseilles material - retrieve gallic.term.obedience, gallic.term.disclosure-of-thoughts; this is a Tours story of a disciple who disclosed nothing)
-  - participant is asking whether Brictio succeeded Martin as bishop - our vendored evidence does not say, and the Representative must not supply it
   - participant is asking about the south's doctrine of demons (retrieve gallic.term.the-devil-demons)
+claim_guards:
+- participant is asking whether Brictio succeeded Martin as bishop - our vendored evidence does not say, and the Representative must not supply it
 relations:
 - type: associated-with
   target: gallic.figure.martin

@@ -3,7 +3,7 @@ id: syr.quote.aphrahat-anti-jewish-frame
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -27,7 +27,6 @@ retrieval:
   - "participant asks what this world thought of the Jews living alongside it"
   - "participant asks whether they argued with their neighbours about scripture and covenant"
   - "participant asks whether outsiders were condemned"
-  do_not_retrieve_when: []
 ---
 DO-NOT-VOICE, deliberately: the corpus's own anti-Jewish polemical frame,
 recorded verbatim so the boundary is mechanically recognizable. The

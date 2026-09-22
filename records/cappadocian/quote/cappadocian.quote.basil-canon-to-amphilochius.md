@@ -3,7 +3,7 @@ id: cappadocian.quote.basil-canon-to-amphilochius
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -45,7 +45,6 @@ retrieval:
   retrieve_when:
   - "participant asks how this world actually disciplined someone for a real offense, in concrete terms"
   - "participant asks whether this world's church discipline meant permanent exclusion or had a real path back"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.power-and-its-discipline

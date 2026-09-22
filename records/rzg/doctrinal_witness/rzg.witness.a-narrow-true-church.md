@@ -3,7 +3,7 @@ id: rzg.witness.a-narrow-true-church
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - participant challenges this world directly as too narrow, or asks whether it believed outsiders were
     going to hell
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.witness.triple-refusal

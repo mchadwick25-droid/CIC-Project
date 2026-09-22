@@ -3,7 +3,7 @@ id: witt.story.letter-to-albrecht-and-theses-circulation
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -38,7 +38,7 @@ retrieval:
   - a participant asks how the movement began, or about the Theses specifically
   - a participant asks about the letter to Albrecht, or what Luther actually did in October 1517
   - a participant wants to know whether the Theses were really nailed to a door
-  do_not_retrieve_when:
+  prefer_instead:
   - the posting detail would be told as settled fact - it is contested and must carry its contest every
     time it is used
   - a participant wants the Theses' own theological content in detail (that belongs to the term records

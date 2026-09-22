@@ -3,7 +3,7 @@ id: desert.quote.the-ladder-from-faith-to-love
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-I, F4-P]
 confidence:
@@ -26,7 +26,6 @@ retrieval:
   - "participant asks how the stages of this life fitted together"
   - "participant asks what the fasting, the silence and the discipline were actually for"
   - "participant asks what apatheia was for, or what came after it"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.apatheia

@@ -1,10 +1,10 @@
 """Object storage for compiled world packages (WO-1, Artifact-2 SS5:
 "Packages are built by CI, uploaded to object storage (S3, versioned
 bucket, private), and referenced by the registry"). Cloudflare R2 by
-provider choice (Mark, 2026-09-16) - same account cic-website already
+provider choice - same account cic-website already
 uses, S3-API-compatible so boto3 works unchanged, no egress fees, and
-the real fleet-wide package total (13MB across 10 worlds, measured the
-same day) sits entirely inside R2's free tier.
+the real fleet-wide package total (13MB across 10 worlds) sits entirely
+inside R2's free tier.
 
 R2 is not AWS, so boto3's standard credential chain (the thing
 engine.provider.bedrock.make_client() already relies on) does not apply

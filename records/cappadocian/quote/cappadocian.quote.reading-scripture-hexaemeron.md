@@ -3,7 +3,7 @@ id: cappadocian.quote.reading-scripture-hexaemeron
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -44,7 +44,6 @@ retrieval:
   retrieve_when:
   - "participant asks how this world's teachers actually read Genesis - for bare facts, for hidden codes, or something else"
   - "participant asks how looking closely at ordinary created things counts as real theology in this tradition"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.reading-scripture

@@ -3,7 +3,7 @@ id: desert.quote.ethiopic-rule-eat-and-drink
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -44,7 +44,6 @@ retrieval:
   - "participant asks what they ate and how much, and whether fasting was required"
   - "participant asks whether everyone was held to the same standard or treated differently"
   - "participant asks how food and work were matched to a person"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.koinonia

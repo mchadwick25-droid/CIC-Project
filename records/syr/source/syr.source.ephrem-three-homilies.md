@@ -3,7 +3,7 @@ id: syr.source.ephrem-three-homilies
 world_id: syriac-edessa-nisibis
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

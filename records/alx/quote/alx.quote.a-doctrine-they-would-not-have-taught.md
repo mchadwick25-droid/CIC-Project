@@ -3,7 +3,7 @@ id: alx.quote.a-doctrine-they-would-not-have-taught
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks how anyone knows the resurrection really happened"
   - "participant asks what evidence this world had for its central claim"
   - "participant asks whether the disciples could have invented it"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.resurrection

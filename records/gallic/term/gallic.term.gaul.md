@@ -3,7 +3,7 @@ id: gallic.term.gaul
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -45,7 +45,7 @@ retrieval:
   - what "We are Gauls" means
   - participant uses "Gaul," "France," "Gallic," "the West," "Europe," "Egypt versus Gaul"
   - the climate clause; the frozen province; the tripets; the gluttonous Gauls; "Europe will not yield"; Salvian's burning provinces
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the received customs as such (retrieve the customs of the monasteries / Institutes)
   - the question is about the pagan countryside (retrieve heathen / rustics)
   - '"France" or a later national identity - our Gallic identity is self-deprecating and derivative of Egypt, not proud'

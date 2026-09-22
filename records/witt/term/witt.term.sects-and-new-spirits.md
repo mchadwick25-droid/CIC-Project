@@ -3,7 +3,7 @@ id: witt.term.sects-and-new-spirits
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -38,7 +38,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - sects, new spirits, fanatics, enthusiasts, or Anabaptists
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants the radicals' own account of themselves -- our library does not carry it
 relations:
 - type: associated-with

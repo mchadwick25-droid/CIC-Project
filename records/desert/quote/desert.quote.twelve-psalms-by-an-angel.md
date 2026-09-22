@@ -3,7 +3,7 @@ id: desert.quote.twelve-psalms-by-an-angel
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F4-I
@@ -62,7 +62,7 @@ retrieval:
   retrieve_when:
   - "participant asks what was actually sung or prayed at the services, beyond the fact that they prayed"
   - "participant asks why a specific number of psalms was used"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks specifically about Pachomian daily prayer as governed by the Rule - this legend concerns the Vesper/Nocturns office generally, not that Rule's own distinct provisions"
 relations:
 - {type: illustrates, target: desert.term.synaxis}

@@ -3,7 +3,7 @@ id: witt.term.conscience
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -46,7 +46,7 @@ retrieval:
   - conscience, terrified or anxious
   - what the whole doctrine of faith is 'for'
   - what binds a conscience wrongly
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means guilt as a feeling in general, outside our own theological frame
 relations:
 - type: associated-with

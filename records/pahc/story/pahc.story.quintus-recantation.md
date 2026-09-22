@@ -3,7 +3,7 @@ id: pahc.story.quintus-recantation
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world ever encouraged seeking out martyrdom"
   - "participant asks what happened when someone's courage failed under threat"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs Polycarp's own death narrated in full - use pahc.story.martyrdom-of-polycarp instead"
 relations:
 - type: associated-with

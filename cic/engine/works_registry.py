@@ -9,8 +9,7 @@ discipline already distrusts. Three things are worth checking every run
 rather than trusting whatever was true when a WORKS.yaml entry was written:
 (1) every item address actually resolves to a file that exists under
 cic/texts/, (2) work_id values are unique, since `source` records' own
-work_id field (added 2026-09-02, per Fable's blueprint W1 and Mark's
-sign-off) uses work_id as a foreign key and a silent duplicate would
+work_id field (per blueprint W1) uses work_id as a foreign key and a silent duplicate would
 corrupt that join without ever raising an error on its own, and (3) every
 work_id a source record actually USES names a real entry here - the field
 is free-typed prose in a records/*.md file, unchecked by the schema itself

@@ -3,7 +3,7 @@ id: witt.quote.nothing-that-varies
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - "participant asks how we know our own practices go back to the apostles, or are not later inventions"
   - "participant asks whether we broke with the ancient Church or only with certain abuses"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants a specific practice defended point by point -- this is the Confession's own summary claim, not an item-by-item case"
 text: >-
   Nor has anything been here said

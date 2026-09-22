@@ -3,7 +3,7 @@ id: alx.term.scripture-as-address
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -27,7 +27,7 @@ retrieval:
   - how this world reads the Bible, or "reading for depth"
   - Scripture treated as a historical document or rulebook
   - why the same text yields more to some readers than others
-  do_not_retrieve_when:
+  prefer_instead:
   - a narrow textual-criticism question with no bearing on the world's formative reading
 relations: []
 plain_meaning: Scripture is not a historical record of what God once said - it is the Logos speaking now,

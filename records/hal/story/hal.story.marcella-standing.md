@@ -3,7 +3,7 @@ id: hal.story.marcella-standing
 world_id: hieronymian-ascetic-literary
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - a woman's authority in this world
   - Marcella's standing among the Roman clergy
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.gravity.marcella-authority

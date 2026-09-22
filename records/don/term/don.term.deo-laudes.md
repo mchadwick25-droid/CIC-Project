@@ -3,7 +3,7 @@ id: don.term.deo-laudes
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -35,7 +35,7 @@ retrieval:
   retrieve_when:
   - a participant uses 'Deo laudes', or asks what marked this communion out in worship
   - a participant asks whether anything survives that did not pass through hostile hands
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about Latin liturgical acclamations generally, with no bearing on the party division
 relations:
 - type: associated-with

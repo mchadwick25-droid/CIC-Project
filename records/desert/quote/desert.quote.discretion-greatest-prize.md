@@ -3,7 +3,7 @@ id: desert.quote.discretion-greatest-prize
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -37,7 +37,6 @@ retrieval:
   - "participant asks how anyone judged what was right when the rules ran out"
   - "participant asks whether it was possible to go too far in this life"
   - "participant asks who decided how much was enough"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.diakrisis}
 ---

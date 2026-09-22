@@ -3,7 +3,7 @@ id: alx.dw.one-church
 world_id: alexandria-catechetical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -28,7 +28,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Was your church 'Catholic'? Is there a church today that is yours? In
   our own time we called ourselves part of the catholic church. The word

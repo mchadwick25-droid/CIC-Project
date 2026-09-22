@@ -3,7 +3,7 @@ id: ijc.quote.let-the-ancient-customs-prevail
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what this world treated as authoritative and how it read it"
   - "participant asks how church authority was decided or justified here"
   - "participant asks whether the bishop of Rome was in charge"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.dw.how-we-read

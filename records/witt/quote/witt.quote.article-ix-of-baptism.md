@@ -3,7 +3,7 @@ id: witt.quote.article-ix-of-baptism
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -25,7 +25,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - "participant asks whether we baptized babies, or only adults who chose it for themselves"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant means the sacrament's general meaning apart from the age question -- retrieve the baptism term instead"
 text: >-
   Of Baptism they teach that it is necessary to salvation, and that

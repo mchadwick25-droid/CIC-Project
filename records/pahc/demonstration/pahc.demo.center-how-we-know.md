@@ -3,7 +3,7 @@ id: pahc.demo.center-how-we-know
 world_id: post-apostolic-house-church
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -38,14 +38,12 @@ this world's own record does not give (register statement 5) rather
 than overclaiming an eyewitness chain this world's own primary voices
 never claim for themselves.
 
-FIXED at Step 11 round-1 review (two items): (1) "appointed others to
+"Appointed others to
 carry it forward once they themselves were gone" is 1 Clement 44's own
 succession provision ("that when these should fall asleep, other
-approved men should succeed them in their ministry"), not chapter 42
-(appointment of the first bishops and deacons, which this turn's own
-prior clause already covers) - locus extended to "42, 44". (2) the
+approved men should succeed them in their ministry"); chapter 42
+covers the appointment of the first bishops and deacons. The
 turn's own closing claim about the eyewitness chain "already felt as
-thinning" leans entirely on Papias's own "living and abiding voice"
+thinning" leans on Papias's own "living and abiding voice"
 fragment (preserved via Eusebius, HE III.39, already registered as
-pahc.figure.papias's own source), which this record's divergence_note
-already named but its sources[] did not list - added.
+pahc.figure.papias's own source).

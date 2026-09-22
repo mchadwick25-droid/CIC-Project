@@ -3,7 +3,7 @@ id: witt.term.both-kinds
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -31,7 +31,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - both kinds, or the cup for the laity
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Supper's whole doctrine broadly (retrieve Sacrament of the Altar)
 relations:
 - type: associated-with

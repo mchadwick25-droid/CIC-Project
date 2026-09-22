@@ -3,7 +3,7 @@ id: ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what marriage meant to these people"
   - "participant asks whether married people were second-class here"
   - "participant asks how this world ranked celibacy against marriage"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.dw.marriage-ranked

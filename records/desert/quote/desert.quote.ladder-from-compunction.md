@@ -3,7 +3,7 @@ id: desert.quote.ladder-from-compunction
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -36,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks where a beginner started and what came next"
   - "participant asks whether there were stages, and what the whole thing was aiming at"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---

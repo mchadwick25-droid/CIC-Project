@@ -3,7 +3,7 @@ id: witt.dw.true-priests-of-gods-own-making
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -33,7 +33,7 @@ retrieval:
   retrieve_when:
   - "participant asks what the clearest outside account of our own worship is"
   - "participant asks whether wanting to die as a martyr and calling it faithfulness is really a death wish"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants the martyrs' own reported last words treated as verified reportage rather than a ballad's own commemorative voice"
 text: >-
   What's the clearest outside account we have of how our people

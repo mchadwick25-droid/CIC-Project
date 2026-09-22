@@ -5,8 +5,8 @@ place instead of scattered across six/seven independent lists.
 
 This is measurement, not a gate. It reports, it never fails a build or
 blocks anything - promoting any of it to a gate is Stage 2c's job, and
-only after Mark's own ruling on R6 (`Ministry/Features/Conversation-
-Transparency-Engine/Rulings-Pending.md`) sets where the ceiling actually
+only after R6 is ruled on (`Ministry/Features/Conversation-
+Transparency-Engine/Rulings-Pending.md`) and sets where the ceiling actually
 sits. `gate_readability` (`engine/m1/gates.py`) already CI-gates a
 narrower field set (term/honest_limit/quote/voice_craft) at a fixed FK <=
 10 ceiling; this screen deliberately covers a wider set - every voice-diet

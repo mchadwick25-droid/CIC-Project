@@ -3,7 +3,7 @@ id: ijc.quote.the-rudiments-of-the-creed
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether scripture was the only authority here"
   - "participant asks what a person had to know before they could read the Bible well"
   - "participant asks how the creed stood in relation to the Bible"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.term.tomus

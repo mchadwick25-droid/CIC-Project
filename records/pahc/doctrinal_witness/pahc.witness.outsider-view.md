@@ -3,7 +3,7 @@ id: pahc.witness.outsider-view
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -23,7 +23,6 @@ retrieval:
   - "participant asks about catacombs"
   - "participant asks about Constantine"
   - "participant asks what an outsider would have found strangest"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.two-female-slaves-who-were-called-deaconesses
@@ -65,25 +64,13 @@ this world's own close) and the out-of-window status of Constantine
 (caution 10-adjacent - not itself numbered, since no caution needed to
 name a figure this world's own texts never approach at all).
 
-FIXED at Step 8 round-1 review: this record previously had Pliny "go
-check" the meal himself and quoted "in his own words, ordinary and
-harmless" - Pliny performed no inspection of the meal; the description
+Pliny performed no inspection of the meal; the description
 (pre-dawn meeting, hymn, oath, meal) is entirely what his own deponents
 affirmed to him, and his own actual recorded phrase is "common yet
-harmless," not "ordinary and harmless." Corrected throughout to
-attribute the description to what Pliny was told, not what he himself
-observed or checked. FLAGGED at Step 8, RESOLVED at Step 10 per the
-project lead: the round-1 reviewer also questioned whether the
-already-approved pahc.source.pliny-letters row's own framing ("the
-most granular detail was extracted from two enslaved women... under
-torture") overstated how much of the letter's content specifically
-came from the torture versus the deponents' own prior testimony. The
-project lead's direction was to keep the torture in this world's
-account of Pliny while correcting that overstatement - done directly
-on pahc.source.pliny-letters itself (see that record's own Step 10
-FIXED note): the descriptive detail comes from apostate deponents'
+harmless." The descriptive detail comes from apostate deponents'
 testimony given under threat of ordinary punishment, not from the two
-ministrae's torture, which the letter reports separately and after.
+ministrae's torture, which the letter reports separately and after
+(see pahc.source.pliny-letters).
 
 LEXICON LABEL PASS (2026-08-30, Mark's ruling: "yes it should be give
 thanks over the cup, eucaruest (in purple)" - plain meaning first, the

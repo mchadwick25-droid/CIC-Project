@@ -3,7 +3,7 @@ id: desert.quote.pachomius-angel-tablet
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-I]
 confidence:
@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant asks what the rule actually required of a member day to day"
   - "participant asks how food, work and prayer were apportioned"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.pachomius-founding

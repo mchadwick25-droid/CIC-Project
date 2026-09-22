@@ -3,7 +3,7 @@ id: witt.story.worms-1521
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -20,9 +20,7 @@ confidence:
     as quoted together, at one remove, inside Bacon's Introduction to the hymns, attributed there to Carlyle's
     transmission - not this library's own Table Talk text. Any use of either Carlyle-transmitted phrase
     must carry that provenance and disclose that its verbatim authenticity is contested in the wider scholarship
-    (Doc_09 witt-S03; Source Registry R69). Doc_09's own drafting pass first misattributed the Carlyle
-    "tile roofs" rendering to the Table Talk file directly - caught and corrected at that document's Round
-    1 review, logged there as a genuine quote-fidelity defect, not carried forward uncorrected here.
+    (Doc_09 witt-S03; Source Registry R69).
 sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
   locus: '"Of Luther''s Journey and Proceedings at the Imperial Diet at Worms, Anno 1520" [Table Talk''s
@@ -40,7 +38,7 @@ retrieval:
   retrieve_when:
   - a participant asks about Worms, conscience, or standing against authority
   - a participant asks what Luther actually said at Worms, or whether he really said "Here I stand"
-  do_not_retrieve_when:
+  prefer_instead:
   - using "Here I stand" without disclosing its separate, weaker Carlyle-transmitted provenance
   - the participant wants the earlier, smaller Augsburg confrontation (retrieve witt.story.augsburg-before-cajetan
     instead)
@@ -126,20 +124,15 @@ Imperial Diet at Worms"). Source Registry R31 (Primary); R69 (the "Here I stand"
 embedded quotation only, per Registry row 69's own note: "Not licensed for the 'Here I stand' sentence"
 standing at Boundary-Status level via R94).
 
-CORRECTION (go-live adversarial review, Round 1, re-check sweep, 2026-09-20; same defect class as H-2):
-this record's `text` and `absent_detail` fields originally claimed the library's own account "does not
-go on to record in full" what Luther said the next day, breaking off after "one day and one night" -
-false. The original authoring pass's own cited range stopped at line 3560, a few lines before the actual
-day-after exchange begins (line 3563 onward); it was never read. `cic/texts/luther_table-talk_bell1886.txt`
+`cic/texts/luther_table-talk_bell1886.txt`
 lines 3563-3593 hold a substantial, quotable, first-person exchange - "God's Word is not my word... I
 will show obedience," the refusal to refer the cause to the Emperor, the safe-conduct offer, the Bishops'
 false report and Luther's correction - none of it picked up by any other record in this world's own
-store (checked directly: no hit anywhere in records/witt/ for "God's Word is not my word"). Fixed by
-narrating the exchange in the same close-third-person, directly-quoted register the rest of this record
-already uses, verified verbatim against the extended locus. The record's central claim - that "Here I
+store (checked directly: no hit anywhere in records/witt/ for "God's Word is not my word"). The exchange
+is narrated in the same close-third-person, directly-quoted register the rest of this record
+uses, verified verbatim against the extended locus. The record's central claim - that "Here I
 stand, I cannot do otherwise" itself never appears in this library's own account, at this moment or any
-other - remains true and unaffected; only the surrounding "does not go on to record... only that he
-would not recant" characterization was the error.
+other - remains true.
 
 Register note: close-third-person throughout, never first-person "we."
 

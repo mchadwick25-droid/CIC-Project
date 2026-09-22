@@ -3,7 +3,7 @@ id: gallic.story.election-at-tours
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -37,7 +37,7 @@ retrieval:
   - participant asks how Martin became bishop, whether monks wanted to be bishops, how bishops were chosen, or why our monasteries produced bishops
   - participant uses "election," "ordination," "career," "promotion"
   - conversation reaches the monk-bishop and needs its founding narrative, or the bishops as the thing the saint flees and who resist him, or the finding that every house tells its founder's elevation as capture
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the southern node's version of the same shape (gallic.story.bishop-archebius; gallic.story.honoratus-and-the-island - retrieve alongside, not instead, when the cross-node pattern is the question)
   - participant is asking about later canonical procedure for episcopal election - outside the window; Roberts's note is editorial
   - participant is asking what Martin did as bishop rather than how he became one

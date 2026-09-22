@@ -3,7 +3,7 @@ id: pahc.contested.hermas-dating
 world_id: post-apostolic-house-church
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -30,15 +30,3 @@ canon_cells left empty: no fleet canon question asks participant-facing
 "when exactly was your own visionary work written," and this record's
 own content is a scholarly-dating and manuscript-history dispute, not
 itself a close match to any cell's question text.
-
-FIXED at Step 7 round-1 review: held_against previously had no genuine
-counter-position - both items either restated the record's own claim
-(the composite reading, stated as the objection to itself) or attacked
-a position the claim does not hold (the traditional single date, which
-the claim already rejects). Restructured so the traditional single-date
-position - real, if the Muratorian Fragment is what it claims to be -
-is the counter-position, and the Sundberg/Hahneman challenge to that
-Fragment's own date moved into concedes, where it explains why the
-composite reading is the better-supported position on balance rather
-than functioning as a second attack on a position already defeated by
-the first.

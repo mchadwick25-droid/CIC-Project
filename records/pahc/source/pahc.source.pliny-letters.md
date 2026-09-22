@@ -3,7 +3,7 @@ id: pahc.source.pliny-letters
 world_id: post-apostolic-house-church
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -19,15 +19,13 @@ edition: "Complete English of both letters as printed in A. C. McGiffert's edito
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed
-discovery_channel: "prior-build Source Registry row P07 (Doc_02, approved 2026-07-07); vendored-text location corrected at this build's step 2 reopening - the first search pass looked for a standalone Pliny edition and missed the complete text embedded in npnf201's editorial note, which the prior build's own story pass had already located and verified (see pahc.search.pliny-english-pd's correction note)"
+discovery_channel: "prior-build Source Registry row P07 (Doc_02, approved 2026-07-07); the complete text is embedded in npnf201's editorial note, which the prior build's own story pass had already located and verified (see pahc.search.pliny-english-pd)"
 external_ids: {ccel_volume: "npnf201", locus_note: "McGiffert's note to HE III.33"}
 ---
-CORRECTION (narrow step-2 reopening, disclosed): this row first shipped
-as NOT VENDORED / paraphrase-only. That was wrong about the corpus on
-disk: McGiffert's note to HE III.33 in the vendored npnf201 prints both
+McGiffert's note to HE III.33 in the vendored npnf201 prints both
 letters complete in English, and the prior build's story pass had
 already verified its wording there. Verbatim quotes from Pliny 10.96-97
-may now cite this file at that locus. A standalone Pliny edition
+may cite this file at that locus. A standalone Pliny edition
 (Melmoth/Bosanquet) remains a nice-to-have for cross-checking a second
 translation, downgraded to optional in the source-request manifest.
 
@@ -45,9 +43,7 @@ Canon note: the fleet canon question F6-E about "torturing two enslaved
 women" is asked about exactly this letter - for this world it is a
 question about its own record.
 
-FIXED at Step 10 (flagged at Step 8, resolved here per the project
-lead): "the most granular detail was extracted from two enslaved
-women... under torture" overstated the letter's own sequence. Checked
+Checked
 directly against the vendored text (cic/texts/npnf201_eusebius-church-
 history-life-of-constantine.xml): the pre-dawn meeting, hymn, oath, and
 meal description is attributed to apostates - former Christians who
@@ -61,6 +57,4 @@ beyond "nothing except a superstition depraved and immoderate." The
 torture-derived testimony is real and remains a standing limitation on
 this source as a whole - Pliny presents his entire account, including
 the apostates' testimony obtained under threat, as one investigation
-whose credibility he backs with the torture step - but it did not
-supply the descriptive detail this record's own prior wording credited
-it with.
+whose credibility he backs with the torture step.

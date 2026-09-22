@@ -3,7 +3,7 @@ id: alx.quote.clement-instructor
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks how a person was formed or changed by this way of life"
   - "participant asks what they did about anger, appetite, and unruly feeling"
-  do_not_retrieve_when: []
 ---
 The Paedagogus's picture of Christ as the soul's physician-teacher.
 Serves F4-I (how formation worked) and F4-P ('I can't quiet my own

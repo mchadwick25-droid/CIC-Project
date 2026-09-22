@@ -3,7 +3,7 @@ id: alx.quote.gregory-spark
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - "participant asks what it felt like to come under a teacher's influence"
   - "participant asks how someone was drawn in, and what the pull was"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.story.gregory-formation

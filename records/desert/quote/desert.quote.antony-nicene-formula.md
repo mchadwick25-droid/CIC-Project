@@ -3,7 +3,7 @@ id: desert.quote.antony-nicene-formula
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-T]
 confidence:
@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether people outside the councils had settled views about who Jesus was"
   - "participant asks whether the creed reached ordinary members or stayed with bishops"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.quote.antony-arians-serpents

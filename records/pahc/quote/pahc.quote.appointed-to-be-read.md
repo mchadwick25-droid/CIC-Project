@@ -3,7 +3,7 @@ id: pahc.quote.appointed-to-be-read
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-I
@@ -44,7 +44,6 @@ retrieval:
   retrieve_when:
   - "participant asks which books were read and which were kept out"
   - "participant asks what happened to the writings this world used that later disappeared"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.force.selective-canonization

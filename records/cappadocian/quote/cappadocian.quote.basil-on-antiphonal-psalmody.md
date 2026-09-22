@@ -3,7 +3,7 @@ id: cappadocian.quote.basil-on-antiphonal-psalmody
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-P
@@ -47,7 +47,6 @@ retrieval:
   retrieve_when:
   - "participant says they read scripture and come away confused or bored"
   - "participant asks whether the violence in some scripture texts troubled this world"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.psalms-teach-the-singer

@@ -3,7 +3,7 @@ id: gallic.term.profession
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -42,7 +42,7 @@ retrieval:
   - whether a monk could leave, or what "profession" meant
   - participant uses "vow," "profess," "commitment," "oath," or "deserter"
   - the Sarabaite's public profession, Anatolius's false profession, the soldier who "professed himself a monk," or the "goal and end" of the profession
-  do_not_retrieve_when:
+  prefer_instead:
   - a "profession of faith" as a creed (retrieve the rule or Catholic)
   - a trade or occupation
   - the later formal rite of monastic vows

@@ -3,7 +3,7 @@ id: don.story.tyconius-condemnation
 world_id: donatism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -34,7 +34,7 @@ retrieval:
   - participant asks what happened to Tyconius after he wrote the Book of Rules
   - participant asks whether we tolerated internal theological dissent
   - participant asks how a man his own party condemned came to shape later Christian thought anyway
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the positive content of Tyconius's own hermeneutics rather than the institutional
     consequence of asserting it
   - participant wants a story in which our leadership reconciles with an internal dissenter - don.story.bagai-reconciliation

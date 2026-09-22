@@ -3,7 +3,7 @@ id: desert.quote.talida-key-never-taken
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -52,7 +52,6 @@ retrieval:
   - "participant asks who was in charge of the women's communities"
   - "participant asks whether women were shut in, and who held the keys"
   - "participant asks what an old woman's authority rested on"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.elder-authority

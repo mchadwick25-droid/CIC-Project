@@ -3,7 +3,7 @@ id: desert.quote.no-one-seize-the-hand
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -43,7 +43,6 @@ retrieval:
   - "participant asks about sleeping, washing, and the ordinary handling of the body"
   - "participant asks how close people lived and what was forbidden between them"
   - "participant asks whether touch or privacy were regulated"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.spiritual-combat

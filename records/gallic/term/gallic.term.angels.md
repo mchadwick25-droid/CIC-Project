@@ -3,7 +3,7 @@ id: gallic.term.angels
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -36,7 +36,7 @@ retrieval:
   - whether Cassian's monks expected angelic visions
   - participant uses "angel," "vision," "apparition," "saints appearing"
   - the two warriors at the temple; the angel at Nemausus; Agnes and Thecla; the angel after the Ithacian communion
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the devil's counterfeit angel (retrieve illusion, the devil / demons)
   - the angel who sang the twelve psalms (retrieve unceasing prayer / the canonical system)
   - angelology as doctrine - not our subject

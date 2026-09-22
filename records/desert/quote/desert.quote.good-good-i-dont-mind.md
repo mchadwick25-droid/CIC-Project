@@ -3,7 +3,7 @@ id: desert.quote.good-good-i-dont-mind
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether someone whose marriage ended could belong here"
   - "participant asks what happened to people whose families broke apart"
   - "participant asks how this world treated divorce or betrayal"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.marriage-ending

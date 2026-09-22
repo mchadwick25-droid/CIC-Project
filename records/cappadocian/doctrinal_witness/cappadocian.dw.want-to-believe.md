@@ -3,7 +3,7 @@ id: cappadocian.dw.want-to-believe
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - "participant says they want to believe and cannot"
   - "participant asks whether this world had room for someone who could not simply decide to believe"
-  do_not_retrieve_when: []
 text: >-
   We built a whole way of thinking about God around one honest admission:
   no mind grasps him completely. Every word we use for him reaches him

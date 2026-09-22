@@ -3,7 +3,7 @@ id: cappadocian.term.ousia-hypostasis
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -36,7 +36,7 @@ retrieval:
   - the Trinity, the creed, or 'three in one'
   - why the exact words for God mattered so much
   - whether this is just Greek philosophy imported into faith
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about HOW God can be known at all rather than WHAT is confessed -- retrieve akatalepsia/epinoia-energeia
     instead
 relations:

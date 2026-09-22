@@ -3,7 +3,7 @@ id: ijc.quote.canon28-equal-privileges
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks how the great cities ranked against each other"
   - "participant asks whether a council could raise one see over another"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.force.leo-rejects-canon-28}
 ---

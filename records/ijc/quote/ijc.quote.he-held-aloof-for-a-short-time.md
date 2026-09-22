@@ -3,7 +3,7 @@ id: ijc.quote.he-held-aloof-for-a-short-time
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks whether there was room for doubt or hesitation among these people"
   - "participant was told doubt was sin and asks whether that held here"
   - "participant asks what happened to someone who could not accept what the church taught"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.dw.room-for-hesitation

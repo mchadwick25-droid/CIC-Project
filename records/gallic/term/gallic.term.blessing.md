@@ -3,7 +3,7 @@ id: gallic.term.blessing
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -41,7 +41,7 @@ retrieval:
   - why an Egyptian merchant called on "the God of Martin"
   - participant uses "blessing," "relic," "holy oil," "sacramental," "touch," "object"
   - Vita XVIII-XIX; Dial. II.8, III.3, III.14; Sulpitius kneeling for a blessing
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the saint's power in general (retrieve virtus / power)
   - the question is about the gesture (retrieve sign of the cross)
   - later relic-cults or the medieval cult of Martin - outside our window

@@ -3,7 +3,7 @@ id: witt.term.martyr
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -22,7 +22,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - martyrs, or the two youths burnt at Brussels
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants a broader account of persecution among us -- our library holds only this one
     ballad
 relations:

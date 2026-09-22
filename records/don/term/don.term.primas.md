@@ -3,7 +3,7 @@ id: don.term.primas
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -33,7 +33,7 @@ retrieval:
   retrieve_when:
   - a participant asks who led this communion, or whether it had a head
   - a participant asks about Donatus, Parmenian or Primian by name
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about later Western primacy or the papacy
 relations:
 - type: associated-with

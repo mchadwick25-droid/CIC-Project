@@ -3,7 +3,7 @@ id: hal.quote.fabiola-hospital
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -28,7 +28,6 @@ retrieval:
   retrieve_when:
   - "participant asks who cared for the sick and the destitute"
   - "participant asks what a wealthy woman did with her money"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 77 sec. 6,
 div v.LXXVII). The 'first person' priority claim is Jerome's own and is

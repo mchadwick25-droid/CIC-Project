@@ -3,7 +3,7 @@ id: hal.quote.hindered-by-jerome
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F6-I
@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - "participant asks what outsiders made of the relationship at the centre of this circle"
   - "participant asks whether a woman's own work was overshadowed by the man she funded"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.quote.paula-escaped-his-envy

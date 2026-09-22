@@ -3,7 +3,7 @@ id: desert.dw.melitian-power
 world_id: desert-monasticism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F3-P]
 confidence:
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - "participant asks about a rival or schismatic community and how this world treated them"
   - "participant asks whether this world recognized other ascetic groups as fellow participants"
-  do_not_retrieve_when: []
 text: >-
   There was another community near us, holding to a different bishop after an
   old dispute, and we did not treat them as fellow ascetics. The one we
@@ -52,30 +51,8 @@ than neutral, and the Nepheros archive as a documentary check on that
 silence, held at that source's own stated confidence rather than
 upgraded.
 
-Step4, Round 1 review Finding S7: this witness previously stated flatly
-that Melitian documentary evidence showed practice "no different in
-daily texture from our own," turning desert.source.nepheros-archive's
-own capitalised "UNVERIFIED working assumption" into a settled finding,
-and carried neither of that source's own two standing cautions in any
-field. Both cautions now carried in the Nepheros locus and
-divergence_note, and the claim itself walked back to state the genuine
-uncertainty rather than resolve it. The text also previously attributed
-"named them a schism" to Antony's own words when "schismatics" is
-Athanasius's own narration, not Antony's reported speech (the exact
-narrator/actor confusion desert.force.melitian-rivalry itself corrected
-at Doc08 Round 2 review Finding C3) - reworded above to avoid the same
-confusion. The locus is corrected from SS68-69 (SS69 is the separate
-Arian confrontation - see desert.dw.councils) to SS68 and SS89,
-the Vita's actual two Melitian passages, both of which
-desert.force.melitian-rivalry already registers and this witness now
-uses.
-
-Step4, Round 2 review Finding M5: the compiled text's closing sentence
-still read "so far as this record can show" after the fix above -
-build meta-language surviving in the one field of this record type that
-actually compiles (`build_prompt()`/`build_chunks()` emit
-`doctrinal_witness.text` directly). Corrected to first-person phrasing.
-Finding C4: positions[2]'s closing "not a settled finding" used review
-vocabulary rather than this world's own register - reworded.
+When citing this witness elsewhere, "schismatics" is Athanasius's own
+narration in the Vita (SS68, SS89), not Antony's reported speech - the
+two passages this witness draws on.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

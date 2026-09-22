@@ -3,7 +3,7 @@ id: gallic.source.noris-historia-pelagiana
 world_id: gallic-monastic-ascetic-christianity
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

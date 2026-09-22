@@ -3,7 +3,7 @@ id: ijc.limit.marriage-money
 world_id: imperial-juridical
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -32,10 +32,8 @@ why_sources_cannot_answer: 'Household-scale marriage and money - a wedding, a fa
   ordinary purse - are absent from a corpus of canons, court letters, conciliar acts, and teachers''
   treatises; what the record does hold, and holds substantively, is institutional money (imperial
   endowment, restitution orders, contested succession wealth) and a teacher''s ranking of marriage against
-  continence, not either topic from an ordinary household''s own vantage. Corrected at review (Opus
-  canon-structure pass, 2026-08-21): this record previously claimed marriage was absent outright, which
-  was false - Ambrose''s Concerning Widows treats it directly, at the teaching level the record actually
-  reaches.'
+  continence, not either topic from an ordinary household''s own vantage. Ambrose''s Concerning Widows
+  treats marriage directly, at the teaching level the record actually reaches.'
 nearest_material:
 - ijc.quote.milan-edict
 - ijc.quote.socrates-damasus-election

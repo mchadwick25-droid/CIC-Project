@@ -3,7 +3,7 @@ id: syr.quote.abgar-letter
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks how the gospel first reached this region and who brought it"
   - "participant asks whether their king was a Christian, and how early"
   - "participant asks whether the founding stories can be believed"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Phillips's translation of the Doctrina Addai).
 LEGEND LICENSE: quotable only inside the told-as-legend frame

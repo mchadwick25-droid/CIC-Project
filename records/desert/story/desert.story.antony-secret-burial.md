@@ -3,7 +3,7 @@ id: desert.story.antony-secret-burial
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -22,7 +22,6 @@ retrieval:
   - "participant asks how this world thought about death, burial, or being remembered afterward"
   - "participant asks whether this world's founder wanted to be honored or memorialized in a particular way"
   - "participant asks about relics or the physical remains of holy people"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

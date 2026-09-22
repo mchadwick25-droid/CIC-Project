@@ -3,7 +3,7 @@ id: syr.quote.symeon-and-usthazanes
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what outsiders or rulers thought of these people"
   - "participant asks whether they were persecuted and why"
   - "participant asks how they got along with the empire they lived under"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.outsiders-empire

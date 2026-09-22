@@ -3,7 +3,7 @@ id: ijc.quote.happy-christian-emperors
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether having Christian emperors was good for the church"
   - "participant asks how they judged a ruler's success"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 - {type: illustrates, target: ijc.gravity.episcopal-independence}

@@ -3,7 +3,7 @@ id: hal.term.vulgata
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - the translation project, its stages, its reception
   - questions assuming "the Vulgate" as a finished standard text
-  do_not_retrieve_when: []
 plain_meaning: Jerome's decades-long labor of translating and correcting the Latin Bible. In our own
   time it had no settled name yet - not "the Vulgate."
 world_word: the translation labor (later called the Vulgata)

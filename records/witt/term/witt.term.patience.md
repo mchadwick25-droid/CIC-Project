@@ -3,7 +3,7 @@ id: witt.term.patience
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -33,7 +33,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - patience
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means bearing with the weak specifically inside liberty (retrieve 'must' and 'free')
 relations:
 - type: associated-with

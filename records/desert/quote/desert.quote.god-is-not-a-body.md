@@ -3,7 +3,7 @@ id: desert.quote.god-is-not-a-body
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F6-I
@@ -47,7 +47,6 @@ retrieval:
   - "participant asks what the argument or controversy about Origen was actually about"
   - "participant asks whether God has a body or a face, or what it meant to be made in God's image"
   - "participant asks why a bishop's letter could enrage monks in the desert"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.force.origenist-controversy
