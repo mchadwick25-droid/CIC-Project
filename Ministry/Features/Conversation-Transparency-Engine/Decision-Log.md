@@ -803,3 +803,42 @@ first merge — this workstream landed Entries 28–31 above concurrently with
 that report's own work across two separate merges; renumbered each time
 per this file's own "never renumber a past entry" rule, which binds the
 later arrival, not the entries already on `main`.)
+
+**Entry 33 — 2026-09-22.** Mark's direct instruction, this session:
+Entry 32's "PR 1" (the reconciliation PR) is **assigned to this
+workstream** — the next thread picking up Stage 5+ (or a dedicated
+interstitial session, project lead's call) should treat it as the first
+item ahead of further Build-Plan.md stages, since `main` → `live`
+promotion readiness (Tech-Readiness Package 2's own scope) is now blocked
+on it. Scope, unchanged from `Ministry/Operations/Audits/
+Tech-Readiness-2026-09/P2-Operations/Report.md` §2, restated here so this
+workstream doesn't have to cross-reference an Audits document to act:
+
+- Merge (or cherry-pick, if history conflicts make a merge messy)
+  `live`'s own atlas-sync tooling (`engine/m2/site_cli.py`,
+  `engine/m2/site_compiler.py`, `engine/m6/atlas_html.py`,
+  `engine/m6/census_atlas_sync.py`, their tests) and PR #346's
+  who-is-at-the-table card redesign (merge commit `e693b048`) onto `main`.
+  This is a normal feature PR into the integration sandbox, not a
+  promotion — it does not touch `live`.
+- **Verify on `cic-engine-staging` before calling it done:** the Atlas
+  page and `world-census.json` sync render correctly, the card redesign
+  displays as it does today in production, and Stage 4a's own fleet
+  migration (PRs #360/#361, already on `main`) isn't clobbered by the
+  reconciliation — run `retrieval_bench.py` and `engine.m9.cli check`
+  after; expect no change from `main`'s current baseline (1154 grounded,
+  0 empty per Entry 26).
+- A handful of `Ministry/Features/*` docs (Backend, Brand-Messaging-Rework,
+  Built-World-Voice-Alignment, Front-End-Integration-Strategy,
+  Representative-Modes) differ between `live` and `main` too — the
+  Operations report did not distinguish genuinely-live-only content from
+  content that merely moved during `main`'s own repo-structure-cleanup
+  phases 2/3, and flagged this for whoever runs this PR to eyeball, not
+  as pre-cleared safe.
+- Confirm before merging that `records/worlds.yaml` still doesn't carry
+  `lpc` and `packages/lpc/` still doesn't exist (Entry 32's own check) — if
+  either has changed, stop and ask Mark rather than merging.
+
+Once this lands and is verified on staging, the actual `main` → `live`
+promotion (Report.md's own "PR 3") is Mark's own act under the Promotion
+Runbook — not this workstream's to perform.
