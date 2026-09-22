@@ -170,6 +170,29 @@ explicitly Mark's own act under the Promotion Runbook. Both are handed to
 Mark and logged with the transparency-engine workstream now (Decision-Log
 entry appended there, per the launch brief's own instruction).
 
+**Correction, 2026-09-22 (superseding this section's plan, not its
+divergence inventory above).** After an unshallowed check, the reviewer
+thread found the merge base above (`20264dec`) was correct but the
+resulting risk assessment was not: **a merge PR does not revert live-only
+content** — that concern applies only to a naive "copy `main`'s side of
+these specific paths" approach, which this package never attempted and the
+three-PR sequence above was designed to avoid by routing around it, not
+because a plain merge was actually unsafe. A real `git merge origin/live`
+into a branch off `main` was run instead of the sequence above: genuinely
+clean for `cic-poc/frontend` (verified: zero changes on `live`'s side since
+the real base), with real, resolvable conflicts elsewhere (4 code files in
+`engine/`/`.github/`, 12 registry package-pins rebuilt fresh, 4
+`Open_Gaps_Tracking.md` files unioned, 6 further record conflicts that
+turned out to be false alarms on full-file diffing, not scholarly
+disagreements). Full detail, file-by-file: `Ministry/Features/
+Conversation-Transparency-Engine/Decision-Log.md` Entry 34 and this
+package's own Decision-Log, Entries 10–11. Result: merged to `main`,
+895/895 tests passing, `engine.m1.cross_world` 0 new defects,
+`engine.m9.cli check` clean, `tools/check_paths.py` 0 new unresolved
+citations. **PR 3 (the actual `main` → `live` promotion) is unaffected by
+this correction and remains Mark's own act under the Promotion Runbook,
+now unblocked** — the reconciliation it was waiting on has landed.
+
 ## 3. Backup and restore
 
 Full procedure, one-time R2 setup, and restore steps:

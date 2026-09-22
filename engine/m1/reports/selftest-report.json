@@ -194,6 +194,14 @@
       ]
     },
     {
+      "id": "quote-mark-fidelity-text-field-quoted",
+      "gate": "quote-mark-fidelity",
+      "status": "caught",
+      "findings": [
+        "fix.front.fixture-synthetic: quotation-mark span 'We did not ask what a person had been before the water. We asked only what they '... matches fix.quote.identity-collision-saying's own `text` field verbatim - `text` is Apparatus/Level-3-only; the quoted form must come from `modern_rendering` (Mark's standing quote ruling)"
+      ]
+    },
+    {
       "id": "admission-register-invented-aphorism",
       "gate": "admission-register-check",
       "status": "deferred-to-stage-4"

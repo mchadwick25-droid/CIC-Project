@@ -842,3 +842,64 @@ workstream doesn't have to cross-reference an Audits document to act:
 Once this lands and is verified on staging, the actual `main` → `live`
 promotion (Report.md's own "PR 3") is Mark's own act under the Promotion
 Runbook — not this workstream's to perform.
+
+**Entry 34 — 2026-09-22. Correction to Entry 33.** After an unshallowed
+check, the reviewer thread found the real merge base is the 2026-09-20
+merge of PR #327 (`20264dec`), not the stale shallow-clone comparison
+Entry 32/33 were working from, and directed a plain `git merge origin/live`
+into a branch off `main` instead of the reconciliation-PR approach Entry 33
+described. **A merge PR does not revert live-only content** — Entry 33's
+"risk the merge resolving `engine/m2/`, `engine/m6/`, and `cic-website/`
+toward `main`'s side" concern does not apply to an actual 3-way merge (only
+to a naive "copy specific paths from main" approach, which was never
+attempted). Executed and verified:
+
+- `cic-poc/frontend`: confirmed zero changes on `live`'s side since the
+  real base — the 28-file diff against `main` is entirely `main`'s own
+  independent evolution (Stage 0b/3c and others); nothing of `live`'s own
+  to lose there.
+- Real conflicts, resolved: `.github/workflows/ci.yml` (two independently
+  added CI job blocks, unioned), `engine/m1/cross_world.py` (`live`'s
+  fuller `ACCEPTED_OPEN` closure for ijc/alx/pahc/hal kept over `main`'s
+  incomplete one, which had left the now-stale `census-living-flag/hal`
+  waiver active), `engine/m2/builders.py` (same exclusion set, live's
+  fuller comment kept), `engine/m4/facilitator_turns.py` (`live`'s docstring
+  update kept — `main`'s claimed a `{display_name}` DOOR template slot that
+  doesn't exist anywhere in the actual, shared, unconflicted code).
+- `records/worlds/*.yaml` (12 files) and their package manifests: resolved
+  toward `main`, then all 12 worlds rebuilt fresh
+  (`engine.m2.cli build` + repin) rather than trusting either side's stale
+  pin — `engine.m2.cli staleness-check` passes clean on all 12.
+- 4 `worlds/*/Open_Gaps_Tracking.md` files (desert, gallic, hal, pahc) were
+  add/add conflicts — `live` had independently created each from scratch,
+  unaware of this world's own existing OG-numbered history. Unioned, not
+  chosen between: `live`'s entries appended and renumbered to continue each
+  file's own sequence, nothing dropped.
+- 6 further add/add record conflicts, initially thought to need this
+  workstream's or a build thread's own scholarly judgment (Report.md's
+  original framing) — checked against the real base and found to be
+  false alarms: 5 were `main` simply ahead of `live` on the completed
+  Stage 4a R11 schema split (Entry 24), one was a pure line-wrap
+  difference. No scholarly call was actually needed; resolved toward
+  `main` (options and their outcome logged in `Ministry/Operations/Audits/
+  Tech-Readiness-2026-09/P2-Operations/Decision-Log.md`).
+- One real regression caught and fixed before merging: an initial blanket
+  "take `main`'s side" resolution of the 12 registry files' package-pin
+  conflicts briefly reverted `hal.yaml`'s already-correctly-auto-merged
+  `living_tradition_flag: false` back to `main`'s stale `true` — caught by
+  `engine/m1/tests/test_cross_world.py`'s own drift check, fixed, hal
+  rebuilt again, full suite re-run.
+- Full suite: 895/895 passing. `engine.m1.cross_world`: 0 new defects.
+  `engine.m9.cli check`: clean. `tools/check_paths.py`: 0 new unresolved
+  citations (2 baseline entries added for package-timestamp citations that
+  went stale purely from the fresh rebuild above, one dangling citation in
+  the merged `hal` Open_Gaps entry repointed to
+  `Archive/Ministry-Early-Days-2026-07/Scholarly-Review/` — `main`'s own
+  prior, deliberate archive move of that file, not a broken reference).
+
+This workstream's own coordination boundary held throughout: no edits to
+`engine/m4/`, `records/` content, or the frontend renderer beyond what the
+merge itself brought in verbatim from `live`; the four files this entry
+lists as "resolved" in `engine/m1/`, `engine/m2/`, and `.github/` are the
+only hand-edited conflict resolutions, and none of them touch this
+workstream's own in-flight Stage 5+ work.

@@ -77,6 +77,7 @@ jobs:
       frontend: ${{ steps.filter.outputs.frontend }}
       census: ${{ steps.filter.outputs.census }}
       library: ${{ steps.filter.outputs.library }}
+      site: ${{ steps.filter.outputs.site }}
     steps:
       - uses: actions/checkout@v4
       - uses: dorny/paths-filter@v3
@@ -109,6 +110,21 @@ jobs:
             library:
               - 'cic/corpus-map/**'
               - 'cic/texts/**'
+              - '.github/workflows/**'
+            # Website V2 world_front design (approved to proceed
+            # 2026-09-19): the website compiler stage's own two jobs
+            # below (site-staleness-check, no-embedded-world-data) read
+            # cic-website/** directly, plus records/** and engine/**
+            # (the world_front record type and its compiler live there).
+            # Deliberately its own filter rather than folded into
+            # `engine` above: a cic-website/**-only change (e.g. a
+            # tradition-page copy edit) has no reason to run the
+            # thirteen-job engine battery, the same budget discipline
+            # `library` above already exists for.
+            site:
+              - 'cic-website/**'
+              - 'records/**'
+              - 'engine/**'
               - '.github/workflows/**'
 
   # Two jobs were removed 2026-08-24: "Repository views current (all six
@@ -574,3 +590,56 @@ jobs:
       - run: npm ci
       - run: npx tsc --noEmit
       - run: npm test
+
+  site-staleness-check:
+    needs: changes
+    if: needs.changes.outputs.site == 'true'
+    # Website V2 world_front design (approved to proceed 2026-09-19): the
+    # site compiler stage's own staleness gate, same shape as m2-
+    # staleness-check above - recompile every migrated world's site JSON
+    # from its own committed file's pinned records_commit/compiler_
+    # version (engine.m2.site_cli.site_staleness_sweep), and fail if it no
+    # longer matches what's actually committed at cic-website/data/worlds/
+    # <census_id>.json. No world has a world_front record yet (content
+    # migration is a separate, later stage from this infrastructure), so
+    # this currently finds zero checkable worlds and passes trivially -
+    # the same "0% fire rate is not automatically health" landmine
+    # m2-staleness-check's own comment already names, and the reason the
+    # comparison logic itself is real, not stubbed, so it starts doing
+    # real work the moment the first world_front record and its compiled
+    # JSON both exist.
+    name: Site staleness sweep (world_front-compiled JSON)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: engine/m1/requirements.txt
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m pytest engine/m2/tests/test_site_compiler.py engine/m2/tests/test_site_staleness.py -q
+      - run: python -m engine.m2.site_cli staleness-check
+
+  no-embedded-world-data:
+    needs: changes
+    if: needs.changes.outputs.site == 'true'
+    # Website V2 world_front design (approved to proceed 2026-09-19): the
+    # anti-pattern this whole design exists to retire (CLAUDE.md; the two
+    # live fabrication fixes, commits fbb6557/763c48d) is participant-
+    # facing data embedded directly in a page's own <script> block instead
+    # of generated from records/<code>/ at compile time. cic-website/
+    # atlas-v3.html already has exactly this pattern (`const DATA = {...}`)
+    # and has not been migrated yet - that migration is a separate, later
+    # stage - so this job fails only on a NEW instance of the pattern
+    # appearing somewhere else, via tools/embedded-world-data-baseline.txt
+    # (the same baseline/allowlist shape tools/check_paths.py already
+    # uses), never on the one pre-existing, already-known instance.
+    name: No new embedded-world-data anti-pattern (cic-website)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python tools/check_no_embedded_world_data.py --baseline tools/embedded-world-data-baseline.txt
