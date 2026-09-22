@@ -8,19 +8,19 @@
  * proof that the flag is off by default and the legacy renderer's own
  * completeness gap is what these fixtures are written against.
  */
-import { render } from '@testing-library/react';
+import { fireEvent, render } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
 import type { Citation, SourceCard, TransparencyAnchor, TransparencyPlan } from '../types/conversation';
 
 vi.mock('../lib/flags', () => ({ useAnchorRenderer: true }));
 const { VoiceTurnBody } = await import('./VoiceTurnBody');
 
-function card(recordId: string, recordType: string, label: string): SourceCard {
-  return { record_id: recordId, record_type: recordType, label, sources: [] };
+function card(recordId: string, recordType: string, label: string, confidence?: Record<string, unknown> | null): SourceCard {
+  return { record_id: recordId, record_type: recordType, label, sources: [], confidence };
 }
 
-function citation(sentence: string, recordId: string, recordType: string, label: string): { citation: Citation; card: SourceCard } {
-  const c = card(recordId, recordType, label);
+function citation(sentence: string, recordId: string, recordType: string, label: string, confidence?: Record<string, unknown> | null): { citation: Citation; card: SourceCard } {
+  const c = card(recordId, recordType, label, confidence);
   return { citation: { sentence, record_ids: [recordId], sources: [c] }, card: c };
 }
 
@@ -204,5 +204,35 @@ describe('VoiceTurnBody - anchor-driven renderer (Stage 3c)', () => {
     expect(storyMarks).toHaveLength(2);
     expect(storyMarks[0].classList.contains('citation-mark--contested')).toBe(false);
     expect(storyMarks[1].classList.contains('citation-mark--contested')).toBe(true);
+  });
+
+  it('Stage 6b: the Level 2 card shows the plain formation_confidence phrase for the cited record', () => {
+    const s0 = citation('A contested claim.', 'fix.story.thin', 'story', 'Thin Story', { formation_confidence: 'Contested' });
+    const transparency: TransparencyPlan = {
+      world_key: 'fix',
+      anchors: [{ ...anchor('fix.story.thin', 'story', 0, 0, false), confidence: { formation_confidence: 'Contested' } }],
+      references: [s0.card],
+      unverified_claims: { count: 0, sentence_indexes: [] },
+    };
+
+    const { container, getByText } = render(<VoiceTurnBody text={s0.citation.sentence} citations={[s0.citation]} transparency={transparency} />);
+
+    fireEvent.mouseEnter(container.querySelector('.story-mark')!);
+    expect(getByText('Historians disagree about this.')).toBeInTheDocument();
+  });
+
+  it("Stage 6b: a card with no confidence envelope shows no phrase line (never invents one)", () => {
+    const s0 = citation('A claim with no confidence data.', 'fix.story.nodata', 'story', 'No-Data Story');
+    const transparency: TransparencyPlan = {
+      world_key: 'fix',
+      anchors: [anchor('fix.story.nodata', 'story', 0, 0, false)],
+      references: [s0.card],
+      unverified_claims: { count: 0, sentence_indexes: [] },
+    };
+
+    const { container } = render(<VoiceTurnBody text={s0.citation.sentence} citations={[s0.citation]} transparency={transparency} />);
+
+    fireEvent.mouseEnter(container.querySelector('.story-mark')!);
+    expect(container.querySelector('.story-mark__confidence')).toBeNull();
   });
 });
