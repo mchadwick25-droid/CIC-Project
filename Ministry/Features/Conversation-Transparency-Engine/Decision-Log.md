@@ -1635,3 +1635,88 @@ additive.
 interview path's own empty-text case (pre-existing, unrelated to this
 guard). No attempt to fix `L2-each-of-you`. No promotion decision - "Mark
 decides whether promotion waits for it," per his own instruction.
+
+**Entry 48 — 2026-09-22.** Mark's own half of R17's required seeker
+read-through, on `cic-engine-staging` at current `main`, his own
+six-item checklist:
+
+1. **Pass.** Leave stayed available while an interview answer was in
+   flight, and closed cleanly.
+2. **Pass.** Leave worked mid-round at the Table.
+3. **Pass.** ✲ marks present; General References opened with text.
+   **Correction to this checklist's own wording, not the code:** glossed
+   terms actually render as plain Tyrian-purple text with no underline
+   (`.name-bridge-mark`'s own `text-decoration: none`, `app.css`) - the
+   "dotted underline" description came from the original design spec
+   (`CiC_Full_UX_Design_V1_0.md` §4.3-4.5, `CiC_Full_UX_Storyboard_V1_0.md`
+   §2.4), never updated when the shipped implementation diverged from it.
+   The CSS is identical on `live` and `main` - no drift, nothing to fix in
+   code.
+4. **Pass.** No `VITE_*` variables set on staging - the flag was reading
+   its real, unconfigured default the whole time this checklist ran.
+5. **Pass.** The Table closed after 3 rounds; the closing line said 3.
+6. **Pass.** rzg: *"Hard weeks are not a contest, and I will not line
+   yours up next to ours as though only the sharper suffering deserves to
+   be named."*
+
+**Two further findings from the same session, neither a checklist item:**
+the first Table turn returned a 502 during a Render deploy race and
+cleared cleanly on retry - an infra timing artifact, not a code defect,
+no action taken. And: the seat-identity leak PR #408 (Entry 47) fixed was
+seen once more in this same session, **before the guard had landed** -
+consistent with Entry 47's own read that the defect is real but rare on
+Sonnet, not evidence against the fix.
+
+**Verdict: promote.** Both halves of R17's read-through are now done and
+logged (mine, Entry 46; Mark's, this entry) - the last condition Entry 41
+and Rulings-Pending.md's own R10/R17 entries named before
+`VITE_TRANSPARENCY_ANCHOR_RENDERER`'s default could flip. See Entry 49
+for that flip, done immediately after this entry per Mark's own
+instruction ("log it, then begin Stage 7").
+
+**Entry 49 — 2026-09-22.** `VITE_TRANSPARENCY_ANCHOR_RENDERER`'s default
+flipped: the anchor-driven renderer (`VoiceTurnBody.tsx`'s
+`renderFromTransparencyPlan`) is now what a participant sees by default,
+the legacy renderer only reachable by an explicit `off` or on an older
+logged turn with no `transparency` plan attached. Stage 6e (R10) is
+closed.
+
+**Gate, closed in full:** R17's own text named this as blocked on "an
+automated test [Stage 6d, PR #399] plus Mark's own read-through as a
+seeker with no background before Stage 6 ever ships." Both halves are now
+done and logged - mine (Entry 46) and Mark's (Entry 48, verdict:
+promote). No deployment config anywhere sets this variable (confirmed by
+search before Stage 6f and re-confirmed here), so the flip is a code
+change to `lib/flags.ts`, not a config one - nothing on `live` or `main`
+needs a separate deploy-side toggle.
+
+**The change itself, one line, same safety discipline inverted:**
+`useAnchorRenderer` read `=== 'on'` (default off, opt in); now reads `!==
+'off'` (default on, opt out) - a misconfigured or accidentally-empty env
+var still can never silently flip participant-facing behavior, it just
+now silently STAYS on the ruled-and-tested renderer rather than the
+legacy one.
+
+**Verified live, not just in unit tests** (both existing test files
+mock or omit the flag directly, so neither would have caught a real
+wiring mistake): local dev stack, backend and frontend, `VITE_
+TRANSPARENCY_ANCHOR_RENDERER` genuinely unset in the environment - a
+real turn against `alx` rendered 6 inline marks, a working "General
+references (1)" collapsed line, and a populated Level 2 card on tap,
+exactly the anchor renderer's own shape, with no flag set at all.
+
+**Docs corrected alongside the flip**, not left stale:
+`VoiceTurnBody.legacy-default.test.tsx`'s own docstring and `describe`
+title no longer claim the flag itself defaults to legacy (it doesn't
+anymore) - retitled to what the file actually proves now: the legacy
+renderer stays genuinely reachable whenever a turn carries no
+`transparency` plan (an older logged session, or one from before Stage
+3b), independent of the flag. `VoiceTurnBody.test.tsx`'s own
+cross-reference updated to match.
+
+**Tests:** frontend `tsc --noEmit` clean, `vitest` 28/28 (no count
+change - both existing suites were already exercising each renderer
+directly, by mock or by omission, so the flip needed no new test to stay
+covered, only the docstring correction above).
+
+Rulings-Pending.md's R10 and R17 entries updated to note this closure.
