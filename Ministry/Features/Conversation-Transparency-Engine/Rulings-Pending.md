@@ -178,7 +178,15 @@ mechanism reports only, exactly as it does today. Not revisited later.
 by disclosure type.
 
 ### R16 — Every record fleet-wide is still marked "draft" — what does that mean for confidence display?
-**Status:** RULED (c) — 2026-09-21. See Decision-Log.md Entry 29.
+**Status:** RULED, corrected — 2026-09-22. See Decision-Log.md Entry 42
+(supersedes the 2026-09-21 wording immediately below, which is Entry 29's
+own original ruling text, kept intact per this file's convention — not an
+edit to Entry 29 itself). **Promote by admission now, fleet-wide**: a
+record is ready once it sits in an admitted world's currently pinned
+package and passes every M1 gate — no longer deferred to each world's
+next real touch. `status` stays pure workflow bookkeeping; confidence
+display draws only from `formation_confidence`, never `status` (Entry
+29's part (b), unaffected).
 (a) Define what "ready" actually means and run a per-world promotion pass
 keyed to review rounds already on record. (b) Rule that `status` is pure
 workflow bookkeeping and confidence display should draw only from the
@@ -201,7 +209,10 @@ test so no future change can silently stack past it — plus Mark's own
 read-through as a seeker with no background before Stage 6 ever ships.
 
 ### R18 — The onboarding text overclaims what the honesty check actually does
-**Status:** RULED (a) — 2026-09-21. See Decision-Log.md Entry 29.
+**Status:** RULED (a), text corrected — 2026-09-22. See Decision-Log.md
+Entry 44 (the exact ruled `SYSTEM_NATURE`/`about.html` replacement text,
+superseding PR #383's same-day-earlier reword below — not an edit to
+Entry 29 itself).
 Today's line tells a participant every claim is "checked against the
 record it came from" — true only in the sense of word-overlap, not
 truth-verification. (a) Reword now to describe what the mechanism
