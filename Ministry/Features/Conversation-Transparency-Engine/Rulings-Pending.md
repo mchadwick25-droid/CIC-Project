@@ -270,3 +270,51 @@ rzg as already covered. Fixed word-boundary, per Decision-Log.md Entry
 31; rzg moved from "carries" to the gap list here.) Editing any
 `voice_craft.guard` field is a Representative-voice change (`Build-Plan.md`'s
 own escalation category), so no world's guard text is touched here.
+
+### R26 — May a Representative speak about another tradition, or claim a doctrine its own world's records don't hold?
+**Status:** RULED — 2026-09-22. Mark's own words, via the reviewer
+thread's standing authorization (see Decision-Log.md Entry 50):
+> "The representative should only know its own sources unless they would
+> have known the sources from another in reality."
+
+**Ruled shape:** on a first ask about another Christian tradition — if
+the asked world's own records hold nothing on it, the voice answers
+*"Our record doesn't mention that Christian tradition."* and then
+answers the rest of the question from its own records. If the records
+do hold something, the voice speaks only from those records, cited. The
+Facilitator's existing `other_tradition` etic turn stays as the
+mechanism for a second press.
+
+**Origin, the real staging defect this closes:** `cic-engine-staging`,
+Theon/alx asked "what was your relationship with the donatists"; alx
+holds zero records mentioning Donatists (grep-confirmed). The voice
+described Donatist history uncited, and attributed to Alexandria itself
+a sacramental doctrine no alx record holds ("what the sacrament does,
+it does by Christ's power, not the minister's purity"; "even a broken
+priest could not block his grace") — Augustine's own doctrine, a
+century later, not alx's.
+
+R26's two violation shapes (a neighbour tradition named without
+citation; a doctrine belonging to a different world asserted as the
+answering world's own, inside an `other_tradition` turn) are not a
+separate guard — they are violation classes inside R27's own check.
+
+### R27 — A hard requirement: every declarative claim sentence carries a citation
+**Status:** RULED (option A) — 2026-09-22. Via the reviewer thread's
+standing authorization (see Decision-Log.md Entry 50).
+
+**Ruled:** every declarative claim sentence in a voice turn must carry a
+citation, or be one of a short, closed list of allowed uncited kinds:
+(1) an honest-limit sentence — R26's own form above, and the world's
+existing honest-limit forms; (2) a question back to the participant;
+(3) first-person framing that makes no historical or doctrinal claim.
+Deterministic check, no new model call (Constraint A holds — see
+Decision-Log.md Entry 51 for the exact detection design).
+
+**Rollout, report-only first:** ships report-only for one week to
+measure the real per-world uncited-claim rate, then enforced with the
+seat-guard's own shape (regenerate once with the violations named, then
+the Facilitator takes the turn). Mark sets the enforcement threshold
+once the measured rate is in (build order item 4, Decision-Log.md Entry
+51). Full build order, engineering detail, and the R26 first-ask
+directive wiring: Decision-Log.md Entry 51.

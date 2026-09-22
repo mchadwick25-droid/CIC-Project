@@ -1720,3 +1720,212 @@ directly, by mock or by omission, so the flip needed no new test to stay
 covered, only the docstring correction above).
 
 Rulings-Pending.md's R10 and R17 entries updated to note this closure.
+
+**Entry 50 — 2026-09-22.** Two governance rulings from Mark tonight,
+relayed via the reviewer thread ("CiC — Tech Review & Funding Readiness
+Prep") under Mark's own standing authorization (pasted into this session
+2026-09-22: that thread "speaks for me on merge orders, fix lists,
+sequencing, and pass/fail verdicts... participant-facing words,
+Representative identity, governance and methodology, and unresolved
+tensions still go to Mark himself" - both rulings below are Mark's own
+words, this entry only records them).
+
+**R26 — may a Representative speak about another tradition, or claim a
+doctrine its own world's records don't hold.** Mark's own words:
+
+> "The representative should only know its own sources unless they would
+> have known the sources from another in reality."
+
+Ruled shape: on a first ask about another Christian tradition, if the
+asked world's own records hold nothing on it, the voice answers "Our
+record doesn't mention that Christian tradition." and then answers the
+rest of the question from its own records. If the records do hold
+something, the voice speaks only from those records, cited. The
+Facilitator's existing `other_tradition` etic turn stays as the
+mechanism for a second press.
+
+**The real defect this closes**, found on `cic-engine-staging`: Theon/alx
+asked "what was your relationship with the donatists." alx holds zero
+records mentioning Donatists (grep-confirmed). The voice described
+Donatist history uncited, and separately attributed to Alexandria itself
+a sacramental doctrine no alx record holds - "what the sacrament does,
+it does by Christ's power, not the minister's purity"; "even a broken
+priest could not block his grace" - which is Augustine's own doctrine, a
+century later than alx's own world, not alx's to claim.
+
+**R27 — a hard requirement: every declarative claim sentence carries a
+citation.** Ruled option A: every declarative claim sentence in a voice
+turn must carry a citation, or be one of a short, closed allowed-uncited
+list - the honest-limit sentence (R26's own form, and the world's
+existing honest-limit forms), a question back to the participant, and
+first-person framing making no historical or doctrinal claim.
+Deterministic check, no new model call. R26's two violation shapes (a
+neighbour tradition named without citation; a doctrine belonging to
+another world asserted as the answering world's own, inside an
+`other_tradition` turn) are violation classes inside R27's own check, not
+a separate guard.
+
+**Rollout:** report-only for one week to measure the real per-world
+uncited-claim rate, then enforced with the seat-guard's own shape
+(regenerate once with the violations named, then the Facilitator takes
+the turn) - the same pattern PR #408 (Entry 47) already built and proved.
+Mark sets the enforcement threshold once the measured rate is in.
+
+Both rulings recorded in `Rulings-Pending.md` (new R26, R27 entries)
+alongside this one. Full engineering design for R27's detection
+mechanism and the build order - each item its own PR, three-round review
+cap per PR - in Entry 51.
+
+**Entry 51 — 2026-09-22.** R27 build order item 1: the detection design
+for "every declarative claim sentence carries a citation, or is one of a
+short allowed-uncited list" (Rulings-Pending.md R27, Entry 50). No code
+in this entry - the check module itself is item 2, its own PR. Everything
+below was verified against the real modules it reuses, not assumed.
+
+**Input: reuse `engine.m4.grounding_net.check_turn`'s own per-sentence
+output, not a second splitter.** `check_turn` already runs
+`parse_tagged()` (the production sentence+tag splitter grounding_net.py
+itself is built around - quote-balanced, tag-aware) and returns
+`net_result["sentences"]`, one `{"sentence": str, "tags": list[str],
+"verdict": "ok"|"withhold", "why": str|None}` per sentence. The R27
+module takes this same list as input (computed once, already in
+`engine.m4.turn._run_ordinary_voice_turn` before `apply_net`), not the
+raw text again - two independent sentence-splitters risking disagreement
+is a real correctness class of bug this avoids by construction, the same
+"one implementation, owned once" discipline `claim_markers` itself
+already follows. **Scoped to `verdict == "ok"` sentences only** - a
+`withhold`ed sentence never reaches the participant (apply_net drops it),
+so R27 has nothing to check in one that was never shown.
+
+**"Carries a citation"** = `bool(sent["tags"])`. Simple; already computed.
+
+**The three allowed-uncited kinds, in the order checked:**
+
+1. **A question back to the participant** - `sentence.strip()` ends in
+   `?` (trailing quote/bracket chars stripped first). Deterministic, no
+   open question here.
+
+2. **An honest-limit sentence.** Two sub-cases, both real, both
+   verified:
+   - R26's own new fixed sentence, exact (case-insensitive) match:
+     `"our record doesn't mention that christian tradition"`. This is
+     the literal directive text item 2 wires into the `other_tradition`
+     first-ask path (below) - the voice is TOLD to say these words, so
+     an exact match is the right bar, not a guess.
+   - **The fleet's own existing honest-limit vocabulary already exists
+     and is already calibrated** - `engine.prose.SCAFFOLD_MARKERS` (16
+     phrases: "we do not have", "we cannot", "we will not draw one", "we
+     find none of these", etc.) and `SELF_NAMING_MARKER`, the exact list
+     `grounding_net.verdict_for_sentence` already uses for its own
+     `"exempt: honesty scaffolding"` verdict, calibrated against 17 real
+     live turns per that module's own docstring. Reusing this list
+     directly is a stronger design than a new keyword set built from
+     nothing: it's already fleet-proven vocabulary, not a guess at what
+     an honest-limit sentence sounds like. (`evidence.py`'s own
+     `honest_limit` record type is a normally-CITED record - a
+     properly-generated honest-limit sentence usually already carries
+     its own `[[honest_limit.id]]` tag and passes R27 on citation alone;
+     this category is the safety net for the case where the voice
+     paraphrases one without carrying the tag forward - a real, already-
+     seen failure shape this whole workstream exists to catch.)
+
+3. **First-person framing making no historical or doctrinal claim.**
+   Sentence opens (first token, case-insensitive) with a first-person
+   subject - `i`, `i'd`, `i've`, `i'll`, `i'm`, `we`, `we'd`, `we've`,
+   `we'll`, `we're`, `my`, `our` - **and** `engine.prose.claim_markers
+   (sentence)` returns empty. `claim_markers`'s own docstring: "empty
+   result means it's interpretive/values framing - skip it outright" -
+   exactly category 3's own definition, and reusing it here (unlike as
+   the overall gate below) is a direct, justified fit.
+
+**Verified finding that shapes the whole design - `claim_markers` cannot
+be R27's own overall gate.** The natural first instinct is "a sentence
+needs a citation only when `claim_markers` flags it as a claim" - tested
+directly against the R26 motivating sentences and it fails:
+```
+claim_markers("What the sacrament does, it does by Christ's power, not the minister's purity.")
+  -> ['proper-noun:["christ\'s"]']   # catches, but only by an accident of
+                                      # the possessive form slipping past
+                                      # _is_common_vocab's bare "christ" check
+claim_markers("Even a broken priest could not block his grace.")
+  -> []                              # MISSES - a real, uncited doctrinal
+                                      # claim, zero markers
+```
+The second sentence is exactly the shape R26/R27 exist to catch and
+`claim_markers` alone returns nothing. `claim_markers` was built for a
+narrower job (grounding-ratio gating on strongly-attributable factual
+claims) with a default-EXEMPT polarity ("empty means skip it"); R27's own
+ruling is the opposite polarity by construction ("every declarative claim
+sentence... must carry a citation, or be one of a short list"): default-
+REQUIRED, narrow exemption. So the module is built as: not-a-question,
+not-an-honest-limit, not-first-person-without-a-claim -> requires a
+citation, full stop - never "only if claim_markers agrees." `claim_markers`
+is reused only inside category 3's own narrower question, where its
+actual, verified meaning ("no checkable claim") is exactly what's being
+asked.
+
+**R26's own two violation classes are caller-side labels on top of the
+same base check, not separate detection:**
+- `neighbour_named` - an `uncited_claim` sentence that also names another
+  admitted world's own `card_name`/representative name (the same fleet
+  name list `engine.api.table_wiring._labels` and
+  `facilitator_turns.table_door_turn` already build from the registry -
+  item 2 reuses that construction, not a new list).
+- `own_doctrine_in_other_tradition_turn` - an `uncited_claim` sentence
+  inside a turn routed via the `other_tradition` out-of-scope
+  classification (`engine.m5.routing.PRESSABLE_CLASSES`). This is
+  ROUTING context, not sentence content - the caller (which already
+  knows `gate_result.routing`) attaches the class, the detection module
+  itself stays pure (sentences in, offenses out, no routing knowledge).
+
+**Routing, checked directly against `engine/m5/routing.py`'s own
+`route()` before writing anything about it here - the first draft of
+this paragraph guessed wrong and was corrected before committing.** The
+routing shape R26 wants already exists: `other_tradition` (a
+`PRESSABLE_CLASSES` member) routes to `voice_with_directive` - an
+ordinary in-world voice answer - on the first ask (`route()`'s own
+`reason=f"{out_of_scope_class}, first ask - in-world answer"`), and only
+to the Facilitator's `etic_turn` on a second press
+(`pressed.get(out_of_scope_class)`). Nothing in the routing table itself
+needs to change for R26. What's actually missing: `assemble_directive`
+(the function that builds the first-ask's own directive) builds a plain
+directive today - asks, register note, ambiguity options - with **no
+special instruction for the other-tradition case at all**, which is
+consistent with how the real staging defect happened: the voice, given
+no guardrail distinguishing this question from an ordinary one, answered
+freely. Item 2's real work here is a new directive component (same shape
+as `table_engagement`/`figures_already_named` in
+`engine.m4.turn._build_turn_directive` - an additional instruction
+string, not a routing change) carrying R26's own rule and its exact
+fixed sentence, added specifically on an `other_tradition` first ask.
+
+**Event shape, new type in `engine.m4.events`:**
+```
+"uncited_claims": {"speaker", "offenses"}
+```
+`offenses`: list of `{"sentence": str, "class": "uncited_claim" |
+"neighbour_named" | "own_doctrine_in_other_tradition_turn"}`. **A real
+gap in the existing schema, flagged for item 2:** `events.py`'s own
+`ENUMS` mechanism validates `(event_type, field) -> {value}` against a
+scalar payload value - it has no way to constrain a value living inside a
+list of dicts. Item 2 either extends `validate()` to walk `offenses[].class`
+against a closed set, or accepts this one field unvalidated at the schema
+layer (relying on the module's own tests for correctness instead) -
+item 2's own call, not a blocker on this design.
+
+**Facilitator turns are never checked** - `facilitator_turns.py`'s own
+templates are code-owned, never model-generated (same discipline
+`output_check.py` and the seat-identity guard both already rest on); the
+R27 module only ever runs on `voice_turn` text.
+
+**Report-only in this PR, per Rulings-Pending.md R27:** item 2 writes the
+`uncited_claims` event, nothing participant-visible changes. Item 4
+(live battery + M8 cost-study prompts, check on) is where the real
+per-world rate gets measured - the `SCAFFOLD_MARKERS`-based honest-limit
+detection above is a first pass calibrated on prior evidence, not this
+specific check; that measurement is exactly where a real gap in it would
+show up as an inflated false-positive rate, safely, before anything
+enforces.
+
+Next: item 2, its own PR, three-round review cap per Mark's own
+standing rule (CLAUDE.md, "Scaling the build").
