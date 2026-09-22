@@ -180,7 +180,9 @@ def create_table_session(
         {
             "representative_name": w.frame["representative"]["name"],
             "role_label": w.frame["representative"]["role_label"],
-            "display_name": w.frame["display_name"],
+            # card_name over display_name: see door_turn's own docstring
+            # (Built-World Voice Alignment, Mark's ruling 2026-09-17).
+            "world_name": registry[w.world_key].get("card_name") or w.frame["display_name"],
         }
         for w in worlds
     ]

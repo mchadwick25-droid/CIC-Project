@@ -55,12 +55,50 @@ OBSERVATION = "observation"
 # this one is known, it is written up, and it is somebody's named next step -
 # not that it is acceptable. See the audit doc for each finding's evidence.
 ACCEPTED_OPEN: dict[str, str] = {
-    # F-06 CLOSED for alx/pahc/ijc 2026-09-21 (website-card-redesign-to-main): each
-    # world's own world_front/world_core build resolved its Living Tradition
-    # determination, and the compiled census `living` flag now matches the
-    # registry's `living_tradition_flag` for all three - the waiver no longer fires.
-    "census-living-flag/hal": "F-06 - census `living` says false, registry says true; which is correct is a per-world Living Tradition touchpoint, not a build thread's to settle",
-    # F-07/F-08 CLOSED 2026-08-28: the registry wins - the census now derives its representative name/title from
+    # ijc CLOSED 2026-09-20: census `living` synced true -> matches
+    # registry. ijc's own construction record (Doc_01 SS1,
+    # ijc.core.imperial-juridical) had explicitly disclosed `true` as a
+    # fail-safe default pending Mark's own Article 29 confirmation -
+    # unlike alx/pahc below, this one had genuinely never been made. Put
+    # to Mark directly using pahc's own four-option framing; ruling:
+    # "Multiple traditions, partial claims" (Roman Catholic + Eastern
+    # Orthodoxy). ijc_World_Profile.md SS9 updated PENDING->CONFIRMED;
+    # see worlds/ijc/Open_Gaps_Tracking.md for the full record. F-06 is
+    # now closed across all four of its original instances.
+    #
+    # alx CLOSED 2026-09-20: census `living` synced true -> matches
+    # registry, which was already correct - Mark confirmed Article 29
+    # Living Tradition Status in session 2026-07-17 (Coptic Orthodox
+    # Church as primary heir), independently corroborated across Doc_01,
+    # the World Profile, Open_Gaps_Tracking.md OG-1, the Facilitation
+    # Brief, and the M1 record alx.force.chalcedonian-fracture. The
+    # census's false was simply never updated after that confirmation.
+    #
+    # pahc CLOSED 2026-09-20: census `living` synced true -> matches
+    # registry, which was already correct - Mark confirmed Living
+    # Tradition Status in session 2026-07-08, via a direct, deliberated
+    # choice among four options ("Multiple traditions, partial claims":
+    # Roman Catholic and Eastern Orthodox apostolic-succession claims,
+    # certain Anglican/episcopal-polity traditions, more loosely any
+    # tradition drawing on the Apostolic Fathers), recorded in
+    # CiC_W1_World_Profile.md SS9 with a documented tooling-failure/retry
+    # history. See worlds/pahc/Open_Gaps_Tracking.md item 2.
+    #
+    # hal CLOSED 2026-09-20 by Mark's ruling: false, matching the
+    # construction-stage documents' own reasoned "confirmed NO" finding
+    # (two named candidates considered and rejected) over the registry's
+    # unreviewed true default. records/worlds/hal.yaml's own
+    # living_tradition_flag flipped to false to match the census, which
+    # already had this right (worlds/hal/Open_Gaps_Tracking.md item 1).
+    #
+    # Corroborated independently 2026-09-21 (website-card-redesign-to-main,
+    # PR #351): alx/pahc/ijc's own world_front/world_core build separately
+    # resolved the same Living Tradition determinations and found the
+    # compiled census `living` flag already matching the registry for all
+    # three by the time that PR landed on main - two independent paths
+    # reaching the same closure, not a second, competing ruling.
+    # F-07/F-08 CLOSED 2026-08-28 by Mark's identity ruling ("the registry
+    # wins"): the census now derives its representative name/title from
     # records/worlds.yaml (syr's registry entry took the ruled values Mar
     # Yausep / Teacher of the Covenant Order), so these five accepted-open
     # entries are deleted and the checks ENFORCE - identity drift between

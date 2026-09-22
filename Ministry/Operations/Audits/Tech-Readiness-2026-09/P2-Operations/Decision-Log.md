@@ -118,3 +118,37 @@ CiC_Demo_Conversation_Captures_V0_1.md`'s own citation of
 `.claude/launch.json` — left untouched: it predates this package, belongs
 to whichever thread owns that file, and the check tool itself only reports
 it rather than failing on it).
+
+**Entry 10 — 2026-09-22.** Change of plan from the reviewer thread, after an
+unshallowed check: the real `main`/`live` merge base is `20264dec` (PR #327,
+2026-09-20) and a plain merge is textually clean in both directions —
+directed doing the full reconciliation as one merge PR instead of Entry
+32/33's own three-PR reconciliation-then-promote plan. Verified before
+acting, not taken on faith (per this package's own standing rule, Entry 1):
+the merge-base commit checked out exactly as stated; a real dry-run merge
+(`git merge origin/live --no-commit --no-ff` off `main`, then aborted
+cleanly) found actual conflicts the "textually clean" framing didn't
+predict — reported back before proceeding rather than silently reconciling
+the discrepancy either way.
+
+**Entry 11 — 2026-09-22.** The dry-run merge's real conflicts, and how each
+was handled — full detail and file list in
+`Ministry/Features/Conversation-Transparency-Engine/Decision-Log.md` Entry
+34, logged there since the conflicts sit in that workstream's own files.
+Summary: `cic-poc/frontend` genuinely was clean (verified against the real
+base, correcting this package's own prior turn's wrong claim that it needed
+three-way judgment); 4 code files had real, resolvable conflicts (unioned
+or the more-complete/accurate side kept, reasoned individually); 12
+registry files' package pins were resolved toward `main` then all 12 worlds
+rebuilt fresh rather than trusting either side's pin; 4
+`Open_Gaps_Tracking.md` files were add/add and unioned (nothing dropped);
+6 further add/add record conflicts, first framed to the user as needing
+fleet-build-thread scholarly judgment, turned out on full-file diffing to
+be false alarms (5 a completed schema migration `main` already had, 1 a
+line-wrap) — that framing was this package's own error, corrected before
+resolving them. One real regression (a blanket registry-pin resolution
+briefly re-broke an already-fixed `hal.yaml` field) was caught by the
+existing `engine/m1/tests/test_cross_world.py` drift check before this PR
+opened, not after. Final state: full suite 895/895, `engine.m1.cross_world`
+0 new defects, `engine.m9.cli check` clean, `tools/check_paths.py` 0 new
+unresolved citations.

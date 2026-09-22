@@ -1324,3 +1324,81 @@ without any test catching the drift either way. `engine/m4/tests/
 test_facilitator_turns.py` (new) pins the three ruled sentences verbatim
 and asserts the R18-defect phrasing they replaced does not reappear.
 `engine/m4` and `engine/m5` suites: 437 passed (435 + 2 new).
+
+**Entry 45 — 2026-09-22. Correction to Entry 33.** After an unshallowed
+check, the reviewer thread found the real merge base is the 2026-09-20
+merge of PR #327 (`20264dec`), not the stale shallow-clone comparison
+Entry 32/33 were working from, and directed a plain `git merge origin/live`
+into a branch off `main` instead of the reconciliation-PR approach Entry 33
+described. **A merge PR does not revert live-only content** — Entry 33's
+"risk the merge resolving `engine/m2/`, `engine/m6/`, and `cic-website/`
+toward `main`'s side" concern does not apply to an actual 3-way merge (only
+to a naive "copy specific paths from main" approach, which was never
+attempted). Executed and verified:
+
+- `cic-poc/frontend`: confirmed zero changes on `live`'s side since the
+  real base — the 28-file diff against `main` is entirely `main`'s own
+  independent evolution (Stage 0b/3c and others); nothing of `live`'s own
+  to lose there.
+- Real conflicts, resolved: `.github/workflows/ci.yml` (two independently
+  added CI job blocks, unioned), `engine/m1/cross_world.py` (`live`'s
+  fuller `ACCEPTED_OPEN` closure for ijc/alx/pahc/hal kept over `main`'s
+  incomplete one, which had left the now-stale `census-living-flag/hal`
+  waiver active), `engine/m2/builders.py` (same exclusion set, live's
+  fuller comment kept), `engine/m4/facilitator_turns.py` (`live`'s docstring
+  update kept — `main`'s claimed a `{display_name}` DOOR template slot that
+  doesn't exist anywhere in the actual, shared, unconflicted code).
+- `records/worlds/*.yaml` (12 files) and their package manifests: resolved
+  toward `main`, then all 12 worlds rebuilt fresh
+  (`engine.m2.cli build` + repin) rather than trusting either side's stale
+  pin — `engine.m2.cli staleness-check` passes clean on all 12. Two more
+  rounds of the same conflict landed concurrently while this merge was in
+  progress (this file's own Entries 34 and 36 above, the R19 retrofit's
+  10-world repin and Stage 6a's 11-world repin) — each resolved the same
+  way and rebuilt fresh again; the third round resolved toward this
+  branch's own accumulated state rather than the incoming side, to stop
+  re-breaking the `hal` fix below on every fresh round of the identical
+  pin conflict.
+- 4 `worlds/*/Open_Gaps_Tracking.md` files (desert, gallic, hal, pahc) were
+  add/add conflicts — `live` had independently created each from scratch,
+  unaware of this world's own existing OG-numbered history. Unioned, not
+  chosen between: `live`'s entries appended and renumbered to continue each
+  file's own sequence, nothing dropped.
+- 6 further add/add record conflicts, initially thought to need this
+  workstream's or a build thread's own scholarly judgment (Report.md's
+  original framing) — checked against the real base and found to be
+  false alarms: 5 were `main` simply ahead of `live` on the completed
+  Stage 4a R11 schema split (Entry 24), one was a pure line-wrap
+  difference. No scholarly call was actually needed; resolved toward
+  `main` (options and their outcome logged in `Ministry/Operations/Audits/
+  Tech-Readiness-2026-09/P2-Operations/Decision-Log.md`).
+- One real regression, caught three times, fixed three times, before any
+  of the three merges committed: a whole-file "take one side's version"
+  resolution of the registry files' package-pin conflict reverts whatever
+  `hal.yaml`'s own `living_tradition_flag` happens to read on that side —
+  a field the pin conflict itself never touches, but a whole-file pick
+  clobbers regardless. Caught each time by `engine/m1/tests/
+  test_cross_world.py`'s own drift check before committing, fixed each
+  time, hal rebuilt again each time, full suite re-run.
+- Full suite: 895/895 passing. `engine.m1.cross_world`: 0 new defects.
+  `engine.m9.cli check`: clean. `tools/check_paths.py`: 0 new unresolved
+  citations (2 baseline entries added for package-timestamp citations that
+  went stale purely from the fresh rebuild above, one dangling citation in
+  the merged `hal` Open_Gaps entry repointed to
+  `Archive/Ministry-Early-Days-2026-07/Scholarly-Review/` — `main`'s own
+  prior, deliberate archive move of that file, not a broken reference).
+
+This workstream's own coordination boundary held throughout: no edits to
+`engine/m4/`, `records/` content, or the frontend renderer beyond what the
+merge itself brought in verbatim from `live`; the four files this entry
+lists as "resolved" in `engine/m1/`, `engine/m2/`, and `.github/` are the
+only hand-edited conflict resolutions, and none of them touch this
+workstream's own in-flight Stage 5+/6 work. (Numbered 45, not 34, 37, 38,
+39, 40, 41, or 42 as earlier drafts had it — this workstream landed its
+own Entries 34–36 concurrently across two more merge rounds; five further
+rounds of `main` then landed their own entries above claiming 37, 38, 39,
+40/41, and finally 42–44 in turn (PR #397, PR #399, PR #395, PR #398, and
+PR #390 respectively) — every one of them landing on `main` while this
+branch's own merge was still open; renumbered each time on merge per this
+file's own "never renumber a past entry" rule, which binds the later
+arrival.)
