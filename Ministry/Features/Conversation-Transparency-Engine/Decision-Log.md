@@ -1402,3 +1402,83 @@ PR #390 respectively) — every one of them landing on `main` while this
 branch's own merge was still open; renumbered each time on merge per this
 file's own "never renumber a past entry" rule, which binds the later
 arrival.)
+
+**Entry 46 — 2026-09-22.** Stage 6f, my own half of R17's required
+seeker read-through: 3 real conversation turns per admitted world (11
+worlds, 33 turns total), run locally against a dev server rather than
+staging (no staging access this session; per Mark's direct instruction
+this stands as the read-through, not a placeholder for one on
+`cic-engine-staging`) - `engine.api.app` on `:8000` (region `us-east-1`,
+`CIC_ENFORCE_ADMISSION=1`) behind the frontend's own dev proxy, with
+`VITE_TRANSPARENCY_ANCHOR_RENDERER=on` so the not-yet-defaulted anchor
+renderer is what actually rendered every turn.
+
+**Method:** a genuinely free-text seeker, not the starter chips - 3
+varied, in-character questions per world (identity/basic, personal,
+and a skeptical/outside-framed challenge), typed and sent through the
+real composer, waiting for each real model response. Driven by a small
+Playwright script (Chromium, 420px viewport - the participant's own
+phone width) rather than by hand, so all 33 turns could run against the
+same real backend in one pass; the reading and judgment on each
+transcript is my own, not the script's. Captured per turn: the full
+rendered text, inline mark count, contested/repeat mark counts,
+General References label, and (tapping up to 2 marks per turn, 54 taps
+total) the actual Level 2 card content a participant would see on tap.
+Two turns (witt, rzg) hit the script's own 90s timeout under parallel
+load on the first pass and were re-run individually, cleanly, right
+after - a driver-script artifact, not a product one.
+
+**Findings, all clean:**
+
+- **No AI tells.** Scanned all 33 transcripts against a list of common
+  disclaimer/hedge/assistant-voice phrases ("as an AI," "I cannot," "please
+  note," "as a language model," "unverified," etc.) - one match, a false
+  positive ("Augustine sent the story... as a warning:" in hal's own prose,
+  a narrative use of the word, not a label). Every voice turn read as the
+  world's own distinctive register - concrete, first-person, no hedging
+  filler, no generic-AI flatness. The two-track hedge distinction (Stage
+  6b/6c's own ground) held: Facilitator turns speak plainly from outside
+  every world ("Papnoute answers only from what's actually known of this
+  world, and will tell you plainly when the record runs out"), Representative
+  turns never break character to hedge.
+- **Confidence phrases (Stage 6b) work and read naturally in real content,**
+  not just fixtures: sampled Level 2 cards actually returned "Recorded
+  directly in a source from the time.", "Historians disagree about this.",
+  and "Based on thin evidence, mostly inference." on real citations, each
+  attached to real source attribution text, not a bare label.
+- **R9's hollow-glyph contested mark and R10's repeat mark both engaged on
+  real generated content** (not only Stage 6d's seeded fixture) -
+  contested marks appeared in 8 of 33 turns, repeat marks in 9 of 33.
+  Visually, per `app.css`'s own design (`.citation-mark--contested`: same
+  color, same size, `-webkit-text-stroke` hollow rather than a new color
+  or glyph): quiet, easy to miss unless looked for, never alarming.
+- **R17's cap held under real pressure.** 6 of the 33 turns (all 3 of hal's,
+  1 each of cappadocian/gallic/ijc) landed their rendered mark count
+  exactly on the computed cap (`max(3, min(8, ceil(sentences/2)))`) -
+  the densest real content this pass produced. Every one of those still
+  read as complete, coherent prose with a sensible General References
+  count (1-7 across all 33 turns, always the one collapsed line, never a
+  scattered list) - nothing read as visibly cut short or missing a
+  citation it should have had.
+- **The ✲ mark explainer (Stage 6e, Entry 41) is live and correct** in
+  every one of the 11 worlds' Arrival screens sampled.
+- **54 of 54 sampled mark taps opened cleanly** - real Level 2 card
+  content every time, zero broken taps, zero empty cards.
+
+**One friction note, not a defect:** on the 420px viewport, a Level 2
+card can visually sit over part of the paragraph underneath it while
+open (the card is a positioned overlay, per `Level2Card.tsx`'s own
+design) - a participant reads it as a normal tap-to-reveal popover (tap
+elsewhere closes it, the text underneath was never altered), but it's
+worth a look if a future pass wants the card to reflow rather than
+overlay on narrow screens. Not blocking; not acted on here.
+
+**What this does and doesn't close:** this is my own half only. Mark's
+own read-through (`cic-engine-staging`, his own six-item checklist,
+per his direct instruction) is separate and still his to run.
+`VITE_TRANSPARENCY_ANCHOR_RENDERER`'s default stays held until both
+halves are done and logged, per R17's own "before Stage 6 ever ships"
+gate (Rulings-Pending.md) - not flipped by this entry.
+
+Raw transcripts/screenshots are local scratch (ephemeral, not
+committed) - this entry is the retained record.
