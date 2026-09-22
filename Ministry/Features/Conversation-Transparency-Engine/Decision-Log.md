@@ -1068,3 +1068,42 @@ actually ruled - flagged rather than built against, the same
 discipline Entry 38 (PR #395) applied to Stage 6c. Mark's own number,
 once set, is what the renderer fixture test (R17's other engineering
 half) will assert against; that test is not yet written. PR #397.
+
+**Entry 38 — 2026-09-22.** Stage 6e's "label copy" resolved and drafted:
+R10 (Entry 29/671) named it as a separate remaining step before
+`VITE_TRANSPARENCY_ANCHOR_RENDERER`'s default flips, but no document
+anywhere (`Adjusted-Design.md`, `Build-Plan.md`, `Rulings-Pending.md`,
+this log) ever specified what it referred to. Asked rather than
+guessed. Mark's own answer: a first-time explainer near the ✲ mark.
+
+Checked what existed before designing it: no "first-time hint"
+mechanism exists anywhere in `cic-poc/frontend/src/` - building one
+would mean a new component and new `sessionStorage`-backed state,
+competing with R17's own per-screen element budget. Put that tradeoff
+to Mark directly; his own direction: extend `Arrival.tsx`'s existing
+disclosure paragraph (already shown once, above every transcript)
+rather than add new UI - zero new component, zero new state, respects
+R17's budget by construction.
+
+`Arrival.tsx`'s own header comment states every line in its disclosure
+block is carried VERBATIM from the retired Doorway screen - "this move
+relocates approved prose, it does not compose new prose." One
+deliberate, flagged exception: a new sentence explaining the ✲ mark
+concretely (`"Look for the ✲ mark after a claim — tap it to see
+exactly where it comes from."`). **DRAFT COPY, not yet Mark's own
+word** - same discipline Stage 6b's confidence phrases (Entry 38 per
+this branch's own pre-merge numbering, since renumbered) followed.
+
+The mark itself is already live in the CURRENT default legacy
+renderer, not just the not-yet-flipped anchor renderer - so this
+explainer is correct and useful today regardless of the flag. The
+flag flip itself is explicitly NOT part of this work - held per "flip
+flag default only after their word," same as the copy above it; no
+deployment config currently sets
+`VITE_TRANSPARENCY_ANCHOR_RENDERER` at all (confirmed by search), so
+flipping it later is a deploy-config change, not a code change.
+
+New `Arrival.test.tsx` (no test file existed for this component
+before): one test pinning the explainer sentence renders. Full suite
+13/13 on this branch (cut from `main`, lacks Stage 6b's own tests -
+expected); `npx tsc --noEmit` clean. PR pending.
