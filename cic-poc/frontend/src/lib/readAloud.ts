@@ -79,6 +79,42 @@ export function cancelReadAloud(): void {
 }
 
 /**
+ * Mark's ruling, 2026-09-22 (design note Q7) - Option A, verbatim. This
+ * is the only disclosure text this project ships for read-aloud; it is
+ * not a prop some future caller can override with different wording -
+ * changing it is a change order, the same discipline every other
+ * approved participant-facing string in this project is held to.
+ * `representativeName` is interpolated the same way engine/m4/
+ * crisis_resources.py's own `{representative_name}` slot is - a real
+ * name already carried by the world, never invented here.
+ */
+export function readAloudDisclosureText(representativeName: string): string {
+  return `This reads the words on screen aloud in your device's own voice — it isn't ${representativeName} speaking.`;
+}
+
+const DISCLOSURE_SEEN_KEY = 'cic_read_aloud_disclosure_seen';
+
+// sessionStorage (not localStorage) - same "survive a reload of the same
+// tab, not a new tab" scope lib/sessionStore.ts already establishes.
+// Without this, reloading mid-conversation while the disclosure is still
+// showing would look like a second "first time" once React state resets.
+export function hasSeenReadAloudDisclosure(): boolean {
+  try {
+    return sessionStorage.getItem(DISCLOSURE_SEEN_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+export function markReadAloudDisclosureSeen(): void {
+  try {
+    sessionStorage.setItem(DISCLOSURE_SEEN_KEY, '1');
+  } catch {
+    // Private browsing / quota - the note simply shows again next time.
+  }
+}
+
+/**
  * Design note Q8: the one number this instruments is "share of
  * conversations with at least one read-aloud play." No UX-telemetry
  * pipeline exists yet in cic-poc/frontend (checked: engine/api's own

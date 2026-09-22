@@ -3,7 +3,9 @@ import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
 import { ModernTermMark } from '../components/ModernTermMark';
 import { ReadAloudControl } from '../components/ReadAloudControl';
+import { ReadAloudDisclosure } from '../components/ReadAloudDisclosure';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
+import { useReadAloudAvailability } from '../hooks/useReadAloudAvailability';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry, WorldStarter } from '../data/worlds';
 import { readAloudEnabled } from '../lib/flags';
@@ -49,6 +51,7 @@ function latestSpokenTurn(turns: ConversationTurn[]): { index: number; turn: Con
 
 export function Conversation({ world, turns, sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart }: ConversationProps) {
   const latestSpoken = readAloudEnabled ? latestSpokenTurn(turns) : null;
+  const readAloudAvailable = useReadAloudAvailability();
 
   return (
     <div className="conversation">
@@ -60,9 +63,14 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
               Not saved to an account — this conversation lives in this tab
             </div>
           )}
-          {latestSpoken && <ReadAloudControl text={latestSpoken.turn.text} turnKey={latestSpoken.index} />}
+          {readAloudAvailable && latestSpoken && (
+            <ReadAloudControl text={latestSpoken.turn.text} turnKey={latestSpoken.index} />
+          )}
         </div>
       </div>
+      {readAloudAvailable && latestSpoken && (
+        <ReadAloudDisclosure representativeName={world.representativeName} turnKey={latestSpoken.index} />
+      )}
 
       <div className="conversation__transcript">
         <Arrival world={world} />

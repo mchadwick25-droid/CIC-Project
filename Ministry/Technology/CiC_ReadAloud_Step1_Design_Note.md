@@ -1,8 +1,14 @@
 # Read-Aloud, Step 1 — Design Note
 
-**Status: PROPOSED, awaiting Mark.** Nothing here ships until Mark rules on
-Q7 (the disclosure sentence) and the flag is deliberately turned on for a
-real environment. `VITE_READ_ALOUD` defaults off everywhere.
+**Status: RULED 2026-09-22, awaiting Stage 7 and a real-browser check.**
+Mark ruled on Q7 — Option A, exactly, shown as a visible line under the bar
+(§7 below, updated). What's still open is not a decision but two
+verifications: the Conversation Transparency Engine thread's Stage 7
+(streaming) landing on `main`, and Mark hearing the control actually speak
+in a real browser against a live `engine/api` backend. The PR
+(`read-aloud-step1` → `main`) stays a draft until both are true.
+`VITE_READ_ALOUD` defaults off everywhere and is not set in any deploy
+config (`render.yaml` checked — no reference to it).
 
 **Origin.** Mark's ruling (2026-09-22): *"start with read-aloud free,
 composite voice on the paid tier... test one step at a time."* This note
@@ -210,34 +216,50 @@ choice and applies it. No gendered or "character" voice option exists in
 this step, matching Mark's own sequencing (composite voice is explicitly
 the *paid-tier* step, not this one).
 
-## 7. Disclosure — ESCALATED, not shipped
+## 7. Disclosure — RULED, wired in
 
-**This is not decided here.** Per the brief, participant-facing wording is
-Mark's call, not this thread's. `ReadAloudControl.tsx` and `lib/
-readAloud.ts` carry no participant-facing disclosure copy anywhere, even
-though the flag defaults off — the sentence is drafted below for the
-artifact page, not wired into any component.
+**Mark's ruling (2026-09-22): Option A, exactly** — *"This reads the words
+on screen aloud in your device's own voice — it isn't {representative_name}
+speaking."* Shown as a **visible one-line note under the conversation
+bar**, not a tooltip and not `aria-describedby` alone (Mark's own reason,
+stated directly: a touch participant never sees either). The control's own
+accessible name (§5) is untouched by this — the disclosure is a separate
+line, not the button's label.
 
-**Where it would attach:** the natural spot is the first time the control
-ever renders in a session — e.g. a one-line note directly under
-`.conversation__bar` the first time `ReadAloudControl` mounts, or a
-`title`/`aria-describedby` on the button itself. Which of those (a
-persistent visible line vs. a tooltip-style description) is itself a
-small open question worth Mark's input, not just the sentence's wording.
+**Implementation.** `lib/readAloud.ts`'s `readAloudDisclosureText()` holds
+the ruled sentence verbatim — not a prop a caller can override, the same
+"a wording change is a change order" discipline every other approved
+participant-facing string in this project already gets.
+`components/ReadAloudDisclosure.tsx` renders it directly under
+`.conversation__bar` (`Conversation.tsx`/`TableRoom.tsx`), gated on the
+same voice-availability check `ReadAloudControl` uses (no disclosure about
+a control that isn't actually showing).
 
-**Draft options** (for Mark to react to, not to treat as decided):
+**"The first time" is tied to the control's first target turn, not to
+every render:** the note shows while `turnKey` is still whatever it was
+when `ReadAloudDisclosure` mounted, and disappears for good the moment a
+new turn becomes the latest one — one disclosure per session, not a
+permanent banner repeated on every subsequent turn. `sessionStorage`
+(`cic_read_aloud_disclosure_seen`) remembers "already shown" across a
+reload of the same tab, matching `lib/sessionStore.ts`'s own established
+"survive a reload, not a new tab" scope — without it, reloading
+mid-conversation while the note is still up would look like a second
+"first time" once React state resets.
 
-- **A.** *"This reads the words on screen aloud in your device's own
-  voice — it isn't {representative_name} speaking."*
-- **B.** *"Read aloud uses your browser's built-in voice to read this text
-  out loud — a generic voice, not a recording of {representative_name}."*
-- **C.** *"This button has your browser read the text aloud in its own
-  voice. It's your device speaking, not {representative_name}."*
-
-Recommendation if asked: **A**, shortest and states the one fact that
-actually matters (not a real voice, not the Representative) without
-over-explaining. All three are B2/grade-8-appropriate by the same
-standard the rest of participant-facing copy in this project is held to.
+**The Table's multi-voice edge case (not covered by the ruling, resolved
+here as plumbing, not wording):** a Table sitting seats more than one
+Representative, and the sentence's single `{representative_name}` slot
+can't name all of them. Worse, the very first turn in *every* session —
+interview or Table — is the Facilitator's own door turn
+(`useConversation.ts`'s `begin()`), before any seated voice has spoken at
+all, which is exactly the moment the disclosure is meant to show. For
+Table sessions, `TableRoom.tsx` names the **first seated voice**
+(`seatedWorlds[0].representativeName`) — a deterministic, documented
+simplification, not a claim that voice specifically said anything. The
+interview `Conversation.tsx` case has no such ambiguity: one Representative
+per session, named directly regardless of which turn is currently latest,
+the same way `engine/m4/crisis_resources.py`'s own `{representative_name}`
+slot already works for the Facilitator's safety turns.
 
 ## 8. Measurement
 
@@ -265,35 +287,49 @@ event, stopped short of a sink).
 
 ## Verification
 
-- `npm test` (vitest): 46/46 passing, including 14 new tests across
+- `npm test` (vitest): 52/52 passing, including 20 new tests across
   `lib/readAloud.test.ts` (sentence chunking, cancellation, the
   no-speech-synthesis fallback, the crisis-turn-length case, the metric
-  event) and `components/ReadAloudControl.test.tsx` (voice-availability
-  gating, play/stop toggle, turn-key reset, unmount cleanup).
+  event, the disclosure text and its seen-tracking),
+  `components/ReadAloudControl.test.tsx` (voice-availability gating,
+  play/stop toggle, turn-key reset, unmount cleanup), and
+  `components/ReadAloudDisclosure.test.tsx` (shows on first target turn,
+  disappears on the next one, doesn't reappear on a fresh mount once
+  already seen in the same tab).
 - `npm run build` (tsc + vite build): clean.
 - `npm run lint`: **could not run** — this checkout has no ESLint
   configuration file at all (`eslint . --ext ts,tsx` fails with "ESLint
   couldn't find a configuration file"), a pre-existing gap unrelated to
   this change; flagging it rather than silently skipping it or fixing it
   as a drive-by (out of this thread's scope).
-- **Not yet done:** the dev server was not run against a live
-  `engine/api` backend, so the control has not been seen actually
-  speaking in a real browser. This is a Web Speech API feature, and jsdom
-  (the test environment) has no real speech synthesis to exercise end to
-  end — the unit/component tests above stub it. A manual check in an
-  actual browser (with a real backend, or against the fixture world) is
-  owed before this flag is ever turned on anywhere real.
+- **Not yet done — the actual merge gate:** the dev server was not run
+  against a live `engine/api` backend, so the control has not been heard
+  actually speaking in a real browser. This is a Web Speech API feature,
+  and jsdom (the test environment) has no real speech synthesis to
+  exercise end to end — the unit/component tests above stub it. Per
+  Mark's ruling, this PR does not merge until (a) the Conversation
+  Transparency Engine thread's Stage 7 (streaming) has landed on `main`,
+  and (b) Mark has heard the control speak in a real browser against a
+  live backend and recorded what he heard.
 
-## Open items for Mark
+## Open items — resolved and remaining
 
-1. **Disclosure sentence (Q7) — required before shipping at all.** Pick
-   one of A/B/C above, edit it, or reject the idea of a persistent
-   sentence in favor of something else entirely.
-2. **Disclosure placement** — a visible line under the bar the first time
-   the control appears, vs. a `title`/description on the button itself.
-3. **Play/Stop vs. Play/Pause/Stop (Q3)** — this note recommends the
-   simpler 2-state version for reliability; overrule if a real pause
-   matters enough to accept the cross-browser risk.
-4. **Header vs. turn-level (Q3)** — this note recommends the global
-   header control; overrule if replaying older turns matters enough now
-   to accept adding a row to Facilitator turns.
+**Resolved by Mark's ruling (2026-09-22):**
+
+1. **Disclosure sentence (Q7)** — Option A, exactly, now wired in behind
+   the flag (§7 above).
+2. **Disclosure placement** — a visible line under the bar, not a
+   tooltip or `aria-describedby` alone.
+3. **Play/Stop vs. Play/Pause/Stop (Q3)** — this note's recommendation
+   stands: Play/Stop only.
+4. **Header vs. turn-level (Q3)** — this note's recommendation stands:
+   one global header control.
+
+**Still remaining — not decisions, verifications:**
+
+1. Stage 7 (streaming) landing on `main`.
+2. Mark hearing the control speak in a real browser against a live
+   `engine/api` backend, and recording what he heard.
+
+The PR stays a draft until both are true. `VITE_READ_ALOUD` is not to be
+turned on in any deploy config before then.
