@@ -3,7 +3,7 @@ id: rzg.contested.anabaptist-schism-legitimacy
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-P

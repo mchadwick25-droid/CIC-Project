@@ -3,7 +3,7 @@ id: syr.quote.the-scribes-and-the-prefects-over-the-archives
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E

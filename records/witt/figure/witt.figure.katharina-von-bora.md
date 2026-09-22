@@ -3,7 +3,7 @@ id: witt.figure.katharina-von-bora
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

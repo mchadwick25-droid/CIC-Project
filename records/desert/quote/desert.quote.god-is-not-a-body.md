@@ -3,7 +3,7 @@ id: desert.quote.god-is-not-a-body
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F6-I

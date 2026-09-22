@@ -3,7 +3,7 @@ id: witt.source.augustin-latin-and-german-tracts
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

@@ -3,7 +3,7 @@ id: alx.quote.demetrius-accused-him-bitterly
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-P

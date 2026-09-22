@@ -3,7 +3,7 @@ id: hal.quote.paula-escaped-his-envy
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F6-I

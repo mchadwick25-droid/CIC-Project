@@ -3,7 +3,7 @@ id: ijc.source.ammianus-marcellinus
 world_id: imperial-juridical
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

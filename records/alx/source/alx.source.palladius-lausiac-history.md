@@ -3,7 +3,7 @@ id: alx.source.palladius-lausiac-history
 world_id: alexandria-catechetical
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

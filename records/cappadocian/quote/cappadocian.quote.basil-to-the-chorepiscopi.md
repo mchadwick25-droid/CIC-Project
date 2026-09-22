@@ -3,7 +3,7 @@ id: cappadocian.quote.basil-to-the-chorepiscopi
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I

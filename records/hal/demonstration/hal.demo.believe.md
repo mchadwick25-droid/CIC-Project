@@ -3,7 +3,7 @@ id: hal.demo.believe
 world_id: hieronymian-ascetic-literary
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-P]
 confidence:

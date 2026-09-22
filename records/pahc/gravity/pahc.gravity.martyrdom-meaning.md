@@ -3,7 +3,7 @@ id: pahc.gravity.martyrdom-meaning
 world_id: post-apostolic-house-church
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F6-E

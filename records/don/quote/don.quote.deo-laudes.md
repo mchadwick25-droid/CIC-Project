@@ -3,7 +3,7 @@ id: don.quote.deo-laudes
 world_id: donatism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I

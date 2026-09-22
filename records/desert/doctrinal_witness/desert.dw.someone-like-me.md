@@ -3,7 +3,7 @@ id: desert.dw.someone-like-me
 world_id: desert-monasticism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-P]
 confidence:

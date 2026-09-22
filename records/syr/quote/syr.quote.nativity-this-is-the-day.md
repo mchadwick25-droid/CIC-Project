@@ -3,7 +3,7 @@ id: syr.quote.nativity-this-is-the-day
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I

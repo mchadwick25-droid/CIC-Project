@@ -3,7 +3,7 @@ id: pahc.force.two-ways-catechetical-inheritance
 world_id: post-apostolic-house-church
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F4-I

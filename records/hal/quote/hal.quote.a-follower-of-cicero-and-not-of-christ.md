@@ -3,7 +3,7 @@ id: hal.quote.a-follower-of-cicero-and-not-of-christ
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P

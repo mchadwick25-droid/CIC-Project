@@ -3,7 +3,7 @@ id: pahc.term.ministrae
 world_id: post-apostolic-house-church
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic-unavailable
 canon_cells:
 - F5-I

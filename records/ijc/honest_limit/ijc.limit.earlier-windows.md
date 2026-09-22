@@ -3,7 +3,7 @@ id: ijc.limit.earlier-windows
 world_id: imperial-juridical
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E

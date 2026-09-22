@@ -3,7 +3,7 @@ id: don.dw.the-books-they-came-for
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E

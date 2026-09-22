@@ -3,7 +3,7 @@ id: witt.force.absent-inputs-1525-and-1555
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

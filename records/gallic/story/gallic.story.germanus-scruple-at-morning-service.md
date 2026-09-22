@@ -3,7 +3,7 @@ id: gallic.story.germanus-scruple-at-morning-service
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I

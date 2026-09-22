@@ -3,7 +3,7 @@ id: gallic.dw.one-person-two-substances
 world_id: gallic-monastic-ascetic-christianity
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T

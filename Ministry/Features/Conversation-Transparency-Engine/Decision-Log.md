@@ -980,3 +980,49 @@ delegated to a Haiku subagent per Mark's own instruction, following a
 script written and reviewed here first rather than left to the
 subagent's own judgment, given what this directly feeds (the live
 confidence display). Counts per world follow in a later entry once run.
+
+**Entry 36 — 2026-09-22.** 6a's sweep run (PR #394): 2033 records
+promoted draft -> ready across the 11 admitted worlds, exactly matching
+the script's own dry-run counts from Entry 35's design (no drift between
+plan and execution).
+
+| World | Promoted | Draft before |
+|---|---|---|
+| alx | 179 | 197 |
+| cappadocian | 275 | 278 |
+| desert | 182 | 200 |
+| don | 211 | 248 |
+| gallic | 193 | 199 |
+| hal | 162 | 175 |
+| ijc | 158 | 186 |
+| pahc | 147 | 162 |
+| rzg | 108 | 110 |
+| syr | 167 | 187 |
+| witt | 251 | 252 |
+| **Total** | **2033** | |
+
+don's remaining 25 draft-and-flagged records (52 gate findings behind
+them, matching `ACCEPTED_OPEN`'s own recorded `m1:reciprocity/don`
+count) stay draft, waiver or not - the rule from Entry 35 applied
+exactly as designed, not loosened at execution time. The smaller
+flagged counts in cappadocian (1), desert (1), gallic (3), pahc (2),
+and syr (1) were likewise left untouched.
+
+Each of the 11 worlds' packages rebuilt (`engine.m2.cli build`),
+determinism-checked, and repinned
+(`records/worlds/<world>.yaml`'s `package.manifest_hash`/`location`).
+Verified: fleet-wide `engine.m2.cli restore` -> `pass: true` (all 12
+worlds), `staleness-check` -> `pass: true`, `python -m pytest
+engine/api/tests -q` -> 130 passed. A diff scan confirmed every
+`records/` change in this PR is exactly a `status: draft`/`ready` flip
+inside the record's own frontmatter block - no body-prose content
+touched anywhere, and no `frozen` status assigned anywhere (not this
+pass's decision to make, per Entry 35).
+
+Mechanical execution (script run, per-world build/determinism-check/
+repin/restore loop) ran on a Haiku subagent as Entry 35 said it would,
+against the script written and reviewed there first. Its report was
+independently re-verified against the actual repo state before this
+commit - not taken on trust - via a direct re-run of `restore`,
+`staleness-check`, and `pytest`, a `git status` file-count check, and
+the diff scan above. PR #394.

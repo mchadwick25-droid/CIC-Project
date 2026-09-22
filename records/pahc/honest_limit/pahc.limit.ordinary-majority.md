@@ -3,7 +3,7 @@ id: pahc.limit.ordinary-majority
 world_id: post-apostolic-house-church
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 demo_tag: exclude   # framing-heavy statement false-tags demo sentences at the shipping floor (measured, 2026-08-29); lift with the next full tagging study
 canon_cells:
