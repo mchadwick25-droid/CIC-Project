@@ -927,3 +927,56 @@ own commit) - separate, standard next step, matching every prior
 voice_craft revision in this project's own history. Folding this
 requirement into the standing build-cycle checklist for future worlds
 (Entry 28's second scope item) is also still outstanding.
+
+**Entry 35 — 2026-09-22.** Stage 6 begins. Mark's own converged, ordered
+build plan (6a-6f), display design already fixed by R8/R9/R10/R16/R17
+(merged #390) - one PR per sub-stage, only participant-facing words
+escalated to Mark. **Announcing 6a's own promotion sweep here first, per
+Mark's own sequencing instruction, so P3's gate run sequences after it -
+not yet run as of this entry.**
+
+**6a's exact mechanism, verified against real code before running
+anything (not assumed):**
+
+- **"Sits in an admitted world's currently pinned package"** =
+  `record["id"]` appears in that world's currently-pinned
+  `compiled/repository.json`. Verified precisely on alx: 197 records
+  under `records/alx/`, 179 in `repository.json` - the 18-record gap is
+  exactly `facilitator_brief` (1) + `search_record` (16) + `world_front`
+  (1), the three record_types `engine/m2/builders.py`'s own
+  `_PACKAGE_EXCLUDED_RECORD_TYPES` names. Every other type - quote,
+  figure, voice_craft, term, story, etc. - is in `repository.json`
+  fully, confirmed by a direct type-count comparison, not assumed from
+  the builder's own docstring.
+- **"Passes every m1 gate"** = the record's own id does not appear as
+  the subject of any finding from `engine.m1.gates.run_all(records,
+  load_fleet_records(), registry)`, across all 19 gates, called the
+  same way `engine/m9/enforce.py`'s own `collect_findings()` calls it
+  (per-world `records`, fleet-wide `_fleet` records, NOT a
+  `{world_key: records}` nesting - a first attempt at this got that
+  wrong and produced 244 false findings on alx alone; the corrected call
+  gives 0, matching every gate this workstream has already run clean on
+  alx this session). **This ignores `engine/m9/enforce.py`'s own
+  `ACCEPTED_OPEN` waivers entirely, on purpose** - a waiver keeps CI
+  green while a known defect is pending fix; it does not certify the
+  specific records behind it as ready for confidence display. Verified
+  on don: `gates.run_all` reports 52 reciprocity findings (matching
+  `ACCEPTED_OPEN`'s own recorded `m1:reciprocity/don` count exactly)
+  naming 25 distinct records - those 25 stay draft under this rule,
+  waiver or not.
+- **Promotion rule:** for every record currently `status: draft` in an
+  admitted world, flip to `ready` only if both hold; leave everything
+  else untouched. Never assign `frozen` (not this pass's decision to
+  make). Records of the three package-excluded types are structurally
+  never eligible (they never sit in the package at all).
+- **After flipping:** `engine.m2.cli build <world>` (fresh package),
+  `engine.m2.cli determinism-check <world>`, then repoint
+  `records/worlds/<world>.yaml`'s `package.manifest_hash`/`location` at
+  the new package - the exact sequence Entry 34's own package-rebuild
+  fix already validated works cleanly for a records-only change.
+
+Mechanical execution (11 worlds, the actual status-flip + rebuild loop)
+delegated to a Haiku subagent per Mark's own instruction, following a
+script written and reviewed here first rather than left to the
+subagent's own judgment, given what this directly feeds (the live
+confidence display). Counts per world follow in a later entry once run.
