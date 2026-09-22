@@ -10,7 +10,7 @@
  */
 import { render } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
-import type { Citation, SourceCard, TransparencyAnchor, TransparencyPlan } from '../types/conversation';
+import type { Citation, FigureUsed, GlossUsed, SourceCard, TransparencyAnchor, TransparencyPlan } from '../types/conversation';
 
 vi.mock('../lib/flags', () => ({ useAnchorRenderer: true }));
 const { VoiceTurnBody } = await import('./VoiceTurnBody');
@@ -26,6 +26,14 @@ function citation(sentence: string, recordId: string, recordType: string, label:
 
 function anchor(recordId: string, recordType: string, runStart: number, runEnd: number, repeat: boolean): TransparencyAnchor {
   return { record_id: recordId, record_type: recordType, world_key: 'fix', run_start_sentence: runStart, run_end_sentence: runEnd, repeat, confidence: null };
+}
+
+function figure(id: string, matchedName: string): FigureUsed {
+  return { id, matched_name: matchedName, names: [], bridge_line: null, dates: {}, sourced_by: [] };
+}
+
+function gloss(id: string, matchedName: string): GlossUsed {
+  return { id, matched_name: matchedName, plain_meaning: null, quick_meaning: null, translational_sense: null, false_friend: [], sourced_by: [] };
 }
 
 describe('VoiceTurnBody - anchor-driven renderer (Stage 3c)', () => {
@@ -204,5 +212,78 @@ describe('VoiceTurnBody - anchor-driven renderer (Stage 3c)', () => {
     expect(storyMarks).toHaveLength(2);
     expect(storyMarks[0].classList.contains('citation-mark--contested')).toBe(false);
     expect(storyMarks[1].classList.contains('citation-mark--contested')).toBe(true);
+  });
+
+  it('Stage 6d / R17: over the cap, glosses drop before figures, both before a story mark - witness never drops', () => {
+    // One sentence -> cap = max(3, min(8, ceil(1/2))) = 3. Six candidates
+    // in document order: Antony(figure), Origen(figure), catechumens
+    // (gloss), baptism(gloss), a story mark, a witness mark - three over
+    // cap. Drop order (glosses, then figures, most-recently-occurring
+    // first within a kind): baptism, catechumens, then Origen. Antony
+    // (the earlier figure), the story mark, and the witness mark all
+    // survive.
+    const text = 'Antony taught Origen about catechumens and baptism near the font.';
+    const s0 = citation(text, 'fix.story.a', 'story', 'Story A');
+    const s1 = citation(text, 'fix.witness.b', 'doctrinal_witness', 'Witness B');
+    const transparency: TransparencyPlan = {
+      world_key: 'fix',
+      anchors: [anchor('fix.story.a', 'story', 0, 0, false), anchor('fix.witness.b', 'doctrinal_witness', 0, 0, false)],
+      references: [s0.card, s1.card],
+      unverified_claims: { count: 0, sentence_indexes: [] },
+    };
+    const figuresUsed = [figure('fix.figure.antony', 'Antony'), figure('fix.figure.origen', 'Origen')];
+    const glosses = [gloss('fix.term.catechumens', 'catechumens'), gloss('fix.term.baptism', 'baptism')];
+
+    const { container } = render(
+      <VoiceTurnBody text={text} citations={[s0.citation]} figuresUsed={figuresUsed} glosses={glosses} transparency={transparency} />
+    );
+
+    // Only one word-level mark survives: Antony.
+    const wordMarks = Array.from(container.querySelectorAll('.name-bridge-mark')).map((el) => el.textContent);
+    expect(wordMarks).toEqual(['Antony']);
+    // The dropped words are still plainly in the running text, just not marked.
+    expect(container.textContent).toContain('Origen');
+    expect(container.textContent).toContain('catechumens');
+    expect(container.textContent).toContain('baptism');
+    // Citation marks (higher priority than figures/glosses) both survive.
+    expect(container.querySelectorAll('.story-mark')).toHaveLength(1);
+    expect(container.querySelectorAll('.witness-mark')).toHaveLength(1);
+  });
+
+  it('Stage 6d / R17: a dropped story mark still reaches General References; witness is protected even when it alone would be the overflow', () => {
+    // Four one-sentence citations (three story, one witness) -> cap = 3
+    // (4 sentences -> ceil(4/2)=2, floored up to 3). One over cap. Drop
+    // order reaches "story" only after glosses/figures (none here) are
+    // exhausted; the LAST-occurring story (C) drops, A and B survive.
+    // Witness is never a drop candidate at all, regardless of order.
+    const s0 = citation('First story sentence.', 'fix.story.a', 'story', 'Story A');
+    const s1 = citation('Second story sentence.', 'fix.story.b', 'story', 'Story B');
+    const s2 = citation('Third story sentence.', 'fix.story.c', 'story', 'Story C');
+    const s3 = citation('Witness sentence here.', 'fix.witness.d', 'doctrinal_witness', 'Witness D');
+    const text = [s0, s1, s2, s3].map((s) => s.citation.sentence).join(' ');
+    const citations = [s0.citation, s1.citation, s2.citation, s3.citation];
+    const transparency: TransparencyPlan = {
+      world_key: 'fix',
+      anchors: [
+        anchor('fix.story.a', 'story', 0, 0, false),
+        anchor('fix.story.b', 'story', 1, 1, false),
+        anchor('fix.story.c', 'story', 2, 2, false),
+        anchor('fix.witness.d', 'doctrinal_witness', 3, 3, false),
+      ],
+      references: [s0.card, s1.card, s2.card, s3.card],
+      unverified_claims: { count: 0, sentence_indexes: [] },
+    };
+
+    const { container } = render(<VoiceTurnBody text={text} citations={citations} transparency={transparency} />);
+
+    expect(container.querySelectorAll('.story-mark')).toHaveLength(2);
+    expect(container.querySelectorAll('.witness-mark')).toHaveLength(1);
+    // Story C's own disclosure isn't lost - it surfaces in the collapsed
+    // General References line instead of an inline mark. Scoped to this
+    // test's own container (not a document-wide getByText) - this test
+    // file has no afterEach(cleanup) wired up, so a document-wide query
+    // can collide with an earlier test's still-mounted DOM (a real,
+    // pre-existing gap, out of this PR's own scope to fix broadly).
+    expect(container.querySelector('.turn__general-references-label')?.textContent).toBe('General references (1)');
   });
 });

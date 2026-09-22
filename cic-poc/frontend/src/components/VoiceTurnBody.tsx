@@ -103,6 +103,55 @@ function isContested(confidence: Record<string, unknown> | null): boolean {
   return typeof level === 'string' && THIN_EVIDENCE_CONFIDENCE_LEVELS.has(level);
 }
 
+// R17 (RULED, house rule; Rulings-Pending.md, Decision-Log.md Entry 29) -
+// Adjusted-Design.md's own N2 note splits it into an M7 instrument
+// (engine/m7/instruments.py's level1_element_density, already built and
+// merged) and this: the renderer fixture test + enforcement it names as
+// the other engineering half. The cap number/formula and drop order
+// below are Mark's own confirmed answer this session, not invented here:
+// a small, capped number of inline Level-1 elements per turn, scaling
+// gently with sentence count - floor of 3 so even a short turn isn't
+// capped away entirely, ceiling of 8 regardless of length, roughly one
+// mark per two sentences in between. Over cap, drop order is glosses
+// first, then figures, then stories - witness marks (someone else's
+// actual quoted words) NEVER drop, the highest-stakes case for silently
+// losing a citation. A dropped mark still reaches the participant via
+// the collapsed General References line below - only its inline
+// prominence is lost, never its disclosure.
+function countSentences(text: string): number {
+  return text.split(/(?<=[.!?])\s+/).map((s) => s.trim()).filter(Boolean).length;
+}
+
+function capForSentences(sentences: number): number {
+  return Math.max(3, Math.min(8, Math.ceil(sentences / 2)));
+}
+
+type CandidateKind = 'gloss' | 'figure' | 'story' | 'witness';
+
+interface Candidate {
+  key: string;
+  kind: CandidateKind;
+}
+
+// Drops whole candidates (never a partial mark) from the lowest-priority
+// kind first. Within a kind, drops the MOST RECENTLY occurring ones
+// first, keeping earlier disclosures visible - R17 doesn't specify this
+// tie-break, so it's a documented default, not an implicit accident.
+function selectDropped(candidates: Candidate[], cap: number): Set<string> {
+  const dropped = new Set<string>();
+  let over = candidates.length - cap;
+  if (over <= 0) return dropped;
+  for (const kind of ['gloss', 'figure', 'story'] as const) {
+    if (over <= 0) break;
+    const ofKind = candidates.filter((c) => c.kind === kind);
+    for (let i = ofKind.length - 1; i >= 0 && over > 0; i--) {
+      dropped.add(ofKind[i].key);
+      over--;
+    }
+  }
+  return dropped;
+}
+
 function splitIntoSegments(text: string, citations: Citation[]): { segments: Segment[]; orphaned: Citation[] } {
   const segments: Segment[] = [];
   const orphaned: Citation[] = [];
@@ -346,9 +395,45 @@ function splitIntoIndexedSegments(text: string, citations: Citation[]): { segmen
   return { segments, trailingText: remaining };
 }
 
+interface SegmentPlan {
+  wordMarks: Mark[];
+  storyCards: SourceCard[];
+  witnessCards: SourceCard[];
+  storyRepeat: boolean;
+  storyContested: boolean;
+  witnessRepeat: boolean;
+  witnessContested: boolean;
+}
+
+// Renders a segment's text using an ALREADY-DETECTED mark list (pass 1's
+// own output) rather than finding marks itself - a dropped mark (its key
+// in droppedKeys) renders as plain text, never joins inlineMarkedIds, and
+// so reaches the participant via General References instead (R17: lost
+// inline prominence, never lost disclosure).
+function renderMarkedText(segmentText: string, marks: Mark[], droppedKeys: Set<string>, inlineMarkedIds: Set<string>, keyPrefix: string): React.ReactNode {
+  if (!marks.length) return segmentText;
+  const nodes: React.ReactNode[] = [];
+  let cursor = 0;
+  marks.forEach((mark, i) => {
+    if (mark.start > cursor) nodes.push(segmentText.slice(cursor, mark.start));
+    const id = mark.kind === 'figure' ? mark.figure.id : mark.gloss.id;
+    if (droppedKeys.has(`word:${mark.kind}:${id}`)) {
+      nodes.push(segmentText.slice(mark.start, mark.end));
+    } else if (mark.kind === 'figure') {
+      nodes.push(<FigureBridgeMark key={`${keyPrefix}-mark-${i}`} label={mark.matchedName} figure={mark.figure} />);
+      inlineMarkedIds.add(id);
+    } else {
+      nodes.push(<GlossMark key={`${keyPrefix}-mark-${i}`} label={mark.matchedName} gloss={mark.gloss} />);
+      inlineMarkedIds.add(id);
+    }
+    cursor = mark.end;
+  });
+  if (cursor < segmentText.length) nodes.push(segmentText.slice(cursor));
+  return nodes;
+}
+
 function renderFromTransparencyPlan({ text, citations, figuresUsed = [], glosses = [], transparency }: VoiceTurnBodyProps & { transparency: TransparencyPlan }) {
   const { segments, trailingText } = splitIntoIndexedSegments(text, citations);
-  const wordMarkedIds = new Set<string>();
 
   // R10's placement split: a witness anchor groups by where its run
   // STARTS, a story anchor (and everything else with an inline mark) by
@@ -361,40 +446,82 @@ function renderFromTransparencyPlan({ text, citations, figuresUsed = [], glosses
     anchorsByPlacement.set(placementIndex, list);
   }
   const referenceById = new Map(transparency.references.map((card) => [card.record_id, card]));
-  const inlineMarkedIds = new Set<string>();
 
-  const rendered = segments.map((segment, i) => {
-    const nodes = renderSegmentText(segment.text, figuresUsed, glosses, wordMarkedIds, `seg${i}`);
+  // PASS 1 (R17's own renderer-fixture-test engineering half): detect
+  // every candidate Level-1 element in document order, without rendering,
+  // so the cap can be applied against the FULL-turn total before any
+  // single mark is decided.
+  const wordMarkedIds = new Set<string>(); // first-occurrence dedup only, independent of the cap
+  const planFor = (segmentText: string, citationIndex: number | null): SegmentPlan => {
+    const figureCandidates = figuresUsed.filter((f) => !wordMarkedIds.has(f.id));
+    const glossCandidates = glosses.filter((g) => !wordMarkedIds.has(g.id));
+    const wordMarks = findMarks(segmentText, figureCandidates, glossCandidates);
+    wordMarks.forEach((m) => wordMarkedIds.add(m.kind === 'figure' ? m.figure.id : m.gloss.id));
 
-    const marks: React.ReactNode[] = [];
     const storyCards: SourceCard[] = [];
     const witnessCards: SourceCard[] = [];
     let storyRepeat = false;
     let storyContested = false;
     let witnessRepeat = false;
     let witnessContested = false;
-    for (const anchor of anchorsByPlacement.get(segment.citationIndex) ?? []) {
-      const card = referenceById.get(anchor.record_id);
-      if (!card) continue; // resolve_source_card found nothing - report only, never mark a card that isn't there
-      if (STORY_RECORD_TYPES.has(anchor.record_type)) {
-        storyCards.push(card);
-        storyRepeat = storyRepeat || anchor.repeat;
-        storyContested = storyContested || isContested(anchor.confidence);
-      } else if (WITNESS_RECORD_TYPES.has(anchor.record_type)) {
-        witnessCards.push(card);
-        witnessRepeat = witnessRepeat || anchor.repeat;
-        witnessContested = witnessContested || isContested(anchor.confidence);
+    if (citationIndex !== null) {
+      for (const anchor of anchorsByPlacement.get(citationIndex) ?? []) {
+        const card = referenceById.get(anchor.record_id);
+        if (!card) continue; // resolve_source_card found nothing - report only, never mark a card that isn't there
+        if (STORY_RECORD_TYPES.has(anchor.record_type)) {
+          storyCards.push(card);
+          storyRepeat = storyRepeat || anchor.repeat;
+          storyContested = storyContested || isContested(anchor.confidence);
+        } else if (WITNESS_RECORD_TYPES.has(anchor.record_type)) {
+          witnessCards.push(card);
+          witnessRepeat = witnessRepeat || anchor.repeat;
+          witnessContested = witnessContested || isContested(anchor.confidence);
+        }
+        // everything else has no word or story to attach to - the General
+        // References filter below covers it, nothing to do inline here
       }
-      // everything else has no word or story to attach to - the General
-      // References filter below covers it, nothing to do inline here
     }
-    if (storyCards.length) {
-      storyCards.forEach((card) => inlineMarkedIds.add(card.record_id));
-      marks.push(<StoryMark key="story" sources={storyCards} repeat={storyRepeat} contested={storyContested} />);
+    return { wordMarks, storyCards, witnessCards, storyRepeat, storyContested, witnessRepeat, witnessContested };
+  };
+
+  const segmentPlans = segments.map((segment) => planFor(segment.text, segment.citationIndex));
+  const trailingPlan = trailingText ? planFor(trailingText, null) : null;
+
+  const candidates: Candidate[] = [];
+  segments.forEach((segment, i) => {
+    const plan = segmentPlans[i];
+    plan.wordMarks.forEach((m) => {
+      const id = m.kind === 'figure' ? m.figure.id : m.gloss.id;
+      candidates.push({ key: `word:${m.kind}:${id}`, kind: m.kind });
+    });
+    if (plan.storyCards.length) candidates.push({ key: `citation:${segment.citationIndex}:story`, kind: 'story' });
+    if (plan.witnessCards.length) candidates.push({ key: `citation:${segment.citationIndex}:witness`, kind: 'witness' });
+  });
+  if (trailingPlan) {
+    trailingPlan.wordMarks.forEach((m) => {
+      const id = m.kind === 'figure' ? m.figure.id : m.gloss.id;
+      candidates.push({ key: `word:${m.kind}:${id}`, kind: m.kind });
+    });
+  }
+
+  const cap = capForSentences(countSentences(text));
+  const droppedKeys = selectDropped(candidates, cap);
+
+  // PASS 2: render, using pass 1's own detection - no mark is found twice.
+  const inlineMarkedIds = new Set<string>();
+  const rendered = segments.map((segment, i) => {
+    const plan = segmentPlans[i];
+    const nodes = renderMarkedText(segment.text, plan.wordMarks, droppedKeys, inlineMarkedIds, `seg${i}`);
+
+    const marks: React.ReactNode[] = [];
+    if (plan.storyCards.length && !droppedKeys.has(`citation:${segment.citationIndex}:story`)) {
+      plan.storyCards.forEach((card) => inlineMarkedIds.add(card.record_id));
+      marks.push(<StoryMark key="story" sources={plan.storyCards} repeat={plan.storyRepeat} contested={plan.storyContested} />);
     }
-    if (witnessCards.length) {
-      witnessCards.forEach((card) => inlineMarkedIds.add(card.record_id));
-      marks.push(<WitnessMark key="witness" sources={witnessCards} repeat={witnessRepeat} contested={witnessContested} />);
+    if (plan.witnessCards.length) {
+      // Witness marks never drop (R17's own rule) - no droppedKeys check needed.
+      plan.witnessCards.forEach((card) => inlineMarkedIds.add(card.record_id));
+      marks.push(<WitnessMark key="witness" sources={plan.witnessCards} repeat={plan.witnessRepeat} contested={plan.witnessContested} />);
     }
 
     return (
@@ -405,16 +532,16 @@ function renderFromTransparencyPlan({ text, citations, figuresUsed = [], glosses
     );
   });
 
-  if (trailingText) {
-    rendered.push(<span key="trailing">{renderSegmentText(trailingText, figuresUsed, glosses, wordMarkedIds, 'trailing')}</span>);
+  if (trailingText && trailingPlan) {
+    rendered.push(<span key="trailing">{renderMarkedText(trailingText, trailingPlan.wordMarks, droppedKeys, inlineMarkedIds, 'trailing')}</span>);
   }
 
-  // A word mark (figure/gloss) also counts as "already shown inline" for
-  // General References, same as the legacy renderer's own rule - checked
-  // once, after every segment has had its chance to word-mark a candidate,
-  // rather than per-segment (wordMarkedIds only grows, so the end state is
-  // the complete set regardless of when it's read).
-  wordMarkedIds.forEach((id) => inlineMarkedIds.add(id));
+  // inlineMarkedIds is now built entirely by renderMarkedText/the story-
+  // witness pushes above, which only add an id when its mark actually
+  // rendered (not dropped by the cap) - unlike wordMarkedIds (pass 1's
+  // detection set, which includes dropped candidates too), so a dropped
+  // word mark correctly still reaches General References instead of
+  // silently vanishing from both.
   const generalReferences = transparency.references.filter((card) => !inlineMarkedIds.has(card.record_id));
 
   return (
