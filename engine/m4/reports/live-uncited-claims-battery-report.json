@@ -1,0 +1,938 @@
+{
+  "region": "us-east-1",
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "price_table_source": "Anthropic published API rate card (platform.claude.com/docs/en/about-claude/pricing, fetched 2026-08-25); Bedrock's own pricing page was not independently fetchable in this environment (egress to aws.amazon.com blocked) - Bedrock has historically mirrored Anthropic's direct per-token rates for the same models, not independently re-verified here",
+  "interview": {
+    "worlds": {
+      "alx": {
+        "card_name": "Alexandrian Christianity",
+        "turns": [
+          {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "The break came over authority.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The pattern underneath it is one we carried the whole way through.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That is the real conflict you asked for.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It did not end cleanly.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The church survived it.",
+                "class": "uncited_claim"
+              }
+            ]
+          },
+          {
+            "message": "What did Church and Empire believe about this same kind of conflict?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "The conflict was real, the turning was the person's own, and the community's work was to keep calling, not to force.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The empire's belief is harder to name, because the empire in our years changed what it wanted from people.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The state did not care much what you believed privately; it cared what you did publicly.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "So the empire's belief about inner conflict, in our late years, was that it mattered for public order - and that made it the emperor's business too.",
+                "class": "uncited_claim"
+              }
+            ]
+          }
+        ],
+        "turns_run": 2,
+        "turns_with_uncited_offense": 2,
+        "uncited_turn_rate": 1.0,
+        "offenses_by_class": {
+          "uncited_claim": 9
+        },
+        "session_dollars": 0.09426174999999999
+      },
+      "cappadocian": {
+        "card_name": "The Cappadocian Churches",
+        "turns": [
+          {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "The bitterest break we carried was the one where ascetic discipline and communion tore apart in the same man's hands.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That inheritance was real.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "What broke it was the Spirit.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The rupture came from inside that friendship, not from outside it.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Basil's own supporters said it was cowardice, or worse.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "And underneath the doctrinal quarrel ran a second one, already old.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It did not end.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Eustathius' name stayed contested, his movement's legacy unresolved.",
+                "class": "uncited_claim"
+              }
+            ]
+          },
+          {
+            "message": "What did Alexandrian Christianity believe about this same kind of conflict?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "Here is the honest limit.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "If you name the conflict you mean, I will tell you plainly where our own record speaks to it and where it does not.",
+                "class": "uncited_claim"
+              }
+            ]
+          }
+        ],
+        "turns_run": 2,
+        "turns_with_uncited_offense": 2,
+        "uncited_turn_rate": 1.0,
+        "offenses_by_class": {
+          "uncited_claim": 10
+        },
+        "session_dollars": 0.14414139999999998
+      },
+      "desert": {
+        "card_name": "Desert Fathers and Mothers",
+        "turns": [
+          {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": []
+          },
+          {
+            "message": "What did Alexandrian Christianity believe about this same kind of conflict?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "Some of those teachers wrote about the interior life, and some of what they wrote reached us.",
+                "class": "uncited_claim"
+              }
+            ]
+          }
+        ],
+        "turns_run": 2,
+        "turns_with_uncited_offense": 1,
+        "uncited_turn_rate": 0.5,
+        "offenses_by_class": {
+          "uncited_claim": 1
+        },
+        "session_dollars": 0.1132224
+      },
+      "don": {
+        "card_name": "The Church of the Martyrs",
+        "turns": [
+          {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "It was not a casual claim.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That is one dispute, and it ended in permanent exclusion.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The other took the opposite path, and the difference is what you should look at.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "So: one man, arguing a doctrine that actually threatened the whole basis of our separation, was cut off and never taken back.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "No rule of ours survives that explains the difference.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Both are what we did.",
+                "class": "uncited_claim"
+              }
+            ]
+          },
+          {
+            "message": "What did Alexandrian Christianity believe about this same kind of conflict?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "But that is our own principle, stated again.",
+                "class": "uncited_claim"
+              }
+            ]
+          }
+        ],
+        "turns_run": 2,
+        "turns_with_uncited_offense": 2,
+        "uncited_turn_rate": 1.0,
+        "offenses_by_class": {
+          "uncited_claim": 7
+        },
+        "session_dollars": 0.18482825
+      },
+      "gallic": {
+        "card_name": "The Monk-Bishops of Gaul",
+        "turns": [
+          {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "Men who heard only one side of that reported it.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Others read it the other way.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "How it ended among us is not in our record.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "One other belongs with it, though they never met as an argument.",
+                "class": "uncited_claim"
+              }
+            ]
+          },
+          {
+            "message": "What did Alexandrian Christianity believe about this same kind of conflict?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "That is conflict of one kind, and what the fathers held about it: silent patience, and the conviction that God vindicates his own.",
+                "class": "uncited_claim"
+              }
+            ]
+          }
+        ],
+        "turns_run": 2,
+        "turns_with_uncited_offense": 2,
+        "uncited_turn_rate": 1.0,
+        "offenses_by_class": {
+          "uncited_claim": 5
+        },
+        "session_dollars": 0.17483525
+      },
+      "hal": {
+        "card_name": "The Bethlehem Circle",
+        "turns": [
+          {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "Friends tried to reconcile them.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Rome's bishop was drawn in.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "No council decided it.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "No single verdict ended it.",
+                "class": "uncited_claim"
+              }
+            ]
+          },
+          {
+            "message": "What did Alexandrian Christianity believe about this same kind of conflict?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": []
+          }
+        ],
+        "turns_run": 2,
+        "turns_with_uncited_offense": 1,
+        "uncited_turn_rate": 0.5,
+        "offenses_by_class": {
+          "uncited_claim": 4
+        },
+        "session_dollars": 0.0955871
+      },
+      "ijc": {
+        "card_name": "Church and Empire",
+        "turns": [
+          {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "The worst blood we shed in our own century was not over doctrine.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Both formed parties.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The building was besieged.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Ursinus was driven out, then exiled when he tried to return.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "His own voice does not survive in our record - only the fact that he claimed the same chair, and lost.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The fight that seated one of our greatest bishops opened with a massacre inside a church, committed by the faction that won.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It is a story about us.",
+                "class": "uncited_claim"
+              }
+            ]
+          },
+          {
+            "message": "What did Alexandrian Christianity believe about this same kind of conflict?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": []
+          }
+        ],
+        "turns_run": 2,
+        "turns_with_uncited_offense": 1,
+        "uncited_turn_rate": 0.5,
+        "offenses_by_class": {
+          "uncited_claim": 7
+        },
+        "session_dollars": 0.09862864999999998
+      },
+      "pahc": {
+        "card_name": "The Scattered Households",
+        "turns": [
+          {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "That was not resolved among us.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It went on, unresolved, for as long as our own story runs.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "There is a second conflict we can point to, late in our own time, but we have to say plainly what is missing from it.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "This was a prophetic movement spreading among them.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The meetings were about whether to receive it.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "But the account we have comes from someone who opposed the movement and wrote against it.",
+                "class": "uncited_claim"
+              }
+            ]
+          },
+          {
+            "message": "What did Alexandrian Christianity believe about this same kind of conflict?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "That is the honest answer to what you asked.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "If you meant instead to ask what *we* believed - the communities whose record you have been hearing - about the conflicts we ourselves faced, we can answer that.",
+                "class": "uncited_claim"
+              }
+            ]
+          }
+        ],
+        "turns_run": 2,
+        "turns_with_uncited_offense": 2,
+        "uncited_turn_rate": 1.0,
+        "offenses_by_class": {
+          "uncited_claim": 8
+        },
+        "session_dollars": 0.094697
+      },
+      "rzg": {
+        "card_name": "The Reformed Cities",
+        "turns": [
+          {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "They held that only a believer's own chosen profession makes a true church member, and they baptised each other as adults that same year, rejecting what had been done to them as infants.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The council did not settle this one with argument alone.",
+                "class": "uncited_claim"
+              }
+            ]
+          },
+          {
+            "message": "What did Alexandrian Christianity believe about this same kind of conflict?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "Alexandria's own church stood inside that older claim; we refused it.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That is the sharpest difference between us, and it governs everything else.",
+                "class": "uncited_claim"
+              }
+            ]
+          }
+        ],
+        "turns_run": 2,
+        "turns_with_uncited_offense": 2,
+        "uncited_turn_rate": 1.0,
+        "offenses_by_class": {
+          "uncited_claim": 4
+        },
+        "session_dollars": 0.07568595
+      },
+      "syr": {
+        "card_name": "Syriac Christianity",
+        "turns": [
+          {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "Not in councils - we had no machinery for that, not in these years.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It did not end cleanly, the way a council vote ends something.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "What we did was draw the line and hold it.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The cost of it shows in the record.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That is the honest telling.",
+                "class": "uncited_claim"
+              }
+            ]
+          },
+          {
+            "message": "What did Alexandrian Christianity believe about this same kind of conflict?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "That is ours.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Alexandria's answer to the same things, we do not carry.",
+                "class": "uncited_claim"
+              }
+            ]
+          }
+        ],
+        "turns_run": 2,
+        "turns_with_uncited_offense": 2,
+        "uncited_turn_rate": 1.0,
+        "offenses_by_class": {
+          "uncited_claim": 7
+        },
+        "session_dollars": 0.1002276
+      },
+      "witt": {
+        "card_name": "The Catechized Households of Wittenberg",
+        "turns": [
+          {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "The answer was not gentle.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Not in reconciliation, and not in any meeting where both men sat down to settle it.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That is the one internal controversy we can show you in real detail - teacher against teacher, in print, over the table's own meaning.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The break was real.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The sharper voice won.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "And we hold only the winning side's own account of why.",
+                "class": "uncited_claim"
+              }
+            ]
+          },
+          {
+            "message": "What did Alexandrian Christianity believe about this same kind of conflict?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "none",
+            "voice_present": true,
+            "offenses": [
+              {
+                "sentence": "Alexandria is not in that span.",
+                "class": "uncited_claim"
+              }
+            ]
+          }
+        ],
+        "turns_run": 2,
+        "turns_with_uncited_offense": 2,
+        "uncited_turn_rate": 1.0,
+        "offenses_by_class": {
+          "uncited_claim": 7
+        },
+        "session_dollars": 0.1422934
+      }
+    },
+    "overall_turns_run": 22,
+    "overall_turns_with_uncited_offense": 19,
+    "overall_uncited_turn_rate": 0.8636363636363636
+  },
+  "table": {
+    "world_keys": [
+      "alx",
+      "don",
+      "rzg"
+    ],
+    "session_id": "eb393889-a4ab-45e7-89ff-c26d7bbf89d0",
+    "voice_turns": 10,
+    "uncited_claims_events": [
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "They held together - the office that governed, and the teacher who formed souls."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "On one side: a bishop's right to govern his own church, and genuine alarm at a teacher whose speculation ran far - the soul's pre-existence, the apokatastasis, readings that cut loose from the plain sense."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The wound itself has a name in our record: authority."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The church kept both memories - the bishop it had to honor, and the teacher it never stopped reading."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "That is the true story."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Authority divided against itself, and the wound never healed."
+          }
+        ],
+        "speaker": "alx"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "One conflict above all."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The purity doctrine we held at full strength -- and the one time, in this communion's own record, it did not, in practice, hold."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Without rebaptizing them."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "How it ended: it did not end."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The exception sits in our own conciliar record, in the same documents where the doctrine is at its most absolute."
+          }
+        ],
+        "speaker": "don"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "They had been with us."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Now they said a church gathered only by a believer's own chosen profession, apart from the whole city, was the only shape Scripture would bear - and that our own baptism of infants gave nothing at all."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "On one side: men who read the same text we read and said we had not gone far enough."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "On the other: our own conviction that a whole believing city, infants included from birth, is the covenant shape Scripture itself describes - not a smaller church waiting on each person's later, chosen moment."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "How it ended: it split, and stayed split."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The wound came from within, not from outside."
+          }
+        ],
+        "speaker": "rzg"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "The difference is this: our rupture came before the empire was ours to use."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Theirs came after."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The bishop condemned."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The teacher left."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You against men who said the reform had not gone far enough."
+          }
+        ],
+        "speaker": "alx"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "Yours was authority divided against itself -- the office that governs, the teacher who forms."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Ours was something harder: a doctrine held at full strength, and an exception to it we never dissolved."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "But here is where our wounds do not run alongside each other."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You said yours began with argument and ended using the power you had."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Ours never moved from argument to force at all."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The contradiction was not in the method."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "So the difference between us is not that you reached for force and we did not."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The difference is that your rupture came from choosing enforcement over persuasion."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "That is the wound we still carry."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Not that we failed to be consistent."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "That we seem not to have needed to be."
+          }
+        ],
+        "speaker": "don"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "Both churches reached for force."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "That is plain."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "But we had another one underneath it."
+          }
+        ],
+        "speaker": "don"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "You have just named something we did not have to name, and I will not look away from it."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You have now named a third kind: the wound of a community whose founding rule was purity of the hand, discovering it could not keep its own hands clean."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Some sacrificed to the gods."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Some handed over the scriptures."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The strict said no."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "But we never claimed we had not fallen."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "What you are describing is harder - not falling and then arguing over it, but falling and then arranging for the evidence to stay quiet."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "That you have named your own failure more honestly than many would."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "And that the difference between our wounds matters: ours were fought over in the open."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Yours, as you have just said, were kept from bursting into flame."
+          }
+        ],
+        "speaker": "alx"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "The lapsed were named."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The argument over them was recorded."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The tradition that won was the one that said they could return."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Ours was different."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "So the failure was not only that we fell."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "But there is one thing I would not let stand without naming it plainly."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You said you would rather have your kind of wound than ours."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Open argument is better than suppression."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "What we can do -- what we are both doing here -- is name the wound in our own voice rather than let an enemy name it for us."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "That is not the same as healing it."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "But it is better than pretending it was not there."
+          }
+        ],
+        "speaker": "don"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "You are also right that neither of us chooses which failure we inherit."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "But there is something else I would add, because it touches what we both carried forward from the wound itself."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "His books stayed in circulation."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "For generations, no one learned of it."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "And when the evidence finally surfaced - in imperial court records, not our own - we had no answer ready, because we had never prepared one."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "So here is what I make of the difference."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You fought your failure in the open, and the argument itself became part of your formation."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "That is the harder wound, and you were right to say you would rather have yours than ours."
+          }
+        ],
+        "speaker": "alx"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "They are describing the cover as the act itself."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The contrast he named is exact: you fought your failure in the open, and the argument itself became formation."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "But I will add one thing, because the wound runs in more than one direction."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "They could not finish it."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "So we had both wounds."
+          }
+        ],
+        "speaker": "don"
+      }
+    ],
+    "session_dollars": 0.3579809499999999
+  },
+  "total_dollars": 1.6763896999999999,
+  "note": "Priced against a published rate card, not a reconciled AWS invoice (spec principle 13). 2 turns per world x 11 worlds + one small table session - an order-of-magnitude first look at the real uncited-claim rate, not a statistically powered sample."
+}
