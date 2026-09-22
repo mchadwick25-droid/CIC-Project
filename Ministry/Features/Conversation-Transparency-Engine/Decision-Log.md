@@ -843,7 +843,145 @@ Once this lands and is verified on staging, the actual `main` → `live`
 promotion (Report.md's own "PR 3") is Mark's own act under the Promotion
 Runbook — not this workstream's to perform.
 
-**Entry 34 — 2026-09-22. Correction to Entry 33.** After an unshallowed
+**Entry 34 — 2026-09-21.** R19's retrofit written into all 10 gap worlds
+(alx, cappadocian, desert, gallic, hal, ijc, pahc, rzg, syr, witt) -
+`voice_craft.guard` in each now carries an honest, per-world version of
+don's own distress-minimization line.
+
+Drafted first as an Artifact
+(`https://claude.ai/artifact/4TFs1MTvHRPhM2JsVCMxoz`), read directly from
+each world's own `identity`/`characteristic_concerns`/`guard` fields
+rather than a shared template, per Mark's own real-time editing across
+five rounds:
+
+1. First draft read as AI-generated - reaching for cadence ("we do not
+   have that scale, and we do not build one") instead of stating the
+   rule plainly.
+2. Second pass cut the cadence but kept it in a third-person, legalistic
+   register ("a participant's own trouble is not weighed against...").
+   Mark's own line replaced it: "we have found everyone has trouble and
+   we don't compare them to each other" - adopted as the shared spine
+   for all ten.
+3. Third pass cut remaining AI tells: a hedge-opener ("we have found
+   that"), em-dash appositives, a poetic triplet ("one cost, paid
+   once"), and a literary metaphor ("hostile crown") standing in for a
+   plain historical fact (syr: "under a hostile crown" -> "under Persian
+   rule").
+4. Fourth pass, a real content fix, not a register one: rzg's draft had
+   drifted into disclaiming what the world wasn't ("we keep no list of
+   martyrs, we do not invent one") - announcing an absence nobody asked
+   about. Cut, per the same house rule every other `voice_craft` record
+   already follows (`gate_no_build_attribution`'s own `identity`/`guard`
+   scan aside, this is the "honest-limits" convention itself: a gap is
+   named only where a question actually reaches for it, never
+   pre-declared - alx's, desert's, and gallic's own flavor_notes all
+   state this rule directly).
+5. Fifth pass: Mark's own read caught two remaining sentences that
+   explained rather than stated - desert's "no one asks us to die for
+   the faith anymore, so our struggle stays inward" (reasoning the guard
+   doesn't need) and rzg's naming detail ("a pastor was killed in the
+   war..."). Both cut for the same reason: irrelevant to the rule
+   itself. witt's parallel trailing sentence ("two young men died once
+   for what we believe") was cut the same way once the pattern was
+   named.
+
+**Final shape, all ten:** two short sentences. "Everyone has trouble. We
+do not compare a person's trouble to [what this world's own record
+holds]." No elaboration, no reasoning, no disclaimer of absence.
+
+| World | Addition |
+|---|---|
+| alx | "...We do not compare one person's trouble to another's." |
+| cappadocian | "...We do not compare a person's trouble to our martyrs." |
+| desert | "...We do not compare a person's trouble to ours." |
+| gallic | "...We do not compare a person's trouble to our own hardship." |
+| hal | "...We do not compare a person's trouble to what we gave up." |
+| ijc | "...We do not compare a person's trouble to the costs in our record." |
+| pahc | "...We do not compare a person's trouble to what a death for the name cost us." |
+| rzg | "...We do not compare a person's trouble to the one death in our record." |
+| syr | "...We do not compare a person's trouble to what our people went through under Persian rule." |
+| witt | "...We do not compare a person's trouble to our one martyr story." |
+
+Each appended to the end of that world's existing `guard` field, not
+replacing any of the existing honest-thinness content already there -
+same pattern don's own guard already uses (floor line, then "one more
+line" on this specific concern).
+
+**Verified before commit:** all 10 files parse as valid YAML (rzg's and
+syr's single-quoted blocks correctly carry the new apostrophes as `''`).
+`engine.m1.fk.fk_grade` on every new `guard` field: 5.7-9.04, well under
+`FK_CEILING` 10. `gate_no_build_attribution`, `gate_readability`,
+`gate_voice_craft_prompt_budget`: 0 findings on all ten. `gate_voice_
+perspective` found 2 pre-existing findings (cappadocian, syr) in
+unrelated `doctrinal_witness` records this edit never touched - not a
+regression. `observe_outside_help_guard`'s own keyword scan still shows
+only don as "carries" - expected, not a bug: the new text is
+deliberately worded differently from don's own phrasing (Mark's own
+plain-language direction, not the scan's exemplar vocabulary), exactly
+the scan's own documented limitation (Entry 28's "Enforcement mechanism,
+deliberately left open" note). Verified all ten by direct read instead.
+
+**Not done here:** recompile and re-pin the affected worlds' packages
+(`engine.m2.cli build`, one manifest per world, referencing this entry's
+own commit) - separate, standard next step, matching every prior
+voice_craft revision in this project's own history. Folding this
+requirement into the standing build-cycle checklist for future worlds
+(Entry 28's second scope item) is also still outstanding.
+
+**Entry 35 — 2026-09-22.** Stage 6 begins. Mark's own converged, ordered
+build plan (6a-6f), display design already fixed by R8/R9/R10/R16/R17
+(merged #390) - one PR per sub-stage, only participant-facing words
+escalated to Mark. **Announcing 6a's own promotion sweep here first, per
+Mark's own sequencing instruction, so P3's gate run sequences after it -
+not yet run as of this entry.**
+
+**6a's exact mechanism, verified against real code before running
+anything (not assumed):**
+
+- **"Sits in an admitted world's currently pinned package"** =
+  `record["id"]` appears in that world's currently-pinned
+  `compiled/repository.json`. Verified precisely on alx: 197 records
+  under `records/alx/`, 179 in `repository.json` - the 18-record gap is
+  exactly `facilitator_brief` (1) + `search_record` (16) + `world_front`
+  (1), the three record_types `engine/m2/builders.py`'s own
+  `_PACKAGE_EXCLUDED_RECORD_TYPES` names. Every other type - quote,
+  figure, voice_craft, term, story, etc. - is in `repository.json`
+  fully, confirmed by a direct type-count comparison, not assumed from
+  the builder's own docstring.
+- **"Passes every m1 gate"** = the record's own id does not appear as
+  the subject of any finding from `engine.m1.gates.run_all(records,
+  load_fleet_records(), registry)`, across all 19 gates, called the
+  same way `engine/m9/enforce.py`'s own `collect_findings()` calls it
+  (per-world `records`, fleet-wide `_fleet` records, NOT a
+  `{world_key: records}` nesting - a first attempt at this got that
+  wrong and produced 244 false findings on alx alone; the corrected call
+  gives 0, matching every gate this workstream has already run clean on
+  alx this session). **This ignores `engine/m9/enforce.py`'s own
+  `ACCEPTED_OPEN` waivers entirely, on purpose** - a waiver keeps CI
+  green while a known defect is pending fix; it does not certify the
+  specific records behind it as ready for confidence display. Verified
+  on don: `gates.run_all` reports 52 reciprocity findings (matching
+  `ACCEPTED_OPEN`'s own recorded `m1:reciprocity/don` count exactly)
+  naming 25 distinct records - those 25 stay draft under this rule,
+  waiver or not.
+- **Promotion rule:** for every record currently `status: draft` in an
+  admitted world, flip to `ready` only if both hold; leave everything
+  else untouched. Never assign `frozen` (not this pass's decision to
+  make). Records of the three package-excluded types are structurally
+  never eligible (they never sit in the package at all).
+- **After flipping:** `engine.m2.cli build <world>` (fresh package),
+  `engine.m2.cli determinism-check <world>`, then repoint
+  `records/worlds/<world>.yaml`'s `package.manifest_hash`/`location` at
+  the new package - the exact sequence Entry 34's own package-rebuild
+  fix already validated works cleanly for a records-only change.
+
+Mechanical execution (11 worlds, the actual status-flip + rebuild loop)
+delegated to a Haiku subagent per Mark's own instruction, following a
+script written and reviewed here first rather than left to the
+subagent's own judgment, given what this directly feeds (the live
+confidence display). Counts per world follow in a later entry once run.
+
+**Entry 36 — 2026-09-22. Correction to Entry 33.** After an unshallowed
 check, the reviewer thread found the real merge base is the 2026-09-20
 merge of PR #327 (`20264dec`), not the stale shallow-clone comparison
 Entry 32/33 were working from, and directed a plain `git merge origin/live`
@@ -869,7 +1007,11 @@ attempted). Executed and verified:
 - `records/worlds/*.yaml` (12 files) and their package manifests: resolved
   toward `main`, then all 12 worlds rebuilt fresh
   (`engine.m2.cli build` + repin) rather than trusting either side's stale
-  pin — `engine.m2.cli staleness-check` passes clean on all 12.
+  pin — `engine.m2.cli staleness-check` passes clean on all 12. A second
+  round of the same conflict landed concurrently (this file's own Entry 34
+  above, the R19 retrofit's own 10-world repin) while this merge was in
+  progress — resolved the same way, toward the newer content, then
+  rebuilt fresh again.
 - 4 `worlds/*/Open_Gaps_Tracking.md` files (desert, gallic, hal, pahc) were
   add/add conflicts — `live` had independently created each from scratch,
   unaware of this world's own existing OG-numbered history. Unioned, not
@@ -883,12 +1025,18 @@ attempted). Executed and verified:
   difference. No scholarly call was actually needed; resolved toward
   `main` (options and their outcome logged in `Ministry/Operations/Audits/
   Tech-Readiness-2026-09/P2-Operations/Decision-Log.md`).
-- One real regression caught and fixed before merging: an initial blanket
-  "take `main`'s side" resolution of the 12 registry files' package-pin
-  conflicts briefly reverted `hal.yaml`'s already-correctly-auto-merged
-  `living_tradition_flag: false` back to `main`'s stale `true` — caught by
-  `engine/m1/tests/test_cross_world.py`'s own drift check, fixed, hal
-  rebuilt again, full suite re-run.
+- One real regression, caught twice, fixed twice, before either merge
+  opened: an initial blanket "take one side's whole file" resolution of a
+  registry file's package-pin conflict reverted `hal.yaml`'s own
+  `living_tradition_flag` back to the stale `true` it should not carry —
+  first when resolving toward `main` against `live`, then again when
+  resolving toward `main`'s own newer content against this file's own
+  Entry 34 (R19 retrofit) landing concurrently, since neither side's
+  *package-pin* conflict resolution touches this unrelated field, and a
+  whole-file `--ours`/`--theirs` pick reverts whatever that side happens to
+  carry there regardless. Both times caught by `engine/m1/tests/
+  test_cross_world.py`'s own drift check before committing, fixed, hal
+  rebuilt again each time, full suite re-run.
 - Full suite: 895/895 passing. `engine.m1.cross_world`: 0 new defects.
   `engine.m9.cli check`: clean. `tools/check_paths.py`: 0 new unresolved
   citations (2 baseline entries added for package-timestamp citations that
@@ -902,4 +1050,7 @@ This workstream's own coordination boundary held throughout: no edits to
 merge itself brought in verbatim from `live`; the four files this entry
 lists as "resolved" in `engine/m1/`, `engine/m2/`, and `.github/` are the
 only hand-edited conflict resolutions, and none of them touch this
-workstream's own in-flight Stage 5+ work.
+workstream's own in-flight Stage 5+ work. (Numbered 36, not 34 as first
+drafted — this workstream landed its own Entries 34–35 concurrently;
+renumbered on merge per this file's own "never renumber a past entry"
+rule, which binds the later arrival.)

@@ -29,5 +29,5 @@ census_id: "lutheran-wittenberg-and-its-congregations"
 thinness_statement: "Richest in the founder's own catechisms, treatises, and confessional documents and in the movement's own account of its founding decade (1517-1531); thinner on any household's or parish's own report of receiving that formation (the Saxon visitation records exist but are not in this library), women's own formation and voice (no text a woman wrote survives here), the felt experience of the 1529 Marburg break with the Reformed cities, the years after 1531 within the window's own declared close of 1580, material culture and lived worship independent of the movement's own account of itself, and the 1525 tract against the peasants and the 1543 treatise against the Jews - both real and disclosed as this world's own history, but not available here to quote from directly."
 living_tradition_flag: true
 package:
-  manifest_hash: "sha256:391228002bd08e29b14fd48837c84e3a34d1b6ac23714d8c33ef4e9778573550"
-  location: "packages/witt/2026-09-22T01-28-38Z"
+  manifest_hash: "sha256:8bb2bb8ec54bd20a5f4c3fe3dce2f34d67b1068b30e34bb1df8fe32ec18f9008"
+  location: "packages/witt/2026-09-22T01-48-15Z"
