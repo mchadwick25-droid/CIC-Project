@@ -337,3 +337,21 @@ enough AWS credit to absorb the Bedrock bill while those are unresolved.
 **Next action:** confirm the $1000 application's outcome and timeline; if there's a real gap risk
 between the $80 remaining running out and the $1000 landing, that's a pilot-continuity question
 worth a plan, not just a hope.
+
+---
+
+## 2026-09-21 — Tech-review stress test run; cut line set; entity supplement explored; Ministry tree triaged
+
+**Context.** Mark opened a dedicated reviewer thread ("CiC — Tech Review & Funding Readiness Prep") to stress-test the system as a technical acquirer would, with no counterparty across the table. First pass ran against the whole repo including early-days documents; Mark redirected: review the system as it is, not as it was imagined. **Cut line (Mark's decision):** what is live online now, the Conversation & Transparency Engine upgrade being installed, and the ongoing world builds.
+
+**Verdict recorded:** the system withstands a technical review and does not pass one clean. Credited: code-anchored crisis redirect with a caught-and-fixed regression; record-layer fidelity (216/216 quote records verified-direct across the six audited worlds, with documented passes against `cic/texts/`); commit-reveal sealed-probe admission; fail-closed rights pipeline; a Bedrock reconciliation that closed. Scored against: no world has had human Article 31 review (disclosed honestly on the site); the runtime grounding check verifies word provenance, not truth (measured ~98% fooled by vocabulary-faithful fabrications, `engine/m4/reports/grounding-fooling-2026-09-21.json`); sandbox and live diverged in both directions; production on a dev identity; single decision-maker. A first-pass finding that fabrication was a live defect was **corrected**: the July census recorded catch-and-fix history, not live defects.
+
+**Partners and funding ministries explored** (landscape artifact in the thread): Logos as strongest commercial fit in both directions; a seminary as the moat (reviewer, grant eligibility, first license in one relationship); YouVersion as cheapest reach; BibleProject adjacency, not a deal; The Chosen ecosystem long-horizon via Come and See; funding ministries (Lilly, FLI, NEH, Wabash, Luce, Templeton, Praxis) are a nonprofit's table with Praxis the one door open to the PBC.
+
+**Entity, as Mark reframed it:** not a conversion, not a full hybrid — **a nonprofit supplement beside the company to fund reach and accessibility**, with the product, engine, and sale option untouched. Three forms on the table (sponsored fund, partner ministry, own 501(c)(3)); reviewer thread leans sponsored fund first. Governing constraint named: private benefit — point most money at third parties (reviewers, translations, programs), buy access from the company at cost. **Open question left with Mark:** what the supplement pays for, compute vs. people and programs. Nothing decided on structure.
+
+**Tech-readiness program dispatched** (Mark: "they stand, dispatch wave 1"): P1 Security (OWASP ASVS L1, LLM Top 10), P2 Operations (SRE, Well-Architected Reliability), P3 Fidelity as a machine gate (NIST AI 600-1, Article 31). Six transparency-engine rulings taken by Mark one at a time (R16, R17, R9, R8, R10, R18) and handed to the existing transparency thread. Reports go to `Ministry/Operations/Audits/Tech-Readiness-2026-09/`.
+
+**Ministry tree triaged** (this PR): early-days strategy drafts to `Archive/Ministry-Early-Days-2026-07/`; five documents kept with supersession banners; FAQ and Letter to Friends kept as source material with their standing status written on them; the Organizational Covenant's Article 2 commitment ("Money Buys Access, Never Voice" — core access stays free, money only widens the Table, never gates or influences) extracted and quoted with full attribution into `CiC_Business_Roadmap_V0_1.md` under "What stays true across every phase"; the Covenant itself moved to `Archive/Ministry-Early-Days-2026-07/Organization/`.
+
+**Next action:** Mark's answer on what the supplement pays for; reviewer thread reads the three wave-1 reports against their standards.

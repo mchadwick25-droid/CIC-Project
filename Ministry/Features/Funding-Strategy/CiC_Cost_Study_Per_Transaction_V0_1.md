@@ -1,3 +1,7 @@
+**cic-poc measurement;** superseded by the M8 reconciliation (`engine/m8/reports/`).
+
+---
+
 # CiC Cost Structure — Grounded Technical Report
 
 **2026-07-30 · Funding Strategy thread · Opus agent, background dispatch, codebase-grounded**

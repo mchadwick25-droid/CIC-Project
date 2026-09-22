@@ -1,3 +1,7 @@
+**Premised on the retired cic-poc app.** The conclusion (do not migrate provider) stands; the figures do not. Current basis: `engine/m8/`.
+
+---
+
 # LLM Provider & Cost Options — what the September price change actually does, and what leaving Anthropic would cost
 
 **Date:** 2026-08-09

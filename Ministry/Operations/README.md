@@ -8,7 +8,7 @@ These are the only things that belong at this level long-term.
 **`Audits/`** — dated, one-off audits, status reports, and cross-thread handoffs.
 Not standing artifacts; each is a snapshot as of its own date.
 
-**`Markup-Queue/`** — staged HTML review pages for other threads' content (currently
+**`Markup-Queue/`** — archived 2026-09-21. Was: staged HTML review pages for other threads' content (currently
 Organization, Communication, Website) awaiting a formatting pass. Shared staging
 space, not owned by any one thread.
 

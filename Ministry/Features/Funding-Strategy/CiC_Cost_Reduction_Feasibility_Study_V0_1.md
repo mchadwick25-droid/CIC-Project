@@ -1,3 +1,7 @@
+**cic-poc;** the Answer Bank recommendation herein was rescinded 2026-08-02 (Funding-Strategy Decision-Log). Superseded by the M8 engine.
+
+---
+
 # CiC Cost-Reduction Feasibility Study
 
 **2026-08-02 · Funding Strategy thread · codebase-grounded, measured where measurable**

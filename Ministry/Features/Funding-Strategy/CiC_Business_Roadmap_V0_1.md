@@ -1,3 +1,7 @@
+**Partly superseded.** The four boundaries and the Phase 5 fork are decisions and stand. Phases 1–3 reference cic-poc and a 60-turn cap; the live engine is M8 on Bedrock with a 10-turn cap. See the 2026-09-21 entry in `Ministry/Funding/CiC_Org_Funding_Decision_Log.md`.
+
+---
+
 # Church in Conversation — Business Roadmap V0.1
 
 **2026-07-22 · Funding Strategy thread · a partial convergence, at Mark's own signal**
@@ -106,6 +110,12 @@ IPO or venture-scale growth trajectory.
 ---
 
 ## What stays true across every phase
+
+Core access to the Table stays free. The Organizational Covenant (V0.1, Article 2 — "Money Buys
+Access, Never Voice") commits: *"Every dollar exists to widen the Table. No gift, grant, license,
+or sponsorship — of any size — selects worlds, shapes a Representative, softens a world's
+testimony, gates the transparency apparatus, or touches participant data."* Money's only role is
+to expand access for others, never to gate core participation or influence the encounter.
 
 Rigor and sourcing are never for sale. Sponsorship confers honor, never influence. No single
 institutional partner carries outsized weight or its appearance. Every pre-existing draft is

@@ -55,7 +55,7 @@ of promotion. See "How things move" for the promotion path.
 
 | entry | what it is |
 |---|---|
-| `Archive/` | everything superseded, by category and date: former versions, the Syriac-Build stratum of 2026-07, the Pass2 voice-rebuild evidence of 2026-08, superseded housekeeping. Nothing here is current; nothing here is deleted without instruction |
+| `Archive/` | everything superseded, by category and date: former versions, the Ministry-Early-Days-2026-07 strategy drafts, the Syriac-Build stratum of 2026-07, the Pass2 voice-rebuild evidence of 2026-08, the Tour-Experience-Module-Phase2, superseded housekeeping. Nothing here is current; nothing here is deleted without instruction |
 
 ## How a world is named
 

@@ -1,3 +1,7 @@
+**Superseded 2026-08-24.** Describes the retired cic-poc / direct-API app (60-turn cap). Current engine, cost basis and reconciliation: `engine/m8/`, `engine/m8/reports/reconciliation-2026-08-28-worksheet.md`. Kept as the origin of the unit-cost history.
+
+---
+
 # Church in Conversation — What It Actually Costs to Go Live
 
 **V0.1 · 2026-07-21 · Funding Strategy & Execution thread**
