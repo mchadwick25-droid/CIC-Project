@@ -41019,6 +41019,7 @@ function openPanel(m){
   if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b>, ${esc(entry.representativeTitle)} — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>
     <button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
   h+=`<p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>`;
+  h+=`<p class="tree-link"><a href="tree/${m.id}.html">${esc(m.name)}</a> in the Family Tree</p>`;
   // Lead with the tradition itself, not with this project's own build plan for
   // it: the summary first, then the story and everything else a participant
   // would come here to learn. The "where this stands" statement (m.why) moves
