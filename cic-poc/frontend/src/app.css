@@ -398,6 +398,35 @@ button {
   color: var(--color-text-muted);
 }
 
+/* Read-aloud step 1: BrandMark stays pinned left, the note and the
+   control (either or both may be absent) stay grouped on the right -
+   .conversation__bar's own space-between only handles two children
+   correctly, so a third one needs this wrapper rather than reflowing
+   however three flex items happen to land. */
+.conversation__bar-right {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.read-aloud-control {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 6px 12px;
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  color: var(--color-text-muted);
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+
+.read-aloud-control[aria-pressed='true'] {
+  border-color: var(--color-representative);
+  color: var(--color-representative);
+  background: var(--color-representative-bg);
+}
+
 .conversation__transcript {
   flex: 1;
   overflow-y: auto;

@@ -10,3 +10,12 @@
  * discipline this file always had, inverted along with the default.
  */
 export const useAnchorRenderer = import.meta.env.VITE_TRANSPARENCY_ANCHOR_RENDERER !== 'off';
+
+/**
+ * Read-aloud step 1 (Mark's ruling, 2026-09-22: "start with read-aloud
+ * free... test one step at a time" - see Ministry/Technology/
+ * CiC_ReadAloud_Step1_Design_Note.md). Only the literal string "on" turns
+ * it on, so an unset or misconfigured env var can never silently start
+ * speaking to a participant.
+ */
+export const readAloudEnabled = import.meta.env.VITE_READ_ALOUD === 'on';

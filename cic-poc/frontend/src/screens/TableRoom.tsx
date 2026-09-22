@@ -15,9 +15,11 @@
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
 import { ModernTermMark } from '../components/ModernTermMark';
+import { ReadAloudControl } from '../components/ReadAloudControl';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry } from '../data/worlds';
+import { readAloudEnabled } from '../lib/flags';
 
 interface TableRoomProps {
   seatedWorlds: WorldEntry[];
@@ -39,21 +41,34 @@ function facilitatorParagraphs(text: string): string[] {
   return text.split('\n\n').filter(Boolean);
 }
 
+// Same "latest completed voice/Facilitator turn only" target as
+// Conversation.tsx - see ReadAloudControl's own docstring.
+function latestSpokenTurn(turns: ConversationTurn[]): { index: number; turn: ConversationTurn } | null {
+  for (let i = turns.length - 1; i >= 0; i--) {
+    if (turns[i].speaker !== 'participant') return { index: i, turn: turns[i] };
+  }
+  return null;
+}
+
 export function TableRoom({
   seatedWorlds, turns, sessionCode, closed, roundOpen, roundCap, isLoading, error, errorRecoverable, onSend, onResumeRound, onEnd, onRestart,
 }: TableRoomProps) {
   const byKey = new Map(seatedWorlds.map((w) => [w.worldKey, w]));
   const anyLivingTradition = seatedWorlds.some((w) => w.livingTraditionFlag);
+  const latestSpoken = readAloudEnabled ? latestSpokenTurn(turns) : null;
 
   return (
     <div className="conversation">
       <div className="conversation__bar">
         <BrandMark size={16} />
-        {sessionCode && (
-          <div className="conversation__bar-note sans">
-            Not saved to an account — this conversation lives in this tab
-          </div>
-        )}
+        <div className="conversation__bar-right">
+          {sessionCode && (
+            <div className="conversation__bar-note sans">
+              Not saved to an account — this conversation lives in this tab
+            </div>
+          )}
+          {latestSpoken && <ReadAloudControl text={latestSpoken.turn.text} turnKey={latestSpoken.index} />}
+        </div>
       </div>
 
       <div className="conversation__transcript">

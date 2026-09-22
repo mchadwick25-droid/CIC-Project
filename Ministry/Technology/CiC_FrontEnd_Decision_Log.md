@@ -3453,3 +3453,58 @@ light-mode hex values. Promote through this project's normal `main` →
 `live` pipeline for `cic-poc/frontend` (confirm with `render.yaml`
 which service/branch that actually is before merging — do not assume
 it matches `cic-website`'s Cloudflare pipeline).
+
+---
+
+## 2026-09-22 — Read-aloud, step 1: PROPOSED, awaiting Mark
+
+**Origin.** Mark's ruling: *"start with read-aloud free, composite voice
+on the paid tier... test one step at a time."* Full design note:
+`Ministry/Technology/CiC_ReadAloud_Step1_Design_Note.md`. Prototype on
+branch `read-aloud-step1`, behind `VITE_READ_ALOUD` (defaults off, same
+"only the literal string 'on' flips it" discipline as
+`VITE_TRANSPARENCY_ANCHOR_RENDERER`), draft PR open against `main`, not
+merged.
+
+**Shape.** The participant's browser speaks `turn.text` verbatim through
+`window.speechSynthesis` — no new backend, no audio files, no composite or
+character voice (that's the paid-tier step, not this one). One *global*
+control in the conversation bar, not a per-turn button — chosen because a
+Facilitator turn has no speaker row at all (deliberately unlabeled,
+`CiC_Full_UX_Design_V1_0.md`: "talking not texting"), so a turn-level
+button would have added exactly the visual weight that design intentionally
+left out. Always targets the latest completed voice/Facilitator turn;
+replaying an older turn is out of scope for step one. Text is chunked into
+sentences before being queued (`speechSynthesis.speak()` once per
+sentence) both to satisfy "never mid-sentence" and to route around a real
+Chrome bug that silently truncates long single utterances — directly
+relevant here since the crisis-resources safety turns
+(`engine/m4/crisis_resources.py`) are exactly the text this project can
+least afford to cut off. Nothing auto-plays, ever; the control is a plain
+button a screen reader announces like any other.
+
+**Two calls made without asking, documented for Mark to overrule:**
+Play/Stop only, not Play/Pause/Stop (real `speechSynthesis` pause/resume
+is unreliable enough across mobile browsers that a broken pause seemed
+worse than no pause); and the global-header placement over per-turn
+buttons (see above). Both are argued with the rejected alternative in the
+design note, not just asserted.
+
+**What's explicitly NOT decided here — this is the actual ask of Mark:**
+the disclosure sentence telling a participant this is their own browser
+reading, not the Representative speaking. Three drafted options are in
+the design note (Q7); none are wired into any component, even behind the
+flag. This is the one open item that blocks turning `VITE_READ_ALOUD` on
+anywhere real.
+
+**Verification:** `npm test` 46/46 passing (14 new), `npm run build`
+clean. `npm run lint` could not run — no ESLint config exists in this
+checkout at all, a pre-existing gap, not introduced here. Not yet
+verified: the control has not been seen actually speaking in a real
+browser against a live `engine/api` backend (jsdom has no real
+speechSynthesis; the tests stub it) — owed before the flag is ever turned
+on for real.
+
+**Next action:** Mark's ruling on the disclosure sentence (and, if he
+wants to weigh in, the two documented-but-open calls above). Nothing
+merges until then; the PR stays a draft.
