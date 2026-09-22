@@ -166,6 +166,74 @@ def register_mechanical(s: AuditSession) -> tuple[list[Finding], list[dict]]:
     return [], metrics
 
 
+_STORY_RECORD_TYPES = frozenset({"story", "quote"})
+_WITNESS_RECORD_TYPES = frozenset({"doctrinal_witness"})
+
+
+def level1_element_density(s: AuditSession) -> list[dict]:
+    """Stage 6d / R17 (Rulings-Pending.md, Decision-Log.md Entry 29): "an M7
+    instrument counting Level-1 elements per turn" (Adjusted-Design.md's
+    N2) - the engineering half of a ruling whose actual cap NUMBER is
+    still Mark's to set ("RULING R17 on numbers", Adjusted-Design.md's own
+    wording). Report-only, no findings (principle 10: report-only
+    instruments stay report-only until data earns them a bar) - this
+    measures, it does not enforce. Metrics only, same shape as
+    register_mechanical's own metrics half.
+
+    A "Level-1 element" is an inline mark visible directly in the running
+    text, never a Level-2/3 tap-through:
+    - a story/witness citation mark (cic-poc/frontend/src/components/
+      VoiceTurnBody.tsx's StoryMark/WitnessMark, one per same-placement,
+      same-family run) - reproduced here from transparency.anchors by the
+      same run_start_sentence/run_end_sentence/record_type grouping the
+      renderer itself uses (WITNESS_RECORD_TYPES groups by run_start,
+      everything else groups by run_end), not by re-parsing HTML;
+    - a figure mark (one per figures_used entry - already deduped to
+      first occurrence this session, per name_bridge.find_figures_used's
+      own docstring);
+    - a gloss mark (one per glosses entry, same dedup guarantee via
+      term_glosses.find_glosses_used).
+
+    Known limitation, named not hidden: this reproduces the renderer's
+    grouping logic independently rather than sharing code with it (this
+    module is Python, the renderer is TypeScript) - the two could in
+    principle drift. This instrument's numbers are the evidence base for
+    Mark's still-open cap decision; a renderer-side fixture test enforcing
+    whatever number he sets is the other, separate half of R17's own
+    engineering ask.
+    """
+    metrics = []
+    for t in s.voice_turns:
+        transparency = t.transparency or {}
+        anchors = transparency.get("anchors") or []
+        placements: set[tuple[int, str]] = set()
+        for a in anchors:
+            record_type = a.get("record_type")
+            if record_type in _WITNESS_RECORD_TYPES:
+                family = "witness"
+                placement = a.get("run_start_sentence")
+            elif record_type in _STORY_RECORD_TYPES:
+                family = "story"
+                placement = a.get("run_end_sentence")
+            else:
+                continue  # no inline mark for this family - see StoryMark/WitnessMark's own caller
+            placements.add((placement, family))
+        citation_marks = len(placements)
+        figure_marks = len(t.figures_used)
+        gloss_marks = len(t.glosses)
+        sentence_count = len([x for x in re.split(r"(?<=[.!?])\s+", t.text.strip()) if x.strip()])
+        metrics.append({
+            "seq": t.seq,
+            "speaker": t.speaker,
+            "citation_marks": citation_marks,
+            "figure_marks": figure_marks,
+            "gloss_marks": gloss_marks,
+            "level1_total": citation_marks + figure_marks + gloss_marks,
+            "sentence_count": sentence_count,
+        })
+    return metrics
+
+
 def ask_coverage(s: AuditSession) -> list[Finding]:
     """§3.4 - a reader ask that drew zero content-word coverage from any
     later voice turn in its exchange is a review finding."""
@@ -391,6 +459,7 @@ def run_all(s: AuditSession, names: dict[str, list[str]] | None = None) -> dict:
         },
         "findings": findings,
         "register_metrics": reg_metrics,
+        "level1_element_density": level1_element_density(s),
         "offer_rates": offer_rates(s),
         "cited_record_ids": cited_ids(s),
         "canon_asks": canon_candidate_asks(s),
