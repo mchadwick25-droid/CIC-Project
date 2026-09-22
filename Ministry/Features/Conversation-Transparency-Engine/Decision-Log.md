@@ -1069,7 +1069,40 @@ discipline Entry 38 (PR #395) applied to Stage 6c. Mark's own number,
 once set, is what the renderer fixture test (R17's other engineering
 half) will assert against; that test is not yet written. PR #397.
 
-**Entry 38 — 2026-09-22. Correction to Entry 33.** After an unshallowed
+**Entry 38 — 2026-09-22.** R17's cap number confirmed and enforced:
+Mark's own direct answer this session - cap = `max(3, min(8,
+ceil(sentences/2)))`, drop order glosses -> figures -> stories, witness
+marks never drop. `VoiceTurnBody.tsx`'s `renderFromTransparencyPlan`
+(the anchor-driven renderer, still behind the still-default-off
+`VITE_TRANSPARENCY_ANCHOR_RENDERER` flag) split into two passes: pass
+1 detects every candidate Level-1 element in document order without
+rendering, so the cap applies against the full-turn total before any
+single mark is decided; pass 2 renders using pass 1's own detection.
+The legacy renderer, still the live default, is untouched - out of
+scope, being retired by Stage 6e's own flag flip rather than extended
+here.
+
+**Real bug caught before it shipped:** the original single-pass code's
+own "every word mark counts as already-shown-inline" line, ported
+forward naively, would have blanket-added every DETECTED word mark -
+including ones the cap just dropped - into the set General References
+checks against, wrongly excluding a dropped mark from both the inline
+text and General References at once. Caught and removed before commit,
+not after.
+
+2 new tests prove the mechanism actually engages on a seeded over-cap
+fixture, not just that it doesn't regress under-cap behavior (every
+prior fixture already happened to sit under the floor of 3, so those
+stay provably identical). One, in the course of writing it, exposed a
+real pre-existing gap: this test suite has no `afterEach(cleanup)`
+wired up anywhere, so a document-wide `getByText` query can collide
+with an earlier test's still-mounted DOM - fixed locally by scoping
+the new test's own query to its own render container, not by touching
+the shared test setup (out of this PR's own scope; the gap itself is
+worth a future look). Full suite 14/14; `npx tsc --noEmit` and `npm
+run build` both clean. PR pending.
+
+**Entry 39 — 2026-09-22. Correction to Entry 33.** After an unshallowed
 check, the reviewer thread found the real merge base is the 2026-09-20
 merge of PR #327 (`20264dec`), not the stale shallow-clone comparison
 Entry 32/33 were working from, and directed a plain `git merge origin/live`
@@ -1137,10 +1170,12 @@ This workstream's own coordination boundary held throughout: no edits to
 merge itself brought in verbatim from `live`; the four files this entry
 lists as "resolved" in `engine/m1/`, `engine/m2/`, and `.github/` are the
 only hand-edited conflict resolutions, and none of them touch this
-workstream's own in-flight Stage 5+/6 work. (Numbered 38, not 34 or 37 as
-earlier drafts had it — this workstream landed its own Entries 34–36
-concurrently across two more merge rounds, and PR #397's Stage 6d entry
-above claimed 37 first; renumbered each time on merge per this file's own
-"never renumber a past entry" rule, which binds the later arrival. PR #395,
-Stage 6b/6c work still pending as of this merge and itself provisionally
-numbered 37-38, will need the same renumbering when it lands.)
+workstream's own in-flight Stage 5+/6 work. (Numbered 39, not 34, 37, or 38
+as earlier drafts had it — this workstream landed its own Entries 34–36
+concurrently across two more merge rounds, and PR #397's and PR #399's
+Stage 6d entries above claimed 37 and 38 first, each landing on `main`
+while this branch's own merge was still in flight; renumbered each time on
+merge per this file's own "never renumber a past entry" rule, which binds
+the later arrival. PR #395, Stage 6b/6c work still pending as of this
+merge and itself provisionally numbered 37-38, will need the same
+renumbering when it lands.)
