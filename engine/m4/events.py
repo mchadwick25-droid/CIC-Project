@@ -55,6 +55,13 @@ REQUIRED_KEYS: dict[str, set[str]] = {
     # the regenerated attempt ALSO caught, attempt="regenerated") - never
     # one summary event per turn.
     "seat_identity_violation": {"round_no", "position", "world_key", "offending_prefix", "attempt"},
+    # R27's own audit surface (Decision-Log.md Entry 51, 2026-09-22):
+    # report-only, one event per voice_turn that carried at least one
+    # uncited declarative claim sentence - mode-agnostic (both interview
+    # and table), so no round_no/position here the way seat_identity_
+    # violation carries (table-only bookkeeping). offenses:
+    # list[{"sentence": str, "class": str}].
+    "uncited_claims": {"speaker", "offenses"},
 }
 
 ENUMS: dict[tuple[str, str], set[str]] = {
@@ -113,6 +120,25 @@ def _validate_session_started_shape(payload: dict) -> None:
             )
 
 
+# The ENUMS mechanism above validates one scalar payload value per
+# (event_type, field) pair - it has no way to reach into a list of dicts.
+# uncited_claims' own offenses[].class needs exactly that, so it gets its
+# own small shape check rather than stretching ENUMS to cover a shape it
+# was never built for (Decision-Log.md Entry 51's own flagged gap).
+_UNCITED_CLAIM_CLASSES = {"uncited_claim", "neighbour_named", "own_doctrine_in_other_tradition_turn"}
+
+
+def _validate_uncited_claims_shape(payload: dict) -> None:
+    offenses = payload["offenses"]
+    if not isinstance(offenses, list):
+        raise EventValidationError(f"uncited_claims.offenses must be a list, got {offenses!r}")
+    for offense in offenses:
+        if not isinstance(offense, dict) or set(offense) != {"sentence", "class"}:
+            raise EventValidationError(f"uncited_claims.offenses entry must be exactly {{'sentence', 'class'}}, got {offense!r}")
+        if offense["class"] not in _UNCITED_CLAIM_CLASSES:
+            raise EventValidationError(f"uncited_claims offense class {offense['class']!r} not in {sorted(_UNCITED_CLAIM_CLASSES)}")
+
+
 def validate(event_type: str, payload: dict) -> None:
     if event_type.startswith("guidance_"):
         # reserved; no live guidance exists under principle 2 (spec SS3 catalog note) -
@@ -125,6 +151,8 @@ def validate(event_type: str, payload: dict) -> None:
         raise EventValidationError(f"{event_type} payload missing required keys: {sorted(missing)}")
     if event_type == "session_started":
         _validate_session_started_shape(payload)
+    if event_type == "uncited_claims":
+        _validate_uncited_claims_shape(payload)
     for field, allowed in ENUMS.items():
         etype, key = field
         if etype == event_type and payload.get(key) not in allowed:

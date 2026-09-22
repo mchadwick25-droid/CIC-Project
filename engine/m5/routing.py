@@ -71,6 +71,13 @@ class RoutingDecision:
     action: str  # safety_turn | check_in_turn | system_nature_turn | bridge_turn | etic_turn | voice_with_directive | voice_pass_through
     reason: str
     directive: Directive | None = None
+    # R26 (Decision-Log.md Entry 50, 2026-09-22): a structured field, not a
+    # `reason` string to parse - set only on a voice_with_directive first
+    # ask of a PRESSABLE_CLASSES member (e.g. "other_tradition"), so a
+    # caller that needs to know can check this directly rather than
+    # matching against reason's own free text, which is allowed to change
+    # wording without that being a routing-behavior change.
+    out_of_scope_class: str | None = None
 
 
 def assemble_directive(reader: dict) -> Directive:
@@ -175,6 +182,7 @@ def route(
             action="voice_with_directive",
             reason=f"{out_of_scope_class}, first ask - in-world answer",
             directive=assemble_directive(reader),
+            out_of_scope_class=out_of_scope_class,
         )
 
     return RoutingDecision(action="voice_with_directive", reason="ordinary turn", directive=assemble_directive(reader))

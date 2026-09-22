@@ -18,6 +18,7 @@ from engine.m4.package_fetch import ensure_package_local
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.store import Store
 from engine.m4.turn import TurnResult, UnhandledRoutingAction, run_turn
+from engine.m4.uncited_claims import build_uncited_claims_event
 from engine.m4.world_loader import LazyWorldLoader, LoadedWorld
 from engine.m5.anachronism import anachronistic_term_ids as compute_anachronistic_term_ids
 from engine.m5.routing import PRESSABLE_CLASSES
@@ -640,6 +641,21 @@ def handle_message(
         events.validate("voice_turn", result.voice_event)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="voice_turn", payload=result.voice_event)
         voice_payload = result.voice_event
+
+        # R27 (Decision-Log.md Entry 51, 2026-09-22), report-only: same
+        # out_of_scope_class already read above for the pressed-flag append,
+        # not re-derived - a voice_with_directive turn routed via
+        # other_tradition is the "own doctrine in another tradition's turn"
+        # shape build_uncited_claims_event's own classify_other_tradition_turn
+        # is built to catch.
+        uncited_event = build_uncited_claims_event(
+            result.voice_event,
+            registry=registry,
+            is_other_tradition_turn=(result.routing_action == "voice_with_directive" and out_of_scope_class == "other_tradition"),
+        )
+        if uncited_event is not None:
+            events.validate("uncited_claims", uncited_event)
+            store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="uncited_claims", payload=uncited_event)
 
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": turn_no})
 

@@ -56,6 +56,7 @@ from engine.m4.table_governance import detect_direct_address, governance_summary
 from engine.m4.store import Store
 from engine.m4.turn import UnhandledRoutingAction, _maybe_record_usage, run_gate, run_voice_turn_for_world
 from engine.m4.turn_selector import Selection, select_speaker
+from engine.m4.uncited_claims import build_uncited_claims_event
 
 import threading
 from contextlib import contextmanager
@@ -647,6 +648,7 @@ def _advance_open_round(
     store: Store,
     usage_store: UsageLogStore,
     worlds: dict[str, LoadedWorld],
+    registry: dict,
     voice_client,
     voice_model_id: str,
     safety_client,
@@ -657,6 +659,7 @@ def _advance_open_round(
     routing_reason: str,
     degraded: bool,
     facilitator: list[dict],
+    out_of_scope_class: str | None = None,
 ) -> TableMessageResult:
     """One voice-turn advance of the open round - selector step, then the
     selected voice's turn, then the close when the cap lands. Re-projects
@@ -880,6 +883,21 @@ def _advance_open_round(
     events.validate("voice_turn", voice_event)
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="voice_turn", payload=voice_event)
 
+    # R27 (Decision-Log.md Entry 51, 2026-09-22), report-only: same
+    # out_of_scope_class the caller already read off the opening gate_decision
+    # (or, on a continue, the round's last one) - not re-derived here. A
+    # voice_event with no "uncited_claims" key (a Facilitator-authored
+    # fallback never runs find_uncited_claims) is treated as clean, same as
+    # an empty list.
+    uncited_event = build_uncited_claims_event(
+        voice_event,
+        registry=registry,
+        is_other_tradition_turn=(routing_action == "voice_with_directive" and out_of_scope_class == "other_tradition"),
+    )
+    if uncited_event is not None:
+        events.validate("uncited_claims", uncited_event)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="uncited_claims", payload=uncited_event)
+
     if voice_event.get("seat_identity_guard_exhausted"):
         fallback_event = facilitator_turns.table_seat_correction_turn(world.frame["representative"]["name"])
         events.validate("facilitator_turn", fallback_event)
@@ -1018,12 +1036,13 @@ def _handle_table_message_unlocked(
         )
 
     return _advance_open_round(
-        store=store, usage_store=usage_store, worlds=worlds,
+        store=store, usage_store=usage_store, worlds=worlds, registry=registry,
         voice_client=voice_client, voice_model_id=voice_model_id,
         safety_client=safety_client, safety_model_id=safety_model_id,
         session_id=session_id, config=config,
         routing_action=opening.routing_action, routing_reason=opening.routing_reason,
         degraded=opening.degraded, facilitator=opening.facilitator_events,
+        out_of_scope_class=out_of_scope_class,
     )
 
 
@@ -1055,7 +1074,7 @@ def _continue_table_round_unlocked(
     worlds = _seated_worlds(state, world_loader, registry, package_cache_dir=package_cache_dir)
     gate_payload = _last_gate_payload(state)
     return _advance_open_round(
-        store=store, usage_store=usage_store, worlds=worlds,
+        store=store, usage_store=usage_store, worlds=worlds, registry=registry,
         voice_client=voice_client, voice_model_id=voice_model_id,
         safety_client=safety_client, safety_model_id=safety_model_id,
         session_id=session_id, config=config,
@@ -1063,6 +1082,7 @@ def _continue_table_round_unlocked(
         routing_reason="continuing the open round",
         degraded=bool(gate_payload.get("degraded")),
         facilitator=[],
+        out_of_scope_class=(gate_payload.get("out_of_scope") or {}).get("class"),
     )
 
 
