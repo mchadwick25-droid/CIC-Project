@@ -20,7 +20,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from engine.api import ratelimit, table_wiring, wiring
+from engine.api import db_backup, ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
 from engine.m1.registry import load_registry
 from engine.m4 import idle_close, session_code
@@ -495,6 +495,19 @@ def _build_real_app() -> FastAPI:
     # is to write session_closed/reason="idle" (engine.m4.idle_close's own
     # docstring). Reporting-only: never blocks a participant resuming.
     idle_close.start_background_scheduler(settings.events_db_path)
+
+    # DB backup sweep (Tech-Readiness Package 2, 2026-09-21): a third
+    # daily background thread, same reason as the two above - a Cron Job
+    # service cannot reach this service's own Persistent Disk (module
+    # docstring, engine/api/db_backup.py). Online-backs-up both SQLite
+    # stores and uploads to CIC_API_BACKUP_BUCKET when configured; a no-op
+    # upload (logged, not fatal) until Mark completes that bucket's own
+    # one-time setup (Ministry/Operations/Standing/
+    # CiC_Backup_Restore_Runbook.md), same deferred-until-configured
+    # pattern as CIC_API_PACKAGE_BUCKET.
+    db_backup.start_background_scheduler(
+        settings.events_db_path, settings.usage_db_path, Path(settings.events_db_path).parent / "backups-staging"
+    )
 
     return create_app(
         voice_client=client,
