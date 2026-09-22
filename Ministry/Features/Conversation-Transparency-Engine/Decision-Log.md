@@ -1271,68 +1271,22 @@ lands - sequencing this sweep's own PR first, and landing it before that
 package's fleet run starts, avoids the two threads racing the same
 files.
 
-**Entry 43 — 2026-09-22.** The Entry 42 sweep ran. Of 2,194 `status:
-draft` records fleet-wide (11 admitted worlds), **2,126 promoted to
-`status: ready`**; **68 stayed `draft`**, named by pre-existing M1 gate
-findings, none newly introduced by this pass:
+**Entry 43 — 2026-09-22.** Correction to this entry's own original text
+below: it reported the Entry 42 re-sweep as landed. It had not. The
+re-sweep was run against this branch and produced 2,126 promotions, but
+those changes were withdrawn from PR #390 before merge, on Mark's direct
+ruling, and never reached `main`.
 
-| World | Draft records | Promoted | Stayed draft | Reason |
-|---|---|---|---|---|
-| alx | 197 | 197 | 0 | — |
-| cappadocian | 278 | 277 | 1 | `voice-perspective` (`cappadocian.dw.reading-scripture`) |
-| desert | 200 | 198 | 2 | `reciprocity` (`desert.limit.communal-wrong-unrepaired`, `desert.story.moses-leaking-jug`) |
-| don | 248 | 198 | 50 | `reciprocity`, 50 records across 24 one-way `associated-with`/`illustrates` pairs |
-| gallic | 199 | 188 | 11 | `reciprocity`, 11 records around `gallic.story.circuses-amid-the-ruins` and `gallic.term.bagaudae` |
-| hal | 175 | 175 | 0 | — |
-| ijc | 186 | 186 | 0 | — |
-| pahc | 162 | 159 | 3 | `reciprocity` (`pahc.limit.enslaved-voices`, `pahc.limit.womens-own-words`, `pahc.quote.two-female-slaves-who-were-called-deaconesses`) |
-| rzg | 110 | 110 | 0 | — |
-| syr | 187 | 186 | 1 | `voice-perspective` (`syr.dw.death-judgment`) |
-| witt | 252 | 252 | 0 | — |
-| **Total** | **2,194** | **2,126** | **68** | |
+Stage 6a's own sweep (Entry 36, PR #394) had already landed on `main`
+before this branch's re-sweep could reach it. Mark ruled 6a's own
+operational rule - a record is ready once it sits in an admitted world's
+currently pinned package and passes every M1 gate, no other condition -
+as R16's actual operational form. Stage 6a's sweep is the sweep of
+record: 2,033 promoted `draft` -> `ready`; **161 held** - 130
+never-packaged types, 31 with open M1 gate findings. Those 161 held
+records stand.
 
-**Method, exactly as Entry 42 specified:** for each admitted world, ran
-`engine.m1.gates.run_all` against `engine.m1.loader.load_world_records`
-plus `load_fleet_records`, and `engine.m2.checks.staleness_sweep` against
-the registry. All 11 worlds reported `stale: False` before any edit (the
-pinned package already matched current records), so condition (1) held
-fleet-wide without a rebuild. For condition (2), a draft record promotes
-unless some gate finding names its own record id (word-boundary match,
-not bare substring - `cappadocian.dw.reading-scripture` does not
-false-match inside a longer id, and the `.text`/`.field` suffix some
-gates append after a colon is handled as a boundary, not part of the
-id). The two families of blocking findings are unrelated to this ruling
-and pre-exist it: `reciprocity` (a record declares an
-`associated-with`/`illustrates` relation the target record doesn't
-declare back - desert 2, don 50, gallic 11, pahc 3) and
-`voice-perspective` (a ~70%-precision "the world's..." outside-vantage
-phrasing heuristic, report-only by its own design - cappadocian 1, syr
-1). Neither family is fixed by this entry; the 68 records stay `draft`
-until their own gate finding clears, whenever that work happens.
-
-**Applied as a single mechanical script** (draft→ready front-matter line
-only, nothing else touched - verified by diff: 2,126 files, one line
-changed each) rather than 2,126 individual edits, run directly rather
-than dispatched to a Haiku subagent as such (the sweep's own logic - the
-mechanical test above - is what needed the care; applying an
-already-computed, already-verified list of file paths is one script
-execution either way, so a subagent added no cost saving here beyond
-what running the script once already gave).
-
-**Packages repinned for all 11 admitted worlds** after the sweep (the
-edit changes what a fresh compile produces): rebuilt via `engine.m2.cli
-build`, each `records/worlds/<code>.yaml` repointed at its new
-`package_id`/`manifest_hash`, old manifest.json removed per
-`.gitignore`. `engine.m2.cli staleness-check` now reports `pass: true`,
-zero stale worlds, across all 12 registry entries (`fix` included,
-untouched by this sweep). `engine/m1/tests` and `engine/m2/tests` both
-green (67 passed) after a `engine.m2.cli restore` matching CI's own
-setup step.
-
-**Confidence display, re-confirmed unaffected:** this sweep changes only
-`status`; `formation_confidence` is untouched on every record, and
-Entry 42's grep already showed the participant-facing path never reads
-`status`. No behavior change ships with this entry.
+No record or package file changes ship in PR #390.
 
 **Entry 44 — 2026-09-22.** R18 correction: PR #383's reword (this same
 day, Entry 29 - "we compare its wording against those same records to
