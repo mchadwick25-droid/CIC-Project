@@ -1069,7 +1069,40 @@ discipline Entry 38 (PR #395) applied to Stage 6c. Mark's own number,
 once set, is what the renderer fixture test (R17's other engineering
 half) will assert against; that test is not yet written. PR #397.
 
-**Entry 38 — 2026-09-22.** Stage 6e's "label copy" resolved and drafted:
+**Entry 38 — 2026-09-22.** R17's cap number confirmed and enforced:
+Mark's own direct answer this session - cap = `max(3, min(8,
+ceil(sentences/2)))`, drop order glosses -> figures -> stories, witness
+marks never drop. `VoiceTurnBody.tsx`'s `renderFromTransparencyPlan`
+(the anchor-driven renderer, still behind the still-default-off
+`VITE_TRANSPARENCY_ANCHOR_RENDERER` flag) split into two passes: pass
+1 detects every candidate Level-1 element in document order without
+rendering, so the cap applies against the full-turn total before any
+single mark is decided; pass 2 renders using pass 1's own detection.
+The legacy renderer, still the live default, is untouched - out of
+scope, being retired by Stage 6e's own flag flip rather than extended
+here.
+
+**Real bug caught before it shipped:** the original single-pass code's
+own "every word mark counts as already-shown-inline" line, ported
+forward naively, would have blanket-added every DETECTED word mark -
+including ones the cap just dropped - into the set General References
+checks against, wrongly excluding a dropped mark from both the inline
+text and General References at once. Caught and removed before commit,
+not after.
+
+2 new tests prove the mechanism actually engages on a seeded over-cap
+fixture, not just that it doesn't regress under-cap behavior (every
+prior fixture already happened to sit under the floor of 3, so those
+stay provably identical). One, in the course of writing it, exposed a
+real pre-existing gap: this test suite has no `afterEach(cleanup)`
+wired up anywhere, so a document-wide `getByText` query can collide
+with an earlier test's still-mounted DOM - fixed locally by scoping
+the new test's own query to its own render container, not by touching
+the shared test setup (out of this PR's own scope; the gap itself is
+worth a future look). Full suite 14/14; `npx tsc --noEmit` and `npm
+run build` both clean. PR #399, merged.
+
+**Entry 39 — 2026-09-22.** Stage 6e's "label copy" resolved and drafted:
 R10 (Entry 29/671) named it as a separate remaining step before
 `VITE_TRANSPARENCY_ANCHOR_RENDERER`'s default flips, but no document
 anywhere (`Adjusted-Design.md`, `Build-Plan.md`, `Rulings-Pending.md`,
@@ -1091,8 +1124,9 @@ relocates approved prose, it does not compose new prose." One
 deliberate, flagged exception: a new sentence explaining the ✲ mark
 concretely (`"Look for the ✲ mark after a claim — tap it to see
 exactly where it comes from."`). **DRAFT COPY, not yet Mark's own
-word** - same discipline Stage 6b's confidence phrases (Entry 38 per
-this branch's own pre-merge numbering, since renumbered) followed.
+word** - same discipline Stage 6b's confidence phrases (PR #395,
+Decision-Log.md Entry 39 as of that branch's own latest merge, not
+yet landed on `main` so the number may shift again) followed.
 
 The mark itself is already live in the CURRENT default legacy
 renderer, not just the not-yet-flipped anchor renderer - so this
