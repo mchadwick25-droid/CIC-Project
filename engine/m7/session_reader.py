@@ -25,6 +25,13 @@ class VoiceTurnRecord:
     do_not_voice_violation: object
     degraded_by_net: bool
     round_no: int | None  # table mode only
+    # Stage 6d / R17 (Rulings-Pending.md): lifted verbatim off the
+    # voice_turn event's own payload (engine/m4/turn.py's voice_event),
+    # same as citations above - the source data behind the
+    # level1_element_density instrument's count.
+    figures_used: list = field(default_factory=list)
+    glosses: list = field(default_factory=list)
+    transparency: dict | None = None
 
 
 @dataclass
@@ -96,6 +103,9 @@ def read_session(store: Store, session_id: str) -> AuditSession | None:
                     do_not_voice_violation=p.get("do_not_voice_violation"),
                     degraded_by_net=bool(p.get("degraded_by_net")),
                     round_no=current_round if mode == "table" else None,
+                    figures_used=p.get("figures_used") or [],
+                    glosses=p.get("glosses") or [],
+                    transparency=p.get("transparency"),
                 )
             )
         elif ev.event_type == "facilitator_turn":
