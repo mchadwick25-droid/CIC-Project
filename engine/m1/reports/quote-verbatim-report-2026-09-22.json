@@ -1,9 +1,9 @@
 {
   "allowed_difference_classes": {
-    "whitespace": "A run of spaces, tabs, or line breaks differs from the source's own - collapsed on both sides before comparing.",
+    "whitespace": "A run of spaces, tabs, or line breaks differs from the source's own - collapsed on both sides before comparing. Includes a source that hyphenates a word across a line break (\"eter-\\nnity\") - collapsed to the joined word before comparing, never left as two.",
     "case": "A letter's capitalization differs from the source (e.g. a quote opening mid-sentence, capitalized to open a sentence here).",
     "punctuation": "A quote mark, apostrophe, or dash is a different Unicode form of the same mark (curly vs. straight, hyphen vs. en/em dash) - never a different mark entirely (a colon read as a dash still fails).",
-    "ellipsis": "`...` or `…` in the record's text marks a real elision - the words on either side must still match, in order; nothing is required of what's between them.",
+    "ellipsis": "`...` or `…` in the record's text marks a real elision - the words on either side must still match, in order; nothing is required of what's between them. `[...]`/`[…]` (the ellipsis wrapped in its own brackets) is the same single marker, not a bracketed insertion around nothing.",
     "bracket": "Text inside `[...]` in the record's text is a labeled editorial insertion - it is never required to appear in the source, bracketed or not.",
     "verse_number": "An inline Arabic verse or section number in the source edition, standing at a sentence boundary, may be absent from the quote's text - the words on either side must still match, in order. A bare 1-4 digit number followed by a period only; never a wider omission."
   },
@@ -559,25 +559,18 @@
     "cappadocian": {
       "world": "cappadocian",
       "total_quotes": 20,
-      "verified_count": 14,
-      "failed_count": 6,
+      "verified_count": 15,
+      "failed_count": 5,
       "exact_no_diff_count": 1,
       "class_counts": {
-        "whitespace": 13,
+        "whitespace": 14,
         "case": 0,
         "punctuation": 3,
-        "ellipsis": 0,
+        "ellipsis": 1,
         "bracket": 0,
         "verse_number": 0
       },
       "failures": [
-        {
-          "id": "cappadocian.quote.basil-against-eunomius-ant",
-          "source_file": "cic/texts/npnf208_basil-letters-select-works.xml",
-          "failed_segment": "He who maintains that it is possible to arrive at the discovery of things actually existing, has no doubt by some orderly method advanced his intelligence by means of the knowledge of actually existing things. It is after first training himself by the apprehension of small and easily comprehensible objects, that he brings his apprehensive faculty to bear on what is beyond all intelligence. He makes his boast that he has really arrived at the comprehension of actual existences; let him then explain to us the nature of the least of visible beings; let him tell us all about the ant. [",
-          "nearest_context": " Library\n    \n    All; Early CHurch; Classic; Proofed\n    \n  ",
-          "recorded_verification_state": "verified-direct"
-        },
         {
           "id": "cappadocian.quote.basil-on-common-life",
           "source_file": "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
@@ -672,32 +665,18 @@
     "rzg": {
       "world": "rzg",
       "total_quotes": 6,
-      "verified_count": 3,
-      "failed_count": 3,
+      "verified_count": 5,
+      "failed_count": 1,
       "exact_no_diff_count": 0,
       "class_counts": {
-        "whitespace": 3,
+        "whitespace": 4,
         "case": 0,
         "punctuation": 0,
-        "ellipsis": 1,
-        "bracket": 0,
+        "ellipsis": 2,
+        "bracket": 1,
         "verse_number": 0
       },
       "failures": [
-        {
-          "id": "rzg.quote.christ-the-mirror-of-election",
-          "source_file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
-          "failed_segment": "Christ be the mirror in which we behold [our] predestination.",
-          "nearest_context": "   Title: The Second Helvetic Confession (A.D. 1566) and The\n",
-          "recorded_verification_state": "verified-direct"
-        },
-        {
-          "id": "rzg.quote.mass-not-a-sacrifice",
-          "source_file": "cic/texts/zwingli_selected-works_jackson1901.txt",
-          "failed_segment": "That Christ, having sacrificed himself once, is to eternity a certain and valid sacrifice for the sins of all faithful, wherefrom it follows that the mass is not a sacrifice, but is a remembrance of the sacrifice and assurance of the salvation which Christ has given us.",
-          "nearest_context": "_________________\n\n           Title: Selected Works of Huldre",
-          "recorded_verification_state": "verified-direct"
-        },
         {
           "id": "rzg.quote.signs-and-things-signified",
           "source_file": "cic/texts/calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt",
@@ -726,7 +705,7 @@
   },
   "totals": {
     "total_quotes": 257,
-    "verified_count": 184,
-    "failed_count": 73
+    "verified_count": 187,
+    "failed_count": 70
   }
 }
