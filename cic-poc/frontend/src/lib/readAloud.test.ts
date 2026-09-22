@@ -6,7 +6,16 @@
  * it yet.
  */
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { cancelReadAloud, isReadAloudSupported, recordReadAloudPlay, speakText, splitIntoSentences } from './readAloud';
+import {
+  cancelReadAloud,
+  hasSeenReadAloudDisclosure,
+  isReadAloudSupported,
+  markReadAloudDisclosureSeen,
+  readAloudDisclosureText,
+  recordReadAloudPlay,
+  speakText,
+  splitIntoSentences,
+} from './readAloud';
 
 class FakeUtterance {
   onend: (() => void) | null = null;
@@ -126,5 +135,31 @@ describe('recordReadAloudPlay', () => {
     recordReadAloudPlay();
     window.removeEventListener('cic:read-aloud-play', listener);
     expect(listener).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe('readAloudDisclosureText', () => {
+  it("is Mark's Option A, verbatim, with the representative's real name interpolated", () => {
+    expect(readAloudDisclosureText('Julian of Norwich')).toBe(
+      "This reads the words on screen aloud in your device's own voice — it isn't Julian of Norwich speaking."
+    );
+  });
+});
+
+describe('read-aloud disclosure seen-tracking', () => {
+  beforeEach(() => {
+    sessionStorage.clear();
+  });
+
+  it('is unseen until marked, then stays seen', () => {
+    expect(hasSeenReadAloudDisclosure()).toBe(false);
+    markReadAloudDisclosureSeen();
+    expect(hasSeenReadAloudDisclosure()).toBe(true);
+  });
+
+  it('survives being read again without re-marking (idempotent)', () => {
+    markReadAloudDisclosureSeen();
+    markReadAloudDisclosureSeen();
+    expect(hasSeenReadAloudDisclosure()).toBe(true);
   });
 });

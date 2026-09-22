@@ -3398,7 +3398,7 @@ it matches `cic-website`'s Cloudflare pipeline).
 
 ---
 
-## 2026-09-22 — Read-aloud, step 1: PROPOSED, awaiting Mark
+## 2026-09-22 — Read-aloud, step 1: RULED, awaiting Stage 7 and a real-browser check
 
 **Origin.** Mark's ruling: *"start with read-aloud free, composite voice
 on the paid tier... test one step at a time."* Full design note:
@@ -3450,3 +3450,57 @@ on for real.
 **Next action:** Mark's ruling on the disclosure sentence (and, if he
 wants to weigh in, the two documented-but-open calls above). Nothing
 merges until then; the PR stays a draft.
+
+---
+
+## 2026-09-22 (later) — Read-aloud, step 1: Mark's ruling on the disclosure sentence, wired in
+
+**Mark's ruling, given directly:** *"Ruling on the disclosure sentence:
+Option A, exactly: 'This reads the words on screen aloud in your device's
+own voice — it isn't {representative_name} speaking.' Show it as a visible
+one-line note under the conversation bar the first time the control
+renders in a session, not as a tooltip or aria-describedby alone (touch
+users never see a tooltip); the button keeps its accessible name. Your two
+documented calls stand: Play/Stop only, one global control in the
+header."* Both open calls from the original entry (Play/Stop, global
+header control) are now settled, not just documented-and-pending.
+
+**Wired in:** `lib/readAloud.ts`'s `readAloudDisclosureText()` holds the
+ruled sentence verbatim (not overridable by a caller — a wording change is
+a change order, same as every other approved participant-facing string
+here). New component `components/ReadAloudDisclosure.tsx` renders it
+directly under `.conversation__bar` in both `Conversation.tsx` and
+`TableRoom.tsx`, gated on the same voice-availability check the control
+itself uses. "The first time... in a session" is implemented as: visible
+while the control's target turn is still the one it was when this
+component mounted, gone for good once a new turn becomes latest — one
+disclosure, not a permanent banner — and remembered across a reload of the
+same tab via `sessionStorage` (`cic_read_aloud_disclosure_seen`), matching
+`lib/sessionStore.ts`'s own established "survive a reload, not a new tab"
+scope.
+
+**One plumbing call made, not a wording decision:** a Table sitting seats
+more than one Representative, and the ruled sentence's single
+`{representative_name}` slot can't name all of them — worse, the very
+first turn in every session (interview or Table) is the Facilitator's own
+door turn, before any seated voice has spoken. `TableRoom.tsx` names the
+first seated voice for this slot — a documented, deterministic
+simplification, not new copy. The interview screen has no such ambiguity
+(one Representative per session, named directly regardless of which turn
+is currently latest — the same way `engine/m4/crisis_resources.py`'s own
+`{representative_name}` slot already resolves this for the Facilitator's
+own safety turns).
+
+**Verification:** `npm test` 52/52 passing (6 more than the prior entry —
+disclosure text/seen-tracking in `lib/readAloud.test.ts`, a new
+`components/ReadAloudDisclosure.test.tsx`). `npm run build` clean. `npm
+run lint` still can't run (pre-existing, unrelated gap). Confirmed
+`render.yaml` carries no reference to `VITE_READ_ALOUD` — the flag is not
+set in any deploy config.
+
+**What's left is not a decision, it's two verifications Mark named
+directly:** the Conversation Transparency Engine thread's Stage 7
+(streaming) landing on `main`, and Mark hearing the control speak in a
+real browser against a live `engine/api` backend, with what he heard
+recorded. The PR (`read-aloud-step1` → `main`) stays a draft until both
+are true — updated design note and PR description reflect this gate.

@@ -15,7 +15,9 @@
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
 import { ReadAloudControl } from '../components/ReadAloudControl';
+import { ReadAloudDisclosure } from '../components/ReadAloudDisclosure';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
+import { useReadAloudAvailability } from '../hooks/useReadAloudAvailability';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry } from '../data/worlds';
 import { readAloudEnabled } from '../lib/flags';
@@ -55,6 +57,14 @@ export function TableRoom({
   const byKey = new Map(seatedWorlds.map((w) => [w.worldKey, w]));
   const anyLivingTradition = seatedWorlds.some((w) => w.livingTraditionFlag);
   const latestSpoken = readAloudEnabled ? latestSpokenTurn(turns) : null;
+  const readAloudAvailable = useReadAloudAvailability();
+  // A Table seats more than one Representative - the disclosure sentence's
+  // single {representative_name} slot can't name all of them, and the
+  // very first spoken turn in every session is the Facilitator's own door
+  // turn (useConversation.ts), before any seated voice has spoken at all.
+  // The first seated voice stands in - a documented simplification (design
+  // note Q7 update), not a claim that voice specifically said anything.
+  const readAloudRepresentativeName = seatedWorlds[0]?.representativeName ?? '';
 
   return (
     <div className="conversation">
@@ -66,9 +76,14 @@ export function TableRoom({
               Not saved to an account — this conversation lives in this tab
             </div>
           )}
-          {latestSpoken && <ReadAloudControl text={latestSpoken.turn.text} turnKey={latestSpoken.index} />}
+          {readAloudAvailable && latestSpoken && (
+            <ReadAloudControl text={latestSpoken.turn.text} turnKey={latestSpoken.index} />
+          )}
         </div>
       </div>
+      {readAloudAvailable && latestSpoken && readAloudRepresentativeName && (
+        <ReadAloudDisclosure representativeName={readAloudRepresentativeName} turnKey={latestSpoken.index} />
+      )}
 
       <div className="conversation__transcript">
         <div className="arrival arrival--table">
