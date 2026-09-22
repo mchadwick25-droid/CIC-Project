@@ -1134,12 +1134,10 @@ record. No new mark type, no new color - R17's own house rule ("no
 new mark types beyond R9's hollow-glyph variant") reads this as
 content inside an existing card, not a new disclosure element.
 
-**DRAFT COPY, not yet Mark's own word** - per his own Stage 6
-instruction ("phrases... worded by me"), flagged as draft in the
-module's own docstring and built only so the mechanism is testable
-end-to-end:
+Phrases proposed as draft, then confirmed as Mark's own word without
+change ("my drafts are approved as-is"):
 
-| formation_confidence | Proposed phrase |
+| formation_confidence | Phrase |
 |---|---|
 | Documented | "Recorded directly in a source from the time." |
 | Widely Accepted | "What historians broadly agree happened." |
@@ -1152,9 +1150,8 @@ undefined/missing-field/unrecognized-value edge cases; two new
 `VoiceTurnBody.test.tsx` integration tests prove the phrase actually
 renders on a real Level 2 card open (`fireEvent.mouseEnter`) and that
 a confidence-less card renders no phrase line at all. Full suite
-23/23; `npx tsc --noEmit` and `npm run build` both clean. PR pending -
-see its own description for the same proposal table, open for Mark's
-wording before merge.
+25/25; `npx tsc --noEmit` and `npm run build` both clean. PR #395,
+merged.
 
 **Entry 40 — 2026-09-22.** Stage 6c scope resolved, no code needed:
 Mark's own direct answer, given a real finding before it was asked -
@@ -1164,9 +1161,6 @@ already fully built (the `.citation-mark--contested` CSS class,
 merged before this session) and Stage 6b (Entry 39, PR #395) adds the
 plain phrase on tap. Mark confirmed that is the whole of Stage 6c -
 no further record-specific "hedge" content beyond the generic phrase.
-(Renumbered twice on this branch, same reason and rule as Entry 39's
-own note above: 38 -> 39 when PR #397 landed first, then 39 -> 40 when
-PR #399 landed first.)
 
 **The finding that prompted the question, worth keeping on record:**
 before asking, checked whether `confidence.divergence_note` could
@@ -1183,4 +1177,48 @@ inspection. Rendering this field to a participant would have been a
 real process leak - flagged and confirmed unusable before any code was
 written against it, not after.
 
-Stage 6c is done. Nothing further to build once PR #395 merges.
+Stage 6c is done. PR #395 merged.
+
+**Entry 41 — 2026-09-22.** Stage 6e's "label copy" resolved and drafted:
+R10 (Entry 29/671) named it as a separate remaining step before
+`VITE_TRANSPARENCY_ANCHOR_RENDERER`'s default flips, but no document
+anywhere (`Adjusted-Design.md`, `Build-Plan.md`, `Rulings-Pending.md`,
+this log) ever specified what it referred to. Asked rather than
+guessed. Mark's own answer: a first-time explainer near the ✲ mark.
+
+Checked what existed before designing it: no "first-time hint"
+mechanism exists anywhere in `cic-poc/frontend/src/` - building one
+would mean a new component and new `sessionStorage`-backed state,
+competing with R17's own per-screen element budget. Put that tradeoff
+to Mark directly; his own direction: extend `Arrival.tsx`'s existing
+disclosure paragraph (already shown once, above every transcript)
+rather than add new UI - zero new component, zero new state, respects
+R17's budget by construction.
+
+`Arrival.tsx`'s own header comment states every line in its disclosure
+block is carried VERBATIM from the retired Doorway screen - "this move
+relocates approved prose, it does not compose new prose." One
+deliberate, flagged exception: a new sentence explaining the ✲ mark
+concretely (`"Look for the ✲ mark after a claim — tap it to see
+exactly where it comes from."`). **DRAFT COPY, not yet Mark's own
+word** - same discipline Stage 6b's confidence phrases (Entry 39, PR
+#395, merged) followed at the time this was written; since confirmed
+as Mark's own word without change, same as Entry 39's own phrases.
+
+The mark itself is already live in the CURRENT default legacy
+renderer, not just the not-yet-flipped anchor renderer - so this
+explainer is correct and useful today regardless of the flag. The
+flag flip itself is explicitly NOT part of this work - held per "flip
+flag default only after their word," same as the copy above it; no
+deployment config currently sets
+`VITE_TRANSPARENCY_ANCHOR_RENDERER` at all (confirmed by search), so
+flipping it later is a deploy-config change, not a code change.
+
+New `Arrival.test.tsx` (no test file existed for this component
+before): one test pinning the explainer sentence renders. Full suite
+13/13 on this branch (cut from `main`, lacks Stage 6b's own tests -
+expected); `npx tsc --noEmit` clean.
+
+**Sentence confirmed as Mark's own word without change** ("my drafts
+are approved as-is") - the same confirmation that landed Entry 39's
+phrases. PR #398 merging.
