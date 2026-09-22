@@ -58,6 +58,7 @@ from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.seat_identity_guard import find_seat_identity_violation
+from engine.m4.uncited_claims import find_uncited_claims
 from engine.m4.name_bridge import attach_cited_sources, find_figures_used, spoken_name
 from engine.m4.term_glosses import find_glosses_used
 from engine.m4.transparency_plan import build_transparency_plan
@@ -274,10 +275,33 @@ def _gate_decision_payload(*, safety_outcome: CallOutcome, reader_outcome: CallO
     }
 
 
+R26_HONEST_LIMIT_SENTENCE = "Our record doesn't mention that Christian tradition."
+
+
+def _other_tradition_directive() -> str:
+    """R26 (Decision-Log.md Entry 50, 2026-09-22), Mark's own words: "The
+    representative should only know its own sources unless they would
+    have known the sources from another in reality." This is the
+    directive text an other_tradition first ask now carries - see
+    _build_turn_directive's own is_other_tradition_first_ask parameter.
+    The fixed sentence here is engine.m4.uncited_claims.
+    R26_HONEST_LIMIT_SENTENCE, matched exactly (case-insensitive) by that
+    module's own allowed-uncited detection - the two must stay identical
+    by construction, not by convention."""
+    return (
+        "This question asks about another Christian tradition, not your own world. Answer only from what "
+        "your own world's records actually hold about it. If your own records say nothing about the "
+        f'tradition named, say exactly: "{R26_HONEST_LIMIT_SENTENCE}" Then answer the rest of the question '
+        "from your own records, cited as always. Never speak as if you know that other tradition's own "
+        "history or doctrine - only your own, and only what you can cite."
+    )
+
+
 def _build_turn_directive(
     directive: Directive | None,
     figures_already_named: list[str] | None = None,
     table_engagement: str | None = None,
+    is_other_tradition_first_ask: bool = False,
 ) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
@@ -306,7 +330,7 @@ def _build_turn_directive(
     Returns None when there is no directive and no table_engagement (the
     crisis path), which leaves the call with the world prompt alone -
     exactly what it sent before."""
-    if directive is None and not table_engagement:
+    if directive is None and not table_engagement and not is_other_tradition_first_ask:
         return None
     # The leading newline is kept from when this text was concatenated onto
     # the world prompt: system blocks are joined with no separator of their
@@ -349,6 +373,8 @@ def _build_turn_directive(
             )
     if table_engagement:
         parts.append(table_engagement)
+    if is_other_tradition_first_ask:
+        parts.append(_other_tradition_directive())
     return "\n".join(parts)
 
 
@@ -434,6 +460,7 @@ def _run_ordinary_voice_turn(
     table_engagement: str | None = None,
     usage_world_key: str | None = None,
     guard_labels: list[str] | None = None,
+    is_other_tradition_first_ask: bool = False,
 ) -> tuple[dict, list[UsageRecord]]:
     """context_prefix, secondary_context, table_engagement, and
     usage_world_key are the table's additions (Artifact-7 SS3-4, SS7; Stage
@@ -516,7 +543,9 @@ def _run_ordinary_voice_turn(
     if context_prefix:
         user_message = f"{context_prefix}\n\n{user_message}"
 
-    turn_directive = _build_turn_directive(directive, figures_already_named, table_engagement)
+    turn_directive = _build_turn_directive(
+        directive, figures_already_named, table_engagement, is_other_tradition_first_ask=is_other_tradition_first_ask
+    )
     stream_outcome = stream_voice_turn(
         voice_client, voice_model_id, system_prompt=world.prompt_text,
         turn_directive=turn_directive, message=user_message, history=history,
@@ -558,6 +587,16 @@ def _run_ordinary_voice_turn(
             raw_text = retry_text
 
     answer_text, citations, net_result = apply_net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
+
+    # R27 (Decision-Log.md Entry 51, 2026-09-22): report-only, no
+    # participant-visible effect this build - every declarative claim
+    # sentence carrying no citation, base class "uncited_claim" (the
+    # caller, which has registry/routing context this function does not,
+    # refines into "neighbour_named"/"own_doctrine_in_other_tradition_turn"
+    # via engine.m4.uncited_claims.classify_* before persisting the
+    # uncited_claims event). Runs on net_result's own sentence list, not a
+    # second pass over the text.
+    uncited_claims = find_uncited_claims(net_result["sentences"])
 
     # Real, checkable source references (see
     # citation_cards' module docstring) - resolved once here and reused
@@ -639,6 +678,9 @@ def _run_ordinary_voice_turn(
         # as this seat's real answer.
         "seat_identity_violations": seat_identity_violations,
         "seat_identity_guard_exhausted": seat_identity_guard_exhausted,
+        # R27, additive (Entry 51): [] on every clean turn. Base class
+        # "uncited_claim" only - see this function's own note above.
+        "uncited_claims": uncited_claims,
     }
     return voice_event, usage_records
 
@@ -886,6 +928,7 @@ def run_turn(
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids,
             history=history,
+            is_other_tradition_first_ask=(gate_result.routing.out_of_scope_class == "other_tradition"),
         )
         return TurnResult(
             routing_action=action,

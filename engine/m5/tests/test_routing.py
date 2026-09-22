@@ -139,6 +139,26 @@ def test_later_age_first_ask_passes_to_voice():
     assert decision.directive is not None
 
 
+def test_other_tradition_first_ask_carries_the_structured_class_r26():
+    # Decision-Log.md Entry 50/51 (R26): a structured field, not a reason
+    # string to parse, so engine.m4.turn can wire its own directive
+    # addition onto exactly this case without matching free text.
+    decision = route(
+        safety=_safety(), reader=_reader(out_of_scope={"class": "other_tradition"}), pressed={"other_tradition": False}, anachronistic_term_ids=set(),
+        message="what was your relationship with the donatists",
+    )
+    assert decision.action == "voice_with_directive"
+    assert decision.out_of_scope_class == "other_tradition"
+
+
+def test_ordinary_turn_carries_no_out_of_scope_class():
+    decision = route(
+        safety=_safety(), reader=_reader(), pressed={}, anachronistic_term_ids=set(),
+        message="what did you eat most days",
+    )
+    assert decision.out_of_scope_class is None
+
+
 def test_later_age_pressed_routes_etic():
     decision = route(
         safety=_safety(), reader=_reader(out_of_scope={"class": "later_age"}), pressed={"later_age": True}, anachronistic_term_ids=set(),
