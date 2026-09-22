@@ -462,6 +462,7 @@ def _run_ordinary_voice_turn(
     guard_labels: list[str] | None = None,
     is_other_tradition_first_ask: bool = False,
     correction: str | None = None,
+    debug_capture: dict | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
     """context_prefix, secondary_context, table_engagement, and
     usage_world_key are the table's additions (Artifact-7 SS3-4, SS7; Stage
@@ -511,7 +512,17 @@ def _run_ordinary_voice_turn(
     so engine.m4.live_uncited_claims_battery can simulate one regeneration
     naming a turn's own uncited sentences without duplicating this
     function's evidence-assembly/generation logic in the battery script
-    itself. Purely additive: unset, this parameter changes nothing."""
+    itself. Purely additive: unset, this parameter changes nothing.
+
+    debug_capture (R27 fix list F6, reviewer thread, 2026-09-22): an
+    optional caller-supplied dict this function mutates in place, setting
+    "raw_tagged_text" to the exact text apply_net is about to check -
+    same battery-only, unset-on-every-real-caller shape as correction
+    above. Never part of voice_event (no schema key for it, so it can
+    never reach the real event log through this channel) - exists so the
+    battery can compute paragraph-level citation coverage from the same
+    raw text apply_net already has, without a second model call or a
+    second copy of this function's own generation logic."""
     usage_records = []
     repository_records = evidence.repository_records_by_id(world.repository)
     thin_topics = evidence.thin_topics_for(repository_records)
@@ -599,6 +610,18 @@ def _run_ordinary_voice_turn(
             raw_text = ""  # the voice's text is not shown - the caller substitutes a Facilitator turn
         else:
             raw_text = retry_text
+
+    if debug_capture is not None:
+        # R27 F6 (reviewer thread fix list, 2026-09-22): the raw, still-
+        # tagged, still-paragraphed answer - never part of voice_event
+        # (no schema key for it, never persisted to the real event log),
+        # a side channel purely for engine.m4.live_uncited_claims_battery
+        # to compute paragraph-coverage from, the same "mutate a caller-
+        # supplied dict, opt-in, unset on every real caller" shape
+        # `correction` already uses. This is the exact text apply_net is
+        # about to strip and check below - nothing recomputed, nothing
+        # re-derived.
+        debug_capture["raw_tagged_text"] = raw_text
 
     answer_text, citations, net_result = apply_net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
 

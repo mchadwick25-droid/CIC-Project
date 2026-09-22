@@ -220,8 +220,14 @@ def test_a_facilitator_turn_is_never_checked_by_this_module():
 
 def _registry():
     return {
-        "alx": {"kind": "formation", "card_name": "Alexandrian Christianity", "representative": {"name": "Theon"}},
-        "don": {"kind": "formation", "card_name": "The Church of the Martyrs", "representative": {"name": "Nundinarius"}},
+        "alx": {
+            "kind": "formation", "card_name": "Alexandrian Christianity", "display_name": "Alexandrian Christianity",
+            "world_id": "alexandria-catechetical", "representative": {"name": "Theon"},
+        },
+        "don": {
+            "kind": "formation", "card_name": "The Church of the Martyrs", "display_name": "Donatism",
+            "world_id": "donatism", "representative": {"name": "Nundinarius"},
+        },
         "fix": {"kind": "fixture", "card_name": "Fixture World", "representative": {"name": "Nobody"}},
     }
 
@@ -233,6 +239,36 @@ def test_known_tradition_names_excludes_the_speaking_world_and_fixtures():
     assert "The Church of the Martyrs" in names
     assert "Nundinarius" in names
     assert "Fixture World" not in names  # kind != "formation"
+
+
+# F5 (reviewer thread fix list, 2026-09-22, after PR #419's own re-run):
+# a real gap the run itself surfaced - the battery's own probe named "the
+# Donatists" (a demonym, what a voice's own prose actually says), never
+# don's own card_name "The Church of the Martyrs", so
+# classify_neighbour_named had nothing to match. Pinned to the fix list's
+# own two named examples.
+def test_known_tradition_names_includes_display_name_and_world_id():
+    names = known_tradition_names(_registry(), exclude_world_key="alx")
+    assert "Donatism" in names
+    assert "donatism" in [n.lower() for n in names]  # world_id, hyphens read as spaces (single word here, unchanged)
+
+
+def test_known_tradition_names_derives_the_ism_demonym():
+    names = [n.lower() for n in known_tradition_names(_registry(), exclude_world_key="alx")]
+    assert "donatist" in names
+    assert "donatists" in names
+
+
+def test_known_tradition_names_derives_the_ian_demonym():
+    names = [n.lower() for n in known_tradition_names(_registry(), exclude_world_key="don")]
+    assert "alexandria" in names
+
+
+def test_classify_neighbour_named_upgrades_on_a_demonym_not_a_card_name():
+    offense = {"sentence": "What did the Donatists believe about that?", "class": "uncited_claim"}
+    names = known_tradition_names(_registry(), exclude_world_key="alx")
+    upgraded = classify_neighbour_named(offense, names)
+    assert upgraded["class"] == "neighbour_named"
 
 
 def test_build_uncited_claims_event_returns_none_when_clean():
