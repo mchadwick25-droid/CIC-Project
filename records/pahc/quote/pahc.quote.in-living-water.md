@@ -20,12 +20,13 @@ sources:
     The Teaching of the Twelve Apostles, ch. VII.1-3, in the ANF (Riddle) translation (anf07_lactantius-apostolic-constitutions-didache-liturgies.xml); the edition's interleaved footnotes are removed from the text quoted here
   license: public-domain
 text: >-
-  Having first said all these things, baptize into the name of the Father, and of the Son, and of the Holy Spirit, in living water. But if thou have not living water, baptize into other water; and if thou canst not in cold, in warm. But if thou have not either, pour out water thrice upon the head.
+  Having first said all these things, baptize into the name of the Father, and of the Son, and of the Holy Spirit, in living water. But if thou have not living water, baptize into other water; and if thou canst not in cold, in warm. But if thou have not either, pour out water thrice upon the head into the name of Father and Son and Holy Spirit.
 modern_rendering: >-
   Having first said all these things, baptize into the name of the Father, and
   of the Son, and of the Holy Spirit, in living water. But if you have no
   living water, baptize into other water; and if you cannot in cold, then in
-  warm. And if you have neither, pour water three times upon the head.
+  warm. And if you have neither, pour water three times upon the head, into
+  the name of the Father and the Son and the Holy Spirit.
 speaker_or_author: the manual known as the Didache
 license: verbatim
 modern_lens_note: >-
@@ -48,3 +49,8 @@ infants is not answered here - the Didache does not say - but the shape of the a
 is that the form bent to circumstance, and that only shows if the fallbacks are shown.
 
 MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+
+Quote-verbatim gate fix (2026-09-22): the record's own period after "the head" was invented - the
+source completes the pouring instruction with the same trinitarian formula used for immersion earlier
+in this same quote ("into the name of Father and Son and Holy Spirit"). Restored; modern_rendering
+extended to match. Doesn't change the "whole ladder" this record is kept for - if anything, completes it.

@@ -21,7 +21,7 @@ sources:
     Vita Antonii SS68 (npnf204_athanasius-select-works-letters.xml)
   license: public-domain
 text: >-
-  And he was altogether wonderful in faith and religious, for he never held communion with the Meletian schismatics, knowing their wickedness and apostacy from the beginning; nor had he friendly dealings with the Manichaeans or any other heretics; or, if he had, only as far as advice that they should change to piety. For he thought and asserted that intercourse with these was harmful and destructive to the soul.
+  And he was altogether wonderful in faith and religious, for he never held communion with the Meletian schismatics, knowing their wickedness and apostacy from the beginning; nor had he friendly dealings with the Manichæans or any other heretics; or, if he had, only as far as advice that they should change to piety. For he thought and asserted that intercourse with these was harmful and destructive to the soul.
 speaker_or_author: Athanasius, Life of Antony
 license: verbatim
 modern_lens_note: >-
@@ -46,3 +46,6 @@ communion with the schismatics.
 Kept whole because the last clause is what makes it evidence rather than slogan: the refusal is
 total AND it leaves a door open for advice. A voice that quoted only the refusal would be
 reporting this world more harshly than its own source does.
+
+Quote-verbatim gate fix (2026-09-22): the record's "Manichaeans" simplified the vendored edition's
+"Manichæans" ligature - corrected to match exactly; no wording changed.

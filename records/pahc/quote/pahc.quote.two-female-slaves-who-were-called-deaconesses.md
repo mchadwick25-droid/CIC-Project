@@ -11,18 +11,31 @@ canon_cells:
 - F6-P
 confidence:
   citation_specificity: A
-  verification_state: verified-direct
+  verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
     Documented as Pliny's own report to Trajan, c. 112, and it is the outside witness this world's record most depends on. It is a governor explaining his own procedure to an emperor, written by a man who says plainly he had never handled such a case before; what he reports of Christian practice he got under interrogation and torture.
+
+    Quote-verbatim gate note (2026-09-22): this passage sits inside a translator's endnote (id
+    iii.viii.xxxiii-p2.2, a long editorial note identifying Pliny and quoting his letter to Trajan in
+    full) rather than in Eusebius's own primary running text. The gate strips all `<note>` blocks as
+    editorial apparatus before matching, on the reasoning that a note is commentary about the text, not
+    the text itself - which is right for most notes but not this one, where the note's own body IS the
+    primary-source quotation. Independently confirmed character-for-character correct against the raw
+    XML (the only difference was "ministrae" for the edition's own ligature "ministræ", now corrected
+    below) once that stripping is bypassed. verification_state lowered to verified-via-authority to
+    reflect that the gate's current note-handling can't confirm this directly, not because the quote is
+    actually in doubt. Flagged for Mark: whether the gate's note-stripping should distinguish a note
+    that embeds a full primary-source quotation from ordinary editorial commentary is a real design
+    question, not something resolved here.
 sources:
 - source_id: pahc.source.pliny-letters
   locus: >-
     Pliny, Letters 10.96, as preserved in the vendored Eusebius volume (npnf201_eusebius-church-history-life-of-constantine.xml)
   license: public-domain
 text: >-
-  I therefore considered it the more necessary to examine, even with the use of torture, two female slaves who were called deaconesses (ministrae), in order to ascertain the truth. But I found nothing except a superstition depraved and immoderate; and therefore, postponing further inquiry, I have turned to thee for advice.
+  I therefore considered it the more necessary to examine, even with the use of torture, two female slaves who were called deaconesses (ministræ), in order to ascertain the truth. But I found nothing except a superstition depraved and immoderate; and therefore, postponing further inquiry, I have turned to thee for advice.
 modern_rendering: >-
   So I decided I had to get the truth by questioning two female slaves, the
   ones called deaconesses. I questioned them under torture. I found nothing

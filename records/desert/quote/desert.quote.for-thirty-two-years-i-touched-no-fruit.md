@@ -20,7 +20,7 @@ sources:
     Lausiac History ch. XLV (Philoromus), in Clarke's translation (palladius_lausiac-history_clarke1918.txt)
   license: public-domain
 text: >-
-  He renounced the world in the days of Julian the infamous Emperor, and spoke to him with boldness. Julian ordered him to be shaved and buffeted by boys. He endured the ordeal patiently and expressed his thanks to Julian, as he told us himself. ... He told us this: \"For thirty-two years I touched no fruit.\" Once when timidity attacked him, in order to get rid of it, he shut himself up in a tomb for six years.
+  He renounced the world in the days of Julian the infamous Emperor, and spoke to him with boldness. Julian ordered him to be shaved and buffeted by boys. He endured the ordeal patiently and expressed his thanks to Julian, as he told us himself. ... He told us this: "For thirty-two years I touched no fruit." Once when timidity attacked him, in order to get rid of it, he shut himself up in a tomb for six years.
 speaker_or_author: Palladius, reporting Philoromus of Galatia in his own words
 license: verbatim
 modern_lens_note: >-
@@ -41,3 +41,9 @@ Opened 2026-08-27 for F4-T, served by desert.dw.born-again alone, which cites th
 Chosen over the alternative locus the same cell offered (Vita SS16, on the shortness of life
 against the ages to come) because this one is a participant speaking in the first person about his
 own turning, which is what the cell's question actually asks for.
+
+Quote-verbatim gate fix (2026-09-22): removed stray literal backslashes before quote marks (a YAML
+folded-scalar authoring bug, not real source characters). The record still cannot verify past "world"
+early in the first sentence: the source has a page-break marker ("world |146 in the days") that the
+gate doesn't strip - flagged for Mark alongside the other footnote/pagination-apparatus findings in
+this PR (a pipe-plus-digits form, distinct from the bare-digit and bracketed forms already found).

@@ -20,12 +20,12 @@ sources:
   license: public-domain
 text: As for us, then, we scrupulously observe the exact day, neither adding nor taking away. For in
   Asia great luminaries have gone to their rest, who shall rise again in the day of the coming of the
-  Lord. Moreover I also, Polycrates, who am the least of you all, in accordance with the tradition of
-  my relatives, some of whom I have succeeded - seven of my relatives were bishops, and I am the eighth
-  - I myself, brethren, I say, who am sixty-five years old in the Lord, and have fallen in with the
-  brethren in all parts of the world, and have read through all Holy Scripture, am not frightened at
-  the things which are said to terrify us. For those who are greater than I have said, "We ought to
-  obey God rather than men."
+  Lord... Moreover I also, Polycrates, who am the least of you all, in accordance with the tradition of
+  my relatives, some of whom I have succeeded—seven of my relatives were bishops, and I am the eighth,
+  and my relatives always observed the day when the people put away the leaven—I myself, brethren, I
+  say, who am sixty-five years old in the Lord, and have fallen in with the brethren in all parts of
+  the world, and have read through all Holy Scripture, am not frightened at the things which are said
+  to terrify us. For those who are greater than I have said, "We ought to obey God rather than men."
 modern_rendering: >-
   As for us, we keep the exact day, adding nothing and taking nothing away.
   Great lights of the faith have died here in Asia, and they will rise again
@@ -54,16 +54,25 @@ relations:
 - {type: illustrates, target: pahc.gravity.authority-consolidation}
 ---
 Verified verbatim against the vendored file 2026-08-27 at anf08 line
-72582. DISCLOSED, three elisions, all at clause or sentence boundaries:
+72582. DISCLOSED, two elisions, both at clause or sentence boundaries:
 after "coming of the Lord" the file continues "when He cometh with glory
 from heaven and shall raise again all the saints," followed by the roll
 of Asian dead - Philip and his daughters, John, Polycarp, Thraseas,
 Sagaris, Papirius, Melito - and the sentence "These all kept the
 passover on the fourteenth day of the month, in accordance with the
-Gospel"; between "I am the eighth" and "I myself" the file has "and my
-relatives always observed the day when the people put away the leaven";
-and the ANF's interleaved Greek glosses and bracketed editorial notes
-are excluded throughout.
+Gospel"; and the ANF's interleaved Greek glosses and bracketed editorial
+notes are excluded throughout.
+
+Quote-verbatim gate fix (2026-09-22): the `text` field itself carried neither disclosed elision as an
+actual ellipsis mark, so the gate (and any reader checking the quote against its own citation) had no
+way to see the gap the paragraph above already discloses. Two separate fixes: the roll-of-the-dead
+elision is now marked with a real "..." rather than silently absent - it's long, heavily interrupted
+by the edition's own endnotes, and already deliberately elided by this record's own reasoning, so
+ellipsis is the honest marker, not restoration. The second, shorter elision ("and my relatives always
+observed the day when the people put away the leaven") is fully restored instead - it's short, clean
+once the edition's own endnote is stripped, and the record's previous "I am the eighth - I myself"
+also had the wrong punctuation (the source has no dash there at all; the real dash sits at "leaven-I
+myself"). No claim in this record changes either way.
 
 THIS IS A PRIMARY GRAVITY'S HARDEST CASE AND IT WAS MISSING.
 pahc.gravity.translocal-network is about the letters that held scattered

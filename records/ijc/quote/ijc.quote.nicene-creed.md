@@ -20,7 +20,7 @@ sources:
   license: public-domain
 text: We believe in one God, the Father Almighty, maker of all things visible and invisible; and in one
   Lord Jesus Christ, the Son of God, the only-begotten of his Father, of the substance of the Father,
-  God of God, Light of Light, very God of very God, begotten, not made, being of one substance with the
+  God of God, Light of Light, very God of very God, begotten...not made, being of one substance...with the
   Father. By whom all things were made, both which be in heaven and in earth. Who for us men and for our
   salvation came down [from heaven] and was incarnate and was made man. He suffered and the third day he
   rose again, and ascended into heaven. And he shall come again to judge both the quick and the dead. And
@@ -51,3 +51,6 @@ the interlinear Greek-script glosses and their Latin equivalent
 rather than quoted text - the single convention this record actually
 follows. The world's central confessed answer to who Jesus is - the
 words the century's whole enforcement contest was about.
+
+Quote-verbatim gate fix (2026-09-22): the two already-disclosed gloss omissions had no ellipsis mark
+in the `text` field itself - added at both points, so the gap is honestly shown rather than silent.

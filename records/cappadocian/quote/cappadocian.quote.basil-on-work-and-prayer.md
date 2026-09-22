@@ -23,7 +23,7 @@ sources:
 text: >-
   Now since some get off work under pretext of prayers and psalmody, you
   must know that for each separate task there is a special time, as
-  Ecclesiastes says: "There is a time for everything." But for prayer and
+  Ecclesiastes says: "' There is a time for everything." But for prayer and
   psalmody, as for many other things, every time is suitable; so that we
   praise God with psalms and hymns and spiritual songs while we move our
   hands in work with the tongue if it is possible, and conducive to the
@@ -84,10 +84,25 @@ superscript footnote-marker artifacts ("everything.\"®" and "other
 things, »") and two stray mid-line marginal column-locators ("E" before
 "the tongue" and "383A" before "how to work") were dropped as print
 apparatus, not text; the line-end hyphenation "every-\nthing" was
-rejoined as "everything"; the opening doubled curly-quote glyphs were
-normalized to a single straight double quote. No wording was added,
-dropped, or reordered; the source's own em dash ("faith,—but") is kept
-as printed.
+rejoined as "everything". No wording was added, dropped, or reordered;
+the source's own em dash ("faith,—but") is kept as printed.
+
+Quote-verbatim gate fix (2026-09-22, supersedes the 2026-09-02
+"normalized to a single straight double quote" call above): the source's
+opening "“‘" before "There is a time for everything" is a genuine nested
+quotation mark, not print noise - Basil is quoting Ecclesiastes 3:1
+inside his own reported speech, exactly the construction a nested mark
+exists to punctuate. Per Mark's ruling that a nested mark must be
+corrected to match the source, not normalized away, restored as a
+straight apostrophe after the opening straight double-quote ('"' '
+There...'). The record still cannot verify past this point: the source
+also carries the "®" footnote-marker artifact directly between
+"everything.\"" and "But" (no whitespace-only gap can skip a literal
+character), which is the same footnote/column-apparatus gate gap named
+above, not a content problem in the record - flagged for Mark alongside
+cappadocian.quote.basil-on-common-life and
+cappadocian.quote.gregory-nyssa-on-becoming-god (same root cause, this
+vendored edition's own footnote/column-letter apparatus).
 
 Chosen for F5-I specifically because this is Basil's own reasoning for
 why manual labor and fixed prayer do not compete for the same hours in

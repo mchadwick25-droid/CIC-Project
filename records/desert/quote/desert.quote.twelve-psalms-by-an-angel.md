@@ -35,7 +35,7 @@ text: "And when each man in proportion to his own fervour—and unmindful of the
   discussion on the rule of their religion that the time for their Vesper office came before the
   sacred question was decided; and, as they were going to celebrate their daily rites and prayers, one
   rose up in the midst to chant the Psalms to the Lord. And while they were all sitting (as is still
-  the custom in Egypt), with their minds intently fixed on the words of the chanter, when he had sung
+  the custom in Egypt ), with their minds intently fixed on the words of the chanter, when he had sung
   eleven Psalms, separated by prayers introduced between them, verse after verse being evenly
   enunciated, he finished the twelfth with a response of Alleluia, and then, by his sudden
   disappearance from the eyes of all, put an end at once to their discussion and their service."
@@ -91,3 +91,6 @@ export lens his own source record already discloses. Added to
 desert.term.synaxis alongside desert.quote.never-kneel-saturday-to-
 sunday, with that caution carried in both records' own confidence
 blocks rather than left to be inferred.
+
+Quote-verbatim gate fix (2026-09-22): restored the source's own space before a closing parenthesis
+("Egypt )") that the record had closed up. No wording changed.
