@@ -1929,3 +1929,83 @@ enforces.
 
 Next: item 2, its own PR, three-round review cap per Mark's own
 standing rule (CLAUDE.md, "Scaling the build").
+
+**Entry 52 — 2026-09-22.** R27 fix list (reviewer thread, relayed after
+item 4's own first live battery run, PR #417 - `live-uncited-claims-
+battery-report.json`, 86% of interview turns and 100% of table voice
+turns carrying at least one raw offense). The reviewer thread's own
+verdict on that run: the raw rate itself is real but two real gaps in
+the allowed-uncited list were inflating it, and the run's own
+other-tradition probe never actually exercised R26's own routing
+classification. Three fixes, one PR, three-round cap:
+
+**F1 - the honest-limit exemption missed real fleet honest-limit
+forms.** The battery's own offense list named the exact sentences: *"How
+it ended among us is not in our record."*, *"Here is the honest limit."*,
+*"No rule of ours survives that explains the difference."* A new closed
+list, local to `engine.m4.uncited_claims` and deliberately **not** added
+to `engine.prose.SCAFFOLD_MARKERS`: that vocabulary also drives
+`grounding_net.verdict_for_sentence`'s own withhold/ok decision
+fleet-wide, and widening it there would change more than this one
+check's own exemption - the same "one implementation, owned once"
+discipline this module's own docstring already argues for cuts the other
+way here: two DIFFERENT jobs (a withhold gate; an uncited-claim
+exemption) sharing one vocabulary would be the coupling, not the
+reuse. Two shapes of fixed pattern:
+- Four fixed phrases: `"not in our record"`, `"our record does not"`,
+  `"our record is silent"`, `"the honest limit"`.
+- A short-window regex for the "survives"/"reached us" negation shape
+  the fixed phrases above don't cover (`"No rule of ours survives..."`
+  names nothing "absent" by the word "record" at all): a negator (`no`,
+  `none`, `nothing`, `not`, `never`) within 40 characters of `survive(s)`/
+  `survived`/`reached us`/`reaches us`, same clause. Proximity-bounded
+  and negation-gated on purpose - a genuine citable claim like *"The
+  letter survives in three copies."* carries no negator and stays a real
+  offense, pinned as its own negative-control test.
+
+**F2 - the first-person no-claim exemption was opener-only.** A
+conditional offer whose MAIN clause is first-person but whose SENTENCE
+doesn't open that way - *"If you name the conflict you mean, I will tell
+you plainly where our own record speaks to it and where it does not."* -
+was wrongly caught: the check only looked at the sentence's first word.
+Fixed clause markers (`"i will"`, `"i can"`, `"we will"`, `"we can"`),
+checked anywhere in the sentence rather than sentence-initial only.
+`claim_markers(sentence)` stays the real guard, unchanged - a sentence
+that happens to contain one of these words while making a real claim
+elsewhere (*"If you ask, we can tell you Origen taught this in the year
+240."*) is still caught, pinned as its own test.
+
+**F3 plumbing - a battery-only regeneration channel, not a production
+change.** `engine.m4.turn._run_ordinary_voice_turn` gained one new
+optional parameter, `correction: str | None = None`, appended onto
+whatever `_build_turn_directive` already produced - same append-not-
+replace shape `_append_seat_identity_correction` already uses for the
+seat-identity guard's own one retry. **Unset on every real caller**
+(`engine.api.wiring`, `engine.api.table_wiring` never pass it) - this is
+plumbing for `engine.m4.live_uncited_claims_battery` to simulate one
+regeneration naming a turn's own uncited sentences, battery-only, no
+participant path (the fix list's own words), without duplicating this
+function's evidence-assembly/generation logic inside the battery script
+itself. A hermetic test (`test_correction_is_appended_to_the_turn_
+directive_the_model_actually_sees`) proves the text reaches the model's
+own system prompt; no other caller's behavior changes, since the
+parameter defaults to `None` everywhere else.
+
+**F3(a) and F3(b) - what the fix list asked the re-run to measure -
+belong in that PR's own body**, per the reviewer thread's standing
+convention ("the reviewer reads PRs, not this session"): F3(a) fixes the
+other-tradition probe into a direct, context-free first turn of its own
+fresh session (the item-4 run's own probe rode on a SECOND turn of the
+same session with no history threaded between the two `run_turn` calls,
+so the reader never saw a complete other-tradition question and
+`out_of_scope_class` read `"none"` on every turn); F3(b) adds one
+regeneration, battery-only, for every turn the raw probe caught, and
+reports the post-regeneration residual rate alongside the raw one -
+"that post-regeneration number is what Mark sets the threshold on; the
+raw rate is not," in the reviewer thread's own words.
+
+**Process rule, effective this entry on:** self-merging stops. A PR
+opens, carries its own report in the body, and waits for the reviewer
+thread's own verdict fire before it merges - PRs #414-417 are accepted
+as already merged under the prior rule; every PR from here on follows
+the new one.
