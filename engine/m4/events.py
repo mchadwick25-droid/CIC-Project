@@ -45,15 +45,31 @@ REQUIRED_KEYS: dict[str, set[str]] = {
     "escalation_pressed": {"class"},
     "deletion_requested": set(),
     "session_closed": {"reason"},
+    # The seat-identity guard's own audit surface (Decision-Log.md Entry
+    # 47, 2026-09-22), same idea as turn_selected/round_closed above: a
+    # generated turn writing itself as the Facilitator or another seated
+    # voice is caught and regenerated (or, on a second catch, replaced by
+    # a facilitator_turn) before it ever reaches voice_turn - not
+    # recoverable from voice_turn alone, since the caught text is never
+    # written there. One event per catch (attempt="first" then, only if
+    # the regenerated attempt ALSO caught, attempt="regenerated") - never
+    # one summary event per turn.
+    "seat_identity_violation": {"round_no", "position", "world_key", "offending_prefix", "attempt"},
 }
 
 ENUMS: dict[tuple[str, str], set[str]] = {
     ("session_started", "mode"): {"interview", "table"},  # interview: Phase 1's single-voice mode; table: Artifact-7 (2026-08-28), the multi-voice extension spec O9 priced in
     ("round_closed", "reason"): {"selector_closed", "cap", "floor_unmet_exhausted"},  # Artifact-7 SS2
-    ("facilitator_turn", "kind"): {"door", "threshold", "safety", "bridge", "close"},
+    # seat_correction (Entry 47): the Facilitator taking a turn back after
+    # the seat-identity guard exhausted its one regeneration - a distinct
+    # kind from "safety" (TABLE_DEPENDENCY_CHECK's own kind), which is
+    # about a participant leaning on the conversation, not a generation
+    # defect.
+    ("facilitator_turn", "kind"): {"door", "threshold", "safety", "bridge", "close", "seat_correction"},
     ("safety_state", "track"): {"A", "B"},
     ("escalation_pressed", "class"): {"later_age", "other_tradition"},
     ("session_closed", "reason"): {"participant", "idle", "cap"},
+    ("seat_identity_violation", "attempt"): {"first", "regenerated"},
 }
 
 

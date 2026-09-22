@@ -811,6 +811,18 @@ def _advance_open_round(
     if is_second_pass and engage_name:
         pending = _scoped_pending(pending, keep_labels={PARTICIPANT_LABEL, FACILITATOR_LABEL, engage_name})
 
+    # SEAT-IDENTITY GUARD (Decision-Log.md Entry 47, 2026-09-22): the
+    # Facilitator's label plus every OTHER seated voice's label, both full
+    # ("Name (World)") and bare ("Name") forms - never the speaking voice's
+    # own label (self-labeling is a separate, milder, out-of-scope defect;
+    # see engine.m4.seat_identity_guard's own module docstring).
+    guard_labels = [FACILITATOR_LABEL]
+    for k, w in worlds.items():
+        if k == selection.world_key:
+            continue
+        guard_labels.append(labels[k])
+        guard_labels.append(w.frame["representative"]["name"])
+
     try:
         voice_event, voice_usage = run_voice_turn_for_world(
             voice_client=voice_client,
@@ -837,6 +849,7 @@ def _advance_open_round(
                 else None
             ),
             usage_world_key=selection.world_key,
+            guard_labels=guard_labels,
         )
     except UnhandledRoutingAction:
         raise
@@ -850,8 +863,29 @@ def _advance_open_round(
         raise ProviderCallFailed(str(exc)) from exc
 
     usage_records.extend(voice_usage)
+
+    # SEAT-IDENTITY GUARD, continued (Decision-Log.md Entry 47): log every
+    # catch (0, 1, or 2 - round_no/position filled in here, the only
+    # things engine.m4.turn's own call couldn't know), then either persist
+    # this as a normal voice_turn (clean on the first try, or clean after
+    # one regeneration) or - on the guard's own second catch - persist it
+    # with empty text (voice_event["text"] is already "" from turn.py) and
+    # hand this turn to the Facilitator instead, so the voice's text is
+    # never shown.
+    for violation in voice_event.get("seat_identity_violations", []):
+        violation_payload = {**violation, "round_no": state.round_no, "position": position}
+        events.validate("seat_identity_violation", violation_payload)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="seat_identity_violation", payload=violation_payload)
+
     events.validate("voice_turn", voice_event)
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="voice_turn", payload=voice_event)
+
+    if voice_event.get("seat_identity_guard_exhausted"):
+        fallback_event = facilitator_turns.table_seat_correction_turn(world.frame["representative"]["name"])
+        events.validate("facilitator_turn", fallback_event)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fallback_event)
+        common["facilitator"] = [*common["facilitator"], fallback_event]
+
     for rec in usage_records:
         usage_store.append(rec)
 

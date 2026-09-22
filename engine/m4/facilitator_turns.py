@@ -367,6 +367,33 @@ def table_session_cap_turn(representative_names: list[str]) -> dict:
     return {"kind": TABLE_SESSION_CAP.kind, "text": text}
 
 
+TABLE_SEAT_CORRECTION = FacilitatorTurn(
+    kind="seat_correction",
+    text=(
+        "This is the Facilitator, stepping in for a moment - {representative_name}'s last answer didn't "
+        "hold together the way it should have, so I'm setting it aside rather than passing it on to you. "
+        "Ask again, or bring another voice into it - the Table is still open."
+    ),
+)
+
+
+def table_seat_correction_turn(representative_name: str) -> dict:
+    """The seat-identity guard's own fallback line (Decision-Log.md Entry
+    47, 2026-09-22): engine.m4.seat_identity_guard caught a generated turn
+    writing itself as the Facilitator or another seated voice, regenerated
+    once, and caught it again - so this voice's own text is never shown
+    (engine.api.table_wiring writes that turn's voice_turn event with an
+    empty text, same as any other genuinely empty stream; this facilitator
+    turn is what the participant actually reads instead).
+
+    DRAFT COPY, not yet Mark's own word - same discipline Stage 6b/6c/6e's
+    own participant-facing text followed (Decision-Log.md Entries 39, 41):
+    the mechanism ships enforcing now, per Mark's own instruction, with
+    this line as its working default pending his confirmation of the exact
+    words."""
+    return {"kind": TABLE_SEAT_CORRECTION.kind, "text": TABLE_SEAT_CORRECTION.text.format(representative_name=representative_name)}
+
+
 def bridge_turn(terms: list[dict]) -> tuple[dict, str]:
     """Returns (facilitator_event, underlying_subject).
 

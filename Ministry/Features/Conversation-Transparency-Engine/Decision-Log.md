@@ -1482,3 +1482,156 @@ gate (Rulings-Pending.md) - not flipped by this entry.
 
 Raw transcripts/screenshots are local scratch (ephemeral, not
 committed) - this entry is the retained record.
+
+**Entry 47 — 2026-09-22.** Seat-identity guard, built enforcing per Mark's
+direct instruction (before Stage 7, its own PR).
+
+**The finding, from Mark on `cic-engine-staging`:** a Table round (Theon,
+Papnoute, Chloe; "who is jesus") produced a turn labelled Papnoute whose
+text began `"The Facilitator: Papnoute has already given his witness. Let
+me bring in someone who hasn't spoken yet. Theon, you named him the
+Logos..."` and continued `"Theon (Alexandrian Christianity): In practice,
+it meant..."` for a full paragraph - a voice spoke as the Facilitator and
+as another seat, under the wrong name, uncited (zero ✲ marks on the whole
+block). Confirmed pre-existing, not a Stage 6 regression: the August
+live-table-battery reports already show the same defect *class* in a
+milder shape - `engine/m4/reports/live-table-battery-F1-2026-08-28.json`,
+probe `L4-no-foreknowledge`, Papnoute's own turn opening `"Papnoute
+(Desert Monasticism): Theon has answered you rightly..."` (a seat
+prefixing its OWN label onto its own turn, "cosmetic" per that report's
+own framing, distinct from the constitutional-boundary breach the staging
+case shows).
+
+**Prior art checked before building anything new:** PR #10 (closed,
+unmerged, 2026-08-10 - "Table: cost architecture, Haiku evidence, and the
+build") carried a `speaker_label_repair.py` fix for the identical defect
+family, built against the codebase's pre-`engine/`-restructure layout.
+Its own measurement across six regression arms found the defect
+Haiku-only at the time (Sonnet: 0/0 leading and mid-turn labels on both
+its arms; Haiku: 1-12 depending on arm) and its fix was a silent
+deterministic *repair* at emission, never merged, dormant pending a
+Haiku go-live that never happened. Today's staging finding is on Sonnet,
+in production - refutes that PR's own "table-shaped, Haiku imitating the
+transcript" read as the whole story. Not revived: the old `app/` path no
+longer exists, and Mark's own spec here (reject + regenerate once +
+Facilitator fallback) is a materially different, stricter design than a
+silent repair - kept separate rather than resurrected.
+
+**Design, matching Mark's own spec exactly:**
+
+1. **Detection** (`engine/m4/seat_identity_guard.py`,
+   `find_seat_identity_violation`): a label - the Facilitator's own, or
+   any OTHER seated voice's, both full `"Name (World):"` and bare
+   `"Name:"` forms - caught at a line start or right after a sentence-
+   ending punctuation + whitespace, matching exactly the shape the real
+   leaks took (an attributed-transcript line opening mid-paragraph). The
+   *speaking* voice's own label is never guarded against - self-labeling
+   is the separate, milder, out-of-scope defect the August evidence
+   already named distinctly. A bare `"<Name>:"` mid-prose false positive
+   is a real, accepted tradeoff of Mark's own third pattern shape, not
+   narrowed further.
+2. **Reject, regenerate once, violation named:** modeled directly on
+   `engine.m4.turn_selector.select_speaker`'s own retry-once-then-
+   fallback shape - `engine.m4.turn._run_ordinary_voice_turn` gained an
+   opt-in `guard_labels` parameter (`None` on every interview call, so
+   that path is untouched, not merely undisturbed - interview has no
+   other seats to impersonate and never builds the attributed-transcript
+   convention this defect echoes). A catch appends a correction block
+   naming the exact offending prefix to the retry's own turn-directive
+   channel (`_append_seat_identity_correction`, same channel
+   `_build_turn_directive` already owns, measured to win over a competing
+   user-turn pressure) and regenerates once, same evidence, same history.
+3. **Exhausted -> the Facilitator takes the turn:** a second catch sets
+   `voice_event["text"] = ""` (the voice's text is not shown) and a new
+   additive `seat_identity_guard_exhausted` flag; `engine.api.
+   table_wiring._advance_open_round` reads it and appends a new fixed
+   Facilitator template (`engine.m4.facilitator_turns.
+   table_seat_correction_turn`, kind `seat_correction` - a new
+   `facilitator_turn` kind, distinct from `TABLE_DEPENDENCY_CHECK`'s
+   `"safety"`, since this is a generation defect, not a participant
+   leaning on the conversation). **DRAFT COPY, not yet Mark's own word**
+   - same discipline Stage 6b/6c/6e's own participant-facing text
+   followed (Entries 39, 41): the mechanism ships enforcing now, per
+   Mark's own instruction, with this line as its working default pending
+   his confirmation of the exact words:
+   > "This is the Facilitator, stepping in for a moment -
+   > {representative_name}'s last answer didn't hold together the way it
+   > should have, so I'm setting it aside rather than passing it on to
+   > you. Ask again, or bring another voice into it - the Table is still
+   > open."
+4. **The voice_turn event still writes** (empty text, additive
+   `seat_identity_violations`/`seat_identity_guard_exhausted` fields) -
+   deliberately, not suppressed: `engine.m4.projection`'s own fold only
+   advances `round_turns`/`round_speakers` on a `voice_turn` event, never
+   a bare `facilitator_turn` (confirmed by reading `_fold` directly, not
+   assumed) - writing nothing here would leave this seat uncounted as
+   having spoken and risk the next selection immediately re-picking the
+   same seat that just failed. `apply_net("")` was checked directly
+   (empty in, empty/false out, no crash) before relying on it - the
+   pipeline already treats a genuinely empty stream as a legitimate case
+   (`StreamResult.empty`), so this reuses an existing precedent rather
+   than inventing new empty-text handling.
+5. **Logging - one event per catch, not one summary per turn:** a new
+   `seat_identity_violation` event type (`engine.m4.events.
+   REQUIRED_KEYS`/`ENUMS`), fields `round_no, position, world_key,
+   offending_prefix, attempt` (`attempt`: `"first"` then, only if the
+   regenerated attempt ALSO caught, `"regenerated"`) - modeled on
+   `turn_selected`/`round_closed`'s own "the round's audit surface, not
+   recoverable from voice_turn alone" role. `world_key`/`offending_prefix`
+   /`attempt` come back from `engine.m4.turn` (which knows the speaking
+   voice but not round bookkeeping); `round_no`/`position` are filled in
+   by `table_wiring` (which knows the round but not the guard's own
+   internals) - kept split at exactly that seam rather than threading
+   round state into `engine.m4.turn`, which has no other reason to know
+   it.
+6. **A small, flagged addition beyond the literal backend spec:**
+   `TableRoom.tsx` now skips rendering a `turn--voice` block whose text
+   is empty. Without this, "the voice's text is not shown" would be
+   false in practice - the seat's own portrait and name would still
+   render, just over a blank body, which is still showing that seat had
+   a turn. Two lines, Table-only (the interview path never produces an
+   empty voice turn from this guard, since it never receives
+   `guard_labels`), pinned by a new `TableRoom.test.tsx` (the screen had
+   no test file before this).
+
+**Tests:** `engine/m4/tests/test_seat_identity_guard.py` (9 cases,
+including the exact staging repro text verbatim, the exact August-battery
+repro text, and the self-labeling-is-out-of-scope case), a new pinning
+test on `table_seat_correction_turn`
+(`test_facilitator_turns.py`), and two real end-to-end integration tests
+against `create_app()` with a scripted fake client
+(`test_table_api.py`): one where the retry ships clean (asserts exactly
+one `seat_identity_violation` event, the clean text ships, two real
+stream calls were made), one where both attempts catch (asserts two
+violation events with `attempt` `"first"`/`"regenerated"`, `voice.text ==
+""`, the `seat_correction` facilitator turn appears in both the API
+response and the store, and round bookkeeping still counted the seat as
+having spoken). `engine/m4/tests` (377 total) and the Table API suite (42
+total) both green; frontend `tsc --noEmit` clean, `vitest` 28/28.
+
+**Live table battery, run once per item 4** (real, billed Bedrock calls,
+`python -m engine.m4.live_table_battery --region us-east-1 --worlds
+alx,desert,pahc`, report at `engine/m4/reports/live-table-battery-seat-
+identity-guard-2026-09-22.json`): **0 seat-identity catches** across both
+sessions (8 probes, 2 round-cap closes). Consistent with PR #10's own
+old Sonnet-arm measurement (0/0) and with today's guard never having a
+real violation to catch in this one run - this number is an incidence-
+rate/no-regression check on a small live sample, not a correctness proof
+of the guard mechanism itself (that's what the mocked unit/integration
+tests above establish, by forcing a violation through). One pre-existing
+probe, `L2-each-of-you`, recorded `FAIL` (a selector-behavior question -
+speakers were `['desert', 'alx', 'pahc', 'desert', 'pahc']`, genuinely 3
+distinct voices, so the FAIL is in the direct-address-short-circuit half
+of that probe's own condition) - unrelated to seat-identity, not
+investigated further here, out of this PR's own scope.
+
+**Interview path:** confirmed untouched by construction, not merely by
+absence of a failing test - `guard_labels` defaults to `None`,
+`_run_ordinary_voice_turn`'s two interview call sites (`engine.m4.turn.
+run_turn`) never pass it, and every new field on `voice_event` is
+additive.
+
+**Not done here, by Mark's own scope:** no change to what's shown for the
+interview path's own empty-text case (pre-existing, unrelated to this
+guard). No attempt to fix `L2-each-of-you`. No promotion decision - "Mark
+decides whether promotion waits for it," per his own instruction.
