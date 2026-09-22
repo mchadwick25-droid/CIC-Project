@@ -2009,3 +2009,172 @@ opens, carries its own report in the body, and waits for the reviewer
 thread's own verdict fire before it merges - PRs #414-417 are accepted
 as already merged under the prior rule; every PR from here on follows
 the new one.
+
+**Entry 53 — 2026-09-22.** Stage 7a: recording the streaming design
+brief, in my own words, per the reviewer thread's own instruction -
+design only, no code in this entry or its PR. **A gap this entry closes
+by substitution, not by finding the file:** `Build-Plan.md`'s own line
+("Stages 6-9... are specified in full in the Fable design pass's own
+report - ask Mark for it when `Rulings-Pending.md` starts clearing")
+names a report that does not exist as a file in this repository. The
+reviewer thread's own message said so directly and supplied the design
+input in its place; what follows is that input, restated, not a
+transcription of a document that was never actually written.
+
+**Where a stream would have to slot in.** Today, `engine/api` returns a
+whole finished turn as one JSON response; the frontend fetches per turn,
+nothing sooner. `engine/provider/bedrock.py` already accounts usage
+correctly for a streaming response (the SDK call underneath
+`stream_voice_turn` already streams token-by-token; nothing currently
+reads those tokens before the full text is assembled). The real pipeline
+a stream would have to survive, in order: `engine.m4.turn`'s seat-
+identity guard first (reject/regenerate/fallback on a Facilitator-label
+or another-seat leak), then `apply_net` (the grounding net, per sentence,
+tag-checked - this is where a sentence either streams or is withheld),
+then `output_check` (report-only, R14 - reads the FINISHED text), then
+the transparency plan (citations/glosses/figures, built over the whole
+answer). `R17`'s own display cap is applied at render, on the frontend
+side, not inside this pipeline.
+
+**Three candidate shapes, one already rejected.**
+
+- **Shape C (rejected outright): raw token streaming with retraction on
+  a failed check.** Stream every token as Bedrock emits it, then pull
+  words back if a later check (grounding net, do-not-voice, seat-
+  identity) fails on them. Rejected on one ground, not weighed against
+  the others: **a participant must never see words and then lose them.**
+  That's not a performance tradeoff to negotiate - it's the same
+  "reports, never edits" discipline `output_check`'s own module docstring
+  already rests the whole net on, applied to what a screen shows in
+  real time instead of what a log records after the fact.
+- **Shape A: perceived streaming.** The whole pipeline stays exactly as
+  it is today - one full turn generated, checked, and finished server-
+  side, then handed to the frontend whole. The frontend alone reveals the
+  already-checked, already-finished turn sentence by sentence, at a
+  reading pace, as if it were arriving live. Zero new risk (nothing
+  participant-facing changes about WHEN a check runs), but also zero real
+  gain: first-word latency is unchanged, since the participant still
+  waits for the full generation to finish before anything appears.
+- **Shape B (recommended): sentence-gated streaming.** The server itself
+  streams from Bedrock, buffers to sentence boundaries (not token
+  boundaries), and runs the SAME per-sentence checks the whole-turn path
+  already runs - grounding net, do-not-voice, the seat-identity prefix
+  check, and, once R27 is enforced, R27's own per-sentence check - on
+  each completed sentence as soon as it's complete, not after the whole
+  turn. A sentence that clears is emitted immediately over a server-sent-
+  events endpoint; a sentence that fails never reaches the transport at
+  all (the same withhold the whole-turn path already does, just moved
+  earlier). Citation marks attach at sentence boundaries, as each cleared
+  sentence lands; the transparency plan still finalizes at turn end (it's
+  a whole-answer artifact by design, not a per-sentence one). R17's
+  display cap still enforces at turn end, and specifically **demotes a
+  mark that's already been shown to the references line - it never
+  deletes a mark the participant already saw**, the same "never revoke
+  something already shown" discipline Shape C's own rejection rests on,
+  applied to the cap instead of the net.
+
+**Rules that hold regardless of which shape ships:**
+- **Constraint A - no added tokens.** Streaming is a transport change,
+  not a content change; nothing about what gets generated or said is
+  different because it arrived sentence-by-sentence instead of whole.
+- **Constraint B - separate, flag-gated, deletable module.** Not woven
+  into the existing whole-turn path; a self-contained addition that can
+  be removed cleanly if it doesn't work out, never a rewrite of what
+  already ships.
+- **Facilitator turns never stream** - they're code-owned templates
+  (`facilitator_turns.py`'s own module docstring), not model-generated
+  text arriving token by token; nothing about them benefits from or needs
+  a streaming transport.
+- **Nothing streams before its own sentence has passed the same checks
+  the whole-turn path already applies to it** - Shape B's whole design is
+  this rule moved earlier in time, not a relaxation of it.
+- **Table rounds stream one seat at a time** - the selector and round
+  mechanics (`engine.m4.turn_selector`, `engine.m4.round`) are entirely
+  unchanged; only the chosen seat's own voice turn streams, the same way
+  it already generates as one call today.
+- **Flag-gated, default off, flipped only after Mark's own staging
+  look** - same discipline `useAnchorRenderer`/R10 already set as
+  precedent (Decision-Log Entry 49): built behind a flag, proven on
+  staging, then switched on by Mark's own word, never auto-enabled by a
+  merge.
+
+**Two participant-facing choices, Mark's alone - drafted here, not
+decided.** Per this file's own working rules (real options with
+explanations and a recommendation, never a flat conclusion with no
+alternatives shown):
+
+**E1 - what happens mid-stream when a guard catches a violation
+(seat-identity, or R27 once enforced) partway through a turn that's
+already shown some sentences to the participant?**
+- *(a) Keep what's shown, stop, append a Facilitator line.* The sentences
+  already on screen stay exactly as they were; the stream simply stops
+  there, and a Facilitator line closes out the turn honestly (something
+  in the shape of the seat-identity guard's own existing fallback -
+  Decision-Log Entry 47's `table_seat_correction_turn`). Simple and
+  honest about what happened, but a participant reads a turn that visibly
+  trails off mid-thought.
+- *(b) Replace the whole turn, collapse what was shown behind a
+  "withdrawn" note.* The sentences already on screen are hidden again
+  behind a label saying the turn was withdrawn, and a full replacement
+  (regenerated, or the Facilitator's own turn) takes its place. Never
+  literally shows a participant something and then deletes it in place
+  (the still-live sentences are labeled, not erased outright) - but it IS
+  taking back an experience the participant already had, which is close
+  enough to Shape C's own rejected shape that it deserves real scrutiny,
+  not a quick approval.
+- *(c) Hold the first paragraph until the guard has already seen it, then
+  stream from there. (Recommended.)* Don't start streaming at sentence
+  one - wait until the guard has checked at least the opening paragraph,
+  THEN begin the sentence-by-sentence reveal from a point already known
+  to be clean. This trades away a little of the first-word-latency gain
+  Shape B exists to capture (an opening delay, not the full wait Shape A
+  has), in exchange for making the catch-mid-stream case in (a) and (b)
+  rare rather than routine - most of a turn's own risk concentrates in
+  its opening framing, the same place a seat-identity leak or an uncited
+  claim is most likely to land early. Recommended because it doesn't ask
+  Mark to accept either "the participant sees a trailed-off turn" or "the
+  participant sees something taken back" as the routine case - it makes
+  both rare, at a real but small latency cost.
+
+**E2 - when does a citation mark attach, during a stream?**
+- *(a) With each sentence, as it clears. (Recommended.)* A mark appears
+  the instant its own sentence lands, matching what the participant is
+  actually reading at that moment - the mark and the claim it supports
+  arrive together, which is the whole point of a mark in the first place
+  (Decision-Log Entry 49's own R10 rationale: a citation is evidence
+  shown at the point of the claim, not detached from it).
+- *(b) All attached at turn end.* Marks wait for the whole turn to
+  finish, then appear together - simpler to implement (one pass over the
+  finished transparency plan, same as today), but breaks the very
+  point-of-claim association (a) preserves: a participant reads five
+  sentences with no marks, then five marks appear retroactively, and has
+  to work backward to match each one to what it was for.
+- **How an R17 cap demotion reads under (a):** a mark shown live, sentence
+  by sentence, that later gets demoted to the references line once R17's
+  display cap is reached at turn end is not a mark being taken away in
+  the Shape-C sense - the sentence and its claim stay exactly as shown;
+  only where the citation's own detail lives moves (inline mark →
+  references line), the same demotion the whole-turn path already does
+  today, just now happening to a mark the participant watched arrive
+  live rather than one that was never shown inline in the first place.
+  Worth saying to Mark plainly when this is put to him: this is the one
+  place a streamed turn's own citation display can visibly change after
+  the fact, even though nothing about the underlying claim or its
+  grounding does.
+
+**Build order, after R27 items 1-4 (unchanged from the reviewer thread's
+own words):** 7a this entry; 7b the engine streaming module itself,
+behind `CIC_API_STREAMING`, the existing whole-turn message endpoint left
+completely untouched; 7c the frontend consumer, behind `VITE_STREAMING`,
+built on the Stage 6 renderer only (no second renderer); 7d the seat-
+identity guard and R27 moved into per-sentence mode, with tests including
+the staging Papnoute leak text (Decision-Log Entry 47) run through the
+streaming path specifically; 7e a live battery with streaming on,
+reporting catch counts and first-word latency, then a stop for Mark's own
+staging look before anything ships to a real participant. **Streaming
+does not ship to participants before R27's own enforcement is on** - the
+reviewer thread's own sequencing, restated here as the gate it is.
+
+Escalating E1 and E2 to Mark now, per the four standing escalation
+categories (participant-facing words) - no 7b code starts until both are
+ruled.
