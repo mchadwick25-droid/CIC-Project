@@ -31,6 +31,7 @@
  * renderFromTransparencyPlan for where these are computed.
  */
 import type { SourceCard } from '../types/conversation';
+import { confidencePhrase } from '../lib/confidence';
 import { InlineBridge } from './InlineBridge';
 import { SourceList } from './SourceList';
 
@@ -51,17 +52,21 @@ export function WitnessMark({ sources, repeat, contested }: WitnessMarkProps) {
       ariaLabel="Where this comes from"
       level2={
         <>
-          {sources.map((card) => (
-            <div key={card.record_id} className="witness-mark__entry">
-              <p className="witness-mark__title">{card.label}</p>
-              {card.sources.map((s) => (
-                <p key={s.source_id} className="witness-mark__source">
-                  {s.work ?? s.source_id}
-                  {s.author && ` — ${s.author}`}
-                </p>
-              ))}
-            </div>
-          ))}
+          {sources.map((card) => {
+            const phrase = confidencePhrase(card.confidence);
+            return (
+              <div key={card.record_id} className="witness-mark__entry">
+                <p className="witness-mark__title">{card.label}</p>
+                {card.sources.map((s) => (
+                  <p key={s.source_id} className="witness-mark__source">
+                    {s.work ?? s.source_id}
+                    {s.author && ` — ${s.author}`}
+                  </p>
+                ))}
+                {phrase && <p className="witness-mark__confidence">{phrase}</p>}
+              </div>
+            );
+          })}
         </>
       }
       level3Title="Where this comes from"

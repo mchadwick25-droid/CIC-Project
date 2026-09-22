@@ -1037,7 +1037,10 @@ opened before this one but is still pending Mark's wording as of this
 entry - branched from `main` before either landed, so this entry is
 also 37 here; whichever PR merges first keeps its numbers per this
 file's own "never renumber a past entry" rule, the other renumbers on
-merge, same as Entry 32's own precedent.)
+merge, same as Entry 32's own precedent. Resolution, logged in the
+entries immediately below rather than edited here, since a past entry
+is never rewritten: this PR (#397) merged first, so it keeps 37; PR
+#395's own Entries 37-38 renumber to 38-39.)
 
 `engine/m7/session_reader.py`'s `VoiceTurnRecord` gains `figures_used`,
 `glosses`, and `transparency`, lifted verbatim off the `voice_turn`
@@ -1065,9 +1068,10 @@ unspecific - no formula or drop order is decided anywhere in
 (glosses→figures→stories, never witness quotes) existed only in this
 session's own pre-compaction working notes, not in anything Mark
 actually ruled - flagged rather than built against, the same
-discipline Entry 38 (PR #395) applied to Stage 6c. Mark's own number,
-once set, is what the renderer fixture test (R17's other engineering
-half) will assert against; that test is not yet written. PR #397.
+discipline Entry 40 (PR #395, renumbered per the note below) applied
+to Stage 6c. Mark's own number, once set, is what the renderer
+fixture test (R17's other engineering half) will assert against; that
+test is not yet written. PR #397.
 
 **Entry 38 — 2026-09-22.** R17's cap number confirmed and enforced:
 Mark's own direct answer this session - cap = `max(3, min(8,
@@ -1100,4 +1104,83 @@ with an earlier test's still-mounted DOM - fixed locally by scoping
 the new test's own query to its own render container, not by touching
 the shared test setup (out of this PR's own scope; the gap itself is
 worth a future look). Full suite 14/14; `npx tsc --noEmit` and `npm
-run build` both clean. PR pending.
+run build` both clean. PR #399, merged.
+
+**Entry 39 — 2026-09-22.** Stage 6b built: `formation_confidence` wired
+into the Level 2 citation card, the mechanism R16 (Entry 29) and Stage
+6a (Entries 35-36) exist to make trustworthy. (Renumbered twice on
+this branch: 37 -> 38 when PR #397 landed its own Entry 37 first, then
+38 -> 39 when PR #399 landed its own Entry 38 first - never editing a
+past entry once merged, so each renumbering happens here, on this
+not-yet-merged branch, rather than after the fact.)
+
+The data plumbing already existed end-to-end before this entry -
+`engine/m1/schemas.py`'s five-value enum,
+`engine/m4/transparency_plan.py` attaching the full `confidence`
+envelope verbatim to every anchor and reference card, `engine/m4/
+turn.py`/`projection.py` passing it through the API untouched. Nothing
+on the backend changed. Only the frontend's own read of it was
+missing: `SourceCard.confidence` existed in the real API response but
+was never declared on the TS type (now added, optional, so every
+predating fixture still typechecks), and nothing rendered it.
+
+New `cic-poc/frontend/src/lib/confidence.ts`: a pure five-entry lookup
+(`confidencePhrase()`) from `formation_confidence` to one plain
+phrase, returning null - never inventing one - for a missing or
+unrecognized value, including "Not Attested" (R8, RULED c: not a
+sixth `formation_confidence` value). Wired into `StoryMark.tsx` and
+`WitnessMark.tsx`'s existing Level 2 content, one new line per cited
+record. No new mark type, no new color - R17's own house rule ("no
+new mark types beyond R9's hollow-glyph variant") reads this as
+content inside an existing card, not a new disclosure element.
+
+**DRAFT COPY, not yet Mark's own word** - per his own Stage 6
+instruction ("phrases... worded by me"), flagged as draft in the
+module's own docstring and built only so the mechanism is testable
+end-to-end:
+
+| formation_confidence | Proposed phrase |
+|---|---|
+| Documented | "Recorded directly in a source from the time." |
+| Widely Accepted | "What historians broadly agree happened." |
+| Dominant Modern Reconstruction | "The leading modern reading of the evidence." |
+| Contested | "Historians disagree about this." |
+| Inferential-Thin | "Based on thin evidence, mostly inference." |
+
+9 new tests: `confidence.test.ts` covers all 5 phrases plus null/
+undefined/missing-field/unrecognized-value edge cases; two new
+`VoiceTurnBody.test.tsx` integration tests prove the phrase actually
+renders on a real Level 2 card open (`fireEvent.mouseEnter`) and that
+a confidence-less card renders no phrase line at all. Full suite
+23/23; `npx tsc --noEmit` and `npm run build` both clean. PR pending -
+see its own description for the same proposal table, open for Mark's
+wording before merge.
+
+**Entry 40 — 2026-09-22.** Stage 6c scope resolved, no code needed:
+Mark's own direct answer, given a real finding before it was asked -
+R9's ruled scope (Decision-Log.md Entry 29: "a quiet hollow-glyph
+variant of the existing citation mark, no new color, no new verb") was
+already fully built (the `.citation-mark--contested` CSS class,
+merged before this session) and Stage 6b (Entry 39, PR #395) adds the
+plain phrase on tap. Mark confirmed that is the whole of Stage 6c -
+no further record-specific "hedge" content beyond the generic phrase.
+(Renumbered twice on this branch, same reason and rule as Entry 39's
+own note above: 38 -> 39 when PR #397 landed first, then 39 -> 40 when
+PR #399 landed first.)
+
+**The finding that prompted the question, worth keeping on record:**
+before asking, checked whether `confidence.divergence_note` could
+safely supply any such record-specific content. It cannot -
+fleet-wide, it is internal build/authoring-process commentary, not
+participant content (e.g. `records/rzg/figure/rzg.figure.faber.md`:
+`"This figure's own bridge_line is drawn from already-reviewed
+construction documents"`; `records/rzg/doctrinal_witness/
+rzg.witness.defending-the-anabaptist-suppression.md`: `"Built directly
+from rzg.contested.anabaptist-schism-legitimacy's own
+already-verified..."`). 1005 non-null `divergence_note` values
+fleet-wide, all of the same provenance/authoring-note character on
+inspection. Rendering this field to a participant would have been a
+real process leak - flagged and confirmed unusable before any code was
+written against it, not after.
+
+Stage 6c is done. Nothing further to build once PR #395 merges.

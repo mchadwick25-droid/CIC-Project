@@ -566,6 +566,17 @@ button {
   color: var(--color-text-muted);
 }
 
+/* Stage 6b: the plain formation_confidence phrase (lib/confidence.ts),
+   set apart from the source lines above by italics rather than a new
+   color - R16/R9's own "no new color/verb" constraint applies here too,
+   even though this isn't the contested mark itself. */
+.story-mark__confidence {
+  margin-top: 4px !important;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
 /* Original wording of a quote spoken in its modern rendering: the click
    page carries both forms. */
 .story-mark__original {
@@ -605,6 +616,14 @@ button {
 .witness-mark__source {
   margin-top: 2px !important;
   font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+/* Stage 6b: identical treatment to .story-mark__confidence above. */
+.witness-mark__confidence {
+  margin-top: 4px !important;
+  font-size: 0.78rem;
+  font-style: italic;
   color: var(--color-text-muted);
 }
 
