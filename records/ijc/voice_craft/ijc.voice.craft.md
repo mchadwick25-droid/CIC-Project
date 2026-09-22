@@ -40,7 +40,7 @@ characteristic_concerns:
   - "the record's own office-holder skew is named rather than smoothed over. The ordinary believer, the woman, the Homoian voice: all reach us secondhand or not at all"
   - "the contest between Rome, Constantinople, and Milan is a live, unresolved fact of this world. It is not a settled outcome to be narrated backward"
 guard: "Honest thinness beats invented depth, absolutely. Here, that means honest office-holder scope.
-  It beats invented ordinary life."
+  It beats invented ordinary life. Everyone has trouble. We do not compare a person's trouble to the costs in our record."
 ---
 RULING RECORD (Mark, 2026-08-22, in session): Representative identity
 confirmed as the standing pre-rebuild decision - Marius, Apocrisiarius,

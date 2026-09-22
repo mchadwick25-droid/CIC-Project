@@ -779,3 +779,88 @@ R19's own ruling (extend fleet-wide, each world's own voice) is
 unaffected by this correction; only the list of which worlds still need
 it changes, from 9 to 10. Rulings-Pending.md's R19 entry updated in the
 same edit to carry the corrected list.
+
+**Entry 32 — 2026-09-21.** R19's retrofit written into all 10 gap worlds
+(alx, cappadocian, desert, gallic, hal, ijc, pahc, rzg, syr, witt) -
+`voice_craft.guard` in each now carries an honest, per-world version of
+don's own distress-minimization line.
+
+Drafted first as an Artifact
+(`https://claude.ai/artifact/4TFs1MTvHRPhM2JsVCMxoz`), read directly from
+each world's own `identity`/`characteristic_concerns`/`guard` fields
+rather than a shared template, per Mark's own real-time editing across
+five rounds:
+
+1. First draft read as AI-generated - reaching for cadence ("we do not
+   have that scale, and we do not build one") instead of stating the
+   rule plainly.
+2. Second pass cut the cadence but kept it in a third-person, legalistic
+   register ("a participant's own trouble is not weighed against...").
+   Mark's own line replaced it: "we have found everyone has trouble and
+   we don't compare them to each other" - adopted as the shared spine
+   for all ten.
+3. Third pass cut remaining AI tells: a hedge-opener ("we have found
+   that"), em-dash appositives, a poetic triplet ("one cost, paid
+   once"), and a literary metaphor ("hostile crown") standing in for a
+   plain historical fact (syr: "under a hostile crown" -> "under Persian
+   rule").
+4. Fourth pass, a real content fix, not a register one: rzg's draft had
+   drifted into disclaiming what the world wasn't ("we keep no list of
+   martyrs, we do not invent one") - announcing an absence nobody asked
+   about. Cut, per the same house rule every other `voice_craft` record
+   already follows (`gate_no_build_attribution`'s own `identity`/`guard`
+   scan aside, this is the "honest-limits" convention itself: a gap is
+   named only where a question actually reaches for it, never
+   pre-declared - alx's, desert's, and gallic's own flavor_notes all
+   state this rule directly).
+5. Fifth pass: Mark's own read caught two remaining sentences that
+   explained rather than stated - desert's "no one asks us to die for
+   the faith anymore, so our struggle stays inward" (reasoning the guard
+   doesn't need) and rzg's naming detail ("a pastor was killed in the
+   war..."). Both cut for the same reason: irrelevant to the rule
+   itself. witt's parallel trailing sentence ("two young men died once
+   for what we believe") was cut the same way once the pattern was
+   named.
+
+**Final shape, all ten:** two short sentences. "Everyone has trouble. We
+do not compare a person's trouble to [what this world's own record
+holds]." No elaboration, no reasoning, no disclaimer of absence.
+
+| World | Addition |
+|---|---|
+| alx | "...We do not compare one person's trouble to another's." |
+| cappadocian | "...We do not compare a person's trouble to our martyrs." |
+| desert | "...We do not compare a person's trouble to ours." |
+| gallic | "...We do not compare a person's trouble to our own hardship." |
+| hal | "...We do not compare a person's trouble to what we gave up." |
+| ijc | "...We do not compare a person's trouble to the costs in our record." |
+| pahc | "...We do not compare a person's trouble to what a death for the name cost us." |
+| rzg | "...We do not compare a person's trouble to the one death in our record." |
+| syr | "...We do not compare a person's trouble to what our people went through under Persian rule." |
+| witt | "...We do not compare a person's trouble to our one martyr story." |
+
+Each appended to the end of that world's existing `guard` field, not
+replacing any of the existing honest-thinness content already there -
+same pattern don's own guard already uses (floor line, then "one more
+line" on this specific concern).
+
+**Verified before commit:** all 10 files parse as valid YAML (rzg's and
+syr's single-quoted blocks correctly carry the new apostrophes as `''`).
+`engine.m1.fk.fk_grade` on every new `guard` field: 5.7-9.04, well under
+`FK_CEILING` 10. `gate_no_build_attribution`, `gate_readability`,
+`gate_voice_craft_prompt_budget`: 0 findings on all ten. `gate_voice_
+perspective` found 2 pre-existing findings (cappadocian, syr) in
+unrelated `doctrinal_witness` records this edit never touched - not a
+regression. `observe_outside_help_guard`'s own keyword scan still shows
+only don as "carries" - expected, not a bug: the new text is
+deliberately worded differently from don's own phrasing (Mark's own
+plain-language direction, not the scan's exemplar vocabulary), exactly
+the scan's own documented limitation (Entry 28's "Enforcement mechanism,
+deliberately left open" note). Verified all ten by direct read instead.
+
+**Not done here:** recompile and re-pin the affected worlds' packages
+(`engine.m2.cli build`, one manifest per world, referencing this entry's
+own commit) - separate, standard next step, matching every prior
+voice_craft revision in this project's own history. Folding this
+requirement into the standing build-cycle checklist for future worlds
+(Entry 28's second scope item) is also still outstanding.
