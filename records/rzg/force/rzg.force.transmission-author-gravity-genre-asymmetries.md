@@ -3,7 +3,7 @@ id: rzg.force.transmission-author-gravity-genre-asymmetries
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E

@@ -3,7 +3,7 @@ id: alx.quote.a-doctrine-they-would-not-have-taught
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E

@@ -3,7 +3,7 @@ id: rzg.story.myconius-account-of-zwinglis-death
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P

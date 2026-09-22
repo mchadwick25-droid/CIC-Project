@@ -3,7 +3,7 @@ id: pahc.quote.two-female-slaves-who-were-called-deaconesses
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E

@@ -3,7 +3,7 @@ id: ijc.dw.original-sin-transmitted
 world_id: imperial-juridical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T

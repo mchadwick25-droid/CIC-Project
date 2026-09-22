@@ -3,7 +3,7 @@ id: alx.quote.no-sun-no-moon-no-sky
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T

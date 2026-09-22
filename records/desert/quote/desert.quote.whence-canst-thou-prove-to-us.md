@@ -3,7 +3,7 @@ id: desert.quote.whence-canst-thou-prove-to-us
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T

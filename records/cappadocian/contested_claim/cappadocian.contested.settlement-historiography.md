@@ -3,7 +3,7 @@ id: cappadocian.contested.settlement-historiography
 world_id: cappadocian-trinitarian
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

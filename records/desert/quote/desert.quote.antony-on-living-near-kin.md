@@ -3,7 +3,7 @@ id: desert.quote.antony-on-living-near-kin
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T

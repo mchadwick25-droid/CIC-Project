@@ -3,7 +3,7 @@ id: cappadocian.source.elder-gregory-of-nazianzus-hypsistarian
 world_id: cappadocian-trinitarian
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

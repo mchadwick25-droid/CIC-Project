@@ -3,7 +3,7 @@ id: ijc.force.imperial-policy-oscillation
 world_id: imperial-juridical
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E

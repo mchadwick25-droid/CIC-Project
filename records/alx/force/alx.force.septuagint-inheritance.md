@@ -3,7 +3,7 @@ id: alx.force.septuagint-inheritance
 world_id: alexandria-catechetical
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F2-I]
 confidence:

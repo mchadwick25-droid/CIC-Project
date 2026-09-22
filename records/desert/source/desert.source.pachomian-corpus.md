@@ -3,7 +3,7 @@ id: desert.source.pachomian-corpus
 world_id: desert-monasticism
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

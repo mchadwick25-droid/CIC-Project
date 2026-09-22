@@ -3,7 +3,7 @@ id: cappadocian.term.parrhesia
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

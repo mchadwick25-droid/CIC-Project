@@ -3,7 +3,7 @@ id: desert.gravity.scriptural-engagement
 world_id: desert-monasticism
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: [F2-I]
 confidence:

@@ -3,7 +3,7 @@ id: gallic.force.egyptian-standard
 world_id: gallic-monastic-ascetic-christianity
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

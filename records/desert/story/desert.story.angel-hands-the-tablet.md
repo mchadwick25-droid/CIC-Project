@@ -3,7 +3,7 @@ id: desert.story.angel-hands-the-tablet
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I

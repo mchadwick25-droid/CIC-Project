@@ -3,7 +3,7 @@ id: don.term.anniversaria-commemoratio
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic-unavailable
 canon_cells:
 - F3-I

@@ -3,7 +3,7 @@ id: don.limit.the-room-we-cannot-show-you
 world_id: donatism
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E

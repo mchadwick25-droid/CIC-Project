@@ -3,7 +3,7 @@ id: syr.term.ewangeliyon-da-mhallete
 world_id: syriac-edessa-nisibis
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I

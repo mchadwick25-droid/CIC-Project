@@ -3,7 +3,7 @@ id: desert.gravity.manual-labor
 world_id: desert-monasticism
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: [F5-I, F5-T]
 confidence:

@@ -3,7 +3,7 @@ id: desert.limit.original-sin-eucharist-faith
 world_id: desert-monasticism
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-T]
 confidence:

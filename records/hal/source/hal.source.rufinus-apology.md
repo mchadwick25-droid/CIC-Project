@@ -3,7 +3,7 @@ id: hal.source.rufinus-apology
 world_id: hieronymian-ascetic-literary
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

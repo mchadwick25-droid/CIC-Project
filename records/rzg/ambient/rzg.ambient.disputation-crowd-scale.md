@@ -3,7 +3,7 @@ id: rzg.ambient.disputation-crowd-scale
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: ambient
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

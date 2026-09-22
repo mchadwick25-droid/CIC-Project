@@ -3,7 +3,7 @@ id: alx.term.theosis
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T

@@ -3,7 +3,7 @@ id: hal.gravity.patronage-authority
 world_id: hieronymian-ascetic-literary
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I

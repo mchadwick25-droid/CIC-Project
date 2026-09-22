@@ -3,7 +3,7 @@ id: alx.term.apokatastasis
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T

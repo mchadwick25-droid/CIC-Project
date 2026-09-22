@@ -3,7 +3,7 @@ id: hal.story.attack-416
 world_id: hieronymian-ascetic-literary
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P

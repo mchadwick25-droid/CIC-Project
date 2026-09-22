@@ -3,7 +3,7 @@ id: syr.contested.bardaisan-nicene-floor
 world_id: syriac-edessa-nisibis
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F1-I

@@ -3,7 +3,7 @@ id: don.source.passio-isaac-et-maximiani
 world_id: donatism
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

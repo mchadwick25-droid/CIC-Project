@@ -3,7 +3,7 @@ id: hal.term.hebraica-veritas
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I

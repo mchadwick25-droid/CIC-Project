@@ -3,7 +3,7 @@ id: syr.term.tahwyata
 world_id: syriac-edessa-nisibis
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

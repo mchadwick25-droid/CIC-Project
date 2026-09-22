@@ -3,7 +3,7 @@ id: cappadocian.figure.eustathius
 world_id: cappadocian-trinitarian
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

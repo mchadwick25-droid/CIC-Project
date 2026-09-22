@@ -3,7 +3,7 @@ id: desert.quote.in-real-experience-and-feeling
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-I, F1-P]
 confidence:
