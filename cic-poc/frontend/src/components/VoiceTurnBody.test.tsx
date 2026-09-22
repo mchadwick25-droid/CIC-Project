@@ -128,4 +128,81 @@ describe('VoiceTurnBody - anchor-driven renderer (Stage 3c)', () => {
     const { container } = render(<VoiceTurnBody text={s0.citation.sentence} citations={[s0.citation]} />);
     expect(container.querySelectorAll('.story-mark')).toHaveLength(1);
   });
+
+  it('R10 (RULED c): a witness mark lands at the run\'s FIRST sentence, a story mark at its LAST', () => {
+    // Two runs of equal length, one witness and one story, so any
+    // placement difference in the rendered output can only come from the
+    // placement rule itself, not from run length.
+    const s0 = citation('Witness sentence one.', 'fix.witness.w', 'doctrinal_witness', 'Witness W');
+    const s1 = citation('Witness sentence two.', 'fix.witness.w', 'doctrinal_witness', 'Witness W');
+    const s2 = citation('Story sentence one.', 'fix.story.s', 'story', 'Story S');
+    const s3 = citation('Story sentence two.', 'fix.story.s', 'story', 'Story S');
+    const text = [s0, s1, s2, s3].map((s) => s.citation.sentence).join(' ');
+    const citations = [s0.citation, s1.citation, s2.citation, s3.citation];
+    const transparency: TransparencyPlan = {
+      world_key: 'fix',
+      anchors: [anchor('fix.witness.w', 'doctrinal_witness', 0, 1, false), anchor('fix.story.s', 'story', 2, 3, false)],
+      references: [s0.card, s2.card],
+      unverified_claims: { count: 0, sentence_indexes: [] },
+    };
+
+    const { container } = render(<VoiceTurnBody text={text} citations={citations} transparency={transparency} />);
+
+    const spans = Array.from(container.querySelectorAll('.turn__body > div > span'));
+    // The witness mark sits in the FIRST segment's span (run_start_sentence
+    // = 0), not the second - even though the run doesn't end until index 1.
+    expect(spans[0].querySelector('.witness-mark')).not.toBeNull();
+    expect(spans[1].querySelector('.witness-mark')).toBeNull();
+    // The story mark sits in the LAST segment's span (run_end_sentence = 3).
+    expect(spans[2].querySelector('.story-mark')).toBeNull();
+    expect(spans[3].querySelector('.story-mark')).not.toBeNull();
+  });
+
+  it('R10 (RULED c): a repeat citation renders the same mark with the lighter .citation-mark--repeat class', () => {
+    const s0 = citation('First mention of the story.', 'fix.story.a', 'story', 'Story A');
+    const s1 = citation('Something else entirely.', 'fix.witness.b', 'doctrinal_witness', 'Witness B');
+    const s2 = citation('Second mention of the story.', 'fix.story.a', 'story', 'Story A');
+    const text = [s0, s1, s2].map((s) => s.citation.sentence).join(' ');
+    const citations = [s0.citation, s1.citation, s2.citation];
+    const transparency: TransparencyPlan = {
+      world_key: 'fix',
+      anchors: [
+        anchor('fix.story.a', 'story', 0, 0, false),
+        anchor('fix.witness.b', 'doctrinal_witness', 1, 1, false),
+        anchor('fix.story.a', 'story', 2, 2, true),
+      ],
+      references: [s0.card, s1.card],
+      unverified_claims: { count: 0, sentence_indexes: [] },
+    };
+
+    const { container } = render(<VoiceTurnBody text={text} citations={citations} transparency={transparency} />);
+
+    const storyMarks = container.querySelectorAll('.story-mark');
+    expect(storyMarks).toHaveLength(2);
+    expect(storyMarks[0].classList.contains('citation-mark--repeat')).toBe(false);
+    expect(storyMarks[1].classList.contains('citation-mark--repeat')).toBe(true);
+  });
+
+  it('R9 (RULED a): Contested or Inferential-Thin formation_confidence renders the hollow .citation-mark--contested class, a solid claim does not', () => {
+    const s0 = citation('A well-attested claim.', 'fix.story.solid', 'story', 'Solid Story');
+    const s1 = citation('A contested claim.', 'fix.story.thin', 'story', 'Thin Story');
+    const text = [s0, s1].map((s) => s.citation.sentence).join(' ');
+    const citations = [s0.citation, s1.citation];
+    const transparency: TransparencyPlan = {
+      world_key: 'fix',
+      anchors: [
+        { ...anchor('fix.story.solid', 'story', 0, 0, false), confidence: { formation_confidence: 'Widely Accepted' } },
+        { ...anchor('fix.story.thin', 'story', 1, 1, false), confidence: { formation_confidence: 'Contested' } },
+      ],
+      references: [s0.card, s1.card],
+      unverified_claims: { count: 0, sentence_indexes: [] },
+    };
+
+    const { container } = render(<VoiceTurnBody text={text} citations={citations} transparency={transparency} />);
+
+    const storyMarks = container.querySelectorAll('.story-mark');
+    expect(storyMarks).toHaveLength(2);
+    expect(storyMarks[0].classList.contains('citation-mark--contested')).toBe(false);
+    expect(storyMarks[1].classList.contains('citation-mark--contested')).toBe(true);
+  });
 });

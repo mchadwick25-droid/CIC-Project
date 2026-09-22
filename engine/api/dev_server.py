@@ -98,7 +98,7 @@ class _ReactiveFakeMessages:
             raise AssertionError(f"unexpected tool_choice {name!r}")
         return SimpleNamespace(content=[_FakeToolUse(name, response)], usage=_FAKE_USAGE)
 
-    def stream(self, *, model, max_tokens, system=None, messages):
+    def stream(self, *, model, max_tokens, system=None, messages, timeout=None):
         text = _last_user_text(messages).lower()
         reply = _MOCK_REPLY_WITH_FIGURE if "origen" in text else _MOCK_REPLY
         return _FakeStreamCtx([reply])

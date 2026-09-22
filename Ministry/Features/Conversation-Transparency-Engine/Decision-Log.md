@@ -594,3 +594,212 @@ family... Feeds R14") is fully built. R14 itself (Rulings-Pending.md) was
 already ruled CLOSED (Decision-Log.md Entry 3): an output-side check may
 never remove a sentence, only report - which this family, like every
 other in `output_check.py`, already does by construction.
+
+**Entry 28 — 2026-09-21.** R19 ruled: **extend fleet-wide, each world's
+own voice, folded into the standing build-cycle discipline, existing gap
+worlds retrofitted.** Mark's direct ruling, after two corrections to the
+question as first posed:
+
+1. R19's own title and body in Rulings-Pending.md were wrong. They named
+   this a "don't recommend outside help" guard clause. The real mechanism
+   (don's own `voice_craft.guard` text, and `observe_outside_help_guard`'s
+   docstring) is a prohibition on the Representative comparing or
+   minimizing a participant's disclosed distress against the world's own
+   historical suffering ("not the same weight as our martyrs") - it never
+   directs a Representative toward outside help or any language outside
+   its own world and period. The actual redirect stays Facilitator-only
+   per CLAUDE.md's Safety comes first section, untouched by this ruling
+   either way. Rulings-Pending.md's R19 entry renamed and reworded to
+   match (commit `4f2881af`, branch `transparency-engine-r19-title-fix`).
+2. "Extend fleet-wide" does not mean identical text pasted into every
+   world - each world authors its own version in its own idiom, the same
+   Representative-voice care any `voice_craft.guard` edit requires. What's
+   decided once, fleet-wide, is that every world must have *some* honest
+   version of this protection - not what it says.
+
+**Scope of the ruling, three parts:**
+- **Retrofit now:** the 9 worlds Stage 0e's observation found missing it
+  - alx, cappadocian, desert, gallic, hal, ijc, pahc, syr, witt (don and
+    rzg already carry it). This is Representative-voice authoring, not a
+    mechanical edit - per Build-Plan.md's own escalation-category list,
+    still needs its own pass per world, not done in this entry.
+- **Standing build-cycle requirement, going forward:** every future
+  world's Representative-voice construction (Doc_07 / `voice_craft`)
+  must consider and resolve this, the same way it already resolves
+  readability and source-fidelity requirements - so the next worlds built
+  don't reopen the same gap by omission.
+- **Enforcement mechanism, deliberately left open:** `observe_outside_help_guard`
+  today is a keyword scan tuned to don's own specific phrasing
+  ("measured against" / "weigh" / "not the same weight" / "weighing") -
+  reliable for confirming don's exemplar, not reliable as a pass/fail gate
+  once 15+ worlds each express the same principle in their own genuinely
+  different words (a real risk of false "missing" reports on a world that
+  handled it correctly in different language). Promoting it to an
+  automated gate is further engineering, not ruled on here. Until then,
+  fold it into the build-cycle discipline as a required manual
+  check-off, not an automated block.
+
+**Entry 29 — 2026-09-21.** Ten more rulings landed in the same session,
+one at a time per CLAUDE.md's own ground rules (real options, a
+recommendation, never a flat conclusion). Rulings-Pending.md's own Status
+lines updated in the same edit as this entry. All ten followed the
+recommendation already on record in Rulings-Pending.md unless noted.
+
+- **R5** (Table-mode interrupt affordance) ruled **(a)** - a mid-round
+  participant message simply closes the round and proceeds; no dedicated
+  Interrupt button built.
+- **R6** (register-drift scope and gating) ruled **(a) and (iii)** - only
+  the source's own original words stay exempt from register screening,
+  our own retellings are screened; the Stage 2c ceiling proposal
+  (`story.tellable_as` longest sentence <=30 / median <=25 words;
+  `term.quick_meaning` longest sentence <=20 / median <=16 words) goes
+  advisory for one build cycle, then promotes to a gate.
+- **R7** (fixing the fleet's already-drifted `tellable_as` text) ruled
+  **(a)** - a capped-round Sonnet revision pass per affected world (5
+  flagged by R6's own ceilings: cappadocian, don, gallic, rzg, witt).
+  Cleared by R6 landing in the same session; not yet executed.
+- **R8** (CLAUDE.md naming a confidence level, "Not Attested," the code
+  doesn't have) ruled **(c)** - CLAUDE.md gets corrected to describe "Not
+  Attested" as an absent-claim marker (`honest_limit`/`absent_detail`),
+  not a sixth `formation_confidence` value. CLAUDE.md itself not yet
+  edited.
+- **R9** (a distinct mark for contested/thin-evidence claims) ruled
+  **(a)** - proceed with the design already agreed before this sequencing
+  gate: a quiet hollow-glyph variant of the existing citation mark, no
+  new color, no new verb. Unblocked by the Stage 1 measurement (Entry 13)
+  plus R16/R17, both ruled in this same entry.
+- **R10** (citation mark placement) ruled **(c)** - first sentence for a
+  witness quote, end-of-run for a story; a repeated re-citation gets the
+  lighter "ibid" glyph either way. Unblocks Stage 3c's renderer
+  switch-on; label copy is still a separate remaining step before that
+  flag flips on.
+- **R12** (what "library accessed live" means) ruled **live resolution
+  only** - citations and evidence resolve live against the vendored
+  records, as already built; no live full-text architecture. Fixes an
+  overclaiming topology sentence, no engineering change.
+- **R13** (should the holdings "unused source" check block a world from
+  shipping) ruled **report-only for one build cycle, then promoted to
+  blocking for new worlds** - lets the real distribution surface before
+  the bar is set.
+- **R16** (fleet-wide "draft" status and confidence display) ruled **(c)**
+  - confidence display draws only from the confidence field, never
+  `status` (ruled now, unblocking); per-world status-promotion passes
+  happen as each world comes up for its next real touch, not as a
+  dedicated fleet-wide project.
+- **R17** (hard budget on transparency elements per screen) ruled
+  **approved as a house rule** - a small capped number of inline marks
+  per turn (scaling gently with sentence count), one collapsed references
+  line instead of a scattered list, no new mark types beyond R9's
+  hollow-glyph variant, the unverified-claims count never rendered to a
+  participant - enforced by an automated test, plus Mark's own
+  read-through as a seeker with no background before Stage 6 ships.
+- **R18** (onboarding text overclaiming the honesty check) ruled **(a)** -
+  reword now to describe what the mechanism actually does (word-overlap
+  checking against the source record, not truth-verification); doesn't
+  wait on Stage 1's measurement or on Stages 6-9. Copy not yet edited.
+
+**Net effect:** every ruling in Rulings-Pending.md that was PENDING or
+sequencing-gated at the start of this session is now RULED. Remaining
+CLOSED items (R1-R4, R14, R15) and already-RULED items (R11, R19) are
+unaffected. What's left is execution, not decision: R6's ceilings need
+promoting from proposal to enforced numbers after one cycle; R7's revision
+pass, R8's and R18's copy edits, R9's hollow-glyph mark, and R10's citation
+placement fix are none of them built yet; R13's holdings check needs its
+report-only cycle; R16 and R17 unblock Stage 6 scoping, which has not
+started. Stages 6-9 remain the largest actual remaining work in
+Build-Plan.md - now unblocked by ruling, not yet built.
+
+**Entry 30 — 2026-09-21.** R13's report-only cycle started: fleet-wide
+holdings baseline captured, `engine.m9.holdings` run for all 11 built
+worlds (alx, cappadocian, desert, don, gallic, hal, ijc, pahc, rzg, syr,
+witt - `fix` excluded, permanently out of scope) and saved as
+`engine/m9/reports/holdings-cycle-1-2026-09-21.json`. No code change -
+`holdings_for`/`report` (engine/m9/holdings.py) and the `engine.m9.cli
+holdings <world>` command were already built exactly report-only, per
+Stage 2d's own bar; this entry is the cycle's own dated start, the thing
+R13's ruling itself waits on before a blocking bar can be set for new
+worlds.
+
+Same 138 vendored files fleet-wide (the shared corpus), classified
+differently per world's own scope. The number R13's ruling actually
+turns on - in-scope but not drawn on ("not yet assessed" + "in scope,
+unread") - varies widely: witt (3) and rzg (11) sit lowest, gallic (77)
+and alx (76) highest. gallic's 19 "not yet assessed" matches Build-Plan.md
+Stage 2d's own Done-bar citation ("19 unopened volumes") exactly, cross-
+confirming the count.
+
+| World | Unused, in scope | Drawn on | Total in scope |
+|---|---|---|---|
+| witt | 3 | 10 | 13 |
+| rzg | 11 | 8 | 19 |
+| pahc | 14 | 13 | 27 |
+| hal | 62 | 10 | 72 |
+| ijc | 61 | 19 | 80 |
+| don | 62 | 19 | 81 |
+| cappadocian | 61 | 21 | 82 |
+| desert | 69 | 15 | 84 |
+| gallic | 77 | 9 | 86 |
+| syr | 74 | 16 | 90 |
+| alx | 76 | 13 | 89 |
+
+**Known gap, carried forward, not this entry's to fix:** the same
+COVERAGE/REGIONS/AUTHORS relocation Stage 2d's own docstring already
+names (Decision-Log.md Entry 20) - `holdings.py` reuses
+`engine.m1.cross_world`'s existing tables as-is, so this baseline
+inherits that gap rather than resolving it.
+
+**What "one cycle" means in practice, not ruled here, only noted:** the
+natural marker is the next world admitted to the fleet after this date -
+that world's own holdings check is the first candidate for R13's
+blocking promotion. Nothing in the standing gate set enforces this yet;
+promoting it from report-only to blocking is separate, later work this
+entry does not do.
+
+**Entry 31 — 2026-09-21.** Correcting Entry 28's own retrofit list before
+starting R19's actual work: `observe_outside_help_guard`
+(`engine/m1/cross_world.py`) had a real false positive, found and fixed
+while beginning the retrofit, not a hypothetical one. The scan matched
+the bare substring `"weigh"`, which silently matched inside rzg's own
+guard text - "It does not give him the felt **weigh**t of either" -
+honest-thinness prose about doctrine, with no distress-comparison content
+of any kind. Read directly
+(`records/rzg/voice_craft/rzg.craft.theophilus-voice.md`): rzg's guard
+never mentions martyrs, weighing, or comparison at all. Fixed with a
+word-boundary regex (`\bweigh(?:s|ed|ing)?\b`), which cannot match inside
+"weight"/"weighted"/"outweigh" while still catching "weigh"/"weighs"/
+"weighed"/"weighing" as their own words. Three new tests pin this
+(`engine/m1/tests/test_cross_world.py`): the false positive itself, a
+real match still firing, and the real fleet's corrected state.
+
+**The corrected finding: don is the only one of the 11 built worlds whose
+guard actually carries this language.** Entry 28's "9 worlds" retrofit
+list (alx, cappadocian, desert, gallic, hal, ijc, pahc, syr, witt) is
+short one world - **rzg needs the retrofit too**, same as the other nine.
+R19's own ruling (extend fleet-wide, each world's own voice) is
+unaffected by this correction; only the list of which worlds still need
+it changes, from 9 to 10. Rulings-Pending.md's R19 entry updated in the
+same edit to carry the corrected list.
+
+**Entry 32 — 2026-09-21.** Tech-Readiness Package 2 (Operations,
+`Ministry/Operations/Audits/Tech-Readiness-2026-09/P2-Operations/Report.md`)
+inventoried the full divergence between `main` (`c9b09ea1`) and `live`
+(`e693b048`) ahead of the next promotion: this workstream's own Stages
+0a–4b above (Entries 4–27) are on `main` only, `live` predates all of them
+(`live`'s own copy of this Decision-Log had 3 entries at that report's own
+time of writing). `live` separately carries atlas-sync tooling and the
+who-is-at-the-table card redesign (PR #346) that never made it back onto
+`main`. That Operations report's own finding, for this workstream's record:
+a plain `main` → `live` promotion would risk the merge resolving
+`engine/m2/`, `engine/m6/`, and `cic-website/` toward `main`'s side, silently
+reverting the card redesign and atlas tooling in production, since `main`
+doesn't have either. The report's proposed fix is a reconciliation PR
+(bringing `live`'s own atlas/card work onto `main` first) before the real
+promotion — drafted, not performed, and outside both this workstream's and
+that Operations package's own hard-rule scope, so it is handed to Mark to
+assign rather than claimed by either. No file in this workstream's own
+directories beyond this one entry was touched by that report. (Numbered 32,
+not 28 as that report's own branch first drafted it, then 30 after its
+first merge — this workstream landed Entries 28–31 above concurrently with
+that report's own work across two separate merges; renumbered each time
+per this file's own "never renumber a past entry" rule, which binds the
+later arrival, not the entries already on `main`.)

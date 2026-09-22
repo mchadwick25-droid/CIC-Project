@@ -36,9 +36,10 @@ stays fully memoryless; no replacement mechanism of any kind is built.
 frequency tuning beyond what already exists.
 
 ### R5 — A real "interrupt the round" affordance in Table mode
-**Status:** PENDING — this is general Table-mode UX (a participant leaving
-a multi-Representative round mid-way), not a safety-mechanism question;
-unaffected by the scope correction.
+**Status:** RULED (a) — 2026-09-21. See Decision-Log.md Entry 29.
+This is general Table-mode UX (a participant leaving a multi-Representative
+round mid-way), not a safety-mechanism question; unaffected by the scope
+correction.
 (a) A participant message sent mid-round simply closes that round
 server-side and the new message proceeds — no new UI control needed.
 (b) A dedicated, explicit Interrupt button. (c) Both.
@@ -46,7 +47,7 @@ server-side and the new message proceeds — no new UI control needed.
 new one.
 
 ### R6 — Register-drift scope, and whether numbers ever gate a build
-**Status:** PENDING
+**Status:** RULED (a) and (iii) — 2026-09-21. See Decision-Log.md Entry 29.
 Scope: (a) only the source's own original words are exempt from register
 screening; our own retellings are screened. (b) all story/quote fields
 stay exempt. (c) exempt everything except a `tellable_as` length/shape
@@ -93,14 +94,13 @@ OBSERVATION until R6 actually rules, per this stage's own "Gate promotion
 ... only after R6" bar.
 
 ### R7 — Fixing the fleet's already-drifted `tellable_as` text
-**Status:** PENDING
+**Status:** RULED (a) — 2026-09-21. See Decision-Log.md Entry 29. Was
+blocked on R6, now cleared by R6's own ruling in the same session.
 (a) A Sonnet thread does a capped-round pass per affected world. (b)
 Fixed by hand. (c) Full regeneration.
-**Recommend (a)** — matches how every other fleet-wide readability pass
-this project has run has actually gone. Blocked on R6.
 
 ### R8 — CLAUDE.md names a confidence level ("Not Attested") the code doesn't have
-**Status:** PENDING
+**Status:** RULED (c) — 2026-09-21. See Decision-Log.md Entry 29.
 (a) Add a sixth confidence enum value to match. (b) Amend CLAUDE.md down
 to the code's real five. (c) Amend CLAUDE.md to say what's actually true:
 "Not Attested" describes an absent claim (already modeled elsewhere as an
@@ -110,15 +110,14 @@ that exists.
 different kind of thing, and (a)/(b) both paper over that.
 
 ### R9 — A distinct mark for contested or thin-evidence claims
-**Status:** PENDING — sequencing gate, not a real decision yet
-Comes back for a real ruling only after the Stage 1 measurement is in
-front of Mark and R16/R17 are settled — the display design itself is
-already agreed, this is purely a sequencing gate.
-**Provisional** recommendation once unblocked: a quiet, non-alarming
-variant of the existing mark — not a new color, not a new verb.
+**Status:** RULED (a) — 2026-09-21. See Decision-Log.md Entry 29. Was a
+sequencing gate on the Stage 1 measurement plus R16/R17, all now cleared;
+proceeding with the design already agreed: a quiet, non-alarming hollow
+glyph — not a new color, not a new verb.
 
 ### R10 — Where a story's citation mark lands: first sentence or end of the telling
-**Status:** PENDING
+**Status:** RULED (c) — 2026-09-21. See Decision-Log.md Entry 29. Unblocks
+Stage 3c's renderer switch-on (label copy is still a separate step).
 (a) End of the telling, as built today. (b) First sentence, uniformly.
 (c) First sentence for a witness quote, end-of-run for a story. A
 repeated re-citation gets the lighter "ibid" glyph under any of the
@@ -152,7 +151,8 @@ itself make the checker enforce it — that is further engineering, not
 this ruling's own scope.
 
 ### R12 — What "library accessed live" should actually mean
-**Status:** PENDING
+**Status:** RULED (live resolution only) — 2026-09-21. See Decision-Log.md
+Entry 29.
 Live full-text access to the vendored sources during a conversation (a
 real architectural change), or live resolution of citations/evidence
 only, as already built.
@@ -160,7 +160,10 @@ only, as already built.
 currently overclaims this, no engineering change needed.
 
 ### R13 — Should the new "unused source" holdings check block a world from shipping?
-**Status:** PENDING
+**Status:** RULED (report-only for one cycle, then promote) — 2026-09-21.
+See Decision-Log.md Entry 29. **Cycle 1 started 2026-09-21** — fleet-wide
+baseline captured, see Decision-Log.md Entry 30. Promotion to blocking is
+keyed to the next world admitted after this date; not yet built.
 Report-only for one build cycle, then promoted to blocking for new
 worlds — or blocking starting day one.
 **Recommend report-only for one cycle first** — lets Mark see the real
@@ -175,7 +178,7 @@ mechanism reports only, exactly as it does today. Not revisited later.
 by disclosure type.
 
 ### R16 — Every record fleet-wide is still marked "draft" — what does that mean for confidence display?
-**Status:** PENDING
+**Status:** RULED (c) — 2026-09-21. See Decision-Log.md Entry 29.
 (a) Define what "ready" actually means and run a per-world promotion pass
 keyed to review rounds already on record. (b) Rule that `status` is pure
 workflow bookkeeping and confidence display should draw only from the
@@ -186,7 +189,8 @@ its next real touch.
 once that world has actually been through its promotion pass.
 
 ### R17 — A hard budget on how many new transparency elements can stack on one screen
-**Status:** PENDING
+**Status:** RULED (approved as house rule) — 2026-09-21. See
+Decision-Log.md Entry 29.
 Proposal on the table: at most a small, capped number of inline marks per
 turn (scaling gently with sentence count), one collapsed references line
 instead of a scattered list, no new mark types beyond the one
@@ -197,7 +201,7 @@ test so no future change can silently stack past it — plus Mark's own
 read-through as a seeker with no background before Stage 6 ever ships.
 
 ### R18 — The onboarding text overclaims what the honesty check actually does
-**Status:** PENDING
+**Status:** RULED (a) — 2026-09-21. See Decision-Log.md Entry 29.
 Today's line tells a participant every claim is "checked against the
 record it came from" — true only in the sense of word-overlap, not
 truth-verification. (a) Reword now to describe what the mechanism
@@ -207,24 +211,43 @@ affordance that would make the current wording accurate.
 right, independent of anything else in this workstream, and doesn't need
 to wait on Stage 1's measurement to fix.
 
-### R19 — Should every world's own voice carry the same "don't recommend outside help" guard clause?
-**Status:** PENDING
-Once the observation pass (Stage 0e) names which worlds are missing don's
-own categorical clause: extend it fleet-wide as one packaged decision, or
-word it per world individually. Note: this is a Representative-voice
-authoring question (does the world's own voice defer to outside help
-appropriately), not part of the closed Facilitator-mechanism scope above.
-**Recommend extending fleet-wide** once the observation names the gap —
-this is exactly the kind of cross-world consistency question CLAUDE.md
-already asks to be decided once, not world by world.
+### R19 — Should every world's own voice carry the same distress-minimization guard clause?
+**Status:** RULED — 2026-09-21. See Decision-Log.md Entry 28.
+Note: this is a Representative-voice authoring question — the guard is a
+prohibition on the Representative comparing or minimizing a participant's
+own disclosed distress against the world's own historical suffering ("not
+the same weight as our martyrs"), staying entirely in the world's own
+voice and period. It does not direct a Representative toward outside help
+or any language outside its world/time — that stays Facilitator-only,
+governed outside any world's own voice, per Safety comes first
+(CLAUDE.md). This ruling is not part of the closed Facilitator-mechanism
+scope above, and does not touch it. (Earlier drafts of this entry called
+it a "don't recommend outside help" guard clause — that was the wrong
+name for what the mechanism actually does and has been corrected here.)
+
+**Ruled: extend fleet-wide, each world's own voice, folded into the
+standing build-cycle discipline, existing gap worlds retrofitted.** Not
+identical text — every world resolves the question in its own idiom; what's
+decided once is that every world must have *some* honest version of it.
+Three-part scope, enforcement mechanism, and open engineering question
+(the keyword-scan check's own reliability across worlds with genuinely
+different wording) — full detail in Decision-Log.md Entry 28. Retrofit of
+the **10** gap worlds (alx, cappadocian, desert, gallic, hal, ijc, pahc,
+rzg, syr, witt — corrected from 9, see Decision-Log.md Entry 31) is still
+outstanding Representative-voice authoring work, not done by this ruling
+itself.
 
 **Stage 0e observation pass (2026-09-21), `engine.m1.cross_world`'s new
-`observe_outside_help_guard` (report-only, keyword scan, not a semantic
+`observe_outside_help_guard`** (report-only, keyword scan, not a semantic
 judgment — see its own docstring): of the 11 built worlds, only **don**
-and **rzg** carry don-style distress-comparison language
-("measured against" / "weigh" / "not the same weight" / "weighing") in
-`voice_craft.guard`. The other 9 do not: **alx, cappadocian, desert,
-gallic, hal, ijc, pahc, syr, witt**. This is the concrete list R19's
-ruling needs — still unruled; editing any `voice_craft.guard` field is a
-Representative-voice change (`Build-Plan.md`'s own escalation category),
-so no world's guard text is touched here.
+carries don-style distress-comparison language ("measured against" /
+whole-word "weigh"/"weighs"/"weighed"/"weighing" / "not the same weight")
+in `voice_craft.guard`. The other 10 do not: **alx, cappadocian, desert,
+gallic, hal, ijc, pahc, rzg, syr, witt**. This is the concrete list R19's
+ruling needs. (An earlier version of this scan matched "weigh" as a bare
+substring, which false-positived on rzg's own "felt weight" — a
+doctrine-thinness phrase, not a distress comparison — and wrongly counted
+rzg as already covered. Fixed word-boundary, per Decision-Log.md Entry
+31; rzg moved from "carries" to the gap list here.) Editing any
+`voice_craft.guard` field is a Representative-voice change (`Build-Plan.md`'s
+own escalation category), so no world's guard text is touched here.
