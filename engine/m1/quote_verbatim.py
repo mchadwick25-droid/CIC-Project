@@ -8,16 +8,21 @@ else - `engine.prose.content_words`, `grounding_ratio`,
 `output_check`'s guard checks - is bag-of-words overlap, no ordering, no
 substring test).
 
-RULED (Mark, 2026-09-22, P3 relaunch thread): editorial-tolerant, no
-fuzzy score, no threshold. A quote passes only when every difference
-between its `text` and the vendored source is one of the five classes in
-ALLOWED_DIFFERENCE_CLASSES below. A word substitution, an omission with
-no ellipsis, or an addition outside square brackets fails - always,
-regardless of how small. This is a membership test against a fixed,
-published grammar, not a similarity score: two texts that are 99% alike
-by any fuzzy metric still fail here if the 1% is a substituted word,
-because that 1% is exactly the shape of fabrication CLAUDE.md's "Source
-fidelity" section exists to catch.
+RULED (Mark, 2026-09-22, P3 relaunch thread, two rulings): editorial-
+tolerant, no fuzzy score, no threshold. A quote passes only when every
+difference between its `text` and the vendored source is one of the six
+classes in ALLOWED_DIFFERENCE_CLASSES below - a sixth, `verse_number`,
+added by Mark's second ruling the same day after the first fleet sweep
+surfaced it as a real, distinct pattern (inline ANF/NPNF verse/section
+numbering, not a fidelity defect). A seventh candidate the same sweep
+found - a nested quotation mark rendered as a different mark - was ruled
+NOT allowed: that stays a failure, fixed in the record, not accommodated
+here. A word substitution, an omission with no ellipsis, or an addition
+outside square brackets fails - always, regardless of how small. This is
+a membership test against a fixed, published grammar, not a similarity
+score: two texts that are 99% alike by any fuzzy metric still fail here
+if the 1% is a substituted word, because that 1% is exactly the shape of
+fabrication CLAUDE.md's "Source fidelity" section exists to catch.
 
 REPORT-ONLY, not yet in gates.GATES (this PR). `gate_quote_verbatim`
 below is written in the exact `gate_*(records, fleet, registry) -> list[str]`
@@ -60,7 +65,14 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
     "punctuation": "A quote mark, apostrophe, or dash is a different Unicode form of the same mark (curly vs. straight, hyphen vs. en/em dash) - never a different mark entirely (a colon read as a dash still fails).",
     "ellipsis": "`...` or `…` in the record's text marks a real elision - the words on either side must still match, in order; nothing is required of what's between them.",
     "bracket": "Text inside `[...]` in the record's text is a labeled editorial insertion - it is never required to appear in the source, bracketed or not.",
+    "verse_number": "An inline Arabic verse or section number in the source edition, standing at a sentence boundary, may be absent from the quote's text - the words on either side must still match, in order. A bare 1-4 digit number followed by a period only; never a wider omission.",
 }
+
+# RULED (Mark, 2026-09-22, second ruling): class six (verse_number) above
+# is allowed; class seven - a nested quotation mark rendered as a
+# different mark (e.g. a straight double quote where the source has a
+# curly single quote marking an inner quotation) - is NOT. That stays a
+# failure and gets fixed in the record, not accommodated here.
 
 # DISALLOWED, stated explicitly so a report finding can name which rule a
 # quote actually broke: a substituted word, a silent omission (no
@@ -78,6 +90,12 @@ _PUNCT_CLASSES = {c: _QUOTE_VARIANTS for c in _QUOTE_VARIANTS} | {c: _APOS_VARIA
 _ELLIPSIS_RE = re.compile(r"\s*(?:\.\.\.|…)\s*")
 _BRACKET_RE = re.compile(r"\[[^\[\]]*\]")
 _WHITESPACE_SPLIT_RE = re.compile(r"(\s+)")
+# An inline verse/section number the source may carry at a word-boundary
+# gap in the quote's own text (e.g. "...day. 2. First..." where the
+# quote just has "...day. First..."). Bare digits + period only - never
+# a wider skip, which is exactly the "no fuzzy score" line the ruling
+# draws.
+_VERSE_NUMBER_GAP = r"(?:\d{1,4}\.\s+)?"
 _NOTE_BLOCK_RE = re.compile(r"<note\b[^>]*>.*?</note>", re.IGNORECASE | re.DOTALL)
 _TAG_RE = re.compile(r"<[^>]+>")
 # A cited path can be hard-wrapped mid-filename in a record's free-text
@@ -104,13 +122,18 @@ def _char_class(ch: str) -> str:
     return "[" + "".join(re.escape(c) for c in variants) + "]"
 
 
-def _literal_to_pattern(literal: str, *, fold_case: bool, class_punct: bool, flex_whitespace: bool) -> str:
+def _literal_to_pattern(
+    literal: str, *, fold_case: bool, class_punct: bool, flex_whitespace: bool, allow_verse_number: bool
+) -> str:
     pieces = []
     for tok in _WHITESPACE_SPLIT_RE.split(literal):
         if not tok:
             continue
         if tok.isspace():
-            pieces.append(r"\s+" if flex_whitespace else re.escape(tok))
+            if flex_whitespace:
+                pieces.append(r"\s+" + (_VERSE_NUMBER_GAP if allow_verse_number else ""))
+            else:
+                pieces.append(re.escape(tok))
         elif class_punct:
             pieces.append("".join(_char_class(c) for c in tok))
         else:
@@ -119,19 +142,21 @@ def _literal_to_pattern(literal: str, *, fold_case: bool, class_punct: bool, fle
 
 
 def _segment_pattern(
-    segment: str, *, fold_case: bool = True, class_punct: bool = True, flex_whitespace: bool = True
+    segment: str,
+    *,
+    fold_case: bool = True,
+    class_punct: bool = True,
+    flex_whitespace: bool = True,
+    allow_verse_number: bool = True,
 ) -> re.Pattern:
+    kwargs = dict(fold_case=fold_case, class_punct=class_punct, flex_whitespace=flex_whitespace, allow_verse_number=allow_verse_number)
     parts = []
     last = 0
     for m in _BRACKET_RE.finditer(segment):
-        parts.append(
-            _literal_to_pattern(segment[last : m.start()], fold_case=fold_case, class_punct=class_punct, flex_whitespace=flex_whitespace)
-        )
+        parts.append(_literal_to_pattern(segment[last : m.start()], **kwargs))
         parts.append(r"[\s\S]*?")  # a bracketed span may match anything, including nothing
         last = m.end()
-    parts.append(
-        _literal_to_pattern(segment[last:], fold_case=fold_case, class_punct=class_punct, flex_whitespace=flex_whitespace)
-    )
+    parts.append(_literal_to_pattern(segment[last:], **kwargs))
     flags = re.DOTALL | (re.IGNORECASE if fold_case else 0)
     return re.compile("".join(parts), flags)
 
@@ -155,13 +180,19 @@ class VerifyResult:
 
 def _classify_match(segment: str, source_full: str, start: int) -> set[str]:
     """The full-tolerance pattern already matched `segment` at `start` -
-    this asks which of the three character-level tolerances (case,
-    punctuation, whitespace) that match actually needed, by re-testing
-    stricter single-axis-off variants anchored at the same position."""
+    this asks which of the four character/gap-level tolerances (case,
+    punctuation, whitespace, verse_number) that match actually needed, by
+    re-testing stricter single-axis-off variants anchored at the same
+    position."""
     classes: set[str] = set()
-    axes = [("case", "fold_case"), ("punctuation", "class_punct"), ("whitespace", "flex_whitespace")]
+    axes = [
+        ("case", "fold_case"),
+        ("punctuation", "class_punct"),
+        ("whitespace", "flex_whitespace"),
+        ("verse_number", "allow_verse_number"),
+    ]
     for name, kwarg in axes:
-        strict_kwargs = {"fold_case": True, "class_punct": True, "flex_whitespace": True, kwarg: False}
+        strict_kwargs = {"fold_case": True, "class_punct": True, "flex_whitespace": True, "allow_verse_number": True, kwarg: False}
         strict_pattern = _segment_pattern(segment, **strict_kwargs)
         if not strict_pattern.match(source_full, start):
             classes.add(name)
