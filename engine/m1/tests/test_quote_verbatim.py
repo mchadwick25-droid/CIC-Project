@@ -65,6 +65,29 @@ def test_bracketed_span_that_is_also_literally_in_source_still_passes():
     assert r.verified is True
 
 
+def test_inline_verse_number_at_a_sentence_boundary_passes():
+    """Mark's second ruling (2026-09-22): class six. A real shape, seen
+    across six ANF/NPNF-sourced quotes: 'thus give thanks. 2. First,'
+    in the source, 'thus give thanks. First,' in the record."""
+    r = _verify(
+        "Now concerning the Thanksgiving, thus give thanks. First, concerning the cup",
+        "1. Now concerning the Thanksgiving, thus give thanks. 2. First, concerning the cup: We thank thee",
+    )
+    assert r.verified is True
+    assert "verse_number" in r.classes_used
+
+
+def test_verse_number_gap_does_not_license_a_wider_skip():
+    """The allowance is a bare 1-4 digit number plus a period - not an
+    arbitrary gap. Real prose standing where a verse number would still
+    fails, same as any other unmarked omission."""
+    r = _verify(
+        "the fox ran and the dog slept",
+        "the fox ran quickly through the tall grass and the dog slept",
+    )
+    assert r.verified is False
+
+
 # --- disallowed: each must fail ---------------------------------------
 
 
@@ -138,6 +161,35 @@ def test_resolve_and_verify_a_real_pahc_record():
     rec = parse_record_file(record_path)
     result = verify_quote_record(rec, {rec["id"]: rec}, {})
     assert result.verified is True, result.nearest_context
+
+
+def test_verse_number_ruling_fixes_a_real_previously_failing_record():
+    """pahc.quote.first-concerning-the-cup failed the first fleet sweep
+    (2026-09-22) on exactly the inline-verse-number pattern the second
+    ruling was made to cover ('thus give thanks. 2. First,' in
+    anf07's Didache text). Must pass now."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("pahc")
+    fleet = load_fleet_records()
+    rec = records["pahc.quote.first-concerning-the-cup"]
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is True, (result.failed_segment, result.nearest_context)
+    assert "verse_number" in result.classes_used
+
+
+def test_real_unmarked_omission_still_fails_after_the_verse_number_ruling():
+    """pahc.quote.polycrates-to-victor silently drops ~15 words of real
+    source text ('when He cometh with glory from heaven and shall raise
+    again all the saints') with no ellipsis - a genuine defect, not a
+    verse-number gap. The new tolerance must not paper over it."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("pahc")
+    fleet = load_fleet_records()
+    rec = records["pahc.quote.polycrates-to-victor"]
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is False
 
 
 def test_texts_dir_points_at_the_real_vendored_library():

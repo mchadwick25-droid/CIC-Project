@@ -4,7 +4,8 @@
     "case": "A letter's capitalization differs from the source (e.g. a quote opening mid-sentence, capitalized to open a sentence here).",
     "punctuation": "A quote mark, apostrophe, or dash is a different Unicode form of the same mark (curly vs. straight, hyphen vs. en/em dash) - never a different mark entirely (a colon read as a dash still fails).",
     "ellipsis": "`...` or `…` in the record's text marks a real elision - the words on either side must still match, in order; nothing is required of what's between them.",
-    "bracket": "Text inside `[...]` in the record's text is a labeled editorial insertion - it is never required to appear in the source, bracketed or not."
+    "bracket": "Text inside `[...]` in the record's text is a labeled editorial insertion - it is never required to appear in the source, bracketed or not.",
+    "verse_number": "An inline Arabic verse or section number in the source edition, standing at a sentence boundary, may be absent from the quote's text - the words on either side must still match, in order. A bare 1-4 digit number followed by a period only; never a wider omission."
   },
   "audited_worlds": [
     "pahc",
@@ -29,15 +30,16 @@
     "pahc": {
       "world": "pahc",
       "total_quotes": 25,
-      "verified_count": 14,
-      "failed_count": 11,
+      "verified_count": 16,
+      "failed_count": 9,
       "exact_no_diff_count": 4,
       "class_counts": {
-        "whitespace": 10,
+        "whitespace": 12,
         "case": 0,
         "punctuation": 0,
         "ellipsis": 2,
-        "bracket": 3
+        "bracket": 3,
+        "verse_number": 2
       },
       "failures": [
         {
@@ -45,13 +47,6 @@
           "source_file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
           "failed_segment": "But for greater exactness I add this also, writing of necessity; that there are other books besides these not indeed included in the Canon, but appointed by the Fathers to be read by those who newly join us, and who wish for instruction in the word of godliness. The Wisdom of Solomon, and the Wisdom of Sirach, and Esther, and Judith, and Tobit, and that which is called the Teaching of the Apostles, and the Shepherd. But the former, my brethren, are included in the Canon, the latter being [merely] read.",
           "nearest_context": "Classics Ethereal Library\n    BR60\n    Christianity\n    Early",
-          "recorded_verification_state": "verified-direct"
-        },
-        {
-          "id": "pahc.quote.first-concerning-the-cup",
-          "source_file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
-          "failed_segment": "Now concerning the Thanksgiving (Eucharist), thus give thanks. First, concerning the cup: We thank thee, our Father, for the holy vine of David Thy servant, which Thou madest known to us through Jesus Thy Servant; to Thee be the glory for ever.",
-          "nearest_context": " Tübingen, 1881) and Lightfoot (Epistles of St. Ignatius, Londo",
           "recorded_verification_state": "verified-direct"
         },
         {
@@ -109,37 +104,24 @@
           "failed_segment": "I therefore considered it the more necessary to examine, even with the use of torture, two female slaves who were called deaconesses (ministrae), in order to ascertain the truth. But I found nothing except a superstition depraved and immoderate; and therefore, postponing further inquiry, I have turned to thee for advice.",
           "nearest_context": " mcgiffert\n    Grand Rapids, MI: Christian Classics Ethereal ",
           "recorded_verification_state": "verified-direct"
-        },
-        {
-          "id": "pahc.quote.two-ways-one-of-life-and-one-of-death",
-          "source_file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
-          "failed_segment": "There are two ways, one of life and one of death; but a great difference between the two ways. The way of life, then, is this: First, thou shalt love God who made thee; second, thy neighbour as thyself; and all things whatsoever thou wouldst should not occur to thee, thou also to another do not do.",
-          "nearest_context": "fourth \ncentury Nicene Creed. These volumes are noteworthy for ",
-          "recorded_verification_state": "verified-direct"
         }
       ]
     },
     "syr": {
       "world": "syr",
       "total_quotes": 34,
-      "verified_count": 28,
-      "failed_count": 6,
+      "verified_count": 29,
+      "failed_count": 5,
       "exact_no_diff_count": 8,
       "class_counts": {
-        "whitespace": 19,
+        "whitespace": 20,
         "case": 1,
         "punctuation": 3,
         "ellipsis": 0,
-        "bracket": 3
+        "bracket": 3,
+        "verse_number": 1
       },
       "failures": [
-        {
-          "id": "syr.quote.a-man-called-wise-amongst-the-jews",
-          "source_file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
-          "failed_segment": "It happened one day, that a man, who is called wise amongst the Jews, questioned me, saying:—Jesus, Who is called your Teacher, wrote for you, that If there shall be in you faith like one grain of mustard, ye shall say to this mountain, Remove, and it shall remove from before you; and (ye shall say) even, Be lifted up and fall into the sea, and it shall obey you. So apparently there is in all your people not one wise man, whose prayer is heard, and who asks of God that your persecutors should cease from you. For clearly it is written for you in that passage, There is nothing which ye shall not be able to do. And when I saw that he was blaspheming and speaking much against the Way (the Christian religion), my mind was disturbed",
-          "nearest_context": "o him.  But it is thus\nwritten:—Joshua, the son of Nun, was the",
-          "recorded_verification_state": "verified-direct"
-        },
         {
           "id": "syr.quote.as-a-stonecutter-i-have-brought-stones",
           "source_file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
@@ -188,7 +170,8 @@
         "case": 2,
         "punctuation": 1,
         "ellipsis": 5,
-        "bracket": 9
+        "bracket": 9,
+        "verse_number": 0
       },
       "failures": [
         {
@@ -358,7 +341,8 @@
         "case": 0,
         "punctuation": 3,
         "ellipsis": 0,
-        "bracket": 0
+        "bracket": 0,
+        "verse_number": 0
       },
       "failures": [
         {
@@ -408,24 +392,18 @@
     "alx": {
       "world": "alx",
       "total_quotes": 26,
-      "verified_count": 19,
-      "failed_count": 7,
+      "verified_count": 22,
+      "failed_count": 4,
       "exact_no_diff_count": 2,
       "class_counts": {
-        "whitespace": 17,
+        "whitespace": 20,
         "case": 0,
         "punctuation": 0,
         "ellipsis": 0,
-        "bracket": 0
+        "bracket": 0,
+        "verse_number": 3
       },
       "failures": [
-        {
-          "id": "alx.quote.athanasius-death-trampled-down",
-          "source_file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
-          "failed_segment": "Now if by the sign of the Cross, and by faith in Christ, death is trampled down, it must be evident before the tribunal of truth that it is none other than Christ Himself that has displayed trophies and triumphs over death, and made him lose all his strength. And if, while previously death was strong, and for that reason terrible, now after the sojourn of the Saviour and the death and Resurrection of His body it is despised, it must be evident that death has been brought to nought and conquered by the very Christ that ascended the Cross.",
-          "nearest_context": "With over twenty volumes, the Nicene and \nPost-Nicene Fathers",
-          "recorded_verification_state": "verified-direct"
-        },
         {
           "id": "alx.quote.athanasius-made-god",
           "source_file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
@@ -438,20 +416,6 @@
           "source_file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
           "failed_segment": "Now we, too, say that those who have rushed on death (for there are some, not belonging to us, but sharing the name merely, who are in haste to give themselves up, the poor wretches dying through hatred to the Creator)—these, we say, banish themselves without being martyrs, even though they are punished publicly. For they do not preserve the characteristic mark of believing martyrdom, inasmuch as they have not known the only true God, but give themselves up to a vain death, as the Gymnosophists of the Indians to useless fire.",
           "nearest_context": "ially in reference to the gods)—he, too, has fixed\ntheir first",
-          "recorded_verification_state": "verified-direct"
-        },
-        {
-          "id": "alx.quote.demetrius-accused-him-bitterly",
-          "source_file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-          "failed_segment": "But soon afterward, seeing that he was prospering, and becoming great and distinguished among all men, the same Demetrius, overcome by human weakness, wrote of his deed as most foolish to the bishops throughout the world. But the bishops of Cesarea and Jerusalem, who were especially notable and distinguished among the bishops of Palestine, considering Origen worthy in the highest degree of the honor, ordained him a presbyter. Thereupon his fame increased greatly, and his name became renowned everywhere, and he obtained no small reputation for virtue and wisdom. But Demetrius, having nothing else that he could say against him, save this deed of his boyhood, accused him bitterly, and dared to include with him in these accusations those who had raised him to the presbyterate.",
-          "nearest_context": "Classics Ethereal Library\n    BR60\n    Christianity\n    Early",
-          "recorded_verification_state": "verified-direct"
-        },
-        {
-          "id": "alx.quote.dionysius-too-high-for-me-to-grasp",
-          "source_file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-          "failed_segment": "But I could not venture to reject the book, as many brethren hold it in high esteem. But I suppose that it is beyond my comprehension, and that there is a certain concealed and more wonderful meaning in every part. For if I do not understand I suspect that a deeper sense lies beneath the words. I do not measure and judge them by my own reason, but leaving the more to faith I regard them as too high for me to grasp. And I do not reject what I cannot comprehend, but rather wonder because I do not understand it.",
-          "nearest_context": "Classics Ethereal Library\n    BR60\n    Christianity\n    Early",
           "recorded_verification_state": "verified-direct"
         },
         {
@@ -481,7 +445,8 @@
         "case": 0,
         "punctuation": 3,
         "ellipsis": 1,
-        "bracket": 0
+        "bracket": 0,
+        "verse_number": 0
       },
       "failures": [
         {
@@ -602,7 +567,8 @@
         "case": 0,
         "punctuation": 3,
         "ellipsis": 0,
-        "bracket": 0
+        "bracket": 0,
+        "verse_number": 0
       },
       "failures": [
         {
@@ -660,7 +626,8 @@
         "case": 0,
         "punctuation": 0,
         "ellipsis": 0,
-        "bracket": 0
+        "bracket": 0,
+        "verse_number": 0
       },
       "failures": [
         {
@@ -697,7 +664,8 @@
         "case": 0,
         "punctuation": 1,
         "ellipsis": 0,
-        "bracket": 0
+        "bracket": 0,
+        "verse_number": 0
       },
       "failures": []
     },
@@ -712,7 +680,8 @@
         "case": 0,
         "punctuation": 0,
         "ellipsis": 1,
-        "bracket": 0
+        "bracket": 0,
+        "verse_number": 0
       },
       "failures": [
         {
@@ -749,14 +718,15 @@
         "case": 0,
         "punctuation": 0,
         "ellipsis": 0,
-        "bracket": 0
+        "bracket": 0,
+        "verse_number": 0
       },
       "failures": []
     }
   },
   "totals": {
     "total_quotes": 257,
-    "verified_count": 178,
-    "failed_count": 79
+    "verified_count": 184,
+    "failed_count": 73
   }
 }
